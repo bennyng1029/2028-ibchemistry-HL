@@ -1098,7 +1098,7 @@ S1.i18n.register('ja', 's1-3', {
     "Down a group: a decrease": "族を上から下へ：減少",
 
     // Trends in first ionization energy > Additional HL > p
-    "Going down a group, the outer electron is in a higher main energy level each time. It is further from the nucleus and there are more inner electrons shielding it. These two effects outweigh the larger nuclear charge, so less energy is needed to remove it.": "族を下へ進むと、いちばん外側の電子は、1 つずつ高い主エネルギー準位に入ります。原子核から遠くなり、遮蔽する内側の電子も増えます。この 2 つの効果が核電荷の増加を上回るので、取り除くのに必要なエネルギーは小さくなります。",
+    "Going down a group, the outer electron is in a higher main energy level each time. It is further from the nucleus and there are more inner electrons shielding it. These two effects outweigh the larger nuclear charge, so less energy is needed to remove it.": "族を上から下へ進むと、いちばん外側の電子は、1 つずつ高い主エネルギー準位に入ります。原子核から遠くなり、遮蔽する内側の電子も増えます。この 2 つの効果が核電荷の増加を上回るので、取り除くのに必要なエネルギーは小さくなります。",
 
     // Trends in first ionization energy > Additional HL > h3
     "Two discontinuities in each period": "各周期にある 2 つの不連続",
@@ -1864,7 +1864,7 @@ S1.i18n.register('ja', 's1-3', {
     "Lower than {above} ({av}). This is the trend down a group. The outer electron is in a higher main energy level (n = {n} instead of n = {m}), so it is further from the nucleus and shielded by more inner electrons. This outweighs the greater nuclear charge.": "{above}（{av}）より低くなっています。これが族を上から下への傾向です。いちばん外側の電子は、より高い主エネルギー準位（n = {m} ではなく n = {n}）にあります。そのため原子核から遠く、より多くの内側の電子に遮蔽されます。この効果が、核電荷の増加を上回ります。",
 
     // widget string (assets/js/widgets-s1-3.js)
-    "Almost the same as {above} ({av}). This is an exception to the usual decrease down a group. You will not be asked to explain it.": "{above}（{av}）とほとんど同じです。族を下へ進むとふつうは小さくなるので、これは例外です。この説明を求められることはありません。",
+    "Almost the same as {above} ({av}). This is an exception to the usual decrease down a group. You will not be asked to explain it.": "{above}（{av}）とほとんど同じです。族を上から下へ進むとふつうは小さくなるので、これは例外です。この説明を求められることはありません。",
 
     // widget string (assets/js/widgets-s1-3.js)
     "Mystery element": "なぞの元素",
