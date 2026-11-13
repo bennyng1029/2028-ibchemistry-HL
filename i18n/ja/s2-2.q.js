@@ -1282,9 +1282,9 @@ S1.i18n.register('ja', 's2-2.q', {
       stem: "<p>次の 4 つのアルカンを、沸点の順に並べましょう。沸点が<strong>最も低い</strong>ものを最初にします。</p>",
       options: [
         // EN: 2,2-dimethylpropane, <span class="chem">C(CH3)4</span>
-        "2,2-ジメチルプロパン (2,2-dimethylpropane) <span class=\"chem\">C(CH3)4</span>",
+        "2,2-ジメチルプロパン <span class=\"nowrap\">(2,2-dimethylpropane)</span> <span class=\"chem\">C(CH3)4</span>",
         // EN: 2-methylbutane, <span class="chem">(CH3)2CHCH2CH3</span>
-        "2-メチルブタン (2-methylbutane) <span class=\"chem\">(CH3)2CHCH2CH3</span>",
+        "2-メチルブタン <span class=\"nowrap\">(2-methylbutane)</span> <span class=\"chem\">(CH3)2CHCH2CH3</span>",
         // EN: pentane, <span class="chem">CH3CH2CH2CH2CH3</span>
         "ペンタン (pentane) <span class=\"chem\">CH3CH2CH2CH2CH3</span>",
         // EN: hexane, <span class="chem">CH3CH2CH2CH2CH2CH3</span>
