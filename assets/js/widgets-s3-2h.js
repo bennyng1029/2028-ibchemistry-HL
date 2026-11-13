@@ -947,6 +947,11 @@
     if (reverse) f = 1 - f;
     return xmin + f * (xmax - xmin);
   }
+  /** Axis units covered by `px` pixels of the plot area. Used to keep click and touch targets at least about 16 px wide on a phone. */
+  function chartSpan(canvas, xmin, xmax, px) {
+    var W = canvas.getBoundingClientRect().width, ml = W < 420 ? 48 : 56;
+    return px * (xmax - xmin) / Math.max(1, W - ml - 16);
+  }
 
   /* ==========================================================================
      s3-2h.ms — mass spectrum interpreter
@@ -993,7 +998,7 @@
       if (chart) chart.update(spec()); else {
         chart = S1.chart.plot(host, spec());
         w.listen(chart.canvas, 'click', function (e) {
-          var x = chartX(chart.canvas, e, 10, xMax()), best = null, bd = 2.6;
+          var x = chartX(chart.canvas, e, 10, xMax()), best = null, bd = Math.max(2.6, chartSpan(chart.canvas, 10, xMax(), 16));
           cur.peaks.forEach(function (p) { var d = Math.abs(p[0] - x); if (d < bd) { bd = d; best = p[0]; } });
           if (best != null) pick(best);
         });
@@ -1052,8 +1057,8 @@
         chart = S1.chart.plot(host, spec);
         chart.canvas.style.cursor = 'pointer';
         w.listen(chart.canvas, 'click', function (e) {
-          var x = chartX(chart.canvas, e, 400, 4000, true), best = -1, bd = Infinity;
-          cur.bands.forEach(function (b, i) { [b.at, b.twin].forEach(function (at) { if (at == null) return; var d = Math.abs(at - x); if (d < Math.max(110, b.width * 1.2) && d < bd) { bd = d; best = i; } }); });
+          var x = chartX(chart.canvas, e, 400, 4000, true), best = -1, bd = Infinity, reach = chartSpan(chart.canvas, 400, 4000, 16);
+          cur.bands.forEach(function (b, i) { [b.at, b.twin].forEach(function (at) { if (at == null) return; var d = Math.abs(at - x); if (d < Math.max(110, b.width * 1.2, reach) && d < bd) { bd = d; best = i; } }); });
           if (best >= 0) pick(best);
         });
       }

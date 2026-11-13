@@ -177,7 +177,7 @@ S1.i18n.register('zh-Hant', 's1-5', {
     "The volume occupied by one mole of an ideal gas. It is a constant at a specific temperature and pressure.": "一摩爾理想氣體所佔的體積。在指定的溫度和壓強下，它是一個常數。",
 
     // Molar volume of an ideal gas > p
-    "<dfn data-def=\"Standard temperature and pressure: 273.15 K (0 °C) and 100 kPa.\">STP</dfn> stands for standard temperature and pressure: <span class=\"mono\">273.15 K</span> (0 °C) and <span class=\"mono\">100 kPa</span>. At STP the molar volume of an ideal gas is <span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span>.": "<dfn data-def=\"標準溫度與壓力：273.15 K (0 °C) 和 100 kPa。\">STP <span class=\"en-term\">(standard temperature and pressure)</span></dfn> 即標準溫度與壓力：<span class=\"mono\">273.15 K</span> (0 °C) 和 <span class=\"mono\">100 kPa</span>。在 STP 下，理想氣體的摩爾體積是 <span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span>。",
+    "<dfn data-def=\"Standard temperature and pressure: 273.15 K (0 °C) and 100 kPa.\">STP</dfn> stands for standard temperature and pressure: <span class=\"mono\">273.15 K</span> (0 °C) and <span class=\"mono\">100 kPa</span>. At STP the molar volume of an ideal gas is <span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span>.": "<dfn data-def=\"標準溫度與壓力：273.15 K (0 °C) 和 100 kPa。\">標準溫度與壓力 <span class=\"en-term\">(STP)</span></dfn>（standard temperature and pressure）是指 <span class=\"mono\">273.15 K</span> (0 °C) 和 <span class=\"mono\">100 kPa</span>。在 STP 下，理想氣體的摩爾體積是 <span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span>。",
 
     // Molar volume of an ideal gas > data-def attribute
     "Standard temperature and pressure: 273.15 K (0 °C) and 100 kPa.": "標準溫度與壓力：273.15 K (0 °C) 和 100 kPa。",
