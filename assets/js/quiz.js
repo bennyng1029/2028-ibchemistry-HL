@@ -108,7 +108,7 @@
         if (q.type === 'numeric') {
           var unitText = Q(q, 'unit');
           var u = unitText ? ' <span class="unit" data-s1-done>' + S1.chem.unit(unitText) + '</span>' : '';
-          var shown = q.answerDisplay != null ? q.answerDisplay : (q.sigfigs ? S1.chem.fmt(Number(q.answer), Array.isArray(q.sigfigs) ? q.sigfigs[q.sigfigs.length - 1] : Number(String(q.sigfigs).split('-').pop())) : String(q.answer).replace('-', S1.chem.MINUS));
+          var shown = q.answerDisplay != null ? Q(q, 'answerDisplay') : (q.sigfigs ? S1.chem.fmt(Number(q.answer), Array.isArray(q.sigfigs) ? q.sigfigs[q.sigfigs.length - 1] : Number(String(q.sigfigs).split('-').pop())) : String(q.answer).replace('-', S1.chem.MINUS));
           h += '<p><strong>' + t('Answer:') + '</strong> <span class="mono">' + shown + '</span>' + u + '</p>';
         }
         if (q.solution) h += Q(q, 'solution');

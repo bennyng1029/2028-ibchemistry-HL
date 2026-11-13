@@ -561,7 +561,7 @@
     cv.draw(function (ctx, W, H) {
       var F = fonts(w), ink = w.color('--ink'), ink3 = w.color('--ink-3'), accent = w.color('--accent'), soft = w.color('--accent-soft'), line = w.color('--line-strong');
       // Each ion gets a slot at least 40 px wide, so the labels under the small ions do not overlap.
-      var gap = 6, minSlot = 40, scale = 0.36, total, cy = 62;
+      var gap = 6, minSlot = 40, scale = 0.3, total, cy = 66;
       function slot(d) { return Math.max(2 * (shown ? BK[d[0]][5] : 100) * scale, minSlot); }
       for (var tries = 0; tries < 60; tries++) {
         total = 0; ISO.forEach(function (d) { total += slot(d); });

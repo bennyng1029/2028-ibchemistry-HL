@@ -623,7 +623,9 @@
     var svg = w.svg('0 0 380 236', { label: t('Volumetric flask filled to the graduation mark') });
     svg.classList.add('mole-svg');
     var work = el('div', { class: 'mole-work' }); w.stage.appendChild(work);
-    var r1 = w.readoutItem(t('Amount of solute')), r2 = w.readoutItem(t('Molar concentration')), r3 = w.readoutItem(t('Mass concentration'));
+    var r1 = w.readoutItem(t('Amount of solute')), r2 = w.readoutItem(t('Molar concentration')), r3 = w.readoutItem(t('Mass concentration')), r4 = w.readoutItem(t('Dilution'));
+    // The third readout is the mass concentration when making a solution and the dilution when diluting.
+    var r3El = w.readout.children[w.readout.children.length - 2], r4El = w.readout.lastElementChild;
     var ARROW = '<path d="M140 150 h56 m-8 -6 l8 6 l-8 6" fill="none" stroke="var(--ink-2)" stroke-width="1.6"/>';
     function small(x, y, str) { return '<text x="' + x + '" y="' + y + '" text-anchor="middle" class="mole-svg__small">' + str + '</text>'; }
     function label(x, y, str) { return '<text x="' + x + '" y="' + y + '" text-anchor="middle" class="mole-svg__label">' + str + '</text>'; }
@@ -632,6 +634,7 @@
       var mk = mode.value === 'make';
       solute.el.hidden = !mk; mass.el.hidden = !mk; flask.el.hidden = !mk;
       c1.el.hidden = mk; pip.el.hidden = mk; flask2.el.hidden = mk;
+      r3El.hidden = !mk; r4El.hidden = mk;
       update();
     }
     function update() {
@@ -675,7 +678,7 @@
           t('dilution factor = {calc}', { calc: '<i>V</i><sub>2</sub> ÷ <i>V</i><sub>1</sub> = ' + flask2.value + ' ÷ ' + pip.value + ' = <b>' + F(fac, 3) + '</b>' }),
           { note: t('The amount of solute does not change: {n} mol leaves the pipette and {n} mol is in the flask. Only the volume changes. The volumes can stay in cm<sup>3</sup> here because the same unit is on both sides.', { n: mid(n1) }) }
         ]);
-        r1(F(n1, 3) + ' mol'); r2(F(C2, 3) + ' ' + U.moldm); r3(t('diluted {factor} times', { factor: F(fac, 3) }));
+        r1(F(n1, 3) + ' mol'); r2(F(C2, 3) + ' ' + U.moldm); r4(t('diluted {factor} times', { factor: F(fac, 3) }));
       }
     }
     sync();

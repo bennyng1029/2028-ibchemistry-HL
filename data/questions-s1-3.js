@@ -30,12 +30,21 @@
     var IND = '<br>&nbsp;&nbsp;';
     return lines.map(function (l) {
       if (plainLen(l) > 34) {
-        var parts = l.split(' = ').map(function (part) {
+        // Never break before the '=' of a level label such as "n = 2" (it is a name, not a step of working),
+        // nor before an '=' inside brackets such as "(2 + 2 + 6 = 10)".
+        var KEEP = '\u0001', LABEL = '\u0002', depth = 0, parts = [];
+        l = l.replace(/\bn = (\d+)(?=$|[,:)]| \u2192| &nbsp;)/g, 'n' + LABEL + '$1');
+        l.split(' = ').forEach(function (part, i) {
+          if (i && depth > 0) parts[parts.length - 1] += KEEP + part; else parts.push(part);
+          var plain = part.replace(/<[^>]+>/g, '');
+          depth += plain.split('(').length - plain.split(')').length;
+        });
+        parts = parts.map(function (part) {
           return plainLen(part) > 30 ? part.replace(/ ([\u00d7\u00f7]) \(/g, IND + '$1 (').replace(/ &nbsp; \(/g, IND + '(').replace(/ \u2248 /g, IND + '\u2248 ') : part;
         });
         var head = parts.shift();
         if (parts.length && plainLen(head) < 12) head += ' = ' + parts.shift();
-        l = [head].concat(parts).join(IND + '= ');
+        l = [head].concat(parts).join(IND + '= ').split(KEEP).join(' = ').split(LABEL).join('&nbsp;=&nbsp;');
       }
       return '<div class="worked__math">' + l + '</div>';
     }).join('');

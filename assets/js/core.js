@@ -42,7 +42,7 @@
     { id: 's2-3', group: 's2', ready: true, num: '2.3', sym: 'Me', short: 'Metallic model', title: 'The metallic model', blurb: 'Metallic bonding, delocalized electrons and the properties of metals.', href: 'topics/s2-3.html' },
     { id: 's2-4', group: 's2', ready: true, num: '2.4', sym: 'Ma', short: 'Models to materials', title: 'From models to materials', blurb: 'The bonding triangle, alloys and polymers.', href: 'topics/s2-4.html' },
     { id: 's3-1', group: 's3', ready: false, num: '3.1', sym: 'Pe', short: 'Periodic table', title: 'The periodic table: classification of elements', blurb: 'Groups, periods and blocks. Periodic trends and oxidation states.', href: 'topics/s3-1.html' },
-    { id: 's3-2', group: 's3', ready: false, num: '3.2', sym: 'Fg', short: 'Functional groups', title: 'Functional groups: classification of organic compounds', blurb: 'Organic formulas, homologous series, naming and isomers.', href: 'topics/s3-2.html' },
+    { id: 's3-2', group: 's3', ready: true, num: '3.2', sym: 'Fg', short: 'Functional groups', title: 'Functional groups: classification of organic compounds', blurb: 'Organic formulas, homologous series, naming and isomers.', href: 'topics/s3-2.html' },
     { id: 's3-2h', group: 's3', ready: true, level: 'ahl', num: '3.2', sym: 'Fg', short: 'Functional groups: HL', title: 'Functional groups: Additional HL', blurb: 'Stereoisomers, and finding structures from mass, IR and NMR spectra.', href: 'topics/s3-2h.html' }
   ];
   S1.topic = function (id) {

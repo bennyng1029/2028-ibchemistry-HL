@@ -176,10 +176,15 @@
     mol.lewis(host, spec);
   }
   // Static figures in the page text.
-  Array.prototype.forEach.call(document.querySelectorAll('[data-s22-lewis]'), function (host) {
-    var parts = host.getAttribute('data-s22-lewis').split(':');
-    try { drawLewis(host, parts[0], parts[1] || ''); } catch (e) { if (window.console) console.error('[s2-2] lewis figure', parts, e); }
-  });
+  function renderLewisFigs() {
+    Array.prototype.forEach.call(document.querySelectorAll('[data-s22-lewis]'), function (host) {
+      var parts = host.getAttribute('data-s22-lewis').split(':');
+      try { drawLewis(host, parts[0], parts[1] || ''); } catch (e) { if (window.console) console.error('[s2-2] lewis figure', parts, e); }
+    });
+  }
+  renderLewisFigs();
+  // The labels (aria-label) are read through t() when a figure is drawn, so draw again when the language changes.
+  if (S1.i18n && S1.i18n.onChange) S1.i18n.onChange(function () { renderLewisFigs(); });
 
   /* ==========================================================================
      s2-2.lewis — Lewis formula builder

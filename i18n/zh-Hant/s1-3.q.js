@@ -308,8 +308,8 @@ S1.i18n.register('zh-Hant', 's1-3.q', {
         // EN: List every level above it that an electron could start from.
         "列出在它上面、電子可以出發的每一個能級。",
       ],
-      // EN: <p>Visible lines come from falls that end on n = 2. The electron can start from n = 3, n = 4 or n = 5 (it can reach n = 3 or n = 4 by an earlier, smaller fall from n = 5).</p><div class="worked__math">n = 5 → n<br>&nbsp;&nbsp;= 2, &nbsp; n<br>&nbsp;&nbsp;= 4 → n<br>&nbsp;&nbsp;= 2, &nbsp; n<br>&nbsp;&nbsp;= 3 → n<br>&nbsp;&nbsp;= 2</div><p>That is <strong>3</strong> lines in the visible region. The other possible falls end on n = 1 (ultraviolet) or on n = 3 or n = 4 (infrared).</p>
-      solution: "<p>可見光譜線來自落到 n = 2 的躍遷。電子可以由 n = 3、n = 4 或 n = 5 出發（電子可以先由 n = 5 落下一小段，到達 n = 3 或 n = 4）。</p><div class=\"worked__math\">n = 5 → n<br>&nbsp;&nbsp;= 2, &nbsp; n<br>&nbsp;&nbsp;= 4 → n<br>&nbsp;&nbsp;= 2, &nbsp; n<br>&nbsp;&nbsp;= 3 → n<br>&nbsp;&nbsp;= 2</div><p>所以可見光區有 <strong>3</strong> 條譜線。其他可能的躍遷止於 n = 1（紫外線），或止於 n = 3 或 n = 4（紅外線）。</p>",
+      // EN: <p>Visible lines come from falls that end on n = 2. The electron can start from n = 3, n = 4 or n = 5 (it can reach n = 3 or n = 4 by an earlier, smaller fall from n = 5).</p><div class="worked__math">n = 5 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;4 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;3 → n&nbsp;=&nbsp;2</div><p>That is <strong>3</strong> lines in the visible region. The other possible falls end on n = 1 (ultraviolet) or on n = 3 or n = 4 (infrared).</p>
+      solution: "<p>可見光譜線來自落到 n = 2 的躍遷。電子可以由 n = 3、n = 4 或 n = 5 出發（電子可以先由 n = 5 落下一小段，到達 n = 3 或 n = 4）。</p><div class=\"worked__math\">n = 5 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;4 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;3 → n&nbsp;=&nbsp;2</div><p>所以可見光區有 <strong>3</strong> 條譜線。其他可能的躍遷止於 n = 1（紫外線），或止於 n = 3 或 n = 4（紅外線）。</p>",
       // EN: lines
       unit: "條譜線",
     },
@@ -412,8 +412,8 @@ S1.i18n.register('zh-Hant', 's1-3.q', {
         // EN: Fill in the order 1s, 2s, 2p, 3s, 3p. An s sublevel holds 2 electrons and a p sublevel holds 6.
         "按 1s、2s、2p、3s、3p 的次序填充。s 亞層可容納 2 個電子，p 亞層可容納 6 個。",
       ],
-      // EN: <p>Fill the sublevels from the lowest energy upwards (Aufbau principle): 1s (2), 2s (2), 2p (6), 3s (2). That is 12 electrons. The remaining 3 go into 3p.</p><div class="worked__math"><span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>3</sup></span><br>&nbsp;&nbsp;(2 + 2 + 6 + 2 + 3<br>&nbsp;&nbsp;= 15)</div>
-      solution: "<p>由能量最低的亞層開始向上填充（構築原理 (Aufbau principle)）：1s (2)、2s (2)、2p (6)、3s (2)，共 12 個電子。餘下的 3 個填入 3p。</p><div class=\"worked__math\"><span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>3</sup></span><br>&nbsp;&nbsp;(2 + 2 + 6 + 2 + 3<br>&nbsp;&nbsp;= 15)</div>",
+      // EN: <p>Fill the sublevels from the lowest energy upwards (Aufbau principle): 1s (2), 2s (2), 2p (6), 3s (2). That is 12 electrons. The remaining 3 go into 3p.</p><div class="worked__math"><span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>3</sup></span><br>&nbsp;&nbsp;(2 + 2 + 6 + 2 + 3 = 15)</div>
+      solution: "<p>由能量最低的亞層開始向上填充（構築原理 (Aufbau principle)）：1s (2)、2s (2)、2p (6)、3s (2)，共 12 個電子。餘下的 3 個填入 3p。</p><div class=\"worked__math\"><span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>3</sup></span><br>&nbsp;&nbsp;(2 + 2 + 6 + 2 + 3 = 15)</div>",
       misconception: {
         // EN (option B): After 3s the next sublevel to fill is 3p, not 3d. The 3d sublevel is higher in energy than 4s.
         "1": "3s 之後要填充的亞層是 3p，不是 3d。3d 亞層的能量比 4s 還要高。",
@@ -566,8 +566,8 @@ S1.i18n.register('zh-Hant', 's1-3.q', {
         // EN: Chromium and copper are the two exceptions to the usual filling order.
         "鉻和銅是不跟從一般填充次序的兩個例外。",
       ],
-      // EN: <p>Copper has 29 electrons. The usual order predicts <span class="mono">4s<sup>2</sup> 3d<sup>9</sup></span> after the argon core, but copper is an exception. Its ground state is</p><div class="worked__math"><span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>1</sup> 3d<sup>10</sup></span><br>&nbsp;&nbsp;(2 + 2 + 6 + 2 + 6 + 1 + 10<br>&nbsp;&nbsp;= 29)</div>
-      solution: "<p>銅有 29 個電子。按一般次序，氬核心之後會是 <span class=\"mono\">4s<sup>2</sup> 3d<sup>9</sup></span>，但銅是例外。它的基態是</p><div class=\"worked__math\"><span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>1</sup> 3d<sup>10</sup></span><br>&nbsp;&nbsp;(2 + 2 + 6 + 2 + 6 + 1 + 10<br>&nbsp;&nbsp;= 29)</div>",
+      // EN: <p>Copper has 29 electrons. The usual order predicts <span class="mono">4s<sup>2</sup> 3d<sup>9</sup></span> after the argon core, but copper is an exception. Its ground state is</p><div class="worked__math"><span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>1</sup> 3d<sup>10</sup></span><br>&nbsp;&nbsp;(2 + 2 + 6 + 2 + 6 + 1 + 10 = 29)</div>
+      solution: "<p>銅有 29 個電子。按一般次序，氬核心之後會是 <span class=\"mono\">4s<sup>2</sup> 3d<sup>9</sup></span>，但銅是例外。它的基態是</p><div class=\"worked__math\"><span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>1</sup> 3d<sup>10</sup></span><br>&nbsp;&nbsp;(2 + 2 + 6 + 2 + 6 + 1 + 10 = 29)</div>",
       misconception: {
         // EN (option A): This is what the usual filling order predicts, but copper is one of the two exceptions you must know.
         "0": "這是按一般填充次序得出的排佈，但銅是你必須記住的兩個例外之一。",
@@ -760,8 +760,8 @@ S1.i18n.register('zh-Hant', 's1-3.q', {
         // EN: Which sublevel loses electrons first when a first-row transition element forms a positive ion?
         "第一列過渡元素形成正離子時，哪個亞層先失去電子？",
       ],
-      // EN: <p>The iron atom is <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>. When first-row transition elements form ions, the 4s electrons are removed before the 3d electrons. Remove the two 4s electrons, then one 3d electron:</p><div class="worked__math"><span class="chem">Fe^3+</span>: <span class="mono">[Ar] 3d<sup>5</sup></span> &nbsp; (26 − 3<br>&nbsp;&nbsp;= 23 electrons)</div><p>This skill is listed for HL in Structure 3.1.</p>
-      solution: "<p>鐵原子是 <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>。第一列過渡元素形成離子時，4s 電子比 3d 電子先被移走。先移走兩個 4s 電子，再移走一個 3d 電子：</p><div class=\"worked__math\"><span class=\"chem\">Fe^3+</span>: <span class=\"mono\">[Ar] 3d<sup>5</sup></span> &nbsp; (26 − 3<br>&nbsp;&nbsp;= 23 個電子)</div><p>這項技能列於 Structure 3.1 的 HL 內容。</p>",
+      // EN: <p>The iron atom is <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>. When first-row transition elements form ions, the 4s electrons are removed before the 3d electrons. Remove the two 4s electrons, then one 3d electron:</p><div class="worked__math"><span class="chem">Fe^3+</span>: <span class="mono">[Ar] 3d<sup>5</sup></span><br>&nbsp;&nbsp;(26 − 3 = 23 electrons)</div><p>This skill is listed for HL in Structure 3.1.</p>
+      solution: "<p>鐵原子是 <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>。第一列過渡元素形成離子時，4s 電子比 3d 電子先被移走。先移走兩個 4s 電子，再移走一個 3d 電子：</p><div class=\"worked__math\"><span class=\"chem\">Fe^3+</span>: <span class=\"mono\">[Ar] 3d<sup>5</sup></span><br>&nbsp;&nbsp;(26 − 3 = 23 個電子)</div><p>這項技能列於 Structure 3.1 的 HL 內容。</p>",
       misconception: {
         // EN (option A): This removes all three electrons from 3d. When a first-row transition element forms an ion, the 4s electrons are lost first.
         "0": "這是把三個電子全部從 3d 移走。第一列過渡元素形成離子時，先失去 4s 電子。",
@@ -938,6 +938,8 @@ S1.i18n.register('zh-Hant', 's1-3.q', {
       ],
       // EN: <p>The convergence limit corresponds to ionization, so the photon at 91.2 nm has the energy needed to ionize one atom.</p><div class="worked__math">λ = 91.2 nm = 9.12 × 10<sup>−8</sup> m</div><div class="worked__math">f = c ÷ λ<br>&nbsp;&nbsp;= (3.00 × 10<sup>8</sup> <span class="unit">m s-1</span>)<br>&nbsp;&nbsp;÷ (9.12 × 10<sup>−8</sup> m)<br>&nbsp;&nbsp;= 3.289 × 10<sup>15</sup> <span class="unit">s-1</span></div><div class="worked__math">E = hf<br>&nbsp;&nbsp;= (6.63 × 10<sup>−34</sup> J s)<br>&nbsp;&nbsp;× (3.289 × 10<sup>15</sup> <span class="unit">s-1</span>)<br>&nbsp;&nbsp;= 2.181 × 10<sup>−18</sup> J<br>&nbsp;&nbsp;(for one atom)</div><div class="worked__math">for one mole: 2.181 × 10<sup>−18</sup> J × 6.02 × 10<sup>23</sup> <span class="unit">mol-1</span><br>&nbsp;&nbsp;= 1.313 × 10<sup>6</sup> <span class="unit">J mol-1</span></div><div class="worked__math">IE = 1.313 × 10<sup>6</sup> <span class="unit">J mol-1</span> ÷ 1000<br>&nbsp;&nbsp;= 1313 <span class="unit">kJ mol-1</span> ≈ 1310 <span class="unit">kJ mol-1</span></div><p>Check: the data booklet value for hydrogen is 1312 <span class="unit">kJ mol-1</span>. Common slips: leaving the wavelength in nm, stopping at the energy of one atom (2.18 × 10<sup>−18</sup> J), and forgetting to divide by 1000.</p>
       solution: "<p>會聚極限對應電離，所以波長 91.2 nm 的光子所具有的能量，就是電離一個原子所需的能量。</p><div class=\"worked__math\">λ = 91.2 nm = 9.12 × 10<sup>−8</sup> m</div><div class=\"worked__math\">f = c ÷ λ<br>&nbsp;&nbsp;= (3.00 × 10<sup>8</sup> <span class=\"unit\">m s-1</span>)<br>&nbsp;&nbsp;÷ (9.12 × 10<sup>−8</sup> m)<br>&nbsp;&nbsp;= 3.289 × 10<sup>15</sup> <span class=\"unit\">s-1</span></div><div class=\"worked__math\">E = hf<br>&nbsp;&nbsp;= (6.63 × 10<sup>−34</sup> J s)<br>&nbsp;&nbsp;× (3.289 × 10<sup>15</sup> <span class=\"unit\">s-1</span>)<br>&nbsp;&nbsp;= 2.181 × 10<sup>−18</sup> J<br>&nbsp;&nbsp;（一個原子）</div><div class=\"worked__math\">一摩爾: 2.181 × 10<sup>−18</sup> J × 6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span><br>&nbsp;&nbsp;= 1.313 × 10<sup>6</sup> <span class=\"unit\">J mol-1</span></div><div class=\"worked__math\">IE = 1.313 × 10<sup>6</sup> <span class=\"unit\">J mol-1</span> ÷ 1000<br>&nbsp;&nbsp;= 1313 <span class=\"unit\">kJ mol-1</span> ≈ 1310 <span class=\"unit\">kJ mol-1</span></div><p>核對：數據手冊中氫的數值是 1312 <span class=\"unit\">kJ mol-1</span>。常見錯誤：波長仍然用 nm；算到一個原子的能量（2.18 × 10<sup>−18</sup> J）就停下來；忘記除以 1000。</p>",
+      // EN: 1310 (or 1313)
+      answerDisplay: "1310 (或 1313)",
     },
 
     // ── s1-3-q036 · numeric · exam · AHL · Structure 1.3.6 · 2 marks
@@ -1198,8 +1200,8 @@ S1.i18n.register('zh-Hant', 's1-3.q', {
         // EN: The first electrons removed are the outermost ones.
         "最先移走的是最外層的電子。",
       ],
-      // EN: <p>Twelve ionization energies means the atom has twelve electrons. The jumps split them into three groups:</p><div class="worked__math">electrons 1 and 2: easiest to remove → outer level (n<br>&nbsp;&nbsp;= 3)</div><div class="worked__math">large jump (1451 → 7733)</div><div class="worked__math">electrons 3 to 10: eight electrons → next level in (n<br>&nbsp;&nbsp;= 2)</div><div class="worked__math">large jump (35 458 → 169 988)</div><div class="worked__math">electrons 11 and 12: hardest to remove → closest to the nucleus (n<br>&nbsp;&nbsp;= 1)</div><p>So the arrangement is 2, 8, 2: the element is magnesium, <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup></span>, in group 2 and period 3.</p>
-      solution: "<p>有十二個電離能，即原子有十二個電子。兩次躍升把這些電子分成三組：</p><div class=\"worked__math\">第 1 和第 2 個電子: 最容易移走 → 最外層 (n<br>&nbsp;&nbsp;= 3)</div><div class=\"worked__math\">大幅躍升 (1451 → 7733)</div><div class=\"worked__math\">第 3 至第 10 個電子: 八個電子 → 向內一層 (n<br>&nbsp;&nbsp;= 2)</div><div class=\"worked__math\">大幅躍升 (35 458 → 169 988)</div><div class=\"worked__math\">第 11 和第 12 個電子: 最難移走 → 最接近原子核 (n<br>&nbsp;&nbsp;= 1)</div><p>所以排列方式是 2, 8, 2：這個元素是鎂，<span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup></span>，在第 2 族、第 3 週期。</p>",
+      // EN: <p>Twelve ionization energies means the atom has twelve electrons. The jumps split them into three groups:</p><div class="worked__math">electrons 1 and 2: easiest to remove → outer level (n&nbsp;=&nbsp;3)</div><div class="worked__math">large jump (1451 → 7733)</div><div class="worked__math">electrons 3 to 10: eight electrons → next level in (n&nbsp;=&nbsp;2)</div><div class="worked__math">large jump (35 458 → 169 988)</div><div class="worked__math">electrons 11 and 12: hardest to remove → closest to the nucleus (n&nbsp;=&nbsp;1)</div><p>So the arrangement is 2, 8, 2: the element is magnesium, <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup></span>, in group 2 and period 3.</p>
+      solution: "<p>有十二個電離能，即原子有十二個電子。兩次躍升把這些電子分成三組：</p><div class=\"worked__math\">第 1 和第 2 個電子: 最容易移走 → 最外層 (n&nbsp;=&nbsp;3)</div><div class=\"worked__math\">大幅躍升 (1451 → 7733)</div><div class=\"worked__math\">第 3 至第 10 個電子: 八個電子 → 向內一層 (n&nbsp;=&nbsp;2)</div><div class=\"worked__math\">大幅躍升 (35 458 → 169 988)</div><div class=\"worked__math\">第 11 和第 12 個電子: 最難移走 → 最接近原子核 (n&nbsp;=&nbsp;1)</div><p>所以排列方式是 2, 8, 2：這個元素是鎂，<span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup></span>，在第 2 族、第 3 週期。</p>",
       misconception: {
         // EN (option B): The right numbers in the wrong order. The first electrons to be removed are the outer ones, so the group of 2 before the first jump is in the highest level, not the middle one.
         "1": "數字正確，但次序錯了。最先移走的是最外層的電子，所以第一次躍升之前的那 2 個電子在最高的能級，不是中間的能級。",
@@ -1474,8 +1476,8 @@ S1.i18n.register('zh-Hant', 's1-3.q', {
         // EN: An s sublevel has 1 orbital. A p sublevel has 3.
         "s 亞層有 1 個軌態，p 亞層有 3 個。",
       ],
-      // EN: <div class="worked__math">sublevels in n<br>&nbsp;&nbsp;= 2: 2s and 2p &nbsp; (2 sublevels)</div><div class="worked__math">orbitals: 1 (2s) + 3 (2p) = 4</div><p>Check: 4 orbitals × 2 electrons = 8 electrons, which agrees with 2n<sup>2</sup> = 8.</p>
-      solution: "<div class=\"worked__math\">亞層, n<br>&nbsp;&nbsp;= 2: 2s 和 2p &nbsp; (2 個亞層)</div><div class=\"worked__math\">軌態: 1 (2s) + 3 (2p) = 4</div><p>核對：4 個軌態 × 2 個電子 = 8 個電子，與 2n<sup>2</sup> = 8 吻合。</p>",
+      // EN: <div class="worked__math">sublevels in n&nbsp;=&nbsp;2: 2s and 2p<br>&nbsp;&nbsp;(2 sublevels)</div><div class="worked__math">orbitals: 1 (2s) + 3 (2p) = 4</div><p>Check: 4 orbitals × 2 electrons = 8 electrons, which agrees with 2n<sup>2</sup> = 8.</p>
+      solution: "<div class=\"worked__math\">亞層, n&nbsp;=&nbsp;2: 2s 和 2p<br>&nbsp;&nbsp;(2 個亞層)</div><div class=\"worked__math\">軌態: 1 (2s) + 3 (2p) = 4</div><p>核對：4 個軌態 × 2 個電子 = 8 個電子，與 2n<sup>2</sup> = 8 吻合。</p>",
       misconception: {
         // EN (option A): There are two sublevels, but they do not have one orbital each. The 2p sublevel has three orbitals.
         "0": "亞層確實有兩個，但並不是各有一個軌態。2p 亞層有三個軌態。",
@@ -1538,8 +1540,8 @@ S1.i18n.register('zh-Hant', 's1-3.q', {
         // EN: After the argon core the order is 4s, then 3d, then 4p.
         "氬核心之後的次序是 4s，然後 3d，然後 4p。",
       ],
-      // EN: <p>Selenium has 34 electrons: the argon core (18) plus 16.</p><div class="worked__math">4s<sup>2</sup> (2) &nbsp; 3d<sup>10</sup> (12) &nbsp; 4p<sup>4</sup> (16)</div><div class="worked__math"><span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>4</sup></span><br>&nbsp;&nbsp;(18 + 2 + 10 + 4<br>&nbsp;&nbsp;= 34)</div><p>Writing it as <span class="mono">[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>4</sup></span> is also accepted.</p>
-      solution: "<p>硒有 34 個電子：氬核心的 18 個，再加 16.</p><div class=\"worked__math\">4s<sup>2</sup> (2) &nbsp; 3d<sup>10</sup> (12) &nbsp; 4p<sup>4</sup> (16)</div><div class=\"worked__math\"><span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>4</sup></span><br>&nbsp;&nbsp;(18 + 2 + 10 + 4<br>&nbsp;&nbsp;= 34)</div><p>寫成 <span class=\"mono\">[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>4</sup></span> 也可接受。</p>",
+      // EN: <p>Selenium has 34 electrons: the argon core (18) plus 16.</p><div class="worked__math">4s<sup>2</sup> (2) &nbsp; 3d<sup>10</sup> (12) &nbsp; 4p<sup>4</sup> (16)</div><div class="worked__math"><span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>4</sup></span><br>&nbsp;&nbsp;(18 + 2 + 10 + 4 = 34)</div><p>Writing it as <span class="mono">[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>4</sup></span> is also accepted.</p>
+      solution: "<p>硒有 34 個電子：氬核心的 18 個，再加 16.</p><div class=\"worked__math\">4s<sup>2</sup> (2) &nbsp; 3d<sup>10</sup> (12) &nbsp; 4p<sup>4</sup> (16)</div><div class=\"worked__math\"><span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>4</sup></span><br>&nbsp;&nbsp;(18 + 2 + 10 + 4 = 34)</div><p>寫成 <span class=\"mono\">[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>4</sup></span> 也可接受。</p>",
       misconception: {
         // EN (option A): Count the electrons: 18 + 2 + 4 = 24. The ten 3d electrons are missing. The 3d sublevel fills before 4p.
         "0": "數一數電子：18 + 2 + 4 = 24。漏了十個 3d 電子。3d 亞層比 4p 先填充。",
@@ -1570,8 +1572,8 @@ S1.i18n.register('zh-Hant', 's1-3.q', {
         // EN: The atom is <span class="mono">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>. Remove two electrons, starting with 4s.
         "原子是 <span class=\"mono\">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>。移走兩個電子，由 4s 開始。",
       ],
-      // EN: <p>The copper atom is <span class="mono">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span> (an exception to the usual filling order). Remove the single 4s electron first, then one 3d electron:</p><div class="worked__math"><span class="chem">Cu^2+</span>: <span class="mono">[Ar] 3d<sup>9</sup></span> &nbsp; (29 − 2<br>&nbsp;&nbsp;= 27 electrons)</div><p>This skill is listed for HL in Structure 3.1.</p>
-      solution: "<p>銅原子是 <span class=\"mono\">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>（不跟從一般填充次序的例外）。先移走唯一的 4s 電子，再移走一個 3d 電子：</p><div class=\"worked__math\"><span class=\"chem\">Cu^2+</span>: <span class=\"mono\">[Ar] 3d<sup>9</sup></span> &nbsp; (29 − 2<br>&nbsp;&nbsp;= 27 個電子)</div><p>這項技能列於 Structure 3.1 的 HL 內容。</p>",
+      // EN: <p>The copper atom is <span class="mono">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span> (an exception to the usual filling order). Remove the single 4s electron first, then one 3d electron:</p><div class="worked__math"><span class="chem">Cu^2+</span>: <span class="mono">[Ar] 3d<sup>9</sup></span><br>&nbsp;&nbsp;(29 − 2 = 27 electrons)</div><p>This skill is listed for HL in Structure 3.1.</p>
+      solution: "<p>銅原子是 <span class=\"mono\">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>（不跟從一般填充次序的例外）。先移走唯一的 4s 電子，再移走一個 3d 電子：</p><div class=\"worked__math\"><span class=\"chem\">Cu^2+</span>: <span class=\"mono\">[Ar] 3d<sup>9</sup></span><br>&nbsp;&nbsp;(29 − 2 = 27 個電子)</div><p>這項技能列於 Structure 3.1 的 HL 內容。</p>",
       misconception: {
         // EN (option A): This keeps the 4s electrons and removes electrons from 3d. In ions of the first-row d-block metals, 4s is emptied first.
         "0": "這是保留 4s 電子，而從 3d 移走電子。第一列 d 區金屬形成離子時，4s 會先清空。",

@@ -134,7 +134,7 @@ function writeStringsFile(file, lang, scope, entries, values, stale) {
   fs.writeFileSync(file, s);
 }
 
-const Q_FIELDS = ['stem', 'options', 'hints', 'solution', 'answer', 'markscheme', 'misconception', 'correctNote', 'unit'];
+const Q_FIELDS = ['stem', 'options', 'hints', 'solution', 'answer', 'markscheme', 'misconception', 'correctNote', 'unit', 'answerDisplay'];
 /* The translatable fields of a question, as {field: englishValue} (arrays and objects kept as such). */
 function questionFields(q) {
   const o = {};
@@ -143,6 +143,7 @@ function questionFields(q) {
     if (v == null) return;
     if (f === 'answer' && q.type !== 'short') return;                 // numeric / index answers are logic, never translated
     if (f === 'unit' && !/[A-Za-z]{4}/.test(String(v))) return;       // unit symbols stay as they are
+    if (f === 'answerDisplay' && !/[A-Za-z\u00c0-\u024f]{2}/.test(String(v).replace(/<[^>]+>/g, ''))) return;   // a bare number ("24.3", "+2") has nothing to translate
     if (Array.isArray(v)) o[f] = v.slice();
     else if (typeof v === 'object') o[f] = Object.assign({}, v);
     else if (typeof v === 'string') o[f] = v;

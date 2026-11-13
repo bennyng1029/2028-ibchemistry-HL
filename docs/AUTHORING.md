@@ -432,7 +432,7 @@ Type-specific fields:
 |---|---|
 | `mcq` | `options`: HTML string[] (keep IB order, usually 4). `answer`: index of the correct option (0-based). `misconception`: object keyed by wrong option index, giving feedback specific to that distractor: `{0: '…', 2: '…', 3: '…'}`. |
 | `multi` | `options` as above. `answer`: array of all correct indices, e.g. `[1, 3]`. `misconception`: as for `mcq`. |
-| `numeric` | `answer`: unrounded number. `tolerance`: `'1%'` or `{rel: 0.01}` (relative), `{abs: 0.5}` or a bare number (absolute); default 1 % relative. `sigfigs`: `3` or `[2, 3]`; omit to ignore. `unit`: plain text such as `'mol dm-3'`. `answerDisplay` (optional HTML): how to print the answer in the solution if the automatic rounding is not what you want. |
+| `numeric` | `answer`: unrounded number. `tolerance`: `'1%'` or `{rel: 0.01}` (relative), `{abs: 0.5}` or a bare number (absolute); default 1 % relative. `sigfigs`: `3` or `[2, 3]`; omit to ignore. `unit`: plain text such as `'mol dm-3'`. `answerDisplay` (optional HTML): how to print the answer in the solution if the automatic rounding is not what you want. If it contains words (`'1310 (or 1313)'`) it is translated like the other question fields. |
 | `order` | `options`: the steps **written in the correct order**; the engine shuffles them. (`answer` is optional: an array of option indices in correct order, if you prefer to write options in another order.) |
 | `short` | `answer`: model answer (HTML). `markscheme`: string[] of marking points; the student ticks the ones they made, one mark each, capped at `marks`. |
 
