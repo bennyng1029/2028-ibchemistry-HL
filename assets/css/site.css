@@ -870,3 +870,19 @@ table.data .num, table.data td.num, table.data th.num { text-align: right; font-
 .nuclide sup { align-self: flex-start; top: 0; margin-top: -0.2em; }
 .widget__controls .control { max-width: 100%; min-width: 0; }
 .widget__controls .control .select, .widget__controls select { max-width: 100%; min-width: 0; width: 100%; text-overflow: ellipsis; }
+
+/* ---------- 26. Equations wrap between terms, never inside one --------------- */
+.chem__t { white-space: nowrap; display: inline-block; text-indent: 0; }
+.chem.chem--eq, .worked__math .chem.chem--eq { white-space: normal; }
+.q__text, .q__stem, .q__solution, .feedback, .summary__stem, .q__hints { min-width: 0; overflow-wrap: break-word; }
+
+/* ---------- 27. Molecule drawings and charts ---------------------------------- */
+.mol { max-width: 100%; }
+.mol__svg { display: block; margin-inline: auto; overflow: visible; }
+.mol--3d { min-width: 0; }
+.mol__canvas { max-width: 100%; border-radius: 2px; }
+.mol__canvas:focus-visible { outline-offset: -3px; }
+.mol__bar { margin-top: 0.5rem; }
+.mol__hint { font-size: 0.82rem; color: var(--ink-3); }
+.chart { max-width: 100%; min-width: 0; }
+.chart canvas { max-width: 100%; }

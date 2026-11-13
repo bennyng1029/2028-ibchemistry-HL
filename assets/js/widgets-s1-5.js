@@ -187,7 +187,7 @@
         ctx.setLineDash([5, 4]); ctx.strokeStyle = accent; ctx.lineWidth = 1.5;
         ctx.beginPath(); ctx.moveTo(X(0), Y(0)); ctx.lineTo(X(sorted[0].x), Y(sorted[0].y)); ctx.stroke(); ctx.setLineDash([]);
         ctx.fillStyle = ink3; ctx.font = monoFont(w, 11); ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
-        ctx.fillText(t('extrapolated to {T} K', { T: 0 }), X(0) + 6, Y(0) - 6);
+        ctx.fillText(t('extrapolated to {T} K', { T: 0 }), X(xmax * 0.22), Y(0) - 7);
       }
       var cx = X(st[m.x]), cy = Y(Math.min(st[m.y], ymax));
       ctx.setLineDash([2, 3]); ctx.strokeStyle = ink2; ctx.lineWidth = 1;
@@ -218,7 +218,7 @@
         st.P = st.n * R * st.T / st.V;
       }
       setDisabled(sV, st.mode === 'vt'); setDisabled(sN, st.mode === 'vt');
-      var key = st.mode + '|' + (m.x === 'V' ? st.T : st.V) + '|' + st.n;
+      var key = st.mode + '|' + (st.mode === 'pv' ? st.T : st.mode === 'pt' ? st.V : st.P) + '|' + st.n;
       if (key !== heldKey) { if (heldKey && trace.length > 1) ghost = trace; trace = []; heldKey = key; }
       var xv = st[m.x];
       if (!trace.some(function (p) { return Math.abs(p.x - xv) < 1e-9; })) trace.push({ x: xv, y: st[m.y] });
@@ -278,7 +278,7 @@
     if (g) {
       s += '<text x="' + (yAxisX + 6) + '" y="' + (T + 8) + '" ' + tx + ' fill="var(--ink)" font-weight="600">' + g.y + '</text>';
       s += '<text x="' + Rr + '" y="' + (B + 24) + '" text-anchor="end" ' + tx + ' fill="var(--ink)" font-weight="600">' + g.x + '</text>';
-      if (shape === 'offset') s += '<text x="' + (L - 4) + '" y="' + (B + 13) + '" ' + tx + '>' + MINUS + '273.15</text>';
+      if (shape === 'offset') s += '<text x="' + (L - 4) + '" y="' + (B + 25) + '" ' + tx + '>' + MINUS + '273.15</text>';
     } else if (shape === 'offset') {
       s += '<text x="' + (L - 2) + '" y="' + (B + 25) + '" ' + tx + '>' + t('negative') + '</text>';
     }

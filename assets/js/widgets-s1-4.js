@@ -66,7 +66,7 @@
   var SUBS = { '₀': '0', '₁': '1', '₂': '2', '₃': '3', '₄': '4', '₅': '5', '₆': '6', '₇': '7', '₈': '8', '₉': '9' };
   /**
    * 'CuSO4.5H2O' -> { ok, text, html, counts: [{sym, n, ar}], M, working } or { ok: false, error }.
-   * Handles brackets and hydrates. Elements Z = 1–36 only (the Ar values this site holds).
+   * Handles brackets and hydrates. Uses the Ar values in S1.chem.elements; elements without one are rejected.
    */
   function parseFormula(raw) {
     var s = String(raw == null ? '' : raw).replace(/[₀-₉]/g, function (c) { return SUBS[c]; })
@@ -96,7 +96,7 @@
               return items;
             }
             var e = chem.element(m[0]);
-            if (!e) { err = t('“{sym}” is not one of the elements this tool holds. It has A<sub>r</sub> values for elements 1 to 36 (H to Kr).', { sym: esc(m[0]) }); return items; }
+            if (!e || e.ar == null) { err = t('“{sym}” is not an element symbol with a relative atomic mass in this tool. Check the spelling and the capital letters.', { sym: esc(m[0]) }); return items; }
             i += m[0].length;
             items.push({ sym: e.symbol, n: count() });
           }
@@ -510,7 +510,7 @@
           var s = rowsIn[j].sym.value.trim(), vtxt = rowsIn[j].val.value.trim();
           if (!s && !vtxt) continue;
           var sym = s.charAt(0).toUpperCase() + s.slice(1).toLowerCase(), e = chem.element(sym), v = num(vtxt);
-          if (!e) return blank(t('“{sym}” is not an element symbol this tool holds (elements 1 to 36).', { sym: esc(s) }));
+          if (!e || e.ar == null) return blank(t('“{sym}” is not an element symbol with a relative atomic mass in this tool. Check the spelling.', { sym: esc(s) }));
           if (!isFinite(v) || v <= 0) return blank(pct ? t('Type a positive percentage for {sym}.', { sym: sym }) : t('Type a positive mass for {sym}.', { sym: sym }));
           if (items.some(function (it) { return it.sym === sym; })) return blank(t('{sym} appears twice. Give each element one row.', { sym: sym }));
           items.push({ sym: sym, value: v, shown: vtxt });

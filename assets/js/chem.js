@@ -36,49 +36,135 @@
     c: { name: 'Speed of light in vacuum', symbolHtml: '<i>c</i>', valueHtml: '3.00 ' + TIMES + ' 10<sup>8</sup>', unit: 'm s-1' }
   };
 
-  /* ---------- Periodic table data, Z = 1–36 (Ar to 2 d.p.) --------------- */
+  /* ---------- Periodic table data, Z = 1–118 ------------------------------
+     ar: relative atomic mass to 2 d.p. (null for elements with no stable isotopes; massNumber is then the
+         mass number of the longest-lived isotope, as periodic tables print it in brackets, where well established).
+     group: 1–18 (null for the f-block rows); La and Ac are placed in group 3, as in the IB data booklet layout.
+     block: 's' | 'p' | 'd' | 'f'.   category: 'metal' | 'metalloid' | 'non-metal' | 'unknown' (Z >= 113).   */
   var elements = [
-    { z: 1, symbol: 'H', name: 'hydrogen', ar: 1.01 },
-    { z: 2, symbol: 'He', name: 'helium', ar: 4.00 },
-    { z: 3, symbol: 'Li', name: 'lithium', ar: 6.94 },
-    { z: 4, symbol: 'Be', name: 'beryllium', ar: 9.01 },
-    { z: 5, symbol: 'B', name: 'boron', ar: 10.81 },
-    { z: 6, symbol: 'C', name: 'carbon', ar: 12.01 },
-    { z: 7, symbol: 'N', name: 'nitrogen', ar: 14.01 },
-    { z: 8, symbol: 'O', name: 'oxygen', ar: 16.00 },
-    { z: 9, symbol: 'F', name: 'fluorine', ar: 19.00 },
-    { z: 10, symbol: 'Ne', name: 'neon', ar: 20.18 },
-    { z: 11, symbol: 'Na', name: 'sodium', ar: 22.99 },
-    { z: 12, symbol: 'Mg', name: 'magnesium', ar: 24.31 },
-    { z: 13, symbol: 'Al', name: 'aluminium', ar: 26.98 },
-    { z: 14, symbol: 'Si', name: 'silicon', ar: 28.09 },
-    { z: 15, symbol: 'P', name: 'phosphorus', ar: 30.97 },
-    { z: 16, symbol: 'S', name: 'sulfur', ar: 32.07 },
-    { z: 17, symbol: 'Cl', name: 'chlorine', ar: 35.45 },
-    { z: 18, symbol: 'Ar', name: 'argon', ar: 39.95 },
-    { z: 19, symbol: 'K', name: 'potassium', ar: 39.10 },
-    { z: 20, symbol: 'Ca', name: 'calcium', ar: 40.08 },
-    { z: 21, symbol: 'Sc', name: 'scandium', ar: 44.96 },
-    { z: 22, symbol: 'Ti', name: 'titanium', ar: 47.87 },
-    { z: 23, symbol: 'V', name: 'vanadium', ar: 50.94 },
-    { z: 24, symbol: 'Cr', name: 'chromium', ar: 52.00 },
-    { z: 25, symbol: 'Mn', name: 'manganese', ar: 54.94 },
-    { z: 26, symbol: 'Fe', name: 'iron', ar: 55.85 },
-    { z: 27, symbol: 'Co', name: 'cobalt', ar: 58.93 },
-    { z: 28, symbol: 'Ni', name: 'nickel', ar: 58.69 },
-    { z: 29, symbol: 'Cu', name: 'copper', ar: 63.55 },
-    { z: 30, symbol: 'Zn', name: 'zinc', ar: 65.38 },
-    { z: 31, symbol: 'Ga', name: 'gallium', ar: 69.72 },
-    { z: 32, symbol: 'Ge', name: 'germanium', ar: 72.63 },
-    { z: 33, symbol: 'As', name: 'arsenic', ar: 74.92 },
-    { z: 34, symbol: 'Se', name: 'selenium', ar: 78.97 },
-    { z: 35, symbol: 'Br', name: 'bromine', ar: 79.90 },
-    { z: 36, symbol: 'Kr', name: 'krypton', ar: 83.80 }
+    { z: 1, symbol: 'H', name: 'hydrogen', ar: 1.01, group: 1, period: 1, block: 's', category: 'non-metal' },
+    { z: 2, symbol: 'He', name: 'helium', ar: 4.00, group: 18, period: 1, block: 's', category: 'non-metal' },
+    { z: 3, symbol: 'Li', name: 'lithium', ar: 6.94, group: 1, period: 2, block: 's', category: 'metal' },
+    { z: 4, symbol: 'Be', name: 'beryllium', ar: 9.01, group: 2, period: 2, block: 's', category: 'metal' },
+    { z: 5, symbol: 'B', name: 'boron', ar: 10.81, group: 13, period: 2, block: 'p', category: 'metalloid' },
+    { z: 6, symbol: 'C', name: 'carbon', ar: 12.01, group: 14, period: 2, block: 'p', category: 'non-metal' },
+    { z: 7, symbol: 'N', name: 'nitrogen', ar: 14.01, group: 15, period: 2, block: 'p', category: 'non-metal' },
+    { z: 8, symbol: 'O', name: 'oxygen', ar: 16.00, group: 16, period: 2, block: 'p', category: 'non-metal' },
+    { z: 9, symbol: 'F', name: 'fluorine', ar: 19.00, group: 17, period: 2, block: 'p', category: 'non-metal' },
+    { z: 10, symbol: 'Ne', name: 'neon', ar: 20.18, group: 18, period: 2, block: 'p', category: 'non-metal' },
+    { z: 11, symbol: 'Na', name: 'sodium', ar: 22.99, group: 1, period: 3, block: 's', category: 'metal' },
+    { z: 12, symbol: 'Mg', name: 'magnesium', ar: 24.31, group: 2, period: 3, block: 's', category: 'metal' },
+    { z: 13, symbol: 'Al', name: 'aluminium', ar: 26.98, group: 13, period: 3, block: 'p', category: 'metal' },
+    { z: 14, symbol: 'Si', name: 'silicon', ar: 28.09, group: 14, period: 3, block: 'p', category: 'metalloid' },
+    { z: 15, symbol: 'P', name: 'phosphorus', ar: 30.97, group: 15, period: 3, block: 'p', category: 'non-metal' },
+    { z: 16, symbol: 'S', name: 'sulfur', ar: 32.07, group: 16, period: 3, block: 'p', category: 'non-metal' },
+    { z: 17, symbol: 'Cl', name: 'chlorine', ar: 35.45, group: 17, period: 3, block: 'p', category: 'non-metal' },
+    { z: 18, symbol: 'Ar', name: 'argon', ar: 39.95, group: 18, period: 3, block: 'p', category: 'non-metal' },
+    { z: 19, symbol: 'K', name: 'potassium', ar: 39.10, group: 1, period: 4, block: 's', category: 'metal' },
+    { z: 20, symbol: 'Ca', name: 'calcium', ar: 40.08, group: 2, period: 4, block: 's', category: 'metal' },
+    { z: 21, symbol: 'Sc', name: 'scandium', ar: 44.96, group: 3, period: 4, block: 'd', category: 'metal' },
+    { z: 22, symbol: 'Ti', name: 'titanium', ar: 47.87, group: 4, period: 4, block: 'd', category: 'metal' },
+    { z: 23, symbol: 'V', name: 'vanadium', ar: 50.94, group: 5, period: 4, block: 'd', category: 'metal' },
+    { z: 24, symbol: 'Cr', name: 'chromium', ar: 52.00, group: 6, period: 4, block: 'd', category: 'metal' },
+    { z: 25, symbol: 'Mn', name: 'manganese', ar: 54.94, group: 7, period: 4, block: 'd', category: 'metal' },
+    { z: 26, symbol: 'Fe', name: 'iron', ar: 55.85, group: 8, period: 4, block: 'd', category: 'metal' },
+    { z: 27, symbol: 'Co', name: 'cobalt', ar: 58.93, group: 9, period: 4, block: 'd', category: 'metal' },
+    { z: 28, symbol: 'Ni', name: 'nickel', ar: 58.69, group: 10, period: 4, block: 'd', category: 'metal' },
+    { z: 29, symbol: 'Cu', name: 'copper', ar: 63.55, group: 11, period: 4, block: 'd', category: 'metal' },
+    { z: 30, symbol: 'Zn', name: 'zinc', ar: 65.38, group: 12, period: 4, block: 'd', category: 'metal' },
+    { z: 31, symbol: 'Ga', name: 'gallium', ar: 69.72, group: 13, period: 4, block: 'p', category: 'metal' },
+    { z: 32, symbol: 'Ge', name: 'germanium', ar: 72.63, group: 14, period: 4, block: 'p', category: 'metalloid' },
+    { z: 33, symbol: 'As', name: 'arsenic', ar: 74.92, group: 15, period: 4, block: 'p', category: 'metalloid' },
+    { z: 34, symbol: 'Se', name: 'selenium', ar: 78.97, group: 16, period: 4, block: 'p', category: 'non-metal' },
+    { z: 35, symbol: 'Br', name: 'bromine', ar: 79.90, group: 17, period: 4, block: 'p', category: 'non-metal' },
+    { z: 36, symbol: 'Kr', name: 'krypton', ar: 83.80, group: 18, period: 4, block: 'p', category: 'non-metal' },
+    { z: 37, symbol: 'Rb', name: 'rubidium', ar: 85.47, group: 1, period: 5, block: 's', category: 'metal' },
+    { z: 38, symbol: 'Sr', name: 'strontium', ar: 87.62, group: 2, period: 5, block: 's', category: 'metal' },
+    { z: 39, symbol: 'Y', name: 'yttrium', ar: 88.91, group: 3, period: 5, block: 'd', category: 'metal' },
+    { z: 40, symbol: 'Zr', name: 'zirconium', ar: 91.22, group: 4, period: 5, block: 'd', category: 'metal' },
+    { z: 41, symbol: 'Nb', name: 'niobium', ar: 92.91, group: 5, period: 5, block: 'd', category: 'metal' },
+    { z: 42, symbol: 'Mo', name: 'molybdenum', ar: 95.95, group: 6, period: 5, block: 'd', category: 'metal' },
+    { z: 43, symbol: 'Tc', name: 'technetium', ar: null, group: 7, period: 5, block: 'd', category: 'metal', massNumber: 98 },
+    { z: 44, symbol: 'Ru', name: 'ruthenium', ar: 101.07, group: 8, period: 5, block: 'd', category: 'metal' },
+    { z: 45, symbol: 'Rh', name: 'rhodium', ar: 102.91, group: 9, period: 5, block: 'd', category: 'metal' },
+    { z: 46, symbol: 'Pd', name: 'palladium', ar: 106.42, group: 10, period: 5, block: 'd', category: 'metal' },
+    { z: 47, symbol: 'Ag', name: 'silver', ar: 107.87, group: 11, period: 5, block: 'd', category: 'metal' },
+    { z: 48, symbol: 'Cd', name: 'cadmium', ar: 112.41, group: 12, period: 5, block: 'd', category: 'metal' },
+    { z: 49, symbol: 'In', name: 'indium', ar: 114.82, group: 13, period: 5, block: 'p', category: 'metal' },
+    { z: 50, symbol: 'Sn', name: 'tin', ar: 118.71, group: 14, period: 5, block: 'p', category: 'metal' },
+    { z: 51, symbol: 'Sb', name: 'antimony', ar: 121.76, group: 15, period: 5, block: 'p', category: 'metalloid' },
+    { z: 52, symbol: 'Te', name: 'tellurium', ar: 127.60, group: 16, period: 5, block: 'p', category: 'metalloid' },
+    { z: 53, symbol: 'I', name: 'iodine', ar: 126.90, group: 17, period: 5, block: 'p', category: 'non-metal' },
+    { z: 54, symbol: 'Xe', name: 'xenon', ar: 131.29, group: 18, period: 5, block: 'p', category: 'non-metal' },
+    { z: 55, symbol: 'Cs', name: 'caesium', ar: 132.91, group: 1, period: 6, block: 's', category: 'metal' },
+    { z: 56, symbol: 'Ba', name: 'barium', ar: 137.33, group: 2, period: 6, block: 's', category: 'metal' },
+    { z: 57, symbol: 'La', name: 'lanthanum', ar: 138.91, group: 3, period: 6, block: 'd', category: 'metal' },
+    { z: 58, symbol: 'Ce', name: 'cerium', ar: 140.12, group: null, period: 6, block: 'f', category: 'metal' },
+    { z: 59, symbol: 'Pr', name: 'praseodymium', ar: 140.91, group: null, period: 6, block: 'f', category: 'metal' },
+    { z: 60, symbol: 'Nd', name: 'neodymium', ar: 144.24, group: null, period: 6, block: 'f', category: 'metal' },
+    { z: 61, symbol: 'Pm', name: 'promethium', ar: null, group: null, period: 6, block: 'f', category: 'metal', massNumber: 145 },
+    { z: 62, symbol: 'Sm', name: 'samarium', ar: 150.36, group: null, period: 6, block: 'f', category: 'metal' },
+    { z: 63, symbol: 'Eu', name: 'europium', ar: 151.96, group: null, period: 6, block: 'f', category: 'metal' },
+    { z: 64, symbol: 'Gd', name: 'gadolinium', ar: 157.25, group: null, period: 6, block: 'f', category: 'metal' },
+    { z: 65, symbol: 'Tb', name: 'terbium', ar: 158.93, group: null, period: 6, block: 'f', category: 'metal' },
+    { z: 66, symbol: 'Dy', name: 'dysprosium', ar: 162.50, group: null, period: 6, block: 'f', category: 'metal' },
+    { z: 67, symbol: 'Ho', name: 'holmium', ar: 164.93, group: null, period: 6, block: 'f', category: 'metal' },
+    { z: 68, symbol: 'Er', name: 'erbium', ar: 167.26, group: null, period: 6, block: 'f', category: 'metal' },
+    { z: 69, symbol: 'Tm', name: 'thulium', ar: 168.93, group: null, period: 6, block: 'f', category: 'metal' },
+    { z: 70, symbol: 'Yb', name: 'ytterbium', ar: 173.05, group: null, period: 6, block: 'f', category: 'metal' },
+    { z: 71, symbol: 'Lu', name: 'lutetium', ar: 174.97, group: null, period: 6, block: 'f', category: 'metal' },
+    { z: 72, symbol: 'Hf', name: 'hafnium', ar: 178.49, group: 4, period: 6, block: 'd', category: 'metal' },
+    { z: 73, symbol: 'Ta', name: 'tantalum', ar: 180.95, group: 5, period: 6, block: 'd', category: 'metal' },
+    { z: 74, symbol: 'W', name: 'tungsten', ar: 183.84, group: 6, period: 6, block: 'd', category: 'metal' },
+    { z: 75, symbol: 'Re', name: 'rhenium', ar: 186.21, group: 7, period: 6, block: 'd', category: 'metal' },
+    { z: 76, symbol: 'Os', name: 'osmium', ar: 190.23, group: 8, period: 6, block: 'd', category: 'metal' },
+    { z: 77, symbol: 'Ir', name: 'iridium', ar: 192.22, group: 9, period: 6, block: 'd', category: 'metal' },
+    { z: 78, symbol: 'Pt', name: 'platinum', ar: 195.08, group: 10, period: 6, block: 'd', category: 'metal' },
+    { z: 79, symbol: 'Au', name: 'gold', ar: 196.97, group: 11, period: 6, block: 'd', category: 'metal' },
+    { z: 80, symbol: 'Hg', name: 'mercury', ar: 200.59, group: 12, period: 6, block: 'd', category: 'metal' },
+    { z: 81, symbol: 'Tl', name: 'thallium', ar: 204.38, group: 13, period: 6, block: 'p', category: 'metal' },
+    { z: 82, symbol: 'Pb', name: 'lead', ar: 207.20, group: 14, period: 6, block: 'p', category: 'metal' },
+    { z: 83, symbol: 'Bi', name: 'bismuth', ar: 208.98, group: 15, period: 6, block: 'p', category: 'metal' },
+    { z: 84, symbol: 'Po', name: 'polonium', ar: null, group: 16, period: 6, block: 'p', category: 'metal', massNumber: 209 },
+    { z: 85, symbol: 'At', name: 'astatine', ar: null, group: 17, period: 6, block: 'p', category: 'metalloid', massNumber: 210 },
+    { z: 86, symbol: 'Rn', name: 'radon', ar: null, group: 18, period: 6, block: 'p', category: 'non-metal', massNumber: 222 },
+    { z: 87, symbol: 'Fr', name: 'francium', ar: null, group: 1, period: 7, block: 's', category: 'metal', massNumber: 223 },
+    { z: 88, symbol: 'Ra', name: 'radium', ar: null, group: 2, period: 7, block: 's', category: 'metal', massNumber: 226 },
+    { z: 89, symbol: 'Ac', name: 'actinium', ar: null, group: 3, period: 7, block: 'd', category: 'metal', massNumber: 227 },
+    { z: 90, symbol: 'Th', name: 'thorium', ar: 232.04, group: null, period: 7, block: 'f', category: 'metal' },
+    { z: 91, symbol: 'Pa', name: 'protactinium', ar: 231.04, group: null, period: 7, block: 'f', category: 'metal' },
+    { z: 92, symbol: 'U', name: 'uranium', ar: 238.03, group: null, period: 7, block: 'f', category: 'metal' },
+    { z: 93, symbol: 'Np', name: 'neptunium', ar: null, group: null, period: 7, block: 'f', category: 'metal', massNumber: 237 },
+    { z: 94, symbol: 'Pu', name: 'plutonium', ar: null, group: null, period: 7, block: 'f', category: 'metal', massNumber: 244 },
+    { z: 95, symbol: 'Am', name: 'americium', ar: null, group: null, period: 7, block: 'f', category: 'metal', massNumber: 243 },
+    { z: 96, symbol: 'Cm', name: 'curium', ar: null, group: null, period: 7, block: 'f', category: 'metal', massNumber: 247 },
+    { z: 97, symbol: 'Bk', name: 'berkelium', ar: null, group: null, period: 7, block: 'f', category: 'metal', massNumber: 247 },
+    { z: 98, symbol: 'Cf', name: 'californium', ar: null, group: null, period: 7, block: 'f', category: 'metal', massNumber: 251 },
+    { z: 99, symbol: 'Es', name: 'einsteinium', ar: null, group: null, period: 7, block: 'f', category: 'metal', massNumber: 252 },
+    { z: 100, symbol: 'Fm', name: 'fermium', ar: null, group: null, period: 7, block: 'f', category: 'metal', massNumber: 257 },
+    { z: 101, symbol: 'Md', name: 'mendelevium', ar: null, group: null, period: 7, block: 'f', category: 'metal', massNumber: 258 },
+    { z: 102, symbol: 'No', name: 'nobelium', ar: null, group: null, period: 7, block: 'f', category: 'metal', massNumber: 259 },
+    { z: 103, symbol: 'Lr', name: 'lawrencium', ar: null, group: null, period: 7, block: 'f', category: 'metal' },
+    { z: 104, symbol: 'Rf', name: 'rutherfordium', ar: null, group: 4, period: 7, block: 'd', category: 'metal' },
+    { z: 105, symbol: 'Db', name: 'dubnium', ar: null, group: 5, period: 7, block: 'd', category: 'metal' },
+    { z: 106, symbol: 'Sg', name: 'seaborgium', ar: null, group: 6, period: 7, block: 'd', category: 'metal' },
+    { z: 107, symbol: 'Bh', name: 'bohrium', ar: null, group: 7, period: 7, block: 'd', category: 'metal' },
+    { z: 108, symbol: 'Hs', name: 'hassium', ar: null, group: 8, period: 7, block: 'd', category: 'metal' },
+    { z: 109, symbol: 'Mt', name: 'meitnerium', ar: null, group: 9, period: 7, block: 'd', category: 'metal' },
+    { z: 110, symbol: 'Ds', name: 'darmstadtium', ar: null, group: 10, period: 7, block: 'd', category: 'metal' },
+    { z: 111, symbol: 'Rg', name: 'roentgenium', ar: null, group: 11, period: 7, block: 'd', category: 'metal' },
+    { z: 112, symbol: 'Cn', name: 'copernicium', ar: null, group: 12, period: 7, block: 'd', category: 'metal' },
+    { z: 113, symbol: 'Nh', name: 'nihonium', ar: null, group: 13, period: 7, block: 'p', category: 'unknown' },
+    { z: 114, symbol: 'Fl', name: 'flerovium', ar: null, group: 14, period: 7, block: 'p', category: 'unknown' },
+    { z: 115, symbol: 'Mc', name: 'moscovium', ar: null, group: 15, period: 7, block: 'p', category: 'unknown' },
+    { z: 116, symbol: 'Lv', name: 'livermorium', ar: null, group: 16, period: 7, block: 'p', category: 'unknown' },
+    { z: 117, symbol: 'Ts', name: 'tennessine', ar: null, group: 17, period: 7, block: 'p', category: 'unknown' },
+    { z: 118, symbol: 'Og', name: 'oganesson', ar: null, group: 18, period: 7, block: 'p', category: 'unknown' }
   ];
   var bySymbol = {};
   elements.forEach(function (e) { bySymbol[e.symbol] = e; });
 
-  /** Look up an element by symbol ('Na') or atomic number (11). Returns null if not in Z = 1–36. */
+  /** Look up an element by symbol ('Na') or atomic number (11). Returns null if there is no such element. */
   function element(key) {
     if (typeof key === 'number') return elements[key - 1] || null;
     return bySymbol[String(key)] || null;
@@ -102,6 +188,8 @@
     s = s.replace(/\^(\d+)/g, '<sup>$1</sup>');
     s = s.replace(/([A-Za-z)\]]|<\/sub>)([+-])(?![A-Za-z0-9<])/g, function (m, pre, sign) { return pre + '<sup>' + (sign === '-' ? MINUS : '+') + '</sup>'; });
     s = s.replace(/([A-Za-z)\]]|<\/sub>)\.(?=\d*[A-Z])/g, '$1·');
+    // An equation (it has spaces) may wrap between terms, but never inside one.
+    if (/\s/.test(s)) s = s.split(/\s+/).map(function (tok) { return '<span class="chem__t">' + tok + '</span>'; }).join(' ');
     return s;
   }
 
@@ -121,7 +209,7 @@
     return '<span class="nuclide" data-i18n="off"><span class="nuclide__pre' + (hasZ ? '' : ' nuclide__pre--a') + '"><span>' + esc(A) + '</span>' + (hasZ ? '<span>' + esc(Z) + '</span>' : '') + '</span>' + esc(symbol) + ch + '</span>';
   }
 
-  /** Molar mass in g mol^-1 from a formula string using the Ar table (Z ≤ 36). NaN if unknown element.
+  /** Molar mass in g mol^-1 from a formula string using the Ar table. NaN if an element is unknown or has no Ar.
    *  Handles brackets and hydrates: molarMass('Ca(OH)2'), molarMass('CuSO4.5H2O'). Ignores charges. */
   function molarMass(str) {
     var s = String(str).replace(/\s+/g, '').replace(/\^?\d*[+-]$/, '');
@@ -146,7 +234,7 @@
             if (!mm) return NaN;
             var el = bySymbol[mm[0]];
             if (!el && mm[0].length === 2) { el = bySymbol[mm[0][0]]; mm = [mm[0][0]]; }
-            if (!el) return NaN;
+            if (!el || el.ar == null) return NaN;
             i += mm[0].length;
             sum += el.ar * num();
           }

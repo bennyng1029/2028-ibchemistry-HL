@@ -773,6 +773,7 @@
       n.setAttribute('data-s1-done', '');
       if (n.children.length) return;                    // author wrote the HTML by hand
       n.innerHTML = S1.chem.formula(n.textContent);
+      if (n.querySelector('.chem__t')) n.classList.add('chem--eq');   // an equation: may wrap between terms
     });
     Array.prototype.forEach.call(root.querySelectorAll('.unit:not([data-s1-done])'), function (n) {
       n.setAttribute('data-s1-done', '');
@@ -1125,7 +1126,16 @@
         num.addEventListener('input', function () { if (num.value !== '' && num.value !== '-') set(num.value, false, num); });
         num.addEventListener('blur', function () { num.value = val; });
         (opts.parent || controls).appendChild(wrap);
-        return { el: wrap, get value() { return val; }, set: function (v, silent) { set(v, silent); } };
+        return { el: wrap, get value() { return val; }, set: function (v, silent) { set(v, silent); },
+          /** Same as set(). */
+          setValue: function (v, silent) { set(v, silent); },
+          /** Change the limits (and optionally the step). The value is clamped into the new range; onInput fires only if it changed. */
+          setRange: function (min, max, newStep, silent) {
+            opts.min = min; opts.max = max;
+            [range, num].forEach(function (i) { i.min = min; i.max = max; if (newStep != null) i.step = newStep; });
+            var before = val; set(val, true); range.value = val; num.value = val;
+            if (val !== before && !silent && opts.onInput) opts.onInput(val);
+          } };
       },
       /** Button in the controls area. Returns the <button>. */
       button: function (label, onClick, opts) {
