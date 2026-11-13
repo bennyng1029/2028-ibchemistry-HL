@@ -557,7 +557,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "The peak at the highest m/z is the whole molecule with one electron removed.": "m/z 最大的峰，是失去了一個電子的整個分子。",
 
     // Mass spectrometry of organic compounds > worked example > maths line
-    "molecular ion peak: m/z = 58": "分子離子峰: m/z = 58",
+    "molecular ion peak: m/z = 58": "分子離子峰：m/z = 58",
 
     // Mass spectrometry of organic compounds > worked example > maths line
     "<i>M</i><sub>r</sub>(C<sub>3</sub>H<sub>6</sub>O) = 3(12) + 6(1) + 16 = 58, so this fits": "<i>M</i><sub>r</sub>(C<sub>3</sub>H<sub>6</sub>O) = 3(12) + 6(1) + 16 = 58，所以吻合",
@@ -578,7 +578,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "Section 22 lists the piece for each mass lost.": "第 22 節列出每個失去的質量所對應的碎片。",
 
     // Mass spectrometry of organic compounds > worked example > maths line
-    "ion at m/z = 43: CH<sub>3</sub>CO<sup>+</sup> (12 + 3 + 12 + 16 = 43)": "m/z = 43 的離子: CH<sub>3</sub>CO<sup>+</sup> (12 + 3 + 12 + 16 = 43)",
+    "ion at m/z = 43: CH<sub>3</sub>CO<sup>+</sup> (12 + 3 + 12 + 16 = 43)": "m/z = 43 的離子：CH<sub>3</sub>CO<sup>+</sup> (12 + 3 + 12 + 16 = 43)",
 
     // Mass spectrometry of organic compounds > worked example > data-title attribute
     "Test each structure": "測試每個結構",
@@ -1511,1276 +1511,1276 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "The core content of this topic is on the page <a href=\"s3-2.html\">3.2 Functional groups</a>.": "本課題的核心內容在 <a href=\"s3-2.html\">3.2 官能基</a> 頁面。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "iodoalkanes": "",
+    "iodoalkanes": "碘烷",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "bromoalkanes": "",
+    "bromoalkanes": "溴烷",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "chloroalkanes": "",
+    "chloroalkanes": "氯烷",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "fluoroalkanes": "",
+    "fluoroalkanes": "氟烷",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "medium-weak; multiple bands": "",
+    "medium-weak; multiple bands": "中至弱；多個吸收帶 (medium-weak; multiple bands)",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "alkynes": "",
+    "alkynes": "炔烴",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "variable": "",
+    "variable": "可變 (variable)",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "carboxylic acids (with hydrogen bonding)": "",
+    "carboxylic acids (with hydrogen bonding)": "羧酸（有氫鍵）",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "alcohols and phenols (with hydrogen bonding)": "",
+    "alcohols and phenols (with hydrogen bonding)": "醇和酚（有氫鍵）",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "primary amines": "",
+    "primary amines": "一級胺",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "medium; two bands": "",
+    "medium; two bands": "中；兩個吸收帶 (medium; two bands)",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "H on the carbon next to the C=O of an ester or acid": "",
+    "H on the carbon next to the C=O of an ester or acid": "與酯或酸的 C=O 相鄰的碳原子上的 H",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "H on the carbon next to the C=O of a ketone or aldehyde": "",
+    "H on the carbon next to the C=O of a ketone or aldehyde": "與酮或醛的 C=O 相鄰的碳原子上的 H",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "H of a hydroxyl group in an alcohol": "",
+    "H of a hydroxyl group in an alcohol": "醇中羥基的 H",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "or": "",
+    "or": "或",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "carbon atom": "",
+    "carbon atom": "碳原子",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "cis-but-2-ene: both CH3 groups are above the double bond": "",
+    "cis-but-2-ene: both CH3 groups are above the double bond": "cis-but-2-ene：兩個 CH3 基團都在雙鍵的上方",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "<i>cis</i>-but-2-ene: the two CH<sub>3</sub> groups are on the same side.": "",
+    "<i>cis</i>-but-2-ene: the two CH<sub>3</sub> groups are on the same side.": "<i>cis</i>-but-2-ene：兩個 CH<sub>3</sub> 基團在同一側。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "trans-but-2-ene: one CH3 group is above and one is below the double bond": "",
+    "trans-but-2-ene: one CH3 group is above and one is below the double bond": "trans-but-2-ene：一個 CH3 基團在雙鍵上方，一個在下方",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "<i>trans</i>-but-2-ene: the two CH<sub>3</sub> groups are on opposite sides.": "",
+    "<i>trans</i>-but-2-ene: the two CH<sub>3</sub> groups are on opposite sides.": "<i>trans</i>-but-2-ene：兩個 CH<sub>3</sub> 基團在相反的兩側。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "cis-1,2-dimethylcyclopropane: both CH3 groups on wedge bonds": "",
+    "cis-1,2-dimethylcyclopropane: both CH3 groups on wedge bonds": "cis-1,2-dimethylcyclopropane：兩個 CH3 基團都在楔形鍵上",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "<i>cis</i>-1,2-dimethylcyclopropane: both CH<sub>3</sub> groups are on the same face of the ring.": "",
+    "<i>cis</i>-1,2-dimethylcyclopropane: both CH<sub>3</sub> groups are on the same face of the ring.": "<i>cis</i>-1,2-dimethylcyclopropane：兩個 CH<sub>3</sub> 基團在環的同一面。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "trans-1,2-dimethylcyclopropane: one CH3 group on a wedge bond and one on a hashed bond": "",
+    "trans-1,2-dimethylcyclopropane: one CH3 group on a wedge bond and one on a hashed bond": "trans-1,2-dimethylcyclopropane：一個 CH3 基團在楔形鍵上，一個在虛線鍵上",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "<i>trans</i>-1,2-dimethylcyclopropane: the CH<sub>3</sub> groups are on opposite faces.": "",
+    "<i>trans</i>-1,2-dimethylcyclopropane: the CH<sub>3</sub> groups are on opposite faces.": "<i>trans</i>-1,2-dimethylcyclopropane：兩個 CH<sub>3</sub> 基團在環的相反兩面。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "cis-pent-2-ene": "",
+    "cis-pent-2-ene": "cis-pent-2-ene",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "<i>cis</i>-pent-2-ene": "",
+    "<i>cis</i>-pent-2-ene": "<i>cis</i>-pent-2-ene",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "trans-pent-2-ene": "",
+    "trans-pent-2-ene": "trans-pent-2-ene",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "<i>trans</i>-pent-2-ene": "",
+    "<i>trans</i>-pent-2-ene": "<i>trans</i>-pent-2-ene",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Structural formula of pent-2-ene: CH3CH=CHCH2CH3": "",
+    "Structural formula of pent-2-ene: CH3CH=CHCH2CH3": "pent-2-ene 的結構式：CH3CH=CHCH2CH3",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "2-methylbut-2-ene: the left carbon of the double bond has two CH3 groups": "",
+    "2-methylbut-2-ene: the left carbon of the double bond has two CH3 groups": "2-methylbut-2-ene：雙鍵左邊的碳原子連着兩個 CH3 基團",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "2-chlorobutane with the chiral carbon, carbon 2, marked with an asterisk": "",
+    "2-chlorobutane with the chiral carbon, carbon 2, marked with an asterisk": "2-chlorobutane，手性碳（碳 2）以星號標示",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The two enantiomers of 2-chlorobutane drawn as mirror images with wedge and hashed bonds": "",
+    "The two enantiomers of 2-chlorobutane drawn as mirror images with wedge and hashed bonds": "2-chlorobutane 的兩種對映異構體，用楔形鍵和虛線鍵畫成互為鏡像",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The two enantiomers of butan-2-ol drawn as mirror images with wedge and hashed bonds": "",
+    "The two enantiomers of butan-2-ol drawn as mirror images with wedge and hashed bonds": "butan-2-ol 的兩種對映異構體，用楔形鍵和虛線鍵畫成互為鏡像",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Simplified mass spectrum with peaks at m/z 15, 42, 43 and 58. The tallest peak is at 43.": "",
+    "Simplified mass spectrum with peaks at m/z 15, 42, 43 and 58. The tallest peak is at 43.": "簡化質譜，峰在 m/z 15、42、43 和 58。最高的峰在 43。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Sketch of an infrared spectrum with a very broad absorption from 2500 to 3000, a strong sharp absorption at 1715 and a strong absorption at 1240 wavenumbers": "",
+    "Sketch of an infrared spectrum with a very broad absorption from 2500 to 3000, a strong sharp absorption at 1715 and a strong absorption at 1240 wavenumbers": "紅外光譜略圖：在 2500 至 3000 有很寬的吸收，在 1715 有強而尖的吸收，在 1240 波數有強吸收",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Propanoic acid with three hydrogen environments labelled a, b and c": "",
+    "Propanoic acid with three hydrogen environments labelled a, b and c": "propanoic acid，三個氫環境標示為 a、b 和 c",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Ethyl ethanoate with three hydrogen environments labelled a, b and c": "",
+    "Ethyl ethanoate with three hydrogen environments labelled a, b and c": "ethyl ethanoate，三個氫環境標示為 a、b 和 c",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Simplified mass spectrum of compound X: peaks at m/z 27, 29, 57 and 86. The tallest peak is at 57.": "",
+    "Simplified mass spectrum of compound X: peaks at m/z 27, 29, 57 and 86. The tallest peak is at 57.": "化合物 X 的簡化質譜：峰在 m/z 27、29、57 和 86。最高的峰在 57。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Sketch of the infrared spectrum of compound X: absorptions near 2980 and 1715 wavenumbers, and nothing between 3200 and 3600": "",
+    "Sketch of the infrared spectrum of compound X: absorptions near 2980 and 1715 wavenumbers, and nothing between 3200 and 3600": "化合物 X 的紅外光譜略圖：在波數 2980 和 1715 附近有吸收，3200 至 3600 之間沒有吸收",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Sketch of the proton NMR spectrum of compound X: a triplet at 1.0 ppm and a quartet at 2.4 ppm with areas in the ratio 3 to 2": "",
+    "Sketch of the proton NMR spectrum of compound X: a triplet at 1.0 ppm and a quartet at 2.4 ppm with areas in the ratio 3 to 2": "化合物 X 的質子 NMR 譜略圖：三峰在 1.0 ppm，四峰在 2.4 ppm，面積比是 3 比 2",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "triplet, area 3": "",
+    "triplet, area 3": "三峰，面積 3",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "quartet, area 2": "",
+    "quartet, area 2": "四峰，面積 2",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Pentan-3-one: CH3CH2COCH2CH3, with the two hydrogen environments labelled a and b": "",
+    "Pentan-3-one: CH3CH2COCH2CH3, with the two hydrogen environments labelled a and b": "pentan-3-one：CH3CH2COCH2CH3，兩個氫環境標示為 a 和 b",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Ethanol with three hydrogen environments labelled a, b and c": "",
+    "Ethanol with three hydrogen environments labelled a, b and c": "ethanol，三個氫環境標示為 a、b 和 c",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "but-2-ene": "",
+    "but-2-ene": "but-2-ene",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "the C=C double bond": "",
+    "the C=C double bond": "C=C 雙鍵",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "1,2-dichloroethene": "",
+    "1,2-dichloroethene": "1,2-dichloroethene",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "1,2-dimethylcyclopropane": "",
+    "1,2-dimethylcyclopropane": "1,2-dimethylcyclopropane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "the ring": "",
+    "the ring": "環",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "1,2-dimethylcyclobutane": "",
+    "1,2-dimethylcyclobutane": "1,2-dimethylcyclobutane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Same in both": "",
+    "Same in both": "兩者相同",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Different": "",
+    "Different": "不同之處",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Why they cannot swap": "",
+    "Why they cannot swap": "為何不能互換",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Pair of isomers": "",
+    "Pair of isomers": "一對異構體",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Ball-and-stick model of {name}": "",
+    "Ball-and-stick model of {name}": "{name} 的球棒模型",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Drawing of {name}": "",
+    "Drawing of {name}": "{name} 的圖",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Molecular formula, and which atom is bonded to which.": "",
+    "Molecular formula, and which atom is bonded to which.": "分子式，以及哪個原子與哪個原子鍵合。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "cis: both {g} groups on the same face of the ring. trans: on opposite faces.": "",
+    "cis: both {g} groups on the same face of the ring. trans: on opposite faces.": "cis：兩個 {g} 基團在環的同一面。trans：在相反的兩面。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "cis: both {g} groups on the same side of the double bond. trans: on opposite sides.": "",
+    "cis: both {g} groups on the same side of the double bond. trans: on opposite sides.": "cis：兩個 {g} 基團在雙鍵的同一側。trans：在相反的兩側。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Rotation is restricted by {lock}, so one isomer cannot turn into the other without breaking a bond.": "",
+    "Rotation is restricted by {lock}, so one isomer cannot turn into the other without breaking a bond.": "{lock}限制了旋轉，所以不打斷鍵，一種異構體就不能變成另一種。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Model note: the ring of cyclobutane is drawn flat here. The real ring is slightly bent. In the drawings, a wedge bond points towards you and a hashed bond points away from you.": "",
+    "Model note: the ring of cyclobutane is drawn flat here. The real ring is slightly bent. In the drawings, a wedge bond points towards you and a hashed bond points away from you.": "模型說明：這裏把 cyclobutane 的環畫成平面。真實的環稍微彎曲。在圖中，楔形鍵指向你，虛線鍵指離你。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "In the drawings, a wedge bond points towards you and a hashed bond points away from you.": "",
+    "In the drawings, a wedge bond points towards you and a hashed bond points away from you.": "在圖中，楔形鍵指向你，虛線鍵指離你。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Turn each model. However you turn it, you cannot make one model look like the other.": "",
+    "Turn each model. However you turn it, you cannot make one model look like the other.": "轉動每個模型。無論怎樣轉，都無法令一個模型看起來與另一個相同。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "but-1-ene": "",
+    "but-1-ene": "but-1-ene",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "No. One carbon of the C=C has two H atoms. Swapping two identical groups changes nothing.": "",
+    "No. One carbon of the C=C has two H atoms. Swapping two identical groups changes nothing.": "沒有。C=C 的其中一個碳原子連着兩個 H 原子。對調兩個相同的基團，甚麼也沒有改變。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Yes. Each carbon of the C=C has two different groups: H and CH<sub>3</sub>.": "",
+    "Yes. Each carbon of the C=C has two different groups: H and CH<sub>3</sub>.": "有。C=C 的每個碳原子都連着兩個不同的基團：H 和 CH<sub>3</sub>。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "2-methylpropene": "",
+    "2-methylpropene": "2-methylpropene",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "No. One carbon of the C=C has two H atoms and the other has two CH<sub>3</sub> groups.": "",
+    "No. One carbon of the C=C has two H atoms and the other has two CH<sub>3</sub> groups.": "沒有。C=C 的一個碳原子連着兩個 H 原子，另一個連着兩個 CH<sub>3</sub> 基團。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Yes. Each carbon of the C=C has two different groups: H and Cl.": "",
+    "Yes. Each carbon of the C=C has two different groups: H and Cl.": "有。C=C 的每個碳原子都連着兩個不同的基團：H 和 Cl。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "1,1-dichloroethene": "",
+    "1,1-dichloroethene": "1,1-dichloroethene",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "No. One carbon has two Cl atoms and the other has two H atoms.": "",
+    "No. One carbon has two Cl atoms and the other has two H atoms.": "沒有。一個碳原子連着兩個 Cl 原子，另一個連着兩個 H 原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "2-methylbut-2-ene": "",
+    "2-methylbut-2-ene": "2-methylbut-2-ene",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "No. The left carbon of the C=C has two CH<sub>3</sub> groups. One carbon with two identical groups is enough to rule it out.": "",
+    "No. The left carbon of the C=C has two CH<sub>3</sub> groups. One carbon with two identical groups is enough to rule it out.": "沒有。C=C 左邊的碳原子連着兩個 CH<sub>3</sub> 基團。只要有一個碳原子連着兩個相同的基團，就可以排除。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "pent-2-ene": "",
+    "pent-2-ene": "pent-2-ene",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Yes. One carbon has H and CH<sub>3</sub>. The other has H and CH<sub>2</sub>CH<sub>3</sub>. The groups do not need to match across the double bond.": "",
+    "Yes. One carbon has H and CH<sub>3</sub>. The other has H and CH<sub>2</sub>CH<sub>3</sub>. The groups do not need to match across the double bond.": "有。一個碳原子連着 H 和 CH<sub>3</sub>。另一個連着 H 和 CH<sub>2</sub>CH<sub>3</sub>。雙鍵兩邊的基團不必相同。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "1-chloropropene": "",
+    "1-chloropropene": "1-chloropropene",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Yes. One carbon has H and Cl. The other has H and CH<sub>3</sub>.": "",
+    "Yes. One carbon has H and Cl. The other has H and CH<sub>3</sub>.": "有。一個碳原子連着 H 和 Cl。另一個連着 H 和 CH<sub>3</sub>。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Yes. Two ring carbons each have two different groups: H and CH<sub>3</sub>. The ring stops rotation.": "",
+    "Yes. Two ring carbons each have two different groups: H and CH<sub>3</sub>. The ring stops rotation.": "有。兩個環碳原子各自連着兩個不同的基團：H 和 CH<sub>3</sub>。環令旋轉無法發生。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "1,1-dimethylcyclopropane": "",
+    "1,1-dimethylcyclopropane": "1,1-dimethylcyclopropane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "No. Both CH<sub>3</sub> groups are on the same ring carbon. No ring carbon has two different groups.": "",
+    "No. Both CH<sub>3</sub> groups are on the same ring carbon. No ring carbon has two different groups.": "沒有。兩個 CH<sub>3</sub> 基團在同一個環碳原子上。沒有環碳原子連着兩個不同的基團。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "1,2-dichlorocyclobutane": "",
+    "1,2-dichlorocyclobutane": "1,2-dichlorocyclobutane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Yes. Two ring carbons each have two different groups: H and Cl. The ring stops rotation.": "",
+    "Yes. Two ring carbons each have two different groups: H and Cl. The ring stops rotation.": "有。兩個環碳原子各自連着兩個不同的基團：H 和 Cl。環令旋轉無法發生。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "methylcyclobutane": "",
+    "methylcyclobutane": "methylcyclobutane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "No. Only one ring carbon has two different groups. You need two such ring carbons.": "",
+    "No. Only one ring carbon has two different groups. You need two such ring carbons.": "沒有。只有一個環碳原子連着兩個不同的基團。需要有兩個這樣的環碳原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Correct first time": "",
+    "Correct first time": "一次答對",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Yes, it has <i>cis</i>–<i>trans</i> isomers": "",
+    "Yes, it has <i>cis</i>–<i>trans</i> isomers": "有，它有 <i>cis</i>–<i>trans</i> 異構體",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "No, it does not": "",
+    "No, it does not": "沒有",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Next molecule": "",
+    "Next molecule": "下一個分子",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Molecule {n} of {total}: {name}. Can it show <i>cis</i>–<i>trans</i> isomerism?": "",
+    "Molecule {n} of {total}: {name}. Can it show <i>cis</i>–<i>trans</i> isomerism?": "第 {n} 個分子（共 {total} 個）：{name}。它有 <i>cis</i>–<i>trans</i> 異構現象嗎？",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Structure of {name}": "",
+    "Structure of {name}": "{name} 的結構",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Correct.": "",
+    "Correct.": "正確。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not quite.": "",
+    "Not quite.": "不太對。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "cis isomer of {name}": "",
+    "cis isomer of {name}": "{name} 的 cis 異構體",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "trans isomer of {name}": "",
+    "trans isomer of {name}": "{name} 的 trans 異構體",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "top": "",
+    "top": "上",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "bottom": "",
+    "bottom": "下",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "left": "",
+    "left": "左",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "right": "",
+    "right": "右",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "butan-2-ol": "",
+    "butan-2-ol": "butan-2-ol",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "2-hydroxypropanoic acid": "",
+    "2-hydroxypropanoic acid": "2-hydroxypropanoic acid",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "bromochlorofluoromethane": "",
+    "bromochlorofluoromethane": "bromochlorofluoromethane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "propan-2-ol (two groups the same)": "",
+    "propan-2-ol (two groups the same)": "propan-2-ol（有兩個相同的基團）",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "bromochloromethane (two groups the same)": "",
+    "bromochloromethane (two groups the same)": "bromochloromethane（有兩個相同的基團）",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Groups in the same place": "",
+    "Groups in the same place": "位置相同的基團",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Matching groups": "",
+    "Matching groups": "吻合的基團",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "What this shows": "",
+    "What this shows": "這說明甚麼",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Molecule A": "",
+    "Molecule A": "分子 A",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Mirror image of A (molecule B)": "",
+    "Mirror image of A (molecule B)": "A 的鏡像（分子 B）",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Ball-and-stick model of the mirror image of {name}": "",
+    "Ball-and-stick model of the mirror image of {name}": "{name} 鏡像的球棒模型",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "none": "",
+    "none": "沒有",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "All four groups match. B can be placed exactly on A, so B is the same molecule as A. This molecule is not chiral.": "",
+    "All four groups match. B can be placed exactly on A, so B is the same molecule as A. This molecule is not chiral.": "四個基團全部吻合。B 可以完全疊在 A 上，所以 B 與 A 是同一種分子。這個分子沒有手性。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Keep rotating B. For this molecule you can make all four groups match, because two of the groups are the same.": "",
+    "Keep rotating B. For this molecule you can make all four groups match, because two of the groups are the same.": "繼續旋轉 B。這個分子可以做到四個基團全部吻合，因為其中兩個基團相同。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Rotate B and try to make all four groups match A.": "",
+    "Rotate B and try to make all four groups match A.": "旋轉 B，試令四個基團全部與 A 吻合。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "You can match two groups at most. When you fix the other two, the first two no longer match. A and B are non-superimposable mirror images: a pair of enantiomers.": "",
+    "You can match two groups at most. When you fix the other two, the first two no longer match. A and B are non-superimposable mirror images: a pair of enantiomers.": "最多只能令兩個基團吻合。調整好另外兩個之後，原先的兩個就不再吻合。A 和 B 是不可重疊的鏡像 (non-superimposable mirror images)：一對對映異構體。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Molecule": "",
+    "Molecule": "分子",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Spin B about its top bond (120°)": "",
+    "Spin B about its top bond (120°)": "繞頂部的鍵旋轉 B (120°)",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Spin B about its left bond (120°)": "",
+    "Spin B about its left bond (120°)": "繞左邊的鍵旋轉 B (120°)",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Turn B upside down (180°)": "",
+    "Turn B upside down (180°)": "把 B 上下倒轉 (180°)",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Start again": "",
+    "Start again": "重新開始",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Turn both models left": "",
+    "Turn both models left": "兩個模型向左轉",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Turn both models right": "",
+    "Turn both models right": "兩個模型向右轉",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "This carbon has three H atoms. A chiral carbon needs four different groups.": "",
+    "This carbon has three H atoms. A chiral carbon needs four different groups.": "這個碳原子有三個 H 原子。手性碳需要四個不同的基團。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "This carbon has two H atoms, so two of its four groups are the same.": "",
+    "This carbon has two H atoms, so two of its four groups are the same.": "這個碳原子有兩個 H 原子，所以它的四個基團中有兩個相同。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "This carbon has a double bond, so it is bonded to only three groups. A chiral carbon is bonded to four different groups.": "",
+    "This carbon has a double bond, so it is bonded to only three groups. A chiral carbon is bonded to four different groups.": "這個碳原子有雙鍵，所以只與三個基團鍵合。手性碳要與四個不同的基團鍵合。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "structural formula": "",
+    "structural formula": "結構式",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Correct. Its four groups are all different: H, OH, CH<sub>3</sub> and CH<sub>2</sub>CH<sub>3</sub>.": "",
+    "Correct. Its four groups are all different: H, OH, CH<sub>3</sub> and CH<sub>2</sub>CH<sub>3</sub>.": "正確。它的四個基團都不同：H、OH、CH<sub>3</sub> 和 CH<sub>2</sub>CH<sub>3</sub>。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "propan-2-ol": "",
+    "propan-2-ol": "propan-2-ol",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Correct. The middle carbon has H, OH and two CH<sub>3</sub> groups. Two groups are the same, so no carbon is chiral.": "",
+    "Correct. The middle carbon has H, OH and two CH<sub>3</sub> groups. Two groups are the same, so no carbon is chiral.": "正確。中間的碳原子連着 H、OH 和兩個 CH<sub>3</sub> 基團。有兩個基團相同，所以沒有手性碳。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Look again. This carbon has H, OH and two CH<sub>3</sub> groups. Two of its groups are the same.": "",
+    "Look again. This carbon has H, OH and two CH<sub>3</sub> groups. Two of its groups are the same.": "再看一次。這個碳原子連着 H、OH 和兩個 CH<sub>3</sub> 基團。它有兩個基團相同。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Correct. Its four groups are all different: H, OH, CH<sub>3</sub> and COOH.": "",
+    "Correct. Its four groups are all different: H, OH, CH<sub>3</sub> and COOH.": "正確。它的四個基團都不同：H、OH、CH<sub>3</sub> 和 COOH。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "3-methylpentane": "",
+    "3-methylpentane": "3-methylpentane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Correct. Carbon 3 has H, CH<sub>3</sub> and two CH<sub>2</sub>CH<sub>3</sub> groups. Two groups are the same, so no carbon is chiral.": "",
+    "Correct. Carbon 3 has H, CH<sub>3</sub> and two CH<sub>2</sub>CH<sub>3</sub> groups. Two groups are the same, so no carbon is chiral.": "正確。碳 3 連着 H、CH<sub>3</sub> 和兩個 CH<sub>2</sub>CH<sub>3</sub> 基團。有兩個基團相同，所以沒有手性碳。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Look again. Compare the whole group on each side: this carbon has two CH<sub>2</sub>CH<sub>3</sub> groups.": "",
+    "Look again. Compare the whole group on each side: this carbon has two CH<sub>2</sub>CH<sub>3</sub> groups.": "再看一次。要比較兩邊的整個基團：這個碳原子連着兩個 CH<sub>2</sub>CH<sub>3</sub> 基團。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "pentan-2-ol": "",
+    "pentan-2-ol": "pentan-2-ol",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "skeletal formula": "",
+    "skeletal formula": "骨架式",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "carbon 1": "",
+    "carbon 1": "碳 1",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Carbon 1 is a CH<sub>3</sub> group: three H atoms. Skeletal formulas do not show the H atoms.": "",
+    "Carbon 1 is a CH<sub>3</sub> group: three H atoms. Skeletal formulas do not show the H atoms.": "碳 1 是 CH<sub>3</sub> 基團：有三個 H 原子。骨架式不會畫出 H 原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "carbon 2": "",
+    "carbon 2": "碳 2",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Correct. Carbon 2 has four different groups: H (not drawn), OH, CH<sub>3</sub> and CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>.": "",
+    "Correct. Carbon 2 has four different groups: H (not drawn), OH, CH<sub>3</sub> and CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>.": "正確。碳 2 連着四個不同的基團：H（沒有畫出）、OH、CH<sub>3</sub> 和 CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "carbon 3": "",
+    "carbon 3": "碳 3",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Carbon 3 is a CH<sub>2</sub> group: two H atoms that are not drawn.": "",
+    "Carbon 3 is a CH<sub>2</sub> group: two H atoms that are not drawn.": "碳 3 是 CH<sub>2</sub> 基團：有兩個沒有畫出的 H 原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "carbon 4": "",
+    "carbon 4": "碳 4",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Carbon 4 is a CH<sub>2</sub> group: two H atoms that are not drawn.": "",
+    "Carbon 4 is a CH<sub>2</sub> group: two H atoms that are not drawn.": "碳 4 是 CH<sub>2</sub> 基團：有兩個沒有畫出的 H 原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "carbon 5": "",
+    "carbon 5": "碳 5",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Carbon 5 is a CH<sub>3</sub> group: three H atoms.": "",
+    "Carbon 5 is a CH<sub>3</sub> group: three H atoms.": "碳 5 是 CH<sub>3</sub> 基團：有三個 H 原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "3-methylhexane": "",
+    "3-methylhexane": "3-methylhexane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "carbon of the methyl branch": "",
+    "carbon of the methyl branch": "甲基支鏈的碳原子",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The branch is a CH<sub>3</sub> group: three H atoms.": "",
+    "The branch is a CH<sub>3</sub> group: three H atoms.": "支鏈是 CH<sub>3</sub> 基團：有三個 H 原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Carbon 1 is a CH<sub>3</sub> group: three H atoms.": "",
+    "Carbon 1 is a CH<sub>3</sub> group: three H atoms.": "碳 1 是 CH<sub>3</sub> 基團：有三個 H 原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Carbon 2 is a CH<sub>2</sub> group: two H atoms that are not drawn.": "",
+    "Carbon 2 is a CH<sub>2</sub> group: two H atoms that are not drawn.": "碳 2 是 CH<sub>2</sub> 基團：有兩個沒有畫出的 H 原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Correct. Carbon 3 has four different groups: H (not drawn), CH<sub>3</sub>, CH<sub>2</sub>CH<sub>3</sub> and CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>.": "",
+    "Correct. Carbon 3 has four different groups: H (not drawn), CH<sub>3</sub>, CH<sub>2</sub>CH<sub>3</sub> and CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>.": "正確。碳 3 連着四個不同的基團：H（沒有畫出）、CH<sub>3</sub>、CH<sub>2</sub>CH<sub>3</sub> 和 CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Carbon 5 is a CH<sub>2</sub> group: two H atoms that are not drawn.": "",
+    "Carbon 5 is a CH<sub>2</sub> group: two H atoms that are not drawn.": "碳 5 是 CH<sub>2</sub> 基團：有兩個沒有畫出的 H 原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "carbon 6": "",
+    "carbon 6": "碳 6",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Carbon 6 is a CH<sub>3</sub> group: three H atoms.": "",
+    "Carbon 6 is a CH<sub>3</sub> group: three H atoms.": "碳 6 是 CH<sub>3</sub> 基團：有三個 H 原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "2,3-dihydroxybutanal": "",
+    "2,3-dihydroxybutanal": "2,3-dihydroxybutanal",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Correct. Its four groups are all different: H, OH, CH<sub>3</sub> and CH(OH)CHO.": "",
+    "Correct. Its four groups are all different: H, OH, CH<sub>3</sub> and CH(OH)CHO.": "正確。它的四個基團都不同：H、OH、CH<sub>3</sub> 和 CH(OH)CHO。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Correct. Its four groups are all different: H, OH, CHO and CH(OH)CH<sub>3</sub>.": "",
+    "Correct. Its four groups are all different: H, OH, CHO and CH(OH)CH<sub>3</sub>.": "正確。它的四個基團都不同：H、OH、CHO 和 CH(OH)CH<sub>3</sub>。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Chiral carbons found": "",
+    "Chiral carbons found": "已找到的手性碳",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "This molecule has no chiral carbon": "",
+    "This molecule has no chiral carbon": "這個分子沒有手性碳",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "I have found them all": "",
+    "I have found them all": "我已全部找到",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Molecule {n} of {total}: {name} ({style}). Click every chiral carbon.": "",
+    "Molecule {n} of {total}: {name} ({style}). Click every chiral carbon.": "第 {n} 個分子（共 {total} 個）：{name}（{style}）。點選每個手性碳。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "{style} of {name}. Each carbon atom is a button.": "",
+    "{style} of {name}. Each carbon atom is a button.": "{name} 的{style}。每個碳原子都是一個按鈕。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Look again. This molecule has at least one carbon bonded to four different groups.": "",
+    "Look again. This molecule has at least one carbon bonded to four different groups.": "再看一次。這個分子至少有一個碳原子與四個不同的基團鍵合。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "There is nothing to find here. Check each carbon: does any have four different groups?": "",
+    "There is nothing to find here. Check each carbon: does any have four different groups?": "這裏沒有手性碳可找。檢查每個碳原子：有沒有哪一個連着四個不同的基團？",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Yes. This molecule has one chiral carbon.": "",
+    "Yes. This molecule has one chiral carbon.": "對。這個分子有一個手性碳。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Yes. This molecule has {n} chiral carbons.": "",
+    "Yes. This molecule has {n} chiral carbons.": "對。這個分子有 {n} 個手性碳。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not yet. There is another chiral carbon to find.": "",
+    "Not yet. There is another chiral carbon to find.": "還未找齊。還有一個手性碳要找。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "2-aminopropanoic acid": "",
+    "2-aminopropanoic acid": "2-aminopropanoic acid",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Step 1. Write the chiral carbon in the centre.": "",
+    "Step 1. Write the chiral carbon in the centre.": "第 1 步。在中央寫出手性碳。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Step 2. Draw two bonds as plain lines. These two bonds lie in the plane of the paper. Keep the angle between them wider than 90°, close to the tetrahedral angle of 109.5°.": "",
+    "Step 2. Draw two bonds as plain lines. These two bonds lie in the plane of the paper. Keep the angle between them wider than 90°, close to the tetrahedral angle of 109.5°.": "第 2 步。用普通的線畫兩個鍵。這兩個鍵在紙平面上。兩者之間的夾角要大於 90°，接近四面體角 109.5°。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Step 3. Draw one bond as a solid wedge. A wedge bond points out of the paper, towards you. The narrow end is at the chiral carbon.": "",
+    "Step 3. Draw one bond as a solid wedge. A wedge bond points out of the paper, towards you. The narrow end is at the chiral carbon.": "第 3 步。把一個鍵畫成實心楔形。楔形鍵伸出紙面，指向你。尖的一端在手性碳。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Step 4. Draw the last bond as a hashed (dashed) wedge. It points into the paper, away from you. All four groups must be different.": "",
+    "Step 4. Draw the last bond as a hashed (dashed) wedge. It points into the paper, away from you. All four groups must be different.": "第 4 步。把最後一個鍵畫成虛線楔形 (hashed wedge)。它伸入紙面，指離你。四個基團必須全部不同。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Step 5. Draw a dashed mirror line. Then draw the reflection: each group is the same distance from the line on the other side. The two drawings are the pair of enantiomers.": "",
+    "Step 5. Draw a dashed mirror line. Then draw the reflection: each group is the same distance from the line on the other side. The two drawings are the pair of enantiomers.": "第 5 步。畫一條虛線作鏡線。然後畫出反射的圖：每個基團在鏡線的另一側，與鏡線的距離相同。這兩個圖就是一對對映異構體。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "What to do": "",
+    "What to do": "要做的事",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Back": "",
+    "Back": "上一步",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Next step": "",
+    "Next step": "下一步",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Wedge–dash drawing of {name}, step {n} of 5": "",
+    "Wedge–dash drawing of {name}, step {n} of 5": "{name} 的楔形－虛線圖，第 {n} 步（共 5 步）",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "One enantiomer": "",
+    "One enantiomer": "其中一種對映異構體",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The plane of polarization is rotated clockwise.": "",
+    "The plane of polarization is rotated clockwise.": "偏振面順時針旋轉。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The other enantiomer": "",
+    "The other enantiomer": "另一種對映異構體",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The plane of polarization is rotated anticlockwise, by the same angle.": "",
+    "The plane of polarization is rotated anticlockwise, by the same angle.": "偏振面逆時針旋轉，角度相同。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Racemic mixture": "",
+    "Racemic mixture": "外消旋混合物",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "No rotation. The two enantiomers are present in equal amounts, so their rotations cancel.": "",
+    "No rotation. The two enantiomers are present in equal amounts, so their rotations cancel.": "沒有旋轉。兩種對映異構體的份量相等，所以兩者的旋轉互相抵消。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "A substance that is not chiral": "",
+    "A substance that is not chiral": "非手性的物質",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "No rotation. The substance is not optically active.": "",
+    "No rotation. The substance is not optically active.": "沒有旋轉。這種物質沒有旋光性。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "What is observed": "",
+    "What is observed": "觀察結果",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Optically active?": "",
+    "Optically active?": "具旋光性？",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Diagram of a polarimeter: light source, polarizer, sample tube and analyser": "",
+    "Diagram of a polarimeter: light source, polarizer, sample tube and analyser": "旋光計示意圖：光源、起偏器、樣本管和檢偏器",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Sample in the tube": "",
+    "Sample in the tube": "管內的樣本",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Light source. Ordinary light vibrates in all planes.": "",
+    "Light source. Ordinary light vibrates in all planes.": "光源。普通光在所有平面上振動。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Polarizer. Only light vibrating in one plane passes: plane-polarized light.": "",
+    "Polarizer. Only light vibrating in one plane passes: plane-polarized light.": "起偏器 (polarizer)。只有在一個平面上振動的光能通過：這就是平面偏振光。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Tube holding a solution of the sample.": "",
+    "Tube holding a solution of the sample.": "盛有樣本溶液的管。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Analyser. It is turned to find the new plane, and the angle is read.": "",
+    "Analyser. It is turned to find the new plane, and the angle is read.": "檢偏器 (analyser)。轉動它找出新的偏振面，然後讀出角度。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "yes": "",
+    "yes": "是",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "no": "",
+    "no": "否",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "A hydrogen atom, mass 1, is lost. This loss is not in the booklet table.": "",
+    "A hydrogen atom, mass 1, is lost. This loss is not in the booklet table.": "失去一個氫原子，質量是 1。手冊表格沒有這一項。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The piece lost is CH<sub>3</sub>CO•, mass 43. It is not in the booklet table.": "",
+    "The piece lost is CH<sub>3</sub>CO•, mass 43. It is not in the booklet table.": "失去的碎片是 CH<sub>3</sub>CO•，質量是 43。手冊表格沒有這一項。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "ethanol": "",
+    "ethanol": "ethanol",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The booklet suggests •OCH<sub>3</sub> for a loss of 31. Ethanol has no OCH<sub>3</sub> group. Here the piece lost is •CH<sub>2</sub>OH, which also has a mass of 31. The table lists possible pieces only: they must fit the structure.": "",
+    "The booklet suggests •OCH<sub>3</sub> for a loss of 31. Ethanol has no OCH<sub>3</sub> group. Here the piece lost is •CH<sub>2</sub>OH, which also has a mass of 31. The table lists possible pieces only: they must fit the structure.": "對於失去 31，手冊提示是 •OCH<sub>3</sub>。ethanol 沒有 OCH<sub>3</sub> 基團。這裏失去的碎片是 •CH<sub>2</sub>OH，質量同樣是 31。表格只列出可能的碎片：它們必須與結構吻合。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "propan-1-ol": "",
+    "propan-1-ol": "propan-1-ol",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The molecular ion peak is small here. It is not the tallest peak. Look for it at the highest m/z.": "",
+    "The molecular ion peak is small here. It is not the tallest peak. Look for it at the highest m/z.": "這裏的分子離子峰很小。它不是最高的峰。要在最大的 m/z 處找它。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The booklet suggests •OCH<sub>3</sub> for a loss of 31. Propan-1-ol has no OCH<sub>3</sub> group. Here the piece lost is •CH<sub>2</sub>OH, which also has a mass of 31.": "",
+    "The booklet suggests •OCH<sub>3</sub> for a loss of 31. Propan-1-ol has no OCH<sub>3</sub> group. Here the piece lost is •CH<sub>2</sub>OH, which also has a mass of 31.": "對於失去 31，手冊提示是 •OCH<sub>3</sub>。propan-1-ol 沒有 OCH<sub>3</sub> 基團。這裏失去的碎片是 •CH<sub>2</sub>OH，質量同樣是 31。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "propanal": "",
+    "propanal": "propanal",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Here the molecular ion peak is also the tallest peak. That is not usual.": "",
+    "Here the molecular ion peak is also the tallest peak. That is not usual.": "這裏的分子離子峰同時是最高的峰。這並不常見。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Two different ions have m/z = 29 here. CH<sub>3</sub>CH<sub>2</sub><sup>+</sup> forms when the molecule loses •CHO. CHO<sup>+</sup> forms when it loses •CH<sub>2</sub>CH<sub>3</sub>. Both losses have a mass of 29.": "",
+    "Two different ions have m/z = 29 here. CH<sub>3</sub>CH<sub>2</sub><sup>+</sup> forms when the molecule loses •CHO. CHO<sup>+</sup> forms when it loses •CH<sub>2</sub>CH<sub>3</sub>. Both losses have a mass of 29.": "這裏有兩種不同的離子都是 m/z = 29。CH<sub>3</sub>CH<sub>2</sub><sup>+</sup> 在分子失去 •CHO 時生成。CHO<sup>+</sup> 在分子失去 •CH<sub>2</sub>CH<sub>3</sub> 時生成。兩者失去的質量都是 29。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "propanone": "",
+    "propanone": "propanone",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "butanone": "",
+    "butanone": "butanone",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The booklet gives two possible pieces for a loss of 29. A ketone has no CHO group, so the piece lost is •CH<sub>2</sub>CH<sub>3</sub>.": "",
+    "The booklet gives two possible pieces for a loss of 29. A ketone has no CHO group, so the piece lost is •CH<sub>2</sub>CH<sub>3</sub>.": "對於失去 29，手冊列出兩種可能的碎片。酮沒有 CHO 基團，所以失去的碎片是 •CH<sub>2</sub>CH<sub>3</sub>。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "pentan-3-one": "",
+    "pentan-3-one": "pentan-3-one",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The piece lost is CH<sub>3</sub>CH<sub>2</sub>CO•, mass 57. It is not in the booklet table.": "",
+    "The piece lost is CH<sub>3</sub>CH<sub>2</sub>CO•, mass 57. It is not in the booklet table.": "失去的碎片是 CH<sub>3</sub>CH<sub>2</sub>CO•，質量是 57。手冊表格沒有這一項。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "ethanoic acid": "",
+    "ethanoic acid": "ethanoic acid",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "methyl ethanoate": "",
+    "methyl ethanoate": "methyl ethanoate",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The piece lost has a mass of 59. It is not in the booklet table.": "",
+    "The piece lost has a mass of 59. It is not in the booklet table.": "失去的碎片質量是 59。手冊表格沒有這一項。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "butane": "",
+    "butane": "butane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The piece lost has a mass of 43. It is not in the booklet table.": "",
+    "The piece lost has a mass of 43. It is not in the booklet table.": "失去的碎片質量是 43。手冊表格沒有這一項。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The booklet gives two possible pieces for a loss of 29. Butane has no oxygen, so the piece lost is •CH<sub>2</sub>CH<sub>3</sub>.": "",
+    "The booklet gives two possible pieces for a loss of 29. Butane has no oxygen, so the piece lost is •CH<sub>2</sub>CH<sub>3</sub>.": "對於失去 29，手冊列出兩種可能的碎片。butane 不含氧，所以失去的碎片是 •CH<sub>2</sub>CH<sub>3</sub>。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Two booklet rows include this wavenumber. The band is sharp, not very broad, so it is C–H. The O–H of a carboxylic acid gives a very broad band.": "",
+    "Two booklet rows include this wavenumber. The band is sharp, not very broad, so it is C–H. The O–H of a carboxylic acid gives a very broad band.": "手冊有兩行包含這個波數。這個吸收帶是尖的，不是很寬，所以是 C–H。羧酸的 O–H 會產生很寬的吸收帶。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Two booklet rows include this wavenumber: C–O and C–F. The molecule contains no fluorine, so the bond is C–O.": "",
+    "Two booklet rows include this wavenumber: C–O and C–F. The molecule contains no fluorine, so the bond is C–O.": "手冊有兩行包含這個波數：C–O 和 C–F。分子不含氟，所以這種鍵是 C–O。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "hexane": "",
+    "hexane": "hexane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "hex-1-ene": "",
+    "hex-1-ene": "hex-1-ene",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Only the C=C row includes this wavenumber. The band is of medium strength.": "",
+    "Only the C=C row includes this wavenumber. The band is of medium strength.": "只有 C=C 一行包含這個波數。這個吸收帶強度中等。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Two booklet rows include this wavenumber: O–H in alcohols and N–H. The band is one broad, strong band, so it is O–H. N–H in a primary amine gives two bands of medium strength.": "",
+    "Two booklet rows include this wavenumber: O–H in alcohols and N–H. The band is one broad, strong band, so it is O–H. N–H in a primary amine gives two bands of medium strength.": "手冊有兩行包含這個波數：醇的 O–H 和 N–H。這是一個寬而強的吸收帶，所以是 O–H。一級胺的 N–H 會產生兩個中等強度的吸收帶。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Only the C=O row includes this wavenumber. The band is strong and sharp.": "",
+    "Only the C=O row includes this wavenumber. The band is strong and sharp.": "只有 C=O 一行包含這個波數。這個吸收帶強而尖。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Two booklet rows include this wavenumber. The band is very broad, so it is the O–H of a carboxylic acid. The sharper C–H band is hidden under it.": "",
+    "Two booklet rows include this wavenumber. The band is very broad, so it is the O–H of a carboxylic acid. The sharper C–H band is hidden under it.": "手冊有兩行包含這個波數。這個吸收帶很寬，所以是羧酸的 O–H。較尖的 C–H 吸收帶被它蓋住了。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "ethyl ethanoate": "",
+    "ethyl ethanoate": "ethyl ethanoate",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "propan-1-amine": "",
+    "propan-1-amine": "propan-1-amine",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Two booklet rows include this wavenumber: O–H in alcohols and N–H. There are two bands of medium strength, so it is the N–H of a primary amine. O–H gives one broad band.": "",
+    "Two booklet rows include this wavenumber: O–H in alcohols and N–H. There are two bands of medium strength, so it is the N–H of a primary amine. O–H gives one broad band.": "手冊有兩行包含這個波數：醇的 O–H 和 N–H。這裏有兩個中等強度的吸收帶，所以是一級胺的 N–H。O–H 只產生一個寬的吸收帶。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "1-chlorobutane": "",
+    "1-chlorobutane": "1-chlorobutane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Only the C–Cl row includes this wavenumber. The absorption is strong.": "",
+    "Only the C–Cl row includes this wavenumber. The absorption is strong.": "只有 C–Cl 一行包含這個波數。這個吸收很強。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "ethoxyethane": "",
+    "ethoxyethane": "ethoxyethane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "ethanal": "",
+    "ethanal": "ethanal",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "2-methylpropan-2-ol": "",
+    "2-methylpropan-2-ol": "2-methylpropan-2-ol",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "chloroethane": "",
+    "chloroethane": "chloroethane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "propanoic acid": "",
+    "propanoic acid": "propanoic acid",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "2,2-dimethylpropane": "",
+    "2,2-dimethylpropane": "2,2-dimethylpropane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "more than four lines": "",
+    "more than four lines": "多於四條線",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Mass lost from M<sup>+</sup>": "",
+    "Mass lost from M<sup>+</sup>": "M<sup>+</sup> 失去的質量",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Booklet: possible piece lost": "",
+    "Booklet: possible piece lost": "手冊：可能失去的碎片",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Peaks in the spectrum": "",
+    "Peaks in the spectrum": "質譜中的峰",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Click a peak in the spectrum, or use the buttons.": "",
+    "Click a peak in the spectrum, or use the buttons.": "點選質譜中的峰，或使用按鈕。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Compound": "",
+    "Compound": "化合物",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Simplified mass spectrum of {name}. Peaks at m/z {list}.": "",
+    "Simplified mass spectrum of {name}. Peaks at m/z {list}.": "{name} 的簡化質譜。峰在 m/z {list}。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "This is the <b>molecular ion peak</b>. The molecular ion is the whole molecule with one electron removed: {ion}. Its m/z gives the relative molecular mass: <i>M</i><sub>r</sub> = {m}.": "",
+    "This is the <b>molecular ion peak</b>. The molecular ion is the whole molecule with one electron removed: {ion}. Its m/z gives the relative molecular mass: <i>M</i><sub>r</sub> = {m}.": "這是<b>分子離子峰</b>。分子離子是失去了一個電子的整個分子：{ion}。它的 m/z 就是相對分子質量：<i>M</i><sub>r</sub> = {m}。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "no entry for {n}": "",
+    "no entry for {n}": "手冊沒有 {n} 這一項",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The molecular ion lost a piece of mass {n}. The booklet gives {piece} as a possible piece.": "",
+    "The molecular ion lost a piece of mass {n}. The booklet gives {piece} as a possible piece.": "分子離子失去了質量為 {n} 的碎片。手冊列出 {piece} 是可能的碎片。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The molecular ion lost a piece of mass {n}.": "",
+    "The molecular ion lost a piece of mass {n}.": "分子離子失去了質量為 {n} 的碎片。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The ion detected at m/z = {mz} is {ion}. Write the positive charge every time.": "",
+    "The ion detected at m/z = {mz} is {ion}. Write the positive charge every time.": "在 m/z = {mz} 偵測到的離子是 {ion}。每次都要寫上正電荷。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "This peak does not come from one simple loss. It forms in more than one step. You would not be asked to explain it.": "",
+    "This peak does not come from one simple loss. It forms in more than one step. You would not be asked to explain it.": "這個峰不是由一次簡單的斷裂產生的。它經過多於一步才生成。題目不會要求你解釋它。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Take care: the booklet lists {piece} for a loss of {n}, but that piece does not fit this molecule. A match in the table is only a suggestion.": "",
+    "Take care: the booklet lists {piece} for a loss of {n}, but that piece does not fit this molecule. A match in the table is only a suggestion.": "小心：對於失去 {n}，手冊列出 {piece}，但這塊碎片與這個分子不吻合。在表格中找到吻合的項目，只是一個提示。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "alkane": "",
+    "alkane": "烷烴",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "alcohol": "",
+    "alcohol": "醇",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "carboxylic acid": "",
+    "carboxylic acid": "羧酸",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "ketone": "",
+    "ketone": "酮",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "ester": "",
+    "ester": "酯",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Band": "",
+    "Band": "吸收帶",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Mode": "",
+    "Mode": "模式",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Explore": "",
+    "Explore": "探索",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Which compound is it?": "",
+    "Which compound is it?": "它是哪一類化合物？",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Data booklet, section 20: infrared data": "",
+    "Data booklet, section 20: infrared data": "數據手冊第 20 節：紅外數據",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Types of organic molecules": "",
+    "Types of organic molecules": "有機分子的類別",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Intensity": "",
+    "Intensity": "強度",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Sketch of the infrared spectrum of {name}. Main absorptions near {list} wavenumbers.": "",
+    "Sketch of the infrared spectrum of {name}. Main absorptions near {list} wavenumbers.": "{name} 的紅外光譜略圖。主要吸收在波數 {list} 附近。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Sketch of the infrared spectrum of an unknown compound. Main absorptions near {list} wavenumbers.": "",
+    "Sketch of the infrared spectrum of an unknown compound. Main absorptions near {list} wavenumbers.": "未知化合物的紅外光譜略圖。主要吸收在波數 {list} 附近。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "fingerprint region": "",
+    "fingerprint region": "指紋區",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Band {letter}: near {v} cm<sup>−1</sup>": "",
+    "Band {letter}: near {v} cm<sup>−1</sup>": "吸收帶 {letter}：約 {v} cm<sup>−1</sup>",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "{letter}: about {v} cm<sup>−1</sup>": "",
+    "{letter}: about {v} cm<sup>−1</sup>": "{letter}：約 {v} cm<sup>−1</sup>",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "and": "",
+    "and": "和",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "<b>{bond}</b> in {where}. Booklet range: {lo}–{hi} cm<sup>−1</sup> ({inten}).": "",
+    "<b>{bond}</b> in {where}. Booklet range: {lo}–{hi} cm<sup>−1</sup> ({inten}).": "{where}的 <b>{bond}</b>。手冊範圍：{lo}–{hi} cm<sup>−1</sup>（{inten}）。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "you decide": "",
+    "you decide": "由你判斷",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Band {letter} is near {v} cm<sup>−1</sup>. Booklet rows that include this wavenumber: {rows}. Look at the shape of the band to choose.": "",
+    "Band {letter} is near {v} cm<sup>−1</sup>. Booklet rows that include this wavenumber: {rows}. Look at the shape of the band to choose.": "吸收帶 {letter} 在約 {v} cm<sup>−1</sup>。手冊中包含這個波數的各行：{rows}。看看吸收帶的形狀再選擇。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Correct. The compound is {name}. Evidence: {ev}.": "",
+    "Correct. The compound is {name}. Evidence: {ev}.": "正確。這種化合物是 {name}。證據：{ev}。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "There is a C=O band, no O–H band and no strong C–O band.": "",
+    "There is a C=O band, no O–H band and no strong C–O band.": "有 C=O 吸收帶，沒有 O–H 吸收帶，也沒有強的 C–O 吸收帶。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "There is no O–H band and no C=O band.": "",
+    "There is no O–H band and no C=O band.": "沒有 O–H 吸收帶，也沒有 C=O 吸收帶。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "There is no O–H band, so it is not an acid.": "",
+    "There is no O–H band, so it is not an acid.": "沒有 O–H 吸收帶，所以不是酸。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. That class would show a strong {bond} absorption at {r} cm<sup>−1</sup>. This spectrum has no strong absorption there.": "",
+    "Not this one. That class would show a strong {bond} absorption at {r} cm<sup>−1</sup>. This spectrum has no strong absorption there.": "不是這一類。這一類化合物會在 {r} cm<sup>−1</sup> 有強的 {bond} 吸收。這個光譜在那裏沒有強吸收。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. The spectrum has a strong {bond} absorption at {r} cm<sup>−1</sup>. That class does not have this bond.": "",
+    "Not this one. The spectrum has a strong {bond} absorption at {r} cm<sup>−1</sup>. That class does not have this bond.": "不是這一類。光譜在 {r} cm<sup>−1</sup> 有強的 {bond} 吸收。這一類化合物沒有這種鍵。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. Check each band against the booklet table.": "",
+    "Not this one. Check each band against the booklet table.": "不是這一類。把每個吸收帶與手冊表格逐一核對。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Unknown {n} of {total}. Which class of compound gave this spectrum?": "",
+    "Unknown {n} of {total}. Which class of compound gave this spectrum?": "第 {n} 個未知物（共 {total} 個）。這個光譜來自哪一類化合物？",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Next unknown": "",
+    "Next unknown": "下一個未知物",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Click a labelled band in the spectrum, or use the buttons.": "",
+    "Click a labelled band in the spectrum, or use the buttons.": "點選光譜中有標示的吸收帶，或使用按鈕。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Click a band to see which booklet rows fit it. Then choose the class.": "",
+    "Click a band to see which booklet rows fit it. Then choose the class.": "點選吸收帶，看看手冊哪幾行與它吻合。然後選擇類別。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Ratio of areas": "",
+    "Ratio of areas": "面積比",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "H atoms in the molecule": "",
+    "H atoms in the molecule": "分子中的 H 原子",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Show me": "",
+    "Show me": "示範",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Predict first": "",
+    "Predict first": "先預測",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Structure of {name}. Equivalent hydrogen atoms share a letter: {n} environments.": "",
+    "Structure of {name}. Equivalent hydrogen atoms share a letter: {n} environments.": "{name} 的結構。等價的氫原子有相同的字母：共 {n} 個環境。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Predicted <sup>1</sup>H NMR signals of {name}": "",
+    "Predicted <sup>1</sup>H NMR signals of {name}": "{name} 的 <sup>1</sup>H NMR 訊號預測",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Signal": "",
+    "Signal": "訊號",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "H atoms": "",
+    "H atoms": "H 原子",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Shift / ppm": "",
+    "Shift / ppm": "位移 / ppm",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Splitting": "",
+    "Splitting": "分裂",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "n = {n}: {name}": "",
+    "n = {n}: {name}": "n = {n}：{name}",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Sketch of the proton NMR spectrum of {name}: {list}": "",
+    "Sketch of the proton NMR spectrum of {name}: {list}": "{name} 的質子 NMR 譜略圖：{list}",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "at about {s} ppm, area {h}": "",
+    "at about {s} ppm, area {h}": "在約 {s} ppm，面積 {h}",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "one signal only": "",
+    "one signal only": "只有一個訊號",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The spectrum is a sketch. Each signal is drawn inside the booklet range for its type of proton, as in exam data. Measured values can differ a little.": "",
+    "The spectrum is a sketch. Each signal is drawn inside the booklet range for its type of proton, as in exam data. Measured values can differ a little.": "這個譜是略圖。每個訊號都畫在手冊中該類質子的範圍內，與考試數據一樣。量度所得的數值可能略有不同。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The H of an O–H group is shown as a singlet, and it is not counted as a neighbour.": "",
+    "The H of an O–H group is shown as a singlet, and it is not counted as a neighbour.": "O–H 基團的 H 顯示為單峰，而且不算作相鄰的 H。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Step 1. How many signals does the <sup>1</sup>H NMR spectrum of {name} have?": "",
+    "Step 1. How many signals does the <sup>1</sup>H NMR spectrum of {name} have?": "第 1 步。{name} 的 <sup>1</sup>H NMR 譜有多少個訊號？",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not yet. Look for groups of H atoms that have exactly the same surroundings. Each different group gives one signal.": "",
+    "Not yet. Look for groups of H atoms that have exactly the same surroundings. Each different group gives one signal.": "還未正確。找出周圍環境完全相同的 H 原子組。每個不同的組產生一個訊號。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "That is closer to the number of hydrogen atoms. Count the different environments instead. All the H atoms in one CH<sub>3</sub> group are equivalent.": "",
+    "That is closer to the number of hydrogen atoms. Count the different environments instead. All the H atoms in one CH<sub>3</sub> group are equivalent.": "這比較接近氫原子的數目。應該數不同的環境。同一個 CH<sub>3</sub> 基團的所有 H 原子都是等價的。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "You counted every group that contains H. Some of these groups are equivalent because the molecule is symmetrical. Equivalent H atoms give one signal.": "",
+    "You counted every group that contains H. Some of these groups are equivalent because the molecule is symmetrical. Equivalent H atoms give one signal.": "你把每個含 H 的基團都數了。由於分子對稱，其中一些基團是等價的。等價的 H 原子只產生一個訊號。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Correct: 1 signal. All {h} H atoms are equivalent.": "",
+    "Correct: 1 signal. All {h} H atoms are equivalent.": "正確：1 個訊號。全部 {h} 個 H 原子都是等價的。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Correct: {n} signals. The areas are in the ratio {r}.": "",
+    "Correct: {n} signals. The areas are in the ratio {r}.": "正確：{n} 個訊號。面積比是 {r}。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Step 2. Predict the splitting of each signal. Count the H atoms on the neighbouring carbon atoms, then add 1.": "",
+    "Step 2. Predict the splitting of each signal. Count the H atoms on the neighbouring carbon atoms, then add 1.": "第 2 步。預測每個訊號的分裂。數相鄰碳原子上的 H 原子，然後加 1。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "choose…": "",
+    "choose…": "請選擇…",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Signal {k}: {group}": "",
+    "Signal {k}: {group}": "訊號 {k}：{group}",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "correct": "",
+    "correct": "正確",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "look again": "",
+    "look again": "再看一次",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Check splitting": "",
+    "Check splitting": "檢查分裂",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Show the answer": "",
+    "Show the answer": "顯示答案",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Some are not right yet. Do not count the H atoms in the group itself. Count only H atoms on the carbon atoms next to it. No H on the next atom means a singlet.": "",
+    "Some are not right yet. Do not count the H atoms in the group itself. Count only H atoms on the carbon atoms next to it. No H on the next atom means a singlet.": "有些還未正確。不要數基團本身的 H 原子。只數它旁邊的碳原子上的 H 原子。相鄰原子上沒有 H，就是單峰。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "All correct. The table and the sketch show the full prediction.": "",
+    "All correct. The table and the sketch show the full prediction.": "全部正確。表格和略圖顯示完整的預測。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The table and the sketch show the full prediction.": "",
+    "The table and the sketch show the full prediction.": "表格和略圖顯示完整的預測。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "MS: the peak at m/z = 31 is M − 15. The molecule can lose •CH<sub>3</sub>, so it contains a CH<sub>3</sub> group. The ion is CH<sub>2</sub>OH<sup>+</sup>.": "",
+    "MS: the peak at m/z = 31 is M − 15. The molecule can lose •CH<sub>3</sub>, so it contains a CH<sub>3</sub> group. The ion is CH<sub>2</sub>OH<sup>+</sup>.": "MS：m/z = 31 的峰是 M − 15。分子可以失去 •CH<sub>3</sub>，所以它含有 CH<sub>3</sub> 基團。這個離子是 CH<sub>2</sub>OH<sup>+</sup>。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "IR: broad O–H at 3200–3600 cm<sup>−1</sup> and C–O at 1050–1410 cm<sup>−1</sup>. No C=O. The compound is an alcohol.": "",
+    "IR: broad O–H at 3200–3600 cm<sup>−1</sup> and C–O at 1050–1410 cm<sup>−1</sup>. No C=O. The compound is an alcohol.": "IR：3200–3600 cm<sup>−1</sup> 有寬的 O–H，1050–1410 cm<sup>−1</sup> 有 C–O。沒有 C=O。這種化合物是醇。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "NMR splitting: triplet (3 H) and quartet (2 H) show CH<sub>3</sub>–CH<sub>2</sub>. The 1 H singlet is the O–H.": "",
+    "NMR splitting: triplet (3 H) and quartet (2 H) show CH<sub>3</sub>–CH<sub>2</sub>. The 1 H singlet is the O–H.": "NMR 分裂：三峰 (3 H) 和四峰 (2 H) 顯示有 CH<sub>3</sub>–CH<sub>2</sub>。1 H 的單峰是 O–H。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "methoxymethane": "",
+    "methoxymethane": "methoxymethane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Methoxymethane has the same molecular formula. But all six H atoms are equivalent, so it gives one signal. It has no O–H bond, so its IR spectrum has no broad band at 3200–3600 cm<sup>−1</sup>.": "",
+    "Methoxymethane has the same molecular formula. But all six H atoms are equivalent, so it gives one signal. It has no O–H bond, so its IR spectrum has no broad band at 3200–3600 cm<sup>−1</sup>.": "methoxymethane 的分子式相同。但它的六個 H 原子全部等價，所以只產生一個訊號。它沒有 O–H 鍵，所以它的 IR 光譜在 3200–3600 cm<sup>−1</sup> 沒有寬的吸收帶。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "MS: the peak at m/z = 43 is M − 29. The piece lost is •CH<sub>2</sub>CH<sub>3</sub> or •CHO. The NMR spectrum will decide. The small peak at m/z = 57 is M − 15: loss of •CH<sub>3</sub>.": "",
+    "MS: the peak at m/z = 43 is M − 29. The piece lost is •CH<sub>2</sub>CH<sub>3</sub> or •CHO. The NMR spectrum will decide. The small peak at m/z = 57 is M − 15: loss of •CH<sub>3</sub>.": "MS：m/z = 43 的峰是 M − 29。失去的碎片是 •CH<sub>2</sub>CH<sub>3</sub> 或 •CHO。要靠 NMR 譜來判斷。m/z = 57 的小峰是 M − 15：失去 •CH<sub>3</sub>。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "IR: strong C=O at 1700–1750 cm<sup>−1</sup>. No O–H. With one O atom, the compound is an aldehyde or a ketone.": "",
+    "IR: strong C=O at 1700–1750 cm<sup>−1</sup>. No O–H. With one O atom, the compound is an aldehyde or a ketone.": "IR：1700–1750 cm<sup>−1</sup> 有強的 C=O。沒有 O–H。只有一個 O 原子，所以這種化合物是醛或酮。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "NMR splitting: triplet (3 H) and quartet (2 H) show CH<sub>3</sub>–CH<sub>2</sub>. The 3 H singlet at 2.2 ppm is a CH<sub>3</sub> next to C=O with no H on the neighbouring carbon. No signal at 9.4–10.0 ppm, so there is no CHO group.": "",
+    "NMR splitting: triplet (3 H) and quartet (2 H) show CH<sub>3</sub>–CH<sub>2</sub>. The 3 H singlet at 2.2 ppm is a CH<sub>3</sub> next to C=O with no H on the neighbouring carbon. No signal at 9.4–10.0 ppm, so there is no CHO group.": "NMR 分裂：三峰 (3 H) 和四峰 (2 H) 顯示有 CH<sub>3</sub>–CH<sub>2</sub>。2.2 ppm 的 3 H 單峰是 C=O 旁邊的 CH<sub>3</sub>，相鄰的碳原子上沒有 H。9.4–10.0 ppm 沒有訊號，所以沒有 CHO 基團。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "butanal": "",
+    "butanal": "butanal",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Butanal is an aldehyde. It would give a signal at 9.4–10.0 ppm for the CHO hydrogen, and four signals in total. The spectrum has three signals and none above 3 ppm.": "",
+    "Butanal is an aldehyde. It would give a signal at 9.4–10.0 ppm for the CHO hydrogen, and four signals in total. The spectrum has three signals and none above 3 ppm.": "butanal 是醛。它的 CHO 氫會在 9.4–10.0 ppm 產生訊號，而且總共有四個訊號。這個譜只有三個訊號，而且沒有訊號高於 3 ppm。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "2-methylpropanal": "",
+    "2-methylpropanal": "2-methylpropanal",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "2-methylpropanal is an aldehyde. It would give a signal at 9.4–10.0 ppm, and its areas would be in the ratio 6 : 1 : 1.": "",
+    "2-methylpropanal is an aldehyde. It would give a signal at 9.4–10.0 ppm, and its areas would be in the ratio 6 : 1 : 1.": "2-methylpropanal 是醛。它會在 9.4–10.0 ppm 產生訊號，而且面積比會是 6 : 1 : 1。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "MS: the peak at m/z = 29 is M − 45: loss of •COOH. The ion is CH<sub>3</sub>CH<sub>2</sub><sup>+</sup>. The peak at m/z = 57 is M − 17: loss of •OH.": "",
+    "MS: the peak at m/z = 29 is M − 45: loss of •COOH. The ion is CH<sub>3</sub>CH<sub>2</sub><sup>+</sup>. The peak at m/z = 57 is M − 17: loss of •OH.": "MS：m/z = 29 的峰是 M − 45：失去 •COOH。這個離子是 CH<sub>3</sub>CH<sub>2</sub><sup>+</sup>。m/z = 57 的峰是 M − 17：失去 •OH。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "IR: very broad O–H at 2500–3000 cm<sup>−1</sup> and strong C=O at 1700–1750 cm<sup>−1</sup>. The compound is a carboxylic acid.": "",
+    "IR: very broad O–H at 2500–3000 cm<sup>−1</sup> and strong C=O at 1700–1750 cm<sup>−1</sup>. The compound is a carboxylic acid.": "IR：2500–3000 cm<sup>−1</sup> 有很寬的 O–H，1700–1750 cm<sup>−1</sup> 有強的 C=O。這種化合物是羧酸。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "NMR splitting: triplet (3 H) and quartet (2 H) show CH<sub>3</sub>–CH<sub>2</sub>. The 1 H singlet at 11.7 ppm is in the range 9.0–13.0 ppm: the H of COOH.": "",
+    "NMR splitting: triplet (3 H) and quartet (2 H) show CH<sub>3</sub>–CH<sub>2</sub>. The 1 H singlet at 11.7 ppm is in the range 9.0–13.0 ppm: the H of COOH.": "NMR 分裂：三峰 (3 H) 和四峰 (2 H) 顯示有 CH<sub>3</sub>–CH<sub>2</sub>。11.7 ppm 的 1 H 單峰在 9.0–13.0 ppm 範圍內：是 COOH 的 H。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Methyl ethanoate is an ester. It has no O–H bond, so it would not give the very broad IR band. Its NMR spectrum would be two singlets.": "",
+    "Methyl ethanoate is an ester. It has no O–H bond, so it would not give the very broad IR band. Its NMR spectrum would be two singlets.": "methyl ethanoate 是酯。它沒有 O–H 鍵，所以不會產生那個很寬的 IR 吸收帶。它的 NMR 譜會是兩個單峰。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "ethyl methanoate": "",
+    "ethyl methanoate": "ethyl methanoate",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Ethyl methanoate is an ester. It has no O–H bond, so it would not give the very broad IR band at 2500–3000 cm<sup>−1</sup>. It cannot lose •COOH.": "",
+    "Ethyl methanoate is an ester. It has no O–H bond, so it would not give the very broad IR band at 2500–3000 cm<sup>−1</sup>. It cannot lose •COOH.": "ethyl methanoate 是酯。它沒有 O–H 鍵，所以不會在 2500–3000 cm<sup>−1</sup> 產生很寬的 IR 吸收帶。它不能失去 •COOH。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "MS: the peak at m/z = 59 is M − 15: loss of •CH<sub>3</sub>. The peak at m/z = 45 is M − 29: loss of •CH<sub>2</sub>CH<sub>3</sub>. The molecule contains an ethyl group.": "",
+    "MS: the peak at m/z = 59 is M − 15: loss of •CH<sub>3</sub>. The peak at m/z = 45 is M − 29: loss of •CH<sub>2</sub>CH<sub>3</sub>. The molecule contains an ethyl group.": "MS：m/z = 59 的峰是 M − 15：失去 •CH<sub>3</sub>。m/z = 45 的峰是 M − 29：失去 •CH<sub>2</sub>CH<sub>3</sub>。分子含有乙基。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "IR: strong C–O at 1050–1410 cm<sup>−1</sup>. No O–H and no C=O. With one O atom, the compound is an ether, not an alcohol.": "",
+    "IR: strong C–O at 1050–1410 cm<sup>−1</sup>. No O–H and no C=O. With one O atom, the compound is an ether, not an alcohol.": "IR：1050–1410 cm<sup>−1</sup> 有強的 C–O。沒有 O–H，也沒有 C=O。只有一個 O 原子，所以這種化合物是醚，不是醇。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "NMR splitting: triplet and quartet show CH<sub>3</sub>–CH<sub>2</sub>. There are 6 H and 4 H, so there are two equivalent CH<sub>3</sub>–CH<sub>2</sub> groups. The quartet at 3.4 ppm fits R–O–CH<sub>2</sub> (3.3–3.7 ppm).": "",
+    "NMR splitting: triplet and quartet show CH<sub>3</sub>–CH<sub>2</sub>. There are 6 H and 4 H, so there are two equivalent CH<sub>3</sub>–CH<sub>2</sub> groups. The quartet at 3.4 ppm fits R–O–CH<sub>2</sub> (3.3–3.7 ppm).": "NMR 分裂：三峰和四峰顯示有 CH<sub>3</sub>–CH<sub>2</sub>。有 6 H 和 4 H，所以有兩個等價的 CH<sub>3</sub>–CH<sub>2</sub> 基團。3.4 ppm 的四峰與 R–O–CH<sub>2</sub> (3.3–3.7 ppm) 吻合。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "butan-1-ol": "",
+    "butan-1-ol": "butan-1-ol",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Butan-1-ol is an alcohol. Its IR spectrum would show a broad O–H band at 3200–3600 cm<sup>−1</sup>, and its NMR spectrum would have five signals.": "",
+    "Butan-1-ol is an alcohol. Its IR spectrum would show a broad O–H band at 3200–3600 cm<sup>−1</sup>, and its NMR spectrum would have five signals.": "butan-1-ol 是醇。它的 IR 光譜會在 3200–3600 cm<sup>−1</sup> 顯示寬的 O–H 吸收帶，它的 NMR 譜會有五個訊號。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "1-methoxypropane": "",
+    "1-methoxypropane": "1-methoxypropane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "1-methoxypropane is an ether, so the IR fits. But it is not symmetrical. It would give four signals, and one of them would be a 3 H singlet for O–CH<sub>3</sub>.": "",
+    "1-methoxypropane is an ether, so the IR fits. But it is not symmetrical. It would give four signals, and one of them would be a 3 H singlet for O–CH<sub>3</sub>.": "1-methoxypropane 是醚，所以 IR 吻合。但它不對稱。它會產生四個訊號，其中一個是 O–CH<sub>3</sub> 的 3 H 單峰。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "methyl propanoate": "",
+    "methyl propanoate": "methyl propanoate",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "MS: the peak at m/z = 57 is M − 31: loss of •OCH<sub>3</sub>. The molecule contains an O–CH<sub>3</sub> group. The peak at m/z = 59 is M − 29: loss of •CH<sub>2</sub>CH<sub>3</sub>.": "",
+    "MS: the peak at m/z = 57 is M − 31: loss of •OCH<sub>3</sub>. The molecule contains an O–CH<sub>3</sub> group. The peak at m/z = 59 is M − 29: loss of •CH<sub>2</sub>CH<sub>3</sub>.": "MS：m/z = 57 的峰是 M − 31：失去 •OCH<sub>3</sub>。分子含有 O–CH<sub>3</sub> 基團。m/z = 59 的峰是 M − 29：失去 •CH<sub>2</sub>CH<sub>3</sub>。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "IR: strong C=O at 1700–1750 cm<sup>−1</sup> and strong C–O at 1050–1410 cm<sup>−1</sup>. No O–H. With two O atoms, the compound is an ester.": "",
+    "IR: strong C=O at 1700–1750 cm<sup>−1</sup> and strong C–O at 1050–1410 cm<sup>−1</sup>. No O–H. With two O atoms, the compound is an ester.": "IR：1700–1750 cm<sup>−1</sup> 有強的 C=O，1050–1410 cm<sup>−1</sup> 有強的 C–O。沒有 O–H。有兩個 O 原子，所以這種化合物是酯。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "NMR splitting: triplet (3 H) and quartet (2 H) show CH<sub>3</sub>–CH<sub>2</sub>. The quartet at 2.3 ppm fits CH<sub>2</sub> next to C=O (2.0–2.5 ppm). The 3 H singlet at 3.7 ppm fits O–CH<sub>3</sub> of an ester (3.7–4.8 ppm).": "",
+    "NMR splitting: triplet (3 H) and quartet (2 H) show CH<sub>3</sub>–CH<sub>2</sub>. The quartet at 2.3 ppm fits CH<sub>2</sub> next to C=O (2.0–2.5 ppm). The 3 H singlet at 3.7 ppm fits O–CH<sub>3</sub> of an ester (3.7–4.8 ppm).": "NMR 分裂：三峰 (3 H) 和四峰 (2 H) 顯示有 CH<sub>3</sub>–CH<sub>2</sub>。2.3 ppm 的四峰與 C=O 旁邊的 CH<sub>2</sub> (2.0–2.5 ppm) 吻合。3.7 ppm 的 3 H 單峰與酯的 O–CH<sub>3</sub> (3.7–4.8 ppm) 吻合。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Ethyl ethanoate also gives a triplet, a quartet and a singlet. But its quartet would be at 3.7–4.8 ppm (O–CH<sub>2</sub>) and its singlet at 2.0–2.5 ppm. It has no O–CH<sub>3</sub> group to lose, so M − 31 would not fit.": "",
+    "Ethyl ethanoate also gives a triplet, a quartet and a singlet. But its quartet would be at 3.7–4.8 ppm (O–CH<sub>2</sub>) and its singlet at 2.0–2.5 ppm. It has no O–CH<sub>3</sub> group to lose, so M − 31 would not fit.": "ethyl ethanoate 同樣產生一個三峰、一個四峰和一個單峰。但它的四峰會在 3.7–4.8 ppm (O–CH<sub>2</sub>)，單峰會在 2.0–2.5 ppm。它沒有 O–CH<sub>3</sub> 基團可以失去，所以 M − 31 不吻合。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "butanoic acid": "",
+    "butanoic acid": "butanoic acid",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Butanoic acid has an O–H bond. Its IR spectrum would show a very broad band at 2500–3000 cm<sup>−1</sup>, and its NMR spectrum would have a signal at 9.0–13.0 ppm.": "",
+    "Butanoic acid has an O–H bond. Its IR spectrum would show a very broad band at 2500–3000 cm<sup>−1</sup>, and its NMR spectrum would have a signal at 9.0–13.0 ppm.": "butanoic acid 有 O–H 鍵。它的 IR 光譜會在 2500–3000 cm<sup>−1</sup> 顯示很寬的吸收帶，它的 NMR 譜會在 9.0–13.0 ppm 有訊號。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "2,2-dimethylpropanal": "",
+    "2,2-dimethylpropanal": "2,2-dimethylpropanal",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "MS: the peak at m/z = 57 is M − 29. The piece lost is •CH<sub>2</sub>CH<sub>3</sub> or •CHO. The NMR spectrum will decide.": "",
+    "MS: the peak at m/z = 57 is M − 29. The piece lost is •CH<sub>2</sub>CH<sub>3</sub> or •CHO. The NMR spectrum will decide.": "MS：m/z = 57 的峰是 M − 29。失去的碎片是 •CH<sub>2</sub>CH<sub>3</sub> 或 •CHO。要靠 NMR 譜來判斷。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "NMR: the 1 H signal at 9.5 ppm is in the range 9.4–10.0 ppm: an aldehyde H. So the piece of mass 29 lost in the mass spectrum is •CHO. Nine equivalent H at 1.0 ppm are three CH<sub>3</sub> groups on one carbon. Both signals are singlets: no H on the carbon atom between them.": "",
+    "NMR: the 1 H signal at 9.5 ppm is in the range 9.4–10.0 ppm: an aldehyde H. So the piece of mass 29 lost in the mass spectrum is •CHO. Nine equivalent H at 1.0 ppm are three CH<sub>3</sub> groups on one carbon. Both signals are singlets: no H on the carbon atom between them.": "NMR：9.5 ppm 的 1 H 訊號在 9.4–10.0 ppm 範圍內：是醛的 H。所以質譜中失去的質量為 29 的碎片是 •CHO。1.0 ppm 的九個等價 H 是同一個碳原子上的三個 CH<sub>3</sub> 基團。兩個訊號都是單峰：它們之間的碳原子上沒有 H。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "pentanal": "",
+    "pentanal": "pentanal",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Pentanal is an aldehyde, but it has five hydrogen environments. The spectrum has only two signals.": "",
+    "Pentanal is an aldehyde, but it has five hydrogen environments. The spectrum has only two signals.": "pentanal 是醛，但它有五個氫環境。這個譜只有兩個訊號。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Pentan-3-one has two environments, but the ratio would be 3 : 2 with a triplet and a quartet. It has no H that gives a signal at 9.4–10.0 ppm.": "",
+    "Pentan-3-one has two environments, but the ratio would be 3 : 2 with a triplet and a quartet. It has no H that gives a signal at 9.4–10.0 ppm.": "pentan-3-one 有兩個環境，但面積比會是 3 : 2，並有一個三峰和一個四峰。它沒有會在 9.4–10.0 ppm 產生訊號的 H。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Step": "",
+    "Step": "步驟",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Molecular formula": "",
+    "Molecular formula": "分子式",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Problem": "",
+    "Problem": "題目",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Unknown compound {n}": "",
+    "Unknown compound {n}": "未知化合物 {n}",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Start this problem again": "",
+    "Start this problem again": "重新開始這一題",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Data for the unknown compound": "",
+    "Data for the unknown compound": "未知化合物的數據",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Percentage composition by mass: C {c} %, H {h} %, O {o} %.": "",
+    "Percentage composition by mass: C {c} %, H {h} %, O {o} %.": "質量百分組成：C {c} %、H {h} %、O {o} %。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Mass spectrum (simplified)": "",
+    "Mass spectrum (simplified)": "質譜（簡化）",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Infrared spectrum (sketch)": "",
+    "Infrared spectrum (sketch)": "紅外光譜（略圖）",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "<sup>1</sup>H NMR spectrum (sketch)": "",
+    "<sup>1</sup>H NMR spectrum (sketch)": "<sup>1</sup>H NMR 譜（略圖）",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Simplified mass spectrum of the unknown compound. Peaks at m/z {list}. The peak at the highest m/z is {m}.": "",
+    "Simplified mass spectrum of the unknown compound. Peaks at m/z {list}. The peak at the highest m/z is {m}.": "未知化合物的簡化質譜。峰在 m/z {list}。m/z 最大的峰是 {m}。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Peaks at m/z = {list}.": "",
+    "Peaks at m/z = {list}.": "峰在 m/z = {list}。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Sketch of the infrared spectrum of the unknown compound. Main absorptions near {list} wavenumbers.": "",
+    "Sketch of the infrared spectrum of the unknown compound. Main absorptions near {list} wavenumbers.": "未知化合物的紅外光譜略圖。主要吸收在波數 {list} 附近。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Sketch of the proton NMR spectrum of the unknown compound. See the table of signals.": "",
+    "Sketch of the proton NMR spectrum of the unknown compound. See the table of signals.": "未知化合物的質子 NMR 譜略圖。請參閱訊號表。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "<sup>1</sup>H NMR signals": "",
+    "<sup>1</sup>H NMR signals": "<sup>1</sup>H NMR 訊號",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Relative area": "",
+    "Relative area": "相對面積",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Deduction notebook": "",
+    "Deduction notebook": "推論筆記",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Your deductions appear here as you solve each step.": "",
+    "Your deductions appear here as you solve each step.": "你每解決一步，推論就會在這裏出現。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Composition: in 100 g there are {c} mol C, {h} mol H and {o} mol O. Dividing by the smallest gives C : H : O = {rc} : {rh} : {ro}.": "",
+    "Composition: in 100 g there are {c} mol C, {h} mol H and {o} mol O. Dividing by the smallest gives C : H : O = {rc} : {rh} : {ro}.": "組成：100 g 中有 {c} mol C、{h} mol H 和 {o} mol O。除以最小的數值，得出 C : H : O = {rc} : {rh} : {ro}。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Multiply by {m} to get whole numbers.": "",
+    "Multiply by {m} to get whole numbers.": "乘以 {m}，得出整數。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Empirical formula: {f}.": "",
+    "Empirical formula: {f}.": "實驗式：{f}。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "O–H of an alcohol (broad, 3200–3600 cm<sup>−1</sup>) and C–O. No C=O.": "",
+    "O–H of an alcohol (broad, 3200–3600 cm<sup>−1</sup>) and C–O. No C=O.": "醇的 O–H（寬，3200–3600 cm<sup>−1</sup>）和 C–O。沒有 C=O。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "C=O (1700–1750 cm<sup>−1</sup>). No O–H.": "",
+    "C=O (1700–1750 cm<sup>−1</sup>). No O–H.": "C=O (1700–1750 cm<sup>−1</sup>)。沒有 O–H。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "O–H of a carboxylic acid (very broad, 2500–3000 cm<sup>−1</sup>) and C=O.": "",
+    "O–H of a carboxylic acid (very broad, 2500–3000 cm<sup>−1</sup>) and C=O.": "羧酸的 O–H（很寬，2500–3000 cm<sup>−1</sup>）和 C=O。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "C–O (1050–1410 cm<sup>−1</sup>). No O–H and no C=O.": "",
+    "C–O (1050–1410 cm<sup>−1</sup>). No O–H and no C=O.": "C–O (1050–1410 cm<sup>−1</sup>)。沒有 O–H，也沒有 C=O。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Empirical formula": "",
+    "Empirical formula": "實驗式",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Use the percentage composition. What is the empirical formula?": "",
+    "Use the percentage composition. What is the empirical formula?": "利用百分組成。實驗式是甚麼？",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. Divide each percentage by the relative atomic mass (C 12.01, H 1.01, O 16.00). Then divide every answer by the smallest one. If you get a value such as 1.5, multiply all of them by 2.": "",
+    "Not this one. Divide each percentage by the relative atomic mass (C 12.01, H 1.01, O 16.00). Then divide every answer by the smallest one. If you get a value such as 1.5, multiply all of them by 2.": "不是這一個。把每個百分率除以相對原子質量（C 12.01、H 1.01、O 16.00）。然後把每個答案除以最小的一個。如果得出 1.5 這類數值，就把全部乘以 2。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The molecular ion peak is at m/z = {m}. What is the molecular formula?": "",
+    "The molecular ion peak is at m/z = {m}. What is the molecular formula?": "分子離子峰在 m/z = {m}。分子式是甚麼？",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. The molecular ion gives <i>M</i><sub>r</sub> = {m}. The empirical formula {f} has a mass of {e}. How many times does {e} go into {m}?": "",
+    "Not this one. The molecular ion gives <i>M</i><sub>r</sub> = {m}. The empirical formula {f} has a mass of {e}. How many times does {e} go into {m}?": "不是這一個。分子離子給出 <i>M</i><sub>r</sub> = {m}。實驗式 {f} 的質量是 {e}。{m} 是 {e} 的多少倍？",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "MS: the molecular ion peak at m/z = {m} gives <i>M</i><sub>r</sub> = {m}. Empirical formula mass = {e}, and {m} ÷ {e} ≈ {k}. Molecular formula: {f}.": "",
+    "MS: the molecular ion peak at m/z = {m} gives <i>M</i><sub>r</sub> = {m}. Empirical formula mass = {e}, and {m} ÷ {e} ≈ {k}. Molecular formula: {f}.": "MS：m/z = {m} 的分子離子峰給出 <i>M</i><sub>r</sub> = {m}。實驗式的質量 = {e}，而 {m} ÷ {e} ≈ {k}。分子式：{f}。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Infrared": "",
+    "Infrared": "紅外",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Look at the infrared spectrum and the booklet table. Which statement fits?": "",
+    "Look at the infrared spectrum and the booklet table. Which statement fits?": "看看紅外光譜和手冊表格。哪一項陳述吻合？",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. An alcohol gives a strong, broad absorption at 3200–3600 cm<sup>−1</sup>. This spectrum has nothing there.": "",
+    "Not this one. An alcohol gives a strong, broad absorption at 3200–3600 cm<sup>−1</sup>. This spectrum has nothing there.": "不是這一項。醇會在 3200–3600 cm<sup>−1</sup> 產生強而寬的吸收。這個光譜在那裏沒有吸收。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. A carboxylic acid gives a very broad absorption at 2500–3000 cm<sup>−1</sup>. This spectrum has only the sharper C–H band near 2850–3090 cm<sup>−1</sup>.": "",
+    "Not this one. A carboxylic acid gives a very broad absorption at 2500–3000 cm<sup>−1</sup>. This spectrum has only the sharper C–H band near 2850–3090 cm<sup>−1</sup>.": "不是這一項。羧酸會在 2500–3000 cm<sup>−1</sup> 產生很寬的吸收。這個光譜只有 2850–3090 cm<sup>−1</sup> 附近較尖的 C–H 吸收帶。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. C=O gives a strong absorption at 1700–1750 cm<sup>−1</sup>. This spectrum has nothing there.": "",
+    "Not this one. C=O gives a strong absorption at 1700–1750 cm<sup>−1</sup>. This spectrum has nothing there.": "不是這一項。C=O 會在 1700–1750 cm<sup>−1</sup> 產生強吸收。這個光譜在那裏沒有吸收。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. The spectrum has a strong absorption at 1700–1750 cm<sup>−1</sup>. That is C=O.": "",
+    "Not this one. The spectrum has a strong absorption at 1700–1750 cm<sup>−1</sup>. That is C=O.": "不是這一項。光譜在 1700–1750 cm<sup>−1</sup> 有強吸收。那是 C=O。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. The spectrum has a broad O–H absorption.": "",
+    "Not this one. The spectrum has a broad O–H absorption.": "不是這一項。光譜有寬的 O–H 吸收。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. The spectrum has a strong, broad absorption at 3200–3600 cm<sup>−1</sup>. That is the O–H of an alcohol.": "",
+    "Not this one. The spectrum has a strong, broad absorption at 3200–3600 cm<sup>−1</sup>. That is the O–H of an alcohol.": "不是這一項。光譜在 3200–3600 cm<sup>−1</sup> 有強而寬的吸收。那是醇的 O–H。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. Check each absorption against the booklet table.": "",
+    "Not this one. Check each absorption against the booklet table.": "不是這一項。把每個吸收與手冊表格逐一核對。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Fragment": "",
+    "Fragment": "碎片",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "In the mass spectrum there is a peak at m/z = {mz}. The mass lost from the molecular ion is {m} − {mz} = {lost}. Which piece could the molecule have lost?": "",
+    "In the mass spectrum there is a peak at m/z = {mz}. The mass lost from the molecular ion is {m} − {mz} = {lost}. Which piece could the molecule have lost?": "質譜中有一個峰在 m/z = {mz}。分子離子失去的質量是 {m} − {mz} = {lost}。分子可能失去了哪一塊碎片？",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. Find the mass lost, {lost}, in the booklet table of mass spectral fragments lost.": "",
+    "Not this one. Find the mass lost, {lost}, in the booklet table of mass spectral fragments lost.": "不是這一個。在手冊的 mass spectral fragments lost 表格中找出失去的質量 {lost}。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "NMR: signals and areas": "",
+    "NMR: signals and areas": "NMR：訊號和面積",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The <sup>1</sup>H NMR spectrum has {n} signals. Their areas are in the ratio {r}. What does this show?": "",
+    "The <sup>1</sup>H NMR spectrum has {n} signals. Their areas are in the ratio {r}. What does this show?": "<sup>1</sup>H NMR 譜有 {n} 個訊號。它們的面積比是 {r}。這說明甚麼？",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The molecule has {n} hydrogen atoms.": "",
+    "The molecule has {n} hydrogen atoms.": "分子有 {n} 個氫原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The molecule has {n} different hydrogen environments. The numbers of H atoms in them are in the ratio {r}.": "",
+    "The molecule has {n} different hydrogen environments. The numbers of H atoms in them are in the ratio {r}.": "分子有 {n} 個不同的氫環境。各環境中 H 原子數目的比是 {r}。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The molecule has {n} carbon atoms.": "",
+    "The molecule has {n} carbon atoms.": "分子有 {n} 個碳原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Each signal comes from one hydrogen atom.": "",
+    "Each signal comes from one hydrogen atom.": "每個訊號來自一個氫原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. <sup>1</sup>H NMR detects hydrogen atoms, not carbon atoms.": "",
+    "Not this one. <sup>1</sup>H NMR detects hydrogen atoms, not carbon atoms.": "不是這一項。<sup>1</sup>H NMR 偵測的是氫原子，不是碳原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. The number of signals is the number of different hydrogen environments. The formula shows {h} H atoms.": "",
+    "Not this one. The number of signals is the number of different hydrogen environments. The formula shows {h} H atoms.": "不是這一項。訊號的數目是不同氫環境的數目。化學式顯示有 {h} 個 H 原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "NMR: {n} signals, so {n} hydrogen environments. The ratio {r} adds up to {s}. The formula has {h} H atoms, so the environments contain {list} H atoms.": "",
+    "NMR: {n} signals, so {n} hydrogen environments. The ratio {r} adds up to {s}. The formula has {h} H atoms, so the environments contain {list} H atoms.": "NMR：{n} 個訊號，所以有 {n} 個氫環境。比 {r} 加起來是 {s}。化學式有 {h} 個 H 原子，所以各環境分別有 {list} 個 H 原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "NMR: splitting": "",
+    "NMR: splitting": "NMR：分裂",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "One signal is a triplet and another is a quartet. What does this pattern show?": "",
+    "One signal is a triplet and another is a quartet. What does this pattern show?": "一個訊號是三峰，另一個是四峰。這個模式說明甚麼？",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "A group with 3 H and a group with 4 H.": "",
+    "A group with 3 H and a group with 4 H.": "一個基團有 3 個 H，另一個基團有 4 個 H。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "A CH<sub>3</sub> group next to a CH<sub>2</sub> group: CH<sub>3</sub>–CH<sub>2</sub>.": "",
+    "A CH<sub>3</sub> group next to a CH<sub>2</sub> group: CH<sub>3</sub>–CH<sub>2</sub>.": "CH<sub>3</sub> 基團在 CH<sub>2</sub> 基團旁邊：CH<sub>3</sub>–CH<sub>2</sub>。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "A CH<sub>3</sub> group gives three lines because it has three H atoms.": "",
+    "A CH<sub>3</sub> group gives three lines because it has three H atoms.": "CH<sub>3</sub> 基團產生三條線，因為它有三個 H 原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Two CH<sub>2</sub> groups next to each other.": "",
+    "Two CH<sub>2</sub> groups next to each other.": "兩個 CH<sub>2</sub> 基團彼此相鄰。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. The H atoms in a group do not split their own signal. The splitting comes from H atoms on the neighbouring carbon atom.": "",
+    "Not this one. The H atoms in a group do not split their own signal. The splitting comes from H atoms on the neighbouring carbon atom.": "不是這一項。一個基團裏的 H 原子不會令自己的訊號分裂。分裂來自相鄰碳原子上的 H 原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. Number of lines = number of neighbouring H atoms + 1. A triplet has 2 neighbouring H. A quartet has 3 neighbouring H.": "",
+    "Not this one. Number of lines = number of neighbouring H atoms + 1. A triplet has 2 neighbouring H. A quartet has 3 neighbouring H.": "不是這一項。線的數目 = 相鄰 H 原子的數目 + 1。三峰有 2 個相鄰的 H。四峰有 3 個相鄰的 H。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Both signals are singlets. What does this show?": "",
+    "Both signals are singlets. What does this show?": "兩個訊號都是單峰。這說明甚麼？",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Each signal comes from one H atom.": "",
+    "Each signal comes from one H atom.": "每個訊號來自一個 H 原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The molecule has no CH<sub>3</sub> groups.": "",
+    "The molecule has no CH<sub>3</sub> groups.": "分子沒有 CH<sub>3</sub> 基團。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The H atoms in each environment have no H atoms on the neighbouring carbon atom.": "",
+    "The H atoms in each environment have no H atoms on the neighbouring carbon atom.": "每個環境中的 H 原子，相鄰的碳原子上都沒有 H 原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The two groups of H atoms are bonded to the same carbon atom.": "",
+    "The two groups of H atoms are bonded to the same carbon atom.": "兩組 H 原子與同一個碳原子鍵合。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. Number of lines = number of neighbouring H atoms + 1. One line means 0 neighbouring H atoms.": "",
+    "Not this one. Number of lines = number of neighbouring H atoms + 1. One line means 0 neighbouring H atoms.": "不是這一項。線的數目 = 相鄰 H 原子的數目 + 1。一條線代表有 0 個相鄰的 H 原子。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Structure": "",
+    "Structure": "結構",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Put the deductions together. Which structure is the unknown compound?": "",
+    "Put the deductions together. Which structure is the unknown compound?": "把各項推論合起來。未知化合物是哪一個結構？",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Solved. The unknown compound is {name}. Every piece of data fits this structure.": "",
+    "Solved. The unknown compound is {name}. Every piece of data fits this structure.": "已解決。未知化合物是 {name}。每項數據都與這個結構吻合。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Structure of {name} with its hydrogen environments labelled": "",
+    "Structure of {name} with its hydrogen environments labelled": "{name} 的結構，並標示了氫環境",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Step {n}: {name}.": "",
+    "Step {n}: {name}.": "第 {n} 步：{name}。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Structure: {name}. It has the right formula, functional group, fragments, number of signals, areas and splitting.": "",
+    "Structure: {name}. It has the right formula, functional group, fragments, number of signals, areas and splitting.": "結構：{name}。它的化學式、官能基、碎片、訊號數目、面積和分裂全都吻合。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Correct. The deduction is in your notebook.": "",
+    "Correct. The deduction is in your notebook.": "正確。推論已記在你的筆記裏。",
 
   }
 });

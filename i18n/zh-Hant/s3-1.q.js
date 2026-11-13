@@ -611,7 +611,7 @@ S1.i18n.register('zh-Hant', 's3-1.q', {
     // ── s3-1-q021 · short · exam · SL · Structure 3.1.4 · 3 marks
     "s3-1-q021": {
       // EN: <p>Lithium, sodium and potassium all react with water. Describe and explain the trend in reactivity from lithium to potassium.</p>
-      stem: "<p>鋰、鈉和鉀都與水反應。描述 (describe) 並解釋 (explain) 由鋰到鉀的反應活性趨勢。</p>",
+      stem: "<p>鋰、鈉和鉀都與水反應。描述 (describe) 並解釋 (explain) 由鋰到鉀的活潑性趨勢。</p>",
       hints: [
         // EN: “Describe” needs the direction of the trend. “Explain” needs the reason.
         "「描述」要寫出趨勢的方向。「解釋」要寫出原因。",
@@ -619,10 +619,10 @@ S1.i18n.register('zh-Hant', 's3-1.q', {
         "在這個反應中，每個金屬原子失去一個電子。甚麼令這個電子較容易失去？",
       ],
       // EN: <p>The reactivity increases down the group: the reaction with water becomes more vigorous from lithium to sodium to potassium.</p><p>Down the group, the outer electron is in a higher energy level. It is further from the nucleus and more shielded by inner electrons. The attraction between the nucleus and the outer electron is weaker, so the first ionization energy is lower and the atom loses its outer electron more easily.</p>
-      answer: "<p>沿這一族向下，反應活性增加：由鋰到鈉再到鉀，與水的反應越來越劇烈。</p><p>沿這一族向下，最外層電子在較高的能級。它離原子核較遠，受內層電子的屏蔽也較多。原子核與最外層電子之間的吸引較弱，所以第一電離能較低，原子較容易失去最外層電子。</p>",
+      answer: "<p>沿這一族向下，活潑性增加：由鋰到鈉再到鉀，與水的反應越來越劇烈。</p><p>沿這一族向下，最外層電子在較高的能級。它離原子核較遠，受內層電子的屏蔽也較多。原子核與最外層電子之間的吸引較弱，所以第一電離能較低，原子較容易失去最外層電子。</p>",
       markscheme: [
         // EN: Reactivity increases down the group / the reaction becomes more vigorous from Li to K.
-        "沿這一族向下，反應活性增加／由 Li 到 K，反應越來越劇烈。",
+        "沿這一族向下，活潑性增加／由 Li 到 K，反應越來越劇烈。",
         // EN: Down the group the outer electron is in a higher energy level / further from the nucleus AND more shielded.
         "沿這一族向下，最外層電子在較高的能級／離原子核較遠，並且 (AND) 受到的屏蔽較多。",
         // EN: So the attraction for the outer electron is weaker / the ionization energy is lower / the outer electron is lost more easily.
@@ -646,7 +646,7 @@ S1.i18n.register('zh-Hant', 's3-1.q', {
       ],
       hints: [
         // EN: Reactivity decreases down group 17: <span class="chem">Cl2</span> &gt; <span class="chem">Br2</span> &gt; <span class="chem">I2</span>.
-        "沿第 17 族向下，反應活性減少：<span class=\"chem\">Cl2</span> &gt; <span class=\"chem\">Br2</span> &gt; <span class=\"chem\">I2</span>。",
+        "沿第 17 族向下，活潑性減少：<span class=\"chem\">Cl2</span> &gt; <span class=\"chem\">Br2</span> &gt; <span class=\"chem\">I2</span>。",
         // EN: A halogen displaces the halide ion of a halogen <em>below</em> it in the group.
         "鹵素可以置換族中位置在它<em>下面</em>的鹵素的鹵離子。",
       ],
@@ -675,12 +675,12 @@ S1.i18n.register('zh-Hant', 's3-1.q', {
         "離子方程式不用寫 <span class=\"chem\">K+</span>。它沒有改變。",
       ],
       // EN: <p><span class="chem">X2</span> is <strong>bromine</strong>. A halogen displaces the halide ions of a less reactive halogen. Test 2 shows that <span class="chem">X2</span> is more reactive than iodine, so it is not iodine. Test 1 shows that <span class="chem">X2</span> cannot displace chloride ions, so it is less reactive than chlorine (and it is not chlorine, which does not react with its own ions). Reactivity decreases down group 17, so <span class="chem">X2</span> is bromine.</p><div class="worked__math"><span class="chem">Br2(aq) + 2I-(aq) -> 2Br-(aq) + I2(aq)</span></div>
-      answer: "<p><span class=\"chem\">X2</span> 是<strong>溴</strong>。鹵素可以置換活性比它低的鹵素的鹵離子。測試 2 顯示 <span class=\"chem\">X2</span> 的活性比碘高，所以它不是碘。測試 1 顯示 <span class=\"chem\">X2</span> 不能置換氯離子，所以它的活性比氯低（它也不是氯，因為氯不會與自己的離子反應）。沿第 17 族向下，反應活性減少，所以 <span class=\"chem\">X2</span> 是溴。</p><div class=\"worked__math\"><span class=\"chem\">Br2(aq) + 2I-(aq) -> 2Br-(aq) + I2(aq)</span></div>",
+      answer: "<p><span class=\"chem\">X2</span> 是<strong>溴</strong>。鹵素可以置換活性比它低的鹵素的鹵離子。測試 2 顯示 <span class=\"chem\">X2</span> 的活性比碘高，所以它不是碘。測試 1 顯示 <span class=\"chem\">X2</span> 不能置換氯離子，所以它的活性比氯低（它也不是氯，因為氯不會與自己的離子反應）。沿第 17 族向下，活潑性減少，所以 <span class=\"chem\">X2</span> 是溴。</p><div class=\"worked__math\"><span class=\"chem\">Br2(aq) + 2I-(aq) -> 2Br-(aq) + I2(aq)</span></div>",
       markscheme: [
         // EN: X<sub>2</sub> is bromine / Br<sub>2</sub>.
         "X<sub>2</sub> 是溴／Br<sub>2</sub>。",
         // EN: It displaces iodide ions, so it is more reactive than iodine, but it does not displace chloride ions, so it is less reactive than chlorine (accept: reactivity decreases down group 17).
-        "它可以置換碘離子，所以活性比碘高；但它不能置換氯離子，所以活性比氯低（接受：沿第 17 族向下，反應活性減少）。",
+        "它可以置換碘離子，所以活性比碘高；但它不能置換氯離子，所以活性比氯低（接受：沿第 17 族向下，活潑性減少）。",
         // EN: <span class="chem">Br2(aq) + 2I-(aq) -> 2Br-(aq) + I2(aq)</span> (balanced, with state symbols).
         "<span class=\"chem\">Br2(aq) + 2I-(aq) -> 2Br-(aq) + I2(aq)</span>（已配平，並有物態符號）。",
       ],
