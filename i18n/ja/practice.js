@@ -9,11 +9,11 @@ S1.i18n.register('ja', 'practice', {
     "What the difficulty levels mean": "難易度の意味",
     "What it checks": "確かめること",
     "When to use it": "使うタイミング",
-    "One idea or one calculation step at a time.": "1 つの考え方、または計算の 1 ステップを 1 問ずつ確かめます。",
+    "One idea or one calculation step at a time.": "1 問につき、考え方 1 つ、または計算 1 ステップを確かめます。",
     "Straight after reading a section.": "セクションを読んだすぐあと。",
     "Questions shaped like the ones in the papers, with marks.": "実際の試験に近い形式の、配点つきの問題。",
     "When foundation questions feel comfortable.": "基礎の問題に慣れてきたとき。",
-    "Several ideas joined together, or an unfamiliar context.": "いくつかの考え方を組み合わせた問題や、見慣れない場面の問題。",
-    "When you want to push for the top grades.": "最高評価をねらいたいとき。"
+    "Several ideas joined together, or an unfamiliar context.": "いくつかの考え方を組み合わせた問題や、初めて見る場面の問題。",
+    "When you want to push for the top grades.": "最高の成績（7）をねらいたいとき。"
   }
 });
