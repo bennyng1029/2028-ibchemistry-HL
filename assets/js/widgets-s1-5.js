@@ -342,23 +342,24 @@
      ====================================================================== */
   S1.widgets.register('s1-5.solver', function (w) {
     var U = function (s) { return chem.unit(s); };
+    var SYM = { P: '<i>P</i>', V: '<i>V</i>', T: '<i>T</i>', n: '<i>n</i>', m: '<i>m</i>', M: '<i>M</i>' };
     var unknown = w.select({
-      label: 'Find', value: 'n', onChange: sync,
+      label: t('Find'), value: 'n', onChange: sync,
       options: [
-        { value: 'P', label: 'pressure, P' }, { value: 'V', label: 'volume, V' }, { value: 'T', label: 'temperature, T' },
-        { value: 'n', label: 'amount, n' }, { value: 'm', label: 'mass, m (formula known)' }, { value: 'M', label: 'molar mass, M (mass known)' }
+        { value: 'P', label: t('pressure, P') }, { value: 'V', label: t('volume, V') }, { value: 'T', label: t('temperature, T') },
+        { value: 'n', label: t('amount, n') }, { value: 'm', label: t('mass, m (formula known)') }, { value: 'M', label: t('molar mass, M (mass known)') }
       ]
     });
-    var amountAs = w.select({ label: 'Amount of gas given as', value: 'n', onChange: sync, options: [{ value: 'n', label: 'amount in mol' }, { value: 'm', label: 'mass in g and a formula' }] });
-    var unitSet = w.select({ label: 'Work in', value: 'k', onChange: sync, options: [{ value: 'k', label: 'kPa and dm³' }, { value: 'p', label: 'Pa and m³' }] });
+    var amountAs = w.select({ label: t('Amount of gas given as'), value: 'n', onChange: sync, options: [{ value: 'n', label: t('amount in mol') }, { value: 'm', label: t('mass in g and a formula') }] });
+    var unitSet = w.select({ label: t('Work in'), value: 'k', onChange: sync, options: [{ value: 'k', label: t('{p} and {v}', { p: 'kPa', v: 'dm³' }) }, { value: 'p', label: t('{p} and {v}', { p: 'Pa', v: 'm³' }) }] });
 
     var form = el('div', { class: 's5-form' }), F = {};
-    function field(key, label, value, units) {
+    function field(key, label, plain, value, units) {
       var id = S1.util.uid('s5');
       var inp = el('input', { class: 'input', id: id, type: 'text', value: value, inputmode: key === 'formula' ? 'text' : 'decimal', autocomplete: 'off', spellcheck: 'false' });
       var kids = [el('label', { class: 'field-label', for: id, html: label }), inp], sel = null;
       if (units && units.length > 1) {
-        sel = el('select', { class: 'select', 'aria-label': 'Unit for ' + label.replace(/<[^>]+>/g, '') });
+        sel = el('select', { class: 'select', 'aria-label': t('Unit for {quantity}', { quantity: plain }) });
         units.forEach(function (u) { sel.appendChild(el('option', { value: u, text: u.replace('3', '³') })); });
         sel.addEventListener('change', sync); kids.push(sel);
       } else if (units) kids.push(el('span', { class: 'control__unit', html: U(units[0]) }));
@@ -367,20 +368,21 @@
       form.appendChild(row);
       F[key] = { row: row, inp: inp, sel: sel };
     }
-    field('P', 'Pressure, <i>P</i>', '101', ['kPa', 'Pa']);
-    field('V', 'Volume, <i>V</i>', '250', ['cm3', 'dm3', 'm3']);
-    field('T', 'Temperature, <i>T</i>', '25.0', ['°C', 'K']);
-    field('n', 'Amount, <i>n</i>', '0.0100', ['mol']);
-    field('m', 'Mass, <i>m</i>', '0.450', ['g']);
-    field('formula', 'Formula of the gas', 'CO2', null);
+    field('P', t('Pressure, {sym}', { sym: SYM.P }), t('pressure'), '101', ['kPa', 'Pa']);
+    field('V', t('Volume, {sym}', { sym: SYM.V }), t('volume'), '250', ['cm3', 'dm3', 'm3']);
+    field('T', t('Temperature, {sym}', { sym: SYM.T }), t('temperature'), '25.0', ['°C', 'K']);
+    field('n', t('Amount, {sym}', { sym: SYM.n }), t('amount'), '0.0100', ['mol']);
+    field('m', t('Mass, {sym}', { sym: SYM.m }), t('mass'), '0.450', ['g']);
+    field('formula', t('Formula of the gas'), t('formula'), 'CO2', null);
     var out = el('div', { class: 's5-out', 'aria-live': 'polite' });
     w.stage.appendChild(form); w.stage.appendChild(out);
-    var setAns = w.readoutItem('Answer');
-    var setCheck = w.readoutItem('Unit check', { text: true });
+    var setAns = w.readoutItem(t('Answer'));
+    var setCheck = w.readoutItem(t('Unit check'), { text: true });
 
     function show(key, on) { F[key].row.hidden = !on; }
     function val(key) { var p = chem.parseNumber(F[key].inp.value); return p ? p.value : NaN; }
     function line(html) { return '<div class="worked__math">' + html + '</div>'; }
+    function already(unitHtml) { return ' ' + t('(already in {unit})', { unit: unitHtml }); }
 
     function sync() {
       var u = unknown.value, aAs = amountAs.value, kset = unitSet.value === 'k';
@@ -391,44 +393,47 @@
       show('m', (needAmount && aAs === 'm') || u === 'M');
       show('formula', (needAmount && aAs === 'm') || u === 'm');
 
-      var pu = kset ? 'kPa' : 'Pa', vu = kset ? 'dm<sup>3</sup>' : 'm<sup>3</sup>', Ru = 'J K<sup>' + MINUS + '1</sup> mol<sup>' + MINUS + '1</sup>';
+      var DM3 = 'dm<sup>3</sup>', M3 = 'm<sup>3</sup>', CM3 = 'cm<sup>3</sup>', GMOL = 'g mol<sup>' + MINUS + '1</sup>';
+      var pu = kset ? 'kPa' : 'Pa', vu = kset ? DM3 : M3, Ru = 'J K<sup>' + MINUS + '1</sup> mol<sup>' + MINUS + '1</sup>';
       var conv = [], errs = [], notes = [], P, V, T, n, m, M, Vraw, Traw, tC = false, vCm = false;
       if (u !== 'P') {
         var p0 = val('P'), pUnit = F.P.sel.value;
-        if (!(p0 > 0)) errs.push('Enter a pressure greater than zero.');
-        if (pUnit === 'kPa') { P = kset ? p0 : p0 * 1000; conv.push(kset ? '<i>P</i> = ' + tidy(p0) + ' kPa (already in kPa)' : '<i>P</i> = ' + tidy(p0) + ' kPa ' + TIMES + ' 1000 = ' + tidy(P) + ' Pa'); }
-        else { P = kset ? p0 / 1000 : p0; conv.push(kset ? '<i>P</i> = ' + tidy(p0) + ' Pa ÷ 1000 = ' + tidy(P) + ' kPa' : '<i>P</i> = ' + tidy(p0) + ' Pa (already in Pa)'); }
+        if (!(p0 > 0)) errs.push(t('Enter a pressure greater than zero.'));
+        if (pUnit === 'kPa') { P = kset ? p0 : p0 * 1000; conv.push(kset ? SYM.P + ' = ' + tidy(p0) + ' kPa' + already('kPa') : SYM.P + ' = ' + tidy(p0) + ' kPa ' + TIMES + ' 1000 = ' + tidy(P) + ' Pa'); }
+        else { P = kset ? p0 / 1000 : p0; conv.push(kset ? SYM.P + ' = ' + tidy(p0) + ' Pa ÷ 1000 = ' + tidy(P) + ' kPa' : SYM.P + ' = ' + tidy(p0) + ' Pa' + already('Pa')); }
       }
       if (u !== 'V') {
         var v0 = val('V'), vUnit = F.V.sel.value, dm; Vraw = v0;
-        if (!(v0 > 0)) errs.push('Enter a volume greater than zero.');
+        if (!(v0 > 0)) errs.push(t('Enter a volume greater than zero.'));
         dm = vUnit === 'cm3' ? v0 / 1000 : vUnit === 'm3' ? v0 * 1000 : v0; vCm = vUnit === 'cm3';
         V = kset ? dm : dm / 1000;
-        var vt = '<i>V</i> = ' + tidy(v0) + ' ' + U(vUnit);
-        if (kset) vt += vUnit === 'cm3' ? ' ÷ 1000 = ' + tidy(V) + ' dm<sup>3</sup>' : vUnit === 'm3' ? ' ' + TIMES + ' 1000 = ' + tidy(V) + ' dm<sup>3</sup>' : ' (already in dm<sup>3</sup>)';
-        else vt += vUnit === 'cm3' ? ' ÷ 10<sup>6</sup> = ' + tidy(V) + ' m<sup>3</sup>' : vUnit === 'dm3' ? ' ÷ 1000 = ' + tidy(V) + ' m<sup>3</sup>' : ' (already in m<sup>3</sup>)';
+        var vt = SYM.V + ' = ' + tidy(v0) + ' ' + U(vUnit);
+        if (kset) vt += vUnit === 'cm3' ? ' ÷ 1000 = ' + tidy(V) + ' ' + DM3 : vUnit === 'm3' ? ' ' + TIMES + ' 1000 = ' + tidy(V) + ' ' + DM3 : already(DM3);
+        else vt += vUnit === 'cm3' ? ' ÷ 10<sup>6</sup> = ' + tidy(V) + ' ' + M3 : vUnit === 'dm3' ? ' ÷ 1000 = ' + tidy(V) + ' ' + M3 : already(M3);
         conv.push(vt);
       }
       if (u !== 'T') {
         var t0 = val('T'); Traw = t0; tC = F.T.sel.value !== 'K';
         T = tC ? t0 + K0 : t0;
-        if (!isFinite(t0)) errs.push('Enter a temperature.'); else if (!(T > 0)) errs.push('The temperature must be above absolute zero (0 K, ' + MINUS + '273.15 °C).');
-        conv.push(tC ? '<i>T</i> = ' + tidy(t0) + ' °C + 273.15 = ' + tidy(T, 7) + ' K' : '<i>T</i> = ' + tidy(t0, 7) + ' K (already in kelvin)');
+        if (!isFinite(t0)) errs.push(t('Enter a temperature.'));
+        else if (!(T > 0)) errs.push(t('The temperature must be above absolute zero (0 K, {T} °C).', { T: MINUS + '273.15' }));
+        conv.push(tC ? SYM.T + ' = ' + tidy(t0) + ' °C + 273.15 = ' + tidy(T, 7) + ' K' : SYM.T + ' = ' + tidy(t0, 7) + ' K' + already('K'));
       }
       var needM = (needAmount && aAs === 'm') || u === 'm', formula = F.formula.inp.value.trim();
       if (needM) {
         M = chem.molarMass(formula);
-        if (!formula || !isFinite(M) || !(M > 0)) errs.push('Type a formula using element symbols up to krypton, such as CO2 or NH3.');
+        if (!formula || !isFinite(M) || !(M > 0)) errs.push(t('Type a formula using element symbols up to krypton, such as {a} or {b}.', { a: 'CO2', b: 'NH3' }));
       }
-      if ((needAmount && aAs === 'm') || u === 'M') { m = val('m'); if (!(m > 0)) errs.push('Enter a mass greater than zero.'); }
-      if (needAmount && aAs === 'n') { n = val('n'); if (!(n > 0)) errs.push('Enter an amount greater than zero.'); }
+      if ((needAmount && aAs === 'm') || u === 'M') { m = val('m'); if (!(m > 0)) errs.push(t('Enter a mass greater than zero.')); }
+      if (needAmount && aAs === 'n') { n = val('n'); if (!(n > 0)) errs.push(t('Enter an amount greater than zero.')); }
       if (errs.length) {
-        out.innerHTML = '<p class="s5-err">' + errs.join(' ') + '</p>'; setAns('—'); setCheck('Waiting for valid values.'); return;
+        out.innerHTML = '<p class="s5-err">' + errs.join(' ') + '</p>'; setAns('—'); setCheck(t('Waiting for valid values.')); return;
       }
+      var Mline = function () { return SYM.M + '(' + chem.formula(formula) + ') = ' + chem.fixed(M, 2) + ' ' + GMOL; };
       if (needAmount && aAs === 'm') {
         n = m / M;
-        conv.push('<i>M</i>(' + chem.formula(formula) + ') = ' + chem.fixed(M, 2) + ' g mol<sup>' + MINUS + '1</sup>');
-        conv.push('<i>n</i> = <i>m</i> ÷ <i>M</i> = ' + tidy(m) + ' g ÷ ' + chem.fixed(M, 2) + ' g mol<sup>' + MINUS + '1</sup> = ' + tidy(n, 5) + ' mol');
+        conv.push(Mline());
+        conv.push(SYM.n + ' = ' + SYM.m + ' ÷ ' + SYM.M + ' = ' + tidy(m) + ' g ÷ ' + chem.fixed(M, 2) + ' ' + GMOL + ' = ' + tidy(n, 5) + ' mol');
       }
       var Rt = '8.31 ' + Ru, re = [], sub = [], ans, ansHtml, extra = '';
       var Pt = function () { return tidy(P) + ' ' + pu; }, Vt = function () { return tidy(V) + ' ' + vu; }, Tt = function () { return tidy(T, 7) + ' K'; }, nt = function () { return tidy(n, 5) + ' mol'; };
@@ -439,7 +444,7 @@
       } else if (u === 'V') {
         ans = n * R * T / P; re.push('<i>V</i> = <i>nRT</i> ÷ <i>P</i>');
         sub.push('<i>V</i> = (' + nt() + ' ' + TIMES + ' ' + Rt + ' ' + TIMES + ' ' + Tt() + ') ÷ ' + Pt());
-        ansHtml = chem.fmt(ans, 3) + ' ' + vu; extra = kset ? ' = ' + chem.fmt(ans * 1000, 3) + ' cm<sup>3</sup>' : ' = ' + chem.fmt(ans * 1000, 3) + ' dm<sup>3</sup>';
+        ansHtml = chem.fmt(ans, 3) + ' ' + vu; extra = kset ? ' = ' + chem.fmt(ans * 1000, 3) + ' ' + CM3 : ' = ' + chem.fmt(ans * 1000, 3) + ' ' + DM3;
       } else if (u === 'T') {
         ans = P * V / (n * R); re.push('<i>T</i> = <i>PV</i> ÷ <i>nR</i>');
         sub.push('<i>T</i> = (' + Pt() + ' ' + TIMES + ' ' + Vt() + ') ÷ (' + nt() + ' ' + TIMES + ' ' + Rt + ')');
@@ -449,41 +454,45 @@
         sub.push('<i>n</i> = (' + Pt() + ' ' + TIMES + ' ' + Vt() + ') ÷ (' + Rt + ' ' + TIMES + ' ' + Tt() + ') = ' + tidy(n, 5) + ' mol');
         if (u === 'n') { ans = n; ansHtml = chem.fmt(ans, 3) + ' mol'; }
         if (u === 'm') {
-          ans = n * M; re.push('then <i>m</i> = <i>n</i> ' + TIMES + ' <i>M</i>');
-          sub.push('<i>M</i>(' + chem.formula(formula) + ') = ' + chem.fixed(M, 2) + ' g mol<sup>' + MINUS + '1</sup>');
-          sub.push('<i>m</i> = ' + tidy(n, 5) + ' mol ' + TIMES + ' ' + chem.fixed(M, 2) + ' g mol<sup>' + MINUS + '1</sup>');
+          ans = n * M; re.push(t('then {eq}', { eq: '<i>m</i> = <i>n</i> ' + TIMES + ' <i>M</i>' }));
+          sub.push(Mline());
+          sub.push('<i>m</i> = ' + tidy(n, 5) + ' mol ' + TIMES + ' ' + chem.fixed(M, 2) + ' ' + GMOL);
           ansHtml = chem.fmt(ans, 3) + ' g';
         }
         if (u === 'M') {
-          ans = m / n; re.push('then <i>M</i> = <i>m</i> ÷ <i>n</i> &nbsp; (the same as <i>M</i> = <i>mRT</i> ÷ <i>PV</i>)');
+          ans = m / n; re.push(t('then {eq} (the same as {eq2})', { eq: '<i>M</i> = <i>m</i> ÷ <i>n</i>', eq2: '<i>M</i> = <i>mRT</i> ÷ <i>PV</i>' }));
           sub.push('<i>M</i> = ' + tidy(m) + ' g ÷ ' + tidy(n, 5) + ' mol');
-          ansHtml = chem.fmt(ans, 3) + ' g mol<sup>' + MINUS + '1</sup>';
+          ansHtml = chem.fmt(ans, 3) + ' ' + GMOL;
         }
       }
-      /* classic errors, shown with the wrong value they would give */
-      function ratio(wrong) { var r = wrong / ans; return r >= 1 ? chem.fmt(r, 2) + ' times too big' : chem.fmt(1 / r, 2) + ' times too small'; }
+      /* classic errors, shown with the size of the mistake they would cause */
       if (tC && u !== 'T') {
         if (Traw > 0) {
-          var wrongT = u === 'P' ? n * R * Traw / V : u === 'V' ? n * R * Traw / P : u === 'M' ? ans * Traw / T : ans * T / Traw;
-          notes.push('<b>Temperature left in °C.</b> Using ' + tidy(Traw) + ' instead of ' + tidy(T, 7) + ' K would give an answer ' + ratio(wrongT) + '.');
-        } else notes.push('<b>Temperature left in °C.</b> Using ' + tidy(Traw) + ' °C directly would give a zero or negative answer, which is impossible. Always add 273.15 first.');
+          var wrongT = (u === 'P' || u === 'V' || u === 'M') ? ans * Traw / T : ans * T / Traw, r = wrongT / ans;
+          var v1 = { wrong: tidy(Traw), right: tidy(T, 7), factor: chem.fmt(r >= 1 ? r : 1 / r, 2) };
+          notes.push(r >= 1 ? t('<b>Temperature left in °C.</b> Using {wrong} instead of {right} K would give an answer {factor} times too big.', v1)
+            : t('<b>Temperature left in °C.</b> Using {wrong} instead of {right} K would give an answer {factor} times too small.', v1));
+        } else notes.push(t('<b>Temperature left in °C.</b> Using {wrong} °C directly would give a zero or negative answer, which is impossible. Always add 273.15 first.', { wrong: tidy(Traw) }));
       }
       if (vCm && u !== 'V') {
-        var bigger = (u === 'n' || u === 'm' || u === 'T');
-        notes.push('<b>cm<sup>3</sup> used as if it were dm<sup>3</sup>.</b> Putting ' + tidy(Vraw) + ' straight in with kPa would make the answer 1000 times too ' + (bigger ? 'big' : 'small') + '. 1 dm<sup>3</sup> = 1000 cm<sup>3</sup>.');
+        var v2 = { value: tidy(Vraw), cm3: CM3, dm3: DM3 };
+        notes.push((u === 'n' || u === 'm' || u === 'T')
+          ? t('<b>{cm3} used as if it were {dm3}.</b> Putting {value} straight in with kPa would make the answer 1000 times too big. 1 {dm3} = 1000 {cm3}.', v2)
+          : t('<b>{cm3} used as if it were {dm3}.</b> Putting {value} straight in with kPa would make the answer 1000 times too small. 1 {dm3} = 1000 {cm3}.', v2));
       }
-      if (u !== 'P' && u !== 'V') notes.push('<b>Mixed unit sets.</b> kPa goes with dm<sup>3</sup>, and Pa goes with m<sup>3</sup>. Pairing kPa with m<sup>3</sup>, or Pa with dm<sup>3</sup>, puts the answer out by a factor of 1000.');
+      notes.push(t('<b>Mixed unit sets.</b> kPa goes with {dm3}, and Pa goes with {m3}. Pairing kPa with {m3}, or Pa with {dm3}, puts the answer out by a factor of 1000.', { dm3: DM3, m3: M3 }));
 
       var html = '<ol class="s5-steps">';
-      html += '<li><h5>Convert to the units you chose</h5>' + conv.map(line).join('') + '</li>';
-      html += '<li><h5>Rearrange <i>PV</i> = <i>nRT</i></h5>' + re.map(line).join('') + '</li>';
-      html += '<li><h5>Substitute with units</h5>' + sub.map(line).join('') + '</li>';
-      html += '<li><h5>Answer</h5>' + line('<b>' + ansHtml + '</b>' + extra + ' &nbsp; (3 significant figures)') + '<p class="s5-small">In an exam, round to the smallest number of significant figures in the data you were given.</p></li>';
+      html += '<li><h5>' + t('Convert to the units you chose') + '</h5>' + conv.map(line).join('') + '</li>';
+      html += '<li><h5>' + t('Rearrange {eq}', { eq: '<i>PV</i> = <i>nRT</i>' }) + '</h5>' + re.map(line).join('') + '</li>';
+      html += '<li><h5>' + t('Substitute with units') + '</h5>' + sub.map(line).join('') + '</li>';
+      html += '<li><h5>' + t('Answer') + '</h5>' + line('<b>' + ansHtml + '</b>' + extra + ' &nbsp; ' + t('({n} significant figures)', { n: 3 })) + '<p class="s5-small">' + t('In an exam, round to the smallest number of significant figures in the data you were given.') + '</p></li>';
       html += '</ol>';
-      if (notes.length) html += '<aside class="callout callout--mistake" data-title="Classic errors to avoid here"><ul class="s5-notes"><li>' + notes.join('</li><li>') + '</li></ul></aside>';
+      html += '<aside class="callout callout--mistake" data-title="' + t('Classic errors to avoid here') + '"><ul class="s5-notes"><li>' + notes.join('</li><li>') + '</li></ul></aside>';
       out.innerHTML = html;
       setAns(ansHtml + extra);
-      setCheck(kset ? 'kPa ' + TIMES + ' dm³ = J, so it matches R in J K⁻¹ mol⁻¹.' : 'Pa ' + TIMES + ' m³ = J, so it matches R in J K⁻¹ mol⁻¹.');
+      setCheck(kset ? t('{p} {times} {v} = J, so it matches R in {Runit}.', { p: 'kPa', times: TIMES, v: 'dm³', Runit: 'J K⁻¹ mol⁻¹' })
+        : t('{p} {times} {v} = J, so it matches R in {Runit}.', { p: 'Pa', times: TIMES, v: 'm³', Runit: 'J K⁻¹ mol⁻¹' }));
     }
     sync();
   });
@@ -495,34 +504,39 @@
     var N = 34, parts = [], i;
     for (i = 0; i < N; i++) { var a = Math.random() * Math.PI * 2, f = 0.6 + Math.random() * 0.8; parts.push({ x: Math.random(), y: Math.random(), dx: Math.cos(a) * f, dy: Math.sin(a) * f }); }
     var GAS = {
-      small: { r: 3, size: 0.55, force: 0.45, label: 'small particles, weak forces (for example helium)' },
-      large: { r: 5.5, size: 1, force: 1, label: 'larger particles, stronger forces (for example ammonia)' }
+      small: { r: 3, size: 0.55, force: 0.45, label: t('small particles, weak forces (for example helium)') },
+      large: { r: 5.5, size: 1, force: 1, label: t('larger particles, stronger forces (for example ammonia)') }
     };
-    var gas = w.select({ label: 'Type of gas', value: 'large', onChange: update, options: [{ value: 'small', label: GAS.small.label }, { value: 'large', label: GAS.large.label }] });
-    var sT = w.slider({ label: 'Temperature (0 = very low, 100 = very high)', min: 0, max: 100, step: 1, value: 50, onInput: update });
-    var sP = w.slider({ label: 'Pressure (0 = very low, 100 = very high)', min: 0, max: 100, step: 1, value: 30, onInput: update });
-    var playBtn = w.button('Pause', function () { if (loop.running) loop.stop(); else loop.start(true); syncPlay(); });
-    w.button('Most ideal conditions', function () { sT.set(100, true); sP.set(0, true); update(); });
-    w.button('Least ideal conditions', function () { sT.set(0, true); sP.set(100, true); update(); });
-    var setVerdict = w.readoutItem('How close to ideal?', { text: true });
-    var setVol = w.readoutItem('Particle volume', { text: true });
-    var setF = w.readoutItem('Intermolecular forces', { text: true });
-    var setNote = w.readoutItem('Remember', { text: true });
+    var gas = w.select({ label: t('Type of gas'), value: 'large', onChange: update, options: [{ value: 'small', label: GAS.small.label }, { value: 'large', label: GAS.large.label }] });
+    var sT = w.slider({ label: t('Temperature (0 = very low, 100 = very high)'), min: 0, max: 100, step: 1, value: 50, onInput: update });
+    var sP = w.slider({ label: t('Pressure (0 = very low, 100 = very high)'), min: 0, max: 100, step: 1, value: 30, onInput: update });
+    var playBtn = w.button(t('Pause'), function () { if (loop.running) loop.stop(); else loop.start(true); syncPlay(); });
+    w.button(t('Most ideal conditions'), function () { sT.set(100, true); sP.set(0, true); update(); });
+    w.button(t('Least ideal conditions'), function () { sT.set(0, true); sP.set(100, true); update(); });
+    var setVerdict = w.readoutItem(t('How close to ideal?'), { text: true });
+    var setVol = w.readoutItem(t('Particle volume'), { text: true });
+    var setF = w.readoutItem(t('Intermolecular forces'), { text: true });
+    var setNote = w.readoutItem(t('Remember'), { text: true });
     var lev = { vol: 0, force: 0, ideal: 1 }, box = { w: 200, h: 150 };
+    var W_IDEAL = [t('Far from ideal'), t('Noticeably non-ideal'), t('Fairly close to ideal'), t('Very close to ideal')];
+    var W_VOL = [t('negligible: particles are far apart'), t('starting to matter'), t('significant: particles are crowded'), t('a large share of the space')];
+    var W_FORCE = [t('negligible: particles are fast and far apart'), t('starting to matter'), t('significant'), t('strong effect: particles are slow and close')];
+    var BARS = [t('Particle volume matters'), t('Intermolecular forces matter'), t('Close to ideal behaviour')];
+    var ENDS = [t('hardly ↔ a lot'), t('hardly ↔ a lot'), t('not at all ↔ very')];
 
     function words(x, list) { return list[x < 0.25 ? 0 : x < 0.5 ? 1 : x < 0.75 ? 2 : 3]; }
     function update() {
-      var g = GAS[gas.value], t = sT.value / 100, p = sP.value / 100;
+      var g = GAS[gas.value], tt = sT.value / 100, p = sP.value / 100;
       lev.vol = clamp(p * g.size, 0, 1);                                   // illustrative scores only: no gas law behind them
-      lev.force = clamp((1 - t) * (0.4 + 0.6 * p) * g.force * 1.15, 0, 1);
+      lev.force = clamp((1 - tt) * (0.4 + 0.6 * p) * g.force * 1.15, 0, 1);
       lev.ideal = clamp(1 - 0.5 * lev.vol - 0.5 * lev.force - 0.25 * Math.max(lev.vol, lev.force), 0, 1);
-      setVerdict(words(lev.ideal, ['Far from ideal', 'Noticeably non-ideal', 'Fairly close to ideal', 'Very close to ideal']));
-      setVol(words(lev.vol, ['negligible: particles are far apart', 'starting to matter', 'significant: particles are crowded', 'a large share of the space']));
-      setF(words(lev.force, ['negligible: particles are fast and far apart', 'starting to matter', 'significant', 'strong effect: particles are slow and close']));
-      setNote('This picture is a qualitative illustration. The bars are not calculated from any gas equation, and particle sizes are exaggerated.');
+      setVerdict(words(lev.ideal, W_IDEAL));
+      setVol(words(lev.vol, W_VOL));
+      setF(words(lev.force, W_FORCE));
+      setNote(t('This picture is a qualitative illustration. The bars are not calculated from any gas equation, and particle sizes are exaggerated.'));
       cv.draw();
     }
-    var cv = w.canvas({ height: 330, label: 'A box of gas particles. Higher pressure makes the box smaller so the particles are crowded. Lower temperature makes them slower, and dashed lines show attractions between close neighbours. Three bars below show how much particle volume and intermolecular forces matter and how close the gas is to ideal behaviour.' });
+    var cv = w.canvas({ height: 330, label: t('A box of gas particles. Higher pressure makes the box smaller so the particles are crowded. Lower temperature makes them slower, and dashed lines show attractions between close neighbours. Three bars below show how much particle volume and intermolecular forces matter and how close the gas is to ideal behaviour.') });
     cv.draw(function (ctx, W, H) {
       var g = GAS[gas.value], p = sP.value / 100;
       var ink = w.color('--ink'), ink2 = w.color('--ink-2'), ink3 = w.color('--ink-3'), accent = w.color('--accent'), surf2 = w.color('--surface-2'), strong = w.color('--line-strong');
@@ -543,18 +557,18 @@
       }
       ctx.fillStyle = accent;
       pts.forEach(function (q) { ctx.beginPath(); ctx.arc(q.x, q.y, g.r, 0, Math.PI * 2); ctx.fill(); });
-      if (maxW - bw > 110) { ctx.fillStyle = ink3; ctx.font = monoFont(w, 11); ctx.textAlign = 'right'; ctx.textBaseline = 'alphabetic'; ctx.fillText('volume at low pressure', x0 + maxW - 6, y0 + bh - 8); }
+      if (maxW - bw > 150) { ctx.fillStyle = ink3; ctx.font = monoFont(w, 11); ctx.textAlign = 'right'; ctx.textBaseline = 'alphabetic'; ctx.fillText(t('volume at low pressure'), x0 + maxW - 6, y0 + bh - 8); }
       /* bars */
-      var rows = [['Particle volume matters', lev.vol], ['Intermolecular forces matter', lev.force], ['Close to ideal behaviour', lev.ideal]];
+      var vals = [lev.vol, lev.force, lev.ideal];
       var by = y0 + bh + 26, bx = x0, barW = Math.min(W - 16, 520);
-      rows.forEach(function (r, k) {
+      vals.forEach(function (val, k) {
         var y = by + k * 44;
         ctx.fillStyle = ink; ctx.font = bodyFont(w, 13, k === 2); ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
-        ctx.fillText(r[0], bx, y);
+        ctx.fillText(BARS[k], bx, y);
         ctx.fillStyle = ink3; ctx.font = monoFont(w, 11); ctx.textAlign = 'right';
-        ctx.fillText(k === 2 ? 'not at all ↔ very' : 'hardly ↔ a lot', bx + barW, y);
+        ctx.fillText(ENDS[k], bx + barW, y);
         ctx.fillStyle = surf2; ctx.fillRect(bx, y + 6, barW, 12);
-        ctx.fillStyle = k === 2 ? accent : ink2; ctx.fillRect(bx, y + 6, Math.max(3, barW * r[1]), 12);
+        ctx.fillStyle = k === 2 ? accent : ink2; ctx.fillRect(bx, y + 6, Math.max(3, barW * val), 12);
         ctx.strokeStyle = ink; ctx.lineWidth = 1; ctx.strokeRect(bx, y + 6, barW, 12);
       });
     });
@@ -568,8 +582,9 @@
       });
       cv.draw();
     });
-    function syncPlay() { playBtn.textContent = loop.running ? 'Pause' : 'Play'; }
+    function syncPlay() { playBtn.textContent = loop.running ? t('Pause') : t('Play'); }
     update(); loop.start(); syncPlay();
+    w.el.addEventListener('click', function () { window.setTimeout(syncPlay, 0); });
   });
 
   /* ======================================================================
@@ -577,14 +592,12 @@
      ====================================================================== */
   S1.widgets.register('s1-5.molar', function (w) {
     var NMAX = 4;
-    var sN = w.slider({ label: 'Amount of gas, n', min: 0.05, max: NMAX, step: 0.05, value: 1, unit: 'mol', onInput: function (v) { sV.set(Math.round(v * VM * 100) / 100, true); update(v); } });
-    var sV = w.slider({ label: 'Volume at STP, V', min: 1, max: 90.8, step: 0.1, value: 22.7, unit: 'dm3', onInput: function (v) { var n = v / VM; sN.set(Math.round(n * 1000) / 1000, true); update(n); } });
-    w.button('1.00 mol', function () { sN.set(1); });
-    w.button('0.500 mol', function () { sN.set(0.5); });
-    w.button('2.00 mol', function () { sN.set(2); });
-    var setN = w.readoutItem('Amount, n'), setV = w.readoutItem('Volume at STP'), setSide = w.readoutItem('Cube side'), setCalc = w.readoutItem('Working', { text: true });
+    var sN = w.slider({ label: t('Amount of gas, n'), min: 0.05, max: NMAX, step: 0.05, value: 1, unit: 'mol', onInput: function (v) { sV.set(Math.round(v * VM * 100) / 100, true); update(v); } });
+    var sV = w.slider({ label: t('Volume at STP, V'), min: 1, max: 90.8, step: 0.1, value: 22.7, unit: 'dm3', onInput: function (v) { var n = v / VM; sN.set(Math.round(n * 1000) / 1000, true); update(n); } });
+    [['1.00', 1], ['0.500', 0.5], ['2.00', 2]].forEach(function (b) { w.button(t('{n} mol', { n: b[0] }), function () { sN.set(b[1]); }); });
+    var setN = w.readoutItem(t('Amount, n')), setV = w.readoutItem(t('Volume at STP')), setSide = w.readoutItem(t('Cube side')), setCalc = w.readoutItem(t('Working'), { text: true });
     var n = 1;
-    var cv = w.canvas({ height: 250, label: 'A cube holding the chosen amount of gas at STP, drawn to scale beside a football about 22 centimetres across and a 1 cubic decimetre cube. The values are in the readout below.' });
+    var cv = w.canvas({ height: 250, label: t('A cube holding the chosen amount of gas at STP, drawn to scale beside a football about 22 centimetres across and a 1 cubic decimetre cube. The values are in the readout below.') });
     cv.draw(function (ctx, W, H) {
       var ink = w.color('--ink'), ink2 = w.color('--ink-2'), ink3 = w.color('--ink-3'), accent = w.color('--accent'), soft = w.color('--accent-soft'), surf2 = w.color('--surface-2');
       var sideMax = Math.pow(NMAX * VM, 1 / 3) * 10;                         // cm
@@ -605,22 +618,25 @@
       cube(ux, 10 * s, 3 * s, surf2, ink);
       ctx.strokeStyle = ink2; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(4, base + 0.5); ctx.lineTo(W - 4, base + 0.5); ctx.stroke();
       ctx.font = monoFont(w, 11); ctx.fillStyle = ink; ctx.textBaseline = 'top'; ctx.textAlign = 'left';
-      ctx.fillText('gas at STP', x, base + 6);
-      ctx.fillStyle = ink3; ctx.fillText(chem.fmt(n * VM, 3) + ' dm³', x, base + 21);
+      ctx.fillText(t('gas at STP'), x, base + 6);
+      ctx.fillStyle = ink3; ctx.fillText(chem.toSig(n * VM, 3) + ' dm³', x, base + 21);
       ctx.textAlign = 'center';
-      ctx.fillStyle = ink; ctx.fillText('football', bx + rBall, base + 6); ctx.fillStyle = ink3; ctx.fillText('22 cm', bx + rBall, base + 21);
+      ctx.fillStyle = ink; ctx.fillText(t('football'), bx + rBall, base + 6); ctx.fillStyle = ink3; ctx.fillText('22 cm', bx + rBall, base + 21);
       ctx.fillStyle = ink; ctx.fillText('1 dm³', ux + 5 * s + 4, base + 6); ctx.fillStyle = ink3; ctx.fillText('10 cm', ux + 5 * s + 4, base + 21);
       /* scale bar */
       ctx.strokeStyle = ink; ctx.lineWidth = 2; var sx = W - 12 - 10 * s;
       ctx.beginPath(); ctx.moveTo(sx, 14); ctx.lineTo(sx + 10 * s, 14); ctx.moveTo(sx, 9); ctx.lineTo(sx, 19); ctx.moveTo(sx + 10 * s, 9); ctx.lineTo(sx + 10 * s, 19); ctx.stroke();
-      ctx.fillStyle = ink3; ctx.textAlign = 'right'; ctx.fillText('scale: 10 cm', W - 12, 24);
+      ctx.fillStyle = ink3; ctx.textAlign = 'right'; ctx.fillText(t('scale: {length} cm', { length: 10 }), W - 12, 24);
     });
     function update(v) {
       n = v; var V = n * VM;
       setN(chem.fmt(n, 3) + ' mol');
       setV(chem.fmt(V, 3) + ' dm<sup>3</sup> = ' + chem.fmt(V * 1000, 3) + ' cm<sup>3</sup>');
       setSide(chem.fmt(Math.pow(V, 1 / 3) * 10, 3) + ' cm');
-      setCalc('V = n ' + TIMES + ' 22.7 dm³ mol⁻¹ = ' + chem.toSig(n, 3) + ' mol ' + TIMES + ' 22.7 dm³ mol⁻¹ = ' + chem.toSig(V, 3) + ' dm³. The same for any ideal gas: H₂, CO₂ or Ar.');
+      setCalc(t('{working}. The same for any ideal gas: {examples}.', {
+        working: 'V = n ' + TIMES + ' 22.7 dm³ mol⁻¹ = ' + chem.toSig(n, 3) + ' mol ' + TIMES + ' 22.7 dm³ mol⁻¹ = ' + chem.toSig(V, 3) + ' dm³',
+        examples: 'H₂, CO₂, Ar'
+      }));
       cv.draw();
     }
     update(1);

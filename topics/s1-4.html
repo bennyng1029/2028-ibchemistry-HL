@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1.4 Counting particles by mass: the mole | Structure 1 Lab</title>
+<meta name="description" content="IB Chemistry Structure 1.4: the mole and the Avogadro constant, relative atomic and formula mass, molar mass, empirical and molecular formulas, concentration, and Avogadro's law, with worked calculations and interactive models.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for topic 1.4. Tokens only. */
+.mole-three { list-style: none; margin: 1.5rem 0; padding: 0; counter-reset: q3; border-top: 2px solid var(--ink); max-width: 46rem; }
+.mole-three > li { counter-increment: q3; margin: 0; padding: 0.85rem 0 0.9rem 3.2rem; position: relative; border-bottom: 1px solid var(--line); }
+.mole-three > li::before { content: counter(q3); position: absolute; left: 0; top: 0.85rem; width: 2.1rem; height: 2.1rem; display: grid; place-items: center; font-family: var(--font-mono); font-weight: 600; border: 1.5px solid var(--accent); color: var(--accent-ink); background: var(--surface); }
+.mole-three strong { display: block; font-family: var(--font-display); }
+.mole-three span { color: var(--ink-2); font-size: 0.95rem; }
+
+.mole-field { flex: 0 1 auto; min-width: 0; }
+.mole-input { width: 100%; max-width: 100%; }
+.mole-input--mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.mole-work { margin-top: 0.75rem; max-width: 100%; }
+.mole-work:empty { display: none; }
+.mole-note { margin: 0.5rem 0; font-size: 0.92rem; color: var(--ink-2); max-width: none; }
+.mole-unitnote { font-family: var(--font-body); font-size: 0.8rem; font-weight: 400; color: var(--ink-3); }
+.widget__stage .table-scroll { margin: 0.75rem 0 0; }
+.widget__stage .frac { font-size: 0.92em; }
+
+.mole-strip { display: flex; flex-wrap: wrap; align-items: stretch; gap: 0.4rem; }
+.mole-strip__cell { flex: 1 1 5.5rem; display: flex; flex-direction: column; padding: 0.55rem 0.7rem; border: 1.5px solid var(--line-strong); background: var(--surface-2); min-width: 0; }
+.mole-strip__cell.is-on { border-color: var(--accent); border-width: 3px; background: var(--accent-soft); }
+.mole-strip__val { font-family: var(--font-mono); font-weight: 600; font-size: 1.02rem; overflow-wrap: anywhere; }
+.mole-strip__unit { font-family: var(--font-mono); font-size: 0.85rem; color: var(--ink-2); }
+.mole-strip__op { flex: 0 0 auto; display: flex; flex-direction: column; justify-content: center; font-family: var(--font-mono); font-size: 0.76rem; color: var(--ink-2); white-space: nowrap; }
+@media (max-width: 30em) { .mole-strip { flex-direction: column; } .mole-strip__op { flex-direction: row; gap: 1rem; padding-left: 0.7rem; } }
+
+.mole-svg { max-width: 30rem; margin-inline: auto; }
+.mole-svg--map { max-width: 27rem; }
+.mole-svg text { font-family: var(--font-body); fill: var(--ink); }
+.mole-svg .mole-svg__tick { font-family: var(--font-mono); font-size: 10.5px; fill: var(--ink-2); }
+.mole-svg .mole-svg__label { font-size: 12.5px; }
+.mole-svg .mole-svg__label--strong { font-weight: 700; fill: var(--accent-ink); }
+.mole-svg .mole-svg__small { font-size: 11px; fill: var(--ink-2); }
+.mole-svg .mole-svg__sign { font-family: var(--font-mono); font-size: 20px; fill: var(--ink-2); }
+.mole-map__edge { stroke: var(--line-strong); stroke-width: 2; }
+.mole-map__edge.is-on { stroke: var(--accent); stroke-width: 5; }
+.mole-map__node rect { fill: var(--surface-2); stroke: var(--ink-2); stroke-width: 1.5; }
+.mole-map__node.is-on rect { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 3.5; }
+.mole-svg .mole-map__title { font-family: var(--font-display); font-weight: 700; font-size: 13.5px; }
+.mole-svg .mole-map__unit { font-family: var(--font-mono); font-size: 11px; fill: var(--ink-2); }
+.mole-svg .mole-map__op { font-family: var(--font-mono); font-size: 11.5px; fill: var(--ink-2); }
+.mole-svg .mole-map__op.is-on { font-weight: 700; fill: var(--accent-ink); text-decoration: underline; }
+.mole-svg .mole-map__tag { font-family: var(--font-mono); font-size: 10.5px; font-weight: 700; letter-spacing: 0.06em; fill: var(--accent-ink); }
+
+.mole-facts { margin: 0.75rem 0 0; padding-left: 1.2rem; font-size: 0.95rem; color: var(--ink-2); }
+.mole-facts li { margin-bottom: 0.35rem; }
+.mole-pad { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.mole-pad__key { min-width: 2.6rem; font-family: var(--font-mono); }
+.mole-formula { font-family: var(--font-mono); font-size: 1.6rem; font-weight: 600; margin: 0.9rem 0 0; min-height: 2.6rem; overflow-wrap: anywhere; }
+.mole-formula__empty { color: var(--ink-3); }
+.mole-grid { flex: 1 1 100%; display: grid; grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr)); gap: 0.6rem 1.25rem; }
+.mole-grid__row { display: flex; gap: 0.5rem; align-items: flex-end; }
+.mole-grid--comb { grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr)); }
+</style>
+</head>
+<body data-page="s1-4">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="s1-4"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Structure 1.4</p>
+      <h1>Counting particles by mass: the mole</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>How do we quantify matter on the atomic scale?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <section class="topic-section" id="goals">
+        <h2>What you need to be able to do</h2>
+        <p>This topic is almost all calculation, and every later calculation in the course is built on it. Tick each item when you can do it without looking at your notes. All of it is SL and HL core. There is no Additional HL content in 1.4.</p>
+        <ul class="checklist" data-s1-checklist="s1-4">
+          <li data-id="mole-particles" data-level="sl">Convert an amount in moles to a number of atoms, molecules, ions or formula units, and back, using the Avogadro constant.</li>
+          <li data-id="mr-from-ar" data-level="sl">Work out a relative formula mass, <i>M</i><sub>r</sub>, from relative atomic masses, and say why <i>A</i><sub>r</sub> and <i>M</i><sub>r</sub> have no units.</li>
+          <li data-id="mass-mole" data-level="sl">Solve problems that link mass, amount and number of particles using <i>n</i> = <i>m</i> / <i>M</i>.</li>
+          <li data-id="percent-empirical" data-level="sl">Go from percentage composition by mass to an empirical formula, and from a formula to percentage composition.</li>
+          <li data-id="empirical-data" data-level="sl">Find an empirical formula from mass data, including combustion data and heating a hydrate.</li>
+          <li data-id="molecular" data-level="sl">Find a molecular formula from an empirical formula and a molar mass.</li>
+          <li data-id="concentration" data-level="sl">Solve problems with <i>n</i> = <i>CV</i>, and convert between <span class="unit">mol dm-3</span> and <span class="unit">g dm-3</span>.</li>
+          <li data-id="solutions-practical" data-level="sl">Describe how to prepare a standard solution and a dilution, and how a calibration curve gives an unknown concentration.</li>
+          <li data-id="avogadro-law" data-level="sl">State Avogadro’s law and use the mole ratio of an equation to find volumes of reacting gases.</li>
+        </ul>
+      </section>
+
+      <section class="topic-section" id="method" data-toc="Before you calculate">
+        <h2>Before any mole calculation: three questions</h2>
+        <p>Most lost marks in this topic do not come from hard chemistry. They come from starting to press calculator buttons before the problem is sorted out. So use the same routine every time, even when the question looks short.</p>
+
+        <ol class="mole-three">
+          <li><strong>What am I given, and in what units?</strong><span>Write each value with its unit and say what it is: a mass in g, a volume in cm<sup>3</sup>, a concentration in mol dm<sup>−3</sup>, a number of particles.</span></li>
+          <li><strong>What do I want, and in what units?</strong><span>Underline it in the question. “Amount” always means moles. “Number of atoms” is not the same as “number of molecules”.</span></li>
+          <li><strong>Which link connects them?</strong><span>Every route goes through <b>moles</b>. Pick the relationship that turns what you have into moles, then the one that turns moles into what you want.</span></li>
+        </ol>
+
+        <aside class="callout callout--key">
+          <p>There are only three relationships to choose from in this topic: <span class="mono"><i>n</i> = <i>N</i> ÷ <i>N</i><sub>A</sub></span> for particles, <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span> for mass, and <span class="mono"><i>n</i> = <i>C</i> × <i>V</i></span> for solutions. The mole is the meeting point of all three.</p>
+        </aside>
+
+        <h3>Get the units right first</h3>
+        <p>The relationships only work in their own units: mass in <span class="unit">g</span>, volume of solution in <span class="unit">dm3</span>. Questions often give <span class="unit">cm3</span> or <span class="unit">mg</span> instead. Convert before you substitute, and write the conversion down as its own line.</p>
+
+        <figure data-s1-widget="s1-4.units" data-title="Unit-conversion strip">
+          <p class="widget__fallback">Volume: 1 dm³ = 1000 cm³ and 1 m³ = 1000 dm³. Mass: 1 g = 1000 mg and 1 kg = 1000 g. To go to a bigger unit, divide by 1000.</p>
+          <figcaption>Type a value and choose its unit. Each step to the right is a unit 1000 times bigger, so the number gets 1000 times smaller.</figcaption>
+        </figure>
+
+        <aside class="callout callout--mistake">
+          <p>Putting a volume in <span class="unit">cm3</span> straight into <i>n</i> = <i>CV</i> gives an answer 1000 times too big. A quick check: 25 cm<sup>3</sup> is a small amount of liquid, so in dm<sup>3</sup> it must be a small number, 0.025.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="0.0250" data-tolerance="1%" data-sigfigs="3" data-unit="dm3">
+          <div class="tryit__q"><p>A pipette delivers 25.0 cm<sup>3</sup> of solution. What is this volume in dm<sup>3</sup>?</p></div>
+          <ol class="tryit__hints">
+            <li>A dm<sup>3</sup> is bigger than a cm<sup>3</sup>. Will the number get bigger or smaller?</li>
+            <li>Divide by 1000: <span class="mono">25.0 ÷ 1000</span>. Keep three significant figures.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>V</i> = 25.0 cm<sup>3</sup> ÷ 1000 = 0.0250 dm<sup>3</sup></div>
+            <p>The zero at the end matters. It shows the value is known to three significant figures.</p>
+          </div>
+        </div>
+
+        <h3>Significant figures: a short guide</h3>
+        <p><dfn data-def="The digits in a number that carry real information about its precision. Leading zeros do not count.">Significant figures</dfn> (s.f.) tell the reader how precisely a value is known. Your answer cannot be more precise than the data you started with.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Counting significant figures</caption>
+            <thead><tr><th scope="col">Value</th><th scope="col" class="num">s.f.</th><th scope="col">Why</th></tr></thead>
+            <tbody>
+              <tr><th scope="row"><span class="mono">4.50</span></th><td class="num">3</td><td>Zeros after the decimal point at the end count.</td></tr>
+              <tr><th scope="row"><span class="mono">0.0250</span></th><td class="num">3</td><td>Zeros at the front only place the decimal point. They do not count.</td></tr>
+              <tr><th scope="row"><span class="mono">250.0</span></th><td class="num">4</td><td>A volumetric flask is precise, so its volume is often given to 4 s.f.</td></tr>
+              <tr><th scope="row"><span class="mono">6.02 × 10<sup>23</sup></span></th><td class="num">3</td><td>In scientific notation, count the digits in front of the “× 10”.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <ol>
+          <li>Keep the full value in your calculator through every step. Rounding in the middle can change the last digit of the answer.</li>
+          <li>Round once, at the end, to the smallest number of significant figures in the data. In most questions that is 3.</li>
+          <li>Counted and defined numbers do not limit you: the 2 in <span class="chem">H2O</span>, the coefficients in an equation, the 1000 in a unit conversion.</li>
+          <li>Write the unit after every final answer.</li>
+        </ol>
+        <aside class="callout callout--exam">
+          <p>IB markschemes give their answers to the precision of the data: usually 3 s.f., and 4 s.f. when the data are given to 4. Match the data and you are safe. Show your working too. If you slip in one step, the later steps can still earn marks when the method is correct.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="mole" data-toc="The mole">
+        <span class="section-code">Structure 1.4.1</span>
+        <h2>The mole and the Avogadro constant</h2>
+        <p>Eggs are sold by the dozen, and paper by the ream of 500 sheets. When things are small and you need a lot of them, you count in groups. Atoms are so small that the group has to be enormous.</p>
+        <p>The <dfn data-def="The SI unit of amount of substance. One mole contains exactly the number of elementary entities given by the Avogadro constant.">mole</dfn> (symbol <span class="unit">mol</span>) is the SI unit of <dfn data-def="The quantity that counts particles in groups of the Avogadro constant. Symbol n, unit mol.">amount of substance</dfn>, symbol <i>n</i>. One mole contains exactly the number of elementary entities given by the <dfn data-def="The number of elementary entities in one mole. Symbol NA. In the data booklet as 6.02 × 10^23 mol^-1.">Avogadro constant</dfn>, <i>N</i><sub>A</sub>.</p>
+        <p>An <dfn data-def="The particle being counted: an atom, a molecule, an ion, an electron, any other particle, or a specified group of particles such as a formula unit.">elementary entity</dfn> is whatever particle you are counting. It may be an atom, a molecule, an ion, an electron, or a specified group of particles such as one <dfn data-def="The group of ions shown by the formula of an ionic compound, for example one Na+ and one Cl- for NaCl.">formula unit</dfn> of <span class="chem">NaCl</span>. So always say <em>what</em> you have a mole of.</p>
+
+        <aside class="callout callout--booklet">
+          <p><i>N</i><sub>A</sub> = <span class="mono">6.02 × 10<sup>23</sup> mol<sup>−1</sup></span>. The unit mol<sup>−1</sup> means “per mole”. You do not need to memorise the value, but you must know when to use it.</p>
+        </aside>
+
+        <div class="eq">
+          <div class="eq__formula"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></div>
+          <dl class="eq__legend">
+            <div><dt>N</dt><dd>number of particles (no unit)</dd></div>
+            <div><dt>n</dt><dd>amount of substance <span class="unit">mol</span></dd></div>
+            <div><dt>N<sub>A</sub></dt><dd>Avogadro constant <span class="unit">mol-1</span></dd></div>
+          </dl>
+        </div>
+        <p>This relationship is not printed in the data booklet, but it follows from the definition. Moles to particles: multiply by <i>N</i><sub>A</sub>. Particles to moles: divide by <i>N</i><sub>A</sub>. A number of particles is always huge and an amount in moles is usually small, so check your answer went the right way.</p>
+
+        <figure data-s1-widget="s1-4.scale" data-title="How big is a mole?">
+          <p class="widget__fallback">One mole is 6.02 × 10²³ particles. Counting one per second would take about 1.9 × 10¹⁶ years, over a million times the age of the universe. Yet a mole of water molecules is only 18.02 g.</p>
+          <figcaption>The line is a powers-of-ten scale, so one mole is not “a bit more” than the other markers: it is a million times more than the number of seconds since the Big Bang. Choose a substance and a mass to see how many particles an ordinary sample holds.</figcaption>
+        </figure>
+
+        <h3>Atoms inside molecules, ions inside formulas</h3>
+        <p>A formula is a recipe for one particle, and also for one mole of them. One molecule of <span class="chem">NH3</span> contains 1 nitrogen atom and 3 hydrogen atoms. So one mole of <span class="chem">NH3</span> molecules contains 1 mol of N atoms and 3 mol of H atoms.</p>
+        <p>The same works for ionic compounds. One formula unit of <span class="chem">MgCl2</span> contains one <span class="chem">Mg^2+</span> ion and two <span class="chem">Cl-</span> ions. So 1 mol of <span class="chem">MgCl2</span> contains 1 mol of <span class="chem">Mg^2+</span> ions, 2 mol of <span class="chem">Cl-</span> ions, and 3 mol of ions in total.</p>
+
+        <h3>Method in words</h3>
+        <ol>
+          <li>Name the particle the question asks about: molecules, atoms of one element, all atoms, or ions.</li>
+          <li>If it asks about atoms or ions inside a formula, multiply the amount of the compound by the subscript first.</li>
+          <li>Multiply moles by <span class="mono">6.02 × 10<sup>23</sup> mol<sup>−1</sup></span> to get the number, or divide a number by it to get moles.</li>
+          <li>Give the answer in scientific notation, to the significant figures of the data.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Moles to number of molecules</h3>
+          <div class="worked__problem">
+            <p>Calculate the number of molecules in 0.350 mol of carbon dioxide, <span class="chem">CO2</span>.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Ask the three questions">
+              <p class="worked__why">Given: an amount, 0.350 mol. Wanted: a number of molecules. Link: the Avogadro constant.</p>
+              <div class="worked__math"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></div>
+            </li>
+            <li data-title="Substitute with units">
+              <p class="worked__why">mol × mol<sup>−1</sup> cancels, leaving a pure number. That is what a count should be.</p>
+              <div class="worked__math"><i>N</i> = 0.350 mol × 6.02 × 10<sup>23</sup> mol<sup>−1</sup> = 2.107 × 10<sup>23</sup></div>
+            </li>
+            <li data-title="Round to the data">
+              <p class="worked__why">0.350 and 6.02 both have 3 significant figures, so the answer has 3.</p>
+              <div class="worked__math"><i>N</i> = <b>2.11 × 10<sup>23</sup> molecules</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>2.11 × 10<sup>23</sup> molecules of CO<sub>2</sub></p></div>
+        </div>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Atoms inside a molecule</h3>
+          <div class="worked__problem">
+            <p>Calculate the number of hydrogen atoms in 0.125 mol of ammonia, <span class="chem">NH3</span>.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Spot what is being counted">
+              <p class="worked__why">The question asks for hydrogen atoms, not ammonia molecules. Each molecule holds 3 of them.</p>
+              <div class="worked__math">1 mol NH<sub>3</sub> contains 3 mol H atoms</div>
+            </li>
+            <li data-title="Find the amount of hydrogen atoms">
+              <p class="worked__why">Use the subscript from the formula as a multiplier while you are still in moles.</p>
+              <div class="worked__math"><i>n</i>(H) = 3 × 0.125 mol = 0.375 mol</div>
+            </li>
+            <li data-title="Convert moles to a number">
+              <p class="worked__why">Now it is the same step as before: multiply by the Avogadro constant.</p>
+              <div class="worked__math"><i>N</i>(H) = 0.375 mol × 6.02 × 10<sup>23</sup> mol<sup>−1</sup> = 2.2575 × 10<sup>23</sup></div>
+            </li>
+            <li data-title="Round to the data">
+              <p class="worked__why">The data have 3 significant figures. The 3 from the formula is an exact count and does not limit the answer.</p>
+              <div class="worked__math"><i>N</i>(H) = <b>2.26 × 10<sup>23</sup> atoms</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>2.26 × 10<sup>23</sup> hydrogen atoms</p></div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>“One mole of oxygen” is unclear. One mole of <span class="chem">O2</span> molecules contains two moles of O atoms. Hydrogen, nitrogen, oxygen, fluorine, chlorine, bromine and iodine exist as two-atom molecules, so check whether the question means atoms or molecules.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="0.024917" data-tolerance="1%" data-sigfigs="3" data-unit="mol">
+          <div class="tryit__q"><p>A piece of copper wire contains 1.50 × 10<sup>22</sup> copper atoms. Calculate the amount of copper, in mol.</p></div>
+          <ol class="tryit__hints">
+            <li>You have a number of particles and you want moles. Will the answer be bigger or smaller than 1?</li>
+            <li>Divide by the Avogadro constant: <span class="mono">1.50 × 10<sup>22</sup> ÷ 6.02 × 10<sup>23</sup></span>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>n</i> = <i>N</i> ÷ <i>N</i><sub>A</sub> = 1.50 × 10<sup>22</sup> ÷ 6.02 × 10<sup>23</sup> mol<sup>−1</sup> = 0.02492 mol</div>
+            <p>To 3 significant figures: <strong>0.0249 mol</strong>. There are fewer atoms than one mole, so the amount is less than 1.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="3.612e23" data-tolerance="1%" data-sigfigs="3" data-label="Number of ions">
+          <div class="tryit__q"><p>Calculate the total number of ions in 0.200 mol of calcium chloride, <span class="chem">CaCl2</span>.</p></div>
+          <ol class="tryit__hints">
+            <li>How many ions are in one formula unit of <span class="chem">CaCl2</span>? Count the <span class="chem">Ca^2+</span> and the <span class="chem">Cl-</span> ions.</li>
+            <li>There are 3 ions per formula unit, so <i>n</i>(ions) = 3 × 0.200 mol. Then multiply by <span class="mono">6.02 × 10<sup>23</sup></span>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>n</i>(ions) = 3 × 0.200 mol = 0.600 mol</div>
+            <div class="worked__math"><i>N</i> = 0.600 mol × 6.02 × 10<sup>23</sup> mol<sup>−1</sup> = 3.612 × 10<sup>23</sup></div>
+            <p>To 3 significant figures: <strong>3.61 × 10<sup>23</sup> ions</strong>.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--scope">
+          <p>You may see an older definition: “the amount that contains as many particles as 12 g of carbon-12”. The current guide defines the mole by a fixed number of particles instead. You do not need the history of the redefinition or the exact nine-digit value of the constant.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="relative-mass" data-toc="Relative masses">
+        <span class="section-code">Structure 1.4.2</span>
+        <h2>Relative atomic mass and relative formula mass</h2>
+        <p>One atom has a mass of around 10<sup>−23</sup> g. Numbers like that are awkward, so chemists compare atoms with each other instead. The standard is the carbon-12 atom, <span class="chem">^12C</span>, which is given a mass of exactly 12 units.</p>
+        <p>The <dfn data-def="The weighted average mass of the atoms of an element, taking isotopic abundance into account, relative to one-twelfth of the mass of an atom of carbon-12. It has no units.">relative atomic mass</dfn>, <i>A</i><sub>r</sub>, of an element is the weighted average mass of its atoms compared with one-twelfth of the mass of a carbon-12 atom. It is an average because most elements are a mixture of isotopes (see topic 1.2). That is why chlorine has <i>A</i><sub>r</sub> = 35.45, although no single chlorine atom has that mass.</p>
+        <p>The <dfn data-def="The sum of the relative atomic masses of all the atoms in a formula. It has no units.">relative formula mass</dfn>, <i>M</i><sub>r</sub>, is the sum of the <i>A</i><sub>r</sub> values of every atom in the formula. For a substance made of molecules it is also called the relative molecular mass.</p>
+
+        <aside class="callout callout--key">
+          <p><i>A</i><sub>r</sub> and <i>M</i><sub>r</sub> are ratios: one mass divided by another mass. The units cancel, so they have <strong>no units</strong>.</p>
+        </aside>
+
+        <aside class="callout callout--booklet">
+          <p>The periodic table in the data booklet gives <i>A</i><sub>r</sub> to two decimal places: H 1.01, C 12.01, N 14.01, O 16.00, Na 22.99, Cl 35.45. Use these values in calculations, not rounded whole numbers.</p>
+        </aside>
+
+        <h3>Method in words</h3>
+        <ol>
+          <li>List each element in the formula.</li>
+          <li>Count its atoms. A subscript outside a bracket multiplies everything inside the bracket.</li>
+          <li>Multiply each count by the element’s <i>A</i><sub>r</sub> (2 d.p.).</li>
+          <li>Add the subtotals. Give <i>M</i><sub>r</sub> to 2 decimal places, with no unit.</li>
+        </ol>
+
+        <figure data-s1-widget="s1-4.molarmass" data-title="Molar mass builder">
+          <p class="widget__fallback">Example: Ca(OH)₂ has 1 Ca, 2 O and 2 H. M<sub>r</sub> = 40.08 + 2(16.00) + 2(1.01) = 74.10.</p>
+          <figcaption>Type a formula or build one with the buttons. The table counts every atom, including those inside brackets and in water of crystallization. The tool holds data booklet <i>A</i><sub>r</sub> values for elements 1 to 36.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Relative formula mass with brackets</h3>
+          <div class="worked__problem">
+            <p>Determine the relative formula mass of calcium nitrate, <span class="chem">Ca(NO3)2</span>.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Count the atoms">
+              <p class="worked__why">The 2 outside the bracket doubles everything inside it: 2 × N and 2 × 3 = 6 O.</p>
+              <div class="worked__math">Ca: 1 &nbsp; N: 2 &nbsp; O: 6</div>
+            </li>
+            <li data-title="Multiply by each relative atomic mass">
+              <p class="worked__why">Use the two-decimal-place values from the data booklet.</p>
+              <div class="worked__math">Ca: 1 × 40.08 = 40.08</div>
+              <div class="worked__math">N: 2 × 14.01 = 28.02</div>
+              <div class="worked__math">O: 6 × 16.00 = 96.00</div>
+            </li>
+            <li data-title="Add the subtotals">
+              <p class="worked__why">When you add, keep the decimal places of the data: two.</p>
+              <div class="worked__math"><i>M</i><sub>r</sub> = 40.08 + 28.02 + 96.00 = <b>164.10</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p><i>M</i><sub>r</sub> = 164.10 (no units)</p></div>
+        </div>
+
+        <p>A <dfn data-def="A salt whose crystals contain a fixed number of water molecules per formula unit, called water of crystallization.">hydrated salt</dfn> has water molecules built into its crystals. The dot in <span class="chem">CuSO4.5H2O</span> means “with”, so add five whole waters: <span class="mono">63.55 + 32.07 + 4(16.00) + 5(18.02) = 249.72</span>.</p>
+
+        <aside class="callout callout--mistake">
+          <p>In <span class="chem">Ca(NO3)2</span> it is easy to count only 3 oxygen atoms and get 116.10. The subscript after a bracket multiplies every atom inside it. Count atoms first, then use the calculator.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="342.17" data-tolerance="0.02" data-label="Mr">
+          <div class="tryit__q"><p>Determine the relative formula mass of aluminium sulfate, <span class="chem">Al2(SO4)3</span>. Give your answer to 2 decimal places. (<i>A</i><sub>r</sub>: Al 26.98, S 32.07, O 16.00)</p></div>
+          <ol class="tryit__hints">
+            <li>Count the atoms first. How many S atoms and how many O atoms are in three sulfate groups?</li>
+            <li>There are 2 Al, 3 S and 12 O: <span class="mono">2(26.98) + 3(32.07) + 12(16.00)</span>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>M</i><sub>r</sub> = 2(26.98) + 3(32.07) + 12(16.00)</div>
+            <div class="worked__math"><i>M</i><sub>r</sub> = 53.96 + 96.21 + 192.00 = 342.17</div>
+            <p><strong>342.17</strong>, with no unit, because it is a relative mass.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--scope">
+          <p>You do not need the unified atomic mass unit (u or Da) or the mass of one atom in kilograms for this topic. Calculating <i>A</i><sub>r</sub> from isotope abundances belongs to topic 1.2.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="molar-mass" data-toc="Molar mass">
+        <span class="section-code">Structure 1.4.3</span>
+        <h2>Molar mass: weighing instead of counting</h2>
+        <p>A bank does not count coins one by one. It weighs the bag, because it knows the mass of one coin. Chemists do the same with atoms. If you know the mass of one mole of a substance, a balance tells you how many particles you have.</p>
+        <p>The <dfn data-def="The mass of one mole of a substance. Symbol M, units g mol^-1. It has the same number as the relative formula mass.">molar mass</dfn>, <i>M</i>, is the mass of one mole of a substance. Its units are <span class="unit">g mol-1</span>. The mole is chosen so that the molar mass has the same number as <i>M</i><sub>r</sub>: water has <i>M</i><sub>r</sub> = 18.02, so <i>M</i> = 18.02 g mol<sup>−1</sup>.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Same number, different meaning</caption>
+            <thead><tr><th scope="col">Quantity</th><th scope="col">Symbol</th><th scope="col">For water</th><th scope="col">Units</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Relative formula mass</th><td><i>M</i><sub>r</sub></td><td class="num">18.02</td><td>none</td></tr>
+              <tr><th scope="row">Molar mass</th><td><i>M</i></td><td class="num">18.02</td><td><span class="unit">g mol-1</span></td></tr>
+              <tr><th scope="row">Mass of your sample</th><td><i>m</i></td><td>whatever you weighed</td><td><span class="unit">g</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="eq">
+          <div class="eq__formula"><i>n</i> = <span class="frac"><span><i>m</i></span><span><i>M</i></span></span></div>
+          <dl class="eq__legend">
+            <div><dt>n</dt><dd>amount of substance <span class="unit">mol</span></dd></div>
+            <div><dt>m</dt><dd>mass of the sample <span class="unit">g</span></dd></div>
+            <div><dt>M</dt><dd>molar mass <span class="unit">g mol-1</span></dd></div>
+          </dl>
+        </div>
+
+        <aside class="callout callout--booklet">
+          <p><i>n</i> = <i>m</i> / <i>M</i> is printed in the data booklet. Rearranged: <span class="mono"><i>m</i> = <i>n</i> × <i>M</i></span> and <span class="mono"><i>M</i> = <i>m</i> ÷ <i>n</i></span>.</p>
+        </aside>
+
+        <p>Let the units check your rearrangement. Grams divided by grams-per-mole gives moles: <span class="mono">g ÷ g mol<sup>−1</sup> = mol</span>. If your units come out as something else, the formula is upside down.</p>
+
+        <h3>The mole map</h3>
+        <p>Mass, particles, solutions and gases never convert directly into each other. Each one converts to moles, and moles convert to each of the others. That is the whole topic in one picture.</p>
+
+        <figure data-s1-widget="s1-4.molemap" data-title="The mole map" data-from="mass" data-to="particles" data-formula="H2O">
+          <p class="widget__fallback">The mole map: mass ÷ M gives moles; moles × M gives mass. Moles × N<sub>A</sub> gives particles; particles ÷ N<sub>A</sub> gives moles. For a solution, moles = C × V with V in dm³. Every route passes through moles.</p>
+          <figcaption>Choose what you are given and what you want, then type a value and a formula. The route lights up and the working appears line by line with units. Solutions are covered in section 1.4.5. The gas-volume link uses the molar volume at STP from the data booklet, which belongs to topic 1.5.</figcaption>
+        </figure>
+
+        <h3>Method in words</h3>
+        <ol>
+          <li>Ask the three questions. Find “given” and “wanted” on the mole map.</li>
+          <li>If mass is involved, work out the molar mass <i>M</i> from the formula.</li>
+          <li>Step 1: convert what you are given into moles.</li>
+          <li>Step 2: convert moles into what you want. If the question asks about atoms or ions inside the formula, multiply by the subscript while you are in moles.</li>
+          <li>Round once at the end and add the unit.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Mass to moles</h3>
+          <div class="worked__problem">
+            <p>Calculate the amount, in mol, of calcium carbonate in a 12.5 g piece of marble. Assume the marble is pure <span class="chem">CaCO3</span>.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Ask the three questions">
+              <p class="worked__why">Given: a mass in g. Wanted: an amount in mol. Link: molar mass.</p>
+              <div class="worked__math"><i>n</i> = <i>m</i> ÷ <i>M</i></div>
+            </li>
+            <li data-title="Find the molar mass">
+              <p class="worked__why">You need <i>M</i> before you can use the relationship. One Ca, one C, three O.</p>
+              <div class="worked__math"><i>M</i>(CaCO<sub>3</sub>) = 40.08 + 12.01 + 3(16.00) = 100.09 g mol<sup>−1</sup></div>
+            </li>
+            <li data-title="Substitute with units">
+              <p class="worked__why">Keep the extra digits in your calculator for now.</p>
+              <div class="worked__math"><i>n</i> = 12.5 g ÷ 100.09 g mol<sup>−1</sup> = 0.12489 mol</div>
+            </li>
+            <li data-title="Round to the data">
+              <p class="worked__why">The mass has 3 significant figures.</p>
+              <div class="worked__math"><i>n</i> = <b>0.125 mol</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>0.125 mol of CaCO<sub>3</sub></p></div>
+        </div>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Mass to number of atoms (two links)</h3>
+          <div class="worked__problem">
+            <p>Calculate the number of oxygen atoms in 4.90 g of sulfuric acid, <span class="chem">H2SO4</span>.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Plan the route on the mole map">
+              <p class="worked__why">Mass and particles do not connect directly. Go mass → moles of H<sub>2</sub>SO<sub>4</sub> → moles of O atoms → number of O atoms.</p>
+              <div class="worked__math">g &nbsp;→&nbsp; mol H<sub>2</sub>SO<sub>4</sub> &nbsp;→&nbsp; mol O &nbsp;→&nbsp; number of O atoms</div>
+            </li>
+            <li data-title="Find the molar mass">
+              <p class="worked__why">Mass is involved, so <i>M</i> is needed.</p>
+              <div class="worked__math"><i>M</i>(H<sub>2</sub>SO<sub>4</sub>) = 2(1.01) + 32.07 + 4(16.00) = 98.09 g mol<sup>−1</sup></div>
+            </li>
+            <li data-title="Convert mass to moles">
+              <p class="worked__why">This is the first link: <i>n</i> = <i>m</i> ÷ <i>M</i>.</p>
+              <div class="worked__math"><i>n</i>(H<sub>2</sub>SO<sub>4</sub>) = 4.90 g ÷ 98.09 g mol<sup>−1</sup> = 0.049954 mol</div>
+            </li>
+            <li data-title="Use the subscript">
+              <p class="worked__why">Each H<sub>2</sub>SO<sub>4</sub> contains 4 oxygen atoms.</p>
+              <div class="worked__math"><i>n</i>(O) = 4 × 0.049954 mol = 0.19982 mol</div>
+            </li>
+            <li data-title="Convert moles to a number and round">
+              <p class="worked__why">Second link: multiply by <i>N</i><sub>A</sub>. Round to the 3 significant figures of the data.</p>
+              <div class="worked__math"><i>N</i>(O) = 0.19982 mol × 6.02 × 10<sup>23</sup> mol<sup>−1</sup> = 1.2029 × 10<sup>23</sup></div>
+              <div class="worked__math"><i>N</i>(O) = <b>1.20 × 10<sup>23</sup> atoms</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>1.20 × 10<sup>23</sup> oxygen atoms</p></div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Multiplying when you should divide is the classic slip. Estimate first: 4.90 g is much less than one mole of H<sub>2</sub>SO<sub>4</sub> (98.09 g), so the amount must be much less than 1 mol. An answer of 481 mol cannot be right.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="1.80" data-tolerance="1%" data-sigfigs="3" data-unit="g">
+          <div class="tryit__q"><p>Calculate the mass of 0.0450 mol of sodium hydroxide, <span class="chem">NaOH</span>. (<i>A</i><sub>r</sub>: Na 22.99, O 16.00, H 1.01)</p></div>
+          <ol class="tryit__hints">
+            <li>You have moles and want grams. Rearrange <i>n</i> = <i>m</i> / <i>M</i> to make <i>m</i> the subject.</li>
+            <li><i>M</i>(NaOH) = 22.99 + 16.00 + 1.01 = 40.00 g mol<sup>−1</sup>. Then <i>m</i> = <i>n</i> × <i>M</i>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>M</i>(NaOH) = 22.99 + 16.00 + 1.01 = 40.00 g mol<sup>−1</sup></div>
+            <div class="worked__math"><i>m</i> = <i>n</i> × <i>M</i> = 0.0450 mol × 40.00 g mol<sup>−1</sup> = 1.80 g</div>
+            <p><strong>1.80 g</strong> (3 significant figures).</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="2.2005" data-tolerance="1%" data-sigfigs="3" data-unit="g">
+          <div class="tryit__q"><p>A sample of carbon dioxide contains 3.01 × 10<sup>22</sup> molecules. Calculate its mass. (<i>A</i><sub>r</sub>: C 12.01, O 16.00)</p></div>
+          <ol class="tryit__hints">
+            <li>Particles and mass do not connect directly. Which quantity do you go through?</li>
+            <li>First <i>n</i> = <i>N</i> ÷ <i>N</i><sub>A</sub>. Then <i>m</i> = <i>n</i> × <i>M</i>, with <i>M</i>(CO<sub>2</sub>) = 44.01 g mol<sup>−1</sup>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>n</i> = 3.01 × 10<sup>22</sup> ÷ 6.02 × 10<sup>23</sup> mol<sup>−1</sup> = 0.0500 mol</div>
+            <div class="worked__math"><i>M</i>(CO<sub>2</sub>) = 12.01 + 2(16.00) = 44.01 g mol<sup>−1</sup></div>
+            <div class="worked__math"><i>m</i> = 0.0500 mol × 44.01 g mol<sup>−1</sup> = 2.2005 g</div>
+            <p>To 3 significant figures: <strong>2.20 g</strong>.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--scope" data-title="Comes later">
+          <p>Using molar masses with a balanced equation to find the mass of a product, and limiting reactant, percentage yield and atom economy, are all in Reactivity 2.1. They use exactly the mass ⇄ moles steps you are learning here, with one extra step in the middle.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="formulas" data-toc="Empirical and molecular formulas">
+        <span class="section-code">Structure 1.4.4</span>
+        <h2>Empirical and molecular formulas</h2>
+        <p>A recipe that says “2 parts flour to 1 part butter” gives you the ratio, but not how big the batch is. Chemical formulas come in the same two kinds.</p>
+        <p>The <dfn data-def="The simplest whole-number ratio of atoms of each element present in a compound.">empirical formula</dfn> of a compound gives the simplest ratio of atoms of each element present in it. The <dfn data-def="The actual number of atoms of each element present in one molecule.">molecular formula</dfn> gives the actual number of atoms of each element present in a molecule.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Empirical and molecular formulas compared</caption>
+            <thead><tr><th scope="col">Compound</th><th scope="col">Molecular formula</th><th scope="col">Empirical formula</th><th scope="col" class="num">Molecular ÷ empirical</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">glucose</th><td><span class="chem">C6H12O6</span></td><td><span class="chem">CH2O</span></td><td class="num">6</td></tr>
+              <tr><th scope="row">ethene</th><td><span class="chem">C2H4</span></td><td><span class="chem">CH2</span></td><td class="num">2</td></tr>
+              <tr><th scope="row">hydrogen peroxide</th><td><span class="chem">H2O2</span></td><td><span class="chem">HO</span></td><td class="num">2</td></tr>
+              <tr><th scope="row">water</th><td><span class="chem">H2O</span></td><td><span class="chem">H2O</span></td><td class="num">1</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The molecular formula is always a whole-number multiple of the empirical formula. Sometimes the multiple is 1 and the two are the same. Ionic compounds such as <span class="chem">NaCl</span> have no molecules, so their formula is already an empirical formula.</p>
+
+        <h3>From a formula to percentage composition</h3>
+        <p><dfn data-def="The percentage of the total mass of a compound that is due to each element.">Percentage composition by mass</dfn> says what share of a compound’s mass comes from each element.</p>
+        <div class="eq">
+          <div class="eq__formula">% of element = <span class="frac"><span>atoms of element × <i>A</i><sub>r</sub></span><span><i>M</i><sub>r</sub></span></span> × 100</div>
+          <dl class="eq__legend">
+            <div><dt>A<sub>r</sub></dt><dd>relative atomic mass of the element (no units)</dd></div>
+            <div><dt>M<sub>r</sub></dt><dd>relative formula mass of the compound (no units)</dd></div>
+          </dl>
+        </div>
+        <p>For iron(III) oxide, <span class="chem">Fe2O3</span>: <i>M</i><sub>r</sub> = <span class="mono">2(55.85) + 3(16.00) = 159.70</span>. So the percentage of iron is <span class="mono">111.70 ÷ 159.70 × 100 = 69.94 %</span>, and oxygen is the rest, <span class="mono">30.06 %</span>. The percentages must add up to 100.</p>
+
+        <div data-s1-numeric data-answer="46.6456" data-tolerance="0.5%" data-sigfigs="3" data-unit="%">
+          <div class="tryit__q"><p>Urea, <span class="chem">CO(NH2)2</span>, is used as a fertilizer because of its nitrogen content. Calculate the percentage by mass of nitrogen in urea. (<i>A</i><sub>r</sub>: C 12.01, O 16.00, N 14.01, H 1.01)</p></div>
+          <ol class="tryit__hints">
+            <li>How many nitrogen atoms are in the formula? The 2 outside the bracket matters.</li>
+            <li><i>M</i><sub>r</sub> = 12.01 + 16.00 + 2(14.01) + 4(1.01) = 60.07. Then % N = <span class="mono">2(14.01) ÷ 60.07 × 100</span>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>M</i><sub>r</sub> = 12.01 + 16.00 + 2(14.01) + 4(1.01) = 60.07</div>
+            <div class="worked__math">% N = 28.02 ÷ 60.07 × 100 = 46.65 %</div>
+            <p>To 3 significant figures: <strong>46.6 %</strong>.</p>
+          </div>
+        </div>
+
+        <h3>From composition to an empirical formula: the table method</h3>
+        <p>Going the other way is the more common exam question. A formula is a ratio of <em>atoms</em>, which means a ratio of <em>moles</em>. But the data are masses. So the job is: convert each mass to moles, then simplify the ratio.</p>
+        <ol>
+          <li>Make a column for each element. Write its mass in g. If you are given percentages, imagine a 100 g sample, so 40 % becomes 40 g.</li>
+          <li>Divide each mass by that element’s <i>A</i><sub>r</sub>. This gives the amount of each element in mol.</li>
+          <li>Divide every amount by the smallest one. The smallest becomes 1.</li>
+          <li>If every number is now within about 0.1 of a whole number, round. If one ends in about .5, multiply them all by 2. If one ends in about .33 or .67, multiply by 3. If one ends in .25 or .75, multiply by 4.</li>
+          <li>Write the formula with the whole numbers as subscripts.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Empirical formula from percentage composition</h3>
+          <div class="worked__problem">
+            <p>A compound contains 48.64 % carbon, 8.16 % hydrogen and 43.20 % oxygen by mass. Determine its empirical formula.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Turn percentages into masses">
+              <p class="worked__why">In a 100 g sample, each percentage is the mass in grams. Any sample size gives the same ratio, and 100 g is the easiest.</p>
+              <div class="worked__math">C: 48.64 g &nbsp; H: 8.16 g &nbsp; O: 43.20 g</div>
+            </li>
+            <li data-title="Convert each mass to moles">
+              <p class="worked__why">A formula counts atoms, so you need amounts, not masses. Use <i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub>.</p>
+              <div class="worked__math">C: 48.64 g ÷ 12.01 g mol<sup>−1</sup> = 4.050 mol</div>
+              <div class="worked__math">H: 8.16 g ÷ 1.01 g mol<sup>−1</sup> = 8.079 mol</div>
+              <div class="worked__math">O: 43.20 g ÷ 16.00 g mol<sup>−1</sup> = 2.700 mol</div>
+            </li>
+            <li data-title="Divide by the smallest">
+              <p class="worked__why">This sets the smallest amount to 1 and shows the ratio clearly. The smallest is 2.700.</p>
+              <div class="worked__math">C: 4.050 ÷ 2.700 = 1.50</div>
+              <div class="worked__math">H: 8.079 ÷ 2.700 = 2.99</div>
+              <div class="worked__math">O: 2.700 ÷ 2.700 = 1.00</div>
+            </li>
+            <li data-title="Clear the fraction">
+              <p class="worked__why">1.50 is not close to a whole number, so it must not be rounded. Multiplying everything by 2 turns it into 3.</p>
+              <div class="worked__math">C: 1.50 × 2 = 3.00 &nbsp; H: 2.99 × 2 = 5.98 &nbsp; O: 1.00 × 2 = 2.00</div>
+            </li>
+            <li data-title="Write the formula">
+              <p class="worked__why">5.98 is within experimental error of 6, so the ratio is 3 : 6 : 2.</p>
+              <div class="worked__math">empirical formula = <b>C<sub>3</sub>H<sub>6</sub>O<sub>2</sub></b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>C<sub>3</sub>H<sub>6</sub>O<sub>2</sub></p></div>
+        </div>
+
+        <figure data-s1-widget="s1-4.empirical" data-title="Empirical formula solver">
+          <p class="widget__fallback">The table method: write each element’s mass (or percentage), divide by A<sub>r</sub> to get moles, divide by the smallest, then multiply up if needed to reach whole numbers.</p>
+          <figcaption>Enter your own percentages or masses and watch each column of the table method fill in. Switch to “Combustion analysis” for CO<sub>2</sub> and H<sub>2</sub>O data. Add a molar mass to get the molecular formula too.</figcaption>
+        </figure>
+
+        <aside class="callout callout--mistake">
+          <p>Three slips cause most wrong formulas. Using the percentages directly as the ratio, without dividing by <i>A</i><sub>r</sub>. Dividing by atomic number instead of <i>A</i><sub>r</sub>. Rounding 1.5 up to 2, or 1.33 down to 1, instead of multiplying by 2 or 3.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="5" data-tolerance="0.01" data-label="x =">
+          <div class="tryit__q"><p>An oxide of phosphorus contains 43.64 % phosphorus and 56.36 % oxygen by mass. Its empirical formula can be written <span class="chem">P2Ox</span>. Find the whole number <i>x</i>. (<i>A</i><sub>r</sub>: P 30.97, O 16.00)</p></div>
+          <ol class="tryit__hints">
+            <li>Use the table method: divide each percentage by <i>A</i><sub>r</sub>, then divide both by the smaller answer.</li>
+            <li>You should get P : O = 1 : 2.50. What do you multiply by to make both numbers whole?</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">P: 43.64 ÷ 30.97 = 1.409 mol &nbsp; O: 56.36 ÷ 16.00 = 3.523 mol</div>
+            <div class="worked__math">÷ 1.409: &nbsp; P = 1.00 &nbsp; O = 2.50</div>
+            <div class="worked__math">× 2: &nbsp; P = 2 &nbsp; O = 5</div>
+            <p>The empirical formula is P<sub>2</sub>O<sub>5</sub>, so <strong><i>x</i> = 5</strong>.</p>
+          </div>
+        </div>
+
+        <h3>Empirical formula from combustion data</h3>
+        <p>Many compounds contain only carbon, hydrogen and oxygen. To analyse one, a weighed sample is burned completely in excess oxygen. The carbon dioxide and the water that form are collected and weighed.</p>
+        <aside class="callout callout--key">
+          <p>Every carbon atom in the sample ends up in a <span class="chem">CO2</span> molecule. Every hydrogen atom ends up in an <span class="chem">H2O</span> molecule. The oxygen in the products comes partly from the air, so the oxygen in the sample is found by subtraction.</p>
+        </aside>
+        <ol>
+          <li>Mass of C in the sample = mass of <span class="chem">CO2</span> × <span class="mono">12.01 ÷ 44.01</span>.</li>
+          <li>Mass of H in the sample = mass of <span class="chem">H2O</span> × <span class="mono">2(1.01) ÷ 18.02</span>. The 2 is there because each water molecule holds two hydrogen atoms.</li>
+          <li>Mass of O in the sample = mass of sample − mass of C − mass of H.</li>
+          <li>Now use the table method on the three masses.</li>
+        </ol>
+        <p>You can also work in moles: <i>n</i>(C) = <i>n</i>(<span class="chem">CO2</span>) and <i>n</i>(H) = 2 × <i>n</i>(<span class="chem">H2O</span>). You still need the masses of C and H to find the oxygen by difference.</p>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Empirical formula from combustion analysis</h3>
+          <div class="worked__problem">
+            <p>A compound contains only carbon, hydrogen and oxygen. Complete combustion of 0.660 g of it produces 1.319 g of <span class="chem">CO2</span> and 0.540 g of <span class="chem">H2O</span>. Determine the empirical formula.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the mass of carbon">
+              <p class="worked__why">All the carbon is now in the CO<sub>2</sub>. Carbon makes up 12.01 out of every 44.01 g of CO<sub>2</sub>.</p>
+              <div class="worked__math"><i>m</i>(C) = 1.319 g × <span class="frac"><span>12.01</span><span>44.01</span></span> = 0.3599 g</div>
+            </li>
+            <li data-title="Find the mass of hydrogen">
+              <p class="worked__why">All the hydrogen is now in the H<sub>2</sub>O. Hydrogen makes up 2.02 out of every 18.02 g of water.</p>
+              <div class="worked__math"><i>m</i>(H) = 0.540 g × <span class="frac"><span>2(1.01)</span><span>18.02</span></span> = 0.06053 g</div>
+            </li>
+            <li data-title="Find the mass of oxygen by difference">
+              <p class="worked__why">Whatever is not carbon or hydrogen must be oxygen. Use unrounded values from your calculator.</p>
+              <div class="worked__math"><i>m</i>(O) = 0.660 g − 0.3599 g − 0.06053 g = 0.2395 g</div>
+            </li>
+            <li data-title="Convert each mass to moles">
+              <p class="worked__why">From here it is the ordinary table method.</p>
+              <div class="worked__math">C: 0.3599 g ÷ 12.01 g mol<sup>−1</sup> = 0.02997 mol</div>
+              <div class="worked__math">H: 0.06053 g ÷ 1.01 g mol<sup>−1</sup> = 0.05993 mol</div>
+              <div class="worked__math">O: 0.2395 g ÷ 16.00 g mol<sup>−1</sup> = 0.01497 mol</div>
+            </li>
+            <li data-title="Divide by the smallest and write the formula">
+              <p class="worked__why">The smallest is 0.01497. The ratios are whole numbers within experimental error.</p>
+              <div class="worked__math">C: 2.00 &nbsp; H: 4.00 &nbsp; O: 1.00</div>
+              <div class="worked__math">empirical formula = <b>C<sub>2</sub>H<sub>4</sub>O</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>C<sub>2</sub>H<sub>4</sub>O</p></div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>A typical 3-mark combustion question gives one mark for the masses or amounts of C and H, one for oxygen by difference, and one for the formula. Lay your working out in that order so each mark is easy to find.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="0.39924" data-tolerance="2%" data-sigfigs="3" data-unit="g">
+          <div class="tryit__q"><p>A compound contains only C, H and O. Burning 1.150 g of it completely gives 2.197 g of <span class="chem">CO2</span> and 1.349 g of <span class="chem">H2O</span>. Calculate the mass of oxygen in the 1.150 g sample, to 3 significant figures.</p></div>
+          <ol class="tryit__hints">
+            <li>Find the mass of carbon from the CO<sub>2</sub> and the mass of hydrogen from the H<sub>2</sub>O. Then subtract both from 1.150 g.</li>
+            <li><i>m</i>(C) = 2.197 × 12.01 ÷ 44.01 and <i>m</i>(H) = 1.349 × 2.02 ÷ 18.02. Do not round them before you subtract.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>m</i>(C) = 2.197 g × 12.01 ÷ 44.01 = 0.5995 g</div>
+            <div class="worked__math"><i>m</i>(H) = 1.349 g × 2.02 ÷ 18.02 = 0.1512 g</div>
+            <div class="worked__math"><i>m</i>(O) = 1.150 g − 0.5995 g − 0.1512 g = 0.3992 g</div>
+            <p><strong>0.399 g</strong> of oxygen. Carrying on: the amounts are C 0.04992 mol, H 0.1497 mol and O 0.02495 mol, a ratio of 2 : 6 : 1, so the empirical formula is C<sub>2</sub>H<sub>6</sub>O.</p>
+          </div>
+        </div>
+
+        <h3>From empirical formula to molecular formula</h3>
+        <p>The empirical formula gives the ratio. To find the real molecule you need one more fact: the molar mass. It usually comes from another experiment, often a gas measurement (topic 1.5).</p>
+        <ol>
+          <li>Work out the mass of the empirical formula, from <i>A</i><sub>r</sub> values.</li>
+          <li>Divide the molar mass by the empirical formula mass. The answer should be a whole number.</li>
+          <li>Multiply every subscript in the empirical formula by that whole number.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Molecular formula from molar mass</h3>
+          <div class="worked__problem">
+            <p>The compound in the last worked example has the empirical formula <span class="chem">C2H4O</span>. Its molar mass is 88.12 g mol<sup>−1</sup>. Determine its molecular formula.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the empirical formula mass">
+              <p class="worked__why">You need to know how heavy one “unit” of the ratio is.</p>
+              <div class="worked__math">2(12.01) + 4(1.01) + 16.00 = 44.06</div>
+            </li>
+            <li data-title="Divide the molar mass by it">
+              <p class="worked__why">This tells you how many empirical units fit into one molecule.</p>
+              <div class="worked__math">88.12 ÷ 44.06 = 2.00</div>
+            </li>
+            <li data-title="Multiply the subscripts">
+              <p class="worked__why">Two units per molecule, so double every subscript.</p>
+              <div class="worked__math">(C<sub>2</sub>H<sub>4</sub>O) × 2 = <b>C<sub>4</sub>H<sub>8</sub>O<sub>2</sub></b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>C<sub>4</sub>H<sub>8</sub>O<sub>2</sub></p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="6" data-tolerance="0.01" data-label="Carbon atoms">
+          <div class="tryit__q"><p>A sugar has the empirical formula <span class="chem">CH2O</span> and a molar mass of 180.18 g mol<sup>−1</sup>. How many carbon atoms are in one molecule of the sugar? (<i>A</i><sub>r</sub>: C 12.01, H 1.01, O 16.00)</p></div>
+          <ol class="tryit__hints">
+            <li>Find the mass of one CH<sub>2</sub>O unit first.</li>
+            <li>The empirical formula mass is 30.03. Divide 180.18 by it to see how many units make one molecule.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">empirical formula mass = 12.01 + 2(1.01) + 16.00 = 30.03</div>
+            <div class="worked__math">180.18 ÷ 30.03 = 6.00</div>
+            <p>The molecular formula is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>, so there are <strong>6</strong> carbon atoms.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Read which formula the question wants. If it asks for the empirical formula of <span class="chem">C4H8O2</span>, simplify to <span class="chem">C2H4O</span>. If it asks for the molecular formula, do not simplify.</p>
+        </aside>
+
+        <h3>Water of crystallization from heating a hydrate</h3>
+        <p>The same table method finds the <i>x</i> in a hydrated salt such as <span class="chem">CuSO4.xH2O</span>. A weighed sample is heated so the water is driven off as steam. What is left is the <dfn data-def="Without water. An anhydrous salt has lost its water of crystallization.">anhydrous</dfn> salt. The mass lost is the mass of water.</p>
+        <p>Here the two “elements” in the table are the anhydrous salt and the water. Divide each mass by its own molar mass, then divide by the amount of salt.</p>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Finding x in a hydrate</h3>
+          <div class="worked__problem">
+            <p>4.99 g of hydrated copper(II) sulfate, <span class="chem">CuSO4.xH2O</span>, is heated to constant mass. 3.19 g of anhydrous <span class="chem">CuSO4</span> remains. Determine <i>x</i>.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the mass of water lost">
+              <p class="worked__why">The only thing that left the crucible was water.</p>
+              <div class="worked__math"><i>m</i>(H<sub>2</sub>O) = 4.99 g − 3.19 g = 1.80 g</div>
+            </li>
+            <li data-title="Convert both masses to moles">
+              <p class="worked__why">The formula is a mole ratio of salt to water. <i>M</i>(CuSO<sub>4</sub>) = 63.55 + 32.07 + 4(16.00) = 159.62 g mol<sup>−1</sup>.</p>
+              <div class="worked__math"><i>n</i>(CuSO<sub>4</sub>) = 3.19 g ÷ 159.62 g mol<sup>−1</sup> = 0.01998 mol</div>
+              <div class="worked__math"><i>n</i>(H<sub>2</sub>O) = 1.80 g ÷ 18.02 g mol<sup>−1</sup> = 0.09989 mol</div>
+            </li>
+            <li data-title="Divide by the amount of salt">
+              <p class="worked__why">You want the number of waters for each one CuSO<sub>4</sub>.</p>
+              <div class="worked__math"><i>x</i> = 0.09989 ÷ 0.01998 = 5.00</div>
+            </li>
+            <li data-title="Write the formula">
+              <p class="worked__why"><i>x</i> must be a whole number, because it counts molecules.</p>
+              <div class="worked__math"><i>x</i> = <b>5</b>, so the formula is CuSO<sub>4</sub>·5H<sub>2</sub>O</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p><i>x</i> = 5</p></div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>“Heat to constant mass” means heat, cool, weigh, and repeat until two weighings agree. It shows that all the water has gone. If some water stays behind, the mass lost is too small and the calculated <i>x</i> is too low.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="7" data-tolerance="0.05" data-label="x =">
+          <div class="tryit__q"><p>6.16 g of hydrated magnesium sulfate, <span class="chem">MgSO4.xH2O</span>, is heated to constant mass. 3.01 g of anhydrous <span class="chem">MgSO4</span> remains. Determine the whole number <i>x</i>. (<i>M</i>: <span class="chem">MgSO4</span> 120.38 g mol<sup>−1</sup>, <span class="chem">H2O</span> 18.02 g mol<sup>−1</sup>)</p></div>
+          <ol class="tryit__hints">
+            <li>The mass of water is the mass lost on heating: 6.16 g − 3.01 g.</li>
+            <li>Convert 3.01 g of MgSO<sub>4</sub> and 3.15 g of H<sub>2</sub>O to moles. Then divide the moles of water by the moles of salt.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>m</i>(H<sub>2</sub>O) = 6.16 g − 3.01 g = 3.15 g</div>
+            <div class="worked__math"><i>n</i>(MgSO<sub>4</sub>) = 3.01 g ÷ 120.38 g mol<sup>−1</sup> = 0.02500 mol</div>
+            <div class="worked__math"><i>n</i>(H<sub>2</sub>O) = 3.15 g ÷ 18.02 g mol<sup>−1</sup> = 0.1748 mol</div>
+            <div class="worked__math"><i>x</i> = 0.1748 ÷ 0.02500 = 6.99</div>
+            <p>Rounded to a whole number, <strong><i>x</i> = 7</strong>: MgSO<sub>4</sub>·7H<sub>2</sub>O.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--scope">
+          <p>Combustion problems in this topic use compounds of carbon, hydrogen and oxygen, with oxygen found by difference. You do not need to know how an elemental analyser works.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="concentration" data-toc="Concentration">
+        <span class="section-code">Structure 1.4.5</span>
+        <h2>Concentration of solutions</h2>
+        <p>Two glasses of squash can hold the same amount of syrup but taste different, because one has more water in it. What matters is how much is dissolved <em>per unit volume</em>. That is concentration.</p>
+        <p>A <dfn data-def="The substance that dissolves.">solute</dfn> dissolves in a <dfn data-def="The liquid that does the dissolving, usually water.">solvent</dfn> to make a <dfn data-def="A homogeneous mixture of a solute dissolved in a solvent.">solution</dfn>. The <dfn data-def="The amount of solute, in mol, per cubic decimetre of solution. Units mol dm^-3. Shown by square brackets.">molar concentration</dfn> is the amount of solute divided by the volume of the solution. Its units are <span class="unit">mol dm-3</span>.</p>
+
+        <div class="eq">
+          <div class="eq__formula"><i>n</i> = <i>C</i><i>V</i></div>
+          <dl class="eq__legend">
+            <div><dt>n</dt><dd>amount of solute <span class="unit">mol</span></dd></div>
+            <div><dt>C</dt><dd>molar concentration <span class="unit">mol dm-3</span></dd></div>
+            <div><dt>V</dt><dd>volume of solution <span class="unit">dm3</span></dd></div>
+          </dl>
+        </div>
+
+        <aside class="callout callout--booklet">
+          <p><i>n</i> = <i>CV</i> is printed in the data booklet. Rearranged: <span class="mono"><i>C</i> = <i>n</i> ÷ <i>V</i></span> and <span class="mono"><i>V</i> = <i>n</i> ÷ <i>C</i></span>. The volume must be in dm<sup>3</sup>.</p>
+        </aside>
+
+        <p>Square brackets mean “molar concentration of”. So <span class="mono">[NaCl] = 0.400 mol dm<sup>−3</sup></span> reads “the concentration of sodium chloride is 0.400 moles per cubic decimetre”. You are expected to use this notation.</p>
+
+        <aside class="callout callout--key">
+          <p><i>V</i> is the volume of the finished <strong>solution</strong>, not the volume of water you added. Dissolving a solid changes the volume a little, which is why solutions are made up to a mark and not by adding a measured volume of water.</p>
+        </aside>
+
+        <h3>Two ways to state a concentration</h3>
+        <p>The <dfn data-def="The mass of solute, in g, per cubic decimetre of solution. Units g dm^-3.">mass concentration</dfn> is the mass of solute per volume of solution, in <span class="unit">g dm-3</span>. The two are linked by the molar mass, in exactly the way mass and moles are.</p>
+        <div class="eq">
+          <div class="eq__formula">mass concentration = <i>C</i> × <i>M</i></div>
+          <dl class="eq__legend">
+            <div><dt>—</dt><dd>mass concentration <span class="unit">g dm-3</span></dd></div>
+            <div><dt>C</dt><dd>molar concentration <span class="unit">mol dm-3</span></dd></div>
+            <div><dt>M</dt><dd>molar mass of the solute <span class="unit">g mol-1</span></dd></div>
+          </dl>
+        </div>
+        <p>For example, 0.0500 mol dm<sup>−3</sup> sulfuric acid (<i>M</i> = 98.09 g mol<sup>−1</sup>) is <span class="mono">0.0500 × 98.09 = 4.90 g dm<sup>−3</sup></span>. To go from g dm<sup>−3</sup> to mol dm<sup>−3</sup>, divide by <i>M</i>.</p>
+
+        <h3>Method in words</h3>
+        <ol>
+          <li>Ask the three questions. Is the solute given as a mass, an amount or a concentration?</li>
+          <li>Convert every volume from cm<sup>3</sup> to dm<sup>3</sup> by dividing by 1000. Write this as its own line.</li>
+          <li>If you have a mass of solute, convert it to moles with <i>n</i> = <i>m</i> ÷ <i>M</i>.</li>
+          <li>Use <i>n</i> = <i>CV</i>, rearranged for what you want.</li>
+          <li>Check the size of the answer, round, and write the unit.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Concentration from mass and volume</h3>
+          <div class="worked__problem">
+            <p>5.85 g of sodium chloride, <span class="chem">NaCl</span>, is dissolved in distilled water and the solution is made up to 250.0 cm<sup>3</sup>. Calculate the concentration in mol dm<sup>−3</sup> and in g dm<sup>−3</sup>.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Convert the volume to dm³">
+              <p class="worked__why"><i>n</i> = <i>CV</i> only works with the volume in dm<sup>3</sup>.</p>
+              <div class="worked__math"><i>V</i> = 250.0 cm<sup>3</sup> ÷ 1000 = 0.2500 dm<sup>3</sup></div>
+            </li>
+            <li data-title="Convert the mass to moles">
+              <p class="worked__why">Molar concentration needs an amount in mol, not a mass.</p>
+              <div class="worked__math"><i>M</i>(NaCl) = 22.99 + 35.45 = 58.44 g mol<sup>−1</sup></div>
+              <div class="worked__math"><i>n</i> = 5.85 g ÷ 58.44 g mol<sup>−1</sup> = 0.10010 mol</div>
+            </li>
+            <li data-title="Divide amount by volume">
+              <p class="worked__why">Rearranging <i>n</i> = <i>CV</i> gives <i>C</i> = <i>n</i> ÷ <i>V</i>.</p>
+              <div class="worked__math">[NaCl] = 0.10010 mol ÷ 0.2500 dm<sup>3</sup> = 0.4004 mol dm<sup>−3</sup></div>
+            </li>
+            <li data-title="Round to the data">
+              <p class="worked__why">The mass has 3 significant figures, the fewest in the data.</p>
+              <div class="worked__math">[NaCl] = <b>0.400 mol dm<sup>−3</sup></b></div>
+            </li>
+            <li data-title="Find the mass concentration">
+              <p class="worked__why">Mass per volume uses the mass directly. There is no need to go through moles.</p>
+              <div class="worked__math">5.85 g ÷ 0.2500 dm<sup>3</sup> = <b>23.4 g dm<sup>−3</sup></b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>0.400 mol dm<sup>−3</sup>, which is 23.4 g dm<sup>−3</sup></p></div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Dividing by 250 instead of 0.2500 gives 0.000400, an answer 1000 times too small. And mixing up the two units is common: an answer in <span class="unit">g dm-3</span> is always a bigger number than the same concentration in <span class="unit">mol dm-3</span> when <i>M</i> is greater than 1 g mol<sup>−1</sup>, which it always is.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="0.00300" data-tolerance="1%" data-sigfigs="3" data-unit="mol">
+          <div class="tryit__q"><p>Calculate the amount, in mol, of solute in 20.0 cm<sup>3</sup> of a 0.150 mol dm<sup>−3</sup> solution.</p></div>
+          <ol class="tryit__hints">
+            <li>Which relationship links amount, concentration and volume? What unit must the volume be in?</li>
+            <li><i>V</i> = 20.0 ÷ 1000 = 0.0200 dm<sup>3</sup>. Then <i>n</i> = <i>C</i> × <i>V</i>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>V</i> = 20.0 cm<sup>3</sup> ÷ 1000 = 0.0200 dm<sup>3</sup></div>
+            <div class="worked__math"><i>n</i> = 0.150 mol dm<sup>−3</sup> × 0.0200 dm<sup>3</sup> = 0.00300 mol</div>
+            <p><strong>0.00300 mol</strong>, or 3.00 × 10<sup>−3</sup> mol.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="0.120" data-tolerance="1%" data-sigfigs="3" data-unit="mol dm-3">
+          <div class="tryit__q"><p>1.20 g of sodium hydroxide, <span class="chem">NaOH</span>, is dissolved and made up to 250.0 cm<sup>3</sup> of solution. Calculate [NaOH]. (<i>M</i>(NaOH) = 40.00 g mol<sup>−1</sup>)</p></div>
+          <ol class="tryit__hints">
+            <li>Two conversions are needed before you can divide: mass to moles, and cm<sup>3</sup> to dm<sup>3</sup>.</li>
+            <li><i>n</i> = 1.20 ÷ 40.00 = 0.0300 mol and <i>V</i> = 0.2500 dm<sup>3</sup>. Now <i>C</i> = <i>n</i> ÷ <i>V</i>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>n</i> = 1.20 g ÷ 40.00 g mol<sup>−1</sup> = 0.0300 mol</div>
+            <div class="worked__math"><i>V</i> = 250.0 cm<sup>3</sup> ÷ 1000 = 0.2500 dm<sup>3</sup></div>
+            <div class="worked__math">[NaOH] = 0.0300 mol ÷ 0.2500 dm<sup>3</sup> = 0.120 mol dm<sup>−3</sup></div>
+            <p><strong>0.120 mol dm<sup>−3</sup></strong></p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="0.200" data-tolerance="1%" data-sigfigs="3" data-unit="mol dm-3">
+          <div class="tryit__q"><p>A bottle is labelled “sodium hydroxide, 8.00 g dm<sup>−3</sup>”. Convert this to a molar concentration. (<i>M</i>(NaOH) = 40.00 g mol<sup>−1</sup>)</p></div>
+          <ol class="tryit__hints">
+            <li>Going from grams to moles: do you multiply or divide by the molar mass?</li>
+            <li>Divide: <span class="mono">8.00 g dm<sup>−3</sup> ÷ 40.00 g mol<sup>−1</sup></span>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">[NaOH] = 8.00 g dm<sup>−3</sup> ÷ 40.00 g mol<sup>−1</sup> = 0.200 mol dm<sup>−3</sup></div>
+            <p><strong>0.200 mol dm<sup>−3</sup></strong>. The units confirm it: g dm<sup>−3</sup> ÷ g mol<sup>−1</sup> = mol dm<sup>−3</sup>.</p>
+          </div>
+        </div>
+
+        <h3>Concentration of the ions</h3>
+        <p>When an ionic compound dissolves, its ions separate. The formula tells you how many of each you get. One <span class="chem">MgCl2</span> gives one <span class="chem">Mg^2+</span> and two <span class="chem">Cl-</span>. So in 0.150 mol dm<sup>−3</sup> <span class="chem">MgCl2</span>, <span class="mono">[Mg<sup>2+</sup>] = 0.150 mol dm<sup>−3</sup></span> and <span class="mono">[Cl<sup>−</sup>] = 2 × 0.150 = 0.300 mol dm<sup>−3</sup></span>.</p>
+
+        <h3>Making a standard solution</h3>
+        <p>A <dfn data-def="A solution whose concentration is known accurately.">standard solution</dfn> is one whose concentration is known accurately. It is made in a <dfn data-def="A flask with a long narrow neck and a single graduation mark. It holds one accurately known volume, such as 250.0 cm^3.">volumetric flask</dfn>, which has a single mark on a narrow neck and holds one precise volume.</p>
+
+        <figure data-s1-widget="s1-4.solution" data-title="Solution lab">
+          <p class="widget__fallback">Example: 6.24 g of CuSO₄·5H₂O (M = 249.72 g mol⁻¹) made up to 250.0 cm³ gives 0.0250 mol in 0.2500 dm³, a concentration of 0.100 mol dm⁻³.</p>
+          <figcaption>Choose a solute, a mass and a flask to see both concentrations with the working. Switch the task to “Dilute a stock solution” to explore <i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub>. Flask sizes are drawn roughly to scale. The depth of shading is illustrative: it shows “more concentrated” or “less concentrated”, not a measured colour.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Mass needed for a standard solution</h3>
+          <div class="worked__problem">
+            <p>Calculate the mass of anhydrous sodium carbonate, <span class="chem">Na2CO3</span>, needed to prepare 250.0 cm<sup>3</sup> of a 0.1000 mol dm<sup>−3</sup> solution.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Ask the three questions">
+              <p class="worked__why">Given: a concentration and a volume. Wanted: a mass. Route: solution → moles → mass.</p>
+              <div class="worked__math"><i>n</i> = <i>CV</i> &nbsp; then &nbsp; <i>m</i> = <i>n</i> × <i>M</i></div>
+            </li>
+            <li data-title="Convert the volume to dm³">
+              <p class="worked__why">The concentration is per dm<sup>3</sup>, so the volume must match.</p>
+              <div class="worked__math"><i>V</i> = 250.0 cm<sup>3</sup> ÷ 1000 = 0.2500 dm<sup>3</sup></div>
+            </li>
+            <li data-title="Find the amount needed">
+              <p class="worked__why">This is the amount of solute that must end up in the flask.</p>
+              <div class="worked__math"><i>n</i> = 0.1000 mol dm<sup>−3</sup> × 0.2500 dm<sup>3</sup> = 0.02500 mol</div>
+            </li>
+            <li data-title="Convert moles to mass">
+              <p class="worked__why">A balance measures grams, not moles.</p>
+              <div class="worked__math"><i>M</i>(Na<sub>2</sub>CO<sub>3</sub>) = 2(22.99) + 12.01 + 3(16.00) = 105.99 g mol<sup>−1</sup></div>
+              <div class="worked__math"><i>m</i> = 0.02500 mol × 105.99 g mol<sup>−1</sup> = 2.64975 g</div>
+            </li>
+            <li data-title="Round to the data">
+              <p class="worked__why">Standard-solution data are given to 4 significant figures, so the answer is too.</p>
+              <div class="worked__math"><i>m</i> = <b>2.650 g</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>2.650 g of Na<sub>2</sub>CO<sub>3</sub></p></div>
+        </div>
+
+        <p>Calculating the mass is half the job. You also need to be able to describe the procedure:</p>
+        <ol>
+          <li>Weigh the solid accurately on a balance.</li>
+          <li>Dissolve it in a small volume of <strong>distilled</strong> (or deionized) water in a beaker, stirring until none is left.</li>
+          <li>Pour the solution through a funnel into the volumetric flask. Rinse the beaker, the stirring rod and the funnel with distilled water, and add the <strong>rinsings</strong> to the flask.</li>
+          <li>Add distilled water until the bottom of the meniscus sits on the <strong>mark</strong>. Add the last drops with a dropping pipette.</li>
+          <li>Stopper the flask and <strong>invert</strong> it several times to mix.</li>
+        </ol>
+
+        <aside class="callout callout--exam">
+          <p>Markschemes reward specific words: <strong>volumetric flask</strong>, <strong>distilled or deionized water</strong>, transfer <strong>with rinsings</strong>, <strong>make up to the mark</strong>, <strong>stopper and invert to mix</strong>. Writing only “water”, or “add 250 cm<sup>3</sup> of water”, loses marks.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="4.9944" data-tolerance="1%" data-sigfigs="3" data-unit="g">
+          <div class="tryit__q"><p>Calculate the mass of hydrated copper(II) sulfate, <span class="chem">CuSO4.5H2O</span>, needed to prepare 100.0 cm<sup>3</sup> of a 0.200 mol dm<sup>−3</sup> solution. (<i>M</i>(<span class="chem">CuSO4.5H2O</span>) = 249.72 g mol<sup>−1</sup>)</p></div>
+          <ol class="tryit__hints">
+            <li>Route: solution → moles → mass. Start by converting 100.0 cm<sup>3</sup> to dm<sup>3</sup>.</li>
+            <li><i>n</i> = 0.200 × 0.1000 = 0.0200 mol. Then <i>m</i> = <i>n</i> × <i>M</i>, using the molar mass of the hydrate, because that is the solid you weigh.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>V</i> = 100.0 cm<sup>3</sup> ÷ 1000 = 0.1000 dm<sup>3</sup></div>
+            <div class="worked__math"><i>n</i> = 0.200 mol dm<sup>−3</sup> × 0.1000 dm<sup>3</sup> = 0.0200 mol</div>
+            <div class="worked__math"><i>m</i> = 0.0200 mol × 249.72 g mol<sup>−1</sup> = 4.9944 g</div>
+            <p>To 3 significant figures (set by 0.200): <strong>4.99 g</strong>.</p>
+          </div>
+        </div>
+
+        <h3>Dilution</h3>
+        <p>Adding water to squash makes it weaker, but the syrup is all still there. <dfn data-def="Lowering the concentration of a solution by adding more solvent. The amount of solute does not change.">Dilution</dfn> lowers the concentration by adding solvent. The amount of solute does not change.</p>
+        <p>Amount before = amount after. Since <i>n</i> = <i>CV</i>, that gives the dilution relationship.</p>
+        <div class="eq">
+          <div class="eq__formula"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></div>
+          <dl class="eq__legend">
+            <div><dt>C<sub>1</sub></dt><dd>concentration of the stock solution <span class="unit">mol dm-3</span></dd></div>
+            <div><dt>V<sub>1</sub></dt><dd>volume of stock solution taken <span class="unit">cm3</span></dd></div>
+            <div><dt>C<sub>2</sub></dt><dd>concentration after dilution <span class="unit">mol dm-3</span></dd></div>
+            <div><dt>V<sub>2</sub></dt><dd>final total volume <span class="unit">cm3</span></dd></div>
+          </dl>
+        </div>
+        <p>This relationship is not in the data booklet, so learn where it comes from. The two volumes may both be in cm<sup>3</sup> or both in dm<sup>3</sup>, as long as they match. The <dfn data-def="How many times a solution has been diluted: final volume divided by the volume of stock taken.">dilution factor</dfn> is <i>V</i><sub>2</sub> ÷ <i>V</i><sub>1</sub>. A “10 times” dilution divides the concentration by 10.</p>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Volume of stock solution for a dilution</h3>
+          <div class="worked__problem">
+            <p>What volume of 2.00 mol dm<sup>−3</sup> hydrochloric acid is needed to prepare 250.0 cm<sup>3</sup> of 0.100 mol dm<sup>−3</sup> hydrochloric acid?</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Label the four quantities">
+              <p class="worked__why">“1” is the stock solution you start with. “2” is the diluted solution you end with. The unknown is <i>V</i><sub>1</sub>.</p>
+              <div class="worked__math"><i>C</i><sub>1</sub> = 2.00 mol dm<sup>−3</sup> &nbsp; <i>V</i><sub>1</sub> = ?</div>
+              <div class="worked__math"><i>C</i><sub>2</sub> = 0.100 mol dm<sup>−3</sup> &nbsp; <i>V</i><sub>2</sub> = 250.0 cm<sup>3</sup></div>
+            </li>
+            <li data-title="Rearrange for the unknown">
+              <p class="worked__why">The amount of HCl is the same before and after: <i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub>.</p>
+              <div class="worked__math"><i>V</i><sub>1</sub> = <span class="frac"><span><i>C</i><sub>2</sub><i>V</i><sub>2</sub></span><span><i>C</i><sub>1</sub></span></span></div>
+            </li>
+            <li data-title="Substitute with units">
+              <p class="worked__why">The concentration units cancel, so <i>V</i><sub>1</sub> comes out in the same unit as <i>V</i><sub>2</sub>.</p>
+              <div class="worked__math"><i>V</i><sub>1</sub> = <span class="frac"><span>0.100 mol dm<sup>−3</sup> × 250.0 cm<sup>3</sup></span><span>2.00 mol dm<sup>−3</sup></span></span> = <b>12.5 cm<sup>3</sup></b></div>
+            </li>
+            <li data-title="Check with the dilution factor">
+              <p class="worked__why" data-label="Check">The concentration falls 20 times (2.00 ÷ 0.100), so the volume must grow 20 times.</p>
+              <div class="worked__math">12.5 cm<sup>3</sup> × 20 = 250 cm<sup>3</sup></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>12.5 cm<sup>3</sup> of the 2.00 mol dm<sup>−3</sup> acid</p></div>
+        </div>
+
+        <p>The procedure, in the words a markscheme looks for:</p>
+        <ol>
+          <li>Use a <strong>pipette</strong> (or a burette) to measure the stock solution. A measuring cylinder is not precise enough.</li>
+          <li>Run it into a <strong>volumetric flask</strong> of the right size, here 250.0 cm<sup>3</sup>.</li>
+          <li>Add <strong>distilled water</strong> up to the <strong>mark</strong>.</li>
+          <li>Stopper and invert several times to <strong>mix</strong>.</li>
+        </ol>
+
+        <aside class="callout callout--mistake">
+          <p>“Add 237.5 cm<sup>3</sup> of water” is not the right description. <i>V</i><sub>2</sub> is the <em>total</em> final volume, and volumes do not always add exactly. The correct instruction is to make the solution up to the mark.</p>
+        </aside>
+
+        <p>A <dfn data-def="A series of dilutions in which each new solution is made by diluting the one before it by the same factor.">serial dilution</dfn> repeats the same step. Dilute a 1.00 mol dm<sup>−3</sup> stock 10 times to get 0.100 mol dm<sup>−3</sup>. Dilute that 10 times to get 0.0100 mol dm<sup>−3</sup>, and so on. It reaches very low concentrations without measuring tiny volumes.</p>
+
+        <div data-s1-numeric data-answer="0.0200" data-tolerance="1%" data-sigfigs="3" data-unit="mol dm-3">
+          <div class="tryit__q"><p>10.0 cm<sup>3</sup> of a 0.500 mol dm<sup>−3</sup> solution is pipetted into a 250.0 cm<sup>3</sup> volumetric flask and made up to the mark with distilled water. Calculate the concentration of the diluted solution.</p></div>
+          <ol class="tryit__hints">
+            <li>Which values are <i>C</i><sub>1</sub>, <i>V</i><sub>1</sub> and <i>V</i><sub>2</sub>? The unknown is <i>C</i><sub>2</sub>. It must be smaller than 0.500.</li>
+            <li><i>C</i><sub>2</sub> = <i>C</i><sub>1</sub><i>V</i><sub>1</sub> ÷ <i>V</i><sub>2</sub> = <span class="mono">0.500 × 10.0 ÷ 250.0</span>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>C</i><sub>2</sub> = <span class="frac"><span>0.500 mol dm<sup>−3</sup> × 10.0 cm<sup>3</sup></span><span>250.0 cm<sup>3</sup></span></span> = 0.0200 mol dm<sup>−3</sup></div>
+            <p><strong>0.0200 mol dm<sup>−3</sup></strong>. The dilution factor is 250.0 ÷ 10.0 = 25, and 0.500 ÷ 25 = 0.0200.</p>
+          </div>
+        </div>
+
+        <h3>Finding a concentration with a calibration curve</h3>
+        <p>Some solutions are coloured, and the more concentrated they are, the more light they absorb. A <dfn data-def="An instrument that measures how much light of a chosen colour a solution absorbs.">colorimeter</dfn> or spectrophotometer measures this as a number called absorbance. That gives a quick way to find an unknown concentration.</p>
+        <ol>
+          <li>Make several standard solutions of known concentration, usually by diluting one stock solution.</li>
+          <li>Measure the absorbance of each one.</li>
+          <li>Plot absorbance (<i>y</i>) against concentration (<i>x</i>) and draw the line of best fit. This graph is the <dfn data-def="A graph of an instrument reading against known concentrations, used to read off an unknown concentration.">calibration curve</dfn>.</li>
+          <li>Measure the absorbance of the unknown solution and read its concentration from the line.</li>
+        </ol>
+
+        <figure data-s1-widget="s1-4.calibration" data-title="Reading a calibration curve">
+          <p class="widget__fallback">A calibration curve plots absorbance against the known concentrations of standard solutions. The unknown’s absorbance is read across to the line and down to the concentration axis.</p>
+          <figcaption>The crosses are six standard solutions (example data, not a real experiment). Move the slider to set the absorbance of an unknown. Read across to the line, then down to the axis. The unknown must lie inside the range of the standards.</figcaption>
+        </figure>
+
+        <aside class="callout callout--scope">
+          <p>You do not need the Beer–Lambert law or any equation for absorbance. You only need the idea: known standards, a graph, a line of best fit, and reading the unknown from it. Concentration units such as ppm, molality, percentage by mass and mole fraction are not in the IB guide. Use <span class="unit">mol dm-3</span> and <span class="unit">g dm-3</span>.</p>
+        </aside>
+
+        <aside class="callout callout--scope" data-title="Comes later">
+          <p>Titration calculations, where a solution of known concentration is used to find another through a reaction, belong to Reactivity 2.1 and Reactivity 3.1. They combine <i>n</i> = <i>CV</i> from this section with the mole ratio of an equation.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="avogadro" data-toc="Avogadro’s law">
+        <span class="section-code">Structure 1.4.6</span>
+        <h2>Avogadro’s law and reacting gas volumes</h2>
+        <p>In a gas, the particles are far apart. Almost all of the volume is empty space, so the size of the particles themselves hardly matters. A balloon of hydrogen and a balloon of carbon dioxide of the same size, at the same temperature and pressure, hold the same number of molecules, even though the carbon dioxide molecules are much heavier.</p>
+
+        <aside class="callout callout--key" data-title="Avogadro’s law">
+          <p>Equal volumes of all gases, measured under the same conditions of temperature and pressure, contain equal numbers of molecules.</p>
+        </aside>
+
+        <p>Equal numbers of molecules means equal amounts in moles. So for gases at the same temperature and pressure, volume is directly proportional to amount. Double the moles, double the volume.</p>
+        <p>This has a very useful result. In a balanced equation, the coefficients give the mole ratio. For gases, the same coefficients also give the <strong>volume ratio</strong>. You can work in volumes and never calculate a single mole.</p>
+
+        <figure data-s1-widget="s1-4.gasratio" data-title="Reacting gas volumes">
+          <p class="widget__fallback">Example: N₂(g) + 3H₂(g) → 2NH₃(g). At the same temperature and pressure, 20 cm³ of nitrogen reacts with 60 cm³ of hydrogen to give 40 cm³ of ammonia. The volume ratio 1 : 3 : 2 matches the coefficients.</p>
+          <figcaption>Pick a reaction, choose one gas and set its volume. The other volumes follow from the coefficients. Box heights are in proportion to the volumes. This is a model: each dot stands for the same very large number of molecules, and every box has the same number of dots per unit area, as Avogadro’s law says.</figcaption>
+        </figure>
+
+        <h3>Method in words</h3>
+        <ol>
+          <li>Write the balanced equation with state symbols. Only substances marked (g) take part in the volume ratio.</li>
+          <li>Check that all volumes are measured at the same temperature and pressure.</li>
+          <li>Find the coefficient of the gas you know and of the gas you want.</li>
+          <li>Volume wanted = volume known × (coefficient wanted ÷ coefficient known).</li>
+          <li>Keep the same volume unit throughout. There is no need to convert cm<sup>3</sup> to dm<sup>3</sup>, because it is a ratio.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Volumes of reacting gases</h3>
+          <div class="worked__problem">
+            <p>Propane burns completely in oxygen:</p>
+            <p><span class="chem">C3H8(g) + 5O2(g) -> 3CO2(g) + 4H2O(l)</span></p>
+            <p>25.0 cm<sup>3</sup> of propane is burned. All volumes are measured at the same temperature and pressure. Calculate the volume of oxygen needed and the volume of carbon dioxide formed.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Read the mole ratio">
+              <p class="worked__why">The coefficients tell you how many moles react. An unwritten coefficient is 1.</p>
+              <div class="worked__math">C<sub>3</sub>H<sub>8</sub> : O<sub>2</sub> : CO<sub>2</sub> = 1 : 5 : 3</div>
+            </li>
+            <li data-title="Use Avogadro’s law">
+              <p class="worked__why">Same temperature and pressure, so the volume ratio of the gases equals the mole ratio.</p>
+              <div class="worked__math">volume ratio = 1 : 5 : 3</div>
+            </li>
+            <li data-title="Scale to the volume given">
+              <p class="worked__why">Multiply by coefficient wanted ÷ coefficient known. The coefficients are exact, so the answers keep 3 significant figures.</p>
+              <div class="worked__math"><i>V</i>(O<sub>2</sub>) = 25.0 cm<sup>3</sup> × <span class="frac"><span>5</span><span>1</span></span> = <b>125 cm<sup>3</sup></b></div>
+              <div class="worked__math"><i>V</i>(CO<sub>2</sub>) = 25.0 cm<sup>3</sup> × <span class="frac"><span>3</span><span>1</span></span> = <b>75.0 cm<sup>3</sup></b></div>
+            </li>
+            <li data-title="Check the state symbols">
+              <p class="worked__why" data-label="Check">The water is a liquid, (l). It is not a gas, so it adds nothing to the gas volume.</p>
+              <div class="worked__math">gas before: 25.0 + 125 = 150 cm<sup>3</sup> &nbsp; gas after: 75.0 cm<sup>3</sup></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>125 cm<sup>3</sup> of O<sub>2</sub> is needed and 75.0 cm<sup>3</sup> of CO<sub>2</sub> forms</p></div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Volumes of gases are not conserved in a reaction. In the example, 150 cm<sup>3</sup> of gas becomes 75.0 cm<sup>3</sup>. Mass is conserved and atoms are conserved, but the number of gas molecules can change. Also watch for <span class="chem">H2O(l)</span>: counting liquid water as a gas volume is a common wrong answer.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="75.0" data-tolerance="1%" data-sigfigs="3" data-unit="cm3">
+          <div class="tryit__q"><p>Carbon monoxide burns in oxygen: <span class="chem">2CO(g) + O2(g) -> 2CO2(g)</span>. What volume of oxygen is needed to react completely with 150 cm<sup>3</sup> of carbon monoxide, at the same temperature and pressure? Give your answer to 3 significant figures.</p></div>
+          <ol class="tryit__hints">
+            <li>What is the mole ratio of CO to O<sub>2</sub> in the equation? The volume ratio is the same.</li>
+            <li>CO : O<sub>2</sub> = 2 : 1, so <i>V</i>(O<sub>2</sub>) = 150 × (1 ÷ 2).</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>V</i>(O<sub>2</sub>) = 150 cm<sup>3</sup> × <span class="frac"><span>1</span><span>2</span></span> = 75.0 cm<sup>3</sup></div>
+            <p><strong>75.0 cm<sup>3</sup></strong> of oxygen.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="30.0" data-tolerance="1%" data-sigfigs="3" data-unit="cm3">
+          <div class="tryit__q"><p>Ammonia is made from nitrogen and hydrogen: <span class="chem">N2(g) + 3H2(g) -> 2NH3(g)</span>. What volume of ammonia forms when 45.0 cm<sup>3</sup> of hydrogen reacts completely, at the same temperature and pressure?</p></div>
+          <ol class="tryit__hints">
+            <li>Find the coefficients of the gas you know (H<sub>2</sub>) and the gas you want (NH<sub>3</sub>).</li>
+            <li>H<sub>2</sub> : NH<sub>3</sub> = 3 : 2, so <i>V</i>(NH<sub>3</sub>) = 45.0 × (2 ÷ 3).</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>V</i>(NH<sub>3</sub>) = 45.0 cm<sup>3</sup> × <span class="frac"><span>2</span><span>3</span></span> = 30.0 cm<sup>3</sup></div>
+            <p><strong>30.0 cm<sup>3</sup></strong> of ammonia. It also needs 45.0 ÷ 3 = 15.0 cm<sup>3</sup> of nitrogen.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>If you are asked to state Avogadro’s law, include all three parts: equal volumes of gases, same temperature and pressure, equal numbers of molecules. In a calculation, write “volume ratio = mole ratio” before you use the coefficients.</p>
+        </aside>
+
+        <aside class="callout callout--scope" data-title="Comes later">
+          <p>Two neighbours of this idea are taught elsewhere. The molar volume of a gas (22.7 dm<sup>3</sup> mol<sup>−1</sup> at STP) and <i>PV</i> = <i>nRT</i> are in topic 1.5. Deciding which reactant runs out first when the gases are not mixed in the exact ratio (the limiting reactant, with some gas left over) is formally taught in Reactivity 2.1. Exam questions on gas volumes can include a gas in excess, so come back to this section when you reach that topic.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="not-here" data-toc="What is not in 1.4">
+        <h2>Where this topic stops</h2>
+        <p>Textbooks and online tutors often pile extra material onto the mole. This table shows what is in Structure 1.4, what comes later in the course, and what you can leave alone.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>In, later, or not needed</caption>
+            <thead><tr><th scope="col">Idea</th><th scope="col">Status</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Moles ⇄ particles, mass, concentration</th><td>In this topic (1.4.1, 1.4.3, 1.4.5)</td></tr>
+              <tr><th scope="row">Empirical and molecular formulas, including combustion data</th><td>In this topic (1.4.4)</td></tr>
+              <tr><th scope="row">Standard solutions, dilution, calibration curves</th><td>In this topic (1.4.5)</td></tr>
+              <tr><th scope="row">Gas volume ratios from an equation</th><td>In this topic (1.4.6)</td></tr>
+              <tr><th scope="row">Reacting masses from an equation</th><td>Later: Reactivity 2.1</td></tr>
+              <tr><th scope="row">Limiting reactant, percentage yield, atom economy</th><td>Later: Reactivity 2.1</td></tr>
+              <tr><th scope="row">Titration calculations</th><td>Later: Reactivity 2.1 and 3.1</td></tr>
+              <tr><th scope="row">Molar volume at STP, <i>PV</i> = <i>nRT</i></th><td>Next topic: Structure 1.5</td></tr>
+              <tr><th scope="row">ppm, molality, percentage by mass as a concentration, mole fraction</th><td>Not in the IB guide</td></tr>
+              <tr><th scope="row">Old values: 22.4 dm<sup>3</sup> mol<sup>−1</sup>, “24 dm<sup>3</sup> at room temperature”</th><td>Not used. The data booklet gives 22.7 dm<sup>3</sup> mol<sup>−1</sup> at STP</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="topic-section" id="links" data-toc="Linking it up">
+        <h2>Linking it up</h2>
+        <p>The guide lists linking questions that connect this topic to others. Here are short answers to four of them.</p>
+
+        <h3>How can molar masses be used with chemical equations to determine the masses of the products of a reaction?</h3>
+        <p>An equation gives a ratio in moles, but a balance measures grams. So you convert the mass of a reactant to moles with its molar mass, use the mole ratio from the equation, then convert the moles of product back to a mass with the product’s molar mass. The two outer steps are from this topic. The full method is taught in Reactivity 2.1.</p>
+
+        <h3>What is the importance of approximation in the determination of an empirical formula?</h3>
+        <p>Measured masses always carry some error, so the mole ratio never comes out as perfect whole numbers. You have to judge when 2.99 means 3. You also have to judge when a value is <em>not</em> an error: 1.50 or 1.33 are real ratios that must be multiplied up, not rounded. Good approximation means rounding small differences and respecting large ones.</p>
+
+        <h3>What are the considerations in the choice of glassware used in preparing a standard solution and a serial dilution?</h3>
+        <p>The concentration is only as accurate as the volumes. A volumetric flask and a pipette are each made to deliver one volume very precisely, so they are used for the final volume and for the portion of stock solution. A beaker or measuring cylinder has a much larger uncertainty and is only used for rough work, such as dissolving the solid. In a serial dilution, any error in one step is carried into every later step, which makes precise glassware even more important.</p>
+
+        <h3>Avogadro’s law applies to ideal gases. Under what conditions might a real gas deviate most from an ideal gas?</h3>
+        <p>At low temperature and high pressure. Then the particles are close together and moving slowly, so the forces between them and the space the particles take up are no longer negligible. Topic 1.5 explains this.</p>
+      </section>
+
+      <section class="topic-section" id="practice" data-toc="Exam-style practice">
+        <h2>Exam-style practice</h2>
+        <p>Work through the three levels in order. Use the three questions on every calculation, and write your working on paper before you type an answer. Each set draws questions you have not yet answered correctly first.</p>
+
+        <h3>Foundation: one idea at a time</h3>
+        <div data-s1-quiz data-topic="s1-4" data-tier="foundation" data-count="6" data-title="1.4 foundation"></div>
+
+        <h3>Exam standard</h3>
+        <div data-s1-quiz data-topic="s1-4" data-tier="exam" data-count="6" data-title="1.4 exam standard"></div>
+
+        <h3>Challenge: level 7 stretch</h3>
+        <div data-s1-quiz data-topic="s1-4" data-tier="challenge" data-count="4" data-title="1.4 challenge"></div>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../data/questions-s1-4.js"></script>
+<script src="../assets/js/widgets-s1-4.js"></script>
+</body>
+</html>
