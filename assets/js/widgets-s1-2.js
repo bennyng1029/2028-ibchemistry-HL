@@ -38,17 +38,23 @@
   function frac(top, bottom) { return '<span class="frac"><span>' + top + '</span><span>' + bottom + '</span></span>'; }
   function mathLine(html) { return '<div class="worked__math">' + html + '</div>'; }
 
-  var ISOTOPES = {
-    B:  { name: t('Boron'),     iso: [[10, 10.01, 19.9], [11, 11.01, 80.1]] },
-    Mg: { name: t('Magnesium'), iso: [[24, 23.99, 78.99], [25, 24.99, 10.00], [26, 25.98, 11.01]] },
-    Cl: { name: t('Chlorine'),  iso: [[35, 34.97, 75.76], [37, 36.97, 24.24]] },
-    Cu: { name: t('Copper'),    iso: [[63, 62.93, 69.15], [65, 64.93, 30.85]] },
-    Li: { name: t('Lithium'),   iso: [[6, 6.02, 7.59], [7, 7.02, 92.41]] },
-    Ne: { name: t('Neon'),      iso: [[20, 19.99, 90.48], [21, 20.99, 0.27], [22, 21.99, 9.25]] },
-    Si: { name: t('Silicon'),   iso: [[28, 27.98, 92.22], [29, 28.98, 4.69], [30, 29.97, 3.09]] },
-    Ga: { name: t('Gallium'),   iso: [[69, 68.93, 60.11], [71, 70.92, 39.89]] },
-    Br: { name: t('Bromine'),   iso: [[79, 78.92, 50.69], [81, 80.92, 49.31]] }
-  };
+  /* Built by a function, not at script load: t() must run while the chosen language is active.
+     Called once here (English) and again at the start of every widget init that uses the tables. */
+  var ISOTOPES;
+  function isotopeTable() {
+    ISOTOPES = {
+      B:  { name: t('Boron'),     iso: [[10, 10.01, 19.9], [11, 11.01, 80.1]] },
+      Mg: { name: t('Magnesium'), iso: [[24, 23.99, 78.99], [25, 24.99, 10.00], [26, 25.98, 11.01]] },
+      Cl: { name: t('Chlorine'),  iso: [[35, 34.97, 75.76], [37, 36.97, 24.24]] },
+      Cu: { name: t('Copper'),    iso: [[63, 62.93, 69.15], [65, 64.93, 30.85]] },
+      Li: { name: t('Lithium'),   iso: [[6, 6.02, 7.59], [7, 7.02, 92.41]] },
+      Ne: { name: t('Neon'),      iso: [[20, 19.99, 90.48], [21, 20.99, 0.27], [22, 21.99, 9.25]] },
+      Si: { name: t('Silicon'),   iso: [[28, 27.98, 92.22], [29, 28.98, 4.69], [30, 29.97, 3.09]] },
+      Ga: { name: t('Gallium'),   iso: [[69, 68.93, 60.11], [71, 70.92, 39.89]] },
+      Br: { name: t('Bromine'),   iso: [[79, 78.92, 50.69], [81, 80.92, 49.31]] }
+    };
+  }
+  isotopeTable();
 
   /* ==========================================================================
      1. Build an atom
@@ -302,6 +308,7 @@
      3. Isotope mixer
      ========================================================================== */
   S1.widgets.register('s1-2.mixer', function (w) {
+    isotopeTable();
     var ORDER = ['Cl', 'Mg', 'B', 'Cu'];
     var sym = ORDER.indexOf(w.options.start) >= 0 ? w.options.start : 'Cl';
     var ab = [];                                  // current abundances in %
@@ -417,6 +424,7 @@
      Bars are drawn at integer m/z (singly charged ions), heights to scale.
      ========================================================================== */
   S1.widgets.register('s1-2.spectrum', function (w) {
+    isotopeTable();
     var ORDER = ['Cl', 'Mg', 'B', 'Cu', 'Ne', 'Ga', 'Si', 'Br', 'Li'];
     var MYSTERY = ['B', 'Mg', 'Si', 'Cl', 'Cu', 'Ga', 'Br', 'Li', 'Ne'];
     var sym = 'Cl', mystery = false, solved = false, showVals = false, lastMystery = '';

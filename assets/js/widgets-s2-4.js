@@ -97,7 +97,7 @@
     var regions = {
       metallic: { pts: [G.L, G.B, G.C, G.D], fill: line, at: [1.3, 0.28], name: t('Metallic') },
       ionic: { pts: [G.B, G.T, G.F, G.C], fill: w.color('--accent-soft'), at: [2.12, 2.05], name: t('Ionic') },
-      covalent: { pts: [G.C, G.F, G.R, G.D], fill: w.color('--surface-2'), at: [3.0, 0.28], name: t('Covalent') }
+      covalent: { pts: [G.C, G.F, G.R, G.D], fill: w.color('--surface-2'), at: [narrow ? 2.72 : 3.0, 0.28], name: t('Covalent') }
     };
     // percentage scale lines (behind the regions)
     ctx.font = fs + 'px ' + mono; ctx.textBaseline = 'middle';
@@ -265,11 +265,11 @@
     w.select({ label: t('Explain a region'), value: 'all', options: [{ value: 'all', label: t('The whole triangle') }, { value: 'metallic', label: t('Metallic') },
       { value: 'ionic', label: t('Ionic') }, { value: 'covalent', label: t('Covalent and polar covalent') }], onChange: function (v) { which = v; update(); } });
     var cv = w.canvas({ height: function (width) { return Math.round(Math.min(410, Math.max(270, width * 0.7))); },
-      label: t('Bonding triangle with example substances. Sodium is in the metallic corner, chlorine in the covalent corner and caesium fluoride at the ionic top. Sodium chloride is in the ionic region. Hydrogen chloride and silicon dioxide are in the polar covalent region.') });
+      label: t('Bonding triangle with example substances. Sodium is in the metallic corner, chlorine in the covalent corner and caesium fluoride at the ionic top. Sodium chloride is in the ionic region. Silicon dioxide is in the polar covalent region. On a wide screen hydrogen chloride is also shown there.') });
     var setInfo = w.readoutItem(t('What this region means'), { text: true });
-    var POINTS = [['Na', 'Na', 'Na'], ['Cl', 'Cl', 'Cl₂'], ['Cs', 'F', 'CsF', true], ['Na', 'Cl', 'NaCl', true], ['H', 'Cl', 'HCl', 'below'], ['Si', 'O', 'SiO₂', true]];
+    var POINTS = [['Na', 'Na', 'Na', true], ['Cl', 'Cl', 'Cl₂'], ['Cs', 'F', 'CsF', true], ['Na', 'Cl', 'NaCl', true], ['H', 'Cl', 'HCl', 'below', 'wide'], ['Si', 'O', 'SiO₂', true]];
     cv.draw(function (ctx, W, H) {
-      drawTriangle(w, ctx, W, H, { highlight: which === 'all' ? null : which, points: POINTS.map(function (q) {
+      drawTriangle(w, ctx, W, H, { highlight: which === 'all' ? null : which, points: POINTS.filter(function (q) { return W >= 430 || q[4] !== 'wide'; }).map(function (q) {
         var p = position(q[0], q[1]); return { avg: p.avg, d: p.d, label: q[2], left: q[3] === true, below: q[3] === 'below' };
       }) });
     });
@@ -753,7 +753,9 @@
       bBack.disabled = step === 0; bNext.disabled = step === 4;
       if (step === 0) {
         title = t('Step 1 of 5: the two monomers');
-        text = t('Monomer A is {A}. Monomer B is {B}. Each monomer has two functional groups, one at each end, so it can join on both sides. A box stands for the rest of the molecule.', { A: s.A, B: s.B });
+        text = kind === 'peptide'
+          ? t('Monomer A is {A}. Monomer B is {B}. Each monomer has two functional groups, one at each end, so it can join on both sides. R¹ and R² stand for the side groups.', { A: s.A, B: s.B })
+          : t('Monomer A is {A}. Monomer B is {B}. Each monomer has two functional groups, one at each end, so it can join on both sides. A box stands for the rest of the molecule.', { A: s.A, B: s.B });
         rows = narrow ? [[P.monoA()], [{ sign: '+' }, P.monoB()]] : [[P.monoA(), { sign: '+' }, P.monoB()]];
         label = t('Two monomers, each with a functional group at both ends');
       } else if (step === 1) {

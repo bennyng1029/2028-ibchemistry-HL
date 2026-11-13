@@ -195,13 +195,20 @@
      Particle model simulator: solid → liquid → gas for a chosen substance.
      Melting and boiling points are rounded to the nearest degree.
      ------------------------------------------------------------------------ */
-  var SUBSTANCES = {
-    water:    { name: t('Water'), formula: 'H2O', mp: 0, bp: 100, min: -50, max: 150, start: 25 },
-    ethanol:  { name: t('Ethanol'), formula: 'C2H5OH', mp: -114, bp: 78, min: -170, max: 130, start: 25 },
-    nitrogen: { name: t('Nitrogen'), formula: 'N2', mp: -210, bp: -196, min: -230, max: -170, start: -203 }
-  };
+  /* Built by a function, not at script load: t() must run while the chosen language is active.
+     Called once here (English) and again at the start of every widget init that uses the tables. */
+  var SUBSTANCES;
+  function substanceTable() {
+    SUBSTANCES = {
+      water:    { name: t('Water'), formula: 'H2O', mp: 0, bp: 100, min: -50, max: 150, start: 25 },
+      ethanol:  { name: t('Ethanol'), formula: 'C2H5OH', mp: -114, bp: 78, min: -170, max: 130, start: 25 },
+      nitrogen: { name: t('Nitrogen'), formula: 'N2', mp: -210, bp: -196, min: -230, max: -170, start: -203 }
+    };
+  }
+  substanceTable();
 
   S1.widgets.register('s1-1.particles', function (w) {
+    substanceTable();
     var N = 48, sim = makeSim(N, 8, 2028);
     var sub = SUBSTANCES.water;
 
@@ -541,77 +548,84 @@
     }
   };
 
-  var PROPS = [
-    { id: 'sol', label: t('Solubility in water: one solid dissolves, the other does not.') },
-    { id: 'insol', label: t('One part is an undissolved solid, the other is a liquid. The solid particles are too large to pass through filter paper.') },
-    { id: 'vol', label: t('Volatility: one part has a much lower boiling point, so it turns to vapour more easily.') },
-    { id: 'hotcold', label: t('Solubility changes with temperature: the solid is much more soluble in hot solvent than in cold solvent.') },
-    { id: 'attract', label: t('The parts are attracted to paper and to a solvent by different amounts.') }
-  ];
-  var TECHS = [
-    { id: 'solvation', label: t('Solvation (dissolving), then filtration') },
-    { id: 'filtration', label: t('Filtration') },
-    { id: 'evaporation', label: t('Evaporation, then crystallization') },
-    { id: 'distillation', label: t('Distillation') },
-    { id: 'recrystallization', label: t('Recrystallization') },
-    { id: 'chromatography', label: t('Paper chromatography') }
-  ];
-  var MIXTURES = [
-    { id: 'sandwater', label: t('Sand in salt water'), mix: t('Sand stirred into salt water.'), want: t('the sand removed from the liquid'),
-      prop: 'insol', tech: 'filtration',
-      propWhy: t('The sand has not dissolved. Its grains are far too large to pass through the tiny holes in filter paper. The water and the dissolved salt pass through.'),
-      techWhy: t('Filtration separates an insoluble solid from a liquid. The sand is the <strong>residue</strong>. The salt solution is the <strong>filtrate</strong>. Filtration cannot remove the dissolved salt.'),
-      propHints: { sol: t('There is only one undissolved solid here. The salt is already dissolved.'), vol: t('True, but it is a slow way to get sand out of water. Look for the simplest difference.'), hotcold: t('Sand does not dissolve in hot water either.'), attract: t('That is the idea behind chromatography, which separates dissolved substances.') } },
-    { id: 'sandsalt', label: t('Dry sand and salt'), mix: t('A dry mixture of sand and salt (both solids).'), want: t('the sand and the salt in separate containers'),
-      prop: 'sol', tech: 'solvation',
-      propWhy: t('Salt is soluble in water. Sand is insoluble.'),
-      techWhy: t('Add water and stir. The salt dissolves (solvation) and the sand does not. Then filter: sand is the residue, salt solution is the filtrate. Evaporate the water from the filtrate to get the salt back, and dry the sand.'),
-      propHints: { insol: t('Both parts are solids at the start. There is no liquid to filter yet.'), vol: t('Both solids have very high boiling points. Heating will not separate them in a school laboratory.'), hotcold: t('That difference is used to purify one solid, not to separate these two.'), attract: t('That is the idea behind chromatography, which separates dissolved substances.') } },
-    { id: 'crystals', label: t('Copper(II) sulfate solution'), mix: t('Copper(II) sulfate dissolved in water.'), want: t('solid copper(II) sulfate crystals'),
-      prop: 'vol', tech: 'evaporation',
-      propWhy: t('Water is volatile: it turns to vapour when heated. The dissolved solid has a very high boiling point and stays behind.'),
-      techWhy: t('Heat gently to evaporate some of the water until the solution is saturated. Then leave it to cool so that crystals form (crystallization). You want the solid, so the water can escape into the air.'),
-      propHints: { sol: t('There is only one solid here, and it is already dissolved.'), insol: t('The solid is dissolved, so its particles pass through filter paper with the water.'), hotcold: t('True for many solids, but here there are no impurities to remove. Which difference lets you remove the water?'), attract: t('There is only one dissolved substance, so there is nothing to spread out on paper.') } },
-    { id: 'purewater', label: t('Salt water (you want the water)'), mix: t('Salt dissolved in water.'), want: t('pure water'),
-      prop: 'vol', tech: 'distillation',
-      propWhy: t('Water boils at 100 °C. Salt has a very high boiling point and does not vaporize.'),
-      techWhy: t('Distillation boils the water and then condenses the vapour back to a liquid in a separate container. The liquid collected is the <strong>distillate</strong>. The salt stays in the flask. Evaporation would lose the water you want.'),
-      propHints: { sol: t('There is only one solid here, and it is already dissolved.'), insol: t('The salt is dissolved, so it passes through filter paper with the water.'), hotcold: t('That helps to purify a solid. Here you want the liquid.'), attract: t('Chromatography separates tiny amounts for identification. It would not give you a beaker of water.') } },
-    { id: 'ethanol', label: t('Ethanol and water'), mix: t('Ethanol and water, two liquids that mix completely.'), want: t('the ethanol separated from the water'),
-      prop: 'vol', tech: 'distillation',
-      propWhy: t('Ethanol boils at 78 °C and water at 100 °C. Ethanol is more volatile.'),
-      techWhy: t('On heating, the vapour contains more of the liquid with the lower boiling point (ethanol). The condenser turns the vapour back into a liquid, which is collected as the distillate. One distillation gives a distillate that is richer in ethanol. It is not pure ethanol.'),
-      propHints: { sol: t('Both parts are liquids, and they mix completely.'), insol: t('There is no undissolved solid. Both liquids pass through filter paper.'), hotcold: t('That applies to a solid dissolved in a solvent.'), attract: t('Chromatography separates tiny amounts for identification, not two bulk liquids.') } },
-    { id: 'ink', label: t('Dyes in black ink'), mix: t('Black ink, a solution of several coloured dyes.'), want: t('to find out how many dyes the ink contains'),
-      prop: 'attract', tech: 'chromatography',
-      propWhy: t('Each dye is attracted to the paper and dissolves in the moving solvent by a different amount.'),
-      techWhy: t('The solvent moves up the paper and carries the dyes with it. A dye that is more soluble in the solvent and less attracted to the paper travels further. Each dye ends up at a different height.'),
-      propHints: { sol: t('All the dyes are dissolved in the same ink.'), insol: t('The dyes are dissolved, so they pass through filter paper together.'), vol: t('Dyes are not volatile. Heating removes the solvent but leaves the dyes mixed together.'), hotcold: t('That would not separate several dissolved dyes from each other.') } },
-    { id: 'recryst', label: t('Impure solid product'), mix: t('An impure solid product from a reaction. It contains small amounts of other solids.'), want: t('pure, dry crystals of the product'),
-      prop: 'hotcold', tech: 'recrystallization',
-      propWhy: t('The product is very soluble in the hot solvent but much less soluble in the cold solvent. Small amounts of soluble impurities stay dissolved when the solution cools.'),
-      techWhy: t('Dissolve the solid in the minimum volume of hot solvent. Filter hot to remove insoluble impurities. Cool so that the product crystallizes. Filter, rinse with a little cold solvent and dry.'),
-      propHints: { sol: t('Close. But one filtration cannot remove impurities that also dissolve.'), insol: t('Everything is solid at the start. There is no liquid to filter yet.'), vol: t('The solids are not volatile.'), attract: t('Chromatography separates tiny amounts for identification. It would not give you a useful mass of product.') } }
-  ];
-  var TECH_HINTS = {
-    solvation: t('Solvation is the first step when you start with two solids, one soluble and one insoluble.'),
-    filtration: t('Filtration only removes a solid that has not dissolved. Dissolved particles pass through the paper.'),
-    evaporation: t('Evaporation keeps the dissolved solid and loses the solvent into the air. Check which part you want to keep.'),
-    distillation: t('Distillation collects the liquid that boils off. Check which part you want to keep.'),
-    recrystallization: t('Recrystallization purifies a solid that has small amounts of impurities.'),
-    chromatography: t('Paper chromatography separates small amounts of dissolved substances so that you can identify them.')
-  };
+  /* Built by a function, not at script load: t() must run while the chosen language is active.
+     Called once here (English) and again at the start of every widget init that uses the tables. */
+  var PROPS, TECHS, MIXTURES, TECH_HINTS, DIAGRAMS;
+  function separationTables() {
+    PROPS = [
+      { id: 'sol', label: t('Solubility in water: one solid dissolves, the other does not.') },
+      { id: 'insol', label: t('One part is an undissolved solid, the other is a liquid. The solid particles are too large to pass through filter paper.') },
+      { id: 'vol', label: t('Volatility: one part has a much lower boiling point, so it turns to vapour more easily.') },
+      { id: 'hotcold', label: t('Solubility changes with temperature: the solid is much more soluble in hot solvent than in cold solvent.') },
+      { id: 'attract', label: t('The parts are attracted to paper and to a solvent by different amounts.') }
+    ];
+    TECHS = [
+      { id: 'solvation', label: t('Solvation (dissolving), then filtration') },
+      { id: 'filtration', label: t('Filtration') },
+      { id: 'evaporation', label: t('Evaporation, then crystallization') },
+      { id: 'distillation', label: t('Distillation') },
+      { id: 'recrystallization', label: t('Recrystallization') },
+      { id: 'chromatography', label: t('Paper chromatography') }
+    ];
+    MIXTURES = [
+      { id: 'sandwater', label: t('Sand in salt water'), mix: t('Sand stirred into salt water.'), want: t('the sand removed from the liquid'),
+        prop: 'insol', tech: 'filtration',
+        propWhy: t('The sand has not dissolved. Its grains are far too large to pass through the tiny holes in filter paper. The water and the dissolved salt pass through.'),
+        techWhy: t('Filtration separates an insoluble solid from a liquid. The sand is the <strong>residue</strong>. The salt solution is the <strong>filtrate</strong>. Filtration cannot remove the dissolved salt.'),
+        propHints: { sol: t('There is only one undissolved solid here. The salt is already dissolved.'), vol: t('True, but it is a slow way to get sand out of water. Look for the simplest difference.'), hotcold: t('Sand does not dissolve in hot water either.'), attract: t('That is the idea behind chromatography, which separates dissolved substances.') } },
+      { id: 'sandsalt', label: t('Dry sand and salt'), mix: t('A dry mixture of sand and salt (both solids).'), want: t('the sand and the salt in separate containers'),
+        prop: 'sol', tech: 'solvation',
+        propWhy: t('Salt is soluble in water. Sand is insoluble.'),
+        techWhy: t('Add water and stir. The salt dissolves (solvation) and the sand does not. Then filter: sand is the residue, salt solution is the filtrate. Evaporate the water from the filtrate to get the salt back, and dry the sand.'),
+        propHints: { insol: t('Both parts are solids at the start. There is no liquid to filter yet.'), vol: t('Both solids have very high boiling points. Heating will not separate them in a school laboratory.'), hotcold: t('That difference is used to purify one solid, not to separate these two.'), attract: t('That is the idea behind chromatography, which separates dissolved substances.') } },
+      { id: 'crystals', label: t('Copper(II) sulfate solution'), mix: t('Copper(II) sulfate dissolved in water.'), want: t('solid copper(II) sulfate crystals'),
+        prop: 'vol', tech: 'evaporation',
+        propWhy: t('Water is volatile: it turns to vapour when heated. The dissolved solid has a very high boiling point and stays behind.'),
+        techWhy: t('Heat gently to evaporate some of the water until the solution is saturated. Then leave it to cool so that crystals form (crystallization). You want the solid, so the water can escape into the air.'),
+        propHints: { sol: t('There is only one solid here, and it is already dissolved.'), insol: t('The solid is dissolved, so its particles pass through filter paper with the water.'), hotcold: t('True for many solids, but here there are no impurities to remove. Which difference lets you remove the water?'), attract: t('There is only one dissolved substance, so there is nothing to spread out on paper.') } },
+      { id: 'purewater', label: t('Salt water (you want the water)'), mix: t('Salt dissolved in water.'), want: t('pure water'),
+        prop: 'vol', tech: 'distillation',
+        propWhy: t('Water boils at 100 °C. Salt has a very high boiling point and does not vaporize.'),
+        techWhy: t('Distillation boils the water and then condenses the vapour back to a liquid in a separate container. The liquid collected is the <strong>distillate</strong>. The salt stays in the flask. Evaporation would lose the water you want.'),
+        propHints: { sol: t('There is only one solid here, and it is already dissolved.'), insol: t('The salt is dissolved, so it passes through filter paper with the water.'), hotcold: t('That helps to purify a solid. Here you want the liquid.'), attract: t('Chromatography separates tiny amounts for identification. It would not give you a beaker of water.') } },
+      { id: 'ethanol', label: t('Ethanol and water'), mix: t('Ethanol and water, two liquids that mix completely.'), want: t('the ethanol separated from the water'),
+        prop: 'vol', tech: 'distillation',
+        propWhy: t('Ethanol boils at 78 °C and water at 100 °C. Ethanol is more volatile.'),
+        techWhy: t('On heating, the vapour contains more of the liquid with the lower boiling point (ethanol). The condenser turns the vapour back into a liquid, which is collected as the distillate. One distillation gives a distillate that is richer in ethanol. It is not pure ethanol.'),
+        propHints: { sol: t('Both parts are liquids, and they mix completely.'), insol: t('There is no undissolved solid. Both liquids pass through filter paper.'), hotcold: t('That applies to a solid dissolved in a solvent.'), attract: t('Chromatography separates tiny amounts for identification, not two bulk liquids.') } },
+      { id: 'ink', label: t('Dyes in black ink'), mix: t('Black ink, a solution of several coloured dyes.'), want: t('to find out how many dyes the ink contains'),
+        prop: 'attract', tech: 'chromatography',
+        propWhy: t('Each dye is attracted to the paper and dissolves in the moving solvent by a different amount.'),
+        techWhy: t('The solvent moves up the paper and carries the dyes with it. A dye that is more soluble in the solvent and less attracted to the paper travels further. Each dye ends up at a different height.'),
+        propHints: { sol: t('All the dyes are dissolved in the same ink.'), insol: t('The dyes are dissolved, so they pass through filter paper together.'), vol: t('Dyes are not volatile. Heating removes the solvent but leaves the dyes mixed together.'), hotcold: t('That would not separate several dissolved dyes from each other.') } },
+      { id: 'recryst', label: t('Impure solid product'), mix: t('An impure solid product from a reaction. It contains small amounts of other solids.'), want: t('pure, dry crystals of the product'),
+        prop: 'hotcold', tech: 'recrystallization',
+        propWhy: t('The product is very soluble in the hot solvent but much less soluble in the cold solvent. Small amounts of soluble impurities stay dissolved when the solution cools.'),
+        techWhy: t('Dissolve the solid in the minimum volume of hot solvent. Filter hot to remove insoluble impurities. Cool so that the product crystallizes. Filter, rinse with a little cold solvent and dry.'),
+        propHints: { sol: t('Close. But one filtration cannot remove impurities that also dissolve.'), insol: t('Everything is solid at the start. There is no liquid to filter yet.'), vol: t('The solids are not volatile.'), attract: t('Chromatography separates tiny amounts for identification. It would not give you a useful mass of product.') } }
+    ];
+    TECH_HINTS = {
+      solvation: t('Solvation is the first step when you start with two solids, one soluble and one insoluble.'),
+      filtration: t('Filtration only removes a solid that has not dissolved. Dissolved particles pass through the paper.'),
+      evaporation: t('Evaporation keeps the dissolved solid and loses the solvent into the air. Check which part you want to keep.'),
+      distillation: t('Distillation collects the liquid that boils off. Check which part you want to keep.'),
+      recrystallization: t('Recrystallization purifies a solid that has small amounts of impurities.'),
+      chromatography: t('Paper chromatography separates small amounts of dissolved substances so that you can identify them.')
+    };
 
-  var DIAGRAMS = {
-    filtration: { name: t('Filtration'), alt: t('Labelled diagram of filtration') },
-    solvation: { name: t('Solvation'), alt: t('Labelled diagram of solvation') },
-    evaporation: { name: t('Evaporation and crystallization'), alt: t('Labelled diagram of evaporation and crystallization') },
-    distillation: { name: t('Distillation'), alt: t('Labelled diagram of distillation') },
-    recrystallization: { name: t('Recrystallization'), alt: t('Labelled diagram of recrystallization') },
-    chromatography: { name: t('Paper chromatography'), alt: t('Labelled diagram of paper chromatography') }
-  };
+    DIAGRAMS = {
+      filtration: { name: t('Filtration'), alt: t('Labelled diagram of filtration') },
+      solvation: { name: t('Solvation'), alt: t('Labelled diagram of solvation') },
+      evaporation: { name: t('Evaporation and crystallization'), alt: t('Labelled diagram of evaporation and crystallization') },
+      distillation: { name: t('Distillation'), alt: t('Labelled diagram of distillation') },
+      recrystallization: { name: t('Recrystallization'), alt: t('Labelled diagram of recrystallization') },
+      chromatography: { name: t('Paper chromatography'), alt: t('Labelled diagram of paper chromatography') }
+    };
+  }
+  separationTables();
 
   S1.widgets.register('s1-1.separate', function (w) {
+    separationTables();
     var setProp = w.readoutItem(t('Property that differs'), { text: true });
     var setTech = w.readoutItem(t('Technique'), { text: true });
     var box = h('div', { 'class': 'p11-chooser' });
@@ -683,6 +697,7 @@
 
   /* Static gallery of every schematic (used once on the page, below the table of techniques). */
   S1.widgets.register('s1-1.apparatus', function (w) {
+    separationTables();
     var names = {};
     Object.keys(DIAGRAMS).forEach(function (k) { names[k] = DIAGRAMS[k].name; });
     var keys = Object.keys(names), cur = w.options.start || 'filtration';
@@ -696,42 +711,49 @@
   /* ------------------------------------------------------------------------
      Classify-it sorter.
      ------------------------------------------------------------------------ */
-  var BINS = [
-    { id: 'element', label: t('Element') },
-    { id: 'compound', label: t('Compound') },
-    { id: 'homo', label: t('Homogeneous mixture') },
-    { id: 'hetero', label: t('Heterogeneous mixture') }
-  ];
-  var ITEMS = [
-    { id: 'cu', label: t('Copper wire'), bin: 'element', why: t('Copper contains only copper atoms.') },
-    { id: 'o2', label: t('Oxygen gas, {formula}', { formula: 'O<sub>2</sub>' }), bin: 'element', why: t('The molecules contain two atoms, but both are oxygen atoms. One type of atom means an element.') },
-    { id: 'dia', label: t('Diamond'), bin: 'element', why: t('Diamond contains only carbon atoms.') },
-    { id: 'h2o', label: t('Distilled water, {formula}', { formula: 'H<sub>2</sub>O' }), bin: 'compound', why: t('Hydrogen and oxygen atoms are chemically bonded in a fixed 2 : 1 ratio.') },
-    { id: 'nacl', label: t('Sodium chloride crystals, {formula}', { formula: 'NaCl' }), bin: 'compound', why: t('Sodium and chlorine are chemically bonded in a fixed 1 : 1 ratio.') },
-    { id: 'co2', label: t('Carbon dioxide, {formula}', { formula: 'CO<sub>2</sub>' }), bin: 'compound', why: t('Carbon and oxygen atoms are chemically bonded in a fixed 1 : 2 ratio.') },
-    { id: 'air', label: t('Clean, dry air'), bin: 'homo', why: t('Air is several gases (mainly nitrogen and oxygen) mixed evenly. The composition is the same throughout.') },
-    { id: 'salt', label: t('Salt dissolved in water'), bin: 'homo', why: t('A solution is a mixture with the same composition throughout. You cannot see separate parts.') },
-    { id: 'brass', label: t('Brass (copper and zinc)'), bin: 'homo', why: t('Brass is an alloy. The copper and zinc atoms are mixed evenly, and the ratio can vary, so it is a mixture and not a compound.') },
-    { id: 'sand', label: t('Sand stirred into water'), bin: 'hetero', why: t('You can see separate regions of sand and of water. The composition is not the same throughout.') },
-    { id: 'oil', label: t('Oil and water'), bin: 'hetero', why: t('The two liquids form separate layers. The composition is not the same throughout.') },
-    { id: 'granite', label: t('Granite rock'), bin: 'hetero', why: t('You can see grains of different minerals. The composition is not the same throughout.') }
-  ];
-  var WRONG = {
-    'element>compound': t('Check the types of atom. A compound needs atoms of two or more different elements.'),
-    'element>homo': t('A mixture contains more than one substance. This is a single substance.'),
-    'element>hetero': t('A mixture contains more than one substance. This is a single substance.'),
-    'compound>element': t('An element has only one type of atom. Look at the formula: how many different elements are in it?'),
-    'compound>homo': t('The different atoms here are chemically bonded in a fixed ratio. In a mixture the parts are not bonded to each other and the ratio can vary.'),
-    'compound>hetero': t('The different atoms here are chemically bonded in a fixed ratio. That makes a single pure substance, not a mixture.'),
-    'homo>element': t('There is more than one substance here.'),
-    'homo>compound': t('The substances here are not chemically bonded to each other, and their ratio can vary. That makes a mixture.'),
-    'homo>hetero': t('It is a mixture, but can you see separate parts? If the composition is the same throughout, it is homogeneous.'),
-    'hetero>element': t('There is more than one substance here.'),
-    'hetero>compound': t('The substances here are not chemically bonded to each other, and their ratio can vary. That makes a mixture.'),
-    'hetero>homo': t('It is a mixture, but the parts are not evenly spread. You can see separate regions.')
-  };
+  /* Built by a function, not at script load: t() must run while the chosen language is active.
+     Called once here (English) and again at the start of every widget init that uses the tables. */
+  var BINS, ITEMS, WRONG;
+  function sorterTables() {
+    BINS = [
+      { id: 'element', label: t('Element') },
+      { id: 'compound', label: t('Compound') },
+      { id: 'homo', label: t('Homogeneous mixture') },
+      { id: 'hetero', label: t('Heterogeneous mixture') }
+    ];
+    ITEMS = [
+      { id: 'cu', label: t('Copper wire'), bin: 'element', why: t('Copper contains only copper atoms.') },
+      { id: 'o2', label: t('Oxygen gas, {formula}', { formula: 'O<sub>2</sub>' }), bin: 'element', why: t('The molecules contain two atoms, but both are oxygen atoms. One type of atom means an element.') },
+      { id: 'dia', label: t('Diamond'), bin: 'element', why: t('Diamond contains only carbon atoms.') },
+      { id: 'h2o', label: t('Distilled water, {formula}', { formula: 'H<sub>2</sub>O' }), bin: 'compound', why: t('Hydrogen and oxygen atoms are chemically bonded in a fixed 2 : 1 ratio.') },
+      { id: 'nacl', label: t('Sodium chloride crystals, {formula}', { formula: 'NaCl' }), bin: 'compound', why: t('Sodium and chlorine are chemically bonded in a fixed 1 : 1 ratio.') },
+      { id: 'co2', label: t('Carbon dioxide, {formula}', { formula: 'CO<sub>2</sub>' }), bin: 'compound', why: t('Carbon and oxygen atoms are chemically bonded in a fixed 1 : 2 ratio.') },
+      { id: 'air', label: t('Clean, dry air'), bin: 'homo', why: t('Air is several gases (mainly nitrogen and oxygen) mixed evenly. The composition is the same throughout.') },
+      { id: 'salt', label: t('Salt dissolved in water'), bin: 'homo', why: t('A solution is a mixture with the same composition throughout. You cannot see separate parts.') },
+      { id: 'brass', label: t('Brass (copper and zinc)'), bin: 'homo', why: t('Brass is an alloy. The copper and zinc atoms are mixed evenly, and the ratio can vary, so it is a mixture and not a compound.') },
+      { id: 'sand', label: t('Sand stirred into water'), bin: 'hetero', why: t('You can see separate regions of sand and of water. The composition is not the same throughout.') },
+      { id: 'oil', label: t('Oil and water'), bin: 'hetero', why: t('The two liquids form separate layers. The composition is not the same throughout.') },
+      { id: 'granite', label: t('Granite rock'), bin: 'hetero', why: t('You can see grains of different minerals. The composition is not the same throughout.') }
+    ];
+    WRONG = {
+      'element>compound': t('Check the types of atom. A compound needs atoms of two or more different elements.'),
+      'element>homo': t('A mixture contains more than one substance. This is a single substance.'),
+      'element>hetero': t('A mixture contains more than one substance. This is a single substance.'),
+      'compound>element': t('An element has only one type of atom. Look at the formula: how many different elements are in it?'),
+      'compound>homo': t('The different atoms here are chemically bonded in a fixed ratio. In a mixture the parts are not bonded to each other and the ratio can vary.'),
+      'compound>hetero': t('The different atoms here are chemically bonded in a fixed ratio. That makes a single pure substance, not a mixture.'),
+      'homo>element': t('There is more than one substance here.'),
+      'homo>compound': t('The substances here are not chemically bonded to each other, and their ratio can vary. That makes a mixture.'),
+      'homo>hetero': t('It is a mixture, but can you see separate parts? If the composition is the same throughout, it is homogeneous.'),
+      'hetero>element': t('There is more than one substance here.'),
+      'hetero>compound': t('The substances here are not chemically bonded to each other, and their ratio can vary. That makes a mixture.'),
+      'hetero>homo': t('It is a mixture, but the parts are not evenly spread. You can see separate regions.')
+    };
+  }
+  sorterTables();
 
   S1.widgets.register('s1-1.sorter', function (w) {
+    sorterTables();
     var setDone = w.readoutItem(t('Sorted'));
     var setFirst = w.readoutItem(t('Right first time'));
     var box = h('div', { 'class': 'p11-sorter' });

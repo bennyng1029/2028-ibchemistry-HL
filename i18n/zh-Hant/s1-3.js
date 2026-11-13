@@ -563,7 +563,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "<b>Orbital diagram</b> (arrow-in-box diagram). Each orbital is a box and each electron is an arrow. Boxes for higher-energy sublevels are drawn higher up. This is the only notation that shows Hund’s rule and spin.": "<b>軌態圖 (orbital diagram)</b>，又稱箭嘴方格圖 (arrow-in-box diagram)。每個軌態畫成一個方格，每個電子畫成一個箭嘴。能量較高的亞層，方格畫得較高。只有這種表示法能顯示洪特規則和自旋。",
 
     // Writing electron configurations > widget > data-title attribute
-    "Electron configuration builder": "電子排佈砌圖工具",
+    "Electron configuration builder": "電子排佈建構工具",
 
     // Writing electron configurations > widget > figcaption
     "Choose any element up to krypton, then an atom or one of its common ions. In “Fill it yourself” mode, click a box to add an electron. If you break a rule, the builder names it and the electron is not placed. Try chromium and copper.": "選擇氪或之前的任何元素，然後選擇原子或它的一種常見離子。在「自己填」模式下，按方格可加入一個電子。如果你違反了規則，工具會指出是哪一條，而該電子不會放進去。試試鉻和銅。",
@@ -1342,7 +1342,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Successive ionization energies: quick check": "逐級電離能：快速小測",
 
     // Linking it up > h2
-    "Linking it up": "融會貫通",
+    "Linking it up": "連繫其他課題",
 
     // Linking it up > p
     "The syllabus asks questions that connect this topic to others. Here are short answers to four of them.": "課程大綱設有一些問題，把這個課題與其他課題連繫起來。以下是其中四個問題的簡短答案。",

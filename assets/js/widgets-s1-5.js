@@ -239,20 +239,26 @@
   /* ======================================================================
      2. Graph gallery + matching
      ====================================================================== */
-  var SHAPES = {
-    inv: { name: 'A', words: t('a curve that falls steeply at first and then levels off, never touching either axis') },
-    origin: { name: 'B', words: t('a straight line through the origin') },
-    offset: { name: 'C', words: t('a straight line that does not pass through the origin; extended back, it meets the horizontal axis at a negative value') },
-    flat: { name: 'D', words: t('a horizontal straight line') }
-  };
-  var GRAPHS = [
-    { id: 'pv', y: 'P', x: 'V', held: t('T and n constant'), shape: 'inv', why: t('P is inversely proportional to V. Doubling V halves P.') },
-    { id: 'pinv', y: 'P', x: '1/V', held: t('T and n constant'), shape: 'origin', why: t('P is directly proportional to 1/V, so this plot turns the curve into a straight line.') },
-    { id: 'vtk', y: 'V', x: 'T / K', held: t('P and n constant'), shape: 'origin', why: t('V is directly proportional to T in kelvin. Zero volume would be reached at 0 K.') },
-    { id: 'vtc', y: 'V', x: 'T / °C', held: t('P and n constant'), shape: 'offset', why: t('Still a straight line, but 0 °C is not zero on the kelvin scale. Extended back, the line reaches V = 0 at {T} °C.', { T: '−273.15' }) },
-    { id: 'ptk', y: 'P', x: 'T / K', held: t('V and n constant'), shape: 'origin', why: t('P is directly proportional to T in kelvin.') },
-    { id: 'pvp', y: 'PV', x: 'P', held: t('T and n constant'), shape: 'flat', why: t('PV = nRT. With n and T fixed, PV stays the same whatever the pressure.') }
-  ];
+  /* Built by a function, not at script load: t() must run while the chosen language is active.
+     Called once here (English) and again at the start of every widget init that uses the tables. */
+  var SHAPES, GRAPHS;
+  function graphTables() {
+    SHAPES = {
+      inv: { name: 'A', words: t('a curve that falls steeply at first and then levels off, never touching either axis') },
+      origin: { name: 'B', words: t('a straight line through the origin') },
+      offset: { name: 'C', words: t('a straight line that does not pass through the origin; extended back, it meets the horizontal axis at a negative value') },
+      flat: { name: 'D', words: t('a horizontal straight line') }
+    };
+    GRAPHS = [
+      { id: 'pv', y: 'P', x: 'V', held: t('T and n constant'), shape: 'inv', why: t('P is inversely proportional to V. Doubling V halves P.') },
+      { id: 'pinv', y: 'P', x: '1/V', held: t('T and n constant'), shape: 'origin', why: t('P is directly proportional to 1/V, so this plot turns the curve into a straight line.') },
+      { id: 'vtk', y: 'V', x: 'T / K', held: t('P and n constant'), shape: 'origin', why: t('V is directly proportional to T in kelvin. Zero volume would be reached at 0 K.') },
+      { id: 'vtc', y: 'V', x: 'T / °C', held: t('P and n constant'), shape: 'offset', why: t('Still a straight line, but 0 °C is not zero on the kelvin scale. Extended back, the line reaches V = 0 at {T} °C.', { T: '−273.15' }) },
+      { id: 'ptk', y: 'P', x: 'T / K', held: t('V and n constant'), shape: 'origin', why: t('P is directly proportional to T in kelvin.') },
+      { id: 'pvp', y: 'PV', x: 'P', held: t('T and n constant'), shape: 'flat', why: t('PV = nRT. With n and T fixed, PV stays the same whatever the pressure.') }
+    ];
+  }
+  graphTables();
   function sketch(shape, g) {
     var W = 180, H = 132, L = 30, B = 104, T = 14, Rr = 168;
     var s = '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="' + (g ? t('Sketch graph of {y} against {x}: {shape}', { y: g.y, x: g.x, shape: SHAPES[shape].words }) : t('Sketch graph: {shape}', { shape: SHAPES[shape].words })) + '" class="g5-svg">';
@@ -286,6 +292,7 @@
   }
 
   S1.widgets.register('s1-5.gallery', function (w) {
+    graphTables();
     var setResult = w.readoutItem(t('Matching exercise'), { text: true });
     var gallery = el('div', { class: 'g5-grid' });
     GRAPHS.forEach(function (g) {

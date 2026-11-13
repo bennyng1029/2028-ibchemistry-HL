@@ -659,297 +659,297 @@ S1.i18n.register('ja', 's1-4.q', {
     // ── s1-4-q027 · numeric · exam · SL · Structure 1.4.4 · 3 marks
     "s1-4-q027": {
       // EN: <p>7.15 <span class="unit">g</span> of hydrated sodium carbonate, <span class="chem">Na2CO3</span>·<i>x</i><span class="chem">H2O</span>, is heated to constant mass. The anhydrous <span class="chem">Na2CO3</span> left has a mass of 2.65 <span class="unit">g</span>.</p><p>Determine the whole-number value of <i>x</i>.</p><p><i>M</i>(<span class="chem">Na2CO3</span>) = 105.99 <span class="unit">g mol-1</span>, <i>M</i>(<span class="chem">H2O</span>) = 18.02 <span class="unit">g mol-1</span></p>
-      stem: "",
+      stem: "<p>炭酸ナトリウムの水和物 <span class=\"chem\">Na2CO3</span>·<i>x</i><span class=\"chem\">H2O</span> 7.15 <span class=\"unit\">g</span> を、質量が一定になるまで加熱します。残った無水の <span class=\"chem\">Na2CO3</span> の質量は 2.65 <span class=\"unit\">g</span> です。</p><p><i>x</i> の値を整数で求めなさい (determine)。</p><p><i>M</i>(<span class=\"chem\">Na2CO3</span>) = 105.99 <span class=\"unit\">g mol-1</span>, <i>M</i>(<span class=\"chem\">H2O</span>) = 18.02 <span class=\"unit\">g mol-1</span></p>",
       hints: [
         // EN: This is an empirical formula problem with two "building blocks": <span class="chem">Na2CO3</span> and <span class="chem">H2O</span>. The mass lost on heating is the mass of water.
-        "",
+        "これは、<span class=\"chem\">Na2CO3</span> と <span class=\"chem\">H2O</span> という 2 つの「部品」でできた組成式の問題です。加熱で減った質量が、水の質量です。",
         // EN: Find the amount of each with <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span>. Use 2.65 g for <span class="chem">Na2CO3</span> and the mass lost for <span class="chem">H2O</span>.
-        "",
+        "<span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>M</i></span> で、それぞれの物質量を求めます。<span class=\"chem\">Na2CO3</span> には 2.65 g を、<span class=\"chem\">H2O</span> には減った質量を使います。",
         // EN: <i>x</i> = <i>n</i>(<span class="chem">H2O</span>) ÷ <i>n</i>(<span class="chem">Na2CO3</span>).
-        "",
+        "<i>x</i> = <i>n</i>(<span class=\"chem\">H2O</span>) ÷ <i>n</i>(<span class=\"chem\">Na2CO3</span>) です。",
       ],
       // EN: <div class="worked__math"><i>m</i>(<span class="chem">H2O</span>) = 7.15 <span class="unit">g</span> − 2.65 <span class="unit">g</span><br>&nbsp;&nbsp;= 4.50 <span class="unit">g</span> &nbsp; (M1)</div><div class="worked__math"><i>n</i>(<span class="chem">Na2CO3</span>) = <span class="frac"><span>2.65 <span class="unit">g</span></span><span>105.99 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.02500 <span class="unit">mol</span></div><div class="worked__math"><i>n</i>(<span class="chem">H2O</span>) = <span class="frac"><span>4.50 <span class="unit">g</span></span><span>18.02 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.2497 <span class="unit">mol</span> &nbsp; (M2)</div><div class="worked__math"><i>x</i> = <span class="frac"><span>0.2497 <span class="unit">mol</span></span><span>0.02500 <span class="unit">mol</span></span></span><br>&nbsp;&nbsp;= 9.99 &nbsp; (M3)</div><p>To the nearest whole number, <strong><i>x</i> = 10</strong>.</p><p>Named slips: dividing the masses (4.50 ÷ 2.65 = 1.7) skips the conversion to moles. Using 7.15 g as the mass of <span class="chem">Na2CO3</span> gives 3.7, because 7.15 g still includes the water.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>m</i>(<span class=\"chem\">H2O</span>) = 7.15 <span class=\"unit\">g</span> − 2.65 <span class=\"unit\">g</span><br>&nbsp;&nbsp;= 4.50 <span class=\"unit\">g</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>n</i>(<span class=\"chem\">Na2CO3</span>) = <span class=\"frac\"><span>2.65 <span class=\"unit\">g</span></span><span>105.99 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.02500 <span class=\"unit\">mol</span></div><div class=\"worked__math\"><i>n</i>(<span class=\"chem\">H2O</span>) = <span class=\"frac\"><span>4.50 <span class=\"unit\">g</span></span><span>18.02 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.2497 <span class=\"unit\">mol</span> &nbsp; (M2)</div><div class=\"worked__math\"><i>x</i> = <span class=\"frac\"><span>0.2497 <span class=\"unit\">mol</span></span><span>0.02500 <span class=\"unit\">mol</span></span></span><br>&nbsp;&nbsp;= 9.99 &nbsp; (M3)</div><p>いちばん近い整数にすると、<strong><i>x</i> = 10</strong> です。</p><p>よくあるミス：質量どうしをわる（4.50 ÷ 2.65 = 1.7）と、モルに直すステップが抜けてしまいます。7.15 g を <span class=\"chem\">Na2CO3</span> の質量として使うと 3.7 になります。7.15 g には、まだ水が含まれているからです。</p>",
     },
 
     // ── s1-4-q028 · short · exam · SL · Structure 1.4.4 · 2 marks
     "s1-4-q028": {
       // EN: <p>A student heats a hydrated salt in a crucible to find the amount of water of crystallization. The method says: "heat to constant mass".</p><p>Describe what "heat to constant mass" means in practice, and explain why it is done.</p>
-      stem: "",
+      stem: "<p>ある生徒が、水和水 (water of crystallization) の物質量を調べるために、水和物をるつぼで加熱します。実験の手順には「質量が一定になるまで加熱する (heat to constant mass)」と書いてあります。</p><p>「質量が一定になるまで加熱する」とは、実際にはどうすることかを記述しなさい (describe)。また、そうする理由を説明しなさい (explain)。</p>",
       hints: [
         // EN: How can you tell, using only a balance, that nothing more is leaving the crucible?
-        "",
+        "電子てんびんだけを使って、るつぼからもう何も出ていかなくなったことを、どうやって確かめますか。",
         // EN: Think about what would happen to your value for the water if some water was still in the solid.
-        "",
+        "固体の中にまだ水が残っていたら、求めた水の量はどうなるかを考えましょう。",
       ],
       // EN: <p>One weighing cannot tell you whether water is still being lost. If the mass after a second heating is the same as after the first, no more water is leaving. If you stop too early, the mass lost is too small, so the calculated amount of water is too low.</p>
-      solution: "",
+      solution: "<p>質量を 1 回はかっただけでは、水がまだ出ている途中かどうかわかりません。2 回目の加熱のあとの質量が 1 回目のあとと同じなら、水はもう出ていません。早くやめすぎると、減った質量が小さすぎます。すると、計算した水の物質量も小さくなりすぎます。</p>",
       // EN: <p>Heat, cool and weigh the crucible, then repeat the heating and weighing until two weighings in a row give the same mass. This shows that all the water of crystallization has been removed, so the mass lost is the full mass of water.</p>
-      answer: "",
+      answer: "<p>るつぼを加熱し、冷まして、質量をはかる。加熱と測定をくり返し、2 回続けて同じ質量になるまで続ける。こうなれば水和水がすべて取り除かれたとわかるので、減った質量が水の質量全体になる。</p>",
       markscheme: [
         // EN: Heat, (cool,) weigh and repeat until the mass no longer changes / two consecutive readings are the same.
-        "",
+        "加熱し、（冷まして、）質量をはかる。これを、質量が変わらなくなるまで / 続けて同じ値になるまでくり返す。",
         // EN: To make sure that all of the water has been removed / the dehydration is complete. (Accept: otherwise the mass of water, and so the value of x, would be too low.)
-        "",
+        "水がすべて取り除かれたこと / 脱水が完了したことを確かめるため。（「そうしないと水の質量が小さくなり、x の値も小さくなりすぎる」も認める。）",
       ],
     },
 
     // ── s1-4-q029 · short · challenge · SL · Structure 1.4.4 · 4 marks
     "s1-4-q029": {
       // EN: <p>A colourless liquid contains only carbon, hydrogen and oxygen. Complete combustion of 1.35 <span class="unit">g</span> of the liquid gives 2.64 <span class="unit">g</span> of <span class="chem">CO2</span> and 1.35 <span class="unit">g</span> of <span class="chem">H2O</span>. Its molar mass is 90.14 <span class="unit">g mol-1</span>.</p><p>Determine the empirical formula and the molecular formula of the liquid. Show your working.</p><p><i>M</i>(<span class="chem">CO2</span>) = 44.01 <span class="unit">g mol-1</span>, <i>M</i>(<span class="chem">H2O</span>) = 18.02 <span class="unit">g mol-1</span>. <i>A</i><sub>r</sub>: C = 12.01, H = 1.01, O = 16.00.</p>
-      stem: "",
+      stem: "<p>ある無色の液体は、炭素、水素、酸素だけを含みます。この液体 1.35 <span class=\"unit\">g</span> を完全燃焼させると、<span class=\"chem\">CO2</span> が 2.64 <span class=\"unit\">g</span>、<span class=\"chem\">H2O</span> が 1.35 <span class=\"unit\">g</span> 生じます。この液体のモル質量は 90.14 <span class=\"unit\">g mol-1</span> です。</p><p>この液体の組成式 (empirical formula) と分子式 (molecular formula) を求めなさい (determine)。途中の計算も書きましょう。</p><p><i>M</i>(<span class=\"chem\">CO2</span>) = 44.01 <span class=\"unit\">g mol-1</span>、<i>M</i>(<span class=\"chem\">H2O</span>) = 18.02 <span class=\"unit\">g mol-1</span>。<i>A</i><sub>r</sub>：C = 12.01、H = 1.01、O = 16.00</p>",
       hints: [
         // EN: Split the task: first the empirical formula from the combustion data, then the molecular formula from the molar mass.
-        "",
+        "問題を 2 つに分けます。まず燃焼のデータから組成式を求めます。次に、モル質量から分子式を求めます。",
         // EN: <i>n</i>(C) = <i>n</i>(<span class="chem">CO2</span>), <i>n</i>(H) = 2 × <i>n</i>(<span class="chem">H2O</span>). Find the mass of O by difference.
-        "",
+        "<i>n</i>(C) = <i>n</i>(<span class=\"chem\">CO2</span>)、<i>n</i>(H) = 2 × <i>n</i>(<span class=\"chem\">H2O</span>) です。O の質量は引き算で求めます。",
         // EN: Compare the molar mass with the mass of one empirical formula unit. Multiply every subscript by the ratio.
-        "",
+        "モル質量を、組成式 1 つ分の質量とくらべます。その比を、すべての添え字にかけます。",
       ],
       // EN: <div class="worked__math"><i>n</i>(C) = <span class="frac"><span>2.64 <span class="unit">g</span></span><span>44.01 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.05999 <span class="unit">mol</span></div><div class="worked__math"><i>n</i>(H) = 2 × <span class="frac"><span>1.35 <span class="unit">g</span></span><span>18.02 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.1498 <span class="unit">mol</span> &nbsp; (M1)</div><div class="worked__math"><i>m</i>(C) = 0.05999 <span class="unit">mol</span> × 12.01 <span class="unit">g mol-1</span><br>&nbsp;&nbsp;= 0.7204 <span class="unit">g</span></div><div class="worked__math"><i>m</i>(H) = 0.1498 <span class="unit">mol</span> × 1.01 <span class="unit">g mol-1</span><br>&nbsp;&nbsp;= 0.1513 <span class="unit">g</span></div><div class="worked__math"><i>m</i>(O) = 1.35 <span class="unit">g</span> − 0.7204 <span class="unit">g</span> − 0.1513 <span class="unit">g</span><br>&nbsp;&nbsp;= 0.4782 <span class="unit">g</span></div><div class="worked__math"><i>n</i>(O) = <span class="frac"><span>0.4782 <span class="unit">g</span></span><span>16.00 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.02989 <span class="unit">mol</span> &nbsp; (M2)</div><p>Divide each amount by the smallest (0.02989 mol):</p><div class="worked__math">C : H : O = 2.01 : 5.01 : 1.00</div><p>Empirical formula: <strong><span class="chem">C2H5O</span></strong> (M3). Now compare its mass with the molar mass.</p><div class="worked__math"><i>M</i>(<span class="chem">C2H5O</span>) = (2 × 12.01) + (5 × 1.01)<br>&nbsp;&nbsp;&nbsp;&nbsp;+ 16.00<br>&nbsp;&nbsp;= 45.07 <span class="unit">g mol-1</span></div><div class="worked__math">Number of units = <span class="frac"><span>90.14 <span class="unit">g mol-1</span></span><span>45.07 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 2.00</div><p>Molecular formula = 2 × <span class="chem">C2H5O</span> = <strong><span class="chem">C4H10O2</span></strong> (M4).</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>n</i>(C) = <span class=\"frac\"><span>2.64 <span class=\"unit\">g</span></span><span>44.01 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.05999 <span class=\"unit\">mol</span></div><div class=\"worked__math\"><i>n</i>(H) = 2 × <span class=\"frac\"><span>1.35 <span class=\"unit\">g</span></span><span>18.02 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.1498 <span class=\"unit\">mol</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>m</i>(C) = 0.05999 <span class=\"unit\">mol</span> × 12.01 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= 0.7204 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>m</i>(H) = 0.1498 <span class=\"unit\">mol</span> × 1.01 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= 0.1513 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>m</i>(O) = 1.35 <span class=\"unit\">g</span> − 0.7204 <span class=\"unit\">g</span> − 0.1513 <span class=\"unit\">g</span><br>&nbsp;&nbsp;= 0.4782 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>n</i>(O) = <span class=\"frac\"><span>0.4782 <span class=\"unit\">g</span></span><span>16.00 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.02989 <span class=\"unit\">mol</span> &nbsp; (M2)</div><p>それぞれの物質量を、いちばん小さい値（0.02989 mol）でわります。</p><div class=\"worked__math\">C : H : O = 2.01 : 5.01 : 1.00</div><p>組成式：<strong><span class=\"chem\">C2H5O</span></strong> (M3)。次に、その質量をモル質量とくらべます。</p><div class=\"worked__math\"><i>M</i>(<span class=\"chem\">C2H5O</span>) = (2 × 12.01) + (5 × 1.01)<br>&nbsp;&nbsp;&nbsp;&nbsp;+ 16.00<br>&nbsp;&nbsp;= 45.07 <span class=\"unit\">g mol-1</span></div><div class=\"worked__math\">組成式いくつ分か = <span class=\"frac\"><span>90.14 <span class=\"unit\">g mol-1</span></span><span>45.07 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 2.00</div><p>分子式 = 2 × <span class=\"chem\">C2H5O</span> = <strong><span class=\"chem\">C4H10O2</span></strong> (M4)。</p>",
       // EN: <p><i>n</i>(C) = 2.64 ÷ 44.01 = 0.0600 mol; <i>n</i>(H) = 2 × (1.35 ÷ 18.02) = 0.150 mol.</p><p><i>m</i>(O) = 1.35 − (0.0600 × 12.01) − (0.150 × 1.01) = 0.478 g; <i>n</i>(O) = 0.0299 mol.</p><p>C : H : O = 2 : 5 : 1, so the empirical formula is <span class="chem">C2H5O</span> (mass 45.07). 90.14 ÷ 45.07 = 2, so the molecular formula is <span class="chem">C4H10O2</span>.</p>
-      answer: "",
+      answer: "<p><i>n</i>(C) = 2.64 ÷ 44.01 = 0.0600 mol、<i>n</i>(H) = 2 × (1.35 ÷ 18.02) = 0.150 mol。</p><p><i>m</i>(O) = 1.35 − (0.0600 × 12.01) − (0.150 × 1.01) = 0.478 g、<i>n</i>(O) = 0.0299 mol。</p><p>C : H : O = 2 : 5 : 1 なので、組成式は <span class=\"chem\">C2H5O</span>（質量 45.07）。90.14 ÷ 45.07 = 2 なので、分子式は <span class=\"chem\">C4H10O2</span>。</p>",
       markscheme: [
         // EN: M1: n(C) = 0.0600 mol AND n(H) = 0.150 mol. (Accept masses: 0.720 g of C and 0.151 g of H.)
-        "",
+        "M1：n(C) = 0.0600 mol かつ n(H) = 0.150 mol。（質量でも認める：C が 0.720 g、H が 0.151 g。）",
         // EN: M2: mass of O by difference = 0.478 g, OR n(O) = 0.0299 mol.
-        "",
+        "M2：引き算で求めた O の質量 = 0.478 g、または n(O) = 0.0299 mol。",
         // EN: M3: empirical formula C₂H₅O.
-        "",
+        "M3：組成式 C₂H₅O。",
         // EN: M4: 90.14 ÷ 45.07 = 2, so molecular formula C₄H₁₀O₂. (Allow error carried forward from your empirical formula.)
-        "",
+        "M4：90.14 ÷ 45.07 = 2 なので、分子式は C₄H₁₀O₂。（自分の組成式のまちがいを引き継いだ答え (error carried forward) も認める。）",
       ],
     },
 
     // ── s1-4-q030 · mcq · challenge · SL · Structure 1.4.4 · 1 mark
     "s1-4-q030": {
       // EN: <p>An oxide of iron contains 72.4 % iron and 27.6 % oxygen by mass. A student works out its empirical formula.</p><ol><li>Fe: 72.4 ÷ 55.85 = 1.296 &nbsp; O: 27.6 ÷ 16.00 = 1.725</li><li>Divide by the smallest: Fe 1.296 ÷ 1.296 = 1.00 &nbsp; O 1.725 ÷ 1.296 = 1.33</li><li>Round to whole numbers: Fe = 1, O = 1</li><li>Empirical formula: <span class="chem">FeO</span></li></ol><p>Which statement about this working is correct?</p>
-      stem: "",
+      stem: "<p>鉄のある酸化物は、質量で 72.4 % の鉄と 27.6 % の酸素を含みます。ある生徒が、次のように組成式を求めました。</p><ol><li>Fe: 72.4 ÷ 55.85 = 1.296 &nbsp; O: 27.6 ÷ 16.00 = 1.725</li><li>最小の値でわる： Fe 1.296 ÷ 1.296 = 1.00 &nbsp; O 1.725 ÷ 1.296 = 1.33</li><li>整数に丸める： Fe = 1, O = 1</li><li>組成式： <span class=\"chem\">FeO</span></li></ol><p>この計算について正しい文はどれですか。</p>",
       options: [
         // EN: Line 1 is wrong: the percentages should be divided by the atomic numbers.
-        "",
+        "1 行目がまちがい：百分率は原子番号でわるべきである。",
         // EN: Line 2 is wrong: the student should divide by the largest value.
-        "",
+        "2 行目がまちがい：いちばん大きい値でわるべきである。",
         // EN: Line 3 is wrong: 1.33 is too far from a whole number to round.
-        "",
+        "3 行目がまちがい：1.33 は整数から遠すぎて、丸められない。",
         // EN: The working is correct and the formula is <span class="chem">FeO</span>.
-        "",
+        "計算は正しく、組成式は <span class=\"chem\">FeO</span> である。",
       ],
       hints: [
         // EN: Only round when a value is very close to a whole number (for example 1.98 or 3.02).
-        "",
+        "丸めてよいのは、値が整数にとても近いときだけです（たとえば 1.98 や 3.02）。",
         // EN: 1.33 is a recognizable fraction: 1⅓. What can you multiply by to clear a third?
-        "",
+        "1.33 は見覚えのある分数、1⅓ です。何をかければ、3 分の 1 の端数をなくせますか。",
       ],
       // EN: <p>Lines 1 and 2 are correct. The error is in line 3. A ratio of 1 : 1.33 must be multiplied up, not rounded.</p><div class="worked__math">Fe : O = 1.00 : 1.33</div><div class="worked__math">× 3: Fe : O = 3.00 : 3.99 ≈ 3 : 4</div><p>The empirical formula is <strong><span class="chem">Fe3O4</span></strong>. Look out for .5 (× 2), .33 or .67 (× 3) and .25 or .75 (× 4).</p>
-      solution: "",
+      solution: "<p>1 行目と 2 行目は正しいです。まちがいは 3 行目にあります。1 : 1.33 という比は、丸めるのではなく、整数になるまで何倍かします。</p><div class=\"worked__math\">Fe : O = 1.00 : 1.33</div><div class=\"worked__math\">× 3: Fe : O = 3.00 : 3.99 ≈ 3 : 4</div><p>組成式は <strong><span class=\"chem\">Fe3O4</span></strong> です。.5（× 2）、.33 や .67（× 3）、.25 や .75（× 4）が出てきたら、丸めずにかけ算をしましょう。</p>",
       misconception: {
         // EN (option A): Dividing by <i>A</i><sub>r</sub> is right. It converts mass into amount in moles. Atomic number counts protons and is not used here.
-        "0": "",
+        "0": "<i>A</i><sub>r</sub> でわるのは正しいです。質量をモル単位の物質量に直せます。原子番号は陽子の数で、ここでは使いません。",
         // EN (option B): Dividing by the smallest value is the standard method. It sets the smallest amount to 1 so that the other values are easy to compare.
-        "1": "",
+        "1": "いちばん小さい値でわるのが、決まったやり方です。最小の物質量が 1 になるので、ほかの値とくらべやすくなります。",
         // EN (option D): Check the last step. 1.33 is one and a third, not about 1. <span class="chem">FeO</span> would contain 77.7 % iron, which does not match the data.
-        "3": "",
+        "3": "最後のステップを確かめましょう。1.33 は「1 と 3 分の 1」で、約 1 ではありません。<span class=\"chem\">FeO</span> なら鉄は 77.7 % になり、データと合いません。",
       },
     },
 
     // ── s1-4-q031 · numeric · challenge · SL · Structure 1.4.4 · 3 marks
     "s1-4-q031": {
       // EN: <p>A metal M forms a chloride with the formula <span class="chem">MCl2</span>. The chloride contains 74.47 % chlorine by mass.</p><p>Calculate the relative atomic mass of M. Give your answer to 3 significant figures.</p><p><i>A</i><sub>r</sub>(Cl) = 35.45</p>
-      stem: "",
+      stem: "<p>金属 M は、化学式 <span class=\"chem\">MCl2</span> の塩化物をつくります。この塩化物は、質量で 74.47 % の塩素を含みます。</p><p>M の相対原子質量を計算しなさい (calculate)。有効数字 3 桁で答えましょう。</p><p><i>A</i><sub>r</sub>(Cl) = 35.45</p>",
       hints: [
         // EN: This is percentage composition in reverse. You know the formula and the percentage, and you want a molar mass.
-        "",
+        "質量百分率組成の計算を、逆向きにたどる問題です。化学式と百分率がわかっていて、モル質量を求めます。",
         // EN: In one mole of <span class="chem">MCl2</span> there are 2 × 35.45 = 70.90 g of chlorine. That 70.90 g is 74.47 % of the molar mass.
-        "",
+        "<span class=\"chem\">MCl2</span> 1 モルには、塩素が 2 × 35.45 = 70.90 g 含まれます。この 70.90 g が、モル質量の 74.47 % にあたります。",
         // EN: Molar mass = 70.90 ÷ 0.7447. Then subtract the chlorine to leave M.
-        "",
+        "モル質量 = 70.90 ÷ 0.7447 です。そこから塩素の分を引くと、M の分が残ります。",
       ],
       // EN: <p>One mole of <span class="chem">MCl2</span> contains 2 mol of Cl.</p><div class="worked__math"><i>m</i>(Cl) = 2 × 35.45 <span class="unit">g</span><br>&nbsp;&nbsp;= 70.90 <span class="unit">g</span> &nbsp; (M1)</div><div class="worked__math"><i>M</i>(<span class="chem">MCl2</span>) = <span class="frac"><span>70.90 <span class="unit">g mol-1</span></span><span>0.7447</span></span><br>&nbsp;&nbsp;= 95.21 <span class="unit">g mol-1</span> &nbsp; (M2)</div><div class="worked__math"><i>A</i><sub>r</sub>(M) = 95.21 − 70.90<br>&nbsp;&nbsp;= 24.31<br>&nbsp;&nbsp;= <strong>24.3</strong> (no units) &nbsp; (M3)</div><p>The data booklet value for magnesium is 24.31, so M is magnesium. Named slips: 12.2 means you used one Cl instead of two. 95.2 means you did not subtract the chlorine.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">MCl2</span> 1 モルには、Cl が 2 mol 含まれます。</p><div class=\"worked__math\"><i>m</i>(Cl) = 2 × 35.45 <span class=\"unit\">g</span><br>&nbsp;&nbsp;= 70.90 <span class=\"unit\">g</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>M</i>(<span class=\"chem\">MCl2</span>) = <span class=\"frac\"><span>70.90 <span class=\"unit\">g mol-1</span></span><span>0.7447</span></span><br>&nbsp;&nbsp;= 95.21 <span class=\"unit\">g mol-1</span> &nbsp; (M2)</div><div class=\"worked__math\"><i>A</i><sub>r</sub>(M) = 95.21 − 70.90<br>&nbsp;&nbsp;= 24.31<br>&nbsp;&nbsp;= <strong>24.3</strong> （単位なし） &nbsp; (M3)</div><p>データブックレットでは、マグネシウムの値が 24.31 です。だから M はマグネシウムです。よくあるミス：12.2 は、Cl を 2 個ではなく 1 個で計算したときの値です。95.2 は、塩素の分を引かなかったときの値です。</p>",
     },
 
     // ── s1-4-q032 · mcq · challenge · SL · Structure 1.4.4 · 1 mark
     "s1-4-q032": {
       // EN: <p>0.920 <span class="unit">g</span> of a compound of carbon, hydrogen and oxygen burns completely to give 1.76 <span class="unit">g</span> of <span class="chem">CO2</span> and 1.08 <span class="unit">g</span> of <span class="chem">H2O</span>. A student starts to find the empirical formula.</p><ol><li><i>n</i>(C) = <i>n</i>(<span class="chem">CO2</span>) = 1.76 ÷ 44.01 = 0.0400 <span class="unit">mol</span></li><li><i>n</i>(H) = <i>n</i>(<span class="chem">H2O</span>) = 1.08 ÷ 18.02 = 0.0599 <span class="unit">mol</span></li><li><i>m</i>(O) = 0.920 − (0.0400 × 12.01) − (0.0599 × 1.01) = 0.379 <span class="unit">g</span></li><li><i>n</i>(O) = 0.379 ÷ 16.00 = 0.0237 <span class="unit">mol</span></li></ol><p>Which line contains the first error?</p>
-      stem: "",
+      stem: "<p>炭素、水素、酸素からなる化合物 0.920 <span class=\"unit\">g</span> を完全燃焼させると、<span class=\"chem\">CO2</span> が 1.76 <span class=\"unit\">g</span>、<span class=\"chem\">H2O</span> が 1.08 <span class=\"unit\">g</span> 生じます。ある生徒が、組成式を求め始めました。</p><ol><li><i>n</i>(C) = <i>n</i>(<span class=\"chem\">CO2</span>) = 1.76 ÷ 44.01 = 0.0400 <span class=\"unit\">mol</span></li><li><i>n</i>(H) = <i>n</i>(<span class=\"chem\">H2O</span>) = 1.08 ÷ 18.02 = 0.0599 <span class=\"unit\">mol</span></li><li><i>m</i>(O) = 0.920 − (0.0400 × 12.01) − (0.0599 × 1.01) = 0.379 <span class=\"unit\">g</span></li><li><i>n</i>(O) = 0.379 ÷ 16.00 = 0.0237 <span class=\"unit\">mol</span></li></ol><p>最初のまちがいがあるのは何行目ですか。</p>",
       options: [
         // EN: Line 1
-        "",
+        "1 行目",
         // EN: Line 2
-        "",
+        "2 行目",
         // EN: Line 3
-        "",
+        "3 行目",
         // EN: Line 4
-        "",
+        "4 行目",
       ],
       hints: [
         // EN: Check each "<i>n</i>(element) = <i>n</i>(product)" step against the formula of the product.
-        "",
+        "「<i>n</i>(元素) = <i>n</i>(生成物)」のステップを、生成物の化学式と 1 つずつ照らし合わせましょう。",
         // EN: How many hydrogen atoms are in one molecule of <span class="chem">H2O</span>?
-        "",
+        "<span class=\"chem\">H2O</span> 1 分子には、水素原子が何個ありますか。",
       ],
       // EN: <p>The first error is in line 2. Each <span class="chem">H2O</span> molecule contains 2 hydrogen atoms.</p><div class="worked__math"><i>n</i>(H) = 2 × <i>n</i>(<span class="chem">H2O</span>)<br>&nbsp;&nbsp;= 2 × 0.0599 <span class="unit">mol</span><br>&nbsp;&nbsp;= 0.120 <span class="unit">mol</span></div><div class="worked__math"><i>m</i>(C) = 0.0400 <span class="unit">mol</span> × 12.01 <span class="unit">g mol-1</span><br>&nbsp;&nbsp;= 0.480 <span class="unit">g</span></div><div class="worked__math"><i>m</i>(H) = 0.120 <span class="unit">mol</span> × 1.01 <span class="unit">g mol-1</span><br>&nbsp;&nbsp;= 0.121 <span class="unit">g</span></div><div class="worked__math"><i>m</i>(O) = 0.920 <span class="unit">g</span> − 0.480 <span class="unit">g</span> − 0.121 <span class="unit">g</span><br>&nbsp;&nbsp;= 0.319 <span class="unit">g</span></div><div class="worked__math"><i>n</i>(O) = <span class="frac"><span>0.319 <span class="unit">g</span></span><span>16.00 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0199 <span class="unit">mol</span></div><div class="worked__math">C : H : O = 0.0400 : 0.120 : 0.0199<br>&nbsp;&nbsp;= 2 : 6 : 1</div><p>The correct empirical formula is <span class="chem">C2H6O</span>. In an exam, lines 3 and 4 would still earn credit as "error carried forward", which is why showing working matters.</p>
-      solution: "",
+      solution: "<p>最初のまちがいは 2 行目です。<span class=\"chem\">H2O</span> 1 分子には、水素原子が 2 個あります。</p><div class=\"worked__math\"><i>n</i>(H) = 2 × <i>n</i>(<span class=\"chem\">H2O</span>)<br>&nbsp;&nbsp;= 2 × 0.0599 <span class=\"unit\">mol</span><br>&nbsp;&nbsp;= 0.120 <span class=\"unit\">mol</span></div><div class=\"worked__math\"><i>m</i>(C) = 0.0400 <span class=\"unit\">mol</span> × 12.01 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= 0.480 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>m</i>(H) = 0.120 <span class=\"unit\">mol</span> × 1.01 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= 0.121 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>m</i>(O) = 0.920 <span class=\"unit\">g</span> − 0.480 <span class=\"unit\">g</span> − 0.121 <span class=\"unit\">g</span><br>&nbsp;&nbsp;= 0.319 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>n</i>(O) = <span class=\"frac\"><span>0.319 <span class=\"unit\">g</span></span><span>16.00 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0199 <span class=\"unit\">mol</span></div><div class=\"worked__math\">C : H : O = 0.0400 : 0.120 : 0.0199<br>&nbsp;&nbsp;= 2 : 6 : 1</div><p>正しい組成式は <span class=\"chem\">C2H6O</span> です。試験では、3 行目と 4 行目にも「誤りの持ち越し (error carried forward)」として点がもらえます。途中の計算を書くことが大切なのは、このためです。</p>",
       misconception: {
         // EN (option A): Line 1 is correct. Each <span class="chem">CO2</span> molecule contains one carbon atom, so <i>n</i>(C) = <i>n</i>(<span class="chem">CO2</span>).
-        "0": "",
+        "0": "1 行目は正しいです。<span class=\"chem\">CO2</span> 1 分子には炭素原子が 1 個あるので、<i>n</i>(C) = <i>n</i>(<span class=\"chem\">CO2</span>) です。",
         // EN (option C): The method in line 3 is correct: oxygen is found by difference. Its value is wrong only because it uses a wrong number from an earlier line. Find where that number came from.
-        "2": "",
+        "2": "3 行目のやり方は正しいです。酸素は引き算で求めます。値がまちがっているのは、前の行のまちがった数を使ったからです。その数がどこから来たのかを探しましょう。",
         // EN (option D): The method in line 4 is correct: <i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub> with 16.00 for oxygen atoms. The wrong value was carried forward from an earlier line.
-        "3": "",
+        "3": "4 行目のやり方は正しいです。酸素原子なので 16.00 を使い、<i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub> で計算しています。まちがった値は、前の行から引き継がれたものです。",
       },
     },
 
     // ── s1-4-q033 · numeric · foundation · SL · Structure 1.4.5 · 1 mark
     "s1-4-q033": {
       // EN: <p>0.0500 <span class="unit">mol</span> of sodium chloride is dissolved in water and the solution is made up to 250 <span class="unit">cm3</span>.</p><p>Calculate the concentration of the solution, in <span class="unit">mol dm-3</span>. Give your answer to 3 significant figures.</p>
-      stem: "",
+      stem: "<p>0.0500 <span class=\"unit\">mol</span> の塩化ナトリウム (sodium chloride) を水に溶かし、水を加えて溶液全体を 250 <span class=\"unit\">cm3</span> にします。</p><p>この溶液の濃度を <span class=\"unit\">mol dm-3</span> 単位で計算しなさい (calculate)。有効数字 3 桁で答えましょう。</p>",
       hints: [
         // EN: The data booklet gives <span class="mono"><i>n</i> = <i>C</i><i>V</i></span>. Rearranged: <span class="mono"><i>C</i> = <i>n</i> ÷ <i>V</i></span>.
-        "",
+        "データブックレットに <span class=\"mono\"><i>n</i> = <i>C</i><i>V</i></span> があります。変形すると <span class=\"mono\"><i>C</i> = <i>n</i> ÷ <i>V</i></span> です。",
         // EN: The volume must be in <span class="unit">dm3</span>. To convert <span class="unit">cm3</span> to <span class="unit">dm3</span>, divide by 1000: 250 <span class="unit">cm3</span> = 0.250 <span class="unit">dm3</span>.
-        "",
+        "体積は <span class=\"unit\">dm3</span> 単位にします。<span class=\"unit\">cm3</span> を <span class=\"unit\">dm3</span> に直すには、1000 でわります。250 <span class=\"unit\">cm3</span> = 0.250 <span class=\"unit\">dm3</span> です。",
       ],
       // EN: <div class="worked__math"><i>V</i> = 250 <span class="unit">cm3</span> ÷ 1000 = 0.250 <span class="unit">dm3</span></div><div class="worked__math"><i>C</i> = <span class="frac"><span><i>n</i></span><span><i>V</i></span></span> = <span class="frac"><span>0.0500 <span class="unit">mol</span></span><span>0.250 <span class="unit">dm3</span></span></span></div><div class="worked__math"><i>C</i> = <strong>0.200 <span class="unit">mol dm-3</span></strong></div><p>Named slips: 0.000200 means you left the volume in <span class="unit">cm3</span>. 0.0125 means you multiplied by the volume instead of dividing.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>V</i> = 250 <span class=\"unit\">cm3</span> ÷ 1000 = 0.250 <span class=\"unit\">dm3</span></div><div class=\"worked__math\"><i>C</i> = <span class=\"frac\"><span><i>n</i></span><span><i>V</i></span></span> = <span class=\"frac\"><span>0.0500 <span class=\"unit\">mol</span></span><span>0.250 <span class=\"unit\">dm3</span></span></span></div><div class=\"worked__math\"><i>C</i> = <strong>0.200 <span class=\"unit\">mol dm-3</span></strong></div><p>よくあるミス：0.000200 は、体積を <span class=\"unit\">cm3</span> のままにしたときの値です。0.0125 は、体積でわるところで、かけてしまったときの値です。</p>",
     },
 
     // ── s1-4-q034 · mcq · foundation · SL · Structure 1.4.5 · 1 mark
     "s1-4-q034": {
       // EN: <p>A bottle is labelled <span class="mono">[NaOH] = 0.10</span>. What do the square brackets tell you?</p>
-      stem: "",
+      stem: "<p>びんのラベルに <span class=\"mono\">[NaOH] = 0.10</span> と書いてあります。角かっこは何を表していますか。</p>",
       options: [
         // EN: The bottle contains 0.10 <span class="unit">mol</span> of <span class="chem">NaOH</span>.
-        "",
+        "びんの中に <span class=\"chem\">NaOH</span> が 0.10 <span class=\"unit\">mol</span> 入っている。",
         // EN: The solution contains 0.10 <span class="unit">g</span> of <span class="chem">NaOH</span> in each <span class="unit">dm3</span> of solution.
-        "",
+        "溶液 1 <span class=\"unit\">dm3</span> あたりに <span class=\"chem\">NaOH</span> が 0.10 <span class=\"unit\">g</span> 含まれる。",
         // EN: The solution contains 0.10 <span class="unit">mol</span> of <span class="chem">NaOH</span> in each <span class="unit">dm3</span> of solution.
-        "",
+        "溶液 1 <span class=\"unit\">dm3</span> あたりに <span class=\"chem\">NaOH</span> が 0.10 <span class=\"unit\">mol</span> 含まれる。",
         // EN: 0.10 <span class="unit">mol</span> of <span class="chem">NaOH</span> was added to exactly 1 <span class="unit">dm3</span> of water.
-        "",
+        "ちょうど 1 <span class=\"unit\">dm3</span> の水に、<span class=\"chem\">NaOH</span> を 0.10 <span class=\"unit\">mol</span> 加えた。",
       ],
       hints: [
         // EN: Square brackets around a formula mean "molar concentration of".
-        "",
+        "化学式を角かっこで囲むと、「〜のモル濃度」という意味になります。",
         // EN: Molar concentration = amount of solute ÷ volume of <em>solution</em>.
-        "",
+        "モル濃度 = 溶質の物質量 ÷ <em>溶液</em>の体積。",
       ],
       // EN: <p>[NaOH] means the molar concentration of sodium hydroxide, in <span class="unit">mol dm-3</span>. So there is 0.10 mol of <span class="chem">NaOH</span> in each <span class="unit">dm3</span> of solution.</p>
-      solution: "",
+      solution: "<p>[NaOH] は、水酸化ナトリウム (sodium hydroxide) のモル濃度を <span class=\"unit\">mol dm-3</span> 単位で表したものです。だから、溶液 1 <span class=\"unit\">dm3</span> あたりに <span class=\"chem\">NaOH</span> が 0.10 mol 含まれます。</p>",
       misconception: {
         // EN (option A): Square brackets show a concentration, not an amount. The amount in the bottle also depends on the volume of solution.
-        "0": "",
+        "0": "角かっこが表すのは濃度で、物質量ではありません。びんの中の物質量は、溶液の体積によっても変わります。",
         // EN (option B): Square brackets mean <em>molar</em> concentration, in <span class="unit">mol dm-3</span>. A mass concentration in <span class="unit">g dm-3</span> is written without square brackets.
-        "1": "",
+        "1": "角かっこは<em>モル</em>濃度を表し、単位は <span class=\"unit\">mol dm-3</span> です。<span class=\"unit\">g dm-3</span> 単位の質量濃度は、角かっこを使わずに書きます。",
         // EN (option D): Concentration is defined by the volume of the final <em>solution</em>, not the volume of water added. Adding solute to 1 <span class="unit">dm3</span> of water does not give exactly 1 <span class="unit">dm3</span> of solution.
-        "3": "",
+        "3": "濃度は、加えた水の体積ではなく、できあがった<em>溶液</em>の体積で決まります。1 <span class=\"unit\">dm3</span> の水に溶質を加えても、溶液はちょうど 1 <span class=\"unit\">dm3</span> にはなりません。",
       },
     },
 
     // ── s1-4-q035 · numeric · foundation · SL · Structure 1.4.5 · 1 mark
     "s1-4-q035": {
       // EN: <p>Calculate the amount, in <span class="unit">mol</span>, of <span class="chem">HCl</span> in 25.0 <span class="unit">cm3</span> of 0.120 <span class="unit">mol dm-3</span> hydrochloric acid. Give your answer to 3 significant figures.</p>
-      stem: "",
+      stem: "<p>0.120 <span class=\"unit\">mol dm-3</span> の塩酸 (hydrochloric acid) 25.0 <span class=\"unit\">cm3</span> に含まれる <span class=\"chem\">HCl</span> の物質量を <span class=\"unit\">mol</span> 単位で計算しなさい (calculate)。有効数字 3 桁で答えましょう。</p>",
       hints: [
         // EN: Use <span class="mono"><i>n</i> = <i>C</i><i>V</i></span> from the data booklet.
-        "",
+        "データブックレットの <span class=\"mono\"><i>n</i> = <i>C</i><i>V</i></span> を使います。",
         // EN: Convert the volume first: 25.0 <span class="unit">cm3</span> ÷ 1000 = 0.0250 <span class="unit">dm3</span>.
-        "",
+        "先に体積を換算します。25.0 <span class=\"unit\">cm3</span> ÷ 1000 = 0.0250 <span class=\"unit\">dm3</span> です。",
       ],
       // EN: <div class="worked__math"><i>V</i> = 25.0 <span class="unit">cm3</span> ÷ 1000<br>&nbsp;&nbsp;= 0.0250 <span class="unit">dm3</span></div><div class="worked__math"><i>n</i> = <i>C</i><i>V</i><br>&nbsp;&nbsp;= 0.120 <span class="unit">mol dm-3</span> × 0.0250 <span class="unit">dm3</span></div><div class="worked__math"><i>n</i> = 0.00300 <span class="unit">mol</span><br>&nbsp;&nbsp;= <strong>3.00 × 10<sup>−3</sup> <span class="unit">mol</span></strong></div><p>Named slip: 3.00 mol means you did not convert <span class="unit">cm3</span> to <span class="unit">dm3</span>. A small flask of dilute acid cannot hold 3 mol of HCl.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>V</i> = 25.0 <span class=\"unit\">cm3</span> ÷ 1000<br>&nbsp;&nbsp;= 0.0250 <span class=\"unit\">dm3</span></div><div class=\"worked__math\"><i>n</i> = <i>C</i><i>V</i><br>&nbsp;&nbsp;= 0.120 <span class=\"unit\">mol dm-3</span> × 0.0250 <span class=\"unit\">dm3</span></div><div class=\"worked__math\"><i>n</i> = 0.00300 <span class=\"unit\">mol</span><br>&nbsp;&nbsp;= <strong>3.00 × 10<sup>−3</sup> <span class=\"unit\">mol</span></strong></div><p>よくあるミス：3.00 mol は、<span class=\"unit\">cm3</span> を <span class=\"unit\">dm3</span> に直さなかったときの値です。小さなフラスコに入ったうすい酸に、HCl が 3 mol も入っていることはありません。</p>",
     },
 
     // ── s1-4-q036 · numeric · exam · SL · Structure 1.4.5 · 2 marks
     "s1-4-q036": {
       // EN: <p>A student needs 100.0 <span class="unit">cm3</span> of a 0.2000 <span class="unit">mol dm-3</span> standard solution of sodium carbonate, <span class="chem">Na2CO3</span>.</p><p>Calculate the mass of anhydrous sodium carbonate needed, in <span class="unit">g</span>. Give your answer to 4 significant figures.</p><p><i>M</i>(<span class="chem">Na2CO3</span>) = 105.99 <span class="unit">g mol-1</span></p>
-      stem: "",
+      stem: "<p>ある生徒が、0.2000 <span class=\"unit\">mol dm-3</span> の炭酸ナトリウム (sodium carbonate) <span class=\"chem\">Na2CO3</span> の標準溶液 (standard solution) を 100.0 <span class=\"unit\">cm3</span> つくります。</p><p>必要な無水炭酸ナトリウムの質量を <span class=\"unit\">g</span> 単位で計算しなさい (calculate)。有効数字 4 桁で答えましょう。</p><p><i>M</i>(<span class=\"chem\">Na2CO3</span>) = 105.99 <span class=\"unit\">g mol-1</span></p>",
       hints: [
         // EN: Two relationships, one after the other: <span class="mono"><i>n</i> = <i>C</i><i>V</i></span>, then <span class="mono"><i>m</i> = <i>n</i> × <i>M</i></span>.
-        "",
+        "関係式を 2 つ、順番に使います。まず <span class=\"mono\"><i>n</i> = <i>C</i><i>V</i></span>、次に <span class=\"mono\"><i>m</i> = <i>n</i> × <i>M</i></span> です。",
         // EN: Convert the volume: 100.0 <span class="unit">cm3</span> = 0.1000 <span class="unit">dm3</span>.
-        "",
+        "体積を換算します。100.0 <span class=\"unit\">cm3</span> = 0.1000 <span class=\"unit\">dm3</span> です。",
         // EN: The data have 4 significant figures, so give 4 in your answer.
-        "",
+        "データは有効数字 4 桁なので、答えも 4 桁にします。",
       ],
       // EN: <div class="worked__math"><i>V</i> = 100.0 <span class="unit">cm3</span> ÷ 1000<br>&nbsp;&nbsp;= 0.1000 <span class="unit">dm3</span></div><div class="worked__math"><i>n</i> = <i>C</i><i>V</i><br>&nbsp;&nbsp;= 0.2000 <span class="unit">mol dm-3</span> × 0.1000 <span class="unit">dm3</span><br>&nbsp;&nbsp;= 0.02000 <span class="unit">mol</span> &nbsp; (M1)</div><div class="worked__math"><i>m</i> = <i>n</i> × <i>M</i><br>&nbsp;&nbsp;= 0.02000 <span class="unit">mol</span> × 105.99 <span class="unit">g mol-1</span><br>&nbsp;&nbsp;= 2.1198 <span class="unit">g</span><br>&nbsp;&nbsp;= <strong>2.120 <span class="unit">g</span></strong> &nbsp; (M2)</div><p>Named slips: 21.20 g is the mass for a whole <span class="unit">dm3</span> (volume not used). 2120 g means the volume was left in <span class="unit">cm3</span>.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>V</i> = 100.0 <span class=\"unit\">cm3</span> ÷ 1000<br>&nbsp;&nbsp;= 0.1000 <span class=\"unit\">dm3</span></div><div class=\"worked__math\"><i>n</i> = <i>C</i><i>V</i><br>&nbsp;&nbsp;= 0.2000 <span class=\"unit\">mol dm-3</span> × 0.1000 <span class=\"unit\">dm3</span><br>&nbsp;&nbsp;= 0.02000 <span class=\"unit\">mol</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>m</i> = <i>n</i> × <i>M</i><br>&nbsp;&nbsp;= 0.02000 <span class=\"unit\">mol</span> × 105.99 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= 2.1198 <span class=\"unit\">g</span><br>&nbsp;&nbsp;= <strong>2.120 <span class=\"unit\">g</span></strong> &nbsp; (M2)</div><p>よくあるミス：21.20 g は、溶液がまるごと 1 <span class=\"unit\">dm3</span> あるときの質量です（体積を使っていない）。2120 g は、体積を <span class=\"unit\">cm3</span> のままにしたときの値です。</p>",
     },
 
     // ── s1-4-q037 · numeric · exam · SL · Structure 1.4.5 · 1 mark
     "s1-4-q037": {
       // EN: <p>A solution of hydrochloric acid has a concentration of 7.30 <span class="unit">g dm-3</span>.</p><p>Calculate its concentration in <span class="unit">mol dm-3</span>. Give your answer to 3 significant figures.</p><p><i>M</i>(<span class="chem">HCl</span>) = 36.46 <span class="unit">g mol-1</span></p>
-      stem: "",
+      stem: "<p>ある塩酸 (hydrochloric acid) の濃度は 7.30 <span class=\"unit\">g dm-3</span> です。</p><p>この濃度を <span class=\"unit\">mol dm-3</span> 単位で計算しなさい (calculate)。有効数字 3 桁で答えましょう。</p><p><i>M</i>(<span class=\"chem\">HCl</span>) = 36.46 <span class=\"unit\">g mol-1</span></p>",
       hints: [
         // EN: Both units are "per <span class="unit">dm3</span>". Only the top of the unit changes: grams become moles.
-        "",
+        "どちらの単位も「1 <span class=\"unit\">dm3</span> あたり」です。変わるのは単位の前半だけで、グラムがモルになります。",
         // EN: Grams to moles: divide by the molar mass, as in <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span>.
-        "",
+        "グラムからモルへ直すには、<span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>M</i></span> と同じように、モル質量でわります。",
       ],
       // EN: <p>Concentration in <span class="unit">mol dm-3</span> = concentration in <span class="unit">g dm-3</span> ÷ molar mass.</p><div class="worked__math"><i>C</i> = <span class="frac"><span>7.30 <span class="unit">g dm-3</span></span><span>36.46 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.2002 <span class="unit">mol dm-3</span><br>&nbsp;&nbsp;= <strong>0.200 <span class="unit">mol dm-3</span></strong></div><p>Named slip: multiplying gives 266. One <span class="unit">dm3</span> holding 7.30 g of a substance with <i>M</i> ≈ 36 must hold much less than one mole.</p>
-      solution: "",
+      solution: "<p><span class=\"unit\">mol dm-3</span> 単位の濃度 = <span class=\"unit\">g dm-3</span> 単位の濃度 ÷ モル質量。</p><div class=\"worked__math\"><i>C</i> = <span class=\"frac\"><span>7.30 <span class=\"unit\">g dm-3</span></span><span>36.46 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.2002 <span class=\"unit\">mol dm-3</span><br>&nbsp;&nbsp;= <strong>0.200 <span class=\"unit\">mol dm-3</span></strong></div><p>よくあるミス：かけ算をすると 266 になります。<i>M</i> ≈ 36 の物質が 1 <span class=\"unit\">dm3</span> に 7.30 g しか入っていないので、1 モルよりずっと少ないはずです。</p>",
     },
 
     // ── s1-4-q038 · numeric · exam · SL · Structure 1.4.5 · 1 mark
     "s1-4-q038": {
       // EN: <p>A solution of potassium manganate(VII) has [<span class="chem">KMnO4</span>] = 0.0250 <span class="unit">mol dm-3</span>.</p><p>Calculate its concentration in <span class="unit">g dm-3</span>. Give your answer to 3 significant figures.</p><p><i>M</i>(<span class="chem">KMnO4</span>) = 158.04 <span class="unit">g mol-1</span></p>
-      stem: "",
+      stem: "<p>過マンガン酸カリウム (potassium manganate(VII)) の溶液があり、[<span class=\"chem\">KMnO4</span>] = 0.0250 <span class=\"unit\">mol dm-3</span> です。</p><p>この濃度を <span class=\"unit\">g dm-3</span> 単位で計算しなさい (calculate)。有効数字 3 桁で答えましょう。</p><p><i>M</i>(<span class=\"chem\">KMnO4</span>) = 158.04 <span class=\"unit\">g mol-1</span></p>",
       hints: [
         // EN: You are changing moles into grams, in every <span class="unit">dm3</span>. Which way does <span class="mono"><i>m</i> = <i>n</i> × <i>M</i></span> go?
-        "",
+        "1 <span class=\"unit\">dm3</span> あたりのモルを、グラムに直します。<span class=\"mono\"><i>m</i> = <i>n</i> × <i>M</i></span> は、どちら向きの変換ですか。",
         // EN: Multiply the molar concentration by the molar mass. Check the units: mol dm<sup>−3</sup> × g mol<sup>−1</sup> = g dm<sup>−3</sup>.
-        "",
+        "モル濃度にモル質量をかけます。単位を確かめましょう。mol dm<sup>−3</sup> × g mol<sup>−1</sup> = g dm<sup>−3</sup> になります。",
       ],
       // EN: <p>Concentration in <span class="unit">g dm-3</span> = concentration in <span class="unit">mol dm-3</span> × molar mass.</p><div class="worked__math"><i>C</i> = 0.0250 <span class="unit">mol dm-3</span> × 158.04 <span class="unit">g mol-1</span><br>&nbsp;&nbsp;= 3.951 <span class="unit">g dm-3</span><br>&nbsp;&nbsp;= <strong>3.95 <span class="unit">g dm-3</span></strong></div><p>Named slip: dividing gives 0.000158. One mole of <span class="chem">KMnO4</span> has a mass of 158 g, so the number of grams must be bigger than the number of moles.</p>
-      solution: "",
+      solution: "<p><span class=\"unit\">g dm-3</span> 単位の濃度 = <span class=\"unit\">mol dm-3</span> 単位の濃度 × モル質量。</p><div class=\"worked__math\"><i>C</i> = 0.0250 <span class=\"unit\">mol dm-3</span> × 158.04 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= 3.951 <span class=\"unit\">g dm-3</span><br>&nbsp;&nbsp;= <strong>3.95 <span class=\"unit\">g dm-3</span></strong></div><p>よくあるミス：わり算をすると 0.000158 になります。<span class=\"chem\">KMnO4</span> 1 モルの質量は 158 g なので、グラムの数値はモルの数値より大きくなるはずです。</p>",
     },
 
     // ── s1-4-q039 · mcq · exam · SL · Structure 1.4.5 · 1 mark
     "s1-4-q039": {
       // EN: <p>A solution of magnesium chloride has [<span class="chem">MgCl2</span>] = 0.15 <span class="unit">mol dm-3</span>.</p><p>What is the concentration of chloride ions, [<span class="chem">Cl-</span>], in <span class="unit">mol dm-3</span>?</p>
-      stem: "",
+      stem: "<p>塩化マグネシウムの溶液があり、[<span class=\"chem\">MgCl2</span>] = 0.15 <span class=\"unit\">mol dm-3</span> です。</p><p>塩化物イオンの濃度 [<span class=\"chem\">Cl-</span>] は何 <span class=\"unit\">mol dm-3</span> ですか。</p>",
       options: [
         // EN: 0.075
-        "",
+        "0.075",
         // EN: 0.15
-        "",
+        "0.15",
         // EN: 0.30
-        "",
+        "0.30",
         // EN: 0.45
-        "",
+        "0.45",
       ],
       hints: [
         // EN: Write what happens when the salt dissolves: <span class="chem">MgCl2 -> Mg^2+ + 2Cl-</span>.
-        "",
+        "この塩が水に溶けるときの変化を書きましょう：<span class=\"chem\">MgCl2 -> Mg^2+ + 2Cl-</span>。",
         // EN: How many moles of <span class="chem">Cl-</span> come from one mole of <span class="chem">MgCl2</span>?
-        "",
+        "<span class=\"chem\">MgCl2</span> 1 モルから、<span class=\"chem\">Cl-</span> は何モル生じますか。",
       ],
       // EN: <div class="worked__math"><span class="chem">MgCl2(s) -> Mg^2+(aq) + 2Cl-(aq)</span></div><div class="worked__math">[<span class="chem">Cl-</span>] = 2 × [<span class="chem">MgCl2</span>]<br>&nbsp;&nbsp;= 2 × 0.15 <span class="unit">mol dm-3</span><br>&nbsp;&nbsp;= <strong>0.30 <span class="unit">mol dm-3</span></strong></div>
-      solution: "",
+      solution: "<div class=\"worked__math\"><span class=\"chem\">MgCl2(s) -> Mg^2+(aq) + 2Cl-(aq)</span></div><div class=\"worked__math\">[<span class=\"chem\">Cl-</span>] = 2 × [<span class=\"chem\">MgCl2</span>]<br>&nbsp;&nbsp;= 2 × 0.15 <span class=\"unit\">mol dm-3</span><br>&nbsp;&nbsp;= <strong>0.30 <span class=\"unit\">mol dm-3</span></strong></div>",
       misconception: {
         // EN (option A): You divided by 2. Each formula unit releases 2 chloride ions, so there are more chloride ions than formula units, not fewer.
-        "0": "",
+        "0": "2 でわりました。組成式単位 1 つから塩化物イオンが 2 個出るので、塩化物イオンは組成式単位より多くなります。少なくはなりません。",
         // EN (option B): This is the concentration of <span class="chem">Mg^2+</span> ions. The subscript 2 in <span class="chem">MgCl2</span> means each formula unit gives 2 chloride ions.
-        "1": "",
+        "1": "これは <span class=\"chem\">Mg^2+</span> イオンの濃度です。<span class=\"chem\">MgCl2</span> の添え字 2 は、組成式単位 1 つから塩化物イオンが 2 個生じるという意味です。",
         // EN (option D): This is the total concentration of all ions (1 <span class="chem">Mg^2+</span> + 2 <span class="chem">Cl-</span>). The question asks for chloride ions only.
-        "3": "",
+        "3": "これは、すべてのイオンを合わせた濃度です（<span class=\"chem\">Mg^2+</span> 1 個 + <span class=\"chem\">Cl-</span> 2 個）。問われているのは塩化物イオンだけです。",
       },
     },
 
     // ── s1-4-q040 · numeric · exam · SL · Structure 1.4.5 · 1 mark
     "s1-4-q040": {
       // EN: <p>A student has a 1.00 <span class="unit">mol dm-3</span> stock solution of copper(II) sulfate. They need 250.0 <span class="unit">cm3</span> of a 0.0800 <span class="unit">mol dm-3</span> solution.</p><p>Calculate the volume of stock solution needed, in <span class="unit">cm3</span>. Give your answer to 3 significant figures.</p>
-      stem: "",
+      stem: "<p>ある生徒が、1.00 <span class=\"unit\">mol dm-3</span> の硫酸銅(II) の原液 (stock solution) を持っています。0.0800 <span class=\"unit\">mol dm-3</span> の溶液が 250.0 <span class=\"unit\">cm3</span> 必要です。</p><p>必要な原液の体積を <span class=\"unit\">cm3</span> 単位で計算しなさい (calculate)。有効数字 3 桁で答えましょう。</p>",
       hints: [
         // EN: Diluting adds water but does not change the amount of solute. So <i>n</i> before = <i>n</i> after, which gives <span class="mono"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></span>.
-        "",
+        "うすめると水は増えますが、溶質の物質量は変わりません。うすめる前の <i>n</i> = うすめたあとの <i>n</i> なので、<span class=\"mono\"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></span> が成り立ちます。",
         // EN: Label the values: <i>C</i><sub>1</sub> = 1.00, <i>C</i><sub>2</sub> = 0.0800, <i>V</i><sub>2</sub> = 250.0 <span class="unit">cm3</span>. Both volumes can stay in <span class="unit">cm3</span> here because the same unit is on both sides.
-        "",
+        "値に記号を付けます。<i>C</i><sub>1</sub> = 1.00、<i>C</i><sub>2</sub> = 0.0800、<i>V</i><sub>2</sub> = 250.0 <span class=\"unit\">cm3</span> です。両辺で同じ単位を使うので、ここでは体積を 2 つとも <span class=\"unit\">cm3</span> のままにできます。",
       ],
       // EN: <div class="worked__math"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></div><div class="worked__math"><i>V</i><sub>1</sub> = <span class="frac"><span><i>C</i><sub>2</sub><i>V</i><sub>2</sub></span><span><i>C</i><sub>1</sub></span></span><br>&nbsp;&nbsp;= <span class="frac"><span>0.0800 <span class="unit">mol dm-3</span> × 250.0 <span class="unit">cm3</span></span><span>1.00 <span class="unit">mol dm-3</span></span></span></div><div class="worked__math"><i>V</i><sub>1</sub> = <strong>20.0 <span class="unit">cm3</span></strong></div><p>Size check: the new solution is 12.5 times more dilute, so you need one 12.5th of the final volume. The 20.0 <span class="unit">cm3</span> is then made up to 250.0 <span class="unit">cm3</span> with distilled water. You do not add 250 <span class="unit">cm3</span> of water to it.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></div><div class=\"worked__math\"><i>V</i><sub>1</sub> = <span class=\"frac\"><span><i>C</i><sub>2</sub><i>V</i><sub>2</sub></span><span><i>C</i><sub>1</sub></span></span><br>&nbsp;&nbsp;= <span class=\"frac\"><span>0.0800 <span class=\"unit\">mol dm-3</span> × 250.0 <span class=\"unit\">cm3</span></span><span>1.00 <span class=\"unit\">mol dm-3</span></span></span></div><div class=\"worked__math\"><i>V</i><sub>1</sub> = <strong>20.0 <span class=\"unit\">cm3</span></strong></div><p>大きさの確認：新しい溶液は 12.5 倍にうすまっています。だから、原液は最終的な体積の 12.5 分の 1 だけ必要です。この 20.0 <span class=\"unit\">cm3</span> に蒸留水を加えて、全体を 250.0 <span class=\"unit\">cm3</span> にします。250 <span class=\"unit\">cm3</span> の水を加えるのではありません。</p>",
     },
 
     // ── s1-4-q041 · order · exam · SL · Structure 1.4.5 · 2 marks

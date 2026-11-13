@@ -87,7 +87,7 @@ S1.i18n.register('ja', 's1-4', {
     "Putting a volume in <span class=\"unit\">cm3</span> straight into <i>n</i> = <i>CV</i> gives an answer 1000 times too big. A quick check: 25 cm<sup>3</sup> is a small amount of liquid, so in dm<sup>3</sup> it must be a small number, 0.025.": "<span class=\"unit\">cm3</span> の体積をそのまま <i>n</i> = <i>CV</i> に入れると、答えが 1000 倍大きくなってしまいます。すぐにできる確かめ方があります。25 cm<sup>3</sup> は少しの液体です。だから dm<sup>3</sup> で表すと、小さな数 0.025 になるはずです。",
 
     // Before any mole calculation: three questions > try it > p
-    "A pipette delivers 25.0 cm<sup>3</sup> of solution. What is this volume in dm<sup>3</sup>?": "ピペットで溶液を 25.0 cm<sup>3</sup> はかり取ります。この体積は何 dm<sup>3</sup> ですか。",
+    "A pipette delivers 25.0 cm<sup>3</sup> of solution. What is this volume in dm<sup>3</sup>?": "ホールピペットで溶液を 25.0 cm<sup>3</sup> はかり取ります。この体積は何 dm<sup>3</sup> ですか。",
 
     // Before any mole calculation: three questions > try it > li
     "A dm<sup>3</sup> is bigger than a cm<sup>3</sup>. Will the number get bigger or smaller?": "dm<sup>3</sup> は cm<sup>3</sup> より大きい単位です。数値は大きくなりますか、小さくなりますか。",
@@ -449,7 +449,7 @@ S1.i18n.register('ja', 's1-4', {
     "Molar mass: weighing instead of counting": "モル質量：数えるかわりに、はかる",
 
     // Molar mass: weighing instead of counting > p
-    "A bank does not count coins one by one. It weighs the bag, because it knows the mass of one coin. Chemists do the same with atoms. If you know the mass of one mole of a substance, a balance tells you how many particles you have.": "銀行は、硬貨を 1 枚ずつ数えません。硬貨 1 枚の質量がわかっているので、袋ごと重さをはかります。化学でも、原子に同じことをします。物質 1 モルの質量がわかっていれば、てんびんではかるだけで粒子の数がわかります。",
+    "A bank does not count coins one by one. It weighs the bag, because it knows the mass of one coin. Chemists do the same with atoms. If you know the mass of one mole of a substance, a balance tells you how many particles you have.": "銀行は、硬貨を 1 枚ずつ数えません。硬貨 1 枚の質量がわかっているので、袋ごと重さをはかります。化学でも、原子に同じことをします。物質 1 モルの質量がわかっていれば、電子てんびんではかるだけで粒子の数がわかります。",
 
     // Molar mass: weighing instead of counting > p
     "The <dfn data-def=\"The mass of one mole of a substance. Symbol M, units g mol^-1. It has the same number as the relative formula mass.\">molar mass</dfn>, <i>M</i>, is the mass of one mole of a substance. Its units are <span class=\"unit\">g mol-1</span>. The mole is chosen so that the molar mass has the same number as <i>M</i><sub>r</sub>: water has <i>M</i><sub>r</sub> = 18.02, so <i>M</i> = 18.02 g mol<sup>−1</sup>.": "<dfn data-def=\"物質 1 モルの質量です。記号 M、単位 g mol^-1。数値は相対式量と同じです。\">モル質量 <span class=\"en-term\">(molar mass)</span></dfn> <i>M</i> は、物質 1 モルの質量です。単位は <span class=\"unit\">g mol-1</span> です。モルは、モル質量の数値が <i>M</i><sub>r</sub> と同じになるように決められています。水は <i>M</i><sub>r</sub> = 18.02 なので、<i>M</i> = 18.02 g mol<sup>−1</sup> です。",
@@ -795,7 +795,7 @@ S1.i18n.register('ja', 's1-4', {
     "Empirical formula solver": "組成式ソルバー",
 
     // Empirical and molecular formulas > widget > figcaption
-    "Enter your own percentages or masses and watch each column of the table method fill in. Switch to “Combustion analysis” for CO<sub>2</sub> and H<sub>2</sub>O data. Add a molar mass to get the molecular formula too.": "自分で百分率や質量を入力して、表の列が 1 つずつ埋まっていくのを見ましょう。CO<sub>2</sub> と H<sub>2</sub>O のデータを使うときは「燃焼分析」に切り替えます。モル質量を加えると、分子式も求められます。",
+    "Enter your own percentages or masses and watch each column of the table method fill in. Switch to “Combustion analysis” for CO<sub>2</sub> and H<sub>2</sub>O data. Add a molar mass to get the molecular formula too.": "自分で百分率や質量を入力して、表の列が 1 つずつ埋まっていくのを見ましょう。CO<sub>2</sub> と H<sub>2</sub>O のデータを使うときは「元素分析（燃焼法）」に切り替えます。モル質量を加えると、分子式も求められます。",
 
     // Empirical and molecular formulas > common mistake > p
     "Three slips cause most wrong formulas. Using the percentages directly as the ratio, without dividing by <i>A</i><sub>r</sub>. Dividing by atomic number instead of <i>A</i><sub>r</sub>. Rounding 1.5 up to 2, or 1.33 down to 1, instead of multiplying by 2 or 3.": "間違った化学式の原因は、ほとんどが次の 3 つのミスです。<i>A</i><sub>r</sub> で割らずに、百分率をそのまま比として使う。<i>A</i><sub>r</sub> ではなく原子番号で割る。2 や 3 をかけるかわりに、1.5 を 2 に切り上げたり、1.33 を 1 に切り捨てたりする。",
@@ -897,10 +897,10 @@ S1.i18n.register('ja', 's1-4', {
     "The empirical formula gives the ratio. To find the real molecule you need one more fact: the molar mass. It usually comes from another experiment, often a gas measurement (topic 1.5).": "組成式からわかるのは比です。実際の分子を知るには、もう 1 つ情報が必要です。モル質量です。モル質量はふつう別の実験から求め、気体の測定を使うことがよくあります（トピック 1.5）。",
 
     // Empirical and molecular formulas > li
-    "Work out the mass of the empirical formula, from <i>A</i><sub>r</sub> values.": "<i>A</i><sub>r</sub> の値から、組成式の式量を求めます。",
+    "Work out the mass of the empirical formula, from <i>A</i><sub>r</sub> values.": "<i>A</i><sub>r</sub> の値から、組成式 1 つ分の質量（組成式の質量）を求めます。",
 
     // Empirical and molecular formulas > li
-    "Divide the molar mass by the empirical formula mass. The answer should be a whole number.": "モル質量を、組成式の式量で割ります。答えは整数になるはずです。",
+    "Divide the molar mass by the empirical formula mass. The answer should be a whole number.": "モル質量を、組成式の質量で割ります。答えは整数になるはずです。",
 
     // Empirical and molecular formulas > li
     "Multiply every subscript in the empirical formula by that whole number.": "組成式のすべての下付きの数字に、その整数をかけます。",
@@ -912,22 +912,22 @@ S1.i18n.register('ja', 's1-4', {
     "The compound in the last worked example has the empirical formula <span class=\"chem\">C2H4O</span>. Its molar mass is 88.12 g mol<sup>−1</sup>. Determine its molecular formula.": "前の例題の化合物の組成式は <span class=\"chem\">C2H4O</span> です。モル質量は 88.12 g mol<sup>−1</sup> です。分子式を求めなさい。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Find the empirical formula mass": "組成式の式量を求める",
+    "Find the empirical formula mass": "組成式の質量を求める",
 
     // Empirical and molecular formulas > worked example > p
-    "You need to know how heavy one “unit” of the ratio is.": "比の「1 単位」がどれだけの重さなのかを知る必要があります。",
+    "You need to know how heavy one “unit” of the ratio is.": "比の「1 つ分」がどれだけの重さなのかを知る必要があります。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
     "Divide the molar mass by it": "モル質量をその値で割る",
 
     // Empirical and molecular formulas > worked example > p
-    "This tells you how many empirical units fit into one molecule.": "これで、1 分子の中に組成式の単位がいくつ入るかがわかります。",
+    "This tells you how many empirical units fit into one molecule.": "これで、1 分子の中に組成式がいくつ分入るかがわかります。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
     "Multiply the subscripts": "下付きの数字にかける",
 
     // Empirical and molecular formulas > worked example > p
-    "Two units per molecule, so double every subscript.": "1 分子に 2 単位なので、下付きの数字をすべて 2 倍にします。",
+    "Two units per molecule, so double every subscript.": "1 分子は組成式 2 つ分なので、下付きの数字をすべて 2 倍にします。",
 
     // Empirical and molecular formulas > try it > data-label attribute
     "Carbon atoms": "炭素原子の数",
@@ -936,13 +936,13 @@ S1.i18n.register('ja', 's1-4', {
     "A sugar has the empirical formula <span class=\"chem\">CH2O</span> and a molar mass of 180.18 g mol<sup>−1</sup>. How many carbon atoms are in one molecule of the sugar? (<i>A</i><sub>r</sub>: C 12.01, H 1.01, O 16.00)": "ある糖の組成式は <span class=\"chem\">CH2O</span> で、モル質量は 180.18 g mol<sup>−1</sup> です。この糖 1 分子に、炭素原子は何個ありますか。（<i>A</i><sub>r</sub>：C 12.01、H 1.01、O 16.00）",
 
     // Empirical and molecular formulas > try it > li
-    "Find the mass of one CH<sub>2</sub>O unit first.": "まず、CH<sub>2</sub>O 1 単位の式量を求めましょう。",
+    "Find the mass of one CH<sub>2</sub>O unit first.": "まず、CH<sub>2</sub>O 1 つ分の質量を求めましょう。",
 
     // Empirical and molecular formulas > try it > li
-    "The empirical formula mass is 30.03. Divide 180.18 by it to see how many units make one molecule.": "組成式の式量は 30.03 です。180.18 をこの値で割ると、1 分子が何単位でできているかがわかります。",
+    "The empirical formula mass is 30.03. Divide 180.18 by it to see how many units make one molecule.": "組成式の質量は 30.03 です。180.18 をこの値で割ると、1 分子が組成式いくつ分でできているかがわかります。",
 
     // Empirical and molecular formulas > try it > maths line
-    "empirical formula mass = 12.01 + 2(1.01) + 16.00 = 30.03": "組成式の式量 = 12.01 + 2(1.01) + 16.00 = 30.03",
+    "empirical formula mass = 12.01 + 2(1.01) + 16.00 = 30.03": "組成式の質量 = 12.01 + 2(1.01) + 16.00 = 30.03",
 
     // Empirical and molecular formulas > try it > p
     "The molecular formula is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>, so there are <strong>6</strong> carbon atoms.": "分子式は C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> なので、炭素原子は <strong>6</strong> 個です。",
@@ -1215,7 +1215,7 @@ S1.i18n.register('ja', 's1-4', {
     "Convert moles to mass": "モルを質量に変換する",
 
     // Concentration of solutions > worked example > p
-    "A balance measures grams, not moles.": "てんびんではかれるのは、モルではなくグラムです。",
+    "A balance measures grams, not moles.": "電子てんびんではかれるのは、モルではなくグラムです。",
 
     // Concentration of solutions > worked example > p
     "Standard-solution data are given to 4 significant figures, so the answer is too.": "標準溶液のデータは有効数字 4 桁で与えられているので、答えも 4 桁にします。",
@@ -1227,13 +1227,13 @@ S1.i18n.register('ja', 's1-4', {
     "Calculating the mass is half the job. You also need to be able to describe the procedure:": "質量の計算は、仕事の半分です。手順を記述する (describe) こともできなければなりません。",
 
     // Concentration of solutions > li
-    "Weigh the solid accurately on a balance.": "てんびんで固体の質量を正確にはかります。",
+    "Weigh the solid accurately on a balance.": "電子てんびんで固体の質量を正確にはかります。",
 
     // Concentration of solutions > li
     "Dissolve it in a small volume of <strong>distilled</strong> (or deionized) water in a beaker, stirring until none is left.": "ビーカーの中で、少量の<strong>蒸留水</strong>（または脱イオン水）に溶かします。固体が残らなくなるまでかき混ぜます。",
 
     // Concentration of solutions > li
-    "Pour the solution through a funnel into the volumetric flask. Rinse the beaker, the stirring rod and the funnel with distilled water, and add the <strong>rinsings</strong> to the flask.": "溶液を、ろうとを使ってメスフラスコに注ぎます。ビーカー、ガラス棒、ろうとを蒸留水で洗い、その<strong>洗液</strong>もフラスコに加えます。",
+    "Pour the solution through a funnel into the volumetric flask. Rinse the beaker, the stirring rod and the funnel with distilled water, and add the <strong>rinsings</strong> to the flask.": "溶液を、ろうとを使ってメスフラスコに注ぎます。ビーカー、ガラス棒、ろうとを蒸留水ですすぎ、その<strong>洗液</strong>もフラスコに加えます。",
 
     // Concentration of solutions > li
     "Add distilled water until the bottom of the meniscus sits on the <strong>mark</strong>. Add the last drops with a dropping pipette.": "メニスカス（液面のくぼみ）の底が<strong>標線</strong>に合うまで、蒸留水を加えます。最後の数滴はスポイトで加えます。",
@@ -1290,7 +1290,7 @@ S1.i18n.register('ja', 's1-4', {
     "Volume of stock solution for a dilution": "希釈に必要な原液の体積",
 
     // Concentration of solutions > worked example > p
-    "What volume of 2.00 mol dm<sup>−3</sup> hydrochloric acid is needed to prepare 250.0 cm<sup>3</sup> of 0.100 mol dm<sup>−3</sup> hydrochloric acid?": "0.100 mol dm<sup>−3</sup> の塩酸を 250.0 cm<sup>3</sup> つくるには、2.00 mol dm<sup>−3</sup> の塩酸が何 cm<sup>3</sup> 必要ですか。",
+    "What volume of 2.00 mol dm<sup>−3</sup> hydrochloric acid is needed to prepare 250.0 cm<sup>3</sup> of 0.100 mol dm<sup>−3</sup> hydrochloric acid?": "0.100 mol dm<sup>−3</sup> の塩酸を 250.0 cm<sup>3</sup> つくるには、2.00 mol dm<sup>−3</sup> の塩酸がどれだけの体積必要ですか。",
 
     // Concentration of solutions > worked example > data-title attribute
     "Label the four quantities": "4 つの量に名前を付ける",
@@ -1324,7 +1324,7 @@ S1.i18n.register('ja', 's1-4', {
     "You also need to describe the procedure. Markschemes look for these points:": "手順を記述することも求められます。マークスキームは、次のポイントを見ます。",
 
     // Concentration of solutions > li
-    "Use a <strong>pipette</strong> (or a burette) to measure the stock solution. A measuring cylinder is not precise enough.": "原液をはかるには、<strong>ピペット</strong>（またはビュレット）を使います。メスシリンダーでは精密さが足りません。",
+    "Use a <strong>pipette</strong> (or a burette) to measure the stock solution. A measuring cylinder is not precise enough.": "原液をはかるには、<strong>ホールピペット</strong>（またはビュレット）を使います。メスシリンダーでは精密さが足りません。",
 
     // Concentration of solutions > li
     "Run it into a <strong>volumetric flask</strong> of the right size, here 250.0 cm<sup>3</sup>.": "それを、合った大きさの<strong>メスフラスコ</strong>に入れます。ここでは 250.0 cm<sup>3</sup> のものです。",
@@ -1345,7 +1345,7 @@ S1.i18n.register('ja', 's1-4', {
     "A series of dilutions in which each new solution is made by diluting the one before it by the same factor.": "前の溶液を同じ倍率でうすめて次の溶液をつくることを、繰り返す希釈です。",
 
     // Concentration of solutions > try it > p
-    "10.0 cm<sup>3</sup> of a 0.500 mol dm<sup>−3</sup> solution is pipetted into a 250.0 cm<sup>3</sup> volumetric flask and made up to the mark with distilled water. Calculate the concentration of the diluted solution.": "0.500 mol dm<sup>−3</sup> の溶液 10.0 cm<sup>3</sup> をピペットで 250.0 cm<sup>3</sup> のメスフラスコに入れ、標線まで蒸留水を加えます。希釈後の溶液の濃度を計算しなさい。",
+    "10.0 cm<sup>3</sup> of a 0.500 mol dm<sup>−3</sup> solution is pipetted into a 250.0 cm<sup>3</sup> volumetric flask and made up to the mark with distilled water. Calculate the concentration of the diluted solution.": "0.500 mol dm<sup>−3</sup> の溶液 10.0 cm<sup>3</sup> をホールピペットで 250.0 cm<sup>3</sup> のメスフラスコに入れ、標線まで蒸留水を加えます。希釈後の溶液の濃度を計算しなさい。",
 
     // Concentration of solutions > try it > li
     "Which values are <i>C</i><sub>1</sub>, <i>V</i><sub>1</sub> and <i>V</i><sub>2</sub>? The unknown is <i>C</i><sub>2</sub>. It must be smaller than 0.500.": "<i>C</i><sub>1</sub>、<i>V</i><sub>1</sub>、<i>V</i><sub>2</sub> はそれぞれどの値ですか。わからないのは <i>C</i><sub>2</sub> です。0.500 より小さくなるはずです。",
@@ -1493,7 +1493,7 @@ S1.i18n.register('ja', 's1-4', {
     "<strong>75.0 cm<sup>3</sup></strong> of oxygen.": "酸素 <strong>75.0 cm<sup>3</sup></strong> です。",
 
     // Avogadro’s law and reacting gas volumes > try it > p
-    "Ammonia is made from nitrogen and hydrogen: <span class=\"chem\">N2(g) + 3H2(g) -&gt; 2NH3(g)</span>. What volume of ammonia forms when 45.0 cm<sup>3</sup> of hydrogen reacts completely, at the same temperature and pressure?": "アンモニアは窒素と水素からつくります：<span class=\"chem\">N2(g) + 3H2(g) -&gt; 2NH3(g)</span>。同じ温度・同じ圧力で、水素 45.0 cm<sup>3</sup> が完全に反応すると、アンモニアは何 cm<sup>3</sup> できますか。",
+    "Ammonia is made from nitrogen and hydrogen: <span class=\"chem\">N2(g) + 3H2(g) -&gt; 2NH3(g)</span>. What volume of ammonia forms when 45.0 cm<sup>3</sup> of hydrogen reacts completely, at the same temperature and pressure?": "アンモニアは窒素と水素からつくります：<span class=\"chem\">N2(g) + 3H2(g) -&gt; 2NH3(g)</span>。同じ温度・同じ圧力で、水素 45.0 cm<sup>3</sup> が完全に反応すると、できるアンモニアの体積はいくらですか。",
 
     // Avogadro’s law and reacting gas volumes > try it > li
     "Find the coefficients of the gas you know (H<sub>2</sub>) and the gas you want (NH<sub>3</sub>).": "わかっている気体（H<sub>2</sub>）と求めたい気体（NH<sub>3</sub>）の係数を見つけましょう。",
@@ -1547,238 +1547,238 @@ S1.i18n.register('ja', 's1-4', {
     "Find the oxygen left over": "残った酸素を求める",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "What was supplied, minus what was used.": "",
+    "What was supplied, minus what was used.": "入れた量から、使われた量を引きます。",
 
     // Avogadro’s law and reacting gas volumes > worked example > maths line
     // Avogadro’s law and reacting gas volumes > try it > maths line
-    "<i>V</i>(O<sub>2</sub> left) = 50.0 cm<sup>3</sup> − 20.0 cm<sup>3</sup> = 30.0 cm<sup>3</sup>": "",
+    "<i>V</i>(O<sub>2</sub> left) = 50.0 cm<sup>3</sup> − 20.0 cm<sup>3</sup> = 30.0 cm<sup>3</sup>": "<i>V</i>(残った O<sub>2</sub>) = 50.0 cm<sup>3</sup> − 20.0 cm<sup>3</sup> = 30.0 cm<sup>3</sup>",
 
     // Avogadro’s law and reacting gas volumes > worked example > data-title attribute
-    "Find the gas made": "",
+    "Find the gas made": "できた気体を求める",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "The ratio CH<sub>4</sub> : CO<sub>2</sub> is 1 : 1. The water is a liquid, so it is not counted.": "",
+    "The ratio CH<sub>4</sub> : CO<sub>2</sub> is 1 : 1. The water is a liquid, so it is not counted.": "CH<sub>4</sub> : CO<sub>2</sub> の比は 1 : 1 です。水は液体なので、数えません。",
 
     // Avogadro’s law and reacting gas volumes > worked example > data-title attribute
-    "Add the gases present at the end": "",
+    "Add the gases present at the end": "最後にある気体を足し合わせる",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "The container now holds the oxygen left over and the carbon dioxide made.": "",
+    "The container now holds the oxygen left over and the carbon dioxide made.": "容器の中にあるのは、残った酸素と、できた二酸化炭素です。",
 
     // Avogadro’s law and reacting gas volumes > worked example > maths line
-    "<i>V</i>(total) = 30.0 cm<sup>3</sup> + 10.0 cm<sup>3</sup> = <b>40.0 cm<sup>3</sup></b>": "",
+    "<i>V</i>(total) = 30.0 cm<sup>3</sup> + 10.0 cm<sup>3</sup> = <b>40.0 cm<sup>3</sup></b>": "<i>V</i>(合計) = 30.0 cm<sup>3</sup> + 10.0 cm<sup>3</sup> = <b>40.0 cm<sup>3</sup></b>",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "40.0 cm<sup>3</sup> of gas: 30.0 cm<sup>3</sup> of O<sub>2</sub> and 10.0 cm<sup>3</sup> of CO<sub>2</sub>": "",
+    "40.0 cm<sup>3</sup> of gas: 30.0 cm<sup>3</sup> of O<sub>2</sub> and 10.0 cm<sup>3</sup> of CO<sub>2</sub>": "気体 40.0 cm<sup>3</sup>：O<sub>2</sub> 30.0 cm<sup>3</sup> と CO<sub>2</sub> 10.0 cm<sup>3</sup>",
 
     // Avogadro’s law and reacting gas volumes > try it > p
-    "40.0 cm<sup>3</sup> of carbon monoxide is burned in 50.0 cm<sup>3</sup> of oxygen, which is an excess: <span class=\"chem\">2CO(g) + O2(g) -&gt; 2CO2(g)</span>. Calculate the total volume of gas at the end, at the same temperature and pressure.": "",
+    "40.0 cm<sup>3</sup> of carbon monoxide is burned in 50.0 cm<sup>3</sup> of oxygen, which is an excess: <span class=\"chem\">2CO(g) + O2(g) -&gt; 2CO2(g)</span>. Calculate the total volume of gas at the end, at the same temperature and pressure.": "一酸化炭素 40.0 cm<sup>3</sup> を酸素 50.0 cm<sup>3</sup> の中で燃やします。酸素は過剰です：<span class=\"chem\">2CO(g) + O2(g) -&gt; 2CO2(g)</span>。同じ温度・同じ圧力で、最後にある気体の体積の合計を計算しなさい。",
 
     // Avogadro’s law and reacting gas volumes > try it > li
-    "Two gases are present at the end: the oxygen left over and the carbon dioxide made. Find each one.": "",
+    "Two gases are present at the end: the oxygen left over and the carbon dioxide made. Find each one.": "最後にある気体は 2 つです。残った酸素と、できた二酸化炭素です。それぞれを求めましょう。",
 
     // Avogadro’s law and reacting gas volumes > try it > li
-    "O<sub>2</sub> reacting = 40.0 × (1 ÷ 2) = 20.0 cm<sup>3</sup>, so 30.0 cm<sup>3</sup> is left. CO<sub>2</sub> made = 40.0 × (2 ÷ 2).": "",
+    "O<sub>2</sub> reacting = 40.0 × (1 ÷ 2) = 20.0 cm<sup>3</sup>, so 30.0 cm<sup>3</sup> is left. CO<sub>2</sub> made = 40.0 × (2 ÷ 2).": "反応する O<sub>2</sub> = 40.0 × (1 ÷ 2) = 20.0 cm<sup>3</sup> なので、30.0 cm<sup>3</sup> が残ります。できる CO<sub>2</sub> = 40.0 × (2 ÷ 2) です。",
 
     // Avogadro’s law and reacting gas volumes > try it > maths line
-    "<i>V</i>(O<sub>2</sub> reacting) = 40.0 cm<sup>3</sup> × <span class=\"frac\"><span>1</span><span>2</span></span> = 20.0 cm<sup>3</sup>": "",
+    "<i>V</i>(O<sub>2</sub> reacting) = 40.0 cm<sup>3</sup> × <span class=\"frac\"><span>1</span><span>2</span></span> = 20.0 cm<sup>3</sup>": "<i>V</i>(反応する O<sub>2</sub>) = 40.0 cm<sup>3</sup> × <span class=\"frac\"><span>1</span><span>2</span></span> = 20.0 cm<sup>3</sup>",
 
     // Avogadro’s law and reacting gas volumes > try it > p
-    "Total: 30.0 + 40.0 = <strong>70.0 cm<sup>3</sup></strong>.": "",
+    "Total: 30.0 + 40.0 = <strong>70.0 cm<sup>3</sup></strong>.": "合計：30.0 + 40.0 = <strong>70.0 cm<sup>3</sup></strong>。",
 
     // Avogadro’s law and reacting gas volumes > exam tip (shown in English + translation) > p
-    "If you are asked to state Avogadro’s law, include all three parts: equal volumes of gases, same temperature and pressure, equal numbers of molecules. In a calculation, write “volume ratio = mole ratio” before you use the coefficients.": "",
+    "If you are asked to state Avogadro’s law, include all three parts: equal volumes of gases, same temperature and pressure, equal numbers of molecules. In a calculation, write “volume ratio = mole ratio” before you use the coefficients.": "アボガドロの法則を述べなさい (state) と言われたら、3 つの部分をすべて書きましょう。気体の体積が等しいこと、温度と圧力が同じであること、分子の数が等しいこと、です。計算では、係数を使う前に「体積の比 = 物質量の比 (volume ratio = mole ratio)」と書きます。",
 
     // Avogadro’s law and reacting gas volumes > not needed for IB > p
-    "The molar volume of a gas (22.7 dm<sup>3</sup> mol<sup>−1</sup> at STP) and <i>PV</i> = <i>nRT</i> are in topic 1.5. In this topic, the question tells you which gas is in excess. Working out for yourself which reactant runs out first (the limiting reactant) is taught in Reactivity 2.1.": "",
+    "The molar volume of a gas (22.7 dm<sup>3</sup> mol<sup>−1</sup> at STP) and <i>PV</i> = <i>nRT</i> are in topic 1.5. In this topic, the question tells you which gas is in excess. Working out for yourself which reactant runs out first (the limiting reactant) is taught in Reactivity 2.1.": "気体のモル体積（STP で 22.7 dm<sup>3</sup> mol<sup>−1</sup>）と <i>PV</i> = <i>nRT</i> は、トピック 1.5 で学びます。このトピックでは、どの気体が過剰なのかを問題文が教えてくれます。どの反応物が先になくなるか（制限反応物）を自分で求める方法は、Reactivity 2.1 で学びます。",
 
     // Avogadro’s law and reacting gas volumes > data-title attribute
-    "Avogadro’s law: quick check": "",
+    "Avogadro’s law: quick check": "アボガドロの法則：確認クイズ",
 
     // Where this topic stops > data-toc attribute
-    "What is not in 1.4": "",
+    "What is not in 1.4": "1.4 に入らないもの",
 
     // Where this topic stops > h2
-    "Where this topic stops": "",
+    "Where this topic stops": "このトピックの範囲はここまで",
 
     // Where this topic stops > p
-    "Textbooks and online tutors often pile extra material onto the mole. This table shows what is in Structure 1.4, what comes later in the course, and what you can leave alone.": "",
+    "Textbooks and online tutors often pile extra material onto the mole. This table shows what is in Structure 1.4, what comes later in the course, and what you can leave alone.": "教科書やオンラインの解説では、モルの話に余分な内容がたくさん付け足されていることがよくあります。この表で、Structure 1.4 に入るもの、コースのあとで学ぶもの、気にしなくてよいものを確認しましょう。",
 
     // Where this topic stops > table > caption
-    "In, later, or not needed": "",
+    "In, later, or not needed": "範囲内・あとで学ぶ・必要なし",
 
     // Where this topic stops > table > th
-    "Idea": "",
+    "Idea": "内容",
 
     // Where this topic stops > table > th
-    "Status": "",
+    "Status": "扱い",
 
     // Where this topic stops > table > th
-    "Moles ⇄ particles, mass, concentration": "",
+    "Moles ⇄ particles, mass, concentration": "モル ⇄ 粒子の数、質量、濃度",
 
     // Where this topic stops > table > td
-    "In this topic (1.4.1, 1.4.3, 1.4.5)": "",
+    "In this topic (1.4.1, 1.4.3, 1.4.5)": "このトピックの範囲（1.4.1、1.4.3、1.4.5）",
 
     // Where this topic stops > table > th
-    "Empirical and molecular formulas, including combustion data": "",
+    "Empirical and molecular formulas, including combustion data": "組成式と分子式（燃焼のデータを含む）",
 
     // Where this topic stops > table > td
-    "In this topic (1.4.4)": "",
+    "In this topic (1.4.4)": "このトピックの範囲（1.4.4）",
 
     // Where this topic stops > table > th
-    "Standard solutions, dilution, calibration curves": "",
+    "Standard solutions, dilution, calibration curves": "標準溶液、希釈、検量線",
 
     // Where this topic stops > table > td
-    "In this topic (1.4.5)": "",
+    "In this topic (1.4.5)": "このトピックの範囲（1.4.5）",
 
     // Where this topic stops > table > th
-    "Gas volume ratios from an equation, including a gas you are told is in excess": "",
+    "Gas volume ratios from an equation, including a gas you are told is in excess": "化学反応式から求める気体の体積の比（過剰と示された気体を含む）",
 
     // Where this topic stops > table > td
-    "In this topic (1.4.6)": "",
+    "In this topic (1.4.6)": "このトピックの範囲（1.4.6）",
 
     // Where this topic stops > table > th
-    "Reacting masses from an equation": "",
+    "Reacting masses from an equation": "化学反応式から求める、反応する物質の質量",
 
     // Where this topic stops > table > td
-    "Later: Reactivity 2.1": "",
+    "Later: Reactivity 2.1": "あとで学ぶ：Reactivity 2.1",
 
     // Where this topic stops > table > th
-    "Finding the limiting reactant, percentage yield, atom economy": "",
+    "Finding the limiting reactant, percentage yield, atom economy": "制限反応物を見つけること、収率、アトムエコノミー",
 
     // Where this topic stops > table > th
-    "Percentage uncertainty of a concentration you have made": "",
+    "Percentage uncertainty of a concentration you have made": "自分でつくった溶液の濃度の、百分率で表した不確かさ",
 
     // Where this topic stops > table > td
-    "Later: the uncertainty skills in Tool 3": "",
+    "Later: the uncertainty skills in Tool 3": "あとで学ぶ：ツール 3 の不確かさのスキル",
 
     // Where this topic stops > table > th
-    "Titration calculations": "",
+    "Titration calculations": "滴定の計算",
 
     // Where this topic stops > table > td
-    "Later: Reactivity 2.1 and 3.1": "",
+    "Later: Reactivity 2.1 and 3.1": "あとで学ぶ：Reactivity 2.1 と 3.1",
 
     // Where this topic stops > table > th
-    "Molar volume at STP, <i>PV</i> = <i>nRT</i>": "",
+    "Molar volume at STP, <i>PV</i> = <i>nRT</i>": "STP でのモル体積、<i>PV</i> = <i>nRT</i>",
 
     // Where this topic stops > table > td
-    "Next topic: Structure 1.5": "",
+    "Next topic: Structure 1.5": "次のトピック：Structure 1.5",
 
     // Where this topic stops > table > th
-    "ppm, molality, percentage by mass as a concentration, mole fraction": "",
+    "ppm, molality, percentage by mass as a concentration, mole fraction": "ppm、質量モル濃度、濃度としての質量パーセント、モル分率",
 
     // Where this topic stops > table > td
-    "Not in the IB guide": "",
+    "Not in the IB guide": "IB の『指導の手引き』にない",
 
     // Where this topic stops > table > th
-    "Old values: 22.4 dm<sup>3</sup> mol<sup>−1</sup>, “24 dm<sup>3</sup> at room temperature”": "",
+    "Old values: 22.4 dm<sup>3</sup> mol<sup>−1</sup>, “24 dm<sup>3</sup> at room temperature”": "古い値：22.4 dm<sup>3</sup> mol<sup>−1</sup>、「室温で 24 dm<sup>3</sup>」",
 
     // Where this topic stops > table > td
-    "Not used. The data booklet gives 22.7 dm<sup>3</sup> mol<sup>−1</sup> at STP": "",
+    "Not used. The data booklet gives 22.7 dm<sup>3</sup> mol<sup>−1</sup> at STP": "使わない。データブックレットの値は、STP で 22.7 dm<sup>3</sup> mol<sup>−1</sup>",
 
     // Linking it up > data-toc attribute
     // Linking it up > h2
-    "Linking it up": "",
+    "Linking it up": "つなげて考える",
 
     // Linking it up > p
-    "The guide lists linking questions that connect this topic to others. Here are short answers to four of them.": "",
+    "The guide lists linking questions that connect this topic to others. Here are short answers to four of them.": "『指導の手引き』には、このトピックをほかのトピックと結びつける「つながりの問い (linking questions)」が載っています。そのうち 4 つに、短く答えてみます。",
 
     // Linking it up > h3
-    "How can molar masses be used with chemical equations to determine the masses of the products of a reaction?": "",
+    "How can molar masses be used with chemical equations to determine the masses of the products of a reaction?": "反応の生成物の質量を求めるとき、モル質量は化学反応式とどのように組み合わせて使えるでしょうか。",
 
     // Linking it up > p
-    "An equation gives a ratio in moles, but a balance measures grams. So you convert the mass of a reactant to moles with its molar mass, use the mole ratio from the equation, then convert the moles of product back to a mass with the product’s molar mass. The two outer steps are from this topic. The full method is taught in Reactivity 2.1.": "",
+    "An equation gives a ratio in moles, but a balance measures grams. So you convert the mass of a reactant to moles with its molar mass, use the mole ratio from the equation, then convert the moles of product back to a mass with the product’s molar mass. The two outer steps are from this topic. The full method is taught in Reactivity 2.1.": "化学反応式が表すのはモルの比です。でも、電子てんびんではかれるのはグラムです。だから、まず反応物の質量を、そのモル質量でモルに変換します。次に、化学反応式の物質量の比を使います。最後に、生成物のモルを、生成物のモル質量で質量に戻します。最初と最後のステップは、このトピックの内容です。解き方の全体は Reactivity 2.1 で学びます。",
 
     // Linking it up > h3
-    "What is the importance of approximation in the determination of an empirical formula?": "",
+    "What is the importance of approximation in the determination of an empirical formula?": "組成式を求めるとき、近似はなぜ大切なのでしょうか。",
 
     // Linking it up > p
-    "Measured masses always carry some error, so the mole ratio never comes out as perfect whole numbers. You have to judge when 2.99 means 3. You also have to judge when a value is <em>not</em> an error: 1.50 or 1.33 are real ratios that must be multiplied up, not rounded. Good approximation means rounding small differences and respecting large ones.": "",
+    "Measured masses always carry some error, so the mole ratio never comes out as perfect whole numbers. You have to judge when 2.99 means 3. You also have to judge when a value is <em>not</em> an error: 1.50 or 1.33 are real ratios that must be multiplied up, not rounded. Good approximation means rounding small differences and respecting large ones.": "測定した質量には、必ずいくらか誤差があります。だから、物質量の比がきれいな整数になることはありません。2.99 を 3 とみなしてよいかどうかは、自分で判断します。また、ある値が誤差<em>ではない</em>場合も、自分で判断します。1.50 や 1.33 は本当の比なので、丸めずに、かけ算で整数にしなければなりません。上手な近似とは、小さなずれは丸め、大きなずれはそのまま受けとめることです。",
 
     // Linking it up > h3
-    "What are the considerations in the choice of glassware used in preparing a standard solution and a serial dilution?": "",
+    "What are the considerations in the choice of glassware used in preparing a standard solution and a serial dilution?": "標準溶液をつくるときや段階希釈をするとき、ガラス器具はどんな点を考えて選ぶのでしょうか。",
 
     // Linking it up > p
-    "The concentration is only as accurate as the volumes. A volumetric flask and a pipette are each made to deliver one volume very precisely, so they are used for the final volume and for the portion of stock solution. A beaker or measuring cylinder has a much larger uncertainty and is only used for rough work, such as dissolving the solid. In a serial dilution, any error in one step is carried into every later step, which makes precise glassware even more important.": "",
+    "The concentration is only as accurate as the volumes. A volumetric flask and a pipette are each made to deliver one volume very precisely, so they are used for the final volume and for the portion of stock solution. A beaker or measuring cylinder has a much larger uncertainty and is only used for rough work, such as dissolving the solid. In a serial dilution, any error in one step is carried into every later step, which makes precise glassware even more important.": "濃度の正確さは、体積の正確さで決まります。メスフラスコとホールピペットは、どちらも 1 つの決まった体積をとても精密にはかるようにつくられています。だから、最終的な体積と、はかり取る原液の体積に使います。ビーカーやメスシリンダーは不確かさがずっと大きいので、固体を溶かすときのような、おおまかな作業にだけ使います。段階希釈では、あるステップの誤差が、そのあとのすべてのステップに引き継がれます。だから、精密なガラス器具がいっそう大切になります。",
 
     // Linking it up > h3
-    "Avogadro’s law applies to ideal gases. Under what conditions might a real gas deviate most from an ideal gas?": "",
+    "Avogadro’s law applies to ideal gases. Under what conditions might a real gas deviate most from an ideal gas?": "アボガドロの法則は理想気体に当てはまります。実在気体が理想気体から最も大きくずれるのは、どんな条件でしょうか。",
 
     // Linking it up > p
-    "At low temperature and high pressure. Then the particles are close together and moving slowly, so the forces between them and the space the particles take up are no longer negligible. Topic 1.5 explains this.": "",
+    "At low temperature and high pressure. Then the particles are close together and moving slowly, so the forces between them and the space the particles take up are no longer negligible. Topic 1.5 explains this.": "低温・高圧のときです。このとき、粒子どうしは近く、動きも遅くなります。そのため、粒子の間にはたらく力と、粒子そのものが占める体積が、無視できなくなります。くわしくはトピック 1.5 で説明します。",
 
     // Exam-style practice > data-toc attribute
     // Exam-style practice > h2
-    "Exam-style practice": "",
+    "Exam-style practice": "試験形式の練習",
 
     // Exam-style practice > p
-    "Work through the three levels in order. Use the three questions on every calculation, and write your working on paper before you type an answer. Each set draws questions you have not yet answered correctly first.": "",
+    "Work through the three levels in order. Use the three questions on every calculation, and write your working on paper before you type an answer. Each set draws questions you have not yet answered correctly first.": "3 つのレベルを順番に進めましょう。どの計算でも 3 つの問いを使い、答えを入力する前に、途中の計算を紙に書きます。どのセットも、まだ正解していない問題から先に出題されます。",
 
     // Exam-style practice > h3
-    "Foundation: one idea at a time": "",
+    "Foundation: one idea at a time": "基礎：一度に 1 つの考え方",
 
     // Exam-style practice > data-title attribute
-    "1.4 foundation": "",
+    "1.4 foundation": "1.4 基礎",
 
     // Exam-style practice > h3
-    "Exam standard": "",
+    "Exam standard": "試験レベル",
 
     // Exam-style practice > data-title attribute
-    "1.4 exam standard": "",
+    "1.4 exam standard": "1.4 試験レベル",
 
     // Exam-style practice > h3
-    "Challenge: level 7 stretch": "",
+    "Challenge: level 7 stretch": "チャレンジ：成績 7 をめざす発展問題",
 
     // Exam-style practice > data-title attribute
-    "1.4 challenge": "",
+    "1.4 challenge": "1.4 チャレンジ",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Leave the charge off, or write it with ^ as in SO4^2-. A charge does not change the molar mass.": "",
+    "Leave the charge off, or write it with ^ as in SO4^2-. A charge does not change the molar mass.": "電荷は書かないか、SO4^2- のように ^ を使って書きましょう。電荷があってもモル質量は変わりません。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type a formula, for example H2O or Ca(OH)2.": "",
+    "Type a formula, for example H2O or Ca(OH)2.": "化学式を入力しましょう。例：H2O、Ca(OH)2。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Use capital letters for element symbols: write H2O, not h2o.": "",
+    "Use capital letters for element symbols: write H2O, not h2o.": "元素記号には大文字を使います。h2o ではなく H2O と書きましょう。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "There is a closing bracket with no opening bracket.": "",
+    "There is a closing bracket with no opening bracket.": "閉じかっこに対応する開きかっこがありません。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Check the capital letters near “{ch}”. Each symbol starts with one capital letter.": "",
+    "Check the capital letters near “{ch}”. Each symbol starts with one capital letter.": "「{ch}」のあたりの大文字を確かめましょう。元素記号は、大文字 1 つで始まります。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "I cannot read “{ch}” in a formula.": "",
+    "I cannot read “{ch}” in a formula.": "化学式の中の「{ch}」を読み取れません。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "“{sym}” is not an element symbol with a relative atomic mass in this tool. Check the spelling and the capital letters.": "",
+    "“{sym}” is not an element symbol with a relative atomic mass in this tool. Check the spelling and the capital letters.": "「{sym}」は、このツールに相対原子質量が入っている元素記号ではありません。つづりと大文字を確かめましょう。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "A bracket is not closed.": "",
+    "A bracket is not closed.": "かっこが閉じていません。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Something is missing after the dot.": "",
+    "Something is missing after the dot.": "点のあとに何かが足りません。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Solution volumes are usually given in cm<sup>3</sup>. <i>n</i> = <i>CV</i> needs dm<sup>3</sup>. The gas equation in topic 1.5 needs m<sup>3</sup>. Going to a bigger unit makes the number smaller, so you divide.": "",
+    "Solution volumes are usually given in cm<sup>3</sup>. <i>n</i> = <i>CV</i> needs dm<sup>3</sup>. The gas equation in topic 1.5 needs m<sup>3</sup>. Going to a bigger unit makes the number smaller, so you divide.": "溶液の体積は、ふつう cm<sup>3</sup> で与えられます。<i>n</i> = <i>CV</i> には dm<sup>3</sup> が必要です。トピック 1.5 の気体の式には m<sup>3</sup> が必要です。大きい単位に直すと数値は小さくなるので、割り算をします。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "<i>n</i> = <i>m</i> ÷ <i>M</i> needs the mass in g, because <i>M</i> is in g mol<sup>−1</sup>. Going to a bigger unit makes the number smaller, so you divide.": "",
+    "<i>n</i> = <i>m</i> ÷ <i>M</i> needs the mass in g, because <i>M</i> is in g mol<sup>−1</sup>. Going to a bigger unit makes the number smaller, so you divide.": "<i>M</i> の単位は g mol<sup>−1</sup> なので、<i>n</i> = <i>m</i> ÷ <i>M</i> には g で表した質量が必要です。大きい単位に直すと数値は小さくなるので、割り算をします。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volume": "",
+    "Volume": "体積",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass": "",
+    "Mass": "質量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Unit": "",
+    "Unit": "単位",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type a number, for example 25.0.": "",
+    "Type a number, for example 25.0.": "数値を入力しましょう。例：25.0。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "carbon dioxide": "",
+    "carbon dioxide": "二酸化炭素",
 
     // widget string (assets/js/widgets-s1-4.js)
     "copper": "",
@@ -1787,607 +1787,607 @@ S1.i18n.register('ja', 's1-4', {
     "iron": "",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "sodium chloride": "",
+    "sodium chloride": "塩化ナトリウム",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Substance": "",
+    "Substance": "物質",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{name} ({formula})": "",
+    "{name} ({formula})": "{name}（{formula}）",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass of sample": "",
+    "Mass of sample": "試料の質量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Number line on a powers-of-ten scale from 1 to 10 to the power 24, marking the number of people on Earth, the number of seconds since the Big Bang, one mole, and the number of particles in your sample": "",
+    "Number line on a powers-of-ten scale from 1 to 10 to the power 24, marking the number of people on Earth, the number of seconds since the Big Bang, one mole, and the number of particles in your sample": "1 から 10 の 24 乗までの、10 の累乗の目盛りの数直線。地球の人口、ビッグバンから今までの秒数、1 モル、あなたの試料に含まれる粒子の数に目印がある",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Amount": "",
+    "Amount": "物質量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Particles": "",
+    "Particles": "粒子の数",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Inside them": "",
+    "Inside them": "粒子の中身",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "people on Earth": "",
+    "people on Earth": "地球の人口",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "about {n}": "",
+    "about {n}": "約 {n}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "seconds since the Big Bang": "",
+    "seconds since the Big Bang": "ビッグバンからの秒数",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "one mole": "",
+    "one mole": "1 モル",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "your sample: number of molecules": "",
+    "your sample: number of molecules": "あなたの試料：分子の数",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "your sample: number of atoms": "",
+    "your sample: number of atoms": "あなたの試料：原子の数",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "your sample: number of formula units": "",
+    "your sample: number of formula units": "あなたの試料：組成式単位の数",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Each big tick is 1000 times the one before.": "",
+    "Each big tick is 1000 times the one before.": "大きな目盛り 1 つごとに 1000 倍になります。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{N} molecules": "",
+    "{N} molecules": "分子 {N} 個",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{N} atoms": "",
+    "{N} atoms": "原子 {N} 個",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{N} formula units": "",
+    "{N} formula units": "組成式単位 {N} 個",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "each particle is one atom": "",
+    "each particle is one atom": "粒子 1 個が原子 1 個",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{per} ions each: {N} ions": "",
+    "{per} ions each: {N} ions": "1 つにイオン {per} 個：イオン {N} 個",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{per} atoms each: {N} atoms": "",
+    "{per} atoms each: {N} atoms": "1 つに原子 {per} 個：原子 {N} 個",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Counting one particle every second, one mole would take about {years} years. That is over a million times the age of the universe (about {age} years).": "",
+    "Counting one particle every second, one mole would take about {years} years. That is over a million times the age of the universe (about {age} years).": "1 秒に 1 個ずつ数えると、1 モルを数え終わるのに約 {years} 年かかります。これは宇宙の年齢（約 {age} 年）の 100 万倍以上です。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "If all 8 billion people counted together at that speed, it would still take about {n} million years.": "",
+    "If all 8 billion people counted together at that speed, it would still take about {n} million years.": "世界の 80 億人（8 × 10⁹ 人）が全員で、同じ速さで一緒に数えたとしても、約 {n} × 100 万年かかります。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Yet one mole of water molecules is only {m} g of water: about {v} cm<sup>3</sup>, a little more than a tablespoon.": "",
+    "Yet one mole of water molecules is only {m} g of water: about {v} cm<sup>3</sup>, a little more than a tablespoon.": "それなのに、水分子 1 モルは、たった {m} g の水です。約 {v} cm<sup>3</sup> で、大さじ 1 杯より少し多いくらいです。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Formula": "",
+    "Formula": "化学式",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Or load an example": "",
+    "Or load an example": "または例を読み込む",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Build the formula with buttons": "",
+    "Build the formula with buttons": "ボタンで化学式を組み立てる",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "dot for water of crystallization": "",
+    "dot for water of crystallization": "水和水を表す点",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "open bracket": "",
+    "open bracket": "開きかっこ",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "close bracket": "",
+    "close bracket": "閉じかっこ",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Delete": "",
+    "Delete": "1 つ消す",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Clear": "",
+    "Clear": "すべて消す",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Atoms in one formula unit": "",
+    "Atoms in one formula unit": "組成式単位 1 つの中の原子",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Breakdown of {formula}": "",
+    "Breakdown of {formula}": "{formula} の内訳",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Element": "",
+    "Element": "元素",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Atoms": "",
+    "Atoms": "原子の数",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Subtotal": "",
+    "Subtotal": "小計",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Total": "",
+    "Total": "合計",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{value} <span class=\"mole-unitnote\">(no units)</span>": "",
+    "{value} <span class=\"mole-unitnote\">(no units)</span>": "{value} <span class=\"mole-unitnote\">（単位なし）</span>",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass (g)": "",
+    "Mass (g)": "質量 (g)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass / g": "",
+    "Mass / g": "質量 / g",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Amount (mol)": "",
+    "Amount (mol)": "物質量 (mol)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Amount / mol": "",
+    "Amount / mol": "物質量 / mol",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Number of particles": "",
+    "Number of particles": "粒子の数",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Solution: concentration and volume": "",
+    "Solution: concentration and volume": "溶液：濃度と体積",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Concentration / mol dm<sup>−3</sup>": "",
+    "Concentration / mol dm<sup>−3</sup>": "濃度 / mol dm<sup>−3</sup>",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Gas volume at STP (dm³)": "",
+    "Gas volume at STP (dm³)": "STP での気体の体積 (dm³)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Gas volume at STP / dm<sup>3</sup>": "",
+    "Gas volume at STP / dm<sup>3</sup>": "STP での気体の体積 / dm<sup>3</sup>",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Concentration (mol dm⁻³)": "",
+    "Concentration (mol dm⁻³)": "濃度 (mol dm⁻³)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "I am given": "",
+    "I am given": "与えられているもの",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "I want": "",
+    "I want": "求めたいもの",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volume of solution / cm<sup>3</sup>": "",
+    "Volume of solution / cm<sup>3</sup>": "溶液の体積 / cm<sup>3</sup>",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volume of solution made / cm<sup>3</sup>": "",
+    "Volume of solution made / cm<sup>3</sup>": "つくる溶液の体積 / cm<sup>3</sup>",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Substance (formula)": "",
+    "Substance (formula)": "物質（化学式）",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The mole map: amount in moles in the centre, linked to mass, number of particles, solution concentration and volume, and gas volume at STP": "",
+    "The mole map: amount in moles in the centre, linked to mass, number of particles, solution concentration and volume, and gas volume at STP": "モルマップ。中央にモルで表した物質量があり、質量、粒子の数、溶液の濃度と体積、STP での気体の体積とつながっている",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass, m": "",
+    "Mass, m": "質量 m",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Particles, N": "",
+    "Particles, N": "粒子の数 N",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "a number": "",
+    "a number": "個数",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Amount, n": "",
+    "Amount, n": "物質量 n",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Solution, C and V": "",
+    "Solution, C and V": "溶液 C と V",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Gas volume, V": "",
+    "Gas volume, V": "気体の体積 V",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "dm³, at STP only": "",
+    "dm³, at STP only": "dm³（STP のみ）",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "to mol: C × V": "",
+    "to mol: C × V": "mol へ: C × V",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "to C: n ÷ V": "",
+    "to C: n ÷ V": "C へ: n ÷ V",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "to mol: ÷ 22.7": "",
+    "to mol: ÷ 22.7": "mol へ: ÷ 22.7",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "to dm³: × 22.7": "",
+    "to dm³: × 22.7": "dm³ へ: × 22.7",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Path": "",
+    "Path": "道すじ",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Answer": "",
+    "Answer": "答え",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "mass": "",
+    "mass": "質量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "amount": "",
+    "amount": "物質量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "number of particles": "",
+    "number of particles": "粒子の数",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "solution": "",
+    "solution": "溶液",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "gas volume": "",
+    "gas volume": "気体の体積",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "GIVEN": "",
+    "GIVEN": "与えられた量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "WANTED": "",
+    "WANTED": "求めたい量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "via moles": "",
+    "via moles": "モルを通る",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "A solution to a concentration is one step: <i>C</i> = <i>n</i> ÷ <i>V</i>. Pick a different quantity to convert to.": "",
+    "A solution to a concentration is one step: <i>C</i> = <i>n</i> ÷ <i>V</i>. Pick a different quantity to convert to.": "溶液から濃度へは 1 ステップです：<i>C</i> = <i>n</i> ÷ <i>V</i>。変換先には別の量を選びましょう。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Pick two different quantities.": "",
+    "Pick two different quantities.": "違う量を 2 つ選びましょう。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type a positive number for the quantity you are given. You can write 1.5e22 or 1.5 × 10^22.": "",
+    "Type a positive number for the quantity you are given. You can write 1.5e22 or 1.5 × 10^22.": "与えられている量には、正の数を入力しましょう。1.5e22 や 1.5 × 10^22 のように書けます。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{error} The molar mass is needed whenever mass is involved.": "",
+    "{error} The molar mass is needed whenever mass is involved.": "{error} 質量が出てくるときは、必ずモル質量が必要です。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type the volume of the solution in cm<sup>3</sup>.": "",
+    "Type the volume of the solution in cm<sup>3</sup>.": "溶液の体積を cm<sup>3</sup> で入力しましょう。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "({sf} s.f.)": "",
+    "({sf} s.f.)": "（有効数字 {sf} 桁）",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "That is the number of molecules or formula units of {formula}. Each one contains {atoms} atoms, so the number of atoms is {atoms} × {N} = {total}.": "",
+    "That is the number of molecules or formula units of {formula}. Each one contains {atoms} atoms, so the number of atoms is {atoms} × {N} = {total}.": "これは {formula} の分子または組成式単位の数です。1 つが原子を {atoms} 個含むので、原子の数は {atoms} × {N} = {total} です。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "For an element written as a single atom, such as {formula}, the particles are atoms.": "",
+    "For an element written as a single atom, such as {formula}, the particles are atoms.": "{formula} のように原子 1 個で書く単体では、粒子は原子です。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type the volume of solution made, in cm<sup>3</sup>.": "",
+    "Type the volume of solution made, in cm<sup>3</sup>.": "つくる溶液の体積を cm<sup>3</sup> で入力しましょう。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "As a mass concentration of {formula}: {C} × {M} = {G}.": "",
+    "As a mass concentration of {formula}: {C} × {M} = {G}.": "{formula} の質量濃度では：{C} × {M} = {G}。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "22.7 dm<sup>3</sup> mol<sup>−1</sup> is the molar volume of an ideal gas at STP (273.15 K and 100 kPa) from the data booklet. It works only for gases, only at STP. Topic 1.5 covers it.": "",
+    "22.7 dm<sup>3</sup> mol<sup>−1</sup> is the molar volume of an ideal gas at STP (273.15 K and 100 kPa) from the data booklet. It works only for gases, only at STP. Topic 1.5 covers it.": "22.7 dm<sup>3</sup> mol<sup>−1</sup> は、データブックレットにある、STP（273.15 K、100 kPa）での理想気体のモル体積です。使えるのは気体だけ、それも STP のときだけです。トピック 1.5 で扱います。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The formula is not needed for this conversion. Molar mass only matters when mass is involved.": "",
+    "The formula is not needed for this conversion. Molar mass only matters when mass is involved.": "この変換に化学式は必要ありません。モル質量が関係するのは、質量が出てくるときだけです。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The answer is rounded to {sf} significant figures to match the value you typed. The working keeps extra digits until the end.": "",
+    "The answer is rounded to {sf} significant figures to match the value you typed. The working keeps extra digits until the end.": "答えは、入力した値に合わせて有効数字 {sf} 桁に丸めてあります。途中の計算では、最後まで桁を多めに残しています。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "concentration": "",
+    "concentration": "濃度",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{from} → {to} (one step)": "",
+    "{from} → {to} (one step)": "{from} → {to}（1 ステップ）",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{from} → amount → {to} (two steps)": "",
+    "{from} → amount → {to} (two steps)": "{from} → 物質量 → {to}（2 ステップ）",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{m} g gives {c} g CO₂ and {h} g H₂O": "",
+    "{m} g gives {c} g CO₂ and {h} g H₂O": "{m} g から CO₂ {c} g と H₂O {h} g",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{m} g gives {c} g CO₂ and {h} g H₂O (a hydrocarbon)": "",
+    "{m} g gives {c} g CO₂ and {h} g H₂O (a hydrocarbon)": "{m} g から CO₂ {c} g と H₂O {h} g（炭化水素）",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Dividing by the smallest gave a ratio that is not whole (it ends in about .5). Do not round it. Multiply every ratio by 2 to clear the fraction.": "",
+    "Dividing by the smallest gave a ratio that is not whole (it ends in about .5). Do not round it. Multiply every ratio by 2 to clear the fraction.": "いちばん小さい値で割ると、整数でない比が出ました（小数部分が約 .5）。丸めてはいけません。すべての比に 2 をかけて、端数をなくしましょう。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Dividing by the smallest gave a ratio that is not whole (it ends in about .33 or .67). Do not round it. Multiply every ratio by 3 to clear the fraction.": "",
+    "Dividing by the smallest gave a ratio that is not whole (it ends in about .33 or .67). Do not round it. Multiply every ratio by 3 to clear the fraction.": "いちばん小さい値で割ると、整数でない比が出ました（小数部分が約 .33 か .67）。丸めてはいけません。すべての比に 3 をかけて、端数をなくしましょう。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Dividing by the smallest gave a ratio that is not whole (it ends in about .25 or .75). Do not round it. Multiply every ratio by 4 to clear the fraction.": "",
+    "Dividing by the smallest gave a ratio that is not whole (it ends in about .25 or .75). Do not round it. Multiply every ratio by 4 to clear the fraction.": "いちばん小さい値で割ると、整数でない比が出ました（小数部分が約 .25 か .75）。丸めてはいけません。すべての比に 4 をかけて、端数をなくしましょう。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Dividing by the smallest gave a ratio that is not whole (it ends in about .2, .4, .6 or .8). Do not round it. Multiply every ratio by 5 to clear the fraction.": "",
+    "Dividing by the smallest gave a ratio that is not whole (it ends in about .2, .4, .6 or .8). Do not round it. Multiply every ratio by 5 to clear the fraction.": "いちばん小さい値で割ると、整数でない比が出ました（小数部分が約 .2、.4、.6、.8 のどれか）。丸めてはいけません。すべての比に 5 をかけて、端数をなくしましょう。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Dividing by the smallest gave a ratio that is not whole (it ends in about .17 or .83). Do not round it. Multiply every ratio by 6 to clear the fraction.": "",
+    "Dividing by the smallest gave a ratio that is not whole (it ends in about .17 or .83). Do not round it. Multiply every ratio by 6 to clear the fraction.": "いちばん小さい値で割ると、整数でない比が出ました（小数部分が約 .17 か .83）。丸めてはいけません。すべての比に 6 をかけて、端数をなくしましょう。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type of data": "",
+    "Type of data": "データの種類",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Masses or percentages": "",
+    "Masses or percentages": "質量または百分率",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Combustion analysis": "",
+    "Combustion analysis": "元素分析（燃焼法）",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Values are": "",
+    "Values are": "値の種類",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "percentages by mass": "",
+    "percentages by mass": "質量百分率",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "masses in g": "",
+    "masses in g": "質量 (g)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Load an example": "",
+    "Load an example": "例を読み込む",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Elements and their values": "",
+    "Elements and their values": "元素とその値",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Element {n}": "",
+    "Element {n}": "元素 {n}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Value {n}": "",
+    "Value {n}": "値 {n}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Combustion data": "",
+    "Combustion data": "燃焼のデータ",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass of compound / g": "",
+    "Mass of compound / g": "化合物の質量 / g",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass of CO<sub>2</sub> formed / g": "",
+    "Mass of CO<sub>2</sub> formed / g": "できた CO<sub>2</sub> の質量 / g",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass of H<sub>2</sub>O formed / g": "",
+    "Mass of H<sub>2</sub>O formed / g": "できた H<sub>2</sub>O の質量 / g",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Molar mass, if known / g mol<sup>−1</sup> (optional)": "",
+    "Molar mass, if known / g mol<sup>−1</sup> (optional)": "モル質量（わかる場合）/ g mol<sup>−1</sup>（任意）",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Empirical formula mass": "",
+    "Empirical formula mass": "組成式の質量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "“{sym}” is not an element symbol with a relative atomic mass in this tool. Check the spelling.": "",
+    "“{sym}” is not an element symbol with a relative atomic mass in this tool. Check the spelling.": "「{sym}」は、このツールに相対原子質量が入っている元素記号ではありません。つづりを確かめましょう。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type a positive percentage for {sym}.": "",
+    "Type a positive percentage for {sym}.": "{sym} には正の百分率を入力しましょう。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type a positive mass for {sym}.": "",
+    "Type a positive mass for {sym}.": "{sym} には正の質量を入力しましょう。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{sym} appears twice. Give each element one row.": "",
+    "{sym} appears twice. Give each element one row.": "{sym} が 2 回出てきます。1 つの元素は 1 行にまとめましょう。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Enter at least two elements.": "",
+    "Enter at least two elements.": "元素を 2 つ以上入力しましょう。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "% by mass": "",
+    "% by mass": "質量 %",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Your percentages add up to {sum} %, not 100 %. If one element (often oxygen) is not given, find it by difference: 100 − the others.": "",
+    "Your percentages add up to {sum} %, not 100 %. If one element (often oxygen) is not given, find it by difference: 100 − the others.": "百分率の合計が {sum} % で、100 % になっていません。与えられていない元素（酸素のことが多い）があるなら、差で求めます：100 − ほかの元素の合計。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Percentages: imagine 100 g of the compound. Then {p} % means {p} g.": "",
+    "Percentages: imagine 100 g of the compound. Then {p} % means {p} g.": "百分率：化合物が 100 g あると考えます。すると {p} % は {p} g です。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type the three masses in grams.": "",
+    "Type the three masses in grams.": "3 つの質量をグラムで入力しましょう。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "mass of C = {calc}": "",
+    "mass of C = {calc}": "C の質量 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "mass of H = {calc}": "",
+    "mass of H = {calc}": "H の質量 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The carbon and hydrogen add up to more than the sample mass. Check the three masses.": "",
+    "The carbon and hydrogen add up to more than the sample mass. Check the three masses.": "炭素と水素の合計が、試料の質量より大きくなっています。3 つの質量を確かめましょう。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "mass of O = {calc}": "",
+    "mass of O = {calc}": "O の質量 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "mass of O = {calc}, which is zero within rounding": "",
+    "mass of O = {calc}, which is zero within rounding": "O の質量 = {calc}（丸めの範囲で 0）",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "All the carbon ends up in CO<sub>2</sub> and all the hydrogen ends up in H<sub>2</sub>O. Oxygen cannot be found this way because extra oxygen came from the air, so it is found by difference.": "",
+    "All the carbon ends up in CO<sub>2</sub> and all the hydrogen ends up in H<sub>2</sub>O. Oxygen cannot be found this way because extra oxygen came from the air, so it is found by difference.": "炭素はすべて CO<sub>2</sub> に、水素はすべて H<sub>2</sub>O に入ります。酸素はこの方法では求められません。空気からも酸素が加わっているからです。だから酸素は差で求めます。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "All the carbon ends up in CO<sub>2</sub> and all the hydrogen ends up in H<sub>2</sub>O. Here they account for the whole sample, so there is no oxygen: the compound is a hydrocarbon.": "",
+    "All the carbon ends up in CO<sub>2</sub> and all the hydrogen ends up in H<sub>2</sub>O. Here they account for the whole sample, so there is no oxygen: the compound is a hydrocarbon.": "炭素はすべて CO<sub>2</sub> に、水素はすべて H<sub>2</sub>O に入ります。ここでは、この 2 つで試料の質量がすべて説明できるので、酸素はありません。この化合物は炭化水素です。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "÷ smallest": "",
+    "÷ smallest": "÷ 最小値",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Whole number": "",
+    "Whole number": "整数",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The table method": "",
+    "The table method": "表を使う方法",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "These ratios are not close to whole numbers, even after multiplying by 2, 3, 4, 5 or 6. Check the data, and check that no element is missing.": "",
+    "These ratios are not close to whole numbers, even after multiplying by 2, 3, 4, 5 or 6. Check the data, and check that no element is missing.": "2、3、4、5、6 のどれをかけても、比が整数に近くなりません。データを確かめましょう。足りない元素がないかも確かめましょう。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Some ratios are a little away from whole numbers. Experimental data are never exact, so values within about 0.1 are rounded.": "",
+    "Some ratios are a little away from whole numbers. Experimental data are never exact, so values within about 0.1 are rounded.": "整数から少しずれている比があります。実験のデータはぴったりにはならないので、約 0.1 以内の値は丸めます。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "empirical formula = {formula}": "",
+    "empirical formula = {formula}": "組成式 = {formula}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "empirical formula mass = {calc}": "",
+    "empirical formula mass = {calc}": "組成式の質量 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "<i>M</i> ÷ empirical formula mass = {calc}": "",
+    "<i>M</i> ÷ empirical formula mass = {calc}": "<i>M</i> ÷ 組成式の質量 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "molecular formula = the empirical formula = {formula}": "",
+    "molecular formula = the empirical formula = {formula}": "分子式 = 組成式 = {formula}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "molecular formula = {calc}": "",
+    "molecular formula = {calc}": "分子式 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "That is not close to a whole number, so this molar mass does not fit this empirical formula. Check both.": "",
+    "That is not close to a whole number, so this molar mass does not fit this empirical formula. Check both.": "整数に近くありません。このモル質量は、この組成式と合っていません。両方を確かめましょう。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "needs the molar mass": "",
+    "needs the molar mass": "モル質量が必要",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "the mark": "",
+    "the mark": "標線",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "hydrated copper(II) sulfate": "",
+    "hydrated copper(II) sulfate": "硫酸銅(II) の水和物",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "sodium carbonate": "",
+    "sodium carbonate": "炭酸ナトリウム",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "sodium hydroxide": "",
+    "sodium hydroxide": "水酸化ナトリウム",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Task": "",
+    "Task": "課題",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Make a standard solution": "",
+    "Make a standard solution": "標準溶液をつくる",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Dilute a stock solution": "",
+    "Dilute a stock solution": "原液をうすめる",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Solute": "",
+    "Solute": "溶質",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass of solute": "",
+    "Mass of solute": "溶質の質量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volumetric flask": "",
+    "Volumetric flask": "メスフラスコ",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Stock concentration, C₁": "",
+    "Stock concentration, C₁": "原液の濃度 C₁",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volume taken by pipette, V₁": "",
+    "Volume taken by pipette, V₁": "ホールピペットではかり取る体積 V₁",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volumetric flask, V₂": "",
+    "Volumetric flask, V₂": "メスフラスコ V₂",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volumetric flask filled to the graduation mark": "",
+    "Volumetric flask filled to the graduation mark": "標線まで満たしたメスフラスコ",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Amount of solute": "",
+    "Amount of solute": "溶質の物質量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Molar concentration": "",
+    "Molar concentration": "モル濃度",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass concentration": "",
+    "Mass concentration": "質量濃度",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{m} g of solute": "",
+    "{m} g of solute": "溶質 {m} g",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "weighed on a balance": "",
+    "weighed on a balance": "電子てんびんではかる",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "dissolve,": "",
+    "dissolve,": "溶かして、",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "make up": "",
+    "make up": "水を加える",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "to the mark": "",
+    "to the mark": "（標線まで）",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{v} cm³ flask": "",
+    "{v} cm³ flask": "{v} cm³ フラスコ",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "blue solution": "",
+    "blue solution": "青色の溶液",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "colourless solution": "",
+    "colourless solution": "無色の溶液",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "A balance with {m} g of {name} and a {v} cm3 volumetric flask filled to the graduation mark": "",
+    "A balance with {m} g of {name} and a {v} cm3 volumetric flask filled to the graduation mark": "{name} {m} g をのせた電子てんびんと、標線まで満たした {v} cm3 のメスフラスコ",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "mass concentration = {calc}": "",
+    "mass concentration = {calc}": "質量濃度 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The solid weighed is the hydrate, so its molar mass includes the five waters. One mole of the hydrate gives one mole of CuSO<sub>4</sub> in solution. Check: {C} × {M} = {G}.": "",
+    "The solid weighed is the hydrate, so its molar mass includes the five waters. One mole of the hydrate gives one mole of CuSO<sub>4</sub> in solution. Check: {C} × {M} = {G}.": "はかる固体は水和物なので、そのモル質量には水 5 分子が含まれます。水和物 1 モルから、溶液中に CuSO<sub>4</sub> が 1 モルできます。確認：{C} × {M} = {G}。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Check: {C} × {M} = {G}.": "",
+    "Check: {C} × {M} = {G}.": "確認：{C} × {M} = {G}。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{G} <span class=\"mole-unitnote\">(of hydrate)</span>": "",
+    "{G} <span class=\"mole-unitnote\">(of hydrate)</span>": "{G} <span class=\"mole-unitnote\">（水和物として）</span>",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "stock solution": "",
+    "stock solution": "原液",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "pipette": "",
+    "pipette": "ホールピペット",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "add water": "",
+    "add water": "水を加える",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "A beaker of stock solution, and a {v} cm3 volumetric flask holding the paler diluted solution": "",
+    "A beaker of stock solution, and a {v} cm3 volumetric flask holding the paler diluted solution": "原液の入ったビーカーと、色のうすい希釈後の溶液が入った {v} cm3 のメスフラスコ",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "dilution factor = {calc}": "",
+    "dilution factor = {calc}": "希釈倍率 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The amount of solute does not change: {n} mol leaves the pipette and {n} mol is in the flask. Only the volume changes. The volumes can stay in cm<sup>3</sup> here because the same unit is on both sides.": "",
+    "The amount of solute does not change: {n} mol leaves the pipette and {n} mol is in the flask. Only the volume changes. The volumes can stay in cm<sup>3</sup> here because the same unit is on both sides.": "溶質の物質量は変わりません。ホールピペットから {n} mol が出て、フラスコの中に {n} mol があります。変わるのは体積だけです。ここでは両辺の単位が同じなので、体積は cm<sup>3</sup> のままでかまいません。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "diluted {factor} times": "",
+    "diluted {factor} times": "{factor} 倍に希釈",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Absorbance of the unknown": "",
+    "Absorbance of the unknown": "未知の溶液の吸光度",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Calibration curve: absorbance against concentration for six standard solutions, with a straight line of best fit": "",
+    "Calibration curve: absorbance against concentration for six standard solutions, with a straight line of best fit": "検量線。6 つの標準溶液の吸光度を濃度に対してプロットし、最もよく合う直線を引いたグラフ",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Absorbance measured": "",
+    "Absorbance measured": "測定した吸光度",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Concentration read from the line": "",
+    "Concentration read from the line": "直線から読み取った濃度",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "concentration / mol dm⁻³": "",
+    "concentration / mol dm⁻³": "濃度 / mol dm⁻³",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "absorbance": "",
+    "absorbance": "吸光度",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Reaction": "",
+    "Reaction": "反応",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Gas whose volume you set": "",
+    "Gas whose volume you set": "体積を決める気体",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Its volume": "",
+    "Its volume": "その体積",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Boxes of gas whose heights are in proportion to the reacting volumes": "",
+    "Boxes of gas whose heights are in proportion to the reacting volumes": "気体の箱。高さは反応する体積に比例している",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volume ratio of the gases": "",
+    "Volume ratio of the gases": "気体の体積の比",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Gas before": "",
+    "Gas before": "反応前の気体",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Gas after": "",
+    "Gas after": "反応後の気体",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "liquid:": "",
+    "liquid:": "液体：",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "not a gas": "",
+    "not a gas": "気体ではない",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "you set this": "",
+    "you set this": "自分で決めた値",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Same temperature and pressure, so the volume ratio of the gases equals the mole ratio in the equation. Multiply by (coefficient wanted ÷ coefficient given).": "",
+    "Same temperature and pressure, so the volume ratio of the gases equals the mole ratio in the equation. Multiply by (coefficient wanted ÷ coefficient given).": "温度と圧力が同じなので、気体の体積の比は、化学反応式の物質量の比と同じです。（求めたい気体の係数 ÷ 与えられた気体の係数）をかけます。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The water is a liquid here. Its volume is tiny compared with the gases, and Avogadro’s law applies to gases only, so it is left out of the gas volumes.": "",
+    "The water is a liquid here. Its volume is tiny compared with the gases, and Avogadro’s law applies to gases only, so it is left out of the gas volumes.": "ここでは水は液体です。その体積は気体にくらべてごくわずかです。それに、アボガドロの法則が当てはまるのは気体だけです。だから、気体の体積には入れません。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Total gas volume: {before} of reactants becomes {after} of product. Here the total stays the same, because the equation has the same number of gas molecules on each side. That is not true for most reactions.": "",
+    "Total gas volume: {before} of reactants becomes {after} of product. Here the total stays the same, because the equation has the same number of gas molecules on each side. That is not true for most reactions.": "気体の体積の合計：反応物 {before} が生成物 {after} になります。ここでは合計は変わりません。化学反応式の両辺で、気体分子の数が同じだからです。ほとんどの反応では、こうはなりません。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Total gas volume: {before} of reactants becomes {after} of product. Volume is not conserved, because the number of gas molecules changes. Mass is conserved.": "",
+    "Total gas volume: {before} of reactants becomes {after} of product. Volume is not conserved, because the number of gas molecules changes. Mass is conserved.": "気体の体積の合計：反応物 {before} が生成物 {after} になります。体積は保存されません。気体分子の数が変わるからです。質量は保存されます。",
 
   }
 });
