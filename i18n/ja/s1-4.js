@@ -1080,471 +1080,471 @@ S1.i18n.register('ja', 's1-4', {
     "Convert every volume from cm<sup>3</sup> to dm<sup>3</sup> by dividing by 1000. Write this as its own line.": "体積はすべて、1000 で割って cm<sup>3</sup> から dm<sup>3</sup> に直します。これを、それだけで 1 行として書きます。",
 
     // Concentration of solutions > li
-    "If you have a mass of solute, convert it to moles with <i>n</i> = <i>m</i> ÷ <i>M</i>.": "",
+    "If you have a mass of solute, convert it to moles with <i>n</i> = <i>m</i> ÷ <i>M</i>.": "溶質が質量で与えられていたら、<i>n</i> = <i>m</i> ÷ <i>M</i> でモルに変換します。",
 
     // Concentration of solutions > li
-    "Use <i>n</i> = <i>CV</i>, rearranged for what you want.": "",
+    "Use <i>n</i> = <i>CV</i>, rearranged for what you want.": "<i>n</i> = <i>CV</i> を、求めたい量に合わせて変形して使います。",
 
     // Concentration of solutions > li
-    "Check the size of the answer, round, and write the unit.": "",
+    "Check the size of the answer, round, and write the unit.": "答えの大きさを確かめ、丸めて、単位を書きます。",
 
     // Concentration of solutions > worked example > h3
-    "Concentration from mass and volume": "",
+    "Concentration from mass and volume": "質量と体積から濃度を求める",
 
     // Concentration of solutions > worked example > p
-    "5.85 g of sodium chloride, <span class=\"chem\">NaCl</span>, is dissolved in distilled water and the solution is made up to 250.0 cm<sup>3</sup>. Calculate the concentration in mol dm<sup>−3</sup> and in g dm<sup>−3</sup>.": "",
+    "5.85 g of sodium chloride, <span class=\"chem\">NaCl</span>, is dissolved in distilled water and the solution is made up to 250.0 cm<sup>3</sup>. Calculate the concentration in mol dm<sup>−3</sup> and in g dm<sup>−3</sup>.": "塩化ナトリウム <span class=\"chem\">NaCl</span> 5.85 g を蒸留水に溶かし、溶液の体積を 250.0 cm<sup>3</sup> にします。濃度を mol dm<sup>−3</sup> と g dm<sup>−3</sup> で計算しなさい。",
 
     // Concentration of solutions > worked example > data-title attribute
-    "Convert the volume to dm³": "",
+    "Convert the volume to dm³": "体積を dm³ に直す",
 
     // Concentration of solutions > worked example > p
-    "<i>n</i> = <i>CV</i> only works with the volume in dm<sup>3</sup>.": "",
+    "<i>n</i> = <i>CV</i> only works with the volume in dm<sup>3</sup>.": "<i>n</i> = <i>CV</i> は、体積が dm<sup>3</sup> のときだけ使えます。",
 
     // Concentration of solutions > worked example > data-title attribute
-    "Convert the mass to moles": "",
+    "Convert the mass to moles": "質量をモルに変換する",
 
     // Concentration of solutions > worked example > p
-    "Molar concentration needs an amount in mol, not a mass.": "",
+    "Molar concentration needs an amount in mol, not a mass.": "モル濃度に必要なのは、質量ではなく、mol で表した物質量です。",
 
     // Concentration of solutions > worked example > data-title attribute
-    "Divide amount by volume": "",
+    "Divide amount by volume": "物質量を体積で割る",
 
     // Concentration of solutions > worked example > p
-    "Rearranging <i>n</i> = <i>CV</i> gives <i>C</i> = <i>n</i> ÷ <i>V</i>.": "",
+    "Rearranging <i>n</i> = <i>CV</i> gives <i>C</i> = <i>n</i> ÷ <i>V</i>.": "<i>n</i> = <i>CV</i> を変形すると、<i>C</i> = <i>n</i> ÷ <i>V</i> になります。",
 
     // Concentration of solutions > worked example > p
-    "The mass has 3 significant figures, the fewest in the data.": "",
+    "The mass has 3 significant figures, the fewest in the data.": "質量は有効数字 3 桁で、データの中でいちばん少ない桁数です。",
 
     // Concentration of solutions > worked example > data-title attribute
-    "Find the mass concentration": "",
+    "Find the mass concentration": "質量濃度を求める",
 
     // Concentration of solutions > worked example > p
-    "Mass per volume uses the mass directly. There is no need to go through moles.": "",
+    "Mass per volume uses the mass directly. There is no need to go through moles.": "体積あたりの質量には、質量をそのまま使います。モルを通る必要はありません。",
 
     // Concentration of solutions > worked example > p
-    "0.400 mol dm<sup>−3</sup>, which is 23.4 g dm<sup>−3</sup>": "",
+    "0.400 mol dm<sup>−3</sup>, which is 23.4 g dm<sup>−3</sup>": "0.400 mol dm<sup>−3</sup>。質量濃度では 23.4 g dm<sup>−3</sup>",
 
     // Concentration of solutions > common mistake > p
-    "Dividing by 250 instead of 0.2500 gives 0.000400, an answer 1000 times too small. Mixing up the two units is also common. For the same solution, the value in <span class=\"unit\">g dm-3</span> is always the bigger number, because every molar mass is greater than 1 g mol<sup>−1</sup>.": "",
+    "Dividing by 250 instead of 0.2500 gives 0.000400, an answer 1000 times too small. Mixing up the two units is also common. For the same solution, the value in <span class=\"unit\">g dm-3</span> is always the bigger number, because every molar mass is greater than 1 g mol<sup>−1</sup>.": "0.2500 ではなく 250 で割ると、0.000400 になります。答えが 1000 分の 1 になってしまいます。2 つの単位を取り違えるミスもよくあります。同じ溶液なら、<span class=\"unit\">g dm-3</span> で表した値のほうが必ず大きな数になります。どのモル質量も 1 g mol<sup>−1</sup> より大きいからです。",
 
     // Concentration of solutions > try it > p
-    "Calculate the amount, in mol, of solute in 20.0 cm<sup>3</sup> of a 0.150 mol dm<sup>−3</sup> solution.": "",
+    "Calculate the amount, in mol, of solute in 20.0 cm<sup>3</sup> of a 0.150 mol dm<sup>−3</sup> solution.": "0.150 mol dm<sup>−3</sup> の溶液 20.0 cm<sup>3</sup> に含まれる溶質の物質量を、mol で計算しなさい。",
 
     // Concentration of solutions > try it > li
-    "Which relationship links amount, concentration and volume? What unit must the volume be in?": "",
+    "Which relationship links amount, concentration and volume? What unit must the volume be in?": "物質量、濃度、体積をつなぐ関係はどれですか。体積の単位は何でなければなりませんか。",
 
     // Concentration of solutions > try it > li
-    "<i>V</i> = 20.0 ÷ 1000 = 0.0200 dm<sup>3</sup>. Then <i>n</i> = <i>C</i> × <i>V</i>.": "",
+    "<i>V</i> = 20.0 ÷ 1000 = 0.0200 dm<sup>3</sup>. Then <i>n</i> = <i>C</i> × <i>V</i>.": "<i>V</i> = 20.0 ÷ 1000 = 0.0200 dm<sup>3</sup> です。次に <i>n</i> = <i>C</i> × <i>V</i> を使います。",
 
     // Concentration of solutions > try it > p
-    "<strong>0.00300 mol</strong>, or 3.00 × 10<sup>−3</sup> mol.": "",
+    "<strong>0.00300 mol</strong>, or 3.00 × 10<sup>−3</sup> mol.": "<strong>0.00300 mol</strong>、つまり 3.00 × 10<sup>−3</sup> mol です。",
 
     // Concentration of solutions > try it > p
-    "1.20 g of sodium hydroxide, <span class=\"chem\">NaOH</span>, is dissolved and made up to 250.0 cm<sup>3</sup> of solution. Calculate [NaOH]. (<i>M</i>(NaOH) = 40.00 g mol<sup>−1</sup>)": "",
+    "1.20 g of sodium hydroxide, <span class=\"chem\">NaOH</span>, is dissolved and made up to 250.0 cm<sup>3</sup> of solution. Calculate [NaOH]. (<i>M</i>(NaOH) = 40.00 g mol<sup>−1</sup>)": "水酸化ナトリウム <span class=\"chem\">NaOH</span> 1.20 g を溶かし、溶液の体積を 250.0 cm<sup>3</sup> にします。[NaOH] を計算しなさい。（<i>M</i>(NaOH) = 40.00 g mol<sup>−1</sup>）",
 
     // Concentration of solutions > try it > li
-    "Two conversions are needed before you can divide: mass to moles, and cm<sup>3</sup> to dm<sup>3</sup>.": "",
+    "Two conversions are needed before you can divide: mass to moles, and cm<sup>3</sup> to dm<sup>3</sup>.": "割り算の前に、換算が 2 つ必要です。質量からモルへ、そして cm<sup>3</sup> から dm<sup>3</sup> へ。",
 
     // Concentration of solutions > try it > li
-    "<i>n</i> = 1.20 ÷ 40.00 = 0.0300 mol and <i>V</i> = 0.2500 dm<sup>3</sup>. Now <i>C</i> = <i>n</i> ÷ <i>V</i>.": "",
+    "<i>n</i> = 1.20 ÷ 40.00 = 0.0300 mol and <i>V</i> = 0.2500 dm<sup>3</sup>. Now <i>C</i> = <i>n</i> ÷ <i>V</i>.": "<i>n</i> = 1.20 ÷ 40.00 = 0.0300 mol、<i>V</i> = 0.2500 dm<sup>3</sup> です。あとは <i>C</i> = <i>n</i> ÷ <i>V</i> です。",
 
     // Concentration of solutions > try it > p
-    "<strong>0.120 mol dm<sup>−3</sup></strong>": "",
+    "<strong>0.120 mol dm<sup>−3</sup></strong>": "<strong>0.120 mol dm<sup>−3</sup></strong>",
 
     // Concentration of solutions > try it > p
-    "A bottle is labelled “sodium hydroxide, 8.00 g dm<sup>−3</sup>”. Convert this to a molar concentration. (<i>M</i>(NaOH) = 40.00 g mol<sup>−1</sup>)": "",
+    "A bottle is labelled “sodium hydroxide, 8.00 g dm<sup>−3</sup>”. Convert this to a molar concentration. (<i>M</i>(NaOH) = 40.00 g mol<sup>−1</sup>)": "びんのラベルに「水酸化ナトリウム、8.00 g dm<sup>−3</sup>」と書いてあります。これをモル濃度に直しなさい。（<i>M</i>(NaOH) = 40.00 g mol<sup>−1</sup>）",
 
     // Concentration of solutions > try it > li
-    "Going from grams to moles: do you multiply or divide by the molar mass?": "",
+    "Going from grams to moles: do you multiply or divide by the molar mass?": "グラムからモルへ進みます。モル質量をかけますか、それともモル質量で割りますか。",
 
     // Concentration of solutions > try it > li
-    "Divide: <span class=\"mono\">8.00 g dm<sup>−3</sup> ÷ 40.00 g mol<sup>−1</sup></span>.": "",
+    "Divide: <span class=\"mono\">8.00 g dm<sup>−3</sup> ÷ 40.00 g mol<sup>−1</sup></span>.": "割ります：<span class=\"mono\">8.00 g dm<sup>−3</sup> ÷ 40.00 g mol<sup>−1</sup></span>。",
 
     // Concentration of solutions > try it > p
-    "<strong>0.200 mol dm<sup>−3</sup></strong>. The units confirm it: g dm<sup>−3</sup> ÷ g mol<sup>−1</sup> = mol dm<sup>−3</sup>.": "",
+    "<strong>0.200 mol dm<sup>−3</sup></strong>. The units confirm it: g dm<sup>−3</sup> ÷ g mol<sup>−1</sup> = mol dm<sup>−3</sup>.": "<strong>0.200 mol dm<sup>−3</sup></strong> です。単位でも確かめられます：g dm<sup>−3</sup> ÷ g mol<sup>−1</sup> = mol dm<sup>−3</sup>。",
 
     // Concentration of solutions > h3
-    "Concentration of the ions": "",
+    "Concentration of the ions": "イオンの濃度",
 
     // Concentration of solutions > p
-    "When an ionic compound dissolves, its ions separate. The formula tells you how many of each you get. One <span class=\"chem\">MgCl2</span> gives one <span class=\"chem\">Mg^2+</span> and two <span class=\"chem\">Cl-</span>. So in 0.150 mol dm<sup>−3</sup> <span class=\"chem\">MgCl2</span>, <span class=\"mono\">[Mg<sup>2+</sup>] = 0.150 mol dm<sup>−3</sup></span> and <span class=\"mono\">[Cl<sup>−</sup>] = 2 × 0.150 = 0.300 mol dm<sup>−3</sup></span>.": "",
+    "When an ionic compound dissolves, its ions separate. The formula tells you how many of each you get. One <span class=\"chem\">MgCl2</span> gives one <span class=\"chem\">Mg^2+</span> and two <span class=\"chem\">Cl-</span>. So in 0.150 mol dm<sup>−3</sup> <span class=\"chem\">MgCl2</span>, <span class=\"mono\">[Mg<sup>2+</sup>] = 0.150 mol dm<sup>−3</sup></span> and <span class=\"mono\">[Cl<sup>−</sup>] = 2 × 0.150 = 0.300 mol dm<sup>−3</sup></span>.": "イオン化合物が溶けると、イオンはばらばらになります。それぞれのイオンがいくつできるかは、化学式からわかります。<span class=\"chem\">MgCl2</span> 1 つから、<span class=\"chem\">Mg^2+</span> が 1 個と <span class=\"chem\">Cl-</span> が 2 個できます。だから 0.150 mol dm<sup>−3</sup> の <span class=\"chem\">MgCl2</span> では、<span class=\"mono\">[Mg<sup>2+</sup>] = 0.150 mol dm<sup>−3</sup></span>、<span class=\"mono\">[Cl<sup>−</sup>] = 2 × 0.150 = 0.300 mol dm<sup>−3</sup></span> です。",
 
     // Concentration of solutions > data-title attribute
-    "Concentration calculations: quick check": "",
+    "Concentration calculations: quick check": "濃度の計算：確認クイズ",
 
     // Concentration of solutions > h3
-    "Making a standard solution": "",
+    "Making a standard solution": "標準溶液をつくる",
 
     // Concentration of solutions > p
-    "A <dfn data-def=\"A solution whose concentration is known accurately.\">standard solution</dfn> is one whose concentration is known accurately. It is made in a <dfn data-def=\"A flask with a long narrow neck and a single graduation mark. It holds one accurately known volume, such as 250.0 cm^3.\">volumetric flask</dfn>, which has a single mark on a narrow neck and holds one precise volume.": "",
+    "A <dfn data-def=\"A solution whose concentration is known accurately.\">standard solution</dfn> is one whose concentration is known accurately. It is made in a <dfn data-def=\"A flask with a long narrow neck and a single graduation mark. It holds one accurately known volume, such as 250.0 cm^3.\">volumetric flask</dfn>, which has a single mark on a narrow neck and holds one precise volume.": "<dfn data-def=\"濃度が正確にわかっている溶液です。\">標準溶液 <span class=\"en-term\">(standard solution)</span></dfn>は、濃度が正確にわかっている溶液です。<dfn data-def=\"細長い首に標線が 1 本だけあるフラスコです。250.0 cm^3 のように、正確に決まった 1 つの体積をはかれます。\">メスフラスコ <span class=\"en-term\">(volumetric flask)</span></dfn>を使ってつくります。メスフラスコは、細い首に標線が 1 本だけあり、決まった 1 つの体積を精密にはかれます。",
 
     // Concentration of solutions > data-def attribute
-    "A solution whose concentration is known accurately.": "",
+    "A solution whose concentration is known accurately.": "濃度が正確にわかっている溶液です。",
 
     // Concentration of solutions > data-def attribute
-    "A flask with a long narrow neck and a single graduation mark. It holds one accurately known volume, such as 250.0 cm^3.": "",
+    "A flask with a long narrow neck and a single graduation mark. It holds one accurately known volume, such as 250.0 cm^3.": "細長い首に標線が 1 本だけあるフラスコです。250.0 cm^3 のように、正確に決まった 1 つの体積をはかれます。",
 
     // Concentration of solutions > widget > data-title attribute
-    "Solution lab": "",
+    "Solution lab": "溶液ラボ",
 
     // Concentration of solutions > widget > figcaption
-    "Choose a solute, a mass and a flask to see both concentrations with the working. Switch the task to “Dilute a stock solution” to explore <i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub>. Flask sizes are drawn roughly to scale. The depth of shading is illustrative: it shows “more concentrated” or “less concentrated”, not a measured colour.": "",
+    "Choose a solute, a mass and a flask to see both concentrations with the working. Switch the task to “Dilute a stock solution” to explore <i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub>. Flask sizes are drawn roughly to scale. The depth of shading is illustrative: it shows “more concentrated” or “less concentrated”, not a measured colour.": "溶質、質量、フラスコを選ぶと、2 つの濃度が途中の計算と一緒に表示されます。課題を「原液をうすめる」に切り替えると、<i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub> を調べられます。フラスコの大きさは、おおよその比率で描いてあります。色の濃さはイメージです。「より濃い」「よりうすい」を示すもので、実際に測定した色ではありません。",
 
     // Concentration of solutions > worked example > h3
-    "Mass needed for a standard solution": "",
+    "Mass needed for a standard solution": "標準溶液に必要な質量",
 
     // Concentration of solutions > worked example > p
-    "Calculate the mass of anhydrous sodium carbonate, <span class=\"chem\">Na2CO3</span>, needed to prepare 250.0 cm<sup>3</sup> of a 0.1000 mol dm<sup>−3</sup> solution.": "",
+    "Calculate the mass of anhydrous sodium carbonate, <span class=\"chem\">Na2CO3</span>, needed to prepare 250.0 cm<sup>3</sup> of a 0.1000 mol dm<sup>−3</sup> solution.": "0.1000 mol dm<sup>−3</sup> の溶液を 250.0 cm<sup>3</sup> つくるのに必要な、無水炭酸ナトリウム <span class=\"chem\">Na2CO3</span> の質量を計算しなさい。",
 
     // Concentration of solutions > worked example > p
-    "Given: a concentration and a volume. Wanted: a mass. Route: solution → moles → mass.": "",
+    "Given: a concentration and a volume. Wanted: a mass. Route: solution → moles → mass.": "与えられているもの：濃度と体積。求めたいもの：質量。道すじ：溶液 → モル → 質量。",
 
     // Concentration of solutions > worked example > maths line
-    "<i>n</i> = <i>CV</i> &nbsp; then &nbsp; <i>m</i> = <i>n</i> × <i>M</i>": "",
+    "<i>n</i> = <i>CV</i> &nbsp; then &nbsp; <i>m</i> = <i>n</i> × <i>M</i>": "<i>n</i> = <i>CV</i> &nbsp; 次に &nbsp; <i>m</i> = <i>n</i> × <i>M</i>",
 
     // Concentration of solutions > worked example > p
-    "The concentration is per dm<sup>3</sup>, so the volume must match.": "",
+    "The concentration is per dm<sup>3</sup>, so the volume must match.": "濃度は 1 dm<sup>3</sup> あたりの値なので、体積の単位もそれに合わせます。",
 
     // Concentration of solutions > worked example > data-title attribute
-    "Find the amount needed": "",
+    "Find the amount needed": "必要な物質量を求める",
 
     // Concentration of solutions > worked example > p
-    "This is the amount of solute that must end up in the flask.": "",
+    "This is the amount of solute that must end up in the flask.": "これが、フラスコの中に入っていなければならない溶質の物質量です。",
 
     // Concentration of solutions > worked example > data-title attribute
-    "Convert moles to mass": "",
+    "Convert moles to mass": "モルを質量に変換する",
 
     // Concentration of solutions > worked example > p
-    "A balance measures grams, not moles.": "",
+    "A balance measures grams, not moles.": "てんびんではかれるのは、モルではなくグラムです。",
 
     // Concentration of solutions > worked example > p
-    "Standard-solution data are given to 4 significant figures, so the answer is too.": "",
+    "Standard-solution data are given to 4 significant figures, so the answer is too.": "標準溶液のデータは有効数字 4 桁で与えられているので、答えも 4 桁にします。",
 
     // Concentration of solutions > worked example > p
-    "2.650 g of Na<sub>2</sub>CO<sub>3</sub>": "",
+    "2.650 g of Na<sub>2</sub>CO<sub>3</sub>": "Na<sub>2</sub>CO<sub>3</sub> 2.650 g",
 
     // Concentration of solutions > p
-    "Calculating the mass is half the job. You also need to be able to describe the procedure:": "",
+    "Calculating the mass is half the job. You also need to be able to describe the procedure:": "質量の計算は、仕事の半分です。手順を記述する (describe) こともできなければなりません。",
 
     // Concentration of solutions > li
-    "Weigh the solid accurately on a balance.": "",
+    "Weigh the solid accurately on a balance.": "てんびんで固体の質量を正確にはかります。",
 
     // Concentration of solutions > li
-    "Dissolve it in a small volume of <strong>distilled</strong> (or deionized) water in a beaker, stirring until none is left.": "",
+    "Dissolve it in a small volume of <strong>distilled</strong> (or deionized) water in a beaker, stirring until none is left.": "ビーカーの中で、少量の<strong>蒸留水</strong>（または脱イオン水）に溶かします。固体が残らなくなるまでかき混ぜます。",
 
     // Concentration of solutions > li
-    "Pour the solution through a funnel into the volumetric flask. Rinse the beaker, the stirring rod and the funnel with distilled water, and add the <strong>rinsings</strong> to the flask.": "",
+    "Pour the solution through a funnel into the volumetric flask. Rinse the beaker, the stirring rod and the funnel with distilled water, and add the <strong>rinsings</strong> to the flask.": "溶液を、ろうとを使ってメスフラスコに注ぎます。ビーカー、ガラス棒、ろうとを蒸留水で洗い、その<strong>洗液</strong>もフラスコに加えます。",
 
     // Concentration of solutions > li
-    "Add distilled water until the bottom of the meniscus sits on the <strong>mark</strong>. Add the last drops with a dropping pipette.": "",
+    "Add distilled water until the bottom of the meniscus sits on the <strong>mark</strong>. Add the last drops with a dropping pipette.": "メニスカス（液面のくぼみ）の底が<strong>標線</strong>に合うまで、蒸留水を加えます。最後の数滴はスポイトで加えます。",
 
     // Concentration of solutions > li
-    "Stopper the flask and <strong>invert</strong> it several times to mix.": "",
+    "Stopper the flask and <strong>invert</strong> it several times to mix.": "フラスコに栓をして、何回か<strong>逆さにして</strong>混ぜます。",
 
     // Concentration of solutions > exam tip (shown in English + translation) > p
-    "Markschemes reward specific words: <strong>volumetric flask</strong>, <strong>distilled or deionized water</strong>, transfer <strong>with rinsings</strong>, <strong>make up to the mark</strong>, <strong>stopper and invert to mix</strong>. Writing only “water” can lose a mark. “Add 250 cm<sup>3</sup> of water” is wrong chemistry: the flask is filled <em>up to</em> the mark, so the solution, not the water, is 250.0 cm<sup>3</sup>.": "",
+    "Markschemes reward specific words: <strong>volumetric flask</strong>, <strong>distilled or deionized water</strong>, transfer <strong>with rinsings</strong>, <strong>make up to the mark</strong>, <strong>stopper and invert to mix</strong>. Writing only “water” can lose a mark. “Add 250 cm<sup>3</sup> of water” is wrong chemistry: the flask is filled <em>up to</em> the mark, so the solution, not the water, is 250.0 cm<sup>3</sup>.": "マークスキームでは、決まった言葉を書くと点になります。<strong>メスフラスコ</strong>、<strong>蒸留水または脱イオン水</strong>、<strong>洗液ごと</strong>移す、<strong>標線まで水を加える</strong>、<strong>栓をして逆さにして混ぜる</strong>、です。「水」とだけ書くと、点を失うことがあります。「水を 250 cm<sup>3</sup> 加える」は、化学として間違いです。フラスコは標線<em>まで</em>満たします。だから 250.0 cm<sup>3</sup> なのは、水ではなく溶液です。",
 
     // Concentration of solutions > try it > p
-    "Calculate the mass of hydrated copper(II) sulfate, <span class=\"chem\">CuSO4.5H2O</span>, needed to prepare 100.0 cm<sup>3</sup> of a 0.200 mol dm<sup>−3</sup> solution. (<i>M</i>(<span class=\"chem\">CuSO4.5H2O</span>) = 249.72 g mol<sup>−1</sup>)": "",
+    "Calculate the mass of hydrated copper(II) sulfate, <span class=\"chem\">CuSO4.5H2O</span>, needed to prepare 100.0 cm<sup>3</sup> of a 0.200 mol dm<sup>−3</sup> solution. (<i>M</i>(<span class=\"chem\">CuSO4.5H2O</span>) = 249.72 g mol<sup>−1</sup>)": "0.200 mol dm<sup>−3</sup> の溶液を 100.0 cm<sup>3</sup> つくるのに必要な、硫酸銅(II) の水和物 <span class=\"chem\">CuSO4.5H2O</span> の質量を計算しなさい。（<i>M</i>(<span class=\"chem\">CuSO4.5H2O</span>) = 249.72 g mol<sup>−1</sup>）",
 
     // Concentration of solutions > try it > li
-    "Route: solution → moles → mass. Start by converting 100.0 cm<sup>3</sup> to dm<sup>3</sup>.": "",
+    "Route: solution → moles → mass. Start by converting 100.0 cm<sup>3</sup> to dm<sup>3</sup>.": "道すじ：溶液 → モル → 質量。まず 100.0 cm<sup>3</sup> を dm<sup>3</sup> に直しましょう。",
 
     // Concentration of solutions > try it > li
-    "<i>n</i> = 0.200 × 0.1000 = 0.0200 mol. Then <i>m</i> = <i>n</i> × <i>M</i>, using the molar mass of the hydrate, because that is the solid you weigh.": "",
+    "<i>n</i> = 0.200 × 0.1000 = 0.0200 mol. Then <i>m</i> = <i>n</i> × <i>M</i>, using the molar mass of the hydrate, because that is the solid you weigh.": "<i>n</i> = 0.200 × 0.1000 = 0.0200 mol です。次に <i>m</i> = <i>n</i> × <i>M</i> を使います。モル質量は水和物のものを使います。実際にはかる固体は水和物だからです。",
 
     // Concentration of solutions > try it > p
-    "To 3 significant figures (set by 0.200): <strong>4.99 g</strong>.": "",
+    "To 3 significant figures (set by 0.200): <strong>4.99 g</strong>.": "有効数字 3 桁（0.200 で決まります）で <strong>4.99 g</strong> です。",
 
     // Concentration of solutions > h3
-    "Dilution": "",
+    "Dilution": "希釈",
 
     // Concentration of solutions > p
-    "Adding water to squash makes it weaker, but the syrup is all still there. <dfn data-def=\"Lowering the concentration of a solution by adding more solvent. The amount of solute does not change.\">Dilution</dfn> lowers the concentration by adding solvent. The amount of solute does not change.": "",
+    "Adding water to squash makes it weaker, but the syrup is all still there. <dfn data-def=\"Lowering the concentration of a solution by adding more solvent. The amount of solute does not change.\">Dilution</dfn> lowers the concentration by adding solvent. The amount of solute does not change.": "シロップの飲み物に水を足すと、味はうすくなります。でも、シロップは全部そのまま残っています。<dfn data-def=\"溶媒を加えて、溶液の濃度を下げることです。溶質の物質量は変わりません。\">希釈 <span class=\"en-term\">(dilution)</span></dfn>は、溶媒を加えて濃度を下げることです。溶質の物質量は変わりません。",
 
     // Concentration of solutions > data-def attribute
-    "Lowering the concentration of a solution by adding more solvent. The amount of solute does not change.": "",
+    "Lowering the concentration of a solution by adding more solvent. The amount of solute does not change.": "溶媒を加えて、溶液の濃度を下げることです。溶質の物質量は変わりません。",
 
     // Concentration of solutions > p
-    "Amount before = amount after. Since <i>n</i> = <i>CV</i>, that gives the dilution relationship.": "",
+    "Amount before = amount after. Since <i>n</i> = <i>CV</i>, that gives the dilution relationship.": "希釈前の物質量 = 希釈後の物質量。<i>n</i> = <i>CV</i> なので、ここから希釈の関係式が出てきます。",
 
     // Concentration of solutions > equation > dd
-    "concentration of the stock solution <span class=\"unit\">mol dm-3</span>": "",
+    "concentration of the stock solution <span class=\"unit\">mol dm-3</span>": "原液の濃度 <span class=\"unit\">mol dm-3</span>",
 
     // Concentration of solutions > equation > dd
-    "volume of stock solution taken <span class=\"unit\">cm3</span>": "",
+    "volume of stock solution taken <span class=\"unit\">cm3</span>": "はかり取った原液の体積 <span class=\"unit\">cm3</span>",
 
     // Concentration of solutions > equation > dd
-    "concentration after dilution <span class=\"unit\">mol dm-3</span>": "",
+    "concentration after dilution <span class=\"unit\">mol dm-3</span>": "希釈後の濃度 <span class=\"unit\">mol dm-3</span>",
 
     // Concentration of solutions > equation > dd
-    "final total volume <span class=\"unit\">cm3</span>": "",
+    "final total volume <span class=\"unit\">cm3</span>": "最終的な全体の体積 <span class=\"unit\">cm3</span>",
 
     // Concentration of solutions > p
-    "This relationship is not in the data booklet, so learn where it comes from. The two volumes may both be in cm<sup>3</sup> or both in dm<sup>3</sup>, as long as they match. The <dfn data-def=\"How many times a solution has been diluted: final volume divided by the volume of stock taken.\">dilution factor</dfn> is <i>V</i><sub>2</sub> ÷ <i>V</i><sub>1</sub>. A “10 times” dilution divides the concentration by 10.": "",
+    "This relationship is not in the data booklet, so learn where it comes from. The two volumes may both be in cm<sup>3</sup> or both in dm<sup>3</sup>, as long as they match. The <dfn data-def=\"How many times a solution has been diluted: final volume divided by the volume of stock taken.\">dilution factor</dfn> is <i>V</i><sub>2</sub> ÷ <i>V</i><sub>1</sub>. A “10 times” dilution divides the concentration by 10.": "この関係はデータブックレットに載っていません。どこから出てくるのかを理解して覚えましょう。2 つの体積は、単位がそろっていれば、両方 cm<sup>3</sup> でも両方 dm<sup>3</sup> でもかまいません。<dfn data-def=\"溶液を何倍にうすめたかを表す値です。最終的な体積を、はかり取った原液の体積で割ります。\">希釈倍率 <span class=\"en-term\">(dilution factor)</span></dfn>は <i>V</i><sub>2</sub> ÷ <i>V</i><sub>1</sub> です。「10 倍」の希釈では、濃度は 10 分の 1 になります。",
 
     // Concentration of solutions > data-def attribute
-    "How many times a solution has been diluted: final volume divided by the volume of stock taken.": "",
+    "How many times a solution has been diluted: final volume divided by the volume of stock taken.": "溶液を何倍にうすめたかを表す値です。最終的な体積を、はかり取った原液の体積で割ります。",
 
     // Concentration of solutions > worked example > h3
-    "Volume of stock solution for a dilution": "",
+    "Volume of stock solution for a dilution": "希釈に必要な原液の体積",
 
     // Concentration of solutions > worked example > p
-    "What volume of 2.00 mol dm<sup>−3</sup> hydrochloric acid is needed to prepare 250.0 cm<sup>3</sup> of 0.100 mol dm<sup>−3</sup> hydrochloric acid?": "",
+    "What volume of 2.00 mol dm<sup>−3</sup> hydrochloric acid is needed to prepare 250.0 cm<sup>3</sup> of 0.100 mol dm<sup>−3</sup> hydrochloric acid?": "0.100 mol dm<sup>−3</sup> の塩酸を 250.0 cm<sup>3</sup> つくるには、2.00 mol dm<sup>−3</sup> の塩酸が何 cm<sup>3</sup> 必要ですか。",
 
     // Concentration of solutions > worked example > data-title attribute
-    "Label the four quantities": "",
+    "Label the four quantities": "4 つの量に名前を付ける",
 
     // Concentration of solutions > worked example > p
-    "“1” is the stock solution you start with. “2” is the diluted solution you end with. The unknown is <i>V</i><sub>1</sub>.": "",
+    "“1” is the stock solution you start with. “2” is the diluted solution you end with. The unknown is <i>V</i><sub>1</sub>.": "「1」は、最初にある原液です。「2」は、できあがる希釈後の溶液です。わからないのは <i>V</i><sub>1</sub> です。",
 
     // Concentration of solutions > worked example > data-title attribute
-    "Rearrange for the unknown": "",
+    "Rearrange for the unknown": "求めたい量について式を変形する",
 
     // Concentration of solutions > worked example > p
-    "The amount of HCl is the same before and after: <i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub>.": "",
+    "The amount of HCl is the same before and after: <i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub>.": "HCl の物質量は、希釈の前後で同じです：<i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub>。",
 
     // Concentration of solutions > worked example > p
-    "The concentration units cancel, so <i>V</i><sub>1</sub> comes out in the same unit as <i>V</i><sub>2</sub>.": "",
+    "The concentration units cancel, so <i>V</i><sub>1</sub> comes out in the same unit as <i>V</i><sub>2</sub>.": "濃度の単位は打ち消し合います。だから <i>V</i><sub>1</sub> は <i>V</i><sub>2</sub> と同じ単位で出てきます。",
 
     // Concentration of solutions > worked example > data-title attribute
-    "Check with the dilution factor": "",
+    "Check with the dilution factor": "希釈倍率で確かめる",
 
     // Concentration of solutions > worked example > data-label attribute
     // Avogadro’s law and reacting gas volumes > worked example > data-label attribute
-    "Check": "",
+    "Check": "確認",
 
     // Concentration of solutions > worked example > p
-    "The concentration falls 20 times (2.00 ÷ 0.100), so the volume must grow 20 times.": "",
+    "The concentration falls 20 times (2.00 ÷ 0.100), so the volume must grow 20 times.": "濃度は 20 分の 1 になります（2.00 ÷ 0.100）。だから体積は 20 倍にならなければなりません。",
 
     // Concentration of solutions > worked example > p
-    "12.5 cm<sup>3</sup> of the 2.00 mol dm<sup>−3</sup> acid": "",
+    "12.5 cm<sup>3</sup> of the 2.00 mol dm<sup>−3</sup> acid": "2.00 mol dm<sup>−3</sup> の塩酸 12.5 cm<sup>3</sup>",
 
     // Concentration of solutions > p
-    "You also need to describe the procedure. Markschemes look for these points:": "",
+    "You also need to describe the procedure. Markschemes look for these points:": "手順を記述することも求められます。マークスキームは、次のポイントを見ます。",
 
     // Concentration of solutions > li
-    "Use a <strong>pipette</strong> (or a burette) to measure the stock solution. A measuring cylinder is not precise enough.": "",
+    "Use a <strong>pipette</strong> (or a burette) to measure the stock solution. A measuring cylinder is not precise enough.": "原液をはかるには、<strong>ピペット</strong>（またはビュレット）を使います。メスシリンダーでは精密さが足りません。",
 
     // Concentration of solutions > li
-    "Run it into a <strong>volumetric flask</strong> of the right size, here 250.0 cm<sup>3</sup>.": "",
+    "Run it into a <strong>volumetric flask</strong> of the right size, here 250.0 cm<sup>3</sup>.": "それを、合った大きさの<strong>メスフラスコ</strong>に入れます。ここでは 250.0 cm<sup>3</sup> のものです。",
 
     // Concentration of solutions > li
-    "Add <strong>distilled water</strong> up to the <strong>mark</strong>.": "",
+    "Add <strong>distilled water</strong> up to the <strong>mark</strong>.": "<strong>標線</strong>まで<strong>蒸留水</strong>を加えます。",
 
     // Concentration of solutions > li
-    "Stopper and invert several times to <strong>mix</strong>.": "",
+    "Stopper and invert several times to <strong>mix</strong>.": "栓をして、何回か逆さにして<strong>混ぜます</strong>。",
 
     // Concentration of solutions > common mistake > p
-    "“Add 237.5 cm<sup>3</sup> of water” is not the right description. <i>V</i><sub>2</sub> is the <em>total</em> final volume, and volumes do not always add exactly. The correct instruction is to make the solution up to the mark.": "",
+    "“Add 237.5 cm<sup>3</sup> of water” is not the right description. <i>V</i><sub>2</sub> is the <em>total</em> final volume, and volumes do not always add exactly. The correct instruction is to make the solution up to the mark.": "「水を 237.5 cm<sup>3</sup> 加える」は、正しい記述ではありません。<i>V</i><sub>2</sub> は最終的な<em>全体の</em>体積です。それに、体積はいつもきっちり足し算になるとは限りません。正しい指示は、「標線まで水を加えて溶液をつくる」です。",
 
     // Concentration of solutions > p
-    "A <dfn data-def=\"A series of dilutions in which each new solution is made by diluting the one before it by the same factor.\">serial dilution</dfn> repeats the same step. Dilute a 1.00 mol dm<sup>−3</sup> stock 10 times to get 0.100 mol dm<sup>−3</sup>. Dilute that 10 times to get 0.0100 mol dm<sup>−3</sup>, and so on. It reaches very low concentrations without measuring tiny volumes.": "",
+    "A <dfn data-def=\"A series of dilutions in which each new solution is made by diluting the one before it by the same factor.\">serial dilution</dfn> repeats the same step. Dilute a 1.00 mol dm<sup>−3</sup> stock 10 times to get 0.100 mol dm<sup>−3</sup>. Dilute that 10 times to get 0.0100 mol dm<sup>−3</sup>, and so on. It reaches very low concentrations without measuring tiny volumes.": "<dfn data-def=\"前の溶液を同じ倍率でうすめて次の溶液をつくることを、繰り返す希釈です。\">段階希釈 <span class=\"en-term\">(serial dilution)</span></dfn>は、同じステップを繰り返します。1.00 mol dm<sup>−3</sup> の原液を 10 倍にうすめると、0.100 mol dm<sup>−3</sup> になります。それをさらに 10 倍にうすめると、0.0100 mol dm<sup>−3</sup> になります。これを続けていきます。ごくわずかな体積をはからなくても、とても低い濃度の溶液をつくれます。",
 
     // Concentration of solutions > data-def attribute
-    "A series of dilutions in which each new solution is made by diluting the one before it by the same factor.": "",
+    "A series of dilutions in which each new solution is made by diluting the one before it by the same factor.": "前の溶液を同じ倍率でうすめて次の溶液をつくることを、繰り返す希釈です。",
 
     // Concentration of solutions > try it > p
-    "10.0 cm<sup>3</sup> of a 0.500 mol dm<sup>−3</sup> solution is pipetted into a 250.0 cm<sup>3</sup> volumetric flask and made up to the mark with distilled water. Calculate the concentration of the diluted solution.": "",
+    "10.0 cm<sup>3</sup> of a 0.500 mol dm<sup>−3</sup> solution is pipetted into a 250.0 cm<sup>3</sup> volumetric flask and made up to the mark with distilled water. Calculate the concentration of the diluted solution.": "0.500 mol dm<sup>−3</sup> の溶液 10.0 cm<sup>3</sup> をピペットで 250.0 cm<sup>3</sup> のメスフラスコに入れ、標線まで蒸留水を加えます。希釈後の溶液の濃度を計算しなさい。",
 
     // Concentration of solutions > try it > li
-    "Which values are <i>C</i><sub>1</sub>, <i>V</i><sub>1</sub> and <i>V</i><sub>2</sub>? The unknown is <i>C</i><sub>2</sub>. It must be smaller than 0.500.": "",
+    "Which values are <i>C</i><sub>1</sub>, <i>V</i><sub>1</sub> and <i>V</i><sub>2</sub>? The unknown is <i>C</i><sub>2</sub>. It must be smaller than 0.500.": "<i>C</i><sub>1</sub>、<i>V</i><sub>1</sub>、<i>V</i><sub>2</sub> はそれぞれどの値ですか。わからないのは <i>C</i><sub>2</sub> です。0.500 より小さくなるはずです。",
 
     // Concentration of solutions > try it > p
-    "<strong>0.0200 mol dm<sup>−3</sup></strong>. The dilution factor is 250.0 ÷ 10.0 = 25, and 0.500 ÷ 25 = 0.0200.": "",
+    "<strong>0.0200 mol dm<sup>−3</sup></strong>. The dilution factor is 250.0 ÷ 10.0 = 25, and 0.500 ÷ 25 = 0.0200.": "<strong>0.0200 mol dm<sup>−3</sup></strong> です。希釈倍率は 250.0 ÷ 10.0 = 25 で、0.500 ÷ 25 = 0.0200 です。",
 
     // Concentration of solutions > h3
-    "Finding a concentration with a calibration curve": "",
+    "Finding a concentration with a calibration curve": "検量線で濃度を求める",
 
     // Concentration of solutions > p
-    "Some solutions are coloured, and the more concentrated they are, the more light they absorb. A <dfn data-def=\"An instrument that measures how much light of a chosen colour a solution absorbs.\">colorimeter</dfn> or spectrophotometer measures this as a number called absorbance. That gives a quick way to find an unknown concentration.": "",
+    "Some solutions are coloured, and the more concentrated they are, the more light they absorb. A <dfn data-def=\"An instrument that measures how much light of a chosen colour a solution absorbs.\">colorimeter</dfn> or spectrophotometer measures this as a number called absorbance. That gives a quick way to find an unknown concentration.": "色のついた溶液があります。そのような溶液は、濃いほど光を多く吸収します。<dfn data-def=\"溶液が、選んだ色の光をどれだけ吸収するかを測定する装置です。\">比色計 <span class=\"en-term\">(colorimeter)</span></dfn>や分光光度計は、これを吸光度 <span class=\"en-term\">(absorbance)</span> という数値として測定します。これを使うと、未知の濃度を手早く求められます。",
 
     // Concentration of solutions > data-def attribute
-    "An instrument that measures how much light of a chosen colour a solution absorbs.": "",
+    "An instrument that measures how much light of a chosen colour a solution absorbs.": "溶液が、選んだ色の光をどれだけ吸収するかを測定する装置です。",
 
     // Concentration of solutions > li
-    "Make several standard solutions of known concentration, usually by diluting one stock solution.": "",
+    "Make several standard solutions of known concentration, usually by diluting one stock solution.": "濃度のわかっている標準溶液をいくつかつくります。ふつうは、1 つの原液をうすめてつくります。",
 
     // Concentration of solutions > li
-    "Measure the absorbance of each one.": "",
+    "Measure the absorbance of each one.": "それぞれの吸光度を測定します。",
 
     // Concentration of solutions > li
-    "Plot absorbance (<i>y</i>) against concentration (<i>x</i>) and draw the line of best fit. This graph is the <dfn data-def=\"A graph of an instrument reading against known concentrations, used to read off an unknown concentration.\">calibration curve</dfn>.": "",
+    "Plot absorbance (<i>y</i>) against concentration (<i>x</i>) and draw the line of best fit. This graph is the <dfn data-def=\"A graph of an instrument reading against known concentrations, used to read off an unknown concentration.\">calibration curve</dfn>.": "吸光度（<i>y</i>）を濃度（<i>x</i>）に対してプロットし、最もよく合う直線（近似直線）を引きます。このグラフが<dfn data-def=\"装置の測定値を、わかっている濃度に対してプロットしたグラフです。未知の濃度を読み取るのに使います。\">検量線 <span class=\"en-term\">(calibration curve)</span></dfn>です。",
 
     // Concentration of solutions > data-def attribute
-    "A graph of an instrument reading against known concentrations, used to read off an unknown concentration.": "",
+    "A graph of an instrument reading against known concentrations, used to read off an unknown concentration.": "装置の測定値を、わかっている濃度に対してプロットしたグラフです。未知の濃度を読み取るのに使います。",
 
     // Concentration of solutions > li
-    "Measure the absorbance of the unknown solution and read its concentration from the line.": "",
+    "Measure the absorbance of the unknown solution and read its concentration from the line.": "未知の溶液の吸光度を測定し、直線からその濃度を読み取ります。",
 
     // Concentration of solutions > widget > data-title attribute
-    "Reading a calibration curve": "",
+    "Reading a calibration curve": "検量線を読む",
 
     // Concentration of solutions > widget > figcaption
-    "The crosses are six standard solutions (example data, not a real experiment). Move the slider to set the absorbance of an unknown. Read across to the line, then down to the axis. The unknown must lie inside the range of the standards.": "",
+    "The crosses are six standard solutions (example data, not a real experiment). Move the slider to set the absorbance of an unknown. Read across to the line, then down to the axis. The unknown must lie inside the range of the standards.": "× 印は 6 つの標準溶液です（例として作ったデータで、実際の実験ではありません）。スライダーを動かして、未知の溶液の吸光度を決めましょう。横に進んで直線に当たったら、下へ進んで軸を読みます。未知の溶液は、標準溶液の範囲の中になければなりません。",
 
     // Concentration of solutions > not needed for IB > p
-    "You do not need the Beer–Lambert law or any equation for absorbance. You only need the idea: known standards, a graph, a line of best fit, and reading the unknown from it. Concentration units such as ppm, molality, percentage by mass and mole fraction are not in the IB guide. Use <span class=\"unit\">mol dm-3</span> and <span class=\"unit\">g dm-3</span>.": "",
+    "You do not need the Beer–Lambert law or any equation for absorbance. You only need the idea: known standards, a graph, a line of best fit, and reading the unknown from it. Concentration units such as ppm, molality, percentage by mass and mole fraction are not in the IB guide. Use <span class=\"unit\">mol dm-3</span> and <span class=\"unit\">g dm-3</span>.": "ランベルト・ベールの法則や、吸光度の式は必要ありません。必要なのは考え方だけです。濃度のわかっている標準溶液、グラフ、最もよく合う直線、そしてそこから未知の値を読み取ること、です。ppm、質量モル濃度、質量パーセント濃度、モル分率といった濃度の単位は、IB の『指導の手引き』にありません。<span class=\"unit\">mol dm-3</span> と <span class=\"unit\">g dm-3</span> を使いましょう。",
 
     // Concentration of solutions > not needed for IB > p
-    "Titration calculations, where a solution of known concentration is used to find another through a reaction, belong to Reactivity 2.1 and Reactivity 3.1. They combine <i>n</i> = <i>CV</i> from this section with the mole ratio of an equation.": "",
+    "Titration calculations, where a solution of known concentration is used to find another through a reaction, belong to Reactivity 2.1 and Reactivity 3.1. They combine <i>n</i> = <i>CV</i> from this section with the mole ratio of an equation.": "滴定の計算は、Reactivity 2.1 と Reactivity 3.1 の内容です。滴定では、濃度のわかっている溶液を反応させて、別の溶液の濃度を求めます。その計算では、このセクションの <i>n</i> = <i>CV</i> と、化学反応式の物質量の比（モル比）を組み合わせます。",
 
     // Concentration of solutions > data-title attribute
-    "Standard solutions, dilution and calibration: quick check": "",
+    "Standard solutions, dilution and calibration: quick check": "標準溶液・希釈・検量線：確認クイズ",
 
     // Avogadro’s law and reacting gas volumes > data-toc attribute
     // Avogadro’s law and reacting gas volumes > key idea > data-title attribute
-    "Avogadro’s law": "",
+    "Avogadro’s law": "アボガドロの法則",
 
     // Avogadro’s law and reacting gas volumes > h2
-    "Avogadro’s law and reacting gas volumes": "",
+    "Avogadro’s law and reacting gas volumes": "アボガドロの法則と、反応する気体の体積",
 
     // Avogadro’s law and reacting gas volumes > p
-    "In a gas, the particles are far apart. Almost all of the volume is empty space, so the size of the particles themselves hardly matters. A balloon of hydrogen and a balloon of carbon dioxide of the same size, at the same temperature and pressure, hold the same number of molecules, even though the carbon dioxide molecules are much heavier.": "",
+    "In a gas, the particles are far apart. Almost all of the volume is empty space, so the size of the particles themselves hardly matters. A balloon of hydrogen and a balloon of carbon dioxide of the same size, at the same temperature and pressure, hold the same number of molecules, even though the carbon dioxide molecules are much heavier.": "気体では、粒子どうしが遠く離れています。体積のほとんどは何もない空間なので、粒子そのものの大きさはほとんど関係ありません。同じ大きさの水素の風船と二酸化炭素の風船は、温度と圧力が同じなら、同じ数の分子を含みます。二酸化炭素の分子のほうがずっと重いのに、です。",
 
     // Avogadro’s law and reacting gas volumes > key idea > p
-    "Equal volumes of all gases, measured under the same conditions of temperature and pressure, contain equal numbers of molecules.": "",
+    "Equal volumes of all gases, measured under the same conditions of temperature and pressure, contain equal numbers of molecules.": "同じ温度・同じ圧力ではかった同じ体積の気体は、気体の種類に関係なく、同じ数の分子を含みます。",
 
     // Avogadro’s law and reacting gas volumes > p
-    "Equal numbers of molecules means equal amounts in moles. So for gases at the same temperature and pressure, volume is directly proportional to amount. Double the moles, double the volume.": "",
+    "Equal numbers of molecules means equal amounts in moles. So for gases at the same temperature and pressure, volume is directly proportional to amount. Double the moles, double the volume.": "分子の数が同じなら、モルで表した物質量も同じです。だから、同じ温度・同じ圧力の気体では、体積は物質量に比例します。モルが 2 倍なら、体積も 2 倍です。",
 
     // Avogadro’s law and reacting gas volumes > p
-    "This has a very useful result. In a balanced equation, the coefficients give the mole ratio. For gases, the same coefficients also give the <strong>volume ratio</strong>. You can work in volumes and never calculate a single mole.": "",
+    "This has a very useful result. In a balanced equation, the coefficients give the mole ratio. For gases, the same coefficients also give the <strong>volume ratio</strong>. You can work in volumes and never calculate a single mole.": "ここから、とても役に立つことがわかります。つり合いのとれた化学反応式では、係数が物質量の比（モル比）を表します。気体なら、同じ係数が<strong>体積の比</strong> (volume ratio) も表します。体積のまま計算できて、モルを 1 回も計算しなくてすみます。",
 
     // Avogadro’s law and reacting gas volumes > widget > data-title attribute
-    "Reacting gas volumes": "",
+    "Reacting gas volumes": "反応する気体の体積",
 
     // Avogadro’s law and reacting gas volumes > widget > figcaption
-    "Pick a reaction, choose one gas and set its volume. The other volumes follow from the coefficients. Box heights are in proportion to the volumes. This is a model: each dot stands for the same very large number of molecules, and every box has the same number of dots per unit area, as Avogadro’s law says.": "",
+    "Pick a reaction, choose one gas and set its volume. The other volumes follow from the coefficients. Box heights are in proportion to the volumes. This is a model: each dot stands for the same very large number of molecules, and every box has the same number of dots per unit area, as Avogadro’s law says.": "反応を選び、気体を 1 つ選んで、その体積を決めましょう。ほかの体積は係数から決まります。箱の高さは体積に比例しています。これはモデルです。点 1 個は、どれも同じ、とても大きな数の分子を表します。そして、アボガドロの法則のとおり、どの箱でも単位面積あたりの点の数は同じです。",
 
     // Avogadro’s law and reacting gas volumes > li
-    "Write the balanced equation with state symbols. Only substances marked (g) take part in the volume ratio.": "",
+    "Write the balanced equation with state symbols. Only substances marked (g) take part in the volume ratio.": "つり合いのとれた化学反応式を、状態記号を付けて書きます。体積の比に入るのは、(g) の付いた物質だけです。",
 
     // Avogadro’s law and reacting gas volumes > li
-    "Check that all volumes are measured at the same temperature and pressure.": "",
+    "Check that all volumes are measured at the same temperature and pressure.": "すべての体積が、同じ温度・同じ圧力ではかられていることを確かめます。",
 
     // Avogadro’s law and reacting gas volumes > li
-    "Find the coefficient of the gas you know and of the gas you want.": "",
+    "Find the coefficient of the gas you know and of the gas you want.": "わかっている気体の係数と、求めたい気体の係数を見つけます。",
 
     // Avogadro’s law and reacting gas volumes > li
-    "Volume wanted = volume known × (coefficient wanted ÷ coefficient known).": "",
+    "Volume wanted = volume known × (coefficient wanted ÷ coefficient known).": "求めたい体積 = わかっている体積 ×（求めたい気体の係数 ÷ わかっている気体の係数）。",
 
     // Avogadro’s law and reacting gas volumes > li
-    "Keep the same volume unit throughout. There is no need to convert cm<sup>3</sup> to dm<sup>3</sup>, because it is a ratio.": "",
+    "Keep the same volume unit throughout. There is no need to convert cm<sup>3</sup> to dm<sup>3</sup>, because it is a ratio.": "体積の単位は、最後まで同じものを使います。比なので、cm<sup>3</sup> を dm<sup>3</sup> に直す必要はありません。",
 
     // Avogadro’s law and reacting gas volumes > worked example > h3
-    "Volumes of reacting gases": "",
+    "Volumes of reacting gases": "反応する気体の体積",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "Propane burns completely in oxygen:": "",
+    "Propane burns completely in oxygen:": "プロパンは酸素の中で完全燃焼します。",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "<span class=\"chem\">C3H8(g) + 5O2(g) -&gt; 3CO2(g) + 4H2O(l)</span>": "",
+    "<span class=\"chem\">C3H8(g) + 5O2(g) -&gt; 3CO2(g) + 4H2O(l)</span>": "<span class=\"chem\">C3H8(g) + 5O2(g) -&gt; 3CO2(g) + 4H2O(l)</span>",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "25.0 cm<sup>3</sup> of propane is burned. All volumes are measured at the same temperature and pressure. Calculate the volume of oxygen needed and the volume of carbon dioxide formed.": "",
+    "25.0 cm<sup>3</sup> of propane is burned. All volumes are measured at the same temperature and pressure. Calculate the volume of oxygen needed and the volume of carbon dioxide formed.": "プロパン 25.0 cm<sup>3</sup> を燃やします。体積はすべて、同じ温度・同じ圧力ではかります。必要な酸素の体積と、できる二酸化炭素の体積を計算しなさい。",
 
     // Avogadro’s law and reacting gas volumes > worked example > data-title attribute
-    "Read the mole ratio": "",
+    "Read the mole ratio": "物質量の比を読み取る",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "The coefficients tell you how many moles react. An unwritten coefficient is 1.": "",
+    "The coefficients tell you how many moles react. An unwritten coefficient is 1.": "係数は、何モルずつ反応するかを表します。係数が書かれていなければ 1 です。",
 
     // Avogadro’s law and reacting gas volumes > worked example > data-title attribute
-    "Use Avogadro’s law": "",
+    "Use Avogadro’s law": "アボガドロの法則を使う",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "Same temperature and pressure, so the volume ratio of the gases equals the mole ratio.": "",
+    "Same temperature and pressure, so the volume ratio of the gases equals the mole ratio.": "温度と圧力が同じなので、気体の体積の比は物質量の比と同じです。",
 
     // Avogadro’s law and reacting gas volumes > worked example > maths line
-    "volume ratio = 1 : 5 : 3": "",
+    "volume ratio = 1 : 5 : 3": "体積の比 = 1 : 5 : 3",
 
     // Avogadro’s law and reacting gas volumes > worked example > data-title attribute
-    "Scale to the volume given": "",
+    "Scale to the volume given": "与えられた体積に合わせる",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "Multiply by coefficient wanted ÷ coefficient known. The coefficients are exact, so the answers keep 3 significant figures.": "",
+    "Multiply by coefficient wanted ÷ coefficient known. The coefficients are exact, so the answers keep 3 significant figures.": "「求めたい気体の係数 ÷ わかっている気体の係数」をかけます。係数は正確な数なので、答えは有効数字 3 桁のままです。",
 
     // Avogadro’s law and reacting gas volumes > worked example > data-title attribute
-    "Check the state symbols": "",
+    "Check the state symbols": "状態記号を確かめる",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "The water is a liquid, (l). It is not a gas, so it adds nothing to the gas volume.": "",
+    "The water is a liquid, (l). It is not a gas, so it adds nothing to the gas volume.": "水は液体 (l) です。気体ではないので、気体の体積には加わりません。",
 
     // Avogadro’s law and reacting gas volumes > worked example > maths line
-    "gas before: 25.0 + 125 = 150 cm<sup>3</sup> &nbsp; gas after: 75.0 cm<sup>3</sup>": "",
+    "gas before: 25.0 + 125 = 150 cm<sup>3</sup> &nbsp; gas after: 75.0 cm<sup>3</sup>": "反応前の気体: 25.0 + 125 = 150 cm<sup>3</sup> &nbsp; 反応後の気体: 75.0 cm<sup>3</sup>",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "125 cm<sup>3</sup> of O<sub>2</sub> is needed and 75.0 cm<sup>3</sup> of CO<sub>2</sub> forms": "",
+    "125 cm<sup>3</sup> of O<sub>2</sub> is needed and 75.0 cm<sup>3</sup> of CO<sub>2</sub> forms": "O<sub>2</sub> が 125 cm<sup>3</sup> 必要で、CO<sub>2</sub> が 75.0 cm<sup>3</sup> できる",
 
     // Avogadro’s law and reacting gas volumes > common mistake > p
-    "Volumes of gases are not conserved in a reaction. In the example, 150 cm<sup>3</sup> of gas becomes 75.0 cm<sup>3</sup>. Mass is conserved and atoms are conserved, but the number of gas molecules can change. Also watch for <span class=\"chem\">H2O(l)</span>: counting liquid water as a gas volume is a common wrong answer.": "",
+    "Volumes of gases are not conserved in a reaction. In the example, 150 cm<sup>3</sup> of gas becomes 75.0 cm<sup>3</sup>. Mass is conserved and atoms are conserved, but the number of gas molecules can change. Also watch for <span class=\"chem\">H2O(l)</span>: counting liquid water as a gas volume is a common wrong answer.": "気体の体積は、反応の前後で保存されません。例題では、150 cm<sup>3</sup> の気体が 75.0 cm<sup>3</sup> になります。質量は保存され、原子も保存されます。でも、気体分子の数は変わることがあります。<span class=\"chem\">H2O(l)</span> にも注意しましょう。液体の水を気体の体積に数えてしまうのは、よくある誤答です。",
 
     // Avogadro’s law and reacting gas volumes > try it > p
-    "Carbon monoxide burns in oxygen: <span class=\"chem\">2CO(g) + O2(g) -&gt; 2CO2(g)</span>. What volume of oxygen is needed to react completely with 150 cm<sup>3</sup> of carbon monoxide, at the same temperature and pressure? Give your answer to 3 significant figures.": "",
+    "Carbon monoxide burns in oxygen: <span class=\"chem\">2CO(g) + O2(g) -&gt; 2CO2(g)</span>. What volume of oxygen is needed to react completely with 150 cm<sup>3</sup> of carbon monoxide, at the same temperature and pressure? Give your answer to 3 significant figures.": "一酸化炭素は酸素の中で燃えます：<span class=\"chem\">2CO(g) + O2(g) -&gt; 2CO2(g)</span>。同じ温度・同じ圧力で、一酸化炭素 150 cm<sup>3</sup> と完全に反応するのに必要な酸素の体積はいくらですか。有効数字 3 桁で答えましょう。",
 
     // Avogadro’s law and reacting gas volumes > try it > li
-    "What is the mole ratio of CO to O<sub>2</sub> in the equation? The volume ratio is the same.": "",
+    "What is the mole ratio of CO to O<sub>2</sub> in the equation? The volume ratio is the same.": "化学反応式で、CO と O<sub>2</sub> の物質量の比はいくつですか。体積の比も同じです。",
 
     // Avogadro’s law and reacting gas volumes > try it > li
-    "CO : O<sub>2</sub> = 2 : 1, so <i>V</i>(O<sub>2</sub>) = 150 × (1 ÷ 2).": "",
+    "CO : O<sub>2</sub> = 2 : 1, so <i>V</i>(O<sub>2</sub>) = 150 × (1 ÷ 2).": "CO : O<sub>2</sub> = 2 : 1 なので、<i>V</i>(O<sub>2</sub>) = 150 × (1 ÷ 2) です。",
 
     // Avogadro’s law and reacting gas volumes > try it > p
-    "<strong>75.0 cm<sup>3</sup></strong> of oxygen.": "",
+    "<strong>75.0 cm<sup>3</sup></strong> of oxygen.": "酸素 <strong>75.0 cm<sup>3</sup></strong> です。",
 
     // Avogadro’s law and reacting gas volumes > try it > p
-    "Ammonia is made from nitrogen and hydrogen: <span class=\"chem\">N2(g) + 3H2(g) -&gt; 2NH3(g)</span>. What volume of ammonia forms when 45.0 cm<sup>3</sup> of hydrogen reacts completely, at the same temperature and pressure?": "",
+    "Ammonia is made from nitrogen and hydrogen: <span class=\"chem\">N2(g) + 3H2(g) -&gt; 2NH3(g)</span>. What volume of ammonia forms when 45.0 cm<sup>3</sup> of hydrogen reacts completely, at the same temperature and pressure?": "アンモニアは窒素と水素からつくります：<span class=\"chem\">N2(g) + 3H2(g) -&gt; 2NH3(g)</span>。同じ温度・同じ圧力で、水素 45.0 cm<sup>3</sup> が完全に反応すると、アンモニアは何 cm<sup>3</sup> できますか。",
 
     // Avogadro’s law and reacting gas volumes > try it > li
-    "Find the coefficients of the gas you know (H<sub>2</sub>) and the gas you want (NH<sub>3</sub>).": "",
+    "Find the coefficients of the gas you know (H<sub>2</sub>) and the gas you want (NH<sub>3</sub>).": "わかっている気体（H<sub>2</sub>）と求めたい気体（NH<sub>3</sub>）の係数を見つけましょう。",
 
     // Avogadro’s law and reacting gas volumes > try it > li
-    "H<sub>2</sub> : NH<sub>3</sub> = 3 : 2, so <i>V</i>(NH<sub>3</sub>) = 45.0 × (2 ÷ 3).": "",
+    "H<sub>2</sub> : NH<sub>3</sub> = 3 : 2, so <i>V</i>(NH<sub>3</sub>) = 45.0 × (2 ÷ 3).": "H<sub>2</sub> : NH<sub>3</sub> = 3 : 2 なので、<i>V</i>(NH<sub>3</sub>) = 45.0 × (2 ÷ 3) です。",
 
     // Avogadro’s law and reacting gas volumes > try it > p
-    "<strong>30.0 cm<sup>3</sup></strong> of ammonia. It also needs 45.0 ÷ 3 = 15.0 cm<sup>3</sup> of nitrogen.": "",
+    "<strong>30.0 cm<sup>3</sup></strong> of ammonia. It also needs 45.0 ÷ 3 = 15.0 cm<sup>3</sup> of nitrogen.": "アンモニア <strong>30.0 cm<sup>3</sup></strong> です。窒素も 45.0 ÷ 3 = 15.0 cm<sup>3</sup> 必要です。",
 
     // Avogadro’s law and reacting gas volumes > h3
-    "When one gas is in excess": "",
+    "When one gas is in excess": "一方の気体が過剰にあるとき",
 
     // Avogadro’s law and reacting gas volumes > p
-    "Sometimes more of one gas is supplied than the reaction needs. The question then says that gas is “in <dfn data-def=\"More than the amount needed to react. Some of it is left over at the end.\">excess</dfn>”. Some of it is left over at the end, mixed with the gases that were made.": "",
+    "Sometimes more of one gas is supplied than the reaction needs. The question then says that gas is “in <dfn data-def=\"More than the amount needed to react. Some of it is left over at the end.\">excess</dfn>”. Some of it is left over at the end, mixed with the gases that were made.": "反応に必要な量より多く、一方の気体を入れることがあります。そのとき問題文には、その気体が「<dfn data-def=\"反応に必要な量より多いこと。反応のあとに一部が残ります。\">過剰 <span class=\"en-term\">(excess)</span></dfn>にある (in excess)」と書かれます。その気体の一部は最後まで残り、できた気体と混ざっています。",
 
     // Avogadro’s law and reacting gas volumes > data-def attribute
-    "More than the amount needed to react. Some of it is left over at the end.": "",
+    "More than the amount needed to react. Some of it is left over at the end.": "反応に必要な量より多いこと。反応のあとに一部が残ります。",
 
     // Avogadro’s law and reacting gas volumes > li
-    "Use the volume ratio to find how much of the excess gas <em>reacts</em>.": "",
+    "Use the volume ratio to find how much of the excess gas <em>reacts</em>.": "体積の比を使って、過剰な気体のうちどれだけが<em>反応する</em>かを求めます。",
 
     // Avogadro’s law and reacting gas volumes > li
-    "Gas left over = volume supplied − volume that reacted.": "",
+    "Gas left over = volume supplied − volume that reacted.": "残った気体 = 入れた体積 − 反応した体積。",
 
     // Avogadro’s law and reacting gas volumes > li
-    "Gas at the end = gas left over + gaseous products. Leave out anything marked (l) or (s).": "",
+    "Gas at the end = gas left over + gaseous products. Leave out anything marked (l) or (s).": "最後にある気体 = 残った気体 + 気体の生成物。(l) や (s) の付いたものは入れません。",
 
     // Avogadro’s law and reacting gas volumes > worked example > h3
-    "Gas left at the end": "",
+    "Gas left at the end": "最後に残る気体",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "10.0 cm<sup>3</sup> of methane is burned in 50.0 cm<sup>3</sup> of oxygen, which is an excess:": "",
+    "10.0 cm<sup>3</sup> of methane is burned in 50.0 cm<sup>3</sup> of oxygen, which is an excess:": "メタン 10.0 cm<sup>3</sup> を酸素 50.0 cm<sup>3</sup> の中で燃やします。酸素は過剰です。",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "<span class=\"chem\">CH4(g) + 2O2(g) -&gt; CO2(g) + 2H2O(l)</span>": "",
+    "<span class=\"chem\">CH4(g) + 2O2(g) -&gt; CO2(g) + 2H2O(l)</span>": "<span class=\"chem\">CH4(g) + 2O2(g) -&gt; CO2(g) + 2H2O(l)</span>",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "All volumes are measured at the same temperature and pressure. Calculate the total volume of gas at the end.": "",
+    "All volumes are measured at the same temperature and pressure. Calculate the total volume of gas at the end.": "体積はすべて、同じ温度・同じ圧力ではかります。最後にある気体の体積の合計を計算しなさい。",
 
     // Avogadro’s law and reacting gas volumes > worked example > data-title attribute
-    "Find the oxygen that reacts": "",
+    "Find the oxygen that reacts": "反応する酸素を求める",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "All the methane burns, because oxygen is in excess. The ratio CH<sub>4</sub> : O<sub>2</sub> is 1 : 2.": "",
+    "All the methane burns, because oxygen is in excess. The ratio CH<sub>4</sub> : O<sub>2</sub> is 1 : 2.": "酸素が過剰なので、メタンはすべて燃えます。CH<sub>4</sub> : O<sub>2</sub> の比は 1 : 2 です。",
 
     // Avogadro’s law and reacting gas volumes > worked example > maths line
-    "<i>V</i>(O<sub>2</sub> reacting) = 10.0 cm<sup>3</sup> × <span class=\"frac\"><span>2</span><span>1</span></span> = 20.0 cm<sup>3</sup>": "",
+    "<i>V</i>(O<sub>2</sub> reacting) = 10.0 cm<sup>3</sup> × <span class=\"frac\"><span>2</span><span>1</span></span> = 20.0 cm<sup>3</sup>": "<i>V</i>(反応する O<sub>2</sub>) = 10.0 cm<sup>3</sup> × <span class=\"frac\"><span>2</span><span>1</span></span> = 20.0 cm<sup>3</sup>",
 
     // Avogadro’s law and reacting gas volumes > worked example > data-title attribute
-    "Find the oxygen left over": "",
+    "Find the oxygen left over": "残った酸素を求める",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
     "What was supplied, minus what was used.": "",

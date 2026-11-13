@@ -325,334 +325,334 @@ S1.i18n.register('ja', 's1-4.q', {
     // ── s1-4-q014 · numeric · exam · SL · Structure 1.4.3 · 2 marks
     "s1-4-q014": {
       // EN: <p>Calculate the number of molecules in 9.00 <span class="unit">g</span> of water, <span class="chem">H2O</span>. Give your answer to 3 significant figures.</p><p>Use <i>A</i><sub>r</sub>: H = 1.01, O = 16.00.</p>
-      stem: "",
+      stem: "<p>9.00 <span class=\"unit\">g</span> の水 <span class=\"chem\">H2O</span> に含まれる分子の数を計算しなさい (calculate)。有効数字 3 桁で答えましょう。</p><p>次の <i>A</i><sub>r</sub> を使いましょう：H = 1.01、O = 16.00</p>",
       hints: [
         // EN: This is a two-step route: mass → amount → number of particles. You cannot go from grams to particles in one step.
-        "",
+        "2 段階の道すじです：質量 → 物質量 → 粒子の数。グラムから粒子の数へ、1 回で進むことはできません。",
         // EN: Step 1: <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span> with <i>M</i>(<span class="chem">H2O</span>) = 18.02 <span class="unit">g mol-1</span>. Step 2: <span class="mono"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></span>.
-        "",
+        "ステップ 1：<span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>M</i></span> を使います。<i>M</i>(<span class=\"chem\">H2O</span>) = 18.02 <span class=\"unit\">g mol-1</span> です。ステップ 2：<span class=\"mono\"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></span> を使います。",
         // EN: Keep all the digits of <i>n</i> in your calculator. Round only the final answer.
-        "",
+        "<i>n</i> の値は、全部の桁を電卓に残しておきます。丸めるのは最後の答えだけです。",
       ],
       // EN: <div class="worked__math"><i>M</i>(<span class="chem">H2O</span>) = (2 × 1.01) + 16.00<br>&nbsp;&nbsp;= 18.02 <span class="unit">g mol-1</span></div><div class="worked__math"><i>n</i> = <span class="frac"><span>9.00 <span class="unit">g</span></span><span>18.02 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.49945 <span class="unit">mol</span> &nbsp; (M1)</div><div class="worked__math"><i>N</i> = 0.49945 <span class="unit">mol</span> × 6.02 × 10<sup>23</sup> <span class="unit">mol-1</span><br>&nbsp;&nbsp;= <strong>3.01 × 10<sup>23</sup> molecules</strong> &nbsp; (M2)</div><p>The question asks for molecules. Multiplying by 3 as well would give the number of atoms (9.02 × 10<sup>23</sup>), which is a different question.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>M</i>(<span class=\"chem\">H2O</span>) = (2 × 1.01) + 16.00<br>&nbsp;&nbsp;= 18.02 <span class=\"unit\">g mol-1</span></div><div class=\"worked__math\"><i>n</i> = <span class=\"frac\"><span>9.00 <span class=\"unit\">g</span></span><span>18.02 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.49945 <span class=\"unit\">mol</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>N</i> = 0.49945 <span class=\"unit\">mol</span> × 6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span><br>&nbsp;&nbsp;= <strong>3.01 × 10<sup>23</sup> 個の分子</strong> &nbsp; (M2)</div><p>問われているのは分子の数です。さらに 3 をかけると原子の数（9.02 × 10<sup>23</sup>）になり、別の問いの答えになってしまいます。</p>",
     },
 
     // ── s1-4-q015 · numeric · exam · SL · Structure 1.4.3 · 2 marks
     "s1-4-q015": {
       // EN: <p>Calculate the number of <strong>oxygen atoms</strong> in 8.80 <span class="unit">g</span> of carbon dioxide, <span class="chem">CO2</span>. Give your answer to 3 significant figures.</p><p><i>M</i>(<span class="chem">CO2</span>) = 44.01 <span class="unit">g mol-1</span></p>
-      stem: "",
+      stem: "<p>8.80 <span class=\"unit\">g</span> の二酸化炭素 <span class=\"chem\">CO2</span> に含まれる<strong>酸素原子</strong>の数を計算しなさい (calculate)。有効数字 3 桁で答えましょう。</p><p><i>M</i>(<span class=\"chem\">CO2</span>) = 44.01 <span class=\"unit\">g mol-1</span></p>",
       hints: [
         // EN: Route: mass → amount of <span class="chem">CO2</span> → amount of O atoms → number of O atoms.
-        "",
+        "道すじ：質量 → <span class=\"chem\">CO2</span> の物質量 → O 原子の物質量 → O 原子の数。",
         // EN: Each <span class="chem">CO2</span> molecule contains 2 oxygen atoms, so <i>n</i>(O) = 2 × <i>n</i>(<span class="chem">CO2</span>).
-        "",
+        "<span class=\"chem\">CO2</span> 1 分子には酸素原子が 2 個あります。だから <i>n</i>(O) = 2 × <i>n</i>(<span class=\"chem\">CO2</span>) です。",
         // EN: Finish with <span class="mono"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></span>.
-        "",
+        "最後に <span class=\"mono\"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></span> を使います。",
       ],
       // EN: <div class="worked__math"><i>n</i>(<span class="chem">CO2</span>) = <span class="frac"><span>8.80 <span class="unit">g</span></span><span>44.01 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.19995 <span class="unit">mol</span> &nbsp; (M1)</div><div class="worked__math"><i>n</i>(O) = 2 × 0.19995 <span class="unit">mol</span><br>&nbsp;&nbsp;= 0.39991 <span class="unit">mol</span></div><div class="worked__math"><i>N</i>(O) = 0.39991 <span class="unit">mol</span> × 6.02 × 10<sup>23</sup> <span class="unit">mol-1</span><br>&nbsp;&nbsp;= <strong>2.41 × 10<sup>23</sup> atoms</strong> &nbsp; (M2)</div><p>Named slips: 1.20 × 10<sup>23</sup> is the number of <span class="chem">CO2</span> molecules (subscript not used). 3.61 × 10<sup>23</sup> is the number of all atoms (multiplied by 3, not 2).</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>n</i>(<span class=\"chem\">CO2</span>) = <span class=\"frac\"><span>8.80 <span class=\"unit\">g</span></span><span>44.01 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.19995 <span class=\"unit\">mol</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>n</i>(O) = 2 × 0.19995 <span class=\"unit\">mol</span><br>&nbsp;&nbsp;= 0.39991 <span class=\"unit\">mol</span></div><div class=\"worked__math\"><i>N</i>(O) = 0.39991 <span class=\"unit\">mol</span> × 6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span><br>&nbsp;&nbsp;= <strong>2.41 × 10<sup>23</sup> 個の原子</strong> &nbsp; (M2)</div><p>よくあるミス：1.20 × 10<sup>23</sup> は <span class=\"chem\">CO2</span> 分子の数です（添え字を使っていない）。3.61 × 10<sup>23</sup> は全部の原子の数です（2 ではなく 3 をかけた）。</p>",
     },
 
     // ── s1-4-q016 · numeric · exam · SL · Structure 1.4.3 · 2 marks
     "s1-4-q016": {
       // EN: <p>Epsom salt is hydrated magnesium sulfate, <span class="chem">MgSO4.7H2O</span>.</p><p>Calculate the amount, in <span class="unit">mol</span>, of <strong>water molecules</strong> in 12.3 <span class="unit">g</span> of Epsom salt. Give your answer to 3 significant figures.</p><p><i>M</i>(<span class="chem">MgSO4</span>) = 120.38 <span class="unit">g mol-1</span>, &nbsp; <i>M</i>(<span class="chem">H2O</span>) = 18.02 <span class="unit">g mol-1</span></p>
-      stem: "",
+      stem: "<p>エプソム塩 (Epsom salt) は、硫酸マグネシウムの水和物 <span class=\"chem\">MgSO4.7H2O</span> です。</p><p>12.3 <span class=\"unit\">g</span> のエプソム塩に含まれる<strong>水分子</strong>の物質量を <span class=\"unit\">mol</span> 単位で計算しなさい (calculate)。有効数字 3 桁で答えましょう。</p><p><i>M</i>(<span class=\"chem\">MgSO4</span>) = 120.38 <span class=\"unit\">g mol-1</span>, &nbsp; <i>M</i>(<span class=\"chem\">H2O</span>) = 18.02 <span class=\"unit\">g mol-1</span></p>",
       hints: [
         // EN: The 12.3 g is hydrated salt, so you need the molar mass of the whole formula, water included.
-        "",
+        "12.3 g は水和物の質量です。だから、水も含めた化学式全体のモル質量が必要です。",
         // EN: <i>M</i>(<span class="chem">MgSO4.7H2O</span>) = 120.38 + (7 × 18.02). Use it in <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span>.
-        "",
+        "<i>M</i>(<span class=\"chem\">MgSO4.7H2O</span>) = 120.38 + (7 × 18.02) です。これを <span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>M</i></span> に使います。",
         // EN: One mole of the hydrate contains 7 mol of water molecules.
-        "",
+        "水和物 1 モルには、水分子が 7 mol 含まれます。",
       ],
       // EN: <div class="worked__math"><i>M</i>(<span class="chem">MgSO4.7H2O</span>) = 120.38 + (7 × 18.02)<br>&nbsp;&nbsp;= 246.52 <span class="unit">g mol-1</span></div><div class="worked__math"><i>n</i>(hydrate) = <span class="frac"><span>12.3 <span class="unit">g</span></span><span>246.52 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.049895 <span class="unit">mol</span> &nbsp; (M1)</div><div class="worked__math"><i>n</i>(<span class="chem">H2O</span>) = 7 × 0.049895 <span class="unit">mol</span><br>&nbsp;&nbsp;= <strong>0.349 <span class="unit">mol</span></strong> &nbsp; (M2)</div><p>Named slip: dividing 12.3 g by the anhydrous molar mass (120.38) gives 0.715 mol. The solid you weighed includes its water, so the hydrated molar mass must be used.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>M</i>(<span class=\"chem\">MgSO4.7H2O</span>) = 120.38 + (7 × 18.02)<br>&nbsp;&nbsp;= 246.52 <span class=\"unit\">g mol-1</span></div><div class=\"worked__math\"><i>n</i>(水和物) = <span class=\"frac\"><span>12.3 <span class=\"unit\">g</span></span><span>246.52 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.049895 <span class=\"unit\">mol</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>n</i>(<span class=\"chem\">H2O</span>) = 7 × 0.049895 <span class=\"unit\">mol</span><br>&nbsp;&nbsp;= <strong>0.349 <span class=\"unit\">mol</span></strong> &nbsp; (M2)</div><p>よくあるミス：12.3 g を無水物のモル質量（120.38）でわると 0.715 mol になります。はかった固体には水が含まれています。だから、水和物のモル質量を使わなければなりません。</p>",
     },
 
     // ── s1-4-q017 · mcq · exam · SL · Structure 1.4.3 · 1 mark
     "s1-4-q017": {
       // EN: <p>What is the mass, in <span class="unit">g</span>, of <strong>one molecule</strong> of water?</p><p><i>M</i>(<span class="chem">H2O</span>) = 18.02 <span class="unit">g mol-1</span></p>
-      stem: "",
+      stem: "<p>水<strong>1 分子</strong>の質量は何 <span class=\"unit\">g</span> ですか。</p><p><i>M</i>(<span class=\"chem\">H2O</span>) = 18.02 <span class=\"unit\">g mol-1</span></p>",
       options: [
         // EN: 1.66 × 10<sup>−24</sup>
-        "",
+        "1.66 × 10<sup>−24</sup>",
         // EN: 2.99 × 10<sup>−23</sup>
-        "",
+        "2.99 × 10<sup>−23</sup>",
         // EN: 3.34 × 10<sup>22</sup>
-        "",
+        "3.34 × 10<sup>22</sup>",
         // EN: 1.08 × 10<sup>25</sup>
-        "",
+        "1.08 × 10<sup>25</sup>",
       ],
       hints: [
         // EN: 18.02 g is the mass of one mole of molecules. How many molecules share that mass?
-        "",
+        "18.02 g は、分子 1 モル分の質量です。この質量を、何個の分子で分け合っていますか。",
         // EN: Share the mass equally: divide the molar mass by <i>N</i><sub>A</sub>. Expect a very small number.
-        "",
+        "質量を等しく分けます。モル質量を <i>N</i><sub>A</sub> でわりましょう。とても小さい数になるはずです。",
       ],
       // EN: <p>One mole of water molecules has a mass of 18.02 <span class="unit">g</span>. That mass is shared between 6.02 × 10<sup>23</sup> molecules.</p><div class="worked__math"><i>m</i>(one molecule) = <span class="frac"><span>18.02 <span class="unit">g mol-1</span></span><span>6.02 × 10<sup>23</sup> <span class="unit">mol-1</span></span></span></div><div class="worked__math"><i>m</i>(one molecule) = <strong>2.99 × 10<sup>−23</sup> <span class="unit">g</span></strong></div>
-      solution: "",
+      solution: "<p>水分子 1 モルの質量は 18.02 <span class=\"unit\">g</span> です。この質量を、6.02 × 10<sup>23</sup> 個の分子で分け合っています。</p><div class=\"worked__math\"><i>m</i>(1 分子) = <span class=\"frac\"><span>18.02 <span class=\"unit\">g mol-1</span></span><span>6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span></span></span></div><div class=\"worked__math\"><i>m</i>(1 分子) = <strong>2.99 × 10<sup>−23</sup> <span class=\"unit\">g</span></strong></div>",
       misconception: {
         // EN (option A): This is 1 ÷ <i>N</i><sub>A</sub>. You left out the molar mass. One mole of water has a mass of 18.02 g, not 1 g.
-        "0": "",
+        "0": "これは 1 ÷ <i>N</i><sub>A</sub> です。モル質量を入れ忘れています。水 1 モルの質量は 18.02 g で、1 g ではありません。",
         // EN (option C): You divided <i>N</i><sub>A</sub> by the molar mass. That gives the number of molecules in 1 g of water, not the mass of one molecule.
-        "2": "",
+        "2": "<i>N</i><sub>A</sub> をモル質量でわりました。これは水 1 g に含まれる分子の数で、1 分子の質量ではありません。",
         // EN (option D): You multiplied the molar mass by <i>N</i><sub>A</sub>. One molecule cannot have a larger mass than a whole mole of molecules.
-        "3": "",
+        "3": "モル質量に <i>N</i><sub>A</sub> をかけました。1 個の分子の質量が、分子 1 モル全体の質量より大きくなることはありません。",
       },
     },
 
     // ── s1-4-q018 · mcq · exam · SL · Structure 1.4.3 · 1 mark
     "s1-4-q018": {
       // EN: <p>Which sample contains the greatest total number of <strong>atoms</strong>?</p><p>Use <i>A</i><sub>r</sub>: H = 1.01, He = 4.00, C = 12.01, O = 16.00.</p>
-      stem: "",
+      stem: "<p><strong>原子</strong>の総数が最も多い試料はどれですか。</p><p>次の <i>A</i><sub>r</sub> を使いましょう：H = 1.01、He = 4.00、C = 12.01、O = 16.00</p>",
       options: [
         // EN: 4.00 <span class="unit">g</span> of helium, <span class="chem">He</span>
-        "",
+        "4.00 <span class=\"unit\">g</span> のヘリウム <span class=\"chem\">He</span>",
         // EN: 16.0 <span class="unit">g</span> of methane, <span class="chem">CH4</span>
-        "",
+        "16.0 <span class=\"unit\">g</span> のメタン <span class=\"chem\">CH4</span>",
         // EN: 27.0 <span class="unit">g</span> of water, <span class="chem">H2O</span>
-        "",
+        "27.0 <span class=\"unit\">g</span> の水 <span class=\"chem\">H2O</span>",
         // EN: 44.0 <span class="unit">g</span> of carbon dioxide, <span class="chem">CO2</span>
-        "",
+        "44.0 <span class=\"unit\">g</span> の二酸化炭素 <span class=\"chem\">CO2</span>",
       ],
       hints: [
         // EN: For each sample find the amount of molecules with <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span>.
-        "",
+        "それぞれの試料について、<span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>M</i></span> で分子の物質量を求めます。",
         // EN: Then multiply by the number of atoms in one molecule. Compare amounts of atoms in mol. You do not need <i>N</i><sub>A</sub> to compare.
-        "",
+        "次に、1 分子に含まれる原子の数をかけます。原子の物質量を mol のままくらべましょう。くらべるだけなら <i>N</i><sub>A</sub> はいりません。",
       ],
       // EN: <div class="table-scroll"><table class="data"><thead><tr><th scope="col">Sample</th><th scope="col" class="num"><span style="text-transform:none;letter-spacing:0"><i>M</i> / g mol<sup>−1</sup></span></th><th scope="col" class="num"><span style="text-transform:none;letter-spacing:0"><i>n</i> / mol</span></th><th scope="col" class="num"><span style="text-transform:none;letter-spacing:0">Atoms each</span></th><th scope="col" class="num"><span style="text-transform:none;letter-spacing:0"><i>n</i>(atoms) / mol</span></th></tr></thead><tbody><tr><th scope="row"><span class="chem">He</span></th><td class="num">4.00</td><td class="num">1.00</td><td class="num">1</td><td class="num">1.00</td></tr><tr><th scope="row"><span class="chem">CH4</span></th><td class="num">16.05</td><td class="num">0.997</td><td class="num">5</td><td class="num"><strong>4.98</strong></td></tr><tr><th scope="row"><span class="chem">H2O</span></th><td class="num">18.02</td><td class="num">1.50</td><td class="num">3</td><td class="num">4.50</td></tr><tr><th scope="row"><span class="chem">CO2</span></th><td class="num">44.01</td><td class="num">1.00</td><td class="num">3</td><td class="num">3.00</td></tr></tbody></table></div><p>Methane has the largest amount of atoms, so it has the greatest number of atoms.</p>
-      solution: "",
+      solution: "<div class=\"table-scroll\"><table class=\"data\"><thead><tr><th scope=\"col\">試料</th><th scope=\"col\" class=\"num\"><span style=\"text-transform:none;letter-spacing:0\"><i>M</i> / g mol<sup>−1</sup></span></th><th scope=\"col\" class=\"num\"><span style=\"text-transform:none;letter-spacing:0\"><i>n</i> / mol</span></th><th scope=\"col\" class=\"num\"><span style=\"text-transform:none;letter-spacing:0\">1 個あたりの原子数</span></th><th scope=\"col\" class=\"num\"><span style=\"text-transform:none;letter-spacing:0\"><i>n</i>(原子) / mol</span></th></tr></thead><tbody><tr><th scope=\"row\"><span class=\"chem\">He</span></th><td class=\"num\">4.00</td><td class=\"num\">1.00</td><td class=\"num\">1</td><td class=\"num\">1.00</td></tr><tr><th scope=\"row\"><span class=\"chem\">CH4</span></th><td class=\"num\">16.05</td><td class=\"num\">0.997</td><td class=\"num\">5</td><td class=\"num\"><strong>4.98</strong></td></tr><tr><th scope=\"row\"><span class=\"chem\">H2O</span></th><td class=\"num\">18.02</td><td class=\"num\">1.50</td><td class=\"num\">3</td><td class=\"num\">4.50</td></tr><tr><th scope=\"row\"><span class=\"chem\">CO2</span></th><td class=\"num\">44.01</td><td class=\"num\">1.00</td><td class=\"num\">3</td><td class=\"num\">3.00</td></tr></tbody></table></div><p>原子の物質量が最も大きいのはメタンです。だから、原子の数もメタンが最も多くなります。</p>",
       misconception: {
         // EN (option A): Helium atoms are light, but 4.00 g is only 1.00 mol of atoms. The other samples contain several atoms in every molecule.
-        "0": "",
+        "0": "ヘリウム原子は軽いですが、4.00 g は原子 1.00 mol にすぎません。ほかの試料は、1 分子に原子がいくつも含まれます。",
         // EN (option C): Water has the most <em>molecules</em> here (1.50 mol), but each has only 3 atoms: 4.50 mol of atoms. Compare with 5 atoms per <span class="chem">CH4</span> molecule.
-        "2": "",
+        "2": "この中で<em>分子</em>が最も多いのは水です（1.50 mol）。でも 1 分子に原子は 3 個だけなので、原子は 4.50 mol です。<span class=\"chem\">CH4</span> は 1 分子に原子が 5 個あります。くらべてみましょう。",
         // EN (option D): The largest mass does not mean the most atoms. 44.0 g of <span class="chem">CO2</span> is about 1.00 mol of molecules, which is 3.00 mol of atoms.
-        "3": "",
+        "3": "質量が最も大きくても、原子が最も多いとはかぎりません。44.0 g の <span class=\"chem\">CO2</span> は分子が約 1.00 mol で、原子は 3.00 mol です。",
       },
     },
 
     // ── s1-4-q019 · numeric · challenge · SL · Structure 1.4.3 · 3 marks
     "s1-4-q019": {
       // EN: <p>A sample of magnesium chloride, <span class="chem">MgCl2</span>, contains 3.01 × 10<sup>22</sup> chloride ions.</p><p>Calculate the mass of the sample, in <span class="unit">g</span>. Give your answer to 3 significant figures.</p><p>Use <i>A</i><sub>r</sub>: Mg = 24.31, Cl = 35.45.</p>
-      stem: "",
+      stem: "<p>塩化マグネシウム <span class=\"chem\">MgCl2</span> の試料に、塩化物イオンが 3.01 × 10<sup>22</sup> 個含まれています。</p><p>この試料の質量を <span class=\"unit\">g</span> 単位で計算しなさい (calculate)。有効数字 3 桁で答えましょう。</p><p>次の <i>A</i><sub>r</sub> を使いましょう：Mg = 24.31、Cl = 35.45</p>",
       hints: [
         // EN: Work backwards along the usual route: number of ions → amount of ions → amount of <span class="chem">MgCl2</span> → mass.
-        "",
+        "いつもの道すじを逆にたどります：イオンの数 → イオンの物質量 → <span class=\"chem\">MgCl2</span> の物質量 → 質量。",
         // EN: One formula unit of <span class="chem">MgCl2</span> contains 2 chloride ions. So is the amount of <span class="chem">MgCl2</span> bigger or smaller than the amount of <span class="chem">Cl-</span>?
-        "",
+        "<span class=\"chem\">MgCl2</span> の組成式単位 1 つ（組成式 1 つ分）には、塩化物イオンが 2 個あります。では、<span class=\"chem\">MgCl2</span> の物質量は <span class=\"chem\">Cl-</span> の物質量より大きいですか、小さいですか。",
         // EN: <i>n</i>(<span class="chem">MgCl2</span>) = <i>n</i>(<span class="chem">Cl-</span>) ÷ 2. Then <span class="mono"><i>m</i> = <i>n</i> × <i>M</i></span> with <i>M</i> = 95.21 <span class="unit">g mol-1</span>.
-        "",
+        "<i>n</i>(<span class=\"chem\">MgCl2</span>) = <i>n</i>(<span class=\"chem\">Cl-</span>) ÷ 2 です。次に <span class=\"mono\"><i>m</i> = <i>n</i> × <i>M</i></span> を使います。<i>M</i> = 95.21 <span class=\"unit\">g mol-1</span> です。",
       ],
       // EN: <div class="worked__math"><i>n</i>(<span class="chem">Cl-</span>) = <span class="frac"><span>3.01 × 10<sup>22</sup></span><span>6.02 × 10<sup>23</sup> <span class="unit">mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0500 <span class="unit">mol</span> &nbsp; (M1)</div><div class="worked__math"><i>n</i>(<span class="chem">MgCl2</span>) = 0.0500 <span class="unit">mol</span> ÷ 2<br>&nbsp;&nbsp;= 0.0250 <span class="unit">mol</span> &nbsp; (M2)</div><div class="worked__math"><i>M</i>(<span class="chem">MgCl2</span>) = 24.31 + (2 × 35.45)<br>&nbsp;&nbsp;= 95.21 <span class="unit">g mol-1</span></div><div class="worked__math"><i>m</i> = 0.0250 <span class="unit">mol</span> × 95.21 <span class="unit">g mol-1</span><br>&nbsp;&nbsp;= <strong>2.38 <span class="unit">g</span></strong> &nbsp; (M3)</div><p>Named slips: 4.76 g means you did not divide by 2. 9.52 g means you multiplied by 2 instead of dividing. There are fewer formula units than chloride ions.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>n</i>(<span class=\"chem\">Cl-</span>) = <span class=\"frac\"><span>3.01 × 10<sup>22</sup></span><span>6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0500 <span class=\"unit\">mol</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>n</i>(<span class=\"chem\">MgCl2</span>) = 0.0500 <span class=\"unit\">mol</span> ÷ 2<br>&nbsp;&nbsp;= 0.0250 <span class=\"unit\">mol</span> &nbsp; (M2)</div><div class=\"worked__math\"><i>M</i>(<span class=\"chem\">MgCl2</span>) = 24.31 + (2 × 35.45)<br>&nbsp;&nbsp;= 95.21 <span class=\"unit\">g mol-1</span></div><div class=\"worked__math\"><i>m</i> = 0.0250 <span class=\"unit\">mol</span> × 95.21 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= <strong>2.38 <span class=\"unit\">g</span></strong> &nbsp; (M3)</div><p>よくあるミス：4.76 g は、2 でわらなかったときの値です。9.52 g は、2 でわるところで 2 をかけたときの値です。組成式単位の数は、塩化物イオンの数より少なくなります。</p>",
     },
 
     // ── s1-4-q020 · mcq · challenge · SL · Structure 1.4.3 · 1 mark
     "s1-4-q020": {
       // EN: <p>A student calculates the number of hydrogen atoms in 3.20 <span class="unit">g</span> of methane, <span class="chem">CH4</span>. Their working is shown.</p><ol><li><i>M</i>(<span class="chem">CH4</span>) = 12.01 + (4 × 1.01) = 16.05 <span class="unit">g mol-1</span></li><li><i>n</i>(<span class="chem">CH4</span>) = 3.20 ÷ 16.05 = 0.199 <span class="unit">mol</span></li><li>Number of molecules = 0.199 × 6.02 × 10<sup>23</sup> = 1.20 × 10<sup>23</sup></li><li>Number of H atoms = 1.20 × 10<sup>23</sup> ÷ 4 = 3.00 × 10<sup>22</sup></li></ol><p>Which line contains the error?</p>
-      stem: "",
+      stem: "<p>ある生徒が、3.20 <span class=\"unit\">g</span> のメタン <span class=\"chem\">CH4</span> に含まれる水素原子の数を計算しました。途中の計算は次のとおりです。</p><ol><li><i>M</i>(<span class=\"chem\">CH4</span>) = 12.01 + (4 × 1.01) = 16.05 <span class=\"unit\">g mol-1</span></li><li><i>n</i>(<span class=\"chem\">CH4</span>) = 3.20 ÷ 16.05 = 0.199 <span class=\"unit\">mol</span></li><li>分子の数 = 0.199 × 6.02 × 10<sup>23</sup> = 1.20 × 10<sup>23</sup></li><li>H 原子の数 = 1.20 × 10<sup>23</sup> ÷ 4 = 3.00 × 10<sup>22</sup></li></ol><p>まちがいがあるのは何行目ですか。</p>",
       options: [
         // EN: Line 1
-        "",
+        "1 行目",
         // EN: Line 2
-        "",
+        "2 行目",
         // EN: Line 3
-        "",
+        "3 行目",
         // EN: Line 4
-        "",
+        "4 行目",
       ],
       hints: [
         // EN: Check each line for two things: the right relationship, and an answer that moves in a sensible direction.
-        "",
+        "各行で 2 つのことを確かめます。関係式は正しいですか。答えは、納得できる向きに大きく（または小さく）なっていますか。",
         // EN: Should there be more hydrogen atoms than molecules, or fewer?
-        "",
+        "水素原子の数は、分子の数より多いはずですか、少ないはずですか。",
       ],
       // EN: <p>Lines 1 to 3 are correct. In line 4 the student divided by 4. Each <span class="chem">CH4</span> molecule contains 4 hydrogen atoms, so there are 4 times <em>more</em> H atoms than molecules.</p><div class="worked__math"><i>N</i>(H) = 4 × 1.20 × 10<sup>23</sup><br>&nbsp;&nbsp;= <strong>4.80 × 10<sup>23</sup></strong></div>
-      solution: "",
+      solution: "<p>1〜3 行目は正しいです。4 行目で、生徒は 4 でわっています。<span class=\"chem\">CH4</span> 1 分子には水素原子が 4 個あります。だから H 原子の数は、分子の数の 4 倍に<em>増えます</em>。</p><div class=\"worked__math\"><i>N</i>(H) = 4 × 1.20 × 10<sup>23</sup><br>&nbsp;&nbsp;= <strong>4.80 × 10<sup>23</sup></strong></div>",
       misconception: {
         // EN (option A): Line 1 is correct: one C and four H gives 16.05 <span class="unit">g mol-1</span>. Look for a step where the answer moves in the wrong direction.
-        "0": "",
+        "0": "1 行目は正しいです。C が 1 個、H が 4 個で 16.05 <span class=\"unit\">g mol-1</span> になります。答えがおかしな向きに変わっているステップを探しましょう。",
         // EN (option B): Line 2 is correct: <i>n</i> = <i>m</i> ÷ <i>M</i> with mass in g and molar mass in g mol<sup>−1</sup>.
-        "1": "",
+        "1": "2 行目は正しいです。<i>n</i> = <i>m</i> ÷ <i>M</i> で、質量は g、モル質量は g mol<sup>−1</sup> です。",
         // EN (option C): Line 3 is correct: moles to molecules means multiplying by <i>N</i><sub>A</sub>.
-        "2": "",
+        "2": "3 行目は正しいです。モルから分子の数に直すときは、<i>N</i><sub>A</sub> をかけます。",
       },
     },
 
     // ── s1-4-q021 · mcq · foundation · SL · Structure 1.4.4 · 1 mark
     "s1-4-q021": {
       // EN: <p>Glucose has the molecular formula <span class="chem">C6H12O6</span>. What is its empirical formula?</p>
-      stem: "",
+      stem: "<p>グルコースの分子式は <span class=\"chem\">C6H12O6</span> です。組成式 (empirical formula) は何ですか。</p>",
       options: [
         // EN: <span class="chem">C6H12O6</span>
-        "",
+        "<span class=\"chem\">C6H12O6</span>",
         // EN: <span class="chem">C3H6O3</span>
-        "",
+        "<span class=\"chem\">C3H6O3</span>",
         // EN: <span class="chem">CH2O</span>
-        "",
+        "<span class=\"chem\">CH2O</span>",
         // EN: <span class="chem">CHO</span>
-        "",
+        "<span class=\"chem\">CHO</span>",
       ],
       hints: [
         // EN: The empirical formula gives the simplest ratio of atoms of each element.
-        "",
+        "組成式は、各元素の原子の数の最も簡単な比を表します。",
         // EN: Find the largest number that divides exactly into 6, 12 and 6.
-        "",
+        "6、12、6 をすべてわり切れる最大の数を見つけましょう。",
       ],
       // EN: <div class="worked__math">C : H : O = 6 : 12 : 6</div><div class="worked__math">Divide by 6: C : H : O = 1 : 2 : 1</div><p>The empirical formula is <strong><span class="chem">CH2O</span></strong>.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">C : H : O = 6 : 12 : 6</div><div class=\"worked__math\">全部を 6 でわる： C : H : O = 1 : 2 : 1</div><p>組成式は <strong><span class=\"chem\">CH2O</span></strong> です。</p>",
       misconception: {
         // EN (option A): This is the molecular formula: the actual number of atoms in one molecule. The empirical formula is the simplest whole-number ratio.
-        "0": "",
+        "0": "これは分子式で、1 分子に実際に含まれる原子の数を表します。組成式は、最も簡単な整数比です。",
         // EN (option B): You divided by 2, but 3 : 6 : 3 can still be divided by 3. Keep going until the ratio cannot be made simpler.
-        "1": "",
+        "1": "2 でわりましたが、3 : 6 : 3 はまだ 3 でわれます。これ以上簡単にできなくなるまで続けましょう。",
         // EN (option D): You removed the subscripts instead of dividing them. The ratio of atoms is 6 : 12 : 6, which simplifies to 1 : 2 : 1.
-        "3": "",
+        "3": "添え字をわらずに、消してしまいました。原子の数の比は 6 : 12 : 6 で、簡単にすると 1 : 2 : 1 です。",
       },
     },
 
     // ── s1-4-q022 · numeric · exam · SL · Structure 1.4.4 · 2 marks
     "s1-4-q022": {
       // EN: <p>Ammonium sulfate, <span class="chem">(NH4)2SO4</span>, is used as a fertilizer.</p><p>Calculate the percentage by mass of nitrogen in ammonium sulfate. Give your answer to 3 significant figures.</p><p>Use <i>A</i><sub>r</sub>: N = 14.01, H = 1.01, S = 32.07, O = 16.00.</p>
-      stem: "",
+      stem: "<p>硫酸アンモニウム <span class=\"chem\">(NH4)2SO4</span> は肥料に使われます。</p><p>硫酸アンモニウムに含まれる窒素の質量百分率 (percentage by mass) を計算しなさい (calculate)。有効数字 3 桁で答えましょう。</p><p>次の <i>A</i><sub>r</sub> を使いましょう：N = 14.01、H = 1.01、S = 32.07、O = 16.00</p>",
       hints: [
         // EN: Percentage by mass of an element = (mass of that element in one mole of compound ÷ molar mass of compound) × 100.
-        "",
+        "元素の質量百分率 =（化合物 1 モルに含まれるその元素の質量 ÷ 化合物のモル質量）× 100。",
         // EN: Count the nitrogen atoms carefully. The subscript 2 outside the bracket applies to N and to H.
-        "",
+        "窒素原子の数を注意して数えましょう。かっこの外の添え字 2 は、N にも H にもかかります。",
         // EN: <i>M</i> = (2 × 14.01) + (8 × 1.01) + 32.07 + (4 × 16.00).
-        "",
+        "<i>M</i> = (2 × 14.01) + (8 × 1.01) + 32.07 + (4 × 16.00).",
       ],
       // EN: <div class="worked__math"><i>M</i> = (2 × 14.01) + (8 × 1.01)<br>&nbsp;&nbsp;&nbsp;&nbsp;+ 32.07 + (4 × 16.00)<br>&nbsp;&nbsp;= 132.17 <span class="unit">g mol-1</span> &nbsp; (M1)</div><div class="worked__math"><i>m</i>(N in 1 mol) = 2 × 14.01 <span class="unit">g</span><br>&nbsp;&nbsp;= 28.02 <span class="unit">g</span></div><div class="worked__math">% N = <span class="frac"><span>28.02</span><span>132.17</span></span> × 100<br>&nbsp;&nbsp;= <strong>21.2 %</strong> &nbsp; (M2)</div><p>Named slip: 10.6 % means you counted one nitrogen atom instead of two.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>M</i> = (2 × 14.01) + (8 × 1.01)<br>&nbsp;&nbsp;&nbsp;&nbsp;+ 32.07 + (4 × 16.00)<br>&nbsp;&nbsp;= 132.17 <span class=\"unit\">g mol-1</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>m</i>(1 mol 中の N) = 2 × 14.01 <span class=\"unit\">g</span><br>&nbsp;&nbsp;= 28.02 <span class=\"unit\">g</span></div><div class=\"worked__math\">% N = <span class=\"frac\"><span>28.02</span><span>132.17</span></span> × 100<br>&nbsp;&nbsp;= <strong>21.2 %</strong> &nbsp; (M2)</div><p>よくあるミス：10.6 % は、窒素原子を 2 個ではなく 1 個と数えたときの値です。</p>",
     },
 
     // ── s1-4-q023 · mcq · exam · SL · Structure 1.4.4 · 1 mark
     "s1-4-q023": {
       // EN: <p>A compound contains, by mass, 29.1 % sodium, 40.5 % sulfur and 30.4 % oxygen.</p><p>What is its empirical formula?</p><p>Use <i>A</i><sub>r</sub>: Na = 22.99, S = 32.07, O = 16.00.</p>
-      stem: "",
+      stem: "<p>ある化合物は、質量で 29.1 % のナトリウム、40.5 % の硫黄、30.4 % の酸素を含みます。</p><p>この化合物の組成式 (empirical formula) は何ですか。</p><p>次の <i>A</i><sub>r</sub> を使いましょう：Na = 22.99、S = 32.07、O = 16.00</p>",
       options: [
         // EN: <span class="chem">NaSO</span>
-        "",
+        "<span class=\"chem\">NaSO</span>",
         // EN: <span class="chem">NaSO2</span>
-        "",
+        "<span class=\"chem\">NaSO2</span>",
         // EN: <span class="chem">Na2S2O3</span>
-        "",
+        "<span class=\"chem\">Na2S2O3</span>",
         // EN: <span class="chem">Na3S4O3</span>
-        "",
+        "<span class=\"chem\">Na3S4O3</span>",
       ],
       hints: [
         // EN: Imagine 100 g of compound, so each percentage becomes a mass in grams. Then use <span class="mono"><i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub></span> for each element.
-        "",
+        "化合物が 100 g あると考えます。すると、百分率がそのままグラム単位の質量になります。次に、元素ごとに <span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub></span> を使います。",
         // EN: Divide all three amounts by the smallest one.
-        "",
+        "3 つの物質量を、いちばん小さい値でわります。",
         // EN: You should get 1 : 1 : 1.5. Do not round the 1.5. What can you multiply by to make every number whole?
-        "",
+        "1 : 1 : 1.5 になるはずです。1.5 を丸めてはいけません。何をかければ、すべてが整数になりますか。",
       ],
       // EN: <div class="table-scroll"><table class="data"><thead><tr><th scope="col"></th><th scope="col" class="num"><span style="text-transform:none;letter-spacing:0">Na</span></th><th scope="col" class="num"><span style="text-transform:none;letter-spacing:0">S</span></th><th scope="col" class="num"><span style="text-transform:none;letter-spacing:0">O</span></th></tr></thead><tbody><tr><th scope="row">Mass in 100 g / g</th><td class="num">29.1</td><td class="num">40.5</td><td class="num">30.4</td></tr><tr><th scope="row">÷ <i>A</i><sub>r</sub> → amount / mol</th><td class="num">1.266</td><td class="num">1.263</td><td class="num">1.900</td></tr><tr><th scope="row">÷ smallest (1.263)</th><td class="num">1.00</td><td class="num">1.00</td><td class="num">1.50</td></tr><tr><th scope="row">× 2</th><td class="num">2</td><td class="num">2</td><td class="num">3</td></tr></tbody></table></div><p>The empirical formula is <strong><span class="chem">Na2S2O3</span></strong>.</p>
-      solution: "",
+      solution: "<div class=\"table-scroll\"><table class=\"data\"><thead><tr><th scope=\"col\"></th><th scope=\"col\" class=\"num\"><span style=\"text-transform:none;letter-spacing:0\">Na</span></th><th scope=\"col\" class=\"num\"><span style=\"text-transform:none;letter-spacing:0\">S</span></th><th scope=\"col\" class=\"num\"><span style=\"text-transform:none;letter-spacing:0\">O</span></th></tr></thead><tbody><tr><th scope=\"row\">100 g 中の質量 / g</th><td class=\"num\">29.1</td><td class=\"num\">40.5</td><td class=\"num\">30.4</td></tr><tr><th scope=\"row\">÷ <i>A</i><sub>r</sub> → 物質量 / mol</th><td class=\"num\">1.266</td><td class=\"num\">1.263</td><td class=\"num\">1.900</td></tr><tr><th scope=\"row\">÷ 最小の値 (1.263)</th><td class=\"num\">1.00</td><td class=\"num\">1.00</td><td class=\"num\">1.50</td></tr><tr><th scope=\"row\">× 2</th><td class=\"num\">2</td><td class=\"num\">2</td><td class=\"num\">3</td></tr></tbody></table></div><p>組成式は <strong><span class=\"chem\">Na2S2O3</span></strong> です。</p>",
       misconception: {
         // EN (option A): You rounded 1.5 down to 1. A ratio ending in .5 is too far from a whole number to round. Multiply every number by 2 instead.
-        "0": "",
+        "0": "1.5 を 1 に切り捨てました。.5 で終わる比は整数から遠すぎるので、丸められません。かわりに、すべての数に 2 をかけましょう。",
         // EN (option B): You rounded 1.5 up to 2. A ratio ending in .5 is too far from a whole number to round. Multiply every number by 2 instead.
-        "1": "",
+        "1": "1.5 を 2 に切り上げました。.5 で終わる比は整数から遠すぎるので、丸められません。かわりに、すべての数に 2 をかけましょう。",
         // EN (option D): You used the percentages as if they were numbers of atoms (29 : 40 : 30 ≈ 3 : 4 : 3). Divide each percentage by the <i>A</i><sub>r</sub> first to get moles.
-        "3": "",
+        "3": "百分率を、そのまま原子の数として使いました（29 : 40 : 30 ≈ 3 : 4 : 3）。まず、それぞれの百分率を <i>A</i><sub>r</sub> でわって、モルに直しましょう。",
       },
     },
 
     // ── s1-4-q024 · mcq · exam · SL · Structure 1.4.4 · 1 mark
     "s1-4-q024": {
       // EN: <p>1.43 <span class="unit">g</span> of an oxide of copper is heated in a stream of hydrogen until all of it has been reduced to copper. The copper left has a mass of 1.27 <span class="unit">g</span>.</p><p>What is the empirical formula of the oxide?</p><p>Use <i>A</i><sub>r</sub>: Cu = 63.55, O = 16.00.</p>
-      stem: "",
+      stem: "<p>銅の酸化物 1.43 <span class=\"unit\">g</span> を水素の気流の中で加熱し、すべてを銅に還元します。残った銅の質量は 1.27 <span class=\"unit\">g</span> です。</p><p>この酸化物の組成式 (empirical formula) は何ですか。</p><p>次の <i>A</i><sub>r</sub> を使いましょう：Cu = 63.55、O = 16.00</p>",
       options: [
         // EN: <span class="chem">CuO2</span>
-        "",
+        "<span class=\"chem\">CuO2</span>",
         // EN: <span class="chem">Cu2O</span>
-        "",
+        "<span class=\"chem\">Cu2O</span>",
         // EN: <span class="chem">Cu4O</span>
-        "",
+        "<span class=\"chem\">Cu4O</span>",
         // EN: <span class="chem">Cu8O</span>
-        "",
+        "<span class=\"chem\">Cu8O</span>",
       ],
       hints: [
         // EN: The oxide contains only copper and oxygen. The mass lost is the mass of oxygen, so find it by subtraction.
-        "",
+        "この酸化物に含まれるのは銅と酸素だけです。減った質量が酸素の質量なので、引き算で求めます。",
         // EN: Convert each mass to an amount with <span class="mono"><i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub></span>. Use the mass of an oxygen <em>atom</em>.
-        "",
+        "<span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub></span> で、それぞれの質量を物質量に直します。酸素は<em>原子</em>の質量を使います。",
         // EN: Divide both amounts by the smaller one to get the ratio.
-        "",
+        "2 つの物質量を小さいほうでわって、比を求めます。",
       ],
       // EN: <div class="worked__math"><i>m</i>(O) = 1.43 <span class="unit">g</span> − 1.27 <span class="unit">g</span><br>&nbsp;&nbsp;= 0.16 <span class="unit">g</span></div><div class="worked__math"><i>n</i>(Cu) = <span class="frac"><span>1.27 <span class="unit">g</span></span><span>63.55 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0200 <span class="unit">mol</span></div><div class="worked__math"><i>n</i>(O) = <span class="frac"><span>0.16 <span class="unit">g</span></span><span>16.00 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0100 <span class="unit">mol</span></div><div class="worked__math">Cu : O = 0.0200 : 0.0100<br>&nbsp;&nbsp;= 2 : 1</div><p>The empirical formula is <strong><span class="chem">Cu2O</span></strong>.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>m</i>(O) = 1.43 <span class=\"unit\">g</span> − 1.27 <span class=\"unit\">g</span><br>&nbsp;&nbsp;= 0.16 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>n</i>(Cu) = <span class=\"frac\"><span>1.27 <span class=\"unit\">g</span></span><span>63.55 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0200 <span class=\"unit\">mol</span></div><div class=\"worked__math\"><i>n</i>(O) = <span class=\"frac\"><span>0.16 <span class=\"unit\">g</span></span><span>16.00 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0100 <span class=\"unit\">mol</span></div><div class=\"worked__math\">Cu : O = 0.0200 : 0.0100<br>&nbsp;&nbsp;= 2 : 1</div><p>組成式は <strong><span class=\"chem\">Cu2O</span></strong> です。</p>",
       misconception: {
         // EN (option A): You have the ratio upside down. There are 0.0200 mol of Cu and 0.0100 mol of O, so there are two Cu for each O.
-        "0": "",
+        "0": "比が逆になっています。Cu は 0.0200 mol、O は 0.0100 mol なので、O 1 個に対して Cu が 2 個です。",
         // EN (option C): You divided the mass of oxygen by 32.00. The formula counts oxygen <em>atoms</em>, so use <i>A</i><sub>r</sub>(O) = 16.00, not <i>M</i>(<span class="chem">O2</span>).
-        "2": "",
+        "2": "酸素の質量を 32.00 でわりました。化学式で数えるのは酸素<em>原子</em>です。<i>M</i>(<span class=\"chem\">O2</span>) ではなく、<i>A</i><sub>r</sub>(O) = 16.00 を使いましょう。",
         // EN (option D): You used the ratio of the masses (1.27 : 0.16 ≈ 8 : 1). A formula is a ratio of amounts in moles, so divide each mass by its <i>A</i><sub>r</sub> first.
-        "3": "",
+        "3": "質量の比をそのまま使いました（1.27 : 0.16 ≈ 8 : 1）。化学式は、モル単位の物質量の比です。まず、それぞれの質量を <i>A</i><sub>r</sub> でわりましょう。",
       },
     },
 
     // ── s1-4-q025 · short · exam · SL · Structure 1.4.4 · 3 marks
     "s1-4-q025": {
       // EN: <p>A compound contains only carbon, hydrogen and oxygen. Complete combustion of 1.50 <span class="unit">g</span> of the compound gives 3.30 <span class="unit">g</span> of <span class="chem">CO2</span> and 1.80 <span class="unit">g</span> of <span class="chem">H2O</span>.</p><p>Determine the empirical formula of the compound. Show your working.</p><p><i>M</i>(<span class="chem">CO2</span>) = 44.01 <span class="unit">g mol-1</span>, <i>M</i>(<span class="chem">H2O</span>) = 18.02 <span class="unit">g mol-1</span>. <i>A</i><sub>r</sub>: C = 12.01, H = 1.01, O = 16.00.</p>
-      stem: "",
+      stem: "<p>ある化合物は、炭素、水素、酸素だけを含みます。この化合物 1.50 <span class=\"unit\">g</span> を完全燃焼させると、<span class=\"chem\">CO2</span> が 3.30 <span class=\"unit\">g</span>、<span class=\"chem\">H2O</span> が 1.80 <span class=\"unit\">g</span> 生じます。</p><p>この化合物の組成式 (empirical formula) を求めなさい (determine)。途中の計算も書きましょう。</p><p><i>M</i>(<span class=\"chem\">CO2</span>) = 44.01 <span class=\"unit\">g mol-1</span>、<i>M</i>(<span class=\"chem\">H2O</span>) = 18.02 <span class=\"unit\">g mol-1</span>。<i>A</i><sub>r</sub>：C = 12.01、H = 1.01、O = 16.00</p>",
       hints: [
         // EN: All the carbon ends up in <span class="chem">CO2</span> and all the hydrogen ends up in <span class="chem">H2O</span>. Use <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span> for each product.
-        "",
+        "炭素はすべて <span class=\"chem\">CO2</span> に、水素はすべて <span class=\"chem\">H2O</span> になります。それぞれの生成物に <span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>M</i></span> を使います。",
         // EN: Each <span class="chem">H2O</span> contains 2 H atoms, so <i>n</i>(H) = 2 × <i>n</i>(<span class="chem">H2O</span>).
-        "",
+        "<span class=\"chem\">H2O</span> 1 分子には H 原子が 2 個あります。だから <i>n</i>(H) = 2 × <i>n</i>(<span class=\"chem\">H2O</span>) です。",
         // EN: The oxygen in the products comes partly from the air, so you cannot count it directly. Find the mass of O in the compound by difference: mass of compound − mass of C − mass of H.
-        "",
+        "生成物の酸素は、一部が空気から来ています。だから直接は数えられません。化合物に含まれる O の質量は、引き算で求めます：化合物の質量 − C の質量 − H の質量。",
       ],
       // EN: <div class="worked__math"><i>n</i>(C) = <i>n</i>(<span class="chem">CO2</span>)<br>&nbsp;&nbsp;= <span class="frac"><span>3.30 <span class="unit">g</span></span><span>44.01 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.07498 <span class="unit">mol</span></div><div class="worked__math"><i>n</i>(H) = 2 × <i>n</i>(<span class="chem">H2O</span>)<br>&nbsp;&nbsp;= 2 × <span class="frac"><span>1.80 <span class="unit">g</span></span><span>18.02 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.1998 <span class="unit">mol</span> &nbsp; (M1)</div><div class="worked__math"><i>m</i>(C) = 0.07498 <span class="unit">mol</span> × 12.01 <span class="unit">g mol-1</span><br>&nbsp;&nbsp;= 0.9005 <span class="unit">g</span></div><div class="worked__math"><i>m</i>(H) = 0.1998 <span class="unit">mol</span> × 1.01 <span class="unit">g mol-1</span><br>&nbsp;&nbsp;= 0.2018 <span class="unit">g</span></div><div class="worked__math"><i>m</i>(O) = 1.50 <span class="unit">g</span> − 0.9005 <span class="unit">g</span> − 0.2018 <span class="unit">g</span><br>&nbsp;&nbsp;= 0.3977 <span class="unit">g</span></div><div class="worked__math"><i>n</i>(O) = <span class="frac"><span>0.3977 <span class="unit">g</span></span><span>16.00 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.02485 <span class="unit">mol</span> &nbsp; (M2)</div><p>Divide each amount by the smallest (0.02485 mol):</p><div class="worked__math">C : H : O = 3.02 : 8.04 : 1.00</div><p>Empirical formula: <strong><span class="chem">C3H8O</span></strong> (M3). The ratios 3.02 and 8.04 are within experimental rounding of whole numbers, so rounding is justified here.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>n</i>(C) = <i>n</i>(<span class=\"chem\">CO2</span>)<br>&nbsp;&nbsp;= <span class=\"frac\"><span>3.30 <span class=\"unit\">g</span></span><span>44.01 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.07498 <span class=\"unit\">mol</span></div><div class=\"worked__math\"><i>n</i>(H) = 2 × <i>n</i>(<span class=\"chem\">H2O</span>)<br>&nbsp;&nbsp;= 2 × <span class=\"frac\"><span>1.80 <span class=\"unit\">g</span></span><span>18.02 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.1998 <span class=\"unit\">mol</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>m</i>(C) = 0.07498 <span class=\"unit\">mol</span> × 12.01 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= 0.9005 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>m</i>(H) = 0.1998 <span class=\"unit\">mol</span> × 1.01 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= 0.2018 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>m</i>(O) = 1.50 <span class=\"unit\">g</span> − 0.9005 <span class=\"unit\">g</span> − 0.2018 <span class=\"unit\">g</span><br>&nbsp;&nbsp;= 0.3977 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>n</i>(O) = <span class=\"frac\"><span>0.3977 <span class=\"unit\">g</span></span><span>16.00 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.02485 <span class=\"unit\">mol</span> &nbsp; (M2)</div><p>それぞれの物質量を、いちばん小さい値（0.02485 mol）でわります。</p><div class=\"worked__math\">C : H : O = 3.02 : 8.04 : 1.00</div><p>組成式：<strong><span class=\"chem\">C3H8O</span></strong> (M3)。3.02 と 8.04 は、実験値の丸めによるずれの範囲で整数に十分近い値です。だから、ここでは整数に丸めてかまいません。</p>",
       // EN: <p><i>n</i>(C) = 3.30 ÷ 44.01 = 0.0750 mol and <i>n</i>(H) = 2 × (1.80 ÷ 18.02) = 0.200 mol.</p><p><i>m</i>(O) = 1.50 − (0.0750 × 12.01) − (0.200 × 1.01) = 0.398 g, so <i>n</i>(O) = 0.398 ÷ 16.00 = 0.0249 mol.</p><p>C : H : O = 0.0750 : 0.200 : 0.0249 = 3 : 8 : 1. Empirical formula: <span class="chem">C3H8O</span>.</p>
-      answer: "",
+      answer: "<p><i>n</i>(C) = 3.30 ÷ 44.01 = 0.0750 mol、<i>n</i>(H) = 2 × (1.80 ÷ 18.02) = 0.200 mol。</p><p><i>m</i>(O) = 1.50 − (0.0750 × 12.01) − (0.200 × 1.01) = 0.398 g なので、<i>n</i>(O) = 0.398 ÷ 16.00 = 0.0249 mol。</p><p>C : H : O = 0.0750 : 0.200 : 0.0249 = 3 : 8 : 1。組成式：<span class=\"chem\">C3H8O</span>。</p>",
       markscheme: [
         // EN: M1: n(C) = 0.0750 mol AND n(H) = 0.200 mol. (Accept masses: 0.901 g of C and 0.202 g of H.)
-        "",
+        "M1：n(C) = 0.0750 mol かつ n(H) = 0.200 mol。（質量でも認める：C が 0.901 g、H が 0.202 g。）",
         // EN: M2: mass of O by difference = 0.398 g, OR n(O) = 0.0249 mol.
-        "",
+        "M2：引き算で求めた O の質量 = 0.398 g、または n(O) = 0.0249 mol。",
         // EN: M3: C₃H₈O. (A correct final formula with no working would earn all 3 marks, but always show working so that an error is penalised only once.)
-        "",
+        "M3：C₃H₈O。（途中の計算がなくても、最後の式が正しければ 3 点すべてもらえる。それでも途中の計算は必ず書くこと。そうすれば、まちがいがあっても減点は 1 回だけですむ。）",
       ],
     },
 
     // ── s1-4-q026 · mcq · exam · SL · Structure 1.4.4 · 1 mark
     "s1-4-q026": {
       // EN: <p>An oxide of phosphorus has the empirical formula <span class="chem">P2O5</span> and a molar mass of 283.88 <span class="unit">g mol-1</span>.</p><p>What is its molecular formula?</p><p>Use <i>A</i><sub>r</sub>: P = 30.97, O = 16.00.</p>
-      stem: "",
+      stem: "<p>リンのある酸化物は、組成式が <span class=\"chem\">P2O5</span>、モル質量が 283.88 <span class=\"unit\">g mol-1</span> です。</p><p>この酸化物の分子式 (molecular formula) は何ですか。</p><p>次の <i>A</i><sub>r</sub> を使いましょう：P = 30.97、O = 16.00</p>",
       options: [
         // EN: <span class="chem">P2O5</span>
-        "",
+        "<span class=\"chem\">P2O5</span>",
         // EN: <span class="chem">P2O10</span>
-        "",
+        "<span class=\"chem\">P2O10</span>",
         // EN: <span class="chem">P4O5</span>
-        "",
+        "<span class=\"chem\">P4O5</span>",
         // EN: <span class="chem">P4O10</span>
-        "",
+        "<span class=\"chem\">P4O10</span>",
       ],
       hints: [
         // EN: Find the mass of one empirical formula unit, <span class="chem">P2O5</span>.
-        "",
+        "組成式 1 つ分、つまり <span class=\"chem\">P2O5</span> の質量を求めます。",
         // EN: Divide the molar mass by the empirical formula mass. The result is how many empirical units make one molecule.
-        "",
+        "モル質量を、組成式 1 つ分の質量でわります。その答えが、1 分子に組成式いくつ分が入っているかを表します。",
       ],
       // EN: <p>Find the mass of one empirical formula unit.</p><div class="worked__math"><i>M</i>(<span class="chem">P2O5</span>) = (2 × 30.97) + (5 × 16.00)<br>&nbsp;&nbsp;= 141.94 <span class="unit">g mol-1</span></div><div class="worked__math">Number of units = <span class="frac"><span>283.88 <span class="unit">g mol-1</span></span><span>141.94 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 2.00</div><div class="worked__math">Molecular formula = 2 × <span class="chem">P2O5</span><br>&nbsp;&nbsp;= <strong><span class="chem">P4O10</span></strong></div>
-      solution: "",
+      solution: "<p>組成式 1 つ分の質量を求めます。</p><div class=\"worked__math\"><i>M</i>(<span class=\"chem\">P2O5</span>) = (2 × 30.97) + (5 × 16.00)<br>&nbsp;&nbsp;= 141.94 <span class=\"unit\">g mol-1</span></div><div class=\"worked__math\">組成式いくつ分か = <span class=\"frac\"><span>283.88 <span class=\"unit\">g mol-1</span></span><span>141.94 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 2.00</div><div class=\"worked__math\">分子式 = 2 × <span class=\"chem\">P2O5</span><br>&nbsp;&nbsp;= <strong><span class=\"chem\">P4O10</span></strong></div>",
       misconception: {
         // EN (option A): This is the empirical formula. Its mass is 141.94, which is only half of the molar mass, so the molecule contains two empirical units.
-        "0": "",
+        "0": "これは組成式です。その質量は 141.94 で、モル質量の半分しかありません。だから、1 分子は組成式 2 つ分でできています。",
         // EN (option B): You doubled only the oxygen. Every subscript in the empirical formula must be multiplied by the same whole number.
-        "1": "",
+        "1": "酸素だけを 2 倍にしました。組成式の添え字は、すべて同じ整数倍にしなければなりません。",
         // EN (option C): You doubled only the phosphorus. Every subscript in the empirical formula must be multiplied by the same whole number.
-        "2": "",
+        "2": "リンだけを 2 倍にしました。組成式の添え字は、すべて同じ整数倍にしなければなりません。",
       },
     },
 

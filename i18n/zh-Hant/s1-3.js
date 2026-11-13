@@ -58,7 +58,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Explain that the limit of convergence corresponds to ionization, and calculate a first ionization energy from the wavelength or frequency of that limit (and the reverse).": "解釋會聚極限對應電離，並由會聚極限的波長或頻率計算第一電離能（也要懂得反過來計算）。",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Explain the trends and the discontinuities in first ionization energy across a period and down a group.": "解釋第一電離能在同一週期和同一族中的趨勢，以及趨勢中的不連續處。",
+    "Explain the trends and the discontinuities in first ionization energy across a period and down a group.": "解釋第一電離能橫跨一個週期和沿一族向下的趨勢，以及趨勢中的不連續處。",
 
     // What you need to be able to do > checklist > Additional HL > span
     "Deduce the group of an element from its successive ionization energies.": "由元素的逐級電離能推斷它所屬的族。",
@@ -1086,25 +1086,25 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "First ionization energy, hydrogen to krypton": "第一電離能：由氫至氪",
 
     // Trends in first ionization energy > widget > Additional HL > figcaption
-    "Tap a point or move the slider. The readout compares each element with the one before it (the trend across a period) and the one above it (the trend down a group). Values are from the data booklet.": "輕按圖上的點，或移動滑桿。讀數會把每種元素與前一種元素比較（同一週期的趨勢），也與上方的元素比較（同一族的趨勢）。數值取自數據手冊。",
+    "Tap a point or move the slider. The readout compares each element with the one before it (the trend across a period) and the one above it (the trend down a group). Values are from the data booklet.": "輕按圖上的點，或移動滑桿。讀數會把每種元素與前一種元素比較（橫跨一個週期的趨勢），也與上方的元素比較（沿一族向下的趨勢）。數值取自數據手冊。",
 
     // Trends in first ionization energy > Additional HL > h3
-    "Across a period: a general increase": "橫越週期：大致遞增",
+    "Across a period: a general increase": "橫跨一個週期：大致遞增",
 
     // Trends in first ionization energy > Additional HL > p
-    "From left to right across a period, each atom has one more proton. The extra electrons go into the same main energy level, so the shielding by inner electrons stays about the same. The outer electrons are pulled in more strongly, and more energy is needed to remove one.": "在同一週期由左至右，每種原子比前一種多一個質子。新增的電子填入同一個主能級，所以內層電子的屏蔽大致不變。外層電子受到更強的引力，移走一個電子就需要更多能量。",
+    "From left to right across a period, each atom has one more proton. The extra electrons go into the same main energy level, so the shielding by inner electrons stays about the same. The outer electrons are pulled in more strongly, and more energy is needed to remove one.": "橫跨一個週期由左至右，每種原子比前一種多一個質子。新增的電子填入同一個主能級，所以內層電子的屏蔽大致不變。外層電子受到更強的引力，移走一個電子就需要更多能量。",
 
     // Trends in first ionization energy > Additional HL > h3
-    "Down a group: a decrease": "沿族向下：遞減",
+    "Down a group: a decrease": "沿一族向下：遞減",
 
     // Trends in first ionization energy > Additional HL > p
-    "Going down a group, the outer electron is in a higher main energy level each time. It is further from the nucleus and there are more inner electrons shielding it. These two effects outweigh the larger nuclear charge, so less energy is needed to remove it.": "沿族向下，外層電子所在的主能級一次比一次高。它離原子核較遠，而且有較多內層電子屏蔽它。這兩個效應蓋過了核電荷增加的影響，所以移走它所需的能量較少。",
+    "Going down a group, the outer electron is in a higher main energy level each time. It is further from the nucleus and there are more inner electrons shielding it. These two effects outweigh the larger nuclear charge, so less energy is needed to remove it.": "沿一族向下，外層電子所在的主能級一次比一次高。它離原子核較遠，而且有較多內層電子屏蔽它。這兩個效應蓋過了核電荷增加的影響，所以移走它所需的能量較少。",
 
     // Trends in first ionization energy > Additional HL > h3
     "Two discontinuities in each period": "每個週期有兩個不連續處",
 
     // Trends in first ionization energy > Additional HL > p
-    "The increase across a period is not smooth. A <dfn data-def=\"A break in a trend: a point where the value goes the opposite way to the general pattern.\">discontinuity</dfn> is a place where the trend briefly goes the other way. There are two in period 2, and the same two in period 3.": "橫越週期時，電離能並不是平穩地遞增。<dfn data-def=\"趨勢中斷的地方：數值的變化與整體規律相反的一點。\">不連續處 <span class=\"en-term\">(discontinuity)</span></dfn>是趨勢短暫逆轉的地方。第 2 週期有兩個，第 3 週期也有相同的兩個。",
+    "The increase across a period is not smooth. A <dfn data-def=\"A break in a trend: a point where the value goes the opposite way to the general pattern.\">discontinuity</dfn> is a place where the trend briefly goes the other way. There are two in period 2, and the same two in period 3.": "橫跨一個週期時，電離能並不是平穩地遞增。<dfn data-def=\"趨勢中斷的地方：數值的變化與整體規律相反的一點。\">不連續處 <span class=\"en-term\">(discontinuity)</span></dfn>是趨勢短暫逆轉的地方。第 2 週期有兩個，第 3 週期也有相同的兩個。",
 
     // Trends in first ionization energy > Additional HL > data-def attribute
     "A break in a trend: a point where the value goes the opposite way to the general pattern.": "趨勢中斷的地方：數值的變化與整體規律相反的一點。",
@@ -1218,10 +1218,10 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Base your explanation on <b>the energy of the electron being removed</b>. Do not write that a half-filled or full sublevel is “specially stable”: the syllabus asks you not to, and examiners have refused that kind of answer. Name the sublevels or orbitals, then say why the electron is easier to remove.": "解釋時要以<b>被移走電子的能量</b>為根據。不要寫半滿或全滿的亞層「特別穩定」：課程大綱要求不用這個說法，考官也曾拒絕接受這類答案。先指出亞層或軌態的名稱，然後說明為甚麼該電子較容易移走。",
 
     // Trends in first ionization energy > common mistake > Additional HL > p
-    "Shielding does not increase across a period, and atoms do not get bigger across a period. The outer electrons are in the same main energy level, so the number of inner, shielding electrons stays the same while the nuclear charge rises.": "橫越週期時，屏蔽不會增加，原子也不會變大。外層電子都在同一個主能級，所以起屏蔽作用的內層電子數目不變，而核電荷則增加。",
+    "Shielding does not increase across a period, and atoms do not get bigger across a period. The outer electrons are in the same main energy level, so the number of inner, shielding electrons stays the same while the nuclear charge rises.": "橫跨一個週期時，屏蔽不會增加，原子也不會變大。外層電子都在同一個主能級，所以起屏蔽作用的內層電子數目不變，而核電荷則增加。",
 
     // Trends in first ionization energy > not needed for IB > Additional HL > p
-    "You are not asked to calculate an “effective nuclear charge” or to explain the small changes across the d-block (Sc to Zn). The periodic trend in ionization energy comes back in Structure 3.1, with atomic radius and electronegativity. There, the general trend across a period and down a group is also SL content. The discontinuities stay HL only.": "題目不會要求你計算「有效核電荷」，也不會要求你解釋橫越 d 區（Sc 至 Zn）的細微變化。電離能的週期性趨勢會在 Structure 3.1 與原子半徑和電負性一起再出現。在那裏，橫越週期和沿族向下的整體趨勢也屬於 SL 內容。不連續處則仍然只屬 HL。",
+    "You are not asked to calculate an “effective nuclear charge” or to explain the small changes across the d-block (Sc to Zn). The periodic trend in ionization energy comes back in Structure 3.1, with atomic radius and electronegativity. There, the general trend across a period and down a group is also SL content. The discontinuities stay HL only.": "題目不會要求你計算「有效核電荷」，也不會要求你解釋橫跨 d 區（Sc 至 Zn）的細微變化。電離能的週期趨勢會在 Structure 3.1 與原子半徑和電負性一起再出現。在那裏，橫跨一個週期和沿一族向下的整體趨勢也屬於 SL 內容。不連續處則仍然只屬 HL。",
 
     // Trends in first ionization energy > Additional HL > data-title attribute
     "Trends in first ionization energy: quick check": "第一電離能的趨勢：快速小測",
@@ -1372,7 +1372,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Both quantities range over many powers of ten. A log scale turns “ten times bigger” into “one unit higher”, so very large and very small values fit on one readable axis. For ionization energies that makes the jumps visible. For hydrogen ion concentration it gives the pH scale, which you will meet in Reactivity 3.1.": "這兩個量的範圍都橫跨很多個 10 的次方。對數標度把「大十倍」變成「高一個單位」，所以極大和極小的數值可以放在同一條易讀的軸上。對電離能來說，這樣可以看清躍升。對氫離子濃度來說，這樣就得出 pH 標度，你會在 Reactivity 3.1 學到。",
 
     // Linking it up > Additional HL > h3
-    "How do successive ionization energies help to explain variable oxidation states?": "逐級電離能怎樣幫助解釋可變的氧化態？",
+    "How do successive ionization energies help to explain variable oxidation states?": "逐級電離能怎樣幫助解釋可變氧化態？",
 
     // Linking it up > Additional HL > p
     "For a first-row transition element, the 4s and 3d electrons are close in energy, so the first few successive ionization energies rise gradually with no large jump between them. Several different numbers of electrons can be lost for a similar energy cost. That is why iron forms both <span class=\"chem\">Fe^2+</span> and <span class=\"chem\">Fe^3+</span>. This is developed in Structure 3.1 at HL.": "第一列過渡元素的 4s 和 3d 電子能量接近，所以最初幾個逐級電離能逐步上升，之間沒有大幅躍升。失去不同數目的電子，所需的能量代價相近。這就是鐵可以形成 <span class=\"chem\">Fe^2+</span> 和 <span class=\"chem\">Fe^3+</span> 的原因。HL 的 Structure 3.1 會進一步說明。",
@@ -1837,7 +1837,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Large drop from {prev} ({pv}). A new period starts. The electron removed is in a new main energy level (n = {n}), further from the nucleus and shielded by more inner electrons, so it is attracted less strongly.": "比 {prev} ({pv}) 大幅下跌。新的週期開始了。被移走的電子在新的主能級 (n = {n})，離原子核較遠，受到較多內層電子屏蔽，所以受到的引力較弱。",
 
     // widget string (assets/js/widgets-s1-3.js)
-    "Lower than {prev} ({pv}), even though the nuclear charge is greater. This is a discontinuity. The electron removed from {el} is in the {sub} sublevel, which is higher in energy than the {ssub} sublevel that {prev} loses an electron from. A higher-energy electron needs less energy to remove.": "比 {prev} ({pv}) 低，雖然核電荷較大。這是不連續處。從 {el} 移走的電子在 {sub} 亞層，{prev} 失去的電子則在 {ssub} 亞層；{sub} 亞層的能量比 {ssub} 亞層高。電子的能量愈高，移走它所需的能量愈少。",
+    "Lower than {prev} ({pv}), even though the nuclear charge is greater. This is a discontinuity. The electron removed from {el} is in the {sub} sublevel, which is higher in energy than the {ssub} sublevel that {prev} loses an electron from. A higher-energy electron needs less energy to remove.": "比 {prev} ({pv}) 低，雖然核電荷較大。這是不連續處。從 {el} 移走的電子在 {sub} 亞層，它的能量比 {prev} 失去電子的 {ssub} 亞層高。電子的能量愈高，移走它所需的能量愈少。",
 
     // widget string (assets/js/widgets-s1-3.js)
     "Lower than {prev} ({pv}), even though the nuclear charge is greater. This is a discontinuity. In {prev} each {sub} orbital holds one electron. In {el} one {sub} orbital holds a pair. Two electrons in the same orbital repel each other, so one of them is removed more easily.": "比 {prev} ({pv}) 低，雖然核電荷較大。這是不連續處。在 {prev} 中，每個 {sub} 軌態各有一個電子。在 {el} 中，其中一個 {sub} 軌態有一對電子。同一軌態內的兩個電子互相排斥，所以其中一個較容易移走。",
@@ -1846,10 +1846,10 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Part of the d-block (Sc to Zn). First ionization energy changes only a little here: {prev} is {pv}. You are not asked to explain these small rises and falls in Structure 1.3.": "屬於 d 區（Sc 至 Zn）。這裏的第一電離能變化很小：{prev} 是 {pv}。Structure 1.3 不要求你解釋這些細微的升跌。",
 
     // widget string (assets/js/widgets-s1-3.js)
-    "Lower than {prev} ({pv}). The electron removed from {el} is in the {sub} sublevel, which is higher in energy than the {ssub} sublevel that {prev} loses an electron from. A higher-energy electron needs less energy to remove.": "比 {prev} ({pv}) 低。從 {el} 移走的電子在 {sub} 亞層，{prev} 失去的電子則在 {ssub} 亞層；{sub} 亞層的能量比 {ssub} 亞層高。電子的能量愈高，移走它所需的能量愈少。",
+    "Lower than {prev} ({pv}). The electron removed from {el} is in the {sub} sublevel, which is higher in energy than the {ssub} sublevel that {prev} loses an electron from. A higher-energy electron needs less energy to remove.": "比 {prev} ({pv}) 低。從 {el} 移走的電子在 {sub} 亞層，它的能量比 {prev} 失去電子的 {ssub} 亞層高。電子的能量愈高，移走它所需的能量愈少。",
 
     // widget string (assets/js/widgets-s1-3.js)
-    "Higher than {prev} ({pv}). This is the general trend across a period. The nuclear charge increases by one proton. The electron removed is in the same main energy level, so the shielding by inner electrons is about the same. The outer electrons are held more strongly and the atom is smaller.": "比 {prev} ({pv}) 高。這是橫越週期的整體趨勢。核電荷增加了一個質子。被移走的電子在同一個主能級，所以內層電子的屏蔽大致相同。外層電子被吸引得更緊，原子也較小。",
+    "Higher than {prev} ({pv}). This is the general trend across a period. The nuclear charge increases by one proton. The electron removed is in the same main energy level, so the shielding by inner electrons is about the same. The outer electrons are held more strongly and the atom is smaller.": "比 {prev} ({pv}) 高。這是橫跨一個週期的整體趨勢。核電荷增加了一個質子。被移走的電子在同一個主能級，所以內層電子的屏蔽大致相同。外層電子被吸引得更緊，原子也較小。",
 
     // widget string (assets/js/widgets-s1-3.js)
     "No element above it within Z = 1 to 36.": "在 Z = 1 至 36 的範圍內，它上方沒有元素。",
@@ -1858,13 +1858,13 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Nothing above it. This is period 1.": "上方沒有元素。這是第 1 週期。",
 
     // widget string (assets/js/widgets-s1-3.js)
-    "Period 2 elements are at the top of their groups. Step down to period 3 to see the group trend.": "第 2 週期的元素在各族的頂端。移到第 3 週期，就能看到沿族向下的趨勢。",
+    "Period 2 elements are at the top of their groups. Step down to period 3 to see the group trend.": "第 2 週期的元素在各族的頂端。移到第 3 週期，就能看到沿一族向下的趨勢。",
 
     // widget string (assets/js/widgets-s1-3.js)
-    "Lower than {above} ({av}). This is the trend down a group. The outer electron is in a higher main energy level (n = {n} instead of n = {m}), so it is further from the nucleus and shielded by more inner electrons. This outweighs the greater nuclear charge.": "比 {above} ({av}) 低。這是沿族向下的趨勢。外層電子在較高的主能級（n = {n}，而不是 n = {m}），所以離原子核較遠，受到較多內層電子屏蔽。這蓋過了核電荷較大的影響。",
+    "Lower than {above} ({av}). This is the trend down a group. The outer electron is in a higher main energy level (n = {n} instead of n = {m}), so it is further from the nucleus and shielded by more inner electrons. This outweighs the greater nuclear charge.": "比 {above} ({av}) 低。這是沿一族向下的趨勢。外層電子在較高的主能級（n = {n}，而不是 n = {m}），所以離原子核較遠，受到較多內層電子屏蔽。這蓋過了核電荷較大的影響。",
 
     // widget string (assets/js/widgets-s1-3.js)
-    "Almost the same as {above} ({av}). This is an exception to the usual decrease down a group. You will not be asked to explain it.": "與 {above} ({av}) 幾乎相同。沿族向下通常是遞減的，這是例外。題目不會要求你解釋。",
+    "Almost the same as {above} ({av}). This is an exception to the usual decrease down a group. You will not be asked to explain it.": "與 {above} ({av}) 幾乎相同。沿一族向下通常是遞減的，這是例外。題目不會要求你解釋。",
 
     // widget string (assets/js/widgets-s1-3.js)
     "Mystery element": "神秘元素",
