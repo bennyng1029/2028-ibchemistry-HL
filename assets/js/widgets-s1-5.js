@@ -12,6 +12,8 @@
   var S1 = window.S1, chem = S1.chem, el = S1.util.el, clamp = S1.util.clamp;
   var R = chem.constants.R, VM = chem.constants.Vm_STP, K0 = chem.constants.zeroC;
   var MINUS = '−', TIMES = '×';
+  /* Translation hook: every user-visible string goes through t(). */
+  var t = S1.t || function (s, v) { return v ? s.replace(/\{(\w+)\}/g, function (_, k) { return v[k]; }) : s; };
 
   function monoFont(w, px) { return (px || 12) + 'px ' + (w.color('--font-mono') || 'monospace'); }
   function bodyFont(w, px, bold) { return (bold ? '700 ' : '') + (px || 13) + 'px ' + (w.color('--font-body') || 'sans-serif'); }
@@ -44,9 +46,9 @@
   S1.widgets.register('s1-5.sandbox', function (w) {
     var VMIN = 5, VMAX = 50, TMIN = 100, TMAX = 600, P_HOLD = 100;
     var MODES = {
-      pv: { x: 'V', y: 'P', note: 'Temperature and amount are held constant. Move the volume slider.' },
-      pt: { x: 'T', y: 'P', note: 'Volume and amount are held constant (a rigid container). Move the temperature slider.' },
-      vt: { x: 'T', y: 'V', note: 'Pressure is held at 100 kPa and the amount at 1.00 mol. The piston is free to move. Move the temperature slider.' }
+      pv: { x: 'V', y: 'P', note: t('Temperature and amount are held constant. Move the volume slider.') },
+      pt: { x: 'T', y: 'P', note: t('Volume and amount are held constant (a rigid container). Move the temperature slider.') },
+      vt: { x: 'T', y: 'V', note: t('Pressure is held at {P} kPa and the amount at {n} mol. The piston is free to move. Move the temperature slider.', { P: '100', n: '1.00' }) }
     };
     var AX = {
       V: { label: 'V / dm³', max: VMAX, tick: 10 },
@@ -57,34 +59,34 @@
     var trace = [], ghost = [], heldKey = '', sweep = null;
 
     var mode = w.select({
-      label: 'Experiment', value: 'pv', onChange: function (v) { st.mode = v; sweep = null; ghost = []; trace = []; heldKey = ''; update(); },
+      label: t('Experiment'), value: 'pv', onChange: function (v) { st.mode = v; sweep = null; ghost = []; trace = []; heldKey = ''; update(); },
       options: [
-        { value: 'pv', label: 'P against V (T and n constant)' },
-        { value: 'pt', label: 'P against T (V and n constant)' },
-        { value: 'vt', label: 'V against T (P and n constant)' }
+        { value: 'pv', label: t('P against V (T and n constant)') },
+        { value: 'pt', label: t('P against T (V and n constant)') },
+        { value: 'vt', label: t('V against T (P and n constant)') }
       ]
     });
-    var sT = w.slider({ label: 'Temperature, T', min: TMIN, max: TMAX, step: 5, value: st.T, unit: 'K', onInput: function (v) { st.T = v; update(); } });
-    var sV = w.slider({ label: 'Volume, V', min: VMIN, max: VMAX, step: 0.5, value: st.V, unit: 'dm3', onInput: function (v) { st.V = v; update(); } });
-    var sN = w.slider({ label: 'Amount of gas, n', min: 0.5, max: 2, step: 0.1, value: st.n, unit: 'mol', onInput: function (v) { st.n = v; update(); } });
-    var playBtn = w.button('Pause particles', function () {
+    var sT = w.slider({ label: t('Temperature, T'), min: TMIN, max: TMAX, step: 5, value: st.T, unit: 'K', onInput: function (v) { st.T = v; update(); } });
+    var sV = w.slider({ label: t('Volume, V'), min: VMIN, max: VMAX, step: 0.5, value: st.V, unit: 'dm3', onInput: function (v) { st.V = v; update(); } });
+    var sN = w.slider({ label: t('Amount of gas, n'), min: 0.5, max: 2, step: 0.1, value: st.n, unit: 'mol', onInput: function (v) { st.n = v; update(); } });
+    var playBtn = w.button(t('Pause particles'), function () {
       if (loop.running) { loop.stop(); } else { loop.start(true); }
       syncPlay();
     });
-    w.button('Run the experiment', function () {
+    w.button(t('Run the experiment'), function () {
       var m = MODES[st.mode];
       sweep = m.x === 'V' ? { s: sV, key: 'V', from: VMIN, to: VMAX, t: 0 } : { s: sT, key: 'T', from: TMIN, to: TMAX, t: 0 };
       trace = [];
       loop.start(true); syncPlay();
     }, { primary: true });
-    w.button('Clear graph', function () { trace = []; ghost = []; update(); });
+    w.button(t('Clear graph'), function () { trace = []; ghost = []; update(); });
 
-    var setP = w.readoutItem('Pressure, P');
-    var setV = w.readoutItem('Volume, V');
-    var setT = w.readoutItem('Temperature, T');
-    var setN = w.readoutItem('Amount, n');
-    var setK = w.readoutItem('PV ÷ nT');
-    var setNote = w.readoutItem('This experiment', { text: true });
+    var setP = w.readoutItem(t('Pressure, P'));
+    var setV = w.readoutItem(t('Volume, V'));
+    var setT = w.readoutItem(t('Temperature, T'));
+    var setN = w.readoutItem(t('Amount, n'));
+    var setK = w.readoutItem(t('PV ÷ nT'));
+    var setNote = w.readoutItem(t('This experiment'), { text: true });
 
     /* particles: positions as fractions (x of the full barrel length, y of its height) */
     var parts = [];
@@ -111,7 +113,7 @@
       });
     }
 
-    var opts = { height: 290, label: 'Left: a cylinder of gas particles closed by a piston. Right: a graph of the two variables in the chosen experiment, traced as you move the slider. All values are in the readout below.' };
+    var opts = { height: 290, label: t('Left: a cylinder of gas particles closed by a piston. Right: a graph of the two variables in the chosen experiment, traced as you move the slider. All values are in the readout below.') };
     var cv = w.canvas(opts), busy = false;
     cv.draw(function (ctx, W, H) {
       var wide = W >= 620, want = wide ? 290 : 470;
@@ -138,11 +140,11 @@
         ctx.beginPath(); ctx.moveTo(tx, y0 + bh + 2); ctx.lineTo(tx, y0 + bh + 7); ctx.stroke();
         ctx.fillText(String(v), tx, y0 + bh + 9);
       }
-      ctx.textAlign = 'left'; ctx.fillText('volume / dm³', x0, y0 + bh + 24);
+      ctx.textAlign = 'left'; ctx.fillText(t('volume / {unit}', { unit: 'dm³' }), x0, y0 + bh + 24);
       ctx.fillStyle = ink; ctx.font = bodyFont(w, 12, true); ctx.textBaseline = 'alphabetic';
-      ctx.fillText('Model of the gas', x0, y0 - 12);
+      ctx.fillText(t('Model of the gas'), x0, y0 - 12);
       ctx.font = monoFont(w, 11); ctx.fillStyle = ink3; ctx.textAlign = 'right';
-      ctx.fillText('piston', Math.min(px + 46, x0 + bw + rod), y0 - 5);
+      ctx.fillText(t('piston'), Math.min(px + 46, x0 + bw + rod), y0 - 5);
 
       /* ---- graph ---- */
       var m = MODES[st.mode], ax = AX[m.x], xmax = ax.max, ymax, ylab, ytick;
@@ -185,7 +187,7 @@
         ctx.setLineDash([5, 4]); ctx.strokeStyle = accent; ctx.lineWidth = 1.5;
         ctx.beginPath(); ctx.moveTo(X(0), Y(0)); ctx.lineTo(X(sorted[0].x), Y(sorted[0].y)); ctx.stroke(); ctx.setLineDash([]);
         ctx.fillStyle = ink3; ctx.font = monoFont(w, 11); ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
-        ctx.fillText('extrapolated to 0 K', X(0) + 6, Y(0) - 6);
+        ctx.fillText(t('extrapolated to {T} K', { T: 0 }), X(0) + 6, Y(0) - 6);
       }
       var cx = X(st[m.x]), cy = Y(Math.min(st[m.y], ymax));
       ctx.setLineDash([2, 3]); ctx.strokeStyle = ink2; ctx.lineWidth = 1;
@@ -205,7 +207,7 @@
       }
       step(dt); cv.draw();
     });
-    function syncPlay() { playBtn.textContent = loop.running ? 'Pause particles' : 'Play particles'; }
+    function syncPlay() { playBtn.textContent = loop.running ? t('Pause particles') : t('Play particles'); }
 
     function update(fromLoop) {
       var m = MODES[st.mode];
@@ -226,7 +228,7 @@
       setT(String(st.T) + ' K (' + chem.fixed(st.T - K0, 0) + ' °C)');
       setN(chem.fixed(st.n, 2) + ' mol');
       setK(chem.fixed(st.P * st.V / (st.n * st.T), 2) + ' J K<sup>' + MINUS + '1</sup> mol<sup>' + MINUS + '1</sup> = <i>R</i>');
-      setNote(m.note + (ghost.length ? ' The grey line is your previous run.' : ''));
+      setNote(m.note + (ghost.length ? ' ' + t('The grey line is your previous run.') : ''));
       if (!fromLoop) cv.draw();
     }
     update();
@@ -238,22 +240,22 @@
      2. Graph gallery + matching
      ====================================================================== */
   var SHAPES = {
-    inv: { name: 'A', words: 'a curve that falls steeply at first and then levels off, never touching either axis' },
-    origin: { name: 'B', words: 'a straight line through the origin' },
-    offset: { name: 'C', words: 'a straight line that does not pass through the origin; extended back, it meets the horizontal axis at a negative value' },
-    flat: { name: 'D', words: 'a horizontal straight line' }
+    inv: { name: 'A', words: t('a curve that falls steeply at first and then levels off, never touching either axis') },
+    origin: { name: 'B', words: t('a straight line through the origin') },
+    offset: { name: 'C', words: t('a straight line that does not pass through the origin; extended back, it meets the horizontal axis at a negative value') },
+    flat: { name: 'D', words: t('a horizontal straight line') }
   };
   var GRAPHS = [
-    { id: 'pv', y: 'P', x: 'V', held: 'T and n constant', shape: 'inv', why: 'P is inversely proportional to V. Doubling V halves P.' },
-    { id: 'pinv', y: 'P', x: '1/V', held: 'T and n constant', shape: 'origin', why: 'P is directly proportional to 1/V, so this plot turns the curve into a straight line.' },
-    { id: 'vtk', y: 'V', x: 'T / K', held: 'P and n constant', shape: 'origin', why: 'V is directly proportional to T in kelvin. Zero volume would be reached at 0 K.' },
-    { id: 'vtc', y: 'V', x: 'T / °C', held: 'P and n constant', shape: 'offset', why: 'Still a straight line, but 0 °C is not zero on the kelvin scale. Extended back, the line reaches V = 0 at −273.15 °C.' },
-    { id: 'ptk', y: 'P', x: 'T / K', held: 'V and n constant', shape: 'origin', why: 'P is directly proportional to T in kelvin.' },
-    { id: 'pvp', y: 'PV', x: 'P', held: 'T and n constant', shape: 'flat', why: 'PV = nRT. With n and T fixed, PV stays the same whatever the pressure.' }
+    { id: 'pv', y: 'P', x: 'V', held: t('T and n constant'), shape: 'inv', why: t('P is inversely proportional to V. Doubling V halves P.') },
+    { id: 'pinv', y: 'P', x: '1/V', held: t('T and n constant'), shape: 'origin', why: t('P is directly proportional to 1/V, so this plot turns the curve into a straight line.') },
+    { id: 'vtk', y: 'V', x: 'T / K', held: t('P and n constant'), shape: 'origin', why: t('V is directly proportional to T in kelvin. Zero volume would be reached at 0 K.') },
+    { id: 'vtc', y: 'V', x: 'T / °C', held: t('P and n constant'), shape: 'offset', why: t('Still a straight line, but 0 °C is not zero on the kelvin scale. Extended back, the line reaches V = 0 at {T} °C.', { T: '−273.15' }) },
+    { id: 'ptk', y: 'P', x: 'T / K', held: t('V and n constant'), shape: 'origin', why: t('P is directly proportional to T in kelvin.') },
+    { id: 'pvp', y: 'PV', x: 'P', held: t('T and n constant'), shape: 'flat', why: t('PV = nRT. With n and T fixed, PV stays the same whatever the pressure.') }
   ];
   function sketch(shape, g) {
     var W = 180, H = 132, L = 30, B = 104, T = 14, Rr = 168;
-    var s = '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="' + (g ? 'Sketch graph of ' + g.y + ' against ' + g.x + ': ' : 'Sketch graph: ') + SHAPES[shape].words + '" class="g5-svg">';
+    var s = '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="' + (g ? t('Sketch graph of {y} against {x}: {shape}', { y: g.y, x: g.x, shape: SHAPES[shape].words }) : t('Sketch graph: {shape}', { shape: SHAPES[shape].words })) + '" class="g5-svg">';
     var yAxisX = shape === 'offset' ? 84 : L;
     s += '<path d="M' + L + ' ' + B + ' H' + Rr + '" fill="none" stroke="var(--ink)" stroke-width="1.5"/>';
     s += '<path d="M' + yAxisX + ' ' + T + ' V' + B + '" fill="none" stroke="var(--ink)" stroke-width="1.5"/>';
@@ -278,58 +280,61 @@
       s += '<text x="' + Rr + '" y="' + (B + 24) + '" text-anchor="end" ' + tx + ' fill="var(--ink)" font-weight="600">' + g.x + '</text>';
       if (shape === 'offset') s += '<text x="' + (L - 4) + '" y="' + (B + 13) + '" ' + tx + '>' + MINUS + '273.15</text>';
     } else if (shape === 'offset') {
-      s += '<text x="' + (L - 2) + '" y="' + (B + 13) + '" ' + tx + '>negative</text>';
+      s += '<text x="' + (L - 2) + '" y="' + (B + 13) + '" ' + tx + '>' + t('negative') + '</text>';
     }
     return s + '</svg>';
   }
 
   S1.widgets.register('s1-5.gallery', function (w) {
-    var setResult = w.readoutItem('Matching exercise', { text: true });
+    var setResult = w.readoutItem(t('Matching exercise'), { text: true });
     var gallery = el('div', { class: 'g5-grid' });
     GRAPHS.forEach(function (g) {
       gallery.appendChild(el('div', { class: 'g5-card', html: sketch(g.shape, g) +
-        '<p class="g5-card__t"><b>' + g.y + ' against ' + g.x + '</b><span class="muted"> (' + g.held + ')</span></p><p class="g5-card__w">' + g.why + '</p>' }));
+        '<p class="g5-card__t"><b>' + t('{y} against {x}', { y: g.y, x: g.x }) + '</b><span class="muted"> (' + g.held + ')</span></p><p class="g5-card__w">' + g.why + '</p>' }));
     });
     var test = el('div', { class: 'g5-test', hidden: '' });
     var shapesRow = el('div', { class: 'g5-grid g5-grid--shapes' });
     ['inv', 'origin', 'offset', 'flat'].forEach(function (k) {
-      shapesRow.appendChild(el('div', { class: 'g5-card', html: sketch(k, null) + '<p class="g5-card__t"><b>Shape ' + SHAPES[k].name + '</b></p>' }));
+      shapesRow.appendChild(el('div', { class: 'g5-card', html: sketch(k, null) + '<p class="g5-card__t"><b>' + t('Shape {letter}', { letter: SHAPES[k].name }) + '</b></p>' }));
     });
-    test.appendChild(el('p', { class: 'g5-lead', text: 'Each relationship below is for a fixed mass of an ideal gas. Choose the shape of its graph. A shape can be used more than once.' }));
+    test.appendChild(el('p', { class: 'g5-lead', text: t('Each relationship below is for a fixed mass of an ideal gas. Choose the shape of its graph. A shape can be used more than once.') }));
     test.appendChild(shapesRow);
     var rows = el('ol', { class: 'g5-rows' }), selects = [];
     S1.util.shuffle(GRAPHS.slice()).forEach(function (g) {
       var id = S1.util.uid('g5'), sel = el('select', { class: 'select', id: id });
-      sel.appendChild(el('option', { value: '', text: 'Choose a shape' }));
-      ['inv', 'origin', 'offset', 'flat'].forEach(function (k) { sel.appendChild(el('option', { value: k, text: 'Shape ' + SHAPES[k].name })); });
+      sel.appendChild(el('option', { value: '', text: t('Choose a shape') }));
+      ['inv', 'origin', 'offset', 'flat'].forEach(function (k) { sel.appendChild(el('option', { value: k, text: t('Shape {letter}', { letter: SHAPES[k].name }) })); });
       var mark = el('span', { class: 'g5-mark' });
       rows.appendChild(el('li', { 'data-graph': g.id, 'data-shape': g.shape }, [
-        el('label', { for: id, html: '<b>' + g.y + ' against ' + g.x + '</b> <span class="muted">(' + g.held + ')</span>' }), sel, mark]));
+        el('label', { for: id, html: '<b>' + t('{y} against {x}', { y: g.y, x: g.x }) + '</b> <span class="muted">(' + g.held + ')</span>' }), sel, mark]));
       selects.push({ g: g, sel: sel, mark: mark });
     });
     test.appendChild(rows);
     var actions = el('div', { class: 'btn-row' });
-    var check = el('button', { class: 'btn btn--primary btn--small', type: 'button', text: 'Check my matches' });
+    var check = el('button', { class: 'btn btn--primary btn--small', type: 'button', text: t('Check my matches') });
     actions.appendChild(check); test.appendChild(actions);
     check.addEventListener('click', function () {
       var right = 0, blank = 0;
       selects.forEach(function (r) {
-        if (!r.sel.value) { blank++; r.mark.textContent = 'Not answered yet.'; r.mark.className = 'g5-mark'; return; }
+        if (!r.sel.value) { blank++; r.mark.textContent = t('Not answered yet.'); r.mark.className = 'g5-mark'; return; }
         var ok = r.sel.value === r.g.shape; if (ok) right++;
         r.mark.className = 'g5-mark ' + (ok ? 'g5-mark--ok' : 'g5-mark--no');
-        r.mark.textContent = ok ? 'Correct. ' + r.g.why : 'Not this shape. Ask: is it direct or inverse proportion, and is the horizontal axis zero at the origin?';
+        r.mark.textContent = ok ? t('Correct. {why}', { why: r.g.why }) : t('Not this shape. Ask: is it direct or inverse proportion, and is the horizontal axis zero at the origin?');
       });
-      setResult(right + ' of ' + selects.length + ' correct' + (blank ? ' (' + blank + ' not answered)' : '') + (right === selects.length ? '. All matched. Open the labelled gallery to see them together.' : '. Change your choices and check again.'));
+      var v = { right: right, total: selects.length, blank: blank };
+      setResult(right === selects.length ? t('{right} of {total} correct. All matched. Open the labelled gallery to see them together.', v)
+        : blank ? t('{right} of {total} correct ({blank} not answered). Change your choices and check again.', v)
+        : t('{right} of {total} correct. Change your choices and check again.', v));
     });
     w.stage.appendChild(gallery); w.stage.appendChild(test);
     var showing = 'gallery';
-    var toggle = w.button('Test yourself: match the shapes', function () {
+    var toggle = w.button(t('Test yourself: match the shapes'), function () {
       showing = showing === 'gallery' ? 'test' : 'gallery';
       gallery.hidden = showing !== 'gallery'; test.hidden = showing !== 'test';
-      toggle.textContent = showing === 'gallery' ? 'Test yourself: match the shapes' : 'Show the labelled gallery';
-      setResult(showing === 'test' ? 'Choose a shape for each relationship, then press Check.' : 'Study the six graphs, then test yourself.');
+      toggle.textContent = showing === 'gallery' ? t('Test yourself: match the shapes') : t('Show the labelled gallery');
+      setResult(showing === 'test' ? t('Choose a shape for each relationship, then press Check.') : t('Study the six graphs, then test yourself.'));
     }, { primary: true });
-    setResult('Study the six graphs, then test yourself.');
+    setResult(t('Study the six graphs, then test yourself.'));
   });
 
   /* ======================================================================
