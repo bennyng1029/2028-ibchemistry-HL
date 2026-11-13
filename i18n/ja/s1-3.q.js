@@ -1036,7 +1036,7 @@ S1.i18n.register('ja', 's1-3.q', {
         // EN: P to S decrease: the electron in S is removed from a doubly occupied 3p orbital, and repulsion between the paired electrons makes it easier to remove (in P the 3p orbitals are singly occupied).
         "P から S での減少：S では電子が 2 個入った 3p 軌道から電子が取り除かれ、対になった電子の間の反発で取り除きやすくなる（P では 3p 軌道に電子が 1 個ずつ入っている）。",
         // EN: Link to evidence: with a single undivided energy level the ionization energy would increase steadily with nuclear charge / the decreases come after the 3s sublevel is full and after each 3p orbital holds one electron, which matches the s and p sublevels.
-        "証拠との結びつき：エネルギー準位が分かれていない 1 つの準位なら、イオン化エネルギーは核電荷とともに一様に大きくなるはずである / 減少は、3s 副準位が満たされた後と、3p 軌道のそれぞれに電子が 1 個入った後に起こり、s 副準位と p 副準位に合う。",
+        "証拠との結びつき：エネルギー準位が 1 つだけで、副準位に分かれていないなら、イオン化エネルギーは核電荷とともに一様に大きくなるはずである / 減少は、3s 副準位が満たされた後と、3p 軌道のそれぞれに電子が 1 個入った後に起こり、s 副準位と p 副準位に合う。",
       ],
     },
 
