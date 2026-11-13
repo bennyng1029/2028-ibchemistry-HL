@@ -350,6 +350,12 @@ function lintPair(en, tr, opts) {
   }
   return out;
 }
+/* Rough width of a figure label in ems: a CJK or full-width character is 1, anything else about 0.55. */
+function labelWidth(s) {
+  let w = 0;
+  for (const ch of String(s).replace(/<[^>]+>/g, '')) w += /[\u2E80-\u9FFF\uF900-\uFAFF\uFF00-\uFFEF]/.test(ch) ? 1 : 0.55;
+  return w;
+}
 /* Does this question field hold maths lines? (operator check applies to .worked__math lines only, so: no.) */
 
 /* Similarity for "closest current key" (bigram Dice) */
@@ -366,5 +372,5 @@ function closest(key, candidates) {
   return score >= 0.55 ? { key: best, score } : null;
 }
 
-module.exports = { translatable, ROOT, LANGS, norm, pageFile, isTopic, scanSource, readOverlay, writeStringsFile, writeQuestionsFile, stringsBlock, comment,
+module.exports = { translatable, labelWidth, ROOT, LANGS, norm, pageFile, isTopic, scanSource, readOverlay, writeStringsFile, writeQuestionsFile, stringsBlock, comment,
   questionFields, questionPairs, catalog, lintPair, readHtml, closest, Q_FIELDS, J };

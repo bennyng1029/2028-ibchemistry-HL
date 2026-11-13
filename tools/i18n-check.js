@@ -6,6 +6,8 @@
      stale     entries whose English no longer exists (with the closest current English, if any)
      lint      translations that break a rule: placeholders, tags, formula/unit/sub/sup contents, links,
                numbers, <dfn> without its English term, changed operators in maths lines
+     note      advice that is not an error: a figure label (text inside an SVG drawing) that is wider than
+               the English one. SVG labels do not wrap, so look at the figure at phone width.
    --verbose lists every item.  --stats prints sizes per page.  With page ids, only those are checked.
    It always rewrites i18n/<lang>/index.js (the list of overlay files the site may load).
    Exit code 1 if anything is stale or fails a lint, or (without page ids) anything is missing.          */
@@ -51,6 +53,13 @@ const lib = require('./i18n-lib');
     const stale = Object.keys(have).filter(k => !keys.includes(k));
     const lints = [];
     cat.entries.forEach(e => { const tr = have[e.key]; if (tr) lib.lintPair(e.key, tr, { math: e.kind === 'maths line', lang }).forEach(p => lints.push([e.key, p])); });
+    const notes = [];
+    cat.entries.forEach(e => {
+      const tr = have[e.key];
+      if (!tr || !(e.ctx || []).some(c => /figure label$/.test(c))) return;
+      const we = lib.labelWidth(e.key), wt = lib.labelWidth(tr);
+      if (wt > we * 1.15 + 0.5) notes.push([e.key, 'figure label is wider than the English (about ' + wt.toFixed(1) + ' em against ' + we.toFixed(1) + ' em): SVG labels do not wrap or shrink. Shorten it, or check that it still fits in the figure at 390 px']);
+    });
     const qMissing = [], qStale = [], qLint = [];
     let qFields = 0, qDone = 0, chars = keys.reduce((n, k) => n + k.replace(/<[^>]+>/g, '').length, 0), qChars = 0;
     Object.keys(cat.questions).forEach(id => {
@@ -71,6 +80,7 @@ const lib = require('./i18n-lib');
     const show = verbose || only.length;
     lints.forEach(([k, p]) => console.log('    LINT     ' + p + '\n             in: ' + k.slice(0, 110)));
     qLint.forEach(([k, p]) => console.log('    LINT     ' + p + '\n             in: ' + k));
+    notes.forEach(([k, p]) => console.log('    NOTE     ' + p + '\n             in: ' + k.slice(0, 110)));
     stale.forEach(k => { const c = lib.closest(k, missing); console.log('    STALE    ' + k.slice(0, 140) + (c ? '\n             closest current English (' + Math.round(c.score * 100) + '% alike): ' + c.key.slice(0, 140) : '')); });
     qStale.forEach(k => console.log('    STALE    question ' + k + ' no longer exists'));
     if (show) { missing.forEach(k => console.log('    MISSING  ' + k.slice(0, 140))); qMissing.forEach(k => console.log('    MISSING  ' + k)); }
