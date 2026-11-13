@@ -11,12 +11,47 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for topic 1.1 (tokens only). */
+.p11-svg { display: block; width: 100%; height: auto; }
+.p11-svg text { font: 13px var(--font-body); fill: var(--ink); }
+.p11-svg .num { font: 700 15px var(--font-mono); fill: var(--accent-ink); }
+.p11-svg .big { font: 700 14px var(--font-body); }
+.p11-svg .ln { fill: none; stroke: var(--ink); stroke-width: 1.6; stroke-linejoin: round; stroke-linecap: round; }
+.p11-svg .thick { stroke-width: 3; }
+.p11-svg .thin { stroke-width: 1; }
+.p11-svg .dash { stroke-dasharray: 4 3; }
+.p11-svg .lead { stroke: var(--ink-3); stroke-width: 1; }
+.p11-svg .liq { fill: var(--accent-soft); }
+.p11-svg .bg { fill: var(--surface); }
+.p11-svg .box { fill: var(--surface-2); stroke: var(--ink); stroke-width: 1.6; }
+.p11-svg .paper { fill: var(--surface); stroke: var(--ink); stroke-width: 1.2; }
+.p11-svg .solid { fill: var(--ink-2); }
+.p11-svg .liq-drop { fill: var(--accent); }
+.p11-svg .ah { fill: var(--ink); }
+.p11-svg .muted { fill: var(--ink-2); }
+.p11-fig { margin: 1.75rem 0; max-width: 34rem; border: 1px solid var(--line-strong); background: var(--surface); }
+.p11-fig > svg { padding: 0.75rem 1rem; box-sizing: border-box; }
+.p11-fig figcaption { padding: 0.65rem 1rem 0.8rem; border-top: 1px solid var(--line); font-size: 0.9rem; color: var(--ink-2); }
+.p11-schem { max-width: 30rem; margin: 0.5rem auto 0; }
+.p11-schem__title { margin: 1rem 0 0.25rem; font-weight: 700; }
+.p11-task { margin: 0 0 1rem; padding: 0.7rem 0.9rem; background: var(--surface-2); border-left: 4px solid var(--accent); }
+.p11-step { margin: 1rem 0 0.4rem; font-weight: 700; }
+.p11-step:first-child { margin-top: 0; }
+.p11-opts { display: grid; gap: 0.45rem; margin: 0 0 0.25rem; }
+.p11-opts .btn { justify-content: flex-start; text-align: left; font-weight: 400; line-height: 1.35; }
+.p11-opts .btn[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); font-weight: 700; }
+.p11-bins { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.6rem; }
+.p11-bin { border: 1px solid var(--line-strong); padding: 0.5rem; min-height: 7rem; background: var(--surface); }
+.p11-bin .btn { width: 100%; }
+.p11-bin ul { list-style: none; margin: 0.6rem 0 0; padding: 0; font-size: 0.88rem; }
+.p11-bin li { padding: 0.2rem 0; border-top: 1px solid var(--line); }
+@media (max-width: 44rem) { .p11-bins { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.method { counter-reset: m; list-style: none; padding: 0; }
+.method > li { counter-increment: m; position: relative; padding: 0 0 0.5rem 2.2rem; }
+.method > li::before { content: counter(m); position: absolute; left: 0; top: 0.1rem; width: 1.5rem; height: 1.5rem; display: grid; place-items: center; font: 700 0.85rem var(--font-mono); color: var(--on-accent); background: var(--accent); border-radius: var(--radius); }
+</style>
 </head>
-<!-- =====================================================================
-     REFERENCE TEMPLATE for a topic page.  Copy this file to make
-     topics/s1-N.html, then follow docs/AUTHORING.md.
-     The content below is short on purpose: it shows every component once.
-     ===================================================================== -->
 <body data-page="s1-1">
 <div data-s1-header></div>
 <noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
@@ -38,122 +73,7 @@
 
     <div class="topic-content">
 
-      <section class="topic-section" id="goals">
-        <h2>What you need to be able to do</h2>
-        <p>Tick each one when you can do it without looking at your notes.</p>
-        <ul class="checklist" data-s1-checklist="s1-1">
-          <li data-id="classify" data-level="sl">Tell apart elements, compounds and mixtures, and say whether a mixture is homogeneous or heterogeneous.</li>
-          <li data-id="separate" data-level="sl">Choose a suitable method to separate a mixture.</li>
-          <li data-id="states" data-level="sl">Use the kinetic molecular theory to explain the properties of solids, liquids and gases, and changes of state.</li>
-          <li data-id="kelvin" data-level="sl">Convert between degrees Celsius and kelvin, and link temperature to average kinetic energy.</li>
-          <li data-id="demo-ahl" data-level="ahl">Template example of an Additional HL item. Topic 1.1 itself has no AHL content.</li>
-        </ul>
-      </section>
-
-      <section class="topic-section" id="matter">
-        <span class="section-code">Structure 1.1.1</span>
-        <h2>Elements, compounds and mixtures</h2>
-        <p>An <dfn data-def="A substance made of only one type of atom. It cannot be broken down into simpler substances by chemical means.">element</dfn> contains only one type of atom. A <dfn data-def="A substance made of atoms of two or more different elements, chemically bonded in a fixed ratio.">compound</dfn> contains atoms of different elements bonded in a fixed ratio, such as <span class="chem">H2O</span> or <span class="chem">CuSO4.5H2O</span>. A <dfn>mixture</dfn> contains more than one element or compound, in no fixed ratio, and they are not chemically bonded to each other.</p>
-
-        <aside class="callout callout--key">
-          <p>A compound has different properties from the elements in it. A mixture keeps the properties of its parts, so it can be separated by physical methods.</p>
-        </aside>
-
-        <div class="table-scroll">
-          <table class="data">
-            <caption>Three kinds of matter</caption>
-            <thead>
-              <tr><th scope="col">Type</th><th scope="col">Example</th><th scope="col">Fixed ratio?</th><th scope="col">How to separate</th></tr>
-            </thead>
-            <tbody>
-              <tr><th scope="row">Element</th><td>copper, <span class="chem">O2</span></td><td>one type of atom</td><td>cannot be separated</td></tr>
-              <tr><th scope="row">Compound</th><td><span class="chem">NaCl</span>, <span class="chem">CO2</span></td><td>yes</td><td>chemical reaction only</td></tr>
-              <tr><th scope="row">Mixture</th><td>air, sea water</td><td>no</td><td>physical methods</td></tr>
-            </tbody>
-          </table>
-        </div>
-
-        <aside class="callout callout--mistake">
-          <p>“Pure” in everyday speech means natural or clean. In chemistry a pure substance is a single element or a single compound. Pure orange juice is a mixture.</p>
-        </aside>
-
-        <aside class="callout callout--scope">
-          <p>You do not need to know about colloids, suspensions or alloys as separate categories of mixture here. Homogeneous and heterogeneous are enough.</p>
-        </aside>
-      </section>
-
-      <section class="topic-section" id="temperature">
-        <span class="section-code">Structure 1.1.3</span>
-        <h2>Temperature and the kelvin scale</h2>
-        <p>Temperature measures the average kinetic energy of the particles. The kelvin scale starts at absolute zero, so a temperature in kelvin is directly proportional to that average kinetic energy.</p>
-
-        <div class="eq">
-          <div class="eq__formula"><i>T</i>(K) = <i>T</i>(°C) + 273.15</div>
-          <dl class="eq__legend">
-            <div><dt>T(K)</dt><dd>temperature on the kelvin scale <span class="unit">K</span></dd></div>
-            <div><dt>T(°C)</dt><dd>temperature on the Celsius scale <span class="unit">°C</span></dd></div>
-          </dl>
-        </div>
-
-        <figure data-s1-widget="s1-1.kelvin" data-title="Celsius and kelvin, side by side" data-start="25">
-          <p class="widget__fallback">An interactive temperature scale appears here when JavaScript is on.</p>
-          <figcaption>Drag the slider or type a value. Both scales have the same step size, so a change of 1 °C is a change of 1 K. Only the zero point differs.</figcaption>
-        </figure>
-
-        <aside class="callout callout--booklet">
-          <p>The conversion is not printed as a formula, but the data booklet gives STP as 273.15 K and 100 kPa. That tells you 0 °C = 273.15 K.</p>
-        </aside>
-
-        <aside class="callout callout--exam">
-          <p>Write temperatures in kelvin as <span class="mono">298 K</span>, with no degree sign. In gas calculations, always convert to kelvin before you substitute.</p>
-        </aside>
-
-        <div class="worked" data-s1-worked>
-          <h3 class="worked__title">Converting a boiling point to kelvin</h3>
-          <div class="worked__problem">
-            <p>Liquid oxygen boils at −182.96 °C. Give this temperature in kelvin, to an appropriate number of decimal places.</p>
-          </div>
-          <ol class="worked__steps">
-            <li data-title="Write the relationship">
-              <p class="worked__why">Starting from the formula shows the examiner your method.</p>
-              <div class="worked__math"><i>T</i>(K) = <i>T</i>(°C) + 273.15</div>
-            </li>
-            <li data-title="Substitute, keeping the sign">
-              <p class="worked__why">The Celsius value is negative. Losing the minus sign is the most common slip.</p>
-              <div class="worked__math"><i>T</i> = (−182.96) + 273.15 = 90.19 K</div>
-            </li>
-            <li data-title="Round sensibly">
-              <p class="worked__why">When you add, the answer keeps the smallest number of decimal places in the data. Both values have two decimal places, so keep two.</p>
-              <div class="worked__math"><i>T</i> = <b>90.19 K</b></div>
-            </li>
-          </ol>
-          <div class="worked__answer"><p>90.19 K</p></div>
-        </div>
-
-        <div data-s1-numeric data-answer="310.15" data-tolerance="0.5" data-unit="K" data-sigfigs="3">
-          <div class="tryit__q"><p>Normal human body temperature is about 37 °C. What is this in kelvin? Give your answer to 3 significant figures.</p></div>
-          <ol class="tryit__hints">
-            <li>Which is bigger, the number in kelvin or the number in °C? Decide before you calculate.</li>
-            <li>Add 273.15 to the Celsius value: <span class="mono">37 + 273.15</span>.</li>
-          </ol>
-          <div class="tryit__solution">
-            <div class="worked__math"><i>T</i> = 37 + 273.15 = 310.15 K</div>
-            <p>To 3 significant figures: <strong>310 K</strong>.</p>
-          </div>
-        </div>
-      </section>
-
-      <!-- Additional HL block: a whole section can carry data-level="ahl" -->
-      <section class="topic-section" id="ahl-demo" data-level="ahl">
-        <h2>How Additional HL content looks</h2>
-        <p>This section exists only to show the style. Topic 1.1 has no Additional HL content, so the finished page will not include it. Any section, callout, worked example or question can be marked as Additional HL, and the switch in the header hides them all.</p>
-      </section>
-
-      <section class="topic-section" id="check">
-        <h2>Quick check</h2>
-        <p>Five questions on this topic. You get feedback after each one.</p>
-        <div data-s1-quiz data-topic="s1-1" data-count="5" data-title="1.1 quick check"></div>
-      </section>
+@@CONTENT@@
 
       <div data-s1-pager></div>
     </div>
