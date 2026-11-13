@@ -501,7 +501,7 @@ S1.i18n.register('zh-Hant', 's1-2', {
     "To two decimal places: <strong>20.19</strong>. (The data booklet gives 20.18. Your calculated value is the one to write.)": "取至小數點後 2 位：<strong>20.19</strong>。（數據手冊的數值是 20.18。你要寫的是自己計算出來的數值。）",
 
     // Relative atomic mass from isotope data > common mistake > p
-    "Do not add the masses and divide by the number of isotopes. That simple average treats every isotope as equally common. For chlorine it gives 36, but the real mixture is mostly chlorine-35, so the weighted average is about 35.5.": "不要把各質量相加，再除以同位素的數目。這種簡單平均把每種同位素當作同樣常見。用在氯上會得出 36，但真實的混合物大部分是氯-35，所以加權平均值約為 35.5。",
+    "Do not add the masses and divide by the number of isotopes. That simple average treats every isotope as equally common. For chlorine it gives 36, but the real mixture is mostly chlorine-35, so the weighted average is about 35.5.": "不要把各質量相加，再除以同位素的數目。這種簡單平均值把每種同位素當作同樣常見。用在氯上會得出 36，但真實的混合物大部分是氯-35，所以加權平均值約為 35.5。",
 
     // Relative atomic mass from isotope data > h3
     "Working backwards: abundance from <i>A</i><sub>r</sub>": "倒過來計算：由 <i>A</i><sub>r</sub> 求豐度",
@@ -1158,7 +1158,7 @@ S1.i18n.register('zh-Hant', 's1-2', {
     "A weighted mean must lie between the lightest and heaviest isotope: between {lo} and {hi}.": "加權平均值必定在最輕和最重的同位素之間：即 {lo} 和 {hi} 之間。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "That is the simple average of the <i>m/z</i> values. Each isotope has to be weighted by its abundance.": "這是各 <i>m/z</i> 值的簡單平均。每種同位素都要按豐度加權。",
+    "That is the simple average of the <i>m/z</i> values. Each isotope has to be weighted by its abundance.": "這是各 <i>m/z</i> 值的簡單平均值。每種同位素都要按豐度加權。",
 
     // widget string (assets/js/widgets-s1-2.js)
     "Multiply each <i>m/z</i> by its peak height, add the results, then divide by the total of the peak heights. Check how you read each height.": "把每個 <i>m/z</i> 乘以峰高，把結果相加，然後除以峰高的總和。檢查每個峰高有沒有讀錯。",

@@ -813,33 +813,40 @@
     }
     function text(svg, x, y, str, anchor, bold) { return svgEl('text', { x: x, y: y, 'text-anchor': anchor || 'start', style: 'fill:' + (bold ? INK : INK2) + ';font-family:var(--font-body);font-size:13px' + (bold ? ';font-weight:700' : '') }, svg, str); }
     function diagram(a, dom, lp, piN, hyb) {
+      // Compact layout (380 units wide) so the whole diagram fits a phone screen without sideways scrolling.
+      // The longer notes are HTML under the drawing, so they wrap and are never clipped.
       diag.innerHTML = '';
-      var V = VALENCE[a.el], yS = 180, yP = 62, nMix = dom - 1, yH = yS - (yS - yP) * nMix / dom, i;
-      var svg = svgEl('svg', { viewBox: '0 0 600 250', role: 'img', 'aria-label': t('Energy diagram: one s orbital and {n} p orbitals mix to form {d} {h} hybrid orbitals of equal energy. {p} p orbitals are left unmixed.', { n: nMix, d: dom, h: hyb, p: 3 - nMix }) }, diag);
-      svg.style.width = '100%'; svg.style.maxWidth = '600px'; svg.style.height = 'auto';
-      svgEl('line', { x1: 22, y1: 232, x2: 22, y2: 30, style: 'stroke:' + INK2 + ';stroke-width:1.4' }, svg);
-      svgEl('path', { d: 'M22 22 L17 34 L27 34 Z', style: 'fill:' + INK2 }, svg);
-      text(svg, 34, 30, t('energy'));
-      text(svg, 130, 244, t('{el} atom: orbitals before mixing', { el: a.el }), 'middle', true);
-      text(svg, 440, 244, t('{el} in the molecule: after mixing', { el: a.el }), 'middle', true);
+      var V = VALENCE[a.el], yS = 168, yP = 50, nMix = dom - 1, yH = yS - (yS - yP) * nMix / dom, i, np = 3 - nMix;
+      var svg = svgEl('svg', { viewBox: '0 0 380 250', role: 'img', 'aria-label': t('Energy diagram: one s orbital and {n} p orbitals mix to form {d} {h} hybrid orbitals of equal energy. {p} p orbitals are left unmixed.', { n: nMix, d: dom, h: hyb, p: np }) }, diag);
+      svg.style.width = '100%'; svg.style.maxWidth = '440px'; svg.style.height = 'auto'; svg.style.display = 'block'; svg.style.margin = '0 auto';
+      svgEl('line', { x1: 14, y1: 212, x2: 14, y2: 22, style: 'stroke:' + INK2 + ';stroke-width:1.4' }, svg);
+      svgEl('path', { d: 'M14 12 L9 24 L19 24 Z', style: 'fill:' + INK2 }, svg);
+      text(svg, 24, 20, t('energy'));
+      text(svg, 95, 228, t('{el} atom', { el: a.el }), 'middle', true);
+      text(svg, 95, 244, t('before mixing'), 'middle');
+      text(svg, 290, 228, t('{el} in the molecule', { el: a.el }), 'middle', true);
+      text(svg, 290, 244, t('after mixing'), 'middle');
       // left: ground state, 2s then 2p by Hund's rule
       var pe = V - 2, pfill = [0, 0, 0];
       for (i = 0; i < pe; i++) pfill[i % 3]++;
-      box(svg, 115, yS, 2); text(svg, 108, yS + 20, '2s', 'end');
-      for (i = 0; i < 3; i++) box(svg, 83 + i * 32, yP, pfill[i]);
-      text(svg, 76, yP + 20, '2p', 'end');
+      box(svg, 80, yS, 2); text(svg, 73, yS + 20, '2s', 'end');
+      for (i = 0; i < 3; i++) box(svg, 48 + i * 32, yP, pfill[i]);
+      text(svg, 41, yP + 20, '2p', 'end');
       // arrow
-      svgEl('line', { x1: 215, y1: 130, x2: 268, y2: 130, style: 'stroke:' + ACC + ';stroke-width:2' }, svg);
-      svgEl('path', { d: 'M280 130 L267 124.5 L267 135.5 Z', style: 'fill:' + ACC }, svg);
-      text(svg, 247, 118, t('mix'), 'middle');
+      svgEl('line', { x1: 152, y1: 125, x2: 176, y2: 125, style: 'stroke:' + ACC + ';stroke-width:2' }, svg);
+      svgEl('path', { d: 'M188 125 L175 119.5 L175 130.5 Z', style: 'fill:' + ACC }, svg);
+      text(svg, 169, 113, t('mix'), 'middle');
       // right: hybrids (lone pairs first), then unmixed p
-      var x0 = 440 - dom * 16;
+      var x0 = 290 - dom * 16;
       for (i = 0; i < dom; i++) box(svg, x0 + i * 32, yH, i < lp ? 2 : 1);
       text(svg, x0 - 7, yH + 20, hyb, 'end', true);
-      text(svg, 440, yH + 48, lp ? t('{d} hybrid orbitals. Holding lone pairs: {l}. Forming σ bonds: {b}.', { d: dom, l: lp, b: dom - lp }) : t('{d} hybrid orbitals: each forms one σ bond', { d: dom }), 'middle');
-      var np = 3 - nMix, xp = 440 - np * 16;
+      var xp = 290 - np * 16;
       for (i = 0; i < np; i++) box(svg, xp + i * 32, yP, 1);
-      if (np) { text(svg, xp - 7, yP + 20, '2p', 'end'); text(svg, 440, yP - 9, np === 1 ? t('1 unmixed p orbital: forms the π bond') : t('2 unmixed p orbitals: form two π bonds'), 'middle'); }
+      if (np) text(svg, xp - 7, yP + 20, '2p', 'end');
+      var notes = el('ul', { class: 's22h-diagnotes' });
+      notes.appendChild(el('li', { html: lp ? t('{d} {h} hybrid orbitals. Holding lone pairs: {l}. Forming σ bonds: {b}.', { d: dom, h: hyb, l: lp, b: dom - lp }) : t('{d} {h} hybrid orbitals: each forms one σ bond.', { d: dom, h: hyb }) }));
+      notes.appendChild(el('li', { html: np === 0 ? t('No p orbital is left unmixed, so this atom forms no π bond.') : np === 1 ? t('1 unmixed p orbital: it forms the π bond.') : t('2 unmixed p orbitals: they form two π bonds.') }));
+      diag.appendChild(notes);
     }
     function select(i) {
       pick = i; if (atomSeg) atomSeg.set(i); if (setRing) setRing(i);

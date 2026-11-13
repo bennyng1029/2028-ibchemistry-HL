@@ -708,17 +708,12 @@
         ctx.font = f.body(13, true); ctx.fillStyle = ink;
         if (model.size > 0) {
           var o = project([0, 0, 0], W, H, scale), tip = project([model.net[0], model.net[1], model.net[2]].map(function (v) { return v / model.size * 1.05; }), W, H, scale);
-          var ddx = tip.x - o.x, ddy = tip.y - o.y, ox, oy;
-          if (two) { ox = W / 2 - ddx / 2; oy = H / 2 - 46; }
-          else {
-            // The net dipole is drawn in its own circle at the top right, so that it never covers an atom or a lone pair.
-            var k = 52 / (1.05 * scale), icx = W - 42, icy = 50; ddx *= k; ddy *= k;
-            ctx.beginPath(); ctx.arc(icx, icy, 34, 0, Math.PI * 2); ctx.fillStyle = surf; ctx.fill(); ctx.strokeStyle = ink2; ctx.lineWidth = 1; ctx.stroke();
-            ox = icx - ddx / 2; oy = icy - ddy / 2;
-          }
-          ctx.strokeStyle = ink; ctx.fillStyle = ink; arrow(ctx, ox, oy, ox + ddx, oy + ddy, two ? 5 : 4, false);
-          if (!two && Math.hypot(ddx, ddy) < 6) { ctx.beginPath(); ctx.arc(W - 42, 50, 5, 0, Math.PI * 2); ctx.fill(); }   // pointing straight at or away from the viewer
-          ctx.fillText(two ? t('Thick arrow: net dipole') : t('Thick arrow in the circle: net dipole'), 8, 16, W - 100);
+          // The net dipole is drawn in its own circle at the top right, so that it never covers an atom or a lone pair.
+          var k = 52 / (1.05 * scale), icx = W - 42, icy = 50, ddx = (tip.x - o.x) * k, ddy = (tip.y - o.y) * k;
+          ctx.beginPath(); ctx.arc(icx, icy, 34, 0, Math.PI * 2); ctx.fillStyle = surf; ctx.fill(); ctx.strokeStyle = ink2; ctx.lineWidth = 1; ctx.stroke();
+          ctx.strokeStyle = ink; ctx.fillStyle = ink; arrow(ctx, icx - ddx / 2, icy - ddy / 2, icx + ddx / 2, icy + ddy / 2, 4, false);
+          if (Math.hypot(ddx, ddy) < 6) { ctx.beginPath(); ctx.arc(icx, icy, 5, 0, Math.PI * 2); ctx.fill(); }   // pointing straight at or away from the viewer
+          ctx.fillText(t('Thick arrow in the circle: net dipole'), 8, 16, W - 100);
         } else ctx.fillText(t('No net dipole'), 8, 16, W - 16);
       }
     });
@@ -928,12 +923,12 @@
   };
   /** 2,2-dimethylpropane drawn as a cross, with room for all twelve H atoms (the chain shorthand makes them overlap). */
   function neoSpec() {
-    var atoms = [{ el: 'C', x: 0, y: 0 }], bonds = [], D = 1.7, h = 0.95;
+    var atoms = [{ el: 'C', x: 0, y: 0 }], bonds = [], D = 2, h = 1;
     [[1, 0], [-1, 0], [0, 1], [0, -1]].forEach(function (u) {
       var c = atoms.length; atoms.push({ el: 'C', x: u[0] * D, y: u[1] * D }); bonds.push({ a: 0, b: c, order: 1 });
       [[u[0], u[1]], [-u[1], u[0]], [u[1], -u[0]]].forEach(function (v) { atoms.push({ el: 'H', x: u[0] * D + v[0] * h, y: u[1] * D + v[1] * h }); bonds.push({ a: c, b: atoms.length - 1, order: 1 }); });
     });
-    return { atoms: atoms, bonds: bonds, scale: 34 };
+    return { atoms: atoms, bonds: bonds, scale: 38 };
   }
   function molarMass(f) { return chem.molarMass(f); }
   function electronCount(f) { var p = chem.parseFormula(f), n = 0; Object.keys(p.counts).forEach(function (e) { n += chem.element(e).z * p.counts[e]; }); return n; }

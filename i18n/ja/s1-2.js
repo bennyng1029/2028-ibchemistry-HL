@@ -317,875 +317,875 @@ S1.i18n.register('ja', 's1-2', {
     "Nuclear symbols: quick check": "原子の記号：確認クイズ",
 
     // Isotopes > h2
-    "Isotopes": "",
+    "Isotopes": "同位体",
 
     // Isotopes > p
-    "Take a jar of chlorine gas. Every atom in it has 17 protons. But about three quarters of the atoms have 18 neutrons, and about one quarter have 20. They are all chlorine, with two different masses.": "",
+    "Take a jar of chlorine gas. Every atom in it has 17 protons. But about three quarters of the atoms have 18 neutrons, and about one quarter have 20. They are all chlorine, with two different masses.": "塩素の気体が入ったびんを考えてみましょう。中の原子はどれも陽子を 17 個もっています。ところが、原子の約 4 分の 3 は中性子が 18 個で、約 4 分の 1 は中性子が 20 個です。どれも塩素ですが、質量が 2 種類あります。",
 
     // Isotopes > p
-    "<dfn data-def=\"Atoms of the same element with different numbers of neutrons.\">Isotopes</dfn> are atoms of the same element with different numbers of neutrons. So isotopes have the same atomic number and different mass numbers.": "",
+    "<dfn data-def=\"Atoms of the same element with different numbers of neutrons.\">Isotopes</dfn> are atoms of the same element with different numbers of neutrons. So isotopes have the same atomic number and different mass numbers.": "<dfn data-def=\"同じ元素の原子で、中性子の数が違うもの。\">同位体 <span class=\"en-term\">(isotopes)</span></dfn>は、同じ元素の原子で、中性子の数が違うものです。つまり同位体どうしは、原子番号が同じで、質量数が違います。",
 
     // Isotopes > data-def attribute
-    "Atoms of the same element with different numbers of neutrons.": "",
+    "Atoms of the same element with different numbers of neutrons.": "同じ元素の原子で、中性子の数が違うもの。",
 
     // Isotopes > p
-    "You name an isotope by its mass number: chlorine-35 and chlorine-37, or <sup>35</sup>Cl and <sup>37</sup>Cl.": "",
+    "You name an isotope by its mass number: chlorine-35 and chlorine-37, or <sup>35</sup>Cl and <sup>37</sup>Cl.": "同位体は質量数をつけて呼びます。塩素 35 (chlorine-35) と塩素 37 (chlorine-37)、または <sup>35</sup>Cl と <sup>37</sup>Cl です。",
 
     // Isotopes > table > caption
-    "The two isotopes of chlorine found in nature": "",
+    "The two isotopes of chlorine found in nature": "天然に存在する塩素の 2 つの同位体",
 
     // Isotopes > table > th
-    "Isotope": "",
-
-    // Isotopes > table > th
-    // widget string (assets/js/widgets-s1-2.js)
-    "Protons": "",
+    "Isotope": "同位体",
 
     // Isotopes > table > th
     // widget string (assets/js/widgets-s1-2.js)
-    "Neutrons": "",
+    "Protons": "陽子",
 
     // Isotopes > table > th
-    "Electrons (in the atom)": "",
+    // widget string (assets/js/widgets-s1-2.js)
+    "Neutrons": "中性子",
 
     // Isotopes > table > th
-    "Mass number": "",
+    "Electrons (in the atom)": "電子（原子の場合）",
 
     // Isotopes > table > th
-    "chlorine-35": "",
+    "Mass number": "質量数",
 
     // Isotopes > table > th
-    "chlorine-37": "",
+    "chlorine-35": "塩素 35",
+
+    // Isotopes > table > th
+    "chlorine-37": "塩素 37",
 
     // Isotopes > h3
-    "Same chemistry, different physical properties": "",
+    "Same chemistry, different physical properties": "化学的性質は同じ、物理的性質は違う",
 
     // Isotopes > p
-    "<strong>Chemical properties are the same.</strong> How an atom reacts depends on its electrons. Isotopes of an element have the same number of electrons, arranged in the same way, so they react in the same way.": "",
+    "<strong>Chemical properties are the same.</strong> How an atom reacts depends on its electrons. Isotopes of an element have the same number of electrons, arranged in the same way, so they react in the same way.": "<strong>化学的性質は同じです。</strong>原子がどう反応するかは、電子で決まります。同じ元素の同位体は、電子の数も電子の配置も同じなので、同じように反応します。",
 
     // Isotopes > p
-    "<strong>Physical properties are different.</strong> Isotopes have different masses. Any property that depends on mass is a little different: density, the rate at which a gas diffuses, and melting and boiling points.": "",
+    "<strong>Physical properties are different.</strong> Isotopes have different masses. Any property that depends on mass is a little different: density, the rate at which a gas diffuses, and melting and boiling points.": "<strong>物理的性質は違います。</strong>同位体は質量が違います。そのため、質量で決まる性質は少しだけ違います。密度、気体が拡散する速さ、融点と沸点などです。",
 
     // Isotopes > p
-    "For example, “heavy water” made with hydrogen-2 reacts like ordinary water, but it is denser and boils at a slightly higher temperature.": "",
+    "For example, “heavy water” made with hydrogen-2 reacts like ordinary water, but it is denser and boils at a slightly higher temperature.": "たとえば、水素 2 でできた「重水」は、ふつうの水と同じように反応します。しかし密度はふつうの水より大きく、沸点も少し高くなります。",
 
     // Isotopes > exam tip (shown in English + translation) > p
-    "To explain the same chemical properties, write “same number of electrons” or “same electron configuration”. To explain a different physical property, write “different mass” and name the property, such as density.": "",
+    "To explain the same chemical properties, write “same number of electrons” or “same electron configuration”. To explain a different physical property, write “different mass” and name the property, such as density.": "化学的性質が同じ理由を説明するときは、「電子の数が同じ」(same number of electrons) または「電子配置が同じ」(same electron configuration) と書きます。物理的性質が違う理由を説明するときは、「質量が違う」(different mass) と書き、密度 (density) のように性質の名前も挙げます。",
 
     // Isotopes > common mistake > p
-    "Isotopes do <em>not</em> differ in protons or electrons. If the number of protons changes, it is a different element. If the number of electrons changes, it is an ion. Only a change in neutrons gives an isotope.": "",
+    "Isotopes do <em>not</em> differ in protons or electrons. If the number of protons changes, it is a different element. If the number of electrons changes, it is an ion. Only a change in neutrons gives an isotope.": "同位体どうしで、陽子の数や電子の数が違うわけでは<em>ありません</em>。陽子の数が変われば、別の元素です。電子の数が変われば、イオンです。中性子の数が変わったときだけ、同位体になります。",
 
     // Isotopes > not needed for IB > p
-    "You do not need to learn specific examples of isotopes or their uses. The data will be given in the question. Radioactive decay, half-life and nuclear equations are not part of this topic.": "",
+    "You do not need to learn specific examples of isotopes or their uses. The data will be given in the question. Radioactive decay, half-life and nuclear equations are not part of this topic.": "同位体の具体例や使いみちを覚える必要はありません。データは問題文に書かれています。放射性崩壊、半減期、核反応式は、このトピックの範囲外です。",
 
     // Isotopes > data-title attribute
-    "Isotopes: quick check": "",
+    "Isotopes: quick check": "同位体：確認クイズ",
 
     // Relative atomic mass from isotope data > data-toc attribute
     // Relative atomic mass from isotope data > try it > data-label attribute
     // Mass spectra > try it > Additional HL > data-label attribute
-    "Relative atomic mass": "",
+    "Relative atomic mass": "相対原子質量",
 
     // Relative atomic mass from isotope data > h2
-    "Relative atomic mass from isotope data": "",
+    "Relative atomic mass from isotope data": "同位体のデータから相対原子質量を求める",
 
     // Relative atomic mass from isotope data > p
-    "Look up chlorine in the periodic table and you find 35.45. No chlorine atom has that mass. Each one is either chlorine-35 or chlorine-37. The number 35.45 is an average for the mixture found in nature.": "",
+    "Look up chlorine in the periodic table and you find 35.45. No chlorine atom has that mass. Each one is either chlorine-35 or chlorine-37. The number 35.45 is an average for the mixture found in nature.": "周期表で塩素を調べると、35.45 と書いてあります。しかし、この質量の塩素原子は 1 個もありません。どの原子も、塩素 35 か塩素 37 のどちらかです。35.45 という数は、天然に存在する混合物の平均です。",
 
     // Relative atomic mass from isotope data > p
-    "The <dfn data-def=\"The weighted average mass of the atoms of an element, compared with one twelfth of the mass of an atom of carbon-12. It has no units.\">relative atomic mass</dfn>, <i>A</i><sub>r</sub>, is the weighted average mass of the atoms of an element, compared with one twelfth of the mass of a carbon-12 atom. It has no units.": "",
+    "The <dfn data-def=\"The weighted average mass of the atoms of an element, compared with one twelfth of the mass of an atom of carbon-12. It has no units.\">relative atomic mass</dfn>, <i>A</i><sub>r</sub>, is the weighted average mass of the atoms of an element, compared with one twelfth of the mass of a carbon-12 atom. It has no units.": "<dfn data-def=\"ある元素の原子の質量の加重平均を、炭素 12 の原子 1 個の質量の 12 分の 1 と比べた値。単位はない。\">相対原子質量 <span class=\"en-term\">(relative atomic mass)</span></dfn>（原子量）<i>A</i><sub>r</sub> は、ある元素の原子の質量の加重平均 (weighted average) を、炭素 12 の原子 1 個の質量の 12 分の 1 と比べた値です。単位はありません。",
 
     // Relative atomic mass from isotope data > data-def attribute
-    "The weighted average mass of the atoms of an element, compared with one twelfth of the mass of an atom of carbon-12. It has no units.": "",
+    "The weighted average mass of the atoms of an element, compared with one twelfth of the mass of an atom of carbon-12. It has no units.": "ある元素の原子の質量の加重平均を、炭素 12 の原子 1 個の質量の 12 分の 1 と比べた値。単位はない。",
 
     // Relative atomic mass from isotope data > h3
-    "What “weighted” means": "",
+    "What “weighted” means": "「加重」(weighted) とは",
 
     // Relative atomic mass from isotope data > p
-    "Suppose 3 of every 4 chlorine atoms have mass 35, and 1 of every 4 has mass 37. The average of four typical atoms is (35 + 35 + 35 + 37) ÷ 4 = 35.5. The answer is closer to 35 because there are more atoms of mass 35. Each isotope counts in proportion to its abundance.": "",
+    "Suppose 3 of every 4 chlorine atoms have mass 35, and 1 of every 4 has mass 37. The average of four typical atoms is (35 + 35 + 35 + 37) ÷ 4 = 35.5. The answer is closer to 35 because there are more atoms of mass 35. Each isotope counts in proportion to its abundance.": "塩素原子 4 個のうち 3 個は質量が 35 で、1 個は質量が 37 だとします。この 4 個の平均は (35 + 35 + 35 + 37) ÷ 4 = 35.5 です。答えが 35 に近いのは、質量 35 の原子のほうが多いからです。それぞれの同位体は、存在比に応じた重みで平均に入ります。",
 
     // Relative atomic mass from isotope data > p
-    "The <dfn data-def=\"The percentage of the atoms of an element that are a particular isotope.\">abundance</dfn> of an isotope is the percentage of the atoms that are that isotope.": "",
+    "The <dfn data-def=\"The percentage of the atoms of an element that are a particular isotope.\">abundance</dfn> of an isotope is the percentage of the atoms that are that isotope.": "同位体の<dfn data-def=\"ある元素の原子のうち、特定の同位体が占める割合（百分率）。\">存在比 <span class=\"en-term\">(abundance)</span></dfn>とは、その元素の原子のうち、その同位体が占める割合（百分率）のことです。",
 
     // Relative atomic mass from isotope data > data-def attribute
-    "The percentage of the atoms of an element that are a particular isotope.": "",
+    "The percentage of the atoms of an element that are a particular isotope.": "ある元素の原子のうち、特定の同位体が占める割合（百分率）。",
 
     // Relative atomic mass from isotope data > equation > dt
     // Mass spectra > equation > Additional HL > dt
-    "A<sub>r</sub>": "",
+    "A<sub>r</sub>": "A<sub>r</sub>",
 
     // Relative atomic mass from isotope data > equation > dd
     // Mass spectra > equation > Additional HL > dd
-    "relative atomic mass (no units)": "",
+    "relative atomic mass (no units)": "相対原子質量（単位なし）",
 
     // Relative atomic mass from isotope data > equation > dd
-    "mass of each isotope, as given in the question (no units)": "",
+    "mass of each isotope, as given in the question (no units)": "それぞれの同位体の質量。問題文の値を使う（単位なし）",
 
     // Relative atomic mass from isotope data > equation > dd
-    "abundance of each isotope <span class=\"unit\">%</span>": "",
+    "abundance of each isotope <span class=\"unit\">%</span>": "それぞれの同位体の存在比 <span class=\"unit\">%</span>",
 
     // Relative atomic mass from isotope data > h3
-    "Method in words: abundances to <i>A</i><sub>r</sub>": "",
+    "Method in words: abundances to <i>A</i><sub>r</sub>": "解き方を言葉で：存在比から <i>A</i><sub>r</sub> を求める",
 
     // Relative atomic mass from isotope data > li
-    "Check that the abundances add up to 100%.": "",
+    "Check that the abundances add up to 100%.": "存在比の合計が 100% になることを確かめます。",
 
     // Relative atomic mass from isotope data > li
-    "Multiply the mass of each isotope by its percentage abundance.": "",
+    "Multiply the mass of each isotope by its percentage abundance.": "それぞれの同位体の質量に、その存在比（%）をかけます。",
 
     // Relative atomic mass from isotope data > li
-    "Add the results.": "",
+    "Add the results.": "その結果を足します。",
 
     // Relative atomic mass from isotope data > li
-    "Divide by 100.": "",
+    "Divide by 100.": "100 で割ります。",
 
     // Relative atomic mass from isotope data > li
-    "Round at the end, usually to two decimal places, and give no units.": "",
+    "Round at the end, usually to two decimal places, and give no units.": "最後に四捨五入します。ふつうは小数第 2 位までです。単位は書きません。",
 
     // Relative atomic mass from isotope data > widget > data-title attribute
-    "Isotope mixer": "",
+    "Isotope mixer": "同位体ミキサー",
 
     // Relative atomic mass from isotope data > widget > figcaption
-    "Change the abundances and watch the balance point move towards the more common isotope. The working underneath updates line by line. Press Natural abundances to compare with the data booklet. The isotope masses and abundances here are real values, rounded. You are never asked to remember them.": "",
+    "Change the abundances and watch the balance point move towards the more common isotope. The working underneath updates line by line. Press Natural abundances to compare with the data booklet. The isotope masses and abundances here are real values, rounded. You are never asked to remember them.": "存在比を変えて、つり合いの点が存在比の大きい同位体のほうへ動くようすを見ましょう。下の計算は 1 行ずつ更新されます。「天然の存在比」を押すと、データブックレットの値と比べられます。ここで使っている同位体の質量と存在比は、実際の値を丸めたものです。これらを覚える必要はありません。",
 
     // Relative atomic mass from isotope data > p
-    "Try “Mass number only” in the mixer. The answer changes slightly. The real mass of an isotope is very close to its mass number, but not exactly equal to it. Use whichever masses the question gives you. If it gives only mass numbers, use those.": "",
+    "Try “Mass number only” in the mixer. The answer changes slightly. The real mass of an isotope is very close to its mass number, but not exactly equal to it. Use whichever masses the question gives you. If it gives only mass numbers, use those.": "ミキサーで「質量数のみ」を選んでみましょう。答えが少し変わります。同位体の実際の質量は質量数にとても近い値ですが、完全に同じではありません。計算には、問題文に書かれている質量を使います。質量数しか書かれていなければ、質量数を使います。",
 
     // Relative atomic mass from isotope data > worked example > h3
-    "Relative atomic mass from percentage abundances": "",
+    "Relative atomic mass from percentage abundances": "存在比（%）から相対原子質量を求める",
 
     // Relative atomic mass from isotope data > worked example > p
-    "A sample of silicon contains 92.2% <sup>28</sup>Si, 4.7% <sup>29</sup>Si and 3.1% <sup>30</sup>Si. Calculate the relative atomic mass of silicon in this sample, to two decimal places.": "",
+    "A sample of silicon contains 92.2% <sup>28</sup>Si, 4.7% <sup>29</sup>Si and 3.1% <sup>30</sup>Si. Calculate the relative atomic mass of silicon in this sample, to two decimal places.": "あるケイ素の試料は、<sup>28</sup>Si を 92.2%、<sup>29</sup>Si を 4.7%、<sup>30</sup>Si を 3.1% 含んでいます。この試料のケイ素の相対原子質量を、小数第 2 位まで計算しなさい (calculate)。",
 
     // Relative atomic mass from isotope data > worked example > data-title attribute
-    "Check the abundances": "",
+    "Check the abundances": "存在比を確かめる",
 
     // Relative atomic mass from isotope data > worked example > p
-    "If they do not add up to 100%, an isotope is missing or you have misread the data.": "",
+    "If they do not add up to 100%, an isotope is missing or you have misread the data.": "合計が 100% にならなければ、同位体が 1 つ抜けているか、データを読み間違えています。",
 
     // Relative atomic mass from isotope data > worked example > data-title attribute
-    "Multiply each mass by its abundance": "",
+    "Multiply each mass by its abundance": "それぞれの質量に存在比をかける",
 
     // Relative atomic mass from isotope data > worked example > p
-    "This is the weighting. A common isotope contributes more to the total.": "",
+    "This is the weighting. A common isotope contributes more to the total.": "これが「重みをつける」ということです。存在比の大きい同位体ほど、合計に大きく効きます。",
 
     // Relative atomic mass from isotope data > worked example > data-title attribute
-    "Add, then divide by 100": "",
+    "Add, then divide by 100": "足してから 100 で割る",
 
     // Relative atomic mass from isotope data > worked example > p
-    "The abundances are percentages, so the total is for 100 atoms. Dividing by 100 gives the average for one atom.": "",
+    "The abundances are percentages, so the total is for 100 atoms. Dividing by 100 gives the average for one atom.": "存在比は百分率なので、合計は原子 100 個分です。100 で割ると、原子 1 個あたりの平均になります。",
 
     // Relative atomic mass from isotope data > worked example > data-title attribute
     // Mass spectra > worked example > Additional HL > data-title attribute
-    "Round and sense-check": "",
+    "Round and sense-check": "四捨五入して、答えが妥当か確かめる",
 
     // Relative atomic mass from isotope data > worked example > p
-    "The answer must lie between 28 and 30, and close to 28 because silicon-28 is by far the most abundant.": "",
+    "The answer must lie between 28 and 30, and close to 28 because silicon-28 is by far the most abundant.": "答えは 28 と 30 の間にあり、28 に近いはずです。ケイ素 28 の存在比が飛びぬけて大きいからです。",
 
     // Relative atomic mass from isotope data > worked example > maths line
-    "<i>A</i><sub>r</sub> = <b>28.11</b> (2 d.p., no units)": "",
+    "<i>A</i><sub>r</sub> = <b>28.11</b> (2 d.p., no units)": "<i>A</i><sub>r</sub> = <b>28.11</b>（小数第 2 位まで、単位なし）",
 
     // Relative atomic mass from isotope data > worked example > p
-    "28.11. This is not quite the data booklet value of 28.09. The question asked for the value from this data, so 28.11 is the answer that scores.": "",
+    "28.11. This is not quite the data booklet value of 28.09. The question asked for the value from this data, so 28.11 is the answer that scores.": "28.11 です。データブックレットの値 28.09 とは少し違います。問われているのはこのデータから求めた値なので、点になる答えは 28.11 です。",
 
     // Relative atomic mass from isotope data > exam tip (shown in English + translation) > p
-    "If a question says “calculate” and gives isotope data, your answer must come from that data. Markschemes do not accept the periodic table value copied from the data booklet. Show the weighted-sum line of working, then the answer.": "",
+    "If a question says “calculate” and gives isotope data, your answer must come from that data. Markschemes do not accept the periodic table value copied from the data booklet. Show the weighted-sum line of working, then the answer.": "問題文に「計算しなさい」(calculate) とあり、同位体のデータが与えられていたら、答えはそのデータから求めます。データブックレットの周期表の値を写しても、採点基準（マークスキーム）では認められません。重みをつけた合計の式を途中の計算として書いてから、答えを書きましょう。",
 
     // Relative atomic mass from isotope data > try it > p
-    "A sample of neon contains 90.48% <sup>20</sup>Ne, 0.27% <sup>21</sup>Ne and 9.25% <sup>22</sup>Ne. Calculate the relative atomic mass of neon in this sample, to two decimal places.": "",
+    "A sample of neon contains 90.48% <sup>20</sup>Ne, 0.27% <sup>21</sup>Ne and 9.25% <sup>22</sup>Ne. Calculate the relative atomic mass of neon in this sample, to two decimal places.": "あるネオンの試料は、<sup>20</sup>Ne を 90.48%、<sup>21</sup>Ne を 0.27%、<sup>22</sup>Ne を 9.25% 含んでいます。この試料のネオンの相対原子質量を、小数第 2 位まで計算しなさい。",
 
     // Relative atomic mass from isotope data > try it > li
-    "Multiply each mass number by its percentage. You will have three products to add.": "",
+    "Multiply each mass number by its percentage. You will have three products to add.": "それぞれの質量数に存在比（%）をかけます。足す積は 3 つになります。",
 
     // Relative atomic mass from isotope data > try it > p
-    "To two decimal places: <strong>20.19</strong>. (The data booklet gives 20.18. Your calculated value is the one to write.)": "",
+    "To two decimal places: <strong>20.19</strong>. (The data booklet gives 20.18. Your calculated value is the one to write.)": "小数第 2 位まで求めると <strong>20.19</strong> です。（データブックレットの値は 20.18 です。答えに書くのは、自分で計算した値です。）",
 
     // Relative atomic mass from isotope data > common mistake > p
-    "Do not add the masses and divide by the number of isotopes. That simple average treats every isotope as equally common. For chlorine it gives 36, but the real mixture is mostly chlorine-35, so the weighted average is about 35.5.": "",
+    "Do not add the masses and divide by the number of isotopes. That simple average treats every isotope as equally common. For chlorine it gives 36, but the real mixture is mostly chlorine-35, so the weighted average is about 35.5.": "質量を足して同位体の種類の数で割ってはいけません。この単純な平均では、どの同位体も同じだけあることになってしまいます。塩素でこの計算をすると 36 になります。しかし実際の混合物はほとんどが塩素 35 なので、加重平均は約 35.5 です。",
 
     // Relative atomic mass from isotope data > h3
-    "Working backwards: abundance from <i>A</i><sub>r</sub>": "",
+    "Working backwards: abundance from <i>A</i><sub>r</sub>": "逆向きに解く：<i>A</i><sub>r</sub> から存在比を求める",
 
     // Relative atomic mass from isotope data > p
-    "Sometimes you are given the relative atomic mass and asked for the abundances. With two isotopes there is one unknown, so one equation is enough. The key is that the two percentages must add up to 100.": "",
+    "Sometimes you are given the relative atomic mass and asked for the abundances. With two isotopes there is one unknown, so one equation is enough. The key is that the two percentages must add up to 100.": "相対原子質量が与えられて、存在比を問われることもあります。同位体が 2 つなら、わからない数は 1 つなので、式は 1 つで足ります。ポイントは、2 つの百分率の合計が必ず 100 になることです。",
 
     // Relative atomic mass from isotope data > li
-    "Call the percentage of one isotope <i>x</i>. The other is then 100 − <i>x</i>.": "",
+    "Call the percentage of one isotope <i>x</i>. The other is then 100 − <i>x</i>.": "一方の同位体の存在比（%）を <i>x</i> とおきます。もう一方は 100 − <i>x</i> です。",
 
     // Relative atomic mass from isotope data > li
-    "Write the weighted-mean equation with <i>x</i> in it, and set it equal to <i>A</i><sub>r</sub>.": "",
+    "Write the weighted-mean equation with <i>x</i> in it, and set it equal to <i>A</i><sub>r</sub>.": "<i>x</i> を使って加重平均の式を書き、それを <i>A</i><sub>r</sub> と等しいとおきます。",
 
     // Relative atomic mass from isotope data > li
-    "Multiply both sides by 100 to remove the fraction.": "",
+    "Multiply both sides by 100 to remove the fraction.": "両辺に 100 をかけて、分数をなくします。",
 
     // Relative atomic mass from isotope data > li
-    "Expand the bracket, collect the <i>x</i> terms, and solve.": "",
+    "Expand the bracket, collect the <i>x</i> terms, and solve.": "かっこを展開し、<i>x</i> の項をまとめて、方程式を解きます。",
 
     // Relative atomic mass from isotope data > li
-    "Check: the more abundant isotope must be the one whose mass is closer to <i>A</i><sub>r</sub>.": "",
+    "Check: the more abundant isotope must be the one whose mass is closer to <i>A</i><sub>r</sub>.": "確認：存在比の大きい同位体は、質量が <i>A</i><sub>r</sub> に近いほうのはずです。",
 
     // Relative atomic mass from isotope data > worked example > data-kicker attribute
-    "Worked example: working backwards": "",
+    "Worked example: working backwards": "例題：逆向きに解く",
 
     // Relative atomic mass from isotope data > worked example > h3
-    "Percentage abundance from relative atomic mass": "",
+    "Percentage abundance from relative atomic mass": "相対原子質量から存在比（%）を求める",
 
     // Relative atomic mass from isotope data > worked example > p
-    "Boron has two isotopes, <sup>10</sup>B and <sup>11</sup>B. Its relative atomic mass is 10.81. Calculate the percentage abundance of each isotope. Use the mass numbers as the masses of the isotopes.": "",
+    "Boron has two isotopes, <sup>10</sup>B and <sup>11</sup>B. Its relative atomic mass is 10.81. Calculate the percentage abundance of each isotope. Use the mass numbers as the masses of the isotopes.": "ホウ素には <sup>10</sup>B と <sup>11</sup>B の 2 つの同位体があります。ホウ素の相対原子質量は 10.81 です。それぞれの同位体の存在比（%）を計算しなさい。同位体の質量には質量数を使いなさい。",
 
     // Relative atomic mass from isotope data > worked example > data-title attribute
-    "Name the unknown": "",
+    "Name the unknown": "わからない数を文字でおく",
 
     // Relative atomic mass from isotope data > worked example > p
-    "There are two percentages, but they add up to 100, so one letter covers both.": "",
+    "There are two percentages, but they add up to 100, so one letter covers both.": "百分率は 2 つありますが、合計が 100 なので、文字は 1 つで足ります。",
 
     // Relative atomic mass from isotope data > worked example > maths line
-    "% of <sup>10</sup>B = <i>x</i>": "",
+    "% of <sup>10</sup>B = <i>x</i>": "<sup>10</sup>B の % = <i>x</i>",
 
     // Relative atomic mass from isotope data > worked example > maths line
-    "% of <sup>11</sup>B = 100 − <i>x</i>": "",
+    "% of <sup>11</sup>B = 100 − <i>x</i>": "<sup>11</sup>B の % = 100 − <i>x</i>",
 
     // Relative atomic mass from isotope data > worked example > data-title attribute
-    "Write the weighted-mean equation": "",
+    "Write the weighted-mean equation": "加重平均の式を書く",
 
     // Relative atomic mass from isotope data > worked example > p
-    "It is the same formula as before, with <i>x</i> and (100 − <i>x</i>) in place of the abundances.": "",
+    "It is the same formula as before, with <i>x</i> and (100 − <i>x</i>) in place of the abundances.": "前と同じ式です。存在比のところに <i>x</i> と (100 − <i>x</i>) を入れます。",
 
     // Relative atomic mass from isotope data > worked example > data-title attribute
-    "Multiply both sides by 100": "",
+    "Multiply both sides by 100": "両辺に 100 をかける",
 
     // Relative atomic mass from isotope data > worked example > p
-    "This removes the fraction, so the next lines are easier.": "",
+    "This removes the fraction, so the next lines are easier.": "分数がなくなるので、あとの計算が楽になります。",
 
     // Relative atomic mass from isotope data > worked example > data-title attribute
-    "Expand the bracket": "",
+    "Expand the bracket": "かっこを展開する",
 
     // Relative atomic mass from isotope data > worked example > p
-    "Multiply 11 by each term inside the bracket. Watch the minus sign.": "",
+    "Multiply 11 by each term inside the bracket. Watch the minus sign.": "かっこの中のそれぞれの項に 11 をかけます。マイナスの符号に気をつけましょう。",
 
     // Relative atomic mass from isotope data > worked example > data-title attribute
-    "Collect terms and solve": "",
+    "Collect terms and solve": "項をまとめて解く",
 
     // Relative atomic mass from isotope data > worked example > p
-    "10<i>x</i> − 11<i>x</i> is −<i>x</i>. Then move the numbers to one side.": "",
+    "10<i>x</i> − 11<i>x</i> is −<i>x</i>. Then move the numbers to one side.": "10<i>x</i> − 11<i>x</i> は −<i>x</i> です。次に、数を片方の辺に集めます。",
 
     // Relative atomic mass from isotope data > worked example > data-title attribute
-    "State both answers and check": "",
+    "State both answers and check": "両方の答えを書いて確かめる",
 
     // Relative atomic mass from isotope data > worked example > p
-    "10.81 is closer to 11 than to 10, so <sup>11</sup>B should be the more abundant isotope. It is.": "",
+    "10.81 is closer to 11 than to 10, so <sup>11</sup>B should be the more abundant isotope. It is.": "10.81 は 10 より 11 に近いので、<sup>11</sup>B のほうが存在比は大きいはずです。実際にそうなっています。",
 
     // Relative atomic mass from isotope data > worked example > p
-    "<sup>10</sup>B 19% and <sup>11</sup>B 81%": "",
+    "<sup>10</sup>B 19% and <sup>11</sup>B 81%": "<sup>10</sup>B 19%、<sup>11</sup>B 81%",
 
     // Relative atomic mass from isotope data > try it > data-label attribute
-    "Abundance of copper-63": "",
+    "Abundance of copper-63": "銅 63 の存在比",
 
     // Relative atomic mass from isotope data > try it > p
-    "Copper has two isotopes. <sup>63</sup>Cu has a relative mass of 62.93 and <sup>65</sup>Cu has a relative mass of 64.93. The relative atomic mass of copper is 63.55. Calculate the percentage abundance of <sup>63</sup>Cu.": "",
+    "Copper has two isotopes. <sup>63</sup>Cu has a relative mass of 62.93 and <sup>65</sup>Cu has a relative mass of 64.93. The relative atomic mass of copper is 63.55. Calculate the percentage abundance of <sup>63</sup>Cu.": "銅には 2 つの同位体があります。<sup>63</sup>Cu の相対質量は 62.93、<sup>65</sup>Cu の相対質量は 64.93 です。銅の相対原子質量は 63.55 です。<sup>63</sup>Cu の存在比（%）を計算しなさい。",
 
     // Relative atomic mass from isotope data > try it > li
-    "Let the percentage of <sup>63</sup>Cu be <i>x</i>. Then <sup>65</sup>Cu is 100 − <i>x</i>. Use the masses given, not the mass numbers.": "",
+    "Let the percentage of <sup>63</sup>Cu be <i>x</i>. Then <sup>65</sup>Cu is 100 − <i>x</i>. Use the masses given, not the mass numbers.": "<sup>63</sup>Cu の存在比（%）を <i>x</i> とおきます。すると <sup>65</sup>Cu は 100 − <i>x</i> です。質量数ではなく、与えられた質量を使いましょう。",
 
     // Relative atomic mass from isotope data > try it > li
-    "<span class=\"mono\">62.93x + 64.93(100 − x) = 6355</span>. Expand the bracket: <span class=\"mono\">64.93 × 100 = 6493</span>.": "",
+    "<span class=\"mono\">62.93x + 64.93(100 − x) = 6355</span>. Expand the bracket: <span class=\"mono\">64.93 × 100 = 6493</span>.": "<span class=\"mono\">62.93x + 64.93(100 − x) = 6355</span>。かっこを展開します：<span class=\"mono\">64.93 × 100 = 6493</span>。",
 
     // Relative atomic mass from isotope data > try it > p
-    "<sup>63</sup>Cu is <strong>69.0%</strong> (so <sup>65</sup>Cu is 31.0%). Check: 63.55 is closer to 62.93, so <sup>63</sup>Cu should be more abundant.": "",
+    "<sup>63</sup>Cu is <strong>69.0%</strong> (so <sup>65</sup>Cu is 31.0%). Check: 63.55 is closer to 62.93, so <sup>63</sup>Cu should be more abundant.": "<sup>63</sup>Cu は <strong>69.0%</strong> です（したがって <sup>65</sup>Cu は 31.0%）。確認：63.55 は 62.93 に近いので、<sup>63</sup>Cu のほうが存在比は大きいはずです。",
 
     // Relative atomic mass from isotope data > common mistake > data-title attribute
-    "Three words that get mixed up": "",
+    "Three words that get mixed up": "混同しやすい 3 つの言葉",
 
     // Relative atomic mass from isotope data > common mistake > p
-    "<strong>Mass number</strong> belongs to one isotope and is a whole number (35). <strong>Relative atomic mass</strong> belongs to the element as a mixture of isotopes, and is usually not a whole number (35.45). Neither has units. Molar mass, with units <span class=\"unit\">g mol-1</span>, comes in Structure 1.4.": "",
+    "<strong>Mass number</strong> belongs to one isotope and is a whole number (35). <strong>Relative atomic mass</strong> belongs to the element as a mixture of isotopes, and is usually not a whole number (35.45). Neither has units. Molar mass, with units <span class=\"unit\">g mol-1</span>, comes in Structure 1.4.": "<strong>質量数</strong> (mass number) は 1 つの同位体についての数で、整数です（35）。<strong>相対原子質量</strong> (relative atomic mass) は、同位体の混合物としての元素についての数で、ふつうは整数になりません（35.45）。どちらも単位はありません。単位 <span class=\"unit\">g mol-1</span> がつくモル質量 (molar mass) は、Structure 1.4 で学びます。",
 
     // Relative atomic mass from isotope data > data-title attribute
-    "Relative atomic mass: quick check": "",
+    "Relative atomic mass: quick check": "相対原子質量：確認クイズ",
 
     // Mass spectra > Additional HL > data-toc attribute
     // Mass spectra > Additional HL > h2
-    "Mass spectra": "",
+    "Mass spectra": "質量スペクトル",
 
     // Mass spectra > Additional HL > p
-    "Where do isotope abundances come from? Imagine tipping a bag of mixed coins into a sorting machine. It sorts the coins by mass and counts how many there are of each kind. A mass spectrometer does the same job for atoms.": "",
+    "Where do isotope abundances come from? Imagine tipping a bag of mixed coins into a sorting machine. It sorts the coins by mass and counts how many there are of each kind. A mass spectrometer does the same job for atoms.": "同位体の存在比は、どうやって調べるのでしょうか。いろいろな硬貨が混ざった袋を、仕分け機に入れるところを想像してください。仕分け機は硬貨を質量で分け、種類ごとに枚数を数えます。質量分析計 (mass spectrometer) は、同じことを原子に対して行います。",
 
     // Mass spectra > Additional HL > p
-    "The result is a <dfn data-def=\"A chart of relative abundance against m/z for the ions detected from a sample.\">mass spectrum</dfn>: a bar chart with one peak for each isotope.": "",
+    "The result is a <dfn data-def=\"A chart of relative abundance against m/z for the ions detected from a sample.\">mass spectrum</dfn>: a bar chart with one peak for each isotope.": "その結果が<dfn data-def=\"試料から検出されたイオンについて、相対存在量を m/z に対して示したグラフ。\">質量スペクトル <span class=\"en-term\">(mass spectrum)</span></dfn>です。同位体 1 つにつきピークが 1 本ある棒グラフです。",
 
     // Mass spectra > Additional HL > data-def attribute
-    "A chart of relative abundance against m/z for the ions detected from a sample.": "",
+    "A chart of relative abundance against m/z for the ions detected from a sample.": "試料から検出されたイオンについて、相対存在量を m/z に対して示したグラフ。",
 
     // Mass spectra > Additional HL > li
-    "The <strong>horizontal axis</strong> is <i>m/z</i>, the mass-to-charge ratio of the ion detected. For an ion with a 1+ charge, <i>m/z</i> is equal to the mass of the isotope. So the position of a peak tells you <em>which</em> isotope it is.": "",
+    "The <strong>horizontal axis</strong> is <i>m/z</i>, the mass-to-charge ratio of the ion detected. For an ion with a 1+ charge, <i>m/z</i> is equal to the mass of the isotope. So the position of a peak tells you <em>which</em> isotope it is.": "<strong>横軸</strong>は <i>m/z</i> で、検出されたイオンの質量電荷比 (mass-to-charge ratio) です。電荷が 1+ のイオンでは、<i>m/z</i> は同位体の質量と等しくなります。つまり、ピークの位置から<em>どの</em>同位体かがわかります。",
 
     // Mass spectra > Additional HL > li
-    "The <strong>vertical axis</strong> is relative abundance. The height of a peak tells you <em>how much</em> of that isotope is present.": "",
+    "The <strong>vertical axis</strong> is relative abundance. The height of a peak tells you <em>how much</em> of that isotope is present.": "<strong>縦軸</strong>は相対存在量 (relative abundance) です。ピークの高さから、その同位体が<em>どれだけ</em>あるかがわかります。",
 
     // Mass spectra > key idea > Additional HL > p
-    "For the atoms of an element: number of peaks = number of isotopes. Position of a peak = mass of that isotope. Height of a peak = its relative abundance.": "",
+    "For the atoms of an element: number of peaks = number of isotopes. Position of a peak = mass of that isotope. Height of a peak = its relative abundance.": "ある元素の原子について：ピークの数 = 同位体の数。ピークの位置 = その同位体の質量。ピークの高さ = その同位体の相対存在量。",
 
     // Mass spectra > not needed for IB > Additional HL > p
-    "How a mass spectrometer works will not be assessed. You do not need the stages inside the machine (how the sample is ionized, accelerated, deflected or detected). You only need to read the spectrum.": "",
+    "How a mass spectrometer works will not be assessed. You do not need the stages inside the machine (how the sample is ionized, accelerated, deflected or detected). You only need to read the spectrum.": "質量分析計のしくみは試験に出ません。装置の中の各段階（試料をどうイオン化し、加速し、曲げ、検出するか）を覚える必要はありません。スペクトルを読み取れれば十分です。",
 
     // Mass spectra > Additional HL > h3
-    "When the peak heights do not add up to 100": "",
+    "When the peak heights do not add up to 100": "ピークの高さの合計が 100 にならないとき",
 
     // Mass spectra > Additional HL > p
-    "Sometimes the vertical axis is a percentage. Then the heights add up to 100 and you use the method you already know.": "",
+    "Sometimes the vertical axis is a percentage. Then the heights add up to 100 and you use the method you already know.": "縦軸が百分率のこともあります。そのときは高さの合計が 100 になるので、すでに学んだ方法で計算できます。",
 
     // Mass spectra > Additional HL > p
-    "Often the tallest peak is set to 100 and the others are scaled against it. Then the heights do <em>not</em> add up to 100. The fix is small: divide by the total of the peak heights, not by 100.": "",
+    "Often the tallest peak is set to 100 and the others are scaled against it. Then the heights do <em>not</em> add up to 100. The fix is small: divide by the total of the peak heights, not by 100.": "いちばん高いピークを 100 として、ほかのピークをそれに合わせて表すこともよくあります。このとき、高さの合計は 100 に<em>なりません</em>。直すところは少しだけです。100 ではなく、ピークの高さの合計で割ります。",
 
     // Mass spectra > equation > Additional HL > maths line
-    "<i>A</i><sub>r</sub> = <span class=\"frac\"><span>sum of (<i>m/z</i> × peak height)</span><span>sum of peak heights</span></span>": "",
+    "<i>A</i><sub>r</sub> = <span class=\"frac\"><span>sum of (<i>m/z</i> × peak height)</span><span>sum of peak heights</span></span>": "<i>A</i><sub>r</sub> = <span class=\"frac\"><span>(<i>m/z</i> × ピークの高さ) の合計</span><span>ピークの高さの合計</span></span>",
 
     // Mass spectra > equation > Additional HL > dd
-    "position of each peak on the horizontal axis (no units)": "",
+    "position of each peak on the horizontal axis (no units)": "横軸でのそれぞれのピークの位置（単位なし）",
 
     // Mass spectra > equation > Additional HL > dt
-    "peak height": "",
+    "peak height": "ピークの高さ",
 
     // Mass spectra > equation > Additional HL > dd
-    "relative abundance read from the vertical axis (no units, or %)": "",
+    "relative abundance read from the vertical axis (no units, or %)": "縦軸から読み取った相対存在量（単位なし、または %）",
 
     // Mass spectra > Additional HL > li
-    "List each peak: its <i>m/z</i> and its height. Read heights as carefully as the scale allows.": "",
+    "List each peak: its <i>m/z</i> and its height. Read heights as carefully as the scale allows.": "それぞれのピークの <i>m/z</i> と高さを書き出します。高さは、目盛りで読める範囲でできるだけ正確に読みます。",
 
     // Mass spectra > Additional HL > li
-    "Add up the heights. If the total is 100, they are percentages.": "",
+    "Add up the heights. If the total is 100, they are percentages.": "高さを合計します。合計が 100 なら、高さは百分率です。",
 
     // Mass spectra > Additional HL > li
-    "Multiply each <i>m/z</i> by its height, and add the results.": "",
+    "Multiply each <i>m/z</i> by its height, and add the results.": "それぞれの <i>m/z</i> に高さをかけ、その結果を足します。",
 
     // Mass spectra > Additional HL > li
-    "Divide by the total of the heights.": "",
+    "Divide by the total of the heights.": "高さの合計で割ります。",
 
     // Mass spectra > Additional HL > li
-    "Round at the end. Check that the answer is between the lightest and heaviest isotope, nearest the tallest peak.": "",
+    "Round at the end. Check that the answer is between the lightest and heaviest isotope, nearest the tallest peak.": "最後に四捨五入します。答えが、いちばん軽い同位体といちばん重い同位体の間にあり、いちばん高いピークに近いことを確かめます。",
 
     // Mass spectra > widget > Additional HL > data-title attribute
-    "Mass spectrum reader": "",
+    "Mass spectrum reader": "質量スペクトルを読もう",
 
     // Mass spectra > widget > Additional HL > figcaption
-    "Choose a sample, read the peaks, calculate the relative atomic mass and check it. Switch the peak heights to “tallest peak = 100” to practise dividing by the total. Then try a mystery element: use your answer and the periodic table to identify it. The spectra are drawn to scale from typical natural abundances, for ions with a 1+ charge.": "",
+    "Choose a sample, read the peaks, calculate the relative atomic mass and check it. Switch the peak heights to “tallest peak = 100” to practise dividing by the total. Then try a mystery element: use your answer and the periodic table to identify it. The spectra are drawn to scale from typical natural abundances, for ions with a 1+ charge.": "試料を選び、ピークを読み取り、相対原子質量を計算して、答えを確かめましょう。ピークの高さを「いちばん高いピーク = 100」に切り替えると、合計で割る練習ができます。そのあと、なぞの元素に挑戦しましょう。自分の答えと周期表を使って、元素を特定します。スペクトルは、電荷 1+ のイオンについて、代表的な天然の存在比から正しい縮尺で描いてあります。",
 
     // Mass spectra > worked example > Additional HL > h3
-    "Relative atomic mass from a mass spectrum": "",
+    "Relative atomic mass from a mass spectrum": "質量スペクトルから相対原子質量を求める",
 
     // Mass spectra > worked example > Additional HL > p
-    "The mass spectrum of a sample of magnesium has three peaks. Calculate the relative atomic mass of magnesium in this sample, to two decimal places.": "",
+    "The mass spectrum of a sample of magnesium has three peaks. Calculate the relative atomic mass of magnesium in this sample, to two decimal places.": "あるマグネシウムの試料の質量スペクトルには、ピークが 3 本あります。この試料のマグネシウムの相対原子質量を、小数第 2 位まで計算しなさい。",
 
     // Mass spectra > worked example > table > Additional HL > caption
-    "Peaks read from the spectrum": "",
+    "Peaks read from the spectrum": "スペクトルから読み取ったピーク",
 
     // Mass spectra > worked example > table > Additional HL > th
-    "Relative abundance (peak height)": "",
+    "Relative abundance (peak height)": "相対存在量（ピークの高さ）",
 
     // Mass spectra > worked example > Additional HL > data-title attribute
-    "Say what the peaks are": "",
+    "Say what the peaks are": "ピークが何を表すかを言う",
 
     // Mass spectra > worked example > Additional HL > p
-    "Three peaks means three isotopes. Their masses are the <i>m/z</i> values: 24, 25 and 26.": "",
+    "Three peaks means three isotopes. Their masses are the <i>m/z</i> values: 24, 25 and 26.": "ピークが 3 本あるので、同位体は 3 つです。その質量は <i>m/z</i> の値、つまり 24、25、26 です。",
 
     // Mass spectra > worked example > Additional HL > maths line
-    "isotopes: <sup>24</sup>Mg, <sup>25</sup>Mg, <sup>26</sup>Mg": "",
+    "isotopes: <sup>24</sup>Mg, <sup>25</sup>Mg, <sup>26</sup>Mg": "同位体：<sup>24</sup>Mg、<sup>25</sup>Mg、<sup>26</sup>Mg",
 
     // Mass spectra > worked example > Additional HL > data-title attribute
-    "Add up the peak heights": "",
+    "Add up the peak heights": "ピークの高さを合計する",
 
     // Mass spectra > worked example > Additional HL > p
-    "The total is not 100, so these are not percentages. You will divide by this total.": "",
+    "The total is not 100, so these are not percentages. You will divide by this total.": "合計が 100 ではないので、これらは百分率ではありません。この合計で割ることになります。",
 
     // Mass spectra > worked example > Additional HL > data-title attribute
-    "Multiply each m/z by its height": "",
+    "Multiply each m/z by its height": "それぞれの m/z に高さをかける",
 
     // Mass spectra > worked example > Additional HL > p
-    "This is the same weighting step as before.": "",
+    "This is the same weighting step as before.": "前と同じ、重みをつける計算です。",
 
     // Mass spectra > worked example > Additional HL > data-title attribute
-    "Add, then divide by the total height": "",
+    "Add, then divide by the total height": "足してから高さの合計で割る",
 
     // Mass spectra > worked example > Additional HL > p
-    "Dividing by 126.6 gives the average for one atom. Dividing by 100 here would give 30.79, which is heavier than every isotope, so it cannot be right.": "",
+    "Dividing by 126.6 gives the average for one atom. Dividing by 100 here would give 30.79, which is heavier than every isotope, so it cannot be right.": "126.6 で割ると、原子 1 個あたりの平均になります。ここで 100 で割ると 30.79 になります。これはどの同位体よりも重いので、正しいはずがありません。",
 
     // Mass spectra > worked example > Additional HL > p
-    "The answer is between 24 and 26 and close to 24, where the tallest peak is.": "",
+    "The answer is between 24 and 26 and close to 24, where the tallest peak is.": "答えは 24 と 26 の間にあり、いちばん高いピークがある 24 に近くなっています。",
 
     // Mass spectra > worked example > Additional HL > maths line
-    "<i>A</i><sub>r</sub> = <b>24.32</b> (2 d.p., no units)": "",
+    "<i>A</i><sub>r</sub> = <b>24.32</b> (2 d.p., no units)": "<i>A</i><sub>r</sub> = <b>24.32</b>（小数第 2 位まで、単位なし）",
 
     // Mass spectra > try it > Additional HL > p
-    "The mass spectrum of a sample of gallium has two peaks: <i>m/z</i> 69 with a relative abundance of 100.0, and <i>m/z</i> 71 with a relative abundance of 66.4. Calculate the relative atomic mass of gallium in this sample, to two decimal places.": "",
+    "The mass spectrum of a sample of gallium has two peaks: <i>m/z</i> 69 with a relative abundance of 100.0, and <i>m/z</i> 71 with a relative abundance of 66.4. Calculate the relative atomic mass of gallium in this sample, to two decimal places.": "あるガリウムの試料の質量スペクトルには、ピークが 2 本あります。<i>m/z</i> 69 の相対存在量は 100.0、<i>m/z</i> 71 の相対存在量は 66.4 です。この試料のガリウムの相対原子質量を、小数第 2 位まで計算しなさい。",
 
     // Mass spectra > try it > Additional HL > li
-    "Do the heights add up to 100? If not, what must you divide by?": "",
+    "Do the heights add up to 100? If not, what must you divide by?": "高さの合計は 100 になりますか。ならないなら、何で割ればよいでしょうか。",
 
     // Mass spectra > try it > Additional HL > maths line
-    "total height = 100.0 + 66.4 = 166.4": "",
+    "total height = 100.0 + 66.4 = 166.4": "高さの合計 = 100.0 + 66.4 = 166.4",
 
     // Mass spectra > try it > Additional HL > p
-    "To two decimal places: <strong>69.80</strong>. (The data booklet gives 69.72. Your calculated value is the one to write.)": "",
+    "To two decimal places: <strong>69.80</strong>. (The data booklet gives 69.72. Your calculated value is the one to write.)": "小数第 2 位まで求めると <strong>69.80</strong> です。（データブックレットの値は 69.72 です。答えに書くのは、自分で計算した値です。）",
 
     // Mass spectra > exam tip (shown in English + translation) > Additional HL > p
-    "The particles detected in a mass spectrometer are positive ions. If you are asked which species causes a peak, include the charge: <sup>35</sup>Cl<sup>+</sup>, not <sup>35</sup>Cl. Without the + the mark is not given.": "",
+    "The particles detected in a mass spectrometer are positive ions. If you are asked which species causes a peak, include the charge: <sup>35</sup>Cl<sup>+</sup>, not <sup>35</sup>Cl. Without the + the mark is not given.": "質量分析計で検出される粒子は、陽イオンです。ピークの原因になっている粒子を問われたら、電荷もつけて書きます。<sup>35</sup>Cl ではなく <sup>35</sup>Cl<sup>+</sup> です。+ がないと点がもらえません。",
 
     // Mass spectra > Additional HL > h3
-    "Elements that exist as molecules": "",
+    "Elements that exist as molecules": "分子として存在する元素",
 
     // Mass spectra > Additional HL > p
-    "Chlorine gas is made of <span class=\"chem\">Cl2</span> molecules. Each molecule contains two atoms, and each atom can be either isotope. So the spectrum of the <span class=\"chem\">Cl2+</span> ions has three peaks, not two.": "",
+    "Chlorine gas is made of <span class=\"chem\">Cl2</span> molecules. Each molecule contains two atoms, and each atom can be either isotope. So the spectrum of the <span class=\"chem\">Cl2+</span> ions has three peaks, not two.": "塩素の気体は <span class=\"chem\">Cl2</span> 分子でできています。分子 1 個には原子が 2 個あり、それぞれの原子はどちらの同位体でもかまいません。そのため、<span class=\"chem\">Cl2+</span> イオンのスペクトルのピークは、2 本ではなく 3 本になります。",
 
     // Mass spectra > table > Additional HL > caption
-    "Peaks for <span class=\"chem\">Cl2+</span>, where <sup>35</sup>Cl : <sup>37</sup>Cl is about 3 : 1": "",
+    "Peaks for <span class=\"chem\">Cl2+</span>, where <sup>35</sup>Cl : <sup>37</sup>Cl is about 3 : 1": "<span class=\"chem\">Cl2+</span> のピーク（<sup>35</sup>Cl : <sup>37</sup>Cl が約 3 : 1 のとき）",
 
     // Mass spectra > table > Additional HL > th
-    "Atoms in the molecule": "",
+    "Atoms in the molecule": "分子中の原子",
 
     // Mass spectra > table > Additional HL > th
-    "Chance": "",
+    "Chance": "確率",
 
     // Mass spectra > table > Additional HL > th
-    "Relative height": "",
+    "Relative height": "高さの比",
 
     // Mass spectra > table > Additional HL > td
-    "<sup>35</sup>Cl and <sup>35</sup>Cl": "",
+    "<sup>35</sup>Cl and <sup>35</sup>Cl": "<sup>35</sup>Cl と <sup>35</sup>Cl",
 
     // Mass spectra > table > Additional HL > td
-    "<sup>35</sup>Cl and <sup>37</sup>Cl (two ways round)": "",
+    "<sup>35</sup>Cl and <sup>37</sup>Cl (two ways round)": "<sup>35</sup>Cl と <sup>37</sup>Cl（組み合わせ方が 2 通り）",
 
     // Mass spectra > table > Additional HL > td
-    "<sup>37</sup>Cl and <sup>37</sup>Cl": "",
+    "<sup>37</sup>Cl and <sup>37</sup>Cl": "<sup>37</sup>Cl と <sup>37</sup>Cl",
 
     // Mass spectra > Additional HL > p
-    "The middle peak has a factor of 2 because the mixed molecule can form in two ways: <sup>35</sup>Cl–<sup>37</sup>Cl or <sup>37</sup>Cl–<sup>35</sup>Cl. It is like tossing two coins: one head and one tail is twice as likely as two heads.": "",
+    "The middle peak has a factor of 2 because the mixed molecule can form in two ways: <sup>35</sup>Cl–<sup>37</sup>Cl or <sup>37</sup>Cl–<sup>35</sup>Cl. It is like tossing two coins: one head and one tail is twice as likely as two heads.": "真ん中のピークに 2 がかかるのは、同位体が混ざった分子のでき方が <sup>35</sup>Cl–<sup>37</sup>Cl と <sup>37</sup>Cl–<sup>35</sup>Cl の 2 通りあるからです。硬貨を 2 枚投げるのと似ています。表と裏が 1 枚ずつ出る確率は、2 枚とも表が出る確率の 2 倍です。",
 
     // Mass spectra > Additional HL > p
-    "Bromine has two isotopes, <sup>79</sup>Br and <sup>81</sup>Br, in almost equal amounts. The same reasoning gives peaks for <span class=\"chem\">Br2+</span> at <i>m/z</i> 158, 160 and 162 with heights in the ratio 1 : 2 : 1.": "",
+    "Bromine has two isotopes, <sup>79</sup>Br and <sup>81</sup>Br, in almost equal amounts. The same reasoning gives peaks for <span class=\"chem\">Br2+</span> at <i>m/z</i> 158, 160 and 162 with heights in the ratio 1 : 2 : 1.": "臭素には <sup>79</sup>Br と <sup>81</sup>Br の 2 つの同位体が、ほぼ同じ量ずつあります。同じように考えると、<span class=\"chem\">Br2+</span> のピークは <i>m/z</i> 158、160、162 に現れ、高さの比は 1 : 2 : 1 になります。",
 
     // Mass spectra > Additional HL > p
-    "Some molecules break into single atoms inside the instrument. So the full spectrum of chlorine also has two peaks from <sup>35</sup>Cl<sup>+</sup> and <sup>37</sup>Cl<sup>+</sup> ions, at <i>m/z</i> 35 and 37, with heights in the ratio 3 : 1. The full spectrum of bromine also has peaks at <i>m/z</i> 79 and 81, with almost equal heights.": "",
+    "Some molecules break into single atoms inside the instrument. So the full spectrum of chlorine also has two peaks from <sup>35</sup>Cl<sup>+</sup> and <sup>37</sup>Cl<sup>+</sup> ions, at <i>m/z</i> 35 and 37, with heights in the ratio 3 : 1. The full spectrum of bromine also has peaks at <i>m/z</i> 79 and 81, with almost equal heights.": "装置の中で、一部の分子はばらばらの原子に分かれます。そのため、塩素のスペクトル全体には、<sup>35</sup>Cl<sup>+</sup> イオンと <sup>37</sup>Cl<sup>+</sup> イオンによる 2 本のピークもあります。位置は <i>m/z</i> 35 と 37 で、高さの比は 3 : 1 です。臭素のスペクトル全体にも、<i>m/z</i> 79 と 81 に、ほぼ同じ高さのピークがあります。",
 
     // Mass spectra > not needed for IB > Additional HL > data-title attribute
-    "Comes later in Structure 3.2": "",
+    "Comes later in Structure 3.2": "Structure 3.2 で学ぶ内容",
 
     // Mass spectra > not needed for IB > Additional HL > p
-    "When a compound goes through a mass spectrometer its molecules break into pieces, giving a fragmentation pattern. Using that pattern to work out the structure of a compound is taught in Structure 3.2, not here.": "",
+    "When a compound goes through a mass spectrometer its molecules break into pieces, giving a fragmentation pattern. Using that pattern to work out the structure of a compound is taught in Structure 3.2, not here.": "化合物を質量分析計にかけると、分子がいくつかの断片に分かれ、フラグメンテーションパターン (fragmentation pattern) ができます。このパターンから化合物の構造を調べる方法は、ここではなく Structure 3.2 で学びます。",
 
     // Mass spectra > Additional HL > data-title attribute
-    "Mass spectra: quick check": "",
+    "Mass spectra: quick check": "質量スペクトル：確認クイズ",
 
     // Linking it up > h2
-    "Linking it up": "",
+    "Linking it up": "つなげて考える",
 
     // Linking it up > p
-    "The IB guide asks these linking questions. Short answers are enough at this stage.": "",
+    "The IB guide asks these linking questions. Short answers are enough at this stage.": "IB の『指導の手引き』には、次のような「つながりの問い」(Linking question) があります。今の段階では、短い答えで十分です。",
 
     // Linking it up > h3
-    "What determines the different chemical properties of atoms?": "",
+    "What determines the different chemical properties of atoms?": "原子の化学的性質の違いは、何で決まりますか。",
 
     // Linking it up > p
-    "The electrons. Chemical reactions involve electrons being lost, gained or shared, so the number of electrons and how they are arranged decide how an atom behaves. The nucleus matters because its number of protons fixes the number of electrons in the neutral atom. Neutrons make almost no difference, which is why isotopes react in the same way. Structure 1.3 is about how the electrons are arranged.": "",
+    "The electrons. Chemical reactions involve electrons being lost, gained or shared, so the number of electrons and how they are arranged decide how an atom behaves. The nucleus matters because its number of protons fixes the number of electrons in the neutral atom. Neutrons make almost no difference, which is why isotopes react in the same way. Structure 1.3 is about how the electrons are arranged.": "電子です。化学反応では電子を失ったり、受け取ったり、共有したりします。そのため、電子の数と配置で原子のふるまいが決まります。原子核が大切なのは、陽子の数が中性の原子の電子の数を決めるからです。中性子はほとんど影響しません。だから同位体は同じように反応します。電子の配置は Structure 1.3 で学びます。",
 
     // Linking it up > h3
-    "How does the atomic number relate to the position of an element in the periodic table?": "",
+    "How does the atomic number relate to the position of an element in the periodic table?": "原子番号は、周期表での元素の位置とどう関係していますか。",
 
     // Linking it up > p
-    "The elements are listed in order of increasing atomic number. Hydrogen, with <i>Z</i> = 1, is first, helium with <i>Z</i> = 2 is second, and so on. Position is set by the number of protons, not by mass. You will use this in Structure 3.1.": "",
+    "The elements are listed in order of increasing atomic number. Hydrogen, with <i>Z</i> = 1, is first, helium with <i>Z</i> = 2 is second, and so on. Position is set by the number of protons, not by mass. You will use this in Structure 3.1.": "元素は原子番号の小さい順に並んでいます。<i>Z</i> = 1 の水素が 1 番目、<i>Z</i> = 2 のヘリウムが 2 番目、というように続きます。位置を決めるのは質量ではなく、陽子の数です。これは Structure 3.1 で使います。",
 
     // Linking it up > h3
-    "How can isotope tracers provide evidence for a reaction mechanism?": "",
+    "How can isotope tracers provide evidence for a reaction mechanism?": "同位体トレーサーは、反応機構の証拠をどのように与えますか。",
 
     // Linking it up > p
-    "Isotopes of an element react in the same way but have different masses. If one reactant is made with an unusual isotope, such as oxygen-18 in place of oxygen-16, that atom is “labelled”. Finding which product contains the heavier atom shows where that atom went during the reaction, which is evidence for which bonds break and form. Mechanisms themselves come later, in Reactivity 3.4.": "",
+    "Isotopes of an element react in the same way but have different masses. If one reactant is made with an unusual isotope, such as oxygen-18 in place of oxygen-16, that atom is “labelled”. Finding which product contains the heavier atom shows where that atom went during the reaction, which is evidence for which bonds break and form. Mechanisms themselves come later, in Reactivity 3.4.": "同じ元素の同位体は、同じように反応しますが、質量が違います。反応物の 1 つを、酸素 16 の代わりに酸素 18 のような珍しい同位体で作ると、その原子に「目印」がつきます。重いほうの原子がどの生成物に入っているかを調べれば、その原子が反応の間にどこへ行ったかがわかります。これは、どの結合が切れてどの結合ができるかを示す証拠になります。反応機構そのものは、あとで Reactivity 3.4 で学びます。",
 
     // Linking it up > Additional HL > h3
-    "How does the fragmentation pattern of a compound help to determine its structure?": "",
+    "How does the fragmentation pattern of a compound help to determine its structure?": "化合物のフラグメンテーションパターンは、構造を決めるのにどう役立ちますか。",
 
     // Linking it up > Additional HL > p
-    "This belongs to Structure 3.2. For now, the link is that the same instrument that separates the isotopes of an element can also separate the pieces of a broken molecule by mass.": "",
+    "This belongs to Structure 3.2. For now, the link is that the same instrument that separates the isotopes of an element can also separate the pieces of a broken molecule by mass.": "これは Structure 3.2 の内容です。今のところは、元素の同位体を分けるのと同じ装置で、こわれた分子の断片も質量で分けられる、というつながりを知っておけば十分です。",
 
     // Exam-style practice > data-toc attribute
     // Exam-style practice > h2
-    "Exam-style practice": "",
+    "Exam-style practice": "試験形式の練習",
 
     // Exam-style practice > p
-    "Three sets, from first steps to stretch. Questions you have not yet answered correctly come up first, so each set changes when you come back to it. Have a calculator and the data booklet beside you.": "",
+    "Three sets, from first steps to stretch. Questions you have not yet answered correctly come up first, so each set changes when you come back to it. Have a calculator and the data booklet beside you.": "最初の一歩から発展問題まで、3 つのセットがあります。まだ正解していない問題が先に出るので、戻ってくるたびにセットの中身が変わります。電卓とデータブックレットを手元に用意しましょう。",
 
     // Exam-style practice > h3
-    "Foundation: one idea at a time": "",
+    "Foundation: one idea at a time": "基礎：1 問に 1 つの考え方",
 
     // Exam-style practice > data-title attribute
-    "1.2 foundation": "",
+    "1.2 foundation": "1.2 基礎",
 
     // Exam-style practice > h3
-    "Exam standard": "",
+    "Exam standard": "試験レベル",
 
     // Exam-style practice > data-title attribute
-    "1.2 exam standard": "",
+    "1.2 exam standard": "1.2 試験レベル",
 
     // Exam-style practice > h3
     // widget string (assets/js/widgets-s1-2.js)
-    "Challenge": "",
+    "Challenge": "チャレンジ",
 
     // Exam-style practice > data-title attribute
-    "1.2 challenge": "",
+    "1.2 challenge": "1.2 チャレンジ",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Boron": "",
+    "Boron": "ホウ素",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Magnesium": "",
+    "Magnesium": "マグネシウム",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Chlorine": "",
+    "Chlorine": "塩素",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Copper": "",
+    "Copper": "銅",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Lithium": "",
+    "Lithium": "リチウム",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Neon": "",
+    "Neon": "ネオン",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Silicon": "",
+    "Silicon": "ケイ素",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Gallium": "",
+    "Gallium": "ガリウム",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Bromine": "",
+    "Bromine": "臭素",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Remove one proton": "",
+    "Remove one proton": "陽子を 1 個減らす",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Add one proton": "",
+    "Add one proton": "陽子を 1 個増やす",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Remove one neutron": "",
+    "Remove one neutron": "中性子を 1 個減らす",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Add one neutron": "",
+    "Add one neutron": "中性子を 1 個増やす",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Electrons": "",
+    "Electrons": "電子",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Remove one electron": "",
+    "Remove one electron": "電子を 1 個減らす",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Add one electron": "",
+    "Add one electron": "電子を 1 個増やす",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Challenge me": "",
+    "Challenge me": "問題に挑戦",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Check my atom": "",
+    "Check my atom": "答えを確認",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Back to free build": "",
+    "Back to free build": "自由に作るモードに戻る",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Schematic atom: a nucleus of protons and neutrons with the electrons shown as dots in the space around it": "",
+    "Schematic atom: a nucleus of protons and neutrons with the electrons shown as dots in the space around it": "原子の模式図：陽子と中性子からなる原子核と、そのまわりの空間に点で表した電子",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Nuclear symbol": "",
+    "Nuclear symbol": "原子の記号",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Element": "",
+    "Element": "元素",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Mass number A": "",
+    "Mass number A": "質量数 A",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Charge": "",
+    "Charge": "電荷",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "This is": "",
+    "This is": "これは",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "New challenge": "",
+    "New challenge": "次の問題",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Build {symbol}": "",
+    "Build {symbol}": "{symbol} を作りましょう",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Set the protons, neutrons and electrons, then press Check my atom.": "",
+    "Set the protons, neutrons and electrons, then press Check my atom.": "陽子・中性子・電子の数を合わせてから、「答えを確認」を押してください。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Protons: the atomic number <i>Z</i> (bottom number) is the number of protons.": "",
+    "Protons: the atomic number <i>Z</i> (bottom number) is the number of protons.": "陽子：原子番号 <i>Z</i>（下の数）が陽子の数です。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Neutrons: the mass number <i>A</i> (top number) counts protons and neutrons together, so neutrons = <i>A</i> − <i>Z</i>.": "",
+    "Neutrons: the mass number <i>A</i> (top number) counts protons and neutrons together, so neutrons = <i>A</i> − <i>Z</i>.": "中性子：質量数 <i>A</i>（上の数）は陽子と中性子を合わせた数なので、中性子の数 = <i>A</i> − <i>Z</i> です。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Electrons: there is no charge on the symbol, so electrons = protons.": "",
+    "Electrons: there is no charge on the symbol, so electrons = protons.": "電子：記号に電荷が書かれていないので、電子の数 = 陽子の数です。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Electrons: a positive charge means electrons have been lost. Electrons = <i>Z</i> − charge.": "",
+    "Electrons: a positive charge means electrons have been lost. Electrons = <i>Z</i> − charge.": "電子：正の電荷は、電子を失ったという意味です。電子の数 = <i>Z</i> − 電荷。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Electrons: a negative charge means electrons have been gained. Electrons = <i>Z</i> + size of the charge.": "",
+    "Electrons: a negative charge means electrons have been gained. Electrons = <i>Z</i> + size of the charge.": "電子：負の電荷は、電子を受け取ったという意味です。電子の数 = <i>Z</i> + 電荷の大きさ。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Correct": "",
+    "Correct": "正解",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "{p} protons, {n} neutrons and {e} electrons.": "",
+    "{p} protons, {n} neutrons and {e} electrons.": "陽子 {p} 個、中性子 {n} 個、電子 {e} 個です。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Not yet": "",
+    "Not yet": "まだ正解ではありません",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "a neutral atom (protons = electrons)": "",
+    "a neutral atom (protons = electrons)": "中性の原子（陽子の数 = 電子の数）",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "a cation: positive ion, 1 fewer electron than protons": "",
+    "a cation: positive ion, 1 fewer electron than protons": "陽イオン：正のイオン。電子が陽子より 1 個少ない",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "a cation: positive ion, {n} fewer electrons than protons": "",
+    "a cation: positive ion, {n} fewer electrons than protons": "陽イオン：正のイオン。電子が陽子より {n} 個少ない",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "an anion: negative ion, 1 more electron than protons": "",
+    "an anion: negative ion, 1 more electron than protons": "陰イオン：負のイオン。電子が陽子より 1 個多い",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "an anion: negative ion, {n} more electrons than protons": "",
+    "an anion: negative ion, {n} more electrons than protons": "陰イオン：負のイオン。電子が陽子より {n} 個多い",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "not to scale": "",
+    "not to scale": "縮尺は正確ではありません",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Zoom": "",
+    "Zoom": "ズーム",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Width of this view": "",
+    "Width of this view": "この画面の幅",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Nucleus on your screen": "",
+    "Nucleus on your screen": "画面上の原子核",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Picture it": "",
+    "Picture it": "たとえると",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Zoom in (power of ten)": "",
+    "Zoom in (power of ten)": "拡大（10 の何乗倍）",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Whole atom": "",
+    "Whole atom": "原子全体",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Zoom to the nucleus": "",
+    "Zoom to the nucleus": "原子核まで拡大",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "An atom drawn to scale with its nucleus at the centre. At low zoom the nucleus is far too small to see.": "",
+    "An atom drawn to scale with its nucleus at the centre. At low zoom the nucleus is far too small to see.": "中心に原子核がある原子を、正しい縮尺で描いた図。倍率が低いと、原子核は小さすぎて見えません。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "nucleus": "",
+    "nucleus": "原子核",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "nucleus is here, too small to draw": "",
+    "nucleus is here, too small to draw": "原子核はここ（小さすぎて描けない）",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "electrons are somewhere in this region": "",
+    "electrons are somewhere in this region": "電子はこの領域のどこかにある",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "all of this view is inside the atom": "",
+    "all of this view is inside the atom": "この画面は全部、原子の内側",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "{n} px wide": "",
+    "{n} px wide": "幅 {n} px",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "{n} px (cannot be drawn)": "",
+    "{n} px (cannot be drawn)": "{n} px（描けない）",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "If this atom were 1 km across, its nucleus would be about 1 cm across: a marble in the middle of a town.": "",
+    "If this atom were 1 km across, its nucleus would be about 1 cm across: a marble in the middle of a town.": "この原子の直径が 1 km だとすると、原子核の直径は約 1 cm です。町の真ん中にビー玉が 1 個あるようなものです。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Keep going. You need to zoom in about 100 000 times before the nucleus fills the view.": "",
+    "Keep going. You need to zoom in about 100 000 times before the nucleus fills the view.": "もっと拡大しましょう。原子核が画面いっぱいになるには、約 100 000 倍に拡大する必要があります。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "The nucleus fills the view. The edge of the atom is now far off your screen, and almost all of the mass of the atom is in this dot.": "",
+    "The nucleus fills the view. The edge of the atom is now far off your screen, and almost all of the mass of the atom is in this dot.": "原子核が画面いっぱいになりました。原子の端は、もう画面のはるか外です。原子の質量のほとんどが、この点の中にあります。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Relative atomic mass from your mixture": "",
+    "Relative atomic mass from your mixture": "この混合物の相対原子質量",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Data booklet": "",
+    "Data booklet": "データブックレット",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Compare": "",
+    "Compare": "比べると",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Mass used for each isotope": "",
+    "Mass used for each isotope": "同位体の質量に使う値",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Relative isotopic mass (2 d.p.)": "",
+    "Relative isotopic mass (2 d.p.)": "同位体の相対質量（小数第 2 位まで）",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Mass number only": "",
+    "Mass number only": "質量数のみ",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Abundance of isotope 1": "",
+    "Abundance of isotope 1": "同位体 1 の存在比",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Abundance of isotope 2": "",
+    "Abundance of isotope 2": "同位体 2 の存在比",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Natural abundances": "",
+    "Natural abundances": "天然の存在比",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Balance diagram: a block for each isotope on a mass scale, with the weighted mean shown as the balance point": "",
+    "Balance diagram: a block for each isotope on a mass scale, with the weighted mean shown as the balance point": "つり合いの図：質量の目盛りの上に同位体ごとのブロックがあり、加重平均がつり合いの点として示されている",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Abundance of {isotope}": "",
+    "Abundance of {isotope}": "{isotope} の存在比",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Abundance of {isotope} in %, exact value": "",
+    "Abundance of {isotope} in %, exact value": "{isotope} の存在比（%）、正確な値",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "balance point = {Ar}": "",
+    "balance point = {Ar}": "つり合いの点 = {Ar}",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Working, line by line": "",
+    "Working, line by line": "途中の計算（1 行ずつ）",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "(2 d.p., no units)": "",
+    "(2 d.p., no units)": "（小数第 2 位まで、単位なし）",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Check: the abundances add up to {total}%. {isotope} is whatever is left: {rest}%.": "",
+    "Check: the abundances add up to {total}%. {isotope} is whatever is left: {rest}%.": "確認：存在比の合計は {total}% です。{isotope} は残りの {rest}% になります。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "This is not the natural mixture, so the answer is not the data booklet value. A different mixture of isotopes gives a different relative atomic mass.": "",
+    "This is not the natural mixture, so the answer is not the data booklet value. A different mixture of isotopes gives a different relative atomic mass.": "これは天然の混合物ではないので、答えはデータブックレットの値と違います。同位体の混ざり方が変われば、相対原子質量も変わります。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Natural mixture, using mass numbers as the masses. Here the answer is the same as the data booklet value.": "",
+    "Natural mixture, using mass numbers as the masses. Here the answer is the same as the data booklet value.": "天然の混合物を、質量数を質量として計算しました。この場合、答えはデータブックレットの値と同じです。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Natural mixture, using mass numbers as the masses. The answer is close to, but not the same as, the data booklet value, because the real mass of an isotope is not exactly a whole number.": "",
+    "Natural mixture, using mass numbers as the masses. The answer is close to, but not the same as, the data booklet value, because the real mass of an isotope is not exactly a whole number.": "天然の混合物を、質量数を質量として計算しました。答えはデータブックレットの値に近いですが、同じではありません。同位体の実際の質量は、ちょうど整数ではないからです。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Natural mixture. Your weighted mean matches the data booklet value.": "",
+    "Natural mixture. Your weighted mean matches the data booklet value.": "天然の混合物です。加重平均がデータブックレットの値と一致しました。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Natural mixture. Your weighted mean matches the data booklet value to within 0.01 (the masses here are rounded to 2 d.p.).": "",
+    "Natural mixture. Your weighted mean matches the data booklet value to within 0.01 (the masses here are rounded to 2 d.p.).": "天然の混合物です。加重平均がデータブックレットの値と 0.01 以内で一致しました（ここでは質量を小数第 2 位に丸めています）。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Natural mixture. Close to the data booklet value.": "",
+    "Natural mixture. Close to the data booklet value.": "天然の混合物です。データブックレットの値に近い値です。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Sample": "",
+    "Sample": "試料",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Mystery element": "",
+    "Mystery element": "なぞの元素",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Peak heights show": "",
+    "Peak heights show": "ピークの高さの表し方",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Percentage abundance": "",
+    "Percentage abundance": "存在比（%）",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Relative abundance (tallest peak = 100)": "",
+    "Relative abundance (tallest peak = 100)": "相対存在量（いちばん高いピーク = 100）",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Your <i>A</i><sub>r</sub> (2 d.p.)": "",
+    "Your <i>A</i><sub>r</sub> (2 d.p.)": "あなたの <i>A</i><sub>r</sub>（小数第 2 位まで）",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Check element": "",
+    "Check element": "元素を確認",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Mystery element (symbol or name)": "",
+    "Mystery element (symbol or name)": "なぞの元素（元素記号または名前）",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Show peak heights": "",
+    "Show peak heights": "ピークの高さを表示",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Show the calculation": "",
+    "Show the calculation": "計算を表示",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "New mystery": "",
+    "New mystery": "次のなぞの元素",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Mass spectrum: bar chart of relative abundance against m/z": "",
+    "Mass spectrum: bar chart of relative abundance against m/z": "質量スペクトル：相対存在量を m/z に対して示した棒グラフ",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Peaks": "",
+    "Peaks": "ピーク",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "The calculation": "",
+    "The calculation": "計算",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "These heights are percentages, so they add up to 100.": "",
+    "These heights are percentages, so they add up to 100.": "これらの高さは百分率なので、合計は 100 になります。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "These heights do <strong>not</strong> add up to 100, so divide by their total, not by 100.": "",
+    "These heights do <strong>not</strong> add up to 100, so divide by their total, not by 100.": "これらの高さの合計は 100 に<strong>なりません</strong>。100 ではなく、高さの合計で割ります。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "total of peak heights = {sum}": "",
+    "total of peak heights = {sum}": "ピークの高さの合計 = {sum}",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Hide peak heights": "",
+    "Hide peak heights": "ピークの高さを隠す",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Hide the calculation": "",
+    "Hide the calculation": "計算を隠す",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "{n} peaks, at <i>m/z</i> {list}. Read each height from the chart, or press Show peak heights.": "",
+    "{n} peaks, at <i>m/z</i> {list}. Read each height from the chart, or press Show peak heights.": "ピークは {n} 本で、<i>m/z</i> {list} にあります。高さはグラフから読み取るか、「ピークの高さを表示」を押してください。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Enter a number": "",
+    "Enter a number": "数を入力してください",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Type your relative atomic mass, for example 24.32.": "",
+    "Type your relative atomic mass, for example 24.32.": "相対原子質量を入力してください。例：24.32",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "That is the data booklet value": "",
+    "That is the data booklet value": "それはデータブックレットの値です",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "The question is asking for the value <em>from this spectrum</em>. Here that is slightly different from {book}. In an exam the booklet value does not score when you are asked to calculate from the data.": "",
+    "The question is asking for the value <em>from this spectrum</em>. Here that is slightly different from {book}. In an exam the booklet value does not score when you are asked to calculate from the data.": "問われているのは<em>このスペクトルから求めた</em>値です。ここでは {book} と少し違います。試験でデータから計算するように言われたら、データブックレットの値を書いても点になりません。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "From this spectrum <i>A</i><sub>r</sub> = {Ar}. Now find the element whose relative atomic mass in the periodic table is closest to this, and enter it above.": "",
+    "From this spectrum <i>A</i><sub>r</sub> = {Ar}. Now find the element whose relative atomic mass in the periodic table is closest to this, and enter it above.": "このスペクトルから求めると <i>A</i><sub>r</sub> = {Ar} です。次に、周期表の相対原子質量がこの値にいちばん近い元素を見つけて、上に入力しましょう。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "From this spectrum <i>A</i><sub>r</sub> = {Ar}. The data booklet gives {book}. The small difference is because the real mass of each isotope is not exactly a whole number.": "",
+    "From this spectrum <i>A</i><sub>r</sub> = {Ar}. The data booklet gives {book}. The small difference is because the real mass of each isotope is not exactly a whole number.": "このスペクトルから求めると <i>A</i><sub>r</sub> = {Ar} です。データブックレットの値は {book} です。少し違うのは、同位体の実際の質量がちょうど整数ではないからです。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "You divided by 100, but these peak heights do not add up to 100. Divide by the total of the heights.": "",
+    "You divided by 100, but these peak heights do not add up to 100. Divide by the total of the heights.": "100 で割っていますが、このピークの高さの合計は 100 になりません。高さの合計で割りましょう。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "A weighted mean must lie between the lightest and heaviest isotope: between {lo} and {hi}.": "",
+    "A weighted mean must lie between the lightest and heaviest isotope: between {lo} and {hi}.": "加重平均は、いちばん軽い同位体といちばん重い同位体の間、つまり {lo} と {hi} の間にあるはずです。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "That is the simple average of the <i>m/z</i> values. Each isotope has to be weighted by its abundance.": "",
+    "That is the simple average of the <i>m/z</i> values. Each isotope has to be weighted by its abundance.": "それは <i>m/z</i> の値の単純な平均です。それぞれの同位体に、存在比で重みをつける必要があります。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Multiply each <i>m/z</i> by its peak height, add the results, then divide by the total of the peak heights. Check how you read each height.": "",
+    "Multiply each <i>m/z</i> by its peak height, add the results, then divide by the total of the peak heights. Check how you read each height.": "それぞれの <i>m/z</i> にピークの高さをかけ、その結果を足してから、ピークの高さの合計で割ります。高さの読み取り方も見直しましょう。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Enter an element": "",
+    "Enter an element": "元素を入力してください",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Type a symbol such as Mg, or a name.": "",
+    "Type a symbol such as Mg, or a name.": "Mg のような元素記号か、名前を入力してください。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "It is {name}. The data booklet gives <i>A</i><sub>r</sub> = {book}, and this spectrum gives {Ar}.": "",
+    "It is {name}. The data booklet gives <i>A</i><sub>r</sub> = {book}, and this spectrum gives {Ar}.": "{name}です。データブックレットの値は <i>A</i><sub>r</sub> = {book} で、このスペクトルから求めた値は {Ar} です。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Look in the periodic table for the element whose relative atomic mass is closest to your value. Do not match the mass to the atomic number.": "",
+    "Look in the periodic table for the element whose relative atomic mass is closest to your value. Do not match the mass to the atomic number.": "周期表で、相対原子質量が自分の値にいちばん近い元素を探しましょう。質量を原子番号と照らし合わせてはいけません。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Work out <i>A</i><sub>r</sub> first. Then look in the periodic table for the element whose relative atomic mass is closest to your value. Do not match the mass to the atomic number.": "",
+    "Work out <i>A</i><sub>r</sub> first. Then look in the periodic table for the element whose relative atomic mass is closest to your value. Do not match the mass to the atomic number.": "まず <i>A</i><sub>r</sub> を求めましょう。そのあと周期表で、相対原子質量が自分の値にいちばん近い元素を探します。質量を原子番号と照らし合わせてはいけません。",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "relative abundance / %": "",
+    "relative abundance / %": "相対存在量 / %",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "relative abundance": "",
+    "relative abundance": "相対存在量",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "mystery element": "",
+    "mystery element": "なぞの元素",
 
   }
 });

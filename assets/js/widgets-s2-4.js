@@ -29,13 +29,13 @@
 
   /* ---------- data ---------------------------------------------------------- */
   var EN = { H: 2.2, Li: 1.0, Be: 1.6, B: 2.0, C: 2.6, N: 3.0, O: 3.4, F: 4.0, Na: 0.9, Mg: 1.3, Al: 1.6, Si: 1.9,
-    P: 2.2, S: 2.6, Cl: 3.2, K: 0.8, Ca: 1.0, Fe: 1.8, Zn: 1.6, Br: 3.0, I: 2.7, Cs: 0.8, Ba: 0.9 };
-  var ORDER = ['H', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Na', 'Mg', 'Al', 'Si', 'P', 'S', 'Cl', 'K', 'Ca', 'Fe', 'Zn', 'Br', 'I', 'Cs', 'Ba'];
+    P: 2.2, S: 2.6, Cl: 3.2, K: 0.8, Ca: 1.0, Fe: 1.8, Zn: 1.6, Br: 3.0, Sn: 2.0, I: 2.7, Cs: 0.8, Ba: 0.9 };
+  var ORDER = ['H', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Na', 'Mg', 'Al', 'Si', 'P', 'S', 'Cl', 'K', 'Ca', 'Fe', 'Zn', 'Br', 'Sn', 'I', 'Cs', 'Ba'];
   function elementNames() {
     return { H: t('hydrogen'), Li: t('lithium'), Be: t('beryllium'), B: t('boron'), C: t('carbon'), N: t('nitrogen'),
       O: t('oxygen'), F: t('fluorine'), Na: t('sodium'), Mg: t('magnesium'), Al: t('aluminium'), Si: t('silicon'),
       P: t('phosphorus'), S: t('sulfur'), Cl: t('chlorine'), K: t('potassium'), Ca: t('calcium'), Fe: t('iron'),
-      Zn: t('zinc'), Br: t('bromine'), I: t('iodine'), Cs: t('caesium'), Ba: t('barium') };
+      Zn: t('zinc'), Br: t('bromine'), Sn: t('tin'), I: t('iodine'), Cs: t('caesium'), Ba: t('barium') };
   }
   var G = { L: [0.66, 0], B: [1.29, 1.20], C: [1.71, 0.39], D: [1.92, 0], T: [2.31, 3.17], F: [2.74, 2.36], R: [3.96, 0] };
   var SCALE = [[0, 0], [1.04, 25], [1.60, 50], [2.33, 75], [3.20, 92]];      // [difference, % ionic]
@@ -44,7 +44,7 @@
     ['Si', 'O', 'SiO₂'], ['Al', 'Cl', 'AlCl₃'], ['C', 'H', 'CH₄'], ['Cl', 'Cl', 'Cl₂'], ['Na', 'Na', 'Na'], ['Al', 'Al', 'Al'], ['Si', 'Si', 'Si']
   ];
   var CHALLENGES = [
-    ['K', 'Br', 'KBr'], ['Al', 'Cl', 'AlCl₃'], ['Si', 'O', 'SiO₂'], ['Mg', 'Cl', 'MgCl₂'], ['P', 'Cl', 'PCl₃'], ['Na', 'O', 'Na₂O'],
+    ['K', 'Br', 'KBr'], ['Sn', 'Cl', 'SnCl₄'], ['Si', 'O', 'SiO₂'], ['Mg', 'Cl', 'MgCl₂'], ['P', 'Cl', 'PCl₃'], ['Na', 'O', 'Na₂O'],
     ['Mg', 'Mg', 'Mg'], ['Si', 'C', 'SiC'], ['Ca', 'O', 'CaO'], ['N', 'H', 'NH₃'], ['Li', 'H', 'LiH'], ['S', 'O', 'SO₂'],
     ['Zn', 'Zn', 'Zn'], ['Ba', 'Cl', 'BaCl₂'], ['C', 'S', 'CS₂']
   ];
@@ -160,8 +160,8 @@
     else if (c.region === 'metallic') s = t('The metallic model fits best. Expect a solid that conducts electricity and heat well and is malleable.');
     else if (d === 0) s = t('The covalent model fits best, and the bonds are non-polar (Δχ = 0). Expect a poor electrical conductor. The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).');
     else s = t('The covalent model fits best. The bonds are polar, and more polar the higher the point sits. Expect a poor electrical conductor in every state. The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).');
-    if (c.near) s += ' ' + t('This point is close to the boundary with the {region} region, so expect properties between the two models.', { region: regionName(c.near) });
-    if (c.outside) s += ' ' + t('The point falls on the outer edge of the printed triangle. Read it as the nearest region.');
+    if (c.near) s += ' ' + t('Take care: this point is very close to the boundary with the {region} region. The triangle does not give a clear answer here. Expect properties between the two models.', { region: regionName(c.near) });
+    if (c.outside) s += ' ' + t('This point is just outside the outline printed in the data booklet. The printed outline is drawn a little too small for points like this one (it happens with fluorides). Your two numbers are still correct. Read the nearest region: {region}.', { region: regionName(c.region) });
     return s;
   }
 
@@ -258,7 +258,7 @@
     var INFO = {
       all: t('Each corner is one pure bonding model. Most substances sit somewhere between the corners.'),
       metallic: t('Bottom left: both elements have low electronegativity, and the difference is small. Neither atom holds its outer electrons strongly, so the electrons are delocalized. Sodium is an example.'),
-      ionic: t('Top: one element has low electronegativity and the other has high electronegativity, so the difference is large. Electrons are transferred and ions form. Caesium fluoride is the most ionic example.'),
+      ionic: t('Top: one element has low electronegativity and the other has high electronegativity, so the difference is large. Electrons are transferred and ions form. Caesium fluoride is a very ionic example.'),
       covalent: t('Bottom right: both elements have high electronegativity, and the difference is small. Both atoms attract the electrons strongly, so the electrons are shared. Chlorine is an example. Higher up this region the sharing is unequal: polar covalent.')
     };
     var which = 'all';
@@ -500,7 +500,7 @@
   }
   /* n separate monomer molecules, side by side (trigonal planar around each carbon). */
   function monomerSpec(m, count, label) {
-    var atoms = [], bonds = [], k, gap = 3.55;
+    var atoms = [], bonds = [], k, gap = 3.85;
     for (k = 0; k < (count || 1); k++) {
       var x = k * gap, base = atoms.length;
       atoms.push({ el: 'C', x: x, y: 0 }, { el: 'C', x: x + 1.25, y: 0 },
@@ -775,7 +775,7 @@
         label = t('Repeating unit of the condensation polymer in square brackets with n: {unit}', { unit: s.rep });
       } else {
         title = t('Step 5 of 5: hydrolysis, the reverse reaction');
-        text = t('Water breaks the underlined link. The –OH of water joins the C=O carbon and the H of water joins the O or N atom. The monomers form again. This is how biological polymers are broken down.');
+        text = t('Water breaks the underlined link. The –OH of water joins the C=O carbon and the H of water joins the O or N atom. The monomers form again. Biological macromolecules are broken down in the same way.');
         rows = [[P.dimer('link')], [{ sign: '+' }, waterItem('leave')], [{ sign: '↓' }], narrow ? [P.monoA(true)] : [P.monoA(true), { sign: '+' }, P.monoB(true)]];
         if (narrow) rows.push([{ sign: '+' }, P.monoB(true)]);
         label = t('Hydrolysis: the linked molecule and one water molecule give back the two monomers. The atoms that came from water are outlined.');

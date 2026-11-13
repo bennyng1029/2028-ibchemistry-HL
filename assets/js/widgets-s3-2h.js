@@ -876,7 +876,7 @@
         { at: 2985, depth: 34, width: 24, row: 'ch', why: SHARP }, { at: 1740, depth: 92, width: 18, row: 'co2', why: t('Only the C=O row includes this wavenumber. The band is strong and sharp.') }, { at: 1240, depth: 88, width: 24, row: 'co', why: CF }],
         extra: [{ at: 1375, depth: 44, width: 10 }, { at: 1045, depth: 52, width: 16 }, { at: 850, depth: 18, width: 12 }] },
       { id: 'propylamine', name: t('propan-1-amine'), cls: 'amine', bands: [
-        { at: 3390, twin: 3320, depth: 40, width: 24, row: 'nh', why: t('Two booklet rows include this wavenumber: O–H in alcohols and N–H. There are two bands of medium strength, so it is the N–H of a primary amine. O–H gives one broad band.') },
+        { at: 3370, twin: 3300, depth: 40, width: 24, row: 'nh', why: t('Two booklet rows include this wavenumber: O–H in alcohols and N–H. There are two bands of medium strength, so it is the N–H of a primary amine. O–H gives one broad band.') },
         { at: 2930, depth: 72, width: 42, row: 'ch', why: SHARP }],
         extra: [{ at: 1600, depth: 22, width: 26 }, { at: 1460, depth: 30, width: 14 }, { at: 800, depth: 28, width: 60 }] },
       { id: 'chlorobutane', name: t('1-chlorobutane'), cls: 'halogenoalkane', bands: [

@@ -126,7 +126,7 @@
       3: 'Sulfur is a non-metal. It is a brittle yellow solid that does not conduct electricity.'
     },
     hints: ['Find the four elements in period 3 of your periodic table.', 'Metalloids lie on the diagonal boundary between the metals (left) and the non-metals (right).'],
-    solution: '<p>Metals are on the left and in the centre of the periodic table. Non-metals are on the upper right. The metalloids lie on the diagonal boundary between them: B, Si, Ge, As, Sb and Te. <strong>Silicon</strong> is a metalloid. Its properties are between those of a metal and a non-metal.</p>'
+    solution: '<p>Metals are on the left and in the centre of the periodic table. Non-metals are on the upper right. The metalloids lie on the diagonal boundary between them. They include B, Si, Ge, As, Sb and Te. <strong>Silicon</strong> is a metalloid. Its properties are between those of a metal and a non-metal.</p>'
   },
   {
     id: 's3-1-q002', level: 'sl', tier: 'foundation', type: 'mcq', marks: 1,
@@ -171,7 +171,7 @@
       1: 'Germanium is in the p-block, but it lies on the diagonal boundary. It is a metalloid.',
       3: 'Cerium is a metal, but it is in the first of the two rows drawn below the main table. Those rows are the f-block.'
     },
-    hints: ['Find the group of each element. Groups 1–2: s-block. Groups 3–12: d-block. Groups 13–18: p-block.', 'The metalloids are B, Si, Ge, As, Sb and Te.'],
+    hints: ['Find the group of each element. Groups 1–2: s-block. Groups 3–12: d-block. Groups 13–18: p-block.', 'The metalloids include B, Si, Ge, As, Sb and Te.'],
     solution: '<p>Gallium is in group 13, so it is in the <strong>p-block</strong>. It is below aluminium and to the left of the metalloid boundary, so it is a <strong>metal</strong>. The p-block contains metals, metalloids and non-metals.</p>'
   },
 
