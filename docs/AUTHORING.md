@@ -361,7 +361,7 @@ The frame (title bar, controls, stage, readout, caption) is built for you. `w` g
 | `w.svg('0 0 600 240', {label})` | Empty responsive `<svg>` in the stage. In SVG, use CSS variables directly (`fill="var(--accent)"`). |
 | `w.slider({label, min, max, step, value, unit, onInput})` | Linked slider and number box. Returns `{el, value, set(v, silent), setValue(v, silent), setRange(min, max, step?, silent?)}`. `setRange` clamps the current value into the new range and calls `onInput` only if it changed. |
 | `w.button(label, onClick, {primary})` | Button in the controls area. |
-| `w.select({label, options, value, onChange})` | Labelled select. `options` is `['a','b']` or `[{value, label}]`. |
+| `w.select({label, options, value, onChange})` | Labelled select. `options` is `['a','b']` or `[{value, label}]`. Returns `{el, value, set(v), setOptions(list, value?)}`. `setOptions` rebuilds the list (for example to add or remove an AHL choice on `S1.level.onChange`); it keeps the current choice if still present and calls `onChange` only if the choice changed. |
 | `w.readoutItem(label, {text})` | Returns a setter for a named value in the readout strip (HTML allowed; `{text: true}` for a sentence). The readout is an `aria-live` region. |
 | `w.color('--token')` | Resolved CSS token, for canvas. |
 | `w.onTheme(fn)`, `w.onLang(fn)`, `w.redraw()`, `w.onDraw(fn)` | Theme and language hooks, manual redraw. Canvases redraw automatically on both; use `w.onLang(update)` if your readouts are built from several translated pieces. |
@@ -608,6 +608,32 @@ Load `assets/js/mol.js` after `core.js`. Every function takes an element (or a s
 draws into it. Give every drawing a `label` (the text alternative). Colours follow the theme.
 Live examples of everything below: `dev/mol-demo.html`.
 
+### 8.0 Figures written in the HTML (pages and questions)
+
+A static structure does not need a script. Put a placeholder where the figure goes; it is drawn wherever
+HTML is inserted: page text, worked examples, and quiz **stems, options, hints and solutions**.
+
+```html
+<span data-s1-mol="lewis" data-spec='{"central":"N","outer":["H","H","H"],"centralLone":1,"label":"Lewis formula of ammonia"}'></span>
+<div  data-s1-mol="skeletal" data-spec='{"chain":3,"subs":{"2":"OH"},"label":"Skeletal formula of propan-2-ol"}'></div>
+```
+
+- `data-s1-mol` is `lewis`, `structural`, `skeletal` or `viewer3d`; `data-spec` is the spec as **JSON**
+  (double quotes inside, single quotes around the attribute). A `<span>` is drawn inline, a `<div>` as a block.
+- For a figure used more than once, define it by name in your widget file (or at the top of the question
+  bank) and refer to it. `kind` says which renderer to use:
+
+  ```js
+  S1.mol.define('nh3-lewis', { kind: 'lewis', central: 'N', outer: ['H', 'H', 'H'], centralLone: 1, label: 'Lewis formula of ammonia' });
+  ```
+  ```html
+  <span data-s1-mol-ref="nh3-lewis"></span>
+  ```
+- In a question bank string, escape the quotes: `'<span data-s1-mol="lewis" data-spec=\'{"central":"O",…}\'></span>'`,
+  or use `data-s1-mol-ref`, which is shorter and safer. The page that shows the question must load `mol.js`
+  (the practice page should load it too once a bank uses figures) and the file with the `define` calls.
+- Always give a `label`: it is the text alternative. In MCQ options the label must not give the answer away.
+
 ### 8.1 Lewis formulas — `S1.mol.lewis(el, spec)`
 
 Central-atom shorthand (up to four positions use left, right, bottom, top; bonds first, then lone pairs):
@@ -694,7 +720,8 @@ view.setSpec(S1.mol.vsepr({ domains: 6, lonePairs: 2, central: 'Xe', outer: 'F' 
 | Key | Meaning |
 |---|---|
 | `atoms` | `[{el, x, y, z, label}]`, any consistent length unit (a bond is about 1 to 1.5). |
-| `bonds` | `[{a, b, order}]`. |
+| `bonds` | `[{a, b, order, dashed}]`. `dashed: true` draws a thin dashed line for a weaker attraction (hydrogen bond, forces between layers). |
+| `arrows` | `[{from, to, label, cross, color, width}]`: a vector such as a bond dipole. `from` / `to` are an atom index or `[x, y, z]`. `cross: true` adds the small cross at the tail (the positive end of a dipole). Colour defaults to `--accent`. |
 | `lonePairs` | `[{on: atomIndex, dir: [x, y, z]}]`, drawn as a dashed lobe with two dots. |
 | `angle`, `angleText` | `[i, j, k]` labels the angle at atom `j`; the true 3-D value is shown unless `angleText` is given. |
 | `height` | CSS px (default 280). The width follows the container. |
@@ -702,7 +729,9 @@ view.setSpec(S1.mol.vsepr({ domains: 6, lonePairs: 2, central: 'Xe', outer: 'F' 
 | `labels`, `controls` | Element symbols on the atoms; the "Turn slowly / Reset view" bar. Both default `true`. |
 | `label` | Text alternative. Required. |
 
-Returns `{el, canvas, setSpec(spec), reset(), rotate(dYaw, dPitch), spin(on), redraw()}`.
+Returns `{el, canvas, setSpec(spec), reset(), rotate(dYaw, dPitch), spin(on), redraw(), destroy()}`.
+`destroy()` stops turning and removes every listener and observer. You rarely need to call it: the viewer
+(and every chart) destroys itself once its canvas has left the page, for example when a widget restarts.
 Drag or swipe to rotate; arrow keys when the canvas has focus; Home resets. Atoms are drawn back to front
 with simple shading, an outline and the element symbol, so colour is never the only cue.
 
@@ -749,7 +778,7 @@ S1.chart.plot('#trend', {
 | `series[]` | `{type: 'line' | 'scatter' | 'bar' | 'stick', data, color: '--accent', name, width, points, labels}`. `data` items are `[x, y]`, `[x, y, 'label']` or `{x, y, label}`. `name` adds a legend entry; `labels: true` prints each y value. |
 | `annotations[]` | `{x, y, text, dx, dy}`. |
 
-Returns `{el, canvas, update(spec), redraw()}`. Use at most three series and label them directly.
+Returns `{el, canvas, update(spec), redraw(), destroy()}`. Use at most three series and label them directly.
 Default colours are `--accent`, `--ink-2`, `--line-strong`; never use the role colours (violet, amber, green, red).
 
 Spectra:
