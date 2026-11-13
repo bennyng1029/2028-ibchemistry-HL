@@ -1,6 +1,6 @@
 /* ==========================================================================
    Question bank: Structure 2.3 — The metallic model
-   21 original questions. q001–q016 are SL (2.3.1, 2.3.2); q017–q021 are
+   22 original questions. q001–q017 are SL (2.3.1, 2.3.2); q018–q022 are
    Additional HL (2.3.3, delocalized d-electrons in transition elements).
    Schema: docs/AUTHORING.md.
    Data: melting points (°C) from section 8 and ionic radii (pm) from
@@ -291,7 +291,7 @@
     {
       id: 's2-3-q017', topic: 's2-3', level: 'sl', tier: 'challenge', type: 'mcq', marks: 1,
       syllabus: 'Structure 2.3.2',
-      stem: '<p>P, Q, R and S are four s-block metals. The table shows the ion that each one forms. Which row of the answer options gives the metal with the lowest melting point and the metal with the highest melting point?</p>' +
+      stem: '<p>P, Q, R and S are four s-block metals. The table shows the ion that each one forms. Which option gives the metal with the lowest melting point and the metal with the highest melting point?</p>' +
         table('Ions formed by metals P to S', ['Metal', 'Charge of ion', 'Ionic radius / pm'], [
           ['P', '1+', '138'], ['Q', '2+', '135'], ['R', '1+', '167'], ['S', '2+', '100']]),
       options: [
