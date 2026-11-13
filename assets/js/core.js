@@ -888,7 +888,12 @@
       if (n.children.length) return;
       n.innerHTML = S1.chem.unit(n.textContent);
     });
+    formatters.forEach(function (fn) { fn(root); });
   }
+  var formatters = [];
+  /** Register an inline formatter that must run wherever HTML is (re)inserted: page blocks, translations,
+   *  quiz stems, options, hints, solutions. Used by mol.js for <span data-s1-mol>. fn(root) must be idempotent. */
+  S1.onFormat = function (fn) { formatters.push(fn); if (isReady) fn(doc); };
 
   function initLevelBadges(root) {
     var sel = 'section[data-level="ahl"], div[data-level="ahl"], aside[data-level="ahl"], figure[data-level="ahl"], article[data-level="ahl"]';
@@ -1275,18 +1280,28 @@
         controls.appendChild(b);
         return b;
       },
-      /** Labelled <select>. options: [{value, label}] or ['a', 'b']. Returns {el, value (getter), set(v)}. */
+      /** Labelled <select>. options: [{value, label}] or ['a', 'b']. Returns {el, value (getter), set(v), setOptions(list, value?)}. */
       select: function (opts) {
         var id = util.uid('ctl');
         var s = el('select', { class: 'select', id: id });
-        opts.options.forEach(function (o) {
-          var v = typeof o === 'object' ? o.value : o, l = typeof o === 'object' ? o.label : o;
-          var op = liveText(el('option', { value: v }), l); if (String(v) === String(opts.value)) op.selected = true; s.appendChild(op);
-        });
+        function fillOptions(list, value) {
+          s.innerHTML = '';
+          list.forEach(function (o) {
+            var v = typeof o === 'object' ? o.value : o, l = typeof o === 'object' ? o.label : o;
+            var op = liveText(el('option', { value: v }), l); if (String(v) === String(value)) op.selected = true; s.appendChild(op);
+          });
+        }
+        fillOptions(opts.options, opts.value);
         s.addEventListener('change', function () { if (opts.onChange) opts.onChange(s.value); });
         var wrap = el('div', { class: 'control', style: 'flex:0 1 auto' }, [liveText(el('label', { class: 'control__label', for: id }), opts.label), s]);
         controls.appendChild(wrap);
-        return { el: wrap, get value() { return s.value; }, set: function (v) { s.value = v; } };
+        return { el: wrap, get value() { return s.value; }, set: function (v) { s.value = v; },
+          /** Replace the list of options. Keeps the current choice if it is still in the list, else selects `value` or the first. onChange fires if the choice changed. */
+          setOptions: function (list, value) {
+            var before = s.value, has = list.some(function (o) { return String(typeof o === 'object' ? o.value : o) === before; });
+            fillOptions(list, value != null ? value : (has ? before : undefined));
+            if (s.value !== before && opts.onChange) opts.onChange(s.value);
+          } };
       },
       /** Named value in the readout strip. Returns a setter: var setT = w.readoutItem('Temperature'); setT('298 K') (HTML allowed).
        *  Pass {text: true} for a sentence rather than a number. */

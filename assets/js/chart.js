@@ -161,10 +161,14 @@
     size(); draw();
     var lastW = el.clientWidth;
     var onResize = function () { if (el.clientWidth === lastW) return; lastW = el.clientWidth; size(); draw(); };
-    if (window.ResizeObserver) new ResizeObserver(onResize).observe(el); else window.addEventListener('resize', onResize);
-    doc.addEventListener('s1:themechange', draw);
-    doc.addEventListener('s1:langchange', draw);
-    return { el: el, canvas: canvas, redraw: draw, update: function (s) { spec = s; S1.i18n.render(canvas); size(); draw(); } };
+    // Listeners are removed by destroy(), or automatically once the canvas has left the page.
+    var undo = [], dead = false;
+    function destroy() { if (dead) return; dead = true; undo.forEach(function (f) { f(); }); undo = []; }
+    function listen(target, type, fn) { var h = function () { if (dead || !doc.documentElement.contains(canvas)) return destroy(); fn(); }; target.addEventListener(type, h); undo.push(function () { target.removeEventListener(type, h); }); }
+    if (window.ResizeObserver) { var ro = new ResizeObserver(onResize); ro.observe(el); undo.push(function () { ro.disconnect(); }); } else listen(window, 'resize', onResize);
+    listen(doc, 's1:themechange', draw);
+    listen(doc, 's1:langchange', draw);
+    return { el: el, canvas: canvas, redraw: draw, destroy: destroy, update: function (s) { spec = s; S1.i18n.render(canvas); size(); draw(); } };
   }
 
   /**

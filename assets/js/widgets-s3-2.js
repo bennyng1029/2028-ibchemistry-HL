@@ -1179,6 +1179,7 @@
     var host = el('div', { class: 's32-draw' }), prompt = el('p', { class: 's32-prompt' }), area = el('div'), fb = el('div', { class: 'feedback s32-fb' });
     w.stage.appendChild(host); w.stage.appendChild(prompt); w.stage.appendChild(area); w.stage.appendChild(fb);
     w.button(t('Next question'), next, { primary: true });
+    w.el.__s32 = function () { return { id: q.c.id, kind: q.kind }; };
     function done(ok) { if (!q.scored) { q.scored = true; asked++; if (ok) right++; setScore(t('{r} of {n} correct at the first try', { r: right, n: asked })); } }
     function next() {
       var c; do { c = pool[Math.floor(Math.random() * pool.length)]; } while (c.id === lastId);
@@ -1234,6 +1235,7 @@
     var host = el('div', { class: 's32-draw' }), prompt = el('p', { class: 's32-prompt' }), area = el('div'), fb = el('div', { class: 'feedback s32-fb' });
     w.stage.appendChild(host); w.stage.appendChild(prompt); w.stage.appendChild(area); w.stage.appendChild(fb);
     var m, gs, found, active, good = 0, tries = 0, single;
+    w.el.__s32 = function () { return { groups: gs.map(function (g) { return { key: groupOf(g.key), atoms: g.atoms }; }), cls: single ? classKey(m) : null }; };
     function atomLabel(i) { var e = m.atoms[i].el; return e === 'C' ? t('carbon atom') : e === 'O' ? t('oxygen atom') : e === 'N' ? t('nitrogen atom') : t('halogen atom'); }
     function load() {
       m = compound(sel.value).mol; gs = groups(m).filter(function (g) { return GROUP_KEYS.indexOf(groupOf(g.key)) >= 0; });
@@ -1380,7 +1382,8 @@
     w.button(t('New molecule'), fresh, { primary: true });
     var host = el('div', { class: 's32-draw' }), prompt = el('p', { class: 's32-prompt' }), area = el('div'), fb = el('div', { class: 'feedback s32-fb' }), built = el('p', { class: 's32-built' });
     w.stage.appendChild(host); w.stage.appendChild(built); w.stage.appendChild(prompt); w.stage.appendChild(area); w.stage.appendChild(fb);
-    var r, step, clean, doneCount = 0, cleanCount = 0, drawPath, endA;
+    var r, step, clean, doneCount = 0, cleanCount = 0, drawPath, endA, expect = {};
+    w.el.__s32 = function () { return { name: r.name, n: r.spec.n, prefix: r.prefix, end: expect.end, done: doneCount }; };
     function suffixWords(s) {
       if (!s.suffix) return s.unsat ? (s.unsat.type === 'en' ? t('the C=C double bond') : t('the C≡C triple bond')) : '';
       return s.suffix.type === 'ol' ? t('the carbon that carries the O–H') : s.suffix.type === 'oic' ? t('the carbon of the COOH group') : t('the carbon of the C=O group');
@@ -1445,6 +1448,7 @@
       prompt.innerHTML = '<b>' + t('Step 2 of 4.') + '</b> ' + t('The ends of the parent chain are marked A and B. Which end is carbon 1?');
       area.innerHTML = '';
       var want = same ? 'same' : endA ? 'A' : 'B', why;
+      expect.end = want;
       var locs = function (x) { return x.subs.map(function (q) { return q.loc; }).sort(function (a, b) { return a - b; }).join(','); };
       if (same) why = t('Both directions give exactly the same numbers, so either end can be carbon 1.');
       else if (s.suffix && s.suffix.loc !== rev.suffix.loc) why = s.suffix.type === 'al' || s.suffix.type === 'oic' ? t('The carbon of a –CHO or –COOH group is always carbon 1.') : t('The group named by the ending gets the lowest number it can: {a}, not {b}.', { a: s.suffix.loc, b: rev.suffix.loc });
@@ -1651,6 +1655,7 @@
     row.appendChild(A); row.appendChild(B);
     w.stage.appendChild(el('p', { class: 's32-prompt', text: t('How are these two structures related?') })); w.stage.appendChild(row); w.stage.appendChild(area); w.stage.appendChild(fb);
     w.button(t('Next pair'), next, { primary: true });
+    w.el.__s32 = function () { return { rel: cur.rel, a: cur.a.id, b: cur.b.id }; };
     function relName(k) { return k === 'chain' ? t('Chain isomers') : k === 'position' ? t('Position isomers') : k === 'functional' ? t('Functional group isomers') : t('The same molecule'); }
     function next() {
       var p; do { p = pairs[Math.floor(Math.random() * pairs.length)]; } while (p === cur);
@@ -1694,6 +1699,7 @@
     var host = el('div', { class: 's32-draw' }), prompt = el('p', { class: 's32-prompt' }), area = el('div'), fb = el('div', { class: 'feedback s32-fb' });
     w.stage.appendChild(host); w.stage.appendChild(prompt); w.stage.appendChild(area); w.stage.appendChild(fb);
     w.button(t('Next molecule'), next, { primary: true });
+    w.el.__s32 = function () { return { id: c.id, centre: d.centre, degree: d.degree }; };
     function slip() { if (!scored) { scored = true; asked++; setScore(t('{r} of {n} with no slip', { r: right, n: asked })); } }
     function draw() {
       drawGroups(host, c.mol, { scale: 36, marks: marks, onPick: stage === 1 ? pick : null, label: stage === 1 ? t('Structure of the molecule. Each group is a button.') : t('Structure of the molecule') });

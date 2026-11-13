@@ -40,6 +40,13 @@
     </section>
 
     <section class="band-section">
+      <h2>Declarative figures</h2>
+      <p>Written in the HTML, no script: water <span data-s1-mol="lewis" data-spec='{"central":"O","outer":["H","H"],"centralLone":2,"scale":34,"label":"Lewis formula of water"}'></span> inline in a sentence, and a preset by name: <span data-s1-mol-ref="demo-ethanol"></span>.</p>
+      <div data-s1-quiz data-ids="demo-mol-q1" data-shuffle="false" data-title="Figures inside a question"></div>
+      <div class="demo-grid demo-grid--3d"><figure><div id="v-hbond"></div><figcaption>Dashed bond (hydrogen bond) and dipole arrows</figcaption></figure></div>
+    </section>
+
+    <section class="band-section">
       <h2>3-D models and VSEPR shapes</h2>
       <div class="widget">
         <div class="widget__controls" id="v-controls"></div>
@@ -113,8 +120,19 @@
 <script src="../assets/js/mol.js"></script>
 <script src="../assets/js/chart.js"></script>
 <script>
+S1.mol.define('demo-ethanol', { kind: 'skeletal', chain: ['', '', 'OH'], label: 'Skeletal formula of ethanol' });
+S1.questions.register('dev-mol', [{ id: 'demo-mol-q1', type: 'mcq', level: 'sl', tier: 'foundation', marks: 1,
+  stem: '<p>Which Lewis formula shows ammonia?</p>',
+  options: ['<span data-s1-mol="lewis" data-spec=\'{"central":"N","outer":["H","H","H"],"centralLone":1,"scale":34,"label":"Nitrogen with three hydrogens and one lone pair"}\'></span>',
+            '<span data-s1-mol="lewis" data-spec=\'{"central":"O","outer":["H","H"],"centralLone":2,"scale":34,"label":"Oxygen with two hydrogens and two lone pairs"}\'></span>'],
+  answer: 0, misconception: { 1: 'That is water.' }, solution: '<p>Ammonia: <span data-s1-mol-ref="demo-ethanol"></span> is not it, but figures work in solutions too.</p>' }]);
 S1.ready(function () {
   var M = S1.mol, C = S1.chart, P = S1.periodic;
+  M.viewer3d('#v-hbond', { height: 240, label: 'Two water molecules joined by a hydrogen bond, with bond dipole arrows', atoms: [
+    { el: 'O', x: -1.6, y: 0, z: 0 }, { el: 'H', x: -0.65, y: 0, z: 0 }, { el: 'H', x: -1.9, y: 0.9, z: 0 },
+    { el: 'O', x: 1.2, y: 0, z: 0 }, { el: 'H', x: 1.55, y: 0.75, z: 0.5 }, { el: 'H', x: 1.55, y: -0.75, z: 0.5 }],
+    bonds: [{ a: 0, b: 1 }, { a: 0, b: 2 }, { a: 3, b: 4 }, { a: 3, b: 5 }, { a: 1, b: 3, dashed: true }],
+    arrows: [{ from: [-0.8, -0.45, 0], to: [-1.5, -0.45, 0], cross: true }, { from: [2.0, 0, 0.7], to: [1.3, 0, 0.1], cross: true, label: '\u03B4' }] });
   // Lewis
   M.lewis('#lw-h2o', { central: 'O', outer: ['H', 'H'], centralLone: 2, label: 'Lewis formula of water' });
   M.lewis('#lw-nh3', { central: 'N', outer: ['H', 'H', 'H'], centralLone: 1, label: 'Lewis formula of ammonia' });

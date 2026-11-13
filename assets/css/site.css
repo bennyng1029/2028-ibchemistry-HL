@@ -917,3 +917,8 @@ table.data tbody th { min-width: 6.5em; }
 :root[lang="ja"] { --font-cjk-rare: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", "Noto Sans CJK JP", "Source Han Sans JP", sans-serif; }
 .el-name { font-family: var(--font-cjk-rare, inherit); }
 .guiding__q { display: inline; }
+
+/* Inline structure figures in text and in quiz options */
+.mol--inline { display: inline-block; vertical-align: middle; max-width: 100%; }
+.mol--inline .mol__svg { display: inline-block; }
+.q__option .mol, .q__stem .mol, .q__solution .mol { margin-block: 0.25rem; }

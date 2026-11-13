@@ -433,6 +433,7 @@
       atoms.forEach(function (a) { cx += a.x; cy += a.y; cz += a.z; });
       var n = atoms.length || 1; cx /= n; cy /= n; cz /= n;
       var ext = 0.6;
+      (spec.arrows || []).forEach(function (a) { [a.from, a.to].forEach(function (v) { if (typeof v !== 'number') ext = Math.max(ext, Math.hypot(v[0] - cx, v[1] - cy, v[2] - cz) + 0.2); }); });
       atoms.forEach(function (a) { ext = Math.max(ext, Math.hypot(a.x - cx, a.y - cy, a.z - cz) + (RADII[a.el] || DEFAULT_R)); });
       lps.forEach(function (l) { var a = atoms[l.on]; ext = Math.max(ext, Math.hypot(a.x - cx, a.y - cy, a.z - cz) + 1.05); });
       var scale = Math.min(W, H) / 2 / ext * 0.9, cam = ext * 4.5;
@@ -444,6 +445,11 @@
       var items = [];
       atoms.forEach(function (a, i) { items.push({ z: P[i].z, type: 'atom', i: i }); });
       bonds.forEach(function (b) { items.push({ z: (P[b.a].z + P[b.b].z) / 2 - 0.001, type: 'bond', b: b }); });
+      (spec.arrows || []).forEach(function (a) {
+        var end = function (v) { return typeof v === 'number' ? [atoms[v].x, atoms[v].y, atoms[v].z] : v; };
+        var p0 = project(end(a.from)), p1 = project(end(a.to));
+        items.push({ z: (p0.z + p1.z) / 2 + 0.002, type: 'arrow', a: a, p0: p0, p1: p1 });
+      });
       lps.forEach(function (l) {
         var a = atoms[l.on], m = Math.hypot(l.dir[0], l.dir[1], l.dir[2]) || 1, d = [l.dir[0] / m, l.dir[1] / m, l.dir[2] / m];
         var q = project([a.x + d[0] * 0.72, a.y + d[1] * 0.72, a.z + d[2] * 0.72]);
@@ -461,9 +467,27 @@
           var order = it.b.order || 1, wdt = Math.max(2.5, scale * 0.11 * (A.k + B.k) / 2), offs = order === 2 ? [-0.9, 0.9] : order === 3 ? [-1.5, 0, 1.5] : [0];
           offs.forEach(function (o) {
             ctx.beginPath(); ctx.moveTo(x1 + nx * o * wdt, y1 + ny * o * wdt); ctx.lineTo(x2 + nx * o * wdt, y2 + ny * o * wdt);
+            if (it.b.dashed) {     // a weaker attraction (hydrogen bond, force between layers): thin dashed line
+              ctx.setLineDash([5, 5]); ctx.lineCap = 'butt'; ctx.strokeStyle = ink; ctx.lineWidth = 1.75; ctx.stroke(); ctx.setLineDash([]);
+              return;
+            }
             ctx.lineCap = 'round'; ctx.strokeStyle = ink; ctx.lineWidth = (order > 1 ? wdt * 0.62 : wdt) + 2; ctx.stroke();
             ctx.strokeStyle = S1.theme.color('--line-strong'); ctx.lineWidth = order > 1 ? wdt * 0.62 : wdt; ctx.stroke();
           });
+        } else if (it.type === 'arrow') {
+          var A0 = it.p0, A1 = it.p1, adx = A1.x - A0.x, ady = A1.y - A0.y, al = Math.hypot(adx, ady);
+          if (al < 4) return;
+          var aux = adx / al, auy = ady / al, acol = S1.theme.color(it.a.color || '--accent'), hd = Math.min(11, al * 0.45);
+          ctx.strokeStyle = acol; ctx.fillStyle = acol; ctx.lineWidth = it.a.width || 2.5; ctx.lineCap = 'butt';
+          ctx.beginPath(); ctx.moveTo(A0.x, A0.y); ctx.lineTo(A1.x - aux * hd * 0.8, A1.y - auy * hd * 0.8); ctx.stroke();
+          ctx.beginPath(); ctx.moveTo(A1.x, A1.y); ctx.lineTo(A1.x - aux * hd - auy * hd * 0.5, A1.y - auy * hd + aux * hd * 0.5); ctx.lineTo(A1.x - aux * hd + auy * hd * 0.5, A1.y - auy * hd - aux * hd * 0.5); ctx.closePath(); ctx.fill();
+          if (it.a.cross) {      // dipole convention: a small cross at the positive (tail) end
+            ctx.beginPath(); ctx.moveTo(A0.x + aux * 6 - auy * 5, A0.y + auy * 6 + aux * 5); ctx.lineTo(A0.x + aux * 6 + auy * 5, A0.y + auy * 6 - aux * 5); ctx.stroke();
+          }
+          if (it.a.label) {
+            ctx.font = '600 12px ' + mono; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillStyle = ink;
+            ctx.fillText(tl(it.a.label), (A0.x + A1.x) / 2 - auy * 13, (A0.y + A1.y) / 2 + aux * 13);
+          }
         } else if (it.type === 'atom') {
           var a = atoms[it.i], p = P[it.i], col = CPK[a.el] || DEFAULT_COL;
           var g = ctx.createRadialGradient(p.x - p.r * 0.35, p.y - p.r * 0.4, p.r * 0.1, p.x, p.y, p.r);
@@ -508,7 +532,7 @@
       }
     }
 
-    function frame() { if (!spinning) return; yaw += 0.012; draw(); raf = window.requestAnimationFrame(frame); }
+    function frame() { if (!spinning) return; if (!alive()) return destroy(); yaw += 0.012; draw(); raf = window.requestAnimationFrame(frame); }
     function setSpin(on) {
       spinning = !!on; window.cancelAnimationFrame(raf);
       if (spinning && visible && !doc.hidden) raf = window.requestAnimationFrame(frame);
@@ -545,10 +569,20 @@
     size(); draw();
     var lastW = el.clientWidth;
     var onResize = function () { if (el.clientWidth === lastW) return; lastW = el.clientWidth; size(); draw(); };
-    if (window.ResizeObserver) new ResizeObserver(onResize).observe(el); else window.addEventListener('resize', onResize);
-    if (window.IntersectionObserver) new IntersectionObserver(function (en) { visible = en[en.length - 1].isIntersecting; if (spinning) { window.cancelAnimationFrame(raf); if (visible) raf = window.requestAnimationFrame(frame); } }).observe(el);
-    doc.addEventListener('visibilitychange', function () { if (spinning) { window.cancelAnimationFrame(raf); if (!doc.hidden && visible) raf = window.requestAnimationFrame(frame); } });
-    doc.addEventListener('s1:themechange', draw);
+    // Everything registered outside the element is undone by destroy(). The viewer also destroys itself the
+    // first time an event arrives after its canvas has left the page (for example when a widget restarts).
+    var undo = [], dead = false;
+    function alive() { return !dead && doc.documentElement.contains(canvas); }
+    function destroy() { if (dead) return; dead = true; spinning = false; window.cancelAnimationFrame(raf); undo.forEach(function (f) { f(); }); undo = []; }
+    function listen(target, type, fn) { var h = function (e) { if (!alive()) return destroy(); fn(e); }; target.addEventListener(type, h); undo.push(function () { target.removeEventListener(type, h); }); }
+    if (window.ResizeObserver) { var ro = new ResizeObserver(onResize); ro.observe(el); undo.push(function () { ro.disconnect(); }); } else listen(window, 'resize', onResize);
+    if (window.IntersectionObserver) {
+      var io = new IntersectionObserver(function (en) { visible = en[en.length - 1].isIntersecting; if (spinning) { window.cancelAnimationFrame(raf); if (visible) raf = window.requestAnimationFrame(frame); } });
+      io.observe(el); undo.push(function () { io.disconnect(); });
+    }
+    listen(doc, 'visibilitychange', function () { if (spinning) { window.cancelAnimationFrame(raf); if (!doc.hidden && visible) raf = window.requestAnimationFrame(frame); } });
+    listen(doc, 's1:themechange', draw);
+    listen(doc, 's1:langchange', draw);
     if (spec.autoRotate && !reduced) setSpin(true);
 
     return {
@@ -556,11 +590,36 @@
       setSpec: function (s) { spec = s; S1.i18n.render(canvas); size(); draw(); },
       reset: function () { yaw = yaw0; pitch = pitch0; draw(); },
       rotate: function (dy, dp) { yaw += dy || 0; pitch = S1.util.clamp(pitch + (dp || 0), -1.5, 1.5); draw(); },
-      spin: setSpin, redraw: draw
+      spin: setSpin, redraw: draw,
+      /** Stop turning and remove every listener and observer. Called automatically once the canvas has left the page. */
+      destroy: destroy
     };
   }
 
+  /* ---------- Declarative figures: <span data-s1-mol="lewis" data-spec='{…}'> ------------- */
+  var presets = {};
+  /** S1.mol.define('nh3-lewis', {kind: 'lewis', central: 'N', outer: ['H','H','H'], centralLone: 1, label: '…'}) */
+  function define(name, spec) { presets[name] = spec; }
+  function drawFigures(root) {
+    if (!root.querySelectorAll) return;
+    Array.prototype.forEach.call(root.querySelectorAll('[data-s1-mol]:not([data-s1-ready]), [data-s1-mol-ref]:not([data-s1-ready])'), function (n) {
+      n.setAttribute('data-s1-ready', '');
+      var ref = n.getAttribute('data-s1-mol-ref'), spec = ref ? presets[ref] : null, raw = n.getAttribute('data-spec');
+      try { if (raw) spec = JSON.parse(raw); } catch (e) { spec = null; if (window.console) console.warn('[S1.mol] data-spec is not valid JSON:', raw); }
+      if (!spec) { if (window.console && ref) console.warn('[S1.mol] no figure defined with the name "' + ref + '"'); return; }
+      var kind = n.getAttribute('data-s1-mol') || spec.kind || 'lewis';
+      if (n.tagName === 'SPAN') n.classList.add('mol--inline');
+      if (n.getAttribute('data-label') && !spec.label) spec = Object.assign({}, spec, { label: n.getAttribute('data-label') });
+      try {
+        if (kind === 'structural') structural(n, spec); else if (kind === 'skeletal') skeletal(n, spec);
+        else if (kind === 'viewer3d' || kind === '3d') viewer3d(n, spec.domains ? vsepr(spec) : spec); else lewis(n, spec);
+      } catch (err) { if (window.console) console.warn('[S1.mol] could not draw figure', err); }
+    });
+  }
+  if (S1.onFormat) S1.onFormat(drawFigures); else S1.onEnhance(drawFigures);
+
   S1.mol = {
+    define: define, drawFigures: drawFigures,
     lewis: lewis, structural: structural, skeletal: skeletal, viewer3d: viewer3d, vsepr: vsepr,
     centralSpec: centralSpec, chainSpec: chainSpec, zigzag: zigzag,
     SHAPES: SHAPES, CPK: CPK
