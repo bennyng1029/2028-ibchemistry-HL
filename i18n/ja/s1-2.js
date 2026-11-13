@@ -667,7 +667,7 @@ S1.i18n.register('ja', 's1-2', {
     "Mass spectrum reader": "質量スペクトルを読もう",
 
     // Mass spectra > widget > Additional HL > figcaption
-    "Choose a sample, read the peaks, calculate the relative atomic mass and check it. Switch the peak heights to “tallest peak = 100” to practise dividing by the total. Then try a mystery element: use your answer and the periodic table to identify it. The spectra are drawn to scale from typical natural abundances, for ions with a 1+ charge.": "試料を選び、ピークを読み取り、相対原子質量を計算して、答えを確かめましょう。ピークの高さを「いちばん高いピーク = 100」に切り替えると、合計で割る練習ができます。そのあと、なぞの元素に挑戦しましょう。自分の答えと周期表を使って、元素を特定します。スペクトルは、電荷 1+ のイオンについて、代表的な天然の存在比から正しい縮尺で描いてあります。",
+    "Choose a sample, read the peaks, calculate the relative atomic mass and check it. Switch the peak heights to “tallest peak = 100” to practise dividing by the total. Then try a mystery element: use your answer and the periodic table to identify it. The spectra are drawn to scale from typical natural abundances, for ions with a 1+ charge.": "試料を選び、ピークを読み取り、相対原子質量を計算して、答えを確かめましょう。ピークの高さを「最高ピーク = 100」に切り替えると、合計で割る練習ができます。そのあと、なぞの元素に挑戦しましょう。自分の答えと周期表を使って、元素を特定します。スペクトルは、電荷 1+ のイオンについて、代表的な天然の存在比から正しい縮尺で描いてあります。",
 
     // Mass spectra > worked example > Additional HL > h3
     "Relative atomic mass from a mass spectrum": "質量スペクトルから相対原子質量を求める",
@@ -966,7 +966,7 @@ S1.i18n.register('ja', 's1-2', {
     "Nucleus on your screen": "画面上の原子核",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Picture it": "たとえると",
+    "Picture it": "イメージ",
 
     // widget string (assets/js/widgets-s1-2.js)
     "Zoom in (power of ten)": "拡大（10 の何乗倍）",
@@ -1086,7 +1086,7 @@ S1.i18n.register('ja', 's1-2', {
     "Percentage abundance": "存在比（%）",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Relative abundance (tallest peak = 100)": "相対存在量（いちばん高いピーク = 100）",
+    "Relative abundance (tallest peak = 100)": "相対存在量（最高ピーク = 100）",
 
     // widget string (assets/js/widgets-s1-2.js)
     "Your <i>A</i><sub>r</sub> (2 d.p.)": "あなたの <i>A</i><sub>r</sub>（小数第 2 位まで）",
