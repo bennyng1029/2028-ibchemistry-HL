@@ -198,7 +198,7 @@ S1.i18n.register('ja', 's2-2h.q', {
       ],
       hints: [
         // EN: Chemical evidence comes from what benzene does in reactions, including the energy change of a reaction.
-        "化学的な証拠は、ベンゼンが反応でどうふるまうかから得られます。反応のエネルギー変化もふくみます。",
+        "化学的な証拠は、ベンゼンが反応でどうふるまうかから得られます。反応のエネルギー変化も含みます。",
         // EN: Physical evidence comes from measuring the molecule itself: lengths, angles, shape.
         "物理的な証拠は、分子そのものの測定から得られます。長さ、角度、形です。",
       ],
@@ -228,7 +228,7 @@ S1.i18n.register('ja', 's2-2h.q', {
       answer: "<p>物理的な証拠：6 本の炭素–炭素結合はすべて同じ長さ（約 140 pm）で、単結合と二重結合の中間である。結合が交互なら、長さが 2 種類になるはずである。化学的な証拠：ベンゼンは付加反応ではなく置換反応をするので、アルケンのようにはふるまわない。結合は、6 個の炭素原子の環と、環全体に広がって非局在化した 6 個の π 電子として説明される。</p>",
       markscheme: [
         // EN: Physical evidence: all carbon–carbon bond lengths are equal / intermediate between single and double (accept: regular planar hexagon, all bond angles 120°).
-        "物理的な証拠：炭素–炭素結合の長さがすべて等しい / 単結合と二重結合の中間である（「平面の正六角形で、結合角がすべて 120°」も可）。",
+        "物理的な証拠：炭素–炭素結合の長探すべて等しい / 単結合と二重結合の中間である（「平面の正六角形で、結合角がすべて 120°」も可）。",
         // EN: Chemical evidence: undergoes substitution rather than addition / does not readily decolourize bromine water (accept: enthalpy of hydrogenation less exothermic than expected for three C=C).
         "化学的な証拠：付加反応ではなく置換反応をする / 臭素水を簡単には脱色しない（「水素化エンタルピーの発熱が、C=C 3 つの予想より小さい」も可）。",
         // EN: Bonding: delocalized π electrons (spread over all six carbon atoms / the ring). The word “π” (or “pi”) is needed.
@@ -322,7 +322,7 @@ S1.i18n.register('ja', 's2-2h.q', {
       stem: "<p><span class=\"chem\">SF6</span> の分子の形と、隣り合う結合の間の F–S–F 結合角は、どれですか。</p>",
       options: [
         // EN: Tetrahedral; 109.5°
-        "正四面体形、109.5°",
+        "四面体形、109.5°",
         // EN: Trigonal bipyramidal; 90° and 120°
         "三方両錐形、90° と 120°",
         // EN: Octahedral; 90°
@@ -340,7 +340,7 @@ S1.i18n.register('ja', 's2-2h.q', {
       solution: "<p>S は 6 個の価電子すべてを、6 本の S–F 結合に使います。結合の領域が 6 つで非共有電子対がないので、分子は正八面体形です。隣り合う結合は 90° の向きです。</p>",
       misconception: {
         // EN (option A): Tetrahedral is for four electron domains. Sulfur here has six bonds.
-        "0": "正四面体形は、電子領域が 4 つのときの形です。この硫黄には結合が 6 本あります。",
+        "0": "四面体形は、電子領域が 4 つのときの形です。この硫黄には結合が 6 本あります。",
         // EN (option B): Trigonal bipyramidal is for five electron domains. Count the fluorine atoms: there are six.
         "1": "三方両錐形は、電子領域が 5 つのときの形です。フッ素原子を数えましょう。6 個です。",
         // EN (option D): Electron domains spread out in three dimensions to get as far apart as possible. Six domains in one flat plane would be only 60° apart.
@@ -354,7 +354,7 @@ S1.i18n.register('ja', 's2-2h.q', {
       stem: "<p><span class=\"chem\">SF4</span> の電子領域の配置と分子の形は、どれですか。</p>",
       options: [
         // EN: Electron domain geometry: tetrahedral. Molecular geometry: tetrahedral.
-        "電子領域の配置：正四面体形。分子の形：正四面体形。",
+        "電子領域の配置：四面体形。分子の形：四面体形。",
         // EN: Electron domain geometry: trigonal bipyramidal. Molecular geometry: trigonal bipyramidal.
         "電子領域の配置：三方両錐形。分子の形：三方両錐形。",
         // EN: Electron domain geometry: trigonal bipyramidal. Molecular geometry: seesaw.
@@ -386,7 +386,7 @@ S1.i18n.register('ja', 's2-2h.q', {
       stem: "<p><span class=\"chem\">XeF4</span> の分子の形と、隣り合う結合の間の F–Xe–F 結合角は、どれですか。</p>",
       options: [
         // EN: Tetrahedral; 109.5°
-        "正四面体形、109.5°",
+        "四面体形、109.5°",
         // EN: Square planar; 90°
         "平面正方形、90°",
         // EN: Seesaw; less than 90° and less than 120°
@@ -530,7 +530,7 @@ S1.i18n.register('ja', 's2-2h.q', {
         // EN: <span class="chem">IF4+</span>: seesaw. <span class="chem">IF4-</span>: square planar.
         "<span class=\"chem\">IF4+</span>：シーソー形。<span class=\"chem\">IF4-</span>：平面正方形。",
         // EN: <span class="chem">IF4+</span>: tetrahedral. <span class="chem">IF4-</span>: tetrahedral.
-        "<span class=\"chem\">IF4+</span>：正四面体形。<span class=\"chem\">IF4-</span>：正四面体形。",
+        "<span class=\"chem\">IF4+</span>：四面体形。<span class=\"chem\">IF4-</span>：四面体形。",
         // EN: <span class="chem">IF4+</span>: square planar. <span class="chem">IF4-</span>: seesaw.
         "<span class=\"chem\">IF4+</span>：平面正方形。<span class=\"chem\">IF4-</span>：シーソー形。",
         // EN: <span class="chem">IF4+</span>: seesaw. <span class="chem">IF4-</span>: seesaw.
@@ -546,7 +546,7 @@ S1.i18n.register('ja', 's2-2h.q', {
       solution: "<div class=\"worked__math\">IF<sub>4</sub><sup>+</sup>：7 + 4 − 1 = 10 個の電子 = 5 領域 = 結合 4 本 + 非共有電子対 1 組</div><div class=\"worked__math\">IF<sub>4</sub><sup>−</sup>：7 + 4 + 1 = 12 個の電子 = 6 領域 = 結合 4 本 + 非共有電子対 2 組</div><p>領域が 5 つで非共有電子対が 1 組：シーソー形。領域が 6 つで非共有電子対が 2 組：平面正方形。</p>",
       misconception: {
         // EN (option B): This counts only the four bonds. Iodine has lone pairs in both ions. Count all the electrons around iodine, including the charge.
-        "1": "これは 4 本の結合だけを数えています。どちらのイオンでも、ヨウ素には非共有電子対があります。電荷もふくめて、ヨウ素のまわりの電子をすべて数えましょう。",
+        "1": "これは 4 本の結合だけを数えています。どちらのイオンでも、ヨウ素には非共有電子対があります。電荷も含めて、ヨウ素のまわりの電子をすべて数えましょう。",
         // EN (option C): The charges are the wrong way round. A positive charge means one electron fewer; a negative charge means one electron more.
         "2": "電荷の扱いが逆です。正の電荷は電子が 1 個少ないこと、負の電荷は電子が 1 個多いことを表します。",
         // EN (option D): This ignores the charge. The two ions have different numbers of electrons around iodine, so they have different numbers of lone pairs.
@@ -557,7 +557,7 @@ S1.i18n.register('ja', 's2-2h.q', {
     // ── s2-2h-q020 · short · challenge · AHL · Structure 2.2.13 · 4 marks
     "s2-2h-q020": {
       // EN: <p>Solid phosphorus(V) chloride contains the ions <span class="chem">PCl4+</span> and <span class="chem">PCl6-</span>.</p><p>Deduce the molecular geometry and the Cl–P–Cl bond angle (between neighbouring bonds) of each ion. Show how you counted the electron domains.</p>
-      stem: "<p>固体の塩化リン(V) には、<span class=\"chem\">PCl4+</span> と <span class=\"chem\">PCl6-</span> というイオンがふくまれています。</p><p>それぞれのイオンの分子の形と、（隣り合う結合の間の）Cl–P–Cl 結合角を導きなさい (deduce)。電子領域をどう数えたかも示しましょう。</p>",
+      stem: "<p>固体の塩化リン(V) には、<span class=\"chem\">PCl4+</span> と <span class=\"chem\">PCl6-</span> というイオンが含まれています。</p><p>それぞれのイオンの分子の形と、（隣り合う結合の間の）Cl–P–Cl 結合角を導きなさい (deduce)。電子領域をどう数えたかも示しましょう。</p>",
       hints: [
         // EN: Electrons around P = 5 (its own) + 1 from each Cl, then adjust for the charge.
         "P のまわりの電子 = 5（P 自身）+ Cl 1 個につき 1。そのあと、電荷の分を調整します。",
@@ -804,7 +804,7 @@ S1.i18n.register('ja', 's2-2h.q', {
       ],
       hints: [
         // EN: Draw every bond, including the three C–H bonds.
-        "3 本の C–H 結合もふくめて、結合をすべて描きましょう。",
+        "3 本の C–H 結合も含めて、結合をすべて描きましょう。",
         // EN: Double bond = 1 σ + 1 π. Triple bond = 1 σ + 2 π.
         "二重結合 = 1 σ + 1 π。三重結合 = 1 σ + 2 π。",
       ],
@@ -872,7 +872,7 @@ S1.i18n.register('ja', 's2-2h.q', {
         // EN: Draw the full structural formula. There are 5 carbon atoms, 4 hydrogen atoms and 1 oxygen atom.
         "完全な構造式を描きましょう。炭素原子が 5 個、水素原子が 4 個、酸素原子が 1 個あります。",
         // EN: Each multiple bond contains exactly one σ bond. Each C–H bond is a σ bond.
-        "多重結合には、どれも σ 結合がちょうど 1 本ふくまれます。C–H 結合はどれも σ 結合です。",
+        "多重結合には、どれも σ 結合がちょうど 1 本含まれます。C–H 結合はどれも σ 結合です。",
       ],
       // EN: <div class="worked__math">C–H: 4; C≡C: 1 σ; C–C: 2; C=C: 1 σ; C=O: 1 σ</div><div class="worked__math">Total = 4 + 1 + 2 + 1 + 1 = <b>9 σ bonds</b></div><p>Check: 10 atoms and no rings gives 10 − 1 = 9 σ bonds. The molecule also has 2 + 1 + 1 = 4 π bonds.</p>
       solution: "<div class=\"worked__math\">C–H：4；C≡C：1 σ；C–C：2；C=C：1 σ；C=O：1 σ</div><div class=\"worked__math\">合計 = 4 + 1 + 2 + 1 + 1 = <b>σ 結合 9 本</b></div><p>確認：原子が 10 個で環がないので、σ 結合は 10 − 1 = 9 本です。この分子には π 結合も 2 + 1 + 1 = 4 本あります。</p>",
@@ -1026,10 +1026,10 @@ S1.i18n.register('ja', 's2-2h.q', {
         // EN: Count the electron domains around a carbon atom in ethene, then in ethane.
         "エテンの炭素原子のまわりの電子領域を数え、次にエタンでも数えましょう。",
         // EN: Match each hybridization to its geometry: sp<sup>2</sup> trigonal planar, sp<sup>3</sup> tetrahedral.
-        "それぞれの混成を形と結びつけましょう。sp<sup>2</sup> は平面三角形、sp<sup>3</sup> は正四面体形です。",
+        "それぞれの混成を形と結びつけましょう。sp<sup>2</sup> は平面三角形、sp<sup>3</sup> は四面体形です。",
       ],
       // EN: <p>In ethene each carbon has three domains: sp<sup>2</sup>, trigonal planar, about 120°. In ethane each carbon has four domains: sp<sup>3</sup>, tetrahedral, about 109.5°. The π bond is lost and two new σ C–H bonds form.</p>
-      solution: "<p>エテンでは、どちらの炭素も領域が 3 つです。sp<sup>2</sup>、平面三角形、約 120° です。エタンでは、どちらの炭素も領域が 4 つです。sp<sup>3</sup>、正四面体形、約 109.5° です。π 結合がなくなり、新しい C–H の σ 結合が 2 本できます。</p>",
+      solution: "<p>エテンでは、どちらの炭素も領域が 3 つです。sp<sup>2</sup>、平面三角形、約 120° です。エタンでは、どちらの炭素も領域が 4 つです。sp<sup>3</sup>、四面体形、約 109.5° です。π 結合がなくなり、新しい C–H の σ 結合が 2 本できます。</p>",
       misconception: {
         // EN (option B): The hybridization is right but the angles are the wrong way round. sp<sup>2</sup> goes with 120° and sp<sup>3</sup> with 109.5°.
         "1": "混成は合っていますが、角度が逆です。sp<sup>2</sup> には 120°、sp<sup>3</sup> には 109.5° が対応します。",

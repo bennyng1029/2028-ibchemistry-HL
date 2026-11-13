@@ -535,14 +535,14 @@ S1.i18n.register('ja', 's1-3.q', {
         "クロムと銅の 2 つは、ふつうの電子の入る順の例外です。",
       ],
       // EN: <p>Chromium has 24 electrons: the argon core (18) plus 6. The usual order predicts <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>4</sup></span>, but chromium is an exception. Its ground state is <span class="mono">[Ar] 4s<sup>1</sup> 3d<sup>5</sup></span>. (Writing it as <span class="mono">[Ar] 3d<sup>5</sup> 4s<sup>1</sup></span> is also accepted.)</p>
-      solution: "<p>クロムの電子は 24 個です。アルゴンの電子配置（芯）の 18 個に 6 個を足します。ふつうの順では <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>4</sup></span> と予想されますが、クロムは例外です。基底状態は <span class=\"mono\">[Ar] 4s<sup>1</sup> 3d<sup>5</sup></span> です。（<span class=\"mono\">[Ar] 3d<sup>5</sup> 4s<sup>1</sup></span> と書いても正解です。）</p>",
+      solution: "<p>クロムの電子は 24 個です。アルゴンの芯の 18 個に 6 個を足します。ふつうの順では <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>4</sup></span> と予想されますが、クロムは例外です。基底状態は <span class=\"mono\">[Ar] 4s<sup>1</sup> 3d<sup>5</sup></span> です。（<span class=\"mono\">[Ar] 3d<sup>5</sup> 4s<sup>1</sup></span> と書いても正解です。）</p>",
       misconception: {
         // EN (option A): This is what the usual filling order predicts, but chromium is one of the two exceptions you must know.
         "0": "ふつうの順ではこうなりますが、クロムは覚えておくべき 2 つの例外の 1 つです。",
         // EN (option C): This has the right number of electrons, but the 4s orbital is not empty in a chromium atom.
         "2": "電子の数は合っていますが、クロム原子の 4s 軌道は空ではありません。",
         // EN (option D): The noble gas core must be the noble gas <em>before</em> the element. Krypton (Z = 36) comes after chromium.
-        "3": "貴ガスの電子配置（芯）には、その元素より<em>前</em>の貴ガスを使います。クリプトン（Z = 36）はクロムより後にあります。",
+        "3": "貴ガスの芯には、その元素より<em>前</em>の貴ガスを使います。クリプトン（Z = 36）はクロムより後にあります。",
       },
     },
 
@@ -567,7 +567,7 @@ S1.i18n.register('ja', 's1-3.q', {
         "クロムと銅の 2 つは、ふつうの電子の入る順の例外です。",
       ],
       // EN: <p>Copper has 29 electrons. The usual order predicts <span class="mono">4s<sup>2</sup> 3d<sup>9</sup></span> after the argon core, but copper is an exception. Its ground state is</p><div class="worked__math"><span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>1</sup> 3d<sup>10</sup></span><br>&nbsp;&nbsp;(2 + 2 + 6 + 2 + 6 + 1 + 10 = 29)</div>
-      solution: "<p>銅の電子は 29 個です。ふつうの順では、アルゴンの電子配置（芯）の後は <span class=\"mono\">4s<sup>2</sup> 3d<sup>9</sup></span> と予想されますが、銅は例外です。基底状態は次のとおりです。</p><div class=\"worked__math\"><span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>1</sup> 3d<sup>10</sup></span><br>&nbsp;&nbsp;(2 + 2 + 6 + 2 + 6 + 1 + 10 = 29)</div>",
+      solution: "<p>銅の電子は 29 個です。ふつうの順では、アルゴンの芯の後は <span class=\"mono\">4s<sup>2</sup> 3d<sup>9</sup></span> と予想されますが、銅は例外です。基底状態は次のとおりです。</p><div class=\"worked__math\"><span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>1</sup> 3d<sup>10</sup></span><br>&nbsp;&nbsp;(2 + 2 + 6 + 2 + 6 + 1 + 10 = 29)</div>",
       misconception: {
         // EN (option A): This is what the usual filling order predicts, but copper is one of the two exceptions you must know.
         "0": "ふつうの順ではこうなりますが、銅は覚えておくべき 2 つの例外の 1 つです。",
@@ -1050,10 +1050,10 @@ S1.i18n.register('ja', 's1-3.q', {
         // EN: Look for the place where the ionization energy suddenly becomes several times larger.
         "イオン化エネルギーが急に何倍にも大きくなるところを探しましょう。",
         // EN: The number of electrons removed <em>before</em> the large jump is the number of outer electrons.
-        "大きな跳ね上がりの<em>前</em>に取り除かれた電子の数が、最外殻の電子の数です。",
+        "大きなジャンプの<em>前</em>に取り除かれた電子の数が、最外殻の電子の数です。",
       ],
       // EN: <p>Compare each value with the one before it.</p><div class="worked__math">1st → 2nd: 590 → 1145<br>&nbsp;&nbsp;(about 2 times)</div><div class="worked__math">2nd → 3rd: 1145 → 4912<br>&nbsp;&nbsp;(about 4 times: the large jump)</div><div class="worked__math">3rd → 4th: 4912 → 6491<br>&nbsp;&nbsp;(about 1.3 times)</div><p>Two electrons are removed before the large jump, so the atom has two outer electrons. The third electron comes from a main energy level closer to the nucleus. The element is in <strong>group 2</strong>. (These are the values for calcium.)</p>
-      solution: "<p>それぞれの値を、1 つ前の値とくらべます。</p><div class=\"worked__math\">第 1 → 第 2: 590 → 1145<br>&nbsp;&nbsp;（約 2 倍）</div><div class=\"worked__math\">第 2 → 第 3: 1145 → 4912<br>&nbsp;&nbsp;（約 4 倍：大きな跳ね上がり）</div><div class=\"worked__math\">第 3 → 第 4: 4912 → 6491<br>&nbsp;&nbsp;（約 1.3 倍）</div><p>大きな跳ね上がりの前に電子が 2 個取り除かれているので、この原子の最外殻の電子は 2 個です。3 個目の電子は、原子核により近い主エネルギー準位から取り除かれます。この元素は <strong>2 族</strong>です。（これはカルシウムの値です。）</p>",
+      solution: "<p>それぞれの値を、1 つ前の値とくらべます。</p><div class=\"worked__math\">第 1 → 第 2: 590 → 1145<br>&nbsp;&nbsp;（約 2 倍）</div><div class=\"worked__math\">第 2 → 第 3: 1145 → 4912<br>&nbsp;&nbsp;（約 4 倍：大きなジャンプ）</div><div class=\"worked__math\">第 3 → 第 4: 4912 → 6491<br>&nbsp;&nbsp;（約 1.3 倍）</div><p>大きなジャンプの前に電子が 2 個取り除かれているので、この原子の最外殻の電子は 2 個です。3 個目の電子は、原子核により近い主エネルギー準位から取り除かれます。この元素は <strong>2 族</strong>です。（これはカルシウムの値です。）</p>",
     },
 
     // ── s1-3-q042 · mcq · exam · AHL · Structure 1.3.7 · 1 mark
@@ -1072,19 +1072,19 @@ S1.i18n.register('ja', 's1-3.q', {
       ],
       hints: [
         // EN: Find the largest jump between two neighbouring values.
-        "となり合う 2 つの値の間で、最も大きく跳ね上がるところを見つけましょう。",
+        "となり合う 2 つの値の間で、最も大きなジャンプがあるところを見つけましょう。",
         // EN: Count the electrons removed before that jump. That is the number of outer electrons.
-        "その跳ね上がりの前に取り除かれた電子を数えます。それが最外殻の電子の数です。",
+        "そのジャンプの前に取り除かれた電子を数えます。それが最外殻の電子の数です。",
       ],
       // EN: <p>The values rise gradually up to the 4th (4356), then jump to 16 091 for the 5th. That is about 3.7 times larger. Four electrons are removed before the jump, so the atom has four outer electrons and is in group 14. The group 14 element in period 3 is <strong>silicon</strong>, <span class="mono">[Ne] 3s<sup>2</sup> 3p<sup>2</sup></span>. The 5th electron has to come from the n = 2 level.</p>
-      solution: "<p>値は 4 番目（4356）まではゆるやかに大きくなり、5 番目で 16 091 に跳ね上がります。約 3.7 倍です。跳ね上がりの前に電子が 4 個取り除かれているので、この原子の最外殻の電子は 4 個で、14 族です。第 3 周期の 14 族元素は<strong>ケイ素</strong> <span class=\"mono\">[Ne] 3s<sup>2</sup> 3p<sup>2</sup></span> です。5 個目の電子は n = 2 の準位から取り除かれます。</p>",
+      solution: "<p>値は 4 番目（4356）まではゆるやかに大きくなり、5 番目で 16 091 へ大きくジャンプします。約 3.7 倍です。ジャンプの前に電子が 4 個取り除かれているので、この原子の最外殻の電子は 4 個で、14 族です。第 3 周期の 14 族元素は<strong>ケイ素</strong> <span class=\"mono\">[Ne] 3s<sup>2</sup> 3p<sup>2</sup></span> です。5 個目の電子は n = 2 の準位から取り除かれます。</p>",
       misconception: {
         // EN (option A): Aluminium is in group 13, so its large jump comes after the 3rd electron. Here the 4th value (4356) is not much larger than the 3rd (3232).
-        "0": "アルミニウムは 13 族なので、大きな跳ね上がりは 3 個目の電子の後にきます。この表では、4 番目の値（4356）は 3 番目の値（3232）とくらべてそれほど大きくありません。",
+        "0": "アルミニウムは 13 族なので、大きなジャンプは 3 個目の電子の後にきます。この表では、4 番目の値（4356）は 3 番目の値（3232）とくらべてそれほど大きくありません。",
         // EN (option C): This counts the electron <em>after</em> the jump as an outer electron. The 5th electron is the first one taken from the inner level. Phosphorus would have its large jump after the 5th electron.
-        "2": "これは、跳ね上がりの<em>後</em>の電子を最外殻の電子として数えています。5 個目の電子は、内側の準位から取り除かれる最初の電子です。リンなら、大きな跳ね上がりは 5 個目の電子の後にきます。",
+        "2": "これは、ジャンプの<em>後</em>の電子を最外殻の電子として数えています。5 個目の電子は、内側の準位から取り除かれる最初の電子です。リンなら、大きなジャンプは 5 個目の電子の後にきます。",
         // EN (option D): Sulfur has six outer electrons, so all six of these values would rise gradually with no large jump.
-        "3": "硫黄の最外殻の電子は 6 個なので、この 6 つの値はすべてゆるやかに大きくなり、大きな跳ね上がりはないはずです。",
+        "3": "硫黄の最外殻の電子は 6 個なので、この 6 つの値はすべてゆるやかに大きくなり、大きなジャンプはないはずです。",
       },
     },
 
@@ -1104,14 +1104,14 @@ S1.i18n.register('ja', 's1-3.q', {
       ],
       hints: [
         // EN: Find the large jump for each element to get its number of outer electrons.
-        "元素ごとに大きな跳ね上がりを見つけて、最外殻の電子の数を求めます。",
+        "元素ごとに大きなジャンプを見つけて、最外殻の電子の数を求めます。",
         // EN: X is a metal and Y is a non-metal. What charge does each ion have?
         "X は金属、Y は非金属です。それぞれのイオンの電荷はいくつですか。",
         // EN: Balance the charges.
         "電荷をつり合わせます。",
       ],
       // EN: <p><strong>X:</strong> the large jump is between the 2nd (1451) and 3rd (7733) values. X has two outer electrons, so it is in group 2 and forms X<sup>2+</sup>.</p><p><strong>Y:</strong> the values rise gradually until the large jump between the 7th (11 018) and 8th (33 604). Y has seven outer electrons, so it is in group 17 and gains one electron to form Y<sup>−</sup>.</p><p>One X<sup>2+</sup> ion needs two Y<sup>−</sup> ions, so the formula is XY<sub>2</sub>. (X is magnesium and Y is chlorine: <span class="chem">MgCl2</span>.)</p>
-      solution: "<p><strong>X：</strong>大きな跳ね上がりは、2 番目（1451）と 3 番目（7733）の値の間にあります。X の最外殻の電子は 2 個なので、2 族の元素で、X<sup>2+</sup> になります。</p><p><strong>Y：</strong>値はゆるやかに大きくなり、7 番目（11 018）と 8 番目（33 604）の間で大きく跳ね上がります。Y の最外殻の電子は 7 個なので、17 族の元素で、電子を 1 個受け取って Y<sup>−</sup> になります。</p><p>X<sup>2+</sup> イオン 1 個に対して Y<sup>−</sup> イオンが 2 個必要なので、化学式は XY<sub>2</sub> です。（X はマグネシウム、Y は塩素で、<span class=\"chem\">MgCl2</span> です。）</p>",
+      solution: "<p><strong>X：</strong>大きなジャンプは、2 番目（1451）と 3 番目（7733）の値の間にあります。X の最外殻の電子は 2 個なので、2 族の元素で、X<sup>2+</sup> になります。</p><p><strong>Y：</strong>値はゆるやかに大きくなり、7 番目（11 018）と 8 番目（33 604）の間に大きなジャンプがあります。Y の最外殻の電子は 7 個なので、17 族の元素で、電子を 1 個受け取って Y<sup>−</sup> になります。</p><p>X<sup>2+</sup> イオン 1 個に対して Y<sup>−</sup> イオンが 2 個必要なので、化学式は XY<sub>2</sub> です。（X はマグネシウム、Y は塩素で、<span class=\"chem\">MgCl2</span> です。）</p>",
       misconception: {
         // EN (option A): A 1 : 1 formula needs charges of equal size. X has two outer electrons and forms a 2+ ion. Y has seven outer electrons and gains one electron to form a 1− ion.
         "0": "1 : 1 の化学式になるのは、電荷の大きさが等しいときです。X の最外殻の電子は 2 個で、2+ のイオンになります。Y の最外殻の電子は 7 個で、電子を 1 個受け取って 1− のイオンになります。",
@@ -1167,21 +1167,21 @@ S1.i18n.register('ja', 's1-3.q', {
         "13〜18 族では、族の番号 = 10 + 最外殻の電子の数 です。",
       ],
       // EN: <p>The first five points rise gently. Between the 5th and 6th points the graph steps up sharply. On a log scale, a step of about 0.5 means the value becomes about 3 times larger. So five electrons are removed before the large jump: the atom has five outer electrons and the element is in <strong>group 15</strong>. (The data are for phosphorus, <span class="mono">[Ne] 3s<sup>2</sup> 3p<sup>3</sup></span>.)</p><p>A log scale is used because successive ionization energies cover a very wide range. On an ordinary scale the first few points would be squashed together at the bottom of the graph.</p>
-      solution: "<p>はじめの 5 つの点はゆるやかに上がります。5 番目と 6 番目の点の間で、グラフは急に上がります。対数目盛で約 0.5 上がると、値は約 3 倍になります。つまり、大きな跳ね上がりの前に電子が 5 個取り除かれています。この原子の最外殻の電子は 5 個で、元素は <strong>15 族</strong>です。（このデータはリン <span class=\"mono\">[Ne] 3s<sup>2</sup> 3p<sup>3</sup></span> のものです。）</p><p>対数目盛を使うのは、逐次イオン化エネルギーの値の範囲がとても広いからです。ふつうの目盛では、はじめのいくつかの点がグラフの下のほうに押しつぶされてしまいます。</p>",
+      solution: "<p>はじめの 5 つの点はゆるやかに上がります。5 番目と 6 番目の点の間で、グラフは急に上がります。対数目盛で約 0.5 上がると、値は約 3 倍になります。つまり、大きなジャンプの前に電子が 5 個取り除かれています。この原子の最外殻の電子は 5 個で、元素は <strong>15 族</strong>です。（このデータはリン <span class=\"mono\">[Ne] 3s<sup>2</sup> 3p<sup>3</sup></span> のものです。）</p><p>対数目盛を使うのは、逐次イオン化エネルギーの値の範囲がとても広いからです。ふつうの目盛では、はじめのいくつかの点がグラフの下のほうに押しつぶされてしまいます。</p>",
       misconception: {
         // EN (option A): A group 13 element has three outer electrons, so the large jump would come between the 3rd and 4th points. Here those points rise gently.
-        "0": "13 族の元素の最外殻の電子は 3 個なので、大きな跳ね上がりは 3 番目と 4 番目の点の間にくるはずです。このグラフでは、その 2 点はゆるやかに上がっています。",
+        "0": "13 族の元素の最外殻の電子は 3 個なので、大きなジャンプは 3 番目と 4 番目の点の間にくるはずです。このグラフでは、その 2 点はゆるやかに上がっています。",
         // EN (option B): A group 14 element has four outer electrons, so the large jump would come between the 4th and 5th points. Count the points before the jump again.
-        "1": "14 族の元素の最外殻の電子は 4 個なので、大きな跳ね上がりは 4 番目と 5 番目の点の間にくるはずです。跳ね上がりの前の点をもう一度数えましょう。",
+        "1": "14 族の元素の最外殻の電子は 4 個なので、大きなジャンプは 4 番目と 5 番目の点の間にくるはずです。ジャンプの前の点をもう一度数えましょう。",
         // EN (option D): This counts the 6th electron as an outer electron. The 6th electron is the first one <em>after</em> the jump, so it comes from the inner level.
-        "3": "これは、6 個目の電子を最外殻の電子として数えています。6 個目の電子は、跳ね上がりの<em>後</em>の最初の電子なので、内側の準位の電子です。",
+        "3": "これは、6 個目の電子を最外殻の電子として数えています。6 個目の電子は、ジャンプの<em>後</em>の最初の電子なので、内側の準位の電子です。",
       },
     },
 
     // ── s1-3-q046 · mcq · challenge · AHL · Structure 1.3.7 · 1 mark
     "s1-3-q046": {
       // EN: <p>An element has twelve successive ionization energies. There are only two large jumps. Some of the values are shown.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Successive ionization energies / kJ mol<sup>−1</sup></caption><thead><tr><th scope="col"></th><th class="num" scope="col">2nd</th><th class="num" scope="col">3rd</th><th class="num" scope="col">10th</th><th class="num" scope="col">11th</th></tr></thead><tbody><tr><th scope="row">IE</th><td class="num">1451</td><td class="num">7733</td><td class="num">35 458</td><td class="num">169 988</td></tr></tbody></table></div><p>Which arrangement of electrons in main energy levels fits these data?</p>
-      stem: "<p>ある元素には、逐次イオン化エネルギーが 12 個あります。大きな跳ね上がりは 2 か所だけです。値の一部を表に示します。</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>逐次イオン化エネルギー / kJ mol<sup>−1</sup></caption><thead><tr><th scope=\"col\"></th><th class=\"num\" scope=\"col\">第 2</th><th class=\"num\" scope=\"col\">第 3</th><th class=\"num\" scope=\"col\">第 10</th><th class=\"num\" scope=\"col\">第 11</th></tr></thead><tbody><tr><th scope=\"row\">IE</th><td class=\"num\">1451</td><td class=\"num\">7733</td><td class=\"num\">35 458</td><td class=\"num\">169 988</td></tr></tbody></table></div><p>主エネルギー準位への電子の入り方のうち、このデータに合うものはどれですか。</p>",
+      stem: "<p>ある元素には、逐次イオン化エネルギーが 12 個あります。大きなジャンプは 2 か所だけです。値の一部を表に示します。</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>逐次イオン化エネルギー / kJ mol<sup>−1</sup></caption><thead><tr><th scope=\"col\"></th><th class=\"num\" scope=\"col\">第 2</th><th class=\"num\" scope=\"col\">第 3</th><th class=\"num\" scope=\"col\">第 10</th><th class=\"num\" scope=\"col\">第 11</th></tr></thead><tbody><tr><th scope=\"row\">IE</th><td class=\"num\">1451</td><td class=\"num\">7733</td><td class=\"num\">35 458</td><td class=\"num\">169 988</td></tr></tbody></table></div><p>主エネルギー準位への電子の入り方のうち、このデータに合うものはどれですか。</p>",
       options: [
         // EN: n = 1: 2 electrons. n = 2: 8 electrons. n = 3: 2 electrons.
         "n = 1：電子 2 個。n = 2：電子 8 個。n = 3：電子 2 個。",
@@ -1196,19 +1196,19 @@ S1.i18n.register('ja', 's1-3.q', {
         // EN: Twelve ionization energies means twelve electrons.
         "イオン化エネルギーが 12 個あるということは、電子が 12 個あるということです。",
         // EN: Each large jump marks the start of a new main energy level, closer to the nucleus.
-        "大きな跳ね上がりは、原子核により近い新しい主エネルギー準位の始まりを示します。",
+        "大きなジャンプは、原子核により近い新しい主エネルギー準位の始まりを示します。",
         // EN: The first electrons removed are the outermost ones.
         "最初に取り除かれるのは、いちばん外側の電子です。",
       ],
       // EN: <p>Twelve ionization energies means the atom has twelve electrons. The jumps split them into three groups:</p><div class="worked__math">electrons 1 and 2: easiest to remove → outer level (n&nbsp;=&nbsp;3)</div><div class="worked__math">large jump (1451 → 7733)</div><div class="worked__math">electrons 3 to 10: eight electrons → next level in (n&nbsp;=&nbsp;2)</div><div class="worked__math">large jump (35 458 → 169 988)</div><div class="worked__math">electrons 11 and 12: hardest to remove → closest to the nucleus (n&nbsp;=&nbsp;1)</div><p>So the arrangement is 2, 8, 2: the element is magnesium, <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup></span>, in group 2 and period 3.</p>
-      solution: "<p>イオン化エネルギーが 12 個あるので、この原子の電子は 12 個です。跳ね上がりによって、電子は 3 つの組に分かれます。</p><div class=\"worked__math\">電子 1 と 2：最も取り除きやすい → 最外殻の準位 (n&nbsp;=&nbsp;3)</div><div class=\"worked__math\">大きな跳ね上がり (1451 → 7733)</div><div class=\"worked__math\">電子 3〜10：8 個の電子 → 1 つ内側の準位 (n&nbsp;=&nbsp;2)</div><div class=\"worked__math\">大きな跳ね上がり (35 458 → 169 988)</div><div class=\"worked__math\">電子 11 と 12：最も取り除きにくい → 原子核に最も近い準位 (n&nbsp;=&nbsp;1)</div><p>したがって、電子の入り方は 2、8、2 です。この元素はマグネシウム <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup></span> で、2 族、第 3 周期の元素です。</p>",
+      solution: "<p>イオン化エネルギーが 12 個あるので、この原子の電子は 12 個です。ジャンプによって、電子は 3 つの組に分かれます。</p><div class=\"worked__math\">電子 1 と 2：最も取り除きやすい → 最外殻の準位 (n&nbsp;=&nbsp;3)</div><div class=\"worked__math\">大きなジャンプ (1451 → 7733)</div><div class=\"worked__math\">電子 3〜10：8 個の電子 → 1 つ内側の準位 (n&nbsp;=&nbsp;2)</div><div class=\"worked__math\">大きなジャンプ (35 458 → 169 988)</div><div class=\"worked__math\">電子 11 と 12：最も取り除きにくい → 原子核に最も近い準位 (n&nbsp;=&nbsp;1)</div><p>したがって、電子の入り方は 2、8、2 です。この元素はマグネシウム <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup></span> で、2 族、第 3 周期の元素です。</p>",
       misconception: {
         // EN (option B): The right numbers in the wrong order. The first electrons to be removed are the outer ones, so the group of 2 before the first jump is in the highest level, not the middle one.
-        "1": "数は合っていますが、順番が違います。最初に取り除かれるのは最外殻の電子です。したがって、最初の跳ね上がりの前の 2 個の組は、真ん中の準位ではなく、最も高い準位にあります。",
+        "1": "数は合っていますが、順番が違います。最初に取り除かれるのは最外殻の電子です。したがって、最初のジャンプの前の 2 個の組は、真ん中の準位ではなく、最も高い準位にあります。",
         // EN (option C): This uses only the first jump. The second jump, between the 10th and 11th values, shows that the ten inner electrons are in two different main energy levels.
-        "2": "これは 1 つ目の跳ね上がりしか使っていません。10 番目と 11 番目の値の間にある 2 つ目の跳ね上がりから、内側の 10 個の電子が 2 つの異なる主エネルギー準位にあることがわかります。",
+        "2": "これは 1 つ目のジャンプしか使っていません。10 番目と 11 番目の値の間にある 2 つ目のジャンプから、内側の 10 個の電子が 2 つの異なる主エネルギー準位にあることがわかります。",
         // EN (option D): This uses only the second jump. The first jump, between the 2nd and 3rd values, shows that the first two electrons are in a different main energy level from the next eight.
-        "3": "これは 2 つ目の跳ね上がりしか使っていません。2 番目と 3 番目の値の間にある 1 つ目の跳ね上がりから、はじめの 2 個の電子は、次の 8 個とは別の主エネルギー準位にあることがわかります。",
+        "3": "これは 2 つ目のジャンプしか使っていません。2 番目と 3 番目の値の間にある 1 つ目のジャンプから、はじめの 2 個の電子は、次の 8 個とは別の主エネルギー準位にあることがわかります。",
       },
     },
 
@@ -1538,15 +1538,15 @@ S1.i18n.register('ja', 's1-3.q', {
         // EN: Argon accounts for 18 electrons, so 16 more are needed.
         "アルゴンの分が 18 個なので、あと 16 個必要です。",
         // EN: After the argon core the order is 4s, then 3d, then 4p.
-        "アルゴンの電子配置（芯）の後は、4s、3d、4p の順です。",
+        "アルゴンの芯の後は、4s、3d、4p の順です。",
       ],
       // EN: <p>Selenium has 34 electrons: the argon core (18) plus 16.</p><div class="worked__math">4s<sup>2</sup> (2) &nbsp; 3d<sup>10</sup> (12) &nbsp; 4p<sup>4</sup> (16)</div><div class="worked__math"><span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>4</sup></span><br>&nbsp;&nbsp;(18 + 2 + 10 + 4 = 34)</div><p>Writing it as <span class="mono">[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>4</sup></span> is also accepted.</p>
-      solution: "<p>セレンの電子は 34 個です。アルゴンの電子配置（芯）の 18 個と、残りの 16 個です。</p><div class=\"worked__math\">4s<sup>2</sup> (2) &nbsp; 3d<sup>10</sup> (12) &nbsp; 4p<sup>4</sup> (16)</div><div class=\"worked__math\"><span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>4</sup></span><br>&nbsp;&nbsp;(18 + 2 + 10 + 4 = 34)</div><p><span class=\"mono\">[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>4</sup></span> と書いても正解です。</p>",
+      solution: "<p>セレンの電子は 34 個です。アルゴンの芯の 18 個と、残りの 16 個です。</p><div class=\"worked__math\">4s<sup>2</sup> (2) &nbsp; 3d<sup>10</sup> (12) &nbsp; 4p<sup>4</sup> (16)</div><div class=\"worked__math\"><span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>4</sup></span><br>&nbsp;&nbsp;(18 + 2 + 10 + 4 = 34)</div><p><span class=\"mono\">[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>4</sup></span> と書いても正解です。</p>",
       misconception: {
         // EN (option A): Count the electrons: 18 + 2 + 4 = 24. The ten 3d electrons are missing. The 3d sublevel fills before 4p.
         "0": "電子を数えましょう。18 + 2 + 4 = 24 です。3d の電子 10 個が抜けています。3d 副準位は 4p より先に満たされます。",
         // EN (option C): The noble gas core must be the noble gas <em>before</em> the element. Krypton (Z = 36) comes after selenium.
-        "2": "貴ガスの電子配置（芯）には、その元素より<em>前</em>の貴ガスを使います。クリプトン（Z = 36）はセレンより後にあります。",
+        "2": "貴ガスの芯には、その元素より<em>前</em>の貴ガスを使います。クリプトン（Z = 36）はセレンより後にあります。",
         // EN (option D): Count the electrons: 18 + 2 + 10 + 6 = 36. That is krypton (or the ion <span class="chem">Se^2-</span>), not a selenium atom.
         "3": "電子を数えましょう。18 + 2 + 10 + 6 = 36 です。これはクリプトン（またはイオン <span class=\"chem\">Se^2-</span>）で、セレン原子ではありません。",
       },
@@ -1752,17 +1752,17 @@ S1.i18n.register('ja', 's1-3.q', {
         // EN: Compare each value with the one before it. Where does it become many times larger?
         "それぞれの値を 1 つ前の値とくらべましょう。何倍にも大きくなるのはどこですか。",
         // EN: The number of electrons removed <em>before</em> the large jump is the number of outer electrons.
-        "大きな跳ね上がりの<em>前</em>に取り除かれた電子の数が、最外殻の電子の数です。",
+        "大きなジャンプの<em>前</em>に取り除かれた電子の数が、最外殻の電子の数です。",
       ],
       // EN: <div class="worked__math">1st → 2nd: 496 → 4562<br>&nbsp;&nbsp;(about 9 times: the large jump)</div><div class="worked__math">2nd → 3rd: 4562 → 6910<br>&nbsp;&nbsp;(about 1.5 times)</div><div class="worked__math">3rd → 4th: 6910 → 9543<br>&nbsp;&nbsp;(about 1.4 times)</div><p>Only one electron is removed before the large jump, so the atom has one outer electron. The element is in <strong>group 1</strong>. (These are the values for sodium.)</p>
-      solution: "<div class=\"worked__math\">第 1 → 第 2: 496 → 4562<br>&nbsp;&nbsp;（約 9 倍：大きな跳ね上がり）</div><div class=\"worked__math\">第 2 → 第 3: 4562 → 6910<br>&nbsp;&nbsp;（約 1.5 倍）</div><div class=\"worked__math\">第 3 → 第 4: 6910 → 9543<br>&nbsp;&nbsp;（約 1.4 倍）</div><p>大きな跳ね上がりの前に取り除かれる電子は 1 個だけなので、この原子の最外殻の電子は 1 個です。この元素は <strong>1 族</strong>です。（これはナトリウム (Na) の値です。）</p>",
+      solution: "<div class=\"worked__math\">第 1 → 第 2: 496 → 4562<br>&nbsp;&nbsp;（約 9 倍：大きなジャンプ）</div><div class=\"worked__math\">第 2 → 第 3: 4562 → 6910<br>&nbsp;&nbsp;（約 1.5 倍）</div><div class=\"worked__math\">第 3 → 第 4: 6910 → 9543<br>&nbsp;&nbsp;（約 1.4 倍）</div><p>大きなジャンプの前に取り除かれる電子は 1 個だけなので、この原子の最外殻の電子は 1 個です。この元素は <strong>1 族</strong>です。（これはナトリウム (Na) の値です。）</p>",
       misconception: {
         // EN (option B): A group 2 element has two outer electrons, so its large jump comes between the 2nd and 3rd values. Here 6910 is only about 1.5 times 4562.
-        "1": "2 族の元素の最外殻の電子は 2 個なので、大きな跳ね上がりは 2 番目と 3 番目の値の間にきます。この表では、6910 は 4562 の約 1.5 倍しかありません。",
+        "1": "2 族の元素の最外殻の電子は 2 個なので、大きなジャンプは 2 番目と 3 番目の値の間にきます。この表では、6910 は 4562 の約 1.5 倍しかありません。",
         // EN (option C): A group 13 element has three outer electrons, so its large jump comes between the 3rd and 4th values. Here 9543 is only about 1.4 times 6910.
-        "2": "13 族の元素の最外殻の電子は 3 個なので、大きな跳ね上がりは 3 番目と 4 番目の値の間にきます。この表では、9543 は 6910 の約 1.4 倍しかありません。",
+        "2": "13 族の元素の最外殻の電子は 3 個なので、大きなジャンプは 3 番目と 4 番目の値の間にきます。この表では、9543 は 6910 の約 1.4 倍しかありません。",
         // EN (option D): This counts all four values given. Look for the large jump and count only the electrons removed before it.
-        "3": "これは、示された 4 つの値をすべて数えています。大きな跳ね上がりを探し、その前に取り除かれた電子だけを数えましょう。",
+        "3": "これは、示された 4 つの値をすべて数えています。大きなジャンプを探し、その前に取り除かれた電子だけを数えましょう。",
       },
     },
 

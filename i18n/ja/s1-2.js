@@ -75,7 +75,7 @@ S1.i18n.register('ja', 's1-2', {
     "The three subatomic particles": "原子を構成する 3 種類の粒子",
 
     // The nuclear model of the atom > p
-    "The real masses and charges are awkward numbers, so chemists compare the particles with each other. These <em>relative</em> values are the ones to learn.": "実際の質量と電荷は扱いにくい数なので、化学では粒子どうしを比べた値を使います。覚えるのは、この<em>相対的な</em>値です。",
+    "The real masses and charges are awkward numbers, so chemists compare the particles with each other. These <em>relative</em> values are the ones to learn.": "実際の質量と電荷は扱いにくい数なので、化学では粒子どうしをくらべた値を使います。覚えるのは、この<em>相対的な</em>値です。",
 
     // The nuclear model of the atom > table > caption
     "Relative masses and charges of the subatomic particles": "原子を構成する粒子の相対質量と相対電荷",
@@ -393,10 +393,10 @@ S1.i18n.register('ja', 's1-2', {
     "Look up chlorine in the periodic table and you find 35.45. No chlorine atom has that mass. Each one is either chlorine-35 or chlorine-37. The number 35.45 is an average for the mixture found in nature.": "周期表で塩素を調べると、35.45 と書いてあります。しかし、この質量の塩素原子は 1 個もありません。どの原子も、塩素 35 か塩素 37 のどちらかです。35.45 という数は、天然に存在する混合物の平均です。",
 
     // Relative atomic mass from isotope data > p
-    "The <dfn data-def=\"The weighted average mass of the atoms of an element, compared with one twelfth of the mass of an atom of carbon-12. It has no units.\">relative atomic mass</dfn>, <i>A</i><sub>r</sub>, is the weighted average mass of the atoms of an element, compared with one twelfth of the mass of a carbon-12 atom. It has no units.": "<dfn data-def=\"ある元素の原子の質量の加重平均を、炭素 12 の原子 1 個の質量の 12 分の 1 と比べた値。単位はない。\">相対原子質量 <span class=\"en-term\">(relative atomic mass)</span></dfn>（原子量）<i>A</i><sub>r</sub> は、ある元素の原子の質量の加重平均 (weighted average) を、炭素 12 の原子 1 個の質量の 12 分の 1 と比べた値です。単位はありません。",
+    "The <dfn data-def=\"The weighted average mass of the atoms of an element, compared with one twelfth of the mass of an atom of carbon-12. It has no units.\">relative atomic mass</dfn>, <i>A</i><sub>r</sub>, is the weighted average mass of the atoms of an element, compared with one twelfth of the mass of a carbon-12 atom. It has no units.": "<dfn data-def=\"ある元素の原子の質量の加重平均を、炭素 12 の原子 1 個の質量の 12 分の 1 とくらべた値。単位はない。\">相対原子質量 <span class=\"en-term\">(relative atomic mass)</span></dfn>（原子量）<i>A</i><sub>r</sub> は、ある元素の原子の質量の加重平均 (weighted average) を、炭素 12 の原子 1 個の質量の 12 分の 1 とくらべた値です。単位はありません。",
 
     // Relative atomic mass from isotope data > data-def attribute
-    "The weighted average mass of the atoms of an element, compared with one twelfth of the mass of an atom of carbon-12. It has no units.": "ある元素の原子の質量の加重平均を、炭素 12 の原子 1 個の質量の 12 分の 1 と比べた値。単位はない。",
+    "The weighted average mass of the atoms of an element, compared with one twelfth of the mass of an atom of carbon-12. It has no units.": "ある元素の原子の質量の加重平均を、炭素 12 の原子 1 個の質量の 12 分の 1 とくらべた値。単位はない。",
 
     // Relative atomic mass from isotope data > h3
     "What “weighted” means": "「加重」(weighted) とは",
@@ -446,7 +446,7 @@ S1.i18n.register('ja', 's1-2', {
     "Isotope mixer": "同位体ミキサー",
 
     // Relative atomic mass from isotope data > widget > figcaption
-    "Change the abundances and watch the balance point move towards the more common isotope. The working underneath updates line by line. Press Natural abundances to compare with the data booklet. The isotope masses and abundances here are real values, rounded. You are never asked to remember them.": "存在比を変えて、つり合いの点が存在比の大きい同位体のほうへ動くようすを見ましょう。下の計算は 1 行ずつ更新されます。「天然の存在比」を押すと、データブックレットの値と比べられます。ここで使っている同位体の質量と存在比は、実際の値を丸めたものです。これらを覚える必要はありません。",
+    "Change the abundances and watch the balance point move towards the more common isotope. The working underneath updates line by line. Press Natural abundances to compare with the data booklet. The isotope masses and abundances here are real values, rounded. You are never asked to remember them.": "存在比を変えて、つり合いの点が存在比の大きい同位体のほうへ動くようすを見ましょう。下の計算は 1 行ずつ更新されます。「天然の存在比」を押すと、データブックレットの値とくらべられます。ここで使っている同位体の質量と存在比は、実際の値を丸めたものです。これらを覚える必要はありません。",
 
     // Relative atomic mass from isotope data > p
     "Try “Mass number only” in the mixer. The answer changes slightly. The real mass of an isotope is very close to its mass number, but not exactly equal to it. Use whichever masses the question gives you. If it gives only mass numbers, use those.": "ミキサーで「質量数のみ」を選んでみましょう。答えが少し変わります。同位体の実際の質量は質量数にとても近い値ですが、完全に同じではありません。計算には、問題文に書かれている質量を使います。質量数しか書かれていなければ、質量数を使います。",
@@ -778,7 +778,7 @@ S1.i18n.register('ja', 's1-2', {
     "Linking it up": "つなげて考える",
 
     // Linking it up > p
-    "The IB guide asks these linking questions. Short answers are enough at this stage.": "IB の『指導の手引き』には、次のような「つながりの問い」(Linking question) があります。今の段階では、短い答えで十分です。",
+    "The IB guide asks these linking questions. Short answers are enough at this stage.": "IB の『指導の手引き』には、次のような「つながりの問い (linking question)」があります。今の段階では、短い答えで十分です。",
 
     // Linking it up > h3
     "What determines the different chemical properties of atoms?": "原子の化学的性質の違いは、何で決まりますか。",
@@ -812,7 +812,7 @@ S1.i18n.register('ja', 's1-2', {
     "Three sets, from first steps to stretch. Questions you have not yet answered correctly come up first, so each set changes when you come back to it. Have a calculator and the data booklet beside you.": "最初の一歩から発展問題まで、3 つのセットがあります。まだ正解していない問題が先に出るので、戻ってくるたびにセットの中身が変わります。電卓とデータブックレットを手元に用意しましょう。",
 
     // Exam-style practice > h3
-    "Foundation: one idea at a time": "基礎：1 問に 1 つの考え方",
+    "Foundation: one idea at a time": "基礎：一度に 1 つの考え方",
 
     // Exam-style practice > data-title attribute
     "1.2 foundation": "1.2 基礎",
@@ -882,7 +882,7 @@ S1.i18n.register('ja', 's1-2', {
     "Challenge me": "問題に挑戦",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Check my atom": "答えを確認",
+    "Check my atom": "答え合わせ",
 
     // widget string (assets/js/widgets-s1-2.js)
     "Back to free build": "自由に作るモードに戻る",
@@ -1014,7 +1014,7 @@ S1.i18n.register('ja', 's1-2', {
     "Data booklet": "データブックレット",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Compare": "比べると",
+    "Compare": "くらべると",
 
     // widget string (assets/js/widgets-s1-2.js)
     "Mass used for each isotope": "同位体の質量に使う値",
@@ -1092,7 +1092,7 @@ S1.i18n.register('ja', 's1-2', {
     "Your <i>A</i><sub>r</sub> (2 d.p.)": "あなたの <i>A</i><sub>r</sub>（小数第 2 位まで）",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Check element": "元素を確認",
+    "Check element": "元素の答え合わせ",
 
     // widget string (assets/js/widgets-s1-2.js)
     "Mystery element (symbol or name)": "なぞの元素（元素記号または名前）",
@@ -1104,7 +1104,7 @@ S1.i18n.register('ja', 's1-2', {
     "Show the calculation": "計算を表示",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "New mystery": "次のなぞの元素",
+    "New mystery": "新しいなぞの元素",
 
     // widget string (assets/js/widgets-s1-2.js)
     "Mass spectrum: bar chart of relative abundance against m/z": "質量スペクトル：相対存在量を m/z に対して示した棒グラフ",

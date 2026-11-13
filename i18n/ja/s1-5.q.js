@@ -238,7 +238,7 @@ S1.i18n.register('ja', 's1-5.q', {
       stem: "<p>ある気体が、300 K で 3.00 <span class=\"unit\">dm3</span> を占めています。圧力を一定にして、450 K まで加熱します。新しい体積を <span class=\"unit\">dm3</span> で計算しなさい (calculate)。</p>",
       hints: [
         // EN: The pressure is constant, so it cancels from the combined gas law.
-        "圧力が一定なので、ボイル・シャルルの法則（combined gas law）の式から圧力が消えます。",
+        "圧力が一定なので、ボイル・シャルルの法則 (combined gas law)の式から圧力が消えます。",
         // EN: <span class="mono">V<sub>2</sub> = V<sub>1</sub> × T<sub>2</sub> ÷ T<sub>1</sub></span>
         "<span class=\"mono\">V<sub>2</sub> = V<sub>1</sub> × T<sub>2</sub> ÷ T<sub>1</sub></span>",
       ],
@@ -262,7 +262,7 @@ S1.i18n.register('ja', 's1-5.q', {
       ],
       hints: [
         // EN: Convert both temperatures to kelvin before comparing them.
-        "比べる前に、両方の温度をケルビンに換算しましょう。",
+        "くらべる前に、両方の温度をケルビンに換算しましょう。",
         // EN: At constant volume, <span class="mono">P<sub>2</sub>/P<sub>1</sub> = T<sub>2</sub>/T<sub>1</sub></span>.
         "体積が一定のとき、<span class=\"mono\">P<sub>2</sub>/P<sub>1</sub> = T<sub>2</sub>/T<sub>1</sub></span> です。",
       ],
@@ -284,7 +284,7 @@ S1.i18n.register('ja', 's1-5.q', {
       stem: "<p>ある気体の試料の体積は、27.0 °C、98.0 kPa で 450 <span class=\"unit\">cm3</span> です。同じ試料が STP で占める体積を、<span class=\"unit\">cm3</span> で計算しなさい (calculate)。</p>",
       hints: [
         // EN: STP is 273.15 K and 100 kPa. Use the combined gas law.
-        "STP は 273.15 K、100 kPa です。ボイル・シャルルの法則（combined gas law）を使います。",
+        "STP は 273.15 K、100 kPa です。ボイル・シャルルの法則 (combined gas law)を使います。",
         // EN: T<sub>1</sub> = 300.15 K. <span class="mono">V<sub>2</sub> = P<sub>1</sub>V<sub>1</sub>T<sub>2</sub> ÷ (T<sub>1</sub>P<sub>2</sub>)</span>
         "T<sub>1</sub> = 300.15 K です。<span class=\"mono\">V<sub>2</sub> = P<sub>1</sub>V<sub>1</sub>T<sub>2</sub> ÷ (T<sub>1</sub>P<sub>2</sub>)</span>",
       ],
@@ -401,7 +401,7 @@ S1.i18n.register('ja', 's1-5.q', {
     // ── s1-5-q018 · mcq · exam · SL · Structure 1.5.2 · 1 mark
     "s1-5-q018": {
       // EN: <p>The boiling points of four substances at 100 kPa are shown.</p><div class="table-scroll"><table class="data"><thead><tr><th scope="col">Substance</th><th scope="col" class="num">Boiling point / K</th></tr></thead><tbody><tr><th scope="row">helium, <span class="chem">He</span></th><td class="num">4</td></tr><tr><th scope="row">nitrogen, <span class="chem">N2</span></th><td class="num">77</td></tr><tr><th scope="row">methane, <span class="chem">CH4</span></th><td class="num">112</td></tr><tr><th scope="row">ammonia, <span class="chem">NH3</span></th><td class="num">240</td></tr></tbody></table></div><p>Which gas would you expect to deviate <strong>most</strong> from ideal behaviour at 300 K and 100 kPa?</p>
-      stem: "<p>4 種類の物質の、100 kPa での沸点を示します。</p><div class=\"table-scroll\"><table class=\"data\"><thead><tr><th scope=\"col\">物質</th><th scope=\"col\" class=\"num\">沸点 / K</th></tr></thead><tbody><tr><th scope=\"row\">ヘリウム <span class=\"chem\">He</span></th><td class=\"num\">4</td></tr><tr><th scope=\"row\">窒素 <span class=\"chem\">N2</span></th><td class=\"num\">77</td></tr><tr><th scope=\"row\">メタン <span class=\"chem\">CH4</span></th><td class=\"num\">112</td></tr><tr><th scope=\"row\">アンモニア <span class=\"chem\">NH3</span></th><td class=\"num\">240</td></tr></tbody></table></div><p>では、300 K、100 kPa で、理想気体のふるまいから<strong>最も</strong>大きくずれる（deviate）と考えられる気体はどれですか。</p>",
+      stem: "<p>4 種類の物質の、100 kPa での沸点を示します。</p><div class=\"table-scroll\"><table class=\"data\"><thead><tr><th scope=\"col\">物質</th><th scope=\"col\" class=\"num\">沸点 / K</th></tr></thead><tbody><tr><th scope=\"row\">ヘリウム <span class=\"chem\">He</span></th><td class=\"num\">4</td></tr><tr><th scope=\"row\">窒素 <span class=\"chem\">N2</span></th><td class=\"num\">77</td></tr><tr><th scope=\"row\">メタン <span class=\"chem\">CH4</span></th><td class=\"num\">112</td></tr><tr><th scope=\"row\">アンモニア <span class=\"chem\">NH3</span></th><td class=\"num\">240</td></tr></tbody></table></div><p>では、300 K、100 kPa で、理想気体のふるまいから<strong>最も</strong>大きくずれる (deviate)と考えられる気体はどれですか。</p>",
       options: [
         // EN: Helium
         "ヘリウム",
@@ -516,7 +516,7 @@ S1.i18n.register('ja', 's1-5.q', {
       ],
       hints: [
         // EN: Rearrange the combined gas law for P<sub>2</sub>, then put in T<sub>2</sub> = 2T<sub>1</sub> and V<sub>2</sub> = ½V<sub>1</sub>.
-        "ボイル・シャルルの法則（combined gas law）の式を P<sub>2</sub> について変形し、T<sub>2</sub> = 2T<sub>1</sub> と V<sub>2</sub> = ½V<sub>1</sub> を代入します。",
+        "ボイル・シャルルの法則 (combined gas law)の式を P<sub>2</sub> について変形し、T<sub>2</sub> = 2T<sub>1</sub> と V<sub>2</sub> = ½V<sub>1</sub> を代入します。",
       ],
       // EN: <div class="worked__math">P<sub>2</sub> = P<sub>1</sub> × (V<sub>1</sub>/V<sub>2</sub>) × (T<sub>2</sub>/T<sub>1</sub>) = P<sub>1</sub> × 2 × 2 = 4P<sub>1</sub></div>
       solution: "<div class=\"worked__math\">P<sub>2</sub> = P<sub>1</sub> × (V<sub>1</sub>/V<sub>2</sub>) × (T<sub>2</sub>/T<sub>1</sub>) = P<sub>1</sub> × 2 × 2 = 4P<sub>1</sub></div>",
@@ -547,7 +547,7 @@ S1.i18n.register('ja', 's1-5.q', {
     // ── s1-5-q024 · order · exam · SL · Structure 1.5.4 · 2 marks
     "s1-5-q024": {
       // EN: <p>A student measures the mass of a volatile liquid, and the volume, temperature and pressure of its vapour. Put the steps in order to find the molecular formula from these data and the empirical formula.</p>
-      stem: "<p>ある生徒が、揮発性の液体の質量と、その蒸気の体積・温度・圧力を測定しました。これらのデータと組成式（empirical formula）から分子式を求める手順を、正しい順に並べなさい。</p>",
+      stem: "<p>ある生徒が、揮発性の液体の質量と、その蒸気の体積・温度・圧力を測定しました。これらのデータと組成式 (empirical formula)から分子式を求める手順を、正しい順に並べなさい。</p>",
       options: [
         // EN: Convert the temperature to kelvin and the volume to dm<sup>3</sup> (pressure in kPa).
         "温度をケルビンに、体積を dm<sup>3</sup> に換算する（圧力は kPa）。",
@@ -567,7 +567,7 @@ S1.i18n.register('ja', 's1-5.q', {
         "モル質量を求めるには、蒸気の物質量が必要です。物質量は、気体の状態方程式から求めます。",
       ],
       // EN: <p>Units first, then the gas equation for the amount, then molar mass from mass ÷ amount. Comparing the molar mass with the empirical formula mass gives the whole-number multiple that turns the empirical formula into the molecular formula.</p>
-      solution: "<p>まず単位、次に気体の状態方程式で物質量、そして「質量 ÷ 物質量」でモル質量を求めます。モル質量を組成式の式量と比べると、組成式を分子式に変える整数倍がわかります。</p>",
+      solution: "<p>まず単位、次に気体の状態方程式で物質量、そして「質量 ÷ 物質量」でモル質量を求めます。モル質量を組成式の式量とくらべると、組成式を分子式に変える整数倍がわかります。</p>",
     },
 
     // ── s1-5-q025 · mcq · exam · SL · Structure 1.5.3 · 1 mark
@@ -598,7 +598,7 @@ S1.i18n.register('ja', 's1-5.q', {
         // EN (option C): The largest mass does not mean the largest volume. 44.0 g of CO<sub>2</sub> is about 1 mol, and bigger molecules do not take up more room in an ideal gas.
         "2": "質量が最も大きくても、体積が最も大きいとは限りません。CO<sub>2</sub> 44.0 g は約 1 mol です。また、理想気体では、分子が大きくても、占める空間は大きくなりません。",
         // EN (option D): 40.0 g of argon is about 1 mol. Another sample contains about twice that amount.
-        "3": "アルゴン 40.0 g は約 1 mol です。その約 2 倍の物質量をふくむ試料が、ほかにあります。",
+        "3": "アルゴン 40.0 g は約 1 mol です。その約 2 倍の物質量を含む試料が、ほかにあります。",
       },
     },
 
@@ -675,23 +675,23 @@ S1.i18n.register('ja', 's1-5.q', {
     // ── s1-5-q027 · numeric · challenge · SL · Structure 1.5.4 · 3 marks
     "s1-5-q027": {
       // EN: <p>A compound contains 52.2 % carbon, 13.1 % hydrogen and 34.7 % oxygen by mass. When 0.230 g of the compound is vaporised at 100.0 °C and 100 kPa, the vapour occupies 155 <span class="unit">cm3</span>.</p><p>Calculate the molar mass of the compound, in <span class="unit">g mol-1</span>. Then use the solution to check that you can also deduce its molecular formula.</p>
-      stem: "<p>ある化合物は、質量で炭素 52.2 %、水素 13.1 %、酸素 34.7 % をふくみます。この化合物 0.230 g を 100.0 °C、100 kPa で気化させると、蒸気は 155 <span class=\"unit\">cm3</span> を占めます。</p><p>この化合物のモル質量を <span class=\"unit\">g mol-1</span> で計算しなさい (calculate)。そのあと解答を見て、分子式も導ける（deduce）かどうか確かめましょう。</p>",
+      stem: "<p>ある化合物は、質量で炭素 52.2 %、水素 13.1 %、酸素 34.7 % を含みます。この化合物 0.230 g を 100.0 °C、100 kPa で気化させると、蒸気は 155 <span class=\"unit\">cm3</span> を占めます。</p><p>この化合物のモル質量を <span class=\"unit\">g mol-1</span> で計算しなさい (calculate)。そのあと解答を見て、分子式も導ける (deduce)かどうか確かめましょう。</p>",
       hints: [
         // EN: The molar mass comes from the gas data alone: find n with the gas equation, then M = m ÷ n.
         "モル質量は、気体のデータだけで求められます。気体の状態方程式で n を求め、M = m ÷ n を使います。",
         // EN: <span class="mono">n = (100 × 0.155) ÷ (8.31 × 373.15)</span>
         "<span class=\"mono\">n = (100 × 0.155) ÷ (8.31 × 373.15)</span>",
         // EN: For the formula: find the empirical formula from the percentages, then compare its mass with M.
-        "分子式を求めるには、百分率から組成式を求め、その式量を M と比べます。",
+        "分子式を求めるには、百分率から組成式を求め、その式量を M とくらべます。",
       ],
       // EN: <div class="worked__math">V = 155 cm<sup>3</sup> ÷ 1000 = 0.155 dm<sup>3</sup>; &nbsp; T = 100.0 + 273.15 = 373.15 K</div><div class="worked__math">n = (100 kPa × 0.155 dm<sup>3</sup>) ÷ (8.31 J K<sup>−1</sup> mol<sup>−1</sup> × 373.15 K) = 0.0049985… mol</div><div class="worked__math">M = 0.230 g ÷ 0.0049985… mol = 46.01… g mol<sup>−1</sup> = <b>46.0 g mol<sup>−1</sup></b></div><p>Molecular formula: in 100 g there are</p><div class="worked__math">C: 52.2 ÷ 12.01 = 4.346 mol; &nbsp; H: 13.1 ÷ 1.01 = 12.97 mol; &nbsp; O: 34.7 ÷ 16.00 = 2.169 mol</div><div class="worked__math">divide by 2.169: C 2.00 : H 5.98 : O 1.00, so the empirical formula is C<sub>2</sub>H<sub>6</sub>O (46.08 g mol<sup>−1</sup>)</div><p>46.0 ÷ 46.08 ≈ 1, so the molecular formula is also <strong>C<sub>2</sub>H<sub>6</sub>O</strong>.</p>
-      solution: "<div class=\"worked__math\">V = 155 cm<sup>3</sup> ÷ 1000 = 0.155 dm<sup>3</sup>; &nbsp; T = 100.0 + 273.15 = 373.15 K</div><div class=\"worked__math\">n = (100 kPa × 0.155 dm<sup>3</sup>) ÷ (8.31 J K<sup>−1</sup> mol<sup>−1</sup> × 373.15 K) = 0.0049985… mol</div><div class=\"worked__math\">M = 0.230 g ÷ 0.0049985… mol = 46.01… g mol<sup>−1</sup> = <b>46.0 g mol<sup>−1</sup></b></div><p>分子式：100 g の中には、次の物質量がふくまれます。</p><div class=\"worked__math\">C: 52.2 ÷ 12.01 = 4.346 mol; &nbsp; H: 13.1 ÷ 1.01 = 12.97 mol; &nbsp; O: 34.7 ÷ 16.00 = 2.169 mol</div><div class=\"worked__math\">2.169 で割ると: C 2.00 : H 5.98 : O 1.00 なので、組成式は C<sub>2</sub>H<sub>6</sub>O (46.08 g mol<sup>−1</sup>)</div><p>46.0 ÷ 46.08 ≈ 1 なので、分子式も <strong>C<sub>2</sub>H<sub>6</sub>O</strong> です。</p>",
+      solution: "<div class=\"worked__math\">V = 155 cm<sup>3</sup> ÷ 1000 = 0.155 dm<sup>3</sup>; &nbsp; T = 100.0 + 273.15 = 373.15 K</div><div class=\"worked__math\">n = (100 kPa × 0.155 dm<sup>3</sup>) ÷ (8.31 J K<sup>−1</sup> mol<sup>−1</sup> × 373.15 K) = 0.0049985… mol</div><div class=\"worked__math\">M = 0.230 g ÷ 0.0049985… mol = 46.01… g mol<sup>−1</sup> = <b>46.0 g mol<sup>−1</sup></b></div><p>分子式：100 g の中には、次の物質量が含まれます。</p><div class=\"worked__math\">C: 52.2 ÷ 12.01 = 4.346 mol; &nbsp; H: 13.1 ÷ 1.01 = 12.97 mol; &nbsp; O: 34.7 ÷ 16.00 = 2.169 mol</div><div class=\"worked__math\">2.169 で割ると: C 2.00 : H 5.98 : O 1.00 なので、組成式は C<sub>2</sub>H<sub>6</sub>O (46.08 g mol<sup>−1</sup>)</div><p>46.0 ÷ 46.08 ≈ 1 なので、分子式も <strong>C<sub>2</sub>H<sub>6</sub>O</strong> です。</p>",
     },
 
     // ── s1-5-q028 · mcq · challenge · SL · Structure 1.5.4 · 2 marks
     "s1-5-q028": {
       // EN: <p>A gaseous hydrocarbon has the empirical formula <span class="chem">CH2</span>. A 1.40 g sample occupies 0.755 <span class="unit">dm3</span> at 91.0 °C and 100 kPa. What is the molecular formula of the hydrocarbon?</p>
-      stem: "<p>ある気体の炭化水素の組成式（empirical formula）は <span class=\"chem\">CH2</span> です。この試料 1.40 g は、91.0 °C、100 kPa で 0.755 <span class=\"unit\">dm3</span> を占めます。この炭化水素の分子式はどれですか。</p>",
+      stem: "<p>ある気体の炭化水素の組成式 (empirical formula)は <span class=\"chem\">CH2</span> です。この試料 1.40 g は、91.0 °C、100 kPa で 0.755 <span class=\"unit\">dm3</span> を占めます。この炭化水素の分子式はどれですか。</p>",
       options: [
         // EN: <span class="chem">CH2</span>
         "<span class=\"chem\">CH2</span>",
@@ -706,7 +706,7 @@ S1.i18n.register('ja', 's1-5.q', {
         // EN: The conditions are not STP, so find the amount with <span class="mono">n = PV ÷ RT</span>.
         "条件は STP ではないので、<span class=\"mono\">n = PV ÷ RT</span> で物質量を求めます。",
         // EN: Then M = m ÷ n, and compare M with the mass of one CH<sub>2</sub> unit, 14.03 g mol<sup>−1</sup>.
-        "次に M = m ÷ n を計算し、M を CH<sub>2</sub> 1 単位分の質量 14.03 g mol<sup>−1</sup> と比べます。",
+        "次に M = m ÷ n を計算し、M を CH<sub>2</sub> 1 単位分の質量 14.03 g mol<sup>−1</sup> とくらべます。",
       ],
       // EN: <div class="worked__math">T = 91.0 + 273.15 = 364.15 K</div><div class="worked__math">n = (100 kPa × 0.755 dm<sup>3</sup>) ÷ (8.31 J K<sup>−1</sup> mol<sup>−1</sup> × 364.15 K) = 0.024949… mol</div><div class="worked__math">M = 1.40 g ÷ 0.024949… mol = 56.11… g mol<sup>−1</sup></div><div class="worked__math">56.11… ÷ 14.03 = 4.00, so the molecular formula is (CH<sub>2</sub>)<sub>4</sub> = C<sub>4</sub>H<sub>8</sub></div>
       solution: "<div class=\"worked__math\">T = 91.0 + 273.15 = 364.15 K</div><div class=\"worked__math\">n = (100 kPa × 0.755 dm<sup>3</sup>) ÷ (8.31 J K<sup>−1</sup> mol<sup>−1</sup> × 364.15 K) = 0.024949… mol</div><div class=\"worked__math\">M = 1.40 g ÷ 0.024949… mol = 56.11… g mol<sup>−1</sup></div><div class=\"worked__math\">56.11… ÷ 14.03 = 4.00 なので、分子式は (CH<sub>2</sub>)<sub>4</sub> = C<sub>4</sub>H<sub>8</sub></div>",
@@ -737,7 +737,7 @@ S1.i18n.register('ja', 's1-5.q', {
     // ── s1-5-q030 · numeric · challenge · SL · Structure 1.5.4 · 3 marks
     "s1-5-q030": {
       // EN: <p>Sodium azide decomposes completely when heated:</p><p><span class="chem">2NaN3(s) -> 2Na(s) + 3N2(g)</span></p><p>Calculate the volume of nitrogen, in <span class="unit">dm3</span>, measured at 25.0 °C and 100 kPa, that is produced when 65.0 g of sodium azide decomposes.</p>
-      stem: "<p>アジ化ナトリウム（sodium azide）は、加熱すると完全に分解します。</p><p><span class=\"chem\">2NaN3(s) -> 2Na(s) + 3N2(g)</span></p><p>65.0 g のアジ化ナトリウムが分解するときに生じる窒素の体積を、25.0 °C、100 kPa で測定した値として、<span class=\"unit\">dm3</span> で計算しなさい (calculate)。</p>",
+      stem: "<p>アジ化ナトリウム (sodium azide)は、加熱すると完全に分解します。</p><p><span class=\"chem\">2NaN3(s) -> 2Na(s) + 3N2(g)</span></p><p>65.0 g のアジ化ナトリウムが分解するときに生じる窒素の体積を、25.0 °C、100 kPa で測定した値として、<span class=\"unit\">dm3</span> で計算しなさい (calculate)。</p>",
       hints: [
         // EN: Start with the amount of sodium azide: <span class="mono">n = m ÷ M</span>, with M(NaN<sub>3</sub>) = 22.99 + 3(14.01).
         "まずアジ化ナトリウムの物質量を求めます：<span class=\"mono\">n = m ÷ M</span>。M(NaN<sub>3</sub>) = 22.99 + 3(14.01) です。",
@@ -794,7 +794,7 @@ S1.i18n.register('ja', 's1-5.q', {
       stem: "<p>変形しない 5.00 <span class=\"unit\">dm3</span> のボンベに、300 kPa、20.0 °C の気体が入っています。圧力が 180 kPa に下がるまで、気体の一部を放出します。温度は 20.0 °C のままです。放出された気体の物質量を mol で計算しなさい (calculate)。</p>",
       hints: [
         // EN: The amount of gas changes, so the combined gas law does not apply. Use <span class="mono">n = PV ÷ RT</span> before and after.
-        "気体の物質量が変わるので、ボイル・シャルルの法則（combined gas law）は使えません。放出の前と後に、それぞれ <span class=\"mono\">n = PV ÷ RT</span> を使います。",
+        "気体の物質量が変わるので、ボイル・シャルルの法則 (combined gas law)は使えません。放出の前と後に、それぞれ <span class=\"mono\">n = PV ÷ RT</span> を使います。",
         // EN: Shortcut: V and T are the same before and after, so the amount released is <span class="mono">(300 − 180) × 5.00 ÷ (8.31 × 293.15)</span>.
         "近道：V と T は前と後で同じなので、放出された物質量は <span class=\"mono\">(300 − 180) × 5.00 ÷ (8.31 × 293.15)</span> です。",
       ],

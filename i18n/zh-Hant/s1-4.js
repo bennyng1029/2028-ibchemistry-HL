@@ -6,13 +6,13 @@ S1.i18n.register('zh-Hant', 's1-4', {
   strings: {
 
     // page title (browser tab)
-    "1.4 Counting particles by mass: the mole | Structure Lab": "1.4 以質量數算粒子：摩爾 | Structure Lab",
+    "1.4 Counting particles by mass: the mole | Structure Lab": "1.4 用質量來數粒子：摩爾 | Structure Lab",
 
     // Counting particles by mass: the mole > page header > p
     "Structure 1.4": "Structure 1.4",
 
     // Counting particles by mass: the mole > page header > h1
-    "Counting particles by mass: the mole": "以質量數算粒子：摩爾",
+    "Counting particles by mass: the mole": "用質量來數粒子：摩爾",
 
     // Counting particles by mass: the mole > page header > span
     "How do we quantify matter on the atomic scale?": "在原子的尺度上，我們怎樣量化物質？",
@@ -378,7 +378,7 @@ S1.i18n.register('zh-Hant', 's1-4', {
     "Add the subtotals. Give <i>M</i><sub>r</sub> to 2 decimal places, with no unit.": "把各個小計加起來。<i>M</i><sub>r</sub> 給至小數點後 2 位，不寫單位。",
 
     // Relative atomic mass and relative formula mass > widget > data-title attribute
-    "Molar mass builder": "摩爾質量計算器",
+    "Molar mass builder": "摩爾質量建構工具",
 
     // Relative atomic mass and relative formula mass > widget > figcaption
     "Type a formula or build one with the buttons. The table counts every atom, including those inside brackets and in water of crystallization. It uses the <i>A</i><sub>r</sub> values from the data booklet.": "輸入化學式，或用按鈕砌出化學式。表格會數出每一個原子，包括括號內的原子和結晶水裏的原子。所用的 <i>A</i><sub>r</sub> 來自數據手冊。",
@@ -897,10 +897,10 @@ S1.i18n.register('zh-Hant', 's1-4', {
     "The empirical formula gives the ratio. To find the real molecule you need one more fact: the molar mass. It usually comes from another experiment, often a gas measurement (topic 1.5).": "實驗式給出比。要找出真正的分子，還需要一項資料：摩爾質量。它通常來自另一個實驗，很多時是量度氣體（課題 1.5）。",
 
     // Empirical and molecular formulas > li
-    "Work out the mass of the empirical formula, from <i>A</i><sub>r</sub> values.": "用 <i>A</i><sub>r</sub> 求出實驗式的式量。",
+    "Work out the mass of the empirical formula, from <i>A</i><sub>r</sub> values.": "用 <i>A</i><sub>r</sub> 求出實驗式質量。",
 
     // Empirical and molecular formulas > li
-    "Divide the molar mass by the empirical formula mass. The answer should be a whole number.": "把摩爾質量除以實驗式的式量。答案應該是整數。",
+    "Divide the molar mass by the empirical formula mass. The answer should be a whole number.": "把摩爾質量除以實驗式質量。答案應該是整數。",
 
     // Empirical and molecular formulas > li
     "Multiply every subscript in the empirical formula by that whole number.": "把實驗式中的每個下標乘以這個整數。",
@@ -912,22 +912,22 @@ S1.i18n.register('zh-Hant', 's1-4', {
     "The compound in the last worked example has the empirical formula <span class=\"chem\">C2H4O</span>. Its molar mass is 88.12 g mol<sup>−1</sup>. Determine its molecular formula.": "上一道例題的化合物，實驗式是 <span class=\"chem\">C2H4O</span>。它的摩爾質量是 88.12 g mol<sup>−1</sup>。求出它的分子式。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Find the empirical formula mass": "求實驗式的式量",
+    "Find the empirical formula mass": "求實驗式質量",
 
     // Empirical and molecular formulas > worked example > p
-    "You need to know how heavy one “unit” of the ratio is.": "你要知道這個比的一個「單元」有多重。",
+    "You need to know how heavy one “unit” of the ratio is.": "你要知道這個比的一個「單位」有多重。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
     "Divide the molar mass by it": "把摩爾質量除以它",
 
     // Empirical and molecular formulas > worked example > p
-    "This tells you how many empirical units fit into one molecule.": "這樣就知道一個分子裏有多少個實驗式單元。",
+    "This tells you how many empirical units fit into one molecule.": "這樣就知道一個分子裏有多少個實驗式單位。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
     "Multiply the subscripts": "把下標乘大",
 
     // Empirical and molecular formulas > worked example > p
-    "Two units per molecule, so double every subscript.": "每個分子有兩個單元，所以每個下標都加倍。",
+    "Two units per molecule, so double every subscript.": "每個分子有兩個單位，所以每個下標都加倍。",
 
     // Empirical and molecular formulas > try it > data-label attribute
     "Carbon atoms": "碳原子數目",
@@ -936,13 +936,13 @@ S1.i18n.register('zh-Hant', 's1-4', {
     "A sugar has the empirical formula <span class=\"chem\">CH2O</span> and a molar mass of 180.18 g mol<sup>−1</sup>. How many carbon atoms are in one molecule of the sugar? (<i>A</i><sub>r</sub>: C 12.01, H 1.01, O 16.00)": "一種糖的實驗式是 <span class=\"chem\">CH2O</span>，摩爾質量是 180.18 g mol<sup>−1</sup>。這種糖的一個分子有多少個碳原子？（<i>A</i><sub>r</sub>：C 12.01、H 1.01、O 16.00）",
 
     // Empirical and molecular formulas > try it > li
-    "Find the mass of one CH<sub>2</sub>O unit first.": "先求一個 CH<sub>2</sub>O 單元的式量。",
+    "Find the mass of one CH<sub>2</sub>O unit first.": "先求一個 CH<sub>2</sub>O 單位的式量。",
 
     // Empirical and molecular formulas > try it > li
-    "The empirical formula mass is 30.03. Divide 180.18 by it to see how many units make one molecule.": "實驗式的式量是 30.03。把 180.18 除以它，看看多少個單元組成一個分子。",
+    "The empirical formula mass is 30.03. Divide 180.18 by it to see how many units make one molecule.": "實驗式質量是 30.03。把 180.18 除以它，看看多少個單位組成一個分子。",
 
     // Empirical and molecular formulas > try it > maths line
-    "empirical formula mass = 12.01 + 2(1.01) + 16.00 = 30.03": "實驗式的式量 = 12.01 + 2(1.01) + 16.00 = 30.03",
+    "empirical formula mass = 12.01 + 2(1.01) + 16.00 = 30.03": "實驗式質量 = 12.01 + 2(1.01) + 16.00 = 30.03",
 
     // Empirical and molecular formulas > try it > p
     "The molecular formula is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>, so there are <strong>6</strong> carbon atoms.": "分子式是 C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>，所以有 <strong>6</strong> 個碳原子。",
@@ -2132,7 +2132,7 @@ S1.i18n.register('zh-Hant', 's1-4', {
     "Molar mass, if known / g mol<sup>−1</sup> (optional)": "摩爾質量（如已知）/ g mol<sup>−1</sup>（可不填）",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Empirical formula mass": "實驗式的式量",
+    "Empirical formula mass": "實驗式質量",
 
     // widget string (assets/js/widgets-s1-4.js)
     "“{sym}” is not an element symbol with a relative atomic mass in this tool. Check the spelling.": "這個工具沒有元素符號「{sym}」的相對原子質量。請檢查拼寫。",
@@ -2201,10 +2201,10 @@ S1.i18n.register('zh-Hant', 's1-4', {
     "empirical formula = {formula}": "實驗式 = {formula}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "empirical formula mass = {calc}": "實驗式的式量 = {calc}",
+    "empirical formula mass = {calc}": "實驗式質量 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "<i>M</i> ÷ empirical formula mass = {calc}": "<i>M</i> ÷ 實驗式的式量 = {calc}",
+    "<i>M</i> ÷ empirical formula mass = {calc}": "<i>M</i> ÷ 實驗式質量 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
     "molecular formula = the empirical formula = {formula}": "分子式 = 實驗式 = {formula}",

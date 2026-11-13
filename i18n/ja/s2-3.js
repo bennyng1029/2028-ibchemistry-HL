@@ -21,7 +21,7 @@ S1.i18n.register('ja', 's2-3', {
     "What you need to be able to do": "できるようになること",
 
     // What you need to be able to do > p
-    "Tick each one when you can do it without looking at your notes.": "ノートを見ないでできるようになったら、1 つずつチェックを付けましょう。",
+    "Tick each one when you can do it without looking at your notes.": "ノートを見ないでできるようになったら、1 つずつチェックを入れましょう。",
 
     // What you need to be able to do > checklist > span
     "Describe a metallic bond as the electrostatic attraction between a lattice of cations and delocalized electrons.": "金属結合を、陽イオンの結晶格子と非局在化電子の間の静電気的な引力として記述する。",
@@ -258,7 +258,7 @@ S1.i18n.register('ja', 's2-3', {
     "Comes later": "あとで学ぶ内容",
 
     // Explaining the properties of metals > not needed for IB > p
-    "An <em>alloy</em> is a mixture of a metal with other elements. Why alloys are often harder than pure metals is in Structure 2.4. How metals react is in Structure 3.1 and Reactivity 3.2.": "<em>合金</em> (alloy) は、金属にほかの元素を混ぜた混合物です。合金が純粋な金属よりかたいことが多い理由は、Structure 2.4 で学びます。金属の反応のしかたは、Structure 3.1 と Reactivity 3.2 で学びます。",
+    "An <em>alloy</em> is a mixture of a metal with other elements. Why alloys are often harder than pure metals is in Structure 2.4. How metals react is in Structure 3.1 and Reactivity 3.2.": "<em>合金</em> (alloy) は、金属にほかの元素を混ぜた混合物です。合金が純粋な金属より硬いことが多い理由は、Structure 2.4 で学びます。金属の反応のしかたは、Structure 3.1 と Reactivity 3.2 で学びます。",
 
     // Explaining the properties of metals > data-title attribute
     "The metallic bond and properties: quick check": "金属結合と性質：確認クイズ",
@@ -561,7 +561,7 @@ S1.i18n.register('ja', 's2-3', {
     "Linking it up": "つなげて考える",
 
     // Linking it up > p
-    "The IB guide asks these linking questions. Short answers are enough at this stage.": "IB の『指導の手引き』には、次のような「つながりの問い」(Linking question) があります。今の段階では、短い答えで十分です。",
+    "The IB guide asks these linking questions. Short answers are enough at this stage.": "IB の『指導の手引き』には、次のような「つながりの問い (linking question)」があります。今の段階では、短い答えで十分です。",
 
     // Linking it up > h3
     "What are the features of metallic bonding that make it possible for metals to form alloys?": "金属結合のどのような特徴によって、金属は合金をつくれるのでしょうか。",
@@ -613,10 +613,10 @@ S1.i18n.register('ja', 's2-3', {
     "2.3 challenge": "2.3 チャレンジ",
 
     // Exam-style practice > Additional HL > h3
-    "Additional HL: transition elements": "HL 追加内容（AHL）：遷移元素",
+    "Additional HL: transition elements": "HL 追加内容：遷移元素",
 
     // Exam-style practice > Additional HL > data-title attribute
-    "2.3 Additional HL": "2.3 HL 追加内容（AHL）",
+    "2.3 Additional HL": "2.3 HL 追加内容",
 
     // widget string (assets/js/widgets-s2-3.js)
     "No voltage, no heating": "電圧も加熱もなし",
@@ -727,7 +727,7 @@ S1.i18n.register('ja', 's2-3', {
     "Down group 1: Li to Cs": "1 族を上から下へ：Li から Cs",
 
     // widget string (assets/js/widgets-s2-3.js)
-    "Additional HL: K, Ca and the transition elements Sc to Cu": "HL 追加内容（AHL）：K、Ca と遷移元素 Sc から Cu",
+    "Additional HL: K, Ca and the transition elements Sc to Cu": "HL 追加内容：K、Ca と遷移元素 Sc から Cu",
 
     // widget string (assets/js/widgets-s2-3.js)
     "Set of metals": "金属の組",
@@ -808,7 +808,7 @@ S1.i18n.register('ja', 's2-3', {
     "4s only": "4s のみ",
 
     // widget string (assets/js/widgets-s2-3.js)
-    "Predict first.": "まず予測しましょう。",
+    "Predict first.": "先に予測しましょう。",
 
     // widget string (assets/js/widgets-s2-3.js)
     "Your prediction": "あなたの予測",
@@ -976,7 +976,7 @@ S1.i18n.register('ja', 's2-3', {
     "This is true, but it is about chemical reactivity. Melting is a physical change. The question asks about the strength of the metallic bond.": "これは正しい文ですが、化学的な反応性の話です。融解は物理変化です。問われているのは金属結合の強さです。",
 
     // widget string (assets/js/widgets-s2-3.js)
-    "Additional HL: melting point of Fe and Ca": "HL 追加内容（AHL）：Fe と Ca の融点",
+    "Additional HL: melting point of Fe and Ca": "HL 追加内容：Fe と Ca の融点",
 
     // widget string (assets/js/widgets-s2-3.js)
     "Explain why iron, a transition element, has a much higher melting point than calcium.": "遷移元素である鉄の融点が、カルシウムよりずっと高い理由を説明しなさい (explain)。",
@@ -1018,7 +1018,7 @@ S1.i18n.register('ja', 's2-3', {
     "Show a model answer": "模範解答を見る",
 
     // widget string (assets/js/widgets-s2-3.js)
-    "Tick every sentence that belongs in a full-mark answer. Leave out the ones that are wrong or that do not answer the question.": "満点の答えに入る文すべてにチェックを付けましょう。間違っている文や、問いに答えていない文は選びません。",
+    "Tick every sentence that belongs in a full-mark answer. Leave out the ones that are wrong or that do not answer the question.": "満点の答えに入る文すべてにチェックを入れましょう。間違っている文や、問いに答えていない文は選びません。",
 
     // widget string (assets/js/widgets-s2-3.js)
     "Marking points chosen": "選んだ採点ポイント",

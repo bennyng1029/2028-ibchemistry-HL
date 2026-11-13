@@ -1397,7 +1397,7 @@ S1.i18n.register('zh-Hant', 's3-2.q', {
         "楔形用來在平面的紙上表示立體的結構。",
       ],
       // EN: <p>This is a <strong>stereochemical formula</strong>. It shows the 3-D arrangement of the bonds around an atom.</p><p>A solid wedge is a bond that comes towards you. A dashed wedge is a bond that goes away from you. Plain lines are bonds in the plane of the page.</p><p>At this level you need to recognize this type of formula. You do not have to draw it unless the question tells you to.</p>
-      solution: "<p>這是<strong>立體化學式 (stereochemical formula)</strong>。它顯示一個原子周圍的鍵的立體 (3-D) 排列。</p><p>實心楔形是朝向你的鍵。虛線楔形是遠離你的鍵。普通的線是在紙面上的鍵。</p><p>在這個程度，你只需要認得這種化學式。除非題目要求，否則不用畫出來。</p>",
+      solution: "<p>這是<strong>立體化學式 (stereochemical formula)</strong>。它顯示一個原子周圍的鍵的 3D 立體排列。</p><p>實心楔形鍵是朝向你的鍵。虛線楔形鍵是遠離你的鍵。普通的線是在紙面上的鍵。</p><p>在這個程度，你只需要認得這種化學式。除非題目要求，否則不用畫出來。</p>",
       misconception: {
         // EN (option A): A skeletal formula uses plain lines only. It shows the carbon chain as a zig-zag and does not show which bonds point towards you or away from you.
         "0": "骨架式只用普通的線。它把碳鏈畫成之字形，不顯示哪些鍵朝向你、哪些鍵遠離你。",

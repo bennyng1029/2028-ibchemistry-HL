@@ -221,7 +221,7 @@ S1.i18n.register('zh-Hant', 's1-2.q', {
     // ── s1-2-q009 · mcq · exam · SL · Structure 1.2.2 · 1 mark
     "s1-2-q009": {
       // EN: <p>The table shows the particles in four species. The letters are not chemical symbols.</p><div class="table-scroll"><table class="data"><thead><tr><th scope="col">Species</th><th scope="col" class="num">Protons</th><th scope="col" class="num">Neutrons</th><th scope="col" class="num">Electrons</th></tr></thead><tbody><tr><th scope="row">W</th><td class="num">17</td><td class="num">18</td><td class="num">17</td></tr><tr><th scope="row">X</th><td class="num">17</td><td class="num">20</td><td class="num">18</td></tr><tr><th scope="row">Y</th><td class="num">18</td><td class="num">20</td><td class="num">18</td></tr><tr><th scope="row">Z</th><td class="num">19</td><td class="num">20</td><td class="num">18</td></tr></tbody></table></div><p>Which two species are isotopes of the same element?</p>
-      stem: "<p>下表列出四種粒子所含的次原子粒子。表中的字母並不是化學符號。</p><div class=\"table-scroll\"><table class=\"data\"><thead><tr><th scope=\"col\">粒子</th><th scope=\"col\" class=\"num\">質子</th><th scope=\"col\" class=\"num\">中子</th><th scope=\"col\" class=\"num\">電子</th></tr></thead><tbody><tr><th scope=\"row\">W</th><td class=\"num\">17</td><td class=\"num\">18</td><td class=\"num\">17</td></tr><tr><th scope=\"row\">X</th><td class=\"num\">17</td><td class=\"num\">20</td><td class=\"num\">18</td></tr><tr><th scope=\"row\">Y</th><td class=\"num\">18</td><td class=\"num\">20</td><td class=\"num\">18</td></tr><tr><th scope=\"row\">Z</th><td class=\"num\">19</td><td class=\"num\">20</td><td class=\"num\">18</td></tr></tbody></table></div><p>哪兩種粒子是同一種元素的同位素？</p>",
+      stem: "<p>下表列出四種物種 (species) 所含的粒子。表中的字母並不是化學符號。</p><div class=\"table-scroll\"><table class=\"data\"><thead><tr><th scope=\"col\">物種</th><th scope=\"col\" class=\"num\">質子</th><th scope=\"col\" class=\"num\">中子</th><th scope=\"col\" class=\"num\">電子</th></tr></thead><tbody><tr><th scope=\"row\">W</th><td class=\"num\">17</td><td class=\"num\">18</td><td class=\"num\">17</td></tr><tr><th scope=\"row\">X</th><td class=\"num\">17</td><td class=\"num\">20</td><td class=\"num\">18</td></tr><tr><th scope=\"row\">Y</th><td class=\"num\">18</td><td class=\"num\">20</td><td class=\"num\">18</td></tr><tr><th scope=\"row\">Z</th><td class=\"num\">19</td><td class=\"num\">20</td><td class=\"num\">18</td></tr></tbody></table></div><p>哪兩種物種是同一種元素的同位素？</p>",
       options: [
         // EN: W and X
         "W 和 X",
@@ -234,7 +234,7 @@ S1.i18n.register('zh-Hant', 's1-2.q', {
       ],
       hints: [
         // EN: Which column decides what element a species is?
-        "哪一欄決定粒子屬於哪一種元素？",
+        "哪一欄決定物種屬於哪一種元素？",
         // EN: Isotopes: same protons, different neutrons. The electron column does not matter here.
         "同位素：質子數目相同，中子數目不同。這裏不用理會電子那一欄。",
       ],
@@ -317,7 +317,7 @@ S1.i18n.register('zh-Hant', 's1-2.q', {
     // ── s1-2-q012 · short · exam · SL · Structure 1.2.1 · 2 marks
     "s1-2-q012": {
       // EN: <p>A species contains 26 protons, 30 neutrons and 23 electrons. Deduce its nuclear symbol, including the charge. Use the periodic table.</p>
-      stem: "<p>某粒子含有 26 個質子、30 個中子和 23 個電子。推斷 (deduce) 它的核符號，包括電荷。請使用週期表。</p>",
+      stem: "<p>某物種 (species) 含有 26 個質子、30 個中子和 23 個電子。推斷 (deduce) 它的核符號，包括電荷。請使用週期表。</p>",
       hints: [
         // EN: The number of protons tells you the element.
         "質子數目告訴你它是哪一種元素。",
@@ -447,7 +447,7 @@ S1.i18n.register('zh-Hant', 's1-2.q', {
     // ── s1-2-q018 · mcq · exam · SL · Structure 1.2.1 · 1 mark
     "s1-2-q018": {
       // EN: <p>Which species contains more electrons than neutrons?</p>
-      stem: "<p>哪一種粒子的電子比中子多？</p>",
+      stem: "<p>哪一種物種 (species) 的電子比中子多？</p>",
       options: [
         // EN: <span class="nowrap" style="display:inline-flex;align-items:center;vertical-align:middle;line-height:1"><span style="display:inline-flex;flex-direction:column;align-items:flex-end;font-size:0.7em;line-height:1.1;margin-right:0.06em"><span>2</span><span>1</span></span><span>H</span></span>
         "<span class=\"nowrap\" style=\"display:inline-flex;align-items:center;vertical-align:middle;line-height:1\"><span style=\"display:inline-flex;flex-direction:column;align-items:flex-end;font-size:0.7em;line-height:1.1;margin-right:0.06em\"><span>2</span><span>1</span></span><span>H</span></span>",
@@ -465,7 +465,7 @@ S1.i18n.register('zh-Hant', 's1-2.q', {
         "記住要按電荷調整電子數目。",
       ],
       // EN: <p><span class="nowrap" style="display:inline-flex;align-items:center;vertical-align:middle;line-height:1"><span style="display:inline-flex;flex-direction:column;align-items:flex-end;font-size:0.7em;line-height:1.1;margin-right:0.06em"><span>16</span><span>8</span></span><span>O</span><span style="align-self:flex-start;font-size:0.7em;line-height:1.1">2−</span></span> has 16 − 8 = 8 neutrons and 8 + 2 = 10 electrons. It is the only species with more electrons than neutrons.</p>
-      solution: "<p><span class=\"nowrap\" style=\"display:inline-flex;align-items:center;vertical-align:middle;line-height:1\"><span style=\"display:inline-flex;flex-direction:column;align-items:flex-end;font-size:0.7em;line-height:1.1;margin-right:0.06em\"><span>16</span><span>8</span></span><span>O</span><span style=\"align-self:flex-start;font-size:0.7em;line-height:1.1\">2−</span></span> 有 16 − 8 = 8 個中子和 8 + 2 = 10 個電子。只有這種粒子的電子比中子多。</p>",
+      solution: "<p><span class=\"nowrap\" style=\"display:inline-flex;align-items:center;vertical-align:middle;line-height:1\"><span style=\"display:inline-flex;flex-direction:column;align-items:flex-end;font-size:0.7em;line-height:1.1;margin-right:0.06em\"><span>16</span><span>8</span></span><span>O</span><span style=\"align-self:flex-start;font-size:0.7em;line-height:1.1\">2−</span></span> 有 16 − 8 = 8 個中子和 8 + 2 = 10 個電子。只有這種物種的電子比中子多。</p>",
       misconception: {
         // EN (option A): This atom has 1 electron and 2 − 1 = 1 neutron. They are equal.
         "0": "這個原子有 1 個電子和 2 − 1 = 1 個中子。兩者相等。",
@@ -495,7 +495,7 @@ S1.i18n.register('zh-Hant', 's1-2.q', {
     // ── s1-2-q020 · mcq · challenge · SL · Structure 1.2.1 · 1 mark
     "s1-2-q020": {
       // EN: <p>Which pair of species has the same number of neutrons <strong>and</strong> the same number of electrons?</p>
-      stem: "<p>哪一對粒子的中子數目相同，<strong>而且</strong>電子數目也相同？</p>",
+      stem: "<p>哪一對物種 (species) 的中子數目相同，<strong>而且</strong>電子數目也相同？</p>",
       options: [
         // EN: <span class="nowrap" style="display:inline-flex;align-items:center;vertical-align:middle;line-height:1"><span style="display:inline-flex;flex-direction:column;align-items:flex-end;font-size:0.7em;line-height:1.1;margin-right:0.06em"><span>40</span><span>18</span></span><span>Ar</span></span> and <span class="nowrap" style="display:inline-flex;align-items:center;vertical-align:middle;line-height:1"><span style="display:inline-flex;flex-direction:column;align-items:flex-end;font-size:0.7em;line-height:1.1;margin-right:0.06em"><span>40</span><span>20</span></span><span>Ca</span><span style="align-self:flex-start;font-size:0.7em;line-height:1.1">2+</span></span>
         "<span class=\"nowrap\" style=\"display:inline-flex;align-items:center;vertical-align:middle;line-height:1\"><span style=\"display:inline-flex;flex-direction:column;align-items:flex-end;font-size:0.7em;line-height:1.1;margin-right:0.06em\"><span>40</span><span>18</span></span><span>Ar</span></span> 和 <span class=\"nowrap\" style=\"display:inline-flex;align-items:center;vertical-align:middle;line-height:1\"><span style=\"display:inline-flex;flex-direction:column;align-items:flex-end;font-size:0.7em;line-height:1.1;margin-right:0.06em\"><span>40</span><span>20</span></span><span>Ca</span><span style=\"align-self:flex-start;font-size:0.7em;line-height:1.1\">2+</span></span>",
@@ -508,7 +508,7 @@ S1.i18n.register('zh-Hant', 's1-2.q', {
       ],
       hints: [
         // EN: Make a small table: neutrons and electrons for each species.
-        "列一個小表：寫出每種粒子的中子和電子數目。",
+        "列一個小表：寫出每種物種的中子和電子數目。",
         // EN: Same mass number does not mean same number of neutrons.
         "質量數相同，不代表中子數目相同。",
       ],
@@ -739,7 +739,7 @@ S1.i18n.register('zh-Hant', 's1-2.q', {
     // ── s1-2-q031 · mcq · foundation · AHL · Structure 1.2.3 · 1 mark
     "s1-2-q031": {
       // EN: <p>The mass spectrum of a sample of magnesium has a peak at <i>m/z</i> 25. Which species causes this peak?</p>
-      stem: "<p>某鎂樣本的質譜在 <i>m/z</i> 25 有一個峰。這個峰由哪一種粒子產生？</p>",
+      stem: "<p>某鎂樣本的質譜在 <i>m/z</i> 25 有一個峰。這個峰由哪一種物種 (species) 產生？</p>",
       options: [
         // EN: <span class="nowrap"><sup>25</sup>Mg</span>
         "<span class=\"nowrap\"><sup>25</sup>Mg</span>",
@@ -757,7 +757,7 @@ S1.i18n.register('zh-Hant', 's1-2.q', {
         "檢測到的粒子是離子。它們是正離子還是負離子？",
       ],
       // EN: <p>The particles detected are positive ions. For a peak at <i>m/z</i> 25 the ion has mass 25 and a 1+ charge: <span class="nowrap"><sup>25</sup>Mg<sup>+</sup></span>. Always include the charge when you name the species that causes a peak.</p>
-      solution: "<p>檢測到的粒子是正離子。<i>m/z</i> 25 的峰，離子的質量是 25，帶 1+ 電荷：<span class=\"nowrap\"><sup>25</sup>Mg<sup>+</sup></span>。指出產生某個峰的粒子時，一定要寫上電荷。</p>",
+      solution: "<p>檢測到的粒子是正離子。<i>m/z</i> 25 的峰，離子的質量是 25，帶 1+ 電荷：<span class=\"nowrap\"><sup>25</sup>Mg<sup>+</sup></span>。指出產生某個峰的物種時，一定要寫上電荷。</p>",
       misconception: {
         // EN (option A): The isotope is right, but the charge is missing. A mass spectrometer detects positive ions, and in an exam the mark is lost without the +.
         "0": "同位素是對的，但漏了電荷。質譜儀檢測的是正離子；考試時沒有寫 + 就會失分。",
@@ -771,7 +771,7 @@ S1.i18n.register('zh-Hant', 's1-2.q', {
     // ── s1-2-q032 · mcq · exam · AHL · Structure 1.2.3 · 1 mark
     "s1-2-q032": {
       // EN: <p>Bromine has two isotopes, <span class="nowrap"><sup>79</sup>Br</span> and <span class="nowrap"><sup>81</sup>Br</span>, in almost equal abundance. The mass spectrum of bromine, <span class="chem">Br2</span>, has three peaks near <i>m/z</i> 160. It also has exactly two more peaks, at <i>m/z</i> 79 and 81, with almost equal heights. Which species cause the peaks at <i>m/z</i> 79 and 81?</p>
-      stem: "<p>溴有兩種同位素：<span class=\"nowrap\"><sup>79</sup>Br</span> 和 <span class=\"nowrap\"><sup>81</sup>Br</span>，豐度幾乎相等。溴 <span class=\"chem\">Br2</span> 的質譜在 <i>m/z</i> 160 附近有三個峰。此外還有剛好兩個峰，位於 <i>m/z</i> 79 和 81，高度幾乎相等。<i>m/z</i> 79 和 81 的峰由哪些粒子產生？</p>",
+      stem: "<p>溴有兩種同位素：<span class=\"nowrap\"><sup>79</sup>Br</span> 和 <span class=\"nowrap\"><sup>81</sup>Br</span>，豐度幾乎相等。溴 <span class=\"chem\">Br2</span> 的質譜在 <i>m/z</i> 160 附近有三個峰。此外還有剛好兩個峰，位於 <i>m/z</i> 79 和 81，高度幾乎相等。<i>m/z</i> 79 和 81 的峰由哪些物種 (species) 產生？</p>",
       options: [
         // EN: <span class="nowrap"><sup>79</sup>Br</span> and <span class="nowrap"><sup>81</sup>Br</span> atoms
         "<span class=\"nowrap\"><sup>79</sup>Br</span> 和 <span class=\"nowrap\"><sup>81</sup>Br</span> 原子",
@@ -792,7 +792,7 @@ S1.i18n.register('zh-Hant', 's1-2.q', {
       solution: "<p>有些 <span class=\"chem\">Br2</span> 分子會在儀器內分裂成單個原子。這些原子以正離子的形式被檢測到：<span class=\"nowrap\"><sup>79</sup>Br<sup>+</sup></span> 位於 <i>m/z</i> 79，<span class=\"nowrap\"><sup>81</sup>Br<sup>+</sup></span> 位於 <i>m/z</i> 81。兩種同位素的豐度幾乎相等，所以兩個峰的高度幾乎相等。</p>",
       misconception: {
         // EN (option A): The isotopes are right, but neutral atoms are not detected. The species must be positive ions, so the + is needed.
-        "0": "同位素是對的，但中性原子不會被檢測到。粒子必須是正離子，所以要寫上 +。",
+        "0": "同位素是對的，但中性原子不會被檢測到。這些物種必須是正離子，所以要寫上 +。",
         // EN (option C): Bromine forms bromide ions in its compounds, but the particles detected in a mass spectrometer are positive ions.
         "2": "溴在化合物中會形成溴離子（負離子），但質譜儀檢測到的粒子是正離子。",
         // EN (option D): Ions with a 2+ charge would appear at half their mass: 158 ÷ 2 = 79, 160 ÷ 2 = 80 and 162 ÷ 2 = 81. That would give three peaks, with the tallest at 80, not two equal peaks.

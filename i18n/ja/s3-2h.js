@@ -36,7 +36,7 @@ S1.i18n.register('ja', 's3-2h', {
     "Find a chiral carbon atom and explain why it gives two stereoisomers with different optical properties.": "キラル炭素原子を見つける。それによって、光学的な性質が違う 2 つの立体異性体ができる理由を説明する。",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Draw both enantiomers with wedge–dash bonds, showing the tetrahedral shape around the chiral carbon.": "くさび–破線の結合を使って、両方の鏡像異性体を描く。キラル炭素原子のまわりの正四面体形を示す。",
+    "Draw both enantiomers with wedge–dash bonds, showing the tetrahedral shape around the chiral carbon.": "くさび–破線の結合を使って、両方の鏡像異性体を描く。キラル炭素原子のまわりの四面体形を示す。",
 
     // What you need to be able to do > checklist > Additional HL > span
     "Recognize a pair of enantiomers as non-superimposable mirror images in 3-D models.": "3D モデルで、鏡像異性体の組を「重ね合わせることができない鏡像」として見分ける。",
@@ -84,7 +84,7 @@ S1.i18n.register('ja', 's3-2h', {
     "You also need three ideas from other pages.": "ほかのページの考え方も 3 つ必要です。",
 
     // What you need from the core page > li
-    "A carbon atom with four single bonds is tetrahedral, with bond angles of 109.5° (Structure 2.2).": "単結合を 4 本もつ炭素原子は正四面体形で、結合角は 109.5° です（Structure 2.2）。",
+    "A carbon atom with four single bonds is tetrahedral, with bond angles of 109.5° (Structure 2.2).": "単結合を 4 本もつ炭素原子は四面体形で、結合角は 109.5° です（Structure 2.2）。",
 
     // What you need from the core page > li
     "You can find an empirical formula from percentage composition by mass (Structure 1.4).": "質量百分率組成から組成式を求めることができます（Structure 1.4）。",
@@ -123,7 +123,7 @@ S1.i18n.register('ja', 's3-2h', {
     "These are two different compounds. One cannot turn into the other, because atoms cannot rotate around a double bond. To rotate, the π bond would have to break.": "この 2 つは別の化合物です。一方がもう一方に変わることはできません。原子は二重結合のまわりで回転できないからです。回転するには、π 結合が切れなければなりません。",
 
     // Stereoisomers and cis–trans isomers > key idea > p
-    "<i>Cis</i>–<i>trans</i> isomerism needs two things. First, rotation must be restricted: by a C=C double bond or by a ring. Second, each of the two carbon atoms must have two different groups attached.": "<i>cis</i>–<i>trans</i> 異性には、2 つの条件が必要です。1 つ目は、回転が制限されていること（restricted rotation）。C=C 二重結合か、環によって制限されます。2 つ目は、2 個の炭素原子のそれぞれに、違う基が 2 つ付いていることです。",
+    "<i>Cis</i>–<i>trans</i> isomerism needs two things. First, rotation must be restricted: by a C=C double bond or by a ring. Second, each of the two carbon atoms must have two different groups attached.": "<i>cis</i>–<i>trans</i> 異性には、2 つの条件が必要です。1 つ目は、回転が制限されていること (restricted rotation)。C=C 二重結合か、環によって制限されます。2 つ目は、2 個の炭素原子のそれぞれに、違う基が 2 つ付いていることです。",
 
     // Stereoisomers and cis–trans isomers > h3
     "The two-step test for an alkene": "アルケンの 2 ステップのテスト",
@@ -147,7 +147,7 @@ S1.i18n.register('ja', 's3-2h', {
     "In these drawings, a solid wedge is a bond coming towards you. A hashed wedge is a bond going away from you.": "これらの図では、実線のくさびは手前に出てくる結合です。破線のくさびは奥へ向かう結合です。",
 
     // Stereoisomers and cis–trans isomers > widget > data-title attribute
-    "Cis–trans explorer": "シス-トランス異性体を見てみよう",
+    "Cis–trans explorer": "シス-トランス異性体を調べよう",
 
     // Stereoisomers and cis–trans isomers > widget > data-kicker attribute
     // Chiral carbon atoms and enantiomers > widget > data-kicker attribute
@@ -259,7 +259,7 @@ S1.i18n.register('ja', 's3-2h', {
     "A molecule with one chiral carbon exists in two forms. Each form is the mirror image of the other, and the two cannot be superimposed. These two stereoisomers are called <dfn>enantiomers</dfn>. They are also called optical isomers.": "キラル炭素原子を 1 個もつ分子には、2 つの形があります。それぞれがもう一方の鏡像で、2 つを重ね合わせることはできません。この 2 つの立体異性体を<dfn>鏡像異性体（エナンチオマー）<span class=\"en-term\">(enantiomers)</span></dfn>といいます。光学異性体 (optical isomers) とも呼ばれます。",
 
     // Chiral carbon atoms and enantiomers > widget > data-title attribute
-    "Chirality lab: can you superimpose the mirror image?": "キラリティー実験室：鏡像を重ね合わせられますか？",
+    "Chirality lab: can you superimpose the mirror image?": "キラリティーラボ：鏡像を重ね合わせられますか？",
 
     // Chiral carbon atoms and enantiomers > widget > figcaption
     "Molecule B is the mirror image of molecule A. Rotate B and watch how many groups are in the same place as in A. Then try a molecule with two identical groups.": "分子 B は分子 A の鏡像です。B を回して、A と同じ位置にある基がいくつあるかを見ましょう。次に、同じ基を 2 つもつ分子でも試しましょう。",
@@ -289,7 +289,7 @@ S1.i18n.register('ja', 's3-2h', {
     "Drawing a pair of enantiomers": "鏡像異性体の組を描く",
 
     // Chiral carbon atoms and enantiomers > p
-    "A flat drawing cannot show a tetrahedral carbon. You need <dfn>wedge–dash notation</dfn>.": "平面の図では、正四面体形の炭素を表せません。<dfn>くさび–破線表記 <span class=\"en-term\">(wedge–dash notation)</span></dfn>が必要です。",
+    "A flat drawing cannot show a tetrahedral carbon. You need <dfn>wedge–dash notation</dfn>.": "平面の図では、四面体形の炭素を表せません。<dfn>くさび–破線表記 <span class=\"en-term\">(wedge–dash notation)</span></dfn>が必要です。",
 
     // Chiral carbon atoms and enantiomers > li
     "A plain line is a bond in the plane of the paper.": "普通の線は、紙面上にある結合です。",
@@ -412,7 +412,7 @@ S1.i18n.register('ja', 's3-2h', {
     "The two enantiomers": "2 つの鏡像異性体",
 
     // Chiral carbon atoms and enantiomers > table > th
-    "Melting point, boiling point, solubility, density": "融点、沸点、溶解度、密度",
+    "Melting point, boiling point, solubility, density": "融点、沸点、溶けやすさ、密度",
 
     // Chiral carbon atoms and enantiomers > table > td
     "the same": "同じ",
@@ -825,7 +825,7 @@ S1.i18n.register('ja', 's3-2h', {
     "Infrared radiation and greenhouse gases": "赤外線と温室効果ガス",
 
     // Infrared spectroscopy > p
-    "The surface of the Earth gives out infrared radiation. Greenhouse gases such as carbon dioxide, water vapour and methane absorb some of it, because their bonds vibrate at infrared frequencies.": "地球の表面は赤外線を放出しています。二酸化炭素、水蒸気、メタンなどの温室効果ガスは、その一部を吸収します。これらの分子の結合が、赤外線の振動数で振動するからです。",
+    "The surface of the Earth gives out infrared radiation. Greenhouse gases such as carbon dioxide, water vapour and methane absorb some of it, because their bonds vibrate at infrared frequencies.": "地球の表面は赤外線を放出しています。二酸化炭素、水蒸気、methane（メタン）などの温室効果ガスは、その一部を吸収します。これらの分子の結合が、赤外線の振動数で振動するからです。",
 
     // Infrared spectroscopy > p
     "The molecules then give the energy out again in all directions. Some of it returns to the surface. This keeps the lower atmosphere warmer.": "分子はそのあと、エネルギーをあらゆる方向にもう一度放出します。その一部は地表に戻ります。こうして、大気の下層が暖かく保たれます。",
@@ -852,7 +852,7 @@ S1.i18n.register('ja', 's3-2h', {
     "Think of a class photograph. Students in the front row have different neighbours from students in the back row. In a molecule, hydrogen atoms also sit in different surroundings.": "クラス写真を思い浮かべてください。前の列の生徒と後ろの列の生徒では、まわりにいる人が違います。分子の中の水素原子も、それぞれ違う環境に置かれています。",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "Proton nuclear magnetic resonance spectroscopy, <dfn><sup>1</sup>H NMR</dfn>, detects the hydrogen atoms in a molecule. It gives one signal for each different surrounding.": "プロトン核磁気共鳴分光法 (proton nuclear magnetic resonance spectroscopy)、略して<dfn>プロトン NMR <span class=\"en-term\">(<sup>1</sup>H NMR)</span></dfn> は、分子の中の水素原子を検出します。違う環境 1 つにつき、シグナルが 1 つ出ます。",
+    "Proton nuclear magnetic resonance spectroscopy, <dfn><sup>1</sup>H NMR</dfn>, detects the hydrogen atoms in a molecule. It gives one signal for each different surrounding.": "プロトン核磁気共鳴分光法 (proton nuclear magnetic resonance spectroscopy)、略して<dfn>プロトン NMR <span class=\"en-term\">(<sup>1</sup>H NMR)</span></dfn> は、分子の中の水素原子を検出します。違う環境 1 つにつき、シグナルが 1 本出ます。",
 
     // Proton NMR: signals, chemical shifts and areas > p
     "A <dfn>chemical environment</dfn> is the set of atoms and bonds around a hydrogen atom. Hydrogen atoms with exactly the same surroundings are called equivalent. They are in the same environment.": "<dfn>化学的環境 <span class=\"en-term\">(chemical environment)</span></dfn>とは、ある水素原子のまわりにある原子と結合の全体のことです。まわりがまったく同じ水素原子どうしを、等価 (equivalent) であるといいます。等価な水素原子は同じ環境にあります。",
@@ -867,13 +867,13 @@ S1.i18n.register('ja', 's3-2h', {
     "Count the different hydrogen environments. Two rules help.": "違う水素の環境を数えます。2 つのルールが役に立ちます。",
 
     // Proton NMR: signals, chemical shifts and areas > li
-    "The H atoms on the same carbon atom are equivalent. The three H atoms of a <span class=\"chem\">CH3</span> group give one signal.": "同じ炭素原子に付いた H 原子は等価です。<span class=\"chem\">CH3</span> 基の 3 個の H 原子は、シグナルを 1 つ示します。",
+    "The H atoms on the same carbon atom are equivalent. The three H atoms of a <span class=\"chem\">CH3</span> group give one signal.": "同じ炭素原子に付いた H 原子は等価です。<span class=\"chem\">CH3</span> 基の 3 個の H 原子は、シグナルを 1 本示します。",
 
     // Proton NMR: signals, chemical shifts and areas > li
-    "Groups that are mirror images of each other in a symmetrical molecule are equivalent. The two <span class=\"chem\">CH3</span> groups in propanone, <span class=\"chem\">CH3COCH3</span>, give one signal.": "対称な分子の中で、互いに鏡像の位置にある基は等価です。propanone <span class=\"chem\">CH3COCH3</span> の 2 つの <span class=\"chem\">CH3</span> 基は、シグナルを 1 つ示します。",
+    "Groups that are mirror images of each other in a symmetrical molecule are equivalent. The two <span class=\"chem\">CH3</span> groups in propanone, <span class=\"chem\">CH3COCH3</span>, give one signal.": "対称な分子の中で、互いに鏡像の位置にある基は等価です。propanone <span class=\"chem\">CH3COCH3</span> の 2 つの <span class=\"chem\">CH3</span> 基は、シグナルを 1 本示します。",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "Ethanol has three environments, labelled a, b and c. Its spectrum has three signals.": "ethanol には 3 つの環境があり、a、b、c のラベルを付けてあります。スペクトルにはシグナルが 3 つあります。",
+    "Ethanol has three environments, labelled a, b and c. Its spectrum has three signals.": "ethanol には 3 つの環境があり、a、b、c のラベルを付けてあります。スペクトルにはシグナルが 3 本あります。",
 
     // Proton NMR: signals, chemical shifts and areas > h3
     "2. Area under each signal": "2. 各シグナルの下の面積",
@@ -992,7 +992,7 @@ S1.i18n.register('ja', 's3-2h', {
     "To read a spectrum, work the other way: signals → environments, areas → H atoms in each, shifts → type of each environment.": "スペクトルを読むときは、逆向きに進めます。シグナル → 環境、面積 → 各環境の H 原子の数、シフト → 各環境の種類。",
 
     // Proton NMR: signals, chemical shifts and areas > common mistake > p
-    "The number of signals is not the number of hydrogen atoms, and it is not the number of carbon atoms. Propanone has six H atoms and three C atoms, but only one signal. Always count environments.": "シグナルの数は、水素原子の数ではありません。炭素原子の数でもありません。propanone には H 原子が 6 個、C 原子が 3 個ありますが、シグナルは 1 つだけです。いつも「環境」を数えましょう。",
+    "The number of signals is not the number of hydrogen atoms, and it is not the number of carbon atoms. Propanone has six H atoms and three C atoms, but only one signal. Always count environments.": "シグナルの数は、水素原子の数ではありません。炭素原子の数でもありません。propanone には H 原子が 6 個、C 原子が 3 個ありますが、シグナルは 1 本だけです。いつも「環境」を数えましょう。",
 
     // Proton NMR: signals, chemical shifts and areas > try it > data-label attribute
     // widget string (assets/js/widgets-s3-2h.js)
@@ -1141,10 +1141,10 @@ S1.i18n.register('ja', 's3-2h', {
     "Find the hydrogen environments": "水素の環境を見つける",
 
     // Proton NMR: splitting patterns > worked example > p
-    "Each different environment gives one signal.": "違う環境 1 つにつき、シグナルが 1 つ出ます。",
+    "Each different environment gives one signal.": "違う環境 1 つにつき、シグナルが 1 本出ます。",
 
     // Proton NMR: splitting patterns > worked example > maths line
-    "a: CH<sub>3</sub> &nbsp; b: CH<sub>2</sub> &nbsp; c: COOH → 3 signals": "a: CH<sub>3</sub> &nbsp; b: CH<sub>2</sub> &nbsp; c: COOH → シグナル 3 つ",
+    "a: CH<sub>3</sub> &nbsp; b: CH<sub>2</sub> &nbsp; c: COOH → 3 signals": "a: CH<sub>3</sub> &nbsp; b: CH<sub>2</sub> &nbsp; c: COOH → シグナル 3 本",
 
     // Proton NMR: splitting patterns > worked example > data-title attribute
     "Count the H atoms in each environment": "各環境の H 原子を数える",
@@ -1183,7 +1183,7 @@ S1.i18n.register('ja', 's3-2h', {
     "c: O–H → singlet": "c: O–H → 一重線 (singlet)",
 
     // Proton NMR: splitting patterns > worked example > p
-    "Three signals with areas 3 : 2 : 1. A triplet at 0.9–1.0 ppm, a quartet at 2.0–2.5 ppm and a singlet at 9.0–13.0 ppm.": "シグナルは 3 つで、面積比は 3 : 2 : 1 です。0.9–1.0 ppm に三重線、2.0–2.5 ppm に四重線、9.0–13.0 ppm に一重線が出ます。",
+    "Three signals with areas 3 : 2 : 1. A triplet at 0.9–1.0 ppm, a quartet at 2.0–2.5 ppm and a singlet at 9.0–13.0 ppm.": "シグナルは 3 本で、面積比は 3 : 2 : 1 です。0.9–1.0 ppm に三重線、2.0–2.5 ppm に四重線、9.0–13.0 ppm に一重線が出ます。",
 
     // Proton NMR: splitting patterns > worked example > data-kicker attribute
     "Worked example 2": "例題 2",
@@ -1198,7 +1198,7 @@ S1.i18n.register('ja', 's3-2h', {
     "The two CH<sub>3</sub> groups have different neighbours, so they are different environments.": "2 つの CH<sub>3</sub> 基は隣にあるものが違うので、違う環境です。",
 
     // Proton NMR: splitting patterns > worked example > maths line
-    "a: CH<sub>3</sub> next to C=O &nbsp; b: CH<sub>2</sub> next to O &nbsp; c: CH<sub>3</sub> next to CH<sub>2</sub> → 3 signals": "a: C=O の隣の CH<sub>3</sub> &nbsp; b: O の隣の CH<sub>2</sub> &nbsp; c: CH<sub>2</sub> の隣の CH<sub>3</sub> → シグナル 3 つ",
+    "a: CH<sub>3</sub> next to C=O &nbsp; b: CH<sub>2</sub> next to O &nbsp; c: CH<sub>3</sub> next to CH<sub>2</sub> → 3 signals": "a: C=O の隣の CH<sub>3</sub> &nbsp; b: O の隣の CH<sub>2</sub> &nbsp; c: CH<sub>2</sub> の隣の CH<sub>3</sub> → シグナル 3 本",
 
     // Proton NMR: splitting patterns > worked example > p
     "The atom next to the carbon decides the row.": "その炭素の隣の原子で、どの行を使うかが決まります。",
@@ -1222,7 +1222,7 @@ S1.i18n.register('ja', 's3-2h', {
     "c: next to CH<sub>2</sub>, n = 2 → triplet": "c: CH<sub>2</sub> の隣、n = 2 → 三重線 (triplet)",
 
     // Proton NMR: splitting patterns > worked example > p
-    "Three signals with areas 3 : 2 : 3. A singlet at 2.0–2.5 ppm, a quartet at 3.7–4.8 ppm and a triplet at 0.9–1.0 ppm.": "シグナルは 3 つで、面積比は 3 : 2 : 3 です。2.0–2.5 ppm に一重線、3.7–4.8 ppm に四重線、0.9–1.0 ppm に三重線が出ます。",
+    "Three signals with areas 3 : 2 : 3. A singlet at 2.0–2.5 ppm, a quartet at 3.7–4.8 ppm and a triplet at 0.9–1.0 ppm.": "シグナルは 3 本で、面積比は 3 : 2 : 3 です。2.0–2.5 ppm に一重線、3.7–4.8 ppm に四重線、0.9–1.0 ppm に三重線が出ます。",
 
     // Proton NMR: splitting patterns > try it > data-label attribute
     "Number of peaks": "ピークの数",
@@ -1403,7 +1403,7 @@ S1.i18n.register('ja', 's3-2h', {
     "Use the NMR signals and areas": "NMR のシグナルと面積を使う",
 
     // Combining the techniques > worked example > p
-    "Two signals mean two hydrogen environments. The areas share out the 10 H atoms.": "シグナルが 2 つなら、水素の環境は 2 つです。10 個の H 原子を、面積の比で分けます。",
+    "Two signals mean two hydrogen environments. The areas share out the 10 H atoms.": "シグナルが 2 本なら、水素の環境は 2 つです。10 個の H 原子を、面積の比で分けます。",
 
     // Combining the techniques > worked example > maths line
     "ratio 3 : 2, total 10 H → 6 H and 4 H": "比 3 : 2、合計 10 H → 6 H と 4 H",
@@ -1478,7 +1478,7 @@ S1.i18n.register('ja', 's3-2h', {
     "What features of a molecule determine whether it is IR active or not?": "分子が赤外活性かどうかは、分子のどんな特徴で決まりますか",
 
     // Linking it up > p
-    "A vibration absorbs infrared radiation only if it changes the dipole moment of the molecule. A molecule with polar bonds can do this. Carbon dioxide has no overall dipole, but when it bends or stretches unevenly, a dipole appears, so it absorbs. Water and methane absorb for the same reason.": "振動が赤外線を吸収するのは、その振動で分子の双極子モーメントが変わるときだけです。極性のある結合をもつ分子では、これが起こります。二酸化炭素は分子全体では双極子をもちません。しかし、折れ曲がったり、左右で不均等に伸び縮みしたりすると双極子が現れるので、赤外線を吸収します。水とメタンも同じ理由で吸収します。",
+    "A vibration absorbs infrared radiation only if it changes the dipole moment of the molecule. A molecule with polar bonds can do this. Carbon dioxide has no overall dipole, but when it bends or stretches unevenly, a dipole appears, so it absorbs. Water and methane absorb for the same reason.": "振動が赤外線を吸収するのは、その振動で分子の双極子モーメントが変わるときだけです。極性のある結合をもつ分子では、これが起こります。二酸化炭素は分子全体では双極子をもちません。しかし、折れ曲がったり、左右で不均等に伸び縮みしたりすると双極子が現れるので、赤外線を吸収します。水と methane も同じ理由で吸収します。",
 
     // Linking it up > p
     "Molecules such as <span class=\"chem\">N2</span> and <span class=\"chem\">O2</span> have two identical atoms and a non-polar bond. Stretching the bond does not create a dipole. They are not IR active. Bond polarity and molecular polarity are in Structure 2.2.": "<span class=\"chem\">N2</span> や <span class=\"chem\">O2</span> のような分子は、同じ原子 2 個と無極性の結合でできています。結合が伸びても双極子は生じません。これらは赤外活性 (IR active) ではありません。結合の極性と分子の極性は、Structure 2.2 で学びます。",
@@ -1496,7 +1496,7 @@ S1.i18n.register('ja', 's3-2h', {
     "Three sets, from first steps to stretch. Every question here is Additional HL. You get feedback after each question, and questions you have not yet answered correctly come up first.": "最初の一歩から発展まで、3 つのセットがあります。ここの問題は、すべて HL 追加内容（AHL）です。1 問ごとにフィードバックが出ます。まだ正解していない問題が先に出ます。",
 
     // Exam-style practice > data-title attribute
-    "3.2 HL Foundation: one idea at a time": "3.2 HL 基礎：1 回に 1 つの考え方",
+    "3.2 HL Foundation: one idea at a time": "3.2 HL 基礎：一度に 1 つの考え方",
 
     // Exam-style practice > data-title attribute
     "3.2 HL Exam standard": "3.2 HL 試験レベル",
@@ -1691,7 +1691,7 @@ S1.i18n.register('ja', 's3-2h', {
     "Rotation is restricted by {lock}, so one isomer cannot turn into the other without breaking a bond.": "{lock}によって回転が制限されています。だから、結合を切らないかぎり、一方の異性体がもう一方に変わることはできません。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Model note: the ring of cyclobutane is drawn flat here. The real ring is slightly bent. In the drawings, a wedge bond points towards you and a hashed bond points away from you.": "モデルについて：ここでは、シクロブタンの環を平らに描いてあります。実際の環は少し折れ曲がっています。図では、実線のくさびの結合は手前を、破線のくさびの結合は奥を向いています。",
+    "Model note: the ring of cyclobutane is drawn flat here. The real ring is slightly bent. In the drawings, a wedge bond points towards you and a hashed bond points away from you.": "モデルについて：ここでは、cyclobutane の環を平らに描いてあります。実際の環は少し折れ曲がっています。図では、実線のくさびの結合は手前を、破線のくさびの結合は奥を向いています。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "In the drawings, a wedge bond points towards you and a hashed bond points away from you.": "図では、実線のくさびの結合は手前を、破線のくさびの結合は奥を向いています。",
@@ -2360,7 +2360,7 @@ S1.i18n.register('ja', 's3-2h', {
     "H atoms in the molecule": "分子の H 原子の数",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Show me": "見せて",
+    "Show me": "見本を見る",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "Predict first": "先に予測する",
@@ -2393,7 +2393,7 @@ S1.i18n.register('ja', 's3-2h', {
     "at about {s} ppm, area {h}": "約 {s} ppm、面積 {h}",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "one signal only": "シグナルは 1 つだけ",
+    "one signal only": "シグナルは 1 本だけ",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "The spectrum is a sketch. Each signal is drawn inside the booklet range for its type of proton, as in exam data. Measured values can differ a little.": "スペクトルは略図です。各シグナルは、試験のデータと同じように、そのプロトンの種類のブックレットの範囲内に描いてあります。測定値は少し違うことがあります。",
@@ -2405,16 +2405,16 @@ S1.i18n.register('ja', 's3-2h', {
     "Step 1. How many signals does the <sup>1</sup>H NMR spectrum of {name} have?": "ステップ 1. {name} の <sup>1</sup>H NMR スペクトルには、シグナルがいくつありますか。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not yet. Look for groups of H atoms that have exactly the same surroundings. Each different group gives one signal.": "まだです。まわりがまったく同じ H 原子のグループを探しましょう。違うグループ 1 つにつき、シグナルが 1 つ出ます。",
+    "Not yet. Look for groups of H atoms that have exactly the same surroundings. Each different group gives one signal.": "まだです。まわりがまったく同じ H 原子のグループを探しましょう。違うグループ 1 つにつき、シグナルが 1 本出ます。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "That is closer to the number of hydrogen atoms. Count the different environments instead. All the H atoms in one CH<sub>3</sub> group are equivalent.": "それは水素原子の数に近い値です。数えるのは、違う環境の数です。1 つの CH<sub>3</sub> 基の H 原子は、すべて等価です。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "You counted every group that contains H. Some of these groups are equivalent because the molecule is symmetrical. Equivalent H atoms give one signal.": "H を含む基をすべて数えましたね。分子が対称なので、そのうちいくつかは等価です。等価な H 原子は、シグナルを 1 つ示します。",
+    "You counted every group that contains H. Some of these groups are equivalent because the molecule is symmetrical. Equivalent H atoms give one signal.": "H を含む基をすべて数えましたね。分子が対称なので、そのうちいくつかは等価です。等価な H 原子は、シグナルを 1 本示します。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Correct: 1 signal. All {h} H atoms are equivalent.": "正解：シグナルは 1 つです。{h} 個の H 原子がすべて等価です。",
+    "Correct: 1 signal. All {h} H atoms are equivalent.": "正解：シグナルは 1 本です。{h} 個の H 原子がすべて等価です。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "Correct: {n} signals. The areas are in the ratio {r}.": "正解：シグナルは {n} つです。面積比は {r} です。",
@@ -2423,7 +2423,7 @@ S1.i18n.register('ja', 's3-2h', {
     "Step 2. Predict the splitting of each signal. Count the H atoms on the neighbouring carbon atoms, then add 1.": "ステップ 2. 各シグナルの分裂を予測しましょう。隣の炭素原子に付いた H 原子を数えて、1 を足します。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "choose…": "選ぶ…",
+    "choose…": "選んでください…",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "Signal {k}: {group}": "シグナル {k}：{group}",
@@ -2435,7 +2435,7 @@ S1.i18n.register('ja', 's3-2h', {
     "look again": "もう一度",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Check splitting": "分裂を答え合わせ",
+    "Check splitting": "分裂の答え合わせ",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "Show the answer": "答えを見る",
@@ -2462,7 +2462,7 @@ S1.i18n.register('ja', 's3-2h', {
     "methoxymethane": "methoxymethane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Methoxymethane has the same molecular formula. But all six H atoms are equivalent, so it gives one signal. It has no O–H bond, so its IR spectrum has no broad band at 3200–3600 cm<sup>−1</sup>.": "methoxymethane は分子式が同じです。しかし、6 個の H 原子がすべて等価なので、シグナルは 1 つです。O–H 結合がないので、IR スペクトルの 3200–3600 cm<sup>−1</sup> に幅広い吸収帯は出ません。",
+    "Methoxymethane has the same molecular formula. But all six H atoms are equivalent, so it gives one signal. It has no O–H bond, so its IR spectrum has no broad band at 3200–3600 cm<sup>−1</sup>.": "methoxymethane は分子式が同じです。しかし、6 個の H 原子がすべて等価なので、シグナルは 1 本です。O–H 結合がないので、IR スペクトルの 3200–3600 cm<sup>−1</sup> に幅広い吸収帯は出ません。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "MS: the peak at m/z = 43 is M − 29. The piece lost is •CH<sub>2</sub>CH<sub>3</sub> or •CHO. The NMR spectrum will decide. The small peak at m/z = 57 is M − 15: loss of •CH<sub>3</sub>.": "MS：m/z = 43 のピークは M − 29 です。失われた断片は •CH<sub>2</sub>CH<sub>3</sub> か •CHO です。どちらかは NMR スペクトルで決まります。m/z = 57 の小さいピークは M − 15 で、•CH<sub>3</sub> の損失です。",
@@ -2477,7 +2477,7 @@ S1.i18n.register('ja', 's3-2h', {
     "butanal": "butanal",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Butanal is an aldehyde. It would give a signal at 9.4–10.0 ppm for the CHO hydrogen, and four signals in total. The spectrum has three signals and none above 3 ppm.": "butanal はアルデヒドです。CHO の水素のシグナルが 9.4–10.0 ppm に出て、シグナルは全部で 4 つになるはずです。このスペクトルのシグナルは 3 つで、3 ppm より上には 1 つもありません。",
+    "Butanal is an aldehyde. It would give a signal at 9.4–10.0 ppm for the CHO hydrogen, and four signals in total. The spectrum has three signals and none above 3 ppm.": "butanal はアルデヒドです。CHO の水素のシグナルが 9.4–10.0 ppm に出て、シグナルは全部で 4 本になるはずです。このスペクトルのシグナルは 3 本で、3 ppm より上には 1 本もありません。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "2-methylpropanal": "2-methylpropanal",
@@ -2516,13 +2516,13 @@ S1.i18n.register('ja', 's3-2h', {
     "butan-1-ol": "butan-1-ol",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Butan-1-ol is an alcohol. Its IR spectrum would show a broad O–H band at 3200–3600 cm<sup>−1</sup>, and its NMR spectrum would have five signals.": "butan-1-ol はアルコールです。IR スペクトルの 3200–3600 cm<sup>−1</sup> に幅広い O–H の吸収帯が出て、NMR スペクトルのシグナルは 5 つになるはずです。",
+    "Butan-1-ol is an alcohol. Its IR spectrum would show a broad O–H band at 3200–3600 cm<sup>−1</sup>, and its NMR spectrum would have five signals.": "butan-1-ol はアルコールです。IR スペクトルの 3200–3600 cm<sup>−1</sup> に幅広い O–H の吸収帯が出て、NMR スペクトルのシグナルは 5 本になるはずです。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "1-methoxypropane": "1-methoxypropane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "1-methoxypropane is an ether, so the IR fits. But it is not symmetrical. It would give four signals, and one of them would be a 3 H singlet for O–CH<sub>3</sub>.": "1-methoxypropane はエーテルなので、IR は合います。しかし、対称ではありません。シグナルは 4 つになり、その 1 つは O–CH<sub>3</sub> の 3 H の一重線になるはずです。",
+    "1-methoxypropane is an ether, so the IR fits. But it is not symmetrical. It would give four signals, and one of them would be a 3 H singlet for O–CH<sub>3</sub>.": "1-methoxypropane はエーテルなので、IR は合います。しかし、対称ではありません。シグナルは 4 本になり、その 1 本は O–CH<sub>3</sub> の 3 H の一重線になるはずです。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "methyl propanoate": "methyl propanoate",
@@ -2558,7 +2558,7 @@ S1.i18n.register('ja', 's3-2h', {
     "pentanal": "pentanal",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Pentanal is an aldehyde, but it has five hydrogen environments. The spectrum has only two signals.": "pentanal はアルデヒドですが、水素の環境が 5 つあります。このスペクトルのシグナルは 2 つだけです。",
+    "Pentanal is an aldehyde, but it has five hydrogen environments. The spectrum has only two signals.": "pentanal はアルデヒドですが、水素の環境が 5 つあります。このスペクトルのシグナルは 2 本だけです。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "Pentan-3-one has two environments, but the ratio would be 3 : 2 with a triplet and a quartet. It has no H that gives a signal at 9.4–10.0 ppm.": "pentan-3-one の環境は 2 つですが、比は 3 : 2 で、三重線と四重線になるはずです。9.4–10.0 ppm にシグナルを示す H もありません。",
@@ -2708,7 +2708,7 @@ S1.i18n.register('ja', 's3-2h', {
     "The molecule has {n} carbon atoms.": "分子に炭素原子が {n} 個ある。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Each signal comes from one hydrogen atom.": "シグナル 1 つは、水素原子 1 個から生じる。",
+    "Each signal comes from one hydrogen atom.": "シグナル 1 本は、水素原子 1 個から生じる。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "Not this one. <sup>1</sup>H NMR detects hydrogen atoms, not carbon atoms.": "これではありません。<sup>1</sup>H NMR が検出するのは水素原子で、炭素原子ではありません。",
@@ -2723,7 +2723,7 @@ S1.i18n.register('ja', 's3-2h', {
     "NMR: splitting": "NMR：分裂",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "One signal is a triplet and another is a quartet. What does this pattern show?": "シグナルの 1 つは三重線、もう 1 つは四重線です。このパターンから何がわかりますか。",
+    "One signal is a triplet and another is a quartet. What does this pattern show?": "シグナルの 1 本は三重線、もう 1 本は四重線です。このパターンから何がわかりますか。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "A group with 3 H and a group with 4 H.": "H が 3 個の基と、H が 4 個の基がある。",
@@ -2747,7 +2747,7 @@ S1.i18n.register('ja', 's3-2h', {
     "Both signals are singlets. What does this show?": "シグナルはどちらも一重線です。ここから何がわかりますか。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Each signal comes from one H atom.": "シグナル 1 つは、H 原子 1 個から生じる。",
+    "Each signal comes from one H atom.": "シグナル 1 本は、H 原子 1 個から生じる。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "The molecule has no CH<sub>3</sub> groups.": "分子に CH<sub>3</sub> 基がない。",

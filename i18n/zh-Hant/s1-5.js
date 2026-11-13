@@ -30,7 +30,7 @@ S1.i18n.register('zh-Hant', 's1-5', {
     "Explain why real gases deviate from the model, especially at low temperature and high pressure.": "解釋真實氣體為何偏離這個模型，尤其是在低溫和高壓下。",
 
     // What you need to be able to do > checklist > span
-    "Use the molar volume of an ideal gas at STP to convert between amount and gas volume.": "利用理想氣體在 STP 下的摩爾體積，換算物質的量（即香港課本所說的「摩爾數」）和氣體體積。",
+    "Use the molar volume of an ideal gas at STP to convert between amount and gas volume.": "利用理想氣體在 STP 下的摩爾體積，換算物質的量和氣體體積。",
 
     // What you need to be able to do > checklist > span
     "Describe and sketch how pressure, volume and temperature are related for a fixed mass of gas, and analyse graphs of these variables.": "描述固定質量的氣體的壓強、體積和溫度有甚麼關係，繪畫有關的略圖，並分析這些變量的圖表。",
@@ -208,7 +208,7 @@ S1.i18n.register('zh-Hant', 's1-5', {
     "Move either slider. The shaded cube shows the gas at STP, drawn to the same scale as a football and a 1 dm<sup>3</sup> cube. The amount and the volume always stay in the ratio 22.7 dm<sup>3</sup> for each mole.": "移動任何一個滑桿。有陰影的立方體代表 STP 下的氣體，和足球及 1 dm<sup>3</sup> 的立方體按同一比例繪畫。物質的量和體積的比例永遠不變：每摩爾 22.7 dm<sup>3</sup>。",
 
     // Molar volume of an ideal gas > common mistake > p
-    "Older books and many websites use <span class=\"mono\">22.4 dm<sup>3</sup> mol<sup>−1</sup></span>. That value is for 0 °C and a pressure of 101.325 kPa (1 atmosphere), which was the older standard pressure. The IB data booklet defines STP as 0 °C and 100 kPa. The pressure is slightly lower, so the gas takes up slightly more space: <span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span>. Using 22.4 in an IB exam gives a wrong answer.": "舊課本和很多網站使用 <span class=\"mono\">22.4 dm<sup>3</sup> mol<sup>−1</sup></span>。這個數值適用於 0 °C 和 101.325 kPa（1 個大氣壓），那是舊的標準壓強。IB 數據手冊把 STP 定為 0 °C 和 100 kPa。壓強稍低，氣體佔的空間就稍大：<span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span>。在 IB 考試用 22.4 會得出錯誤的答案。香港課本常用常溫常壓的 24 dm³ mol⁻¹，IB 考試同樣不要用這個數值。",
+    "Older books and many websites use <span class=\"mono\">22.4 dm<sup>3</sup> mol<sup>−1</sup></span>. That value is for 0 °C and a pressure of 101.325 kPa (1 atmosphere), which was the older standard pressure. The IB data booklet defines STP as 0 °C and 100 kPa. The pressure is slightly lower, so the gas takes up slightly more space: <span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span>. Using 22.4 in an IB exam gives a wrong answer.": "舊課本和很多網站使用 <span class=\"mono\">22.4 dm<sup>3</sup> mol<sup>−1</sup></span>。這個數值適用於 0 °C 和 101.325 kPa（1 個大氣壓），那是舊的標準壓強。IB 數據手冊把 STP 定為 0 °C 和 100 kPa。壓強稍低，氣體佔的空間就稍大：<span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span>。在 IB 考試用 22.4 會得出錯誤的答案。香港課本常用的 24 dm³ mol⁻¹（常溫常壓）同樣不要用。",
 
     // Molar volume of an ideal gas > h3
     // The combined gas law > h3
@@ -946,7 +946,7 @@ S1.i18n.register('zh-Hant', 's1-5', {
     "Density is mass divided by volume. If a question gives the density of a gas, it has given you the mass of a known volume. For example, a density of 1.25 g dm<sup>−3</sup> means 1.25 g occupies 1.00 dm<sup>3</sup>. Put those two values into the method above. There is no new formula to learn.": "密度是質量除以體積。如果題目給了氣體的密度，就等於給了你某個已知體積的質量。例如，密度是 1.25 g dm<sup>−3</sup>，表示 1.25 g 佔 1.00 dm<sup>3</sup>。把這兩個數值代入上面的方法就可以了。不用學新的公式。",
 
     // Molar mass of a gas from experimental data > exam tip (shown in English + translation) > p
-    "These questions are often chained: empirical formula in one part, molar mass from gas data in the next, molecular formula at the end. Each part is marked with “error carried forward”. If an earlier answer is wrong but you use it correctly afterwards, you still earn the later marks. So keep going, and show every line.": "這類題目常常環環相扣：一部分求實驗式，下一部分由氣體數據求摩爾質量，最後求分子式。每部分都按「前面的錯誤不重複扣分」的原則評分。如果前面的答案錯了，但你之後正確地使用它，後面的分數仍然拿得到。所以要繼續做下去，並寫出每一行步驟。",
+    "These questions are often chained: empirical formula in one part, molar mass from gas data in the next, molecular formula at the end. Each part is marked with “error carried forward”. If an earlier answer is wrong but you use it correctly afterwards, you still earn the later marks. So keep going, and show every line.": "這類題目常常環環相扣：一部分求實驗式，下一部分由氣體數據求摩爾質量，最後求分子式。每部分都按「承前錯誤」(error carried forward) 的原則評分。如果前面的答案錯了，但你之後正確地使用它，後面的分數仍然拿得到。所以要繼續做下去，並寫出每一行步驟。",
 
     // Molar mass of a gas from experimental data > common mistake > p
     "Do not use 22.7 dm<sup>3</sup> mol<sup>−1</sup> to find the amount unless the gas is at STP. Vapour in a syringe at 100 °C takes up much more space per mole than that.": "除非氣體處於 STP，否則不要用 22.7 dm<sup>3</sup> mol<sup>−1</sup> 求物質的量。100 °C 的注射器內的蒸氣，每摩爾所佔的空間比這個數值大得多。",
@@ -967,7 +967,7 @@ S1.i18n.register('zh-Hant', 's1-5', {
     "At low temperature and high pressure. There the particles are slow and close together, so intermolecular forces and the volume of the particles are no longer negligible. Under those conditions, equal volumes of two real gases may not contain exactly equal numbers of molecules.": "在低溫和高壓下。這時粒子運動慢，又靠得近，所以分子間引力和粒子的體積都不再可以忽略。在這些條件下，相同體積的兩種真實氣體所含的分子數目未必完全相同。",
 
     // Linking it up > h3
-    "Under comparable conditions, why do some gases deviate more than others?": "在相若的條件下，為甚麼有些氣體比其他氣體偏離得更多？",
+    "Under comparable conditions, why do some gases deviate more than others?": "在相近的條件下，為甚麼有些氣體比其他氣體偏離得更多？",
 
     // Linking it up > p
     "Gases whose particles attract each other more strongly deviate more, because the “no intermolecular forces” assumption fits them less well. Larger particles also make the “negligible volume” assumption less accurate. Structure 2.2 explains why some molecules attract more strongly than others.": "粒子之間吸引較強的氣體偏離得較多，因為「沒有分子間引力」這個假設對它們較不適用。粒子較大，也令「體積可忽略」這個假設較不準確。Structure 2.2 會解釋為甚麼有些分子之間的吸引比其他分子強。",

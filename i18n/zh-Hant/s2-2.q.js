@@ -918,7 +918,7 @@ S1.i18n.register('zh-Hant', 's2-2.q', {
       answer: "<p><strong>金剛石：</strong>每個碳原子以共價鍵與另外四個碳原子連接，形成三維（四面體形）的網絡。各個方向都有強的共價鍵，所以它很硬。四個價電子全部用於成鍵，所以沒有離域電子，不能導電。</p><p><strong>石墨：</strong>每個碳原子以共價鍵與另外三個碳原子連接，形成由六邊形組成的層。層與層之間只有微弱的倫敦（色散）力，所以各層可以互相滑動，石墨質軟。每個原子有一個離域電子，可以沿着層自由移動，所以石墨能導電。</p>",
       markscheme: [
         // EN: Diamond: each carbon atom bonded to four others / three-dimensional (tetrahedral) covalent network, so it is hard. AND no delocalized electrons / all valence electrons used in bonds, so it does not conduct.
-        "金剛石：每個碳原子與另外四個碳原子鍵合／三維（四面體形）的共價網絡，所以很硬。並且：沒有離域電子／所有價電子都用於成鍵，所以不導電。",
+        "金剛石：每個碳原子與另外四個碳原子鍵合／三維（四面體形）的巨型共價結構，所以很硬。並且：沒有離域電子／所有價電子都用於成鍵，所以不導電。",
         // EN: Graphite is soft: layers held together by weak London (dispersion) forces, so the layers can slide over each other. Do not accept "van der Waals" alone or "weak bonds between atoms".
         "石墨質軟：層與層之間靠微弱的倫敦（色散）力維繫，所以各層可以互相滑動。不接受只寫「范德華力」或「原子之間的鍵弱」。",
         // EN: Graphite conducts: each carbon atom bonded to only three others, so there are delocalized electrons that are free to move (along the layers). Do not accept "free ions".
@@ -1441,7 +1441,7 @@ S1.i18n.register('zh-Hant', 's2-2.q', {
     // ── s2-2-q052 · mcq · foundation · SL · Structure 2.2.10 · 1 mark
     "s2-2-q052": {
       // EN: <p>How is the retardation factor, <i>R</i><sub>F</sub>, of a spot calculated?</p>
-      stem: "<p>斑點的比移值 (retardation factor) <i>R</i><sub>F</sub> 怎樣計算？</p>",
+      stem: "<p>斑點的 <i>R</i><sub>F</sub> 值 (retardation factor) 怎樣計算？</p>",
       options: [
         // EN: distance moved by the solvent front ÷ distance moved by the spot
         "溶劑前沿移動的距離 ÷ 斑點移動的距離",

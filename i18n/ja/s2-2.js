@@ -60,7 +60,7 @@ S1.i18n.register('ja', 's2-2', {
     "Describe and draw a hydrogen bond between two molecules.": "2 つの分子の間の水素結合を記述し、図に描く。",
 
     // What you need to be able to do > checklist > span
-    "Explain the volatility, electrical conductivity and solubility of covalent substances from their structure.": "共有結合でできた物質の揮発性、電気伝導性、溶解度を、構造から説明する。",
+    "Explain the volatility, electrical conductivity and solubility of covalent substances from their structure.": "共有結合でできた物質の揮発性、電気伝導性、溶けやすさを、構造から説明する。",
 
     // What you need to be able to do > checklist > span
     "Explain how paper chromatography and thin layer chromatography separate a mixture.": "ペーパークロマトグラフィーと薄層クロマトグラフィーが混合物を分離するしくみを説明する。",
@@ -709,19 +709,19 @@ S1.i18n.register('ja', 's2-2', {
     "Two geometries, two names": "2 つの「形」と 2 つの名前",
 
     // Shapes of molecules: the VSEPR model > p
-    "The <dfn data-def=\"The arrangement of all the electron domains, bonding and non-bonding, around the central atom.\">electron domain geometry</dfn> is the arrangement of <em>all</em> the domains, including lone pairs.": "<dfn data-def=\"中心原子のまわりの、共有・非共有を合わせたすべての電子領域の並び方。\">電子領域の配置 <span class=\"en-term\">(electron domain geometry)</span></dfn>は、非共有電子対もふくめた<em>すべて</em>の領域の並び方です。",
+    "The <dfn data-def=\"The arrangement of all the electron domains, bonding and non-bonding, around the central atom.\">electron domain geometry</dfn> is the arrangement of <em>all</em> the domains, including lone pairs.": "<dfn data-def=\"中心原子のまわりの、共有・非共有を合わせたすべての電子領域の並び方。\">電子領域の配置 <span class=\"en-term\">(electron domain geometry)</span></dfn>は、非共有電子対も含めた<em>すべて</em>の領域の並び方です。",
 
     // Shapes of molecules: the VSEPR model > data-def attribute
     "The arrangement of all the electron domains, bonding and non-bonding, around the central atom.": "中心原子のまわりの、共有・非共有を合わせたすべての電子領域の並び方。",
 
     // Shapes of molecules: the VSEPR model > p
-    "The <dfn data-def=\"The arrangement of the atoms only. Lone pairs affect it but are not part of its name.\">molecular geometry</dfn> is the arrangement of the <em>atoms</em> only. This is the shape of the molecule.": "<dfn data-def=\"原子だけの並び方。非共有電子対は形に影響しますが、名前にはふくめません。\">分子の形 <span class=\"en-term\">(molecular geometry)</span></dfn>は、<em>原子</em>だけの並び方です。これが分子の形です。",
+    "The <dfn data-def=\"The arrangement of the atoms only. Lone pairs affect it but are not part of its name.\">molecular geometry</dfn> is the arrangement of the <em>atoms</em> only. This is the shape of the molecule.": "<dfn data-def=\"原子だけの並び方。非共有電子対は形に影響しますが、名前には含めません。\">分子の形 <span class=\"en-term\">(molecular geometry)</span></dfn>は、<em>原子</em>だけの並び方です。これが分子の形です。",
 
     // Shapes of molecules: the VSEPR model > data-def attribute
-    "The arrangement of the atoms only. Lone pairs affect it but are not part of its name.": "原子だけの並び方。非共有電子対は形に影響しますが、名前にはふくめません。",
+    "The arrangement of the atoms only. Lone pairs affect it but are not part of its name.": "原子だけの並び方。非共有電子対は形に影響しますが、名前には含めません。",
 
     // Shapes of molecules: the VSEPR model > p
-    "Lone pairs still take up space. But you cannot “see” them in the shape, so they are not part of the name of the molecular geometry.": "非共有電子対も場所を取ります。でも、形の中に「見える」わけではないので、分子の形の名前にはふくめません。",
+    "Lone pairs still take up space. But you cannot “see” them in the shape, so they are not part of the name of the molecular geometry.": "非共有電子対も場所を取ります。でも、形の中に「見える」わけではないので、分子の形の名前には含めません。",
 
     // Shapes of molecules: the VSEPR model > table > caption
     "The shapes you need for two, three and four electron domains": "電子領域が 2 つ、3 つ、4 つのときに必要な形",
@@ -1142,13 +1142,13 @@ S1.i18n.register('ja', 's2-2', {
     "Bond dipoles work in the same way. Each bond dipole has a size and a direction. If the dipoles are equal and the shape is symmetrical, they cancel.": "結合の双極子も同じです。結合の双極子には、大きさと向きがあります。双極子の大きさが同じで、形が対称なら、打ち消し合います。",
 
     // Molecular polarity > p
-    "A <dfn data-def=\"A molecule with a net dipole: its bond dipoles do not cancel, so one side of the molecule is δ+ and the other side is δ−.\">polar molecule</dfn> has a <dfn data-def=\"The overall dipole of a molecule, found by adding all the bond dipoles as vectors.\">net dipole</dfn>: its bond dipoles do not cancel. A <dfn data-def=\"A molecule with no net dipole.\">non-polar molecule</dfn> has no net dipole.": "<dfn data-def=\"分子全体の双極子をもつ分子。結合の双極子が打ち消し合わないので、分子の片側が δ+、反対側が δ− になります。\">極性分子 <span class=\"en-term\">(polar molecule)</span></dfn>は、<dfn data-def=\"分子全体としての双極子。すべての結合の双極子をベクトルとして足し合わせて求めます。\">分子全体の双極子 <span class=\"en-term\">(net dipole)</span></dfn>をもちます。結合の双極子が打ち消し合わないからです。<dfn data-def=\"分子全体の双極子をもたない分子。\">無極性分子 <span class=\"en-term\">(non-polar molecule)</span></dfn>は、分子全体の双極子をもちません。",
+    "A <dfn data-def=\"A molecule with a net dipole: its bond dipoles do not cancel, so one side of the molecule is δ+ and the other side is δ−.\">polar molecule</dfn> has a <dfn data-def=\"The overall dipole of a molecule, found by adding all the bond dipoles as vectors.\">net dipole</dfn>: its bond dipoles do not cancel. A <dfn data-def=\"A molecule with no net dipole.\">non-polar molecule</dfn> has no net dipole.": "<dfn data-def=\"分子全体の双極子をもつ分子。結合の双極子が打ち消し合わないので、分子の片側が δ+、反対側が δ− になります。\">極性分子 <span class=\"en-term\">(polar molecule)</span></dfn>は、<dfn data-def=\"分子全体の双極子。すべての結合の双極子をベクトルとして足し合わせて求めます。\">分子全体の双極子 <span class=\"en-term\">(net dipole)</span></dfn>をもちます。結合の双極子が打ち消し合わないからです。<dfn data-def=\"分子全体の双極子をもたない分子。\">無極性分子 <span class=\"en-term\">(non-polar molecule)</span></dfn>は、分子全体の双極子をもちません。",
 
     // Molecular polarity > data-def attribute
     "A molecule with a net dipole: its bond dipoles do not cancel, so one side of the molecule is δ+ and the other side is δ−.": "分子全体の双極子をもつ分子。結合の双極子が打ち消し合わないので、分子の片側が δ+、反対側が δ− になります。",
 
     // Molecular polarity > data-def attribute
-    "The overall dipole of a molecule, found by adding all the bond dipoles as vectors.": "分子全体としての双極子。すべての結合の双極子をベクトルとして足し合わせて求めます。",
+    "The overall dipole of a molecule, found by adding all the bond dipoles as vectors.": "分子全体の双極子。すべての結合の双極子をベクトルとして足し合わせて求めます。",
 
     // Molecular polarity > data-def attribute
     "A molecule with no net dipole.": "分子全体の双極子をもたない分子。",
@@ -1224,7 +1224,7 @@ S1.i18n.register('ja', 's2-2', {
     "do not cancel: <span class=\"chem\">NH3</span>": "打ち消し合わない：<span class=\"chem\">NH3</span>",
 
     // Molecular polarity > p
-    "The same reasoning works for ions. In the ammonium ion, <span class=\"chem\">NH4+</span>, the four N–H dipoles cancel because the ion is tetrahedral. The ion has a charge, but it has no net dipole.": "イオンでも同じように考えられます。アンモニウムイオン <span class=\"chem\">NH4+</span> は四面体形なので、4 つの N–H の双極子が打ち消し合います。このイオンは電荷をもちますが、イオン全体の双極子はもちません。",
+    "The same reasoning works for ions. In the ammonium ion, <span class=\"chem\">NH4+</span>, the four N–H dipoles cancel because the ion is tetrahedral. The ion has a charge, but it has no net dipole.": "イオンでも同じように考えられます。アンモニウムイオン <span class=\"chem\">NH4+</span> は正四面体形なので、4 つの N–H の双極子が打ち消し合います。このイオンは電荷をもちますが、イオン全体の双極子はもちません。",
 
     // Molecular polarity > worked example > data-kicker attribute
     "Worked example 6": "例題 6",
@@ -1703,7 +1703,7 @@ S1.i18n.register('ja', 's2-2', {
     "Press “Add the next label” four times. These are the four things to put in your own drawing.": "「次のラベルを加える」を 4 回押しましょう。自分で図を描くときに入れる 4 つのことがわかります。",
 
     // Intermolecular forces > common mistake > p
-    "A hydrogen bond is not the covalent O–H bond inside a molecule. It is the attraction <em>between</em> molecules. Also, a hydrogen atom bonded to carbon does not form hydrogen bonds. So propanone, <span class=\"chem\">CH3COCH3</span>, has no hydrogen bonding between its own molecules, although it contains H atoms and an O atom.": "水素結合は、分子の中の O–H 共有結合のことではありません。分子と分子の<em>間</em>の引力です。また、炭素に結合した水素原子は水素結合をつくりません。だから、プロパノン (propanone) <span class=\"chem\">CH3COCH3</span> は、H 原子と O 原子をふくんでいても、同じ分子どうしで水素結合をつくりません。",
+    "A hydrogen bond is not the covalent O–H bond inside a molecule. It is the attraction <em>between</em> molecules. Also, a hydrogen atom bonded to carbon does not form hydrogen bonds. So propanone, <span class=\"chem\">CH3COCH3</span>, has no hydrogen bonding between its own molecules, although it contains H atoms and an O atom.": "水素結合は、分子の中の O–H 共有結合のことではありません。分子と分子の<em>間</em>の引力です。また、炭素に結合した水素原子は水素結合をつくりません。だから、プロパノン (propanone) <span class=\"chem\">CH3COCH3</span> は、H 原子と O 原子を含んでいても、同じ分子どうしで水素結合をつくりません。",
 
     // Intermolecular forces > exam tip (shown in English + translation) > p
     "“Explain what a hydrogen bond is” has two marks. One: hydrogen is covalently bonded to a highly electronegative atom (N, O or F). Two: it is attracted to an electronegative atom (or its lone pair) on a neighbouring molecule. A clearly labelled diagram can earn both.": "「水素結合とは何かを説明しなさい (explain)」は 2 点です。1 点目：水素が、電気陰性度の非常に大きい原子（N、O、F）に共有結合している。2 点目：その水素が、となりの分子の電気陰性度の大きい原子（またはその非共有電子対）に引きつけられる。ラベルをはっきり付けた図でも、2 点とももらえます。",
@@ -1712,10 +1712,10 @@ S1.i18n.register('ja', 's2-2', {
     "The term “van der Waals forces”": "「ファンデルワールス力」という用語",
 
     // Intermolecular forces > key idea > p
-    "<dfn data-def=\"An inclusive term for three intermolecular forces: London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces. It does not include hydrogen bonding.\">Van der Waals forces</dfn> is an inclusive term. It covers three forces together: London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces. It does <b>not</b> include hydrogen bonding.": "<dfn data-def=\"3 つの分子間力をまとめた呼び方。ロンドン（分散）力、双極子–誘起双極子相互作用、双極子–双極子相互作用をふくみます。水素結合はふくみません。\">ファンデルワールス力 <span class=\"en-term\">(van der Waals forces)</span></dfn>は、まとめた呼び方です。ロンドン（分散）力、双極子–誘起双極子相互作用、双極子–双極子相互作用の 3 つをまとめて指します。水素結合は<b>ふくみません</b>。",
+    "<dfn data-def=\"An inclusive term for three intermolecular forces: London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces. It does not include hydrogen bonding.\">Van der Waals forces</dfn> is an inclusive term. It covers three forces together: London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces. It does <b>not</b> include hydrogen bonding.": "<dfn data-def=\"3 つの分子間力をまとめた呼び方。ロンドン（分散）力、双極子–誘起双極子相互作用、双極子–双極子相互作用を含みます。水素結合は含みません。\">ファンデルワールス力 <span class=\"en-term\">(van der Waals forces)</span></dfn>は、まとめた呼び方です。ロンドン（分散）力、双極子–誘起双極子相互作用、双極子–双極子相互作用の 3 つをまとめて指します。水素結合は<b>含みません</b>。",
 
     // Intermolecular forces > key idea > data-def attribute
-    "An inclusive term for three intermolecular forces: London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces. It does not include hydrogen bonding.": "3 つの分子間力をまとめた呼び方。ロンドン（分散）力、双極子–誘起双極子相互作用、双極子–双極子相互作用をふくみます。水素結合はふくみません。",
+    "An inclusive term for three intermolecular forces: London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces. It does not include hydrogen bonding.": "3 つの分子間力をまとめた呼び方。ロンドン（分散）力、双極子–誘起双極子相互作用、双極子–双極子相互作用を含みます。水素結合は含みません。",
 
     // Intermolecular forces > exam tip (shown in English + translation) > p
     "Do not write “van der Waals forces” when you mean London forces. Markschemes have refused it. Write “London (dispersion) forces”. “London forces” or “dispersion forces” are also accepted.": "ロンドン力のつもりで「van der Waals forces」と書いてはいけません。採点基準で認められなかった例があります。「London (dispersion) forces」と書きましょう。「London forces」や「dispersion forces」も認められます。",
@@ -1815,7 +1815,7 @@ S1.i18n.register('ja', 's2-2', {
     "Three: <span class=\"chem\">CH3OH</span> (O–H), <span class=\"chem\">NH3</span> (N–H) and HF (F–H).": "3 つです。<span class=\"chem\">CH3OH</span>（O–H）、<span class=\"chem\">NH3</span>（N–H）、HF（F–H）。",
 
     // Intermolecular forces > try it > p
-    "Ethanal and methoxymethane contain oxygen, but no H atom is bonded to it. HCl is polar, so it has dipole–dipole forces, but no hydrogen bonding.": "エタナールとメトキシメタンは酸素をふくみますが、その酸素に結合した H 原子はありません。HCl は極性なので双極子–双極子相互作用がありますが、水素結合はありません。",
+    "Ethanal and methoxymethane contain oxygen, but no H atom is bonded to it. HCl is polar, so it has dipole–dipole forces, but no hydrogen bonding.": "エタナールとメトキシメタンは酸素を含みますが、その酸素に結合した H 原子はありません。HCl は極性なので双極子–双極子相互作用がありますが、水素結合はありません。",
 
     // Intermolecular forces > not needed for IB > p
     "“Ion–dipole forces” are not in the guide’s list of intermolecular forces. You do not need the history of the hydrogen bond definition or any calculation of the strength of a force.": "「イオン–双極子相互作用 (ion–dipole forces)」は、『指導の手引き』の分子間力のリストにありません。水素結合の定義の歴史や、力の強さの計算も必要ありません。",
@@ -1954,7 +1954,7 @@ S1.i18n.register('ja', 's2-2', {
     "Check for hydrogen bonding": "水素結合があるか確かめる",
 
     // Explaining physical properties > worked example > p
-    "Propanone contains oxygen, so check. Every H atom in propanone is bonded to carbon.": "プロパノンは酸素をふくむので、確かめます。プロパノンの H 原子は、すべて炭素に結合しています。",
+    "Propanone contains oxygen, so check. Every H atom in propanone is bonded to carbon.": "プロパノンは酸素を含むので、確かめます。プロパノンの H 原子は、すべて炭素に結合しています。",
 
     // Explaining physical properties > worked example > maths line
     "no H bonded to N, O or F → no hydrogen bonding in either": "N、O、F に結合した H がない → どちらにも水素結合はない",
@@ -2000,7 +2000,7 @@ S1.i18n.register('ja', 's2-2', {
 
     // Explaining physical properties > h3
     // Explaining physical properties > table > th
-    "Solubility": "溶解度",
+    "Solubility": "溶けやすさ",
 
     // Explaining physical properties > p
     "A useful rule is “like dissolves like”. Polar substances tend to dissolve in polar solvents such as water. Non-polar substances tend to dissolve in non-polar solvents such as hexane.": "「似たものどうしはよく溶け合う (like dissolves like)」という便利な目安があります。極性の物質は、水のような極性溶媒に溶けやすい傾向があります。無極性の物質は、ヘキサンのような無極性溶媒に溶けやすい傾向があります。",
@@ -2015,7 +2015,7 @@ S1.i18n.register('ja', 's2-2', {
     "A non-polar solute, such as hexane, can form only weak London forces with water. These cannot replace the hydrogen bonds between water molecules. So the two liquids stay separate.": "ヘキサンのような無極性の溶質は、水との間に弱いロンドン力しかつくれません。これでは、水分子どうしの水素結合の代わりになりません。だから、2 つの液体は分かれたままです。",
 
     // Explaining physical properties > li
-    "As the hydrocarbon chain of an alcohol gets longer, more of the molecule is non-polar. Solubility in water falls. Ethanol mixes completely with water. Octan-1-ol hardly dissolves.": "アルコールの炭化水素の鎖が長くなるほど、分子の中で無極性の部分が増えます。水への溶解度は下がります。エタノールは水と完全に混ざります。オクタン-1-オールはほとんど溶けません。",
+    "As the hydrocarbon chain of an alcohol gets longer, more of the molecule is non-polar. Solubility in water falls. Ethanol mixes completely with water. Octan-1-ol hardly dissolves.": "アルコールの炭化水素の鎖が長くなるほど、分子の中で無極性の部分が増えます。水への溶けやすさは下がります。エタノールは水と完全に混ざります。オクタン-1-オールはほとんど溶けません。",
 
     // Explaining physical properties > li
     "Covalent network solids are insoluble in all common solvents. Dissolving would mean breaking strong covalent bonds.": "共有結合の結晶の固体は、ふつうの溶媒にはどれにも溶けません。溶けるには、強い共有結合を切らなければならないからです。",
@@ -2027,7 +2027,7 @@ S1.i18n.register('ja', 's2-2', {
     "Worked example 8": "例題 8",
 
     // Explaining physical properties > worked example > h3
-    "Explaining solubility": "溶解度を説明する",
+    "Explaining solubility": "溶けやすさを説明する",
 
     // Explaining physical properties > worked example > p
     "Ethanol, <span class=\"chem\">CH3CH2OH</span>, mixes completely with water. Hexane, <span class=\"chem\">C6H14</span>, is almost insoluble in water. Explain this difference.": "エタノール <span class=\"chem\">CH3CH2OH</span> は水と完全に混ざります。ヘキサン <span class=\"chem\">C6H14</span> は水にほとんど溶けません。この違いを説明しなさい (explain)。",
@@ -2036,7 +2036,7 @@ S1.i18n.register('ja', 's2-2', {
     "Describe the solvent": "溶媒を記述する",
 
     // Explaining physical properties > worked example > p
-    "Solubility depends on both partners, so start with water.": "溶解度は、溶かすものと溶かされるものの両方で決まります。だから、まず水から考えます。",
+    "Solubility depends on both partners, so start with water.": "溶けやすさは、溶かすものと溶かされるものの両方で決まります。だから、まず水から考えます。",
 
     // Explaining physical properties > worked example > maths line
     "water: polar, hydrogen bonding between molecules": "水：極性、分子間に水素結合",
@@ -2139,10 +2139,10 @@ S1.i18n.register('ja', 's2-2', {
     "A technique that separates the components of a mixture, based on their relative attractions to a mobile phase and a stationary phase.": "移動相と固定相に引きつけられる強さの違いを利用して、混合物の成分を分離する方法。",
 
     // Chromatography > li
-    "The <dfn data-def=\"The phase that does not move in chromatography, for example the water held in the paper or the solid coating of a TLC plate.\">stationary phase</dfn> stays in place.": "<dfn data-def=\"クロマトグラフィーで動かない相。たとえば、紙にふくまれている水や、TLC プレートの表面の固体の層です。\">固定相 <span class=\"en-term\">(stationary phase)</span></dfn>は、その場にとどまります。",
+    "The <dfn data-def=\"The phase that does not move in chromatography, for example the water held in the paper or the solid coating of a TLC plate.\">stationary phase</dfn> stays in place.": "<dfn data-def=\"クロマトグラフィーで動かない相。たとえば、紙に含まれている水や、TLC プレートの表面の固体の層です。\">固定相 <span class=\"en-term\">(stationary phase)</span></dfn>は、その場にとどまります。",
 
     // Chromatography > data-def attribute
-    "The phase that does not move in chromatography, for example the water held in the paper or the solid coating of a TLC plate.": "クロマトグラフィーで動かない相。たとえば、紙にふくまれている水や、TLC プレートの表面の固体の層です。",
+    "The phase that does not move in chromatography, for example the water held in the paper or the solid coating of a TLC plate.": "クロマトグラフィーで動かない相。たとえば、紙に含まれている水や、TLC プレートの表面の固体の層です。",
 
     // Chromatography > li
     "The <dfn data-def=\"The phase that moves in chromatography: the solvent, which carries the components of the mixture with it.\">mobile phase</dfn> moves. It is the solvent, and it carries the mixture with it.": "<dfn data-def=\"クロマトグラフィーで動く相。溶媒のことで、混合物の成分をいっしょに運びます。\">移動相 <span class=\"en-term\">(mobile phase)</span></dfn>は動きます。これは溶媒で、混合物をいっしょに運びます。",
@@ -2167,7 +2167,7 @@ S1.i18n.register('ja', 's2-2', {
     "paper chromatography": "ペーパークロマトグラフィー (paper chromatography)",
 
     // Chromatography > table > td
-    "water held in the fibres of the paper": "紙の繊維にふくまれている水",
+    "water held in the fibres of the paper": "紙の繊維に含まれている水",
 
     // Chromatography > table > td
     "a solvent that rises up the paper": "紙を上がっていく溶媒",
@@ -2350,7 +2350,7 @@ S1.i18n.register('ja', 's2-2', {
     "Do not reverse the polarity logic. With a polar stationary phase, the <em>more</em> polar component is held back more. It moves less and has the <em>smaller</em> R<sub>F</sub> value.": "極性の考え方を逆にしないようにしましょう。固定相が極性のとき、極性が<em>大きい</em>成分ほど強く引きとめられます。進む距離が短く、R<sub>F</sub> 値は<em>小さく</em>なります。",
 
     // Chromatography > exam tip (shown in English + translation) > p
-    "Because you measure from a diagram, markschemes accept a small range around the R<sub>F</sub> value. To explain the principle, say: the components have different attractions to the stationary phase and to the mobile phase (or different solubilities in the solvent), so they move at different speeds. To improve a poor separation, suggest a different solvent or a longer paper.": "図からはかって求めるので、採点基準は R<sub>F</sub> 値の前後の小さな範囲を認めます。原理を説明するときは、こう書きます。成分によって、固定相と移動相に引きつけられる強さが違う（または溶媒への溶解度が違う）ので、進む速さが違う。分離がうまくいかないときの改善としては、別の溶媒を使うか、もっと長い紙を使うことを提案します。",
+    "Because you measure from a diagram, markschemes accept a small range around the R<sub>F</sub> value. To explain the principle, say: the components have different attractions to the stationary phase and to the mobile phase (or different solubilities in the solvent), so they move at different speeds. To improve a poor separation, suggest a different solvent or a longer paper.": "図からはかって求めるので、採点基準は R<sub>F</sub> 値の前後の小さな範囲を認めます。原理を説明するときは、こう書きます。成分によって、固定相と移動相に引きつけられる強さが違う（または溶媒への溶けやすさが違う）ので、進む速さが違う。分離がうまくいかないときの改善としては、別の溶媒を使うか、もっと長い紙を使うことを提案します。",
 
     // Chromatography > not needed for IB > p
     "You do not need to know about locating agents (chemicals or lamps used to make colourless spots visible). The technical and operating details of gas chromatography and high-performance liquid chromatography will not be assessed.": "検出試薬（無色のスポットを見えるようにする薬品やランプ）について知っている必要はありません。ガスクロマトグラフィーや高速液体クロマトグラフィーの技術や操作のくわしい内容は、試験に出ません。",
@@ -2363,7 +2363,7 @@ S1.i18n.register('ja', 's2-2', {
     "Linking it up": "つなげて考える",
 
     // Linking it up > p
-    "These are some of the linking questions from the guide, with short answers. They connect this topic to others.": "『指導の手引き』にある「つながりの問い (linking questions)」のいくつかに、短く答えてみます。このトピックをほかのトピックと結びつける問いです。",
+    "These are some of the linking questions from the guide, with short answers. They connect this topic to others.": "『指導の手引き』にある「つながりの問い (linking question)」のいくつかに、短く答えてみます。このトピックをほかのトピックと結びつける問いです。",
 
     // Linking it up > h3
     "Why do ionic bonds only form between different elements, while covalent bonds can form between atoms of the same element?": "イオン結合は違う元素の間にしかできないのに、共有結合は同じ元素の原子の間にもできるのはなぜですか。",
@@ -2403,7 +2403,7 @@ S1.i18n.register('ja', 's2-2', {
     "Three sets, from first steps to level 7. Questions you have not yet answered correctly come first. All questions are original and written in the style of the IB papers.": "最初の一歩から成績 7 のレベルまで、3 つのセットがあります。まだ正解していない問題が先に出ます。問題はすべてオリジナルで、IB の試験の形式に合わせて作ってあります。",
 
     // Exam-style practice > data-title attribute
-    "Foundation: one idea at a time": "基礎：1 問に 1 つの考え方",
+    "Foundation: one idea at a time": "基礎：一度に 1 つの考え方",
 
     // Exam-style practice > data-title attribute
     "Exam standard": "試験レベル",
@@ -2577,7 +2577,7 @@ S1.i18n.register('ja', 's2-2', {
     "Electrons are missing.": "電子が足りません。",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "You have placed {p} of the {n} electrons. A Lewis formula must show all the valence electrons, including the lone pairs on the outer atoms.": "{n} 個の電子のうち {p} 個を置きました。ルイス構造式には、外側の原子の非共有電子対もふくめて、価電子をすべて示さなければなりません。",
+    "You have placed {p} of the {n} electrons. A Lewis formula must show all the valence electrons, including the lone pairs on the outer atoms.": "{n} 個の電子のうち {p} 個を置きました。ルイス構造式には、外側の原子の非共有電子対も含めて、価電子をすべて示さなければなりません。",
 
     // widget string (assets/js/widgets-s2-2.js)
     "Check hydrogen.": "水素を確かめましょう。",
@@ -2640,7 +2640,7 @@ S1.i18n.register('ja', 's2-2', {
     "Mode": "モード",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Explore": "自由に試す",
+    "Explore": "自由に見る",
 
     // widget string (assets/js/widgets-s2-2.js)
     "Predict first": "先に予測する",
@@ -2655,7 +2655,7 @@ S1.i18n.register('ja', 's2-2', {
     "Choose…": "選択…",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Check my prediction": "予測を確かめる",
+    "Check my prediction": "予測の答え合わせ",
 
     // widget string (assets/js/widgets-s2-2.js)
     "Next molecule": "次の分子",
@@ -2703,7 +2703,7 @@ S1.i18n.register('ja', 's2-2', {
     "measured: {m}": "実測値：{m}",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Each lone pair is an electron domain too. It takes up space but is not part of the shape name.": "非共有電子対も、それぞれ 1 つの電子領域です。場所は取りますが、形の名前にはふくめません。",
+    "Each lone pair is an electron domain too. It takes up space but is not part of the shape name.": "非共有電子対も、それぞれ 1 つの電子領域です。場所は取りますが、形の名前には含めません。",
 
     // widget string (assets/js/widgets-s2-2.js)
     "No lone pairs: the molecular geometry is the same as the electron domain geometry.": "非共有電子対なし：分子の形は電子領域の配置と同じです。",
@@ -3231,10 +3231,10 @@ S1.i18n.register('ja', 's2-2', {
     "This spot is in between: its attraction to the stationary phase is in between too.": "このスポットは中間です。固定相に引きつけられる強さも中間です。",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "It is level with the spot in lane A, so the mixture contains substance A.": "レーン A のスポットと同じ高さなので、混合物は物質 A をふくんでいます。",
+    "It is level with the spot in lane A, so the mixture contains substance A.": "レーン A のスポットと同じ高さなので、混合物は物質 A を含んでいます。",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "It is level with the spot in lane C, so the mixture contains substance C.": "レーン C のスポットと同じ高さなので、混合物は物質 C をふくんでいます。",
+    "It is level with the spot in lane C, so the mixture contains substance C.": "レーン C のスポットと同じ高さなので、混合物は物質 C を含んでいます。",
 
     // widget string (assets/js/widgets-s2-2.js)
     "It is not level with A, B or C, so it is none of them.": "A、B、C のどれとも高さが合わないので、どれでもありません。",

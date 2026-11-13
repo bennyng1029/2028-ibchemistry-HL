@@ -1402,7 +1402,7 @@ S1.i18n.register('zh-Hant', 's2-4', {
     "The whole triangle": "整個三角形",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Bonding triangle with example substances. Sodium is in the metallic corner, chlorine in the covalent corner and caesium fluoride at the ionic top. Sodium chloride is in the ionic region. Silicon dioxide is in the polar covalent region. On a wide screen hydrogen chloride is also shown there.": "附有物質例子的鍵合三角。鈉在金屬的一角，氯在共價的一角，氟化銫在離子的頂部。氯化鈉在離子區域。二氧化矽在極性共價區域。在闊屏幕上，氯化氫也顯示在那裏。",
+    "Bonding triangle with example substances. Sodium is in the metallic corner, chlorine in the covalent corner and caesium fluoride at the ionic top. Sodium chloride is in the ionic region. Silicon dioxide is in the polar covalent region. On a wide screen hydrogen chloride is also shown there.": "附有物質例子的鍵合三角。鈉在金屬的一角，氯在共價的一角，氟化銫在離子的頂部。氯化鈉在離子區域。二氧化矽在極性共價區域。在闊螢幕上，氯化氫也顯示在那裏。",
 
     // widget string (assets/js/widgets-s2-4.js)
     "What this region means": "這個區域代表甚麼",
@@ -1627,7 +1627,7 @@ S1.i18n.register('zh-Hant', 's2-4', {
     "A section of an addition polymer chain with six backbone carbons. Repeating unit: {unit}": "一段加成聚合物鏈，有六個主鏈碳。重複單位：{unit}",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Not this one": "不是這一個",
+    "Not this one": "不是這個",
 
     // widget string (assets/js/widgets-s2-4.js)
     "The monomer is {name}, {mono}. Two neighbouring backbone carbons and their four side groups make one repeating unit. Put the double bond back between those two carbons.": "單體是 {name}，{mono}。兩個相鄰的主鏈碳連同它們的四個側基，構成一個重複單位。把雙鍵放回這兩個碳之間。",

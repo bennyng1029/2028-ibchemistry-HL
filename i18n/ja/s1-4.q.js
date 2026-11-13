@@ -63,7 +63,7 @@ S1.i18n.register('ja', 's1-4.q', {
         "粒子の数からモルに直すと、数はずっと小さくなります。だから 6.02 × 10<sup>23</sup> でわります。先に 10 の何乗かをくらべましょう。10<sup>22</sup> は 10<sup>23</sup> より小さいので、答えは 1 mol より小さくなります。",
       ],
       // EN: <div class="worked__math"><i>n</i> = <span class="frac"><span><i>N</i></span><span><i>N</i><sub>A</sub></span></span></div><div class="worked__math"><i>n</i> = <span class="frac"><span>9.03 × 10<sup>22</sup></span><span>6.02 × 10<sup>23</sup> <span class="unit">mol-1</span></span></span></div><div class="worked__math"><i>n</i> = <strong>0.150 <span class="unit">mol</span></strong></div><p>If you multiplied by <i>N</i><sub>A</sub> instead, you would get about 5 × 10<sup>46</sup>, which is not a sensible amount in moles.</p>
-      solution: "<div class=\"worked__math\"><i>n</i> = <span class=\"frac\"><span><i>N</i></span><span><i>N</i><sub>A</sub></span></span></div><div class=\"worked__math\"><i>n</i> = <span class=\"frac\"><span>9.03 × 10<sup>22</sup></span><span>6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span></span></span></div><div class=\"worked__math\"><i>n</i> = <strong>0.150 <span class=\"unit\">mol</span></strong></div><p>まちがえて <i>N</i><sub>A</sub> をかけると、約 5 × 10<sup>46</sup> になります。モル単位の物質量として、ありえない大きさです。</p>",
+      solution: "<div class=\"worked__math\"><i>n</i> = <span class=\"frac\"><span><i>N</i></span><span><i>N</i><sub>A</sub></span></span></div><div class=\"worked__math\"><i>n</i> = <span class=\"frac\"><span>9.03 × 10<sup>22</sup></span><span>6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span></span></span></div><div class=\"worked__math\"><i>n</i> = <strong>0.150 <span class=\"unit\">mol</span></strong></div><p>間違えて <i>N</i><sub>A</sub> をかけると、約 5 × 10<sup>46</sup> になります。モル単位の物質量として、ありえない大きさです。</p>",
     },
 
     // ── s1-4-q004 · mcq · exam · SL · Structure 1.4.1 · 1 mark
@@ -153,7 +153,7 @@ S1.i18n.register('ja', 's1-4.q', {
         "最後の文は、<span class=\"chem\">O2</span> 1 分子の原子の数を数えて考えます。",
       ],
       // EN: <p>The mole is the SI unit of amount of substance. One mole of anything contains 6.02 × 10<sup>23</sup> of the specified entities, so 1 mol of water molecules and 1 mol of iron atoms hold the same number of particles. <i>N</i><sub>A</sub> means "per mole", so its units are <span class="unit">mol-1</span>.</p><p>The two wrong statements mix up number with mass, and molecules with atoms.</p>
-      solution: "<p>モルは物質量の SI 単位です。どんなものでも、1 モルは指定した粒子を 6.02 × 10<sup>23</sup> 個含みます。だから、水分子 1 mol と鉄原子 1 mol は同じ数の粒子を含みます。<i>N</i><sub>A</sub> は「1 モルあたり」という意味なので、単位は <span class=\"unit\">mol-1</span> です。</p><p>まちがっている 2 つの文は、個数と質量、分子と原子をそれぞれ取り違えています。</p>",
+      solution: "<p>モルは物質量の SI 単位です。どんなものでも、1 モルは指定した粒子を 6.02 × 10<sup>23</sup> 個含みます。だから、水分子 1 mol と鉄原子 1 mol は同じ数の粒子を含みます。<i>N</i><sub>A</sub> は「1 モルあたり」という意味なので、単位は <span class=\"unit\">mol-1</span> です。</p><p>間違っている 2 つの文は、個数と質量、分子と原子をそれぞれ取り違えています。</p>",
       misconception: {
         // EN (option B): 6.02 × 10<sup>23</sup> is a number of particles, not a mass. The mass of one mole is the molar mass, which is different for each substance.
         "1": "6.02 × 10<sup>23</sup> は粒子の個数で、質量ではありません。1 モルの質量はモル質量で、物質ごとに違います。",
@@ -305,7 +305,7 @@ S1.i18n.register('ja', 's1-4.q', {
         "質量の単位は <span class=\"unit\">g</span>、モル質量の単位は <span class=\"unit\">g mol-1</span> なので、単位の換算はいりません。25.0 g は 100.09 g より小さいので、答えは 1 mol より小さくなります。",
       ],
       // EN: <div class="worked__math"><i>n</i> = <span class="frac"><span><i>m</i></span><span><i>M</i></span></span></div><div class="worked__math"><i>n</i> = <span class="frac"><span>25.0 <span class="unit">g</span></span><span>100.09 <span class="unit">g mol-1</span></span></span></div><div class="worked__math"><i>n</i> = 0.24978 <span class="unit">mol</span> = <strong>0.250 <span class="unit">mol</span></strong></div><p>If you multiplied instead you would get about 2500, which fails the size check.</p>
-      solution: "<div class=\"worked__math\"><i>n</i> = <span class=\"frac\"><span><i>m</i></span><span><i>M</i></span></span></div><div class=\"worked__math\"><i>n</i> = <span class=\"frac\"><span>25.0 <span class=\"unit\">g</span></span><span>100.09 <span class=\"unit\">g mol-1</span></span></span></div><div class=\"worked__math\"><i>n</i> = 0.24978 <span class=\"unit\">mol</span> = <strong>0.250 <span class=\"unit\">mol</span></strong></div><p>まちがえてかけ算をすると約 2500 になります。大きさを確かめれば、おかしいと気づけます。</p>",
+      solution: "<div class=\"worked__math\"><i>n</i> = <span class=\"frac\"><span><i>m</i></span><span><i>M</i></span></span></div><div class=\"worked__math\"><i>n</i> = <span class=\"frac\"><span>25.0 <span class=\"unit\">g</span></span><span>100.09 <span class=\"unit\">g mol-1</span></span></span></div><div class=\"worked__math\"><i>n</i> = 0.24978 <span class=\"unit\">mol</span> = <strong>0.250 <span class=\"unit\">mol</span></strong></div><p>間違えてかけ算をすると約 2500 になります。大きさを確かめれば、おかしいと気づけます。</p>",
     },
 
     // ── s1-4-q013 · numeric · foundation · SL · Structure 1.4.3 · 1 mark
@@ -453,7 +453,7 @@ S1.i18n.register('ja', 's1-4.q', {
     // ── s1-4-q020 · mcq · challenge · SL · Structure 1.4.3 · 1 mark
     "s1-4-q020": {
       // EN: <p>A student calculates the number of hydrogen atoms in 3.20 <span class="unit">g</span> of methane, <span class="chem">CH4</span>. Their working is shown.</p><ol><li><i>M</i>(<span class="chem">CH4</span>) = 12.01 + (4 × 1.01) = 16.05 <span class="unit">g mol-1</span></li><li><i>n</i>(<span class="chem">CH4</span>) = 3.20 ÷ 16.05 = 0.199 <span class="unit">mol</span></li><li>Number of molecules = 0.199 × 6.02 × 10<sup>23</sup> = 1.20 × 10<sup>23</sup></li><li>Number of H atoms = 1.20 × 10<sup>23</sup> ÷ 4 = 3.00 × 10<sup>22</sup></li></ol><p>Which line contains the error?</p>
-      stem: "<p>ある生徒が、3.20 <span class=\"unit\">g</span> のメタン <span class=\"chem\">CH4</span> に含まれる水素原子の数を計算しました。途中の計算は次のとおりです。</p><ol><li><i>M</i>(<span class=\"chem\">CH4</span>) = 12.01 + (4 × 1.01) = 16.05 <span class=\"unit\">g mol-1</span></li><li><i>n</i>(<span class=\"chem\">CH4</span>) = 3.20 ÷ 16.05 = 0.199 <span class=\"unit\">mol</span></li><li>分子の数 = 0.199 × 6.02 × 10<sup>23</sup> = 1.20 × 10<sup>23</sup></li><li>H 原子の数 = 1.20 × 10<sup>23</sup> ÷ 4 = 3.00 × 10<sup>22</sup></li></ol><p>まちがいがあるのは何行目ですか。</p>",
+      stem: "<p>ある生徒が、3.20 <span class=\"unit\">g</span> のメタン <span class=\"chem\">CH4</span> に含まれる水素原子の数を計算しました。途中の計算は次のとおりです。</p><ol><li><i>M</i>(<span class=\"chem\">CH4</span>) = 12.01 + (4 × 1.01) = 16.05 <span class=\"unit\">g mol-1</span></li><li><i>n</i>(<span class=\"chem\">CH4</span>) = 3.20 ÷ 16.05 = 0.199 <span class=\"unit\">mol</span></li><li>分子の数 = 0.199 × 6.02 × 10<sup>23</sup> = 1.20 × 10<sup>23</sup></li><li>H 原子の数 = 1.20 × 10<sup>23</sup> ÷ 4 = 3.00 × 10<sup>22</sup></li></ol><p>間違いがあるのは何行目ですか。</p>",
       options: [
         // EN: Line 1
         "1 行目",
@@ -620,7 +620,7 @@ S1.i18n.register('ja', 's1-4.q', {
         // EN: M2: mass of O by difference = 0.398 g, OR n(O) = 0.0249 mol.
         "M2：引き算で求めた O の質量 = 0.398 g、または n(O) = 0.0249 mol。",
         // EN: M3: C₃H₈O. (A correct final formula with no working would earn all 3 marks, but always show working so that an error is penalised only once.)
-        "M3：C₃H₈O。（途中の計算がなくても、最後の式が正しければ 3 点すべてもらえる。それでも途中の計算は必ず書くこと。そうすれば、まちがいがあっても減点は 1 回だけですむ。）",
+        "M3：C₃H₈O。（途中の計算がなくても、最後の式が正しければ 3 点すべてもらえる。それでも途中の計算は必ず書くこと。そうすれば、間違いがあっても減点は 1 回だけですむ。）",
       ],
     },
 
@@ -718,7 +718,7 @@ S1.i18n.register('ja', 's1-4.q', {
         // EN: M3: empirical formula C₂H₅O.
         "M3：組成式 C₂H₅O。",
         // EN: M4: 90.14 ÷ 45.07 = 2, so molecular formula C₄H₁₀O₂. (Allow error carried forward from your empirical formula.)
-        "M4：90.14 ÷ 45.07 = 2 なので、分子式は C₄H₁₀O₂。（自分の組成式からの「誤りの持ち越し」(error carried forward) も認める。）",
+        "M4：90.14 ÷ 45.07 = 2 なので、分子式は C₄H₁₀O₂。（自分の組成式からの「誤りの持ち越し (error carried forward)」 も認める。）",
       ],
     },
 
@@ -728,11 +728,11 @@ S1.i18n.register('ja', 's1-4.q', {
       stem: "<p>鉄のある酸化物は、質量で 72.4 % の鉄と 27.6 % の酸素を含みます。ある生徒が、次のように組成式を求めました。</p><ol><li>Fe: 72.4 ÷ 55.85 = 1.296 &nbsp; O: 27.6 ÷ 16.00 = 1.725</li><li>最小の値でわる： Fe 1.296 ÷ 1.296 = 1.00 &nbsp; O 1.725 ÷ 1.296 = 1.33</li><li>整数に丸める： Fe = 1, O = 1</li><li>組成式： <span class=\"chem\">FeO</span></li></ol><p>この計算について正しい文はどれですか。</p>",
       options: [
         // EN: Line 1 is wrong: the percentages should be divided by the atomic numbers.
-        "1 行目がまちがい：百分率は原子番号でわるべきである。",
+        "1 行目が間違い：百分率は原子番号でわるべきである。",
         // EN: Line 2 is wrong: the student should divide by the largest value.
-        "2 行目がまちがい：いちばん大きい値でわるべきである。",
+        "2 行目が間違い：いちばん大きい値でわるべきである。",
         // EN: Line 3 is wrong: 1.33 is too far from a whole number to round.
-        "3 行目がまちがい：1.33 は整数から遠すぎて、丸められない。",
+        "3 行目が間違い：1.33 は整数から遠すぎて、丸められない。",
         // EN: The working is correct and the formula is <span class="chem">FeO</span>.
         "計算は正しく、組成式は <span class=\"chem\">FeO</span> である。",
       ],
@@ -743,7 +743,7 @@ S1.i18n.register('ja', 's1-4.q', {
         "1.33 は見覚えのある分数、1⅓ です。何をかければ、3 分の 1 の端数をなくせますか。",
       ],
       // EN: <p>Lines 1 and 2 are correct. The error is in line 3. A ratio of 1 : 1.33 must be multiplied up, not rounded.</p><div class="worked__math">Fe : O = 1.00 : 1.33</div><div class="worked__math">× 3: Fe : O = 3.00 : 3.99 ≈ 3 : 4</div><p>The empirical formula is <strong><span class="chem">Fe3O4</span></strong>. Look out for .5 (× 2), .33 or .67 (× 3) and .25 or .75 (× 4).</p>
-      solution: "<p>1 行目と 2 行目は正しいです。まちがいは 3 行目にあります。1 : 1.33 という比は、丸めるのではなく、整数になるまで何倍かします。</p><div class=\"worked__math\">Fe : O = 1.00 : 1.33</div><div class=\"worked__math\">× 3: Fe : O = 3.00 : 3.99 ≈ 3 : 4</div><p>組成式は <strong><span class=\"chem\">Fe3O4</span></strong> です。.5（× 2）、.33 や .67（× 3）、.25 や .75（× 4）が出てきたら、丸めずにかけ算をしましょう。</p>",
+      solution: "<p>1 行目と 2 行目は正しいです。間違いは 3 行目にあります。1 : 1.33 という比は、丸めるのではなく、整数になるまで何倍かします。</p><div class=\"worked__math\">Fe : O = 1.00 : 1.33</div><div class=\"worked__math\">× 3: Fe : O = 3.00 : 3.99 ≈ 3 : 4</div><p>組成式は <strong><span class=\"chem\">Fe3O4</span></strong> です。.5（× 2）、.33 や .67（× 3）、.25 や .75（× 4）が出てきたら、丸めずにかけ算をしましょう。</p>",
       misconception: {
         // EN (option A): Dividing by <i>A</i><sub>r</sub> is right. It converts mass into amount in moles. Atomic number counts protons and is not used here.
         "0": "<i>A</i><sub>r</sub> でわるのは正しいです。質量をモル単位の物質量に直せます。原子番号は陽子の数で、ここでは使いません。",
@@ -773,7 +773,7 @@ S1.i18n.register('ja', 's1-4.q', {
     // ── s1-4-q032 · mcq · challenge · SL · Structure 1.4.4 · 1 mark
     "s1-4-q032": {
       // EN: <p>0.920 <span class="unit">g</span> of a compound of carbon, hydrogen and oxygen burns completely to give 1.76 <span class="unit">g</span> of <span class="chem">CO2</span> and 1.08 <span class="unit">g</span> of <span class="chem">H2O</span>. A student starts to find the empirical formula.</p><ol><li><i>n</i>(C) = <i>n</i>(<span class="chem">CO2</span>) = 1.76 ÷ 44.01 = 0.0400 <span class="unit">mol</span></li><li><i>n</i>(H) = <i>n</i>(<span class="chem">H2O</span>) = 1.08 ÷ 18.02 = 0.0599 <span class="unit">mol</span></li><li><i>m</i>(O) = 0.920 − (0.0400 × 12.01) − (0.0599 × 1.01) = 0.379 <span class="unit">g</span></li><li><i>n</i>(O) = 0.379 ÷ 16.00 = 0.0237 <span class="unit">mol</span></li></ol><p>Which line contains the first error?</p>
-      stem: "<p>炭素、水素、酸素からなる化合物 0.920 <span class=\"unit\">g</span> を完全燃焼させると、<span class=\"chem\">CO2</span> が 1.76 <span class=\"unit\">g</span>、<span class=\"chem\">H2O</span> が 1.08 <span class=\"unit\">g</span> 生じます。ある生徒が、組成式を求め始めました。</p><ol><li><i>n</i>(C) = <i>n</i>(<span class=\"chem\">CO2</span>) = 1.76 ÷ 44.01 = 0.0400 <span class=\"unit\">mol</span></li><li><i>n</i>(H) = <i>n</i>(<span class=\"chem\">H2O</span>) = 1.08 ÷ 18.02 = 0.0599 <span class=\"unit\">mol</span></li><li><i>m</i>(O) = 0.920 − (0.0400 × 12.01) − (0.0599 × 1.01) = 0.379 <span class=\"unit\">g</span></li><li><i>n</i>(O) = 0.379 ÷ 16.00 = 0.0237 <span class=\"unit\">mol</span></li></ol><p>最初のまちがいがあるのは何行目ですか。</p>",
+      stem: "<p>炭素、水素、酸素からなる化合物 0.920 <span class=\"unit\">g</span> を完全燃焼させると、<span class=\"chem\">CO2</span> が 1.76 <span class=\"unit\">g</span>、<span class=\"chem\">H2O</span> が 1.08 <span class=\"unit\">g</span> 生じます。ある生徒が、組成式を求め始めました。</p><ol><li><i>n</i>(C) = <i>n</i>(<span class=\"chem\">CO2</span>) = 1.76 ÷ 44.01 = 0.0400 <span class=\"unit\">mol</span></li><li><i>n</i>(H) = <i>n</i>(<span class=\"chem\">H2O</span>) = 1.08 ÷ 18.02 = 0.0599 <span class=\"unit\">mol</span></li><li><i>m</i>(O) = 0.920 − (0.0400 × 12.01) − (0.0599 × 1.01) = 0.379 <span class=\"unit\">g</span></li><li><i>n</i>(O) = 0.379 ÷ 16.00 = 0.0237 <span class=\"unit\">mol</span></li></ol><p>最初の間違いがあるのは何行目ですか。</p>",
       options: [
         // EN: Line 1
         "1 行目",
@@ -791,14 +791,14 @@ S1.i18n.register('ja', 's1-4.q', {
         "<span class=\"chem\">H2O</span> 1 分子には、水素原子が何個ありますか。",
       ],
       // EN: <p>The first error is in line 2. Each <span class="chem">H2O</span> molecule contains 2 hydrogen atoms.</p><div class="worked__math"><i>n</i>(H) = 2 × <i>n</i>(<span class="chem">H2O</span>)<br>&nbsp;&nbsp;= 2 × 0.0599 <span class="unit">mol</span><br>&nbsp;&nbsp;= 0.120 <span class="unit">mol</span></div><div class="worked__math"><i>m</i>(C) = 0.0400 <span class="unit">mol</span> × 12.01 <span class="unit">g mol-1</span><br>&nbsp;&nbsp;= 0.480 <span class="unit">g</span></div><div class="worked__math"><i>m</i>(H) = 0.120 <span class="unit">mol</span> × 1.01 <span class="unit">g mol-1</span><br>&nbsp;&nbsp;= 0.121 <span class="unit">g</span></div><div class="worked__math"><i>m</i>(O) = 0.920 <span class="unit">g</span> − 0.480 <span class="unit">g</span> − 0.121 <span class="unit">g</span><br>&nbsp;&nbsp;= 0.319 <span class="unit">g</span></div><div class="worked__math"><i>n</i>(O) = <span class="frac"><span>0.319 <span class="unit">g</span></span><span>16.00 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0199 <span class="unit">mol</span></div><div class="worked__math">C : H : O = 0.0400 : 0.120 : 0.0199<br>&nbsp;&nbsp;= 2 : 6 : 1</div><p>The correct empirical formula is <span class="chem">C2H6O</span>. In an exam, lines 3 and 4 would still earn credit as "error carried forward", which is why showing working matters.</p>
-      solution: "<p>最初のまちがいは 2 行目です。<span class=\"chem\">H2O</span> 1 分子には、水素原子が 2 個あります。</p><div class=\"worked__math\"><i>n</i>(H) = 2 × <i>n</i>(<span class=\"chem\">H2O</span>)<br>&nbsp;&nbsp;= 2 × 0.0599 <span class=\"unit\">mol</span><br>&nbsp;&nbsp;= 0.120 <span class=\"unit\">mol</span></div><div class=\"worked__math\"><i>m</i>(C) = 0.0400 <span class=\"unit\">mol</span> × 12.01 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= 0.480 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>m</i>(H) = 0.120 <span class=\"unit\">mol</span> × 1.01 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= 0.121 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>m</i>(O) = 0.920 <span class=\"unit\">g</span> − 0.480 <span class=\"unit\">g</span> − 0.121 <span class=\"unit\">g</span><br>&nbsp;&nbsp;= 0.319 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>n</i>(O) = <span class=\"frac\"><span>0.319 <span class=\"unit\">g</span></span><span>16.00 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0199 <span class=\"unit\">mol</span></div><div class=\"worked__math\">C : H : O = 0.0400 : 0.120 : 0.0199<br>&nbsp;&nbsp;= 2 : 6 : 1</div><p>正しい組成式は <span class=\"chem\">C2H6O</span> です。試験では、3 行目と 4 行目にも「誤りの持ち越し (error carried forward)」として点がもらえます。途中の計算を書くことが大切なのは、このためです。</p>",
+      solution: "<p>最初の間違いは 2 行目です。<span class=\"chem\">H2O</span> 1 分子には、水素原子が 2 個あります。</p><div class=\"worked__math\"><i>n</i>(H) = 2 × <i>n</i>(<span class=\"chem\">H2O</span>)<br>&nbsp;&nbsp;= 2 × 0.0599 <span class=\"unit\">mol</span><br>&nbsp;&nbsp;= 0.120 <span class=\"unit\">mol</span></div><div class=\"worked__math\"><i>m</i>(C) = 0.0400 <span class=\"unit\">mol</span> × 12.01 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= 0.480 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>m</i>(H) = 0.120 <span class=\"unit\">mol</span> × 1.01 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= 0.121 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>m</i>(O) = 0.920 <span class=\"unit\">g</span> − 0.480 <span class=\"unit\">g</span> − 0.121 <span class=\"unit\">g</span><br>&nbsp;&nbsp;= 0.319 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>n</i>(O) = <span class=\"frac\"><span>0.319 <span class=\"unit\">g</span></span><span>16.00 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0199 <span class=\"unit\">mol</span></div><div class=\"worked__math\">C : H : O = 0.0400 : 0.120 : 0.0199<br>&nbsp;&nbsp;= 2 : 6 : 1</div><p>正しい組成式は <span class=\"chem\">C2H6O</span> です。試験では、3 行目と 4 行目にも「誤りの持ち越し (error carried forward)」として点がもらえます。途中の計算を書くことが大切なのは、このためです。</p>",
       misconception: {
         // EN (option A): Line 1 is correct. Each <span class="chem">CO2</span> molecule contains one carbon atom, so <i>n</i>(C) = <i>n</i>(<span class="chem">CO2</span>).
         "0": "1 行目は正しいです。<span class=\"chem\">CO2</span> 1 分子には炭素原子が 1 個あるので、<i>n</i>(C) = <i>n</i>(<span class=\"chem\">CO2</span>) です。",
         // EN (option C): The method in line 3 is correct: oxygen is found by difference. Its value is wrong only because it uses a wrong number from an earlier line. Find where that number came from.
-        "2": "3 行目のやり方は正しいです。酸素は引き算で求めます。値がまちがっているのは、前の行のまちがった数を使ったからです。その数がどこから来たのかを探しましょう。",
+        "2": "3 行目のやり方は正しいです。酸素は引き算で求めます。値が間違っているのは、前の行の間違った数を使ったからです。その数がどこから来たのかを探しましょう。",
         // EN (option D): The method in line 4 is correct: <i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub> with 16.00 for oxygen atoms. The wrong value was carried forward from an earlier line.
-        "3": "4 行目のやり方は正しいです。酸素原子なので 16.00 を使い、<i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub> で計算しています。まちがった値は、前の行から引き継がれたものです。",
+        "3": "4 行目のやり方は正しいです。酸素原子なので 16.00 を使い、<i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub> で計算しています。間違った値は、前の行から引き継がれたものです。",
       },
     },
 

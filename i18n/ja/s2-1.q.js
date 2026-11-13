@@ -815,7 +815,7 @@ S1.i18n.register('ja', 's2-1.q', {
     // ── s2-1-q030 · short · challenge · SL · Structure 2.1.3 · 3 marks
     "s2-1-q030": {
       // EN: <p>A student writes this about magnesium chloride, <span class="chem">MgCl2</span>:</p><p><em>“Solid magnesium chloride does not conduct electricity because it contains no ions. When it melts, its electrons become free to move, so it conducts. It has a high melting point because the intermolecular forces between the magnesium chloride molecules are strong.”</em></p><p>Identify the three errors and correct each one.</p>
-      stem: "<p>ある生徒が、塩化マグネシウム <span class=\"chem\">MgCl2</span> について次のように書きました。</p><p><em>「固体の塩化マグネシウムは、イオンを含まないので電気を通さない。融解すると、電子が自由に動けるようになるので、電気を通す。融点が高いのは、塩化マグネシウムの分子の間の分子間力が強いからである。」</em></p><p>3 つのまちがいを特定しなさい (identify)。そして、それぞれを正しく直しなさい。</p>",
+      stem: "<p>ある生徒が、塩化マグネシウム <span class=\"chem\">MgCl2</span> について次のように書きました。</p><p><em>「固体の塩化マグネシウムは、イオンを含まないので電気を通さない。融解すると、電子が自由に動けるようになるので、電気を通す。融点が高いのは、塩化マグネシウムの分子の間の分子間力が強いからである。」</em></p><p>3 つの間違いを特定しなさい (identify)。そして、それぞれを正しく直しなさい。</p>",
       hints: [
         // EN: Take one sentence at a time. What particles is magnesium chloride made of?
         "1 文ずつ見ていきましょう。塩化マグネシウムは、どんな粒子でできていますか。",

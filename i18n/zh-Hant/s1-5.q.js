@@ -103,7 +103,7 @@ S1.i18n.register('zh-Hant', 's1-5.q', {
     // ── s1-5-q004 · numeric · foundation · SL · Structure 1.5.3 · 1 mark
     "s1-5-q004": {
       // EN: <p>Calculate the volume, in <span class="unit">dm3</span>, occupied by 0.300 mol of an ideal gas at STP.</p>
-      stem: "<p>計算 0.300 mol 理想氣體在 STP 下所佔的體積，以 <span class=\"unit\">dm3</span> 表示。</p>",
+      stem: "<p>計算 (calculate) 0.300 mol 理想氣體在 STP 下所佔的體積，以 <span class=\"unit\">dm3</span> 表示。</p>",
       hints: [
         // EN: The data booklet gives the molar volume of an ideal gas at STP.
         "數據手冊列出理想氣體在 STP 下的摩爾體積。",
@@ -117,7 +117,7 @@ S1.i18n.register('zh-Hant', 's1-5.q', {
     // ── s1-5-q005 · numeric · foundation · SL · Structure 1.5.3 · 1 mark
     "s1-5-q005": {
       // EN: <p>A sample of argon occupies 4540 <span class="unit">cm3</span> at STP. Calculate the amount of argon, in mol.</p>
-      stem: "<p>一個氬氣樣本在 STP 下佔 4540 <span class=\"unit\">cm3</span>。計算氬的物質的量，以 mol 表示。</p>",
+      stem: "<p>一個氬氣樣本在 STP 下佔 4540 <span class=\"unit\">cm3</span>。計算 (calculate)氬的物質的量，以 mol 表示。</p>",
       hints: [
         // EN: Convert the volume to dm<sup>3</sup> first: divide by 1000.
         "先把體積換算成 dm<sup>3</sup>：除以 1000。",
@@ -191,7 +191,7 @@ S1.i18n.register('zh-Hant', 's1-5.q', {
     // ── s1-5-q008 · numeric · foundation · SL · Structure 1.5.4 · 1 mark
     "s1-5-q008": {
       // EN: <p>Calculate the pressure, in kPa, of 1.00 mol of an ideal gas in a 10.0 <span class="unit">dm3</span> container at 300 K.</p>
-      stem: "<p>1.00 mol 理想氣體在 300 K 下裝在 10.0 <span class=\"unit\">dm3</span> 的容器內。計算氣體的壓強，以 kPa 表示。</p>",
+      stem: "<p>1.00 mol 理想氣體在 300 K 下裝在 10.0 <span class=\"unit\">dm3</span> 的容器內。計算 (calculate)氣體的壓強，以 kPa 表示。</p>",
       hints: [
         // EN: Rearrange <span class="mono">PV = nRT</span> for P.
         "把 <span class=\"mono\">PV = nRT</span> 重排成求 P 的形式。",
@@ -235,7 +235,7 @@ S1.i18n.register('zh-Hant', 's1-5.q', {
     // ── s1-5-q010 · numeric · foundation · SL · Structure 1.5.4 · 1 mark
     "s1-5-q010": {
       // EN: <p>A gas occupies 3.00 <span class="unit">dm3</span> at 300 K. It is heated to 450 K at constant pressure. Calculate the new volume, in <span class="unit">dm3</span>.</p>
-      stem: "<p>一種氣體在 300 K 下佔 3.00 <span class=\"unit\">dm3</span>。在壓強不變的情況下把它加熱至 450 K。計算新的體積，以 <span class=\"unit\">dm3</span> 表示。</p>",
+      stem: "<p>一種氣體在 300 K 下佔 3.00 <span class=\"unit\">dm3</span>。在壓強不變的情況下把它加熱至 450 K。計算 (calculate)新的體積，以 <span class=\"unit\">dm3</span> 表示。</p>",
       hints: [
         // EN: The pressure is constant, so it cancels from the combined gas law.
         "壓強不變，所以它在聯合氣體定律中抵消。",
@@ -281,7 +281,7 @@ S1.i18n.register('zh-Hant', 's1-5.q', {
     // ── s1-5-q012 · numeric · exam · SL · Structure 1.5.4 · 2 marks
     "s1-5-q012": {
       // EN: <p>A gas sample has a volume of 450 <span class="unit">cm3</span> at 27.0 °C and 98.0 kPa. Calculate the volume, in <span class="unit">cm3</span>, that the same sample would occupy at STP.</p>
-      stem: "<p>一個氣體樣本在 27.0 °C 和 98.0 kPa 下的體積是 450 <span class=\"unit\">cm3</span>。計算同一樣本在 STP 下所佔的體積，以 <span class=\"unit\">cm3</span> 表示。</p>",
+      stem: "<p>一個氣體樣本在 27.0 °C 和 98.0 kPa 下的體積是 450 <span class=\"unit\">cm3</span>。計算 (calculate)同一樣本在 STP 下所佔的體積，以 <span class=\"unit\">cm3</span> 表示。</p>",
       hints: [
         // EN: STP is 273.15 K and 100 kPa. Use the combined gas law.
         "STP 是 273.15 K 和 100 kPa。使用聯合氣體定律。",
@@ -295,7 +295,7 @@ S1.i18n.register('zh-Hant', 's1-5.q', {
     // ── s1-5-q013 · numeric · exam · SL · Structure 1.5.4 · 2 marks
     "s1-5-q013": {
       // EN: <p>Calculate the volume, in <span class="unit">dm3</span>, occupied by 2.00 g of helium at 20.0 °C and 101 kPa.</p>
-      stem: "<p>計算 2.00 g 氦氣在 20.0 °C 和 101 kPa 下所佔的體積，以 <span class=\"unit\">dm3</span> 表示。</p>",
+      stem: "<p>計算 (calculate) 2.00 g 氦氣在 20.0 °C 和 101 kPa 下所佔的體積，以 <span class=\"unit\">dm3</span> 表示。</p>",
       hints: [
         // EN: Find the amount of helium first: <span class="mono">n = m ÷ M</span>, with <i>A</i><sub>r</sub>(He) = 4.00.
         "先求氦的物質的量：<span class=\"mono\">n = m ÷ M</span>，其中 <i>A</i><sub>r</sub>(He) = 4.00。",
@@ -309,7 +309,7 @@ S1.i18n.register('zh-Hant', 's1-5.q', {
     // ── s1-5-q014 · numeric · exam · SL · Structure 1.5.4 · 3 marks
     "s1-5-q014": {
       // EN: <p>A 500 <span class="unit">cm3</span> flask contains nitrogen gas, <span class="chem">N2</span>, at 15.0 °C and 120 kPa. Calculate the mass of nitrogen in the flask, in g.</p>
-      stem: "<p>一個 500 <span class=\"unit\">cm3</span> 的燒瓶在 15.0 °C 和 120 kPa 下裝有氮氣 <span class=\"chem\">N2</span>。計算燒瓶內氮氣的質量，以 g 表示。</p>",
+      stem: "<p>一個 500 <span class=\"unit\">cm3</span> 的燒瓶在 15.0 °C 和 120 kPa 下裝有氮氣 <span class=\"chem\">N2</span>。計算 (calculate)燒瓶內氮氣的質量，以 g 表示。</p>",
       hints: [
         // EN: Convert first: 500 cm<sup>3</sup> to dm<sup>3</sup>, and 15.0 °C to K.
         "先換算：500 cm<sup>3</sup> 換成 dm<sup>3</sup>，15.0 °C 換成 K。",
@@ -325,7 +325,7 @@ S1.i18n.register('zh-Hant', 's1-5.q', {
     // ── s1-5-q015 · numeric · exam · SL · Structure 1.5.4 · 3 marks
     "s1-5-q015": {
       // EN: <p>0.412 g of an unknown gas occupies 185 <span class="unit">cm3</span> at 35.0 °C and 99.0 kPa. Calculate the molar mass of the gas, in <span class="unit">g mol-1</span>.</p>
-      stem: "<p>0.412 g 未知氣體在 35.0 °C 和 99.0 kPa 下佔 185 <span class=\"unit\">cm3</span>。計算這種氣體的摩爾質量，以 <span class=\"unit\">g mol-1</span> 表示。</p>",
+      stem: "<p>0.412 g 未知氣體在 35.0 °C 和 99.0 kPa 下佔 185 <span class=\"unit\">cm3</span>。計算 (calculate)這種氣體的摩爾質量，以 <span class=\"unit\">g mol-1</span> 表示。</p>",
       hints: [
         // EN: Two links: the gas equation gives the amount, then molar mass is mass ÷ amount.
         "分兩步：先用氣體方程求物質的量，然後摩爾質量是質量 ÷ 物質的量。",
@@ -533,7 +533,7 @@ S1.i18n.register('zh-Hant', 's1-5.q', {
     // ── s1-5-q023 · numeric · exam · SL · Structure 1.5.4 · 2 marks
     "s1-5-q023": {
       // EN: <p>0.0500 mol of an ideal gas occupies 1.50 <span class="unit">dm3</span> at a pressure of 95.0 kPa. Calculate the temperature of the gas in <strong>°C</strong>.</p>
-      stem: "<p>0.0500 mol 理想氣體在 95.0 kPa 的壓強下佔 1.50 <span class=\"unit\">dm3</span>。計算氣體的溫度，以 <strong>°C</strong> 表示。</p>",
+      stem: "<p>0.0500 mol 理想氣體在 95.0 kPa 的壓強下佔 1.50 <span class=\"unit\">dm3</span>。計算 (calculate)氣體的溫度，以 <strong>°C</strong> 表示。</p>",
       hints: [
         // EN: Rearrange <span class="mono">PV = nRT</span> for T. The answer comes out in kelvin.
         "把 <span class=\"mono\">PV = nRT</span> 重排成求 T 的形式。答案的單位是開爾文。",
@@ -675,7 +675,7 @@ S1.i18n.register('zh-Hant', 's1-5.q', {
     // ── s1-5-q027 · numeric · challenge · SL · Structure 1.5.4 · 3 marks
     "s1-5-q027": {
       // EN: <p>A compound contains 52.2 % carbon, 13.1 % hydrogen and 34.7 % oxygen by mass. When 0.230 g of the compound is vaporised at 100.0 °C and 100 kPa, the vapour occupies 155 <span class="unit">cm3</span>.</p><p>Calculate the molar mass of the compound, in <span class="unit">g mol-1</span>. Then use the solution to check that you can also deduce its molecular formula.</p>
-      stem: "<p>某化合物按質量計含 52.2% 碳、13.1% 氫和 34.7% 氧。0.230 g 這種化合物在 100.0 °C 和 100 kPa 下汽化，蒸氣佔 155 <span class=\"unit\">cm3</span>。</p><p>計算這種化合物的摩爾質量，以 <span class=\"unit\">g mol-1</span> 表示。然後參考題解，檢查你是否也能推斷 (deduce) 它的分子式。</p>",
+      stem: "<p>某化合物按質量計含 52.2% 碳、13.1% 氫和 34.7% 氧。0.230 g 這種化合物在 100.0 °C 和 100 kPa 下汽化，蒸氣佔 155 <span class=\"unit\">cm3</span>。</p><p>計算 (calculate)這種化合物的摩爾質量，以 <span class=\"unit\">g mol-1</span> 表示。然後參考題解，檢查你是否也能推斷 (deduce) 它的分子式。</p>",
       hints: [
         // EN: The molar mass comes from the gas data alone: find n with the gas equation, then M = m ÷ n.
         "摩爾質量只需氣體數據就能求出：用氣體方程求 n，再用 M = m ÷ n。",
@@ -723,7 +723,7 @@ S1.i18n.register('zh-Hant', 's1-5.q', {
     // ── s1-5-q029 · numeric · challenge · SL · Structure 1.5.4 · 2 marks
     "s1-5-q029": {
       // EN: <p>A gas has a density of 1.25 <span class="unit">g dm-3</span> at 25.0 °C and 100 kPa. Calculate the molar mass of the gas, in <span class="unit">g mol-1</span>.</p>
-      stem: "<p>某氣體在 25.0 °C 和 100 kPa 下的密度是 1.25 <span class=\"unit\">g dm-3</span>。計算這種氣體的摩爾質量，以 <span class=\"unit\">g mol-1</span> 表示。</p>",
+      stem: "<p>某氣體在 25.0 °C 和 100 kPa 下的密度是 1.25 <span class=\"unit\">g dm-3</span>。計算 (calculate)這種氣體的摩爾質量，以 <span class=\"unit\">g mol-1</span> 表示。</p>",
       hints: [
         // EN: A density of 1.25 g dm<sup>−3</sup> means that 1.00 dm<sup>3</sup> of the gas has a mass of 1.25 g.
         "密度是 1.25 g dm<sup>−3</sup>，表示 1.00 dm<sup>3</sup> 這種氣體的質量是 1.25 g。",
@@ -737,7 +737,7 @@ S1.i18n.register('zh-Hant', 's1-5.q', {
     // ── s1-5-q030 · numeric · challenge · SL · Structure 1.5.4 · 3 marks
     "s1-5-q030": {
       // EN: <p>Sodium azide decomposes completely when heated:</p><p><span class="chem">2NaN3(s) -> 2Na(s) + 3N2(g)</span></p><p>Calculate the volume of nitrogen, in <span class="unit">dm3</span>, measured at 25.0 °C and 100 kPa, that is produced when 65.0 g of sodium azide decomposes.</p>
-      stem: "<p>疊氮化鈉 (sodium azide) 受熱時完全分解：</p><p><span class=\"chem\">2NaN3(s) -> 2Na(s) + 3N2(g)</span></p><p>65.0 g 疊氮化鈉分解時會產生氮氣。計算這些氮氣在 25.0 °C 和 100 kPa 下量度的體積，以 <span class=\"unit\">dm3</span> 表示。</p>",
+      stem: "<p>疊氮化鈉 (sodium azide) 受熱時完全分解：</p><p><span class=\"chem\">2NaN3(s) -> 2Na(s) + 3N2(g)</span></p><p>65.0 g 疊氮化鈉分解時會產生氮氣。計算 (calculate)這些氮氣在 25.0 °C 和 100 kPa 下量度的體積，以 <span class=\"unit\">dm3</span> 表示。</p>",
       hints: [
         // EN: Start with the amount of sodium azide: <span class="mono">n = m ÷ M</span>, with M(NaN<sub>3</sub>) = 22.99 + 3(14.01).
         "先求疊氮化鈉的物質的量：<span class=\"mono\">n = m ÷ M</span>，其中 M(NaN<sub>3</sub>) = 22.99 + 3(14.01)。",
@@ -775,7 +775,7 @@ S1.i18n.register('zh-Hant', 's1-5.q', {
     // ── s1-5-q033 · numeric · challenge · SL · Structure 1.5.4 · 3 marks
     "s1-5-q033": {
       // EN: <p>In dry air, 0.934 % of the particles are argon atoms. This means 0.934 % of the total amount of gas, in mol, is argon. A 2.00 <span class="unit">dm3</span> flask is filled with dry air at 20.0 °C and 101 kPa. Calculate the mass of argon in the flask, in g.</p>
-      stem: "<p>在乾燥空氣中，0.934% 的粒子是氬原子。也就是說，氣體總物質的量（以 mol 計）的 0.934% 是氬。一個 2.00 <span class=\"unit\">dm3</span> 的燒瓶在 20.0 °C 和 101 kPa 下充滿乾燥空氣。計算燒瓶內氬的質量，以 g 表示。</p>",
+      stem: "<p>在乾燥空氣中，0.934% 的粒子是氬原子。也就是說，氣體總物質的量（以 mol 計）的 0.934% 是氬。一個 2.00 <span class=\"unit\">dm3</span> 的燒瓶在 20.0 °C 和 101 kPa 下充滿乾燥空氣。計算 (calculate)燒瓶內氬的質量，以 g 表示。</p>",
       hints: [
         // EN: First find the total amount of gas in the flask with <span class="mono">n = PV ÷ RT</span>.
         "先用 <span class=\"mono\">n = PV ÷ RT</span> 求燒瓶內氣體的總物質的量。",
@@ -791,7 +791,7 @@ S1.i18n.register('zh-Hant', 's1-5.q', {
     // ── s1-5-q034 · numeric · challenge · SL · Structure 1.5.4 · 3 marks
     "s1-5-q034": {
       // EN: <p>A rigid 5.00 <span class="unit">dm3</span> cylinder contains gas at 300 kPa and 20.0 °C. Some gas is released until the pressure falls to 180 kPa. The temperature is still 20.0 °C. Calculate the amount of gas, in mol, that was released.</p>
-      stem: "<p>一個堅硬的 5.00 <span class=\"unit\">dm3</span> 氣瓶裝有 300 kPa、20.0 °C 的氣體。放出部分氣體，直到壓強降至 180 kPa。溫度仍然是 20.0 °C。計算放出的氣體的物質的量，以 mol 表示。</p>",
+      stem: "<p>一個堅硬的 5.00 <span class=\"unit\">dm3</span> 氣瓶裝有 300 kPa、20.0 °C 的氣體。放出部分氣體，直到壓強降至 180 kPa。溫度仍然是 20.0 °C。計算 (calculate)放出的氣體的物質的量，以 mol 表示。</p>",
       hints: [
         // EN: The amount of gas changes, so the combined gas law does not apply. Use <span class="mono">n = PV ÷ RT</span> before and after.
         "氣體的物質的量改變了，所以聯合氣體定律不適用。對放氣前和放氣後分別使用 <span class=\"mono\">n = PV ÷ RT</span>。",
@@ -805,7 +805,7 @@ S1.i18n.register('zh-Hant', 's1-5.q', {
     // ── s1-5-q036 · numeric · challenge · SL · Structure 1.5.3 · 2 marks
     "s1-5-q036": {
       // EN: <p>A student changes the volume of a fixed mass of gas at a constant temperature of 25.0 °C and measures the pressure each time. A graph of pressure in kPa (vertical axis) against 1/volume in <span class="unit">dm-3</span> (horizontal axis) is a straight line through the origin. Its gradient is 62.0 <span class="unit">kPa dm3</span>.</p><p>Calculate the amount of gas, in mol.</p>
-      stem: "<p>一名學生在 25.0 °C 的恆定溫度下改變固定質量氣體的體積，每次都量度壓強。壓強（以 kPa 為單位，縱軸）對 1/體積（以 <span class=\"unit\">dm-3</span> 為單位，橫軸）的圖是一條通過原點的直線，斜率是 62.0 <span class=\"unit\">kPa dm3</span>。</p><p>計算氣體的物質的量，以 mol 表示。</p>",
+      stem: "<p>一名學生在 25.0 °C 的恆定溫度下改變固定質量氣體的體積，每次都量度壓強。壓強（以 kPa 為單位，縱軸）對 1/體積（以 <span class=\"unit\">dm-3</span> 為單位，橫軸）的圖是一條通過原點的直線，斜率是 62.0 <span class=\"unit\">kPa dm3</span>。</p><p>計算 (calculate)氣體的物質的量，以 mol 表示。</p>",
       hints: [
         // EN: Write <span class="mono">PV = nRT</span> as P = (something) × (1/V). The “something” is the gradient.
         "把 <span class=\"mono\">PV = nRT</span> 寫成 P = (某個量) × (1/V)。這「某個量」就是斜率。",

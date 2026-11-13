@@ -39,7 +39,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "Draw both enantiomers with wedge–dash bonds, showing the tetrahedral shape around the chiral carbon.": "用楔形鍵和虛線鍵繪畫 (draw) 兩種對映異構體，顯示手性碳周圍的四面體形狀。",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Recognize a pair of enantiomers as non-superimposable mirror images in 3-D models.": "在立體 (3-D) 模型中，認出一對對映異構體是不可重疊的鏡像。",
+    "Recognize a pair of enantiomers as non-superimposable mirror images in 3-D models.": "在 3D 立體模型中，認出一對對映異構體是不可重疊的鏡像。",
 
     // What you need to be able to do > checklist > Additional HL > span
     "Use the terms chiral, optical activity, enantiomer and racemic mixture correctly.": "正確使用手性 (chiral)、旋光性 (optical activity)、對映異構體 (enantiomer) 和外消旋混合物 (racemic mixture) 這些術語。",
@@ -60,10 +60,10 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "Combine composition data, mass, infrared and <sup>1</sup>H NMR spectra to find the structure of a molecule.": "結合組成數據、質譜、紅外光譜和 <sup>1</sup>H NMR 譜，找出分子的結構。",
 
     // What you need from the core page > data-toc attribute
-    "What you need first": "先要掌握的內容",
+    "What you need first": "先要懂得的事",
 
     // What you need from the core page > h2
-    "What you need from the core page": "核心頁面中你要先掌握的內容",
+    "What you need from the core page": "核心頁的必備知識",
 
     // What you need from the core page > p
     "This page builds on <a href=\"s3-2.html\">3.2 Functional groups</a>. Check that you can do these things first.": "本頁建基於 <a href=\"s3-2.html\">3.2 官能基</a>。先確定你做得到以下各項。",
@@ -96,7 +96,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "Stereoisomers: cis–trans": "立體異構體：順反異構",
 
     // Stereoisomers and cis–trans isomers > h2
-    "Stereoisomers and <i>cis</i>–<i>trans</i> isomers": "立體異構體和順反 (<i>cis</i>–<i>trans</i>) 異構體",
+    "Stereoisomers and <i>cis</i>–<i>trans</i> isomers": "立體異構體和 <i>cis</i>–<i>trans</i>（順反）異構體",
 
     // Stereoisomers and cis–trans isomers > p
     "Your left hand and your right hand have the same parts, joined in the same order. But they are not the same shape. Some molecules are like this too.": "你的左手和右手有相同的部分，連接的次序也相同，但形狀並不一樣。有些分子也是這樣。",
@@ -147,7 +147,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "In these drawings, a solid wedge is a bond coming towards you. A hashed wedge is a bond going away from you.": "在這些圖中，實心楔形鍵代表朝向你的鍵，虛線楔形鍵代表遠離你的鍵。",
 
     // Stereoisomers and cis–trans isomers > widget > data-title attribute
-    "Cis–trans explorer": "順反異構探索器",
+    "Cis–trans explorer": "順反異構探索工具",
 
     // Stereoisomers and cis–trans isomers > widget > data-kicker attribute
     // Chiral carbon atoms and enantiomers > widget > data-kicker attribute
@@ -280,7 +280,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "In a skeletal formula, remember the H atoms that are not drawn.": "看骨架式時，記得還有沒畫出來的 H 原子。",
 
     // Chiral carbon atoms and enantiomers > widget > data-title attribute
-    "Chiral carbon spotter": "手性碳搜尋器",
+    "Chiral carbon spotter": "手性碳辨認工具",
 
     // Chiral carbon atoms and enantiomers > widget > figcaption
     "Click a carbon atom to test it. Each click tells you why that carbon is or is not chiral. Some molecules have no chiral carbon, and one has two.": "點選一個碳原子來測試它。每次點選都會告訴你這個碳原子為甚麼是或不是手性碳。有些分子沒有手性碳，有一個分子有兩個。",
@@ -340,7 +340,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "Carbon 2 is bonded to H, Cl, <span class=\"chem\">CH3</span> and <span class=\"chem\">CH2CH3</span>. All four are different, so carbon 2 is chiral.": "碳 2 與 H、Cl、<span class=\"chem\">CH3</span> 和 <span class=\"chem\">CH2CH3</span> 鍵合。四個都不同，所以碳 2 是手性碳。",
 
     // Chiral carbon atoms and enantiomers > worked example > data-title attribute
-    "Draw one enantiomer in 3-D": "用立體 (3-D) 方式畫出一種對映異構體",
+    "Draw one enantiomer in 3-D": "用 3D 立體方式畫出一種對映異構體",
 
     // Chiral carbon atoms and enantiomers > worked example > p
     "The four bonds point to the corners of a tetrahedron.": "四個鍵指向四面體的四個角。",
@@ -536,7 +536,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "The first two columns are from the data booklet. The third column is a reading guide. The booklet says “possible” because two different pieces can have the same mass.": "頭兩欄來自數據手冊。第三欄是閱讀指引。手冊寫「possible」（可能），因為兩塊不同的碎片可以有相同的質量。",
 
     // Mass spectrometry of organic compounds > widget > data-title attribute
-    "Mass spectrum interpreter": "質譜解讀器",
+    "Mass spectrum interpreter": "質譜解讀工具",
 
     // Mass spectrometry of organic compounds > widget > figcaption
     "Choose a compound and click each peak. These spectra are simplified sketches. They are built from the real major peaks of each compound (NIST Chemistry WebBook), with the small peaks left out.": "選擇一種化合物，然後點選每個峰。這些質譜是簡化的略圖，根據每種化合物真實的主要峰繪製（NIST Chemistry WebBook），並略去了小峰。",
@@ -744,7 +744,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "You are only asked to interpret the functional group region, using the booklet table. You do not need to explain the pattern of small peaks in the fingerprint region. You can still be asked about a strong absorption that matches a booklet row there, such as C–O.": "你只需要利用手冊表格解讀官能基區。你不需要解釋指紋區內小峰的圖樣。但如果那裏有一個強吸收與手冊某一行吻合（例如 C–O），題目仍然可以問。",
 
     // Infrared spectroscopy > widget > data-title attribute
-    "Infrared interpreter": "紅外光譜解讀器",
+    "Infrared interpreter": "紅外光譜解讀工具",
 
     // Infrared spectroscopy > widget > figcaption
     "In “Explore”, click a band to see the bond and the booklet row. In “Which compound is it?”, decide between an alkane, an alcohol, a carboxylic acid, a ketone and an ester. The spectra are simplified sketches drawn from typical band positions. They are not measured spectra.": "在「探索」模式，點選吸收帶可以看到對應的鍵和手冊的那一行。在「它是哪一類化合物？」模式，判斷它是烷烴、醇、羧酸、酮還是酯。這些光譜是根據典型吸收帶位置繪畫的簡化略圖，並不是量度所得的光譜。",
@@ -834,7 +834,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "Nitrogen and oxygen make up most of the air, but <span class=\"chem\">N2</span> and <span class=\"chem\">O2</span> do not absorb infrared radiation. The reason is in “Linking it up” below.": "空氣大部分是氮和氧，但 <span class=\"chem\">N2</span> 和 <span class=\"chem\">O2</span> 不吸收紅外輻射。原因在下面的「把知識連繫起來」。",
 
     // Infrared spectroscopy > not needed for IB > p
-    "You do not need to know how an IR spectrometer works, or the physics of why each bond has its own frequency. You do not need to calculate a global warming potential.": "你不需要知道 IR 光譜儀怎樣運作，也不需要知道每種鍵為何有自己的頻率這背後的物理。你不需要計算全球升溫潛能值。",
+    "You do not need to know how an IR spectrometer works, or the physics of why each bond has its own frequency. You do not need to calculate a global warming potential.": "你不需要知道 IR 光譜儀怎樣運作，也不需要知道每種鍵各有自己頻率背後的物理原理。你不需要計算全球升溫潛能值。",
 
     // Infrared spectroscopy > data-title attribute
     "Infrared spectroscopy: quick check": "紅外光譜法：快速小測",
@@ -1322,7 +1322,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "Find the empirical formula from the percentage composition. Divide each percentage by the relative atomic mass. Then divide by the smallest value.": "從百分組成求出實驗式。把每個百分率除以相對原子質量。然後除以最小的數值。",
 
     // Combining the techniques > li
-    "Read <i>M</i><sub>r</sub> from the molecular ion peak. Compare it with the empirical formula mass to get the molecular formula.": "從分子離子峰讀出 <i>M</i><sub>r</sub>。與實驗式的質量比較，得出分子式。",
+    "Read <i>M</i><sub>r</sub> from the molecular ion peak. Compare it with the empirical formula mass to get the molecular formula.": "從分子離子峰讀出 <i>M</i><sub>r</sub>。與實驗式質量比較，得出分子式。",
 
     // Combining the techniques > li
     "Use the IR spectrum to find the functional group. Note what is absent as well as what is present.": "用 IR 光譜找出官能基。除了存在的鍵，也要留意不存在的鍵。",
@@ -1445,10 +1445,10 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "A compound has the empirical formula <span class=\"chem\">C2H4O</span>. Its molecular ion peak is at <span class=\"mono\">m/z = 88</span>. How many carbon atoms are in one molecule?": "某化合物的實驗式是 <span class=\"chem\">C2H4O</span>。它的分子離子峰在 <span class=\"mono\">m/z = 88</span>。一個分子中有多少個碳原子？",
 
     // Combining the techniques > try it > li
-    "Find the mass of the empirical formula. Use whole-number masses: C 12, H 1, O 16.": "求出實驗式的質量。用整數質量：C 12、H 1、O 16。",
+    "Find the mass of the empirical formula. Use whole-number masses: C 12, H 1, O 16.": "求出實驗式質量。用整數質量：C 12、H 1、O 16。",
 
     // Combining the techniques > try it > li
-    "The empirical formula mass is 44. How many times does 44 go into 88?": "實驗式的質量是 44。88 是 44 的多少倍？",
+    "The empirical formula mass is 44. How many times does 44 go into 88?": "實驗式質量是 44。88 是 44 的多少倍？",
 
     // Combining the techniques > try it > maths line
     "88 / 44 = 2, so the molecular formula is C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>": "88 / 44 = 2，所以分子式是 C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>",
@@ -1784,7 +1784,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "Correct.": "正確。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not quite.": "不太對。",
+    "Not quite.": "仍未正確。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "cis isomer of {name}": "{name} 的 cis 異構體",
@@ -2654,7 +2654,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "Not this one. The molecular ion gives <i>M</i><sub>r</sub> = {m}. The empirical formula {f} has a mass of {e}. How many times does {e} go into {m}?": "不是這一個。分子離子給出 <i>M</i><sub>r</sub> = {m}。實驗式 {f} 的質量是 {e}。{m} 是 {e} 的多少倍？",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "MS: the molecular ion peak at m/z = {m} gives <i>M</i><sub>r</sub> = {m}. Empirical formula mass = {e}, and {m} ÷ {e} ≈ {k}. Molecular formula: {f}.": "MS：m/z = {m} 的分子離子峰給出 <i>M</i><sub>r</sub> = {m}。實驗式的質量 = {e}，而 {m} ÷ {e} ≈ {k}。分子式：{f}。",
+    "MS: the molecular ion peak at m/z = {m} gives <i>M</i><sub>r</sub> = {m}. Empirical formula mass = {e}, and {m} ÷ {e} ≈ {k}. Molecular formula: {f}.": "MS：m/z = {m} 的分子離子峰給出 <i>M</i><sub>r</sub> = {m}。實驗式質量 = {e}，而 {m} ÷ {e} ≈ {k}。分子式：{f}。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "Infrared": "紅外",

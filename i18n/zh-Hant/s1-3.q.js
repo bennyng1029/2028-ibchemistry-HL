@@ -758,13 +758,13 @@ S1.i18n.register('zh-Hant', 's1-3.q', {
         // EN: Start from the atom: <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>. Three electrons must be removed.
         "由原子開始：<span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>。必須移走三個電子。",
         // EN: Which sublevel loses electrons first when a first-row transition element forms a positive ion?
-        "第一列過渡元素形成正離子時，哪個亞層先失去電子？",
+        "第一行過渡元素形成正離子時，哪個亞層先失去電子？",
       ],
       // EN: <p>The iron atom is <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>. When first-row transition elements form ions, the 4s electrons are removed before the 3d electrons. Remove the two 4s electrons, then one 3d electron:</p><div class="worked__math"><span class="chem">Fe^3+</span>: <span class="mono">[Ar] 3d<sup>5</sup></span><br>&nbsp;&nbsp;(26 − 3 = 23 electrons)</div><p>This skill is listed for HL in Structure 3.1.</p>
-      solution: "<p>鐵原子是 <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>。第一列過渡元素形成離子時，4s 電子比 3d 電子先被移走。先移走兩個 4s 電子，再移走一個 3d 電子：</p><div class=\"worked__math\"><span class=\"chem\">Fe^3+</span>: <span class=\"mono\">[Ar] 3d<sup>5</sup></span><br>&nbsp;&nbsp;(26 − 3 = 23 個電子)</div><p>這項技能列於 Structure 3.1 的 HL 內容。</p>",
+      solution: "<p>鐵原子是 <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>。第一行過渡元素形成離子時，4s 電子比 3d 電子先被移走。先移走兩個 4s 電子，再移走一個 3d 電子：</p><div class=\"worked__math\"><span class=\"chem\">Fe^3+</span>: <span class=\"mono\">[Ar] 3d<sup>5</sup></span><br>&nbsp;&nbsp;(26 − 3 = 23 個電子)</div><p>這項技能列於 Structure 3.1 的 HL 內容。</p>",
       misconception: {
         // EN (option A): This removes all three electrons from 3d. When a first-row transition element forms an ion, the 4s electrons are lost first.
-        "0": "這是把三個電子全部從 3d 移走。第一列過渡元素形成離子時，先失去 4s 電子。",
+        "0": "這是把三個電子全部從 3d 移走。第一行過渡元素形成離子時，先失去 4s 電子。",
         // EN (option B): This removes one 4s electron and two 3d electrons. Both 4s electrons are lost before any 3d electron.
         "1": "這是移走一個 4s 電子和兩個 3d 電子。兩個 4s 電子都失去後，才輪到 3d 電子。",
         // EN (option D): This has three <em>more</em> electrons than the atom. A 3+ charge means three electrons have been lost.
@@ -1576,7 +1576,7 @@ S1.i18n.register('zh-Hant', 's1-3.q', {
       solution: "<p>銅原子是 <span class=\"mono\">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>（不跟從一般填充次序的例外）。先移走唯一的 4s 電子，再移走一個 3d 電子：</p><div class=\"worked__math\"><span class=\"chem\">Cu^2+</span>: <span class=\"mono\">[Ar] 3d<sup>9</sup></span><br>&nbsp;&nbsp;(29 − 2 = 27 個電子)</div><p>這項技能列於 Structure 3.1 的 HL 內容。</p>",
       misconception: {
         // EN (option A): This keeps the 4s electrons and removes electrons from 3d. In ions of the first-row d-block metals, 4s is emptied first.
-        "0": "這是保留 4s 電子，而從 3d 移走電子。第一列 d 區金屬形成離子時，4s 會先清空。",
+        "0": "這是保留 4s 電子，而從 3d 移走電子。第一行 d 區金屬形成離子時，4s 會先清空。",
         // EN (option B): This keeps one electron in 4s. The 4s sublevel is emptied before any 3d electron is removed.
         "1": "這是在 4s 留下一個電子。4s 亞層要先清空，然後才移走 3d 電子。",
         // EN (option D): Count the electrons: 18 + 2 + 9 = 29. That is the number in a copper atom, and it is not the atom’s real configuration either.
@@ -1637,7 +1637,7 @@ S1.i18n.register('zh-Hant', 's1-3.q', {
         "檢查物態符號和電子數目。",
       ],
       // EN: <p>The first ionization energy is the energy needed to remove one mole of electrons from one mole of gaseous atoms, forming one mole of gaseous 1+ ions:</p><div class="worked__math"><span class="chem">Mg(g) -> Mg+(g) + e-</span></div><p>Both species must have the state symbol (g).</p>
-      solution: "<p>第一電離能是從一摩爾氣態原子移走一摩爾電子，形成一摩爾氣態 1+ 離子所需的能量：</p><div class=\"worked__math\"><span class=\"chem\">Mg(g) -> Mg+(g) + e-</span></div><p>兩種粒子都必須有物態符號 (g)。</p>",
+      solution: "<p>第一電離能是從一摩爾氣態原子移走一摩爾電子，形成一摩爾氣態 1+ 離子所需的能量：</p><div class=\"worked__math\"><span class=\"chem\">Mg(g) -> Mg+(g) + e-</span></div><p>兩種物種都必須有物態符號 (g)。</p>",
       misconception: {
         // EN (option A): Ionization energy is defined for <em>gaseous</em> atoms. Starting from the solid would include the energy needed to turn the solid into separate atoms.
         "0": "電離能的定義是針對<em>氣態</em>原子的。如果由固體開始，就會包括把固體變成獨立原子所需的能量。",

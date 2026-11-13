@@ -1002,7 +1002,7 @@ S1.i18n.register('zh-Hant', 's1-1', {
     "Energy stored because of the positions of particles relative to each other. It rises when particles that attract each other are moved apart.": "因粒子之間的相對位置而儲存的能量。把互相吸引的粒子分開時，勢能會增加。",
 
     // What happens to temperature during a change of state > widget > data-title attribute
-    "Heating curve explorer: 100 g of water": "加熱曲線探索：100 g 水",
+    "Heating curve explorer: 100 g of water": "加熱曲線探索工具：100 g 水",
 
     // What happens to temperature during a change of state > widget > figcaption
     "Move the slider or step through the five stages. Notice the two flat parts: energy is supplied but the temperature does not change. The graph is to scale for 100 g of water at normal atmospheric pressure, using approximate data. The particle picture is a flat model and is not to scale. Read the curve from right to left and it becomes a cooling curve: the same flat parts appear as the steam condenses and the water freezes.": "移動滑桿，或逐一查看五個階段。留意兩段水平部分：能量不斷供應，但溫度沒有改變。圖表按比例顯示 100 g 水在正常大氣壓強下的情況，所用數據是近似值。粒子圖是平面模型，不按比例。由右至左看這條曲線，它就成為冷卻曲線：水蒸氣凝結和水凝固時，會出現相同的水平部分。",
@@ -1129,7 +1129,7 @@ S1.i18n.register('zh-Hant', 's1-1', {
     "1.1 exam standard": "1.1 考試程度",
 
     // Exam-style practice > h3
-    "Challenge: level 7 stretch": "挑戰：邁向 7 分",
+    "Challenge: level 7 stretch": "挑戰：邁向 7 級",
 
     // Exam-style practice > data-title attribute
     "1.1 challenge": "1.1 挑戰",

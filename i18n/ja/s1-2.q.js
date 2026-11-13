@@ -365,7 +365,7 @@ S1.i18n.register('ja', 's1-2.q', {
     // ── s1-2-q015 · mcq · exam · SL · Structure 1.2.2 · 1 mark
     "s1-2-q015": {
       // EN: <p>Two samples of hydrogen gas are compared under the same conditions. One contains only <span class="nowrap"><sup>1</sup>H</span><sub>2</sub> molecules and the other only <span class="nowrap"><sup>2</sup>H</span><sub>2</sub> molecules. Which property is the <strong>same</strong> for both samples?</p>
-      stem: "<p>水素の気体の試料を 2 つ、同じ条件で比べます。一方は <span class=\"nowrap\"><sup>1</sup>H</span><sub>2</sub> 分子だけ、もう一方は <span class=\"nowrap\"><sup>2</sup>H</span><sub>2</sub> 分子だけでできています。2 つの試料で<strong>同じ</strong>になる性質はどれですか。</p>",
+      stem: "<p>水素の気体の試料を 2 つ、同じ条件でくらべます。一方は <span class=\"nowrap\"><sup>1</sup>H</span><sub>2</sub> 分子だけ、もう一方は <span class=\"nowrap\"><sup>2</sup>H</span><sub>2</sub> 分子だけでできています。2 つの試料で<strong>同じ</strong>になる性質はどれですか。</p>",
       options: [
         // EN: The density of the gas
         "気体の密度",
@@ -527,12 +527,12 @@ S1.i18n.register('ja', 's1-2.q', {
     // ── s1-2-q021 · short · challenge · SL · Structure 1.2.2 · 3 marks
     "s1-2-q021": {
       // EN: <p>“Heavy water” has the formula <span class="nowrap"><sup>2</sup>H</span><sub>2</sub>O. Ordinary water is almost entirely <span class="nowrap"><sup>1</sup>H</span><sub>2</sub>O. In both, the oxygen is <span class="nowrap"><sup>16</sup>O</span>.</p><p>Sodium reacts with ordinary water to form sodium hydroxide and hydrogen. Predict, with reasons, how heavy water compares with ordinary water in (a) its reaction with sodium and (b) its density.</p>
-      stem: "<p>「重水」の化学式は <span class=\"nowrap\"><sup>2</sup>H</span><sub>2</sub>O です。ふつうの水は、ほとんどすべてが <span class=\"nowrap\"><sup>1</sup>H</span><sub>2</sub>O です。どちらも、酸素は <span class=\"nowrap\"><sup>16</sup>O</span> です。</p><p>ナトリウムはふつうの水と反応して、水酸化ナトリウムと水素ができます。重水をふつうの水と比べるとどうなるか、(a) ナトリウムとの反応と (b) 密度について、理由をつけて予測しなさい (predict)。</p>",
+      stem: "<p>「重水」の化学式は <span class=\"nowrap\"><sup>2</sup>H</span><sub>2</sub>O です。ふつうの水は、ほとんどすべてが <span class=\"nowrap\"><sup>1</sup>H</span><sub>2</sub>O です。どちらも、酸素は <span class=\"nowrap\"><sup>16</sup>O</span> です。</p><p>ナトリウムはふつうの水と反応して、水酸化ナトリウムと水素ができます。重水をふつうの水とくらべるとどうなるか、(a) ナトリウムとの反応と (b) 密度について、理由をつけて予測しなさい (predict)。</p>",
       hints: [
         // EN: Which of (a) and (b) is a chemical property, and which is a physical property?
         "(a) と (b) のうち、化学的性質はどちらで、物理的性質はどちらですか。",
         // EN: Compare the masses of the two molecules by adding up mass numbers.
-        "質量数を足して、2 つの分子の質量を比べましょう。",
+        "質量数を足して、2 つの分子の質量をくらべましょう。",
       ],
       // EN: <p>(a) Heavy water reacts with sodium in the same way, giving the same type of products, because <span class="nowrap"><sup>1</sup>H</span> and <span class="nowrap"><sup>2</sup>H</span> have the same number of electrons, so their chemical properties are the same.</p><p>(b) Heavy water is denser. Each <span class="nowrap"><sup>2</sup>H</span> atom has one more neutron than <span class="nowrap"><sup>1</sup>H</span>, so a molecule of heavy water has a greater mass (2 + 2 + 16 = 20, compared with 1 + 1 + 16 = 18).</p>
       answer: "<p>(a) 重水は、ナトリウムと同じように反応し、同じ種類の生成物ができます。<span class=\"nowrap\"><sup>1</sup>H</span> と <span class=\"nowrap\"><sup>2</sup>H</span> は電子の数が同じなので、化学的性質が同じだからです。</p><p>(b) 重水のほうが密度が大きくなります。<span class=\"nowrap\"><sup>2</sup>H</span> の原子は <span class=\"nowrap\"><sup>1</sup>H</span> より中性子が 1 個多いので、重水の分子のほうが質量が大きいからです（1 + 1 + 16 = 18 に対して、2 + 2 + 16 = 20）。</p>",
@@ -709,7 +709,7 @@ S1.i18n.register('ja', 's1-2.q', {
         "分子には原子が 2 個あるので、2 つの確率をかけます。同位体が混ざった分子は、両方の並び方を数えます。",
       ],
       // EN: <div class="worked__math"><i>m/z</i> 70 (<sup>35</sup>Cl–<sup>35</sup>Cl): ¾ × ¾ = 9/16</div><div class="worked__math"><i>m/z</i> 72 (<sup>35</sup>Cl–<sup>37</sup>Cl, two ways): 2 × ¾ × ¼ = 6/16</div><div class="worked__math"><i>m/z</i> 74 (<sup>37</sup>Cl–<sup>37</sup>Cl): ¼ × ¼ = 1/16</div><p>Ratio of heights = <strong>9 : 6 : 1</strong>.</p>
-      solution: "<div class=\"worked__math\"><i>m/z</i> 70（<sup>35</sup>Cl–<sup>35</sup>Cl）：¾ × ¾ = 9/16</div><div class=\"worked__math\"><i>m/z</i> 72（<sup>35</sup>Cl–<sup>37</sup>Cl、二通り）：2 × ¾ × ¼ = 6/16</div><div class=\"worked__math\"><i>m/z</i> 74（<sup>37</sup>Cl–<sup>37</sup>Cl）：¼ × ¼ = 1/16</div><p>高さの比 = <strong>9 : 6 : 1</strong>。</p>",
+      solution: "<div class=\"worked__math\"><i>m/z</i> 70（<sup>35</sup>Cl–<sup>35</sup>Cl）：¾ × ¾ = 9/16</div><div class=\"worked__math\"><i>m/z</i> 72（<sup>35</sup>Cl–<sup>37</sup>Cl、2 通り）：2 × ¾ × ¼ = 6/16</div><div class=\"worked__math\"><i>m/z</i> 74（<sup>37</sup>Cl–<sup>37</sup>Cl）：¼ × ¼ = 1/16</div><p>高さの比 = <strong>9 : 6 : 1</strong>。</p>",
       misconception: {
         // EN (option A): 1 : 2 : 1 is the pattern when the two isotopes are equally abundant, as in bromine. Here <sup>35</sup>Cl is three times as common.
         "0": "1 : 2 : 1 は、臭素のように 2 つの同位体の存在比が同じときのパターンです。ここでは <sup>35</sup>Cl が 3 倍多くあります。",
@@ -784,7 +784,7 @@ S1.i18n.register('ja', 's1-2.q', {
       ],
       hints: [
         // EN: Compare 79 and 81 with the mass numbers of the two isotopes.
-        "79 と 81 を、2 つの同位体の質量数と比べましょう。",
+        "79 と 81 を、2 つの同位体の質量数とくらべましょう。",
         // EN: Some molecules break into single atoms in the instrument. What charge must a particle have to be detected?
         "装置の中で、一部の分子はばらばらの原子に分かれます。粒子が検出されるには、どんな電荷が必要ですか。",
       ],

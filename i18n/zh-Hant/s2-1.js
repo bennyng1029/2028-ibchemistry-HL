@@ -204,7 +204,7 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "Check": "檢查",
 
     // How atoms become ions > worked example > p
-    "Remove the two 4s electrons. What is left is the configuration of argon, a noble gas.": "拿走兩個 4s 電子。餘下的就是貴氣體氬的電子排佈。",
+    "Remove the two 4s electrons. What is left is the configuration of argon, a noble gas.": "移走兩個 4s 電子。餘下的就是貴氣體氬的電子排佈。",
 
     // How atoms become ions > worked example > p
     "The ion has a charge of 2+ and the configuration <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></span>. (The element is calcium, so the ion is <span class=\"chem\">Ca^2+</span>.)": "離子的電荷是 2+，電子排佈是 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></span>。（這種元素是鈣，所以離子是 <span class=\"chem\">Ca^2+</span>。）",
@@ -421,7 +421,7 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "Check that the total positive charge equals the total negative charge, and that the numbers are the smallest whole numbers.": "檢查總正電荷是否等於總負電荷，以及各數目是否最簡整數。",
 
     // Formulas and names of ionic compounds > widget > data-title attribute
-    "Ionic formula builder": "離子化學式組合器",
+    "Ionic formula builder": "離子化學式建構工具",
 
     // Formulas and names of ionic compounds > widget > figcaption
     "Choose a cation and an anion. Each tile is one ion, and its width is its charge. Add ions until the two rows are the same length. Then press Quiz me to build a compound from its name. The builder only balances charges. Some of the combinations you can make are not stable compounds in real life.": "選一個陽離子和一個陰離子。每個方塊代表一個離子，方塊的闊度代表它的電荷。加入離子，直至兩行一樣長。然後按「考考我」，根據名稱組合出化合物。這個工具只會平衡電荷。你能組合出來的化合物，有些在現實中並不穩定。",
@@ -1747,7 +1747,7 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "{a}+ and {b}−": "{a}+ 和 {b}−",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "Predict first": "請先預測",
+    "Predict first": "先預測",
 
     // widget string (assets/js/widgets-s2-1.js)
     "Choose one answer for each of the two questions, then reveal.": "兩條問題各選一個答案，然後顯示數值。",

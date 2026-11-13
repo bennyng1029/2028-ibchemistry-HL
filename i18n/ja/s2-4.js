@@ -21,7 +21,7 @@ S1.i18n.register('ja', 's2-4', {
     "What you need to be able to do": "できるようになること",
 
     // What you need to be able to do > p
-    "Tick each one when you can do it without looking at your notes.": "ノートを見ないでできるようになったものから、チェックを入れましょう。",
+    "Tick each one when you can do it without looking at your notes.": "ノートを見ないでできるようになったら、1 つずつチェックを入れましょう。",
 
     // What you need to be able to do > checklist > span
     "Describe bonding as a continuum between the ionic, covalent and metallic models, and use the models to explain the properties of a material.": "結合を、イオン結合・共有結合・金属結合の 3 つのモデルの間で連続的に変化するものとして記述する。モデルを使って材料の性質を説明する。",
@@ -153,7 +153,7 @@ S1.i18n.register('ja', 's2-4', {
     "Between the covalent corner and the ionic top, the sharing becomes more and more unequal. This part is labelled <dfn>polar covalent</dfn>. The booklet prints no line between “covalent” and “polar covalent”, because the change is gradual.": "共有結合の角からイオン結合の頂点に向かうにつれて、電子の共有はだんだんかたよっていきます。この部分には<dfn>極性共有結合 <span class=\"en-term\">(polar covalent)</span></dfn>と書いてあります。データブックレットの図では、「covalent」と「polar covalent」の間に線がありません。変化がゆるやかだからです。",
 
     // Bonding is a continuum > data booklet note > p
-    "The triangular bonding diagram is in section 17 of the data booklet. Electronegativity values are in section 9. You do not need to remember either.": "三角形の結合の図は、データブックレットのセクション 17 にあります。電気陰性度の値はセクション 9 にあります。どちらも覚える必要はありません。",
+    "The triangular bonding diagram is in section 17 of the data booklet. Electronegativity values are in section 9. You do not need to remember either.": "結合の三角形の図は、データブックレットのセクション 17 にあります。電気陰性度の値はセクション 9 にあります。どちらも覚える必要はありません。",
 
     // Bonding is a continuum > exam tip (shown in English + translation) > p
     "When you explain a property, name the particles and the attraction. For example: “strong electrostatic attraction between oppositely charged ions” or “delocalized electrons are free to move”. A bare phrase such as “strong bonds” does not earn the mark.": "性質を説明するときは、粒子の名前と引力の名前を書きましょう。たとえば「反対の電荷をもつイオンの間の強い静電気的な引力」や「非局在化電子が自由に動ける」と書きます。「結合が強い」とだけ書いても、点になりません。",
@@ -240,7 +240,7 @@ S1.i18n.register('ja', 's2-4', {
     "Bonding triangle plotter": "結合の三角形に点を打つ",
 
     // Placing a compound in the bonding triangle > widget > figcaption
-    "Choose two elements, or pick an example. The working shows both coordinates. Then press “Predict first” and decide the region before the point is shown. The outline is the triangle printed in the data booklet. Points for fluorides fall just outside it. Your numbers are still right: read the nearest region.": "元素を 2 つ選ぶか、例を 1 つ選びます。途中の計算に 2 つの座標が出ます。次に「先に予想する」を押して、点が出る前に領域を決めてみましょう。輪郭は、データブックレットに印刷されている三角形です。フッ化物の点は、輪郭のすぐ外にきます。それでも計算した数値は正しいので、いちばん近い領域を読みましょう。",
+    "Choose two elements, or pick an example. The working shows both coordinates. Then press “Predict first” and decide the region before the point is shown. The outline is the triangle printed in the data booklet. Points for fluorides fall just outside it. Your numbers are still right: read the nearest region.": "元素を 2 つ選ぶか、例を 1 つ選びます。途中の計算に 2 つの座標が出ます。次に「先に予測する」を押して、点が出る前に領域を決めてみましょう。輪郭は、データブックレットに印刷されている三角形です。フッ化物の点は、輪郭のすぐ外にきます。それでも計算した数値は正しいので、いちばん近い領域を読みましょう。",
 
     // Placing a compound in the bonding triangle > worked example > h3
     "Magnesium oxide on the triangle": "三角形の上の酸化マグネシウム",
@@ -451,10 +451,10 @@ S1.i18n.register('ja', 's2-4', {
     "Alloys": "合金",
 
     // Alloys > p
-    "A gold ring is rarely pure gold. Pure gold is so soft that a ring would bend out of shape. Jewellers mix the gold with a little copper or silver to make it harder.": "金の指輪は、純粋な金でできていることはあまりありません。純粋な金はとてもやわらかく、指輪にすると形がゆがんでしまいます。そこで、金に銅や銀を少し混ぜて、かたくします。",
+    "A gold ring is rarely pure gold. Pure gold is so soft that a ring would bend out of shape. Jewellers mix the gold with a little copper or silver to make it harder.": "金の指輪は、純粋な金でできていることはあまりありません。純粋な金はとてもやわらかく、指輪にすると形がゆがんでしまいます。そこで、金に銅や銀を少し混ぜて、硬くします。",
 
     // Alloys > p
-    "An <dfn data-def=\"A mixture of a metal and other metals or non-metals. It has enhanced properties.\">alloy</dfn> is a mixture of a metal and other metals or non-metals. Alloys have enhanced properties: they are often harder, stronger or more resistant to corrosion than the pure metal.": "<dfn data-def=\"金属と、ほかの金属または非金属との混合物です。もとの金属より優れた性質をもちます。\">合金 <span class=\"en-term\">(alloy)</span></dfn>は、金属と、ほかの金属または非金属との混合物です。合金は、もとの金属より優れた性質をもちます。純粋な金属より、かたい、強い、腐食しにくい、といったことがよくあります。",
+    "An <dfn data-def=\"A mixture of a metal and other metals or non-metals. It has enhanced properties.\">alloy</dfn> is a mixture of a metal and other metals or non-metals. Alloys have enhanced properties: they are often harder, stronger or more resistant to corrosion than the pure metal.": "<dfn data-def=\"金属と、ほかの金属または非金属との混合物です。もとの金属より優れた性質をもちます。\">合金 <span class=\"en-term\">(alloy)</span></dfn>は、金属と、ほかの金属または非金属との混合物です。合金は、もとの金属より優れた性質をもちます。純粋な金属より、硬い、強い、腐食しにくい、といったことがよくあります。",
 
     // Alloys > data-def attribute
     "A mixture of a metal and other metals or non-metals. It has enhanced properties.": "金属と、ほかの金属または非金属との混合物です。もとの金属より優れた性質をもちます。",
@@ -475,13 +475,13 @@ S1.i18n.register('ja', 's2-4', {
     "Because the bonding is non-directional, the lattice does not need one fixed arrangement of particular atoms. An atom of a different element can take a place in the lattice, and the delocalized electrons still hold everything together.": "結合に方向性がないので、結晶格子は、決まった原子が決まった並び方をしている必要がありません。別の元素の原子が格子の中の場所に入っても、非局在化電子が全体をまとめたままです。",
 
     // Alloys > h3
-    "Why alloys are often harder and stronger": "合金がよりかたく、強くなることが多い理由",
+    "Why alloys are often harder and stronger": "合金がより硬く、強くなることが多い理由",
 
     // Alloys > p
-    "In a pure metal, all the cations are the same size. They pack in regular layers. When a force is applied, the layers can slide over each other. That is why pure metals are malleable.": "純粋な金属では、陽イオンの大きさがすべて同じです。陽イオンは規則正しい層になって並びます。力を加えると、層はたがいにすべることができます。純粋な金属に展性があるのは、このためです。",
+    "In a pure metal, all the cations are the same size. They pack in regular layers. When a force is applied, the layers can slide over each other. That is why pure metals are malleable.": "純粋な金属では、陽イオンの大き探すべて同じです。陽イオンは規則正しい層になって並びます。力を加えると、層はたがいにすべることができます。純粋な金属に展性があるのは、このためです。",
 
     // Alloys > p
-    "In an alloy, the atoms of the added element are a different size. They disrupt the regular layers. The layers cannot slide over each other as easily, so the alloy is harder and stronger.": "合金では、加えた元素の原子の大きさが違います。そのため、規則正しい層が乱れます。層がすべりにくくなるので、合金はよりかたく、より強くなります。",
+    "In an alloy, the atoms of the added element are a different size. They disrupt the regular layers. The layers cannot slide over each other as easily, so the alloy is harder and stronger.": "合金では、加えた元素の原子の大きさが違います。そのため、規則正しい層が乱れます。層がすべりにくくなるので、合金はより硬く、より強くなります。",
 
     // Alloys > widget > data-title attribute
     "Push a layer: pure metal and alloy": "層を押す：純粋な金属と合金",
@@ -493,10 +493,10 @@ S1.i18n.register('ja', 's2-4', {
     "Alloys are mixtures. The amounts of the elements can vary, and the elements are not chemically combined in a fixed ratio. That is why an alloy is not a compound.": "合金は混合物です。元素の量は変えることができ、元素が一定の比で化学的に結合しているわけではありません。だから、合金は化合物ではありません。",
 
     // Alloys > worked example > h3
-    "Explaining the hardness of an alloy": "合金のかたさを説明する",
+    "Explaining the hardness of an alloy": "合金の硬さを説明する",
 
     // Alloys > worked example > p
-    "Brass is an alloy of copper and zinc. Explain why brass is harder than pure copper. [2 marks]": "黄銅は、銅と亜鉛の合金です。黄銅が純粋な銅よりかたい理由を説明しなさい (explain)。[2 点]",
+    "Brass is an alloy of copper and zinc. Explain why brass is harder than pure copper. [2 marks]": "黄銅は、銅と亜鉛の合金です。黄銅が純粋な銅より硬い理由を説明しなさい (explain)。[2 点]",
 
     // Alloys > worked example > data-title attribute
     "Describe the pure metal": "純粋な金属のようすを書く",
@@ -505,7 +505,7 @@ S1.i18n.register('ja', 's2-4', {
     "An “explain” answer needs the starting picture: what makes pure copper soft.": "「説明しなさい (explain)」の答えには、出発点が必要です。純粋な銅がなぜやわらかいのかを書きます。",
 
     // Alloys > worked example > maths line
-    "In pure copper, the cations are all the same size and form regular layers. The layers can slide over each other.": "純粋な銅では、陽イオンの大きさがすべて同じで、規則正しい層をつくっている。層はたがいにすべることができる。",
+    "In pure copper, the cations are all the same size and form regular layers. The layers can slide over each other.": "純粋な銅では、陽イオンの大き探すべて同じで、規則正しい層をつくっている。層はたがいにすべることができる。",
 
     // Alloys > worked example > data-title attribute
     "Say what the added atoms do": "加えた原子のはたらきを書く",
@@ -520,16 +520,16 @@ S1.i18n.register('ja', 's2-4', {
     "Link to the property": "性質と結びつける",
 
     // Alloys > worked example > p
-    "This is the second marking point. Connect the structure to hardness.": "これが 2 つ目の採点ポイントです。構造をかたさと結びつけます。",
+    "This is the second marking point. Connect the structure to hardness.": "これが 2 つ目の採点ポイントです。構造を硬さと結びつけます。",
 
     // Alloys > worked example > maths line
-    "<b>The layers cannot slide over each other as easily, so brass is harder.</b>": "<b>層がたがいにすべりにくくなるので、黄銅のほうがかたい。</b>",
+    "<b>The layers cannot slide over each other as easily, so brass is harder.</b>": "<b>層がたがいにすべりにくくなるので、黄銅のほうが硬い。</b>",
 
     // Alloys > worked example > p
     "Zinc atoms have a different size, so they disrupt the regular layers. The layers slide over each other less easily.": "亜鉛原子は大きさが違うので、規則正しい層を乱します。層はたがいにすべりにくくなります。",
 
     // Alloys > common mistake > p
-    "Do not write that an alloy is harder “because the bonds are stronger”. The mark is for the disrupted layers that slide less easily. Do not call an alloy a compound.": "合金がかたいのは「結合が強いから」と書いてはいけません。点になるのは、層が乱れてすべりにくくなる、という説明です。また、合金を化合物と呼んではいけません。",
+    "Do not write that an alloy is harder “because the bonds are stronger”. The mark is for the disrupted layers that slide less easily. Do not call an alloy a compound.": "合金が硬いのは「結合が強いから」と書いてはいけません。点になるのは、層が乱れてすべりにくくなる、という説明です。また、合金を化合物と呼んではいけません。",
 
     // Alloys > not needed for IB > p
     "You do not need to learn the composition or the uses of any particular alloy. Any alloy in a question will be described for you.": "特定の合金の組成や用途を覚える必要はありません。問題に合金が出るときは、説明が付いています。",
@@ -560,7 +560,7 @@ S1.i18n.register('ja', 's2-4', {
     "<strong>Natural polymers</strong> are made by living things. Examples are starch and cellulose in plants, proteins, DNA and natural rubber.": "<strong>天然高分子</strong>は、生物がつくります。植物のデンプンやセルロース、タンパク質、DNA、天然ゴムなどがあります。",
 
     // Polymers and plastics > li
-    "<strong>Synthetic polymers</strong> are made in factories. Examples are poly(ethene), used for bags and bottles, and nylon, used for fabrics. Plastics are synthetic polymers.": "<strong>合成高分子</strong>は、工場でつくります。袋やボトルに使うポリエテン (poly(ethene)) や、布に使うナイロンなどがあります。プラスチックは合成高分子です。",
+    "<strong>Synthetic polymers</strong> are made in factories. Examples are poly(ethene), used for bags and bottles, and nylon, used for fabrics. Plastics are synthetic polymers.": "<strong>合成高分子</strong>は、工場でつくります。袋やボトルに使う poly(ethene)（ポリエテン）や、布に使うナイロンなどがあります。プラスチックは合成高分子です。",
 
     // Polymers and plastics > h3
     "Properties of plastics, explained by structure": "プラスチックの性質を構造から説明する",
@@ -650,7 +650,7 @@ S1.i18n.register('ja', 's2-4', {
     "Read the command carefully. If a question asks for a <em>chemical</em> property of a plastic, write “unreactive”, “chemically inert” or “non-biodegradable”. A physical property, such as “strong” or “low density”, does not earn the mark.": "指示をよく読みましょう。プラスチックの<em>化学的</em>性質を問われたら、「反応しにくい」「化学的に不活性」「生分解されない」と書きます。「強い」や「密度が小さい」のような物理的性質を書いても、点になりません。",
 
     // Polymers and plastics > not needed for IB > p
-    "You do not need to learn the names, structures or uses of particular plastics. You do not need high-density and low-density poly(ethene), thermoplastic and thermosetting polymers, plasticizers or recycling codes.": "特定のプラスチックの名前、構造、用途を覚える必要はありません。高密度ポリエテンと低密度ポリエテン、熱可塑性と熱硬化性の高分子、可塑剤、リサイクルの識別番号も必要ありません。",
+    "You do not need to learn the names, structures or uses of particular plastics. You do not need high-density and low-density poly(ethene), thermoplastic and thermosetting polymers, plasticizers or recycling codes.": "特定のプラスチックの名前、構造、用途を覚える必要はありません。高密度 poly(ethene) と低密度 poly(ethene)、熱可塑性と熱硬化性の高分子、可塑剤、リサイクルの識別番号も必要ありません。",
 
     // Polymers and plastics > data-title attribute
     "Polymers and plastics: quick check": "高分子とプラスチック：確認クイズ",
@@ -675,7 +675,7 @@ S1.i18n.register('ja', 's2-4', {
     "In addition polymerization the monomers add together and nothing else is made. The polymer is the only product. The repeating unit contains the same atoms as one monomer.": "付加重合 (addition polymerization) では、単量体がそのままつながり、ほかには何もできません。生成物は高分子だけです。繰り返し単位は、単量体 1 個と同じ原子を含みます。",
 
     // Addition polymers > widget > data-title attribute
-    "Addition polymer builder": "付加重合体をつくる",
+    "Addition polymer builder": "付加重合体ビルダー",
 
     // Addition polymers > widget > figcaption
     "Choose a monomer and step through. Watch the double bond become a single bond while the side groups stay where they are. Then try “Reverse: find the monomer”.": "単量体を選んで、ステップを進めましょう。二重結合が単結合になり、側基はそのままの位置にあることを見てください。そのあと「逆向き：単量体を見つける」を試しましょう。",
@@ -687,7 +687,7 @@ S1.i18n.register('ja', 's2-4', {
     "The smallest group of atoms that repeats along a polymer chain.": "高分子の鎖に沿って繰り返す、最も小さな原子のまとまりです。",
 
     // Addition polymers > p
-    "The equation for making poly(ethene) from ethene shows this notation.": "エテンからポリエテンができる反応式で、この書き方を見てみましょう。",
+    "The equation for making poly(ethene) from ethene shows this notation.": "ethene（エテン）から poly(ethene) ができる反応式で、この書き方を見てみましょう。",
 
     // Addition polymers > h3
     "Method: repeating unit from a monomer": "解き方：単量体から繰り返し単位",
@@ -708,16 +708,16 @@ S1.i18n.register('ja', 's2-4', {
     "Repeating unit from a monomer": "単量体から繰り返し単位",
 
     // Addition polymers > worked example > p
-    "Propene has the structure shown. Draw the repeating unit of the addition polymer formed from propene.": "図はプロペン (propene) の構造です。プロペンからできる付加重合体の繰り返し単位を描きなさい (draw)。",
+    "Propene has the structure shown. Draw the repeating unit of the addition polymer formed from propene.": "図は propene（プロペン）の構造です。propene からできる付加重合体の繰り返し単位を描きなさい (draw)。",
 
     // Addition polymers > worked example > data-label attribute
-    "Propene: two carbons joined by a double bond. The first carbon has two hydrogen atoms. The second carbon has one hydrogen atom and one CH3 group.": "プロペン：2 個の炭素が二重結合でつながっています。1 個目の炭素には水素原子が 2 個付いています。2 個目の炭素には水素原子 1 個と CH3 基 1 個が付いています。",
+    "Propene: two carbons joined by a double bond. The first carbon has two hydrogen atoms. The second carbon has one hydrogen atom and one CH3 group.": "propene：2 個の炭素が二重結合でつながっています。1 個目の炭素には水素原子が 2 個付いています。2 個目の炭素には水素原子 1 個と CH3 基 1 個が付いています。",
 
     // Addition polymers > worked example > data-title attribute
     "Find the two double-bonded carbons": "二重結合でつながった 2 個の炭素を見つける",
 
     // Addition polymers > worked example > p
-    "Only these two carbons go into the backbone of the chain. The <span class=\"chem\">CH3</span> group is not part of the double bond, so it is a side group.": "鎖の主鎖 (backbone) に入るのは、この 2 個の炭素だけです。<span class=\"chem\">CH3</span> 基は二重結合の一部ではないので、側基 (side group) になります。",
+    "Only these two carbons go into the backbone of the chain. The <span class=\"chem\">CH3</span> group is not part of the double bond, so it is a side group.": "主鎖 (backbone)  に入るのは、この 2 個の炭素だけです。<span class=\"chem\">CH3</span> 基は二重結合の一部ではないので、側基 (side group) になります。",
 
     // Addition polymers > worked example > maths line
     "backbone carbons: the CH<sub>2</sub> carbon and the CH carbon": "主鎖の炭素：CH<sub>2</sub> の炭素と CH の炭素",
@@ -744,13 +744,13 @@ S1.i18n.register('ja', 's2-4', {
     "Each carbon must have four bonds. The <span class=\"chem\">CH3</span> group hangs off the chain.": "どの炭素にも結合が 4 本なければなりません。<span class=\"chem\">CH3</span> 基は鎖から枝のように出ています。",
 
     // Addition polymers > worked example > data-label attribute
-    "Repeating unit of poly(propene): two backbone carbons joined by a single bond, with a continuation bond at each end through square brackets. The first carbon has two hydrogen atoms. The second carbon has one hydrogen atom and one CH3 group.": "ポリ(プロペン) の繰り返し単位：主鎖の炭素 2 個が単結合でつながり、両端には、角括弧を突き抜ける、鎖の続きを表す結合があります。1 個目の炭素には水素原子が 2 個付いています。2 個目の炭素には水素原子 1 個と CH3 基 1 個が付いています。",
+    "Repeating unit of poly(propene): two backbone carbons joined by a single bond, with a continuation bond at each end through square brackets. The first carbon has two hydrogen atoms. The second carbon has one hydrogen atom and one CH3 group.": "poly(propene) の繰り返し単位：主鎖の炭素 2 個が単結合でつながり、両端には、角括弧を突き抜ける、鎖の続きを表す結合があります。1 個目の炭素には水素原子が 2 個付いています。2 個目の炭素には水素原子 1 個と CH3 基 1 個が付いています。",
 
     // Addition polymers > worked example > p
     "The repeating unit is –CH<sub>2</sub>–CH(CH<sub>3</sub>)–, with the <span class=\"chem\">CH3</span> group as a side group.": "繰り返し単位は –CH<sub>2</sub>–CH(CH<sub>3</sub>)– で、<span class=\"chem\">CH3</span> 基は側基です。",
 
     // Addition polymers > common mistake > p
-    "Do not put all three carbons of propene in a row in the backbone. Only the two carbons of the double bond are in the chain. Do not leave the double bond in the repeating unit either: it has become a single bond.": "プロペンの 3 個の炭素を、すべて主鎖に 1 列に並べてはいけません。鎖に入るのは、二重結合の 2 個の炭素だけです。また、繰り返し単位に二重結合を残してもいけません。単結合に変わっています。",
+    "Do not put all three carbons of propene in a row in the backbone. Only the two carbons of the double bond are in the chain. Do not leave the double bond in the repeating unit either: it has become a single bond.": "propene の 3 個の炭素を、すべて主鎖に 1 列に並べてはいけません。鎖に入るのは、二重結合の 2 個の炭素だけです。また、繰り返し単位に二重結合を残してもいけません。単結合に変わっています。",
 
     // Addition polymers > h3
     "Method: monomer from a polymer": "解き方：高分子から単量体",
@@ -885,7 +885,7 @@ S1.i18n.register('ja', 's2-4', {
     "The water is made from an H atom of the –OH or –NH<sub>2</sub> group and the –OH part of the –COOH group. A new bond then joins the O or N atom to the C=O carbon.": "水は、–OH 基または –NH<sub>2</sub> 基の H 原子と、–COOH 基の –OH の部分からできます。そして新しい結合が、O 原子または N 原子を C=O の炭素とつなぎます。",
 
     // Condensation polymers > widget > Additional HL > data-title attribute
-    "Condensation polymer builder": "縮合重合体をつくる",
+    "Condensation polymer builder": "縮合重合体ビルダー",
 
     // Condensation polymers > widget > Additional HL > figcaption
     "Choose a polymer type and step through. A box stands for the part of the monomer that does not change. Dashed outlines mark the atoms that become water. An underline marks the new link.": "高分子の種類を選んで、ステップを進めましょう。四角は、単量体の中で変化しない部分を表します。破線の囲みは、水になる原子です。下線は、新しくできた結合です。",
@@ -1011,7 +1011,7 @@ S1.i18n.register('ja', 's2-4', {
     "Find the link": "結合を見つける",
 
     // Condensation polymers > worked example > Additional HL > p
-    "Look for C=O next to N or O in the backbone. Here C=O is next to N–H.": "主鎖の中で、N または O のとなりにある C=O をさがします。ここでは、C=O が N–H のとなりにあります。",
+    "Look for C=O next to N or O in the backbone. Here C=O is next to N–H.": "主鎖の中で、N または O のとなりにある C=O を探します。ここでは、C=O が N–H のとなりにあります。",
 
     // Condensation polymers > worked example > Additional HL > maths line
     "–NH–CO– is an amide link, so this is a polyamide": "–NH–CO– はアミド結合なので、これはポリアミド",
@@ -1104,7 +1104,7 @@ S1.i18n.register('ja', 's2-4', {
     "the polymer and a small molecule, usually water": "高分子と小さな分子（ふつうは水）",
 
     // Condensation polymers > table > Additional HL > th
-    "Backbone of the chain": "鎖の主鎖",
+    "Backbone of the chain": "主鎖",
 
     // Condensation polymers > table > Additional HL > td
     "carbon atoms only": "炭素原子だけ",
@@ -1137,13 +1137,13 @@ S1.i18n.register('ja', 's2-4', {
     "Linking it up": "つなげて考える",
 
     // Linking it up > p
-    "The IB guide asks these linking questions. Short answers are enough at this stage.": "IB の『指導の手引き』には、次のような「つながりの問い」(Linking question) があります。今の段階では、短い答えで十分です。",
+    "The IB guide asks these linking questions. Short answers are enough at this stage.": "IB の『指導の手引き』には、次のような「つながりの問い (linking question)」があります。今の段階では、短い答えで十分です。",
 
     // Linking it up > h3
-    "What are the limitations of discrete bonding categories?": "結合をいくつかの種類にはっきり分けることには、どんな限界がありますか。",
+    "What are the limitations of discrete bonding categories?": "結合をいくつかの種類にはっきり分ける (discrete) ことには、どんな限界がありますか。",
 
     // Linking it up > p
-    "“Discrete” means separate. If you sort every substance into only three boxes, you lose information. Many substances lie between the models, such as polar covalent molecules and compounds near a boundary in the triangle. A single label then predicts the wrong properties. The bonding triangle is a better model because it shows the gradual change.": "「discrete」は、ばらばらに分かれているという意味です。すべての物質を 3 つの箱だけに分けると、情報が失われます。極性共有結合の分子や、三角形の境界線に近い化合物のように、モデルの中間にある物質はたくさんあります。そういう物質に 1 つのラベルだけを付けると、性質をまちがって予測してしまいます。結合の三角形は、ゆるやかな変化を表せるので、よりよいモデルです。",
+    "“Discrete” means separate. If you sort every substance into only three boxes, you lose information. Many substances lie between the models, such as polar covalent molecules and compounds near a boundary in the triangle. A single label then predicts the wrong properties. The bonding triangle is a better model because it shows the gradual change.": "「discrete」は、ばらばらに分かれているという意味です。すべての物質を 3 つの箱だけに分けると、情報が失われます。極性共有結合の分子や、三角形の境界線に近い化合物のように、モデルの中間にある物質はたくさんあります。そういう物質に 1 つのラベルだけを付けると、性質を間違って予測してしまいます。結合の三角形は、ゆるやかな変化を表せるので、よりよいモデルです。",
 
     // Linking it up > h3
     "How do the trends in properties of period 3 oxides reflect the trend in their bonding?": "第 3 周期の酸化物の性質の傾向は、結合の傾向をどのように表していますか。",
@@ -1167,7 +1167,7 @@ S1.i18n.register('ja', 's2-4', {
     "Why do composites like reinforced concretes, which are made from ionic and covalently bonded components and steel bars, have unique properties?": "鉄筋コンクリートのような複合材料は、イオン結合や共有結合でできた成分と鋼の棒からできています。このような複合材料が独特の性質をもつのはなぜですか。",
 
     // Linking it up > p
-    "A <dfn data-def=\"A material made from two or more different materials that stay separate inside it. It combines their properties.\">composite</dfn> is made from two or more different materials. Each part keeps its own bonding, so the composite combines their properties. Concrete has ionic and covalent bonding. It is hard and strong when it is squeezed, but it is brittle and cracks when it is pulled or bent. Steel has metallic bonding. It is strong when it is pulled, and it bends without breaking. Reinforced concrete, with steel bars inside the concrete, resists both squeezing and pulling. Neither material can do this alone.": "<dfn data-def=\"2 種類以上の異なる材料からできていて、それぞれが中で分かれたまま残っている材料です。もとの材料の性質をあわせもちます。\">複合材料 <span class=\"en-term\">(composite)</span></dfn>は、2 種類以上の異なる材料からできています。それぞれの部分は自分の結合を保つので、複合材料はそれらの性質をあわせもちます。コンクリートには、イオン結合と共有結合があります。押し縮める力にはかたくて強いのですが、もろく、引っぱったり曲げたりすると割れます。鋼には金属結合があります。引っぱる力に強く、折れずに曲がります。コンクリートの中に鋼の棒を入れた鉄筋コンクリートは、押し縮める力にも引っぱる力にも耐えます。どちらの材料も、単独ではこれができません。",
+    "A <dfn data-def=\"A material made from two or more different materials that stay separate inside it. It combines their properties.\">composite</dfn> is made from two or more different materials. Each part keeps its own bonding, so the composite combines their properties. Concrete has ionic and covalent bonding. It is hard and strong when it is squeezed, but it is brittle and cracks when it is pulled or bent. Steel has metallic bonding. It is strong when it is pulled, and it bends without breaking. Reinforced concrete, with steel bars inside the concrete, resists both squeezing and pulling. Neither material can do this alone.": "<dfn data-def=\"2 種類以上の異なる材料からできていて、それぞれが中で分かれたまま残っている材料です。もとの材料の性質をあわせもちます。\">複合材料 <span class=\"en-term\">(composite)</span></dfn>は、2 種類以上の異なる材料からできています。それぞれの部分は自分の結合を保つので、複合材料はそれらの性質をあわせもちます。コンクリートには、イオン結合と共有結合があります。押し縮める力には硬くて強いのですが、もろく、引っぱったり曲げたりすると割れます。鋼には金属結合があります。引っぱる力に強く、折れずに曲がります。コンクリートの中に鋼の棒を入れた鉄筋コンクリートは、押し縮める力にも引っぱる力にも耐えます。どちらの材料も、単独ではこれができません。",
 
     // Linking it up > data-def attribute
     "A material made from two or more different materials that stay separate inside it. It combines their properties.": "2 種類以上の異なる材料からできていて、それぞれが中で分かれたまま残っている材料です。もとの材料の性質をあわせもちます。",
@@ -1306,7 +1306,7 @@ S1.i18n.register('ja', 's2-4', {
     "Electronegativity difference, Δχ": "電気陰性度の差 Δχ",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The ionic model fits best. Expect a hard, brittle solid with a high melting point. It does not conduct electricity as a solid. It conducts when molten or dissolved in water.": "イオン結合モデルが最もよく合います。かたくてもろく、融点の高い固体だと予測できます。固体では電気を通しません。融解したときや水に溶けたときは通します。",
+    "The ionic model fits best. Expect a hard, brittle solid with a high melting point. It does not conduct electricity as a solid. It conducts when molten or dissolved in water.": "イオン結合モデルが最もよく合います。硬くてもろく、融点の高い固体だと予測できます。固体では電気を通しません。融解したときや水に溶けたときは通します。",
 
     // widget string (assets/js/widgets-s2-4.js)
     "The metallic model fits best. Expect a solid that conducts electricity and heat well and is malleable.": "金属結合モデルが最もよく合います。電気と熱をよく通し、展性のある固体だと予測できます。",
@@ -1336,7 +1336,7 @@ S1.i18n.register('ja', 's2-4', {
     "(my own choice)": "（自分で選ぶ）",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Predict first: new compound": "先に予想する：新しい化合物",
+    "Predict first: new compound": "先に予測する：新しい化合物",
 
     // widget string (assets/js/widgets-s2-4.js)
     "Bonding triangle. Horizontal axis: average electronegativity. Vertical axis: electronegativity difference. Metallic region at the bottom left, ionic region at the top, covalent and polar covalent region at the bottom right. The readout below gives the position of the chosen point.": "結合の三角形。横軸：電気陰性度の平均。縦軸：電気陰性度の差。左下が金属結合の領域、上がイオン結合の領域、右下が共有結合と極性共有結合の領域。選んだ点の位置は、下の表示に出ます。",
@@ -1348,7 +1348,7 @@ S1.i18n.register('ja', 's2-4', {
     "Read from the % scale": "% の目盛りの読み",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Prediction": "予想",
+    "Prediction": "予測",
 
     // widget string (assets/js/widgets-s2-4.js)
     "Correct": "正解",
@@ -1357,7 +1357,7 @@ S1.i18n.register('ja', 's2-4', {
     "Not quite": "おしい！",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "{formula} sits in the {region} region. Check the two numbers in the working, then find the point on the triangle.": "{formula} は{region}の領域にあります。途中の計算の 2 つの数値を確かめてから、三角形の上で点をさがしましょう。",
+    "{formula} sits in the {region} region. Check the two numbers in the working, then find the point on the triangle.": "{formula} は{region}の領域にあります。途中の計算の 2 つの数値を確かめてから、三角形の上で点を探しましょう。",
 
     // widget string (assets/js/widgets-s2-4.js)
     "It is close to the boundary with the {other} region, so either model on its own is a rough description.": "{other}の領域との境界線に近いので、どちらのモデルも、単独ではおおまかな説明にしかなりません。",
@@ -1375,7 +1375,7 @@ S1.i18n.register('ja', 's2-4', {
     "Work out the difference and the average on paper. Then choose a region.": "差と平均を紙の上で計算しましょう。それから領域を選びます。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Make your prediction first.": "まず予想してみましょう。",
+    "Make your prediction first.": "まず予測してみましょう。",
 
     // widget string (assets/js/widgets-s2-4.js)
     "average": "平均",
@@ -1438,7 +1438,7 @@ S1.i18n.register('ja', 's2-4', {
     "Shaded background: delocalized electrons (not drawn one by one)": "色のついた背景：非局在化電子（1 個ずつは描いていません）",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "All ions are the same size: regular layers": "イオンの大きさがすべて同じ：規則正しい層",
+    "All ions are the same size: regular layers": "イオンの大き探すべて同じ：規則正しい層",
 
     // widget string (assets/js/widgets-s2-4.js)
     "Dark circles: atoms of the added element": "濃い色の円：加えた元素の原子",
@@ -1453,7 +1453,7 @@ S1.i18n.register('ja', 's2-4', {
     "The layers slid one place. Every ion is still surrounded by delocalized electrons, so the metallic bonding is unchanged. The metal changed shape without breaking: it is malleable.": "層が 1 個分すべりました。どのイオンも、まだ非局在化電子に囲まれているので、金属結合は変わっていません。金属は割れずに形を変えました。展性があるということです。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The layers hardly moved. The different-sized atoms break up the regular layers, so the layers cannot slide past each other as easily. The same force gives less change of shape: the alloy is harder and stronger.": "層はほとんど動きませんでした。大きさの違う原子が規則正しい層を乱すので、層はたがいにすべりにくくなります。同じ力でも形の変化が小さくなります。合金のほうがかたく、強いということです。",
+    "The layers hardly moved. The different-sized atoms break up the regular layers, so the layers cannot slide past each other as easily. The same force gives less change of shape: the alloy is harder and stronger.": "層はほとんど動きませんでした。大きさの違う原子が規則正しい層を乱すので、層はたがいにすべりにくくなります。同じ力でも形の変化が小さくなります。合金のほうが硬く、強いということです。",
 
     // widget string (assets/js/widgets-s2-4.js)
     "Does not conduct electricity": "電気を通さない",
@@ -1489,7 +1489,7 @@ S1.i18n.register('ja', 's2-4', {
     "Each chain is very long, so the many intermolecular forces along its length add up. The chains also tangle.": "鎖はどれもとても長いので、鎖に沿ってはたらくたくさんの分子間力が積み重なります。鎖どうしがからみ合ってもいます。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Sorted correctly": "正しく分類した数",
+    "Sorted correctly": "正しく分類できた数",
 
     // widget string (assets/js/widgets-s2-4.js)
     "All sorted.": "すべて分類しました。",
@@ -1564,7 +1564,7 @@ S1.i18n.register('ja', 's2-4', {
     "Reverse: find the monomer": "逆向き：単量体を見つける",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Back to the builder": "組み立てに戻る",
+    "Back to the builder": "ビルダーに戻る",
 
     // widget string (assets/js/widgets-s2-4.js)
     "Repeating unit": "繰り返し単位",

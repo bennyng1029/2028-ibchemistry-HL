@@ -422,7 +422,7 @@ S1.i18n.register('ja', 's1-1', {
     "Draw the baseline in pencil, because pencil does not dissolve in the solvent. Put a small spot of the mixture on the baseline. Stand the paper in a little solvent, with the solvent level <strong>below</strong> the baseline. If the spot started under the solvent, the dyes would dissolve into the beaker instead of moving up the paper. A pure substance gives one spot. A mixture gives more than one.": "原線 <span class=\"en-term\">(baseline)</span> は鉛筆で引きます。鉛筆の線は溶媒に溶けないからです。混合物を原線の上に小さなスポットとして付けます。紙を少量の溶媒に立てます。このとき、溶媒の液面が原線より<strong>下</strong>になるようにします。スポットが最初から溶媒につかっていると、色素は紙を上がらずに、ビーカーの溶媒に溶け出してしまいます。純物質ならスポットは 1 つです。混合物なら 2 つ以上になります。",
 
     // Separating mixtures > not needed for IB > p
-    "You do not need retardation factor (R<sub>f</sub>) calculations or the terms stationary phase and mobile phase in this topic. They come later, in Structure 2.2, together with thin layer chromatography. You also do not need the details of fractionating columns, centrifuges or separating funnels here.": "このトピックでは、R<sub>f</sub> 値（移動率、retardation factor）の計算や、固定相・移動相という用語は必要ありません。これらは、あとの Structure 2.2 で薄層クロマトグラフィーと一緒に学びます。分留塔、遠心分離機、分液ろうとのくわしい内容も、ここでは必要ありません。",
+    "You do not need retardation factor (R<sub>f</sub>) calculations or the terms stationary phase and mobile phase in this topic. They come later, in Structure 2.2, together with thin layer chromatography. You also do not need the details of fractionating columns, centrifuges or separating funnels here.": "このトピックでは、R<sub>f</sub> 値 (retardation factor)の計算や、固定相・移動相という用語は必要ありません。これらは、あとの Structure 2.2 で薄層クロマトグラフィーと一緒に学びます。分留塔、遠心分離機、分液ろうとのくわしい内容も、ここでは必要ありません。",
 
     // Separating mixtures > data-title attribute
     "Separating mixtures: quick check": "混合物の分離：確認クイズ",

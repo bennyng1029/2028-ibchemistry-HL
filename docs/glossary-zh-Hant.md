@@ -45,6 +45,9 @@ and the E form is given in the notes. There are only three such cases: 電子排
 - Hong Kong characters: 裏 (not 裡), 着 (for 看着、接着; 著 only in 著名、顯著), 甚麼 (not 什麼),
   線 (not 綫), 污 (not 汚), 衞 or 衛 (either, be consistent: use 衛), 台 for 平台.
 - Warm but not chatty. No exclamation marks unless the English has one. No 喔、啦、吧、哦.
+- One written form each (settled in the consistency edit): 越…越 (not 愈…愈), 相近 (not 相若),
+  螢幕 (not 屏幕), 3D 立體… for "3-D" (3D 立體模型, 3D 立體排列; 三維 only where the English spells out
+  "three-dimensional", as in 三維晶格), 某化合物 / 這種化合物 / 哪一種化合物 (measure word 種, not 個).
 
 ### How to address the reader
 
@@ -53,7 +56,7 @@ and the E form is given in the notes. There are only three such cases: 電子排
 - Instructions: a plain imperative is fine (「先在紙上試做。」). Use 「請」 for error and form messages
   (「請先輸入答案。」). Do not stack 請 in every sentence.
 - Praise is short and factual: 「全部答對。」「做得好。」 Feedback on a wrong answer never blames:
-  「仍未正確」, 「再試一次」.
+  「仍未正確」, 「再試一次」. "Not quite" and "Not yet" are both 「仍未正確」.
 
 ### Numerals and units
 
@@ -207,7 +210,7 @@ confuse her, add one short sentence. Standard wording for the notes:
 | step | 步驟 | "Step 2" = 第 2 步. | 慣 |
 | answer | 答案 | | 慣 |
 | correct / not correct | 正確 / 不正確 | | 慣 |
-| not yet (feedback) | 仍未正確 | | 慣 |
+| not yet / not quite (feedback) | 仍未正確 | One wording for both. Not 還差一點, 不太對. | 慣 |
 | mistake (saved wrong answer) | 錯題 | | 慣 |
 | review my mistakes | 重溫我的錯題 | 重溫 and 溫習 are the HK words for review / revise. | 慣 |
 | revise, revision | 溫習 | Not 複習 (TW / Mainland). | 慣 |
@@ -218,7 +221,7 @@ confuse her, add one short sentence. Standard wording for the notes:
 | scientific investigation (IA) | 科學探究 | In running text give the English once. In the narrow exam table use the Chinese alone (the English wraps badly at phone width). | C (探究) |
 | calculator | 計算機 | | 慣 |
 | interactive (widget) | 互動工具 | Short label: 互動. | 慣 |
-| 3-D model | 立體模型 | | C (立體) |
+| 3-D model | 3D 立體模型 | "3-D" / "3D" is always written 3D 立體 (3D 立體排列, 以 3D 立體方式畫出). | C (立體) |
 | drag | 拖曳 | | 慣 |
 | menu | 選單 | | 慣 |
 | browser | 瀏覽器 | | 慣 |
@@ -238,6 +241,32 @@ confuse her, add one short sentence. Standard wording for the notes:
 | chart / table | 圖表 / 表格 | | 慣 |
 | graph | 圖表, 線圖 | "sketch a graph" = 繪畫略圖. | 慣 |
 | method in words | 文字說明方法 | | 慣 |
+| not this one (feedback) | 不是這個 | | 慣 |
+| linking it up (section title) | 把知識連繫起來 | | 慣 |
+| what you need to be able to do | 你要做得到的事 | | 慣 |
+| what you need first (HL pages) | 先要懂得的事 | "What you need from the core page" = 核心頁的必備知識. | 慣 |
+| show me (button) | 示範 | | 慣 |
+| predict first (button) | 先預測 | As a message when she has not predicted yet ("Predict first."): 請先預測。 | 慣 |
+| quiz me / challenge me (button) | 考考我 / 挑戰我 | | 慣 |
+| check (button) | 檢查 | In the quiz engine: 檢查答案. | 慣 |
+| start again | 重新開始 | | 慣 |
+| builder (widget) | 建構工具 | 電子排佈建構工具, 路易斯結構式建構工具, 離子化學式建構工具. Not 建構器, 組合器, 砌圖器. | 慣 |
+| explorer (widget) | 探索工具 | 週期趨勢探索工具. Not 探索器. | 慣 |
+| trainer (widget) | 練習工具 | 氧化態練習工具. Not 練習器, 訓練器. | 慣 |
+| spotter (widget) | 辨認工具 | 官能基辨認工具, 手性碳辨認工具. | 慣 |
+| reader / interpreter (widget) | 解讀工具 | 質譜解讀工具, 紅外光譜解讀工具. | 慣 |
+| simulator (widget) | 模擬器 | 色層法模擬器. | 慣 |
+| lab (widget) | 實驗室 | 極性實驗室, 溶液實驗室. "Sandbox" = 實驗場. | 慣 |
+| tutor / detective (widget) | 導師 / 偵探 | 質子 NMR 導師, 結構偵探. | 慣 |
+| slider | 滑桿 | | 慣 |
+| arrow | 箭嘴 | HK word. Not 箭頭. | 慣 |
+| button | 按鈕 | "Click" / "tap" = 按 or 點選. | 慣 |
+| screen | 螢幕 | Not 屏幕 (Mainland). | 慣 |
+| box (orbital box, table cell) | 方格 | | 慣 |
+| level 7 (IB grade) | 7 級 | 挑戰：邁向 7 級. Not 7 分 (分 is for marks). | 慣 |
+| error carried forward (ECF) | 承前錯誤 | Give the English once: 「承前錯誤」(error carried forward). | 待核實 (no official Chinese IB wording found) |
+| show your working | 寫出計算步驟 | | 慣 |
+| illustrative data | 示例數據 | | 慣 |
 
 ## 3. Command terms
 
@@ -337,6 +366,11 @@ IB command terms. In a question stem give the Chinese, then the English in brack
 | calibration curve | 校準曲線 | | E+ / P |
 | estimate | 估算 | | 慣 |
 | negligible | 可忽略 | | 慣 |
+| similar, comparable (values) | 相近 | 摩爾質量相近. Not 相若. | 慣 |
+| the more … the more … | 越…越… | Not 愈…愈. | 慣 |
+| jump (in a set of values) | 躍升 | 大幅躍升 = large jump. | 慣 |
+| nano- (prefix) | 納 | 納 (nano) 表示 × 10⁻⁹. | 慣 |
+| litre | 升 | IB gas questions use dm³. | E |
 | assumption | 假設 | | 慣 |
 | model | 模型 | | E |
 | hypothesis | 假說 | | E, S |
@@ -396,9 +430,12 @@ IB command terms. In a question stem give the Chinese, then the English in brack
 | stationary phase | 固定相 | | E |
 | mobile phase | 流動相 | | E |
 | solvent front | 溶劑前沿 | | E |
-| retardation factor (Rf value) | Rf 值 | E: Rf 值，比移值. Keep "Rf". | E |
+| retardation factor (Rf value) | Rf 值 | E: Rf 值，比移值. The display form is the symbol as the page writes it (R<sub>F</sub> or R<sub>f</sub>) + 值, with (retardation factor) at the first mention. 比移值 appears once only, as the gloss where the English defines the symbol ("R<sub>F</sub> = retardation factor"). | E |
 | baseline (origin line) | 基線 | | E |
 | spot | 斑點 | | 慣 |
+| paper chromatogram | 紙色層譜 | | E+ |
+| locating agent | 顯色劑 | Not needed for IB. | 待核實 (not in E) |
+| lane (on a chromatogram) | 道 | A 道、M 道. | 慣 |
 | state of matter | 物態 | | S, P |
 | solid / liquid / gas | 固體 / 液體 / 氣體 | As states: 固態 / 液態 / 氣態. | E |
 | aqueous | 水溶液 | (aq) = 水溶液狀態. | E |
@@ -434,6 +471,8 @@ IB command terms. In a question stem give the Chinese, then the English in brack
 | volatility | 揮發性 | | E |
 | density | 密度 | | E |
 | compress, compressible | 壓縮, 可壓縮 | | 慣 |
+| syringe (sealed syringe) | 針筒 | The measuring instrument "gas syringe" is 氣體注射器 (section 11). | 慣 |
+| plunger / piston | 活塞 | One word for both. | P |
 | diffusion | 擴散 | | E |
 | alloy | 合金 | | E |
 | air | 空氣 | | E |
@@ -536,6 +575,13 @@ IB command terms. In a question stem give the Chinese, then the English in brack
 | attraction / repulsion | 吸引 / 排斥 | Noun: 引力 / 斥力. | E |
 | discontinuity (in a trend) | 不連續處 | | 慣 |
 | isoelectronic | 等電子數 | | E |
+| species | 物種 | An atom, ion or molecule. Give (species) at the first mention in a question. Not 粒子 where the English says "species". | E |
+| first-row transition elements / first-row d-block elements | 第一行過渡元素 / 第一行 d 區元素 | Sc to Zn. HK mathematics: 行 = row, 列 = column, so not 第一列. HK textbooks also say 第一系列過渡元素. | 待核實 (not in E or C in this form) |
+| group number / period number | 族數 / 週期數 | Not 族編號. | 慣 |
+| outer electrons | 外層電子 | "Outermost shell" = 最外層. | E+ |
+| limit of convergence | 會聚極限 | Same as convergence limit. | E |
+| promoted (electron) | 躍遷 | 電子吸收光並躍遷. | 慣 |
+| orbit (not orbital) | 軌道 | Only for the contrast 「軌道」(orbit) / 「軌態」(orbital). | E |
 
 ## 7. Structure 1.4 and 1.5: the mole and gases
 
@@ -555,6 +601,15 @@ IB command terms. In a question stem give the Chinese, then the English in brack
 | empirical formula | 實驗式 | | E, C |
 | molecular formula | 分子式 | | E, C |
 | formula unit | 式單位 | | 待核實 (not in E or C) |
+| empirical formula mass | 實驗式質量 | Not 實驗式的式量, 實驗式的質量. | E+ |
+| empirical unit (empirical formula unit) | 實驗式單位 | 一個分子由多少個實驗式單位組成. Not 單元. | 慣 |
+| mole fraction | 摩爾分數 | Not needed for IB. | E |
+| molality | 質量摩爾濃度 | Not needed for IB. | E |
+| Beer–Lambert law | 比爾－朗伯定律 | Not needed for IB. | 待核實 (not in E in this form) |
+| spectrophotometer | 分光光度計 | | E |
+| Epsom salt | 瀉鹽 | Hydrated magnesium sulfate. | 慣 |
+| partial pressure (Dalton's law) | 分壓 (道爾頓定律) | Not needed for IB. | E |
+| Graham's law of effusion | 格雷姆瀉流定律 | Not needed for IB. | 待核實 (E form not checked) |
 | percentage composition by mass | 質量百分組成 | E: percentage composition 成份百分率; percentage by mass 質量百分率. | E+ |
 | combustion analysis | 燃燒分析 | | E+ |
 | complete combustion | 完全燃燒 | | E |
@@ -703,7 +758,7 @@ IB command terms. In a question stem give the Chinese, then the English in brack
 | graphene | 石墨烯 | | C |
 | fullerene (C60) | 富勒烯 | | E |
 | silicon / silicon dioxide | 矽 / 二氧化矽 | E: 硅，矽. Use 矽. | E |
-| covalent network structure (giant covalent structure) | 巨型共價結構 | IB says "covalent network"; the HK name is 巨型共價結構. | C |
+| covalent network structure (giant covalent structure) | 巨型共價結構 | IB says "covalent network"; the HK name is 巨型共價結構. Short labels: 巨型共價; covalent network solid = 巨型共價固體. 共價網絡 only where one English sentence gives both names ("covalent network (giant covalent) structure"). | C |
 | simple molecular structure | 簡單分子結構 | | E, C |
 | giant structure | 巨型結構 | | E |
 | layer structure | 層狀結構 | | E |
@@ -749,6 +804,40 @@ IB command terms. In a question stem give the Chinese, then the English in brack
 | poly(ethene) | 聚乙烯 | | E |
 | hydrolysis | 水解 | | E |
 | biodegradable | 可生物降解 | | E |
+| unit cell | 晶胞 | Not needed for IB. | E |
+| three-dimensional lattice | 三維晶格 | | 慣 |
+| bonding continuum | 鍵合連續體 | | 待核實 (IB wording; not in E or C) |
+| Born–Haber cycle | 玻恩－哈伯循環 | Mentioned only as "not needed here". | E |
+| redox reaction | 氧化還原反應 | | E, C |
+| electrolysis | 電解 | | E, C |
+| hydronium ion (H3O+) | 水合氫離子 | | E |
+| polyatomic ions: sulfate, nitrate, carbonate, phosphate, hydrogencarbonate, hydroxide, ammonium | 硫酸根離子, 硝酸根離子, 碳酸根離子, 磷酸根離子, 碳酸氫根離子, 氫氧離子, 銨離子 | As the name of the oxyanion (section 9) the short form 硫酸根, 硝酸根 is used. | E, C |
+| nitrite / sulfite | 亞硝酸根 (離子) / 亞硫酸根 (離子) | | E |
+| dichromate ion | 重鉻酸根離子 | | E+ |
+| oxyanion names with an oxidation number: sulfate(VI), sulfate(IV), nitrate(V), nitrate(III), manganate(VII), dichromate(VI) | 硫(VI)酸根, 硫(IV)酸根, 硝(V)酸根, 硝(III)酸根, 錳(VII)酸根, 重鉻(VI)酸根 | The numeral follows the element it belongs to (HK school form, as in 錳(VII)酸鉀). Only where the English gives the number; plain "sulfate" stays 硫酸根. Not 硫酸根(VI). | E |
+| peroxide ion / peroxide | 過氧離子 / 過氧化物 | | E |
+| monatomic anions: fluoride, chloride, bromide, oxide, sulfide, nitride, phosphide | 氟離子, 氯離子, 溴離子, 氧離子, 硫離子, 氮離子, 磷離子 | | E |
+| electron dot structure | 電子點結構式 | Another name for a Lewis formula; mentioned once. | 慣 |
+| axial / equatorial (position) | 軸向 / 赤道 | Five-domain shapes. | 待核實 (not in E) |
+| bond axis | 鍵軸 | | E+ |
+| lateral (sideways) overlap | 側向重疊 | "End to end" = 頭對頭. | 慣 |
+| non-directional (bonding) | 無方向性 | | 慣 |
+| free to move (ions, electrons) | 可自由移動 | "Mobile ions" = 可流動的離子. | 慣 |
+| delocalized d-electrons | 離域的 d 電子 | | E+ |
+| band theory | 能帶理論 | Not needed for IB. | 待核實 (not in E) |
+| overcome (forces) | 克服 | | 慣 |
+| solid wedge / hashed (dashed) wedge | 實心楔形鍵 / 虛線楔形鍵 | Short forms 楔形鍵 / 虛線鍵 where the English says "wedge" / "dash" (section 10). 「畫成實心楔形」 is fine when the sentence says how a bond is drawn. | 慣 |
+| composite | 複合物料 | | 慣 |
+| macromolecule | 大分子 | | E |
+| backbone (of a polymer chain) | 主鏈 | In naming (section 10) the parent chain is 母鏈. | 慣 |
+| side group | 側基 | | 慣 |
+| continuation bonds (on a repeating unit) | 延伸鍵 | | 待核實 (no HK source) |
+| diol / dicarboxylic acid / diamine | 二醇 / 二羧酸 / 二胺 | | E+ |
+| ester link / amide link | 酯鍵 / 酰胺鍵 | | E+ |
+| amino acid | 氨基酸 | | E |
+| atom economy | 原子經濟 | | C |
+| silica | 矽石 | | E |
+| hydrazine / diazene / carbonyl sulfide / hydrogen cyanide | 肼 / 二氮烯 / 羰基硫 / 氰化氫 | Example molecules in Structure 2.2. | E (二氮烯, 羰基硫: 待核實) |
 
 ## 9. Structure 3.1: the periodic table
 
@@ -798,6 +887,17 @@ IB command terms. In a question stem give the Chinese, then the English in brack
 | d-orbital splitting | d 軌態分裂 | | E (splitting 分裂) |
 | paramagnetic / diamagnetic | 順磁性 / 抗磁性 | | E |
 | magnetic properties | 磁性 | | 慣 |
+| reactivity / reactive / unreactive | 活潑性 / 活潑 / 不活潑 | 較活潑的鹵素, 活潑性增加. Not 活性 (kept only in 紅外活性, 生物活性, 酶的活性部位). "Chemically inert" = 化學惰性. | E, C |
+| displacement reaction | 置換反應 | | E, C |
+| ionic equation | 離子方程式 | | E, C |
+| alkaline solution | 鹼性溶液 | | E |
+| metal hydride | 金屬氫化物 | | E+ |
+| first electron affinity | 第一電子親合勢 | | E+ |
+| partially filled d sublevel | 部分填充的 d 亞層 | | E+ |
+| Lewis acid–base reaction | 路易斯酸鹼反應 | | E+ |
+| carbonic acid / sulfurous acid | 碳酸 / 亞硫酸 | | E |
+| IR active | 紅外活性 | | 待核實 (not in E) |
+| global warming potential | 全球升溫潛能值 | | 待核實 (not in E or C) |
 | discontinuity | 不連續處 | See section 6. | 慣 |
 
 ## 10. Structure 3.2: organic compounds and spectroscopy
@@ -817,8 +917,8 @@ IB command terms. In a question stem give the Chinese, then the English in brack
 | condensed structural formula | 簡寫結構式 | CH3CH2OH. Mainland 結構簡式. | 待核實 (not in E or C) |
 | skeletal formula | 骨架式 | E has 骨架 only in 骨架異構 (skeletal isomerism). Mainland 鍵線式. | 待核實 (not in E or C) |
 | stereochemical formula | 立體化學式 | Wedge-and-dash drawing. | E |
-| wedge / dash bond | 楔形鍵 / 虛線鍵 | | 慣 |
-| 3-D structure | 立體結構 | | C (立體圖, 立體影像) |
+| wedge / dash bond | 楔形鍵 / 虛線鍵 | "Solid wedge" / "hashed wedge" = 實心楔形鍵 / 虛線楔形鍵 (section 8). | 慣 |
+| 3-D structure | 3D 立體結構 | 3D 立體排列, 3D 立體模型. | C (立體圖, 立體影像) |
 | molecular model | 分子模型 | | C |
 | alkane | 烷烴 | E: 烷，烷烴. | E, C |
 | alkene | 烯烴 | | E, C |
@@ -856,7 +956,7 @@ IB command terms. In a question stem give the Chinese, then the English in brack
 | prefix / suffix | 前綴 / 後綴 | | 慣 |
 | stem (meth-, eth-, prop-, but-, pent-, hex-) | 詞幹 (甲、乙、丙、丁、戊、己) | | 慣 |
 | locant (position number) | 位置編號 | | 慣 |
-| isomer | 同分異構體 | E: <同分>異構體. Avoid 異構物 (TW). | E, C |
+| isomer | 同分異構體 | E: <同分>異構體. Avoid 異構物 (TW). Use the full word at the definition and in headings (同分異構體：快速小測); short labels and later mentions may say 異構體 (這個異構體, 異構體建構工具). | E, C |
 | structural isomer | 結構異構體 | | E, C |
 | chain isomer | 鏈異構體 | | E |
 | positional isomer | 位置異構體 | | E |
@@ -864,7 +964,7 @@ IB command terms. In a question stem give the Chinese, then the English in brack
 | stereoisomer | 立體異構體 | | E |
 | configurational isomer | 構型異構體 | | 待核實 (not in E) |
 | conformational isomer | 構象異構體 | E: conformation 構象. | E+ |
-| cis–trans isomers | 順反異構體 | C says 幾何異構 for the same idea. cis = 順, trans = 反. | E |
+| cis–trans isomers | 順反異構體 | C says 幾何異構 for the same idea. cis = 順, trans = 反. On the HL page the English writes *cis*–*trans* in italics and the tag lint needs the same tags, so running text there reads 「*cis*–*trans* 異構體」 with （順反） at the first mention; titles without the italics use 順反異構. The two isomers are 順式異構體 (cis isomer) and 反式異構體 (trans isomer), then 「*cis* 異構體」/「*trans* 異構體」. | E |
 | optical isomer | 旋光異構體 | Avoid 光學異構物 (TW). | E |
 | enantiomer | 對映異構體 | | E, C |
 | diastereomer | 非對映異構體 | | E |
@@ -906,6 +1006,21 @@ IB command terms. In a question stem give the Chinese, then the English in brack
 | degree of unsaturation (index of hydrogen deficiency, IHD) | 不飽和度 (缺氫指數, IHD) | 不飽和度 is in E; 缺氫指數 is not. | E (缺氫指數: 待核實) |
 | X-ray crystallography | X 射線結晶學 | | E |
 | combustion data | 燃燒數據 | | 慣 |
+| wedge–dash notation | 楔形－虛線表示法 | | 待核實 (not in E) |
+| Newman projection / Fischer projection | 紐曼投影式 / 費歇爾投影式 | Mentioned only as "not needed". | 待核實 (not in E) |
+| connectivity | 連接方式 | | 慣 |
+| ending (of a name) | 詞尾 | -ide, -ate, -ite. | 慣 |
+| restricted rotation | 旋轉受限制 | | 慣 |
+| optically active / optically inactive | 具旋光性 / 沒有旋光性 | | E |
+| polarizer / analyser | 起偏器 / 檢偏器 | | P |
+| equivalent (hydrogen atoms) | 等價 | 等價氫原子. | 慣 |
+| nitrile / acyl chloride / acid anhydride / thiol / phenol | 腈 / 酰氯 / 酸酐 / 硫醇 / 酚 | Not IB classes; named only to say so. | E |
+| chloroalkane, bromoalkane, iodoalkane, fluoroalkane | 氯烷, 溴烷, 碘烷, 氟烷 | Data booklet rows. | E+ |
+| aspirin / paracetamol | 阿士匹靈 / 撲熱息痛 | HK names. | C (阿士匹靈), 慣 |
+| IUPAC (International Union of Pure and Applied Chemistry) | 國際純粹與應用化學聯合會 (IUPAC) | Keep "IUPAC". | E |
+| absorption band (IR) | 吸收帶 | | E |
+| strong / medium / weak; broad / very broad (IR) | 強 / 中 / 弱；寬 / 很寬 | Give the booklet's English after it in tables: 強、寬 (strong, broad). | 慣 |
+| coupling constant | 耦合常數 | Not needed for IB. | 待核實 (not in E) |
 
 ## 11. Laboratory apparatus and techniques
 
@@ -1145,6 +1260,14 @@ chemistry teacher or a current HKDSE or IB Chinese textbook should confirm it.
 | fragment (mass spectrum) | 碎片 | E prints 碎塊. |
 | index of hydrogen deficiency | 缺氫指數 | Not in E (不飽和度 is). |
 | linking question, guiding question | 連繫問題, 引導問題 | No official Chinese IB chemistry guide found. |
+| first-row transition elements | 第一行過渡元素 | Not in E or C in this form. 行 is the HK word for a row; textbooks also say 第一系列過渡元素. |
+| error carried forward | 承前錯誤 | No official Chinese IB wording. |
+| bonding continuum, continuation bonds | 鍵合連續體, 延伸鍵 | IB or site wording; no HK source. |
+| axial / equatorial | 軸向 / 赤道 | Not in E. |
+| wedge–dash notation, Newman / Fischer projection | 楔形－虛線表示法, 紐曼投影式 / 費歇爾投影式 | Not in E. |
+| IR active, global warming potential, coupling constant | 紅外活性, 全球升溫潛能值, 耦合常數 | Not in E or C. |
+| locating agent, band theory, Beer–Lambert law, Graham's law of effusion | 顯色劑, 能帶理論, 比爾－朗伯定律, 格雷姆瀉流定律 | Outside the HK syllabus; forms not checked in E. |
+| diazene, carbonyl sulfide | 二氮烯, 羰基硫 | Systematic renderings; not checked in E. |
 | elements 110 to 118 | 鐽 錀 鎶 鉨 鈇 鏌 鉝 and the two rare characters for Ts and Og | Named after the 2007 glossary. No HK official list found. |
 
 Also not verifiable: everything marked **慣** was not checked against a printed Hong Kong textbook

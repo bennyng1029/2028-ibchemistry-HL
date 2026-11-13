@@ -567,7 +567,7 @@ S1.i18n.register('zh-Hant', 's3-2', {
     "Alkanes are saturated. Alkenes and alkynes are unsaturated. The words describe the carbon–carbon bonds only: ethanol and propanone are both saturated.": "烷烴是飽和的。烯烴和炔烴是不飽和的。這兩個詞只描述碳和碳之間的鍵：ethanol（乙醇）和 propanone（丙酮）都是飽和的。",
 
     // Functional groups and classes of compounds > widget > data-title attribute
-    "Functional group spotter": "官能基辨認器",
+    "Functional group spotter": "官能基辨認工具",
 
     // Functional groups and classes of compounds > widget > figcaption
     "Molecules 1 to 10 have one functional group: name the group, then the class. Molecules 11 to 19 have two or three groups, as in paracetamol (18) and aspirin (19): find and name each group.": "第 1 至 10 個分子各有一個官能基：先說出基團的名稱，再說出類別。第 11 至 19 個分子有兩個或三個基團，例如撲熱息痛 (paracetamol)（第 18 個）和阿士匹靈 (aspirin)（第 19 個）：找出每一個基團並說出名稱。",
@@ -821,7 +821,7 @@ S1.i18n.register('zh-Hant', 's3-2', {
     "Methane is the gas in a kitchen stove. Octane is a liquid in petrol. Candle wax is a mixture of solid alkanes with more than 20 carbon atoms. They are all alkanes. The only thing that changes is the length of the chain.": "Methane（甲烷）是煮食爐用的氣體。Octane（辛烷）是汽油中的一種液體。蠟燭的蠟是固體烷烴的混合物，這些烷烴有超過 20 個碳原子。它們全都是烷烴，唯一改變的是碳鏈的長度。",
 
     // Trends in boiling point and melting point > p
-    "Along a homologous series, the boiling point rises as the carbon chain gets longer. Melting points rise too.": "在同一個同系列中，碳鏈愈長，沸點愈高。熔點也會上升。",
+    "Along a homologous series, the boiling point rises as the carbon chain gets longer. Melting points rise too.": "在同一個同系列中，碳鏈越長，沸點越高。熔點也會上升。",
 
     // Trends in boiling point and melting point > widget > data-title attribute
     "Boiling points along a homologous series": "同系列的沸點變化",
@@ -836,13 +836,13 @@ S1.i18n.register('zh-Hant', 's3-2', {
     "When a liquid boils, its molecules move apart. The covalent bonds <em>inside</em> each molecule do not break. Only the weak forces <em>between</em> the molecules are overcome. These are the intermolecular forces from Structure 2.2.": "液體沸騰時，分子互相分開。每個分子<em>內部</em>的共價鍵並沒有斷裂，只是克服了分子<em>之間</em>較弱的作用力。這些就是 Structure 2.2 學過的分子間引力。",
 
     // Trends in boiling point and melting point > p
-    "Every molecule attracts its neighbours by <dfn>London (dispersion) forces</dfn>. A longer chain has more electrons, and a larger surface that touches its neighbours. So the London forces are stronger. More energy is needed to separate the molecules, and the boiling point is higher.": "每個分子都靠<dfn>倫敦（色散）力 <span class=\"en-term\">(London (dispersion) forces)</span></dfn>吸引相鄰的分子。碳鏈愈長，電子愈多，和相鄰分子接觸的表面也愈大，所以倫敦力愈強。分開分子需要更多能量，沸點就愈高。",
+    "Every molecule attracts its neighbours by <dfn>London (dispersion) forces</dfn>. A longer chain has more electrons, and a larger surface that touches its neighbours. So the London forces are stronger. More energy is needed to separate the molecules, and the boiling point is higher.": "每個分子都靠<dfn>倫敦（色散）力 <span class=\"en-term\">(London (dispersion) forces)</span></dfn>吸引相鄰的分子。碳鏈越長，電子越多，和相鄰分子接觸的表面也越大，所以倫敦力越強。分開分子需要更多能量，沸點就越高。",
 
     // Trends in boiling point and melting point > p
     "The functional group is the same in every member, so the forces it causes stay about the same. The part that grows is the carbon chain.": "每個成員的官能基都一樣，所以官能基所引起的作用力大致不變。增長的部分是碳鏈。",
 
     // Trends in boiling point and melting point > exam tip (shown in English + translation) > p
-    "Two points earn the marks. First, name the force: London (dispersion) forces. Second, say why they are stronger: more electrons, or greater molar mass, or a larger surface area, as the chain gets longer. “Stronger bonds” without naming the force earns nothing.": "有兩點可以得分。第一，寫出作用力的名稱：London (dispersion) forces（倫敦（色散）力）。第二，說明它們為甚麼較強：碳鏈愈長，電子愈多 (more electrons)，或摩爾質量愈大 (greater molar mass)，或表面積愈大 (larger surface area)。只寫「stronger bonds」（鍵較強）而沒有寫出作用力的名稱，不會得分。",
+    "Two points earn the marks. First, name the force: London (dispersion) forces. Second, say why they are stronger: more electrons, or greater molar mass, or a larger surface area, as the chain gets longer. “Stronger bonds” without naming the force earns nothing.": "有兩點可以得分。第一，寫出作用力的名稱：London (dispersion) forces（倫敦（色散）力）。第二，說明它們為甚麼較強：碳鏈越長，電子越多 (more electrons)，或摩爾質量越大 (greater molar mass)，或表面積越大 (larger surface area)。只寫「stronger bonds」（鍵較強）而沒有寫出作用力的名稱，不會得分。",
 
     // Trends in boiling point and melting point > common mistake > p
     "Do not write that the covalent bonds in a larger molecule are harder to break. Boiling does not break covalent bonds. Ethane gas is still made of <span class=\"chem\">C2H6</span> molecules.": "不要寫「較大分子的共價鍵較難斷裂」。沸騰不會令共價鍵斷裂。Ethane（乙烷）氣體仍然由 <span class=\"chem\">C2H6</span> 分子組成。",
@@ -854,7 +854,7 @@ S1.i18n.register('zh-Hant', 's3-2', {
     "Melting points also rise overall along a series, for the same reason. The rise is less regular, because melting also depends on how well the molecules pack together in the solid. Choose “Melting point (alkanes)” in the graph above to see this.": "基於同一個原因，同系列的熔點整體上也會上升。但上升得沒有那麼有規律，因為熔化還取決於分子在固體中堆積得有多緊密。在上面的圖表選「熔點（烷烴）」就可以看到。",
 
     // Trends in boiling point and melting point > h3
-    "Different functional groups, similar size": "官能基不同，大小相若",
+    "Different functional groups, similar size": "官能基不同，大小相近",
 
     // Trends in boiling point and melting point > p
     "You can only compare chain length fairly inside one series. Between series, the functional group matters more. The table compares molecules of nearly the same molar mass.": "只有在同一個同系列之內，才可以公平地比較碳鏈長度的影響。在不同同系列之間，官能基的影響更大。下表比較摩爾質量相近的分子。",
@@ -970,7 +970,7 @@ S1.i18n.register('zh-Hant', 's3-2', {
     "Each member has one more <span class=\"chem\">CH2</span> than the one before.": "每個成員都比前一個多一個 <span class=\"chem\">CH2</span>。",
 
     // Trends in boiling point and melting point > worked example > p
-    "From methanol to propan-1-ol the molecules have more electrons (a greater molar mass and a larger surface area).": "由 methanol 到 propan-1-ol，分子的電子愈來愈多（摩爾質量愈大，表面積也愈大）。",
+    "From methanol to propan-1-ol the molecules have more electrons (a greater molar mass and a larger surface area).": "由 methanol 到 propan-1-ol，分子的電子越來越多（摩爾質量越大，表面積也越大）。",
 
     // Trends in boiling point and melting point > worked example > data-title attribute
     "Name the force and finish the argument": "寫出作用力的名稱，完成論證",
@@ -982,7 +982,7 @@ S1.i18n.register('zh-Hant', 's3-2', {
     "So the London (dispersion) forces between the molecules become stronger. More energy is needed to separate the molecules, so the boiling point increases.": "所以分子之間的倫敦（色散）力變得更強。分開分子需要更多能量，所以沸點上升。",
 
     // Trends in boiling point and melting point > worked example > p
-    "London (dispersion) forces become stronger [1] because the molecules have more electrons / greater molar mass / larger surface area as the chain length increases [1].": "倫敦（色散）力變得更強 [1]，因為碳鏈愈長，分子的電子愈多／摩爾質量愈大／表面積愈大 [1]。",
+    "London (dispersion) forces become stronger [1] because the molecules have more electrons / greater molar mass / larger surface area as the chain length increases [1].": "倫敦（色散）力變得更強 [1]，因為碳鏈越長，分子的電子越多／摩爾質量越大／表面積越大 [1]。",
 
     // Trends in boiling point and melting point > try it > data-title attribute
     "Try it: predict": "試一試：預測",
@@ -1452,7 +1452,7 @@ S1.i18n.register('zh-Hant', 's3-2', {
     "<span class=\"chem\">CH3CH(OH)CH(CH3)CH3</span>": "<span class=\"chem\">CH3CH(OH)CH(CH3)CH3</span>",
 
     // IUPAC names > widget > data-title attribute
-    "IUPAC naming trainer": "IUPAC 命名訓練器",
+    "IUPAC naming trainer": "IUPAC 命名練習工具",
 
     // IUPAC names > widget > figcaption
     "Level 1 has straight chains. Level 2 adds a branch and position numbers. Level 3 has several attached groups, or a C=C together with a functional group. Every molecule is inside the naming limits of the guide.": "第 1 級是直鏈。第 2 級加入一個支鏈和位置編號。第 3 級有幾個所連的基團，或同時有 C=C 和一個官能基。每個分子都在學科指南的命名範圍之內。",
@@ -1665,10 +1665,10 @@ S1.i18n.register('zh-Hant', 's3-2', {
     "7 structural isomers: 4 alcohols and 3 ethers.": "7 個結構異構體：4 種醇和 3 種醚。",
 
     // Structural isomers > widget > data-title attribute
-    "Isomer builder": "異構體砌圖器",
+    "Isomer builder": "異構體建構工具",
 
     // Structural isomers > widget > figcaption
-    "Start with <span class=\"chem\">C4H10</span>, then try the others. The builder draws open chains only. Names of ethers, esters and amines are shown for interest: you are not asked to name those classes.": "由 <span class=\"chem\">C4H10</span> 開始，然後試試其他分子式。砌圖器只畫開鏈結構。醚、酯和胺的名稱只供參考：考試不會要求你為這些類別命名。",
+    "Start with <span class=\"chem\">C4H10</span>, then try the others. The builder draws open chains only. Names of ethers, esters and amines are shown for interest: you are not asked to name those classes.": "由 <span class=\"chem\">C4H10</span> 開始，然後試試其他分子式。建構工具只畫開鏈結構。醚、酯和胺的名稱只供參考：考試不會要求你為這些類別命名。",
 
     // Structural isomers > try it > data-label attribute
     "Number of isomers": "異構體的數目",
@@ -1704,7 +1704,7 @@ S1.i18n.register('zh-Hant', 's3-2', {
     "Rings can also be isomers of open-chain compounds. For example, cyclobutane has the same formula as the butenes, <span class=\"chem\">C4H8</span>. You may see such answers accepted, but you are not asked to name ring compounds here. Isomers that differ only in their 3-D arrangement (stereoisomers) are Additional HL.": "環狀化合物也可以是開鏈化合物的異構體。例如 cyclobutane（環丁烷）的化學式和各種 butene（丁烯）相同，都是 <span class=\"chem\">C4H8</span>。你可能見到這類答案獲得接受，但這裏不會要求你為環狀化合物命名。只在 3D 立體排列上不同的異構體（立體異構體）屬於 HL 附加內容。",
 
     // Structural isomers > data-title attribute
-    "Isomers: quick check": "異構體：快速小測",
+    "Isomers: quick check": "同分異構體：快速小測",
 
     // Primary, secondary and tertiary > data-toc attribute
     "Primary, secondary, tertiary": "一級、二級、三級",
@@ -1863,7 +1863,7 @@ S1.i18n.register('zh-Hant', 's3-2', {
     "How do chain length, branching and the functional group affect intermolecular forces?": "碳鏈長度、支鏈和官能基怎樣影響分子間引力？",
 
     // Linking it up > p
-    "A longer chain has more electrons and a larger surface, so London (dispersion) forces are stronger. Branching makes a molecule more compact, so less of its surface touches its neighbours and the London forces are weaker. A polar functional group such as C=O adds dipole–dipole forces. A group with O–H or N–H allows hydrogen bonding. Stronger forces between molecules mean a higher boiling point.": "碳鏈愈長，電子愈多，表面也愈大，所以倫敦（色散）力愈強。支鏈令分子更緊湊，和相鄰分子接觸的表面較少，所以倫敦力較弱。C=O 這類極性官能基會增添偶極－偶極引力。有 O–H 或 N–H 的基團可以形成氫鍵。分子之間的作用力愈強，沸點愈高。",
+    "A longer chain has more electrons and a larger surface, so London (dispersion) forces are stronger. Branching makes a molecule more compact, so less of its surface touches its neighbours and the London forces are weaker. A polar functional group such as C=O adds dipole–dipole forces. A group with O–H or N–H allows hydrogen bonding. Stronger forces between molecules mean a higher boiling point.": "碳鏈越長，電子越多，表面也越大，所以倫敦（色散）力越強。支鏈令分子更緊湊，和相鄰分子接觸的表面較少，所以倫敦力較弱。C=O 這類極性官能基會增添偶極－偶極引力。有 O–H 或 N–H 的基團可以形成氫鍵。分子之間的作用力越強，沸點越高。",
 
     // Linking it up > h3
     "How can functional groups be used to plan a route from one compound to another?": "怎樣利用官能基，設計由一種化合物到另一種化合物的路線？",
@@ -2217,7 +2217,7 @@ S1.i18n.register('zh-Hant', 's3-2', {
     "Melting point / °C": "熔點 / °C",
 
     // widget string (assets/js/widgets-s3-2.js)
-    "Melting points also rise overall as the chain gets longer, but not smoothly. Melting also depends on how well the molecules pack together in the solid, so small molecules do not follow a neat line.": "碳鏈愈長，熔點整體上也會上升，但升得並不平順。熔化還取決於分子在固體中堆積得有多緊密，所以小分子不會整齊地排成一條線。",
+    "Melting points also rise overall as the chain gets longer, but not smoothly. Melting also depends on how well the molecules pack together in the solid, so small molecules do not follow a neat line.": "碳鏈越長，熔點整體上也會上升，但升得並不平順。熔化還取決於分子在固體中堆積得有多緊密，所以小分子不會整齊地排成一條線。",
 
     // widget string (assets/js/widgets-s3-2.js)
     "Your predicted boiling point in °C": "你預測的沸點（°C）",
@@ -2238,7 +2238,7 @@ S1.i18n.register('zh-Hant', 's3-2', {
     "The trend is regular enough to predict from: that is the point of a homologous series.": "這個趨勢夠有規律，可以用來預測：這正是同系列的意義。",
 
     // widget string (assets/js/widgets-s3-2.js)
-    "Look at the rise for each extra CH₂ in the readout and add a similar step to the last value.": "看看讀數中每多一個 CH₂ 的升幅，在最後一個數值上加上相若的一步。",
+    "Look at the rise for each extra CH₂ in the readout and add a similar step to the last value.": "看看讀數中每多一個 CH₂ 的升幅，在最後一個數值上加上相近的一步。",
 
     // widget string (assets/js/widgets-s3-2.js)
     "Hide the last member again": "再次隱藏最後一個成員",

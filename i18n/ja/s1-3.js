@@ -749,7 +749,7 @@ S1.i18n.register('ja', 's1-3', {
     "S<sup>2−</sup>: 16 + 2 = 18 electrons → <b>1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></b>": "S<sup>2−</sup>：16 + 2 = 電子 18 個 → <b>1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></b>",
 
     // Writing electron configurations > worked example > data-title attribute
-    "Check against a noble gas": "貴ガスと比べて確かめる",
+    "Check against a noble gas": "貴ガスとくらべて確かめる",
 
     // Writing electron configurations > worked example > data-label attribute
     // Writing electron configurations > worked example > Additional HL > data-label attribute
@@ -1071,7 +1071,7 @@ S1.i18n.register('ja', 's1-3', {
     "How hard is it to pull the outermost electron off an atom? It depends on how strongly the nucleus attracts that electron. Three things decide that.": "原子からいちばん外側の電子を引き離すのは、どれくらい大変でしょうか。それは、原子核がその電子をどれくらい強く引きつけているかで決まります。これを決める要因は 3 つあります。",
 
     // Trends in first ionization energy > Additional HL > li
-    "<b>Nuclear charge.</b> More protons means a stronger pull.": "<b>核電荷 (nuclear charge)。</b>原子核の正電荷のことです。陽子が多いほど、引きつける力は強くなります。",
+    "<b>Nuclear charge.</b> More protons means a stronger pull.": "<b>核電荷 (nuclear charge)。</b>陽子が多いほど、引きつける力は強くなります。",
 
     // Trends in first ionization energy > Additional HL > li
     "<b>Distance.</b> An electron in a higher main energy level is further from the nucleus, so the pull is weaker.": "<b>距離。</b>高い主エネルギー準位にある電子ほど原子核から遠いので、引きつける力は弱くなります。",
@@ -1086,7 +1086,7 @@ S1.i18n.register('ja', 's1-3', {
     "First ionization energy, hydrogen to krypton": "第一イオン化エネルギー：水素からクリプトンまで",
 
     // Trends in first ionization energy > widget > Additional HL > figcaption
-    "Tap a point or move the slider. The readout compares each element with the one before it (the trend across a period) and the one above it (the trend down a group). Values are from the data booklet.": "点をタップするか、スライダーを動かしましょう。表示欄では、それぞれの元素を、1 つ前の元素（周期を左から右への傾向）と、1 つ上の元素（族を上から下への傾向）と比べます。値はデータブックレットのものです。",
+    "Tap a point or move the slider. The readout compares each element with the one before it (the trend across a period) and the one above it (the trend down a group). Values are from the data booklet.": "点をタップするか、スライダーを動かしましょう。表示欄では、それぞれの元素を、1 つ前の元素（周期を左から右への傾向）と、1 つ上の元素（族を上から下への傾向）とくらべます。値はデータブックレットのものです。",
 
     // Trends in first ionization energy > Additional HL > h3
     "Across a period: a general increase": "周期を左から右へ：全体として増加",
@@ -1279,7 +1279,7 @@ S1.i18n.register('ja', 's1-3', {
     "The first six successive ionization energies of a period 3 element X, in kJ mol<sup>−1</sup>, are: <span class=\"mono\">738, 1451, 7733, 10 543, 13 630, 18 020</span>. Deduce the group of X, identify X, and state its electron configuration.": "第 3 周期の元素 X の、最初の 6 つの逐次イオン化エネルギーは、kJ mol<sup>−1</sup> の単位で <span class=\"mono\">738, 1451, 7733, 10 543, 13 630, 18 020</span> です。X の族を導き (deduce)、X を特定し (identify)、その電子配置を述べなさい (state)。",
 
     // Successive ionization energies > worked example > Additional HL > data-title attribute
-    "Compare each value with the one before": "それぞれの値を 1 つ前の値と比べる",
+    "Compare each value with the one before": "それぞれの値を 1 つ前の値とくらべる",
 
     // Successive ionization energies > worked example > Additional HL > p
     "You are looking for one step that is much bigger than the others. Divide each value by the previous one.": "ほかよりずっと大きい段階を 1 つ探します。それぞれの値を、1 つ前の値で割ります。",
@@ -1408,7 +1408,7 @@ S1.i18n.register('ja', 's1-3', {
     "yellow": "黄",
 
     // widget string (assets/js/widgets-s1-3.js)
-    "orange": "オレンジ",
+    "orange": "橙",
 
     // widget string (assets/js/widgets-s1-3.js)
     "red": "赤",
@@ -1423,7 +1423,7 @@ S1.i18n.register('ja', 's1-3', {
     "Colour": "色",
 
     // widget string (assets/js/widgets-s1-3.js)
-    "Compared with red light (700 nm)": "赤い光（700 nm）と比べると",
+    "Compared with red light (700 nm)": "赤い光（700 nm）とくらべると",
 
     // widget string (assets/js/widgets-s1-3.js)
     "Hydrogen at this wavelength": "この波長での水素",
@@ -1804,10 +1804,10 @@ S1.i18n.register('ja', 's1-3', {
     "Electron removed from": "電子が取り除かれる場所",
 
     // widget string (assets/js/widgets-s1-3.js)
-    "Compared with the element before it": "1 つ前の元素と比べると",
+    "Compared with the element before it": "1 つ前の元素とくらべると",
 
     // widget string (assets/js/widgets-s1-3.js)
-    "Compared with the element above it": "1 つ上の元素と比べると",
+    "Compared with the element above it": "1 つ上の元素とくらべると",
 
     // widget string (assets/js/widgets-s1-3.js)
     "Graph of first ionization energy against atomic number for hydrogen to krypton. The values rise across each period with small dips after groups 2 and 15, peak at each noble gas, then drop sharply at the start of the next period.": "水素からクリプトンまでの、原子番号に対する第一イオン化エネルギーのグラフ。値は各周期で左から右へ大きくなるが、2 族と 15 族のあとで少し下がる。貴ガスで最大になり、次の周期のはじめで急に下がる。",

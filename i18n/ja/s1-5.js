@@ -36,7 +36,7 @@ S1.i18n.register('ja', 's1-5', {
     "Describe and sketch how pressure, volume and temperature are related for a fixed mass of gas, and analyse graphs of these variables.": "一定量の気体について、圧力・体積・温度の関係を記述し、グラフの概形を描く。また、これらの変数のグラフを分析する。",
 
     // What you need to be able to do > checklist > span
-    "Use the combined gas law when the conditions of a gas change.": "気体の条件が変わるときに、ボイル・シャルルの法則（combined gas law）を使う。",
+    "Use the combined gas law when the conditions of a gas change.": "気体の条件が変わるときに、ボイル・シャルルの法則 (combined gas law)を使う。",
 
     // What you need to be able to do > checklist > span
     "Solve problems with <i>PV</i> = <i>nRT</i>, using consistent units.": "単位をそろえて、<i>PV</i> = <i>nRT</i> を使う問題を解く。",
@@ -63,16 +63,16 @@ S1.i18n.register('ja', 's1-5', {
     "The model makes four assumptions. Learn these four.": "このモデルには 4 つの仮定があります。この 4 つを覚えましょう。",
 
     // The ideal gas model > li
-    "The gas consists of <strong>moving particles</strong>.": "気体は<strong>動いている粒子</strong>（moving particles）でできています。",
+    "The gas consists of <strong>moving particles</strong>.": "気体は<strong>動いている粒子</strong> (moving particles)でできています。",
 
     // The ideal gas model > li
-    "The particles have <strong>negligible volume</strong>. The particles themselves take up almost none of the space in the container.": "粒子の<strong>体積は無視できるほど小さい</strong>（negligible volume）。粒子そのものは、容器の中の空間をほとんど占めていません。",
+    "The particles have <strong>negligible volume</strong>. The particles themselves take up almost none of the space in the container.": "粒子の<strong>体積は無視できるほど小さい</strong> (negligible volume)。粒子そのものは、容器の中の空間をほとんど占めていません。",
 
     // The ideal gas model > li
-    "There are <strong>no intermolecular forces</strong>. The particles do not attract or repel each other.": "<strong>分子間力がはたらかない</strong>（no intermolecular forces）。粒子どうしは、引き合うことも反発することもありません。",
+    "There are <strong>no intermolecular forces</strong>. The particles do not attract or repel each other.": "<strong>分子間力がはたらかない</strong> (no intermolecular forces)。粒子どうしは、引き合うことも反発することもありません。",
 
     // The ideal gas model > li
-    "All collisions between particles are <strong>elastic</strong>.": "粒子どうしの衝突は、すべて<strong>弾性衝突</strong>（elastic collisions）です。",
+    "All collisions between particles are <strong>elastic</strong>.": "粒子どうしの衝突は、すべて<strong>弾性衝突</strong> (elastic collisions)です。",
 
     // The ideal gas model > p
     "An <dfn data-def=\"A collision in which the total kinetic energy of the particles is the same before and after.\">elastic collision</dfn> is one where no kinetic energy is lost overall. The particles bounce apart with the same total kinetic energy they had before.": "<dfn data-def=\"衝突の前と後で、粒子の運動エネルギーの合計が変わらない衝突です。\">弾性衝突 <span class=\"en-term\">(elastic collision)</span></dfn>とは、全体として運動エネルギーが失われない衝突です。粒子は、衝突の前と同じ合計の運動エネルギーをもって、はね返ります。",
@@ -93,7 +93,7 @@ S1.i18n.register('ja', 's1-5', {
     "If you are asked to state assumptions, use the exact phrases: <em>negligible volume</em> (of the particles), <em>no intermolecular forces</em>, <em>elastic collisions</em>. Writing “the gas has no volume” loses the mark. The gas fills its container. It is the particles whose volume is negligible.": "仮定を述べる問題では、上の英語の語句をそのまま使いましょう。<em>無視できるほど小さい体積</em>（粒子の体積）、<em>分子間力がはたらかない</em>、<em>弾性衝突</em>の 3 つです。「気体に体積がない」と書くと、点を失います。気体は容器いっぱいに広がります。無視できるほど小さいのは、粒子の体積です。",
 
     // The ideal gas model > not needed for IB > p
-    "Textbooks often list more assumptions and go on to derive gas pressure from particle speeds. The four statements above are what the IB guide lists. You do not need the kinetic energy equation (<span class=\"mono\">E = 3/2 RT</span>), root-mean-square speeds or any derivation.": "教科書には、もっと多くの仮定をあげて、粒子の速さから気体の圧力を導くものがよくあります。IB の『指導の手引き』（subject guide）にあるのは、上の 4 つです。運動エネルギーの式（<span class=\"mono\">E = 3/2 RT</span>）、二乗平均速度、式の導出は、どれも必要ありません。",
+    "Textbooks often list more assumptions and go on to derive gas pressure from particle speeds. The four statements above are what the IB guide lists. You do not need the kinetic energy equation (<span class=\"mono\">E = 3/2 RT</span>), root-mean-square speeds or any derivation.": "教科書には、もっと多くの仮定をあげて、粒子の速さから気体の圧力を導くものがよくあります。IB の『指導の手引き』 (subject guide)にあるのは、上の 4 つです。運動エネルギーの式（<span class=\"mono\">E = 3/2 RT</span>）、二乗平均速度、式の導出は、どれも必要ありません。",
 
     // The ideal gas model > data-title attribute
     "Ideal gas model: quick check": "理想気体モデル：確認クイズ",
@@ -126,7 +126,7 @@ S1.i18n.register('ja', 's1-5', {
     "At low temperature the particles have less kinetic energy and move more slowly. Slow particles are affected more by the attractions between them, so the intermolecular forces are no longer negligible. Cool a real gas far enough and those forces pull the particles together into a liquid.": "低温では、粒子の運動エネルギーが小さく、動きが遅くなります。遅い粒子ほど、粒子どうしの引力の影響を強く受けます。そのため、分子間力はもう無視できません。実在気体を十分に冷やすと、この力で粒子が引き寄せられて、液体になります。",
 
     // Real gases and the limits of the model > key idea > p
-    "Real gases deviate most from ideal behaviour at <strong>low temperature and high pressure</strong>. They behave most like an ideal gas at <strong>high temperature and low pressure</strong>.": "実在気体が理想気体のふるまいから最も大きくずれる（deviate）のは、<strong>低温・高圧</strong>のときです。理想気体に最も近いふるまいをするのは、<strong>高温・低圧</strong>のときです。",
+    "Real gases deviate most from ideal behaviour at <strong>low temperature and high pressure</strong>. They behave most like an ideal gas at <strong>high temperature and low pressure</strong>.": "実在気体が理想気体のふるまいから最も大きくずれる (deviate)のは、<strong>低温・高圧</strong>のときです。理想気体に最も近いふるまいをするのは、<strong>高温・低圧</strong>のときです。",
 
     // Real gases and the limits of the model > widget > data-title attribute
     "Real versus ideal: when does the model break down?": "実在気体と理想気体：モデルが合わなくなるのはいつ？",
@@ -168,7 +168,7 @@ S1.i18n.register('ja', 's1-5', {
     "Picture a box a little under 30 cm along each side, about the space taken up by four footballs. At 0 °C and 100 kPa, that box holds one mole of gas. It does not matter which gas.": "1 辺が 30 cm 弱の箱を思い浮かべてください。サッカーボール 4 個分くらいの大きさです。0 °C、100 kPa では、この箱に 1 mol の気体が入ります。気体の種類は関係ありません。",
 
     // Molar volume of an ideal gas > p
-    "This follows from Avogadro’s law, which you met in Structure 1.4: equal volumes of gases at the same temperature and pressure contain equal numbers of molecules. Turn it around: equal numbers of molecules occupy equal volumes.": "これは、Structure 1.4 で学んだアボガドロの法則（Avogadro’s law）から導かれます。同じ温度・同じ圧力のとき、同じ体積の気体は同じ数の分子をふくみます。逆に言えば、同じ数の分子は同じ体積を占めます。",
+    "This follows from Avogadro’s law, which you met in Structure 1.4: equal volumes of gases at the same temperature and pressure contain equal numbers of molecules. Turn it around: equal numbers of molecules occupy equal volumes.": "これは、Structure 1.4 で学んだアボガドロの法則 (Avogadro’s law)から導かれます。同じ温度・同じ圧力のとき、同じ体積の気体は同じ数の分子を含みます。逆に言えば、同じ数の分子は同じ体積を占めます。",
 
     // Molar volume of an ideal gas > p
     "The <dfn data-def=\"The volume occupied by one mole of an ideal gas. It is a constant at a specific temperature and pressure.\">molar volume</dfn>, <i>V</i><sub>m</sub>, is the volume of one mole of an ideal gas. It is a constant at a specific temperature and pressure.": "<dfn data-def=\"理想気体 1 mol が占める体積です。温度と圧力が決まれば、一定の値になります。\">モル体積 <span class=\"en-term\">(molar volume)</span></dfn> <i>V</i><sub>m</sub> は、理想気体 1 mol の体積です。温度と圧力が決まれば、一定の値になります。",
@@ -232,7 +232,7 @@ S1.i18n.register('ja', 's1-5', {
     "A sample of nitrogen gas occupies 568 cm<sup>3</sup> at STP. Calculate the amount of nitrogen, in mol.": "窒素の気体の試料が、STP で 568 cm<sup>3</sup> を占めています。窒素の物質量を mol で計算しなさい (calculate)。",
 
     // Molar volume of an ideal gas > worked example > data-title attribute
-    "Convert the volume to dm³": "体積を dm³ に換算する",
+    "Convert the volume to dm³": "体積を dm³ に直す",
 
     // Molar volume of an ideal gas > worked example > p
     "The molar volume is in dm<sup>3</sup> mol<sup>−1</sup>, so the volume must be in dm<sup>3</sup> too. There are 1000 cm<sup>3</sup> in 1 dm<sup>3</sup>.": "モル体積の単位は dm<sup>3</sup> mol<sup>−1</sup> なので、体積も dm<sup>3</sup> にします。1 dm<sup>3</sup> は 1000 cm<sup>3</sup> です。",
@@ -354,7 +354,7 @@ S1.i18n.register('ja', 's1-5', {
     "Pressure and temperature (volume constant)": "圧力と温度（体積が一定）",
 
     // How pressure, volume and temperature are related > p
-    "Heat a gas in a rigid container. The particles move faster, so they hit the walls harder and more often. The pressure increases.": "変形しないかたい容器で、気体を加熱します。粒子の動きが速くなるので、壁に強く、しかも何度もぶつかるようになります。圧力は大きくなります。",
+    "Heat a gas in a rigid container. The particles move faster, so they hit the walls harder and more often. The pressure increases.": "変形しない硬い容器で、気体を加熱します。粒子の動きが速くなるので、壁に強く、しかも何度もぶつかるようになります。圧力は大きくなります。",
 
     // How pressure, volume and temperature are related > p
     "Pressure is directly proportional to the temperature in kelvin: <span class=\"mono\"><i>P</i> ∝ <i>T</i></span>, so <span class=\"mono\"><i>P</i>/<i>T</i> = constant</span>. A graph of <i>P</i> against <i>T</i> in kelvin is a straight line through the origin.": "圧力は、ケルビンで表した温度に比例します：<span class=\"mono\"><i>P</i> ∝ <i>T</i></span>。つまり <span class=\"mono\"><i>P</i>/<i>T</i> = 一定</span> です。縦軸に <i>P</i>、横軸にケルビンで表した <i>T</i> をとったグラフは、原点を通る直線になります。",
@@ -435,7 +435,7 @@ S1.i18n.register('ja', 's1-5', {
     "before and after the change, for a fixed amount of gas": "変化の前と後（気体の量は一定）",
 
     // The combined gas law > data booklet note > p
-    "The combined gas law is printed in the data booklet. You do not need to memorise it, but you do need to rearrange it.": "ボイル・シャルルの法則（combined gas law）の式は、データブックレットに載っています。暗記する必要はありませんが、式を変形できるようにしておきましょう。",
+    "The combined gas law is printed in the data booklet. You do not need to memorise it, but you do need to rearrange it.": "ボイル・シャルルの法則 (combined gas law)の式は、データブックレットに載っています。暗記する必要はありませんが、式を変形できるようにしておきましょう。",
 
     // The combined gas law > li
     "List <i>P</i><sub>1</sub>, <i>V</i><sub>1</sub>, <i>T</i><sub>1</sub> and <i>P</i><sub>2</sub>, <i>V</i><sub>2</sub>, <i>T</i><sub>2</sub>. Mark the unknown with a question mark.": "<i>P</i><sub>1</sub>、<i>V</i><sub>1</sub>、<i>T</i><sub>1</sub> と <i>P</i><sub>2</sub>、<i>V</i><sub>2</sub>、<i>T</i><sub>2</sub> を書き出します。わからない量には「?」をつけます。",
@@ -488,7 +488,7 @@ S1.i18n.register('ja', 's1-5', {
 
     // The combined gas law > worked example > data-label attribute
     // The ideal gas equation > worked example > data-label attribute
-    "Check": "確かめ",
+    "Check": "確認",
 
     // The combined gas law > worked example > p
     "Heating makes the gas expand, but the larger pressure squeezes it more. A slightly smaller volume is reasonable. The data have 3 significant figures.": "加熱すると気体は膨張しますが、圧力が大きくなった分、強く押し縮められます。体積が少し小さくなるのは、もっともな結果です。データは有効数字 3 桁です。",
@@ -533,7 +533,7 @@ S1.i18n.register('ja', 's1-5', {
     "The ideal gas equation": "理想気体の状態方程式",
 
     // The ideal gas equation > p
-    "The combined gas law compares a gas before and after a change. Often you have only one set of conditions and want to know how much gas is there. For that you need the <dfn data-def=\"PV = nRT: the equation linking the pressure, volume, amount and temperature of an ideal gas.\">ideal gas equation</dfn>.": "ボイル・シャルルの法則は、変化の前と後の気体を比べる式です。しかし、条件が 1 組しかなく、気体がどれだけあるかを知りたいこともよくあります。そのときに使うのが、<dfn data-def=\"PV = nRT。理想気体の圧力、体積、物質量、温度を結びつける式です。\">理想気体の状態方程式 <span class=\"en-term\">(ideal gas equation)</span></dfn>です。",
+    "The combined gas law compares a gas before and after a change. Often you have only one set of conditions and want to know how much gas is there. For that you need the <dfn data-def=\"PV = nRT: the equation linking the pressure, volume, amount and temperature of an ideal gas.\">ideal gas equation</dfn>.": "ボイル・シャルルの法則は、変化の前と後の気体をくらべる式です。しかし、条件が 1 組しかなく、気体がどれだけあるかを知りたいこともよくあります。そのときに使うのが、<dfn data-def=\"PV = nRT。理想気体の圧力、体積、物質量、温度を結びつける式です。\">理想気体の状態方程式 <span class=\"en-term\">(ideal gas equation)</span></dfn>です。",
 
     // The ideal gas equation > data-def attribute
     "PV = nRT: the equation linking the pressure, volume, amount and temperature of an ideal gas.": "PV = nRT。理想気体の圧力、体積、物質量、温度を結びつける式です。",
@@ -853,7 +853,7 @@ S1.i18n.register('ja', 's1-5', {
     "Find the molar mass: <i>M</i> = <i>m</i> ÷ <i>n</i>, with the mass in g.": "モル質量を求めます：<i>M</i> = <i>m</i> ÷ <i>n</i>。質量は g を使います。",
 
     // Molar mass of a gas from experimental data > li
-    "If you also know the empirical formula, divide <i>M</i> by the empirical formula mass to find how many empirical units make one molecule.": "組成式（empirical formula）もわかっているときは、<i>M</i> を組成式の式量で割ります。すると、1 分子が組成式の単位いくつ分でできているかがわかります。",
+    "If you also know the empirical formula, divide <i>M</i> by the empirical formula mass to find how many empirical units make one molecule.": "組成式 (empirical formula)もわかっているときは、<i>M</i> を組成式の式量で割ります。すると、1 分子が組成式の単位いくつ分でできているかがわかります。",
 
     // Molar mass of a gas from experimental data > worked example > h3
     "Molar mass of a volatile liquid": "揮発性の液体のモル質量",
@@ -889,7 +889,7 @@ S1.i18n.register('ja', 's1-5', {
     "From percentage composition and gas data to a molecular formula": "質量百分率組成と気体のデータから分子式へ",
 
     // Molar mass of a gas from experimental data > worked example > p
-    "A hydrocarbon contains 85.6 % carbon and 14.4 % hydrogen by mass. A 0.500 g sample of the gas occupies 221 cm<sup>3</sup> at 25.0 °C and 100 kPa. Determine the molecular formula of the hydrocarbon.": "ある炭化水素は、質量で炭素 85.6 %、水素 14.4 % をふくみます。この気体の試料 0.500 g は、25.0 °C、100 kPa で 221 cm<sup>3</sup> を占めます。この炭化水素の分子式を求めなさい (determine)。",
+    "A hydrocarbon contains 85.6 % carbon and 14.4 % hydrogen by mass. A 0.500 g sample of the gas occupies 221 cm<sup>3</sup> at 25.0 °C and 100 kPa. Determine the molecular formula of the hydrocarbon.": "ある炭化水素は、質量で炭素 85.6 %、水素 14.4 % を含みます。この気体の試料 0.500 g は、25.0 °C、100 kPa で 221 cm<sup>3</sup> を占めます。この炭化水素の分子式を求めなさい (determine)。",
 
     // Molar mass of a gas from experimental data > worked example > data-title attribute
     "Find the empirical formula": "組成式を求める",
@@ -919,7 +919,7 @@ S1.i18n.register('ja', 's1-5', {
     "Mass divided by amount.": "質量を物質量で割ります。",
 
     // Molar mass of a gas from experimental data > worked example > data-title attribute
-    "Compare with the empirical formula mass": "組成式の式量と比べる",
+    "Compare with the empirical formula mass": "組成式の式量とくらべる",
 
     // Molar mass of a gas from experimental data > worked example > p
     "The molecular formula is a whole-number multiple of the empirical formula. Experimental data rarely give an exact whole number, so round to the nearest one.": "分子式は、組成式の整数倍です。実験データからちょうど整数が出ることはめったにないので、いちばん近い整数に丸めます。",
@@ -946,7 +946,7 @@ S1.i18n.register('ja', 's1-5', {
     "Density is mass divided by volume. If a question gives the density of a gas, it has given you the mass of a known volume. For example, a density of 1.25 g dm<sup>−3</sup> means 1.25 g occupies 1.00 dm<sup>3</sup>. Put those two values into the method above. There is no new formula to learn.": "密度は、質量を体積で割ったものです。問題に気体の密度が書いてあれば、決まった体積の気体の質量がわかっているのと同じです。たとえば、密度 1.25 g dm<sup>−3</sup> は、1.25 g が 1.00 dm<sup>3</sup> を占めるという意味です。この 2 つの値を、上の解き方に入れましょう。新しく覚える式はありません。",
 
     // Molar mass of a gas from experimental data > exam tip (shown in English + translation) > p
-    "These questions are often chained: empirical formula in one part, molar mass from gas data in the next, molecular formula at the end. Each part is marked with “error carried forward”. If an earlier answer is wrong but you use it correctly afterwards, you still earn the later marks. So keep going, and show every line.": "この種の問題は、小問がつながっていることがよくあります。最初の小問で組成式、次の小問で気体のデータからモル質量、最後に分子式です。それぞれの小問は「誤りの持ち越し」を認めて採点されます。前の答えが間違っていても、そのあとで正しく使っていれば、後の点はもらえます。だから、途中でやめずに進み、計算を 1 行ずつすべて書きましょう。",
+    "These questions are often chained: empirical formula in one part, molar mass from gas data in the next, molecular formula at the end. Each part is marked with “error carried forward”. If an earlier answer is wrong but you use it correctly afterwards, you still earn the later marks. So keep going, and show every line.": "この種の問題は、小問がつながっていることがよくあります。最初の小問で組成式、次の小問で気体のデータからモル質量、最後に分子式です。それぞれの小問は「誤りの持ち越し (error carried forward)」を認めて採点されます。前の答えが間違っていても、そのあとで正しく使っていれば、後の点はもらえます。だから、途中でやめずに進み、計算を 1 行ずつすべて書きましょう。",
 
     // Molar mass of a gas from experimental data > common mistake > p
     "Do not use 22.7 dm<sup>3</sup> mol<sup>−1</sup> to find the amount unless the gas is at STP. Vapour in a syringe at 100 °C takes up much more space per mole than that.": "気体が STP にないときは、物質量を求めるのに 22.7 dm<sup>3</sup> mol<sup>−1</sup> を使ってはいけません。100 °C のシリンジの中の蒸気は、1 mol あたり、それよりずっと大きな体積を占めます。",
@@ -958,13 +958,13 @@ S1.i18n.register('ja', 's1-5', {
     "Linking it up": "つなげて考える",
 
     // Linking it up > p
-    "The IB guide asks linking questions that connect this topic to others. Short answers to four of them:": "IB の『指導の手引き』には、このトピックをほかのトピックと結びつける「つながりの問い」（linking question）があります。そのうち 4 つに、短く答えます。",
+    "The IB guide asks linking questions that connect this topic to others. Short answers to four of them:": "IB の『指導の手引き』には、このトピックをほかのトピックと結びつける「つながりの問い (linking question)」があります。そのうち 4 つに、短く答えます。",
 
     // Linking it up > h3
     "Avogadro’s law applies to ideal gases. Under what conditions might a real gas deviate most?": "アボガドロの法則は理想気体に当てはまります。実在気体が最も大きくずれるのは、どんな条件でしょうか。",
 
     // Linking it up > p
-    "At low temperature and high pressure. There the particles are slow and close together, so intermolecular forces and the volume of the particles are no longer negligible. Under those conditions, equal volumes of two real gases may not contain exactly equal numbers of molecules.": "低温・高圧のときです。粒子が遅く、たがいに近いので、分子間力と粒子の体積が無視できなくなります。この条件では、同じ体積の 2 種類の実在気体が、ちょうど同じ数の分子をふくむとは限りません。",
+    "At low temperature and high pressure. There the particles are slow and close together, so intermolecular forces and the volume of the particles are no longer negligible. Under those conditions, equal volumes of two real gases may not contain exactly equal numbers of molecules.": "低温・高圧のときです。粒子が遅く、たがいに近いので、分子間力と粒子の体積が無視できなくなります。この条件では、同じ体積の 2 種類の実在気体が、ちょうど同じ数の分子を含むとは限りません。",
 
     // Linking it up > h3
     "Under comparable conditions, why do some gases deviate more than others?": "同じような条件でも、ほかの気体より大きくずれる気体があるのはなぜでしょうか。",
@@ -976,7 +976,7 @@ S1.i18n.register('ja', 's1-5', {
     "Graphs can be sketches or accurately plotted points. What are the advantages and limitations of each?": "グラフには、概形を描いたものと、正確に点をプロットしたものがあります。それぞれの長所と限界は何でしょうか。",
 
     // Linking it up > p
-    "A sketch shows the shape of a relationship quickly: curve or line, through the origin or not. It carries no scale, so you cannot read values from it. Plotted data points let you find a gradient or an intercept, judge the scatter and spot anomalous results, and extrapolate (for example to absolute zero). They take longer, and they are only as reliable as the measurements and the range that was measured.": "概形のグラフ（sketch）は、関係の形をすばやく示せます。曲線か直線か、原点を通るかどうかがわかります。ただし目盛りがないので、値は読み取れません。データの点をプロットしたグラフでは、傾きや切片を求めたり、ばらつきを判断して異常な結果を見つけたり、外挿したり（たとえば絶対零度まで）できます。そのかわり、時間がかかります。また、グラフの信頼性は、測定の確かさと、測定した範囲で決まります。",
+    "A sketch shows the shape of a relationship quickly: curve or line, through the origin or not. It carries no scale, so you cannot read values from it. Plotted data points let you find a gradient or an intercept, judge the scatter and spot anomalous results, and extrapolate (for example to absolute zero). They take longer, and they are only as reliable as the measurements and the range that was measured.": "概形のグラフ (sketch)は、関係の形をすばやく示せます。曲線か直線か、原点を通るかどうかがわかります。ただし目盛りがないので、値は読み取れません。データの点をプロットしたグラフでは、傾きや切片を求めたり、ばらつきを判断して異常な結果を見つけたり、外挿したり（たとえば絶対零度まで）できます。そのかわり、時間がかかります。また、グラフの信頼性は、測定の確かさと、測定した範囲で決まります。",
 
     // Linking it up > h3
     "How can the ideal gas law be used to find the molar mass of a gas from experimental data?": "理想気体の状態方程式を使って、実験データから気体のモル質量を求めるには、どうすればよいでしょうか。",
@@ -1150,7 +1150,7 @@ S1.i18n.register('ja', 's1-5', {
     "Not answered yet.": "まだ答えていません。",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Correct. {why}": "正解。{why}",
+    "Correct. {why}": "正解です。{why}",
 
     // widget string (assets/js/widgets-s1-5.js)
     "Not this shape. Ask: is it direct or inverse proportion, and is the horizontal axis zero at the origin?": "この形ではありません。考えてみましょう。比例ですか、反比例ですか。横軸のゼロは原点にありますか。",

@@ -239,7 +239,7 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "Count the electrons in your drawing. The total must equal the number from step 1.": "數一數你所畫的電子。總數必須等於第 1 步得出的數目。",
 
     // Covalent bonds, the octet rule and Lewis formulas > widget > data-title attribute
-    "Lewis formula builder": "路易斯結構式建構器",
+    "Lewis formula builder": "路易斯結構式建構工具",
 
     // Covalent bonds, the octet rule and Lewis formulas > widget > figcaption
     "Choose a molecule or ion and work through the steps. Try water first, then carbon dioxide, then an ion such as NH<sub>4</sub><sup>+</sup>.": "選擇一種分子或離子，然後逐步完成。先試水，再試二氧化碳，然後試一種離子，例如 NH<sub>4</sub><sup>+</sup>。",
@@ -515,19 +515,19 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "Bond length and bond strength": "鍵長和鍵強度",
 
     // Single, double and triple bonds > p
-    "The <dfn data-def=\"The distance between the nuclei of two bonded atoms.\">bond length</dfn> is the distance between the two nuclei. The <dfn data-def=\"How much energy is needed to break a bond. A stronger bond needs more energy.\">bond strength</dfn> tells you how much energy is needed to break the bond. It is measured as a bond enthalpy.": "<dfn data-def=\"兩個鍵合原子的原子核之間的距離。\">鍵長 <span class=\"en-term\">(bond length)</span></dfn>是兩個原子核之間的距離。<dfn data-def=\"破壞一個鍵需要多少能量。鍵愈強，需要的能量愈多。\">鍵強度 <span class=\"en-term\">(bond strength)</span></dfn>告訴你破壞這個鍵需要多少能量，以鍵焓 (bond enthalpy) 來量度。",
+    "The <dfn data-def=\"The distance between the nuclei of two bonded atoms.\">bond length</dfn> is the distance between the two nuclei. The <dfn data-def=\"How much energy is needed to break a bond. A stronger bond needs more energy.\">bond strength</dfn> tells you how much energy is needed to break the bond. It is measured as a bond enthalpy.": "<dfn data-def=\"兩個鍵合原子的原子核之間的距離。\">鍵長 <span class=\"en-term\">(bond length)</span></dfn>是兩個原子核之間的距離。<dfn data-def=\"破壞一個鍵需要多少能量。鍵越強，需要的能量越多。\">鍵強度 <span class=\"en-term\">(bond strength)</span></dfn>告訴你破壞這個鍵需要多少能量，以鍵焓 (bond enthalpy) 來量度。",
 
     // Single, double and triple bonds > data-def attribute
     "The distance between the nuclei of two bonded atoms.": "兩個鍵合原子的原子核之間的距離。",
 
     // Single, double and triple bonds > data-def attribute
-    "How much energy is needed to break a bond. A stronger bond needs more energy.": "破壞一個鍵需要多少能量。鍵愈強，需要的能量愈多。",
+    "How much energy is needed to break a bond. A stronger bond needs more energy.": "破壞一個鍵需要多少能量。鍵越強，需要的能量越多。",
 
     // Single, double and triple bonds > p
-    "Think of the shared electrons as glue between the two nuclei. More shared pairs mean more negative charge between the nuclei. Both nuclei are attracted more strongly to it.": "把共用電子想像成兩個原子核之間的膠水。共用電子對愈多，原子核之間的負電荷就愈多。兩個原子核受到的吸引也愈強。",
+    "Think of the shared electrons as glue between the two nuclei. More shared pairs mean more negative charge between the nuclei. Both nuclei are attracted more strongly to it.": "把共用電子想像成兩個原子核之間的膠水。共用電子對越多，原子核之間的負電荷就越多。兩個原子核受到的吸引也越強。",
 
     // Single, double and triple bonds > key idea > p
-    "More shared pairs give a stronger attraction between the nuclei and the shared electrons. The nuclei are pulled closer together. So the bond is <b>shorter</b> and <b>stronger</b>: triple, then double, then single.": "共用電子對愈多，原子核與共用電子之間的引力愈強。原子核被拉得更近。所以鍵<b>較短</b>，也<b>較強</b>：三鍵最短最強，其次是雙鍵，然後是單鍵。",
+    "More shared pairs give a stronger attraction between the nuclei and the shared electrons. The nuclei are pulled closer together. So the bond is <b>shorter</b> and <b>stronger</b>: triple, then double, then single.": "共用電子對越多，原子核與共用電子之間的引力越強。原子核被拉得更近。所以鍵<b>較短</b>，也<b>較強</b>：三鍵最短最強，其次是雙鍵，然後是單鍵。",
 
     // Single, double and triple bonds > table > caption
     "Bond lengths and bond enthalpies from the data booklet": "數據手冊中的鍵長和鍵焓",
@@ -1064,7 +1064,7 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "Subtract the smaller value from the larger value.": "用較大的數值減去較小的數值。",
 
     // Bond polarity > li
-    "If the difference is zero, the bond is non-polar. The larger the difference, the more polar the bond.": "如果差是零，鍵是非極性的。差愈大，鍵的極性愈強。",
+    "If the difference is zero, the bond is non-polar. The larger the difference, the more polar the bond.": "如果差是零，鍵是非極性的。差越大，鍵的極性越強。",
 
     // Bond polarity > li
     "Write δ− on the atom with the larger value and δ+ on the other atom.": "在數值較大的原子上寫 δ−，在另一個原子上寫 δ+。",
@@ -1169,7 +1169,7 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "Polarity lab": "極性實驗室",
 
     // Molecular polarity > widget > figcaption
-    "Choose a molecule and predict before you look. In this model, a thicker arrow means a larger difference in electronegativity. Turn the model to see the shape. Compare CCl<sub>4</sub> with CHCl<sub>3</sub>.": "選擇一種分子，先預測再看答案。在這個模型中，箭嘴愈粗，電負性差愈大。轉動模型看看形狀。比較 CCl<sub>4</sub> 和 CHCl<sub>3</sub>。",
+    "Choose a molecule and predict before you look. In this model, a thicker arrow means a larger difference in electronegativity. Turn the model to see the shape. Compare CCl<sub>4</sub> with CHCl<sub>3</sub>.": "選擇一種分子，先預測再看答案。在這個模型中，箭嘴越粗，電負性差越大。轉動模型看看形狀。比較 CCl<sub>4</sub> 和 CHCl<sub>3</sub>。",
 
     // Molecular polarity > li
     "Draw the Lewis formula and deduce the molecular geometry.": "畫出路易斯結構式，並推斷分子形狀。",
@@ -1649,7 +1649,7 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "London forces act between <b>all</b> molecules and atoms, polar or non-polar, because all of them have electrons.": "<b>所有</b>分子和原子之間都有倫敦力，不論是極性還是非極性，因為它們都有電子。",
 
     // Intermolecular forces > li
-    "London forces are stronger when a molecule has more electrons, so they increase with molar mass. They are also stronger when molecules can touch over a larger surface area.": "分子的電子愈多，倫敦力愈強，所以倫敦力隨摩爾質量增加而增強。分子之間能夠接觸的表面積愈大，倫敦力也愈強。",
+    "London forces are stronger when a molecule has more electrons, so they increase with molar mass. They are also stronger when molecules can touch over a larger surface area.": "分子的電子越多，倫敦力越強，所以倫敦力隨摩爾質量增加而增強。分子之間能夠接觸的表面積越大，倫敦力也越強。",
 
     // Intermolecular forces > h3
     "Dipole–dipole forces": "偶極－偶極引力",
@@ -1833,10 +1833,10 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "Nail polish remover (propanone) dries on your skin in seconds. Water takes minutes. Cooking oil stays. The difference comes from the strength of the forces between the molecules.": "洗甲水（丙酮）塗在皮膚上，幾秒就乾了。水要幾分鐘。食油卻一直留着。分別來自分子之間引力的強弱。",
 
     // Explaining physical properties > key idea > p
-    "For molecules of comparable molar mass, the strengths are generally: London (dispersion) forces &lt; dipole–dipole forces &lt; hydrogen bonding. All of them are much weaker than covalent bonds.": "摩爾質量相若的分子，引力的強度一般是：倫敦（色散）力 &lt; 偶極－偶極引力 &lt; 氫鍵。它們全都比共價鍵弱得多。",
+    "For molecules of comparable molar mass, the strengths are generally: London (dispersion) forces &lt; dipole–dipole forces &lt; hydrogen bonding. All of them are much weaker than covalent bonds.": "摩爾質量相近的分子，引力的強度一般是：倫敦（色散）力 &lt; 偶極－偶極引力 &lt; 氫鍵。它們全都比共價鍵弱得多。",
 
     // Explaining physical properties > p
-    "The words “comparable molar mass” matter. London forces grow with the number of electrons. A large non-polar molecule can have stronger forces in total than a small polar one. Iodine, <span class=\"chem\">I2</span>, is non-polar, yet it is a solid at room temperature.": "「摩爾質量相若」(comparable molar mass) 這幾個字很重要。倫敦力隨電子數目增加而增強。一個大的非極性分子，總引力可以比一個小的極性分子強。碘 <span class=\"chem\">I2</span> 是非極性的，但在室溫下是固體。",
+    "The words “comparable molar mass” matter. London forces grow with the number of electrons. A large non-polar molecule can have stronger forces in total than a small polar one. Iodine, <span class=\"chem\">I2</span>, is non-polar, yet it is a solid at room temperature.": "「摩爾質量相近」(comparable molar mass) 這幾個字很重要。倫敦力隨電子數目增加而增強。一個大的非極性分子，總引力可以比一個小的極性分子強。碘 <span class=\"chem\">I2</span> 是非極性的，但在室溫下是固體。",
 
     // Explaining physical properties > h3
     // Explaining physical properties > table > th
@@ -1849,7 +1849,7 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "How easily a substance turns into a vapour. A volatile substance evaporates easily and has a low boiling point.": "物質變成蒸氣的難易程度。易揮發的物質容易蒸發，沸點低。",
 
     // Explaining physical properties > p
-    "To boil a liquid, you must give its molecules enough energy to separate. Stronger intermolecular forces need more energy. So stronger forces mean a higher boiling point and a lower volatility.": "要使液體沸騰，必須給分子足夠的能量讓它們分開。分子間引力愈強，需要的能量愈多。所以引力愈強，沸點愈高，揮發性愈低。",
+    "To boil a liquid, you must give its molecules enough energy to separate. Stronger intermolecular forces need more energy. So stronger forces mean a higher boiling point and a lower volatility.": "要使液體沸騰，必須給分子足夠的能量讓它們分開。分子間引力越強，需要的能量越多。所以引力越強，沸點越高，揮發性越低。",
 
     // Explaining physical properties > table > caption
     "Three compounds with almost the same molar mass": "三種摩爾質量幾乎相同的化合物",
@@ -1876,10 +1876,10 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "ethanol, <span class=\"chem\">CH3CH2OH</span>": "乙醇 <span class=\"chem\">CH3CH2OH</span>",
 
     // Explaining physical properties > h3
-    "Bigger molecules, stronger London forces": "分子愈大，倫敦力愈強",
+    "Bigger molecules, stronger London forces": "分子越大，倫敦力越強",
 
     // Explaining physical properties > p
-    "In a family of similar molecules, the boiling point rises as the molecules get bigger. More electrons mean stronger London forces.": "在一系列相似的分子中，分子愈大，沸點愈高。電子愈多，倫敦力愈強。",
+    "In a family of similar molecules, the boiling point rises as the molecules get bigger. More electrons mean stronger London forces.": "在一系列相似的分子中，分子越大，沸點越高。電子越多，倫敦力越強。",
 
     // Explaining physical properties > table > caption
     "Boiling points rise with the number of electrons": "沸點隨電子數目增加而上升",
@@ -1963,7 +1963,7 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "Compare the strength": "比較強弱",
 
     // Explaining physical properties > worked example > p
-    "This is the second mark. The molar masses are almost equal, so the London forces are similar.": "這是第 2 分。兩者的摩爾質量幾乎相等，所以倫敦力相若。",
+    "This is the second mark. The molar masses are almost equal, so the London forces are similar.": "這是第 2 分。兩者的摩爾質量幾乎相等，所以倫敦力相近。",
 
     // Explaining physical properties > worked example > maths line
     "propanone has dipole–dipole forces as well → <b>stronger intermolecular forces in propanone</b>": "丙酮還有偶極－偶極引力 → <b>丙酮的分子間引力較強</b>",
@@ -2006,7 +2006,7 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "A useful rule is “like dissolves like”. Polar substances tend to dissolve in polar solvents such as water. Non-polar substances tend to dissolve in non-polar solvents such as hexane.": "有一條有用的規則：「相似相溶」(like dissolves like)。極性物質傾向溶於極性溶劑，例如水。非極性物質傾向溶於非極性溶劑，例如己烷。",
 
     // Explaining physical properties > p
-    "The reason is about forces. A substance dissolves when its molecules can form attractions with the solvent molecules that are about as strong as the attractions that were there before.": "原因與引力有關。如果物質的分子能與溶劑分子形成引力，而這些引力與原有的引力強度相若，物質就會溶解。",
+    "The reason is about forces. A substance dissolves when its molecules can form attractions with the solvent molecules that are about as strong as the attractions that were there before.": "原因與引力有關。如果物質的分子能與溶劑分子形成引力，而這些引力與原有的引力強度相近，物質就會溶解。",
 
     // Explaining physical properties > li
     "Water molecules are held to each other by hydrogen bonds. A solute that can form hydrogen bonds with water, such as ethanol, mixes in easily.": "水分子之間靠氫鍵互相吸引。能與水形成氫鍵的溶質，例如乙醇，很容易與水混合。",
@@ -2015,7 +2015,7 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "A non-polar solute, such as hexane, can form only weak London forces with water. These cannot replace the hydrogen bonds between water molecules. So the two liquids stay separate.": "非極性溶質，例如己烷，只能與水形成弱的倫敦力。這些引力不能取代水分子之間的氫鍵。所以兩種液體保持分開。",
 
     // Explaining physical properties > li
-    "As the hydrocarbon chain of an alcohol gets longer, more of the molecule is non-polar. Solubility in water falls. Ethanol mixes completely with water. Octan-1-ol hardly dissolves.": "醇的烴鏈愈長，分子中非極性的部分愈多。在水中的溶解度下降。乙醇能與水完全混合。辛-1-醇幾乎不溶。",
+    "As the hydrocarbon chain of an alcohol gets longer, more of the molecule is non-polar. Solubility in water falls. Ethanol mixes completely with water. Octan-1-ol hardly dissolves.": "醇的烴鏈越長，分子中非極性的部分越多。在水中的溶解度下降。乙醇能與水完全混合。辛-1-醇幾乎不溶。",
 
     // Explaining physical properties > li
     "Covalent network solids are insoluble in all common solvents. Dissolving would mean breaking strong covalent bonds.": "巨型共價固體不溶於任何常見溶劑。要溶解就得破壞強的共價鍵。",
@@ -2381,7 +2381,7 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "To what extent can intermolecular forces explain the deviation of real gases from ideal behaviour?": "分子間引力在多大程度上可以解釋真實氣體偏離理想行為？",
 
     // Linking it up > p
-    "The ideal gas model assumes that there are no forces between the particles. Real molecules do attract each other. At low temperature and high pressure the molecules are slow and close together, so these attractions matter and the gas no longer behaves ideally. Gases with stronger intermolecular forces deviate more. (Structure 1.5)": "理想氣體模型假設粒子之間沒有引力。真實的分子卻會互相吸引。在低溫和高壓下，分子移動得慢，又靠得近，這些引力就變得重要，氣體不再表現得像理想氣體。分子間引力愈強的氣體，偏離愈大。(Structure 1.5)",
+    "The ideal gas model assumes that there are no forces between the particles. Real molecules do attract each other. At low temperature and high pressure the molecules are slow and close together, so these attractions matter and the gas no longer behaves ideally. Gases with stronger intermolecular forces deviate more. (Structure 1.5)": "理想氣體模型假設粒子之間沒有引力。真實的分子卻會互相吸引。在低溫和高壓下，分子移動得慢，又靠得近，這些引力就變得重要，氣體不再表現得像理想氣體。分子間引力越強的氣體，偏離越大。(Structure 1.5)",
 
     // Linking it up > h3
     "How do the terms “bonds” and “forces” compare?": "「鍵」(bonds) 和「力」(forces) 這兩個詞怎樣比較？",
@@ -3075,13 +3075,13 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "Not yet. Remember: London forces are always present.": "仍未正確。記住：倫敦力一定存在。",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Propane and ethanal (similar molar mass)": "丙烷和乙醛（摩爾質量相若）",
+    "Propane and ethanal (similar molar mass)": "丙烷和乙醛（摩爾質量相近）",
 
     // widget string (assets/js/widgets-s2-2.js)
     "Propane is non-polar: it has London (dispersion) forces only. Ethanal is polar: it has London (dispersion) forces and dipole–dipole forces.": "丙烷是非極性的：只有倫敦（色散）力。乙醛是極性的：有倫敦（色散）力和偶極－偶極引力。",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "The molar masses are almost equal, so the London forces are similar. The extra dipole–dipole forces make the total attraction between ethanal molecules stronger.": "兩者的摩爾質量幾乎相等，所以倫敦力相若。額外的偶極－偶極引力使乙醛分子之間的總引力較強。",
+    "The molar masses are almost equal, so the London forces are similar. The extra dipole–dipole forces make the total attraction between ethanal molecules stronger.": "兩者的摩爾質量幾乎相等，所以倫敦力相近。額外的偶極－偶極引力使乙醛分子之間的總引力較強。",
 
     // widget string (assets/js/widgets-s2-2.js)
     "Methoxymethane and ethanol (isomers)": "甲氧基甲烷和乙醇（同分異構體）",

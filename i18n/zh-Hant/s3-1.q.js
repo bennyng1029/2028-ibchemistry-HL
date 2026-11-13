@@ -274,7 +274,7 @@ S1.i18n.register('zh-Hant', 's3-1.q', {
         // EN: Shielding by inner electrons decreases across the period.
         "橫跨這個週期，內層電子的屏蔽減弱。",
         // EN: The nuclear charge increases, and the outer electrons are in the same energy level with similar shielding.
-        "核電荷增加，而最外層電子都在同一能級，屏蔽相若。",
+        "核電荷增加，而最外層電子都在同一能級，屏蔽相近。",
         // EN: The atoms gain electrons across the period, and electrons repel each other.
         "橫跨這個週期，原子的電子增多，而電子互相排斥。",
       ],
@@ -479,7 +479,7 @@ S1.i18n.register('zh-Hant', 's3-1.q', {
         "對最外層電子的吸引越強，原子越小，電子越難移走，對鍵合電子的吸引也越強。",
       ],
       // EN: <p>Across period 3 the <strong>nuclear charge</strong> increases (11 to 17 protons). The outer electrons are in the same energy level with similar shielding, so they are attracted more strongly. This means:</p><ul><li>atomic radius decreases (160 to 100, in 10<sup>−12</sup> m);</li><li>first ionization energy generally increases (Na 496, Cl 1251 kJ mol<sup>−1</sup>);</li><li>electronegativity increases (Na 0.9, Cl 3.2).</li></ul><p>The number of occupied energy levels stays at three.</p>
-      solution: "<p>橫跨第 3 週期，<strong>核電荷</strong>增加（由 11 個質子增至 17 個）。最外層電子在同一能級，屏蔽相若，所以受到的吸引較強。因此：</p><ul><li>原子半徑減少（由 160 減至 100，單位是 10<sup>−12</sup> m）；</li><li>第一電離能大致上增加（Na 496、Cl 1251 kJ mol<sup>−1</sup>）；</li><li>電負性增加（Na 0.9、Cl 3.2）。</li></ul><p>有電子的能級數目維持在三個。</p>",
+      solution: "<p>橫跨第 3 週期，<strong>核電荷</strong>增加（由 11 個質子增至 17 個）。最外層電子在同一能級，屏蔽相近，所以受到的吸引較強。因此：</p><ul><li>原子半徑減少（由 160 減至 100，單位是 10<sup>−12</sup> m）；</li><li>第一電離能大致上增加（Na 496、Cl 1251 kJ mol<sup>−1</sup>）；</li><li>電負性增加（Na 0.9、Cl 3.2）。</li></ul><p>有電子的能級數目維持在三個。</p>",
       misconception: {
         // EN (option B): Atomic radius decreases across a period: Na 160, Cl 100 (in 10<sup>−12</sup> m). The increasing nuclear charge pulls the outer electrons closer.
         "1": "橫跨一個週期，原子半徑減少：Na 160、Cl 100（單位是 10<sup>−12</sup> m）。核電荷增加，把最外層電子拉得更近。",
@@ -538,7 +538,7 @@ S1.i18n.register('zh-Hant', 's3-1.q', {
         // EN: In F the outer electron is in a lower energy level / closer to the nucleus / less shielded than in Cl.
         "F 的最外層電子比 Cl 的在較低的能級／較接近原子核／受到的屏蔽較少。",
         // EN: In Cl and S the outer electrons are in the same energy level / have the same (similar) shielding.
-        "Cl 和 S 的最外層電子在同一能級／屏蔽相同（相若）。",
+        "Cl 和 S 的最外層電子在同一能級／屏蔽相同（相近）。",
         // EN: Cl has a greater nuclear charge / more protons than S, so the outer electron is attracted more strongly.
         "Cl 的核電荷比 S 大／質子比 S 多，所以最外層電子受到的吸引較強。",
       ],
@@ -651,14 +651,14 @@ S1.i18n.register('zh-Hant', 's3-1.q', {
         "鹵素可以置換族中位置在它<em>下面</em>的鹵素的鹵離子。",
       ],
       // EN: <p>A more reactive halogen displaces a less reactive halogen from its halide ion. Chlorine is above iodine, so it reacts:</p><div class="worked__math"><span class="chem">Cl2(aq) + 2I-(aq) -> 2Cl-(aq) + I2(aq)</span></div><p>The mixture turns brown as iodine forms. A chlorine atom is smaller than an iodine atom, so the electron it gains is closer to the nucleus and less shielded. Chlorine attracts the extra electron more strongly.</p>
-      solution: "<p>活性較高的鹵素，可以把活性較低的鹵素從它的鹵離子中置換出來。氯在碘的上面，所以會反應：</p><div class=\"worked__math\"><span class=\"chem\">Cl2(aq) + 2I-(aq) -> 2Cl-(aq) + I2(aq)</span></div><p>碘生成時，混合物變成棕色。氯原子比碘原子小，所以它獲得的電子較接近原子核，受到的屏蔽也較少。氯對額外電子的吸引較強。</p>",
+      solution: "<p>活潑性較高的鹵素，可以把活潑性較低的鹵素從它的鹵離子中置換出來。氯在碘的上面，所以會反應：</p><div class=\"worked__math\"><span class=\"chem\">Cl2(aq) + 2I-(aq) -> 2Cl-(aq) + I2(aq)</span></div><p>碘生成時，混合物變成棕色。氯原子比碘原子小，所以它獲得的電子較接近原子核，受到的屏蔽也較少。氯對額外電子的吸引較強。</p>",
       misconception: {
         // EN (option A): Bromine is below chlorine in group 17, so it is less reactive. It cannot displace chloride ions.
-        "0": "溴在第 17 族中位於氯的下面，所以活性較低。它不能置換氯離子。",
+        "0": "溴在第 17 族中位於氯的下面，所以活潑性較低。它不能置換氯離子。",
         // EN (option B): Iodine is below bromine in group 17, so it is less reactive. It cannot displace bromide ions.
-        "1": "碘在第 17 族中位於溴的下面，所以活性較低。它不能置換溴離子。",
+        "1": "碘在第 17 族中位於溴的下面，所以活潑性較低。它不能置換溴離子。",
         // EN (option C): Iodine is the least reactive of the three halogens here. It cannot displace chloride ions.
-        "2": "碘是這三種鹵素中活性最低的。它不能置換氯離子。",
+        "2": "碘是這三種鹵素中活潑性最低的。它不能置換氯離子。",
       },
     },
 
@@ -675,12 +675,12 @@ S1.i18n.register('zh-Hant', 's3-1.q', {
         "離子方程式不用寫 <span class=\"chem\">K+</span>。它沒有改變。",
       ],
       // EN: <p><span class="chem">X2</span> is <strong>bromine</strong>. A halogen displaces the halide ions of a less reactive halogen. Test 2 shows that <span class="chem">X2</span> is more reactive than iodine, so it is not iodine. Test 1 shows that <span class="chem">X2</span> cannot displace chloride ions, so it is less reactive than chlorine (and it is not chlorine, which does not react with its own ions). Reactivity decreases down group 17, so <span class="chem">X2</span> is bromine.</p><div class="worked__math"><span class="chem">Br2(aq) + 2I-(aq) -> 2Br-(aq) + I2(aq)</span></div>
-      answer: "<p><span class=\"chem\">X2</span> 是<strong>溴</strong>。鹵素可以置換活性比它低的鹵素的鹵離子。測試 2 顯示 <span class=\"chem\">X2</span> 的活性比碘高，所以它不是碘。測試 1 顯示 <span class=\"chem\">X2</span> 不能置換氯離子，所以它的活性比氯低（它也不是氯，因為氯不會與自己的離子反應）。沿第 17 族向下，活潑性減少，所以 <span class=\"chem\">X2</span> 是溴。</p><div class=\"worked__math\"><span class=\"chem\">Br2(aq) + 2I-(aq) -> 2Br-(aq) + I2(aq)</span></div>",
+      answer: "<p><span class=\"chem\">X2</span> 是<strong>溴</strong>。鹵素可以置換活潑性比它低的鹵素的鹵離子。測試 2 顯示 <span class=\"chem\">X2</span> 的活潑性比碘高，所以它不是碘。測試 1 顯示 <span class=\"chem\">X2</span> 不能置換氯離子，所以它的活潑性比氯低（它也不是氯，因為氯不會與自己的離子反應）。沿第 17 族向下，活潑性減少，所以 <span class=\"chem\">X2</span> 是溴。</p><div class=\"worked__math\"><span class=\"chem\">Br2(aq) + 2I-(aq) -> 2Br-(aq) + I2(aq)</span></div>",
       markscheme: [
         // EN: X<sub>2</sub> is bromine / Br<sub>2</sub>.
         "X<sub>2</sub> 是溴／Br<sub>2</sub>。",
         // EN: It displaces iodide ions, so it is more reactive than iodine, but it does not displace chloride ions, so it is less reactive than chlorine (accept: reactivity decreases down group 17).
-        "它可以置換碘離子，所以活性比碘高；但它不能置換氯離子，所以活性比氯低（接受：沿第 17 族向下，活潑性減少）。",
+        "它可以置換碘離子，所以活潑性比碘高；但它不能置換氯離子，所以活潑性比氯低（接受：沿第 17 族向下，活潑性減少）。",
         // EN: <span class="chem">Br2(aq) + 2I-(aq) -> 2Br-(aq) + I2(aq)</span> (balanced, with state symbols).
         "<span class=\"chem\">Br2(aq) + 2I-(aq) -> 2Br-(aq) + I2(aq)</span>（已配平，並有物態符號）。",
       ],
@@ -977,7 +977,7 @@ S1.i18n.register('zh-Hant', 's3-1.q', {
         "有兩個鉻原子。把鉻的總數除以 2。",
       ],
       // EN: <p>Let the oxidation state of chromium be <i>x</i>. Oxygen is −2.</p><div class="worked__math">2<i>x</i> + 7(−2) = −2</div><div class="worked__math">2<i>x</i> = −2 + 14 = +12</div><div class="worked__math"><i>x</i> = <b>+6</b></div><p>The ion can be named dichromate(VI).</p>
-      solution: "<p>設鉻的氧化態為 <i>x</i>。氧是 −2。</p><div class=\"worked__math\">2<i>x</i> + 7(−2) = −2</div><div class=\"worked__math\">2<i>x</i> = −2 + 14 = +12</div><div class=\"worked__math\"><i>x</i> = <b>+6</b></div><p>這個離子可以稱為重鉻酸根(VI)離子 (dichromate(VI))。</p>",
+      solution: "<p>設鉻的氧化態為 <i>x</i>。氧是 −2。</p><div class=\"worked__math\">2<i>x</i> + 7(−2) = −2</div><div class=\"worked__math\">2<i>x</i> = −2 + 14 = +12</div><div class=\"worked__math\"><i>x</i> = <b>+6</b></div><p>這個離子可以稱為重鉻(VI)酸根離子 (dichromate(VI))。</p>",
       // EN: In an exam, write +6 with the sign first. “6+” and “6” do not score.
       correctNote: "考試時要寫 +6，正負號在前。「6+」和「6」都不得分。",
     },
@@ -1017,7 +1017,7 @@ S1.i18n.register('zh-Hant', 's3-1.q', {
     // ── s3-1-q036 · mcq · exam · SL · Structure 3.1.6 · 1 mark
     "s3-1-q036": {
       // EN: <p>The sulfate(IV) ion is also called the sulfite ion. Which is its formula?</p>
-      stem: "<p>硫酸根(IV)離子 (sulfate(IV) ion) 又稱為亞硫酸根離子 (sulfite ion)。以下哪一個是它的化學式？</p>",
+      stem: "<p>硫(IV)酸根離子 (sulfate(IV) ion) 又稱為亞硫酸根離子 (sulfite ion)。以下哪一個是它的化學式？</p>",
       options: [
         // EN: <span class="chem">SO3^2-</span>
         "<span class=\"chem\">SO3^2-</span>",
@@ -1035,10 +1035,10 @@ S1.i18n.register('zh-Hant', 's3-1.q', {
         "逐一測試每個離子：硫 + 各個氧（每個 −2）= 離子的電荷。",
       ],
       // EN: <p>Sulfate(IV) means sulfur has oxidation state +4. Test <span class="chem">SO3^2-</span>:</p><div class="worked__math"><i>x</i> + 3(−2) = −2</div><div class="worked__math"><i>x</i> = <b>+4</b></div><p>So <span class="chem">SO3^2-</span> is sulfate(IV), or sulfite. <span class="chem">SO4^2-</span> is sulfate(VI), or sulfate. In the same way, <span class="chem">NO2-</span> is nitrite (nitrogen +3) and <span class="chem">NO3-</span> is nitrate (nitrogen +5). IB accepts both kinds of name.</p>
-      solution: "<p>硫酸根(IV) 表示硫的氧化態是 +4。測試 <span class=\"chem\">SO3^2-</span>：</p><div class=\"worked__math\"><i>x</i> + 3(−2) = −2</div><div class=\"worked__math\"><i>x</i> = <b>+4</b></div><p>所以 <span class=\"chem\">SO3^2-</span> 是硫酸根(IV)，即亞硫酸根 (sulfite)。<span class=\"chem\">SO4^2-</span> 是硫酸根(VI)，即硫酸根 (sulfate)。同樣，<span class=\"chem\">NO2-</span> 是亞硝酸根 (nitrite)（氮是 +3），<span class=\"chem\">NO3-</span> 是硝酸根 (nitrate)（氮是 +5）。兩種名稱 IB 都接受。</p>",
+      solution: "<p>硫(IV)酸根 表示硫的氧化態是 +4。測試 <span class=\"chem\">SO3^2-</span>：</p><div class=\"worked__math\"><i>x</i> + 3(−2) = −2</div><div class=\"worked__math\"><i>x</i> = <b>+4</b></div><p>所以 <span class=\"chem\">SO3^2-</span> 是硫(IV)酸根，即亞硫酸根 (sulfite)。<span class=\"chem\">SO4^2-</span> 是硫(VI)酸根，即硫酸根 (sulfate)。同樣，<span class=\"chem\">NO2-</span> 是亞硝酸根 (nitrite)（氮是 +3），<span class=\"chem\">NO3-</span> 是硝酸根 (nitrate)（氮是 +5）。兩種名稱 IB 都接受。</p>",
       misconception: {
         // EN (option B): In <span class="chem">SO4^2-</span> sulfur is +6: <i>x</i> + 4(−2) = −2. This is sulfate(VI), usually called sulfate.
-        "1": "在 <span class=\"chem\">SO4^2-</span> 中，硫是 +6：<i>x</i> + 4(−2) = −2。這是硫酸根(VI)，通常稱為硫酸根 (sulfate)。",
+        "1": "在 <span class=\"chem\">SO4^2-</span> 中，硫是 +6：<i>x</i> + 4(−2) = −2。這是硫(VI)酸根，通常稱為硫酸根 (sulfate)。",
         // EN (option C): <span class="chem">SO3</span> is a molecule, sulfur trioxide, not an ion. Sulfur is +6 in it.
         "2": "<span class=\"chem\">SO3</span> 是分子，即三氧化硫，不是離子。其中的硫是 +6。",
         // EN (option D): <span class="chem">S^2-</span> is the sulfide ion. Sulfur is −2. Names ending in -ate or -ite contain oxygen.
@@ -1238,7 +1238,7 @@ S1.i18n.register('zh-Hant', 's3-1.q', {
         // EN (option A): True, but iron and many other transition elements also have a full 4s sublevel. The d sublevel is what matters.
         "0": "這句話正確，但鐵和很多其他過渡元素的 4s 亞層也是全滿的。關鍵在於 d 亞層。",
         // EN (option C): The 4s electrons are lost first when a first-row d-block atom forms an ion. <span class="chem">Zn^2+</span> is <span class="mono nowrap">[Ar] 3d<sup>10</sup></span>.
-        "2": "第一列 d 區原子形成離子時，4s 電子先失去。<span class=\"chem\">Zn^2+</span> 是 <span class=\"mono nowrap\">[Ar] 3d<sup>10</sup></span>。",
+        "2": "第一行 d 區原子形成離子時，4s 電子先失去。<span class=\"chem\">Zn^2+</span> 是 <span class=\"mono nowrap\">[Ar] 3d<sup>10</sup></span>。",
         // EN (option D): True, but this does not decide whether an element is a transition element.
         "3": "這句話正確，但它不能決定元素是否過渡元素。",
       },
@@ -1372,7 +1372,7 @@ S1.i18n.register('zh-Hant', 's3-1.q', {
       solution: "<p>4s 亞層比 3d 先填充，但形成離子時，<strong>4s 電子先失去</strong>。移走兩個 4s 電子：</p><div class=\"worked__math\">Fe: <span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span> &nbsp;→&nbsp; <span class=\"chem\">Fe^2+</span>: <b><span class=\"mono nowrap\">[Ar] 3d<sup>6</sup></span></b></div>",
       misconception: {
         // EN (option B): This removes two 3d electrons. When a first-row transition atom forms an ion, the 4s electrons are lost first.
-        "1": "這是移走了兩個 3d 電子。第一列過渡元素的原子形成離子時，4s 電子先失去。",
+        "1": "這是移走了兩個 3d 電子。第一行過渡元素的原子形成離子時，4s 電子先失去。",
         // EN (option C): This removes one 4s and one 3d electron. Both 4s electrons are lost before any 3d electron.
         "2": "這是移走了一個 4s 電子和一個 3d 電子。兩個 4s 電子都失去後，才輪到 3d 電子。",
         // EN (option D): This is the configuration of the atom. A 2+ ion has two fewer electrons.
@@ -1396,7 +1396,7 @@ S1.i18n.register('zh-Hant', 's3-1.q', {
       ],
       hints: [
         // EN: Copper is one of the two exceptions in the first row. Its atom is <span class="mono nowrap">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>.
-        "銅是第一列的兩個例外之一。它的原子是 <span class=\"mono nowrap\">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>。",
+        "銅是第一行的兩個例外之一。它的原子是 <span class=\"mono nowrap\">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>。",
         // EN: Remove the 4s electron first, then one 3d electron.
         "先移走 4s 電子，再移走一個 3d 電子。",
       ],
@@ -1499,7 +1499,7 @@ S1.i18n.register('zh-Hant', 's3-1.q', {
     // ── s3-1-q053 · numeric · challenge · AHL · Structure 3.1.9 · 1 mark
     "s3-1-q053": {
       // EN: <p>The table shows the first six successive ionization energies of a first-row transition element.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Successive ionization energies / kJ mol<sup>−1</sup></caption><thead><tr><th scope="col"></th><th class="num" scope="col">1st</th><th class="num" scope="col">2nd</th><th class="num" scope="col">3rd</th><th class="num" scope="col">4th</th><th class="num" scope="col">5th</th><th class="num" scope="col">6th</th></tr></thead><tbody><tr><th scope="row">IE</th><td class="num">659</td><td class="num">1310</td><td class="num">2653</td><td class="num">4175</td><td class="num">9581</td><td class="num">11 533</td></tr></tbody></table></div><p>Deduce the highest oxidation state that this element is likely to show in its compounds.</p><p>Type the sign first and then the number, for example +3.</p>
-      stem: "<p>下表列出某第一列過渡元素的首六個逐級電離能。</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>逐級電離能 / kJ mol<sup>−1</sup></caption><thead><tr><th scope=\"col\"></th><th class=\"num\" scope=\"col\">第 1</th><th class=\"num\" scope=\"col\">第 2</th><th class=\"num\" scope=\"col\">第 3</th><th class=\"num\" scope=\"col\">第 4</th><th class=\"num\" scope=\"col\">第 5</th><th class=\"num\" scope=\"col\">第 6</th></tr></thead><tbody><tr><th scope=\"row\">電離能</th><td class=\"num\">659</td><td class=\"num\">1310</td><td class=\"num\">2653</td><td class=\"num\">4175</td><td class=\"num\">9581</td><td class=\"num\">11 533</td></tr></tbody></table></div><p>推斷 (deduce) 這種元素在化合物中可能顯示的最高氧化態。</p><p>先輸入正負號，再輸入數字，例如 +3。</p>",
+      stem: "<p>下表列出某第一行過渡元素的首六個逐級電離能。</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>逐級電離能 / kJ mol<sup>−1</sup></caption><thead><tr><th scope=\"col\"></th><th class=\"num\" scope=\"col\">第 1</th><th class=\"num\" scope=\"col\">第 2</th><th class=\"num\" scope=\"col\">第 3</th><th class=\"num\" scope=\"col\">第 4</th><th class=\"num\" scope=\"col\">第 5</th><th class=\"num\" scope=\"col\">第 6</th></tr></thead><tbody><tr><th scope=\"row\">電離能</th><td class=\"num\">659</td><td class=\"num\">1310</td><td class=\"num\">2653</td><td class=\"num\">4175</td><td class=\"num\">9581</td><td class=\"num\">11 533</td></tr></tbody></table></div><p>推斷 (deduce) 這種元素在化合物中可能顯示的最高氧化態。</p><p>先輸入正負號，再輸入數字，例如 +3。</p>",
       hints: [
         // EN: Find the increase from each value to the next.
         "求出每個數值到下一個數值的升幅。",

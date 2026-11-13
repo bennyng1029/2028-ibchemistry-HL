@@ -897,10 +897,10 @@ S1.i18n.register('ja', 's1-4', {
     "The empirical formula gives the ratio. To find the real molecule you need one more fact: the molar mass. It usually comes from another experiment, often a gas measurement (topic 1.5).": "組成式からわかるのは比です。実際の分子を知るには、もう 1 つ情報が必要です。モル質量です。モル質量はふつう別の実験から求め、気体の測定を使うことがよくあります（トピック 1.5）。",
 
     // Empirical and molecular formulas > li
-    "Work out the mass of the empirical formula, from <i>A</i><sub>r</sub> values.": "<i>A</i><sub>r</sub> の値から、組成式 1 つ分の質量（組成式の質量）を求めます。",
+    "Work out the mass of the empirical formula, from <i>A</i><sub>r</sub> values.": "<i>A</i><sub>r</sub> の値から、組成式 1 つ分の質量（組成式の式量）を求めます。",
 
     // Empirical and molecular formulas > li
-    "Divide the molar mass by the empirical formula mass. The answer should be a whole number.": "モル質量を、組成式の質量で割ります。答えは整数になるはずです。",
+    "Divide the molar mass by the empirical formula mass. The answer should be a whole number.": "モル質量を、組成式の式量で割ります。答えは整数になるはずです。",
 
     // Empirical and molecular formulas > li
     "Multiply every subscript in the empirical formula by that whole number.": "組成式のすべての下付きの数字に、その整数をかけます。",
@@ -912,7 +912,7 @@ S1.i18n.register('ja', 's1-4', {
     "The compound in the last worked example has the empirical formula <span class=\"chem\">C2H4O</span>. Its molar mass is 88.12 g mol<sup>−1</sup>. Determine its molecular formula.": "前の例題の化合物の組成式は <span class=\"chem\">C2H4O</span> です。モル質量は 88.12 g mol<sup>−1</sup> です。分子式を求めなさい。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Find the empirical formula mass": "組成式の質量を求める",
+    "Find the empirical formula mass": "組成式の式量を求める",
 
     // Empirical and molecular formulas > worked example > p
     "You need to know how heavy one “unit” of the ratio is.": "比の「1 つ分」がどれだけの重さなのかを知る必要があります。",
@@ -939,10 +939,10 @@ S1.i18n.register('ja', 's1-4', {
     "Find the mass of one CH<sub>2</sub>O unit first.": "まず、CH<sub>2</sub>O 1 つ分の質量を求めましょう。",
 
     // Empirical and molecular formulas > try it > li
-    "The empirical formula mass is 30.03. Divide 180.18 by it to see how many units make one molecule.": "組成式の質量は 30.03 です。180.18 をこの値で割ると、1 分子が組成式いくつ分でできているかがわかります。",
+    "The empirical formula mass is 30.03. Divide 180.18 by it to see how many units make one molecule.": "組成式の式量は 30.03 です。180.18 をこの値で割ると、1 分子が組成式いくつ分でできているかがわかります。",
 
     // Empirical and molecular formulas > try it > maths line
-    "empirical formula mass = 12.01 + 2(1.01) + 16.00 = 30.03": "組成式の質量 = 12.01 + 2(1.01) + 16.00 = 30.03",
+    "empirical formula mass = 12.01 + 2(1.01) + 16.00 = 30.03": "組成式の式量 = 12.01 + 2(1.01) + 16.00 = 30.03",
 
     // Empirical and molecular formulas > try it > p
     "The molecular formula is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>, so there are <strong>6</strong> carbon atoms.": "分子式は C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> なので、炭素原子は <strong>6</strong> 個です。",
@@ -1236,7 +1236,7 @@ S1.i18n.register('ja', 's1-4', {
     "Pour the solution through a funnel into the volumetric flask. Rinse the beaker, the stirring rod and the funnel with distilled water, and add the <strong>rinsings</strong> to the flask.": "溶液を、ろうとを使ってメスフラスコに注ぎます。ビーカー、ガラス棒、ろうとを蒸留水ですすぎ、その<strong>洗液</strong>もフラスコに加えます。",
 
     // Concentration of solutions > li
-    "Add distilled water until the bottom of the meniscus sits on the <strong>mark</strong>. Add the last drops with a dropping pipette.": "メニスカス（液面のくぼみ）の底が<strong>標線</strong>に合うまで、蒸留水を加えます。最後の数滴はスポイトで加えます。",
+    "Add distilled water until the bottom of the meniscus sits on the <strong>mark</strong>. Add the last drops with a dropping pipette.": "メニスカスの底が<strong>標線</strong>に合うまで、蒸留水を加えます。最後の数滴はスポイトで加えます。",
 
     // Concentration of solutions > li
     "Stopper the flask and <strong>invert</strong> it several times to mix.": "フラスコに栓をして、何回か<strong>逆さにして</strong>混ぜます。",
@@ -1681,7 +1681,7 @@ S1.i18n.register('ja', 's1-4', {
     "Linking it up": "つなげて考える",
 
     // Linking it up > p
-    "The guide lists linking questions that connect this topic to others. Here are short answers to four of them.": "『指導の手引き』には、このトピックをほかのトピックと結びつける「つながりの問い (linking questions)」が載っています。そのうち 4 つに、短く答えてみます。",
+    "The guide lists linking questions that connect this topic to others. Here are short answers to four of them.": "『指導の手引き』には、このトピックをほかのトピックと結びつける「つながりの問い (linking question)」が載っています。そのうち 4 つに、短く答えてみます。",
 
     // Linking it up > h3
     "How can molar masses be used with chemical equations to determine the masses of the products of a reaction?": "反応の生成物の質量を求めるとき、モル質量は化学反応式とどのように組み合わせて使えるでしょうか。",
@@ -2132,7 +2132,7 @@ S1.i18n.register('ja', 's1-4', {
     "Molar mass, if known / g mol<sup>−1</sup> (optional)": "モル質量（わかる場合）/ g mol<sup>−1</sup>（任意）",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Empirical formula mass": "組成式の質量",
+    "Empirical formula mass": "組成式の式量",
 
     // widget string (assets/js/widgets-s1-4.js)
     "“{sym}” is not an element symbol with a relative atomic mass in this tool. Check the spelling.": "「{sym}」は、このツールに相対原子質量が入っている元素記号ではありません。つづりを確かめましょう。",
@@ -2201,10 +2201,10 @@ S1.i18n.register('ja', 's1-4', {
     "empirical formula = {formula}": "組成式 = {formula}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "empirical formula mass = {calc}": "組成式の質量 = {calc}",
+    "empirical formula mass = {calc}": "組成式の式量 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "<i>M</i> ÷ empirical formula mass = {calc}": "<i>M</i> ÷ 組成式の質量 = {calc}",
+    "<i>M</i> ÷ empirical formula mass = {calc}": "<i>M</i> ÷ 組成式の式量 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
     "molecular formula = the empirical formula = {formula}": "分子式 = 組成式 = {formula}",

@@ -237,7 +237,7 @@ S1.i18n.register('ja', 's3-2', {
     "Check each atom": "原子を 1 個ずつ確かめる",
 
     // Six ways to write one molecule > worked example > p
-    "Counting bonds catches most drawing errors.": "結合の数を数えると、描きまちがいのほとんどが見つかります。",
+    "Counting bonds catches most drawing errors.": "結合の数を数えると、描き間違いのほとんどが見つかります。",
 
     // Six ways to write one molecule > worked example > p
     "Each carbon has 4 bonds. The oxygen has 2. Each hydrogen has 1. The drawing has 3 C, 8 H and 1 O, which matches <span class=\"chem\">CH3CH(OH)CH3</span>.": "どの炭素も結合が 4 本あります。酸素は 2 本です。どの水素も 1 本です。図には C が 3 個、H が 8 個、O が 1 個あり、<span class=\"chem\">CH3CH(OH)CH3</span> と合っています。",
@@ -1536,7 +1536,7 @@ S1.i18n.register('ja', 's3-2', {
 
     // Structural isomers > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "Chain isomers": "分岐鎖異性体 (chain isomers)",
+    "Chain isomers": "骨格異性体 (chain isomers)",
 
     // Structural isomers > table > td
     "The carbon chain: straight in one, branched in the other (or branched in a different way).": "炭素鎖。一方は直鎖で、もう一方は枝分かれしている（または、枝分かれのしかたが違う）。",
@@ -1559,7 +1559,7 @@ S1.i18n.register('ja', 's3-2', {
     "Pairs of classes that share a general formula give functional group isomers: alcohols and ethers, aldehydes and ketones, carboxylic acids and esters.": "一般式が同じ 2 つの種類の間で、官能基異性体ができます。アルコールとエーテル、アルデヒドとケトン、カルボン酸とエステルです。",
 
     // Structural isomers > p
-    "To decide the type, ask three questions in order. Are the functional groups the same? If not, they are functional group isomers. If yes, is the carbon chain the same? If not, they are chain isomers. If yes, only the position of the group is different.": "タイプを決めるには、3 つの質問を順番に考えます。官能基は同じですか。違うなら、官能基異性体です。同じなら、炭素鎖は同じですか。違うなら、分岐鎖異性体です。同じなら、違うのは基の位置だけです。",
+    "To decide the type, ask three questions in order. Are the functional groups the same? If not, they are functional group isomers. If yes, is the carbon chain the same? If not, they are chain isomers. If yes, only the position of the group is different.": "タイプを決めるには、3 つの質問を順番に考えます。官能基は同じですか。違うなら、官能基異性体です。同じなら、炭素鎖は同じですか。違うなら、骨格異性体です。同じなら、違うのは基の位置だけです。",
 
     // Structural isomers > common mistake > p
     "Bending a chain or turning a drawing over does not make a new isomer. The atoms are still joined in the same order. To test two drawings, name them both. Same name means same molecule.": "鎖を曲げても、図を裏返しても、新しい異性体にはなりません。原子のつながる順番が変わらないからです。2 つの図をくらべるには、両方に名前をつけましょう。名前が同じなら、同じ分子です。",
@@ -1665,7 +1665,7 @@ S1.i18n.register('ja', 's3-2', {
     "7 structural isomers: 4 alcohols and 3 ethers.": "構造異性体は 7 種類：アルコール 4 種類とエーテル 3 種類。",
 
     // Structural isomers > widget > data-title attribute
-    "Isomer builder": "異性体を組み立てよう",
+    "Isomer builder": "異性体ビルダー",
 
     // Structural isomers > widget > figcaption
     "Start with <span class=\"chem\">C4H10</span>, then try the others. The builder draws open chains only. Names of ethers, esters and amines are shown for interest: you are not asked to name those classes.": "まず <span class=\"chem\">C4H10</span> から始めて、ほかの式も試しましょう。この教材で描けるのは、環のない鎖だけです。エーテル、エステル、アミンの名前は参考として出ます。これらの種類に名前をつけることは求められません。",
@@ -2118,7 +2118,7 @@ S1.i18n.register('ja', 's3-2', {
     "That carbon atom is part of the hydrocarbon chain. A functional group is the part that is not only C–C and C–H single bonds.": "その炭素原子は、炭化水素の鎖の一部です。官能基は、C–C 単結合と C–H 単結合だけではない部分です。",
 
     // widget string (assets/js/widgets-s3-2.js)
-    "You have already named that group. Look for another one.": "その基は、もう名前を答えました。別の基をさがしましょう。",
+    "You have already named that group. Look for another one.": "その基は、もう名前を答えました。別の基を探しましょう。",
 
     // widget string (assets/js/widgets-s3-2.js)
     "Good: the highlighted atoms form one functional group. What is the name of the GROUP?": "いいですね。色のついた原子が 1 つの官能基をつくっています。この「基 (group)」の名前は何ですか。",
@@ -2223,7 +2223,7 @@ S1.i18n.register('ja', 's3-2', {
     "Your predicted boiling point in °C": "予測した沸点（°C）",
 
     // widget string (assets/js/widgets-s3-2.js)
-    "Check my prediction": "予測を確かめる",
+    "Check my prediction": "予測の答え合わせ",
 
     // widget string (assets/js/widgets-s3-2.js)
     "Predict the next member: the one with {n} carbon atoms, {f}. What will its boiling point be, in °C?": "次のメンバーを予測しましょう。炭素原子が {n} 個の {f} です。沸点は何 °C になるでしょうか。",
@@ -2244,7 +2244,7 @@ S1.i18n.register('ja', 's3-2', {
     "Hide the last member again": "最後のメンバーをもう一度かくす",
 
     // widget string (assets/js/widgets-s3-2.js)
-    "Completed": "完了",
+    "Completed": "完了した数",
 
     // widget string (assets/js/widgets-s3-2.js)
     "Limits": "範囲",
@@ -2382,7 +2382,7 @@ S1.i18n.register('ja', 's3-2', {
     "Correct. Nothing is attached except the group named by the ending.": "正解です。語尾で表す基のほかには、何もついていません。",
 
     // widget string (assets/js/widgets-s3-2.js)
-    "Something is attached to the parent chain. Look for a line that leaves the highlighted chain, or a halogen atom.": "主鎖に何かがついています。色のついた鎖から出ている線か、ハロゲン原子をさがしましょう。",
+    "Something is attached to the parent chain. Look for a line that leaves the highlighted chain, or a halogen atom.": "主鎖に何かがついています。色のついた鎖から出ている線か、ハロゲン原子を探しましょう。",
 
     // widget string (assets/js/widgets-s3-2.js)
     "Not this one. Check each attached group: which numbered carbon is it on, and is it –CH₃ (methyl), –CH₂CH₃ (ethyl) or a halogen?": "これではありません。ついている基を 1 つずつ確かめましょう。何番の炭素についていますか。それは –CH₃ (methyl)、–CH₂CH₃ (ethyl)、ハロゲンのどれですか。",
@@ -2523,7 +2523,7 @@ S1.i18n.register('ja', 's3-2', {
     "Start a new drawing": "新しく描き直す",
 
     // widget string (assets/js/widgets-s3-2.js)
-    "Check this isomer": "この異性体を確認",
+    "Check this isomer": "この異性体の答え合わせ",
 
     // widget string (assets/js/widgets-s3-2.js)
     "Not finished yet. You still need to add: {list}.": "まだ完成していません。あと、次の原子をつける必要があります：{list}。",
@@ -2535,10 +2535,10 @@ S1.i18n.register('ja', 's3-2', {
     "This is the same molecule as number {n}, {name}. The atoms are joined in the same order; bending or turning a drawing does not make a new isomer.": "これは {n} 番の {name} と同じ分子です。原子のつながる順番が同じです。図を曲げても回しても、新しい異性体にはなりません。",
 
     // widget string (assets/js/widgets-s3-2.js)
-    "The formula is right and this is a real structural isomer, but it is not one that this task counts (read the task above). Keep looking for the others.": "式は合っていて、これも実在する構造異性体です。ただし、この課題で数えるものではありません（上の課題を読みましょう）。ほかの異性体をさがしましょう。",
+    "The formula is right and this is a real structural isomer, but it is not one that this task counts (read the task above). Keep looking for the others.": "式は合っていて、これも実在する構造異性体です。ただし、この課題で数えるものではありません（上の課題を読みましょう）。ほかの異性体を探しましょう。",
 
     // widget string (assets/js/widgets-s3-2.js)
-    "It is a chain isomer of {n}: same functional group, different carbon chain.": "{n} の分岐鎖異性体です。官能基は同じで、炭素鎖が違います。",
+    "It is a chain isomer of {n}: same functional group, different carbon chain.": "{n} の骨格異性体です。官能基は同じで、炭素鎖が違います。",
 
     // widget string (assets/js/widgets-s3-2.js)
     "It is a position isomer of {n}: same carbon chain, group at a different position.": "{n} の位置異性体です。炭素鎖は同じで、基の位置が違います。",

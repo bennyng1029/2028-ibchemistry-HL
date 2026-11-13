@@ -421,7 +421,7 @@ S1.i18n.register('ja', 's2-1', {
     "Check that the total positive charge equals the total negative charge, and that the numbers are the smallest whole numbers.": "正の電荷の合計と負の電荷の合計が等しいことを確かめます。数がいちばん小さい整数になっていることも確かめます。",
 
     // Formulas and names of ionic compounds > widget > data-title attribute
-    "Ionic formula builder": "イオンの化学式を組み立てよう",
+    "Ionic formula builder": "イオン化合物の化学式ビルダー",
 
     // Formulas and names of ionic compounds > widget > figcaption
     "Choose a cation and an anion. Each tile is one ion, and its width is its charge. Add ions until the two rows are the same length. Then press Quiz me to build a compound from its name. The builder only balances charges. Some of the combinations you can make are not stable compounds in real life.": "陽イオンと陰イオンを選びましょう。タイル 1 枚がイオン 1 個で、タイルの幅が電荷を表します。2 つの列が同じ長さになるまで、イオンを増やしましょう。次に「クイズに挑戦」を押して、英語の名前から化合物を組み立てましょう。この教材は電荷をつり合わせるだけです。つくれる組み合わせの中には、実際には安定な化合物として存在しないものもあります。",
@@ -430,7 +430,7 @@ S1.i18n.register('ja', 's2-1', {
     "Formula with a polyatomic ion: aluminium sulfate": "多原子イオンを含む化学式：硫酸アルミニウム (aluminium sulfate)",
 
     // Formulas and names of ionic compounds > worked example > p
-    "Deduce the formula of aluminium sulfate.": "硫酸アルミニウム (aluminium sulfate) の化学式を導きましょう (deduce)。",
+    "Deduce the formula of aluminium sulfate.": "硫酸アルミニウム (aluminium sulfate) の化学式を導きなさい (deduce)。",
 
     // Formulas and names of ionic compounds > worked example > data-title attribute
     // Lattice enthalpy: how strong is the ionic bonding? > worked example > data-title attribute
@@ -488,10 +488,10 @@ S1.i18n.register('ja', 's2-1', {
     "Two polyatomic ions: ammonium carbonate": "多原子イオンが 2 つ：炭酸アンモニウム (ammonium carbonate)",
 
     // Formulas and names of ionic compounds > worked example > p
-    "Deduce the formula of ammonium carbonate.": "炭酸アンモニウム (ammonium carbonate) の化学式を導きましょう (deduce)。",
+    "Deduce the formula of ammonium carbonate.": "炭酸アンモニウム (ammonium carbonate) の化学式を導きなさい (deduce)。",
 
     // Formulas and names of ionic compounds > worked example > p
-    "Both ions are polyatomic. Ammonium is the positive one.": "どちらのイオンも多原子イオンです。ammonium（アンモニウムイオン）が正のイオンで、carbonate は炭酸イオンです。",
+    "Both ions are polyatomic. Ammonium is the positive one.": "どちらのイオンも多原子イオンです。ammonium（アンモニウムイオン）が正のイオンです。",
 
     // Formulas and names of ionic compounds > worked example > maths line
     "NH<sub>4</sub><sup>+</sup> and CO<sub>3</sub><sup>2−</sup>": "NH<sub>4</sub><sup>+</sup> と CO<sub>3</sub><sup>2−</sup>",
@@ -527,7 +527,7 @@ S1.i18n.register('ja', 's2-1', {
     "A Roman numeral in the name: iron(III) oxide": "名前の中のローマ数字：酸化鉄(III) (iron(III) oxide)",
 
     // Formulas and names of ionic compounds > worked example > p
-    "Deduce the formula of iron(III) oxide.": "酸化鉄(III) (iron(III) oxide) の化学式を導きましょう (deduce)。",
+    "Deduce the formula of iron(III) oxide.": "酸化鉄(III) (iron(III) oxide) の化学式を導きなさい (deduce)。",
 
     // Formulas and names of ionic compounds > worked example > data-title attribute
     "Read the charge of the metal from the name": "名前から金属の電荷を読み取る",
@@ -560,13 +560,13 @@ S1.i18n.register('ja', 's2-1', {
     "<span class=\"chem\">Fe2O3</span>": "<span class=\"chem\">Fe2O3</span>",
 
     // Formulas and names of ionic compounds > common mistake > p
-    "Brackets change the meaning. <span class=\"chem\">Mg(OH)2</span> has two hydroxide ions: 2 oxygen atoms and 2 hydrogen atoms. Without brackets, <span class=\"mono\">MgOH<sub>2</sub></span> would mean 1 oxygen atom and 2 hydrogen atoms, which is wrong. Also use the simplest ratio: magnesium oxide is <span class=\"chem\">MgO</span>, not <span class=\"mono\">Mg<sub>2</sub>O<sub>2</sub></span>.": "括弧があるかないかで、意味が変わります。<span class=\"chem\">Mg(OH)2</span> には水酸化物イオンが 2 個あります。酸素原子 2 個と水素原子 2 個です。括弧のない <span class=\"mono\">MgOH<sub>2</sub></span> は、酸素原子 1 個と水素原子 2 個という意味になり、まちがいです。また、いちばん簡単な比を使いましょう。酸化マグネシウムは <span class=\"chem\">MgO</span> で、<span class=\"mono\">Mg<sub>2</sub>O<sub>2</sub></span> ではありません。",
+    "Brackets change the meaning. <span class=\"chem\">Mg(OH)2</span> has two hydroxide ions: 2 oxygen atoms and 2 hydrogen atoms. Without brackets, <span class=\"mono\">MgOH<sub>2</sub></span> would mean 1 oxygen atom and 2 hydrogen atoms, which is wrong. Also use the simplest ratio: magnesium oxide is <span class=\"chem\">MgO</span>, not <span class=\"mono\">Mg<sub>2</sub>O<sub>2</sub></span>.": "括弧があるかないかで、意味が変わります。<span class=\"chem\">Mg(OH)2</span> には水酸化物イオンが 2 個あります。酸素原子 2 個と水素原子 2 個です。括弧のない <span class=\"mono\">MgOH<sub>2</sub></span> は、酸素原子 1 個と水素原子 2 個という意味になり、間違いです。また、いちばん簡単な比を使いましょう。酸化マグネシウムは <span class=\"chem\">MgO</span> で、<span class=\"mono\">Mg<sub>2</sub>O<sub>2</sub></span> ではありません。",
 
     // Formulas and names of ionic compounds > try it > data-label attribute
     "Number of atoms": "原子の数",
 
     // Formulas and names of ionic compounds > try it > p
-    "Deduce the formula of ammonium sulfate. How many atoms, in total, are in one formula unit?": "硫酸アンモニウム (ammonium sulfate) の化学式を導きましょう (deduce)。組成式単位 (formula unit) 1 つの中に、原子は全部で何個ありますか。",
+    "Deduce the formula of ammonium sulfate. How many atoms, in total, are in one formula unit?": "硫酸アンモニウム (ammonium sulfate) の化学式を導きなさい (deduce)。組成式単位 (formula unit) 1 つの中に、原子は全部で何個ありますか。",
 
     // Formulas and names of ionic compounds > try it > li
     "The ions are <span class=\"chem\">NH4+</span> and <span class=\"chem\">SO4^2-</span>. How many ammonium ions balance one sulfate ion?": "イオンは <span class=\"chem\">NH4+</span> と <span class=\"chem\">SO4^2-</span> です。硫酸イオン 1 個とつり合うアンモニウムイオンは何個ですか。",
@@ -623,7 +623,7 @@ S1.i18n.register('ja', 's2-1', {
     "Name from a formula": "化学式から名前へ",
 
     // Formulas and names of ionic compounds > worked example > p
-    "Deduce the name of <span class=\"chem\">Cu(NO3)2</span>.": "<span class=\"chem\">Cu(NO3)2</span> の名前（英語名）を導きましょう (deduce)。",
+    "Deduce the name of <span class=\"chem\">Cu(NO3)2</span>.": "<span class=\"chem\">Cu(NO3)2</span> の名前（英語名）を導きなさい (deduce)。",
 
     // Formulas and names of ionic compounds > worked example > data-title attribute
     "Split the formula into its ions": "化学式をイオンに分ける",
@@ -828,7 +828,7 @@ S1.i18n.register('ja', 's2-1', {
     "Match the property to its explanation": "性質と説明を組み合わせよう",
 
     // Explaining the properties of ionic compounds > widget > figcaption
-    "Choose the letter of the explanation that fits each property, then press Check. Two of the explanations are wrong ideas that do not fit any ionic compound. Find out why they are wrong.": "それぞれの性質に合う説明の記号を選んでから、「確認」を押しましょう。説明のうち 2 つは、どのイオン化合物にも当てはまらない、まちがった考え方です。なぜまちがいなのかも確かめましょう。",
+    "Choose the letter of the explanation that fits each property, then press Check. Two of the explanations are wrong ideas that do not fit any ionic compound. Find out why they are wrong.": "それぞれの性質に合う説明の記号を選んでから、「確認」を押しましょう。説明のうち 2 つは、どのイオン化合物にも当てはまらない、間違った考え方です。なぜ間違いなのかも確かめましょう。",
 
     // Explaining the properties of ionic compounds > exam tip (shown in English + translation) > p
     "For conductivity, the mark is for “ions are free to move” (or “mobile ions”) when molten or dissolved, and “ions are in fixed positions” in the solid. For melting point, the mark is for “strong electrostatic attraction between oppositely charged ions” that needs “a lot of energy to overcome”.": "電気伝導性では、融解した状態や水に溶けた状態について「ions are free to move（イオンが自由に動ける）」（または「mobile ions」）、固体について「ions are in fixed positions（イオンが決まった位置に固定されている）」と書くと点になります。融点では、「strong electrostatic attraction between oppositely charged ions（反対の電荷をもつイオンの間の強い静電気的な引力）」に打ち勝つのに「a lot of energy（大きなエネルギー）」が必要だと書くと点になります。",
@@ -939,7 +939,7 @@ S1.i18n.register('ja', 's2-1', {
     "Comparing melting points": "融点をくらべる",
 
     // Lattice enthalpy: how strong is the ionic bonding? > worked example > p
-    "Magnesium oxide melts at 2852 °C. Sodium chloride melts at 801 °C. Explain why the melting point of magnesium oxide is much higher. Use the data booklet.": "酸化マグネシウムは 2852 °C で融解します。塩化ナトリウムは 801 °C で融解します。酸化マグネシウムの融点がずっと高い理由を説明しましょう (explain)。データブックレットを使いましょう。",
+    "Magnesium oxide melts at 2852 °C. Sodium chloride melts at 801 °C. Explain why the melting point of magnesium oxide is much higher. Use the data booklet.": "酸化マグネシウムは 2852 °C で融解します。塩化ナトリウムは 801 °C で融解します。酸化マグネシウムの融点がずっと高い理由を説明しなさい (explain)。データブックレットを使いましょう。",
 
     // Lattice enthalpy: how strong is the ionic bonding? > worked example > p
     "The explanation is about ions, so start by naming them with their charges.": "イオンについての説明なので、まず、イオンを電荷つきで書くところから始めます。",
@@ -993,7 +993,7 @@ S1.i18n.register('ja', 's2-1', {
     "Sum of the ionic radii": "イオン半径の和",
 
     // Lattice enthalpy: how strong is the ionic bonding? > try it > p
-    "The ionic radius of <span class=\"chem\">K+</span> is 138 pm and the ionic radius of <span class=\"chem\">Br-</span> is 196 pm. Estimate the distance between the centres of a potassium ion and a bromide ion that touch in potassium bromide.": "<span class=\"chem\">K+</span> のイオン半径は 138 pm、<span class=\"chem\">Br-</span> のイオン半径は 196 pm です。臭化カリウムの中で接しているカリウムイオンと臭化物イオンについて、中心どうしの距離を見積もりましょう (estimate)。",
+    "The ionic radius of <span class=\"chem\">K+</span> is 138 pm and the ionic radius of <span class=\"chem\">Br-</span> is 196 pm. Estimate the distance between the centres of a potassium ion and a bromide ion that touch in potassium bromide.": "<span class=\"chem\">K+</span> のイオン半径は 138 pm、<span class=\"chem\">Br-</span> のイオン半径は 196 pm です。臭化カリウムの中で接しているカリウムイオンと臭化物イオンについて、中心どうしの距離を見積もりなさい (estimate)。",
 
     // Lattice enthalpy: how strong is the ionic bonding? > try it > li
     "When two spheres touch, the distance between their centres is one radius plus the other radius.": "2 つの球が接しているとき、中心どうしの距離は、一方の半径ともう一方の半径の和です。",
@@ -1035,7 +1035,7 @@ S1.i18n.register('ja', 's2-1', {
     "Linking it up": "つなげて考える",
 
     // Linking it up > p
-    "The IB guide asks these linking questions. Short answers are enough at this stage.": "IB の『指導の手引き』には、次の「つながりの問い」（linking question）があります。今の段階では、短い答えで十分です。",
+    "The IB guide asks these linking questions. Short answers are enough at this stage.": "IB の『指導の手引き』には、次の「つながりの問い (linking question)」があります。今の段階では、短い答えで十分です。",
 
     // Linking it up > h3
     "How does the position of an element in the periodic table relate to the charge of its ion(s)?": "周期表での元素の位置は、その元素のイオンの電荷とどう関係していますか。",
@@ -1489,10 +1489,10 @@ S1.i18n.register('ja', 's2-1', {
     "Quiz me": "クイズに挑戦",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "Check my formula": "化学式を確認",
+    "Check my formula": "答え合わせ",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "Back to free build": "自由に組み立てる",
+    "Back to free build": "自由に作るモードに戻る",
 
     // widget string (assets/js/widgets-s2-1.js)
     "Total positive charge": "正の電荷の合計",

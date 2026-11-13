@@ -111,7 +111,7 @@ S1.i18n.register('zh-Hant', 'ui', {
     "No questions match this selection yet.": "暫時沒有符合這個選擇的題目。",
     "Not correct": "不正確",
     "Not needed for IB": "IB 不要求",
-    "Not quite": "還差一點",
+    "Not quite": "仍未正確",
     "Not this one": "不是這個",
     "Not yet": "仍未正確",
     "Now check your significant figures. Give your answer to {a} or {b} significant figures.": "現在檢查有效數字。答案請取至 {a} 位或 {b} 位有效數字。",

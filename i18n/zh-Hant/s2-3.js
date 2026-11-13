@@ -808,7 +808,7 @@ S1.i18n.register('zh-Hant', 's2-3', {
     "4s only": "只有 4s",
 
     // widget string (assets/js/widgets-s2-3.js)
-    "Predict first.": "先預測。",
+    "Predict first.": "請先預測。",
 
     // widget string (assets/js/widgets-s2-3.js)
     "Your prediction": "你的預測",

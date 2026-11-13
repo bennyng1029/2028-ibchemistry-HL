@@ -27,7 +27,7 @@ S1.i18n.register('ja', 's3-2h.q', {
         "2 つの炭素原子のどちらにも、異なる 2 つの原子または基が結合していなければなりません。",
       ],
       // EN: <p>For <i>cis–trans</i> isomers you need restricted rotation (the C=C bond) and two different groups on <strong>each</strong> carbon of the double bond.</p><p>In but-2-ene, <span class="chem">CH<sub>3</sub>CH=CHCH<sub>3</sub><span></span></span>, each carbon of the double bond holds one H and one <span class="chem">CH<sub>3</sub><span></span></span>. The two methyl groups can be on the same side (<i>cis</i>) or on opposite sides (<i>trans</i>).</p>
-      solution: "<p><i>cis–trans</i> 異性体（シス-トランス異性体）ができるには、回転が制限されていること（C=C 結合）と、二重結合の炭素の<strong>それぞれ</strong>に異なる 2 つの基がついていることが必要です。</p><p>but-2-ene <span class=\"chem\">CH<sub>3</sub>CH=CHCH<sub>3</sub><span></span></span> では、二重結合のどちらの炭素にも H が 1 個と <span class=\"chem\">CH<sub>3</sub><span></span></span> が 1 個ついています。2 つのメチル基は、同じ側（<i>cis</i>）にも反対側（<i>trans</i>）にもなれます。</p>",
+      solution: "<p><i>cis–trans</i> 異性体（シス-トランス異性体）ができるには、回転が制限されていること（C=C 結合）と、二重結合の炭素の<strong>それぞれ</strong>に異なる 2 つの基がついていることが必要です。</p><p>but-2-ene <span class=\"chem\">CH<sub>3</sub>CH=CHCH<sub>3</sub><span></span></span> では、二重結合のどちらの炭素にも H が 1 個と <span class=\"chem\">CH<sub>3</sub><span></span></span> が 1 個ついています。2 つのメチル基は、同じ側 (<i>cis</i>) にも反対側 (<i>trans</i>) にもなれます。</p>",
       misconception: {
         // EN (option A): In but-1-ene the first carbon of the double bond holds two hydrogen atoms. Swapping two identical atoms gives the same molecule.
         "0": "but-1-ene では、二重結合の 1 つ目の炭素に水素原子が 2 個ついています。同じ原子 2 個を入れ替えても、同じ分子になります。",
@@ -93,7 +93,7 @@ S1.i18n.register('ja', 's3-2h.q', {
         "環では、置換基と水素原子を 1 個ずつもつ環の炭素が、別々に 2 個必要です。アルケンでは、C=C のそれぞれの炭素に異なる 2 つの基が必要です。",
       ],
       // EN: <p>Two things are needed: restricted rotation (a C=C bond or a ring) and two different groups on each of two carbon atoms.</p><ul><li>1,2-dimethylcyclopropane: yes. The two methyl groups can be on the same face of the ring (<i>cis</i>) or on opposite faces (<i>trans</i>).</li><li>1,1-dimethylcyclobutane: no. Both groups are on one carbon.</li><li>pent-2-ene: yes. One carbon of C=C holds H and <span class="chem">CH<sub>3</sub><span></span></span>, the other holds H and <span class="chem">CH<sub>2</sub>CH<sub>3</sub><span></span></span>.</li><li>2-methylbut-2-ene: no. One carbon of C=C holds two <span class="chem">CH<sub>3</sub><span></span></span> groups.</li><li>1,3-dimethylcyclobutane: yes. The methyl groups are on two different ring carbons, so they can be on the same face or on opposite faces.</li></ul>
-      solution: "<p>必要なことは 2 つです。回転が制限されていること（C=C 結合または環）と、2 個の炭素原子のそれぞれに異なる 2 つの基がついていることです。</p><ul><li>1,2-dimethylcyclopropane：はい。2 つのメチル基は、環の同じ面（<i>cis</i>）にも反対の面（<i>trans</i>）にもなれます。</li><li>1,1-dimethylcyclobutane：いいえ。2 つの基が同じ炭素についています。</li><li>pent-2-ene：はい。C=C の片方の炭素には H と <span class=\"chem\">CH<sub>3</sub><span></span></span>、もう片方には H と <span class=\"chem\">CH<sub>2</sub>CH<sub>3</sub><span></span></span> がついています。</li><li>2-methylbut-2-ene：いいえ。C=C の片方の炭素に <span class=\"chem\">CH<sub>3</sub><span></span></span> 基が 2 個ついています。</li><li>1,3-dimethylcyclobutane：はい。メチル基は環の別々の炭素についているので、同じ面にも反対の面にもなれます。</li></ul>",
+      solution: "<p>必要なことは 2 つです。回転が制限されていること（C=C 結合または環）と、2 個の炭素原子のそれぞれに異なる 2 つの基がついていることです。</p><ul><li>1,2-dimethylcyclopropane：はい。2 つのメチル基は、環の同じ面 (<i>cis</i>) にも反対の面 (<i>trans</i>) にもなれます。</li><li>1,1-dimethylcyclobutane：いいえ。2 つの基が同じ炭素についています。</li><li>pent-2-ene：はい。C=C の片方の炭素には H と <span class=\"chem\">CH<sub>3</sub><span></span></span>、もう片方には H と <span class=\"chem\">CH<sub>2</sub>CH<sub>3</sub><span></span></span> がついています。</li><li>2-methylbut-2-ene：いいえ。C=C の片方の炭素に <span class=\"chem\">CH<sub>3</sub><span></span></span> 基が 2 個ついています。</li><li>1,3-dimethylcyclobutane：はい。メチル基は環の別々の炭素についているので、同じ面にも反対の面にもなれます。</li></ul>",
       misconception: {
         // EN (option B): In 1,1-dimethylcyclobutane both methyl groups are on the same carbon. One is above the ring and one below it in every case, so there is only one arrangement.
         "1": "1,1-dimethylcyclobutane では、2 つのメチル基が同じ炭素についています。必ず 1 つが環の上、もう 1 つが環の下になるので、配置は 1 通りだけです。",
@@ -630,7 +630,7 @@ S1.i18n.register('ja', 's3-2h.q', {
       solution: "<p>1715 cm<sup>−1</sup> は 1700–1750 cm<sup>−1</sup> の範囲に入ります。この強い吸収は C=O 結合によるものです。化合物はアルデヒド、ケトン、カルボン酸、エステルのどれかです。</p>",
       misconception: {
         // EN (option A): C–O absorbs at 1050–1410 cm<sup>−1</sup>. The single bond and the double bond are easy to mix up, so check the table row carefully.
-        "0": "C–O の吸収は 1050–1410 cm<sup>−1</sup> です。単結合と二重結合はまちがえやすいので、表の行をよく確かめましょう。",
+        "0": "C–O の吸収は 1050–1410 cm<sup>−1</sup> です。単結合と二重結合は間違えやすいので、表の行をよく確かめましょう。",
         // EN (option B): C=C absorbs at 1620–1680 cm<sup>−1</sup>, and its absorption is medium to weak, not strong.
         "1": "C=C の吸収は 1620–1680 cm<sup>−1</sup> で、強さは中程度から弱く、強くはありません。",
         // EN (option D): O–H absorptions are broad and appear at much higher wavenumbers (2500–3000 or 3200–3600 cm<sup>−1</sup>).

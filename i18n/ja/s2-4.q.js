@@ -113,7 +113,7 @@ S1.i18n.register('ja', 's2-4.q', {
         "鋼を考えましょう。鉄に少しの炭素を加えたものです。炭素の量は決まっていますか。",
       ],
       // EN: <p>An alloy is a mixture of a metal and other metals or non-metals. It has enhanced properties, such as greater hardness.</p>
-      solution: "<p>合金は、金属と、ほかの金属または非金属との混合物です。もとの金属より優れた性質をもちます。たとえば、よりかたくなります。</p>",
+      solution: "<p>合金は、金属と、ほかの金属または非金属との混合物です。もとの金属より優れた性質をもちます。たとえば、より硬くなります。</p>",
       misconception: {
         // EN (option A): An alloy is a mixture, not a compound. The proportions of the elements can vary.
         "0": "合金は混合物で、化合物ではありません。元素の割合は変えられます。",
@@ -157,7 +157,7 @@ S1.i18n.register('ja', 's2-4.q', {
     // ── s2-4-q007 · mcq · foundation · SL · Structure 2.4.5 · 1 mark
     "s2-4-q007": {
       // EN: <p>Chloroethene, <span class="chem nowrap">CH<sub>2</sub>=CHCl</span>, forms an addition polymer. Which is the repeating unit of the polymer?</p>
-      stem: "<p>クロロエテン (chloroethene) <span class=\"chem nowrap\">CH<sub>2</sub>=CHCl</span> は付加重合体をつくります。この高分子の繰り返し単位はどれですか。</p>",
+      stem: "<p>chloroethene（クロロエテン）<span class=\"chem nowrap\">CH<sub>2</sub>=CHCl</span> は付加重合体をつくります。この高分子の繰り返し単位はどれですか。</p>",
       options: [
         // EN: <span class="chem nowrap">–CH=CCl–</span>
         "<span class=\"chem nowrap\">–CH=CCl–</span>",
@@ -250,7 +250,7 @@ S1.i18n.register('ja', 's2-4.q', {
         // EN: Calculate both coordinates: the difference and the average.
         "2 つの座標を計算しましょう。差と平均です。",
         // EN: Difference = 3.2 − 2.0. Average = (2.0 + 3.2) / 2. Now find the point.
-        "差 = 3.2 − 2.0。平均 = (2.0 + 3.2) / 2。次に、その点をさがしましょう。",
+        "差 = 3.2 − 2.0。平均 = (2.0 + 3.2) / 2。次に、その点を探しましょう。",
       ],
       // EN: <div class="worked__math">Δ<i>χ</i> = 3.2 − 2.0 = 1.2</div><div class="worked__math">average <i>χ</i> = (2.0 + 3.2) / 2 = 2.6</div><p>The point (2.6, 1.2) is in the polar covalent region. This agrees with the properties: tin(IV) chloride is a liquid made of molecules.</p>
       solution: "<div class=\"worked__math\">Δ<i>χ</i> = 3.2 − 2.0 = 1.2</div><div class=\"worked__math\">平均 <i>χ</i> = (2.0 + 3.2) / 2 = 2.6</div><p>点 (2.6, 1.2) は極性共有結合の領域にあります。これは性質と合っています。塩化スズ(IV) は、分子でできた液体です。</p>",
@@ -319,7 +319,7 @@ S1.i18n.register('ja', 's2-4.q', {
     // ── s2-4-q013 · short · exam · SL · Structure 2.4.3 · 2 marks
     "s2-4-q013": {
       // EN: <p>Steel is an alloy made by adding a small amount of carbon to iron. Explain why steel is harder than pure iron.</p>
-      stem: "<p>鋼は、鉄に少量の炭素を加えてつくる合金です。鋼が純粋な鉄よりかたい理由を説明しなさい (explain)。</p>",
+      stem: "<p>鋼は、鉄に少量の炭素を加えてつくる合金です。鋼が純粋な鉄より硬い理由を説明しなさい (explain)。</p>",
       hints: [
         // EN: Start with pure iron. Why is it malleable?
         "まず純粋な鉄から考えます。なぜ展性があるのでしょうか。",
@@ -327,9 +327,9 @@ S1.i18n.register('ja', 's2-4.q', {
         "大きさの違う原子は、規則正しい層をどうしますか。",
       ],
       // EN: <p>In pure iron the cations are all the same size and form regular layers that slide over each other. Carbon atoms have a different size and disrupt the layers, so they slide less easily. “The bonds are stronger” is not accepted.</p>
-      solution: "<p>純粋な鉄では、陽イオンの大きさがすべて同じで、規則正しい層をつくり、層はたがいにすべります。炭素原子は大きさが違うので層を乱し、層はすべりにくくなります。「結合が強くなる」という答えは認められません。</p>",
+      solution: "<p>純粋な鉄では、陽イオンの大き探すべて同じで、規則正しい層をつくり、層はたがいにすべります。炭素原子は大きさが違うので層を乱し、層はすべりにくくなります。「結合が強くなる」という答えは認められません。</p>",
       // EN: <p>Carbon atoms are a different size from iron atoms, so they disrupt the regular arrangement of the layers in the lattice. The layers cannot slide over each other as easily, so steel is harder.</p>
-      answer: "<p>炭素原子は鉄原子と大きさが違うので、結晶格子の層の規則正しい並び方を乱します。層がたがいにすべりにくくなるので、鋼のほうがかたくなります。</p>",
+      answer: "<p>炭素原子は鉄原子と大きさが違うので、結晶格子の層の規則正しい並び方を乱します。層がたがいにすべりにくくなるので、鋼のほうが硬くなります。</p>",
       markscheme: [
         // EN: The carbon atoms are a different size (smaller) AND disrupt/distort the regular lattice/layers of iron ions.
         "炭素原子は大きさが違う（小さい）かつ 鉄イオンの規則正しい結晶格子 / 層を乱す / ゆがめる。",
@@ -371,7 +371,7 @@ S1.i18n.register('ja', 's2-4.q', {
     // ── s2-4-q015 · mcq · exam · SL · Structure 2.4.5 · 1 mark
     "s2-4-q015": {
       // EN: <p>The structure of propene is shown.</p><svg viewBox="0 0 90 112" width="90" height="112" role="img" aria-label="Propene: two carbons joined by a double bond. The first carbon has two H atoms. The second carbon has one H atom and one CH3 group." style="max-width:100%;height:auto;display:block"><text x="22" y="61.5" text-anchor="middle" style="fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700">C</text><path d="M22 45 V32" style="stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none"/><text x="22" y="26.5" text-anchor="middle" style="fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700">H</text><path d="M22 67 V80" style="stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none"/><text x="22" y="96.5" text-anchor="middle" style="fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700">H</text><text x="68" y="61.5" text-anchor="middle" style="fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700">C</text><path d="M68 45 V32" style="stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none"/><text x="68" y="26.5" text-anchor="middle" style="fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700">H</text><path d="M68 67 V80" style="stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none"/><text x="62" y="96.5" text-anchor="start" style="fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700">CH₃</text><path d="M32 53 H58 M32 59 H58" style="stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none"/></svg><p>Which is the repeating unit of poly(propene)?</p>
-      stem: "<p>プロペン (propene) の構造を示します。</p><svg viewBox=\"0 0 90 112\" width=\"90\" height=\"112\" role=\"img\" aria-label=\"プロペン：2 個の炭素が二重結合でつながっている。1 番目の炭素には H 原子が 2 個ある。2 番目の炭素には H 原子が 1 個と CH3 基が 1 個ある。\" style=\"max-width:100%;height:auto;display:block\"><text x=\"22\" y=\"61.5\" text-anchor=\"middle\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">C</text><path d=\"M22 45 V32\" style=\"stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none\"/><text x=\"22\" y=\"26.5\" text-anchor=\"middle\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">H</text><path d=\"M22 67 V80\" style=\"stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none\"/><text x=\"22\" y=\"96.5\" text-anchor=\"middle\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">H</text><text x=\"68\" y=\"61.5\" text-anchor=\"middle\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">C</text><path d=\"M68 45 V32\" style=\"stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none\"/><text x=\"68\" y=\"26.5\" text-anchor=\"middle\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">H</text><path d=\"M68 67 V80\" style=\"stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none\"/><text x=\"62\" y=\"96.5\" text-anchor=\"start\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">CH₃</text><path d=\"M32 53 H58 M32 59 H58\" style=\"stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none\"/></svg><p>ポリプロペン (poly(propene)) の繰り返し単位はどれですか。</p>",
+      stem: "<p>propene（プロペン）の構造を示します。</p><svg viewBox=\"0 0 90 112\" width=\"90\" height=\"112\" role=\"img\" aria-label=\"propene：2 個の炭素が二重結合でつながっている。1 番目の炭素には H 原子が 2 個ある。2 番目の炭素には H 原子が 1 個と CH3 基が 1 個ある。\" style=\"max-width:100%;height:auto;display:block\"><text x=\"22\" y=\"61.5\" text-anchor=\"middle\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">C</text><path d=\"M22 45 V32\" style=\"stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none\"/><text x=\"22\" y=\"26.5\" text-anchor=\"middle\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">H</text><path d=\"M22 67 V80\" style=\"stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none\"/><text x=\"22\" y=\"96.5\" text-anchor=\"middle\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">H</text><text x=\"68\" y=\"61.5\" text-anchor=\"middle\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">C</text><path d=\"M68 45 V32\" style=\"stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none\"/><text x=\"68\" y=\"26.5\" text-anchor=\"middle\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">H</text><path d=\"M68 67 V80\" style=\"stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none\"/><text x=\"62\" y=\"96.5\" text-anchor=\"start\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">CH₃</text><path d=\"M32 53 H58 M32 59 H58\" style=\"stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none\"/></svg><p>poly(propene)（ポリプロペン）の繰り返し単位はどれですか。</p>",
       options: [
         // EN: <svg viewBox="0 0 186 112" width="186" height="112" role="img" aria-label="Option A: three backbone carbons in a row, each with two H atoms, with a continuation bond at each end" style="max-width:100%;height:auto;display:block"><text x="40" y="61.5" text-anchor="middle" style="fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700">C</text><path d="M40 45 V32" style="stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none"/><text x="40" y="26.5" text-anchor="middle" style="fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700">H</text><path d="M40 67 V80" style="stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none"/><text x="40" y="96.5" text-anchor="middle" style="fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700">H</text><text x="86" y="61.5" text-anchor="middle" style="fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700">C</text><path d="M86 45 V32" style="stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none"/><text x="86" y="26.5" text-anchor="middle" style="fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700">H</text><path d="M86 67 V80" style="stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none"/><text x="86" y="96.5" text-anchor="middle" style="fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700">H</text><path d="M50 56 H76" style="stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none"/><text x="132" y="61.5" text-anchor="middle" style="fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700">C</text><path d="M132 45 V32" style="stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none"/><text x="132" y="26.5" text-anchor="middle" style="fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700">H</text><path d="M132 67 V80" style="stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none"/><text x="132" y="96.5" text-anchor="middle" style="fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700">H</text><path d="M96 56 H122" style="stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none"/><path d="M30 56 H6 M142 56 H166" style="stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none"/><path d="M24 6 H18 V106 H24 M148 6 H154 V106 H148" style="stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none"/><text x="158" y="108" style="fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700;font-style:italic;font-size:14px">n</text></svg>
         "<svg viewBox=\"0 0 186 112\" width=\"186\" height=\"112\" role=\"img\" aria-label=\"選択肢 A：主鎖の炭素 3 個が 1 列に並び、それぞれに H 原子が 2 個ある。両端に鎖の続きを表す結合がある\" style=\"max-width:100%;height:auto;display:block\"><text x=\"40\" y=\"61.5\" text-anchor=\"middle\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">C</text><path d=\"M40 45 V32\" style=\"stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none\"/><text x=\"40\" y=\"26.5\" text-anchor=\"middle\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">H</text><path d=\"M40 67 V80\" style=\"stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none\"/><text x=\"40\" y=\"96.5\" text-anchor=\"middle\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">H</text><text x=\"86\" y=\"61.5\" text-anchor=\"middle\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">C</text><path d=\"M86 45 V32\" style=\"stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none\"/><text x=\"86\" y=\"26.5\" text-anchor=\"middle\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">H</text><path d=\"M86 67 V80\" style=\"stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none\"/><text x=\"86\" y=\"96.5\" text-anchor=\"middle\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">H</text><path d=\"M50 56 H76\" style=\"stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none\"/><text x=\"132\" y=\"61.5\" text-anchor=\"middle\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">C</text><path d=\"M132 45 V32\" style=\"stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none\"/><text x=\"132\" y=\"26.5\" text-anchor=\"middle\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">H</text><path d=\"M132 67 V80\" style=\"stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none\"/><text x=\"132\" y=\"96.5\" text-anchor=\"middle\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700\">H</text><path d=\"M96 56 H122\" style=\"stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none\"/><path d=\"M30 56 H6 M142 56 H166\" style=\"stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none\"/><path d=\"M24 6 H18 V106 H24 M148 6 H154 V106 H148\" style=\"stroke:currentColor;stroke-width:1.7;stroke-linecap:round;fill:none\"/><text x=\"158\" y=\"108\" style=\"fill:currentColor;font-family:var(--font-body);font-size:16px;font-weight:700;font-style:italic;font-size:14px\">n</text></svg>",
@@ -435,7 +435,7 @@ S1.i18n.register('ja', 's2-4.q', {
     // ── s2-4-q017 · short · exam · SL · Structure 2.4.4 · 2 marks
     "s2-4-q017": {
       // EN: <p>Poly(ethene) is a plastic used for food containers. State one <strong>chemical</strong> property that makes it suitable for this use, and explain the property in terms of the structure of the polymer.</p>
-      stem: "<p>ポリエテン (poly(ethene)) は、食品容器に使われるプラスチックです。この用途に向いている<strong>化学的</strong>性質を 1 つ述べなさい (state)。また、その性質を高分子の構造から説明しなさい (explain)。</p>",
+      stem: "<p>poly(ethene)（ポリエテン）は、食品容器に使われるプラスチックです。この用途に向いている<strong>化学的</strong>性質を 1 つ述べなさい (state)。また、その性質を高分子の構造から説明しなさい (explain)。</p>",
       hints: [
         // EN: A chemical property is about whether the substance reacts.
         "化学的性質とは、その物質が反応するかどうかについての性質です。",
@@ -483,7 +483,7 @@ S1.i18n.register('ja', 's2-4.q', {
     // ── s2-4-q019 · numeric · challenge · SL · Structure 2.4.5 · 2 marks
     "s2-4-q019": {
       // EN: <p>Propene, <span class="chem nowrap">C<sub>3</sub>H<sub>6</sub></span>, forms the addition polymer poly(propene). One polymer chain has a relative molecular mass of <span class="mono">6.31 × 10<sup>4</sup></span>. Estimate the number of repeating units in this chain. Use <i>A</i><sub>r</sub>: C 12.01, H 1.01.</p>
-      stem: "<p>プロペン (propene) <span class=\"chem nowrap\">C<sub>3</sub>H<sub>6</sub></span> から、付加重合体のポリプロペン (poly(propene)) ができます。ある高分子の鎖 1 本の相対分子質量は <span class=\"mono\">6.31 × 10<sup>4</sup></span> です。この鎖に含まれる繰り返し単位の数を見積もりなさい (estimate)。<i>A</i><sub>r</sub> は C 12.01、H 1.01 を使います。</p>",
+      stem: "<p>propene（プロペン）<span class=\"chem nowrap\">C<sub>3</sub>H<sub>6</sub></span> から、付加重合体の poly(propene)（ポリプロペン）ができます。ある高分子の鎖 1 本の相対分子質量は <span class=\"mono\">6.31 × 10<sup>4</sup></span> です。この鎖に含まれる繰り返し単位の数を見積もりなさい (estimate)。<i>A</i><sub>r</sub> は C 12.01、H 1.01 を使います。</p>",
       hints: [
         // EN: In addition polymerization no atoms are lost. What is the relative mass of one repeating unit?
         "付加重合では、原子は失われません。繰り返し単位 1 個の相対質量はいくつですか。",
@@ -534,7 +534,7 @@ S1.i18n.register('ja', 's2-4.q', {
         // EN: Work out two numbers for each chloride. Use one value per element.
         "塩化物ごとに、数値を 2 つ計算します。元素ごとに値を 1 つ使います。",
         // EN: Locate both points, then use the model for each region to predict properties.
-        "両方の点をさがします。それから、それぞれの領域のモデルを使って性質を予測します。",
+        "両方の点を探します。それから、それぞれの領域のモデルを使って性質を予測します。",
       ],
       // EN: <p>NaCl is at (2.05, 2.3), in the ionic region. <span class="chem nowrap">SiCl<sub>4</sub></span> is at (2.55, 1.3), in the polar covalent region. The ionic model predicts a high melting point and conduction when molten. The covalent model predicts no conduction, and <span class="chem nowrap">SiCl<sub>4</sub></span> is made of molecules, so its melting point is low.</p>
       solution: "<p>NaCl は (2.05, 2.3) で、イオン結合の領域にあります。<span class=\"chem nowrap\">SiCl<sub>4</sub></span> は (2.55, 1.3) で、極性共有結合の領域にあります。イオン結合モデルからは、融点が高いことと、融解すると電気を通すことが予測できます。共有結合モデルからは、電気を通さないことが予測できます。また、<span class=\"chem nowrap\">SiCl<sub>4</sub></span> は分子でできているので、融点は低くなります。</p>",
@@ -692,7 +692,7 @@ S1.i18n.register('ja', 's2-4.q', {
         // EN: Hydrolysis breaks the links in a condensation polymer by reaction with water.
         "加水分解では、水との反応で縮合重合体の結合が切れる。",
         // EN: Poly(ethene) is easily broken down into ethene by hydrolysis.
-        "ポリエテンは、加水分解で簡単にエテンに分解される。",
+        "poly(ethene) は、加水分解で簡単に ethene に分解される。",
         // EN: One molecule of water is released when an amide link forms from an –NH<sub>2</sub> group and a –COOH group.
         "–NH<sub>2</sub> 基と –COOH 基からアミド結合ができるとき、水分子が 1 個放出される。",
       ],
@@ -706,7 +706,7 @@ S1.i18n.register('ja', 's2-4.q', {
         // EN (option B): Hydrolysis uses water. It does not release it. One molecule of water is a reactant for each link that breaks.
         "1": "加水分解では水を使います。水は放出されません。結合が 1 つ切れるたびに、水分子 1 個が反応物になります。",
         // EN (option D): Poly(ethene) is an addition polymer. Its backbone has only carbon to carbon bonds, with no ester or amide links for water to break.
-        "3": "ポリエテンは付加重合体です。主鎖には炭素と炭素の結合しかなく、水が切れるエステル結合やアミド結合はありません。",
+        "3": "poly(ethene) は付加重合体です。主鎖には炭素と炭素の結合しかなく、水が切れるエステル結合やアミド結合はありません。",
       },
     },
 
@@ -727,7 +727,7 @@ S1.i18n.register('ja', 's2-4.q', {
     // ── s2-4-q029 · short · challenge · AHL · Structure 2.4.6 · 3 marks
     "s2-4-q029": {
       // EN: <p>The repeating unit of a polyester is shown.</p><p><span class="chem chem--eq">–O–(CH<sub>2</sub>)<sub>4</sub>–O–CO–(CH<sub>2</sub>)<sub>2</sub>–CO–</span></p><p>(a) Deduce the structures of the two monomers formed when this polymer is hydrolysed. (b) Suggest why this polymer breaks down in the environment more readily than poly(ethene).</p>
-      stem: "<p>ポリエステルの繰り返し単位を示します。</p><p><span class=\"chem chem--eq\">–O–(CH<sub>2</sub>)<sub>4</sub>–O–CO–(CH<sub>2</sub>)<sub>2</sub>–CO–</span></p><p>(a) この高分子を加水分解したときにできる 2 つの単量体の構造を導きなさい (deduce)。(b) この高分子が、ポリエテン (poly(ethene)) より環境の中で分解されやすい理由を提案しなさい (suggest)。</p>",
+      stem: "<p>ポリエステルの繰り返し単位を示します。</p><p><span class=\"chem chem--eq\">–O–(CH<sub>2</sub>)<sub>4</sub>–O–CO–(CH<sub>2</sub>)<sub>2</sub>–CO–</span></p><p>(a) この高分子を加水分解したときにできる 2 つの単量体の構造を導きなさい (deduce)。(b) この高分子が、poly(ethene)（ポリエテン）より環境の中で分解されやすい理由を提案しなさい (suggest)。</p>",
       hints: [
         // EN: Break each bond between O and the C=O carbon.
         "O と C=O の炭素の間の結合を、それぞれ切ります。",
@@ -739,14 +739,14 @@ S1.i18n.register('ja', 's2-4.q', {
       // EN: <p>Hydrolysis breaks each ester link. The <span class="chem nowrap">–O–(CH<sub>2</sub>)<sub>4</sub>–O–</span> part gains an H at each end to give the diol. The <span class="chem nowrap">–CO–(CH<sub>2</sub>)<sub>2</sub>–CO–</span> part gains an –OH at each end to give the dicarboxylic acid. Addition polymers have no links that water can break.</p>
       solution: "<p>加水分解で、エステル結合がそれぞれ切れます。<span class=\"chem nowrap\">–O–(CH<sub>2</sub>)<sub>4</sub>–O–</span> の部分は、両端に H がついてジオールになります。<span class=\"chem nowrap\">–CO–(CH<sub>2</sub>)<sub>2</sub>–CO–</span> の部分は、両端に –OH がついてジカルボン酸になります。付加重合体には、水が切れる結合がありません。</p>",
       // EN: <p>(a) <span class="chem nowrap">HO–(CH<sub>2</sub>)<sub>4</sub>–OH</span> and <span class="chem chem--eq">HOOC–(CH<sub>2</sub>)<sub>2</sub>–COOH</span>.</p><p>(b) The polyester has ester links in its backbone, which can be broken by hydrolysis (reaction with water). Poly(ethene) has only strong carbon to carbon bonds in its backbone, which are not hydrolysed.</p>
-      answer: "<p>(a) <span class=\"chem nowrap\">HO–(CH<sub>2</sub>)<sub>4</sub>–OH</span> と <span class=\"chem chem--eq\">HOOC–(CH<sub>2</sub>)<sub>2</sub>–COOH</span>。</p><p>(b) このポリエステルは主鎖にエステル結合があり、加水分解（水との反応）で切れます。ポリエテンの主鎖には強い炭素と炭素の結合しかなく、加水分解されません。</p>",
+      answer: "<p>(a) <span class=\"chem nowrap\">HO–(CH<sub>2</sub>)<sub>4</sub>–OH</span> と <span class=\"chem chem--eq\">HOOC–(CH<sub>2</sub>)<sub>2</sub>–COOH</span>。</p><p>(b) このポリエステルは主鎖にエステル結合があり、加水分解（水との反応）で切れます。poly(ethene) の主鎖には強い炭素と炭素の結合しかなく、加水分解されません。</p>",
       markscheme: [
         // EN: HO–(CH₂)₄–OH (the diol).
         "HO–(CH₂)₄–OH（ジオール）。",
         // EN: HOOC–(CH₂)₂–COOH (the dicarboxylic acid).
         "HOOC–(CH₂)₂–COOH（ジカルボン酸）。",
         // EN: The polyester has ester links that can be hydrolysed / broken by water, but poly(ethene) has only (strong, non-polar) C–C bonds in its chain.
-        "ポリエステルには、加水分解できる / 水で切れるエステル結合がある。しかしポリエテンの鎖には（強くて無極性の）C–C 結合しかない。",
+        "ポリエステルには、加水分解できる / 水で切れるエステル結合がある。しかし poly(ethene) の鎖には（強くて無極性の）C–C 結合しかない。",
       ],
     },
 
@@ -837,7 +837,7 @@ S1.i18n.register('ja', 's2-4.q', {
     // ── s2-4-q033 · mcq · foundation · SL · Structure 2.4.3 · 1 mark
     "s2-4-q033": {
       // EN: <p>Bronze is made by adding tin to copper. Bronze is harder than pure copper. Which statement explains this?</p>
-      stem: "<p>青銅は、銅にスズを加えてつくります。青銅は純粋な銅よりかたい物質です。これを説明している文はどれですか。</p>",
+      stem: "<p>青銅は、銅にスズを加えてつくります。青銅は純粋な銅より硬い物質です。これを説明している文はどれですか。</p>",
       options: [
         // EN: The tin atoms form strong covalent bonds with the copper atoms.
         "スズ原子が銅原子と強い共有結合をつくる。",
@@ -853,10 +853,10 @@ S1.i18n.register('ja', 's2-4.q', {
         "純粋な金属に展性があるのはなぜですか。層は何ができなければなりませんか。",
       ],
       // EN: <p>In pure copper the cations are all the same size and form regular layers, which slide over each other. Tin atoms are a different size. They disrupt the regular layers, so the layers slide less easily and the alloy is harder.</p>
-      solution: "<p>純粋な銅では、陽イオンの大きさがすべて同じで、規則正しい層をつくり、層はたがいにすべります。スズ原子は大きさが違います。規則正しい層を乱すので、層がすべりにくくなり、合金はよりかたくなります。</p>",
+      solution: "<p>純粋な銅では、陽イオンの大き探すべて同じで、規則正しい層をつくり、層はたがいにすべります。スズ原子は大きさが違います。規則正しい層を乱すので、層がすべりにくくなり、合金はより硬くなります。</p>",
       misconception: {
         // EN (option A): The bonding in an alloy is still metallic. The alloy is harder because its layers are disrupted, not because new covalent bonds form.
-        "0": "合金の結合は、金属結合のままです。合金がかたいのは層が乱れるからで、新しい共有結合ができるからではありません。",
+        "0": "合金の結合は、金属結合のままです。合金が硬いのは層が乱れるからで、新しい共有結合ができるからではありません。",
         // EN (option C): The delocalized electrons stay. Tin is a metal and adds its own outer electrons to them.
         "2": "非局在化電子は残ります。スズは金属なので、自分の外側の電子をそこに加えます。",
         // EN (option D): Both elements are metals, and neither forms negative ions here. The bonding stays metallic.
@@ -867,7 +867,7 @@ S1.i18n.register('ja', 's2-4.q', {
     // ── s2-4-q034 · mcq · foundation · SL · Structure 2.4.4 · 1 mark
     "s2-4-q034": {
       // EN: <p>Polymers can be natural or synthetic. Which row is correct?</p><div class="table-scroll"><table class="data"><thead><tr><th scope="col"></th><th scope="col">Natural polymer</th><th scope="col">Synthetic polymer</th></tr></thead><tbody><tr><th scope="row">A</th><td>poly(ethene)</td><td>starch</td></tr><tr><th scope="row">B</th><td>protein</td><td>poly(ethene)</td></tr><tr><th scope="row">C</th><td>water</td><td>protein</td></tr><tr><th scope="row">D</th><td>cellulose</td><td>ethene</td></tr></tbody></table></div>
-      stem: "<p>高分子には、天然のものと合成のものがあります。正しい行はどれですか。</p><div class=\"table-scroll\"><table class=\"data\"><thead><tr><th scope=\"col\"></th><th scope=\"col\">天然高分子</th><th scope=\"col\">合成高分子</th></tr></thead><tbody><tr><th scope=\"row\">A</th><td>ポリエテン (poly(ethene))</td><td>デンプン</td></tr><tr><th scope=\"row\">B</th><td>タンパク質</td><td>ポリエテン (poly(ethene))</td></tr><tr><th scope=\"row\">C</th><td>水</td><td>タンパク質</td></tr><tr><th scope=\"row\">D</th><td>セルロース</td><td>エテン (ethene)</td></tr></tbody></table></div>",
+      stem: "<p>高分子には、天然のものと合成のものがあります。正しい行はどれですか。</p><div class=\"table-scroll\"><table class=\"data\"><thead><tr><th scope=\"col\"></th><th scope=\"col\">天然高分子</th><th scope=\"col\">合成高分子</th></tr></thead><tbody><tr><th scope=\"row\">A</th><td>poly(ethene)（ポリエテン）</td><td>デンプン</td></tr><tr><th scope=\"row\">B</th><td>タンパク質</td><td>poly(ethene)（ポリエテン）</td></tr><tr><th scope=\"row\">C</th><td>水</td><td>タンパク質</td></tr><tr><th scope=\"row\">D</th><td>セルロース</td><td>ethene（エテン）</td></tr></tbody></table></div>",
       options: [
         // EN: A
         "A",
@@ -885,14 +885,14 @@ S1.i18n.register('ja', 's2-4.q', {
         "高分子は大きな分子です。その行の物質が 2 つとも高分子かどうかを確かめましょう。",
       ],
       // EN: <p>Proteins are natural polymers: living things make them from amino acids. Poly(ethene) is a synthetic polymer, a plastic made from ethene. Row B is correct.</p>
-      solution: "<p>タンパク質は天然高分子です。生物がアミノ酸からつくります。ポリエテンは合成高分子で、エテンからつくるプラスチックです。正しいのは B の行です。</p>",
+      solution: "<p>タンパク質は天然高分子です。生物がアミノ酸からつくります。poly(ethene) は合成高分子で、ethene からつくるプラスチックです。正しいのは B の行です。</p>",
       misconception: {
         // EN (option A): These are the wrong way round. Starch is made by plants, so it is natural. Poly(ethene) is made in factories, so it is synthetic.
-        "0": "逆になっています。デンプンは植物がつくるので、天然です。ポリエテンは工場でつくるので、合成です。",
+        "0": "逆になっています。デンプンは植物がつくるので、天然です。poly(ethene) は工場でつくるので、合成です。",
         // EN (option C): Water is a small molecule, not a polymer. Protein is a natural polymer, made by living things.
         "2": "水は小さな分子で、高分子ではありません。タンパク質は、生物がつくる天然高分子です。",
         // EN (option D): Cellulose is a natural polymer, but ethene is a small molecule. Ethene is the monomer that makes the polymer poly(ethene).
-        "3": "セルロースは天然高分子ですが、エテンは小さな分子です。エテンは、高分子のポリエテンをつくる単量体です。",
+        "3": "セルロースは天然高分子ですが、ethene は小さな分子です。ethene は、高分子の poly(ethene) をつくる単量体です。",
       },
     },
 

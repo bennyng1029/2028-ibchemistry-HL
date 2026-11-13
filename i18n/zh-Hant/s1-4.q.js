@@ -642,7 +642,7 @@ S1.i18n.register('zh-Hant', 's1-4.q', {
         // EN: Find the mass of one empirical formula unit, <span class="chem">P2O5</span>.
         "求出一個實驗式單位 <span class=\"chem\">P2O5</span> 的質量。",
         // EN: Divide the molar mass by the empirical formula mass. The result is how many empirical units make one molecule.
-        "把摩爾質量除以實驗式的式量。結果就是一個分子由多少個實驗式單位組成。",
+        "把摩爾質量除以實驗式質量。結果就是一個分子由多少個實驗式單位組成。",
       ],
       // EN: <p>Find the mass of one empirical formula unit.</p><div class="worked__math"><i>M</i>(<span class="chem">P2O5</span>) = (2 × 30.97) + (5 × 16.00)<br>&nbsp;&nbsp;= 141.94 <span class="unit">g mol-1</span></div><div class="worked__math">Number of units = <span class="frac"><span>283.88 <span class="unit">g mol-1</span></span><span>141.94 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 2.00</div><div class="worked__math">Molecular formula = 2 × <span class="chem">P2O5</span><br>&nbsp;&nbsp;= <strong><span class="chem">P4O10</span></strong></div>
       solution: "<p>求出一個實驗式單位的質量。</p><div class=\"worked__math\"><i>M</i>(<span class=\"chem\">P2O5</span>) = (2 × 30.97) + (5 × 16.00)<br>&nbsp;&nbsp;= 141.94 <span class=\"unit\">g mol-1</span></div><div class=\"worked__math\">單位數目 = <span class=\"frac\"><span>283.88 <span class=\"unit\">g mol-1</span></span><span>141.94 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 2.00</div><div class=\"worked__math\">分子式 = 2 × <span class=\"chem\">P2O5</span><br>&nbsp;&nbsp;= <strong><span class=\"chem\">P4O10</span></strong></div>",
@@ -718,7 +718,7 @@ S1.i18n.register('zh-Hant', 's1-4.q', {
         // EN: M3: empirical formula C₂H₅O.
         "M3：實驗式 C₂H₅O。",
         // EN: M4: 90.14 ÷ 45.07 = 2, so molecular formula C₄H₁₀O₂. (Allow error carried forward from your empirical formula.)
-        "M4：90.14 ÷ 45.07 = 2，所以分子式是 C₄H₁₀O₂。（接受由你的實驗式帶來的承前錯誤，即 error carried forward。）",
+        "M4：90.14 ÷ 45.07 = 2，所以分子式是 C₄H₁₀O₂。（接受由你的實驗式帶來的承前錯誤 (error carried forward)。）",
       ],
     },
 

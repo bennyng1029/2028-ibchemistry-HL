@@ -641,19 +641,19 @@ S1.i18n.register('ja', 's3-1', {
     "Six ions with the same electron configuration": "電子配置が同じ 6 つのイオン",
 
     // Periodicity: trends in properties > widget > figcaption
-    "All six ions have 10 electrons. Predict first, then move the slider to compare them. The circles are drawn to scale with data booklet radii.": "6 つのイオンは、どれも電子を 10 個もっています。まず予測してから、スライダーを動かして比べましょう。円は、データブックレットの半径に合わせた縮尺で描いてあります。",
+    "All six ions have 10 electrons. Predict first, then move the slider to compare them. The circles are drawn to scale with data booklet radii.": "6 つのイオンは、どれも電子を 10 個もっています。まず予測してから、スライダーを動かしてくらべましょう。円は、データブックレットの半径に合わせた縮尺で描いてあります。",
 
     // Periodicity: trends in properties > worked example > data-kicker attribute
     "Worked example 3": "例題 3",
 
     // Periodicity: trends in properties > worked example > h3
-    "Comparing ionic radii": "イオン半径を比べる",
+    "Comparing ionic radii": "イオン半径をくらべる",
 
     // Periodicity: trends in properties > worked example > p
     "Ionic radii: <span class=\"chem\">K+</span> 138 pm, <span class=\"chem\">Cl-</span> 181 pm. The atomic radius of chlorine is 100 pm. Explain (a) why <span class=\"chem\">Cl-</span> is larger than the chlorine atom, and (b) why <span class=\"chem\">K+</span> is smaller than <span class=\"chem\">Cl-</span>. [3]": "イオン半径：<span class=\"chem\">K+</span> 138 pm、<span class=\"chem\">Cl-</span> 181 pm。塩素の原子半径は 100 pm です。(a) <span class=\"chem\">Cl-</span> が塩素原子より大きい理由と、(b) <span class=\"chem\">K+</span> が <span class=\"chem\">Cl-</span> より小さい理由を説明しなさい (explain)。[3]",
 
     // Periodicity: trends in properties > worked example > data-title attribute
-    "(a) Compare protons and electrons": "(a) 陽子と電子の数を比べる",
+    "(a) Compare protons and electrons": "(a) 陽子と電子の数をくらべる",
 
     // Periodicity: trends in properties > worked example > p
     "Atom and ion have the same nucleus. Only the number of electrons is different.": "原子とイオンの原子核は同じです。違うのは電子の数だけです。",
@@ -671,7 +671,7 @@ S1.i18n.register('ja', 's3-1', {
     "There is more repulsion between the electrons in the outer level, so they spread further from the nucleus.": "最も外側の準位にある電子どうしの反発が強くなるので、電子は原子核からより遠くへ広がる。",
 
     // Periodicity: trends in properties > worked example > data-title attribute
-    "(b) Compare the configurations": "(b) 電子配置を比べる",
+    "(b) Compare the configurations": "(b) 電子配置をくらべる",
 
     // Periodicity: trends in properties > worked example > p
     "Check whether the two ions have the same number of electrons.": "2 つのイオンの電子の数が同じかどうかを確かめます。",
@@ -680,7 +680,7 @@ S1.i18n.register('ja', 's3-1', {
     "K<sup>+</sup> and Cl<sup>−</sup> both have 18 electrons: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup>": "K<sup>+</sup> と Cl<sup>−</sup> は、どちらも電子が 18 個：1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup>",
 
     // Periodicity: trends in properties > worked example > data-title attribute
-    "(b) Compare the nuclear charges": "(b) 核電荷を比べる",
+    "(b) Compare the nuclear charges": "(b) 核電荷をくらべる",
 
     // Periodicity: trends in properties > worked example > p
     "Same electrons and same shielding, so the nuclear charge decides the size.": "電子の数も遮蔽も同じなので、大きさは核電荷で決まります。",
@@ -710,7 +710,7 @@ S1.i18n.register('ja', 's3-1', {
     "Na: [Ne] 3s<sup>1</sup>, electron removed from n = 3. K: [Ar] 4s<sup>1</sup>, electron removed from n = 4.": "Na：[Ne] 3s<sup>1</sup>、電子は n = 3 から取り除かれる。K：[Ar] 4s<sup>1</sup>、電子は n = 4 から取り除かれる。",
 
     // Periodicity: trends in properties > worked example > data-title attribute
-    "Compare distance and shielding": "距離と遮蔽を比べる",
+    "Compare distance and shielding": "距離と遮蔽をくらべる",
 
     // Periodicity: trends in properties > worked example > p
     "This is the mark-earning comparison. Write about energy levels, not only about “size”.": "ここが点になる比較です。「大きさ」だけでなく、エネルギー準位について書きましょう。",
@@ -816,7 +816,7 @@ S1.i18n.register('ja', 's3-1', {
     "any group 1 metal: Li, Na, K, Rb or Cs": "1 族の金属のどれか：Li、Na、K、Rb、Cs",
 
     // Trends down group 1 and group 17 > widget > figcaption
-    "Choose a metal. Read the observations and the equation, then compare the first ionization energies. This is a description of real observations, not a simulation.": "金属を選びましょう。観察結果と化学反応式を読んでから、第一イオン化エネルギーを比べます。これは実際の観察を記述したもので、シミュレーションではありません。",
+    "Choose a metal. Read the observations and the equation, then compare the first ionization energies. This is a description of real observations, not a simulation.": "金属を選びましょう。観察結果と化学反応式を読んでから、第一イオン化エネルギーをくらべます。これは実際の観察を記述したもので、シミュレーションではありません。",
 
     // Trends down group 1 and group 17 > exam tip (shown in English + translation) > p
     "Observations that earn marks: the metal floats, fizzes (bubbles of gas), moves on the surface, and gets smaller or dissolves. The solution becomes alkaline. For the trend, link reactivity to how easily the outer electron is lost.": "点になる観察結果：金属が水に浮く、泡を出す（気体の泡）、水面を動き回る、小さくなる（または溶ける）。溶液はアルカリ性になります。傾向については、反応性を「最も外側の電子の失いやすさ」と結びつけましょう。",
@@ -1457,7 +1457,7 @@ S1.i18n.register('ja', 's3-1', {
     "Mg loses a 3s electron. Al loses a 3p electron.": "Mg は 3s 電子を失う。Al は 3p 電子を失う。",
 
     // Discontinuities in first ionization energy > worked example > Additional HL > data-title attribute
-    "Compare the energies": "エネルギーを比べる",
+    "Compare the energies": "エネルギーをくらべる",
 
     // Discontinuities in first ionization energy > worked example > Additional HL > p
     "The second mark is for the energy of the electron removed.": "2 点目は、取り除かれる電子のエネルギーに与えられます。",
@@ -1511,7 +1511,7 @@ S1.i18n.register('ja', 's3-1', {
     "High melting points": "高い融点",
 
     // Properties of transition elements > table > Additional HL > td
-    "Compared with the metals of groups 1 and 2.": "1 族や 2 族の金属と比べて高い。",
+    "Compared with the metals of groups 1 and 2.": "1 族や 2 族の金属とくらべて高い。",
 
     // Properties of transition elements > table > Additional HL > td
     "Structure 2.3": "Structure 2.3",
@@ -1647,10 +1647,10 @@ S1.i18n.register('ja', 's3-1', {
     "Successive ionization energies: calcium and a transition element": "逐次イオン化エネルギー：カルシウムと遷移元素",
 
     // Variable oxidation states and ion configurations > widget > Additional HL > figcaption
-    "Compare the pattern for calcium with a transition element. Look for the large jump. The first value of each set is the data booklet value. The others are rounded reference values, not booklet data.": "カルシウムのパターンを遷移元素と比べましょう。大きく跳ね上がるところを探してください。それぞれの組の最初の値は、データブックレットの値です。それ以外は丸めた参考値で、データブックレットの値ではありません。",
+    "Compare the pattern for calcium with a transition element. Look for the large jump. The first value of each set is the data booklet value. The others are rounded reference values, not booklet data.": "カルシウムのパターンを遷移元素とくらべましょう。大きなジャンプを探してください。それぞれの組の最初の値は、データブックレットの値です。それ以外は丸めた参考値で、データブックレットの値ではありません。",
 
     // Variable oxidation states and ion configurations > key idea > Additional HL > p
-    "In a transition element, the 4s and 3d electrons are close in energy. So the successive ionization energies are close in value, with no large jump between them. The atom can lose different numbers of electrons without a very large increase in energy. This is why transition elements have variable oxidation states.": "遷移元素では、4s 電子と 3d 電子のエネルギーが近くなっています。そのため、逐次イオン化エネルギーの値も近く、間に大きな跳ね上がりがありません。原子は、エネルギーがとても大きく増えることなく、いろいろな数の電子を失えます。遷移元素が複数の酸化数をとるのは、このためです。",
+    "In a transition element, the 4s and 3d electrons are close in energy. So the successive ionization energies are close in value, with no large jump between them. The atom can lose different numbers of electrons without a very large increase in energy. This is why transition elements have variable oxidation states.": "遷移元素では、4s 電子と 3d 電子のエネルギーが近くなっています。そのため、逐次イオン化エネルギーの値も近く、間に大きなジャンプがありません。原子は、エネルギーがとても大きく増えることなく、いろいろな数の電子を失えます。遷移元素が複数の酸化数をとるのは、このためです。",
 
     // Variable oxidation states and ion configurations > Additional HL > p
     "For calcium, the third ionization energy (<span class=\"mono\">4912 kJ mol<sup>−1</sup></span>) is about 4.3 times the second (<span class=\"mono\">1145 kJ mol<sup>−1</sup></span>). The third electron comes from an inner energy level. For iron, the third value (<span class=\"mono\">2957 kJ mol<sup>−1</sup></span>) is about 1.9 times the second (<span class=\"mono\">1562 kJ mol<sup>−1</sup></span>).": "カルシウムでは、第三イオン化エネルギー（<span class=\"mono\">4912 kJ mol<sup>−1</sup></span>）は第二（<span class=\"mono\">1145 kJ mol<sup>−1</sup></span>）の約 4.3 倍です。3 個目の電子は内側のエネルギー準位から取り除かれるからです。鉄では、第三の値（<span class=\"mono\">2957 kJ mol<sup>−1</sup></span>）は第二（<span class=\"mono\">1562 kJ mol<sup>−1</sup></span>）の約 1.9 倍です。",
@@ -1776,10 +1776,10 @@ S1.i18n.register('ja', 's3-1', {
     "The colour you <b>observe is complementary</b> to the colour absorbed. It is the light that passes through.": "<b>見える色は、吸収された色の補色 (complementary)</b> です。これは通り抜けてくる光です。",
 
     // Why transition element complexes are coloured > Additional HL > p
-    "<dfn data-def=\"The colour opposite a given colour on the colour wheel. If a substance absorbs one colour, it appears as the complementary colour.\">Complementary colours</dfn> are opposite each other on the colour wheel.": "<dfn data-def=\"色相環で、ある色の反対側にある色。物質がある色を吸収すると、その物質は補色に見えます。\">補色 <span class=\"en-term\">(complementary colours)</span></dfn>は、色相環で互いに反対側にある色です。",
+    "<dfn data-def=\"The colour opposite a given colour on the colour wheel. If a substance absorbs one colour, it appears as the complementary colour.\">Complementary colours</dfn> are opposite each other on the colour wheel.": "<dfn data-def=\"色相環で、ある色の真向かいにある色。物質がある色を吸収すると、その物質は補色に見えます。\">補色 <span class=\"en-term\">(complementary colours)</span></dfn>は、色相環で互いに反対側にある色です。",
 
     // Why transition element complexes are coloured > Additional HL > data-def attribute
-    "The colour opposite a given colour on the colour wheel. If a substance absorbs one colour, it appears as the complementary colour.": "色相環で、ある色の反対側にある色。物質がある色を吸収すると、その物質は補色に見えます。",
+    "The colour opposite a given colour on the colour wheel. If a substance absorbs one colour, it appears as the complementary colour.": "色相環で、ある色の真向かいにある色。物質がある色を吸収すると、その物質は補色に見えます。",
 
     // Why transition element complexes are coloured > widget > Additional HL > data-title attribute
     "Colour wheel: absorbed and observed colours": "色相環：吸収される色と見える色",
@@ -1833,22 +1833,22 @@ S1.i18n.register('ja', 's3-1', {
     "You must mention that light is absorbed. Without this, the complementary colour point does not score.": "光が吸収されることを必ず書きましょう。これがないと、補色のポイントは点になりません。",
 
     // Why transition element complexes are coloured > worked example > Additional HL > maths line
-    "An electron absorbs visible light (orange) and is promoted from the lower set to the higher set.": "電子が可視光（オレンジ色）を吸収し、低いほうの組から高いほうの組へ移る。",
+    "An electron absorbs visible light (orange) and is promoted from the lower set to the higher set.": "電子が橙色（オレンジ色）の可視光を吸収し、低いほうの組から高いほうの組へ移る。",
 
     // Why transition element complexes are coloured > worked example > Additional HL > maths line
-    "The colour observed, blue, is complementary to the colour absorbed.": "見える色（青）は、吸収された色の補色である。",
+    "The colour observed, blue, is complementary to the colour absorbed.": "見える色（青色）は、吸収された色の補色である。",
 
     // Why transition element complexes are coloured > worked example > Additional HL > data-title attribute
     "Point 5: zinc": "ポイント 5：亜鉛",
 
     // Why transition element complexes are coloured > worked example > Additional HL > p
-    "Compare with the ion that has no space in its d sublevel.": "d 副準位に空きがないイオンと比べます。",
+    "Compare with the ion that has no space in its d sublevel.": "d 副準位に空きがないイオンとくらべます。",
 
     // Why transition element complexes are coloured > worked example > Additional HL > maths line
     "<b>Zn<sup>2+</sup> has a full d sublevel (3d<sup>10</sup>), so no electron can be promoted between d orbitals. No visible light is absorbed.</b>": "<b>Zn<sup>2+</sup> は d 副準位が満たされている（3d<sup>10</sup>）ので、電子は d 軌道の間を移れない。可視光は吸収されない。</b>",
 
     // Why transition element complexes are coloured > worked example > Additional HL > p
-    "Cu<sup>2+</sup> (3d<sup>9</sup>) has a partially filled d sublevel, split by the ligands. An electron is promoted by absorbing orange light, and the complementary colour, blue, is seen. Zn<sup>2+</sup> (3d<sup>10</sup>) has a full d sublevel, so no promotion is possible.": "Cu<sup>2+</sup>（3d<sup>9</sup>）は一部だけ満たされた d 副準位をもち、それが配位子によって分裂しています。電子がオレンジ色の光を吸収して高い準位へ移り、補色の青が見えます。Zn<sup>2+</sup>（3d<sup>10</sup>）は d 副準位が満たされているので、電子は移れません。",
+    "Cu<sup>2+</sup> (3d<sup>9</sup>) has a partially filled d sublevel, split by the ligands. An electron is promoted by absorbing orange light, and the complementary colour, blue, is seen. Zn<sup>2+</sup> (3d<sup>10</sup>) has a full d sublevel, so no promotion is possible.": "Cu<sup>2+</sup>（3d<sup>9</sup>）は一部だけ満たされた d 副準位をもち、それが配位子によって分裂しています。電子が橙色の光を吸収して高い準位へ移り、補色の青色が見えます。Zn<sup>2+</sup>（3d<sup>10</sup>）は d 副準位が満たされているので、電子は移れません。",
 
     // Why transition element complexes are coloured > Additional HL > p
     "The same reasoning explains <span class=\"chem\">Sc^3+</span>. It has no d electrons at all, so there is no electron to promote. Its compounds are colourless.": "同じ考え方で <span class=\"chem\">Sc^3+</span> も説明できます。d 電子がまったくないので、高い準位へ移る電子がありません。化合物は無色です。",
@@ -1878,7 +1878,7 @@ S1.i18n.register('ja', 's3-1', {
     "To use the colour wheel, convert a wavelength in metres back to nm: divide by <span class=\"mono\">10<sup>−9</sup></span>.": "色相環を使うときは、メートルの波長を nm に戻します。<span class=\"mono\">10<sup>−9</sup></span> で割ります。",
 
     // Why transition element complexes are coloured > Additional HL > li
-    "Find the colour on the wheel. The complementary colour is directly opposite.": "色相環でその色を探します。補色はちょうど反対側にあります。",
+    "Find the colour on the wheel. The complementary colour is directly opposite.": "色相環でその色を探します。補色は真向かいにあります。",
 
     // Why transition element complexes are coloured > worked example > Additional HL > data-kicker attribute
     "Worked example 13": "例題 13",
@@ -1911,16 +1911,16 @@ S1.i18n.register('ja', 's3-1', {
     "Use the colour wheel": "色相環を使う",
 
     // Why transition element complexes are coloured > worked example > Additional HL > p
-    "Find the sector that contains 600 nm, then go straight across the wheel.": "600 nm を含む区画を見つけ、色相環のまっすぐ反対側を見ます。",
+    "Find the sector that contains 600 nm, then go straight across the wheel.": "600 nm を含む区画を見つけ、色相環の真向かいを見ます。",
 
     // Why transition element complexes are coloured > worked example > Additional HL > maths line
-    "600 nm is between 585 nm and 647 nm: orange is absorbed.": "600 nm は 585 nm と 647 nm の間：オレンジ色が吸収される。",
+    "600 nm is between 585 nm and 647 nm: orange is absorbed.": "600 nm は 585 nm と 647 nm の間：橙色が吸収される。",
 
     // Why transition element complexes are coloured > worked example > Additional HL > maths line
-    "<b>Opposite orange is blue: the complex is blue.</b>": "<b>オレンジ色の反対側は青：錯体は青色。</b>",
+    "<b>Opposite orange is blue: the complex is blue.</b>": "<b>橙色の向かいは青色：錯体は青色。</b>",
 
     // Why transition element complexes are coloured > worked example > Additional HL > p
-    "λ = 600 nm (3 significant figures, like the data). Orange light is absorbed, so the complex appears blue.": "λ = 600 nm（データと同じ有効数字 3 桁）。オレンジ色の光が吸収されるので、錯体は青く見えます。",
+    "λ = 600 nm (3 significant figures, like the data). Orange light is absorbed, so the complex appears blue.": "λ = 600 nm（データと同じ有効数字 3 桁）。橙色の光が吸収されるので、錯体は青く見えます。",
 
     // Why transition element complexes are coloured > try it > Additional HL > p
     "A complex ion absorbs light of wavelength 450 nm. Calculate the frequency of this light.": "ある錯イオンは、波長 450 nm の光を吸収します。この光の振動数を計算しなさい (calculate)。",
@@ -1932,7 +1932,7 @@ S1.i18n.register('ja', 's3-1', {
     "Use <i>f</i> = <i>c</i> / <i>λ</i> with <i>c</i> = 3.00 × 10<sup>8</sup> m s<sup>−1</sup>.": "<i>f</i> = <i>c</i> / <i>λ</i> に <i>c</i> = 3.00 × 10<sup>8</sup> m s<sup>−1</sup> を使います。",
 
     // Why transition element complexes are coloured > try it > Additional HL > maths line
-    "450 nm is blue light, so this complex appears orange.": "450 nm は青い光なので、この錯体はオレンジ色に見える。",
+    "450 nm is blue light, so this complex appears orange.": "450 nm は青色の光なので、この錯体は橙色に見える。",
 
     // Why transition element complexes are coloured > try it > Additional HL > p
     "A complex ion absorbs light of frequency <span class=\"mono\">7.25 × 10<sup>14</sup> Hz</span>. Calculate the wavelength absorbed, in nm. Then decide what colour the complex is.": "ある錯イオンは、振動数 <span class=\"mono\">7.25 × 10<sup>14</sup> Hz</span> の光を吸収します。吸収される波長を nm の単位で計算しなさい (calculate)。次に、錯体が何色かを判断しましょう。",
@@ -1944,7 +1944,7 @@ S1.i18n.register('ja', 's3-1', {
     "<i>λ</i> = (3.00 × 10<sup>8</sup>) / (7.25 × 10<sup>14</sup>) m. Then divide by 10<sup>−9</sup> to get nm.": "<i>λ</i> = (3.00 × 10<sup>8</sup>) / (7.25 × 10<sup>14</sup>) m。次に 10<sup>−9</sup> で割って nm に直します。",
 
     // Why transition element complexes are coloured > try it > Additional HL > maths line
-    "414 nm is violet (400 to 424 nm). Opposite violet is yellow: the complex is yellow.": "414 nm は紫（400〜424 nm）。紫の反対側は黄：錯体は黄色。",
+    "414 nm is violet (400 to 424 nm). Opposite violet is yellow: the complex is yellow.": "414 nm は紫色（400〜424 nm）。紫色の向かいは黄色：錯体は黄色。",
 
     // Why transition element complexes are coloured > common mistake > Additional HL > p
     "The most common slip is to put a wavelength in nm straight into <i>c</i> = <i>λf</i>. The speed of light is in metres per second, so the wavelength must be in metres. Your frequency should be close to <span class=\"mono\">10<sup>14</sup> Hz</span> to <span class=\"mono\">10<sup>15</sup> Hz</span> for visible light. If it is not, check the units.": "いちばん多いミスは、nm の波長をそのまま <i>c</i> = <i>λf</i> に入れることです。光の速さの単位はメートル毎秒なので、波長もメートルでなければなりません。可視光なら、振動数は <span class=\"mono\">10<sup>14</sup> Hz</span> から <span class=\"mono\">10<sup>15</sup> Hz</span> くらいになるはずです。そうならなければ、単位を確かめましょう。",
@@ -1953,7 +1953,7 @@ S1.i18n.register('ja', 's3-1', {
     "For “what colour is absorbed?” examiners accept the colour name, the wavelength range from the wheel, or a wavelength inside the range. The complementary colour point only scores if you also say that light is absorbed.": "「どの色が吸収されるか」という問いでは、色の名前、色相環の波長の範囲、その範囲内の波長のどれを書いても認められます。補色のポイントは、光が吸収されることも書いたときだけ点になります。",
 
     // Why transition element complexes are coloured > not needed for IB > Additional HL > p
-    "You do not need d-orbital splitting diagrams for different shapes, crystal field theory, or the spectrochemical series. The data booklet has no spectrochemical series. If a question compares two complexes, it will give you the information you need.": "いろいろな形の錯体の d 軌道の分裂図、結晶場理論、分光化学系列は必要ありません。データブックレットに分光化学系列はのっていません。2 つの錯体を比べる問題では、必要な情報が問題の中で与えられます。",
+    "You do not need d-orbital splitting diagrams for different shapes, crystal field theory, or the spectrochemical series. The data booklet has no spectrochemical series. If a question compares two complexes, it will give you the information you need.": "いろいろな形の錯体の d 軌道の分裂図、結晶場理論、分光化学系列は必要ありません。データブックレットに分光化学系列はのっていません。2 つの錯体をくらべる問題では、必要な情報が問題の中で与えられます。",
 
     // Why transition element complexes are coloured > Additional HL > data-title attribute
     "Colour of complexes: quick check": "錯体の色：確認クイズ",
@@ -1974,7 +1974,7 @@ S1.i18n.register('ja', 's3-1', {
     "Why are simulations often used to explore the reactivity of group 1 and group 17 elements?": "1 族と 17 族の元素の反応性を調べるのに、なぜシミュレーションがよく使われるのでしょうか。",
 
     // Linking it up > p
-    "Some of the reactions are too dangerous for a school laboratory. Rubidium and caesium react explosively with water, and the halogens are toxic. A simulation or a video lets you compare all the elements safely and repeat the comparison as often as you like.": "反応の中には、学校の実験室で行うには危険すぎるものがあります。ルビジウムとセシウムは水と爆発的に反応し、ハロゲンには毒性があります。シミュレーションや動画なら、すべての元素を安全に比べられ、何度でもくり返せます。",
+    "Some of the reactions are too dangerous for a school laboratory. Rubidium and caesium react explosively with water, and the halogens are toxic. A simulation or a video lets you compare all the elements safely and repeat the comparison as often as you like.": "反応の中には、学校の実験室で行うには危険すぎるものがあります。ルビジウムとセシウムは水と爆発的に反応し、ハロゲンには毒性があります。シミュレーションや動画なら、すべての元素を安全にくらべられ、何度でもくり返せます。",
 
     // Linking it up > h3
     "How do differences in bonding explain the properties of metal and non-metal oxides?": "結合の違いは、金属酸化物と非金属酸化物の性質をどう説明するのでしょうか。",
@@ -2520,7 +2520,7 @@ S1.i18n.register('ja', 's3-1', {
     "No reaction": "反応しない",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Check my predictions": "予測を答え合わせする",
+    "Check my predictions": "予測の答え合わせ",
 
     // widget string (assets/js/widgets-s3-1.js)
     "Start again": "最初からやり直す",
@@ -2922,7 +2922,7 @@ S1.i18n.register('ja', 's3-1', {
     "The d sublevel is partially filled. An electron can be promoted between d orbitals, so this ion can form coloured complexes.": "d 副準位は一部だけ満たされています。電子が d 軌道の間を移れるので、このイオンは色のついた錯体をつくれます。",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Transition element to compare with calcium": "カルシウムと比べる遷移元素",
+    "Transition element to compare with calcium": "カルシウムとくらべる遷移元素",
 
     // widget string (assets/js/widgets-s3-1.js)
     "Calcium: each value ÷ the one before": "カルシウム：それぞれの値 ÷ 前の値",
@@ -2949,7 +2949,7 @@ S1.i18n.register('ja', 's3-1', {
     "(transition element)": "（遷移元素）",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Calcium: the third ionization energy is {r} times the second. The third electron comes from an inner energy level, so calcium only forms the 2+ ion. {name}: the second and third values rise by a factor of {b} or less. The 4s and 3d electrons are close in energy, so the successive ionization energies are close in value. There is no large jump after the second electron, so more than one oxidation state is possible.": "カルシウム：第三イオン化エネルギーは第二の {r} 倍です。3 個目の電子は内側のエネルギー準位から取り除かれるので、カルシウムは 2+ のイオンにしかなりません。{name}：第二と第三の値は、前の値の {b} 倍以下にしか増えません。4s 電子と 3d 電子のエネルギーが近いので、逐次イオン化エネルギーの値も近くなります。2 個目の電子のあとに大きな跳ね上がりがないので、複数の酸化数をとれます。",
+    "Calcium: the third ionization energy is {r} times the second. The third electron comes from an inner energy level, so calcium only forms the 2+ ion. {name}: the second and third values rise by a factor of {b} or less. The 4s and 3d electrons are close in energy, so the successive ionization energies are close in value. There is no large jump after the second electron, so more than one oxidation state is possible.": "カルシウム：第三イオン化エネルギーは第二の {r} 倍です。3 個目の電子は内側のエネルギー準位から取り除かれるので、カルシウムは 2+ のイオンにしかなりません。{name}：第二と第三の値は、前の値の {b} 倍以下にしか増えません。4s 電子と 3d 電子のエネルギーが近いので、逐次イオン化エネルギーの値も近くなります。2 個目の電子のあとに大きなジャンプがないので、複数の酸化数をとれます。",
 
     // widget string (assets/js/widgets-s3-1.js)
     "violet": "紫",
@@ -2964,7 +2964,7 @@ S1.i18n.register('ja', 's3-1', {
     "yellow": "黄",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "orange": "オレンジ",
+    "orange": "橙",
 
     // widget string (assets/js/widgets-s3-1.js)
     "red": "赤",
@@ -2976,7 +2976,7 @@ S1.i18n.register('ja', 's3-1', {
     "Try an example": "例を試す",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "absorbs orange": "オレンジを吸収",
+    "absorbs orange": "橙を吸収",
 
     // widget string (assets/js/widgets-s3-1.js)
     "absorbs green": "緑を吸収",
@@ -3036,7 +3036,7 @@ S1.i18n.register('ja', 's3-1', {
     "by absorbing {colour} light": "（{colour}の光を吸収して）",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Colour wheel from the data booklet with six sectors: orange at the top, then yellow, green, blue, violet and red going clockwise. The {a} sector is marked absorbed and the opposite sector, {o}, is marked observed.": "データブックレットの色相環。6 つの区画があり、いちばん上がオレンジで、時計回りに黄、緑、青、紫、赤と並ぶ。{a}の区画に「吸収」、反対側の{o}の区画に「見える」の印がついている。",
+    "Colour wheel from the data booklet with six sectors: orange at the top, then yellow, green, blue, violet and red going clockwise. The {a} sector is marked absorbed and the opposite sector, {o}, is marked observed.": "データブックレットの色相環。6 つの区画があり、いちばん上が橙で、時計回りに黄、緑、青、紫、赤と並ぶ。{a}の区画に「吸収」、反対側の{o}の区画に「見える」の印がついている。",
 
     // widget string (assets/js/widgets-s3-1.js)
     "White light enters a solution. The {a} part is absorbed, so the light that comes out looks {o}. Below, an electron moves from the lower-energy d orbitals to the higher-energy d orbitals.": "白色光が溶液に入る。{a}の部分が吸収されるので、出てくる光は{o}に見える。その下では、電子がエネルギーの低い d 軌道からエネルギーの高い d 軌道へ移る。",

@@ -22,7 +22,7 @@ S1.i18n.register('ja', 's3-1.q', {
       ],
       hints: [
         // EN: Find the four elements in period 3 of your periodic table.
-        "周期表の第 3 周期で、この 4 つの元素をさがしましょう。",
+        "周期表の第 3 周期で、この 4 つの元素を探しましょう。",
         // EN: Metalloids lie on the diagonal boundary between the metals (left) and the non-metals (right).
         "半金属は、金属（左側）と非金属（右側）を分ける斜めの境界線の上にあります。",
       ],
@@ -88,7 +88,7 @@ S1.i18n.register('ja', 's3-1.q', {
       ],
       hints: [
         // EN: Find Sn in the data booklet. Read its row (period) and its column (group).
-        "データブックレットで Sn をさがします。行（周期）と列（族）を読み取りましょう。",
+        "データブックレットで Sn を探します。行（周期）と列（族）を読み取りましょう。",
         // EN: Groups 13 to 18 are the p-block. The lower part of the p-block contains metals.
         "13〜18 族が p ブロックです。p ブロックの下のほうには金属があります。",
       ],
@@ -118,7 +118,7 @@ S1.i18n.register('ja', 's3-1.q', {
       ],
       hints: [
         // EN: Find the group of each element. Groups 1–2: s-block. Groups 3–12: d-block. Groups 13–18: p-block.
-        "それぞれの元素の族をさがします。1–2 族は s ブロック、3–12 族は d ブロック、13–18 族は p ブロックです。",
+        "それぞれの元素の族を探します。1–2 族は s ブロック、3–12 族は d ブロック、13–18 族は p ブロックです。",
         // EN: The metalloids include B, Si, Ge, As, Sb and Te.
         "半金属は B、Si、Ge、As、Sb、Te などです。",
       ],
@@ -732,7 +732,7 @@ S1.i18n.register('ja', 's3-1.q', {
       ],
       hints: [
         // EN: Find Na, Mg, Al and S in period 3.
-        "第 3 周期で Na、Mg、Al、S をさがしましょう。",
+        "第 3 周期で Na、Mg、Al、S を探しましょう。",
         // EN: Metal oxides are basic. Non-metal oxides are acidic. The change across the period is gradual.
         "金属の酸化物は塩基性です。非金属の酸化物は酸性です。周期を左から右へ、少しずつ変わっていきます。",
       ],
@@ -1535,7 +1535,7 @@ S1.i18n.register('ja', 's3-1.q', {
         "色相環では、補色どうしは真向かいにあります。",
       ],
       // EN: <p>The colour observed is <strong>complementary</strong> to the colour absorbed. Complementary colours are opposite each other on the colour wheel. Blue is opposite orange, so the solution appears <strong>blue</strong>.</p>
-      solution: "<p>観察される色は、吸収される色の<strong>補色</strong>です。補色どうしは、色相環で向かい合っています。橙色の向かいは青色なので、溶液は<strong>青色</strong>に見えます。</p>",
+      solution: "<p>見える色は、吸収される色の<strong>補色</strong>です。補色どうしは、色相環で向かい合っています。橙色の向かいは青色なので、溶液は<strong>青色</strong>に見えます。</p>",
       misconception: {
         // EN (option A): Orange is the colour that is absorbed, so it is removed from the light that reaches your eye. You see what is left.
         "0": "橙色は吸収される色です。だから、目に届く光からは取り除かれています。見えるのは残った光です。",
@@ -1559,7 +1559,7 @@ S1.i18n.register('ja', 's3-1.q', {
         "最後に、吸収される色と見える色の関係を書きましょう。",
       ],
       // EN: <p>The <span class="chem">Cu^2+</span> ion has a partially filled d sublevel (<span class="mono nowrap">[Ar] 3d<sup>9</sup></span>). The ligands (water molecules) cause the d orbitals to split into two sets with different energies. An electron absorbs light and is promoted from a lower-energy d orbital to a higher-energy d orbital. The energy gap corresponds to light in the visible region. The colour observed (blue) is complementary to the colour absorbed (orange).</p><p>Do not write that the complex <em>emits</em> blue light. The colour comes from absorption.</p>
-      answer: "<p><span class=\"chem\">Cu^2+</span> イオンは、一部だけ満たされた d 副準位（<span class=\"mono nowrap\">[Ar] 3d<sup>9</sup></span>）をもっています。配位子（水分子）によって、d 軌道はエネルギーの違う 2 組に分裂します。電子は光を吸収して、エネルギーの低い d 軌道からエネルギーの高い d 軌道へ移ります（励起されます）。このエネルギーの差は、可視領域の光にあたります。観察される色（青色）は、吸収される色（橙色）の補色です。</p><p>錯体が青色の光を<em>放出する</em>と書いてはいけません。色は吸収によって生じます。</p>",
+      answer: "<p><span class=\"chem\">Cu^2+</span> イオンは、一部だけ満たされた d 副準位（<span class=\"mono nowrap\">[Ar] 3d<sup>9</sup></span>）をもっています。配位子（水分子）によって、d 軌道はエネルギーの違う 2 組に分裂します。電子は光を吸収して、エネルギーの低い d 軌道からエネルギーの高い d 軌道へ移ります（励起されます）。このエネルギーの差は、可視領域の光にあたります。見える色（青色）は、吸収される色（橙色）の補色です。</p><p>錯体が青色の光を<em>放出する</em>と書いてはいけません。色は吸収によって生じます。</p>",
       markscheme: [
         // EN: The ion has partially filled d orbitals / an incomplete d sublevel.
         "イオンが、一部だけ満たされた d 軌道 / 不完全な d 副準位をもつ。",
@@ -1570,7 +1570,7 @@ S1.i18n.register('ja', 's3-1.q', {
         // EN: The energy gap corresponds to (the frequency of) visible light.
         "エネルギーの差が、可視光（の振動数）にあたる。",
         // EN: The colour observed is complementary to the colour absorbed (only if absorption of light is mentioned).
-        "観察される色は、吸収される色の補色である（光の吸収にふれている場合だけ）。",
+        "見える色は、吸収される色の補色である（光の吸収にふれている場合だけ）。",
       ],
     },
 
@@ -1592,7 +1592,7 @@ S1.i18n.register('ja', 's3-1.q', {
         // EN: Is the colour caused by light being absorbed or by light being emitted?
         "色の原因は、光の吸収ですか、光の放出ですか。",
         // EN: Find the colour opposite green on the wheel.
-        "色相環で、緑色の向かいにある色をさがしましょう。",
+        "色相環で、緑色の向かいにある色を探しましょう。",
       ],
       // EN: <p>White light passes through the solution. The complex <strong>absorbs</strong> light of one colour, and the energy promotes an electron from a lower-energy d orbital to a higher-energy d orbital. The colour seen is the complementary colour. Red is opposite green on the wheel, so the complex absorbs <strong>red</strong> light and appears green.</p>
       solution: "<p>白色光が溶液を通ります。錯体は 1 つの色の光を<strong>吸収</strong>し、そのエネルギーで電子がエネルギーの低い d 軌道から高い d 軌道へ移ります（励起されます）。見える色は補色です。色相環で緑色の向かいは赤色なので、錯体は<strong>赤色</strong>の光を吸収し、緑色に見えます。</p>",
@@ -1640,21 +1640,21 @@ S1.i18n.register('ja', 's3-1.q', {
       stem: "<p>ある錯イオンは、振動数 7.25 × 10<sup>14</sup> Hz の光を吸収します。<i>c</i> = <i>λf</i> と色相環を使いましょう。</p><p><svg viewBox=\"0 0 300 224\" width=\"300\" height=\"224\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"データブックレットの色相環。同じ大きさの 6 つの扇形が、上から時計回りに並ぶ。橙色 585〜647 ナノメートル、黄色 575〜585、緑色 491〜575、青色 424〜491、紫色 400〜424、赤色 647〜700。橙色の反対側は青色、黄色の反対側は紫色、緑色の反対側は赤色。\"><circle cx=\"150\" cy=\"112\" r=\"74\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"112\" x2=\"224.0\" y2=\"112.0\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"187.0\" y2=\"47.9\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"113.0\" y2=\"47.9\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"76.0\" y2=\"112.0\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"113.0\" y2=\"176.1\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"187.0\" y2=\"176.1\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"150.0\" y=\"70.1\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">橙</text><text x=\"189.7\" y=\"93.1\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">黄</text><text x=\"189.7\" y=\"138.9\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">緑</text><text x=\"150.0\" y=\"161.9\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">青</text><text x=\"110.3\" y=\"138.9\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">紫</text><text x=\"110.3\" y=\"93.1\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">赤</text><text x=\"110.0\" y=\"40.7\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">647 nm</text><text x=\"190.0\" y=\"40.7\" text-anchor=\"start\" font-size=\"12\" fill=\"currentColor\">585 nm</text><text x=\"232.0\" y=\"116.0\" text-anchor=\"start\" font-size=\"12\" fill=\"currentColor\">575 nm</text><text x=\"190.0\" y=\"193.3\" text-anchor=\"start\" font-size=\"12\" fill=\"currentColor\">491 nm</text><text x=\"110.0\" y=\"193.3\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">424 nm</text><text x=\"68.0\" y=\"108.0\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">700 nm</text><text x=\"68.0\" y=\"126.0\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">400 nm</text></svg></p><p>正しい組み合わせはどれですか。</p>",
       options: [
         // EN: Wavelength absorbed: 414 nm. Colour absorbed: yellow. Colour observed: violet.
-        "吸収される波長：414 nm。吸収される色：黄色。観察される色：紫色。",
+        "吸収される波長：414 nm。吸収される色：黄色。見える色：紫色。",
         // EN: Wavelength absorbed: 414 nm. Colour absorbed: violet. Colour observed: violet.
-        "吸収される波長：414 nm。吸収される色：紫色。観察される色：紫色。",
+        "吸収される波長：414 nm。吸収される色：紫色。見える色：紫色。",
         // EN: Wavelength absorbed: 414 nm. Colour absorbed: violet. Colour observed: blue.
-        "吸収される波長：414 nm。吸収される色：紫色。観察される色：青色。",
+        "吸収される波長：414 nm。吸収される色：紫色。見える色：青色。",
         // EN: Wavelength absorbed: 414 nm. Colour absorbed: violet. Colour observed: yellow.
-        "吸収される波長：414 nm。吸収される色：紫色。観察される色：黄色。",
+        "吸収される波長：414 nm。吸収される色：紫色。見える色：黄色。",
       ],
       hints: [
         // EN: <i>λ</i> = <i>c</i> / <i>f</i>. Convert the answer from m to nm.
         "<i>λ</i> = <i>c</i> / <i>f</i>。答えを m から nm に直しましょう。",
         // EN: Find the band on the wheel that contains this wavelength. That is the colour absorbed.
-        "色相環で、この波長が入る範囲をさがします。それが吸収される色です。",
+        "色相環で、この波長が入る範囲を探します。それが吸収される色です。",
         // EN: The colour observed is opposite on the wheel.
-        "観察される色は、色相環でその向かいにあります。",
+        "見える色は、色相環でその向かいにあります。",
       ],
       // EN: <div class="worked__math"><i>λ</i> = <i>c</i> / <i>f</i> = (3.00 × 10<sup>8</sup>) ÷ (7.25 × 10<sup>14</sup>)</div><div class="worked__math">= 4.14 × 10<sup>−7</sup> m = <b>414 nm</b></div><p>414 nm lies between 400 nm and 424 nm, so the light absorbed is <strong>violet</strong>. Yellow is opposite violet on the wheel, so the complex appears <strong>yellow</strong>.</p>
       solution: "<div class=\"worked__math\"><i>λ</i> = <i>c</i> / <i>f</i> = (3.00 × 10<sup>8</sup>) ÷ (7.25 × 10<sup>14</sup>)</div><div class=\"worked__math\">= 4.14 × 10<sup>−7</sup> m = <b>414 nm</b></div><p>414 nm は 400 nm と 424 nm の間にあるので、吸収される光は<strong>紫色</strong> (violet) です。色相環で紫色の向かいは黄色なので、錯体は<strong>黄色</strong>に見えます。</p>",

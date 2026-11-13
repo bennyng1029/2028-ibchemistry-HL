@@ -1136,7 +1136,7 @@ S1.i18n.register('ja', 's3-2.q', {
       stem: "<p>2 つのアルコール X と Y の骨格構造式を示します。</p><p data-i18n=\"off\"><span style=\"display:inline-block;white-space:nowrap;margin:0 1.5em 0.4em 0\"><strong>X</strong>&nbsp; <svg class=\"mol mol--skeletal\" viewBox=\"-4 -17 117 27\" width=\"117\" height=\"27\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CCCCO\" data-g=\"S:C.C.C.C.O1;0-1,1-2,2-3,3-4\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M67.5 -13L83.6 -3.7\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"90.1\" y=\"4.6\" text-anchor=\"middle\">O</text><text x=\"95.3\" y=\"4.6\" text-anchor=\"start\">H</text></g></svg></span> <span style=\"display:inline-block;white-space:nowrap;margin:0 1.5em 0.4em 0\"><strong>Y</strong>&nbsp; <svg class=\"mol mol--skeletal\" viewBox=\"-4 -17 76 53\" width=\"76\" height=\"53\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CCC(O)C\" data-g=\"S:C.C.C.O1.C;0-1,1-2,2-3,2-4\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L45 18.5\"/><path d=\"M45 0L67.5 -13\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"45\" y=\"30.6\" text-anchor=\"middle\">O</text><text x=\"50.2\" y=\"30.6\" text-anchor=\"start\">H</text></g></svg></span></p><p>X と Y はどんな関係ですか。</p>",
       options: [
         // EN: They are chain isomers.
-        "分岐鎖異性体 (chain isomers) である。",
+        "骨格異性体 (chain isomers) である。",
         // EN: They are position isomers.
         "位置異性体 (position isomers) である。",
         // EN: They are functional group isomers.
@@ -1152,7 +1152,7 @@ S1.i18n.register('ja', 's3-2.q', {
       solution: "<p>どちらの分子も <span class=\"chem\">C<sub>4</sub>H<sub>10</sub>O</span> です。どちらも枝のない炭素 4 個の鎖をもち、官能基も同じヒドロキシ基 (hydroxyl) です。</p><p>違うのは基の位置だけです。X (butan-1-ol) では炭素 1、Y (butan-2-ol) では炭素 2 にあります。この 2 つは<strong>位置異性体 (position isomers)</strong> です。</p>",
       misconception: {
         // EN (option A): Chain isomers have differently branched carbon chains. Here both molecules have an unbranched chain of four carbon atoms.
-        "0": "分岐鎖異性体は、炭素鎖の枝分かれのしかたが違います。ここでは、どちらの分子も枝のない炭素原子 4 個の鎖です。",
+        "0": "骨格異性体は、炭素鎖の枝分かれのしかたが違います。ここでは、どちらの分子も枝のない炭素原子 4 個の鎖です。",
         // EN (option C): Functional group isomers have different functional groups. Both molecules have a hydroxyl group.
         "2": "官能基異性体は、官能基が違います。ここでは、どちらの分子もヒドロキシ基をもっています。",
         // EN (option D): Both have the molecular formula <span class="chem">C<sub>4</sub>H<sub>10</sub>O</span> and their atoms are joined differently, so they are isomers.
@@ -1263,7 +1263,7 @@ S1.i18n.register('ja', 's3-2.q', {
         "それぞれの図に名前をつけましょう。最長の炭素鎖を見つけ、次に枝の位置を調べます。名前が同じ 2 つの図は、同じ化合物です。",
       ],
       // EN: <p>Name X: the longest chain has 5 carbon atoms, and there is one methyl branch on carbon 2. X is 2-methylpentane.</p><p>The correct drawing also has a five-carbon chain with one methyl branch on the second carbon from one end. It is X, turned over and drawn from the other end.</p><p>The other three are 3-methylpentane, 2,2-dimethylbutane and 2,3-dimethylbutane. All are <span class="chem">C<sub>6</sub>H<sub>14</sub></span>, so they are chain isomers of X.</p>
-      solution: "<p>X に名前をつけます。最長の炭素鎖には炭素原子が 5 個あり、炭素 2 にメチル基の枝が 1 つあります。X は 2-methylpentane です。</p><p>正しい図も、炭素 5 個の鎖で、端から 2 番目の炭素にメチル基の枝が 1 つあります。これは X を裏返して、反対の端から描いたものです。</p><p>ほかの 3 つは、3-methylpentane、2,2-dimethylbutane、2,3-dimethylbutane です。どれも <span class=\"chem\">C<sub>6</sub>H<sub>14</sub></span> なので、X の分岐鎖異性体 (chain isomers) です。</p>",
+      solution: "<p>X に名前をつけます。最長の炭素鎖には炭素原子が 5 個あり、炭素 2 にメチル基の枝が 1 つあります。X は 2-methylpentane です。</p><p>正しい図も、炭素 5 個の鎖で、端から 2 番目の炭素にメチル基の枝が 1 つあります。これは X を裏返して、反対の端から描いたものです。</p><p>ほかの 3 つは、3-methylpentane、2,2-dimethylbutane、2,3-dimethylbutane です。どれも <span class=\"chem\">C<sub>6</sub>H<sub>14</sub></span> なので、X の骨格異性体 (chain isomers) です。</p>",
       misconception: {
         // EN (option A): Here the branch is on the middle carbon of a five-carbon chain (3-methylpentane). In X the branch is on the second carbon.
         "0": "この図では、枝が炭素 5 個の鎖の真ん中の炭素にあります (3-methylpentane)。X では、枝は 2 番目の炭素にあります。",
@@ -1298,7 +1298,7 @@ S1.i18n.register('ja', 's3-2.q', {
         // EN (option A): Both are alcohols. Only the position of the hydroxyl group differs, so these are position isomers.
         "0": "どちらもアルコールです。違うのはヒドロキシ基の位置だけなので、位置異性体 (position isomers) です。",
         // EN (option B): Both are alkanes. Only the branching of the carbon chain differs, so these are chain isomers.
-        "1": "どちらもアルカンです。違うのは炭素鎖の枝分かれだけなので、分岐鎖異性体 (chain isomers) です。",
+        "1": "どちらもアルカンです。違うのは炭素鎖の枝分かれだけなので、骨格異性体 (chain isomers) です。",
         // EN (option D): These have different molecular formulas (<span class="chem">C<sub>2</sub>H<sub>6</sub>O</span> and <span class="chem">C<sub>3</sub>H<sub>8</sub>O</span>), so they are not isomers. They are members of the same homologous series.
         "3": "この 2 つは分子式が違うので（<span class=\"chem\">C<sub>2</sub>H<sub>6</sub>O</span> と <span class=\"chem\">C<sub>3</sub>H<sub>8</sub>O</span>）、異性体ではありません。同じ同族列のメンバーです。",
       },
@@ -1357,12 +1357,12 @@ S1.i18n.register('ja', 's3-2.q', {
     // ── s3-2-q049 · short · challenge · SL · Structure 3.2.6 · 3 marks
     "s3-2-q049": {
       // EN: <p>Pentan-2-one is <span class="chem">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>. State the IUPAC name of:</p><p>(a) a position isomer of pentan-2-one;</p><p>(b) a chain isomer of pentan-2-one that is also a ketone;</p><p>(c) a functional group isomer of pentan-2-one.</p>
-      stem: "<p>Pentan-2-one は <span class=\"chem\">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span> です。次の化合物の IUPAC 名を述べなさい (state)。</p><p>(a) pentan-2-one の位置異性体 (position isomer)</p><p>(b) pentan-2-one の分岐鎖異性体 (chain isomer) で、ケトン (ketone) でもあるもの</p><p>(c) pentan-2-one の官能基異性体 (functional group isomer)</p>",
+      stem: "<p>Pentan-2-one は <span class=\"chem\">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span> です。次の化合物の IUPAC 名を述べなさい (state)。</p><p>(a) pentan-2-one の位置異性体 (position isomer)</p><p>(b) pentan-2-one の骨格異性体 (chain isomer) で、ケトン (ketone) でもあるもの</p><p>(c) pentan-2-one の官能基異性体 (functional group isomer)</p>",
       hints: [
         // EN: Every answer must have the molecular formula <span class="chem">C<sub>5</sub>H<sub>10</sub>O</span>.
         "どの答えも、分子式が <span class=\"chem\">C<sub>5</sub>H<sub>10</sub>O</span> でなければなりません。",
         // EN: Position isomer: move the C=O along the same chain. Chain isomer: change the branching of the carbon chain.
-        "位置異性体：同じ鎖の上で C=O を動かします。分岐鎖異性体：炭素鎖の枝分かれを変えます。",
+        "位置異性体：同じ鎖の上で C=O を動かします。骨格異性体：炭素鎖の枝分かれを変えます。",
         // EN: Which other class has the general formula <span class="chem">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O</span>?
         "一般式が <span class=\"chem\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O</span> になる化合物の種類は、ほかに何がありますか。",
       ],

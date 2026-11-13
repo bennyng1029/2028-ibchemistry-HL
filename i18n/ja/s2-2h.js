@@ -84,7 +84,7 @@ S1.i18n.register('ja', 's2-2h', {
     "Count <strong>electron domains</strong>. A lone pair, a single bond, a double bond and a triple bond each count as one domain.": "<strong>電子領域</strong>を数える。非共有電子対、単結合、二重結合、三重結合は、どれも 1 つの領域と数える。",
 
     // What you need from the core page > li
-    "Use the <strong>VSEPR model</strong> for two, three and four domains: linear, trigonal planar and tetrahedral arrangements. Lone pairs repel more than bonding pairs.": "電子領域が 2 つ、3 つ、4 つのときに <strong>VSEPR モデル</strong>を使う。配置は直線形、平面三角形、正四面体形になる。非共有電子対は、共有電子対より強く反発する。",
+    "Use the <strong>VSEPR model</strong> for two, three and four domains: linear, trigonal planar and tetrahedral arrangements. Lone pairs repel more than bonding pairs.": "電子領域が 2 つ、3 つ、4 つのときに <strong>VSEPR モデル</strong>を使う。配置は直線形、平面三角形、四面体形になる。非共有電子対は、共有電子対より強く反発する。",
 
     // What you need from the core page > li
     "Decide whether a molecule is <strong>polar</strong>: find the polar bonds, then check whether the bond dipoles cancel.": "分子に<strong>極性</strong>があるかどうかを決める。極性のある結合を見つけ、次に結合の双極子が打ち消し合うかを確かめる。",
@@ -598,10 +598,10 @@ S1.i18n.register('ja', 's2-2h', {
     "Four bonds (4 pairs), three lone pairs on each F (12 pairs) and one lone pair on S (1 pair): 17 pairs. Sulfur has 10 electrons, an expanded octet.": "結合 4 本（4 組）、各 F の非共有電子対 3 組（合計 12 組）、S の非共有電子対 1 組（1 組）で、17 組です。硫黄の電子は 10 個で、拡張オクテットです。",
 
     // Expanded octets: five and six electron domains > worked example > data-title attribute
-    "Name the electron domain geometry": "電子領域の配置の名前を答える",
+    "Name the electron domain geometry": "電子領域の配置の名前を決める",
 
     // Expanded octets: five and six electron domains > worked example > p
-    "This describes all five domains, lone pair included.": "これは、非共有電子対もふくめた 5 つの領域すべての並び方です。",
+    "This describes all five domains, lone pair included.": "これは、非共有電子対も含めた 5 つの領域すべての並び方です。",
 
     // Expanded octets: five and six electron domains > worked example > p
     "Five domains: <strong>trigonal bipyramidal</strong>.": "領域が 5 つ：<strong>三方両錐形</strong>。",
@@ -729,7 +729,7 @@ S1.i18n.register('ja', 's2-2h', {
     "Octahedral electron domain geometry; square pyramidal molecular geometry.": "電子領域の配置は正八面体形。分子の形は四角錐形。",
 
     // Expanded octets: five and six electron domains > common mistake > p
-    "Do not name the shape from the number of bonds alone. <span class=\"chem\">SF4</span> and <span class=\"chem\">XeF4</span> both have four bonds, but neither is tetrahedral. Always find the lone pairs on the central atom first.": "結合の数だけで形の名前を決めてはいけません。<span class=\"chem\">SF4</span> と <span class=\"chem\">XeF4</span> はどちらも結合が 4 本ですが、どちらも正四面体形ではありません。必ず、中心原子の非共有電子対を先に見つけましょう。",
+    "Do not name the shape from the number of bonds alone. <span class=\"chem\">SF4</span> and <span class=\"chem\">XeF4</span> both have four bonds, but neither is tetrahedral. Always find the lone pairs on the central atom first.": "結合の数だけで形の名前を決めてはいけません。<span class=\"chem\">SF4</span> と <span class=\"chem\">XeF4</span> はどちらも結合が 4 本ですが、どちらも四面体形ではありません。必ず、中心原子の非共有電子対を先に見つけましょう。",
 
     // Expanded octets: five and six electron domains > exam tip (shown in English + translation) > p
     "Electron domain geometry and molecular geometry are separate marks. Read which one is asked. To explain a shape, state the number of bonding domains and lone pairs around the central atom.": "電子領域の配置 (electron domain geometry) と分子の形 (molecular geometry) は、別々に採点されます。どちらを問われているのか、よく読みましょう。形を説明するときは、中心原子のまわりの結合の領域の数と非共有電子対の数を書きます。",
@@ -775,7 +775,7 @@ S1.i18n.register('ja', 's2-2h', {
     "Method: calculate, then choose": "解き方：計算してから選ぶ",
 
     // Formal charge > li
-    "Draw each possible Lewis formula with all its lone pairs.": "考えられるルイス構造式を、非共有電子対もすべてふくめて 1 つずつ描く。",
+    "Draw each possible Lewis formula with all its lone pairs.": "考えられるルイス構造式を、非共有電子対もすべて含めて 1 つずつ描く。",
 
     // Formal charge > li
     "For each atom, find <i>V</i> from its group, count <i>N</i> (dots on that atom) and count <i>B</i> (2 for a single bond, 4 for a double bond, 6 for a triple bond).": "原子ごとに、族から <i>V</i> を求め、<i>N</i>（その原子に付いた点の数）と <i>B</i>（単結合は 2、二重結合は 4、三重結合は 6）を数える。",
@@ -793,7 +793,7 @@ S1.i18n.register('ja', 's2-2h', {
     "If two formulas are equal on that test, prefer the one with the negative formal charge on the <strong>more electronegative</strong> atom.": "それで差がつかないときは、負の形式電荷が<strong>電気陰性度の大きいほう</strong>の原子にある構造式を選ぶ。",
 
     // Formal charge > widget > data-title attribute
-    "Formal charge trainer": "形式電荷トレーナー",
+    "Formal charge trainer": "形式電荷トレーニング",
 
     // Formal charge > widget > figcaption
     "Choose a Lewis formula and an atom. Enter V, N and B, then the formal charge. Each atom you solve gets its charge drawn in a small circle. A formal charge of 0 is not drawn.": "ルイス構造式と原子を選びましょう。V、N、B を入力し、次に形式電荷を入力します。解けた原子には、小さな丸の中に電荷が書きこまれます。形式電荷が 0 のときは書きません。",
@@ -946,7 +946,7 @@ S1.i18n.register('ja', 's2-2h', {
     "Method: counting σ and π bonds": "解き方：σ 結合と π 結合の数え方",
 
     // Sigma (σ) and pi (π) bonds > li
-    "Draw the full structural formula. Show every bond, including every C–H bond.": "完全な構造式を描く。C–H 結合もふくめて、結合をすべて書く。",
+    "Draw the full structural formula. Show every bond, including every C–H bond.": "完全な構造式を描く。C–H 結合も含めて、結合をすべて書く。",
 
     // Sigma (σ) and pi (π) bonds > li
     "σ bonds: count one for every pair of atoms that are joined, whatever the bond is.": "σ 結合：結合している原子の組 1 つにつき、結合の種類に関係なく 1 本と数える。",
@@ -967,7 +967,7 @@ S1.i18n.register('ja', 's2-2h', {
     "Deduce the number of σ bonds and π bonds in one molecule of propenoic acid, <span class=\"chem\">CH2=CH–COOH</span>.": "プロペン酸 <span class=\"chem\">CH2=CH–COOH</span> の 1 分子にある σ 結合と π 結合の数を導きなさい (deduce)。",
 
     // Sigma (σ) and pi (π) bonds > worked example > data-title attribute
-    "Draw every bond": "結合をすべて描く",
+    "Draw every bond": "すべての結合を描く",
 
     // Sigma (σ) and pi (π) bonds > worked example > p
     "A condensed formula hides the C–H and O–H bonds. You cannot count what you cannot see.": "簡略化した構造式では、C–H 結合と O–H 結合が見えません。見えないものは数えられません。",
@@ -1092,7 +1092,7 @@ S1.i18n.register('ja', 's2-2h', {
     "sp<sup>3</sup> (four hybrid orbitals)": "sp<sup>3</sup>（混成軌道 4 つ）",
 
     // Hybridization > table > td
-    "tetrahedral, 109.5°": "正四面体形、109.5°",
+    "tetrahedral, 109.5°": "四面体形、109.5°",
 
     // Hybridization > table > td
     "C in <span class=\"chem\">CH4</span> and ethane; N in <span class=\"chem\">NH3</span>; O in <span class=\"chem\">H2O</span>": "<span class=\"chem\">CH4</span> とエタンの C、<span class=\"chem\">NH3</span> の N、<span class=\"chem\">H2O</span> の O",
@@ -1140,7 +1140,7 @@ S1.i18n.register('ja', 's2-2h', {
     "In ethyne, <span class=\"chem\">HC≡CH</span>, each carbon has two domains, so it is sp. Each carbon has two unmixed p orbitals, which make the two π bonds of the triple bond.": "エチン <span class=\"chem\">HC≡CH</span> では、どちらの炭素も領域が 2 つなので sp です。どちらの炭素にも、混ざらずに残った p 軌道が 2 つあり、三重結合の 2 本の π 結合を作ります。",
 
     // Hybridization > widget > data-title attribute
-    "Hybridization explorer": "混成エクスプローラー",
+    "Hybridization explorer": "混成を調べよう",
 
     // Hybridization > widget > figcaption
     "Choose a molecule, then an atom. The chain of reasoning is domains → hybridization → geometry. The energy diagram is a simple model: the orbitals mix, and the atom's valence electrons are shared out among the new orbitals. Hybrid orbitals have an energy between s and p.": "分子を選び、次に原子を選びましょう。考える順番は、領域 → 混成 → 形です。エネルギー図は単純なモデルです。軌道が混ざり、原子の価電子が新しい軌道に分けて入ります。混成軌道のエネルギーは、s と p の間です。",
@@ -1149,7 +1149,7 @@ S1.i18n.register('ja', 's2-2h', {
     "Lone pairs count": "非共有電子対も数える",
 
     // Hybridization > p
-    "Nitrogen in ammonia has three bonds and one lone pair. That is four domains, so nitrogen is sp<sup>3</sup>. The lone pair sits in one of the four sp<sup>3</sup> orbitals. The <em>electron domain geometry</em> is tetrahedral, and the molecular geometry is trigonal pyramidal.": "アンモニアの窒素には、結合が 3 本と非共有電子対が 1 組あります。領域は 4 つなので、窒素は sp<sup>3</sup> です。非共有電子対は、4 つの sp<sup>3</sup> 軌道のうちの 1 つに入ります。<em>電子領域の配置</em>は正四面体形で、分子の形は三角錐形です。",
+    "Nitrogen in ammonia has three bonds and one lone pair. That is four domains, so nitrogen is sp<sup>3</sup>. The lone pair sits in one of the four sp<sup>3</sup> orbitals. The <em>electron domain geometry</em> is tetrahedral, and the molecular geometry is trigonal pyramidal.": "アンモニアの窒素には、結合が 3 本と非共有電子対が 1 組あります。領域は 4 つなので、窒素は sp<sup>3</sup> です。非共有電子対は、4 つの sp<sup>3</sup> 軌道のうちの 1 つに入ります。<em>電子領域の配置</em>は四面体形で、分子の形は三角錐形です。",
 
     // Hybridization > p
     "The same rule works for outer atoms. Each oxygen in O=C=O has one double bond and two lone pairs: three domains, so sp<sup>2</sup>.": "外側の原子にも同じ規則が使えます。O=C=O のどちらの酸素にも、二重結合が 1 本と非共有電子対が 2 組あります。領域は 3 つなので sp<sup>2</sup> です。",
@@ -1185,7 +1185,7 @@ S1.i18n.register('ja', 's2-2h', {
     "Count what is around the atom: bonded atoms plus lone pairs.": "原子のまわりにあるものを数えます。結合している原子と非共有電子対です。",
 
     // Hybridization > worked example > p
-    "Bonded to 3 H and 1 C, no lone pairs: 4 domains → <strong>sp<sup>3</sup></strong> (tetrahedral, 109.5°).": "H 3 個と C 1 個に結合し、非共有電子対はなし：4 領域 → <strong>sp<sup>3</sup></strong>（正四面体形、109.5°）。",
+    "Bonded to 3 H and 1 C, no lone pairs: 4 domains → <strong>sp<sup>3</sup></strong> (tetrahedral, 109.5°).": "H 3 個と C 1 個に結合し、非共有電子対はなし：4 領域 → <strong>sp<sup>3</sup></strong>（四面体形、109.5°）。",
 
     // Hybridization > worked example > data-title attribute
     "The COOH carbon": "COOH の炭素",
@@ -1660,7 +1660,7 @@ S1.i18n.register('ja', 's2-2h', {
     "Card {n} is": "カード {n} は",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Check my sorting": "分類を確認",
+    "Check my sorting": "答え合わせ",
 
     // widget string (assets/js/widgets-s2-2h.js)
     "Correct.": "正解です。",
@@ -1693,7 +1693,7 @@ S1.i18n.register('ja', 's2-2h', {
     "less than 90° and less than 120° (measured: about 88° axial to equatorial, about 102° between the equatorial bonds; the two axial bonds are at about 173°, not 180°)": "90° 未満と 120° 未満（測定値：アキシアルとエクアトリアルの間は約 88°、エクアトリアル結合どうしは約 102°。2 本のアキシアル結合の間は 180° ではなく約 173°）",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Wrong position, for comparison: an axial lone pair is at 90° to three bonding pairs. In the real molecule the lone pair is equatorial, at 90° to only two bonding pairs. Less repulsion.": "比較のための、まちがった位置です。アキシアル位の非共有電子対は、3 組の共有電子対と 90° で向き合います。実際の分子では非共有電子対はエクアトリアル位にあり、90° で向き合う共有電子対は 2 組だけです。反発が小さくなります。",
+    "Wrong position, for comparison: an axial lone pair is at 90° to three bonding pairs. In the real molecule the lone pair is equatorial, at 90° to only two bonding pairs. Less repulsion.": "比較のための、間違った位置です。アキシアル位の非共有電子対は、3 組の共有電子対と 90° で向き合います。実際の分子では非共有電子対はエクアトリアル位にあり、90° で向き合う共有電子対は 2 組だけです。反発が小さくなります。",
 
     // widget string (assets/js/widgets-s2-2h.js)
     "Cl has 7 valence electrons. 3 are used in the three Cl–F bonds. 4 are left: two lone pairs.": "Cl の価電子は 7 個。3 本の Cl–F 結合に 3 個を使う。残りは 4 個：非共有電子対 2 組。",
@@ -1702,7 +1702,7 @@ S1.i18n.register('ja', 's2-2h', {
     "less than 90° (measured: about 87.5°)": "90° 未満（測定値：約 87.5°）",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Wrong position, for comparison: two axial lone pairs are each at 90° to three bonding pairs. In the real molecule both lone pairs are equatorial. Less repulsion.": "比較のための、まちがった位置です。アキシアル位の 2 組の非共有電子対は、それぞれ 3 組の共有電子対と 90° で向き合います。実際の分子では、非共有電子対は 2 組ともエクアトリアル位にあります。反発が小さくなります。",
+    "Wrong position, for comparison: two axial lone pairs are each at 90° to three bonding pairs. In the real molecule both lone pairs are equatorial. Less repulsion.": "比較のための、間違った位置です。アキシアル位の 2 組の非共有電子対は、それぞれ 3 組の共有電子対と 90° で向き合います。実際の分子では、非共有電子対は 2 組ともエクアトリアル位にあります。反発が小さくなります。",
 
     // widget string (assets/js/widgets-s2-2h.js)
     "Xe has 8 valence electrons. 2 are used in the two Xe–F bonds. 6 are left: three lone pairs.": "Xe の価電子は 8 個。2 本の Xe–F 結合に 2 個を使う。残りは 6 個：非共有電子対 3 組。",
@@ -1726,7 +1726,7 @@ S1.i18n.register('ja', 's2-2h', {
     "Xe has 8 valence electrons. 4 are used in the four Xe–F bonds. 4 are left: two lone pairs.": "Xe の価電子は 8 個。4 本の Xe–F 結合に 4 個を使う。残りは 4 個：非共有電子対 2 組。",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Wrong position, for comparison: lone pairs next to each other are only 90° apart. In the real molecule they are opposite each other, 180° apart. Less repulsion.": "比較のための、まちがった位置です。隣り合った非共有電子対は、90° しか離れていません。実際の分子では互いに反対側にあり、180° 離れています。反発が小さくなります。",
+    "Wrong position, for comparison: lone pairs next to each other are only 90° apart. In the real molecule they are opposite each other, 180° apart. Less repulsion.": "比較のための、間違った位置です。隣り合った非共有電子対は、90° しか離れていません。実際の分子では互いに反対側にあり、180° 離れています。反発が小さくなります。",
 
     // widget string (assets/js/widgets-s2-2h.js)
     "Mode": "モード",
@@ -1756,7 +1756,7 @@ S1.i18n.register('ja', 's2-2h', {
     "{d} (bonding: {b}, lone pairs: {l})": "{d}（結合：{b}、非共有電子対：{l}）",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{f} drawn with the lone pairs in the wrong position, for comparison": "比較のために、非共有電子対をまちがった位置に置いて描いた {f}",
+    "{f} drawn with the lone pairs in the wrong position, for comparison": "比較のために、非共有電子対を間違った位置に置いて描いた {f}",
 
     // widget string (assets/js/widgets-s2-2h.js)
     "Ball-and-stick model of {f}: {shape}": "{f} の球棒モデル：{shape}",
@@ -1855,7 +1855,7 @@ S1.i18n.register('ja', 's2-2h', {
     "V, N and B are right. Now calculate V − N − ½B. Halve B before you subtract it.": "V、N、B は合っています。次に V − N − ½B を計算しましょう。B は半分にしてから引きます。",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Not yet.": "まだです。",
+    "Not yet.": "まだ正解ではありません。",
 
     // widget string (assets/js/widgets-s2-2h.js)
     "Atom": "原子",
@@ -2026,7 +2026,7 @@ S1.i18n.register('ja', 's2-2h', {
     "σ: did you count the bonds to hydrogen? Every single bond is a σ bond.": "σ：水素との結合は数えましたか。単結合はどれも σ 結合です。",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "σ: a double or triple bond also contains one σ bond.": "σ：二重結合や三重結合にも、σ 結合が 1 本ふくまれています。",
+    "σ: a double or triple bond also contains one σ bond.": "σ：二重結合や三重結合にも、σ 結合が 1 本含まれています。",
 
     // widget string (assets/js/widgets-s2-2h.js)
     "σ: you counted every line. Only one line in each double or triple bond is a σ bond.": "σ：線をすべて数えています。二重結合や三重結合の線のうち、σ 結合は 1 本だけです。",
@@ -2101,7 +2101,7 @@ S1.i18n.register('ja', 's2-2h', {
     "Hydrogen uses its 1s orbital to form one σ bond. It is not hybridized.": "水素は 1s 軌道を使って σ 結合を 1 本作ります。混成はしていません。",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "tetrahedral (109.5°)": "正四面体形 (109.5°)",
+    "tetrahedral (109.5°)": "四面体形 (109.5°)",
 
     // widget string (assets/js/widgets-s2-2h.js)
     "trigonal planar (120°)": "平面三角形 (120°)",

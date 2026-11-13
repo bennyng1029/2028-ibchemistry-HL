@@ -78,7 +78,7 @@ S1.i18n.register('zh-Hant', 's2-2h', {
     "Draw a <strong>Lewis formula</strong> for a molecule or ion with up to four electron pairs on each atom. Show every lone pair.": "為每個原子最多有 4 個電子對的分子或離子繪畫<strong>路易斯結構式</strong>，並畫出每個孤電子對。",
 
     // What you need from the core page > li
-    "Say that single, double and triple bonds are one, two and three shared pairs. More shared pairs give a shorter, stronger bond.": "說出單鍵、雙鍵和三鍵分別是 1 個、2 個和 3 個共用電子對。共用電子對愈多，鍵愈短、愈強。",
+    "Say that single, double and triple bonds are one, two and three shared pairs. More shared pairs give a shorter, stronger bond.": "說出單鍵、雙鍵和三鍵分別是 1 個、2 個和 3 個共用電子對。共用電子對越多，鍵越短、越強。",
 
     // What you need from the core page > li
     "Count <strong>electron domains</strong>. A lone pair, a single bond, a double bond and a triple bond each count as one domain.": "數出<strong>電子域</strong>的數目。一個孤電子對、一個單鍵、一個雙鍵或一個三鍵，各算作一個電子域。",
@@ -440,7 +440,7 @@ S1.i18n.register('zh-Hant', 's2-2h', {
     "A trigonal bipyramid has two kinds of position. Three <dfn>equatorial</dfn> positions lie in a flat triangle, 120° apart. Two <dfn>axial</dfn> positions lie above and below, at 90° to the triangle.": "三角雙錐體有兩種位置。三個<dfn>赤道 <span class=\"en-term\">(equatorial)</span></dfn>位置在一個平面三角形上，互成 120°。兩個<dfn>軸向 <span class=\"en-term\">(axial)</span></dfn>位置在三角形的上方和下方，與三角形成 90°。",
 
     // Expanded octets: five and six electron domains > p
-    "<strong>Lone pairs take equatorial positions.</strong> An equatorial lone pair has only two neighbours at 90°. An axial lone pair would have three. Fewer 90° neighbours means less repulsion.": "<strong>孤電子對佔赤道位置。</strong>赤道位置的孤電子對只有兩個成 90° 的鄰居，軸向位置的孤電子對卻會有三個。成 90° 的鄰居愈少，斥力愈小。",
+    "<strong>Lone pairs take equatorial positions.</strong> An equatorial lone pair has only two neighbours at 90°. An axial lone pair would have three. Fewer 90° neighbours means less repulsion.": "<strong>孤電子對佔赤道位置。</strong>赤道位置的孤電子對只有兩個成 90° 的鄰居，軸向位置的孤電子對卻會有三個。成 90° 的鄰居越少，斥力越小。",
 
     // Expanded octets: five and six electron domains > p
     "In an octahedron all six positions are the same. When there are two lone pairs, they sit opposite each other, 180° apart.": "八面體的六個位置全部相同。如果有兩個孤電子對，它們會在相對的位置，互成 180°。",
@@ -547,7 +547,7 @@ S1.i18n.register('zh-Hant', 's2-2h', {
     "<span class=\"chem\">XeF4</span>": "<span class=\"chem\">XeF4</span>",
 
     // Expanded octets: five and six electron domains > widget > data-title attribute
-    "Five and six electron domains in 3-D": "5 個和 6 個電子域的 3-D 模型",
+    "Five and six electron domains in 3-D": "5 個和 6 個電子域的 3D 立體模型",
 
     // Expanded octets: five and six electron domains > widget > figcaption
     "Choose a species and predict its shape. Then drag the model to turn it. Dashed lobes with two dots are lone pairs. The model uses ideal angles. Where it says “less than”, lone pairs push the bonds a little closer together. Measured angles are rounded values from experiments.": "選擇一個物種，先預測它的形狀，然後拖曳模型把它轉動。有兩點的虛線瓣是孤電子對。模型用的是理想鍵角。寫着「小於」的地方，表示孤電子對把各鍵推得稍為靠近。量度所得的鍵角是實驗數值取整後的結果。",
@@ -793,7 +793,7 @@ S1.i18n.register('zh-Hant', 's2-2h', {
     "If two formulas are equal on that test, prefer the one with the negative formal charge on the <strong>more electronegative</strong> atom.": "如果兩個結構式在這方面不分高下，就選負形式電荷位於<strong>電負性較高</strong>的原子上的那一個。",
 
     // Formal charge > widget > data-title attribute
-    "Formal charge trainer": "形式電荷練習器",
+    "Formal charge trainer": "形式電荷練習工具",
 
     // Formal charge > widget > figcaption
     "Choose a Lewis formula and an atom. Enter V, N and B, then the formal charge. Each atom you solve gets its charge drawn in a small circle. A formal charge of 0 is not drawn.": "選擇一個路易斯結構式和一個原子。輸入 V、N 和 B，然後輸入形式電荷。每答對一個原子，它的電荷就會畫在小圓圈內。形式電荷是 0 時不會畫出來。",
@@ -1140,7 +1140,7 @@ S1.i18n.register('zh-Hant', 's2-2h', {
     "In ethyne, <span class=\"chem\">HC≡CH</span>, each carbon has two domains, so it is sp. Each carbon has two unmixed p orbitals, which make the two π bonds of the triple bond.": "在乙炔 <span class=\"chem\">HC≡CH</span> 中，每個碳有 2 個電子域，所以是 sp。每個碳有兩個沒有混合的 p 軌態，它們形成三鍵中的兩個 π 鍵。",
 
     // Hybridization > widget > data-title attribute
-    "Hybridization explorer": "雜化探索器",
+    "Hybridization explorer": "雜化探索工具",
 
     // Hybridization > widget > figcaption
     "Choose a molecule, then an atom. The chain of reasoning is domains → hybridization → geometry. The energy diagram is a simple model: the orbitals mix, and the atom's valence electrons are shared out among the new orbitals. Hybrid orbitals have an energy between s and p.": "先選擇一個分子，再選擇一個原子。推理的次序是：電子域 → 雜化 → 幾何形狀。能量圖是一個簡單的模型：軌態混合後，原子的價電子分配到新的軌態中。雜化軌態的能量介乎 s 和 p 之間。",
@@ -1381,7 +1381,7 @@ S1.i18n.register('zh-Hant', 's2-2h', {
     "Why are oxygen and ozone dissociated by different wavelengths of light?": "為甚麼令氧和臭氧解離的光，波長並不相同？",
 
     // Linking it up > p
-    "<span class=\"chem\">O2</span> has a double bond. In ozone, delocalization makes both bonds intermediate between single and double, so they are weaker. A weaker bond needs less energy to break. Light of lower energy has a longer wavelength (Structure 1.3). So ozone is broken by longer wavelengths of ultraviolet light than oxygen is.": "<span class=\"chem\">O2</span> 有一個雙鍵。在臭氧中，離域令兩個鍵都介乎單鍵和雙鍵之間，所以較弱。鍵愈弱，斷裂所需的能量愈少。能量較低的光，波長較長 (Structure 1.3)。所以與氧相比，波長較長的紫外光就能令臭氧的鍵斷裂。",
+    "<span class=\"chem\">O2</span> has a double bond. In ozone, delocalization makes both bonds intermediate between single and double, so they are weaker. A weaker bond needs less energy to break. Light of lower energy has a longer wavelength (Structure 1.3). So ozone is broken by longer wavelengths of ultraviolet light than oxygen is.": "<span class=\"chem\">O2</span> 有一個雙鍵。在臭氧中，離域令兩個鍵都介乎單鍵和雙鍵之間，所以較弱。鍵越弱，斷裂所需的能量越少。能量較低的光，波長較長 (Structure 1.3)。所以與氧相比，波長較長的紫外光就能令臭氧的鍵斷裂。",
 
     // Linking it up > h3
     "How does the resonance energy in benzene explain its relative unreactivity?": "苯的共振能怎樣解釋它相對不活潑？",

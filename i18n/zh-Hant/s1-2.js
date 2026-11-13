@@ -206,7 +206,7 @@ S1.i18n.register('zh-Hant', 's1-2', {
     "atomic number (no unit)": "原子序（沒有單位）",
 
     // Nuclear symbols: counting protons, neutrons and electrons > equation > dd
-    "charge on the species, with its sign: +2 for a 2+ ion, −1 for a 1− ion, 0 for an atom": "粒子所帶的電荷，連同正負號：2+ 離子是 +2，1− 離子是 −1，原子是 0",
+    "charge on the species, with its sign: +2 for a 2+ ion, −1 for a 1− ion, 0 for an atom": "物種所帶的電荷，連同正負號：2+ 離子是 +2，1− 離子是 −1，原子是 0",
 
     // Nuclear symbols: counting protons, neutrons and electrons > p
     "An ion is an atom that has gained or lost <em>electrons</em>. A <dfn data-def=\"A positive ion. It has fewer electrons than protons.\">cation</dfn> is positive: it has lost electrons. An <dfn data-def=\"A negative ion. It has more electrons than protons.\">anion</dfn> is negative: it has gained electrons. The nucleus does not change.": "離子是得到或失去了<em>電子</em>的原子。<dfn data-def=\"正離子。電子比質子少。\">陽離子 <span class=\"en-term\">(cation)</span></dfn>帶正電荷：它失去了電子。<dfn data-def=\"負離子。電子比質子多。\">陰離子 <span class=\"en-term\">(anion)</span></dfn>帶負電荷：它得到了電子。原子核沒有改變。",
@@ -664,7 +664,7 @@ S1.i18n.register('zh-Hant', 's1-2', {
     "Round at the end. Check that the answer is between the lightest and heaviest isotope, nearest the tallest peak.": "最後才取近似值。檢查答案是否在最輕和最重的同位素之間，並且最接近最高的峰。",
 
     // Mass spectra > widget > Additional HL > data-title attribute
-    "Mass spectrum reader": "質譜解讀器",
+    "Mass spectrum reader": "質譜解讀工具",
 
     // Mass spectra > widget > Additional HL > figcaption
     "Choose a sample, read the peaks, calculate the relative atomic mass and check it. Switch the peak heights to “tallest peak = 100” to practise dividing by the total. Then try a mystery element: use your answer and the periodic table to identify it. The spectra are drawn to scale from typical natural abundances, for ions with a 1+ charge.": "選擇一個樣本，讀出各個峰，計算相對原子質量，然後檢查答案。把峰高切換成「最高的峰 = 100」，練習除以總和。然後試試神秘元素：利用你的答案和週期表，指出它是哪一種元素。這些質譜根據典型的天然豐度按比例繪畫，離子帶 1+ 電荷。",
@@ -727,7 +727,7 @@ S1.i18n.register('zh-Hant', 's1-2', {
     "To two decimal places: <strong>69.80</strong>. (The data booklet gives 69.72. Your calculated value is the one to write.)": "取至小數點後 2 位：<strong>69.80</strong>。（數據手冊的數值是 69.72。你要寫的是自己計算出來的數值。）",
 
     // Mass spectra > exam tip (shown in English + translation) > Additional HL > p
-    "The particles detected in a mass spectrometer are positive ions. If you are asked which species causes a peak, include the charge: <sup>35</sup>Cl<sup>+</sup>, not <sup>35</sup>Cl. Without the + the mark is not given.": "質譜儀檢測到的粒子是正離子。如果題目問哪一種粒子產生某個峰，答案要包括電荷：寫 <sup>35</sup>Cl<sup>+</sup>，不要寫 <sup>35</sup>Cl。沒有寫 + 就不給分。",
+    "The particles detected in a mass spectrometer are positive ions. If you are asked which species causes a peak, include the charge: <sup>35</sup>Cl<sup>+</sup>, not <sup>35</sup>Cl. Without the + the mark is not given.": "質譜儀檢測到的粒子是正離子。如果題目問哪一種物種 (species) 產生某個峰，答案要包括電荷：寫 <sup>35</sup>Cl<sup>+</sup>，不要寫 <sup>35</sup>Cl。沒有寫 + 就不給分。",
 
     // Mass spectra > Additional HL > h3
     "Elements that exist as molecules": "以分子形式存在的元素",

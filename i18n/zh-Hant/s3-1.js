@@ -578,7 +578,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "A negative electron affinity means that energy is released when the atom gains an electron. Chlorine has the value <span class=\"mono\">−349 kJ mol<sup>−1</sup></span>. Sodium has <span class=\"mono\">−53 kJ mol<sup>−1</sup></span>. Chlorine attracts an extra electron much more strongly.": "電子親合勢是負值，表示原子獲得電子時放出能量。氯的數值是 <span class=\"mono\">−349 kJ mol<sup>−1</sup></span>，鈉是 <span class=\"mono\">−53 kJ mol<sup>−1</sup></span>。氯吸引額外電子的能力強得多。",
 
     // Periodicity: trends in properties > widget > data-title attribute
-    "Periodic trends explorer": "週期趨勢探索器",
+    "Periodic trends explorer": "週期趨勢探索工具",
 
     // Periodicity: trends in properties > widget > figcaption
     "Choose a property and a direction. Predict the trend, then look at the data booklet values and build the explanation. Click the heat-map to change the period or group.": "選擇一種性質和一個方向。先預測趨勢，再看數據手冊的數值，然後組合出解釋。按熱度圖可以更換週期或族。",
@@ -605,7 +605,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "Na has 11 protons. Cl has 17 protons. The nuclear charge increases.": "Na 有 11 個質子。Cl 有 17 個質子。核電荷增加。",
 
     // Periodicity: trends in properties > worked example > data-title attribute
-    "Say what stays the same": "說出甚麼沒有改變",
+    "Say what stays the same": "說出甚麼保持不變",
 
     // Periodicity: trends in properties > worked example > p
     "The second mark is for showing that nothing cancels the extra attraction.": "第二分給這一點：說明沒有其他因素抵銷額外的引力。",
@@ -623,7 +623,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "<b>The outer electrons are attracted more strongly and pulled closer to the nucleus.</b>": "<b>外層電子受到更強的吸引，被拉近原子核。</b>",
 
     // Periodicity: trends in properties > worked example > p
-    "Nuclear charge increases across the period. The outer electrons are in the same energy level with similar shielding, so they are attracted more strongly and the radius decreases.": "橫跨這個週期時，核電荷增加。外層電子在同一能級，屏蔽相若，所以受到更強的吸引，半徑減少。",
+    "Nuclear charge increases across the period. The outer electrons are in the same energy level with similar shielding, so they are attracted more strongly and the radius decreases.": "橫跨這個週期時，核電荷增加。外層電子在同一能級，屏蔽相近，所以受到更強的吸引，半徑減少。",
 
     // Periodicity: trends in properties > p
     "Two rules cover most questions.": "兩條規則足以應付大部分題目。",
@@ -776,7 +776,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "<b>The fluorine nucleus attracts the shared pair more strongly.</b>": "<b>氟的原子核對共用電子對的吸引較強。</b>",
 
     // Periodicity: trends in properties > worked example > p
-    "(a) Greater nuclear charge with similar shielding. (b) The bonding pair is closer to the nucleus and less shielded in fluorine.": "(a) 核電荷較大，屏蔽相若。(b) 在氟中，鍵合電子對離原子核較近，受到的屏蔽較少。",
+    "(a) Greater nuclear charge with similar shielding. (b) The bonding pair is closer to the nucleus and less shielded in fluorine.": "(a) 核電荷較大，屏蔽相近。(b) 在氟中，鍵合電子對離原子核較近，受到的屏蔽較少。",
 
     // Periodicity: trends in properties > common mistake > p
     "Do not write “electron affinity increases”. The values are negative, so “increases” is unclear. Write “becomes more negative” or “more energy is released”. The data are also not smooth: fluorine (−328) is less negative than chlorine (−349).": "不要寫「電子親合勢增加」(electron affinity increases)。數值是負數，所以「增加」意思不清楚。應寫「變得更負」(becomes more negative) 或「放出更多能量」(more energy is released)。這些數據也不是平滑地變化的：氟（−328）的負值比氯（−349）小。",
@@ -819,7 +819,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "Choose a metal. Read the observations and the equation, then compare the first ionization energies. This is a description of real observations, not a simulation.": "選擇一種金屬。閱讀觀察結果和方程式，然後比較第一電離能。這裏描述的是真實的觀察結果，不是模擬。",
 
     // Trends down group 1 and group 17 > exam tip (shown in English + translation) > p
-    "Observations that earn marks: the metal floats, fizzes (bubbles of gas), moves on the surface, and gets smaller or dissolves. The solution becomes alkaline. For the trend, link reactivity to how easily the outer electron is lost.": "可以得分的觀察結果：金屬浮在水面、嘶嘶冒泡（有氣泡放出）、在水面游動，並且變小或溶解。溶液變成鹼性。解釋趨勢時，要把活性連繫到失去外層電子的難易程度。",
+    "Observations that earn marks: the metal floats, fizzes (bubbles of gas), moves on the surface, and gets smaller or dissolves. The solution becomes alkaline. For the trend, link reactivity to how easily the outer electron is lost.": "可以得分的觀察結果：金屬浮在水面、嘶嘶冒泡（有氣泡放出）、在水面游動，並且變小或溶解。溶液變成鹼性。解釋趨勢時，要把活潑性連繫到失去外層電子的難易程度。",
 
     // Trends down group 1 and group 17 > h3
     "Group 17 elements with halide ions": "第 17 族元素與鹵離子的反應",
@@ -834,7 +834,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "A reaction in which a more reactive element takes the place of a less reactive element in a compound.": "較活潑的元素取代化合物中較不活潑的元素的反應。",
 
     // Trends down group 1 and group 17 > p
-    "Reactivity decreases down group 17: chlorine is more reactive than bromine, and bromine is more reactive than iodine.": "沿第 17 族向下，活性減少：氯比溴活潑，溴比碘活潑。",
+    "Reactivity decreases down group 17: chlorine is more reactive than bromine, and bromine is more reactive than iodine.": "沿第 17 族向下，活潑性減少：氯比溴活潑，溴比碘活潑。",
 
     // Trends down group 1 and group 17 > widget > data-title attribute
     "Halogen and halide ion: which mixtures react?": "鹵素和鹵離子：哪些混合物會反應？",
@@ -1113,7 +1113,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "Solve for x. Write the answer with its sign first.": "解出 x。寫答案時正負號在前。",
 
     // Oxidation states > widget > data-title attribute
-    "Oxidation state trainer": "氧化態練習器",
+    "Oxidation state trainer": "氧化態練習工具",
 
     // Oxidation states > widget > figcaption
     "Work through each species step by step. Level 3 has the hydride and peroxide exceptions. Type your final answer with the sign first.": "逐步完成每個物種。第 3 級有氫化物和過氧化物這兩種例外。輸入最後答案時，正負號在前。",
@@ -1191,7 +1191,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "2<i>x</i> = +12, so <i>x</i> = <b>+6</b>": "2<i>x</i> = +12，所以 <i>x</i> = <b>+6</b>",
 
     // Oxidation states > worked example > p
-    "The oxidation state of chromium is +6. The systematic name of the ion is dichromate(VI).": "鉻的氧化態是 +6。這個離子的系統名稱是重鉻酸根(VI) (dichromate(VI))。",
+    "The oxidation state of chromium is +6. The systematic name of the ion is dichromate(VI).": "鉻的氧化態是 +6。這個離子的系統名稱是重鉻(VI)酸根 (dichromate(VI))。",
 
     // Oxidation states > worked example > data-kicker attribute
     "Worked example 9": "例題 9",
@@ -1260,7 +1260,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "2<i>x</i> = −2, so <i>x</i> = −1": "2<i>x</i> = −2，所以 <i>x</i> = −1",
 
     // Oxidation states > try it > p
-    "Deduce the oxidation state of manganese in the manganate(VII) ion, <span class=\"chem\">MnO4-</span>. Do the calculation, then check it against the name. Type the sign first, then the number, for example +3 or −3.": "推斷錳酸根(VII) 離子 (manganate(VII) ion) <span class=\"chem\">MnO4-</span> 中錳的氧化態。先計算，再對照名稱檢查。先輸入正負號，再輸入數字，例如 +3 或 −3。",
+    "Deduce the oxidation state of manganese in the manganate(VII) ion, <span class=\"chem\">MnO4-</span>. Do the calculation, then check it against the name. Type the sign first, then the number, for example +3 or −3.": "推斷錳(VII)酸根離子 (manganate(VII) ion) <span class=\"chem\">MnO4-</span> 中錳的氧化態。先計算，再對照名稱檢查。先輸入正負號，再輸入數字，例如 +3 或 −3。",
 
     // Oxidation states > try it > li
     "The total equals the charge on the ion: −1. Each oxygen is −2.": "總和等於離子的電荷：−1。每個氧是 −2。",
@@ -1338,7 +1338,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "<span class=\"chem\">NO3-</span>": "<span class=\"chem\">NO3-</span>",
 
     // Oxidation states > table > td
-    "nitrate(V)": "硝酸根(V) (nitrate(V))",
+    "nitrate(V)": "硝(V)酸根 (nitrate(V))",
 
     // Oxidation states > table > td
     "nitrate": "硝酸根 (nitrate)",
@@ -1347,7 +1347,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "<span class=\"chem\">NO2-</span>": "<span class=\"chem\">NO2-</span>",
 
     // Oxidation states > table > td
-    "nitrate(III)": "硝酸根(III) (nitrate(III))",
+    "nitrate(III)": "硝(III)酸根 (nitrate(III))",
 
     // Oxidation states > table > td
     "nitrite": "亞硝酸根 (nitrite)",
@@ -1356,7 +1356,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "<span class=\"chem\">SO4^2-</span>": "<span class=\"chem\">SO4^2-</span>",
 
     // Oxidation states > table > td
-    "sulfate(VI)": "硫酸根(VI) (sulfate(VI))",
+    "sulfate(VI)": "硫(VI)酸根 (sulfate(VI))",
 
     // Oxidation states > table > td
     "sulfate": "硫酸根 (sulfate)",
@@ -1365,7 +1365,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "<span class=\"chem\">SO3^2-</span>": "<span class=\"chem\">SO3^2-</span>",
 
     // Oxidation states > table > td
-    "sulfate(IV)": "硫酸根(IV) (sulfate(IV))",
+    "sulfate(IV)": "硫(IV)酸根 (sulfate(IV))",
 
     // Oxidation states > table > td
     "sulfite": "亞硫酸根 (sulfite)",
@@ -1430,7 +1430,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "<b>Why this is evidence for sublevels.</b> If each main energy level were one single level, first ionization energy would rise steadily across a period. The fall from group 2 to group 13 shows that the electrons in one main energy level do not all have the same energy. The level is divided into sublevels: s, then p at a higher energy.": "<b>為甚麼這是亞層存在的證據。</b>如果每個主能級只是單一個能級，第一電離能就會橫跨一個週期穩定地上升。由第 2 族到第 13 族的下降，顯示同一主能級內的電子能量並非全部相同。主能級分成亞層：先是 s，然後是能量較高的 p。",
 
     // Discontinuities in first ionization energy > Additional HL > p
-    "You can explore every value from hydrogen to krypton in the <a href=\"s1-3.html#ie-trends\">first ionization energy explorer in Structure 1.3</a>. That page also has the general trends in more detail.": "你可以在 <a href=\"s1-3.html#ie-trends\">Structure 1.3 的第一電離能探索器</a>查看由氫到氪的每個數值。該頁也更詳細地說明整體趨勢。",
+    "You can explore every value from hydrogen to krypton in the <a href=\"s1-3.html#ie-trends\">first ionization energy explorer in Structure 1.3</a>. That page also has the general trends in more detail.": "你可以在 <a href=\"s1-3.html#ie-trends\">Structure 1.3 的第一電離能探索工具</a>查看由氫到氪的每個數值。該頁也更詳細地說明整體趨勢。",
 
     // Discontinuities in first ionization energy > worked example > Additional HL > data-kicker attribute
     "Worked example 10": "例題 10",
@@ -1896,7 +1896,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "You know c and f, and you want λ.": "你已知 c 和 f，要求 λ。",
 
     // Why transition element complexes are coloured > worked example > Additional HL > data-title attribute
-    "Substitute with units": "連單位一起代入",
+    "Substitute with units": "連同單位代入",
 
     // Why transition element complexes are coloured > worked example > Additional HL > p
     "Hz is the same as s<sup>−1</sup>, so the seconds cancel and the answer is in metres.": "Hz 與 s<sup>−1</sup> 相同，所以秒互相約去，答案以米為單位。",
@@ -1971,7 +1971,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "When the elements are arranged by their properties, gaps appear. A gap predicts an element that nobody has found yet. Its position also predicts its properties, so chemists know what to look for. Gallium and germanium were found in this way. Today, new elements are made in laboratories to continue period 7.": "按性質排列元素時，會出現空位。空位預示有一種還沒有人找到的元素。它的位置也預示它的性質，所以化學家知道要找甚麼。鎵和鍺就是這樣找到的。今天，人們在實驗室製造新元素，把第 7 週期延續下去。",
 
     // Linking it up > h3
-    "Why are simulations often used to explore the reactivity of group 1 and group 17 elements?": "為甚麼常用模擬來探索第 1 族和第 17 族元素的活性？",
+    "Why are simulations often used to explore the reactivity of group 1 and group 17 elements?": "為甚麼常用模擬來探索第 1 族和第 17 族元素的活潑性？",
 
     // Linking it up > p
     "Some of the reactions are too dangerous for a school laboratory. Rubidium and caesium react explosively with water, and the halogens are toxic. A simulation or a video lets you compare all the elements safely and repeat the comparison as often as you like.": "有些反應太危險，不能在學校實驗室做。銣和銫與水反應時會爆炸，鹵素則有毒。模擬或影片讓你安全地比較所有元素，而且可以隨意重複比較。",
@@ -2703,22 +2703,22 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "ammonia": "氨 (ammonia)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "sulfate. The systematic name is sulfate(VI).": "硫酸根 (sulfate)。系統名稱是硫酸根(VI) (sulfate(VI))。",
+    "sulfate. The systematic name is sulfate(VI).": "硫酸根 (sulfate)。系統名稱是硫(VI)酸根 (sulfate(VI))。",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "nitrate. The systematic name is nitrate(V).": "硝酸根 (nitrate)。系統名稱是硝酸根(V) (nitrate(V))。",
+    "nitrate. The systematic name is nitrate(V).": "硝酸根 (nitrate)。系統名稱是硝(V)酸根 (nitrate(V))。",
 
     // widget string (assets/js/widgets-s3-1.js)
     "iron(III) oxide": "氧化鐵(III) (iron(III) oxide)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "nitrite. The systematic name is nitrate(III).": "亞硝酸根 (nitrite)。系統名稱是硝酸根(III) (nitrate(III))。",
+    "nitrite. The systematic name is nitrate(III).": "亞硝酸根 (nitrite)。系統名稱是硝(III)酸根 (nitrate(III))。",
 
     // widget string (assets/js/widgets-s3-1.js)
     "sulfuric acid": "硫酸 (sulfuric acid)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "sulfite. The systematic name is sulfate(IV).": "亞硫酸根 (sulfite)。系統名稱是硫酸根(IV) (sulfate(IV))。",
+    "sulfite. The systematic name is sulfate(IV).": "亞硫酸根 (sulfite)。系統名稱是硫(IV)酸根 (sulfate(IV))。",
 
     // widget string (assets/js/widgets-s3-1.js)
     "ammonium": "銨離子 (ammonium)",
@@ -2727,7 +2727,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "potassium manganate(VII)": "高錳酸鉀 (potassium manganate(VII))",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "dichromate(VI)": "重鉻酸根(VI) (dichromate(VI))",
+    "dichromate(VI)": "重鉻(VI)酸根 (dichromate(VI))",
 
     // widget string (assets/js/widgets-s3-1.js)
     "hydrogen peroxide": "過氧化氫 (hydrogen peroxide)",

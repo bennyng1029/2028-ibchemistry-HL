@@ -52,7 +52,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Write full and condensed electron configurations and draw orbital diagrams for atoms and ions up to Z = 36, including the exceptions Cr and Cu.": "為 Z = 36 或以下的原子和離子寫出完整和簡寫電子排佈，並繪畫軌態圖，包括 Cr 和 Cu 這兩個例外。",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Deduce the configurations of ions of the first-row d-block metals, removing 4s electrons before 3d.": "推斷第一列 d 區金屬離子的電子排佈：先移走 4s 電子，再移走 3d 電子。",
+    "Deduce the configurations of ions of the first-row d-block metals, removing 4s electrons before 3d.": "推斷第一行 d 區金屬離子的電子排佈：先移走 4s 電子，再移走 3d 電子。",
 
     // What you need to be able to do > checklist > Additional HL > span
     "Explain that the limit of convergence corresponds to ionization, and calculate a first ionization energy from the wavelength or frequency of that limit (and the reverse).": "解釋會聚極限對應電離，並由會聚極限的波長或頻率計算第一電離能（也要懂得反過來計算）。",
@@ -124,7 +124,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Light is one kind of electromagnetic radiation. So are radio waves, microwaves, infrared (IR), ultraviolet (UV), X-rays and gamma rays. Together they make up the <dfn>electromagnetic spectrum</dfn>. They differ in wavelength and frequency.": "光是電磁輻射的一種。無線電波、微波、紅外 (IR)、紫外 (UV)、X 射線和 γ 射線也是電磁輻射。它們合起來組成<dfn>電磁波譜 <span class=\"en-term\">(electromagnetic spectrum)</span></dfn>。各種電磁輻射的波長和頻率都不同。",
 
     // Light, photons and emission spectra > p
-    "<dfn data-def=\"The distance from one wave peak to the next. Symbol λ. Often given in nanometres for light.\">Wavelength</dfn> is the distance from one wave peak to the next. <dfn data-def=\"The number of waves that pass a point each second. Symbol f. Unit hertz, Hz, which is the same as s⁻¹.\">Frequency</dfn> is the number of waves passing a point each second. All electromagnetic radiation travels at the same speed in a vacuum, so if the waves are shorter, more of them pass each second.": "<dfn data-def=\"相鄰兩個波峰之間的距離。符號是 λ。光的波長常以納米表示。\">波長 <span class=\"en-term\">(wavelength)</span></dfn>是相鄰兩個波峰之間的距離。<dfn data-def=\"每秒經過某一點的波的數目。符號是 f。單位是赫茲 (Hz)，即 s⁻¹。\">頻率 <span class=\"en-term\">(frequency)</span></dfn>是每秒經過某一點的波的數目。所有電磁輻射在真空中的速率都相同，所以波愈短，每秒經過的波就愈多。",
+    "<dfn data-def=\"The distance from one wave peak to the next. Symbol λ. Often given in nanometres for light.\">Wavelength</dfn> is the distance from one wave peak to the next. <dfn data-def=\"The number of waves that pass a point each second. Symbol f. Unit hertz, Hz, which is the same as s⁻¹.\">Frequency</dfn> is the number of waves passing a point each second. All electromagnetic radiation travels at the same speed in a vacuum, so if the waves are shorter, more of them pass each second.": "<dfn data-def=\"相鄰兩個波峰之間的距離。符號是 λ。光的波長常以納米表示。\">波長 <span class=\"en-term\">(wavelength)</span></dfn>是相鄰兩個波峰之間的距離。<dfn data-def=\"每秒經過某一點的波的數目。符號是 f。單位是赫茲 (Hz)，即 s⁻¹。\">頻率 <span class=\"en-term\">(frequency)</span></dfn>是每秒經過某一點的波的數目。所有電磁輻射在真空中的速率都相同，所以波越短，每秒經過的波就越多。",
 
     // Light, photons and emission spectra > data-def attribute
     "The distance from one wave peak to the next. Symbol λ. Often given in nanometres for light.": "相鄰兩個波峰之間的距離。符號是 λ。光的波長常以納米表示。",
@@ -145,7 +145,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "<b>Violet light.</b> Shorter wavelength, higher frequency, more energy per photon.": "<b>紫光。</b>波長較短，頻率較高，每個光子的能量較多。",
 
     // Light, photons and emission spectra > figcaption
-    "Two waves drawn over the same distance. More waves in the same space means a shorter wavelength and a higher frequency.": "在相同距離內畫出的兩個波。同樣的空間內波愈多，波長就愈短，頻率就愈高。",
+    "Two waves drawn over the same distance. More waves in the same space means a shorter wavelength and a higher frequency.": "在相同距離內畫出的兩個波。同樣的空間內波越多，波長就越短，頻率就越高。",
 
     // Light, photons and emission spectra > table > caption
     "The electromagnetic spectrum, in order": "電磁波譜（按次序排列）",
@@ -177,10 +177,10 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "microwaves": "微波",
 
     // Light, photons and emission spectra > table > td
-    "gets shorter going down the table": "愈往下愈短",
+    "gets shorter going down the table": "越往下越短",
 
     // Light, photons and emission spectra > table > td
-    "gets higher going down the table": "愈往下愈高",
+    "gets higher going down the table": "越往下越高",
 
     // Light, photons and emission spectra > table > th
     // The hydrogen emission spectrum > table > td
@@ -206,7 +206,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "highest": "最高",
 
     // Light, photons and emission spectra > key idea > p
-    "Energy and frequency go up together. Wavelength goes the opposite way. So: shorter wavelength = higher frequency = higher energy. Within visible light, violet has the most energy per photon and red has the least.": "能量和頻率一同上升，波長則相反。所以：波長愈短 = 頻率愈高 = 能量愈高。在可見光中，紫光每個光子的能量最多，紅光最少。",
+    "Energy and frequency go up together. Wavelength goes the opposite way. So: shorter wavelength = higher frequency = higher energy. Within visible light, violet has the most energy per photon and red has the least.": "能量和頻率一同上升，波長則相反。所以：波長越短 = 頻率越高 = 能量越高。在可見光中，紫光每個光子的能量最多，紅光最少。",
 
     // Light, photons and emission spectra > data booklet note > p
     "Section 5 of the data booklet shows the electromagnetic spectrum on a wavelength scale, with an arrow for increasing energy and the visible region from 400 nm to 700 nm. Section 15 gives the wavelengths of each colour. You do not need to memorize the numbers.": "數據手冊第 5 節以波長標度列出電磁波譜，有箭嘴表示能量遞增的方向，並標出 400 nm 至 700 nm 的可見光區。第 15 節列出各種顏色的波長。這些數值不用背。",
@@ -236,7 +236,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "In the lab, the light source is a gas discharge tube and the light is split with a prism or a diffraction grating. You can record what you see (the colours and pattern of lines) and what you measure (the wavelength of each line).": "在實驗室裏，光源是氣體放電管，並用稜鏡或衍射光柵把光分開。你可以記錄看到的現象（譜線的顏色和圖樣），也可以記錄量度的結果（每條譜線的波長）。",
 
     // Light, photons and emission spectra > common mistake > p
-    "“Shorter wavelength means lower energy” is the wrong way round. Shorter waves have a higher frequency, and a higher frequency means more energy per photon. Blue and violet photons carry more energy than red ones.": "「波長愈短，能量愈低」是說反了。波愈短，頻率愈高；頻率愈高，每個光子的能量就愈多。藍光和紫光的光子比紅光的光子帶有更多能量。",
+    "“Shorter wavelength means lower energy” is the wrong way round. Shorter waves have a higher frequency, and a higher frequency means more energy per photon. Blue and violet photons carry more energy than red ones.": "「波長越短，能量越低」是說反了。波越短，頻率越高；頻率越高，每個光子的能量就越多。藍光和紫光的光子比紅光的光子帶有更多能量。",
 
     // Light, photons and emission spectra > exam tip (shown in English + translation) > p
     "To distinguish the two spectra, say what each contains: a continuous spectrum has <b>all wavelengths (or frequencies)</b> in a range; a line spectrum has <b>only certain, discrete wavelengths (or frequencies)</b>.": "要區分這兩種光譜，就要說明各自包含甚麼：連續光譜包含某範圍內的<b>所有波長（或頻率）</b>；線光譜<b>只包含某些分立的波長（或頻率）</b>。",
@@ -275,10 +275,10 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "The energy levels of hydrogen": "氫的能級",
 
     // The hydrogen emission spectrum > p
-    "The main energy levels are numbered <span class=\"mono\">n = 1, 2, 3, …</span> going up in energy. <span class=\"mono\">n = 1</span> is the lowest. The levels are not evenly spaced. The gap from n = 1 to n = 2 is large. Each gap after that is smaller. The levels get closer and closer together and <dfn data-def=\"Get closer and closer together until they meet.\">converge</dfn> at high energy. The point where they meet is labelled <span class=\"mono\">n = ∞</span>.": "主能級按能量由低至高編號為 <span class=\"mono\">n = 1, 2, 3, …</span>。<span class=\"mono\">n = 1</span> 是最低的能級。能級之間的距離並不相等。n = 1 至 n = 2 的能量差很大，之後每一個能量差都較前一個小。能級愈來愈接近，在高能量處<dfn data-def=\"愈來愈接近，直至相遇。\">會聚 <span class=\"en-term\">(converge)</span></dfn>。能級相遇的那一點標示為 <span class=\"mono\">n = ∞</span>。",
+    "The main energy levels are numbered <span class=\"mono\">n = 1, 2, 3, …</span> going up in energy. <span class=\"mono\">n = 1</span> is the lowest. The levels are not evenly spaced. The gap from n = 1 to n = 2 is large. Each gap after that is smaller. The levels get closer and closer together and <dfn data-def=\"Get closer and closer together until they meet.\">converge</dfn> at high energy. The point where they meet is labelled <span class=\"mono\">n = ∞</span>.": "主能級按能量由低至高編號為 <span class=\"mono\">n = 1, 2, 3, …</span>。<span class=\"mono\">n = 1</span> 是最低的能級。能級之間的距離並不相等。n = 1 至 n = 2 的能量差很大，之後每一個能量差都較前一個小。能級越來越接近，在高能量處<dfn data-def=\"越來越接近，直至相遇。\">會聚 <span class=\"en-term\">(converge)</span></dfn>。能級相遇的那一點標示為 <span class=\"mono\">n = ∞</span>。",
 
     // The hydrogen emission spectrum > data-def attribute
-    "Get closer and closer together until they meet.": "愈來愈接近，直至相遇。",
+    "Get closer and closer together until they meet.": "越來越接近，直至相遇。",
 
     // The hydrogen emission spectrum > widget > data-title attribute
     "Hydrogen: from energy levels to spectral lines": "氫：由能級到譜線",
@@ -326,7 +326,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Convergence": "會聚",
 
     // The hydrogen emission spectrum > p
-    "Within each set, the lines get closer together as the frequency gets higher. Eventually they merge. This happens because the energy levels themselves get closer together at higher energy. A drop from n = 6 is only a little bigger than a drop from n = 5, so their two lines sit close together.": "在每一組譜線中，頻率愈高，譜線愈靠近，最後合在一起。這是因為能量愈高，能級本身就愈接近。從 n = 6 落下的能量差，只比從 n = 5 落下的大一點，所以這兩條譜線靠得很近。",
+    "Within each set, the lines get closer together as the frequency gets higher. Eventually they merge. This happens because the energy levels themselves get closer together at higher energy. A drop from n = 6 is only a little bigger than a drop from n = 5, so their two lines sit close together.": "在每一組譜線中，頻率越高，譜線越靠近，最後合在一起。這是因為能量越高，能級本身就越接近。從 n = 6 落下的能量差，只比從 n = 5 落下的大一點，所以這兩條譜線靠得很近。",
 
     // The hydrogen emission spectrum > common mistake > p
     "The lines converge at the <b>high-energy</b> end of each set: high frequency, short wavelength. They do not converge at the low-energy end. In the visible set, the lines bunch together towards violet, not towards red.": "譜線在每一組的<b>高能量</b>一端會聚，即高頻率、短波長的一端，而不是低能量的一端。在可見光那一組，譜線向紫色一端擠在一起，而不是向紅色一端。",
@@ -756,7 +756,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Check": "檢查",
 
     // Writing electron configurations > worked example > p
-    "Both ions have 18 electrons, the same configuration as an argon atom. That is a good sign for ions of main-group elements.": "兩種離子都有 18 個電子，電子排佈與氬原子相同。對主族元素的離子來說，這是答對的好跡象。",
+    "Both ions have 18 electrons, the same configuration as an argon atom. That is a good sign for ions of main-group elements.": "兩種離子都有 18 個電子，電子排佈與氬原子相同。對主族元素的離子來說，這表示答案很可能正確。",
 
     // Writing electron configurations > worked example > p
     "Both ions are 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup>.": "兩種離子都是 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup>。",
@@ -768,7 +768,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Ions of the d-block metals: 4s goes first": "d 區金屬的離子：4s 電子先走",
 
     // Writing electron configurations > Additional HL > p
-    "When a first-row d-block atom (Sc to Zn) forms a positive ion, <b>the 4s electrons are removed before any 3d electrons</b>. This seems backwards, because 4s filled first. But once the 3d sublevel contains electrons, it is lower in energy than 4s. The 4s electrons are then the outermost and the easiest to remove.": "第一列 d 區原子（Sc 至 Zn）形成正離子時，<b>先移走 4s 電子，然後才移走 3d 電子</b>。這看來次序顛倒了，因為 4s 是先填充的。但 3d 亞層一旦有了電子，能量就比 4s 低。這時 4s 電子在最外面，最容易移走。",
+    "When a first-row d-block atom (Sc to Zn) forms a positive ion, <b>the 4s electrons are removed before any 3d electrons</b>. This seems backwards, because 4s filled first. But once the 3d sublevel contains electrons, it is lower in energy than 4s. The 4s electrons are then the outermost and the easiest to remove.": "第一行 d 區原子（Sc 至 Zn）形成正離子時，<b>先移走 4s 電子，然後才移走 3d 電子</b>。這看來次序顛倒了，因為 4s 是先填充的。但 3d 亞層一旦有了電子，能量就比 4s 低。這時 4s 電子在最外面，最容易移走。",
 
     // Writing electron configurations > Additional HL > p
     "The syllabus places these ions under Structure 3.1 at HL, so you will meet them again there. They also appear in questions on this topic.": "課程大綱把這些離子放在 HL 的 Structure 3.1，所以你會在那裏再遇到它們。這個課題的題目也會考到。",
@@ -786,7 +786,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Start from the atom": "由原子開始",
 
     // Writing electron configurations > worked example > Additional HL > p
-    "You cannot write the ion without the atom. Do not start from the electron count of the ion and fill from 1s.": "沒有原子的排佈，就寫不出離子的排佈。不要拿離子的電子數目，從 1s 開始逐一填充。",
+    "You cannot write the ion without the atom. Do not start from the electron count of the ion and fill from 1s.": "沒有原子的排佈，就寫不出離子的排佈。不要用離子的電子數目，從 1s 開始重新填充。",
 
     // Writing electron configurations > worked example > Additional HL > data-title attribute
     "Remove two electrons, from 4s": "從 4s 移走兩個電子",
@@ -1071,10 +1071,10 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "How hard is it to pull the outermost electron off an atom? It depends on how strongly the nucleus attracts that electron. Three things decide that.": "把原子最外層的電子拉走有多難？這要看原子核對這個電子的吸引有多強。有三個因素決定吸引的強弱。",
 
     // Trends in first ionization energy > Additional HL > li
-    "<b>Nuclear charge.</b> More protons means a stronger pull.": "<b>核電荷 (nuclear charge)。</b>質子愈多，引力愈強。",
+    "<b>Nuclear charge.</b> More protons means a stronger pull.": "<b>核電荷 (nuclear charge)。</b>質子越多，引力越強。",
 
     // Trends in first ionization energy > Additional HL > li
-    "<b>Distance.</b> An electron in a higher main energy level is further from the nucleus, so the pull is weaker.": "<b>距離。</b>電子所在的主能級愈高，離原子核愈遠，引力就愈弱。",
+    "<b>Distance.</b> An electron in a higher main energy level is further from the nucleus, so the pull is weaker.": "<b>距離。</b>電子所在的主能級越高，離原子核越遠，引力就越弱。",
 
     // Trends in first ionization energy > Additional HL > li
     "<b>Shielding.</b> Electrons in inner main energy levels sit between the nucleus and the outer electron. They repel the outer electron and cancel part of the pull. This is called <dfn data-def=\"The reduction in the attraction between the nucleus and an outer electron, caused by repulsion from electrons in inner energy levels.\">shielding</dfn>.": "<b>屏蔽。</b>內層主能級的電子位於原子核和外層電子之間。它們排斥外層電子，抵消了一部分引力。這稱為<dfn data-def=\"內層能級的電子產生排斥，使原子核與外層電子之間的引力減弱。\">屏蔽 <span class=\"en-term\">(shielding)</span></dfn>。",
@@ -1170,7 +1170,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "(a) Name the sublevel each electron leaves": "(a) 指出每個電子離開哪個亞層",
 
     // Trends in first ionization energy > worked example > Additional HL > p
-    "One mark is for identifying the two sublevels.": "其中一分是給指出這兩個亞層的。",
+    "One mark is for identifying the two sublevels.": "指出這兩個亞層，可得一分。",
 
     // Trends in first ionization energy > worked example > Additional HL > maths line
     "Be loses a 2s electron. B loses a 2p electron.": "Be 失去一個 2s 電子。B 失去一個 2p 電子。",
@@ -1179,7 +1179,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "(a) Give the energy reason": "(a) 寫出能量方面的原因",
 
     // Trends in first ionization energy > worked example > Additional HL > p
-    "The second mark is for the reason, stated in terms of the energy of the electron removed.": "第二分是給原因的，要從被移走電子的能量來說明。",
+    "The second mark is for the reason, stated in terms of the energy of the electron removed.": "第二分給原因：要從被移走電子的能量來說明。",
 
     // Trends in first ionization energy > worked example > Additional HL > maths line
     "2p is higher in energy than 2s,": "2p 的能量比 2s 高，",
@@ -1212,7 +1212,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "so less energy is needed to remove one of them.": "所以移走其中一個所需的能量較少。",
 
     // Trends in first ionization energy > worked example > Additional HL > p
-    "(a) The electron removed from B is in the 2p sublevel, which is higher in energy than the 2s sublevel that Be loses an electron from, so it is removed more easily. (b) The electron removed from O is paired in a 2p orbital; repulsion between the two electrons in that orbital means it is removed more easily than an electron from one of the singly occupied 2p orbitals in N.": "(a) 從 B 移走的電子在 2p 亞層，Be 失去的電子則在 2s 亞層；2p 亞層的能量比 2s 亞層高，所以 B 的電子較容易移走。(b) 從 O 移走的電子在一個 2p 軌態內成對；該軌態內兩個電子互相排斥，所以它比 N 中只有一個電子的 2p 軌態內的電子較容易移走。",
+    "(a) The electron removed from B is in the 2p sublevel, which is higher in energy than the 2s sublevel that Be loses an electron from, so it is removed more easily. (b) The electron removed from O is paired in a 2p orbital; repulsion between the two electrons in that orbital means it is removed more easily than an electron from one of the singly occupied 2p orbitals in N.": "(a) 從 B 移走的電子在 2p 亞層，Be 失去的電子則在 2s 亞層；2p 亞層的能量比 2s 亞層高，所以 B 的電子較容易移走。(b) 從 O 移走的電子在一個 2p 軌態內成對；該軌態內兩個電子互相排斥，所以它比 N 的 2p 電子（所在軌態只有一個電子）較容易移走。",
 
     // Trends in first ionization energy > exam tip (shown in English + translation) > Additional HL > p
     "Base your explanation on <b>the energy of the electron being removed</b>. Do not write that a half-filled or full sublevel is “specially stable”: the syllabus asks you not to, and examiners have refused that kind of answer. Name the sublevels or orbitals, then say why the electron is easier to remove.": "解釋時要以<b>被移走電子的能量</b>為根據。不要寫半滿或全滿的亞層「特別穩定」：課程大綱要求不用這個說法，考官也曾拒絕接受這類答案。先指出亞層或軌態的名稱，然後說明為甚麼該電子較容易移走。",
@@ -1282,13 +1282,13 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Compare each value with the one before": "把每個數值與前一個比較",
 
     // Successive ionization energies > worked example > Additional HL > p
-    "You are looking for one step that is much bigger than the others. Divide each value by the previous one.": "你要找的是比其他都大得多的一級。把每個數值除以前一個數值。",
+    "You are looking for one step that is much bigger than the others. Divide each value by the previous one.": "你要找的是升幅比其他大得多的一步。把每個數值除以前一個數值。",
 
     // Successive ionization energies > worked example > Additional HL > data-title attribute
     "Locate the large jump": "找出大幅躍升的位置",
 
     // Successive ionization energies > worked example > Additional HL > p
-    "Most steps are less than 2 times. One step is more than 5 times.": "大部分的增幅都少於 2 倍。有一級多於 5 倍。",
+    "Most steps are less than 2 times. One step is more than 5 times.": "大部分的升幅都少於 2 倍。其中一步多於 5 倍。",
 
     // Successive ionization energies > worked example > Additional HL > maths line
     "Large jump between the 2nd and 3rd ionization energies": "大幅躍升在第 2 和第 3 電離能之間",
@@ -1297,7 +1297,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Count the electrons before the jump": "數出躍升前的電子數目",
 
     // Successive ionization energies > worked example > Additional HL > p
-    "Electrons removed before the jump are in the outer main energy level. The third electron comes from the next level in.": "躍升前移走的電子在最外層主能級。第三個電子來自再裏面的一個能級。",
+    "Electrons removed before the jump are in the outer main energy level. The third electron comes from the next level in.": "躍升前移走的電子在最外層主能級。第三個電子來自更內層的一個能級。",
 
     // Successive ionization energies > worked example > Additional HL > maths line
     "2 outer electrons → <b>group 2</b>": "2 個外層電子 → <b>第 2 族</b>",
@@ -1315,10 +1315,10 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Two slips to avoid. First, off by one: if the jump is between the 3rd and 4th values, the element has 3 outer electrons, not 4. Second, do not judge by the size of the gap in kJ. In the magnesium data the gap from the 8th to the 9th value is 5992 kJ mol<sup>−1</sup>, almost as big as the true jump (6282 kJ mol<sup>−1</sup>), but it is only a 1.23 times increase.": "有兩種失誤要避免。第一，數錯一個：如果躍升在第 3 和第 4 個數值之間，元素有 3 個外層電子，不是 4 個。第二，不要按相差多少 kJ 來判斷。在鎂的數據中，第 8 和第 9 個數值相差 5992 kJ mol<sup>−1</sup>，幾乎與真正的躍升 (6282 kJ mol<sup>−1</sup>) 一樣大，但其實只增至 1.23 倍。",
 
     // Successive ionization energies > exam tip (shown in English + translation) > Additional HL > p
-    "Give the IUPAC group number. Three outer electrons means group <b>13</b>, not group 3. Five means group 15. To explain a jump, write: the electron is removed from a main energy level <b>closer to the nucleus</b>, with <b>less shielding</b>, so it is attracted more strongly.": "寫出 IUPAC 的族編號。三個外層電子表示第 <b>13</b> 族，不是第 3 族。五個表示第 15 族。解釋躍升時要寫：該電子是從<b>較接近原子核</b>的主能級移走的，受到的<b>屏蔽較少</b>，所以被吸引得較強。",
+    "Give the IUPAC group number. Three outer electrons means group <b>13</b>, not group 3. Five means group 15. To explain a jump, write: the electron is removed from a main energy level <b>closer to the nucleus</b>, with <b>less shielding</b>, so it is attracted more strongly.": "寫出 IUPAC 的族數。三個外層電子表示第 <b>13</b> 族，不是第 3 族。五個表示第 15 族。解釋躍升時要寫：該電子是從<b>較接近原子核</b>的主能級移走的，受到的<b>屏蔽較少</b>，所以被吸引得較強。",
 
     // Successive ionization energies > try it > Additional HL > data-label attribute
-    "Group number": "族編號",
+    "Group number": "族數",
 
     // Successive ionization energies > try it > Additional HL > p
     "The first seven successive ionization energies of an element, in kJ mol<sup>−1</sup>, are: <span class=\"mono\">1012, 1907, 2914, 4964, 6274, 21 267, 25 431</span>. Which group of the periodic table is the element in?": "某元素的首七個逐級電離能（單位為 kJ mol<sup>−1</sup>）是：<span class=\"mono\">1012, 1907, 2914, 4964, 6274, 21 267, 25 431</span>。這種元素屬於週期表的哪一族？",
@@ -1375,7 +1375,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "How do successive ionization energies help to explain variable oxidation states?": "逐級電離能怎樣幫助解釋可變氧化態？",
 
     // Linking it up > Additional HL > p
-    "For a first-row transition element, the 4s and 3d electrons are close in energy, so the first few successive ionization energies rise gradually with no large jump between them. Several different numbers of electrons can be lost for a similar energy cost. That is why iron forms both <span class=\"chem\">Fe^2+</span> and <span class=\"chem\">Fe^3+</span>. This is developed in Structure 3.1 at HL.": "第一列過渡元素的 4s 和 3d 電子能量接近，所以最初幾個逐級電離能逐步上升，之間沒有大幅躍升。失去不同數目的電子，所需的能量代價相近。這就是鐵可以形成 <span class=\"chem\">Fe^2+</span> 和 <span class=\"chem\">Fe^3+</span> 的原因。HL 的 Structure 3.1 會進一步說明。",
+    "For a first-row transition element, the 4s and 3d electrons are close in energy, so the first few successive ionization energies rise gradually with no large jump between them. Several different numbers of electrons can be lost for a similar energy cost. That is why iron forms both <span class=\"chem\">Fe^2+</span> and <span class=\"chem\">Fe^3+</span>. This is developed in Structure 3.1 at HL.": "第一行過渡元素的 4s 和 3d 電子能量接近，所以最初幾個逐級電離能逐步上升，之間沒有大幅躍升。失去不同數目的電子，所需的能量代價相近。這就是鐵可以形成 <span class=\"chem\">Fe^2+</span> 和 <span class=\"chem\">Fe^3+</span> 的原因。HL 的 Structure 3.1 會進一步說明。",
 
     // Exam-style practice > h2
     "Exam-style practice": "考試題型練習",
@@ -1483,7 +1483,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "What it shows": "說明",
 
     // widget string (assets/js/widgets-s1-3.js)
-    "Energy-level diagram of the hydrogen atom, drawn to scale. Level n = 1 is far below the others. Levels n = 2 to n = 6 get closer and closer together and converge at n = infinity, where the energy is zero. Downward arrows show the transitions you have chosen.": "按比例繪畫的氫原子能級圖。n = 1 能級遠低於其他能級。n = 2 至 n = 6 的能級愈來愈接近，在 n = 無限大處會聚，那裏的能量為零。向下的箭嘴顯示你選擇的躍遷。",
+    "Energy-level diagram of the hydrogen atom, drawn to scale. Level n = 1 is far below the others. Levels n = 2 to n = 6 get closer and closer together and converge at n = infinity, where the energy is zero. Downward arrows show the transitions you have chosen.": "按比例繪畫的氫原子能級圖。n = 1 能級遠低於其他能級。n = 2 至 n = 6 的能級越來越接近，在 n = 無限大處會聚，那裏的能量為零。向下的箭嘴顯示你選擇的躍遷。",
 
     // widget string (assets/js/widgets-s1-3.js)
     "energy": "能量",
@@ -1498,7 +1498,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Each arrow: one electron falls and one photon is emitted": "每個箭嘴：一個電子落下，發射一個光子",
 
     // widget string (assets/js/widgets-s1-3.js)
-    "Spectrum strip for the chosen series, plotted against frequency. The lines get closer together towards high frequency and stop at the convergence limit.": "所選線系的光譜條，按頻率繪畫。譜線愈向高頻率愈靠近，到會聚極限為止。",
+    "Spectrum strip for the chosen series, plotted against frequency. The lines get closer together towards high frequency and stop at the convergence limit.": "所選線系的光譜條，按頻率繪畫。譜線越向高頻率越靠近，到會聚極限為止。",
 
     // widget string (assets/js/widgets-s1-3.js)
     "Lines from transitions down to n = {n}": "落到 n = {n} 的躍遷所產生的譜線",
@@ -1534,7 +1534,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Drops to n = 1 are the largest, so these photons have the most energy. All of these lines are ultraviolet.": "落到 n = 1 的能量下降最大，所以這些光子的能量最多。這些譜線全部屬於紫外。",
 
     // widget string (assets/js/widgets-s1-3.js)
-    "A drop to n = 2 from n = 3, 4, 5 or 6 gives one of the four visible lines. A bigger drop gives a shorter wavelength.": "由 n = 3、4、5 或 6 落到 n = 2，會得出四條可見光譜線之一。能量下降愈大，波長愈短。",
+    "A drop to n = 2 from n = 3, 4, 5 or 6 gives one of the four visible lines. A bigger drop gives a shorter wavelength.": "由 n = 3、4、5 或 6 落到 n = 2，會得出四條可見光譜線之一。能量下降越大，波長越短。",
 
     // widget string (assets/js/widgets-s1-3.js)
     "Drops to n = 2 from levels above n = 6 fall just outside the visible region, in the ultraviolet.": "由 n = 6 以上的能級落到 n = 2，譜線剛好落在可見光區以外，屬於紫外。",
@@ -1837,7 +1837,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Large drop from {prev} ({pv}). A new period starts. The electron removed is in a new main energy level (n = {n}), further from the nucleus and shielded by more inner electrons, so it is attracted less strongly.": "比 {prev} ({pv}) 大幅下跌。新的週期開始了。被移走的電子在新的主能級 (n = {n})，離原子核較遠，受到較多內層電子屏蔽，所以受到的引力較弱。",
 
     // widget string (assets/js/widgets-s1-3.js)
-    "Lower than {prev} ({pv}), even though the nuclear charge is greater. This is a discontinuity. The electron removed from {el} is in the {sub} sublevel, which is higher in energy than the {ssub} sublevel that {prev} loses an electron from. A higher-energy electron needs less energy to remove.": "比 {prev} ({pv}) 低，雖然核電荷較大。這是不連續處。從 {el} 移走的電子在 {sub} 亞層，它的能量比 {prev} 失去電子的 {ssub} 亞層高。電子的能量愈高，移走它所需的能量愈少。",
+    "Lower than {prev} ({pv}), even though the nuclear charge is greater. This is a discontinuity. The electron removed from {el} is in the {sub} sublevel, which is higher in energy than the {ssub} sublevel that {prev} loses an electron from. A higher-energy electron needs less energy to remove.": "比 {prev} ({pv}) 低，雖然核電荷較大。這是不連續處。從 {el} 移走的電子在 {sub} 亞層，它的能量比 {prev} 失去電子的 {ssub} 亞層高。電子的能量越高，移走它所需的能量越少。",
 
     // widget string (assets/js/widgets-s1-3.js)
     "Lower than {prev} ({pv}), even though the nuclear charge is greater. This is a discontinuity. In {prev} each {sub} orbital holds one electron. In {el} one {sub} orbital holds a pair. Two electrons in the same orbital repel each other, so one of them is removed more easily.": "比 {prev} ({pv}) 低，雖然核電荷較大。這是不連續處。在 {prev} 中，每個 {sub} 軌態各有一個電子。在 {el} 中，其中一個 {sub} 軌態有一對電子。同一軌態內的兩個電子互相排斥，所以其中一個較容易移走。",
@@ -1846,7 +1846,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Part of the d-block (Sc to Zn). First ionization energy changes only a little here: {prev} is {pv}. You are not asked to explain these small rises and falls in Structure 1.3.": "屬於 d 區（Sc 至 Zn）。這裏的第一電離能變化很小：{prev} 是 {pv}。Structure 1.3 不要求你解釋這些細微的升跌。",
 
     // widget string (assets/js/widgets-s1-3.js)
-    "Lower than {prev} ({pv}). The electron removed from {el} is in the {sub} sublevel, which is higher in energy than the {ssub} sublevel that {prev} loses an electron from. A higher-energy electron needs less energy to remove.": "比 {prev} ({pv}) 低。從 {el} 移走的電子在 {sub} 亞層，它的能量比 {prev} 失去電子的 {ssub} 亞層高。電子的能量愈高，移走它所需的能量愈少。",
+    "Lower than {prev} ({pv}). The electron removed from {el} is in the {sub} sublevel, which is higher in energy than the {ssub} sublevel that {prev} loses an electron from. A higher-energy electron needs less energy to remove.": "比 {prev} ({pv}) 低。從 {el} 移走的電子在 {sub} 亞層，它的能量比 {prev} 失去電子的 {ssub} 亞層高。電子的能量越高，移走它所需的能量越少。",
 
     // widget string (assets/js/widgets-s1-3.js)
     "Higher than {prev} ({pv}). This is the general trend across a period. The nuclear charge increases by one proton. The electron removed is in the same main energy level, so the shielding by inner electrons is about the same. The outer electrons are held more strongly and the atom is smaller.": "比 {prev} ({pv}) 高。這是橫跨一個週期的整體趨勢。核電荷增加了一個質子。被移走的電子在同一個主能級，所以內層電子的屏蔽大致相同。外層電子被吸引得更緊，原子也較小。",

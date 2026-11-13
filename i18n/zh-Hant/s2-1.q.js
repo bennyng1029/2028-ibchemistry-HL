@@ -338,7 +338,7 @@ S1.i18n.register('zh-Hant', 's2-1.q', {
         // EN: Iron has isotopes with different numbers of neutrons.
         "鐵有中子數目不同的同位素。",
         // EN: The charge of an iron ion is equal to its group number.
-        "鐵離子的電荷等於它的族編號。",
+        "鐵離子的電荷等於它的族數。",
       ],
       hints: [
         // EN: The chloride ion is always <span class="chem">Cl-</span>. What must the charge on iron be in each compound?
@@ -352,7 +352,7 @@ S1.i18n.register('zh-Hant', 's2-1.q', {
         // EN (option C): Isotopes differ in neutrons, which does not change the charge of an ion or the formula of a compound.
         "2": "同位素的分別在於中子數目，這不會改變離子的電荷或化合物的化學式。",
         // EN (option D): Iron is in group 8, and its common ions are 2+ and 3+. The group number does not give the charge of a transition element ion.
-        "3": "鐵在第 8 族，而它常見的離子是 2+ 和 3+。過渡元素離子的電荷不能由族編號得知。",
+        "3": "鐵在第 8 族，而它常見的離子是 2+ 和 3+。過渡元素離子的電荷不能由族數得知。",
       },
     },
 
