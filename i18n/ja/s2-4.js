@@ -364,7 +364,7 @@ S1.i18n.register('ja', 's2-4', {
     "Use one value for silicon and one value for chlorine. Ignore the 4 in the formula.": "ケイ素の値を 1 つ、塩素の値を 1 つ使います。化学式の 4 は無視します。",
 
     // Placing a compound in the bonding triangle > try it > li
-    "Set up (1.9 + 3.2) / 2. Keep both decimal places.": "(1.9 + 3.2) / 2 という式を立てます。小数第 2 位まで残しましょう。",
+    "Set up (1.9 + 3.2) / 2. Keep both decimal places.": "(1.9 + 3.2) / 2 という式を立てます。小数点以下の数字は両方とも残しましょう。",
 
     // Placing a compound in the bonding triangle > try it > maths line
     "average <i>χ</i> = (1.9 + 3.2) / 2 = 5.1 / 2 = 2.55": "平均 <i>χ</i> = (1.9 + 3.2) / 2 = 5.1 / 2 = 2.55",
@@ -405,523 +405,523 @@ S1.i18n.register('ja', 's2-4', {
     "Does not conduct in any state. Low melting point if it is made of molecules. Very high melting point if it is a covalent network.": "どの状態でも電気を通さない。分子でできていれば融点が低い。共有結合の結晶なら融点がとても高い。",
 
     // Placing a compound in the bonding triangle > table > td
-    "Cations and delocalized electrons": "",
+    "Cations and delocalized electrons": "陽イオンと非局在化電子",
 
     // Placing a compound in the bonding triangle > p
-    "A point near a boundary has properties between the two models. Aluminium chloride, at (2.4, 1.6), lies just inside the polar covalent region, almost on the line with the ionic region. It is a solid that turns into a gas at about 180 °C. The ionic model alone does not predict such a low temperature.": "",
+    "A point near a boundary has properties between the two models. Aluminium chloride, at (2.4, 1.6), lies just inside the polar covalent region, almost on the line with the ionic region. It is a solid that turns into a gas at about 180 °C. The ionic model alone does not predict such a low temperature.": "境界線に近い点は、2 つのモデルの中間の性質をもちます。塩化アルミニウムは (2.4, 1.6) にあり、極性共有結合の領域のすぐ内側、イオン結合の領域との境界線のほぼ上にあります。固体ですが、約 180 °C で気体になります。イオン結合モデルだけでは、こんなに低い温度は予測できません。",
 
     // Placing a compound in the bonding triangle > p
-    "When a point is almost on a line, say so in your answer. Give both numbers and write that the bonding is between the two types.": "",
+    "When a point is almost on a line, say so in your answer. Give both numbers and write that the bonding is between the two types.": "点が境界線のほぼ上にあるときは、答えにそう書きましょう。2 つの数値を示して、結合は 2 つの種類の中間だと書きます。",
 
     // Placing a compound in the bonding triangle > p
-    "The triangle has a limit. It tells you the type of bonding. It does not tell you the structure. Carbon dioxide and silicon dioxide are both polar covalent, but <span class=\"chem\">CO2</span> is molecular and <span class=\"chem\">SiO2</span> is a covalent network.": "",
+    "The triangle has a limit. It tells you the type of bonding. It does not tell you the structure. Carbon dioxide and silicon dioxide are both polar covalent, but <span class=\"chem\">CO2</span> is molecular and <span class=\"chem\">SiO2</span> is a covalent network.": "三角形には限界があります。わかるのは結合の種類です。構造まではわかりません。二酸化炭素と二酸化ケイ素はどちらも極性共有結合ですが、<span class=\"chem\">CO2</span> は分子でできていて、<span class=\"chem\">SiO2</span> は共有結合の結晶です。",
 
     // Placing a compound in the bonding triangle > h3
-    "Reading the percentage scale": "",
+    "Reading the percentage scale": "百分率の目盛りを読む",
 
     // Placing a compound in the bonding triangle > p
-    "The booklet prints a scale beside the triangle. It shows the percentage covalent character and the percentage ionic character at each height. You read it at the height of your point. The two percentages always add up to 100.": "",
+    "The booklet prints a scale beside the triangle. It shows the percentage covalent character and the percentage ionic character at each height. You read it at the height of your point. The two percentages always add up to 100.": "データブックレットでは、三角形の横に目盛りが印刷されています。それぞれの高さでの、共有結合性の割合とイオン結合性の割合を示す目盛りです。自分の点の高さで読みます。2 つの百分率を足すと、いつも 100 になります。",
 
     // Placing a compound in the bonding triangle > table > caption
-    "The scale beside the triangle (heights read from the booklet diagram)": "",
+    "The scale beside the triangle (heights read from the booklet diagram)": "三角形の横の目盛り（高さはデータブックレットの図から読んだ値）",
 
     // Placing a compound in the bonding triangle > table > th
-    "Δ<i>χ</i> (about)": "",
+    "Δ<i>χ</i> (about)": "Δ<i>χ</i>（およその値）",
 
     // Placing a compound in the bonding triangle > table > th
-    "% covalent": "",
+    "% covalent": "共有結合性 %",
 
     // Placing a compound in the bonding triangle > table > th
     // widget string (assets/js/widgets-s2-4.js)
-    "% ionic": "",
+    "% ionic": "イオン結合性 %",
 
     // Placing a compound in the bonding triangle > p
-    "For MgO, Δ<i>χ</i> = 2.1. That height is between the 50 % ionic line and the 75 % ionic line, and closer to the 75 % line. A fair reading is about 65 to 70 % ionic.": "",
+    "For MgO, Δ<i>χ</i> = 2.1. That height is between the 50 % ionic line and the 75 % ionic line, and closer to the 75 % line. A fair reading is about 65 to 70 % ionic.": "MgO では Δ<i>χ</i> = 2.1 です。この高さは、イオン結合性 50 % の線と 75 % の線の間で、75 % の線に近いほうです。イオン結合性は約 65〜70 % と読むのが妥当です。",
 
     // Placing a compound in the bonding triangle > exam tip (shown in English + translation) > p
-    "Give both numbers, the difference and the average, and then the bonding type. One number alone does not earn the mark. A percentage is a reading from the diagram, so a range of answers is accepted (about 10 percentage points wide in one 2025 paper).": "",
+    "Give both numbers, the difference and the average, and then the bonding type. One number alone does not earn the mark. A percentage is a reading from the diagram, so a range of answers is accepted (about 10 percentage points wide in one 2025 paper).": "差と平均の 2 つの数値を書き、それから結合の種類を書きましょう。数値が 1 つだけでは点になりません。百分率は図から読み取る値なので、ある幅の答えが認められます（2025 年のある試験では、幅は約 10 ポイントでした）。",
 
     // Placing a compound in the bonding triangle > not needed for IB > p
-    "The guide says that calculations of percentage ionic character are not required. So you never use a formula for it. Reading a percentage from the printed scale is different: it has been asked in an exam, so practise it. You also do not need the triangle for compounds of three or more elements. Only binary compounds are placed on it.": "",
+    "The guide says that calculations of percentage ionic character are not required. So you never use a formula for it. Reading a percentage from the printed scale is different: it has been asked in an exam, so practise it. You also do not need the triangle for compounds of three or more elements. Only binary compounds are placed on it.": "『指導の手引き』には、イオン結合性の割合の計算は必要ないと書かれています。だから、公式を使って求めることはありません。ただし、印刷された目盛りから百分率を読むのは別です。試験で実際に出題されたので、練習しておきましょう。また、3 種類以上の元素からなる化合物に三角形を使う必要はありません。三角形に置くのは二元化合物だけです。",
 
     // Placing a compound in the bonding triangle > data-title attribute
-    "Bonding triangle: quick check": "",
+    "Bonding triangle: quick check": "結合の三角形：確認クイズ",
 
     // Alloys > h2
-    "Alloys": "",
+    "Alloys": "合金",
 
     // Alloys > p
-    "A gold ring is rarely pure gold. Pure gold is so soft that a ring would bend out of shape. Jewellers mix the gold with a little copper or silver to make it harder.": "",
+    "A gold ring is rarely pure gold. Pure gold is so soft that a ring would bend out of shape. Jewellers mix the gold with a little copper or silver to make it harder.": "金の指輪は、純粋な金でできていることはあまりありません。純粋な金はとてもやわらかく、指輪にすると形がゆがんでしまいます。そこで、金に銅や銀を少し混ぜて、かたくします。",
 
     // Alloys > p
-    "An <dfn data-def=\"A mixture of a metal and other metals or non-metals. It has enhanced properties.\">alloy</dfn> is a mixture of a metal and other metals or non-metals. Alloys have enhanced properties: they are often harder, stronger or more resistant to corrosion than the pure metal.": "",
+    "An <dfn data-def=\"A mixture of a metal and other metals or non-metals. It has enhanced properties.\">alloy</dfn> is a mixture of a metal and other metals or non-metals. Alloys have enhanced properties: they are often harder, stronger or more resistant to corrosion than the pure metal.": "<dfn data-def=\"金属と、ほかの金属または非金属との混合物です。もとの金属より優れた性質をもちます。\">合金 <span class=\"en-term\">(alloy)</span></dfn>は、金属と、ほかの金属または非金属との混合物です。合金は、もとの金属より優れた性質をもちます。純粋な金属より、かたい、強い、腐食しにくい、といったことがよくあります。",
 
     // Alloys > data-def attribute
-    "A mixture of a metal and other metals or non-metals. It has enhanced properties.": "",
+    "A mixture of a metal and other metals or non-metals. It has enhanced properties.": "金属と、ほかの金属または非金属との混合物です。もとの金属より優れた性質をもちます。",
 
     // Alloys > p
-    "Common examples are bronze (copper with tin), brass (copper with zinc) and stainless steel (iron with chromium, nickel and a little carbon). Carbon is a non-metal, so steel shows that the added element does not have to be a metal.": "",
+    "Common examples are bronze (copper with tin), brass (copper with zinc) and stainless steel (iron with chromium, nickel and a little carbon). Carbon is a non-metal, so steel shows that the added element does not have to be a metal.": "よくある例は、青銅（銅とスズ）、黄銅（銅と亜鉛）、ステンレス鋼（鉄にクロム、ニッケル、少しの炭素）です。炭素は非金属です。だから鋼の例から、加える元素は金属でなくてもよいことがわかります。",
 
     // Alloys > h3
-    "Why metals can form alloys": "",
+    "Why metals can form alloys": "金属が合金をつくれる理由",
 
     // Alloys > p
-    "In a metal, cations sit in a lattice and are attracted to the delocalized electrons all around them. This attraction acts equally in every direction. Chemists say metallic bonding is <dfn data-def=\"Acting equally in all directions, not along a fixed line between two particular atoms.\">non-directional</dfn>.": "",
+    "In a metal, cations sit in a lattice and are attracted to the delocalized electrons all around them. This attraction acts equally in every direction. Chemists say metallic bonding is <dfn data-def=\"Acting equally in all directions, not along a fixed line between two particular atoms.\">non-directional</dfn>.": "金属の中では、陽イオンが結晶格子をつくり、まわりを取りまく非局在化電子に引きつけられています。この引力は、どの方向にも同じようにはたらきます。化学では、金属結合には<dfn data-def=\"どの方向にも同じようにはたらくことです。決まった 2 つの原子を結ぶ決まった線に沿ってはたらくのではありません。\">方向性がない <span class=\"en-term\">(non-directional)</span></dfn>と言います。",
 
     // Alloys > data-def attribute
-    "Acting equally in all directions, not along a fixed line between two particular atoms.": "",
+    "Acting equally in all directions, not along a fixed line between two particular atoms.": "どの方向にも同じようにはたらくことです。決まった 2 つの原子を結ぶ決まった線に沿ってはたらくのではありません。",
 
     // Alloys > p
-    "Because the bonding is non-directional, the lattice does not need one fixed arrangement of particular atoms. An atom of a different element can take a place in the lattice, and the delocalized electrons still hold everything together.": "",
+    "Because the bonding is non-directional, the lattice does not need one fixed arrangement of particular atoms. An atom of a different element can take a place in the lattice, and the delocalized electrons still hold everything together.": "結合に方向性がないので、結晶格子は、決まった原子が決まった並び方をしている必要がありません。別の元素の原子が格子の中の場所に入っても、非局在化電子が全体をまとめたままです。",
 
     // Alloys > h3
-    "Why alloys are often harder and stronger": "",
+    "Why alloys are often harder and stronger": "合金がよりかたく、強くなることが多い理由",
 
     // Alloys > p
-    "In a pure metal, all the cations are the same size. They pack in regular layers. When a force is applied, the layers can slide over each other. That is why pure metals are malleable.": "",
+    "In a pure metal, all the cations are the same size. They pack in regular layers. When a force is applied, the layers can slide over each other. That is why pure metals are malleable.": "純粋な金属では、陽イオンの大きさがすべて同じです。陽イオンは規則正しい層になって並びます。力を加えると、層はたがいにすべることができます。純粋な金属に展性があるのは、このためです。",
 
     // Alloys > p
-    "In an alloy, the atoms of the added element are a different size. They disrupt the regular layers. The layers cannot slide over each other as easily, so the alloy is harder and stronger.": "",
+    "In an alloy, the atoms of the added element are a different size. They disrupt the regular layers. The layers cannot slide over each other as easily, so the alloy is harder and stronger.": "合金では、加えた元素の原子の大きさが違います。そのため、規則正しい層が乱れます。層がすべりにくくなるので、合金はよりかたく、より強くなります。",
 
     // Alloys > widget > data-title attribute
-    "Push a layer: pure metal and alloy": "",
+    "Push a layer: pure metal and alloy": "層を押す：純粋な金属と合金",
 
     // Alloys > widget > figcaption
-    "Choose a material, then push the top layers. This is a flat model of a few dozen ions. A real metal has layers in three dimensions. In a real alloy the layers can still slide if the force is large enough: it is harder to do, not impossible.": "",
+    "Choose a material, then push the top layers. This is a flat model of a few dozen ions. A real metal has layers in three dimensions. In a real alloy the layers can still slide if the force is large enough: it is harder to do, not impossible.": "材料を選んで、上の層を押してみましょう。これは、数十個のイオンを平面に並べたモデルです。実際の金属では、層は 3 次元に重なっています。実際の合金でも、力が十分に大きければ層はすべります。すべりにくくなるだけで、すべらなくなるわけではありません。",
 
     // Alloys > key idea > p
-    "Alloys are mixtures. The amounts of the elements can vary, and the elements are not chemically combined in a fixed ratio. That is why an alloy is not a compound.": "",
+    "Alloys are mixtures. The amounts of the elements can vary, and the elements are not chemically combined in a fixed ratio. That is why an alloy is not a compound.": "合金は混合物です。元素の量は変えることができ、元素が一定の比で化学的に結合しているわけではありません。だから、合金は化合物ではありません。",
 
     // Alloys > worked example > h3
-    "Explaining the hardness of an alloy": "",
+    "Explaining the hardness of an alloy": "合金のかたさを説明する",
 
     // Alloys > worked example > p
-    "Brass is an alloy of copper and zinc. Explain why brass is harder than pure copper. [2 marks]": "",
+    "Brass is an alloy of copper and zinc. Explain why brass is harder than pure copper. [2 marks]": "黄銅は、銅と亜鉛の合金です。黄銅が純粋な銅よりかたい理由を説明しなさい (explain)。[2 点]",
 
     // Alloys > worked example > data-title attribute
-    "Describe the pure metal": "",
+    "Describe the pure metal": "純粋な金属のようすを書く",
 
     // Alloys > worked example > p
-    "An “explain” answer needs the starting picture: what makes pure copper soft.": "",
+    "An “explain” answer needs the starting picture: what makes pure copper soft.": "「説明しなさい (explain)」の答えには、出発点が必要です。純粋な銅がなぜやわらかいのかを書きます。",
 
     // Alloys > worked example > maths line
-    "In pure copper, the cations are all the same size and form regular layers. The layers can slide over each other.": "",
+    "In pure copper, the cations are all the same size and form regular layers. The layers can slide over each other.": "純粋な銅では、陽イオンの大きさがすべて同じで、規則正しい層をつくっている。層はたがいにすべることができる。",
 
     // Alloys > worked example > data-title attribute
-    "Say what the added atoms do": "",
+    "Say what the added atoms do": "加えた原子のはたらきを書く",
 
     // Alloys > worked example > p
-    "This is the first marking point. Mention the different size and the effect on the regular arrangement.": "",
+    "This is the first marking point. Mention the different size and the effect on the regular arrangement.": "これが 1 つ目の採点ポイントです。大きさが違うことと、規則正しい並び方への影響を書きます。",
 
     // Alloys > worked example > maths line
-    "Zinc atoms are a different size from copper atoms, so they disrupt the regular layers of the lattice.": "",
+    "Zinc atoms are a different size from copper atoms, so they disrupt the regular layers of the lattice.": "亜鉛原子は銅原子と大きさが違うので、結晶格子の規則正しい層を乱す。",
 
     // Alloys > worked example > data-title attribute
-    "Link to the property": "",
+    "Link to the property": "性質と結びつける",
 
     // Alloys > worked example > p
-    "This is the second marking point. Connect the structure to hardness.": "",
+    "This is the second marking point. Connect the structure to hardness.": "これが 2 つ目の採点ポイントです。構造をかたさと結びつけます。",
 
     // Alloys > worked example > maths line
-    "<b>The layers cannot slide over each other as easily, so brass is harder.</b>": "",
+    "<b>The layers cannot slide over each other as easily, so brass is harder.</b>": "<b>層がたがいにすべりにくくなるので、黄銅のほうがかたい。</b>",
 
     // Alloys > worked example > p
-    "Zinc atoms have a different size, so they disrupt the regular layers. The layers slide over each other less easily.": "",
+    "Zinc atoms have a different size, so they disrupt the regular layers. The layers slide over each other less easily.": "亜鉛原子は大きさが違うので、規則正しい層を乱します。層はたがいにすべりにくくなります。",
 
     // Alloys > common mistake > p
-    "Do not write that an alloy is harder “because the bonds are stronger”. The mark is for the disrupted layers that slide less easily. Do not call an alloy a compound.": "",
+    "Do not write that an alloy is harder “because the bonds are stronger”. The mark is for the disrupted layers that slide less easily. Do not call an alloy a compound.": "合金がかたいのは「結合が強いから」と書いてはいけません。点になるのは、層が乱れてすべりにくくなる、という説明です。また、合金を化合物と呼んではいけません。",
 
     // Alloys > not needed for IB > p
-    "You do not need to learn the composition or the uses of any particular alloy. Any alloy in a question will be described for you.": "",
+    "You do not need to learn the composition or the uses of any particular alloy. Any alloy in a question will be described for you.": "特定の合金の組成や用途を覚える必要はありません。問題に合金が出るときは、説明が付いています。",
 
     // Alloys > data-title attribute
-    "Alloys: quick check": "",
+    "Alloys: quick check": "合金：確認クイズ",
 
     // Polymers and plastics > data-toc attribute
     // Polymers and plastics > h2
-    "Polymers and plastics": "",
+    "Polymers and plastics": "高分子とプラスチック",
 
     // Polymers and plastics > p
-    "A paper-clip chain is made by joining many identical clips, one after another. A polymer is made in the same way, from small molecules.": "",
+    "A paper-clip chain is made by joining many identical clips, one after another. A polymer is made in the same way, from small molecules.": "クリップをつないだ鎖は、同じクリップを次々につなげてつくります。高分子も同じように、小さな分子をつなげてつくります。",
 
     // Polymers and plastics > p
-    "A <dfn data-def=\"A large molecule (macromolecule) made from many repeating subunits called monomers.\">polymer</dfn> is a large molecule made from many repeating subunits. The small molecules that join together are called <dfn data-def=\"A small molecule that can join with many others to form a polymer.\">monomers</dfn>. Another word for a very large molecule is <dfn>macromolecule</dfn>. One polymer chain can contain thousands of monomer units.": "",
+    "A <dfn data-def=\"A large molecule (macromolecule) made from many repeating subunits called monomers.\">polymer</dfn> is a large molecule made from many repeating subunits. The small molecules that join together are called <dfn data-def=\"A small molecule that can join with many others to form a polymer.\">monomers</dfn>. Another word for a very large molecule is <dfn>macromolecule</dfn>. One polymer chain can contain thousands of monomer units.": "<dfn data-def=\"単量体（モノマー）と呼ばれる小さな単位がたくさん繰り返してできた、大きな分子（巨大分子）です。\">高分子（ポリマー）<span class=\"en-term\">(polymer)</span></dfn>は、小さな単位がたくさん繰り返してできた大きな分子です。つながり合う小さな分子を<dfn data-def=\"たくさんの分子とつながって高分子をつくることができる、小さな分子です。\">単量体（モノマー）<span class=\"en-term\">(monomer)</span></dfn>と呼びます。とても大きな分子は<dfn>巨大分子 <span class=\"en-term\">(macromolecule)</span></dfn>とも呼びます。1 本の高分子の鎖には、単量体の単位が数千個も入っていることがあります。",
 
     // Polymers and plastics > data-def attribute
-    "A large molecule (macromolecule) made from many repeating subunits called monomers.": "",
+    "A large molecule (macromolecule) made from many repeating subunits called monomers.": "単量体（モノマー）と呼ばれる小さな単位がたくさん繰り返してできた、大きな分子（巨大分子）です。",
 
     // Polymers and plastics > data-def attribute
-    "A small molecule that can join with many others to form a polymer.": "",
+    "A small molecule that can join with many others to form a polymer.": "たくさんの分子とつながって高分子をつくることができる、小さな分子です。",
 
     // Polymers and plastics > h3
-    "Natural and synthetic polymers": "",
+    "Natural and synthetic polymers": "天然高分子と合成高分子",
 
     // Polymers and plastics > li
-    "<strong>Natural polymers</strong> are made by living things. Examples are starch and cellulose in plants, proteins, DNA and natural rubber.": "",
+    "<strong>Natural polymers</strong> are made by living things. Examples are starch and cellulose in plants, proteins, DNA and natural rubber.": "<strong>天然高分子</strong>は、生物がつくります。植物のデンプンやセルロース、タンパク質、DNA、天然ゴムなどがあります。",
 
     // Polymers and plastics > li
-    "<strong>Synthetic polymers</strong> are made in factories. Examples are poly(ethene), used for bags and bottles, and nylon, used for fabrics. Plastics are synthetic polymers.": "",
+    "<strong>Synthetic polymers</strong> are made in factories. Examples are poly(ethene), used for bags and bottles, and nylon, used for fabrics. Plastics are synthetic polymers.": "<strong>合成高分子</strong>は、工場でつくります。袋やボトルに使うポリエテン (poly(ethene)) や、布に使うナイロンなどがあります。プラスチックは合成高分子です。",
 
     // Polymers and plastics > h3
-    "Properties of plastics, explained by structure": "",
+    "Properties of plastics, explained by structure": "プラスチックの性質を構造から説明する",
 
     // Polymers and plastics > p
-    "Two facts about the structure explain most properties of plastics.": "",
+    "Two facts about the structure explain most properties of plastics.": "プラスチックの性質のほとんどは、構造についての 2 つの事実で説明できます。",
 
     // Polymers and plastics > li
-    "Inside each chain, the atoms are joined by strong covalent bonds.": "",
+    "Inside each chain, the atoms are joined by strong covalent bonds.": "1 本の鎖の中では、原子は強い共有結合でつながっています。",
 
     // Polymers and plastics > li
-    "Between one chain and the next, there are only weak intermolecular forces.": "",
+    "Between one chain and the next, there are only weak intermolecular forces.": "鎖と鎖の間には、弱い分子間力しかはたらいていません。",
 
     // Polymers and plastics > table > caption
-    "Common properties of plastics": "",
+    "Common properties of plastics": "プラスチックに共通する性質",
 
     // Polymers and plastics > table > th
-    "Property": "",
+    "Property": "性質",
 
     // Polymers and plastics > table > th
-    "Kind": "",
+    "Kind": "種類",
 
     // Polymers and plastics > table > th
-    "Reason from the structure": "",
+    "Reason from the structure": "構造からわかる理由",
 
     // Polymers and plastics > table > th
-    "Unreactive (chemically inert)": "",
+    "Unreactive (chemically inert)": "反応しにくい（化学的に不活性）",
 
     // Polymers and plastics > table > td
-    "chemical": "",
+    "chemical": "化学的",
 
     // Polymers and plastics > table > td
-    "The covalent bonds in the chains are strong and take a lot of energy to break.": "",
+    "The covalent bonds in the chains are strong and take a lot of energy to break.": "鎖の中の共有結合は強く、切るには多くのエネルギーが必要です。",
 
     // Polymers and plastics > table > th
-    "Non-biodegradable": "",
+    "Non-biodegradable": "生分解されない",
 
     // Polymers and plastics > table > td
-    "Microorganisms cannot easily break the strong covalent bonds, so the chains stay intact.": "",
+    "Microorganisms cannot easily break the strong covalent bonds, so the chains stay intact.": "微生物は強い共有結合をなかなか切れないので、鎖はそのまま残ります。",
 
     // Polymers and plastics > table > th
-    "Electrical insulator": "",
+    "Electrical insulator": "電気を通さない（絶縁体）",
 
     // Polymers and plastics > table > td
-    "physical": "",
+    "physical": "物理的",
 
     // Polymers and plastics > table > td
-    "All outer electrons are held in covalent bonds. There are no delocalized electrons or mobile ions.": "",
+    "All outer electrons are held in covalent bonds. There are no delocalized electrons or mobile ions.": "外側の電子はすべて共有結合に使われています。非局在化電子も、動けるイオンもありません。",
 
     // Polymers and plastics > table > th
     // widget string (assets/js/widgets-s2-4.js)
-    "Poor conductor of heat": "",
+    "Poor conductor of heat": "熱を伝えにくい",
 
     // Polymers and plastics > table > td
-    "There are no delocalized electrons to carry energy quickly.": "",
+    "There are no delocalized electrons to carry energy quickly.": "エネルギーをすばやく運ぶ非局在化電子がありません。",
 
     // Polymers and plastics > table > th
     // widget string (assets/js/widgets-s2-4.js)
-    "Low density": "",
+    "Low density": "密度が小さい",
 
     // Polymers and plastics > table > td
-    "The chains contain light atoms such as carbon and hydrogen, and long chains do not pack tightly.": "",
+    "The chains contain light atoms such as carbon and hydrogen, and long chains do not pack tightly.": "鎖は炭素や水素のような軽い原子でできています。また、長い鎖はぎっしりとは詰まりません。",
 
     // Polymers and plastics > table > th
-    "Softens on heating and can be moulded (many plastics)": "",
+    "Softens on heating and can be moulded (many plastics)": "加熱するとやわらかくなり、型に入れて形をつくれる（多くのプラスチック）",
 
     // Polymers and plastics > table > td
-    "The weak forces between chains are overcome, so the chains can slide past each other.": "",
+    "The weak forces between chains are overcome, so the chains can slide past each other.": "鎖と鎖の間の弱い力に打ち勝つので、鎖がたがいにすべって動けるようになります。",
 
     // Polymers and plastics > table > th
     // widget string (assets/js/widgets-s2-4.js)
-    "Strong for its mass": "",
+    "Strong for its mass": "質量のわりに強い",
 
     // Polymers and plastics > table > td
-    "The chains are very long, so the many weak forces along each chain add up.": "",
+    "The chains are very long, so the many weak forces along each chain add up.": "鎖がとても長いので、1 本の鎖に沿ってはたらくたくさんの弱い力が積み重なります。",
 
     // Polymers and plastics > widget > data-title attribute
-    "Sort the properties of plastics": "",
+    "Sort the properties of plastics": "プラスチックの性質を分類する",
 
     // Polymers and plastics > widget > figcaption
-    "Decide if each property is physical or chemical. The feedback gives the reason from the structure of the polymer.": "",
+    "Decide if each property is physical or chemical. The feedback gives the reason from the structure of the polymer.": "それぞれの性質が物理的か化学的かを決めましょう。フィードバックに、高分子の構造からわかる理由が出ます。",
 
     // Polymers and plastics > p
-    "The same property can be useful and harmful. Plastics are unreactive, so a plastic bottle does not react with the drink inside it. But for the same reason plastic waste is not broken down in nature. It stays in the environment for a very long time.": "",
+    "The same property can be useful and harmful. Plastics are unreactive, so a plastic bottle does not react with the drink inside it. But for the same reason plastic waste is not broken down in nature. It stays in the environment for a very long time.": "同じ性質が、役に立つこともあれば、害になることもあります。プラスチックは反応しにくいので、プラスチックのボトルは中の飲み物と反応しません。しかし同じ理由で、プラスチックのごみは自然の中で分解されません。とても長い間、環境に残ります。",
 
     // Polymers and plastics > exam tip (shown in English + translation) > p
-    "Read the command carefully. If a question asks for a <em>chemical</em> property of a plastic, write “unreactive”, “chemically inert” or “non-biodegradable”. A physical property, such as “strong” or “low density”, does not earn the mark.": "",
+    "Read the command carefully. If a question asks for a <em>chemical</em> property of a plastic, write “unreactive”, “chemically inert” or “non-biodegradable”. A physical property, such as “strong” or “low density”, does not earn the mark.": "指示をよく読みましょう。プラスチックの<em>化学的</em>性質を問われたら、「反応しにくい」「化学的に不活性」「生分解されない」と書きます。「強い」や「密度が小さい」のような物理的性質を書いても、点になりません。",
 
     // Polymers and plastics > not needed for IB > p
-    "You do not need to learn the names, structures or uses of particular plastics. You do not need high-density and low-density poly(ethene), thermoplastic and thermosetting polymers, plasticizers or recycling codes.": "",
+    "You do not need to learn the names, structures or uses of particular plastics. You do not need high-density and low-density poly(ethene), thermoplastic and thermosetting polymers, plasticizers or recycling codes.": "特定のプラスチックの名前、構造、用途を覚える必要はありません。高密度ポリエテンと低密度ポリエテン、熱可塑性と熱硬化性の高分子、可塑剤、リサイクルの識別番号も必要ありません。",
 
     // Polymers and plastics > data-title attribute
-    "Polymers and plastics: quick check": "",
+    "Polymers and plastics: quick check": "高分子とプラスチック：確認クイズ",
 
     // Addition polymers > data-toc attribute
     // Addition polymers > h2
-    "Addition polymers": "",
+    "Addition polymers": "付加重合体",
 
     // Addition polymers > p
-    "Picture a line of people, each with their arms folded. If every person unfolds their arms and holds hands with the neighbours on both sides, the line becomes one long chain. Nobody leaves the line.": "",
+    "Picture a line of people, each with their arms folded. If every person unfolds their arms and holds hands with the neighbours on both sides, the line becomes one long chain. Nobody leaves the line.": "腕を組んだ人が 1 列に並んでいるところを思い浮かべてください。全員が腕をほどいて両どなりの人と手をつなぐと、列は 1 本の長い鎖になります。列から抜ける人はいません。",
 
     // Addition polymers > data-def attribute
-    "A polymer formed when the double bond in each monomer breaks and the monomers join, with no other product.": "",
+    "A polymer formed when the double bond in each monomer breaks and the monomers join, with no other product.": "それぞれの単量体の二重結合が切れて単量体どうしがつながってできる高分子です。ほかの生成物はできません。",
 
     // Addition polymers > key idea > p
-    "In addition polymerization the monomers add together and nothing else is made. The polymer is the only product. The repeating unit contains the same atoms as one monomer.": "",
+    "In addition polymerization the monomers add together and nothing else is made. The polymer is the only product. The repeating unit contains the same atoms as one monomer.": "付加重合 (addition polymerization) では、単量体がそのままつながり、ほかには何もできません。生成物は高分子だけです。繰り返し単位は、単量体 1 個と同じ原子を含みます。",
 
     // Addition polymers > widget > data-title attribute
-    "Addition polymer builder": "",
+    "Addition polymer builder": "付加重合体をつくる",
 
     // Addition polymers > widget > figcaption
-    "Choose a monomer and step through. Watch the double bond become a single bond while the side groups stay where they are. Then try “Reverse: find the monomer”.": "",
+    "Choose a monomer and step through. Watch the double bond become a single bond while the side groups stay where they are. Then try “Reverse: find the monomer”.": "単量体を選んで、ステップを進めましょう。二重結合が単結合になり、側基はそのままの位置にあることを見てください。そのあと「逆向き：単量体を見つける」を試しましょう。",
 
     // Addition polymers > p
-    "A <dfn data-def=\"The smallest group of atoms that repeats along a polymer chain.\">repeating unit</dfn> is the smallest group of atoms that repeats along the chain. It is drawn with a bond at each end that passes through square brackets. A small <i>n</i> after the brackets stands for a very large number.": "",
+    "A <dfn data-def=\"The smallest group of atoms that repeats along a polymer chain.\">repeating unit</dfn> is the smallest group of atoms that repeats along the chain. It is drawn with a bond at each end that passes through square brackets. A small <i>n</i> after the brackets stands for a very large number.": "<dfn data-def=\"高分子の鎖に沿って繰り返す、最も小さな原子のまとまりです。\">繰り返し単位 <span class=\"en-term\">(repeating unit)</span></dfn>は、鎖に沿って繰り返す、最も小さな原子のまとまりです。両端に結合を 1 本ずつ描き、その結合が角括弧を突き抜けるようにします。括弧のあとの小さな <i>n</i> は、とても大きな数を表します。",
 
     // Addition polymers > data-def attribute
-    "The smallest group of atoms that repeats along a polymer chain.": "",
+    "The smallest group of atoms that repeats along a polymer chain.": "高分子の鎖に沿って繰り返す、最も小さな原子のまとまりです。",
 
     // Addition polymers > p
-    "The equation for making poly(ethene) from ethene shows this notation.": "",
+    "The equation for making poly(ethene) from ethene shows this notation.": "エテンからポリエテンができる反応式で、この書き方を見てみましょう。",
 
     // Addition polymers > h3
-    "Method: repeating unit from a monomer": "",
+    "Method: repeating unit from a monomer": "解き方：単量体から繰り返し単位",
 
     // Addition polymers > li
-    "Redraw the monomer with the two double-bonded carbons side by side. Put every other group above or below those two carbons.": "",
+    "Redraw the monomer with the two double-bonded carbons side by side. Put every other group above or below those two carbons.": "二重結合でつながった 2 個の炭素を横に並べて、単量体を描き直します。ほかの基はすべて、この 2 個の炭素の上か下に置きます。",
 
     // Addition polymers > li
-    "Change the double bond to a single bond.": "",
+    "Change the double bond to a single bond.": "二重結合を単結合に変えます。",
 
     // Addition polymers > li
-    "Draw one new bond out from each of the two carbons, to the left and to the right. These are the continuation bonds.": "",
+    "Draw one new bond out from each of the two carbons, to the left and to the right. These are the continuation bonds.": "2 個の炭素のそれぞれから、左と右へ新しい結合を 1 本ずつ外に向けて描きます。これが、鎖の続きを表す結合 (continuation bond) です。",
 
     // Addition polymers > li
-    "Add brackets and <i>n</i> if you want. Check that each carbon has four bonds.": "",
+    "Add brackets and <i>n</i> if you want. Check that each carbon has four bonds.": "必要なら、括弧と <i>n</i> を付けます。どの炭素にも結合が 4 本あることを確かめます。",
 
     // Addition polymers > worked example > h3
-    "Repeating unit from a monomer": "",
+    "Repeating unit from a monomer": "単量体から繰り返し単位",
 
     // Addition polymers > worked example > p
-    "Propene has the structure shown. Draw the repeating unit of the addition polymer formed from propene.": "",
+    "Propene has the structure shown. Draw the repeating unit of the addition polymer formed from propene.": "プロペン (propene) の構造を下に示します。プロペンからできる付加重合体の繰り返し単位を描きましょう。",
 
     // Addition polymers > worked example > data-title attribute
-    "Find the two double-bonded carbons": "",
+    "Find the two double-bonded carbons": "二重結合でつながった 2 個の炭素を見つける",
 
     // Addition polymers > worked example > p
-    "Only these two carbons go into the backbone of the chain. The <span class=\"chem\">CH3</span> group is not part of the double bond, so it is a side group.": "",
+    "Only these two carbons go into the backbone of the chain. The <span class=\"chem\">CH3</span> group is not part of the double bond, so it is a side group.": "鎖の主鎖 (backbone) に入るのは、この 2 個の炭素だけです。<span class=\"chem\">CH3</span> 基は二重結合の一部ではないので、側基 (side group) になります。",
 
     // Addition polymers > worked example > maths line
-    "backbone carbons: the CH<sub>2</sub> carbon and the CH carbon": "",
+    "backbone carbons: the CH<sub>2</sub> carbon and the CH carbon": "主鎖の炭素：CH<sub>2</sub> の炭素と CH の炭素",
 
     // Addition polymers > worked example > data-title attribute
-    "Change C=C to C–C": "",
+    "Change C=C to C–C": "C=C を C–C に変える",
 
     // Addition polymers > worked example > p
-    "One bond of the double bond breaks. The carbons stay joined by a single bond.": "",
+    "One bond of the double bond breaks. The carbons stay joined by a single bond.": "二重結合のうち 1 本が切れます。炭素どうしは単結合でつながったままです。",
 
     // Addition polymers > worked example > maths line
-    "CH<sub>2</sub>=CH(CH<sub>3</sub>) becomes CH<sub>2</sub>–CH(CH<sub>3</sub>)": "",
+    "CH<sub>2</sub>=CH(CH<sub>3</sub>) becomes CH<sub>2</sub>–CH(CH<sub>3</sub>)": "CH<sub>2</sub>=CH(CH<sub>3</sub>) が CH<sub>2</sub>–CH(CH<sub>3</sub>) になる",
 
     // Addition polymers > worked example > data-title attribute
-    "Add the continuation bonds": "",
+    "Add the continuation bonds": "鎖の続きを表す結合を描く",
 
     // Addition polymers > worked example > p
-    "Each backbone carbon now needs one more bond. These bonds join the unit to its neighbours.": "",
+    "Each backbone carbon now needs one more bond. These bonds join the unit to its neighbours.": "主鎖の炭素は、それぞれあと 1 本の結合が必要です。この結合で、単位はとなりの単位とつながります。",
 
     // Addition polymers > worked example > data-title attribute
-    "Check and draw": "",
+    "Check and draw": "確かめて描く",
 
     // Addition polymers > worked example > p
-    "Each carbon must have four bonds. The <span class=\"chem\">CH3</span> group hangs off the chain.": "",
+    "Each carbon must have four bonds. The <span class=\"chem\">CH3</span> group hangs off the chain.": "どの炭素にも結合が 4 本なければなりません。<span class=\"chem\">CH3</span> 基は鎖から枝のように出ています。",
 
     // Addition polymers > worked example > p
-    "The repeating unit is –CH<sub>2</sub>–CH(CH<sub>3</sub>)–, with the <span class=\"chem\">CH3</span> group as a side group.": "",
+    "The repeating unit is –CH<sub>2</sub>–CH(CH<sub>3</sub>)–, with the <span class=\"chem\">CH3</span> group as a side group.": "繰り返し単位は –CH<sub>2</sub>–CH(CH<sub>3</sub>)– で、<span class=\"chem\">CH3</span> 基は側基です。",
 
     // Addition polymers > common mistake > p
-    "Do not put all three carbons of propene in a row in the backbone. Only the two carbons of the double bond are in the chain. Do not leave the double bond in the repeating unit either: it has become a single bond.": "",
+    "Do not put all three carbons of propene in a row in the backbone. Only the two carbons of the double bond are in the chain. Do not leave the double bond in the repeating unit either: it has become a single bond.": "プロペンの 3 個の炭素を、すべて主鎖に 1 列に並べてはいけません。鎖に入るのは、二重結合の 2 個の炭素だけです。また、繰り返し単位に二重結合を残してもいけません。単結合に変わっています。",
 
     // Addition polymers > h3
-    "Method: monomer from a polymer": "",
+    "Method: monomer from a polymer": "解き方：高分子から単量体",
 
     // Addition polymers > li
-    "Mark off the chain two backbone carbons at a time. Each pair, with its side groups, is one repeating unit.": "",
+    "Mark off the chain two backbone carbons at a time. Each pair, with its side groups, is one repeating unit.": "鎖を、主鎖の炭素 2 個ずつに区切ります。それぞれの 2 個の組と、そこに付いた側基が、1 つの繰り返し単位です。",
 
     // Addition polymers > li
-    "Copy one pair with all four side groups.": "",
+    "Copy one pair with all four side groups.": "1 組を、4 つの側基といっしょに写します。",
 
     // Addition polymers > li
-    "Remove the continuation bonds and draw a double bond between the two carbons.": "",
+    "Remove the continuation bonds and draw a double bond between the two carbons.": "鎖の続きを表す結合を消して、2 個の炭素の間に二重結合を描きます。",
 
     // Addition polymers > worked example > h3
-    "Monomer from a polymer": "",
+    "Monomer from a polymer": "高分子から単量体",
 
     // Addition polymers > worked example > p
-    "A section of an addition polymer is shown. Deduce the structure of the monomer.": "",
+    "A section of an addition polymer is shown. Deduce the structure of the monomer.": "付加重合体の一部分を下に示します。単量体の構造を導きましょう。",
 
     // Addition polymers > worked example > data-title attribute
-    "Mark one repeating unit": "",
+    "Mark one repeating unit": "繰り返し単位を 1 つ区切る",
 
     // Addition polymers > worked example > p
-    "The repeating unit of an addition polymer has two backbone carbons. Here the pattern repeats every two carbons.": "",
+    "The repeating unit of an addition polymer has two backbone carbons. Here the pattern repeats every two carbons.": "付加重合体の繰り返し単位には、主鎖の炭素が 2 個あります。この例では、炭素 2 個ごとに同じ並びが繰り返しています。",
 
     // Addition polymers > worked example > data-title attribute
-    "Copy the unit": "",
+    "Copy the unit": "単位を写す",
 
     // Addition polymers > worked example > p
-    "Keep all four side groups exactly where they are.": "",
+    "Keep all four side groups exactly where they are.": "4 つの側基は、すべて元の位置のままにします。",
 
     // Addition polymers > worked example > data-title attribute
-    "Put the double bond back": "",
+    "Put the double bond back": "二重結合を元に戻す",
 
     // Addition polymers > worked example > p
-    "The monomer is CH<sub>2</sub>=CH(CN).": "",
+    "The monomer is CH<sub>2</sub>=CH(CN).": "単量体は CH<sub>2</sub>=CH(CN) です。",
 
     // Addition polymers > exam tip (shown in English + translation) > p
-    "The mark for a repeating unit needs the correct structure <em>and</em> a continuation bond at each end. Draw only one repeating unit: drawing two loses the mark. Brackets and <i>n</i> are not required, but they are a good habit. A bond must end on the correct atom, for example on the C of a <span class=\"chem\">CH3</span> group.": "",
+    "The mark for a repeating unit needs the correct structure <em>and</em> a continuation bond at each end. Draw only one repeating unit: drawing two loses the mark. Brackets and <i>n</i> are not required, but they are a good habit. A bond must end on the correct atom, for example on the C of a <span class=\"chem\">CH3</span> group.": "繰り返し単位で点を取るには、正しい構造<em>と</em>、両端の鎖の続きを表す結合が必要です。繰り返し単位は 1 つだけ描きましょう。2 つ描くと点を失います。括弧と <i>n</i> は必須ではありませんが、付ける習慣にしましょう。結合は正しい原子につなげます。たとえば <span class=\"chem\">CH3</span> 基なら C につなげます。",
 
     // Addition polymers > not needed for IB > data-title attribute
     // Condensation polymers > not needed for IB > Additional HL > data-title attribute
-    "Comes later in the course": "",
+    "Comes later in the course": "あとで学ぶ内容",
 
     // Addition polymers > not needed for IB > p
-    "You do not need to know how the double bond breaks, step by step. The calculation called atom economy comes in Reactivity 2.1. Here you only need the idea that an addition polymer is the only product, so no atoms are wasted.": "",
+    "You do not need to know how the double bond breaks, step by step. The calculation called atom economy comes in Reactivity 2.1. Here you only need the idea that an addition polymer is the only product, so no atoms are wasted.": "二重結合がどのように切れるかを、段階を追って知る必要はありません。アトムエコノミー（原子効率）という計算は Reactivity 2.1 で学びます。ここでは、付加重合体が唯一の生成物なので原子がむだにならない、という考え方だけで十分です。",
 
     // Addition polymers > not needed for IB > p
-    "You do not need to remember the structures of monomers. A question gives you the monomer, or gives you the polymer so you can deduce the monomer.": "",
+    "You do not need to remember the structures of monomers. A question gives you the monomer, or gives you the polymer so you can deduce the monomer.": "単量体の構造を覚える必要はありません。問題では、単量体が与えられるか、高分子が与えられてそこから単量体を導きます。",
 
     // Addition polymers > data-title attribute
-    "Addition polymers: quick check": "",
+    "Addition polymers: quick check": "付加重合体：確認クイズ",
 
     // Condensation polymers > Additional HL > data-toc attribute
     // Condensation polymers > Additional HL > h2
-    "Condensation polymers": "",
+    "Condensation polymers": "縮合重合体",
 
     // Condensation polymers > Additional HL > p
-    "Imagine a line of people where each person must take off a glove before shaking hands with a neighbour. A chain forms, and a pile of gloves is left over. In a condensation polymer, the “glove” is a small molecule, usually water.": "",
+    "Imagine a line of people where each person must take off a glove before shaking hands with a neighbour. A chain forms, and a pile of gloves is left over. In a condensation polymer, the “glove” is a small molecule, usually water.": "人が 1 列に並んでいて、となりの人と握手する前に、手袋を片方はずさなければならないとします。鎖ができ、はずした手袋の山が残ります。縮合重合体では、この「手袋」にあたるのが小さな分子で、ふつうは水です。",
 
     // Condensation polymers > Additional HL > p
-    "A <dfn data-def=\"A polymer formed when functional groups on the monomers react together. A small molecule, usually water, is released each time a link forms.\">condensation polymer</dfn> forms when functional groups on the monomers react with each other. Each time two monomers join, a small molecule is released. A <dfn data-def=\"A group of atoms in a molecule that gives the molecule its typical reactions, such as –OH or –COOH.\">functional group</dfn> is a group of atoms that gives a molecule its typical reactions.": "",
+    "A <dfn data-def=\"A polymer formed when functional groups on the monomers react together. A small molecule, usually water, is released each time a link forms.\">condensation polymer</dfn> forms when functional groups on the monomers react with each other. Each time two monomers join, a small molecule is released. A <dfn data-def=\"A group of atoms in a molecule that gives the molecule its typical reactions, such as –OH or –COOH.\">functional group</dfn> is a group of atoms that gives a molecule its typical reactions.": "<dfn data-def=\"単量体の官能基どうしが反応してできる高分子です。結合が 1 つできるたびに、小さな分子（ふつうは水）が放出されます。\">縮合重合体 <span class=\"en-term\">(condensation polymer)</span></dfn>は、単量体の官能基どうしが反応してできます。2 個の単量体がつながるたびに、小さな分子が 1 個放出されます。<dfn data-def=\"分子に特有の反応をさせる原子のまとまりです。–OH や –COOH などがあります。\">官能基 <span class=\"en-term\">(functional group)</span></dfn>とは、分子に特有の反応をさせる原子のまとまりです。",
 
     // Condensation polymers > Additional HL > data-def attribute
-    "A polymer formed when functional groups on the monomers react together. A small molecule, usually water, is released each time a link forms.": "",
+    "A polymer formed when functional groups on the monomers react together. A small molecule, usually water, is released each time a link forms.": "単量体の官能基どうしが反応してできる高分子です。結合が 1 つできるたびに、小さな分子（ふつうは水）が放出されます。",
 
     // Condensation polymers > Additional HL > data-def attribute
-    "A group of atoms in a molecule that gives the molecule its typical reactions, such as –OH or –COOH.": "",
+    "A group of atoms in a molecule that gives the molecule its typical reactions, such as –OH or –COOH.": "分子に特有の反応をさせる原子のまとまりです。–OH や –COOH などがあります。",
 
     // Condensation polymers > Additional HL > p
-    "Each monomer needs <strong>two</strong> functional groups, so that it can join to a neighbour on both sides. You need two kinds of condensation polymer.": "",
+    "Each monomer needs <strong>two</strong> functional groups, so that it can join to a neighbour on both sides. You need two kinds of condensation polymer.": "単量体には、官能基が <strong>2 つ</strong>必要です。両側のとなりとつながるためです。縮合重合体は 2 種類を覚えましょう。",
 
     // Condensation polymers > table > Additional HL > caption
-    "The two kinds of condensation polymer you need": "",
+    "The two kinds of condensation polymer you need": "覚えておく 2 種類の縮合重合体",
 
     // Condensation polymers > table > Additional HL > th
-    "Polymer": "",
+    "Polymer": "高分子",
 
     // Condensation polymers > table > Additional HL > th
-    "Monomers": "",
+    "Monomers": "単量体",
 
     // Condensation polymers > table > Additional HL > th
-    "Groups that react": "",
+    "Groups that react": "反応する基",
 
     // Condensation polymers > table > Additional HL > th
     // widget string (assets/js/widgets-s2-4.js)
-    "Link formed": "",
+    "Link formed": "できる結合",
 
     // Condensation polymers > table > Additional HL > th
-    "Released": "",
+    "Released": "放出される分子",
 
     // Condensation polymers > table > Additional HL > th
-    "Polyester": "",
+    "Polyester": "ポリエステル (polyester)",
 
     // Condensation polymers > table > Additional HL > td
-    "a diol and a dicarboxylic acid": "",
+    "a diol and a dicarboxylic acid": "ジオールとジカルボン酸",
 
     // Condensation polymers > table > Additional HL > th
-    "Polyamide": "",
+    "Polyamide": "ポリアミド (polyamide)",
 
     // Condensation polymers > table > Additional HL > td
-    "a diamine and a dicarboxylic acid": "",
+    "a diamine and a dicarboxylic acid": "ジアミンとジカルボン酸",
 
     // Condensation polymers > Additional HL > p
-    "“Di” means two. A diol has two –OH groups. A dicarboxylic acid has two –COOH groups. A diamine has two –NH<sub>2</sub> groups.": "",
+    "“Di” means two. A diol has two –OH groups. A dicarboxylic acid has two –COOH groups. A diamine has two –NH<sub>2</sub> groups.": "「ジ (di)」は 2 つという意味です。ジオール (diol) には –OH 基が 2 つあります。ジカルボン酸 (dicarboxylic acid) には –COOH 基が 2 つあります。ジアミン (diamine) には –NH<sub>2</sub> 基が 2 つあります。",
 
     // Condensation polymers > Additional HL > p
-    "The water is made from an H atom of the –OH or –NH<sub>2</sub> group and the –OH part of the –COOH group. A new bond then joins the O or N atom to the C=O carbon.": "",
+    "The water is made from an H atom of the –OH or –NH<sub>2</sub> group and the –OH part of the –COOH group. A new bond then joins the O or N atom to the C=O carbon.": "水は、–OH 基または –NH<sub>2</sub> 基の H 原子と、–COOH 基の –OH の部分からできます。そして新しい結合が、O 原子または N 原子を C=O の炭素とつなぎます。",
 
     // Condensation polymers > widget > Additional HL > data-title attribute
-    "Condensation polymer builder": "",
+    "Condensation polymer builder": "縮合重合体をつくる",
 
     // Condensation polymers > widget > Additional HL > figcaption
-    "Choose a polymer type and step through. A box stands for the part of the monomer that does not change. Dashed outlines mark the atoms that become water. An underline marks the new link.": "",
+    "Choose a polymer type and step through. A box stands for the part of the monomer that does not change. Dashed outlines mark the atoms that become water. An underline marks the new link.": "高分子の種類を選んで、ステップを進めましょう。四角は、単量体の中で変化しない部分を表します。破線の囲みは、水になる原子です。下線は、新しくできた結合です。",
 
     // Condensation polymers > Additional HL > h3
-    "Method: repeating unit from two monomers": "",
+    "Method: repeating unit from two monomers": "解き方：2 種類の単量体から繰り返し単位",
 
     // Condensation polymers > Additional HL > li
-    "Draw the two monomers side by side, with a –COOH group of one next to an –OH or –NH<sub>2</sub> group of the other.": "",
+    "Draw the two monomers side by side, with a –COOH group of one next to an –OH or –NH<sub>2</sub> group of the other.": "2 つの単量体を横に並べて描きます。一方の –COOH 基が、もう一方の –OH 基または –NH<sub>2</sub> 基のとなりにくるようにします。",
 
     // Condensation polymers > Additional HL > li
-    "Remove the –OH from the –COOH group and one H from the other group. These atoms form <span class=\"chem\">H2O</span>.": "",
+    "Remove the –OH from the –COOH group and one H from the other group. These atoms form <span class=\"chem\">H2O</span>.": "–COOH 基から –OH を取り、もう一方の基から H を 1 個取ります。これらの原子が <span class=\"chem\">H2O</span> になります。",
 
     // Condensation polymers > Additional HL > li
-    "Join the C=O carbon to the O (polyester) or to the N (polyamide).": "",
+    "Join the C=O carbon to the O (polyester) or to the N (polyamide).": "C=O の炭素を、O（ポリエステル）または N（ポリアミド）とつなぎます。",
 
     // Condensation polymers > Additional HL > li
-    "At the two outer ends, remove an H from one end and an –OH from the other end. Draw continuation bonds there.": "",
+    "At the two outer ends, remove an H from one end and an –OH from the other end. Draw continuation bonds there.": "外側の両端では、一方の端から H を、もう一方の端から –OH を取ります。そこに鎖の続きを表す結合を描きます。",
 
     // Condensation polymers > worked example > Additional HL > h3
-    "Repeating unit of a polyester": "",
+    "Repeating unit of a polyester": "ポリエステルの繰り返し単位",
 
     // Condensation polymers > worked example > Additional HL > p
-    "A polyester is made from the two monomers shown. Draw its repeating unit and state the other product.": "",
+    "A polyester is made from the two monomers shown. Draw its repeating unit and state the other product.": "下の 2 つの単量体からポリエステルができます。繰り返し単位を描き、もう 1 つの生成物を述べましょう。",
 
     // Condensation polymers > worked example > Additional HL > data-title attribute
-    "Identify the groups that react": "",
+    "Identify the groups that react": "反応する基を特定する",
 
     // Condensation polymers > worked example > Additional HL > p
-    "An –OH group of the diol reacts with a –COOH group of the acid. This makes an ester link.": "",
+    "An –OH group of the diol reacts with a –COOH group of the acid. This makes an ester link.": "ジオールの –OH 基が、酸の –COOH 基と反応します。これでエステル結合 (ester link) ができます。",
 
     // Condensation polymers > worked example > Additional HL > maths line
-    "–OH + HOOC– → ester link + H<sub>2</sub>O": "",
+    "–OH + HOOC– → ester link + H<sub>2</sub>O": "–OH + HOOC– → エステル結合 + H<sub>2</sub>O",
 
     // Condensation polymers > worked example > Additional HL > data-title attribute
-    "Remove the atoms that form water": "",
+    "Remove the atoms that form water": "水になる原子を取る",
 
     // Condensation polymers > worked example > Additional HL > p
-    "The H comes from the diol. The –OH comes from the –COOH group of the acid.": "",
+    "The H comes from the diol. The –OH comes from the –COOH group of the acid.": "H はジオールからきます。–OH は酸の –COOH 基からきます。",
 
     // Condensation polymers > worked example > Additional HL > data-title attribute
-    "Join O to the C=O carbon": "",
+    "Join O to the C=O carbon": "O を C=O の炭素とつなぐ",
 
     // Condensation polymers > worked example > Additional HL > p
-    "The oxygen of the diol bonds to the carbon of the C=O group. This –O–C(=O)– group is the ester link.": "",
+    "The oxygen of the diol bonds to the carbon of the C=O group. This –O–C(=O)– group is the ester link.": "ジオールの酸素が、C=O 基の炭素と結合します。この –O–C(=O)– のまとまりがエステル結合です。",
 
     // Condensation polymers > worked example > Additional HL > data-title attribute
-    "Open both ends and draw the unit": "",
+    "Open both ends and draw the unit": "両端を開いて単位を描く",
 
     // Condensation polymers > worked example > Additional HL > p
-    "The other –OH group and the other –COOH group react in the same way with the next monomers. So the unit has a continuation bond at each end.": "",
+    "The other –OH group and the other –COOH group react in the same way with the next monomers. So the unit has a continuation bond at each end.": "もう一方の –OH 基と、もう一方の –COOH 基も、次の単量体と同じように反応します。だから、単位の両端には鎖の続きを表す結合があります。",
 
     // Condensation polymers > worked example > Additional HL > p
-    "The repeating unit is –O–(CH<sub>2</sub>)<sub>3</sub>–O–CO–(CH<sub>2</sub>)<sub>2</sub>–CO–. The other product is water.": "",
+    "The repeating unit is –O–(CH<sub>2</sub>)<sub>3</sub>–O–CO–(CH<sub>2</sub>)<sub>2</sub>–CO–. The other product is water.": "繰り返し単位は –O–(CH<sub>2</sub>)<sub>3</sub>–O–CO–(CH<sub>2</sub>)<sub>2</sub>–CO– です。もう 1 つの生成物は水です。",
 
     // Condensation polymers > worked example > Additional HL > h3
-    "Repeating unit of a polyamide": "",
+    "Repeating unit of a polyamide": "ポリアミドの繰り返し単位",
 
     // Condensation polymers > worked example > Additional HL > p
-    "A polyamide is made from the two monomers shown. Draw its repeating unit.": "",
+    "A polyamide is made from the two monomers shown. Draw its repeating unit.": "下の 2 つの単量体からポリアミドができます。繰り返し単位を描きましょう。",
 
     // Condensation polymers > worked example > Additional HL > p
-    "An –NH<sub>2</sub> group of the diamine reacts with a –COOH group of the acid. This makes an amide link.": "",
+    "An –NH<sub>2</sub> group of the diamine reacts with a –COOH group of the acid. This makes an amide link.": "ジアミンの –NH<sub>2</sub> 基が、酸の –COOH 基と反応します。これでアミド結合 (amide link) ができます。",
 
     // Condensation polymers > worked example > Additional HL > maths line
-    "–NH<sub>2</sub> + HOOC– → amide link + H<sub>2</sub>O": "",
+    "–NH<sub>2</sub> + HOOC– → amide link + H<sub>2</sub>O": "–NH<sub>2</sub> + HOOC– → アミド結合 + H<sub>2</sub>O",
 
     // Condensation polymers > worked example > Additional HL > p
-    "One H comes from the –NH<sub>2</sub> group, so the nitrogen keeps one H. The –OH comes from the –COOH group.": "",
+    "One H comes from the –NH<sub>2</sub> group, so the nitrogen keeps one H. The –OH comes from the –COOH group.": "H は –NH<sub>2</sub> 基から 1 個とれるので、窒素には H が 1 個残ります。–OH は –COOH 基からきます。",
 
     // Condensation polymers > worked example > Additional HL > data-title attribute
-    "Join N to the C=O carbon": "",
+    "Join N to the C=O carbon": "N を C=O の炭素とつなぐ",
 
     // Condensation polymers > worked example > Additional HL > p
     "The nitrogen bonds to the carbon of the C=O group. This –N(H)–C(=O)– group is the amide link.": "",
