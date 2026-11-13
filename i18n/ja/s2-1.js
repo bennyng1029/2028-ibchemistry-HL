@@ -1543,7 +1543,7 @@ S1.i18n.register('ja', 's2-1', {
     "Build": "組み立てる化合物",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "Choose the two ions, set how many of each, then press Check my formula.": "2 つのイオンを選び、それぞれの数を決めてから「化学式を確認」を押しましょう。",
+    "Choose the two ions, set how many of each, then press Check my formula.": "2 つのイオンを選び、それぞれの数を決めてから「答え合わせ」を押しましょう。",
 
     // widget string (assets/js/widgets-s2-1.js)
     "hidden": "非表示",

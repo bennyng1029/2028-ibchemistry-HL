@@ -1126,7 +1126,7 @@ S1.i18n.register('ja', 's3-2h', {
     "Proton NMR tutor": "プロトン NMR チューター",
 
     // Proton NMR: splitting patterns > widget > figcaption
-    "In “Show me”, equivalent hydrogen atoms share a letter and an outline. In “Predict first”, you predict the number of signals and the splitting before you see the answer. The spectra are sketches: each signal is drawn inside its booklet range.": "「見せて」では、等価な水素原子に同じ文字と同じ囲みが付きます。「先に予測する」では、答えを見る前に、シグナルの数と分裂を予測します。スペクトルは略図です。各シグナルはブックレットの範囲内に描いてあります。",
+    "In “Show me”, equivalent hydrogen atoms share a letter and an outline. In “Predict first”, you predict the number of signals and the splitting before you see the answer. The spectra are sketches: each signal is drawn inside its booklet range.": "「見本を見る」では、等価な水素原子に同じ文字と同じ囲みが付きます。「先に予測する」では、答えを見る前に、シグナルの数と分裂を予測します。スペクトルは略図です。各シグナルはブックレットの範囲内に描いてあります。",
 
     // Proton NMR: splitting patterns > worked example > data-kicker attribute
     "Worked example 1": "例題 1",

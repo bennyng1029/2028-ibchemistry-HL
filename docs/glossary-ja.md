@@ -52,6 +52,7 @@ Structure Lab（IB Chemistry, Structure 1・2・3、guide first assessment 2025�
 - 呼びかけは「〜しましょう」「〜してください」。命令形（「〜せよ」「〜しなさい」）は、指示用語の訳として示すときだけ使います（§3）。
 - 強調は `<strong>`。斜体は使いません（変数の `<i>n</i>`、`<i>V</i>` はそのまま）。
 - 感嘆符は多用しません。ほめ言葉は短く（「いいですね。」「よくできました。」）。
+- 表記をそろえる語：含む（×ふくむ）、間違い（×まちがい）、探す（×さがす）、硬い・硬さ（×かたい）、割る（×わる）、くらべる（×比べる）。英語を添える括弧は半角で前に半角スペース：「原線 (baseline)」。全角括弧は日本語の補足と、英語名の後ろのカタカナ（「ethene（エテン）」）に使います。
 
 ### 1.2 「you」の訳し方
 
@@ -68,6 +69,7 @@ Structure Lab（IB Chemistry, Structure 1・2・3、guide first assessment 2025�
 - 小数点はピリオド、3 桁区切りは原文どおり。指数表記は `6.02 × 10²³`。
 - 和文と半角英数字の間には半角スペースを入れます（「1 つ」「3 個」「IB 化学」）。化学式の直後の助詞との間も同じ（「H₂O は」）。ボタンなど短いラベルでは詰めてもかまいません。
 - 個数は「1 つ、2 つ」または「1 個」。漢数字は熟語だけ（「一重線」「二重結合」「第一イオン化エネルギー」「三角錐形」）。
+  ただし途中の計算の行（`.worked__math`）では、チェッカーが「英語にない数字」を認めないので、英語が "two O atoms" のように数を語で書いている行だけは「二つの O 原子」のように漢数字のままにします（2026-11 時点で 8 か所）。
 - 有効数字は「有効数字 3 桁」。"3 s.f." も「有効数字 3 桁」。"decimal places" は「小数第 2 位まで」。
 - 物理量の表は IB 式の「量 / 単位」（`体積 / cm³`）。日本の教科書式の `体積〔cm³〕` には直しません。
 
@@ -76,8 +78,14 @@ Structure Lab（IB Chemistry, Structure 1・2・3、guide first assessment 2025�
 - 化合物名は日本語の慣用名・IUPAC 日本語名（日本化学会 化合物命名法）で書きます：塩化ナトリウム、硫酸銅(II)、水酸化カルシウム、酸化鉄(III)。
 - 酸化数のローマ数字は半角の括弧と大文字：`鉄(III)`、`銅(II)`。
 - 元素名は §13 の表に従います。Na は「ナトリウム」、K は「カリウム」（英語の sodium, potassium と形が違うので、初出では元素記号を添える）。
-- 有機化合物は IUPAC 名のカタカナ表記：エタン酸（ethanoic acid）、エテン（ethene）、プロパン-2-オール。IB は体系名を使うので、**慣用名（酢酸、エチレン）に置き換えません**。
-  初出で「エタン酸（酢酸）」のように慣用名を添えるのはかまいません。位置番号とハイフンは半角。
+- **有機化合物の IUPAC 名（所有者の決定）**：生徒は試験で IUPAC 名を英語で書くので、次のように使い分けます。
+  - **有機のトピック（Structure 2.4 の単量体と高分子の名前、Structure 3.2、Structure 3.2 AHL）では、IUPAC 名は英語のまま**書きます：ethanol、propan-2-ol、2-methylbutane、poly(ethene)。
+    ページ・問題・ウィジェット・表のどこでも同じです。地の文では、ページ（問題なら問題文）の初出で 1 回だけカタカナを全角括弧で添えてかまいません：「ethene（エテン）」「poly(ethene)（ポリエテン）」。
+    英語名と和文の間には半角スペース（「propene からできる」）。英語名を訳語の後ろに回す形（「エテン (ethene)」）は、これらのトピックでは使いません。
+  - **そのほかのトピック**（1.1、1.4、1.5、2.2、2.2 AHL など、名前そのものを問わないところ）では IUPAC 名のカタカナ表記：エタン酸、エテン、プロパン-2-オール、メトキシメタン。初出で英語を半角括弧で添えます：「エタノール (ethanol)」。
+  - 化合物の**種類**の名前（アルカン、アルコール、エステル、ポリエステル、ポリアミド、アミノ酸）と官能基の名前（ヒドロキシ基）は、どのトピックでも日本語です。初出で英語を添えます。
+  - IB は体系名を使うので、**慣用名（酢酸、エチレン）に置き換えません**。位置番号とハイフンは半角。
+- **イオン化合物の名前を答えさせる場面**（Structure 2.1 の命名、Structure 3.1 の酸化数つきの名前）では、答えになる英語名を書き、日本語名を括弧で添えます：「copper(II) nitrate（硝酸銅(II)）」。それ以外の地の文は日本語名です。
 - イオンは「ナトリウムイオン Na⁺」「塩化物イオン Cl⁻」「硫酸イオン SO₄²⁻」。
 - 状態記号 (s) (l) (g) (aq) はそのまま。
 - 英語の人名がつく法則は日本の慣用に従います：アボガドロ、ボイル、シャルル、フント、パウリ、ルイス、ロンドン、ファンデルワールス。
@@ -113,7 +121,7 @@ Structure Lab（IB Chemistry, Structure 1・2・3、guide first assessment 2025�
 | 副準位 | sublevel (s, p, d, f) | 高校「化学」では発展扱い（s 軌道、p 軌道…） | 「副準位」 |
 | 酸化数 | oxidation state（+2、−1 と書く） | 酸化数 | 「酸化数」。符号を先に書く IB 式 |
 | 遷移元素 | 不完全な d 副準位をもつ元素（Zn は含めない） | 3〜12 族（化） | 「遷移元素」。必要なところで「IB では亜鉛を遷移元素に含めません」と注記 |
-| 有機の名前 | 体系名（ethanoic acid） | 慣用名が多い（酢酸） | 体系名 |
+| 有機の名前 | 体系名（ethanoic acid） | 慣用名が多い（酢酸） | 体系名。有機のトピックでは英語のまま書く（§1.4） |
 | レベル | SL / Additional HL (AHL) | なし | 「SL」「AHL」は訳さない。説明文では「HL 追加内容」 |
 | 貴ガス | noble gases | 貴ガス（旧：希ガス）（化） | 「貴ガス」 |
 
@@ -215,6 +223,16 @@ Structure Lab（IB Chemistry, Structure 1・2・3、guide first assessment 2025�
 | tools (Tool 1, 2, 3) | ツール 1：実験技術、ツール 2：テクノロジー、ツール 3：数学 | | IB |
 | inquiry process | 探究プロセス | | IB |
 | nature of science (NOS) | 科学の本質（NOS） | | IB |
+| error carried forward (ECF) / follow-through | 誤りの持ち越し | 必ず「誤りの持ち越し (error carried forward)」と英語を添える。英語が follow-through のときは (follow-through) | サ |
+| check (step label in a worked example, read-out) | 確認 | ボタンは「答え合わせ」。1 つのキーが両方に使われるページでは「確認」 | サ |
+| check my … (button) | 答え合わせ / 〜の答え合わせ | 「予測の答え合わせ」「分裂の答え合わせ」 | サ |
+| predict first (mode, button) | 先に予測する | 文としては「先に予測しましょう。」 | サ |
+| explore (mode) | 自由に見る | | サ |
+| show me (mode) | 見本を見る | | サ |
+| quiz me | クイズに挑戦 | | サ |
+| not yet | まだ正解ではありません | | サ |
+| Foundation: one idea at a time | 基礎：一度に 1 つの考え方 | 節の見出し。"Exam standard" は「試験レベル」、"Challenge" は「チャレンジ」 | サ |
+| … builder / explorer / trainer / lab / simulator (widget names) | 〜ビルダー / 〜を調べよう / 〜トレーニング / 〜ラボ / 〜シミュレーター | 「電子配置ビルダー」「混成を調べよう」「酸化数トレーニング」「極性ラボ」 | サ |
 
 ## 3. 指示用語（Command terms）
 
@@ -335,6 +353,11 @@ Structure Lab（IB Chemistry, Structure 1・2・3、guide first assessment 2025�
 | absorb / emit | 吸収する / 放出する | | 教 |
 | complementary colour | 補色 | ほしょく | 教 |
 | colour wheel | 色相環 | しきそうかん | 学 |
+| colour names (prose) | 赤色、橙色、黄色、緑色、青色、紫色 | orange は「橙色」（だいだいいろ）。ページの初出で「橙色（オレンジ色）」。violet は「紫色」。「赤い光」「青く見える」のような形容詞の形は使ってよい。混色は「黄橙色」「赤橙色」 | 教・**要確認** |
+| colour names (colour wheel and figure labels) | 赤、橙、黄、緑、青、紫 | 図のラベルは 1 字。ページと問題で同じ | サ |
+| surface area | 表面積 | | 教 |
+| a measure of | 尺度 | 「温度は平均運動エネルギーの尺度」 | サ |
+| prediction / predict | 予測 / 予測する | 「予想」としない（"expected" は「予想される」でよい） | サ |
 
 ## 5. Structure 1.1 物質の粒子性・状態・分離
 
@@ -399,12 +422,16 @@ Structure Lab（IB Chemistry, Structure 1・2・3、guide first assessment 2025�
 | retardation factor, *R*F | *R*F 値（移動率） | IB は "retardation factor"。日本語は「Rf 値」が普通 | 学 |
 | solvation | 溶媒和 | ようばいわ。水なら「水和」 | 学 |
 | soluble / insoluble | 溶ける（可溶）/ 溶けない（不溶） | | 教 |
-| solubility | 溶解度 | 性質として言うときは「溶けやすさ」 | 教 |
+| solubility | 溶けやすさ（数値で表した量は「溶解度」） | 性質として言うとき（"explain the solubility"、"solubility in water"）は必ず「溶けやすさ」。「溶解度」は、測定した量（g/100 g 水 など）を指すときだけ | 教 |
 | dissolve | 溶ける / 溶かす | | 教 |
 | impurity | 不純物 | | 教 |
 | crystal | 結晶 | | 教 |
 | saturated solution | 飽和溶液 | | 教 |
 | distilled water / deionized water | 蒸留水 / 脱イオン水（純水） | | 教 |
+| baseline (chromatography) | 原線 | げんせん | 教 |
+| spot | スポット | | 教 |
+| chromatogram | クロマトグラム | | 学 |
+| crystallize | 結晶化させる | | サ |
 
 ## 6. Structure 1.2 原子の構造・同位体・質量スペクトル
 
@@ -468,7 +495,7 @@ Structure Lab（IB Chemistry, Structure 1・2・3、guide first assessment 2025�
 | paired / unpaired electron | 対になった電子 / 不対電子 | ふついでんし | 教 |
 | orbital diagram (arrows in boxes) | 軌道図（箱と矢印の図） | | サ |
 | full / condensed electron configuration | 完全な電子配置 / 省略形の電子配置（[Ar] 4s² など） | | サ |
-| noble gas core | 貴ガスの電子配置（芯） | | サ |
+| noble gas core | 貴ガスの芯（[Ar] など） | 初出で「貴ガスの芯 (noble gas core)」。「アルゴンの芯」「芯 = [Ar]」のように使う。「貴ガスの電子配置（芯）」「貴ガス殻」とは書かない | サ |
 | valence electron | 価電子 | かでんし | 教 |
 | valence shell / outer shell | 最外殻 | さいがいかく | 教 |
 | inner electrons / core electrons | 内側の電子（内殻電子） | | 教 |
@@ -481,6 +508,7 @@ Structure Lab（IB Chemistry, Structure 1・2・3、guide first assessment 2025�
 | discontinuity | 不連続（傾向からのずれ） | | サ |
 | half-filled / filled sublevel | 半分満たされた / 完全に満たされた副準位 | | サ |
 | electron affinity | 電子親和力 | でんししんわりょく | 教 |
+| large jump (in successive ionization energies) | 大きなジャンプ | 初出で (large jump)。「跳ね上がり」としない | サ |
 
 ## 8. Structure 1.4 モル・Structure 1.5 理想気体
 
@@ -537,6 +565,9 @@ Structure Lab（IB Chemistry, Structure 1・2・3、guide first assessment 2025�
 | fixed mass (of gas) | 一定量（一定質量）の気体 | | 教 |
 | deviate (from ideal behaviour) | 理想気体からずれる | | 教 |
 | gas density | 気体の密度 | | 教 |
+| empirical formula mass | 組成式の式量 | 「組成式の質量」としない。「組成式 1 つ分の質量」は説明として使ってよい | サ |
+| percentage by mass | 質量百分率 | | 教 |
+| volume ratio | 体積の比 | | サ |
 
 ## 9. Structure 2.1〜2.4 結合と構造
 
@@ -590,7 +621,7 @@ Structure Lab（IB Chemistry, Structure 1・2・3、guide first assessment 2025�
 | linear | 直線形 | 180° | 教 |
 | trigonal planar | 平面三角形 | 120°。教科書は「三角形」「正三角形」とも | 教・学 |
 | bent / V-shaped | 折れ線形 | おれせんがた | 教 |
-| tetrahedral | 正四面体形 | 109.5°。置換基が同じでないときは「四面体形」 | 教 |
+| tetrahedral | 四面体形（正四面体形） | **電子領域の配置と、一般の形の名前は「四面体形」**（NH₃・H₂O の電子領域の配置、CHCl₃、CH₃OH の炭素、キラル炭素、sp³ の表）。**「正四面体形」は、4 つの結合がすべて同じ規則正しい場合だけ**（CH₄、CCl₄、NH₄⁺、PCl₄⁺、ダイヤモンド、ケイ素、SiO₂）。立体そのものは「正四面体（の頂点）」。109.5° | 教 |
 | trigonal pyramidal | 三角錐形 | さんかくすいがた。約 107° | 教 |
 | trigonal bipyramidal | 三方両錐形 | さんぽうりょうすいがた（AHL） | 学 |
 | seesaw | シーソー形 | AHL | 学 |
@@ -604,7 +635,7 @@ Structure Lab（IB Chemistry, Structure 1・2・3、guide first assessment 2025�
 | polar covalent bond | 極性共有結合（極性のある共有結合） | | 学 |
 | partial charge (δ+, δ−) | 部分電荷 | | 学 |
 | bond dipole | 結合の双極子 | そうきょくし | 学 |
-| dipole moment / net dipole | 双極子モーメント / 分子全体の双極子（正味の双極子） | | 学 |
+| dipole moment / net dipole | 双極子モーメント / 分子全体の双極子 | net dipole は必ず「分子全体の双極子」（イオンなら「イオン全体の双極子」、分子とイオンをまとめて言うときだけ「全体の双極子」）。「全体としての双極子」「正味の双極子」は使わない | 学 |
 | molecular polarity | 分子の極性 | | 教 |
 | covalent network structure | 共有結合の結晶（共有結合結晶） | IB は "giant covalent / covalent network" | 化 |
 | allotrope | 同素体 | どうそたい | 教 |
@@ -656,6 +687,24 @@ Structure Lab（IB Chemistry, Structure 1・2・3、guide first assessment 2025�
 | biodegradable | 生分解性 | | 教 |
 | natural / synthetic polymer | 天然高分子 / 合成高分子 | | 教 |
 | atom economy | アトムエコノミー（原子効率） | Reactivity 2.1 | 学 |
+| hydronium ion | オキソニウムイオン | H₃O⁺。教科書の用語。「ヒドロニウムイオン」としない | 教 |
+| bond order | 結合次数 | | 学 |
+| resonance hybrid | 共鳴混成体 | | 学 |
+| bidentate (ligand) | 二座配位子 | | 学 |
+| axial / equatorial (position) | アキシアル位 / エクアトリアル位 | 三方両錐形 | 学 |
+| permanent dipole | 永久双極子 | | 学 |
+| ion–dipole forces | イオン–双極子相互作用 | | 学 |
+| like dissolves like | 似たものどうしはよく溶け合う | | サ |
+| outer electrons | 最外殻の電子 / 外側の電子 | 主要族元素で数を数えるときは「最外殻の電子」。内側の電子と対比するとき、遷移元素で 3d と 4s をまとめて言うときは「外側の電子」。"outermost electron" は「いちばん外側の電子」 | サ |
+| hard / hardness | 硬い / 硬さ | 漢字で書く | 教 |
+| Born–Haber cycle | ボルン・ハーバーサイクル | 範囲外の注で使う | 学 |
+| electrolysis | 電気分解 | | 教 |
+| backbone (of a polymer chain) | 主鎖 | 「鎖の主鎖」としない | 教 |
+| side group | 側基 | 高校では「側鎖」が普通 | 学・**要確認** |
+| continuation bond | 鎖の続きを表す結合 | 定訳がない。初出で (continuation bond) | サ・**要確認** |
+| ester link / amide link | エステル結合 / アミド結合 | 高分子の主鎖の –COO–、–CONH–。官能基として言うときは「エステル基」「アミド基」 | 教 |
+| diol / dicarboxylic acid / diamine | ジオール / ジカルボン酸 / ジアミン | | 学 |
+| biological macromolecule | 生体の巨大分子 | | サ |
 
 ## 10. Structure 3.1 周期表
 
@@ -694,6 +743,10 @@ Structure Lab（IB Chemistry, Structure 1・2・3、guide first assessment 2025�
 | coloured compound | 有色の化合物 | | 教 |
 | splitting of d-orbitals | d 軌道の分裂 | AHL | 学 |
 | promote (an electron) | （電子を）高い準位へ移す（励起する） | | サ |
+| isoelectronic | 等電子的 | 電子の数（電子配置）が同じ | 学 |
+| ionic equation | イオン反応式 | | 教 |
+| colour observed / colour absorbed | 見える色 / 吸収される色 | 「観察される色」としない | サ |
+| opposite (on the colour wheel) | 向かい / 真向かい | 「橙色の向かいは青色」。「反対側」としない | サ |
 
 ## 11. Structure 3.2 有機化合物・官能基・異性体
 
@@ -744,7 +797,7 @@ Structure Lab（IB Chemistry, Structure 1・2・3、guide first assessment 2025�
 | primary / secondary / tertiary | 第一級 / 第二級 / 第三級 | だいいっきゅう | 教・IB |
 | isomer | 異性体 | いせいたい | 教 |
 | structural isomer | 構造異性体 | | 教・IB |
-| chain (branched) isomer | 分岐鎖異性体（炭素骨格の異性体） | | IB |
+| chain isomer | 骨格異性体 | 炭素骨格（炭素鎖のつながり方）が違う構造異性体。日本の参考書の用語。「連鎖異性体」とも言う。「分岐鎖異性体」は枝のない異性体どうしでは不自然なので使わない | 学・**要確認** |
 | position isomer | 位置異性体 | | IB |
 | functional group isomer | 官能基異性体 | | IB |
 | connectivity | 原子のつながり方 | | サ |
@@ -759,6 +812,10 @@ Structure Lab（IB Chemistry, Structure 1・2・3、guide first assessment 2025�
 | plane-polarized light | 平面偏光 | へんこう | 学 |
 | racemic mixture | ラセミ混合物（ラセミ体） | | IB・学 |
 | spatial arrangement | 空間的な配置 | | IB |
+| IUPAC (International Union of Pure and Applied Chemistry) | IUPAC（国際純正・応用化学連合） | | 学 |
+| ending (of a name) / suffix | 語尾 | -ane、-ol など | サ |
+| chloroalkane / bromoalkane / iodoalkane / fluoroalkane | クロロアルカン / ブロモアルカン / ヨードアルカン / フルオロアルカン | | 学 |
+| carbon skeleton | 炭素骨格 | | 教 |
 
 ## 12. 分光法（AHL）
 
@@ -787,12 +844,21 @@ Structure Lab（IB Chemistry, Structure 1・2・3、guide first assessment 2025�
 | ¹H NMR spectrum | ¹H NMR スペクトル（プロトン NMR スペクトル） | | IB |
 | chemical shift | 化学シフト | 単位 ppm | 学 |
 | chemical environment | 化学的環境 | | IB |
-| signal | シグナル | 「信号」としない | IB |
+| signal | シグナル | 「信号」としない。数えるときは「本」（シグナルが 3 本、1 本のシグナル）。「つ」「個」は使わない | IB |
 | integration trace / relative area | 積分曲線 / 相対的な面積（面積比） | | 学 |
 | splitting pattern | 分裂パターン | | IB・学 |
 | singlet / doublet / triplet / quartet | 一重線 / 二重線 / 三重線 / 四重線 | いちじゅうせん | 学 |
 | *n* + 1 rule | *n* + 1 則 | | 学 |
 | TMS (tetramethylsilane) | TMS（テトラメチルシラン） | 基準物質 | 学 |
+| equivalent (hydrogen atoms) | 等価（な水素原子） | 同じ化学的環境にある H | 学 |
+| polarimeter | 旋光計 | せんこうけい | 学 |
+| optically active / optically inactive | 光学活性 / 光学不活性 | | 学 |
+| mass lost | 失われた質量 | 質量スペクトル。表の見出し | サ |
+| piece (lost) | 断片 | 英語が "piece" のところ。"fragment" は「フラグメント」 | サ |
+| possible neutral fragment lost | 中性フラグメントの候補 | データブックレットの表の見出し | サ |
+| intensity (strong / medium-weak / broad) | 強度（強い / 中〜弱 / 幅広い） | 赤外の表。"strong, very broad" は「強い、非常に幅広い」 | サ |
+| index of hydrogen deficiency (IHD) | 水素不足指数 | 日本の教科書・参考書は「不飽和度」。現在の訳は直訳 | 学・**要確認** |
+| greenhouse effect / greenhouse gas | 温室効果 / 温室効果ガス | | 教 |
 
 ## 13. 実験器具・操作
 
@@ -917,7 +983,13 @@ Structure Lab（IB Chemistry, Structure 1・2・3、guide first assessment 2025�
 | expanded octet | 拡張オクテット | 定訳がない。「オクテットの拡張」「オクテット則を超える」とも |
 | bonding triangle | 結合の三角形 | 日本の教科書にない図。訳は直訳 |
 | halogeno group | ハロゲノ基 | 日本語 DP 資料は「ハロゲン基」。IUPAC 置換基名に合わせて「ハロゲノ基」とした |
+| index of hydrogen deficiency | 水素不足指数 | 日本では「不飽和度」が普通。直訳のままにしてある |
+| side group | 側基 | 高校では「側鎖」。高分子化学では「側基」も使う |
+| continuation bond | 鎖の続きを表す結合 | 定訳がない |
+| chain isomer | 骨格異性体 | 参考書の用語（「連鎖異性体」とも）。IB 日本語資料の訳は確認できていない |
+| colour names | 橙色 / 橙 | 読みにくければ「オレンジ色」に戻す。所有者の判断が必要 |
 
 ## 16. 改訂の記録
 
 - 2026-11-13 初版。`i18n/ja/ui.js`、`home.js`、`practice.js` はこの用語集に合わせて確認済み。
+- 2026-11-13 全 13 トピックの訳をそろえた（編集者による統一）。決めたこと：net dipole＝分子全体の双極子、solubility＝溶けやすさ、色の名前（橙色 / 橙）、NMR のシグナルは「本」、四面体形と正四面体形の使い分け、chain isomer＝骨格異性体、誤りの持ち越し (error carried forward)、大きなジャンプ、貴ガスの芯、組成式の式量、ボタンとウィジェット名、有機のトピックでは IUPAC 名を英語のまま書く規則（§1.4）。用語を 58 行追加。

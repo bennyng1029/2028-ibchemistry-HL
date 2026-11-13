@@ -2559,7 +2559,7 @@ S1.i18n.register('ja', 's3-2', {
     "(not found yet)": "（まだ見つかっていません）",
 
     // widget string (assets/js/widgets-s3-2.js)
-    "None yet. Build one above and press \"Check this isomer\".": "まだありません。上で組み立てて、「この異性体を確認」を押しましょう。",
+    "None yet. Build one above and press \"Check this isomer\".": "まだありません。上で組み立てて、「この異性体の答え合わせ」を押しましょう。",
 
     // widget string (assets/js/widgets-s3-2.js)
     "Show all {n} isomers": "{n} 種類の異性体をすべて表示",

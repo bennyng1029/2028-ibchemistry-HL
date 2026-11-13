@@ -974,7 +974,7 @@ S1.i18n.register('ja', 's3-1.q', {
         // EN: The total must equal the charge on the ion, −2.
         "合計は、イオンの電荷 −2 に等しくなければいけません。",
         // EN: There are two chromium atoms. Divide the total for chromium by 2.
-        "クロム原子は 2 個あります。クロム全体の値を 2 でわりましょう。",
+        "クロム原子は 2 個あります。クロム全体の値を 2 で割りましょう。",
       ],
       // EN: <p>Let the oxidation state of chromium be <i>x</i>. Oxygen is −2.</p><div class="worked__math">2<i>x</i> + 7(−2) = −2</div><div class="worked__math">2<i>x</i> = −2 + 14 = +12</div><div class="worked__math"><i>x</i> = <b>+6</b></div><p>The ion can be named dichromate(VI).</p>
       solution: "<p>クロムの酸化数を <i>x</i> とします。酸素は −2 です。</p><div class=\"worked__math\">2<i>x</i> + 7(−2) = −2</div><div class=\"worked__math\">2<i>x</i> = −2 + 14 = +12</div><div class=\"worked__math\"><i>x</i> = <b>+6</b></div><p>このイオンは、二クロム(VI)酸イオン (dichromate(VI)) とも呼べます。</p>",
@@ -1068,7 +1068,7 @@ S1.i18n.register('ja', 's3-1.q', {
         // EN: For an ion, the total equals the charge on the ion. For an element, the oxidation state is 0.
         "イオンでは、合計がイオンの電荷に等しくなります。単体では、酸化数は 0 です。",
         // EN: In <span class="chem">N2H4</span> there are two nitrogen atoms: divide by 2.
-        "<span class=\"chem\">N2H4</span> には窒素原子が 2 個あります。2 でわりましょう。",
+        "<span class=\"chem\">N2H4</span> には窒素原子が 2 個あります。2 で割りましょう。",
       ],
       // EN: <div class="worked__math"><span class="chem">NH4+</span>: <i>x</i> + 4(+1) = +1, so <i>x</i> = −3</div><div class="worked__math"><span class="chem">N2H4</span>: 2<i>x</i> + 4(+1) = 0, so <i>x</i> = −2</div><div class="worked__math"><span class="chem">N2</span>: element, so <i>x</i> = 0</div><div class="worked__math"><span class="chem">NO2-</span>: <i>x</i> + 2(−2) = −1, so <i>x</i> = +3</div><div class="worked__math"><span class="chem">NO3-</span>: <i>x</i> + 3(−2) = −1, so <i>x</i> = +5</div><p>Nitrogen shows oxidation states from −3 to +5.</p>
       solution: "<div class=\"worked__math\"><span class=\"chem\">NH4+</span>：<i>x</i> + 4(+1) = +1 だから <i>x</i> = −3</div><div class=\"worked__math\"><span class=\"chem\">N2H4</span>：2<i>x</i> + 4(+1) = 0 だから <i>x</i> = −2</div><div class=\"worked__math\"><span class=\"chem\">N2</span>：単体だから <i>x</i> = 0</div><div class=\"worked__math\"><span class=\"chem\">NO2-</span>：<i>x</i> + 2(−2) = −1 だから <i>x</i> = +3</div><div class=\"worked__math\"><span class=\"chem\">NO3-</span>：<i>x</i> + 3(−2) = −1 だから <i>x</i> = +5</div><p>窒素の酸化数は、−3 から +5 までの値をとります。</p>",
@@ -1712,7 +1712,7 @@ S1.i18n.register('ja', 's3-1.q', {
         // EN: <i>f</i> = <i>c</i> / <i>λ</i>. Does the lowest frequency go with the longest or the shortest wavelength?
         "<i>f</i> = <i>c</i> / <i>λ</i>。いちばん小さい振動数になるのは、いちばん長い波長ですか、いちばん短い波長ですか。",
         // EN: Convert nm to m before you divide.
-        "わり算の前に、nm を m に直しましょう。",
+        "割り算の前に、nm を m に直しましょう。",
       ],
       // EN: <p>Violet is opposite yellow, so the complex absorbs violet light: 400 nm to 424 nm.</p><p>Frequency and wavelength are inversely proportional (<i>f</i> = <i>c</i> / <i>λ</i>). The <strong>lowest</strong> frequency goes with the <strong>longest</strong> wavelength, 424 nm.</p><div class="worked__math"><i>λ</i> = 424 nm = 4.24 × 10<sup>−7</sup> m</div><div class="worked__math"><i>f</i> = (3.00 × 10<sup>8</sup> m s<sup>−1</sup>) ÷ (4.24 × 10<sup>−7</sup> m)</div><div class="worked__math">= <b>7.08 × 10<sup>14</sup> Hz</b> &nbsp; (3 s.f.)</div><p>(Using 400 nm gives 7.50 × 10<sup>14</sup> Hz. That is the highest frequency in the range.)</p>
       solution: "<p>黄色の向かいは紫色なので、錯体は紫色の光を吸収します。400 nm から 424 nm までです。</p><p>振動数と波長は反比例します（<i>f</i> = <i>c</i> / <i>λ</i>）。<strong>いちばん小さい</strong>振動数になるのは、<strong>いちばん長い</strong>波長の 424 nm です。</p><div class=\"worked__math\"><i>λ</i> = 424 nm = 4.24 × 10<sup>−7</sup> m</div><div class=\"worked__math\"><i>f</i> = (3.00 × 10<sup>8</sup> m s<sup>−1</sup>) ÷ (4.24 × 10<sup>−7</sup> m)</div><div class=\"worked__math\">= <b>7.08 × 10<sup>14</sup> Hz</b> &nbsp; （有効数字 3 桁）</div><p>（400 nm を使うと 7.50 × 10<sup>14</sup> Hz になります。これは、この範囲でいちばん大きい振動数です。）</p>",

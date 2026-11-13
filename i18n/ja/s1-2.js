@@ -912,7 +912,7 @@ S1.i18n.register('ja', 's1-2', {
     "Build {symbol}": "{symbol} を作りましょう",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Set the protons, neutrons and electrons, then press Check my atom.": "陽子・中性子・電子の数を合わせてから、「答えを確認」を押してください。",
+    "Set the protons, neutrons and electrons, then press Check my atom.": "陽子・中性子・電子の数を合わせてから、「答え合わせ」を押してください。",
 
     // widget string (assets/js/widgets-s1-2.js)
     "Protons: the atomic number <i>Z</i> (bottom number) is the number of protons.": "陽子：原子番号 <i>Z</i>（下の数）が陽子の数です。",

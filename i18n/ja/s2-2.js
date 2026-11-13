@@ -806,7 +806,7 @@ S1.i18n.register('ja', 's2-2', {
     "Shapes in three dimensions": "立体で見る分子の形",
 
     // Shapes of molecules: the VSEPR model > widget > figcaption
-    "Explore: choose the number of domains and lone pairs, then drag the model to turn it. The dashed lobes are lone pairs. Then switch to “Predict first” and test yourself. Bond lengths are not to scale.": "自由に試す：領域の数と非共有電子対の数を選び、モデルをドラッグして回してみましょう。破線のふくらみが非共有電子対です。次に「先に予測する」に切り替えて、自分で試しましょう。結合距離の縮尺は正確ではありません。",
+    "Explore: choose the number of domains and lone pairs, then drag the model to turn it. The dashed lobes are lone pairs. Then switch to “Predict first” and test yourself. Bond lengths are not to scale.": "自由に見る：領域の数と非共有電子対の数を選び、モデルをドラッグして回してみましょう。破線のふくらみが非共有電子対です。次に「先に予測する」に切り替えて、自分で試しましょう。結合距離の縮尺は正確ではありません。",
 
     // Shapes of molecules: the VSEPR model > h3
     "Lone pairs change the bond angle": "非共有電子対は結合角を変える",
