@@ -180,7 +180,7 @@ S1.i18n.register('ja', 's1-4.q', {
         // EN: The scale is set so that one atom of a particular carbon isotope has a relative mass of exactly 12.
         "この尺度では、炭素のある同位体の原子 1 個の相対質量を、ちょうど 12 と決めています。",
         // EN: If the whole atom is 12 units, what fraction of the atom is 1 unit?
-        "原子全体が 12 単位なら、1 単位は原子の何分のいくつですか。",
+        "原子全体が 12 単位なら、1 単位は原子全体の何分の 1 にあたりますか。",
       ],
       // EN: <p>Masses of atoms are compared on a scale relative to carbon-12. One atom of <span class="chem">^12C</span> is given a mass of exactly 12, so the unit of the scale is <span class="frac"><span>1</span><span>12</span></span> of the mass of a carbon-12 atom.</p>
       solution: "<p>原子の質量は、炭素 12 を基準にした尺度でくらべます。<span class=\"chem\">^12C</span> の原子 1 個の質量をちょうど 12 と決めるので、尺度の 1 単位は炭素 12 の原子の質量の <span class=\"frac\"><span>1</span><span>12</span></span> です。</p>",
@@ -718,7 +718,7 @@ S1.i18n.register('ja', 's1-4.q', {
         // EN: M3: empirical formula C₂H₅O.
         "M3：組成式 C₂H₅O。",
         // EN: M4: 90.14 ÷ 45.07 = 2, so molecular formula C₄H₁₀O₂. (Allow error carried forward from your empirical formula.)
-        "M4：90.14 ÷ 45.07 = 2 なので、分子式は C₄H₁₀O₂。（自分の組成式のまちがいを引き継いだ答え (error carried forward) も認める。）",
+        "M4：90.14 ÷ 45.07 = 2 なので、分子式は C₄H₁₀O₂。（自分の組成式からの「誤りの持ち越し」(error carried forward) も認める。）",
       ],
     },
 
