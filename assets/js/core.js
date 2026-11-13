@@ -416,7 +416,7 @@
       n.setAttribute('data-i18n-src', '');
     });
     Array.prototype.forEach.call(scope.querySelectorAll('[title],[aria-label],[placeholder],[alt]'), function (n) {
-      if (attrMap.has(n) || n.closest('[data-i18n="off"]')) return;
+      if (attrMap.has(n) || n.closest('[data-i18n="off"]') || n.matches('[data-s1-toc],[data-s1-header],[data-s1-footer]')) return;   // the shell labels these itself
       var o = {}, any = false;
       ATTRS.forEach(function (a) { var v = n.getAttribute(a); if (v && /[A-Za-z]{2}/.test(v)) { o[a] = v; any = true; } });
       if (any) { attrMap.set(n, o); n.setAttribute('data-i18n-attr', ''); }
@@ -1349,6 +1349,18 @@
   }
 
   /* ---------- Enhance: run every component initialiser on a subtree ---------- */
+  /**
+   * S1.chem.elementLabel('Sg' | 106) → HTML: the element name in the current language (from the 'common' or
+   * page overlay, keyed by the English name) with its symbol. In another language the symbol comes first, so
+   * the label still reads correctly if a font has no glyph for a rare character.
+   */
+  if (S1.chem) S1.chem.elementLabel = function (key) {
+    var e = S1.chem.element(key);
+    if (!e) return '';
+    var name = tp(e.name);
+    return lang === 'en' || name === e.name ? esc(e.name) + ' (' + e.symbol + ')' : e.symbol + ' <span class="el-name">' + name + '</span>';
+  };
+
   var enhancers = [];
   /** Register an extra initialiser: S1.onEnhance(function (root) { ... }). Used by quiz.js. */
   S1.onEnhance = function (fn) { enhancers.push(fn); };

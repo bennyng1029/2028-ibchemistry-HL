@@ -1,7 +1,9 @@
 /* ==========================================================================
    Question bank: Structure 2.3 — The metallic model
-   22 original questions. q001–q017 are SL (2.3.1, 2.3.2); q018–q022 are
-   Additional HL (2.3.3, delocalized d-electrons in transition elements).
+   27 original questions. q001–q017 and q023–q027 are SL (2.3.1, 2.3.2);
+   q018–q022 are Additional HL (2.3.3, delocalized d-electrons in transition
+   elements). q023–q027 were added by the audit (thermal conductivity, uses,
+   metal v. compound, liquid metal, charge v. radius).
    Schema: docs/AUTHORING.md.
    Data: melting points (°C) from section 8 and ionic radii (pm) from
    section 10 of the IB chemistry data booklet (first assessment 2025).
@@ -119,7 +121,7 @@
       id: 's2-3-q006', topic: 's2-3', level: 'sl', tier: 'foundation', type: 'numeric', marks: 1,
       syllabus: 'Structure 2.3.2',
       stem: '<p>In the simple model of metallic bonding, each magnesium atom gives its two outer electrons to become a <span class="chem">Mg^2+</span> ion. Calculate the amount, in mol, of delocalized electrons in 0.25 mol of magnesium.</p>',
-      answer: 0.5, tolerance: '1%', sigfigs: 2, unit: 'mol',
+      answer: 0.5, tolerance: '1%', answerDisplay: '0.50', unit: 'mol',
       hints: ['How many delocalized electrons does one magnesium atom give?', 'Amount of electrons = 2 × amount of magnesium atoms.'],
       solution: '<p>Each Mg atom gives 2 delocalized electrons.</p><div class="worked__math"><i>n</i>(electrons) = 2 × 0.25 mol = 0.50 mol</div>'
     },
@@ -153,15 +155,15 @@
       answer: '<p>Electrostatic attraction between a lattice of cations (<span class="chem">Mg^2+</span> ions) and delocalized electrons.</p>',
       markscheme: [
         'electrostatic attraction',
-        'between a lattice of cations / positive ions / Mg<sup>2+</sup> ions AND delocalized electrons (do not accept “sea of electrons” alone; do not accept “nuclei” for cations)'
+        'between a lattice of cations / positive ions / Mg<sup>2+</sup> ions AND delocalized electrons'
       ],
       hints: ['Name the kind of attraction. The same two words are used for ionic and covalent bonds.', 'Which two kinds of particle attract each other in a metal?'],
-      solution: '<p>Magnesium is a metal, so the bonding is metallic. The markscheme wording is: the electrostatic attraction between a lattice of cations and delocalized electrons. One mark is for “electrostatic attraction”. The other is for naming both particles.</p>'
+      solution: '<p>Magnesium is a metal, so the bonding is metallic. The markscheme wording is: the electrostatic attraction between a lattice of cations and delocalized electrons. One mark is for “electrostatic attraction”. The other is for naming both particles. Write “cations” or “positive ions”, not “atoms” or “nuclei”, and use the word “delocalized”.</p>'
     },
     {
       id: 's2-3-q009', topic: 's2-3', level: 'sl', tier: 'exam', type: 'mcq', marks: 1,
       syllabus: 'Structure 2.3.1',
-      stem: '<p>The table shows some properties of four substances. Which substance is a metal?</p>' +
+      stem: '<p>The table shows some properties of four substances, A to D. Which substance is a metal?</p>' +
         table('Properties of substances A to D', ['Substance', 'Melting point / °C', 'Conducts when solid', 'Conducts when liquid'], [
           ['A', '801', 'no', 'yes'], ['B', '1085', 'yes', 'yes'], ['C', '1710', 'no', 'no'], ['D', '−95', 'no', 'no']]),
       options: ['A', 'B', 'C', 'D'],
@@ -172,7 +174,7 @@
         3: 'D has a low melting point and does not conduct. That fits a molecular substance.'
       },
       hints: ['Which particles carry the charge in a metal? Are they free to move in the solid?'],
-      solution: '<p>A metal has delocalized electrons that are free to move in the solid and in the liquid. Only B conducts in both states. (A behaves like an ionic compound, C like a covalent network and D like a molecular substance.)</p>'
+      solution: '<p>A metal has delocalized electrons that are free to move in the solid and in the liquid. Only B conducts in both states. (A behaves like an ionic compound, C like a covalent network and D like a molecular substance.)</p><p>The data are real: A is sodium chloride, B is copper, C is silicon dioxide and D is hexane. Only the melting point of copper is in the data booklet.</p>'
     },
     {
       id: 's2-3-q010', topic: 's2-3', level: 'sl', tier: 'exam', type: 'short', marks: 3,
@@ -310,6 +312,85 @@
       solution: '<p>Lowest: the ions with a 1+ charge (P and R) give weaker bonding than the 2+ ions. Of these, R has the larger radius (167 pm), so R has the weakest attraction and the lowest melting point.</p><p>Highest: of the 2+ ions (Q and S), S has the smaller radius (100 pm), so S has the strongest attraction and the highest melting point.</p><p>These are the data for K, Ba, Cs and Ca. Their melting points are 63.38 °C, 725.0 °C, 28.44 °C and 842.0 °C.</p>'
     },
 
+    {
+      id: 's2-3-q023', topic: 's2-3', level: 'sl', tier: 'exam', type: 'short', marks: 2,
+      syllabus: 'Structure 2.3.1',
+      stem: '<p>Explain why metals are good conductors of heat.</p>',
+      answer: '<p>Metals contain delocalized electrons that are free to move through the structure. They carry kinetic energy from the hot part to the cooler part. The cations are also closely packed, so a vibrating cation passes energy to its neighbours.</p>',
+      markscheme: [
+        'delocalized electrons are free to move (through the structure)',
+        'the delocalized electrons transfer / carry (kinetic) energy through the metal / closely packed cations pass on vibrations (kinetic energy) to their neighbours'
+      ],
+      hints: ['Which particles in a metal can travel from the hot part to the cold part?', 'Heat is passed on as kinetic energy. Say which particles carry it.'],
+      solution: '<p>Heating gives the particles more kinetic energy. The delocalized electrons are free to move through the structure, so they carry this kinetic energy to the cooler parts quickly. The closely packed cations help: a cation that vibrates strongly passes energy to its neighbours. The cations do not travel, and no bonds are broken.</p>'
+    },
+    {
+      id: 's2-3-q024', topic: 's2-3', level: 'sl', tier: 'foundation', type: 'mcq', marks: 1,
+      syllabus: 'Structure 2.3.1',
+      stem: '<p>Aluminium is rolled into thin sheets of foil. Which property of aluminium makes this possible, and what is the explanation?</p>',
+      options: [
+        'It is malleable, because layers of cations can slide over each other without breaking the metallic bond.',
+        'It is malleable, because its delocalized electrons are free to move and carry charge.',
+        'It conducts heat, because its delocalized electrons transfer kinetic energy.',
+        'It is brittle, because ions with the same charge repel when a layer slides.'
+      ],
+      answer: 0,
+      misconception: {
+        1: 'The property is right, but the explanation is for electrical conductivity. Malleability is about layers of cations sliding without the bond breaking.',
+        2: 'This is true of aluminium, but it is not what lets you roll it into a thin sheet. A sheet needs a metal that changes shape without breaking.',
+        3: 'This describes an ionic crystal. A brittle material would break into pieces when rolled.'
+      },
+      hints: ['Rolling changes the shape of the metal without breaking it. What is the name of that property?', 'Check that the explanation fits the property, not a different one.'],
+      solution: '<p>Rolling a metal into a sheet changes its shape without breaking it, so the property is malleability. The layers of cations slide over each other. The metallic bond is non-directional, so the cations are still attracted to the delocalized electrons in their new positions.</p>'
+    },
+    {
+      id: 's2-3-q025', topic: 's2-3', level: 'sl', tier: 'exam', type: 'multi', marks: 1,
+      syllabus: 'Structure 2.3.1',
+      stem: '<p>Magnesium is a metal. Magnesium oxide, MgO, is an ionic compound. Which <strong>physical</strong> properties are different for solid magnesium and solid magnesium oxide? Select <strong>all</strong> that apply.</p>',
+      options: [
+        'Electrical conductivity of the solid',
+        'Malleability',
+        'Whether the substance contains positive ions',
+        'Whether the substance is a solid at room temperature'
+      ],
+      answer: [0, 1],
+      misconception: {
+        2: 'Both contain <span class="chem">Mg^2+</span> ions. Magnesium has them in a lattice with delocalized electrons. Magnesium oxide has them in a lattice with <span class="chem">O^2-</span> ions. Also, this is not a physical property that you can observe.',
+        3: 'Both are solids at room temperature. Both have strong electrostatic attractions through the whole lattice.'
+      },
+      hints: ['Think about what each solid contains: which charged particles, and can they move?', 'What happens when you hit each solid with a hammer?'],
+      solution: '<p>Solid magnesium conducts electricity, because its delocalized electrons are free to move. Solid magnesium oxide does not, because its ions are held in fixed positions. Magnesium is malleable: its layers of cations slide without the bond breaking. Magnesium oxide is brittle: when a layer slides, ions with the same charge repel. Both are solids at room temperature and both contain <span class="chem">Mg^2+</span> ions.</p>'
+    },
+    {
+      id: 's2-3-q026', topic: 's2-3', level: 'sl', tier: 'challenge', type: 'mcq', marks: 1,
+      syllabus: 'Structure 2.3.1',
+      stem: '<p>Liquid sodium and liquid sodium chloride both conduct electricity. Which row shows the particles that carry the charge in each liquid?</p>' +
+        table('Particles that carry the charge', ['Option', 'Liquid sodium', 'Liquid sodium chloride'], [
+          ['A', 'ions', 'ions'], ['B', 'delocalized electrons', 'ions'], ['C', 'ions', 'delocalized electrons'], ['D', 'delocalized electrons', 'delocalized electrons']]),
+      options: ['A', 'B', 'C', 'D'],
+      answer: 1,
+      misconception: {
+        0: 'This is right for sodium chloride. But sodium is a metal. Its delocalized electrons are still there in the liquid, and they carry the charge.',
+        2: 'This is the wrong way round. The metal has the delocalized electrons. The ionic compound has ions that become free to move when it melts.',
+        3: 'Sodium chloride is ionic. It has no delocalized electrons. When it melts, its ions are free to move and carry the charge.'
+      },
+      hints: ['Which of the two substances is a metal? What carries the charge in a metal?', 'Why does solid sodium chloride not conduct, when liquid sodium chloride does?'],
+      solution: '<p>Sodium is a metal. Its delocalized electrons are free to move in the solid and in the liquid, and they carry the charge. Sodium chloride is ionic. It has no delocalized electrons. When it melts, the <span class="chem">Na+</span> and <span class="chem">Cl-</span> ions become free to move and carry the charge.</p>'
+    },
+    {
+      id: 's2-3-q027', topic: 's2-3', level: 'sl', tier: 'challenge', type: 'short', marks: 3,
+      syllabus: 'Structure 2.3.2',
+      stem: '<p>Lithium melts at 180.5 °C. Magnesium melts at 650.0 °C. The ionic radius of <span class="chem">Li+</span> is 76 pm and the ionic radius of <span class="chem">Mg^2+</span> is 72 pm.</p><p>A student says: “Magnesium has the higher melting point mainly because its ion is smaller.” Use the data to discuss this statement, and explain the difference in melting point.</p>',
+      answer: '<p>The two ionic radii are almost the same (72 pm and 76 pm), so the radius cannot be the main reason. The main difference is the charge: <span class="chem">Mg^2+</span> has a greater charge than <span class="chem">Li+</span>, and magnesium has two delocalized electrons per atom while lithium has one. So the ' + ATTR + ' is stronger in magnesium, and more energy is needed to overcome it.</p>',
+      markscheme: [
+        'the ionic radii are almost the same / differ by only 4 pm, so radius is not the main reason',
+        'Mg<sup>2+</sup> has a greater charge than Li<sup>+</sup> / magnesium has two delocalized electrons per atom and lithium has one',
+        'stronger electrostatic attraction between the cations and the delocalized electrons in magnesium / stronger metallic bonding in magnesium, so more energy is needed to overcome it'
+      ],
+      hints: ['Compare the two radii. Is the difference large or small?', 'What else is different about the two ions? Use the group numbers.'],
+      solution: '<p><strong>Radius:</strong> 72 pm and 76 pm are almost the same. The smaller radius of <span class="chem">Mg^2+</span> helps a little, but it is not the main reason.</p><p><strong>Charge:</strong> lithium is in group 1 and forms <span class="chem">Li+</span>, with one delocalized electron per atom. Magnesium is in group 2 and forms <span class="chem">Mg^2+</span>, with two.</p><p><strong>Link:</strong> the greater charge and the extra delocalized electron make the ' + ATTR + ' stronger in magnesium. More energy is needed to overcome it, so the melting point is higher.</p>'
+    },
+
     /* =====================================================================
        Additional HL — 2.3.3
        ===================================================================== */
@@ -385,7 +466,7 @@
       stem: '<p>From sodium to aluminium the melting point rises at every step. From scandium to copper the melting points are all high, but they do not follow a simple trend. Which is the best reason for this difference?</p>',
       options: [
         'Transition elements have no delocalized electrons, so the metallic model does not apply to them.',
-        'From Na to Al each step adds a delocalized electron and makes the ion much smaller. From Sc to Cu the atoms are similar in size and all have d-electrons and s-electrons that can be delocalized.',
+        'From Na to Al each step adds one delocalized electron per atom and makes the ion much smaller. From Sc to Cu every element has d-electrons and s-electrons that can be delocalized, and no single factor changes steadily.',
         'From Sc to Cu the atoms become heavier, and heavier atoms always melt at lower temperatures.',
         'Transition elements form molecules, so their melting points depend on intermolecular forces.'
       ],
@@ -396,7 +477,7 @@
         3: 'Transition elements are metals with metallic bonding. They do not form molecules and have no intermolecular forces.'
       },
       hints: ['What changes at each step from Na to Mg to Al? Does the same thing change steadily from Sc to Cu?'],
-      solution: '<p>From Na to Al, the ion charge and the number of delocalized electrons per atom go from 1 to 2 to 3, and the ionic radius falls from 102 pm to 54 pm. All these changes strengthen the bonding, so the trend is clear. Across the d-block the atoms are similar in size, and every element has d-electrons and s-electrons that can be delocalized. No single factor changes steadily, so the trend is less evident.</p>'
+      solution: '<p>From Na to Al, the ion charge and the number of delocalized electrons per atom go from 1 to 2 to 3, and the ionic radius falls from 102 pm to 54 pm. All these changes strengthen the bonding, so the trend is clear. Across the d-block every element has d-electrons and s-electrons that can be delocalized, but the number of delocalized electrons does not rise by one at each step. The size of the atoms also changes less from one element to the next. No single factor changes steadily, so the trend is less evident.</p>'
     }
   ]);
 })();

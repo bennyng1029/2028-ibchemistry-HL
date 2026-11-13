@@ -373,7 +373,7 @@
         options: [t('It rises'), t('It falls'), t('It stays about the same')], answer: 0,
         caption: t('Period 3 metals'),
         explain: t('The melting point rises from Na to Al. Going across, the charge on the cation rises from 1+ to 3+, each atom gives more delocalized electrons (1, 2, then 3) and the ionic radius falls. The electrostatic attraction between the cations and the delocalized electrons gets stronger, so more energy is needed to overcome it.') +
-          ' ' + t('Notice that the step from Mg to Al is small. This simple model predicts the direction of the trend. It does not predict the size of each step.')
+          ' ' + t('Notice that the step from Mg to Al is small. This simple model gives the direction of the trend. It does not give the size of each step.')
       };
       if (key === 'g1') return {
         prompt: t('Look at the ions in the table. Predict: how does the melting point change down group 1, from lithium to caesium?'),
@@ -435,15 +435,15 @@
       fb.innerHTML = '<span class="feedback__label">' + (right ? t('Your prediction was right') : t('Not what the data show')) + '</span>' + inf.explain;
       var hi = rows[0], lo = rows[0];
       rows.forEach(function (r) { if (Number(r[mpIdx]) > Number(hi[mpIdx])) hi = r; if (Number(r[mpIdx]) < Number(lo[mpIdx])) lo = r; });
-      setHigh(hi[0] + ' ' + hi[mpIdx] + ' °C'); setLow(lo[0] + ' ' + lo[mpIdx] + ' °C');
+      setHigh(t('{metal} {value} °C', { metal: hi[0], value: hi[mpIdx] })); setLow(t('{metal} {value} °C', { metal: lo[0], value: lo[mpIdx] }));
       chartBox.hidden = false;
       if (S1.chart) {
         chart = S1.chart.plot(chartBox, {
           label: t('Bar chart of the melting points in the table above'),
           height: 240,
           categories: rows.map(function (r) { return r[0]; }),
-          x: { label: 'Metal' },
-          y: { label: 'Melting point / °C', min: 0 },
+          x: { label: t('Metal') },
+          y: { label: t('Melting point / °C'), min: 0 },
           series: [{ type: 'bar', data: rows.map(function (r, i) { return rows.length <= 5 ? [i, Number(r[mpIdx]), r[mpIdx]] : [i, Number(r[mpIdx])]; }) }]
         });
       }
@@ -569,7 +569,7 @@
       if (!checked) { fb.className = 'feedback'; fb.innerHTML = ''; setCount('?'); }
       else {
         var need = nRight(), all = good === need && bad === 0;
-        setCount(good + ' / ' + need);
+        setCount(t('{chosen} / {total}', { chosen: good, total: need }));
         fb.className = 'feedback feedback--' + (all ? 'right' : good > 0 ? 'partial' : 'wrong');
         var msg = all ? t('You chose every marking point and nothing else. Read your answer below: this is how to write it in the exam.')
           : (bad === 1 ? t('One of your sentences should not be there. Read the note under it.') + ' '

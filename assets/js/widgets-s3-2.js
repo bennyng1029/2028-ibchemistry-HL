@@ -500,7 +500,7 @@
         m.nb[last].forEach(function (x) { if (path.indexOf(x.j) < 0) { ext = true; path.push(x.j); walk(path); path.pop(); } });
         if (!ext) {
           var score = path.length * 10;
-          [path[0], last].forEach(function (e) { if (m.atoms[e].el === 'O' && m.nb[e][0] && m.nb[e][0].o === 2 && path.length > 2) score -= 1; if (m.atoms[e].el !== 'C') score -= 0; });
+          [path[0], last].forEach(function (e) { if (m.atoms[e].el !== 'C' && path.length > 2) score -= 2; if (m.atoms[e].el === 'O' && m.nb[e][0] && m.nb[e][0].o === 2 && path.length > 2) score -= 1; });
           if (m.atoms[path[0]].el !== 'C' && m.atoms[last].el === 'C') score -= 0.5;       // put the hetero end on the right
           if (score > bestScore) { bestScore = score; best = path.slice(); }
         }
@@ -872,12 +872,12 @@
 
   /** Boiling points in °C of the straight-chain members (group at C1), by number of carbon atoms. Source: see the file header. */
   var SERIES = [
-    { key: 'alkane', general: 'CnH2n+2', first: 1, bp: [-162, -89, -42, 0, 36, 69, 98, 126], mp: [-182, -183, -188, -138, -130, -95, -91, -57], member: function (n) { return 'C' + (n > 1 ? n : '') + 'H' + (2 * n + 2); } },
-    { key: 'alkene', general: 'CnH2n', first: 2, bp: [-104, -48, -6, 30, 63], member: function (n) { return 'C' + n + 'H' + 2 * n; } },
-    { key: 'alcohol', general: 'CnH2n+1OH', first: 1, bp: [65, 78, 97, 118, 138, 157], member: function (n) { return 'C' + (n > 1 ? n : '') + 'H' + (2 * n + 1) + 'OH'; } },
-    { key: 'aldehyde', general: 'CnH2n+1CHO', first: 1, bp: [-19, 20, 48, 75, 103, 131], member: function (n) { return n === 1 ? 'HCHO' : 'C' + (n > 2 ? n - 1 : '') + 'H' + (2 * n - 1) + 'CHO'; } },
-    { key: 'carboxylic acid', general: 'CnH2n+1COOH', first: 1, bp: [101, 118, 141, 164, 185, 206], member: function (n) { return n === 1 ? 'HCOOH' : 'C' + (n > 2 ? n - 1 : '') + 'H' + (2 * n - 1) + 'COOH'; } },
-    { key: 'halogenoalkane', general: 'CnH2n+1Cl', first: 1, bp: [-24, 12, 47, 78, 108, 135], member: function (n) { return 'C' + (n > 1 ? n : '') + 'H' + (2 * n + 1) + 'Cl'; } }
+    { key: 'alkane', general: 'C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>', first: 1, bp: [-162, -89, -42, 0, 36, 69, 98, 126], mp: [-182, -183, -188, -138, -130, -95, -91, -57], member: function (n) { return 'C' + (n > 1 ? n : '') + 'H' + (2 * n + 2); } },
+    { key: 'alkene', general: 'C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>', first: 2, bp: [-104, -48, -6, 30, 63], member: function (n) { return 'C' + n + 'H' + 2 * n; } },
+    { key: 'alcohol', general: 'C<sub><i>n</i></sub>H<sub>2<i>n</i>+1</sub>OH', first: 1, bp: [65, 78, 97, 118, 138, 157], member: function (n) { return 'C' + (n > 1 ? n : '') + 'H' + (2 * n + 1) + 'OH'; } },
+    { key: 'aldehyde', general: 'C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O', first: 1, bp: [-19, 20, 48, 75, 103, 131], member: function (n) { return n === 1 ? 'HCHO' : 'C' + (n > 2 ? n - 1 : '') + 'H' + (2 * n - 1) + 'CHO'; } },
+    { key: 'carboxylic acid', general: 'C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O<sub>2</sub>', first: 1, bp: [101, 118, 141, 164, 185, 206], member: function (n) { return n === 1 ? 'HCOOH' : 'C' + (n > 2 ? n - 1 : '') + 'H' + (2 * n - 1) + 'COOH'; } },
+    { key: 'halogenoalkane', general: 'C<sub><i>n</i></sub>H<sub>2<i>n</i>+1</sub>Cl', first: 1, bp: [-24, 12, 47, 78, 108, 135], member: function (n) { return 'C' + (n > 1 ? n : '') + 'H' + (2 * n + 1) + 'Cl'; } }
   ];
 
   var core = S1._s32 = {
@@ -1341,7 +1341,7 @@
         x: { label: t('Number of carbon atoms in the molecule'), min: 0.5, max: 8.5, ticks: [1, 2, 3, 4, 5, 6, 7, 8] },
         y: { label: mp ? t('Melting point / °C') : t('Boiling point / °C'), min: lo, max: hi, step: 50 }, series: series };
       if (chart) chart.update(spec); else chart = S1.chart.plot(host, spec);
-      setGen(fx(A.general.replace(/n\+?(\d?)/g, function (all2) { return all2; })).replace(/n/g, '<i>n</i>'));
+      setGen('<span class="s32-f" data-i18n="off">' + A.general + '</span>');
       setMembers(data.map(function (d) { return 'C' + d[0] + ': ' + String(d[1]).replace('-', '−') + ' °C'; }).join(', '));
       var steps = []; for (var k = 1; k < nShow; k++) steps.push(vals[k] - vals[k - 1]);
       setStep(steps.map(function (s) { return (s >= 0 ? '+' : '−') + Math.abs(s); }).join(', ') + ' °C');

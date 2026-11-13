@@ -17,7 +17,7 @@
 .s22-seg[hidden], .s22-ask[hidden], .s22-predict[hidden], .s22-view[hidden], .control[hidden] { display: none; }
 .seg__btn:disabled { color: var(--ink-3); cursor: not-allowed; text-decoration: line-through; }
 .s22-figure { margin: 1.5rem 0; border: 1px solid var(--line-strong); background: var(--surface); max-width: 46rem; }
-.s22-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr)); gap: 0.5rem 0.75rem; padding: 0.9rem 1rem 0.4rem; align-items: end; }
+.s22-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr)); gap: 0.5rem 0.75rem; padding: 0.9rem 1rem 0.4rem; align-items: end; }
 .s22-cell p { margin: 0.2rem 0 0.5rem; font-size: 0.92rem; text-align: center; }
 .s22-cell svg { display: block; margin: 0 auto; max-width: 100%; height: auto; }
 .s22-figure figcaption { padding: 0.65rem 1rem 0.8rem; border-top: 1px solid var(--line); font-size: 0.9rem; color: var(--ink-2); }
@@ -114,7 +114,7 @@
         <p>The two shared electrons sit between the two nuclei. Each nucleus is positive. The shared electrons are negative. Both nuclei are attracted to the same pair of electrons, and this holds the atoms together.</p>
 
         <figure class="s22-figure">
-          <svg class="s22-svg" viewBox="0 0 360 130" role="img" aria-label="Two hydrogen nuclei, each marked plus, with a shared pair of electrons between them. Arrows show each nucleus attracted towards the shared pair.">
+          <svg class="s22-svg" viewBox="0 -14 360 144" role="img" aria-label="Two hydrogen nuclei, each marked plus, with a shared pair of electrons between them. Arrows show each nucleus attracted towards the shared pair.">
             <circle cx="100" cy="65" r="42" fill="none" stroke="var(--line-strong)" stroke-width="1.5" stroke-dasharray="4 4"/>
             <circle cx="260" cy="65" r="42" fill="none" stroke="var(--line-strong)" stroke-width="1.5" stroke-dasharray="4 4"/>
             <ellipse cx="180" cy="65" rx="36" ry="22" fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.5"/>
@@ -127,7 +127,8 @@
             <line x1="242" y1="65" x2="222" y2="65" stroke="var(--accent-ink)" stroke-width="2.5"/><path d="M216 65 L226 59 L226 71 Z" fill="var(--accent-ink)"/>
             <text x="100" y="122" text-anchor="middle" class="s22-svg-note">nucleus</text>
             <text x="260" y="122" text-anchor="middle" class="s22-svg-note">nucleus</text>
-            <text x="180" y="24" text-anchor="middle" class="s22-svg-note">shared pair of electrons</text>
+            <text x="180" y="6" text-anchor="middle" class="s22-svg-note">shared pair of electrons</text>
+            <line x1="180" y1="12" x2="180" y2="40" stroke="var(--ink-3)" stroke-width="1"/>
           </svg>
           <figcaption>A model of the bond in a hydrogen molecule, H<sub>2</sub>. Both nuclei are attracted to the shared pair. The drawing is not to scale.</figcaption>
         </figure>
@@ -1291,11 +1292,11 @@
         <h3>The retardation factor, R<sub>F</sub></h3>
         <p>How far a spot moves depends on how far the solvent was allowed to run. So chemists use a ratio instead of a distance.</p>
         <div class="eq">
-          <div class="eq__formula"><i>R</i><sub>F</sub> = <span class="frac"><span><i>d</i><sub>spot</sub></span><span><i>d</i><sub>solvent</sub></span></span></div>
+          <div class="eq__formula"><i>R</i><sub>F</sub> = <span class="frac"><span><i>d</i><sub>spot</sub></span><span><i>d</i><sub>front</sub></span></span></div>
           <dl class="eq__legend">
             <div><dt>R<sub>F</sub></dt><dd>retardation factor (a ratio, so it has no unit)</dd></div>
             <div><dt>d<sub>spot</sub></dt><dd>distance moved by the spot: from the baseline to the centre of the spot <span class="unit">cm</span></dd></div>
-            <div><dt>d<sub>solvent</sub></dt><dd>distance moved by the solvent front: from the baseline to the solvent front <span class="unit">cm</span></dd></div>
+            <div><dt>d<sub>front</sub></dt><dd>distance moved by the solvent front: from the baseline to the solvent front <span class="unit">cm</span></dd></div>
           </dl>
         </div>
         <ul>

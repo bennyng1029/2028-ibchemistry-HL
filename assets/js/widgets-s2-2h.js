@@ -76,10 +76,11 @@
      Everything below is derived from that: formal charge, domains, hybridization, σ and π counts. */
   var VALENCE = { H: 1, C: 4, N: 5, O: 6, F: 7, P: 5, S: 6, Cl: 7, Br: 7, I: 7, Xe: 8 };
   var GROUP = { H: 1, C: 14, N: 15, O: 16, F: 17, P: 15, S: 16, Cl: 17, Br: 17, I: 17, Xe: 18 };
+  function lpCount(a) { return Array.isArray(a.lone) ? a.lone.length : (a.lone || 0); }
   function bondSum(s, i) { var n = 0; s.bonds.forEach(function (b) { if (b.a === i || b.b === i) n += (b.order || 1); }); return n; }
   function neighbours(s, i) { var n = 0; s.bonds.forEach(function (b) { if (b.a === i || b.b === i) n++; }); return n; }
   function fcParts(s, i) {
-    var a = s.atoms[i], V = VALENCE[a.el], N = 2 * (a.lone || 0), B = 2 * bondSum(s, i);
+    var a = s.atoms[i], V = VALENCE[a.el], N = 2 * lpCount(a), B = 2 * bondSum(s, i);
     return { V: V, N: N, B: B, fc: V - N - B / 2 };
   }
   function withCharges(s, only) {
@@ -105,7 +106,7 @@
   }
   /** Linear three-atom species: symbols [a, b, c], orders [o1, o2], lone pairs [l1, l2, l3]. */
   function lin3(sym, orders, lone, charge) {
-    return { atoms: [{ el: sym[0], x: -1.3, y: 0, lone: lone[0] }, { el: sym[1], x: 0, y: 0, lone: lone[1] }, { el: sym[2], x: 1.3, y: 0, lone: lone[2] }],
+    return { atoms: [{ el: sym[0], x: -1.3, y: 0, lone: lone[0] === 3 ? [180, 105, 255] : lone[0] }, { el: sym[1], x: 0, y: 0, lone: lone[1] }, { el: sym[2], x: 1.3, y: 0, lone: lone[2] }],
       bonds: [{ a: 0, b: 1, order: orders[0] }, { a: 1, b: 2, order: orders[1] }], bracket: !!charge, charge: charge };
   }
   /** Sulfate-type ion: central atom, four oxygens (left, right, bottom, top); doubles = indexes with a double bond. */
@@ -316,7 +317,7 @@
         drawDeloc(draw, cur.forms[0], cur.deloc, t('Delocalized picture of the {name}: all the {bonds} are the same', { name: cur.name, bonds: cur.bonds }), cur.ring);
         setStep(t('Delocalized picture'));
         setReal(t('All {bonds}: about {r} pm', { bonds: cur.bonds, r: cur.real }));
-        note.show('ok', t('The real particle is none of the separate structures. All the {bonds} are equal, at about {r} pm. That is between the single bond ({s} pm) and the double bond ({d} pm). {pi} This spreading out is delocalization. (The dashed lines are not a Lewis formula: no lone pairs are shown.)',
+        note.show('ok', t('The real particle is none of the separate structures. All {bonds} are equal, at about {r} pm. That is between the single bond ({s} pm) and the double bond ({d} pm). {pi} This spreading out is delocalization. (The dashed lines are not a Lewis formula: no lone pairs are shown.)',
           { bonds: cur.bonds, r: cur.real, s: cur.single[1], d: cur.dbl[1], pi: cur.pi }));
       }
       setPred(cur.single[0] + ' ' + cur.single[1] + ' pm, ' + cur.dbl[0] + ' ' + cur.dbl[1] + ' pm');
@@ -468,19 +469,19 @@
       ask.innerHTML = '';
       ask.appendChild(el('p', { class: 's22h-ask__count', html: '<strong class="chem">' + f + '</strong>: ' + cur.count }));
       if (mode === 'predict' && !answered) {
-        ask.appendChild(el('p', { class: 's22h-ask__q', html: t('{b} bonding domains and {l} lone pairs. Predict the molecular geometry.', { b: cur.d - cur.lp, l: cur.lp }) }));
+        ask.appendChild(el('p', { class: 's22h-ask__q', html: t('Bonding domains: {b}. Lone pairs: {l}. Predict the molecular geometry.', { b: cur.d - cur.lp, l: cur.lp }) }));
         var row = el('div', { class: 'btn-row' });
         SHAPE_KEYS.forEach(function (k) {
           row.appendChild(el('button', { class: 'btn btn--small', type: 'button', text: shapeName(k), onclick: function () {
             answered = true;
             fb = k === key ? ['ok', t('Correct. {f} is {shape}.', { f: f, shape: shapeName(key) })]
-              : ['bad', t('Not quite. You chose {yours}. With {b} bonding domains and {l} lone pairs out of {d} domains, {f} is {shape}. Turn the model to see why.', { yours: shapeName(k), b: cur.d - cur.lp, l: cur.lp, d: cur.d, f: f, shape: shapeName(key) })];
+              : ['bad', t('Not quite. You chose {yours}. There are {d} domains (bonding: {b}, lone pairs: {l}), so {f} is {shape}. Turn the model to see why.', { yours: shapeName(k), b: cur.d - cur.lp, l: cur.lp, d: cur.d, f: f, shape: shapeName(key) })];
             update();
           } }));
         });
         ask.appendChild(row);
         box.hidden = true; note.hide();
-        setDom(t('{d} ({b} bonding + {l} lone pairs)', { d: cur.d, b: cur.d - cur.lp, l: cur.lp }));
+        setDom(t('{d} (bonding: {b}, lone pairs: {l})', { d: cur.d, b: cur.d - cur.lp, l: cur.lp }));
         setEdg('?'); setMg('?'); setAng('?'); setPol('?');
         return;
       }
@@ -490,7 +491,7 @@
       else spec.label = t('Ball-and-stick model of {f}: {shape}', { f: uni(cur.id), shape: shapeName(key) });
       spec.height = 290;
       if (view) view.setSpec(spec); else view = M.viewer3d(box, spec);
-      setDom(t('{d} ({b} bonding + {l} lone pairs)', { d: cur.d, b: cur.d - cur.lp, l: cur.lp }));
+      setDom(t('{d} (bonding: {b}, lone pairs: {l})', { d: cur.d, b: cur.d - cur.lp, l: cur.lp }));
       setEdg(cur.d === 5 ? t('trigonal bipyramidal') : t('octahedral'));
       setMg(shapeName(key));
       setAng(cur.angle);
@@ -571,7 +572,7 @@
     }
     function workingHtml(i) {
       var p = fcParts(cur.s, i), a = cur.s.atoms[i];
-      return '<p>' + t('{atom}: group {g}, so V = {V}. It has {lp} lone pairs, so N = {N}. The bonds around it hold {B} electrons (2 for each line), so B = {B}.', { atom: atomName(i), g: GROUP[a.el], V: p.V, lp: a.lone || 0, N: p.N, B: p.B }) + '</p>' +
+      return '<p>' + t('{atom}: group {g}, so V = {V}. Lone pairs on it: {lp}, so N = {N}. The bonds around it hold {B} electrons (2 for each line), so B = {B}.', { atom: atomName(i), g: GROUP[a.el], V: p.V, lp: lpCount(a), N: p.N, B: p.B }) + '</p>' +
         '<div class="worked__math">FC = ' + p.V + ' ' + MINUS + ' ' + p.N + ' ' + MINUS + ' ½(' + p.B + ') = <b>' + signed(p.fc) + '</b></div>';
     }
     function done() {
@@ -598,7 +599,7 @@
       if (!wrong.length) { solved[pick] = true; redraw(); note.show('ok', t('Correct. The formal charge on {atom} is {fc}.', { atom: atomName(pick), fc: signed(p.fc) })); reveal(false); done(); return; }
       var a = cur.s.atoms[pick], hint;
       if (wrong[0] === 'V') hint = t('V is the number of valence electrons in the free atom. {el} is in group {g}.', { el: a.el, g: GROUP[a.el] });
-      else if (wrong[0] === 'N') hint = vals.N === (a.lone || 0) ? t('N counts electrons, not pairs. Each lone pair is 2 electrons.') : t('N counts only the dots drawn on this atom: its lone pair electrons.');
+      else if (wrong[0] === 'N') hint = vals.N === lpCount(a) ? t('N counts electrons, not pairs. Each lone pair is 2 electrons.') : t('N counts only the dots drawn on this atom: its lone pair electrons.');
       else if (wrong[0] === 'B') hint = vals.B === p.B / 2 ? t('B counts electrons, not bonds. Each line is 2 electrons, so a double bond is 4.') : t('B counts every electron in the bonds touching this atom: 2 for each line.');
       else hint = vals.FC === -p.fc ? t('Check the sign. Start from V, then subtract.') : t('V, N and B are right. Now calculate V − N − ½B. Halve B before you subtract it.');
       note.show('bad', t('Not yet.') + ' ' + hint);
@@ -802,7 +803,7 @@
     // one button per different kind of atom: the first of each (element, domains, lone pairs) combination
     function kinds() {
       var seen = {}, out = [];
-      s.atoms.forEach(function (a, i) { var k = a.el + neighbours(s, i) + '-' + (a.lone || 0) + '-' + bondSum(s, i); if (!seen[k]) { seen[k] = true; out.push(i); } });
+      s.atoms.forEach(function (a, i) { var k = a.el + neighbours(s, i) + '-' + lpCount(a) + '-' + bondSum(s, i); if (!seen[k]) { seen[k] = true; out.push(i); } });
       return out;
     }
     function box(svg, x, y, n, label) {
@@ -834,7 +835,7 @@
       var x0 = 440 - dom * 16;
       for (i = 0; i < dom; i++) box(svg, x0 + i * 32, yH, i < lp ? 2 : 1);
       text(svg, x0 - 7, yH + 20, hyb, 'end', true);
-      text(svg, 440, yH + 48, lp ? t('{d} hybrid orbitals: {l} hold lone pairs, {b} form σ bonds', { d: dom, l: lp, b: dom - lp }) : t('{d} hybrid orbitals: each forms one σ bond', { d: dom }), 'middle');
+      text(svg, 440, yH + 48, lp ? t('{d} hybrid orbitals. Holding lone pairs: {l}. Forming σ bonds: {b}.', { d: dom, l: lp, b: dom - lp }) : t('{d} hybrid orbitals: each forms one σ bond', { d: dom }), 'middle');
       var np = 3 - nMix, xp = 440 - np * 16;
       for (i = 0; i < np; i++) box(svg, xp + i * 32, yP, 1);
       if (np) { text(svg, xp - 7, yP + 20, '2p', 'end'); text(svg, 440, yP - 9, np === 1 ? t('1 unmixed p orbital: forms the π bond') : t('2 unmixed p orbitals: form two π bonds'), 'middle'); }
@@ -847,11 +848,11 @@
         diag.innerHTML = ''; setDom(MINUS); setHyb(MINUS); setGeo(MINUS); setBonds(t('1 σ'));
         return;
       }
-      var nb = neighbours(s, i), lp = a.lone || 0, dom = nb + lp, piN = bondSum(s, i) - nb;
+      var nb = neighbours(s, i), lp = lpCount(a), dom = nb + lp, piN = bondSum(s, i) - nb;
       var hyb = dom === 4 ? 'sp³' : dom === 3 ? 'sp²' : 'sp', geo = dom === 4 ? t('tetrahedral (109.5°)') : dom === 3 ? t('trigonal planar (120°)') : t('linear (180°)');
-      chain.innerHTML = t('{atom}: {nb} bonded atoms + {lp} lone pairs = <strong>{dom} electron domains</strong> → <strong>{hyb}</strong> → domains arranged {geo}.', { atom: a.el, nb: nb, lp: lp, dom: dom, hyb: hyb, geo: geo }) +
+      chain.innerHTML = t('{atom}: bonded atoms {nb} + lone pairs {lp} = <strong>{dom} electron domains</strong> → <strong>{hyb}</strong> → electron domain geometry: {geo}.', { atom: a.el, nb: nb, lp: lp, dom: dom, hyb: hyb, geo: geo }) +
         (piN ? ' ' + t('A double or triple bond counts as one domain.') : '');
-      setDom(t('{dom} ({nb} bonded atoms + {lp} lone pairs)', { dom: dom, nb: nb, lp: lp }));
+      setDom(t('{dom} (bonded atoms: {nb}, lone pairs: {lp})', { dom: dom, nb: nb, lp: lp }));
       setHyb(hyb); setGeo(geo);
       setBonds(t('{sg} σ and {pi} π', { sg: nb, pi: piN }));
       diagram(a, dom, lp, piN, hyb);

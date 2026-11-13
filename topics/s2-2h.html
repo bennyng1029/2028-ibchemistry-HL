@@ -59,7 +59,8 @@
 .s22h-view { max-width: 30rem; margin: 0.5rem auto 0; }
 .s22h-view[hidden] { display: none; }
 .s22h-chain { max-width: 44rem; margin: 0.5rem auto; }
-.s22h-diag { max-width: 600px; margin: 0 auto; }
+.s22h-diag { max-width: 600px; margin: 0 auto; overflow-x: auto; }
+.s22h-diag svg { min-width: 30rem; }
 </style>
 </head>
 <body data-page="s2-2h">
@@ -155,7 +156,7 @@
           <ol class="worked__steps">
             <li data-title="Count the valence electrons">
               <p class="worked__why">A Lewis formula must show every valence electron. A negative charge adds one electron.</p>
-              <div class="worked__math">N: 5;  O: 2 × 6 = 12;  charge 1−: + 1</div>
+              <div class="worked__math">N: 5</div><div class="worked__math">O: 2 × 6 = 12</div><div class="worked__math">charge 1−: + 1</div>
               <div class="worked__math">Total = 5 + 12 + 1 = 18 electrons = 9 pairs</div>
             </li>
             <li data-title="Join the atoms and fill the octets">
@@ -490,19 +491,19 @@
           <ol class="worked__steps">
             <li data-title="Formal charges in A">
               <p class="worked__why">A has two double bonds. N and S each have two lone pairs (N = 4) and four bonding electrons.</p>
-              <div class="worked__math">N: 5 − 4 − ½(4) = −1;  C: 4 − 0 − ½(8) = 0;  S: 6 − 4 − ½(4) = 0</div>
+              <div class="worked__math">N: 5 − 4 − ½(4) = −1</div><div class="worked__math">C: 4 − 0 − ½(8) = 0</div><div class="worked__math">S: 6 − 4 − ½(4) = 0</div>
             </li>
             <li data-title="Formal charges in B">
               <p class="worked__why">B has N≡C and C–S. N has one lone pair; S has three.</p>
-              <div class="worked__math">N: 5 − 2 − ½(6) = 0;  C: 4 − 0 − ½(8) = 0;  S: 6 − 6 − ½(2) = −1</div>
+              <div class="worked__math">N: 5 − 2 − ½(6) = 0</div><div class="worked__math">C: 4 − 0 − ½(8) = 0</div><div class="worked__math">S: 6 − 6 − ½(2) = −1</div>
             </li>
             <li data-title="Formal charges in C">
               <p class="worked__why">C has N–C and C≡S. N has three lone pairs; S has one.</p>
-              <div class="worked__math">N: 5 − 6 − ½(2) = −2;  C: 4 − 0 − ½(8) = 0;  S: 6 − 2 − ½(6) = +1</div>
+              <div class="worked__math">N: 5 − 6 − ½(2) = −2</div><div class="worked__math">C: 4 − 0 − ½(8) = 0</div><div class="worked__math">S: 6 − 2 − ½(6) = +1</div>
             </li>
-            <li data-title="Check the totals" data-label="Check">
-              <p class="worked__why">Each set must add up to the charge on the ion, 1−.</p>
-              <div class="worked__math">A: −1 + 0 + 0 = −1;  B: 0 + 0 − 1 = −1;  C: −2 + 0 + 1 = −1</div>
+            <li data-title="Check the totals">
+              <p class="worked__why" data-label="Check">Each set must add up to the charge on the ion, 1−.</p>
+              <div class="worked__math">A: −1 + 0 + 0 = −1</div><div class="worked__math">B: 0 + 0 − 1 = −1</div><div class="worked__math">C: −2 + 0 + 1 = −1</div>
             </li>
             <li data-title="Choose">
               <p class="worked__why">First find charges closest to zero. Then look at where the negative charge is.</p>
@@ -618,8 +619,8 @@
               <div class="worked__math">σ = 6 + 2 = <b>8</b></div>
               <div class="worked__math">π = <b>2</b></div>
             </li>
-            <li data-title="Check" data-label="Check">
-              <p class="worked__why">A molecule with no ring has one σ bond fewer than its number of atoms.</p>
+            <li data-title="Check">
+              <p class="worked__why" data-label="Check">A molecule with no ring has one σ bond fewer than its number of atoms.</p>
               <div class="worked__math">C<sub>3</sub>H<sub>4</sub>O<sub>2</sub> has 3 + 4 + 2 = 9 atoms;  9 − 1 = 8 σ bonds</div>
             </li>
           </ol>

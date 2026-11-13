@@ -681,7 +681,7 @@
     var selB = w.select({ label: t('Compound B'), value: state.b, options: opts, onChange: function (v) { state.b = v; reset(); } });
     void selA; void selB;
 
-    var cv = w.canvas({ height: function (W) { return W < 480 ? 400 : 250; }, label: t('For each compound, one cation and one anion drawn touching, to the same scale, with their charges and ionic radii. After you predict, bars show the two lattice enthalpies.') });
+    var cv = w.canvas({ height: function (W) { return W < 480 ? 430 : 250; }, label: t('For each compound, one cation and one anion drawn touching, to the same scale, with their charges and ionic radii. After you predict, bars show the two lattice enthalpies.') });
     var form = el('div', { class: 'predict' });
     var fb = el('div', { class: 'feedback', role: 'status' });
     w.stage.appendChild(form); w.stage.appendChild(fb);

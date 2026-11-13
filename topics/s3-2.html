@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3.2 Functional groups | Structure Lab</title>
+<meta name="description" content="IB Chemistry Structure 3.2 (SL and HL core): formulas of organic compounds, functional groups and classes, homologous series, boiling point trends, IUPAC names and structural isomers.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for topic 3.2. Existing tokens only. */
+.s32-figrow { display: flex; flex-wrap: wrap; gap: 0.9rem 1.6rem; align-items: flex-end; margin: 1rem 0 1.2rem; }
+.s32-fig { margin: 0; min-width: 0; max-width: 100%; }
+.s32-fig > p { margin: 0.3rem 0 0; font-size: 0.9rem; color: var(--ink-2); text-align: left; max-width: 16rem; }
+.s32-fig .mol__svg { margin-inline: 0; }
+.s32-fig--box { border: 1px solid var(--line-strong); background: var(--surface); padding: 0.6rem 0.8rem; }
+.worked .s32-figrow { margin: 0.6rem 0; }
+table.data td .mol__svg { margin-inline: 0; }
+table.data td.s32-cell { min-width: 7.5rem; }
+.s32-f { font-family: var(--font-mono); white-space: nowrap; }
+.s32-name { font-family: var(--font-mono); font-weight: 600; }
+.s32-panels { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 0.75rem; }
+.s32-panel { border: 1px solid var(--line); background: var(--surface); padding: 0.6rem 0.75rem 0.5rem; min-width: 0; display: flex; flex-direction: column; }
+.s32-panel__body { flex: 1 1 auto; display: flex; align-items: center; justify-content: center; min-height: 4.5rem; min-width: 0; overflow-x: auto; }
+.s32-panel__body.mol--3d { display: block; }
+.s32-panel__note { margin: 0.4rem 0 0; }
+.s32-cap { margin: 0 0 0.35rem; font-weight: 700; font-size: 0.92rem; }
+.s32-big { font-size: 1.25rem; }
+.s32-big .s32-f { white-space: normal; overflow-wrap: anywhere; text-align: center; }
+.s32-draw { display: flex; justify-content: center; align-items: center; min-height: 6rem; padding: 0.4rem 0 0.6rem; overflow-x: auto; }
+.s32-draw--edit { border: 1px dashed var(--line-strong); background: var(--surface); min-height: 9rem; }
+.s32-prompt { margin: 0.5rem 0 0.6rem; max-width: 46rem; }
+.s32-built { margin: 0.2rem 0 0; min-height: 1.5rem; }
+.s32-opts { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.25rem 0 0.5rem; }
+.s32-opts--col { flex-direction: column; align-items: flex-start; }
+.s32-opts--pics { display: grid; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); }
+.s32-opt { min-width: 2.75rem; text-align: left; }
+.s32-opt[data-state="right"] { border-color: var(--ok); background: var(--ok-soft); color: var(--ink); opacity: 1; }
+.s32-opt[data-state="wrong"] { border-color: var(--bad); background: var(--bad-soft); color: var(--ink); }
+.s32-opts--pics .s32-opt { display: flex; align-items: center; justify-content: center; min-height: 6.5rem; padding: 0.4rem; }
+.s32-pic { display: block; min-width: 0; max-width: 100%; }
+.s32-tick { font-weight: 700; }
+.s32-fb { margin-top: 0.6rem; max-width: 46rem; }
+.s32-num { width: 8rem; }
+.s32-next { margin-top: 0.5rem; }
+.s32-hit { fill: transparent; stroke: transparent; cursor: pointer; outline: none; }
+.s32-hit:hover { stroke: var(--line-strong); stroke-width: 1.5; }
+.s32-hit:focus-visible { stroke: var(--focus); stroke-width: 3; }
+.s32-tools { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; margin: 0.6rem 0 0.2rem; }
+.s32-tools__label { flex: 0 0 100%; margin: 0; }
+.s32-tools__break { flex: 0 0 100%; height: 0; }
+.s32-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(10.5rem, 1fr)); gap: 0.6rem; align-items: start; }
+.s32-card { border: 1px solid var(--line); background: var(--surface); padding: 0.5rem 0.6rem; min-width: 0; }
+.s32-card p { margin: 0.15rem 0 0; overflow-wrap: anywhere; }
+.s32-card .s32-f { white-space: normal; }
+.s32-card__pic { min-height: 3.5rem; display: flex; align-items: center; justify-content: center; }
+.s32-card__name { font-size: 0.92rem; }
+.s32-pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); gap: 0.75rem; margin-bottom: 0.6rem; }
+.s32-pair__pic { border: 1px solid var(--line); background: var(--surface); min-height: 7rem; display: flex; align-items: center; justify-content: center; padding: 0.5rem; min-width: 0; }
+.s32-predict { margin-top: 0.5rem; }
+.s32-seg { min-width: 0; flex: 0 1 auto; }
+.s32-seg .seg { flex-wrap: wrap; max-width: 100%; }
+.s32-parts { display: flex; flex-wrap: wrap; gap: 0.4rem 0.9rem; margin: 0.8rem 0 1rem; padding: 0; list-style: none; }
+.s32-parts li { border: 1px solid var(--line-strong); background: var(--surface); padding: 0.45rem 0.7rem; margin: 0; }
+.s32-parts b { font-family: var(--font-mono); }
+</style>
+</head>
+<body data-page="s3-2">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="s3-2"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Structure 3.2</p>
+      <h1>Functional groups: classification of organic compounds</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>How does the classification of organic molecules help us to predict their properties?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <!-- ============================================================ GOALS -->
+      <section class="topic-section" id="goals" data-toc="What you need to do">
+        <h2>What you need to be able to do</h2>
+        <p class="lede">Organic chemistry is the chemistry of carbon compounds. There are millions of them. This page shows you how chemists draw them, sort them into families and name them.</p>
+        <p>You do not need to know any organic chemistry before you start. Tick each item when you can do it without looking at your notes.</p>
+        <ul class="checklist" data-s1-checklist="s3-2">
+          <li data-id="formula-types" data-level="sl">Identify empirical, molecular, full structural, condensed structural, skeletal and stereochemical formulas.</li>
+          <li data-id="formula-convert" data-level="sl">Convert between molecular, skeletal and structural formulas.</li>
+          <li data-id="models-3d" data-level="sl">Build or read a 3-D model of an organic molecule.</li>
+          <li data-id="groups-nine" data-level="sl">Identify these functional groups by name and by structure: halogeno, hydroxyl, carbonyl, carboxyl, alkoxy, amino, amido, ester and phenyl.</li>
+          <li data-id="saturated" data-level="sl">Use the words saturated and unsaturated correctly.</li>
+          <li data-id="series-def" data-level="sl">Describe a homologous series and use its general formula.</li>
+          <li data-id="classes-twelve" data-level="sl">Identify alkanes, alkenes, alkynes, halogenoalkanes, alcohols, aldehydes, ketones, carboxylic acids, ethers, amines, amides and esters.</li>
+          <li data-id="trend-bp" data-level="sl">Describe and explain the trend in melting point and boiling point along a homologous series.</li>
+          <li data-id="iupac-names" data-level="sl">Name compounds with a parent chain of up to six carbon atoms that contain one type of group: halogeno, hydroxyl, carbonyl or carboxyl. Include branched chains and compounds with one double or triple bond.</li>
+          <li data-id="isomers" data-level="sl">Recognize structural isomers: straight-chain and branched, position, and functional group isomers.</li>
+          <li data-id="degree" data-level="sl">Classify alcohols, halogenoalkanes and amines as primary, secondary or tertiary.</li>
+        </ul>
+        <aside class="callout callout--scope" data-title="Where the rest lives">
+          <p>This page sorts, draws and names organic compounds. What the compounds <em>do</em> (their reactions and mechanisms) comes later, in Reactivity 3. Stereoisomers and spectroscopy are Additional HL and have their own page.</p>
+        </aside>
+      </section>
+
+      <!-- ============================================================ 3.2.1 -->
+      <section class="topic-section" id="formulas" data-toc="Six kinds of formula">
+        <span class="section-code">Structure 3.2.1</span>
+        <h2>Six ways to write one molecule</h2>
+        <p>Think of a house. You can give its address, show a floor plan, or show a photograph. Each one is correct. Each one tells you something different. Chemists do the same with molecules.</p>
+
+        <h3>First: how many bonds each atom makes</h3>
+        <p>Organic molecules are held together by covalent bonds. In almost every organic molecule you will meet, each kind of atom makes a fixed number of bonds.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Number of covalent bonds formed in organic molecules</caption>
+            <thead><tr><th scope="col">Atom</th><th scope="col" class="num">Bonds</th><th scope="col">What that looks like</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">carbon, C</th><td class="num">4</td><td>four single bonds, or a double bond and two single bonds, or a triple bond and one single bond</td></tr>
+              <tr><th scope="row">nitrogen, N</th><td class="num">3</td><td>three single bonds, for example</td></tr>
+              <tr><th scope="row">oxygen, O</th><td class="num">2</td><td>two single bonds, or one double bond</td></tr>
+              <tr><th scope="row">hydrogen, H</th><td class="num">1</td><td>one single bond</td></tr>
+              <tr><th scope="row">halogens: F, Cl, Br, I</th><td class="num">1</td><td>one single bond</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <aside class="callout callout--key">
+          <p>Carbon always forms four bonds. A double bond counts as two and a triple bond counts as three. Almost everything on this page follows from that one fact.</p>
+        </aside>
+
+        <h3>The six formulas</h3>
+        <p>Here is one compound, propan-1-ol, written in every way you need to know.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Six formulas for propan-1-ol</caption>
+            <thead><tr><th scope="col">Type of formula</th><th scope="col">Propan-1-ol</th><th scope="col">What it tells you</th></tr></thead>
+            <tbody>
+              <tr><th scope="row"><dfn>Empirical formula</dfn></th><td data-i18n="off"><span class="chem">C3H8O</span></td><td>The simplest whole-number ratio of the atoms. Here it is the same as the molecular formula.</td></tr>
+              <tr><th scope="row"><dfn>Molecular formula</dfn></th><td data-i18n="off"><span class="chem">C3H8O</span></td><td>The actual number of each atom in one molecule. It does not show how the atoms are joined.</td></tr>
+              <tr><th scope="row"><dfn>Full structural formula</dfn></th><td class="s32-cell" data-i18n="off"><div data-s32-mol="propan1ol" data-view="full" data-scale="26" data-label="Full structural formula of propan-1-ol"></div></td><td>Every atom and every bond. It is also called a displayed formula.</td></tr>
+              <tr><th scope="row"><dfn>Condensed structural formula</dfn></th><td data-i18n="off"><span class="chem">CH3CH2CH2OH</span></td><td>The groups of atoms in order along the chain, on one line. Most bonds are not drawn.</td></tr>
+              <tr><th scope="row"><dfn>Skeletal formula</dfn></th><td class="s32-cell" data-i18n="off"><div data-s32-mol="propan1ol" data-view="skeletal" data-label="Skeletal formula of propan-1-ol"></div></td><td>A zig-zag line for the carbon chain. Carbon atoms and the hydrogen atoms on them are not written.</td></tr>
+              <tr><th scope="row"><dfn>Stereochemical formula</dfn></th><td class="s32-cell" data-i18n="off"><div data-s32-mol="x" data-view="stereo" data-subs="OH,H,H,C2H5" data-label="Stereochemical formula of propan-1-ol, drawn around the carbon that carries the OH group"></div></td><td>The 3-D arrangement around an atom. A solid wedge comes towards you. A dashed wedge goes away from you. Plain lines lie in the plane of the page.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The empirical formula and the molecular formula can be different. Ethanoic acid has the molecular formula <span class="chem">C2H4O2</span>. Divide every number by 2 and you get its empirical formula, <span class="chem">CH2O</span>. You met empirical formulas in Structure 1.4.</p>
+
+        <figure data-s1-widget="s3-2.formulas" data-title="One compound, six formulas" data-start="ethanol">
+          <p class="widget__fallback">An interactive panel appears here when JavaScript is on. It shows the molecular, empirical, condensed, full structural and skeletal formulas of 27 compounds, with a 3-D model of each.</p>
+          <figcaption>Choose a compound. Compare what each formula shows and what it hides. Turn the 3-D model: the bond angles at a carbon with four single bonds are 109.5°, not the 90° drawn in a full structural formula.</figcaption>
+        </figure>
+
+        <aside class="callout callout--exam">
+          <p>If a question asks for a structural formula, a molecular formula such as <span class="chem">C3H8O</span> does not earn the mark. Show how the atoms are joined. If it asks for a <em>full</em> structural formula, draw every bond, including each C–H and the O–H.</p>
+        </aside>
+
+        <h3>How to read a condensed structural formula</h3>
+        <p>Read it from left to right. Each carbon is written with the hydrogen atoms that are bonded to it. Then comes the next carbon in the chain.</p>
+        <ul>
+          <li><span class="chem">CH3CH2CH3</span> is a chain of three carbons: <span class="chem">CH3</span>, then <span class="chem">CH2</span>, then <span class="chem">CH3</span>.</li>
+          <li>Brackets show a group that hangs off the chain. In <span class="chem">CH3CH(CH3)CH3</span> the <span class="chem">CH3</span> in brackets is a branch on the second carbon.</li>
+          <li>Brackets with a number mean several copies of the same group on one atom. <span class="chem">(CH3)3COH</span> has three <span class="chem">CH3</span> groups on the carbon that carries the OH.</li>
+          <li>Some groups have a standard short form. <span class="chem">COOH</span> is a carbon with a double bond to one O and a single bond to an O–H. <span class="chem">CHO</span> is a carbon with one H and a double bond to O. <span class="chem">CO</span> between two carbons is a carbon with a double bond to O.</li>
+          <li>A double bond between carbons is usually shown: <span class="s32-f" data-i18n="off">CH<sub>2</sub>=CHCH<sub>3</sub></span>.</li>
+        </ul>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">From condensed to full structural, and back</h3>
+          <div class="worked__problem">
+            <p>(a) Draw the full structural formula of <span class="chem">CH3CH(OH)CH3</span>. (b) Write the condensed structural formula of the compound drawn in step 4.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the carbon chain">
+              <p class="worked__why">The carbons outside brackets form the chain.</p>
+              <p><span class="chem">CH3</span> – <span class="chem">CH</span> – <span class="chem">CH3</span>: three carbon atoms in a row. The <span class="chem">(OH)</span> in brackets is attached to the middle carbon.</p>
+            </li>
+            <li data-title="Draw every bond">
+              <p class="worked__why">A full structural formula shows each bond as a line, including O–H.</p>
+              <div class="s32-figrow"><div class="s32-fig"><div data-s32-mol="propan2ol" data-view="full" data-label="Full structural formula of propan-2-ol: three carbons in a row, an O–H group on the middle carbon, and seven hydrogen atoms on the carbons"></div></div></div>
+            </li>
+            <li data-title="Check each atom">
+              <p class="worked__why">Counting bonds catches most drawing errors.</p>
+              <p>Each carbon has 4 bonds. The oxygen has 2. Each hydrogen has 1. The drawing has 3 C, 8 H and 1 O, which matches <span class="chem">CH3CH(OH)CH3</span>.</p>
+            </li>
+            <li data-title="Part (b): read a drawing carbon by carbon">
+              <p class="worked__why">Go along the chain and write each carbon with its own hydrogens.</p>
+              <div class="s32-figrow"><div class="s32-fig"><div data-s32-mol="butanoic" data-view="full" data-label="Full structural formula of a four-carbon chain. The last carbon has a double bond to one oxygen and a single bond to an O–H group."></div></div></div>
+              <p>First carbon: <span class="chem">CH3</span>. Second: <span class="chem">CH2</span>. Third: <span class="chem">CH2</span>. Fourth: a carbon with =O and –O–H, written <span class="chem">COOH</span>.</p>
+            </li>
+            <li data-title="Write it on one line">
+              <p class="worked__why">Keep the groups in the same order as the chain.</p>
+              <div class="worked__math"><b>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COOH</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>(a) The drawing in step 2. (b) <span class="chem">CH3CH2CH2COOH</span></p></div>
+        </div>
+
+        <h3>How to read a skeletal formula</h3>
+        <p>A skeletal formula is the fastest one to draw, and exam papers use it often. It leaves out the letters C and H. You have to put them back in your head. There are four rules.</p>
+        <ol>
+          <li>Every line is a bond between two atoms. A double line is a double bond.</li>
+          <li>Every line end and every corner is a carbon atom, unless another symbol is written there.</li>
+          <li>Each carbon has enough hydrogen atoms to make four bonds in total. These hydrogens are not drawn.</li>
+          <li>Atoms that are not carbon or hydrogen are always written. A hydrogen bonded to one of them is written too, as in OH or <span class="chem">NH2</span>.</li>
+        </ol>
+        <div class="s32-figrow">
+          <div class="s32-fig"><div data-s32-mol="butane" data-view="skeletal" data-label="Skeletal formula of butane: a zig-zag of three lines"></div><p>butane, <span class="chem">CH3CH2CH2CH3</span>: four carbons, so three lines</p></div>
+          <div class="s32-fig"><div data-s32-mol="methylpropane" data-view="skeletal" data-label="Skeletal formula of 2-methylpropane: three lines that meet at one point"></div><p>2-methylpropane: the middle carbon has three lines, so it has one H</p></div>
+          <div class="s32-fig"><div data-s32-mol="but2ene" data-view="skeletal" data-label="Skeletal formula of but-2-ene: a zig-zag with a double line in the middle"></div><p>but-2-ene: each carbon of the C=C has one H</p></div>
+          <div class="s32-fig"><div data-s32-mol="ethanoic" data-view="skeletal" data-label="Skeletal formula of ethanoic acid: one line to a carbon that has a double bond to O and a single bond to OH"></div><p>ethanoic acid, <span class="chem">CH3COOH</span></p></div>
+        </div>
+
+        <figure data-s1-widget="s3-2.skeletal" data-title="Skeletal formula reading tutor" data-start="methylbutane">
+          <p class="widget__fallback">An interactive drawing appears here when JavaScript is on. You press each line end and corner of a skeletal formula to reveal the carbon atom and its hydrogen atoms.</p>
+          <figcaption>Before you press a point, say how many hydrogen atoms that carbon carries. Then press it to check. When every carbon is revealed, the molecular formula appears.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">From a skeletal formula to a molecular formula</h3>
+          <div class="worked__problem">
+            <p>Deduce the molecular formula of this compound.</p>
+            <div class="s32-figrow"><div class="s32-fig"><div data-s32-mol="methylbutanal" data-view="skeletal" data-scale="44" data-label="Skeletal formula: a zig-zag chain of four carbons. The second carbon from the left has one extra line going up. The right-hand end of the chain is a double bond to an O."></div></div></div>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Count the carbon atoms">
+              <p class="worked__why">Every line end and corner without a symbol is a carbon.</p>
+              <p>The chain has four carbons. The last of them is the one joined to O by the double bond. The branch adds one more.</p>
+              <div class="worked__math">C: 4 + 1 = 5</div>
+            </li>
+            <li data-title="Give each carbon its hydrogens">
+              <p class="worked__why">Hydrogens = 4 − (bonds drawn at that carbon).</p>
+              <div class="worked__math">left end: 1 bond drawn → 3 H</div>
+              <div class="worked__math">branch end: 1 bond drawn → 3 H</div>
+              <div class="worked__math">carbon with the branch: 3 bonds drawn → 1 H</div>
+              <div class="worked__math">next carbon: 2 bonds drawn → 2 H</div>
+              <div class="worked__math">carbon of C=O: 1 single + 1 double = 3 bonds → 1 H</div>
+            </li>
+            <li data-title="Add the hydrogens">
+              <p class="worked__why">No H is drawn on the oxygen, so there are no others to add.</p>
+              <div class="worked__math">H: 3 + 3 + 1 + 2 + 1 = 10</div>
+            </li>
+            <li data-title="Count the other atoms and write the formula">
+              <p class="worked__why">Write C first, then H, then the other elements.</p>
+              <div class="worked__math">O: 1 &nbsp;→&nbsp; <b>C<sub>5</sub>H<sub>10</sub>O</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p><span class="chem">C5H10O</span></p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="12" data-tolerance="0.4" data-label="Number of H atoms">
+          <div class="tryit__q">
+            <p>How many hydrogen atoms are in one molecule of this compound?</p>
+            <div class="s32-figrow"><div class="s32-fig"><div data-s32-mol="CC(=O)C(C)CC" data-view="skeletal" data-scale="44" data-label="Skeletal formula: a zig-zag chain of five carbons. The second carbon has a double bond to an O. The third carbon has one extra line."></div></div></div>
+          </div>
+          <ol class="tryit__hints">
+            <li>Count the carbons first: five in the chain and one branch.</li>
+            <li>The carbon of the C=O has four bonds drawn already (two single, one double), so it has no H. The carbon with the branch has three bonds drawn.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">H: 3 + 0 + 1 + 3 + 2 + 3 = 12</div>
+            <p>The molecular formula is <span class="chem">C6H12O</span>.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="10" data-tolerance="0.4" data-label="Number of H atoms">
+          <div class="tryit__q"><p>How many hydrogen atoms are in one molecule of <span class="chem">CH3CH(CH3)CH2OH</span>?</p></div>
+          <ol class="tryit__hints">
+            <li>The group in brackets is a branch. It still belongs to the molecule.</li>
+            <li>Add the H atoms group by group: <span class="chem">CH3</span>, <span class="chem">CH</span>, <span class="chem">CH3</span>, <span class="chem">CH2</span>, <span class="chem">OH</span>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">H: 3 + 1 + 3 + 2 + 1 = 10</div>
+            <p>The molecular formula is <span class="chem">C4H10O</span>.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Many students forget the carbon at the <em>end</em> of a line, or forget the hydrogen atoms that are not drawn. A single straight line is ethane, with two carbons and six hydrogens. It is not “nothing”.</p>
+        </aside>
+
+        <figure data-s1-widget="s3-2.translate" data-title="Translate it: formula quiz" data-kicker="Practice">
+          <p class="widget__fallback">A practice quiz appears here when JavaScript is on. It shows a skeletal formula and asks for the condensed formula, the number of hydrogen atoms or the molecular formula.</p>
+          <figcaption>Three kinds of question in turn. Work each one out on paper before you answer.</figcaption>
+        </figure>
+
+        <aside class="callout callout--scope">
+          <p>At this level you only need to <em>recognize</em> a stereochemical (wedge and dash) formula. You do not have to draw one unless the question tells you to; drawing them is part of Additional HL. Other 3-D drawings you may see elsewhere, such as Newman and Fischer projections, are not in the IB course.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s3-2" data-syllabus="Structure 3.2.1" data-count="4" data-title="Formulas: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 3.2.2 -->
+      <section class="topic-section" id="groups" data-toc="Functional groups">
+        <span class="section-code">Structure 3.2.2</span>
+        <h2>Functional groups and classes of compounds</h2>
+        <p>Ethanol and propan-1-ol have different sizes, but they behave in very similar ways. Both mix with water. Both burn easily. The reason is one small part that they share: an O–H joined to a carbon atom.</p>
+        <p>A <dfn>functional group</dfn> is an atom or a group of atoms that gives a compound its characteristic physical and chemical properties. The rest of the molecule, the chain of carbon and hydrogen, changes those properties only a little.</p>
+        <p>Chemists sort organic compounds into <dfn>classes</dfn> according to the functional group in their molecules. In general formulas the letter R stands for the rest of the molecule: any group made of carbon and hydrogen, such as <span class="chem">CH3</span> or <span class="chem">CH3CH2</span>.</p>
+
+        <h3>The nine groups you must identify</h3>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Functional groups: the name of the group and the class of compound it makes</caption>
+            <thead><tr><th scope="col">Name of the group</th><th scope="col">Structure</th><th scope="col">Class of compound</th><th scope="col">Example</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">halogeno</th><td data-i18n="off"><span class="s32-f">–F, –Cl, –Br, –I</span></td><td>halogenoalkanes</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="chloroethane" data-view="groups" data-scale="27" data-label="chloroethane"></div>chloroethane</td></tr>
+              <tr><th scope="row">hydroxyl</th><td data-i18n="off"><span class="s32-f">–OH</span></td><td>alcohols</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="ethanol" data-view="groups" data-scale="27" data-label="ethanol"></div>ethanol</td></tr>
+              <tr><th scope="row" rowspan="2">carbonyl</th><td rowspan="2" data-i18n="off"><span class="s32-f">C=O</span></td><td>aldehydes: the C=O is at the end of the chain, so its carbon also carries an H</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="ethanal" data-view="groups" data-scale="27" data-label="ethanal"></div>ethanal</td></tr>
+              <tr><td>ketones: the C=O is inside the chain, between two carbons</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="propanone" data-view="groups" data-scale="27" data-label="propanone"></div>propanone</td></tr>
+              <tr><th scope="row">carboxyl</th><td data-i18n="off"><span class="s32-f">–COOH</span></td><td>carboxylic acids</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="ethanoic" data-view="groups" data-scale="27" data-label="ethanoic acid"></div>ethanoic acid</td></tr>
+              <tr><th scope="row">alkoxy</th><td data-i18n="off"><span class="s32-f">–O–R</span></td><td>ethers: an O between two carbons</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="methoxymethane" data-view="groups" data-scale="27" data-label="methoxymethane"></div>methoxymethane</td></tr>
+              <tr><th scope="row">amino</th><td data-i18n="off"><span class="s32-f">–NH<sub>2</sub></span></td><td>amines (one or both H atoms on the N can be replaced by R)</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="ethanamine" data-view="groups" data-scale="27" data-label="ethanamine"></div>ethanamine</td></tr>
+              <tr><th scope="row">amido</th><td data-i18n="off"><span class="s32-f">–CONH<sub>2</sub></span></td><td>amides: an N on the carbon of a C=O</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="ethanamide" data-view="groups" data-scale="27" data-label="ethanamide"></div>ethanamide</td></tr>
+              <tr><th scope="row">ester</th><td data-i18n="off"><span class="s32-f">–COO–R</span></td><td>esters: like carboxyl, but with R in place of the H</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="methylethanoate" data-view="groups" data-scale="27" data-label="methyl ethanoate"></div>methyl ethanoate</td></tr>
+              <tr><th scope="row">phenyl</th><td data-i18n="off"><span class="s32-f">–C<sub>6</sub>H<sub>5</sub></span></td><td>a benzene ring joined to the rest of a molecule (no class to learn)</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="benzoic" data-view="skeletal" data-scale="26" data-label="benzoic acid: a benzene ring joined to a carboxyl group"></div>benzoic acid</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Three classes have no group from this list. <dfn>Alkanes</dfn> have only C–C single bonds and C–H bonds. <dfn>Alkenes</dfn> have a carbon–carbon double bond, C=C. <dfn>Alkynes</dfn> have a carbon–carbon triple bond, C≡C. That makes twelve classes in total.</p>
+        <p>The benzene ring is drawn here with alternating single and double lines. The real bonding in benzene is described in Structure 2.2 (Additional HL). For this page, you only need to recognize the ring and call it phenyl.</p>
+
+        <aside class="callout callout--mistake">
+          <p>The name of the group and the name of the class are two different words. The group in ethanol is <strong>hydroxyl</strong>; the class is <strong>alcohol</strong>. The group in ethanal is <strong>carbonyl</strong>; the class is <strong>aldehyde</strong>. The group in ethanoic acid is <strong>carboxyl</strong>; the class is <strong>carboxylic acid</strong>.</p>
+        </aside>
+        <aside class="callout callout--exam">
+          <p>Read the question word by word. “State the name of the functional group” wants hydroxyl, carbonyl, carboxyl or phenyl. Answers such as alcohol, aldehyde, carboxylic acid or “benzene ring” have lost this mark. “State the class” or “the homologous series” wants alcohol, aldehyde or carboxylic acid.</p>
+        </aside>
+
+        <h3>Look at the whole group</h3>
+        <p>Some groups contain smaller ones. Always take the largest group you can see.</p>
+        <ul>
+          <li>C=O with an O–H on the same carbon is <strong>carboxyl</strong>. It is not “carbonyl and hydroxyl”.</li>
+          <li>C=O with an O–R on the same carbon is <strong>ester</strong>. It is not “carbonyl and alkoxy”.</li>
+          <li>C=O with an N on the same carbon is <strong>amido</strong>. It is not “carbonyl and amino”.</li>
+        </ul>
+
+        <h3>Saturated and unsaturated</h3>
+        <p>A <dfn>saturated</dfn> compound has only single bonds between its carbon atoms. An <dfn>unsaturated</dfn> compound has at least one carbon–carbon double bond or triple bond.</p>
+        <p>Alkanes are saturated. Alkenes and alkynes are unsaturated. The words describe the carbon–carbon bonds only: ethanol and propanone are both saturated.</p>
+
+        <figure data-s1-widget="s3-2.spotter" data-title="Functional group spotter" data-start="butan2ol">
+          <p class="widget__fallback">An interactive exercise appears here when JavaScript is on. You press the functional group in a drawn molecule, then name the group and the class separately.</p>
+          <figcaption>Molecules 1 to 10 have one functional group: name the group, then the class. Molecules 11 to 19 have two or three groups, as in paracetamol (18) and aspirin (19): find and name each group.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Finding every group in a larger molecule</h3>
+          <div class="worked__problem">
+            <p>Paracetamol is a painkiller. Identify the functional groups in its molecule.</p>
+            <div class="s32-figrow"><div class="s32-fig"><div data-s32-mol="paracetamol" data-view="skeletal" data-scale="42" data-label="Skeletal formula of paracetamol: a benzene ring. One ring carbon carries an OH group. The opposite ring carbon is joined to an N–H, which is joined to a carbon that has a double bond to O and a CH3 group."></div></div></div>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find every atom that is not C or H">
+              <p class="worked__why">Functional groups are built around these atoms, and around rings and multiple bonds.</p>
+              <p>There are two oxygen atoms and one nitrogen atom. There is also a six-carbon ring with alternating double bonds.</p>
+            </li>
+            <li data-title="Check what each one is bonded to">
+              <p class="worked__why">The neighbours decide which group it is.</p>
+              <p>One O carries an H and is bonded to a ring carbon. The other O is double-bonded to a carbon. That same carbon is bonded to the N.</p>
+            </li>
+            <li data-title="Take the largest groups">
+              <p class="worked__why">C=O and N on the same carbon are one group, not two.</p>
+              <p>O–H is a <strong>hydroxyl</strong> group. C=O with N on the same carbon is an <strong>amido</strong> group. The ring is a <strong>phenyl</strong> group.</p>
+            </li>
+            <li data-title="Answer with group names">
+              <p class="worked__why" data-label="Check">The question asked for groups, so do not answer “alcohol” or “amide”.</p>
+              <p>Hydroxyl, amido and phenyl.</p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Hydroxyl, amido and phenyl.</p></div>
+        </div>
+
+        <aside class="callout callout--scope">
+          <p>Textbooks and websites list many more groups, such as nitrile, nitro, acyl chloride, acid anhydride and thiol. They are not in the IB guide. Phenols and arenes are not classes you have to learn either. Stop at the nine groups and twelve classes above.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s3-2" data-syllabus="Structure 3.2.2" data-count="4" data-title="Functional groups: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 3.2.3 -->
+      <section class="topic-section" id="series" data-toc="Homologous series">
+        <span class="section-code">Structure 3.2.3</span>
+        <h2>Homologous series: families of compounds</h2>
+        <p>Methane, ethane, propane and butane are like the steps of a staircase. Each step is one <span class="chem">CH2</span> higher than the one before.</p>
+        <div class="s32-figrow" data-i18n="off">
+          <div class="s32-fig"><div data-s32-mol="methane" data-view="groups" data-scale="28" data-label="methane"></div></div>
+          <div class="s32-fig"><div data-s32-mol="ethane" data-view="groups" data-scale="28" data-label="ethane"></div></div>
+          <div class="s32-fig"><div data-s32-mol="propane" data-view="groups" data-scale="28" data-label="propane"></div></div>
+          <div class="s32-fig"><div data-s32-mol="butane" data-view="groups" data-scale="28" data-label="butane"></div></div>
+        </div>
+        <p>A <dfn>homologous series</dfn> is a family of compounds in which each member differs from the next by a common structural unit, usually <span class="chem">CH2</span>. Each series can be described by a general formula.</p>
+        <p>The members of one homologous series:</p>
+        <ul>
+          <li>have the same functional group;</li>
+          <li>fit the same <dfn>general formula</dfn>, a formula written with <i>n</i> for the number of carbon atoms;</li>
+          <li>differ from the next member by one <span class="chem">CH2</span>;</li>
+          <li>show a gradual trend in physical properties, such as boiling point;</li>
+          <li>have similar chemical properties, because they have the same functional group.</li>
+        </ul>
+
+        <h3>The twelve series you must identify</h3>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Homologous series (classes of compounds)</caption>
+            <thead><tr><th scope="col">Series</th><th scope="col">Functional group</th><th scope="col">General formula</th><th scope="col">A small member</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">alkanes</th><td>none (C–C and C–H only)</td><td data-i18n="off"><span class="s32-f">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub></span></td><td>ethane, <span class="chem">CH3CH3</span></td></tr>
+              <tr><th scope="row">alkenes</th><td>C=C</td><td data-i18n="off"><span class="s32-f">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub></span></td><td>ethene, <span class="s32-f" data-i18n="off">CH<sub>2</sub>=CH<sub>2</sub></span></td></tr>
+              <tr><th scope="row">alkynes</th><td>C≡C</td><td data-i18n="off"><span class="s32-f">C<sub><i>n</i></sub>H<sub>2<i>n</i>−2</sub></span></td><td>ethyne, <span class="s32-f" data-i18n="off">CH≡CH</span></td></tr>
+              <tr><th scope="row">halogenoalkanes</th><td>halogeno</td><td data-i18n="off"><span class="s32-f">C<sub><i>n</i></sub>H<sub>2<i>n</i>+1</sub>X</span></td><td>chloroethane, <span class="chem">CH3CH2Cl</span></td></tr>
+              <tr><th scope="row">alcohols</th><td>hydroxyl</td><td data-i18n="off"><span class="s32-f">C<sub><i>n</i></sub>H<sub>2<i>n</i>+1</sub>OH</span></td><td>ethanol, <span class="chem">CH3CH2OH</span></td></tr>
+              <tr><th scope="row">aldehydes</th><td>carbonyl (end of chain)</td><td data-i18n="off"><span class="s32-f">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O</span></td><td>ethanal, <span class="chem">CH3CHO</span></td></tr>
+              <tr><th scope="row">ketones</th><td>carbonyl (inside chain)</td><td data-i18n="off"><span class="s32-f">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O</span></td><td>propanone, <span class="chem">CH3COCH3</span></td></tr>
+              <tr><th scope="row">carboxylic acids</th><td>carboxyl</td><td data-i18n="off"><span class="s32-f">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O<sub>2</sub></span></td><td>ethanoic acid, <span class="chem">CH3COOH</span></td></tr>
+              <tr><th scope="row">ethers</th><td>alkoxy</td><td data-i18n="off"><span class="s32-f">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>O</span></td><td>methoxymethane, <span class="chem">CH3OCH3</span></td></tr>
+              <tr><th scope="row">amines</th><td>amino</td><td data-i18n="off"><span class="s32-f">C<sub><i>n</i></sub>H<sub>2<i>n</i>+3</sub>N</span></td><td>ethanamine, <span class="chem">CH3CH2NH2</span></td></tr>
+              <tr><th scope="row">amides</th><td>amido</td><td data-i18n="off"><span class="s32-f">C<sub><i>n</i></sub>H<sub>2<i>n</i>+1</sub>NO</span></td><td>ethanamide, <span class="chem">CH3CONH2</span></td></tr>
+              <tr><th scope="row">esters</th><td>ester</td><td data-i18n="off"><span class="s32-f">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O<sub>2</sub></span></td><td>methyl ethanoate, <span class="chem">CH3COOCH3</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>In these formulas <i>n</i> is the total number of carbon atoms in the molecule, and X is a halogen atom. The formulas are for molecules with one functional group, no rings and no other double bonds.</p>
+        <p>Not every series starts at <i>n</i> = 1. An alkene needs two carbons for its C=C, so the first alkene is ethene. A ketone needs a carbon on each side of the C=O, so the first ketone is propanone, with three carbons.</p>
+        <aside class="callout callout--key">
+          <p>Some general formulas are shared. Aldehydes and ketones are both <span class="s32-f" data-i18n="off">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O</span>. Carboxylic acids and esters are both <span class="s32-f" data-i18n="off">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O<sub>2</sub></span>. Alcohols and ethers are both <span class="s32-f" data-i18n="off">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>O</span>. So a molecular formula alone cannot tell you the class. This matters for isomers, later on this page.</p>
+        </aside>
+        <aside class="callout callout--exam">
+          <p>The guide does not list the general formulas, but questions do ask for one, most often for alkanes, alkenes, alkynes or alcohols. You can always rebuild a general formula from two members of the series. Write their molecular formulas and see what each extra carbon adds.</p>
+        </aside>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Using a general formula</h3>
+          <div class="worked__problem">
+            <p>An alkane has seven carbon atoms. Deduce its molecular formula and its molar mass.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Write the general formula">
+              <p class="worked__why">Every alkane fits it.</p>
+              <div class="worked__math">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub></div>
+            </li>
+            <li data-title="Put in n = 7">
+              <p class="worked__why">The number of H atoms follows from the number of C atoms.</p>
+              <div class="worked__math">H atoms = 2(7) + 2 = 16 &nbsp;→&nbsp; C<sub>7</sub>H<sub>16</sub></div>
+            </li>
+            <li data-title="Add up the molar mass">
+              <p class="worked__why">Use relative atomic masses to two decimal places from the data booklet.</p>
+              <div class="worked__math"><i>M</i> = 7(12.01) + 16(1.01) = 84.07 + 16.16 = <b>100.23 g mol<sup>−1</sup></b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p><span class="chem">C7H16</span>, 100.23 <span class="unit">g mol-1</span></p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="10" data-tolerance="0.4" data-label="Number of H atoms">
+          <div class="tryit__q"><p>How many hydrogen atoms are in one molecule of the alkene that has five carbon atoms and one C=C?</p></div>
+          <ol class="tryit__hints">
+            <li>Use the general formula of the alkenes.</li>
+            <li><span class="s32-f" data-i18n="off">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub></span> with <i>n</i> = 5.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">H atoms = 2(5) = 10 &nbsp;→&nbsp; C<sub>5</sub>H<sub>10</sub></div>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="14.03" data-tolerance="0.5%" data-unit="g mol-1" data-sigfigs="3-4">
+          <div class="tryit__q"><p>Ethanol is <span class="chem">C2H5OH</span> and propan-1-ol is <span class="chem">C3H7OH</span>. Calculate the difference between their molar masses, in <span class="unit">g mol-1</span>.</p></div>
+          <ol class="tryit__hints">
+            <li>Next-door members of a homologous series differ by one <span class="chem">CH2</span>.</li>
+            <li>Add up one C and two H: 12.01 + 2(1.01).</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>M</i>(CH<sub>2</sub>) = 12.01 + 2(1.01) = 14.03 g mol<sup>−1</sup></div>
+            <p>Check: 60.11 − 46.08 = 14.03 <span class="unit">g mol-1</span>.</p>
+          </div>
+        </div>
+
+        <div data-s1-quiz data-topic="s3-2" data-syllabus="Structure 3.2.3" data-count="4" data-title="Homologous series: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 3.2.4 -->
+      <section class="topic-section" id="trends" data-toc="Boiling point trends">
+        <span class="section-code">Structure 3.2.4</span>
+        <h2>Trends in boiling point and melting point</h2>
+        <p>Methane is the gas in a kitchen stove. Octane is a liquid in petrol. Candle wax is a mixture of solid alkanes with more than 20 carbon atoms. They are all alkanes. The only thing that changes is the length of the chain.</p>
+        <p>Along a homologous series, the boiling point rises as the carbon chain gets longer. Melting points rise too.</p>
+
+        <figure data-s1-widget="s3-2.series" data-title="Boiling points along a homologous series" data-start="alkane">
+          <p class="widget__fallback">An interactive graph appears here when JavaScript is on. It plots measured boiling points against the number of carbon atoms for alkanes, alkenes, alcohols, aldehydes, carboxylic acids and chloroalkanes.</p>
+          <figcaption>The last member of the series is hidden at first. Predict its boiling point, then check. Use “Compare with” to put a second series on the same axes. Boiling points are measured values at normal atmospheric pressure, rounded to the nearest degree.</figcaption>
+        </figure>
+
+        <h3>Why the boiling point rises</h3>
+        <p>When a liquid boils, its molecules move apart. The covalent bonds <em>inside</em> each molecule do not break. Only the weak forces <em>between</em> the molecules are overcome. These are the intermolecular forces from Structure 2.2.</p>
+        <p>Every molecule attracts its neighbours by <dfn>London (dispersion) forces</dfn>. A longer chain has more electrons, and a larger surface that touches its neighbours. So the London forces are stronger. More energy is needed to separate the molecules, and the boiling point is higher.</p>
+        <p>The functional group is the same in every member, so the forces it causes stay about the same. The part that grows is the carbon chain.</p>
+        <aside class="callout callout--exam">
+          <p>Two points earn the marks. First, name the force: London (dispersion) forces. Second, say why they are stronger: more electrons, or greater molar mass, or a larger surface area, as the chain gets longer. “Stronger bonds” without naming the force earns nothing.</p>
+        </aside>
+        <aside class="callout callout--mistake">
+          <p>Do not write that the covalent bonds in a larger molecule are harder to break. Boiling does not break covalent bonds. Ethane gas is still made of <span class="chem">C2H6</span> molecules.</p>
+        </aside>
+
+        <h3>Melting points</h3>
+        <p>Melting points also rise overall along a series, for the same reason. The rise is less regular, because melting also depends on how well the molecules pack together in the solid. Choose “Melting point (alkanes)” in the graph above to see this.</p>
+
+        <h3>Different functional groups, similar size</h3>
+        <p>You can only compare chain length fairly inside one series. Between series, the functional group matters more. The table compares molecules of nearly the same molar mass.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Boiling points of compounds with similar molar mass</caption>
+            <thead><tr><th scope="col">Compound</th><th scope="col">Class</th><th scope="col" class="num"><i>M</i> / <span class="unit">g mol-1</span></th><th scope="col">Strongest force between molecules</th><th scope="col" class="num">Boiling point / °C</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">propane, <span class="chem">CH3CH2CH3</span></th><td>alkane</td><td class="num">44.11</td><td>London (dispersion) forces</td><td class="num">−42</td></tr>
+              <tr><th scope="row">ethanal, <span class="chem">CH3CHO</span></th><td>aldehyde</td><td class="num">44.06</td><td>dipole–dipole forces</td><td class="num">20</td></tr>
+              <tr><th scope="row">ethanol, <span class="chem">CH3CH2OH</span></th><td>alcohol</td><td class="num">46.08</td><td>hydrogen bonding</td><td class="num">78</td></tr>
+              <tr><th scope="row">methanoic acid, <span class="chem">HCOOH</span></th><td>carboxylic acid</td><td class="num">46.03</td><td>hydrogen bonding</td><td class="num">101</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>An alkane molecule is non-polar, so it has London forces only. The polar C=O in an aldehyde adds dipole–dipole forces. The O–H in an alcohol or a carboxylic acid allows hydrogen bonding, the strongest of the three.</p>
+
+        <h3>Branching</h3>
+        <p>A branched molecule is more compact than a straight-chain molecule with the same formula. It has less surface in contact with its neighbours. The London forces are weaker, so the boiling point is lower.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Three compounds with the molecular formula C<sub>5</sub>H<sub>12</sub></caption>
+            <thead><tr><th scope="col">Compound</th><th scope="col">Skeletal formula</th><th scope="col" class="num">Boiling point / °C</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">pentane</th><td class="s32-cell" data-i18n="off"><div data-s32-mol="pentane" data-view="skeletal" data-scale="26" data-label="pentane"></div></td><td class="num">36</td></tr>
+              <tr><th scope="row">2-methylbutane</th><td class="s32-cell" data-i18n="off"><div data-s32-mol="methylbutane" data-view="skeletal" data-scale="26" data-label="2-methylbutane"></div></td><td class="num">28</td></tr>
+              <tr><th scope="row">2,2-dimethylpropane</th><td class="s32-cell" data-i18n="off"><div data-s32-mol="dimethylpropane" data-view="skeletal" data-scale="26" data-label="2,2-dimethylpropane"></div></td><td class="num">10</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="small muted">Boiling points on this page are measured values for real compounds, rounded to the nearest degree. They are not in the data booklet, and you do not have to remember them.</p>
+
+        <div class="worked" data-s1-worked data-kicker="Worked answer">
+          <h3 class="worked__title">Explaining a trend in an exam answer</h3>
+          <div class="worked__problem">
+            <p>The boiling points of methanol, ethanol and propan-1-ol are 65 °C, 78 °C and 97 °C. Explain this trend. [2 marks]</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Say what stays the same">
+              <p class="worked__why">This shows you know which force is <em>not</em> the cause of the change.</p>
+              <p>All three molecules have one hydroxyl group, so each can form hydrogen bonds in the same way.</p>
+            </li>
+            <li data-title="Say what changes">
+              <p class="worked__why">Each member has one more <span class="chem">CH2</span> than the one before.</p>
+              <p>From methanol to propan-1-ol the molecules have more electrons (a greater molar mass and a larger surface area).</p>
+            </li>
+            <li data-title="Name the force and finish the argument">
+              <p class="worked__why">The mark is for the named force, linked to the energy needed.</p>
+              <p>So the London (dispersion) forces between the molecules become stronger. More energy is needed to separate the molecules, so the boiling point increases.</p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>London (dispersion) forces become stronger [1] because the molecules have more electrons / greater molar mass / larger surface area as the chain length increases [1].</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="98" data-tolerance="6" data-unit="°C" data-title="Try it: predict">
+          <div class="tryit__q"><p>Butane boils at 0 °C, pentane at 36 °C and hexane at 69 °C. Estimate the boiling point of heptane, the next alkane. An answer within 6 °C of the measured value counts as correct.</p></div>
+          <ol class="tryit__hints">
+            <li>Find how much the boiling point rises for each extra <span class="chem">CH2</span>.</li>
+            <li>The rises are 36 °C and then 33 °C. The steps are getting a little smaller, so add about 30 °C to 69 °C.</li>
+          </ol>
+          <div class="tryit__solution">
+            <p>The steps are +36 °C and +33 °C. A sensible next step is about +30 °C, which gives about 99 °C. The measured boiling point of heptane is 98 °C.</p>
+          </div>
+        </div>
+
+        <div data-s1-quiz data-topic="s3-2" data-syllabus="Structure 3.2.4" data-count="4" data-title="Boiling point trends: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 3.2.5 -->
+      <section class="topic-section" id="naming" data-toc="IUPAC names">
+        <span class="section-code">Structure 3.2.5</span>
+        <h2>IUPAC names</h2>
+        <p>A postal address is built from fixed parts in a fixed order, so that it points to exactly one house. A chemical name works in the same way. If you know the rules, you can turn any name into a structure, and any structure into a name.</p>
+        <p><dfn>IUPAC nomenclature</dfn> is the set of rules for naming compounds. IUPAC is the International Union of Pure and Applied Chemistry. The rules give each compound a systematic name that chemists everywhere can read.</p>
+
+        <aside class="callout callout--scope" data-title="What you must be able to name">
+          <p>You name compounds that have: a parent chain of one to six carbon atoms; only single bonds between carbons, or one C=C or C≡C; and one type of group out of halogeno, hydroxyl, carbonyl and carboxyl. The chain can be straight or branched.</p>
+          <p>That means alkanes, alkenes, alkynes, halogenoalkanes, alcohols, aldehydes, ketones and carboxylic acids. You must <em>recognize</em> ethers, amines, amides and esters as classes, but the guide does not ask you to name them. Their names may be given to you in a question. You also do not name compounds with two different functional groups, or with rings.</p>
+        </aside>
+
+        <h3>The three parts of a name</h3>
+        <ul class="s32-parts">
+          <li><b>prefix</b> – what is attached to the chain, and where</li>
+          <li><b>stem</b> – how many carbons are in the parent chain</li>
+          <li><b>ending</b> – the type of carbon–carbon bonds, and the functional group</li>
+        </ul>
+        <p>For example, in <span class="s32-name" data-i18n="off">2-methylbutan-1-ol</span> the prefix is 2-methyl, the stem is but, and the ending is an-1-ol.</p>
+        <div class="two-col">
+          <div class="table-scroll">
+            <table class="data">
+              <caption>Stems</caption>
+              <thead><tr><th scope="col" class="num">Carbons in the parent chain</th><th scope="col">Stem</th></tr></thead>
+              <tbody>
+                <tr><td class="num">1</td><td>meth-</td></tr>
+                <tr><td class="num">2</td><td>eth-</td></tr>
+                <tr><td class="num">3</td><td>prop-</td></tr>
+                <tr><td class="num">4</td><td>but-</td></tr>
+                <tr><td class="num">5</td><td>pent-</td></tr>
+                <tr><td class="num">6</td><td>hex-</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="table-scroll">
+            <table class="data">
+              <caption>Prefixes for things attached to the chain</caption>
+              <thead><tr><th scope="col">Attached group</th><th scope="col">Prefix</th></tr></thead>
+              <tbody>
+                <tr><td data-i18n="off"><span class="s32-f">–CH<sub>3</sub></span></td><td>methyl</td></tr>
+                <tr><td data-i18n="off"><span class="s32-f">–CH<sub>2</sub>CH<sub>3</sub></span></td><td>ethyl</td></tr>
+                <tr><td data-i18n="off"><span class="s32-f">–F</span></td><td>fluoro</td></tr>
+                <tr><td data-i18n="off"><span class="s32-f">–Cl</span></td><td>chloro</td></tr>
+                <tr><td data-i18n="off"><span class="s32-f">–Br</span></td><td>bromo</td></tr>
+                <tr><td data-i18n="off"><span class="s32-f">–I</span></td><td>iodo</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Endings</caption>
+            <thead><tr><th scope="col">Class</th><th scope="col">Ending</th><th scope="col">Example</th><th scope="col">Skeletal formula</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">alkane</th><td>-ane</td><td>propane</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="propane" data-view="skeletal" data-scale="26" data-label="propane"></div></td></tr>
+              <tr><th scope="row">alkene</th><td>-ene</td><td>but-1-ene</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="but1ene" data-view="skeletal" data-scale="26" data-label="but-1-ene"></div></td></tr>
+              <tr><th scope="row">alkyne</th><td>-yne</td><td>propyne</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="propyne" data-view="skeletal" data-scale="26" data-label="propyne"></div></td></tr>
+              <tr><th scope="row">halogenoalkane</th><td>-ane, with a halogen prefix</td><td>2-chloropropane</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="chloropropane2" data-view="skeletal" data-scale="26" data-label="2-chloropropane"></div></td></tr>
+              <tr><th scope="row">alcohol</th><td>-ol</td><td>propan-2-ol</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="propan2ol" data-view="skeletal" data-scale="26" data-label="propan-2-ol"></div></td></tr>
+              <tr><th scope="row">aldehyde</th><td>-al</td><td>propanal</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="propanal" data-view="skeletal" data-scale="26" data-label="propanal"></div></td></tr>
+              <tr><th scope="row">ketone</th><td>-one</td><td>pentan-2-one</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="pentan2one" data-view="skeletal" data-scale="26" data-label="pentan-2-one"></div></td></tr>
+              <tr><th scope="row">carboxylic acid</th><td>-oic acid</td><td>propanoic acid</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="propanoic" data-view="skeletal" data-scale="26" data-label="propanoic acid"></div></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The letters before the ending tell you about the carbon–carbon bonds: <b>-an-</b> means all single, <b>-en-</b> means one C=C, and <b>-yn-</b> means one C≡C. So <span class="s32-name" data-i18n="off">but-2-enoic acid</span> is a four-carbon carboxylic acid with a C=C that starts at carbon 2.</p>
+
+        <h3>Method in words</h3>
+        <ol>
+          <li><strong>Find the parent chain.</strong> It is the longest chain of carbon atoms that contains the carbon of the functional group, and the C=C or C≡C if there is one. The chain may bend. Its length gives the stem.</li>
+          <li><strong>Number the chain.</strong> Start from the end that gives the lowest number to the group named by the ending. If there is no such group, give the lowest number to the C=C or C≡C. If there is none of those, give the lowest numbers to the attached groups.</li>
+          <li><strong>Name what is attached.</strong> Each branch or halogen gets a prefix and the number of the carbon it is on. Use di- for two of the same kind and tri- for three. Put different prefixes in alphabetical order (ignore di- and tri- when you sort).</li>
+          <li><strong>Put the name together.</strong> Prefix, stem, ending. Write commas between numbers and hyphens between a number and a letter.</li>
+        </ol>
+        <p>Two more rules save time. The carbon of an aldehyde group or a carboxyl group is always carbon 1, so its number is never written: propanal, not propan-1-al. And a number is left out when only one position is possible: ethanol, propene, propanone, butanone.</p>
+
+        <aside class="callout callout--mistake">
+          <p>The longest chain is not always drawn in a straight line. Trace every path through the carbons before you choose. A “2-ethyl” branch usually means you missed a longer chain. For example, “2-ethylbutane” is really 3-methylpentane.</p>
+        </aside>
+
+        <div class="worked" data-s1-worked data-kicker="Naming example 1">
+          <h3 class="worked__title">An alcohol with a position number</h3>
+          <div class="worked__problem">
+            <p>Name this compound.</p>
+            <div class="s32-figrow"><div class="s32-fig"><div data-s32-mol="butan2ol" data-view="skeletal" data-scale="44" data-label="Skeletal formula: a zig-zag chain of four carbons with an OH group on the second carbon from the right"></div></div></div>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the parent chain">
+              <p class="worked__why">It must contain the carbon that carries the OH.</p>
+              <p>The longest chain has four carbons. Stem: <b>but-</b>. All carbon–carbon bonds are single: <b>butan-</b>.</p>
+            </li>
+            <li data-title="Number the chain">
+              <p class="worked__why">The OH carbon must get the lowest possible number.</p>
+              <p>From the right-hand end the OH is on carbon 2. From the left-hand end it would be on carbon 3. So number from the right.</p>
+              <div class="s32-figrow"><div class="s32-fig"><div data-s32-mol="butan2ol" data-view="skeletal" data-numbers data-scale="44" data-label="The same skeletal formula with the chain numbered 1 to 4 from the right. The OH is on carbon 2."></div></div></div>
+            </li>
+            <li data-title="Name what is attached">
+              <p class="worked__why">Only the OH is attached, and the ending names it.</p>
+              <p>No prefix is needed. The ending is <b>-2-ol</b>.</p>
+            </li>
+            <li data-title="Put the name together">
+              <p class="worked__why">Hyphens go between numbers and letters.</p>
+              <div class="worked__math"><b>butan-2-ol</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>butan-2-ol</p></div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Naming example 2">
+          <h3 class="worked__title">A branched halogenoalkane</h3>
+          <div class="worked__problem">
+            <p>Name <span class="chem">CH3CHBrCH(CH3)CH3</span>.</p>
+            <div class="s32-figrow"><div class="s32-fig"><div data-s32-mol="CC(Br)C(C)C" data-view="skeletal" data-scale="44" data-label="Skeletal formula: a zig-zag chain of four carbons. One of the two middle carbons carries a Br atom and the other carries a one-carbon branch."></div></div></div>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the parent chain">
+              <p class="worked__why">There is no group that needs an ending, so take the longest carbon chain.</p>
+              <p>The longest chain has four carbons: <b>butane</b>. One carbon is left over as a branch.</p>
+            </li>
+            <li data-title="Number the chain">
+              <p class="worked__why">The attached groups should get the lowest numbers.</p>
+              <p>From one end the attached groups are on carbons 2 and 3. From the other end they are also on carbons 2 and 3. It is a tie.</p>
+            </li>
+            <li data-title="Break the tie with the alphabet">
+              <p class="worked__why">When the numbers are the same from both ends, the prefix that comes first in the alphabet gets the lower number.</p>
+              <p>Bromo comes before methyl. So Br is on carbon 2 and the <span class="chem">CH3</span> branch is on carbon 3.</p>
+              <div class="s32-figrow"><div class="s32-fig"><div data-s32-mol="CC(Br)C(C)C" data-view="skeletal" data-numbers data-scale="44" data-label="The same skeletal formula with the chain numbered so that Br is on carbon 2 and the branch on carbon 3"></div></div></div>
+            </li>
+            <li data-title="Put the name together">
+              <p class="worked__why">Prefixes in alphabetical order, each with its number.</p>
+              <div class="worked__math"><b>2-bromo-3-methylbutane</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>2-bromo-3-methylbutane</p></div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Naming example 3">
+          <h3 class="worked__title">A branched ketone</h3>
+          <div class="worked__problem">
+            <p>Name this compound.</p>
+            <div class="s32-figrow"><div class="s32-fig"><div data-s32-mol="CC(C)CC(C)=O" data-view="skeletal" data-scale="44" data-label="Skeletal formula: a zig-zag chain of five carbons. The second carbon from the left carries a one-carbon branch. The second carbon from the right has a double bond to an O."></div></div></div>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the parent chain">
+              <p class="worked__why">It must contain the carbon of the C=O.</p>
+              <p>The longest chain through the C=O carbon has five carbons: <b>pentan-</b>. The C=O is inside the chain, so this is a ketone. Ending: <b>-one</b>.</p>
+            </li>
+            <li data-title="Number the chain">
+              <p class="worked__why">The C=O carbon gets the lowest possible number. The branch does not decide.</p>
+              <p>From the right the C=O is carbon 2. From the left it would be carbon 4. Number from the right.</p>
+              <div class="s32-figrow"><div class="s32-fig"><div data-s32-mol="CC(C)CC(C)=O" data-view="skeletal" data-numbers data-scale="44" data-label="The same skeletal formula numbered from the right: the C=O is carbon 2 and the branch is on carbon 4"></div></div></div>
+            </li>
+            <li data-title="Name what is attached">
+              <p class="worked__why">Use the numbers you have just fixed.</p>
+              <p>A <span class="chem">CH3</span> branch on carbon 4: <b>4-methyl</b>.</p>
+            </li>
+            <li data-title="Put the name together">
+              <p class="worked__why">Prefix, stem, ending.</p>
+              <div class="worked__math"><b>4-methylpentan-2-one</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>4-methylpentan-2-one</p></div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Naming example 4">
+          <h3 class="worked__title">A branched carboxylic acid</h3>
+          <div class="worked__problem">
+            <p>Name <span class="chem">CH3CH(CH3)CH2COOH</span>.</p>
+            <div class="s32-figrow"><div class="s32-fig"><div data-s32-mol="methylbutanoic" data-view="skeletal" data-scale="44" data-label="Skeletal formula: a chain of four carbons. The right-hand carbon has a double bond to O and a single bond to OH. The second carbon from the left carries a one-carbon branch."></div></div></div>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the parent chain">
+              <p class="worked__why">The carbon of the COOH group is part of the chain. Count it.</p>
+              <p>The longest chain that includes the COOH carbon has four carbons: <b>butan-</b>. Ending: <b>-oic acid</b>.</p>
+            </li>
+            <li data-title="Number the chain">
+              <p class="worked__why">The carboxyl carbon is always carbon 1.</p>
+              <div class="s32-figrow"><div class="s32-fig"><div data-s32-mol="methylbutanoic" data-view="skeletal" data-numbers data-scale="44" data-label="The same skeletal formula numbered from the COOH carbon, which is carbon 1. The branch is on carbon 3."></div></div></div>
+            </li>
+            <li data-title="Name what is attached">
+              <p class="worked__why">Count along from carbon 1.</p>
+              <p>A <span class="chem">CH3</span> branch on carbon 3: <b>3-methyl</b>.</p>
+            </li>
+            <li data-title="Put the name together">
+              <p class="worked__why">No number is written for the COOH carbon, because it is always 1.</p>
+              <div class="worked__math"><b>3-methylbutanoic acid</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>3-methylbutanoic acid</p></div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Naming example 5">
+          <h3 class="worked__title">A branched alkene</h3>
+          <div class="worked__problem">
+            <p>Name this compound.</p>
+            <div class="s32-figrow"><div class="s32-fig"><div data-s32-mol="CC(C)C=CC" data-view="skeletal" data-scale="44" data-label="Skeletal formula: a zig-zag chain of five carbons with a double bond between the third and fourth carbons from the left. The second carbon from the left carries a one-carbon branch."></div></div></div>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the parent chain">
+              <p class="worked__why">It must contain both carbons of the C=C.</p>
+              <p>The longest chain through the C=C has five carbons, and it has one double bond: <b>pent-…-ene</b>.</p>
+            </li>
+            <li data-title="Number the chain">
+              <p class="worked__why">With no group that needs an ending, the C=C gets the lowest number. It beats the branch.</p>
+              <p>From the right the double bond starts at carbon 2. From the left it would start at carbon 3. Number from the right.</p>
+              <div class="s32-figrow"><div class="s32-fig"><div data-s32-mol="CC(C)C=CC" data-view="skeletal" data-numbers data-scale="44" data-label="The same skeletal formula numbered from the right: the double bond is between carbons 2 and 3 and the branch is on carbon 4"></div></div></div>
+            </li>
+            <li data-title="Name what is attached">
+              <p class="worked__why">Write the number of the first carbon of the double bond.</p>
+              <p>The C=C is between carbons 2 and 3: <b>-2-ene</b>. The <span class="chem">CH3</span> branch is on carbon 4: <b>4-methyl</b>.</p>
+            </li>
+            <li data-title="Put the name together">
+              <p class="worked__why">Prefix, stem, ending.</p>
+              <div class="worked__math"><b>4-methylpent-2-ene</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>4-methylpent-2-ene</p></div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="From name to structure">
+          <h3 class="worked__title">Drawing a structure from a name</h3>
+          <div class="worked__problem">
+            <p>Draw the structural formula of 3-methylbutan-2-ol.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Read the stem: draw the chain">
+              <p class="worked__why">A name is easiest to read from the stem outwards.</p>
+              <p>“but” means four carbons. “an” means only single bonds between them. Draw four carbons in a row and number them 1 to 4.</p>
+            </li>
+            <li data-title="Read the ending: add the group">
+              <p class="worked__why">The number before the ending says which carbon carries the group.</p>
+              <p>“-2-ol” means an O–H on carbon 2.</p>
+            </li>
+            <li data-title="Read the prefix: add the branch">
+              <p class="worked__why">Each prefix has its own number.</p>
+              <p>“3-methyl” means a <span class="chem">CH3</span> group on carbon 3.</p>
+            </li>
+            <li data-title="Add hydrogens until every carbon has four bonds">
+              <p class="worked__why">This turns the carbon skeleton into a complete structural formula.</p>
+              <div class="s32-figrow">
+                <div class="s32-fig"><div data-s32-mol="CC(O)C(C)C" data-view="groups" data-label="Structural formula of 3-methylbutan-2-ol: CH3, then CH with an OH group, then CH with a CH3 branch, then CH3"></div></div>
+                <div class="s32-fig"><div data-s32-mol="CC(O)C(C)C" data-view="skeletal" data-numbers data-scale="44" data-label="Skeletal formula of 3-methylbutan-2-ol with the chain numbered"></div></div>
+              </div>
+            </li>
+            <li data-title="Check">
+              <p class="worked__why" data-label="Check">Name your own drawing again. You should get the name you started with.</p>
+              <p>Longest chain through the OH carbon: 4. OH on carbon 2, not 3. Branch on carbon 3. The name is 3-methylbutan-2-ol, and the formula is <span class="chem">CH3CH(OH)CH(CH3)CH3</span>.</p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p><span class="chem">CH3CH(OH)CH(CH3)CH3</span></p></div>
+        </div>
+
+        <figure data-s1-widget="s3-2.namer" data-title="IUPAC naming trainer" data-kicker="Practice" data-level="1">
+          <p class="widget__fallback">A naming trainer appears here when JavaScript is on. It draws a molecule and takes you through four steps: parent chain, numbering, prefix and full name. A second mode gives a name and asks you to pick the structure.</p>
+          <figcaption>Level 1 has straight chains. Level 2 adds a branch and position numbers. Level 3 has several attached groups, or a C=C together with a functional group. Every molecule is inside the naming limits of the guide.</figcaption>
+        </figure>
+
+        <div data-s1-numeric data-answer="8" data-tolerance="0.4" data-label="Number of C atoms">
+          <div class="tryit__q"><p>How many carbon atoms are in one molecule of 3-ethyl-2-methylpentane?</p></div>
+          <ol class="tryit__hints">
+            <li>Add the carbons of the parent chain and the carbons of each branch.</li>
+            <li>Pentane has 5. An ethyl group has 2. A methyl group has 1.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">C: 5 + 2 + 1 = 8</div>
+            <p>It is an alkane, so its formula is <span class="chem">C8H18</span>. The parent chain still has only five carbons, so the name is inside the limits.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="3" data-tolerance="0.4" data-label="Number on the OH carbon">
+          <div class="tryit__q"><p>In the IUPAC name of <span class="chem">CH3CH2CH(OH)CH2CH2CH3</span>, which number does the carbon with the OH group get?</p></div>
+          <ol class="tryit__hints">
+            <li>The chain has six carbons. Number it from each end in turn.</li>
+            <li>From the left the OH is on carbon 3. From the right it is on carbon 4. Take the lower number.</li>
+          </ol>
+          <div class="tryit__solution">
+            <p>The lower number is 3, so the compound is hexan-3-ol.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>Markschemes have accepted names with a missing hyphen, and prefixes that are not in alphabetical order. A wrong parent chain, a wrong number or a wrong ending is not accepted. Write the name in the standard form anyway, so that it cannot be misread.</p>
+        </aside>
+        <aside class="callout callout--scope">
+          <p>Older books write the number in front of the whole name, as in “2-butanol”. Many everyday names are also still used, such as acetone, acetic acid, isopropyl and tert-butyl. You do not need them. You also do not need E/Z or cis–trans labels here: on this page <span class="s32-name" data-i18n="off">but-2-ene</span> is a complete name.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s3-2" data-syllabus="Structure 3.2.5" data-count="5" data-title="IUPAC names: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 3.2.6 -->
+      <section class="topic-section" id="isomers" data-toc="Structural isomers">
+        <span class="section-code">Structure 3.2.6</span>
+        <h2>Structural isomers</h2>
+        <p>With the same set of building blocks you can build different models. Atoms are the same. Four carbon atoms and ten hydrogen atoms can be joined in two different ways.</p>
+        <div class="s32-figrow">
+          <div class="s32-fig"><div data-s32-mol="butane" data-view="groups" data-scale="30" data-label="butane: four carbons in a row"></div><p>butane, boiling point 0 °C</p></div>
+          <div class="s32-fig"><div data-s32-mol="methylpropane" data-view="groups" data-scale="30" data-label="2-methylpropane: three carbons in a row with a CH3 branch on the middle carbon"></div><p>2-methylpropane, boiling point −12 °C</p></div>
+        </div>
+        <p><dfn>Structural isomers</dfn> are molecules that have the same molecular formula but different connectivities. <dfn>Connectivity</dfn> means which atom is bonded to which. Structural isomers are different compounds, with different names and different properties.</p>
+
+        <h3>Three types to recognize</h3>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Types of structural isomers</caption>
+            <thead><tr><th scope="col">Type</th><th scope="col">What is different</th><th scope="col">Example pair</th><th scope="col">Formula</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Chain isomers</th><td>The carbon chain: straight in one, branched in the other (or branched in a different way).</td>
+                <td class="s32-cell" data-i18n="off"><div data-s32-mol="butane" data-view="skeletal" data-scale="26" data-label="butane"></div><div data-s32-mol="methylpropane" data-view="skeletal" data-scale="26" data-label="2-methylpropane"></div></td><td data-i18n="off"><span class="chem">C4H10</span></td></tr>
+              <tr><th scope="row">Position isomers</th><td>The position of the functional group on the same carbon chain.</td>
+                <td class="s32-cell" data-i18n="off"><div data-s32-mol="propan1ol" data-view="skeletal" data-scale="26" data-label="propan-1-ol"></div><div data-s32-mol="propan2ol" data-view="skeletal" data-scale="26" data-label="propan-2-ol"></div></td><td data-i18n="off"><span class="chem">C3H8O</span></td></tr>
+              <tr><th scope="row">Functional group isomers</th><td>The functional group itself, so the compounds are in different classes.</td>
+                <td class="s32-cell" data-i18n="off"><div data-s32-mol="propanal" data-view="skeletal" data-scale="26" data-label="propanal"></div><div data-s32-mol="propanone" data-view="skeletal" data-scale="26" data-label="propanone"></div></td><td data-i18n="off"><span class="chem">C3H6O</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Pairs of classes that share a general formula give functional group isomers: alcohols and ethers, aldehydes and ketones, carboxylic acids and esters.</p>
+        <p>To decide the type, ask three questions in order. Are the functional groups the same? If not, they are functional group isomers. If yes, is the carbon chain the same? If not, they are chain isomers. If yes, only the position of the group is different.</p>
+
+        <aside class="callout callout--mistake">
+          <p>Bending a chain or turning a drawing over does not make a new isomer. The atoms are still joined in the same order. To test two drawings, name them both. Same name means same molecule.</p>
+        </aside>
+        <div class="s32-figrow">
+          <div class="s32-fig s32-fig--box"><div data-s32-mol="CCCC" data-view="groups" data-scale="28" data-label="butane drawn as a straight row of four carbons"></div><p>butane</p></div>
+          <div class="s32-fig s32-fig--box"><div data-s32-mol="C(C)CC" data-view="groups" data-scale="28" data-label="butane drawn with the first carbon bent upwards"></div><p>also butane: the longest chain still has four carbons</p></div>
+        </div>
+
+        <figure data-s1-widget="s3-2.pairs" data-title="Classify the pair" data-kicker="Practice">
+          <p class="widget__fallback">A practice exercise appears here when JavaScript is on. It shows two skeletal formulas and asks whether they are chain isomers, position isomers, functional group isomers or the same molecule.</p>
+          <figcaption>Some pairs are one molecule drawn in two ways. Trace the chain in each drawing before you decide.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Finding every structural isomer of C<sub>4</sub>H<sub>10</sub>O</h3>
+          <div class="worked__problem">
+            <p>Deduce the number of structural isomers with the molecular formula <span class="chem">C4H10O</span>, and draw them.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Decide which classes are possible">
+              <p class="worked__why">A system stops you from missing isomers and from counting one twice.</p>
+              <p>The formula fits <span class="s32-f" data-i18n="off">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>O</span>, so there are no double bonds and no rings. One O with only single bonds is either a hydroxyl group (an alcohol) or an alkoxy group (an ether).</p>
+            </li>
+            <li data-title="Alcohols: draw each carbon chain">
+              <p class="worked__why">Four carbons can be joined in only two ways.</p>
+              <p>A straight chain of four carbons, or a chain of three with a one-carbon branch in the middle.</p>
+            </li>
+            <li data-title="Alcohols: put the OH on each different carbon">
+              <p class="worked__why">Carbons that are equivalent by symmetry give the same compound.</p>
+              <p>The straight chain has two different positions: an end carbon or an inner carbon. The branched chain also has two: one of the three equivalent <span class="chem">CH3</span> carbons, or the central carbon. That makes 4 alcohols.</p>
+              <div class="s32-figrow">
+                <div class="s32-fig"><div data-s32-mol="butan1ol" data-view="skeletal" data-scale="30" data-label="butan-1-ol"></div><p>butan-1-ol</p></div>
+                <div class="s32-fig"><div data-s32-mol="butan2ol" data-view="skeletal" data-scale="30" data-label="butan-2-ol"></div><p>butan-2-ol</p></div>
+                <div class="s32-fig"><div data-s32-mol="methylpropan1ol" data-view="skeletal" data-scale="30" data-label="2-methylpropan-1-ol"></div><p>2-methylpropan-1-ol</p></div>
+                <div class="s32-fig"><div data-s32-mol="methylpropan2ol" data-view="skeletal" data-scale="30" data-label="2-methylpropan-2-ol"></div><p>2-methylpropan-2-ol</p></div>
+              </div>
+            </li>
+            <li data-title="Ethers: share the four carbons between the two sides of the O">
+              <p class="worked__why">The O must sit between two carbons.</p>
+              <p>One carbon and three carbons: the three-carbon group can be joined to the O by its end carbon or by its middle carbon, which gives 2 ethers. Two carbons and two carbons gives 1 more. That makes 3 ethers.</p>
+              <div class="s32-figrow">
+                <div class="s32-fig"><div data-s32-mol="methoxypropane1" data-view="skeletal" data-scale="30" data-label="1-methoxypropane"></div><p><span class="chem">CH3OCH2CH2CH3</span></p></div>
+                <div class="s32-fig"><div data-s32-mol="methoxypropane2" data-view="skeletal" data-scale="30" data-label="2-methoxypropane"></div><p><span class="chem">CH3OCH(CH3)CH3</span></p></div>
+                <div class="s32-fig"><div data-s32-mol="ethoxyethane" data-view="skeletal" data-scale="30" data-label="ethoxyethane"></div><p><span class="chem">CH3CH2OCH2CH3</span></p></div>
+              </div>
+            </li>
+            <li data-title="Add up, and check for repeats">
+              <p class="worked__why" data-label="Check">Name each alcohol. If two have the same name, they are the same compound.</p>
+              <div class="worked__math">4 alcohols + 3 ethers = <b>7 structural isomers</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>7 structural isomers: 4 alcohols and 3 ethers.</p></div>
+        </div>
+
+        <figure data-s1-widget="s3-2.isomers" data-title="Isomer builder" data-start="C4H10">
+          <p class="widget__fallback">An interactive builder appears here when JavaScript is on. You draw every structural isomer of a molecular formula. It names each new isomer, says how it is related to the others, and tells you when a drawing repeats a molecule you have already found.</p>
+          <figcaption>Start with <span class="chem">C4H10</span>, then try the others. The builder draws open chains only. Names of ethers, esters and amines are shown for interest: you are not asked to name those classes.</figcaption>
+        </figure>
+
+        <div data-s1-numeric data-answer="4" data-tolerance="0.4" data-label="Number of isomers">
+          <div class="tryit__q"><p>How many structural isomers have the molecular formula <span class="chem">C4H9Br</span>?</p></div>
+          <ol class="tryit__hints">
+            <li>Draw the two possible four-carbon chains first.</li>
+            <li>On each chain, put the Br on every carbon that is in a different position. Each chain gives two.</li>
+          </ol>
+          <div class="tryit__solution">
+            <p>1-bromobutane, 2-bromobutane, 1-bromo-2-methylpropane and 2-bromo-2-methylpropane: 4 isomers.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="3" data-tolerance="0.4" data-label="Number of isomers">
+          <div class="tryit__q"><p>How many structural isomers have the molecular formula <span class="chem">C5H12</span>?</p></div>
+          <ol class="tryit__hints">
+            <li>Start with the straight chain. Then shorten the longest chain by one carbon and attach that carbon as a branch.</li>
+            <li>A chain of four with one branch gives one isomer. A chain of three with two branches gives one more.</li>
+          </ol>
+          <div class="tryit__solution">
+            <p>Pentane, 2-methylbutane and 2,2-dimethylpropane: 3 isomers. “3-methylbutane” is 2-methylbutane numbered from the wrong end.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>When you are asked to draw an isomer, a molecular formula does not earn the mark: draw a structural formula. Read any condition in the question, such as “an isomer that is not an ester”. Then check that your answer has the same molecular formula as the compound you were given.</p>
+        </aside>
+        <aside class="callout callout--scope">
+          <p>Rings can also be isomers of open-chain compounds. For example, cyclobutane has the same formula as the butenes, <span class="chem">C4H8</span>. You may see such answers accepted, but you are not asked to name ring compounds here. Isomers that differ only in their 3-D arrangement (stereoisomers) are Additional HL.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s3-2" data-syllabus="Structure 3.2.6" data-count="5" data-title="Isomers: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 3.2.6 (classification) -->
+      <section class="topic-section" id="degree" data-toc="Primary, secondary, tertiary">
+        <span class="section-code">Structure 3.2.6</span>
+        <h2>Primary, secondary and tertiary</h2>
+        <p>Position isomers such as propan-1-ol and propan-2-ol have the same functional group, but they do not react in exactly the same way. What matters is how crowded the group is. Chemists describe this with three words.</p>
+
+        <h3>Alcohols and halogenoalkanes: count on the carbon</h3>
+        <p>Find the carbon atom that is bonded to the OH group or to the halogen. Count how many <em>other carbon atoms</em> are bonded directly to that carbon.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Classifying alcohols (halogenoalkanes work in the same way)</caption>
+            <thead><tr><th scope="col">Carbon atoms on the carbon that carries the group</th><th scope="col">Class</th><th scope="col">Example</th><th scope="col">Structure</th></tr></thead>
+            <tbody>
+              <tr><td>one</td><th scope="row"><dfn>primary</dfn></th><td>propan-1-ol</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="propan1ol" data-view="groups" data-scale="27" data-label="propan-1-ol: the carbon with the OH is bonded to one other carbon"></div></td></tr>
+              <tr><td>two</td><th scope="row"><dfn>secondary</dfn></th><td>propan-2-ol</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="propan2ol" data-view="groups" data-scale="27" data-label="propan-2-ol: the carbon with the OH is bonded to two other carbons"></div></td></tr>
+              <tr><td>three</td><th scope="row"><dfn>tertiary</dfn></th><td>2-methylpropan-2-ol</td><td class="s32-cell" data-i18n="off"><div data-s32-mol="methylpropan2ol" data-view="groups" data-scale="27" data-label="2-methylpropan-2-ol: the carbon with the OH is bonded to three other carbons"></div></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Amines: count on the nitrogen</h3>
+        <p>For an amine the rule is different. Count how many carbon atoms are bonded directly to the <em>nitrogen atom</em>.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Classifying amines</caption>
+            <thead><tr><th scope="col">Carbon atoms on the nitrogen</th><th scope="col">Class</th><th scope="col">Example</th><th scope="col">Structure</th></tr></thead>
+            <tbody>
+              <tr><td>one</td><th scope="row">primary</th><td data-i18n="off"><span class="chem">CH3CH2NH2</span></td><td class="s32-cell" data-i18n="off"><div data-s32-mol="ethanamine" data-view="groups" data-scale="27" data-label="A primary amine: the nitrogen is bonded to one carbon and two hydrogens"></div></td></tr>
+              <tr><td>two</td><th scope="row">secondary</th><td data-i18n="off"><span class="chem">CH3NHCH3</span></td><td class="s32-cell" data-i18n="off"><div data-s32-mol="dimethylamine" data-view="groups" data-scale="27" data-label="A secondary amine: the nitrogen is bonded to two carbons and one hydrogen"></div></td></tr>
+              <tr><td>three</td><th scope="row">tertiary</th><td data-i18n="off"><span class="chem">(CH3)3N</span></td><td class="s32-cell" data-i18n="off"><div data-s32-mol="trimethylamine" data-view="groups" data-scale="27" data-label="A tertiary amine: the nitrogen is bonded to three carbons and no hydrogens"></div></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <aside class="callout callout--mistake">
+          <p>Do not use the carbon rule for an amine. In <span class="chem">CH3CH(NH2)CH3</span> the carbon next to the N has two carbon neighbours, but the N is bonded to only one carbon. It is a <strong>primary</strong> amine.</p>
+        </aside>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Classifying three compounds</h3>
+          <div class="worked__problem">
+            <p>Classify each compound as primary, secondary or tertiary: (a) <span class="chem">(CH3)3CBr</span>, (b) <span class="chem">CH3CH2CH(OH)CH3</span>, (c) <span class="chem">CH3NHCH2CH3</span>.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="(a) Find the carbon bonded to Br">
+              <p class="worked__why">For a halogenoalkane, you count on the carbon that carries the halogen.</p>
+              <div class="s32-figrow"><div class="s32-fig"><div data-s32-mol="bromomethylpropane2" data-view="groups" data-scale="30" data-label="2-bromo-2-methylpropane: a central carbon bonded to Br and to three CH3 groups"></div></div></div>
+              <p>That carbon is bonded to three <span class="chem">CH3</span> groups. Three carbons: <b>tertiary</b> halogenoalkane.</p>
+            </li>
+            <li data-title="(b) Find the carbon bonded to OH">
+              <p class="worked__why">For an alcohol, you count on the carbon that carries the OH.</p>
+              <div class="s32-figrow"><div class="s32-fig"><div data-s32-mol="butan2ol" data-view="groups" data-scale="30" data-label="butan-2-ol: the carbon with the OH is bonded to a CH3 group and a CH2 group"></div></div></div>
+              <p>That carbon is bonded to a <span class="chem">CH2</span> on one side and a <span class="chem">CH3</span> on the other. Two carbons: <b>secondary</b> alcohol.</p>
+            </li>
+            <li data-title="(c) Look at the nitrogen itself">
+              <p class="worked__why">For an amine, you count on the N, not on a carbon.</p>
+              <div class="s32-figrow"><div class="s32-fig"><div data-s32-mol="nmethylethanamine" data-view="groups" data-scale="30" data-label="CH3 bonded to NH, which is bonded to CH2, then CH3"></div></div></div>
+              <p>The N is bonded to a <span class="chem">CH3</span> carbon, a <span class="chem">CH2</span> carbon and one H. Two carbons: <b>secondary</b> amine.</p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>(a) tertiary, (b) secondary, (c) secondary.</p></div>
+        </div>
+
+        <figure data-s1-widget="s3-2.degree" data-title="Primary, secondary or tertiary?" data-kicker="Practice">
+          <p class="widget__fallback">A practice exercise appears here when JavaScript is on. It shows an alcohol, a halogenoalkane or an amine. You choose the atom to look at, count its carbon neighbours, then classify the compound.</p>
+          <figcaption>Twenty molecules in a random order. Watch for the amines: the atom you look at changes.</figcaption>
+        </figure>
+
+        <div data-s1-numeric data-answer="3" data-tolerance="0.4" data-label="Number of C atoms">
+          <div class="tryit__q"><p>In 2-methylbutan-2-ol, <span class="chem">CH3CH2C(CH3)(OH)CH3</span>, how many carbon atoms are bonded directly to the carbon that carries the OH group?</p></div>
+          <ol class="tryit__hints">
+            <li>Find the carbon written just before <span class="chem">(CH3)(OH)</span>. It carries the OH.</li>
+            <li>Its neighbours are the <span class="chem">CH2</span> before it, the <span class="chem">CH3</span> in brackets and the <span class="chem">CH3</span> after it.</li>
+          </ol>
+          <div class="tryit__solution">
+            <p>Three carbon atoms, so 2-methylbutan-2-ol is a tertiary alcohol.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--scope" data-title="Comes later">
+          <p>Why does this matter? Primary, secondary and tertiary alcohols give different products when they are oxidized (Reactivity 3.2). Primary and tertiary halogenoalkanes react by different mechanisms (Reactivity 3.4). Here you only need to classify them.</p>
+        </aside>
+      </section>
+
+      <!-- ============================================================ LINKS -->
+      <section class="topic-section" id="links">
+        <h2>Linking it up</h2>
+        <div class="prose">
+          <h3>What is unique about carbon that enables it to form more compounds than all the other elements together?</h3>
+          <p>A carbon atom forms four covalent bonds. It bonds strongly to other carbon atoms, so it can make long chains, branched chains and rings. It also forms strong bonds to hydrogen, oxygen, nitrogen and the halogens, and it can form double and triple bonds. Each new arrangement is a new compound. Isomers multiply the number again.</p>
+
+          <h3>What are the advantages and disadvantages of the different ways of drawing an organic compound?</h3>
+          <p>A full structural formula shows every atom and bond, so nothing can be misread, but it is slow to draw and its 90° angles are not real. A skeletal formula is fast and shows the shape of the carbon chain and the functional groups clearly, but you must work out the hidden carbon and hydrogen atoms. A stereochemical formula shows the 3-D arrangement around one atom, but it becomes crowded for a large molecule. A 3-D model shows the true shape and can be turned, but it is hard to put on paper. No single picture shows everything, so chemists choose the one that fits the question.</p>
+
+          <h3>How do chain length, branching and the functional group affect intermolecular forces?</h3>
+          <p>A longer chain has more electrons and a larger surface, so London (dispersion) forces are stronger. Branching makes a molecule more compact, so less of its surface touches its neighbours and the London forces are weaker. A polar functional group such as C=O adds dipole–dipole forces. A group with O–H or N–H allows hydrogen bonding. Stronger forces between molecules mean a higher boiling point.</p>
+
+          <h3>How can functional groups be used to plan a route from one compound to another?</h3>
+          <p>Each functional group has its own typical reactions, and many of them turn one group into another. So a chemist can plan a route step by step, group by group. For example, ethene can be converted into ethanol, and ethanol into ethanoic acid. The reactions themselves come later, in Reactivity 3.2 and 3.4.</p>
+        </div>
+      </section>
+
+      <!-- ============================================================ PRACTICE -->
+      <section class="topic-section" id="practice">
+        <h2>Exam-style practice</h2>
+        <p>Three sets, from first steps to stretch. You get feedback after each question, and questions you have not yet answered correctly come up first.</p>
+        <div data-s1-quiz data-topic="s3-2" data-tier="foundation" data-count="6" data-title="3.2 Foundation: one idea at a time"></div>
+        <div data-s1-quiz data-topic="s3-2" data-tier="exam" data-count="6" data-title="3.2 Exam standard"></div>
+        <div data-s1-quiz data-topic="s3-2" data-tier="challenge" data-count="4" data-title="3.2 Challenge"></div>
+
+        <div data-level="ahl">
+          <h3>Next for HL students</h3>
+          <p>The Additional HL part of Structure 3.2 has its own page: stereoisomers (cis–trans and optical isomers), mass spectrometry, infrared spectroscopy, proton NMR spectroscopy and combining the techniques to find a structure.</p>
+          <p><a class="btn" href="s3-2h.html">Go to 3.2 Additional HL</a></p>
+        </div>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../assets/js/mol.js"></script>
+<script src="../assets/js/chart.js"></script>
+<script src="../data/questions-s3-2.js"></script>
+<script src="../assets/js/widgets-s3-2.js"></script>
+</body>
+</html>

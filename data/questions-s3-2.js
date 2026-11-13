@@ -592,7 +592,7 @@
   {
     id: 's3-2-q024', level: 'sl', tier: 'exam', type: 'short', marks: 2,
     syllabus: 'Structure 3.2.4',
-    stem: '<p>The table shows the boiling points of the first six alkanes.</p>' + table('Boiling points of the straight-chain alkanes', ['Alkane', 'Formula', 'Boiling point / °C'], [['methane', cf('CH4'), MINUS + '162'], ['ethane', cf('C2H6'), MINUS + '89'], ['propane', cf('C3H8'), MINUS + '42'], ['butane', cf('C4H10'), MINUS + '0.5'], ['pentane', cf('C5H12'), '36'], ['hexane', cf('C6H14'), '69']]) + '<p>Explain the trend in boiling point shown by the data.</p>',
+    stem: '<p>The table shows the boiling points of the first six alkanes.</p>' + table('Boiling points of the straight-chain alkanes', ['Alkane', 'Boiling point / °C'], [['methane, ' + cf('CH4'), MINUS + '162'], ['ethane, ' + cf('C2H6'), MINUS + '89'], ['propane, ' + cf('C3H8'), MINUS + '42'], ['butane, ' + cf('C4H10'), MINUS + '0.5'], ['pentane, ' + cf('C5H12'), '36'], ['hexane, ' + cf('C6H14'), '69']]) + '<p>Explain the trend in boiling point shown by the data.</p>',
     answer: '<p>The boiling point increases as the number of carbon atoms increases. Each molecule has more electrons (a greater molar mass and a larger surface area) than the one before, so the London (dispersion) forces between the molecules are stronger. More energy is needed to overcome these forces and separate the molecules.</p>',
     markscheme: [
       'More electrons / greater molar mass / larger surface area (as the chain length increases), so stronger London (dispersion) forces between molecules.',
@@ -611,7 +611,7 @@
   {
     id: 's3-2-q026', level: 'sl', tier: 'exam', type: 'mcq', marks: 1,
     syllabus: 'Structure 3.2.4',
-    stem: '<p>Ethanol and propane have similar molar masses, and each molecule has 26 electrons.</p>' + table('Data for two compounds', ['Compound', 'Molar mass / g mol<sup>' + MINUS + '1</sup>', 'Boiling point / °C'], [['propane, ' + cf('CH3CH2CH3'), '44.11', MINUS + '42'], ['ethanol, ' + cf('CH3CH2OH'), '46.08', '78']]) + '<p>Which statement explains why the boiling point of ethanol is much higher?</p>',
+    stem: '<p>Propane and ethanol have similar molar masses (44.11 and 46.08 <span class="unit">g mol-1</span>). Each molecule has 26 electrons.</p>' + table('Boiling points of two compounds', ['Compound', 'Boiling point / °C'], [['propane, ' + cf('CH3CH2CH3'), MINUS + '42'], ['ethanol, ' + cf('CH3CH2OH'), '78']]) + '<p>Which statement explains why the boiling point of ethanol is much higher?</p>',
     options: ['The O' + '–' + 'H covalent bond in ethanol is stronger than the C' + '–' + 'H bonds in propane.', 'Ethanol molecules form hydrogen bonds with each other.', 'Ethanol has much stronger London (dispersion) forces than propane.', 'Ethanol contains ions, and propane does not.'],
     answer: 1,
     misconception: {
@@ -625,7 +625,7 @@
   {
     id: 's3-2-q027', level: 'sl', tier: 'challenge', type: 'short', marks: 3,
     syllabus: 'Structure 3.2.4',
-    stem: '<p>The three compounds in the table are structural isomers with the molecular formula ' + cf('C5H12') + '.</p>' + table('Boiling points of three isomers', ['Compound', 'Condensed formula', 'Boiling point / °C'], [['pentane', cf('CH3CH2CH2CH2CH3'), '36'], ['2-methylbutane', cf('(CH3)2CHCH2CH3'), '28'], ['2,2-dimethylpropane', cf('(CH3)4C'), '9.5']]) + '<p>Explain why the boiling points are different, even though the three compounds have the same molar mass.</p>',
+    stem: '<p>The three compounds in the table are structural isomers with the molecular formula ' + cf('C5H12') + '.</p>' + table('Boiling points of three isomers', ['Compound', 'Boiling point / °C'], [['pentane', '36'], ['2-methylbutane', '28'], ['2,2-dimethylpropane', '9.5']]) + '<p>Pentane, ' + cf('CH3CH2CH2CH2CH3') + ', has no branches. 2-methylbutane, ' + cf('(CH3)2CHCH2CH3') + ', has one branch. 2,2-dimethylpropane, ' + cf('(CH3)4C') + ', has two branches.</p><p>Explain why the boiling points are different, even though the three compounds have the same molar mass.</p>',
     answer: '<p>All three molecules have the same number of electrons, and all three are non-polar, so the only forces between the molecules are London (dispersion) forces. A more branched molecule is more compact (closer to a sphere). It has a smaller surface area in contact with neighbouring molecules. The London (dispersion) forces are therefore weaker, and less energy is needed to separate the molecules. So the boiling point falls as branching increases.</p>',
     markscheme: [
       'The only intermolecular forces are London (dispersion) forces (in all three compounds) / the number of electrons is the same.',

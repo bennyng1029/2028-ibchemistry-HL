@@ -622,9 +622,9 @@
       var polar = model.size > 0, right = polar === saysPolar, why;
       var anyPolar = model.bonds.some(function (b) { return b.diff > 0; });
       if (!anyPolar) why = t('The two atoms are the same, so the bond is not polar. There is nothing to add up.');
-      else if (!polar) why = t('The bonds are polar, but the shape is symmetrical ({shape}). The bond dipoles are equal and are arranged symmetrically, so they cancel.', { shape: shapeName(m.shape) });
+      else if (!polar) why = t('The bonds are polar, but the shape is symmetrical: {shape}. The bond dipoles are equal and are arranged symmetrically, so they cancel.', { shape: m.shape === 'bent' ? t('bent') : shapeName(m.shape) });
       else if (m.o.length === 1) why = t('There is one polar bond, so its dipole is the net dipole.');
-      else why = t('The bond dipoles do not cancel, because of the shape ({shape}) or because the bonds are not all the same. The molecule has a net dipole.', { shape: shapeName(m.shape) });
+      else why = (model.bonds.every(function (b) { return b.b === model.bonds[0].b; }) ? t('The shape is {shape}, which is not symmetrical. The bond dipoles do not cancel, so the molecule has a net dipole.', { shape: m.shape === 'bent' ? t('bent') : shapeName(m.shape) }) : t('The shape is {shape}, but the outer atoms are not all the same. The bond dipoles are not equal, so they do not cancel. The molecule has a net dipole.', { shape: m.shape === 'bent' ? t('bent') : shapeName(m.shape) }));
       if (m.k === 'nh4') why += ' ' + t('The ion still has its overall charge of 1+, but it has no net dipole.');
       if (m.k === 'ch4') why += ' ' + t('The C–H difference is only 0.4, so each bond is only slightly polar anyway.');
       fb.set(right ? 'right' : 'wrong', right ? t('Correct.') : t('Not this time.'), '<p>' + why + '</p>');
@@ -696,8 +696,9 @@
       if (revealed) {
         ctx.font = f.body(13, true); ctx.fillStyle = ink;
         if (model.size > 0) {
-          var o = project([0, 0, 0], W, H, scale), tip = project([model.net[0], model.net[1], model.net[2]].map(function (v) { return v / model.size * 1.5; }), W, H, scale);
-          var ox = two ? W / 2 : o.x, oy = two ? H / 2 - 52 : o.y, tx = ox + (tip.x - o.x), ty = oy + (tip.y - o.y);
+          var o = project([0, 0, 0], W, H, scale), tip = project([model.net[0], model.net[1], model.net[2]].map(function (v) { return v / model.size * 1.05; }), W, H, scale);
+          var ddx = tip.x - o.x, ddy = tip.y - o.y, dl = Math.hypot(ddx, ddy) || 1, push = dl < 12 ? 0 : 20;
+          var ox = two ? W / 2 - ddx / 2 : o.x + ddx / dl * push, oy = two ? H / 2 - 46 : o.y + ddy / dl * push, tx = ox + ddx, ty = oy + ddy;
           ctx.strokeStyle = ink; ctx.fillStyle = ink; ctx.globalAlpha = 0.9; arrow(ctx, ox, oy, tx, ty, 5, false); ctx.globalAlpha = 1;
           ctx.fillText(t('Thick arrow: net dipole'), 8, 16, W - 16);
         } else ctx.fillText(t('No net dipole'), 8, 16, W - 16);
@@ -814,7 +815,7 @@
   S1.widgets.register('s2-2.hbond', function (w) {
     // Angles in degrees, 0 = right, anticlockwise. Donor: X at the left with its H pointing right (0°). Acceptor: Y at the right, lone pair pointing left (180°).
     var PAIRS = {
-      water: { label: t('Water and water'), don: { el: 'O', subs: [{ el: 'H', a: 104.5 }], lone: [200, 270] }, acc: { el: 'O', subs: [{ el: 'H', a: -15 }, { el: 'H', a: -120 }], lone: [80] } },
+      water: { label: t('Water and water'), don: { el: 'O', subs: [{ el: 'H', a: 104.5 }], lone: [200, 270] }, acc: { el: 'O', subs: [{ el: 'H', a: -10 }, { el: 'H', a: -115 }], lone: [95] } },
       ammonia: { label: t('Ammonia and ammonia'), don: { el: 'N', subs: [{ el: 'H', a: 107 }, { el: 'H', a: 253 }], lone: [180] }, acc: { el: 'N', subs: [{ el: 'H', a: 62 }, { el: 'H', a: 0 }, { el: 'H', a: -62 }], lone: [] } },
       hf: { label: t('Hydrogen fluoride and hydrogen fluoride'), don: { el: 'F', subs: [], lone: [90, 180, 270] }, acc: { el: 'F', subs: [{ el: 'H', a: -60 }], lone: [75] } },
       ethanol: { label: t('Ethanol and water'), don: { el: 'O', subs: [{ el: 'CH3CH2', a: 109 }], lone: [200, 270] }, acc: { el: 'O', subs: [{ el: 'H', a: -15 }, { el: 'H', a: -120 }], lone: [80] } }
@@ -825,7 +826,7 @@
     w.button(t('Show all'), function () { step = MAX; draw(); });
     w.button(t('Hide the labels'), function () { step = 0; draw(); });
     var setStep = w.readoutItem(t('What to draw'), { text: true });
-    var svg = w.svg('0 0 460 230', { label: t('Two molecules with a hydrogen bond drawn as a dashed line between them') });
+    var svg = w.svg('75 35 280 175', { label: t('Two molecules with a hydrogen bond drawn as a dashed line between them') });
     svg.style.maxWidth = '34rem';
     function txt(x, y, s, cls, anchor) { var n = svgEl('text', { x: x, y: y, 'text-anchor': anchor || 'middle', 'dominant-baseline': 'central', class: cls || 's22-svg-atom', text: s }, svg); return n; }
     function atomAt(x, y, sym) {
@@ -851,21 +852,22 @@
     }
     function draw() {
       svg.innerHTML = '';
-      var p = PAIRS[key], dx = 130, dy = 120, hx = dx + 52, ax = hx + 96;
+      var p = PAIRS[key], dx = 120, dy = 115, hx = dx + 52, ax = hx + 96;
       molecule(p.don, dx, dy, true);
       bond(dx, dy, hx, dy, 12, 11); atomAt(hx, dy, 'H');
       molecule(p.acc, ax, dy, false);
       if (step >= 1) {
-        txt(dx - 4, dy - 24, DELTA + MINUS, 's22-svg-delta'); txt(hx, dy - 22, DELTA + '+', 's22-svg-delta'); txt(ax + 8, dy - 24, DELTA + MINUS, 's22-svg-delta');
+        txt(dx + 16, dy - 22, DELTA + MINUS, 's22-svg-delta'); txt(hx, dy - 22, DELTA + '+', 's22-svg-delta'); txt(ax + 24, dy - 22, DELTA + MINUS, 's22-svg-delta');
       }
       if (step >= 2) lonePair(ax, dy, 180);
       if (step >= 3) {
         svgEl('line', { x1: hx + 12, y1: dy, x2: ax - 26, y2: dy, stroke: 'var(--accent)', 'stroke-width': 2.2, 'stroke-dasharray': '5 4' }, svg);
-        txt((hx + ax) / 2 - 6, dy + 20, t('hydrogen bond'), 's22-svg-note');
+        txt((hx + ax) / 2 + 2, dy - 40, t('hydrogen bond'), 's22-svg-note');
+        svgEl('line', { x1: (hx + ax) / 2 + 2, y1: dy - 31, x2: (hx + ax) / 2 + 2, y2: dy - 5, stroke: 'var(--ink-3)', 'stroke-width': 1 }, svg);
       }
       if (step >= 4) {
-        svgEl('path', { d: 'M' + (hx - 24) + ' ' + (dy - 8) + ' A 26 26 0 0 1 ' + (hx + 24) + ' ' + (dy - 8), fill: 'none', stroke: 'var(--ink-2)', 'stroke-width': 1.2 }, svg);
-        txt(hx, dy - 46, '180' + DEG, 's22-svg-note');
+        svgEl('path', { d: 'M' + (hx - 24) + ' ' + (dy + 8) + ' A 26 26 0 0 0 ' + (hx + 24) + ' ' + (dy + 8), fill: 'none', stroke: 'var(--ink-2)', 'stroke-width': 1.2 }, svg);
+        txt(hx, dy + 46, '180' + DEG, 's22-svg-note');
       }
       var el1 = p.don.el, el2 = p.acc.el;
       setStep([

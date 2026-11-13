@@ -583,6 +583,16 @@ overlay files later (`docs/TRANSLATING.md`). Three rules keep your page translat
 3. **Mark what must never be translated** with `data-i18n="off"` (it applies to everything inside).
    `.chem`, `.unit`, `.eq__formula`, `.worked__math`, `code`, `pre`, `kbd`, `samp` are skipped already.
 
+4. **Know the two scopes.** `S1.t` (and `t` in your widget file) looks in *your page's* translation file,
+   then in the shared `common` file. It never sees the shell's translations, so a page that has not been
+   translated yet stays in English. Shell text (header, quiz engine, labels such as "Key idea") is
+   translated separately. For counts use `t.n(count, {one: '1 atom', other: '{n} atoms'})`.
+   If one English word needs two different translations on your page, add a context suffix:
+   `t('Solution|chemistry')` shows "Solution" and is a separate entry for translators.
+5. **Lines of working that contain words are translated too** (`.worked__math`, `.eq__formula`): keep the
+   words short and plain ("mass of water = …"), and put formulas in `.chem`, units in `.unit` and variables
+   in `<i>` so that translators cannot change them by accident.
+
 Also translated: `title`, `aria-label`, `placeholder`, `alt`; the component attributes `data-title`,
 `data-toc`, `data-def`, `data-label`, `data-kicker`, `data-correct`; question fields (by question id).
 Exam tips (`.callout--exam`) and markscheme points are shown in English **and** the translation, because
