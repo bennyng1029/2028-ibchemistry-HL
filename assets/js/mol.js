@@ -275,6 +275,23 @@
     var deg = atoms.map(function () { return []; });
     bonds.forEach(function (b) { deg[b.a].push(b.b); deg[b.b].push(b.a); });
     var line = 'stroke:' + INK + ';stroke-width:1.8;stroke-linecap:round;fill:none';
+    // Centre of the smallest ring that contains the bond i–j, or null if the bond is not in a ring.
+    // (The middle of the whole drawing is the wrong reference for a ring that has a side chain.)
+    function ringCentre(i, j) {
+      var prev = {}, queue = [i], k, cur, at, cx = 0, cy = 0, n = 0;
+      prev[i] = -1;
+      while (queue.length && prev[j] === undefined) {
+        cur = queue.shift();
+        for (k = 0; k < deg[cur].length; k++) {
+          at = deg[cur][k];
+          if (prev[at] !== undefined || (cur === i && at === j)) continue;
+          prev[at] = cur; queue.push(at);
+        }
+      }
+      if (prev[j] === undefined) return null;
+      for (cur = j; cur !== -1; cur = prev[cur]) { cx += pts[cur].x; cy += pts[cur].y; n++; }
+      return { x: cx / n, y: cy / n };
+    }
 
     bonds.forEach(function (b) {
       var p = pts[b.a], q = pts[b.b], ang = angleOf(p, q), ux = Math.cos(ang), uy = Math.sin(ang), nx = -uy, ny = ux;
@@ -292,8 +309,9 @@
       svgEl('line', { x1: a1.x, y1: a1.y, x2: a2.x, y2: a2.y, style: line }, svg);
       var order = b.order || 1;
       if (order >= 2) {
-        // second line on the side facing the middle of the drawing (centred for a terminal labelled atom)
-        var mid = { x: (p.x + q.x) / 2, y: (p.y + q.y) / 2 }, side = ((centre.x - mid.x) * nx + (centre.y - mid.y) * ny) >= 0 ? 1 : -1;
+        // second line: inside the ring for a ring bond (benzene), else on the side facing the middle of the drawing
+        var mid = { x: (p.x + q.x) / 2, y: (p.y + q.y) / 2 }, inner = ringCentre(b.a, b.b) || centre;
+        var side = ((inner.x - mid.x) * nx + (inner.y - mid.y) * ny) >= 0 ? 1 : -1;
         var terminal = deg[b.b].length === 1 || deg[b.a].length === 1, off = 4.6 * side, trim = terminal ? 0 : 5;
         if (order === 3) { [-4.6, 4.6].forEach(function (o2) { svgEl('line', { x1: a1.x + nx * o2, y1: a1.y + ny * o2, x2: a2.x + nx * o2, y2: a2.y + ny * o2, style: line }, svg); }); }
         else svgEl('line', { x1: a1.x + nx * off + ux * trim, y1: a1.y + ny * off + uy * trim, x2: a2.x + nx * off - ux * trim, y2: a2.y + ny * off - uy * trim, style: line }, svg);

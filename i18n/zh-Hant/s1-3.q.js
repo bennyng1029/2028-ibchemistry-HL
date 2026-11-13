@@ -308,8 +308,8 @@ S1.i18n.register('zh-Hant', 's1-3.q', {
         // EN: List every level above it that an electron could start from.
         "列出在它上面、電子可以出發的每一個能級。",
       ],
-      // EN: <p>Visible lines come from falls that end on n = 2. The electron can start from n = 3, n = 4 or n = 5 (it can reach n = 3 or n = 4 by an earlier, smaller fall from n = 5).</p><div class="worked__math">n = 5 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;4 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;3 → n&nbsp;=&nbsp;2</div><p>That is <strong>3</strong> lines in the visible region. The other possible falls end on n = 1 (ultraviolet) or on n = 3 or n = 4 (infrared).</p>
-      solution: "<p>可見光譜線來自落到 n = 2 的躍遷。電子可以由 n = 3、n = 4 或 n = 5 出發（電子可以先由 n = 5 落下一小段，到達 n = 3 或 n = 4）。</p><div class=\"worked__math\">n = 5 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;4 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;3 → n&nbsp;=&nbsp;2</div><p>所以可見光區有 <strong>3</strong> 條譜線。其他可能的躍遷止於 n = 1（紫外線），或止於 n = 3 或 n = 4（紅外線）。</p>",
+      // EN: <p>Visible lines come from falls that end on n = 2. The electron can start from n = 3, n = 4 or n = 5 (it can reach n = 3 or n = 4 by an earlier, smaller fall from n = 5).</p><div class="worked__math">n&nbsp;=&nbsp;5 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;4 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;3 → n&nbsp;=&nbsp;2</div><p>That is <strong>3</strong> lines in the visible region. The other possible falls end on n = 1 (ultraviolet) or on n = 3 or n = 4 (infrared).</p>
+      solution: "<p>可見光譜線來自落到 n = 2 的躍遷。電子可以由 n = 3、n = 4 或 n = 5 出發（電子可以先由 n = 5 落下一小段，到達 n = 3 或 n = 4）。</p><div class=\"worked__math\">n&nbsp;=&nbsp;5 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;4 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;3 → n&nbsp;=&nbsp;2</div><p>所以可見光區有 <strong>3</strong> 條譜線。其他可能的躍遷止於 n = 1（紫外線），或止於 n = 3 或 n = 4（紅外線）。</p>",
       // EN: lines
       unit: "條譜線",
     },

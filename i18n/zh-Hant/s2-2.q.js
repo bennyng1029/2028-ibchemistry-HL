@@ -9,600 +9,600 @@ S1.i18n.register('zh-Hant', 's2-2.q', {
     // ── s2-2-q001 · mcq · foundation · SL · Structure 2.2.1 · 1 mark
     "s2-2-q001": {
       // EN: <p>Which statement best describes a covalent bond?</p>
-      stem: "",
+      stem: "<p>以下哪一項最能描述共價鍵？</p>",
       options: [
         // EN: The electrostatic attraction between oppositely charged ions.
-        "",
+        "帶相反電荷的離子之間的靜電引力。",
         // EN: The electrostatic attraction between a shared pair of electrons and the positively charged nuclei.
-        "",
+        "共用電子對與帶正電荷的原子核之間的靜電引力。",
         // EN: The electrostatic attraction between a lattice of cations and delocalized electrons.
-        "",
+        "陽離子晶格與離域電子之間的靜電引力。",
         // EN: The transfer of electrons from one atom to another atom.
-        "",
+        "電子由一個原子轉移到另一個原子。",
       ],
       hints: [
         // EN: In a covalent bond, two atoms share a pair of electrons.
-        "",
+        "在共價鍵中，兩個原子共用一對電子。",
         // EN: A bond is always an electrostatic attraction. Ask: what is attracted to what?
-        "",
+        "化學鍵必定是一種靜電引力 (electrostatic attraction)。想一想：是甚麼吸引甚麼？",
       ],
       // EN: <p>Two nuclei are both attracted to the same shared pair of electrons. That attraction holds the atoms together.</p><p>The markscheme wording is: <strong>electrostatic attraction between a shared pair of electrons and the positively charged nuclei</strong>.</p>
-      solution: "",
+      solution: "<p>兩個原子核都受同一對共用電子吸引。這種引力把兩個原子拉在一起。</p><p>評分準則的用語是：<strong>共用電子對與帶正電荷的原子核之間的靜電引力</strong>，英文是「electrostatic attraction between a shared pair of electrons and the positively charged nuclei」。</p>",
       misconception: {
         // EN (option A): This describes an ionic bond. In a covalent bond no ions form: the atoms share a pair of electrons.
-        "0": "",
+        "0": "這是離子鍵的描述。共價鍵中沒有離子形成：原子共用一對電子。",
         // EN (option C): This describes a metallic bond. In a covalent bond the shared pair stays between two nuclei. It is not delocalized through a lattice.
-        "2": "",
+        "2": "這是金屬鍵的描述。在共價鍵中，共用電子對留在兩個原子核之間，不會在整個晶格中離域。",
         // EN (option D): Electron transfer happens when ions form. A bond is an attraction, not a transfer. In a covalent bond the electrons are shared.
-        "3": "",
+        "3": "形成離子時才有電子轉移。化學鍵是一種引力，不是轉移。共價鍵中的電子是共用的。",
       },
     },
 
     // ── s2-2-q002 · numeric · foundation · SL · Structure 2.2.1 · 1 mark
     "s2-2-q002": {
       // EN: <p>The first step in drawing a Lewis formula is to count the valence electrons.</p><p>How many valence electrons must be shown in the Lewis formula of the carbonate ion, <span class="chem">CO3^2-</span>?</p>
-      stem: "",
+      stem: "<p>繪畫路易斯結構式 (Lewis formula) 的第一步，是數出價電子 (valence electrons) 的數目。</p><p>碳酸根離子 <span class=\"chem\">CO3^2-</span> 的路易斯結構式中，必須顯示多少個價電子？</p>",
       hints: [
         // EN: Carbon is in group 14, so it has 4 valence electrons. Oxygen is in group 16, so it has 6.
-        "",
+        "碳在第 14 族，所以有 4 個價電子。氧在第 16 族，所以有 6 個。",
         // EN: The charge is 2−. A negative charge means extra electrons. Add them.
-        "",
+        "電荷是 2−。負電荷代表有額外的電子，要把它們加上去。",
       ],
       // EN: <div class="worked__math">C: 1 × 4 = 4</div><div class="worked__math">O: 3 × 6 = 18</div><div class="worked__math">charge 2−: add 2</div><div class="worked__math">total = 4 + 18 + 2 = 24 valence electrons</div><p>For a negative ion you add electrons. For a positive ion you subtract electrons.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">C: 1 × 4 = 4</div><div class=\"worked__math\">O: 3 × 6 = 18</div><div class=\"worked__math\">電荷 2−: 加 2</div><div class=\"worked__math\">總數 = 4 + 18 + 2 = 24 個價電子</div><p>陰離子要加上電子，陽離子要減去電子。</p>",
     },
 
     // ── s2-2-q003 · numeric · foundation · SL · Structure 2.2.1 · 1 mark
     "s2-2-q003": {
       // EN: <p>How many lone pairs (non-bonding pairs) of electrons are there in the Lewis formula of one molecule of carbon dioxide, <span class="chem">CO2</span>?</p><p>Count the lone pairs on <strong>all</strong> the atoms.</p>
-      stem: "",
+      stem: "<p>一個二氧化碳分子 <span class=\"chem\">CO2</span> 的路易斯結構式中，有多少個孤電子對 (lone pairs)，即非鍵合電子對 (non-bonding pairs)？</p><p>要數出<strong>所有</strong>原子上的孤電子對。</p>",
       hints: [
         // EN: Total valence electrons: 4 + 6 + 6 = 16, which is 8 pairs.
-        "",
+        "價電子總數：4 + 6 + 6 = 16，即 8 對。",
         // EN: The structure is <span class="chem">O=C=O</span>. The two double bonds use 4 pairs. Where are the other pairs?
-        "",
+        "結構是 <span class=\"chem\">O=C=O</span>。兩個雙鍵用了 4 對。其餘的電子對在哪裏？",
       ],
       // EN: <p><span class="chem">CO2</span> has 4 + (2 × 6) = 16 valence electrons, which is 8 pairs.</p><p>The two <span class="chem">C=O</span> double bonds use 4 pairs. The other 4 pairs are lone pairs: <strong>2 on each oxygen atom</strong>. Carbon has none.</p><p>Total lone pairs = <strong>4</strong>. A Lewis formula must show every lone pair, including those on the outer atoms.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">CO2</span> 有 4 + (2 × 6) = 16 個價電子，即 8 對。</p><p>兩個 <span class=\"chem\">C=O</span> 雙鍵用了 4 對。其餘 4 對是孤電子對：<strong>每個氧原子各有 2 對</strong>。碳沒有孤電子對。</p><p>孤電子對總數 = <strong>4</strong>。路易斯結構式必須顯示每一個孤電子對，包括外圍原子上的。</p>",
     },
 
     // ── s2-2-q004 · mcq · exam · SL · Structure 2.2.1 · 1 mark
     "s2-2-q004": {
       // EN: <p>Which is the correct Lewis formula of hydrogen cyanide, <span class="chem">HCN</span>?</p><p>Each line is one shared pair. Each pair of dots is one lone pair.</p>
-      stem: "",
+      stem: "<p>以下哪一個是氰化氫 (hydrogen cyanide) <span class=\"chem\">HCN</span> 的正確路易斯結構式？</p><p>每條線代表一對共用電子。每一對點代表一個孤電子對。</p>",
       options: [
         // EN: <svg viewBox="-22 -22 128 44" width="128" height="44" role="img" aria-label="H single bond C, C triple bond N, no lone pairs" style="vertical-align:middle;max-width:100%"><line x1="9.0" y1="0.0" x2="31.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="-4.6" x2="75.0" y2="-4.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="0.0" x2="75.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="4.6" x2="75.0" y2="4.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="0" y="6" text-anchor="middle" font-size="17" fill="currentColor">H</text><text x="40" y="6" text-anchor="middle" font-size="17" fill="currentColor">C</text><text x="84" y="6" text-anchor="middle" font-size="17" fill="currentColor">N</text></svg>
-        "",
+        "<svg viewBox=\"-22 -22 128 44\" width=\"128\" height=\"44\" role=\"img\" aria-label=\"H 與 C 以單鍵連接，C 與 N 以三鍵連接，沒有孤電子對\" style=\"vertical-align:middle;max-width:100%\"><line x1=\"9.0\" y1=\"0.0\" x2=\"31.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"-4.6\" x2=\"75.0\" y2=\"-4.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"0.0\" x2=\"75.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"4.6\" x2=\"75.0\" y2=\"4.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">H</text><text x=\"40\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">C</text><text x=\"84\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">N</text></svg>",
         // EN: <svg viewBox="-22 -22 128 44" width="128" height="44" role="img" aria-label="H single bond C, C double bond N, two lone pairs on N" style="vertical-align:middle;max-width:100%"><line x1="9.0" y1="0.0" x2="31.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="-2.6" x2="75.0" y2="-2.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="2.6" x2="75.0" y2="2.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="0" y="6" text-anchor="middle" font-size="17" fill="currentColor">H</text><text x="40" y="6" text-anchor="middle" font-size="17" fill="currentColor">C</text><text x="84" y="6" text-anchor="middle" font-size="17" fill="currentColor">N</text><circle cx="93.8" cy="-10.5" r="1.7" fill="currentColor"/><circle cx="88.2" cy="-13.7" r="1.7" fill="currentColor"/><circle cx="88.2" cy="13.7" r="1.7" fill="currentColor"/><circle cx="93.8" cy="10.5" r="1.7" fill="currentColor"/></svg>
-        "",
+        "<svg viewBox=\"-22 -22 128 44\" width=\"128\" height=\"44\" role=\"img\" aria-label=\"H 與 C 以單鍵連接，C 與 N 以雙鍵連接，N 上有兩個孤電子對\" style=\"vertical-align:middle;max-width:100%\"><line x1=\"9.0\" y1=\"0.0\" x2=\"31.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"-2.6\" x2=\"75.0\" y2=\"-2.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"2.6\" x2=\"75.0\" y2=\"2.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">H</text><text x=\"40\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">C</text><text x=\"84\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">N</text><circle cx=\"93.8\" cy=\"-10.5\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"88.2\" cy=\"-13.7\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"88.2\" cy=\"13.7\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"93.8\" cy=\"10.5\" r=\"1.7\" fill=\"currentColor\"/></svg>",
         // EN: <svg viewBox="-22 -22 128 44" width="128" height="44" role="img" aria-label="H single bond C, C triple bond N, one lone pair on N" style="vertical-align:middle;max-width:100%"><line x1="9.0" y1="0.0" x2="31.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="-4.6" x2="75.0" y2="-4.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="0.0" x2="75.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="4.6" x2="75.0" y2="4.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="0" y="6" text-anchor="middle" font-size="17" fill="currentColor">H</text><text x="40" y="6" text-anchor="middle" font-size="17" fill="currentColor">C</text><text x="84" y="6" text-anchor="middle" font-size="17" fill="currentColor">N</text><circle cx="98.0" cy="3.2" r="1.7" fill="currentColor"/><circle cx="98.0" cy="-3.2" r="1.7" fill="currentColor"/></svg>
-        "",
+        "<svg viewBox=\"-22 -22 128 44\" width=\"128\" height=\"44\" role=\"img\" aria-label=\"H 與 C 以單鍵連接，C 與 N 以三鍵連接，N 上有一個孤電子對\" style=\"vertical-align:middle;max-width:100%\"><line x1=\"9.0\" y1=\"0.0\" x2=\"31.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"-4.6\" x2=\"75.0\" y2=\"-4.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"0.0\" x2=\"75.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"4.6\" x2=\"75.0\" y2=\"4.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">H</text><text x=\"40\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">C</text><text x=\"84\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">N</text><circle cx=\"98.0\" cy=\"3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"98.0\" cy=\"-3.2\" r=\"1.7\" fill=\"currentColor\"/></svg>",
         // EN: <svg viewBox="-22 -22 128 44" width="128" height="44" role="img" aria-label="H single bond C, C triple bond N, one lone pair on C and one lone pair on N" style="vertical-align:middle;max-width:100%"><line x1="9.0" y1="0.0" x2="31.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="-4.6" x2="75.0" y2="-4.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="0.0" x2="75.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="4.6" x2="75.0" y2="4.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="0" y="6" text-anchor="middle" font-size="17" fill="currentColor">H</text><text x="40" y="6" text-anchor="middle" font-size="17" fill="currentColor">C</text><circle cx="43.2" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="36.8" cy="-14.0" r="1.7" fill="currentColor"/><text x="84" y="6" text-anchor="middle" font-size="17" fill="currentColor">N</text><circle cx="98.0" cy="3.2" r="1.7" fill="currentColor"/><circle cx="98.0" cy="-3.2" r="1.7" fill="currentColor"/></svg>
-        "",
+        "<svg viewBox=\"-22 -22 128 44\" width=\"128\" height=\"44\" role=\"img\" aria-label=\"H 與 C 以單鍵連接，C 與 N 以三鍵連接，C 和 N 上各有一個孤電子對\" style=\"vertical-align:middle;max-width:100%\"><line x1=\"9.0\" y1=\"0.0\" x2=\"31.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"-4.6\" x2=\"75.0\" y2=\"-4.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"0.0\" x2=\"75.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"4.6\" x2=\"75.0\" y2=\"4.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">H</text><text x=\"40\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">C</text><circle cx=\"43.2\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"36.8\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><text x=\"84\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">N</text><circle cx=\"98.0\" cy=\"3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"98.0\" cy=\"-3.2\" r=\"1.7\" fill=\"currentColor\"/></svg>",
       ],
       hints: [
         // EN: Count the valence electrons first: H has 1, C has 4, N has 5.
-        "",
+        "先數價電子：H 有 1 個，C 有 4 個，N 有 5 個。",
         // EN: In the correct formula, C and N each have 8 electrons around them and H has 2.
-        "",
+        "在正確的結構式中，C 和 N 周圍各有 8 個電子，H 有 2 個。",
         // EN: Count the electrons in each drawing: 2 for each line and 2 for each pair of dots.
-        "",
+        "數一數每幅圖中的電子：每條線 2 個，每一對點 2 個。",
       ],
       // EN: <p>Valence electrons: 1 + 4 + 5 = <strong>10</strong> (5 pairs).</p><p><span class="chem">H–C≡N</span> uses 4 pairs in bonds: one in the single bond and three in the triple bond. The last pair is a lone pair on nitrogen.</p><p>Check: H has 2 electrons. C has 8 (four bonding pairs). N has 8 (three bonding pairs and one lone pair).</p>
-      solution: "",
+      solution: "<p>價電子：1 + 4 + 5 = <strong>10</strong> 個（5 對）。</p><p><span class=\"chem\">H–C≡N</span> 用了 4 對來形成鍵：單鍵一對，三鍵三對。最後一對是氮上的孤電子對。</p><p>檢查：H 有 2 個電子。C 有 8 個（四個鍵合電子對）。N 有 8 個（三個鍵合電子對和一個孤電子對）。</p>",
       misconception: {
         // EN (option A): This drawing shows only 8 electrons. <span class="chem">HCN</span> has 1 + 4 + 5 = 10 valence electrons. The lone pair on nitrogen is missing, so nitrogen has only 6 electrons around it.
-        "0": "",
+        "0": "這幅圖只顯示了 8 個電子。<span class=\"chem\">HCN</span> 有 1 + 4 + 5 = 10 個價電子。氮上的孤電子對漏了，所以氮周圍只有 6 個電子。",
         // EN (option B): The electron count (10) is right, but carbon has only 3 pairs (6 electrons) around it. Moving one lone pair from N into the bond makes a triple bond and gives carbon an octet.
-        "1": "",
+        "1": "電子數目（10 個）是對的，但碳周圍只有 3 對（6 個電子）。把 N 的一個孤電子對移到鍵中，就成為三鍵，碳也有了八隅體。",
         // EN (option D): This drawing shows 12 electrons, but only 10 valence electrons are available. Carbon would also have 5 pairs around it, which is more than an octet.
-        "3": "",
+        "3": "這幅圖顯示了 12 個電子，但只有 10 個價電子可用。碳周圍也會有 5 對電子，超過了八隅體。",
       },
     },
 
     // ── s2-2-q005 · numeric · exam · SL · Structure 2.2.1 · 1 mark
     "s2-2-q005": {
       // EN: <p>Ethanoic acid has the structural formula <span class="chem">CH3COOH</span>. One oxygen atom is joined to carbon by a double bond. The other oxygen atom is in an <span class="chem">O–H</span> group.</p><p>How many <strong>bonding pairs</strong> of electrons are there in the Lewis formula of one molecule of ethanoic acid?</p>
-      stem: "",
+      stem: "<p>乙酸 (ethanoic acid) 的結構式是 <span class=\"chem\">CH3COOH</span>。其中一個氧原子以雙鍵與碳連接，另一個氧原子在 <span class=\"chem\">O–H</span> 基團中。</p><p>一個乙酸分子的路易斯結構式中，有多少個<strong>鍵合電子對</strong> (bonding pairs)？</p>",
       hints: [
         // EN: List the bonds: three <span class="chem">C–H</span>, one <span class="chem">C–C</span>, one <span class="chem">C=O</span>, one <span class="chem">C–O</span>, one <span class="chem">O–H</span>.
-        "",
+        "列出所有的鍵：三個 <span class=\"chem\">C–H</span>、一個 <span class=\"chem\">C–C</span>、一個 <span class=\"chem\">C=O</span>、一個 <span class=\"chem\">C–O</span>、一個 <span class=\"chem\">O–H</span>。",
         // EN: A double bond is two bonding pairs.
-        "",
+        "一個雙鍵是兩個鍵合電子對。",
       ],
       // EN: <div class="worked__math">C–H: 3 pairs</div><div class="worked__math">C–C: 1 pair</div><div class="worked__math">C=O: 2 pairs</div><div class="worked__math">C–O: 1 pair</div><div class="worked__math">O–H: 1 pair</div><div class="worked__math">total = 8 bonding pairs</div><p>Check with the electron count. Valence electrons = (2 × 4) + (4 × 1) + (2 × 6) = 24, which is 12 pairs. There are 8 bonding pairs and 4 lone pairs (2 on each oxygen atom). 8 + 4 = 12.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">C–H: 3 對</div><div class=\"worked__math\">C–C: 1 對</div><div class=\"worked__math\">C=O: 2 對</div><div class=\"worked__math\">C–O: 1 對</div><div class=\"worked__math\">O–H: 1 對</div><div class=\"worked__math\">總數 = 8 個鍵合電子對</div><p>用電子數目來檢查。價電子 = (2 × 4) + (4 × 1) + (2 × 6) = 24 個，即 12 對。有 8 個鍵合電子對和 4 個孤電子對（每個氧原子各 2 個）。8 + 4 = 12。</p>",
     },
 
     // ── s2-2-q006 · multi · exam · SL · Structure 2.2.1 · 1 mark
     "s2-2-q006": {
       // EN: <p>In which of these molecules does the <strong>central atom</strong> have fewer than 8 electrons in its valence shell? Select all that apply.</p>
-      stem: "",
+      stem: "<p>以下哪些分子的<strong>中心原子</strong>，價電子層中的電子少於 8 個？選出所有正確選項。</p>",
       options: [
         // EN: <span class="chem">BeCl2</span>
-        "",
+        "<span class=\"chem\">BeCl2</span>",
         // EN: <span class="chem">BF3</span>
-        "",
+        "<span class=\"chem\">BF3</span>",
         // EN: <span class="chem">NH3</span>
-        "",
+        "<span class=\"chem\">NH3</span>",
         // EN: <span class="chem">CCl4</span>
-        "",
+        "<span class=\"chem\">CCl4</span>",
         // EN: <span class="chem">PCl3</span>
-        "",
+        "<span class=\"chem\">PCl3</span>",
       ],
       hints: [
         // EN: Find the group of each central atom. That tells you its number of valence electrons.
-        "",
+        "找出每個中心原子所屬的族，就知道它有多少個價電子。",
         // EN: Beryllium has 2 valence electrons and boron has 3. How many bonds can each form, and are any lone pairs left?
-        "",
+        "鈹有 2 個價電子，硼有 3 個。它們各能形成多少個鍵？還有孤電子對剩下嗎？",
       ],
       // EN: <p><strong><span class="chem">BeCl2</span></strong>: Be has 2 valence electrons and forms 2 bonds. It has 2 pairs = 4 electrons.</p><p><strong><span class="chem">BF3</span></strong>: B has 3 valence electrons and forms 3 bonds. It has 3 pairs = 6 electrons.</p><p>In <span class="chem">NH3</span>, <span class="chem">CCl4</span> and <span class="chem">PCl3</span> the central atom has four pairs (bonding pairs plus lone pairs), so it has an octet.</p>
-      solution: "",
+      solution: "<p><strong><span class=\"chem\">BeCl2</span></strong>：Be 有 2 個價電子，形成 2 個鍵。它有 2 對 = 4 個電子。</p><p><strong><span class=\"chem\">BF3</span></strong>：B 有 3 個價電子，形成 3 個鍵。它有 3 對 = 6 個電子。</p><p>在 <span class=\"chem\">NH3</span>、<span class=\"chem\">CCl4</span> 和 <span class=\"chem\">PCl3</span> 中，中心原子有四對電子（鍵合電子對加孤電子對），所以有八隅體。</p>",
       misconception: {
         // EN (option C): Nitrogen in <span class="chem">NH3</span> has three bonding pairs and one lone pair. That is 8 electrons. Remember to count the lone pair.
-        "2": "",
+        "2": "<span class=\"chem\">NH3</span> 中的氮有三個鍵合電子對和一個孤電子對，即 8 個電子。記得把孤電子對也數進去。",
         // EN (option D): Carbon in <span class="chem">CCl4</span> has four bonding pairs. That is 8 electrons.
-        "3": "",
+        "3": "<span class=\"chem\">CCl4</span> 中的碳有四個鍵合電子對，即 8 個電子。",
         // EN (option E): Phosphorus in <span class="chem">PCl3</span> has three bonding pairs and one lone pair. That is 8 electrons.
-        "4": "",
+        "4": "<span class=\"chem\">PCl3</span> 中的磷有三個鍵合電子對和一個孤電子對，即 8 個電子。",
       },
     },
 
     // ── s2-2-q007 · mcq · challenge · SL · Structure 2.2.1 · 1 mark
     "s2-2-q007": {
       // EN: <p>The peroxide ion has the formula <span class="chem">O2^2-</span>. Each oxygen atom in the ion obeys the octet rule.</p><p>Which is the correct Lewis formula of the peroxide ion?</p>
-      stem: "",
+      stem: "<p>過氧離子 (peroxide ion) 的化學式是 <span class=\"chem\">O2^2-</span>。離子中每個氧原子都符合八隅體規則 (octet rule)。</p><p>以下哪一個是過氧離子的正確路易斯結構式？</p>",
       options: [
         // EN: <svg viewBox="-22 -22 108 44" width="108" height="44" role="img" aria-label="Ion with charge 2 minus. O double bond O, two lone pairs on each O" style="vertical-align:middle;max-width:100%"><line x1="9.0" y1="-2.6" x2="35.0" y2="-2.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="9.0" y1="2.6" x2="35.0" y2="2.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="0" y="6" text-anchor="middle" font-size="17" fill="currentColor">O</text><circle cx="-4.2" cy="-13.7" r="1.7" fill="currentColor"/><circle cx="-9.8" cy="-10.5" r="1.7" fill="currentColor"/><circle cx="-9.8" cy="10.5" r="1.7" fill="currentColor"/><circle cx="-4.2" cy="13.7" r="1.7" fill="currentColor"/><text x="44" y="6" text-anchor="middle" font-size="17" fill="currentColor">O</text><circle cx="53.8" cy="-10.5" r="1.7" fill="currentColor"/><circle cx="48.2" cy="-13.7" r="1.7" fill="currentColor"/><circle cx="48.2" cy="13.7" r="1.7" fill="currentColor"/><circle cx="53.8" cy="10.5" r="1.7" fill="currentColor"/><path d="M-14 -20H-19V20H-14M58 -20H63V20H58" fill="none" stroke="currentColor" stroke-width="1.4"/><text x="67" y="-12" font-size="13" fill="currentColor">2−</text></svg>
-        "",
+        "<svg viewBox=\"-22 -22 108 44\" width=\"108\" height=\"44\" role=\"img\" aria-label=\"帶 2− 電荷的離子。O 與 O 以雙鍵連接，每個 O 上有兩個孤電子對\" style=\"vertical-align:middle;max-width:100%\"><line x1=\"9.0\" y1=\"-2.6\" x2=\"35.0\" y2=\"-2.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"9.0\" y1=\"2.6\" x2=\"35.0\" y2=\"2.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">O</text><circle cx=\"-4.2\" cy=\"-13.7\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-9.8\" cy=\"-10.5\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-9.8\" cy=\"10.5\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-4.2\" cy=\"13.7\" r=\"1.7\" fill=\"currentColor\"/><text x=\"44\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">O</text><circle cx=\"53.8\" cy=\"-10.5\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"48.2\" cy=\"-13.7\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"48.2\" cy=\"13.7\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"53.8\" cy=\"10.5\" r=\"1.7\" fill=\"currentColor\"/><path d=\"M-14 -20H-19V20H-14M58 -20H63V20H58\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"67\" y=\"-12\" font-size=\"13\" fill=\"currentColor\">2−</text></svg>",
         // EN: <svg viewBox="-22 -22 108 44" width="108" height="44" role="img" aria-label="Ion with charge 2 minus. O single bond O, two lone pairs on each O" style="vertical-align:middle;max-width:100%"><line x1="9.0" y1="0.0" x2="35.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="0" y="6" text-anchor="middle" font-size="17" fill="currentColor">O</text><circle cx="-4.2" cy="-13.7" r="1.7" fill="currentColor"/><circle cx="-9.8" cy="-10.5" r="1.7" fill="currentColor"/><circle cx="-9.8" cy="10.5" r="1.7" fill="currentColor"/><circle cx="-4.2" cy="13.7" r="1.7" fill="currentColor"/><text x="44" y="6" text-anchor="middle" font-size="17" fill="currentColor">O</text><circle cx="53.8" cy="-10.5" r="1.7" fill="currentColor"/><circle cx="48.2" cy="-13.7" r="1.7" fill="currentColor"/><circle cx="48.2" cy="13.7" r="1.7" fill="currentColor"/><circle cx="53.8" cy="10.5" r="1.7" fill="currentColor"/><path d="M-14 -20H-19V20H-14M58 -20H63V20H58" fill="none" stroke="currentColor" stroke-width="1.4"/><text x="67" y="-12" font-size="13" fill="currentColor">2−</text></svg>
-        "",
+        "<svg viewBox=\"-22 -22 108 44\" width=\"108\" height=\"44\" role=\"img\" aria-label=\"帶 2− 電荷的離子。O 與 O 以單鍵連接，每個 O 上有兩個孤電子對\" style=\"vertical-align:middle;max-width:100%\"><line x1=\"9.0\" y1=\"0.0\" x2=\"35.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">O</text><circle cx=\"-4.2\" cy=\"-13.7\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-9.8\" cy=\"-10.5\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-9.8\" cy=\"10.5\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-4.2\" cy=\"13.7\" r=\"1.7\" fill=\"currentColor\"/><text x=\"44\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">O</text><circle cx=\"53.8\" cy=\"-10.5\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"48.2\" cy=\"-13.7\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"48.2\" cy=\"13.7\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"53.8\" cy=\"10.5\" r=\"1.7\" fill=\"currentColor\"/><path d=\"M-14 -20H-19V20H-14M58 -20H63V20H58\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"67\" y=\"-12\" font-size=\"13\" fill=\"currentColor\">2−</text></svg>",
         // EN: <svg viewBox="-22 -22 108 44" width="108" height="44" role="img" aria-label="Ion with charge 2 minus. O double bond O, three lone pairs on each O" style="vertical-align:middle;max-width:100%"><line x1="9.0" y1="-2.6" x2="35.0" y2="-2.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="9.0" y1="2.6" x2="35.0" y2="2.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="0" y="6" text-anchor="middle" font-size="17" fill="currentColor">O</text><circle cx="3.2" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="-3.2" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="-14.0" cy="-3.2" r="1.7" fill="currentColor"/><circle cx="-14.0" cy="3.2" r="1.7" fill="currentColor"/><circle cx="-3.2" cy="14.0" r="1.7" fill="currentColor"/><circle cx="3.2" cy="14.0" r="1.7" fill="currentColor"/><text x="44" y="6" text-anchor="middle" font-size="17" fill="currentColor">O</text><circle cx="47.2" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="40.8" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="58.0" cy="3.2" r="1.7" fill="currentColor"/><circle cx="58.0" cy="-3.2" r="1.7" fill="currentColor"/><circle cx="40.8" cy="14.0" r="1.7" fill="currentColor"/><circle cx="47.2" cy="14.0" r="1.7" fill="currentColor"/><path d="M-14 -20H-19V20H-14M58 -20H63V20H58" fill="none" stroke="currentColor" stroke-width="1.4"/><text x="67" y="-12" font-size="13" fill="currentColor">2−</text></svg>
-        "",
+        "<svg viewBox=\"-22 -22 108 44\" width=\"108\" height=\"44\" role=\"img\" aria-label=\"帶 2− 電荷的離子。O 與 O 以雙鍵連接，每個 O 上有三個孤電子對\" style=\"vertical-align:middle;max-width:100%\"><line x1=\"9.0\" y1=\"-2.6\" x2=\"35.0\" y2=\"-2.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"9.0\" y1=\"2.6\" x2=\"35.0\" y2=\"2.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">O</text><circle cx=\"3.2\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-3.2\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-14.0\" cy=\"-3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-14.0\" cy=\"3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-3.2\" cy=\"14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"3.2\" cy=\"14.0\" r=\"1.7\" fill=\"currentColor\"/><text x=\"44\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">O</text><circle cx=\"47.2\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"40.8\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"58.0\" cy=\"3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"58.0\" cy=\"-3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"40.8\" cy=\"14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"47.2\" cy=\"14.0\" r=\"1.7\" fill=\"currentColor\"/><path d=\"M-14 -20H-19V20H-14M58 -20H63V20H58\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"67\" y=\"-12\" font-size=\"13\" fill=\"currentColor\">2−</text></svg>",
         // EN: <svg viewBox="-22 -22 108 44" width="108" height="44" role="img" aria-label="Ion with charge 2 minus. O single bond O, three lone pairs on each O" style="vertical-align:middle;max-width:100%"><line x1="9.0" y1="0.0" x2="35.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="0" y="6" text-anchor="middle" font-size="17" fill="currentColor">O</text><circle cx="3.2" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="-3.2" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="-14.0" cy="-3.2" r="1.7" fill="currentColor"/><circle cx="-14.0" cy="3.2" r="1.7" fill="currentColor"/><circle cx="-3.2" cy="14.0" r="1.7" fill="currentColor"/><circle cx="3.2" cy="14.0" r="1.7" fill="currentColor"/><text x="44" y="6" text-anchor="middle" font-size="17" fill="currentColor">O</text><circle cx="47.2" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="40.8" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="58.0" cy="3.2" r="1.7" fill="currentColor"/><circle cx="58.0" cy="-3.2" r="1.7" fill="currentColor"/><circle cx="40.8" cy="14.0" r="1.7" fill="currentColor"/><circle cx="47.2" cy="14.0" r="1.7" fill="currentColor"/><path d="M-14 -20H-19V20H-14M58 -20H63V20H58" fill="none" stroke="currentColor" stroke-width="1.4"/><text x="67" y="-12" font-size="13" fill="currentColor">2−</text></svg>
-        "",
+        "<svg viewBox=\"-22 -22 108 44\" width=\"108\" height=\"44\" role=\"img\" aria-label=\"帶 2− 電荷的離子。O 與 O 以單鍵連接，每個 O 上有三個孤電子對\" style=\"vertical-align:middle;max-width:100%\"><line x1=\"9.0\" y1=\"0.0\" x2=\"35.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">O</text><circle cx=\"3.2\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-3.2\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-14.0\" cy=\"-3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-14.0\" cy=\"3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-3.2\" cy=\"14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"3.2\" cy=\"14.0\" r=\"1.7\" fill=\"currentColor\"/><text x=\"44\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">O</text><circle cx=\"47.2\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"40.8\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"58.0\" cy=\"3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"58.0\" cy=\"-3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"40.8\" cy=\"14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"47.2\" cy=\"14.0\" r=\"1.7\" fill=\"currentColor\"/><path d=\"M-14 -20H-19V20H-14M58 -20H63V20H58\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"67\" y=\"-12\" font-size=\"13\" fill=\"currentColor\">2−</text></svg>",
       ],
       hints: [
         // EN: Count the valence electrons: 6 from each oxygen atom, plus the electrons for the charge.
-        "",
+        "數價電子：每個氧原子 6 個，再加上電荷所代表的電子。",
         // EN: 14 electrons is 7 pairs. Share them so that each oxygen atom has 4 pairs around it.
-        "",
+        "14 個電子即 7 對。分配這些電子對，使每個氧原子周圍有 4 對。",
         // EN: Count the electrons in each drawing: 2 for each line and 2 for each pair of dots.
-        "",
+        "數一數每幅圖中的電子：每條線 2 個，每一對點 2 個。",
       ],
       // EN: <div class="worked__math">valence electrons = (2 × 6) + 2 = 14, which is 7 pairs</div><p>With a <strong>single</strong> <span class="chem">O–O</span> bond (1 pair), 6 pairs are left. That is 3 lone pairs on each oxygen atom.</p><p>Check: each O has 1 bonding pair + 3 lone pairs = 8 electrons. The charge 2− must be shown.</p><p>The extra two electrons are why the ion has a single bond, while the <span class="chem">O2</span> molecule has a double bond.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">價電子 = (2 × 6) + 2 = 14 個，即 7 對</div><p>用<strong>單</strong>鍵 <span class=\"chem\">O–O</span>（1 對）連接，餘下 6 對，即每個氧原子有 3 個孤電子對。</p><p>檢查：每個 O 有 1 個鍵合電子對 + 3 個孤電子對 = 8 個電子。必須標出電荷 2−。</p><p>正因為多了兩個電子，這個離子是單鍵，而 <span class=\"chem\">O2</span> 分子是雙鍵。</p>",
       misconception: {
         // EN (option A): This drawing has 12 electrons. That is the count for an <span class="chem">O2</span> molecule. The ion has a 2− charge, so it has 2 more electrons: 14 in total.
-        "0": "",
+        "0": "這幅圖有 12 個電子，那是 <span class=\"chem\">O2</span> 分子的電子數目。這個離子帶 2− 電荷，所以多 2 個電子，共 14 個。",
         // EN (option B): This drawing has only 10 electrons, and each oxygen atom has only 6 electrons around it. The ion has 14 valence electrons.
-        "1": "",
+        "1": "這幅圖只有 10 個電子，每個氧原子周圍只有 6 個電子。這個離子有 14 個價電子。",
         // EN (option C): This drawing has 16 electrons, and each oxygen atom has 10 electrons around it. The ion has 14 valence electrons.
-        "2": "",
+        "2": "這幅圖有 16 個電子，每個氧原子周圍有 10 個電子。這個離子有 14 個價電子。",
       },
     },
 
     // ── s2-2-q008 · numeric · foundation · SL · Structure 2.2.2 · 1 mark
     "s2-2-q008": {
       // EN: <p>A nitrogen molecule, <span class="chem">N2</span>, contains a triple bond.</p><p>How many <strong>electrons</strong> are shared between the two nitrogen atoms?</p>
-      stem: "",
+      stem: "<p>氮分子 <span class=\"chem\">N2</span> 含有一個三鍵。</p><p>兩個氮原子之間共用多少個<strong>電子</strong>？</p>",
       hints: [
         // EN: A triple bond is three shared pairs.
-        "",
+        "三鍵是三對共用電子。",
         // EN: The question asks for electrons, not pairs.
-        "",
+        "題目問的是電子的數目，不是電子對的數目。",
       ],
       // EN: <p>Single bond: 1 shared pair. Double bond: 2 shared pairs. Triple bond: 3 shared pairs.</p><div class="worked__math">3 pairs × 2 electrons = 6 electrons</div><p>Each nitrogen atom also has one lone pair, which is not shared.</p>
-      solution: "",
+      solution: "<p>單鍵：1 對共用電子。雙鍵：2 對。三鍵：3 對。</p><div class=\"worked__math\">3 對 × 2 個電子 = 6 個電子</div><p>每個氮原子還有一個孤電子對，這對電子不是共用的。</p>",
     },
 
     // ── s2-2-q009 · mcq · exam · SL · Structure 2.2.2 · 1 mark
     "s2-2-q009": {
       // EN: <p>Which species has the <strong>shortest</strong> bond between carbon and oxygen?</p>
-      stem: "",
+      stem: "<p>以下哪一個物種中，碳與氧之間的鍵<strong>最短</strong>？</p>",
       options: [
         // EN: methanol, <span class="chem">CH3OH</span>
-        "",
+        "甲醇 (methanol) <span class=\"chem\">CH3OH</span>",
         // EN: carbon dioxide, <span class="chem">CO2</span>
-        "",
+        "二氧化碳 <span class=\"chem\">CO2</span>",
         // EN: carbon monoxide, <span class="chem">CO</span>
-        "",
+        "一氧化碳 <span class=\"chem\">CO</span>",
         // EN: methoxymethane, <span class="chem">CH3OCH3</span>
-        "",
+        "甲氧基甲烷 (methoxymethane) <span class=\"chem\">CH3OCH3</span>",
       ],
       hints: [
         // EN: Work out the Lewis formula of each species. How many pairs are shared between C and O?
-        "",
+        "寫出每個物種的路易斯結構式。C 和 O 之間共用多少對電子？",
         // EN: More shared pairs pull the two nuclei closer together.
-        "",
+        "共用電子對越多，兩個原子核就被拉得越近。",
         // EN: <span class="chem">CO</span> has 4 + 6 = 10 valence electrons. Both atoms need an octet.
-        "",
+        "<span class=\"chem\">CO</span> 有 4 + 6 = 10 個價電子。兩個原子都需要八隅體。",
       ],
       // EN: <p>Carbon monoxide has 10 valence electrons. The only way to give both atoms an octet is a <strong>triple bond</strong> with one lone pair on each atom.</p><p>Data booklet bond lengths: <span class="chem">C–O</span> 143 pm, <span class="chem">C=O</span> 122 pm, <span class="chem">C≡O</span> 113 pm.</p><p>More shared pairs give a stronger attraction between the nuclei and the shared electrons, so the bond is shorter.</p>
-      solution: "",
+      solution: "<p>一氧化碳有 10 個價電子。要令兩個原子都有八隅體，唯一的方法是形成<strong>三鍵</strong>，每個原子各有一個孤電子對。</p><p>數據手冊的鍵長：<span class=\"chem\">C–O</span> 143 pm，<span class=\"chem\">C=O</span> 122 pm，<span class=\"chem\">C≡O</span> 113 pm。</p><p>共用電子對越多，原子核與共用電子之間的引力越強，所以鍵越短。</p>",
       misconception: {
         // EN (option A): Methanol has a carbon–oxygen single bond (one shared pair). Single bonds are the longest. The booklet value is 143 pm.
-        "0": "",
+        "0": "甲醇有碳氧單鍵（一對共用電子）。單鍵最長，手冊的數值是 143 pm。",
         // EN (option B): <span class="chem">CO2</span> has double bonds (122 pm). They are shorter than single bonds, but one of the other species has three shared pairs.
-        "1": "",
+        "1": "<span class=\"chem\">CO2</span> 有雙鍵 (122 pm)。雙鍵比單鍵短，但另一個物種有三對共用電子。",
         // EN (option D): Methoxymethane has two carbon–oxygen single bonds. Single bonds are the longest. The booklet value is 143 pm.
-        "3": "",
+        "3": "甲氧基甲烷有兩個碳氧單鍵。單鍵最長，手冊的數值是 143 pm。",
       },
     },
 
     // ── s2-2-q010 · short · exam · SL · Structure 2.2.2 · 2 marks
     "s2-2-q010": {
       // EN: <p>The data booklet gives these values.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Carbon–carbon bonds</caption><thead><tr><th scope="col">Bond</th><th scope="col">Length / pm</th><th scope="col">Bond enthalpy / <span class="unit">kJ mol-1</span></th></tr></thead><tbody><tr><th scope="row"><span class="chem">C–C</span></th><td>154</td><td>346</td></tr><tr><th scope="row"><span class="chem">C=C</span></th><td>134</td><td>614</td></tr></tbody></table></div><p>Explain why the <span class="chem">C=C</span> bond is shorter and stronger than the <span class="chem">C–C</span> bond.</p>
-      stem: "",
+      stem: "<p>數據手冊提供以下數值。</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>碳碳鍵</caption><thead><tr><th scope=\"col\">鍵</th><th scope=\"col\">鍵長 / pm</th><th scope=\"col\">鍵焓 / <span class=\"unit\">kJ mol-1</span></th></tr></thead><tbody><tr><th scope=\"row\"><span class=\"chem\">C–C</span></th><td>154</td><td>346</td></tr><tr><th scope=\"row\"><span class=\"chem\">C=C</span></th><td>134</td><td>614</td></tr></tbody></table></div><p>解釋 (explain) 為甚麼 <span class=\"chem\">C=C</span> 鍵比 <span class=\"chem\">C–C</span> 鍵短而且強。</p>",
       hints: [
         // EN: Start with the number of shared pairs in each bond.
-        "",
+        "先看每種鍵有多少對共用電子。",
         // EN: A covalent bond is an attraction. What is attracted to what, and why is it stronger here?
-        "",
+        "共價鍵是一種引力。是甚麼吸引甚麼？為甚麼這裏的引力較強？",
       ],
       // EN: <p>A double bond has two shared pairs of electrons. A single bond has one shared pair.</p><p>With more shared electrons between them, the two nuclei are attracted more strongly to the shared electrons. This pulls the nuclei closer together (shorter bond), and more energy is needed to separate them (stronger bond).</p>
-      answer: "",
+      answer: "<p>雙鍵有兩對共用電子，單鍵只有一對。</p><p>兩個原子核之間的共用電子較多，原子核受共用電子的吸引就較強。這把兩個原子核拉得更近（鍵較短），要把它們分開也需要較多能量（鍵較強）。</p>",
       markscheme: [
         // EN: The double bond has two shared pairs of electrons (four shared electrons) and the single bond has one shared pair. Accept: more shared electrons / greater electron density between the nuclei.
-        "",
+        "雙鍵有兩對共用電子（四個共用電子），單鍵有一對。接受：共用電子較多／原子核之間的電子密度較大。",
         // EN: Greater (electrostatic) attraction between the nuclei and the shared electrons (so the nuclei are pulled closer together and more energy is needed to break the bond).
-        "",
+        "原子核與共用電子之間的（靜電）引力較大（所以原子核被拉得更近，斷鍵需要較多能量）。",
       ],
     },
 
     // ── s2-2-q011 · mcq · challenge · SL · Structure 2.2.2 · 1 mark
     "s2-2-q011": {
       // EN: <p>The table shows data booklet values for three carbon–carbon bonds.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Carbon–carbon bonds</caption><thead><tr><th scope="col">Bond</th><th scope="col">Shared pairs</th><th scope="col">Length / pm</th><th scope="col">Bond enthalpy / <span class="unit">kJ mol-1</span></th></tr></thead><tbody><tr><th scope="row"><span class="chem">C–C</span></th><td>1</td><td>154</td><td>346</td></tr><tr><th scope="row"><span class="chem">C=C</span></th><td>2</td><td>134</td><td>614</td></tr><tr><th scope="row"><span class="chem">C≡C</span></th><td>3</td><td>120</td><td>839</td></tr></tbody></table></div><p>Which statement is supported by <strong>all</strong> the data?</p>
-      stem: "",
+      stem: "<p>下表列出數據手冊中三種碳碳鍵的數值。</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>碳碳鍵</caption><thead><tr><th scope=\"col\">鍵</th><th scope=\"col\">共用電子對</th><th scope=\"col\">鍵長 / pm</th><th scope=\"col\">鍵焓 / <span class=\"unit\">kJ mol-1</span></th></tr></thead><tbody><tr><th scope=\"row\"><span class=\"chem\">C–C</span></th><td>1</td><td>154</td><td>346</td></tr><tr><th scope=\"row\"><span class=\"chem\">C=C</span></th><td>2</td><td>134</td><td>614</td></tr><tr><th scope=\"row\"><span class=\"chem\">C≡C</span></th><td>3</td><td>120</td><td>839</td></tr></tbody></table></div><p>以下哪一項陳述得到<strong>所有</strong>數據支持？</p>",
       options: [
         // EN: Bond enthalpy is directly proportional to the number of shared pairs.
-        "",
+        "鍵焓與共用電子對的數目成正比。",
         // EN: Each extra shared pair makes the bond shorter and stronger, but each extra pair adds less strength than the pair before it.
-        "",
+        "每多一對共用電子，鍵就變得較短、較強，但每多一對所增加的強度都比前一對少。",
         // EN: Longer bonds are stronger bonds.
-        "",
+        "鍵越長就越強。",
         // EN: The triple bond is the weakest bond because six shared electrons repel each other strongly.
-        "",
+        "三鍵是最弱的鍵，因為六個共用電子互相強烈排斥。",
       ],
       hints: [
         // EN: Bond enthalpy is the energy needed to break the bond. A bigger value means a stronger bond.
-        "",
+        "鍵焓 (bond enthalpy) 是斷鍵所需的能量。數值越大，鍵越強。",
         // EN: Find the increase from single to double, and from double to triple.
-        "",
+        "找出由單鍵到雙鍵、以及由雙鍵到三鍵的增幅。",
         // EN: For "directly proportional", doubling the pairs would double the bond enthalpy. Does it?
-        "",
+        "如果是「成正比」，電子對數目加倍，鍵焓也應該加倍。實際是這樣嗎？",
       ],
       // EN: <div class="worked__math">single → double: 614 − 346 = 268 <span class="unit">kJ mol-1</span></div><div class="worked__math">double → triple: 839 − 614 = 225 <span class="unit">kJ mol-1</span></div><p>The first shared pair is worth 346. The second adds 268. The third adds 225. So each extra pair adds less than the one before.</p><p>The lengths fall from 154 to 134 to 120 pm. More shared pairs attract the two nuclei more strongly, so the bond is shorter and stronger.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">單鍵 → 雙鍵: 614 − 346 = 268 <span class=\"unit\">kJ mol-1</span></div><div class=\"worked__math\">雙鍵 → 三鍵: 839 − 614 = 225 <span class=\"unit\">kJ mol-1</span></div><p>第一對共用電子值 346。第二對增加 268。第三對增加 225。所以每多一對，增加的都比前一對少。</p><p>鍵長由 154 降至 134，再降至 120 pm。共用電子對越多，對兩個原子核的吸引越強，所以鍵較短、較強。</p>",
       misconception: {
         // EN (option A): Test it. Twice the single-bond value is 2 × 346 = 692, but the double bond is 614. Three times is 1038, but the triple bond is 839. The bond gets stronger, but not in proportion.
-        "0": "",
+        "0": "驗算一下。單鍵數值的兩倍是 2 × 346 = 692，但雙鍵是 614。三倍是 1038，但三鍵是 839。鍵確實變強，但不成正比。",
         // EN (option C): Read the two columns together. As the length goes down (154, 134, 120 pm), the bond enthalpy goes up. Shorter bonds are stronger.
-        "2": "",
+        "2": "把兩欄一起看。鍵長下降（154、134、120 pm）時，鍵焓上升。較短的鍵較強。",
         // EN (option D): The triple bond has the largest bond enthalpy (839), so it is the strongest of the three. A larger bond enthalpy means more energy is needed to break the bond.
-        "3": "",
+        "3": "三鍵的鍵焓最大 (839)，所以是三者中最強的。鍵焓越大，斷鍵所需的能量越多。",
       },
     },
 
     // ── s2-2-q012 · mcq · foundation · SL · Structure 2.2.3 · 1 mark
     "s2-2-q012": {
       // EN: <p>What is a coordination bond?</p>
-      stem: "",
+      stem: "<p>甚麼是配位鍵 (coordination bond)？</p>",
       options: [
         // EN: A covalent bond in which both electrons of the shared pair come from the same atom.
-        "",
+        "共用電子對的兩個電子都來自同一個原子的共價鍵。",
         // EN: A covalent bond in which each atom gives one electron to the shared pair.
-        "",
+        "兩個原子各提供一個電子給共用電子對的共價鍵。",
         // EN: A bond formed when one atom transfers two electrons to another atom.
-        "",
+        "一個原子把兩個電子轉移給另一個原子而形成的鍵。",
         // EN: A weak attraction between a lone pair on one molecule and a hydrogen atom on another molecule.
-        "",
+        "一個分子上的孤電子對與另一個分子上的氫原子之間的弱引力。",
       ],
       hints: [
         // EN: A coordination bond is still a shared pair of electrons.
-        "",
+        "配位鍵仍然是一對共用電子。",
         // EN: Think about where the two electrons come from.
-        "",
+        "想一想這兩個電子從哪裏來。",
       ],
       // EN: <p>A coordination bond is a covalent bond in which <strong>both electrons of the shared pair originate from the same atom</strong>.</p><p>The atom that gives the pair must have a lone pair. The atom that accepts it must have space in its valence shell.</p>
-      solution: "",
+      solution: "<p>配位鍵是一種共價鍵，其中<strong>共用電子對的兩個電子都來自同一個原子</strong>。</p><p>提供電子對的原子必須有孤電子對。接受電子對的原子，價電子層中必須有空位。</p>",
       misconception: {
         // EN (option B): This is how most covalent bonds form. In a coordination bond, one atom gives both electrons.
-        "1": "",
+        "1": "大多數共價鍵都是這樣形成的。在配位鍵中，兩個電子都由同一個原子提供。",
         // EN (option C): Transfer of electrons makes ions. In a coordination bond the pair is shared between the two atoms, not transferred.
-        "2": "",
+        "2": "電子轉移會生成離子。在配位鍵中，電子對由兩個原子共用，沒有轉移。",
         // EN (option D): This describes a hydrogen bond, which is an intermolecular force. A coordination bond is a covalent bond inside a molecule or ion.
-        "3": "",
+        "3": "這是氫鍵的描述，氫鍵是一種分子間引力。配位鍵是分子或離子內的共價鍵。",
       },
     },
 
     // ── s2-2-q013 · mcq · exam · SL · Structure 2.2.3 · 1 mark
     "s2-2-q013": {
       // EN: <p>Ammonia reacts with a hydrogen ion to form the ammonium ion.</p><p><span class="chem">NH3 + H+ -> NH4+</span></p><p>Which statement about the new <span class="chem">N–H</span> bond is correct?</p>
-      stem: "",
+      stem: "<p>氨與氫離子反應，生成銨離子。</p><p><span class=\"chem\">NH3 + H+ -> NH4+</span></p><p>以下哪一項關於新形成的 <span class=\"chem\">N–H</span> 鍵的陳述是正確的？</p>",
       options: [
         // EN: The hydrogen ion provides both electrons for the bond.
-        "",
+        "氫離子提供了這個鍵的兩個電子。",
         // EN: The bond is ionic, because it forms between a molecule and an ion.
-        "",
+        "這個鍵是離子鍵，因為它在分子和離子之間形成。",
         // EN: Nitrogen provides both electrons for the bond. In the ion, all four <span class="chem">N–H</span> bonds are the same.
-        "",
+        "氮提供了這個鍵的兩個電子。在離子中，四個 <span class=\"chem\">N–H</span> 鍵完全相同。",
         // EN: Nitrogen provides both electrons for the bond. In the ion, this bond is longer and weaker than the other three.
-        "",
+        "氮提供了這個鍵的兩個電子。在離子中，這個鍵比其餘三個長而且弱。",
       ],
       hints: [
         // EN: How many electrons does <span class="chem">H+</span> have?
-        "",
+        "<span class=\"chem\">H+</span> 有多少個電子？",
         // EN: Nitrogen in ammonia has one lone pair.
-        "",
+        "氨中的氮有一個孤電子對。",
         // EN: After the bond forms, can you tell which shared pair came from where?
-        "",
+        "鍵形成之後，你還能分辨哪一對共用電子來自哪裏嗎？",
       ],
       // EN: <p><span class="chem">H+</span> has no electrons. Nitrogen in <span class="chem">NH3</span> has a lone pair. Nitrogen shares this pair with <span class="chem">H+</span>, so both electrons in the new bond come from nitrogen. This is a coordination bond.</p><p>After it forms, the coordination bond is the same as the other three <span class="chem">N–H</span> bonds. The ion is a regular tetrahedron.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">H+</span> 沒有電子。<span class=\"chem\">NH3</span> 中的氮有一個孤電子對。氮與 <span class=\"chem\">H+</span> 共用這對電子，所以新鍵的兩個電子都來自氮。這是配位鍵。</p><p>配位鍵形成之後，與其餘三個 <span class=\"chem\">N–H</span> 鍵完全相同。這個離子是正四面體。</p>",
       misconception: {
         // EN (option A): A hydrogen ion, <span class="chem">H+</span>, has no electrons. It cannot give any. The pair comes from the lone pair on nitrogen.
-        "0": "",
+        "0": "氫離子 <span class=\"chem\">H+</span> 沒有電子，不能提供任何電子。這對電子來自氮上的孤電子對。",
         // EN (option B): The pair of electrons is shared between N and H, so the bond is covalent. No electrons are transferred.
-        "1": "",
+        "1": "這對電子由 N 和 H 共用，所以是共價鍵。沒有電子轉移。",
         // EN (option D): The first part is right. But once the bond has formed, a shared pair is a shared pair. All four <span class="chem">N–H</span> bonds have the same length and strength.
-        "3": "",
+        "3": "前半句是對的。但鍵一旦形成，共用電子對就是共用電子對。四個 <span class=\"chem\">N–H</span> 鍵的長度和強度都相同。",
       },
     },
 
     // ── s2-2-q014 · multi · exam · SL · Structure 2.2.3 · 1 mark
     "s2-2-q014": {
       // EN: <p>Which of these species contain a coordination bond? Select all that apply.</p>
-      stem: "",
+      stem: "<p>以下哪些物種含有配位鍵 (coordination bond)？選出所有正確選項。</p>",
       options: [
         // EN: <span class="chem">NH4+</span>
-        "",
+        "<span class=\"chem\">NH4+</span>",
         // EN: <span class="chem">H3O+</span>
-        "",
+        "<span class=\"chem\">H3O+</span>",
         // EN: <span class="chem">CO</span>
-        "",
+        "<span class=\"chem\">CO</span>",
         // EN: <span class="chem">CO2</span>
-        "",
+        "<span class=\"chem\">CO2</span>",
         // EN: <span class="chem">CH4</span>
-        "",
+        "<span class=\"chem\">CH4</span>",
       ],
       hints: [
         // EN: Look for an atom that needs more bonds than its unpaired electrons allow.
-        "",
+        "找出這樣的原子：它要形成的鍵，比它的不成對電子所容許的多。",
         // EN: <span class="chem">NH4+</span> and <span class="chem">H3O+</span> form when a molecule with a lone pair bonds to <span class="chem">H+</span>.
-        "",
+        "<span class=\"chem\">NH4+</span> 和 <span class=\"chem\">H3O+</span> 都是由帶孤電子對的分子與 <span class=\"chem\">H+</span> 鍵合而成的。",
         // EN: In <span class="chem">CO</span>, carbon has 4 valence electrons but takes part in a triple bond. Oxygen has 6. Count where the six shared electrons come from.
-        "",
+        "在 <span class=\"chem\">CO</span> 中，碳有 4 個價電子，卻參與一個三鍵。氧有 6 個。數一數六個共用電子分別來自哪裏。",
       ],
       // EN: <p><strong><span class="chem">NH4+</span></strong>: the lone pair on N of <span class="chem">NH3</span> bonds to <span class="chem">H+</span>.</p><p><strong><span class="chem">H3O+</span></strong>: a lone pair on O of <span class="chem">H2O</span> bonds to <span class="chem">H+</span>.</p><p><strong><span class="chem">CO</span></strong>: the triple bond has 6 shared electrons. Carbon gives 2 and oxygen gives 4. So one of the three shared pairs comes only from oxygen.</p><p>In <span class="chem">CO2</span> and <span class="chem">CH4</span>, each atom gives one electron to every shared pair.</p>
-      solution: "",
+      solution: "<p><strong><span class=\"chem\">NH4+</span></strong>：<span class=\"chem\">NH3</span> 中 N 的孤電子對與 <span class=\"chem\">H+</span> 鍵合。</p><p><strong><span class=\"chem\">H3O+</span></strong>：<span class=\"chem\">H2O</span> 中 O 的一個孤電子對與 <span class=\"chem\">H+</span> 鍵合。</p><p><strong><span class=\"chem\">CO</span></strong>：三鍵有 6 個共用電子。碳提供 2 個，氧提供 4 個。所以三對共用電子中，有一對只來自氧。</p><p>在 <span class=\"chem\">CO2</span> 和 <span class=\"chem\">CH4</span> 中，每一對共用電子都由兩個原子各提供一個電子。</p>",
       misconception: {
         // EN (option D): In <span class="chem">CO2</span>, carbon gives 2 electrons to each double bond and each oxygen gives 2. Every shared pair has one electron from each atom.
-        "3": "",
+        "3": "在 <span class=\"chem\">CO2</span> 中，碳向每個雙鍵提供 2 個電子，每個氧也提供 2 個。每一對共用電子都是兩個原子各出一個電子。",
         // EN (option E): In <span class="chem">CH4</span>, carbon gives one electron and hydrogen gives one electron to each bond. No atom gives both.
-        "4": "",
+        "4": "在 <span class=\"chem\">CH4</span> 中，每個鍵都由碳提供一個電子、氫提供一個電子。沒有原子同時提供兩個。",
       },
     },
 
     // ── s2-2-q015 · mcq · challenge · SL · Structure 2.2.3 · 1 mark
     "s2-2-q015": {
       // EN: <p>Ammonia, <span class="chem">NH3</span>, reacts with boron trifluoride, <span class="chem">BF3</span>, to form one molecule with a bond between nitrogen and boron: <span class="chem">H3N–BF3</span>.</p><p>Which row is correct for the product?</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Options</caption><thead><tr><th scope="col"></th><th scope="col">Atom that gives both electrons of the N–B bond</th><th scope="col">Arrangement of the four atoms around boron</th></tr></thead><tbody><tr><th scope="row">A</th><td>boron</td><td>tetrahedral</td></tr><tr><th scope="row">B</th><td>nitrogen</td><td>trigonal planar</td></tr><tr><th scope="row">C</th><td>nitrogen</td><td>tetrahedral</td></tr><tr><th scope="row">D</th><td>fluorine</td><td>trigonal pyramidal</td></tr></tbody></table></div>
-      stem: "",
+      stem: "<p>氨 <span class=\"chem\">NH3</span> 與三氟化硼 (boron trifluoride) <span class=\"chem\">BF3</span> 反應，生成一個分子，其中氮和硼之間有一個鍵：<span class=\"chem\">H3N–BF3</span>。</p><p>關於這個生成物，哪一行正確？</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>選項</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">提供 N–B 鍵兩個電子的原子</th><th scope=\"col\">硼周圍四個原子的排列</th></tr></thead><tbody><tr><th scope=\"row\">A</th><td>硼</td><td>四面體形</td></tr><tr><th scope=\"row\">B</th><td>氮</td><td>平面三角形</td></tr><tr><th scope=\"row\">C</th><td>氮</td><td>四面體形</td></tr><tr><th scope=\"row\">D</th><td>氟</td><td>三角錐體形</td></tr></tbody></table></div>",
       options: [
         // EN: A
-        "",
+        "A",
         // EN: B
-        "",
+        "B",
         // EN: C
-        "",
+        "C",
         // EN: D
-        "",
+        "D",
       ],
       hints: [
         // EN: Draw the Lewis formulas of <span class="chem">NH3</span> and <span class="chem">BF3</span>. Which atom has a lone pair? Which atom has fewer than 8 electrons?
-        "",
+        "繪畫 <span class=\"chem\">NH3</span> 和 <span class=\"chem\">BF3</span> 的路易斯結構式。哪個原子有孤電子對？哪個原子的電子少於 8 個？",
         // EN: After the bond forms, count the electron domains around boron.
-        "",
+        "鍵形成之後，數一數硼周圍的電子域 (electron domains)。",
       ],
       // EN: <p>Nitrogen in <span class="chem">NH3</span> has a lone pair. Boron in <span class="chem">BF3</span> has only 3 pairs (6 electrons). Nitrogen shares its lone pair with boron. Both electrons come from nitrogen, so this is a coordination bond.</p><p>Boron now has <strong>four bonding pairs and no lone pairs</strong>. Four electron domains repel to a <strong>tetrahedral</strong> arrangement. Before the reaction, <span class="chem">BF3</span> was trigonal planar.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">NH3</span> 中的氮有一個孤電子對。<span class=\"chem\">BF3</span> 中的硼只有 3 對電子（6 個電子）。氮與硼共用它的孤電子對。兩個電子都來自氮，所以這是配位鍵。</p><p>硼現在有<strong>四個鍵合電子對，沒有孤電子對</strong>。四個電子域互相排斥，形成<strong>四面體形</strong>排列。反應前，<span class=\"chem\">BF3</span> 是平面三角形。</p>",
       misconception: {
         // EN (option A): Boron in <span class="chem">BF3</span> has only 6 electrons in its valence shell and no lone pair. It accepts a pair. It cannot give one.
-        "0": "",
+        "0": "<span class=\"chem\">BF3</span> 中的硼，價電子層只有 6 個電子，沒有孤電子對。它接受一對電子，不能提供。",
         // EN (option B): The donor atom is right. But boron now has four bonding pairs, not three. Four electron domains do not give a trigonal planar shape.
-        "1": "",
+        "1": "提供電子的原子是對的。但硼現在有四個鍵合電子對，不是三個。四個電子域不會形成平面三角形。",
         // EN (option D): The new bond is between N and B, so fluorine is not the donor. Boron has four bonding pairs and no lone pair, so the shape around it is not trigonal pyramidal.
-        "3": "",
+        "3": "新鍵在 N 和 B 之間，所以提供電子的不是氟。硼有四個鍵合電子對，沒有孤電子對，所以它周圍的形狀不是三角錐體形。",
       },
     },
 
     // ── s2-2-q016 · mcq · foundation · SL · Structure 2.2.4 · 1 mark
     "s2-2-q016": {
       // EN: <p>What is the molecular geometry (shape) of an ammonia molecule, <span class="chem">NH3</span>?</p>
-      stem: "",
+      stem: "<p>氨分子 <span class=\"chem\">NH3</span> 的分子形狀 (molecular geometry) 是甚麼？</p>",
       options: [
         // EN: trigonal planar
-        "",
+        "平面三角形 (trigonal planar)",
         // EN: tetrahedral
-        "",
+        "四面體形 (tetrahedral)",
         // EN: trigonal pyramidal
-        "",
+        "三角錐體形 (trigonal pyramidal)",
         // EN: bent (V-shaped)
-        "",
+        "彎曲形（V 形）(bent)",
       ],
       hints: [
         // EN: Count the electron domains around nitrogen. Include the lone pair.
-        "",
+        "數一數氮周圍的電子域 (electron domains)，孤電子對也要算。",
         // EN: The molecular geometry is the shape made by the atoms only.
-        "",
+        "分子形狀只看原子所構成的形狀。",
       ],
       // EN: <p>Nitrogen has 5 valence electrons. It forms three <span class="chem">N–H</span> bonds and keeps one lone pair. That is <strong>four electron domains</strong>.</p><p>Electron domain geometry: tetrahedral. One domain is a lone pair, so the atoms make a <strong>trigonal pyramidal</strong> shape.</p>
-      solution: "",
+      solution: "<p>氮有 5 個價電子。它形成三個 <span class=\"chem\">N–H</span> 鍵，並保留一個孤電子對。即<strong>四個電子域</strong>。</p><p>電子域幾何形狀 (electron domain geometry)：四面體形。其中一個電子域是孤電子對，所以原子構成<strong>三角錐體形</strong>。</p>",
       misconception: {
         // EN (option A): Trigonal planar needs three electron domains. Nitrogen in <span class="chem">NH3</span> has four: three bonding pairs and one lone pair. The lone pair pushes the three bonds down out of the plane.
-        "0": "",
+        "0": "平面三角形需要三個電子域。<span class=\"chem\">NH3</span> 中的氮有四個：三個鍵合電子對和一個孤電子對。孤電子對把三個鍵向下推離平面。",
         // EN (option B): Tetrahedral is the electron domain geometry. The molecular geometry describes only the positions of the atoms, and one of the four domains is a lone pair.
-        "1": "",
+        "1": "四面體形是電子域幾何形狀。分子形狀只描述原子的位置，而四個電子域中有一個是孤電子對。",
         // EN (option D): Bent needs two bonded atoms on the central atom. Nitrogen in <span class="chem">NH3</span> has three bonded atoms.
-        "3": "",
+        "3": "彎曲形的中心原子只連接兩個原子。<span class=\"chem\">NH3</span> 中的氮連接了三個原子。",
       },
     },
 
     // ── s2-2-q017 · numeric · foundation · SL · Structure 2.2.4 · 1 mark
     "s2-2-q017": {
       // EN: <p>What is the <span class="chem">H–C–H</span> bond angle in a methane molecule, <span class="chem">CH4</span>?</p>
-      stem: "",
+      stem: "<p>甲烷分子 <span class=\"chem\">CH4</span> 中，<span class=\"chem\">H–C–H</span> 鍵角 (bond angle) 是多少？</p>",
       hints: [
         // EN: Carbon has four bonding pairs and no lone pairs.
-        "",
+        "碳有四個鍵合電子對，沒有孤電子對。",
         // EN: Four electron domains move as far apart as possible in three dimensions. The molecule is not flat.
-        "",
+        "四個電子域在三維空間中盡量互相遠離。分子不是平面的。",
       ],
       // EN: <p>Carbon has four electron domains, all bonding pairs. They repel equally and point to the corners of a tetrahedron.</p><p>The tetrahedral angle is <strong>109.5°</strong>. It is not 90°, because the molecule is three-dimensional, not a flat cross.</p>
-      solution: "",
+      solution: "<p>碳有四個電子域，全是鍵合電子對。它們的排斥力相等，指向四面體的四個角。</p><p>四面體的鍵角是 <strong>109.5°</strong>。不是 90°，因為分子是立體的，不是平面的十字形。</p>",
     },
 
     // ── s2-2-q018 · mcq · exam · SL · Structure 2.2.4 · 1 mark
     "s2-2-q018": {
       // EN: <p>A Lewis formula of the nitrite ion, <span class="chem">NO2-</span>, is shown. A Lewis formula does not show the shape.</p><p><svg viewBox="-22 -22 152 44" width="152" height="44" role="img" aria-label="Ion with charge 1 minus, drawn in a straight line. O double bond N, N single bond O. Two lone pairs on the first O, one lone pair on N, three lone pairs on the second O" style="vertical-align:middle;max-width:100%"><line x1="9.0" y1="-2.6" x2="35.0" y2="-2.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="9.0" y1="2.6" x2="35.0" y2="2.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="53.0" y1="0.0" x2="79.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="0" y="6" text-anchor="middle" font-size="17" fill="currentColor">O</text><circle cx="-4.2" cy="-13.7" r="1.7" fill="currentColor"/><circle cx="-9.8" cy="-10.5" r="1.7" fill="currentColor"/><circle cx="-9.8" cy="10.5" r="1.7" fill="currentColor"/><circle cx="-4.2" cy="13.7" r="1.7" fill="currentColor"/><text x="44" y="6" text-anchor="middle" font-size="17" fill="currentColor">N</text><circle cx="47.2" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="40.8" cy="-14.0" r="1.7" fill="currentColor"/><text x="88" y="6" text-anchor="middle" font-size="17" fill="currentColor">O</text><circle cx="91.2" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="84.8" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="102.0" cy="3.2" r="1.7" fill="currentColor"/><circle cx="102.0" cy="-3.2" r="1.7" fill="currentColor"/><circle cx="84.8" cy="14.0" r="1.7" fill="currentColor"/><circle cx="91.2" cy="14.0" r="1.7" fill="currentColor"/><path d="M-14 -20H-19V20H-14M102 -20H107V20H102" fill="none" stroke="currentColor" stroke-width="1.4"/><text x="111" y="-12" font-size="13" fill="currentColor">−</text></svg></p><p>Which row gives the electron domain geometry and the molecular geometry around the nitrogen atom?</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Options</caption><thead><tr><th scope="col"></th><th scope="col">Electron domain geometry</th><th scope="col">Molecular geometry</th></tr></thead><tbody><tr><th scope="row">A</th><td>trigonal planar</td><td>trigonal planar</td></tr><tr><th scope="row">B</th><td>trigonal planar</td><td>bent (V-shaped)</td></tr><tr><th scope="row">C</th><td>tetrahedral</td><td>bent (V-shaped)</td></tr><tr><th scope="row">D</th><td>linear</td><td>linear</td></tr></tbody></table></div>
-      stem: "",
+      stem: "<p>下圖是亞硝酸根離子 (nitrite ion) <span class=\"chem\">NO2-</span> 的一個路易斯結構式。路易斯結構式並不顯示形狀。</p><p><svg viewBox=\"-22 -22 152 44\" width=\"152\" height=\"44\" role=\"img\" aria-label=\"帶 1− 電荷的離子，畫成一直線。O 與 N 以雙鍵連接，N 與 O 以單鍵連接。第一個 O 上有兩個孤電子對，N 上有一個孤電子對，第二個 O 上有三個孤電子對\" style=\"vertical-align:middle;max-width:100%\"><line x1=\"9.0\" y1=\"-2.6\" x2=\"35.0\" y2=\"-2.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"9.0\" y1=\"2.6\" x2=\"35.0\" y2=\"2.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"53.0\" y1=\"0.0\" x2=\"79.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">O</text><circle cx=\"-4.2\" cy=\"-13.7\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-9.8\" cy=\"-10.5\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-9.8\" cy=\"10.5\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-4.2\" cy=\"13.7\" r=\"1.7\" fill=\"currentColor\"/><text x=\"44\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">N</text><circle cx=\"47.2\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"40.8\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><text x=\"88\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">O</text><circle cx=\"91.2\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"84.8\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"102.0\" cy=\"3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"102.0\" cy=\"-3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"84.8\" cy=\"14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"91.2\" cy=\"14.0\" r=\"1.7\" fill=\"currentColor\"/><path d=\"M-14 -20H-19V20H-14M102 -20H107V20H102\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"111\" y=\"-12\" font-size=\"13\" fill=\"currentColor\">−</text></svg></p><p>哪一行正確列出氮原子周圍的電子域幾何形狀 (electron domain geometry) 和分子形狀 (molecular geometry)？</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>選項</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">電子域幾何形狀</th><th scope=\"col\">分子形狀</th></tr></thead><tbody><tr><th scope=\"row\">A</th><td>平面三角形</td><td>平面三角形</td></tr><tr><th scope=\"row\">B</th><td>平面三角形</td><td>彎曲形（V 形）</td></tr><tr><th scope=\"row\">C</th><td>四面體形</td><td>彎曲形（V 形）</td></tr><tr><th scope=\"row\">D</th><td>直線形</td><td>直線形</td></tr></tbody></table></div>",
       options: [
         // EN: A
-        "",
+        "A",
         // EN: B
-        "",
+        "B",
         // EN: C
-        "",
+        "C",
         // EN: D
-        "",
+        "D",
       ],
       hints: [
         // EN: Count the electron domains around N. A double bond counts as one domain. A lone pair counts as one domain.
-        "",
+        "數一數 N 周圍的電子域。一個雙鍵算一個電子域。一個孤電子對也算一個電子域。",
         // EN: The electron domain geometry uses all the domains. The molecular geometry uses only the atoms.
-        "",
+        "電子域幾何形狀看所有電子域。分子形狀只看原子。",
       ],
       // EN: <p>Around nitrogen there are <strong>three electron domains</strong>: one double bond, one single bond and one lone pair.</p><p>Three domains repel to a <strong>trigonal planar</strong> electron domain geometry.</p><p>Only two of the domains hold atoms, so the molecular geometry is <strong>bent (V-shaped)</strong>. The bond angle is a little less than 120° (about 115°), because the lone pair repels more than the bonding pairs.</p>
-      solution: "",
+      solution: "<p>氮周圍有<strong>三個電子域</strong>：一個雙鍵、一個單鍵和一個孤電子對。</p><p>三個電子域互相排斥，形成<strong>平面三角形</strong>的電子域幾何形狀。</p><p>只有兩個電子域連接着原子，所以分子形狀是<strong>彎曲形（V 形）</strong>。鍵角略小於 120°（約 115°），因為孤電子對的排斥力比鍵合電子對大。</p>",
       misconception: {
         // EN (option A): The electron domain geometry is right. But the molecular geometry describes only the atoms. One of the three domains is a lone pair, so only two positions hold atoms.
-        "0": "",
+        "0": "電子域幾何形狀是對的。但分子形狀只描述原子。三個電子域中有一個是孤電子對，所以只有兩個位置有原子。",
         // EN (option C): A double bond counts as <strong>one</strong> electron domain. Nitrogen has three domains (double bond, single bond, lone pair), not four.
-        "2": "",
+        "2": "一個雙鍵只算<strong>一個</strong>電子域。氮有三個電子域（雙鍵、單鍵、孤電子對），不是四個。",
         // EN (option D): This ignores the lone pair on nitrogen. The lone pair is an electron domain. It repels the two bonds, so the ion is not linear.
-        "3": "",
+        "3": "這忽略了氮上的孤電子對。孤電子對也是一個電子域。它排斥那兩個鍵，所以這個離子不是直線形。",
       },
     },
 
     // ── s2-2-q019 · order · exam · SL · Structure 2.2.4 · 2 marks
     "s2-2-q019": {
       // EN: <p>Put these molecules in order of bond angle around the central atom. Put the <strong>smallest</strong> bond angle first.</p>
-      stem: "",
+      stem: "<p>按中心原子周圍的鍵角 (bond angle) 大小排列這些分子。鍵角<strong>最小</strong>的排在最前。</p>",
       options: [
         // EN: <span class="chem">H2O</span>
-        "",
+        "<span class=\"chem\">H2O</span>",
         // EN: <span class="chem">NH3</span>
-        "",
+        "<span class=\"chem\">NH3</span>",
         // EN: <span class="chem">CH4</span>
-        "",
+        "<span class=\"chem\">CH4</span>",
         // EN: <span class="chem">BF3</span>
-        "",
+        "<span class=\"chem\">BF3</span>",
         // EN: <span class="chem">CO2</span>
-        "",
+        "<span class=\"chem\">CO2</span>",
       ],
       hints: [
         // EN: Count the electron domains around each central atom: 2, 3 or 4.
-        "",
+        "數一數每個中心原子周圍的電子域：2、3 或 4 個。",
         // EN: <span class="chem">H2O</span>, <span class="chem">NH3</span> and <span class="chem">CH4</span> all have four domains. They differ in the number of lone pairs.
-        "",
+        "<span class=\"chem\">H2O</span>、<span class=\"chem\">NH3</span> 和 <span class=\"chem\">CH4</span> 都有四個電子域，分別在於孤電子對的數目。",
         // EN: Lone pairs repel more than bonding pairs, so they squeeze the bond angle.
-        "",
+        "孤電子對的排斥力比鍵合電子對大，所以會把鍵角壓小。",
       ],
       // EN: <p><span class="chem">H2O</span>: 4 domains, 2 lone pairs, about 104.5°.</p><p><span class="chem">NH3</span>: 4 domains, 1 lone pair, about 107°.</p><p><span class="chem">CH4</span>: 4 domains, no lone pairs, 109.5°.</p><p><span class="chem">BF3</span>: 3 domains, no lone pairs, 120°.</p><p><span class="chem">CO2</span>: 2 domains (each double bond is one domain), 180°.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">H2O</span>：4 個電子域，2 個孤電子對，約 104.5°。</p><p><span class=\"chem\">NH3</span>：4 個電子域，1 個孤電子對，約 107°。</p><p><span class=\"chem\">CH4</span>：4 個電子域，沒有孤電子對，109.5°。</p><p><span class=\"chem\">BF3</span>：3 個電子域，沒有孤電子對，120°。</p><p><span class=\"chem\">CO2</span>：2 個電子域（每個雙鍵算一個電子域），180°。</p>",
     },
 
     // ── s2-2-q020 · short · exam · SL · Structure 2.2.4 · 2 marks
     "s2-2-q020": {
       // EN: <p>The <span class="chem">H–C–H</span> bond angle in methane, <span class="chem">CH4</span>, is 109.5°. The <span class="chem">H–N–H</span> bond angle in ammonia, <span class="chem">NH3</span>, is about 107°.</p><p>Explain why the bond angle in ammonia is smaller.</p>
-      stem: "",
+      stem: "<p>甲烷 <span class=\"chem\">CH4</span> 的 <span class=\"chem\">H–C–H</span> 鍵角是 109.5°。氨 <span class=\"chem\">NH3</span> 的 <span class=\"chem\">H–N–H</span> 鍵角約為 107°。</p><p>解釋 (explain) 為甚麼氨的鍵角較小。</p>",
       hints: [
         // EN: Compare the electron domains around C and around N.
-        "",
+        "比較 C 周圍和 N 周圍的電子域。",
         // EN: Do all electron domains repel equally?
-        "",
+        "所有電子域的排斥力都相等嗎？",
       ],
       // EN: <p>Both central atoms have four electron domains, so both have a tetrahedral electron domain geometry. In methane all four domains are bonding pairs. In ammonia there are three bonding pairs and one lone pair (non-bonding pair).</p><p>A lone pair repels more strongly than a bonding pair. It pushes the three bonding pairs closer together, so the angle is less than 109.5°.</p>
-      answer: "",
+      answer: "<p>兩個中心原子都有四個電子域，所以電子域幾何形狀都是四面體形。甲烷的四個電子域全是鍵合電子對。氨有三個鍵合電子對和一個孤電子對（非鍵合電子對）。</p><p>孤電子對的排斥力比鍵合電子對強。它把三個鍵合電子對推得更近，所以鍵角小於 109.5°。</p>",
       markscheme: [
         // EN: Nitrogen in ammonia has one lone (non-bonding) pair and three bonding pairs, but carbon in methane has four bonding pairs and no lone pair. Accept: both have four electron domains but ammonia has a lone pair.
-        "",
+        "氨中的氮有一個孤電子對（非鍵合電子對）和三個鍵合電子對，而甲烷中的碳有四個鍵合電子對，沒有孤電子對。接受：兩者都有四個電子域，但氨有一個孤電子對。",
         // EN: Lone pairs repel more than bonding pairs (so the bonding pairs are pushed closer together).
-        "",
+        "孤電子對的排斥力比鍵合電子對大（所以鍵合電子對被推得更近）。",
       ],
     },
 
     // ── s2-2-q021 · mcq · exam · SL · Structure 2.2.4 · 1 mark
     "s2-2-q021": {
       // EN: <p>Methanol has the structural formula <span class="chem">CH3OH</span>. Which row gives the geometry of the atoms around the carbon atom and around the oxygen atom?</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Options</caption><thead><tr><th scope="col"></th><th scope="col">Around carbon</th><th scope="col">Around oxygen</th></tr></thead><tbody><tr><th scope="row">A</th><td>tetrahedral</td><td>linear</td></tr><tr><th scope="row">B</th><td>tetrahedral</td><td>tetrahedral</td></tr><tr><th scope="row">C</th><td>trigonal pyramidal</td><td>bent (V-shaped)</td></tr><tr><th scope="row">D</th><td>tetrahedral</td><td>bent (V-shaped)</td></tr></tbody></table></div>
-      stem: "",
+      stem: "<p>甲醇 (methanol) 的結構式是 <span class=\"chem\">CH3OH</span>。哪一行正確列出碳原子周圍和氧原子周圍的原子所構成的幾何形狀？</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>選項</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">碳周圍</th><th scope=\"col\">氧周圍</th></tr></thead><tbody><tr><th scope=\"row\">A</th><td>四面體形</td><td>直線形</td></tr><tr><th scope=\"row\">B</th><td>四面體形</td><td>四面體形</td></tr><tr><th scope=\"row\">C</th><td>三角錐體形</td><td>彎曲形（V 形）</td></tr><tr><th scope=\"row\">D</th><td>四面體形</td><td>彎曲形（V 形）</td></tr></tbody></table></div>",
       options: [
         // EN: A
-        "",
+        "A",
         // EN: B
-        "",
+        "B",
         // EN: C
-        "",
+        "C",
         // EN: D
-        "",
+        "D",
       ],
       hints: [
         // EN: Treat each atom in turn as a "central atom".
-        "",
+        "把每個原子輪流當作「中心原子」。",
         // EN: Carbon: four bonding pairs. Oxygen: two bonding pairs and two lone pairs.
-        "",
+        "碳：四個鍵合電子對。氧：兩個鍵合電子對和兩個孤電子對。",
       ],
       // EN: <p><strong>Carbon</strong> has four bonding pairs (three to H, one to O) and no lone pairs: <strong>tetrahedral</strong>, about 109.5°.</p><p><strong>Oxygen</strong> has four electron domains: two bonding pairs (to C and to H) and two lone pairs. The two atoms make a <strong>bent</strong> shape, like water, with an angle less than 109.5°.</p>
-      solution: "",
+      solution: "<p><strong>碳</strong>有四個鍵合電子對（三個連接 H，一個連接 O），沒有孤電子對：<strong>四面體形</strong>，約 109.5°。</p><p><strong>氧</strong>有四個電子域：兩個鍵合電子對（連接 C 和 H）和兩個孤電子對。兩個原子構成<strong>彎曲形</strong>，與水相似，鍵角小於 109.5°。</p>",
       misconception: {
         // EN (option A): Oxygen has two bonding pairs <strong>and two lone pairs</strong>. The lone pairs repel the bonds, so <span class="chem">C–O–H</span> is not a straight line.
-        "0": "",
+        "0": "氧有兩個鍵合電子對，<strong>還有兩個孤電子對</strong>。孤電子對排斥那兩個鍵，所以 <span class=\"chem\">C–O–H</span> 不是一條直線。",
         // EN (option B): Tetrahedral is the electron domain geometry around oxygen. The question asks for the geometry of the atoms. Only two atoms are bonded to oxygen.
-        "1": "",
+        "1": "四面體形是氧周圍的電子域幾何形狀。題目問的是原子所構成的形狀。只有兩個原子與氧鍵合。",
         // EN (option C): Carbon is bonded to four atoms (three H and one O) and has no lone pair. Trigonal pyramidal needs three atoms and one lone pair.
-        "2": "",
+        "2": "碳與四個原子鍵合（三個 H 和一個 O），沒有孤電子對。三角錐體形需要三個原子和一個孤電子對。",
       },
     },
 
     // ── s2-2-q022 · mcq · challenge · SL · Structure 2.2.4 · 1 mark
     "s2-2-q022": {
       // EN: <p>In methanal, <span class="chem">H2C=O</span>, the carbon atom is bonded to two hydrogen atoms and, by a double bond, to one oxygen atom.</p><p>Which is the best prediction of the <span class="chem">H–C–H</span> bond angle?</p>
-      stem: "",
+      stem: "<p>在甲醛 (methanal) <span class=\"chem\">H2C=O</span> 中，碳原子與兩個氫原子鍵合，並以雙鍵與一個氧原子鍵合。</p><p>以下哪一項對 <span class=\"chem\">H–C–H</span> 鍵角的預測最好？</p>",
       options: [
         // EN: Exactly 120°, because there are three electron domains and no lone pairs on carbon.
-        "",
+        "剛好 120°，因為碳有三個電子域，沒有孤電子對。",
         // EN: Slightly less than 120°, because the double bond repels more than the single bonds.
-        "",
+        "略小於 120°，因為雙鍵的排斥力比單鍵大。",
         // EN: About 109.5°, because carbon forms four bonds.
-        "",
+        "約 109.5°，因為碳形成四個鍵。",
         // EN: Slightly more than 120°, because the double bond takes up less space than a single bond.
-        "",
+        "略大於 120°，因為雙鍵佔的空間比單鍵小。",
       ],
       hints: [
         // EN: How many electron domains are around carbon? A double bond counts as one.
-        "",
+        "碳周圍有多少個電子域？一個雙鍵算一個。",
         // EN: A double bond has four electrons in it. Compare its repulsion with that of a single bond.
-        "",
+        "雙鍵中有四個電子。把它的排斥力與單鍵的比較。",
       ],
       // EN: <p>Carbon has <strong>three electron domains</strong> (two single bonds, one double bond). The shape is trigonal planar with angles near 120°.</p><p>The double bond has greater electron density, so it repels the two <span class="chem">C–H</span> bonding pairs more strongly. They are pushed together. The <span class="chem">H–C–H</span> angle is <strong>slightly less than 120°</strong> (the measured value is about 116°).</p>
-      solution: "",
+      solution: "<p>碳有<strong>三個電子域</strong>（兩個單鍵、一個雙鍵）。形狀是平面三角形，鍵角接近 120°。</p><p>雙鍵的電子密度較大，所以對兩個 <span class=\"chem\">C–H</span> 鍵合電子對的排斥較強，把它們推近。<span class=\"chem\">H–C–H</span> 鍵角<strong>略小於 120°</strong>（量度所得的數值約為 116°）。</p>",
       misconception: {
         // EN (option A): Three domains do give angles near 120°. But the three domains are not the same. The double bond has more electron density than a single bond, so the repulsions are not equal.
-        "0": "",
+        "0": "三個電子域確實令鍵角接近 120°。但這三個電子域並不相同。雙鍵的電子密度比單鍵大，所以排斥力不相等。",
         // EN (option C): Count electron domains, not bonds. The double bond is one domain, so carbon has three domains, not four.
-        "2": "",
+        "2": "要數電子域，不是數鍵。雙鍵是一個電子域，所以碳有三個電子域，不是四個。",
         // EN (option D): A double bond holds four electrons, so it has more electron density than a single bond. It repels more, not less.
-        "3": "",
+        "3": "雙鍵有四個電子，所以電子密度比單鍵大。它的排斥力較大，不是較小。",
       },
     },
 
@@ -1854,6 +1854,8 @@ S1.i18n.register('zh-Hant', 's2-2.q', {
       ],
       // EN: <p>Phosphorus has four electron domains, so the electron domain geometry is tetrahedral (109.5°). One domain is a lone pair, so the molecular geometry is trigonal pyramidal.</p><p>The lone pair repels the bonding pairs more strongly than they repel each other. The bond angle is <strong>less than 109.5°</strong>.</p><p>A markscheme accepts a range for a trigonal pyramidal molecule, such as 100° to 107°. The measured angle in <span class="chem">PCl3</span> is about 100°. Do not write 109.5°.</p>
       solution: "",
+      // EN: any value from 100° to 107°
+      answerDisplay: "",
     },
 
   }

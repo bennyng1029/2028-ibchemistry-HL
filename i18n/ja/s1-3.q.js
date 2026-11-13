@@ -308,8 +308,8 @@ S1.i18n.register('ja', 's1-3.q', {
         // EN: List every level above it that an electron could start from.
         "その準位より上で、電子が出発できる準位をすべて書き出しましょう。",
       ],
-      // EN: <p>Visible lines come from falls that end on n = 2. The electron can start from n = 3, n = 4 or n = 5 (it can reach n = 3 or n = 4 by an earlier, smaller fall from n = 5).</p><div class="worked__math">n = 5 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;4 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;3 → n&nbsp;=&nbsp;2</div><p>That is <strong>3</strong> lines in the visible region. The other possible falls end on n = 1 (ultraviolet) or on n = 3 or n = 4 (infrared).</p>
-      solution: "<p>可視光の線は、n = 2 で終わる遷移からできます。電子は n = 3、n = 4、n = 5 のどれからでも出発できます（n = 5 から先に少しだけ落ちれば、n = 3 や n = 4 に移れます）。</p><div class=\"worked__math\">n = 5 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;4 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;3 → n&nbsp;=&nbsp;2</div><p>したがって、可視光の領域の線は <strong>3</strong> 本です。そのほかの遷移は、n = 1 で終わる（紫外線）か、n = 3 または n = 4 で終わります（赤外線）。</p>",
+      // EN: <p>Visible lines come from falls that end on n = 2. The electron can start from n = 3, n = 4 or n = 5 (it can reach n = 3 or n = 4 by an earlier, smaller fall from n = 5).</p><div class="worked__math">n&nbsp;=&nbsp;5 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;4 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;3 → n&nbsp;=&nbsp;2</div><p>That is <strong>3</strong> lines in the visible region. The other possible falls end on n = 1 (ultraviolet) or on n = 3 or n = 4 (infrared).</p>
+      solution: "<p>可視光の線は、n = 2 で終わる遷移からできます。電子は n = 3、n = 4、n = 5 のどれからでも出発できます（n = 5 から先に少しだけ落ちれば、n = 3 や n = 4 に移れます）。</p><div class=\"worked__math\">n&nbsp;=&nbsp;5 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;4 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;3 → n&nbsp;=&nbsp;2</div><p>したがって、可視光の領域の線は <strong>3</strong> 本です。そのほかの遷移は、n = 1 で終わる（紫外線）か、n = 3 または n = 4 で終わります（赤外線）。</p>",
       // EN: lines
       unit: "本",
     },

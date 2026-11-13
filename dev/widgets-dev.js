@@ -25,9 +25,9 @@
     w.button(t('Water boils'), function () { slider.set(100); });
 
     var marks = [
-      { c: MIN, label: 'absolute zero' } /* t('absolute zero') t('water freezes') t('water boils') */,
-      { c: 0, label: 'water freezes' },
-      { c: 100, label: 'water boils' }
+      { c: MIN, label: 'absolute zero' },   // i18n
+      { c: 0, label: 'water freezes' },     // i18n
+      { c: 100, label: 'water boils' }      // i18n
     ];
 
     var cv = w.canvas({ height: 150, label: t('Thermometer scale from absolute zero to 150 degrees Celsius, labelled in both degrees Celsius and kelvin') });

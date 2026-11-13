@@ -545,7 +545,7 @@ S1.i18n.register('ja', 's2-4', {
     "A paper-clip chain is made by joining many identical clips, one after another. A polymer is made in the same way, from small molecules.": "クリップをつないだ鎖は、同じクリップを次々につなげてつくります。高分子も同じように、小さな分子をつなげてつくります。",
 
     // Polymers and plastics > p
-    "A <dfn data-def=\"A large molecule (macromolecule) made from many repeating subunits called monomers.\">polymer</dfn> is a large molecule made from many repeating subunits. The small molecules that join together are called <dfn data-def=\"A small molecule that can join with many others to form a polymer.\">monomers</dfn>. Another word for a very large molecule is <dfn>macromolecule</dfn>. One polymer chain can contain thousands of monomer units.": "<dfn data-def=\"単量体（モノマー）と呼ばれる小さな単位がたくさん繰り返してできた、大きな分子（巨大分子）です。\">高分子（ポリマー）<span class=\"en-term\">(polymer)</span></dfn>は、小さな単位がたくさん繰り返してできた大きな分子です。つながり合う小さな分子を<dfn data-def=\"たくさんの分子とつながって高分子をつくることができる、小さな分子です。\">単量体（モノマー）<span class=\"en-term\">(monomer)</span></dfn>と呼びます。とても大きな分子は<dfn>巨大分子 <span class=\"en-term\">(macromolecule)</span></dfn>とも呼びます。1 本の高分子の鎖には、単量体の単位が数千個も入っていることがあります。",
+    "A <dfn data-def=\"A large molecule (macromolecule) made from many repeating subunits called monomers.\">polymer</dfn> is a large molecule made from many repeating subunits. The small molecules that join together are called <dfn data-def=\"A small molecule that can join with many others to form a polymer.\">monomers</dfn>. Another word for a very large molecule is <dfn>macromolecule</dfn>. One polymer chain can contain thousands of monomer units.": "<dfn data-def=\"単量体（モノマー）と呼ばれる小さな単位がたくさん繰り返してできた、大きな分子（巨大分子）です。\">高分子（ポリマー）<span class=\"en-term\">(polymer)</span></dfn>は、小さな単位がたくさん繰り返してできた大きな分子です。つながり合う小さな分子を<dfn data-def=\"たくさんの分子とつながって高分子をつくることができる、小さな分子です。\">単量体（モノマー）<span class=\"en-term\">(monomers)</span></dfn>と呼びます。とても大きな分子は<dfn>巨大分子 <span class=\"en-term\">(macromolecule)</span></dfn>とも呼びます。1 本の高分子の鎖には、単量体の単位が数千個も入っていることがあります。",
 
     // Polymers and plastics > data-def attribute
     "A large molecule (macromolecule) made from many repeating subunits called monomers.": "単量体（モノマー）と呼ばれる小さな単位がたくさん繰り返してできた、大きな分子（巨大分子）です。",
@@ -702,7 +702,7 @@ S1.i18n.register('ja', 's2-4', {
     "Repeating unit from a monomer": "単量体から繰り返し単位",
 
     // Addition polymers > worked example > p
-    "Propene has the structure shown. Draw the repeating unit of the addition polymer formed from propene.": "プロペン (propene) の構造を下に示します。プロペンからできる付加重合体の繰り返し単位を描きましょう。",
+    "Propene has the structure shown. Draw the repeating unit of the addition polymer formed from propene.": "図はプロペン (propene) の構造です。プロペンからできる付加重合体の繰り返し単位を描きましょう。",
 
     // Addition polymers > worked example > data-title attribute
     "Find the two double-bonded carbons": "二重結合でつながった 2 個の炭素を見つける",
@@ -756,7 +756,7 @@ S1.i18n.register('ja', 's2-4', {
     "Monomer from a polymer": "高分子から単量体",
 
     // Addition polymers > worked example > p
-    "A section of an addition polymer is shown. Deduce the structure of the monomer.": "付加重合体の一部分を下に示します。単量体の構造を導きましょう。",
+    "A section of an addition polymer is shown. Deduce the structure of the monomer.": "図は付加重合体の一部分です。単量体の構造を導きましょう。",
 
     // Addition polymers > worked example > data-title attribute
     "Mark one repeating unit": "繰り返し単位を 1 つ区切る",
@@ -873,7 +873,7 @@ S1.i18n.register('ja', 's2-4', {
     "Repeating unit of a polyester": "ポリエステルの繰り返し単位",
 
     // Condensation polymers > worked example > Additional HL > p
-    "A polyester is made from the two monomers shown. Draw its repeating unit and state the other product.": "下の 2 つの単量体からポリエステルができます。繰り返し単位を描き、もう 1 つの生成物を述べましょう。",
+    "A polyester is made from the two monomers shown. Draw its repeating unit and state the other product.": "図の 2 つの単量体からポリエステルができます。繰り返し単位を描き、もう 1 つの生成物を述べましょう。",
 
     // Condensation polymers > worked example > Additional HL > data-title attribute
     "Identify the groups that react": "反応する基を特定する",
@@ -909,7 +909,7 @@ S1.i18n.register('ja', 's2-4', {
     "Repeating unit of a polyamide": "ポリアミドの繰り返し単位",
 
     // Condensation polymers > worked example > Additional HL > p
-    "A polyamide is made from the two monomers shown. Draw its repeating unit.": "下の 2 つの単量体からポリアミドができます。繰り返し単位を描きましょう。",
+    "A polyamide is made from the two monomers shown. Draw its repeating unit.": "図の 2 つの単量体からポリアミドができます。繰り返し単位を描きましょう。",
 
     // Condensation polymers > worked example > Additional HL > p
     "An –NH<sub>2</sub> group of the diamine reacts with a –COOH group of the acid. This makes an amide link.": "ジアミンの –NH<sub>2</sub> 基が、酸の –COOH 基と反応します。これでアミド結合 (amide link) ができます。",
@@ -924,752 +924,752 @@ S1.i18n.register('ja', 's2-4', {
     "Join N to the C=O carbon": "N を C=O の炭素とつなぐ",
 
     // Condensation polymers > worked example > Additional HL > p
-    "The nitrogen bonds to the carbon of the C=O group. This –N(H)–C(=O)– group is the amide link.": "",
+    "The nitrogen bonds to the carbon of the C=O group. This –N(H)–C(=O)– group is the amide link.": "窒素が、C=O 基の炭素と結合します。この –N(H)–C(=O)– のまとまりがアミド結合です。",
 
     // Condensation polymers > worked example > Additional HL > p
-    "The far –NH<sub>2</sub> group loses an H and the far –COOH group loses an –OH when they join the next monomers.": "",
+    "The far –NH<sub>2</sub> group loses an H and the far –COOH group loses an –OH when they join the next monomers.": "反対側の端の –NH<sub>2</sub> 基は H を、反対側の端の –COOH 基は –OH を失って、次の単量体とつながります。",
 
     // Condensation polymers > worked example > Additional HL > p
-    "The repeating unit is –NH–(CH<sub>2</sub>)<sub>4</sub>–NH–CO–(CH<sub>2</sub>)<sub>6</sub>–CO–. Water is also formed.": "",
+    "The repeating unit is –NH–(CH<sub>2</sub>)<sub>4</sub>–NH–CO–(CH<sub>2</sub>)<sub>6</sub>–CO–. Water is also formed.": "繰り返し単位は –NH–(CH<sub>2</sub>)<sub>4</sub>–NH–CO–(CH<sub>2</sub>)<sub>6</sub>–CO– です。水もできます。",
 
     // Condensation polymers > common mistake > Additional HL > p
-    "Each nitrogen atom in a polyamide chain still has one hydrogen atom: the link is –NH–CO–, not –N–CO–. Also remember the water. A condensation equation without the small molecule is incomplete.": "",
+    "Each nitrogen atom in a polyamide chain still has one hydrogen atom: the link is –NH–CO–, not –N–CO–. Also remember the water. A condensation equation without the small molecule is incomplete.": "ポリアミドの鎖の窒素原子には、どれも水素原子が 1 個残っています。結合は –NH–CO– で、–N–CO– ではありません。水も忘れないようにしましょう。小さな分子を書いていない縮合の反応式は、不完全です。",
 
     // Condensation polymers > Additional HL > h3
-    "Hydrolysis: the reverse reaction": "",
+    "Hydrolysis: the reverse reaction": "加水分解：逆向きの反応",
 
     // Condensation polymers > Additional HL > p
-    "<dfn data-def=\"The breaking of a bond by reaction with water. It is the reverse of condensation.\">Hydrolysis</dfn> means breaking a bond by reaction with water. It is the reverse of condensation. Water breaks each ester or amide link. The –OH of water joins the C=O carbon, and the H of water joins the O or N atom. The monomers form again.": "",
+    "<dfn data-def=\"The breaking of a bond by reaction with water. It is the reverse of condensation.\">Hydrolysis</dfn> means breaking a bond by reaction with water. It is the reverse of condensation. Water breaks each ester or amide link. The –OH of water joins the C=O carbon, and the H of water joins the O or N atom. The monomers form again.": "<dfn data-def=\"水との反応で結合を切ることです。縮合の逆です。\">加水分解 <span class=\"en-term\">(hydrolysis)</span></dfn>とは、水との反応で結合を切ることです。縮合の逆の反応です。水が、エステル結合やアミド結合を 1 つずつ切ります。水の –OH は C=O の炭素につき、水の H は O 原子または N 原子につきます。こうして単量体が元どおりにできます。",
 
     // Condensation polymers > Additional HL > data-def attribute
-    "The breaking of a bond by reaction with water. It is the reverse of condensation.": "",
+    "The breaking of a bond by reaction with water. It is the reverse of condensation.": "水との反応で結合を切ることです。縮合の逆です。",
 
     // Condensation polymers > worked example > Additional HL > h3
-    "Monomers from a condensation polymer": "",
+    "Monomers from a condensation polymer": "縮合重合体から単量体",
 
     // Condensation polymers > worked example > Additional HL > p
-    "The repeating unit of a polymer is shown. Identify the type of polymer and deduce the structures of the two monomers.": "",
+    "The repeating unit of a polymer is shown. Identify the type of polymer and deduce the structures of the two monomers.": "図はある高分子の繰り返し単位です。高分子の種類を特定し、2 つの単量体の構造を導きましょう。",
 
     // Condensation polymers > worked example > Additional HL > data-title attribute
-    "Find the link": "",
+    "Find the link": "結合を見つける",
 
     // Condensation polymers > worked example > Additional HL > p
-    "Look for C=O next to N or O in the backbone. Here C=O is next to N–H.": "",
+    "Look for C=O next to N or O in the backbone. Here C=O is next to N–H.": "主鎖の中で、N または O のとなりにある C=O をさがします。ここでは、C=O が N–H のとなりにあります。",
 
     // Condensation polymers > worked example > Additional HL > maths line
-    "–NH–CO– is an amide link, so this is a polyamide": "",
+    "–NH–CO– is an amide link, so this is a polyamide": "–NH–CO– はアミド結合なので、これはポリアミド",
 
     // Condensation polymers > worked example > Additional HL > data-title attribute
-    "Break every amide link": "",
+    "Break every amide link": "アミド結合をすべて切る",
 
     // Condensation polymers > worked example > Additional HL > p
-    "Hydrolysis breaks the bond between the N and the C=O carbon. Remember that the bonds at the ends of the unit are amide links too.": "",
+    "Hydrolysis breaks the bond between the N and the C=O carbon. Remember that the bonds at the ends of the unit are amide links too.": "加水分解では、N と C=O の炭素の間の結合が切れます。単位の両端の結合もアミド結合であることを忘れないようにしましょう。",
 
     // Condensation polymers > worked example > Additional HL > maths line
-    "–NH–(CH<sub>2</sub>)<sub>2</sub>–NH– &nbsp; and &nbsp; –CO–(CH<sub>2</sub>)<sub>3</sub>–CO–": "",
+    "–NH–(CH<sub>2</sub>)<sub>2</sub>–NH– &nbsp; and &nbsp; –CO–(CH<sub>2</sub>)<sub>3</sub>–CO–": "–NH–(CH<sub>2</sub>)<sub>2</sub>–NH– &nbsp; と &nbsp; –CO–(CH<sub>2</sub>)<sub>3</sub>–CO–",
 
     // Condensation polymers > worked example > Additional HL > data-title attribute
-    "Add the atoms of water": "",
+    "Add the atoms of water": "水の原子を加える",
 
     // Condensation polymers > worked example > Additional HL > p
-    "Each N gains an H, giving –NH<sub>2</sub>. Each C=O carbon gains an –OH, giving –COOH.": "",
+    "Each N gains an H, giving –NH<sub>2</sub>. Each C=O carbon gains an –OH, giving –COOH.": "それぞれの N に H がついて、–NH<sub>2</sub> になります。それぞれの C=O の炭素に –OH がついて、–COOH になります。",
 
     // Condensation polymers > worked example > Additional HL > maths line
-    "H<sub>2</sub>N–(CH<sub>2</sub>)<sub>2</sub>–NH<sub>2</sub> &nbsp; and &nbsp; HOOC–(CH<sub>2</sub>)<sub>3</sub>–COOH": "",
+    "H<sub>2</sub>N–(CH<sub>2</sub>)<sub>2</sub>–NH<sub>2</sub> &nbsp; and &nbsp; HOOC–(CH<sub>2</sub>)<sub>3</sub>–COOH": "H<sub>2</sub>N–(CH<sub>2</sub>)<sub>2</sub>–NH<sub>2</sub> &nbsp; と &nbsp; HOOC–(CH<sub>2</sub>)<sub>3</sub>–COOH",
 
     // Condensation polymers > worked example > Additional HL > data-title attribute
-    "Check the monomers": "",
+    "Check the monomers": "単量体を確かめる",
 
     // Condensation polymers > worked example > Additional HL > p
-    "Each monomer must have two functional groups: a diamine and a dicarboxylic acid.": "",
+    "Each monomer must have two functional groups: a diamine and a dicarboxylic acid.": "どちらの単量体にも官能基が 2 つなければなりません。ジアミンとジカルボン酸です。",
 
     // Condensation polymers > worked example > Additional HL > p
-    "It is a polyamide. The monomers are H<sub>2</sub>N–(CH<sub>2</sub>)<sub>2</sub>–NH<sub>2</sub> and HOOC–(CH<sub>2</sub>)<sub>3</sub>–COOH.": "",
+    "It is a polyamide. The monomers are H<sub>2</sub>N–(CH<sub>2</sub>)<sub>2</sub>–NH<sub>2</sub> and HOOC–(CH<sub>2</sub>)<sub>3</sub>–COOH.": "ポリアミドです。単量体は H<sub>2</sub>N–(CH<sub>2</sub>)<sub>2</sub>–NH<sub>2</sub> と HOOC–(CH<sub>2</sub>)<sub>3</sub>–COOH です。",
 
     // Condensation polymers > try it > Additional HL > data-label attribute
-    "Number of water molecules": "",
+    "Number of water molecules": "水分子の数",
 
     // Condensation polymers > try it > Additional HL > p
-    "50 molecules of a diol and 50 molecules of a dicarboxylic acid join to make one polyester chain. How many molecules of water are released?": "",
+    "50 molecules of a diol and 50 molecules of a dicarboxylic acid join to make one polyester chain. How many molecules of water are released?": "ジオールの分子 50 個とジカルボン酸の分子 50 個がつながって、ポリエステルの鎖が 1 本できます。水分子は何個放出されますか。",
 
     // Condensation polymers > try it > Additional HL > li
-    "One molecule of water is released for each link that forms.": "",
+    "One molecule of water is released for each link that forms.": "結合が 1 つできるたびに、水分子が 1 個放出されます。",
 
     // Condensation polymers > try it > Additional HL > li
-    "The chain contains 100 monomer units in a row. Count the links between them, as you would count the gaps between 100 fence posts.": "",
+    "The chain contains 100 monomer units in a row. Count the links between them, as you would count the gaps between 100 fence posts.": "鎖には、単量体の単位が 100 個、1 列に並んでいます。その間の結合を数えましょう。100 本の柵の柱の間にあるすき間を数えるのと同じです。",
 
     // Condensation polymers > try it > Additional HL > maths line
-    "monomer units in the chain = 50 + 50 = 100": "",
+    "monomer units in the chain = 50 + 50 = 100": "鎖の中の単量体の単位 = 50 + 50 = 100",
 
     // Condensation polymers > try it > Additional HL > maths line
-    "links = 100 − 1 = 99, so 99 molecules of H<sub>2</sub>O": "",
+    "links = 100 − 1 = 99, so 99 molecules of H<sub>2</sub>O": "結合 = 100 − 1 = 99 なので、H<sub>2</sub>O 分子は 99 個",
 
     // Condensation polymers > Additional HL > h3
-    "Biological macromolecules": "",
+    "Biological macromolecules": "生体の巨大分子",
 
     // Condensation polymers > Additional HL > p
-    "All biological macromolecules form by condensation reactions and break down by hydrolysis. Proteins are an example. Amino acids join by condensation, and water is released. The link between amino acids is an amide link, so a protein is a natural polyamide. When you digest protein, hydrolysis breaks the links and gives amino acids again.": "",
+    "All biological macromolecules form by condensation reactions and break down by hydrolysis. Proteins are an example. Amino acids join by condensation, and water is released. The link between amino acids is an amide link, so a protein is a natural polyamide. When you digest protein, hydrolysis breaks the links and gives amino acids again.": "生体の巨大分子 (biological macromolecules) はすべて、縮合反応でできて、加水分解でこわれます。タンパク質がその例です。アミノ酸が縮合でつながり、水が放出されます。アミノ酸の間の結合はアミド結合なので、タンパク質は天然のポリアミドです。タンパク質を消化するときは、加水分解で結合が切れて、またアミノ酸になります。",
 
     // Condensation polymers > Additional HL > p
-    "The same pattern is true for carbohydrates such as starch, and for DNA. The builder above includes amino acids as its third option.": "",
+    "The same pattern is true for carbohydrates such as starch, and for DNA. The builder above includes amino acids as its third option.": "デンプンなどの炭水化物や DNA でも、同じことが言えます。上の教材では、3 つ目の選択肢としてアミノ酸を選べます。",
 
     // Condensation polymers > table > Additional HL > caption
-    "Addition and condensation polymers compared": "",
+    "Addition and condensation polymers compared": "付加重合体と縮合重合体の比較",
 
     // Condensation polymers > table > Additional HL > th
-    "Feature": "",
+    "Feature": "特徴",
 
     // Condensation polymers > table > Additional HL > th
-    "Addition": "",
+    "Addition": "付加",
 
     // Condensation polymers > table > Additional HL > th
-    "Condensation": "",
+    "Condensation": "縮合",
 
     // Condensation polymers > table > Additional HL > th
-    "What the monomer needs": "",
+    "What the monomer needs": "単量体に必要なもの",
 
     // Condensation polymers > table > Additional HL > td
-    "a C=C double bond": "",
+    "a C=C double bond": "C=C 二重結合",
 
     // Condensation polymers > table > Additional HL > td
-    "two functional groups": "",
+    "two functional groups": "2 つの官能基",
 
     // Condensation polymers > table > Additional HL > th
-    "Products": "",
+    "Products": "生成物",
 
     // Condensation polymers > table > Additional HL > td
-    "the polymer only": "",
+    "the polymer only": "高分子だけ",
 
     // Condensation polymers > table > Additional HL > td
-    "the polymer and a small molecule, usually water": "",
+    "the polymer and a small molecule, usually water": "高分子と小さな分子（ふつうは水）",
 
     // Condensation polymers > table > Additional HL > th
-    "Backbone of the chain": "",
+    "Backbone of the chain": "鎖の主鎖",
 
     // Condensation polymers > table > Additional HL > td
-    "carbon atoms only": "",
+    "carbon atoms only": "炭素原子だけ",
 
     // Condensation polymers > table > Additional HL > td
-    "contains ester or amide links": "",
+    "contains ester or amide links": "エステル結合またはアミド結合を含む",
 
     // Condensation polymers > table > Additional HL > th
-    "Reversed by hydrolysis?": "",
+    "Reversed by hydrolysis?": "加水分解で元に戻るか",
 
     // Condensation polymers > table > Additional HL > td
-    "no": "",
+    "no": "いいえ",
 
     // Condensation polymers > table > Additional HL > td
-    "yes": "",
+    "yes": "はい",
 
     // Condensation polymers > exam tip (shown in English + translation) > Additional HL > p
-    "For a condensation repeating unit, one mark is for the correct ester or amide link. The other mark is for the continuation bonds and the rest of the structure. Draw one repeating unit only. If you are asked for the type of polymer, “condensation”, “polyester” or “polyamide” is expected.": "",
+    "For a condensation repeating unit, one mark is for the correct ester or amide link. The other mark is for the continuation bonds and the rest of the structure. Draw one repeating unit only. If you are asked for the type of polymer, “condensation”, “polyester” or “polyamide” is expected.": "縮合重合体の繰り返し単位では、1 点は正しいエステル結合またはアミド結合に与えられます。もう 1 点は、鎖の続きを表す結合と残りの構造に与えられます。繰り返し単位は 1 つだけ描きましょう。高分子の種類を問われたら、「condensation（縮合）」「polyester（ポリエステル）」「polyamide（ポリアミド）」と答えます。",
 
     // Condensation polymers > not needed for IB > Additional HL > p
-    "You do not need the detailed structures of proteins, carbohydrates, fats or DNA. You do not need the names of particular polyesters or polyamides. Other kinds of condensation polymer are not needed as drawing tasks.": "",
+    "You do not need the detailed structures of proteins, carbohydrates, fats or DNA. You do not need the names of particular polyesters or polyamides. Other kinds of condensation polymer are not needed as drawing tasks.": "タンパク質、炭水化物、脂肪、DNA のくわしい構造は必要ありません。特定のポリエステルやポリアミドの名前も必要ありません。ほかの種類の縮合重合体を描く問題は出ません。",
 
     // Condensation polymers > not needed for IB > Additional HL > p
-    "Alcohols, carboxylic acids, amines, esters and amides are studied as classes of compound in Structure 3.2. You do not need to know how these reactions happen, step by step. You also do not need other monomers, such as acyl chlorides, which release HCl in place of water.": "",
+    "Alcohols, carboxylic acids, amines, esters and amides are studied as classes of compound in Structure 3.2. You do not need to know how these reactions happen, step by step. You also do not need other monomers, such as acyl chlorides, which release HCl in place of water.": "アルコール、カルボン酸、アミン、エステル、アミドは、化合物の種類として Structure 3.2 で学びます。これらの反応がどのように進むかを、段階を追って知る必要はありません。水の代わりに HCl を放出する塩化アシルのような、ほかの単量体も必要ありません。",
 
     // Condensation polymers > Additional HL > data-title attribute
-    "Condensation polymers: quick check": "",
+    "Condensation polymers: quick check": "縮合重合体：確認クイズ",
 
     // Linking it up > h2
-    "Linking it up": "",
+    "Linking it up": "つなげて考える",
 
     // Linking it up > p
-    "The IB guide asks these linking questions. Short answers are enough at this stage.": "",
+    "The IB guide asks these linking questions. Short answers are enough at this stage.": "IB の『指導の手引き』には、次のような「つながりの問い」(Linking question) があります。今の段階では、短い答えで十分です。",
 
     // Linking it up > h3
-    "What are the limitations of discrete bonding categories?": "",
+    "What are the limitations of discrete bonding categories?": "結合をいくつかの種類にはっきり分けることには、どんな限界がありますか。",
 
     // Linking it up > p
-    "“Discrete” means separate. If you sort every substance into only three boxes, you lose information. Many substances lie between the models, such as polar covalent molecules and compounds near a boundary in the triangle. A single label then predicts the wrong properties. The bonding triangle is a better model because it shows the gradual change.": "",
+    "“Discrete” means separate. If you sort every substance into only three boxes, you lose information. Many substances lie between the models, such as polar covalent molecules and compounds near a boundary in the triangle. A single label then predicts the wrong properties. The bonding triangle is a better model because it shows the gradual change.": "「discrete」は、ばらばらに分かれているという意味です。すべての物質を 3 つの箱だけに分けると、情報が失われます。極性共有結合の分子や、三角形の境界線に近い化合物のように、モデルの中間にある物質はたくさんあります。そういう物質に 1 つのラベルだけを付けると、性質をまちがって予測してしまいます。結合の三角形は、ゆるやかな変化を表せるので、よりよいモデルです。",
 
     // Linking it up > h3
-    "How do the trends in properties of period 3 oxides reflect the trend in their bonding?": "",
+    "How do the trends in properties of period 3 oxides reflect the trend in their bonding?": "第 3 周期の酸化物の性質の傾向は、結合の傾向をどのように表していますか。",
 
     // Linking it up > p
-    "From sodium to sulfur, the electronegativity of the element gets closer to that of oxygen. The difference falls from 2.5 for <span class=\"chem\">Na2O</span> to 0.8 for <span class=\"chem\">SO3</span>, and the average rises. The points move down and to the right in the triangle, from ionic to polar covalent. The properties change in step: the oxides on the left are ionic solids with high melting points, and the oxides on the right are made of molecules. You will meet their acid–base behaviour in Structure 3.1.": "",
+    "From sodium to sulfur, the electronegativity of the element gets closer to that of oxygen. The difference falls from 2.5 for <span class=\"chem\">Na2O</span> to 0.8 for <span class=\"chem\">SO3</span>, and the average rises. The points move down and to the right in the triangle, from ionic to polar covalent. The properties change in step: the oxides on the left are ionic solids with high melting points, and the oxides on the right are made of molecules. You will meet their acid–base behaviour in Structure 3.1.": "ナトリウムから硫黄へ進むにつれて、元素の電気陰性度は酸素の電気陰性度に近づきます。差は <span class=\"chem\">Na2O</span> の 2.5 から <span class=\"chem\">SO3</span> の 0.8 まで小さくなり、平均は大きくなります。三角形の上で、点は右下へ、イオン結合から極性共有結合へと動きます。性質もこれに合わせて変わります。左側の酸化物は融点の高いイオン結合の固体で、右側の酸化物は分子でできています。酸化物の酸・塩基としての性質は、Structure 3.1 で学びます。",
 
     // Linking it up > h3
-    "Why are alloys more correctly described as mixtures rather than as compounds?": "",
+    "Why are alloys more correctly described as mixtures rather than as compounds?": "合金は、化合物ではなく混合物と呼ぶほうが正しいのはなぜですか。",
 
     // Linking it up > p
-    "In a compound, the elements are chemically bonded in a fixed ratio. In an alloy, the proportions can vary, and the atoms of the added element simply take places in the metal lattice. Non-directional metallic bonding makes this possible. This matches the meaning of “mixture” from Structure 1.1.": "",
+    "In a compound, the elements are chemically bonded in a fixed ratio. In an alloy, the proportions can vary, and the atoms of the added element simply take places in the metal lattice. Non-directional metallic bonding makes this possible. This matches the meaning of “mixture” from Structure 1.1.": "化合物では、元素が一定の比で化学的に結合しています。合金では、元素の割合を変えることができ、加えた元素の原子は金属の結晶格子の中の場所に入るだけです。方向性のない金属結合だから、これができます。これは、Structure 1.1 で学んだ「混合物」の意味と合っています。",
 
     // Linking it up > h3
-    "Why is the atom economy 100% for an addition polymerization reaction?": "",
+    "Why is the atom economy 100% for an addition polymerization reaction?": "付加重合反応のアトムエコノミーが 100% になるのはなぜですか。",
 
     // Linking it up > p
-    "The polymer is the only product. Every atom of every monomer ends up in the polymer, so no atoms are wasted. You will calculate atom economy in Reactivity 2.1.": "",
+    "The polymer is the only product. Every atom of every monomer ends up in the polymer, so no atoms are wasted. You will calculate atom economy in Reactivity 2.1.": "生成物は高分子だけです。すべての単量体のすべての原子が高分子に入るので、原子はむだになりません。アトムエコノミーの計算は Reactivity 2.1 で学びます。",
 
     // Linking it up > h3
-    "Why do composites like reinforced concretes, which are made from ionic and covalently bonded components and steel bars, have unique properties?": "",
+    "Why do composites like reinforced concretes, which are made from ionic and covalently bonded components and steel bars, have unique properties?": "鉄筋コンクリートのような複合材料は、イオン結合や共有結合でできた成分と鋼の棒からできています。このような複合材料が独特の性質をもつのはなぜですか。",
 
     // Linking it up > p
-    "A <dfn data-def=\"A material made from two or more different materials that stay separate inside it. It combines their properties.\">composite</dfn> is made from two or more different materials. Each part keeps its own bonding, so the composite combines their properties. Concrete has ionic and covalent bonding. It is hard and strong when it is squeezed, but it is brittle and cracks when it is pulled or bent. Steel has metallic bonding. It is strong when it is pulled, and it bends without breaking. Reinforced concrete, with steel bars inside the concrete, resists both squeezing and pulling. Neither material can do this alone.": "",
+    "A <dfn data-def=\"A material made from two or more different materials that stay separate inside it. It combines their properties.\">composite</dfn> is made from two or more different materials. Each part keeps its own bonding, so the composite combines their properties. Concrete has ionic and covalent bonding. It is hard and strong when it is squeezed, but it is brittle and cracks when it is pulled or bent. Steel has metallic bonding. It is strong when it is pulled, and it bends without breaking. Reinforced concrete, with steel bars inside the concrete, resists both squeezing and pulling. Neither material can do this alone.": "<dfn data-def=\"2 種類以上の異なる材料からできていて、それぞれが中で分かれたまま残っている材料です。もとの材料の性質をあわせもちます。\">複合材料 <span class=\"en-term\">(composite)</span></dfn>は、2 種類以上の異なる材料からできています。それぞれの部分は自分の結合を保つので、複合材料はそれらの性質をあわせもちます。コンクリートには、イオン結合と共有結合があります。押し縮める力にはかたくて強いのですが、もろく、引っぱったり曲げたりすると割れます。鋼には金属結合があります。引っぱる力に強く、折れずに曲がります。コンクリートの中に鋼の棒を入れた鉄筋コンクリートは、押し縮める力にも引っぱる力にも耐えます。どちらの材料も、単独ではこれができません。",
 
     // Linking it up > data-def attribute
-    "A material made from two or more different materials that stay separate inside it. It combines their properties.": "",
+    "A material made from two or more different materials that stay separate inside it. It combines their properties.": "2 種類以上の異なる材料からできていて、それぞれが中で分かれたまま残っている材料です。もとの材料の性質をあわせもちます。",
 
     // Linking it up > not needed for IB > p
-    "Composites appear in the guide only in this linking question. You do not need to learn examples of composites or how they are made.": "",
+    "Composites appear in the guide only in this linking question. You do not need to learn examples of composites or how they are made.": "複合材料は、『指導の手引き』ではこのつながりの問いにしか出てきません。複合材料の例やつくり方を覚える必要はありません。",
 
     // Linking it up > h3
-    "What are the structural features of some plastics that make them biodegradable?": "",
+    "What are the structural features of some plastics that make them biodegradable?": "一部のプラスチックが生分解性をもつのは、構造にどんな特徴があるからですか。",
 
     // Linking it up > p
-    "Most plastics have a backbone of carbon atoms joined by strong, non-polar bonds. Water and microorganisms cannot break these bonds easily. A biodegradable plastic has other groups of atoms in its backbone, such as ester links, which can react with water. The chain then breaks into small molecules. You will meet these groups in Structure 3.2.": "",
+    "Most plastics have a backbone of carbon atoms joined by strong, non-polar bonds. Water and microorganisms cannot break these bonds easily. A biodegradable plastic has other groups of atoms in its backbone, such as ester links, which can react with water. The chain then breaks into small molecules. You will meet these groups in Structure 3.2.": "ほとんどのプラスチックの主鎖は、強くて無極性の結合でつながった炭素原子でできています。水や微生物は、この結合をなかなか切れません。生分解性プラスチックは、主鎖の中に、エステル結合のような水と反応できる別の原子のまとまりをもっています。そのため、鎖が切れて小さな分子になります。これらのまとまりは Structure 3.2 で学びます。",
 
     // Linking it up > Additional HL > p
-    "Ester and amide links are found in condensation polymers. They are broken by hydrolysis. So some polyesters and polyamides can be broken down in the environment, but addition polymers cannot.": "",
+    "Ester and amide links are found in condensation polymers. They are broken by hydrolysis. So some polyesters and polyamides can be broken down in the environment, but addition polymers cannot.": "エステル結合とアミド結合は、縮合重合体にあります。これらの結合は加水分解で切れます。だから、ポリエステルやポリアミドの中には環境の中で分解されるものがありますが、付加重合体は分解されません。",
 
     // Exam-style practice > data-toc attribute
     // Exam-style practice > h2
-    "Exam-style practice": "",
+    "Exam-style practice": "試験形式の練習",
 
     // Exam-style practice > p
-    "Questions you have not yet answered correctly come up first, so each set changes when you come back to it. Each question gives the electronegativity values and the diagram you need. Have paper and a calculator beside you.": "",
+    "Questions you have not yet answered correctly come up first, so each set changes when you come back to it. Each question gives the electronegativity values and the diagram you need. Have paper and a calculator beside you.": "まだ正解していない問題が先に出るので、戻ってくるたびにセットの中身が変わります。必要な電気陰性度の値と図は、問題ごとに与えられます。紙と電卓を手元に用意しましょう。",
 
     // Exam-style practice > h3
-    "Foundation: one idea at a time": "",
+    "Foundation: one idea at a time": "基礎：一度に 1 つの考え方",
 
     // Exam-style practice > data-title attribute
-    "2.4 foundation": "",
+    "2.4 foundation": "2.4 基礎",
 
     // Exam-style practice > h3
-    "Exam standard": "",
+    "Exam standard": "試験レベル",
 
     // Exam-style practice > data-title attribute
-    "2.4 exam standard": "",
+    "2.4 exam standard": "2.4 試験レベル",
 
     // Exam-style practice > h3
-    "Challenge": "",
+    "Challenge": "チャレンジ",
 
     // Exam-style practice > data-title attribute
-    "2.4 challenge": "",
+    "2.4 challenge": "2.4 チャレンジ",
 
     // Exam-style practice > Additional HL > h3
-    "Additional HL only: condensation polymers": "",
+    "Additional HL only: condensation polymers": "HL 追加内容のみ：縮合重合体",
 
     // Exam-style practice > Additional HL > data-title attribute
-    "2.4 Additional HL": "",
+    "2.4 Additional HL": "2.4 HL 追加内容",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "hydrogen": "",
+    "hydrogen": "水素",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "lithium": "",
+    "lithium": "リチウム",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "beryllium": "",
+    "beryllium": "ベリリウム",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "boron": "",
+    "boron": "ホウ素",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "carbon": "",
+    "carbon": "炭素",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "nitrogen": "",
+    "nitrogen": "窒素",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "oxygen": "",
+    "oxygen": "酸素",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "fluorine": "",
+    "fluorine": "フッ素",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "sodium": "",
+    "sodium": "ナトリウム",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "magnesium": "",
+    "magnesium": "マグネシウム",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "aluminium": "",
+    "aluminium": "アルミニウム",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "silicon": "",
+    "silicon": "ケイ素",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "phosphorus": "",
+    "phosphorus": "リン",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "sulfur": "",
+    "sulfur": "硫黄",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "chlorine": "",
+    "chlorine": "塩素",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "potassium": "",
+    "potassium": "カリウム",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "calcium": "",
+    "calcium": "カルシウム",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "iron": "",
+    "iron": "鉄",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "zinc": "",
+    "zinc": "亜鉛",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "bromine": "",
+    "bromine": "臭素",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "tin": "",
+    "tin": "スズ",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "iodine": "",
+    "iodine": "ヨウ素",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "caesium": "",
+    "caesium": "セシウム",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "barium": "",
+    "barium": "バリウム",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "metallic": "",
+    "metallic": "金属結合",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "ionic": "",
+    "ionic": "イオン結合",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "covalent or polar covalent": "",
+    "covalent or polar covalent": "共有結合または極性共有結合",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Polar": "",
+    "Polar": "極性",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "covalent": "",
+    "covalent": "共有結合",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Electronegativity difference, Δχ": "",
+    "Electronegativity difference, Δχ": "電気陰性度の差 Δχ",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The ionic model fits best. Expect a hard, brittle solid with a high melting point. It does not conduct electricity as a solid. It conducts when molten or dissolved in water.": "",
+    "The ionic model fits best. Expect a hard, brittle solid with a high melting point. It does not conduct electricity as a solid. It conducts when molten or dissolved in water.": "イオン結合モデルが最もよく合います。かたくてもろく、融点の高い固体だと予測できます。固体では電気を通しません。融解したときや水に溶けたときは通します。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The metallic model fits best. Expect a solid that conducts electricity and heat well and is malleable.": "",
+    "The metallic model fits best. Expect a solid that conducts electricity and heat well and is malleable.": "金属結合モデルが最もよく合います。電気と熱をよく通し、展性のある固体だと予測できます。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The covalent model fits best, and the bonds are non-polar (Δχ = 0). Expect a poor electrical conductor. The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).": "",
+    "The covalent model fits best, and the bonds are non-polar (Δχ = 0). Expect a poor electrical conductor. The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).": "共有結合モデルが最もよく合い、結合は無極性です（Δχ = 0）。電気を通しにくいと予測できます。物質が分子でできているか（融点が低い）、共有結合の結晶か（融点がとても高い）は、三角形からはわかりません。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The covalent model fits best. The bonds are polar, and more polar the higher the point sits. Expect a poor electrical conductor in every state. The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).": "",
+    "The covalent model fits best. The bonds are polar, and more polar the higher the point sits. Expect a poor electrical conductor in every state. The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).": "共有結合モデルが最もよく合います。結合には極性があり、点が高いところにあるほど極性が大きくなります。どの状態でも電気を通しにくいと予測できます。物質が分子でできているか（融点が低い）、共有結合の結晶か（融点がとても高い）は、三角形からはわかりません。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Take care: this point is very close to the boundary with the {region} region. The triangle does not give a clear answer here. Expect properties between the two models.": "",
+    "Take care: this point is very close to the boundary with the {region} region. The triangle does not give a clear answer here. Expect properties between the two models.": "注意：この点は、{region}の領域との境界線にとても近いところにあります。ここでは、三角形からはっきりした答えは出ません。2 つのモデルの中間の性質だと予測しましょう。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "This point is just outside the outline printed in the data booklet. The printed outline is drawn a little too small for points like this one (it happens with fluorides). Your two numbers are still correct. Read the nearest region: {region}.": "",
+    "This point is just outside the outline printed in the data booklet. The printed outline is drawn a little too small for points like this one (it happens with fluorides). Your two numbers are still correct. Read the nearest region: {region}.": "この点は、データブックレットに印刷された輪郭のすぐ外にあります。印刷された輪郭は、このような点には少し小さめに描かれています（フッ化物で起こります）。それでも 2 つの数値は正しいです。いちばん近い領域を読みましょう：{region}。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "First element": "",
+    "First element": "1 つ目の元素",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Second element (choose the same one for an element)": "",
+    "Second element (choose the same one for an element)": "2 つ目の元素（単体なら同じ元素を選ぶ）",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Or pick an example": "",
+    "Or pick an example": "または例を選ぶ",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "(my own choice)": "",
+    "(my own choice)": "（自分で選ぶ）",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Predict first: new compound": "",
+    "Predict first: new compound": "先に予想する：新しい化合物",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Bonding triangle. Horizontal axis: average electronegativity. Vertical axis: electronegativity difference. Metallic region at the bottom left, ionic region at the top, covalent and polar covalent region at the bottom right. The readout below gives the position of the chosen point.": "",
+    "Bonding triangle. Horizontal axis: average electronegativity. Vertical axis: electronegativity difference. Metallic region at the bottom left, ionic region at the top, covalent and polar covalent region at the bottom right. The readout below gives the position of the chosen point.": "結合の三角形。横軸：電気陰性度の平均。縦軸：電気陰性度の差。左下が金属結合の領域、上がイオン結合の領域、右下が共有結合と極性共有結合の領域。選んだ点の位置は、下の表示に出ます。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Position (average, difference)": "",
+    "Position (average, difference)": "位置（平均、差）",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Read from the % scale": "",
+    "Read from the % scale": "% の目盛りの読み",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Prediction": "",
+    "Prediction": "予想",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Correct": "",
+    "Correct": "正解",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Not quite": "",
+    "Not quite": "おしい！",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "{formula} sits in the {region} region. Check the two numbers in the working, then find the point on the triangle.": "",
+    "{formula} sits in the {region} region. Check the two numbers in the working, then find the point on the triangle.": "{formula} は{region}の領域にあります。途中の計算の 2 つの数値を確かめてから、三角形の上で点をさがしましょう。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "It is close to the boundary with the {other} region, so either model on its own is a rough description.": "",
+    "It is close to the boundary with the {other} region, so either model on its own is a rough description.": "{other}の領域との境界線に近いので、どちらのモデルも、単独ではおおまかな説明にしかなりません。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Where would {formula} sit?": "",
+    "Where would {formula} sit?": "{formula} はどこにくるでしょうか。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Use χ({a}) = {xa}.": "",
+    "Use χ({a}) = {xa}.": "χ({a}) = {xa} を使います。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Use χ({a}) = {xa} and χ({b}) = {xb}.": "",
+    "Use χ({a}) = {xa} and χ({b}) = {xb}.": "χ({a}) = {xa}、χ({b}) = {xb} を使います。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Work out the difference and the average on paper. Then choose a region.": "",
+    "Work out the difference and the average on paper. Then choose a region.": "差と平均を紙の上で計算しましょう。それから領域を選びます。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Make your prediction first.": "",
+    "Make your prediction first.": "まず予想してみましょう。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "average": "",
+    "average": "平均",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "about {ionic} % ionic, {cov} % covalent": "",
+    "about {ionic} % ionic, {cov} % covalent": "イオン結合性 約 {ionic} %、共有結合性 約 {cov} %",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Each corner is one pure bonding model. Most substances sit somewhere between the corners.": "",
+    "Each corner is one pure bonding model. Most substances sit somewhere between the corners.": "それぞれの角は、純粋な結合モデルの 1 つです。ほとんどの物質は、角と角の間のどこかにあります。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Bottom left: both elements have low electronegativity, and the difference is small. Neither atom holds its outer electrons strongly, so the electrons are delocalized. Sodium is an example.": "",
+    "Bottom left: both elements have low electronegativity, and the difference is small. Neither atom holds its outer electrons strongly, so the electrons are delocalized. Sodium is an example.": "左下：どちらの元素も電気陰性度が低く、差は小さい。どちらの原子も外側の電子を強く引きつけないので、電子は非局在化しています。ナトリウムがその例です。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Top: one element has low electronegativity and the other has high electronegativity, so the difference is large. Electrons are transferred and ions form. Caesium fluoride is a very ionic example.": "",
+    "Top: one element has low electronegativity and the other has high electronegativity, so the difference is large. Electrons are transferred and ions form. Caesium fluoride is a very ionic example.": "上：一方の元素は電気陰性度が低く、もう一方は高いので、差が大きい。電子が移り、イオンができます。フッ化セシウムは、イオン結合性がとても大きい例です。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Bottom right: both elements have high electronegativity, and the difference is small. Both atoms attract the electrons strongly, so the electrons are shared. Chlorine is an example. Higher up this region the sharing is unequal: polar covalent.": "",
+    "Bottom right: both elements have high electronegativity, and the difference is small. Both atoms attract the electrons strongly, so the electrons are shared. Chlorine is an example. Higher up this region the sharing is unequal: polar covalent.": "右下：どちらの元素も電気陰性度が高く、差は小さい。どちらの原子も電子を強く引きつけるので、電子は共有されます。塩素がその例です。この領域の上のほうでは、共有がかたよります。これが極性共有結合です。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Explain a region": "",
+    "Explain a region": "領域を説明する",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The whole triangle": "",
+    "The whole triangle": "三角形全体",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Bonding triangle with example substances. Sodium is in the metallic corner, chlorine in the covalent corner and caesium fluoride at the ionic top. Sodium chloride is in the ionic region. Silicon dioxide is in the polar covalent region. On a wide screen hydrogen chloride is also shown there.": "",
+    "Bonding triangle with example substances. Sodium is in the metallic corner, chlorine in the covalent corner and caesium fluoride at the ionic top. Sodium chloride is in the ionic region. Silicon dioxide is in the polar covalent region. On a wide screen hydrogen chloride is also shown there.": "物質の例を示した結合の三角形。ナトリウムは金属結合の角、塩素は共有結合の角、フッ化セシウムはイオン結合の頂点にあります。塩化ナトリウムはイオン結合の領域にあります。二酸化ケイ素は極性共有結合の領域にあります。広い画面では、塩化水素もそこに表示されます。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "What this region means": "",
+    "What this region means": "この領域の意味",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Material": "",
+    "Material": "材料",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Pure metal": "",
+    "Pure metal": "純粋な金属",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Alloy: some larger atoms added": "",
+    "Alloy: some larger atoms added": "合金：大きい原子を少し加えたもの",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Alloy: some smaller atoms added": "",
+    "Alloy: some smaller atoms added": "合金：小さい原子を少し加えたもの",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Push the top layers": "",
+    "Push the top layers": "上の層を押す",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Reset": "",
+    "Reset": "リセット",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Model of a metal lattice: rows of positive ions in a sea of delocalized electrons. In the alloy some ions are a different size, so the rows are no longer regular.": "",
+    "Model of a metal lattice: rows of positive ions in a sea of delocalized electrons. In the alloy some ions are a different size, so the rows are no longer regular.": "金属の結晶格子のモデル。非局在化電子の海の中に、陽イオンが列になって並んでいます。合金では、一部のイオンの大きさが違うので、列が規則正しくなくなっています。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "What happened": "",
+    "What happened": "起こったこと",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "force": "",
+    "force": "力",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Shaded background: delocalized electrons (not drawn one by one)": "",
+    "Shaded background: delocalized electrons (not drawn one by one)": "色のついた背景：非局在化電子（1 個ずつは描いていません）",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "All ions are the same size: regular layers": "",
+    "All ions are the same size: regular layers": "イオンの大きさがすべて同じ：規則正しい層",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Dark circles: atoms of the added element": "",
+    "Dark circles: atoms of the added element": "濃い色の円：加えた元素の原子",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Nothing yet. Press “Push the top layers”.": "",
+    "Nothing yet. Press “Push the top layers”.": "まだ何も起こっていません。「上の層を押す」を押しましょう。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The layers have moved two places. Press Reset to try again.": "",
+    "The layers have moved two places. Press Reset to try again.": "層は 2 個分動きました。「リセット」を押すと、もう一度試せます。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The layers slid one place. Every ion is still surrounded by delocalized electrons, so the metallic bonding is unchanged. The metal changed shape without breaking: it is malleable.": "",
+    "The layers slid one place. Every ion is still surrounded by delocalized electrons, so the metallic bonding is unchanged. The metal changed shape without breaking: it is malleable.": "層が 1 個分すべりました。どのイオンも、まだ非局在化電子に囲まれているので、金属結合は変わっていません。金属は割れずに形を変えました。展性があるということです。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The layers hardly moved. The different-sized atoms break up the regular layers, so the layers cannot slide past each other as easily. The same force gives less change of shape: the alloy is harder and stronger.": "",
+    "The layers hardly moved. The different-sized atoms break up the regular layers, so the layers cannot slide past each other as easily. The same force gives less change of shape: the alloy is harder and stronger.": "層はほとんど動きませんでした。大きさの違う原子が規則正しい層を乱すので、層はたがいにすべりにくくなります。同じ力でも形の変化が小さくなります。合金のほうがかたく、強いということです。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Does not conduct electricity": "",
+    "Does not conduct electricity": "電気を通さない",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "All the outer electrons are held in covalent bonds. There are no delocalized electrons and no mobile ions to carry charge.": "",
+    "All the outer electrons are held in covalent bonds. There are no delocalized electrons and no mobile ions to carry charge.": "外側の電子はすべて共有結合に使われています。電荷を運ぶ非局在化電子も、動けるイオンもありません。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Does not react with water, air, acids or alkalis": "",
+    "Does not react with water, air, acids or alkalis": "水、空気、酸、アルカリと反応しない",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The chains are held together by strong covalent bonds, which take a lot of energy to break. So the polymer is chemically unreactive (inert).": "",
+    "The chains are held together by strong covalent bonds, which take a lot of energy to break. So the polymer is chemically unreactive (inert).": "鎖は強い共有結合でできていて、切るには多くのエネルギーが必要です。だから、高分子は化学的に反応しにくい（不活性）のです。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The chains are made mostly of light atoms such as carbon and hydrogen, and long chains do not pack tightly.": "",
+    "The chains are made mostly of light atoms such as carbon and hydrogen, and long chains do not pack tightly.": "鎖は主に炭素や水素のような軽い原子でできています。また、長い鎖はぎっしりとは詰まりません。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Not broken down by microorganisms (non-biodegradable)": "",
+    "Not broken down by microorganisms (non-biodegradable)": "微生物に分解されない（生分解されない）",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "This is a chemical property: it is about reactions. The strong covalent bonds in the chains are not easily broken, so the plastic stays in the environment for a very long time.": "",
+    "This is a chemical property: it is about reactions. The strong covalent bonds in the chains are not easily broken, so the plastic stays in the environment for a very long time.": "これは化学的性質です。反応についての性質だからです。鎖の中の強い共有結合はなかなか切れないので、プラスチックはとても長い間、環境に残ります。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Softens when heated, so it can be moulded into shapes": "",
+    "Softens when heated, so it can be moulded into shapes": "加熱するとやわらかくなり、型に入れて形をつくれる",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Only weak intermolecular forces hold one chain to the next. Gentle heating gives the chains enough energy to slide past each other. No covalent bonds break.": "",
+    "Only weak intermolecular forces hold one chain to the next. Gentle heating gives the chains enough energy to slide past each other. No covalent bonds break.": "鎖と鎖をつなぎとめているのは、弱い分子間力だけです。おだやかに加熱すると、鎖はたがいにすべって動けるだけのエネルギーを得ます。共有結合は切れません。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "There are no delocalized electrons to carry energy quickly through the material.": "",
+    "There are no delocalized electrons to carry energy quickly through the material.": "材料の中でエネルギーをすばやく運ぶ非局在化電子がありません。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Each chain is very long, so the many intermolecular forces along its length add up. The chains also tangle.": "",
+    "Each chain is very long, so the many intermolecular forces along its length add up. The chains also tangle.": "鎖はどれもとても長いので、鎖に沿ってはたらくたくさんの分子間力が積み重なります。鎖どうしがからみ合ってもいます。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Sorted correctly": "",
+    "Sorted correctly": "正しく分類した数",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "All sorted.": "",
+    "All sorted.": "すべて分類しました。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "In an exam, read the question carefully: if it asks for a chemical property of a plastic, a physical property earns no mark.": "",
+    "In an exam, read the question carefully: if it asks for a chemical property of a plastic, a physical property earns no mark.": "試験では、問題文をよく読みましょう。プラスチックの化学的性質を問われたときに物理的性質を書いても、点になりません。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Start again": "",
+    "Start again": "最初からやり直す",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Property {n} of {total}": "",
+    "Property {n} of {total}": "性質 {n} / {total}",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Physical property": "",
+    "Physical property": "物理的性質",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Chemical property": "",
+    "Chemical property": "化学的性質",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "This is a physical property: no new substance forms.": "",
+    "This is a physical property: no new substance forms.": "これは物理的性質です。新しい物質はできません。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "This is a chemical property: it describes how the plastic reacts.": "",
+    "This is a chemical property: it describes how the plastic reacts.": "これは化学的性質です。プラスチックがどう反応するかを表しています。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Reason from the structure:": "",
+    "Reason from the structure:": "構造からわかる理由：",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Next property": "",
+    "Next property": "次の性質",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "ethene": "",
+    "ethene": "ethene",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "propene": "",
+    "propene": "propene",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "chloroethene": "",
+    "chloroethene": "chloroethene",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "tetrafluoroethene": "",
+    "tetrafluoroethene": "tetrafluoroethene",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "phenylethene": "",
+    "phenylethene": "phenylethene",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "propenenitrile": "",
+    "propenenitrile": "propenenitrile",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "1,1-dichloroethene": "",
+    "1,1-dichloroethene": "1,1-dichloroethene",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "1,2-dichloroethene": "",
+    "1,2-dichloroethene": "1,2-dichloroethene",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "1,1-difluoroethene": "",
+    "1,1-difluoroethene": "1,1-difluoroethene",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "but-2-ene": "",
+    "but-2-ene": "but-2-ene",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Monomer": "",
+    "Monomer": "単量体",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Back": "",
+    "Back": "戻る",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Next step": "",
+    "Next step": "次のステップ",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Reverse: find the monomer": "",
+    "Reverse: find the monomer": "逆向き：単量体を見つける",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Back to the builder": "",
+    "Back to the builder": "組み立てに戻る",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Repeating unit": "",
+    "Repeating unit": "繰り返し単位",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Check": "",
+    "Check": "確認",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Step 1 of 4: three monomer molecules": "",
+    "Step 1 of 4: three monomer molecules": "ステップ 1 / 4：単量体の分子 3 個",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Each monomer has a carbon to carbon double bond, C=C.": "",
+    "Each monomer has a carbon to carbon double bond, C=C.": "どの単量体にも、炭素と炭素の二重結合 C=C があります。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Step 2 of 4: open each double bond": "",
+    "Step 2 of 4: open each double bond": "ステップ 2 / 4：二重結合を開く",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "One of the two bonds in each C=C breaks. Each of the two carbons can now form one new bond. This picture is a book-keeping model, not the reaction mechanism.": "",
+    "One of the two bonds in each C=C breaks. Each of the two carbons can now form one new bond. This picture is a book-keeping model, not the reaction mechanism.": "それぞれの C=C の 2 本の結合のうち、1 本が切れます。2 個の炭素は、それぞれ新しい結合を 1 本つくれるようになります。この図は原子と結合の数を整理するためのモデルで、反応のしくみ（反応機構）ではありません。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Step 3 of 4: join the units": "",
+    "Step 3 of 4: join the units": "ステップ 3 / 4：単位をつなぐ",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The new bonds link the carbons into one long chain. Only single bonds remain in the backbone. The side groups have not moved. No atoms are lost.": "",
+    "The new bonds link the carbons into one long chain. Only single bonds remain in the backbone. The side groups have not moved. No atoms are lost.": "新しい結合で、炭素が 1 本の長い鎖につながります。主鎖に残るのは単結合だけです。側基は動いていません。原子は 1 個も失われません。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Step 4 of 4: the repeating unit": "",
+    "Step 4 of 4: the repeating unit": "ステップ 4 / 4：繰り返し単位",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "One pair of backbone carbons with its four side groups, in brackets. The bonds must cross the brackets. The letter n means a very large number.": "",
+    "One pair of backbone carbons with its four side groups, in brackets. The bonds must cross the brackets. The letter n means a very large number.": "主鎖の炭素 1 組と、その 4 つの側基を、括弧で囲みます。結合は括弧を突き抜けなければなりません。文字 n は、とても大きな数を表します。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Three separate molecules of {name}, each with a carbon to carbon double bond": "",
+    "Three separate molecules of {name}, each with a carbon to carbon double bond": "{name} の分子 3 個。ばらばらで、それぞれに炭素と炭素の二重結合がある",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Three units of {name} with the double bonds opened: each unit has a single bond between its two carbons and one free bond at each end": "",
+    "Three units of {name} with the double bonds opened: each unit has a single bond between its two carbons and one free bond at each end": "二重結合を開いた {name} の単位 3 個。どの単位も、2 個の炭素の間は単結合で、両端に空いた結合が 1 本ずつある",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "A chain of three repeating units made from {name}: six backbone carbons joined by single bonds, with a continuation bond at each end": "",
+    "A chain of three repeating units made from {name}: six backbone carbons joined by single bonds, with a continuation bond at each end": "{name} からできた繰り返し単位 3 個の鎖。主鎖の炭素 6 個が単結合でつながり、両端に鎖の続きを表す結合がある",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Repeating unit of the polymer of {name}: {unit}, in square brackets with n": "",
+    "Repeating unit of the polymer of {name}: {unit}, in square brackets with n": "{name} の高分子の繰り返し単位：{unit}。角括弧で囲み、n を付けてある",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "reach step 4": "",
+    "reach step 4": "ステップ 4 で表示",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The repeating unit has the same atoms as one monomer: nothing is lost, so the atom economy is 100 %.": "",
+    "The repeating unit has the same atoms as one monomer: nothing is lost, so the atom economy is 100 %.": "繰り返し単位は、単量体 1 個と同じ原子を含みます。何も失われないので、アトムエコノミーは 100 % です。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Count the atoms at each step. The number never changes.": "",
+    "Count the atoms at each step. The number never changes.": "ステップごとに原子を数えてみましょう。数は変わりません。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Find the monomer.": "",
+    "Find the monomer.": "単量体を見つけましょう。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "This is a section of an addition polymer. Which monomer made it?": "",
+    "This is a section of an addition polymer. Which monomer made it?": "これは付加重合体の一部分です。どの単量体からできたでしょうか。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "A section of an addition polymer chain with six backbone carbons. Repeating unit: {unit}": "",
+    "A section of an addition polymer chain with six backbone carbons. Repeating unit: {unit}": "主鎖の炭素が 6 個ある、付加重合体の鎖の一部分。繰り返し単位：{unit}",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Not this one": "",
+    "Not this one": "これではありません",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The monomer is {name}, {mono}. Two neighbouring backbone carbons and their four side groups make one repeating unit. Put the double bond back between those two carbons.": "",
+    "The monomer is {name}, {mono}. Two neighbouring backbone carbons and their four side groups make one repeating unit. Put the double bond back between those two carbons.": "単量体は {name}、{mono} です。となり合う主鎖の炭素 2 個と、その 4 つの側基が、1 つの繰り返し単位です。その 2 個の炭素の間に二重結合を戻します。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Split the chain into pairs of backbone carbons. Each pair, with its four side groups, came from one monomer. Compare those side groups with this molecule, then try again.": "",
+    "Split the chain into pairs of backbone carbons. Each pair, with its four side groups, came from one monomer. Compare those side groups with this molecule, then try again.": "鎖を、主鎖の炭素 2 個ずつの組に分けましょう。それぞれの組と、その 4 つの側基が、1 個の単量体からできています。その側基をこの分子とくらべて、もう一度選びましょう。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Another polymer": "",
+    "Another polymer": "別の高分子",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The repeating unit of an addition polymer has two backbone carbons.": "",
+    "The repeating unit of an addition polymer has two backbone carbons.": "付加重合体の繰り返し単位には、主鎖の炭素が 2 個あります。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Polyester: diol + dicarboxylic acid": "",
+    "Polyester: diol + dicarboxylic acid": "ポリエステル：ジオール + ジカルボン酸",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "ester link, –COO–": "",
+    "ester link, –COO–": "エステル結合 –COO–",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "a diol (two –OH groups)": "",
+    "a diol (two –OH groups)": "ジオール（–OH 基が 2 つ）",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "a dicarboxylic acid (two –COOH groups)": "",
+    "a dicarboxylic acid (two –COOH groups)": "ジカルボン酸（–COOH 基が 2 つ）",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Polyamide: diamine + dicarboxylic acid": "",
+    "Polyamide: diamine + dicarboxylic acid": "ポリアミド：ジアミン + ジカルボン酸",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "amide link, –CONH–": "",
+    "amide link, –CONH–": "アミド結合 –CONH–",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "a diamine (two –NH₂ groups)": "",
+    "a diamine (two –NH₂ groups)": "ジアミン（–NH₂ 基が 2 つ）",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Polypeptide: amino acids": "",
+    "Polypeptide: amino acids": "ポリペプチド：アミノ酸",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "amide link, –CONH– (called a peptide bond in proteins)": "",
+    "amide link, –CONH– (called a peptide bond in proteins)": "アミド結合 –CONH–（タンパク質ではペプチド結合と呼ぶ）",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "an amino acid (one –NH₂ group and one –COOH group)": "",
+    "an amino acid (one –NH₂ group and one –COOH group)": "アミノ酸（–NH₂ 基が 1 つと –COOH 基が 1 つ）",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "a second amino acid": "",
+    "a second amino acid": "2 つ目のアミノ酸",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Polymer type": "",
+    "Polymer type": "高分子の種類",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Small molecule released": "",
+    "Small molecule released": "放出される小さな分子",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Step 1 of 5: the two monomers": "",
+    "Step 1 of 5: the two monomers": "ステップ 1 / 5：2 つの単量体",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Monomer A is {A}. Monomer B is {B}. Each monomer has two functional groups, one at each end, so it can join on both sides. R¹ and R² stand for the side groups.": "",
+    "Monomer A is {A}. Monomer B is {B}. Each monomer has two functional groups, one at each end, so it can join on both sides. R¹ and R² stand for the side groups.": "単量体 A は{A}です。単量体 B は{B}です。どちらの単量体にも、両端に 1 つずつ、合わせて 2 つの官能基があります。だから両側でつながることができます。R¹ と R² は側基を表します。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Monomer A is {A}. Monomer B is {B}. Each monomer has two functional groups, one at each end, so it can join on both sides. A box stands for the rest of the molecule.": "",
+    "Monomer A is {A}. Monomer B is {B}. Each monomer has two functional groups, one at each end, so it can join on both sides. A box stands for the rest of the molecule.": "単量体 A は{A}です。単量体 B は{B}です。どちらの単量体にも、両端に 1 つずつ、合わせて 2 つの官能基があります。だから両側でつながることができます。四角は、分子の残りの部分を表します。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Two monomers, each with a functional group at both ends": "",
+    "Two monomers, each with a functional group at both ends": "両端に官能基がある単量体 2 つ",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Step 2 of 5: find the atoms that leave": "",
+    "Step 2 of 5: find the atoms that leave": "ステップ 2 / 5：外れる原子を見つける",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The dashed outlines mark an H atom on one monomer and the –OH of a –COOH group on the other monomer. Together these atoms make one molecule of water.": "",
+    "The dashed outlines mark an H atom on one monomer and the –OH of a –COOH group on the other monomer. Together these atoms make one molecule of water.": "破線の囲みは、一方の単量体の H 原子と、もう一方の単量体の –COOH 基の –OH です。これらの原子が合わさって、水分子が 1 個できます。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The same two monomers. A hydrogen atom on one monomer and the OH of a carboxyl group on the other monomer are outlined.": "",
+    "The same two monomers. A hydrogen atom on one monomer and the OH of a carboxyl group on the other monomer are outlined.": "同じ 2 つの単量体。一方の単量体の水素原子と、もう一方の単量体のカルボキシ基の OH が囲んである。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Step 3 of 5: the link forms and water is released": "",
+    "Step 3 of 5: the link forms and water is released": "ステップ 3 / 5：結合ができ、水が放出される",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "A new bond joins the two monomers. The underlined atoms are the {link}. The product still has a functional group at each end, so it can react again and the chain grows.": "",
+    "A new bond joins the two monomers. The underlined atoms are the {link}. The product still has a functional group at each end, so it can react again and the chain grows.": "新しい結合が 2 つの単量体をつなぎます。下線のついた原子が{link}です。生成物の両端にはまだ官能基があるので、さらに反応でき、鎖がのびていきます。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The two monomers joined by a new link, and one molecule of water": "",
+    "The two monomers joined by a new link, and one molecule of water": "新しい結合でつながった 2 つの単量体と、水分子 1 個",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Step 4 of 5: the repeating unit": "",
+    "Step 4 of 5: the repeating unit": "ステップ 4 / 5：繰り返し単位",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "One amino acid unit with its end atoms removed, in brackets with n. R stands for the side group, which differs from one amino acid to the next.": "",
+    "One amino acid unit with its end atoms removed, in brackets with n. R stands for the side group, which differs from one amino acid to the next.": "アミノ酸の単位 1 個から端の原子を取り、括弧で囲んで n を付けたものです。R は側基を表し、アミノ酸ごとに違います。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "One unit from A joined to one unit from B, with the end H and OH removed. The bonds cross the brackets. One link is inside the unit. The second link forms where units join.": "",
+    "One unit from A joined to one unit from B, with the end H and OH removed. The bonds cross the brackets. One link is inside the unit. The second link forms where units join.": "A からの単位 1 個と B からの単位 1 個がつながり、端の H と OH を取ったものです。結合は括弧を突き抜けます。1 つの結合は単位の中にあります。2 つ目の結合は、単位どうしがつながるところにできます。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Repeating unit of the condensation polymer in square brackets with n: {unit}": "",
+    "Repeating unit of the condensation polymer in square brackets with n: {unit}": "縮合重合体の繰り返し単位。角括弧で囲み、n を付けてある：{unit}",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Step 5 of 5: hydrolysis, the reverse reaction": "",
+    "Step 5 of 5: hydrolysis, the reverse reaction": "ステップ 5 / 5：加水分解（逆向きの反応）",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Water breaks the underlined link. The –OH of water joins the C=O carbon and the H of water joins the O or N atom. The monomers form again. Biological macromolecules are broken down in the same way.": "",
+    "Water breaks the underlined link. The –OH of water joins the C=O carbon and the H of water joins the O or N atom. The monomers form again. Biological macromolecules are broken down in the same way.": "水が、下線のついた結合を切ります。水の –OH は C=O の炭素につき、水の H は O 原子または N 原子につきます。単量体が元どおりにできます。生体の巨大分子も、同じようにして分解されます。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Hydrolysis: the linked molecule and one water molecule give back the two monomers. The atoms that came from water are outlined.": "",
+    "Hydrolysis: the linked molecule and one water molecule give back the two monomers. The atoms that came from water are outlined.": "加水分解：つながった分子と水分子 1 個から、2 つの単量体が元どおりにできる。水からきた原子が囲んである。",
 
   }
 });
