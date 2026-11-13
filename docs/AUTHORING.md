@@ -578,6 +578,22 @@ overlay files later (`docs/TRANSLATING.md`). Three rules keep your page translat
    Labels you pass to `w.slider`, `w.button`, `w.select`, `w.readoutItem` and plain sentences passed to a
    readout setter switch language by themselves. Text you draw on a canvas switches because canvases
    redraw. For anything else, use `w.onLang(update)`.
+   **Never call `t()` while the file is loading.** A widget is started again when the language changes, but
+   the file itself runs only once, in English. So a table at the top of the file such as
+   `var ITEMS = [{ label: t('Copper wire') }]` stays in English for ever. Build such tables inside the
+   widget's init function, or wrap them in a function that every init calls first:
+
+   ```js
+   var ITEMS;
+   function itemTable() { ITEMS = [{ id: 'cu', label: t('Copper wire') }]; }   // t() runs when called
+   itemTable();                                                             // English, so ITEMS always exists
+   S1.widgets.register('s1-1.sorter', function (w) { itemTable(); … });       // again in the current language
+   ```
+
+   The same holds for drawings made once at load (static figures): redraw them on `S1.i18n.onChange`.
+   A string that contains at least one letter is an entry for translators, however short (`'{n} p'`,
+   `'m.p. {T} °C'`, `'non-metal'`). A string of digits and symbols only (`'1 σ'`) is not: do not pass it
+   through `t()`.
 2. **Write prose in ordinary blocks.** Headings, `p`, `li`, `dt`/`dd`, `th`/`td`, `caption`, `figcaption`,
    `summary`, `legend`, `button`, `option` are translated as whole blocks, keyed by their English HTML.
    So: do not put bare text next to block children (wrap it in `<p>`), and do not attach your own event
@@ -585,6 +601,14 @@ overlay files later (`docs/TRANSLATING.md`). Three rules keep your page translat
    Add `data-i18n` to a `div` or `span` that holds loose text which must be translated.
 3. **Mark what must never be translated** with `data-i18n="off"` (it applies to everything inside).
    `.chem`, `.unit`, `.eq__formula`, `.worked__math`, `code`, `pre`, `kbd`, `samp` are skipped already.
+   **Labels in an inline `<svg>` are translated**: every `<text>`, and every `<tspan>` of a `<text>` that
+   is built from `<tspan>`s, is one entry, keyed by its text (shown to translators as "figure label").
+   Symbols and formulas (`+`, `δ−`, `H`, `Cl`, `CH3`) are left alone; put `data-i18n="off"` on a `<text>`
+   or on the `<svg>` for anything else that must stay as it is. SVG text does not wrap or shrink, and a
+   translation is often wider than the English ("熔化 (melting)"), so leave room: centre labels with
+   `text-anchor="middle"`, do not set `textLength`, keep clear space of about twice the English width on
+   the label's line, and keep words that sit inside a box short. Do not put mixed content in a `<text>`
+   (text next to a `<tspan>`): only the `<tspan>` would be translated.
 
 4. **Know the two scopes.** `S1.t` (and `t` in your widget file) looks in *your page's* translation file,
    then in the shared `common` file. It never sees the shell's translations, so a page that has not been

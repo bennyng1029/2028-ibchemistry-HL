@@ -68,14 +68,16 @@ S1.i18n.register('ja', 's1-4.q', {
   `<span class="chem">H2O</span>` in a translation is formatted exactly like the English.
 - **What is translated:** headings, `p`, `li`, `dt`/`dd`, `th`/`td`, `caption`, `figcaption`, `summary`,
   `legend`, `button`, `option`, lines of working (`.worked__math`, `.eq__formula`) that contain words,
-  anything marked `data-i18n`; the attributes `title`, `aria-label`, `placeholder`, `alt`; the page
+  anything marked `data-i18n`; the labels inside drawings (`<text>` in an inline SVG, listed as
+  "figure label"); the attributes `title`, `aria-label`, `placeholder`, `alt`; the page
   `<title>`; component attributes (`data-title`, `data-toc`, `data-def`, `data-label`, `data-kicker`,
   `data-correct`); widget strings (`t("…")`); question fields.
 - **What is never translated:** anything inside `data-i18n="off"`, `.chem`, `.unit`, `code`, `pre`, `kbd`,
   `samp`; lines of working with no words in them; numbers, answers and marking logic.
 - **Shown in both languages** (English first, translation underneath), because the exam is in English:
   exam tips (`callout--exam`), model answers and markscheme points of written questions, the definition in
-  a key-term tooltip (`data-def`), and any block a page author marked `data-i18n="both"`.
+  a key-term tooltip (`data-def`, see "Tooltip definitions" in section 3), and any block a page author
+  marked `data-i18n="both"`.
 - **Loading.** Files are added with `<script>` tags on demand, so everything works from `file://`. English
   stays on screen until the files have loaded. A page loads its own two files plus `ui.js` and `common.js`;
   the practice page loads every `.q.js` that exists.
@@ -138,9 +140,16 @@ translation, and moves entries whose English has gone to a `STALE` list at the e
 | tags | The same tags as the English (`<strong>`, `<i>`, `<sub>`, `<a>`, `<span class="chem">` …). You may add only `<span class="en-term">…</span>` and `<span class="nowrap">…</span>`. |
 | formulas and units | The text inside every `.chem`, `.unit`, `<sub>` and `<sup>` is unchanged. A `.frac` made only of symbols is unchanged; a fraction made of words may be translated. |
 | links | Every `href` is unchanged. |
-| numbers | Every number in the English appears in the translation, written with ordinary digits (`0-9`, not full-width). Do not spell a numeral out. |
+| numbers | Every number in the English appears in the translation, written with ordinary digits (`0-9`, not full-width). Do not spell a numeral out. Numbers are read one piece of text at a time, between tags, and a full stop or comma that ends a sentence is not part of a number: in `… = 18.</p><p><sup>40</sup>K` the numbers are 18 and 40, so `18。` is fine. A decimal point inside a number stays half-width (`18.40`). A list such as `1,2` may be written `1、2`. |
 | key terms | Every `<dfn>` contains `<span class="en-term">(English term)</span>`. |
 | maths lines | In a line of working, the operators (`= + − × ÷ / < >` …) are the same and in the same order, and no numbers are added. Only the words change. |
+
+Formulas, units, `<sub>` and `<sup>` must appear **exactly as often** as in the English. If natural wording
+would repeat one (say `<sup>40</sup>K` twice), reword the sentence: the checker reports it as "used more
+often than in the English" with both counts.
+
+The checker also prints `NOTE` lines. They are advice, not errors: a figure label that is wider than the
+English one (see "Figure labels" in section 3).
 
 `common.js` is checked with the same lints. `i18n/ja/dev.js` and `dev.q.js` are a test fixture for
 `dev/kitchen-sink.html`; the checker skips them unless you pass `--all`.
@@ -159,6 +168,10 @@ translation, and moves entries whose English has gone to a `STALE` list at the e
   element names, the symbol is always shown with the name.
 - **Plurals.** Where the English has a singular and a plural form ("1 mark", "{n} marks"), both are
   separate entries. Translate both, even if they come out the same.
+- **Very short entries.** Every widget string with at least one letter is an entry, even `{n} p`,
+  `m.p. {T} °C` or `{C} °C = {K} K`. Translate the letters that are words or abbreviations (質子, 熔點) and
+  keep unit symbols and placeholders; if nothing should change, copy the English into the value so that
+  the entry counts as done. Strings made only of digits and symbols are never listed.
 - **Context suffix.** A shell key may end in `|word` (for example `Solution|quiz`). The suffix only tells
   the two uses apart; it is never shown. Translate the part before the bar.
 
@@ -170,7 +183,31 @@ register, not Cantonese colloquial writing.
 
 **Keep the HTML.** Copy every tag and attribute from the key into the translation and translate only the
 words between them. In particular keep `class="chem"`, `class="unit"`, `class="mono"`, links and `<strong>`.
-Translate the text of a `data-def="…"` attribute if the key contains one.
+Translate the text of a `data-def="…"` attribute if the key contains one (see "Tooltip definitions" below).
+
+**Tooltip definitions (`data-def`).** A key term may carry its definition in a `data-def="…"` attribute; the
+student sees it in a tooltip. Because she must be able to give the definition in English, the tooltip always
+shows **the English definition first and your translation under it**. You never have to keep the English
+yourself. The definition appears in your file in two places, and either one is enough:
+
+- inside the paragraph, as `<dfn data-def="English definition">term</dfn>`: translate the attribute text there,
+  as part of the paragraph (`<dfn data-def="定義的譯文">譯詞 <span class="en-term">(term)</span></dfn>`). The
+  site puts the English back in front of it. This is the usual way, and it wins if both are filled in;
+- as its own entry with the comment `data-def attribute`: used when the paragraph keeps the English text in
+  `data-def`.
+
+Keep the same number of `data-def` attributes in the paragraph as the English has, in the same order: that is
+how each translation is matched to its English definition. Do not write the English and the translation
+together in one attribute.
+
+**Figure labels.** Text inside a drawing (comment: `figure label`) is one entry per label, keyed by its text
+("SOLID", "melting"). Translate it as plain text: no tags. A label in a drawing **cannot wrap or shrink**,
+so keep it short, about as wide as the English if you can; a Chinese or Japanese character is roughly as wide
+as two Latin letters. A long label can run into the next label, over a box, or off the edge of the figure on
+a phone. The key-term rule still holds where the label is a term she must know in English
+("熔化 (melting)"), but leave the English out of labels that are not key terms (SOLID → 固體). If the same
+word is also a widget string on the page, the one translation serves both, so it must fit the figure. The
+checker prints a `NOTE` when a label is clearly wider than the English: open the page at 390 px and look.
 
 **Keep the placeholders.** `{n}`, `{total}`, `{name}` must appear unchanged; you may move them.
 
@@ -319,6 +356,17 @@ The complete list, with sources, is in [`docs/glossary-zh-Hant.md`](glossary-zh-
   `Solution|quiz` first and falls back to `Solution`.
 - A key that reaches `t()` through a variable must sit on a line that ends with a `// i18n` comment so that
   the extraction tool finds it.
+- `t()` must not run while a widget file loads (the language is not active yet and the file runs once):
+  tables of strings are built by a function that each widget init calls. See `docs/AUTHORING.md`, section 7.
+- **One rule decides what is an entry**, in the extractor, the checker and `S1.i18n.coverage()`: a `t("…")`
+  string with at least one Latin letter (a `{placeholder}` counts, a `|context` suffix does not). In page and
+  widget files a hyphenated word (`non-metal`, `but-2-ene`) is a string, not an id. `coverage()` counts only
+  what page code asks for through `S1.t`; labels that a widget hands on to `w.select`, `w.button` and so on,
+  and authored attributes, are looked up without being counted twice.
+- Inline SVG labels are captured like blocks (`<text>` or leaf `<tspan>`, key = text content, context
+  "figure label"); `data-i18n="off"` opts out. Symbols and formulas are skipped.
+- A translated block may contain `data-def="translation"`. `core.js` puts the English definition back into
+  `data-def` and keeps the translation in `data-def-tr`, so the tooltip is always English + translation.
 - Labels that CSS draws (`Key idea`, `Try it`, `Why`, `Hint` …) come from a `data-s1-label` attribute that
   `core.js` sets in the current language; the CSS keeps an English fallback for pages without JavaScript.
 - The hero's "Guiding question" label is shell text: `core.js` takes it out of the authored paragraph, so
