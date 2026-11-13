@@ -66,7 +66,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "Explain how the discontinuities in first ionization energy across a period are evidence for energy sublevels.": "解釋橫跨一個週期時，第一電離能的不連續處怎樣成為能量亞層存在的證據。",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Recognize the characteristic properties of transition elements.": "認出過渡元素的特有性質。",
+    "Recognize the characteristic properties of transition elements.": "認出過渡元素的特徵性質。",
 
     // What you need to be able to do > checklist > Additional HL > span
     "Explain why transition elements have variable oxidation states.": "解釋為甚麼過渡元素有可變氧化態。",
@@ -819,7 +819,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "Choose a metal. Read the observations and the equation, then compare the first ionization energies. This is a description of real observations, not a simulation.": "選擇一種金屬。閱讀觀察結果和方程式，然後比較第一電離能。這裏描述的是真實的觀察結果，不是模擬。",
 
     // Trends down group 1 and group 17 > exam tip (shown in English + translation) > p
-    "Observations that earn marks: the metal floats, fizzes (bubbles of gas), moves on the surface, and gets smaller or dissolves. The solution becomes alkaline. For the trend, link reactivity to how easily the outer electron is lost.": "可以得分的觀察結果：金屬浮在水面、嘶嘶冒泡（有氣泡放出）、在水面游動，並且變小或溶解。溶液變成鹼性。解釋趨勢時，要把活潑性連繫到失去外層電子的難易程度。",
+    "Observations that earn marks: the metal floats, fizzes (bubbles of gas), moves on the surface, and gets smaller or dissolves. The solution becomes alkaline. For the trend, link reactivity to how easily the outer electron is lost.": "可以得分的觀察結果：金屬浮在水面、嘶嘶冒泡（有氣泡放出）、在水面游動，並且變小或溶解。溶液變成鹼性。解釋趨勢時，要把活性連繫到失去外層電子的難易程度。",
 
     // Trends down group 1 and group 17 > h3
     "Group 17 elements with halide ions": "第 17 族元素與鹵離子的反應",
@@ -834,7 +834,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "A reaction in which a more reactive element takes the place of a less reactive element in a compound.": "較活潑的元素取代化合物中較不活潑的元素的反應。",
 
     // Trends down group 1 and group 17 > p
-    "Reactivity decreases down group 17: chlorine is more reactive than bromine, and bromine is more reactive than iodine.": "沿第 17 族向下，活潑性減少：氯比溴活潑，溴比碘活潑。",
+    "Reactivity decreases down group 17: chlorine is more reactive than bromine, and bromine is more reactive than iodine.": "沿第 17 族向下，活性減少：氯比溴活潑，溴比碘活潑。",
 
     // Trends down group 1 and group 17 > widget > data-title attribute
     "Halogen and halide ion: which mixtures react?": "鹵素和鹵離子：哪些混合物會反應？",
@@ -1191,7 +1191,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "2<i>x</i> = +12, so <i>x</i> = <b>+6</b>": "2<i>x</i> = +12，所以 <i>x</i> = <b>+6</b>",
 
     // Oxidation states > worked example > p
-    "The oxidation state of chromium is +6. The systematic name of the ion is dichromate(VI).": "鉻的氧化態是 +6。這個離子的系統名稱是重鉻(VI)酸根 (dichromate(VI))。",
+    "The oxidation state of chromium is +6. The systematic name of the ion is dichromate(VI).": "鉻的氧化態是 +6。這個離子的系統名稱是重鉻酸根(VI) (dichromate(VI))。",
 
     // Oxidation states > worked example > data-kicker attribute
     "Worked example 9": "例題 9",
@@ -1260,7 +1260,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "2<i>x</i> = −2, so <i>x</i> = −1": "2<i>x</i> = −2，所以 <i>x</i> = −1",
 
     // Oxidation states > try it > p
-    "Deduce the oxidation state of manganese in the manganate(VII) ion, <span class=\"chem\">MnO4-</span>. Do the calculation, then check it against the name. Type the sign first, then the number, for example +3 or −3.": "推斷錳(VII)酸根離子 (manganate(VII) ion) <span class=\"chem\">MnO4-</span> 中錳的氧化態。先計算，再對照名稱檢查。先輸入正負號，再輸入數字，例如 +3 或 −3。",
+    "Deduce the oxidation state of manganese in the manganate(VII) ion, <span class=\"chem\">MnO4-</span>. Do the calculation, then check it against the name. Type the sign first, then the number, for example +3 or −3.": "推斷錳酸根(VII) 離子 (manganate(VII) ion) <span class=\"chem\">MnO4-</span> 中錳的氧化態。先計算，再對照名稱檢查。先輸入正負號，再輸入數字，例如 +3 或 −3。",
 
     // Oxidation states > try it > li
     "The total equals the charge on the ion: −1. Each oxygen is −2.": "總和等於離子的電荷：−1。每個氧是 −2。",
@@ -1338,7 +1338,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "<span class=\"chem\">NO3-</span>": "<span class=\"chem\">NO3-</span>",
 
     // Oxidation states > table > td
-    "nitrate(V)": "硝(V)酸根 (nitrate(V))",
+    "nitrate(V)": "硝酸根(V) (nitrate(V))",
 
     // Oxidation states > table > td
     "nitrate": "硝酸根 (nitrate)",
@@ -1347,7 +1347,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "<span class=\"chem\">NO2-</span>": "<span class=\"chem\">NO2-</span>",
 
     // Oxidation states > table > td
-    "nitrate(III)": "硝(III)酸根 (nitrate(III))",
+    "nitrate(III)": "硝酸根(III) (nitrate(III))",
 
     // Oxidation states > table > td
     "nitrite": "亞硝酸根 (nitrite)",
@@ -1356,7 +1356,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "<span class=\"chem\">SO4^2-</span>": "<span class=\"chem\">SO4^2-</span>",
 
     // Oxidation states > table > td
-    "sulfate(VI)": "硫(VI)酸根 (sulfate(VI))",
+    "sulfate(VI)": "硫酸根(VI) (sulfate(VI))",
 
     // Oxidation states > table > td
     "sulfate": "硫酸根 (sulfate)",
@@ -1365,7 +1365,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "<span class=\"chem\">SO3^2-</span>": "<span class=\"chem\">SO3^2-</span>",
 
     // Oxidation states > table > td
-    "sulfate(IV)": "硫(IV)酸根 (sulfate(IV))",
+    "sulfate(IV)": "硫酸根(IV) (sulfate(IV))",
 
     // Oxidation states > table > td
     "sulfite": "亞硫酸根 (sulfite)",
@@ -1484,10 +1484,10 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "Iron, copper, nickel and chromium are metals you see every day. They are strong, they melt at high temperatures, and their compounds have bright colours. They are all in the d-block.": "鐵、銅、鎳和鉻是你每天都見到的金屬。它們堅固，熔點高，化合物顏色鮮艷。它們全部在 d 區。",
 
     // Properties of transition elements > Additional HL > p
-    "A <dfn data-def=\"An element with an incomplete d sublevel that gives it characteristic properties.\">transition element</dfn> has an incomplete d sublevel. This gives it characteristic properties.": "<dfn data-def=\"d 亞層未填滿、因而具有特有性質的元素。\">過渡元素 <span class=\"en-term\">(transition element)</span></dfn>的 d 亞層未填滿。這使它具有特有的性質。",
+    "A <dfn data-def=\"An element with an incomplete d sublevel that gives it characteristic properties.\">transition element</dfn> has an incomplete d sublevel. This gives it characteristic properties.": "<dfn data-def=\"d 亞層未填滿、因而具有特徵性質的元素。\">過渡元素 <span class=\"en-term\">(transition element)</span></dfn>的 d 亞層未填滿。這使它具有特徵性質。",
 
     // Properties of transition elements > Additional HL > data-def attribute
-    "An element with an incomplete d sublevel that gives it characteristic properties.": "d 亞層未填滿、因而具有特有性質的元素。",
+    "An element with an incomplete d sublevel that gives it characteristic properties.": "d 亞層未填滿、因而具有特徵性質的元素。",
 
     // Properties of transition elements > table > Additional HL > caption
     "Six properties to recognize": "要認得的六種性質",
@@ -1553,7 +1553,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "below, and Reactivity 3.4": "見下文和 Reactivity 3.4",
 
     // Properties of transition elements > exam tip (shown in English + translation) > Additional HL > p
-    "The command term here is “recognize”. A typical question gives a list of properties and asks which ones are characteristic of transition elements. “Low melting point” and “colourless compounds” are common wrong options.": "這裏的指令詞是「認出」(recognize)。典型的題目會列出一些性質，問哪些是過渡元素的特有性質。「熔點低」(low melting point) 和「化合物無色」(colourless compounds) 是常見的錯誤選項。",
+    "The command term here is “recognize”. A typical question gives a list of properties and asks which ones are characteristic of transition elements. “Low melting point” and “colourless compounds” are common wrong options.": "這裏的指令詞是「認出」(recognize)。典型的題目會列出一些性質，問哪些是過渡元素的特徵性質。「熔點低」(low melting point) 和「化合物無色」(colourless compounds) 是常見的錯誤選項。",
 
     // Properties of transition elements > Additional HL > h3
     "Complex ions and ligands": "絡離子和配位體",
@@ -1620,7 +1620,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "The d sublevel is full in the atom and in the ion. Its compounds are colourless and it has one oxidation state in compounds.": "原子和離子的 d 亞層都是全滿的。它的化合物無色，在化合物中只有一種氧化態。",
 
     // Properties of transition elements > Additional HL > p
-    "The guide asks you to think about scandium. An argument <b>for</b> calling it a transition element: the atom has an incomplete d sublevel (<span class=\"mono\">3d<sup>1</sup></span>), and it is a d-block metal with a high melting point. An argument <b>against</b>: its only common ion, <span class=\"chem\">Sc^3+</span>, has no d electrons, so it does not show the characteristic properties.": "學科指南要求你思考鈧的情況。<b>支持</b>把它稱為過渡元素的論點：鈧原子的 d 亞層未填滿（<span class=\"mono\">3d<sup>1</sup></span>），而且它是熔點高的 d 區金屬。<b>反對</b>的論點：它唯一的常見離子 <span class=\"chem\">Sc^3+</span> 沒有 d 電子，所以沒有表現出過渡元素的特有性質。",
+    "The guide asks you to think about scandium. An argument <b>for</b> calling it a transition element: the atom has an incomplete d sublevel (<span class=\"mono\">3d<sup>1</sup></span>), and it is a d-block metal with a high melting point. An argument <b>against</b>: its only common ion, <span class=\"chem\">Sc^3+</span>, has no d electrons, so it does not show the characteristic properties.": "學科指南要求你思考鈧的情況。<b>支持</b>把它稱為過渡元素的論點：鈧原子的 d 亞層未填滿（<span class=\"mono\">3d<sup>1</sup></span>），而且它是熔點高的 d 區金屬。<b>反對</b>的論點：它唯一的常見離子 <span class=\"chem\">Sc^3+</span> 沒有 d 電子，所以沒有表現出過渡元素的特徵性質。",
 
     // Properties of transition elements > Additional HL > p
     "Zinc has a full d sublevel as an atom and as an ion. It does not fit the definition, so it is usually not counted as a transition element. The guide does not mention zinc by name.": "鋅無論是原子還是離子，d 亞層都是全滿的。它不符合定義，所以通常不算過渡元素。學科指南沒有點名提到鋅。",
@@ -1761,7 +1761,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "The explanation, step by step": "逐步解釋",
 
     // Why transition element complexes are coloured > Additional HL > li
-    "The transition element ion has a <b>partially filled d sublevel</b>.": "過渡元素離子有<b>部分填滿的 d 亞層</b> (partially filled d sublevel)。",
+    "The transition element ion has a <b>partially filled d sublevel</b>.": "過渡元素離子有<b>部分填充的 d 亞層</b> (partially filled d sublevel)。",
 
     // Why transition element complexes are coloured > Additional HL > li
     "In a complex ion, the ligands cause the d sublevel to <b>split</b> into two sets of orbitals with different energies.": "在絡離子中，配位體使 d 亞層<b>分裂</b> (split) 成兩組能量不同的軌態。",
@@ -1809,13 +1809,13 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "Colour depends on the d electrons of the ion, not of the atom.": "顏色取決於離子的 d 電子，不是原子的 d 電子。",
 
     // Why transition element complexes are coloured > worked example > Additional HL > data-title attribute
-    "Point 1: partially filled d sublevel": "要點 1：部分填滿的 d 亞層",
+    "Point 1: partially filled d sublevel": "要點 1：部分填充的 d 亞層",
 
     // Why transition element complexes are coloured > worked example > Additional HL > p
     "Start with the feature that makes colour possible.": "先寫出令顏色有可能出現的特徵。",
 
     // Why transition element complexes are coloured > worked example > Additional HL > maths line
-    "Cu<sup>2+</sup> has a partially filled d sublevel.": "Cu<sup>2+</sup> 有部分填滿的 d 亞層。",
+    "Cu<sup>2+</sup> has a partially filled d sublevel.": "Cu<sup>2+</sup> 有部分填充的 d 亞層。",
 
     // Why transition element complexes are coloured > worked example > Additional HL > data-title attribute
     "Point 2: splitting": "要點 2：分裂",
@@ -1848,7 +1848,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "<b>Zn<sup>2+</sup> has a full d sublevel (3d<sup>10</sup>), so no electron can be promoted between d orbitals. No visible light is absorbed.</b>": "<b>Zn<sup>2+</sup> 的 d 亞層全滿（3d<sup>10</sup>），所以沒有電子可以在 d 軌態之間躍遷。沒有可見光被吸收。</b>",
 
     // Why transition element complexes are coloured > worked example > Additional HL > p
-    "Cu<sup>2+</sup> (3d<sup>9</sup>) has a partially filled d sublevel, split by the ligands. An electron is promoted by absorbing orange light, and the complementary colour, blue, is seen. Zn<sup>2+</sup> (3d<sup>10</sup>) has a full d sublevel, so no promotion is possible.": "Cu<sup>2+</sup>（3d<sup>9</sup>）有部分填滿的 d 亞層，並被配位體分裂。電子吸收橙色光而躍遷，所以看到的是補色，即藍色。Zn<sup>2+</sup>（3d<sup>10</sup>）的 d 亞層全滿，所以電子無法躍遷。",
+    "Cu<sup>2+</sup> (3d<sup>9</sup>) has a partially filled d sublevel, split by the ligands. An electron is promoted by absorbing orange light, and the complementary colour, blue, is seen. Zn<sup>2+</sup> (3d<sup>10</sup>) has a full d sublevel, so no promotion is possible.": "Cu<sup>2+</sup>（3d<sup>9</sup>）有部分填充的 d 亞層，並被配位體分裂。電子吸收橙色光而躍遷，所以看到的是補色，即藍色。Zn<sup>2+</sup>（3d<sup>10</sup>）的 d 亞層全滿，所以電子無法躍遷。",
 
     // Why transition element complexes are coloured > Additional HL > p
     "The same reasoning explains <span class=\"chem\">Sc^3+</span>. It has no d electrons at all, so there is no electron to promote. Its compounds are colourless.": "同樣的道理也可解釋 <span class=\"chem\">Sc^3+</span>。它完全沒有 d 電子，所以沒有電子可以躍遷。它的化合物是無色的。",
@@ -1971,7 +1971,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "When the elements are arranged by their properties, gaps appear. A gap predicts an element that nobody has found yet. Its position also predicts its properties, so chemists know what to look for. Gallium and germanium were found in this way. Today, new elements are made in laboratories to continue period 7.": "按性質排列元素時，會出現空位。空位預示有一種還沒有人找到的元素。它的位置也預示它的性質，所以化學家知道要找甚麼。鎵和鍺就是這樣找到的。今天，人們在實驗室製造新元素，把第 7 週期延續下去。",
 
     // Linking it up > h3
-    "Why are simulations often used to explore the reactivity of group 1 and group 17 elements?": "為甚麼常用模擬來探索第 1 族和第 17 族元素的活潑性？",
+    "Why are simulations often used to explore the reactivity of group 1 and group 17 elements?": "為甚麼常用模擬來探索第 1 族和第 17 族元素的活性？",
 
     // Linking it up > p
     "Some of the reactions are too dangerous for a school laboratory. Rubidium and caesium react explosively with water, and the halogens are toxic. A simulation or a video lets you compare all the elements safely and repeat the comparison as often as you like.": "有些反應太危險，不能在學校實驗室做。銣和銫與水反應時會爆炸，鹵素則有毒。模擬或影片讓你安全地比較所有元素，而且可以隨意重複比較。",
@@ -2703,31 +2703,31 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "ammonia": "氨 (ammonia)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "sulfate. The systematic name is sulfate(VI).": "硫酸根 (sulfate)。系統名稱是硫(VI)酸根 (sulfate(VI))。",
+    "sulfate. The systematic name is sulfate(VI).": "硫酸根 (sulfate)。系統名稱是硫酸根(VI) (sulfate(VI))。",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "nitrate. The systematic name is nitrate(V).": "硝酸根 (nitrate)。系統名稱是硝(V)酸根 (nitrate(V))。",
+    "nitrate. The systematic name is nitrate(V).": "硝酸根 (nitrate)。系統名稱是硝酸根(V) (nitrate(V))。",
 
     // widget string (assets/js/widgets-s3-1.js)
     "iron(III) oxide": "氧化鐵(III) (iron(III) oxide)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "nitrite. The systematic name is nitrate(III).": "亞硝酸根 (nitrite)。系統名稱是硝(III)酸根 (nitrate(III))。",
+    "nitrite. The systematic name is nitrate(III).": "亞硝酸根 (nitrite)。系統名稱是硝酸根(III) (nitrate(III))。",
 
     // widget string (assets/js/widgets-s3-1.js)
     "sulfuric acid": "硫酸 (sulfuric acid)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "sulfite. The systematic name is sulfate(IV).": "亞硫酸根 (sulfite)。系統名稱是硫(IV)酸根 (sulfate(IV))。",
+    "sulfite. The systematic name is sulfate(IV).": "亞硫酸根 (sulfite)。系統名稱是硫酸根(IV) (sulfate(IV))。",
 
     // widget string (assets/js/widgets-s3-1.js)
     "ammonium": "銨離子 (ammonium)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "potassium manganate(VII)": "錳(VII)酸鉀 (potassium manganate(VII))",
+    "potassium manganate(VII)": "高錳酸鉀 (potassium manganate(VII))",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "dichromate(VI)": "重鉻(VI)酸根 (dichromate(VI))",
+    "dichromate(VI)": "重鉻酸根(VI) (dichromate(VI))",
 
     // widget string (assets/js/widgets-s3-1.js)
     "hydrogen peroxide": "過氧化氫 (hydrogen peroxide)",
@@ -2760,7 +2760,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "Fluorine is always −1, so oxygen is positive here. Start from the atom whose rule has no exceptions.": "氟永遠是 −1，所以氧在這裏是正值。由規則沒有例外的原子入手。",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "potassium dichromate(VI)": "重鉻(VI)酸鉀 (potassium dichromate(VI))",
+    "potassium dichromate(VI)": "重鉻酸鉀 (potassium dichromate(VI))",
 
     // widget string (assets/js/widgets-s3-1.js)
     "barium peroxide": "過氧化鋇 (barium peroxide)",
@@ -2904,7 +2904,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "full (3d<sup>10</sup>)": "全滿（3d<sup>10</sup>）",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "partially filled (3d<sup>{n}</sup>)": "部分填滿（3d<sup>{n}</sup>）",
+    "partially filled (3d<sup>{n}</sup>)": "部分填充（3d<sup>{n}</sup>）",
 
     // widget string (assets/js/widgets-s3-1.js)
     "This is the atom. Choose which sublevel loses the first electron.": "這是原子。選擇第一個電子從哪個亞層移走。",
@@ -2919,7 +2919,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "The d sublevel is full. There is no space in the higher d orbitals for a promoted electron, so this ion cannot absorb visible light in that way. This is why solutions of Zn<sup>2+</sup> compounds are colourless.": "d 亞層是全滿的。較高的 d 軌態沒有空位容納躍遷的電子，所以這種離子不能以這種方式吸收可見光。這就是 Zn<sup>2+</sup> 化合物的溶液無色的原因。",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The d sublevel is partially filled. An electron can be promoted between d orbitals, so this ion can form coloured complexes.": "d 亞層部分填滿。電子可以在 d 軌態之間躍遷，所以這種離子可以形成有色的絡合物。",
+    "The d sublevel is partially filled. An electron can be promoted between d orbitals, so this ion can form coloured complexes.": "d 亞層部分填充。電子可以在 d 軌態之間躍遷，所以這種離子可以形成有色的絡合物。",
 
     // widget string (assets/js/widgets-s3-1.js)
     "Transition element to compare with calcium": "與鈣比較的過渡元素",

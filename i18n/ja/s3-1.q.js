@@ -1132,7 +1132,7 @@ S1.i18n.register('ja', 's3-1.q', {
       stem: "<p>リンの第一イオン化エネルギーは 1012 kJ mol<sup>−1</sup> です。硫黄の第一イオン化エネルギーは 1000 kJ mol<sup>−1</sup> です。</p><p>硫黄のほうが核電荷が大きいのに、値が小さい理由を説明しなさい (explain)。</p>",
       hints: [
         // EN: Draw the 3p orbitals as three boxes for P and for S.
-        "P と S について、3p 軌道を 3 つの箱でかきましょう。",
+        "P と S について、3p 軌道を 3 つの箱で描きましょう。",
         // EN: In which atom does one box contain two electrons? What do two electrons in one orbital do to each other?
         "1 つの箱に電子が 2 個入っているのは、どちらの原子ですか。同じ軌道の 2 個の電子は、たがいにどうなりますか。",
       ],
@@ -1194,7 +1194,7 @@ S1.i18n.register('ja', 's3-1.q', {
         // EN: Formation of complex ions with ligands
         "配位子と錯イオンをつくる",
         // EN: Poor electrical conductivity
-        "電気を通しにくい",
+        "電気伝導性が低い",
       ],
       hints: [
         // EN: Think about iron or copper: are they easy to melt? Do they conduct?
@@ -1559,7 +1559,7 @@ S1.i18n.register('ja', 's3-1.q', {
         "最後に、吸収される色と見える色の関係を書きましょう。",
       ],
       // EN: <p>The <span class="chem">Cu^2+</span> ion has a partially filled d sublevel (<span class="mono nowrap">[Ar] 3d<sup>9</sup></span>). The ligands (water molecules) cause the d orbitals to split into two sets with different energies. An electron absorbs light and is promoted from a lower-energy d orbital to a higher-energy d orbital. The energy gap corresponds to light in the visible region. The colour observed (blue) is complementary to the colour absorbed (orange).</p><p>Do not write that the complex <em>emits</em> blue light. The colour comes from absorption.</p>
-      answer: "<p><span class=\"chem\">Cu^2+</span> イオンは、一部だけ満たされた d 副準位（<span class=\"mono nowrap\">[Ar] 3d<sup>9</sup></span>）をもっています。配位子（水分子）によって、d 軌道はエネルギーの違う 2 組に分裂します。電子は光を吸収して、エネルギーの低い d 軌道からエネルギーの高い d 軌道へ移ります。このエネルギーの差は、可視領域の光にあたります。観察される色（青色）は、吸収される色（橙色）の補色です。</p><p>錯体が青色の光を<em>放出する</em>と書いてはいけません。色は吸収によって生じます。</p>",
+      answer: "<p><span class=\"chem\">Cu^2+</span> イオンは、一部だけ満たされた d 副準位（<span class=\"mono nowrap\">[Ar] 3d<sup>9</sup></span>）をもっています。配位子（水分子）によって、d 軌道はエネルギーの違う 2 組に分裂します。電子は光を吸収して、エネルギーの低い d 軌道からエネルギーの高い d 軌道へ移ります（励起されます）。このエネルギーの差は、可視領域の光にあたります。観察される色（青色）は、吸収される色（橙色）の補色です。</p><p>錯体が青色の光を<em>放出する</em>と書いてはいけません。色は吸収によって生じます。</p>",
       markscheme: [
         // EN: The ion has partially filled d orbitals / an incomplete d sublevel.
         "イオンが、一部だけ満たされた d 軌道 / 不完全な d 副準位をもつ。",
@@ -1595,7 +1595,7 @@ S1.i18n.register('ja', 's3-1.q', {
         "色相環で、緑色の向かいにある色をさがしましょう。",
       ],
       // EN: <p>White light passes through the solution. The complex <strong>absorbs</strong> light of one colour, and the energy promotes an electron from a lower-energy d orbital to a higher-energy d orbital. The colour seen is the complementary colour. Red is opposite green on the wheel, so the complex absorbs <strong>red</strong> light and appears green.</p>
-      solution: "<p>白色光が溶液を通ります。錯体は 1 つの色の光を<strong>吸収</strong>し、そのエネルギーで電子がエネルギーの低い d 軌道から高い d 軌道へ移ります。見える色は補色です。色相環で緑色の向かいは赤色なので、錯体は<strong>赤色</strong>の光を吸収し、緑色に見えます。</p>",
+      solution: "<p>白色光が溶液を通ります。錯体は 1 つの色の光を<strong>吸収</strong>し、そのエネルギーで電子がエネルギーの低い d 軌道から高い d 軌道へ移ります（励起されます）。見える色は補色です。色相環で緑色の向かいは赤色なので、錯体は<strong>赤色</strong>の光を吸収し、緑色に見えます。</p>",
       misconception: {
         // EN (option A): This describes emission. The colour of a complex comes from <em>absorption</em> of part of the white light, not from light given out.
         "0": "これは発光の説明です。錯体の色は、白色光の一部を<em>吸収</em>することで生じます。光を出すからではありません。",
@@ -1691,14 +1691,14 @@ S1.i18n.register('ja', 's3-1.q', {
         "色が出るには、一部だけ満たされた d 副準位が必要です。d 電子が少なくとも 1 個あり、空きも少なくとも 1 つあることです。",
       ],
       // EN: <p>Colour needs an electron that can be promoted from one d orbital to another. So the ion must have a <strong>partially filled d sublevel</strong>.</p><div class="worked__math"><span class="chem">Cu+</span>: <span class="mono nowrap">[Ar] 3d<sup>10</sup></span> &nbsp; full: not coloured</div><div class="worked__math"><span class="chem">Sc^3+</span>: <span class="mono nowrap">[Ar]</span> &nbsp; empty: not coloured</div><div class="worked__math"><span class="chem">Zn^2+</span>: <span class="mono nowrap">[Ar] 3d<sup>10</sup></span> &nbsp; full: not coloured</div><div class="worked__math"><span class="chem">Ti^3+</span>: <b><span class="mono nowrap">[Ar] 3d<sup>1</sup></span></b> &nbsp; partially filled: coloured</div>
-      solution: "<p>色が出るには、ある d 軌道から別の d 軌道へ移ることのできる電子が必要です。だから、イオンは<strong>一部だけ満たされた d 副準位</strong> (partially filled d sublevel) をもっていなければいけません。</p><div class=\"worked__math\"><span class=\"chem\">Cu+</span>: <span class=\"mono nowrap\">[Ar] 3d<sup>10</sup></span> &nbsp; 完全に満たされている: 色がない</div><div class=\"worked__math\"><span class=\"chem\">Sc^3+</span>: <span class=\"mono nowrap\">[Ar]</span> &nbsp; 空: 色がない</div><div class=\"worked__math\"><span class=\"chem\">Zn^2+</span>: <span class=\"mono nowrap\">[Ar] 3d<sup>10</sup></span> &nbsp; 完全に満たされている: 色がない</div><div class=\"worked__math\"><span class=\"chem\">Ti^3+</span>: <b><span class=\"mono nowrap\">[Ar] 3d<sup>1</sup></span></b> &nbsp; 一部だけ満たされている: 色がある</div>",
+      solution: "<p>色が出るには、ある d 軌道から別の d 軌道へ移る（励起される）ことのできる電子が必要です。だから、イオンは<strong>一部だけ満たされた d 副準位</strong> (partially filled d sublevel) をもっていなければいけません。</p><div class=\"worked__math\"><span class=\"chem\">Cu+</span>: <span class=\"mono nowrap\">[Ar] 3d<sup>10</sup></span> &nbsp; 完全に満たされている: 色がない</div><div class=\"worked__math\"><span class=\"chem\">Sc^3+</span>: <span class=\"mono nowrap\">[Ar]</span> &nbsp; 空: 色がない</div><div class=\"worked__math\"><span class=\"chem\">Zn^2+</span>: <span class=\"mono nowrap\">[Ar] 3d<sup>10</sup></span> &nbsp; 完全に満たされている: 色がない</div><div class=\"worked__math\"><span class=\"chem\">Ti^3+</span>: <b><span class=\"mono nowrap\">[Ar] 3d<sup>1</sup></span></b> &nbsp; 一部だけ満たされている: 色がある</div>",
       misconception: {
         // EN (option A): CuCl contains <span class="chem">Cu+</span>, which is <span class="mono nowrap">[Ar] 3d<sup>10</sup></span>. The d sublevel is full, so no electron can be promoted between d orbitals.
-        "0": "CuCl は <span class=\"chem\">Cu+</span> を含み、その電子配置は <span class=\"mono nowrap\">[Ar] 3d<sup>10</sup></span> です。d 副準位が完全に満たされているので、d 軌道の間で電子が移ることはできません。",
+        "0": "CuCl は <span class=\"chem\">Cu+</span> を含み、その電子配置は <span class=\"mono nowrap\">[Ar] 3d<sup>10</sup></span> です。d 副準位が完全に満たされているので、d 軌道の間で電子を高い準位へ移すことはできません。",
         // EN (option B): <span class="chem">ScCl3</span> contains <span class="chem">Sc^3+</span>, which is <span class="mono nowrap">[Ar]</span>. There are no d electrons to promote.
-        "1": "<span class=\"chem\">ScCl3</span> は <span class=\"chem\">Sc^3+</span> を含み、その電子配置は <span class=\"mono nowrap\">[Ar]</span> です。移ることのできる d 電子がありません。",
+        "1": "<span class=\"chem\">ScCl3</span> は <span class=\"chem\">Sc^3+</span> を含み、その電子配置は <span class=\"mono nowrap\">[Ar]</span> です。高い準位へ移せる d 電子がありません。",
         // EN (option C): <span class="chem">ZnSO4</span> contains <span class="chem">Zn^2+</span>, which is <span class="mono nowrap">[Ar] 3d<sup>10</sup></span>. The d sublevel is full, so no electron can be promoted between d orbitals.
-        "2": "<span class=\"chem\">ZnSO4</span> は <span class=\"chem\">Zn^2+</span> を含み、その電子配置は <span class=\"mono nowrap\">[Ar] 3d<sup>10</sup></span> です。d 副準位が完全に満たされているので、d 軌道の間で電子が移ることはできません。",
+        "2": "<span class=\"chem\">ZnSO4</span> は <span class=\"chem\">Zn^2+</span> を含み、その電子配置は <span class=\"mono nowrap\">[Ar] 3d<sup>10</sup></span> です。d 副準位が完全に満たされているので、d 軌道の間で電子を高い準位へ移すことはできません。",
       },
     },
 
