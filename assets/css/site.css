@@ -278,7 +278,8 @@ input[type="checkbox"], input[type="radio"] { accent-color: var(--accent); }
   display: inline-grid; place-items: center; width: 2.1rem; height: 2.1rem;
   border: 2px solid var(--ink); font-size: 0.95rem; line-height: 1; background: var(--paper);
 }
-.wordmark__cell sub { font-family: var(--font-mono); font-size: 0.6em; bottom: -0.3em; }
+.wordmark__cell sub { font-family: var(--font-mono); font-size: 0.62em; position: static; line-height: 1; align-self: end; }
+.wordmark__cell { display: inline-flex; align-items: center; justify-content: center; gap: 1px; }
 
 .site-nav__list { display: flex; align-items: center; gap: 0.15rem; list-style: none; margin: 0; padding: 0; }
 .site-nav__list li { margin: 0; }

@@ -343,6 +343,7 @@
           results[index] = status;
           S1.progress.recordAnswer(q, status);
           paintHead(false);
+          next.textContent = last ? 'See my results' : 'Next question';
         },
         onDone: function () { next.textContent = last ? 'See my results' : 'Next question'; next.classList.add('btn--primary'); }
       });
