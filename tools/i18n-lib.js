@@ -34,6 +34,29 @@ function literalsIn(code) {
   return out;
 }
 const NOISE = /^(data-[\w-]+|is-[\w-]+|aria-[\w-]+|ahl|sl|all|en|ja|zh-Hant|ui|[a-z]+__[\w-]+|[.#][\w-].*|\[[\w-]+(?:[~^$*|]?=.*)?\]|[a-z0-9]+(-[a-z0-9]+)+)$/;
+// Page and widget files: class names and selectors only. A hyphenated word in a t("…") call is a real string
+// ("non-metal", "s-block", "but-2-ene"), so the generic "looks like an id" rule of NOISE is not used there
+// (except for an operand of a comparison, such as  t(kind === 'some-id' ? … : …)).
+const NOISE_PAGE = /^(data-[\w-]+|is-[\w-]+|aria-[\w-]+|[a-z]+__[\w-]+|[.#][\w-].*|\[[\w-]+(?:[~^$*|]?=.*)?\])$/;
+const IDLIKE = /^[a-z0-9]+(-[a-z0-9]+)+$/;
+/* The rule shared with S1.i18n.translatable() in core.js (used by coverage()): a string is translatable when it
+   has at least one letter outside its {placeholders} and its |context suffix.  So "{n} p", "m.p. {T} °C" and
+   "{C} °C = {K} K" are entries (word order and unit words can differ), and "{a} × {b}" or "1 σ" are not. */
+const translatable = v => /[A-Za-zÀ-ɏ]/.test(String(v).replace(/\|[A-Za-z0-9_-]+$/, '').replace(/\{\w+\}/g, ''));
+// Like literalsIn, but drops id-like literals that are an operand of ===, !==, == or !=
+function keyLiteralsIn(code) {
+  const out = [];
+  const re = /'(?:[^'\\\n]|\\.)*'|"(?:[^"\\\n]|\\.)*"/g;
+  let m;
+  while ((m = re.exec(code))) {
+    const v = unquote(m[0]);
+    if (v == null) continue;
+    const compared = /[=!]==?\s*$/.test(code.slice(0, m.index)) || /^\s*[=!]==?/.test(code.slice(re.lastIndex));
+    if (compared && IDLIKE.test(v)) continue;
+    out.push(v);
+  }
+  return out;
+}
 // One argument of a call, starting at index i (just after "(" or ","): returns [text, indexAfter]
 function argAt(src, i) {
   let depth = 1, inStr = null;
@@ -51,7 +74,8 @@ function argAt(src, i) {
 /* mode 'shell': t(), t.n(), tl(), S1.i18n.ui()  — mode 'page': t(), S1.t(), w.t() and their .n() */
 function scanSource(src, mode) {
   const keys = [];
-  const add = v => { v = norm(v); if (v && /[A-Za-z]{2}/.test(v) && !NOISE.test(v) && !keys.includes(v)) keys.push(v); };
+  const noise = mode === 'shell' ? NOISE : NOISE_PAGE;
+  const add = v => { v = norm(v); if (v && translatable(v) && !noise.test(v) && !keys.includes(v)) keys.push(v); };
   src.split('\n').forEach(line => { if (/\/\/ i18n\s*$/.test(line)) literalsIn(line.replace(/\/\/ i18n\s*$/, '')).forEach(v => { if (/[A-Z]/.test(v) || / /.test(v)) add(v); }); });
   src = src.replace(/\/\*[\s\S]*?\*\//g, '').replace(/^\s*\/\/.*$/gm, '');
   const names = mode === 'shell' ? 'S1\\.i18n\\.ui|S1\\.i18n\\.either|tl|t' : 'S1\\.t|w\\.t|t';
@@ -60,7 +84,7 @@ function scanSource(src, mode) {
   while ((m = call.exec(src))) {
     let [arg, next] = argAt(src, call.lastIndex);
     if (m[1]) [arg] = argAt(src, next);                 // t.n(count, {one, other}): the forms are the second argument
-    literalsIn(arg).forEach(add);
+    (mode === 'shell' ? literalsIn(arg) : keyLiteralsIn(arg)).forEach(add);
   }
   if (mode === 'shell') {
     const prop = /\b(?:t|tTitle|tLabel):\s*([^\n]*?)(?=,\s*[\w'"]+\s*:|\s*\}\)|\s*\},|\n)/g;
@@ -218,12 +242,14 @@ async function catalog(browser, scope) {
 const VOID = new Set(['br', 'hr', 'img', 'input', 'wbr']);
 /* Tiny HTML reader: tags (multiset), contents of protected elements, hrefs, dfn inner HTML, plain text. */
 function readHtml(html, opts) {
-  const tags = [], prot = [], hrefs = [], dfns = [], enTerms = [];
+  const tags = [], prot = [], hrefs = [], dfns = [], enTerms = [], nums = [];
   let text = '', i = 0;
   const stack = [];
   const re = /<(\/?)([a-zA-Z][a-zA-Z0-9]*)((?:[^>"']|"[^"]*"|'[^']*')*)>/g;
   let m;
-  const pushText = s => { text += s; stack.forEach(f => { f.text += s; f.html += s; }); };
+  // Numbers are read one text node at a time: a tag is a boundary, so "… = 18.</p><p><sup>40</sup>K" is 18 and 40,
+  // never 18.40, and a full stop that ends a sentence is never part of a number.
+  const pushText = s => { text += s; stack.forEach(f => { f.text += s; f.html += s; }); (decode(s).match(NUM) || []).forEach(n => nums.push(n)); };
   while ((m = re.exec(html))) {
     pushText(html.slice(i, m.index)); i = re.lastIndex;
     const name = m[2].toLowerCase(), attrs = m[3] || '';
@@ -250,7 +276,17 @@ function readHtml(html, opts) {
     }
   }
   pushText(html.slice(i));
-  return { tags, prot, hrefs, dfns, enTerms, text: text.replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>') };
+  return { tags, prot, hrefs, dfns, enTerms, nums, text: text.replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>') };
+}
+// Character references must not be read as numbers ("&#8722;5" is −5, not 8722 and 5).
+function decode(s) {
+  return s.replace(/&#x([0-9a-fA-F]+);/g, (m, h) => String.fromCodePoint(parseInt(h, 16))).replace(/&#(\d+);/g, (m, d) => String.fromCodePoint(+d))
+    .replace(/&nbsp;/g, ' ').replace(/&[a-zA-Z]+\d*;/g, ' ');
+}
+// "sup:40" → <sup>40</sup>, "chem:H2O" → <span class="chem">H2O</span> (for messages)
+function showProt(p) {
+  const i = p.indexOf(':'), kind = p.slice(0, i), txt = p.slice(i + 1);
+  return kind === 'sub' || kind === 'sup' ? '<' + kind + '>' + txt + '</' + kind + '>' : kind === 'frac' ? 'fraction "' + txt + '"' : '<span class="' + kind + '">' + txt + '</span>';
 }
 const multiset = a => { const m = {}; a.forEach(x => { m[x] = (m[x] || 0) + 1; }); return m; };
 function diffMulti(a, b) {           // items of a that b lacks, and items b has too many of
@@ -259,7 +295,7 @@ function diffMulti(a, b) {           // items of a that b lacks, and items b has
   Object.keys(B).forEach(k => { for (let n = (A[k] || 0); n < B[k]; n++) extra.push(k); });
   return { missing, extra };
 }
-const NUM = /\d+(?:[.,]\d+)*/g;
+const NUM = /\d+(?:[.,]\d+)*/g;                  // a trailing "." or "," is never included
 const OPS = /[=+−×÷\/<>≤≥≈→⇌±]|(?<![A-Za-z])-(?![A-Za-z])/g;
 /**
  * lintPair(english, translation, {math, lang}) → array of problem strings (empty = fine)
@@ -276,7 +312,16 @@ function lintPair(en, tr, opts) {
   if (tg.missing.length) out.push('tag missing: ' + tg.missing.map(x => '<' + x + '>').join(' '));
   if (tg.extra.length) out.push('tag not in the English: ' + tg.extra.map(x => '<' + x + '>').join(' '));
   const pr = diffMulti(a.prot, b.prot);
-  if (pr.missing.length || pr.extra.length) out.push('formula / unit / sub / sup content changed: ' + pr.missing.concat(pr.extra.map(x => '+' + x)).join(' | '));
+  // Parity is strict: every formula, unit, <sub> and <sup> appears exactly as often as in the English.
+  if (pr.missing.length || pr.extra.length) {
+    const inEn = multiset(a.prot), inTr = multiset(b.prot);
+    const gone = [...new Set(pr.missing)].map(x => showProt(x) + (inEn[x] > 1 || inTr[x] ? ' (English ' + inEn[x] + '×, translation ' + (inTr[x] || 0) + '×)' : ''));
+    const repeated = [...new Set(pr.extra.filter(x => inEn[x]))].map(x => showProt(x) + ' (English ' + inEn[x] + '×, translation ' + inTr[x] + '×)');
+    const added = [...new Set(pr.extra.filter(x => !inEn[x]))].map(showProt);
+    if (gone.length) out.push('formula / unit / sub / sup missing or changed: ' + gone.join(' | ') + '. Copy each one from the English exactly, the same number of times');
+    if (repeated.length) out.push('formula / unit / sub / sup used more often than in the English: ' + repeated.join(' | ') + '. It must appear the same number of times: reword the sentence so that it is not repeated');
+    if (added.length) out.push('formula / unit / sub / sup not in the English: ' + added.join(' | ') + (gone.length ? ' (probably the changed form of the missing one above)' : '') + '. Do not add or alter them');
+  }
   const hr = diffMulti(a.hrefs, b.hrefs);
   if (hr.missing.length || hr.extra.length) out.push('link target changed: ' + hr.missing.concat(hr.extra).join(' '));
   // exam-language policy: a key term keeps its English beside it
@@ -289,8 +334,15 @@ function lintPair(en, tr, opts) {
   // numbers
   const btext = b.text.replace(new RegExp(b.enTerms.map(x => x.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') || '$^', 'g'), ' ');
   if (/[０-９]/.test(b.text)) out.push('full-width digits: use 0-9');
-  const nm = diffMulti((a.text.match(NUM) || []), (b.text.match(NUM) || []));
-  if (nm.missing.length) out.push('number missing: ' + nm.missing.join(' '));
+  const nm = diffMulti(a.nums, b.nums);
+  // "groups 1,2 and 13" may become "1、2": a comma-joined token is also satisfied by its parts
+  nm.missing = nm.missing.filter(tok => {
+    if (tok.indexOf(',') < 0) return true;
+    const parts = tok.split(','), ex = nm.extra.slice();
+    for (const p of parts) { const j = ex.indexOf(p); if (j < 0) return true; ex.splice(j, 1); }
+    nm.extra = ex; return false;
+  });
+  if (nm.missing.length) out.push('number missing: ' + nm.missing.join(' ') + ' (numbers are compared text by text between tags; write them with the digits 0-9 exactly as in the English)');
   if (opts.math) {
     const oa = (a.text.match(OPS) || []).join(' '), ob = (btext.match(OPS) || []).join(' ');
     if (oa !== ob) out.push('maths operators changed: "' + oa + '" → "' + ob + '"');
@@ -314,5 +366,5 @@ function closest(key, candidates) {
   return score >= 0.55 ? { key: best, score } : null;
 }
 
-module.exports = { ROOT, LANGS, norm, pageFile, isTopic, scanSource, readOverlay, writeStringsFile, writeQuestionsFile, stringsBlock, comment,
+module.exports = { translatable, ROOT, LANGS, norm, pageFile, isTopic, scanSource, readOverlay, writeStringsFile, writeQuestionsFile, stringsBlock, comment,
   questionFields, questionPairs, catalog, lintPair, readHtml, closest, Q_FIELDS, J };
