@@ -1345,7 +1345,7 @@ S1.i18n.register('ja', 's1-3', {
     "Linking it up": "つなげて考える",
 
     // Linking it up > p
-    "The syllabus asks questions that connect this topic to others. Here are short answers to four of them.": "シラバスには、このトピックをほかのトピックと結びつける問いがあります。そのうち 4 つに短く答えます。",
+    "The syllabus asks questions that connect this topic to others. Here are short answers to some of them.": "シラバスには、このトピックをほかのトピックと結びつける問いがあります。そのうちいくつかに短く答えます。",
 
     // Linking it up > h3
     "How do emission spectra provide evidence for the existence of different elements?": "発光スペクトルは、異なる元素が存在することの証拠をどのように示しますか。",

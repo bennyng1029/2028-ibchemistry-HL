@@ -1345,7 +1345,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Linking it up": "把知識連繫起來",
 
     // Linking it up > p
-    "The syllabus asks questions that connect this topic to others. Here are short answers to four of them.": "課程大綱設有一些問題，把這個課題與其他課題連繫起來。以下是其中四個問題的簡短答案。",
+    "The syllabus asks questions that connect this topic to others. Here are short answers to some of them.": "課程大綱設有一些問題，把這個課題與其他課題連繫起來。以下是其中幾個問題的簡短答案。",
 
     // Linking it up > h3
     "How do emission spectra provide evidence for the existence of different elements?": "發射光譜怎樣為不同元素的存在提供證據？",
