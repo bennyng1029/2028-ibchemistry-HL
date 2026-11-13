@@ -53,9 +53,11 @@ table.data td.s32-cell { min-width: 7.5rem; }
 .s32-tools { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; margin: 0.6rem 0 0.2rem; }
 .s32-tools__label { flex: 0 0 100%; margin: 0; }
 .s32-tools__break { flex: 0 0 100%; height: 0; }
-.s32-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(10.5rem, 1fr)); gap: 0.6rem; align-items: start; }
+.s32-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr)); gap: 0.6rem; align-items: start; }
 .s32-card { border: 1px solid var(--line); background: var(--surface); padding: 0.5rem 0.6rem; min-width: 0; }
-.s32-card p { margin: 0.15rem 0 0; overflow-wrap: anywhere; }
+.s32-card p { margin: 0.15rem 0 0; overflow-wrap: break-word; }
+.s32-card .s32-name { font-size: 0.86rem; }
+.s32-draw[hidden] { display: none; }
 .s32-card .s32-f { white-space: normal; }
 .s32-card__pic { min-height: 3.5rem; display: flex; align-items: center; justify-content: center; }
 .s32-card__name { font-size: 0.92rem; }

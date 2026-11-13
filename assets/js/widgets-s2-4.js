@@ -804,7 +804,7 @@
       else if (kind === 'pair' && m) drawStruct(host, chainSpec(m, 2, label || m.rep), { marks: [{ x: 0.625, y: 0, rx: 1.15, ry: 1.5 }] });
       else if (kind === 'cond') {
         var P = condParts({ kind: host.getAttribute('data-kind'), a: host.getAttribute('data-a'), b: host.getAttribute('data-b') });
-        var show = host.getAttribute('data-show'), narrow = (host.clientWidth || 600) < 520, rows;
+        var show = host.getAttribute('data-show'), narrow = (host.clientWidth || window.innerWidth - 80) < 520, rows;
         if (show === 'monomers') rows = narrow ? [[P.monoA(true)], [{ sign: '+' }, P.monoB(true)]] : [[P.monoA(true), { sign: '+' }, P.monoB(true)]];
         else if (show === 'dimer') rows = [[P.dimer('link')]];
         else if (show === 'plain-monomers') rows = narrow ? [[P.monoA()], [{ sign: '+' }, P.monoB()]] : [[P.monoA(), { sign: '+' }, P.monoB()]];

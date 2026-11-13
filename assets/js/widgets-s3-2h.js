@@ -42,6 +42,7 @@
     var h = String(s).replace(/([A-Za-z\)])(\d+)/g, '$1<sub>$2</sub>').replace(/\+$/, '<sup>+</sup>');
     return '<span class="s32h-f" data-i18n="off">' + h + '</span>';
   }
+  var SPAN = '<span>';   // button text goes in one span, so that <sup> and <i> inside it are not laid out as separate flex items
   function setAria(node, text) { node.setAttribute('aria-label', text); }
   function feedback(kind, html) {
     return el('div', { class: 'feedback' + (kind ? ' feedback--' + kind : ''), html: html });
@@ -53,7 +54,7 @@
     var group = el('div', { class: 'seg s32h-seg', role: 'group', 'aria-labelledby': id });
     var state = { value: value, buttons: [] };
     items.forEach(function (it) {
-      var b = el('button', { class: 'seg__btn', type: 'button', 'aria-pressed': String(it.value === value), html: it.label });
+      var b = el('button', { class: 'seg__btn', type: 'button', 'aria-pressed': String(it.value === value), html: SPAN + it.label });
       b.addEventListener('click', function () { state.set(it.value); if (onChange) onChange(it.value); });
       b._value = it.value; state.buttons.push(b); group.appendChild(b);
     });
@@ -511,8 +512,8 @@
     var i = 0, score = 0, done = {}, setScore = w.readoutItem(t('Correct first time'));
     var title = el('p', { class: 's32h-q' }), draw = el('div', { class: 's32h-center' }), row = el('div', { class: 'btn-row' }), out = el('div', { 'aria-live': 'polite' });
     w.stage.appendChild(title); w.stage.appendChild(draw); w.stage.appendChild(row); w.stage.appendChild(out);
-    var yes = el('button', { class: 'btn', type: 'button', html: t('Yes, it has <i>cis</i>–<i>trans</i> isomers') }), no = el('button', { class: 'btn', type: 'button', html: t('No, it does not') });
-    var next = el('button', { class: 'btn btn--primary', type: 'button', html: t('Next molecule') });
+    var yes = el('button', { class: 'btn', type: 'button', html: SPAN + t('Yes, it has <i>cis</i>–<i>trans</i> isomers') }), no = el('button', { class: 'btn', type: 'button', html: SPAN + t('No, it does not') });
+    var next = el('button', { class: 'btn btn--primary', type: 'button', html: SPAN + t('Next molecule') });
     row.appendChild(yes); row.appendChild(no); row.appendChild(next);
     function show() {
       var it = ITEMS[i];
@@ -627,7 +628,7 @@
     w.button(t('Turn B upside down (180°)'), function () { move([0, 0, 1], Math.PI); });
     w.button(t('Start again'), load);
     var turn = el('div', { class: 'btn-row s32h-turn' });
-    var lb = el('button', { class: 'btn btn--small btn--quiet', type: 'button', html: t('Turn both models left') }), rb = el('button', { class: 'btn btn--small btn--quiet', type: 'button', html: t('Turn both models right') });
+    var lb = el('button', { class: 'btn btn--small btn--quiet', type: 'button', html: SPAN + t('Turn both models left') }), rb = el('button', { class: 'btn btn--small btn--quiet', type: 'button', html: SPAN + t('Turn both models right') });
     lb.addEventListener('click', function () { viewA.rotate(-0.3, 0); viewB.rotate(-0.3, 0); });
     rb.addEventListener('click', function () { viewA.rotate(0.3, 0); viewB.rotate(0.3, 0); });
     turn.appendChild(lb); turn.appendChild(rb); w.stage.appendChild(turn);
@@ -684,9 +685,9 @@
     var i = 0, found, api, setFound = w.readoutItem(t('Chiral carbons found'));
     var title = el('p', { class: 's32h-q' }), draw = el('div', { class: 's32h-center' }), row = el('div', { class: 'btn-row' }), out = el('div', { 'aria-live': 'polite' });
     w.stage.appendChild(title); w.stage.appendChild(draw); w.stage.appendChild(row); w.stage.appendChild(out);
-    var none = el('button', { class: 'btn', type: 'button', html: t('This molecule has no chiral carbon') });
-    var all = el('button', { class: 'btn', type: 'button', html: t('I have found them all') });
-    var next = el('button', { class: 'btn btn--primary', type: 'button', html: t('Next molecule') });
+    var none = el('button', { class: 'btn', type: 'button', html: SPAN + t('This molecule has no chiral carbon') });
+    var all = el('button', { class: 'btn', type: 'button', html: SPAN + t('I have found them all') });
+    var next = el('button', { class: 'btn btn--primary', type: 'button', html: SPAN + t('Next molecule') });
     row.appendChild(none); row.appendChild(all); row.appendChild(next);
     function total(it) { return it.spec.atoms.filter(function (a) { return a.chiral; }).length; }
     function say(kind, html) { clear(out); out.appendChild(feedback(kind, '<p>' + html + '</p>')); }
@@ -763,7 +764,7 @@
       { id: 'none', label: t('A substance that is not chiral'), ang: 0, text: t('No rotation. The substance is not optically active.') }
     ];
     var setRot = w.readoutItem(t('What is observed'), { text: true }), setAct = w.readoutItem(t('Optically active?'));
-    var svg = w.svg('0 0 360 190', { label: t('Diagram of a polarimeter: light source, polarizer, sample tube and analyser') });
+    var svg = w.svg('0 0 360 156', { label: t('Diagram of a polarimeter: light source, polarizer, sample tube and analyser') });
     svg.style.maxWidth = '34rem';
     var cur = 'a';
     var s = seg(w.controls, t('Sample in the tube'), SAMPLES.map(function (x) { return { value: x.id, label: x.label }; }), cur, function (v) { cur = v; update(); });
@@ -783,7 +784,7 @@
         svgEl('path', { d: 'M' + ex + ' ' + ey + ' L' + (ex - ux * 8 + nx * 4.5) + ' ' + (ey - uy * 8 + ny * 4.5) + ' L' + (ex - ux * 8 - nx * 4.5) + ' ' + (ey - uy * 8 - ny * 4.5) + ' Z', style: 'fill:' + col }, g);
       });
     }
-    function num(x, n) { svgEl('text', { x: x, y: 176, 'text-anchor': 'middle', style: 'fill:var(--ink-2);font-family:var(--font-mono);font-size:13px;font-weight:600', text: String(n) }, svg); }
+    function num(x, n) { svgEl('text', { x: x, y: 146, 'text-anchor': 'middle', style: 'fill:var(--ink-2);font-family:var(--font-mono);font-size:13px;font-weight:600', text: String(n) }, svg); }
     function update() {
       var smp = SAMPLES.filter(function (x) { return x.id === cur; })[0];
       clear(svg);
@@ -998,7 +999,7 @@
       }
       clear(btns);
       cur.peaks.forEach(function (p) {
-        var b = el('button', { class: 'btn btn--small', type: 'button', 'aria-pressed': 'false', 'data-mz': p[0], html: 'm/z ' + p[0] });
+        var b = el('button', { class: 'btn btn--small', type: 'button', 'aria-pressed': 'false', 'data-mz': p[0], html: SPAN + 'm/z ' + p[0] });
         b.addEventListener('click', function () { pick(p[0]); });
         btns.appendChild(b);
       });
@@ -1058,7 +1059,7 @@
     function bandButtons() {
       clear(btns);
       cur.bands.forEach(function (b, i) {
-        var bt = el('button', { class: 'btn btn--small', type: 'button', 'aria-pressed': String(i === selBand), html: t('Band {letter}: near {v} cm<sup>−1</sup>', { letter: String.fromCharCode(65 + i), v: b.at }) });
+        var bt = el('button', { class: 'btn btn--small', type: 'button', 'aria-pressed': String(i === selBand), html: SPAN + t('Band {letter}: near {v} cm<sup>−1</sup>', { letter: String.fromCharCode(65 + i), v: b.at }) });
         bt.addEventListener('click', function () { pick(i); });
         btns.appendChild(bt);
       });
@@ -1101,11 +1102,11 @@
       out.appendChild(el('p', { class: 's32h-q', html: t('Unknown {n} of {total}. Which class of compound gave this spectrum?', { n: mi + 1, total: MYSTERY.length }) }));
       var row = el('div', { class: 'btn-row' });
       CLASSES.forEach(function (c) {
-        var b = el('button', { class: 'btn', type: 'button', html: c.label });
+        var b = el('button', { class: 'btn', type: 'button', html: SPAN + c.label });
         b.addEventListener('click', function () { var j = judge(c.id); showAsk(null, '<p>' + j.html + '</p>', j.ok ? 'right' : 'wrong'); });
         row.appendChild(b);
       });
-      var nx = el('button', { class: 'btn btn--primary', type: 'button', html: t('Next unknown') });
+      var nx = el('button', { class: 'btn btn--primary', type: 'button', html: SPAN + t('Next unknown') });
       nx.addEventListener('click', function () { mi = (mi + 1) % MYSTERY.length; load(); });
       row.appendChild(nx); out.appendChild(row);
       if (resHtml) out.appendChild(feedback(kind, resHtml));
@@ -1140,10 +1141,11 @@
         : t('Structure of {name}', { name: mol.name }) });
     }
     function table(withSplit) {
-      var h = '<table class="data"><caption>' + t('Predicted <sup>1</sup>H NMR signals of {name}', { name: mol.name }) + '</caption><thead><tr><th scope="col">' + t('Signal') + '</th><th scope="col" class="num">' + t('H atoms (area)') + '</th><th scope="col">' + t('Booklet: type of proton') + '</th><th scope="col" class="num">' + t('Shift / ppm') + '</th><th scope="col" class="num">' + t('H on neighbouring C') + '</th><th scope="col">' + t('Splitting') + '</th></tr></thead><tbody>';
+      var h = '<table class="data"><caption>' + t('Predicted <sup>1</sup>H NMR signals of {name}', { name: mol.name }) + '</caption><thead><tr><th scope="col">' + t('Signal') + '</th><th scope="col" class="num">' + t('H atoms') + '</th><th scope="col">' + t('Type of proton') + '</th><th scope="col" class="num">' + t('Shift / ppm') + '</th><th scope="col">' + t('Splitting') + '</th></tr></thead><tbody>';
       mol.envs.forEach(function (e) {
         var n = neighbours(mol, e), oh = e.row === 'alcohol' || e.row === 'acid';
-        h += '<tr><th scope="row">' + e.k + ': ' + fm(e.group) + '</th><td class="num">' + e.h + '</td><td><span data-i18n="off">' + nmrRow(e.row).h + '</span></td><td class="num">' + rangeText(NMR_RANGE[e.row]) + '</td><td class="num">' + (withSplit ? (oh ? '—' : n) : '?') + '</td><td>' + (withSplit ? splitName(n + 1) + (n ? ' (' + n + ' + 1 = ' + (n + 1) + ')' : '') : '?') + '</td></tr>';
+        var split = !withSplit ? '?' : oh ? splitName(1) : t('n = {n}: {name}', { n: n, name: splitName(n + 1) });
+        h += '<tr><th scope="row">' + e.k + ': ' + fm(e.group) + '</th><td class="num">' + e.h + '</td><td><span class="s32h-f" data-i18n="off">' + nmrRow(e.row).h + '</span></td><td class="num">' + rangeText(NMR_RANGE[e.row]) + '</td><td>' + split + '</td></tr>';
       });
       tableHost.innerHTML = h + '</tbody></table>';
     }
@@ -1161,7 +1163,7 @@
     }
     function btnRow(labels, fn) {
       var row = el('div', { class: 'btn-row' });
-      labels.forEach(function (l, i) { var b = el('button', { class: 'btn', type: 'button', html: l }); b.addEventListener('click', function () { fn(i, b); }); row.appendChild(b); });
+      labels.forEach(function (l, i) { var b = el('button', { class: 'btn', type: 'button', html: SPAN + l }); b.addEventListener('click', function () { fn(i, b); }); row.appendChild(b); });
       return row;
     }
     function askSignals(msg, kind) {
@@ -1194,7 +1196,7 @@
       });
       ask.appendChild(box);
       var row = el('div', { class: 'btn-row' });
-      var check = el('button', { class: 'btn btn--primary', type: 'button', html: t('Check splitting') }), show = el('button', { class: 'btn', type: 'button', html: t('Show the answer') });
+      var check = el('button', { class: 'btn btn--primary', type: 'button', html: SPAN + t('Check splitting') }), show = el('button', { class: 'btn', type: 'button', html: SPAN + t('Show the answer') });
       check.addEventListener('click', function () {
         var res = mol.envs.map(function (e, i) { return { v: selects[i].value, ok: Number(selects[i].value) === neighbours(mol, e) + 1 }; });
         if (res.every(function (r) { return r.ok; })) finish(true); else askSplit(res);
@@ -1316,8 +1318,12 @@
         grid.appendChild(el('div', { class: 's32h-spectra__cell' }, [el('p', { class: 's32h-spectra__h', html: c[1] }), c[0]]));
       });
       data.appendChild(grid);
-      S1.chart.massSpectrum(m1, { height: 220, xMin: 10, xMax: Math.ceil((p.M + 6) / 10) * 10, labelAll: true, yMax: 100,
-        label: t('Simplified mass spectrum of the unknown compound. Peaks at m/z {list}. The peak at the highest m/z is {m}.', { list: p.ms.map(function (q) { return q[0] + ' (' + q[1] + ' %)'; }).join(', '), m: p.M }), peaks: p.ms });
+      var xmax = Math.ceil((p.M + 6) / 10) * 10;
+      var lab = p.ms.map(function (q) { return p.ms.some(function (r) { return r !== q && Math.abs(r[0] - q[0]) <= 2 && (r[1] > q[1] || (r[1] === q[1] && r[0] > q[0])); }) ? null : String(q[0]); });
+      S1.chart.plot(m1, { height: 220, label: t('Simplified mass spectrum of the unknown compound. Peaks at m/z {list}. The peak at the highest m/z is {m}.', { list: p.ms.map(function (q) { return q[0] + ' (' + q[1] + ' %)'; }).join(', '), m: p.M }),
+        x: { label: 'm/z', min: 10, max: xmax, ticks: [20, 40, 60, 80].filter(function (v) { return v <= xmax; }) }, y: { label: 'Relative abundance / %', min: 0, max: 100, step: 20 },
+        series: [{ type: 'stick', width: 3, color: '--accent', data: p.ms.map(function (q, i) { return [q[0], q[1], lab[i]]; }) }] });
+      m1.parentNode.appendChild(el('p', { class: 'small s32h-note', html: t('Peaks at m/z = {list}.', { list: p.ms.map(function (q) { return q[0]; }).join(', ') }) }));
       var irp = p.ir.map(function (b) { return { at: b.at, depth: b.depth, width: b.width, label: String(b.at) }; }).concat(p.irExtra || []);
       S1.chart.ir(m2, { height: 220, peaks: irp, label: t('Sketch of the infrared spectrum of the unknown compound. Main absorptions near {list} wavenumbers.', { list: p.ir.map(function (b) { return b.at; }).join(', ') }) });
       S1.chart.nmr(m3, { height: 220, max: nmrMax(p.envs), signals: nmrSignals(mol(), function (e) { return chem.fixed(e.shift, 1); }),
@@ -1421,7 +1427,7 @@
       } else {
         var col = el('div', { class: 's32h-options' });
         s.options.forEach(function (o, i) {
-          var b = el('button', { class: 'btn s32h-option', type: 'button', html: o });
+          var b = el('button', { class: 'btn s32h-option', type: 'button', html: SPAN + o });
           b.addEventListener('click', function () {
             if (i === s.answer) { note(s.done()); step++; show(t('Correct. The deduction is in your notebook.'), 'right'); }
             else show(s.wrong(i), 'wrong');

@@ -951,7 +951,20 @@
       host.innerHTML = ''; host.appendChild(el('p', { class: 'small muted', text: t('(one carbon atom: nothing to draw)') }));
       return { svg: null, pts: [], L: L, S: S };
     }
-    svg = S1.mol.skeletal(host, { atoms: atoms, bonds: L.bonds, scale: S, label: o.label || t('Skeletal formula') });
+    // ring double bonds: the shared helper puts the second line towards the middle of the whole drawing,
+    // which hides it on some ring bonds, so draw it here towards the middle of the ring
+    var inner = [], bonds = L.bonds.map(function (b) { if (b.order === 2 && m.ring[b.a] && m.ring[b.b]) { inner.push(b); return { a: b.a, b: b.b, order: 1 }; } return b; });
+    svg = S1.mol.skeletal(host, { atoms: atoms, bonds: bonds, scale: S, label: o.label || t('Skeletal formula') });
+    if (inner.length) {
+      var cx = 0, cy = 0, nr = 0;
+      L.atoms.forEach(function (a) { if (a.i >= 0 && m.ring[a.i]) { cx += a.x * S; cy += a.y * S; nr++; } });
+      cx /= nr; cy /= nr;
+      inner.forEach(function (b) {
+        var p = L.atoms[b.a], q = L.atoms[b.b], x1 = p.x * S, y1 = p.y * S, x2 = q.x * S, y2 = q.y * S, len = Math.hypot(x2 - x1, y2 - y1), ux = (x2 - x1) / len, uy = (y2 - y1) / len;
+        var nx = -uy, ny = ux, side = ((cx - (x1 + x2) / 2) * nx + (cy - (y1 + y2) / 2) * ny) >= 0 ? 1 : -1, f = 5 * side, cut = 6;
+        svgEl('line', { x1: x1 + nx * f + ux * cut, y1: y1 + ny * f + uy * cut, x2: x2 + nx * f - ux * cut, y2: y2 + ny * f - uy * cut, style: 'stroke:var(--ink);stroke-width:1.8;stroke-linecap:round;fill:none' }, svg);
+      });
+    }
     return { svg: svg, pts: L.atoms.map(function (a) { return { x: a.x * S, y: a.y * S, i: a.i }; }), L: L, S: S };
   }
   /** Full structural formula (every atom and bond) through the shared helper. */
@@ -1414,6 +1427,7 @@
     function fresh() {
       r = randomNamed(Number(level.value)); clean = true; step = 0; drawPath = pickDrawPath(); endA = Math.random() < 0.5;
       built.innerHTML = ''; say(fb, '', '');
+      host.hidden = false;
       if (mode.value === 'name') { draw(null); stepChain(); } else drawMode();
     }
     function finish() {
@@ -1514,7 +1528,7 @@
     }
     /* Name → structure */
     function drawMode() {
-      host.innerHTML = '';
+      host.innerHTML = ''; host.hidden = true;
       var near = nearMolecules(r).slice(0, 3), opts = shuffle([r].concat(near));
       prompt.innerHTML = t('Which skeletal formula shows {name}?', { name: nameHtml(r.name) });
       area.innerHTML = '';
