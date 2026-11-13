@@ -247,7 +247,7 @@
       var target = (q.answer && q.answer.length === n) ? q.answer.map(Number) : q.options.map(function (o, i) { return i; });
       var order = target.slice(), guard = 0, flagged = false;
       do { order = util.shuffle(target); guard++; } while (n > 1 && guard < 20 && order.join() === target.join());
-      var ol = el('ol', { class: 'q__order', 'aria-describedby': uid + '-stem' });
+      var ol = el('ol', { class: 'q__order', 'data-i18n': 'off', 'aria-describedby': uid + '-stem' });
       var liveMsg = el('p', { class: 'sr-only', role: 'status', 'aria-live': 'polite' });
       form.appendChild(el('p', { class: 'q__legend', t: 'Use the arrows to move each item up or down.' }));
       form.appendChild(ol); form.appendChild(liveMsg);

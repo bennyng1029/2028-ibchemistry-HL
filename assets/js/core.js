@@ -358,7 +358,7 @@
 
   /* Live bindings: generated text that re-renders itself when the language changes. */
   function render(node) {
-    if (node.__s1live) { var v = node.__s1live(); if (v != null) { node.innerHTML = v; initFormat(node); } }
+    if (node.__s1live) { var v = node.__s1live(); if (v != null) { node.innerHTML = v; initFormat(node); each(node, '.table-scroll', tableRegion); } }
     if (node.__s1attrs) for (var k in node.__s1attrs) { var a = node.__s1attrs[k](); if (a == null) node.removeAttribute(k); else node.setAttribute(k, a); }
   }
   /** live(el, fn): set el.innerHTML = fn() now and again on every language change. Returns el. */
@@ -571,7 +571,9 @@
         if (!tp2 || tp2 === 'all') { if (tp2 === 'all' || q.getAttribute('data-mode') === 'review') all = true; return; }
         tp2.split(',').forEach(function (id) { id = id.trim(); add(id + '.q'); add(id); });
       });
-      if (all) have.forEach(function (sc) { if (/^s\d+-\d+h?(\.q)?$/.test(sc)) add(sc); });
+      // every bank: the question file of each topic; a topic's page file only if it has no separate question file
+      // (the older one-file form).  Page text of other topics is never shown here, so it is not downloaded.
+      if (all) have.forEach(function (sc) { if (/^s\d+-\d+h?\.q$/.test(sc) || (/^s\d+-\d+h?$/.test(sc) && have.indexOf(sc + '.q') < 0)) add(sc); });
       return want.filter(function (sc) { return !scopesLoaded[l + '/' + sc]; });
     }
     function next() {
@@ -1520,6 +1522,8 @@
       fn(n);
     });
   }
+  /** A scrolling table is a focusable, named region (so it can be scrolled from the keyboard). */
+  function tableRegion(n) { if (!n.hasAttribute('tabindex')) { n.setAttribute('tabindex', '0'); n.setAttribute('role', 'region'); if (!n.getAttribute('aria-label')) { var c = n.querySelector('caption'); if (c) n.setAttribute('aria-labelledby', c.id || (c.id = util.uid('cap'))); else liveAttr(n, 'aria-label', function () { return t('Table'); }); } } }
   var booted = false;
   /** Initialise components inside root (default: whole document). Safe to call again after inserting HTML. */
   S1.enhance = function (root) {
@@ -1538,7 +1542,7 @@
     each(root, '[data-s1-numeric]', initNumeric);
     each(root, '[data-s1-reset]', initReset);
     Array.prototype.forEach.call(root.querySelectorAll('[data-s1-widget]:not([data-s1-ready])'), mountWidget);
-    each(root, '.table-scroll', function (n) { if (!n.hasAttribute('tabindex')) { n.setAttribute('tabindex', '0'); n.setAttribute('role', 'region'); if (!n.getAttribute('aria-label')) { var c = n.querySelector('caption'); if (c) n.setAttribute('aria-labelledby', c.id || (c.id = util.uid('cap'))); else liveAttr(n, 'aria-label', function () { return t('Table'); }); } } });
+    each(root, '.table-scroll', tableRegion);
     enhancers.forEach(function (fn) { fn(root); });
     each(root, '[data-s1-toc]', initToc);
     labelPass(root);

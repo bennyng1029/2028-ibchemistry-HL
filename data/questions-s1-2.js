@@ -235,7 +235,7 @@
       id: 's1-2-q014', topic: 's1-2', level: 'sl', tier: 'exam', type: 'numeric', marks: 2,
       syllabus: 'Structure 1.2.2',
       stem: '<p>Gallium has two isotopes. ' + iso(69, 'Ga') + ' has a relative mass of 68.93 and ' + iso(71, 'Ga') + ' has a relative mass of 70.92. The relative atomic mass of gallium is 69.72. Calculate the percentage abundance of ' + iso(69, 'Ga') + '.</p>',
-      answer: 60.301507537688, tolerance: { abs: 0.3 }, sigfigs: [2, 3], unit: '%',
+      answer: 60.301507537688, tolerance: { abs: 0.35 }, sigfigs: [2, 3], unit: '%',
       hints: ['Let the percentage of <sup>69</sup>Ga be <i>x</i>. Then <sup>71</sup>Ga is 100 − <i>x</i>.', '<span class="mono">68.93x + 70.92(100 − x) = 6972</span>'],
       solution: math('68.93<i>x</i> + 70.92(100 − <i>x</i>) = 69.72 × 100 = 6972') + math('68.93<i>x</i> + 7092 − 70.92<i>x</i> = 6972') +
         math('7092 − 1.99<i>x</i> = 6972') + math('1.99<i>x</i> = 7092 − 6972 = 120') + math('<i>x</i> = 120 / 1.99 = 60.30… = <b>60.3%</b>') +

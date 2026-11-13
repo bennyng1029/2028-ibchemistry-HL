@@ -398,7 +398,10 @@
 
       /* plateau labels */
       ctx.fillStyle = ink; ctx.font = body; ctx.textAlign = 'left';
-      ctx.fillText(t('melting'), X(HC.cum[2]) + 6, Y(0) + 16);
+      /* keep the melting label clear of the particle picture on a narrow screen */
+      var mLabel = t('melting|curve'), mx = X(HC.cum[2]) + 6, mw = ctx.measureText(mLabel).width;
+      if (mx + mw > bx - 8) mx = Math.max(X(HC.cum[1]) + 6, bx - 8 - mw);
+      ctx.fillText(mLabel, mx, Y(0) + 16);
       ctx.fillText(t('boiling'), X(HC.cum[3]) + 14, Y(100) - 8);
 
       /* cursor */

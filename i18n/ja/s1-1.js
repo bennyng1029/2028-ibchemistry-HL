@@ -1827,3 +1827,13 @@ S1.i18n.register('ja', 's1-1', {
 
   }
 });
+
+/* Added by i18n-extract --only-missing on 2026-11-13: new or changed English. */
+S1.i18n.register('ja', 's1-1', {
+  strings: {
+
+    // widget string (assets/js/widgets-s1-1.js)
+    "melting|curve": "融解",
+
+  }
+});
