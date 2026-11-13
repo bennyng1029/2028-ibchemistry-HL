@@ -412,10 +412,10 @@ S1.i18n.register('zh-Hant', 's2-3', {
     "The mark is for saying what attracts what. Then finish the chain: stronger attraction, more energy, higher melting point.": "說明甚麼吸引甚麼，才能得分。然後完成推論：引力較強，所需能量較多，熔點較高。",
 
     // How strong is a metallic bond? > worked example > p
-    "<b>The electrostatic attraction between the cations and the delocalized electrons is stronger in magnesium, so more energy is needed to overcome it.</b>": "<b>鎂的陽離子和離域電子之間的靜電引力較強，所以需要較多能量來克服。</b>",
+    "<b>The electrostatic attraction between the cations and the delocalized electrons is stronger in magnesium, so more energy is needed to overcome it.</b>": "<b>鎂的陽離子和離域電子之間的靜電引力較強，所以需要較多能量才能克服。</b>",
 
     // How strong is a metallic bond? > worked example > p
-    "Mg<sup>2+</sup> has a greater charge than Na<sup>+</sup>, and magnesium has two delocalized electrons per atom, not one. Mg<sup>2+</sup> also has a smaller ionic radius. So the electrostatic attraction between the cations and the delocalized electrons is stronger in magnesium, and more energy is needed to overcome it.": "Mg<sup>2+</sup> 的電荷比 Na<sup>+</sup> 大，而且鎂每個原子有兩個離域電子，不是一個。Mg<sup>2+</sup> 的離子半徑也較小。所以鎂的陽離子和離域電子之間的靜電引力較強，需要較多能量來克服。",
+    "Mg<sup>2+</sup> has a greater charge than Na<sup>+</sup>, and magnesium has two delocalized electrons per atom, not one. Mg<sup>2+</sup> also has a smaller ionic radius. So the electrostatic attraction between the cations and the delocalized electrons is stronger in magnesium, and more energy is needed to overcome it.": "Mg<sup>2+</sup> 的電荷比 Na<sup>+</sup> 大，而且鎂每個原子有兩個離域電子，不是一個。Mg<sup>2+</sup> 的離子半徑也較小。所以鎂的陽離子和離域電子之間的靜電引力較強，需要較多能量才能克服。",
 
     // How strong is a metallic bond? > worked example > h3
     "Down a group: the group 1 metals": "沿一族向下：第 1 族金屬",
@@ -541,10 +541,10 @@ S1.i18n.register('zh-Hant', 's2-3', {
     "This step is the same for every melting point question in this topic.": "這個課題所有關於熔點的題目，這一步都相同。",
 
     // Transition elements: delocalized d-electrons > worked example > Additional HL > p
-    "<b>The electrostatic attraction between the cations and the delocalized electrons is stronger in titanium, so more energy is needed to overcome it.</b>": "<b>鈦的陽離子和離域電子之間的靜電引力較強，所以需要較多能量來克服。</b>",
+    "<b>The electrostatic attraction between the cations and the delocalized electrons is stronger in titanium, so more energy is needed to overcome it.</b>": "<b>鈦的陽離子和離域電子之間的靜電引力較強，所以需要較多能量才能克服。</b>",
 
     // Transition elements: delocalized d-electrons > worked example > Additional HL > p
-    "In titanium, 3d electrons as well as 4s electrons are delocalized, so there are more delocalized electrons per atom than in calcium. The electrostatic attraction between the cations and the delocalized electrons is stronger, so more energy is needed to overcome it.": "在鈦中，3d 電子和 4s 電子都離域，所以每個原子的離域電子比鈣多。陽離子和離域電子之間的靜電引力較強，所以需要較多能量來克服。",
+    "In titanium, 3d electrons as well as 4s electrons are delocalized, so there are more delocalized electrons per atom than in calcium. The electrostatic attraction between the cations and the delocalized electrons is stronger, so more energy is needed to overcome it.": "在鈦中，3d 電子和 4s 電子都離域，所以每個原子的離域電子比鈣多。陽離子和離域電子之間的靜電引力較強，所以需要較多能量才能克服。",
 
     // Transition elements: delocalized d-electrons > exam tip (shown in English + translation) > Additional HL > p
     "The key phrase is “delocalized d-electrons”, or “d-electrons as well as s-electrons are delocalized”. Then finish in the usual way: stronger electrostatic attraction between the cations and the delocalized electrons.": "關鍵詞句是「離域的 d 電子」，或「除了 s 電子，d 電子也離域」。然後照常收結：陽離子和離域電子之間的靜電引力較強。",
@@ -920,7 +920,7 @@ S1.i18n.register('zh-Hant', 's2-3', {
     "The magnesium ion has a smaller ionic radius than the sodium ion.": "鎂離子的離子半徑比鈉離子小。",
 
     // widget string (assets/js/widgets-s2-3.js)
-    "So the electrostatic attraction between the cations and the delocalized electrons is stronger in magnesium, and more energy is needed to overcome it.": "所以鎂的陽離子和離域電子之間的靜電引力較強，需要較多能量來克服。",
+    "So the electrostatic attraction between the cations and the delocalized electrons is stronger in magnesium, and more energy is needed to overcome it.": "所以鎂的陽離子和離域電子之間的靜電引力較強，需要較多能量才能克服。",
 
     // widget string (assets/js/widgets-s2-3.js)
     "Magnesium atoms have a greater mass, so they need more energy to melt.": "鎂原子的質量較大，所以需要較多能量才熔化。",
@@ -986,7 +986,7 @@ S1.i18n.register('zh-Hant', 's2-3', {
     "So iron has more delocalized electrons per atom than calcium, which has only its two 4s electrons.": "所以鐵每個原子的離域電子比鈣多；鈣只有兩個 4s 電子。",
 
     // widget string (assets/js/widgets-s2-3.js)
-    "The electrostatic attraction between the cations and the delocalized electrons is stronger in iron, so more energy is needed to overcome it.": "鐵的陽離子和離域電子之間的靜電引力較強，所以需要較多能量來克服。",
+    "The electrostatic attraction between the cations and the delocalized electrons is stronger in iron, so more energy is needed to overcome it.": "鐵的陽離子和離域電子之間的靜電引力較強，所以需要較多能量才能克服。",
 
     // widget string (assets/js/widgets-s2-3.js)
     "Iron has variable oxidation states and forms coloured compounds.": "鐵有可變氧化態，並形成有色化合物。",

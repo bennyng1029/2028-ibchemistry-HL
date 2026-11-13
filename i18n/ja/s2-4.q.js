@@ -801,7 +801,7 @@ S1.i18n.register('ja', 's2-4.q', {
         "結合の三角形を考えましょう。物質は 3 つの角にしかありませんか。",
       ],
       // EN: <p>A continuum is a smooth range with no sharp dividing lines. The three models are the extremes. The bonding in most substances lies somewhere between them, and the bonding triangle shows where.</p>
-      solution: "<p>連続体とは、はっきりした境目のない、なめらかにつながった範囲のことです。3 つのモデルは、その両極端です。ほとんどの物質の結合は、その間のどこかにあります。どこにあるかは、結合の三角形でわかります。</p>",
+      solution: "<p>連続体とは、はっきりした境目のない、なめらかにつながった範囲のことです。3 つのモデルは、その極端な形です。ほとんどの物質の結合は、その間のどこかにあります。どこにあるかは、結合の三角形でわかります。</p>",
       misconception: {
         // EN (option A): This describes three separate boxes. A continuum has no sharp dividing lines: a polar covalent bond, for example, is covalent with some ionic character.
         "0": "これは、3 つの別々の箱という考え方です。連続体には、はっきりした境目がありません。たとえば極性共有結合は、イオン結合の性格を少しもった共有結合です。",

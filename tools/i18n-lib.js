@@ -331,7 +331,9 @@ function lintPair(en, tr, opts) {
     const term = norm(d.replace(/<[^>]+>/g, '')).toLowerCase(), got = b.dfns[i];
     if (got == null) return;                             // tag parity already reported
     const en2 = readHtml(got).enTerms.map(x => x.toLowerCase().replace(/[()（）]/g, '').trim());
-    if (!en2.some(x => x === term || x.indexOf(term) > -1)) out.push('<dfn> must keep the English term: <dfn>… <span class="en-term">(' + norm(d.replace(/<[^>]+>/g, '')) + ')</span></dfn>');
+    const bare = term.replace(/[()（）]/g, '').replace(/\s+/g, ' ').trim();   // "sigma bond (σ)" also matches "(sigma bond)"
+    const core = term.replace(/\s*[(（][^()（）]*[)）]\s*/g, ' ').replace(/\s+/g, ' ').trim();
+    if (!en2.some(x => x === term || x.indexOf(term) > -1 || x === bare || (core && x === core))) out.push('<dfn> must keep the English term: <dfn>… <span class="en-term">(' + norm(d.replace(/<[^>]+>/g, '')) + ')</span></dfn>');
   });
   // numbers
   const btext = b.text.replace(new RegExp(b.enTerms.map(x => x.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') || '$^', 'g'), ' ');

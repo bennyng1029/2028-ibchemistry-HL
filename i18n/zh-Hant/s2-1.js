@@ -1655,7 +1655,7 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "Right compound, check the reason": "化合物選對了，再看看原因",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "Not this time": "這次未對",
+    "Not this time": "這次不對",
 
     // widget string (assets/js/widgets-s2-1.js)
     "lattice enthalpy: ?": "晶格焓：?",

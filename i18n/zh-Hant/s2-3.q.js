@@ -273,14 +273,14 @@ S1.i18n.register('zh-Hant', 's2-3.q', {
       // EN: <p>Charge: calcium is in group 2 and forms <span class="chem">Ca^2+</span>. Potassium is in group 1 and forms <span class="chem">K+</span>. So calcium has the greater ion charge and two delocalized electrons per atom, not one.</p><p>Radius: <span class="chem">Ca^2+</span> (100 pm) is smaller than <span class="chem">K+</span> (138 pm).</p><p>Both differences make the electrostatic attraction between the cations and the delocalized electrons stronger in calcium. More energy is needed to overcome it, so the melting point is higher.</p>
       solution: "<p>電荷：鈣在第 2 族，形成 <span class=\"chem\">Ca^2+</span>。鉀在第 1 族，形成 <span class=\"chem\">K+</span>。所以鈣的離子電荷較大，每個原子有兩個離域電子，不是一個。</p><p>半徑：<span class=\"chem\">Ca^2+</span> (100 pm) 比 <span class=\"chem\">K+</span> (138 pm) 小。</p><p>兩項分別都令鈣的陽離子和離域電子之間的靜電引力較強。克服它需要較多能量，所以熔點較高。</p>",
       // EN: <p><span class="chem">Ca^2+</span> has a greater charge than <span class="chem">K+</span>, and calcium has two delocalized electrons per atom while potassium has one. <span class="chem">Ca^2+</span> also has a smaller ionic radius. So the electrostatic attraction between the cations and the delocalized electrons is stronger in calcium, and more energy is needed to overcome it.</p>
-      answer: "<p><span class=\"chem\">Ca^2+</span> 的電荷比 <span class=\"chem\">K+</span> 大，而且鈣每個原子有兩個離域電子，鉀只有一個。<span class=\"chem\">Ca^2+</span> 的離子半徑也較小。所以鈣的陽離子和離域電子之間的靜電引力較強，需要較多能量來克服。</p>",
+      answer: "<p><span class=\"chem\">Ca^2+</span> 的電荷比 <span class=\"chem\">K+</span> 大，而且鈣每個原子有兩個離域電子，鉀只有一個。<span class=\"chem\">Ca^2+</span> 的離子半徑也較小。所以鈣的陽離子和離域電子之間的靜電引力較強，需要較多能量才能克服。</p>",
       markscheme: [
         // EN: Ca<sup>2+</sup> has a greater charge than K<sup>+</sup> / calcium has two delocalized electrons per atom and potassium has one
         "Ca<sup>2+</sup> 的電荷比 K<sup>+</sup> 大 / 鈣每個原子有兩個離域電子，鉀有一個",
         // EN: Ca<sup>2+</sup> has a smaller (ionic) radius than K<sup>+</sup>
         "Ca<sup>2+</sup> 的（離子）半徑比 K<sup>+</sup> 小",
         // EN: stronger electrostatic attraction between the cations and the delocalized electrons in calcium / stronger metallic bonding in calcium, so more energy is needed to overcome it
-        "鈣的陽離子和離域電子之間的靜電引力較強 / 鈣的金屬鍵較強，所以需要較多能量來克服",
+        "鈣的陽離子和離域電子之間的靜電引力較強 / 鈣的金屬鍵較強，所以需要較多能量才能克服",
       ],
     },
 
@@ -421,7 +421,7 @@ S1.i18n.register('zh-Hant', 's2-3.q', {
         "有三句是正確的。",
       ],
       // EN: <p>Aluminium forms <span class="chem">Al^3+</span> and gives three delocalized electrons per atom. Sodium forms <span class="chem">Na+</span> and gives one. <span class="chem">Al^3+</span> (54 pm) is also smaller than <span class="chem">Na+</span> (102 pm). So the electrostatic attraction between the cations and the delocalized electrons is stronger in aluminium, and more energy is needed to overcome it (660.3 °C compared with 97.79 °C).</p>
-      solution: "<p>鋁形成 <span class=\"chem\">Al^3+</span>，每個原子給出三個離域電子。鈉形成 <span class=\"chem\">Na+</span>，每個原子給出一個。<span class=\"chem\">Al^3+</span> (54 pm) 也比 <span class=\"chem\">Na+</span> (102 pm) 小。所以鋁的陽離子和離域電子之間的靜電引力較強，需要較多能量來克服（660.3 °C，鈉則是 97.79 °C）。</p>",
+      solution: "<p>鋁形成 <span class=\"chem\">Al^3+</span>，每個原子給出三個離域電子。鈉形成 <span class=\"chem\">Na+</span>，每個原子給出一個。<span class=\"chem\">Al^3+</span> (54 pm) 也比 <span class=\"chem\">Na+</span> (102 pm) 小。所以鋁的陽離子和離域電子之間的靜電引力較強，需要較多能量才能克服（660.3 °C，鈉則是 97.79 °C）。</p>",
       misconception: {
         // EN (option C): The aluminium ion is smaller, not larger: <span class="chem">Al^3+</span> is 54 pm and <span class="chem">Na+</span> is 102 pm. A smaller ion gives a stronger attraction.
         "2": "鋁離子較小，不是較大：<span class=\"chem\">Al^3+</span> 是 54 pm，<span class=\"chem\">Na+</span> 是 102 pm。離子較小，引力較強。",
@@ -615,14 +615,14 @@ S1.i18n.register('zh-Hant', 's2-3.q', {
       // EN: <p><strong>Radius:</strong> 72 pm and 76 pm are almost the same. The smaller radius of <span class="chem">Mg^2+</span> helps a little, but it is not the main reason.</p><p><strong>Charge:</strong> lithium is in group 1 and forms <span class="chem">Li+</span>, with one delocalized electron per atom. Magnesium is in group 2 and forms <span class="chem">Mg^2+</span>, with two.</p><p><strong>Link:</strong> the greater charge and the extra delocalized electron make the electrostatic attraction between the cations and the delocalized electrons stronger in magnesium. More energy is needed to overcome it, so the melting point is higher.</p>
       solution: "<p><strong>半徑：</strong>72 pm 和 76 pm 幾乎相同。<span class=\"chem\">Mg^2+</span> 的半徑較小，有少許幫助，但不是主要原因。</p><p><strong>電荷：</strong>鋰在第 1 族，形成 <span class=\"chem\">Li+</span>，每個原子有一個離域電子。鎂在第 2 族，形成 <span class=\"chem\">Mg^2+</span>，每個原子有兩個。</p><p><strong>連繫：</strong>電荷較大，加上多一個離域電子，令鎂的陽離子和離域電子之間的靜電引力較強。克服它需要較多能量，所以熔點較高。</p>",
       // EN: <p>The two ionic radii are almost the same (72 pm and 76 pm), so the radius cannot be the main reason. The main difference is the charge: <span class="chem">Mg^2+</span> has a greater charge than <span class="chem">Li+</span>, and magnesium has two delocalized electrons per atom while lithium has one. So the electrostatic attraction between the cations and the delocalized electrons is stronger in magnesium, and more energy is needed to overcome it.</p>
-      answer: "<p>兩個離子半徑幾乎相同（72 pm 和 76 pm），所以半徑不可能是主要原因。主要的分別是電荷：<span class=\"chem\">Mg^2+</span> 的電荷比 <span class=\"chem\">Li+</span> 大，而且鎂每個原子有兩個離域電子，鋰只有一個。所以鎂的陽離子和離域電子之間的靜電引力較強，需要較多能量來克服。</p>",
+      answer: "<p>兩個離子半徑幾乎相同（72 pm 和 76 pm），所以半徑不可能是主要原因。主要的分別是電荷：<span class=\"chem\">Mg^2+</span> 的電荷比 <span class=\"chem\">Li+</span> 大，而且鎂每個原子有兩個離域電子，鋰只有一個。所以鎂的陽離子和離域電子之間的靜電引力較強，需要較多能量才能克服。</p>",
       markscheme: [
         // EN: the ionic radii are almost the same / differ by only 4 pm, so radius is not the main reason
         "離子半徑幾乎相同 / 只相差 4 pm，所以半徑不是主要原因",
         // EN: Mg<sup>2+</sup> has a greater charge than Li<sup>+</sup> / magnesium has two delocalized electrons per atom and lithium has one
         "Mg<sup>2+</sup> 的電荷比 Li<sup>+</sup> 大 / 鎂每個原子有兩個離域電子，鋰有一個",
         // EN: stronger electrostatic attraction between the cations and the delocalized electrons in magnesium / stronger metallic bonding in magnesium, so more energy is needed to overcome it
-        "鎂的陽離子和離域電子之間的靜電引力較強 / 鎂的金屬鍵較強，所以需要較多能量來克服",
+        "鎂的陽離子和離域電子之間的靜電引力較強 / 鎂的金屬鍵較強，所以需要較多能量才能克服",
       ],
     },
 
@@ -669,12 +669,12 @@ S1.i18n.register('zh-Hant', 's2-3.q', {
       // EN: <p>Calcium has only its two 4s electrons to delocalize. In chromium, 3d electrons are delocalized as well as 4s electrons. More delocalized electrons per atom gives a stronger electrostatic attraction between the cations and the delocalized electrons. More energy is needed to overcome it, so the melting point is higher.</p>
       solution: "<p>鈣只有兩個 4s 電子可以離域。在鉻中，除了 4s 電子，3d 電子也離域。每個原子的離域電子較多，陽離子和離域電子之間的靜電引力就較強。克服它需要較多能量，所以熔點較高。</p>",
       // EN: <p>In chromium, 3d electrons are delocalized as well as 4s electrons, so chromium has more delocalized electrons per atom than calcium. The electrostatic attraction between the cations and the delocalized electrons is stronger in chromium, so more energy is needed to overcome it.</p>
-      answer: "<p>在鉻中，除了 4s 電子，3d 電子也離域，所以鉻每個原子的離域電子比鈣多。鉻的陽離子和離域電子之間的靜電引力較強，所以需要較多能量來克服。</p>",
+      answer: "<p>在鉻中，除了 4s 電子，3d 電子也離域，所以鉻每個原子的離域電子比鈣多。鉻的陽離子和離域電子之間的靜電引力較強，所以需要較多能量才能克服。</p>",
       markscheme: [
         // EN: chromium has delocalized d-electrons / 3d electrons as well as 4s electrons are delocalized / chromium has more delocalized electrons (per atom)
         "鉻有離域的 d 電子 / 3d 電子和 4s 電子都離域 / 鉻（每個原子）的離域電子較多",
         // EN: stronger electrostatic attraction between the cations and the delocalized electrons / stronger metallic bonding in chromium (so more energy is needed to overcome it)
-        "陽離子和離域電子之間的靜電引力較強 / 鉻的金屬鍵較強（所以需要較多能量來克服）",
+        "陽離子和離域電子之間的靜電引力較強 / 鉻的金屬鍵較強（所以需要較多能量才能克服）",
       ],
     },
 
@@ -721,14 +721,14 @@ S1.i18n.register('zh-Hant', 's2-3.q', {
       // EN: <p><strong>K to Ca:</strong> potassium forms <span class="chem">K+</span> with one delocalized electron per atom. Calcium forms <span class="chem">Ca^2+</span> with two. <span class="chem">Ca^2+</span> is also the smaller ion.</p><p><strong>Ca to V:</strong> vanadium is a transition element. Its 3d electrons are delocalized as well as its 4s electrons, so it has more delocalized electrons per atom than calcium.</p><p><strong>Link:</strong> at each step the electrostatic attraction between the cations and the delocalized electrons becomes stronger, so more energy is needed to overcome it and the melting point rises.</p>
       solution: "<p><strong>K 到 Ca：</strong>鉀形成 <span class=\"chem\">K+</span>，每個原子有一個離域電子。鈣形成 <span class=\"chem\">Ca^2+</span>，每個原子有兩個。<span class=\"chem\">Ca^2+</span> 也是較小的離子。</p><p><strong>Ca 到 V：</strong>釩是過渡元素。除了 4s 電子，它的 3d 電子也離域，所以每個原子的離域電子比鈣多。</p><p><strong>連繫：</strong>每一步，陽離子和離域電子之間的靜電引力都變強，所以克服它需要較多能量，熔點升高。</p>",
       // EN: <p>From K to Ca the ion charge rises from 1+ to 2+, so calcium has two delocalized electrons per atom and potassium has one (and <span class="chem">Ca^2+</span> is the smaller ion). Vanadium is a transition element: 3d electrons are delocalized as well as 4s electrons, so it has more delocalized electrons per atom again. Each time, the electrostatic attraction between the cations and the delocalized electrons is stronger, so more energy is needed to overcome it.</p>
-      answer: "<p>由 K 到 Ca，離子電荷由 1+ 增至 2+，所以鈣每個原子有兩個離域電子，鉀只有一個（而且 <span class=\"chem\">Ca^2+</span> 是較小的離子）。釩是過渡元素：3d 電子和 4s 電子都離域，所以每個原子的離域電子更多。每一次，陽離子和離域電子之間的靜電引力都較強，所以需要較多能量來克服。</p>",
+      answer: "<p>由 K 到 Ca，離子電荷由 1+ 增至 2+，所以鈣每個原子有兩個離域電子，鉀只有一個（而且 <span class=\"chem\">Ca^2+</span> 是較小的離子）。釩是過渡元素：3d 電子和 4s 電子都離域，所以每個原子的離域電子更多。每一次，陽離子和離域電子之間的靜電引力都較強，所以需要較多能量才能克服。</p>",
       markscheme: [
         // EN: K to Ca: greater ion charge (2+ compared with 1+) / two delocalized electrons per atom compared with one / Ca<sup>2+</sup> has the smaller ionic radius
         "K 到 Ca：離子電荷較大（2+ 相對於 1+）/ 每個原子有兩個離域電子，相對於一個 / Ca<sup>2+</sup> 的離子半徑較小",
         // EN: vanadium has delocalized d-electrons / 3d as well as 4s electrons are delocalized, so more delocalized electrons per atom
         "釩有離域的 d 電子 / 3d 電子和 4s 電子都離域，所以每個原子的離域電子較多",
         // EN: stronger electrostatic attraction between the cations and the delocalized electrons (from K to Ca to V), so more energy is needed to overcome it
-        "陽離子和離域電子之間的靜電引力（由 K 到 Ca 到 V）變強，所以需要較多能量來克服",
+        "陽離子和離域電子之間的靜電引力（由 K 到 Ca 到 V）變強，所以需要較多能量才能克服",
       ],
     },
 

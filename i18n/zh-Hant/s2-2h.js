@@ -2011,10 +2011,10 @@ S1.i18n.register('zh-Hant', 's2-2h', {
     "Next molecule": "下一個分子",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Show the count": "顯示數法",
+    "Show the count": "顯示怎樣數",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Molecules counted correctly": "數對的分子數目",
+    "Molecules counted correctly": "答對的分子數目",
 
     // widget string (assets/js/widgets-s2-2h.js)
     "{s} single, {d} double and {tr} triple bonds. Every bond has one σ bond: σ = {s} + {d} + {tr} = {sig}. Each double bond adds one π bond and each triple bond adds two: π = {d} + 2 × {tr} = {pi}.": "{s} 個單鍵、{d} 個雙鍵和 {tr} 個三鍵。每個鍵都有一個 σ 鍵：σ = {s} + {d} + {tr} = {sig}。每個雙鍵多一個 π 鍵，每個三鍵多兩個：π = {d} + 2 × {tr} = {pi}。",

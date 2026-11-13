@@ -60,7 +60,7 @@ S1.i18n.register('ja', 's2-4', {
     "Think of a colour chart for paint. Red, yellow and blue sit at the corners. Most paints are a mixture, somewhere between the corners. Bonding works in a similar way.": "絵の具の色見本を思い浮かべてください。赤・黄・青が 3 つの角にあります。ほとんどの色は混ぜてつくった色で、角と角の間のどこかにあります。結合も、これと似ています。",
 
     // Bonding is a continuum > p
-    "In Structure 2.1, 2.2 and 2.3 you met three bonding models. Each model describes one extreme kind of bonding.": "Structure 2.1、2.2、2.3 で、3 つの結合モデルを学びました。どのモデルも、結合の両極端の 1 つを表しています。",
+    "In Structure 2.1, 2.2 and 2.3 you met three bonding models. Each model describes one extreme kind of bonding.": "Structure 2.1、2.2、2.3 で、3 つの結合モデルを学びました。どのモデルも、結合の極端な形の 1 つを表しています。",
 
     // Bonding is a continuum > table > caption
     "The three bonding models": "3 つの結合モデル",
@@ -83,7 +83,7 @@ S1.i18n.register('ja', 's2-4', {
     "Electrostatic attraction between oppositely charged ions in a lattice.": "結晶格子の中で、反対の電荷をもつイオンどうしにはたらく静電気的な引力 (electrostatic attraction)。",
 
     // Bonding is a continuum > table > td
-    "High melting point. Brittle. Conducts electricity only when molten or dissolved, because then the ions can move.": "融点が高い。もろい。電気を通すのは、融解したときか水に溶けたときだけ。そのときはイオンが動けるからです。",
+    "High melting point. Brittle. Conducts electricity only when molten or dissolved, because then the ions can move.": "融点が高い。もろい。電気を通すのは、融解したときか水に溶けたときだけ。そのときはイオンが動けるから。",
 
     // Bonding is a continuum > table > th
     // widget string (assets/js/widgets-s2-4.js)
@@ -93,7 +93,7 @@ S1.i18n.register('ja', 's2-4', {
     "Electrostatic attraction between a shared pair of electrons and the two positively charged nuclei.": "共有電子対と、正の電荷をもつ 2 つの原子核との間にはたらく静電気的な引力。",
 
     // Bonding is a continuum > table > td
-    "Does not conduct, because there are no mobile charged particles. Molecular substances have low melting points. Covalent networks have very high melting points.": "電気を通さない。動ける荷電粒子がないからです。分子でできた物質は融点が低い。共有結合の結晶は融点がとても高い。",
+    "Does not conduct, because there are no mobile charged particles. Molecular substances have low melting points. Covalent networks have very high melting points.": "電気を通さない。動ける荷電粒子がないから。分子でできた物質は融点が低い。共有結合の結晶は融点がとても高い。",
 
     // Bonding is a continuum > table > th
     // Placing a compound in the bonding triangle > table > th
@@ -141,13 +141,13 @@ S1.i18n.register('ja', 's2-4', {
     "Choose a region to see what it means. The outline follows the triangle printed in section 17 of the data booklet. The dashed lines belong to the percentage scale on the right. In the booklet the left corner is labelled 0.79. The printed outline is drawn a little too small at the top and on the right. So the point for CsF sits just above its tip.": "領域を選ぶと、その意味が出ます。輪郭は、データブックレットのセクション 17 にある三角形と同じです。破線は、右側の百分率の目盛りのものです。データブックレットでは、左の角に 0.79 と書いてあります。印刷された輪郭は、上と右が少し小さめに描かれています。そのため、CsF の点は頂点のすぐ上にきます。",
 
     // Bonding is a continuum > li
-    "<strong>Bottom left, metallic.</strong> Both elements have low electronegativity. Neither holds its outer electrons strongly, so the electrons are delocalized.": "<strong>左下：金属結合。</strong>どちらの元素も電気陰性度が低い。どちらも外側の電子を強く引きつけないので、電子は非局在化しています。",
+    "<strong>Bottom left, metallic.</strong> Both elements have low electronegativity. Neither holds its outer electrons strongly, so the electrons are delocalized.": "<strong>左下：金属結合。</strong>どちらの元素も電気陰性度が低く、外側の電子を強く引きつけません。そのため、電子は非局在化しています。",
 
     // Bonding is a continuum > li
-    "<strong>Bottom right, covalent.</strong> Both elements have high electronegativity. Both attract electrons strongly, so the electrons are shared.": "<strong>右下：共有結合。</strong>どちらの元素も電気陰性度が高い。どちらも電子を強く引きつけるので、電子は共有されます。",
+    "<strong>Bottom right, covalent.</strong> Both elements have high electronegativity. Both attract electrons strongly, so the electrons are shared.": "<strong>右下：共有結合。</strong>どちらの元素も電気陰性度が高く、電子を強く引きつけます。そのため、電子は共有されます。",
 
     // Bonding is a continuum > li
-    "<strong>Top, ionic.</strong> One element has low electronegativity and one has high electronegativity. Electrons are transferred, so ions form.": "<strong>上：イオン結合。</strong>一方の元素は電気陰性度が低く、もう一方は高い。電子が移るので、イオンができます。",
+    "<strong>Top, ionic.</strong> One element has low electronegativity and one has high electronegativity. Electrons are transferred, so ions form.": "<strong>上：イオン結合。</strong>一方の元素は電気陰性度が低く、もう一方は高くなっています。電子が移るので、イオンができます。",
 
     // Bonding is a continuum > p
     "Between the covalent corner and the ionic top, the sharing becomes more and more unequal. This part is labelled <dfn>polar covalent</dfn>. The booklet prints no line between “covalent” and “polar covalent”, because the change is gradual.": "共有結合の角からイオン結合の頂点に向かうにつれて、電子の共有はだんだんかたよっていきます。この部分には<dfn>極性共有結合 <span class=\"en-term\">(polar covalent)</span></dfn>と書いてあります。データブックレットの図では、「covalent」と「polar covalent」の間に線がありません。変化がゆるやかだからです。",
@@ -1327,13 +1327,13 @@ S1.i18n.register('ja', 's2-4', {
     "Each corner is one pure bonding model. Most substances sit somewhere between the corners.": "それぞれの角は、純粋な結合モデルの 1 つです。ほとんどの物質は、角と角の間のどこかにあります。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Bottom left: both elements have low electronegativity, and the difference is small. Neither atom holds its outer electrons strongly, so the electrons are delocalized. Sodium is an example.": "左下：どちらの元素も電気陰性度が低く、差は小さい。どちらの原子も外側の電子を強く引きつけないので、電子は非局在化しています。ナトリウムがその例です。",
+    "Bottom left: both elements have low electronegativity, and the difference is small. Neither atom holds its outer electrons strongly, so the electrons are delocalized. Sodium is an example.": "左下：どちらの元素も電気陰性度が低く、差は小さくなります。どちらの原子も外側の電子を強く引きつけないので、電子は非局在化しています。ナトリウムがその例です。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Top: one element has low electronegativity and the other has high electronegativity, so the difference is large. Electrons are transferred and ions form. Caesium fluoride is a very ionic example.": "上：一方の元素は電気陰性度が低く、もう一方は高いので、差が大きい。電子が移り、イオンができます。フッ化セシウムは、イオン結合性がとても大きい例です。",
+    "Top: one element has low electronegativity and the other has high electronegativity, so the difference is large. Electrons are transferred and ions form. Caesium fluoride is a very ionic example.": "上：一方の元素は電気陰性度が低く、もう一方は高いので、差が大きくなります。電子が移り、イオンができます。フッ化セシウムは、イオン結合性がとても大きい例です。",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Bottom right: both elements have high electronegativity, and the difference is small. Both atoms attract the electrons strongly, so the electrons are shared. Chlorine is an example. Higher up this region the sharing is unequal: polar covalent.": "右下：どちらの元素も電気陰性度が高く、差は小さい。どちらの原子も電子を強く引きつけるので、電子は共有されます。塩素がその例です。この領域の上のほうでは、共有がかたよります。これが極性共有結合です。",
+    "Bottom right: both elements have high electronegativity, and the difference is small. Both atoms attract the electrons strongly, so the electrons are shared. Chlorine is an example. Higher up this region the sharing is unequal: polar covalent.": "右下：どちらの元素も電気陰性度が高く、差は小さくなります。どちらの原子も電子を強く引きつけるので、電子は共有されます。塩素がその例です。この領域の上のほうでは、共有がかたよります。これが極性共有結合です。",
 
     // widget string (assets/js/widgets-s2-4.js)
     "Explain a region": "領域を説明する",
