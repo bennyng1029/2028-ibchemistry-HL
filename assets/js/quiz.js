@@ -220,7 +220,7 @@
       do { order = util.shuffle(target); guard++; } while (n > 1 && guard < 20 && order.join() === target.join());
       var ol = el('ol', { class: 'q__order', 'aria-describedby': uid + '-stem' });
       var liveMsg = el('p', { class: 'sr-only', role: 'status', 'aria-live': 'polite' });
-      form.appendChild(el('p', { class: 'q__legend', t: 'Use the arrows to move each step up or down.' }));
+      form.appendChild(el('p', { class: 'q__legend', t: 'Use the arrows to move each item up or down.' }));
       form.appendChild(ol); form.appendChild(liveMsg);
       var paintOrder = function (focus) {
         ol.innerHTML = '';
@@ -250,10 +250,10 @@
       check = function () {
         var good = 0; order.forEach(function (o, i) { if (o === target[i]) good++; });
         flagged = true;
-        if (good === n) { first('right'); say('right', function () { return { label: t('Correct'), body: q.correctNote ? Q(q, 'correctNote') : t('Every step is in the right place.') }; }); state.locked = true; paintOrder(); lock(); return; }
+        if (good === n) { first('right'); say('right', function () { return { label: t('Correct'), body: q.correctNote ? Q(q, 'correctNote') : t('Every item is in the right position.') }; }); state.locked = true; paintOrder(); lock(); return; }
         first('wrong');
         paintOrder();
-        say('wrong', function () { return { label: t('Not quite'), body: '<p>' + t('{good} of {total} steps are in the right place. Move the others and check again.', { good: good, total: n }) + '</p>' }; });
+        say('wrong', function () { return { label: t('Not quite'), body: '<p>' + t('{good} of {total} items are in the right position. Move the others and check again.', { good: good, total: n }) + '</p>' }; });
         solBtn.hidden = false;
       };
       paintOrder();
