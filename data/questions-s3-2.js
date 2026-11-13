@@ -475,7 +475,7 @@
     answer: '<p>Alkoxy and amino.</p><p>The oxygen atom has single bonds to two carbon atoms (C' + '–' + 'O' + '–' + 'C). This is an alkoxy group. The class of compound with this group is the ethers.</p><p>The ' + cf('NH2') + ' on a carbon atom is an amino group. The class of compound is the amines.</p>',
     markscheme: [
       'Alkoxy. (Do not award the mark for “ether”: that is the class name.)',
-      'Amino. (“Amine” has been accepted for this group in a markscheme, but amino is the safe answer.)'
+      'Amino. (Accept “amine”, but amino is the safe answer.)'
     ],
     hints: ['Group names are asked for, not class names.', 'One group is an oxygen atom between two carbon atoms. The other is ' + cf('NH2') + '.']
   },
