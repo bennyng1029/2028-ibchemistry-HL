@@ -2418,7 +2418,7 @@ S1.i18n.register('ja', 's3-1', {
     "Metal": "金属",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Why the reaction gets more vigorous down the group": "族を下へ進むほど反応が激しくなる理由",
+    "Why the reaction gets more vigorous down the group": "族を上から下へ進むほど反応が激しくなる理由",
 
     // widget string (assets/js/widgets-s3-1.js)
     "It floats on the water.": "水に浮く。",
@@ -2469,7 +2469,7 @@ S1.i18n.register('ja', 's3-1', {
     "What you observe: {name} + water": "観察されること：{name} + 水",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The solution left behind is alkaline. It contains hydroxide ions.": "あとに残る溶液はアルカリ性です。水酸化物イオンを含んでいます。",
+    "The solution left behind is alkaline. It contains hydroxide ions.": "あとに残る溶液はアルカリ性。水酸化物イオンを含む。",
 
     // widget string (assets/js/widgets-s3-1.js)
     "Equation": "化学反応式",
@@ -2478,7 +2478,7 @@ S1.i18n.register('ja', 's3-1', {
     "{symbol} ({name})": "{symbol}（{name}）",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Each atom loses its one outer electron to form a 1+ ion. Going down the group, the outer electron is in a higher main energy level. It is further from the nucleus and shielded by more inner electrons, so it is attracted less strongly and is lost more easily. Metallic character increases down group 1.": "どの原子も、最も外側の電子 1 個を失って 1+ のイオンになります。族を下へ進むと、最も外側の電子はより高い主エネルギー準位にあります。原子核からより遠く、より多くの内側の電子に遮蔽されるので、引きつけられる力が弱くなり、失われやすくなります。金属性は、1 族を上から下へ進むと大きくなります。",
+    "Each atom loses its one outer electron to form a 1+ ion. Going down the group, the outer electron is in a higher main energy level. It is further from the nucleus and shielded by more inner electrons, so it is attracted less strongly and is lost more easily. Metallic character increases down group 1.": "どの原子も、最も外側の電子 1 個を失って 1+ のイオンになります。族を上から下へ進むと、最も外側の電子はより高い主エネルギー準位にあります。原子核からより遠く、より多くの内側の電子に遮蔽されるので、引きつけられる力が弱くなり、失われやすくなります。金属性は、1 族を上から下へ進むと大きくなります。",
 
     // widget string (assets/js/widgets-s3-1.js)
     "chlorine": "塩素",
@@ -2796,7 +2796,7 @@ S1.i18n.register('ja', 's3-1', {
     "{i} of {n}": "{n} 個中 {i} 個目",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Find the oxidation state of {el} in this species.": "この化学種の中の{el}の酸化数を求めましょう。",
+    "Find the oxidation state of {el} in this species.": "この化学種の中の {el} の酸化数を求めましょう。",
 
     // widget string (assets/js/widgets-s3-1.js)
     "Step 1. What must all the oxidation states add up to?": "ステップ 1：酸化数をすべて足すと、いくつになるはずですか。",
@@ -2811,7 +2811,7 @@ S1.i18n.register('ja', 's3-1', {
     "Not that. The total equals the overall charge on the species. A neutral compound or element has a total of 0.": "違います。合計は、化学種全体の電荷に等しくなります。電荷のない化合物や単体では、合計は 0 です。",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Step {n}. What is the oxidation state of each {el} atom here?": "ステップ {n}：ここでは、{el}原子 1 個の酸化数はいくつですか。",
+    "Step {n}. What is the oxidation state of each {el} atom here?": "ステップ {n}：ここでは、{el} 原子 1 個の酸化数はいくつですか。",
 
     // widget string (assets/js/widgets-s3-1.js)
     "Right: {os}.": "正解：{os}。",
@@ -3000,7 +3000,7 @@ S1.i18n.register('ja', 's3-1', {
     "absorbed": "吸収",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "observed": "見える色",
+    "observed": "見える",
 
     // widget string (assets/js/widgets-s3-1.js)
     "light in": "入る光",
@@ -3036,7 +3036,7 @@ S1.i18n.register('ja', 's3-1', {
     "by absorbing {colour} light": "（{colour}の光を吸収して）",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Colour wheel from the data booklet with six sectors: orange at the top, then yellow, green, blue, violet and red going clockwise. The {a} sector is marked absorbed and the opposite sector, {o}, is marked observed.": "データブックレットの色相環。6 つの区画があり、いちばん上がオレンジで、時計回りに黄、緑、青、紫、赤と並ぶ。{a}の区画に「吸収」、反対側の{o}の区画に「見える色」の印がついている。",
+    "Colour wheel from the data booklet with six sectors: orange at the top, then yellow, green, blue, violet and red going clockwise. The {a} sector is marked absorbed and the opposite sector, {o}, is marked observed.": "データブックレットの色相環。6 つの区画があり、いちばん上がオレンジで、時計回りに黄、緑、青、紫、赤と並ぶ。{a}の区画に「吸収」、反対側の{o}の区画に「見える」の印がついている。",
 
     // widget string (assets/js/widgets-s3-1.js)
     "White light enters a solution. The {a} part is absorbed, so the light that comes out looks {o}. Below, an electron moves from the lower-energy d orbitals to the higher-energy d orbitals.": "白色光が溶液に入る。{a}の部分が吸収されるので、出てくる光は{o}に見える。その下では、電子がエネルギーの低い d 軌道からエネルギーの高い d 軌道へ移る。",

@@ -2250,7 +2250,7 @@ S1.i18n.register('zh-Hant', 's3-2', {
     "Limits": "範圍",
 
     // widget string (assets/js/widgets-s3-2.js)
-    "Parent chain of 1 to 6 carbon atoms; no more than one C=C or C≡C; one type of group (halogeno, hydroxyl, carbonyl or carboxyl); methyl and ethyl branches.": "母鏈有 1 至 6 個碳原子；最多一個 C=C 或 C≡C；一種基團（halogeno、hydroxyl、carbonyl 或 carboxyl）；methyl 和 ethyl 支鏈。",
+    "Parent chain of 1 to 6 carbon atoms; no more than one C=C or C≡C; one type of group (halogeno, hydroxyl, carbonyl or carboxyl); methyl and ethyl branches.": "母鏈有 1 至 6 個碳原子；最多一個 C=C 或 C≡C；一種基團（鹵基、羥基、羰基或羧基）；甲基 (methyl) 和乙基 (ethyl) 支鏈。",
 
     // widget string (assets/js/widgets-s3-2.js)
     "Mode": "模式",
@@ -2292,7 +2292,7 @@ S1.i18n.register('zh-Hant', 's3-2', {
     "Step 1 of 4.": "第 1 步（共 4 步）。",
 
     // widget string (assets/js/widgets-s3-2.js)
-    "Find the longest chain of carbon atoms that contains {what}. How many carbon atoms are in it?": "找出包含{what}的最長碳鏈。它有多少個碳原子？",
+    "Find the longest chain of carbon atoms that contains {what}. How many carbon atoms are in it?": "找出包含 {what} 的最長碳鏈。它有多少個碳原子？",
 
     // widget string (assets/js/widgets-s3-2.js)
     "Find the longest chain of carbon atoms. How many carbon atoms are in it?": "找出最長的碳鏈。它有多少個碳原子？",
@@ -2592,7 +2592,7 @@ S1.i18n.register('zh-Hant', 's3-2', {
     "Correct: {names}. Same carbon chain and same functional group, at a different position on the chain.": "正確：{names}。碳鏈和官能基都相同，但官能基在碳鏈上的位置不同。",
 
     // widget string (assets/js/widgets-s3-2.js)
-    "Correct: {names}. Same molecular formula, but different functional groups: {c1} and {c2}.": "正確：{names}。分子式相同，但官能基不同：{c1}和{c2}。",
+    "Correct: {names}. Same molecular formula, but different functional groups: {c1} and {c2}.": "正確：{names}。分子式相同，但官能基不同：{c1} 和 {c2}。",
 
     // widget string (assets/js/widgets-s3-2.js)
     "Follow the chain in each drawing and list what is attached to each carbon. Do you get the same list?": "在每幅圖中沿着碳鏈走，列出每個碳上連着甚麼。兩張清單一樣嗎？",
@@ -2616,13 +2616,13 @@ S1.i18n.register('zh-Hant', 's3-2', {
     "Step 1 of 3.": "第 1 步（共 3 步）。",
 
     // widget string (assets/js/widgets-s3-2.js)
-    "This is an amine. Press the atom whose neighbours you must count.": "這是胺。按下你要數其相鄰原子的那個原子。",
+    "This is an amine. Press the atom whose neighbours you must count.": "這是胺。你要數哪一個原子的相鄰原子？按下那個原子。",
 
     // widget string (assets/js/widgets-s3-2.js)
-    "This is an alcohol. Press the atom whose neighbours you must count.": "這是醇。按下你要數其相鄰原子的那個原子。",
+    "This is an alcohol. Press the atom whose neighbours you must count.": "這是醇。你要數哪一個原子的相鄰原子？按下那個原子。",
 
     // widget string (assets/js/widgets-s3-2.js)
-    "This is a halogenoalkane. Press the atom whose neighbours you must count.": "這是鹵烷。按下你要數其相鄰原子的那個原子。",
+    "This is a halogenoalkane. Press the atom whose neighbours you must count.": "這是鹵烷。你要數哪一個原子的相鄰原子？按下那個原子。",
 
     // widget string (assets/js/widgets-s3-2.js)
     "For an amine, look at the nitrogen atom itself.": "胺要看的是氮原子本身。",
@@ -2667,7 +2667,7 @@ S1.i18n.register('zh-Hant', 's3-2', {
     "One carbon neighbour is primary, two is secondary, three is tertiary.": "相鄰的碳有一個是一級 (primary)，兩個是二級 (secondary)，三個是三級 (tertiary)。",
 
     // widget string (assets/js/widgets-s3-2.js)
-    "Correct: {name} is a {deg} {cls}.": "正確：{name} 是{deg}{cls}。",
+    "Correct: {name} is a {deg} {cls}.": "正確：{name} 是 {deg} {cls}。",
 
     // widget string (assets/js/widgets-s3-2.js)
     "The nitrogen atom is bonded to {n} carbon atoms.": "氮原子連着 {n} 個碳原子。",

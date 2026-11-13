@@ -294,7 +294,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "outer electrons are in 4s and 4p": "外層電子在 4s 和 4p",
 
     // Position and electron configuration > worked example > data-title attribute
-    "Count across the period": "沿着週期數過去",
+    "Count across the period": "沿週期逐族點算",
 
     // Position and electron configuration > worked example > p
     "Groups 1 and 2 fill 4s. Groups 3 to 12 fill 3d. Groups 13, 14 and 15 put three electrons in 4p.": "第 1 和第 2 族填 4s。第 3 至 12 族填 3d。第 13、14 和 15 族把三個電子放進 4p。",
@@ -1544,7 +1544,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "last section of this page": "本頁最後一節",
 
     // Properties of transition elements > table > Additional HL > th
-    "Complex ions with ligands": "與配位體形成絡離子",
+    "Complex ions with ligands": "絡離子和配位體",
 
     // Properties of transition elements > table > Additional HL > td
     "The metal ion bonds to molecules or ions around it.": "金屬離子與周圍的分子或離子鍵合。",
