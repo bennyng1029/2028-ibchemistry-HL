@@ -913,7 +913,7 @@
       { id: 'ethylethanoate', name: t('ethyl ethanoate'), groups: 3, spec: chain([{ l: 'CH3', env: 'a' }, { l: 'C', up: '=O' }, { l: 'O' }, { l: 'CH2', env: 'b' }, { l: 'CH3', env: 'c' }]),
         envs: [E('a', 3, 'ester_a', 2.0, [], 'CH3'), E('b', 2, 'ester_o', 4.1, ['c'], 'OCH2'), E('c', 3, 'ch3', 1.0, ['b'], 'CH3')] },
       { id: 'butanone', name: t('butanone'), groups: 3, spec: chain([{ l: 'CH3', env: 'a' }, { l: 'C', up: '=O' }, { l: 'CH2', env: 'b' }, { l: 'CH3', env: 'c' }]),
-        envs: [E('a', 3, 'keto_a', 2.2, [], 'CH3'), E('b', 2, 'keto_a', 2.4, ['c'], 'CH2'), E('c', 3, 'ch3', 1.0, ['b'], 'CH3')] },
+        envs: [E('a', 3, 'keto_a', 2.2, [], 'CH3'), E('b', 2, 'keto_a', 2.5, ['c'], 'CH2'), E('c', 3, 'ch3', 1.0, ['b'], 'CH3')] },
       { id: 'tbutanol', name: t('2-methylpropan-2-ol'), groups: 4, spec: chain([{ l: 'CH3', env: 'a' }, { l: 'C', up: { l: 'CH3', env: 'a' }, down: { l: 'CH3', env: 'a' } }, { l: 'OH', env: 'b' }]),
         envs: [E('a', 9, 'ch3', 1.0, [], 'CH3'), E('b', 1, 'alcohol', 2.0, [], 'OH')] },
       { id: 'chloroethane', name: t('chloroethane'), groups: 2, spec: chain([{ l: 'CH3', env: 'a' }, { l: 'CH2', env: 'b' }, { l: 'Cl' }]),
@@ -1245,7 +1245,7 @@
         frag: { mz: 43, lost: 29, options: ['•CH3', '•OCH3', '•CH2CH3 or •CHO', '•COOH'], answer: 2, note: t('MS: the peak at m/z = 43 is M − 29. The piece lost is •CH<sub>2</sub>CH<sub>3</sub> or •CHO. The NMR spectrum will decide. The small peak at m/z = 57 is M − 15: loss of •CH<sub>3</sub>.') },
         ir: [{ at: 2980, depth: 40, width: 30, row: 'ch' }, { at: 1715, depth: 90, width: 18, row: 'co2' }], irExtra: [{ at: 1460, depth: 28, width: 12 }, { at: 1365, depth: 36, width: 12 }, { at: 1170, depth: 34, width: 14 }], irAnswer: 1,
         irNote: t('IR: strong C=O at 1700–1750 cm<sup>−1</sup>. No O–H. With one O atom, the compound is an aldehyde or a ketone.'),
-        envs: [E('a', 3, 'keto_a', 2.2, [], 'CH3'), E('b', 2, 'keto_a', 2.4, ['c'], 'CH2'), E('c', 3, 'ch3', 1.0, ['b'], 'CH3')], split: ETHYL,
+        envs: [E('a', 3, 'keto_a', 2.2, [], 'CH3'), E('b', 2, 'keto_a', 2.5, ['c'], 'CH2'), E('c', 3, 'ch3', 1.0, ['b'], 'CH3')], split: ETHYL,
         splitNote: t('NMR splitting: triplet (3 H) and quartet (2 H) show CH<sub>3</sub>–CH<sub>2</sub>. The 3 H singlet at 2.2 ppm is a CH<sub>3</sub> next to C=O with no H on the neighbouring carbon. No signal at 9.4–10.0 ppm, so there is no CHO group.'),
         structs: [
           { name: t('butanal'), spec: chain([{ l: 'CH3' }, { l: 'CH2' }, { l: 'CH2' }, { l: 'C', up: '=O' }, { l: 'H' }]), why: t('Butanal is an aldehyde. It would give a signal at 9.4–10.0 ppm for the CHO hydrogen, and four signals in total. The spectrum has three signals and none above 3 ppm.') },

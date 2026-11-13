@@ -9,8 +9,12 @@
      booklet (first assessment 2025), sections 20, 21 and 22, typed from the PDF.
    - Mass spectra: main peaks of real compounds from the NIST Chemistry WebBook
      (electron ionization), rounded to whole percentages; only selected peaks shown.
-   - 1H NMR shifts and IR wavenumbers of named compounds: typical literature
-     values rounded to 0.1 ppm / about 5 cm-1.  Spectra are simplified sketches.
+   - 1H NMR shifts: topic policy (same as the page and the widgets) - every shift
+     given as data lies inside its data booklet range, as IB exam data do.  Where a
+     measured value lies a little outside (e.g. CH3 of an ethyl group at 1.1-1.3 ppm),
+     the question uses the booklet value and the solution says so in one line.
+   - IR wavenumbers of named compounds: typical literature values (about 5 cm-1),
+     all inside the booklet ranges.  Spectra are simplified sketches.
    - Ar values: C 12.01, H 1.01, O 16.00 (data booklet).
    Structures and spectra are inline SVG drawn by the local helpers below
    (currentColor, so they follow the light and dark themes).  practice.html does
@@ -205,7 +209,7 @@
     return '<svg class="q-fig" viewBox="0 0 ' + W + ' ' + H + '" width="' + W + '" height="' + H + '" style="max-width:100%;height:auto" role="img" aria-label="' + label + '">' + s + '</svg>';
   }
 
-  var VARY = ' (Booklet ranges are typical values. A real signal can lie a little outside its range, as the booklet notes.)';
+  var VARY = ' Real spectra vary a little: the booklet says its values can change with the solvent and conditions.';
 
   S1.questions.register('s3-2h', [
 
@@ -332,16 +336,17 @@
     solution: '<p>The molecule is ' + f('CH3CH(OH)CH(OH)CH(OH)CH2OH') + '.</p><ul><li>The ' + f('CH3') + ' carbon has three H atoms and the ' + f('CH2OH') + ' carbon has two H atoms: not chiral.</li><li>Each of the three CH(OH) carbons holds H, OH and two <strong>different</strong> chains. For the middle one, the chain on one side is ' + f('CH(OH)CH3') + ' and on the other side ' + f('CH(OH)CH2OH') + '.</li></ul><p>So there are <strong>3</strong> chiral carbon atoms.</p>'
   },
   {
+    // Rewritten by the audit: the first version used menthol (a six-membered ring, "two ways round the ring"), which is harder than the guide needs.
     id: 's3-2h-q009', level: 'ahl', tier: 'challenge', type: 'numeric', marks: 1,
     syllabus: 'Structure 3.2.7',
-    stem: '<p>Menthol is a compound found in mint oil. Its skeletal formula is shown.</p>' +
-      fig(mol([[0, -1], [0.87, -0.5], [0.87, 0.5], [0, 1], [-0.87, 0.5], [-0.87, -0.5], [0, -2], [1.73, 1, 'OH', 's'], [0, 2], [-0.87, 2.5], [0.87, 2.5]],
-        [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 0], [0, 6], [2, 7], [3, 8], [8, 9], [8, 10]],
-        'Skeletal formula of menthol: a six-membered carbon ring. One ring carbon carries a methyl group. The ring carbon opposite to it carries a branch that ends in two methyl groups. The ring carbon next to that one carries an OH group.')) +
-      '<p>How many chiral carbon atoms does one molecule of menthol contain?</p>',
-    answer: 3, tolerance: { abs: 0 }, unit: '',
-    hints: ['Rule out every ' + f('CH3') + ' and ' + f('CH2') + ' carbon first. That leaves four CH carbons to check.', 'For a ring carbon, two of the four "groups" are the two ways round the ring. They count as different if the paths differ at any point.', 'Check the CH carbon outside the ring separately. What are its four groups?'],
-    solution: '<p>Only carbons with one H need checking. There are four.</p><ul><li>Ring carbon with OH: H, OH, and two different ways round the ring. Chiral.</li><li>Ring carbon with the branch: H, the branch, and two different ways round the ring. Chiral.</li><li>Ring carbon with ' + f('CH3') + ': H, ' + f('CH3') + ', and two ways round the ring. One way reaches the C–OH carbon after two bonds. The other way passes two ' + f('CH2') + ' groups and the carbon with the branch first. The paths are different. Chiral.</li><li>The CH carbon of the branch: H, the ring, and two identical ' + f('CH3') + ' groups. <strong>Not</strong> chiral.</li></ul><p>Menthol has <strong>3</strong> chiral carbon atoms.</p>'
+    stem: '<p>The skeletal formula of a compound is shown.</p>' +
+      fig(mol([[0, 0.5], [0.87, 0], [1.73, 0.5], [2.6, 0], [3.46, 0.5], [0.87, -1, 'OH', 's'], [1.73, 1.5, 'OH', 's'], [2.6, -1]],
+        [[0, 1], [1, 2], [2, 3], [3, 4], [1, 5], [2, 6], [3, 7]],
+        'Skeletal formula: a zig-zag chain of five carbon atoms. Carbon 2 and carbon 3 each carry an OH group. Carbon 4 carries a methyl branch, drawn as a plain line.')) +
+      '<p>How many chiral carbon atoms does one molecule contain?</p>',
+    answer: 2, tolerance: { abs: 0 }, unit: '',
+    hints: ['Each corner and each line end is a carbon atom. Add the hydrogen atoms in your head, then rule out every ' + f('CH3') + ' carbon.', 'Three carbons have one H atom each: carbon 2, carbon 3 and carbon 4. List the four groups on each.', 'Look closely at carbon 4. What are the two groups at the right-hand end?'],
+    solution: '<p>The molecule is ' + f('CH3CH(OH)CH(OH)CH(CH3)2') + '. Only carbons with one H atom need checking.</p><ul><li>Carbon 2: H, OH, ' + f('CH3') + ' and the rest of the chain. Four different groups. Chiral.</li><li>Carbon 3: H, OH, ' + f('CH(OH)CH3') + ' and ' + f('CH(CH3)2') + '. Four different groups. Chiral.</li><li>Carbon 4: H, the rest of the chain and <strong>two identical</strong> ' + f('CH3') + ' groups. Not chiral.</li></ul><p>There are <strong>2</strong> chiral carbon atoms. A carbon with one H atom is not always chiral: you must compare all four groups.</p>'
   },
   {
     id: 's3-2h-q010', level: 'ahl', tier: 'exam', type: 'mcq', marks: 1,
@@ -723,7 +728,7 @@
   {
     id: 's3-2h-q036', level: 'ahl', tier: 'exam', type: 'mcq', marks: 1,
     syllabus: 'Structure 3.2.10',
-    stem: '<p>The sketch shows the low-resolution <sup>1</sup>H NMR spectrum of a compound with the molecular formula ' + f('C3H6O2') + '. The number above each signal is its relative area.</p>' +
+    stem: '<p>The sketch shows the <sup>1</sup>H NMR spectrum of a compound, drawn without splitting, with the molecular formula ' + f('C3H6O2') + '. The number above each signal is its relative area.</p>' +
       fig(nmrSvg([{ d: 3.7, h: 3, n: 1 }, { d: 2.1, h: 3, n: 1 }], 12, 'NMR sketch with a chemical shift axis from 12 ppm on the left to 0 ppm on the right. There are two signals of equal area: one at 3.7 ppm and one at 2.1 ppm.')) +
       nmrTable(['CH3', 'ester', 'keto', 'och2', 'acid', 'roh']) + '<p>Which compound gives this spectrum?</p>',
     options: [f('CH3CH2COOH'), f('CH3COOCH3'), f('HCOOCH2CH3'), f('CH3COCH2OH')],
@@ -772,7 +777,7 @@
   {
     id: 's3-2h-q039', level: 'ahl', tier: 'foundation', type: 'numeric', marks: 1,
     syllabus: 'Structure 3.2.11',
-    stem: '<p>In a high-resolution <sup>1</sup>H NMR spectrum, one signal is a triplet (three peaks).</p><p>How many hydrogen atoms are bonded to the carbon atom next to the hydrogen atoms that give this signal?</p>',
+    stem: '<p>In a <sup>1</sup>H NMR spectrum, one signal is a triplet (three peaks).</p><p>How many hydrogen atoms are bonded to the carbon atom next to the hydrogen atoms that give this signal?</p>',
     answer: 2, tolerance: { abs: 0 }, unit: 'H atoms',
     hints: ['If the neighbouring carbon holds n hydrogen atoms, the signal is split into n + 1 peaks.', 'Solve n + 1 = 3.'],
     solution: '<p>A signal is split into n + 1 peaks, where n is the number of H atoms on the neighbouring carbon atom.</p>' + math(['n + 1 = 3 &nbsp; so &nbsp; n = <b>2</b>']) + '<p>A triplet tells you that the neighbouring carbon is a ' + f('CH2') + ' group. The splitting tells you about the neighbours, not about the hydrogen atoms that give the signal.</p>'
@@ -780,7 +785,7 @@
   {
     id: 's3-2h-q040', level: 'ahl', tier: 'exam', type: 'mcq', marks: 1,
     syllabus: 'Structure 3.2.11',
-    stem: '<p>Butanone has the structure ' + f('CH3COCH2CH3') + '. What are the splitting patterns of its three signals in a high-resolution <sup>1</sup>H NMR spectrum?</p>',
+    stem: '<p>Butanone has the structure ' + f('CH3COCH2CH3') + '. What are the splitting patterns of its three signals in a <sup>1</sup>H NMR spectrum?</p>',
     options: [
       f('CH3') + ' next to C=O: singlet. ' + f('CH2') + ': quartet. ' + f('CH3') + ' of the ethyl group: triplet.',
       f('CH3') + ' next to C=O: singlet. ' + f('CH2') + ': triplet. ' + f('CH3') + ' of the ethyl group: quartet.',
@@ -801,7 +806,7 @@
   {
     id: 's3-2h-q041', level: 'ahl', tier: 'exam', type: 'mcq', marks: 1,
     syllabus: 'Structure 3.2.11',
-    stem: '<p>Which describes the high-resolution <sup>1</sup>H NMR spectrum of 1,1-dichloroethane, ' + f('CH3CHCl2') + '?</p>',
+    stem: '<p>Which describes the <sup>1</sup>H NMR spectrum of 1,1-dichloroethane, ' + f('CH3CHCl2') + '?</p>',
     options: [
       'One singlet',
       'A doublet (area 3) and a quartet (area 1)',
@@ -820,7 +825,7 @@
   {
     id: 's3-2h-q042', level: 'ahl', tier: 'exam', type: 'multi', marks: 1,
     syllabus: 'Structure 3.2.11',
-    stem: '<p>In which of these compounds is <strong>every</strong> signal in the high-resolution <sup>1</sup>H NMR spectrum a singlet? Select <strong>all</strong> that apply. (Treat the signal of an O–H hydrogen as a singlet.)</p>',
+    stem: '<p>In which of these compounds is <strong>every</strong> signal in the <sup>1</sup>H NMR spectrum a singlet? Select <strong>all</strong> that apply. (Treat the signal of an O–H hydrogen as a singlet.)</p>',
     options: [
       'methyl ethanoate, ' + f('CH3COOCH3'),
       'ethyl methanoate, ' + f('HCOOCH2CH3'),
@@ -839,7 +844,7 @@
   {
     id: 's3-2h-q043', level: 'ahl', tier: 'challenge', type: 'short', marks: 4,
     syllabus: 'Structure 3.2.11',
-    stem: '<p>Predict the high-resolution <sup>1</sup>H NMR spectrum of ethyl ethanoate, ' + f('CH3COOCH2CH3') + '. Give the number of signals and, for each signal, the chemical shift range, the relative area and the splitting pattern.</p>' + nmrTable(['CH3', 'CH2R', 'ester', 'keto', 'ether', 'och2']),
+    stem: '<p>Predict the <sup>1</sup>H NMR spectrum of ethyl ethanoate, ' + f('CH3COOCH2CH3') + '. Give the number of signals and, for each signal, the chemical shift range, the relative area and the splitting pattern.</p>' + nmrTable(['CH3', 'CH2R', 'ester', 'keto', 'ether', 'och2']),
     answer: table('Predicted spectrum of ethyl ethanoate (three signals)', ['Hydrogen atoms', 'Shift / ppm', 'Area', 'Splitting'],
       [['C<b>H</b><sub>3</sub>–C(=O)–O', '2.0–2.5', '3', 'singlet'], ['O–C<b>H</b><sub>2</sub>', '3.7–4.8', '2', 'quartet'], ['C<b>H</b><sub>3</sub> of ethyl', '0.9–1.0', '3', 'triplet']]),
     markscheme: [
@@ -849,14 +854,14 @@
       'Splitting: singlet (CH₃CO), quartet (OCH₂), triplet (CH₃ of ethyl). Accept 1, 4 and 3 peaks.'
     ],
     hints: ['Find the hydrogen environments first: there are two different ' + f('CH3') + ' groups and one ' + f('CH2') + ' group.', 'For shifts, check what each carbon is bonded to: the C=O carbon, the O atom, or only carbon.', 'For splitting, count the H atoms on the neighbouring carbon and add one.'],
-    solution: '<p>Work through one signal at a time and fill in a table: environment, shift, area, splitting.</p><ul><li>' + f('CH3') + ' next to the ester C=O: no H on the neighbouring carbon, so a singlet.</li><li>O–' + f('CH2') + ': three H on the neighbouring ' + f('CH3') + ', so 3 + 1 = 4 peaks, a quartet.</li><li>' + f('CH3') + ' of the ethyl group: two H on the neighbouring ' + f('CH2') + ', so 2 + 1 = 3 peaks, a triplet. The O atom is not a carbon with H atoms, so nothing on the other side splits the ' + f('CH2') + ' signal further.</li></ul><p>In the measured spectrum the three signals are at about 2.0, 4.1 and 1.3 ppm.' + VARY + '</p>'
+    solution: '<p>Work through one signal at a time and fill in a table: environment, shift, area, splitting.</p><ul><li>' + f('CH3') + ' next to the ester C=O: no H on the neighbouring carbon, so a singlet.</li><li>O–' + f('CH2') + ': three H on the neighbouring ' + f('CH3') + ', so 3 + 1 = 4 peaks, a quartet.</li><li>' + f('CH3') + ' of the ethyl group: two H on the neighbouring ' + f('CH2') + ', so 2 + 1 = 3 peaks, a triplet. The O atom is not a carbon with H atoms, so nothing on the other side splits the ' + f('CH2') + ' signal further.</li></ul><p>The measured signals are at about 2.0, 4.1 and 1.3 ppm, so the last one is a little above its booklet range. In an exam, quote the booklet ranges.' + VARY + '</p>'
   },
   {
     id: 's3-2h-q044', level: 'ahl', tier: 'challenge', type: 'mcq', marks: 1,
     syllabus: 'Structure 3.2.11',
-    stem: '<p>The sketch and table show the high-resolution <sup>1</sup>H NMR spectrum of a compound with the molecular formula ' + f('C4H8O2') + '. The number above each signal is its relative area.</p>' +
-      fig(nmrSvg([{ d: 3.7, h: 3, n: 1 }, { d: 2.3, h: 2, n: 4 }, { d: 1.1, h: 3, n: 3 }], 5, 'NMR sketch with a chemical shift axis from 5 ppm on the left to 0 ppm on the right. A single peak of area 3 at 3.7 ppm, a group of four peaks of area 2 at 2.3 ppm, and a group of three peaks of area 3 at 1.1 ppm.')) +
-      table('Signals', ['Shift / ppm', 'Area', 'Splitting'], [['3.7', '3', 'singlet'], ['2.3', '2', 'quartet'], ['1.1', '3', 'triplet']]) +
+    stem: '<p>The sketch and table show the <sup>1</sup>H NMR spectrum of a compound with the molecular formula ' + f('C4H8O2') + '. The number above each signal is its relative area.</p>' +
+      fig(nmrSvg([{ d: 3.7, h: 3, n: 1 }, { d: 2.3, h: 2, n: 4 }, { d: 1.0, h: 3, n: 3 }], 5, 'NMR sketch with a chemical shift axis from 5 ppm on the left to 0 ppm on the right. A single peak of area 3 at 3.7 ppm, a group of four peaks of area 2 at 2.3 ppm, and a group of three peaks of area 3 at 1.0 ppm.')) +
+      table('Signals', ['Shift / ppm', 'Area', 'Splitting'], [['3.7', '3', 'singlet'], ['2.3', '2', 'quartet'], ['1.0', '3', 'triplet']]) +
       nmrTable(['CH3', 'ester', 'och2', 'acid']) + '<p>Which compound is it?</p>',
     options: ['ethyl ethanoate, ' + f('CH3COOCH2CH3'), 'methyl propanoate, ' + f('CH3CH2COOCH3'), 'butanoic acid, ' + f('CH3CH2CH2COOH'), 'propyl methanoate, ' + f('HCOOCH2CH2CH3')],
     answer: 1,
@@ -866,7 +871,7 @@
       3: 'Propyl methanoate has four hydrogen environments (H–C=O and three groups in the propyl chain), so it would give four signals.'
     },
     hints: ['A triplet of area 3 with a quartet of area 2 is an ethyl group, ' + f('CH3CH2') + '.', 'The singlet of area 3 is a ' + f('CH3') + ' group with no H on the neighbouring atom.', 'Now use the shifts. Which group is bonded to O (3.7–4.8 ppm) and which is next to C=O (2.0–2.5 ppm)?'],
-    solution: '<ul><li>Triplet (3 H) and quartet (2 H): an ethyl group.</li><li>The quartet is at 2.3 ppm, in the range 2.0–2.5 ppm. So the ' + f('CH2') + ' is next to the C=O of an ester: ' + f('CH3CH2') + '–C(=O)–O.</li><li>The singlet (3 H) is at 3.7 ppm, in the range 3.7–4.8 ppm. So this ' + f('CH3') + ' is bonded to the ester oxygen: O–' + f('CH3') + '.</li></ul><p>The compound is methyl propanoate, ' + f('CH3CH2COOCH3') + '. The ' + f('CH3') + ' of the ethyl group appears at 1.1 ppm.' + VARY + '</p>'
+    solution: '<ul><li>Triplet (3 H) and quartet (2 H): an ethyl group.</li><li>The quartet is at 2.3 ppm, in the range 2.0–2.5 ppm. So the ' + f('CH2') + ' is next to the C=O of an ester: ' + f('CH3CH2') + '–C(=O)–O.</li><li>The singlet (3 H) is at 3.7 ppm, in the range 3.7–4.8 ppm. So this ' + f('CH3') + ' is bonded to the ester oxygen: O–' + f('CH3') + '.</li></ul><p>The compound is methyl propanoate, ' + f('CH3CH2COOCH3') + '. The triplet at 1.0 ppm is in the range 0.9–1.0 ppm: the ' + f('CH3') + ' of the ethyl group.</p>'
   },
 
   /* ======================= Structure 3.2.12 — combined techniques =========== */
@@ -915,7 +920,7 @@
     id: 's3-2h-q048', level: 'ahl', tier: 'challenge', type: 'mcq', marks: 1,
     syllabus: 'Structure 3.2.12',
     stem: '<p>A compound has the molecular formula ' + f('C4H8O') + '.</p><ul><li>Mass spectrum: peaks at m/z 72, 57 and 43 (tallest).</li><li>Infrared: strong absorption at 1715 cm<sup>−1</sup>; no absorption above 3100 cm<sup>−1</sup>.</li><li><sup>1</sup>H NMR: see the table.</li></ul>' +
-      table('<sup>1</sup>H NMR signals', ['Shift / ppm', 'Area', 'Splitting'], [['2.4', '2', 'quartet'], ['2.1', '3', 'singlet'], ['1.1', '3', 'triplet']]) +
+      table('<sup>1</sup>H NMR signals', ['Shift / ppm', 'Area', 'Splitting'], [['2.5', '2', 'quartet'], ['2.2', '3', 'singlet'], ['1.0', '3', 'triplet']]) +
       nmrTable(['CH3', 'keto', 'roh', 'alkene', 'ald']) + '<p>Which compound is it?</p>',
     options: ['butanal, ' + f('CH3CH2CH2CHO'), 'butanone, ' + f('CH3COCH2CH3'), '2-methylpropanal, ' + f('(CH3)2CHCHO'), 'but-3-en-1-ol, ' + f('CH2=CHCH2CH2OH')],
     answer: 1,
@@ -925,7 +930,7 @@
       3: 'But-3-en-1-ol has an O–H bond, which would absorb at 3200–3600 cm<sup>−1</sup>, and no C=O bond to absorb at 1715 cm<sup>−1</sup>.'
     },
     hints: ['Infrared first: which functional group is present, and which is ruled out?', 'In the NMR data, a triplet (3 H) with a quartet (2 H) is an ethyl group. What is the singlet (3 H)?', 'Check with the mass spectrum: 72 − 57 and 72 − 43.'],
-    solution: '<ul><li><strong>Infrared:</strong> 1715 cm<sup>−1</sup> is C=O. No absorption at 3200–3600 cm<sup>−1</sup>, so there is no O–H. The compound is an aldehyde or a ketone.</li><li><strong>NMR:</strong> no signal at 9.4–10.0 ppm, so it is not an aldehyde. Triplet (3 H) + quartet (2 H) = ' + f('CH3CH2') + '. Singlet (3 H) = ' + f('CH3') + ' with no H on the neighbouring carbon. The signals near 2.1–2.4 ppm are H atoms on carbons next to C=O.</li><li><strong>Mass spectrum:</strong> 72 − 57 = 15, loss of •' + f('CH3') + '. 72 − 43 = 29, loss of •' + f('CH2CH3') + ', which leaves ' + f('CH3CO+') + '.</li></ul><p>The compound is butanone, ' + f('CH3COCH2CH3') + '.' + VARY + '</p>'
+    solution: '<ul><li><strong>Infrared:</strong> 1715 cm<sup>−1</sup> is C=O. No absorption at 3200–3600 cm<sup>−1</sup>, so there is no O–H. The compound is an aldehyde or a ketone.</li><li><strong>NMR:</strong> no signal at 9.4–10.0 ppm, so it is not an aldehyde. Triplet (3 H) + quartet (2 H) = ' + f('CH3CH2') + '. Singlet (3 H) = ' + f('CH3') + ' with no H on the neighbouring carbon. The signals at 2.2 and 2.5 ppm are in the range 2.2–2.7 ppm: H atoms on carbons next to C=O.</li><li><strong>Mass spectrum:</strong> 72 − 57 = 15, loss of •' + f('CH3') + '. 72 − 43 = 29, loss of •' + f('CH2CH3') + ', which leaves ' + f('CH3CO+') + '.</li></ul><p>The compound is butanone, ' + f('CH3COCH2CH3') + '.</p>'
   },
   {
     id: 's3-2h-q049', level: 'ahl', tier: 'challenge', type: 'short', marks: 4,
@@ -946,13 +951,13 @@
     id: 's3-2h-q050', level: 'ahl', tier: 'challenge', type: 'short', marks: 5,
     syllabus: 'Structure 3.2.12',
     stem: '<p>A liquid contains 52.1% carbon, 13.2% hydrogen and 34.7% oxygen by mass.</p><ul><li>Mass spectrum: molecular ion at m/z 46; tallest peak at m/z 31.</li><li>Infrared: strong, broad absorption at 3350 cm<sup>−1</sup>; no absorption at 1700–1750 cm<sup>−1</sup>.</li><li><sup>1</sup>H NMR: see the table.</li></ul>' +
-      table('<sup>1</sup>H NMR signals', ['Shift / ppm', 'Area', 'Splitting'], [['3.7', '2', 'quartet'], ['2.6', '1', 'singlet'], ['1.2', '3', 'triplet']]) +
+      table('<sup>1</sup>H NMR signals', ['Shift / ppm', 'Area', 'Splitting'], [['3.7', '2', 'quartet'], ['2.6', '1', 'singlet'], ['1.0', '3', 'triplet']]) +
       irTable(['CdO', 'OHa', 'OH']) + nmrTable(['CH3', 'ether', 'roh']) + BOOKLET22 +
       '<p>Determine the empirical formula, the molecular formula and the structure of the compound. Show how the spectra support the structure.</p>',
     answer: '<p><strong>Empirical formula:</strong></p>' + math(['C: 52.1 ÷ 12.01 = 4.34', 'H: 13.2 ÷ 1.01 = 13.07', 'O: 34.7 ÷ 16.00 = 2.17', 'ratio = 2.00 : 6.03 : 1 → C<sub>2</sub>H<sub>6</sub>O']) +
       '<p><strong>Molecular formula:</strong> the empirical formula mass is 2(12.01) + 6(1.01) + 16.00 = 46.08, which matches the molecular ion at m/z 46. So the molecular formula is ' + f('C2H6O') + '.</p>' +
       '<p><strong>Infrared:</strong> the broad absorption at 3350 cm<sup>−1</sup> (3200–3600 cm<sup>−1</sup>) is the O–H bond of an alcohol. So the compound is not the ether ' + f('CH3OCH3') + '.</p>' +
-      '<p><strong>NMR:</strong> three signals with areas 3 : 2 : 1. The triplet (3 H) and quartet (2 H) show an ethyl group, ' + f('CH3CH2') + '. The quartet at 3.7 ppm is a ' + f('CH2') + ' bonded to O. The singlet (1 H) is the O–H hydrogen.</p>' +
+      '<p><strong>NMR:</strong> three signals with areas 3 : 2 : 1. The triplet (3 H) and quartet (2 H) show an ethyl group, ' + f('CH3CH2') + '. The quartet at 3.7 ppm (3.3–3.7 ppm) is a ' + f('CH2') + ' bonded to O. The singlet (1 H) is the O–H hydrogen.</p>' +
       '<p><strong>Mass spectrum:</strong> 46 − 31 = 15, the loss of •' + f('CH3') + ', which leaves ' + f('CH2OH+') + '.</p><p><strong>Structure:</strong> ethanol, ' + f('CH3CH2OH') + '.</p>',
     markscheme: [
       'Empirical formula C₂H₆O, with working (mole ratio 4.34 : 13.07 : 2.17, or 2 : 6 : 1).',
@@ -963,7 +968,7 @@
       'MS: m/z 31 is M − 15, loss of •CH₃ / the ion CH₂OH⁺ (with its + charge).'
     ],
     hints: ['Start with the percentages: divide each by the relative atomic mass, then by the smallest answer.', 'Compare the empirical formula mass with the m/z of the molecular ion.', 'There are only two structures with this molecular formula: an alcohol and an ether. Which one do the infrared and NMR data fit?'],
-    solution: '<p>Any five of the six marking points give full marks. The route is always the same:</p><ol><li>composition → empirical formula;</li><li>molecular ion → molecular formula;</li><li>infrared → functional group;</li><li>NMR → how the atoms are joined;</li><li>mass spectrum fragments → check.</li></ol><p>The isomer methoxymethane, ' + f('CH3OCH3') + ', would give no O–H absorption and only one NMR signal. The ' + f('CH3') + ' triplet of ethanol is at 1.2 ppm.' + VARY + '</p>'
+    solution: '<p>Any five of the six marking points give full marks. The route is always the same:</p><ol><li>composition → empirical formula;</li><li>molecular ion → molecular formula;</li><li>infrared → functional group;</li><li>NMR → how the atoms are joined;</li><li>mass spectrum fragments → check.</li></ol><p>The isomer methoxymethane, ' + f('CH3OCH3') + ', would give no O–H absorption and only one NMR signal. In a measured spectrum of ethanol the ' + f('CH3') + ' triplet is nearer 1.2 ppm.' + VARY + '</p>'
   }
 
   ]);
