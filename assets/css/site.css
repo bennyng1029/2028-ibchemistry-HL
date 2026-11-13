@@ -492,7 +492,7 @@ input[type="checkbox"], input[type="radio"] { accent-color: var(--accent); }
 .level-flag { margin: 0 0 0.6rem; }
 
 /* ---------- 12. Checklist ------------------------------------------------ */
-.checklist { list-style: none; margin: 0 0 0.75rem; padding: 0; border-top: 1px solid var(--line); max-width: 44rem; }
+.checklist { list-style: none; margin: 0 0 0.75rem; padding: 0; border-top: 1px solid var(--line); max-width: 46rem; }
 .checklist > li { margin: 0; border-bottom: 1px solid var(--line); }
 .checklist__item { display: grid; grid-template-columns: auto 1fr auto; gap: 0.8rem; align-items: start; padding: 0.7rem 0.25rem; cursor: pointer; }
 .checklist__item:hover { background: var(--surface-2); }
@@ -502,7 +502,7 @@ input[type="checkbox"], input[type="radio"] { accent-color: var(--accent); }
 .checklist__count { font-family: var(--font-mono); font-size: 0.85rem; color: var(--ink-3); margin: 0; }
 
 /* ---------- 13. Callouts -------------------------------------------------- */
-.callout { margin: 1.4rem 0; padding: 0.9rem 1.1rem 1rem; border-left: 4px solid var(--line-strong); background: var(--surface); max-width: 44rem; }
+.callout { margin: 1.4rem 0; padding: 0.9rem 1.1rem 1rem; border-left: 4px solid var(--line-strong); background: var(--surface); max-width: 46rem; }
 .callout > :last-child { margin-bottom: 0; }
 .callout::before {
   display: block; font-family: var(--font-mono); font-size: 0.74rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
@@ -538,7 +538,7 @@ dfn[data-def], abbr[data-def] { text-decoration: underline dotted var(--accent);
   background: var(--ink); color: var(--paper); font-size: 0.88rem; line-height: 1.4; border-radius: var(--radius); pointer-events: none;
 }
 
-.eq { margin: 1.4rem 0; border: 1px solid var(--line); background: var(--surface); max-width: 44rem; }
+.eq { margin: 1.4rem 0; border: 1px solid var(--line); background: var(--surface); max-width: 46rem; }
 .eq__formula { font-family: var(--font-mono); font-size: 1.3rem; padding: 1.1rem 1.25rem; overflow-x: auto; white-space: nowrap; font-variant-numeric: tabular-nums; }
 .eq__formula i, .eq__formula var, .eq var { font-family: var(--font-mono); font-style: italic; }
 .eq__legend { margin: 0; padding: 0.75rem 1.25rem 0.9rem; border-top: 1px solid var(--line); background: var(--surface-2); font-size: 0.92rem; display: grid; gap: 0.3rem; }

@@ -18,10 +18,10 @@
 
   // Single source of truth for the five topics (header nav, index cells, hero tiles, pager).
   S1.topics = [
-    { id: 's1-1', num: '1.1', sym: 'Pm', short: 'Particulate matter', title: 'Introduction to the particulate nature of matter', blurb: 'Elements, compounds and mixtures. States of matter, changes of state and temperature.', href: 'topics/s1-1.html' },
-    { id: 's1-2', num: '1.2', sym: 'Na', short: 'Nuclear atom', title: 'The nuclear atom', blurb: 'Protons, neutrons and electrons. Isotopes, relative atomic mass and mass spectra.', href: 'topics/s1-2.html' },
+    { id: 's1-1', num: '1.1', sym: 'Pn', short: 'Particulate matter', title: 'Introduction to the particulate nature of matter', blurb: 'Elements, compounds and mixtures. States of matter, changes of state and temperature.', href: 'topics/s1-1.html' },
+    { id: 's1-2', num: '1.2', sym: 'Nu', short: 'Nuclear atom', title: 'The nuclear atom', blurb: 'Protons, neutrons and electrons. Isotopes, relative atomic mass and mass spectra.', href: 'topics/s1-2.html' },
     { id: 's1-3', num: '1.3', sym: 'Ec', short: 'Electron configurations', title: 'Electron configurations', blurb: 'Emission spectra, energy levels, orbitals and ionization energy.', href: 'topics/s1-3.html' },
-    { id: 's1-4', num: '1.4', sym: 'Mo', short: 'The mole', title: 'Counting particles by mass: the mole', blurb: 'Moles, molar mass, formulas, concentration and gas volumes.', href: 'topics/s1-4.html' },
+    { id: 's1-4', num: '1.4', sym: 'Ml', short: 'The mole', title: 'Counting particles by mass: the mole', blurb: 'Moles, molar mass, formulas, concentration and gas volumes.', href: 'topics/s1-4.html' },
     { id: 's1-5', num: '1.5', sym: 'Ig', short: 'Ideal gases', title: 'Ideal gases', blurb: 'The ideal gas model, the gas laws and pV = nRT.', href: 'topics/s1-5.html' }
   ];
   S1.topic = function (id) {
