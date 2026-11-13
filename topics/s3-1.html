@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3.1 The periodic table | Structure Lab</title>
+<meta name="description" content="IB Chemistry Structure 3.1: periods, groups and blocks, electron configuration from position, periodic trends, group 1 and group 17 reactions, oxides, oxidation states, and (HL) transition elements and coloured complexes.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for topic 3.1. Existing tokens only. */
+.s31-seg { min-width: 0; flex: 0 1 auto; }
+.s31-seg__group { flex-wrap: wrap; max-width: 100%; }
+.s31-which { flex: 0 1 auto; min-width: 0; }
+.widget .btn[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.s31-gap { margin-top: 0.6rem; }
+.s31-msg { margin-top: 0.75rem; padding: 0.6rem 0.8rem; border: 1px solid var(--line-strong); border-left-width: 4px; background: var(--surface-2); max-width: 44rem; }
+.s31-msg[hidden] { display: none; }
+.s31-msg p { margin: 0 0 0.4rem; }
+.s31-msg p:last-child { margin-bottom: 0; }
+.s31-msg ul { margin: 0 0 0.5rem; padding-left: 1.2rem; }
+.s31-msg[data-tone="bad"] { border-color: var(--bad); background: var(--bad-soft); }
+.s31-msg[data-tone="ok"] { border-color: var(--ok); background: var(--ok-soft); }
+.s31-msg[data-tone="warn"] { border-color: var(--amber-line); background: var(--amber-soft); }
+.s31-ask { margin: 0 0 0.75rem; }
+.s31-ask[hidden] { display: none; }
+.s31-ask__q { font-weight: 700; margin: 0 0 0.5rem; }
+.s31-eq { font-family: var(--font-mono); margin: 0.2rem 0; }
+
+/* periodic table */
+.s31-pt-scroll { overflow-x: auto; padding-bottom: 0.4rem; }
+.s31-pt { display: grid; grid-template-columns: 1.3rem repeat(18, minmax(2.15rem, 1fr)); grid-auto-rows: 2.75rem; gap: 2px; min-width: 42.5rem; }
+.s31-pt__head { font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-3); align-self: center; justify-self: center; }
+.s31-pt__note { font-size: 0.72rem; color: var(--ink-3); align-self: center; }
+.s31-el { position: relative; display: block; padding: 0; margin: 0; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); font: inherit; cursor: pointer; border-radius: 0; min-width: 0; }
+.s31-el__z { position: absolute; top: 1px; left: 3px; font-family: var(--font-mono); font-size: 0.58rem; opacity: 0.85; }
+.s31-el__sym { display: block; font-weight: 700; font-size: 0.95rem; line-height: 2.75rem; text-align: center; }
+.s31-el__tag { position: absolute; bottom: 0; right: 3px; font-family: var(--font-mono); font-size: 0.58rem; opacity: 0.85; }
+.s31-el:hover { border-color: var(--ink); }
+.s31-el[aria-pressed="true"] { outline: 3px solid var(--ink); outline-offset: -1px; z-index: 1; }
+.s31-el:focus-visible { outline: 3px solid var(--focus); outline-offset: 1px; z-index: 2; }
+.s31-pt[data-by="block"] .s31-el[data-block="s"], .s31-legend__sw[data-by="block"][data-k="s"],
+.s31-pt[data-by="class"] .s31-el[data-class="metalloid"], .s31-legend__sw[data-by="class"][data-k="metalloid"],
+.s31-pt[data-by="family"] .s31-el[data-family="alkali"], .s31-legend__sw[data-by="family"][data-k="alkali"] { background: var(--accent-soft); }
+.s31-pt[data-by="block"] .s31-el[data-block="d"], .s31-legend__sw[data-by="block"][data-k="d"],
+.s31-pt[data-by="class"] .s31-el[data-class="metal"], .s31-legend__sw[data-by="class"][data-k="metal"],
+.s31-pt[data-by="family"] .s31-el[data-family="transition"], .s31-legend__sw[data-by="family"][data-k="transition"] { background: var(--surface-2); }
+.s31-pt[data-by="block"] .s31-el[data-block="f"], .s31-legend__sw[data-by="block"][data-k="f"],
+.s31-pt[data-by="class"] .s31-el[data-class="non-metal"], .s31-legend__sw[data-by="class"][data-k="non-metal"],
+.s31-pt[data-by="family"] .s31-el[data-family="noble"], .s31-legend__sw[data-by="family"][data-k="noble"] { background: var(--ink-2); color: var(--paper); }
+.s31-pt[data-by="family"] .s31-el[data-family="halogen"], .s31-legend__sw[data-by="family"][data-k="halogen"] { background: var(--accent); color: var(--on-accent); }
+.s31-pt[data-by="class"] .s31-el[data-class="unknown"], .s31-legend__sw[data-by="class"][data-k="unknown"] { border-style: dashed; }
+.s31-legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1.1rem; margin-top: 0.6rem; font-size: 0.86rem; color: var(--ink-2); }
+.s31-legend__item { display: inline-flex; align-items: center; gap: 0.4rem; }
+.s31-legend__sw { width: 1.1rem; height: 1.1rem; border: 1px solid var(--line-strong); background: var(--surface); flex: none; }
+
+/* trends, panels, grids */
+.s31-chart { margin-top: 0.5rem; }
+.s31-chart[hidden], .s31-builder[hidden] { display: none; }
+.s31-builder { margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid var(--line); }
+.s31-builder__title { font-weight: 700; margin: 0 0 0.5rem; }
+.s31-builder__row { display: grid; grid-template-columns: minmax(0, 16rem) minmax(0, 1fr); gap: 0.3rem 0.75rem; align-items: center; margin-bottom: 0.45rem; }
+.s31-builder__row label { font-size: 0.93rem; }
+.s31-builder__row .select { width: 100%; min-width: 0; }
+@media (max-width: 34rem) { .s31-builder__row { grid-template-columns: 1fr; } }
+.s31-panel { margin-bottom: 0.5rem; }
+.s31-panel__title { font-weight: 700; margin: 0.4rem 0 0.3rem; }
+.s31-panel ul { margin: 0 0 0.5rem; padding-left: 1.2rem; }
+.s31-grid td { vertical-align: top; min-width: 8.5rem; }
+.s31-yn { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+.s31-yn__mark { font-size: 0.85rem; margin-top: 0.3rem; }
+.s31-yn__mark[data-tone="ok"] { color: var(--ok); }
+.s31-yn__mark[data-tone="bad"] { color: var(--bad); }
+.s31-ox__species { font-family: var(--font-mono); font-size: 1.6rem; font-weight: 600; margin: 0 0 0.3rem; }
+.s31-ox__step { margin-top: 0.9rem; padding-top: 0.75rem; border-top: 1px solid var(--line); }
+.s31-ox__step .input { max-width: 6rem; }
+.s31-wheelwrap { display: grid; grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); gap: 0.75rem; align-items: start; }
+.s31-wheel, .s31-beam { width: 100%; height: auto; max-width: 24rem; }
+
+/* static figures */
+.s31-figure { margin: 1.5rem 0; border: 1px solid var(--line-strong); background: var(--surface); max-width: 46rem; }
+.s31-figure__body { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 0 1.5rem; padding: 0.9rem 1rem 0.4rem; }
+.s31-figure__body h4 { margin: 0 0 0.4rem; font-size: 1rem; }
+.s31-figure__body ol, .s31-figure__body ul { margin: 0 0 0.6rem; padding-left: 1.2rem; }
+.s31-figure__body li { margin-bottom: 0.35rem; font-size: 0.95rem; }
+.s31-figure figcaption { padding: 0.65rem 1rem 0.8rem; border-top: 1px solid var(--line); font-size: 0.9rem; color: var(--ink-2); }
+.s31-figure svg { display: block; width: 100%; height: auto; }
+.s31-mol { max-width: 20rem; padding: 0.5rem 1rem 0; }
+.s31-ob { display: inline-flex; vertical-align: middle; margin: 0 0.5em 0 0.15em; }
+.s31-ob > span { display: inline-block; min-width: 1.9em; height: 1.9em; line-height: 1.8em; text-align: center; border: 1.5px solid var(--ink); margin-left: -1.5px; }
+.s31-ob > span:first-child { margin-left: 0; }
+</style>
+</head>
+<body data-page="s3-1">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="s3-1"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Structure 3.1</p>
+      <h1>The periodic table: classification of elements</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>How does the periodic table help us to predict patterns and trends in the properties of elements?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <!-- ============================================================ GOALS -->
+      <section class="topic-section" id="goals" data-toc="What you need to do">
+        <h2>What you need to be able to do</h2>
+        <p>Tick each one when you can do it without looking at your notes.</p>
+        <ul class="checklist" data-s1-checklist="s3-1">
+          <li data-id="blocks-classes" data-level="sl">Describe periods, groups and the four blocks (s, p, d, f), and identify the positions of metals, metalloids and non-metals.</li>
+          <li data-id="config-position" data-level="sl">Deduce the electron configuration of an atom up to Z = 36 from its position in the periodic table, and the position from the configuration.</li>
+          <li data-id="families" data-level="sl">Identify the alkali metals, halogens, transition elements and noble gases.</li>
+          <li data-id="trends-explain" data-level="sl">Explain the trends across a period and down a group in atomic radius, ionic radius, ionization energy, electron affinity and electronegativity.</li>
+          <li data-id="group1-water" data-level="sl">Describe and explain the reactions of group 1 metals with water, with equations.</li>
+          <li data-id="group17-halide" data-level="sl">Describe and explain the reactions of group 17 elements with halide ions, with equations.</li>
+          <li data-id="oxides-trend" data-level="sl">Describe the trend from basic metal oxides, through amphoteric oxides, to acidic non-metal oxides.</li>
+          <li data-id="oxide-equations" data-level="sl">Deduce equations for the reactions with water of the oxides of group 1 metals, group 2 metals, carbon and sulfur.</li>
+          <li data-id="acid-rain-ocean" data-level="sl">Explain how non-metal oxides cause acid rain and how rising carbon dioxide levels cause ocean acidification.</li>
+          <li data-id="oxidation-states" data-level="sl">Deduce the oxidation state of an atom in a compound or an ion, including hydrides and peroxides, and write it with the sign first.</li>
+          <li data-id="element-zero" data-level="sl">Explain why the oxidation state of an element is zero.</li>
+          <li data-id="roman-names" data-level="sl">Use oxidation numbers (Roman numerals) in names, and recognize nitrate, nitrite, sulfate and sulfite.</li>
+          <li data-id="ie-discontinuities" data-level="ahl">Explain how the discontinuities in first ionization energy across a period are evidence for energy sublevels.</li>
+          <li data-id="tm-properties" data-level="ahl">Recognize the characteristic properties of transition elements.</li>
+          <li data-id="variable-os" data-level="ahl">Explain why transition elements have variable oxidation states.</li>
+          <li data-id="tm-ion-configs" data-level="ahl">Deduce the electron configurations of ions of the first-row transition elements.</li>
+          <li data-id="colour-explain" data-level="ahl">Explain why transition element complexes are coloured.</li>
+          <li data-id="colour-wheel" data-level="ahl">Use the colour wheel and c = λf to deduce the wavelength, frequency and colour of light absorbed or observed.</li>
+        </ul>
+      </section>
+
+      <!-- ============================================================ 3.1.1 -->
+      <section class="topic-section" id="structure" data-toc="Periods, groups and blocks">
+        <span class="section-code">Structure 3.1.1</span>
+        <h2>Periods, groups and blocks</h2>
+
+        <p>A calendar puts the days in rows. Every Monday is in the same column. The periodic table does the same thing with the elements. Elements with similar properties are in the same column.</p>
+        <p>The elements are in order of atomic number, Z. There are three ways to describe where an element is.</p>
+        <ul>
+          <li>A <dfn data-def="A horizontal row of the periodic table.">period</dfn> is a horizontal row. There are 7 periods.</li>
+          <li>A <dfn data-def="A vertical column of the periodic table. Groups are numbered from 1 to 18.">group</dfn> is a vertical column. Groups are numbered from 1 to 18.</li>
+          <li>A <dfn data-def="A region of the periodic table named after the sublevel (s, p, d or f) that is being filled.">block</dfn> is a region named after the sublevel that is being filled: s, p, d or f.</li>
+        </ul>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The four blocks</caption>
+            <thead><tr><th scope="col">Block</th><th scope="col">Where it is</th><th scope="col">Sublevel being filled</th><th scope="col" class="num">Columns wide</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">s-block</th><td>groups 1 and 2, and helium</td><td>s (holds 2 electrons)</td><td class="num">2</td></tr>
+              <tr><th scope="row">p-block</th><td>groups 13 to 18 (not helium)</td><td>p (holds 6 electrons)</td><td class="num">6</td></tr>
+              <tr><th scope="row">d-block</th><td>groups 3 to 12</td><td>d (holds 10 electrons)</td><td class="num">10</td></tr>
+              <tr><th scope="row">f-block</th><td>the two rows drawn below the main table</td><td>f (holds 14 electrons)</td><td class="num">14</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The width of each block matches the number of electrons its sublevel can hold. Sublevels are explained in <a href="s1-3.html#sublevels">Structure 1.3</a>.</p>
+
+        <h3>Metals, metalloids and non-metals</h3>
+        <p>Most elements are <b>metals</b>. They are on the left and in the centre of the table. The <b>non-metals</b> are on the right, plus hydrogen. Between them is a diagonal band of <dfn data-def="An element with properties between those of metals and non-metals.">metalloids</dfn>, such as silicon. Metalloids have properties between those of metals and non-metals.</p>
+
+        <figure data-s1-widget="s3-1.table" data-title="Interactive periodic table" data-start="11">
+          <p class="widget__fallback">An interactive periodic table appears here when JavaScript is on. Groups 1 and 2 are the s-block, groups 3 to 12 the d-block, groups 13 to 18 the p-block, and the two rows below the table are the f-block.</p>
+          <figcaption>Choose how to colour the table, then click an element. On a phone, slide the table sideways. Then try “Find the element”.</figcaption>
+        </figure>
+
+        <aside class="callout callout--booklet">
+          <p>The periodic table is in section 7 of the data booklet. It shows groups 1 to 18, atomic numbers and relative atomic masses. It does not label the blocks or the metalloids, so learn where they are.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>The guide does not list which elements are metalloids, and sources disagree about the edges of the band. You need the general position: a diagonal band between the metals and the non-metals. You do not need to learn a list.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s3-1" data-syllabus="Structure 3.1.1" data-count="4" data-title="Periods, groups and blocks: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 3.1.2 -->
+      <section class="topic-section" id="position" data-toc="Position and configuration">
+        <span class="section-code">Structure 3.1.2</span>
+        <h2>Position and electron configuration</h2>
+
+        <p>An element’s address in the table tells you how its electrons are arranged. This works in both directions.</p>
+
+        <aside class="callout callout--key">
+          <p>The <b>period number</b> is the outer main energy level that is occupied by electrons. Elements in the same <b>group</b> have the same number of valence electrons.</p>
+        </aside>
+
+        <p><dfn data-def="The electrons in the outer main energy level of an atom.">Valence electrons</dfn> are the electrons in the outer main energy level. They decide most of the chemistry of an element. That is why elements in a group react in similar ways.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>From group number to outer electrons</caption>
+            <thead><tr><th scope="col">Groups</th><th scope="col">Block</th><th scope="col">Rule</th><th scope="col">Example</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">1 and 2</th><td>s</td><td>valence electrons = group number</td><td>Ca, group 2, period 4: <span class="mono">[Ar] 4s<sup>2</sup></span></td></tr>
+              <tr><th scope="row">13 to 18</th><td>p</td><td>valence electrons = group number − 10</td><td>P, group 15, period 3: <span class="mono">[Ne] 3s<sup>2</sup> 3p<sup>3</sup></span> (5 valence electrons)</td></tr>
+              <tr><th scope="row">3 to 12</th><td>d</td><td>4s and 3d electrons together = group number</td><td>Fe, group 8, period 4: <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span> (2 + 6 = 8)</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Helium is the one odd case. It has 2 valence electrons, but its outer level is full, so it is placed in group 18.</p>
+
+        <h3>Method in words: position → configuration</h3>
+        <ol>
+          <li>Find the noble gas at the end of the period above. It gives the core, for example <span class="mono">[Ar]</span>.</li>
+          <li>The period number, n, is the outer main energy level.</li>
+          <li>Count along the period from group 1 to your element. Fill <span class="mono">ns</span> first, then <span class="mono">(n − 1)d</span> in period 4, then <span class="mono">np</span>.</li>
+          <li>Check Cr and Cu. They have one 4s electron, not two (see <a href="s1-3.html#configurations">Structure 1.3</a>).</li>
+        </ol>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Configuration from position</h3>
+          <div class="worked__problem">
+            <p>An element is in period 4 and group 15. Deduce its condensed electron configuration and identify the element.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the core">
+              <p class="worked__why">The noble gas at the end of period 3 is argon. All its 18 electrons are inner electrons here.</p>
+              <div class="worked__math">core = [Ar]</div>
+            </li>
+            <li data-title="Use the period">
+              <p class="worked__why">Period 4 means the outer main energy level is n = 4.</p>
+              <div class="worked__math">outer electrons are in 4s and 4p</div>
+            </li>
+            <li data-title="Count across the period">
+              <p class="worked__why">Groups 1 and 2 fill 4s. Groups 3 to 12 fill 3d. Groups 13, 14 and 15 put three electrons in 4p.</p>
+              <div class="worked__math">4s<sup>2</sup> (2 electrons), 3d<sup>10</sup> (10 electrons), 4p<sup>3</sup> (3 electrons)</div>
+            </li>
+            <li data-title="Write it and check">
+              <p class="worked__why">Check with the atomic number: 18 + 2 + 10 + 3 = 33. Element 33 is arsenic.</p>
+              <div class="worked__math"><b>[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>3</sup></b>, arsenic, As</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>3</sup>. The element is arsenic, As. (You may also write 3d<sup>10</sup> before 4s<sup>2</sup>.)</p></div>
+        </div>
+
+        <h3>Method in words: configuration → position</h3>
+        <ol>
+          <li>The highest main energy level in the configuration gives the <b>period</b>.</li>
+          <li>The last sublevel being filled gives the <b>block</b>.</li>
+          <li>Count the outer electrons to get the <b>group</b>, using the table above.</li>
+        </ol>
+
+        <div data-s1-numeric data-answer="16" data-tolerance="0.1" data-label="Group number">
+          <div class="tryit__q"><p>An atom has the configuration <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>4</sup></span>. Which group is the element in?</p></div>
+          <ol class="tryit__hints">
+            <li>The outer main energy level is n = 3. Count the electrons in 3s and 3p.</li>
+            <li>There are 2 + 4 = 6 valence electrons. For the p-block, group number = valence electrons + 10.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">valence electrons = 2 + 4 = 6</div>
+            <div class="worked__math">group = 6 + 10 = 16 (period 3: the element is sulfur)</div>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="7" data-tolerance="0.1" data-label="Number of valence electrons">
+          <div class="tryit__q"><p>Bromine is in period 4 and group 17. How many valence electrons does a bromine atom have?</p></div>
+          <ol class="tryit__hints">
+            <li>Bromine is in the p-block. Use: valence electrons = group number − 10.</li>
+            <li>17 − 10 = ?</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">valence electrons = 17 − 10 = 7 (4s<sup>2</sup> 4p<sup>5</sup>)</div>
+          </div>
+        </div>
+
+        <h3>Four family names to know</h3>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Named classifications in the guide</caption>
+            <thead><tr><th scope="col">Name</th><th scope="col">Where</th><th scope="col">What they share</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">alkali metals</th><td>group 1 (not hydrogen)</td><td>1 valence electron; form 1+ ions</td></tr>
+              <tr><th scope="row">halogens</th><td>group 17</td><td>7 valence electrons; form 1− ions</td></tr>
+              <tr><th scope="row">noble gases</th><td>group 18</td><td>full outer energy level; very unreactive</td></tr>
+              <tr><th scope="row">transition elements</th><td>in the d-block, between group 2 and group 13</td><td>metals; many form ions with different charges</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>Use group numbers 1 to 18. The old numbering (groups I to VIII, or group 0) is not used. For a d-block atom, examiners accept 4s and 3d in either order.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>You only need to deduce configurations up to Z = 36 (krypton). For heavier elements you only need the position. Other family names, such as “alkaline earth metals” or “chalcogens”, are not required.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s3-1" data-syllabus="Structure 3.1.2" data-count="4" data-title="Position and configuration: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 3.1.3 -->
+      <section class="topic-section" id="periodicity" data-toc="Periodic trends">
+        <span class="section-code">Structure 3.1.3</span>
+        <h2>Periodicity: trends in properties</h2>
+
+        <p>Imagine a magnet pulling on a paper clip. The pull is stronger if the magnet is stronger. It is weaker if the clip is further away, or if something is in between. The nucleus pulls on the outer electrons in the same way.</p>
+        <p><dfn data-def="The repeating pattern of trends in the properties of elements across a period and down a group.">Periodicity</dfn> means that the trends in properties repeat across each period and down each group. You explain almost every trend with the same three ideas.</p>
+        <ul>
+          <li><b>Nuclear charge.</b> More protons give a stronger attraction.</li>
+          <li><b>Shielding.</b> Electrons in inner energy levels repel the outer electrons. This cancels part of the attraction.</li>
+          <li><b>Distance.</b> Electrons in a higher main energy level are further from the nucleus, so the attraction is weaker.</li>
+        </ul>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>What changes in each direction</caption>
+            <thead><tr><th scope="col"></th><th scope="col">Across a period (left to right)</th><th scope="col">Down a group</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Nuclear charge</th><td>increases</td><td>increases</td></tr>
+              <tr><th scope="row">Shielding by inner electrons</th><td>stays about the same</td><td>increases</td></tr>
+              <tr><th scope="row">Outer electrons</th><td>same main energy level</td><td>higher main energy level, further away</td></tr>
+              <tr><th scope="row">Attraction of the nucleus for the outer electrons</th><td><b>stronger</b></td><td><b>weaker</b></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Down a group the nuclear charge also increases. But the extra distance and the extra shielding matter more, so the attraction gets weaker.</p>
+
+        <h3>The five properties</h3>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Definitions and trends</caption>
+            <thead><tr><th scope="col">Property</th><th scope="col">Meaning</th><th scope="col">Across a period</th><th scope="col">Down a group</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Atomic radius</th><td>Half the distance between the nuclei of two bonded atoms of the element.</td><td>decreases</td><td>increases</td></tr>
+              <tr><th scope="row">Ionic radius</th><td>The radius of an ion.</td><td>decreases along the positive ions, jumps up, then decreases along the negative ions</td><td>increases</td></tr>
+              <tr><th scope="row">First ionization energy</th><td>The minimum energy needed to remove one mole of electrons from one mole of gaseous atoms.</td><td>increases (in general)</td><td>decreases</td></tr>
+              <tr><th scope="row">Electron affinity</th><td>The energy change when one mole of electrons is added to one mole of gaseous atoms.</td><td>becomes more negative (in general)</td><td>becomes less negative (in general)</td></tr>
+              <tr><th scope="row">Electronegativity</th><td>The relative ability of an atom to attract a shared pair of electrons in a covalent bond.</td><td>increases</td><td>decreases</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The two processes as equations</caption>
+            <thead><tr><th scope="col">Quantity</th><th scope="col">Process</th><th scope="col">Unit</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">First ionization energy</th><td><span class="chem">X(g) -> X+(g) + e-</span></td><td><span class="unit">kJ mol-1</span></td></tr>
+              <tr><th scope="row">First electron affinity</th><td><span class="chem">X(g) + e- -> X-(g)</span></td><td><span class="unit">kJ mol-1</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>A negative electron affinity means that energy is released when the atom gains an electron. Chlorine has the value <span class="mono">−349 kJ mol<sup>−1</sup></span>. Sodium has <span class="mono">−53 kJ mol<sup>−1</sup></span>. Chlorine attracts an extra electron much more strongly.</p>
+
+        <figure data-s1-widget="s3-1.trends" data-title="Periodic trends explorer">
+          <p class="widget__fallback">An interactive trends explorer appears here when JavaScript is on. Example: across period 3 the atomic radius falls from 160 pm (Na) to 100 pm (Cl), and down group 1 it rises from 130 pm (Li) to 238 pm (Cs).</p>
+          <figcaption>Choose a property and a direction. Predict the trend, then look at the data booklet values and build the explanation. Click the heat-map to change the period or group.</figcaption>
+        </figure>
+
+        <aside class="callout callout--booklet">
+          <p>First ionization energy, electron affinity and electronegativity are in section 9 of the data booklet. Atomic and ionic radii are in section 10. Radii are given in <span class="mono">10<sup>−12</sup> m</span>, which is the picometre, pm. The atomic radii are covalent radii.</p>
+        </aside>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 2">
+          <h3 class="worked__title">Explaining a trend in atomic radius</h3>
+          <div class="worked__problem">
+            <p>The atomic radius of sodium is 160 pm and the atomic radius of chlorine is 100 pm. Explain why the atomic radius decreases across period 3. [2]</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Say what changes">
+              <p class="worked__why">The first mark is for the cause. Across a period, each element has one more proton.</p>
+              <div class="worked__math">Na has 11 protons. Cl has 17 protons. The nuclear charge increases.</div>
+            </li>
+            <li data-title="Say what stays the same">
+              <p class="worked__why">The second mark is for showing that nothing cancels the extra attraction.</p>
+              <div class="worked__math">The outer electrons are in the same main energy level (n = 3), so the shielding by inner electrons is about the same.</div>
+            </li>
+            <li data-title="Link to the property">
+              <p class="worked__why">Finish with the effect on the size of the atom.</p>
+              <div class="worked__math"><b>The outer electrons are attracted more strongly and pulled closer to the nucleus.</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Nuclear charge increases across the period. The outer electrons are in the same energy level with similar shielding, so they are attracted more strongly and the radius decreases.</p></div>
+        </div>
+
+        <h3>Ionic radius</h3>
+        <p>Two rules cover most questions.</p>
+        <ul>
+          <li>A <b>positive ion is smaller than its atom</b>. Sodium is 160 pm, but <span class="chem">Na+</span> is 102 pm. The atom has lost its whole outer energy level.</li>
+          <li>A <b>negative ion is larger than its atom</b>. Chlorine is 100 pm, but <span class="chem">Cl-</span> is 181 pm. The nuclear charge is the same, but there is one more electron. The electrons repel each other more and spread out.</li>
+        </ul>
+        <p>Some ions have exactly the same electron configuration. Then only the nuclear charge is different.</p>
+
+        <figure data-s1-widget="s3-1.iso" data-title="Six ions with the same electron configuration">
+          <p class="widget__fallback">An interactive diagram appears here when JavaScript is on. The ionic radii are: nitride 146 pm, oxide 140 pm, fluoride 133 pm, sodium 102 pm, magnesium 72 pm, aluminium 54 pm.</p>
+          <figcaption>All six ions have 10 electrons. Predict first, then move the slider to compare them. The circles are drawn to scale with data booklet radii.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 3">
+          <h3 class="worked__title">Comparing ionic radii</h3>
+          <div class="worked__problem">
+            <p>Ionic radii: <span class="chem">K+</span> 138 pm, <span class="chem">Cl-</span> 181 pm. The atomic radius of chlorine is 100 pm. Explain (a) why <span class="chem">Cl-</span> is larger than the chlorine atom, and (b) why <span class="chem">K+</span> is smaller than <span class="chem">Cl-</span>. [3]</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="(a) Compare protons and electrons">
+              <p class="worked__why">Atom and ion have the same nucleus. Only the number of electrons is different.</p>
+              <div class="worked__math">Cl: 17 protons, 17 electrons. Cl<sup>−</sup>: 17 protons, 18 electrons.</div>
+            </li>
+            <li data-title="(a) Give the reason">
+              <p class="worked__why">The same nuclear charge now holds one more electron.</p>
+              <div class="worked__math">There is more repulsion between the electrons in the outer level, so they spread further from the nucleus.</div>
+            </li>
+            <li data-title="(b) Compare the configurations">
+              <p class="worked__why">Check whether the two ions have the same number of electrons.</p>
+              <div class="worked__math">K<sup>+</sup> and Cl<sup>−</sup> both have 18 electrons: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></div>
+            </li>
+            <li data-title="(b) Compare the nuclear charges">
+              <p class="worked__why">Same electrons and same shielding, so the nuclear charge decides the size.</p>
+              <div class="worked__math"><b>K<sup>+</sup> has 19 protons and Cl<sup>−</sup> has 17. The greater nuclear charge attracts the same number of electrons more strongly, so K<sup>+</sup> is smaller.</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>(a) Same nuclear charge, one more electron, more repulsion between electrons. (b) Same electron configuration, but K<sup>+</sup> has the greater nuclear charge.</p></div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 4">
+          <h3 class="worked__title">Explaining a trend in first ionization energy</h3>
+          <div class="worked__problem">
+            <p>First ionization energies: Na <span class="mono">496 kJ mol<sup>−1</sup></span>, K <span class="mono">419 kJ mol<sup>−1</sup></span>. Explain why the value for potassium is lower. [2]</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the electron that is removed">
+              <p class="worked__why">Ionization energy is about one electron: the outer one.</p>
+              <div class="worked__math">Na: [Ne] 3s<sup>1</sup>, electron removed from n = 3. K: [Ar] 4s<sup>1</sup>, electron removed from n = 4.</div>
+            </li>
+            <li data-title="Compare distance and shielding">
+              <p class="worked__why">This is the mark-earning comparison. Write about energy levels, not only about “size”.</p>
+              <div class="worked__math">In K the outer electron is in a higher main energy level. It is further from the nucleus and shielded by more inner electrons.</div>
+            </li>
+            <li data-title="Link to the energy">
+              <p class="worked__why">Weaker attraction means less energy is needed.</p>
+              <div class="worked__math"><b>The outer electron in K is attracted less strongly, so less energy is needed to remove it.</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>The electron removed from K is in a higher energy level, further from the nucleus and more shielded. The attraction is weaker, even though K has more protons.</p></div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>“The atomic radius increases” on its own does not earn the first mark for an ionization energy question. Write about the energy level of the electron, its distance from the nucleus and the shielding. Never write that shielding increases across a period.</p>
+        </aside>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 5">
+          <h3 class="worked__title">Explaining a trend in electronegativity</h3>
+          <div class="worked__problem">
+            <p>Electronegativity values: S 2.6, Cl 3.2, F 4.0. Explain (a) why chlorine is more electronegative than sulfur, and (b) why fluorine is more electronegative than chlorine. [4]</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Start from the definition">
+              <p class="worked__why">Electronegativity is about attracting a shared pair of electrons in a bond.</p>
+              <div class="worked__math">Ask: how strongly does each nucleus attract a bonding pair?</div>
+            </li>
+            <li data-title="(a) Same period">
+              <p class="worked__why">S and Cl are both in period 3. Use the “across a period” reasons.</p>
+              <div class="worked__math">Cl has a greater nuclear charge (17 protons, S has 16). The shielding is about the same.</div>
+              <div class="worked__math"><b>The chlorine nucleus attracts the shared pair more strongly.</b></div>
+            </li>
+            <li data-title="(b) Same group">
+              <p class="worked__why">F and Cl are both in group 17. Use the “down a group” reasons.</p>
+              <div class="worked__math">F has fewer occupied energy levels. A shared pair is closer to the nucleus and less shielded.</div>
+              <div class="worked__math"><b>The fluorine nucleus attracts the shared pair more strongly.</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>(a) Greater nuclear charge with similar shielding. (b) The bonding pair is closer to the nucleus and less shielded in fluorine.</p></div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Do not write “electron affinity increases”. The values are negative, so “increases” is unclear. Write “becomes more negative” or “more energy is released”. The data are also not smooth: fluorine (−328) is less negative than chlorine (−349).</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>The term “effective nuclear charge” and rules for calculating it are not in the guide. Melting point trends are not part of this section. The small dips in first ionization energy across a period are Additional HL.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s3-1" data-syllabus="Structure 3.1.3" data-count="5" data-title="Periodic trends: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 3.1.4 -->
+      <section class="topic-section" id="groups" data-toc="Group 1 and group 17">
+        <span class="section-code">Structure 3.1.4</span>
+        <h2>Trends down group 1 and group 17</h2>
+
+        <p>Metals react by losing electrons. Non-metals react by gaining electrons. So the trends in the last section let you predict how reactive an element is.</p>
+        <ul>
+          <li><dfn data-def="The tendency of an element to lose electrons and form positive ions.">Metallic character</dfn> is the tendency to lose electrons and form positive ions. It <b>increases down group 1</b>.</li>
+          <li>Non-metallic character is the tendency to gain electrons. It <b>decreases down group 17</b>.</li>
+        </ul>
+
+        <h3>Group 1 metals with water</h3>
+        <p>Every group 1 metal reacts with water. The products are a metal hydroxide and hydrogen gas.</p>
+        <div class="eq">
+          <div class="eq__formula"><span class="chem">2M(s) + 2H2O(l) -> 2MOH(aq) + H2(g)</span></div>
+          <dl class="eq__legend">
+            <div><dt>M</dt><dd>any group 1 metal: Li, Na, K, Rb or Cs</dd></div>
+          </dl>
+        </div>
+
+        <figure data-s1-widget="s3-1.group1" data-title="Group 1 metals with water" data-start="11">
+          <p class="widget__fallback">An interactive panel appears here when JavaScript is on. Example: sodium floats, melts into a ball, fizzes and moves quickly. The equation is 2Na(s) + 2H2O(l) → 2NaOH(aq) + H2(g).</p>
+          <figcaption>Choose a metal. Read the observations and the equation, then compare the first ionization energies. This is a description of real observations, not a simulation.</figcaption>
+        </figure>
+
+        <aside class="callout callout--exam">
+          <p>Observations that earn marks: the metal floats, fizzes (bubbles of gas), moves on the surface, and gets smaller or dissolves. The solution becomes alkaline. For the trend, link reactivity to how easily the outer electron is lost.</p>
+        </aside>
+
+        <h3>Group 17 elements with halide ions</h3>
+        <p>A <dfn data-def="An ion with a 1− charge formed from a halogen atom: fluoride, chloride, bromide or iodide.">halide ion</dfn> is the 1− ion of a halogen, such as <span class="chem">Cl-</span>. A more reactive halogen takes electrons from the halide ion of a less reactive halogen. This is called a <dfn data-def="A reaction in which a more reactive element takes the place of a less reactive element in a compound.">displacement reaction</dfn>.</p>
+        <p>Reactivity decreases down group 17: chlorine is more reactive than bromine, and bromine is more reactive than iodine.</p>
+
+        <figure data-s1-widget="s3-1.halogens" data-title="Halogen and halide ion: which mixtures react?">
+          <p class="widget__fallback">An interactive grid appears here when JavaScript is on. Chlorine displaces bromide and iodide ions. Bromine displaces iodide ions only. Iodine displaces neither.</p>
+          <figcaption>Predict all six mixtures, then check. The equations are ionic equations: the metal ion in the halide solution does not take part.</figcaption>
+        </figure>
+
+        <aside class="callout callout--mistake">
+          <p>Take care with the names. <b>Chlorine</b>, <span class="chem">Cl2</span>, is the element. <b>Chloride</b>, <span class="chem">Cl-</span>, is the ion. “Chlorine displaces bromide ions” is correct. “Chloride displaces bromine” is wrong.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>Only these two sets of reactions are required here. You do not need group 1 metals with oxygen or halogens, tests with silver nitrate, or group 2 trends. Explaining displacement with oxidation and reduction comes later in Reactivity 3.2.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s3-1" data-syllabus="Structure 3.1.4" data-count="4" data-title="Group 1 and group 17: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 3.1.5 -->
+      <section class="topic-section" id="oxides" data-toc="Oxides: basic to acidic">
+        <span class="section-code">Structure 3.1.5</span>
+        <h2>Oxides: from basic to acidic</h2>
+
+        <p>There is no sharp line between metals and non-metals. The properties change gradually across a period. You can see this clearly in the oxides.</p>
+        <ul>
+          <li><b>Metal oxides are basic.</b> If they dissolve in water, they form alkaline solutions.</li>
+          <li><b>Non-metal oxides are acidic.</b> If they dissolve in water, they form acidic solutions.</li>
+          <li>Between them are <dfn data-def="Able to react both as an acid and as a base.">amphoteric</dfn> oxides. An amphoteric oxide can react as a base (with an acid) and as an acid (with a base). Aluminium oxide is the usual example.</li>
+        </ul>
+
+        <figure data-s1-widget="s3-1.oxides" data-title="Oxides across period 3" data-start="1">
+          <p class="widget__fallback">An interactive diagram appears here when JavaScript is on. Across period 3 the oxides change from basic (sodium oxide, magnesium oxide), through amphoteric (aluminium oxide), to acidic (oxides of silicon, phosphorus, sulfur and chlorine).</p>
+          <figcaption>Move the slider across period 3. Watch the bonding change from ionic to covalent and the character change from basic to acidic. The pH positions are approximate.</figcaption>
+        </figure>
+
+        <aside class="callout callout--mistake">
+          <p>Amphoteric does not mean neutral. A neutral substance reacts with neither acids nor bases. An amphoteric oxide reacts with both.</p>
+        </aside>
+
+        <h3>Equations you must be able to write</h3>
+        <p>You need equations for the reaction with water of four kinds of oxide. The patterns are short.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Oxides with water</caption>
+            <thead><tr><th scope="col">Oxide of</th><th scope="col">Pattern</th><th scope="col">Example equation</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">a group 1 metal</th><td>basic oxide + water → metal hydroxide</td><td><span class="chem">Na2O(s) + H2O(l) -> 2NaOH(aq)</span></td></tr>
+              <tr><th scope="row">a group 2 metal</th><td>basic oxide + water → metal hydroxide</td><td><span class="chem">CaO(s) + H2O(l) -> Ca(OH)2(aq)</span></td></tr>
+              <tr><th scope="row">carbon</th><td>acidic oxide + water → acid</td><td><span class="chem">CO2(g) + H2O(l) &lt;=&gt; H2CO3(aq)</span></td></tr>
+              <tr><th scope="row">sulfur</th><td>acidic oxide + water → acid</td><td><span class="chem">SO2(g) + H2O(l) &lt;=&gt; H2SO3(aq)</span><br><span class="chem">SO3(g) + H2O(l) -> H2SO4(aq)</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The acids are carbonic acid, <span class="chem">H2CO3</span>, sulfurous acid, <span class="chem">H2SO3</span>, and sulfuric acid, <span class="chem">H2SO4</span>. To get the formula of the acid, add the atoms of the oxide and the water together.</p>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 6">
+          <h3 class="worked__title">Equations for oxides with water</h3>
+          <div class="worked__problem">
+            <p>Deduce the equation, with state symbols, for the reaction with water of (a) potassium oxide, (b) barium oxide and (c) sulfur dioxide.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="(a) Write the formulas">
+              <p class="worked__why">Potassium is in group 1, so its ion is K<sup>+</sup>. The oxide is K<sub>2</sub>O and the hydroxide is KOH.</p>
+              <div class="worked__math">K<sub>2</sub>O + H<sub>2</sub>O → KOH (not balanced)</div>
+            </li>
+            <li data-title="(a) Balance and add states">
+              <p class="worked__why">There are two K atoms on the left, so you need 2KOH. Then check H and O.</p>
+              <div class="worked__math"><b>K<sub>2</sub>O(s) + H<sub>2</sub>O(l) → 2KOH(aq)</b></div>
+            </li>
+            <li data-title="(b) Group 2 oxide">
+              <p class="worked__why">Barium is in group 2, so its ion is Ba<sup>2+</sup>. The oxide is BaO and the hydroxide is Ba(OH)<sub>2</sub>. It is already balanced.</p>
+              <div class="worked__math"><b>BaO(s) + H<sub>2</sub>O(l) → Ba(OH)<sub>2</sub>(aq)</b></div>
+            </li>
+            <li data-title="(c) Non-metal oxide">
+              <p class="worked__why">Add the atoms of SO<sub>2</sub> and H<sub>2</sub>O to get the acid: H<sub>2</sub>SO<sub>3</sub>. The reaction is reversible.</p>
+              <div class="worked__math"><b>SO<sub>2</sub>(g) + H<sub>2</sub>O(l) ⇌ H<sub>2</sub>SO<sub>3</sub>(aq)</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>(a) K<sub>2</sub>O(s) + H<sub>2</sub>O(l) → 2KOH(aq). (b) BaO(s) + H<sub>2</sub>O(l) → Ba(OH)<sub>2</sub>(aq). (c) SO<sub>2</sub>(g) + H<sub>2</sub>O(l) ⇌ H<sub>2</sub>SO<sub>3</sub>(aq).</p></div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>If the question asks for state symbols, they are part of the mark. Check that the equation is balanced. Remember that a group 2 hydroxide has two hydroxide ions: <span class="chem">Ca(OH)2</span>.</p>
+        </aside>
+
+        <h3>Acid rain and ocean acidification</h3>
+        <figure class="s31-figure">
+          <div class="s31-figure__body">
+            <div>
+              <h4>Acid rain</h4>
+              <ol>
+                <li>Burning fuels releases gaseous non-metal oxides, such as sulfur dioxide and oxides of nitrogen.</li>
+                <li>Sulfur dioxide dissolves in rain water: <span class="chem">SO2(g) + H2O(l) &lt;=&gt; H2SO3(aq)</span></li>
+                <li>In the air, sulfur dioxide can also react with oxygen: <span class="chem">2SO2(g) + O2(g) -> 2SO3(g)</span></li>
+                <li>Sulfur trioxide forms a stronger acid: <span class="chem">SO3(g) + H2O(l) -> H2SO4(aq)</span></li>
+                <li>The rain is more acidic than normal rain. It damages buildings, trees and life in lakes.</li>
+              </ol>
+            </div>
+            <div>
+              <h4>Ocean acidification</h4>
+              <ol>
+                <li>The level of carbon dioxide in the atmosphere is rising.</li>
+                <li>More carbon dioxide dissolves in sea water: <span class="chem">CO2(g) + H2O(l) &lt;=&gt; H2CO3(aq)</span></li>
+                <li>Carbonic acid releases hydrogen ions: <span class="chem">H2CO3(aq) &lt;=&gt; H+(aq) + HCO3-(aq)</span></li>
+                <li>The pH of the ocean falls. This harms organisms with shells or skeletons made of calcium carbonate, such as corals.</li>
+              </ol>
+            </div>
+          </div>
+          <figcaption>Both problems have the same cause: an acidic non-metal oxide reacts with water to form an acid.</figcaption>
+        </figure>
+
+        <aside class="callout callout--scope">
+          <p>You do not need equations for oxides of nitrogen, phosphorus, silicon or chlorine with water, or for amphoteric oxides. You do not need methods for reducing acid rain. What pH means, and how acids react, comes later in Reactivity 3.1.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s3-1" data-syllabus="Structure 3.1.5" data-count="4" data-title="Oxides: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 3.1.6 -->
+      <section class="topic-section" id="oxidation" data-toc="Oxidation states">
+        <span class="section-code">Structure 3.1.6</span>
+        <h2>Oxidation states</h2>
+
+        <p>Chemists need a way to keep count of electrons when atoms bond. Think of it as bookkeeping: each atom gets a number that shows how many electrons it has “lost” or “gained”.</p>
+        <p>The <dfn data-def="A number assigned to an atom to show the number of electrons transferred in forming a bond. It is the charge the atom would have if the compound were composed of ions.">oxidation state</dfn> is a number assigned to an atom to show the number of electrons transferred in forming a bond. It is the charge that the atom would have if the compound were composed of ions.</p>
+        <p>In sodium chloride the ions are real: <span class="chem">Na+</span> is +1 and <span class="chem">Cl-</span> is −1. In water the bonds are covalent, but you still pretend. Oxygen is more electronegative, so it is given both electrons of each bond. Oxygen is −2 and each hydrogen is +1.</p>
+
+        <aside class="callout callout--exam">
+          <p>Write the sign first, then the number: <b>+2</b>, <b>−1</b>. Writing “2+” or “2” does not earn the mark. The form 2+ is for the charge on an ion, such as <span class="chem">Mg^2+</span>. The terms “oxidation state” and “oxidation number” are both accepted.</p>
+        </aside>
+
+        <h3>The rules</h3>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Rules for oxidation states, in order of use</caption>
+            <thead><tr><th scope="col" class="num">Rule</th><th scope="col">Statement</th><th scope="col">Example</th></tr></thead>
+            <tbody>
+              <tr><td class="num">1</td><td>An atom in an element is 0.</td><td><span class="chem">Cl2</span>, Na, <span class="chem">O2</span>: all 0</td></tr>
+              <tr><td class="num">2</td><td>The oxidation states in a neutral compound add up to 0.</td><td><span class="chem">H2O</span>: 2(+1) + (−2) = 0</td></tr>
+              <tr><td class="num">3</td><td>The oxidation states in an ion add up to the charge on the ion.</td><td><span class="chem">Mg^2+</span> is +2; in <span class="chem">OH-</span>: (−2) + (+1) = −1</td></tr>
+              <tr><td class="num">4</td><td>Fluorine is always −1 in compounds.</td><td>HF: F is −1</td></tr>
+              <tr><td class="num">5</td><td>Group 1 metals are always +1 and group 2 metals are always +2 in compounds.</td><td>NaCl: Na is +1; CaO: Ca is +2</td></tr>
+              <tr><td class="num">6</td><td>Hydrogen is +1. <b>Exception:</b> −1 in metal hydrides.</td><td>HCl: +1; NaH: −1</td></tr>
+              <tr><td class="num">7</td><td>Oxygen is −2. <b>Exception:</b> −1 in peroxides.</td><td><span class="chem">H2O</span>: −2; <span class="chem">H2O2</span>: −1</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The rules higher in the table win. That is how you find the exceptions without memorizing them. In NaH, sodium must be +1 (rule 5), so hydrogen must be −1.</p>
+
+        <h3>Why is an element zero?</h3>
+        <p>In an element, all the atoms are the same. They attract the bonding electrons equally, so no electrons are transferred from one atom to another. The oxidation state is 0.</p>
+
+        <h3>Method in words</h3>
+        <ol>
+          <li>Write down what the oxidation states must add up to: 0 for a compound, the charge for an ion.</li>
+          <li>Fill in the atoms you know from the rules.</li>
+          <li>Call the unknown oxidation state x. Multiply each value by the number of atoms.</li>
+          <li>Solve for x. Write the answer with its sign first.</li>
+        </ol>
+
+        <figure data-s1-widget="s3-1.oxstate" data-title="Oxidation state trainer">
+          <p class="widget__fallback">An interactive trainer appears here when JavaScript is on. Example: in the sulfate ion, 4 oxygen atoms at −2 give −8. The total must be −2, so sulfur is +6.</p>
+          <figcaption>Work through each species step by step. Level 3 has the hydride and peroxide exceptions. Type your final answer with the sign first.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 7">
+          <h3 class="worked__title">A simple compound</h3>
+          <div class="worked__problem">
+            <p>Deduce the oxidation state of iron in <span class="chem">Fe2O3</span>, and name the compound.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the total">
+              <p class="worked__why">It is a neutral compound.</p>
+              <div class="worked__math">sum of oxidation states = 0</div>
+            </li>
+            <li data-title="Fill in what you know">
+              <p class="worked__why">Oxygen is −2, and there are three oxygen atoms.</p>
+              <div class="worked__math">3 × (−2) = −6</div>
+            </li>
+            <li data-title="Solve for iron">
+              <p class="worked__why">There are two iron atoms, so use 2x.</p>
+              <div class="worked__math">2<i>x</i> + (−6) = 0</div>
+              <div class="worked__math">2<i>x</i> = +6, so <i>x</i> = <b>+3</b></div>
+            </li>
+            <li data-title="Name it">
+              <p class="worked__why">Iron can have more than one oxidation state, so the name shows which one with a Roman numeral.</p>
+              <div class="worked__math"><b>iron(III) oxide</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>The oxidation state of iron is +3. The compound is iron(III) oxide.</p></div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 8">
+          <h3 class="worked__title">A polyatomic ion</h3>
+          <div class="worked__problem">
+            <p>Deduce the oxidation state of chromium in the dichromate ion, <span class="chem">Cr2O7^2-</span>.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the total">
+              <p class="worked__why">It is an ion, so the oxidation states add up to its charge.</p>
+              <div class="worked__math">sum of oxidation states = −2</div>
+            </li>
+            <li data-title="Fill in what you know">
+              <p class="worked__why">Oxygen is −2, and there are seven oxygen atoms.</p>
+              <div class="worked__math">7 × (−2) = −14</div>
+            </li>
+            <li data-title="Solve for chromium">
+              <p class="worked__why">There are two chromium atoms, so use 2x. Do not forget the charge on the right.</p>
+              <div class="worked__math">2<i>x</i> + (−14) = −2</div>
+              <div class="worked__math">2<i>x</i> = +12, so <i>x</i> = <b>+6</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>The oxidation state of chromium is +6. The systematic name of the ion is dichromate(VI).</p></div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 9">
+          <h3 class="worked__title">The two exceptions</h3>
+          <div class="worked__problem">
+            <p>Deduce the oxidation state of (a) oxygen in barium peroxide, <span class="chem">BaO2</span>, and (b) hydrogen in lithium hydride, LiH.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="(a) Start with the metal">
+              <p class="worked__why">Barium is a group 2 metal. Rule 5 is higher in the table than the oxygen rule, so use it first.</p>
+              <div class="worked__math">Ba = +2</div>
+            </li>
+            <li data-title="(a) Solve for oxygen">
+              <p class="worked__why">The compound is neutral and has two oxygen atoms.</p>
+              <div class="worked__math">(+2) + 2<i>x</i> = 0</div>
+              <div class="worked__math">2<i>x</i> = −2, so <i>x</i> = <b>−1</b></div>
+            </li>
+            <li data-title="(b) Start with the metal">
+              <p class="worked__why">Lithium is a group 1 metal, so it is +1. This is a metal hydride.</p>
+              <div class="worked__math">Li = +1</div>
+            </li>
+            <li data-title="(b) Solve for hydrogen">
+              <p class="worked__why">The compound is neutral.</p>
+              <div class="worked__math">(+1) + <i>x</i> = 0, so <i>x</i> = <b>−1</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>(a) Oxygen is −1 (a peroxide). (b) Hydrogen is −1 (a metal hydride).</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="5" data-tolerance="0.1" data-label="Oxidation state (with sign)">
+          <div class="tryit__q"><p>Deduce the oxidation state of nitrogen in nitric acid, <span class="chem">HNO3</span>.</p></div>
+          <ol class="tryit__hints">
+            <li>Hydrogen is +1 and each oxygen is −2. The total is 0.</li>
+            <li>(+1) + x + 3(−2) = 0. Solve for x.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">(+1) + <i>x</i> + 3(−2) = 0</div>
+            <div class="worked__math"><i>x</i> = +6 − 1 = +5</div>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="-1" data-tolerance="0.1" data-label="Oxidation state (with sign)">
+          <div class="tryit__q"><p>Deduce the oxidation state of oxygen in sodium peroxide, <span class="chem">Na2O2</span>.</p></div>
+          <ol class="tryit__hints">
+            <li>Sodium is a group 1 metal, so it is always +1. Start there, not with oxygen.</li>
+            <li>2(+1) + 2x = 0. Solve for x.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">2(+1) + 2<i>x</i> = 0</div>
+            <div class="worked__math">2<i>x</i> = −2, so <i>x</i> = −1</div>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="7" data-tolerance="0.1" data-label="Oxidation state (with sign)">
+          <div class="tryit__q"><p>Deduce the oxidation state of manganese in the manganate(VII) ion, <span class="chem">MnO4-</span>. Do the calculation, then check it against the name.</p></div>
+          <ol class="tryit__hints">
+            <li>The total equals the charge on the ion: −1. Each oxygen is −2.</li>
+            <li>x + 4(−2) = −1. Solve for x.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>x</i> + 4(−2) = −1</div>
+            <div class="worked__math"><i>x</i> = −1 + 8 = +7, which matches the Roman numeral VII</div>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Do not give the charge of the whole ion as the answer. In <span class="chem">SO4^2-</span> the ion has a charge of 2−, but sulfur is +6. Also remember to divide by the number of atoms: in <span class="chem">Cr2O7^2-</span> the two chromium atoms total +12, so each one is +6.</p>
+        </aside>
+
+        <h3>Oxidation numbers in names</h3>
+        <p>When an element can have more than one oxidation state, the name can show it with a Roman numeral in brackets. This is the <dfn data-def="The oxidation state written as a Roman numeral in a name, for example iron(III).">oxidation number</dfn>. There is no space before the bracket.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Names with oxidation numbers</caption>
+            <thead><tr><th scope="col">Formula</th><th scope="col">Oxidation state</th><th scope="col">Systematic name</th><th scope="col">Common name (accepted)</th></tr></thead>
+            <tbody>
+              <tr><th scope="row"><span class="chem">FeCl2</span></th><td>Fe: +2</td><td>iron(II) chloride</td><td></td></tr>
+              <tr><th scope="row"><span class="chem">FeCl3</span></th><td>Fe: +3</td><td>iron(III) chloride</td><td></td></tr>
+              <tr><th scope="row"><span class="chem">Cu2O</span></th><td>Cu: +1</td><td>copper(I) oxide</td><td></td></tr>
+              <tr><th scope="row"><span class="chem">CuO</span></th><td>Cu: +2</td><td>copper(II) oxide</td><td></td></tr>
+              <tr><th scope="row"><span class="chem">NO3-</span></th><td>N: +5</td><td>nitrate(V)</td><td>nitrate</td></tr>
+              <tr><th scope="row"><span class="chem">NO2-</span></th><td>N: +3</td><td>nitrate(III)</td><td>nitrite</td></tr>
+              <tr><th scope="row"><span class="chem">SO4^2-</span></th><td>S: +6</td><td>sulfate(VI)</td><td>sulfate</td></tr>
+              <tr><th scope="row"><span class="chem">SO3^2-</span></th><td>S: +4</td><td>sulfate(IV)</td><td>sulfite</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>An ion that contains oxygen and one other element is called an <dfn data-def="A negative ion that contains oxygen and one other element, such as nitrate or sulfate.">oxyanion</dfn>. The common names nitrate, nitrite, sulfate and sulfite are still used and are accepted in exams.</p>
+
+        <aside class="callout callout--scope">
+          <p>Here you only assign oxidation states and use them in names. Using them to decide what is oxidized or reduced comes later in Reactivity 3.2. You do not need fractional oxidation states.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s3-1" data-syllabus="Structure 3.1.6" data-count="5" data-title="Oxidation states: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 3.1.7 (AHL) -->
+      <section class="topic-section" id="discontinuities" data-level="ahl" data-toc="Discontinuities in ionization energy">
+        <span class="section-code">Structure 3.1.7</span>
+        <h2>Discontinuities in first ionization energy</h2>
+
+        <p>First ionization energy increases across a period. But the increase is not smooth. A <dfn data-def="A break in a trend: a point where the value goes the opposite way to the general pattern.">discontinuity</dfn> is a place where the value falls when you expect it to rise. Each of periods 2 and 3 has two.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The two discontinuities (data booklet values in kJ mol<sup>−1</sup>)</caption>
+            <thead><tr><th scope="col">Where</th><th scope="col">Period 2</th><th scope="col">Period 3</th><th scope="col">Reason</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">group 2 → group 13</th><td class="mono">Be 900, B 801</td><td class="mono">Mg 738, Al 578</td><td>The electron removed from the group 13 atom is in a p sublevel. The p sublevel is higher in energy than the s sublevel of the same main energy level. An electron that is higher in energy needs less energy to remove.</td></tr>
+              <tr><th scope="row">group 15 → group 16</th><td class="mono">N 1402, O 1314</td><td class="mono">P 1012, S 1000</td><td>In the group 16 atom, the electron removed is in a p orbital that holds two electrons. The two electrons in the same orbital repel each other. This extra repulsion makes one of them easier to remove.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="mono" data-i18n="off">P  3p <span class="s31-ob"><span>↑</span><span>↑</span><span>↑</span></span> S  3p <span class="s31-ob"><span>↑↓</span><span>↑</span><span>↑</span></span></p>
+
+        <aside class="callout callout--key">
+          <p><b>Why this is evidence for sublevels.</b> If each main energy level were one single level, first ionization energy would rise steadily across a period. The fall from group 2 to group 13 shows that the electrons in one main energy level do not all have the same energy. The level is divided into sublevels: s, then p at a higher energy.</p>
+        </aside>
+
+        <p>You can explore every value from hydrogen to krypton in the <a href="s1-3.html#ie-trends">first ionization energy explorer in Structure 1.3</a>. That page also has the general trends in more detail.</p>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 10" data-no-badge>
+          <h3 class="worked__title">Explaining a discontinuity</h3>
+          <div class="worked__problem">
+            <p>First ionization energies: Mg <span class="mono">738 kJ mol<sup>−1</sup></span>, Al <span class="mono">578 kJ mol<sup>−1</sup></span>. Aluminium has the greater nuclear charge. Explain why its first ionization energy is lower. [2]</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Write the configurations">
+              <p class="worked__why">You need to know which sublevel each electron comes from.</p>
+              <div class="worked__math">Mg: [Ne] 3s<sup>2</sup>      Al: [Ne] 3s<sup>2</sup> 3p<sup>1</sup></div>
+            </li>
+            <li data-title="Identify the electron removed">
+              <p class="worked__why">The first mark is for naming the two sublevels.</p>
+              <div class="worked__math">Mg loses a 3s electron. Al loses a 3p electron.</div>
+            </li>
+            <li data-title="Compare the energies">
+              <p class="worked__why">The second mark is for the energy of the electron removed.</p>
+              <div class="worked__math"><b>The 3p sublevel is higher in energy than the 3s sublevel, so less energy is needed to remove the 3p electron.</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>The electron removed from Al is in the 3p sublevel, which is higher in energy than the 3s sublevel that Mg loses an electron from. Less energy is needed to remove it.</p></div>
+        </div>
+
+        <aside class="callout callout--exam" data-no-badge>
+          <p>Base your answer on the energy of the electron that is removed. Do not write that a full or half-full sublevel is “specially stable”, or that removing the electron “leaves a complete sublevel”. The guide rules this out and it does not earn marks.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s3-1" data-syllabus="Structure 3.1.7" data-count="4" data-title="Discontinuities: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 3.1.8 (AHL) -->
+      <section class="topic-section" id="transition" data-level="ahl" data-toc="Transition elements">
+        <span class="section-code">Structure 3.1.8</span>
+        <h2>Properties of transition elements</h2>
+
+        <p>Iron, copper, nickel and chromium are metals you see every day. They are strong, they melt at high temperatures, and their compounds have bright colours. They are all in the d-block.</p>
+        <p>A <dfn data-def="An element with an incomplete d sublevel that gives it characteristic properties.">transition element</dfn> has an incomplete d sublevel. This gives it characteristic properties.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Six properties to recognize</caption>
+            <thead><tr><th scope="col">Property</th><th scope="col">What it means</th><th scope="col">Where it is explained</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Variable oxidation state</th><td>One element forms ions with different charges, such as <span class="chem">Fe^2+</span> and <span class="chem">Fe^3+</span>.</td><td>next section</td></tr>
+              <tr><th scope="row">High melting points</th><td>Compared with the metals of groups 1 and 2.</td><td>Structure 2.3</td></tr>
+              <tr><th scope="row">Magnetic properties</th><td>Many transition elements and their compounds are attracted by a magnet.</td><td>no explanation needed</td></tr>
+              <tr><th scope="row">Catalytic properties</th><td>The elements and their compounds can act as catalysts.</td><td>Reactivity 2.2</td></tr>
+              <tr><th scope="row">Coloured compounds</th><td>For example, copper(II) sulfate solution is blue.</td><td>last section of this page</td></tr>
+              <tr><th scope="row">Complex ions with ligands</th><td>The metal ion bonds to molecules or ions around it.</td><td>below, and Reactivity 3.4</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <aside class="callout callout--exam" data-no-badge>
+          <p>The command term here is “recognize”. A typical question gives a list of properties and asks which ones are characteristic of transition elements. “Low melting point” and “colourless compounds” are common wrong options.</p>
+        </aside>
+
+        <h3>Complex ions and ligands</h3>
+        <p>A <dfn data-def="A molecule or ion that donates a pair of electrons to a transition element ion, forming a coordination bond.">ligand</dfn> is a molecule or ion that donates a pair of electrons to a transition element ion. The bond that forms is a coordination bond. Water, ammonia and the chloride ion can all be ligands, because each has a lone pair.</p>
+        <p>A <dfn data-def="A central transition element ion bonded to ligands by coordination bonds.">complex ion</dfn> is a central metal ion with ligands bonded to it. An example is <span class="mono">[Cu(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup></span>: one <span class="chem">Cu^2+</span> ion with six water ligands.</p>
+        <figure class="s31-figure">
+          <div class="s31-mol" data-s31-mol="aqua"></div>
+          <figcaption>One water ligand and a copper(II) ion. The arrow is the coordination bond: both electrons come from the oxygen atom. The complex ion has six of these bonds.</figcaption>
+        </figure>
+
+        <h3>Scandium and zinc</h3>
+        <p>Scandium and zinc are in the d-block, but they do not behave like typical transition elements.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The d sublevel in scandium and zinc</caption>
+            <thead><tr><th scope="col">Element</th><th scope="col">Atom</th><th scope="col">Common ion</th><th scope="col">Result</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Sc</th><td class="mono">[Ar] 4s<sup>2</sup> 3d<sup>1</sup></td><td class="mono">Sc<sup>3+</sup>: [Ar]</td><td>The ion has no d electrons. Its compounds are colourless and it has one oxidation state in compounds.</td></tr>
+              <tr><th scope="row">Zn</th><td class="mono">[Ar] 4s<sup>2</sup> 3d<sup>10</sup></td><td class="mono">Zn<sup>2+</sup>: [Ar] 3d<sup>10</sup></td><td>The d sublevel is full in the atom and in the ion. Its compounds are colourless and it has one oxidation state in compounds.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The guide asks you to think about scandium. An argument <b>for</b> calling it a transition element: the atom has an incomplete d sublevel (<span class="mono">3d<sup>1</sup></span>), and it is a d-block metal with a high melting point. An argument <b>against</b>: its only common ion, <span class="chem">Sc^3+</span>, has no d electrons, so it does not show the characteristic properties.</p>
+        <p>Zinc has a full d sublevel as an atom and as an ion. It does not fit the definition, so it is usually not counted as a transition element. The guide does not mention zinc by name.</p>
+
+        <aside class="callout callout--scope" data-no-badge>
+          <p>Types of magnetism (paramagnetism, diamagnetism) are not assessed. You do not need to name complexes, know their shapes, classify ligands, or learn specific catalysts.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s3-1" data-syllabus="Structure 3.1.8" data-count="4" data-title="Transition elements: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 3.1.9 (AHL) -->
+      <section class="topic-section" id="variable" data-level="ahl" data-toc="Variable oxidation states">
+        <span class="section-code">Structure 3.1.9</span>
+        <h2>Variable oxidation states and ion configurations</h2>
+
+        <p>Calcium always forms <span class="chem">Ca^2+</span>. Iron forms <span class="chem">Fe^2+</span> and <span class="chem">Fe^3+</span>. Why can iron choose and calcium cannot? The answer is in the successive ionization energies.</p>
+        <p>Successive ionization energies are the energies needed to remove the first electron, then the second, then the third, and so on. They are introduced in <a href="s1-3.html#successive">Structure 1.3</a>.</p>
+
+        <figure data-s1-widget="s3-1.succie" data-title="Successive ionization energies: calcium and a transition element" data-start="Fe">
+          <p class="widget__fallback">An interactive chart appears here when JavaScript is on. First three ionization energies in kJ mol−1: calcium 590, 1145, 4912; iron 762, 1562, 2957.</p>
+          <figcaption>Compare the pattern for calcium with a transition element. Look for the large jump. The first value of each set is the data booklet value. The others are rounded reference values, not booklet data.</figcaption>
+        </figure>
+
+        <aside class="callout callout--key" data-no-badge>
+          <p>In a transition element, the 4s and 3d electrons are close in energy. So the successive ionization energies are close in value, with no large jump between them. Different numbers of electrons can be lost for a similar energy cost. This is why transition elements have variable oxidation states.</p>
+        </aside>
+
+        <p>For calcium, the third ionization energy (<span class="mono">4912 kJ mol<sup>−1</sup></span>) is about 4.3 times the second (<span class="mono">1145 kJ mol<sup>−1</sup></span>). The third electron comes from an inner energy level. For iron, the third value (<span class="mono">2957 kJ mol<sup>−1</sup></span>) is about 1.9 times the second (<span class="mono">1562 kJ mol<sup>−1</sup></span>).</p>
+
+        <aside class="callout callout--exam" data-no-badge>
+          <p>The mark-earning phrase is: “successive ionization energies are close in value”. You may add that the 4s and 3d sublevels are close in energy. “The d electrons are delocalized” is not the reason.</p>
+        </aside>
+
+        <h3>Electron configurations of the ions</h3>
+        <p>When a first-row transition element atom forms a positive ion, <b>the 4s electrons are removed before any 3d electrons</b>. Structure 1.3 explains why: once 3d contains electrons, 4s is the higher of the two sublevels. See <a href="s1-3.html#configurations">Ions of the d-block metals</a>.</p>
+
+        <h3>Method in words</h3>
+        <ol>
+          <li>Write the configuration of the atom. Remember Cr is <span class="mono">[Ar] 4s<sup>1</sup> 3d<sup>5</sup></span> and Cu is <span class="mono">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>.</li>
+          <li>Remove the 4s electrons first.</li>
+          <li>If more electrons must go, remove them from 3d.</li>
+          <li>Check: the number of electrons removed equals the charge.</li>
+        </ol>
+
+        <figure data-s1-widget="s3-1.dions" data-title="Build a transition element ion" data-start="Fe">
+          <p class="widget__fallback">An interactive orbital diagram appears here when JavaScript is on. Example: iron is [Ar] 4s2 3d6. The iron(II) ion is [Ar] 3d6 and the iron(III) ion is [Ar] 3d5.</p>
+          <figcaption>Choose an element, then decide which sublevel loses each electron. The widget tells you if you remove them in the wrong order.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 11" data-no-badge>
+          <h3 class="worked__title">Configurations of transition element ions</h3>
+          <div class="worked__problem">
+            <p>Deduce the condensed electron configurations of (a) <span class="chem">Mn^2+</span>, (b) <span class="chem">Cr^3+</span> and (c) <span class="chem">Cu^2+</span>.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Write the atoms">
+              <p class="worked__why">Start from the atom every time. Cr and Cu are the two exceptions with one 4s electron.</p>
+              <div class="worked__math">Mn: [Ar] 4s<sup>2</sup> 3d<sup>5</sup>    Cr: [Ar] 4s<sup>1</sup> 3d<sup>5</sup>    Cu: [Ar] 4s<sup>1</sup> 3d<sup>10</sup></div>
+            </li>
+            <li data-title="(a) Remove two electrons from Mn">
+              <p class="worked__why">Both come from 4s.</p>
+              <div class="worked__math">Mn<sup>2+</sup>: <b>[Ar] 3d<sup>5</sup></b></div>
+            </li>
+            <li data-title="(b) Remove three electrons from Cr">
+              <p class="worked__why">Chromium has only one 4s electron. It goes first. The other two come from 3d.</p>
+              <div class="worked__math">Cr<sup>3+</sup>: <b>[Ar] 3d<sup>3</sup></b></div>
+            </li>
+            <li data-title="(c) Remove two electrons from Cu">
+              <p class="worked__why">Copper has one 4s electron. It goes first. The second comes from 3d.</p>
+              <div class="worked__math">Cu<sup>2+</sup>: <b>[Ar] 3d<sup>9</sup></b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>(a) [Ar] 3d<sup>5</sup>. (b) [Ar] 3d<sup>3</sup>. (c) [Ar] 3d<sup>9</sup>.</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="6" data-tolerance="0.1" data-label="Number of 3d electrons">
+          <div class="tryit__q"><p>How many 3d electrons does a <span class="chem">Co^3+</span> ion have? (Cobalt is Z = 27.)</p></div>
+          <ol class="tryit__hints">
+            <li>The cobalt atom is [Ar] 4s<sup>2</sup> 3d<sup>7</sup>. Three electrons must be removed.</li>
+            <li>Two come from 4s. The third comes from 3d.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">Co: [Ar] 4s<sup>2</sup> 3d<sup>7</sup> → Co<sup>3+</sup>: [Ar] 3d<sup>6</sup></div>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="2" data-tolerance="0.1" data-label="Number of 3d electrons">
+          <div class="tryit__q"><p>How many 3d electrons does a <span class="chem">V^3+</span> ion have? (Vanadium is Z = 23.)</p></div>
+          <ol class="tryit__hints">
+            <li>The vanadium atom is [Ar] 4s<sup>2</sup> 3d<sup>3</sup>.</li>
+            <li>Remove two electrons from 4s, then one from 3d.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">V: [Ar] 4s<sup>2</sup> 3d<sup>3</sup> → V<sup>3+</sup>: [Ar] 3d<sup>2</sup></div>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake" data-no-badge>
+          <p>The common error is to remove 3d electrons first, which gives <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>4</sup></span> for <span class="chem">Fe^2+</span>. The correct answer is <span class="mono">[Ar] 3d<sup>6</sup></span>. The 4s sublevel fills first, and it also empties first.</p>
+        </aside>
+
+        <aside class="callout callout--scope" data-no-badge>
+          <p>You do not need to memorize which oxidation states each transition element has, or the colours of particular ions.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s3-1" data-syllabus="Structure 3.1.9" data-count="4" data-title="Variable oxidation states and ion configurations: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 3.1.10 (AHL) -->
+      <section class="topic-section" id="colour" data-level="ahl" data-toc="Colour of complexes">
+        <span class="section-code">Structure 3.1.10</span>
+        <h2>Why transition element complexes are coloured</h2>
+
+        <p>A red filter on a torch does not add red light. It removes the other colours and lets red through. A coloured solution works in the same way: it removes part of the white light, and you see what is left.</p>
+
+        <h3>The explanation, step by step</h3>
+        <ol>
+          <li>The transition element ion has a <b>partially filled d sublevel</b>.</li>
+          <li>In a complex ion, the ligands cause the d sublevel to <b>split</b> into two sets of orbitals with different energies.</li>
+          <li>An electron in the lower set <b>absorbs light</b> and is <b>promoted</b> to the higher set.</li>
+          <li>The energy gap between the two sets matches the energy of light in the <b>visible</b> region. So one colour of visible light is absorbed.</li>
+          <li>The colour you <b>observe is complementary</b> to the colour absorbed. It is the light that passes through.</li>
+        </ol>
+        <p><dfn data-def="The colour opposite a given colour on the colour wheel. If a substance absorbs one colour, it appears as the complementary colour.">Complementary colours</dfn> are opposite each other on the colour wheel.</p>
+
+        <figure data-s1-widget="s3-1.wheel" data-title="Colour wheel: absorbed and observed colours" data-start="600">
+          <p class="widget__fallback">An interactive colour wheel appears here when JavaScript is on. The pairs of complementary colours are red and green, orange and blue, yellow and violet. Example: a solution that absorbs orange light (585 to 647 nm) looks blue.</p>
+          <figcaption>Set the wavelength of the light absorbed. The wheel has the same layout and wavelengths as section 15 of the data booklet. The colours on screen are only a guide. The diagram shows two sets of d orbitals without any pattern: you do not need the pattern.</figcaption>
+        </figure>
+
+        <aside class="callout callout--booklet" data-no-badge>
+          <p>The colour wheel is in section 15 of the data booklet. The equation <i>c</i> = <i>λf</i> is in section 1 and the speed of light is in section 2. You do not need to memorize any of them.</p>
+        </aside>
+
+        <aside class="callout callout--mistake" data-no-badge>
+          <p>The complex does not <b>emit</b> the colour you see. It <b>absorbs</b> the complementary colour, and the rest of the white light passes through. Writing “the electron falls back and emits blue light” is wrong.</p>
+        </aside>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 12" data-no-badge>
+          <h3 class="worked__title">Coloured and colourless ions</h3>
+          <div class="worked__problem">
+            <p>A solution containing the complex ion <span class="mono">[Cu(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup></span> is blue. Solutions of zinc compounds are colourless. Explain both observations. [5]</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Write the ion configurations">
+              <p class="worked__why">Colour depends on the d electrons of the ion, not of the atom.</p>
+              <div class="worked__math">Cu<sup>2+</sup>: [Ar] 3d<sup>9</sup>      Zn<sup>2+</sup>: [Ar] 3d<sup>10</sup></div>
+            </li>
+            <li data-title="Point 1: partially filled d sublevel">
+              <p class="worked__why">Start with the feature that makes colour possible.</p>
+              <div class="worked__math">Cu<sup>2+</sup> has a partially filled d sublevel.</div>
+            </li>
+            <li data-title="Point 2: splitting">
+              <p class="worked__why">Say what the ligands do.</p>
+              <div class="worked__math">The water ligands cause the d sublevel to split into two sets of orbitals with different energies.</div>
+            </li>
+            <li data-title="Points 3 and 4: absorption">
+              <p class="worked__why">You must mention that light is absorbed. Without this, the complementary colour point does not score.</p>
+              <div class="worked__math">An electron absorbs visible light (orange) and is promoted from the lower set to the higher set.</div>
+              <div class="worked__math">The colour observed, blue, is complementary to the colour absorbed.</div>
+            </li>
+            <li data-title="Point 5: zinc">
+              <p class="worked__why">Compare with the ion that has no space in its d sublevel.</p>
+              <div class="worked__math"><b>Zn<sup>2+</sup> has a full d sublevel (3d<sup>10</sup>), so no electron can be promoted between d orbitals. No visible light is absorbed.</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Cu<sup>2+</sup> (3d<sup>9</sup>) has a partially filled d sublevel, split by the ligands. An electron is promoted by absorbing orange light, and the complementary colour, blue, is seen. Zn<sup>2+</sup> (3d<sup>10</sup>) has a full d sublevel, so no promotion is possible.</p></div>
+        </div>
+
+        <p>The same reasoning explains <span class="chem">Sc^3+</span>. It has no d electrons at all, so there is no electron to promote. Its compounds are colourless.</p>
+
+        <h3>Calculations with c = λf</h3>
+        <div class="eq">
+          <div class="eq__formula"><i>c</i> = <i>λ</i><i>f</i></div>
+          <dl class="eq__legend">
+            <div><dt>c</dt><dd>speed of light, <span class="mono">3.00 × 10<sup>8</sup></span> <span class="unit">m s-1</span></dd></div>
+            <div><dt>λ</dt><dd>wavelength <span class="unit">m</span></dd></div>
+            <div><dt>f</dt><dd>frequency <span class="unit">Hz</span> (the same as <span class="unit">s-1</span>)</dd></div>
+          </dl>
+        </div>
+        <h3>Method in words</h3>
+        <ol>
+          <li>Decide whether you were given the light <b>absorbed</b> or the colour <b>observed</b>.</li>
+          <li>If you have a wavelength in nm, convert it to metres: multiply by <span class="mono">10<sup>−9</sup></span>.</li>
+          <li>Rearrange: <i>f</i> = <i>c</i> / <i>λ</i> or <i>λ</i> = <i>c</i> / <i>f</i>.</li>
+          <li>To use the colour wheel, convert a wavelength in metres back to nm: divide by <span class="mono">10<sup>−9</sup></span>.</li>
+          <li>Find the colour on the wheel. The complementary colour is directly opposite.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 13" data-no-badge>
+          <h3 class="worked__title">Colour from the frequency absorbed</h3>
+          <div class="worked__problem">
+            <p>A complex ion absorbs light of frequency <span class="mono">5.00 × 10<sup>14</sup> Hz</span>. Calculate the wavelength of this light in nm. Then use the colour wheel to deduce the colour absorbed and the colour of the complex.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Rearrange the equation">
+              <p class="worked__why">You know c and f, and you want λ.</p>
+              <div class="worked__math"><i>λ</i> = <i>c</i> / <i>f</i></div>
+            </li>
+            <li data-title="Substitute with units">
+              <p class="worked__why">Hz is the same as s<sup>−1</sup>, so the seconds cancel and the answer is in metres.</p>
+              <div class="worked__math"><i>λ</i> = (3.00 × 10<sup>8</sup> m s<sup>−1</sup>) / (5.00 × 10<sup>14</sup> s<sup>−1</sup>) = 6.00 × 10<sup>−7</sup> m</div>
+            </li>
+            <li data-title="Convert to nm">
+              <p class="worked__why">The colour wheel is in nm. 1 nm = 10<sup>−9</sup> m, so divide by 10<sup>−9</sup>.</p>
+              <div class="worked__math"><i>λ</i> = 6.00 × 10<sup>−7</sup> m / 10<sup>−9</sup> m nm<sup>−1</sup> = <b>600 nm</b></div>
+            </li>
+            <li data-title="Use the colour wheel">
+              <p class="worked__why">Find the sector that contains 600 nm, then go straight across the wheel.</p>
+              <div class="worked__math">600 nm is between 585 nm and 647 nm: orange is absorbed.</div>
+              <div class="worked__math"><b>Opposite orange is blue: the complex is blue.</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>λ = 600 nm (3 significant figures, like the data). Orange light is absorbed, so the complex appears blue.</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="6.6667e14" data-tolerance="1%" data-sigfigs="3" data-unit="Hz">
+          <div class="tryit__q"><p>A complex ion absorbs light of wavelength 450 nm. Calculate the frequency of this light.</p></div>
+          <ol class="tryit__hints">
+            <li>Convert the wavelength to metres first: 450 nm = 450 × 10<sup>−9</sup> m = 4.50 × 10<sup>−7</sup> m.</li>
+            <li>Use <i>f</i> = <i>c</i> / <i>λ</i> with <i>c</i> = 3.00 × 10<sup>8</sup> m s<sup>−1</sup>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>λ</i> = 450 nm × 10<sup>−9</sup> m nm<sup>−1</sup> = 4.50 × 10<sup>−7</sup> m</div>
+            <div class="worked__math"><i>f</i> = (3.00 × 10<sup>8</sup> m s<sup>−1</sup>) / (4.50 × 10<sup>−7</sup> m) = 6.67 × 10<sup>14</sup> Hz</div>
+            <div class="worked__math">450 nm is blue light, so this complex appears orange.</div>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="413.79" data-tolerance="1%" data-sigfigs="3" data-unit="nm">
+          <div class="tryit__q"><p>A complex ion absorbs light of frequency <span class="mono">7.25 × 10<sup>14</sup> Hz</span>. Calculate the wavelength absorbed, in nm. Then decide what colour the complex is.</p></div>
+          <ol class="tryit__hints">
+            <li>Use <i>λ</i> = <i>c</i> / <i>f</i>. The answer comes out in metres.</li>
+            <li><i>λ</i> = (3.00 × 10<sup>8</sup>) / (7.25 × 10<sup>14</sup>) m. Then divide by 10<sup>−9</sup> to get nm.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>λ</i> = (3.00 × 10<sup>8</sup> m s<sup>−1</sup>) / (7.25 × 10<sup>14</sup> s<sup>−1</sup>) = 4.138 × 10<sup>−7</sup> m</div>
+            <div class="worked__math"><i>λ</i> = 4.138 × 10<sup>−7</sup> m / 10<sup>−9</sup> m nm<sup>−1</sup> = 414 nm</div>
+            <div class="worked__math">414 nm is violet (400 to 424 nm). Opposite violet is yellow: the complex is yellow.</div>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake" data-no-badge>
+          <p>The most common slip is to put a wavelength in nm straight into <i>c</i> = <i>λf</i>. The speed of light is in metres per second, so the wavelength must be in metres. Your frequency should be close to <span class="mono">10<sup>14</sup> Hz</span> to <span class="mono">10<sup>15</sup> Hz</span> for visible light. If it is not, check the units.</p>
+        </aside>
+
+        <aside class="callout callout--exam" data-no-badge>
+          <p>For “what colour is absorbed?” examiners accept the colour name, the wavelength range from the wheel, or a wavelength inside the range. The complementary colour point only scores if you also say that light is absorbed.</p>
+        </aside>
+
+        <aside class="callout callout--scope" data-no-badge>
+          <p>You do not need d-orbital splitting diagrams for different shapes, crystal field theory, or the spectrochemical series. The data booklet has no spectrochemical series. If a question compares two complexes, it will give you the information you need.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s3-1" data-syllabus="Structure 3.1.10" data-count="5" data-title="Colour of complexes: quick check"></div>
+      </section>
+
+      <!-- ============================================================ LINKS -->
+      <section class="topic-section" id="links">
+        <h2>Linking it up</h2>
+        <p>The syllabus asks questions that connect this topic to others. Here are short answers to some of them.</p>
+
+        <h3>How has the organization of elements in the periodic table helped the discovery of new elements?</h3>
+        <p>When the elements are arranged by their properties, gaps appear. A gap predicts an element that nobody has found yet. Its position also predicts its properties, so chemists know what to look for. Gallium and germanium were found in this way. Today, new elements are made in laboratories to continue period 7.</p>
+
+        <h3>Why are simulations often used to explore the reactivity of group 1 and group 17 elements?</h3>
+        <p>Some of the reactions are too dangerous for a school laboratory. Rubidium and caesium react explosively with water, and the halogens are toxic. A simulation or a video lets you compare all the elements safely and repeat the comparison as often as you like.</p>
+
+        <h3>How do differences in bonding explain the properties of metal and non-metal oxides?</h3>
+        <p>Metal oxides are ionic. They contain oxide ions, <span class="chem">O^2-</span>, which react with water to form hydroxide ions. So the solution is alkaline. Non-metal oxides are covalent molecules. They react with water to form acids, which release hydrogen ions. Ionic oxides also have high melting points, and many molecular oxides are gases.</p>
+
+        <h3>How can oxidation states be used to analyse redox reactions?</h3>
+        <p>If the oxidation state of an atom increases during a reaction, that atom has been oxidized. If it decreases, the atom has been reduced. You will use this in Reactivity 3.2.</p>
+
+        <div data-level="ahl">
+          <h3>What is the nature of the reaction between transition element ions and ligands?</h3>
+          <p>The ligand donates a pair of electrons and the metal ion accepts it. A coordination bond forms. You will describe this as a Lewis acid–base reaction in Reactivity 3.4.</p>
+
+          <h3>How can colorimetry be used to find the concentration of a solution of coloured ions?</h3>
+          <p>A colorimeter measures how much light a solution absorbs. A more concentrated solution absorbs more light. You measure the absorbance of several solutions of known concentration and plot a calibration curve. Then you read the unknown concentration from the curve. You choose light of the complementary colour, because that is the light the solution absorbs most strongly.</p>
+        </div>
+      </section>
+
+      <!-- ============================================================ PRACTICE -->
+      <section class="topic-section" id="practice">
+        <h2>Exam-style practice</h2>
+        <p>Three sets, from first steps to stretch. You get feedback after each question, and questions you have not yet answered correctly come up first.</p>
+        <div data-s1-quiz data-topic="s3-1" data-tier="foundation" data-count="6" data-title="3.1 Foundation: one idea at a time"></div>
+        <div data-s1-quiz data-topic="s3-1" data-tier="exam" data-count="6" data-title="3.1 Exam standard"></div>
+        <div data-s1-quiz data-topic="s3-1" data-tier="challenge" data-count="4" data-title="3.1 Challenge"></div>
+        <div data-level="ahl" data-no-badge>
+          <div data-s1-quiz data-topic="s3-1" data-level="ahl" data-count="6" data-title="3.1 Additional HL only: transition elements and colour"></div>
+        </div>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../assets/js/periodic-data.js"></script>
+<script src="../assets/js/mol.js"></script>
+<script src="../assets/js/chart.js"></script>
+<script src="../data/questions-s3-1.js"></script>
+<script src="../assets/js/widgets-s3-1.js"></script>
+</body>
+</html>

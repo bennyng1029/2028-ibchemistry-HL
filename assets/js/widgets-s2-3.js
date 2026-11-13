@@ -152,6 +152,13 @@
           if (e.x < 0) { e.x = -e.x; e.a = Math.PI - e.a; }
           if (e.x > 1) { e.x = 2 - e.x; e.a = Math.PI - e.a; }
         }
+        // keep the electron dots in the spaces between the cations, so both stay readable
+        var ux = e.x * nc, uy = e.y * ROWS, sx = Math.floor(ux) + 0.5, sy = Math.floor(uy) + 0.5;
+        var ddx = ux - sx, ddy = uy - sy, dd = Math.sqrt(ddx * ddx + ddy * ddy);
+        if (dd < 0.4) {
+          if (dd < 0.001) { ddx = 0.01; ddy = 0; dd = 0.01; }
+          e.x = (sx + ddx / dd * 0.4) / nc; e.y = (sy + ddy / dd * 0.4) / ROWS;
+        }
         e.x = clamp(e.x, 0, 1); e.y = clamp(e.y, 0, 1);
       }
     }
@@ -437,7 +444,7 @@
           categories: rows.map(function (r) { return r[0]; }),
           x: { label: 'Metal' },
           y: { label: 'Melting point / °C', min: 0 },
-          series: [{ type: 'bar', labels: rows.length <= 5, data: rows.map(function (r, i) { return [i, Number(r[mpIdx])]; }) }]
+          series: [{ type: 'bar', data: rows.map(function (r, i) { return rows.length <= 5 ? [i, Number(r[mpIdx]), r[mpIdx]] : [i, Number(r[mpIdx])]; }) }]
         });
       }
     }
@@ -565,8 +572,10 @@
         setCount(good + ' / ' + need);
         fb.className = 'feedback feedback--' + (all ? 'right' : good > 0 ? 'partial' : 'wrong');
         var msg = all ? t('You chose every marking point and nothing else. Read your answer below: this is how to write it in the exam.')
-          : (bad ? t('{n} of your sentences should not be there. Read the note under each one.', { n: bad }) + ' ' : '') +
-            (good < need ? t('{n} marking points are still missing. Look for what the answer has not said yet.', { n: need - good }) : '');
+          : (bad === 1 ? t('One of your sentences should not be there. Read the note under it.') + ' '
+            : bad ? t('{n} of your sentences should not be there. Read the note under each one.', { n: bad }) + ' ' : '') +
+            (need - good === 1 ? t('One marking point is still missing. Look for what the answer has not said yet.')
+            : good < need ? t('{n} marking points are still missing. Look for what the answer has not said yet.', { n: need - good }) : '');
         fb.innerHTML = '<span class="feedback__label">' + (all ? t('Full marks') : t('Not yet')) + '</span>' + msg;
       }
       renderOut();

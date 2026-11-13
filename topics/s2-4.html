@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2.4 From models to materials | Structure Lab</title>
+<meta name="description" content="IB Chemistry Structure 2.4: the bonding continuum and the bonding triangle, alloys, polymers and plastics, addition polymers and (HL) condensation polymers.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for topic 2.4. Tokens only. */
+.s24-bar { margin: 0 0 0.75rem; padding: 0.6rem 0.8rem; border-left: 4px solid var(--accent); background: var(--accent-soft); }
+.s24-bar p { margin: 0 0 0.5rem; }
+.s24-bar > :last-child { margin-bottom: 0; }
+.s24-work { margin-top: 0.5rem; }
+.s24-stage { padding: 0.5rem 0; min-height: 7rem; }
+.s24-choices { display: grid; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); gap: 0.6rem; margin-top: 0.5rem; }
+.s24-choices:empty { display: none; }
+.s24-choice { display: block; padding: 0.3rem; min-height: 6.5rem; }
+.s24-choice__mol { display: block; pointer-events: none; }
+.s24-draw { margin: 0.75rem 0; padding: 0.5rem; border: 1px solid var(--line); background: var(--surface); max-width: 46rem; overflow-x: auto; font-family: var(--font-mono); }
+.s24-draw .mol__svg { margin-inline: 0; }
+.worked .s24-draw { border: 0; padding: 0.25rem 0; background: transparent; }
+.widget__controls .control { max-width: 100%; }
+.widget__controls .select { max-width: 100%; min-width: 0; }
+</style>
+</head>
+<body data-page="s2-4">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="s2-4"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Structure 2.4</p>
+      <h1>From models to materials</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>What role do bonding and structure have in the design of materials?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <section class="topic-section" id="goals">
+        <h2>What you need to be able to do</h2>
+        <p>Tick each one when you can do it without looking at your notes.</p>
+        <ul class="checklist" data-s1-checklist="s2-4">
+          <li data-id="continuum" data-level="sl">Describe bonding as a continuum between the ionic, covalent and metallic models, and use the models to explain the properties of a material.</li>
+          <li data-id="triangle-position" data-level="sl">Find the position of a binary compound in the bonding triangle from electronegativity data.</li>
+          <li data-id="triangle-predict" data-level="sl">Predict the properties of a compound from its position in the bonding triangle.</li>
+          <li data-id="alloys" data-level="sl">Say what an alloy is, and explain the properties of alloys using non-directional bonding.</li>
+          <li data-id="polymers" data-level="sl">Say what polymers and monomers are, and describe the common properties of plastics using their structure.</li>
+          <li data-id="addition-unit" data-level="sl">Draw the repeating unit of an addition polymer from a given monomer.</li>
+          <li data-id="addition-monomer" data-level="sl">Deduce the monomer from a section of an addition polymer.</li>
+          <li data-id="condensation-unit" data-level="ahl">Draw the repeating unit of a polyamide or a polyester from given monomers, and name the small molecule released.</li>
+          <li data-id="hydrolysis" data-level="ahl">State that biological macromolecules form by condensation and break down by hydrolysis, and deduce the monomers from a condensation polymer.</li>
+        </ul>
+      </section>
+
+      <!-- ============================================================ 2.4.1 -->
+      <section class="topic-section" id="continuum" data-toc="The bonding continuum">
+        <span class="section-code">Structure 2.4.1</span>
+        <h2>Bonding is a continuum</h2>
+        <p>Think of a colour chart for paint. Red, yellow and blue sit at the corners. Most paints are a mixture, somewhere between the corners. Bonding works in a similar way.</p>
+        <p>In Structure 2.1, 2.2 and 2.3 you met three bonding models. Each model describes one extreme kind of bonding.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The three bonding models</caption>
+            <thead>
+              <tr><th scope="col">Model</th><th scope="col">What attracts what</th><th scope="col">Typical properties</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Ionic</th><td>Electrostatic attraction between oppositely charged ions in a lattice.</td><td>High melting point. Brittle. Conducts electricity only when molten or dissolved, because then the ions can move.</td></tr>
+              <tr><th scope="row">Covalent</th><td>Electrostatic attraction between a shared pair of electrons and the two positively charged nuclei.</td><td>Does not conduct, because there are no mobile charged particles. Molecular substances have low melting points. Covalent networks have very high melting points.</td></tr>
+              <tr><th scope="row">Metallic</th><td>Electrostatic attraction between a lattice of cations and delocalized electrons.</td><td>Conducts electricity and heat as a solid. Malleable.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>Real substances do not fall into three separate boxes. The bonding in most substances has some character of more than one model. Chemists say that bonding is a <dfn data-def="A smooth range with no sharp dividing lines. Bonding changes gradually from one type to another.">continuum</dfn>: it changes gradually from one type to another.</p>
+        <p>One example is hydrogen chloride. Its bond is covalent, but chlorine attracts the shared electrons more strongly than hydrogen does. The bond is polar. It is covalent with some ionic character.</p>
+
+        <aside class="callout callout--key">
+          <p>Ionic, covalent and metallic are models, not boxes. The bonding in a real material is usually somewhere between them. The position between the models explains the properties of the material.</p>
+        </aside>
+
+        <h3>The bonding triangle</h3>
+        <p>The <dfn data-def="A diagram with ionic, covalent and metallic bonding at its three corners. A substance is placed on it using the electronegativities of its two elements.">bonding triangle</dfn> is a map of this continuum. The three pure models sit at the three corners. A substance gets a position on the map from the electronegativities of its elements.</p>
+        <p>Remember that <dfn data-def="A measure of how strongly an atom attracts the shared pair of electrons in a covalent bond.">electronegativity</dfn>, symbol <i>χ</i>, measures how strongly an atom attracts a shared pair of electrons.</p>
+
+        <figure data-s1-widget="s2-4.triangle" data-mode="map" data-title="A map of bonding">
+          <p class="widget__fallback">A diagram of the bonding triangle appears here when JavaScript is on. Metallic bonding is at the bottom left, covalent bonding at the bottom right and ionic bonding at the top.</p>
+          <figcaption>Choose a region to see what it means. The outline follows the triangle printed in section 17 of the data booklet. The dashed lines belong to the percentage scale on the right. In the booklet the left corner is labelled 0.79.</figcaption>
+        </figure>
+
+        <ul>
+          <li><strong>Bottom left, metallic.</strong> Both elements have low electronegativity. Neither holds its outer electrons strongly, so the electrons are delocalized.</li>
+          <li><strong>Bottom right, covalent.</strong> Both elements have high electronegativity. Both attract electrons strongly, so the electrons are shared.</li>
+          <li><strong>Top, ionic.</strong> One element has low electronegativity and one has high electronegativity. Electrons are transferred, so ions form.</li>
+        </ul>
+        <p>Between the covalent corner and the ionic top, the sharing becomes more and more unequal. This part is labelled <dfn>polar covalent</dfn>. The booklet prints no line between “covalent” and “polar covalent”, because the change is gradual.</p>
+
+        <aside class="callout callout--booklet">
+          <p>The triangular bonding diagram is in section 17 of the data booklet. Electronegativity values are in section 9. You do not need to remember either.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>When you explain a property, name the particles and the attraction. For example: “strong electrostatic attraction between oppositely charged ions” or “delocalized electrons are free to move”. A bare phrase such as “strong bonds” does not earn the mark.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-4" data-syllabus="Structure 2.4.1" data-count="3" data-title="The bonding continuum: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.4.2 -->
+      <section class="topic-section" id="triangle" data-toc="Using the triangle">
+        <span class="section-code">Structure 2.4.2</span>
+        <h2>Placing a compound in the bonding triangle</h2>
+        <p>A map needs two coordinates. For the bonding triangle, you calculate both from the electronegativities of the two elements.</p>
+
+        <div class="eq">
+          <div class="eq__formula">Δ<i>χ</i> = |<i>χ</i><sub>a</sub> − <i>χ</i><sub>b</sub>| &nbsp;&nbsp;&nbsp; average <i>χ</i> = <span class="frac"><span><i>χ</i><sub>a</sub> + <i>χ</i><sub>b</sub></span><span>2</span></span></div>
+          <dl class="eq__legend">
+            <div><dt>χ<sub>a</sub>, χ<sub>b</sub></dt><dd>electronegativities of the two elements (no unit)</dd></div>
+            <div><dt>Δχ</dt><dd>electronegativity difference: the vertical axis (no unit)</dd></div>
+            <div><dt>average χ</dt><dd>average electronegativity: the horizontal axis (no unit)</dd></div>
+          </dl>
+        </div>
+
+        <p>The two vertical bars mean “the size of the difference”. Always subtract the smaller value from the larger value, so the answer is positive.</p>
+
+        <h3>Method in words</h3>
+        <ol>
+          <li>Look up the electronegativity of each element (data booklet, section 9).</li>
+          <li>Subtract the smaller value from the larger value. This is the difference, Δ<i>χ</i>. It goes <strong>up</strong> the triangle.</li>
+          <li>Add the two values and divide by 2. This is the average. It goes <strong>along</strong> the triangle.</li>
+          <li>Find the point on the triangle and read the region.</li>
+          <li>Use the region to predict the properties.</li>
+        </ol>
+        <p>The numbers in the formula do not matter. For <span class="chem">MgCl2</span> you use one value for Mg and one value for Cl. You do not count the chlorine twice.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Electronegativity values used on this page (data booklet, section 9)</caption>
+            <thead>
+              <tr><th scope="col">Element</th><th scope="col" class="num"><i>χ</i></th><th scope="col">Element</th><th scope="col" class="num"><i>χ</i></th><th scope="col">Element</th><th scope="col" class="num"><i>χ</i></th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">H</th><td class="num">2.2</td><th scope="row">Na</th><td class="num">0.9</td><th scope="row">S</th><td class="num">2.6</td></tr>
+              <tr><th scope="row">C</th><td class="num">2.6</td><th scope="row">Mg</th><td class="num">1.3</td><th scope="row">Cl</th><td class="num">3.2</td></tr>
+              <tr><th scope="row">N</th><td class="num">3.0</td><th scope="row">Al</th><td class="num">1.6</td><th scope="row">K</th><td class="num">0.8</td></tr>
+              <tr><th scope="row">O</th><td class="num">3.4</td><th scope="row">Si</th><td class="num">1.9</td><th scope="row">Ca</th><td class="num">1.0</td></tr>
+              <tr><th scope="row">F</th><td class="num">4.0</td><th scope="row">P</th><td class="num">2.2</td><th scope="row">Br</th><td class="num">3.0</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <figure data-s1-widget="s2-4.triangle" data-title="Bonding triangle plotter">
+          <p class="widget__fallback">An interactive bonding triangle appears here when JavaScript is on. Choose two elements to see the electronegativity difference, the average electronegativity and the region of the triangle.</p>
+          <figcaption>Choose two elements, or pick an example. The working shows both coordinates. Then press “Predict first” and decide the region before the point is shown. The outline is the triangle printed in the data booklet, so points for some fluorides fall on its outer edge.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Magnesium oxide on the triangle</h3>
+          <div class="worked__problem">
+            <p>Use <i>χ</i>(Mg) = 1.3 and <i>χ</i>(O) = 3.4. Determine the position of magnesium oxide, <span class="chem">MgO</span>, in the bonding triangle. Predict its bonding type and two properties.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the difference">
+              <p class="worked__why">The difference is the vertical coordinate. Subtract the smaller value from the larger value.</p>
+              <div class="worked__math">Δ<i>χ</i> = 3.4 − 1.3 = 2.1</div>
+            </li>
+            <li data-title="Find the average">
+              <p class="worked__why">The average is the horizontal coordinate. Add, then divide by 2.</p>
+              <div class="worked__math">average <i>χ</i> = (1.3 + 3.4) / 2 = 4.7 / 2 = 2.35</div>
+            </li>
+            <li data-title="Read the region">
+              <p class="worked__why">Go along to 2.35 and up to 2.1. The point is in the upper part of the triangle.</p>
+              <div class="worked__math">(2.35, 2.1) is in the <b>ionic</b> region</div>
+            </li>
+            <li data-title="Predict the properties">
+              <p class="worked__why">Use the ionic model: strong electrostatic attraction between oppositely charged ions, and ions that are fixed in the solid.</p>
+              <div class="worked__math">high melting point; conducts electricity when molten but not as a solid</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Δ<i>χ</i> = 2.1 and average <i>χ</i> = 2.35, so MgO is ionic. It has a high melting point and conducts only when molten.</p></div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example: a contrast">
+          <h3 class="worked__title">Phosphorus trichloride on the triangle</h3>
+          <div class="worked__problem">
+            <p>Use <i>χ</i>(P) = 2.2 and <i>χ</i>(Cl) = 3.2. Determine the position of phosphorus trichloride, <span class="chem">PCl3</span>, in the bonding triangle. Predict its bonding type and two properties.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the difference">
+              <p class="worked__why">Use one value for each element. The 3 in the formula is not used.</p>
+              <div class="worked__math">Δ<i>χ</i> = 3.2 − 2.2 = 1.0</div>
+            </li>
+            <li data-title="Find the average">
+              <p class="worked__why">Add the two values, then divide by 2.</p>
+              <div class="worked__math">average <i>χ</i> = (2.2 + 3.2) / 2 = 5.4 / 2 = 2.7</div>
+            </li>
+            <li data-title="Read the region">
+              <p class="worked__why">Go along to 2.7 and up to 1.0. The point is on the right, well above the base.</p>
+              <div class="worked__math">(2.7, 1.0) is in the <b>polar covalent</b> region</div>
+            </li>
+            <li data-title="Predict the properties">
+              <p class="worked__why">Use the covalent model: electrons are held in bonds, so no charged particles can move. <span class="chem">PCl3</span> is made of small molecules, with only weak forces between them.</p>
+              <div class="worked__math">does not conduct electricity; low melting point</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Δ<i>χ</i> = 1.0 and average <i>χ</i> = 2.7, so <span class="chem">PCl3</span> is polar covalent. It does not conduct and it has a low melting point.</p></div>
+        </div>
+
+        <p>Compare the two examples. Both compounds contain a period 3 element joined to a more electronegative element. The larger difference puts MgO high in the triangle, in the ionic region. The smaller difference and larger average put <span class="chem">PCl3</span> lower and further right, in the polar covalent region.</p>
+
+        <aside class="callout callout--mistake">
+          <p>Do not decide by “metal with non-metal means ionic”. Use the two numbers. Tin(IV) chloride contains a metal and a non-metal, but its point (2.6, 1.2) is in the polar covalent region. It is a liquid made of molecules.</p>
+        </aside>
+
+        <aside class="callout callout--mistake">
+          <p>The average is not the sum. For <i>χ</i> values 1.3 and 3.4, the sum is 4.7 but the average is 2.35. Also check the axes: the average goes along, the difference goes up.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="2.4" data-tolerance="0.01" data-label="Electronegativity difference">
+          <div class="tryit__q"><p>Calcium oxide is <span class="chem">CaO</span>. Use <i>χ</i>(Ca) = 1.0 and <i>χ</i>(O) = 3.4. Calculate the electronegativity difference.</p></div>
+          <ol class="tryit__hints">
+            <li>The difference is the larger value minus the smaller value.</li>
+            <li>Set up 3.4 − 1.0.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">Δ<i>χ</i> = 3.4 − 1.0 = 2.4</div>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="2.2" data-tolerance="0.01" data-label="Average electronegativity">
+          <div class="tryit__q"><p>Now calculate the average electronegativity for calcium oxide, using the same values.</p></div>
+          <ol class="tryit__hints">
+            <li>Add the two values first. Then divide by 2.</li>
+            <li>Set up (1.0 + 3.4) / 2.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">average <i>χ</i> = (1.0 + 3.4) / 2 = 4.4 / 2 = 2.2</div>
+            <p>The point (2.2, 2.4) is in the ionic region. Check it with the plotter above.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="2.55" data-tolerance="0.006" data-label="Average electronegativity">
+          <div class="tryit__q"><p>Silicon tetrachloride is <span class="chem">SiCl4</span>. Use <i>χ</i>(Si) = 1.9 and <i>χ</i>(Cl) = 3.2. Calculate the average electronegativity.</p></div>
+          <ol class="tryit__hints">
+            <li>Use one value for silicon and one value for chlorine. Ignore the 4 in the formula.</li>
+            <li>Set up (1.9 + 3.2) / 2. Keep both decimal places.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">average <i>χ</i> = (1.9 + 3.2) / 2 = 5.1 / 2 = 2.55</div>
+            <p>The difference is 3.2 − 1.9 = 1.3. The point (2.55, 1.3) is in the polar covalent region.</p>
+          </div>
+        </div>
+
+        <h3>Predicting properties from the position</h3>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>What each region of the triangle predicts</caption>
+            <thead>
+              <tr><th scope="col">Region</th><th scope="col">Model that fits best</th><th scope="col">Properties to predict</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Ionic</th><td>Lattice of ions</td><td>High melting point. Brittle. Does not conduct as a solid. Conducts when molten or dissolved in water.</td></tr>
+              <tr><th scope="row">Covalent and polar covalent</th><td>Shared electron pairs</td><td>Does not conduct in any state. Low melting point if it is made of molecules. Very high melting point if it is a covalent network.</td></tr>
+              <tr><th scope="row">Metallic</th><td>Cations and delocalized electrons</td><td>Conducts electricity and heat as a solid. Malleable.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>A point near a boundary has properties between the two models. Aluminium chloride, at (2.4, 1.6), lies just inside the polar covalent region, close to the ionic region. It is a solid that turns into a gas at a low temperature, which the ionic model alone does not predict.</p>
+        <p>The triangle has a limit. It tells you the type of bonding. It does not tell you the structure. Carbon dioxide and silicon dioxide are both polar covalent, but <span class="chem">CO2</span> is molecular and <span class="chem">SiO2</span> is a covalent network.</p>
+
+        <h3>Reading the percentage scale</h3>
+        <p>The booklet prints a scale beside the triangle. It shows the percentage covalent character and the percentage ionic character at each height. You read it at the height of your point. The two percentages always add up to 100.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The scale beside the triangle (heights read from the booklet diagram)</caption>
+            <thead>
+              <tr><th scope="col" class="num">Δ<i>χ</i> (about)</th><th scope="col" class="num">% covalent</th><th scope="col" class="num">% ionic</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="num">0</td><td class="num">100</td><td class="num">0</td></tr>
+              <tr><td class="num">1.0</td><td class="num">75</td><td class="num">25</td></tr>
+              <tr><td class="num">1.6</td><td class="num">50</td><td class="num">50</td></tr>
+              <tr><td class="num">2.3</td><td class="num">25</td><td class="num">75</td></tr>
+              <tr><td class="num">3.2</td><td class="num">8</td><td class="num">92</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>For MgO, Δ<i>χ</i> = 2.1. That height is between the 50 % ionic line and the 75 % ionic line, and closer to the 75 % line. A fair reading is about 65 to 70 % ionic.</p>
+
+        <aside class="callout callout--exam">
+          <p>Give both numbers, the difference and the average, and then the bonding type. One number alone does not earn the mark. A percentage is a reading from the diagram, so a small range of answers is accepted.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>You do not need to calculate percentage ionic character with a formula. You only read the scale on the diagram. You also do not need the triangle for compounds of three or more elements: only binary compounds are placed on it.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-4" data-syllabus="Structure 2.4.2" data-count="5" data-title="Bonding triangle: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.4.3 -->
+      <section class="topic-section" id="alloys">
+        <span class="section-code">Structure 2.4.3</span>
+        <h2>Alloys</h2>
+        <p>A gold ring is rarely pure gold. Pure gold is so soft that a ring would bend out of shape. Jewellers mix the gold with a little copper or silver to make it harder.</p>
+        <p>An <dfn data-def="A mixture of a metal and other metals or non-metals. It has enhanced properties.">alloy</dfn> is a mixture of a metal and other metals or non-metals. Alloys have enhanced properties: they are often harder, stronger or more resistant to corrosion than the pure metal.</p>
+        <p>Common examples are bronze (copper with tin), brass (copper with zinc) and stainless steel (iron with chromium, nickel and a little carbon). Carbon is a non-metal, so steel shows that the added element does not have to be a metal.</p>
+
+        <h3>Why metals can form alloys</h3>
+        <p>In a metal, cations sit in a lattice and are attracted to the delocalized electrons all around them. This attraction acts equally in every direction. Chemists say metallic bonding is <dfn data-def="Acting equally in all directions, not along a fixed line between two particular atoms.">non-directional</dfn>.</p>
+        <p>Because the bonding is non-directional, the lattice does not need one fixed arrangement of particular atoms. An atom of a different element can take a place in the lattice, and the delocalized electrons still hold everything together.</p>
+
+        <h3>Why alloys are often harder and stronger</h3>
+        <p>In a pure metal, all the cations are the same size. They pack in regular layers. When a force is applied, the layers can slide over each other. That is why pure metals are malleable.</p>
+        <p>In an alloy, the atoms of the added element are a different size. They disrupt the regular layers. The layers cannot slide over each other as easily, so the alloy is harder and stronger.</p>
+
+        <figure data-s1-widget="s2-4.alloy" data-title="Push a layer: pure metal and alloy">
+          <p class="widget__fallback">An interactive model of a metal lattice appears here when JavaScript is on. In a pure metal the layers of ions slide easily. In an alloy, atoms of a different size break up the layers, so they slide less easily.</p>
+          <figcaption>Choose a material, then push the top layers. This is a flat model of a few dozen ions. A real metal has layers in three dimensions. In a real alloy the layers can still slide if the force is large enough: it is harder to do, not impossible.</figcaption>
+        </figure>
+
+        <aside class="callout callout--key">
+          <p>Alloys are mixtures. The amounts of the elements can vary, and the elements are not chemically combined in a fixed ratio. That is why an alloy is not a compound.</p>
+        </aside>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Explaining the hardness of an alloy</h3>
+          <div class="worked__problem">
+            <p>Brass is an alloy of copper and zinc. Explain why brass is harder than pure copper. [2 marks]</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Describe the pure metal">
+              <p class="worked__why">An “explain” answer needs the starting picture: what makes pure copper soft.</p>
+              <div class="worked__math">In pure copper, the cations are all the same size and form regular layers. The layers can slide over each other.</div>
+            </li>
+            <li data-title="Say what the added atoms do">
+              <p class="worked__why">This is the first marking point. Mention the different size and the effect on the regular arrangement.</p>
+              <div class="worked__math">Zinc atoms are a different size from copper atoms, so they disrupt the regular layers of the lattice.</div>
+            </li>
+            <li data-title="Link to the property">
+              <p class="worked__why">This is the second marking point. Connect the structure to hardness.</p>
+              <div class="worked__math"><b>The layers cannot slide over each other as easily, so brass is harder.</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Zinc atoms have a different size, so they disrupt the regular layers. The layers slide over each other less easily.</p></div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Do not write that an alloy is harder “because the bonds are stronger”. The mark is for the disrupted layers that slide less easily. Do not call an alloy a compound.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>You do not need to learn the composition or the uses of any particular alloy. Any alloy in a question will be described for you.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-4" data-syllabus="Structure 2.4.3" data-count="3" data-title="Alloys: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.4.4 -->
+      <section class="topic-section" id="polymers" data-toc="Polymers and plastics">
+        <span class="section-code">Structure 2.4.4</span>
+        <h2>Polymers and plastics</h2>
+        <p>A paper-clip chain is made by joining many identical clips, one after another. A polymer is made in the same way, from small molecules.</p>
+        <p>A <dfn data-def="A large molecule (macromolecule) made from many repeating subunits called monomers.">polymer</dfn> is a large molecule made from many repeating subunits. The small molecules that join together are called <dfn data-def="A small molecule that can join with many others to form a polymer.">monomers</dfn>. Another word for a very large molecule is <dfn>macromolecule</dfn>. One polymer chain can contain thousands of monomer units.</p>
+
+        <h3>Natural and synthetic polymers</h3>
+        <ul>
+          <li><strong>Natural polymers</strong> are made by living things. Examples are starch and cellulose in plants, proteins, DNA and natural rubber.</li>
+          <li><strong>Synthetic polymers</strong> are made in factories. Examples are poly(ethene), used for bags and bottles, and nylon, used for fabrics. Plastics are synthetic polymers.</li>
+        </ul>
+
+        <h3>Properties of plastics, explained by structure</h3>
+        <p>Two facts about the structure explain most properties of plastics.</p>
+        <ul>
+          <li>Inside each chain, the atoms are joined by strong covalent bonds.</li>
+          <li>Between one chain and the next, there are only weak intermolecular forces.</li>
+        </ul>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Common properties of plastics</caption>
+            <thead>
+              <tr><th scope="col">Property</th><th scope="col">Kind</th><th scope="col">Reason from the structure</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Unreactive (chemically inert)</th><td>chemical</td><td>The covalent bonds in the chains are strong and take a lot of energy to break.</td></tr>
+              <tr><th scope="row">Non-biodegradable</th><td>chemical</td><td>Microorganisms cannot easily break the strong covalent bonds, so the chains stay intact.</td></tr>
+              <tr><th scope="row">Electrical insulator</th><td>physical</td><td>All outer electrons are held in covalent bonds. There are no delocalized electrons or mobile ions.</td></tr>
+              <tr><th scope="row">Poor conductor of heat</th><td>physical</td><td>There are no delocalized electrons to carry energy quickly.</td></tr>
+              <tr><th scope="row">Low density</th><td>physical</td><td>The chains contain light atoms such as carbon and hydrogen, and long chains do not pack tightly.</td></tr>
+              <tr><th scope="row">Softens on heating and can be moulded</th><td>physical</td><td>The weak forces between chains are overcome, so the chains can slide past each other.</td></tr>
+              <tr><th scope="row">Strong for its mass</th><td>physical</td><td>The chains are very long, so the many weak forces along each chain add up.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <figure data-s1-widget="s2-4.plastics" data-title="Sort the properties of plastics">
+          <p class="widget__fallback">An interactive sorting exercise appears here when JavaScript is on. It asks whether each property of plastics is physical or chemical, and gives the reason from the structure.</p>
+          <figcaption>Decide if each property is physical or chemical. The feedback gives the reason from the structure of the polymer.</figcaption>
+        </figure>
+
+        <p>The same property can be useful and harmful. Plastics are unreactive, so a plastic bottle does not react with the drink inside it. But for the same reason plastic waste is not broken down in nature. It stays in the environment for a very long time.</p>
+
+        <aside class="callout callout--exam">
+          <p>Read the command carefully. If a question asks for a <em>chemical</em> property of a plastic, write “unreactive”, “chemically inert” or “non-biodegradable”. A physical property, such as “strong” or “low density”, does not earn the mark.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>You do not need to learn the names, structures or uses of particular plastics. You do not need high-density and low-density poly(ethene), thermoplastic and thermosetting polymers, plasticizers or recycling codes.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-4" data-syllabus="Structure 2.4.4" data-count="3" data-title="Polymers and plastics: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.4.5 -->
+      <section class="topic-section" id="addition" data-toc="Addition polymers">
+        <span class="section-code">Structure 2.4.5</span>
+        <h2>Addition polymers</h2>
+        <p>Picture a line of people, each with their arms folded. If every person unfolds their arms and holds hands with the neighbours on both sides, the line becomes one long chain. Nobody leaves the line.</p>
+        <p>An <dfn data-def="A polymer formed when the double bond in each monomer breaks and the monomers join, with no other product.">addition polymer</dfn> forms in this way. Each monomer has a carbon to carbon double bond, <span class="chem" data-i18n="off">C=C</span>. One bond of the double bond breaks. Each of the two carbon atoms then forms a new single bond to the next monomer.</p>
+        <p>Molecules with a <span class="chem" data-i18n="off">C=C</span> double bond are called alkenes. You will study alkenes as a class of compound in Structure 3.2.</p>
+
+        <aside class="callout callout--key">
+          <p>In addition polymerization the monomers add together and nothing else is made. The polymer is the only product. The repeating unit contains the same atoms as one monomer.</p>
+        </aside>
+
+        <figure data-s1-widget="s2-4.addition" data-title="Addition polymer builder">
+          <p class="widget__fallback">An interactive polymer builder appears here when JavaScript is on. It shows three monomer molecules, their double bonds opening, the units joining into a chain and the repeating unit in brackets.</p>
+          <figcaption>Choose a monomer and step through. Watch the double bond become a single bond while the side groups stay where they are. Then try “Reverse: find the monomer”.</figcaption>
+        </figure>
+
+        <p>A <dfn data-def="The smallest group of atoms that repeats along a polymer chain.">repeating unit</dfn> is the smallest group of atoms that repeats along the chain. It is drawn with a bond at each end that passes through square brackets. A small <i>n</i> after the brackets stands for a very large number.</p>
+        <p>The equation for making poly(ethene) from ethene shows this notation.</p>
+        <div class="eq" data-i18n="off">
+          <div class="eq__formula"><i>n</i> CH<sub>2</sub>=CH<sub>2</sub> → [–CH<sub>2</sub>–CH<sub>2</sub>–]<sub><i>n</i></sub></div>
+        </div>
+
+        <h3>Method: repeating unit from a monomer</h3>
+        <ol>
+          <li>Redraw the monomer with the two double-bonded carbons side by side. Put every other group above or below those two carbons.</li>
+          <li>Change the double bond to a single bond.</li>
+          <li>Draw one new bond out from each of the two carbons, to the left and to the right. These are the continuation bonds.</li>
+          <li>Add brackets and <i>n</i> if you want. Check that each carbon has four bonds.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Repeating unit from a monomer</h3>
+          <div class="worked__problem">
+            <p>Propene has the structure shown. Draw the repeating unit of the addition polymer formed from propene.</p>
+            <div class="s24-draw" data-s24-draw="mono" data-m="propene" data-label="Propene: two carbons joined by a double bond. The first carbon has two hydrogen atoms. The second carbon has one hydrogen atom and one CH3 group." data-i18n="off">CH2=CH(CH3)</div>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the two double-bonded carbons">
+              <p class="worked__why">Only these two carbons go into the backbone of the chain. The <span class="chem">CH3</span> group is not part of the double bond, so it is a side group.</p>
+              <div class="worked__math">backbone carbons: the CH<sub>2</sub> carbon and the CH carbon</div>
+            </li>
+            <li data-title="Change C=C to C–C">
+              <p class="worked__why">One bond of the double bond breaks. The carbons stay joined by a single bond.</p>
+              <div class="worked__math">CH<sub>2</sub>=CH(CH<sub>3</sub>) becomes CH<sub>2</sub>–CH(CH<sub>3</sub>)</div>
+            </li>
+            <li data-title="Add the continuation bonds">
+              <p class="worked__why">Each backbone carbon now needs one more bond. These bonds join the unit to its neighbours.</p>
+              <div class="worked__math">–CH<sub>2</sub>–CH(CH<sub>3</sub>)–</div>
+            </li>
+            <li data-title="Check and draw">
+              <p class="worked__why">Each carbon must have four bonds. The <span class="chem">CH3</span> group hangs off the chain.</p>
+              <div class="s24-draw" data-s24-draw="rep" data-m="propene" data-label="Repeating unit of poly(propene): two backbone carbons joined by a single bond, with a continuation bond at each end through square brackets. The first carbon has two hydrogen atoms. The second carbon has one hydrogen atom and one CH3 group." data-i18n="off">[–CH2–CH(CH3)–]n</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>The repeating unit is –CH<sub>2</sub>–CH(CH<sub>3</sub>)–, with the <span class="chem">CH3</span> group as a side group.</p></div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Do not put all three carbons of propene in a row in the backbone. Only the two carbons of the double bond are in the chain. Do not leave the double bond in the repeating unit either: it has become a single bond.</p>
+        </aside>
+
+        <h3>Method: monomer from a polymer</h3>
+        <ol>
+          <li>Mark off the chain two backbone carbons at a time. Each pair, with its side groups, is one repeating unit.</li>
+          <li>Copy one pair with all four side groups.</li>
+          <li>Remove the continuation bonds and draw a double bond between the two carbons.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Monomer from a polymer</h3>
+          <div class="worked__problem">
+            <p>A section of an addition polymer is shown. Deduce the structure of the monomer.</p>
+            <div class="s24-draw" data-s24-draw="chain" data-m="propenenitrile" data-units="2" data-label="A polymer chain section with four backbone carbons. Carbons 1 and 3 each have two hydrogen atoms. Carbons 2 and 4 each have one hydrogen atom and one CN group. A continuation bond is at each end." data-i18n="off">–CH2–CH(CN)–CH2–CH(CN)–</div>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Mark one repeating unit">
+              <p class="worked__why">The repeating unit of an addition polymer has two backbone carbons. Here the pattern repeats every two carbons.</p>
+              <div class="s24-draw" data-s24-draw="pair" data-m="propenenitrile" data-label="The same chain with the first two backbone carbons and their side groups circled as one repeating unit" data-i18n="off">[–CH2–CH(CN)–]–CH2–CH(CN)–</div>
+            </li>
+            <li data-title="Copy the unit">
+              <p class="worked__why">Keep all four side groups exactly where they are.</p>
+              <div class="worked__math">–CH<sub>2</sub>–CH(CN)–</div>
+            </li>
+            <li data-title="Put the double bond back">
+              <p class="worked__why">The continuation bonds were made from the double bond. Remove them and restore <span class="chem" data-i18n="off">C=C</span>.</p>
+              <div class="s24-draw" data-s24-draw="mono" data-m="propenenitrile" data-label="The monomer: two carbons joined by a double bond. The first carbon has two hydrogen atoms. The second carbon has one hydrogen atom and one CN group." data-i18n="off">CH2=CH(CN)</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>The monomer is CH<sub>2</sub>=CH(CN).</p></div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>The mark for a repeating unit needs the correct structure <em>and</em> a continuation bond at each end. Draw only one repeating unit: drawing two loses the mark. Brackets and <i>n</i> are not required, but they are a good habit. A bond must end on the correct atom, for example on the C of a <span class="chem">CH3</span> group.</p>
+        </aside>
+
+        <aside class="callout callout--scope" data-title="Comes later in the course">
+          <p>How the double bond breaks, step by step, is a reaction mechanism. Mechanisms come in Reactivity 3. The calculation called atom economy comes in Reactivity 2.1. Here you only need the idea that an addition polymer is the only product, so no atoms are wasted.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>You do not need to remember the structures of monomers. A question gives you the monomer, or gives you the polymer so you can deduce the monomer.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-4" data-syllabus="Structure 2.4.5" data-count="5" data-title="Addition polymers: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.4.6 AHL -->
+      <section class="topic-section" id="condensation" data-level="ahl" data-toc="Condensation polymers">
+        <span class="section-code">Structure 2.4.6</span>
+        <h2>Condensation polymers</h2>
+        <p>Imagine a line of people where each person must take off a glove before shaking hands with a neighbour. A chain forms, and a pile of gloves is left over. In a condensation polymer, the “glove” is a small molecule, usually water.</p>
+        <p>A <dfn data-def="A polymer formed when functional groups on the monomers react together. A small molecule, usually water, is released each time a link forms.">condensation polymer</dfn> forms when functional groups on the monomers react with each other. Each time two monomers join, a small molecule is released. A <dfn data-def="A group of atoms in a molecule that gives the molecule its typical reactions, such as –OH or –COOH.">functional group</dfn> is a group of atoms that gives a molecule its typical reactions.</p>
+        <p>Each monomer needs <strong>two</strong> functional groups, so that it can join to a neighbour on both sides. You need two kinds of condensation polymer.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The two kinds of condensation polymer you need</caption>
+            <thead>
+              <tr><th scope="col">Polymer</th><th scope="col">Monomers</th><th scope="col">Groups that react</th><th scope="col">Link formed</th><th scope="col">Released</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Polyester</th><td>a diol and a dicarboxylic acid</td><td data-i18n="off">–OH and –COOH</td><td>ester link, <span data-i18n="off">–COO–</span></td><td><span class="chem">H2O</span></td></tr>
+              <tr><th scope="row">Polyamide</th><td>a diamine and a dicarboxylic acid</td><td data-i18n="off">–NH<sub>2</sub> and –COOH</td><td>amide link, <span data-i18n="off">–CONH–</span></td><td><span class="chem">H2O</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>“Di” means two. A diol has two –OH groups. A dicarboxylic acid has two –COOH groups. A diamine has two –NH<sub>2</sub> groups.</p>
+        <p>The water is made from an H atom of the –OH or –NH<sub>2</sub> group and the –OH part of the –COOH group. A new bond then joins the O or N atom to the C=O carbon.</p>
+
+        <figure data-s1-widget="s2-4.condensation" data-title="Condensation polymer builder" data-no-badge>
+          <p class="widget__fallback">An interactive polymer builder appears here when JavaScript is on. It shows two monomers, the atoms that leave as water, the ester or amide link that forms, the repeating unit and the reverse reaction, hydrolysis.</p>
+          <figcaption>Choose a polymer type and step through. A box stands for the part of the monomer that does not change. Dashed outlines mark the atoms that become water. An underline marks the new link.</figcaption>
+        </figure>
+
+        <h3>Method: repeating unit from two monomers</h3>
+        <ol>
+          <li>Draw the two monomers side by side, with a –COOH group of one next to an –OH or –NH<sub>2</sub> group of the other.</li>
+          <li>Remove the –OH from the –COOH group and one H from the other group. These atoms form <span class="chem">H2O</span>.</li>
+          <li>Join the C=O carbon to the O (polyester) or to the N (polyamide).</li>
+          <li>At the two outer ends, remove an H from one end and an –OH from the other end. Draw continuation bonds there.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked data-no-badge>
+          <h3 class="worked__title">Repeating unit of a polyester</h3>
+          <div class="worked__problem">
+            <p>A polyester is made from the two monomers shown. Draw its repeating unit and state the other product.</p>
+            <div class="s24-draw" data-s24-draw="cond" data-kind="ester" data-a="(CH2)3" data-b="(CH2)2" data-show="plain-monomers" data-label="Monomer 1: a diol, H–O–(CH2)3–O–H. Monomer 2: a dicarboxylic acid, H–O–CO–(CH2)2–CO–O–H." data-i18n="off">HO–(CH2)3–OH + HOOC–(CH2)2–COOH</div>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Identify the groups that react">
+              <p class="worked__why">An –OH group of the diol reacts with a –COOH group of the acid. This makes an ester link.</p>
+              <div class="worked__math">–OH + HOOC– → ester link + H<sub>2</sub>O</div>
+            </li>
+            <li data-title="Remove the atoms that form water">
+              <p class="worked__why">The H comes from the diol. The –OH comes from the –COOH group of the acid.</p>
+              <div class="s24-draw" data-s24-draw="cond" data-kind="ester" data-a="(CH2)3" data-b="(CH2)2" data-show="monomers" data-label="The same two monomers. One H of the diol and the OH of one carboxyl group are outlined: they form water." data-i18n="off">HO–(CH2)3–O[H] + [HO]OC–(CH2)2–COOH</div>
+            </li>
+            <li data-title="Join O to the C=O carbon">
+              <p class="worked__why">The oxygen of the diol bonds to the carbon of the C=O group. This –O–C(=O)– group is the ester link.</p>
+              <div class="worked__math">–(CH<sub>2</sub>)<sub>3</sub>–O–CO–(CH<sub>2</sub>)<sub>2</sub>–</div>
+            </li>
+            <li data-title="Open both ends and draw the unit">
+              <p class="worked__why">The other –OH group and the other –COOH group react in the same way with the next monomers. So the unit has a continuation bond at each end.</p>
+              <div class="s24-draw" data-s24-draw="cond" data-kind="ester" data-a="(CH2)3" data-b="(CH2)2" data-show="rep" data-label="Repeating unit of the polyester in square brackets with n: –O–(CH2)3–O–CO–(CH2)2–CO–, each CO drawn as a carbon with a double bond to oxygen." data-i18n="off">[–O–(CH2)3–O–CO–(CH2)2–CO–]n</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>The repeating unit is –O–(CH<sub>2</sub>)<sub>3</sub>–O–CO–(CH<sub>2</sub>)<sub>2</sub>–CO–. The other product is water.</p></div>
+        </div>
+
+        <div class="worked" data-s1-worked data-no-badge>
+          <h3 class="worked__title">Repeating unit of a polyamide</h3>
+          <div class="worked__problem">
+            <p>A polyamide is made from the two monomers shown. Draw its repeating unit.</p>
+            <div class="s24-draw" data-s24-draw="cond" data-kind="amide" data-a="(CH2)4" data-b="(CH2)6" data-show="plain-monomers" data-label="Monomer 1: a diamine, H2N–(CH2)4–NH2. Monomer 2: a dicarboxylic acid, HOOC–(CH2)6–COOH." data-i18n="off">H2N–(CH2)4–NH2 + HOOC–(CH2)6–COOH</div>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Identify the groups that react">
+              <p class="worked__why">An –NH<sub>2</sub> group of the diamine reacts with a –COOH group of the acid. This makes an amide link.</p>
+              <div class="worked__math">–NH<sub>2</sub> + HOOC– → amide link + H<sub>2</sub>O</div>
+            </li>
+            <li data-title="Remove the atoms that form water">
+              <p class="worked__why">One H comes from the –NH<sub>2</sub> group, so the nitrogen keeps one H. The –OH comes from the –COOH group.</p>
+              <div class="s24-draw" data-s24-draw="cond" data-kind="amide" data-a="(CH2)4" data-b="(CH2)6" data-show="monomers" data-label="The same two monomers. One H on a nitrogen atom and the OH of one carboxyl group are outlined: they form water." data-i18n="off">H2N–(CH2)4–NH[H] + [HO]OC–(CH2)6–COOH</div>
+            </li>
+            <li data-title="Join N to the C=O carbon">
+              <p class="worked__why">The nitrogen bonds to the carbon of the C=O group. This –N(H)–C(=O)– group is the amide link.</p>
+              <div class="worked__math">–(CH<sub>2</sub>)<sub>4</sub>–NH–CO–(CH<sub>2</sub>)<sub>6</sub>–</div>
+            </li>
+            <li data-title="Open both ends and draw the unit">
+              <p class="worked__why">The far –NH<sub>2</sub> group loses an H and the far –COOH group loses an –OH when they join the next monomers.</p>
+              <div class="s24-draw" data-s24-draw="cond" data-kind="amide" data-a="(CH2)4" data-b="(CH2)6" data-show="rep" data-label="Repeating unit of the polyamide in square brackets with n: –NH–(CH2)4–NH–CO–(CH2)6–CO–, each N with one H and each CO drawn as a carbon with a double bond to oxygen." data-i18n="off">[–NH–(CH2)4–NH–CO–(CH2)6–CO–]n</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>The repeating unit is –NH–(CH<sub>2</sub>)<sub>4</sub>–NH–CO–(CH<sub>2</sub>)<sub>6</sub>–CO–. Water is also formed.</p></div>
+        </div>
+
+        <aside class="callout callout--mistake" data-no-badge>
+          <p>Each nitrogen atom in a polyamide chain still has one hydrogen atom: the link is –NH–CO–, not –N–CO–. Also remember the water. A condensation equation without the small molecule is incomplete.</p>
+        </aside>
+
+        <h3>Hydrolysis: the reverse reaction</h3>
+        <p><dfn data-def="The breaking of a bond by reaction with water. It is the reverse of condensation.">Hydrolysis</dfn> means breaking a bond by reaction with water. It is the reverse of condensation. Water breaks each ester or amide link. The –OH of water joins the C=O carbon, and the H of water joins the O or N atom. The monomers form again.</p>
+
+        <div class="worked" data-s1-worked data-no-badge>
+          <h3 class="worked__title">Monomers from a condensation polymer</h3>
+          <div class="worked__problem">
+            <p>The repeating unit of a polymer is shown. Identify the type of polymer and deduce the structures of the two monomers.</p>
+            <div class="s24-draw" data-s24-draw="cond" data-kind="amide" data-a="(CH2)2" data-b="(CH2)3" data-show="rep" data-label="Repeating unit in square brackets with n: –NH–(CH2)2–NH–CO–(CH2)3–CO–" data-i18n="off">[–NH–(CH2)2–NH–CO–(CH2)3–CO–]n</div>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the link">
+              <p class="worked__why">Look for C=O next to N or O in the backbone. Here C=O is next to N–H.</p>
+              <div class="worked__math">–NH–CO– is an amide link, so this is a polyamide</div>
+            </li>
+            <li data-title="Break every amide link">
+              <p class="worked__why">Hydrolysis breaks the bond between the N and the C=O carbon. Remember that the bonds at the ends of the unit are amide links too.</p>
+              <div class="worked__math">–NH–(CH<sub>2</sub>)<sub>2</sub>–NH– &nbsp; and &nbsp; –CO–(CH<sub>2</sub>)<sub>3</sub>–CO–</div>
+            </li>
+            <li data-title="Add the atoms of water">
+              <p class="worked__why">Each N gains an H, giving –NH<sub>2</sub>. Each C=O carbon gains an –OH, giving –COOH.</p>
+              <div class="worked__math">H<sub>2</sub>N–(CH<sub>2</sub>)<sub>2</sub>–NH<sub>2</sub> &nbsp; and &nbsp; HOOC–(CH<sub>2</sub>)<sub>3</sub>–COOH</div>
+            </li>
+            <li data-title="Check the monomers">
+              <p class="worked__why">Each monomer must have two functional groups: a diamine and a dicarboxylic acid.</p>
+              <div class="s24-draw" data-s24-draw="cond" data-kind="amide" data-a="(CH2)2" data-b="(CH2)3" data-show="plain-monomers" data-label="The two monomers: the diamine H2N–(CH2)2–NH2 and the dicarboxylic acid HOOC–(CH2)3–COOH" data-i18n="off">H2N–(CH2)2–NH2 + HOOC–(CH2)3–COOH</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>It is a polyamide. The monomers are H<sub>2</sub>N–(CH<sub>2</sub>)<sub>2</sub>–NH<sub>2</sub> and HOOC–(CH<sub>2</sub>)<sub>3</sub>–COOH.</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="99" data-tolerance="0.1" data-label="Number of water molecules" data-no-badge>
+          <div class="tryit__q"><p>50 molecules of a diol and 50 molecules of a dicarboxylic acid join to make one polyester chain. How many molecules of water are released?</p></div>
+          <ol class="tryit__hints">
+            <li>One molecule of water is released for each link that forms.</li>
+            <li>The chain contains 100 monomer units in a row. Count the links between them, as you would count the gaps between 100 fence posts.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">monomer units in the chain = 50 + 50 = 100</div>
+            <div class="worked__math">links = 100 − 1 = 99, so 99 molecules of H<sub>2</sub>O</div>
+          </div>
+        </div>
+
+        <h3>Biological macromolecules</h3>
+        <p>All biological macromolecules form by condensation reactions and break down by hydrolysis. Proteins are an example. Amino acids join by condensation, and water is released. The link between amino acids is an amide link, so a protein is a natural polyamide. When you digest protein, hydrolysis breaks the links and gives amino acids again.</p>
+        <p>The same pattern is true for carbohydrates such as starch, and for DNA. The builder above includes amino acids as its third option.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Addition and condensation polymers compared</caption>
+            <thead>
+              <tr><th scope="col">Feature</th><th scope="col">Addition</th><th scope="col">Condensation</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">What the monomer needs</th><td>a C=C double bond</td><td>two functional groups</td></tr>
+              <tr><th scope="row">Products</th><td>the polymer only</td><td>the polymer and a small molecule, usually water</td></tr>
+              <tr><th scope="row">Backbone of the chain</th><td>carbon atoms only</td><td>contains ester or amide links</td></tr>
+              <tr><th scope="row">Reversed by hydrolysis?</th><td>no</td><td>yes</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <aside class="callout callout--exam" data-no-badge>
+          <p>For a condensation repeating unit, one mark is for the correct ester or amide link. The other mark is for the continuation bonds and the rest of the structure. Draw one repeating unit only. If you are asked for the type of polymer, “condensation”, “polyester” or “polyamide” is expected.</p>
+        </aside>
+
+        <aside class="callout callout--scope" data-no-badge>
+          <p>You do not need the detailed structures of proteins, carbohydrates, fats or DNA. You do not need the names of particular polyesters or polyamides. Other kinds of condensation polymer are not needed as drawing tasks.</p>
+        </aside>
+
+        <aside class="callout callout--scope" data-title="Comes later in the course" data-no-badge>
+          <p>Alcohols, carboxylic acids, amines, esters and amides are studied as classes of compound in Structure 3.2. How these reactions happen comes in Reactivity 3.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-4" data-syllabus="Structure 2.4.6" data-count="5" data-title="Condensation polymers: quick check"></div>
+      </section>
+
+      <hr class="spectrum">
+
+      <!-- ============================================================ linking -->
+      <section class="topic-section" id="links">
+        <h2>Linking it up</h2>
+        <p>The IB guide asks these linking questions. Short answers are enough at this stage.</p>
+
+        <h3>What are the limitations of discrete bonding categories?</h3>
+        <p>“Discrete” means separate. If you sort every substance into only three boxes, you lose information. Many substances lie between the models, such as polar covalent molecules and compounds near a boundary in the triangle. A single label then predicts the wrong properties. The bonding triangle is a better model because it shows the gradual change.</p>
+
+        <h3>How do the trends in properties of period 3 oxides reflect the trend in their bonding?</h3>
+        <p>From sodium to sulfur, the electronegativity of the element gets closer to that of oxygen. The difference falls from 2.5 for <span class="chem">Na2O</span> to 0.8 for <span class="chem">SO3</span>, and the average rises. The points move down and to the right in the triangle, from ionic to polar covalent. The properties change in step: the oxides on the left are ionic solids with high melting points, and the oxides on the right are made of molecules. You will meet their acid–base behaviour in Structure 3.1.</p>
+
+        <h3>Why are alloys more correctly described as mixtures rather than as compounds?</h3>
+        <p>In a compound, the elements are chemically bonded in a fixed ratio. In an alloy, the proportions can vary, and the atoms of the added element simply take places in the metal lattice. Non-directional metallic bonding makes this possible. This matches the meaning of “mixture” from Structure 1.1.</p>
+
+        <h3>Why is the atom economy 100% for an addition polymerization reaction?</h3>
+        <p>The polymer is the only product. Every atom of every monomer ends up in the polymer, so no atoms are wasted. You will calculate atom economy in Reactivity 2.1.</p>
+
+        <div data-level="ahl">
+          <h3>What are the structural features of some plastics that make them biodegradable?</h3>
+          <p>An addition polymer has a backbone of carbon atoms joined by strong, non-polar bonds, which water does not attack. A condensation polymer has ester or amide links in its backbone. These links can be broken by hydrolysis, so some polyesters and polyamides can be broken down in the environment.</p>
+        </div>
+      </section>
+
+      <!-- ============================================================ practice -->
+      <section class="topic-section" id="practice" data-toc="Exam-style practice">
+        <h2>Exam-style practice</h2>
+        <p>Questions you have not yet answered correctly come up first, so each set changes when you come back to it. Each question gives the electronegativity values and the diagram you need. Have paper and a calculator beside you.</p>
+        <h3>Foundation: one idea at a time</h3>
+        <div data-s1-quiz data-topic="s2-4" data-tier="foundation" data-count="5" data-title="2.4 foundation"></div>
+        <h3>Exam standard</h3>
+        <div data-s1-quiz data-topic="s2-4" data-tier="exam" data-count="6" data-title="2.4 exam standard"></div>
+        <h3>Challenge</h3>
+        <div data-s1-quiz data-topic="s2-4" data-tier="challenge" data-count="4" data-title="2.4 challenge"></div>
+        <div data-level="ahl">
+          <h3>Additional HL only: condensation polymers</h3>
+          <div data-s1-quiz data-topic="s2-4" data-level="ahl" data-count="5" data-title="2.4 Additional HL" data-no-badge></div>
+        </div>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../assets/js/mol.js"></script>
+<script src="../data/questions-s2-4.js"></script>
+<script src="../assets/js/widgets-s2-4.js"></script>
+</body>
+</html>

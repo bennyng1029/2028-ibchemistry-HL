@@ -310,6 +310,7 @@
     m.bonds.forEach(function (b) { if (b.order > 1 && m.atoms[b.a].el === 'C' && m.atoms[b.b].el === 'C') { nUnsat++; unsat = b; } });
     if (nUnsat > 1) return { fail: 'two multiple bonds' };
     if (unsat && sufType === 'ol' && (unsat.a === sufAtom || unsat.b === sufAtom)) return { fail: 'enol' };
+    if (sufType === 'al' && m.h[sufAtom] < 1) return { fail: 'not an aldehyde' };
     return { sufAtom: sufAtom, sufType: sufType, unsat: unsat, sufO: sufO };
   }
   /** Every simple path through carbon atoms (each direction is its own entry). */
@@ -421,7 +422,7 @@
       var m = specToMol(spec);
       if (!m.ok) continue;
       var r = nameOf(m);
-      if (!inScope(r)) continue;
+      if (!inScope(r) || !layoutOk(m)) continue;
       if (level === 1 && r.spec.subs.length > (kind === 'halo' ? 1 : 0)) continue;
       if (level === 2 && r.spec.n < 3) continue;
       r.mol = m;
@@ -461,7 +462,7 @@
     var out = [], seen = {}; seen[canon(r.mol)] = true;
     function tryc(spec) {
       var m = specToMol(spec); if (!m.ok) return;
-      var q = nameOf(m); if (!inScope(q)) return;
+      var q = nameOf(m); if (!inScope(q) || !layoutOk(m)) return;
       var k = canon(m); if (seen[k]) return;
       seen[k] = true; q.mol = m; out.push(q);
     }
@@ -481,7 +482,9 @@
     if (s.n < 6) { alt = clone(); alt.n++; tryc(alt); }
     if (s.n > 2) { alt = clone(); alt.n--; if (!alt.subs.some(function (x) { return x.loc > alt.n; }) && !(alt.suffix && alt.suffix.loc > alt.n) && !(alt.unsat && alt.unsat.loc >= alt.n)) tryc(alt); }
     if (s.unsat) { alt = clone(); alt.unsat = null; tryc(alt); }
-    if (!s.subs.length && s.n >= 3) { alt = clone(); alt.subs.push({ name: 'methyl', loc: 2 }); tryc(alt); }
+    if (s.subs.length < 2) for (d = 2; d < s.n; d++) { alt = clone(); alt.subs.push({ name: 'methyl', loc: d }); tryc(alt); }
+    s.subs.forEach(function (_, i) { alt = clone(); alt.subs.splice(i, 1); tryc(alt); });
+    if (out.length < 3 && s.n > 3) { alt = clone(); alt.n -= 2; alt.subs = []; if (alt.suffix && alt.suffix.loc > alt.n) alt.suffix.loc = alt.n; if (alt.unsat) alt.unsat.loc = 1; tryc(alt); }
     return S1.util && S1.util.shuffle && !rnd ? S1.util.shuffle(out) : out;
   }
 
@@ -537,7 +540,7 @@
       others.forEach(function (j, k) { put(j, pos[i].x + Math.cos(angs[k]), pos[i].y + Math.sin(angs[k])); dirs.push(angs[k]); });
       hOnN(i, dirs);
       if (main >= 0) place(main, i, alpha + turn * 60 * D, -turn, onPath);
-      others.forEach(function (j, k) { place(j, i, angs[k], turn, null); });
+      others.forEach(function (j, k) { place(j, i, angs[k], others.length === 2 ? (k === 0 ? 1 : -1) : turn, null); });
     }
     if (m.cyclic) {
       var ringAtoms = [], start = m.ring.indexOf(true), cur = start, prev = -1;
@@ -548,7 +551,7 @@
       ringAtoms.forEach(function (i, k) { var ang = (30 + 60 * (k - big)) * D; put(i, Math.cos(ang), Math.sin(ang)); });
       ringAtoms.forEach(function (i, k) {
         var ang = (30 + 60 * (k - big)) * D;
-        kids(i, -1).forEach(function (j) { put(j, pos[i].x + Math.cos(ang), pos[i].y + Math.sin(ang)); place(j, i, ang, Math.sin(ang) > 0 ? -1 : 1, null); });
+        kids(i, -1).forEach(function (j) { put(j, pos[i].x + Math.cos(ang), pos[i].y + Math.sin(ang)); place(j, i, ang, Math.sin(ang) > 0 ? 1 : -1, null); });
       });
     } else {
       var path = opts.path || mainPath(m), onPath = {};
@@ -571,6 +574,12 @@
     var bonds = m.bonds.map(function (b) { return { a: b.a, b: b.b, order: b.order }; });
     extra.forEach(function (e) { atoms.push(e); bonds.push({ a: e.on, b: atoms.length - 1, order: 1 }); });
     return { atoms: atoms, bonds: bonds };
+  }
+  /** True if no two atoms of a skeletal layout sit on top of each other. */
+  function layoutOk(m) {
+    var L = layoutSkeletal(m);
+    for (var i = 0; i < L.atoms.length; i++) for (var j = i + 1; j < L.atoms.length; j++) if (Math.hypot(L.atoms[i].x - L.atoms[j].x, L.atoms[i].y - L.atoms[j].y) < 0.6) return false;
+    return true;
   }
   /**
    * Right-angle layout for a full structural formula (explicit: true adds every H) or for a drawing made of
@@ -874,7 +883,7 @@
     parse: parse, prep: prep, counts: counts, molecular: molecular, empirical: empirical, fHtml: fHtml, canon: canon, skeleton: skeleton,
     groups: groups, classKey: classKey, degree: degree, relation: relation, formatName: formatName, specToMol: specToMol, parseName: parseName,
     nameOf: nameOf, inScope: inScope, randomNamed: randomNamed, wrongNames: wrongNames, nearMolecules: nearMolecules, carbonPaths: carbonPaths,
-    mainPath: mainPath, layoutSkeletal: layoutSkeletal, layoutGrid: layoutGrid, layoutRingFull: layoutRingFull, build3d: build3d,
+    mainPath: mainPath, layoutOk: layoutOk, layoutSkeletal: layoutSkeletal, layoutGrid: layoutGrid, layoutRingFull: layoutRingFull, build3d: build3d,
     COMPOUNDS: COMPOUNDS, compound: compound, ISOMER_SETS: ISOMER_SETS, SERIES: SERIES, HALO: HALO
   };
   if (!S1.widgets || typeof document === 'undefined') return;      // node test: core only

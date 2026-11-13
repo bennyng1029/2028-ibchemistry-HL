@@ -134,7 +134,7 @@ She will sit the exam in English, so the English wording has to stay in view whe
 
 ### Starter glossary
 
-| English | 日本語 | 繁體中文 (HK) |
+| English | 日本語 (superseded by the reviewed [glossary-ja.md](glossary-ja.md), which wins where they differ) | 繁體中文 (HK) |
 |---|---|---|
 | element | 元素 (substance: 単体) | 元素 |
 | compound | 化合物 | 化合物 |
