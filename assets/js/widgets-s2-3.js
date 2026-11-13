@@ -475,7 +475,7 @@
           [t('The cations travel from the hot end to the cold end.'), false, t('The cations stay in their lattice positions. They vibrate more when hot, but they do not travel along the metal.')],
           [t('The metallic bonds break at the hot end and release energy.'), false, t('No bonds break when a solid metal conducts heat. Energy is passed on by moving electrons and vibrating cations.')]
         ] },
-        { id: 'mall', label: t('Malleability'), q: t('Explain why metals are malleable.'), parts: [
+        { id: 'mall', label: t('Malleability'), q: t('Explain why metals are malleable.|question'), parts: [
           [t('The cations are arranged in layers.'), true],
           [t('The layers can slide over each other when a force is applied.'), true],
           [t('The metallic bond is non-directional, so the attraction between the cations and the delocalized electrons is not broken.'), true],

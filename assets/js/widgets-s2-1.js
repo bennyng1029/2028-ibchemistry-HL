@@ -233,34 +233,41 @@
      2. Ionic formula builder
      ========================================================================== */
   S1.widgets.register('s2-1.formula', function (w) {
+    /* Names.  She must write compound names in English in the exam, so the English name is ALWAYS shown, built from
+       the English ion names (en), never from translations.  In another language a gloss follows in brackets:
+         ion:   the local name of the ion, shown after the English name in the two pickers   ("lithium|ion" → 鋰離子)
+         stem:  the form the ion takes inside a compound name in that language            ("sulfate|in-name" → 硫酸)
+       and the local compound name is put together by the translated pattern "{cation} {anion}|compound-name"
+       (Japanese and Chinese name the anion first: "{anion}{cation}" gives 硫酸鋁 / 硫酸アルミニウム).  If the pattern
+       or either stem has no translation there is no gloss: a wrongly composed name is worse than none. */
     var CATIONS = [
-      { id: 'Li', f: 'Li', q: 1, name: t('lithium') },
-      { id: 'Na', f: 'Na', q: 1, name: t('sodium') },
-      { id: 'K', f: 'K', q: 1, name: t('potassium') },
-      { id: 'NH4', f: 'NH4', q: 1, poly: true, name: t('ammonium') },
-      { id: 'Cu1', f: 'Cu', q: 1, el: 'Cu', name: t('copper(I)') },
-      { id: 'Mg', f: 'Mg', q: 2, name: t('magnesium') },
-      { id: 'Ca', f: 'Ca', q: 2, name: t('calcium') },
-      { id: 'Ba', f: 'Ba', q: 2, name: t('barium') },
-      { id: 'Fe2', f: 'Fe', q: 2, el: 'Fe', name: t('iron(II)') },
-      { id: 'Cu2', f: 'Cu', q: 2, el: 'Cu', name: t('copper(II)') },
-      { id: 'Al', f: 'Al', q: 3, name: t('aluminium') },
-      { id: 'Fe3', f: 'Fe', q: 3, el: 'Fe', name: t('iron(III)') }
+      { id: 'Li', f: 'Li', q: 1, en: 'lithium', ion: t('lithium|ion'), stem: t('lithium|in-name') },
+      { id: 'Na', f: 'Na', q: 1, en: 'sodium', ion: t('sodium|ion'), stem: t('sodium|in-name') },
+      { id: 'K', f: 'K', q: 1, en: 'potassium', ion: t('potassium|ion'), stem: t('potassium|in-name') },
+      { id: 'NH4', f: 'NH4', q: 1, poly: true, en: 'ammonium', ion: t('ammonium|ion'), stem: t('ammonium|in-name') },
+      { id: 'Cu1', f: 'Cu', q: 1, el: 'Cu', en: 'copper(I)', ion: t('copper(I)|ion'), stem: t('copper(I)|in-name') },
+      { id: 'Mg', f: 'Mg', q: 2, en: 'magnesium', ion: t('magnesium|ion'), stem: t('magnesium|in-name') },
+      { id: 'Ca', f: 'Ca', q: 2, en: 'calcium', ion: t('calcium|ion'), stem: t('calcium|in-name') },
+      { id: 'Ba', f: 'Ba', q: 2, en: 'barium', ion: t('barium|ion'), stem: t('barium|in-name') },
+      { id: 'Fe2', f: 'Fe', q: 2, el: 'Fe', en: 'iron(II)', ion: t('iron(II)|ion'), stem: t('iron(II)|in-name') },
+      { id: 'Cu2', f: 'Cu', q: 2, el: 'Cu', en: 'copper(II)', ion: t('copper(II)|ion'), stem: t('copper(II)|in-name') },
+      { id: 'Al', f: 'Al', q: 3, en: 'aluminium', ion: t('aluminium|ion'), stem: t('aluminium|in-name') },
+      { id: 'Fe3', f: 'Fe', q: 3, el: 'Fe', en: 'iron(III)', ion: t('iron(III)|ion'), stem: t('iron(III)|in-name') }
     ];
     var ANIONS = [
-      { id: 'F', f: 'F', q: 1, name: t('fluoride') },
-      { id: 'Cl', f: 'Cl', q: 1, name: t('chloride') },
-      { id: 'Br', f: 'Br', q: 1, name: t('bromide') },
-      { id: 'I', f: 'I', q: 1, name: t('iodide') },
-      { id: 'OH', f: 'OH', q: 1, poly: true, name: t('hydroxide') },
-      { id: 'NO3', f: 'NO3', q: 1, poly: true, name: t('nitrate') },
-      { id: 'HCO3', f: 'HCO3', q: 1, poly: true, name: t('hydrogencarbonate') },
-      { id: 'O', f: 'O', q: 2, name: t('oxide') },
-      { id: 'S', f: 'S', q: 2, name: t('sulfide') },
-      { id: 'CO3', f: 'CO3', q: 2, poly: true, name: t('carbonate') },
-      { id: 'SO4', f: 'SO4', q: 2, poly: true, name: t('sulfate') },
-      { id: 'N', f: 'N', q: 3, name: t('nitride') },
-      { id: 'PO4', f: 'PO4', q: 3, poly: true, name: t('phosphate') }
+      { id: 'F', f: 'F', q: 1, en: 'fluoride', ion: t('fluoride|ion'), stem: t('fluoride|in-name') },
+      { id: 'Cl', f: 'Cl', q: 1, en: 'chloride', ion: t('chloride|ion'), stem: t('chloride|in-name') },
+      { id: 'Br', f: 'Br', q: 1, en: 'bromide', ion: t('bromide|ion'), stem: t('bromide|in-name') },
+      { id: 'I', f: 'I', q: 1, en: 'iodide', ion: t('iodide|ion'), stem: t('iodide|in-name') },
+      { id: 'OH', f: 'OH', q: 1, poly: true, en: 'hydroxide', ion: t('hydroxide|ion'), stem: t('hydroxide|in-name') },
+      { id: 'NO3', f: 'NO3', q: 1, poly: true, en: 'nitrate', ion: t('nitrate|ion'), stem: t('nitrate|in-name') },
+      { id: 'HCO3', f: 'HCO3', q: 1, poly: true, en: 'hydrogencarbonate', ion: t('hydrogencarbonate|ion'), stem: t('hydrogencarbonate|in-name') },
+      { id: 'O', f: 'O', q: 2, en: 'oxide', ion: t('oxide|ion'), stem: t('oxide|in-name') },
+      { id: 'S', f: 'S', q: 2, en: 'sulfide', ion: t('sulfide|ion'), stem: t('sulfide|in-name') },
+      { id: 'CO3', f: 'CO3', q: 2, poly: true, en: 'carbonate', ion: t('carbonate|ion'), stem: t('carbonate|in-name') },
+      { id: 'SO4', f: 'SO4', q: 2, poly: true, en: 'sulfate', ion: t('sulfate|ion'), stem: t('sulfate|in-name') },
+      { id: 'N', f: 'N', q: 3, en: 'nitride', ion: t('nitride|ion'), stem: t('nitride|in-name') },
+      { id: 'PO4', f: 'PO4', q: 3, poly: true, en: 'phosphate', ion: t('phosphate|ion'), stem: t('phosphate|in-name') }
     ];
     /* Quiz targets: real, well-known compounds only. [cation id, anion id] */
     var TARGETS = [['Mg', 'Cl'], ['Al', 'O'], ['K', 'S'], ['Ca', 'N'], ['Na', 'CO3'], ['Ca', 'OH'], ['Al', 'SO4'], ['NH4', 'CO3'],
@@ -269,15 +276,21 @@
     function byId(list, id) { for (var i = 0; i < list.length; i++) if (list[i].id === id) return list[i]; return null; }
     function part(ion, n) { return ion.poly && n > 1 ? '(' + ion.f + ')' + n : ion.f + (n > 1 ? n : ''); }
     function formulaOf(c, a) { var g = c.q * a.q / gcd(c.q, a.q); return part(c, g / c.q) + part(a, g / a.q); }
-    function nameOf(c, a) { return c.name + ' ' + a.name; }
+    function nameEn(c, a) { return c.en + ' ' + a.en; }
+    function nameLocal(c, a) {                // '' when it cannot be composed correctly
+      if (S1.i18n.get() === 'en' || c.stem === c.en || a.stem === a.en || t('{cation} {anion}|compound-name') === '{cation} {anion}') return '';
+      return t('{cation} {anion}|compound-name', { cation: c.stem, anion: a.stem });
+    }
+    function nameOf(c, a) { var local = nameLocal(c, a); return nameEn(c, a) + (local ? ' (' + local + ')' : ''); }
+    function pickLabel(ion, sign) { return ionText(ion.f, sign * ion.q) + '  ' + ion.en + (ion.ion !== ion.en ? ' (' + ion.ion + ')' : ''); }
 
     var state = { c: 'Al', a: 'SO4', nc: 1, na: 1, quiz: null, last: -1, solved: false };
 
     var selC = w.select({ label: t('Cation (positive ion)'), value: state.c,
-      options: CATIONS.map(function (c) { return { value: c.id, label: ionText(c.f, c.q) + '  ' + c.name }; }),
+      options: CATIONS.map(function (c) { return { value: c.id, label: pickLabel(c, 1) }; }),
       onChange: function (v) { state.c = v; state.nc = 1; changed(); } });
     var selA = w.select({ label: t('Anion (negative ion)'), value: state.a,
-      options: ANIONS.map(function (a) { return { value: a.id, label: ionText(a.f, -a.q) + '  ' + a.name }; }),
+      options: ANIONS.map(function (a) { return { value: a.id, label: pickLabel(a, -1) }; }),
       onChange: function (v) { state.a = v; state.na = 1; changed(); } });
     var stC = stepper(w.controls, t('Number of cations'), t('One cation fewer'), t('One more cation'), function () { return state.nc; }, function (v) { state.nc = v; changed(); }, 1, 3);
     var stA = stepper(w.controls, t('Number of anions'), t('One anion fewer'), t('One more anion'), function () { return state.na; }, function (v) { state.na = v; changed(); }, 1, 3);
@@ -357,7 +370,7 @@
       btnQuiz.textContent = quiz ? t('New question') : t('Quiz me');
       bar.hidden = !quiz;
       if (quiz) {
-        bar.innerHTML = '<span class="challenge-bar__label">' + t('Build') + '</span> <b>' + nameOf(byId(CATIONS, state.quiz.c), byId(ANIONS, state.quiz.a)) + '</b>' +
+        bar.innerHTML = '<span class="challenge-bar__label">' + t('Build') + '</span> <b>' + nameEn(byId(CATIONS, state.quiz.c), byId(ANIONS, state.quiz.a)) + '</b>' +
           ' <span class="muted small">' + t('Choose the two ions, set how many of each, then press Check my formula.') + '</span>';
       }
       tiles.style.setProperty('--n', String(Math.max(pos, neg, 4)));
@@ -425,7 +438,7 @@
 
     var setNa = w.readoutItem(t('Sodium ions shown'));
     var setCl = w.readoutItem(t('Chloride ions shown'));
-    var setRatio = w.readoutItem(t('Ratio'));
+    var setRatio = w.readoutItem(t('Ratio|ions'));
     var setUnit = w.readoutItem(t('Formula'));
     var setNote = w.readoutItem(t('Notice'), { text: true });
     function update() {
@@ -587,7 +600,7 @@
     var COLS = 8, ROWS = 4;
     var state = { stage: 0, shift: 0, gap: 0 };   /* shift: 0 to 1 ion spacing; gap: 0 to 1 */
     var target = { shift: 0, gap: 0 };
-    var btn = w.button(t('Hit it'), advance, { primary: true });
+    var btn = w.button(t('Hit it|button'), advance, { primary: true });
     var btnReset = w.button(t('Reset'), function () { state.stage = 0; state.shift = state.gap = 0; target.shift = target.gap = 0; loop.stop(); update(); });
     var cv = w.canvas({ height: function (W) { return W < 420 ? 250 : 270; }, label: t('Four layers of ions in a slice through an ionic crystal. A force pushes the top two layers sideways by one ion. Ions with the same charge are then next to each other, they repel, and the crystal splits.') });
     var setSee = w.readoutItem(t('What is happening'), { text: true });
@@ -657,7 +670,7 @@
     });
 
     function update() {
-      btn.textContent = state.stage === 0 ? t('Hit it') : state.stage === 1 ? t('What happens next?') : t('Start again');
+      btn.textContent = state.stage === 0 ? t('Hit it|button') : state.stage === 1 ? t('What happens next?') : t('Start again');
       btnReset.hidden = state.stage === 0;
       setSee(state.stage === 0 ? t('Before the hit: every ion is next to ions of the opposite charge. Attraction holds the layers together.') :
         state.stage === 1 ? t('The force has moved the top layers along by one ion. Now ions with the same charge are next to each other.') :
