@@ -828,7 +828,7 @@
       syllabus: 'Structure 2.2.7',
       stem: '<p>X, Y and Z are three allotropes of carbon: diamond, graphite and fullerene (' + c('C60') + '), in some order.</p>' +
         table('Properties of three allotropes of carbon', ['Allotrope', 'Hardness', 'Electrical conductivity of the solid', 'Solubility in methylbenzene (a non-polar solvent)'],
-          [['X', 'soft', 'good', 'insoluble'], ['Y', 'soft', 'poor', 'soluble'], ['Z', 'very hard', 'poor', 'insoluble']]) +
+          [['X', 'soft', 'good', 'insoluble'], ['Y', 'soft', 'poor', 'dissolves slightly and colours the solvent'], ['Z', 'very hard', 'poor', 'insoluble']]) +
         '<p>Which row identifies X and Y?</p>' +
         table('Options', ['', 'X', 'Y'], [['A', 'graphite', 'diamond'], ['B', 'fullerene', 'graphite'], ['C', 'diamond', 'fullerene'], ['D', 'graphite', 'fullerene']]),
       options: ['A', 'B', 'C', 'D'],
@@ -1300,6 +1300,199 @@
         'distance moved by spot = 0.62 × 12.0 cm = 7.44 cm',
         'height above bottom edge = 7.44 + 2.0 = 9.44 cm'
       ]) + '<p>To 2 significant figures this is <strong>9.4 cm</strong>.</p><p>Common slips: 0.62 × 14.0 = 8.7 cm (used the bottom edge for the solvent distance) and 7.4 cm (forgot to add the 2.0 cm).</p>'
+    },
+
+    /* ===== Added by the audit: more exam-tier coverage for 2.2.2, 2.2.3, 2.2.5, 2.2.6 and 2.2.8 ===== */
+    {
+      id: 's2-2-q059',
+      topic: 's2-2', level: 'sl', tier: 'foundation', type: 'mcq', marks: 1,
+      syllabus: 'Structure 2.2.2',
+      stem: '<p>Which carbon–carbon bond is the <strong>longest</strong> and the <strong>weakest</strong>?</p>',
+      options: [
+        'the single bond, ' + c('C–C'),
+        'the double bond, ' + c('C=C'),
+        'the triple bond, ' + c('C≡C'),
+        'They all have the same length and strength.'
+      ],
+      answer: 0,
+      misconception: {
+        1: 'A double bond has two shared pairs. It is shorter and stronger than a single bond, which has one shared pair.',
+        2: 'A triple bond has three shared pairs. The nuclei are attracted most strongly to the shared electrons, so this is the shortest and strongest bond.',
+        3: 'The number of shared pairs is different in each bond, so the attraction between the nuclei and the shared electrons is different too.'
+      },
+      hints: [
+        'Single, double and triple bonds have one, two and three shared pairs.',
+        'Fewer shared pairs means a weaker attraction between the two nuclei and the shared electrons.'
+      ],
+      solution: '<p>The single bond has only one shared pair. The attraction between the two nuclei and the shared electrons is weakest, so the nuclei are furthest apart.</p><p>Data booklet values: ' + c('C–C') + ' 154 pm and 346 kJ mol<sup>−1</sup>; ' + c('C=C') + ' 134 pm and 614 kJ mol<sup>−1</sup>; ' + c('C≡C') + ' 120 pm and 839 kJ mol<sup>−1</sup>.</p>'
+    },
+    {
+      id: 's2-2-q060',
+      topic: 's2-2', level: 'sl', tier: 'exam', type: 'order', marks: 2,
+      syllabus: 'Structure 2.2.2',
+      stem: '<p>Three molecules each contain a bond between two nitrogen atoms. In all three, every nitrogen atom has 8 electrons around it and every hydrogen atom forms one bond.</p><p>Put the molecules in order of the length of the nitrogen–nitrogen bond. Put the <strong>shortest</strong> bond first.</p>',
+      options: ['nitrogen, ' + c('N2'), 'diazene, ' + c('N2H2'), 'hydrazine, ' + c('N2H4')],
+      hints: [
+        'Deduce the Lewis formula of each molecule. Count the valence electrons first: 10, 12 and 14.',
+        'How many pairs are shared between the two nitrogen atoms in each molecule?',
+        'More shared pairs make a shorter bond.'
+      ],
+      solution: '<p>' + c('N2') + ': 10 valence electrons. The atoms share three pairs: ' + c('N≡N') + '.</p><p>' + c('N2H2') + ': 12 valence electrons. Each N has one bond to H and one lone pair, so the atoms share two pairs: ' + c('HN=NH') + '.</p><p>' + c('N2H4') + ': 14 valence electrons. Each N has two bonds to H and one lone pair, so the atoms share one pair: ' + c('H2N–NH2') + '.</p><p>More shared pairs give a greater attraction between the nuclei and the shared electrons, so the bond is shorter. Data booklet lengths: ' + c('N≡N') + ' 110 pm, ' + c('N=N') + ' 125 pm, ' + c('N–N') + ' 146 pm.</p>'
+    },
+    {
+      id: 's2-2-q061',
+      topic: 's2-2', level: 'sl', tier: 'foundation', type: 'mcq', marks: 1,
+      syllabus: 'Structure 2.2.3',
+      stem: '<p>A water molecule bonds to a hydrogen ion to form the hydronium ion.</p><p>' + c('H2O + H+ -> H3O+') + '</p><p>Where do the two electrons in the new ' + c('O–H') + ' bond come from?</p>',
+      options: [
+        'Both come from the oxygen atom.',
+        'Both come from the hydrogen ion.',
+        'One comes from the oxygen atom and one comes from the hydrogen ion.',
+        'Both come from a hydrogen atom of the water molecule.'
+      ],
+      answer: 0,
+      misconception: {
+        1: 'A hydrogen ion, ' + c('H+') + ', has no electrons at all. It can only accept a pair.',
+        2: 'This is how an ordinary covalent bond forms. But ' + c('H+') + ' has no electron to give.',
+        3: 'The hydrogen atoms in water have already used their one electron in an ' + c('O–H') + ' bond. They have no lone pair to give.'
+      },
+      hints: [
+        'How many electrons does ' + c('H+') + ' have?',
+        'Which atom in a water molecule has lone pairs?'
+      ],
+      solution: '<p>' + c('H+') + ' has no electrons. Oxygen in water has two lone pairs. Oxygen shares one lone pair with ' + c('H+') + '.</p><p>Both electrons of the shared pair come from the same atom, so the new bond is a <strong>coordination bond</strong>. Once formed, it is the same as the other two ' + c('O–H') + ' bonds.</p>'
+    },
+    {
+      id: 's2-2-q062',
+      topic: 's2-2', level: 'sl', tier: 'exam', type: 'numeric', marks: 1,
+      syllabus: 'Structure 2.2.3',
+      stem: '<p>In a carbon monoxide molecule, ' + c('CO') + ', the two atoms are joined by a triple bond. Each atom also has one lone pair.</p><p>A carbon atom has 4 valence electrons and an oxygen atom has 6.</p><p>How many of the six shared electrons came from the <strong>oxygen</strong> atom?</p>',
+      answer: 4, tolerance: { abs: 0 },
+      hints: [
+        'Each atom keeps one lone pair. That is 2 of its valence electrons.',
+        'The electrons that an atom does not keep in a lone pair are the ones it gives to the bond.'
+      ],
+      solution: wm([
+        'oxygen: 6 valence electrons − 2 in its lone pair = 4 electrons in the bond',
+        'carbon: 4 valence electrons − 2 in its lone pair = 2 electrons in the bond',
+        'check: 4 + 2 = 6 shared electrons = 3 shared pairs'
+      ]) + '<p>Carbon gives one electron to each of two shared pairs. Oxygen gives one electron to each of these, and <strong>both</strong> electrons of the third pair. So one of the three shared pairs is a coordination bond from oxygen to carbon.</p>'
+    },
+    {
+      id: 's2-2-q063',
+      topic: 's2-2', level: 'sl', tier: 'exam', type: 'mcq', marks: 1,
+      syllabus: 'Structure 2.2.5',
+      stem: '<p>' + EN + 'H 2.2, F 4.0, Cl 3.2, Br 3.0.</p><p>Which list shows the bonds in order of <strong>increasing</strong> polarity?</p>',
+      options: [
+        c('H–F') + ' &lt; ' + c('H–Cl') + ' &lt; ' + c('H–Br'),
+        c('H–Br') + ' &lt; ' + c('H–Cl') + ' &lt; ' + c('H–F'),
+        c('H–Cl') + ' &lt; ' + c('H–Br') + ' &lt; ' + c('H–F'),
+        c('H–Br') + ' &lt; ' + c('H–F') + ' &lt; ' + c('H–Cl')
+      ],
+      answer: 1,
+      misconception: {
+        0: 'This is the order of decreasing polarity. The question asks for increasing polarity, so the smallest difference comes first.',
+        2: 'Compare the first two: H–Cl has a difference of 1.0 and H–Br has 0.8. The bond with the smaller difference is less polar.',
+        3: 'H–F has the largest difference (1.8), so it is the most polar bond. It must come last.'
+      },
+      hints: [
+        'Bond polarity depends on the difference in electronegativity.',
+        'Calculate the difference for each bond. The smallest difference is the least polar bond.'
+      ],
+      solution: wm([
+        'H–Br: 3.0 − 2.2 = 0.8',
+        'H–Cl: 3.2 − 2.2 = 1.0',
+        'H–F: 4.0 − 2.2 = 1.8'
+      ]) + '<p>A larger difference in electronegativity means a more polar bond. So the order is ' + c('H–Br') + ' &lt; ' + c('H–Cl') + ' &lt; ' + c('H–F') + '.</p>'
+    },
+    {
+      id: 's2-2-q064',
+      topic: 's2-2', level: 'sl', tier: 'exam', type: 'short', marks: 2,
+      syllabus: 'Structure 2.2.5',
+      stem: '<p>' + EN + 'C 2.6, F 4.0.</p><p>Deduce, giving a reason, the polarity of the ' + c('C–F') + ' bond. Show the partial charges on the two atoms.</p>',
+      answer: '<p>The bond is polar, because fluorine is more electronegative than carbon (4.0 − 2.6 = 1.4). Fluorine attracts the shared pair of electrons more strongly.</p><p>Partial charges: carbon is δ+ and fluorine is δ−.</p>',
+      markscheme: [
+        'The bond is polar because the two atoms have different electronegativities / fluorine is more electronegative than carbon (difference of 1.4).',
+        'C is δ+ AND F is δ−. Both partial charges are needed. Do not accept full charges, + and −.'
+      ],
+      hints: [
+        'Compare the two electronegativity values.',
+        'The atom that attracts the shared pair more strongly becomes slightly negative.'
+      ]
+    },
+    {
+      id: 's2-2-q065',
+      topic: 's2-2', level: 'sl', tier: 'foundation', type: 'mcq', marks: 1,
+      syllabus: 'Structure 2.2.6',
+      stem: '<p>Which two things decide if a molecule is polar?</p>',
+      options: [
+        'the polarity of its bonds and its molecular geometry',
+        'the polarity of its bonds only',
+        'its molar mass and its molecular geometry',
+        'the number of atoms and the number of bonds'
+      ],
+      answer: 0,
+      misconception: {
+        1: 'Polar bonds are not enough. In a symmetrical molecule such as ' + c('CO2') + ', the bond dipoles cancel and the molecule is non-polar.',
+        2: 'Molar mass affects the strength of London forces. It does not decide if the molecule has a net dipole.',
+        3: 'Counting atoms and bonds does not tell you how charge is spread. ' + c('CO2') + ' and ' + c('H2O') + ' both have three atoms and two bonds, but only water is polar.'
+      },
+      hints: [
+        'A molecule is polar if its bond dipoles do not cancel.',
+        'What decides the size of each bond dipole? What decides the directions in which they point?'
+      ],
+      solution: '<p>Molecular polarity depends on both <strong>bond polarity</strong> and <strong>molecular geometry</strong>.</p><p>The bonds must be polar, so that there are bond dipoles. And the shape must be one in which the bond dipoles do not cancel.</p>'
+    },
+    {
+      id: 's2-2-q066',
+      topic: 's2-2', level: 'sl', tier: 'exam', type: 'short', marks: 2,
+      syllabus: 'Structure 2.2.6',
+      stem: '<p>In a molecule of sulfur dioxide, ' + c('SO2') + ', the sulfur atom is bonded to two oxygen atoms and has one lone pair. The molecular geometry is bent (V-shaped).</p><p>' + EN + 'O 3.4, S 2.6.</p><p>Explain why the sulfur dioxide molecule is polar.</p>',
+      answer: '<p>The sulfur–oxygen bonds are polar, because oxygen is more electronegative than sulfur (3.4 − 2.6 = 0.8).</p><p>The molecule is bent, so the two bond dipoles do not point in opposite directions. They do not cancel, and the molecule has a net dipole.</p>',
+      markscheme: [
+        'The (S–O) bonds are polar / there is an electronegativity difference between S and O.',
+        'The bond dipoles do not cancel / there is a net dipole, because the molecule is bent (not symmetrical).'
+      ],
+      hints: [
+        'First mark: are the bonds polar? Use the electronegativity values.',
+        'Second mark: what does the shape do to the two bond dipoles?'
+      ]
+    },
+    {
+      id: 's2-2-q067',
+      topic: 's2-2', level: 'sl', tier: 'foundation', type: 'mcq', marks: 1,
+      syllabus: 'Structure 2.2.8',
+      stem: '<p>Which intermolecular force acts between the molecules of <strong>every</strong> molecular substance?</p>',
+      options: [
+        'hydrogen bonding',
+        'dipole–dipole forces',
+        'London (dispersion) forces',
+        'dipole–induced dipole forces'
+      ],
+      answer: 2,
+      misconception: {
+        0: 'Hydrogen bonding needs a hydrogen atom bonded to a very electronegative atom such as N, O or F. Most molecules do not have one.',
+        1: 'Dipole–dipole forces act only between polar molecules. Non-polar molecules such as ' + c('CH4') + ' do not have them.',
+        3: 'This force needs one polar molecule and one non-polar molecule. It does not act in a pure non-polar substance.'
+      },
+      hints: [
+        'Think of a non-polar substance such as methane. It can still be turned into a liquid.',
+        'Which force needs only moving electrons?'
+      ],
+      solution: '<p>All molecules contain electrons. The electrons are always moving, so every molecule can have a temporary dipole that induces a dipole in its neighbour.</p><p>So <strong>London (dispersion) forces</strong> act between all molecules, polar and non-polar.</p>'
+    },
+    {
+      id: 's2-2-q068',
+      topic: 's2-2', level: 'sl', tier: 'exam', type: 'numeric', marks: 1,
+      syllabus: 'Structure 2.2.4',
+      stem: '<p>In phosphorus trichloride, ' + c('PCl3') + ', the phosphorus atom has three bonding pairs and one lone pair.</p><p>Predict a value for the ' + c('Cl–P–Cl') + ' bond angle.</p>',
+      answer: 103.5, tolerance: { abs: 3.5 }, unit: DEG,
+      answerDisplay: 'any value from 100' + DEG + ' to 107' + DEG,
+      hints: [
+        'Four electron domains give a tetrahedral electron domain geometry. What is the tetrahedral angle?',
+        'A lone pair repels more than a bonding pair. Is the angle larger or smaller than the tetrahedral angle?'
+      ],
+      solution: '<p>Phosphorus has four electron domains, so the electron domain geometry is tetrahedral (109.5' + DEG + '). One domain is a lone pair, so the molecular geometry is trigonal pyramidal.</p><p>The lone pair repels the bonding pairs more strongly than they repel each other. The bond angle is <strong>less than 109.5' + DEG + '</strong>.</p><p>A markscheme accepts a range for a trigonal pyramidal molecule, such as 100' + DEG + ' to 107' + DEG + '. The measured angle in ' + c('PCl3') + ' is about 100' + DEG + '. Do not write 109.5' + DEG + '.</p>'
     }
   ]);
 })();

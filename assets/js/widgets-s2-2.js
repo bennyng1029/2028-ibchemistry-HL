@@ -322,7 +322,7 @@
       if (def.deficient === 'Be') notes.push(t('Beryllium has only 4 electrons here. This is an atom with fewer than an octet, and it is the accepted formula.'));
       if (key === 'nh4') notes.push(t('One of the four N–H bonds is a coordination bond: both electrons came from nitrogen. All four bonds are identical once formed.'));
       if (key === 'h3o') notes.push(t('One of the three O–H bonds is a coordination bond: both electrons came from a lone pair on oxygen.'));
-      if (key === 'co') notes.push(t('Carbon gives 4 electrons and oxygen gives 6, yet each atom shares three pairs. So one of the three shared pairs is a coordination bond from oxygen.'));
+      if (key === 'co') notes.push(t('Each atom keeps one lone pair. Carbon gives 2 electrons to the triple bond and oxygen gives 4. So one of the three shared pairs comes only from oxygen: it is a coordination bond.'));
       if (key === 'no3') notes.push(t('The double bond could go to any one of the three oxygen atoms. HL students study what this means (resonance) on the HL page.'));
       if (def.charge) notes.push(t('The brackets and the charge have been added. In an exam the charge must be shown.'));
       return notes.map(function (n) { return '<p>' + n + '</p>'; }).join('');
@@ -803,11 +803,11 @@
       graphene: { name: t('Graphene'), per: t('3 other carbon atoms'), arr: t('one flat layer of hexagons, 120°'), cond: t('Yes. One electron per atom is delocalized across the sheet.'),
         note: t('A single layer of graphite, one atom thick. Very strong, very light, and a very good conductor of electricity and heat.'), alt: t('3-D model of a sheet of graphene') },
       c60: { name: t('Fullerene, C60'), per: t('3 other carbon atoms'), arr: t('a closed cage of 60 atoms: 12 pentagons and 20 hexagons'), cond: t('Poor. Electrons are delocalized inside one molecule but cannot move from one molecule to the next.'),
-        note: t('This is a molecule, not a network. Only weak London (dispersion) forces act between C60 molecules, so it has a much lower melting point and dissolves in some non-polar solvents.'), alt: t('3-D model of one molecule of fullerene C60') },
+        note: t('This is a molecule, not a network. Only weak London (dispersion) forces act between C60 molecules, so it turns into a gas at a much lower temperature than diamond, and it dissolves slightly in some non-polar solvents.'), alt: t('3-D model of one molecule of fullerene C60') },
       silicon: { name: t('Silicon'), per: t('4 other silicon atoms'), arr: t('tetrahedral, 109.5°, like diamond'), cond: t('Only slightly at room temperature.'),
         note: t('Same structure as diamond, but Si–Si bonds are longer and weaker than C–C bonds. So silicon melts at a lower temperature (1414 °C) than diamond.'), alt: t('3-D model of a piece of silicon') },
       sio2: { name: t('Silicon dioxide, SiO2'), per: t('Si: 4 oxygen atoms. O: 2 silicon atoms.'), arr: t('tetrahedral around each silicon atom'), cond: t('No. There are no delocalized electrons and no ions that can move.'),
-        note: t('A covalent network of Si–O bonds. SiO2 is a ratio (an empirical formula), not a molecule. Simplified model: oxygen is drawn in a straight line between silicon atoms, but the real Si–O–Si angle is bent.'), alt: t('3-D model of a piece of silicon dioxide') }
+        note: t('A covalent network of Si–O bonds. SiO₂ is a ratio (an empirical formula), not a molecule. Simplified model: oxygen is drawn in a straight line between silicon atoms, but the real Si–O–Si angle is bent.'), alt: t('3-D model of a piece of silicon dioxide') }
     };
     var key = INFO[w.options.start] ? w.options.start : 'diamond';
     w.select({ label: t('Structure'), value: key, options: Object.keys(INFO).map(function (k) { return { value: k, label: INFO[k].name.replace('C60', 'C₆₀').replace('SiO2', 'SiO₂') }; }), onChange: function (v) { key = v; update(); } });
@@ -848,7 +848,7 @@
     svg.style.maxWidth = '34rem';
     function txt(x, y, s, cls, anchor) { var n = svgEl('text', { x: x, y: y, 'text-anchor': anchor || 'middle', 'dominant-baseline': 'central', class: cls || 's22-svg-atom', text: s }, svg); return n; }
     function atomAt(x, y, sym) {
-      if (sym === 'CH3CH2') { var n = txt(x + 21, y, '', 's22-svg-atom', 'end');   // the C of CH2 sits on the end of the bond n.innerHTML = 'CH<tspan baseline-shift="sub" font-size="11">3</tspan>CH<tspan baseline-shift="sub" font-size="11">2</tspan>'; }
+      if (sym === 'CH3CH2') { var n = txt(x + 21, y, '', 's22-svg-atom', 'end'); n.innerHTML = 'CH<tspan baseline-shift="sub" font-size="11">3</tspan>CH<tspan baseline-shift="sub" font-size="11">2</tspan>'; }
       else txt(x, y, sym);
     }
     function lonePair(x, y, deg) {
@@ -907,7 +907,7 @@
     ch4: { name: function () { return t('methane'); }, f: 'CH4', bp: -162, lewis: 'ch4', polar: false, hb: false },
     c3h8: { name: function () { return t('propane'); }, f: 'C3H8', bp: -42, chain: { chain: ['C', 'C', 'C'] }, polar: false, hb: false },
     c5: { name: function () { return t('pentane'); }, f: 'C5H12', bp: 36, chain: { chain: ['C', 'C', 'C', 'C', 'C'] }, polar: false, hb: false },
-    neo: { name: function () { return t('2,2-dimethylpropane'); }, f: 'C5H12', bp: 10, chain: { chain: ['C', 'C', 'C'], subs: { 1: ['C', 'C'] } }, polar: false, hb: false },
+    neo: { name: function () { return t('2,2-dimethylpropane'); }, f: 'C5H12', bp: 10, struct: neoSpec, polar: false, hb: false },
     cl2: { name: function () { return t('chlorine'); }, f: 'Cl2', bp: -34, lewis: 'cl2', polar: false, hb: false },
     br2: { name: function () { return t('bromine'); }, f: 'Br2', bp: 59, lewis: 'br2', polar: false, hb: false },
     i2: { name: function () { return t('iodine'); }, f: 'I2', bp: 184, lewis: 'i2', polar: false, hb: false },
@@ -926,11 +926,21 @@
     hf: { name: function () { return t('hydrogen fluoride'); }, f: 'HF', bp: 20, lewis: 'hf', polar: true, hb: true, hbAtom: 'F' },
     ethanol: { name: function () { return t('ethanol'); }, f: 'CH3CH2OH', bp: 78, chain: { chain: ['C', 'C', 'O'] }, polar: true, hb: true, hbAtom: 'O' }
   };
+  /** 2,2-dimethylpropane drawn as a cross, with room for all twelve H atoms (the chain shorthand makes them overlap). */
+  function neoSpec() {
+    var atoms = [{ el: 'C', x: 0, y: 0 }], bonds = [], D = 1.7, h = 0.95;
+    [[1, 0], [-1, 0], [0, 1], [0, -1]].forEach(function (u) {
+      var c = atoms.length; atoms.push({ el: 'C', x: u[0] * D, y: u[1] * D }); bonds.push({ a: 0, b: c, order: 1 });
+      [[u[0], u[1]], [-u[1], u[0]], [u[1], -u[0]]].forEach(function (v) { atoms.push({ el: 'H', x: u[0] * D + v[0] * h, y: u[1] * D + v[1] * h }); bonds.push({ a: c, b: atoms.length - 1, order: 1 }); });
+    });
+    return { atoms: atoms, bonds: bonds, scale: 34 };
+  }
   function molarMass(f) { return chem.molarMass(f); }
   function electronCount(f) { var p = chem.parseFormula(f), n = 0; Object.keys(p.counts).forEach(function (e) { n += chem.element(e).z * p.counts[e]; }); return n; }
   function drawSub(host, s) {
     host.innerHTML = '';
     if (s.lewis) drawLewis(host, s.lewis, '');
+    else if (s.struct) { var sp = s.struct(); sp.label = t('Full structural formula of {name}', { name: s.name() }); mol.structural(host, sp); }
     else if (s.chain) { var spec = { chain: s.chain.chain, subs: s.chain.subs, label: t('Full structural formula of {name}', { name: s.name() }) }; mol.structural(host, spec); }
     else host.appendChild(el('p', { class: 's22-bigformula', html: chem.formula(s.f) }));
   }

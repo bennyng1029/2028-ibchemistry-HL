@@ -21,7 +21,9 @@
      here is a simplified sketch.
    - Infrared and NMR spectra are schematic. Band positions are typical values
      chosen inside the booklet ranges. NMR signals are drawn inside the booklet
-     ranges, which can differ slightly from measured shifts.
+     ranges (topic policy, the same in the page, the widgets and the question bank), because IB exam data
+     are consistent with the booklet. Measured shifts can differ slightly, e.g. the CH3 of an ethyl group
+     bonded to O or C=O is measured at 1.1–1.3 ppm but is drawn at 1.0 ppm here.
    Every user-visible string goes through t("English text", {vars}).
    ========================================================================== */
 (function () {
@@ -823,10 +825,10 @@
     return [
       { id: 'ethanol', name: t('ethanol'), f: 'CH3CH2OH', M: 46, peaks: [
         [15, 7, 'CH3+', t('The booklet suggests •OCH<sub>3</sub> for a loss of 31. Ethanol has no OCH<sub>3</sub> group. Here the piece lost is •CH<sub>2</sub>OH, which also has a mass of 31. The table lists possible pieces only: they must fit the structure.')],
-        [27, 22], [29, 30, 'CH3CH2+'], [31, 100, 'CH2OH+'], [45, 51, 'CH3CH2O+', H1], [46, 22] ] },
+        [27, 22], [29, 30, 'CH3CH2+'], [31, 100, 'CH2OH+'], [45, 51, 'CH3CHOH+', H1], [46, 22] ] },
       { id: 'propan1ol', name: t('propan-1-ol'), f: 'CH3CH2CH2OH', M: 60, mNote: t('The molecular ion peak is small here. It is not the tallest peak. Look for it at the highest m/z.'), peaks: [
         [27, 16], [29, 18, 'CH3CH2+', t('The booklet suggests •OCH<sub>3</sub> for a loss of 31. Propan-1-ol has no OCH<sub>3</sub> group. Here the piece lost is •CH<sub>2</sub>OH, which also has a mass of 31.')],
-        [31, 100, 'CH2OH+'], [42, 14, 'C3H6+'], [59, 11, 'CH3CH2CH2O+', H1], [60, 7] ] },
+        [31, 100, 'CH2OH+'], [42, 14, 'C3H6+'], [59, 11, 'CH3CH2CHOH+', H1], [60, 7] ] },
       { id: 'propanal', name: t('propanal'), f: 'CH3CH2CHO', M: 58, mNote: t('Here the molecular ion peak is also the tallest peak. That is not usual.'), peaks: [
         [27, 47], [28, 58], [29, 88, 'CH3CH2+', t('Two different ions have m/z = 29 here. CH<sub>3</sub>CH<sub>2</sub><sup>+</sup> forms when the molecule loses •CHO. CHO<sup>+</sup> forms when it loses •CH<sub>2</sub>CH<sub>3</sub>. Both losses have a mass of 29.')],
         [57, 30, 'CH3CH2CO+', H1], [58, 100] ] },
@@ -911,7 +913,7 @@
       { id: 'ethylethanoate', name: t('ethyl ethanoate'), groups: 3, spec: chain([{ l: 'CH3', env: 'a' }, { l: 'C', up: '=O' }, { l: 'O' }, { l: 'CH2', env: 'b' }, { l: 'CH3', env: 'c' }]),
         envs: [E('a', 3, 'ester_a', 2.0, [], 'CH3'), E('b', 2, 'ester_o', 4.1, ['c'], 'OCH2'), E('c', 3, 'ch3', 1.0, ['b'], 'CH3')] },
       { id: 'butanone', name: t('butanone'), groups: 3, spec: chain([{ l: 'CH3', env: 'a' }, { l: 'C', up: '=O' }, { l: 'CH2', env: 'b' }, { l: 'CH3', env: 'c' }]),
-        envs: [E('a', 3, 'keto_a', 2.2, [], 'CH3'), E('b', 2, 'keto_a', 2.6, ['c'], 'CH2'), E('c', 3, 'ch3', 1.0, ['b'], 'CH3')] },
+        envs: [E('a', 3, 'keto_a', 2.2, [], 'CH3'), E('b', 2, 'keto_a', 2.4, ['c'], 'CH2'), E('c', 3, 'ch3', 1.0, ['b'], 'CH3')] },
       { id: 'tbutanol', name: t('2-methylpropan-2-ol'), groups: 4, spec: chain([{ l: 'CH3', env: 'a' }, { l: 'C', up: { l: 'CH3', env: 'a' }, down: { l: 'CH3', env: 'a' } }, { l: 'OH', env: 'b' }]),
         envs: [E('a', 9, 'ch3', 1.0, [], 'CH3'), E('b', 1, 'alcohol', 2.0, [], 'OH')] },
       { id: 'chloroethane', name: t('chloroethane'), groups: 2, spec: chain([{ l: 'CH3', env: 'a' }, { l: 'CH2', env: 'b' }, { l: 'Cl' }]),
@@ -1159,7 +1161,7 @@
       drawMol(true); table(true); spectrum();
       tableHost.style.display = ''; chartHost.style.display = '';
       setN(String(mol.envs.length)); setRatio(mol.envs.length > 1 ? ratioOf(mol.envs).join(' : ') : t('one signal only')); setH(String(totalH()));
-      note.innerHTML = t('The spectrum is a sketch. Each signal is drawn inside the booklet range for its type of proton. Measured values can differ a little.') + (ohNote ? ' ' + t('The H of an O–H group is shown as a singlet, and it is not counted as a neighbour.') : '');
+      note.innerHTML = t('The spectrum is a sketch. Each signal is drawn inside the booklet range for its type of proton, as in exam data. Measured values can differ a little.') + (ohNote ? ' ' + t('The H of an O–H group is shown as a singlet, and it is not counted as a neighbour.') : '');
     }
     function btnRow(labels, fn) {
       var row = el('div', { class: 'btn-row' });
@@ -1243,7 +1245,7 @@
         frag: { mz: 43, lost: 29, options: ['•CH3', '•OCH3', '•CH2CH3 or •CHO', '•COOH'], answer: 2, note: t('MS: the peak at m/z = 43 is M − 29. The piece lost is •CH<sub>2</sub>CH<sub>3</sub> or •CHO. The NMR spectrum will decide. The small peak at m/z = 57 is M − 15: loss of •CH<sub>3</sub>.') },
         ir: [{ at: 2980, depth: 40, width: 30, row: 'ch' }, { at: 1715, depth: 90, width: 18, row: 'co2' }], irExtra: [{ at: 1460, depth: 28, width: 12 }, { at: 1365, depth: 36, width: 12 }, { at: 1170, depth: 34, width: 14 }], irAnswer: 1,
         irNote: t('IR: strong C=O at 1700–1750 cm<sup>−1</sup>. No O–H. With one O atom, the compound is an aldehyde or a ketone.'),
-        envs: [E('a', 3, 'keto_a', 2.2, [], 'CH3'), E('b', 2, 'keto_a', 2.6, ['c'], 'CH2'), E('c', 3, 'ch3', 1.0, ['b'], 'CH3')], split: ETHYL,
+        envs: [E('a', 3, 'keto_a', 2.2, [], 'CH3'), E('b', 2, 'keto_a', 2.4, ['c'], 'CH2'), E('c', 3, 'ch3', 1.0, ['b'], 'CH3')], split: ETHYL,
         splitNote: t('NMR splitting: triplet (3 H) and quartet (2 H) show CH<sub>3</sub>–CH<sub>2</sub>. The 3 H singlet at 2.2 ppm is a CH<sub>3</sub> next to C=O with no H on the neighbouring carbon. No signal at 9.4–10.0 ppm, so there is no CHO group.'),
         structs: [
           { name: t('butanal'), spec: chain([{ l: 'CH3' }, { l: 'CH2' }, { l: 'CH2' }, { l: 'C', up: '=O' }, { l: 'H' }]), why: t('Butanal is an aldehyde. It would give a signal at 9.4–10.0 ppm for the CHO hydrogen, and four signals in total. The spectrum has three signals and none above 3 ppm.') },
