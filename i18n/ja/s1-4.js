@@ -1632,7 +1632,7 @@ S1.i18n.register('ja', 's1-4', {
     "In this topic (1.4.5)": "このトピックの範囲（1.4.5）",
 
     // Where this topic stops > table > th
-    "Gas volume ratios from an equation, including a gas you are told is in excess": "気体の体積の比を、化学反応式から求める（過剰と示された、気体を含む）",
+    "Gas volume ratios from an equation, including a gas you are told is in excess": "気体の体積の比を、化学反応式から求める（過剰な気体も含む）",
 
     // Where this topic stops > table > td
     "In this topic (1.4.6)": "このトピックの範囲（1.4.6）",
