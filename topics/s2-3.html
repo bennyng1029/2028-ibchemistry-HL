@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2.3 The metallic model | Structure Lab</title>
+<meta name="description" content="IB Chemistry Structure 2.3: the metallic bond, why metals conduct electricity and heat and are malleable, melting point trends of s- and p-block metals, and (HL) delocalized d-electrons in transition elements.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for topic 2.3. Tokens only. */
+/* long option labels must not push a select wider than a phone screen */
+.widget__controls .control { max-width: 100%; }
+.widget__controls .select { max-width: 100%; min-width: 0; }
+
+/* melting point explorer */
+.mp-prompt { margin: 0 0 0.6rem; max-width: 46rem; }
+.mp-choices { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0 0 0.9rem; }
+.mp-choice[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); font-weight: 700; }
+.mp-choice[aria-pressed="true"]::before { content: "\2713\00a0"; }
+.mp-chart { margin-top: 1rem; }
+.widget__stage .table-scroll { margin: 0.6rem 0; }
+
+/* explanation builder */
+.xb-q { margin: 0 0 0.4rem; font-size: 1.1rem; font-weight: 700; max-width: 46rem; }
+.xb-q__label { font-family: var(--font-mono); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent-ink); margin-right: 0.4rem; }
+.xb-parts { display: grid; gap: 0.5rem; margin: 0.75rem 0; max-width: 46rem; }
+.xb-part { display: grid; grid-template-columns: auto 1fr; gap: 0.2rem 0.65rem; align-items: start; padding: 0.6rem 0.75rem; border: 1px solid var(--line-strong); background: var(--surface); }
+.xb-part input { width: 1.15rem; height: 1.15rem; margin: 0.2rem 0 0; accent-color: var(--accent); }
+.xb-part label { cursor: pointer; }
+.xb-part__note { grid-column: 2; margin: 0.15rem 0 0; font-size: 0.92rem; color: var(--ink-2); }
+.xb-part--ok { border-left: 4px solid var(--ok); background: var(--ok-soft); }
+.xb-part--no { border-left: 4px solid var(--bad); background: var(--bad-soft); }
+.xb-out { margin-top: 0.9rem; padding: 0.7rem 0.9rem; border: 1px dashed var(--line-strong); background: var(--surface-2); max-width: 46rem; }
+.xb-out p { margin: 0 0 0.5rem; }
+.xb-out > :last-child { margin-bottom: 0; }
+.xb-out__label { font-family: var(--font-mono); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2); }
+</style>
+</head>
+<body data-page="s2-3">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="s2-3"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Structure 2.3</p>
+      <h1>The metallic model</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>What determines the metallic nature and properties of an element?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <section class="topic-section" id="goals">
+        <h2>What you need to be able to do</h2>
+        <p>Tick each one when you can do it without looking at your notes.</p>
+        <ul class="checklist" data-s1-checklist="s2-3">
+          <li data-id="metallic-bond-def" data-level="sl">Describe a metallic bond as the electrostatic attraction between a lattice of cations and delocalized electrons.</li>
+          <li data-id="electrical-conductivity" data-level="sl">Explain why metals conduct electricity.</li>
+          <li data-id="thermal-conductivity" data-level="sl">Explain why metals conduct heat.</li>
+          <li data-id="malleability" data-level="sl">Explain why metals are malleable.</li>
+          <li data-id="properties-uses" data-level="sl">Relate the properties of a metal to the way it is used.</li>
+          <li data-id="bond-strength" data-level="sl">Explain how the charge and the radius of the metal ion affect the strength of a metallic bond.</li>
+          <li data-id="mp-trends" data-level="sl">Explain trends in the melting points of s-block and p-block metals.</li>
+          <li data-id="d-electrons" data-level="ahl">Explain the high melting points and the electrical conductivity of transition elements, using their delocalized d-electrons.</li>
+        </ul>
+      </section>
+
+      <!-- ============================================================ 2.3.1 bond -->
+      <section class="topic-section" id="bond" data-toc="The metallic bond">
+        <span class="section-code">Structure 2.3.1</span>
+        <h2>The metallic bond</h2>
+        <p>Pick up a metal spoon. It is shiny and it bends before it breaks. It feels cold, because it carries heat away from your hand quickly. One model of bonding explains all of this.</p>
+        <p>A metal atom has only a few outer electrons, and it does not hold them strongly. In a piece of metal, these outer electrons leave their own atoms. They are no longer tied to any one atom. They can move through the whole piece of metal.</p>
+        <p>Electrons like this are called <dfn data-def="Electrons that are not tied to one atom or one bond. In a metal they can move through the whole structure.">delocalized electrons</dfn>. “Delocalized” means “not in one fixed place”.</p>
+        <p>Each atom that has lost its outer electrons is now a positive ion, a <dfn data-def="A positive ion. It has fewer electrons than protons.">cation</dfn>. The cations are packed in a regular, repeating pattern called a <dfn data-def="A regular, repeating three-dimensional arrangement of particles.">lattice</dfn>.</p>
+        <p>The cations are positive. The delocalized electrons are negative. Opposite charges attract, and this attraction holds the metal together.</p>
+
+        <aside class="callout callout--key">
+          <p>A <dfn>metallic bond</dfn> is the electrostatic attraction between a lattice of cations and delocalized electrons.</p>
+        </aside>
+
+        <p><dfn data-def="Attraction between particles with opposite electric charges.">Electrostatic attraction</dfn> means attraction between opposite charges. You used the same words for the ionic bond in Structure 2.1 and the covalent bond in Structure 2.2. The three bonds differ in <em>which</em> particles attract each other.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Three bonds, one kind of attraction</caption>
+            <thead><tr><th scope="col">Bond</th><th scope="col">The electrostatic attraction is between</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">ionic</th><td>oppositely charged ions (cations and anions)</td></tr>
+              <tr><th scope="row">covalent</th><td>a shared pair of electrons and the two positively charged nuclei</td></tr>
+              <tr><th scope="row">metallic</th><td>a lattice of cations and delocalized electrons</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>The bond has no direction</h3>
+        <p>A covalent bond joins two particular atoms. A metallic bond does not. The delocalized electrons are spread through the whole lattice, so each cation is attracted to the electrons all around it, in every direction.</p>
+        <p>Chemists say the metallic bond is <dfn data-def="Acting equally in all directions, not along a line between two particular atoms.">non-directional</dfn>. This one idea explains why you can change the shape of a metal. You will use it in the next section.</p>
+
+        <figure data-s1-widget="s2-3.lattice" data-title="Inside a piece of metal">
+          <p class="widget__fallback">An interactive model of a metal appears here when JavaScript is on. It shows cations in a fixed lattice with delocalized electrons moving between them.</p>
+          <figcaption>Start with “No voltage, no heating” and watch which particles move. Then try the other three choices. This is a model, not a photograph. The picture is flat and has only a few rows. Each cation is drawn with one delocalized electron, as in sodium. The electrons are drawn as small dots, and their drift in a voltage is made much larger than in real life so that you can see it.</figcaption>
+        </figure>
+
+        <aside class="callout callout--exam">
+          <p>A full description needs three things: “electrostatic attraction”, “lattice of cations” (or positive ions) and “delocalized electrons”. Writing only “a sea of electrons” does not earn the mark. You must say that the electrons are delocalized and what they are attracted to.</p>
+        </aside>
+
+        <aside class="callout callout--mistake">
+          <p>The attraction is <em>not</em> between the metal ions. The cations are all positive, so they repel each other. It is also not between the electrons. The attraction is between the cations and the delocalized electrons.</p>
+        </aside>
+
+        <aside class="callout callout--mistake" data-title="Common mistake: molecules">
+          <p>A metal contains no molecules, so it has no intermolecular forces. Never write “intermolecular forces” or “molecules” in an answer about a metal. Write “metallic bonding”.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>You do not need band theory. You do not need the names of the ways that metal atoms pack together (such as body-centred cubic, face-centred cubic or hexagonal close packing) or any unit cells. “A lattice of cations” is enough.</p>
+        </aside>
+      </section>
+
+      <!-- ============================================================ 2.3.1 properties -->
+      <section class="topic-section" id="properties" data-toc="Properties of metals">
+        <span class="section-code">Structure 2.3.1</span>
+        <h2>Explaining the properties of metals</h2>
+        <p>The syllabus names three properties that you must be able to explain: electrical conductivity, thermal conductivity and malleability. Each explanation starts from the same picture: a lattice of cations and delocalized electrons.</p>
+
+        <h3>Electrical conductivity</h3>
+        <p>An electric current is a flow of charged particles. So a substance conducts electricity only if it contains charged particles that are free to move.</p>
+        <p>A metal has them: the delocalized electrons. When you connect a voltage across a metal, the delocalized electrons drift towards the positive terminal. New electrons enter the metal from the negative terminal. The cations stay where they are.</p>
+        <p>The delocalized electrons are still there when the metal melts. So a metal conducts electricity as a solid <em>and</em> as a liquid.</p>
+
+        <aside class="callout callout--mistake">
+          <p>Do not write “the ions move” or “free ions” for a metal. In a solid metal the cations only vibrate about fixed positions. It is the delocalized <em>electrons</em> that move and carry the charge. Moving ions carry the charge in molten or dissolved ionic compounds (Structure 2.1).</p>
+        </aside>
+
+        <h3>Thermal conductivity</h3>
+        <p><dfn data-def="How well a material lets heat pass through it.">Thermal conductivity</dfn> is how well a material lets heat pass through it. Heating one end of a metal gives the particles there more kinetic energy.</p>
+        <p>The delocalized electrons at the hot end move faster. They are free to move through the structure, so they carry this kinetic energy to the cooler parts quickly.</p>
+        <p>The cations help too. They are packed closely together. A cation that vibrates strongly passes some of its energy to its neighbours.</p>
+
+        <h3>Malleability</h3>
+        <p>A <dfn data-def="Able to be hammered or pressed into a new shape without breaking.">malleable</dfn> material can be hammered or pressed into a new shape without breaking. Metals are malleable. Most can also be pulled into wires.</p>
+        <p>The cations in a metal are arranged in layers. When a force is applied, one layer can slide over the next.</p>
+        <p>After the slide, each cation has moved to a new position. But the delocalized electrons are still all around it. The attraction is still there, because the metallic bond is non-directional. The bond is not broken. The metal has a new shape.</p>
+        <p>Compare this with an ionic crystal. If a layer of ions slides, ions with the same charge come next to each other. They repel, and the crystal splits. That is why an ionic crystal is brittle. Choose “Hit it with a hammer” in the model above to see both.</p>
+
+        <aside class="callout callout--exam">
+          <p>For malleability, the marks are for: layers of cations can slide over each other, <em>and</em> the metallic bond is not broken (it is non-directional). “Delocalized electrons can move” on its own explains conductivity, not malleability.</p>
+        </aside>
+
+        <h3>Summary: property, explanation, use</h3>
+        <p>You can be asked to link a property of a metal to a use. Name the property, then say why the use needs it.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Properties of metals and how they are used</caption>
+            <thead><tr><th scope="col">Property</th><th scope="col">Explanation</th><th scope="col">Example of a use</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Conducts electricity</th><td>Delocalized electrons are free to move through the structure and carry charge.</td><td>Copper in electrical wires. Aluminium in overhead power cables.</td></tr>
+              <tr><th scope="row">Conducts heat</th><td>Delocalized electrons and closely packed cations transfer kinetic energy through the structure.</td><td>Aluminium, copper and steel in cooking pans.</td></tr>
+              <tr><th scope="row">Malleable</th><td>Layers of cations can slide over each other without breaking the metallic bond, because it is non-directional.</td><td>Steel sheet pressed into car body panels. Aluminium rolled into foil.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <aside class="callout callout--scope" data-title="Comes later">
+          <p>An <em>alloy</em> is a mixture of a metal with other elements. Why alloys are often harder than pure metals is in Structure 2.4. How metals react is in Structure 3.1 and Reactivity 3.2.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-3" data-syllabus="Structure 2.3.1" data-count="4" data-title="The metallic bond and properties: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.3.2 strength -->
+      <section class="topic-section" id="strength" data-toc="Bond strength and melting point">
+        <span class="section-code">Structure 2.3.2</span>
+        <h2>How strong is a metallic bond?</h2>
+        <p>Caesium melts in a warm room, at 28.44 °C. Magnesium melts at 650.0 °C. Both are metals, so why are they so different?</p>
+        <p>To melt a metal, you must give the cations enough energy to move out of their lattice positions and past each other. The stronger the attraction between the cations and the delocalized electrons, the more energy this takes. So a stronger metallic bond gives a higher melting point.</p>
+        <p>The strength of a metallic bond depends on two things about the metal ion.</p>
+        <ol>
+          <li><strong>The charge of the ion.</strong> A cation with a greater charge attracts the delocalized electrons more strongly. A greater charge also means that each atom has given more delocalized electrons. A <span class="chem">Mg^2+</span> ion comes with two delocalized electrons. A <span class="chem">Na+</span> ion comes with one.</li>
+          <li><strong>The radius of the ion.</strong> In a smaller cation, the nucleus is closer to the delocalized electrons around the ion. The attraction is stronger.</li>
+        </ol>
+
+        <aside class="callout callout--key">
+          <p>Greater ion charge, more delocalized electrons per atom and smaller ionic radius all give a stronger metallic bond, and so a higher melting point.</p>
+        </aside>
+
+        <p>Some books join these ideas in one phrase. A small ion with a large charge has a high <dfn data-def="The charge of an ion compared with its size. A small ion with a large charge has a high charge density.">charge density</dfn>. A metal whose ions have a high charge density has strong metallic bonding.</p>
+
+        <aside class="callout callout--booklet">
+          <p>Melting points of the elements are in section 8 of the data booklet, in °C. Ionic radii are in section 10, in units of 10<sup>−12</sup> m (the same as pm). You do not need to remember any of these values.</p>
+        </aside>
+
+        <h3>Two trends to explain</h3>
+        <p>The syllabus asks about s-block and p-block metals. Two trends are the usual examples. The table shows the first. Use the explorer below to predict both before you see the melting points.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Across period 3: sodium, magnesium and aluminium (data booklet values)</caption>
+            <thead><tr><th scope="col">Metal</th><th scope="col">Ion</th><th scope="col" class="num">Delocalized electrons per atom</th><th scope="col" class="num">Ionic radius / pm</th><th scope="col" class="num">Melting point / °C</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">sodium</th><td><span class="chem">Na+</span></td><td class="num">1</td><td class="num">102</td><td class="num">97.79</td></tr>
+              <tr><th scope="row">magnesium</th><td><span class="chem">Mg^2+</span></td><td class="num">2</td><td class="num">72</td><td class="num">650.0</td></tr>
+              <tr><th scope="row">aluminium</th><td><span class="chem">Al^3+</span></td><td class="num">3</td><td class="num">54</td><td class="num">660.3</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <figure data-s1-widget="s2-3.melting" data-title="Melting point trend explorer">
+          <p class="widget__fallback">An interactive melting point explorer appears here when JavaScript is on. Across period 3 the melting point rises: Na 97.79 °C, Mg 650.0 °C, Al 660.3 °C. Down group 1 it falls: Li 180.5 °C, Na 97.79 °C, K 63.38 °C, Rb 39.30 °C, Cs 28.44 °C.</p>
+          <figcaption>Choose a set of metals. Read the ion data, make a prediction, then reveal the melting points. All values are from sections 8 and 10 of the data booklet. The number of delocalized electrons per atom is the simple model used in IB: it equals the charge on the ion.</figcaption>
+        </figure>
+
+        <h3>Method in words: comparing two melting points</h3>
+        <ol>
+          <li>Write the ion that each metal forms. Use the group number: group 1 gives 1+, group 2 gives 2+, group 13 gives 3+.</li>
+          <li>Compare the charges, and so the number of delocalized electrons per atom.</li>
+          <li>Compare the ionic radii. Down a group the radius increases. Across a period, for these cations, it decreases.</li>
+          <li>Say which metal has the stronger electrostatic attraction between its cations and its delocalized electrons.</li>
+          <li>Link to energy: a stronger attraction needs more energy to overcome, so the melting point is higher.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Across a period: magnesium and sodium</h3>
+          <div class="worked__problem">
+            <p>Explain why magnesium has a higher melting point than sodium. [3 marks]</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Write the ions">
+              <p class="worked__why">The explanation is about the cations in each lattice, so start by naming them.</p>
+              <div class="worked__math">sodium: Na<sup>+</sup> &nbsp;&nbsp; magnesium: Mg<sup>2+</sup></div>
+            </li>
+            <li data-title="Compare the charges and the delocalized electrons">
+              <p class="worked__why">A greater ion charge means more delocalized electrons per atom. Both make the attraction stronger.</p>
+              <p>The <span class="chem">Mg^2+</span> ion has a greater charge than the <span class="chem">Na+</span> ion. Magnesium has two delocalized electrons per atom and sodium has one.</p>
+            </li>
+            <li data-title="Compare the ionic radii">
+              <p class="worked__why">A smaller cation attracts the delocalized electrons more strongly.</p>
+              <p>The <span class="chem">Mg^2+</span> ion (72 pm) is smaller than the <span class="chem">Na+</span> ion (102 pm).</p>
+            </li>
+            <li data-title="Name the attraction and link it to energy">
+              <p class="worked__why">The mark is for saying what attracts what. Then finish the chain: stronger attraction, more energy, higher melting point.</p>
+              <p><b>The electrostatic attraction between the cations and the delocalized electrons is stronger in magnesium, so more energy is needed to overcome it.</b></p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Mg<sup>2+</sup> has a greater charge than Na<sup>+</sup>, and magnesium has two delocalized electrons per atom, not one. Mg<sup>2+</sup> also has a smaller ionic radius. So the electrostatic attraction between the cations and the delocalized electrons is stronger in magnesium, and more energy is needed to overcome it.</p></div>
+        </div>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Down a group: the group 1 metals</h3>
+          <div class="worked__problem">
+            <p>The melting points of the group 1 metals decrease from lithium (180.5 °C) to caesium (28.44 °C). Explain this trend. [2 marks]</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Say what stays the same">
+              <p class="worked__why">If the charge does not change, it cannot be the reason for the trend. Saying so shows you have checked.</p>
+              <p>Every group 1 metal forms a 1+ ion, and each atom gives one delocalized electron.</p>
+            </li>
+            <li data-title="Say what changes">
+              <p class="worked__why">Each step down the group adds one more occupied energy level, so the ion is larger.</p>
+              <div class="worked__math">ionic radius: Li<sup>+</sup> 76 pm, Na<sup>+</sup> 102 pm, K<sup>+</sup> 138 pm, Rb<sup>+</sup> 152 pm, Cs<sup>+</sup> 167 pm</div>
+              <p>The ionic radius increases down the group.</p>
+            </li>
+            <li data-title="Name the attraction and link it to energy">
+              <p class="worked__why">In a larger ion, the nucleus is further from the delocalized electrons, so it attracts them less strongly.</p>
+              <p><b>The electrostatic attraction between the cations and the delocalized electrons becomes weaker down the group, so less energy is needed to overcome it.</b></p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>The ions all have the same charge (1+), but the ionic radius increases down the group. The electrostatic attraction between the cations and the delocalized electrons becomes weaker, so less energy is needed to overcome it.</p></div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Do not explain a melting point by the mass of the atoms. Caesium atoms are about 19 times heavier than lithium atoms, but caesium has the lower melting point. The reasons are always the charge of the ion and the radius of the ion.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>In a comparison, write about <em>both</em> metals and use comparing words: “greater charge”, “smaller radius”, “stronger attraction”. Always end with the attraction between the cations and the delocalized electrons, and the energy needed to overcome it.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>This simple model gives the direction of a trend. It does not explain every number. For example, the rise from magnesium to aluminium is small, and you are not asked to explain why. A simple treatment using the charge of the cations and the delocalized electrons is all that is required.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-3" data-syllabus="Structure 2.3.2" data-count="4" data-title="Bond strength and melting point: quick check"></div>
+      </section>
+
+      <!-- ============================================================ builder -->
+      <section class="topic-section" id="explain" data-toc="Build an explanation">
+        <span class="section-code">Structure 2.3.1 and 2.3.2</span>
+        <h2>Build an explanation that scores</h2>
+        <p>Almost every exam question on this topic begins with “Explain”. A good answer is a short chain of true statements, each one a marking point. A weak answer mixes in statements that are wrong, or that are true but do not answer the question.</p>
+        <p>Use the builder to practise choosing. Each wrong sentence is a real mistake that students make, and the builder tells you what is wrong with it.</p>
+
+        <figure data-s1-widget="s2-3.explain" data-title="Explain the property">
+          <p class="widget__fallback">An interactive explanation builder appears here when JavaScript is on.</p>
+          <figcaption>Choose a question. Tick the sentences that belong in a full-mark answer, then press Check my answer. Your chosen sentences are joined into one answer underneath, so you can read it as an examiner would.</figcaption>
+        </figure>
+      </section>
+
+      <!-- ============================================================ 2.3.3 AHL -->
+      <section class="topic-section" id="transition" data-level="ahl" data-toc="Transition elements">
+        <span class="section-code">Structure 2.3.3</span>
+        <h2>Transition elements: delocalized d-electrons</h2>
+        <p>Iron melts at 1538 °C. Calcium, in the same period, melts at 842.0 °C, and potassium melts at only 63.38 °C. The transition elements are the metals with the high melting points. The reason is the number of electrons they can delocalize.</p>
+        <p>In potassium and calcium, only the 4s electrons are delocalized. A transition element has electrons in the 3d sublevel as well. The 3d and 4s sublevels are close in energy.</p>
+
+        <aside class="callout callout--key" data-no-badge>
+          <p>Transition elements have delocalized d-electrons. In a first-row transition element, 3d electrons are delocalized as well as 4s electrons.</p>
+        </aside>
+
+        <h3>High melting points</h3>
+        <p>With d-electrons delocalized as well as s-electrons, a transition element has more delocalized electrons per atom than an s-block metal in the same period. The electrostatic attraction between the cations and the delocalized electrons is stronger. More energy is needed to overcome it, so the melting point is high.</p>
+
+        <h3>Electrical conductivity</h3>
+        <p>The explanation has the same form as for any metal. The delocalized electrons are free to move through the structure and carry charge. For a transition element, say that these include d-electrons as well as s-electrons.</p>
+
+        <figure data-s1-widget="s2-3.melting" data-title="Melting points across period 4" data-start="d" data-fixed data-no-badge>
+          <p class="widget__fallback">An interactive melting point explorer appears here when JavaScript is on. Data booklet melting points in °C: K 63.38, Ca 842.0, Sc 1541, Ti 1670, V 1910, Cr 1907, Mn 1246, Fe 1538, Co 1495, Ni 1455, Cu 1085.</p>
+          <figcaption>Make a prediction, then reveal the melting points of potassium, calcium and the first-row transition elements from scandium to copper. The values are from section 8 of the data booklet.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked data-no-badge>
+          <h3 class="worked__title">Why a transition element has a high melting point</h3>
+          <div class="worked__problem">
+            <p>Titanium is a transition element. It melts at 1670 °C. Calcium, an s-block metal in the same period, melts at 842.0 °C. Explain why titanium has the higher melting point. [2 marks]</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Say which electrons are delocalized">
+              <p class="worked__why">This is the fact the syllabus statement gives you. Use the word “d-electrons”.</p>
+              <div class="worked__math">Ca: [Ar] 4s<sup>2</sup> &nbsp;&nbsp; Ti: [Ar] 3d<sup>2</sup> 4s<sup>2</sup></div>
+              <p>In titanium, 3d electrons are delocalized as well as 4s electrons. In calcium, only the two 4s electrons are delocalized.</p>
+            </li>
+            <li data-title="Compare the number of delocalized electrons">
+              <p class="worked__why">More delocalized electrons per atom means more negative charge for each cation to attract.</p>
+              <p>Titanium has more delocalized electrons per atom than calcium.</p>
+            </li>
+            <li data-title="Name the attraction and link it to energy">
+              <p class="worked__why">This step is the same for every melting point question in this topic.</p>
+              <p><b>The electrostatic attraction between the cations and the delocalized electrons is stronger in titanium, so more energy is needed to overcome it.</b></p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>In titanium, 3d electrons as well as 4s electrons are delocalized, so there are more delocalized electrons per atom than in calcium. The electrostatic attraction between the cations and the delocalized electrons is stronger, so more energy is needed to overcome it.</p></div>
+        </div>
+
+        <aside class="callout callout--exam" data-no-badge>
+          <p>The key phrase is “delocalized d-electrons”, or “d-electrons as well as s-electrons are delocalized”. Then finish in the usual way: stronger electrostatic attraction between the cations and the delocalized electrons.</p>
+        </aside>
+
+        <aside class="callout callout--mistake" data-no-badge>
+          <p>Variable oxidation states, coloured compounds and catalysis are <em>chemical</em> properties of transition elements. They do not explain a melting point or conductivity. Keep the physical explanation (delocalized d-electrons) separate.</p>
+        </aside>
+
+        <aside class="callout callout--scope" data-title="Comes later" data-no-badge>
+          <p>The chemical properties of transition elements are in Structure 3.1 and Reactivity 3.4. On this page you need only the two physical properties: high melting point and electrical conductivity. You are not asked to count how many d-electrons are delocalized, or to explain why the melting points from scandium to copper go up and down.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-3" data-syllabus="Structure 2.3.3" data-count="3" data-title="Transition elements: quick check" data-no-badge></div>
+      </section>
+
+      <hr class="spectrum">
+
+      <!-- ============================================================ linking -->
+      <section class="topic-section" id="links">
+        <h2>Linking it up</h2>
+        <p>The IB guide asks these linking questions. Short answers are enough at this stage.</p>
+
+        <h3>What are the features of metallic bonding that make it possible for metals to form alloys?</h3>
+        <p>The metallic bond is non-directional. The delocalized electrons attract any cation, of any size, in any position. So atoms of another element can take places in the lattice and the metal still holds together. Alloys and their properties are in Structure 2.4.</p>
+
+        <h3>What experimental data demonstrate the physical properties of metals, and trends in these properties?</h3>
+        <p>Melting points are one example. The values in section 8 of the data booklet show the fall down group 1 and the rise from sodium to aluminium. Measurements of electrical conductivity show that metals conduct as solids and as liquids. Periodic trends are studied in Structure 3.1.</p>
+
+        <h3>What trends in the reactivity of metals can be predicted from the periodic table?</h3>
+        <p>Metals react by losing electrons. Down group 1 the outer electron is further from the nucleus and is lost more easily, so the metals become more reactive. This is a chemical trend, and it is taught in Structure 3.1 and Reactivity 3.2. Do not mix it up with melting point, which is a physical property with its own explanation.</p>
+
+        <div data-level="ahl">
+          <h3>Why is the trend in melting points of metals across a period less evident across the d-block?</h3>
+          <p>From sodium to aluminium, each step adds one delocalized electron per atom, increases the charge of the ion and makes the ion much smaller. All three changes make the bonding stronger, so the trend is clear. Across the d-block, the atoms are similar in size, and every element has both d-electrons and s-electrons that can be delocalized. No single factor changes steadily, so there is no simple trend.</p>
+        </div>
+      </section>
+
+      <!-- ============================================================ practice -->
+      <section class="topic-section" id="practice" data-toc="Exam-style practice">
+        <h2>Exam-style practice</h2>
+        <p>Three sets, from first steps to stretch. Questions you have not yet answered correctly come up first, so each set changes when you come back to it. Have the data booklet beside you.</p>
+        <h3>Foundation: one idea at a time</h3>
+        <div data-s1-quiz data-topic="s2-3" data-tier="foundation" data-count="5" data-title="2.3 foundation"></div>
+        <h3>Exam standard</h3>
+        <div data-s1-quiz data-topic="s2-3" data-tier="exam" data-count="6" data-title="2.3 exam standard"></div>
+        <h3>Challenge</h3>
+        <div data-s1-quiz data-topic="s2-3" data-tier="challenge" data-count="4" data-title="2.3 challenge"></div>
+        <div data-level="ahl">
+          <h3>Additional HL: transition elements</h3>
+          <div data-s1-quiz data-topic="s2-3" data-level="ahl" data-count="5" data-title="2.3 Additional HL"></div>
+        </div>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../assets/js/chart.js"></script>
+<script src="../data/questions-s2-3.js"></script>
+<script src="../assets/js/widgets-s2-3.js"></script>
+</body>
+</html>
