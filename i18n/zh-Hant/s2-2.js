@@ -15,7 +15,7 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "The covalent model": "共價模型",
 
     // The covalent model > page header > span
-    "What determines the covalent nature and properties of a substance?": "物質的共價本質和性質，是由甚麼決定的？",
+    "What determines the covalent nature and properties of a substance?": "物質的共價本質和性質由甚麼決定？",
 
     // What you need to be able to do > data-toc attribute
     "What you need to do": "你要做得到的事",
