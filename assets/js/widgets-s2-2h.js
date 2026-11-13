@@ -436,10 +436,10 @@
         alt: t('Wrong position, for comparison: lone pairs next to each other are only 90° apart. In the real molecule they are opposite each other, 180° apart. Less repulsion.') }
     ];
     var SHAPE_KEYS = ['5-0', '5-1', '5-2', '5-3', '6-0', '6-1', '6-2'];
-    var cur = DATA[1], mode = 'predict', answered = false, altOn = false;
+    var cur = DATA[1], mode = 'predict', answered = false, altOn = false, fb = null;
     w.select({ label: t('Species'), value: cur.id, options: DATA.map(function (d) { return { value: d.id, label: uni(d.id) }; }),
-      onChange: function (v) { cur = DATA.filter(function (d) { return d.id === v; })[0]; answered = false; altOn = false; update(); } });
-    seg(w.controls, t('Mode'), [{ value: 'predict', label: t('Predict first') }, { value: 'explore', label: t('Explore') }], mode, function (v) { mode = v; answered = false; altOn = false; update(); });
+      onChange: function (v) { cur = DATA.filter(function (d) { return d.id === v; })[0]; answered = false; altOn = false; fb = null; update(); } });
+    seg(w.controls, t('Mode'), [{ value: 'predict', label: t('Predict first') }, { value: 'explore', label: t('Explore') }], mode, function (v) { mode = v; answered = false; altOn = false; fb = null; update(); });
     var altBtn = w.button(t('Try the other lone pair position'), function () { altOn = !altOn; update(); });
     var ask = el('div', { class: 's22h-ask' }), box = el('div', { class: 's22h-view' }), note = msgBox(w.stage);
     w.stage.insertBefore(ask, note.el); w.stage.insertBefore(box, note.el);
@@ -473,10 +473,9 @@
         SHAPE_KEYS.forEach(function (k) {
           row.appendChild(el('button', { class: 'btn btn--small', type: 'button', text: shapeName(k), onclick: function () {
             answered = true;
-            var ok = shapeName(k) === shapeName(key);
+            fb = k === key ? ['ok', t('Correct. {f} is {shape}.', { f: f, shape: shapeName(key) })]
+              : ['bad', t('Not quite. You chose {yours}. With {b} bonding domains and {l} lone pairs out of {d} domains, {f} is {shape}. Turn the model to see why.', { yours: shapeName(k), b: cur.d - cur.lp, l: cur.lp, d: cur.d, f: f, shape: shapeName(key) })];
             update();
-            if (ok) note.show('ok', t('Correct. {f} is {shape}.', { f: f, shape: shapeName(key) }));
-            else note.show('bad', t('Not quite. You chose {yours}. With {b} bonding domains and {l} lone pairs out of {d} domains, {f} is {shape}. Turn the model to see why.', { yours: shapeName(k), b: cur.d - cur.lp, l: cur.lp, d: cur.d, f: f, shape: shapeName(key) }));
           } }));
         });
         ask.appendChild(row);
@@ -497,7 +496,8 @@
       setAng(cur.angle);
       setPol(cur.polar === 'yes' ? t('polar: the bond dipoles do not cancel') : cur.polar === 'no' ? t('non-polar: the bond dipoles cancel') : t('an ion: it has an overall charge'));
       if (altOn && cur.alt) note.show('warn', cur.alt);
-      else if (mode === 'explore' || !note.el.innerHTML) note.hide();
+      else if (fb) note.show(fb[0], fb[1]);
+      else note.hide();
     }
     update();
   });
@@ -566,7 +566,7 @@
       var shown = {}; Object.keys(solved).forEach(function (k) { shown[k] = true; });
       var s = withCharges(cur.s, shown);
       s.label = t('Lewis formula of {f}. Choose an atom to find its formal charge.', { f: uni(cur.id) });
-      setRing = drawPickable(draw, s, function (i) { if (!cur.only || cur.only.indexOf(i) > -1 || cur.s.atoms[i].el === cur.s.atoms[cur.only[1]].el) select(cur.only && cur.only.indexOf(i) < 0 ? cur.only[1] : i); });
+      setRing = drawPickable(draw, s, function (i) { select(cur.only && cur.only.indexOf(i) < 0 ? cur.only[1] : i); });
       setRing(pick);
     }
     function workingHtml(i) {
@@ -702,8 +702,8 @@
       if (over) {
         var note = 'fill:var(--accent-ink);font-family:var(--font-body);font-size:13px;font-weight:700';
         if (type === 'pi') {
-          svgEl('text', { x: 300, y: 36, 'text-anchor': 'middle', style: note }, svg, t('overlap above the axis'));
-          svgEl('text', { x: 300, y: 218, 'text-anchor': 'middle', style: note }, svg, t('overlap below the axis'));
+          svgEl('text', { x: 352, y: 76, style: note }, svg, t('overlap above the axis'));
+          svgEl('text', { x: 352, y: 176, style: note }, svg, t('overlap below the axis'));
         } else svgEl('text', { x: 300, y: 52, 'text-anchor': 'middle', style: note }, svg, t('overlap on the axis, between the nuclei'));
       }
       setType(type === 'pi' ? t('sideways (lateral)') : t('head-on (end to end)'));
@@ -823,9 +823,9 @@
       // left: ground state, 2s then 2p by Hund's rule
       var pe = V - 2, pfill = [0, 0, 0];
       for (i = 0; i < pe; i++) pfill[i % 3]++;
-      box(svg, 115, yS, 2); text(svg, 108, yS + 20, 's', 'end');
+      box(svg, 115, yS, 2); text(svg, 108, yS + 20, '2s', 'end');
       for (i = 0; i < 3; i++) box(svg, 83 + i * 32, yP, pfill[i]);
-      text(svg, 76, yP + 20, 'p', 'end');
+      text(svg, 76, yP + 20, '2p', 'end');
       // arrow
       svgEl('line', { x1: 215, y1: 130, x2: 268, y2: 130, style: 'stroke:' + ACC + ';stroke-width:2' }, svg);
       svgEl('path', { d: 'M280 130 L267 124.5 L267 135.5 Z', style: 'fill:' + ACC }, svg);
@@ -837,7 +837,7 @@
       text(svg, 440, yH + 48, lp ? t('{d} hybrid orbitals: {l} hold lone pairs, {b} form σ bonds', { d: dom, l: lp, b: dom - lp }) : t('{d} hybrid orbitals: each forms one σ bond', { d: dom }), 'middle');
       var np = 3 - nMix, xp = 440 - np * 16;
       for (i = 0; i < np; i++) box(svg, xp + i * 32, yP, 1);
-      if (np) { text(svg, xp - 7, yP + 20, 'p', 'end'); text(svg, 440, yP - 9, np === 1 ? t('1 unmixed p orbital: forms the π bond') : t('2 unmixed p orbitals: form two π bonds'), 'middle'); }
+      if (np) { text(svg, xp - 7, yP + 20, '2p', 'end'); text(svg, 440, yP - 9, np === 1 ? t('1 unmixed p orbital: forms the π bond') : t('2 unmixed p orbitals: form two π bonds'), 'middle'); }
     }
     function select(i) {
       pick = i; if (atomSeg) atomSeg.set(i); if (setRing) setRing(i);

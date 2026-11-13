@@ -81,7 +81,7 @@
 
   /* Paper chromatogram with a ruler. All distances are in cm from the bottom edge of the paper. */
   function chromatogram(d) {
-    var K = 17, top = 14, H = d.paper * K, y = function (cm) { return top + H - cm * K; }, s = '';
+    var K = 17, top = 26, H = d.paper * K, y = function (cm) { return top + H - cm * K; }, s = '';
     var i;
     // ruler
     s += '<line x1="40" x2="40" y1="' + y(0) + '" y2="' + y(d.paper) + '" stroke="currentColor" stroke-width="1.2"/>';
@@ -89,7 +89,7 @@
       s += '<line x1="' + (i % 2 ? 35 : 32) + '" x2="40" y1="' + y(i) + '" y2="' + y(i) + '" stroke="currentColor" stroke-width="1"/>';
       if (i % 2 === 0) s += '<text x="28" y="' + (y(i) + 4) + '" text-anchor="end" font-size="11" fill="currentColor">' + i + '</text>';
     }
-    s += '<text x="6" y="10" font-size="11" fill="currentColor">cm</text>';
+    s += '<text x="28" y="11" text-anchor="end" font-size="11" fill="currentColor">cm</text>';
     // paper
     s += '<rect x="56" y="' + y(d.paper) + '" width="84" height="' + H + '" fill="none" stroke="currentColor" stroke-width="1.4"/>';
     // baseline, solvent front, spot
