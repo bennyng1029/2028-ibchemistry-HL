@@ -480,7 +480,8 @@ S1.widgets.register(name, initFn)
 S1.util.el(tag, attrs, children) / escapeHtml / shuffle / clamp / uid / reducedMotion()
 S1.store.get(key, fallback) / set(key, value)   safe localStorage (use keys starting "s1.")
 
-S1.chem.constants      NA, R, Vm_STP, STP_T, STP_p (kPa), STP_p_Pa, h, c, zeroC
+S1.chem.constants      NA, R, Vm_STP, STP_T, STP_p (kPa), STP_p_Pa, SATP_T, SATP_p (kPa), SATP_p_Pa, h, c, e, me, mp, mn,
+                       cw (J g-1 K-1), Kw, F, zeroC  — the data booklet values (sections 2 and 4)
 S1.chem.constantInfo   name, symbolHtml, valueHtml, unit for display
 S1.chem.elements       [{z, symbol, name, ar, group, period, block, category, massNumber?}] for Z = 1–118;  S1.chem.element('Na' | 11)
 S1.periodic            optional (periodic-data.js): get(), series(), config()  — section 10
@@ -763,29 +764,43 @@ S1.chart.nmr('#nmr', { label: 'Proton NMR spectrum of ethanol', max: 5, signals:
 ## 10. Element data
 
 `S1.chem.elements` (always loaded) covers Z = 1–118: `{z, symbol, name, ar, group, period, block, category}`.
-`ar` is to 2 d.p. and is `null` for elements with no stable isotopes (`massNumber` then gives the bracketed
-value where it is well established). `group` is `null` for the f-block rows; La and Ac are in group 3.
+`symbol`, `name`, `ar` and `massNumber` are the data booklet's values (sections 6 and 7). `ar` is to 2 d.p. and is
+`null` where the booklet prints a mass number in brackets instead; `massNumber` is then that bracketed number.
+The booklet prints Se 78.96 and Mo 95.96, so `S1.chem.molarMass` uses those. `group` is `null` for the f-block rows; La and Ac are in group 3.
 `category` is `'metal' | 'metalloid' | 'non-metal' | 'unknown'`.
 
 `assets/js/periodic-data.js` (optional, load after `chem.js`) adds `S1.periodic`:
 
 ```js
-S1.periodic.get('Fe')            // {…element, en: 1.8, ie1: 762, radius: 124, ions: [{charge: 2, radius: 61}, …], mp: 1811, config: '[Ar] 3d6 4s2'}
+S1.periodic.get('Fe')            // {…element, en: 1.8, ie1: 762, ea: -15, ea2: null, radius: 124,
+                                 //  ions: [{charge: 2, radius: 61}, {charge: 3, radius: 55}],
+                                 //  mp: 1811, bp: 3134, mpC: 1538, bpC: 2861, est: [], config: '[Ar] 3d6 4s2'}
 S1.periodic.series('ie1', 3, 10) // [{z, symbol, value}] for a plot; elements without a value are left out
-S1.periodic.series('ionRadius', 11, 17)
+S1.periodic.series('ionRadius', 11, 17)       // uses the first ion the booklet lists
 S1.periodic.config(24)                        // '[Ar] 3d5 4s1'
 S1.periodic.config(24, { order: 'filling' })  // '[Ar] 4s1 3d5'
 S1.periodic.config(26, { condensed: false, html: true })
+S1.periodic.nonBooklet                        // {54: ['en']}: values the booklet does not print
 ```
 
-| Property | Unit | Coverage |
-|---|---|---|
-| `en` | Pauling scale | Z = 1–56 (noble gases He, Ne, Ar, Kr are `null`) |
-| `ie1` | kJ mol⁻¹ | Z = 1–56, plus Hf, Au, Hg, Tl, Pb, Bi, Rn |
-| `radius` | pm (atomic / covalent) | Z = 1–56 |
-| `ions` | pm, with charge | common ions, Z = 3–56 where well established |
-| `mp` | K | Z = 1–56 and 72–83, except He, C, As |
-| `config` | | every element (Aufbau order plus the listed exceptions) |
+Every property except `config` holds the value printed in the IB data booklet (first assessment 2025), for
+Z = 1–103. `null` means the booklet prints no value.
+
+| Property | Unit | Booklet section | Coverage and caveats |
+|---|---|---|---|
+| `en` | Pauling scale | 9 | no value for the noble gases, Pm, Eu, Tb, Yb, Am–Lr. **Xe is 2.6 from the CRC Handbook, not the booklet** (see `nonBooklet`) |
+| `ie1` | kJ mol⁻¹ | 9 | Z = 1–103 except At |
+| `ea` | kJ mol⁻¹ | 9 | first electron affinity, booklet sign (negative = energy released); `null` where the cell is blank and for Dy (printed "< 0") |
+| `ea2` | kJ mol⁻¹ | 9 | second electron affinity: O (+753) and S (+545) only |
+| `radius` | pm | 10 | covalent radius, Z = 1–103 |
+| `ions` | pm, with charge | 10 | every ion the booklet lists, in its order; `[]` if none |
+| `mpC`, `bpC` | °C | 8 | exactly as printed, at 101.325 kPa. No `mpC` for He, Fm, No, Lr; no `bpC` for Cf–Lr |
+| `mp`, `bp` | K | 8 | `mpC`/`bpC` + 273.15, rounded to the nearest kelvin |
+| `est` | | 8 | `['mp']` and/or `['bp']` where the booklet prints the value in brackets (Pm, Pa, Np, Am, Bk, Es); otherwise `[]` |
+| `config` | | not in the booklet | every element (Aufbau order plus the listed exceptions) |
+
+The booklet lists C as 3500 / 4827 °C and As as 816.8 / 613.0 °C without comment; both sublime at this pressure,
+so say so if a page shows those numbers.
 
 **A missing value is `null`, never a guess: always handle `null`.** Sources and caveats are in the header
-of `periodic-data.js`. Every value shown to students must be checked against the current data booklet.
+of `periodic-data.js`. The numbers were read from an unofficial mirror of the booklet (verified 2026-11-13).

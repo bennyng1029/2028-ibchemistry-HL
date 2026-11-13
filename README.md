@@ -38,7 +38,7 @@ assets/js/core.js           header and footer, theme, SL/HL switch, languages, p
 assets/js/quiz.js           question engine and practice arena
 assets/js/mol.js            Lewis, structural and skeletal formulas, 3-D ball-and-stick viewer, VSEPR shapes
 assets/js/chart.js          line, scatter, bar and stick charts; IR, mass and NMR spectra
-assets/js/periodic-data.js  electronegativity, ionization energy, radii, melting points, configurations
+assets/js/periodic-data.js  data booklet values: electronegativity, ionization energy, electron affinity, radii, melting and boiling points; configurations
 assets/js/widgets-<id>.js   interactive diagrams for each topic
 data/questions-<id>.js      question bank for each topic
 i18n/<lang>/*.js            translation overlays (ja, zh-Hant)
