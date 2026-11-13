@@ -243,7 +243,7 @@
     function lengthLabel(m) {
       var pm = m / 1e-12;
       if (pm >= 1) return trim(pm, 0) + ' pm';
-      return trim(m / 1e-15, 0) + ' fm';
+      return trim(m / 1e-15, 1) + ' fm';
     }
 
     cv.draw(function (ctx, W, H) {
@@ -272,7 +272,7 @@
         ctx.fillStyle = ink; ctx.fillText(lines[0], cx, cy - 34); if (lines[1]) ctx.fillText(lines[1], cx, cy - 19);
       }
       if (Ra <= W + H && Ra < H) { ctx.fillStyle = ink3; ctx.fillText(t('electrons are somewhere in this region'), cx, cy + Math.min(Ra - 10, 60)); }
-      else if (slider.value > 0.6) { ctx.fillStyle = ink3; ctx.fillText(t('all of this view is inside the atom'), cx, H - 44); }
+      else if (slider.value > 0.6 && Rn < 30) { ctx.fillStyle = ink3; ctx.fillText(t('all of this view is inside the atom'), cx, H - 44); }
       ctx.restore();
 
       // scale bar

@@ -318,6 +318,7 @@
         'Divide the molar mass by the mass of one empirical formula unit.',
         'Multiply the subscripts in the empirical formula by the whole number obtained.'
       ],
+      hints: ['You cannot use the gas equation until the units are consistent.', 'The molar mass needs the amount of vapour, and the amount comes from the gas equation.'],
       solution: '<p>Units first, then the gas equation for the amount, then molar mass from mass ÷ amount. Comparing the molar mass with the empirical formula mass gives the whole-number multiple that turns the empirical formula into the molecular formula.</p>'
     },
     {

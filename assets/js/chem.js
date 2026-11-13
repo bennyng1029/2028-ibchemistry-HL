@@ -334,14 +334,19 @@
 
   /** Turn a checkNumeric result into student-facing feedback: {tone: 'right'|'partial'|'wrong', label, html}. */
   function describeCheck(res, spec) {
+    var t = S1.t || function (s, v) { return v ? s.replace(/\{(\w+)\}/g, function (_, k) { return v[k]; }) : s; };
     var range = sfRange(spec && spec.sigfigs);
-    var sfText = range ? (range[0] === range[1] ? range[0] : range[0] + ' or ' + range[1]) + ' significant figure' + (range[1] === 1 ? '' : 's') : '';
-    if (res.status === 'correct') return { tone: 'right', label: 'Correct', html: '' };
-    if (res.status === 'sigfig') return { tone: 'partial', label: 'Right value', html: 'Now check your significant figures. Give your answer to ' + sfText + '.' };
-    if (res.status === 'invalid') return { tone: 'partial', label: 'That is not a number I can read', html: 'Type a number such as <span class="mono">0.025</span>, <span class="mono">2.5e-2</span> or <span class="mono">2.5x10^-2</span>.' };
-    if (res.clue === 'power10') return { tone: 'wrong', label: 'Not yet', html: 'Your digits look right but the power of ten is off. Check your unit conversions (for example cm<sup>3</sup> to dm<sup>3</sup>, or g to kg).' };
-    if (res.clue === 'sign') return { tone: 'wrong', label: 'Not yet', html: 'The size is right but the sign is wrong.' };
-    return { tone: 'wrong', label: 'Not yet', html: '' };
+    if (res.status === 'correct') return { tone: 'right', label: t('Correct'), html: '' };
+    if (res.status === 'sigfig') {
+      var msg = !range ? '' : range[0] !== range[1] ? t('Now check your significant figures. Give your answer to {a} or {b} significant figures.', { a: range[0], b: range[1] })
+        : range[0] === 1 ? t('Now check your significant figures. Give your answer to 1 significant figure.')
+        : t('Now check your significant figures. Give your answer to {n} significant figures.', { n: range[0] });
+      return { tone: 'partial', label: t('Right value'), html: msg };
+    }
+    if (res.status === 'invalid') return { tone: 'partial', label: t('That is not a number I can read'), html: t('Type a number such as <span class="mono">0.025</span>, <span class="mono">2.5e-2</span> or <span class="mono">2.5x10^-2</span>.') };
+    if (res.clue === 'power10') return { tone: 'wrong', label: t('Not yet'), html: t('Your digits look right but the power of ten is off. Check your unit conversions (for example cm<sup>3</sup> to dm<sup>3</sup>, or g to kg).') };
+    if (res.clue === 'sign') return { tone: 'wrong', label: t('Not yet'), html: t('The size is right but the sign is wrong.') };
+    return { tone: 'wrong', label: t('Not yet'), html: '' };
   }
 
   S1.chem = {

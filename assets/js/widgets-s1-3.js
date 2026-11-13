@@ -252,10 +252,10 @@
     });
 
     /* --- spectrum strip for the chosen series --- */
-    var strip = w.canvas({ height: 196, label: t('Spectrum strip for the chosen series, plotted against frequency. The lines get closer together towards high frequency and stop at the convergence limit.') });
+    var strip = w.canvas({ height: 232, label: t('Spectrum strip for the chosen series, plotted against frequency. The lines get closer together towards high frequency and stop at the convergence limit.') });
     strip.draw(function (ctx, W) {
       var F = fonts(w), ink = w.color('--ink'), ink2 = w.color('--ink-2'), ink3 = w.color('--ink-3'), band = w.color('--band-bg'), soft = w.color('--surface-2');
-      var x0 = 8, x1 = W - 8, sy = 58, sh = 54;
+      var x0 = 8, x1 = W - 8, sy = 80, sh = 54;
       var fA = lineFreq(lo + 1, lo), fB = lineFreq(Infinity, lo), pad = (fB - fA) * 0.07;
       function X(f) { return x0 + (f - (fA - pad)) / (fB - fA + 2 * pad) * (x1 - x0); }
       ctx.textBaseline = 'alphabetic';
@@ -268,11 +268,9 @@
       if (lo === 2) {
         var vEnd = Math.min(x1, X(C / 400e-9));
         ctx.fillStyle = band; ctx.fillRect(x0, sy, vEnd - x0, sh);
-        ctx.fillStyle = ink3; ctx.textAlign = 'left'; ctx.fillText(t('visible'), x0 + 60, sy - 5);
-        ctx.textAlign = 'right'; ctx.fillText(t('ultraviolet'), x1 - 2, sy - 5);
-      } else {
-        ctx.textAlign = 'right'; ctx.fillText(lo === 1 ? t('all ultraviolet (not visible)') : t('all infrared (not visible)'), x1 - 2, sy - 5);
       }
+      ctx.fillStyle = ink3; ctx.textAlign = 'left';
+      ctx.fillText(lo === 2 ? t('Dark band: visible light. Paler band on the right: ultraviolet.') : lo === 1 ? t('All of these lines are ultraviolet (not visible).') : t('All of these lines are infrared (not visible).'), x0, 208);
       var n;
       if (showAll) {
         ctx.globalAlpha = 0.45;
@@ -303,7 +301,7 @@
       var rowsT = packRows(ctx, topItems, 5, 2);
       topItems.forEach(function (it, i) {
         ctx.fillStyle = it.u === hi ? ink : ink3; ctx.font = F.mono(12, it.u === hi);
-        ctx.fillText(it.text, it.x, sy - 20 - rowsT[i] * 13);
+        ctx.fillText(it.text, it.x, sy - 18 - rowsT[i] * 13);
       });
       ctx.font = F.mono(12);
       var botItems = shown.map(function (u) { return { x: X(lineFreq(u, lo)), text: chem.toSig(lineNm(u, lo), 3), u: u }; });
@@ -316,10 +314,10 @@
         ctx.fillText(it.text, tx, yb);
       });
       ctx.font = F.body(11); ctx.fillStyle = ink3; ctx.textAlign = 'left';
-      ctx.fillText(t('from n ='), x0, 32);
-      ctx.fillText(t('wavelength / nm'), x0, 190);
+      ctx.fillText(t('from n ='), x0, 30);
+      ctx.fillText(t('wavelength / nm'), x0, 226);
       ctx.textAlign = 'right';
-      ctx.fillText(t('frequency and energy increase →'), x1, 190);
+      ctx.fillText(t('frequency and energy increase →'), x1, 226);
     });
 
     /* --- Additional HL calculation panel --- */
@@ -519,7 +517,7 @@
     function tryPlace(sub, box) {
       var o = occFromPlaced(), c = countsFromOcc(o), b = o[sub][box], name = elName(Z);
       var other = spin === 'up' ? 'down' : 'up', i;
-      if (placed.length >= Z) { msg = { tone: 'info', html: t('A {name} atom has only {n} electron(s). They are all placed.', { name: name, n: Z }) }; return; }
+      if (placed.length >= Z) { msg = { tone: 'info', html: Z === 1 ? t('A hydrogen atom has only 1 electron. It is already placed.') : t('A {name} atom has only {n} electrons. They are all placed.', { name: name, n: Z }) }; return; }
       if (b.up + b.down === 2) { msg = { tone: 'bad', html: t('<b>Pauli exclusion principle broken.</b> An orbital can hold at most two electrons. This one is full.') }; return; }
       if (b[spin] === 1) { msg = { tone: 'bad', html: t('<b>Pauli exclusion principle broken.</b> Two electrons in the same orbital must have opposite spins. Switch <b>Next arrow</b> to the other direction.') }; return; }
       var idx = FILL.indexOf(sub);
@@ -612,7 +610,8 @@
         if (isAtom && Z === 24) { tone = 'warn'; html = t('<b>Exception.</b> Chromium is 4s<sup>1</sup> 3d<sup>5</sup>, not 4s<sup>2</sup> 3d<sup>4</sup>. The 4s and 3d sublevels are very close in energy, and for this atom the arrangement with one 4s electron has the lower energy. Cr and Cu are the only two exceptions you need to know.'); }
         else if (isAtom && Z === 29) { tone = 'warn'; html = t('<b>Exception.</b> Copper is 4s<sup>1</sup> 3d<sup>10</sup>, not 4s<sup>2</sup> 3d<sup>9</sup>. The 4s and 3d sublevels are very close in energy, and for this atom the arrangement with one 4s electron has the lower energy. Cr and Cu are the only two exceptions you need to know.'); }
         else if (isAtom && Z >= 21 && Z <= 30) html = t('{species} has {n} electrons, filled in the order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p. Note that 4s fills before 3d.', { species: sp, n: Z });
-        else if (isAtom) html = t('{species} has {n} electron(s), filled in the order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.', { species: sp, n: Z });
+        else if (isAtom && Z === 1) html = t('H has 1 electron. It goes into 1s, the lowest-energy sublevel.');
+        else if (isAtom) html = t('{species} has {n} electrons, filled in the order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.', { species: sp, n: Z });
         else if (n === 0) html = t('{species} is a hydrogen atom that has lost its only electron. It is a bare proton.', { species: sp });
         else if (q < 0) html = t('{species}: start from the atom ({atom}) and add electrons to the next space. Electrons added: {k}. Total: {n}.', { species: sp, atom: atomCfg, k: -q, n: n });
         else if (Z >= 21 && Z <= 30) html = '<span class="badge badge--ahl">AHL</span> ' + t('{species}: start from the atom ({atom}) and remove electrons. Electrons removed: {k}. <b>The 4s electrons are removed before any 3d electron.</b> Once 3d holds electrons it is lower in energy than 4s, which is why the diagram for this ion shows 3d below 4s. Ions of the d-block metals are assessed at HL (Structure 3.1).', { species: sp, atom: atomCfg, k: q });

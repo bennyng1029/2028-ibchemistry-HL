@@ -28,6 +28,7 @@
   };
 
   // Single source of truth for the topics (header nav, index cells, hero tiles, pager, practice filters).
+  // level: 'ahl' = an Additional HL only page (violet HL tag; hidden in "SL core only" mode).
   // ready: false = page not published yet; the tile and nav entry show "coming soon" and are not links.
   S1.topics = [
     { id: 's1-1', group: 's1', ready: true, num: '1.1', sym: 'Pn', short: 'Particulate matter', title: 'Introduction to the particulate nature of matter', blurb: 'Elements, compounds and mixtures. States of matter, changes of state and temperature.', href: 'topics/s1-1.html' },
@@ -37,10 +38,12 @@
     { id: 's1-5', group: 's1', ready: true, num: '1.5', sym: 'Ig', short: 'Ideal gases', title: 'Ideal gases', blurb: 'The ideal gas model, the gas laws and pV = nRT.', href: 'topics/s1-5.html' },
     { id: 's2-1', group: 's2', ready: false, num: '2.1', sym: 'Io', short: 'Ionic model', title: 'The ionic model', blurb: 'Ions, ionic bonds, lattices and the properties of ionic compounds.', href: 'topics/s2-1.html' },
     { id: 's2-2', group: 's2', ready: false, num: '2.2', sym: 'Cv', short: 'Covalent model', title: 'The covalent model', blurb: 'Lewis formulas, molecular shape, polarity and intermolecular forces.', href: 'topics/s2-2.html' },
+    { id: 's2-2h', group: 's2', ready: false, level: 'ahl', num: '2.2', sym: 'Cv', short: 'Covalent model: HL', title: 'The covalent model: Additional HL', blurb: 'Formal charge, expanded octets, resonance, hybridization, sigma and pi bonds.', href: 'topics/s2-2h.html' },
     { id: 's2-3', group: 's2', ready: false, num: '2.3', sym: 'Me', short: 'Metallic model', title: 'The metallic model', blurb: 'Metallic bonding, delocalized electrons and the properties of metals.', href: 'topics/s2-3.html' },
     { id: 's2-4', group: 's2', ready: false, num: '2.4', sym: 'Ma', short: 'Models to materials', title: 'From models to materials', blurb: 'The bonding triangle, alloys and polymers.', href: 'topics/s2-4.html' },
     { id: 's3-1', group: 's3', ready: false, num: '3.1', sym: 'Pe', short: 'Periodic table', title: 'The periodic table: classification of elements', blurb: 'Groups, periods and blocks. Periodic trends and oxidation states.', href: 'topics/s3-1.html' },
-    { id: 's3-2', group: 's3', ready: false, num: '3.2', sym: 'Fg', short: 'Functional groups', title: 'Functional groups: classification of organic compounds', blurb: 'Organic formulas, homologous series, naming and isomers.', href: 'topics/s3-2.html' }
+    { id: 's3-2', group: 's3', ready: false, num: '3.2', sym: 'Fg', short: 'Functional groups', title: 'Functional groups: classification of organic compounds', blurb: 'Organic formulas, homologous series, naming and isomers.', href: 'topics/s3-2.html' },
+    { id: 's3-2h', group: 's3', ready: false, level: 'ahl', num: '3.2', sym: 'Fg', short: 'Functional groups: HL', title: 'Functional groups: Additional HL', blurb: 'Stereoisomers, and finding structures from mass, IR and NMR spectra.', href: 'topics/s3-2h.html' }
   ];
   S1.topic = function (id) {
     for (var i = 0; i < S1.topics.length; i++) if (S1.topics[i].id === id) return S1.topics[i];
@@ -56,13 +59,17 @@
       return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
     },
     uid: function (prefix) { return (prefix || 's1') + '-' + (++uidN); },
-    /** el('button', {class: 'btn', type: 'button', onclick: fn}, 'Text' | Node | [children]) */
+    /** el('button', {class: 'btn', type: 'button', onclick: fn}, 'Text' | Node | [children])
+     *  Special keys: text, html, t (translated HTML that follows the language), tTitle, tLabel (translated title / aria-label). */
     el: function (tag, attrs, children) {
       var node = doc.createElement(tag), k;
       if (attrs) for (k in attrs) {
         if (!Object.prototype.hasOwnProperty.call(attrs, k) || attrs[k] == null || attrs[k] === false) continue;
         if (k === 'html') node.innerHTML = attrs[k];
         else if (k === 'text') node.textContent = attrs[k];
+        else if (k === 't') S1.i18n.live(node, (function (key) { return function () { return S1.t(key); }; })(attrs[k]));
+        else if (k === 'tTitle') S1.i18n.liveAttr(node, 'title', (function (key) { return function () { return S1.t(key); }; })(attrs[k]));
+        else if (k === 'tLabel') S1.i18n.liveAttr(node, 'aria-label', (function (key) { return function () { return S1.t(key); }; })(attrs[k]));
         else if (k.slice(0, 2) === 'on' && typeof attrs[k] === 'function') node.addEventListener(k.slice(2), attrs[k]);
         else node.setAttribute(k, attrs[k] === true ? '' : attrs[k]);
       }
@@ -131,8 +138,9 @@
   function syncThemeButton() {
     var dark = S1.theme.get() === 'dark';
     Array.prototype.forEach.call(doc.querySelectorAll('.theme-toggle'), function (b) {
-      b.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
-      b.setAttribute('title', dark ? 'Switch to light theme' : 'Switch to dark theme');
+      var key = dark ? 'Switch to light theme' : 'Switch to dark theme';
+      S1.i18n.liveAttr(b, 'aria-label', function () { return S1.t(key); });
+      S1.i18n.liveAttr(b, 'title', function () { return S1.t(key); });
     });
   }
 
@@ -255,6 +263,243 @@
     reset: function () { store.remove(PKEY); util.emit('s1:progress', { reset: true }); }
   };
 
+  /* ---------- i18n: English is the source; other languages are overlays ------
+     See docs/TRANSLATING.md.  Keys are the normalized English text (or HTML).
+     Order: authored markup is captured BEFORE components enhance it, so keys
+     are the HTML exactly as written in the page.                              */
+  var LANGS = [
+    { id: 'en', label: 'English' },
+    { id: 'ja', label: '日本語', font: 'Noto+Sans+JP:wght@400;700' },
+    { id: 'zh-Hant', label: '繁體中文', font: 'Noto+Sans+TC:wght@400;700' }
+  ];
+  var lang = 'en', tables = {}, manifests = {}, reverse = {}, seen = {}, scopesLoaded = {};
+  var srcMap = typeof WeakMap === 'function' ? new WeakMap() : null;
+  var attrMap = typeof WeakMap === 'function' ? new WeakMap() : null;
+  var catalogAttrs = {}, pageTitle = null;
+  var UNIT_SEL = 'h1,h2,h3,h4,h5,h6,p,li,dt,dd,th,td,caption,figcaption,summary,legend,blockquote,button,option,label,[data-i18n]';
+  var SKIP_SEL = '[data-i18n="off"],.chem,.unit,.eq__formula,.worked__math,code,pre,kbd,samp,script,style,noscript';
+  var ATTRS = ['title', 'aria-label', 'placeholder', 'alt'];
+  var COMP_ATTRS = ['data-title', 'data-toc', 'data-def', 'data-label', 'data-kicker', 'data-correct'];
+
+  function norm(s) { return String(s == null ? '' : s).replace(/\s+/g, ' ').trim(); }
+  function fill(s, vars) { return vars ? s.replace(/\{(\w+)\}/g, function (m, k) { return vars[k] != null ? vars[k] : m; }) : s; }
+  function table(l) { return tables[l] || (tables[l] = { strings: {}, questions: {} }); }
+  function lookup(key) {
+    if (lang === 'en') return null;
+    var v = table(lang).strings[key];
+    return typeof v === 'string' && v !== '' ? v : null;
+  }
+
+  /**
+   * S1.t('English text with {name}', {name: value}) → the translation in the current language,
+   * or the English text if there is none.  Works before any language file has loaded.
+   */
+  S1.t = function (english, vars) {
+    var key = norm(english);
+    seen[key] = 1;
+    var tr = lookup(key);
+    if (tr) { (reverse[lang] || (reverse[lang] = {}))[norm(tr)] = english; return fill(tr, vars); }
+    return fill(String(english), vars);
+  };
+  var t = S1.t;
+
+  /* Live bindings: generated text that re-renders itself when the language changes. */
+  function render(node) {
+    if (node.__s1live) { var v = node.__s1live(); if (v != null) { node.innerHTML = v; initFormat(node); } }
+    if (node.__s1attrs) for (var k in node.__s1attrs) { var a = node.__s1attrs[k](); if (a == null) node.removeAttribute(k); else node.setAttribute(k, a); }
+  }
+  /** live(el, fn): set el.innerHTML = fn() now and again on every language change. Returns el. */
+  function live(node, fn) { node.__s1live = fn; node.setAttribute('data-i18n-live', ''); render(node); return node; }
+  /** liveAttr(el, 'aria-label', fn): same for an attribute. */
+  function liveAttr(node, name, fn) { (node.__s1attrs || (node.__s1attrs = {}))[name] = fn; node.setAttribute('data-i18n-live', ''); render(node); return node; }
+  /** English source of a string that may already be translated (for widget labels created with t()). */
+  function sourceOf(s) {
+    var k = norm(s);
+    for (var l in reverse) if (reverse[l][k]) return reverse[l][k];
+    return s;
+  }
+  /** liveText(el, 'Label'): the label follows the language even if it was passed in already translated. */
+  function liveText(node, text) { var src = sourceOf(text); return live(node, function () { return t(src); }); }
+  // In HTML strings built by this file: data-t="English" (inner HTML), data-t-aria / data-t-title (attributes).
+  function bindTree(root) {
+    Array.prototype.forEach.call(root.querySelectorAll('[data-t]'), function (n) { var k = n.getAttribute('data-t'); n.removeAttribute('data-t'); live(n, function () { return t(k); }); });
+    Array.prototype.forEach.call(root.querySelectorAll('[data-t-aria]'), function (n) { var k = n.getAttribute('data-t-aria'); n.removeAttribute('data-t-aria'); liveAttr(n, 'aria-label', function () { return t(k); }); });
+    Array.prototype.forEach.call(root.querySelectorAll('[data-t-title]'), function (n) { var k = n.getAttribute('data-t-title'); n.removeAttribute('data-t-title'); liveAttr(n, 'title', function () { return t(k); }); });
+  }
+  function off(node) { node.setAttribute('data-i18n', 'off'); return node; }
+
+  /* Capture authored content (before enhancement). */
+  function capture(root) {
+    if (!srcMap) return;
+    if (root !== doc && root.closest && root.closest('[data-i18n="off"]')) return;
+    var scope = root === doc ? doc.body : root;
+    if (!scope) return;
+    var nodes = Array.prototype.slice.call(scope.querySelectorAll(UNIT_SEL));
+    if (scope.matches && scope.matches(UNIT_SEL)) nodes.unshift(scope);
+    nodes.forEach(function (n) {
+      if (srcMap.has(n) || n.closest(SKIP_SEL)) return;
+      if (n.querySelector(UNIT_SEL) || n.querySelector('input,select,textarea,canvas,svg,[data-s1-widget],[data-s1-quiz]')) return;   // not a leaf block
+      var text = n.textContent;
+      if (!/[A-Za-zÀ-ɏ]{2}/.test(text)) return;                        // numbers and symbols only
+      srcMap.set(n, { html: n.innerHTML, key: norm(n.innerHTML) });
+      n.setAttribute('data-i18n-src', '');
+    });
+    Array.prototype.forEach.call(scope.querySelectorAll('[title],[aria-label],[placeholder],[alt]'), function (n) {
+      if (attrMap.has(n) || n.closest('[data-i18n="off"]')) return;
+      var o = {}, any = false;
+      ATTRS.forEach(function (a) { var v = n.getAttribute(a); if (v && /[A-Za-z]{2}/.test(v)) { o[a] = v; any = true; } });
+      if (any) { attrMap.set(n, o); n.setAttribute('data-i18n-attr', ''); }
+    });
+    Array.prototype.forEach.call(scope.querySelectorAll('[data-title],[data-toc],[data-def],[data-label],[data-kicker],[data-correct]'), function (n) {
+      if (n.closest('[data-i18n="off"]')) return;
+      COMP_ATTRS.forEach(function (a) { var v = n.getAttribute(a); if (v) catalogAttrs[norm(v)] = 1; });
+    });
+  }
+  /** Move a captured block to another element (for components that re-wrap authored content). */
+  function moveUnit(from, to) {
+    if (!srcMap || !srcMap.has(from)) return;
+    srcMap.set(to, srcMap.get(from)); srcMap.delete(from);
+    from.removeAttribute('data-i18n-src'); to.setAttribute('data-i18n-src', '');
+  }
+
+  /* Apply the current language to authored content, then re-run every live binding. */
+  function applyLang(root) {
+    root = root || doc;
+    var english = lang === 'en';
+    if (srcMap) Array.prototype.forEach.call(root.querySelectorAll('[data-i18n-src]'), function (n) {
+      var u = srcMap.get(n); if (!u) return;
+      var tr = english ? null : lookup(u.key), out = u.html;
+      if (tr) {
+        var both = n.closest('.callout--exam, [data-i18n="both"]');
+        out = both ? u.html + '<span class="i18n-tr" lang="' + lang + '">' + tr + '</span>' : tr;
+      }
+      if (!english && !tr) n.setAttribute('data-i18n-miss', ''); else n.removeAttribute('data-i18n-miss');
+      if ((n.__s1cur == null ? u.html : n.__s1cur) === out) return;
+      n.__s1cur = out; n.innerHTML = out;
+      initFormat(n); initDefs(n);
+    });
+    if (attrMap) Array.prototype.forEach.call(root.querySelectorAll('[data-i18n-attr]'), function (n) {
+      var o = attrMap.get(n); if (!o) return;
+      for (var a in o) n.setAttribute(a, english ? o[a] : (lookup(norm(o[a])) || o[a]));
+    });
+    if (root === doc) {
+      if (pageTitle == null) pageTitle = doc.title;
+      doc.title = english ? pageTitle : (lookup(norm(pageTitle)) || pageTitle);
+    }
+    labelPass(root);
+    Array.prototype.forEach.call(root.querySelectorAll('[data-i18n-live]'), render);
+  }
+
+  /* Labels that CSS draws with ::before: the text comes from data-s1-label so that it can be translated. */
+  var CSS_LABELS = [
+    ['.callout--key', 'Key idea'], ['.callout--mistake', 'Common mistake'], ['.callout--exam', 'Exam tip'],
+    ['.callout--scope', 'Not needed for IB'], ['.callout--booklet', 'In your data booklet'],
+    ['.tryit', 'Try it'], ['.worked__why', 'Why'], ['.worked__answer', 'Answer'], ['.tryit__solution', 'Solution'],
+    ['.tryit__hints > li, .q__hints > li', 'Hint']
+  ];
+  function labelPass(root) {
+    CSS_LABELS.forEach(function (pair) {
+      Array.prototype.forEach.call(root.querySelectorAll(pair[0]), function (n) {
+        var custom = n.tagName === 'LI' ? null : n.getAttribute(n.classList.contains('worked__why') ? 'data-label' : 'data-title');
+        n.setAttribute('data-s1-label', t(custom || pair[1]));
+      });
+    });
+  }
+
+  function loadScript(src, done) {
+    var s = doc.createElement('script');
+    s.src = src; s.onload = s.onerror = function () { done(); };
+    doc.head.appendChild(s);
+  }
+  function loadLang(l, done) {
+    if (l === 'en') return done();
+    var root = util.root(), page = util.page();
+    function scopes() {
+      var have = manifests[l] || [], want = ['ui'];
+      if (page && have.indexOf(page) > -1) want.push(page);
+      if (page === 'practice' || doc.querySelector('[data-s1-quiz][data-topic="all"]')) have.forEach(function (s) { if (want.indexOf(s) < 0 && /^s\d+-\d+h?$/.test(s)) want.push(s); });
+      return want.filter(function (s) { return !scopesLoaded[l + '/' + s]; });
+    }
+    function next() {
+      var list = scopes(), left = list.length;
+      if (!left) return done();
+      list.forEach(function (s) { scopesLoaded[l + '/' + s] = 1; loadScript(root + 'i18n/' + l + '/' + s + '.js', function () { if (--left === 0) done(); }); });
+    }
+    if (manifests[l]) next(); else loadScript(root + 'i18n/' + l + '/index.js', function () { manifests[l] = manifests[l] || []; next(); });
+  }
+  function loadFont(l) {
+    var def = LANGS.filter(function (x) { return x.id === l; })[0];
+    if (!def || !def.font || doc.getElementById('s1-font-' + l)) return;
+    var link = doc.createElement('link');
+    link.id = 's1-font-' + l; link.rel = 'stylesheet';
+    link.href = 'https://fonts.googleapis.com/css2?family=' + def.font + '&display=swap';
+    doc.head.appendChild(link);
+  }
+  function syncLangControls() {
+    Array.prototype.forEach.call(doc.querySelectorAll('[data-s1-lang-select]'), function (s) { s.value = lang; });
+  }
+
+  S1.i18n = {
+    languages: LANGS,
+    /** Current language: 'en' | 'ja' | 'zh-Hant'. */
+    get: function () { return lang; },
+    /** Switch language. Loads the overlay files, then translates the page. English shows while loading. */
+    set: function (l, opts) {
+      if (!LANGS.some(function (x) { return x.id === l; })) l = 'en';
+      if (!(opts && opts.silent)) store.setRaw('s1.lang', l);
+      var wanted = S1.i18n._wanted = l;
+      loadLang(l, function () {
+        if (S1.i18n._wanted !== wanted) return;                 // a later choice won
+        lang = l;
+        html.setAttribute('lang', l);
+        loadFont(l);
+        applyLang(doc);
+        syncLangControls();
+        util.emit('s1:langchange', { lang: l });
+      });
+    },
+    /** Called by i18n/<lang>/<scope>.js:  S1.i18n.register('ja', 's1-1', {strings: {...}, questions: {...}}). */
+    register: function (l, scope, data) {
+      var tb = table(l), k;
+      data = data || {};
+      for (k in (data.strings || {})) if (data.strings[k]) tb.strings[norm(k)] = data.strings[k];
+      for (k in (data.questions || {})) tb.questions[k] = data.questions[k];
+      scopesLoaded[l + '/' + scope] = 1;
+    },
+    /** Called by i18n/<lang>/index.js: which overlay files exist.  S1.i18n.manifest('ja', ['ui', 'home', 's1-1']). */
+    manifest: function (l, scopes) { manifests[l] = scopes || []; },
+    onChange: function (fn) { doc.addEventListener('s1:langchange', function (e) { fn(e.detail.lang); }); },
+    /** Translated field of a question, falling back to English: q(question, 'stem'), q(question, 'options', 2). */
+    q: function (question, field, index) {
+      var o = lang === 'en' ? null : table(lang).questions[question.id];
+      var en = question[field], tr = o ? o[field] : null;
+      if (index != null) { en = en ? en[index] : undefined; tr = tr ? tr[index] : null; }
+      return typeof tr === 'string' && tr !== '' ? tr : en;
+    },
+    /** true if the field has a translation in the current language. */
+    hasQ: function (question, field, index) { return lang !== 'en' && S1.i18n.q(question, field, index) !== (index != null ? (question[field] || [])[index] : question[field]); },
+    live: live, liveAttr: liveAttr, liveText: liveText, render: render, source: sourceOf, capture: capture, apply: applyLang, norm: norm,
+    /** Every translatable key on this page (used by tools/i18n-extract.js). */
+    catalog: function () {
+      var blocks = [], attrs = [];
+      Array.prototype.forEach.call(doc.querySelectorAll('[data-i18n-src]'), function (n) { var u = srcMap.get(n); if (u && blocks.indexOf(u.key) < 0) blocks.push(u.key); });
+      Array.prototype.forEach.call(doc.querySelectorAll('[data-i18n-attr]'), function (n) { var o = attrMap.get(n); for (var a in o) { var k = norm(o[a]); if (attrs.indexOf(k) < 0) attrs.push(k); } });
+      Object.keys(catalogAttrs).forEach(function (k) { if (attrs.indexOf(k) < 0) attrs.push(k); });
+      return { title: norm(pageTitle == null ? doc.title : pageTitle), blocks: blocks, attrs: attrs, seen: Object.keys(seen) };
+    },
+    /** Dev helper: keys used on this page that have no translation in the current language. */
+    coverage: function () {
+      var c = S1.i18n.catalog(), tb = table(lang).strings, missing = [];
+      if (lang === 'en') return { lang: lang, missing: [], total: 0 };
+      var all = [c.title].concat(c.blocks, c.attrs, c.seen);
+      all.forEach(function (k) { if (!tb[k] && missing.indexOf(k) < 0) missing.push(k); });
+      return { lang: lang, total: all.length, missing: missing };
+    }
+  };
+  try {
+    if (/[?&]i18ndebug\b/.test(window.location.search) || store.getRaw('s1.i18ndebug')) html.setAttribute('data-i18n-debug', '');
+  } catch (e) { /* ignore */ }
+
   /* ---------- Header and footer ------------------------------------------- */
   var ICON = {
     moon: '<svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>',
@@ -264,37 +509,44 @@
     down: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>'
   };
   S1.icons = ICON;
+  var esc = util.escapeHtml;
+
+  var HL_TAG = '<span class="badge badge--ahl hl-tag">HL</span>';
 
   function renderHeader(mount) {
+    off(mount);
     var root = util.root(), page = util.page();
     var pageTopic = S1.topic(page);
-    var groupsHtml = S1.groups.map(function (g, gi) {
+    var groupsHtml = S1.groups.map(function (g) {
       var menuId = 's1-navmenu-' + g.id, here = !!(pageTopic && pageTopic.group === g.id);
-      var items = S1.topicsIn(g.id).map(function (t) {
-        var inner = '<span class="site-nav__num">' + t.num + '</span><span class="site-nav__name">' + util.escapeHtml(t.title) + '</span>';
-        if (!t.ready && page !== t.id) return '<li><span class="navgroup__soon" aria-disabled="true">' + inner + '<span class="navgroup__tag">soon</span></span></li>';
-        return '<li><a href="' + root + t.href + '"' + (page === t.id ? ' aria-current="page"' : '') + '>' + inner + '</a></li>';
+      var items = S1.topicsIn(g.id).map(function (tp) {
+        var inner = '<span class="site-nav__num">' + tp.num + '</span><span class="site-nav__name" data-t="' + esc(tp.title) + '"></span>' + (tp.level === 'ahl' ? HL_TAG : '');
+        var lv = tp.level === 'ahl' ? ' data-level="ahl"' : '';
+        if (!tp.ready && page !== tp.id) return '<li' + lv + '><span class="navgroup__soon" aria-disabled="true">' + inner + '<span class="navgroup__tag" data-t="soon"></span></span></li>';
+        return '<li' + lv + '><a href="' + root + tp.href + '"' + (page === tp.id ? ' aria-current="page"' : '') + '>' + inner + '</a></li>';
       }).join('');
       return '<li class="navgroup' + (here ? ' is-here' : '') + '" data-group="' + g.id + '">' +
         '<button class="navgroup__btn" type="button" aria-expanded="false" aria-controls="' + menuId + '">' +
-          '<span class="navgroup__label">' + g.name + '</span><span class="navgroup__title">' + util.escapeHtml(g.title) + '</span>' + ICON.chev.replace('toc__chev', 'navgroup__chev') +
+          '<span class="navgroup__label" data-t="' + esc(g.name) + '"></span><span class="navgroup__title" data-t="' + esc(g.title) + '"></span>' + ICON.chev.replace('toc__chev', 'navgroup__chev') +
         '</button>' +
-        '<ul class="navgroup__menu" id="' + menuId + '" aria-label="' + g.name + ': ' + util.escapeHtml(g.title) + '">' + items + '</ul></li>';
+        '<ul class="navgroup__menu" id="' + menuId + '" data-t-aria="' + esc(g.title) + '">' + items + '</ul></li>';
     }).join('');
-    var links = groupsHtml + '<li><a class="site-nav__link" href="' + root + 'practice.html"' + (page === 'practice' ? ' aria-current="page"' : '') + '>Practice</a></li>';
+    var links = groupsHtml + '<li><a class="site-nav__link" href="' + root + 'practice.html"' + (page === 'practice' ? ' aria-current="page"' : '') + ' data-t="Practice"></a></li>';
+    var langOpts = LANGS.map(function (l) { return '<option value="' + l.id + '" lang="' + l.id + '">' + l.label + '</option>'; }).join('');
     mount.innerHTML =
-      '<a class="skip-link" href="#main">Skip to content</a>' +
+      '<a class="skip-link" href="#main" data-t="Skip to content"></a>' +
       '<header class="site-header">' +
         '<div class="site-header__bar wrap">' +
-          '<a class="wordmark" href="' + root + 'index.html"' + (page === 'home' ? ' aria-current="page"' : '') + '><span class="wordmark__cell" aria-hidden="true">St</span><span>' + util.escapeHtml(S1.config.siteName) + '</span></a>' +
-          '<button class="btn btn--small nav-toggle" type="button" aria-expanded="false" aria-controls="s1-header-panel">Menu</button>' +
+          '<a class="wordmark" href="' + root + 'index.html"' + (page === 'home' ? ' aria-current="page"' : '') + '><span class="wordmark__cell" aria-hidden="true">St</span><span>' + esc(S1.config.siteName) + '</span></a>' +
+          '<button class="btn btn--small nav-toggle" type="button" aria-expanded="false" aria-controls="s1-header-panel" data-t="Menu"></button>' +
           '<div class="site-header__panel" id="s1-header-panel">' +
-            '<nav class="site-nav" aria-label="Topics"><ul class="site-nav__list">' + links + '</ul></nav>' +
+            '<nav class="site-nav" data-t-aria="Topics"><ul class="site-nav__list">' + links + '</ul></nav>' +
             '<div class="site-tools">' +
-              '<div class="seg" role="group" aria-label="Which content to show">' +
-                '<button class="seg__btn" type="button" data-s1-level-btn="sl" aria-pressed="false">SL core only</button>' +
-                '<button class="seg__btn" type="button" data-s1-level-btn="all" aria-pressed="true">SL + <span class="seg__hl">HL</span></button>' +
+              '<div class="seg" role="group" data-t-aria="Which content to show">' +
+                '<button class="seg__btn" type="button" data-s1-level-btn="sl" aria-pressed="false" data-t="SL core only"></button>' +
+                '<button class="seg__btn" type="button" data-s1-level-btn="all" aria-pressed="true" data-t="SL + &lt;span class=&quot;seg__hl&quot;&gt;HL&lt;/span&gt;"></button>' +
               '</div>' +
+              '<select class="select lang-select" data-s1-lang-select aria-label="Language / 言語 / 語言">' + langOpts + '</select>' +
               '<button class="icon-btn theme-toggle" type="button" aria-label="Switch theme">' + ICON.moon + ICON.sun + '</button>' +
             '</div>' +
           '</div>' +
@@ -302,8 +554,10 @@
         '<div class="spectrum" aria-hidden="true"></div>' +
       '</header>';
     var header = mount.querySelector('.site-header'), toggle = mount.querySelector('.nav-toggle');
+    bindTree(mount);
+    live(toggle, function () { return t(header.classList.contains('is-open') ? 'Close' : 'Menu'); });
     var groups = Array.prototype.slice.call(mount.querySelectorAll('.navgroup'));
-    var wide = window.matchMedia ? window.matchMedia('(min-width: 62em)') : { matches: true };
+    var wide = window.matchMedia ? window.matchMedia('(min-width: 68em)') : { matches: true };
     function setGroup(g, open) {
       g.classList.toggle('is-open', open);
       g.querySelector('.navgroup__btn').setAttribute('aria-expanded', String(open));
@@ -345,7 +599,7 @@
       var open = !header.classList.contains('is-open');
       header.classList.toggle('is-open', open);
       toggle.setAttribute('aria-expanded', String(open));
-      toggle.textContent = open ? 'Close' : 'Menu';
+      render(toggle);
       if (open) openForMobile(); else closeGroups(null);
     });
     doc.addEventListener('keydown', function (e) {
@@ -358,70 +612,77 @@
       b.addEventListener('click', function () { S1.level.set(b.getAttribute('data-s1-level-btn')); });
     });
     mount.querySelector('.theme-toggle').addEventListener('click', S1.theme.toggle);
+    var sel = mount.querySelector('[data-s1-lang-select]');
+    sel.value = S1.i18n._wanted || lang;
+    sel.addEventListener('change', function () { S1.i18n.set(sel.value); });
     syncLevelButtons(); syncThemeButton();
   }
 
   function renderFooter(mount) {
+    off(mount);
     var root = util.root(), src = S1.config.sourceUrl;
     mount.innerHTML =
       '<footer class="site-footer"><div class="site-footer__inner wrap">' +
-        '<div><p><strong>' + util.escapeHtml(S1.config.siteName) + '</strong> is an independent study guide for the Structure theme of IB Chemistry.</p>' +
-        '<p>It is not affiliated with, or endorsed by, the International Baccalaureate Organization. All questions and explanations are original. Always check details against the official subject guide and your teacher.</p></div>' +
-        '<div><p>Code and content: <a href="' + root + 'LICENSE">MIT licence</a>.</p>' +
-        '<p data-s1-source>' + (src ? '<a href="' + util.escapeHtml(src) + '">Source code</a>' : 'Source code: link coming soon.') + '</p>' +
-        '<p>Your progress is saved only in this browser. Nothing is sent anywhere.</p></div>' +
+        '<div><p data-t="&lt;strong&gt;Structure Lab&lt;/strong&gt; is an independent study guide for the Structure theme of IB Chemistry."></p>' +
+        '<p data-t="It is not affiliated with, or endorsed by, the International Baccalaureate Organization. All questions and explanations are original. Always check details against the official subject guide and your teacher."></p></div>' +
+        '<div><p><span data-t="Code and content:"></span> <a href="' + root + 'LICENSE" data-t="MIT licence"></a>.</p>' +
+        '<p data-s1-source>' + (src ? '<a href="' + esc(src) + '" data-t="Source code"></a>' : '<span data-t="Source code: link coming soon."></span>') + '</p>' +
+        '<p data-t="Your progress is saved only in this browser. Nothing is sent anywhere."></p></div>' +
       '</div></footer>';
+    bindTree(mount);
   }
 
   /* ---------- Tiles, index cells, pager ----------------------------------- */
-  function tileHtml(t) {
-    return '<span class="tile__num">' + t.num + '</span><span class="tile__sym">' + t.sym + '</span><span class="tile__name">' + util.escapeHtml(t.short) + '</span>';
-  }
   function initTile(node) {
-    var t = S1.topic(node.getAttribute('data-s1-tile') || util.page());
-    if (!t) return;
+    var tp = S1.topic(node.getAttribute('data-s1-tile') || util.page());
+    if (!tp) return;
+    off(node);
     node.classList.add('tile');
+    if (tp.level === 'ahl') node.classList.add('tile--ahl');
     node.setAttribute('role', 'img');
-    node.setAttribute('aria-label', 'Topic tile ' + t.num + ': ' + t.short);
-    node.innerHTML = tileHtml(t);
+    node.innerHTML = '<span class="tile__num">' + tp.num + (tp.level === 'ahl' ? ' ' + HL_TAG : '') + '</span><span class="tile__sym">' + tp.sym + '</span><span class="tile__name" data-t="' + esc(tp.short) + '"></span>';
+    bindTree(node);
+    liveAttr(node, 'aria-label', function () { return t('Topic tile {num}: {name}', { num: tp.num, name: t(tp.short) }); });
   }
 
   function initCells(mount) {
+    off(mount);
     var root = util.root();
     var only = mount.getAttribute('data-s1-topics');           // 's1' | 's2' | 's3' | '' (all strands)
     var groups = only ? [S1.group(only)].filter(Boolean) : S1.groups;
     mount.innerHTML = '';
     groups.forEach(function (g) {
       var topics = S1.topicsIn(g.id);
-      if (!only) mount.appendChild(el('h3', { class: 'cells-title', html: '<span class="cells-title__num">' + g.name + '</span> ' + util.escapeHtml(g.title) }));
+      if (!only) mount.appendChild(el('h3', { class: 'cells-title', html: '<span class="cells-title__num" data-t="' + esc(g.name) + '"></span> <span data-t="' + esc(g.title) + '"></span>' }));
       var ul = el('ul', { class: 'cells', style: '--cols:' + topics.length });
-      topics.forEach(function (t) {
+      topics.forEach(function (tp) {
         var inner =
-          '<span class="cell__top"><span class="cell__num">' + t.num + '</span><span class="cell__pct"></span></span>' +
-          '<span class="cell__sym" aria-hidden="true">' + t.sym + '</span>' +
-          '<span class="cell__name">' + util.escapeHtml(t.short) + '</span>' +
-          '<span class="cell__blurb">' + util.escapeHtml(t.blurb) + '</span>' +
+          '<span class="cell__top"><span class="cell__num">' + tp.num + (tp.level === 'ahl' ? ' ' + HL_TAG : '') + '</span><span class="cell__pct"></span></span>' +
+          '<span class="cell__sym" aria-hidden="true">' + tp.sym + '</span>' +
+          '<span class="cell__name" data-t="' + esc(tp.short) + '"></span>' +
+          '<span class="cell__blurb" data-t="' + esc(tp.blurb) + '"></span>' +
           '<span class="meter" aria-hidden="true"><span class="meter__fill"></span></span>';
-        var node = t.ready
-          ? el('a', { class: 'cell', href: root + t.href, 'data-topic': t.id, html: inner })
-          : el('span', { class: 'cell cell--soon', 'data-topic': t.id, html: inner });
-        ul.appendChild(el('li', null, node));
+        var node = tp.ready
+          ? el('a', { class: 'cell', href: root + tp.href, 'data-topic': tp.id, html: inner })
+          : el('span', { class: 'cell cell--soon', 'data-topic': tp.id, role: 'group', html: inner });
+        var pct = node.querySelector('.cell__pct');
+        if (tp.ready) {
+          live(pct, function () { return S1.progress.summary(tp.id).percent + '%'; });
+          liveAttr(node, 'aria-label', function () { return t('Topic {num}, {title}. {percent} percent done.', { num: tp.num, title: t(tp.title), percent: S1.progress.summary(tp.id).percent }); });
+        } else {
+          live(pct, function () { return t('coming soon'); });
+          liveAttr(node, 'aria-label', function () { return t('Topic {num}, {title}. Coming soon.', { num: tp.num, title: t(tp.title) }); });
+        }
+        if (tp.level === 'ahl') node.classList.add('cell--ahl');
+        ul.appendChild(el('li', { 'data-level': tp.level === 'ahl' ? 'ahl' : null }, node));
       });
       mount.appendChild(ul);
     });
+    bindTree(mount);
     function paint() {
-      Array.prototype.forEach.call(mount.querySelectorAll('.cell'), function (a) {
-        var t = S1.topic(a.getAttribute('data-topic'));
-        if (!t.ready) {
-          a.querySelector('.cell__pct').textContent = 'coming soon';
-          a.setAttribute('role', 'group');
-          a.setAttribute('aria-label', 'Topic ' + t.num + ', ' + t.title + '. Coming soon.');
-          return;
-        }
-        var s = S1.progress.summary(t.id);
-        a.querySelector('.cell__pct').textContent = s.percent + '%';
-        a.querySelector('.meter__fill').style.width = s.percent + '%';
-        a.setAttribute('aria-label', 'Topic ' + t.num + ', ' + t.title + '. ' + s.percent + ' percent done.');
+      Array.prototype.forEach.call(mount.querySelectorAll('a.cell'), function (a) {
+        render(a.querySelector('.cell__pct')); render(a);
+        a.querySelector('.meter__fill').style.width = S1.progress.summary(a.getAttribute('data-topic')).percent + '%';
       });
     }
     paint();
@@ -432,17 +693,21 @@
   function initPager(mount) {
     var root = util.root(), page = util.page(), idx = -1;
     // Runs across every published topic, in syllabus order (plus the current page, if unpublished).
-    var seq = S1.topics.filter(function (t) { return t.ready || t.id === page; });
-    seq.forEach(function (t, i) { if (t.id === page) idx = i; });
+    var seq = S1.topics.filter(function (tp) { return tp.id === page || (tp.ready && !(tp.level === 'ahl' && S1.level.get() === 'sl')); });
+    seq.forEach(function (tp, i) { if (tp.id === page) idx = i; });
     if (idx < 0) return;
+    off(mount);
     var prev = seq[idx - 1], next = seq[idx + 1], h = '';
-    if (prev) h += '<a class="pager__prev" href="' + root + prev.href + '"><span class="pager__dir">Previous</span><span class="pager__title">' + prev.num + ' ' + util.escapeHtml(prev.short) + '</span></a>';
-    h += next
-      ? '<a class="pager__next" href="' + root + next.href + '"><span class="pager__dir">Next</span><span class="pager__title">' + next.num + ' ' + util.escapeHtml(next.short) + '</span></a>'
-      : '<a class="pager__next" href="' + root + 'practice.html"><span class="pager__dir">Next</span><span class="pager__title">Mixed practice</span></a>';
+    function link(cls, dir, href, num, name) {
+      return '<a class="' + cls + '" href="' + root + href + '"><span class="pager__dir" data-t="' + dir + '"></span><span class="pager__title">' + (num ? num + ' ' : '') + '<span data-t="' + esc(name) + '"></span></span></a>';
+    }
+    if (prev) h += link('pager__prev', 'Previous', prev.href, prev.num, prev.short);
+    h += next ? link('pager__next', 'Next', next.href, next.num, next.short) : link('pager__next', 'Next', 'practice.html', '', 'Mixed practice');
     mount.classList.add('pager');
     mount.innerHTML = h;
-    var nav = mount; nav.setAttribute('role', 'navigation'); nav.setAttribute('aria-label', 'Previous and next topic');
+    bindTree(mount);
+    mount.setAttribute('role', 'navigation');
+    liveAttr(mount, 'aria-label', function () { return t('Previous and next topic'); });
   }
 
   /* ---------- In-page section nav ----------------------------------------- */
@@ -450,26 +715,28 @@
     var scope = doc.querySelector('.topic-content') || doc;
     var sections = Array.prototype.filter.call(scope.querySelectorAll('.topic-section[id]'), function (s) { return !!s.querySelector('h2'); });
     if (!sections.length) { nav.hidden = true; return; }
-    if (!nav.getAttribute('aria-label')) nav.setAttribute('aria-label', 'On this page');
+    off(nav);
+    liveAttr(nav, 'aria-label', function () { return t('On this page'); });
     nav.classList.add('toc');
     var listId = util.uid('toc');
     var current = el('span', { class: 'toc__current' });
     var toggle = el('button', { class: 'toc__toggle', type: 'button', 'aria-expanded': 'false', 'aria-controls': listId });
-    toggle.appendChild(el('span', { text: 'On this page' }));
+    toggle.appendChild(el('span', { t: 'On this page' }));
     toggle.appendChild(current);
     toggle.insertAdjacentHTML('beforeend', ICON.chev);
     var ol = el('ol', { class: 'toc__list', id: listId });
-    var links = {};
+    var links = {}, currentId = null;
     sections.forEach(function (s) {
       var h2 = s.querySelector('h2');
-      var label = s.getAttribute('data-toc') || h2.textContent.trim();
-      var a = el('a', { href: '#' + s.id, text: label });
+      var a = el('a', { href: '#' + s.id });
+      // The label follows the heading, so it is translated whenever the heading is.
+      live(a, function () { var short = s.getAttribute('data-toc'); return short ? t(short) : esc(h2.textContent.replace(/\s+/g, ' ').trim()); });
       a.addEventListener('click', function () { setOpen(false); });
       links[s.id] = a;
       ol.appendChild(el('li', { 'data-level': s.getAttribute('data-level') === 'ahl' ? 'ahl' : null }, a));
     });
     nav.innerHTML = '';
-    nav.appendChild(el('p', { class: 'toc__title', text: 'On this page', 'aria-hidden': 'true' }));
+    nav.appendChild(el('p', { class: 'toc__title', 'aria-hidden': 'true', t: 'On this page' }));
     nav.appendChild(toggle);
     nav.appendChild(ol);
     function setOpen(open) { nav.classList.toggle('is-open', open); toggle.setAttribute('aria-expanded', String(open)); }
@@ -477,6 +744,7 @@
     doc.addEventListener('keydown', function (e) { if (e.key === 'Escape' && nav.classList.contains('is-open')) { setOpen(false); toggle.focus(); } });
 
     function mark(id) {
+      currentId = id;
       for (var k in links) { links[k].classList.toggle('is-current', k === id); if (k === id) links[k].setAttribute('aria-current', 'true'); else links[k].removeAttribute('aria-current'); }
       current.textContent = links[id] ? links[id].textContent : '';
     }
@@ -494,12 +762,13 @@
       window.requestAnimationFrame(function () { ticking = false; spy(); });
     }, { passive: true });
     doc.addEventListener('s1:levelchange', spy);
+    doc.addEventListener('s1:langchange', function () { if (currentId) mark(currentId); });
     spy();
   }
 
   /* ---------- Formatting: .chem, .unit, level badges ---------------------- */
   function initFormat(root) {
-    if (!S1.chem) return;
+    if (!S1.chem || !root.querySelectorAll) return;
     Array.prototype.forEach.call(root.querySelectorAll('.chem:not([data-s1-done])'), function (n) {
       n.setAttribute('data-s1-done', '');
       if (n.children.length) return;                    // author wrote the HTML by hand
@@ -517,7 +786,7 @@
     Array.prototype.forEach.call(root.querySelectorAll(sel), function (n) {
       if (n.hasAttribute('data-s1-flagged') || n.hasAttribute('data-no-badge')) return;
       n.setAttribute('data-s1-flagged', '');
-      var p = el('p', { class: 'level-flag' }, el('span', { class: 'badge badge--ahl', text: 'Additional HL' }));
+      var p = off(el('p', { class: 'level-flag' }, el('span', { class: 'badge badge--ahl', t: 'Additional HL' })));
       n.insertBefore(p, n.firstChild);
     });
   }
@@ -526,8 +795,8 @@
   var tip = null, tipFor = null;
   function hideTip() { if (tip) tip.hidden = true; if (tipFor) tipFor.removeAttribute('aria-describedby'); tipFor = null; }
   function showTip(node) {
-    if (!tip) { tip = el('div', { class: 'tooltip', role: 'tooltip', id: 's1-tooltip' }); doc.body.appendChild(tip); }
-    tip.textContent = node.getAttribute('data-def');
+    if (!tip) { tip = off(el('div', { class: 'tooltip', role: 'tooltip', id: 's1-tooltip' })); doc.body.appendChild(tip); }
+    tip.innerHTML = t(node.getAttribute('data-def'));
     tip.hidden = false; tip.style.left = '0px'; tip.style.top = '0px';
     var r = node.getBoundingClientRect(), tw = tip.offsetWidth, th = tip.offsetHeight, vw = html.clientWidth;
     var left = util.clamp(r.left + r.width / 2 - tw / 2, 8, vw - tw - 8);
@@ -539,6 +808,7 @@
     tipFor = node;
   }
   function initDefs(root) {
+    if (!root.querySelectorAll) return;
     Array.prototype.forEach.call(root.querySelectorAll('dfn[data-def]:not([data-s1-done]), abbr[data-def]:not([data-s1-done])'), function (n) {
       n.setAttribute('data-s1-done', '');
       n.setAttribute('tabindex', '0');
@@ -557,30 +827,27 @@
     var topic = ul.getAttribute('data-s1-checklist') || util.page();
     var items = Array.prototype.filter.call(ul.children, function (c) { return c.tagName === 'LI'; });
     var ids = [];
-    var count = el('p', { class: 'checklist__count', role: 'status', 'aria-live': 'polite' });
+    var count = off(el('p', { class: 'checklist__count', role: 'status', 'aria-live': 'polite' }));
     items.forEach(function (li, i) {
       var id = li.getAttribute('data-id') || 'item-' + (i + 1);
       var level = li.getAttribute('data-level') === 'ahl' ? 'ahl' : 'sl';
       ids.push(id);
       var text = el('span', { class: 'checklist__text' });
       while (li.firstChild) text.appendChild(li.firstChild);
+      moveUnit(li, text);
       var input = el('input', { type: 'checkbox' });
       input.checked = S1.progress.getCheck(topic, id);
-      input.addEventListener('change', function () { S1.progress.setCheck(topic, id, input.checked); paint(); });
-      var badge = el('span', { class: 'badge badge--' + level, text: level === 'ahl' ? 'AHL' : 'SL', title: level === 'ahl' ? 'Additional HL' : 'Standard level core' });
+      input.addEventListener('change', function () { S1.progress.setCheck(topic, id, input.checked); render(count); });
+      var badge = off(el('span', { class: 'badge badge--' + level, text: level === 'ahl' ? 'AHL' : 'SL', tTitle: level === 'ahl' ? 'Additional HL' : 'Standard level core' }));
       li.appendChild(el('label', { class: 'checklist__item' }, [input, text, badge]));
     });
     S1.progress.setCheckTotal(topic, ids);
     ul.parentNode.insertBefore(count, ul.nextSibling);
-    function paint() {
-      var done = ul.querySelectorAll('input:checked').length;
-      count.textContent = done + ' of ' + items.length + ' ticked';
-    }
-    paint();
+    live(count, function () { return t('{done} of {total} ticked', { done: ul.querySelectorAll('input:checked').length, total: items.length }); });
     doc.addEventListener('s1:progress', function (e) {
       if (!e.detail.reset) return;
       Array.prototype.forEach.call(ul.querySelectorAll('input'), function (i) { i.checked = false; });
-      S1.progress.setCheckTotal(topic, ids); paint();
+      S1.progress.setCheckTotal(topic, ids); render(count);
     });
   }
 
@@ -592,23 +859,35 @@
     var answer = box.querySelector('.worked__answer');
     var total = steps.length, shown = 0;
     steps.forEach(function (li) {
-      var t = li.getAttribute('data-title');
-      if (t && !li.querySelector('.worked__step-title')) li.insertBefore(el('p', { class: 'worked__step-title', text: t }), li.firstChild);
+      var title = li.getAttribute('data-title');
+      if (title && !li.querySelector('.worked__step-title')) {
+        if (srcMap && srcMap.has(li)) {                 // bare text in the <li>: wrap it so the title can sit beside it
+          var wrap = el('div');
+          while (li.firstChild) wrap.appendChild(li.firstChild);
+          li.appendChild(wrap); moveUnit(li, wrap);
+        }
+        li.insertBefore(off(el('p', { class: 'worked__step-title', t: title })), li.firstChild);
+      }
     });
     var count = el('p', { class: 'worked__count' });
-    var live = el('p', { class: 'sr-only', role: 'status', 'aria-live': 'polite' });
-    var head = el('div', { class: 'worked__head' }, [el('p', { class: 'worked__kicker', text: box.getAttribute('data-kicker') || 'Worked example' }), count]);
+    var liveMsg = el('p', { class: 'sr-only', role: 'status', 'aria-live': 'polite' });
+    var kicker = box.getAttribute('data-kicker') || 'Worked example';
+    var head = off(el('div', { class: 'worked__head' }, [el('p', { class: 'worked__kicker', t: kicker }), count]));
     box.insertBefore(head, box.firstChild);
 
     var nextBtn = el('button', { class: 'btn btn--primary', type: 'button' });
-    var allBtn = el('button', { class: 'btn', type: 'button', text: 'Show all steps' });
-    var resetBtn = el('button', { class: 'btn btn--quiet', type: 'button', text: 'Start again' });
-    var nudge = el('p', { class: 'worked__nudge', text: 'Have a go on paper first. Then reveal one step at a time and compare.' });
-    var controls = el('div', { class: 'worked__controls' }, [nudge, nextBtn, allBtn, resetBtn, live]);
+    var allBtn = el('button', { class: 'btn', type: 'button', t: 'Show all steps' });
+    var resetBtn = el('button', { class: 'btn btn--quiet', type: 'button', t: 'Start again' });
+    var nudge = el('p', { class: 'worked__nudge', t: 'Have a go on paper first. Then reveal one step at a time and compare.' });
+    var controls = off(el('div', { class: 'worked__controls' }, [nudge, nextBtn, allBtn, resetBtn, liveMsg]));
     box.appendChild(controls);
     box.classList.add('is-ready');
+    live(count, function () { return t('{shown} of {total} steps', { shown: shown, total: total }); });
+    live(nextBtn, function () { return shown === 0 ? t('Show step 1') : t('Next step ({n} of {total})', { n: shown + 1, total: total }); });
+    var announce = null;
+    live(liveMsg, function () { return announce ? announce() : ''; });
 
-    function paint(announce, fresh) {
+    function paint(say, fresh) {
       steps.forEach(function (li, i) {
         var on = i < shown;
         li.classList.toggle('is-shown', on);
@@ -617,13 +896,16 @@
       });
       var done = shown >= total;
       if (answer) { answer.classList.toggle('is-shown', done); answer.classList.toggle('is-new', !!fresh && done); }
-      count.textContent = shown + ' of ' + total + ' steps';
-      nextBtn.textContent = shown === 0 ? 'Show step 1' : 'Next step (' + (shown + 1) + ' of ' + total + ')';
+      render(count); render(nextBtn);
       nextBtn.hidden = done; allBtn.hidden = done; resetBtn.hidden = shown === 0; nudge.hidden = shown > 0;
-      if (announce) {
-        if (done) live.textContent = 'All ' + total + ' steps shown, with the final answer.';
-        else if (shown > 0) { var t = steps[shown - 1].querySelector('.worked__step-title'); live.textContent = 'Step ' + shown + ' of ' + total + (t ? ': ' + t.textContent : '') + ' shown.'; }
-        else live.textContent = 'Steps hidden.';
+      if (say) {
+        var at = shown;
+        announce = function () {
+          if (at >= total) return t('All {total} steps shown, with the final answer.', { total: total });
+          if (at > 0) { var st = steps[at - 1].querySelector('.worked__step-title'); return t('Step {n} of {total} shown.', { n: at, total: total }) + (st ? ' ' + esc(st.textContent) : ''); }
+          return t('Steps hidden.');
+        };
+        render(liveMsg);
       }
     }
     function reveal(n) {
@@ -642,6 +924,7 @@
   }
 
   /* ---------- Try it: numeric check with hint ladder ------------------------ */
+  var STD_FORM_HELP = 'For standard form, type <span class="mono">6.02e23</span> or <span class="mono">6.02x10^23</span>.';
   function initNumeric(box) {
     var spec = {
       answer: Number(box.getAttribute('data-answer')),
@@ -656,25 +939,26 @@
     box.classList.add('tryit', 'is-ready');
 
     var input = el('input', { class: 'input input--num', id: id, type: 'text', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false', 'aria-describedby': id + '-help' });
-    var check = el('button', { class: 'btn btn--primary', type: 'submit', text: 'Check' });
+    var check = el('button', { class: 'btn btn--primary', type: 'submit', t: 'Check' });
     var row = el('div', { class: 'field-row' }, [input, unitText ? el('span', { class: 'unit', html: S1.chem.unit(unitText), 'data-s1-done': '' }) : null, check]);
-    var form = el('form', { class: 'tryit__form', novalidate: true }, [
-      el('label', { class: 'field-label', for: id, text: box.getAttribute('data-label') || 'Your answer' }), row,
-      el('p', { class: 'field-help', id: id + '-help', html: 'For standard form, type <span class="mono">6.02e23</span> or <span class="mono">6.02x10^23</span>.' })
-    ]);
-    var feedback = el('div', { class: 'feedback', role: 'status', 'aria-live': 'polite' });
+    var form = off(el('form', { class: 'tryit__form', novalidate: true }, [
+      el('label', { class: 'field-label', for: id, t: box.getAttribute('data-label') || 'Your answer' }), row,
+      el('p', { class: 'field-help', id: id + '-help', t: STD_FORM_HELP })
+    ]));
+    var feedback = off(el('div', { class: 'feedback', role: 'status', 'aria-live': 'polite' }));
     var hintBtn = el('button', { class: 'btn btn--small', type: 'button' });
-    var solBtn = el('button', { class: 'btn btn--small btn--quiet', type: 'button', text: 'Show full solution' });
-    var help = el('div', { class: 'tryit__help btn-row' }, [hints.length ? hintBtn : null, solution ? solBtn : null]);
+    var solBtn = el('button', { class: 'btn btn--small btn--quiet', type: 'button', t: 'Show full solution' });
+    var help = off(el('div', { class: 'tryit__help btn-row' }, [hints.length ? hintBtn : null, solution ? solBtn : null]));
 
     var anchor = hintList || solution || null;
     box.insertBefore(form, anchor);
     box.insertBefore(feedback, anchor);
     box.insertBefore(help, anchor);
+    live(hintBtn, function () { return hintsShown === 0 ? t('I need a hint') : t('Next hint ({n} of {total})', { n: hintsShown + 1, total: hints.length }); });
 
     function paintHelp() {
       hints.forEach(function (li, i) { li.classList.toggle('is-shown', i < hintsShown); });
-      hintBtn.textContent = hintsShown === 0 ? 'I need a hint' : 'Next hint (' + (hintsShown + 1) + ' of ' + hints.length + ')';
+      render(hintBtn);
       hintBtn.hidden = hintsShown >= hints.length;
       if (solution) solBtn.hidden = solution.classList.contains('is-shown') || (hints.length > 0 && hintsShown === 0 && !box.hasAttribute('data-tried'));
     }
@@ -683,13 +967,16 @@
     form.addEventListener('submit', function (e) {
       e.preventDefault();
       if (!input.value.trim()) { input.focus(); return; }
-      var res = S1.chem.checkNumeric(input.value, spec), d = S1.chem.describeCheck(res, spec);
+      var res = S1.chem.checkNumeric(input.value, spec);
+      var hadHints = hints.length && hintsShown < hints.length;
       box.setAttribute('data-tried', '');
-      var extra = d.html;
-      if (res.status === 'wrong' && !extra) extra = hints.length && hintsShown < hints.length ? 'Check your working, or take a hint.' : 'Check each step of your working.';
-      if (res.status === 'correct') extra = box.getAttribute('data-correct') || 'Nice. Compare your working with the full solution if you want to check your method.';
-      feedback.className = 'feedback feedback--' + d.tone;
-      feedback.innerHTML = '<span class="feedback__label">' + d.label + '</span>' + extra;
+      feedback.className = 'feedback feedback--' + S1.chem.describeCheck(res, spec).tone;
+      live(feedback, function () {
+        var d = S1.chem.describeCheck(res, spec), extra = d.html;
+        if (res.status === 'wrong' && !extra) extra = hadHints ? t('Check your working, or take a hint.') : t('Check each step of your working.');
+        if (res.status === 'correct') extra = t(box.getAttribute('data-correct') || 'Nice. Compare your working with the full solution if you want to check your method.');
+        return '<span class="feedback__label">' + d.label + '</span>' + extra;
+      });
       if (res.status === 'correct' && solution) { solBtn.hidden = false; }
       paintHelp();
     });
@@ -698,19 +985,22 @@
 
   /* ---------- Reset control -------------------------------------------------- */
   function initReset(mount) {
+    off(mount);
     mount.classList.add('reset');
-    var btn = el('button', { class: 'btn btn--small', type: 'button', text: 'Reset my progress' });
+    var btn = el('button', { class: 'btn btn--small', type: 'button', t: 'Reset my progress' });
     var done = el('p', { class: 'reset__done', role: 'status', 'aria-live': 'polite' });
     var confirmBox = el('div', { class: 'reset__confirm', hidden: true });
-    var yes = el('button', { class: 'btn btn--small btn--danger', type: 'button', text: 'Yes, reset' });
-    var no = el('button', { class: 'btn btn--small', type: 'button', text: 'Cancel' });
-    confirmBox.appendChild(el('p', { text: 'This clears your ticks, quiz results and saved mistakes in this browser. It cannot be undone.' }));
+    var yes = el('button', { class: 'btn btn--small btn--danger', type: 'button', t: 'Yes, reset' });
+    var no = el('button', { class: 'btn btn--small', type: 'button', t: 'Cancel' });
+    confirmBox.appendChild(el('p', { t: 'This clears your ticks, quiz results and saved mistakes in this browser. It cannot be undone.' }));
     confirmBox.appendChild(yes); confirmBox.appendChild(no);
     mount.innerHTML = '';
     mount.appendChild(btn); mount.appendChild(confirmBox); mount.appendChild(done);
-    btn.addEventListener('click', function () { confirmBox.hidden = false; btn.hidden = true; done.textContent = ''; no.focus(); });
+    var cleared = false;
+    live(done, function () { return cleared ? t('Progress cleared.') : ''; });
+    btn.addEventListener('click', function () { confirmBox.hidden = false; btn.hidden = true; cleared = false; render(done); no.focus(); });
     no.addEventListener('click', function () { confirmBox.hidden = true; btn.hidden = false; btn.focus(); });
-    yes.addEventListener('click', function () { S1.progress.reset(); confirmBox.hidden = true; btn.hidden = false; done.textContent = 'Progress cleared.'; btn.focus(); });
+    yes.addEventListener('click', function () { S1.progress.reset(); confirmBox.hidden = true; btn.hidden = false; cleared = true; render(done); btn.focus(); });
   }
 
   /* ---------- Widgets --------------------------------------------------------- */
@@ -731,6 +1021,7 @@
     if (!initFn || node.hasAttribute('data-s1-ready')) return;
     node.setAttribute('data-s1-ready', '');
     node.classList.add('widget');
+    off(node);
     var caption = node.querySelector('figcaption, .widget__caption');
     var fallback = node.querySelector('.widget__fallback');
     if (fallback) fallback.parentNode.removeChild(fallback);
@@ -738,8 +1029,8 @@
     var titleText = node.getAttribute('data-title') || '';
     var titleId = util.uid('widget-title');
     var head = el('div', { class: 'widget__head' }, [
-      el('h4', { class: 'widget__title', id: titleId, text: titleText }),
-      el('span', { class: 'widget__kicker', text: node.getAttribute('data-kicker') || 'Interactive' })
+      el('h4', { class: 'widget__title', id: titleId, t: titleText }),
+      el('span', { class: 'widget__kicker', t: node.getAttribute('data-kicker') || 'Interactive' })
     ]);
     var controls = el('div', { class: 'widget__controls' });
     var stage = el('div', { class: 'widget__stage' });
@@ -761,6 +1052,10 @@
       onDraw: function (fn) { draws.push(fn); },
       /** Re-run fn when the theme changes (canvas drawings are redrawn automatically). */
       onTheme: function (fn) { doc.addEventListener('s1:themechange', function (e) { fn(e.detail.theme); }); },
+      /** Re-run fn when the language changes (canvases are redrawn automatically; call your update() here). */
+      onLang: function (fn) { doc.addEventListener('s1:langchange', function (e) { fn(e.detail.lang); }); },
+      /** Same as S1.t: translate a string. */
+      t: t,
       /**
        * Hi-DPI canvas that fills the stage width. opts: {height: px} or {aspect: width/height}, {label: 'alt text'}.
        * Returns {el, ctx, width, height, draw(fn)} — width/height are CSS pixels; fn(ctx, width, height) is called
@@ -768,7 +1063,8 @@
        */
       canvas: function (opts) {
         opts = opts || {};
-        var c = el('canvas', { role: 'img', 'aria-label': opts.label || titleText || 'Diagram' });
+        var c = el('canvas', { role: 'img' });
+        (function (src) { liveAttr(c, 'aria-label', function () { return t(src); }); })(sourceOf(opts.label || titleText || 'Diagram'));
         stage.appendChild(c);
         var ctx = c.getContext('2d'), obj = { el: c, ctx: ctx, width: 0, height: 0 }, fns = [];
         function size() {
@@ -796,7 +1092,7 @@
       svg: function (viewBox, opts) {
         var s = doc.createElementNS('http://www.w3.org/2000/svg', 'svg');
         s.setAttribute('viewBox', viewBox); s.setAttribute('role', 'img');
-        s.setAttribute('aria-label', (opts && opts.label) || titleText || 'Diagram');
+        (function (src) { liveAttr(s, 'aria-label', function () { return t(src); }); })(sourceOf((opts && opts.label) || titleText || 'Diagram'));
         s.style.width = '100%'; s.style.height = 'auto';
         stage.appendChild(s);
         return s;
@@ -808,9 +1104,11 @@
       slider: function (opts) {
         var id = util.uid('ctl'), step = opts.step || 1;
         var range = el('input', { type: 'range', id: id, min: opts.min, max: opts.max, step: step, value: opts.value });
-        var num = el('input', { class: 'input', type: 'number', min: opts.min, max: opts.max, step: step, value: opts.value, 'aria-label': opts.label + (opts.unit ? ' in ' + opts.unit : '') + ', exact value', inputmode: 'decimal' });
+        var labelSrc = sourceOf(opts.label);
+        var num = el('input', { class: 'input', type: 'number', min: opts.min, max: opts.max, step: step, value: opts.value, inputmode: 'decimal' });
+        liveAttr(num, 'aria-label', function () { return t('{label}, exact value', { label: t(labelSrc) + (opts.unit ? ' (' + opts.unit + ')' : '') }); });
         var wrap = el('div', { class: 'control' }, [
-          el('label', { class: 'control__label', for: id, text: opts.label }),
+          liveText(el('label', { class: 'control__label', for: id }), opts.label),
           el('div', { class: 'control__row' }, [range, num, opts.unit ? el('span', { class: 'control__unit', html: S1.chem ? S1.chem.unit(opts.unit) : opts.unit }) : null])
         ]);
         var val = Number(opts.value);
@@ -829,7 +1127,7 @@
       },
       /** Button in the controls area. Returns the <button>. */
       button: function (label, onClick, opts) {
-        var b = el('button', { class: 'btn btn--small' + (opts && opts.primary ? ' btn--primary' : ''), type: 'button', text: label });
+        var b = liveText(el('button', { class: 'btn btn--small' + (opts && opts.primary ? ' btn--primary' : ''), type: 'button' }), label);
         b.addEventListener('click', onClick);
         controls.appendChild(b);
         return b;
@@ -840,10 +1138,10 @@
         var s = el('select', { class: 'select', id: id });
         opts.options.forEach(function (o) {
           var v = typeof o === 'object' ? o.value : o, l = typeof o === 'object' ? o.label : o;
-          var op = el('option', { value: v, text: l }); if (String(v) === String(opts.value)) op.selected = true; s.appendChild(op);
+          var op = liveText(el('option', { value: v }), l); if (String(v) === String(opts.value)) op.selected = true; s.appendChild(op);
         });
         s.addEventListener('change', function () { if (opts.onChange) opts.onChange(s.value); });
-        var wrap = el('div', { class: 'control', style: 'flex:0 1 auto' }, [el('label', { class: 'control__label', for: id, text: opts.label }), s]);
+        var wrap = el('div', { class: 'control', style: 'flex:0 1 auto' }, [liveText(el('label', { class: 'control__label', for: id }), opts.label), s]);
         controls.appendChild(wrap);
         return { el: wrap, get value() { return s.value; }, set: function (v) { s.value = v; } };
       },
@@ -851,8 +1149,9 @@
        *  Pass {text: true} for a sentence rather than a number. */
       readoutItem: function (label, opts) {
         var value = el('span', { class: 'widget__readout-value' + (opts && opts.text ? ' widget__readout-value--text' : '') });
-        readout.appendChild(el('div', { class: 'widget__readout-item' }, [el('span', { class: 'widget__readout-label', text: label }), value]));
-        return function (htmlText) { value.innerHTML = htmlText; };
+        readout.appendChild(el('div', { class: 'widget__readout-item' }, [liveText(el('span', { class: 'widget__readout-label' }), label), value]));
+        // A value that is exactly a translated sentence keeps following the language.
+        return function (htmlText) { var src = sourceOf(String(htmlText)); live(value, function () { return lookup(norm(src)) || src; }); };
       },
       /**
        * Animation loop: fn(dtSeconds, tSeconds). Pauses when the widget is off screen or the tab is hidden.
@@ -884,10 +1183,11 @@
     }
     doc.addEventListener('visibilitychange', function () { loops.forEach(function (L) { L._sync(); }); });
     doc.addEventListener('s1:themechange', function () { api.redraw(); });
+    doc.addEventListener('s1:langchange', function () { api.redraw(); });
     try { initFn(api); }
     catch (err) {
       stage.innerHTML = '';
-      stage.appendChild(el('p', { class: 'widget__fallback', text: 'This interactive could not start. The rest of the page still works.' }));
+      stage.appendChild(el('p', { class: 'widget__fallback', t: 'This interactive could not start. The rest of the page still works.' }));
       if (window.console) console.error('[S1.widgets] ' + name + ' failed:', err);
     }
   }
@@ -904,9 +1204,11 @@
       fn(n);
     });
   }
+  var booted = false;
   /** Initialise components inside root (default: whole document). Safe to call again after inserting HTML. */
   S1.enhance = function (root) {
     root = root || doc;
+    if (booted && root !== doc) capture(root);          // authored HTML added later: capture before enhancing
     initFormat(root);
     initLevelBadges(root);
     initDefs(root);
@@ -920,9 +1222,11 @@
     each(root, '[data-s1-numeric]', initNumeric);
     each(root, '[data-s1-reset]', initReset);
     Array.prototype.forEach.call(root.querySelectorAll('[data-s1-widget]:not([data-s1-ready])'), mountWidget);
-    each(root, '.table-scroll', function (n) { if (!n.hasAttribute('tabindex')) { n.setAttribute('tabindex', '0'); n.setAttribute('role', 'region'); if (!n.getAttribute('aria-label')) { var c = n.querySelector('caption'); n.setAttribute('aria-label', c ? c.textContent : 'Table'); } } });
+    each(root, '.table-scroll', function (n) { if (!n.hasAttribute('tabindex')) { n.setAttribute('tabindex', '0'); n.setAttribute('role', 'region'); if (!n.getAttribute('aria-label')) { var c = n.querySelector('caption'); if (c) n.setAttribute('aria-labelledby', c.id || (c.id = util.uid('cap'))); else liveAttr(n, 'aria-label', function () { return t('Table'); }); } } });
     enhancers.forEach(function (fn) { fn(root); });
     each(root, '[data-s1-toc]', initToc);
+    labelPass(root);
+    if (booted && root !== doc && lang !== 'en') applyLang(root);
   };
 
   var readyFns = [], isReady = false;
@@ -932,9 +1236,13 @@
     html.classList.add('js');
     // Pages written before the rename still say "Structure 1 Lab" in <title>.
     if (doc.title.indexOf('Structure 1 Lab') > -1) doc.title = doc.title.replace('Structure 1 Lab', S1.config.siteName);
-    S1.enhance(doc);
-    isReady = true;
+    pageTitle = doc.title;
+    capture(doc);                                       // 1. remember the authored English
+    S1.enhance(doc);                                    // 2. build components
+    booted = true; isReady = true;
     readyFns.forEach(function (fn) { fn(); });
+    var saved = store.getRaw('s1.lang');                // 3. never auto-detect: English unless the student chose
+    if (saved && saved !== 'en') S1.i18n.set(saved, { silent: true });
   }
   if (doc.readyState === 'loading') doc.addEventListener('DOMContentLoaded', boot); else boot();
 })();
