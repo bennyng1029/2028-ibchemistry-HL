@@ -504,7 +504,7 @@ S1.i18n.register('zh-Hant', 's2-3.q', {
         // EN: delocalized electrons are free to move (through the structure)
         "離域電子可以（在結構裏）自由移動",
         // EN: the delocalized electrons transfer / carry (kinetic) energy through the metal / closely packed cations pass on vibrations (kinetic energy) to their neighbours
-        "離域電子把（動）能傳遞 / 帶到金屬各處 / 緊密排列的陽離子把振動（動能）傳給相鄰的陽離子",
+        "離域電子把（動）能傳遞到 / 帶到金屬各處 / 緊密排列的陽離子把振動（動能）傳給相鄰的陽離子",
       ],
     },
 
