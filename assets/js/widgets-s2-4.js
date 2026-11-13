@@ -46,7 +46,7 @@
   var CHALLENGES = [
     ['K', 'Br', 'KBr'], ['Al', 'Cl', 'AlCl₃'], ['Si', 'O', 'SiO₂'], ['Mg', 'Cl', 'MgCl₂'], ['P', 'Cl', 'PCl₃'], ['Na', 'O', 'Na₂O'],
     ['Mg', 'Mg', 'Mg'], ['Si', 'C', 'SiC'], ['Ca', 'O', 'CaO'], ['N', 'H', 'NH₃'], ['Li', 'H', 'LiH'], ['S', 'O', 'SO₂'],
-    ['Na', 'K', 'Na–K'], ['Ba', 'Cl', 'BaCl₂'], ['C', 'S', 'CS₂']
+    ['Zn', 'Zn', 'Zn'], ['Ba', 'Cl', 'BaCl₂'], ['C', 'S', 'CS₂']
   ];
 
   /* ---------- triangle maths ------------------------------------------------- */
@@ -295,8 +295,8 @@
     var FOREIGN = [[1, 3], [2, 6], [3, 2], [0, 7], [4, 8], [3, 10]];   // [row, column] of the added atoms
 
     function layout(W) {
-      var r = S1.util.clamp(W / 30, 9, 15), cols = Math.max(7, Math.floor((W - 6 * r) / (2 * r)));
-      return { r: r, cols: cols, left: (W - (cols * 2 * r + r)) / 2 + r - r, top: 46 };
+      var r = S1.util.clamp(W / 30, 9, 15), left = 40, cols = Math.max(7, Math.floor((W - left - 6.5 * r) / (2 * r)));
+      return { r: r, cols: cols, left: left, top: 46 };
     }
     cv.draw(function (ctx, W, H) {
       var L = layout(W), r = L.r, k = kind === 'big' ? 1.3 : kind === 'small' ? 0.68 : 1;
@@ -325,7 +325,9 @@
       var lift = Math.sqrt(4 * r * r - near * near) - rowH;
       // sea of delocalized electrons
       ctx.fillStyle = w.color('--accent-soft');
-      ctx.fillRect(L.left - r * 0.6, L.top - r * 0.9, L.cols * 2 * r + r + r * 1.2 + 2 * r, ROWS * rowH + r * 1.6);
+      var seaW = L.cols * 2 * r + r + r * 1.2, split = L.top + r + (MOVING - 0.5) * rowH;
+      ctx.fillRect(L.left - r * 0.6 + shift * 2 * r, L.top - r * 0.6 - lift, seaW, split - (L.top - r * 0.6) + 1);
+      ctx.fillRect(L.left - r * 0.6, split, seaW, L.top + r + (ROWS - 1) * rowH + r * 1.6 - split);
       atoms.forEach(function (a) {
         var x = a.x + (a.row < MOVING ? shift * 2 * r : 0), y = a.y - (a.row < MOVING ? lift : 0), rr = a.f ? r * k : r;
         ctx.beginPath(); ctx.arc(x, y, rr - 0.8, 0, Math.PI * 2);
@@ -335,12 +337,12 @@
         ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText('+', x, y + 0.5);
       });
       // force arrow on the top rows
-      var ay = L.top + r + 0.5 * rowH, ax = L.left - r * 0.6;
+      var ay = L.top + r + 0.5 * rowH, ax = L.left - r * 0.6 + shift * 2 * r;
       ctx.strokeStyle = ink; ctx.fillStyle = ink; ctx.lineWidth = 2;
-      ctx.beginPath(); ctx.moveTo(Math.max(2, ax - 26), ay); ctx.lineTo(ax - 4, ay); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(ax - 28, ay); ctx.lineTo(ax - 4, ay); ctx.stroke();
       ctx.beginPath(); ctx.moveTo(ax - 1, ay); ctx.lineTo(ax - 9, ay - 5); ctx.lineTo(ax - 9, ay + 5); ctx.closePath(); ctx.fill();
       ctx.font = '12px ' + body; ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic'; ctx.fillStyle = ink;
-      ctx.fillText(t('force'), 2, ay - 9);
+      ctx.fillText(t('force'), ax - 30, ay - 9);
       ctx.fillText(t('Shaded background: delocalized electrons (not drawn one by one)'), 2, H - 8, W - 4);
       ctx.fillText(kind === 'pure' ? t('All ions are the same size: regular layers') : t('Dark circles: atoms of the added element'), 2, 16, W - 4);
     });
@@ -506,12 +508,14 @@
       bonds.push({ a: base, b: base + 1 }, { a: base, b: base + 2 }, { a: base, b: base + 3 }, { a: base + 1, b: base + 4 }, { a: base + 1, b: base + 5 });
       if (open || k === 0) { atoms.push({ el: '', x: x - 0.8, y: 0 }); bonds.push({ a: atoms.length - 1, b: base }); }
       else bonds.push({ a: prev, b: base });
-      if (open || k === units - 1) { atoms.push({ el: '', x: x + 2.05, y: 0 }); bonds.push({ a: base + 1, b: atoms.length - 1 }); }
+      if (open || k === units - 1) { atoms.push({ el: '', x: x + ((opts && opts.endR) || 2.05), y: 0 }); bonds.push({ a: base + 1, b: atoms.length - 1 }); }
       prev = base + 1;
     }
     return { atoms: atoms, bonds: bonds, label: label };
   }
-  var UNIT_BRACKETS = { brackets: { x1: -0.45, x2: 1.7, y1: -1.55, y2: 1.55 } };
+  function unitRight(m) { var len = Math.max(m.c.length, m.d.length); return len > 1 ? Math.max(1.7, 1.25 + (len * 11.5 + 2) / SC) : 1.7; }
+  function unitBrackets(m) { return { brackets: { x1: -0.45, x2: unitRight(m), y1: -1.55, y2: 1.55 } }; }
+  function unitSpec(m, label) { return chainSpec(m, 1, label, { endR: unitRight(m) + 0.35 }); }
 
   /* ---------- row drawer for condensation polymers (local helper) ------------
      S1.mol.structural cannot draw group labels with trimmed bonds, boxes for "the rest
@@ -519,12 +523,12 @@
      the same visual style.  rows: [[item, item …], …]; item = {nodes, contL, contR, bracket}
      | {sign: '+'} ; node = {l, box, top: {l, order}, bot: {l, order}, hl: 'leave' | 'link' | 'new'} */
   function sub(s) { return String(s).replace(/\d/g, function (d) { return '₀₁₂₃₄₅₆₇₈₉'.charAt(Number(d)); }); }
-  function drawRows(host, rows, label, notes) {
+  function drawRows(host, rows, label) {
     host.innerHTML = ''; host.setAttribute('data-i18n', 'off'); host.classList.add('mol');
     var svg = svgEl('svg', { role: 'img', class: 'mol__svg', 'aria-label': label }, host);
     svg.style.maxWidth = '100%'; svg.style.height = 'auto';
-    var BOND = 19, ROWH = 104, FS = 17, y = 52, maxW = 0, laid = [];
-    function nodeW(n) { return n.box ? Math.max(46, sub(n.l).length * 8.4 + 12) : Math.max(13, n.l.length * 11.5); }
+    var BOND = 19, FS = 17, y = 0, maxW = 0, laid = [];
+    function nodeW(n) { return n.box ? Math.max(46, sub(n.l).length * 7.6 + 10) : Math.max(13, n.l.length * 11.5); }
     rows.forEach(function (row) {
       var x = 0, items = [];
       row.forEach(function (it) {
@@ -538,7 +542,8 @@
         items.push({ it: it, pos: pos, x0: start, x1: x });
         x += 6;
       });
-      laid.push({ items: items, w: x, y: y }); maxW = Math.max(maxW, x); y += ROWH;
+      var rh = row.every(function (it) { return it.sign; }) ? 40 : 104;
+      laid.push({ items: items, w: x, y: y + rh / 2 }); maxW = Math.max(maxW, x); y += rh;
     });
     var line = 'stroke:' + INK + ';stroke-width:1.8;stroke-linecap:round';
     function text(x, yy, s, size, weight, fill) {
@@ -592,8 +597,7 @@
         }
       });
     });
-    var h = y - 52 + 4;
-    if (notes) { text(maxW / 2, h + 8, notes, 13, 400, 'var(--ink-2)'); h += 24; }
+    var h = y + 4;
     svg.setAttribute('viewBox', '-8 0 ' + (maxW + 16) + ' ' + h);
     svg.setAttribute('width', maxW + 16); svg.setAttribute('height', h);
     return svg;
@@ -674,7 +678,7 @@
       if (step === 0) drawStruct(draw, monomerSpec(m, 3, t('Three separate molecules of {name}, each with a carbon to carbon double bond', { name: m.name })));
       else if (step === 1) drawStruct(draw, chainSpec(m, 3, t('Three units of {name} with the double bonds opened: each unit has a single bond between its two carbons and one free bond at each end', { name: m.name }), { open: true }));
       else if (step === 2) drawStruct(draw, chainSpec(m, 3, t('A chain of three repeating units made from {name}: six backbone carbons joined by single bonds, with a continuation bond at each end', { name: m.name })));
-      else drawStruct(draw, chainSpec(m, 1, t('Repeating unit of the polymer of {name}: {unit}, in square brackets with n', { name: m.name, unit: m.rep })), UNIT_BRACKETS);
+      else drawStruct(draw, unitSpec(m, t('Repeating unit of the polymer of {name}: {unit}, in square brackets with n', { name: m.name, unit: m.rep })), unitBrackets(m));
       setMono(m.mono);
       setRep(step === 3 ? '[' + m.rep + ']<sub><i>n</i></sub>' : t('reach step 4'));
       setNote(step === 3 ? t('The repeating unit has the same atoms as one monomer: nothing is lost, so the atom economy is 100 %.') : t('Count the atoms at each step. The number never changes.'));
@@ -734,7 +738,7 @@
     var setRep = w.readoutItem(t('Repeating unit'));
 
     function update() {
-      var s = SYS[kind], P = condParts(s), narrow = w.stage.clientWidth < 560, rows, title, text, label, note = null;
+      var s = SYS[kind], P = condParts(s), narrow = w.stage.clientWidth < 560, rows, title, text, label;
       bBack.disabled = step === 0; bNext.disabled = step === 4;
       if (step === 0) {
         title = t('Step 1 of 5: the two monomers');
@@ -743,9 +747,9 @@
         label = t('Two monomers, each with a functional group at both ends');
       } else if (step === 1) {
         title = t('Step 2 of 5: find the atoms that leave');
-        text = t('The dashed outlines mark one H atom from monomer A and the –OH from the –COOH group of monomer B. Together they make one molecule of water.');
+        text = t('The dashed outlines mark an H atom on one monomer and the –OH of a –COOH group on the other monomer. Together these atoms make one molecule of water.');
         rows = narrow ? [[P.monoA(true)], [{ sign: '+' }, P.monoB(true)]] : [[P.monoA(true), { sign: '+' }, P.monoB(true)]];
-        label = t('The same two monomers. A hydrogen atom on monomer A and the OH of the carboxyl group on monomer B are outlined.');
+        label = t('The same two monomers. A hydrogen atom on one monomer and the OH of a carboxyl group on the other monomer are outlined.');
       } else if (step === 2) {
         title = t('Step 3 of 5: the link forms and water is released');
         text = t('A new bond joins the two monomers. The underlined atoms are the {link}. The product still has a functional group at each end, so it can react again and the chain grows.', { link: s.link });
@@ -761,13 +765,12 @@
       } else {
         title = t('Step 5 of 5: hydrolysis, the reverse reaction');
         text = t('Water breaks the underlined link. The –OH of water joins the C=O carbon and the H of water joins the O or N atom. The monomers form again. This is how biological polymers are broken down.');
-        rows = [[P.dimer('link')], [{ sign: '+' }, waterItem('leave')], narrow ? [P.monoA(true)] : [P.monoA(true), { sign: '+' }, P.monoB(true)]];
+        rows = [[P.dimer('link')], [{ sign: '+' }, waterItem('leave')], [{ sign: '↓' }], narrow ? [P.monoA(true)] : [P.monoA(true), { sign: '+' }, P.monoB(true)]];
         if (narrow) rows.push([{ sign: '+' }, P.monoB(true)]);
         label = t('Hydrolysis: the linked molecule and one water molecule give back the two monomers. The atoms that came from water are outlined.');
-        note = t('top: before hydrolysis          bottom: after hydrolysis');
       }
       head.innerHTML = '<p><b>' + title + '</b> ' + text + '</p>';
-      drawRows(draw, rows, label, note);
+      drawRows(draw, rows, label);
       setLink(step >= 2 ? s.link : '?');
       setSmall(step >= 2 ? 'H<sub>2</sub>O' : '?');
       setRep(step >= 3 ? '[' + s.rep + ']<sub><i>n</i></sub>' : '?');
@@ -786,7 +789,7 @@
       var kind = host.getAttribute('data-s24-draw'), m = M[host.getAttribute('data-m')], label = host.getAttribute('data-label') || '';
       if (kind === 'mono' && m) drawStruct(host, monomerSpec(m, 1, label || m.mono));
       else if (kind === 'chain' && m) drawStruct(host, chainSpec(m, Number(host.getAttribute('data-units')) || 3, label || m.rep));
-      else if (kind === 'rep' && m) drawStruct(host, chainSpec(m, 1, label || m.rep), UNIT_BRACKETS);
+      else if (kind === 'rep' && m) drawStruct(host, unitSpec(m, label || m.rep), unitBrackets(m));
       else if (kind === 'pair' && m) drawStruct(host, chainSpec(m, 2, label || m.rep), { marks: [{ x: 0.625, y: 0, rx: 1.15, ry: 1.5 }] });
       else if (kind === 'cond') {
         var P = condParts({ kind: host.getAttribute('data-kind'), a: host.getAttribute('data-a'), b: host.getAttribute('data-b') });
