@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2.2 The covalent model: Additional HL | Structure Lab</title>
+<meta name="description" content="IB Chemistry Structure 2.2, Additional HL: resonance and delocalization, benzene, expanded octets with five and six electron domains, formal charge, sigma and pi bonds, and sp, sp2, sp3 hybridization.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for topic 2.2 Additional HL. Existing tokens only. */
+.widget .btn[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.widget .btn[hidden] { display: none; }
+.s22h-ctl { flex: 0 1 auto; min-width: 0; }
+.s22h-seg { flex-wrap: wrap; max-width: 100%; }
+.s22h-msg { margin: 0.75rem auto 0; padding: 0.6rem 0.8rem; border: 1px solid var(--line-strong); border-left-width: 4px; background: var(--surface-2); max-width: 44rem; }
+.s22h-msg[hidden] { display: none; }
+.s22h-msg p { margin: 0; }
+.s22h-msg[data-tone="bad"] { border-color: var(--bad); background: var(--bad-soft); }
+.s22h-msg[data-tone="ok"] { border-color: var(--ok); background: var(--ok-soft); }
+.s22h-msg[data-tone="warn"] { border-color: var(--amber-line); background: var(--amber-soft); }
+.s22h-draw { display: flex; justify-content: center; align-items: center; min-height: 7rem; padding: 0.25rem 0 0.5rem; }
+.s22h-scale { max-width: 35rem; margin: 0 auto; }
+.s22h-figrow { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0.5rem 1rem; }
+.s22h-arrow { font-size: 1.5rem; color: var(--ink-2); }
+.s22h-figure { margin: 1.5rem 0; border: 1px solid var(--line-strong); background: var(--surface); max-width: 46rem; }
+.s22h-figure > div { padding: 0.9rem 1rem 0.4rem; }
+.s22h-figure figcaption { padding: 0.65rem 1rem 0.8rem; border-top: 1px solid var(--line); font-size: 0.9rem; color: var(--ink-2); }
+.worked .s22h-figrow { margin: 0.5rem 0; }
+.s22h-alts { display: grid; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); gap: 0.75rem; }
+.s22h-alt { border: 1px solid var(--line); padding: 0.5rem 0.6rem 0.7rem; display: grid; justify-items: center; align-content: start; gap: 0.35rem; min-width: 0; }
+.s22h-alt__name { font-family: var(--font-mono); font-weight: 600; margin: 0; justify-self: start; }
+.s22h-alt__fc { margin: 0; font-size: 0.85rem; text-align: center; }
+.s22h-pick { fill: transparent; stroke: transparent; stroke-width: 2.5; cursor: pointer; }
+.s22h-pick:hover { stroke: var(--line-strong); }
+.s22h-pick[data-on="true"] { stroke: var(--accent); stroke-dasharray: 4 3; }
+.s22h-atomrow { display: flex; justify-content: center; margin: 0.25rem 0 0.75rem; }
+.widget__controls .s22h-atomrow { margin: 0; }
+.s22h-form { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 0.6rem 1rem; max-width: 44rem; margin: 0 auto; align-items: end; }
+.s22h-form .btn-row { grid-column: 1 / -1; }
+.s22h-num { width: 100%; max-width: 9rem; }
+.s22h-num[aria-invalid="true"] { border-color: var(--bad); }
+.s22h-working { max-width: 44rem; margin: 0.75rem auto 0; }
+.s22h-working[hidden] { display: none; }
+.s22h-cards { display: grid; gap: 0.6rem; max-width: 46rem; }
+.s22h-card { border: 1px solid var(--line-strong); border-left-width: 4px; padding: 0.6rem 0.8rem; background: var(--surface); }
+.s22h-card[data-tone="ok"] { border-color: var(--ok); background: var(--ok-soft); }
+.s22h-card[data-tone="bad"] { border-color: var(--bad); background: var(--bad-soft); }
+.s22h-card__text { margin: 0 0 0.5rem; }
+.s22h-card__n { font-family: var(--font-mono); color: var(--ink-3); margin-right: 0.3rem; }
+.s22h-card__fb { margin: 0.5rem 0 0; font-size: 0.92rem; }
+.s22h-ask { max-width: 44rem; margin: 0 auto; }
+.s22h-ask p { margin: 0 0 0.5rem; }
+.s22h-ask__q { font-weight: 700; }
+.s22h-view { max-width: 30rem; margin: 0.5rem auto 0; }
+.s22h-view[hidden] { display: none; }
+.s22h-chain { max-width: 44rem; margin: 0.5rem auto; }
+.s22h-diag { max-width: 600px; margin: 0 auto; }
+</style>
+</head>
+<body data-page="s2-2h">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="s2-2h"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Structure 2.2 · Additional HL</p>
+      <h1>The covalent model: Additional HL</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>What determines the covalent nature and properties of a substance?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <!-- ============================================================ GOALS -->
+      <section class="topic-section" id="goals" data-toc="What you need to do">
+        <h2>What you need to be able to do</h2>
+        <p>Everything on this page is Additional HL. Tick each one when you can do it without looking at your notes.</p>
+        <ul class="checklist" data-s1-checklist="s2-2h">
+          <li data-id="res-deduce" data-level="ahl">Deduce the resonance structures of a molecule or ion.</li>
+          <li data-id="res-deloc" data-level="ahl">Use the term “delocalization” to explain equal bond lengths that lie between single and double.</li>
+          <li data-id="benzene-evidence" data-level="ahl">Discuss the structure of benzene, using physical evidence and chemical evidence.</li>
+          <li data-id="expanded-lewis" data-level="ahl">Draw Lewis formulas for species with five or six electron domains around the central atom.</li>
+          <li data-id="expanded-vsepr" data-level="ahl">Deduce the electron domain geometry, molecular geometry, bond angles and polarity of these species.</li>
+          <li data-id="fc-calc" data-level="ahl">Calculate the formal charge of each atom in a Lewis formula.</li>
+          <li data-id="fc-choose" data-level="ahl">Use formal charge to choose the preferred Lewis formula.</li>
+          <li data-id="sigma-pi-form" data-level="ahl">Describe how sigma (σ) and pi (π) bonds form, and where their electron density is.</li>
+          <li data-id="sigma-pi-count" data-level="ahl">Count the σ bonds and π bonds in a molecule or ion.</li>
+          <li data-id="hybrid-deduce" data-level="ahl">Deduce the hybridization (sp, sp<sup>2</sup> or sp<sup>3</sup>) of an atom from its electron domains.</li>
+          <li data-id="hybrid-geometry" data-level="ahl">Predict the geometry around an atom from its hybridization, and the hybridization from the geometry.</li>
+          <li data-id="hybrid-bonds" data-level="ahl">Explain which orbitals overlap to form the σ and π bonds in a molecule.</li>
+          <li data-id="coord-complex" data-level="ahl">Identify the coordination bonds in a transition element complex ion.</li>
+        </ul>
+      </section>
+
+      <!-- ============================================================ RECAP -->
+      <section class="topic-section" id="recap" data-toc="What you need first">
+        <h2>What you need from the core page</h2>
+        <p>This page builds on the SL and HL core content of Structure 2.2. Check that you can do these five things first. If one is not secure, go back to <a href="s2-2.html">2.2 The covalent model</a>.</p>
+        <ul>
+          <li>Draw a <strong>Lewis formula</strong> for a molecule or ion with up to four electron pairs on each atom. Show every lone pair.</li>
+          <li>Say that single, double and triple bonds are one, two and three shared pairs. More shared pairs give a shorter, stronger bond.</li>
+          <li>Count <strong>electron domains</strong>. A lone pair, a single bond, a double bond and a triple bond each count as one domain.</li>
+          <li>Use the <strong>VSEPR model</strong> for two, three and four domains: linear, trigonal planar and tetrahedral arrangements. Lone pairs repel more than bonding pairs.</li>
+          <li>Decide whether a molecule is <strong>polar</strong>: find the polar bonds, then check whether the bond dipoles cancel.</li>
+        </ul>
+        <p>The core page stops at four electron pairs and at one Lewis formula for each species. This page goes further in four directions: more than one Lewis formula (resonance and formal charge), more than four pairs (expanded octets), what a bond is made of (σ and π), and how atomic orbitals are prepared for bonding (hybridization).</p>
+      </section>
+
+      <!-- ============================================================ 2.2.11 -->
+      <section class="topic-section" id="resonance" data-toc="Resonance and delocalization">
+        <span class="section-code">Structure 2.2.11</span>
+        <h2>Resonance structures and delocalization</h2>
+
+        <p>Try to draw the Lewis formula of the carbonate ion, <span class="chem">CO3^2-</span>. Carbon needs one double bond to complete its octet. But which oxygen atom gets it? There are three equally good choices.</p>
+        <p><dfn data-def="Two or more Lewis formulas for the same species that differ only in the position of a double bond (and of lone pairs).">Resonance structures</dfn> occur when there is more than one possible position for a double bond in a molecule or ion. The atoms stay in the same places. Only electrons are drawn in different positions.</p>
+
+        <h3>None of the drawings is the real particle</h3>
+        <p>A mule is a cross between a horse and a donkey. It is always a mule. It does not change into a horse and then into a donkey. Resonance is like this.</p>
+        <p>The real carbonate ion is one fixed structure, called a <dfn>resonance hybrid</dfn>. It is a mix of all the resonance structures at once. We need several drawings only because one Lewis formula cannot show it.</p>
+        <p>In the hybrid, one pair of electrons is not fixed between two atoms. It is spread over several atoms. This spreading is called <dfn data-def="Electrons shared over more than two atoms, instead of being fixed between one pair of atoms.">delocalization</dfn>. The electrons that spread out are the second pair of each double bond. They are called π (pi) electrons. You will meet π bonds properly in the section on <a href="#sigma-pi">sigma and pi bonds</a>.</p>
+
+        <aside class="callout callout--key">
+          <p>Delocalization makes the bonds equal. Each bond is between a single and a double bond in length and in strength.</p>
+        </aside>
+
+        <figure data-s1-widget="s2-2h.resonance" data-title="Resonance flipper" data-kicker="Model">
+          <p class="widget__fallback">The carbonate ion has three resonance structures, with the C=O double bond drawn to each oxygen atom in turn. In the real ion all three bonds are equal, about 129 pm, between C–O (143 pm) and C=O (122 pm).</p>
+          <figcaption>Choose a species. Press Next to move the double bond, then go on to the delocalized picture. The small circled charges are formal charges, explained in the formal charge section. Measured bond lengths are rounded values from experiments. They are not in the data booklet.</figcaption>
+        </figure>
+
+        <h3>How to deduce resonance structures</h3>
+        <ol>
+          <li>Draw one correct Lewis formula. Count the valence electrons and include the charge of an ion.</li>
+          <li>Look at the atom with the double bond. Is it also joined to another atom of the same kind by a single bond?</li>
+          <li>If yes, redraw the formula with the double bond in that other position. Move a lone pair so that every atom keeps its octet.</li>
+          <li>Repeat until you have used every possible position. Do not move any atoms.</li>
+          <li>Write a double-headed arrow, ↔, between the structures.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Resonance structures of an ion</h3>
+          <div class="worked__problem">
+            <p>Deduce the resonance structures of the nitrite ion, <span class="chem">NO2-</span>. Nitrogen is the central atom. Then predict the lengths of the two nitrogen–oxygen bonds. The data booklet gives N–O 136 pm and N=O 114 pm.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Count the valence electrons">
+              <p class="worked__why">A Lewis formula must show every valence electron. A negative charge adds one electron.</p>
+              <div class="worked__math">N: 5;  O: 2 × 6 = 12;  charge 1−: + 1</div>
+              <div class="worked__math">Total = 5 + 12 + 1 = 18 electrons = 9 pairs</div>
+            </li>
+            <li data-title="Join the atoms and fill the octets">
+              <p class="worked__why">Start with single bonds, complete the outer atoms, then put what is left on the central atom.</p>
+              <div class="worked__math">2 bonds: 4 electrons.  Two O atoms: 6 + 6 = 12 electrons.  Left: 18 − 16 = 2 electrons on N.</div>
+              <p>Nitrogen now has only 6 electrons around it: two bonds and one lone pair.</p>
+            </li>
+            <li data-title="Make one double bond">
+              <p class="worked__why">Nitrogen needs one more shared pair for an octet. One oxygen shares a lone pair with it.</p>
+              <p>The structure has one N=O bond, one N–O bond and one lone pair on nitrogen. All three atoms have an octet.</p>
+            </li>
+            <li data-title="Move the double bond">
+              <p class="worked__why">The double bond could be to either oxygen atom. Both drawings are equally good, so there is resonance.</p>
+              <div data-s22h-fig="no2-res"></div>
+            </li>
+            <li data-title="Describe the real ion">
+              <p class="worked__why">The question asks for bond lengths. Use the idea of delocalization.</p>
+              <p>The π electrons are delocalized over all three atoms. Both nitrogen–oxygen bonds are the same length. The length is between 114 pm and 136 pm.</p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Two resonance structures. Both N–O bonds are equal, with a length between 114 pm and 136 pm (measured: about 124 pm).</p></div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Wrong idea: “the ion flips quickly between the structures”. It does not. The real ion is always the hybrid, with equal bonds. The ↔ arrow does not mean a reaction or an equilibrium.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>To explain equal bond lengths, write that the (π) electrons are <strong>delocalized</strong>, so the bonds are identical and intermediate between single and double. If you are asked for a Lewis formula only, one resonance structure is enough. A drawing with dashed bonds is not a Lewis formula.</p>
+        </aside>
+
+        <aside class="callout callout--booklet">
+          <p>Section 11 of the data booklet lists single and double bond lengths, such as C–O 143 pm and C=O 122 pm. A bond in a resonance hybrid has a length between the two values.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="3" data-tolerance="0.1" data-label="Number of resonance structures">
+          <div class="tryit__q"><p>How many resonance structures can you draw for the nitrate ion, <span class="chem">NO3-</span>? Nitrogen is the central atom.</p></div>
+          <ol class="tryit__hints">
+            <li>One correct Lewis formula has one N=O bond and two N–O bonds.</li>
+            <li>The double bond can go to each oxygen atom in turn.</li>
+          </ol>
+          <div class="tryit__solution">
+            <p>There are three oxygen atoms, so the double bond has three possible positions: <strong>3</strong> resonance structures. In the real ion all three bonds are equal.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--scope">
+          <p>You do not need the term “bond order”, fractional bond orders such as 1⅓, or molecular orbital theory. You also do not need curly arrows to turn one resonance structure into another. Draw the structures and use the word delocalization.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-2h" data-syllabus="Structure 2.2.11" data-count="4" data-title="Resonance: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.2.12 -->
+      <section class="topic-section" id="benzene" data-toc="Benzene">
+        <span class="section-code">Structure 2.2.12</span>
+        <h2>Benzene: a molecule with resonance</h2>
+
+        <p>Benzene, <span class="chem">C6H6</span>, is a ring of six carbon atoms. Each carbon is also bonded to one hydrogen atom. A Lewis formula needs three C=C double bonds in the ring to give every carbon four bonds.</p>
+        <p>The double bonds can be drawn in two positions, so benzene has two resonance structures. You can see them in the resonance flipper above. An early model, often called the Kekulé structure, treated benzene as one of these drawings: a ring with alternating single and double bonds.</p>
+
+        <h3>The structure we use now</h3>
+        <p>Each carbon atom forms three ordinary bonds: two to carbon and one to hydrogen. That uses three of its four valence electrons. The fourth electron of each carbon is a π electron.</p>
+        <p>The six π electrons are not fixed in three double bonds. They are delocalized over all six carbon atoms, in a ring above and below the plane of the molecule. Benzene is therefore drawn as a hexagon with a circle inside.</p>
+        <p>The result is a flat, regular hexagon. All six carbon–carbon bonds are identical. All bond angles are 120°.</p>
+
+        <h3>The evidence</h3>
+        <p>You need to discuss why we accept the delocalized structure. The evidence comes in two kinds. <strong>Physical evidence</strong> is measured on the molecule itself. <strong>Chemical evidence</strong> comes from reactions and their energy changes.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Evidence that benzene does not have alternating single and double bonds</caption>
+            <thead><tr><th scope="col">Kind</th><th scope="col">Observation</th><th scope="col">What three real C=C bonds would give</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Physical</th><td>All six carbon–carbon bonds are the same length, about 140 pm. This is between C–C (154 pm) and C=C (134 pm).</td><td>Three short bonds (134 pm) and three long bonds (154 pm).</td></tr>
+              <tr><th scope="row">Physical</th><td>The ring is a planar regular hexagon. All bond angles are 120°.</td><td>An irregular hexagon, because the sides have two lengths.</td></tr>
+              <tr><th scope="row">Physical</th><td>Only one 1,2-disubstituted compound exists, for example one 1,2-dibromobenzene.</td><td>Two different 1,2-isomers: Br atoms joined across a single bond, or across a double bond.</td></tr>
+              <tr><th scope="row">Chemical</th><td>Benzene reacts by substitution. It does not readily react by addition, and it does not readily decolourize bromine water.</td><td>Fast addition reactions, like an alkene. Bromine water would lose its colour.</td></tr>
+              <tr><th scope="row">Chemical</th><td>The enthalpy of hydrogenation of benzene is less exothermic than three times that of cyclohexene.</td><td>Three times the value for one C=C bond.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>The last row needs numbers. Cyclohexene has one C=C bond in a six-carbon ring. Adding hydrogen to it releases about 120 <span class="unit">kJ mol-1</span>. Three such bonds should release about 360 <span class="unit">kJ mol-1</span>. Benzene releases only about 208 <span class="unit">kJ mol-1</span>.</p>
+
+        <figure data-s1-widget="s2-2h.hydro" data-title="Enthalpy of hydrogenation: prediction and measurement" data-kicker="Drawn to scale">
+          <p class="widget__fallback">Hydrogenation of cyclohexene: −120 kJ mol⁻¹. Predicted for a ring with three C=C bonds: −360 kJ mol⁻¹. Measured for benzene: −208 kJ mol⁻¹. Benzene is about 152 kJ mol⁻¹ more stable than predicted.</p>
+          <figcaption>Benzene starts lower in energy than the three C=C model predicts. Delocalization makes it more stable. The enthalpy values are rounded measured values. They are not in the data booklet, so an exam question gives them to you.</figcaption>
+        </figure>
+
+        <div data-s1-numeric data-answer="152" data-tolerance="1%" data-unit="kJ mol-1" data-label="Difference">
+          <div class="tryit__q"><p>The enthalpy of hydrogenation of cyclohexene is −120 <span class="unit">kJ mol-1</span>. The enthalpy of hydrogenation of benzene is −208 <span class="unit">kJ mol-1</span>. By how much is benzene more stable than a ring with three separate C=C bonds? Give a positive value.</p></div>
+          <ol class="tryit__hints">
+            <li>First predict the value for three separate C=C bonds.</li>
+            <li>Predicted: 3 × (−120). Compare the size of this with 208.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">Predicted = 3 × (−120) = −360 kJ mol<sup>−1</sup></div>
+            <div class="worked__math">Difference = 360 − 208 = <b>152 kJ mol<sup>−1</sup></b></div>
+            <p>Benzene releases less energy than predicted, so it started at a lower energy. It is more stable.</p>
+          </div>
+        </div>
+
+        <figure data-s1-widget="s2-2h.benzene" data-title="Benzene evidence board">
+          <p class="widget__fallback">Physical evidence: equal carbon–carbon bond lengths between single and double; planar regular hexagon; only one 1,2-disubstituted isomer. Chemical evidence: substitution instead of addition; does not readily decolourize bromine water; enthalpy of hydrogenation less exothermic than expected. Not evidence: the formula C₆H₆, and the fact that benzene can be hydrogenated.</p>
+          <figcaption>Sort each card: physical evidence, chemical evidence, or a fact that fits both models and so proves nothing. Then check.</figcaption>
+        </figure>
+
+        <aside class="callout callout--exam">
+          <p>Describe benzene as having <strong>delocalized π electrons</strong>. The word π is needed for the mark. When a question asks for one physical and one chemical piece of evidence, give one of each. Two physical points score only once.</p>
+        </aside>
+
+        <aside class="callout callout--mistake">
+          <p>“Benzene is unsaturated” and “benzene can be hydrogenated” are true, but they are not evidence against alternating bonds. A ring with three C=C bonds would do the same. Choose evidence that the two models predict differently.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>You do not need to calculate a “resonance energy” from bond enthalpies or draw orbital diagrams of the ring. How benzene reacts, step by step (electrophilic substitution), comes later in Reactivity 3.4.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-2h" data-syllabus="Structure 2.2.12" data-count="4" data-title="Benzene: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.2.13 -->
+      <section class="topic-section" id="expanded" data-toc="Expanded octets: 5 and 6 domains">
+        <span class="section-code">Structure 2.2.13</span>
+        <h2>Expanded octets: five and six electron domains</h2>
+
+        <p>Phosphorus forms <span class="chem">PCl3</span>, as the octet rule predicts. It also forms <span class="chem">PCl5</span>. In <span class="chem">PCl5</span> phosphorus has five bonding pairs: ten electrons in its valence shell.</p>
+        <p>An atom with more than eight electrons in its valence shell has an <dfn data-def="More than eight electrons in the valence shell of a central atom: five or six electron domains.">expanded octet</dfn>. You need to deal with central atoms that have five or six electron domains.</p>
+
+        <h3>Which atoms can do this?</h3>
+        <p>Only atoms in period 3 and below can expand their octet. Examples are P, S, Cl, Br, I and Xe. Their valence shell is the third main energy level or higher. From Structure 1.3, a level with <i>n</i> = 3 can hold more than eight electrons. These atoms are also larger, so more atoms fit around them.</p>
+        <p>Period 2 atoms such as C, N, O and F never have more than eight valence electrons. Their valence shell (<i>n</i> = 2) is full with eight. So <span class="chem">NCl5</span> does not exist, but <span class="chem">PCl5</span> does.</p>
+
+        <h3>Method: from formula to Lewis formula</h3>
+        <p>This quick count works when each outer atom forms one single bond, such as F, Cl, Br, I or H.</p>
+        <ol>
+          <li>Write the number of valence electrons of the central atom. For groups 13 to 18 this is the group number minus 10.</li>
+          <li>Add 1 electron for each outer atom.</li>
+          <li>For an ion, add 1 for each negative charge. Subtract 1 for each positive charge.</li>
+          <li>Divide by 2. This is the number of electron domains around the central atom.</li>
+          <li>The number of bonding domains equals the number of outer atoms. The rest are lone pairs on the central atom.</li>
+          <li>Draw the Lewis formula. Give each outer halogen atom three lone pairs. Add brackets and the charge for an ion.</li>
+        </ol>
+
+        <h3>Shapes for five and six domains</h3>
+        <p>Electron domains repel each other and move as far apart as possible. Five domains point to the corners of a <strong>trigonal bipyramid</strong>. Six domains point to the corners of an <strong>octahedron</strong>.</p>
+        <p>A trigonal bipyramid has two kinds of position. Three <dfn>equatorial</dfn> positions lie in a flat triangle, 120° apart. Two <dfn>axial</dfn> positions lie above and below, at 90° to the triangle.</p>
+        <p><strong>Lone pairs take equatorial positions.</strong> An equatorial lone pair has only two neighbours at 90°. An axial lone pair would have three. Fewer 90° neighbours means less repulsion.</p>
+        <p>In an octahedron all six positions are the same. When there are two lone pairs, they sit opposite each other, 180° apart.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Geometries for five and six electron domains (outer atoms all the same)</caption>
+            <thead><tr><th scope="col" class="num">Domains</th><th scope="col" class="num">Bonding</th><th scope="col" class="num">Lone pairs</th><th scope="col">Electron domain geometry</th><th scope="col">Molecular geometry</th><th scope="col">Bond angles</th><th scope="col">Example</th><th scope="col">Polar?</th></tr></thead>
+            <tbody>
+              <tr><td class="num">5</td><td class="num">5</td><td class="num">0</td><td>trigonal bipyramidal</td><td>trigonal bipyramidal</td><td>90°, 120° (and 180°)</td><td><span class="chem">PCl5</span></td><td>non-polar</td></tr>
+              <tr><td class="num">5</td><td class="num">4</td><td class="num">1</td><td>trigonal bipyramidal</td><td>seesaw</td><td>less than 90°, less than 120°</td><td><span class="chem">SF4</span></td><td>polar</td></tr>
+              <tr><td class="num">5</td><td class="num">3</td><td class="num">2</td><td>trigonal bipyramidal</td><td>T-shaped</td><td>less than 90°</td><td><span class="chem">ClF3</span></td><td>polar</td></tr>
+              <tr><td class="num">5</td><td class="num">2</td><td class="num">3</td><td>trigonal bipyramidal</td><td>linear</td><td>180°</td><td><span class="chem">XeF2</span>, <span class="chem">I3^-</span></td><td>non-polar (<span class="chem">XeF2</span>)</td></tr>
+              <tr><td class="num">6</td><td class="num">6</td><td class="num">0</td><td>octahedral</td><td>octahedral</td><td>90° (and 180°)</td><td><span class="chem">SF6</span></td><td>non-polar</td></tr>
+              <tr><td class="num">6</td><td class="num">5</td><td class="num">1</td><td>octahedral</td><td>square pyramidal</td><td>less than 90°</td><td><span class="chem">BrF5</span></td><td>polar</td></tr>
+              <tr><td class="num">6</td><td class="num">4</td><td class="num">2</td><td>octahedral</td><td>square planar</td><td>90° (and 180°)</td><td><span class="chem">XeF4</span></td><td>non-polar</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <figure data-s1-widget="s2-2h.vsepr" data-title="Five and six electron domains in 3-D" data-kicker="Model">
+          <p class="widget__fallback">Five domains: trigonal bipyramidal (PCl₅), seesaw (SF₄), T-shaped (ClF₃), linear (XeF₂, I₃⁻). Six domains: octahedral (SF₆), square pyramidal (BrF₅), square planar (XeF₄).</p>
+          <figcaption>Choose a species and predict its shape. Then drag the model to turn it. Dashed lobes with two dots are lone pairs. The model uses ideal angles. Where it says “less than”, lone pairs push the bonds a little closer together. Measured angles are rounded values from experiments.</figcaption>
+        </figure>
+
+        <h3>Polarity of these molecules</h3>
+        <p>Use the same two steps as on the core page. First, are the bonds polar? Second, do the bond dipoles cancel?</p>
+        <ul>
+          <li>No lone pairs and identical outer atoms: the shape is symmetrical, the dipoles cancel, and the molecule is <strong>non-polar</strong>. Examples: <span class="chem">PCl5</span>, <span class="chem">SF6</span>.</li>
+          <li>Lone pairs usually spoil the symmetry, so the molecule is <strong>polar</strong>. Examples: <span class="chem">SF4</span>, <span class="chem">ClF3</span>, <span class="chem">BrF5</span>.</li>
+          <li>Two exceptions: linear <span class="chem">XeF2</span> and square planar <span class="chem">XeF4</span>. Their lone pairs are arranged symmetrically, the bond dipoles cancel, and the molecules are non-polar.</li>
+        </ul>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 2">
+          <h3 class="worked__title">Lewis formula, shape, angle and polarity: a molecule</h3>
+          <div class="worked__problem">
+            <p>For sulfur tetrafluoride, <span class="chem">SF4</span>: deduce the Lewis formula, the electron domain geometry, the molecular geometry, the bond angles and the polarity. (Electronegativity: S 2.6, F 4.0.)</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Count the electrons around sulfur">
+              <p class="worked__why">The number of electron pairs around the central atom decides the shape.</p>
+              <div class="worked__math">S (group 16): 6 electrons;  four F atoms: + 4;  total = 10 electrons = 5 domains</div>
+              <div class="worked__math">4 bonding domains, so 5 − 4 = 1 lone pair on S</div>
+            </li>
+            <li data-title="Draw the Lewis formula">
+              <p class="worked__why">Every valence electron must be shown: 6 + (4 × 7) = 34 electrons = 17 pairs.</p>
+              <div data-s22h-fig="sf4"></div>
+              <p>Four bonds (4 pairs), three lone pairs on each F (12 pairs) and one lone pair on S (1 pair): 17 pairs. Sulfur has 10 electrons, an expanded octet.</p>
+            </li>
+            <li data-title="Name the electron domain geometry">
+              <p class="worked__why">This describes all five domains, lone pair included.</p>
+              <p>Five domains: <strong>trigonal bipyramidal</strong>.</p>
+            </li>
+            <li data-title="Place the lone pair and name the shape">
+              <p class="worked__why">The molecular geometry describes the atoms only. The lone pair goes where repulsion is least.</p>
+              <p>The lone pair is equatorial. The four fluorine atoms make a <strong>seesaw</strong> shape.</p>
+            </li>
+            <li data-title="Give the bond angles">
+              <p class="worked__why">A lone pair repels more than a bonding pair, so it pushes the bonds closer together.</p>
+              <p>Ideal angles are 90° and 120°. In <span class="chem">SF4</span> they are <strong>less than 90° and less than 120°</strong>.</p>
+            </li>
+            <li data-title="Decide the polarity">
+              <p class="worked__why">A molecule is polar when it has polar bonds whose dipoles do not cancel.</p>
+              <p>Each S–F bond is polar (4.0 − 2.6 = 1.4). The seesaw shape is not symmetrical, so the dipoles do not cancel. <span class="chem">SF4</span> is <strong>polar</strong>.</p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Trigonal bipyramidal electron domain geometry; seesaw molecular geometry; angles less than 90° and less than 120°; polar.</p></div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 3">
+          <h3 class="worked__title">Lewis formula, shape and angle: an ion</h3>
+          <div class="worked__problem">
+            <p>For the ion <span class="chem">ICl4-</span>: deduce the Lewis formula, the electron domain geometry, the molecular geometry and the Cl–I–Cl bond angle.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Count the electrons around iodine">
+              <p class="worked__why">Remember the charge. A 1− charge means one extra electron.</p>
+              <div class="worked__math">I (group 17): 7;  four Cl atoms: + 4;  charge 1−: + 1;  total = 12 electrons = 6 domains</div>
+              <div class="worked__math">4 bonding domains, so 6 − 4 = 2 lone pairs on I</div>
+            </li>
+            <li data-title="Draw the Lewis formula">
+              <p class="worked__why">Check the total: 7 + (4 × 7) + 1 = 36 electrons = 18 pairs.</p>
+              <div data-s22h-fig="icl4"></div>
+              <p>Four bonds (4 pairs), three lone pairs on each Cl (12 pairs) and two lone pairs on I (2 pairs): 18 pairs. Brackets and the charge are shown.</p>
+            </li>
+            <li data-title="Name the electron domain geometry">
+              <p class="worked__why">Six domains get as far apart as possible.</p>
+              <p>Six domains: <strong>octahedral</strong>.</p>
+            </li>
+            <li data-title="Place the lone pairs and name the shape">
+              <p class="worked__why">Two lone pairs repel each other most, so they go opposite each other.</p>
+              <p>The lone pairs are 180° apart. The four chlorine atoms lie in one plane: <strong>square planar</strong>.</p>
+            </li>
+            <li data-title="Give the bond angle">
+              <p class="worked__why">The two lone pairs push equally from above and below, so the angles in the plane are not changed.</p>
+              <p>Neighbouring Cl–I–Cl angles are <strong>90°</strong>.</p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Octahedral electron domain geometry; square planar molecular geometry; 90°.</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="3" data-tolerance="0.1" data-label="Lone pairs on Xe">
+          <div class="tryit__q"><p>How many lone pairs are on the xenon atom in <span class="chem">XeF2</span>?</p></div>
+          <ol class="tryit__hints">
+            <li>Xenon is in group 18. How many valence electrons does it have?</li>
+            <li>Two electrons are used in the two Xe–F bonds. Pair up the rest.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">8 − 2 = 6 electrons = <b>3 lone pairs</b></div>
+            <p>Two bonds and three lone pairs make five domains. The three lone pairs are equatorial, so the molecule is linear.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="6" data-tolerance="0.1" data-label="Electron domains">
+          <div class="tryit__q"><p>How many electron domains are around the bromine atom in <span class="chem">BrF5</span>?</p></div>
+          <ol class="tryit__hints">
+            <li>Bromine has 7 valence electrons. Add 1 for each fluorine atom.</li>
+            <li>Divide the total by 2.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">(7 + 5) ÷ 2 = <b>6 domains</b>: 5 bonding and 1 lone pair</div>
+            <p>Octahedral electron domain geometry; square pyramidal molecular geometry.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Do not name the shape from the number of bonds alone. <span class="chem">SF4</span> and <span class="chem">XeF4</span> both have four bonds, but neither is tetrahedral. Always find the lone pairs on the central atom first.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>Electron domain geometry and molecular geometry are separate marks. Read which one is asked. To explain a shape, state the number of bonding domains and lone pairs around the central atom.</p>
+        </aside>
+
+        <aside class="callout callout--booklet">
+          <p>The data booklet has no table of shapes or angles. You need to know the seven names and the ideal angles 90°, 120° and 180°.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>You do not need seven electron domains (such as <span class="chem">IF7</span>), exact measured angles for the distorted shapes, or a hybridization label for a five- or six-domain atom. sp<sup>3</sup>d and sp<sup>3</sup>d<sup>2</sup> are not in the IB course.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-2h" data-syllabus="Structure 2.2.13" data-count="5" data-title="Expanded octets and shapes: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.2.14 -->
+      <section class="topic-section" id="formal" data-toc="Formal charge">
+        <span class="section-code">Structure 2.2.14</span>
+        <h2>Formal charge</h2>
+
+        <p>Sometimes you can draw two or more correct-looking Lewis formulas that are not resonance structures of equal value. Carbon dioxide can be drawn as O=C=O or as O≡C–O. Which one is better? Formal charge gives a way to decide.</p>
+        <p><dfn data-def="The charge an atom would have in a Lewis formula if the electrons in every bond were shared exactly equally.">Formal charge</dfn> is a way of counting. Pretend that every bond is shared exactly equally. Then compare the electrons each atom “owns” in the drawing with the electrons it has as a free atom.</p>
+
+        <div class="eq">
+          <div class="eq__formula">FC = <i>V</i> − <i>N</i> − ½<i>B</i></div>
+          <dl class="eq__legend">
+            <div><dt>FC</dt><dd>formal charge of the atom (no unit; write the sign)</dd></div>
+            <div><dt>V</dt><dd>number of valence electrons of the free atom</dd></div>
+            <div><dt>N</dt><dd>number of non-bonding electrons on the atom (2 for each lone pair)</dd></div>
+            <div><dt>B</dt><dd>number of bonding electrons around the atom (2 for each line)</dd></div>
+          </dl>
+        </div>
+
+        <h3>Method: calculate, then choose</h3>
+        <ol>
+          <li>Draw each possible Lewis formula with all its lone pairs.</li>
+          <li>For each atom, find <i>V</i> from its group, count <i>N</i> (dots on that atom) and count <i>B</i> (2 for a single bond, 4 for a double bond, 6 for a triple bond).</li>
+          <li>Calculate FC = <i>V</i> − <i>N</i> − ½<i>B</i> for every atom.</li>
+          <li>Check: the formal charges must add up to the overall charge of the species.</li>
+          <li>Prefer the formula whose formal charges are <strong>closest to zero</strong>.</li>
+          <li>If two formulas are equal on that test, prefer the one with the negative formal charge on the <strong>more electronegative</strong> atom.</li>
+        </ol>
+
+        <figure data-s1-widget="s2-2h.fc-calc" data-title="Formal charge trainer">
+          <p class="widget__fallback">Example: in O=C=O each oxygen has V = 6, N = 4, B = 4, so FC = 6 − 4 − 2 = 0. Carbon has V = 4, N = 0, B = 8, so FC = 4 − 0 − 4 = 0.</p>
+          <figcaption>Choose a Lewis formula and an atom. Enter V, N and B, then the formal charge. Each atom you solve gets its charge drawn in a small circle. A formal charge of 0 is not drawn.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 4">
+          <h3 class="worked__title">Formal charges and the preferred Lewis formula</h3>
+          <div class="worked__problem">
+            <p>Three Lewis formulas can be drawn for the thiocyanate ion, <span class="chem">SCN-</span>. Deduce which is preferred. (Electronegativity: N 3.0, S 2.6.)</p>
+            <div data-s22h-fig="scn-abc"></div>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Formal charges in A">
+              <p class="worked__why">A has two double bonds. N and S each have two lone pairs (N = 4) and four bonding electrons.</p>
+              <div class="worked__math">N: 5 − 4 − ½(4) = −1;  C: 4 − 0 − ½(8) = 0;  S: 6 − 4 − ½(4) = 0</div>
+            </li>
+            <li data-title="Formal charges in B">
+              <p class="worked__why">B has N≡C and C–S. N has one lone pair; S has three.</p>
+              <div class="worked__math">N: 5 − 2 − ½(6) = 0;  C: 4 − 0 − ½(8) = 0;  S: 6 − 6 − ½(2) = −1</div>
+            </li>
+            <li data-title="Formal charges in C">
+              <p class="worked__why">C has N–C and C≡S. N has three lone pairs; S has one.</p>
+              <div class="worked__math">N: 5 − 6 − ½(2) = −2;  C: 4 − 0 − ½(8) = 0;  S: 6 − 2 − ½(6) = +1</div>
+            </li>
+            <li data-title="Check the totals" data-label="Check">
+              <p class="worked__why">Each set must add up to the charge on the ion, 1−.</p>
+              <div class="worked__math">A: −1 + 0 + 0 = −1;  B: 0 + 0 − 1 = −1;  C: −2 + 0 + 1 = −1</div>
+            </li>
+            <li data-title="Choose">
+              <p class="worked__why">First find charges closest to zero. Then look at where the negative charge is.</p>
+              <p>C has the largest charges, so reject it. A and B each have one −1. In A the −1 is on nitrogen, which is more electronegative than sulfur. <strong>A is preferred.</strong></p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>A is the preferred Lewis formula: formal charges −1 (N), 0 (C), 0 (S).</p></div>
+        </div>
+
+        <figure data-s1-widget="s2-2h.fc-choose" data-title="Choose the preferred Lewis formula">
+          <p class="widget__fallback">Carbon dioxide: O=C=O (all formal charges 0) is preferred to O≡C–O (+1, 0, −1). Sulfate: the formula with two S=O bonds (S 0) is preferred by formal charge to the one with four single bonds (S +2).</p>
+          <figcaption>Decide first, then press “Show formal charges” to check your working. The list under each drawing gives the atoms in the order they were drawn: left to right, or central atom first.</figcaption>
+        </figure>
+
+        <h3>Sulfate: the classic case</h3>
+        <figure class="s22h-figure">
+          <div data-s22h-fig="so4-ab"></div>
+          <figcaption>Two Lewis formulas for the sulfate ion, with formal charges circled. In A, sulfur keeps an octet but has formal charge +2. In B, sulfur has an expanded octet and formal charge 0. Formal charge prefers B.</figcaption>
+        </figure>
+        <p>Formula B has several resonance structures, because the two double bonds can go to any two of the four oxygen atoms. So all four sulfur–oxygen bonds in the real ion are equal.</p>
+
+        <aside class="callout callout--mistake">
+          <p>Formal charge is not oxidation state. In the chlorate ion drawn with three single bonds, chlorine has formal charge +2 but oxidation state +5. Formal charge shares each bond equally. Oxidation state gives all the bonding electrons to the more electronegative atom.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>For “which formula is preferred?”, show the formal charges and then write the reason: “formal charges closest to zero” or “negative formal charge on the more electronegative atom”. If a question only asks for a Lewis formula of a species such as <span class="chem">SO2</span> or <span class="chem">SO4^2-</span>, both the octet version and the expanded-octet version are normally accepted.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="1" data-tolerance="0.1" data-label="Formal charge (with sign)">
+          <div class="tryit__q"><p>In one Lewis formula of ozone, the central oxygen atom has one lone pair, one double bond and one single bond. Calculate the formal charge on the central oxygen atom.</p></div>
+          <ol class="tryit__hints">
+            <li>Oxygen is in group 16, so <i>V</i> = 6. One lone pair gives <i>N</i> = 2.</li>
+            <li>A double bond and a single bond contain 4 + 2 = 6 bonding electrons.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">FC = 6 − 2 − ½(6) = <b>+1</b></div>
+            <p>The single-bonded oxygen has 6 − 6 − ½(2) = −1 and the double-bonded oxygen has 0. The total is 0, as it must be for a molecule.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="-1" data-tolerance="0.1" data-label="Formal charge (with sign)">
+          <div class="tryit__q"><p>In the Lewis formula of carbon monoxide, C≡O, each atom has one lone pair. Calculate the formal charge on the carbon atom.</p></div>
+          <ol class="tryit__hints">
+            <li>Carbon is in group 14, so <i>V</i> = 4. One lone pair gives <i>N</i> = 2.</li>
+            <li>A triple bond contains 6 bonding electrons.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">FC(C) = 4 − 2 − ½(6) = <b>−1</b></div>
+            <div class="worked__math">FC(O) = 6 − 2 − ½(6) = +1</div>
+            <p>The total is 0. This is an unusual case: the octet rule matters more here than the formal charges.</p>
+          </div>
+        </div>
+
+        <div data-s1-quiz data-topic="s2-2h" data-syllabus="Structure 2.2.14" data-count="4" data-title="Formal charge: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.2.15 -->
+      <section class="topic-section" id="sigma-pi" data-toc="Sigma and pi bonds">
+        <span class="section-code">Structure 2.2.15</span>
+        <h2>Sigma (σ) and pi (π) bonds</h2>
+
+        <p>So far a covalent bond has been a line or a pair of dots. Now look closer. A covalent bond forms when an atomic orbital of one atom overlaps with an atomic orbital of another atom. The shared electrons are in the region where the orbitals overlap.</p>
+        <p>Orbitals can overlap in two ways. The line through the two nuclei is called the <dfn>bond axis</dfn>.</p>
+        <ul>
+          <li>A <dfn data-def="A bond formed by the head-on combination of atomic orbitals. The electron density is concentrated along the bond axis.">sigma bond (σ)</dfn> forms by the <strong>head-on</strong> combination of atomic orbitals. The electron density is concentrated <strong>along the bond axis</strong>, between the two nuclei.</li>
+          <li>A <dfn data-def="A bond formed by the lateral (sideways) combination of p orbitals. The electron density is concentrated on opposite sides of the bond axis.">pi bond (π)</dfn> forms by the <strong>lateral</strong> (sideways) combination of <strong>p orbitals</strong>. The electron density is concentrated on <strong>opposite sides of the bond axis</strong>.</li>
+        </ul>
+
+        <figure data-s1-widget="s2-2h.overlap" data-title="Head-on and sideways overlap" data-kicker="Model">
+          <p class="widget__fallback">Head-on overlap of two orbitals on the bond axis gives a sigma bond. Sideways overlap of two parallel p orbitals gives a pi bond, with electron density above and below the bond axis.</p>
+          <figcaption>Choose two orbitals and move the atoms together. The shaded region is where the orbitals overlap. These are simple outline sketches of orbital shapes, not exact electron density maps. Hybrid orbitals (next section) also overlap head-on to make σ bonds.</figcaption>
+        </figure>
+
+        <h3>Single, double and triple bonds</h3>
+        <p>Two atoms can make only one head-on overlap, so there is only one σ bond between any two atoms. Any further bonds between the same two atoms must be π bonds.</p>
+
+        <figure class="s22h-figure">
+          <div data-s22h-fig="triple"></div>
+          <figcaption>Solid line: σ bond. Dashed line: π bond. A single bond is one σ bond. A double bond is one σ and one π. A triple bond is one σ and two π.</figcaption>
+        </figure>
+
+        <p>Sideways overlap is less effective than head-on overlap. So a π bond is weaker than a σ bond between the same atoms. This fits the data booklet: C=C (614 <span class="unit">kJ mol-1</span>) is stronger than C–C (346 <span class="unit">kJ mol-1</span>), but it is not twice as strong.</p>
+
+        <h3>Method: counting σ and π bonds</h3>
+        <ol>
+          <li>Draw the full structural formula. Show every bond, including every C–H bond.</li>
+          <li>σ bonds: count one for every pair of atoms that are joined, whatever the bond is.</li>
+          <li>π bonds: count one for each double bond and two for each triple bond.</li>
+          <li>For a species with resonance, count using one resonance structure.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 5">
+          <h3 class="worked__title">Counting σ and π bonds</h3>
+          <div class="worked__problem">
+            <p>Deduce the number of σ bonds and π bonds in one molecule of propenoic acid, <span class="chem">CH2=CH–COOH</span>.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Draw every bond">
+              <p class="worked__why">A condensed formula hides the C–H and O–H bonds. You cannot count what you cannot see.</p>
+              <div data-s22h-fig="propenoic"></div>
+            </li>
+            <li data-title="Count the single bonds">
+              <p class="worked__why">Every single bond is one σ bond.</p>
+              <div class="worked__math">C–H: 3;  C–C: 1;  C–O: 1;  O–H: 1;  total 6 single bonds</div>
+            </li>
+            <li data-title="Count the multiple bonds">
+              <p class="worked__why">Each double bond is one σ bond and one π bond.</p>
+              <div class="worked__math">C=C: 1;  C=O: 1;  total 2 double bonds</div>
+            </li>
+            <li data-title="Add up">
+              <p class="worked__why">σ comes from every bond. π comes only from the multiple bonds.</p>
+              <div class="worked__math">σ = 6 + 2 = <b>8</b></div>
+              <div class="worked__math">π = <b>2</b></div>
+            </li>
+            <li data-title="Check" data-label="Check">
+              <p class="worked__why">A molecule with no ring has one σ bond fewer than its number of atoms.</p>
+              <div class="worked__math">C<sub>3</sub>H<sub>4</sub>O<sub>2</sub> has 3 + 4 + 2 = 9 atoms;  9 − 1 = 8 σ bonds</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>8 σ bonds and 2 π bonds.</p></div>
+        </div>
+
+        <figure data-s1-widget="s2-2h.sigmapi" data-title="σ and π counter">
+          <p class="widget__fallback">Examples: ethene has 5 σ and 1 π. Ethyne has 3 σ and 2 π. Carbon dioxide has 2 σ and 2 π. Benzene (one resonance structure) has 12 σ and 3 π.</p>
+          <figcaption>Count the σ bonds and the π bonds, then check. Organic and inorganic examples are included.</figcaption>
+        </figure>
+
+        <div data-s1-numeric data-answer="8" data-tolerance="0.1" data-label="Number of σ bonds">
+          <div class="tryit__q"><p>How many σ bonds are there in one molecule of propene, <span class="chem">CH2=CH–CH3</span>?</p></div>
+          <ol class="tryit__hints">
+            <li>Draw all six C–H bonds.</li>
+            <li>Add the C–C single bond and the one σ bond inside C=C.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">C–H: 6;  C–C: 1;  C=C: 1 σ;  total = <b>8 σ bonds</b> (and 1 π bond)</div>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="3" data-tolerance="0.1" data-label="Number of π bonds">
+          <div class="tryit__q"><p>How many π bonds are there in one molecule of <span class="chem">HC≡C–CH=CH2</span>?</p></div>
+          <ol class="tryit__hints">
+            <li>Find the multiple bonds: one triple bond and one double bond.</li>
+            <li>A triple bond has two π bonds. A double bond has one.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">C≡C: 2 π;  C=C: 1 π;  total = <b>3 π bonds</b></div>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>A π bond is drawn with two regions, one above and one below the bond axis. Together they are <strong>one</strong> π bond holding two electrons. Do not count them as two bonds.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>For σ write “head-on (end-to-end) overlap” and “electron density along the bond axis”. For π write “sideways (lateral) overlap of p orbitals” and “electron density above and below the bond axis”. When counting, the most common lost mark is forgetting the C–H bonds.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>You do not need molecular orbital theory: no bonding and antibonding orbitals, no σ* or π*, and no energy-level diagrams for molecules. Describe bonds as the overlap of atomic orbitals.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-2h" data-syllabus="Structure 2.2.15" data-count="4" data-title="Sigma and pi bonds: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.2.16 -->
+      <section class="topic-section" id="hybridization" data-toc="Hybridization">
+        <span class="section-code">Structure 2.2.16</span>
+        <h2>Hybridization</h2>
+
+        <p>Carbon has the configuration <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>2</sup></span>. Its valence orbitals are one 2s orbital and three 2p orbitals. They have different shapes and different energies. Yet in methane the four C–H bonds are identical and point to the corners of a tetrahedron.</p>
+        <p>The model that explains this is <dfn data-def="The mixing of atomic orbitals to form new hybrid orbitals for bonding.">hybridization</dfn>: the mixing of atomic orbitals to form new <dfn>hybrid orbitals</dfn> for bonding.</p>
+        <p>Think of mixing paint. One tin of red and three tins of white make four tins of the same pink. In the same way, one s orbital and three p orbitals make four identical hybrid orbitals. The number of orbitals does not change.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The three types of hybridization you need</caption>
+            <thead><tr><th scope="col" class="num">Electron domains</th><th scope="col">Orbitals mixed</th><th scope="col">Hybridization</th><th scope="col">p orbitals left unmixed</th><th scope="col">Electron domain geometry</th><th scope="col">Examples</th></tr></thead>
+            <tbody>
+              <tr><td class="num">4</td><td>one s + three p</td><td>sp<sup>3</sup> (four hybrid orbitals)</td><td>0</td><td>tetrahedral, 109.5°</td><td>C in <span class="chem">CH4</span> and ethane; N in <span class="chem">NH3</span>; O in <span class="chem">H2O</span></td></tr>
+              <tr><td class="num">3</td><td>one s + two p</td><td>sp<sup>2</sup> (three hybrid orbitals)</td><td>1</td><td>trigonal planar, 120°</td><td>C in ethene, benzene and methanal; B in <span class="chem">BF3</span></td></tr>
+              <tr><td class="num">2</td><td>one s + one p</td><td>sp (two hybrid orbitals)</td><td>2</td><td>linear, 180°</td><td>C in ethyne, <span class="chem">CO2</span> and <span class="chem">HCN</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <aside class="callout callout--key">
+          <p>Count the electron domains around the atom. 4 domains → sp<sup>3</sup>. 3 domains → sp<sup>2</sup>. 2 domains → sp. The superscripts add up to one less than the number of domains.</p>
+        </aside>
+
+        <h3>What the orbitals do</h3>
+        <ul>
+          <li><strong>Hybrid orbitals</strong> point at the neighbouring atoms. They form σ bonds by head-on overlap, or they hold lone pairs.</li>
+          <li><strong>Unmixed p orbitals</strong> stand at right angles to the hybrid orbitals. They form π bonds by sideways overlap.</li>
+        </ul>
+        <p>Look at ethene, <span class="chem">CH2=CH2</span>. Each carbon has three domains, so it is sp<sup>2</sup>. Two sp<sup>2</sup> orbitals overlap with hydrogen 1s orbitals to make C–H σ bonds. The third overlaps with an sp<sup>2</sup> orbital of the other carbon to make the C–C σ bond. Each carbon has one unmixed p orbital. These two overlap sideways to make the π bond.</p>
+        <p>In ethyne, <span class="chem">HC≡CH</span>, each carbon has two domains, so it is sp. Each carbon has two unmixed p orbitals, which make the two π bonds of the triple bond.</p>
+
+        <figure data-s1-widget="s2-2h.hybrid" data-title="Hybridization explorer" data-kicker="Model">
+          <p class="widget__fallback">Ethene: each carbon has three electron domains, so it is sp² hybridized and trigonal planar. One s orbital and two p orbitals mix to give three sp² hybrid orbitals. One p orbital is left to form the π bond.</p>
+          <figcaption>Choose a molecule, then an atom. The chain of reasoning is domains → hybridization → geometry. The energy diagram is a simple model: the orbitals mix, and the atom's valence electrons are shared out among the new orbitals. Hybrid orbitals have an energy between s and p.</figcaption>
+        </figure>
+
+        <h3>Lone pairs count</h3>
+        <p>Nitrogen in ammonia has three bonds and one lone pair. That is four domains, so nitrogen is sp<sup>3</sup>. The lone pair sits in one of the four sp<sup>3</sup> orbitals. The <em>electron domain geometry</em> is tetrahedral, and the molecular geometry is trigonal pyramidal.</p>
+        <p>The same rule works for outer atoms. Each oxygen in O=C=O has one double bond and two lone pairs: three domains, so sp<sup>2</sup>.</p>
+
+        <h3>Both directions</h3>
+        <p>You must be able to go from structure to hybridization, and back.</p>
+        <ul>
+          <li>Lewis formula → count domains → electron domain geometry → hybridization.</li>
+          <li>Hybridization → geometry. An sp<sup>2</sup> atom has its bonds at about 120° in one plane. An sp atom has its bonds at 180°. An sp<sup>3</sup> atom has its domains at about 109.5°.</li>
+        </ul>
+        <p>This connects to the carbon allotropes on the core page. Each carbon in diamond has four single bonds and is sp<sup>3</sup>. Each carbon in graphite and graphene has three σ bonds and is sp<sup>2</sup>. The unmixed p orbitals overlap across the whole layer, which gives the delocalized electrons that conduct electricity.</p>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 6">
+          <h3 class="worked__title">Hybridization of each atom in a molecule</h3>
+          <div class="worked__problem">
+            <p>Deduce the hybridization of both carbon atoms and both oxygen atoms in ethanoic acid, <span class="chem">CH3COOH</span>.</p>
+            <div data-s22h-fig="ethanoic"></div>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="The CH3 carbon">
+              <p class="worked__why">Count what is around the atom: bonded atoms plus lone pairs.</p>
+              <p>Bonded to 3 H and 1 C, no lone pairs: 4 domains → <strong>sp<sup>3</sup></strong> (tetrahedral, 109.5°).</p>
+            </li>
+            <li data-title="The COOH carbon">
+              <p class="worked__why">A double bond is one domain, not two.</p>
+              <p>Bonded to C, O (double bond) and O (single bond), no lone pairs: 3 domains → <strong>sp<sup>2</sup></strong> (trigonal planar, 120°).</p>
+            </li>
+            <li data-title="The C=O oxygen">
+              <p class="worked__why">Lone pairs are domains too.</p>
+              <p>1 bonded atom + 2 lone pairs: 3 domains → <strong>sp<sup>2</sup></strong>.</p>
+            </li>
+            <li data-title="The O–H oxygen">
+              <p class="worked__why">This oxygen is like the oxygen in water.</p>
+              <p>2 bonded atoms + 2 lone pairs: 4 domains → <strong>sp<sup>3</sup></strong>. The C–O–H angle is less than 109.5°.</p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>CH<sub>3</sub> carbon sp<sup>3</sup>; COOH carbon sp<sup>2</sup>; C=O oxygen sp<sup>2</sup>; O–H oxygen sp<sup>3</sup>.</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="2" data-tolerance="0.1" data-label="Number of sp² carbon atoms">
+          <div class="tryit__q"><p>How many of the three carbon atoms in propene, <span class="chem">CH2=CH–CH3</span>, are sp<sup>2</sup> hybridized?</p></div>
+          <ol class="tryit__hints">
+            <li>sp<sup>2</sup> means three electron domains.</li>
+            <li>Count the atoms joined to each carbon. Which carbons are part of the double bond?</li>
+          </ol>
+          <div class="tryit__solution">
+            <p>The two carbons of the C=C bond each have three domains: sp<sup>2</sup>. The <span class="chem">CH3</span> carbon has four domains: sp<sup>3</sup>. Answer: <strong>2</strong>.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Do not read hybridization from the number of bonds. Nitrogen in <span class="chem">NH3</span> has three bonds but four domains (sp<sup>3</sup>). Carbon in <span class="chem">CO2</span> has four bonds but two domains (sp). Count domains.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>A typical question labels three atoms in a molecule and asks for the hybridization of each. Work on one atom at a time. Draw in any lone pairs and hidden hydrogen atoms before you count.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>Only sp, sp<sup>2</sup> and sp<sup>3</sup> are needed. You do not need hybrid orbitals that use d orbitals, percentage “s character”, or drawings of hybrid orbital shapes with phases.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-2h" data-syllabus="Structure 2.2.16" data-count="4" data-title="Hybridization: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.2.3 AHL rider -->
+      <section class="topic-section" id="complexes" data-toc="Coordination bonds in complexes">
+        <span class="section-code">Structure 2.2.3 (HL part)</span>
+        <h2>Coordination bonds in transition element complexes</h2>
+
+        <p>From the core page: a <dfn data-def="A covalent bond in which both electrons of the shared pair originate from the same atom.">coordination bond</dfn> is a covalent bond in which both electrons of the shared pair come from the same atom. The ammonium ion and carbon monoxide are examples.</p>
+        <p>At HL you also need to find coordination bonds in <dfn>complex ions</dfn> of transition elements. A complex ion has a metal ion in the centre. Around it are molecules or ions called <dfn>ligands</dfn>. Each ligand has a lone pair, which it donates to the metal ion.</p>
+        <p>So every bond between a ligand and the central metal ion is a coordination bond. Both electrons come from the ligand.</p>
+
+        <figure data-s1-widget="s2-2h.complex" data-title="Coordination bonds in a complex ion" data-kicker="Flat sketch">
+          <p class="widget__fallback">In the complex ion [Cu(H₂O)₆]²⁺, six water molecules each donate a lone pair from oxygen to the central Cu²⁺ ion. There are six coordination bonds.</p>
+          <figcaption>Each arrow is a coordination bond. It points from the atom that gives the electron pair (oxygen) to the atom that accepts it (copper). Only the donated lone pair of each water molecule is shown. The sketch is flat and does not show the real three-dimensional shape.</figcaption>
+        </figure>
+
+        <div data-s1-numeric data-answer="6" data-tolerance="0.1" data-label="Coordination bonds">
+          <div class="tryit__q"><p>How many coordination bonds are there in the complex ion <span class="chem">[Cu(NH3)4(H2O)2]^2+</span>?</p></div>
+          <ol class="tryit__hints">
+            <li>Count the ligands joined to the copper ion.</li>
+            <li>Each ammonia molecule and each water molecule donates one lone pair.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">4 (from NH<sub>3</sub>) + 2 (from H<sub>2</sub>O) = <b>6 coordination bonds</b></div>
+            <p>The N–H and O–H bonds inside the ligands are ordinary covalent bonds.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--scope">
+          <p>For this topic you only identify the coordination bonds. Names of complex ions, their shapes, and terms such as “bidentate” are not in the IB course. The properties and colour of transition element complexes come later in Structure 3.1. Complex ions as Lewis acid–base products, and their charges, come in Reactivity 3.4.</p>
+        </aside>
+      </section>
+
+      <!-- ============================================================ CHAIN -->
+      <section class="topic-section" id="chain" data-toc="Putting it together">
+        <h2>Putting it together: a Paper 2 chain</h2>
+        <p>Longer questions ask several of these skills about one species. Each part uses the same Lewis formula, so draw it carefully at the start.</p>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 7">
+          <h3 class="worked__title">One ion, five questions</h3>
+          <div class="worked__problem">
+            <p>The ethanoate ion, <span class="chem">CH3COO-</span>, forms when ethanoic acid loses <span class="chem">H+</span>.</p>
+            <p>(a) Draw the two resonance structures of the ion. (b) Explain why its two carbon–oxygen bonds have the same length. (c) Calculate the formal charge on each oxygen atom in one resonance structure. (d) Deduce the number of σ and π bonds in the ion. (e) Deduce the hybridization of each carbon atom and the O–C–O bond angle.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="(a) Resonance structures">
+              <p class="worked__why">The C=O double bond can be drawn to either oxygen atom. Nothing else moves.</p>
+              <div data-s22h-fig="ethanoate-res"></div>
+            </li>
+            <li data-title="(b) Equal bond lengths">
+              <p class="worked__why">Use the key word. Say what is delocalized and over which atoms.</p>
+              <p>The π electrons are delocalized over the carbon atom and both oxygen atoms. So the two carbon–oxygen bonds are identical, with a length between C–O (143 pm) and C=O (122 pm).</p>
+            </li>
+            <li data-title="(c) Formal charges">
+              <p class="worked__why">Use FC = V − N − ½B for each oxygen in the first structure.</p>
+              <div class="worked__math">O in C=O: 6 − 4 − ½(4) = 0</div>
+              <div class="worked__math">O in C–O: 6 − 6 − ½(2) = −1</div>
+              <p>All the other atoms are 0, so the total is −1, the charge on the ion.</p>
+            </li>
+            <li data-title="(d) σ and π bonds">
+              <p class="worked__why">Count using one resonance structure. Include the three C–H bonds.</p>
+              <div class="worked__math">σ: C–H 3;  C–C 1;  C=O 1;  C–O 1;  total <b>6</b></div>
+              <div class="worked__math">π: C=O 1;  total <b>1</b></div>
+            </li>
+            <li data-title="(e) Hybridization and angle">
+              <p class="worked__why">Count the electron domains around each carbon.</p>
+              <p>CH<sub>3</sub> carbon: 4 domains → sp<sup>3</sup>. COO carbon: 3 domains → sp<sup>2</sup>, trigonal planar, so the O–C–O angle is about <strong>120°</strong>.</p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Two resonance structures; delocalized π electrons give equal C–O bonds; formal charges 0 and −1; 6 σ and 1 π; sp<sup>3</sup> and sp<sup>2</sup>, about 120°.</p></div>
+        </div>
+      </section>
+
+      <!-- ============================================================ LINKS -->
+      <section class="topic-section" id="links">
+        <h2>Linking it up</h2>
+        <p>The syllabus asks questions that connect this topic to others. Here are short answers to four of them.</p>
+
+        <h3>Why are oxygen and ozone dissociated by different wavelengths of light?</h3>
+        <p><span class="chem">O2</span> has a double bond. In ozone, delocalization makes both bonds intermediate between single and double, so they are weaker. A weaker bond needs less energy to break. Light of lower energy has a longer wavelength (Structure 1.3). So ozone is broken by longer wavelengths of ultraviolet light than oxygen is.</p>
+
+        <h3>How does the resonance energy in benzene explain its relative unreactivity?</h3>
+        <p>Delocalization makes benzene about 152 <span class="unit">kJ mol-1</span> more stable than a ring with three separate C=C bonds. This extra stability is called the resonance energy. An addition reaction would destroy the delocalized ring and lose that stability. So benzene does not readily undergo addition. Substitution keeps the ring. You will study this in Reactivity 3.4.</p>
+
+        <h3>How does the ability of some atoms to expand their octet relate to their position in the periodic table?</h3>
+        <p>Atoms in period 2 never have more than eight valence electrons, because their valence shell is the second main energy level. Atoms in period 3 and below have a larger valence shell that can hold more than eight electrons. So expanded octets are found for elements such as P, S, Cl, Br, I and Xe (Structure 3.1).</p>
+
+        <h3>What are the different assumptions made in the calculation of formal charge and of oxidation states?</h3>
+        <p>Formal charge assumes that the electrons in every bond are shared equally. It treats the bonding as purely covalent. Oxidation state assumes that the electrons in every bond belong completely to the more electronegative atom. It treats the bonding as purely ionic. Real bonds are between these two extremes. You will use oxidation states in Structure 3.1 and Reactivity 3.2.</p>
+      </section>
+
+      <!-- ============================================================ PRACTICE -->
+      <section class="topic-section" id="practice">
+        <h2>Exam-style practice</h2>
+        <p>Three sets, from first steps to stretch. Every question here is Additional HL. You get feedback after each question, and questions you have not yet answered correctly come up first.</p>
+        <div data-s1-quiz data-topic="s2-2h" data-tier="foundation" data-count="6" data-title="2.2 HL Foundation: one idea at a time"></div>
+        <div data-s1-quiz data-topic="s2-2h" data-tier="exam" data-count="8" data-title="2.2 HL Exam standard"></div>
+        <div data-s1-quiz data-topic="s2-2h" data-tier="challenge" data-count="5" data-title="2.2 HL Challenge"></div>
+        <p>For Lewis formulas, shapes of smaller molecules, polarity and intermolecular forces, go back to <a href="s2-2.html">2.2 The covalent model</a>.</p>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../assets/js/mol.js"></script>
+<script src="../data/questions-s2-2h.js"></script>
+<script src="../assets/js/widgets-s2-2h.js"></script>
+</body>
+</html>

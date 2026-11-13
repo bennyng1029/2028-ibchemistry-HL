@@ -5,7 +5,7 @@ S1.i18n.register('zh-Hant', 'home', {
   "strings": {
     "Structure Lab: IB Chemistry, the Structure theme": "Structure Lab：IB 化學 Structure（結構）主題",
     "IB Chemistry · Structure 1, 2 and 3": "IB 化學 · Structure 1、2 和 3",
-    "What matter is made of, and how it holds together": "物質由甚麼組成，又怎樣結合",
+    "What matter is made of, and how it holds together": "物質由甚麼組成、怎樣結合",
     "Half of IB Chemistry is the Structure theme: what particles are, how they bond, and how we sort substances into families. This site takes you through it one short topic at a time, with every calculation worked through and plenty of questions to check yourself.": "IB 化學有一半內容屬於 Structure（結構）主題：粒子是甚麼、粒子怎樣鍵合，以及怎樣把物質分類。本網站把內容分成多個短課題，帶你逐一學習。每一題計算都有完整步驟，還有大量題目讓你檢查自己是否明白。",
     "Structure 1, 2 and 3": "Structure 1、2 和 3",
     "Levels covered": "涵蓋程度",

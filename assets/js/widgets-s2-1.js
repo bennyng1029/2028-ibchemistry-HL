@@ -216,7 +216,7 @@
         '<span><i class="e"></i> ' + t('electron') + '</span>' +
         (ion.q > 0 ? '<span><i class="e e--lost"></i> ' + t('electron lost') + '</span>' : '<span><i class="e e--gained"></i> ' + t('electron gained') + '</span>') }));
       setIon(ionHTML(e.s, ion.q) + ' ' + cfgHTML(rows));
-      setCharge(t('{p} protons and {n} electrons, so the charge is {q}', { p: e.z, n: nE, q: '<b>' + chargeText(ion.q) + '</b>' }));
+      setCharge(t('{p} protons and {n} electrons, so the charge is {q}', { p: e.z, n: nE, q: '<b>' + Math.abs(ion.q) + (ion.q > 0 ? '+' : MINUS) + '</b>' }));
       var noble = NOBLE[nE] && !e.tm ? NOBLE[nE] : null;
       var words = ion.q > 0 ?
         t('A metal atom loses electrons and becomes a positive ion (a cation).') :
@@ -397,11 +397,11 @@
     }
     var state = { n: 4, lines: true };
     function spec() {
-      var n = state.n, atoms = [], bonds = [], idx = {}, x, y, z, off = (n - 1) / 2;
+      var n = state.n, atoms = [], bonds = [], idx = {}, x, y, z, off = (n - 1) / 2, d = 1.45;   /* spacing in viewer units: wide, so you can see inside */
       for (x = 0; x < n; x++) for (y = 0; y < n; y++) for (z = 0; z < n; z++) {
         var na = (x + y + z) % 2 === 0;
         idx[x + ',' + y + ',' + z] = atoms.length;
-        atoms.push({ el: na ? 'Na' : 'Cl', label: na ? 'Na⁺' : 'Cl⁻', x: x - off, y: y - off, z: z - off });
+        atoms.push({ el: na ? 'Na' : 'Cl', label: na ? 'Na⁺' : 'Cl⁻', x: (x - off) * d, y: (y - off) * d, z: (z - off) * d });
       }
       if (state.lines) {
         for (x = 0; x < n; x++) for (y = 0; y < n; y++) for (z = 0; z < n; z++) {

@@ -160,12 +160,13 @@ confuse her, add one short sentence. Standard wording for the notes:
 | common mistake | 常見錯誤 | | 慣 |
 | exam tip | 考試提示 | | 慣 |
 | key idea | 重點概念 | | 慣 |
-| why (label) | 為甚麼 | 甚麼, not 什麼. | 慣 |
+| why (label on a worked step) | 原因 | The site adds 「：」 after it. | 慣 |
 | not needed for IB | IB 不要求 | "Beyond the syllabus" box. | 慣 |
 | in your data booklet | 數據手冊已提供 | | 慣 |
 | data booklet | 數據手冊 | IB document. Not 資料手冊 (TW). | P (data 數據) |
 | foundation (tier) | 基礎 | | 慣 |
-| exam standard / exam style (tier) | 考試程度 | One name for the middle tier. | 慣 |
+| exam style (tier) | 考試題型 | The middle difficulty tier. | 慣 |
+| exam standard (section title) | 考試程度 | | 慣 |
 | challenge (tier) | 挑戰 | | 慣 |
 | difficulty | 難度 | | 慣 |
 | level (SL / HL) | 程度 | HK school word for level of study. | 慣 |
@@ -214,7 +215,7 @@ confuse her, add one short sentence. Standard wording for the notes:
 | checklist | 清單 | "What you need to be able to do" = 你要做得到的事. | 慣 |
 | tick (verb) | 剔選 | HK word. | 慣 |
 | weight (of a paper) | 比重 | | 慣 |
-| scientific investigation (IA) | 科學探究 | Give the English once. | C (探究) |
+| scientific investigation (IA) | 科學探究 | In running text give the English once. In the narrow exam table use the Chinese alone (the English wraps badly at phone width). | C (探究) |
 | calculator | 計算機 | | 慣 |
 | interactive (widget) | 互動工具 | Short label: 互動. | 慣 |
 | 3-D model | 立體模型 | | C (立體) |

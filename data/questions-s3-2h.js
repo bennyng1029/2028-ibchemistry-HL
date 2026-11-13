@@ -289,7 +289,7 @@
       3: 'The chlorine atoms are <i>trans</i>, but count the ring carbons. This ring has four corners, so it is a cyclobutane.'
     },
     hints: ['Check the ring size first. Cyclopropane has three carbon atoms.', '<i>Trans</i> means the two chlorine atoms are on opposite faces of the ring: one in front, one behind.'],
-    solution: '<p>1,2-dichlorocyclopropane has a three-membered ring with one Cl on each of two ring carbons. In the <i>trans</i> isomer one Cl is in front of the ring (solid wedge) and the other is behind it (hashed wedge).</p><p>The ring cannot rotate about its C–C bonds, so the <i>cis</i> and <i>trans</i> forms are different molecules.</p>'
+    solution: '<p>1,2-dichlorocyclopropane has a three-membered ring with one Cl on each of two ring carbons. In the <i>trans</i> isomer one Cl is in front of the ring (solid wedge) and the other is behind it (hashed wedge).</p><p>The ring stops rotation about its carbon–carbon bonds, so the <i>cis</i> and <i>trans</i> forms are different molecules.</p>'
   },
   {
     id: 's3-2h-q006', level: 'ahl', tier: 'foundation', type: 'mcq', marks: 1,

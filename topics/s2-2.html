@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2.2 The covalent model | Structure Lab</title>
+<meta name="description" content="IB Chemistry Structure 2.2 (SL and HL core): covalent bonds, Lewis formulas, VSEPR shapes, polarity, covalent network structures, intermolecular forces and chromatography.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for topic 2.2. Existing tokens only. */
+.s22-seg { min-width: 0; flex: 0 1 auto; }
+.s22-seg[hidden], .s22-ask[hidden], .s22-predict[hidden], .s22-view[hidden], .control[hidden] { display: none; }
+.seg__btn:disabled { color: var(--ink-3); cursor: not-allowed; text-decoration: line-through; }
+.s22-figure { margin: 1.5rem 0; border: 1px solid var(--line-strong); background: var(--surface); max-width: 46rem; }
+.s22-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr)); gap: 0.5rem 0.75rem; padding: 0.9rem 1rem 0.4rem; align-items: end; }
+.s22-cell p { margin: 0.2rem 0 0.5rem; font-size: 0.92rem; text-align: center; }
+.s22-cell svg { display: block; margin: 0 auto; max-width: 100%; height: auto; }
+.s22-figure figcaption { padding: 0.65rem 1rem 0.8rem; border-top: 1px solid var(--line); font-size: 0.9rem; color: var(--ink-2); }
+.s22-inline { margin: 0.5rem 0 0.75rem; }
+.s22-inline .mol__svg { margin-inline: 0; }
+.s22-lewis { display: grid; gap: 1rem 1.5rem; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 720px) { .s22-lewis { grid-template-columns: minmax(0, 17rem) minmax(0, 1fr); } }
+.s22-steps { margin: 0; padding-left: 1.3rem; font-size: 0.92rem; }
+.s22-steps li { margin-bottom: 0.45rem; color: var(--ink-2); }
+.s22-steps li[data-done="true"] { color: var(--ink); }
+.s22-steps__mark { font-family: var(--font-mono); font-size: 0.74rem; border: 1px solid var(--line-strong); padding: 0.05rem 0.3rem; }
+.s22-steps li[data-done="true"] .s22-steps__mark { border-color: var(--ok); color: var(--ok); background: var(--ok-soft); }
+.s22-count .btn-row { margin-top: 0.35rem; }
+.s22-count .input--num { width: 6rem; }
+.s22-lewis__draw { margin: 0.75rem 0 0.25rem; min-height: 3rem; overflow-x: auto; }
+.s22-note { margin: 0.4rem 0 0; font-size: 0.9rem; color: var(--ink-2); max-width: 40rem; }
+.s22-note[hidden] { display: none; }
+.s22-hit { fill: transparent; stroke: var(--line); stroke-width: 1; stroke-dasharray: 3 3; cursor: pointer; }
+.s22-hit:hover { stroke: var(--accent); stroke-width: 2; }
+.s22-hit:focus { outline: none; }
+.s22-hit:focus-visible { stroke: var(--focus); stroke-width: 3; stroke-dasharray: none; }
+.s22-fb { max-width: 44rem; }
+.s22-fb p { margin: 0.3rem 0 0; }
+.s22-predict__q { font-weight: 700; margin: 0.25rem 0 0.5rem; }
+.s22-predict__form { display: flex; flex-wrap: wrap; gap: 0.75rem 1.25rem; margin: 0.5rem 0 0.9rem; }
+.s22-predict__form .control { min-width: 11rem; }
+.s22-ask { margin-top: 0.75rem; }
+.s22-ask .control { margin: 0.5rem 0; max-width: 22rem; }
+.s22-gap { margin-top: 0.8rem; }
+.s22-imf { display: grid; gap: 0.5rem 1.5rem; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 720px) { .s22-imf { grid-template-columns: minmax(0, 15rem) minmax(0, 1fr); } }
+.s22-bigformula { font-family: var(--font-mono); font-size: 1.5rem; margin: 0.75rem 0; }
+.s22-bp__cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 0.75rem; }
+.s22-bp__card { border: 1px solid var(--line); padding: 0.6rem 0.8rem; background: var(--surface); min-width: 0; }
+.s22-bp__name { font-weight: 700; margin: 0; }
+.s22-bp__data { margin: 0.15rem 0 0; font-size: 0.92rem; }
+.s22-svg-atom { fill: var(--ink); font-family: var(--font-body); font-size: 19px; font-weight: 700; }
+.s22-svg-delta { fill: var(--accent-ink); font-family: var(--font-mono); font-size: 13px; font-weight: 600; }
+.s22-svg-note { fill: var(--ink-2); font-family: var(--font-body); font-size: 13px; }
+.s22-svg { display: block; width: 100%; height: auto; max-width: 30rem; margin: 0 auto; }
+.s22-panels { display: grid; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); gap: 0.75rem; padding: 0.9rem 1rem 0.4rem; }
+.s22-panels svg { display: block; width: 100%; max-width: 13rem; height: auto; }
+.s22-panels p { margin: 0.35rem 0 0.5rem; font-size: 0.92rem; }
+</style>
+</head>
+<body data-page="s2-2">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="s2-2"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Structure 2.2</p>
+      <h1>The covalent model</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>What determines the covalent nature and properties of a substance?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <!-- ============================================================ GOALS -->
+      <section class="topic-section" id="goals" data-toc="What you need to do">
+        <h2>What you need to be able to do</h2>
+        <p>This page covers the part of Structure 2.2 that SL and HL students share. Tick each one when you can do it without looking at your notes.</p>
+        <ul class="checklist" data-s1-checklist="s2-2">
+          <li data-id="covalent-def" data-level="sl">State what a covalent bond is, and state the octet rule.</li>
+          <li data-id="lewis" data-level="sl">Deduce the Lewis formula of a molecule or ion with up to four electron pairs on each atom, including atoms with fewer than an octet.</li>
+          <li data-id="bond-number" data-level="sl">Explain how the number of shared pairs (single, double, triple) affects bond length and bond strength.</li>
+          <li data-id="coordination" data-level="sl">Identify coordination bonds in compounds.</li>
+          <li data-id="vsepr" data-level="sl">Predict the electron domain geometry and the molecular geometry for species with up to four electron domains.</li>
+          <li data-id="bond-angles" data-level="sl">Predict how lone pairs and multiple bonds change bond angles.</li>
+          <li data-id="bond-polarity" data-level="sl">Deduce the polarity of a covalent bond from electronegativity values, and show it with partial charges or a vector.</li>
+          <li data-id="molecular-polarity" data-level="sl">Deduce whether a molecule or ion has a net dipole from its bond polarity and its geometry.</li>
+          <li data-id="networks" data-level="sl">Describe the structures and explain the properties of silicon, silicon dioxide, diamond, graphite, fullerenes and graphene.</li>
+          <li data-id="imf-identify" data-level="sl">Deduce which intermolecular forces act between molecules, and use the term “van der Waals forces” correctly.</li>
+          <li data-id="hbond" data-level="sl">Describe and draw a hydrogen bond between two molecules.</li>
+          <li data-id="properties" data-level="sl">Explain the volatility, electrical conductivity and solubility of covalent substances from their structure.</li>
+          <li data-id="chromatography" data-level="sl">Explain how paper chromatography and thin layer chromatography separate a mixture.</li>
+          <li data-id="rf" data-level="sl">Calculate and interpret retardation factor (R<sub>F</sub>) values.</li>
+        </ul>
+        <p class="small muted">HL students: resonance, benzene, expanded octets, formal charge, sigma and pi bonds, and hybridization are on the <a href="s2-2h.html">Additional HL page for 2.2</a>.</p>
+      </section>
+
+      <!-- ============================================================ 2.2.1 -->
+      <section class="topic-section" id="covalent-bond" data-toc="Covalent bonds and Lewis formulas">
+        <span class="section-code">Structure 2.2.1</span>
+        <h2>Covalent bonds, the octet rule and Lewis formulas</h2>
+
+        <p>Two hydrogen atoms meet. Each has one electron and each needs one more. Neither atom is strong enough to take an electron from the other. So they share.</p>
+        <p>The two shared electrons sit between the two nuclei. Each nucleus is positive. The shared electrons are negative. Both nuclei are attracted to the same pair of electrons, and this holds the atoms together.</p>
+
+        <figure class="s22-figure">
+          <svg class="s22-svg" viewBox="0 0 360 130" role="img" aria-label="Two hydrogen nuclei, each marked plus, with a shared pair of electrons between them. Arrows show each nucleus attracted towards the shared pair.">
+            <circle cx="100" cy="65" r="42" fill="none" stroke="var(--line-strong)" stroke-width="1.5" stroke-dasharray="4 4"/>
+            <circle cx="260" cy="65" r="42" fill="none" stroke="var(--line-strong)" stroke-width="1.5" stroke-dasharray="4 4"/>
+            <ellipse cx="180" cy="65" rx="36" ry="22" fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="1.5"/>
+            <circle cx="170" cy="65" r="5" fill="var(--ink)"/><circle cx="190" cy="65" r="5" fill="var(--ink)"/>
+            <circle cx="100" cy="65" r="13" fill="var(--surface-2)" stroke="var(--ink)" stroke-width="1.5"/>
+            <circle cx="260" cy="65" r="13" fill="var(--surface-2)" stroke="var(--ink)" stroke-width="1.5"/>
+            <text x="100" y="66" text-anchor="middle" dominant-baseline="central" class="s22-svg-atom">+</text>
+            <text x="260" y="66" text-anchor="middle" dominant-baseline="central" class="s22-svg-atom">+</text>
+            <line x1="118" y1="65" x2="138" y2="65" stroke="var(--accent-ink)" stroke-width="2.5"/><path d="M144 65 L134 59 L134 71 Z" fill="var(--accent-ink)"/>
+            <line x1="242" y1="65" x2="222" y2="65" stroke="var(--accent-ink)" stroke-width="2.5"/><path d="M216 65 L226 59 L226 71 Z" fill="var(--accent-ink)"/>
+            <text x="100" y="122" text-anchor="middle" class="s22-svg-note">nucleus</text>
+            <text x="260" y="122" text-anchor="middle" class="s22-svg-note">nucleus</text>
+            <text x="180" y="24" text-anchor="middle" class="s22-svg-note">shared pair of electrons</text>
+          </svg>
+          <figcaption>A model of the bond in a hydrogen molecule, H<sub>2</sub>. Both nuclei are attracted to the shared pair. The drawing is not to scale.</figcaption>
+        </figure>
+
+        <p>A <dfn data-def="The electrostatic attraction between a shared pair of electrons and the positively charged nuclei.">covalent bond</dfn> is the electrostatic attraction between a shared pair of electrons and the positively charged nuclei.</p>
+        <p>Covalent bonds usually form between atoms of non-metals. A group of atoms joined by covalent bonds is a <dfn data-def="A group of atoms held together by covalent bonds.">molecule</dfn>.</p>
+
+        <aside class="callout callout--exam">
+          <p>“State what a covalent bond is” is a one-mark question. The answer needs three parts: <b>electrostatic attraction</b>, a <b>shared pair of electrons</b>, and the <b>(positively charged) nuclei</b>.</p>
+        </aside>
+        <aside class="callout callout--mistake">
+          <p>“A covalent bond is the sharing of electrons” does not earn the mark. Sharing is how the bond forms. The bond itself is the <em>attraction</em> between the shared pair and the nuclei.</p>
+        </aside>
+
+        <h3>The octet rule</h3>
+        <p>The electrons in the outer shell of an atom are its <dfn data-def="The electrons in the outer (valence) shell of an atom. They are the electrons used in bonding.">valence electrons</dfn>. For the elements in this topic, the number of valence electrons is the last digit of the group number.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Valence electrons of the atoms you will meet most often</caption>
+            <thead><tr><th scope="col">Atom</th><th scope="col" class="num">Group</th><th scope="col" class="num">Valence electrons</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">H</th><td class="num">1</td><td class="num">1</td></tr>
+              <tr><th scope="row">Be</th><td class="num">2</td><td class="num">2</td></tr>
+              <tr><th scope="row">B</th><td class="num">13</td><td class="num">3</td></tr>
+              <tr><th scope="row">C, Si</th><td class="num">14</td><td class="num">4</td></tr>
+              <tr><th scope="row">N, P</th><td class="num">15</td><td class="num">5</td></tr>
+              <tr><th scope="row">O, S</th><td class="num">16</td><td class="num">6</td></tr>
+              <tr><th scope="row">F, Cl, Br, I</th><td class="num">17</td><td class="num">7</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The <dfn data-def="The tendency of atoms to gain a valence shell with a total of 8 electrons.">octet rule</dfn> is the tendency of atoms to gain a valence shell with a total of 8 electrons. Atoms can reach 8 by sharing electrons.</p>
+        <p>Hydrogen is different. Its first shell is full with 2 electrons, so a hydrogen atom forms one bond only.</p>
+        <p>The octet rule is a useful guide. It is not a law. Two atoms often have <dfn data-def="An atom in a molecule with fewer than 8 electrons in its valence shell.">fewer than an octet</dfn> in their compounds: beryllium (4 electrons) and boron (6 electrons).</p>
+
+        <h3>Lewis formulas</h3>
+        <p>A <dfn data-def="A diagram that shows all the valence electrons, bonding pairs and non-bonding pairs, in a covalently bonded molecule or ion.">Lewis formula</dfn> shows all the valence electrons in a molecule or ion. It is also called a Lewis structure or an electron dot structure.</p>
+        <p>There are two kinds of electron pair in a Lewis formula.</p>
+        <ul>
+          <li>A <dfn data-def="A pair of electrons shared between two atoms.">bonding pair</dfn> is shared between two atoms.</li>
+          <li>A <dfn data-def="A pair of valence electrons that belongs to one atom and is not shared. Also called a lone pair.">non-bonding pair</dfn>, or lone pair, belongs to one atom only.</li>
+        </ul>
+        <p>You may draw each pair as two dots, two crosses or one line. On this site a line is a bonding pair and two dots are a lone pair.</p>
+
+        <figure class="s22-figure">
+          <div class="s22-row">
+            <div class="s22-cell"><div data-s22-lewis="h2"></div><p>hydrogen</p></div>
+            <div class="s22-cell"><div data-s22-lewis="cl2"></div><p>chlorine</p></div>
+            <div class="s22-cell"><div data-s22-lewis="h2o"></div><p>water</p></div>
+            <div class="s22-cell"><div data-s22-lewis="nh3"></div><p>ammonia</p></div>
+            <div class="s22-cell"><div data-s22-lewis="ch4"></div><p>methane</p></div>
+          </div>
+          <figcaption>Lewis formulas of five small molecules. Every atom except hydrogen has 8 electrons around it. A Lewis formula shows electrons. It does not show the real shape.</figcaption>
+        </figure>
+
+        <h3>Method in words</h3>
+        <ol>
+          <li>Count all the valence electrons. For a negative ion add one electron for each charge. For a positive ion take one away for each charge.</li>
+          <li>Choose the central atom. It is usually the atom that there is only one of. Hydrogen is never central.</li>
+          <li>Join each outer atom to the central atom with a single bond. Each bond uses 2 electrons.</li>
+          <li>Give each outer atom lone pairs until it has 8 electrons. Hydrogen gets none.</li>
+          <li>Put any electrons that are left on the central atom.</li>
+          <li>Check the central atom. If it has fewer than 8, move a lone pair from an outer atom into the bond. This makes a double or triple bond. Do not do this for Be or B.</li>
+          <li>For an ion, draw square brackets around the formula and write the charge outside.</li>
+          <li>Count the electrons in your drawing. The total must equal the number from step 1.</li>
+        </ol>
+
+        <figure data-s1-widget="s2-2.lewis" data-title="Lewis formula builder" data-start="h2o">
+          <p class="widget__fallback">An interactive Lewis formula builder appears here when JavaScript is on. Choose a molecule, count its valence electrons, then place lone pairs and multiple bonds.</p>
+          <figcaption>Choose a molecule or ion and work through the steps. Try water first, then carbon dioxide, then an ion such as NH<sub>4</sub><sup>+</sup>.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 1">
+          <h3 class="worked__title">A Lewis formula with lone pairs on every atom</h3>
+          <div class="worked__problem"><p>Deduce the Lewis formula of nitrogen trifluoride, <span class="chem">NF3</span>.</p></div>
+          <ol class="worked__steps">
+            <li data-title="Count the valence electrons">
+              <p class="worked__why">The total tells you how many electrons your drawing must show.</p>
+              <div class="worked__math">N: 1 × 5 = 5</div>
+              <div class="worked__math">F: 3 × 7 = 21</div>
+              <div class="worked__math">total = 5 + 21 = 26 electrons = 13 pairs</div>
+            </li>
+            <li data-title="Join the atoms with single bonds">
+              <p class="worked__why">There is only one nitrogen atom, so it is the central atom.</p>
+              <div class="s22-inline" data-s22-lewis="nf3:skeleton"></div>
+              <div class="worked__math">3 bonds use 3 × 2 = 6 electrons. Left: 26 − 6 = 20</div>
+            </li>
+            <li data-title="Complete the outer atoms">
+              <p class="worked__why">Each fluorine has 2 electrons from its bond. It needs 3 lone pairs to reach 8.</p>
+              <div class="worked__math">3 F atoms × 3 lone pairs × 2 = 18 electrons. Left: 20 − 18 = 2</div>
+            </li>
+            <li data-title="Put the rest on the central atom">
+              <p class="worked__why">The last 2 electrons become one lone pair on nitrogen.</p>
+              <div class="s22-inline" data-s22-lewis="nf3"></div>
+            </li>
+            <li data-title="Check">
+              <p class="worked__why" data-label="Check">Nitrogen has 3 bonding pairs and 1 lone pair: 8 electrons. Each fluorine has 8. The drawing shows 3 bonds and 10 lone pairs.</p>
+              <div class="worked__math">3 × 2 + 10 × 2 = <b>26 electrons</b>, the same as step 1</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>N in the centre with three N–F single bonds and one lone pair. Three lone pairs on each F.</p></div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 2">
+          <h3 class="worked__title">A Lewis formula with double bonds</h3>
+          <div class="worked__problem"><p>Deduce the Lewis formula of carbon dioxide, <span class="chem">CO2</span>.</p></div>
+          <ol class="worked__steps">
+            <li data-title="Count the valence electrons">
+              <p class="worked__why">Carbon is in group 14 and oxygen is in group 16.</p>
+              <div class="worked__math">C: 1 × 4 = 4</div>
+              <div class="worked__math">O: 2 × 6 = 12</div>
+              <div class="worked__math">total = 4 + 12 = 16 electrons = 8 pairs</div>
+            </li>
+            <li data-title="Join the atoms with single bonds">
+              <p class="worked__why">There is one carbon atom, so carbon is central.</p>
+              <div class="s22-inline" data-s22-lewis="co2:skeleton"></div>
+              <div class="worked__math">2 bonds use 4 electrons. Left: 16 − 4 = 12</div>
+            </li>
+            <li data-title="Complete the outer atoms">
+              <p class="worked__why">Each oxygen takes 3 lone pairs. That uses all 12 electrons, so none are left for carbon.</p>
+              <div class="s22-inline" data-s22-lewis="co2:outer"></div>
+            </li>
+            <li data-title="Check the central atom">
+              <p class="worked__why">Carbon has only 2 bonding pairs, which is 4 electrons. It needs 8.</p>
+              <div class="worked__math">carbon: 2 × 2 = 4 electrons (not enough)</div>
+            </li>
+            <li data-title="Make multiple bonds">
+              <p class="worked__why">Move one lone pair from each oxygen into its bond. No electrons are added. They are only moved.</p>
+              <div class="s22-inline" data-s22-lewis="co2"></div>
+            </li>
+            <li data-title="Check">
+              <p class="worked__why" data-label="Check">Carbon has 4 bonding pairs: 8 electrons. Each oxygen has 2 bonding pairs and 2 lone pairs: 8 electrons.</p>
+              <div class="worked__math">4 bonding pairs + 4 lone pairs = 8 pairs = <b>16 electrons</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>O=C=O, with two lone pairs on each oxygen atom.</p></div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 3">
+          <h3 class="worked__title">A Lewis formula of an ion</h3>
+          <div class="worked__problem"><p>Deduce the Lewis formula of the hydronium ion, <span class="chem">H3O+</span>.</p></div>
+          <ol class="worked__steps">
+            <li data-title="Count the valence electrons">
+              <p class="worked__why">The ion has a charge of 1+. It has lost one electron, so take one away.</p>
+              <div class="worked__math">O: 1 × 6 = 6</div>
+              <div class="worked__math">H: 3 × 1 = 3</div>
+              <div class="worked__math">charge 1+: − 1</div>
+              <div class="worked__math">total = 6 + 3 − 1 = 8 electrons = 4 pairs</div>
+            </li>
+            <li data-title="Join the atoms with single bonds">
+              <p class="worked__why">Hydrogen is never central, so oxygen is.</p>
+              <div class="s22-inline" data-s22-lewis="h3o:skeleton"></div>
+              <div class="worked__math">3 bonds use 6 electrons. Left: 8 − 6 = 2</div>
+            </li>
+            <li data-title="Place the remaining electrons">
+              <p class="worked__why">Hydrogen atoms take no lone pairs. The last 2 electrons go on oxygen as one lone pair.</p>
+              <div class="worked__math">oxygen: 3 bonding pairs + 1 lone pair = 8 electrons</div>
+            </li>
+            <li data-title="Add brackets and the charge">
+              <p class="worked__why">The charge belongs to the whole ion. In an exam the charge must be shown.</p>
+              <div class="s22-inline" data-s22-lewis="h3o"></div>
+            </li>
+            <li data-title="Think about where the electrons came from">
+              <p class="worked__why">The ion forms when a water molecule bonds to an H<sup>+</sup> ion. An H<sup>+</sup> ion has no electrons at all.</p>
+              <div class="worked__math"><span class="chem">H2O + H+ -> H3O+</span></div>
+              <p>So both electrons in the new O–H bond came from a lone pair on oxygen. A bond like this is a coordination bond. You will meet it in section 2.2.3.</p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>O in the centre with three O–H bonds and one lone pair, in square brackets with the charge +.</p></div>
+        </div>
+
+        <h3>Atoms with fewer than an octet</h3>
+        <p>Beryllium has 2 valence electrons and boron has 3. In <span class="chem">BeCl2</span> and <span class="chem">BF3</span> all of these are used in single bonds. No electrons are left for the central atom.</p>
+        <figure class="s22-figure">
+          <div class="s22-row">
+            <div class="s22-cell"><div data-s22-lewis="becl2"></div><p>BeCl<sub>2</sub>: Be has 4 electrons</p></div>
+            <div class="s22-cell"><div data-s22-lewis="bf3"></div><p>BF<sub>3</sub>: B has 6 electrons</p></div>
+          </div>
+          <figcaption>Two molecules in which the central atom has fewer than an octet. Do not add double bonds to “fix” them.</figcaption>
+        </figure>
+
+        <h3>Organic examples</h3>
+        <p>Carbon forms four bonds. It can reach 8 electrons with single, double or triple bonds.</p>
+        <figure class="s22-figure">
+          <div class="s22-row">
+            <div class="s22-cell"><div data-s22-lewis="c2h4"></div><p>ethene, C<sub>2</sub>H<sub>4</sub></p></div>
+            <div class="s22-cell"><div data-s22-lewis="ch2o"></div><p>methanal, HCHO</p></div>
+            <div class="s22-cell"><div data-s22-lewis="hcn"></div><p>hydrogen cyanide, HCN</p></div>
+          </div>
+          <figcaption>Each carbon atom has four bonding pairs. Count them: a double bond is two pairs and a triple bond is three.</figcaption>
+        </figure>
+
+        <div data-s1-numeric data-answer="26" data-tolerance="0" data-unit="electrons">
+          <div class="tryit__q"><p>How many valence electrons must the Lewis formula of phosphorus trichloride, <span class="chem">PCl3</span>, show?</p></div>
+          <ol class="tryit__hints">
+            <li>Phosphorus is in group 15 and chlorine is in group 17.</li>
+            <li>Add 5 for the one P atom and 7 for each of the three Cl atoms.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">P: 1 × 5 = 5</div>
+            <div class="worked__math">Cl: 3 × 7 = 21</div>
+            <div class="worked__math">total = 5 + 21 = 26 electrons</div>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="24" data-tolerance="0" data-unit="electrons">
+          <div class="tryit__q"><p>How many valence electrons must the Lewis formula of the carbonate ion, <span class="chem">CO3^2-</span>, show?</p></div>
+          <ol class="tryit__hints">
+            <li>Count the atoms first: C has 4 and each O has 6.</li>
+            <li>The charge is 2−. A negative ion has gained electrons, so add 2.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">C: 1 × 4 = 4</div>
+            <div class="worked__math">O: 3 × 6 = 18</div>
+            <div class="worked__math">charge 2−: + 2</div>
+            <div class="worked__math">total = 4 + 18 + 2 = 24 electrons</div>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>The most common lost mark is a missing lone pair on an outer atom, such as the three lone pairs on each F or Cl. The second is a missing charge on an ion. Always finish by counting the electrons in your drawing.</p>
+        </aside>
+        <aside class="callout callout--exam">
+          <p>A Lewis formula earns its mark only if it is completely correct: every bonding pair and every lone pair on every atom. Dots, crosses and lines are all accepted, and you may mix them.</p>
+        </aside>
+        <aside class="callout callout--scope">
+          <p>Atoms with more than 8 valence electrons (five or six pairs) are Additional HL. They are on the <a href="s2-2h.html">HL page</a>. Molecules with an unpaired electron (radicals) come later, in Reactivity 3.3.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-2" data-syllabus="Structure 2.2.1" data-count="4" data-title="Covalent bonds and Lewis formulas: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.2.2 -->
+      <section class="topic-section" id="multiple-bonds" data-toc="Single, double and triple bonds">
+        <span class="section-code">Structure 2.2.2</span>
+        <h2>Single, double and triple bonds</h2>
+
+        <p>Two atoms can share more than one pair of electrons.</p>
+        <ul>
+          <li>A <dfn data-def="A covalent bond made of one shared pair of electrons.">single bond</dfn> is one shared pair.</li>
+          <li>A <dfn data-def="A covalent bond made of two shared pairs of electrons.">double bond</dfn> is two shared pairs.</li>
+          <li>A <dfn data-def="A covalent bond made of three shared pairs of electrons.">triple bond</dfn> is three shared pairs.</li>
+        </ul>
+        <figure class="s22-figure">
+          <div class="s22-row">
+            <div class="s22-cell"><div data-s22-lewis="cl2"></div><p>Cl<sub>2</sub>: single bond</p></div>
+            <div class="s22-cell"><div data-s22-lewis="o2"></div><p>O<sub>2</sub>: double bond</p></div>
+            <div class="s22-cell"><div data-s22-lewis="n2"></div><p>N<sub>2</sub>: triple bond</p></div>
+          </div>
+          <figcaption>One, two and three shared pairs. Each atom still has 8 electrons around it.</figcaption>
+        </figure>
+
+        <h3>Bond length and bond strength</h3>
+        <p>The <dfn data-def="The distance between the nuclei of two bonded atoms.">bond length</dfn> is the distance between the two nuclei. The <dfn data-def="How much energy is needed to break a bond. A stronger bond needs more energy.">bond strength</dfn> tells you how much energy is needed to break the bond. It is measured as a bond enthalpy.</p>
+        <p>Think of the shared electrons as glue between the two nuclei. More shared pairs mean more negative charge between the nuclei. Both nuclei are attracted more strongly to it.</p>
+        <aside class="callout callout--key">
+          <p>More shared pairs give a stronger attraction between the nuclei and the shared electrons. The nuclei are pulled closer together. So the bond is <b>shorter</b> and <b>stronger</b>: triple, then double, then single.</p>
+        </aside>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Bond lengths and bond enthalpies from the data booklet</caption>
+            <thead><tr><th scope="col">Bond</th><th scope="col" class="num">Shared pairs</th><th scope="col" class="num">Length / pm</th><th scope="col" class="num">Bond enthalpy / kJ mol<sup>−1</sup></th></tr></thead>
+            <tbody>
+              <tr><th scope="row">C–C</th><td class="num">1</td><td class="num">154</td><td class="num">346</td></tr>
+              <tr><th scope="row">C=C</th><td class="num">2</td><td class="num">134</td><td class="num">614</td></tr>
+              <tr><th scope="row">C≡C</th><td class="num">3</td><td class="num">120</td><td class="num">839</td></tr>
+              <tr><th scope="row">N–N</th><td class="num">1</td><td class="num">146</td><td class="num">158</td></tr>
+              <tr><th scope="row">N=N</th><td class="num">2</td><td class="num">125</td><td class="num">470</td></tr>
+              <tr><th scope="row">N≡N</th><td class="num">3</td><td class="num">110</td><td class="num">945</td></tr>
+              <tr><th scope="row">C–O</th><td class="num">1</td><td class="num">143</td><td class="num">358</td></tr>
+              <tr><th scope="row">C=O</th><td class="num">2</td><td class="num">122</td><td class="num">804</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="small muted">1 pm (picometre) is 10<sup>−12</sup> m. The booklet prints bond lengths in units of 10<sup>−12</sup> m, which is the same thing.</p>
+
+        <figure data-s1-widget="s2-2.bonds" data-title="Bond length and bond strength">
+          <p class="widget__fallback">An interactive comparison of single, double and triple bonds appears here when JavaScript is on. The values are in the table above.</p>
+          <figcaption>Choose a pair of atoms. The bonds are drawn to scale. Notice that the shortest bond always has the longest energy bar.</figcaption>
+        </figure>
+
+        <aside class="callout callout--booklet">
+          <p>Bond lengths are in section 11 and bond enthalpies are in section 12 of the data booklet. You do not need to memorize any values. You need the trend and the reason.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="36" data-tolerance="0" data-unit="pm">
+          <div class="tryit__q"><p>Use the table. How much shorter is the N≡N bond than the N–N bond?</p></div>
+          <ol class="tryit__hints">
+            <li>Find the two lengths in the table: N–N and N≡N.</li>
+            <li>Subtract the shorter length from the longer one.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">146 pm − 110 pm = 36 pm</div>
+            <p>The triple bond has three shared pairs, so the nuclei are pulled closer.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>To explain why a triple bond is shorter or stronger, write about the electrons: “more shared pairs of electrons, so greater attraction between the nuclei and the shared electrons”. Then give the result: shorter bond, stronger bond.</p>
+        </aside>
+        <aside class="callout callout--scope">
+          <p>The term “bond order” is not in the IB guide. “One, two or three shared pairs” is enough. Calculations with bond enthalpies come later, in Reactivity 1.2.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-2" data-syllabus="Structure 2.2.2" data-count="3" data-title="Bond length and strength: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.2.3 -->
+      <section class="topic-section" id="coordination" data-toc="Coordination bonds">
+        <span class="section-code">Structure 2.2.3</span>
+        <h2>Coordination bonds</h2>
+
+        <p>In most covalent bonds each atom gives one electron to the shared pair. Sometimes one atom gives both.</p>
+        <p>A <dfn data-def="A covalent bond in which both electrons of the shared pair originate from the same atom.">coordination bond</dfn> is a covalent bond in which both electrons of the shared pair originate from the same atom.</p>
+        <p>The atom that gives the pair must have a lone pair. The atom that accepts the pair must have room for two more electrons.</p>
+
+        <h3>Three examples to know</h3>
+        <p><b>The ammonium ion.</b> Ammonia has a lone pair on nitrogen. An H<sup>+</sup> ion has no electrons. Nitrogen shares its lone pair with H<sup>+</sup>.</p>
+        <p data-i18n="off"><span class="chem">NH3 + H+ -> NH4+</span></p>
+        <p><b>The hydronium ion.</b> Water has two lone pairs on oxygen. One of them is shared with an H<sup>+</sup> ion.</p>
+        <p data-i18n="off"><span class="chem">H2O + H+ -> H3O+</span></p>
+        <p><b>Carbon monoxide.</b> Carbon has 4 valence electrons and oxygen has 6. In CO each atom shares three pairs. Carbon can only supply the electrons for two of them, so the third pair comes entirely from oxygen.</p>
+
+        <figure class="s22-figure">
+          <div class="s22-row">
+            <div class="s22-cell"><div data-s22-lewis="nh4:dative"></div><p>ammonium ion</p></div>
+            <div class="s22-cell"><div data-s22-lewis="h3o:dative"></div><p>hydronium ion</p></div>
+            <div class="s22-cell"><div data-s22-lewis="co"></div><p>carbon monoxide: one of the three pairs is a coordination bond from O</p></div>
+          </div>
+          <figcaption>A coordination bond can be drawn as an arrow. The arrow starts at the atom that gave both electrons and points to the atom that accepted them.</figcaption>
+        </figure>
+
+        <p>Once it has formed, a coordination bond is the same as any other covalent bond. In <span class="chem">NH4+</span> all four N–H bonds have the same length and strength.</p>
+
+        <h3>How to identify a coordination bond</h3>
+        <ol>
+          <li>Draw the Lewis formula.</li>
+          <li>For each atom, count the bonds it has formed.</li>
+          <li>Compare with the number of bonds that atom usually forms: H 1, C 4, N 3, O 2, F and Cl 1.</li>
+          <li>An atom with one bond more than usual, such as N with four bonds or O with three bonds, has given a lone pair. An atom that started with fewer than an octet, such as B in <span class="chem">BF3</span>, can accept a pair.</li>
+        </ol>
+        <p>Another example: ammonia reacts with boron trifluoride. Boron has only 6 electrons and nitrogen has a lone pair. The new N–B bond in <span class="chem">H3NBF3</span> is a coordination bond, and boron now has 8 electrons.</p>
+
+        <div data-s1-numeric data-answer="1" data-tolerance="0" data-label="Number of coordination bonds">
+          <div class="tryit__q"><p>How many of the four N–H bonds in one ammonium ion, <span class="chem">NH4+</span>, formed as a coordination bond?</p></div>
+          <ol class="tryit__hints">
+            <li>Think about how the ion forms from <span class="chem">NH3</span> and <span class="chem">H+</span>.</li>
+            <li>Three N–H bonds were already in the ammonia molecule. Only the new bond used nitrogen’s lone pair.</li>
+          </ol>
+          <div class="tryit__solution">
+            <p>One. Ammonia already has three normal N–H bonds. The fourth forms when nitrogen shares its lone pair with H<sup>+</sup>, so both electrons come from nitrogen.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>The definition mark needs “both electrons (of the shared pair) come from the same atom”. If you are asked to label a coordination bond, an arrow or any clear label is accepted. Markschemes also accept the older names “dative bond” and “coordinate bond”.</p>
+        </aside>
+
+        <div data-level="ahl">
+          <p>HL only: coordination bonds also hold molecules and ions (ligands) to a transition element ion in a complex ion. This is covered on the <a href="s2-2h.html">HL page for 2.2</a> and in <a href="s3-1.html">Structure 3.1</a>.</p>
+        </div>
+
+        <div data-s1-quiz data-topic="s2-2" data-syllabus="Structure 2.2.3" data-count="3" data-title="Coordination bonds: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.2.4 -->
+      <section class="topic-section" id="vsepr" data-toc="Shapes of molecules (VSEPR)">
+        <span class="section-code">Structure 2.2.4</span>
+        <h2>Shapes of molecules: the VSEPR model</h2>
+
+        <p>Tie four balloons together at their necks. They push each other apart and point to the corners of a pyramid shape. You do not have to arrange them. They do it themselves.</p>
+        <p>Groups of electrons around an atom behave in the same way. They are all negative, so they repel each other and move as far apart as possible.</p>
+        <p>This idea is the <dfn data-def="Valence shell electron pair repulsion model. It predicts the shape of a molecule from the repulsion between the electron domains around a central atom.">valence shell electron pair repulsion (VSEPR) model</dfn>. It predicts the shape of a molecule from the repulsion between the electron domains around a central atom.</p>
+
+        <h3>Electron domains</h3>
+        <p>An <dfn data-def="A region of electron density around a central atom. A lone pair, a single bond, a double bond or a triple bond each count as one electron domain.">electron domain</dfn> is a region of electron density around the central atom. Each of these counts as <b>one</b> domain:</p>
+        <ul>
+          <li>a lone pair,</li>
+          <li>a single bond,</li>
+          <li>a double bond,</li>
+          <li>a triple bond.</li>
+        </ul>
+        <p>A double bond is two pairs of electrons, but both pairs point in the same direction. So it is one domain.</p>
+
+        <h3>Two geometries, two names</h3>
+        <p>The <dfn data-def="The arrangement of all the electron domains, bonding and non-bonding, around the central atom.">electron domain geometry</dfn> is the arrangement of <em>all</em> the domains, including lone pairs.</p>
+        <p>The <dfn data-def="The arrangement of the atoms only. Lone pairs affect it but are not part of its name.">molecular geometry</dfn> is the arrangement of the <em>atoms</em> only. This is the shape of the molecule.</p>
+        <p>Lone pairs still take up space. But you cannot “see” them in the shape, so they are not part of the name of the molecular geometry.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The shapes you need for two, three and four electron domains</caption>
+            <thead><tr><th scope="col" class="num">Electron domains</th><th scope="col" class="num">Bonding domains</th><th scope="col" class="num">Lone pairs</th><th scope="col">Electron domain geometry</th><th scope="col">Molecular geometry</th><th scope="col">Bond angle</th><th scope="col">Example</th></tr></thead>
+            <tbody>
+              <tr><td class="num">2</td><td class="num">2</td><td class="num">0</td><td>linear</td><td>linear</td><td>180°</td><td><span class="chem">CO2</span>, <span class="chem">BeCl2</span></td></tr>
+              <tr><td class="num">3</td><td class="num">3</td><td class="num">0</td><td>trigonal planar</td><td>trigonal planar</td><td>120°</td><td><span class="chem">BF3</span></td></tr>
+              <tr><td class="num">3</td><td class="num">2</td><td class="num">1</td><td>trigonal planar</td><td>bent (V-shaped)</td><td>less than 120°</td><td><span class="chem">SO2</span></td></tr>
+              <tr><td class="num">4</td><td class="num">4</td><td class="num">0</td><td>tetrahedral</td><td>tetrahedral</td><td>109.5°</td><td><span class="chem">CH4</span>, <span class="chem">NH4+</span></td></tr>
+              <tr><td class="num">4</td><td class="num">3</td><td class="num">1</td><td>tetrahedral</td><td>trigonal pyramidal</td><td>less than 109.5° (about 107° in <span class="chem">NH3</span>)</td><td><span class="chem">NH3</span></td></tr>
+              <tr><td class="num">4</td><td class="num">2</td><td class="num">2</td><td>tetrahedral</td><td>bent (V-shaped)</td><td>less than 109.5° (about 104.5° in <span class="chem">H2O</span>)</td><td><span class="chem">H2O</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <figure data-s1-widget="s2-2.vsepr" data-title="Shapes in three dimensions">
+          <p class="widget__fallback">An interactive 3-D model viewer appears here when JavaScript is on. The shapes are listed in the table above.</p>
+          <figcaption>Explore: choose the number of domains and lone pairs, then drag the model to turn it. The dashed lobes are lone pairs. Then switch to “Predict first” and test yourself. Bond lengths are not to scale.</figcaption>
+        </figure>
+
+        <h3>Lone pairs change the bond angle</h3>
+        <p>A bonding pair is held between two nuclei. A lone pair is held by one nucleus only, so it spreads out more and stays closer to the central atom.</p>
+        <aside class="callout callout--key">
+          <p>Lone pairs repel more strongly than bonding pairs. They push the bonding pairs closer together, so the bond angle becomes smaller than the ideal angle.</p>
+        </aside>
+        <p>Methane, ammonia and water all have four electron domains. Compare their angles.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Four electron domains, with zero, one and two lone pairs</caption>
+            <thead><tr><th scope="col">Molecule</th><th scope="col" class="num">Lone pairs</th><th scope="col">Molecular geometry</th><th scope="col" class="num">Bond angle</th></tr></thead>
+            <tbody>
+              <tr><th scope="row"><span class="chem">CH4</span></th><td class="num">0</td><td>tetrahedral</td><td class="num">109.5°</td></tr>
+              <tr><th scope="row"><span class="chem">NH3</span></th><td class="num">1</td><td>trigonal pyramidal</td><td class="num">107°</td></tr>
+              <tr><th scope="row"><span class="chem">H2O</span></th><td class="num">2</td><td>bent (V-shaped)</td><td class="num">104.5°</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Multiple bonds change the bond angle too</h3>
+        <p>A double or triple bond holds more electrons than a single bond. It has greater electron density, so it repels the other domains more strongly.</p>
+        <p>Methanal, HCHO, has three domains around carbon: two C–H bonds and one C=O bond. The shape is trigonal planar. The C=O bond pushes the two C–H bonds together. The H–C–H angle is about 116°, a little less than 120°.</p>
+
+        <h3>Method in words</h3>
+        <ol>
+          <li>Draw the Lewis formula.</li>
+          <li>Count the electron domains around the central atom. Each lone pair, single bond, double bond or triple bond counts as one.</li>
+          <li>Name the electron domain geometry: 2 is linear, 3 is trigonal planar, 4 is tetrahedral.</li>
+          <li>Now ignore the lone pairs and name the shape made by the atoms. This is the molecular geometry.</li>
+          <li>State the bond angle. With no lone pairs, give the ideal angle. With lone pairs, write “less than” the ideal angle.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 4">
+          <h3 class="worked__title">Shape and bond angle with a lone pair</h3>
+          <div class="worked__problem"><p>Predict the electron domain geometry, the molecular geometry and the F–N–F bond angle of nitrogen trifluoride, <span class="chem">NF3</span>.</p></div>
+          <ol class="worked__steps">
+            <li data-title="Start from the Lewis formula">
+              <p class="worked__why">You cannot count domains without it. This is the formula from worked example 1.</p>
+              <div class="s22-inline" data-s22-lewis="nf3"></div>
+            </li>
+            <li data-title="Count the electron domains on the central atom">
+              <p class="worked__why">Count around nitrogen only. The lone pairs on fluorine do not matter here.</p>
+              <div class="worked__math">3 single bonds + 1 lone pair = 4 electron domains</div>
+            </li>
+            <li data-title="Name the electron domain geometry">
+              <p class="worked__why">Four domains get as far apart as possible by pointing to the corners of a tetrahedron.</p>
+              <div class="worked__math">electron domain geometry: <b>tetrahedral</b></div>
+            </li>
+            <li data-title="Name the molecular geometry">
+              <p class="worked__why">Look at the atoms only. Nitrogen sits above a triangle of three fluorine atoms.</p>
+              <div class="worked__math">molecular geometry: <b>trigonal pyramidal</b></div>
+            </li>
+            <li data-title="Predict the bond angle">
+              <p class="worked__why">The lone pair repels more than the bonding pairs, so the bonds are pushed together.</p>
+              <div class="worked__math">F–N–F angle: <b>less than 109.5°</b></div>
+              <p>The measured angle is about 102°. You are not expected to know that number.</p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Tetrahedral electron domain geometry, trigonal pyramidal molecular geometry, bond angle less than 109.5°.</p></div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 5">
+          <h3 class="worked__title">Shape and bond angle with a double bond</h3>
+          <div class="worked__problem"><p>Predict the shape of methanal, HCHO, and compare the H–C–H angle with 120°.</p></div>
+          <ol class="worked__steps">
+            <li data-title="Start from the Lewis formula">
+              <p class="worked__why">Carbon is central, with two hydrogen atoms and one oxygen atom around it.</p>
+              <div class="s22-inline" data-s22-lewis="ch2o"></div>
+            </li>
+            <li data-title="Count the electron domains on carbon">
+              <p class="worked__why">The double bond is one domain, not two.</p>
+              <div class="worked__math">2 single bonds + 1 double bond + 0 lone pairs = 3 electron domains</div>
+            </li>
+            <li data-title="Name both geometries">
+              <p class="worked__why">There are no lone pairs on carbon, so the two geometries are the same.</p>
+              <div class="worked__math">electron domain geometry = molecular geometry = <b>trigonal planar</b></div>
+            </li>
+            <li data-title="Compare the angle with 120°">
+              <p class="worked__why">The double bond has greater electron density than a single bond, so it repels more.</p>
+              <div class="worked__math">H–C–H angle: <b>slightly less than 120°</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Trigonal planar. The H–C–H angle is slightly less than 120° because the C=O double bond repels the C–H bonding pairs more strongly.</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="4" data-tolerance="0" data-label="Number of electron domains">
+          <div class="tryit__q"><p>How many electron domains are there around the oxygen atom in the hydronium ion, <span class="chem">H3O+</span>?</p></div>
+          <ol class="tryit__hints">
+            <li>Look at the Lewis formula in worked example 3.</li>
+            <li>Count the bonds to oxygen and the lone pairs on oxygen.</li>
+          </ol>
+          <div class="tryit__solution">
+            <p>Three O–H bonds and one lone pair: 4 electron domains. The electron domain geometry is tetrahedral and the molecular geometry is trigonal pyramidal.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="2" data-tolerance="0" data-label="Number of electron domains">
+          <div class="tryit__q"><p>How many electron domains are there around the carbon atom in hydrogen cyanide, H–C≡N?</p></div>
+          <ol class="tryit__hints">
+            <li>Carbon has one single bond and one triple bond, and no lone pairs.</li>
+            <li>A triple bond counts as one domain.</li>
+          </ol>
+          <div class="tryit__solution">
+            <p>One single bond and one triple bond: 2 electron domains. The molecule is linear, with a bond angle of 180°.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Three slips cost marks here. Giving the molecular geometry when the electron domain geometry is asked, or the reverse. Counting a double bond as two domains. Writing the ideal angle (109.5°) for a molecule that has lone pairs.</p>
+        </aside>
+        <aside class="callout callout--exam">
+          <p>“State and explain the shape” is two marks. One is for the name of the shape. The other is for the reason: the number of electron domains, or the number of bonding pairs and lone pairs, around the central atom. For a bent or pyramidal molecule an angle in a sensible range below the ideal value is accepted.</p>
+        </aside>
+        <aside class="callout callout--scope">
+          <p>Shapes with five or six electron domains are Additional HL and are on the <a href="s2-2h.html">HL page</a>. The guide does not list exact angles to memorize. “Less than 109.5°” with the reason is what you must be able to give.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-2" data-syllabus="Structure 2.2.4" data-count="5" data-title="Shapes and bond angles: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.2.5 -->
+      <section class="topic-section" id="bond-polarity" data-toc="Bond polarity">
+        <span class="section-code">Structure 2.2.5</span>
+        <h2>Bond polarity</h2>
+
+        <p>Sharing is not always equal. In a tug of war between a strong team and a weak team, the rope moves towards the strong team. In a bond, the shared electrons move towards the atom that attracts them more.</p>
+        <p><dfn data-def="A measure of how strongly an atom attracts a shared (bonding) pair of electrons in a covalent bond.">Electronegativity</dfn> measures how strongly an atom attracts a shared pair of electrons. It has no unit. Fluorine has the highest value, 4.0.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Electronegativity values from the data booklet</caption>
+            <thead><tr><th scope="col">Element</th><th scope="col" class="num">H</th><th scope="col" class="num">B</th><th scope="col" class="num">C</th><th scope="col" class="num">N</th><th scope="col" class="num">O</th><th scope="col" class="num">F</th><th scope="col" class="num">Si</th><th scope="col" class="num">P</th><th scope="col" class="num">S</th><th scope="col" class="num">Cl</th><th scope="col" class="num">Br</th><th scope="col" class="num">I</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Electronegativity</th><td class="num">2.2</td><td class="num">2.0</td><td class="num">2.6</td><td class="num">3.0</td><td class="num">3.4</td><td class="num">4.0</td><td class="num">1.9</td><td class="num">2.2</td><td class="num">2.6</td><td class="num">3.2</td><td class="num">3.0</td><td class="num">2.7</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <aside class="callout callout--booklet">
+          <p>Electronegativity values are in section 9 of the data booklet. Use those values. Older books give slightly different numbers, such as 2.5 for carbon and 3.5 for oxygen.</p>
+        </aside>
+
+        <h3>Polar bonds</h3>
+        <p>When two different atoms are bonded, the more electronegative atom pulls the shared pair closer. That atom becomes slightly negative. The other atom becomes slightly positive.</p>
+        <p>These small charges are <dfn data-def="A small charge, less than the charge of one electron, on an atom in a polar bond. Written δ+ or δ−.">partial charges</dfn>. They are written δ+ and δ−. The symbol δ (delta) means “a little”.</p>
+        <p>A bond with a δ+ end and a δ− end is a <dfn data-def="A covalent bond in which the electrons are shared unequally because the two atoms have different electronegativities.">polar bond</dfn>. The separation of charge is a <dfn data-def="A separation of charge in a bond: one end is δ+ and the other end is δ−.">bond dipole</dfn>.</p>
+
+        <figure class="s22-figure">
+          <svg class="s22-svg" viewBox="0 0 400 130" role="img" aria-label="Two drawings of hydrogen chloride. On the left, delta plus is written on H and delta minus on Cl. On the right, an arrow with a crossed tail lies along the bond and points from H to Cl.">
+            <line x1="62" y1="70" x2="118" y2="70" stroke="var(--ink)" stroke-width="2"/>
+            <text x="46" y="70" text-anchor="middle" dominant-baseline="central" class="s22-svg-atom">H</text>
+            <text x="138" y="70" text-anchor="middle" dominant-baseline="central" class="s22-svg-atom">Cl</text>
+            <text x="46" y="42" text-anchor="middle" class="s22-svg-delta">δ+</text>
+            <text x="138" y="42" text-anchor="middle" class="s22-svg-delta">δ−</text>
+            <text x="92" y="118" text-anchor="middle" class="s22-svg-note">partial charges</text>
+            <line x1="262" y1="70" x2="318" y2="70" stroke="var(--ink)" stroke-width="2"/>
+            <text x="246" y="70" text-anchor="middle" dominant-baseline="central" class="s22-svg-atom">H</text>
+            <text x="338" y="70" text-anchor="middle" dominant-baseline="central" class="s22-svg-atom">Cl</text>
+            <line x1="258" y1="46" x2="318" y2="46" stroke="var(--accent)" stroke-width="2.5"/>
+            <path d="M328 46 L316 40 L316 52 Z" fill="var(--accent)"/>
+            <line x1="266" y1="39" x2="266" y2="53" stroke="var(--accent)" stroke-width="2.5"/>
+            <text x="292" y="118" text-anchor="middle" class="s22-svg-note">vector (arrow)</text>
+          </svg>
+          <figcaption>Two accepted ways to show a bond dipole. The arrow points to the more electronegative atom. The small cross at its tail looks like a plus sign and marks the δ+ end.</figcaption>
+        </figure>
+
+        <h3>Method in words</h3>
+        <ol>
+          <li>Find the electronegativity of each atom in the data booklet.</li>
+          <li>Subtract the smaller value from the larger value.</li>
+          <li>If the difference is zero, the bond is non-polar. The larger the difference, the more polar the bond.</li>
+          <li>Write δ− on the atom with the larger value and δ+ on the other atom.</li>
+        </ol>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Electronegativity differences for some common bonds</caption>
+            <thead><tr><th scope="col">Bond</th><th scope="col">Working</th><th scope="col" class="num">Difference</th><th scope="col">δ− atom</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Cl–Cl</th><td class="mono">3.2 − 3.2</td><td class="num">0.0</td><td>none: non-polar</td></tr>
+              <tr><th scope="row">C–H</th><td class="mono">2.6 − 2.2</td><td class="num">0.4</td><td>C (only slightly polar)</td></tr>
+              <tr><th scope="row">N–H</th><td class="mono">3.0 − 2.2</td><td class="num">0.8</td><td>N</td></tr>
+              <tr><th scope="row">H–Cl</th><td class="mono">3.2 − 2.2</td><td class="num">1.0</td><td>Cl</td></tr>
+              <tr><th scope="row">O–H</th><td class="mono">3.4 − 2.2</td><td class="num">1.2</td><td>O</td></tr>
+              <tr><th scope="row">H–F</th><td class="mono">4.0 − 2.2</td><td class="num">1.8</td><td>F</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div data-s1-numeric data-answer="0.6" data-tolerance="0.01" data-label="Difference in electronegativity">
+          <div class="tryit__q"><p>Use the table of electronegativity values. Calculate the difference in electronegativity for a C–Cl bond.</p></div>
+          <ol class="tryit__hints">
+            <li>Carbon is 2.6 and chlorine is 3.2.</li>
+            <li>Subtract the smaller value from the larger value.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">3.2 − 2.6 = 0.6</div>
+            <p>Chlorine has the larger value, so chlorine is δ− and carbon is δ+.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="0.8" data-tolerance="0.01" data-label="Difference in electronegativity">
+          <div class="tryit__q"><p>Calculate the difference in electronegativity for a C=O bond. Which atom is δ−?</p></div>
+          <ol class="tryit__hints">
+            <li>Carbon is 2.6 and oxygen is 3.4.</li>
+            <li>A double bond is treated in the same way as a single bond here.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">3.4 − 2.6 = 0.8</div>
+            <p>Oxygen has the larger value, so oxygen is δ− and carbon is δ+.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>A partial charge is not an ion charge. Write δ+ and δ−, never + and −. And put δ− on the atom with the <em>larger</em> electronegativity, because it pulls the negative electrons towards itself.</p>
+        </aside>
+        <aside class="callout callout--exam">
+          <p>If you are asked to show the polarity of a bond, you need both partial charges, δ+ and δ−, on the correct atoms for the mark. To explain why a bond is polar, write “the two atoms have different electronegativities”.</p>
+        </aside>
+        <aside class="callout callout--scope">
+          <p>The guide gives no cut-off numbers (such as 0.4 or 1.8) for “non-polar”, “polar” and “ionic”. You do not need to memorize any. To decide the type of bonding from electronegativity, you will use the bonding triangle in Structure 2.4. The trends in electronegativity are explained in Structure 3.1.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-2" data-syllabus="Structure 2.2.5" data-count="3" data-title="Bond polarity: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.2.6 -->
+      <section class="topic-section" id="molecular-polarity" data-toc="Polar molecules">
+        <span class="section-code">Structure 2.2.6</span>
+        <h2>Molecular polarity</h2>
+
+        <p>Two equal teams pull a rope in opposite directions. Both pull hard, but the rope does not move. Equal pulls in opposite directions cancel.</p>
+        <p>Bond dipoles work in the same way. Each bond dipole has a size and a direction. If the dipoles are equal and the shape is symmetrical, they cancel.</p>
+        <p>A <dfn data-def="A molecule with a net dipole: its bond dipoles do not cancel, so one side of the molecule is δ+ and the other side is δ−.">polar molecule</dfn> has a <dfn data-def="The overall dipole of a molecule, found by adding all the bond dipoles as vectors.">net dipole</dfn>: its bond dipoles do not cancel. A <dfn data-def="A molecule with no net dipole.">non-polar molecule</dfn> has no net dipole.</p>
+        <aside class="callout callout--key">
+          <p>Molecular polarity depends on two things: the polarity of the bonds <b>and</b> the geometry of the molecule. You always need both.</p>
+        </aside>
+
+        <h3>Same kind of bond, different shape</h3>
+        <p>Carbon dioxide has two polar C=O bonds. The molecule is linear, so the two dipoles point in opposite directions and cancel. <span class="chem">CO2</span> is non-polar.</p>
+        <p>Water has two polar O–H bonds. The molecule is bent, so the two dipoles do not point in opposite directions. They add up. <span class="chem">H2O</span> is polar.</p>
+
+        <figure data-s1-widget="s2-2.polarity" data-title="Polarity lab">
+          <p class="widget__fallback">An interactive polarity model appears here when JavaScript is on. It shows an arrow along each polar bond and whether the arrows cancel.</p>
+          <figcaption>Choose a molecule and predict before you look. In this model, a thicker arrow means a larger difference in electronegativity. Turn the model to see the shape. Compare CCl<sub>4</sub> with CHCl<sub>3</sub>.</figcaption>
+        </figure>
+
+        <h3>Method in words</h3>
+        <ol>
+          <li>Draw the Lewis formula and deduce the molecular geometry.</li>
+          <li>Decide whether each bond is polar. Use electronegativity values.</li>
+          <li>Ask: do the bond dipoles cancel? They cancel when the outer atoms are all the same <em>and</em> the shape is linear, trigonal planar or tetrahedral, with no lone pairs on the central atom.</li>
+          <li>If they cancel, the molecule is non-polar. If they do not, the molecule is polar.</li>
+        </ol>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Do the bond dipoles cancel?</caption>
+            <thead><tr><th scope="col">Molecular geometry</th><th scope="col">Outer atoms all the same</th><th scope="col">Outer atoms different</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">linear (2 domains)</th><td>cancel: <span class="chem">CO2</span>, <span class="chem">BeCl2</span></td><td>do not cancel: HCN</td></tr>
+              <tr><th scope="row">trigonal planar</th><td>cancel: <span class="chem">BF3</span></td><td>do not cancel: HCHO</td></tr>
+              <tr><th scope="row">tetrahedral</th><td>cancel: <span class="chem">CH4</span>, <span class="chem">CCl4</span></td><td>do not cancel: <span class="chem">CH3Cl</span>, <span class="chem">CHCl3</span></td></tr>
+              <tr><th scope="row">bent (V-shaped)</th><td>do not cancel: <span class="chem">H2O</span>, <span class="chem">SO2</span></td><td>do not cancel</td></tr>
+              <tr><th scope="row">trigonal pyramidal</th><td>do not cancel: <span class="chem">NH3</span></td><td>do not cancel</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The same reasoning works for ions. In the ammonium ion, <span class="chem">NH4+</span>, the four N–H dipoles cancel because the ion is tetrahedral. The ion has a charge, but it has no net dipole.</p>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 6">
+          <h3 class="worked__title">Is the molecule polar?</h3>
+          <div class="worked__problem"><p>Deduce whether boron trifluoride, <span class="chem">BF3</span>, and ammonia, <span class="chem">NH3</span>, are polar molecules.</p></div>
+          <ol class="worked__steps">
+            <li data-title="Decide whether the bonds are polar">
+              <p class="worked__why">A molecule can only be polar if it has polar bonds. Use the booklet values.</p>
+              <div class="worked__math">B–F: 4.0 − 2.0 = 2.0, so polar, with F δ−</div>
+              <div class="worked__math">N–H: 3.0 − 2.2 = 0.8, so polar, with N δ−</div>
+            </li>
+            <li data-title="Find the geometry of boron trifluoride">
+              <p class="worked__why">Boron has three bonding domains and no lone pairs.</p>
+              <div class="worked__math">BF3: 3 electron domains, 0 lone pairs → trigonal planar, 120°</div>
+            </li>
+            <li data-title="Find the geometry of ammonia">
+              <p class="worked__why">Nitrogen has three bonding domains and one lone pair.</p>
+              <div class="worked__math">NH3: 4 electron domains, 1 lone pair → trigonal pyramidal</div>
+            </li>
+            <li data-title="Do the dipoles cancel in boron trifluoride?">
+              <p class="worked__why">Three equal dipoles at 120° in one plane pull equally in all directions.</p>
+              <div class="worked__math">BF3: bond dipoles cancel → <b>non-polar</b></div>
+            </li>
+            <li data-title="Do the dipoles cancel in ammonia?">
+              <p class="worked__why">The three N–H dipoles all point partly towards the nitrogen end of the pyramid. Nothing pulls the other way.</p>
+              <div class="worked__math">NH3: bond dipoles do not cancel → <b>polar</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p><span class="chem">BF3</span> is non-polar: its polar bonds are arranged symmetrically (trigonal planar), so the dipoles cancel. <span class="chem">NH3</span> is polar: it is trigonal pyramidal, so the dipoles do not cancel.</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="3" data-tolerance="0" data-label="Number of polar molecules">
+          <div class="tryit__q"><p>How many of these five molecules are polar? <span class="chem">CO2</span>, <span class="chem">H2O</span>, <span class="chem">NH3</span>, <span class="chem">CH4</span>, <span class="chem">CHCl3</span></p></div>
+          <ol class="tryit__hints">
+            <li>First name the shape of each one: linear, bent, trigonal pyramidal, tetrahedral, tetrahedral.</li>
+            <li>Symmetrical shapes with identical outer atoms have no net dipole. Check whether the outer atoms of <span class="chem">CHCl3</span> are identical.</li>
+          </ol>
+          <div class="tryit__solution">
+            <p>Three: <span class="chem">H2O</span> (bent), <span class="chem">NH3</span> (trigonal pyramidal) and <span class="chem">CHCl3</span> (tetrahedral, but the outer atoms are not all the same).</p>
+            <p><span class="chem">CO2</span> and <span class="chem">CH4</span> are symmetrical, so their bond dipoles cancel.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>“It has polar bonds, so the molecule is polar” is wrong reasoning. <span class="chem">CO2</span>, <span class="chem">BF3</span> and <span class="chem">CCl4</span> all have polar bonds and are non-polar molecules. Always check the shape.</p>
+        </aside>
+        <aside class="callout callout--exam">
+          <p>For “explain why the molecule is polar” write two things. First: the bonds are polar because the atoms differ in electronegativity. Second: the bond dipoles do not cancel because of the shape, so there is a net dipole. An answer that only mentions electronegativity does not earn the second mark.</p>
+        </aside>
+        <aside class="callout callout--scope">
+          <p>You do not need to calculate a dipole moment or use its unit (the debye). The question is always a yes or no decision with a reason.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-2" data-syllabus="Structure 2.2.6" data-count="4" data-title="Molecular polarity: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.2.7 -->
+      <section class="topic-section" id="networks" data-toc="Covalent network structures">
+        <span class="section-code">Structure 2.2.7</span>
+        <h2>Covalent network structures</h2>
+
+        <p>A drop of water contains billions of separate molecules. A diamond is different. Every carbon atom in it is joined by covalent bonds to its neighbours, and those to their neighbours, through the whole crystal.</p>
+        <p>A <dfn data-def="A giant structure in which atoms are joined by covalent bonds throughout. There are no separate molecules.">covalent network structure</dfn> is a giant structure of atoms joined by covalent bonds throughout. It has no separate molecules. Carbon and silicon form covalent network structures.</p>
+        <p><dfn data-def="Different forms of the same element, with different bonding and structural patterns.">Allotropes</dfn> are different forms of the same element. Their atoms are bonded and arranged in different patterns, so they have different chemical and physical properties. Diamond, graphite, graphene and fullerenes are allotropes of carbon.</p>
+
+        <figure data-s1-widget="s2-2.network" data-title="Network structures in three dimensions" data-start="diamond">
+          <p class="widget__fallback">An interactive 3-D viewer for diamond, graphite, graphene, fullerene, silicon and silicon dioxide appears here when JavaScript is on. The table below describes each structure.</p>
+          <figcaption>Choose a structure and drag to turn it. Each model is a small piece: the real pattern continues in every direction (except in C<sub>60</sub>, which is one whole molecule). Count how many bonds each atom has.</figcaption>
+        </figure>
+
+        <h3>Diamond</h3>
+        <p>Each carbon atom is bonded to four other carbon atoms. The four bonds point to the corners of a tetrahedron, with angles of 109.5°. All four valence electrons of each atom are held in bonds.</p>
+        <ul>
+          <li>Very hard and a very high melting point: many strong covalent bonds must be broken.</li>
+          <li>Does not conduct electricity: there are no delocalized electrons and no ions.</li>
+          <li>Insoluble in water and in other solvents.</li>
+        </ul>
+
+        <h3>Graphite</h3>
+        <p>Each carbon atom is bonded to three other carbon atoms. The atoms form flat layers of hexagons, with angles of 120°.</p>
+        <p>Three of the four valence electrons of each atom are in bonds. The fourth is <dfn data-def="Not held between two particular atoms. A delocalized electron is free to move through the structure.">delocalized</dfn>: it is free to move along the layer.</p>
+        <p>Between the layers there are only weak London (dispersion) forces. You will meet these forces in section 2.2.8.</p>
+        <ul>
+          <li>Conducts electricity: the delocalized electrons can move along the layers.</li>
+          <li>Soft and slippery: the layers slide over each other easily. Graphite is used in pencils and as a lubricant.</li>
+          <li>Very high melting point: the covalent bonds inside the layers are strong.</li>
+        </ul>
+
+        <h3>Graphene</h3>
+        <p>Graphene is a single layer of graphite. It is one atom thick. Each carbon atom is bonded to three others in a flat sheet of hexagons, and one electron per atom is delocalized.</p>
+        <ul>
+          <li>A very good conductor of electricity and of heat: delocalized electrons move across the sheet.</li>
+          <li>Very strong for its mass, because of the strong covalent bonds in the sheet.</li>
+          <li>Very thin, light, flexible and almost transparent.</li>
+        </ul>
+
+        <h3>Fullerenes</h3>
+        <p>Fullerenes are closed cages of carbon atoms. The one to know is <span class="chem">C60</span>. Its 60 atoms form a ball of 12 pentagons and 20 hexagons, like a football. Each carbon atom is bonded to three others.</p>
+        <p><span class="chem">C60</span> is a <em>molecule</em>. It is not a network. Solid <span class="chem">C60</span> is made of separate molecules, held together by weak London (dispersion) forces.</p>
+        <ul>
+          <li>A much lower melting point than diamond or graphite: only the forces between molecules must be overcome.</li>
+          <li>A poor conductor of electricity: electrons are delocalized inside one molecule but cannot move from molecule to molecule.</li>
+          <li>Dissolves in some non-polar solvents, because it is made of separate non-polar molecules.</li>
+        </ul>
+
+        <h3>Silicon</h3>
+        <p>Silicon is below carbon in group 14, so it also has four valence electrons. Solid silicon has the same structure as diamond: each silicon atom is bonded to four others in a tetrahedral arrangement.</p>
+        <p>Silicon is hard and has a high melting point, 1414 °C. This is lower than carbon’s. A silicon atom is larger than a carbon atom, so the Si–Si bond is longer and weaker than the C–C bond.</p>
+
+        <h3>Silicon dioxide</h3>
+        <p>Silicon dioxide (silica) is the main substance in sand and quartz. Each silicon atom is bonded to four oxygen atoms in a tetrahedral arrangement. Each oxygen atom is bonded to two silicon atoms.</p>
+        <p>The formula <span class="chem">SiO2</span> is a ratio: one silicon atom for every two oxygen atoms. There are no <span class="chem">SiO2</span> molecules. Compare this with <span class="chem">CO2</span>, which is made of small separate molecules and is a gas.</p>
+        <ul>
+          <li>Hard, with a high melting point (about 1700 °C): strong Si–O covalent bonds run through the whole structure.</li>
+          <li>Does not conduct electricity: no delocalized electrons and no mobile ions.</li>
+          <li>Insoluble in water.</li>
+        </ul>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Structures and properties side by side</caption>
+            <thead><tr><th scope="col">Substance</th><th scope="col">Type of structure</th><th scope="col">Each atom is bonded to</th><th scope="col">Melting point</th><th scope="col">Hardness</th><th scope="col">Electrical conductivity</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">diamond</th><td>covalent network</td><td>4 C, tetrahedral</td><td>very high</td><td>very hard</td><td>none</td></tr>
+              <tr><th scope="row">graphite</th><td>covalent network in layers</td><td>3 C, flat hexagons</td><td>very high</td><td>soft, slippery</td><td>good, along the layers</td></tr>
+              <tr><th scope="row">graphene</th><td>one covalent layer</td><td>3 C, flat hexagons</td><td>very high</td><td>very strong sheet</td><td>very good</td></tr>
+              <tr><th scope="row">fullerene <span class="chem">C60</span></th><td>molecular</td><td>3 C, closed cage</td><td>low for carbon</td><td>soft</td><td>poor</td></tr>
+              <tr><th scope="row">silicon</th><td>covalent network</td><td>4 Si, tetrahedral</td><td>high (1414 °C)</td><td>hard</td><td>slight</td></tr>
+              <tr><th scope="row">silicon dioxide</th><td>covalent network</td><td>Si: 4 O; O: 2 Si</td><td>high (about 1700 °C)</td><td>hard</td><td>none</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="small muted">The data booklet gives 3500 °C for the melting point of carbon and 1414 °C for silicon (section 8).</p>
+
+        <div data-s1-numeric data-answer="1" data-tolerance="0" data-label="Delocalized electrons per carbon atom">
+          <div class="tryit__q"><p>In graphite each carbon atom forms three covalent bonds, each with one of its own electrons. How many valence electrons per carbon atom are left to be delocalized?</p></div>
+          <ol class="tryit__hints">
+            <li>How many valence electrons does a carbon atom have?</li>
+            <li>Subtract the three electrons used in the three bonds.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">4 valence electrons − 3 in bonds = 1 delocalized electron</div>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Do not write “intermolecular forces” for diamond, silicon or silicon dioxide. They have no molecules. And graphite does not conduct because of “free ions” or “free atoms”. It conducts because each carbon atom has one <b>delocalized electron</b> that can move along the layers.</p>
+        </aside>
+        <aside class="callout callout--exam">
+          <p>“Describe the structure” marks are for: the number of atoms each atom is bonded to, the arrangement (tetrahedral, or layers of hexagons), and delocalized electrons where they exist. “Explain the property” marks need a link, for example: “strong covalent bonds throughout the structure, so a large amount of energy is needed to break them”.</p>
+        </aside>
+        <aside class="callout callout--scope">
+          <p>Carbon nanotubes, semiconductors and doping are not in the guide. The required list is exactly: silicon, silicon dioxide, diamond, graphite, fullerenes and graphene. Explaining these structures with hybridization is Additional HL.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-2" data-syllabus="Structure 2.2.7" data-count="4" data-title="Network structures: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.2.8 -->
+      <section class="topic-section" id="imf" data-toc="Intermolecular forces">
+        <span class="section-code">Structure 2.2.8</span>
+        <h2>Intermolecular forces</h2>
+
+        <p>Water forms drops. Petrol evaporates quickly. Candle wax is a solid. In all three, the molecules attract each other, but with different strengths.</p>
+        <p><dfn data-def="Forces of attraction between molecules. They are much weaker than covalent bonds.">Intermolecular forces</dfn> are forces of attraction <em>between</em> molecules. They are much weaker than the covalent bonds <em>inside</em> a molecule.</p>
+        <aside class="callout callout--key">
+          <p>When a molecular substance melts or boils, the molecules move apart. Only the intermolecular forces are overcome. The covalent bonds inside each molecule do not break.</p>
+        </aside>
+        <p>The kind of force between molecules depends on two things: the size of the molecules and their polarity. There are four kinds to know.</p>
+
+        <h3>London (dispersion) forces</h3>
+        <p>The electrons in a molecule are always moving. At any moment, there may be slightly more electrons on one side than on the other. For that moment the molecule has a small, temporary dipole.</p>
+        <p>This temporary dipole pushes or pulls the electrons in a neighbouring molecule. It induces (causes) a dipole there. The two temporary dipoles attract each other.</p>
+
+        <figure class="s22-figure">
+          <div class="s22-panels">
+            <div>
+              <svg viewBox="0 0 170 90" role="img" aria-label="Two atoms side by side. Each has an evenly spread electron cloud.">
+                <ellipse cx="45" cy="45" rx="32" ry="32" fill="var(--accent-soft)" stroke="var(--line-strong)"/><circle cx="45" cy="45" r="5" fill="var(--ink)"/>
+                <ellipse cx="125" cy="45" rx="32" ry="32" fill="var(--accent-soft)" stroke="var(--line-strong)"/><circle cx="125" cy="45" r="5" fill="var(--ink)"/>
+              </svg>
+              <p><b>1.</b> On average, the electrons are spread evenly. There is no dipole.</p>
+            </div>
+            <div>
+              <svg viewBox="0 0 170 90" role="img" aria-label="The electron cloud of the left atom has shifted to the right. Its left side is delta plus and its right side is delta minus.">
+                <ellipse cx="52" cy="45" rx="34" ry="30" fill="var(--accent-soft)" stroke="var(--line-strong)"/><circle cx="40" cy="45" r="5" fill="var(--ink)"/>
+                <text x="18" y="18" text-anchor="middle" class="s22-svg-delta">δ+</text><text x="78" y="18" text-anchor="middle" class="s22-svg-delta">δ−</text>
+                <ellipse cx="130" cy="45" rx="32" ry="32" fill="var(--accent-soft)" stroke="var(--line-strong)"/><circle cx="130" cy="45" r="5" fill="var(--ink)"/>
+              </svg>
+              <p><b>2.</b> For an instant, the electrons in one atom are more on one side: a temporary dipole.</p>
+            </div>
+            <div>
+              <svg viewBox="0 0 170 90" role="img" aria-label="Both atoms now have their electron clouds shifted to the right. A dashed line joins the delta minus side of the left atom to the delta plus side of the right atom.">
+                <ellipse cx="47" cy="45" rx="34" ry="30" fill="var(--accent-soft)" stroke="var(--line-strong)"/><circle cx="35" cy="45" r="5" fill="var(--ink)"/>
+                <text x="14" y="18" text-anchor="middle" class="s22-svg-delta">δ+</text><text x="70" y="18" text-anchor="middle" class="s22-svg-delta">δ−</text>
+                <ellipse cx="133" cy="45" rx="34" ry="30" fill="var(--accent-soft)" stroke="var(--line-strong)"/><circle cx="121" cy="45" r="5" fill="var(--ink)"/>
+                <text x="102" y="18" text-anchor="middle" class="s22-svg-delta">δ+</text><text x="158" y="18" text-anchor="middle" class="s22-svg-delta">δ−</text>
+                <line x1="82" y1="45" x2="98" y2="45" stroke="var(--accent)" stroke-width="2.2" stroke-dasharray="4 3"/>
+              </svg>
+              <p><b>3.</b> It repels the electrons of its neighbour and induces a dipole there. The two dipoles attract.</p>
+            </div>
+          </div>
+          <figcaption>A model of how a London (dispersion) force arises between two atoms or non-polar molecules. The dipoles last for an instant and keep changing.</figcaption>
+        </figure>
+
+        <p>These attractions are <dfn data-def="Weak attractions between temporary (instantaneous) dipoles and the dipoles they induce in neighbouring molecules. They act between all molecules.">London (dispersion) forces</dfn>. Two facts matter most.</p>
+        <ul>
+          <li>London forces act between <b>all</b> molecules and atoms, polar or non-polar, because all of them have electrons.</li>
+          <li>London forces are stronger when a molecule has more electrons, so they increase with molar mass. They are also stronger when molecules can touch over a larger surface area.</li>
+        </ul>
+
+        <h3>Dipole–dipole forces</h3>
+        <p>A polar molecule has a permanent dipole: one end is always δ+ and the other is always δ−. The δ+ end of one molecule attracts the δ− end of the next.</p>
+        <p>These attractions are <dfn data-def="Attractions between the permanent dipoles of polar molecules.">dipole–dipole forces</dfn>. They act between polar molecules only, for example between HCl molecules.</p>
+
+        <h3>Dipole–induced dipole forces</h3>
+        <p>Now mix a polar substance with a non-polar one. The permanent dipole of the polar molecule shifts the electrons of the non-polar molecule and induces a dipole in it. The two then attract.</p>
+        <p>This is a <dfn data-def="The attraction between a polar molecule and the dipole it induces in a non-polar molecule.">dipole–induced dipole force</dfn>. One example is the attraction between a polar water molecule and a non-polar oxygen molecule. It is why a little oxygen dissolves in water.</p>
+
+        <h3>Hydrogen bonding</h3>
+        <p>A <dfn data-def="An attraction between a hydrogen atom that is covalently bonded to an electronegative atom, and an electronegative atom of a neighbouring molecule.">hydrogen bond</dfn> occurs when hydrogen, covalently bonded to an electronegative atom, has an attractive interaction with a neighbouring electronegative atom.</p>
+        <p>In almost all the examples you will meet, the electronegative atoms are nitrogen, oxygen or fluorine. So look for two things.</p>
+        <ol>
+          <li>A hydrogen atom bonded directly to N, O or F. This bond is very polar, so the H atom is strongly δ+.</li>
+          <li>A lone pair on an N, O or F atom of a neighbouring molecule. The δ+ hydrogen is attracted to it.</li>
+        </ol>
+        <p>Water, ammonia, hydrogen fluoride and ethanol all form hydrogen bonds between their own molecules. Hydrogen bonding is the strongest of the four intermolecular forces. It is still much weaker than a covalent bond.</p>
+
+        <figure data-s1-widget="s2-2.hbond" data-title="How to draw a hydrogen bond">
+          <p class="widget__fallback">An interactive drawing appears here when JavaScript is on. It shows two water molecules with partial charges, a lone pair on oxygen, and a dashed line from that lone pair to a hydrogen atom of the other molecule.</p>
+          <figcaption>Press “Add the next label” four times. These are the four things to put in your own drawing.</figcaption>
+        </figure>
+
+        <aside class="callout callout--mistake">
+          <p>A hydrogen bond is not the covalent O–H bond inside a molecule. It is the attraction <em>between</em> molecules. Also, a hydrogen atom bonded to carbon does not form hydrogen bonds. So propanone, <span class="chem">CH3COCH3</span>, has no hydrogen bonding between its own molecules, although it contains H atoms and an O atom.</p>
+        </aside>
+        <aside class="callout callout--exam">
+          <p>“Explain what a hydrogen bond is” has two marks. One: hydrogen is covalently bonded to a highly electronegative atom (N, O or F). Two: it is attracted to an electronegative atom (or its lone pair) on a neighbouring molecule. A clearly labelled diagram can earn both.</p>
+        </aside>
+
+        <h3>The term “van der Waals forces”</h3>
+        <aside class="callout callout--key">
+          <p><dfn data-def="An inclusive term for three intermolecular forces: London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces. It does not include hydrogen bonding.">Van der Waals forces</dfn> is an inclusive term. It covers three forces together: London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces. It does <b>not</b> include hydrogen bonding.</p>
+        </aside>
+        <aside class="callout callout--exam">
+          <p>Do not write “van der Waals forces” when you mean London forces. Markschemes have refused it. Write “London (dispersion) forces”. “London forces” or “dispersion forces” are also accepted.</p>
+        </aside>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The four intermolecular forces</caption>
+            <thead><tr><th scope="col">Force</th><th scope="col">Acts between</th><th scope="col">Example</th><th scope="col">A van der Waals force?</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">London (dispersion)</th><td>all molecules and atoms</td><td><span class="chem">CH4</span>, <span class="chem">Cl2</span>, <span class="chem">CO2</span>, and every other molecule</td><td>yes</td></tr>
+              <tr><th scope="row">dipole–induced dipole</th><td>a polar molecule and a non-polar molecule</td><td><span class="chem">H2O</span> with <span class="chem">O2</span></td><td>yes</td></tr>
+              <tr><th scope="row">dipole–dipole</th><td>polar molecules</td><td>HCl, <span class="chem">CH3Cl</span>, propanone</td><td>yes</td></tr>
+              <tr><th scope="row">hydrogen bonding</th><td>molecules with H bonded to N, O or F</td><td><span class="chem">H2O</span>, <span class="chem">NH3</span>, HF, ethanol</td><td>no</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Method in words: which forces are present?</h3>
+        <ol>
+          <li>Every substance: write London (dispersion) forces.</li>
+          <li>Is the molecule polar (section 2.2.6)? If yes, add dipole–dipole forces.</li>
+          <li>Is there an H atom bonded directly to N, O or F? If yes, add hydrogen bonding.</li>
+          <li>For a mixture of a polar and a non-polar substance, the force between the two different molecules is dipole–induced dipole (as well as London).</li>
+        </ol>
+
+        <figure data-s1-widget="s2-2.imf" data-title="Which forces are present?">
+          <p class="widget__fallback">An interactive exercise appears here when JavaScript is on. You choose a substance and tick the intermolecular forces that act between its molecules.</p>
+          <figcaption>Choose a substance, tick every force that is present, then check. Start with water, then try propanone and carbon dioxide. Boiling points are measured values at normal atmospheric pressure, rounded to the nearest degree.</figcaption>
+        </figure>
+
+        <div data-s1-numeric data-answer="3" data-tolerance="0" data-label="Number of substances">
+          <div class="tryit__q"><p>How many of these six substances have hydrogen bonding between their own molecules? <span class="chem">CH3OH</span>, <span class="chem">CH3CHO</span>, <span class="chem">NH3</span>, HCl, <span class="chem">CH3OCH3</span>, HF</p></div>
+          <ol class="tryit__hints">
+            <li>For each one, ask: is there an H atom bonded directly to N, O or F?</li>
+            <li>In <span class="chem">CH3CHO</span> and <span class="chem">CH3OCH3</span> every H atom is bonded to carbon. Chlorine is not N, O or F.</li>
+          </ol>
+          <div class="tryit__solution">
+            <p>Three: <span class="chem">CH3OH</span> (O–H), <span class="chem">NH3</span> (N–H) and HF (F–H).</p>
+            <p>Ethanal and methoxymethane contain oxygen, but no H atom is bonded to it. HCl is polar, so it has dipole–dipole forces, but no hydrogen bonding.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--scope">
+          <p>“Ion–dipole forces” are not in the guide’s list of intermolecular forces. You do not need the history of the hydrogen bond definition or any calculation of the strength of a force.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-2" data-syllabus="Structure 2.2.8" data-count="5" data-title="Intermolecular forces: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.2.9 -->
+      <section class="topic-section" id="properties" data-toc="Physical properties">
+        <span class="section-code">Structure 2.2.9</span>
+        <h2>Explaining physical properties</h2>
+
+        <p>Nail polish remover (propanone) dries on your skin in seconds. Water takes minutes. Cooking oil stays. The difference comes from the strength of the forces between the molecules.</p>
+        <aside class="callout callout--key">
+          <p>For molecules of comparable molar mass, the strengths are generally: London (dispersion) forces &lt; dipole–dipole forces &lt; hydrogen bonding. All of them are much weaker than covalent bonds.</p>
+        </aside>
+        <p>The words “comparable molar mass” matter. London forces grow with the number of electrons. A large non-polar molecule can have stronger forces in total than a small polar one. Iodine, <span class="chem">I2</span>, is non-polar, yet it is a solid at room temperature.</p>
+
+        <h3>Volatility</h3>
+        <p><dfn data-def="How easily a substance turns into a vapour. A volatile substance evaporates easily and has a low boiling point.">Volatility</dfn> is how easily a substance turns into a vapour. A volatile substance has a low boiling point.</p>
+        <p>To boil a liquid, you must give its molecules enough energy to separate. Stronger intermolecular forces need more energy. So stronger forces mean a higher boiling point and a lower volatility.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Three compounds with almost the same molar mass</caption>
+            <thead><tr><th scope="col">Compound</th><th scope="col" class="num">Molar mass / g mol<sup>−1</sup></th><th scope="col">Strongest intermolecular force</th><th scope="col" class="num">Boiling point / °C</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">propane, <span class="chem">CH3CH2CH3</span></th><td class="num">44.11</td><td>London (dispersion)</td><td class="num">−42</td></tr>
+              <tr><th scope="row">ethanal, <span class="chem">CH3CHO</span></th><td class="num">44.06</td><td>dipole–dipole</td><td class="num">20</td></tr>
+              <tr><th scope="row">ethanol, <span class="chem">CH3CH2OH</span></th><td class="num">46.08</td><td>hydrogen bonding</td><td class="num">78</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Bigger molecules, stronger London forces</h3>
+        <p>In a family of similar molecules, the boiling point rises as the molecules get bigger. More electrons mean stronger London forces.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Boiling points rise with the number of electrons</caption>
+            <thead><tr><th scope="col">Substance</th><th scope="col" class="num">Electrons per molecule</th><th scope="col" class="num">Boiling point / °C</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">methane, <span class="chem">CH4</span></th><td class="num">10</td><td class="num">−162</td></tr>
+              <tr><th scope="row">ethane, <span class="chem">C2H6</span></th><td class="num">18</td><td class="num">−89</td></tr>
+              <tr><th scope="row">propane, <span class="chem">C3H8</span></th><td class="num">26</td><td class="num">−42</td></tr>
+              <tr><th scope="row">butane, <span class="chem">C4H10</span></th><td class="num">34</td><td class="num">−1</td></tr>
+              <tr><th scope="row">chlorine, <span class="chem">Cl2</span></th><td class="num">34</td><td class="num">−34</td></tr>
+              <tr><th scope="row">bromine, <span class="chem">Br2</span></th><td class="num">70</td><td class="num">59</td></tr>
+              <tr><th scope="row">iodine, <span class="chem">I2</span></th><td class="num">106</td><td class="num">184</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Shape matters too. Pentane and 2,2-dimethylpropane are both <span class="chem">C5H12</span>. Pentane is a long chain, so its molecules touch over a large surface area. It boils at 36 °C. The branched molecule is compact, like a ball. It boils at 10 °C.</p>
+
+        <figure data-s1-widget="s2-2.bp" data-title="Which has the higher boiling point?">
+          <p class="widget__fallback">An interactive exercise appears here when JavaScript is on. It asks you to predict which of two substances has the higher boiling point, then shows the measured values and a model explanation.</p>
+          <figcaption>Choose a pair and predict before you look. Then read the model answer: it always names the forces in both substances, compares their strength, and links to energy.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 7">
+          <h3 class="worked__title">Explaining a boiling-point difference</h3>
+          <div class="worked__problem"><p>Butane, <span class="chem">CH3CH2CH2CH3</span>, boils at −1 °C. Propanone, <span class="chem">CH3COCH3</span>, boils at 56 °C. Their molar masses are 58.14 and 58.09 <span class="unit">g mol-1</span>. Explain the difference in boiling point.</p></div>
+          <ol class="worked__steps">
+            <li data-title="Decide whether each molecule is polar">
+              <p class="worked__why">The types of force depend on polarity. Butane contains only C–C and C–H bonds. Propanone has a polar C=O bond that nothing cancels.</p>
+              <div class="worked__math">butane: non-polar</div>
+              <div class="worked__math">propanone: polar (C=O, 3.4 − 2.6 = 0.8)</div>
+            </li>
+            <li data-title="Name the forces in BOTH substances">
+              <p class="worked__why">This is the first mark. Naming the force in only one substance is not enough.</p>
+              <div class="worked__math">butane: London (dispersion) forces only</div>
+              <div class="worked__math">propanone: London (dispersion) forces and dipole–dipole forces</div>
+            </li>
+            <li data-title="Check for hydrogen bonding">
+              <p class="worked__why">Propanone contains oxygen, so check. Every H atom in propanone is bonded to carbon.</p>
+              <div class="worked__math">no H bonded to N, O or F → no hydrogen bonding in either</div>
+            </li>
+            <li data-title="Compare the strength">
+              <p class="worked__why">This is the second mark. The molar masses are almost equal, so the London forces are similar.</p>
+              <div class="worked__math">propanone has dipole–dipole forces as well → <b>stronger intermolecular forces in propanone</b></div>
+            </li>
+            <li data-title="Link to energy">
+              <p class="worked__why">Finish by connecting force strength to the property in the question.</p>
+              <div class="worked__math">more energy is needed to separate propanone molecules → higher boiling point</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Butane has London (dispersion) forces only. Propanone has London (dispersion) forces and dipole–dipole forces. The intermolecular forces in propanone are stronger, so more energy is needed to separate its molecules.</p></div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>Boiling-point questions are marked in the same way every time. Mark 1: name the intermolecular forces in <b>both</b> substances. Mark 2: state which are stronger. “Stronger bonding” or “stronger forces” without the names earns nothing.</p>
+        </aside>
+        <aside class="callout callout--mistake">
+          <p>Never write that covalent bonds break when a molecular substance boils. Boiling water gives water vapour, which is still <span class="chem">H2O</span> molecules. Only the forces between the molecules are overcome.</p>
+        </aside>
+
+        <h3>Electrical conductivity</h3>
+        <p>An electric current is a flow of charged particles. A substance conducts only if it has charged particles that are free to move: ions or delocalized electrons.</p>
+        <ul>
+          <li>Molecular substances do not conduct as solids, liquids or gases. Molecules have no overall charge, and their electrons are held in bonds or lone pairs.</li>
+          <li>Covalent network solids do not conduct either. Diamond and silicon dioxide have no delocalized electrons.</li>
+          <li>Graphite and graphene are the exceptions. They have delocalized electrons, so they conduct.</li>
+        </ul>
+
+        <h3>Solubility</h3>
+        <p>A useful rule is “like dissolves like”. Polar substances tend to dissolve in polar solvents such as water. Non-polar substances tend to dissolve in non-polar solvents such as hexane.</p>
+        <p>The reason is about forces. A substance dissolves when its molecules can form attractions with the solvent molecules that are about as strong as the attractions that were there before.</p>
+        <ul>
+          <li>Water molecules are held to each other by hydrogen bonds. A solute that can form hydrogen bonds with water, such as ethanol, mixes in easily.</li>
+          <li>A non-polar solute, such as hexane, can form only weak London forces with water. These cannot replace the hydrogen bonds between water molecules. So the two liquids stay separate.</li>
+          <li>As the hydrocarbon chain of an alcohol gets longer, more of the molecule is non-polar. Solubility in water falls. Ethanol mixes completely with water. Octan-1-ol hardly dissolves.</li>
+          <li>Covalent network solids are insoluble in all common solvents. Dissolving would mean breaking strong covalent bonds.</li>
+        </ul>
+        <p>Some molecules cannot form hydrogen bonds with themselves but can accept them from water. Propanone has a lone pair on oxygen, so a water H atom can hydrogen-bond to it. This is why propanone mixes with water.</p>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 8">
+          <h3 class="worked__title">Explaining solubility</h3>
+          <div class="worked__problem"><p>Ethanol, <span class="chem">CH3CH2OH</span>, mixes completely with water. Hexane, <span class="chem">C6H14</span>, is almost insoluble in water. Explain this difference.</p></div>
+          <ol class="worked__steps">
+            <li data-title="Describe the solvent">
+              <p class="worked__why">Solubility depends on both partners, so start with water.</p>
+              <div class="worked__math">water: polar, hydrogen bonding between molecules</div>
+            </li>
+            <li data-title="Find the structural feature of each solute">
+              <p class="worked__why">Look for an H atom bonded to N, O or F, and for polarity.</p>
+              <div class="worked__math">ethanol: has an O–H group, polar</div>
+              <div class="worked__math">hexane: only C–C and C–H bonds, non-polar</div>
+            </li>
+            <li data-title="Name the solute–water attractions">
+              <p class="worked__why">A solute dissolves well if it can attract water molecules strongly.</p>
+              <div class="worked__math">ethanol and water: <b>hydrogen bonds</b> form between them</div>
+              <div class="worked__math">hexane and water: only weak London (dispersion) forces</div>
+            </li>
+            <li data-title="Compare with the forces already present">
+              <p class="worked__why">The new attractions must be able to replace the hydrogen bonds between water molecules.</p>
+              <div class="worked__math">hexane–water forces are much weaker than water–water hydrogen bonds → hexane does not mix</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Ethanol has an O–H group, so it forms hydrogen bonds with water molecules and dissolves. Hexane is non-polar. It forms only London (dispersion) forces with water, which are too weak to replace the hydrogen bonds between water molecules.</p></div>
+        </div>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Molecular substances and covalent network substances compared</caption>
+            <thead><tr><th scope="col">Property</th><th scope="col">Molecular (for example <span class="chem">H2O</span>, <span class="chem">CO2</span>, <span class="chem">I2</span>)</th><th scope="col">Covalent network (for example diamond, <span class="chem">SiO2</span>)</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">What is overcome on melting or boiling</th><td>weak intermolecular forces</td><td>strong covalent bonds</td></tr>
+              <tr><th scope="row">Melting and boiling points</th><td>low</td><td>very high</td></tr>
+              <tr><th scope="row">Volatility</th><td>often high</td><td>very low</td></tr>
+              <tr><th scope="row">Electrical conductivity</th><td>none</td><td>none, except graphite and graphene</td></tr>
+              <tr><th scope="row">Solubility</th><td>“like dissolves like”</td><td>insoluble</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <aside class="callout callout--exam">
+          <p>To compare the melting point of a network solid with a molecular substance, give three points. The network has covalent bonds between all its atoms. The molecular substance has (named) intermolecular forces between its molecules. Covalent bonds are much stronger than intermolecular forces.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-2" data-syllabus="Structure 2.2.9" data-count="5" data-title="Physical properties: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.2.10 -->
+      <section class="topic-section" id="chromatography" data-toc="Chromatography">
+        <span class="section-code">Structure 2.2.10</span>
+        <h2>Chromatography</h2>
+
+        <p>A drop of water falls on a note written in black ink. As the water spreads through the paper, the black mark separates into bands of blue, red and yellow. The ink was a mixture, and the water has separated it.</p>
+        <p><dfn data-def="A technique that separates the components of a mixture, based on their relative attractions to a mobile phase and a stationary phase.">Chromatography</dfn> is a technique that separates the components of a mixture. It works because the components have different attractions, involving intermolecular forces, to two phases.</p>
+        <ul>
+          <li>The <dfn data-def="The phase that does not move in chromatography, for example the water held in the paper or the solid coating of a TLC plate.">stationary phase</dfn> stays in place.</li>
+          <li>The <dfn data-def="The phase that moves in chromatography: the solvent, which carries the components of the mixture with it.">mobile phase</dfn> moves. It is the solvent, and it carries the mixture with it.</li>
+        </ul>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The two techniques you need</caption>
+            <thead><tr><th scope="col">Technique</th><th scope="col">Stationary phase</th><th scope="col">Mobile phase</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">paper chromatography</th><td>water held in the fibres of the paper</td><td>a solvent that rises up the paper</td></tr>
+              <tr><th scope="row">thin layer chromatography (TLC)</th><td>a thin layer of a solid such as silica (<span class="chem">SiO2</span>) on a glass or plastic plate</td><td>a solvent that rises up the plate</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Why the components separate</h3>
+        <p>Each component is pulled in two ways at once. It is attracted to the stationary phase, which holds it back. It is attracted to the moving solvent, which carries it forward.</p>
+        <ul>
+          <li>A component that is attracted strongly to the stationary phase spends more time held still. It moves a short distance.</li>
+          <li>A component that is attracted more to the mobile phase (it is more soluble in the solvent) spends more time moving. It travels far.</li>
+        </ul>
+        <p>In both paper chromatography and TLC with silica, the stationary phase is polar and can form hydrogen bonds. So polar components, and those that can hydrogen-bond, are held back most. Less polar components travel further with a less polar solvent.</p>
+
+        <h3>How a chromatogram is run</h3>
+        <ol>
+          <li>Draw a baseline in <b>pencil</b> near the bottom of the paper. Pencil does not dissolve in the solvent. Ink would dissolve and move.</li>
+          <li>Put a small spot of the mixture on the baseline. Put spots of known pure substances beside it for comparison.</li>
+          <li>Stand the paper in a little solvent. The baseline must be <b>above</b> the solvent level. Otherwise the spots dissolve into the solvent in the container.</li>
+          <li><b>Cover</b> the container. This stops the solvent evaporating from the paper as it rises.</li>
+          <li>Take the paper out before the solvent reaches the top. Mark the <dfn data-def="The highest level reached by the solvent on the paper or plate.">solvent front</dfn> with pencil at once, before the solvent dries.</li>
+        </ol>
+        <p>The result is a <dfn data-def="The paper or plate after the run, showing the separated spots.">chromatogram</dfn>.</p>
+
+        <h3>The retardation factor, R<sub>F</sub></h3>
+        <p>How far a spot moves depends on how far the solvent was allowed to run. So chemists use a ratio instead of a distance.</p>
+        <div class="eq">
+          <div class="eq__formula"><i>R</i><sub>F</sub> = <span class="frac"><span><i>d</i><sub>spot</sub></span><span><i>d</i><sub>solvent</sub></span></span></div>
+          <dl class="eq__legend">
+            <div><dt>R<sub>F</sub></dt><dd>retardation factor (a ratio, so it has no unit)</dd></div>
+            <div><dt>d<sub>spot</sub></dt><dd>distance moved by the spot: from the baseline to the centre of the spot <span class="unit">cm</span></dd></div>
+            <div><dt>d<sub>solvent</sub></dt><dd>distance moved by the solvent front: from the baseline to the solvent front <span class="unit">cm</span></dd></div>
+          </dl>
+        </div>
+        <ul>
+          <li>Both distances are measured <b>from the baseline</b>.</li>
+          <li>An R<sub>F</sub> value has no unit and is always between 0 and 1.</li>
+          <li>A substance has the same R<sub>F</sub> value every time, if the stationary phase, the solvent and the temperature are the same.</li>
+        </ul>
+        <p>This lets you interpret a chromatogram. If a spot from the mixture has the same R<sub>F</sub> value as a known substance run in the same way, it is probably that substance. A pure substance gives one spot. A mixture usually gives more than one.</p>
+
+        <figure data-s1-widget="s2-2.chroma" data-title="Chromatography simulator">
+          <p class="widget__fallback">An interactive chromatography simulation appears here when JavaScript is on. It runs a chromatogram of a mixture next to three known substances and lets you measure distances with a ruler to calculate R<sub>F</sub> values.</p>
+          <figcaption>Press Run. Then slide the measuring line to the baseline, to a spot, and to the solvent front, and calculate an R<sub>F</sub> value. Run it again: the distances change but the R<sub>F</sub> values do not. Then change the solvent. In lane M, spot 1 is the most polar component and spot 3 is the least polar. The numbers are model data.</figcaption>
+        </figure>
+
+        <h3>Method in words</h3>
+        <ol>
+          <li>Measure from the baseline to the centre of the spot.</li>
+          <li>Measure from the baseline to the solvent front.</li>
+          <li>Divide the first distance by the second. Use the same unit for both (cm or mm).</li>
+          <li>Give the answer to 2 significant figures, with no unit. Check that it is less than 1.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 9">
+          <h3 class="worked__title">Calculating an R<sub>F</sub> value</h3>
+          <div class="worked__problem"><p>On a chromatogram the solvent front is 8.0 cm above the baseline. The centre of a blue spot is 3.6 cm above the baseline. Calculate the R<sub>F</sub> value of the blue substance.</p></div>
+          <ol class="worked__steps">
+            <li data-title="Identify the two distances">
+              <p class="worked__why">Both must start at the baseline. Here they already do.</p>
+              <div class="worked__math">distance moved by the spot = 3.6 cm</div>
+              <div class="worked__math">distance moved by the solvent front = 8.0 cm</div>
+            </li>
+            <li data-title="Write the ratio with the spot on top">
+              <p class="worked__why">The spot can never travel further than the solvent, so the smaller number goes on top.</p>
+              <div class="worked__math"><i>R</i><sub>F</sub> = 3.6 cm / 8.0 cm</div>
+            </li>
+            <li data-title="Calculate">
+              <p class="worked__why">The units cancel, so the answer has no unit.</p>
+              <div class="worked__math"><i>R</i><sub>F</sub> = 0.45</div>
+            </li>
+            <li data-title="Check">
+              <p class="worked__why" data-label="Check">The value is between 0 and 1, and the data have 2 significant figures.</p>
+              <div class="worked__math"><i>R</i><sub>F</sub> = <b>0.45</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>R<sub>F</sub> = 0.45 (no unit)</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="0.36" data-tolerance="0.006" data-sigfigs="2" data-label="RF value">
+          <div class="tryit__q"><p>A spot moves 2.7 cm from the baseline. The solvent front moves 7.5 cm from the baseline. Calculate the R<sub>F</sub> value.</p></div>
+          <ol class="tryit__hints">
+            <li>Which distance goes on top? The answer must be less than 1.</li>
+            <li>Divide 2.7 cm by 7.5 cm.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>R</i><sub>F</sub> = 2.7 cm / 7.5 cm = 0.36</div>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="0.6" data-tolerance="0.006" data-sigfigs="2" data-label="RF value">
+          <div class="tryit__q"><p>A student measures everything from the bottom edge of the paper. The baseline is at 1.5 cm, the centre of a spot is at 6.3 cm, and the solvent front is at 9.5 cm. Calculate the R<sub>F</sub> value of the spot.</p></div>
+          <ol class="tryit__hints">
+            <li>The distances you need start at the baseline, not at the bottom edge. Subtract 1.5 cm from each reading.</li>
+            <li>The spot moved 6.3 − 1.5 = 4.8 cm. Work out how far the solvent front moved in the same way, then divide.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">distance moved by the spot = 6.3 cm − 1.5 cm = 4.8 cm</div>
+            <div class="worked__math">distance moved by the solvent front = 9.5 cm − 1.5 cm = 8.0 cm</div>
+            <div class="worked__math"><i>R</i><sub>F</sub> = 4.8 cm / 8.0 cm = 0.60</div>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Three errors are common. Measuring from the bottom edge of the paper, not from the baseline. Dividing by the distance to the top of the paper, not to the solvent front. Giving a value greater than 1, or adding a unit.</p>
+        </aside>
+        <aside class="callout callout--mistake">
+          <p>Do not reverse the polarity logic. With a polar stationary phase, the <em>more</em> polar component is held back more. It moves less and has the <em>smaller</em> R<sub>F</sub> value.</p>
+        </aside>
+        <aside class="callout callout--exam">
+          <p>Because you measure from a diagram, markschemes accept a small range around the R<sub>F</sub> value. To explain the principle, say: the components have different attractions to the stationary phase and to the mobile phase (or different solubilities in the solvent), so they move at different speeds. To improve a poor separation, suggest a different solvent or a longer paper.</p>
+        </aside>
+        <aside class="callout callout--scope">
+          <p>You do not need to know about locating agents (chemicals or lamps used to make colourless spots visible). The technical and operating details of gas chromatography and high-performance liquid chromatography will not be assessed.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s2-2" data-syllabus="Structure 2.2.10" data-count="4" data-title="Chromatography: quick check"></div>
+      </section>
+
+      <hr class="spectrum">
+
+      <!-- ============================================================ LINKS -->
+      <section class="topic-section" id="linking" data-toc="Linking it up">
+        <h2>Linking it up</h2>
+        <p>These are some of the linking questions from the guide, with short answers. They connect this topic to others.</p>
+
+        <h3>Why do ionic bonds only form between different elements, while covalent bonds can form between atoms of the same element?</h3>
+        <p>An ionic bond needs one atom to lose electrons and another to gain them. That needs a large difference in electronegativity, so the two atoms must be different elements. Two atoms of the same element attract electrons equally. Neither can take electrons from the other, so they share them in a covalent bond. (Structure 2.1)</p>
+
+        <h3>Why are silicon–silicon bonds generally weaker than carbon–carbon bonds?</h3>
+        <p>A silicon atom has one more occupied energy level than a carbon atom, so it is larger. In an Si–Si bond the shared pair is further from both nuclei, and the attraction is weaker. The data booklet shows this: Si–Si is 232 pm and 226 <span class="unit">kJ mol-1</span>, while C–C is 154 pm and 346 <span class="unit">kJ mol-1</span>. (Structure 3.1)</p>
+
+        <h3>To what extent can intermolecular forces explain the deviation of real gases from ideal behaviour?</h3>
+        <p>The ideal gas model assumes that there are no forces between the particles. Real molecules do attract each other. At low temperature and high pressure the molecules are slow and close together, so these attractions matter and the gas no longer behaves ideally. Gases with stronger intermolecular forces deviate more. (Structure 1.5)</p>
+
+        <h3>How do the terms “bonds” and “forces” compare?</h3>
+        <p>Both are electrostatic attractions. “Bond” is normally used for the strong attractions that hold atoms or ions together: ionic, covalent and metallic bonds. “Force” is normally used for the much weaker attractions between molecules. The hydrogen bond has “bond” in its name, but it is an intermolecular force.</p>
+
+        <h3>What features of a molecule make it “infrared (IR) active”?</h3>
+        <p>HL only (Structure 3.2): a molecule absorbs infrared radiation when a vibration changes its dipole. So bond polarity and molecular geometry, the ideas of section 2.2.6, decide whether a molecule such as <span class="chem">CO2</span> or <span class="chem">H2O</span> absorbs infrared radiation.</p>
+      </section>
+
+      <!-- ============================================================ PRACTICE -->
+      <section class="topic-section" id="practice" data-toc="Exam-style practice">
+        <h2>Exam-style practice</h2>
+        <p>Three sets, from first steps to level 7. Questions you have not yet answered correctly come first. All questions are original and written in the style of the IB papers.</p>
+        <div data-s1-quiz data-topic="s2-2" data-tier="foundation" data-count="8" data-title="Foundation: one idea at a time"></div>
+        <div data-s1-quiz data-topic="s2-2" data-tier="exam" data-count="8" data-title="Exam standard"></div>
+        <div data-s1-quiz data-topic="s2-2" data-tier="challenge" data-count="6" data-title="Challenge: level 7"></div>
+        <p><a class="btn" href="../practice.html">Open the practice arena</a></p>
+      </section>
+
+      <!-- ============================================================ HL POINTER -->
+      <section class="topic-section" id="next-hl" data-toc="Next: Additional HL">
+        <h2>Where this topic continues</h2>
+        <p>This is the end of the SL and HL core for Structure 2.2. SL students have now finished the topic.</p>
+        <p>HL students continue on the Additional HL page. It covers resonance and delocalization, benzene, expanded octets with five and six electron domains, formal charge, sigma and pi bonds, and hybridization.</p>
+        <p><a class="btn btn--primary" href="s2-2h.html">Go to 2.2 Additional HL</a></p>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../assets/js/mol.js"></script>
+<script src="../data/questions-s2-2.js"></script>
+<script src="../assets/js/widgets-s2-2.js"></script>
+</body>
+</html>

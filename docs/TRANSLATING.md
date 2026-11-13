@@ -127,8 +127,14 @@ She will sit the exam in English, so the English wording has to stay in view whe
 
 - **Japanese:** the terms used in Japanese upper-secondary chemistry (MEXT course of study and approved
   textbooks).
-- **Traditional Chinese:** **Hong Kong** school chemistry terms (EDB / HKDSE chemistry glossary), for
-  example 摩爾 (not 莫耳), 電子排佈, 軌態, 周期表. Where Hong Kong and Taiwan differ, use Hong Kong.
+- **Traditional Chinese:** **Hong Kong** school chemistry terms. The authority is the EDB glossary
+  《中學化學科常用英漢及漢英辭彙》 (2007) together with the Chinese HKDSE Chemistry Curriculum and Assessment
+  Guide, for example 摩爾 (not 莫耳), 電子排佈, 軌態, 週期表 (not 周期表), 壓強, 貴氣體, 分子間引力. Where Hong
+  Kong and Taiwan or the Mainland differ, use Hong Kong. Where IB and HKDSE conventions differ (STP and
+  22.7 dm³ mol⁻¹, IUPAC names, oxidation state, Additional HL), keep IB and add a one-line note.
+  **The full glossary (about 780 terms, the 118 elements, the style guide and the list of terms still to
+  confirm) is [`docs/glossary-zh-Hant.md`](glossary-zh-Hant.md). It overrides the starter table below for
+  Chinese.**
 - One English term has one translation across the whole site. Add new terms to the table below before you
   use them. A "?" marks a term that the terminology reviewer still has to confirm.
 
@@ -138,12 +144,12 @@ She will sit the exam in English, so the English wording has to stay in view whe
 |---|---|---|
 | element | 元素 (substance: 単体) | 元素 |
 | compound | 化合物 | 化合物 |
-| mixture (homogeneous / heterogeneous) | 混合物(均一 / 不均一) | 混合物(均勻 / 不均勻) ? |
+| mixture (homogeneous / heterogeneous) | 混合物(均一 / 不均一) | 混合物(均勻 / 不均勻) |
 | state of matter | 物質の状態(三態) | 物態 |
 | change of state | 状態変化 | 物態變化 |
 | melting / freezing | 融解 / 凝固 | 熔化 / 凝固 |
 | vaporization (evaporation, boiling) / condensation | 蒸発・沸騰 / 凝縮 | 汽化(蒸發、沸騰) / 凝結 |
-| sublimation / deposition | 昇華 / 凝華 ? | 昇華 / 凝華 |
+| sublimation / deposition | 昇華 / 凝華 ? | 昇華 / 凝華 ? |
 | kinetic molecular theory | 分子運動論 | 分子運動論 |
 | temperature (kelvin, absolute zero) | 温度(ケルビン、絶対零度) | 溫度(開爾文、絕對零度) |
 | atom / nucleus | 原子 / 原子核 | 原子 / 原子核 |
@@ -151,16 +157,16 @@ She will sit the exam in English, so the English wording has to stay in view whe
 | atomic number / mass number | 原子番号 / 質量数 | 原子序 / 質量數 |
 | isotope | 同位体 | 同位素 |
 | relative atomic mass | 相対原子質量(原子量) | 相對原子質量 |
-| relative formula mass | 式量 | 相對式量 ? |
+| relative formula mass | 式量 | 相對式量 |
 | mass spectrum / mass spectrometer | 質量スペクトル / 質量分析計 | 質譜 / 質譜儀 |
-| emission spectrum (line spectrum) | 発光スペクトル(線スペクトル) | 發射光譜(線狀光譜) |
+| emission spectrum (line spectrum) | 発光スペクトル(線スペクトル) | 發射光譜(線光譜) |
 | energy level | エネルギー準位 | 能級 |
-| sublevel | 副殻 | 支殼層 ? |
+| sublevel | 副殻 | 亞層 |
 | orbital | 軌道(電子軌道) | 軌態 |
 | electron configuration | 電子配置 | 電子排佈 |
-| ionization energy (first, successive) | イオン化エネルギー(第一、逐次) | 電離能(第一、逐級) ? |
+| ionization energy (first, successive) | イオン化エネルギー(第一、逐次) | 電離能(第一、逐級 ?) |
 | mole | モル | 摩爾 |
-| amount of substance | 物質量 | 物質的量 ? |
+| amount of substance | 物質量 | 物質的量 ? (HK classrooms: 摩爾數) |
 | Avogadro constant | アボガドロ定数 | 亞佛加德羅常數 |
 | molar mass | モル質量 | 摩爾質量 |
 | empirical formula | 組成式(実験式) | 實驗式 |
@@ -169,13 +175,13 @@ She will sit the exam in English, so the English wording has to stay in view whe
 | solution / solute / solvent | 溶液 / 溶質 / 溶媒 | 溶液 / 溶質 / 溶劑 |
 | molar volume | モル体積 | 摩爾體積 |
 | ideal gas | 理想気体 | 理想氣體 |
-| pressure / volume | 圧力 / 体積 | 壓強 ? / 體積 |
+| pressure / volume | 圧力 / 体積 | 壓強 / 體積 |
 | ionic bond / ionic compound | イオン結合 / イオン化合物 | 離子鍵 / 離子化合物 |
 | lattice | 結晶格子 | 晶格 |
 | covalent bond | 共有結合 | 共價鍵 |
-| Lewis formula | ルイス構造式(電子式) | 路易斯結構式(電子圖) ? |
+| Lewis formula | ルイス構造式(電子式) | 路易斯結構式(HKDSE: 電子圖) |
 | lone pair / bonding pair | 非共有電子対 / 共有電子対 | 孤電子對 / 鍵合電子對 |
-| coordination bond | 配位結合 | 配位共價鍵 ? |
+| coordination bond | 配位結合 | 配位鍵(HKDSE: 配位共價鍵) |
 | electron domain | 電子領域 ? | 電子域 ? |
 | molecular geometry (shape) | 分子の形 | 分子形狀 |
 | bond angle | 結合角 | 鍵角 |
@@ -191,10 +197,10 @@ She will sit the exam in English, so the English wording has to stay in view whe
 | delocalized electrons | 非局在化電子(自由電子) | 離域電子 |
 | alloy | 合金 | 合金 |
 | polymer / monomer | 高分子(ポリマー) / 単量体(モノマー) | 聚合物 / 單體 |
-| periodic table | 周期表 | 周期表 |
-| group / period / block | 族 / 周期 / ブロック | 族 / 周期 / 區 ? |
+| periodic table | 周期表 | 週期表 |
+| group / period / block | 族 / 周期 / ブロック | 族 / 週期 / 區 |
 | metal / metalloid / non-metal | 金属 / 半金属 / 非金属 | 金屬 / 類金屬 / 非金屬 |
-| oxidation state | 酸化数 | 氧化態 ? (HK also uses 氧化數) |
+| oxidation state | 酸化数 | 氧化態 (HKDSE: 氧化數) |
 | atomic radius / ionic radius | 原子半径 / イオン半径 | 原子半徑 / 離子半徑 |
 | melting point / boiling point | 融点 / 沸点 | 熔點 / 沸點 |
 | functional group | 官能基 | 官能基 |
@@ -209,14 +215,16 @@ She will sit the exam in English, so the English wording has to stay in view whe
 | worked example | 例題 | 例題 |
 | markscheme | 採点基準 | 評分準則 |
 
-Terms where Hong Kong and Taiwan usage differ, so that nobody "corrects" them by mistake:
-mole 摩爾 (TW 莫耳); orbital 軌態 (TW 軌域); electron configuration 電子排佈 (TW 電子組態);
-periodic table 周期表 (TW 週期表); hybridization 雜化 (TW 混成); intermolecular forces 分子間引力
-(TW 分子間作用力); ionization energy 電離能 (TW 游離能); electronegativity 電負性 (TW 電負度);
-polymer 聚合物 (TW also 高分子); Avogadro 亞佛加德羅 (TW 亞佛加厥); sublevel 支殼層 (TW 副殼層);
-kelvin 開爾文 (TW 克耳文); melting 熔化 (TW 熔化 / 熔解); amount of substance 物質的量 (TW 物量);
-scientific notation 科學記數法 (TW 科學記號); data 數據 (TW 資料); software words such as 儲存 (TW 儲存),
-選單 (HK also 功能表), 瀏覽器 are shared.
+Terms where Hong Kong and Taiwan or Mainland usage differ, so that nobody "corrects" them by mistake:
+mole 摩爾 (TW 莫耳); orbital 軌態 (TW 軌域, Mainland 軌道); electron configuration 電子排佈 (TW 電子組態,
+Mainland 電子排布); periodic table 週期表 (Mainland 周期表); sublevel 亞層 (TW 副殼層); hybridization 雜化
+(TW 混成); intermolecular forces 分子間引力 (TW and Mainland 分子間作用力); ionization energy 電離能 (TW 游離能);
+electronegativity 電負性 (TW 電負度); noble gas 貴氣體 (Mainland 稀有氣體, TW 惰性氣體 / 鈍氣); pressure 壓強
+(TW 壓力); silicon 矽 (Mainland 硅); amide 酰胺 (TW 醯胺); chromatography 色層法 (TW 層析); complex ion 絡離子
+(TW 錯離子, Mainland 配離子); chiral 手性 (TW 對掌性); subatomic particle 次原子粒子 (Mainland 亞原子粒子);
+Avogadro 亞佛加德羅 (TW 亞佛加厥, Mainland 阿伏伽德羅); kelvin 開爾文 (TW 克耳文); scientific notation
+科學記數法 (TW 科學記號); data 數據 (TW 資料); software words such as 儲存, 選單, 瀏覽器 are shared.
+The complete list, with sources, is in [`docs/glossary-zh-Hant.md`](glossary-zh-Hant.md).
 
 ## 5. For developers
 
