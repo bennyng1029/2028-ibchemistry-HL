@@ -142,7 +142,7 @@ S1.i18n.register('ja', 's1-4', {
     "Write the unit after every final answer.": "最終的な答えには、必ず単位を書きます。",
 
     // Before any mole calculation: three questions > exam tip (shown in English + translation) > p
-    "IB markschemes give their answers to the precision of the data: usually 3 s.f., and 4 s.f. when the data are given to 4. Match the data and you are safe. A mark is not normally taken off for significant figures unless the question asks for a set number, so do not panic about them. Show your working too. If you slip in one step, the later steps can still earn marks when the method is correct.": "IB のマークスキーム（採点基準）は、答えをデータの精密さに合わせて示します。ふつうは有効数字 3 桁で、データが 4 桁なら 4 桁です。データにそろえておけば安心です。問題が桁数を指定していないかぎり、有効数字でふつう減点はされないので、あわてなくて大丈夫です。途中の計算も書きましょう。あるステップでミスをしても、解き方が正しければ、あとのステップで点がもらえることがあります。",
+    "IB markschemes give their answers to the precision of the data: usually 3 s.f., and 4 s.f. when the data are given to 4. Match the data and you are safe. A mark is not normally taken off for significant figures unless the question asks for a set number, so do not panic about them. Show your working too. If you slip in one step, the later steps can still earn marks when the method is correct.": "IB の採点基準（マークスキーム）は、答えをデータの精密さに合わせて示します。ふつうは有効数字 3 桁で、データが 4 桁なら 4 桁です。データにそろえておけば安心です。問題が桁数を指定していないかぎり、有効数字でふつう減点はされないので、あわてなくて大丈夫です。途中の計算も書きましょう。あるステップでミスをしても、解き方が正しければ、あとのステップで点がもらえることがあります。",
 
     // The mole and the Avogadro constant > data-toc attribute
     "The mole": "モル",
@@ -1242,7 +1242,7 @@ S1.i18n.register('ja', 's1-4', {
     "Stopper the flask and <strong>invert</strong> it several times to mix.": "フラスコに栓をして、何回か<strong>逆さにして</strong>混ぜます。",
 
     // Concentration of solutions > exam tip (shown in English + translation) > p
-    "Markschemes reward specific words: <strong>volumetric flask</strong>, <strong>distilled or deionized water</strong>, transfer <strong>with rinsings</strong>, <strong>make up to the mark</strong>, <strong>stopper and invert to mix</strong>. Writing only “water” can lose a mark. “Add 250 cm<sup>3</sup> of water” is wrong chemistry: the flask is filled <em>up to</em> the mark, so the solution, not the water, is 250.0 cm<sup>3</sup>.": "マークスキームでは、決まった言葉を書くと点になります。<strong>メスフラスコ</strong>、<strong>蒸留水または脱イオン水</strong>、<strong>洗液ごと</strong>移す、<strong>標線まで水を加える</strong>、<strong>栓をして逆さにして混ぜる</strong>、です。「水」とだけ書くと、点を失うことがあります。「水を 250 cm<sup>3</sup> 加える」は、化学として間違いです。フラスコは標線<em>まで</em>満たします。だから 250.0 cm<sup>3</sup> なのは、水ではなく溶液です。",
+    "Markschemes reward specific words: <strong>volumetric flask</strong>, <strong>distilled or deionized water</strong>, transfer <strong>with rinsings</strong>, <strong>make up to the mark</strong>, <strong>stopper and invert to mix</strong>. Writing only “water” can lose a mark. “Add 250 cm<sup>3</sup> of water” is wrong chemistry: the flask is filled <em>up to</em> the mark, so the solution, not the water, is 250.0 cm<sup>3</sup>.": "採点基準（マークスキーム）では、決まった言葉を書くと点になります。<strong>メスフラスコ</strong>、<strong>蒸留水または脱イオン水</strong>、<strong>洗液ごと</strong>移す、<strong>標線まで水を加える</strong>、<strong>栓をして逆さにして混ぜる</strong>、です。「水」とだけ書くと、点を失うことがあります。「水を 250 cm<sup>3</sup> 加える」は、化学として間違いです。フラスコは標線<em>まで</em>満たします。だから 250.0 cm<sup>3</sup> なのは、水ではなく溶液です。",
 
     // Concentration of solutions > try it > p
     "Calculate the mass of hydrated copper(II) sulfate, <span class=\"chem\">CuSO4.5H2O</span>, needed to prepare 100.0 cm<sup>3</sup> of a 0.200 mol dm<sup>−3</sup> solution. (<i>M</i>(<span class=\"chem\">CuSO4.5H2O</span>) = 249.72 g mol<sup>−1</sup>)": "0.200 mol dm<sup>−3</sup> の溶液を 100.0 cm<sup>3</sup> つくるのに必要な、硫酸銅(II) の水和物 <span class=\"chem\">CuSO4.5H2O</span> の質量を計算しなさい。（<i>M</i>(<span class=\"chem\">CuSO4.5H2O</span>) = 249.72 g mol<sup>−1</sup>）",
@@ -1321,7 +1321,7 @@ S1.i18n.register('ja', 's1-4', {
     "12.5 cm<sup>3</sup> of the 2.00 mol dm<sup>−3</sup> acid": "2.00 mol dm<sup>−3</sup> の塩酸 12.5 cm<sup>3</sup>",
 
     // Concentration of solutions > p
-    "You also need to describe the procedure. Markschemes look for these points:": "手順を記述することも求められます。マークスキームは、次のポイントを見ます。",
+    "You also need to describe the procedure. Markschemes look for these points:": "手順を記述することも求められます。採点基準（マークスキーム）は、次のポイントを見ます。",
 
     // Concentration of solutions > li
     "Use a <strong>pipette</strong> (or a burette) to measure the stock solution. A measuring cylinder is not precise enough.": "原液をはかるには、<strong>ホールピペット</strong>（またはビュレット）を使います。メスシリンダーでは精密さが足りません。",
@@ -1632,7 +1632,7 @@ S1.i18n.register('ja', 's1-4', {
     "In this topic (1.4.5)": "このトピックの範囲（1.4.5）",
 
     // Where this topic stops > table > th
-    "Gas volume ratios from an equation, including a gas you are told is in excess": "化学反応式から求める気体の体積の比（過剰と示された気体を含む）",
+    "Gas volume ratios from an equation, including a gas you are told is in excess": "気体の体積の比を、化学反応式から求める（過剰と示された、気体を含む）",
 
     // Where this topic stops > table > td
     "In this topic (1.4.6)": "このトピックの範囲（1.4.6）",
@@ -1644,10 +1644,10 @@ S1.i18n.register('ja', 's1-4', {
     "Later: Reactivity 2.1": "あとで学ぶ：Reactivity 2.1",
 
     // Where this topic stops > table > th
-    "Finding the limiting reactant, percentage yield, atom economy": "制限反応物を見つけること、収率、アトムエコノミー",
+    "Finding the limiting reactant, percentage yield, atom economy": "制限反応物の特定、収率、アトムエコノミー",
 
     // Where this topic stops > table > th
-    "Percentage uncertainty of a concentration you have made": "自分でつくった溶液の濃度の、百分率で表した不確かさ",
+    "Percentage uncertainty of a concentration you have made": "つくった溶液の濃度の、百分率の不確かさ",
 
     // Where this topic stops > table > td
     "Later: the uncertainty skills in Tool 3": "あとで学ぶ：ツール 3 の不確かさのスキル",
@@ -1665,7 +1665,7 @@ S1.i18n.register('ja', 's1-4', {
     "Next topic: Structure 1.5": "次のトピック：Structure 1.5",
 
     // Where this topic stops > table > th
-    "ppm, molality, percentage by mass as a concentration, mole fraction": "ppm、質量モル濃度、濃度としての質量パーセント、モル分率",
+    "ppm, molality, percentage by mass as a concentration, mole fraction": "ppm、質量モル濃度、質量パーセント濃度、モル分率",
 
     // Where this topic stops > table > td
     "Not in the IB guide": "IB の『指導の手引き』にない",
@@ -1693,7 +1693,7 @@ S1.i18n.register('ja', 's1-4', {
     "What is the importance of approximation in the determination of an empirical formula?": "組成式を求めるとき、近似はなぜ大切なのでしょうか。",
 
     // Linking it up > p
-    "Measured masses always carry some error, so the mole ratio never comes out as perfect whole numbers. You have to judge when 2.99 means 3. You also have to judge when a value is <em>not</em> an error: 1.50 or 1.33 are real ratios that must be multiplied up, not rounded. Good approximation means rounding small differences and respecting large ones.": "測定した質量には、必ずいくらか誤差があります。だから、物質量の比がきれいな整数になることはありません。2.99 を 3 とみなしてよいかどうかは、自分で判断します。また、ある値が誤差<em>ではない</em>場合も、自分で判断します。1.50 や 1.33 は本当の比なので、丸めずに、かけ算で整数にしなければなりません。上手な近似とは、小さなずれは丸め、大きなずれはそのまま受けとめることです。",
+    "Measured masses always carry some error, so the mole ratio never comes out as perfect whole numbers. You have to judge when 2.99 means 3. You also have to judge when a value is <em>not</em> an error: 1.50 or 1.33 are real ratios that must be multiplied up, not rounded. Good approximation means rounding small differences and respecting large ones.": "測定した質量には、必ずいくらか誤差があります。だから、物質量の比がきれいな整数になることはありません。2.99 を 3 とみなしてよいかどうかは、自分で判断します。また、ある値が誤差<em>ではない</em>場合も、自分で判断します。1.50 や 1.33 は本当の比なので、丸めずに、かけ算で整数にしなければなりません。上手な近似とは、小さなずれは丸め、大きなずれは丸めずに意味のある値として扱うことです。",
 
     // Linking it up > h3
     "What are the considerations in the choice of glassware used in preparing a standard solution and a serial dilution?": "標準溶液をつくるときや段階希釈をするとき、ガラス器具はどんな点を考えて選ぶのでしょうか。",
@@ -1976,16 +1976,16 @@ S1.i18n.register('ja', 's1-4', {
     "dm³, at STP only": "dm³（STP のみ）",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "to mol: C × V": "mol へ: C × V",
+    "to mol: C × V": "→ mol: C × V",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "to C: n ÷ V": "C へ: n ÷ V",
+    "to C: n ÷ V": "→ C: n ÷ V",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "to mol: ÷ 22.7": "mol へ: ÷ 22.7",
+    "to mol: ÷ 22.7": "→ mol: ÷ 22.7",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "to dm³: × 22.7": "dm³ へ: × 22.7",
+    "to dm³: × 22.7": "→ dm³: × 22.7",
 
     // widget string (assets/js/widgets-s1-4.js)
     "Path": "道すじ",

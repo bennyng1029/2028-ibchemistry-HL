@@ -1793,6 +1793,9 @@ S1.i18n.register('zh-Hant', 's1-4', {
     "Substance": "物質",
 
     // widget string (assets/js/widgets-s1-4.js)
+    "{name} ({formula})": "{name} ({formula})",
+
+    // widget string (assets/js/widgets-s1-4.js)
     "Mass of sample": "樣本的質量",
 
     // widget string (assets/js/widgets-s1-4.js)
