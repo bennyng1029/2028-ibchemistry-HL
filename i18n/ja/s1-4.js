@@ -518,566 +518,566 @@ S1.i18n.register('ja', 's1-4', {
     "Ask the three questions. Find “given” and “wanted” on the mole map.": "3 つの問いを確認します。「与えられているもの」と「求めたいもの」をモルマップの上で見つけます。",
 
     // Molar mass: weighing instead of counting > li
-    "If mass is involved, work out the molar mass <i>M</i> from the formula.": "",
+    "If mass is involved, work out the molar mass <i>M</i> from the formula.": "質量が出てくるなら、化学式からモル質量 <i>M</i> を求めます。",
 
     // Molar mass: weighing instead of counting > li
-    "Step 1: convert what you are given into moles.": "",
+    "Step 1: convert what you are given into moles.": "ステップ 1：与えられているものをモルに変換します。",
 
     // Molar mass: weighing instead of counting > li
-    "Step 2: convert moles into what you want. If the question asks about atoms or ions inside the formula, multiply by the subscript while you are in moles.": "",
+    "Step 2: convert moles into what you want. If the question asks about atoms or ions inside the formula, multiply by the subscript while you are in moles.": "ステップ 2：モルを求めたいものに変換します。化学式の中の原子やイオンをきかれたら、モルのうちに下付きの数字をかけます。",
 
     // Molar mass: weighing instead of counting > li
-    "Round once at the end and add the unit.": "",
+    "Round once at the end and add the unit.": "最後に 1 回だけ丸めて、単位を付けます。",
 
     // Molar mass: weighing instead of counting > worked example > h3
-    "Mass to moles": "",
+    "Mass to moles": "質量からモルへ",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "Calculate the amount, in mol, of calcium carbonate in a 12.5 g piece of marble. Assume the marble is pure <span class=\"chem\">CaCO3</span>.": "",
+    "Calculate the amount, in mol, of calcium carbonate in a 12.5 g piece of marble. Assume the marble is pure <span class=\"chem\">CaCO3</span>.": "12.5 g の大理石のかけらに含まれる炭酸カルシウムの物質量を、mol で計算しなさい。大理石は純粋な <span class=\"chem\">CaCO3</span> とします。",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "Given: a mass in g. Wanted: an amount in mol. Link: molar mass.": "",
+    "Given: a mass in g. Wanted: an amount in mol. Link: molar mass.": "与えられているもの：g で表した質量。求めたいもの：mol で表した物質量。つなぐ関係：モル質量。",
 
     // Molar mass: weighing instead of counting > worked example > data-title attribute
-    "Find the molar mass": "",
+    "Find the molar mass": "モル質量を求める",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "You need <i>M</i> before you can use the relationship. One Ca, one C, three O.": "",
+    "You need <i>M</i> before you can use the relationship. One Ca, one C, three O.": "この関係を使うには、先に <i>M</i> が必要です。Ca が 1 個、C が 1 個、O が 3 個です。",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "Keep the extra digits in your calculator for now.": "",
+    "Keep the extra digits in your calculator for now.": "ここではまだ、電卓に桁を多めに残しておきます。",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "The mass has 3 significant figures.": "",
+    "The mass has 3 significant figures.": "質量は有効数字 3 桁です。",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "0.125 mol of CaCO<sub>3</sub>": "",
+    "0.125 mol of CaCO<sub>3</sub>": "CaCO<sub>3</sub> 0.125 mol",
 
     // Molar mass: weighing instead of counting > worked example > h3
-    "Mass to number of atoms (two links)": "",
+    "Mass to number of atoms (two links)": "質量から原子の数へ（つながり 2 つ）",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "Calculate the number of oxygen atoms in 4.90 g of sulfuric acid, <span class=\"chem\">H2SO4</span>.": "",
+    "Calculate the number of oxygen atoms in 4.90 g of sulfuric acid, <span class=\"chem\">H2SO4</span>.": "硫酸 <span class=\"chem\">H2SO4</span> 4.90 g に含まれる酸素原子の数を計算しなさい。",
 
     // Molar mass: weighing instead of counting > worked example > data-title attribute
-    "Plan the route on the mole map": "",
+    "Plan the route on the mole map": "モルマップで道すじを決める",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "Mass and particles do not connect directly. Go mass → moles of H<sub>2</sub>SO<sub>4</sub> → moles of O atoms → number of O atoms.": "",
+    "Mass and particles do not connect directly. Go mass → moles of H<sub>2</sub>SO<sub>4</sub> → moles of O atoms → number of O atoms.": "質量と粒子の数は、直接はつながりません。質量 → H<sub>2</sub>SO<sub>4</sub> のモル → O 原子のモル → O 原子の数、と進みます。",
 
     // Molar mass: weighing instead of counting > worked example > maths line
-    "g &nbsp;→&nbsp; mol H<sub>2</sub>SO<sub>4</sub> &nbsp;→&nbsp; mol O &nbsp;→&nbsp; number of O atoms": "",
+    "g &nbsp;→&nbsp; mol H<sub>2</sub>SO<sub>4</sub> &nbsp;→&nbsp; mol O &nbsp;→&nbsp; number of O atoms": "g &nbsp;→&nbsp; mol H<sub>2</sub>SO<sub>4</sub> &nbsp;→&nbsp; mol O &nbsp;→&nbsp; O 原子の数",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "Mass is involved, so <i>M</i> is needed.": "",
+    "Mass is involved, so <i>M</i> is needed.": "質量が出てくるので、<i>M</i> が必要です。",
 
     // Molar mass: weighing instead of counting > worked example > data-title attribute
-    "Convert mass to moles": "",
+    "Convert mass to moles": "質量をモルに変換する",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "This is the first link: <i>n</i> = <i>m</i> ÷ <i>M</i>.": "",
+    "This is the first link: <i>n</i> = <i>m</i> ÷ <i>M</i>.": "これが 1 つ目のつながりです：<i>n</i> = <i>m</i> ÷ <i>M</i>。",
 
     // Molar mass: weighing instead of counting > worked example > data-title attribute
-    "Use the subscript": "",
+    "Use the subscript": "下付きの数字を使う",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "Each H<sub>2</sub>SO<sub>4</sub> contains 4 oxygen atoms.": "",
+    "Each H<sub>2</sub>SO<sub>4</sub> contains 4 oxygen atoms.": "H<sub>2</sub>SO<sub>4</sub> 1 個は、酸素原子を 4 個含みます。",
 
     // Molar mass: weighing instead of counting > worked example > data-title attribute
-    "Convert moles to a number and round": "",
+    "Convert moles to a number and round": "モルを粒子の数に変えて、丸める",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "Second link: multiply by <i>N</i><sub>A</sub>. Round to the 3 significant figures of the data.": "",
+    "Second link: multiply by <i>N</i><sub>A</sub>. Round to the 3 significant figures of the data.": "2 つ目のつながりです。<i>N</i><sub>A</sub> をかけます。データの有効数字 3 桁に合わせて丸めます。",
 
     // Molar mass: weighing instead of counting > worked example > maths line
-    "<i>N</i>(O) = <b>1.20 × 10<sup>23</sup> atoms</b>": "",
+    "<i>N</i>(O) = <b>1.20 × 10<sup>23</sup> atoms</b>": "<i>N</i>(O) = <b>1.20 × 10<sup>23</sup> 個の原子</b>",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "1.20 × 10<sup>23</sup> oxygen atoms": "",
+    "1.20 × 10<sup>23</sup> oxygen atoms": "酸素原子 1.20 × 10<sup>23</sup> 個",
 
     // Molar mass: weighing instead of counting > common mistake > p
-    "Multiplying when you should divide is the classic slip. Estimate first: 4.90 g is much less than one mole of H<sub>2</sub>SO<sub>4</sub> (98.09 g), so the amount must be much less than 1 mol. An answer of 481 mol cannot be right.": "",
+    "Multiplying when you should divide is the classic slip. Estimate first: 4.90 g is much less than one mole of H<sub>2</sub>SO<sub>4</sub> (98.09 g), so the amount must be much less than 1 mol. An answer of 481 mol cannot be right.": "割るべきところでかけてしまうのが、いちばんよくあるミスです。先に見積もりましょう。4.90 g は、H<sub>2</sub>SO<sub>4</sub> 1 モル（98.09 g）よりずっと少ない量です。だから物質量は 1 mol よりずっと小さいはずです。481 mol という答えが正しいはずはありません。",
 
     // Molar mass: weighing instead of counting > try it > p
-    "Calculate the mass of 0.0450 mol of sodium hydroxide, <span class=\"chem\">NaOH</span>. (<i>A</i><sub>r</sub>: Na 22.99, O 16.00, H 1.01)": "",
+    "Calculate the mass of 0.0450 mol of sodium hydroxide, <span class=\"chem\">NaOH</span>. (<i>A</i><sub>r</sub>: Na 22.99, O 16.00, H 1.01)": "水酸化ナトリウム <span class=\"chem\">NaOH</span> 0.0450 mol の質量を計算しなさい。（<i>A</i><sub>r</sub>：Na 22.99、O 16.00、H 1.01）",
 
     // Molar mass: weighing instead of counting > try it > li
-    "You have moles and want grams. Rearrange <i>n</i> = <i>m</i> / <i>M</i> to make <i>m</i> the subject.": "",
+    "You have moles and want grams. Rearrange <i>n</i> = <i>m</i> / <i>M</i> to make <i>m</i> the subject.": "モルがわかっていて、グラムを求めます。<i>n</i> = <i>m</i> / <i>M</i> を変形して、<i>m</i> = の形にしましょう。",
 
     // Molar mass: weighing instead of counting > try it > li
-    "<i>M</i>(NaOH) = 22.99 + 16.00 + 1.01 = 40.00 g mol<sup>−1</sup>. Then <i>m</i> = <i>n</i> × <i>M</i>.": "",
+    "<i>M</i>(NaOH) = 22.99 + 16.00 + 1.01 = 40.00 g mol<sup>−1</sup>. Then <i>m</i> = <i>n</i> × <i>M</i>.": "<i>M</i>(NaOH) = 22.99 + 16.00 + 1.01 = 40.00 g mol<sup>−1</sup> です。次に <i>m</i> = <i>n</i> × <i>M</i> を使います。",
 
     // Molar mass: weighing instead of counting > try it > p
-    "<strong>1.80 g</strong> (3 significant figures).": "",
+    "<strong>1.80 g</strong> (3 significant figures).": "<strong>1.80 g</strong>（有効数字 3 桁）。",
 
     // Molar mass: weighing instead of counting > try it > p
-    "A sample of carbon dioxide contains 3.01 × 10<sup>22</sup> molecules. Calculate its mass. (<i>A</i><sub>r</sub>: C 12.01, O 16.00)": "",
+    "A sample of carbon dioxide contains 3.01 × 10<sup>22</sup> molecules. Calculate its mass. (<i>A</i><sub>r</sub>: C 12.01, O 16.00)": "ある二酸化炭素の試料は、分子を 3.01 × 10<sup>22</sup> 個含みます。その質量を計算しなさい。（<i>A</i><sub>r</sub>：C 12.01、O 16.00）",
 
     // Molar mass: weighing instead of counting > try it > li
-    "Particles and mass do not connect directly. Which quantity do you go through?": "",
+    "Particles and mass do not connect directly. Which quantity do you go through?": "粒子の数と質量は、直接はつながりません。どの量を通りますか。",
 
     // Molar mass: weighing instead of counting > try it > li
-    "First <i>n</i> = <i>N</i> ÷ <i>N</i><sub>A</sub>. Then <i>m</i> = <i>n</i> × <i>M</i>, with <i>M</i>(CO<sub>2</sub>) = 44.01 g mol<sup>−1</sup>.": "",
+    "First <i>n</i> = <i>N</i> ÷ <i>N</i><sub>A</sub>. Then <i>m</i> = <i>n</i> × <i>M</i>, with <i>M</i>(CO<sub>2</sub>) = 44.01 g mol<sup>−1</sup>.": "まず <i>n</i> = <i>N</i> ÷ <i>N</i><sub>A</sub>。次に <i>m</i> = <i>n</i> × <i>M</i> で、<i>M</i>(CO<sub>2</sub>) = 44.01 g mol<sup>−1</sup> を使います。",
 
     // Molar mass: weighing instead of counting > try it > p
-    "To 3 significant figures: <strong>2.20 g</strong>.": "",
+    "To 3 significant figures: <strong>2.20 g</strong>.": "有効数字 3 桁で <strong>2.20 g</strong> です。",
 
     // Molar mass: weighing instead of counting > not needed for IB > data-title attribute
     // Concentration of solutions > not needed for IB > data-title attribute
     // Avogadro’s law and reacting gas volumes > not needed for IB > data-title attribute
-    "Comes later": "",
+    "Comes later": "あとで学ぶ内容",
 
     // Molar mass: weighing instead of counting > not needed for IB > p
-    "Using molar masses with a balanced equation to find the mass of a product, and limiting reactant, percentage yield and atom economy, are all in Reactivity 2.1. They use exactly the mass ⇄ moles steps you are learning here, with one extra step in the middle.": "",
+    "Using molar masses with a balanced equation to find the mass of a product, and limiting reactant, percentage yield and atom economy, are all in Reactivity 2.1. They use exactly the mass ⇄ moles steps you are learning here, with one extra step in the middle.": "モル質量とつり合いのとれた化学反応式を使って生成物の質量を求める計算や、制限反応物、収率、アトムエコノミーは、どれも Reactivity 2.1 で学びます。そこで使うのは、いま学んでいる「質量 ⇄ モル」のステップそのものです。真ん中にステップが 1 つ増えるだけです。",
 
     // Molar mass: weighing instead of counting > data-title attribute
-    "Molar mass: quick check": "",
+    "Molar mass: quick check": "モル質量：確認クイズ",
 
     // Empirical and molecular formulas > data-toc attribute
     // Empirical and molecular formulas > h2
-    "Empirical and molecular formulas": "",
+    "Empirical and molecular formulas": "組成式と分子式",
 
     // Empirical and molecular formulas > p
-    "A recipe that says “2 parts flour to 1 part butter” gives you the ratio, but not how big the batch is. Chemical formulas come in the same two kinds.": "",
+    "A recipe that says “2 parts flour to 1 part butter” gives you the ratio, but not how big the batch is. Chemical formulas come in the same two kinds.": "「小麦粉 2 に対してバター 1」と書いたレシピからは、比はわかります。でも、全部でどれだけ作るのかはわかりません。化学式にも、同じように 2 つの種類があります。",
 
     // Empirical and molecular formulas > p
-    "The <dfn data-def=\"The simplest whole-number ratio of atoms of each element present in a compound.\">empirical formula</dfn> of a compound gives the simplest ratio of atoms of each element present in it. The <dfn data-def=\"The actual number of atoms of each element present in one molecule.\">molecular formula</dfn> gives the actual number of atoms of each element present in a molecule.": "",
+    "The <dfn data-def=\"The simplest whole-number ratio of atoms of each element present in a compound.\">empirical formula</dfn> of a compound gives the simplest ratio of atoms of each element present in it. The <dfn data-def=\"The actual number of atoms of each element present in one molecule.\">molecular formula</dfn> gives the actual number of atoms of each element present in a molecule.": "化合物の<dfn data-def=\"化合物に含まれる各元素の原子の数を、最も簡単な整数比で表した式です。\">組成式（実験式） <span class=\"en-term\">(empirical formula)</span></dfn>は、その化合物に含まれる各元素の原子の数の、最も簡単な比を表します。<dfn data-def=\"1 分子に含まれる各元素の原子の、実際の数を表した式です。\">分子式 <span class=\"en-term\">(molecular formula)</span></dfn>は、1 分子に含まれる各元素の原子の実際の数を表します。",
 
     // Empirical and molecular formulas > data-def attribute
-    "The simplest whole-number ratio of atoms of each element present in a compound.": "",
+    "The simplest whole-number ratio of atoms of each element present in a compound.": "化合物に含まれる各元素の原子の数を、最も簡単な整数比で表した式です。",
 
     // Empirical and molecular formulas > data-def attribute
-    "The actual number of atoms of each element present in one molecule.": "",
+    "The actual number of atoms of each element present in one molecule.": "1 分子に含まれる各元素の原子の、実際の数を表した式です。",
 
     // Empirical and molecular formulas > table > caption
-    "Empirical and molecular formulas compared": "",
+    "Empirical and molecular formulas compared": "組成式と分子式をくらべる",
 
     // Empirical and molecular formulas > table > th
-    "Compound": "",
-
-    // Empirical and molecular formulas > table > th
-    // widget string (assets/js/widgets-s1-4.js)
-    "Molecular formula": "",
+    "Compound": "化合物",
 
     // Empirical and molecular formulas > table > th
     // widget string (assets/js/widgets-s1-4.js)
-    "Empirical formula": "",
-
-    // Empirical and molecular formulas > table > th
-    "Molecular ÷ empirical": "",
+    "Molecular formula": "分子式",
 
     // Empirical and molecular formulas > table > th
     // widget string (assets/js/widgets-s1-4.js)
-    "glucose": "",
+    "Empirical formula": "組成式",
+
+    // Empirical and molecular formulas > table > th
+    "Molecular ÷ empirical": "分子式 ÷ 組成式",
+
+    // Empirical and molecular formulas > table > th
+    // widget string (assets/js/widgets-s1-4.js)
+    "glucose": "グルコース",
 
     // Empirical and molecular formulas > table > td
-    "<span class=\"chem\">CH2O</span>": "",
+    "<span class=\"chem\">CH2O</span>": "<span class=\"chem\">CH2O</span>",
 
     // Empirical and molecular formulas > table > th
-    "ethene": "",
+    "ethene": "エテン",
 
     // Empirical and molecular formulas > table > td
-    "<span class=\"chem\">CH2</span>": "",
+    "<span class=\"chem\">CH2</span>": "<span class=\"chem\">CH2</span>",
 
     // Empirical and molecular formulas > table > th
-    "hydrogen peroxide": "",
+    "hydrogen peroxide": "過酸化水素",
 
     // Empirical and molecular formulas > table > td
-    "<span class=\"chem\">HO</span>": "",
+    "<span class=\"chem\">HO</span>": "<span class=\"chem\">HO</span>",
 
     // Empirical and molecular formulas > table > th
     // widget string (assets/js/widgets-s1-4.js)
-    "water": "",
+    "water": "水",
 
     // Empirical and molecular formulas > p
-    "The molecular formula is always a whole-number multiple of the empirical formula. Sometimes the multiple is 1 and the two are the same. Ionic compounds such as <span class=\"chem\">NaCl</span> have no molecules, so their formula is already an empirical formula.": "",
+    "The molecular formula is always a whole-number multiple of the empirical formula. Sometimes the multiple is 1 and the two are the same. Ionic compounds such as <span class=\"chem\">NaCl</span> have no molecules, so their formula is already an empirical formula.": "分子式は、いつも組成式の整数倍です。その倍数が 1 で、2 つの式が同じになることもあります。<span class=\"chem\">NaCl</span> のようなイオン化合物には分子がありません。だから、その化学式はもともと組成式です。",
 
     // Empirical and molecular formulas > h3
-    "From a formula to percentage composition": "",
+    "From a formula to percentage composition": "化学式から質量百分率組成へ",
 
     // Empirical and molecular formulas > p
-    "<dfn data-def=\"The percentage of the total mass of a compound that is due to each element.\">Percentage composition by mass</dfn> says what share of a compound’s mass comes from each element.": "",
+    "<dfn data-def=\"The percentage of the total mass of a compound that is due to each element.\">Percentage composition by mass</dfn> says what share of a compound’s mass comes from each element.": "<dfn data-def=\"化合物の全体の質量のうち、各元素が占める割合を百分率で表したものです。\">質量百分率組成 <span class=\"en-term\">(percentage composition by mass)</span></dfn>は、化合物の質量のうち、それぞれの元素がどれだけを占めるかを表します。",
 
     // Empirical and molecular formulas > data-def attribute
-    "The percentage of the total mass of a compound that is due to each element.": "",
+    "The percentage of the total mass of a compound that is due to each element.": "化合物の全体の質量のうち、各元素が占める割合を百分率で表したものです。",
 
     // Empirical and molecular formulas > equation > maths line
-    "% of element = <span class=\"frac\"><span>atoms of element × <i>A</i><sub>r</sub></span><span><i>M</i><sub>r</sub></span></span> × 100": "",
+    "% of element = <span class=\"frac\"><span>atoms of element × <i>A</i><sub>r</sub></span><span><i>M</i><sub>r</sub></span></span> × 100": "元素の % = <span class=\"frac\"><span>その元素の原子の数 × <i>A</i><sub>r</sub></span><span><i>M</i><sub>r</sub></span></span> × 100",
 
     // Empirical and molecular formulas > equation > dt
-    "A<sub>r</sub>": "",
+    "A<sub>r</sub>": "A<sub>r</sub>",
 
     // Empirical and molecular formulas > equation > dd
-    "relative atomic mass of the element (no units)": "",
+    "relative atomic mass of the element (no units)": "その元素の相対原子質量（単位なし）",
 
     // Empirical and molecular formulas > equation > dt
-    "M<sub>r</sub>": "",
+    "M<sub>r</sub>": "M<sub>r</sub>",
 
     // Empirical and molecular formulas > equation > dd
-    "relative formula mass of the compound (no units)": "",
+    "relative formula mass of the compound (no units)": "化合物の相対式量（単位なし）",
 
     // Empirical and molecular formulas > p
-    "For iron(III) oxide, <span class=\"chem\">Fe2O3</span>: <i>M</i><sub>r</sub> = <span class=\"mono\">2(55.85) + 3(16.00) = 159.70</span>. So the percentage of iron is <span class=\"mono\">111.70 ÷ 159.70 × 100 = 69.94 %</span>, and oxygen is the rest, <span class=\"mono\">30.06 %</span>. The percentages must add up to 100.": "",
+    "For iron(III) oxide, <span class=\"chem\">Fe2O3</span>: <i>M</i><sub>r</sub> = <span class=\"mono\">2(55.85) + 3(16.00) = 159.70</span>. So the percentage of iron is <span class=\"mono\">111.70 ÷ 159.70 × 100 = 69.94 %</span>, and oxygen is the rest, <span class=\"mono\">30.06 %</span>. The percentages must add up to 100.": "酸化鉄(III) <span class=\"chem\">Fe2O3</span> では、<i>M</i><sub>r</sub> = <span class=\"mono\">2(55.85) + 3(16.00) = 159.70</span> です。だから鉄の百分率は <span class=\"mono\">111.70 ÷ 159.70 × 100 = 69.94 %</span> で、残りの <span class=\"mono\">30.06 %</span> が酸素です。百分率を全部足すと、100 にならなければなりません。",
 
     // Empirical and molecular formulas > try it > p
-    "Urea, <span class=\"chem\">CO(NH2)2</span>, is used as a fertilizer because of its nitrogen content. Calculate the percentage by mass of nitrogen in urea. (<i>A</i><sub>r</sub>: C 12.01, O 16.00, N 14.01, H 1.01)": "",
+    "Urea, <span class=\"chem\">CO(NH2)2</span>, is used as a fertilizer because of its nitrogen content. Calculate the percentage by mass of nitrogen in urea. (<i>A</i><sub>r</sub>: C 12.01, O 16.00, N 14.01, H 1.01)": "尿素 <span class=\"chem\">CO(NH2)2</span> は、窒素を多く含むので肥料に使われます。尿素に含まれる窒素の質量百分率を計算しなさい。（<i>A</i><sub>r</sub>：C 12.01、O 16.00、N 14.01、H 1.01）",
 
     // Empirical and molecular formulas > try it > li
-    "How many nitrogen atoms are in the formula? The 2 outside the bracket matters.": "",
+    "How many nitrogen atoms are in the formula? The 2 outside the bracket matters.": "化学式の中に窒素原子は何個ありますか。かっこの外の 2 を忘れないでください。",
 
     // Empirical and molecular formulas > try it > li
-    "<i>M</i><sub>r</sub> = 12.01 + 16.00 + 2(14.01) + 4(1.01) = 60.07. Then % N = <span class=\"mono\">2(14.01) ÷ 60.07 × 100</span>.": "",
+    "<i>M</i><sub>r</sub> = 12.01 + 16.00 + 2(14.01) + 4(1.01) = 60.07. Then % N = <span class=\"mono\">2(14.01) ÷ 60.07 × 100</span>.": "<i>M</i><sub>r</sub> = 12.01 + 16.00 + 2(14.01) + 4(1.01) = 60.07 です。次に % N = <span class=\"mono\">2(14.01) ÷ 60.07 × 100</span> を計算します。",
 
     // Empirical and molecular formulas > try it > p
-    "To 3 significant figures: <strong>46.6 %</strong>.": "",
+    "To 3 significant figures: <strong>46.6 %</strong>.": "有効数字 3 桁で <strong>46.6 %</strong> です。",
 
     // Empirical and molecular formulas > h3
-    "From composition to an empirical formula: the table method": "",
+    "From composition to an empirical formula: the table method": "組成から組成式へ：表を使う方法",
 
     // Empirical and molecular formulas > p
-    "Going the other way is the more common exam question. A formula is a ratio of <em>atoms</em>, which means a ratio of <em>moles</em>. But the data are masses. So the job is: convert each mass to moles, then simplify the ratio.": "",
+    "Going the other way is the more common exam question. A formula is a ratio of <em>atoms</em>, which means a ratio of <em>moles</em>. But the data are masses. So the job is: convert each mass to moles, then simplify the ratio.": "試験では、逆向きの問題のほうがよく出ます。化学式は<em>原子</em>の数の比です。つまり<em>モル</em>の比です。ところが、データは質量です。だから、やることは決まっています。それぞれの質量をモルに変換し、その比を簡単にします。",
 
     // Empirical and molecular formulas > li
-    "Make a column for each element. Write its mass in g. If you are given percentages, imagine a 100 g sample, so 40 % becomes 40 g.": "",
+    "Make a column for each element. Write its mass in g. If you are given percentages, imagine a 100 g sample, so 40 % becomes 40 g.": "元素ごとに列をつくり、その質量を g で書きます。百分率で与えられたら、100 g の試料を考えます。そうすれば 40 % は 40 g になります。",
 
     // Empirical and molecular formulas > li
-    "Divide each mass by that element’s <i>A</i><sub>r</sub>. This gives the amount of each element in mol.": "",
+    "Divide each mass by that element’s <i>A</i><sub>r</sub>. This gives the amount of each element in mol.": "それぞれの質量を、その元素の <i>A</i><sub>r</sub> で割ります。これで各元素の物質量（mol）がわかります。",
 
     // Empirical and molecular formulas > li
-    "Divide every amount by the smallest one. The smallest becomes 1.": "",
+    "Divide every amount by the smallest one. The smallest becomes 1.": "すべての物質量を、いちばん小さい物質量で割ります。いちばん小さいものが 1 になります。",
 
     // Empirical and molecular formulas > li
-    "If every number is now within about 0.1 of a whole number, round. If one ends in about .5, multiply them all by 2. If one ends in about .33 or .67, multiply by 3. If one ends in .25 or .75, multiply by 4.": "",
+    "If every number is now within about 0.1 of a whole number, round. If one ends in about .5, multiply them all by 2. If one ends in about .33 or .67, multiply by 3. If one ends in .25 or .75, multiply by 4.": "どの数も整数から約 0.1 以内なら、整数に丸めます。ある数の小数部分が約 .5 なら、全部に 2 をかけます。約 .33 か .67 なら、3 をかけます。.25 か .75 なら、4 をかけます。",
 
     // Empirical and molecular formulas > li
-    "Write the formula with the whole numbers as subscripts.": "",
+    "Write the formula with the whole numbers as subscripts.": "その整数を下付きの数字にして、化学式を書きます。",
 
     // Empirical and molecular formulas > worked example > h3
-    "Empirical formula from percentage composition": "",
+    "Empirical formula from percentage composition": "質量百分率組成から組成式を求める",
 
     // Empirical and molecular formulas > worked example > p
-    "A compound contains 48.64 % carbon, 8.16 % hydrogen and 43.20 % oxygen by mass. Determine its empirical formula.": "",
+    "A compound contains 48.64 % carbon, 8.16 % hydrogen and 43.20 % oxygen by mass. Determine its empirical formula.": "ある化合物は、質量で炭素 48.64 %、水素 8.16 %、酸素 43.20 % を含みます。組成式を求めなさい。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Turn percentages into masses": "",
+    "Turn percentages into masses": "百分率を質量に変える",
 
     // Empirical and molecular formulas > worked example > p
-    "In a 100 g sample, each percentage is the mass in grams. Any sample size gives the same ratio, and 100 g is the easiest.": "",
+    "In a 100 g sample, each percentage is the mass in grams. Any sample size gives the same ratio, and 100 g is the easiest.": "100 g の試料なら、百分率の数値がそのままグラムで表した質量になります。試料の量をいくらにしても比は同じなので、100 g がいちばん楽です。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Convert each mass to moles": "",
+    "Convert each mass to moles": "それぞれの質量をモルに変換する",
 
     // Empirical and molecular formulas > worked example > p
-    "A formula counts atoms, so you need amounts, not masses. Use <i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub>.": "",
+    "A formula counts atoms, so you need amounts, not masses. Use <i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub>.": "化学式は原子の数を表すので、必要なのは質量ではなく物質量です。<i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub> を使います。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Divide by the smallest": "",
+    "Divide by the smallest": "いちばん小さい値で割る",
 
     // Empirical and molecular formulas > worked example > p
-    "This sets the smallest amount to 1 and shows the ratio clearly. The smallest is 2.700.": "",
+    "This sets the smallest amount to 1 and shows the ratio clearly. The smallest is 2.700.": "こうすると、いちばん小さい物質量が 1 になり、比がはっきり見えます。いちばん小さいのは 2.700 です。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Clear the fraction": "",
+    "Clear the fraction": "端数をなくす",
 
     // Empirical and molecular formulas > worked example > p
-    "1.50 is not close to a whole number, so it must not be rounded. Multiplying everything by 2 turns it into 3.": "",
+    "1.50 is not close to a whole number, so it must not be rounded. Multiplying everything by 2 turns it into 3.": "1.50 は整数に近くないので、丸めてはいけません。全部に 2 をかけると、3 になります。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Write the formula": "",
+    "Write the formula": "化学式を書く",
 
     // Empirical and molecular formulas > worked example > p
-    "5.98 is within experimental error of 6, so the ratio is 3 : 6 : 2.": "",
+    "5.98 is within experimental error of 6, so the ratio is 3 : 6 : 2.": "5.98 は、実験の誤差の範囲で 6 とみなせます。だから比は 3 : 6 : 2 です。",
 
     // Empirical and molecular formulas > worked example > maths line
-    "empirical formula = <b>C<sub>3</sub>H<sub>6</sub>O<sub>2</sub></b>": "",
+    "empirical formula = <b>C<sub>3</sub>H<sub>6</sub>O<sub>2</sub></b>": "組成式 = <b>C<sub>3</sub>H<sub>6</sub>O<sub>2</sub></b>",
 
     // Empirical and molecular formulas > widget > data-title attribute
-    "Empirical formula solver": "",
+    "Empirical formula solver": "組成式ソルバー",
 
     // Empirical and molecular formulas > widget > figcaption
-    "Enter your own percentages or masses and watch each column of the table method fill in. Switch to “Combustion analysis” for CO<sub>2</sub> and H<sub>2</sub>O data. Add a molar mass to get the molecular formula too.": "",
+    "Enter your own percentages or masses and watch each column of the table method fill in. Switch to “Combustion analysis” for CO<sub>2</sub> and H<sub>2</sub>O data. Add a molar mass to get the molecular formula too.": "自分で百分率や質量を入力して、表の列が 1 つずつ埋まっていくのを見ましょう。CO<sub>2</sub> と H<sub>2</sub>O のデータを使うときは「燃焼分析」に切り替えます。モル質量を加えると、分子式も求められます。",
 
     // Empirical and molecular formulas > common mistake > p
-    "Three slips cause most wrong formulas. Using the percentages directly as the ratio, without dividing by <i>A</i><sub>r</sub>. Dividing by atomic number instead of <i>A</i><sub>r</sub>. Rounding 1.5 up to 2, or 1.33 down to 1, instead of multiplying by 2 or 3.": "",
+    "Three slips cause most wrong formulas. Using the percentages directly as the ratio, without dividing by <i>A</i><sub>r</sub>. Dividing by atomic number instead of <i>A</i><sub>r</sub>. Rounding 1.5 up to 2, or 1.33 down to 1, instead of multiplying by 2 or 3.": "間違った化学式の原因は、ほとんどが次の 3 つのミスです。<i>A</i><sub>r</sub> で割らずに、百分率をそのまま比として使う。<i>A</i><sub>r</sub> ではなく原子番号で割る。2 や 3 をかけるかわりに、1.5 を 2 に切り上げたり、1.33 を 1 に切り捨てたりする。",
 
     // Empirical and molecular formulas > try it > p
-    "An oxide of phosphorus contains 43.64 % phosphorus and 56.36 % oxygen by mass. Its empirical formula can be written <span class=\"chem\">P2Ox</span>. Find the whole number <i>x</i>. (<i>A</i><sub>r</sub>: P 30.97, O 16.00)": "",
+    "An oxide of phosphorus contains 43.64 % phosphorus and 56.36 % oxygen by mass. Its empirical formula can be written <span class=\"chem\">P2Ox</span>. Find the whole number <i>x</i>. (<i>A</i><sub>r</sub>: P 30.97, O 16.00)": "あるリンの酸化物は、質量でリン 43.64 %、酸素 56.36 % を含みます。その組成式は <span class=\"chem\">P2Ox</span> と書けます。整数 <i>x</i> を求めましょう。（<i>A</i><sub>r</sub>：P 30.97、O 16.00）",
 
     // Empirical and molecular formulas > try it > li
-    "Use the table method: divide each percentage by <i>A</i><sub>r</sub>, then divide both by the smaller answer.": "",
+    "Use the table method: divide each percentage by <i>A</i><sub>r</sub>, then divide both by the smaller answer.": "表を使う方法で解きます。それぞれの百分率を <i>A</i><sub>r</sub> で割り、その両方を小さいほうの答えで割ります。",
 
     // Empirical and molecular formulas > try it > li
-    "You should get P : O = 1 : 2.50. What do you multiply by to make both numbers whole?": "",
+    "You should get P : O = 1 : 2.50. What do you multiply by to make both numbers whole?": "P : O = 1 : 2.50 になるはずです。両方を整数にするには、何をかければよいですか。",
 
     // Empirical and molecular formulas > try it > p
-    "The empirical formula is P<sub>2</sub>O<sub>5</sub>, so <strong><i>x</i> = 5</strong>.": "",
+    "The empirical formula is P<sub>2</sub>O<sub>5</sub>, so <strong><i>x</i> = 5</strong>.": "組成式は P<sub>2</sub>O<sub>5</sub> なので、<strong><i>x</i> = 5</strong> です。",
 
     // Empirical and molecular formulas > data-title attribute
-    "Composition and empirical formulas: quick check": "",
+    "Composition and empirical formulas: quick check": "組成と組成式：確認クイズ",
 
     // Empirical and molecular formulas > h3
-    "Empirical formula from combustion data": "",
+    "Empirical formula from combustion data": "燃焼のデータから組成式を求める",
 
     // Empirical and molecular formulas > p
-    "Many compounds contain only carbon, hydrogen and oxygen. To analyse one, a weighed sample is burned completely in excess oxygen. The carbon dioxide and the water that form are collected and weighed.": "",
+    "Many compounds contain only carbon, hydrogen and oxygen. To analyse one, a weighed sample is burned completely in excess oxygen. The carbon dioxide and the water that form are collected and weighed.": "炭素、水素、酸素だけでできた化合物はたくさんあります。そのような化合物を分析するには、質量をはかった試料を、過剰の酸素の中で完全に燃やします。できた二酸化炭素と水を集めて、その質量をはかります。",
 
     // Empirical and molecular formulas > key idea > p
-    "Every carbon atom in the sample ends up in a <span class=\"chem\">CO2</span> molecule. Every hydrogen atom ends up in an <span class=\"chem\">H2O</span> molecule. The oxygen in the products comes partly from the air, so the oxygen in the sample is found by subtraction.": "",
+    "Every carbon atom in the sample ends up in a <span class=\"chem\">CO2</span> molecule. Every hydrogen atom ends up in an <span class=\"chem\">H2O</span> molecule. The oxygen in the products comes partly from the air, so the oxygen in the sample is found by subtraction.": "試料の中の炭素原子は、すべて <span class=\"chem\">CO2</span> 分子の中に入ります。水素原子は、すべて <span class=\"chem\">H2O</span> 分子の中に入ります。生成物の酸素は、一部が空気から来たものです。だから、試料の中の酸素は引き算で求めます。",
 
     // Empirical and molecular formulas > li
-    "Mass of C in the sample = mass of <span class=\"chem\">CO2</span> × <span class=\"mono\">12.01 ÷ 44.01</span>.": "",
+    "Mass of C in the sample = mass of <span class=\"chem\">CO2</span> × <span class=\"mono\">12.01 ÷ 44.01</span>.": "試料の中の C の質量 = <span class=\"chem\">CO2</span> の質量 × <span class=\"mono\">12.01 ÷ 44.01</span>。",
 
     // Empirical and molecular formulas > li
-    "Mass of H in the sample = mass of <span class=\"chem\">H2O</span> × <span class=\"mono\">2(1.01) ÷ 18.02</span>. The 2 is there because each water molecule holds two hydrogen atoms.": "",
+    "Mass of H in the sample = mass of <span class=\"chem\">H2O</span> × <span class=\"mono\">2(1.01) ÷ 18.02</span>. The 2 is there because each water molecule holds two hydrogen atoms.": "試料の中の H の質量 = <span class=\"chem\">H2O</span> の質量 × <span class=\"mono\">2(1.01) ÷ 18.02</span>。2 があるのは、水 1 分子が水素原子を 2 個含むからです。",
 
     // Empirical and molecular formulas > li
-    "Mass of O in the sample = mass of sample − mass of C − mass of H.": "",
+    "Mass of O in the sample = mass of sample − mass of C − mass of H.": "試料の中の O の質量 = 試料の質量 − C の質量 − H の質量。",
 
     // Empirical and molecular formulas > li
-    "Now use the table method on the three masses.": "",
+    "Now use the table method on the three masses.": "あとは、この 3 つの質量に、表を使う方法を当てはめます。",
 
     // Empirical and molecular formulas > p
-    "You can also work in moles: <i>n</i>(C) = <i>n</i>(<span class=\"chem\">CO2</span>) and <i>n</i>(H) = 2 × <i>n</i>(<span class=\"chem\">H2O</span>). You still need the masses of C and H to find the oxygen by difference.": "",
+    "You can also work in moles: <i>n</i>(C) = <i>n</i>(<span class=\"chem\">CO2</span>) and <i>n</i>(H) = 2 × <i>n</i>(<span class=\"chem\">H2O</span>). You still need the masses of C and H to find the oxygen by difference.": "モルで進めることもできます。<i>n</i>(C) = <i>n</i>(<span class=\"chem\">CO2</span>)、<i>n</i>(H) = 2 × <i>n</i>(<span class=\"chem\">H2O</span>) です。それでも、酸素を差で求めるには、C と H の質量が必要です。",
 
     // Empirical and molecular formulas > worked example > h3
-    "Empirical formula from combustion analysis": "",
+    "Empirical formula from combustion analysis": "元素分析（燃焼法）から組成式を求める",
 
     // Empirical and molecular formulas > worked example > p
-    "A compound contains only carbon, hydrogen and oxygen. Complete combustion of 0.660 g of it produces 1.319 g of <span class=\"chem\">CO2</span> and 0.540 g of <span class=\"chem\">H2O</span>. Determine the empirical formula.": "",
+    "A compound contains only carbon, hydrogen and oxygen. Complete combustion of 0.660 g of it produces 1.319 g of <span class=\"chem\">CO2</span> and 0.540 g of <span class=\"chem\">H2O</span>. Determine the empirical formula.": "ある化合物は、炭素、水素、酸素だけを含みます。この化合物 0.660 g を完全燃焼させると、<span class=\"chem\">CO2</span> が 1.319 g、<span class=\"chem\">H2O</span> が 0.540 g できます。組成式を求めなさい。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Find the mass of carbon": "",
+    "Find the mass of carbon": "炭素の質量を求める",
 
     // Empirical and molecular formulas > worked example > p
-    "All the carbon is now in the CO<sub>2</sub>. Carbon makes up 12.01 out of every 44.01 g of CO<sub>2</sub>.": "",
+    "All the carbon is now in the CO<sub>2</sub>. Carbon makes up 12.01 out of every 44.01 g of CO<sub>2</sub>.": "炭素は、いまはすべて CO<sub>2</sub> の中にあります。CO<sub>2</sub> 44.01 g のうち、12.01 g が炭素です。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Find the mass of hydrogen": "",
+    "Find the mass of hydrogen": "水素の質量を求める",
 
     // Empirical and molecular formulas > worked example > p
-    "All the hydrogen is now in the H<sub>2</sub>O. Hydrogen makes up 2.02 out of every 18.02 g of water.": "",
+    "All the hydrogen is now in the H<sub>2</sub>O. Hydrogen makes up 2.02 out of every 18.02 g of water.": "水素は、いまはすべて H<sub>2</sub>O の中にあります。水 18.02 g のうち、2.02 g が水素です。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Find the mass of oxygen by difference": "",
+    "Find the mass of oxygen by difference": "酸素の質量を差で求める",
 
     // Empirical and molecular formulas > worked example > p
-    "Whatever is not carbon or hydrogen must be oxygen. Use unrounded values from your calculator.": "",
+    "Whatever is not carbon or hydrogen must be oxygen. Use unrounded values from your calculator.": "炭素でも水素でもない部分は、酸素のはずです。電卓に残っている、丸めていない値を使います。",
 
     // Empirical and molecular formulas > worked example > p
-    "From here it is the ordinary table method.": "",
+    "From here it is the ordinary table method.": "ここからは、いつもの表を使う方法です。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Divide by the smallest and write the formula": "",
+    "Divide by the smallest and write the formula": "いちばん小さい値で割って、化学式を書く",
 
     // Empirical and molecular formulas > worked example > p
-    "The smallest is 0.01497. The ratios are whole numbers within experimental error.": "",
+    "The smallest is 0.01497. The ratios are whole numbers within experimental error.": "いちばん小さいのは 0.01497 です。比は、実験の誤差の範囲で整数になります。",
 
     // Empirical and molecular formulas > worked example > maths line
-    "empirical formula = <b>C<sub>2</sub>H<sub>4</sub>O</b>": "",
+    "empirical formula = <b>C<sub>2</sub>H<sub>4</sub>O</b>": "組成式 = <b>C<sub>2</sub>H<sub>4</sub>O</b>",
 
     // Empirical and molecular formulas > exam tip (shown in English + translation) > p
-    "A typical 3-mark combustion question gives one mark for the masses or amounts of C and H, one for oxygen by difference, and one for the formula. Lay your working out in that order so each mark is easy to find.": "",
+    "A typical 3-mark combustion question gives one mark for the masses or amounts of C and H, one for oxygen by difference, and one for the formula. Lay your working out in that order so each mark is easy to find.": "配点が 3 点の典型的な燃焼の問題では、C と H の質量または物質量に 1 点、差で求めた酸素に 1 点、化学式に 1 点が与えられます。途中の計算をこの順に並べて書くと、採点者がそれぞれの点を見つけやすくなります。",
 
     // Empirical and molecular formulas > try it > p
-    "A compound contains only C, H and O. Burning 1.150 g of it completely gives 2.197 g of <span class=\"chem\">CO2</span> and 1.349 g of <span class=\"chem\">H2O</span>. Calculate the mass of oxygen in the 1.150 g sample, to 3 significant figures.": "",
+    "A compound contains only C, H and O. Burning 1.150 g of it completely gives 2.197 g of <span class=\"chem\">CO2</span> and 1.349 g of <span class=\"chem\">H2O</span>. Calculate the mass of oxygen in the 1.150 g sample, to 3 significant figures.": "ある化合物は C、H、O だけを含みます。この化合物 1.150 g を完全に燃やすと、<span class=\"chem\">CO2</span> が 2.197 g、<span class=\"chem\">H2O</span> が 1.349 g できます。試料 1.150 g に含まれる酸素の質量を、有効数字 3 桁で計算しなさい。",
 
     // Empirical and molecular formulas > try it > li
-    "Find the mass of carbon from the CO<sub>2</sub> and the mass of hydrogen from the H<sub>2</sub>O. Then subtract both from 1.150 g.": "",
+    "Find the mass of carbon from the CO<sub>2</sub> and the mass of hydrogen from the H<sub>2</sub>O. Then subtract both from 1.150 g.": "CO<sub>2</sub> から炭素の質量を、H<sub>2</sub>O から水素の質量を求めます。次に、その両方を 1.150 g から引きます。",
 
     // Empirical and molecular formulas > try it > li
-    "<i>m</i>(C) = 2.197 × 12.01 ÷ 44.01 and <i>m</i>(H) = 1.349 × 2.02 ÷ 18.02. Do not round them before you subtract.": "",
+    "<i>m</i>(C) = 2.197 × 12.01 ÷ 44.01 and <i>m</i>(H) = 1.349 × 2.02 ÷ 18.02. Do not round them before you subtract.": "<i>m</i>(C) = 2.197 × 12.01 ÷ 44.01、<i>m</i>(H) = 1.349 × 2.02 ÷ 18.02 です。引き算の前に丸めてはいけません。",
 
     // Empirical and molecular formulas > try it > p
-    "<strong>0.399 g</strong> of oxygen. Carrying on: the amounts are C 0.04992 mol, H 0.1497 mol and O 0.02495 mol, a ratio of 2 : 6 : 1, so the empirical formula is C<sub>2</sub>H<sub>6</sub>O.": "",
+    "<strong>0.399 g</strong> of oxygen. Carrying on: the amounts are C 0.04992 mol, H 0.1497 mol and O 0.02495 mol, a ratio of 2 : 6 : 1, so the empirical formula is C<sub>2</sub>H<sub>6</sub>O.": "酸素は <strong>0.399 g</strong> です。続きを計算すると、物質量は C 0.04992 mol、H 0.1497 mol、O 0.02495 mol で、比は 2 : 6 : 1 です。だから組成式は C<sub>2</sub>H<sub>6</sub>O です。",
 
     // Empirical and molecular formulas > h3
-    "From empirical formula to molecular formula": "",
+    "From empirical formula to molecular formula": "組成式から分子式へ",
 
     // Empirical and molecular formulas > p
-    "The empirical formula gives the ratio. To find the real molecule you need one more fact: the molar mass. It usually comes from another experiment, often a gas measurement (topic 1.5).": "",
+    "The empirical formula gives the ratio. To find the real molecule you need one more fact: the molar mass. It usually comes from another experiment, often a gas measurement (topic 1.5).": "組成式からわかるのは比です。実際の分子を知るには、もう 1 つ情報が必要です。モル質量です。モル質量はふつう別の実験から求め、気体の測定を使うことがよくあります（トピック 1.5）。",
 
     // Empirical and molecular formulas > li
-    "Work out the mass of the empirical formula, from <i>A</i><sub>r</sub> values.": "",
+    "Work out the mass of the empirical formula, from <i>A</i><sub>r</sub> values.": "<i>A</i><sub>r</sub> の値から、組成式の式量を求めます。",
 
     // Empirical and molecular formulas > li
-    "Divide the molar mass by the empirical formula mass. The answer should be a whole number.": "",
+    "Divide the molar mass by the empirical formula mass. The answer should be a whole number.": "モル質量を、組成式の式量で割ります。答えは整数になるはずです。",
 
     // Empirical and molecular formulas > li
-    "Multiply every subscript in the empirical formula by that whole number.": "",
+    "Multiply every subscript in the empirical formula by that whole number.": "組成式のすべての下付きの数字に、その整数をかけます。",
 
     // Empirical and molecular formulas > worked example > h3
-    "Molecular formula from molar mass": "",
+    "Molecular formula from molar mass": "モル質量から分子式を求める",
 
     // Empirical and molecular formulas > worked example > p
-    "The compound in the last worked example has the empirical formula <span class=\"chem\">C2H4O</span>. Its molar mass is 88.12 g mol<sup>−1</sup>. Determine its molecular formula.": "",
+    "The compound in the last worked example has the empirical formula <span class=\"chem\">C2H4O</span>. Its molar mass is 88.12 g mol<sup>−1</sup>. Determine its molecular formula.": "前の例題の化合物の組成式は <span class=\"chem\">C2H4O</span> です。モル質量は 88.12 g mol<sup>−1</sup> です。分子式を求めなさい。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Find the empirical formula mass": "",
+    "Find the empirical formula mass": "組成式の式量を求める",
 
     // Empirical and molecular formulas > worked example > p
-    "You need to know how heavy one “unit” of the ratio is.": "",
+    "You need to know how heavy one “unit” of the ratio is.": "比の「1 単位」がどれだけの重さなのかを知る必要があります。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Divide the molar mass by it": "",
+    "Divide the molar mass by it": "モル質量をその値で割る",
 
     // Empirical and molecular formulas > worked example > p
-    "This tells you how many empirical units fit into one molecule.": "",
+    "This tells you how many empirical units fit into one molecule.": "これで、1 分子の中に組成式の単位がいくつ入るかがわかります。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Multiply the subscripts": "",
+    "Multiply the subscripts": "下付きの数字にかける",
 
     // Empirical and molecular formulas > worked example > p
-    "Two units per molecule, so double every subscript.": "",
+    "Two units per molecule, so double every subscript.": "1 分子に 2 単位なので、下付きの数字をすべて 2 倍にします。",
 
     // Empirical and molecular formulas > try it > data-label attribute
-    "Carbon atoms": "",
+    "Carbon atoms": "炭素原子の数",
 
     // Empirical and molecular formulas > try it > p
-    "A sugar has the empirical formula <span class=\"chem\">CH2O</span> and a molar mass of 180.18 g mol<sup>−1</sup>. How many carbon atoms are in one molecule of the sugar? (<i>A</i><sub>r</sub>: C 12.01, H 1.01, O 16.00)": "",
+    "A sugar has the empirical formula <span class=\"chem\">CH2O</span> and a molar mass of 180.18 g mol<sup>−1</sup>. How many carbon atoms are in one molecule of the sugar? (<i>A</i><sub>r</sub>: C 12.01, H 1.01, O 16.00)": "ある糖の組成式は <span class=\"chem\">CH2O</span> で、モル質量は 180.18 g mol<sup>−1</sup> です。この糖 1 分子に、炭素原子は何個ありますか。（<i>A</i><sub>r</sub>：C 12.01、H 1.01、O 16.00）",
 
     // Empirical and molecular formulas > try it > li
-    "Find the mass of one CH<sub>2</sub>O unit first.": "",
+    "Find the mass of one CH<sub>2</sub>O unit first.": "まず、CH<sub>2</sub>O 1 単位の式量を求めましょう。",
 
     // Empirical and molecular formulas > try it > li
-    "The empirical formula mass is 30.03. Divide 180.18 by it to see how many units make one molecule.": "",
+    "The empirical formula mass is 30.03. Divide 180.18 by it to see how many units make one molecule.": "組成式の式量は 30.03 です。180.18 をこの値で割ると、1 分子が何単位でできているかがわかります。",
 
     // Empirical and molecular formulas > try it > maths line
-    "empirical formula mass = 12.01 + 2(1.01) + 16.00 = 30.03": "",
+    "empirical formula mass = 12.01 + 2(1.01) + 16.00 = 30.03": "組成式の式量 = 12.01 + 2(1.01) + 16.00 = 30.03",
 
     // Empirical and molecular formulas > try it > p
-    "The molecular formula is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>, so there are <strong>6</strong> carbon atoms.": "",
+    "The molecular formula is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>, so there are <strong>6</strong> carbon atoms.": "分子式は C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> なので、炭素原子は <strong>6</strong> 個です。",
 
     // Empirical and molecular formulas > common mistake > p
-    "Read which formula the question wants. If it asks for the empirical formula of <span class=\"chem\">C4H8O2</span>, simplify to <span class=\"chem\">C2H4O</span>. If it asks for the molecular formula, do not simplify.": "",
+    "Read which formula the question wants. If it asks for the empirical formula of <span class=\"chem\">C4H8O2</span>, simplify to <span class=\"chem\">C2H4O</span>. If it asks for the molecular formula, do not simplify.": "問題がどちらの式を求めているのかを、よく読みましょう。<span class=\"chem\">C4H8O2</span> の組成式 (empirical formula) をきかれたら、<span class=\"chem\">C2H4O</span> に簡単にします。分子式 (molecular formula) をきかれたら、簡単にしてはいけません。",
 
     // Empirical and molecular formulas > h3
-    "Water of crystallization from heating a hydrate": "",
+    "Water of crystallization from heating a hydrate": "水和物を加熱して水和水を求める",
 
     // Empirical and molecular formulas > p
-    "The same table method finds the <i>x</i> in a hydrated salt such as <span class=\"chem\">CuSO4.xH2O</span>. A weighed sample is heated so the water is driven off as steam. What is left is the <dfn data-def=\"Without water. An anhydrous salt has lost its water of crystallization.\">anhydrous</dfn> salt. The mass lost is the mass of water.": "",
+    "The same table method finds the <i>x</i> in a hydrated salt such as <span class=\"chem\">CuSO4.xH2O</span>. A weighed sample is heated so the water is driven off as steam. What is left is the <dfn data-def=\"Without water. An anhydrous salt has lost its water of crystallization.\">anhydrous</dfn> salt. The mass lost is the mass of water.": "<span class=\"chem\">CuSO4.xH2O</span> のような水和物の <i>x</i> も、同じ表を使う方法で求められます。質量をはかった試料を加熱して、水を水蒸気として追い出します。残るのは<dfn data-def=\"水を含まないこと。無水物は、水和水を失った塩です。\">無水 <span class=\"en-term\">(anhydrous)</span></dfn>の塩（無水物）です。減った質量が、水の質量です。",
 
     // Empirical and molecular formulas > data-def attribute
-    "Without water. An anhydrous salt has lost its water of crystallization.": "",
+    "Without water. An anhydrous salt has lost its water of crystallization.": "水を含まないこと。無水物は、水和水を失った塩です。",
 
     // Empirical and molecular formulas > p
-    "Here the two “elements” in the table are the anhydrous salt and the water. Divide each mass by its own molar mass, then divide by the amount of salt.": "",
+    "Here the two “elements” in the table are the anhydrous salt and the water. Divide each mass by its own molar mass, then divide by the amount of salt.": "ここでは、表の 2 つの「元素」にあたるのは、無水物と水です。それぞれの質量をそれぞれのモル質量で割り、次に無水物の物質量で割ります。",
 
     // Empirical and molecular formulas > worked example > h3
-    "Finding x in a hydrate": "",
+    "Finding x in a hydrate": "水和物の x を求める",
 
     // Empirical and molecular formulas > worked example > p
-    "4.99 g of hydrated copper(II) sulfate, <span class=\"chem\">CuSO4.xH2O</span>, is heated to constant mass. 3.19 g of anhydrous <span class=\"chem\">CuSO4</span> remains. Determine <i>x</i>.": "",
+    "4.99 g of hydrated copper(II) sulfate, <span class=\"chem\">CuSO4.xH2O</span>, is heated to constant mass. 3.19 g of anhydrous <span class=\"chem\">CuSO4</span> remains. Determine <i>x</i>.": "硫酸銅(II) の水和物 <span class=\"chem\">CuSO4.xH2O</span> 4.99 g を、質量が一定になるまで加熱します。無水の <span class=\"chem\">CuSO4</span> が 3.19 g 残ります。<i>x</i> を求めなさい。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Find the mass of water lost": "",
+    "Find the mass of water lost": "失われた水の質量を求める",
 
     // Empirical and molecular formulas > worked example > p
-    "The only thing that left the crucible was water.": "",
+    "The only thing that left the crucible was water.": "るつぼから出ていったのは、水だけです。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Convert both masses to moles": "",
+    "Convert both masses to moles": "両方の質量をモルに変換する",
 
     // Empirical and molecular formulas > worked example > p
-    "The formula is a mole ratio of salt to water. <i>M</i>(CuSO<sub>4</sub>) = 63.55 + 32.07 + 4(16.00) = 159.62 g mol<sup>−1</sup>.": "",
+    "The formula is a mole ratio of salt to water. <i>M</i>(CuSO<sub>4</sub>) = 63.55 + 32.07 + 4(16.00) = 159.62 g mol<sup>−1</sup>.": "この化学式は、無水物と水の物質量の比を表しています。<i>M</i>(CuSO<sub>4</sub>) = 63.55 + 32.07 + 4(16.00) = 159.62 g mol<sup>−1</sup> です。",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Divide by the amount of salt": "",
+    "Divide by the amount of salt": "無水物の物質量で割る",
 
     // Empirical and molecular formulas > worked example > p
-    "You want the number of waters for each one CuSO<sub>4</sub>.": "",
+    "You want the number of waters for each one CuSO<sub>4</sub>.": "知りたいのは、CuSO<sub>4</sub> 1 つあたりの水の数です。",
 
     // Empirical and molecular formulas > worked example > p
-    "<i>x</i> must be a whole number, because it counts molecules.": "",
+    "<i>x</i> must be a whole number, because it counts molecules.": "<i>x</i> は分子の数なので、整数でなければなりません。",
 
     // Empirical and molecular formulas > worked example > maths line
-    "<i>x</i> = <b>5</b>, so the formula is CuSO<sub>4</sub>·5H<sub>2</sub>O": "",
+    "<i>x</i> = <b>5</b>, so the formula is CuSO<sub>4</sub>·5H<sub>2</sub>O": "<i>x</i> = <b>5</b> なので、化学式は CuSO<sub>4</sub>·5H<sub>2</sub>O",
 
     // Empirical and molecular formulas > exam tip (shown in English + translation) > p
-    "“Heat to constant mass” means heat, cool, weigh, and repeat until two weighings agree. It shows that all the water has gone. If some water stays behind, the mass lost is too small and the calculated <i>x</i> is too low.": "",
+    "“Heat to constant mass” means heat, cool, weigh, and repeat until two weighings agree. It shows that all the water has gone. If some water stays behind, the mass lost is too small and the calculated <i>x</i> is too low.": "「質量が一定になるまで加熱する (heat to constant mass)」とは、加熱し、冷まし、質量をはかることを、2 回の測定値が一致するまで繰り返すという意味です。これで、水がすべて出ていったことがわかります。水が少し残っていると、減った質量が小さくなりすぎ、計算した <i>x</i> は小さくなりすぎます。",
 
     // Empirical and molecular formulas > try it > p
-    "6.16 g of hydrated magnesium sulfate, <span class=\"chem\">MgSO4.xH2O</span>, is heated to constant mass. 3.01 g of anhydrous <span class=\"chem\">MgSO4</span> remains. Determine the whole number <i>x</i>. (<i>M</i>: <span class=\"chem\">MgSO4</span> 120.38 g mol<sup>−1</sup>, <span class=\"chem\">H2O</span> 18.02 g mol<sup>−1</sup>)": "",
+    "6.16 g of hydrated magnesium sulfate, <span class=\"chem\">MgSO4.xH2O</span>, is heated to constant mass. 3.01 g of anhydrous <span class=\"chem\">MgSO4</span> remains. Determine the whole number <i>x</i>. (<i>M</i>: <span class=\"chem\">MgSO4</span> 120.38 g mol<sup>−1</sup>, <span class=\"chem\">H2O</span> 18.02 g mol<sup>−1</sup>)": "硫酸マグネシウムの水和物 <span class=\"chem\">MgSO4.xH2O</span> 6.16 g を、質量が一定になるまで加熱します。無水の <span class=\"chem\">MgSO4</span> が 3.01 g 残ります。整数 <i>x</i> を求めなさい。（<i>M</i>：<span class=\"chem\">MgSO4</span> 120.38 g mol<sup>−1</sup>、<span class=\"chem\">H2O</span> 18.02 g mol<sup>−1</sup>）",
 
     // Empirical and molecular formulas > try it > li
-    "The mass of water is the mass lost on heating: 6.16 g − 3.01 g.": "",
+    "The mass of water is the mass lost on heating: 6.16 g − 3.01 g.": "水の質量は、加熱で減った質量です：6.16 g − 3.01 g。",
 
     // Empirical and molecular formulas > try it > li
-    "Convert 3.01 g of MgSO<sub>4</sub> and 3.15 g of H<sub>2</sub>O to moles. Then divide the moles of water by the moles of salt.": "",
+    "Convert 3.01 g of MgSO<sub>4</sub> and 3.15 g of H<sub>2</sub>O to moles. Then divide the moles of water by the moles of salt.": "MgSO<sub>4</sub> 3.01 g と H<sub>2</sub>O 3.15 g をモルに変換します。次に、水のモルを無水物のモルで割ります。",
 
     // Empirical and molecular formulas > try it > p
-    "Rounded to a whole number, <strong><i>x</i> = 7</strong>: MgSO<sub>4</sub>·7H<sub>2</sub>O.": "",
+    "Rounded to a whole number, <strong><i>x</i> = 7</strong>: MgSO<sub>4</sub>·7H<sub>2</sub>O.": "整数に丸めると <strong><i>x</i> = 7</strong> です：MgSO<sub>4</sub>·7H<sub>2</sub>O。",
 
     // Empirical and molecular formulas > not needed for IB > p
-    "Combustion problems in this topic use compounds of carbon, hydrogen and oxygen, with oxygen found by difference. You do not need to know how an elemental analyser works.": "",
+    "Combustion problems in this topic use compounds of carbon, hydrogen and oxygen, with oxygen found by difference. You do not need to know how an elemental analyser works.": "このトピックの燃焼の問題で扱うのは、炭素、水素、酸素の化合物です。酸素は差で求めます。元素分析装置のしくみを知る必要はありません。",
 
     // Empirical and molecular formulas > data-title attribute
-    "Combustion, molecular formulas and hydrates: quick check": "",
+    "Combustion, molecular formulas and hydrates: quick check": "燃焼・分子式・水和物：確認クイズ",
 
     // Concentration of solutions > data-toc attribute
-    "Concentration": "",
+    "Concentration": "濃度",
 
     // Concentration of solutions > h2
-    "Concentration of solutions": "",
+    "Concentration of solutions": "溶液の濃度",
 
     // Concentration of solutions > p
-    "Two glasses of squash can hold the same amount of syrup but taste different, because one has more water in it. What matters is how much is dissolved <em>per unit volume</em>. That is concentration.": "",
+    "Two glasses of squash can hold the same amount of syrup but taste different, because one has more water in it. What matters is how much is dissolved <em>per unit volume</em>. That is concentration.": "シロップを水でうすめた飲み物が 2 杯あるとします。シロップの量が同じでも、片方に水が多く入っていれば、味は違います。大事なのは、<em>単位体積あたり</em>にどれだけ溶けているかです。それが濃度です。",
 
     // Concentration of solutions > p
-    "A <dfn data-def=\"The substance that dissolves.\">solute</dfn> dissolves in a <dfn data-def=\"The liquid that does the dissolving, usually water.\">solvent</dfn> to make a <dfn data-def=\"A homogeneous mixture of a solute dissolved in a solvent.\">solution</dfn>. The <dfn data-def=\"The amount of solute, in mol, per cubic decimetre of solution. Units mol dm^-3. Shown by square brackets.\">molar concentration</dfn> is the amount of solute divided by the volume of the solution. Its units are <span class=\"unit\">mol dm-3</span>.": "",
+    "A <dfn data-def=\"The substance that dissolves.\">solute</dfn> dissolves in a <dfn data-def=\"The liquid that does the dissolving, usually water.\">solvent</dfn> to make a <dfn data-def=\"A homogeneous mixture of a solute dissolved in a solvent.\">solution</dfn>. The <dfn data-def=\"The amount of solute, in mol, per cubic decimetre of solution. Units mol dm^-3. Shown by square brackets.\">molar concentration</dfn> is the amount of solute divided by the volume of the solution. Its units are <span class=\"unit\">mol dm-3</span>.": "<dfn data-def=\"溶けている物質です。\">溶質 <span class=\"en-term\">(solute)</span></dfn>が<dfn data-def=\"溶かすほうの液体です。ふつうは水です。\">溶媒 <span class=\"en-term\">(solvent)</span></dfn>に溶けると、<dfn data-def=\"溶質が溶媒に溶けてできた均一混合物です。\">溶液 <span class=\"en-term\">(solution)</span></dfn>ができます。<dfn data-def=\"溶液 1 立方デシメートルあたりの溶質の物質量（mol）です。単位は mol dm^-3。角かっこ [ ] で表します。\">モル濃度 <span class=\"en-term\">(molar concentration)</span></dfn>は、溶質の物質量を溶液の体積で割った値です。単位は <span class=\"unit\">mol dm-3</span> です。",
 
     // Concentration of solutions > data-def attribute
-    "The substance that dissolves.": "",
+    "The substance that dissolves.": "溶けている物質です。",
 
     // Concentration of solutions > data-def attribute
-    "The liquid that does the dissolving, usually water.": "",
+    "The liquid that does the dissolving, usually water.": "溶かすほうの液体です。ふつうは水です。",
 
     // Concentration of solutions > data-def attribute
-    "A homogeneous mixture of a solute dissolved in a solvent.": "",
+    "A homogeneous mixture of a solute dissolved in a solvent.": "溶質が溶媒に溶けてできた均一混合物です。",
 
     // Concentration of solutions > data-def attribute
-    "The amount of solute, in mol, per cubic decimetre of solution. Units mol dm^-3. Shown by square brackets.": "",
+    "The amount of solute, in mol, per cubic decimetre of solution. Units mol dm^-3. Shown by square brackets.": "溶液 1 立方デシメートルあたりの溶質の物質量（mol）です。単位は mol dm^-3。角かっこ [ ] で表します。",
 
     // Concentration of solutions > equation > dd
-    "amount of solute <span class=\"unit\">mol</span>": "",
+    "amount of solute <span class=\"unit\">mol</span>": "溶質の物質量 <span class=\"unit\">mol</span>",
 
     // Concentration of solutions > equation > dd
-    "molar concentration <span class=\"unit\">mol dm-3</span>": "",
+    "molar concentration <span class=\"unit\">mol dm-3</span>": "モル濃度 <span class=\"unit\">mol dm-3</span>",
 
     // Concentration of solutions > equation > dd
-    "volume of solution <span class=\"unit\">dm3</span>": "",
+    "volume of solution <span class=\"unit\">dm3</span>": "溶液の体積 <span class=\"unit\">dm3</span>",
 
     // Concentration of solutions > data booklet note > p
-    "<i>n</i> = <i>CV</i> is printed in the data booklet. Rearranged: <span class=\"mono\"><i>C</i> = <i>n</i> ÷ <i>V</i></span> and <span class=\"mono\"><i>V</i> = <i>n</i> ÷ <i>C</i></span>. The volume must be in dm<sup>3</sup>.": "",
+    "<i>n</i> = <i>CV</i> is printed in the data booklet. Rearranged: <span class=\"mono\"><i>C</i> = <i>n</i> ÷ <i>V</i></span> and <span class=\"mono\"><i>V</i> = <i>n</i> ÷ <i>C</i></span>. The volume must be in dm<sup>3</sup>.": "<i>n</i> = <i>CV</i> はデータブックレットに載っています。変形すると <span class=\"mono\"><i>C</i> = <i>n</i> ÷ <i>V</i></span> と <span class=\"mono\"><i>V</i> = <i>n</i> ÷ <i>C</i></span> になります。体積は dm<sup>3</sup> でなければなりません。",
 
     // Concentration of solutions > p
-    "Square brackets mean “molar concentration of”. So <span class=\"mono\">[NaCl] = 0.400 mol dm<sup>−3</sup></span> reads “the concentration of sodium chloride is 0.400 moles per cubic decimetre”. You are expected to use this notation.": "",
+    "Square brackets mean “molar concentration of”. So <span class=\"mono\">[NaCl] = 0.400 mol dm<sup>−3</sup></span> reads “the concentration of sodium chloride is 0.400 moles per cubic decimetre”. You are expected to use this notation.": "角かっこ [ ] は「〜のモル濃度」という意味です。だから <span class=\"mono\">[NaCl] = 0.400 mol dm<sup>−3</sup></span> は、「塩化ナトリウムの濃度は 0.400 モル毎立方デシメートル」と読みます。試験では、この書き方を使えることが求められます。",
 
     // Concentration of solutions > key idea > p
-    "<i>V</i> is the volume of the finished <strong>solution</strong>, not the volume of water you added. Dissolving a solid changes the volume a little, which is why solutions are made up to a mark and not by adding a measured volume of water.": "",
+    "<i>V</i> is the volume of the finished <strong>solution</strong>, not the volume of water you added. Dissolving a solid changes the volume a little, which is why solutions are made up to a mark and not by adding a measured volume of water.": "<i>V</i> は、できあがった<strong>溶液</strong>の体積です。加えた水の体積ではありません。固体を溶かすと体積が少し変わります。だから溶液は、はかった体積の水を加えるのではなく、標線まで水を加えてつくります。",
 
     // Concentration of solutions > h3
-    "Two ways to state a concentration": "",
+    "Two ways to state a concentration": "濃度の 2 つの表し方",
 
     // Concentration of solutions > p
-    "The <dfn data-def=\"The mass of solute, in g, per cubic decimetre of solution. Units g dm^-3.\">mass concentration</dfn> is the mass of solute per volume of solution, in <span class=\"unit\">g dm-3</span>. The two are linked by the molar mass, in exactly the way mass and moles are.": "",
+    "The <dfn data-def=\"The mass of solute, in g, per cubic decimetre of solution. Units g dm^-3.\">mass concentration</dfn> is the mass of solute per volume of solution, in <span class=\"unit\">g dm-3</span>. The two are linked by the molar mass, in exactly the way mass and moles are.": "<dfn data-def=\"溶液 1 立方デシメートルあたりの溶質の質量（g）です。単位は g dm^-3。\">質量濃度 <span class=\"en-term\">(mass concentration)</span></dfn>は、溶液の体積あたりの溶質の質量で、単位は <span class=\"unit\">g dm-3</span> です。この 2 つの濃度は、モル質量でつながっています。質量とモルのつながりと、まったく同じです。",
 
     // Concentration of solutions > data-def attribute
-    "The mass of solute, in g, per cubic decimetre of solution. Units g dm^-3.": "",
+    "The mass of solute, in g, per cubic decimetre of solution. Units g dm^-3.": "溶液 1 立方デシメートルあたりの溶質の質量（g）です。単位は g dm^-3。",
 
     // Concentration of solutions > equation > maths line
-    "mass concentration = <i>C</i> × <i>M</i>": "",
+    "mass concentration = <i>C</i> × <i>M</i>": "質量濃度 = <i>C</i> × <i>M</i>",
 
     // Concentration of solutions > equation > dd
-    "molar mass of the solute <span class=\"unit\">g mol-1</span>": "",
+    "molar mass of the solute <span class=\"unit\">g mol-1</span>": "溶質のモル質量 <span class=\"unit\">g mol-1</span>",
 
     // Concentration of solutions > p
-    "The mass concentration comes out in <span class=\"unit\">g dm-3</span>. For example, 0.0500 mol dm<sup>−3</sup> sulfuric acid (<i>M</i> = 98.09 g mol<sup>−1</sup>) is <span class=\"mono\">0.0500 × 98.09 = 4.90 g dm<sup>−3</sup></span>. To go from g dm<sup>−3</sup> to mol dm<sup>−3</sup>, divide by <i>M</i>.": "",
+    "The mass concentration comes out in <span class=\"unit\">g dm-3</span>. For example, 0.0500 mol dm<sup>−3</sup> sulfuric acid (<i>M</i> = 98.09 g mol<sup>−1</sup>) is <span class=\"mono\">0.0500 × 98.09 = 4.90 g dm<sup>−3</sup></span>. To go from g dm<sup>−3</sup> to mol dm<sup>−3</sup>, divide by <i>M</i>.": "質量濃度の単位は <span class=\"unit\">g dm-3</span> になります。たとえば、0.0500 mol dm<sup>−3</sup> の硫酸（<i>M</i> = 98.09 g mol<sup>−1</sup>）は <span class=\"mono\">0.0500 × 98.09 = 4.90 g dm<sup>−3</sup></span> です。g dm<sup>−3</sup> から mol dm<sup>−3</sup> に直すには、<i>M</i> で割ります。",
 
     // Concentration of solutions > li
-    "Ask the three questions. Is the solute given as a mass, an amount or a concentration?": "",
+    "Ask the three questions. Is the solute given as a mass, an amount or a concentration?": "3 つの問いを確認します。溶質は、質量、物質量、濃度のどれで与えられていますか。",
 
     // Concentration of solutions > li
-    "Convert every volume from cm<sup>3</sup> to dm<sup>3</sup> by dividing by 1000. Write this as its own line.": "",
+    "Convert every volume from cm<sup>3</sup> to dm<sup>3</sup> by dividing by 1000. Write this as its own line.": "体積はすべて、1000 で割って cm<sup>3</sup> から dm<sup>3</sup> に直します。これを、それだけで 1 行として書きます。",
 
     // Concentration of solutions > li
     "If you have a mass of solute, convert it to moles with <i>n</i> = <i>m</i> ÷ <i>M</i>.": "",

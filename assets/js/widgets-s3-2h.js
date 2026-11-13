@@ -447,16 +447,16 @@
      ========================================================================== */
   S1.widgets.register('s3-2h.cistrans', function (w) {
     var PAIRS = [
-      { id: 'butene', name: t('but-2-ene'), group: 'CH3', lock: t('the C=C double bond'),
+      { id: 'butene', name: t('but-2-ene'), group: 'CH<sub>3</sub>', lock: t('the C=C double bond'),
         cis: function () { return alkene3d(['CH3', 'H', 'CH3', 'H']); }, trans: function () { return alkene3d(['CH3', 'H', 'H', 'CH3']); },
         cis2: alkene(['H3C', 'H', 'CH3', 'H']), trans2: alkene(['H3C', 'H', 'H', 'CH3']) },
       { id: 'dce', name: t('1,2-dichloroethene'), group: 'Cl', lock: t('the C=C double bond'),
         cis: function () { return alkene3d(['Cl', 'H', 'Cl', 'H']); }, trans: function () { return alkene3d(['Cl', 'H', 'H', 'Cl']); },
         cis2: alkene(['Cl', 'H', 'Cl', 'H']), trans2: alkene(['Cl', 'H', 'H', 'Cl']) },
-      { id: 'c3', name: t('1,2-dimethylcyclopropane'), group: 'CH3', lock: t('the ring'), ringNote: true,
+      { id: 'c3', name: t('1,2-dimethylcyclopropane'), group: 'CH<sub>3</sub>', lock: t('the ring'), ringNote: true,
         cis: function () { return ring3d(3, [['H', 'H'], ['CH3', 'H'], ['CH3', 'H']]); }, trans: function () { return ring3d(3, [['H', 'H'], ['CH3', 'H'], ['H', 'CH3']]); },
         cis2: ring(3, [{ at: 0, l: 'H3C', stereo: 'wedge' }, { at: 1, l: 'CH3', stereo: 'wedge' }]), trans2: ring(3, [{ at: 0, l: 'H3C', stereo: 'wedge' }, { at: 1, l: 'CH3', stereo: 'hash' }]) },
-      { id: 'c4', name: t('1,2-dimethylcyclobutane'), group: 'CH3', lock: t('the ring'), ringNote: true, flat: true,
+      { id: 'c4', name: t('1,2-dimethylcyclobutane'), group: 'CH<sub>3</sub>', lock: t('the ring'), ringNote: true, flat: true,
         cis: function () { return ring3d(4, [['H', 'H'], ['CH3', 'H'], ['CH3', 'H'], ['H', 'H']]); }, trans: function () { return ring3d(4, [['H', 'H'], ['CH3', 'H'], ['H', 'CH3'], ['H', 'H']]); },
         cis2: ring(4, [{ at: 0, l: 'H3C', stereo: 'wedge' }, { at: 1, l: 'CH3', stereo: 'wedge' }]), trans2: ring(4, [{ at: 0, l: 'H3C', stereo: 'wedge' }, { at: 1, l: 'CH3', stereo: 'hash' }]) }
     ];
@@ -481,7 +481,7 @@
       });
       setSame(t('Molecular formula, and which atom is bonded to which.'));
       setDiff(p.ringNote ? t('cis: both {g} groups on the same face of the ring. trans: on opposite faces.', { g: p.group }) : t('cis: both {g} groups on the same side of the double bond. trans: on opposite sides.', { g: p.group }));
-      setLock(t('Atoms cannot rotate around {lock}, so one isomer cannot turn into the other without breaking a bond.', { lock: p.lock }));
+      setLock(t('Rotation is restricted by {lock}, so one isomer cannot turn into the other without breaking a bond.', { lock: p.lock }));
       note.innerHTML = p.flat ? t('Model note: the ring of cyclobutane is drawn flat here. The real ring is slightly bent. In the drawings, a wedge bond points towards you and a hashed bond points away from you.') : p.ringNote ? t('In the drawings, a wedge bond points towards you and a hashed bond points away from you.') : t('Turn each model. However you turn it, you cannot make one model look like the other.');
     }
     update();
