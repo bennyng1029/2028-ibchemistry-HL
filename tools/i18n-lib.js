@@ -39,10 +39,11 @@ const NOISE = /^(data-[\w-]+|is-[\w-]+|aria-[\w-]+|ahl|sl|all|en|ja|zh-Hant|ui|[
 // (except for an operand of a comparison, such as  t(kind === 'some-id' ? … : …)).
 const NOISE_PAGE = /^(data-[\w-]+|is-[\w-]+|aria-[\w-]+|[a-z]+__[\w-]+|[.#][\w-].*|\[[\w-]+(?:[~^$*|]?=.*)?\])$/;
 const IDLIKE = /^[a-z0-9]+(-[a-z0-9]+)+$/;
-/* The rule shared with S1.i18n.translatable() in core.js (used by coverage()): a string is translatable when it
-   has at least one letter outside its {placeholders} and its |context suffix.  So "{n} p", "m.p. {T} °C" and
-   "{C} °C = {K} K" are entries (word order and unit words can differ), and "{a} × {b}" or "1 σ" are not. */
-const translatable = v => /[A-Za-zÀ-ɏ]/.test(String(v).replace(/\|[A-Za-z0-9_-]+$/, '').replace(/\{\w+\}/g, ''));
+/* The rule shared with S1.i18n.translatable() in core.js (used by coverage()): a t("…") string is an entry when it
+   has at least one Latin letter (a {placeholder} counts; the |context suffix does not).  So "{n} p", "m.p. {T} °C",
+   "{C} °C = {K} K" and "{name} ({formula})" are entries (word order, brackets and unit words can differ), and
+   strings made only of digits and symbols ("1 σ", "→", "+ 2") are not: nobody is asked to translate those. */
+const translatable = v => /[A-Za-zÀ-ɏ]/.test(String(v).replace(/\|[A-Za-z0-9_-]+$/, ''));
 // Like literalsIn, but drops id-like literals that are an operand of ===, !==, == or !=
 function keyLiteralsIn(code) {
   const out = [];

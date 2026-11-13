@@ -1793,598 +1793,598 @@ S1.i18n.register('zh-Hant', 's1-4', {
     "Substance": "物質",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass of sample": "{name} ({formula})",
+    "Mass of sample": "樣本的質量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Number line on a powers-of-ten scale from 1 to 10 to the power 24, marking the number of people on Earth, the number of seconds since the Big Bang, one mole, and the number of particles in your sample": "樣本的質量",
+    "Number line on a powers-of-ten scale from 1 to 10 to the power 24, marking the number of people on Earth, the number of seconds since the Big Bang, one mole, and the number of particles in your sample": "以 10 的次方為標度的數線，由 1 到 10 的 24 次方，標出地球上的人數、宇宙大爆炸至今的秒數、一摩爾，以及你的樣本的粒子數目",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Amount": "以 10 的次方為標度的數線，由 1 到 10 的 24 次方，標出地球上的人數、宇宙大爆炸至今的秒數、一摩爾，以及你的樣本的粒子數目",
+    "Amount": "物質的量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Particles": "物質的量",
+    "Particles": "粒子",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Inside them": "粒子",
+    "Inside them": "粒子之內",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "people on Earth": "粒子之內",
+    "people on Earth": "地球上的人數",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "about {n}": "地球上的人數",
+    "about {n}": "約 {n}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "seconds since the Big Bang": "約 {n}",
+    "seconds since the Big Bang": "大爆炸至今的秒數",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "one mole": "大爆炸至今的秒數",
+    "one mole": "一摩爾",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "your sample: number of molecules": "一摩爾",
+    "your sample: number of molecules": "你的樣本：分子數目",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "your sample: number of atoms": "你的樣本：分子數目",
+    "your sample: number of atoms": "你的樣本：原子數目",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "your sample: number of formula units": "你的樣本：原子數目",
+    "your sample: number of formula units": "你的樣本：式單位數目",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Each big tick is 1000 times the one before.": "你的樣本：式單位數目",
+    "Each big tick is 1000 times the one before.": "每一大格是前一格的 1000 倍。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{N} molecules": "每一大格是前一格的 1000 倍。",
+    "{N} molecules": "{N} 個分子",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{N} atoms": "{N} 個分子",
+    "{N} atoms": "{N} 個原子",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{N} formula units": "{N} 個原子",
+    "{N} formula units": "{N} 個式單位",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "each particle is one atom": "{N} 個式單位",
+    "each particle is one atom": "每個粒子就是一個原子",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{per} ions each: {N} ions": "每個粒子就是一個原子",
+    "{per} ions each: {N} ions": "每個有 {per} 個離子：共 {N} 個離子",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{per} atoms each: {N} atoms": "每個有 {per} 個離子：共 {N} 個離子",
+    "{per} atoms each: {N} atoms": "每個有 {per} 個原子：共 {N} 個原子",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Counting one particle every second, one mole would take about {years} years. That is over a million times the age of the universe (about {age} years).": "每個有 {per} 個原子：共 {N} 個原子",
+    "Counting one particle every second, one mole would take about {years} years. That is over a million times the age of the universe (about {age} years).": "每秒數一個粒子，數完一摩爾大約要 {years} 年。這是宇宙年齡（約 {age} 年）的一百萬倍以上。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "If all 8 billion people counted together at that speed, it would still take about {n} million years.": "每秒數一個粒子，數完一摩爾大約要 {years} 年。這是宇宙年齡（約 {age} 年）的一百萬倍以上。",
+    "If all 8 billion people counted together at that speed, it would still take about {n} million years.": "即使全球 80 億人 (8 billion) 一起用這個速度數，仍然要大約 {n} 百萬年。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Yet one mole of water molecules is only {m} g of water: about {v} cm<sup>3</sup>, a little more than a tablespoon.": "即使全球 80 億人 (8 billion) 一起用這個速度數，仍然要大約 {n} 百萬年。",
+    "Yet one mole of water molecules is only {m} g of water: about {v} cm<sup>3</sup>, a little more than a tablespoon.": "但一摩爾水分子只是 {m} g 水：約 {v} cm<sup>3</sup>，比一湯匙多一點。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Formula": "但一摩爾水分子只是 {m} g 水：約 {v} cm<sup>3</sup>，比一湯匙多一點。",
+    "Formula": "化學式",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Or load an example": "化學式",
+    "Or load an example": "或載入例子",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Build the formula with buttons": "或載入例子",
+    "Build the formula with buttons": "用按鈕砌出化學式",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "dot for water of crystallization": "用按鈕砌出化學式",
+    "dot for water of crystallization": "代表結晶水的點",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "open bracket": "代表結晶水的點",
+    "open bracket": "左括號",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "close bracket": "左括號",
+    "close bracket": "右括號",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Delete": "右括號",
+    "Delete": "刪除",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Clear": "刪除",
+    "Clear": "清除",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Atoms in one formula unit": "清除",
+    "Atoms in one formula unit": "一個式單位中的原子",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Breakdown of {formula}": "一個式單位中的原子",
+    "Breakdown of {formula}": "{formula} 的分項計算",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Element": "{formula} 的分項計算",
+    "Element": "元素",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Atoms": "元素",
+    "Atoms": "原子數目",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Subtotal": "原子數目",
+    "Subtotal": "小計",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Total": "小計",
+    "Total": "總和",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{value} <span class=\"mole-unitnote\">(no units)</span>": "總和",
+    "{value} <span class=\"mole-unitnote\">(no units)</span>": "{value} <span class=\"mole-unitnote\">（沒有單位）</span>",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass (g)": "{value} <span class=\"mole-unitnote\">（沒有單位）</span>",
+    "Mass (g)": "質量 (g)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass / g": "質量 (g)",
+    "Mass / g": "質量 / g",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Amount (mol)": "質量 / g",
+    "Amount (mol)": "物質的量 (mol)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Amount / mol": "物質的量 (mol)",
+    "Amount / mol": "物質的量 / mol",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Number of particles": "物質的量 / mol",
+    "Number of particles": "粒子數目",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Solution: concentration and volume": "粒子數目",
+    "Solution: concentration and volume": "溶液：濃度和體積",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Concentration / mol dm<sup>−3</sup>": "溶液：濃度和體積",
+    "Concentration / mol dm<sup>−3</sup>": "濃度 / mol dm<sup>−3</sup>",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Gas volume at STP (dm³)": "濃度 / mol dm<sup>−3</sup>",
+    "Gas volume at STP (dm³)": "STP 下的氣體體積 (dm³)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Gas volume at STP / dm<sup>3</sup>": "STP 下的氣體體積 (dm³)",
+    "Gas volume at STP / dm<sup>3</sup>": "STP 下的氣體體積 / dm<sup>3</sup>",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Concentration (mol dm⁻³)": "STP 下的氣體體積 / dm<sup>3</sup>",
+    "Concentration (mol dm⁻³)": "濃度 (mol dm⁻³)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "I am given": "濃度 (mol dm⁻³)",
+    "I am given": "已知的量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "I want": "已知的量",
+    "I want": "要求的量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volume of solution / cm<sup>3</sup>": "要求的量",
+    "Volume of solution / cm<sup>3</sup>": "溶液的體積 / cm<sup>3</sup>",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volume of solution made / cm<sup>3</sup>": "溶液的體積 / cm<sup>3</sup>",
+    "Volume of solution made / cm<sup>3</sup>": "配成的溶液體積 / cm<sup>3</sup>",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Substance (formula)": "配成的溶液體積 / cm<sup>3</sup>",
+    "Substance (formula)": "物質（化學式）",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The mole map: amount in moles in the centre, linked to mass, number of particles, solution concentration and volume, and gas volume at STP": "物質（化學式）",
+    "The mole map: amount in moles in the centre, linked to mass, number of particles, solution concentration and volume, and gas volume at STP": "摩爾地圖：以摩爾表示的物質的量在中央，連接質量、粒子數目、溶液的濃度和體積，以及 STP 下的氣體體積",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass, m": "摩爾地圖：以摩爾表示的物質的量在中央，連接質量、粒子數目、溶液的濃度和體積，以及 STP 下的氣體體積",
+    "Mass, m": "質量 m",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Particles, N": "質量 m",
+    "Particles, N": "粒子 N",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "a number": "粒子 N",
+    "a number": "一個數目",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Amount, n": "一個數目",
+    "Amount, n": "物質的量 n",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Solution, C and V": "物質的量 n",
+    "Solution, C and V": "溶液 C 和 V",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Gas volume, V": "溶液 C 和 V",
+    "Gas volume, V": "氣體體積 V",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "dm³, at STP only": "氣體體積 V",
+    "dm³, at STP only": "dm³，只限 STP",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "to mol: C × V": "dm³，只限 STP",
+    "to mol: C × V": "→ mol: C × V",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "to C: n ÷ V": "→ mol: C × V",
+    "to C: n ÷ V": "→ C: n ÷ V",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "to mol: ÷ 22.7": "→ C: n ÷ V",
+    "to mol: ÷ 22.7": "→ mol: ÷ 22.7",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "to dm³: × 22.7": "→ mol: ÷ 22.7",
+    "to dm³: × 22.7": "→ dm³: × 22.7",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Path": "→ dm³: × 22.7",
+    "Path": "路線",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Answer": "路線",
+    "Answer": "答案",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "mass": "答案",
+    "mass": "質量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "amount": "質量",
+    "amount": "物質的量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "number of particles": "物質的量",
+    "number of particles": "粒子數目",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "solution": "粒子數目",
+    "solution": "溶液",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "gas volume": "溶液",
+    "gas volume": "氣體體積",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "GIVEN": "氣體體積",
+    "GIVEN": "已知",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "WANTED": "已知",
+    "WANTED": "要求",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "via moles": "要求",
+    "via moles": "經摩爾",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "A solution to a concentration is one step: <i>C</i> = <i>n</i> ÷ <i>V</i>. Pick a different quantity to convert to.": "經摩爾",
+    "A solution to a concentration is one step: <i>C</i> = <i>n</i> ÷ <i>V</i>. Pick a different quantity to convert to.": "由溶液求濃度只需一步：<i>C</i> = <i>n</i> ÷ <i>V</i>。請選另一個要換算成的量。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Pick two different quantities.": "由溶液求濃度只需一步：<i>C</i> = <i>n</i> ÷ <i>V</i>。請選另一個要換算成的量。",
+    "Pick two different quantities.": "請選兩個不同的量。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type a positive number for the quantity you are given. You can write 1.5e22 or 1.5 × 10^22.": "請選兩個不同的量。",
+    "Type a positive number for the quantity you are given. You can write 1.5e22 or 1.5 × 10^22.": "請為已知的量輸入一個正數。可以寫成 1.5e22 或 1.5 × 10^22。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{error} The molar mass is needed whenever mass is involved.": "請為已知的量輸入一個正數。可以寫成 1.5e22 或 1.5 × 10^22。",
+    "{error} The molar mass is needed whenever mass is involved.": "{error} 凡是涉及質量，都需要摩爾質量。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type the volume of the solution in cm<sup>3</sup>.": "{error} 凡是涉及質量，都需要摩爾質量。",
+    "Type the volume of the solution in cm<sup>3</sup>.": "請輸入溶液的體積，以 cm<sup>3</sup> 表示。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "({sf} s.f.)": "請輸入溶液的體積，以 cm<sup>3</sup> 表示。",
+    "({sf} s.f.)": "（{sf} 位有效數字）",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "That is the number of molecules or formula units of {formula}. Each one contains {atoms} atoms, so the number of atoms is {atoms} × {N} = {total}.": "（{sf} 位有效數字）",
+    "That is the number of molecules or formula units of {formula}. Each one contains {atoms} atoms, so the number of atoms is {atoms} × {N} = {total}.": "這是 {formula} 的分子或式單位的數目。每個含 {atoms} 個原子，所以原子數目是 {atoms} × {N} = {total}。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "For an element written as a single atom, such as {formula}, the particles are atoms.": "這是 {formula} 的分子或式單位的數目。每個含 {atoms} 個原子，所以原子數目是 {atoms} × {N} = {total}。",
+    "For an element written as a single atom, such as {formula}, the particles are atoms.": "寫成單個原子的元素（例如 {formula}），粒子就是原子。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type the volume of solution made, in cm<sup>3</sup>.": "寫成單個原子的元素（例如 {formula}），粒子就是原子。",
+    "Type the volume of solution made, in cm<sup>3</sup>.": "請輸入配成的溶液體積，以 cm<sup>3</sup> 表示。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "As a mass concentration of {formula}: {C} × {M} = {G}.": "請輸入配成的溶液體積，以 cm<sup>3</sup> 表示。",
+    "As a mass concentration of {formula}: {C} × {M} = {G}.": "以 {formula} 的質量濃度表示：{C} × {M} = {G}。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "22.7 dm<sup>3</sup> mol<sup>−1</sup> is the molar volume of an ideal gas at STP (273.15 K and 100 kPa) from the data booklet. It works only for gases, only at STP. Topic 1.5 covers it.": "以 {formula} 的質量濃度表示：{C} × {M} = {G}。",
+    "22.7 dm<sup>3</sup> mol<sup>−1</sup> is the molar volume of an ideal gas at STP (273.15 K and 100 kPa) from the data booklet. It works only for gases, only at STP. Topic 1.5 covers it.": "22.7 dm<sup>3</sup> mol<sup>−1</sup> 是數據手冊所給、理想氣體在 STP（273.15 K 和 100 kPa）下的摩爾體積。它只適用於氣體，而且只限 STP。課題 1.5 會講解。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The formula is not needed for this conversion. Molar mass only matters when mass is involved.": "22.7 dm<sup>3</sup> mol<sup>−1</sup> 是數據手冊所給、理想氣體在 STP（273.15 K 和 100 kPa）下的摩爾體積。它只適用於氣體，而且只限 STP。課題 1.5 會講解。",
+    "The formula is not needed for this conversion. Molar mass only matters when mass is involved.": "這個換算不需要化學式。只有涉及質量時，才需要摩爾質量。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The answer is rounded to {sf} significant figures to match the value you typed. The working keeps extra digits until the end.": "這個換算不需要化學式。只有涉及質量時，才需要摩爾質量。",
+    "The answer is rounded to {sf} significant figures to match the value you typed. The working keeps extra digits until the end.": "答案取至 {sf} 位有效數字，與你輸入的數值一致。計算步驟會保留多出來的數字，到最後才取有效數字。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "concentration": "答案取至 {sf} 位有效數字，與你輸入的數值一致。計算步驟會保留多出來的數字，到最後才取有效數字。",
+    "concentration": "濃度",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{from} → {to} (one step)": "濃度",
+    "{from} → {to} (one step)": "{from} → {to}（一步）",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{from} → amount → {to} (two steps)": "{from} → {to}（一步）",
+    "{from} → amount → {to} (two steps)": "{from} → 物質的量 → {to}（兩步）",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{m} g gives {c} g CO₂ and {h} g H₂O": "{from} → 物質的量 → {to}（兩步）",
+    "{m} g gives {c} g CO₂ and {h} g H₂O": "{m} g 生成 {c} g CO₂ 和 {h} g H₂O",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{m} g gives {c} g CO₂ and {h} g H₂O (a hydrocarbon)": "{m} g 生成 {c} g CO₂ 和 {h} g H₂O",
+    "{m} g gives {c} g CO₂ and {h} g H₂O (a hydrocarbon)": "{m} g 生成 {c} g CO₂ 和 {h} g H₂O（烴）",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Dividing by the smallest gave a ratio that is not whole (it ends in about .5). Do not round it. Multiply every ratio by 2 to clear the fraction.": "{m} g 生成 {c} g CO₂ 和 {h} g H₂O（烴）",
+    "Dividing by the smallest gave a ratio that is not whole (it ends in about .5). Do not round it. Multiply every ratio by 2 to clear the fraction.": "除以最小的數後，得出的比不是整數（小數部分約是 .5）。不要取整。把每個比乘以 2，消去分數。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Dividing by the smallest gave a ratio that is not whole (it ends in about .33 or .67). Do not round it. Multiply every ratio by 3 to clear the fraction.": "除以最小的數後，得出的比不是整數（小數部分約是 .5）。不要取整。把每個比乘以 2，消去分數。",
+    "Dividing by the smallest gave a ratio that is not whole (it ends in about .33 or .67). Do not round it. Multiply every ratio by 3 to clear the fraction.": "除以最小的數後，得出的比不是整數（小數部分約是 .33 或 .67）。不要取整。把每個比乘以 3，消去分數。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Dividing by the smallest gave a ratio that is not whole (it ends in about .25 or .75). Do not round it. Multiply every ratio by 4 to clear the fraction.": "除以最小的數後，得出的比不是整數（小數部分約是 .33 或 .67）。不要取整。把每個比乘以 3，消去分數。",
+    "Dividing by the smallest gave a ratio that is not whole (it ends in about .25 or .75). Do not round it. Multiply every ratio by 4 to clear the fraction.": "除以最小的數後，得出的比不是整數（小數部分約是 .25 或 .75）。不要取整。把每個比乘以 4，消去分數。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Dividing by the smallest gave a ratio that is not whole (it ends in about .2, .4, .6 or .8). Do not round it. Multiply every ratio by 5 to clear the fraction.": "除以最小的數後，得出的比不是整數（小數部分約是 .25 或 .75）。不要取整。把每個比乘以 4，消去分數。",
+    "Dividing by the smallest gave a ratio that is not whole (it ends in about .2, .4, .6 or .8). Do not round it. Multiply every ratio by 5 to clear the fraction.": "除以最小的數後，得出的比不是整數（小數部分約是 .2、.4、.6 或 .8）。不要取整。把每個比乘以 5，消去分數。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Dividing by the smallest gave a ratio that is not whole (it ends in about .17 or .83). Do not round it. Multiply every ratio by 6 to clear the fraction.": "除以最小的數後，得出的比不是整數（小數部分約是 .2、.4、.6 或 .8）。不要取整。把每個比乘以 5，消去分數。",
+    "Dividing by the smallest gave a ratio that is not whole (it ends in about .17 or .83). Do not round it. Multiply every ratio by 6 to clear the fraction.": "除以最小的數後，得出的比不是整數（小數部分約是 .17 或 .83）。不要取整。把每個比乘以 6，消去分數。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type of data": "除以最小的數後，得出的比不是整數（小數部分約是 .17 或 .83）。不要取整。把每個比乘以 6，消去分數。",
+    "Type of data": "數據類型",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Masses or percentages": "數據類型",
+    "Masses or percentages": "質量或百分率",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Combustion analysis": "質量或百分率",
+    "Combustion analysis": "燃燒分析",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Values are": "燃燒分析",
+    "Values are": "數值是",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "percentages by mass": "數值是",
+    "percentages by mass": "質量百分率",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "masses in g": "質量百分率",
+    "masses in g": "以 g 表示的質量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Load an example": "以 g 表示的質量",
+    "Load an example": "載入例子",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Elements and their values": "載入例子",
+    "Elements and their values": "元素和數值",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Element {n}": "元素和數值",
+    "Element {n}": "元素 {n}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Value {n}": "元素 {n}",
+    "Value {n}": "數值 {n}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Combustion data": "數值 {n}",
+    "Combustion data": "燃燒數據",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass of compound / g": "燃燒數據",
+    "Mass of compound / g": "化合物的質量 / g",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass of CO<sub>2</sub> formed / g": "化合物的質量 / g",
+    "Mass of CO<sub>2</sub> formed / g": "生成的 CO<sub>2</sub> 質量 / g",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass of H<sub>2</sub>O formed / g": "生成的 CO<sub>2</sub> 質量 / g",
+    "Mass of H<sub>2</sub>O formed / g": "生成的 H<sub>2</sub>O 質量 / g",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Molar mass, if known / g mol<sup>−1</sup> (optional)": "生成的 H<sub>2</sub>O 質量 / g",
+    "Molar mass, if known / g mol<sup>−1</sup> (optional)": "摩爾質量（如已知）/ g mol<sup>−1</sup>（可不填）",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Empirical formula mass": "摩爾質量（如已知）/ g mol<sup>−1</sup>（可不填）",
+    "Empirical formula mass": "實驗式的式量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "“{sym}” is not an element symbol with a relative atomic mass in this tool. Check the spelling.": "實驗式的式量",
+    "“{sym}” is not an element symbol with a relative atomic mass in this tool. Check the spelling.": "這個工具沒有元素符號「{sym}」的相對原子質量。請檢查拼寫。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type a positive percentage for {sym}.": "這個工具沒有元素符號「{sym}」的相對原子質量。請檢查拼寫。",
+    "Type a positive percentage for {sym}.": "請為 {sym} 輸入一個正的百分率。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type a positive mass for {sym}.": "請為 {sym} 輸入一個正的百分率。",
+    "Type a positive mass for {sym}.": "請為 {sym} 輸入一個正的質量。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{sym} appears twice. Give each element one row.": "請為 {sym} 輸入一個正的質量。",
+    "{sym} appears twice. Give each element one row.": "{sym} 出現了兩次。每種元素只佔一行。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Enter at least two elements.": "{sym} 出現了兩次。每種元素只佔一行。",
+    "Enter at least two elements.": "請輸入最少兩種元素。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "% by mass": "請輸入最少兩種元素。",
+    "% by mass": "質量 %",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Your percentages add up to {sum} %, not 100 %. If one element (often oxygen) is not given, find it by difference: 100 − the others.": "質量 %",
+    "Your percentages add up to {sum} %, not 100 %. If one element (often oxygen) is not given, find it by difference: 100 − the others.": "你的百分率加起來是 {sum} %，不是 100 %。如果有一種元素（通常是氧）沒有給出，就用減法求出：100 − 其他元素。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Percentages: imagine 100 g of the compound. Then {p} % means {p} g.": "你的百分率加起來是 {sum} %，不是 100 %。如果有一種元素（通常是氧）沒有給出，就用減法求出：100 − 其他元素。",
+    "Percentages: imagine 100 g of the compound. Then {p} % means {p} g.": "百分率：想像有 100 g 化合物。那麼 {p} % 就是 {p} g。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type the three masses in grams.": "百分率：想像有 100 g 化合物。那麼 {p} % 就是 {p} g。",
+    "Type the three masses in grams.": "請輸入三個質量，以克表示。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "mass of C = {calc}": "請輸入三個質量，以克表示。",
+    "mass of C = {calc}": "C 的質量 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "mass of H = {calc}": "C 的質量 = {calc}",
+    "mass of H = {calc}": "H 的質量 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The carbon and hydrogen add up to more than the sample mass. Check the three masses.": "H 的質量 = {calc}",
+    "The carbon and hydrogen add up to more than the sample mass. Check the three masses.": "碳和氫的質量加起來超過了樣本的質量。請檢查三個質量。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "mass of O = {calc}": "碳和氫的質量加起來超過了樣本的質量。請檢查三個質量。",
+    "mass of O = {calc}": "O 的質量 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "mass of O = {calc}, which is zero within rounding": "O 的質量 = {calc}",
+    "mass of O = {calc}, which is zero within rounding": "O 的質量 = {calc}，在取近似值的誤差之內等於零",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "All the carbon ends up in CO<sub>2</sub> and all the hydrogen ends up in H<sub>2</sub>O. Oxygen cannot be found this way because extra oxygen came from the air, so it is found by difference.": "O 的質量 = {calc}，在取近似值的誤差之內等於零",
+    "All the carbon ends up in CO<sub>2</sub> and all the hydrogen ends up in H<sub>2</sub>O. Oxygen cannot be found this way because extra oxygen came from the air, so it is found by difference.": "所有碳最後都在 CO<sub>2</sub> 裏，所有氫最後都在 H<sub>2</sub>O 裏。氧不能這樣求，因為有額外的氧來自空氣，所以要用減法求出。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "All the carbon ends up in CO<sub>2</sub> and all the hydrogen ends up in H<sub>2</sub>O. Here they account for the whole sample, so there is no oxygen: the compound is a hydrocarbon.": "所有碳最後都在 CO<sub>2</sub> 裏，所有氫最後都在 H<sub>2</sub>O 裏。氧不能這樣求，因為有額外的氧來自空氣，所以要用減法求出。",
+    "All the carbon ends up in CO<sub>2</sub> and all the hydrogen ends up in H<sub>2</sub>O. Here they account for the whole sample, so there is no oxygen: the compound is a hydrocarbon.": "所有碳最後都在 CO<sub>2</sub> 裏，所有氫最後都在 H<sub>2</sub>O 裏。這裏碳和氫已佔了整個樣本，所以沒有氧：這種化合物是烴。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "÷ smallest": "所有碳最後都在 CO<sub>2</sub> 裏，所有氫最後都在 H<sub>2</sub>O 裏。這裏碳和氫已佔了整個樣本，所以沒有氧：這種化合物是烴。",
+    "÷ smallest": "÷ 最小值",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Whole number": "÷ 最小值",
+    "Whole number": "整數",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The table method": "整數",
+    "The table method": "列表法",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "These ratios are not close to whole numbers, even after multiplying by 2, 3, 4, 5 or 6. Check the data, and check that no element is missing.": "列表法",
+    "These ratios are not close to whole numbers, even after multiplying by 2, 3, 4, 5 or 6. Check the data, and check that no element is missing.": "即使乘以 2、3、4、5 或 6，這些比仍然不接近整數。請檢查數據，並檢查有沒有漏了元素。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Some ratios are a little away from whole numbers. Experimental data are never exact, so values within about 0.1 are rounded.": "即使乘以 2、3、4、5 或 6，這些比仍然不接近整數。請檢查數據，並檢查有沒有漏了元素。",
+    "Some ratios are a little away from whole numbers. Experimental data are never exact, so values within about 0.1 are rounded.": "有些比與整數有少許差別。實驗數據從來不會完全準確，所以相差約 0.1 以內的數值會取整。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "empirical formula = {formula}": "有些比與整數有少許差別。實驗數據從來不會完全準確，所以相差約 0.1 以內的數值會取整。",
+    "empirical formula = {formula}": "實驗式 = {formula}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "empirical formula mass = {calc}": "實驗式 = {formula}",
+    "empirical formula mass = {calc}": "實驗式的式量 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "<i>M</i> ÷ empirical formula mass = {calc}": "實驗式的式量 = {calc}",
+    "<i>M</i> ÷ empirical formula mass = {calc}": "<i>M</i> ÷ 實驗式的式量 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "molecular formula = the empirical formula = {formula}": "<i>M</i> ÷ 實驗式的式量 = {calc}",
+    "molecular formula = the empirical formula = {formula}": "分子式 = 實驗式 = {formula}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "molecular formula = {calc}": "分子式 = 實驗式 = {formula}",
+    "molecular formula = {calc}": "分子式 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "That is not close to a whole number, so this molar mass does not fit this empirical formula. Check both.": "分子式 = {calc}",
+    "That is not close to a whole number, so this molar mass does not fit this empirical formula. Check both.": "這個數不接近整數，所以這個摩爾質量與這個實驗式不相符。請檢查兩者。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "needs the molar mass": "這個數不接近整數，所以這個摩爾質量與這個實驗式不相符。請檢查兩者。",
+    "needs the molar mass": "需要摩爾質量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "the mark": "需要摩爾質量",
+    "the mark": "刻度線",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "hydrated copper(II) sulfate": "刻度線",
+    "hydrated copper(II) sulfate": "水合硫酸銅(II)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "sodium carbonate": "水合硫酸銅(II)",
+    "sodium carbonate": "碳酸鈉",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "sodium hydroxide": "碳酸鈉",
+    "sodium hydroxide": "氫氧化鈉",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Task": "氫氧化鈉",
+    "Task": "任務",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Make a standard solution": "任務",
+    "Make a standard solution": "配製標準溶液",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Dilute a stock solution": "配製標準溶液",
+    "Dilute a stock solution": "稀釋儲備溶液",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Solute": "稀釋儲備溶液",
+    "Solute": "溶質",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass of solute": "溶質",
+    "Mass of solute": "溶質的質量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volumetric flask": "溶質的質量",
+    "Volumetric flask": "容量瓶",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Stock concentration, C₁": "容量瓶",
+    "Stock concentration, C₁": "儲備溶液濃度 C₁",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volume taken by pipette, V₁": "儲備溶液濃度 C₁",
+    "Volume taken by pipette, V₁": "移液管量取的體積 V₁",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volumetric flask, V₂": "移液管量取的體積 V₁",
+    "Volumetric flask, V₂": "容量瓶 V₂",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volumetric flask filled to the graduation mark": "容量瓶 V₂",
+    "Volumetric flask filled to the graduation mark": "加水至刻度線的容量瓶",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Amount of solute": "加水至刻度線的容量瓶",
+    "Amount of solute": "溶質的物質的量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Molar concentration": "溶質的物質的量",
+    "Molar concentration": "摩爾濃度",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass concentration": "摩爾濃度",
+    "Mass concentration": "質量濃度",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{m} g of solute": "質量濃度",
+    "{m} g of solute": "{m} g 溶質",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "weighed on a balance": "{m} g 溶質",
+    "weighed on a balance": "用天平稱量",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "dissolve,": "用天平稱量",
+    "dissolve,": "溶解，",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "make up": "溶解，",
+    "make up": "加水",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "to the mark": "加水",
+    "to the mark": "至刻度線",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{v} cm³ flask": "至刻度線",
+    "{v} cm³ flask": "{v} cm³ 容量瓶",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "blue solution": "{v} cm³ 容量瓶",
+    "blue solution": "藍色溶液",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "colourless solution": "藍色溶液",
+    "colourless solution": "無色溶液",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "A balance with {m} g of {name} and a {v} cm3 volumetric flask filled to the graduation mark": "無色溶液",
+    "A balance with {m} g of {name} and a {v} cm3 volumetric flask filled to the graduation mark": "天平上有 {m} g {name}，旁邊是加水至刻度線的 {v} cm3 容量瓶",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "mass concentration = {calc}": "天平上有 {m} g {name}，旁邊是加水至刻度線的 {v} cm3 容量瓶",
+    "mass concentration = {calc}": "質量濃度 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The solid weighed is the hydrate, so its molar mass includes the five waters. One mole of the hydrate gives one mole of CuSO<sub>4</sub> in solution. Check: {C} × {M} = {G}.": "質量濃度 = {calc}",
+    "The solid weighed is the hydrate, so its molar mass includes the five waters. One mole of the hydrate gives one mole of CuSO<sub>4</sub> in solution. Check: {C} × {M} = {G}.": "稱量的固體是水合物，所以它的摩爾質量包括那五個水分子。一摩爾水合物在溶液中給出一摩爾 CuSO<sub>4</sub>。檢查：{C} × {M} = {G}。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Check: {C} × {M} = {G}.": "稱量的固體是水合物，所以它的摩爾質量包括那五個水分子。一摩爾水合物在溶液中給出一摩爾 CuSO<sub>4</sub>。檢查：{C} × {M} = {G}。",
+    "Check: {C} × {M} = {G}.": "檢查：{C} × {M} = {G}。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{G} <span class=\"mole-unitnote\">(of hydrate)</span>": "檢查：{C} × {M} = {G}。",
+    "{G} <span class=\"mole-unitnote\">(of hydrate)</span>": "{G} <span class=\"mole-unitnote\">（以水合物計）</span>",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "stock solution": "{G} <span class=\"mole-unitnote\">（以水合物計）</span>",
+    "stock solution": "儲備溶液",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "pipette": "儲備溶液",
+    "pipette": "移液管",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "add water": "移液管",
+    "add water": "加水",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "A beaker of stock solution, and a {v} cm3 volumetric flask holding the paler diluted solution": "加水",
+    "A beaker of stock solution, and a {v} cm3 volumetric flask holding the paler diluted solution": "一個盛有儲備溶液的燒杯，以及一個 {v} cm3 容量瓶，瓶內是顏色較淺的稀釋溶液",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "dilution factor = {calc}": "一個盛有儲備溶液的燒杯，以及一個 {v} cm3 容量瓶，瓶內是顏色較淺的稀釋溶液",
+    "dilution factor = {calc}": "稀釋倍數 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The amount of solute does not change: {n} mol leaves the pipette and {n} mol is in the flask. Only the volume changes. The volumes can stay in cm<sup>3</sup> here because the same unit is on both sides.": "稀釋倍數 = {calc}",
+    "The amount of solute does not change: {n} mol leaves the pipette and {n} mol is in the flask. Only the volume changes. The volumes can stay in cm<sup>3</sup> here because the same unit is on both sides.": "溶質的物質的量不變：{n} mol 離開移液管，容量瓶裏也是 {n} mol。只有體積改變。這裏體積可以繼續用 cm<sup>3</sup>，因為等號兩邊的單位相同。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "diluted {factor} times": "溶質的物質的量不變：{n} mol 離開移液管，容量瓶裏也是 {n} mol。只有體積改變。這裏體積可以繼續用 cm<sup>3</sup>，因為等號兩邊的單位相同。",
+    "diluted {factor} times": "稀釋了 {factor} 倍",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Absorbance of the unknown": "稀釋了 {factor} 倍",
+    "Absorbance of the unknown": "未知溶液的吸光度",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Calibration curve: absorbance against concentration for six standard solutions, with a straight line of best fit": "未知溶液的吸光度",
+    "Calibration curve: absorbance against concentration for six standard solutions, with a straight line of best fit": "校準曲線：六份標準溶液的吸光度對濃度的圖，附有一條最佳擬合直線",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Absorbance measured": "校準曲線：六份標準溶液的吸光度對濃度的圖，附有一條最佳擬合直線",
+    "Absorbance measured": "量度到的吸光度",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Concentration read from the line": "量度到的吸光度",
+    "Concentration read from the line": "從線上讀出的濃度",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "concentration / mol dm⁻³": "從線上讀出的濃度",
+    "concentration / mol dm⁻³": "濃度 / mol dm⁻³",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "absorbance": "濃度 / mol dm⁻³",
+    "absorbance": "吸光度",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Reaction": "吸光度",
+    "Reaction": "反應",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Gas whose volume you set": "反應",
+    "Gas whose volume you set": "由你設定體積的氣體",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Its volume": "由你設定體積的氣體",
+    "Its volume": "它的體積",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Boxes of gas whose heights are in proportion to the reacting volumes": "它的體積",
+    "Boxes of gas whose heights are in proportion to the reacting volumes": "幾個氣體方格，高度與反應氣體的體積成比例",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volume ratio of the gases": "幾個氣體方格，高度與反應氣體的體積成比例",
+    "Volume ratio of the gases": "氣體的體積比",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Gas before": "氣體的體積比",
+    "Gas before": "反應前的氣體",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Gas after": "反應前的氣體",
+    "Gas after": "反應後的氣體",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "liquid:": "反應後的氣體",
+    "liquid:": "液體：",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "not a gas": "液體：",
+    "not a gas": "不是氣體",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "you set this": "不是氣體",
+    "you set this": "由你設定",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Same temperature and pressure, so the volume ratio of the gases equals the mole ratio in the equation. Multiply by (coefficient wanted ÷ coefficient given).": "由你設定",
+    "Same temperature and pressure, so the volume ratio of the gases equals the mole ratio in the equation. Multiply by (coefficient wanted ÷ coefficient given).": "溫度和壓強相同，所以氣體的體積比等於方程式中的摩爾比。乘以（要求氣體的系數 ÷ 已知氣體的系數）。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The water is a liquid here. Its volume is tiny compared with the gases, and Avogadro’s law applies to gases only, so it is left out of the gas volumes.": "溫度和壓強相同，所以氣體的體積比等於方程式中的摩爾比。乘以（要求氣體的系數 ÷ 已知氣體的系數）。",
+    "The water is a liquid here. Its volume is tiny compared with the gases, and Avogadro’s law applies to gases only, so it is left out of the gas volumes.": "這裏的水是液體。與氣體相比，它的體積極小，而且亞佛加德羅定律只適用於氣體，所以氣體體積不包括水。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Total gas volume: {before} of reactants becomes {after} of product. Here the total stays the same, because the equation has the same number of gas molecules on each side. That is not true for most reactions.": "這裏的水是液體。與氣體相比，它的體積極小，而且亞佛加德羅定律只適用於氣體，所以氣體體積不包括水。",
+    "Total gas volume: {before} of reactants becomes {after} of product. Here the total stays the same, because the equation has the same number of gas molecules on each side. That is not true for most reactions.": "氣體總體積：{before} 的反應物變成 {after} 的生成物。這裏總體積不變，因為方程式兩邊的氣體分子數目相同。大部分反應並不是這樣。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Total gas volume: {before} of reactants becomes {after} of product. Volume is not conserved, because the number of gas molecules changes. Mass is conserved.": "氣體總體積：{before} 的反應物變成 {after} 的生成物。這裏總體積不變，因為方程式兩邊的氣體分子數目相同。大部分反應並不是這樣。",
+    "Total gas volume: {before} of reactants becomes {after} of product. Volume is not conserved, because the number of gas molecules changes. Mass is conserved.": "氣體總體積：{before} 的反應物變成 {after} 的生成物。體積並不守恆，因為氣體分子的數目改變了。質量則守恆。",
 
   }
 });

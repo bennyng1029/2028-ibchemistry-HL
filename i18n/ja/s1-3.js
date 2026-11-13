@@ -1570,7 +1570,7 @@ S1.i18n.register('ja', 's1-3', {
     "s orbital": "s 軌道",
 
     // widget string (assets/js/widgets-s1-3.js)
-    "Sphere. The same in every direction.": "球形。どの方向にも同じ。",
+    "Sphere. The same in every direction.": "どの向きも同じ球。",
 
     // widget string (assets/js/widgets-s1-3.js)
     "An s orbital: a sphere centred on the nucleus, where the x, y and z axes cross.": "s 軌道：原子核を中心とする球。原子核は x、y、z 軸が交わる点にある。",
@@ -1579,7 +1579,7 @@ S1.i18n.register('ja', 's1-3', {
     "p<sub>x</sub> orbital": "p<sub>x</sub> 軌道",
 
     // widget string (assets/js/widgets-s1-3.js)
-    "Dumbbell along the x axis.": "x 軸に沿ったダンベル形。",
+    "Dumbbell along the x axis.": "x 軸方向の亜鈴形。",
 
     // widget string (assets/js/widgets-s1-3.js)
     "A p x orbital: a dumbbell of two lobes lying along the x axis, one on each side of the nucleus.": "p x 軌道：2 つのふくらみからなるダンベル形で、x 軸に沿って原子核の両側に 1 つずつある。",
@@ -1588,7 +1588,7 @@ S1.i18n.register('ja', 's1-3', {
     "p<sub>y</sub> orbital": "p<sub>y</sub> 軌道",
 
     // widget string (assets/js/widgets-s1-3.js)
-    "Dumbbell along the y axis.": "y 軸に沿ったダンベル形。",
+    "Dumbbell along the y axis.": "y 軸方向の亜鈴形。",
 
     // widget string (assets/js/widgets-s1-3.js)
     "A p y orbital: a dumbbell of two lobes lying along the y axis.": "p y 軌道：2 つのふくらみからなるダンベル形で、y 軸に沿っている。",
@@ -1597,7 +1597,7 @@ S1.i18n.register('ja', 's1-3', {
     "p<sub>z</sub> orbital": "p<sub>z</sub> 軌道",
 
     // widget string (assets/js/widgets-s1-3.js)
-    "Dumbbell along the z axis.": "z 軸に沿ったダンベル形。",
+    "Dumbbell along the z axis.": "z 軸方向の亜鈴形。",
 
     // widget string (assets/js/widgets-s1-3.js)
     "A p z orbital: a dumbbell of two lobes lying along the z axis.": "p z 軌道：2 つのふくらみからなるダンベル形で、z 軸に沿っている。",

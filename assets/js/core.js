@@ -291,9 +291,10 @@
     return /[A-Za-zÀ-ɏ]{2}/.test(text) && !/^[A-Z][a-z]?$/.test(text) &&                       // not "+", "δ−", "H", "Cl"
       !(/\d/.test(text) && /^(?:[A-Z][a-z]?|\d|[()\[\]+\-−\s])+$/.test(text));                    // not a formula such as "CH3" or "H2O"
   }
-  /** Is this key something a translator can translate? At least one letter outside {placeholders} and the |context suffix.
-   *  tools/i18n-lib.js applies the same rule to t("…") strings, so the extractor, the checker and coverage() agree. */
-  function translatable(key) { return /[A-Za-zÀ-ɏ]/.test(String(key).replace(CTX, '').replace(/\{\w+\}/g, '')); }
+  /** Is this t("…") key an entry for translators? Yes if it has at least one Latin letter (a {placeholder} counts, the
+   *  |context suffix does not); strings of digits and symbols only are not.  tools/i18n-lib.js applies the same rule,
+   *  so the extractor, the checker and coverage() agree. */
+  function translatable(key) { return /[A-Za-zÀ-ɏ]/.test(String(key).replace(CTX, '')); }
 
   function norm(s) { return String(s == null ? '' : s).replace(/\s+/g, ' ').trim(); }
   function fill(s, vars) { return vars ? s.replace(/\{(\w+)\}/g, function (m, k) { return vars[k] != null ? vars[k] : m; }) : s; }
