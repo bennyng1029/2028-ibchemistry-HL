@@ -13,7 +13,7 @@
   function math(line) { return '<div class="worked__math">' + line + '</div>'; }
   var chi = '<i>χ</i>', dchi = 'Δ<i>χ</i>';
   /* Condensed formula written by hand (digits become subscripts). Long ones may wrap after a dash on a phone. */
-  function f(s) { return '<span class="chem' + (s.length <= 14 ? ' nowrap' : '') + '">' + s.replace(/(\d+)/g, '<sub>$1</sub>') + '</span>'; }
+  function f(s) { return '<span class="chem' + (s.length <= 14 ? ' nowrap' : ' chem--eq') + '">' + s.replace(/(\d+)/g, '<sub>$1</sub>') + '</span>'; }
 
   /* ---- Bonding triangle sketch (regions as printed in the data booklet). pts: [[avg, diff, 'P'], …] */
   function tri(pts, label) {
