@@ -775,7 +775,7 @@ S1.i18n.register('zh-Hant', 's1-2', {
     "Mass spectra: quick check": "質譜：快速小測",
 
     // Linking it up > h2
-    "Linking it up": "連繫起來",
+    "Linking it up": "把知識連繫起來",
 
     // Linking it up > p
     "The IB guide asks these linking questions. Short answers are enough at this stage.": "IB 學科指南提出了以下的連繫問題。現階段簡短作答就可以。",

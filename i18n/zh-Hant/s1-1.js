@@ -1080,7 +1080,7 @@ S1.i18n.register('zh-Hant', 's1-1', {
     "Temperature and heating curves: quick check": "溫度和加熱曲線：快速小測",
 
     // Linking it up > h2
-    "Linking it up": "連繫其他課題",
+    "Linking it up": "把知識連繫起來",
 
     // Linking it up > p
     "The syllabus asks questions that connect this topic to others. Short answers to four of them:": "課程大綱設有一些把本課題與其他課題連繫起來的問題。以下是其中四題的簡短答案：",

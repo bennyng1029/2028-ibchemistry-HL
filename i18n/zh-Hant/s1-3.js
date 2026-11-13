@@ -1342,7 +1342,7 @@ S1.i18n.register('zh-Hant', 's1-3', {
     "Successive ionization energies: quick check": "逐級電離能：快速小測",
 
     // Linking it up > h2
-    "Linking it up": "連繫其他課題",
+    "Linking it up": "把知識連繫起來",
 
     // Linking it up > p
     "The syllabus asks questions that connect this topic to others. Here are short answers to four of them.": "課程大綱設有一些問題，把這個課題與其他課題連繫起來。以下是其中四個問題的簡短答案。",
