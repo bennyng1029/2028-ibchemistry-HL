@@ -113,9 +113,12 @@
     });
   }
 
-  /** Nuclide notation, e.g. nuclide(14, 6, 'C') → stacked mass and atomic numbers before the symbol. */
-  function nuclide(A, Z, symbol) {
-    return '<span class="nowrap"><sup>' + esc(A) + '</sup>' + (Z != null && Z !== '' ? '<sub style="margin-left:-0.9em">' + esc(Z) + '</sub>' : '') + esc(symbol) + '</span>';
+  /** Nuclide notation: nuclide(14, 6, 'C') or nuclide(23, 11, 'Na', '+').
+   *  A sits above Z, both right-aligned against the symbol, for any number of digits. Z and charge are optional. */
+  function nuclide(A, Z, symbol, charge) {
+    var hasZ = Z != null && Z !== '';
+    var ch = charge ? '<sup>' + esc(String(charge)).replace(/-/g, MINUS) + '</sup>' : '';
+    return '<span class="nuclide" data-i18n="off"><span class="nuclide__pre' + (hasZ ? '' : ' nuclide__pre--a') + '"><span>' + esc(A) + '</span>' + (hasZ ? '<span>' + esc(Z) + '</span>' : '') + '</span>' + esc(symbol) + ch + '</span>';
   }
 
   /** Molar mass in g mol^-1 from a formula string using the Ar table (Z ≤ 36). NaN if unknown element.

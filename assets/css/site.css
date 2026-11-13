@@ -862,3 +862,11 @@ table.data .num, table.data td.num, table.data th.num { text-align: right; font-
 :root[data-i18n-debug] [data-i18n-miss] { outline: 2px dashed var(--bad); outline-offset: 2px; }
 /* Author-supplied labels may contain units or formulas: never uppercase them */
 .callout[data-title]::before, .tryit[data-title]::before, .worked[data-kicker] .worked__kicker, .widget[data-kicker] .widget__kicker { text-transform: none; }
+
+/* ---------- 25. Nuclide notation, widget control widths --------------------- */
+.nuclide { display: inline-flex; align-items: center; white-space: nowrap; vertical-align: middle; line-height: 1; }
+.nuclide__pre { display: inline-flex; flex-direction: column; align-items: flex-end; font-size: 0.68em; line-height: 1.12; margin-right: 0.1em; font-variant-numeric: tabular-nums; }
+.nuclide__pre--a { align-self: flex-start; margin-top: -0.25em; }
+.nuclide sup { align-self: flex-start; top: 0; margin-top: -0.2em; }
+.widget__controls .control { max-width: 100%; min-width: 0; }
+.widget__controls .control .select, .widget__controls select { max-width: 100%; min-width: 0; width: 100%; text-overflow: ellipsis; }

@@ -151,6 +151,9 @@
         <h2>Quick check</h2>
         <p>Five questions on this topic. You get feedback after each one.</p>
         <div data-s1-quiz data-topic="dev" data-count="5" data-title="1.1 quick check"></div>
+        <h3>Pinned questions</h3>
+        <div id="pinned" data-s1-quiz data-ids="dev-q001,dev-q005" data-shuffle="false" data-title="Pinned check"></div>
+        <p>Nuclides: <span id="nuc"></span></p>
       </section>
 
       
@@ -163,5 +166,6 @@
 <script src="../assets/js/quiz.js"></script>
 <script src="questions-dev.js"></script>
 <script src="widgets-dev.js"></script>
+<script>S1.ready(function(){document.getElementById("nuc").innerHTML=[S1.chem.nuclide(1,1,"H"),S1.chem.nuclide(14,6,"C"),S1.chem.nuclide(23,11,"Na","+"),S1.chem.nuclide(238,92,"U"),S1.chem.nuclide(294,118,"Og"),S1.chem.nuclide(37,null,"Cl","-")].join(" &nbsp; ");});</script>
 </body>
 </html>

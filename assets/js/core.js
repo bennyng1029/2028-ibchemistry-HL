@@ -1040,7 +1040,7 @@
     if (titleText) node.setAttribute('aria-labelledby', titleId); else head.hidden = true;
     if (node.tagName !== 'FIGURE') node.setAttribute('role', 'group');
 
-    var draws = [], loops = [], visible = true;
+    var draws = [], loops = [], visible = true, initialising = true, pendingDraw = false;
     var api = {
       el: node, stage: stage, controls: controls, readout: readout, caption: caption,
       /** data-* attributes of the widget element, e.g. data-start="25" → w.options.start === '25'. */
@@ -1079,7 +1079,9 @@
           ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
         }
         function run() { ctx.clearRect(0, 0, obj.width, obj.height); fns.forEach(function (f) { f(ctx, obj.width, obj.height); }); }
-        obj.draw = function (fn) { if (fn) fns.push(fn); run(); };
+        // During the widget's init function the first draw is deferred until init has returned,
+        // so draw functions may use state that is declared further down.
+        obj.draw = function (fn) { if (fn) fns.push(fn); if (initialising) pendingDraw = true; else run(); };
         obj.resize = function () { size(); run(); };
         size();
         var lastW = stage.clientWidth;
@@ -1184,8 +1186,9 @@
     doc.addEventListener('visibilitychange', function () { loops.forEach(function (L) { L._sync(); }); });
     doc.addEventListener('s1:themechange', function () { api.redraw(); });
     doc.addEventListener('s1:langchange', function () { api.redraw(); });
-    try { initFn(api); }
+    try { initFn(api); initialising = false; if (pendingDraw) api.redraw(); }
     catch (err) {
+      initialising = false;
       stage.innerHTML = '';
       stage.appendChild(el('p', { class: 'widget__fallback', t: 'This interactive could not start. The rest of the page still works.' }));
       if (window.console) console.error('[S1.widgets] ' + name + ' failed:', err);
