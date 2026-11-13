@@ -4,16 +4,36 @@ Purpose: brief for question-writing agents producing ORIGINAL practice questions
 
 **Copyright rule for writers:** IB papers and markschemes are copyrighted. Nothing below quotes question text. Never reuse an IB stem, data set, diagram or option list; reuse only the *style* (task type, mark tariff, marking logic). Change substance, numbers and context every time.
 
-**Verification status**
-- Web tools worked. Verified directly from: the official *Chemistry guide (first assessment 2025)* PDF; May 2025 HL Paper 1A (TZ1, TZ2), Paper 1B (TZ1 paper + markscheme, TZ2 markscheme), Paper 2 markschemes (TZ1, TZ2); November 2025 HL Paper 1A, 1B markscheme, Paper 2 markscheme. Past papers were read from unofficial mirrors (URLs in §7), not from IB.
-- NOT verified: the IB specimen papers (ibo.org returned HTTP 403); any May 2026 paper; any official subject report (they sit behind the IB Programme Resource Centre login, nothing public was found). Everything resting on those is tagged **[UNVERIFIED]**.
-- "Verified" below means "seen in at least one of the papers listed", not "appears every session". The sample is five HL sittings' worth of documents — treat frequencies as indicative.
+## Verification status (reconciled 2026-11-13)
+
+Reconciled against the **official IB *Chemistry guide, First assessment 2025*, edition "Published February 2023"**, and the official subject brief, both supplied by the project owner. Neither document is stored in this repository; guide wording is paraphrased here.
+
+**Confirmed against the owner-supplied official guide:**
+- §1 assessment outline for HL and SL: papers, durations, marks, weightings, question types, no deduction for wrong answers in 1A, calculators permitted in Paper 1 and Paper 2, clean data booklet in every paper, AO coverage, IA marks and hours, teaching hours.
+- §4 command terms: every term, its assessment objective and its definition (guide glossary, pages 81–82).
+- Syllabus-scope statements used in §2 and §6.4 (what is "not assessed", Z ≤ 36, SI-only gas units, SL/AHL placement of 1.2.3, 1.3.6, 1.3.7), and that Dalton's law / partial pressures, Graham's law, mole fraction and ppm appear nowhere in the guide.
+- That the guide lists the equations and constants in §5 as "given in the data booklet" (not their numerical values).
+
+**Discrepancies found and fixed in this reconciliation:**
+1. §4 merged "Compare (and contrast)" into one row. The guide defines **Compare** (similarities) and **Contrast** (differences) as two separate terms. Now two rows.
+2. Archetype 1.3-H (transition-metal ion configurations) was tagged plain [SL]. The guide's explicit outcome for first-row transition-element ion configurations is Structure 3.1.9, which is **AHL**. Tag corrected.
+3. Archetype 1.1-G (retardation factor) sits in **Structure 2.2.10 (SL+HL)** in the guide, not Structure 1.1. Note added.
+4. Archetype 1.5-A listed "constant random motion" as an ideal-gas assumption. Guide 1.5.1 says only "moving particles". Note added.
+5. Limiting reactant (1.4-M) and equation-based titration chains (1.4-L) are Reactivity 2.1 content in the guide. Writer note extended.
+6. Source entry said the guide copy was "updated May 2023". The owner-supplied official copy says only "Published February 2023".
+
+**Still unverified:**
+- **Past papers and markschemes** were read from unofficial mirrors (URLs in §7), not from IB. "Verified" against a named 2025 paper below means "seen in that mirrored paper", not "appears every session". The sample is five HL sittings' worth of documents — treat frequencies as indicative.
+- **Data booklet numerical values and section numbers** (§5): the official booklet has not been supplied; values come from an unofficial mirror.
+- **Subject reports and IB specimen papers**: none seen (they sit behind the IB Programme Resource Centre). Everything resting on those is tagged **[UNVERIFIED]**.
+- **Markscheme conventions in §5** (significant figures, ECF, list principle): from mirrored 2025 markschemes; the guide does not state them.
+- **Whether a later edition of the guide exists.** An unofficial mirror labelled "Updated May 2023" differs slightly from the Feb 2023 edition (for example it reportedly drops "paper" from "paper chromatography" in Structure 1.1.1). Nothing in the assessment outline or command terms is known to differ. Any May 2026 or later paper is also unseen.
 
 ---
 
 ## 1. Assessment structure (2025 guide)
 
-Source: guide, "Assessment outline" and "External assessment details" (verified).
+Source: guide, "Assessment outline" and "External assessment details" (confirmed against the owner-supplied official guide, pages 67–70), plus the subject brief.
 
 | Component | HL | SL | Weighting (both) |
 |---|---|---|---|
@@ -23,17 +43,17 @@ Source: guide, "Assessment outline" and "External assessment details" (verified)
 | Paper 2: short-answer and extended-response | 2 h 30 min, 90 marks | 1 h 30 min, 50 marks | 44% |
 | Internal assessment (scientific investigation) | 24 marks, 10 h | same | 20% |
 
-Total external time: HL 4 h 30 min, SL 3 h. Paper 3 and the options no longer exist.
+Total external time: HL 4 h 30 min, SL 3 h (80% of the final grade). The outline has only Paper 1 and Paper 2; there is no Paper 3 and there are no options.
 
-**Calculator and data booklet (verified, and a change from the pre-2025 course):**
-- Calculators are permitted in **every** paper, including Paper 1A. The May 2025 HL 1A and 1B cover pages both state that a calculator is required and that a clean copy of the chemistry data booklet is required.
+**Calculator and data booklet (confirmed in the official guide, and a change from the pre-2025 course):**
+- The guide states that calculators are permitted for Paper 1 (1A and 1B are sat together) and for Paper 2, and that each student must have a clean copy of the data booklet in each. The May 2025 HL 1A and 1B cover pages both state that a calculator is required and that a clean copy of the chemistry data booklet is required.
 - Consequence: MCQs can contain real arithmetic (non-round molar masses, percentage calculations, pH with decimals). The old "numbers chosen for mental arithmetic" style is no longer guaranteed — though many 2025 MCQs still use friendly numbers.
 - Some third-party sites still say "no calculator in Paper 1A". That is wrong for this guide.
 - Even with the booklet available, 2025 MCQ stems sometimes printed the needed relationship (e.g. the ideal gas equation, the calorimetry equation, an atom-economy expression) in the stem.
 
-**Other verified features**
-- No negative marking in 1A. Four options A–D. Timing split between 1A and 1B is the candidate's choice.
-- All papers test AO1–AO3; nature-of-science understanding may be required.
+**Other features**
+- Guide: no marks are deducted for incorrect answers in 1A; 1A and 1B are completed together without interruption. Four options A–D (seen in papers). Timing split between 1A and 1B is the candidate's choice **[INFERENCE from "completed together"]**.
+- Guide: Papers 1 and 2 test AO1–AO3, weighted about 50% AO1 + AO2 and 50% AO3 in each paper; a general understanding of the nature of science may be required.
 - Paper 1B (May 2025 HL TZ1): 3 multi-part questions totalling 35, each built on one investigation, parts worth 1–4 marks. November 2025 HL had at least 4 questions. So expect **3–4 scenario questions of roughly 8–15 marks each**.
 - Paper 2 (May 2025 HL): 8 questions (TZ1), all compulsory, each a themed chain mixing several topics; most parts 1–3 marks, occasional 4–5.
 - Paper 2 questions are organised around a substance or context (an element, a compound family), not around a syllabus topic. Structure 1 items appear as individual parts inside such chains.
@@ -57,7 +77,7 @@ Notation: **[SL]** = core, examinable at both levels; **[AHL]** = HL only. Tarif
 | 1.1-D | Design a separation sequence for a 3-component solid mixture (magnetic + soluble + insoluble) | 1B, 4 (max from ~5 points) | One mark per valid step in workable order: magnet; add water to dissolve; filter; dry residue; evaporate filtrate. Sieving / particle-size methods rejected. Verified May 2025 HL 1B. |
 | 1.1-E | Name the technique for two miscible liquids and the property exploited | 1B, 2 | Technique (distillation) + property (boiling point), 1 each. |
 | 1.1-F | Recrystallisation: order the steps, explain solvent choice, effect of too much / too little solvent on yield and purity | 1B, 1–3 per part | Key words carry marks ("hot" solvent, filter hot, cool, filter, rinse with cold solvent). Verified Nov 2025 HL 1B. |
-| 1.1-G | Chromatography: identify a spot and calculate a retardation factor from a drawn chromatogram with a scale | 1A, 1 | Combines Rf arithmetic with polarity reasoning (which component travels further on a polar stationary phase). Verified in both May 2025 HL 1A papers. |
+| 1.1-G (syllabus home: Structure 2.2.10, SL) | Chromatography: identify a spot and calculate a retardation factor from a drawn chromatogram with a scale | 1A, 1 | Combines Rf arithmetic with polarity reasoning (which component travels further on a polar stationary phase). Verified in both May 2025 HL 1A papers. |
 | 1.1-H | Name a change of state; interpret heating/cooling curve; kinetic-energy vs temperature; °C ↔ K | 1A, 1; P2, 1–2 | Kelvin as measure of average kinetic energy. |
 | 1.1-I | State symbols in equations | embedded | Marked only when the question asks for them (then usually one mark for "correct species AND state symbols", one for balancing). |
 | 1.1-J | Percentage composition of a separated mixture; explain why recovered percentages exceed 100%; why a visual hypothesis was wrong | 1B, 1–2 | Error + matching improvement (e.g. sample not dry → heat to constant mass). Density vs volume reasoning. |
@@ -97,7 +117,7 @@ Typical MCQ distractors: neutrons = mass number; electrons of a cation calculate
 | 1.3-E [SL] | Maximum electrons in level n (2n²); number of orbitals in a sublevel/level | 1A, 1 | Verified May 2025 HL 1A. |
 | 1.3-F [SL] | Shape/orientation of s and p orbitals — choose the correct pair of drawings | 1A, 1 | Sphere vs dumbbell; three p orientations. |
 | 1.3-G [SL] | Full or condensed configuration of an atom or ion up to Z = 36 | P2, 1; 1A, 1 | Either full or [noble gas] form accepted; for atoms either order of 4s/3d accepted in the MS (verified Nov 2025: both orders listed). |
-| 1.3-H [SL] | Transition-metal ion configuration (4s lost first) incl. Cr and Cu exceptions | 1A, 1; P2, 1 | Verified May 2025 HL (a d-block 2+ ion in P2; Cr²⁺ in 1A). |
+| 1.3-H [AHL for d-block ions, via Structure 3.1.9; Cr and Cu *atoms* are SL] | Transition-metal ion configuration (4s lost first) incl. Cr and Cu exceptions | 1A, 1; P2, 1 | Verified May 2025 HL (a d-block 2+ ion in P2; Cr²⁺ in 1A). |
 | 1.3-I [SL] | Orbital (arrow-in-box) diagram: pick or draw the ground-state diagram | 1A, 1; P2, 1 | Hund's rule (singly occupied, parallel spins), Pauli (opposite spins in a pair), Aufbau. |
 | 1.3-J [SL] | Combined grid: formula of an ionic compound + configuration of each ion | 1A, 1 | Links Structure 2.1. Verified May 2025 HL 1A. |
 | 1.3-K [SL] | Deduce ion charge / group / number of unpaired electrons from a configuration | 1A, 1 | |
@@ -143,8 +163,8 @@ Unit handling in 1.3-L (the commonest AHL calculation here): kJ mol⁻¹ → J m
 | 1.4-P | Percentage uncertainty of a prepared concentration; why % uncertainty rises as concentration falls | 1B, 1–2 | Smaller measured mass ⇒ same absolute uncertainty is a larger fraction. |
 
 Notes for writers
-- Theoretical/percentage yield and atom economy are syllabus-located in Reactivity 2.1, but 2025 papers freely blend them with 1.4. For a Structure-1-only bank, tag such items "links R2.1" and keep the 1.4 skill as the main demand.
-- Back-titration, ppm and mole fraction are not in the Structure 1.4 statements — avoid as required knowledge. [UNVERIFIED whether they can appear with scaffolding]
+- Limiting and excess reactant, theoretical/percentage yield, atom economy and reacting-quantity calculations from an equation (including titration chains) are syllabus-located in Reactivity 2.1 (2.1.2–2.1.5), so archetypes 1.4-L and 1.4-M belong there; 2025 papers freely blend them with 1.4. For a Structure-1-only bank, tag such items "links R2.1" and keep the 1.4 skill as the main demand.
+- Back-titration, ppm and mole fraction are not in the Structure 1.4 statements, and the terms occur nowhere in the official guide — avoid as required knowledge. [UNVERIFIED whether they can appear with scaffolding]
 - Relative atomic/formula mass have no units; molar mass has g mol⁻¹. A "state the unit" part is fair.
 
 Typical MCQ distractors: forgetting diatomic molecules (atoms vs molecules); not multiplying by subscripts/ions per formula unit; empirical formula from % ÷ atomic number, or % ratio used directly without dividing by Ar; ratio not scaled to integers (stopping at 1 : 1.5); cm³ not converted to dm³ (answer ×1000); mole ratio inverted or ignored; choosing the reactant with the smaller mass or smaller amount as limiting without using the ratio; counting H₂O(l) as gas volume; adding rather than subtracting excess.
@@ -153,7 +173,7 @@ Typical MCQ distractors: forgetting diatomic molecules (atoms vs molecules); not
 
 | # | Archetype | Paper / marks | What the MS rewards |
 |---|---|---|---|
-| 1.5-A | State/recognise assumptions of the ideal gas model | 1A, 1; P2, 1–2 | Negligible particle volume; no intermolecular forces; elastic collisions; constant random motion. |
+| 1.5-A | State/recognise assumptions of the ideal gas model | 1A, 1; P2, 1–2 | Negligible particle volume; no intermolecular forces; elastic collisions; moving particles. (Guide 1.5.1 names exactly these; "constant random motion" is common textbook wording, not guide wording.) |
 | 1.5-B | Conditions for most/least ideal behaviour, combined with choice of gas (a grid: gas × pressure × temperature) | 1A, 1 | Low p + high T, and the gas with weaker intermolecular forces. Requires an IMF judgement (links Structure 2.2). Verified May 2025 HL 1A. |
 | 1.5-C | Explain why real gases deviate at low T / high p | P2, 2 | Low T: particles slower so intermolecular attractions significant. High p: particles close together so their own volume is not negligible. No mathematics (no van der Waals equation, no compressibility-factor calculation). |
 | 1.5-D | Proportional reasoning with pV = nRT: effect of doubling V, T etc. as a % or factor | 1A, 1 | Verified May 2025 HL 1A (volume change ↔ percentage pressure change). |
@@ -230,18 +250,19 @@ Provenance: no official 2025+ subject report could be accessed. Items marked ✔
 
 ## 4. Command terms in this strand
 
-Definitions paraphrased from the guide's glossary (verified); AO = assessment objective.
+Definitions paraphrased from the guide's "Glossary of command terms" (confirmed against the owner-supplied official guide: every term, AO grouping and definition below matches). AO = assessment objective. The "Demand" column is the guide definition in short form; "Typical use" and "Marks" are this project's observations, not guide content.
 
 | Term | AO | Demand | Typical Structure 1 use | Marks |
 |---|---|---|---|---|
 | State | 1 | Brief answer, name or value; no reasoning, no working | State the full electron configuration; state the separation technique | 1 |
-| Draw | 1 | Accurate labelled diagram/graph; ruler for lines; points plotted | Draw best-fit line; draw arrows for transitions | 1–2 |
+| Draw | 1 | Accurate labelled diagram/graph in pencil; ruler for straight lines; diagrams to scale; points plotted and joined by a line or smooth curve | Draw best-fit line; draw arrows for transitions | 1–2 |
 | Annotate | 2 | Add brief notes to a given diagram/graph | Label the convergence limit on a spectrum | 1 |
 | Calculate | 2 | Numerical answer **with working shown** | Calculate Ar; calculate amount of gas | 1–3 |
 | Describe | 2 | Detailed account — *what*, not *why* | Describe the hydrogen emission spectrum; describe how to prepare a solution | 2–3 |
 | Estimate | 2 | Approximate value (from graph or rough calculation) | Estimate a value by extrapolation | 1–2 |
 | Outline | 2 | Brief account or summary | Outline why real gases deviate at high pressure | 1–2 |
-| Compare (and contrast) | 3 | Similarities (and differences), referring to **both** items throughout | Compare the first IE of two elements | 2 |
+| Compare | 3 | Account of the **similarities** between two or more items, referring to all of them throughout | Compare the assumptions behind two models | 2 |
+| Contrast | 3 | Account of the **differences** between two or more items, referring to all of them throughout | Contrast the first IE of two elements | 2 |
 | Deduce | 3 | Reach a conclusion from the information given | Deduce the group from successive IEs; deduce a formula | 1–2 |
 | Determine | 3 | Obtain the only possible answer (usually multi-step calculation) | Determine the empirical formula; determine the limiting reactant | 2–3 |
 | Explain | 3 | Detailed account **with reasons/causes** | Explain the drop in first IE between two groups | 2–3 |
@@ -249,15 +270,16 @@ Definitions paraphrased from the guide's glossary (verified); AO = assessment ob
 | Sketch | 3 | Graph/diagram showing general shape and key features; labelled axes, no scale needed | Sketch p against V at constant T | 1–2 |
 | Suggest | 3 | Propose a plausible answer to an unfamiliar situation; several answers acceptable | Suggest why the yield percentages exceed 100% | 1–2 |
 | Comment | 3 | Judgement based on a statement or result | Comment on whether the data support the hypothesis | 1–2 |
-| Evaluate / Discuss | 3 | Weigh strengths and limitations / balanced review | Rare in this strand; mainly 1B methodology | 2–3 |
+| Evaluate | 3 | Appraisal weighing strengths and limitations | Rare in this strand; mainly 1B methodology | 2–3 |
+| Discuss | 3 | Considered, balanced review of a range of arguments, factors or hypotheses, with conclusions supported by evidence | Rare in this strand | 2–3 |
 
-Writer rules: one command term per part; mark count ≈ number of distinct creditable points; "determine"/"calculate" always imply working; "suggest" MS should list several acceptable answers; "justify"-type demands are written as "explain" or "deduce, giving a reason".
+Writer rules: one command term per part; mark count ≈ number of distinct creditable points; "determine"/"calculate" always imply working; "suggest" MS should list several acceptable answers; "justify"-type demands are written as "explain" or "deduce, giving a reason". The 18 terms above are the whole exam glossary. "Identify" and "Justify" are defined in the guide only in the internal-assessment criteria, and "Compare and contrast" is not a single guide term (ask for "compare" or "contrast", or both explicitly). The guide adds that other terms may occasionally be used in exam questions.
 
 ---
 
 ## 5. Significant figures, rounding, units — markscheme conventions
 
-Verified from the general instructions printed at the front of 2025 HL markschemes, plus observed practice.
+Seen in the general instructions printed at the front of mirrored 2025 HL markschemes, plus observed practice. None of this section is in the guide, so none of it is confirmed by the official guide.
 
 1. **Default rule: no penalty for units or significant figures unless the Notes column for that part says so.** Practice banks should therefore not deduct for s.f. by default — but should *teach* the right habit in the worked solution.
 2. **When a unit is asked for, it is a separate mark** (e.g. a 2-mark "estimate … giving the correct units" part: value 1, unit 1).
@@ -270,7 +292,7 @@ Verified from the general instructions printed at the front of 2025 HL markschem
 9. Unit conventions used in papers: negative-index form (mol dm⁻³, g mol⁻¹, kJ mol⁻¹, J K⁻¹ mol⁻¹); volumes in cm³ or dm³ in solution work and m³ (or dm³ with kPa) in gas-equation work; temperature in °C in stems and K in calculations; SI only for pressure and volume in the gas equation (guide) — so no atm, mmHg, L or mL.
 10. Uncertainties (1B): absolute uncertainty to 1 s.f., value quoted to the same decimal place; percentage uncertainties added for × and ÷; answers within a stated range accepted.
 
-Constants and relationships available in the data booklet (do not expect recall; do expect selection): n = m/M, n = CV, PV = nRT, combined gas law, E = hf, c = λf; N_A = 6.02×10²³ mol⁻¹; R = 8.31 J K⁻¹ mol⁻¹; molar volume at STP = 22.7 dm³ mol⁻¹ (2.27×10⁻² m³ mol⁻¹), STP = 273.15 K and 100 kPa; h = 6.63×10⁻³⁴ J s; c = 3.00×10⁸ m s⁻¹; Ar values to 2 d.p.; first ionisation energies; EM spectrum; colour wheel (cited as section 15 in a May 2025 paper). Guide-verified that these relationships/values are "given in the data booklet"; exact section numbers other than 15 are **[UNVERIFIED]** — writers should say "use the data booklet" rather than cite a section number unless checked.
+Constants and relationships available in the data booklet (do not expect recall; do expect selection): n = m/M, n = CV, PV = nRT, combined gas law, E = hf, c = λf; N_A = 6.02×10²³ mol⁻¹; R = 8.31 J K⁻¹ mol⁻¹; molar volume at STP = 22.7 dm³ mol⁻¹ (2.27×10⁻² m³ mol⁻¹), STP = 273.15 K and 100 kPa; h = 6.63×10⁻³⁴ J s; c = 3.00×10⁸ m s⁻¹; Ar values to 2 d.p.; first ionisation energies; EM spectrum; colour wheel (cited as section 15 in a May 2025 paper). The official guide confirms that the relationships, h, N_A, R, the molar volume at STP, 2 d.p. Ar values and the EM spectrum are "given in the data booklet". The numerical values quoted here, the STP definition and all section numbers come from an unofficial booklet mirror or a mirrored paper and are **[UNVERIFIED]** against an official booklet — writers should say "use the data booklet" rather than cite a section number unless checked.
 
 Recommended house rules for the practice bank
 - Give data to 3 s.f. (4 for standard-solution work); model answers to the least precise datum; accept ±1 in the last figure.
@@ -324,14 +346,14 @@ Tagging per item: subtopic + syllabus statement (e.g. S1.3.6), SL/AHL, tier, pap
 9. **Limiting reagent hidden inside another task.** Gas volume produced when both solution and solid amounts are given; excess gas remaining after reaction of gas mixtures.
 10. **Link questions (the guide's "linking questions").** IMF strength ↔ real-gas deviation (S2.2); successive IEs ↔ variable oxidation states (S3.1); isotopes ↔ mass-spectrum molecular-ion patterns (S3.2); configurations ↔ ion formulas and periodic trends (S2.1, S3.1); mole ↔ yield and atom economy (R2.1). Keep the Structure 1 skill dominant and tag the link.
 
-Do **not** raise difficulty with: Rydberg equation or named spectral series; quantum numbers; mass-spectrometer operation; van der Waals equation or compressibility calculations; non-SI gas units; configurations beyond Z = 36; partial pressures/Dalton's law, Graham's law, mole fraction, ppm [last four: UNVERIFIED as out of scope — they are not in the Structure 1 statements read].
+Do **not** raise difficulty with: Rydberg equation or named spectral series; quantum numbers; mass-spectrometer operation; van der Waals equation or compressibility calculations; non-SI gas units; configurations beyond Z = 36; partial pressures/Dalton's law, Graham's law, mole fraction, ppm (last four: confirmed absent from the whole official guide text, not just Structure 1).
 
 ---
 
 ## 7. Sources consulted
 
 Official
-- IB *Chemistry guide, first assessment 2025* (published Feb 2023, updated May 2023) — PDF copy found in the session scratchpad, origin URL not recorded by this agent; assessment outline, syllabus statements for Structure 1.1–1.5, glossary of command terms.
+- IB *Chemistry guide, First assessment 2025* ("Published February 2023") and the IB chemistry subject brief (first assessment 2025) — official copies supplied by the project owner, not stored in this repository; assessment outline, external assessment details, syllabus statements for Structure 1.1–1.5, glossary of command terms.
 - https://www.ibo.org/globalassets/new-structure/programmes/dp/pdfs/chemistry-hl-sl-specimen-papers-1a-2b-2-en.pdf — specimen papers; **HTTP 403, not read**.
 
 Past papers and markschemes (unofficial mirrors; read for style only)

@@ -3,38 +3,74 @@
 Scope authority for this site. IB Diploma Chemistry HL, exams May 2028.
 Researched 2026-11-13.
 
-## 0. Status, method and how to read this file
+## 0. Verification status, method and how to read this file
 
-**Web tools worked, with one exception:** `ibo.org` returned HTTP 403 to every request (the official guide
-PDF, the chemistry subject page and the curriculum-updates page). Everything below is therefore taken from
-mirrors of the official documents, not from ibo.org itself:
+### Verification status (reconciled 2026-11-13)
 
-- **Guide** — full text of the IB *Chemistry guide, First assessment 2025* ("Published February 2023,
-  Updated May 2023", 83-page PDF, IB copyright page intact) hosted on a school site (source S1). All
-  understandings, learning outcomes, guidance notes and linking questions in section 2 were extracted from
-  that PDF (guide pages 33–38) and are reproduced closely.
-- **Data booklet** — *Chemistry data booklet, First assessment 2025, Version 1.1* ("Published February 2023,
-  Updated February 2024") hosted on ibchem.com (source S2). All values in section 4 are read from that PDF.
+This file was first written from unofficial mirrors. It has since been reconciled line by line against the
+**official IB *Chemistry guide, First assessment 2025*, edition "Published February 2023"**, supplied by the
+project owner (with the official subject brief). The guide and its text are IB copyright and are **not**
+stored in this repository; wording below is paraphrased or closely summarized, with short phrases quoted
+only where the exact wording sets a scope limit.
 
-Marking used in this file:
+**Confirmed against the owner-supplied official guide (Feb 2023 edition):**
+
+- Every Structure 1.1.1–1.5.4 entry in section 2: understanding, learning outcome(s), guidance, SL+HL / AHL
+  placement, teaching hours, guiding questions and linking questions (guide pages 33–38).
+- The hours table (17 h SL+HL + 4 h AHL = 21 h HL), also matching the subject brief.
+- The assessment outline in section 1 (papers, durations, marks, weightings, calculators, data booklet) and
+  the command-term definitions (guide pages 68–70 and 81–82).
+- Tool 1, Tool 2, Tool 3 and Inquiry items in section 5 (guide pages 28–32).
+- The cross-references to other topics in sections 2, 3 and 7 (Structure 2.2.10, 3.1.1–3.1.3, 3.1.7, 3.1.9,
+  3.2.8; Reactivity 2.1.1–2.1.5).
+- The "not in the guide" claims in section 3b: the full guide text was searched and has no occurrence of
+  quantum numbers, Heisenberg, Schrödinger, de Broglie, Rydberg, Graham, Dalton / partial pressure, mole
+  fraction, ppm, molality, photoelectric, radioactivity, half-life, binding energy, phase diagram or triple
+  point.
+- That the guide says these are "given in the data booklet": subatomic particle masses and charges, the
+  electromagnetic spectrum, h, E = hf, c = λf, NA, n = m/M, n = CV, R, PV = nRT, the combined gas law, the
+  molar volume of an ideal gas at STP, and Ar values to two decimal places.
+
+**Discrepancies found between the earlier mirror-based text and the official Feb 2023 edition** (both
+recorded, see the entries concerned):
+
+1. **Structure 1.1.1 guidance.** The official Feb 2023 edition says "**paper** chromatography". The mirror
+   (labelled "Updated May 2023") said "chromatography" with a change note that "paper" had been deleted.
+2. **Level label in linking questions.** The official Feb 2023 edition writes "**AHL** Structure 3.1" in the
+   1.3.7 linking question. The mirror wrote "HL Structure 3.1".
+3. **Retardation factor.** Earlier marked unverified. The official guide places RF under **Structure 2.2.10
+   (SL+HL)**, not Structure 1.1 (see sections 3c and 5a).
+
+**Still unverified:**
+
+- **Every data booklet value and section number in section 4.** The data booklet is a separate IB
+  publication that the owner has not supplied. Section 4 comes from an unofficial mirror of "Version 1.1"
+  (source S2). The guide confirms only *that* the items are in the booklet, not their values.
+- **Whether a later edition or update of the guide exists** and applies to May 2028. The owner's copy says
+  only "Published February 2023". A mirror labelled "Updated May 2023" was seen (source S1), which is where
+  discrepancies 1 and 2 come from; the update itself has not been seen in an official copy. The project
+  owner should confirm the current edition with the school's DP coordinator.
+- **Subject reports, specimen papers and markscheme conventions.** None is in the guide. Items that depend on
+  them stay marked [UNVERIFIED].
+- **Definition wordings in section 6** that are not guide wording (the guide has no glossary of chemical
+  definitions), and the markscheme-practice remarks in section 7.
+
+### Marking used in this file
 
 | Mark | Meaning |
 |---|---|
-| (no mark) | Read directly from the guide or data booklet PDF |
+| (no mark) | Guide content: confirmed against the owner-supplied official guide (Feb 2023). Section 4 only: read from the data booklet mirror, not officially confirmed |
 | **[INFERENCE]** | Follows from the guide text, but the guide does not say it in so many words |
-| **[UNVERIFIED]** | Written from knowledge; not confirmed in a source consulted in this session |
+| **[UNVERIFIED]** | Not confirmed in the official guide; written from knowledge or an unofficial source |
 
-**Which syllabus applies to May 2028?** The guide is "first assessment 2025" (first teaching Aug 2023). A May
-2028 candidate starts in Aug/Sept 2026. Searches found no announcement of a replacement chemistry guide, and an
-ibo.org search snippet shows the chemistry subject briefs still labelled "First teaching Aug/Sept 2023".
-**[UNVERIFIED]** that no newer revision exists: the IB curriculum-updates page could not be opened (403), so
-this rests on absence of evidence. The project owner should confirm with the school's DP coordinator.
-**[UNVERIFIED]** whether the guide has been reissued after May 2023 with further wording changes; the copy
-used lists only "Changes for May 2023" (one affects this strand: in Structure 1.1.1 guidance the word
-"paper" was deleted before "chromatography", because different chromatography methods should be covered).
+**Which syllabus applies to May 2028?** The guide is "first assessment 2025"; the subject brief carries the
+same label. A May 2028 candidate starts in Aug/Sept 2026. Earlier web searches found no announcement of a
+replacement chemistry guide, but ibo.org could not be opened, so this rests on absence of evidence.
+**[UNVERIFIED]** that no newer revision exists.
 
-**Level labels.** The May 2023 update renamed "additional higher level (AHL)" to "HL" throughout the guide;
-section headers read "Additional higher level". This file uses **SL+HL** and **AHL**.
+**Level labels.** The official Feb 2023 edition heads the HL-only blocks "Additional higher level" and
+prefixes HL-only linking questions with "AHL". The mirrored May 2023 update reportedly shortened some of
+these labels to "HL" **[UNVERIFIED]**. This file uses **SL+HL** and **AHL**.
 
 **Layout of each understanding in the guide** (and in this file): the understanding statement (bold in the
 guide), then the learning outcome(s) ("students should be able to…", starting with a command term), then
@@ -56,9 +92,14 @@ Total: 17 hours SL+HL, plus 4 hours AHL (21 hours HL). Only three understandings
 
 ## 1. Assessment context (brief)
 
-From the guide's HL assessment outline: Paper 1 (2 h, 36%, 75 marks) = Paper 1A multiple choice + Paper 1B
-data-based questions; Paper 2 (2 h 30 min, 44%, 90 marks) short-answer and extended-response; internal
-assessment 20% (24 marks). Calculators are permitted. A clean data booklet is available in all papers.
+From the guide's HL assessment outline (confirmed against the official guide): Paper 1 (2 h, 36%, 75 marks)
+= Paper 1A (40 multiple-choice questions, 40 marks, on SL and AHL material, no marks deducted for wrong
+answers) + Paper 1B (35 marks, data-based questions and questions on experimental work), two booklets
+completed together without interruption; Paper 2 (2 h 30 min, 44%, 90 marks) short-answer and
+extended-response questions on SL and AHL material; internal assessment 20% (scientific investigation, 10 h,
+24 marks). External assessment totals 4 h 30 min and 80%. Calculators are permitted in Paper 1 and Paper 2.
+A clean copy of the data booklet must be available in every paper. Papers 1 and 2 each test assessment
+objectives 1–3, weighted about 50% AO1 + AO2 and 50% AO3.
 
 Command terms that appear in Structure 1 learning outcomes, with guide definitions:
 
@@ -69,7 +110,7 @@ Command terms that appear in Structure 1 learning outcomes, with guide definitio
 | Describe | Give a detailed account. |
 | Determine | Obtain the only possible answer. |
 | Explain | Give a detailed account including reasons or causes. |
-| Sketch | Represent by means of a diagram or graph (labelled as appropriate)… general idea of the required shape or relationship. |
+| Sketch | Represent by means of a diagram or graph (labelled as appropriate), giving a general idea of the required shape or relationship and including relevant features. |
 
 Other verbs used in this strand's outcomes (distinguish, use, convert, interpret, perform, apply, recognize,
 solve, interconvert, investigate, analyse) are not in the guide's command-term glossary. Note the low demand
@@ -92,8 +133,13 @@ SL+HL 2 hours. **AHL: none for Structure 1.1.**
   fixed ratio. Mixtures contain more than one element or compound in no fixed ratio, which are not
   chemically bonded and so can be separated by physical methods.
 - **Outcome:** Distinguish between the properties of elements, compounds and mixtures.
-- **Guidance:** Solvation, filtration, recrystallization, evaporation, distillation and chromatography
-  should be covered. The differences between homogeneous and heterogeneous mixtures should be understood.
+- **Guidance:** Solvation, filtration, recrystallization, evaporation, distillation and **paper
+  chromatography** should be covered. The differences between homogeneous and heterogeneous mixtures should
+  be understood.
+- **Edition note:** "paper chromatography" is the official Feb 2023 wording. A mirrored "Updated May 2023"
+  copy drops the word "paper" **[UNVERIFIED]**. Site rule: teach paper chromatography as the required
+  method and mention thin layer chromatography alongside it, since Tool 1 lists "paper or thin layer
+  chromatography" and Structure 2.2.10 covers both. This satisfies either wording.
 - **Linking questions:**
   - Tool 1 — What factors are considered in choosing a method to separate the components of a mixture?
   - Tool 1 — How can the products of a reaction be purified?
@@ -250,8 +296,8 @@ SL+HL 3 hours. AHL 3 hours.
 - **Outcome:** Deduce the group of an element from its successive ionization data.
 - **Guidance:** Databases are useful for compiling graphs of trends in IEs.
 - **Linking question:**
-  - HL Structure 3.1 — How do patterns of successive IEs of transition elements help to explain the variable
-    oxidation states of these elements?
+  - AHL Structure 3.1 — How do patterns of successive IEs of transition elements help to explain the
+    variable oxidation states of these elements?
 
 Boundary notes for 1.3:
 
@@ -414,7 +460,8 @@ are required (1.5.3); only the names are not.
 
 ### 3b. Not in the guide for this strand (absent, so do not teach as required)
 
-These do not appear anywhere in guide pages 33–38. Each was checked by searching the guide text.
+These do not appear anywhere in guide pages 33–38. Each was checked by searching the full text of the
+official Feb 2023 guide. Booklet-related remarks rest on the unofficial booklet mirror (see section 4).
 
 | Item | Status |
 |---|---|
@@ -427,7 +474,7 @@ These do not appear anywhere in guide pages 33–38. Each was checked by searchi
 | Root-mean-square speed, kinetic theory derivations, Maxwell–Boltzmann maths | Not in this strand. The distribution curve itself belongs to Reactivity 2.2 (linked from 1.1.3). |
 | Photoelectric effect, work function | Not in the guide. |
 | Radioactive decay, half-life, nuclear equations, binding energy | Not in the guide. |
-| Molality, mass percent (w/w), ppm as required concentration units | 1.4.5 requires only mol dm⁻³ and g dm⁻³. **[UNVERIFIED]** whether ppm appears in exam questions as given context. |
+| Molality, mass percent (w/w), ppm as required concentration units | 1.4.5 requires only mol dm⁻³ and g dm⁻³. None of these terms occurs anywhere in the guide. **[UNVERIFIED]** whether ppm appears in exam questions as given context. |
 | Old-syllabus STP (273 K, 101.325 kPa, 22.4 dm³ mol⁻¹) and "RTP 24 dm³ mol⁻¹" | Superseded. Booklet: STP = 273.15 K and 100 kPa, Vm = 22.7 dm³ mol⁻¹. See section 4. |
 | "One mole is the amount containing as many particles as 12 g of carbon-12" | Outdated definition. 1.4.1 uses the fixed-number definition. |
 | Phase diagrams, triple point, critical point, heating-curve calculations with latent heat | Not in the guide. 1.1.3 requires only interpreting temperature and physical-property changes during changes of state. q = mcΔT is Reactivity 1.1. |
@@ -450,6 +497,7 @@ These do not appear anywhere in guide pages 33–38. Each was checked by searchi
 | Electron configurations of first-row transition-element ions | Structure 3.1.9 (AHL) — see section 7 |
 | Variable oxidation states explained by successive IEs | Structure 3.1.9 (AHL) |
 | Intermolecular forces as the reason some gases deviate more | Structure 2.2 (linked from 1.5.2) |
+| Retardation factor RF: explain, calculate and interpret; chromatography explained by attractions to mobile and stationary phases | Structure 2.2.10 (SL+HL). Locating agents not required; workings of gas and high-performance liquid chromatographs not assessed |
 | Maxwell–Boltzmann distribution, collision theory | Reactivity 2.2 |
 | Specific heat capacity, enthalpy of changes of state | Reactivity 1.1, 1.2 |
 | Alloys | Structure 2.3 / 2.4 |
@@ -465,6 +513,11 @@ PV = nRT is the same algebra **[INFERENCE]**.
 ---
 
 ## 4. Equations, constants and conventions (data booklet v1.1)
+
+**Status of this whole section: not officially confirmed.** The values, symbols and section numbers below
+were read from an unofficial mirror of the data booklet (source S2). The owner-supplied guide confirms only
+that each item is "given in the data booklet" (see the guidance lines in section 2), not the numbers. Check
+against an official copy of the current booklet before treating any value here as final.
 
 ### 4a. Equations in booklet section 1 that belong to this strand
 
@@ -555,14 +608,16 @@ dilutions** (1.4.5); **drying to constant mass** (1.4.4 empirical formula, hydra
 mixtures** (1.1.1); **recrystallization** (1.1.1); colorimetry or spectrophotometry (calibration curve link
 in 1.4.5); acid–base and redox titration (belongs with Reactivity 3.1/3.2; not core here).
 
-"Measuring variables": mass, volume, time, temperature, length, pH, electric current, electric potential
+"Measuring variables": mass, volume, time, temperature, length, pH of a solution, electric current, electric potential
 difference — "to an appropriate level of precision". Mass, volume and temperature are the ones used here.
 
 Guide wording for separation in 1.1.1: "Solvation, filtration, recrystallization, evaporation, distillation
 and chromatography should be covered." The guide does not list fractional distillation, centrifugation,
 decanting, separating funnel, magnetic separation or sublimation as separation methods; treat those as
-optional extras, not required **[INFERENCE]**. Rf-value calculation is not mentioned in Structure 1.1
-**[UNVERIFIED]** whether it is assessed elsewhere (chromatography reappears under Structure 2.2).
+optional extras, not required **[INFERENCE]**. (The quoted sentence is the Feb 2023 wording with "paper"
+omitted; see the edition note under 1.1.1.) Retardation-factor calculation is not part of Structure 1.1.
+It is required under **Structure 2.2.10 (SL+HL)**, whose outcome is to explain, calculate and interpret RF
+values. A Structure 1.1 page may signpost it but should not teach or test it as Structure 1 content.
 
 ### 5b. Tool 2: Technology
 
@@ -595,9 +650,11 @@ penalize significant-figure errors at most once per paper) was not checked again
   calibration curves (1.4.5); molar mass of a gas from experimental data (1.5.4).
 - Nature of science links: 1.2.2, 1.3.2, 1.3.6, 1.4.4, 1.5.3 (see the linking questions in section 2).
 
-Linking questions are prompts for connected understanding. A Pearson article by a guide contributor says
-they are unlikely to be used as exam questions as such, but the related concepts are part of the course
-(source S5). Treat them as "connect to" boxes, not as extra required content.
+Linking questions are prompts for connected understanding. The guide says they are meant to promote the
+skills and to highlight links between understandings in different parts of the course, and that the list is
+not exhaustive. The guide does not say whether they are examined as such. A Pearson article by a guide
+contributor says they are unlikely to be used as exam questions, but the related concepts are part of the
+course (source S5) **[UNVERIFIED]**. Treat them as "connect to" boxes, not as extra required content.
 
 ---
 
@@ -722,11 +779,18 @@ Points needing care:
 
 ## Sources
 
-Consulted successfully:
+Official (owner-supplied; not stored in this repository):
 
-- S1. IB *Chemistry guide, First assessment 2025* (Published February 2023, Updated May 2023), full PDF mirror:
-  https://choithraminternational.com/IB%20Subject%20Guides/Chemistry.pdf — primary source for sections 1, 2,
-  3, 5 and 7 (guide pages 28–38, 44–45, 55, 79–84).
+- S0. IB *Chemistry guide, First assessment 2025*, "Published February 2023", and the IB *Diploma Programme
+  Subject Brief, Sciences: Chemistry, First assessment 2025*. Authority for sections 1, 2, 3, 5 and 7
+  (guide pages 28–32 tools and inquiry, 33–38 Structure 1, 41 Structure 2.2.10, 44–47 Structure 3.1 and
+  3.2.8, 52 Reactivity 2.1, 68–70 assessment, 81–82 command terms).
+
+Consulted successfully (unofficial):
+
+- S1. Mirror of the same guide labelled "Published February 2023, Updated May 2023":
+  https://choithraminternational.com/IB%20Subject%20Guides/Chemistry.pdf — original source of this file,
+  now superseded by S0 except as evidence that a May 2023 update exists.
 - S2. IB *Chemistry data booklet, First assessment 2025, Version 1.1* (Updated February 2024), PDF mirror:
   https://ibchem.com/root_pdf/DataBook2025.pdf — primary source for section 4.
 - S3. Vernier standards correlation page quoting Structure 1.4.6 (cross-check of guide wording, search
@@ -750,4 +814,5 @@ Attempted but blocked or unusable:
 - https://www.revisiondojo.com/blog/ib-syllabus-changes-tracker — returned no chemistry content.
 
 Not consulted: thinkib, savemyexams, and the Oxford / Pearson / Hodder 2023 textbooks. No past-paper
-markschemes were consulted, which is why definition wordings in section 6 are marked [UNVERIFIED].
+markschemes were consulted for this file, which is why definition wordings in section 6 are marked
+[UNVERIFIED]. No official copy of the data booklet, subject report or specimen paper has been seen.
