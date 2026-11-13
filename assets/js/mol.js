@@ -79,7 +79,8 @@
     el.setAttribute('data-i18n', 'off');
     var svg = svgEl('svg', { viewBox: [x0, y0, w, h].join(' '), width: w, height: h, role: 'img', class: 'mol__svg' }, el);
     svg.style.maxWidth = '100%'; svg.style.height = 'auto';
-    S1.i18n.liveAttr(svg, 'aria-label', function () { return t(spec.label || (mode === 'lewis' ? 'Lewis formula' : 'Structural formula')); });
+    var fallbackLabel = mode === 'structural' ? 'Structural formula' : 'Lewis formula';   // i18n
+    S1.i18n.liveAttr(svg, 'aria-label', function () { return t(spec.label || fallbackLabel); });
 
     var bondAngles = atoms.map(function () { return []; });
     bonds.forEach(function (b) { bondAngles[b.a].push(angleOf(pts[b.a], pts[b.b])); bondAngles[b.b].push(angleOf(pts[b.b], pts[b.a])); });

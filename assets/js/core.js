@@ -1058,7 +1058,7 @@
       /** Same as S1.t: translate a string. */
       t: t,
       /**
-       * Hi-DPI canvas that fills the stage width. opts: {height: px} or {aspect: width/height}, {label: 'alt text'}.
+       * Hi-DPI canvas that fills the stage width. opts: {height: px | function (width) → px} or {aspect: width/height}, {label: 'alt text'}.
        * Returns {el, ctx, width, height, draw(fn)} — width/height are CSS pixels; fn(ctx, width, height) is called
        * now, on resize and on theme change with the context already scaled for the device pixel ratio.
        */
@@ -1071,7 +1071,7 @@
         function size() {
           var w = Math.max(200, Math.floor(stage.clientWidth - parseFloat(getComputedStyle(stage).paddingLeft) - parseFloat(getComputedStyle(stage).paddingRight)));
           if (opts.minWidth) w = Math.max(w, opts.minWidth);
-          var h = opts.height || Math.round(w / (opts.aspect || 2));
+          var h = typeof opts.height === 'function' ? Math.round(opts.height(w)) : (opts.height || Math.round(w / (opts.aspect || 2)));
           if (opts.maxHeight) h = Math.min(h, opts.maxHeight);
           var dpr = Math.min(window.devicePixelRatio || 1, 3);
           obj.width = w; obj.height = h;
@@ -1084,6 +1084,8 @@
         // so draw functions may use state that is declared further down.
         obj.draw = function (fn) { if (fn) fns.push(fn); if (initialising) pendingDraw = true; else run(); };
         obj.resize = function () { size(); run(); };
+        /** Change the height later: a number of CSS px, or a function of the width. */
+        obj.setHeight = function (hh) { opts.height = hh; size(); if (initialising) pendingDraw = true; else run(); };
         size();
         var lastW = stage.clientWidth;
         var onResize = function () { if (stage.clientWidth === lastW) return; lastW = stage.clientWidth; size(); run(); };

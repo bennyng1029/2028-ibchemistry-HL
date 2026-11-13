@@ -180,9 +180,9 @@
       pts.push([v, Math.max(2, tr)]);
     }
     return plot(el, {
-      height: o.height || 260, label: o.label || 'Infrared spectrum',
-      x: { label: 'Wavenumber / cm⁻¹', min: 400, max: 4000, reverse: true, ticks: [4000, 3500, 3000, 2500, 2000, 1500, 1000, 500] },
-      y: { label: 'Transmittance / %', min: 0, max: 100, step: 20 },
+      height: o.height || 260, label: o.label || 'Infrared spectrum',   // i18n
+      x: { label: 'Wavenumber / cm⁻¹', min: 400, max: 4000, reverse: true, ticks: [4000, 3500, 3000, 2500, 2000, 1500, 1000, 500] },   // i18n
+      y: { label: 'Transmittance / %', min: 0, max: 100, step: 20 },   // i18n
       series: [{ type: 'line', data: pts, color: '--accent', width: 1.8 }],
       annotations: peaks.filter(function (p) { return p.label; }).map(function (p) { return { x: p.at, y: Math.max(4, 97 - (p.depth || 60)), text: p.label, dy: 14 }; })
     });
@@ -196,9 +196,9 @@
     var peaks = o.peaks || [], top = Math.max.apply(null, peaks.map(function (p) { return p[1]; }));
     var xMax = o.xMax || Math.ceil((Math.max.apply(null, peaks.map(function (p) { return p[0]; })) + 5) / 10) * 10;
     return plot(el, {
-      height: o.height || 260, label: o.label || 'Mass spectrum',
-      x: { label: 'm/z', min: o.xMin || 0, max: xMax },
-      y: { label: o.yLabel || 'Relative abundance / %', min: 0, max: o.yMax || Math.ceil(top / 20) * 20, step: 20 },
+      height: o.height || 260, label: o.label || 'Mass spectrum',   // i18n
+      x: { label: 'm/z', min: o.xMin || 0, max: xMax },   // i18n
+      y: { label: o.yLabel || 'Relative abundance / %', min: 0, max: o.yMax || Math.ceil(top / 20) * 20, step: 20 },   // i18n
       series: [{ type: 'stick', width: 3, color: '--accent', data: peaks.map(function (p) { return [p[0], p[1], p[2] != null ? p[2] : (p[1] === top || o.labelAll ? String(p[0]) : null)]; }) }]
     });
   }
@@ -220,9 +220,9 @@
       if (s.label) notes.push({ x: s.shift, y: peak, text: s.label, dy: -10 });
     });
     return plot(el, {
-      height: o.height || 240, label: o.label || 'Proton NMR spectrum',
-      x: { label: 'Chemical shift / ppm', min: 0, max: o.max || 10, reverse: true, step: 1 },
-      y: { label: 'Signal', min: 0, max: maxY * 1.3 || 1, ticks: [] },
+      height: o.height || 240, label: o.label || 'Proton NMR spectrum',   // i18n
+      x: { label: 'Chemical shift / ppm', min: 0, max: o.max || 10, reverse: true, step: 1 },   // i18n
+      y: { label: 'Signal', min: 0, max: maxY * 1.3 || 1, ticks: [] },   // i18n
       series: [{ type: 'stick', width: 2, color: '--accent', data: sticks }],
       annotations: notes
     });
