@@ -51,15 +51,22 @@ const lib = require('./i18n-lib');
         fs.appendFileSync(file, '\n/* Added by i18n-extract --only-missing on ' + new Date().toISOString().slice(0, 10) + ': new or changed English. */\n' +
           "S1.i18n.register('" + lang + "', '" + scope + "', {\n  strings: {\n\n" + lib.stringsBlock(fresh, {}, '    ') + '  }\n});\n');
       } else if (!fs.existsSync(file) && cat.entries.length) lib.writeStringsFile(file, lang, scope, cat.entries, values, []);
-      const freshQ = {};
-      Object.keys(cat.questions).forEach(id => { if (!prevQ[id]) freshQ[id] = cat.questions[id]; });
+      // new questions, and new slots of questions that are already there (answerDisplay, an extra hint …)
+      const freshQ = {}, slots = {};
+      let newQ = 0, newSlots = 0;
+      Object.keys(cat.questions).forEach(id => {
+        const miss = lib.missingSlots(cat.questions[id], prevQ[id]);
+        if (!miss.length) return;
+        freshQ[id] = cat.questions[id]; slots[id] = miss;
+        if (prevQ[id]) newSlots += miss.length; else newQ++;
+      });
       if (hasQ && !fs.existsSync(qfile)) lib.writeQuestionsFile(qfile, lang, scope + '.q', cat.questions, prevQ);
       else if (Object.keys(freshQ).length) {
-        const tmp = qfile + '.tmp'; lib.writeQuestionsFile(tmp, lang, scope + '.q', freshQ, {});
-        fs.appendFileSync(qfile, '\n/* Added by i18n-extract --only-missing on ' + new Date().toISOString().slice(0, 10) + ': new questions. */\n' + fs.readFileSync(tmp, 'utf8').replace(/^\/\*[\s\S]*?\*\/\n/, ''));
+        const tmp = qfile + '.tmp'; lib.writeQuestionsFile(tmp, lang, scope + '.q', freshQ, prevQ, slots);
+        fs.appendFileSync(qfile, '\n/* Added by i18n-extract --only-missing on ' + new Date().toISOString().slice(0, 10) + ': new questions and new slots. */\n' + fs.readFileSync(tmp, 'utf8').replace(/^\/\*[\s\S]*?\*\/\n/, ''));
         fs.unlinkSync(tmp);
       }
-      console.log(lang + ': ' + fresh.length + ' new string(s), ' + Object.keys(freshQ).length + ' new question(s) appended; nothing else touched' + (stale.length ? '; ' + stale.length + ' stale (see i18n-check)' : ''));
+      console.log(lang + ': ' + fresh.length + ' new string(s), ' + newQ + ' new question(s) and ' + newSlots + ' new slot(s) in existing questions appended; nothing else touched' + (stale.length ? '; ' + stale.length + ' stale (see i18n-check)' : ''));
       continue;
     }
     if (cat.entries.length) lib.writeStringsFile(file, lang, scope, cat.entries, values, stale);

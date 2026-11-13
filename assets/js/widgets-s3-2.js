@@ -1101,6 +1101,9 @@
       if (host.hasAttribute('data-numbers')) { r = nameOf(m); if (!r.fail) { numbers = {}; r.path.forEach(function (i, k) { numbers[i] = k + 1; }); } }
       drawSkeletal(host, m, { label: label, scale: scale || 38, numbers: numbers });
     }
+    // the authored text alternative follows the language (the figure itself is drawn once)
+    var svg = host.querySelector('svg');
+    if (label && svg && view !== '3d') S1.i18n.liveAttr(svg, 'aria-label', function () { return S1.t(label); });
   }
   function renderFigures() {
     Array.prototype.forEach.call(document.querySelectorAll('[data-s32-mol]'), function (h) { if (!h.querySelector('svg, canvas')) renderFigure(h); });

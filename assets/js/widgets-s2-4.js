@@ -800,6 +800,7 @@
     var M = monomers();
     Array.prototype.forEach.call((root || document).querySelectorAll('[data-s24-draw]'), function (host) {
       var kind = host.getAttribute('data-s24-draw'), m = M[host.getAttribute('data-m')], label = host.getAttribute('data-label') || '';
+      if (label) label = S1.t(label);          // the text alternative follows the language (the drawing is redrawn on s1:langchange)
       if (kind === 'mono' && m) drawStruct(host, monomerSpec(m, 1, label || m.mono));
       else if (kind === 'chain' && m) drawStruct(host, chainSpec(m, Number(host.getAttribute('data-units')) || 3, label || m.rep));
       else if (kind === 'rep' && m) drawStruct(host, unitSpec(m, label || m.rep), unitBrackets(m));

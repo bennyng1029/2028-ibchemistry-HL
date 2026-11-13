@@ -161,7 +161,22 @@ function questionPairs(q, tr) {
   });
   return out;
 }
-function writeQuestionsFile(file, lang, scope, questions, old) {
+/* Fields of a question that the overlay does not have a slot for yet: a field that is absent (not just ""), a list
+   that has grown, a new option note. Used by --only-missing so that a slot added to an existing question
+   (answerDisplay, a new hint) is appended too. */
+function missingSlots(q, prev) {
+  const en = questionFields(q);
+  if (!prev) return Object.keys(en);
+  return Object.keys(en).filter(f => {
+    if (!(f in prev) || prev[f] == null) return true;
+    if (Array.isArray(en[f])) return !Array.isArray(prev[f]) || prev[f].length < en[f].length;
+    if (typeof en[f] === 'object') return typeof prev[f] !== 'object' || Object.keys(en[f]).some(k => !(k in prev[f]));
+    return false;
+  });
+}
+/* only (optional): {id: [field, …]} writes just those fields of each question (a partial entry: the site and the
+   tools merge it, field by field, into the entry that the file already has). */
+function writeQuestionsFile(file, lang, scope, questions, old, only) {
   let s = '/* ' + scope + ' — ' + lang + ' question translations for Structure Lab.\n' +
     '   Each field has the English above it as a comment. Fill in the "" values; "" means "not translated yet".\n' +
     '   Keep every tag, number, formula and unit. Do not translate numeric answers or option order.\n' +
@@ -171,8 +186,9 @@ function writeQuestionsFile(file, lang, scope, questions, old) {
   Object.keys(questions).forEach(id => {
     const q = questions[id], en = questionFields(q), prev = (old && old[id]) || {};
     s += '    // ── ' + id + ' · ' + q.type + ' · ' + q.tier + ' · ' + q.level.toUpperCase() + (q.syllabus ? ' · ' + q.syllabus : '') + ' · ' + q.marks + (q.marks === 1 ? ' mark' : ' marks') + '\n';
+    if (only && prev && Object.keys(prev).length) s += '    // new slot(s) for a question that is already in this file: ' + (only[id] || []).join(', ') + '\n';
     s += '    ' + J(id) + ': {\n';
-    Object.keys(en).forEach(f => {
+    Object.keys(en).filter(f => !only || (only[id] || []).includes(f)).forEach(f => {
       if (Array.isArray(en[f])) {
         s += '      ' + f + ': [\n';
         en[f].forEach((v, i) => { s += comment('        ', 'EN: ' + norm(v)) + '        ' + J((prev[f] && prev[f][i]) || '') + ',\n'; });
@@ -244,7 +260,7 @@ async function catalog(browser, scope) {
 const VOID = new Set(['br', 'hr', 'img', 'input', 'wbr']);
 /* Tiny HTML reader: tags (multiset), contents of protected elements, hrefs, dfn inner HTML, plain text. */
 function readHtml(html, opts) {
-  const tags = [], prot = [], hrefs = [], dfns = [], enTerms = [], nums = [];
+  const tags = [], prot = [], hrefs = [], dfns = [], enTerms = [], nums = [], offs = [];
   let text = '', i = 0;
   const stack = [];
   const re = /<(\/?)([a-zA-Z][a-zA-Z0-9]*)((?:[^>"']|"[^"]*"|'[^']*')*)>/g;
@@ -264,7 +280,8 @@ function readHtml(html, opts) {
       const kind = /\bchem\b/.test(cls) ? 'chem' : /\bunit\b/.test(cls) ? 'unit' : /\bfrac\b/.test(cls) ? 'frac' : name === 'sub' ? 'sub' : name === 'sup' ? 'sup' : null;
       stack.forEach(f => { f.html += m[0]; });
       if (!isFree) tags.push(name + (kind === 'chem' || kind === 'unit' || kind === 'frac' ? '.' + kind : ''));
-      if (!VOID.has(name) && !/\/\s*$/.test(attrs)) stack.push({ name, kind, isEn, text: '', html: '' });
+      const isOff = /\bdata-i18n\s*=\s*(["'])off\1/.test(attrs);               // an inline protected run (see capture() in core.js)
+      if (!VOID.has(name) && !/\/\s*$/.test(attrs)) stack.push({ name, kind, isEn, isOff, open: m[0], text: '', html: '' });
     } else {
       let f = null;
       while (stack.length) { f = stack.pop(); if (f.name === name) break; f = null; }
@@ -274,11 +291,12 @@ function readHtml(html, opts) {
         if (f.kind === 'frac' && !/[A-Za-zÀ-ɏ぀-鿿]{2}/.test(f.text.replace(/\s/g, ''))) prot.push('frac:' + norm(f.text));
         if (f.name === 'dfn') dfns.push(f.html);
         if (f.isEn) enTerms.push(norm(f.text));
+        if (f.isOff) offs.push(norm(f.open + f.html + m[0]));
       }
     }
   }
   pushText(html.slice(i));
-  return { tags, prot, hrefs, dfns, enTerms, nums, text: text.replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>') };
+  return { tags, prot, hrefs, dfns, enTerms, nums, offs, text: text.replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>') };
 }
 // Character references must not be read as numbers ("&#8722;5" is −5, not 8722 and 5).
 function decode(s) {
@@ -324,6 +342,10 @@ function lintPair(en, tr, opts) {
     if (repeated.length) out.push('formula / unit / sub / sup used more often than in the English: ' + repeated.join(' | ') + '. It must appear the same number of times: reword the sentence so that it is not repeated');
     if (added.length) out.push('formula / unit / sub / sup not in the English: ' + added.join(' | ') + (gone.length ? ' (probably the changed form of the missing one above)' : '') + '. Do not add or alter them');
   }
+  // an inline element marked data-i18n="off" is carried through exactly as written, tag and contents
+  const of = diffMulti(a.offs, b.offs);
+  if (of.missing.length) out.push('protected part (data-i18n="off") missing or changed: ' + [...new Set(of.missing)].join(' | ') + '. Copy it from the English exactly, the same number of times');
+  if (of.extra.length) out.push('protected part (data-i18n="off") not in the English' + (of.missing.length ? ' (probably the changed form of the one above)' : '') + ': ' + [...new Set(of.extra)].join(' | '));
   const hr = diffMulti(a.hrefs, b.hrefs);
   if (hr.missing.length || hr.extra.length) out.push('link target changed: ' + hr.missing.concat(hr.extra).join(' '));
   // exam-language policy: a key term keeps its English beside it
@@ -377,4 +399,4 @@ function closest(key, candidates) {
 }
 
 module.exports = { translatable, labelWidth, ROOT, LANGS, norm, pageFile, isTopic, scanSource, readOverlay, writeStringsFile, writeQuestionsFile, stringsBlock, comment,
-  questionFields, questionPairs, catalog, lintPair, readHtml, closest, Q_FIELDS, J };
+  questionFields, questionPairs, missingSlots, catalog, lintPair, readHtml, closest, Q_FIELDS, J };
