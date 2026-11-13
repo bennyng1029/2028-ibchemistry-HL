@@ -13,10 +13,10 @@
   var util = S1.util, el = util.el, doc = document;
   var t = S1.t, live = S1.i18n.live, liveAttr = S1.i18n.liveAttr, render = S1.i18n.render, Q = S1.i18n.q;
 
-  var TIER_LABEL = { foundation: 'Foundation', exam: 'Exam style', challenge: 'Challenge' };
-  var TYPE_LABEL = { mcq: 'Multiple choice', numeric: 'Calculation', multi: 'Select all that apply', order: 'Put in order', short: 'Written answer' };
+  var TIER_LABEL = { foundation: 'Foundation', exam: 'Exam style', challenge: 'Challenge' };   // i18n
+  var TYPE_LABEL = { mcq: 'Multiple choice', numeric: 'Calculation', multi: 'Select all that apply', order: 'Put in order', short: 'Written answer' };   // i18n
   var LETTERS = 'ABCDEFGH';
-  var STD_FORM_HELP = 'For standard form, type <span class="mono">6.02e23</span> or <span class="mono">6.02x10^23</span>.';
+  var STD_FORM_HELP = 'For standard form, type <span class="mono">6.02e23</span> or <span class="mono">6.02x10^23</span>.';   // i18n
 
   function plainText(htmlStr, max) {
     var d = doc.createElement('div'); d.innerHTML = htmlStr;
@@ -329,7 +329,7 @@
     host.classList.add('quiz');
     host.setAttribute('data-i18n', 'off');
     host.innerHTML = '';
-    var titleSrc = opts.title || (opts.mode === 'review' ? 'Review my mistakes' : 'Quick check');
+    var titleSrc = opts.title || (opts.mode === 'review' ? 'Review my mistakes' : 'Quick check');   // i18n
     var title = el('h3', { class: 'quiz__title', t: titleSrc });
     var meta = el('p', { class: 'quiz__meta', role: 'status', 'aria-live': 'polite' });
     var track = el('ol', { class: 'quiz__track', 'aria-hidden': 'true' });
@@ -356,8 +356,8 @@
     function empty() {
       track.innerHTML = ''; render(meta);
       var key = opts.emptyText || (opts.mode === 'review'
-        ? 'No mistakes saved. Questions you get wrong will appear here so you can try them again.'
-        : (S1.questions.all().length ? 'No questions match this selection yet.' : 'Questions for this section are on their way.'));
+        ? 'No mistakes saved. Questions you get wrong will appear here so you can try them again.'   // i18n
+        : (S1.questions.all().length ? 'No questions match this selection yet.' : 'Questions for this section are on their way.'));   // i18n
       body.innerHTML = '';
       body.appendChild(el('p', { class: 'quiz__empty', t: key }));
     }
@@ -404,12 +404,12 @@
       body.innerHTML = '';
       var head = live(el('p', { class: 'summary__score', tabindex: '-1' }), function () { return right + ' / ' + set.length + ' <small>' + t('right first time') + '</small>'; });
       body.appendChild(head);
-      body.appendChild(el('p', { t: right === set.length ? 'All correct. Try a harder tier next, or move on.'
-        : right === 0 ? 'A tough set. Go back over the worked examples, then retry the questions below.'
-        : 'Good work. Retry the ones you missed while the ideas are fresh.' }));
+      body.appendChild(el('p', { t: right === set.length ? 'All correct. Try a harder tier next, or move on.'   // i18n
+        : right === 0 ? 'A tough set. Go back over the worked examples, then retry the questions below.'   // i18n
+        : 'Good work. Retry the ones you missed while the ideas are fresh.' }));   // i18n
       var ul = el('ul', { class: 'summary__list' });
       set.forEach(function (q, i) {
-        var r = results[i], word = r === 'right' ? 'Right' : r === 'partial' ? 'Part marks' : r === 'wrong' ? 'Missed' : 'Skipped';
+        var r = results[i], word = r === 'right' ? 'Right' : r === 'partial' ? 'Part marks' : r === 'wrong' ? 'Missed' : 'Skipped';   // i18n
         ul.appendChild(el('li', null, [
           el('span', { class: 'summary__status summary__status--' + (r === 'right' ? 'right' : r === 'partial' ? 'partial' : 'wrong'), t: word }),
           live(el('span', { class: 'summary__stem' }), function () { return util.escapeHtml(plainText(Q(q, 'stem'), 110)); })
@@ -495,10 +495,10 @@
       options.forEach(function (o) { var op = el('option', { value: o[0], t: o[1] }); if (o[0] === value) op.selected = true; s.appendChild(op); });
       return { wrap: el('div', null, [el('label', { class: 'field-label', for: id, t: label }), s]), el: s };
     }
-    var level = select('Level', 'level', [['all', 'SL and AHL'], ['sl', 'SL only'], ['ahl', 'AHL only']], params.level || 'all');
-    var tier = select('Difficulty', 'tier', [['all', 'Any'], ['foundation', 'Foundation'], ['exam', 'Exam style'], ['challenge', 'Challenge']], params.tier || 'all');
-    var type = select('Question type', 'type', [['all', 'Any'], ['mcq', 'Multiple choice'], ['numeric', 'Calculation'], ['multi', 'Select all that apply'], ['order', 'Put in order'], ['short', 'Written answer']], params.type || 'all');
-    var count = select('How many', 'count', [['5', '5 questions'], ['10', '10 questions'], ['20', '20 questions'], ['0', 'All that match']], params.count || '10');
+    var level = select('Level', 'level', [['all', 'SL and AHL'], ['sl', 'SL only'], ['ahl', 'AHL only']], params.level || 'all');   // i18n
+    var tier = select('Difficulty', 'tier', [['all', 'Any'], ['foundation', 'Foundation'], ['exam', 'Exam style'], ['challenge', 'Challenge']], params.tier || 'all');   // i18n
+    var type = select('Question type', 'type', [['all', 'Any'], ['mcq', 'Multiple choice'], ['numeric', 'Calculation'], ['multi', 'Select all that apply'], ['order', 'Put in order'], ['short', 'Written answer']], params.type || 'all');   // i18n
+    var count = select('How many', 'count', [['5', '5 questions'], ['10', '10 questions'], ['20', '20 questions'], ['0', 'All that match']], params.count || '10');   // i18n
     form.appendChild(el('div', { class: 'arena-selects' }, [level.wrap, tier.wrap, type.wrap, count.wrap]));
 
     var startBtn = el('button', { class: 'btn btn--primary', type: 'submit', t: 'Start practice' });
@@ -536,8 +536,8 @@
       if (s) { try { box.scrollIntoView({ block: 'start', behavior: util.reducedMotion() ? 'auto' : 'smooth' }); } catch (e) { box.scrollIntoView(); } s.focus({ preventScroll: true }); }
     }
     form.addEventListener('change', paint);
-    form.addEventListener('submit', function (e) { e.preventDefault(); var o = current(); o.title = 'Mixed practice'; run(o); });
-    reviewBtn.addEventListener('click', function () { run({ mode: 'review', count: 0, title: 'Review my mistakes' }); });
+    form.addEventListener('submit', function (e) { e.preventDefault(); var o = current(); o.title = 'Mixed practice'; run(o); });   // i18n
+    reviewBtn.addEventListener('click', function () { run({ mode: 'review', count: 0, title: 'Review my mistakes' }); });   // i18n
     doc.addEventListener('s1:progress', paint);
     doc.addEventListener('s1:levelchange', paint);
     paint();

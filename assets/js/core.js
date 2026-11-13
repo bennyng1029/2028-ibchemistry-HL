@@ -138,7 +138,7 @@
   function syncThemeButton() {
     var dark = S1.theme.get() === 'dark';
     Array.prototype.forEach.call(doc.querySelectorAll('.theme-toggle'), function (b) {
-      var key = dark ? 'Switch to light theme' : 'Switch to dark theme';
+      var key = dark ? 'Switch to light theme' : 'Switch to dark theme';   // i18n
       S1.i18n.liveAttr(b, 'aria-label', function () { return S1.t(key); });
       S1.i18n.liveAttr(b, 'title', function () { return S1.t(key); });
     });
@@ -392,10 +392,10 @@
 
   /* Labels that CSS draws with ::before: the text comes from data-s1-label so that it can be translated. */
   var CSS_LABELS = [
-    ['.callout--key', 'Key idea'], ['.callout--mistake', 'Common mistake'], ['.callout--exam', 'Exam tip'],
-    ['.callout--scope', 'Not needed for IB'], ['.callout--booklet', 'In your data booklet'],
-    ['.tryit', 'Try it'], ['.worked__why', 'Why'], ['.worked__answer', 'Answer'], ['.tryit__solution', 'Solution'],
-    ['.tryit__hints > li, .q__hints > li', 'Hint']
+    ['.callout--key', 'Key idea'], ['.callout--mistake', 'Common mistake'], ['.callout--exam', 'Exam tip'],   // i18n
+    ['.callout--scope', 'Not needed for IB'], ['.callout--booklet', 'In your data booklet'],   // i18n
+    ['.tryit', 'Try it'], ['.worked__why', 'Why'], ['.worked__answer', 'Answer'], ['.tryit__solution', 'Solution'],   // i18n
+    ['.tryit__hints > li, .q__hints > li', 'Hint']   // i18n
   ];
   function labelPass(root) {
     CSS_LABELS.forEach(function (pair) {
@@ -871,7 +871,7 @@
     });
     var count = el('p', { class: 'worked__count' });
     var liveMsg = el('p', { class: 'sr-only', role: 'status', 'aria-live': 'polite' });
-    var kicker = box.getAttribute('data-kicker') || 'Worked example';
+    var kicker = box.getAttribute('data-kicker') || 'Worked example';   // i18n
     var head = off(el('div', { class: 'worked__head' }, [el('p', { class: 'worked__kicker', t: kicker }), count]));
     box.insertBefore(head, box.firstChild);
 
@@ -924,7 +924,7 @@
   }
 
   /* ---------- Try it: numeric check with hint ladder ------------------------ */
-  var STD_FORM_HELP = 'For standard form, type <span class="mono">6.02e23</span> or <span class="mono">6.02x10^23</span>.';
+  var STD_FORM_HELP = 'For standard form, type <span class="mono">6.02e23</span> or <span class="mono">6.02x10^23</span>.';   // i18n
   function initNumeric(box) {
     var spec = {
       answer: Number(box.getAttribute('data-answer')),
@@ -942,7 +942,7 @@
     var check = el('button', { class: 'btn btn--primary', type: 'submit', t: 'Check' });
     var row = el('div', { class: 'field-row' }, [input, unitText ? el('span', { class: 'unit', html: S1.chem.unit(unitText), 'data-s1-done': '' }) : null, check]);
     var form = off(el('form', { class: 'tryit__form', novalidate: true }, [
-      el('label', { class: 'field-label', for: id, t: box.getAttribute('data-label') || 'Your answer' }), row,
+      el('label', { class: 'field-label', for: id, t: box.getAttribute('data-label') || 'Your answer' }), row,   // i18n
       el('p', { class: 'field-help', id: id + '-help', t: STD_FORM_HELP })
     ]));
     var feedback = off(el('div', { class: 'feedback', role: 'status', 'aria-live': 'polite' }));
@@ -1030,7 +1030,7 @@
     var titleId = util.uid('widget-title');
     var head = el('div', { class: 'widget__head' }, [
       el('h4', { class: 'widget__title', id: titleId, t: titleText }),
-      el('span', { class: 'widget__kicker', t: node.getAttribute('data-kicker') || 'Interactive' })
+      el('span', { class: 'widget__kicker', t: node.getAttribute('data-kicker') || 'Interactive' })   // i18n
     ]);
     var controls = el('div', { class: 'widget__controls' });
     var stage = el('div', { class: 'widget__stage' });
