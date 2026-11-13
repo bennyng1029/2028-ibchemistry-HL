@@ -83,7 +83,7 @@ S1.i18n.register('ja', 's2-2h.q', {
       // EN: <p>Two resonance structures exist. Neither is the real molecule. The π electrons are delocalized over the three atoms, so both bonds are equal in length. 128 pm lies between 121 pm (double) and 148 pm (single).</p>
       solution: "<p>共鳴構造が 2 つあります。どちらも実際の分子ではありません。π 電子は 3 つの原子全体に非局在化しているので、2 本の結合は同じ長さです。128 pm は、121 pm（二重結合）と 148 pm（単結合）の間にあります。</p>",
       // EN: <p>Ozone has two resonance structures, because the double bond can be drawn on either side of the central atom. The real molecule is a hybrid of the two. The π electrons are delocalized over all three oxygen atoms, so both bonds are identical and each is between a single and a double bond.</p>
-      answer: "<p>オゾンには共鳴構造が 2 つあります。二重結合を、中央の原子のどちら側にも描けるからです。実際の分子は、この 2 つの共鳴混成体です。π 電子は 3 個の酸素原子全体に非局在化しているので、2 本の結合はまったく同じで、どちらも単結合と二重結合の中間です。</p>",
+      answer: "<p>オゾンには共鳴構造が 2 つあります。二重結合を、中心原子のどちら側にも描けるからです。実際の分子は、この 2 つの共鳴混成体です。π 電子は 3 個の酸素原子全体に非局在化しているので、2 本の結合はまったく同じで、どちらも単結合と二重結合の中間です。</p>",
       markscheme: [
         // EN: Two resonance structures can be drawn / the double bond has two possible positions (accept: ozone has resonance).
         "共鳴構造が 2 つ描ける / 二重結合を置ける位置が 2 つある（「オゾンには共鳴がある」も可）。",

@@ -246,7 +246,7 @@ S1.i18n.register('ja', 's2-4', {
     "Magnesium oxide on the triangle": "三角形の上の酸化マグネシウム",
 
     // Placing a compound in the bonding triangle > worked example > p
-    "Use <i>χ</i>(Mg) = 1.3 and <i>χ</i>(O) = 3.4. Determine the position of magnesium oxide, <span class=\"chem\">MgO</span>, in the bonding triangle. Predict its bonding type and two properties.": "<i>χ</i>(Mg) = 1.3、<i>χ</i>(O) = 3.4 を使います。酸化マグネシウム <span class=\"chem\">MgO</span> が結合の三角形のどこにくるかを求めましょう。結合の種類と、性質を 2 つ予測しましょう。",
+    "Use <i>χ</i>(Mg) = 1.3 and <i>χ</i>(O) = 3.4. Determine the position of magnesium oxide, <span class=\"chem\">MgO</span>, in the bonding triangle. Predict its bonding type and two properties.": "<i>χ</i>(Mg) = 1.3、<i>χ</i>(O) = 3.4 を使います。酸化マグネシウム <span class=\"chem\">MgO</span> が結合の三角形のどこにくるかを求めなさい (determine)。結合の種類と、性質を 2 つ予測しなさい (predict)。",
 
     // Placing a compound in the bonding triangle > worked example > data-title attribute
     "Find the difference": "差を求める",
@@ -291,7 +291,7 @@ S1.i18n.register('ja', 's2-4', {
     "Phosphorus trichloride on the triangle": "三角形の上の三塩化リン",
 
     // Placing a compound in the bonding triangle > worked example > p
-    "Use <i>χ</i>(P) = 2.2 and <i>χ</i>(Cl) = 3.2. Determine the position of phosphorus trichloride, <span class=\"chem\">PCl3</span>, in the bonding triangle. Predict its bonding type and two properties.": "<i>χ</i>(P) = 2.2、<i>χ</i>(Cl) = 3.2 を使います。三塩化リン <span class=\"chem\">PCl3</span> が結合の三角形のどこにくるかを求めましょう。結合の種類と、性質を 2 つ予測しましょう。",
+    "Use <i>χ</i>(P) = 2.2 and <i>χ</i>(Cl) = 3.2. Determine the position of phosphorus trichloride, <span class=\"chem\">PCl3</span>, in the bonding triangle. Predict its bonding type and two properties.": "<i>χ</i>(P) = 2.2、<i>χ</i>(Cl) = 3.2 を使います。三塩化リン <span class=\"chem\">PCl3</span> が結合の三角形のどこにくるかを求めなさい。結合の種類と、性質を 2 つ予測しなさい。",
 
     // Placing a compound in the bonding triangle > worked example > p
     "Use one value for each element. The 3 in the formula is not used.": "元素ごとに値を 1 つ使います。化学式の 3 は使いません。",
@@ -330,7 +330,7 @@ S1.i18n.register('ja', 's2-4', {
     "Electronegativity difference": "電気陰性度の差",
 
     // Placing a compound in the bonding triangle > try it > p
-    "Calcium oxide is <span class=\"chem\">CaO</span>. Use <i>χ</i>(Ca) = 1.0 and <i>χ</i>(O) = 3.4. Calculate the electronegativity difference.": "酸化カルシウムは <span class=\"chem\">CaO</span> です。<i>χ</i>(Ca) = 1.0、<i>χ</i>(O) = 3.4 を使って、電気陰性度の差を計算しましょう。",
+    "Calcium oxide is <span class=\"chem\">CaO</span>. Use <i>χ</i>(Ca) = 1.0 and <i>χ</i>(O) = 3.4. Calculate the electronegativity difference.": "酸化カルシウムは <span class=\"chem\">CaO</span> です。<i>χ</i>(Ca) = 1.0、<i>χ</i>(O) = 3.4 を使って、電気陰性度の差を計算しなさい (calculate)。",
 
     // Placing a compound in the bonding triangle > try it > li
     "The difference is the larger value minus the smaller value.": "差は、大きい値から小さい値を引いたものです。",
@@ -343,7 +343,7 @@ S1.i18n.register('ja', 's2-4', {
     "Average electronegativity": "電気陰性度の平均",
 
     // Placing a compound in the bonding triangle > try it > p
-    "Now calculate the average electronegativity for calcium oxide, using the same values.": "次に、同じ値を使って、酸化カルシウムの電気陰性度の平均を計算しましょう。",
+    "Now calculate the average electronegativity for calcium oxide, using the same values.": "次に、同じ値を使って、酸化カルシウムの電気陰性度の平均を計算しなさい。",
 
     // Placing a compound in the bonding triangle > try it > li
     "Add the two values first. Then divide by 2.": "まず 2 つの値を足します。それから 2 で割ります。",
@@ -358,7 +358,7 @@ S1.i18n.register('ja', 's2-4', {
     "The point (2.2, 2.4) is in the ionic region. Check it with the plotter above.": "点 (2.2, 2.4) はイオン結合の領域にあります。上の教材で確かめてみましょう。",
 
     // Placing a compound in the bonding triangle > try it > p
-    "Silicon tetrachloride is <span class=\"chem\">SiCl4</span>. Use <i>χ</i>(Si) = 1.9 and <i>χ</i>(Cl) = 3.2. Calculate the average electronegativity.": "四塩化ケイ素は <span class=\"chem\">SiCl4</span> です。<i>χ</i>(Si) = 1.9、<i>χ</i>(Cl) = 3.2 を使って、電気陰性度の平均を計算しましょう。",
+    "Silicon tetrachloride is <span class=\"chem\">SiCl4</span>. Use <i>χ</i>(Si) = 1.9 and <i>χ</i>(Cl) = 3.2. Calculate the average electronegativity.": "四塩化ケイ素は <span class=\"chem\">SiCl4</span> です。<i>χ</i>(Si) = 1.9、<i>χ</i>(Cl) = 3.2 を使って、電気陰性度の平均を計算しなさい。",
 
     // Placing a compound in the bonding triangle > try it > li
     "Use one value for silicon and one value for chlorine. Ignore the 4 in the formula.": "ケイ素の値を 1 つ、塩素の値を 1 つ使います。化学式の 4 は無視します。",
@@ -702,7 +702,7 @@ S1.i18n.register('ja', 's2-4', {
     "Repeating unit from a monomer": "単量体から繰り返し単位",
 
     // Addition polymers > worked example > p
-    "Propene has the structure shown. Draw the repeating unit of the addition polymer formed from propene.": "図はプロペン (propene) の構造です。プロペンからできる付加重合体の繰り返し単位を描きましょう。",
+    "Propene has the structure shown. Draw the repeating unit of the addition polymer formed from propene.": "図はプロペン (propene) の構造です。プロペンからできる付加重合体の繰り返し単位を描きなさい (draw)。",
 
     // Addition polymers > worked example > data-title attribute
     "Find the two double-bonded carbons": "二重結合でつながった 2 個の炭素を見つける",
@@ -756,7 +756,7 @@ S1.i18n.register('ja', 's2-4', {
     "Monomer from a polymer": "高分子から単量体",
 
     // Addition polymers > worked example > p
-    "A section of an addition polymer is shown. Deduce the structure of the monomer.": "図は付加重合体の一部分です。単量体の構造を導きましょう。",
+    "A section of an addition polymer is shown. Deduce the structure of the monomer.": "図は付加重合体の一部分です。単量体の構造を導きなさい (deduce)。",
 
     // Addition polymers > worked example > data-title attribute
     "Mark one repeating unit": "繰り返し単位を 1 つ区切る",
@@ -873,7 +873,7 @@ S1.i18n.register('ja', 's2-4', {
     "Repeating unit of a polyester": "ポリエステルの繰り返し単位",
 
     // Condensation polymers > worked example > Additional HL > p
-    "A polyester is made from the two monomers shown. Draw its repeating unit and state the other product.": "図の 2 つの単量体からポリエステルができます。繰り返し単位を描き、もう 1 つの生成物を述べましょう。",
+    "A polyester is made from the two monomers shown. Draw its repeating unit and state the other product.": "図の 2 つの単量体からポリエステルができます。繰り返し単位を描きなさい (draw)。また、もう 1 つの生成物を述べなさい (state)。",
 
     // Condensation polymers > worked example > Additional HL > data-title attribute
     "Identify the groups that react": "反応する基を特定する",
@@ -909,7 +909,7 @@ S1.i18n.register('ja', 's2-4', {
     "Repeating unit of a polyamide": "ポリアミドの繰り返し単位",
 
     // Condensation polymers > worked example > Additional HL > p
-    "A polyamide is made from the two monomers shown. Draw its repeating unit.": "図の 2 つの単量体からポリアミドができます。繰り返し単位を描きましょう。",
+    "A polyamide is made from the two monomers shown. Draw its repeating unit.": "図の 2 つの単量体からポリアミドができます。繰り返し単位を描きなさい。",
 
     // Condensation polymers > worked example > Additional HL > p
     "An –NH<sub>2</sub> group of the diamine reacts with a –COOH group of the acid. This makes an amide link.": "ジアミンの –NH<sub>2</sub> 基が、酸の –COOH 基と反応します。これでアミド結合 (amide link) ができます。",
@@ -948,7 +948,7 @@ S1.i18n.register('ja', 's2-4', {
     "Monomers from a condensation polymer": "縮合重合体から単量体",
 
     // Condensation polymers > worked example > Additional HL > p
-    "The repeating unit of a polymer is shown. Identify the type of polymer and deduce the structures of the two monomers.": "図はある高分子の繰り返し単位です。高分子の種類を特定し、2 つの単量体の構造を導きましょう。",
+    "The repeating unit of a polymer is shown. Identify the type of polymer and deduce the structures of the two monomers.": "図はある高分子の繰り返し単位です。高分子の種類を特定しなさい (identify)。また、2 つの単量体の構造を導きなさい (deduce)。",
 
     // Condensation polymers > worked example > Additional HL > data-title attribute
     "Find the link": "結合を見つける",

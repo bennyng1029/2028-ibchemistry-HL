@@ -46,7 +46,7 @@ S1.i18n.register('ja', 's2-3', {
     "Explain trends in the melting points of s-block and p-block metals.": "s ブロックと p ブロックの金属の融点の傾向を説明する。",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Explain the high melting points and the electrical conductivity of transition elements, using their delocalized d-electrons.": "遷移元素の融点が高いことと電気を通すことを、非局在化した d 電子を使って説明する。",
+    "Explain the high melting points and the electrical conductivity of transition elements, using their delocalized d-electrons.": "遷移元素の高い融点と電気伝導性を、非局在化した d 電子を使って説明する。",
 
     // The metallic bond > data-toc attribute
     // The metallic bond > h2

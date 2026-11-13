@@ -36,7 +36,7 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "State that an ionic bond is the electrostatic attraction between oppositely charged ions, and say when ionic bonding is expected.": "寫出離子鍵是帶相反電荷的離子之間的靜電引力，並說出甚麼情況下會出現離子鍵。",
 
     // What you need to be able to do > checklist > span
-    "Recall the names and formulas of the seven polyatomic ions in the guide.": "記得學科指南中 7 個多原子離子的名稱和化學式。",
+    "Recall the names and formulas of the seven polyatomic ions in the guide.": "記得學科指南中七個多原子離子的名稱和化學式。",
 
     // What you need to be able to do > checklist > span
     "Deduce the formula of an ionic compound from its ions, including polyatomic ions.": "由離子（包括多原子離子）推斷離子化合物的化學式。",
@@ -788,7 +788,7 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "Can the ions move?": "離子能移動嗎？",
 
     // Explaining the properties of ionic compounds > widget > figcaption
-    "Change the state and watch the ions. The lamp lights only when ions can move from place to place. This is a model of a small part of the sample between two electrodes. The two ions are drawn to scale with each other, using their ionic radii. The water molecules are simplified, and only the ones next to an ion are drawn. The oxygen end of a water molecule points to a positive ion. The hydrogen end points to a negative ion. In real water, molecules fill all the space between the ions.": "改變狀態，觀察離子。只有離子能由一處移到另一處，燈才會亮。這個模型顯示兩個電極之間的一小部分樣本。兩種離子按各自的離子半徑，以相同比例繪畫。水分子經過簡化，而且只畫出離子旁邊的水分子。水分子中氧的一端指向正離子，氫的一端指向負離子。在真實的水中，分子填滿離子之間的所有空間。",
+    "Change the state and watch the ions. The lamp lights only when ions can move from place to place. This is a model of a small part of the sample between two electrodes. The two ions are drawn to scale with each other, using their ionic radii. The water molecules are simplified, and only the ones next to an ion are drawn. The oxygen end of a water molecule points to a positive ion. The hydrogen end points to a negative ion. In real water, molecules fill all the space between the ions.": "改變狀態，觀察離子。只有離子能由一處移到另一處，燈才會亮。這個模型顯示兩個電極之間的一小部分樣本。兩種離子根據離子半徑，互相按比例繪畫。水分子經過簡化，而且只畫出離子旁邊的水分子。水分子中氧的一端指向正離子，氫的一端指向負離子。在真實的水中，分子填滿離子之間的所有空間。",
 
     // Explaining the properties of ionic compounds > common mistake > p
     "In a molten or dissolved ionic compound, the current is carried by moving <em>ions</em>, not by electrons. And a solid ionic compound does contain ions. It does not conduct because its ions cannot move, not because it has none.": "在熔融或已溶解的離子化合物中，電流由移動的<em>離子</em>傳導，不是由電子傳導。固體離子化合物其實也含有離子。它不導電，是因為離子不能移動，不是因為沒有離子。",
@@ -828,7 +828,7 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "Hit it": "撞擊",
 
     // Explaining the properties of ionic compounds > widget > figcaption
-    "Press Hit it, then follow the steps. This is a flat slice through a crystal, with the two ions drawn to scale with each other. As the top layers slide, the large negative ions meet and push the layers apart. A real crystal has a huge number of layers and breaks along flat surfaces.": "按「撞擊」，然後跟着步驟做。這是晶體的一個平面切面，兩種離子以相同比例繪畫。上面幾層滑動時，較大的負離子相遇，把各層推開。真實的晶體有極多層，會沿平面裂開。",
+    "Press Hit it, then follow the steps. This is a flat slice through a crystal, with the two ions drawn to scale with each other. As the top layers slide, the large negative ions meet and push the layers apart. A real crystal has a huge number of layers and breaks along flat surfaces.": "按「撞擊」，然後跟着步驟做。這是晶體的一個平面切面，兩種離子互相按比例繪畫。上面幾層滑動時，較大的負離子相遇，把各層推開。真實的晶體有極多層，會沿平面裂開。",
 
     // Explaining the properties of ionic compounds > h3
     "Put it together": "綜合起來",
@@ -921,7 +921,7 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "Lattice enthalpy comparer": "晶格焓比較器",
 
     // Lattice enthalpy: how strong is the ionic bonding? > widget > figcaption
-    "Choose two compounds. The picture shows one cation touching one anion for each compound, all drawn to the same scale. Predict which lattice enthalpy is larger and why, then reveal the data booklet values. The picture is a model of one contact in the lattice, not a molecule.": "選兩種化合物。圖中每種化合物都畫出一個陽離子和一個陰離子互相接觸，全部按相同比例繪畫。先預測哪個晶格焓較大和原因，再顯示數據手冊的數值。這幅圖是晶格中一個接觸點的模型，不是分子。",
+    "Choose two compounds. The picture shows one cation touching one anion for each compound, all drawn to the same scale. Predict which lattice enthalpy is larger and why, then reveal the data booklet values. The picture is a model of one contact in the lattice, not a molecule.": "選兩種化合物。圖中每種化合物都畫出一個陽離子和一個陰離子互相接觸，全部按同一比例繪畫。先預測哪個晶格焓較大和原因，再顯示數據手冊的數值。這幅圖是晶格中一個接觸點的模型，不是分子。",
 
     // Lattice enthalpy: how strong is the ionic bonding? > h3
     "Method in words: comparing two ionic compounds": "文字說明方法：比較兩種離子化合物",
@@ -1463,7 +1463,7 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "Balanced: {pos}+ and {neg}{minus} add up to zero.": "已平衡：{pos}+ 和 {neg}{minus} 加起來是零。",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "The 3-D model could not be loaded.": "無法載入立體模型。",
+    "The 3-D model could not be loaded.": "無法載入 3D 立體模型。",
 
     // widget string (assets/js/widgets-s2-1.js)
     "Model of a small piece of the sodium chloride lattice. Sodium ions and chloride ions alternate in all three directions, so every ion has ions of the opposite charge as its nearest neighbours.": "氯化鈉晶格一小部分的模型。鈉離子和氯離子在三個方向上交替排列，所以每個離子最近的鄰居都是帶相反電荷的離子。",
@@ -1601,7 +1601,7 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "Compound B": "化合物 B",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "For each compound, one cation and one anion drawn touching, to the same scale, with their charges and ionic radii. After you predict, bars show the two lattice enthalpies.": "每種化合物各畫出一個陽離子和一個陰離子互相接觸，按相同比例繪畫，並標示電荷和離子半徑。你預測之後，會以長條顯示兩個晶格焓。",
+    "For each compound, one cation and one anion drawn touching, to the same scale, with their charges and ionic radii. After you predict, bars show the two lattice enthalpies.": "每種化合物各畫出一個陽離子和一個陰離子互相接觸，按同一比例繪畫，並標示電荷和離子半徑。你預測之後，會以長條顯示兩個晶格焓。",
 
     // widget string (assets/js/widgets-s2-1.js)
     "Choose two different compounds to compare.": "請選兩種不同的化合物來比較。",

@@ -853,7 +853,7 @@ S1.i18n.register('ja', 's2-2h', {
     "Choose the preferred Lewis formula": "より適切なルイス構造式を選ぶ",
 
     // Formal charge > widget > figcaption
-    "Decide first, then press “Show formal charges” to check your working. The list under each drawing gives the atoms in the order they were drawn: left to right, or central atom first.": "まず自分で決めてから、「形式電荷を表示」を押して考え方を確かめましょう。図の下のリストは、原子を描いた順に並んでいます。左から右、または中心原子が先です。",
+    "Decide first, then press “Show formal charges” to check your working. The list under each drawing gives the atoms in the order they were drawn: left to right, or central atom first.": "まず自分で決めてから、「形式電荷を表示」を押して、途中の計算を確かめましょう。図の下のリストは、原子を描いた順に並んでいます。左から右、または中心原子が先です。",
 
     // Formal charge > h3
     "Sulfate: the classic case": "硫酸イオン：代表的な例",
@@ -874,7 +874,7 @@ S1.i18n.register('ja', 's2-2h', {
     "Formal charge (with sign)": "形式電荷（符号を付けて）",
 
     // Formal charge > try it > p
-    "In one Lewis formula of ozone, the central oxygen atom has one lone pair, one double bond and one single bond. Calculate the formal charge on the central oxygen atom.": "オゾンのルイス構造式の 1 つでは、中央の酸素原子に、非共有電子対が 1 組、二重結合が 1 本、単結合が 1 本あります。中央の酸素原子の形式電荷を計算しなさい (calculate)。",
+    "In one Lewis formula of ozone, the central oxygen atom has one lone pair, one double bond and one single bond. Calculate the formal charge on the central oxygen atom.": "オゾンのルイス構造式の 1 つでは、中心の酸素原子に、非共有電子対が 1 組、二重結合が 1 本、単結合が 1 本あります。中心の酸素原子の形式電荷を計算しなさい (calculate)。",
 
     // Formal charge > try it > li
     "Oxygen is in group 16, so <i>V</i> = 6. One lone pair gives <i>N</i> = 2.": "酸素は 16 族なので、<i>V</i> = 6 です。非共有電子対が 1 組なので、<i>N</i> = 2 です。",
@@ -1813,7 +1813,7 @@ S1.i18n.register('ja', 's2-2h', {
     "Formal charge = V − N − ½B": "形式電荷 = V − N − ½B",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Show the working": "考え方を表示",
+    "Show the working": "途中の計算を表示",
 
     // widget string (assets/js/widgets-s2-2h.js)
     "Lewis formula of {f}. Choose an atom to find its formal charge.": "{f} のルイス構造式。原子を選んで、形式電荷を求めましょう。",
