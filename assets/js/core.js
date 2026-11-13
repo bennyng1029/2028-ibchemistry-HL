@@ -40,7 +40,7 @@
     { id: 's2-2', group: 's2', ready: true, num: '2.2', sym: 'Cv', short: 'Covalent model', title: 'The covalent model', blurb: 'Lewis formulas, molecular shape, polarity and intermolecular forces.', href: 'topics/s2-2.html' },
     { id: 's2-2h', group: 's2', ready: true, level: 'ahl', num: '2.2', sym: 'Cv', short: 'Covalent model: HL', title: 'The covalent model: Additional HL', blurb: 'Formal charge, expanded octets, resonance, hybridization, sigma and pi bonds.', href: 'topics/s2-2h.html' },
     { id: 's2-3', group: 's2', ready: true, num: '2.3', sym: 'Me', short: 'Metallic model', title: 'The metallic model', blurb: 'Metallic bonding, delocalized electrons and the properties of metals.', href: 'topics/s2-3.html' },
-    { id: 's2-4', group: 's2', ready: false, num: '2.4', sym: 'Ma', short: 'Models to materials', title: 'From models to materials', blurb: 'The bonding triangle, alloys and polymers.', href: 'topics/s2-4.html' },
+    { id: 's2-4', group: 's2', ready: true, num: '2.4', sym: 'Ma', short: 'Models to materials', title: 'From models to materials', blurb: 'The bonding triangle, alloys and polymers.', href: 'topics/s2-4.html' },
     { id: 's3-1', group: 's3', ready: false, num: '3.1', sym: 'Pe', short: 'Periodic table', title: 'The periodic table: classification of elements', blurb: 'Groups, periods and blocks. Periodic trends and oxidation states.', href: 'topics/s3-1.html' },
     { id: 's3-2', group: 's3', ready: false, num: '3.2', sym: 'Fg', short: 'Functional groups', title: 'Functional groups: classification of organic compounds', blurb: 'Organic formulas, homologous series, naming and isomers.', href: 'topics/s3-2.html' },
     { id: 's3-2h', group: 's3', ready: false, level: 'ahl', num: '3.2', sym: 'Fg', short: 'Functional groups: HL', title: 'Functional groups: Additional HL', blurb: 'Stereoisomers, and finding structures from mass, IR and NMR spectra.', href: 'topics/s3-2h.html' }
@@ -69,7 +69,7 @@
         if (k === 'html') node.innerHTML = attrs[k];
         else if (k === 'text') node.textContent = attrs[k];
         else if (k === 't') S1.i18n.live(node, (function (key) { return function () { return S1.i18n.ui(key); }; })(attrs[k]));
-        else if (k === 'tp') S1.i18n.live(node, (function (key) { return function () { return S1.t(key); }; })(attrs[k]));
+        else if (k === 'tp') S1.i18n.live(node, (function (key) { return function () { return tpQuiet(key); }; })(attrs[k]));   // authored attribute text: in the catalog already
         else if (k === 'tTitle') S1.i18n.liveAttr(node, 'title', (function (key) { return function () { return S1.i18n.ui(key); }; })(attrs[k]));
         else if (k === 'tLabel') S1.i18n.liveAttr(node, 'aria-label', (function (key) { return function () { return S1.i18n.ui(key); }; })(attrs[k]));
         else if (k.slice(0, 2) === 'on' && typeof attrs[k] === 'function') node.addEventListener(k.slice(2), attrs[k]);
@@ -315,10 +315,11 @@
   // Context suffix: t('Solution|quiz') and t('Solution|chemistry') are different keys that both read
   // "Solution" in English.  The suffix is one word after a final "|".
   var CTX = /\|[A-Za-z0-9_-]+$/;
+  var quiet = false;                    // true while a pass-through lookup runs (see liveText): not recorded for coverage()
   function makeT(find, seenSet) {
     var f = function (english, vars) {
       var key = norm(english);
-      seenSet[key] = 1;
+      if (!quiet) seenSet[key] = 1;
       var tr = find(key), plain = String(english);
       if (!tr && CTX.test(key)) { tr = find(key.replace(CTX, '')); plain = plain.replace(CTX, ''); }
       else if (CTX.test(key)) plain = plain.replace(CTX, '');
@@ -371,7 +372,12 @@
     return s;
   }
   /** liveText(el, 'Label'): the label follows the language even if it was passed in already translated. */
-  function liveText(node, text) { var src = sourceOf(text); return live(node, function () { return tp(src); }); }
+  function liveText(node, text) { var src = sourceOf(text); return live(node, function () { return tpQuiet(src); }); }
+  // Lookup for text that a widget hands to a control helper (label, button, option). It is usually the result of
+  // the widget's own t() call, or text put together from data ("12 Mg magnesium"), so it is not recorded as a key
+  // that the page uses: coverage() would otherwise report strings that no translator can be asked for.
+  // Also used for authored attributes (data-title, data-label, data-def …): the catalog lists those by itself.
+  function tpQuiet(s, vars) { quiet = true; try { return tp(s, vars); } finally { quiet = false; } }
   // In HTML strings built by this file: data-t="English" (inner HTML), data-t-aria / data-t-title (attributes).
   function bindTree(root) {
     Array.prototype.forEach.call(root.querySelectorAll('[data-t]'), function (n) { var k = n.getAttribute('data-t'); n.removeAttribute('data-t'); live(n, function () { return t(k); }); });
@@ -517,7 +523,7 @@
     CSS_LABELS.forEach(function (pair) {
       Array.prototype.forEach.call(root.querySelectorAll(pair[0]), function (n) {
         var custom = n.tagName === 'LI' ? null : n.getAttribute(n.classList.contains('worked__why') ? 'data-label' : 'data-title');
-        n.setAttribute('data-s1-label', custom ? tp(custom) : t(pair[1]));
+        n.setAttribute('data-s1-label', custom ? tpQuiet(custom) : t(pair[1]));
       });
     });
   }
@@ -882,7 +888,7 @@
       var h2 = s.querySelector('h2');
       var a = el('a', { href: '#' + s.id });
       // The label follows the heading, so it is translated whenever the heading is.
-      live(a, function () { var short = s.getAttribute('data-toc'); return short ? tp(short) : esc(h2.textContent.replace(/\s+/g, ' ').trim()); });
+      live(a, function () { var short = s.getAttribute('data-toc'); return short ? tpQuiet(short) : esc(h2.textContent.replace(/\s+/g, ' ').trim()); });
       a.addEventListener('click', function () { setOpen(false); });
       links[s.id] = a;
       ol.appendChild(el('li', { 'data-level': s.getAttribute('data-level') === 'ahl' ? 'ahl' : null }, a));
@@ -968,7 +974,7 @@
     // A definition is wording she must be able to give in English: show the English, then the translation.
     // The translation is the one written inline in the translated block (data-def-tr, set by restoreDefs), or else
     // the page's separate "data-def attribute" entry.
-    var defEn = node.getAttribute('data-def'), defTr = (lang !== 'en' && node.getAttribute('data-def-tr')) || tp(defEn);
+    var defEn = node.getAttribute('data-def'), defTr = (lang !== 'en' && node.getAttribute('data-def-tr')) || tpQuiet(defEn);
     tip.innerHTML = defTr !== defEn ? defEn + '<span class="i18n-tr" lang="' + lang + '">' + defTr + '</span>' : defEn;
     tip.hidden = false; tip.style.left = '0px'; tip.style.top = '0px';
     var r = node.getBoundingClientRect(), tw = tip.offsetWidth, th = tip.offsetHeight, vw = html.clientWidth;
@@ -1147,7 +1153,7 @@
       live(feedback, function () {
         var d = S1.chem.describeCheck(res, spec), extra = d.html;
         if (res.status === 'wrong' && !extra) extra = hadHints ? t('Check your working, or take a hint.') : t('Check each step of your working.');
-        if (res.status === 'correct') extra = box.getAttribute('data-correct') ? tp(box.getAttribute('data-correct')) : t('Nice. Compare your working with the full solution if you want to check your method.');
+        if (res.status === 'correct') extra = box.getAttribute('data-correct') ? tpQuiet(box.getAttribute('data-correct')) : t('Nice. Compare your working with the full solution if you want to check your method.');
         return '<span class="feedback__label">' + d.label + '</span>' + extra;
       });
       if (res.status === 'correct' && solution) { solBtn.hidden = false; }
@@ -1303,7 +1309,7 @@
         var range = el('input', { type: 'range', id: id, min: opts.min, max: opts.max, step: step, value: opts.value });
         var labelSrc = sourceOf(opts.label);
         var num = el('input', { class: 'input', type: 'number', min: opts.min, max: opts.max, step: step, value: opts.value, inputmode: 'decimal' });
-        liveAttr(num, 'aria-label', function () { return t('{label}, exact value', { label: tp(labelSrc) + (opts.unit ? ' (' + opts.unit + ')' : '') }); });
+        liveAttr(num, 'aria-label', function () { return t('{label}, exact value', { label: tpQuiet(labelSrc) + (opts.unit ? ' (' + opts.unit + ')' : '') }); });
         var wrap = el('div', { class: 'control' }, [
           liveText(el('label', { class: 'control__label', for: id }), opts.label),
           el('div', { class: 'control__row' }, [range, num, opts.unit ? el('span', { class: 'control__unit', html: S1.chem ? S1.chem.unit(opts.unit) : opts.unit }) : null])

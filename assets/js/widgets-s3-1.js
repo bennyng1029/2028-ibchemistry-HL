@@ -238,7 +238,7 @@
       if (e.z > 36) return t('You only need to deduce configurations up to Z = 36. For heavier elements you only need the position: period, group, block and class.');
       if (e.z === 1) return t('One electron in 1s. The outer energy level is n = 1, so hydrogen is in period 1. It has one valence electron, so it is placed in group 1, but it is a non-metal and not an alkali metal.');
       if (e.z === 2) return t('Two electrons in 1s. The outer energy level is n = 1, so helium is in period 1. Its outer level is full, so it is placed in group 18 with the noble gases.');
-      if (e.block === 's') { v.v = e.group; return t('The highest occupied energy level is n = {n}, so the period is {n}. There are {v} valence electrons, in the {n}s sublevel, so the group is {g}.', v); }
+      if (e.block === 's') { v.v = e.group; return e.group === 1 ? t('The highest occupied energy level is n = {n}, so the period is {n}. There is 1 valence electron, in the {n}s sublevel, so the group is 1.', v) : t('The highest occupied energy level is n = {n}, so the period is {n}. There are {v} valence electrons, in the {n}s sublevel, so the group is {g}.', v); }
       if (e.block === 'p') { v.v = e.group - 10; v.pp = e.group - 12; return t('The highest occupied energy level is n = {n}, so the period is {n}. The valence electrons are {n}s2 and {n}p{pp}: {v} in total. For groups 13 to 18, group number = valence electrons + 10 = {g}.', v); }
       if (e.group === 12) { v.name = elName(e); return t('The highest occupied energy level is n = {n}, so the period is {n}. The 3d sublevel is being filled across this row, so {sym} is in the d-block. 4s and 3d electrons together: 12, so the group is 12. Group 12 elements are usually not counted as transition elements.', v); }
       return t('The highest occupied energy level is n = {n}, so the period is {n}. The 3d sublevel is being filled, so {sym} is in the d-block. Count the 4s and 3d electrons together to get the group number: {g}.', v);
@@ -560,10 +560,17 @@
     var cv = w.canvas({ height: 150, label: t('Six ions drawn as circles to scale: nitride, oxide, fluoride, sodium, magnesium and aluminium. The circles get smaller from left to right as the number of protons rises from 7 to 13.') });
     cv.draw(function (ctx, W, H) {
       var F = fonts(w), ink = w.color('--ink'), ink3 = w.color('--ink-3'), accent = w.color('--accent'), soft = w.color('--accent-soft'), line = w.color('--line-strong');
-      var total = 0; ISO.forEach(function (d) { total += 2 * (shown ? BK[d[0]][5] : 100); });
-      var gap = 8, scale = Math.min((W - 16 - gap * 5) / total, 0.36), x = (W - (total * scale + gap * 5)) / 2, cy = 62;
+      // Each ion gets a slot at least 40 px wide, so the labels under the small ions do not overlap.
+      var gap = 6, minSlot = 40, scale = 0.36, total, cy = 62;
+      function slot(d) { return Math.max(2 * (shown ? BK[d[0]][5] : 100) * scale, minSlot); }
+      for (var tries = 0; tries < 60; tries++) {
+        total = 0; ISO.forEach(function (d) { total += slot(d); });
+        if (total + gap * 5 <= W - 12) break;
+        scale *= 0.96;
+      }
+      var x0 = (W - (total + gap * 5)) / 2;
       ISO.forEach(function (d, i) {
-        var e = chem.element(d[0]), r = (shown ? BK[d[0]][5] : 100) * scale;
+        var e = chem.element(d[0]), r = (shown ? BK[d[0]][5] : 100) * scale, sw = slot(d), x = x0 + sw / 2 - r;
         ctx.beginPath(); ctx.arc(x + r, cy, r, 0, Math.PI * 2);
         ctx.fillStyle = shown ? soft : w.color('--surface-2'); ctx.fill();
         ctx.strokeStyle = i === pick ? ink : (shown ? accent : line); ctx.lineWidth = i === pick ? 3 : 1.5; ctx.stroke();
@@ -572,7 +579,7 @@
         ctx.font = F.mono(12, i === pick); ctx.fillStyle = i === pick ? ink : ink3;
         ctx.fillText(ionText(e.symbol, d[1]), x + r, 124);
         if (shown) { ctx.font = F.mono(10); ctx.fillText(BK[d[0]][5] + ' pm', x + r, 140); }
-        x += 2 * r + gap;
+        x0 += sw + gap;
       });
       ctx.font = F.body(11); ctx.fillStyle = ink3; ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
       ctx.fillText(shown ? t('Drawn to scale. The number is the nuclear charge.') : t('Sizes hidden until you predict.'), 4, 12);
@@ -788,7 +795,7 @@
       svgEl('text', { x: rx, y: y + 26, 'text-anchor': 'end', 'font-size': 14, fill: 'var(--ink-2)', 'font-family': 'var(--font-body)', text: t('acidic (pH below 7)') }, svg);
       var mx = X(OX[i].ph);
       svgEl('path', { d: 'M' + mx + ' ' + (y - 6) + ' l-9 -16 h18 z', fill: 'var(--accent)', stroke: 'var(--ink)', 'stroke-width': 1.5 }, svg);
-      svgEl('text', { x: Math.max(90, Math.min(610, mx)), y: y - 30, 'text-anchor': 'middle', 'font-size': 14, fill: 'var(--ink)', 'font-family': 'var(--font-body)', text: t('{oxide} mixed with water (position is approximate)', { oxide: OX[i].name }) }, svg);
+      svgEl('text', { x: Math.max(215, Math.min(485, mx)), y: y - 30, 'text-anchor': 'middle', 'font-size': 14, fill: 'var(--ink)', 'font-family': 'var(--font-body)', text: t('{oxide} mixed with water (position is approximate)', { oxide: OX[i].name }) }, svg);
     }
     function update() {
       var o = OX[i];
