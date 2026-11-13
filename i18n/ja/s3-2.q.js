@@ -228,7 +228,7 @@ S1.i18n.register('ja', 's3-2.q', {
         // EN: Alcohol
         "アルコール (alcohol)",
         // EN: Hydroxide
-        "水酸化物 (hydroxide)",
+        "水酸化物イオン (hydroxide)",
         // EN: Hydroxyl
         "ヒドロキシ基 (hydroxyl)",
         // EN: Carboxyl
@@ -242,9 +242,9 @@ S1.i18n.register('ja', 's3-2.q', {
       solution: "<p>共有結合で炭素原子に結合した –OH の基が、<strong>ヒドロキシ基 (hydroxyl)</strong> です。この基をもつ化合物は、アルコール (alcohols) という種類に入ります。</p><p>試験のポイント：問題に「官能基 (functional group)」とあれば hydroxyl と書きます。「化合物の種類 (class)」や「同族列 (homologous series)」とあれば alcohol と書きます。</p>",
       misconception: {
         // EN (option A): “Alcohol” is the name of the class of compound (the homologous series). The question asks for the name of the group, and markschemes do not accept the class name.
-        "0": "「アルコール (alcohol)」は化合物の種類（同族列）の名前です。問題が聞いているのは基の名前です。採点基準では、種類の名前は認められません。",
+        "0": "「アルコール (alcohol)」は化合物の種類（同族列）の名前です。問題が聞いているのは基の名前です。採点基準（マークスキーム）では、種類の名前は認められません。",
         // EN (option B): Hydroxide is the ion <span class="chem">OH</span><sup>−</sup> in ionic compounds such as NaOH. In ethanol the OH is joined to carbon by a covalent bond.
-        "1": "水酸化物 (hydroxide) は、NaOH などのイオン化合物に含まれるイオン <span class=\"chem\">OH</span><sup>−</sup> のことです。ethanol の OH は、共有結合で炭素に結合しています。",
+        "1": "水酸化物イオン (hydroxide) は、NaOH などのイオン化合物に含まれるイオン <span class=\"chem\">OH</span><sup>−</sup> のことです。ethanol の OH は、共有結合で炭素に結合しています。",
         // EN (option D): Carboxyl is the group –COOH, where the OH is on a carbon that also has a C=O double bond.
         "3": "カルボキシ基 (carboxyl) は –COOH です。OH のついた炭素が、C=O 二重結合ももっています。",
       },
@@ -328,7 +328,7 @@ S1.i18n.register('ja', 's3-2.q', {
         // EN: Look at what is joined to the C=O carbon: a carbon chain on one side and <span class="chem">NH<sub>2</sub></span> on the other.
         "C=O の炭素に何が結合しているかを見ましょう。片側は炭素鎖、もう片側は <span class=\"chem\">NH<sub>2</sub></span> です。",
         // EN: One word in each row is a group name and the other is a class name. Check they are in the right columns.
-        "どの行も、片方が基の名前で、もう片方が種類の名前です。正しい欄に入っているか確かめましょう。",
+        "どの行も、片方が基の名前で、もう片方が化合物の種類の名前です。正しい欄に入っているか確かめましょう。",
       ],
       // EN: <p><span class="chem">CONH<sub>2</sub></span> is a C=O with a nitrogen atom on the same carbon. This is the <strong>amido</strong> group. Compounds with this group are <strong>amides</strong>.</p><p>Compare: <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>NH<sub>2</sub></span> has an amino group and is an amine.</p>
       solution: "<p><span class=\"chem\">CONH<sub>2</sub></span> は、C=O と同じ炭素に窒素原子が結合したものです。これが<strong>アミド基 (amido)</strong> です。この基をもつ化合物が<strong>アミド (amides)</strong> です。</p><p>くらべてみましょう。<span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>NH<sub>2</sub></span> はアミノ基 (amino) をもち、アミン (amine) です。</p>",
@@ -1083,7 +1083,7 @@ S1.i18n.register('ja', 's3-2.q', {
     // ── s3-2-q039 · mcq · foundation · SL · Structure 3.2.6 · 1 mark
     "s3-2-q039": {
       // EN: <p>Which compound is a <strong>secondary</strong> alcohol?</p>
-      stem: "<p><strong>第二級 (secondary)</strong> アルコールはどれですか。</p>",
+      stem: "<p><strong>第二級 (secondary)</strong> アルコールである化合物はどれですか。</p>",
       options: [
         // EN: <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>
         "<span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>",
@@ -1163,7 +1163,7 @@ S1.i18n.register('ja', 's3-2.q', {
     // ── s3-2-q042 · mcq · exam · SL · Structure 3.2.6 · 1 mark
     "s3-2-q042": {
       // EN: <p>Which compound is a <strong>secondary</strong> amine?</p>
-      stem: "<p><strong>第二級 (secondary)</strong> アミンはどれですか。</p>",
+      stem: "<p><strong>第二級 (secondary)</strong> アミンである化合物はどれですか。</p>",
       options: [
         // EN: <span class="chem">CH<sub>3</sub>CH(NH<sub>2</sub>)CH<sub>3</sub></span>
         "<span class=\"chem\">CH<sub>3</sub>CH(NH<sub>2</sub>)CH<sub>3</sub></span>",
@@ -1277,7 +1277,7 @@ S1.i18n.register('ja', 's3-2.q', {
     // ── s3-2-q046 · mcq · exam · SL · Structure 3.2.6 · 1 mark
     "s3-2-q046": {
       // EN: <p>Which pair of compounds are <strong>functional group isomers</strong>?</p>
-      stem: "<p><strong>官能基異性体 (functional group isomers)</strong> の組はどれですか。</p>",
+      stem: "<p><strong>官能基異性体 (functional group isomers)</strong> になっている化合物の組はどれですか。</p>",
       options: [
         // EN: Propan-1-ol, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>, and propan-2-ol, <span class="chem">CH<sub>3</sub>CH(OH)CH<sub>3</sub></span>
         "Propan-1-ol <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span> と propan-2-ol <span class=\"chem\">CH<sub>3</sub>CH(OH)CH<sub>3</sub></span>",
