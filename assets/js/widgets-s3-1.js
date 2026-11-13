@@ -1106,9 +1106,14 @@
       return 'M' + cx + ' ' + cy + ' L' + p0[0].toFixed(1) + ' ' + p0[1].toFixed(1) + ' A' + r + ' ' + r + ' 0 0 0 ' + p1[0].toFixed(1) + ' ' + p1[1].toFixed(1) + ' Z';
     }
     function plate(svg, x, y, text, bold) {
-      var wd = text.length * 7.4 + 12;
-      svgEl('rect', { x: x - wd / 2, y: y - 11, width: wd, height: 20, fill: 'var(--surface)', 'fill-opacity': 0.9, stroke: bold ? 'var(--ink)' : 'none', 'stroke-width': 1.5 }, svg);
-      svgEl('text', { x: x, y: y + 4, 'text-anchor': 'middle', 'font-size': 13, 'font-weight': bold ? 700 : 400, 'font-family': 'var(--font-body)', fill: 'var(--ink)', text: text }, svg);
+      // The plate is sized from the measured label, so that CJK labels (about twice as wide per character) fit.
+      var rect = svgEl('rect', { y: y - 11, height: 20, fill: 'var(--surface)', 'fill-opacity': 0.9, stroke: bold ? 'var(--ink)' : 'none', 'stroke-width': 1.5 }, svg);
+      var label = svgEl('text', { x: x, y: y + 4, 'text-anchor': 'middle', 'font-size': 13, 'font-weight': bold ? 700 : 400, 'font-family': 'var(--font-body)', fill: 'var(--ink)', text: text }, svg);
+      var measured = 0;
+      try { measured = label.getComputedTextLength(); } catch (e) { measured = 0; }
+      if (!(measured > 0)) { measured = 0; for (var i = 0; i < text.length; i++) measured += text.charCodeAt(i) > 0x2e7f ? 13 : 7.4; }   // not rendered yet: estimate
+      var wd = measured + 12;
+      rect.setAttribute('x', x - wd / 2); rect.setAttribute('width', wd);
     }
     function drawWheel(abs, obs) {
       while (wheel.firstChild) wheel.removeChild(wheel.firstChild);

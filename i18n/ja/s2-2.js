@@ -668,7 +668,7 @@ S1.i18n.register('ja', 's2-2', {
     "Shapes of molecules: the VSEPR model": "分子の形：VSEPR モデル",
 
     // Shapes of molecules: the VSEPR model > p
-    "Tie four balloons together at their necks. They push each other apart and point to the corners of a pyramid shape. You do not have to arrange them. They do it themselves.": "風船を 4 個、口のところで結び合わせてみましょう。風船はたがいに押しのけ合って、ピラミッドのような形の頂点の方向を向きます。並べてやる必要はありません。ひとりでにそうなります。",
+    "Tie four balloons together at their necks. They push each other apart and point to the four corners of a tetrahedron (a pyramid with a triangular base). You do not have to arrange them. They do it themselves.": "風船を 4 個、口のところで結び合わせてみましょう。風船はたがいに押しのけ合って、正四面体（底面が三角形のピラミッド形）の 4 つの頂点の方向を向きます。並べてやる必要はありません。ひとりでにそうなります。",
 
     // Shapes of molecules: the VSEPR model > p
     "Groups of electrons around an atom behave in the same way. They are all negative, so they repel each other and move as far apart as possible.": "原子のまわりにある電子のまとまりも、同じようにふるまいます。どれも負の電荷をもつので、たがいに反発し、できるだけ遠くへ離れます。",

@@ -2216,7 +2216,7 @@ S1.i18n.register('ja', 's3-2h', {
     "2,2-dimethylpropane": "2,2-dimethylpropane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "more than four lines": "4 本より多い線",
+    "more than four peaks": "4 本より多いピーク",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "Mass lost from M<sup>+</sup>": "M<sup>+</sup> から失われた質量",

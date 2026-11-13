@@ -911,7 +911,7 @@
       case 'alkoxy': return t('alkoxy');
       case 'amino': return t('amino');
       case 'amido': return t('amido');
-      case 'ester': return t('ester');
+      case 'ester': return t('ester|group');
       case 'phenyl': return t('phenyl');
       case 'alkenyl': return t('carbon–carbon double bond');
       case 'alkynyl': return t('carbon–carbon triple bond');
@@ -931,12 +931,14 @@
       case 'ether': return t('ether');
       case 'amine': return t('amine');
       case 'amide': return t('amide');
-      case 'ester': return t('ester');
+      case 'ester': return t('ester|class');
     }
     return k || t('more than one functional group');
   }
   var GROUP_KEYS = ['halogeno', 'hydroxyl', 'carbonyl', 'carboxyl', 'alkoxy', 'amino', 'amido', 'ester', 'phenyl'];
   var CLASS_KEYS = ['alkane', 'alkene', 'alkyne', 'halogenoalkane', 'alcohol', 'aldehyde', 'ketone', 'carboxylic acid', 'ether', 'amine', 'amide', 'ester'];
+  /** Joins sentence parts into a list; the separator belongs to the translation. */
+  function joinList(parts) { return parts.reduce(function (a, b) { return t('{a}; {b}', { a: a, b: b }); }); }
   function groupOf(key) { return key === 'aldehyde' || key === 'ketone' ? 'carbonyl' : key; }
   function degreeName(d) { return d === 1 ? t('primary') : d === 2 ? t('secondary') : d === 3 ? t('tertiary') : ''; }
   function isSaturated(m) { return !m.bonds.some(function (b) { return b.order > 1 && m.atoms[b.a].el === 'C' && m.atoms[b.b].el === 'C'; }); }
@@ -1116,7 +1118,7 @@
     var list = COMPOUNDS.slice(0, 27).map(function (c) { return compound(c[0]); });
     var setClass = w.readoutItem(t('Class of compound')), setGroup = w.readoutItem(t('Functional group')), setSat = w.readoutItem(t('Carbon–carbon bonds'));
     var sel = w.select({ label: t('Compound'), value: w.options.start || 'ethanol', onChange: update,
-      options: list.map(function (c) { return { value: c.id, label: c.name + ' (' + className(classKey(c.mol)) + ')' }; }) });
+      options: list.map(function (c) { return { value: c.id, label: t('{name} — {class}', { name: c.name, class: className(classKey(c.mol)) }) }; }) });
     var grid = el('div', { class: 's32-panels' }); w.stage.appendChild(grid);
     function panel(title, note, cls) {
       var body = el('div', { class: 's32-panel__body' + (cls ? ' ' + cls : '') });
@@ -1496,7 +1498,7 @@
       opts = shuffle([want].concat(opts.slice(0, 3)));
       prompt.innerHTML = '<b>' + t('Step 3 of 4.') + '</b> ' + t('Look at what is attached to the parent chain, apart from the group named by the ending. Which prefix describes it?');
       area.innerHTML = '';
-      var list = s.subs.map(function (x) { return t('carbon {n}: {name}', { n: x.loc, name: x.name }); }).join('; ');
+      var list = s.subs.length ? joinList(s.subs.map(function (x) { return t('carbon {n}: {name}', { n: x.loc, name: x.name }); })) : '';
       choices(area, opts.map(function (o) { return { html: o === none ? none : '<span data-i18n="off">' + o + '-</span>', value: o }; }), function (v, api) {
         if (v === want) {
           api.mark(v, 'right'); api.lock();
@@ -1522,7 +1524,7 @@
           bits.push(t('{p} says the parent chain has {n} carbon atoms', { p: '<b data-i18n="off">' + STEMS[s.n] + '-</b>', n: s.n }));
           bits.push(s.unsat ? (s.unsat.type === 'en' ? t('-en- says there is one C=C double bond') : t('-yn- says there is one C≡C triple bond')) : t('-an- says all the carbon–carbon bonds are single'));
           bits.push(!s.suffix ? t('the ending -e says there is no group that needs its own ending') : s.suffix.type === 'ol' ? t('the ending -ol says hydroxyl group (an alcohol)') : s.suffix.type === 'al' ? t('the ending -al says carbonyl group at the end of the chain (an aldehyde)') : s.suffix.type === 'one' ? t('the ending -one says carbonyl group inside the chain (a ketone)') : t('the ending -oic acid says carboxyl group (a carboxylic acid)'));
-          say(fb, 'right', t('Correct.') + ' ' + bits.join('; ') + '.');
+          say(fb, 'right', t('Correct. {list}.', { list: joinList(bits) }));
           finish(); nextBtn(t('New molecule'), fresh);
         } else {
           api.mark(v, 'wrong'); clean = false;
@@ -1613,8 +1615,8 @@
       tools.appendChild(el('span', { class: 's32-tools__break' })); tools.appendChild(rm); tools.appendChild(cl); tools.appendChild(ck);
     }
     function info(c) {
-      var m = c.mol, k = classKey(m), d = degree(m), extra = d && d.degree >= 1 && (k === 'alcohol' || k === 'halogenoalkane' || k === 'amine') ? degreeName(d.degree) + ' ' : '';
-      return extra + className(k);
+      var m = c.mol, k = classKey(m), d = degree(m), extra = d && d.degree >= 1 && (k === 'alcohol' || k === 'halogenoalkane' || k === 'amine') ? degreeName(d.degree) : '';
+      return extra ? t('{degree} {class}', { degree: extra, class: className(k) }) : className(k);
     }
     function check() {
       var m = current(), cnt = counts(m), need = [], k;

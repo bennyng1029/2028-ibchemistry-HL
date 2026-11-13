@@ -811,7 +811,7 @@ S1.i18n.register('ja', 's2-2h', {
     "Formal charges in A": "A の形式電荷",
 
     // Formal charge > worked example > p
-    "A has two double bonds. N and S each have two lone pairs (N = 4) and four bonding electrons.": "A には二重結合が 2 つあります。N と S はどちらも非共有電子対が 2 組（N = 4）で、結合電子が 4 個です。",
+    "A has two double bonds. The nitrogen atom and the sulfur atom each have two lone pairs (4 non-bonding electrons, so N = 4 in the formula) and four bonding electrons.": "A には二重結合が 2 つあります。窒素原子と硫黄原子はどちらも、非共有電子対が 2 組（非共有電子が 4 個なので、式では N = 4）で、結合電子が 4 個です。",
 
     // Formal charge > worked example > data-title attribute
     "Formal charges in B": "B の形式電荷",

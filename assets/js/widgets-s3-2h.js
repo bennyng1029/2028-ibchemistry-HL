@@ -933,7 +933,7 @@
       return n + (mol.perGroup && mol.perGroup[k] ? mol.perGroup[k] : other.h);
     }, 0);
   }
-  function splitName(lines) { return [null, t('singlet'), t('doublet'), t('triplet'), t('quartet')][lines] || t('more than four lines'); }
+  function splitName(lines) { return [null, t('singlet'), t('doublet'), t('triplet'), t('quartet')][lines] || t('more than four peaks'); }
   function gcd(a, b) { return b ? gcd(b, a % b) : a; }
   function ratioOf(envs) { var g = envs.reduce(function (acc, e) { return gcd(acc, e.h); }, 0); return envs.map(function (e) { return e.h / g; }); }
   function nmrSignals(mol, labelFn) {

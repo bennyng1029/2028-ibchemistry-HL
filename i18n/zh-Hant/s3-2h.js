@@ -2216,7 +2216,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "2,2-dimethylpropane": "2,2-dimethylpropane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "more than four lines": "多於四條線",
+    "more than four peaks": "多於四個峰",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "Mass lost from M<sup>+</sup>": "M<sup>+</sup> 失去的質量",

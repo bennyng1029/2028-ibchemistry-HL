@@ -503,7 +503,7 @@ S1.i18n.register('ja', 's1-4.q', {
         "6、12、6 をすべてわり切れる最大の数を見つけましょう。",
       ],
       // EN: <div class="worked__math">C : H : O = 6 : 12 : 6</div><div class="worked__math">Divide by 6: C : H : O = 1 : 2 : 1</div><p>The empirical formula is <strong><span class="chem">CH2O</span></strong>.</p>
-      solution: "<div class=\"worked__math\">C : H : O = 6 : 12 : 6</div><div class=\"worked__math\">全部を 6 でわる： C : H : O = 1 : 2 : 1</div><p>組成式は <strong><span class=\"chem\">CH2O</span></strong> です。</p>",
+      solution: "<div class=\"worked__math\">C : H : O = 6 : 12 : 6</div><div class=\"worked__math\">6 でわる：C : H : O = 1 : 2 : 1</div><p>組成式は <strong><span class=\"chem\">CH2O</span></strong> です。</p>",
       misconception: {
         // EN (option A): This is the molecular formula: the actual number of atoms in one molecule. The empirical formula is the simplest whole-number ratio.
         "0": "これは分子式で、1 分子に実際に含まれる原子の数を表します。組成式は、最も簡単な整数比です。",

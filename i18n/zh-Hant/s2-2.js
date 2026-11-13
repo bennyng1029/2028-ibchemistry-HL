@@ -668,7 +668,7 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "Shapes of molecules: the VSEPR model": "分子的形狀：VSEPR 模型",
 
     // Shapes of molecules: the VSEPR model > p
-    "Tie four balloons together at their necks. They push each other apart and point to the corners of a pyramid shape. You do not have to arrange them. They do it themselves.": "把四個氣球的吹氣口綁在一起。氣球會互相推開，指向一個錐體的四個角。你不用擺放，它們自己會這樣排列。",
+    "Tie four balloons together at their necks. They push each other apart and point to the four corners of a tetrahedron (a pyramid with a triangular base). You do not have to arrange them. They do it themselves.": "把四個氣球的吹氣口綁在一起。氣球會互相推開，指向一個四面體（底面是三角形的錐體）的四個角。你不用擺放，它們自己會這樣排列。",
 
     // Shapes of molecules: the VSEPR model > p
     "Groups of electrons around an atom behave in the same way. They are all negative, so they repel each other and move as far apart as possible.": "原子周圍的各組電子也是這樣。它們都帶負電荷，所以互相排斥，盡量遠離對方。",

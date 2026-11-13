@@ -74,6 +74,13 @@
       var legend = series.filter(function (s) { return s.name; });
       var m = { l: 56, r: 16, t: legend.length ? 30 : 14, b: xa.label ? 48 : 30 };
       if (W < 420) m.l = 48;
+      // Wide tick numbers (10 000) must not run under the rotated axis title: widen the left margin to fit both.
+      if (ya.label) {
+        ctx.font = '12px ' + mono;
+        var tickW = 0;
+        ticksFor(ya, ymin, ymax, Math.max(3, Math.floor((H - m.t - m.b) / 44))).forEach(function (v) { tickW = Math.max(tickW, ctx.measureText(fmtTick(ya, v)).width); });
+        m.l = Math.max(m.l, Math.ceil(tickW) + 7 + 24);
+      }
       var pw = W - m.l - m.r, ph = H - m.t - m.b;
       function X(v) { var f = (v - xmin) / (xmax - xmin); if (xa.reverse) f = 1 - f; return m.l + f * pw; }
       function Y(v) { var f = (v - ymin) / (ymax - ymin); if (ya.reverse) f = 1 - f; return m.t + (1 - f) * ph; }

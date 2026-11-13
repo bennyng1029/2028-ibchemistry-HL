@@ -30,6 +30,9 @@
 .s31-ask[hidden] { display: none; }
 .s31-ask__q { font-weight: 700; margin: 0 0 0.5rem; }
 .s31-eq { font-family: var(--font-mono); margin: 0.2rem 0; }
+/* Three-column table with a sentence in the middle: on a phone it scrolls inside its box instead of squeezing that column. */
+.table-scroll > table.s31-six { min-width: 33rem; }
+.s31-six :is(th, td):nth-child(2) { min-width: 15rem; }
 
 /* periodic table */
 .s31-pt-scroll { overflow-x: auto; padding-bottom: 0.4rem; }
@@ -889,7 +892,7 @@
         <p>A <dfn data-def="An element with an incomplete d sublevel that gives it characteristic properties.">transition element</dfn> has an incomplete d sublevel. This gives it characteristic properties.</p>
 
         <div class="table-scroll">
-          <table class="data">
+          <table class="data s31-six">
             <caption>Six properties to recognize</caption>
             <thead><tr><th scope="col">Property</th><th scope="col">What it means</th><th scope="col">Where it is explained</th></tr></thead>
             <tbody>

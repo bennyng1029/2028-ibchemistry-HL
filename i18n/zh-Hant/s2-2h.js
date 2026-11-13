@@ -811,7 +811,7 @@ S1.i18n.register('zh-Hant', 's2-2h', {
     "Formal charges in A": "A 的形式電荷",
 
     // Formal charge > worked example > p
-    "A has two double bonds. N and S each have two lone pairs (N = 4) and four bonding electrons.": "A 有兩個雙鍵。N 和 S 各有兩個孤電子對 (N = 4) 和四個鍵合電子。",
+    "A has two double bonds. The nitrogen atom and the sulfur atom each have two lone pairs (4 non-bonding electrons, so N = 4 in the formula) and four bonding electrons.": "A 有兩個雙鍵。氮原子和硫原子各有兩個孤電子對（4 個非鍵合電子，所以公式中 N = 4）和四個鍵合電子。",
 
     // Formal charge > worked example > data-title attribute
     "Formal charges in B": "B 的形式電荷",
