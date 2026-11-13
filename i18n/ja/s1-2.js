@@ -1187,14 +1187,5 @@ S1.i18n.register('ja', 's1-2', {
     // widget string (assets/js/widgets-s1-2.js)
     "mystery element": "なぞの元素",
 
-    // widget string (assets/js/widgets-s1-2.js): canvas legend of the atom builder; particle symbols, kept as in English
-    "{n} p": "{n} p",
-
-    // widget string (assets/js/widgets-s1-2.js)
-    "{n} n": "{n} n",
-
-    // widget string (assets/js/widgets-s1-2.js)
-    "{n} e−": "{n} e−",
-
   }
 });
