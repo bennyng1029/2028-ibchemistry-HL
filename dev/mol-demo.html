@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Molecule and chart helpers | Structure Lab</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="IB Chemistry Structure 1.1: elements, compounds and mixtures, states of matter, changes of state and the kelvin temperature scale.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<!-- Dev-only page: every shell component once, with its own questions and widget.
+     Used by the Playwright checks. Not linked from the site. -->
+<body data-page="dev-mol">
+<div data-s1-header></div>
+<main id="main">
+  <header class="page-head wrap">
+    <p class="eyebrow">Dev page · not linked from the site</p>
+    <h1>Molecule and chart helpers</h1>
+    <p class="lede">Every drawing helper in <span class="mono">mol.js</span>, <span class="mono">chart.js</span> and <span class="mono">periodic-data.js</span>, once. Use it to check both themes and phone width.</p>
+  </header>
+  <div class="wrap demo">
+
+    <section class="band-section">
+      <h2>Lewis formulas</h2>
+      <div class="demo-grid">
+        <figure><div id="lw-h2o"></div><figcaption>Water (central-atom shorthand)</figcaption></figure>
+        <figure><div id="lw-nh3"></div><figcaption>Ammonia</figcaption></figure>
+        <figure><div id="lw-co2"></div><figcaption>Carbon dioxide</figcaption></figure>
+        <figure><div id="lw-nh4"></div><figcaption>Ammonium, with a coordination bond and brackets</figcaption></figure>
+        <figure><div id="lw-co"></div><figcaption>Carbon monoxide, with formal charges</figcaption></figure>
+        <figure><div id="lw-no3"></div><figcaption>Nitrate (explicit atoms)</figcaption></figure>
+        <figure><div id="lw-sf6"></div><figcaption>Sulfur hexafluoride</figcaption></figure>
+        <figure><div id="lw-hcn"></div><figcaption>Hydrogen cyanide</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="band-section">
+      <h2>3-D models and VSEPR shapes</h2>
+      <div class="widget">
+        <div class="widget__controls" id="v-controls"></div>
+        <div class="widget__stage"><div id="v-main"></div></div>
+        <div class="widget__readout" id="v-readout"></div>
+      </div>
+      <h3>All thirteen shapes</h3>
+      <div class="demo-grid demo-grid--3d" id="v-all"></div>
+      <h3>A molecule from coordinates</h3>
+      <div class="demo-grid demo-grid--3d"><figure><div id="v-ethanol"></div><figcaption>Ethanol, with multiple elements</figcaption></figure><figure><div id="v-co2"></div><figcaption>Carbon dioxide, double bonds</figcaption></figure></div>
+    </section>
+
+    <section class="band-section">
+      <h2>Skeletal formulas</h2>
+      <div class="demo-grid">
+        <figure><div id="sk-butane"></div><figcaption>Butane, numbered</figcaption></figure>
+        <figure><div id="sk-butene"></div><figcaption>But-1-ene</figcaption></figure>
+        <figure><div id="sk-propanol"></div><figcaption>Propan-2-ol</figcaption></figure>
+        <figure><div id="sk-acid"></div><figcaption>Propanoic acid</figcaption></figure>
+        <figure><div id="sk-amine"></div><figcaption>Propan-1-amine (label on the left end)</figcaption></figure>
+        <figure><div id="sk-alkyne"></div><figcaption>But-2-yne</figcaption></figure>
+        <figure><div id="sk-stereo"></div><figcaption>Butan-2-ol with wedge and hash bonds</figcaption></figure>
+        <figure><div id="sk-ring"></div><figcaption>Cyclohexene (explicit coordinates)</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="band-section">
+      <h2>Full structural formulas</h2>
+      <div class="demo-grid">
+        <figure><div id="st-ethanol"></div><figcaption>Ethanol</figcaption></figure>
+        <figure><div id="st-propene"></div><figcaption>Propene</figcaption></figure>
+        <figure><div id="st-acid"></div><figcaption>Ethanoic acid</figcaption></figure>
+        <figure><div id="st-chloro"></div><figcaption>2-chloropropane</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="band-section">
+      <h2>Charts</h2>
+      <h3>Trend plot from periodic data</h3>
+      <div id="ch-ie"></div>
+      <h3>Two series with a legend</h3>
+      <div id="ch-rad"></div>
+      <h3>Bar chart with categories</h3>
+      <div id="ch-mp"></div>
+      <h3>Infrared spectrum</h3>
+      <div id="ch-ir"></div>
+      <h3>Mass spectrum</h3>
+      <div id="ch-ms"></div>
+      <h3>Proton NMR spectrum</h3>
+      <div id="ch-nmr"></div>
+    </section>
+
+    <section class="band-section">
+      <h2>Periodic data</h2>
+      <div class="table-scroll"><table class="data" id="pd"><thead><tr><th>Z</th><th>Symbol</th><th>Name</th><th class="num">A<sub>r</sub></th><th>Group</th><th>Block</th><th>Category</th><th class="num">EN</th><th class="num">IE<sub>1</sub> / kJ mol<sup>−1</sup></th><th class="num">Radius / pm</th><th>Ion radius / pm</th><th class="num">m.p. / K</th><th>Configuration</th></tr></thead><tbody></tbody></table></div>
+    </section>
+  </div>
+</main>
+<div data-s1-footer></div>
+<style>
+  .demo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr)); gap: 1rem; margin: 1rem 0 1.5rem; }
+  .demo-grid--3d { grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); }
+  .demo-grid figure { margin: 0; border: 1px solid var(--line); background: var(--surface); padding: 0.75rem; min-width: 0; }
+  .demo-grid figcaption { font-size: 0.82rem; color: var(--ink-2); margin-top: 0.5rem; }
+  .demo .chart { max-width: 46rem; border: 1px solid var(--line); background: var(--surface); padding: 0.5rem; margin-bottom: 1.5rem; }
+</style>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../assets/js/periodic-data.js"></script>
+<script src="../assets/js/mol.js"></script>
+<script src="../assets/js/chart.js"></script>
+<script>
+S1.ready(function () {
+  var M = S1.mol, C = S1.chart, P = S1.periodic;
+  // Lewis
+  M.lewis('#lw-h2o', { central: 'O', outer: ['H', 'H'], centralLone: 2, label: 'Lewis formula of water' });
+  M.lewis('#lw-nh3', { central: 'N', outer: ['H', 'H', 'H'], centralLone: 1, label: 'Lewis formula of ammonia' });
+  M.lewis('#lw-co2', { central: 'C', outer: ['O', 'O'], orders: [2, 2], outerLone: [2, 2], label: 'Lewis formula of carbon dioxide' });
+  M.lewis('#lw-nh4', { central: 'N', outer: ['H', 'H', 'H', 'H'], dative: [false, false, false, true], bracket: true, charge: '+', label: 'Lewis formula of the ammonium ion' });
+  M.lewis('#lw-co', { atoms: [{ el: 'C', x: 0, y: 0, lone: 1, charge: '-' }, { el: 'O', x: 1.3, y: 0, lone: 1, charge: '+' }], bonds: [{ a: 0, b: 1, order: 3 }], label: 'Lewis formula of carbon monoxide' });
+  M.lewis('#lw-no3', { atoms: [{ el: 'N', x: 0, y: 0 }, { el: 'O', x: 0, y: -1.25, lone: 2 }, { el: 'O', x: -1.08, y: 0.63, lone: 3 }, { el: 'O', x: 1.08, y: 0.63, lone: 3 }],
+    bonds: [{ a: 0, b: 1, order: 2 }, { a: 0, b: 2 }, { a: 0, b: 3 }], bracket: true, charge: '-', label: 'Lewis formula of the nitrate ion' });
+  M.lewis('#lw-sf6', { central: 'S', outer: ['F', 'F', 'F', 'F', 'F', 'F'], outerLone: [3, 3, 3, 3, 3, 3], scale: 40, label: 'Lewis formula of sulfur hexafluoride' });
+  M.lewis('#lw-hcn', { atoms: [{ el: 'H', x: 0, y: 0 }, { el: 'C', x: 1.1, y: 0 }, { el: 'N', x: 2.4, y: 0, lone: 1 }], bonds: [{ a: 0, b: 1 }, { a: 1, b: 2, order: 3 }], label: 'Lewis formula of hydrogen cyanide' });
+
+  // VSEPR explorer
+  var keys = Object.keys(M.SHAPES), controls = document.getElementById('v-controls'), readout = document.getElementById('v-readout');
+  var sel = S1.util.el('select', { class: 'select', id: 'v-shape' });
+  keys.forEach(function (k) { var p = k.split('-'); sel.appendChild(S1.util.el('option', { value: k, text: p[0] + ' domains, ' + p[1] + ' lone pairs: ' + M.SHAPES[k].name })); });
+  controls.appendChild(S1.util.el('div', { class: 'control' }, [S1.util.el('label', { class: 'control__label', for: 'v-shape', text: 'Shape' }), sel]));
+  sel.value = '4-1';
+  var main = M.viewer3d('#v-main', M.vsepr({ domains: 4, lonePairs: 1, central: 'N', outer: 'H' }));
+  function show() {
+    var p = sel.value.split('-'), s = M.vsepr({ domains: +p[0], lonePairs: +p[1], central: 'A', outer: 'X' });
+    main.setSpec(s);
+    readout.innerHTML = '<div class="widget__readout-item"><span class="widget__readout-label">Shape</span><span class="widget__readout-value widget__readout-value--text">' + s.name + '</span></div>' +
+      '<div class="widget__readout-item"><span class="widget__readout-label">Electron domain geometry</span><span class="widget__readout-value widget__readout-value--text">' + s.domainGeometry + '</span></div>' +
+      '<div class="widget__readout-item"><span class="widget__readout-label">Bond angles</span><span class="widget__readout-value widget__readout-value--text">' + s.angleNote + '</span></div>';
+  }
+  sel.addEventListener('change', show); show();
+  var all = document.getElementById('v-all');
+  keys.forEach(function (k) {
+    var p = k.split('-'), s = M.vsepr({ domains: +p[0], lonePairs: +p[1], central: 'A', outer: 'X' });
+    s.height = 190; s.controls = false;
+    var box = S1.util.el('div'), fig = S1.util.el('figure', null, [box, S1.util.el('figcaption', { text: p[0] + ' / ' + p[1] + ': ' + s.name + ' (' + s.angleNote + ')' })]);
+    all.appendChild(fig); M.viewer3d(box, s);
+  });
+  M.viewer3d('#v-ethanol', { height: 220, label: 'Ball-and-stick model of ethanol', atoms: [
+    { el: 'C', x: -1.2, y: 0, z: 0 }, { el: 'C', x: 0.2, y: 0.5, z: 0 }, { el: 'O', x: 1.2, y: -0.5, z: 0 }, { el: 'H', x: 2.05, y: -0.1, z: 0 },
+    { el: 'H', x: -1.9, y: 0.85, z: 0 }, { el: 'H', x: -1.35, y: -0.62, z: 0.89 }, { el: 'H', x: -1.35, y: -0.62, z: -0.89 }, { el: 'H', x: 0.35, y: 1.12, z: 0.89 }, { el: 'H', x: 0.35, y: 1.12, z: -0.89 }],
+    bonds: [{ a: 0, b: 1 }, { a: 1, b: 2 }, { a: 2, b: 3 }, { a: 0, b: 4 }, { a: 0, b: 5 }, { a: 0, b: 6 }, { a: 1, b: 7 }, { a: 1, b: 8 }],
+    lonePairs: [{ on: 2, dir: [0.2, -0.6, 0.8] }, { on: 2, dir: [0.2, -0.6, -0.8] }], angle: [1, 2, 3], angleText: '109\u00B0' });
+  var co2 = M.vsepr({ domains: 2, lonePairs: 0, central: 'C', outer: 'O', orders: [2, 2], bondLength: 1.2 }); co2.height = 220;
+  M.viewer3d('#v-co2', co2);
+
+  // Skeletal
+  M.skeletal('#sk-butane', { chain: 4, numbers: true, label: 'Skeletal formula of butane' });
+  M.skeletal('#sk-butene', { chain: 4, double: [1], label: 'Skeletal formula of but-1-ene' });
+  M.skeletal('#sk-propanol', { chain: 3, subs: { 2: 'OH' }, numbers: true, label: 'Skeletal formula of propan-2-ol' });
+  M.skeletal('#sk-acid', { chain: ['', '', '', 'OH'], subs: { 3: '=O' }, label: 'Skeletal formula of propanoic acid' });
+  M.skeletal('#sk-amine', { chain: ['NH2', '', '', ''], label: 'Skeletal formula of propan-1-amine' });
+  M.skeletal('#sk-alkyne', { chain: 4, triple: [2], label: 'Skeletal formula of but-2-yne' });
+  M.skeletal('#sk-stereo', { chain: 4, subs: { 2: [{ label: 'OH', stereo: 'wedge' }, { label: 'H', stereo: 'hash' }] }, label: 'Skeletal formula of butan-2-ol showing the arrangement around carbon 2' });
+  var ring = [], rb = [];
+  for (var i = 0; i < 6; i++) { ring.push({ x: Math.cos(Math.PI / 2 + i * Math.PI / 3), y: Math.sin(Math.PI / 2 + i * Math.PI / 3) }); rb.push({ a: i, b: (i + 1) % 6, order: i === 0 ? 2 : 1 }); }
+  M.skeletal('#sk-ring', { atoms: ring, bonds: rb, label: 'Skeletal formula of cyclohexene' });
+
+  // Structural
+  M.structural('#st-ethanol', { chain: ['C', 'C', 'O'], label: 'Full structural formula of ethanol' });
+  M.structural('#st-propene', { chain: ['C', 'C', 'C'], bonds: [2, 1], label: 'Full structural formula of propene' });
+  M.structural('#st-acid', { chain: ['C', 'C', 'O'], subs: { 1: ['=O'] }, label: 'Full structural formula of ethanoic acid' });
+  M.structural('#st-chloro', { chain: ['C', 'C', 'C'], subs: { 1: ['Cl'] }, label: 'Full structural formula of 2-chloropropane' });
+
+  // Charts
+  var p23 = P.series('ie1', 3, 18);
+  C.plot('#ch-ie', { label: 'First ionization energy of the elements lithium to argon', categories: p23.map(function (e) { return e.symbol; }),
+    y: { label: 'First ionization energy / kJ mol\u207B\u00B9', min: 0, max: 2500, step: 500 }, x: { label: 'Element' },
+    series: [{ type: 'line', points: true, data: p23.map(function (e, i) { return [i, e.value]; }) }] });
+  var p3 = P.series('radius', 11, 17), i3 = P.series('ionRadius', 11, 17);
+  C.plot('#ch-rad', { label: 'Atomic and ionic radius across period 3', categories: p3.map(function (e) { return e.symbol; }), y: { label: 'Radius / pm', min: 0, max: 250, step: 50 },
+    series: [{ type: 'line', points: true, name: 'Atomic radius', data: p3.map(function (e, i) { return [i, e.value]; }) }, { type: 'line', points: true, name: 'Ionic radius', color: '--ink-2', data: i3.map(function (e, i) { return [i, e.value]; }) }] });
+  var mps = P.series('mp', 11, 18);
+  C.plot('#ch-mp', { label: 'Melting points of the period 3 elements', categories: mps.map(function (e) { return e.symbol; }), y: { label: 'Melting point / K', min: 0, max: 2000, step: 500 },
+    series: [{ type: 'bar', labels: true, data: mps.map(function (e, i) { return [i, e.value]; }) }] });
+  C.ir('#ch-ir', { label: 'Infrared spectrum with a broad O–H absorption near 3300 and a C=O absorption near 1715', peaks: [{ at: 3300, depth: 55, width: 160, label: 'O–H' }, { at: 2950, depth: 45, width: 35, label: 'C–H' }, { at: 1715, depth: 85, width: 18, label: 'C=O' }, { at: 1250, depth: 50, width: 25 }, { at: 1050, depth: 40, width: 20 }] });
+  C.massSpectrum('#ch-ms', { label: 'Mass spectrum of magnesium with peaks at 24, 25 and 26', peaks: [[24, 79, '24'], [25, 10, '25'], [26, 11, '26']], xMin: 20, xMax: 30, yLabel: 'Relative abundance / %' });
+  C.nmr('#ch-nmr', { label: 'Proton NMR stick spectrum of ethanol: triplet, quartet and singlet', max: 5, signals: [{ shift: 1.2, h: 3, split: 3, label: 'CH\u2083' }, { shift: 3.7, h: 2, split: 4, label: 'CH\u2082' }, { shift: 2.6, h: 1, split: 1, label: 'OH' }] });
+
+  // Periodic data table
+  var tb = document.querySelector('#pd tbody'), d = function (v) { return v == null ? '<span class="muted">–</span>' : v; };
+  for (var z = 1; z <= 118; z++) {
+    var e = P.get(z);
+    tb.insertAdjacentHTML('beforeend', '<tr><td class="num">' + z + '</td><td>' + e.symbol + '</td><td>' + e.name + '</td><td class="num">' + (e.ar == null ? (e.massNumber ? '(' + e.massNumber + ')' : '–') : e.ar.toFixed(2)) + '</td><td class="num">' + d(e.group) + '</td><td>' + e.block + '</td><td>' + e.category + '</td><td class="num">' + (e.en == null ? '–' : e.en.toFixed(1)) + '</td><td class="num">' + d(e.ie1) + '</td><td class="num">' + d(e.radius) + '</td><td>' +
+      (e.ions.map(function (io) { return io.radius + ' (' + (Math.abs(io.charge) + (io.charge < 0 ? '\u2212' : '+')) + ')'; }).join(', ') || '–') + '</td><td class="num">' + d(e.mp) + '</td><td class="mono">' + P.config(z, { html: true }) + '</td></tr>');
+  }
+});
+</script>
+</body>
+</html>

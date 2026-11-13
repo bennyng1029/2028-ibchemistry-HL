@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1.2 The nuclear atom | Structure 1 Lab</title>
+<meta name="description" content="IB Chemistry Structure 1.2: the nuclear atom, protons, neutrons and electrons in atoms and ions, isotopes, relative atomic mass calculations and (HL) mass spectra.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for topic 1.2. Tokens only. */
+.nuc { display: inline-flex; align-items: center; white-space: nowrap; vertical-align: middle; line-height: 1; }
+.nuc__az { display: inline-flex; flex-direction: column; align-items: flex-end; font-size: 0.68em; line-height: 1.08; margin-right: 0.06em; font-variant-numeric: tabular-nums; }
+.nuc sup { align-self: flex-start; font-size: 0.68em; line-height: 1.08; vertical-align: baseline; position: static; }
+
+.anatomy { display: flex; flex-wrap: wrap; gap: 1rem 2rem; align-items: center; margin: 1.5rem 0; padding: 1rem 1.25rem; border: 1px solid var(--line-strong); background: var(--surface); max-width: 46rem; }
+.anatomy__sym { font-family: var(--font-display); font-size: 3.4rem; font-weight: 700; padding: 0.5rem 0.75rem; }
+.anatomy__key { margin: 0; flex: 1 1 16rem; display: grid; gap: 0.45rem; }
+.anatomy__key > div { display: grid; grid-template-columns: 3.2rem 1fr; gap: 0.75rem; align-items: baseline; }
+.anatomy__key dt { font-family: var(--font-mono); font-weight: 600; text-align: right; }
+.anatomy__key dd { margin: 0; }
+.anatomy figcaption { flex: 1 1 100%; font-size: 0.9rem; color: var(--ink-2); }
+
+.stepper { display: grid; gap: 0.25rem; }
+.stepper__row { display: flex; align-items: center; gap: 0.35rem; }
+.stepper__btn { min-width: 2.5rem; font-family: var(--font-mono); font-size: 1.05rem; }
+.stepper__value { min-width: 2.3rem; text-align: center; font-family: var(--font-mono); font-size: 1.15rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+
+.challenge-bar { margin: 0 0 0.75rem; padding: 0.6rem 0.8rem; border-left: 4px solid var(--accent); background: var(--accent-soft); font-size: 1.15rem; }
+.challenge-bar .nuc { font-size: 1.35rem; font-weight: 700; margin: 0 0.35rem; }
+.challenge-bar__label { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent-ink); margin-right: 0.4rem; }
+.challenge-bar .small { display: block; margin-top: 0.2rem; }
+
+.mix-work { margin-top: 0.75rem; }
+.mix-work__title { font-weight: 700; font-size: 0.88rem; margin: 0 0 0.4rem; }
+.mix-work p { margin: 0.4rem 0; }
+.spec-entry .input { width: 7rem; }
+/* long option labels must not push a select wider than a phone screen */
+.widget__controls .control { max-width: 100%; }
+.widget__controls .select { max-width: 100%; min-width: 0; }
+.widget__readout .nuc { font-size: 1.3rem; }
+</style>
+</head>
+<body data-page="s1-2">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="s1-2"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Structure 1.2</p>
+      <h1>The nuclear atom</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>How do the nuclei of atoms differ?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <section class="topic-section" id="goals">
+        <h2>What you need to be able to do</h2>
+        <p>Tick each one when you can do it without looking at your notes.</p>
+        <ul class="checklist" data-s1-checklist="s1-2">
+          <li data-id="nuclear-model" data-level="sl">Describe the nuclear atom: a small, dense, positively charged nucleus of protons and neutrons, with negatively charged electrons in the space outside it.</li>
+          <li data-id="relative-mass-charge" data-level="sl">State the relative masses and relative charges of the proton, neutron and electron.</li>
+          <li data-id="nuclear-symbol" data-level="sl">Use the nuclear symbol to deduce the number of protons, neutrons and electrons in an atom or an ion.</li>
+          <li data-id="isotope-def" data-level="sl">Say what isotopes are, and explain why they have the same chemical properties but different physical properties.</li>
+          <li data-id="ar-from-abundance" data-level="sl">Calculate a relative atomic mass from the masses and abundances of the isotopes.</li>
+          <li data-id="abundance-from-ar" data-level="sl">Calculate the abundance of an isotope from the relative atomic mass.</li>
+          <li data-id="mass-spectrum" data-level="ahl">Interpret a mass spectrum: identify the isotopes and their relative abundances, and use them to calculate a relative atomic mass.</li>
+        </ul>
+      </section>
+
+      <!-- ============================================================ 1.2.1 model -->
+      <section class="topic-section" id="model" data-toc="The nuclear model">
+        <span class="section-code">Structure 1.2.1</span>
+        <h2>The nuclear model of the atom</h2>
+        <p>Picture a sports stadium with one pea on the centre spot. That is roughly how an atom is laid out. The pea is the nucleus. The rest of the stadium is where the electrons are. Almost all of it is empty space.</p>
+        <p>The <dfn data-def="The tiny, dense, positively charged centre of an atom. It contains the protons and neutrons.">nucleus</dfn> is tiny, dense and positively charged. It contains <dfn>protons</dfn> and <dfn>neutrons</dfn>. Together, protons and neutrons are called <dfn data-def="The particles in the nucleus: protons and neutrons.">nucleons</dfn>. The negatively charged <dfn>electrons</dfn> occupy the space outside the nucleus.</p>
+
+        <aside class="callout callout--key">
+          <p>Nearly all the mass of an atom is in its nucleus. Nearly all the volume of an atom is the space where its electrons are.</p>
+        </aside>
+
+        <figure data-s1-widget="s1-2.scale" data-title="How small is the nucleus?">
+          <p class="widget__fallback">An interactive zoom appears here when JavaScript is on. An atom is roughly 100 000 times wider than its nucleus.</p>
+          <figcaption>Drag the zoom slider. The atom and its nucleus are drawn to the same scale, so at first the nucleus is far too small to draw. This model uses a ratio of 1 : 100 000. The real ratio is approximate and depends on the element (about 1 : 10 000 to 1 : 100 000). An atom has no sharp edge, so its outline is dashed.</figcaption>
+        </figure>
+
+        <h3>The three subatomic particles</h3>
+        <p>The real masses and charges are awkward numbers, so chemists compare the particles with each other. These <em>relative</em> values are the ones to learn.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Relative masses and charges of the subatomic particles</caption>
+            <thead>
+              <tr><th scope="col">Particle</th><th scope="col">Where it is</th><th scope="col" class="num">Relative mass</th><th scope="col" class="num">Relative charge</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">proton</th><td>in the nucleus</td><td class="num">1</td><td class="num">+1</td></tr>
+              <tr><th scope="row">neutron</th><td>in the nucleus</td><td class="num">1</td><td class="num">0</td></tr>
+              <tr><th scope="row">electron</th><td>outside the nucleus</td><td class="num">negligible</td><td class="num">−1</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>“Negligible” means small enough to ignore. A proton is about 1800 times heavier than an electron, so the electrons add almost nothing to the mass of an atom.</p>
+
+        <aside class="callout callout--booklet">
+          <p>The actual masses (in kg) of the proton, neutron and electron, and the elementary charge (in C), are in the data booklet. You do not need to remember them. You do need to know the relative values in the table.</p>
+        </aside>
+
+        <p>A proton and an electron have charges of the same size but opposite sign. A neutral atom has equal numbers of protons and electrons, so the charges cancel.</p>
+
+        <h3>Using the table: charged plates</h3>
+        <p>You can be asked to apply these values. Suppose beams of protons, neutrons and electrons, all moving at the same speed, pass between a positive plate and a negative plate.</p>
+        <ul>
+          <li>Protons are positive, so they bend towards the negative plate.</li>
+          <li>Electrons are negative, so they bend towards the positive plate. They bend much more than protons, because the charge is the same size but the mass is far smaller.</li>
+          <li>Neutrons have no charge, so they go straight on.</li>
+        </ul>
+
+        <aside class="callout callout--scope">
+          <p>The syllabus does not ask you to recall the history of atomic models or the details of the experiments that led to the nuclear model. Quarks, and the forces that hold the nucleus together, are not part of IB Chemistry.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s1-2-q001,s1-2-q002,s1-2-q011" data-shuffle="false" data-count="0" data-title="The nuclear model: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 1.2.1 symbols -->
+      <section class="topic-section" id="symbols" data-toc="Nuclear symbols">
+        <span class="section-code">Structure 1.2.1</span>
+        <h2>Nuclear symbols: counting protons, neutrons and electrons</h2>
+        <p>Every atom or ion can be described by three numbers. The nuclear symbol packs them around the symbol of the element.</p>
+
+        <figure class="anatomy">
+          <div class="anatomy__sym" role="img" aria-label="Nuclear symbol for a chloride ion: mass number 37 at top left, atomic number 17 at bottom left, symbol Cl, charge 1 minus at top right"><span class="nuc"><span class="nuc__az"><span>37</span><span>17</span></span><span>Cl</span><sup>−</sup></span></div>
+          <dl class="anatomy__key">
+            <div><dt>37</dt><dd><strong>Mass number, <i>A</i></strong> (top left): protons + neutrons</dd></div>
+            <div><dt>17</dt><dd><strong>Atomic number, <i>Z</i></strong> (bottom left): protons</dd></div>
+            <div><dt>Cl</dt><dd><strong>Element symbol, X</strong>: fixed by <i>Z</i></dd></div>
+            <div><dt>−</dt><dd><strong>Charge</strong> (top right): missing for a neutral atom</dd></div>
+          </dl>
+          <figcaption>The general form is written <span class="nuc"><span class="nuc__az"><span><i>A</i></span><span><i>Z</i></span></span><span>X</span></span>. This example is a chloride ion.</figcaption>
+        </figure>
+
+        <p>The <dfn data-def="The number of protons in the nucleus of an atom. Symbol Z.">atomic number</dfn>, <i>Z</i>, is the number of protons. It decides which element the atom is. Every atom with 17 protons is chlorine.</p>
+        <p>The <dfn data-def="The total number of protons and neutrons (nucleons) in the nucleus of an atom. Symbol A.">mass number</dfn>, <i>A</i>, is the number of protons plus neutrons. It is always a whole number, because it is a count.</p>
+
+        <h3>Method in words</h3>
+        <ol>
+          <li><strong>Protons</strong> = <i>Z</i>, the bottom number. If it is not given, look up the element in the periodic table.</li>
+          <li><strong>Neutrons</strong> = <i>A</i> − <i>Z</i>, top number minus bottom number.</li>
+          <li><strong>Electrons</strong>: start with the number of protons. For a positive ion, subtract the charge. For a negative ion, add the size of the charge.</li>
+        </ol>
+
+        <div class="eq">
+          <div class="eq__formula">neutrons = <i>A</i> − <i>Z</i> &nbsp;&nbsp;&nbsp; electrons = <i>Z</i> − <i>q</i></div>
+          <dl class="eq__legend">
+            <div><dt>A</dt><dd>mass number (no unit)</dd></div>
+            <div><dt>Z</dt><dd>atomic number (no unit)</dd></div>
+            <div><dt>q</dt><dd>charge on the species, with its sign: +2 for a 2+ ion, −1 for a 1− ion, 0 for an atom</dd></div>
+          </dl>
+        </div>
+
+        <p>An ion is an atom that has gained or lost <em>electrons</em>. A <dfn data-def="A positive ion. It has fewer electrons than protons.">cation</dfn> is positive: it has lost electrons. An <dfn data-def="A negative ion. It has more electrons than protons.">anion</dfn> is negative: it has gained electrons. The nucleus does not change.</p>
+
+        <aside class="callout callout--mistake">
+          <p>A positive charge does not mean extra protons, and it does not mean extra electrons. <span class="chem">Mg^2+</span> has the same 12 protons as a magnesium atom and two <em>fewer</em> electrons: 12 − 2 = 10.</p>
+        </aside>
+
+        <figure data-s1-widget="s1-2.build" data-title="Build an atom or an ion">
+          <p class="widget__fallback">An interactive atom builder appears here when JavaScript is on.</p>
+          <figcaption>Use the + and − buttons to add or remove particles, and watch the nuclear symbol change. Then press Challenge me. This picture is a model, not to scale: the nucleus is drawn far too big, and the dots only show how many electrons there are, not where they are or how they move. The builder also lets you make nuclei that do not exist in nature.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Particles in an ion</h3>
+          <div class="worked__problem">
+            <p>Deduce the number of protons, neutrons and electrons in the ion <span class="nuc"><span class="nuc__az"><span>27</span><span>13</span></span><span>Al</span><sup>3+</sup></span>.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Read off the protons">
+              <p class="worked__why">The bottom number is the atomic number, and the atomic number is the number of protons.</p>
+              <div class="worked__math">protons = <i>Z</i> = 13</div>
+            </li>
+            <li data-title="Find the neutrons">
+              <p class="worked__why">The top number counts protons and neutrons together, so take the protons away.</p>
+              <div class="worked__math">neutrons = <i>A</i> − <i>Z</i> = 27 − 13 = 14</div>
+            </li>
+            <li data-title="Find the electrons">
+              <p class="worked__why">A 3+ charge means the atom has lost 3 electrons. A neutral aluminium atom would have 13.</p>
+              <div class="worked__math">electrons = <i>Z</i> − <i>q</i> = 13 − 3 = 10</div>
+            </li>
+            <li data-title="Check the charge">
+              <p class="worked__why" data-label="Check">Protons minus electrons must give the charge on the symbol.</p>
+              <div class="worked__math">13 − 10 = +3, which matches 3+</div>
+              <div class="worked__math"><b>13 protons, 14 neutrons, 10 electrons</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>13 protons, 14 neutrons, 10 electrons</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="30" data-tolerance="0.1" data-label="Number of neutrons">
+          <div class="tryit__q"><p>How many <strong>neutrons</strong> are in the ion <span class="nuc"><span class="nuc__az"><span>56</span><span>26</span></span><span>Fe</span><sup>3+</sup></span>?</p></div>
+          <ol class="tryit__hints">
+            <li>The charge is about electrons. It has no effect on the nucleus.</li>
+            <li>Neutrons = mass number − atomic number = <span class="mono">56 − 26</span>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">neutrons = <i>A</i> − <i>Z</i> = 56 − 26 = 30</div>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="18" data-tolerance="0.1" data-label="Number of electrons">
+          <div class="tryit__q"><p>How many <strong>electrons</strong> are in the sulfide ion <span class="nuc"><span class="nuc__az"><span>32</span><span>16</span></span><span>S</span><sup>2−</sup></span>?</p></div>
+          <ol class="tryit__hints">
+            <li>A negative ion has gained electrons. Will the answer be more or less than 16?</li>
+            <li>Electrons = protons + size of the negative charge = <span class="mono">16 + 2</span>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">electrons = <i>Z</i> − <i>q</i> = 16 − (−2) = 16 + 2 = 18</div>
+          </div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>When you write a nuclear symbol, the mass number goes top left and the atomic number bottom left. For an ion, write the number before the sign: <span class="mono">2+</span>, not <span class="mono">+2</span>. A missing or wrong charge loses the mark.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s1-2-q003,s1-2-q004,s1-2-q008,s1-2-q010,s1-2-q012" data-shuffle="false" data-count="0" data-title="Nuclear symbols: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 1.2.2 isotopes -->
+      <section class="topic-section" id="isotopes">
+        <span class="section-code">Structure 1.2.2</span>
+        <h2>Isotopes</h2>
+        <p>Take a jar of chlorine gas. Every atom in it has 17 protons. But about three quarters of the atoms have 18 neutrons, and about one quarter have 20. They are all chlorine, with two different masses.</p>
+        <p><dfn data-def="Atoms of the same element with different numbers of neutrons.">Isotopes</dfn> are atoms of the same element with different numbers of neutrons. So isotopes have the same atomic number and different mass numbers.</p>
+        <p>You name an isotope by its mass number: chlorine-35 and chlorine-37, or <sup>35</sup>Cl and <sup>37</sup>Cl.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The two isotopes of chlorine found in nature</caption>
+            <thead>
+              <tr><th scope="col">Isotope</th><th scope="col" class="num">Protons</th><th scope="col" class="num">Neutrons</th><th scope="col" class="num">Electrons (in the atom)</th><th scope="col" class="num">Mass number</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">chlorine-35</th><td class="num">17</td><td class="num">18</td><td class="num">17</td><td class="num">35</td></tr>
+              <tr><th scope="row">chlorine-37</th><td class="num">17</td><td class="num">20</td><td class="num">17</td><td class="num">37</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Same chemistry, different physical properties</h3>
+        <p><strong>Chemical properties are the same.</strong> How an atom reacts depends on its electrons. Isotopes of an element have the same number of electrons, arranged in the same way, so they react in the same way.</p>
+        <p><strong>Physical properties are different.</strong> Isotopes have different masses. Any property that depends on mass is a little different: density, the rate at which a gas diffuses, and melting and boiling points.</p>
+        <p>For example, “heavy water” made with hydrogen-2 reacts like ordinary water, but it is denser and boils at a slightly higher temperature.</p>
+
+        <aside class="callout callout--exam">
+          <p>To explain the same chemical properties, write “same number of electrons” or “same electron configuration”. To explain a different physical property, write “different mass” and name the property, such as density.</p>
+        </aside>
+
+        <aside class="callout callout--mistake">
+          <p>Isotopes do <em>not</em> differ in protons or electrons. If the number of protons changes, it is a different element. If the number of electrons changes, it is an ion. Only a change in neutrons gives an isotope.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>You do not need to learn specific examples of isotopes or their uses. The data will be given in the question. Radioactive decay, half-life and nuclear equations are not part of this topic.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s1-2-q005,s1-2-q009,s1-2-q015,s1-2-q017" data-shuffle="false" data-count="0" data-title="Isotopes: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 1.2.2 Ar -->
+      <section class="topic-section" id="ar" data-toc="Relative atomic mass">
+        <span class="section-code">Structure 1.2.2</span>
+        <h2>Relative atomic mass from isotope data</h2>
+        <p>Look up chlorine in the periodic table and you find 35.45. No chlorine atom has that mass. Each one is either chlorine-35 or chlorine-37. The number 35.45 is an average for the mixture found in nature.</p>
+        <p>The <dfn data-def="The weighted average mass of the atoms of an element, compared with one twelfth of the mass of an atom of carbon-12. It has no units.">relative atomic mass</dfn>, <i>A</i><sub>r</sub>, is the weighted average mass of the atoms of an element, compared with one twelfth of the mass of a carbon-12 atom. It has no units.</p>
+
+        <h3>What “weighted” means</h3>
+        <p>Suppose 3 of every 4 chlorine atoms have mass 35, and 1 of every 4 has mass 37. The average of four typical atoms is (35 + 35 + 35 + 37) ÷ 4 = 35.5. The answer is closer to 35 because there are more atoms of mass 35. Each isotope counts in proportion to its abundance.</p>
+        <p>The <dfn data-def="The percentage of the atoms of an element that are a particular isotope.">abundance</dfn> of an isotope is the percentage of the atoms that are that isotope.</p>
+
+        <div class="eq">
+          <div class="eq__formula"><i>A</i><sub>r</sub> = <span class="frac"><span>(<i>m</i><sub>1</sub> × <i>a</i><sub>1</sub>) + (<i>m</i><sub>2</sub> × <i>a</i><sub>2</sub>) + …</span><span>100</span></span></div>
+          <dl class="eq__legend">
+            <div><dt>A<sub>r</sub></dt><dd>relative atomic mass (no units)</dd></div>
+            <div><dt>m<sub>1</sub>, m<sub>2</sub></dt><dd>mass of each isotope, as given in the question (no units)</dd></div>
+            <div><dt>a<sub>1</sub>, a<sub>2</sub></dt><dd>abundance of each isotope <span class="unit">%</span></dd></div>
+          </dl>
+        </div>
+
+        <h3>Method in words: abundances to <i>A</i><sub>r</sub></h3>
+        <ol>
+          <li>Check that the abundances add up to 100%.</li>
+          <li>Multiply the mass of each isotope by its percentage abundance.</li>
+          <li>Add the results.</li>
+          <li>Divide by 100.</li>
+          <li>Round at the end, usually to two decimal places, and give no units.</li>
+        </ol>
+
+        <figure data-s1-widget="s1-2.mixer" data-title="Isotope mixer" data-start="Cl">
+          <p class="widget__fallback">An interactive isotope mixer appears here when JavaScript is on.</p>
+          <figcaption>Change the abundances and watch the balance point move towards the more common isotope. The working underneath updates line by line. Press Natural abundances to compare with the data booklet. The isotope masses and abundances here are real values, rounded. You are never asked to remember them.</figcaption>
+        </figure>
+
+        <p>Try “Mass number only” in the mixer. The answer changes slightly. The real mass of an isotope is very close to its mass number, but not exactly equal to it. Use whichever masses the question gives you. If it gives only mass numbers, use those.</p>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Relative atomic mass from percentage abundances</h3>
+          <div class="worked__problem">
+            <p>A sample of silicon contains 92.2% <sup>28</sup>Si, 4.7% <sup>29</sup>Si and 3.1% <sup>30</sup>Si. Calculate the relative atomic mass of silicon in this sample, to two decimal places.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Check the abundances">
+              <p class="worked__why">If they do not add up to 100%, an isotope is missing or you have misread the data.</p>
+              <div class="worked__math">92.2 + 4.7 + 3.1 = 100.0%</div>
+            </li>
+            <li data-title="Multiply each mass by its abundance">
+              <p class="worked__why">This is the weighting. A common isotope contributes more to the total.</p>
+              <div class="worked__math">28 × 92.2 = 2581.6</div>
+              <div class="worked__math">29 × 4.7 = 136.3</div>
+              <div class="worked__math">30 × 3.1 = 93.0</div>
+            </li>
+            <li data-title="Add, then divide by 100">
+              <p class="worked__why">The abundances are percentages, so the total is for 100 atoms. Dividing by 100 gives the average for one atom.</p>
+              <div class="worked__math">2581.6 + 136.3 + 93.0 = 2810.9</div>
+              <div class="worked__math"><i>A</i><sub>r</sub> = 2810.9 / 100 = 28.109</div>
+            </li>
+            <li data-title="Round and sense-check">
+              <p class="worked__why" data-label="Check">The answer must lie between 28 and 30, and close to 28 because silicon-28 is by far the most abundant.</p>
+              <div class="worked__math"><i>A</i><sub>r</sub> = <b>28.11</b> (2 d.p., no units)</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>28.11. This is not quite the data booklet value of 28.09. The question asked for the value from this data, so 28.11 is the answer that scores.</p></div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>If a question says “calculate” and gives isotope data, your answer must come from that data. Markschemes do not accept the periodic table value copied from the data booklet. Show the weighted-sum line of working, then the answer.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="20.1877" data-tolerance="0.006" data-sigfigs="4" data-label="Relative atomic mass">
+          <div class="tryit__q"><p>A sample of neon contains 90.48% <sup>20</sup>Ne, 0.27% <sup>21</sup>Ne and 9.25% <sup>22</sup>Ne. Calculate the relative atomic mass of neon in this sample, to two decimal places.</p></div>
+          <ol class="tryit__hints">
+            <li>Multiply each mass number by its percentage. You will have three products to add.</li>
+            <li><span class="mono">(20 × 90.48 + 21 × 0.27 + 22 × 9.25) ÷ 100</span></li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">20 × 90.48 = 1809.6</div>
+            <div class="worked__math">21 × 0.27 = 5.67</div>
+            <div class="worked__math">22 × 9.25 = 203.5</div>
+            <div class="worked__math"><i>A</i><sub>r</sub> = (1809.6 + 5.67 + 203.5) / 100 = 2018.77 / 100 = 20.1877</div>
+            <p>To two decimal places: <strong>20.19</strong>. (The data booklet gives 20.18. Your calculated value is the one to write.)</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Do not add the masses and divide by the number of isotopes. That simple average treats every isotope as equally common. For chlorine it gives 36, but the real mixture is mostly chlorine-35, so the weighted average is about 35.5.</p>
+        </aside>
+
+        <h3>Working backwards: abundance from <i>A</i><sub>r</sub></h3>
+        <p>Sometimes you are given the relative atomic mass and asked for the abundances. With two isotopes there is one unknown, so one equation is enough. The key is that the two percentages must add up to 100.</p>
+
+        <h4>Method in words</h4>
+        <ol>
+          <li>Call the percentage of one isotope <i>x</i>. The other is then 100 − <i>x</i>.</li>
+          <li>Write the weighted-mean equation with <i>x</i> in it, and set it equal to <i>A</i><sub>r</sub>.</li>
+          <li>Multiply both sides by 100 to remove the fraction.</li>
+          <li>Expand the bracket, collect the <i>x</i> terms, and solve.</li>
+          <li>Check: the more abundant isotope must be the one whose mass is closer to <i>A</i><sub>r</sub>.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example: working backwards">
+          <h3 class="worked__title">Percentage abundance from relative atomic mass</h3>
+          <div class="worked__problem">
+            <p>Boron has two isotopes, <sup>10</sup>B and <sup>11</sup>B. Its relative atomic mass is 10.81. Calculate the percentage abundance of each isotope. Use the mass numbers as the masses of the isotopes.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Name the unknown">
+              <p class="worked__why">There are two percentages, but they add up to 100, so one letter covers both.</p>
+              <div class="worked__math">% of <sup>10</sup>B = <i>x</i></div>
+              <div class="worked__math">% of <sup>11</sup>B = 100 − <i>x</i></div>
+            </li>
+            <li data-title="Write the weighted-mean equation">
+              <p class="worked__why">It is the same formula as before, with <i>x</i> and (100 − <i>x</i>) in place of the abundances.</p>
+              <div class="worked__math"><span class="frac"><span>10<i>x</i> + 11(100 − <i>x</i>)</span><span>100</span></span> = 10.81</div>
+            </li>
+            <li data-title="Multiply both sides by 100">
+              <p class="worked__why">This removes the fraction, so the next lines are easier.</p>
+              <div class="worked__math">10<i>x</i> + 11(100 − <i>x</i>) = 1081</div>
+            </li>
+            <li data-title="Expand the bracket">
+              <p class="worked__why">Multiply 11 by each term inside the bracket. Watch the minus sign.</p>
+              <div class="worked__math">10<i>x</i> + 1100 − 11<i>x</i> = 1081</div>
+            </li>
+            <li data-title="Collect terms and solve">
+              <p class="worked__why">10<i>x</i> − 11<i>x</i> is −<i>x</i>. Then move the numbers to one side.</p>
+              <div class="worked__math">1100 − <i>x</i> = 1081</div>
+              <div class="worked__math"><i>x</i> = 1100 − 1081 = 19</div>
+            </li>
+            <li data-title="State both answers and check">
+              <p class="worked__why" data-label="Check">10.81 is closer to 11 than to 10, so <sup>11</sup>B should be the more abundant isotope. It is.</p>
+              <div class="worked__math"><b><sup>10</sup>B = 19%, <sup>11</sup>B = 100 − 19 = 81%</b></div>
+              <div class="worked__math">(10 × 19 + 11 × 81) / 100 = 1081 / 100 = 10.81</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p><sup>10</sup>B 19% and <sup>11</sup>B 81%</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="69.0" data-tolerance="0.3" data-sigfigs="2-3" data-unit="%" data-label="Abundance of copper-63">
+          <div class="tryit__q"><p>Copper has two isotopes. <sup>63</sup>Cu has a relative mass of 62.93 and <sup>65</sup>Cu has a relative mass of 64.93. The relative atomic mass of copper is 63.55. Calculate the percentage abundance of <sup>63</sup>Cu.</p></div>
+          <ol class="tryit__hints">
+            <li>Let the percentage of <sup>63</sup>Cu be <i>x</i>. Then <sup>65</sup>Cu is 100 − <i>x</i>. Use the masses given, not the mass numbers.</li>
+            <li><span class="mono">62.93x + 64.93(100 − x) = 6355</span>. Expand the bracket: <span class="mono">64.93 × 100 = 6493</span>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">62.93<i>x</i> + 64.93(100 − <i>x</i>) = 63.55 × 100 = 6355</div>
+            <div class="worked__math">62.93<i>x</i> + 6493 − 64.93<i>x</i> = 6355</div>
+            <div class="worked__math">6493 − 2.00<i>x</i> = 6355</div>
+            <div class="worked__math">2.00<i>x</i> = 6493 − 6355 = 138</div>
+            <div class="worked__math"><i>x</i> = 138 / 2.00 = 69.0%</div>
+            <p><sup>63</sup>Cu is <strong>69.0%</strong> (so <sup>65</sup>Cu is 31.0%). Check: 63.55 is closer to 62.93, so <sup>63</sup>Cu should be more abundant.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake" data-title="Three words that get mixed up">
+          <p><strong>Mass number</strong> belongs to one isotope and is a whole number (35). <strong>Relative atomic mass</strong> belongs to the element as a mixture of isotopes, and is usually not a whole number (35.45). Neither has units. Molar mass, with units <span class="unit">g mol-1</span>, comes in Structure 1.4.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s1-2-q007,s1-2-q006,s1-2-q016,s1-2-q013,s1-2-q014" data-shuffle="false" data-count="0" data-title="Relative atomic mass: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 1.2.3 AHL -->
+      <section class="topic-section" id="mass-spectra" data-level="ahl" data-toc="Mass spectra">
+        <span class="section-code">Structure 1.2.3</span>
+        <h2>Mass spectra</h2>
+        <p>Where do isotope abundances come from? Imagine tipping a bag of mixed coins into a sorting machine. It sorts the coins by mass and counts how many there are of each kind. A mass spectrometer does the same job for atoms.</p>
+        <p>The result is a <dfn data-def="A chart of relative abundance against m/z for the ions detected from a sample.">mass spectrum</dfn>: a bar chart with one peak for each isotope.</p>
+        <ul>
+          <li>The <strong>horizontal axis</strong> is <i>m/z</i>, the mass-to-charge ratio of the ion detected. For an ion with a 1+ charge, <i>m/z</i> is equal to the mass of the isotope. So the position of a peak tells you <em>which</em> isotope it is.</li>
+          <li>The <strong>vertical axis</strong> is relative abundance. The height of a peak tells you <em>how much</em> of that isotope is present.</li>
+        </ul>
+
+        <aside class="callout callout--key" data-no-badge>
+          <p>For the atoms of an element: number of peaks = number of isotopes. Position of a peak = mass of that isotope. Height of a peak = its relative abundance.</p>
+        </aside>
+
+        <aside class="callout callout--scope" data-no-badge>
+          <p>How a mass spectrometer works will not be assessed. You do not need the stages inside the machine (how the sample is ionized, accelerated, deflected or detected). You only need to read the spectrum.</p>
+        </aside>
+
+        <h3>When the peak heights do not add up to 100</h3>
+        <p>Sometimes the vertical axis is a percentage. Then the heights add up to 100 and you use the method you already know.</p>
+        <p>Often the tallest peak is set to 100 and the others are scaled against it. Then the heights do <em>not</em> add up to 100. The fix is small: divide by the total of the peak heights, not by 100.</p>
+
+        <div class="eq">
+          <div class="eq__formula"><i>A</i><sub>r</sub> = <span class="frac"><span>sum of (<i>m/z</i> × peak height)</span><span>sum of peak heights</span></span></div>
+          <dl class="eq__legend">
+            <div><dt>A<sub>r</sub></dt><dd>relative atomic mass (no units)</dd></div>
+            <div><dt>m/z</dt><dd>position of each peak on the horizontal axis (no units)</dd></div>
+            <div><dt>peak height</dt><dd>relative abundance read from the vertical axis (no units, or %)</dd></div>
+          </dl>
+        </div>
+
+        <h4>Method in words</h4>
+        <ol>
+          <li>List each peak: its <i>m/z</i> and its height. Read heights as carefully as the scale allows.</li>
+          <li>Add up the heights. If the total is 100, they are percentages.</li>
+          <li>Multiply each <i>m/z</i> by its height, and add the results.</li>
+          <li>Divide by the total of the heights.</li>
+          <li>Round at the end. Check that the answer is between the lightest and heaviest isotope, nearest the tallest peak.</li>
+        </ol>
+
+        <figure data-s1-widget="s1-2.spectrum" data-title="Mass spectrum reader" data-no-badge>
+          <p class="widget__fallback">An interactive mass spectrum appears here when JavaScript is on.</p>
+          <figcaption>Choose a sample, read the peaks, calculate the relative atomic mass and check it. Switch the peak heights to “tallest peak = 100” to practise dividing by the total. Then try a mystery element: use your answer and the periodic table to identify it. The spectra are drawn to scale from typical natural abundances, for ions with a 1+ charge.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked data-no-badge>
+          <h3 class="worked__title">Relative atomic mass from a mass spectrum</h3>
+          <div class="worked__problem">
+            <p>The mass spectrum of a sample of magnesium has three peaks. Calculate the relative atomic mass of magnesium in this sample, to two decimal places.</p>
+            <div class="table-scroll">
+              <table class="data">
+                <caption>Peaks read from the spectrum</caption>
+                <thead><tr><th scope="col"><i>m/z</i></th><th scope="col" class="num">Relative abundance (peak height)</th></tr></thead>
+                <tbody>
+                  <tr><th scope="row">24</th><td class="num">100.0</td></tr>
+                  <tr><th scope="row">25</th><td class="num">12.7</td></tr>
+                  <tr><th scope="row">26</th><td class="num">13.9</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Say what the peaks are">
+              <p class="worked__why">Three peaks means three isotopes. Their masses are the <i>m/z</i> values: 24, 25 and 26.</p>
+              <div class="worked__math">isotopes: <sup>24</sup>Mg, <sup>25</sup>Mg, <sup>26</sup>Mg</div>
+            </li>
+            <li data-title="Add up the peak heights">
+              <p class="worked__why">The total is not 100, so these are not percentages. You will divide by this total.</p>
+              <div class="worked__math">100.0 + 12.7 + 13.9 = 126.6</div>
+            </li>
+            <li data-title="Multiply each m/z by its height">
+              <p class="worked__why">This is the same weighting step as before.</p>
+              <div class="worked__math">24 × 100.0 = 2400.0</div>
+              <div class="worked__math">25 × 12.7 = 317.5</div>
+              <div class="worked__math">26 × 13.9 = 361.4</div>
+            </li>
+            <li data-title="Add, then divide by the total height">
+              <p class="worked__why">Dividing by 126.6 gives the average for one atom. Dividing by 100 here would give 30.79, which is heavier than every isotope, so it cannot be right.</p>
+              <div class="worked__math">2400.0 + 317.5 + 361.4 = 3078.9</div>
+              <div class="worked__math"><i>A</i><sub>r</sub> = 3078.9 / 126.6 = 24.3199…</div>
+            </li>
+            <li data-title="Round and sense-check">
+              <p class="worked__why" data-label="Check">The answer is between 24 and 26 and close to 24, where the tallest peak is.</p>
+              <div class="worked__math"><i>A</i><sub>r</sub> = <b>24.32</b> (2 d.p., no units)</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>24.32</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="69.79808" data-tolerance="0.006" data-sigfigs="4" data-label="Relative atomic mass" data-no-badge>
+          <div class="tryit__q"><p>The mass spectrum of a sample of gallium has two peaks: <i>m/z</i> 69 with a relative abundance of 100.0, and <i>m/z</i> 71 with a relative abundance of 66.4. Calculate the relative atomic mass of gallium in this sample, to two decimal places.</p></div>
+          <ol class="tryit__hints">
+            <li>Do the heights add up to 100? If not, what must you divide by?</li>
+            <li><span class="mono">(69 × 100.0 + 71 × 66.4) ÷ (100.0 + 66.4)</span></li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">total height = 100.0 + 66.4 = 166.4</div>
+            <div class="worked__math">69 × 100.0 + 71 × 66.4 = 6900.0 + 4714.4 = 11614.4</div>
+            <div class="worked__math"><i>A</i><sub>r</sub> = 11614.4 / 166.4 = 69.798…</div>
+            <p>To two decimal places: <strong>69.80</strong>. (The data booklet gives 69.72. Your calculated value is the one to write.)</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--exam" data-no-badge>
+          <p>The particles detected in a mass spectrometer are positive ions. If you are asked which species causes a peak, include the charge: <sup>35</sup>Cl<sup>+</sup>, not <sup>35</sup>Cl. Without the + the mark is not given.</p>
+        </aside>
+
+        <h3>Elements that exist as molecules</h3>
+        <p>Chlorine gas is made of <span class="chem">Cl2</span> molecules. Each molecule contains two atoms, and each atom can be either isotope. So the spectrum of the <span class="chem">Cl2+</span> ions has three peaks, not two.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Peaks for <span class="chem">Cl2+</span>, where <sup>35</sup>Cl : <sup>37</sup>Cl is about 3 : 1</caption>
+            <thead><tr><th scope="col"><i>m/z</i></th><th scope="col">Atoms in the molecule</th><th scope="col">Chance</th><th scope="col" class="num">Relative height</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">70</th><td><sup>35</sup>Cl and <sup>35</sup>Cl</td><td class="mono">¾ × ¾ = 9/16</td><td class="num">9</td></tr>
+              <tr><th scope="row">72</th><td><sup>35</sup>Cl and <sup>37</sup>Cl (two ways round)</td><td class="mono">2 × ¾ × ¼ = 6/16</td><td class="num">6</td></tr>
+              <tr><th scope="row">74</th><td><sup>37</sup>Cl and <sup>37</sup>Cl</td><td class="mono">¼ × ¼ = 1/16</td><td class="num">1</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>The middle peak has a factor of 2 because the mixed molecule can form in two ways: <sup>35</sup>Cl–<sup>37</sup>Cl or <sup>37</sup>Cl–<sup>35</sup>Cl. It is like tossing two coins: one head and one tail is twice as likely as two heads.</p>
+        <p>Bromine has two isotopes, <sup>79</sup>Br and <sup>81</sup>Br, in almost equal amounts. The same reasoning gives peaks for <span class="chem">Br2+</span> at <i>m/z</i> 158, 160 and 162 with heights in the ratio 1 : 2 : 1.</p>
+        <p>Some molecules break into single atoms inside the instrument. So the full spectrum of chlorine also has two peaks from <sup>35</sup>Cl<sup>+</sup> and <sup>37</sup>Cl<sup>+</sup> ions, at <i>m/z</i> 35 and 37, with heights in the ratio 3 : 1. The full spectrum of bromine also has peaks at <i>m/z</i> 79 and 81, with almost equal heights.</p>
+
+        <aside class="callout callout--scope" data-title="Comes later in Structure 3.2" data-no-badge>
+          <p>When a compound goes through a mass spectrometer its molecules break into pieces, giving a fragmentation pattern. Using that pattern to work out the structure of a compound is taught in Structure 3.2, not here.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s1-2-q023,s1-2-q024,s1-2-q031,s1-2-q026,s1-2-q025,s1-2-q027" data-shuffle="false" data-count="0" data-title="Mass spectra: quick check"></div>
+      </section>
+
+      <hr class="spectrum">
+
+      <!-- ============================================================ linking -->
+      <section class="topic-section" id="links">
+        <h2>Linking it up</h2>
+        <p>The IB guide asks these linking questions. Short answers are enough at this stage.</p>
+
+        <h3>What determines the different chemical properties of atoms?</h3>
+        <p>The electrons. Chemical reactions involve electrons being lost, gained or shared, so the number of electrons and how they are arranged decide how an atom behaves. The nucleus matters because its number of protons fixes the number of electrons in the neutral atom. Neutrons make almost no difference, which is why isotopes react in the same way. Structure 1.3 is about how the electrons are arranged.</p>
+
+        <h3>How does the atomic number relate to the position of an element in the periodic table?</h3>
+        <p>The elements are listed in order of increasing atomic number. Hydrogen, with <i>Z</i> = 1, is first, helium with <i>Z</i> = 2 is second, and so on. Position is set by the number of protons, not by mass. You will use this in Structure 3.1.</p>
+
+        <h3>How can isotope tracers provide evidence for a reaction mechanism?</h3>
+        <p>Isotopes of an element react in the same way but have different masses. If one reactant is made with an unusual isotope, such as oxygen-18 in place of oxygen-16, that atom is “labelled”. Finding which product contains the heavier atom shows where that atom went during the reaction, which is evidence for which bonds break and form. Mechanisms themselves come later, in Reactivity 3.4.</p>
+
+        <div data-level="ahl">
+          <h3>How does the fragmentation pattern of a compound help to determine its structure?</h3>
+          <p>This belongs to Structure 3.2. For now, the link is that the same instrument that separates the isotopes of an element can also separate the pieces of a broken molecule by mass.</p>
+        </div>
+      </section>
+
+      <!-- ============================================================ practice -->
+      <section class="topic-section" id="practice" data-toc="Exam-style practice">
+        <h2>Exam-style practice</h2>
+        <p>Three sets, from first steps to stretch. Questions you have not yet answered correctly come up first, so each set changes when you come back to it. Have a calculator and the data booklet beside you.</p>
+        <h3>Foundation: one idea at a time</h3>
+        <div data-s1-quiz data-topic="s1-2" data-tier="foundation" data-count="5" data-title="1.2 foundation"></div>
+        <h3>Exam standard</h3>
+        <div data-s1-quiz data-topic="s1-2" data-tier="exam" data-count="6" data-title="1.2 exam standard"></div>
+        <h3>Challenge</h3>
+        <div data-s1-quiz data-topic="s1-2" data-tier="challenge" data-count="4" data-title="1.2 challenge"></div>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../data/questions-s1-2.js"></script>
+<script src="../assets/js/widgets-s1-2.js"></script>
+</body>
+</html>

@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1.3 Electron configurations | Structure 1 Lab</title>
+<meta name="description" content="IB Chemistry Structure 1.3: emission spectra, the hydrogen line spectrum, energy levels, sublevels and orbitals, electron configurations up to Z = 36, and (HL) ionization energies.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for topic 1.3. Existing tokens only. */
+.s13-seg { min-width: 0; flex: 0 1 auto; }
+.s13-fillctl { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: flex-end; }
+.s13-fillctl[hidden] { display: none; }
+.widget .btn[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.s13-calc { margin: 0 1rem 0.9rem; padding-top: 0.2rem; padding-bottom: 0.2rem; }
+.s13-calc__title { font-weight: 700; margin: 0 0 0.5rem; }
+.s13-calc .small { margin: 0.6rem 0 0; color: var(--ink-2); }
+.s13-boxes { max-width: 34rem; }
+.s13-box--live { cursor: pointer; }
+.s13-box--live:hover rect { stroke-width: 2.5; }
+.s13-box--live:focus { outline: none; }
+.s13-box--live:focus-visible rect { stroke: var(--focus); stroke-width: 4; }
+.s13-msg { margin-top: 0.75rem; padding: 0.6rem 0.8rem; border: 1px solid var(--line-strong); border-left-width: 4px; background: var(--surface-2); max-width: 44rem; }
+.s13-msg[hidden] { display: none; }
+.s13-msg p { margin: 0; }
+.s13-msg[data-tone="bad"] { border-color: var(--bad); background: var(--bad-soft); }
+.s13-msg[data-tone="ok"] { border-color: var(--ok); background: var(--ok-soft); }
+.s13-msg[data-tone="warn"] { border-color: var(--amber-line); background: var(--amber-soft); }
+.s13-ask { margin-top: 0.75rem; }
+.s13-ask[hidden] { display: none; }
+.s13-ask__q { font-weight: 700; margin: 0 0 0.5rem; }
+.s13-cut { color: var(--accent-ink); padding: 0 0.15em; }
+.s13-orbitals, .s13-panels { display: grid; grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr)); gap: 0.75rem; }
+.s13-orbitals__cell svg { display: block; width: 100%; max-width: 11rem; height: auto; margin: 0 auto; }
+.s13-orbitals__name { font-family: var(--font-mono); font-weight: 600; margin: 0.25rem 0 0; text-align: center; }
+.s13-orbitals__note { margin: 0; color: var(--ink-2); text-align: center; }
+.s13-figure { margin: 1.5rem 0; border: 1px solid var(--line-strong); background: var(--surface); max-width: 46rem; }
+.s13-figure .s13-panels { padding: 0.9rem 1rem 0.4rem; }
+.s13-panels__cell svg { display: block; width: 100%; max-width: 13rem; height: auto; }
+.s13-panels__cell p { margin: 0.35rem 0 0.5rem; font-size: 0.92rem; }
+.s13-figure figcaption { padding: 0.65rem 1rem 0.8rem; border-top: 1px solid var(--line); font-size: 0.9rem; color: var(--ink-2); }
+.s13-ob { display: inline-flex; vertical-align: middle; margin: 0 0.5em 0 0.15em; }
+.s13-ob > span { display: inline-block; min-width: 1.9em; height: 1.9em; line-height: 1.8em; text-align: center; border: 1.5px solid var(--ink); margin-left: -1.5px; }
+.s13-ob > span:first-child { margin-left: 0; }
+</style>
+</head>
+<body data-page="s1-3">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="s1-3"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Structure 1.3</p>
+      <h1>Electron configurations</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>How can we model the energy states of electrons in atoms?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <!-- ============================================================ GOALS -->
+      <section class="topic-section" id="goals" data-toc="What you need to do">
+        <h2>What you need to be able to do</h2>
+        <p>Tick each one when you can do it without looking at your notes.</p>
+        <ul class="checklist" data-s1-checklist="s1-3">
+          <li data-id="emission-origin" data-level="sl">Explain how an emission spectrum is produced: electrons in excited states return to lower energy levels and emit photons.</li>
+          <li data-id="em-relationships" data-level="sl">Describe, without calculation, how colour, wavelength, frequency and energy are related across the electromagnetic spectrum.</li>
+          <li data-id="continuous-line" data-level="sl">Tell a continuous spectrum from a line spectrum.</li>
+          <li data-id="hydrogen-spectrum" data-level="sl">Describe the hydrogen emission spectrum: link the lines to transitions down to n = 1, n = 2 and n = 3, and explain what the converging lines show.</li>
+          <li data-id="two-n-squared" data-level="sl">Deduce the maximum number of electrons in a main energy level using 2n<sup>2</sup>.</li>
+          <li data-id="sublevels-shapes" data-level="sl">Name the sublevels s, p, d and f in order of energy, and recognize the shape and orientation of an s orbital and the three p orbitals.</li>
+          <li data-id="three-rules" data-level="sl">Apply the Aufbau principle, Hund’s rule and the Pauli exclusion principle to fill orbitals.</li>
+          <li data-id="write-configs" data-level="sl">Write full and condensed electron configurations and draw orbital diagrams for atoms and ions up to Z = 36, including the exceptions Cr and Cu.</li>
+          <li data-id="d-block-ions" data-level="ahl">Deduce the configurations of ions of the first-row d-block metals, removing 4s electrons before 3d.</li>
+          <li data-id="limit-to-ie" data-level="ahl">Explain that the limit of convergence corresponds to ionization, and calculate a first ionization energy from the wavelength or frequency of that limit (and the reverse).</li>
+          <li data-id="ie-trends" data-level="ahl">Explain the trends and the discontinuities in first ionization energy across a period and down a group.</li>
+          <li data-id="successive-ie" data-level="ahl">Deduce the group of an element from its successive ionization energies.</li>
+        </ul>
+      </section>
+
+      <!-- ============================================================ 1.3.1 -->
+      <section class="topic-section" id="emission" data-toc="Light and emission spectra">
+        <span class="section-code">Structure 1.3.1</span>
+        <h2>Light, photons and emission spectra</h2>
+
+        <p>Sprinkle salt into a gas flame and the flame turns yellow. A neon sign glows red. Fireworks get their colours from different metal compounds. In each case, atoms that have been given energy are giving it back out as light.</p>
+        <p>The pattern of light an element gives out is its <dfn data-def="The set of wavelengths of light given out by atoms of an element when their excited electrons return to lower energy levels.">emission spectrum</dfn>. This section explains where that light comes from.</p>
+
+        <h3>How an atom emits light</h3>
+        <p>Electrons in an atom can only have certain fixed amounts of energy. These allowed energies are called <dfn data-def="One of the fixed, allowed energies an electron can have in an atom.">energy levels</dfn>. Think of a ladder: you can stand on a rung, but not between rungs.</p>
+
+        <figure class="s13-figure">
+          <div class="s13-panels">
+            <div class="s13-panels__cell">
+              <svg viewBox="0 0 160 110" role="img" aria-label="Two energy levels. The electron sits on the lower level.">
+                <line x1="20" y1="90" x2="140" y2="90" stroke="var(--ink)" stroke-width="2"/>
+                <line x1="20" y1="30" x2="140" y2="30" stroke="var(--ink-3)" stroke-width="2"/>
+                <circle cx="80" cy="90" r="7" fill="var(--accent)"/>
+              </svg>
+              <p><b>1. Ground state.</b> The electron is in the lowest energy level available.</p>
+            </div>
+            <div class="s13-panels__cell">
+              <svg viewBox="0 0 160 110" role="img" aria-label="The electron has moved up to the higher level. An upward arrow shows energy being absorbed.">
+                <line x1="20" y1="90" x2="140" y2="90" stroke="var(--ink-3)" stroke-width="2"/>
+                <line x1="20" y1="30" x2="140" y2="30" stroke="var(--ink)" stroke-width="2"/>
+                <line x1="80" y1="84" x2="80" y2="46" stroke="var(--ink-2)" stroke-width="2" stroke-dasharray="4 3"/>
+                <path d="M80 38 L74 49 L86 49 Z" fill="var(--ink-2)"/>
+                <circle cx="80" cy="30" r="7" fill="var(--accent)"/>
+              </svg>
+              <p><b>2. Excited state.</b> The atom absorbs energy, from heat or electricity. The electron moves up to a higher level.</p>
+            </div>
+            <div class="s13-panels__cell">
+              <svg viewBox="0 0 160 110" role="img" aria-label="The electron falls back to the lower level. A wavy arrow leaving the atom shows a photon being emitted.">
+                <line x1="20" y1="90" x2="140" y2="90" stroke="var(--ink)" stroke-width="2"/>
+                <line x1="20" y1="30" x2="140" y2="30" stroke="var(--ink-3)" stroke-width="2"/>
+                <line x1="60" y1="36" x2="60" y2="74" stroke="var(--accent)" stroke-width="3"/>
+                <path d="M60 84 L54 72 L66 72 Z" fill="var(--accent)"/>
+                <circle cx="60" cy="90" r="7" fill="var(--accent)"/>
+                <path d="M78 60 q6 -12 12 0 t12 0 t12 0 t12 0" fill="none" stroke="var(--accent-ink)" stroke-width="2"/>
+                <path d="M138 60 L127 54 L127 66 Z" fill="var(--accent-ink)"/>
+              </svg>
+              <p><b>3. Emission.</b> The electron falls back to a lower level. The energy it loses leaves as one photon of light.</p>
+            </div>
+          </div>
+          <figcaption>A model of emission with two energy levels. The energy of the photon equals the energy gap between the two levels.</figcaption>
+        </figure>
+
+        <p>A <dfn data-def="A single packet of light energy. Its energy depends on the frequency of the light.">photon</dfn> is one packet of light energy. The excited state does not last. When the electron falls, the atom emits exactly one photon, and the photon carries away exactly the energy difference between the two levels.</p>
+
+        <aside class="callout callout--key">
+          <p>Emission spectra are produced by atoms emitting photons when electrons in excited states return to lower energy levels. A big energy gap gives a high-energy photon. A small gap gives a low-energy photon.</p>
+        </aside>
+
+        <h3>Colour, wavelength, frequency and energy</h3>
+        <p>Light is one kind of electromagnetic radiation. So are radio waves, microwaves, infrared (IR), ultraviolet (UV), X-rays and gamma rays. Together they make up the <dfn>electromagnetic spectrum</dfn>. They differ in wavelength and frequency.</p>
+        <p><dfn data-def="The distance from one wave peak to the next. Symbol λ. Often given in nanometres for light.">Wavelength</dfn> is the distance from one wave peak to the next. <dfn data-def="The number of waves that pass a point each second. Symbol f. Unit hertz, Hz, which is the same as s⁻¹.">Frequency</dfn> is the number of waves passing a point each second. All electromagnetic radiation travels at the same speed in a vacuum, so if the waves are shorter, more of them pass each second.</p>
+
+        <figure class="s13-figure">
+          <div class="s13-panels">
+            <div class="s13-panels__cell">
+              <svg viewBox="0 0 160 60" role="img" aria-label="A wave with long wavelength: only two complete waves fit in the picture.">
+                <path d="M0 30 q20 -44 40 0 t40 0 t40 0 t40 0" fill="none" stroke="var(--h-alpha)" stroke-width="3"/>
+              </svg>
+              <p><b>Red light.</b> Longer wavelength, lower frequency, less energy per photon.</p>
+            </div>
+            <div class="s13-panels__cell">
+              <svg viewBox="0 0 160 60" role="img" aria-label="A wave with short wavelength: about five complete waves fit in the same width.">
+                <path d="M0 30 q8 -44 16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0" fill="none" stroke="var(--h-delta)" stroke-width="3"/>
+              </svg>
+              <p><b>Violet light.</b> Shorter wavelength, higher frequency, more energy per photon.</p>
+            </div>
+          </div>
+          <figcaption>Two waves drawn over the same distance. More waves in the same space means a shorter wavelength and a higher frequency.</figcaption>
+        </figure>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The electromagnetic spectrum, in order</caption>
+            <thead>
+              <tr><th scope="col">Region</th><th scope="col">Wavelength</th><th scope="col">Frequency</th><th scope="col">Energy per photon</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">radio waves</th><td>longest</td><td>lowest</td><td>lowest</td></tr>
+              <tr><th scope="row">microwaves</th><td rowspan="5">gets shorter going down the table</td><td rowspan="5">gets higher going down the table</td><td rowspan="5">gets higher going down the table</td></tr>
+              <tr><th scope="row">infrared (IR)</th></tr>
+              <tr><th scope="row">visible: red (700 nm) to violet (400 nm)</th></tr>
+              <tr><th scope="row">ultraviolet (UV)</th></tr>
+              <tr><th scope="row">X-rays</th></tr>
+              <tr><th scope="row">gamma rays</th><td>shortest</td><td>highest</td><td>highest</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <aside class="callout callout--key">
+          <p>Energy and frequency go up together. Wavelength goes the opposite way. So: shorter wavelength = higher frequency = higher energy. Within visible light, violet has the most energy per photon and red has the least.</p>
+        </aside>
+
+        <aside class="callout callout--booklet">
+          <p>Section 5 of the data booklet shows the electromagnetic spectrum on a wavelength scale, with an arrow for increasing energy and the visible region from 400 nm to 700 nm. Section 15 gives the wavelengths of each colour. You do not need to memorize the numbers.</p>
+        </aside>
+
+        <h3>Continuous and line spectra</h3>
+        <p>Pass white light from a hot filament through a prism and you see every colour, merging smoothly from red to violet. That is a <dfn data-def="A spectrum that contains all the wavelengths (or frequencies) in a range, with no gaps.">continuous spectrum</dfn>: it contains all the wavelengths in a range.</p>
+        <p>Now pass an electric current through a tube of low-pressure hydrogen gas. The tube glows. Send that light through a prism and you see only a few sharp coloured lines on a dark background. That is a <dfn data-def="A spectrum that contains only certain separate wavelengths (or frequencies), seen as lines.">line spectrum</dfn>: it contains only certain separate wavelengths.</p>
+
+        <figure data-s1-widget="s1-3.spectra" data-title="Continuous spectrum and line spectrum">
+          <p class="widget__fallback">Two spectra are compared here when JavaScript is on. A continuous spectrum is an unbroken band of colour from 400 nm to 700 nm. The line emission spectrum of hydrogen has four separate lines, at 410, 434, 486 and 656 nm, on a dark background.</p>
+          <figcaption>Move the wavelength marker. The continuous spectrum has light at every wavelength. Hydrogen emits at only four visible wavelengths. Try 656, 486, 434 and 410 nm.</figcaption>
+        </figure>
+
+        <p>In the lab, the light source is a gas discharge tube and the light is split with a prism or a diffraction grating. You can record what you see (the colours and pattern of lines) and what you measure (the wavelength of each line).</p>
+
+        <aside class="callout callout--mistake">
+          <p>“Shorter wavelength means lower energy” is the wrong way round. Shorter waves have a higher frequency, and a higher frequency means more energy per photon. Blue and violet photons carry more energy than red ones.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>To distinguish the two spectra, say what each contains: a continuous spectrum has <b>all wavelengths (or frequencies)</b> in a range; a line spectrum has <b>only certain, discrete wavelengths (or frequencies)</b>.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>At SL the link between energy, frequency and wavelength is descriptive only. There are no calculations with <span class="mono">E = hf</span> or <span class="mono">c = λf</span> in the SL part of this topic.</p>
+        </aside>
+
+        <div data-s13-quiz="Structure 1.3.1" data-count="4" data-title="Light and spectra: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 1.3.2 -->
+      <section class="topic-section" id="hydrogen" data-toc="The hydrogen spectrum">
+        <span class="section-code">Structure 1.3.2</span>
+        <h2>The hydrogen emission spectrum</h2>
+
+        <p>Hydrogen is the simplest atom: one proton and one electron. Its line spectrum is the clearest evidence we have that electrons in atoms have fixed energy levels.</p>
+
+        <h3>Why lines are evidence for energy levels</h3>
+        <p>If the electron in a hydrogen atom could have any energy, it could lose any amount of energy when it falls. The atom would then emit photons of every energy, and you would see a continuous spectrum.</p>
+        <p>That is not what happens. Hydrogen emits only certain wavelengths. So the electron can only lose certain amounts of energy. So the electron can only have certain energies. We say the energy levels are <dfn data-def="Separate and fixed, with nothing allowed in between.">discrete</dfn>.</p>
+
+        <aside class="callout callout--key">
+          <p>Each line in the spectrum is produced by electrons falling between one particular pair of energy levels. The line emission spectrum of hydrogen is evidence that electrons exist in discrete energy levels.</p>
+        </aside>
+
+        <h3>The energy levels of hydrogen</h3>
+        <p>The main energy levels are numbered <span class="mono">n = 1, 2, 3, …</span> going up in energy. <span class="mono">n = 1</span> is the lowest. The levels are not evenly spaced. The gap from n = 1 to n = 2 is large. Each gap after that is smaller. The levels get closer and closer together and <dfn data-def="Get closer and closer together until they meet.">converge</dfn> at high energy. The point where they meet is labelled <span class="mono">n = ∞</span>.</p>
+
+        <figure data-s1-widget="s1-3.hydrogen" data-title="Hydrogen: from energy levels to spectral lines" data-kicker="Model">
+          <p class="widget__fallback">An interactive energy-level diagram appears here when JavaScript is on. Electrons falling to n = 1 give ultraviolet lines (122, 103, 97.3, 95.0 and 93.8 nm, converging at 91.2 nm). Electrons falling to n = 2 give the visible lines (656, 486, 434 and 410 nm, converging at 365 nm in the ultraviolet). Electrons falling to n = 3 give infrared lines (1880, 1280 and 1090 nm, converging at 821 nm).</p>
+          <figcaption>Choose the level the electron falls from and the level it falls to. The arrow shows the transition, and the line appears on the spectrum below at its measured wavelength. Collect several lines to one level, then press “Show every line in this series” to see them converge. The diagram is drawn to scale. The energy values on the right are there for reference. You do not need to know them.</figcaption>
+        </figure>
+
+        <h3>Three sets of lines</h3>
+        <p>The lines fall into sets. Each set contains all the transitions that end on the same lower level.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Transitions in the hydrogen emission spectrum</caption>
+            <thead>
+              <tr><th scope="col">Electron falls to</th><th scope="col">Size of the energy drop</th><th scope="col">Region of the spectrum</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">n = 1</th><td>largest</td><td>ultraviolet (UV)</td></tr>
+              <tr><th scope="row">n = 2</th><td>medium</td><td>visible (from n = 3, 4, 5, 6)</td></tr>
+              <tr><th scope="row">n = 3</th><td>smallest</td><td>infrared (IR)</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>The four visible lines come from electrons falling to n = 2. The red line is the smallest of these drops (from n = 3). The violet line is the largest of the four (from n = 6).</p>
+
+        <h3>Convergence</h3>
+        <p>Within each set, the lines get closer together as the frequency gets higher. Eventually they merge. This happens because the energy levels themselves get closer together at higher energy. A drop from n = 6 is only a little bigger than a drop from n = 5, so their two lines sit close together.</p>
+
+        <aside class="callout callout--mistake">
+          <p>The lines converge at the <b>high-energy</b> end of each set: high frequency, short wavelength. They do not converge at the low-energy end. In the visible set, the lines bunch together towards violet, not towards red.</p>
+        </aside>
+
+        <aside class="callout callout--mistake">
+          <p>The visible lines end on n = 2, not on n = 1. Drops to n = 1 release so much energy that the photons are ultraviolet, which you cannot see.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>“Describe the emission spectrum of hydrogen” wants: a series of <b>lines</b> (not a continuous band); the lines <b>converge at higher frequency or energy</b>; lines arise from electron transitions from higher levels <b>down to</b> a lower level (n = 2 for visible). On a diagram, emission arrows point <b>downwards</b>. An arrow pointing up shows an electron gaining energy, which is not emission.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>The names of the sets of lines (Lyman, Balmer, Paschen) will not be assessed. You do not need the Rydberg equation, a formula for the energy of each level, or the energy values printed on the diagram above. Transitions ending on levels above n = 3 are not required either.</p>
+        </aside>
+
+        <div data-s13-quiz="Structure 1.3.2" data-count="4" data-title="Hydrogen spectrum: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 1.3.3 -->
+      <section class="topic-section" id="levels" data-toc="Main energy levels and 2n²">
+        <span class="section-code">Structure 1.3.3</span>
+        <h2>Main energy levels and 2n<sup>2</sup></h2>
+
+        <p>Atoms with more than one electron also have main energy levels numbered n = 1, 2, 3 and so on. Think of them as the floors of a building, with n = 1 on the ground floor, closest to the nucleus. Each floor has a limited number of places.</p>
+
+        <div class="eq">
+          <div class="eq__formula">maximum number of electrons = 2<i>n</i><sup>2</sup></div>
+          <dl class="eq__legend">
+            <div><dt>n</dt><dd>the number of the main energy level: a whole number, 1, 2, 3, … (no unit)</dd></div>
+          </dl>
+        </div>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>How many electrons each main energy level can hold</caption>
+            <thead>
+              <tr><th scope="col" class="num">n</th><th scope="col">Working</th><th scope="col" class="num">Maximum electrons</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row" class="num">1</th><td class="mono">2 × 1<sup>2</sup> = 2 × 1</td><td class="num">2</td></tr>
+              <tr><th scope="row" class="num">2</th><td class="mono">2 × 2<sup>2</sup> = 2 × 4</td><td class="num">8</td></tr>
+              <tr><th scope="row" class="num">3</th><td class="mono">2 × 3<sup>2</sup> = 2 × 9</td><td class="num">18</td></tr>
+              <tr><th scope="row" class="num">4</th><td class="mono">2 × 4<sup>2</sup> = 2 × 16</td><td class="num">32</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Square first, then double. For n = 3, <span class="mono">2n<sup>2</sup></span> is <span class="mono">2 × 9 = 18</span>, not <span class="mono">(2 × 3)<sup>2</sup> = 36</span>. And 18 is the number that n = 3 can hold on its own, not the running total for n = 1 to 3.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="32" data-tolerance="0.1" data-label="Number of electrons">
+          <div class="tryit__q"><p>What is the maximum number of electrons that can occupy the n = 4 main energy level?</p></div>
+          <ol class="tryit__hints">
+            <li>Use 2n<sup>2</sup>. Which do you do first: square, or multiply by 2?</li>
+            <li>Square n first: <span class="mono">4<sup>2</sup> = 16</span>. Then double it.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">2<i>n</i><sup>2</sup> = 2 × 4<sup>2</sup> = 2 × 16 = 32</div>
+          </div>
+        </div>
+
+        <div data-s13-quiz="Structure 1.3.3" data-count="3" data-title="Main energy levels: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 1.3.4 -->
+      <section class="topic-section" id="sublevels" data-toc="Sublevels and orbitals">
+        <span class="section-code">Structure 1.3.4</span>
+        <h2>Sublevels and orbital shapes</h2>
+
+        <p>Stay with the building picture. Each floor (main energy level) is divided into corridors called <dfn data-def="A division of a main energy level. The four types are s, p, d and f.">sublevels</dfn>. Each corridor contains rooms called <dfn data-def="A region of space where there is a high probability of finding an electron. One orbital holds at most two electrons, with opposite spins.">orbitals</dfn>. Each room holds at most two electrons.</p>
+        <p>There are four types of sublevel: <span class="mono">s</span>, <span class="mono">p</span>, <span class="mono">d</span> and <span class="mono">f</span>. Within one main energy level, their energy increases in that order: s is lowest, then p, then d, then f.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The four types of sublevel</caption>
+            <thead>
+              <tr><th scope="col">Sublevel</th><th scope="col" class="num">Number of orbitals</th><th scope="col" class="num">Maximum electrons</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">s</th><td class="num">1</td><td class="num">2</td></tr>
+              <tr><th scope="row">p</th><td class="num">3</td><td class="num">6</td></tr>
+              <tr><th scope="row">d</th><td class="num">5</td><td class="num">10</td></tr>
+              <tr><th scope="row">f</th><td class="num">7</td><td class="num">14</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>Main energy level n contains n types of sublevel. A sublevel is named by its level number and its letter, such as <span class="mono">2p</span> or <span class="mono">3d</span>.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>What each main energy level contains</caption>
+            <thead>
+              <tr><th scope="col" class="num">n</th><th scope="col">Sublevels</th><th scope="col" class="num">Orbitals</th><th scope="col" class="num">Maximum electrons (2n<sup>2</sup>)</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row" class="num">1</th><td class="mono">1s</td><td class="num">1</td><td class="num">2</td></tr>
+              <tr><th scope="row" class="num">2</th><td class="mono">2s 2p</td><td class="num">1 + 3 = 4</td><td class="num">8</td></tr>
+              <tr><th scope="row" class="num">3</th><td class="mono">3s 3p 3d</td><td class="num">1 + 3 + 5 = 9</td><td class="num">18</td></tr>
+              <tr><th scope="row" class="num">4</th><td class="mono">4s 4p 4d 4f</td><td class="num">1 + 3 + 5 + 7 = 16</td><td class="num">32</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>The two tables agree. Two electrons per orbital, times the number of orbitals, gives 2n<sup>2</sup> every time.</p>
+
+        <h3>What an orbital looks like</h3>
+        <p>An electron is not a tiny planet on a fixed track. We cannot say exactly where it is. An orbital is a region of space where there is a high probability of finding the electron. You need to recognize two shapes.</p>
+
+        <figure data-s1-widget="s1-3.orbitals" data-title="Shapes of the s orbital and the three p orbitals" data-kicker="Recognize only">
+          <p class="widget__fallback">Drawings of four orbitals appear here when JavaScript is on. An s orbital is a sphere centred on the nucleus. A p orbital is a dumbbell with two lobes, one on each side of the nucleus. The three p orbitals lie along the x, y and z axes.</p>
+          <figcaption>An s orbital is a sphere. A p orbital is a dumbbell. The three p orbitals in a sublevel have the same shape and energy but point along three different axes, at right angles to each other. The nucleus is at the point where the axes cross.</figcaption>
+        </figure>
+
+        <aside class="callout callout--mistake">
+          <p>“Orbit”, “orbital”, “sublevel” and “energy level” are not the same thing. An orbital is one region holding up to two electrons. A sublevel is a set of orbitals of the same type (the 2p sublevel has three orbitals). A main energy level is a set of sublevels.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>You only need to recognize the s shape and the three p shapes. Shapes of d and f orbitals, quantum numbers, nodes, wave functions, the Schrödinger equation and the Heisenberg uncertainty principle are not in the IB Chemistry guide.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="9" data-tolerance="0.1" data-label="Number of orbitals">
+          <div class="tryit__q"><p>How many orbitals are there in total in the n = 3 main energy level?</p></div>
+          <ol class="tryit__hints">
+            <li>List the sublevels in n = 3 first. There are three types.</li>
+            <li>3s has 1 orbital, 3p has 3 and 3d has 5. Add them.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">1 (3s) + 3 (3p) + 5 (3d) = 9 orbitals</div>
+            <p>Check: 9 orbitals × 2 electrons = 18 electrons, which matches 2n<sup>2</sup> for n = 3.</p>
+          </div>
+        </div>
+
+        <div data-s13-quiz="Structure 1.3.4" data-count="3" data-title="Sublevels and orbitals: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 1.3.5 -->
+      <section class="topic-section" id="configurations" data-toc="Electron configurations">
+        <span class="section-code">Structure 1.3.5</span>
+        <h2>Writing electron configurations</h2>
+
+        <p>An <dfn data-def="A list showing which sublevels the electrons of an atom or ion occupy, and how many electrons are in each.">electron configuration</dfn> is the address list for the electrons in an atom: which sublevels are occupied, and by how many electrons. For sodium it is <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>1</sup></span>. The big number is the main energy level, the letter is the sublevel, and the superscript is the number of electrons in it.</p>
+
+        <h3>Three rules for filling orbitals</h3>
+        <p>Picture people getting onto a bus. They take the nearest seats first. They each take an empty double seat before anyone sits next to a stranger. And a double seat holds two people at most. Electrons follow three rules that work the same way.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The three rules, and what each one tells you to do</caption>
+            <thead>
+              <tr><th scope="col">Rule</th><th scope="col">What it says</th><th scope="col">In a diagram</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Aufbau principle</th><td>Electrons fill the lowest-energy sublevel that has space, before going into a higher one.</td><td>Fill from the bottom up.</td></tr>
+              <tr><th scope="row">Hund’s rule</th><td>Within a sublevel, every orbital gets one electron before any orbital gets a second. The single electrons have the same spin.</td><td>One arrow in each box first, all pointing the same way. Then go back and pair.</td></tr>
+              <tr><th scope="row">Pauli exclusion principle</th><td>An orbital holds at most two electrons, and the two must have opposite spins.</td><td>Never more than two arrows in a box: one up, one down.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p><dfn data-def="A property of an electron that has two possible values, drawn as an up arrow or a down arrow.">Spin</dfn> is a property of an electron with two possible values. We draw them as an up arrow and a down arrow.</p>
+
+        <h3>The filling order</h3>
+        <p>For the elements you need (up to Z = 36), the sublevels fill in this order:</p>
+        <div class="eq">
+          <div class="eq__formula">1s → 2s → 2p → 3s → 3p → 4s → 3d → 4p</div>
+          <dl class="eq__legend">
+            <div><dt>s</dt><dd>holds up to 2 electrons</dd></div>
+            <div><dt>p</dt><dd>holds up to 6 electrons</dd></div>
+            <div><dt>d</dt><dd>holds up to 10 electrons</dd></div>
+          </dl>
+        </div>
+        <p>The one surprise is that <b>4s fills before 3d</b>. In an atom where both are empty, the 4s sublevel is slightly lower in energy than 3d, so potassium and calcium put their outer electrons into 4s.</p>
+
+        <h3>Three ways to show a configuration</h3>
+        <p><b>Full configuration.</b> Every sublevel is written out: <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>4</sup></span> for sulfur.</p>
+        <p><b>Condensed configuration.</b> The inner electrons are replaced by the symbol of the previous noble gas in square brackets: <span class="mono">[Ne] 3s<sup>2</sup> 3p<sup>4</sup></span> for sulfur. The noble gas cores you need are <span class="mono">[He]</span> = 2 electrons, <span class="mono">[Ne]</span> = 10 and <span class="mono">[Ar]</span> = 18.</p>
+        <p><b>Orbital diagram</b> (arrow-in-box diagram). Each orbital is a box and each electron is an arrow. Boxes for higher-energy sublevels are drawn higher up. This is the only notation that shows Hund’s rule and spin.</p>
+
+        <figure data-s1-widget="s1-3.config" data-title="Electron configuration builder" data-start="26">
+          <p class="widget__fallback">An interactive orbital diagram appears here when JavaScript is on. Example: iron, Z = 26, has the full configuration 1s2 2s2 2p6 3s2 3p6 4s2 3d6 and the condensed configuration [Ar] 4s2 3d6, with four unpaired electrons in 3d.</p>
+          <figcaption>Choose any element up to krypton, then an atom or one of its common ions. In “Fill it yourself” mode, click a box to add an electron. If you break a rule, the builder names it and the electron is not placed. Try chromium and copper.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Configuration and orbital diagram of iron</h3>
+          <div class="worked__problem">
+            <p>Deduce the full electron configuration and the condensed electron configuration of an iron atom, Fe (Z = 26). Draw the orbital diagram for its 4s and 3d sublevels.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Count the electrons">
+              <p class="worked__why">A neutral atom has the same number of electrons as protons, and Z is the number of protons.</p>
+              <div class="worked__math">Fe: Z = 26, so 26 electrons</div>
+            </li>
+            <li data-title="Fill in order, counting as you go">
+              <p class="worked__why">Aufbau principle: lowest energy first. Keep a running total so you know when to stop.</p>
+              <div class="worked__math">1s<sup>2</sup> (2)  2s<sup>2</sup> (4)  2p<sup>6</sup> (10)  3s<sup>2</sup> (12)  3p<sup>6</sup> (18)  4s<sup>2</sup> (20)</div>
+              <div class="worked__math">6 electrons left → 3d<sup>6</sup> (26)</div>
+            </li>
+            <li data-title="Write the full configuration">
+              <p class="worked__why">Check that the superscripts add up to 26.</p>
+              <div class="worked__math"><b>1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>6</sup></b></div>
+              <div class="worked__math">2 + 2 + 6 + 2 + 6 + 2 + 6 = 26</div>
+            </li>
+            <li data-title="Condense with the noble gas core">
+              <p class="worked__why">The first 18 electrons, up to 3p<sup>6</sup>, are the configuration of argon. Replace them with [Ar].</p>
+              <div class="worked__math"><b>[Ar] 4s<sup>2</sup> 3d<sup>6</sup></b></div>
+            </li>
+            <li data-title="Draw the boxes">
+              <p class="worked__why">Hund’s rule: put one electron in each of the five 3d boxes first (5 electrons), then pair the sixth. Pauli: the pair has opposite spins.</p>
+              <div class="worked__math">4s <span class="s13-ob"><span>↑↓</span></span> 3d <span class="s13-ob"><span>↑↓</span><span>↑</span><span>↑</span><span>↑</span><span>↑</span></span></div>
+              <div class="worked__math">4 unpaired electrons</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Full: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>6</sup>. Condensed: [Ar] 4s<sup>2</sup> 3d<sup>6</sup>. In a full diagram the 3d boxes are drawn slightly higher than the 4s box.</p></div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>Examiners accept the 4s and 3d sublevels in either order: <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span> or <span class="mono">[Ar] 3d<sup>6</sup> 4s<sup>2</sup></span>. This site writes them in filling order. If the question says “full”, do not use a noble gas core.</p>
+        </aside>
+
+        <h3>Two exceptions: chromium and copper</h3>
+        <p>Following the filling order, you would expect chromium to be <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>4</sup></span> and copper to be <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>9</sup></span>. Both are wrong. In each atom, one electron sits in 3d instead of 4s.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The two exceptions you must know</caption>
+            <thead>
+              <tr><th scope="col">Atom</th><th scope="col">Expected (wrong)</th><th scope="col">Actual</th><th scope="col">4s and 3d boxes</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Cr (Z = 24)</th><td class="mono">[Ar] 4s<sup>2</sup> 3d<sup>4</sup></td><td class="mono"><b>[Ar] 4s<sup>1</sup> 3d<sup>5</sup></b></td><td class="mono nowrap"><span class="s13-ob"><span>↑</span></span><span class="s13-ob"><span>↑</span><span>↑</span><span>↑</span><span>↑</span><span>↑</span></span></td></tr>
+              <tr><th scope="row">Cu (Z = 29)</th><td class="mono">[Ar] 4s<sup>2</sup> 3d<sup>9</sup></td><td class="mono"><b>[Ar] 4s<sup>1</sup> 3d<sup>10</sup></b></td><td class="mono nowrap"><span class="s13-ob"><span>↑</span></span><span class="s13-ob"><span>↑↓</span><span>↑↓</span><span>↑↓</span><span>↑↓</span><span>↑↓</span></span></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>The 4s and 3d sublevels are very close in energy. For these two atoms, the arrangement with one electron in 4s has the lower energy overall.</p>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 2">
+          <h3 class="worked__title">Chromium and copper</h3>
+          <div class="worked__problem">
+            <p>State the condensed electron configurations of a chromium atom (Z = 24) and a copper atom (Z = 29), and the number of unpaired electrons in each.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the electrons after the argon core">
+              <p class="worked__why">Argon accounts for 18 electrons. The rest go into 4s and 3d.</p>
+              <div class="worked__math">Cr: 24 − 18 = 6 electrons   Cu: 29 − 18 = 11 electrons</div>
+            </li>
+            <li data-title="Spot the exception">
+              <p class="worked__why">Cr and Cu are the two atoms where 4s holds one electron, not two. If the filling order gives you 3d<sup>4</sup> or 3d<sup>9</sup>, stop and move one electron from 4s to 3d.</p>
+              <div class="worked__math">Cr: 4s<sup>2</sup> 3d<sup>4</sup> → <b>[Ar] 4s<sup>1</sup> 3d<sup>5</sup></b></div>
+              <div class="worked__math">Cu: 4s<sup>2</sup> 3d<sup>9</sup> → <b>[Ar] 4s<sup>1</sup> 3d<sup>10</sup></b></div>
+            </li>
+            <li data-title="Count unpaired electrons from the boxes">
+              <p class="worked__why">Hund’s rule: five d electrons occupy the five d orbitals singly. Ten d electrons fill all five orbitals in pairs.</p>
+              <div class="worked__math">Cr: 1 (in 4s) + 5 (in 3d) = 6 unpaired</div>
+              <div class="worked__math">Cu: 1 (in 4s) + 0 (in 3d) = 1 unpaired</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Cr: [Ar] 4s<sup>1</sup> 3d<sup>5</sup>, 6 unpaired electrons. Cu: [Ar] 4s<sup>1</sup> 3d<sup>10</sup>, 1 unpaired electron.</p></div>
+        </div>
+
+        <aside class="callout callout--scope">
+          <p>Cr and Cu are the only exceptions you need, and you are asked to know them, not to explain them. You do not need configurations beyond Z = 36 (krypton), or exceptions among heavier elements.</p>
+        </aside>
+
+        <h3>Ions</h3>
+        <p>For an ion, start from the atom and then change the number of electrons.</p>
+        <ul>
+          <li><b>Negative ion:</b> add electrons to the next available space. <span class="chem">Cl-</span> has 17 + 1 = 18 electrons.</li>
+          <li><b>Positive ion:</b> remove electrons from the highest main energy level. <span class="chem">Ca^2+</span> has 20 − 2 = 18 electrons.</li>
+        </ul>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 3">
+          <h3 class="worked__title">The ions in calcium sulfide</h3>
+          <div class="worked__problem">
+            <p>Calcium sulfide, <span class="chem">CaS</span>, contains <span class="chem">Ca^2+</span> and <span class="chem">S^2-</span> ions. Deduce the full electron configuration of each ion.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Write the atoms first">
+              <p class="worked__why">An ion’s configuration is built from the atom’s. Ca has Z = 20 and S has Z = 16.</p>
+              <div class="worked__math">Ca: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup></div>
+              <div class="worked__math">S: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>4</sup></div>
+            </li>
+            <li data-title="Remove two electrons from Ca">
+              <p class="worked__why">A 2+ ion has lost two electrons. They come from the highest main energy level, which is 4s.</p>
+              <div class="worked__math">Ca<sup>2+</sup>: 20 − 2 = 18 electrons → <b>1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></b></div>
+            </li>
+            <li data-title="Add two electrons to S">
+              <p class="worked__why">A 2− ion has gained two electrons. They go into the next space, which is in 3p.</p>
+              <div class="worked__math">S<sup>2−</sup>: 16 + 2 = 18 electrons → <b>1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></b></div>
+            </li>
+            <li data-title="Check against a noble gas" data-label="Check">
+              <p class="worked__why" data-label="Check">Both ions have 18 electrons, the same configuration as an argon atom. That is a good sign for ions of main-group elements.</p>
+              <div class="worked__math">Ca<sup>2+</sup> = S<sup>2−</sup> = [Ar]</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Both ions are 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup>.</p></div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Do not write an ion with the atom’s configuration. <span class="chem">S^2-</span> is not <span class="mono">…3p<sup>4</sup></span>. Always adjust the electron count for the charge: a negative charge means extra electrons, a positive charge means fewer.</p>
+        </aside>
+
+        <div data-level="ahl">
+          <h3>Ions of the d-block metals: 4s goes first</h3>
+          <p>When a first-row d-block atom (Sc to Zn) forms a positive ion, <b>the 4s electrons are removed before any 3d electrons</b>. This seems backwards, because 4s filled first. But once the 3d sublevel contains electrons, it is lower in energy than 4s. The 4s electrons are then the outermost and the easiest to remove.</p>
+          <p>The syllabus places these ions under Structure 3.1 at HL, so you will meet them again there. They also appear in questions on this topic.</p>
+
+          <div class="worked" data-s1-worked data-kicker="Worked example 4" data-no-badge>
+            <h3 class="worked__title">Iron(II) and iron(III) ions</h3>
+            <div class="worked__problem">
+              <p>Deduce the condensed electron configurations of <span class="chem">Fe^2+</span> and <span class="chem">Fe^3+</span>.</p>
+            </div>
+            <ol class="worked__steps">
+              <li data-title="Start from the atom">
+                <p class="worked__why">You cannot write the ion without the atom. Do not start from the electron count of the ion and fill from 1s.</p>
+                <div class="worked__math">Fe: [Ar] 4s<sup>2</sup> 3d<sup>6</sup></div>
+              </li>
+              <li data-title="Remove two electrons, from 4s">
+                <p class="worked__why">For d-block ions, the 4s electrons are lost first.</p>
+                <div class="worked__math">Fe<sup>2+</sup>: <b>[Ar] 3d<sup>6</sup></b></div>
+              </li>
+              <li data-title="Remove a third electron, from 3d">
+                <p class="worked__why">4s is now empty, so the next electron comes from 3d.</p>
+                <div class="worked__math">Fe<sup>3+</sup>: <b>[Ar] 3d<sup>5</sup></b></div>
+              </li>
+              <li data-title="Check the electron count" data-label="Check">
+                <p class="worked__why" data-label="Check">Fe<sup>2+</sup> should have 26 − 2 = 24 electrons and Fe<sup>3+</sup> should have 26 − 3 = 23.</p>
+                <div class="worked__math">Fe<sup>2+</sup>: 18 + 6 = 24   Fe<sup>3+</sup>: 18 + 5 = 23</div>
+              </li>
+            </ol>
+            <div class="worked__answer"><p>Fe<sup>2+</sup> is [Ar] 3d<sup>6</sup> and Fe<sup>3+</sup> is [Ar] 3d<sup>5</sup>.</p></div>
+          </div>
+
+          <aside class="callout callout--mistake">
+            <p>Writing <span class="chem">Fe^2+</span> as <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>4</sup></span> removes the electrons from 3d. That is the most common error with these ions. Take them from 4s. For ions of Cr and Cu, start from the real atom configurations (4s<sup>1</sup>): <span class="chem">Cu^2+</span> is <span class="mono">[Ar] 3d<sup>9</sup></span> and <span class="chem">Cr^3+</span> is <span class="mono">[Ar] 3d<sup>3</sup></span>.</p>
+          </aside>
+
+          <div data-s1-numeric data-answer="5" data-tolerance="0.1" data-label="Unpaired electrons">
+            <div class="tryit__q"><p>How many unpaired electrons are there in an <span class="chem">Fe^3+</span> ion?</p></div>
+            <ol class="tryit__hints">
+              <li>Write the configuration of the ion first. Which electrons leave an iron atom first?</li>
+              <li><span class="chem">Fe^3+</span> is [Ar] 3d<sup>5</sup>. Put five electrons into five d orbitals using Hund’s rule.</li>
+            </ol>
+            <div class="tryit__solution">
+              <div class="worked__math">Fe<sup>3+</sup>: [Ar] 3d<sup>5</sup>   3d <span class="s13-ob"><span>↑</span><span>↑</span><span>↑</span><span>↑</span><span>↑</span></span></div>
+              <p>Each of the five 3d orbitals holds one electron, so there are <strong>5</strong> unpaired electrons.</p>
+            </div>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="3" data-tolerance="0.1" data-label="Unpaired electrons">
+          <div class="tryit__q"><p>How many unpaired electrons are there in a phosphorus atom (Z = 15) in its ground state?</p></div>
+          <ol class="tryit__hints">
+            <li>Write the configuration. Only a partly filled sublevel can contain unpaired electrons.</li>
+            <li>P is [Ne] 3s<sup>2</sup> 3p<sup>3</sup>. Place three electrons in the three 3p orbitals using Hund’s rule.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">P: [Ne] 3s<sup>2</sup> 3p<sup>3</sup>   3p <span class="s13-ob"><span>↑</span><span>↑</span><span>↑</span></span></div>
+            <p>Hund’s rule puts one electron in each 3p orbital, so there are <strong>3</strong> unpaired electrons.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="10" data-tolerance="0.1" data-label="Number of electrons">
+          <div class="tryit__q"><p>How many electrons are in the 3d sublevel of a copper atom (Z = 29)?</p></div>
+          <ol class="tryit__hints">
+            <li>Copper is one of the two exceptions. What happens to its 4s sublevel?</li>
+            <li>Cu is [Ar] 4s<sup>1</sup> 3d<sup>?</sup>. There are 29 − 18 = 11 electrons after the argon core, and one of them is in 4s.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">Cu: [Ar] 4s<sup>1</sup> 3d<sup>10</sup>   11 − 1 = 10</div>
+            <p>The 3d sublevel holds <strong>10</strong> electrons. Following the filling order without the exception would give 9, which is wrong.</p>
+          </div>
+        </div>
+
+        <div data-s13-quiz="Structure 1.3.5" data-count="5" data-title="Electron configurations: quick check"></div>
+      </section>
+
+      <hr class="spectrum">
+
+      <!-- ============================================================ 1.3.6 (a) -->
+      <section class="topic-section" id="ionization" data-level="ahl" data-toc="Convergence limit and ionization">
+        <span class="section-code">Structure 1.3.6</span>
+        <h2>The convergence limit and ionization energy</h2>
+
+        <p>Go back to the hydrogen energy levels. The levels converge at n = ∞. An electron that reaches n = ∞ is no longer held by the nucleus. It has left the atom. The atom has been <dfn data-def="Turned into an ion by removing (or adding) an electron.">ionized</dfn>.</p>
+
+        <p>The <dfn data-def="The minimum energy needed to remove one mole of electrons from one mole of gaseous atoms in their ground state, forming one mole of gaseous 1+ ions.">first ionization energy</dfn> (first IE) is the minimum energy needed to remove one mole of electrons from one mole of gaseous atoms in their ground state:</p>
+        <div class="eq">
+          <div class="eq__formula"><span class="chem">X(g) -> X+(g) + e-</span></div>
+          <dl class="eq__legend">
+            <div><dt>X(g)</dt><dd>one mole of gaseous atoms</dd></div>
+            <div><dt>X<sup>+</sup>(g)</dt><dd>one mole of gaseous ions with a 1+ charge</dd></div>
+            <div><dt>IE</dt><dd>the energy needed for this change, in <span class="unit">kJ mol-1</span></dd></div>
+          </dl>
+        </div>
+
+        <p>For hydrogen, that means lifting the electron from n = 1 to n = ∞. Now look at the emission spectrum. The lines from transitions down to n = 1 converge at a limit. A photon at that limit has exactly the energy of a fall from n = ∞ to n = 1. That is the same energy gap as ionization, travelled in the opposite direction.</p>
+
+        <aside class="callout callout--key">
+          <p>In an emission spectrum, the limit of convergence at higher frequency corresponds to ionization. Find the frequency or wavelength of that limit, and you can calculate the first ionization energy.</p>
+        </aside>
+
+        <p>In the hydrogen explorer above, choose “falls from ∞” and “to 1” to see this limit and its calculation.</p>
+
+        <h3>The two equations</h3>
+        <div class="eq">
+          <div class="eq__formula"><i>E</i> = <i>hf</i>     <i>c</i> = <i>λf</i></div>
+          <dl class="eq__legend">
+            <div><dt>E</dt><dd>energy of one photon <span class="unit">J</span></dd></div>
+            <div><dt>h</dt><dd>Planck constant, <span class="mono">6.63 × 10<sup>−34</sup></span> <span class="unit">J s</span></dd></div>
+            <div><dt>f</dt><dd>frequency <span class="unit">Hz</span> (the same as <span class="unit">s-1</span>)</dd></div>
+            <div><dt>c</dt><dd>speed of light, <span class="mono">3.00 × 10<sup>8</sup></span> <span class="unit">m s-1</span></dd></div>
+            <div><dt>λ</dt><dd>wavelength <span class="unit">m</span></dd></div>
+          </dl>
+        </div>
+
+        <aside class="callout callout--booklet">
+          <p>Both equations, and the values of <i>h</i>, <i>c</i> and the Avogadro constant (<span class="mono">6.02 × 10<sup>23</sup></span> <span class="unit">mol-1</span>), are in the data booklet. First ionization energies of the elements are in section 9.</p>
+        </aside>
+
+        <p><span class="mono">E = hf</span> gives the energy of <b>one photon</b>, which ionizes <b>one atom</b>. Ionization energies are quoted <b>per mole</b> of atoms, in kJ. So there are always two extra steps: multiply by the Avogadro constant, and convert J to kJ.</p>
+
+        <h3>Method in words</h3>
+        <p><b>From the convergence limit to the first IE:</b></p>
+        <ol>
+          <li>If you are given a wavelength, convert it to metres (<span class="mono">1 nm = 1 × 10<sup>−9</sup> m</span>), then find the frequency with <span class="mono">f = c / λ</span>.</li>
+          <li>Find the energy of one photon with <span class="mono">E = hf</span>. This is in joules, for one atom.</li>
+          <li>Multiply by <span class="mono">6.02 × 10<sup>23</sup></span> to get joules per mole.</li>
+          <li>Divide by 1000 to get <span class="unit">kJ mol-1</span>.</li>
+        </ol>
+        <p><b>From the first IE to the convergence limit</b> (the same steps, backwards):</p>
+        <ol>
+          <li>Multiply by 1000 to convert <span class="unit">kJ mol-1</span> to <span class="unit">J mol-1</span>.</li>
+          <li>Divide by <span class="mono">6.02 × 10<sup>23</sup></span> to get joules for one atom.</li>
+          <li>Find the frequency with <span class="mono">f = E / h</span>.</li>
+          <li>Find the wavelength with <span class="mono">λ = c / f</span>. Convert to nm if asked.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 5" data-no-badge>
+          <h3 class="worked__title">From convergence limit to first ionization energy</h3>
+          <div class="worked__problem">
+            <p>In the emission spectrum of hydrogen, the lines from transitions to n = 1 converge at a wavelength of 91.2 nm. Calculate the first ionization energy of hydrogen, in <span class="unit">kJ mol-1</span>.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Convert the wavelength to metres">
+              <p class="worked__why">The speed of light is in m s<sup>−1</sup>, so the wavelength must be in m. Nano means × 10<sup>−9</sup>.</p>
+              <div class="worked__math">λ = 91.2 nm = 91.2 × 10<sup>−9</sup> m = 9.12 × 10<sup>−8</sup> m</div>
+            </li>
+            <li data-title="Find the frequency">
+              <p class="worked__why">E = hf needs a frequency. Rearrange c = λf to get f = c / λ.</p>
+              <div class="worked__math"><i>f</i> = <i>c</i> / λ = (3.00 × 10<sup>8</sup> m s<sup>−1</sup>) / (9.12 × 10<sup>−8</sup> m)</div>
+              <div class="worked__math"><i>f</i> = 3.289… × 10<sup>15</sup> s<sup>−1</sup></div>
+            </li>
+            <li data-title="Find the energy for one atom">
+              <p class="worked__why">One photon at the limit has the energy needed to ionize one atom. Keep the unrounded frequency in your calculator.</p>
+              <div class="worked__math"><i>E</i> = <i>hf</i> = (6.63 × 10<sup>−34</sup> J s) × (3.289… × 10<sup>15</sup> s<sup>−1</sup>)</div>
+              <div class="worked__math"><i>E</i> = 2.180… × 10<sup>−18</sup> J</div>
+            </li>
+            <li data-title="Scale up to one mole">
+              <p class="worked__why">Ionization energy is per mole of atoms. One mole is 6.02 × 10<sup>23</sup> atoms.</p>
+              <div class="worked__math">2.180… × 10<sup>−18</sup> J × 6.02 × 10<sup>23</sup> mol<sup>−1</sup> = 1.312… × 10<sup>6</sup> J mol<sup>−1</sup></div>
+            </li>
+            <li data-title="Convert J to kJ and round">
+              <p class="worked__why">Divide by 1000. The data have 3 significant figures, so the answer does too.</p>
+              <div class="worked__math">1.312… × 10<sup>6</sup> J mol<sup>−1</sup> ÷ 1000 = 1312.9… kJ mol<sup>−1</sup></div>
+              <div class="worked__math">IE = <b>1310 kJ mol<sup>−1</sup></b> (3 s.f.)</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>1310 kJ mol<sup>−1</sup> (1.31 × 10<sup>3</sup> kJ mol<sup>−1</sup>). The data booklet value is 1312 kJ mol<sup>−1</sup>, so the answer is sensible.</p></div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 6" data-no-badge>
+          <h3 class="worked__title">From first ionization energy to wavelength</h3>
+          <div class="worked__problem">
+            <p>The first ionization energy of sodium is 496 kJ mol<sup>−1</sup>. Calculate the wavelength, in nm, of the convergence limit in the emission spectrum of sodium that corresponds to this ionization.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Convert kJ to J">
+              <p class="worked__why">The Planck constant is in J s, so the energy must be in J.</p>
+              <div class="worked__math">496 kJ mol<sup>−1</sup> × 1000 = 4.96 × 10<sup>5</sup> J mol<sup>−1</sup></div>
+            </li>
+            <li data-title="Find the energy for one atom">
+              <p class="worked__why">E = hf is about one photon and one atom. Divide by the number of atoms in a mole.</p>
+              <div class="worked__math"><i>E</i> = (4.96 × 10<sup>5</sup> J mol<sup>−1</sup>) / (6.02 × 10<sup>23</sup> mol<sup>−1</sup>)</div>
+              <div class="worked__math"><i>E</i> = 8.239… × 10<sup>−19</sup> J</div>
+            </li>
+            <li data-title="Find the frequency">
+              <p class="worked__why">Rearrange E = hf to get f = E / h.</p>
+              <div class="worked__math"><i>f</i> = <i>E</i> / <i>h</i> = (8.239… × 10<sup>−19</sup> J) / (6.63 × 10<sup>−34</sup> J s)</div>
+              <div class="worked__math"><i>f</i> = 1.242… × 10<sup>15</sup> s<sup>−1</sup></div>
+            </li>
+            <li data-title="Find the wavelength">
+              <p class="worked__why">Rearrange c = λf to get λ = c / f. The answer comes out in metres.</p>
+              <div class="worked__math">λ = <i>c</i> / <i>f</i> = (3.00 × 10<sup>8</sup> m s<sup>−1</sup>) / (1.242… × 10<sup>15</sup> s<sup>−1</sup>)</div>
+              <div class="worked__math">λ = 2.414… × 10<sup>−7</sup> m</div>
+            </li>
+            <li data-title="Convert m to nm and round">
+              <p class="worked__why">1 nm = 1 × 10<sup>−9</sup> m, so divide by 10<sup>−9</sup>. Three significant figures in the data.</p>
+              <div class="worked__math">λ = 2.414… × 10<sup>−7</sup> m = 241.4… × 10<sup>−9</sup> m = <b>241 nm</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>241 nm (2.41 × 10<sup>−7</sup> m). This is shorter than 400 nm, so the limit is in the ultraviolet.</p></div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Three slips cost most of the marks here. Leaving the wavelength in nm gives a frequency that is 10<sup>9</sup> times too small. Forgetting the Avogadro constant gives an answer that is wrong by a factor of 6.02 × 10<sup>23</sup>. Forgetting kJ ↔ J gives an answer wrong by 1000. Write the unit on every line and you will catch them.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>This calculation is usually worth 3 marks: one for the energy per atom (the Avogadro constant and the kJ ↔ J step), one for using <span class="mono">E = hf</span>, one for using <span class="mono">c = λf</span>. A wrong early step can still earn later marks if your working is clear, so show every line.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="2370.81" data-tolerance="1%" data-sigfigs="3" data-unit="kJ mol-1">
+          <div class="tryit__q"><p>The convergence limit in the emission spectrum of helium that corresponds to its first ionization has a frequency of 5.94 × 10<sup>15</sup> Hz. Calculate the first ionization energy of helium in kJ mol<sup>−1</sup>.</p></div>
+          <ol class="tryit__hints">
+            <li>You already have the frequency, so you can skip c = λf. Which equation turns a frequency into an energy?</li>
+            <li><span class="mono">E = hf = 6.63 × 10<sup>−34</sup> × 5.94 × 10<sup>15</sup></span> gives joules for one atom. Then two more steps: per mole, and J to kJ.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>E</i> = <i>hf</i> = (6.63 × 10<sup>−34</sup> J s) × (5.94 × 10<sup>15</sup> s<sup>−1</sup>) = 3.938… × 10<sup>−18</sup> J</div>
+            <div class="worked__math">3.938… × 10<sup>−18</sup> J × 6.02 × 10<sup>23</sup> mol<sup>−1</sup> = 2.370… × 10<sup>6</sup> J mol<sup>−1</sup></div>
+            <div class="worked__math">÷ 1000 = 2370.8… kJ mol<sup>−1</sup> = <b>2370 kJ mol<sup>−1</sup></b> (3 s.f.)</div>
+            <p>The data booklet value for helium is 2372 kJ mol<sup>−1</sup>.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="230.265" data-tolerance="1%" data-sigfigs="3" data-unit="nm">
+          <div class="tryit__q"><p>The first ionization energy of lithium is 520 kJ mol<sup>−1</sup>. Calculate the wavelength, in nm, of the convergence limit that corresponds to this ionization.</p></div>
+          <ol class="tryit__hints">
+            <li>Work backwards: kJ mol<sup>−1</sup> → J mol<sup>−1</sup> → J for one atom → frequency → wavelength.</li>
+            <li>Energy for one atom: <span class="mono">520 × 1000 / (6.02 × 10<sup>23</sup>)</span> J. Then <span class="mono">f = E / h</span> and <span class="mono">λ = c / f</span>. Your wavelength will be in metres.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>E</i> = (520 × 1000 J mol<sup>−1</sup>) / (6.02 × 10<sup>23</sup> mol<sup>−1</sup>) = 8.637… × 10<sup>−19</sup> J</div>
+            <div class="worked__math"><i>f</i> = <i>E</i> / <i>h</i> = (8.637… × 10<sup>−19</sup> J) / (6.63 × 10<sup>−34</sup> J s) = 1.302… × 10<sup>15</sup> s<sup>−1</sup></div>
+            <div class="worked__math">λ = <i>c</i> / <i>f</i> = (3.00 × 10<sup>8</sup> m s<sup>−1</sup>) / (1.302… × 10<sup>15</sup> s<sup>−1</sup>) = 2.302… × 10<sup>−7</sup> m</div>
+            <div class="worked__math">λ = <b>230 nm</b> (3 s.f.)</div>
+          </div>
+        </div>
+
+        <aside class="callout callout--scope">
+          <p>You do not need the electronvolt, the photoelectric effect, or calculations that use a formula for the energy of each level. Everything here uses only <span class="mono">E = hf</span>, <span class="mono">c = λf</span> and the Avogadro constant.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s1-3-q028,s1-3-q061,s1-3-q033,s1-3-q034,s1-3-q035,s1-3-q036,s1-3-q037,s1-3-q038,s1-3-q039" data-count="5" data-title="Convergence limit and ionization energy: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 1.3.6 (b) -->
+      <section class="topic-section" id="ie-trends" data-level="ahl" data-toc="Trends in first ionization energy">
+        <span class="section-code">Structure 1.3.6</span>
+        <h2>Trends in first ionization energy</h2>
+
+        <p>How hard is it to pull the outermost electron off an atom? It depends on how strongly the nucleus attracts that electron. Three things decide that.</p>
+        <ul>
+          <li><b>Nuclear charge.</b> More protons means a stronger pull.</li>
+          <li><b>Distance.</b> An electron in a higher main energy level is further from the nucleus, so the pull is weaker.</li>
+          <li><b>Shielding.</b> Electrons in inner main energy levels sit between the nucleus and the outer electron. They repel the outer electron and cancel part of the pull. This is called <dfn data-def="The reduction in the attraction between the nucleus and an outer electron, caused by repulsion from electrons in inner energy levels.">shielding</dfn>.</li>
+        </ul>
+
+        <figure data-s1-widget="s1-3.ie1" data-title="First ionization energy, hydrogen to krypton" data-start="5">
+          <p class="widget__fallback">A graph of first ionization energy against atomic number appears here when JavaScript is on. Values in kJ per mole for Z = 1 to 20: H 1312, He 2372, Li 520, Be 900, B 801, C 1086, N 1402, O 1314, F 1681, Ne 2081, Na 496, Mg 738, Al 578, Si 787, P 1012, S 1000, Cl 1251, Ar 1520, K 419, Ca 590.</p>
+          <figcaption>Tap a point or move the slider. The readout compares each element with the one before it (the trend across a period) and the one above it (the trend down a group). Values are from the data booklet.</figcaption>
+        </figure>
+
+        <h3>Across a period: a general increase</h3>
+        <p>From left to right across a period, each atom has one more proton. The extra electrons go into the same main energy level, so the shielding by inner electrons stays about the same. The outer electrons are pulled in more strongly, and more energy is needed to remove one.</p>
+
+        <h3>Down a group: a decrease</h3>
+        <p>Going down a group, the outer electron is in a higher main energy level each time. It is further from the nucleus and there are more inner electrons shielding it. These two effects outweigh the larger nuclear charge, so less energy is needed to remove it.</p>
+
+        <h3>Two discontinuities in each period</h3>
+        <p>The increase across a period is not smooth. A <dfn data-def="A break in a trend: a point where the value goes the opposite way to the general pattern.">discontinuity</dfn> is a place where the trend briefly goes the other way. There are two in period 2, and the same two in period 3.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The discontinuities and their explanations</caption>
+            <thead>
+              <tr><th scope="col">Where</th><th scope="col">Data / kJ mol<sup>−1</sup></th><th scope="col">Electron removed</th><th scope="col">Why the second is lower</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Group 2 → 13<br>Be → B, Mg → Al</th><td class="mono">Be 900, B 801<br>Mg 738, Al 578</td><td>Be: from 2s<br>B: from 2p</td><td>The p sublevel is higher in energy than the s sublevel of the same main energy level. An electron that starts higher in energy needs less energy to remove.</td></tr>
+              <tr><th scope="row">Group 15 → 16<br>N → O, P → S</th><td class="mono">N 1402, O 1314<br>P 1012, S 1000</td><td>N: from a singly occupied 2p orbital<br>O: from a doubly occupied 2p orbital</td><td>In O, two electrons share one 2p orbital. They repel each other, so one of them is removed more easily.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>The orbital diagrams show the second case clearly:</p>
+        <p class="mono">N  2p <span class="s13-ob"><span>↑</span><span>↑</span><span>↑</span></span> O  2p <span class="s13-ob"><span>↑↓</span><span>↑</span><span>↑</span></span></p>
+
+        <aside class="callout callout--key">
+          <p>These discontinuities are evidence that main energy levels are divided into sublevels. If n = 2 were a single level, first ionization energy would rise steadily from Li to Ne.</p>
+        </aside>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 7" data-no-badge>
+          <h3 class="worked__title">Explaining a discontinuity</h3>
+          <div class="worked__problem">
+            <p>(a) Explain why the first ionization energy of boron (801 kJ mol<sup>−1</sup>) is lower than that of beryllium (900 kJ mol<sup>−1</sup>). (b) Explain why the first ionization energy of oxygen (1314 kJ mol<sup>−1</sup>) is lower than that of nitrogen (1402 kJ mol<sup>−1</sup>).</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Write both configurations">
+              <p class="worked__why">The explanation is always about which electron is removed. You cannot see that without the configurations.</p>
+              <div class="worked__math">Be: 1s<sup>2</sup> 2s<sup>2</sup>   B: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>1</sup></div>
+              <div class="worked__math">N: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>3</sup>   O: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>4</sup></div>
+            </li>
+            <li data-title="(a) Name the sublevel each electron leaves">
+              <p class="worked__why">One mark is for identifying the two sublevels.</p>
+              <div class="worked__math">Be loses a 2s electron. B loses a 2p electron.</div>
+            </li>
+            <li data-title="(a) Give the energy reason">
+              <p class="worked__why">The second mark is for the reason, stated in terms of the energy of the electron removed.</p>
+              <div class="worked__math">2p is higher in energy than 2s,</div>
+              <div class="worked__math">so less energy is needed to remove the 2p electron.</div>
+            </li>
+            <li data-title="(b) Describe how the 2p orbitals are occupied">
+              <p class="worked__why">Both atoms lose a 2p electron, so the sublevel is not the difference this time. Look at the orbitals.</p>
+              <div class="worked__math">N: three 2p orbitals, each with one electron.</div>
+              <div class="worked__math">O: one 2p orbital holds a pair of electrons.</div>
+            </li>
+            <li data-title="(b) Give the energy reason">
+              <p class="worked__why">Repulsion raises the energy of the paired electron, which makes it easier to remove.</p>
+              <div class="worked__math">The two electrons in the same orbital repel each other,</div>
+              <div class="worked__math">so less energy is needed to remove one of them.</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>(a) The electron removed from B is in the 2p sublevel, which is higher in energy than the 2s sublevel that Be loses an electron from, so it is removed more easily. (b) The electron removed from O is paired in a 2p orbital; repulsion between the two electrons in that orbital means it is removed more easily than an electron from one of the singly occupied 2p orbitals in N.</p></div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>Base your explanation on <b>the energy of the electron being removed</b>. Do not write that a half-filled or full sublevel is “specially stable”: the syllabus asks you not to, and examiners have refused that kind of answer. Name the sublevels or orbitals, then say why the electron is easier to remove.</p>
+        </aside>
+
+        <aside class="callout callout--mistake">
+          <p>Shielding does not increase across a period, and atoms do not get bigger across a period. The outer electrons are in the same main energy level, so the number of inner, shielding electrons stays the same while the nuclear charge rises.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>You are not asked to calculate an “effective nuclear charge” or to explain the small changes across the d-block (Sc to Zn). The periodic trend in ionization energy comes back in Structure 3.1, with atomic radius and electronegativity. There, the general trend across a period and down a group is also SL content. The discontinuities stay HL only.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s1-3-q029,s1-3-q030,s1-3-q031,s1-3-q032,s1-3-q040,s1-3-q062,s1-3-q063" data-count="4" data-title="Trends in first ionization energy: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 1.3.7 -->
+      <section class="topic-section" id="successive" data-level="ahl" data-toc="Successive ionization energies">
+        <span class="section-code">Structure 1.3.7</span>
+        <h2>Successive ionization energies</h2>
+
+        <p>You can keep removing electrons from an atom, one at a time. The energies needed are the <dfn data-def="The energies needed to remove the first, second, third (and so on) electrons from an atom, one after another.">successive ionization energies</dfn>: first, second, third and so on. The second ionization energy is for this change:</p>
+        <div class="eq">
+          <div class="eq__formula"><span class="chem">X+(g) -> X^2+(g) + e-</span></div>
+          <dl class="eq__legend">
+            <div><dt>X<sup>+</sup>(g)</dt><dd>one mole of gaseous 1+ ions</dd></div>
+            <div><dt>X<sup>2+</sup>(g)</dt><dd>one mole of gaseous 2+ ions</dd></div>
+          </dl>
+        </div>
+
+        <h3>Two patterns to explain</h3>
+        <p><b>They always increase.</b> Each electron is pulled away from an ion with a greater positive charge than the last. The same nuclear charge attracts fewer electrons, and there is less repulsion between the electrons that remain. The remaining electrons are held more strongly.</p>
+        <p><b>Sometimes there is a large jump.</b> A large jump means the next electron comes from a main energy level closer to the nucleus. That electron is nearer to the nucleus and has fewer inner electrons shielding it, so it is held far more strongly.</p>
+
+        <aside class="callout callout--key">
+          <p>Count the electrons removed <b>before</b> the first large jump. That is the number of electrons in the outer main energy level, and it tells you the group. One electron before the jump: group 1. Three before the jump: group 13.</p>
+        </aside>
+
+        <figure data-s1-widget="s1-3.succ" data-title="Successive ionization energies detective" data-start="Al">
+          <p class="widget__fallback">A graph of successive ionization energies appears here when JavaScript is on. Example, aluminium, in kJ per mole: 578, 1817, 2745, then a large jump to 11577, 14842, 18379. Three electrons are removed before the jump, so aluminium is in group 13.</p>
+          <figcaption>Choose an element and find the large jumps. The brackets show which main energy level each electron comes from. Switch the scale from log(IE) to IE to see why a log scale is used. Then choose “Mystery element” and deduce its group.</figcaption>
+        </figure>
+
+        <h3>Why the graph uses a log scale</h3>
+        <p>Successive ionization energies cover a huge range. For sodium, the first is 496 kJ mol<sup>−1</sup> and the last is 159 076 kJ mol<sup>−1</sup>. On an ordinary scale, the small early values are squashed flat against the axis and the jumps among them disappear. Plotting <span class="mono">log(IE)</span> compresses the range, so every jump is visible on one graph.</p>
+        <p>A log scale also shows what matters: how many <em>times</em> bigger each value is than the one before, not how many kJ bigger.</p>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 8" data-no-badge>
+          <h3 class="worked__title">Deducing the group from data</h3>
+          <div class="worked__problem">
+            <p>The first six successive ionization energies of a period 3 element X, in kJ mol<sup>−1</sup>, are: <span class="mono">738, 1451, 7733, 10 543, 13 630, 18 020</span>. Deduce the group of X, identify X, and state its electron configuration.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Compare each value with the one before">
+              <p class="worked__why">You are looking for one step that is much bigger than the others. Divide each value by the previous one.</p>
+              <div class="worked__math">1451 / 738 = 1.97   7733 / 1451 = 5.33   10 543 / 7733 = 1.36</div>
+              <div class="worked__math">13 630 / 10 543 = 1.29   18 020 / 13 630 = 1.32</div>
+            </li>
+            <li data-title="Locate the large jump">
+              <p class="worked__why">Most steps are less than 2 times. One step is more than 5 times.</p>
+              <div class="worked__math">Large jump between the 2nd and 3rd ionization energies</div>
+            </li>
+            <li data-title="Count the electrons before the jump">
+              <p class="worked__why">Electrons removed before the jump are in the outer main energy level. The third electron comes from the next level in.</p>
+              <div class="worked__math">2 outer electrons → <b>group 2</b></div>
+            </li>
+            <li data-title="Identify the element and write its configuration">
+              <p class="worked__why">Period 3 means the outer electrons are in n = 3. Group 2 means there are two of them, in 3s.</p>
+              <div class="worked__math">X = Mg: <b>1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup></b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>X is in group 2. It is magnesium, 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup>.</p></div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Two slips to avoid. First, off by one: if the jump is between the 3rd and 4th values, the element has 3 outer electrons, not 4. Second, do not judge by the size of the gap in kJ. In the magnesium data the gap from the 8th to the 9th value is 5992 kJ mol<sup>−1</sup>, almost as big as the true jump (6282 kJ mol<sup>−1</sup>), but it is only a 1.23 times increase.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>Give the IUPAC group number. Three outer electrons means group <b>13</b>, not group 3. Five means group 15. To explain a jump, write: the electron is removed from a main energy level <b>closer to the nucleus</b>, with <b>less shielding</b>, so it is attracted more strongly.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="15" data-tolerance="0.1" data-label="Group number">
+          <div class="tryit__q"><p>The first seven successive ionization energies of an element, in kJ mol<sup>−1</sup>, are: <span class="mono">1012, 1907, 2914, 4964, 6274, 21 267, 25 431</span>. Which group of the periodic table is the element in?</p></div>
+          <ol class="tryit__hints">
+            <li>Find the step where the value becomes several times bigger. Count how many electrons were removed before it.</li>
+            <li>The large jump is from 6274 to 21 267, between the 5th and 6th values. So there are 5 outer electrons. Which group has 5 outer electrons?</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">21 267 / 6274 = 3.39 (all other steps are less than 2 times)</div>
+            <p>The jump comes after the 5th electron, so the element has 5 outer electrons. It is in group <strong>15</strong>. (The data are for phosphorus.)</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--scope">
+          <p>You never need to remember ionization energy values. Questions give you the data, as a table or a graph. Databases are a good source if you want to plot your own.</p>
+        </aside>
+
+        <div data-s13-quiz="Structure 1.3.7" data-count="4" data-title="Successive ionization energies: quick check"></div>
+      </section>
+
+      <!-- ============================================================ LINKS -->
+      <section class="topic-section" id="links">
+        <h2>Linking it up</h2>
+        <p>The syllabus asks questions that connect this topic to others. Here are short answers to four of them.</p>
+
+        <h3>How do emission spectra provide evidence for the existence of different elements?</h3>
+        <p>Every element has its own set of energy levels, because every element has a different nuclear charge and a different number of electrons. So every element emits its own pattern of lines, like a fingerprint. A set of lines that matches no known element points to a new one. Helium was detected in the spectrum of the Sun before it was found on Earth.</p>
+
+        <h3>How does an element’s highest main energy level relate to its period number?</h3>
+        <p>They are the same number. Sodium is <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>1</sup></span>. Its highest occupied main energy level is n = 3, and it is in period 3. You will use this in Structure 3.1.</p>
+
+        <h3>What is the relationship between energy sublevels and the blocks of the periodic table?</h3>
+        <p>The block tells you which type of sublevel is being filled. Groups 1 and 2 are the s-block. Groups 13 to 18 are the p-block. Groups 3 to 12 are the d-block. The widths match the sublevels: 2 columns for s (2 electrons), 6 for p, 10 for d. This is developed in Structure 3.1.</p>
+
+        <div data-level="ahl">
+          <h3>Why are log scales useful when discussing ionization energies and [H<sup>+</sup>]?</h3>
+          <p>Both quantities range over many powers of ten. A log scale turns “ten times bigger” into “one unit higher”, so very large and very small values fit on one readable axis. For ionization energies that makes the jumps visible. For hydrogen ion concentration it gives the pH scale, which you will meet in Reactivity 3.1.</p>
+
+          <h3>How do successive ionization energies help to explain variable oxidation states?</h3>
+          <p>For a first-row transition element, the 4s and 3d electrons are close in energy, so the first few successive ionization energies rise gradually with no large jump between them. Several different numbers of electrons can be lost for a similar energy cost. That is why iron forms both <span class="chem">Fe^2+</span> and <span class="chem">Fe^3+</span>. This is developed in Structure 3.1 at HL.</p>
+        </div>
+      </section>
+
+      <!-- ============================================================ PRACTICE -->
+      <section class="topic-section" id="practice">
+        <h2>Exam-style practice</h2>
+        <p>Three sets, from first steps to stretch. You get feedback after each question, and questions you have not yet answered correctly come up first.</p>
+        <div data-s1-quiz data-topic="s1-3" data-tier="foundation" data-count="6" data-title="1.3 Foundation: one idea at a time"></div>
+        <div data-s1-quiz data-topic="s1-3" data-tier="exam" data-count="6" data-title="1.3 Exam standard"></div>
+        <div data-s1-quiz data-topic="s1-3" data-tier="challenge" data-count="4" data-title="1.3 Challenge"></div>
+        <div data-level="ahl" data-no-badge>
+          <div data-s1-quiz data-topic="s1-3" data-level="ahl" data-count="6" data-title="1.3 Additional HL only: ionization energies"></div>
+        </div>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../data/questions-s1-3.js"></script>
+<script src="../assets/js/widgets-s1-3.js"></script>
+</body>
+</html>

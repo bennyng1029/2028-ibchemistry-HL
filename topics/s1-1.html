@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1.1 Particulate nature of matter | Structure 1 Lab</title>
+<meta name="description" content="IB Chemistry Structure 1.1: elements, compounds and mixtures, states of matter, changes of state and the kelvin temperature scale.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for topic 1.1 (tokens only). */
+.p11-svg { display: block; width: 100%; height: auto; }
+.p11-svg text { font: 13px var(--font-body); fill: var(--ink); }
+.p11-svg .num { font: 700 15px var(--font-mono); fill: var(--accent-ink); }
+.p11-svg .big { font: 700 14px var(--font-body); }
+.p11-svg .ln { fill: none; stroke: var(--ink); stroke-width: 1.6; stroke-linejoin: round; stroke-linecap: round; }
+.p11-svg .thick { stroke-width: 3; }
+.p11-svg .thin { stroke-width: 1; }
+.p11-svg .dash { stroke-dasharray: 4 3; }
+.p11-svg .lead { stroke: var(--ink-3); stroke-width: 1; }
+.p11-svg .liq { fill: var(--accent-soft); }
+.p11-svg .bg { fill: var(--surface); }
+.p11-svg .box { fill: var(--surface-2); stroke: var(--ink); stroke-width: 1.6; }
+.p11-svg .paper { fill: var(--surface); stroke: var(--ink); stroke-width: 1.2; }
+.p11-svg .solid { fill: var(--ink-2); }
+.p11-svg .liq-drop { fill: var(--accent); }
+.p11-svg .ah { fill: var(--ink); }
+.p11-svg .muted { fill: var(--ink-2); }
+.p11-fig { margin: 1.75rem 0; max-width: 34rem; border: 1px solid var(--line-strong); background: var(--surface); }
+.p11-fig > svg { padding: 0.75rem 1rem; box-sizing: border-box; }
+.p11-fig figcaption { padding: 0.65rem 1rem 0.8rem; border-top: 1px solid var(--line); font-size: 0.9rem; color: var(--ink-2); }
+.p11-schem { max-width: 30rem; margin: 0.5rem auto 0; }
+.p11-schem__title { margin: 1rem 0 0.25rem; font-weight: 700; }
+.p11-task { margin: 0 0 1rem; padding: 0.7rem 0.9rem; background: var(--surface-2); border-left: 4px solid var(--accent); }
+.p11-step { margin: 1rem 0 0.4rem; font-weight: 700; }
+.p11-step:first-child { margin-top: 0; }
+.p11-opts { display: grid; gap: 0.45rem; margin: 0 0 0.25rem; }
+.p11-opts .btn { justify-content: flex-start; text-align: left; font-weight: 400; line-height: 1.35; }
+.p11-opts .btn[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); font-weight: 700; }
+.p11-bins { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.6rem; }
+.p11-bin { border: 1px solid var(--line-strong); padding: 0.5rem; min-height: 7rem; background: var(--surface); }
+.p11-bin .btn { width: 100%; }
+.p11-bin ul { list-style: none; margin: 0.6rem 0 0; padding: 0; font-size: 0.88rem; }
+.p11-bin li { padding: 0.2rem 0; border-top: 1px solid var(--line); }
+@media (max-width: 44rem) { .p11-bins { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+/* long equations inside quiz options must wrap on phones */
+.q__option .chem, .q__solution .chem, .feedback .chem { white-space: normal; }
+.method { counter-reset: m; list-style: none; padding: 0; }
+.method > li { counter-increment: m; position: relative; padding: 0 0 0.5rem 2.2rem; }
+.method > li::before { content: counter(m); position: absolute; left: 0; top: 0.1rem; width: 1.5rem; height: 1.5rem; display: grid; place-items: center; font: 700 0.85rem var(--font-mono); color: var(--on-accent); background: var(--accent); border-radius: var(--radius); }
+</style>
+</head>
+<body data-page="s1-1">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <!-- Hero: tile + title + guiding question -->
+  <header class="topic-hero wrap">
+    <div data-s1-tile="s1-1"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Structure 1.1</p>
+      <h1>Introduction to the particulate nature of matter</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>How can we model the particulate nature of matter?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <!-- Section nav: filled in automatically from the .topic-section headings -->
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <section class="topic-section" id="goals">
+        <h2>What you need to be able to do</h2>
+        <p>Tick each one when you can do it without looking at your notes. Everything in this topic is SL core. There is no Additional HL content in 1.1.</p>
+        <ul class="checklist" data-s1-checklist="s1-1">
+          <li data-id="classify" data-level="sl">Tell apart elements, compounds and mixtures from their properties.</li>
+          <li data-id="mixtures" data-level="sl">Say whether a mixture is homogeneous or heterogeneous, and why.</li>
+          <li data-id="separate" data-level="sl">Choose a suitable method to separate a mixture: solvation, filtration, recrystallization, evaporation, distillation or paper chromatography.</li>
+          <li data-id="states" data-level="sl">Use the kinetic molecular theory to describe and explain the properties of solids, liquids and gases.</li>
+          <li data-id="changes" data-level="sl">Name the six changes of state and say whether each one absorbs or releases energy.</li>
+          <li data-id="symbols" data-level="sl">Use the state symbols (s), (l), (g) and (aq) in chemical equations.</li>
+          <li data-id="curves" data-level="sl">Interpret what happens to temperature and to the particles during a change of state, for example on a heating curve.</li>
+          <li data-id="kelvin" data-level="sl">Convert between degrees Celsius and kelvin, and link temperature in kelvin to the average kinetic energy of the particles.</li>
+        </ul>
+      </section>
+
+      <!-- ================= 1.1.1 ================= -->
+      <section class="topic-section" id="matter">
+        <span class="section-code">Structure 1.1.1</span>
+        <h2>Elements, compounds and mixtures</h2>
+        <p>Think about a glass of sea water. You can get salt out of it by leaving it in the sun. You cannot get hydrogen out of the water that way. The salt and the water are only mixed. The hydrogen and oxygen in the water are chemically bonded. That difference is what this section is about.</p>
+
+        <p>An <dfn data-def="A substance that cannot be chemically broken down into simpler substances. It contains only one type of atom.">element</dfn> is a substance that cannot be chemically broken down into simpler substances. It contains only one type of atom. Examples: copper, <span class="chem">O2</span>, diamond.</p>
+        <p>A <dfn data-def="A substance made of atoms of two or more different elements, chemically bonded together in a fixed ratio.">compound</dfn> is made of atoms of different elements, chemically bonded together in a fixed ratio. Examples: <span class="chem">H2O</span>, <span class="chem">NaCl</span>, <span class="chem">CO2</span>.</p>
+        <p>A <dfn data-def="More than one element or compound, in no fixed ratio, not chemically bonded to each other. It can be separated by physical methods.">mixture</dfn> contains more than one element or compound, in no fixed ratio. The parts are not chemically bonded to each other, so they can be separated by physical methods. Examples: air, sea water.</p>
+
+        <aside class="callout callout--key">
+          <p>A compound has different properties from the elements in it. A mixture keeps the properties of its parts. That is why a mixture can be separated by physical methods and a compound cannot.</p>
+        </aside>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Three kinds of matter</caption>
+            <thead>
+              <tr><th scope="col">Type</th><th scope="col">Examples</th><th scope="col">Composition</th><th scope="col">Properties</th><th scope="col">How to separate the parts</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Element</th><td>copper, <span class="chem">O2</span></td><td>one type of atom</td><td>its own fixed properties</td><td>cannot be broken down chemically</td></tr>
+              <tr><th scope="row">Compound</th><td><span class="chem">NaCl</span>, <span class="chem">CO2</span></td><td>different elements, bonded, fixed ratio</td><td>different from its elements</td><td>chemical reaction only</td></tr>
+              <tr><th scope="row">Mixture</th><td>air, sea water</td><td>no fixed ratio, not bonded to each other</td><td>each part keeps its own</td><td>physical methods</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>Here is one example of “different properties”. Sodium is a soft metal that reacts violently with water. Chlorine is a toxic yellow-green gas. The compound sodium chloride is the white solid you put on food.</p>
+
+        <aside class="callout callout--mistake">
+          <p>“Pure” in everyday speech means natural or clean. In chemistry a pure substance is a single element or a single compound. Pure orange juice is a mixture.</p>
+        </aside>
+
+        <aside class="callout callout--mistake">
+          <p>An element is not always single atoms. <span class="chem">O2</span>, <span class="chem">N2</span> and <span class="chem">Cl2</span> are molecules, but each contains only one type of atom, so each is an element.</p>
+        </aside>
+
+        <h3>Homogeneous and heterogeneous mixtures</h3>
+        <p>Stir salt into water and it disappears. Stir sand into water and you still see the sand. Both are mixtures, but they are different kinds.</p>
+        <p>A <dfn data-def="A mixture with the same composition and properties throughout. You cannot see separate parts.">homogeneous mixture</dfn> has the same composition and properties throughout. You cannot see separate parts. Solutions are homogeneous. So is air.</p>
+        <p>A <dfn data-def="A mixture whose composition is not the same throughout. It has separate regions with different properties.">heterogeneous mixture</dfn> does not have the same composition throughout. It has separate regions with different properties. Sand in water and oil on water are heterogeneous.</p>
+
+        <aside class="callout callout--mistake">
+          <p>A homogeneous mixture is not a compound. Salt water looks like one substance, but the salt and water are not chemically bonded in a fixed ratio. You can add more salt, and you can get the salt back by evaporating the water.</p>
+        </aside>
+
+        <figure data-s1-widget="s1-1.sorter" data-title="Classify it">
+          <p class="widget__fallback">A sorting activity appears here when JavaScript is on. It asks you to sort twelve substances into element, compound, homogeneous mixture or heterogeneous mixture.</p>
+          <figcaption>Pick a substance, then choose its box. Ask two questions each time. Is it one substance or more than one? If it is one, how many types of atom? If it is more than one, can you see separate parts?</figcaption>
+        </figure>
+
+        <aside class="callout callout--exam">
+          <p>To “distinguish between an element and a compound”, give one clear statement about each. An element contains only one type of atom. A compound contains atoms of different elements chemically bonded in a fixed ratio. If a question asks for a physical property that differs, do not give a chemical property or a molar mass.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>You do not need colloids, suspensions or emulsions as separate categories. Homogeneous and heterogeneous are enough. Why particular substances do or do not mix is explained with intermolecular forces later, in Structure 2.2.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s1-1-q001,s1-1-q006,s1-1-q013" data-count="0" data-title="Elements, compounds and mixtures: quick check"></div>
+      </section>
+
+      <section class="topic-section" id="separating" data-toc="Separating mixtures">
+        <span class="section-code">Structure 1.1.1</span>
+        <h2>Separating mixtures</h2>
+        <p>Making coffee uses two separation techniques. Hot water dissolves the flavour compounds out of the ground beans. Then a paper filter holds back the grounds and lets the solution through.</p>
+        <p>Every separation works the same way. You find a <strong>physical property that is different</strong> for the parts of the mixture, and you pick a technique that uses that difference.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The six techniques named in the syllabus</caption>
+            <thead>
+              <tr><th scope="col">Technique</th><th scope="col">Property that differs</th><th scope="col">What it separates</th><th scope="col">Words to use</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Solvation (dissolving)</th><td>solubility in a chosen solvent</td><td>a soluble solid from an insoluble solid (first step)</td><td>solute, solvent, solution</td></tr>
+              <tr><th scope="row">Filtration</th><td>particle size: an undissolved solid cannot pass through filter paper</td><td>an insoluble solid from a liquid or solution</td><td>residue (on the paper), filtrate (passes through)</td></tr>
+              <tr><th scope="row">Evaporation</th><td>volatility: the solvent turns to vapour, the dissolved solid does not</td><td>a dissolved solid from its solvent (you keep the solid)</td><td>heat to evaporate, then leave to crystallize</td></tr>
+              <tr><th scope="row">Distillation</th><td>volatility (boiling point)</td><td>a solvent from a solution, or two liquids that mix and have different boiling points (you keep the liquid)</td><td>boil, condense, distillate</td></tr>
+              <tr><th scope="row">Recrystallization</th><td>solubility in hot solvent compared with cold solvent</td><td>a solid product from small amounts of impurities</td><td>minimum volume of hot solvent, cool, filter, rinse, dry</td></tr>
+              <tr><th scope="row">Paper chromatography</th><td>how strongly each part is attracted to the paper compared with the moving solvent</td><td>small amounts of dissolved substances, such as dyes</td><td>baseline, solvent front, spots</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p><dfn data-def="The process in which particles of a solute become surrounded by solvent particles and spread out through the solvent. In everyday words: dissolving.">Solvation</dfn> is the chemist’s word for dissolving: solvent particles surround the solute particles and carry them into the liquid. A liquid is <dfn data-def="A volatile liquid turns to vapour easily. It has a low boiling point.">volatile</dfn> if it turns to vapour easily, which means it has a low boiling point.</p>
+
+        <figure data-s1-widget="s1-1.apparatus" data-title="What each technique looks like" data-kicker="Diagrams">
+          <p class="widget__fallback">Labelled diagrams of filtration, solvation, evaporation, distillation, recrystallization and paper chromatography appear here when JavaScript is on.</p>
+          <figcaption>Choose a technique to see a labelled diagram. These are simple sketches, not drawn to scale. Notice where each part of the mixture ends up.</figcaption>
+        </figure>
+
+        <h3>How to choose a technique</h3>
+        <ol class="method">
+          <li>List what is in the mixture and the state of each part: solid, liquid or dissolved.</li>
+          <li>Decide which part you want to keep.</li>
+          <li>Find a physical property that is different: solubility, particle size, boiling point, or attraction to paper.</li>
+          <li>Pick the technique that uses that difference. Use more than one step if you need to.</li>
+          <li>Finish the job: dry a solid, or evaporate the solvent from a filtrate.</li>
+        </ol>
+
+        <figure data-s1-widget="s1-1.separate" data-title="Separation chooser">
+          <p class="widget__fallback">A step-by-step activity appears here when JavaScript is on. You pick a mixture, choose the property that differs, then choose the technique.</p>
+          <figcaption>Choose a mixture, then answer the two steps. Notice that the same property difference can lead to different techniques. It depends on which part you want to keep.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example: planning a separation">
+          <h3 class="worked__title">Getting dry sand and dry salt from a mixture of the two</h3>
+          <div class="worked__problem">
+            <p>A student has a dry mixture of sand and salt (sodium chloride). Outline how to obtain a dry sample of each solid.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the property that differs">
+              <p class="worked__why">Every separation starts from a difference in a physical property.</p>
+              <p>Salt is soluble in water. Sand is insoluble in water.</p>
+            </li>
+            <li data-title="Dissolve the salt">
+              <p class="worked__why">Solvation moves the salt into the liquid and leaves the sand as a solid.</p>
+              <p>Add distilled water to the mixture and stir until no more solid dissolves.</p>
+            </li>
+            <li data-title="Filter">
+              <p class="worked__why">The undissolved sand grains cannot pass through filter paper. The dissolved salt can.</p>
+              <p>Pour the mixture through filter paper in a funnel. Sand is the residue. Salt solution is the filtrate.</p>
+            </li>
+            <li data-title="Finish the sand">
+              <p class="worked__why">The sand is wet, and it has salt solution on it.</p>
+              <p>Rinse the residue with a little distilled water, then leave it to dry.</p>
+            </li>
+            <li data-title="Finish the salt">
+              <p class="worked__why">The salt is still dissolved. Water is volatile and salt is not.</p>
+              <p>Heat the filtrate to evaporate the water. Leave it to crystallize, then dry the crystals.</p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Add water and stir, filter, rinse and dry the residue (sand), evaporate the water from the filtrate and dry the crystals (salt).</p></div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>In a separation plan, each workable step in a sensible order earns a mark. The steps students forget are the last ones: drying the residue and evaporating the filtrate. Use any physical property the question gives you. For example, if one solid is magnetic, remove it with a magnet first.</p>
+        </aside>
+
+        <h3>Recrystallization, step by step</h3>
+        <p>Recrystallization purifies a solid that contains small amounts of impurities. It works when the solid is very soluble in the hot solvent and much less soluble in the cold solvent.</p>
+        <ol class="method">
+          <li>Dissolve the impure solid in the <strong>minimum volume of hot solvent</strong>.</li>
+          <li>Filter the solution while it is hot. Insoluble impurities stay on the filter paper.</li>
+          <li>Let the filtrate cool. The product is less soluble in cold solvent, so it forms crystals. Soluble impurities are present in small amounts, so they stay dissolved.</li>
+          <li>Filter to collect the crystals.</li>
+          <li>Rinse the crystals with a little <strong>cold</strong> solvent, then dry them.</li>
+        </ol>
+
+        <aside class="callout callout--mistake">
+          <p>Using plenty of hot solvent “to be safe” loses product. The more solvent there is, the more product stays dissolved after cooling, so fewer crystals form. The same idea explains the cold rinse: warm solvent would dissolve some of your crystals again.</p>
+        </aside>
+
+        <h3>Paper chromatography in practice</h3>
+        <p>Draw the baseline in pencil, because pencil does not dissolve in the solvent. Put a small spot of the mixture on the baseline. Stand the paper in a little solvent, with the solvent level <strong>below</strong> the baseline. If the spot started under the solvent, the dyes would dissolve into the beaker instead of moving up the paper. A pure substance gives one spot. A mixture gives more than one.</p>
+
+        <aside class="callout callout--scope">
+          <p>You do not need retardation factor (R<sub>f</sub>) calculations or the terms stationary phase and mobile phase in this topic. They come later, in Structure 2.2, together with thin layer chromatography. You also do not need the details of fractionating columns, centrifuges or separating funnels here.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s1-1-q004,s1-1-q011,s1-1-q012,s1-1-q014" data-count="0" data-title="Separating mixtures: quick check"></div>
+      </section>
+
+      <!-- ================= 1.1.2 ================= -->
+      <section class="topic-section" id="states" data-toc="States of matter">
+        <span class="section-code">Structure 1.1.2</span>
+        <h2>The kinetic molecular theory and states of matter</h2>
+        <p>An ice cube keeps its shape on a plate. When it melts, the water spreads out. When the water boils away, the steam fills the kitchen. It is the same substance, <span class="chem">H2O</span>, each time. What changes is how its particles are arranged and how they move.</p>
+        <p>The <dfn data-def="A model that explains the physical properties of solids, liquids and gases, and changes of state, in terms of particles that are always moving.">kinetic molecular theory</dfn> is a model. It says that all matter is made of particles that are always moving, and that there are forces of attraction between them. With those two ideas you can explain the physical properties of solids, liquids and gases.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Solids, liquids and gases in the particle model</caption>
+            <thead>
+              <tr><th scope="col"></th><th scope="col">Solid</th><th scope="col">Liquid</th><th scope="col">Gas</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Arrangement</th><td>regular, fixed positions</td><td>random</td><td>random</td></tr>
+              <tr><th scope="row">Spacing</th><td>close together</td><td>close together</td><td>far apart</td></tr>
+              <tr><th scope="row">Movement</th><td>vibrate about fixed positions</td><td>move past each other</td><td>move quickly in all directions</td></tr>
+              <tr><th scope="row">Attractions between particles</th><td>strong enough to hold particles in place</td><td>hold particles close, but not in place</td><td>very weak, because the particles are far apart</td></tr>
+              <tr><th scope="row">Shape</th><td>fixed</td><td>takes the shape of its container</td><td>fills its container</td></tr>
+              <tr><th scope="row">Volume</th><td>fixed</td><td>fixed</td><td>not fixed: fills its container</td></tr>
+              <tr><th scope="row">Can it be compressed?</th><td>no (almost)</td><td>no (almost)</td><td>yes, easily</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <figure data-s1-widget="s1-1.particles" data-title="Particle model: solid, liquid, gas">
+          <p class="widget__fallback">An animated particle model appears here when JavaScript is on. It shows a substance as a solid, liquid or gas as you change the temperature.</p>
+          <figcaption>Choose a substance and move the temperature slider. Watch the arrangement, the spacing and the movement. This is a model: it is flat (2-D), it shows only 48 particles, and it is not to scale. In a real gas at room pressure the particles are about ten times further apart than in the liquid. Speeds are only a guide. The model also does not show that ice is slightly less dense than liquid water, which is unusual. Melting and boiling points are rounded to the nearest degree, at normal atmospheric pressure.</figcaption>
+        </figure>
+
+        <aside class="callout callout--key">
+          <p>Link each property to the particles. Solids and liquids are hard to compress because their particles are already close together. Gases are easy to compress because there is a lot of empty space between the particles. Liquids and gases flow because their particles can move past each other.</p>
+        </aside>
+
+        <aside class="callout callout--mistake">
+          <p>The particles themselves do not expand, melt or get hot. When a substance is heated, its particles move faster and usually move further apart. Each particle stays the same size.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>When you describe a state, cover three things: arrangement, spacing and movement. For example, for a liquid: “particles are close together, randomly arranged, and move past each other”.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>You do not need other states such as plasma, or phase diagrams and triple points. Why one substance is a solid and another a gas at room temperature depends on the bonding and the forces between particles. That comes in Structure 2.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="changes" data-toc="Changes of state">
+        <span class="section-code">Structure 1.1.2</span>
+        <h2>Changes of state and state symbols</h2>
+        <p>A puddle dries up. A cold window mists over. Frost forms on a freezing night without any liquid water appearing first. Each of these is a change of state, and each has a name you need to know.</p>
+
+        <figure class="p11-fig">
+          <svg class="p11-svg" viewBox="0 0 360 232" role="img" aria-label="Diagram of the six changes of state. Solid to liquid is melting. Liquid to gas is vaporization. Solid to gas is sublimation. These three absorb energy. Gas to liquid is condensation. Liquid to solid is freezing. Gas to solid is deposition. These three release energy.">
+            <defs><marker id="p11-fig-ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="ah" d="M0 0 L10 5 L0 10 z"/></marker></defs>
+            <text x="180" y="14" text-anchor="middle" class="muted">energy absorbed (endothermic): arrows pointing right</text>
+            <rect class="box" x="8" y="96" width="76" height="40"/><text class="big" x="46" y="121" text-anchor="middle">SOLID</text>
+            <rect class="box" x="142" y="96" width="76" height="40"/><text class="big" x="180" y="121" text-anchor="middle">LIQUID</text>
+            <rect class="box" x="276" y="96" width="76" height="40"/><text class="big" x="314" y="121" text-anchor="middle">GAS</text>
+            <line class="ln" x1="88" y1="108" x2="138" y2="108" marker-end="url(#p11-fig-ah)"/>
+            <text x="113" y="88" text-anchor="middle">melting</text>
+            <line class="ln" x1="222" y1="108" x2="272" y2="108" marker-end="url(#p11-fig-ah)"/>
+            <text x="247" y="88" text-anchor="middle">vaporization</text>
+            <path class="ln" d="M46 92 C46 30 314 30 314 92" marker-end="url(#p11-fig-ah)"/>
+            <text x="180" y="40" text-anchor="middle">sublimation</text>
+            <line class="ln" x1="138" y1="124" x2="88" y2="124" marker-end="url(#p11-fig-ah)"/>
+            <text x="113" y="154" text-anchor="middle">freezing</text>
+            <line class="ln" x1="272" y1="124" x2="222" y2="124" marker-end="url(#p11-fig-ah)"/>
+            <text x="247" y="154" text-anchor="middle">condensation</text>
+            <path class="ln" d="M314 140 C314 202 46 202 46 140" marker-end="url(#p11-fig-ah)"/>
+            <text x="180" y="204" text-anchor="middle">deposition</text>
+            <text x="180" y="226" text-anchor="middle" class="muted">energy released (exothermic): arrows pointing left</text>
+          </svg>
+          <figcaption>The six changes of state. Changes that overcome attractions between particles absorb energy. Changes in which attractions form between particles release energy.</figcaption>
+        </figure>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Names of the changes of state</caption>
+            <thead>
+              <tr><th scope="col">Change</th><th scope="col">Name</th><th scope="col">Energy</th><th scope="col">Example</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">solid → liquid</th><td>melting</td><td>absorbed (endothermic)</td><td>ice melting in a drink</td></tr>
+              <tr><th scope="row">liquid → gas</th><td>vaporization (evaporation or boiling)</td><td>absorbed (endothermic)</td><td>a puddle drying, a kettle boiling</td></tr>
+              <tr><th scope="row">solid → gas</th><td>sublimation</td><td>absorbed (endothermic)</td><td>dry ice, <span class="chem">CO2(s)</span>, turning to gas</td></tr>
+              <tr><th scope="row">gas → liquid</th><td>condensation</td><td>released (exothermic)</td><td>mist on a cold window</td></tr>
+              <tr><th scope="row">liquid → solid</th><td>freezing</td><td>released (exothermic)</td><td>water turning to ice</td></tr>
+              <tr><th scope="row">gas → solid</th><td>deposition</td><td>released (exothermic)</td><td>frost forming on cold glass</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Why energy goes in or comes out</h3>
+        <p>There are forces of attraction between particles. To melt, vaporize or sublime a substance, the particles must overcome some or all of those attractions. That needs energy, so these changes are <dfn data-def="A change that absorbs energy from the surroundings.">endothermic</dfn>: they absorb energy from the surroundings.</p>
+        <p>In the opposite changes, attractions form between the particles and hold them more strongly. That releases energy to the surroundings, so condensation, freezing and deposition are <dfn data-def="A change that releases energy to the surroundings.">exothermic</dfn>.</p>
+
+        <aside class="callout callout--mistake">
+          <p>Freezing releases energy. It feels wrong because freezing happens in cold places. But the water must lose energy to its colder surroundings in order to freeze. Energy leaves the water, so the change is exothermic.</p>
+        </aside>
+
+        <h3>Evaporation and boiling are both vaporization</h3>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Two ways for a liquid to become a gas</caption>
+            <thead>
+              <tr><th scope="col"></th><th scope="col">Evaporation</th><th scope="col">Boiling</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Where?</th><td>at the surface only</td><td>throughout the liquid (bubbles of vapour form)</td></tr>
+              <tr><th scope="row">At what temperature?</th><td>any temperature below the boiling point</td><td>at the boiling point</td></tr>
+              <tr><th scope="row">Which particles?</th><td>the faster particles at the surface escape</td><td>particles all through the liquid</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>The bubbles in boiling water are not air, and they are not hydrogen and oxygen. They are water vapour, <span class="chem">H2O(g)</span>. A change of state does not break the bonds inside the molecules. It only separates whole molecules from each other.</p>
+        </aside>
+
+        <h3>State symbols</h3>
+        <p>A <dfn data-def="A letter in brackets after a formula in an equation that shows the state of the substance: (s), (l), (g) or (aq).">state symbol</dfn> is written in brackets after a formula to show the state of the substance.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The four state symbols</caption>
+            <thead>
+              <tr><th scope="col">Symbol</th><th scope="col">Meaning</th><th scope="col">Example</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">(s)</th><td>solid</td><td><span class="chem">NaCl(s)</span>, salt crystals</td></tr>
+              <tr><th scope="row">(l)</th><td>pure liquid</td><td><span class="chem">H2O(l)</span>, water; <span class="chem">NaCl(l)</span>, molten salt</td></tr>
+              <tr><th scope="row">(g)</th><td>gas</td><td><span class="chem">CO2(g)</span></td></tr>
+              <tr><th scope="row">(aq)</th><td>aqueous: dissolved in water</td><td><span class="chem">NaCl(aq)</span>, salt solution</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Changes of state can be written as equations. The formula stays the same and only the state symbol changes:</p>
+        <p><span class="chem">H2O(s) -> H2O(l)</span> (melting) &nbsp;&nbsp; <span class="chem">CO2(s) -> CO2(g)</span> (sublimation)</p>
+        <p>A reaction equation with state symbols looks like this:</p>
+        <p><span class="chem">Zn(s) + 2HCl(aq) -> ZnCl2(aq) + H2(g)</span></p>
+        <p>Read it as: solid zinc reacts with hydrochloric acid solution to give zinc chloride solution and hydrogen gas.</p>
+
+        <aside class="callout callout--mistake">
+          <p>(l) and (aq) are different. <span class="chem">NaCl(l)</span> is salt that has been melted, above 800 °C. <span class="chem">NaCl(aq)</span> is salt dissolved in water. Water itself is <span class="chem">H2O(l)</span>, never <span class="chem">H2O(aq)</span>.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>State symbols are marked when the question asks for them, so include them whenever you are asked. Acids, alkalis and dissolved salts are (aq). Water as a product is (l). A solid that forms in a solution (a precipitate) is (s).</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s1-1-q007,s1-1-q008,s1-1-q010,s1-1-q003,s1-1-q018,s1-1-q021,s1-1-q019" data-count="0" data-title="States and changes of state: quick check"></div>
+      </section>
+
+      <!-- ================= 1.1.3 ================= -->
+      <section class="topic-section" id="temperature" data-toc="Temperature and kelvin">
+        <span class="section-code">Structure 1.1.3</span>
+        <h2>Temperature and the kelvin scale</h2>
+        <p>Put a spoon in hot tea and the handle warms up. The fast-moving particles in the tea hit the particles of the spoon and pass energy on. “Hot” means the particles have, on average, more energy of movement.</p>
+        <p><dfn data-def="The energy a particle has because it is moving.">Kinetic energy</dfn>, <i>E</i><sub>k</sub>, is the energy a particle has because it is moving. In any sample some particles move slowly and some move fast, so we talk about the average.</p>
+
+        <aside class="callout callout--key">
+          <p>Temperature, <i>T</i>, in kelvin (K) is a measure of the average kinetic energy of the particles.</p>
+        </aside>
+
+        <p>The Celsius scale puts its zero at the freezing point of water. The kelvin scale puts its zero at <dfn data-def="0 K, the lowest possible temperature.">absolute zero</dfn>, the lowest possible temperature. At absolute zero the particles have the lowest possible kinetic energy.</p>
+        <p>The higher the temperature in kelvin, the greater the average kinetic energy of the particles. Two samples at the same temperature have the same average kinetic energy, even if one sample is much bigger than the other.</p>
+        <p>The kelvin is the SI unit of temperature. One kelvin is the same size as one degree Celsius. Only the zero point is different, so you convert by adding or subtracting a fixed number.</p>
+
+        <div class="eq">
+          <div class="eq__formula"><i>T</i>(K) = <i>T</i>(°C) + 273.15</div>
+          <dl class="eq__legend">
+            <div><dt>T(K)</dt><dd>temperature on the kelvin scale <span class="unit">K</span></dd></div>
+            <div><dt>T(°C)</dt><dd>temperature on the Celsius scale <span class="unit">°C</span></dd></div>
+          </dl>
+        </div>
+
+        <figure data-s1-widget="s1-1.kelvin" data-title="Celsius and kelvin, side by side" data-start="25">
+          <p class="widget__fallback">An interactive temperature scale appears here when JavaScript is on.</p>
+          <figcaption>Drag the slider or type a value. Both scales have the same step size, so a change of 1 °C is a change of 1 K. Only the zero point differs. There are no negative temperatures in kelvin.</figcaption>
+        </figure>
+
+        <aside class="callout callout--booklet">
+          <p>The data booklet gives the conversion: temperature (K) = temperature (°C) + 273.15. It also gives STP as 273.15 K and 100 kPa.</p>
+        </aside>
+
+        <h3>Method in words</h3>
+        <ol class="method">
+          <li>Decide the direction. Going to kelvin, the number gets bigger: add 273.15. Going to degrees Celsius, the number gets smaller: subtract 273.15.</li>
+          <li>Keep the sign of a negative Celsius value.</li>
+          <li>Round to the same number of decimal places as the temperature you were given.</li>
+          <li>Write the unit as K, with no degree sign.</li>
+          <li>For a temperature <em>change</em>, do not add 273.15. The change is the same number in °C and in K.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 1">
+          <h3 class="worked__title">Converting a boiling point to kelvin</h3>
+          <div class="worked__problem">
+            <p>Liquid oxygen boils at −182.96 °C. Give this temperature in kelvin.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Write the relationship">
+              <p class="worked__why">Starting from the formula shows your method.</p>
+              <div class="worked__math"><i>T</i>(K) = <i>T</i>(°C) + 273.15</div>
+            </li>
+            <li data-title="Substitute, keeping the sign">
+              <p class="worked__why">The Celsius value is negative. Losing the minus sign is the most common slip.</p>
+              <div class="worked__math"><i>T</i> = (−182.96) + 273.15 = 90.19 K</div>
+            </li>
+            <li data-title="Round sensibly">
+              <p class="worked__why">When you add, the answer keeps the smallest number of decimal places in the data. Both values have two decimal places, so keep two.</p>
+              <div class="worked__math"><i>T</i> = <b>90.19 K</b></div>
+            </li>
+            <li data-title="Check that it makes sense">
+              <p class="worked__why" data-label="Check">A kelvin value is always positive, and always bigger than the Celsius value.</p>
+              <div class="worked__math">90.19 &gt; −182.96, and 90.19 &gt; 0</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>90.19 K</p></div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 2">
+          <h3 class="worked__title">Converting kelvin to degrees Celsius</h3>
+          <div class="worked__problem">
+            <p>Ethanol boils at 351.52 K. Give this temperature in degrees Celsius.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Rearrange the relationship">
+              <p class="worked__why">You want °C on its own, so subtract 273.15 from both sides.</p>
+              <div class="worked__math"><i>T</i>(°C) = <i>T</i>(K) − 273.15</div>
+            </li>
+            <li data-title="Substitute">
+              <p class="worked__why">Going from kelvin to °C, the number must get smaller.</p>
+              <div class="worked__math"><i>T</i> = 351.52 − 273.15 = 78.37 °C</div>
+            </li>
+            <li data-title="Round sensibly">
+              <p class="worked__why">Both values have two decimal places, so keep two.</p>
+              <div class="worked__math"><i>T</i> = <b>78.37 °C</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>78.37 °C</p></div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 3">
+          <h3 class="worked__title">A temperature change in °C and in K</h3>
+          <div class="worked__problem">
+            <p>Water is heated from 21.4 °C to 68.9 °C. Find the temperature change in °C and in K.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the change in °C">
+              <p class="worked__why">A change is always final minus initial.</p>
+              <div class="worked__math">Δ<i>T</i> = 68.9 °C − 21.4 °C = 47.5 °C</div>
+            </li>
+            <li data-title="Convert both temperatures to kelvin">
+              <p class="worked__why">This is the long way. It shows you what happens to the 273.15.</p>
+              <div class="worked__math">initial: 21.4 + 273.15 = 294.55 K</div>
+              <div class="worked__math">final: 68.9 + 273.15 = 342.05 K</div>
+            </li>
+            <li data-title="Find the change in K">
+              <p class="worked__why">The 273.15 is added to both values, so it cancels when you subtract.</p>
+              <div class="worked__math">Δ<i>T</i> = 342.05 K − 294.55 K = 47.5 K</div>
+            </li>
+            <li data-title="State the result">
+              <p class="worked__why">The scales have the same step size, so a change is the same number on both.</p>
+              <div class="worked__math">Δ<i>T</i> = <b>47.5 °C = 47.5 K</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>47.5 °C, which is also 47.5 K</p></div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Adding 273.15 to a temperature change is wrong. A rise of 47.5 °C is a rise of 47.5 K, not 320.65 K. Add 273.15 only to a single temperature reading.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>Write temperatures in kelvin as <span class="mono">298 K</span>, with no degree sign. In gas calculations (Structure 1.5), always convert to kelvin before you substitute.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="310.15" data-tolerance="0.5" data-unit="K" data-sigfigs="3">
+          <div class="tryit__q"><p>Normal human body temperature is about 37 °C. What is this in kelvin? Give your answer to 3 significant figures.</p></div>
+          <ol class="tryit__hints">
+            <li>Which is bigger, the number in kelvin or the number in °C? Decide before you calculate.</li>
+            <li>Add 273.15 to the Celsius value: <span class="mono">37 + 273.15</span>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>T</i> = 37 + 273.15 = 310.15 K</div>
+            <p>To 3 significant figures: <strong>310 K</strong>.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="-268.93" data-tolerance="0.005" data-unit="°C" data-sigfigs="5">
+          <div class="tryit__q"><p>Liquid helium boils at 4.22 K. What is this in degrees Celsius? Give your answer to 2 decimal places.</p></div>
+          <ol class="tryit__hints">
+            <li>Going from kelvin to °C, the number gets smaller. Here it will be negative.</li>
+            <li>Subtract 273.15 from the kelvin value: <span class="mono">4.22 − 273.15</span>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>T</i> = 4.22 − 273.15 = −268.93 °C</div>
+            <p>The answer is negative because 4.22 K is far below the freezing point of water.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="26.5" data-tolerance="0.05" data-unit="K" data-sigfigs="3">
+          <div class="tryit__q"><p>A solution warms from −5.0 °C to 21.5 °C. What is the temperature change in kelvin?</p></div>
+          <ol class="tryit__hints">
+            <li>This is a change, not a single reading. Do you need 273.15?</li>
+            <li>Change = final − initial: <span class="mono">21.5 − (−5.0)</span>. Subtracting a negative number means adding.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">Δ<i>T</i> = 21.5 − (−5.0) = 26.5 °C = 26.5 K</div>
+            <p>A temperature change is the same number in °C and in K.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--scope">
+          <p>You do not need a formula that links kinetic energy to temperature or to particle speed. You need the idea only: temperature in kelvin is a measure of average kinetic energy. Many textbooks go one step further and say that the average kinetic energy is directly proportional to the temperature in kelvin. That is correct, but the IB guide says only “a measure of”, so this site does not ask you to calculate with it. The graph of how kinetic energies are spread out among the particles comes later, in Reactivity 2.2.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="curves" data-toc="Heating curves">
+        <span class="section-code">Structure 1.1.3</span>
+        <h2>What happens to temperature during a change of state</h2>
+        <p>Put a thermometer in a pan of boiling water and keep the heat on. The reading stays at 100 °C until the water has boiled away. Energy is going in all the time, but the temperature is not rising. Where is the energy going?</p>
+        <p>A <dfn data-def="A graph of temperature against energy supplied (or time of steady heating) for a substance as it is heated through its changes of state.">heating curve</dfn> shows the temperature of a substance as energy is supplied to it at a steady rate. It has sloping parts and flat parts.</p>
+        <ul>
+          <li><strong>Sloping parts: one state is being heated.</strong> The energy supplied increases the average kinetic energy of the particles, so the temperature rises.</li>
+          <li><strong>Flat parts: the state is changing.</strong> The energy supplied is used to overcome the forces of attraction between the particles. This increases their <dfn data-def="Energy stored because of the positions of particles relative to each other. It rises when particles that attract each other are moved apart.">potential energy</dfn>. Their average kinetic energy does not change, so the temperature stays constant.</li>
+        </ul>
+
+        <figure data-s1-widget="s1-1.heating" data-title="Heating curve explorer: 100 g of water">
+          <p class="widget__fallback">An interactive heating curve appears here when JavaScript is on. It plots temperature against energy supplied for 100 g of water heated from −40 °C to 140 °C. The curve is flat at 0 °C while the ice melts and at 100 °C while the water boils.</p>
+          <figcaption>Move the slider or step through the five stages. Notice the two flat parts: energy is supplied but the temperature does not change. The graph is to scale for 100 g of water at normal atmospheric pressure, using approximate data. The particle picture is a flat model and is not to scale. Read the curve from right to left and it becomes a cooling curve: the same flat parts appear as the steam condenses and the water freezes.</figcaption>
+        </figure>
+
+        <aside class="callout callout--key">
+          <p>During a change of state, the temperature stays constant even though energy is still being supplied or removed. The first flat part is at the melting point. The second is at the boiling point.</p>
+        </aside>
+
+        <h3>How to read a heating or cooling curve</h3>
+        <ol class="method">
+          <li>Find the flat parts. On a heating curve the lower one is the melting point and the higher one is the boiling point.</li>
+          <li>Name the state on each sloping part: solid below the melting point, liquid between, gas above the boiling point.</li>
+          <li>On a flat part, two states are present together.</li>
+          <li>To find the state at a given temperature, compare it with the melting point and the boiling point.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 4">
+          <h3 class="worked__title">Finding the state from melting and boiling points</h3>
+          <div class="worked__problem">
+            <p>Bromine melts at 266 K and boils at 332 K. What is the state of bromine at 25 °C?</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Put everything in the same unit">
+              <p class="worked__why">You cannot compare a temperature in °C with temperatures in K.</p>
+              <div class="worked__math"><i>T</i> = 25 + 273.15 = 298.15 K</div>
+            </li>
+            <li data-title="Compare with the melting point">
+              <p class="worked__why">Above the melting point, the substance is not a solid.</p>
+              <div class="worked__math">298.15 K &gt; 266 K, so bromine has melted</div>
+            </li>
+            <li data-title="Compare with the boiling point">
+              <p class="worked__why">Below the boiling point, the substance has not boiled.</p>
+              <div class="worked__math">298.15 K &lt; 332 K, so bromine has not boiled</div>
+            </li>
+            <li data-title="State the answer">
+              <p class="worked__why">Between the melting point and the boiling point, a substance is a liquid.</p>
+              <div class="worked__math">Bromine is a <b>liquid</b> at 25 °C: <span class="chem">Br2(l)</span></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Liquid</p></div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>“The temperature is constant, so no energy is being absorbed” is wrong. Energy is still going in. It is used to overcome the attractions between the particles. This increases their potential energy, not their average kinetic energy.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>“Explain why the temperature stays constant during melting” is usually worth 2 marks. Mark 1: the energy is used to overcome the forces of attraction between the particles. Mark 2: the average kinetic energy of the particles does not change. Write both.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>You do not need to calculate the energy for any part of a heating curve in this topic. Calculations with specific heat capacity come later, in Reactivity 1.1. The numbers on the graph above are there only to make the scale honest.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s1-1-q002,s1-1-q009,s1-1-q016,s1-1-q017,s1-1-q005,s1-1-q015" data-count="0" data-title="Temperature and heating curves: quick check"></div>
+      </section>
+
+      <section class="topic-section" id="linking">
+        <h2>Linking it up</h2>
+        <p>The syllabus asks questions that connect this topic to others. Short answers to four of them:</p>
+
+        <h3>What factors are considered in choosing a method to separate the components of a mixture?</h3>
+        <p>The states of the components, a physical property that differs between them (solubility, particle size, boiling point), and which component you want to keep. For example, evaporation and distillation both use volatility, but only distillation keeps the liquid.</p>
+
+        <h3>Why are alloys generally considered to be mixtures, even though they often contain metallic bonding?</h3>
+        <p>An alloy does not have a fixed ratio of elements. Brass can be made with different proportions of copper and zinc. A compound always has a fixed ratio. The full picture of bonding in alloys comes in Structure 2.3.</p>
+
+        <h3>Why are some changes of state endothermic and some exothermic?</h3>
+        <p>Melting, vaporization and sublimation need energy to overcome attractions between particles, so they are endothermic. Freezing, condensation and deposition form attractions between particles, which releases energy, so they are exothermic. Energy changes are studied in Reactivity 1.</p>
+
+        <h3>What is the graphical distribution of kinetic energy values of particles in a sample at a fixed temperature?</h3>
+        <p>At any one temperature the particles do not all have the same kinetic energy. A few have very little, a few have a lot, and most are in between. Temperature measures the average. The shape of this distribution is covered in Reactivity 2.2.</p>
+      </section>
+
+      <section class="topic-section" id="practice" data-toc="Exam-style practice">
+        <h2>Exam-style practice</h2>
+        <p>Three sets, from first steps to stretch. You get feedback after each question. Questions you have not yet answered correctly come first. All questions are original and written for this site.</p>
+        <h3>Foundation: one idea at a time</h3>
+        <div data-s1-quiz data-topic="s1-1" data-tier="foundation" data-count="0" data-title="1.1 foundation"></div>
+        <h3>Exam standard</h3>
+        <div data-s1-quiz data-topic="s1-1" data-tier="exam" data-count="0" data-title="1.1 exam standard"></div>
+        <h3>Challenge: level 7 stretch</h3>
+        <div data-s1-quiz data-topic="s1-1" data-tier="challenge" data-count="0" data-title="1.1 challenge"></div>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../data/questions-s1-1.js"></script>
+<script src="../assets/js/widgets-s1-1.js"></script>
+</body>
+</html>
