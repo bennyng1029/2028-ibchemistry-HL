@@ -1645,7 +1645,7 @@ S1.i18n.register('ja', 's2-4', {
     "Step 3 of 5: the link forms and water is released": "ステップ 3 / 5：結合ができ、水が放出される",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "A new bond joins the two monomers. The underlined atoms are the {link}. The product still has a functional group at each end, so it can react again and the chain grows.": "新しい結合が 2 つの単量体をつなぎます。下線のついた原子が{link}です。生成物の両端にはまだ官能基があるので、さらに反応でき、鎖がのびていきます。",
+    "A new bond joins the two monomers. The underlined atoms are the {link}. The product still has a functional group at each end, so it can react again and the chain grows.": "新しい結合が 2 つの単量体をつなぎます。下線のついた原子が、できた結合（{link}）です。生成物の両端にはまだ官能基があるので、さらに反応でき、鎖がのびていきます。",
 
     // widget string (assets/js/widgets-s2-4.js)
     "The two monomers joined by a new link, and one molecule of water": "新しい結合でつながった 2 つの単量体と、水分子 1 個",

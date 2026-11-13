@@ -80,7 +80,7 @@ S1.i18n.register('zh-Hant', 's2-4', {
     "Ionic": "離子",
 
     // Bonding is a continuum > table > td
-    "Electrostatic attraction between oppositely charged ions in a lattice.": "晶格中帶相反電荷的離子之間的靜電引力。",
+    "Electrostatic attraction between oppositely charged ions in a lattice.": "晶格中帶相反電荷的離子之間的靜電引力 (electrostatic attraction)。",
 
     // Bonding is a continuum > table > td
     "High melting point. Brittle. Conducts electricity only when molten or dissolved, because then the ions can move.": "熔點高。脆。只有在熔融或溶解後才導電，因為這時離子可以移動。",
@@ -101,7 +101,7 @@ S1.i18n.register('zh-Hant', 's2-4', {
     "Metallic": "金屬",
 
     // Bonding is a continuum > table > td
-    "Electrostatic attraction between a lattice of cations and delocalized electrons.": "陽離子晶格與離域電子之間的靜電引力。",
+    "Electrostatic attraction between a lattice of cations and delocalized electrons.": "陽離子晶格與離域電子 (delocalized electrons) 之間的靜電引力。",
 
     // Bonding is a continuum > table > td
     // Placing a compound in the bonding triangle > table > td
@@ -590,7 +590,7 @@ S1.i18n.register('zh-Hant', 's2-4', {
     "Unreactive (chemically inert)": "不活潑（化學惰性）",
 
     // Polymers and plastics > table > td
-    "chemical": "化學",
+    "chemical": "<span class=\"nowrap\">化學</span>",
 
     // Polymers and plastics > table > td
     "The covalent bonds in the chains are strong and take a lot of energy to break.": "鏈中的共價鍵很強，要大量能量才能斷開。",
@@ -605,7 +605,7 @@ S1.i18n.register('zh-Hant', 's2-4', {
     "Electrical insulator": "電絕緣體",
 
     // Polymers and plastics > table > td
-    "physical": "物理",
+    "physical": "<span class=\"nowrap\">物理</span>",
 
     // Polymers and plastics > table > td
     "All outer electrons are held in covalent bonds. There are no delocalized electrons or mobile ions.": "所有最外層電子都留在共價鍵中。沒有離域電子，也沒有可流動的離子。",
