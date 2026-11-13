@@ -70,8 +70,13 @@
    */
   function parseFormula(raw) {
     var s = String(raw == null ? '' : raw).replace(/[₀-₉]/g, function (c) { return SUBS[c]; })
-      .replace(/\((?:s|l|g|aq)\)\s*$/, '').replace(/[·•∙⋅*]/g, '.').replace(/\s+/g, '').replace(/\^?\d*[+−-]$/, '');
+      .replace(/\((?:s|l|g|aq)\)\s*$/, '').replace(/[·•∙⋅*]/g, '.').replace(/\s+/g, '');
+    // A charge does not change the molar mass. "SO4^2-" and "Na+" are clear. "NH4+" or "Mg2+" typed without ^ is not:
+    // the digit could be a subscript or part of the charge, so ask instead of guessing.
+    if (/[A-Za-z)\]]\d+[+−-]$/.test(s)) return { ok: false, error: t('Leave the charge off, or write it with ^ as in SO4^2-. A charge does not change the molar mass.') };
+    s = s.replace(/\^\d*[+−-]$/, '').replace(/[+−-]$/, '');
     if (!s) return { ok: false, error: t('Type a formula, for example H2O or Ca(OH)2.') };
+    if (!/[A-Za-z]/.test(s)) return { ok: false, error: t('Type a formula, for example H2O or Ca(OH)2.') };
     if (!/[A-Z]/.test(s)) return { ok: false, error: t('Use capital letters for element symbols: write H2O, not h2o.') };
     var order = [], map = {}, err = null;
     function add(sym, n) { if (!(sym in map)) { map[sym] = 0; order.push(sym); } map[sym] += n; }
@@ -769,7 +774,10 @@
       svg.innerHTML = h;
       out.unshift({ note: t('Same temperature and pressure, so the volume ratio of the gases equals the mole ratio in the equation. Multiply by (coefficient wanted ÷ coefficient given).') });
       if (e.sp.some(function (s) { return s[3] === 'l'; })) out.push({ note: t('The water is a liquid here. Its volume is tiny compared with the gases, and Avogadro’s law applies to gases only, so it is left out of the gas volumes.') });
-      out.push({ note: t('Total gas volume: {before} of reactants becomes {after} of product. Volume is not conserved, because the number of gas molecules changes. Mass is conserved.', { before: F(before, 3) + ' ' + U.cm3, after: F(after, 3) + ' ' + U.cm3 }) });
+      var tot = { before: F(before, 3) + ' ' + U.cm3, after: F(after, 3) + ' ' + U.cm3 };
+      out.push({ note: Math.abs(before - after) < 1e-9
+        ? t('Total gas volume: {before} of reactants becomes {after} of product. Here the total stays the same, because the equation has the same number of gas molecules on each side. That is not true for most reactions.', tot)
+        : t('Total gas volume: {before} of reactants becomes {after} of product. Volume is not conserved, because the number of gas molecules changes. Mass is conserved.', tot) });
       lines(work, out);
       setR(ratio.join(' : '));
       setB(F(before, 3) + ' ' + U.cm3); setA(F(after, 3) + ' ' + U.cm3);

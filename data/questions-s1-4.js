@@ -1,10 +1,11 @@
 /* ==========================================================================
    Question bank: Structure 1.4 — Counting particles by mass: the mole
-   51 original questions. All SL (Structure 1.4 has no Additional HL content).
+   53 original questions. All SL (Structure 1.4 has no Additional HL content).
    Schema and rules: docs/AUTHORING.md.
    Values: Ar to 2 d.p. and NA = 6.02 × 10^23 mol-1 (S1.chem / data booklet).
    Every number here is recomputed by the checking script named in the
-   writer's report (scratchpad s1-4q/numbers.js and check-bank.js).
+   writer's report (scratchpad s1-4q/numbers.js and check-bank.js) and again,
+   independently, by the auditor (scratchpad audit-s1-4/calc.js).
    Load order on a page: chem.js, core.js, quiz.js, then this file.
    ========================================================================== */
 (function () {
@@ -60,15 +61,15 @@
     {
       id: 's1-4-q002', topic: 's1-4', level: 'sl', tier: 'foundation', type: 'numeric', marks: 1,
       syllabus: 'Structure 1.4.1',
-      stem: '<p>How many molecules are there in 0.350 ' + U('mol') + ' of carbon dioxide, ' + C('CO2') + '? Give your answer to 3 significant figures.</p>',
-      answer: 2.107e23, tolerance: '1%', sigfigs: 3,
+      stem: '<p>How many molecules are there in 0.450 ' + U('mol') + ' of water, ' + C('H2O') + '? Give your answer to 3 significant figures.</p>',
+      answer: 2.709e23, tolerance: '1%', sigfigs: 3,
       hints: [
         'Use the relationship between number of particles and amount: <span class="mono"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></span>.',
         'Going from moles to particles makes the number much bigger, so you multiply by ' + NA + '.'
       ],
       solution: M('<i>N</i> = <i>n</i> × <i>N</i><sub>A</sub>') +
-        M('<i>N</i> = 0.350 ' + U('mol') + ' × ' + NAu) +
-        M('<i>N</i> = ' + E('2.107', 23) + ' = <strong>' + E('2.11', 23) + ' molecules</strong>') +
+        M('<i>N</i> = 0.450 ' + U('mol') + ' × ' + NAu) +
+        M('<i>N</i> = ' + E('2.709', 23) + ' = <strong>' + E('2.71', 23) + ' molecules</strong>') +
         '<p>Check the size: you have less than one mole, so the answer must be less than ' + NA + '. If you divided instead of multiplying you would get a number far smaller than 1, which cannot be a count of molecules.</p>'
     },
     {
@@ -193,16 +194,16 @@
     {
       id: 's1-4-q009', topic: 's1-4', level: 'sl', tier: 'foundation', type: 'numeric', marks: 1,
       syllabus: 'Structure 1.4.2',
-      stem: '<p>Calculate the relative formula mass, <i>M</i><sub>r</sub>, of aluminium sulfate, ' + C('Al2(SO4)3') + '. Give your answer to 2 decimal places.</p><p>Use the data booklet values: Al = 26.98, S = 32.07, O = 16.00.</p>',
-      answer: 342.17, tolerance: { abs: 0.05 },
+      stem: '<p>Calculate the relative formula mass, <i>M</i><sub>r</sub>, of iron(III) sulfate, ' + C('Fe2(SO4)3') + '. Give your answer to 2 decimal places.</p><p>Use the data booklet values: Fe = 55.85, S = 32.07, O = 16.00.</p>',
+      answer: 399.91, tolerance: { abs: 0.05 },
       hints: [
         'Count the atoms of each element first. The subscript 3 outside the bracket multiplies everything inside it.',
-        'There are 2 Al, 3 S and 3 × 4 = 12 O. Use the 2 decimal place <i>A</i><sub>r</sub> values, not whole numbers.'
+        'There are 2 Fe, 3 S and 3 × 4 = 12 O. Use the 2 decimal place <i>A</i><sub>r</sub> values, not whole numbers.'
       ],
-      solution: P('Count the atoms in ' + C('Al2(SO4)3') + ': 2 Al, 3 S and 3 × 4 = 12 O.') +
-        M('<i>M</i><sub>r</sub> = (2 × 26.98) + (3 × 32.07)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ (12 × 16.00)') +
-        M('<i>M</i><sub>r</sub> = 53.96 + 96.21 + 192.00 = <strong>342.17</strong> (no units)') +
-        '<p>Named slips: ignoring the bracket gives 150.03 (one S and four O). Using 3 S but only 4 O gives 214.17. Using whole-number <i>A</i><sub>r</sub> values gives 342, which is not what the IB expects.</p>'
+      solution: P('Count the atoms in ' + C('Fe2(SO4)3') + ': 2 Fe, 3 S and 3 × 4 = 12 O.') +
+        M('<i>M</i><sub>r</sub> = (2 × 55.85) + (3 × 32.07)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ (12 × 16.00)') +
+        M('<i>M</i><sub>r</sub> = 111.70 + 96.21 + 192.00 = <strong>399.91</strong> (no units)') +
+        '<p>Named slips: ignoring the bracket gives 207.77 (one S and four O). Using 3 S but only 4 O gives 271.91. Using whole-number <i>A</i><sub>r</sub> values gives 400. The guide says to use the two-decimal-place values from the data booklet.</p>'
     },
     {
       id: 's1-4-q010', topic: 's1-4', level: 'sl', tier: 'exam', type: 'short', marks: 2,
@@ -226,7 +227,7 @@
       options: ['159.62', '177.64', '185.72', '249.72'],
       answer: 3,
       misconception: {
-        0: 'This is the molar mass of anhydrous ' + C('CuSO4') + '. The water of crystallisation is part of the formula and part of the mass you weigh.',
+        0: 'This is the molar mass of anhydrous ' + C('CuSO4') + '. The water of crystallization is part of the formula and part of the mass you weigh.',
         1: 'You added one ' + C('H2O') + ' (18.02). The 5 in front of ' + C('H2O') + ' means five water molecules per formula unit.',
         2: 'You multiplied only the hydrogen by 5 (10 H and 1 O). The 5 multiplies the whole ' + C('H2O') + ': 10 H and 5 O.'
       },
@@ -245,16 +246,16 @@
     {
       id: 's1-4-q012', topic: 's1-4', level: 'sl', tier: 'foundation', type: 'numeric', marks: 1,
       syllabus: 'Structure 1.4.3',
-      stem: '<p>Calculate the amount, in ' + U('mol') + ', of calcium carbonate in 12.5 ' + U('g') + ' of ' + C('CaCO3') + '. Give your answer to 3 significant figures.</p><p><i>M</i>(' + C('CaCO3') + ') = 100.09 ' + U('g mol-1') + '</p>',
-      answer: 12.5 / 100.09, tolerance: '1%', sigfigs: 3, unit: 'mol',
+      stem: '<p>Calculate the amount, in ' + U('mol') + ', of calcium carbonate in 25.0 ' + U('g') + ' of ' + C('CaCO3') + '. Give your answer to 3 significant figures.</p><p><i>M</i>(' + C('CaCO3') + ') = 100.09 ' + U('g mol-1') + '</p>',
+      answer: 25.0 / 100.09, tolerance: '1%', sigfigs: 3, unit: 'mol',
       hints: [
         'The relationship between amount, mass and molar mass is in your data booklet: <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span>.',
-        'Mass is in ' + U('g') + ' and molar mass is in ' + U('g mol-1') + ', so no unit conversion is needed. 12.5 g is much less than 100.09 g, so the answer is much less than 1 mol.'
+        'Mass is in ' + U('g') + ' and molar mass is in ' + U('g mol-1') + ', so no unit conversion is needed. 25.0 g is less than 100.09 g, so the answer is less than 1 mol.'
       ],
       solution: M('<i>n</i> = <span class="frac"><span><i>m</i></span><span><i>M</i></span></span>') +
-        M('<i>n</i> = <span class="frac"><span>12.5 ' + U('g') + '</span><span>100.09 ' + U('g mol-1') + '</span></span>') +
-        M('<i>n</i> = 0.12489 ' + U('mol') + ' = <strong>0.125 ' + U('mol') + '</strong>') +
-        '<p>If you multiplied instead you would get about 1250, which fails the size check.</p>'
+        M('<i>n</i> = <span class="frac"><span>25.0 ' + U('g') + '</span><span>100.09 ' + U('g mol-1') + '</span></span>') +
+        M('<i>n</i> = 0.24978 ' + U('mol') + ' = <strong>0.250 ' + U('mol') + '</strong>') +
+        '<p>If you multiplied instead you would get about 2500, which fails the size check.</p>'
     },
     {
       id: 's1-4-q013', topic: 's1-4', level: 'sl', tier: 'foundation', type: 'numeric', marks: 1,
@@ -526,24 +527,24 @@
     {
       id: 's1-4-q027', topic: 's1-4', level: 'sl', tier: 'exam', type: 'numeric', marks: 3,
       syllabus: 'Structure 1.4.4',
-      stem: '<p>4.99 ' + U('g') + ' of hydrated copper(II) sulfate, ' + C('CuSO4') + '·<i>x</i>' + C('H2O') + ', is heated to constant mass. The anhydrous ' + C('CuSO4') + ' left has a mass of 3.19 ' + U('g') + '.</p><p>Determine the whole-number value of <i>x</i>.</p><p><i>M</i>(' + C('CuSO4') + ') = 159.62 ' + U('g mol-1') + ', <i>M</i>(' + C('H2O') + ') = 18.02 ' + U('g mol-1') + '</p>',
-      answer: 5, tolerance: { abs: 0.1 }, answerDisplay: '5',
+      stem: '<p>7.15 ' + U('g') + ' of hydrated sodium carbonate, ' + C('Na2CO3') + '·<i>x</i>' + C('H2O') + ', is heated to constant mass. The anhydrous ' + C('Na2CO3') + ' left has a mass of 2.65 ' + U('g') + '.</p><p>Determine the whole-number value of <i>x</i>.</p><p><i>M</i>(' + C('Na2CO3') + ') = 105.99 ' + U('g mol-1') + ', <i>M</i>(' + C('H2O') + ') = 18.02 ' + U('g mol-1') + '</p>',
+      answer: 10, tolerance: { abs: 0.1 }, answerDisplay: '10',
       hints: [
-        'This is an empirical formula problem with two "building blocks": ' + C('CuSO4') + ' and ' + C('H2O') + '. The mass lost on heating is the mass of water.',
-        'Find the amount of each with <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span>. Use 3.19 g for ' + C('CuSO4') + ' and the mass lost for ' + C('H2O') + '.',
-        '<i>x</i> = <i>n</i>(' + C('H2O') + ') ÷ <i>n</i>(' + C('CuSO4') + ').'
+        'This is an empirical formula problem with two "building blocks": ' + C('Na2CO3') + ' and ' + C('H2O') + '. The mass lost on heating is the mass of water.',
+        'Find the amount of each with <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span>. Use 2.65 g for ' + C('Na2CO3') + ' and the mass lost for ' + C('H2O') + '.',
+        '<i>x</i> = <i>n</i>(' + C('H2O') + ') ÷ <i>n</i>(' + C('Na2CO3') + ').'
       ],
-      solution: M('<i>m</i>(' + C('H2O') + ') = 4.99 ' + U('g') + ' − 3.19 ' + U('g') + ' = 1.80 ' + U('g') + ' &nbsp; (M1)') +
-        M('<i>n</i>(' + C('CuSO4') + ') = <span class="frac"><span>3.19 ' + U('g') + '</span><span>159.62 ' + U('g mol-1') + '</span></span> = 0.01998 ' + U('mol')) +
-        M('<i>n</i>(' + C('H2O') + ') = <span class="frac"><span>1.80 ' + U('g') + '</span><span>18.02 ' + U('g mol-1') + '</span></span> = 0.09989 ' + U('mol') + ' &nbsp; (M2)') +
-        M('<i>x</i> = <span class="frac"><span>0.09989 ' + U('mol') + '</span><span>0.01998 ' + U('mol') + '</span></span> = 5.00 &nbsp; (M3)') + P('To the nearest whole number, <strong><i>x</i> = 5</strong>.') +
-        '<p>Named slips: dividing the masses (1.80 ÷ 3.19 = 0.56) skips the conversion to moles. Using 4.99 g as the mass of ' + C('CuSO4') + ' gives 3.2, because 4.99 g still includes the water.</p>'
+      solution: M('<i>m</i>(' + C('H2O') + ') = 7.15 ' + U('g') + ' − 2.65 ' + U('g') + ' = 4.50 ' + U('g') + ' &nbsp; (M1)') +
+        M('<i>n</i>(' + C('Na2CO3') + ') = <span class="frac"><span>2.65 ' + U('g') + '</span><span>105.99 ' + U('g mol-1') + '</span></span> = 0.02500 ' + U('mol')) +
+        M('<i>n</i>(' + C('H2O') + ') = <span class="frac"><span>4.50 ' + U('g') + '</span><span>18.02 ' + U('g mol-1') + '</span></span> = 0.2497 ' + U('mol') + ' &nbsp; (M2)') +
+        M('<i>x</i> = <span class="frac"><span>0.2497 ' + U('mol') + '</span><span>0.02500 ' + U('mol') + '</span></span> = 9.99 &nbsp; (M3)') + P('To the nearest whole number, <strong><i>x</i> = 10</strong>.') +
+        '<p>Named slips: dividing the masses (4.50 ÷ 2.65 = 1.7) skips the conversion to moles. Using 7.15 g as the mass of ' + C('Na2CO3') + ' gives 3.7, because 7.15 g still includes the water.</p>'
     },
     {
       id: 's1-4-q028', topic: 's1-4', level: 'sl', tier: 'exam', type: 'short', marks: 2,
       syllabus: 'Structure 1.4.4',
-      stem: '<p>A student heats a hydrated salt in a crucible to find the amount of water of crystallisation. The method says: "heat to constant mass".</p><p>Describe what "heat to constant mass" means in practice, and explain why it is done.</p>',
-      answer: '<p>Heat, cool and weigh the crucible, then repeat the heating and weighing until two weighings in a row give the same mass. This shows that all the water of crystallisation has been removed, so the mass lost is the full mass of water.</p>',
+      stem: '<p>A student heats a hydrated salt in a crucible to find the amount of water of crystallization. The method says: "heat to constant mass".</p><p>Describe what "heat to constant mass" means in practice, and explain why it is done.</p>',
+      answer: '<p>Heat, cool and weigh the crucible, then repeat the heating and weighing until two weighings in a row give the same mass. This shows that all the water of crystallization has been removed, so the mass lost is the full mass of water.</p>',
       markscheme: [
         'Heat, (cool,) weigh and repeat until the mass no longer changes / two consecutive readings are the same.',
         'To make sure that all of the water has been removed / the dehydration is complete. (Accept: otherwise the mass of water, and so the value of x, would be too low.)'
@@ -605,7 +606,7 @@
       },
       hints: [
         'Only round when a value is very close to a whole number (for example 1.98 or 3.02).',
-        '1.33 is a recognisable fraction: 1⅓. What can you multiply by to clear a third?'
+        '1.33 is a recognizable fraction: 1⅓. What can you multiply by to clear a third?'
       ],
       solution: '<p>Lines 1 and 2 are correct. The error is in line 3. A ratio of 1 : 1.33 must be multiplied up, not rounded.</p>' +
         M('Fe : O = 1.00 : 1.33') + M('× 3: Fe : O = 3.00 : 3.99 ≈ 3 : 4') +
@@ -712,17 +713,17 @@
     {
       id: 's1-4-q036', topic: 's1-4', level: 'sl', tier: 'exam', type: 'numeric', marks: 2,
       syllabus: 'Structure 1.4.5',
-      stem: '<p>A student needs 250.0 ' + U('cm3') + ' of a 0.1000 ' + U('mol dm-3') + ' standard solution of sodium carbonate, ' + C('Na2CO3') + '.</p><p>Calculate the mass of anhydrous sodium carbonate needed, in ' + U('g') + '. Give your answer to 4 significant figures.</p><p><i>M</i>(' + C('Na2CO3') + ') = 105.99 ' + U('g mol-1') + '</p>',
-      answer: 0.1000 * 0.2500 * 105.99, tolerance: { rel: 0.003 }, sigfigs: 4, unit: 'g',
+      stem: '<p>A student needs 100.0 ' + U('cm3') + ' of a 0.2000 ' + U('mol dm-3') + ' standard solution of sodium carbonate, ' + C('Na2CO3') + '.</p><p>Calculate the mass of anhydrous sodium carbonate needed, in ' + U('g') + '. Give your answer to 4 significant figures.</p><p><i>M</i>(' + C('Na2CO3') + ') = 105.99 ' + U('g mol-1') + '</p>',
+      answer: 0.2000 * 0.1000 * 105.99, tolerance: { rel: 0.003 }, sigfigs: 4, unit: 'g',
       hints: [
         'Two relationships, one after the other: <span class="mono"><i>n</i> = <i>C</i><i>V</i></span>, then <span class="mono"><i>m</i> = <i>n</i> × <i>M</i></span>.',
-        'Convert the volume: 250.0 ' + U('cm3') + ' = 0.2500 ' + U('dm3') + '.',
+        'Convert the volume: 100.0 ' + U('cm3') + ' = 0.1000 ' + U('dm3') + '.',
         'The data have 4 significant figures, so give 4 in your answer.'
       ],
-      solution: M('<i>V</i> = 250.0 ' + U('cm3') + ' ÷ 1000 = 0.2500 ' + U('dm3')) +
-        M('<i>n</i> = <i>C</i><i>V</i> = 0.1000 ' + U('mol dm-3') + ' × 0.2500 ' + U('dm3') + ' = 0.02500 ' + U('mol') + ' &nbsp; (M1)') +
-        M('<i>m</i> = <i>n</i> × <i>M</i> = 0.02500 ' + U('mol') + ' × 105.99 ' + U('g mol-1') + ' = 2.64975 ' + U('g') + ' = <strong>2.650 ' + U('g') + '</strong> &nbsp; (M2)') +
-        '<p>Named slips: 10.60 g is the mass for a whole ' + U('dm3') + ' (volume not used). 2650 g means the volume was left in ' + U('cm3') + '.</p>'
+      solution: M('<i>V</i> = 100.0 ' + U('cm3') + ' ÷ 1000 = 0.1000 ' + U('dm3')) +
+        M('<i>n</i> = <i>C</i><i>V</i> = 0.2000 ' + U('mol dm-3') + ' × 0.1000 ' + U('dm3') + ' = 0.02000 ' + U('mol') + ' &nbsp; (M1)') +
+        M('<i>m</i> = <i>n</i> × <i>M</i> = 0.02000 ' + U('mol') + ' × 105.99 ' + U('g mol-1') + ' = 2.1198 ' + U('g') + ' = <strong>2.120 ' + U('g') + '</strong> &nbsp; (M2)') +
+        '<p>Named slips: 21.20 g is the mass for a whole ' + U('dm3') + ' (volume not used). 2120 g means the volume was left in ' + U('cm3') + '.</p>'
     },
     {
       id: 's1-4-q037', topic: 's1-4', level: 'sl', tier: 'exam', type: 'numeric', marks: 1,
@@ -803,9 +804,9 @@
       id: 's1-4-q042', topic: 's1-4', level: 'sl', tier: 'exam', type: 'short', marks: 3,
       syllabus: 'Structure 1.4.5',
       stem: '<p>A student has weighed 2.650 ' + U('g') + ' of anhydrous sodium carbonate into a small beaker.</p><p>Describe how the student should use this solid to prepare 250.0 ' + U('cm3') + ' of a standard solution.</p>',
-      answer: '<p>Dissolve the solid in distilled (deionised) water in the beaker. Transfer the solution to a 250.0 cm<sup>3</sup> volumetric flask, rinsing the beaker (and funnel and stirring rod) with distilled water and adding the rinsings to the flask. Add distilled water up to the graduation mark (bottom of the meniscus on the line). Stopper and invert the flask several times to mix.</p>',
+      answer: '<p>Dissolve the solid in distilled (deionized) water in the beaker. Transfer the solution to a 250.0 cm<sup>3</sup> volumetric flask, rinsing the beaker (and funnel and stirring rod) with distilled water and adding the rinsings to the flask. Add distilled water up to the graduation mark (bottom of the meniscus on the line). Stopper and invert the flask several times to mix.</p>',
       markscheme: [
-        'Dissolve the solid in distilled / deionised water (in the beaker). (Do not accept "water" alone.)',
+        'Dissolve the solid in distilled / deionized water (in the beaker). (Do not accept "water" alone.)',
         'Transfer to a 250 cm³ volumetric flask AND rinse the beaker, adding the rinsings / washings to the flask.',
         'Make up to the (graduation) mark with distilled water / until the bottom of the meniscus is on the mark. (Do not accept "add 250 cm³ of water".)',
         'Stopper and invert / shake to mix thoroughly. (Any three points for 3 marks.)'
@@ -815,7 +816,7 @@
         'How do you make sure that <em>all</em> of the weighed solid ends up in the solution?',
         'There are two more things to say: how the final volume is set, and what you do after that.'
       ],
-      solution: '<p>What the marks reward: the type of water (distilled or deionised, because tap water contains dissolved ions), the volumetric flask with the rinsings transferred, making up to the mark, and mixing by inversion.</p><p>Two answers that lose marks: "add 250 ' + U('cm3') + ' of water" (the final <em>solution</em> must be 250.0 ' + U('cm3') + ', which is not the same thing) and using a beaker or measuring cylinder to measure the final volume (not precise enough).</p>'
+      solution: '<p>What the marks reward: the type of water (distilled or deionized, because tap water contains dissolved ions), the volumetric flask with the rinsings transferred, making up to the mark, and mixing by inversion.</p><p>Two answers that lose marks: "add 250 ' + U('cm3') + ' of water" (the final <em>solution</em> must be 250.0 ' + U('cm3') + ', which is not the same thing) and using a beaker or measuring cylinder to measure the final volume (not precise enough).</p>'
     },
     {
       id: 's1-4-q043', topic: 's1-4', level: 'sl', tier: 'challenge', type: 'short', marks: 3,
@@ -826,7 +827,7 @@
         'Volume of stock = 10.0 cm³.',
         'Measured with a (10.0 cm³) volumetric / graduated pipette (or burette). (Do not accept measuring cylinder.)',
         'Into a 100.0 cm³ volumetric flask.',
-        'Made up to the mark with distilled / deionised water, AND mixed / inverted. (The volume mark plus any two of the other points for 3 marks.)'
+        'Made up to the mark with distilled / deionized water, AND mixed / inverted. (The volume mark plus any two of the other points for 3 marks.)'
       ],
       hints: [
         'The amount of solute does not change on dilution: <span class="mono"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></span>.',
@@ -995,6 +996,46 @@
         P('Mass: <i>m</i> = <i>n</i> × <i>M</i>, and <i>n</i> is the same for both.') +
         M('<i>M</i>(' + C('NH3') + ') = 17.04 ' + U('g mol-1')) + M('<i>M</i>(' + C('O2') + ') = 32.00 ' + U('g mol-1')) +
         P('Oxygen has the larger molar mass, so flask B has the greater mass.')
+    },
+
+    /* ====================================================================
+       Added by the audit: coverage of the 1.4.5 guidance (g dm-3) and of
+       the calibration-curve linking question at foundation level
+       ==================================================================== */
+    {
+      id: 's1-4-q052', topic: 's1-4', level: 'sl', tier: 'foundation', type: 'mcq', marks: 1,
+      syllabus: 'Structure 1.4.5',
+      stem: '<p>A student wants to find the concentration of a coloured solution with a colorimeter and a calibration curve.</p><p>Which describes how the calibration curve is made and used?</p>',
+      options: [
+        'Measure the absorbance of the unknown solution several times and take the mean.',
+        'Measure the absorbance of several solutions of known concentration, plot absorbance against concentration, then read the concentration of the unknown from the line.',
+        'Measure the absorbance of one solution of known concentration and assume the unknown has the same concentration.',
+        'Plot the mass of solute against the volume of solution and find the gradient.'
+      ],
+      answer: 1,
+      misconception: {
+        0: 'Repeating the reading makes it more reliable, but an absorbance is not a concentration. You need solutions of known concentration to link the two.',
+        2: 'One known solution gives one point, not a line. Several standard solutions are needed, and the unknown is read from the line of best fit.',
+        3: 'That graph would give a concentration in ' + U('g dm-3') + ' for a solution you made yourself. It does not use the colorimeter and says nothing about the unknown.'
+      },
+      hints: [
+        'A calibration curve links an instrument reading to a concentration. Which solutions must you measure to draw it?',
+        'Standard solutions have known concentrations. The unknown is measured last and read from the graph.'
+      ],
+      solution: P('Make several standard solutions of known concentration. Measure the absorbance of each. Plot absorbance (<i>y</i>) against concentration (<i>x</i>) and draw the line of best fit. Then measure the absorbance of the unknown and read its concentration from the line. The unknown should lie inside the range of the standards.')
+    },
+    {
+      id: 's1-4-q053', topic: 's1-4', level: 'sl', tier: 'foundation', type: 'numeric', marks: 1,
+      syllabus: 'Structure 1.4.5',
+      stem: '<p>3.60 ' + U('g') + ' of glucose is dissolved in distilled water and the solution is made up to 200.0 ' + U('cm3') + '.</p><p>Calculate the concentration of the solution in ' + U('g dm-3') + '. Give your answer to 3 significant figures.</p>',
+      answer: 3.60 / 0.2000, tolerance: '1%', sigfigs: 3, unit: 'g dm-3',
+      hints: [
+        'A concentration in ' + U('g dm-3') + ' is the mass of solute divided by the volume of solution. You do not need the molar mass.',
+        'Convert the volume first: 200.0 ' + U('cm3') + ' ÷ 1000 = 0.2000 ' + U('dm3') + '.'
+      ],
+      solution: M('<i>V</i> = 200.0 ' + U('cm3') + ' ÷ 1000 = 0.2000 ' + U('dm3')) +
+        M('concentration = <span class="frac"><span>3.60 ' + U('g') + '</span><span>0.2000 ' + U('dm3') + '</span></span> = <strong>18.0 ' + U('g dm-3') + '</strong>') +
+        '<p>Named slips: 0.0180 means you left the volume in ' + U('cm3') + '. 0.720 means you multiplied by the volume instead of dividing.</p>'
     }
   ]);
 })();

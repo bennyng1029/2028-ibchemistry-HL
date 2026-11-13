@@ -5,7 +5,8 @@
    configurations (tagged 1.3.5 + 'ahl'; the explicit outcome is Structure 3.1.9).
    Constants: h = 6.63e-34 J s, c = 3.00e8 m s-1, NA = 6.02e23 mol-1 (data booklet).
    Ionization energies are real values in kJ mol-1 (first IEs as in the IB data
-   booklet; successive IEs from CRC-sourced tables, rounded to the nearest whole number).
+   booklet, section 9, checked value by value in the audit; successive IEs from
+   CRC-sourced tables, rounded to the nearest whole number).
    ========================================================================== */
 (function () {
   'use strict';
@@ -862,6 +863,275 @@
       'large jump (35\u00a0458 → 169\u00a0988)',
       'electrons 11 and 12: hardest to remove → closest to the nucleus (n = 1)'
     ]) + '<p>So the arrangement is 2, 8, 2: the element is magnesium, ' + cfg('1s2 2s2 2p6 3s2') + ', in group 2 and period 3.</p>'
+  },
+
+  /* ============ Added by the audit: wider coverage of 1.3.1, 1.3.3, 1.3.4, 1.3.5, 1.3.6 ============ */
+  {
+    id: 's1-3-q047', level: 'sl', tier: 'exam', type: 'mcq', marks: 1,
+    syllabus: 'Structure 1.3.1',
+    stem: '<p>Radiation X has a longer wavelength than radiation Y. Which row compares X with Y?</p>',
+    options: [
+      'X has the higher frequency and the higher energy per photon.',
+      'X has the higher frequency and the lower energy per photon.',
+      'X has the lower frequency and the higher energy per photon.',
+      'X has the lower frequency and the lower energy per photon.'
+    ],
+    answer: 3,
+    misconception: {
+      0: 'This is the wrong way round. Longer waves mean fewer waves pass each second, so the frequency is lower.',
+      1: 'Frequency and energy always change in the same direction. A higher frequency cannot go with a lower energy.',
+      2: 'Frequency and energy always change in the same direction. A lower frequency means less energy per photon, not more.'
+    },
+    hints: ['Wavelength and frequency go in opposite directions.', 'Energy per photon goes in the same direction as frequency.'],
+    solution: '<p>A longer wavelength means a lower frequency. A lower frequency means less energy per photon. So X has the lower frequency and the lower energy.</p>'
+  },
+  {
+    id: 's1-3-q048', level: 'sl', tier: 'exam', type: 'mcq', marks: 1,
+    syllabus: 'Structure 1.3.1',
+    stem: '<p>Three elements each give a strong line in the visible part of their emission spectrum: lithium at 671 nm (red), sodium at 589 nm (orange-yellow) and barium at 554 nm (green).</p><p>Which statement is correct?</p>',
+    options: [
+      'The lithium line comes from the largest fall in energy by an electron.',
+      'The barium line comes from the largest fall in energy by an electron.',
+      'All three lines come from falls of the same size, because all light travels at the same speed.',
+      'The sodium line has the lowest frequency.'
+    ],
+    answer: 1,
+    misconception: {
+      0: 'Lithium has the longest wavelength of the three, so its photons have the lowest energy. That means the smallest fall, not the largest.',
+      2: 'The speed is the same, but the wavelengths are different. A different wavelength means a different frequency and a different photon energy.',
+      3: 'The lowest frequency goes with the longest wavelength. That is the lithium line at 671 nm.'
+    },
+    hints: ['The energy of the photon equals the energy the electron loses when it falls.', 'Shortest wavelength = highest frequency = highest energy.'],
+    solution: '<p>The photon carries away the energy that the electron loses. The barium line has the shortest wavelength (554 nm), so it has the highest frequency and the highest photon energy. It comes from the largest fall in energy. The lithium line (671 nm) comes from the smallest.</p>'
+  },
+  {
+    id: 's1-3-q049', level: 'sl', tier: 'foundation', type: 'mcq', marks: 1,
+    syllabus: 'Structure 1.3.3',
+    stem: '<p>Which main energy level can hold a maximum of 18 electrons?</p>',
+    options: ['n = 2', 'n = 3', 'n = 4', 'n = 9'],
+    answer: 1,
+    misconception: {
+      0: 'For n = 2 the maximum is 2 ' + TIMES + ' 2<sup>2</sup> = 8 electrons.',
+      2: 'For n = 4 the maximum is 2 ' + TIMES + ' 4<sup>2</sup> = 32 electrons.',
+      3: 'This uses 2 ' + TIMES + ' n = 18. The rule is 2n<sup>2</sup>: square n first, then double.'
+    },
+    hints: ['A main energy level n holds at most 2n<sup>2</sup> electrons.', 'Try n = 1, 2, 3, 4 in turn.'],
+    solution: math(['n = 1: 2 ' + TIMES + ' 1 = 2', 'n = 2: 2 ' + TIMES + ' 4 = 8', 'n = 3: 2 ' + TIMES + ' 9 = 18', 'n = 4: 2 ' + TIMES + ' 16 = 32']) + '<p>The level that holds 18 electrons is <strong>n = 3</strong>.</p>'
+  },
+  {
+    id: 's1-3-q050', level: 'sl', tier: 'exam', type: 'mcq', marks: 1,
+    syllabus: 'Structure 1.3.3',
+    stem: '<p>What is the total number of electrons needed to fill the first three main energy levels (n = 1, n = 2 and n = 3) completely?</p>',
+    options: ['12', '18', '28', '36'],
+    answer: 2,
+    misconception: {
+      0: 'This adds 2n for each level: 2 + 4 + 6. The rule is 2n<sup>2</sup>.',
+      1: '18 is the number that n = 3 holds on its own. The question asks for all three levels together.',
+      3: 'This is (2 ' + TIMES + ' 3)<sup>2</sup>. Square n first, then double, and do it for each level.'
+    },
+    hints: ['Work out 2n<sup>2</sup> for each of the three levels.', 'Then add the three numbers.'],
+    solution: math(['n = 1: 2 ' + TIMES + ' 1<sup>2</sup> = 2', 'n = 2: 2 ' + TIMES + ' 2<sup>2</sup> = 8', 'n = 3: 2 ' + TIMES + ' 3<sup>2</sup> = 18', 'total = 2 + 8 + 18 = 28 electrons'])
+  },
+  {
+    id: 's1-3-q051', level: 'sl', tier: 'exam', type: 'numeric', marks: 1,
+    syllabus: 'Structure 1.3.3',
+    stem: '<p>A main energy level can hold a maximum of 50 electrons. What is the value of n for this level?</p>',
+    answer: 5, tolerance: { abs: 0.01 }, unit: '',
+    hints: ['Use 2n<sup>2</sup> = 50 and work backwards.', 'Divide by 2 first. Then take the square root.'],
+    solution: math(['2n<sup>2</sup> = 50', 'n<sup>2</sup> = 50 ÷ 2 = 25', 'n = 5']) + '<p>Check: 2 ' + TIMES + ' 5<sup>2</sup> = 2 ' + TIMES + ' 25 = 50.</p>'
+  },
+  {
+    id: 's1-3-q052', level: 'sl', tier: 'exam', type: 'numeric', marks: 1,
+    syllabus: 'Structure 1.3.3',
+    stem: '<p>A zinc atom (Z = 30) has the configuration ' + cfg('1s2 2s2 2p6 3s2 3p6 4s2 3d10') + '.</p><p>How many electrons are in its third main energy level (n = 3)?</p>',
+    answer: 18, tolerance: { abs: 0.01 }, unit: 'electrons',
+    hints: ['The first number in each term is the main energy level. Find every term that starts with 3.', 'There are three of them: 3s, 3p and 3d.'],
+    solution: math(['3s<sup>2</sup> + 3p<sup>6</sup> + 3d<sup>10</sup>', '2 + 6 + 10 = 18 electrons']) + '<p>The third main energy level of zinc is full: 2n<sup>2</sup> = 2 ' + TIMES + ' 3<sup>2</sup> = 18. The common slip is to answer 8 by leaving out the 3d electrons, which are written after 4s.</p>'
+  },
+  {
+    id: 's1-3-q053', level: 'sl', tier: 'foundation', type: 'mcq', marks: 1,
+    syllabus: 'Structure 1.3.4',
+    stem: '<p>Which sublevel does <strong>not</strong> exist?</p>',
+    options: ['1s', '2p', '2d', '3d'],
+    answer: 2,
+    misconception: {
+      0: 'Every main energy level has an s sublevel. 1s is the only sublevel in n = 1.',
+      1: 'The second main energy level has two sublevels: 2s and 2p.',
+      3: 'The third main energy level has three sublevels: 3s, 3p and 3d.'
+    },
+    hints: ['Main energy level n contains n types of sublevel.', 'n = 1 has s only. n = 2 has s and p. n = 3 has s, p and d.'],
+    solution: '<p>Main energy level n contains n types of sublevel. The second level has only two: 2s and 2p. The d sublevels start at n = 3, so <strong>2d</strong> does not exist.</p>'
+  },
+  {
+    id: 's1-3-q054', level: 'sl', tier: 'foundation', type: 'order', marks: 1,
+    syllabus: 'Structure 1.3.4',
+    stem: '<p>Put the four sublevels of the fourth main energy level in order of <strong>increasing energy</strong> (lowest energy first).</p>',
+    options: ['4s', '4p', '4d', '4f'],
+    hints: ['Within one main energy level, the sublevels always go in the same order of energy.', 'The order of the letters is s, p, d, f.'],
+    solution: '<p>Within one main energy level the energy of the sublevels increases in the order s, p, d, f. So the order is 4s, 4p, 4d, 4f.</p>'
+  },
+  {
+    id: 's1-3-q055', level: 'sl', tier: 'exam', type: 'mcq', marks: 1,
+    syllabus: 'Structure 1.3.4',
+    stem: '<p>Which statement about the three orbitals in a 2p sublevel is correct?</p>',
+    options: [
+      'They have the same shape and the same energy, but point along three different axes.',
+      'They have three different shapes.',
+      'They have three different energies.',
+      'Together they can hold a maximum of three electrons.'
+    ],
+    answer: 0,
+    misconception: {
+      1: 'All three p orbitals are dumbbell-shaped. Only their direction in space is different.',
+      2: 'Orbitals in the same sublevel have the same energy. That is why Hund’s rule is needed to decide how they fill.',
+      3: 'Each orbital can hold two electrons, so three p orbitals hold up to six.'
+    },
+    hints: ['Think of the names p<sub>x</sub>, p<sub>y</sub> and p<sub>z</sub>. What do the letters x, y and z tell you?'],
+    solution: '<p>The three p orbitals in a sublevel are all dumbbell-shaped and have the same energy. They differ only in orientation: they lie along the x, y and z axes, at right angles to each other. Each holds up to two electrons, so the sublevel holds up to six.</p>'
+  },
+  {
+    id: 's1-3-q056', level: 'sl', tier: 'exam', type: 'mcq', marks: 1,
+    syllabus: 'Structure 1.3.4',
+    stem: '<p>Which row gives the number of sublevels and the total number of orbitals in the second main energy level (n = 2)?</p>',
+    options: [
+      '2 sublevels and 2 orbitals',
+      '2 sublevels and 4 orbitals',
+      '2 sublevels and 8 orbitals',
+      '3 sublevels and 9 orbitals'
+    ],
+    answer: 1,
+    misconception: {
+      0: 'There are two sublevels, but they do not have one orbital each. The 2p sublevel has three orbitals.',
+      2: '8 is the number of electrons that n = 2 can hold. Each orbital holds two electrons, so there are 4 orbitals.',
+      3: 'This describes n = 3 (3s, 3p and 3d). There is no 2d sublevel.'
+    },
+    hints: ['Name the sublevels in n = 2 first.', 'An s sublevel has 1 orbital. A p sublevel has 3.'],
+    solution: math(['sublevels in n = 2: 2s and 2p &nbsp; (2 sublevels)', 'orbitals: 1 (2s) + 3 (2p) = 4']) + '<p>Check: 4 orbitals ' + TIMES + ' 2 electrons = 8 electrons, which agrees with 2n<sup>2</sup> = 8.</p>'
+  },
+  {
+    id: 's1-3-q057', level: 'sl', tier: 'exam', type: 'mcq', marks: 1,
+    syllabus: 'Structure 1.3.5',
+    stem: '<p>A student draws this orbital diagram for a carbon atom (Z = 6) in its ground state.</p>' + boxes([['1s', ['ud']], ['2s', ['u']], ['2p', ['u', 'u', 'u']]], 'Orbital diagram. The 1s box contains one up arrow and one down arrow. The 2s box contains one up arrow only. Each of the three 2p boxes contains one up arrow.') + '<p>Which rule or principle does the diagram break?</p>',
+    options: ['The Aufbau principle', 'Hund’s rule', 'The Pauli exclusion principle', 'None. The diagram is correct.'],
+    answer: 0,
+    misconception: {
+      1: 'Hund’s rule is obeyed inside the 2p sublevel: each 2p orbital holds one electron and the spins are parallel. The problem is that 2p is being used too early.',
+      2: 'No orbital holds two electrons with the same spin, and no orbital holds more than two. The Pauli exclusion principle is obeyed.',
+      3: 'Count the electrons in 2s. That sublevel still has space, but an electron has been put in the higher-energy 2p sublevel.'
+    },
+    hints: ['The total number of electrons (6) is right. Check each sublevel from the lowest energy upwards.', 'Is every lower-energy sublevel full before the next one is used?'],
+    solution: '<p>The <strong>Aufbau principle</strong> says electrons fill the lowest-energy sublevel that has space. Here the 2s sublevel holds only one electron, but there are three electrons in the higher-energy 2p sublevel. In the ground state, 2s is filled first.</p>' + boxes([['1s', ['ud']], ['2s', ['ud']], ['2p', ['u', 'u', '']]], 'Correct orbital diagram for carbon. The 1s and 2s boxes each contain a pair of opposite arrows. Two of the three 2p boxes contain one up arrow each and the third is empty.') + '<p>The correct diagram is ' + cfg('1s2 2s2 2p2') + ', with the two 2p electrons in separate orbitals.</p>'
+  },
+  {
+    id: 's1-3-q058', level: 'sl', tier: 'exam', type: 'mcq', marks: 1,
+    syllabus: 'Structure 1.3.5',
+    stem: '<p>What is the condensed electron configuration of a selenium atom (Z = 34) in its ground state?</p>',
+    options: [
+      cfg('[Ar] 4s2 4p4'),
+      cfg('[Ar] 4s2 3d10 4p4'),
+      cfg('[Kr] 4p4'),
+      cfg('[Ar] 4s2 3d10 4p6')
+    ],
+    answer: 1,
+    misconception: {
+      0: 'Count the electrons: 18 + 2 + 4 = 24. The ten 3d electrons are missing. The 3d sublevel fills before 4p.',
+      2: 'The noble gas core must be the noble gas <em>before</em> the element. Krypton (Z = 36) comes after selenium.',
+      3: 'Count the electrons: 18 + 2 + 10 + 6 = 36. That is krypton (or the ion <span class="chem">Se^2-</span>), not a selenium atom.'
+    },
+    hints: ['Argon accounts for 18 electrons, so 16 more are needed.', 'After the argon core the order is 4s, then 3d, then 4p.'],
+    solution: '<p>Selenium has 34 electrons: the argon core (18) plus 16.</p>' + math(['4s<sup>2</sup> (2) &nbsp; 3d<sup>10</sup> (12) &nbsp; 4p<sup>4</sup> (16)', cfg('[Ar] 4s2 3d10 4p4') + ' &nbsp; (18 + 2 + 10 + 4 = 34)']) + '<p>Writing it as ' + cfg('[Ar] 3d10 4s2 4p4') + ' is also accepted.</p>'
+  },
+  {
+    id: 's1-3-q059', level: 'ahl', tier: 'exam', type: 'mcq', marks: 1,
+    syllabus: 'Structure 1.3.5',
+    stem: '<p>What is the condensed electron configuration of the <span class="chem">Cu^2+</span> ion? (Copper has Z = 29.)</p>',
+    options: [
+      cfg('[Ar] 4s2 3d7'),
+      cfg('[Ar] 4s1 3d8'),
+      cfg('[Ar] 3d9'),
+      cfg('[Ar] 4s2 3d9')
+    ],
+    answer: 2,
+    misconception: {
+      0: 'This keeps the 4s electrons and removes electrons from 3d. In ions of the first-row d-block metals, 4s is emptied first.',
+      1: 'This keeps one electron in 4s. The 4s sublevel is emptied before any 3d electron is removed.',
+      3: 'Count the electrons: 18 + 2 + 9 = 29. That is the number in a copper atom, and it is not the atom’s real configuration either.'
+    },
+    hints: ['Start from the real configuration of the copper atom. Copper is one of the two exceptions.', 'The atom is ' + cfg('[Ar] 4s1 3d10') + '. Remove two electrons, starting with 4s.'],
+    solution: '<p>The copper atom is ' + cfg('[Ar] 4s1 3d10') + ' (an exception to the usual filling order). Remove the single 4s electron first, then one 3d electron:</p>' + math(['<span class="chem">Cu^2+</span>: ' + cfg('[Ar] 3d9') + ' &nbsp; (29 − 2 = 27 electrons)']) + '<p>This skill is listed for HL in Structure 3.1.</p>'
+  },
+  {
+    id: 's1-3-q060', level: 'ahl', tier: 'challenge', type: 'mcq', marks: 1,
+    syllabus: 'Structure 1.3.5',
+    stem: '<p>Which pair of ions have the same electron configuration?</p>',
+    options: [
+      '<span class="chem">Mn^2+</span> and <span class="chem">Fe^2+</span>',
+      '<span class="chem">Mn^2+</span> and <span class="chem">Fe^3+</span>',
+      '<span class="chem">Cr^3+</span> and <span class="chem">Fe^3+</span>',
+      '<span class="chem">Ti^2+</span> and <span class="chem">Ca^2+</span>'
+    ],
+    answer: 1,
+    misconception: {
+      0: 'Same charge, but different numbers of electrons: <span class="chem">Mn^2+</span> has 23 and <span class="chem">Fe^2+</span> has 24.',
+      2: 'Same charge, but different numbers of electrons: <span class="chem">Cr^3+</span> has 21 and <span class="chem">Fe^3+</span> has 23.',
+      3: '<span class="chem">Ca^2+</span> has 18 electrons, ' + cfg('[Ar]') + '. <span class="chem">Ti^2+</span> has 20 electrons, ' + cfg('[Ar] 3d2') + '.'
+    },
+    hints: ['Count the electrons in each ion: atomic number minus the charge. Mn is 25, Fe is 26, Cr is 24, Ti is 22, Ca is 20.', 'Two ions with the same number of electrons, both with an empty 4s sublevel, have the same configuration.'],
+    solution: '<p>Write each atom, then remove the 4s electrons before any 3d electrons.</p>' + math([
+      'Mn: ' + cfg('[Ar] 4s2 3d5') + ' → <span class="chem">Mn^2+</span>: ' + cfg('[Ar] 3d5'),
+      'Fe: ' + cfg('[Ar] 4s2 3d6') + ' → <span class="chem">Fe^2+</span>: ' + cfg('[Ar] 3d6') + ' → <span class="chem">Fe^3+</span>: ' + cfg('[Ar] 3d5'),
+      'Cr: ' + cfg('[Ar] 4s1 3d5') + ' → <span class="chem">Cr^3+</span>: ' + cfg('[Ar] 3d3'),
+      'Ti: ' + cfg('[Ar] 4s2 3d2') + ' → <span class="chem">Ti^2+</span>: ' + cfg('[Ar] 3d2')
+    ]) + '<p><span class="chem">Mn^2+</span> and <span class="chem">Fe^3+</span> both have 23 electrons and are both ' + cfg('[Ar] 3d5') + '.</p>'
+  },
+  {
+    id: 's1-3-q061', level: 'ahl', tier: 'foundation', type: 'mcq', marks: 1,
+    syllabus: 'Structure 1.3.6',
+    stem: '<p>Which equation represents the <strong>first ionization energy</strong> of magnesium?</p>',
+    options: [
+      '<span class="chem">Mg(s) -> Mg+(g) + e-</span>',
+      '<span class="chem">Mg(g) -> Mg+(g) + e-</span>',
+      '<span class="chem">Mg(g) -> Mg^2+(g) + 2e-</span>',
+      '<span class="chem">Mg(g) + e- -> Mg-(g)</span>'
+    ],
+    answer: 1,
+    misconception: {
+      0: 'Ionization energy is defined for <em>gaseous</em> atoms. Starting from the solid would include the energy needed to turn the solid into separate atoms.',
+      2: 'This removes two electrons. The first ionization energy is for removing one electron from each atom.',
+      3: 'This atom gains an electron. Ionization means an electron is removed.'
+    },
+    hints: ['First ionization energy: one mole of electrons is removed from one mole of gaseous atoms.', 'Check the state symbols and the number of electrons.'],
+    solution: '<p>The first ionization energy is the energy needed to remove one mole of electrons from one mole of gaseous atoms, forming one mole of gaseous 1+ ions:</p>' + math(['<span class="chem">Mg(g) -> Mg+(g) + e-</span>']) + '<p>Both species must have the state symbol (g).</p>'
+  },
+  {
+    id: 's1-3-q062', level: 'ahl', tier: 'exam', type: 'mcq', marks: 1,
+    syllabus: 'Structure 1.3.6',
+    stem: '<p>The first ionization energy of phosphorus is 1012 ' + KJ + ' and that of sulfur is 1000 ' + KJ + '. Which statement explains why the value for sulfur is lower?</p>',
+    options: [
+      'The electron removed from sulfur is in a 3p orbital that holds two electrons, and these two electrons repel each other.',
+      'The electron removed from sulfur is in the 3p sublevel, but the electron removed from phosphorus is in the 3s sublevel.',
+      'Sulfur has more inner electrons than phosphorus, so its outer electrons are more shielded.',
+      'Sulfur has a smaller nuclear charge than phosphorus.'
+    ],
+    answer: 0,
+    misconception: {
+      1: 'Both atoms lose a 3p electron: P is ' + cfg('[Ne] 3s2 3p3') + ' and S is ' + cfg('[Ne] 3s2 3p4') + '. A change of sublevel explains the fall from Mg to Al, not this one.',
+      2: 'Both atoms have the same ten inner electrons (' + cfg('1s2 2s2 2p6') + '), so the shielding by inner electrons is the same.',
+      3: 'Sulfur has 16 protons and phosphorus has 15. Sulfur has the <em>greater</em> nuclear charge, which is why the lower value needs explaining.'
+    },
+    hints: ['Write both configurations. Which sublevel does each atom lose an electron from?', 'Draw the three 3p boxes for each atom. What is different in sulfur?'],
+    solution: '<p>P is ' + cfg('[Ne] 3s2 3p3') + ': each 3p orbital holds one electron. S is ' + cfg('[Ne] 3s2 3p4') + ': one 3p orbital holds a pair. The electron removed from sulfur comes from this doubly occupied orbital. Repulsion between the two electrons in the same orbital raises the energy of the electron, so less energy is needed to remove it.</p>' + boxes([['3p in P', ['u', 'u', 'u']], ['3p in S', ['ud', 'u', 'u']]], 'Orbital diagrams of the 3p sublevel. In phosphorus each of the three 3p boxes holds one up arrow. In sulfur the first 3p box holds an up and a down arrow and the other two hold one up arrow each.')
+  },
+  {
+    id: 's1-3-q063', level: 'ahl', tier: 'exam', type: 'short', marks: 2,
+    syllabus: 'Structure 1.3.6',
+    stem: '<p>The first ionization energy of sulfur is 1000 ' + KJ + ' and that of chlorine is 1251 ' + KJ + '.</p><p>Explain why chlorine has the higher first ionization energy.</p>',
+    answer: '<p>Chlorine has one more proton than sulfur, so its nuclear charge is greater. In both atoms the electron is removed from the 3p sublevel, in the same main energy level, so the shielding by inner electrons is the same. The outer electron in chlorine is attracted more strongly to the nucleus (and is slightly closer to it), so more energy is needed to remove it.</p>',
+    markscheme: [
+      'Chlorine has a greater nuclear charge / more protons.',
+      'The electron is removed from the same main energy level (or sublevel), so shielding is the same/similar, and the attraction to the nucleus is stronger (accept: smaller atomic radius).'
+    ],
+    hints: ['What is different about the two nuclei?', 'Are the outer electrons in the same main energy level? What does that tell you about shielding?', 'Do not argue from how close chlorine is to a full sublevel. Compare the attraction for the electron that is removed.']
   }
 
   ]);

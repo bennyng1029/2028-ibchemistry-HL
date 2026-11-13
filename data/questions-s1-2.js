@@ -1,6 +1,6 @@
 /* ==========================================================================
    Question bank: Structure 1.2 — The nuclear atom
-   30 original questions. q001–q022 are SL (1.2.1, 1.2.2); q023–q030 are
+   32 original questions. q001–q022 are SL (1.2.1, 1.2.2); q023–q032 are
    Additional HL (1.2.3, mass spectra). Schema: docs/AUTHORING.md.
    Every numeric answer is recomputed independently by the checking script
    (see the builder's report); isotope data are always supplied in the stem.
@@ -480,6 +480,39 @@
         math('relative abundance of the peak at 87 = 23.5 / 76.5 × 100 = 30.71… = <b>30.7</b>') +
         '<p>Check: (85 × 100 + 87 × 30.7) / 130.7 = 85.47.</p>',
       answerDisplay: '30.7'
+    },
+    {
+      id: 's1-2-q031', topic: 's1-2', level: 'ahl', tier: 'foundation', type: 'mcq', marks: 1,
+      syllabus: 'Structure 1.2.3',
+      stem: '<p>The mass spectrum of a sample of magnesium has a peak at ' + mz + ' 25. Which species causes this peak?</p>',
+      options: [iso(25, 'Mg'), iso(25, 'Mg', '+'), iso(25, 'Mg', '−'), iso(25, 'Mg', '2+')],
+      answer: 1,
+      misconception: {
+        0: 'The isotope is right, but the charge is missing. A mass spectrometer detects positive ions, and in an exam the mark is lost without the +.',
+        2: 'The particles detected in a mass spectrometer are positive ions, not negative ions.',
+        3: 'A 2+ ion of mass 25 has ' + mz + ' = 25 ÷ 2 = 12.5, so it would not give a peak at 25.'
+      },
+      hints: ['What does the “z” in ' + mz + ' stand for?', 'The particles detected are ions. Are they positive or negative?'],
+      solution: '<p>The particles detected are positive ions. For a peak at ' + mz + ' 25 the ion has mass 25 and a 1+ charge: ' + iso(25, 'Mg', '+') + '. Always include the charge when you name the species that causes a peak.</p>'
+    },
+    {
+      id: 's1-2-q032', topic: 's1-2', level: 'ahl', tier: 'exam', type: 'mcq', marks: 1,
+      syllabus: 'Structure 1.2.3',
+      stem: '<p>Bromine has two isotopes, ' + iso(79, 'Br') + ' and ' + iso(81, 'Br') + ', in almost equal abundance. The mass spectrum of bromine, <span class="chem">Br2</span>, has three peaks near ' + mz + ' 160. It also has exactly two more peaks, at ' + mz + ' 79 and 81, with almost equal heights. Which species cause the peaks at ' + mz + ' 79 and 81?</p>',
+      options: [
+        iso(79, 'Br') + ' and ' + iso(81, 'Br') + ' atoms',
+        iso(79, 'Br', '+') + ' and ' + iso(81, 'Br', '+') + ' ions',
+        iso(79, 'Br', '−') + ' and ' + iso(81, 'Br', '−') + ' ions',
+        '<span class="chem">Br2</span> molecules that have lost two electrons'
+      ],
+      answer: 1,
+      misconception: {
+        0: 'The isotopes are right, but neutral atoms are not detected. The species must be positive ions, so the + is needed.',
+        2: 'Bromine forms bromide ions in its compounds, but the particles detected in a mass spectrometer are positive ions.',
+        3: 'Ions with a 2+ charge would appear at half their mass: 158 ÷ 2 = 79, 160 ÷ 2 = 80 and 162 ÷ 2 = 81. That would give three peaks, with the tallest at 80, not two equal peaks.'
+      },
+      hints: ['Compare 79 and 81 with the mass numbers of the two isotopes.', 'Some molecules break into single atoms in the instrument. What charge must a particle have to be detected?'],
+      solution: '<p>Some <span class="chem">Br2</span> molecules break into single atoms in the instrument. The atoms are detected as positive ions: ' + iso(79, 'Br', '+') + ' at ' + mz + ' 79 and ' + iso(81, 'Br', '+') + ' at ' + mz + ' 81. The two isotopes are almost equally abundant, so the two peaks have almost equal heights.</p>'
     }
   ]);
 })();

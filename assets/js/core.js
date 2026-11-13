@@ -1027,6 +1027,19 @@
     var fallback = node.querySelector('.widget__fallback');
     if (fallback) fallback.parentNode.removeChild(fallback);
     if (caption) { caption.classList.add('widget__caption'); node.removeChild(caption); }
+    var current = start();
+    // Language change: strings were read when the widget started, so start it again from scratch
+    // (unless it opted in to a plain redraw with w.keepOnLangChange() or data-lang="keep").
+    doc.addEventListener('s1:langchange', function () {
+      if (!doc.documentElement.contains(node)) return;
+      if (current.keep()) { current.api.redraw(); return; }
+      current.dispose();
+      current = start();
+    });
+
+   function start() {
+    var disposers = [], keepOnLang = node.getAttribute('data-lang') === 'keep';
+    function listen(target, type, fn, opts) { target.addEventListener(type, fn, opts); disposers.push(function () { target.removeEventListener(type, fn, opts); }); }
     var titleText = node.getAttribute('data-title') || '';
     var titleId = util.uid('widget-title');
     var head = el('div', { class: 'widget__head' }, [
@@ -1052,9 +1065,15 @@
       redraw: function () { draws.forEach(function (f) { f(); }); },
       onDraw: function (fn) { draws.push(fn); },
       /** Re-run fn when the theme changes (canvas drawings are redrawn automatically). */
-      onTheme: function (fn) { doc.addEventListener('s1:themechange', function (e) { fn(e.detail.theme); }); },
+      onTheme: function (fn) { listen(doc, 's1:themechange', function (e) { fn(e.detail.theme); }); },
       /** Re-run fn when the language changes (canvases are redrawn automatically; call your update() here). */
-      onLang: function (fn) { doc.addEventListener('s1:langchange', function (e) { fn(e.detail.lang); }); },
+      onLang: function (fn) { listen(doc, 's1:langchange', function (e) { fn(e.detail.lang); }); },
+      /** Keep this instance when the language changes (state survives; only labels and canvases refresh). */
+      keepOnLangChange: function () { keepOnLang = true; },
+      /** Add an event listener that is removed when the widget is torn down: w.listen(window, 'resize', fn). */
+      listen: listen,
+      /** Run fn when the widget is torn down (to stop timers, observers or listeners you created yourself). */
+      onCleanup: function (fn) { disposers.push(fn); },
       /** Same as S1.t: translate a string. */
       t: t,
       /**
@@ -1089,7 +1108,7 @@
         size();
         var lastW = stage.clientWidth;
         var onResize = function () { if (stage.clientWidth === lastW) return; lastW = stage.clientWidth; size(); run(); };
-        if (window.ResizeObserver) new ResizeObserver(onResize).observe(stage); else window.addEventListener('resize', onResize);
+        if (window.ResizeObserver) { var ro = new ResizeObserver(onResize); ro.observe(stage); disposers.push(function () { ro.disconnect(); }); } else listen(window, 'resize', onResize);
         draws.push(run);
         return obj;
       },
@@ -1190,14 +1209,15 @@
       }
     };
     if (window.IntersectionObserver) {
-      new IntersectionObserver(function (entries) {
+      var io = new IntersectionObserver(function (entries) {
         visible = entries[entries.length - 1].isIntersecting;
         loops.forEach(function (L) { L._sync(); });
-      }).observe(node);
+      });
+      io.observe(node);
+      disposers.push(function () { io.disconnect(); });
     }
-    doc.addEventListener('visibilitychange', function () { loops.forEach(function (L) { L._sync(); }); });
-    doc.addEventListener('s1:themechange', function () { api.redraw(); });
-    doc.addEventListener('s1:langchange', function () { api.redraw(); });
+    listen(doc, 'visibilitychange', function () { loops.forEach(function (L) { L._sync(); }); });
+    listen(doc, 's1:themechange', function () { api.redraw(); });
     try { initFn(api); initialising = false; if (pendingDraw) api.redraw(); }
     catch (err) {
       initialising = false;
@@ -1205,6 +1225,17 @@
       stage.appendChild(el('p', { class: 'widget__fallback', t: 'This interactive could not start. The rest of the page still works.' }));
       if (window.console) console.error('[S1.widgets] ' + name + ' failed:', err);
     }
+    return {
+      api: api,
+      keep: function () { return keepOnLang; },
+      dispose: function () {
+        loops.forEach(function (L) { L.stop(); });
+        disposers.forEach(function (d) { try { d(); } catch (e) { /* ignore */ } });
+        disposers = []; draws = []; loops = [];
+        if (caption && caption.parentNode === node) node.removeChild(caption);
+      }
+    };
+   }
   }
 
   /* ---------- Enhance: run every component initialiser on a subtree ---------- */

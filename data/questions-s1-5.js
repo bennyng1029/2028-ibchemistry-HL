@@ -1,6 +1,6 @@
 /* ==========================================================================
    Question bank: Structure 1.5 — Ideal gases (all SL; 1.5 has no AHL content)
-   35 original questions: 10 foundation, 18 exam, 7 challenge.
+   36 original questions: 10 foundation, 18 exam, 8 challenge.
    Schema and rules: docs/AUTHORING.md.  Data booklet values: R = 8.31 J K-1 mol-1,
    molar volume at STP = 22.7 dm3 mol-1 (273.15 K, 100 kPa), Ar to 2 d.p.
    Every number was recomputed with a script (see the builder's report).
@@ -425,7 +425,7 @@
     },
     {
       id: 's1-5-q033', topic: 's1-5', level: 'sl', tier: 'challenge', type: 'numeric', marks: 3, syllabus: 'Structure 1.5.4',
-      stem: '<p>Dry air contains 0.934 % argon by amount (in moles). A 2.00 <span class="unit">dm3</span> flask is filled with dry air at 20.0 °C and 101 kPa. Calculate the mass of argon in the flask, in g.</p>',
+      stem: '<p>In dry air, 0.934 % of the particles are argon atoms. This means 0.934 % of the total amount of gas, in mol, is argon. A 2.00 <span class="unit">dm3</span> flask is filled with dry air at 20.0 °C and 101 kPa. Calculate the mass of argon in the flask, in g.</p>',
       answer: 0.030940270553900917, tolerance: '1%', sigfigs: 3, unit: 'g',
       hints: ['First find the total amount of gas in the flask with <span class="mono">n = PV ÷ RT</span>.', '0.934 % of that amount is argon: multiply by 0.00934.', 'Then <span class="mono">m = n × M</span> with <i>A</i><sub>r</sub>(Ar) = 39.95.'],
       solution: '<div class="worked__math">T = 20.0 + 273.15 = 293.15 K</div><div class="worked__math">n(air) = (101 kPa × 2.00 dm<sup>3</sup>) ÷ (8.31 J K<sup>−1</sup> mol<sup>−1</sup> × 293.15 K) = 0.082920… mol</div><div class="worked__math">n(Ar) = 0.082920… mol × 0.934 ÷ 100 = 7.7447… × 10<sup>−4</sup> mol</div><div class="worked__math">m(Ar) = 7.7447… × 10<sup>−4</sup> mol × 39.95 g mol<sup>−1</sup> = 0.030940… g</div><p>To 3 significant figures: <strong>0.0309 g</strong>.</p>'
@@ -436,6 +436,13 @@
       answer: 0.2462976840013029, tolerance: '1%', sigfigs: 3, unit: 'mol',
       hints: ['The amount of gas changes, so the combined gas law does not apply. Use <span class="mono">n = PV ÷ RT</span> before and after.', 'Shortcut: V and T are the same before and after, so the amount released is <span class="mono">(300 − 180) × 5.00 ÷ (8.31 × 293.15)</span>.'],
       solution: '<div class="worked__math">T = 20.0 + 273.15 = 293.15 K</div><div class="worked__math">n(before) = (300 kPa × 5.00 dm<sup>3</sup>) ÷ (8.31 J K<sup>−1</sup> mol<sup>−1</sup> × 293.15 K) = 0.61574… mol</div><div class="worked__math">n(after) = (180 kPa × 5.00 dm<sup>3</sup>) ÷ (8.31 J K<sup>−1</sup> mol<sup>−1</sup> × 293.15 K) = 0.36944… mol</div><div class="worked__math">n(released) = 0.61574… − 0.36944… = 0.24629… mol</div><p>To 3 significant figures: <strong>0.246 mol</strong>.</p>'
+    },
+    {
+      id: 's1-5-q036', topic: 's1-5', level: 'sl', tier: 'challenge', type: 'numeric', marks: 2, syllabus: 'Structure 1.5.3',
+      stem: '<p>A student changes the volume of a fixed mass of gas at a constant temperature of 25.0 °C and measures the pressure each time. A graph of pressure in kPa (vertical axis) against 1/volume in <span class="unit">dm-3</span> (horizontal axis) is a straight line through the origin. Its gradient is 62.0 <span class="unit">kPa dm3</span>.</p><p>Calculate the amount of gas, in mol.</p>',
+      answer: 0.025023959, tolerance: '1%', sigfigs: 3, unit: 'mol',
+      hints: ['Write <span class="mono">PV = nRT</span> as P = (something) × (1/V). The “something” is the gradient.', 'The gradient is nRT, so <span class="mono">n = gradient ÷ RT</span>. Use T in kelvin.'],
+      solution: '<p>From <span class="mono">PV = nRT</span>, P = nRT × (1/V). So a graph of P against 1/V has gradient nRT.</p><div class="worked__math">T = 25.0 + 273.15 = 298.15 K</div><div class="worked__math">n = gradient ÷ RT = 62.0 kPa dm<sup>3</sup> ÷ (8.31 J K<sup>−1</sup> mol<sup>−1</sup> × 298.15 K) = 0.025023… mol</div><p>To 3 significant figures: <strong>0.0250 mol</strong>. kPa × dm<sup>3</sup> = J, so the units match R.</p>'
     }
   ]);
 })();

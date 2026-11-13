@@ -42,6 +42,7 @@
     if (opts.mode === 'review') pool = S1.questions.filter({ ids: S1.progress.mistakes() });
     else pool = S1.questions.filter({ topics: opts.topics, level: opts.level, tier: opts.tier, type: opts.type, ids: opts.ids });
     if (opts.mode === 'review' && opts.topics && opts.topics.length) pool = pool.filter(function (q) { return opts.topics.indexOf(q.topic) > -1; });
+    if (opts.syllabus && opts.syllabus.length) pool = pool.filter(function (q) { return opts.syllabus.indexOf(q.syllabus) > -1; });
     if (S1.level.get() === 'sl') pool = pool.filter(function (q) { return q.level !== 'ahl'; });
     return pool;
   }
@@ -321,7 +322,7 @@
   /* ---------- A run of questions with score and summary ---------------------- */
   /**
    * S1.quiz.mount(element, options) → controller
-   * options: { topics: ['s1-1'], level, tier, type, ids: [...], count: 5, shuffle: true,
+   * options: { topics: ['s1-1'], level, tier, type, ids: [...], syllabus: ['Structure 1.4.2'], count: 5, shuffle: true,
    *            mode: 'practice' | 'review', title: 'Quick check', emptyText }
    */
   function mount(host, opts) {
@@ -447,7 +448,7 @@
       if (topics && topics.length === 1 && topics[0] === 'all') topics = null;
       var opts = {
         topics: topics, level: d.level || null, tier: d.tier || null, type: d.type || null, ids: list(d.ids),
-        count: d.count ? parseInt(d.count, 10) : 5, shuffle: d.shuffle !== 'false', mode: d.mode || 'practice', title: d.title || null
+        syllabus: list(d.syllabus), count: d.count ? parseInt(d.count, 10) : 5, shuffle: d.shuffle !== 'false', mode: d.mode || 'practice', title: d.title || null
       };
       var ctl = mount(host, opts), started = false;
       host.addEventListener('change', function () { started = true; }, true);

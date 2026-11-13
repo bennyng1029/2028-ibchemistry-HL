@@ -467,7 +467,7 @@
         beaker(120, 60, 120, 150, 100) +
         '<line class="ln thick" x1="215" y1="30" x2="170" y2="185"/>' +
         grains([[140, 203], [152, 204], [163, 203], [176, 204], [189, 203], [201, 204], [213, 203], [226, 204], [146, 197], [170, 197], [195, 197], [220, 197]]) +
-        '<path class="ln" marker-end="url(#p11-ah)" d="M60 36 Q100 30 130 70"/>' +
+        '<path class="ln" marker-end="url(#p11-ah)" d="M96 30 Q118 34 131 68"/>' +
         lab(6, 26, t('add water|(the solvent)')) +
         lab(250, 34, t('stir with a|glass rod'), 246, 34, 216, 36) +
         lab(250, 120, t('soluble solid|dissolves:|a solution forms'), 246, 126, 222, 140) +
@@ -475,17 +475,17 @@
     },
     evaporation: function () {
       return svgWrap('0 0 360 235',
-        '<path class="liq" d="M124 118 Q180 168 236 118 z"/>' +
+        '<path class="liq" d="M124 118 Q180 176 236 118 z"/>' +
         '<path class="ln" d="M112 104 Q180 190 248 104"/>' +
-        crystals([[150, 132], [176, 144], [200, 133]]) +
-        '<line class="ln" x1="96" y1="158" x2="264" y2="158"/><path class="ln" d="M110 158 L98 226 M250 158 L262 226"/>' +
+        crystals([[152, 128], [176, 135], [199, 128]]) +
+        '<line class="ln" x1="96" y1="148" x2="264" y2="148"/><path class="ln" d="M110 148 L98 226 M250 148 L262 226"/>' +
         flame(180, 222) +
         '<path class="ln" marker-end="url(#p11-ah)" d="M150 96 q-8 -14 0 -28 q8 -14 0 -28"/>' +
         '<path class="ln" marker-end="url(#p11-ah)" d="M180 96 q-8 -14 0 -28 q8 -14 0 -28"/>' +
         '<path class="ln" marker-end="url(#p11-ah)" d="M210 96 q-8 -14 0 -28 q8 -14 0 -28"/>' +
         lab(236, 40, t('solvent leaves|as vapour'), 232, 44, 216, 56) +
         lab(268, 100, t('evaporating|basin'), 264, 104, 246, 110) +
-        lab(4, 100, t('solution, then|crystals of the|dissolved solid'), 94, 116, 148, 130) +
+        lab(4, 100, t('solution, then|crystals of the|dissolved solid'), 94, 116, 150, 128) +
         lab(200, 198, t('gentle|heat'), 198, 200, 190, 208));
     },
     distillation: function () {
@@ -498,7 +498,7 @@
         '<path class="ln" d="M132 15 V30 M56 -15 V-30"/></g>' +
         beaker(232, 172, 56, 56, 22) + '<circle class="liq-drop" cx="254" cy="166" r="3.5"/>' +
         flame(67, 228) +
-        lab(84, 26, t('thermometer: reads the|boiling point of the vapour'), 80, 28, 70, 40) +
+        lab(84, 26, t('thermometer: shows the|temperature of the vapour'), 80, 28, 70, 40) +
         lab(196, 78, t('cooling water out'), 192, 76, 140, 84, null) +
         lab(248, 98, t('condenser:|vapour cools|to a liquid'), 244, 102, 197, 117) +
         lab(160, 200, t('cooling|water in'), 164, 196, 185, 166, 'end') +
@@ -580,7 +580,7 @@
     { id: 'ethanol', label: t('Ethanol and water'), mix: t('Ethanol and water, two liquids that mix completely.'), want: t('the ethanol separated from the water'),
       prop: 'vol', tech: 'distillation',
       propWhy: t('Ethanol boils at 78 °C and water at 100 °C. Ethanol is more volatile.'),
-      techWhy: t('On heating, the vapour contains more of the liquid with the lower boiling point (ethanol). The condenser turns the vapour back into a liquid, which is collected as the distillate.'),
+      techWhy: t('On heating, the vapour contains more of the liquid with the lower boiling point (ethanol). The condenser turns the vapour back into a liquid, which is collected as the distillate. One distillation gives a distillate that is richer in ethanol. It is not pure ethanol.'),
       propHints: { sol: t('Both parts are liquids, and they mix completely.'), insol: t('There is no undissolved solid. Both liquids pass through filter paper.'), hotcold: t('That applies to a solid dissolved in a solvent.'), attract: t('Chromatography separates tiny amounts for identification, not two bulk liquids.') } },
     { id: 'ink', label: t('Dyes in black ink'), mix: t('Black ink, a solution of several coloured dyes.'), want: t('to find out how many dyes the ink contains'),
       prop: 'attract', tech: 'chromatography',

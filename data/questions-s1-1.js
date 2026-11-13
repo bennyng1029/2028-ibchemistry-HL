@@ -396,42 +396,85 @@ S1.questions.register('s1-1', [
     solution: '<p>Solid → gas is sublimation. The particles must overcome the attractions between them to separate, which needs energy, so energy is absorbed from the surroundings (endothermic).</p>'
   },
 
-  /* ======================= CHALLENGE ===================================== */
   {
-    id: 's1-1-q022',
-    topic: 's1-1', level: 'sl', tier: 'challenge', type: 'mcq', marks: 1,
-    syllabus: 'Structure 1.1.3',
-    stem: '<p>A sample of gas is heated from 27 °C to 327 °C. By what factor does the average kinetic energy of its particles increase?</p>',
-    options: ['About 1.1', 'About 1.4', 'About 2', 'About 12'],
-    answer: 2,
-    misconception: {
-      0: 'You converted only one temperature to kelvin: 327 ÷ 300 ≈ 1.1. Both must be in kelvin.',
-      1: 'That is √2. It is the factor for the average speed of the particles, not for their average kinetic energy.',
-      3: 'You divided the Celsius values: 327 ÷ 27 ≈ 12. Average kinetic energy is proportional to temperature in kelvin, not in °C.'
-    },
-    hints: [
-      'Average kinetic energy is proportional to the temperature in kelvin.',
-      'Convert both temperatures to kelvin, then divide final by initial.'
+    id: 's1-1-q029',
+    topic: 's1-1', level: 'sl', tier: 'exam', type: 'short', marks: 4,
+    syllabus: 'Structure 1.1.1',
+    stem: '<p>A dry mixture contains iron filings, sand and salt (sodium chloride). Iron is attracted to a magnet. Sand and salt are not. Outline how to obtain a dry sample of each of the three solids.</p>',
+    answer: '<p>Use a magnet to remove the iron filings. Add water to the sand and salt and stir, so that the salt dissolves. Filter: the sand stays on the filter paper as the residue. Rinse the sand with a little water and leave it to dry. Heat the filtrate to evaporate the water, leave it to crystallize, and dry the salt crystals.</p>',
+    markscheme: [
+      'Use a magnet to remove the iron (filings).',
+      'Add water and stir / dissolve the salt.',
+      'Filter (to remove the sand): sand is the residue / salt solution is the filtrate.',
+      'Rinse and dry the sand / the residue.',
+      'Evaporate the water from the filtrate / heat the filtrate and leave it to crystallize (to obtain the salt).'
     ],
-    solution: '<div class="worked__math"><i>T</i><sub>1</sub> = 27 + 273.15 = 300.15 K</div><div class="worked__math"><i>T</i><sub>2</sub> = 327 + 273.15 = 600.15 K</div><div class="worked__math">factor = 600.15 K ÷ 300.15 K = 1.9995… ≈ <b>2</b></div><p>The kelvin temperature doubles, so the average kinetic energy doubles.</p>'
+    hints: [
+      'Find a physical property that is different for each solid. The question gives you one of them.',
+      'After filtering, neither product is finished. One is wet and one is still dissolved.'
+    ]
   },
   {
-    id: 's1-1-q023',
+    id: 's1-1-q030',
+    topic: 's1-1', level: 'sl', tier: 'exam', type: 'mcq', marks: 1,
+    syllabus: 'Structure 1.1.2',
+    stem: '<p>Evaporation and boiling are both types of vaporization. Which statement is correct?</p>',
+    options: [
+      'Evaporation happens only at the boiling point',
+      'Boiling happens only at the surface of the liquid',
+      'Evaporation happens at the surface of the liquid, at temperatures below the boiling point',
+      'Evaporation releases energy to the surroundings and boiling absorbs energy'
+    ],
+    answer: 2,
+    misconception: {
+      0: 'That describes boiling. A puddle evaporates on a cool day, far below 100 °C.',
+      1: 'That describes evaporation. In boiling, bubbles of vapour form all through the liquid.',
+      3: 'Both are liquid → gas, so both absorb energy. The particles must overcome the attractions to their neighbours.'
+    },
+    hints: [
+      'Think of a puddle drying up and a kettle boiling. Where does the vapour form in each one?',
+      'Both changes are liquid → gas.'
+    ],
+    solution: '<p>Evaporation takes place at the surface of a liquid, at temperatures below the boiling point. Boiling takes place at the boiling point, with bubbles of vapour forming throughout the liquid. Both are vaporization (liquid → gas), and both absorb energy.</p>'
+  },
+
+  /* ======================= CHALLENGE ===================================== */
+  /* s1-1-q022 and s1-1-q023 were removed in the audit (they needed "average kinetic energy is
+     directly proportional to T", which goes beyond the guide's "a measure of"). Do not reuse those ids. */
+  {
+    id: 's1-1-q027',
+    topic: 's1-1', level: 'sl', tier: 'challenge', type: 'mcq', marks: 1,
+    syllabus: 'Structure 1.1.3',
+    stem: '<p>Three samples of nitrogen gas are at different temperatures: X is at 150 K, Y is at −150 °C and Z is at 150 °C. Which list puts the samples in order of the average kinetic energy of their molecules, <strong>lowest first</strong>?</p>',
+    options: ['X, Y, Z', 'Y, X, Z', 'Y, Z, X', 'They are all the same'],
+    answer: 1,
+    misconception: {
+      0: 'You may have treated −150 °C as larger than 150 K. Convert first: −150 °C = 123.15 K, which is colder than 150 K.',
+      2: 'X is at 150 K, which is −123.15 °C. That is much colder than Z at 150 °C, so X cannot have the highest average kinetic energy.',
+      3: 'The number 150 appears three times, but the units and signs differ. These are three different temperatures.'
+    },
+    hints: [
+      'Temperature is a measure of average kinetic energy, so the coldest sample has the lowest average kinetic energy.',
+      'Put all three temperatures on the same scale before you compare them.'
+    ],
+    solution: '<div class="worked__math">X: 150 K</div><div class="worked__math">Y: (−150) + 273.15 = 123.15 K</div><div class="worked__math">Z: 150 + 273.15 = 423.15 K</div><p>Temperature is a measure of the average kinetic energy of the particles. The order of temperature, lowest first, is Y, X, Z, so that is also the order of average kinetic energy.</p>'
+  },
+  {
+    id: 's1-1-q028',
     topic: 's1-1', level: 'sl', tier: 'challenge', type: 'numeric', marks: 2,
     syllabus: 'Structure 1.1.3',
-    stem: '<p>A gas is at 25.0 °C. It is heated until the average kinetic energy of its particles is three times the starting value. What is the final temperature in degrees Celsius? Give your answer to 3 significant figures.</p>',
-    answer: 621.3,
-    tolerance: { abs: 1 },
-    sigfigs: 3,
-    unit: '°C',
+    stem: '<p>A liquid starts at −12.48 °C. It is warmed until its temperature has risen by 85.00 K. What is its final temperature in kelvin? Give your answer to 2 decimal places.</p>',
+    answer: 345.67,
+    tolerance: { abs: 0.005 },
+    sigfigs: 5,
+    unit: 'K',
     hints: [
-      'Average kinetic energy is proportional to temperature in kelvin, so work in kelvin.',
-      'Convert 25.0 °C to kelvin, multiply by 3, then convert back to °C.'
+      'There are two different things here: a single temperature reading and a temperature change. Which one needs 273.15?',
+      'Convert −12.48 °C to kelvin. Then add the rise. A rise of 85.00 K is the same as a rise of 85.00 °C.'
     ],
-    solution: '<div class="worked__math"><i>T</i><sub>1</sub> = 25.0 + 273.15 = 298.15 K</div>' +
-      '<div class="worked__math"><i>T</i><sub>2</sub> = 3 × 298.15 K = 894.45 K</div>' +
-      '<div class="worked__math"><i>T</i><sub>2</sub> = 894.45 − 273.15 = 621.3 °C ≈ <b>621 °C</b></div>' +
-      '<p>Multiplying the Celsius value by 3 (to get 75.0 °C) is wrong, because 0 °C is not zero kinetic energy.</p>'
+    solution: '<div class="worked__math"><i>T</i><sub>start</sub> = (−12.48) + 273.15 = 260.67 K</div>' +
+      '<div class="worked__math"><i>T</i><sub>final</sub> = 260.67 K + 85.00 K = <b>345.67 K</b></div>' +
+      '<p>Only the starting reading is converted. Adding 273.15 to the rise as well gives 618.82 K, which is wrong. Forgetting to convert at all gives 72.52, which is the final temperature in °C, not in K.</p>'
   },
   {
     id: 's1-1-q024',

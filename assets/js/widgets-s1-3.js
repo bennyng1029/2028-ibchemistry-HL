@@ -8,7 +8,8 @@
    s1-3.succ       (AHL) successive ionization energies, with a mystery mode
    Data sources: first ionization energies are the IB data booklet values
    (section 9). Successive ionization energies are rounded to the nearest
-   kJ mol-1 from the standard CRC-based table.
+   kJ mol-1 from the standard CRC-based table; the first value of each list is
+   the data booklet value, so the two IE widgets agree.
    Every user-visible string goes through t("English text", {vars}) so the
    site can be translated; whole sentences are kept as single strings.
    ========================================================================== */
@@ -614,7 +615,7 @@
         else if (isAtom) html = t('{species} has {n} electrons, filled in the order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.', { species: sp, n: Z });
         else if (n === 0) html = t('{species} is a hydrogen atom that has lost its only electron. It is a bare proton.', { species: sp });
         else if (q < 0) html = t('{species}: start from the atom ({atom}) and add electrons to the next space. Electrons added: {k}. Total: {n}.', { species: sp, atom: atomCfg, k: -q, n: n });
-        else if (Z >= 21 && Z <= 30) html = '<span class="badge badge--ahl">AHL</span> ' + t('{species}: start from the atom ({atom}) and remove electrons. Electrons removed: {k}. <b>The 4s electrons are removed before any 3d electron.</b> Once 3d holds electrons it is lower in energy than 4s, which is why the diagram for this ion shows 3d below 4s. Ions of the d-block metals are assessed at HL (Structure 3.1).', { species: sp, atom: atomCfg, k: q });
+        else if (Z >= 21 && Z <= 30) html = '<span class="badge badge--ahl">' + t('AHL') + '</span> ' + t('{species}: start from the atom ({atom}) and remove electrons. Electrons removed: {k}. <b>The 4s electrons are removed before any 3d electron.</b> Once 3d holds electrons it is lower in energy than 4s, which is why the diagram for this ion shows 3d below 4s. Ions of the d-block metals are assessed at HL (Structure 3.1).', { species: sp, atom: atomCfg, k: q });
         else if (Z === 31) html = t('{species}: start from the atom ({atom}) and remove electrons from the highest main energy level, 4p first and then 4s. Electrons removed: {k}. Total left: {n}.', { species: sp, atom: atomCfg, k: q, n: n });
         else html = t('{species}: start from the atom ({atom}) and remove electrons from the highest main energy level. Electrons removed: {k}. Total left: {n}.', { species: sp, atom: atomCfg, k: q, n: n });
         if (!isAtom && cond && cond.bare) html += ' ' + (cond.core === 'He' ? t('That is the same configuration as a helium atom.') : cond.core === 'Ne' ? t('That is the same configuration as a neon atom.') : t('That is the same configuration as an argon atom.'));
@@ -755,7 +756,7 @@
   // kJ mol-1, rounded to the nearest whole number
   var SUCC = {
     B: [801, 2427, 3660, 25026, 32827],
-    C: [1087, 2353, 4621, 6223, 37831, 47277],
+    C: [1086, 2353, 4621, 6223, 37831, 47277],
     N: [1402, 2856, 4578, 7475, 9445, 53267, 64360],
     O: [1314, 3388, 5301, 7469, 10990, 13327, 71330, 84078],
     F: [1681, 3374, 6050, 8408, 11023, 15164, 17868, 92038, 106434],

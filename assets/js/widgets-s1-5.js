@@ -437,14 +437,16 @@
         conv.push(SYM.n + ' = ' + SYM.m + ' ÷ ' + SYM.M + ' = ' + raw('m') + ' g ÷ ' + chem.fixed(M, 2) + ' ' + GMOL + ' = ' + tidy(n, 5) + ' mol');
       }
       var Rt = '8.31 ' + Ru, re = [], sub = [], ans, ansHtml, extra = '';
-      var Pt = function () { return tidy(P) + ' ' + pu; }, Vt = function () { return tidy(V) + ' ' + vu; }, Tt = function () { return tidy(T, 7) + ' K'; }, nt = function () { return tidy(n, 5) + ' mol'; };
+      var Pt = function () { return tidy(P) + ' ' + pu; }, Vt = function () { return tidy(V) + ' ' + vu; },
+        div = function (s) { return s.indexOf(TIMES) >= 0 ? '(' + s + ')' : s; }, /* brackets round a divisor written in standard form */
+        Tt = function () { return tidy(T, 7) + ' K'; }, nt = function () { return tidy(n, 5) + ' mol'; };
       if (u === 'P') {
         ans = n * R * T / V; re.push('<i>P</i> = <i>nRT</i> ÷ <i>V</i>');
-        sub.push('<i>P</i> = (' + nt() + ' ' + TIMES + ' ' + Rt + ' ' + TIMES + ' ' + Tt() + ') ÷ ' + Vt());
+        sub.push('<i>P</i> = (' + nt() + ' ' + TIMES + ' ' + Rt + ' ' + TIMES + ' ' + Tt() + ') ÷ ' + div(Vt()));
         ansHtml = chem.fmt(ans, 3) + ' ' + pu; extra = kset ? ' = ' + chem.fmt(ans * 1000, 3) + ' Pa' : ' = ' + chem.fmt(ans / 1000, 3) + ' kPa';
       } else if (u === 'V') {
         ans = n * R * T / P; re.push('<i>V</i> = <i>nRT</i> ÷ <i>P</i>');
-        sub.push('<i>V</i> = (' + nt() + ' ' + TIMES + ' ' + Rt + ' ' + TIMES + ' ' + Tt() + ') ÷ ' + Pt());
+        sub.push('<i>V</i> = (' + nt() + ' ' + TIMES + ' ' + Rt + ' ' + TIMES + ' ' + Tt() + ') ÷ ' + div(Pt()));
         ansHtml = chem.fmt(ans, 3) + ' ' + vu; extra = kset ? ' = ' + chem.fmt(ans * 1000, 3) + ' ' + CM3 : ' = ' + chem.fmt(ans * 1000, 3) + ' ' + DM3;
       } else if (u === 'T') {
         ans = P * V / (n * R); re.push('<i>T</i> = <i>PV</i> ÷ <i>nR</i>');

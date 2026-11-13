@@ -209,46 +209,54 @@
     return '<span class="nuclide" data-i18n="off"><span class="nuclide__pre' + (hasZ ? '' : ' nuclide__pre--a') + '"><span>' + esc(A) + '</span>' + (hasZ ? '<span>' + esc(Z) + '</span>' : '') + '</span>' + esc(symbol) + ch + '</span>';
   }
 
-  /** Molar mass in g mol^-1 from a formula string using the Ar table. NaN if an element is unknown or has no Ar.
-   *  Handles brackets and hydrates: molarMass('Ca(OH)2'), molarMass('CuSO4.5H2O'). Ignores charges. */
-  function molarMass(str) {
-    var s = String(str).replace(/\s+/g, '').replace(/\^?\d*[+-]$/, '');
-    var parts = s.split(/[.·]/), total = 0;
-    for (var p = 0; p < parts.length; p++) {
-      var m = /^(\d+)?(.*)$/.exec(parts[p]);
-      var mult = m[1] ? parseInt(m[1], 10) : 1;
-      total += mult * parseGroup(m[2]);
-    }
-    return Math.round(total * 100) / 100;
-
-    function parseGroup(g) {
-      var i = 0;
-      function walk() {
-        var sum = 0;
+  /**
+   * parseFormula('Ca(OH)2') → {counts: {Ca: 1, O: 2, H: 2}, order: ['Ca', 'O', 'H'], M: 74.1, charge: 0} or null if it cannot be read.
+   * Handles brackets, nested brackets and hydrates ('CuSO4.5H2O' or with a centred dot). A trailing charge
+   * ('SO4^2-', 'NH4+') is read into `charge` and ignored for the mass. Element symbols must be real (Z = 1–118).
+   * M is the molar mass in g mol^-1 from Ar to 2 d.p., rounded to 2 d.p.; it is null if any element has no Ar.
+   */
+  function parseFormula(str) {
+    var s = String(str == null ? '' : str).replace(/\s+/g, '').replace(/\u2212/g, '-');
+    if (!s) return null;
+    var charge = 0, cm = /\^(\d*)([+-])$/.exec(s) || /([+-])$/.exec(s);
+    if (cm) { charge = cm.length === 3 ? (cm[1] ? parseInt(cm[1], 10) : 1) * (cm[2] === '-' ? -1 : 1) : (cm[1] === '-' ? -1 : 1); s = s.slice(0, cm.index); }
+    var counts = {}, order = [], ok = true;
+    function add(sym, n) { if (!(sym in counts)) { counts[sym] = 0; order.push(sym); } counts[sym] += n; }
+    s.split(/[.\u00B7]/).forEach(function (part) {
+      var m = /^(\d+)?(.*)$/.exec(part), mult = m[1] ? parseInt(m[1], 10) : 1, g = m[2], i = 0;
+      if (!g) { ok = false; return; }
+      function num() { var mm = /^\d+/.exec(g.slice(i)); if (!mm) return 1; i += mm[0].length; return parseInt(mm[0], 10); }
+      function walk(depth) {
+        var local = [];
         while (i < g.length) {
           var ch = g[i];
-          if (ch === '(' || ch === '[') { i++; var inner = walk(); sum += inner * num(); }
-          else if (ch === ')' || ch === ']') { i++; return sum; }
+          if (ch === '(' || ch === '[') { i++; var inner = walk(depth + 1); if (!inner) return null; var k = num(); inner.forEach(function (e) { local.push([e[0], e[1] * k]); }); }
+          else if (ch === ')' || ch === ']') { if (!depth) return null; i++; return local; }
           else {
             var mm = /^[A-Z][a-z]?/.exec(g.slice(i));
-            if (!mm) return NaN;
-            var el = bySymbol[mm[0]];
-            if (!el && mm[0].length === 2) { el = bySymbol[mm[0][0]]; mm = [mm[0][0]]; }
-            if (!el || el.ar == null) return NaN;
-            i += mm[0].length;
-            sum += el.ar * num();
+            if (!mm) return null;
+            var sym = mm[0];
+            if (!bySymbol[sym]) { sym = sym[0]; if (!bySymbol[sym]) return null; }
+            i += sym.length;
+            local.push([sym, num()]);
           }
         }
-        return sum;
+        return depth ? null : local;
       }
-      function num() {
-        var mm = /^\d+/.exec(g.slice(i));
-        if (!mm) return 1;
-        i += mm[0].length;
-        return parseInt(mm[0], 10);
-      }
-      return walk();
-    }
+      var list = walk(0);
+      if (!list) { ok = false; return; }
+      list.forEach(function (e) { add(e[0], e[1] * mult); });
+    });
+    if (!ok || !order.length) return null;
+    var M = 0;
+    order.forEach(function (sym) { if (M != null) { var ar = bySymbol[sym].ar; M = ar == null ? null : M + ar * counts[sym]; } });
+    return { counts: counts, order: order, M: M == null ? null : Math.round(M * 100) / 100, charge: charge };
+  }
+
+  /** Molar mass in g mol^-1 from a formula string (see parseFormula). NaN if it cannot be read or an element has no Ar. */
+  function molarMass(str) {
+    var p = parseFormula(str);
+    return p && p.M != null ? p.M : NaN;
   }
 
   /* ---------- Significant figures ---------------------------------------- */
@@ -449,6 +457,7 @@
     unit: unit,
     nuclide: nuclide,
     molarMass: molarMass,
+    parseFormula: parseFormula,
     roundSig: roundSig,
     toSig: toSig,
     sci: sci,
