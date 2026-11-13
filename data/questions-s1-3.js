@@ -29,9 +29,12 @@
     var IND = '<br>&nbsp;&nbsp;';
     return lines.map(function (l) {
       if (plainLen(l) > 34) {
-        l = l.split(' = ').map(function (part) {
-          return plainLen(part) > 32 ? part.replace(/ ([\u00d7\u00f7]) \(/g, IND + '$1 (') : part;
-        }).join(IND + '= ');
+        var parts = l.split(' = ').map(function (part) {
+          return plainLen(part) > 30 ? part.replace(/ ([\u00d7\u00f7]) \(/g, IND + '$1 (').replace(/ &nbsp; \(/g, IND + '(').replace(/ \u2248 /g, IND + '\u2248 ') : part;
+        });
+        var head = parts.shift();
+        if (parts.length && plainLen(head) < 12) head += ' = ' + parts.shift();
+        l = [head].concat(parts).join(IND + '= ');
       }
       return '<div class="worked__math">' + l + '</div>';
     }).join('');
@@ -83,7 +86,7 @@
     function arrow(x, from, to, name) {
       var y1 = y[from], y2 = y[to] - 2;
       s += '<path d="M' + x + ' ' + y1 + 'V' + y2 + 'M' + (x - 5) + ' ' + (y2 - 8) + 'L' + x + ' ' + y2 + 'L' + (x + 5) + ' ' + (y2 - 8) + '" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>';
-      s += '<text x="' + (x + 9) + '" y="' + (y2 - 12) + '" font-size="14" font-weight="700" fill="currentColor">' + name + '</text>';
+      s += '<text x="' + (x + 9) + '" y="' + Math.max(y2 - 12, (y1 + y2) / 2 + 5) + '" font-size="14" font-weight="700" fill="currentColor">' + name + '</text>';
     }
     arrow(96, 2, 1, 'P'); arrow(148, 3, 2, 'Q'); arrow(200, 5, 2, 'R'); arrow(252, 4, 3, 'S');
     return '<p><svg viewBox="0 0 300 210" width="300" height="210" role="img" aria-label="Energy level diagram for hydrogen, not to scale. Horizontal lines for n = 1 at the bottom up to n = 5, getting closer together, and a dashed line for n = infinity at the top. Four downward arrows: P from n = 2 to n = 1, Q from n = 3 to n = 2, R from n = 5 to n = 2, S from n = 4 to n = 3.">' + s + '</svg></p>';
@@ -776,7 +779,7 @@
     id: 's1-3-q042', level: 'ahl', tier: 'exam', type: 'mcq', marks: 1,
     syllabus: 'Structure 1.3.7',
     stem: '<p>The table shows the first six successive ionization energies of an element in period 3.</p>' +
-      ieTable('Successive ionization energies / kJ mol<sup>−1</sup>', ['', '1st', '2nd', '3rd', '4th', '5th', '6th'], [['IE', '787', '1577', '3232', '4356', '16 091', '19 805']]) +
+      ieTable('Successive ionization energies / kJ mol<sup>−1</sup>', ['', '1st', '2nd', '3rd', '4th', '5th', '6th'], [['IE', '787', '1577', '3232', '4356', '16\u00a0091', '19\u00a0805']]) +
       '<p>Which element is it?</p>',
     options: ['Aluminium', 'Silicon', 'Phosphorus', 'Sulfur'],
     answer: 1,
@@ -786,15 +789,15 @@
       3: 'Sulfur has six outer electrons, so all six of these values would rise gradually with no large jump.'
     },
     hints: ['Find the largest jump between two neighbouring values.', 'Count the electrons removed before that jump. That is the number of outer electrons.'],
-    solution: '<p>The values rise gradually up to the 4th (4356), then jump to 16 091 for the 5th. That is about 3.7 times larger. Four electrons are removed before the jump, so the atom has four outer electrons and is in group 14. The group 14 element in period 3 is <strong>silicon</strong>, ' + cfg('[Ne] 3s2 3p2') + '. The 5th electron has to come from the n = 2 level.</p>'
+    solution: '<p>The values rise gradually up to the 4th (4356), then jump to 16\u00a0091 for the 5th. That is about 3.7 times larger. Four electrons are removed before the jump, so the atom has four outer electrons and is in group 14. The group 14 element in period 3 is <strong>silicon</strong>, ' + cfg('[Ne] 3s2 3p2') + '. The 5th electron has to come from the n = 2 level.</p>'
   },
   {
     id: 's1-3-q043', level: 'ahl', tier: 'challenge', type: 'mcq', marks: 2,
     syllabus: 'Structure 1.3.7',
     stem: '<p>The table shows successive ionization energies of two elements, X and Y. Both are in period 3.</p>' +
       ieTable('Successive ionization energies / kJ mol<sup>−1</sup>', ['', '1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th'], [
-        ['X', '738', '1451', '7733', '10 543', '13 630', '18 020', '21 711', '25 661'],
-        ['Y', '1251', '2298', '3822', '5159', '6542', '9362', '11 018', '33 604']
+        ['X', '738', '1451', '7733', '10\u00a0543', '13\u00a0630', '18\u00a0020', '21\u00a0711', '25\u00a0661'],
+        ['Y', '1251', '2298', '3822', '5159', '6542', '9362', '11\u00a0018', '33\u00a0604']
       ]) +
       '<p>X and Y form an ionic compound. What is its formula?</p>',
     options: ['XY', 'XY<sub>2</sub>', 'X<sub>2</sub>Y', 'X<sub>2</sub>Y<sub>7</sub>'],
@@ -805,12 +808,12 @@
       3: 'This uses the numbers of outer electrons (2 and 7) as if they were the ion charges. Y does not lose seven electrons. It gains one to complete its outer level.'
     },
     hints: ['Find the large jump for each element to get its number of outer electrons.', 'X is a metal and Y is a non-metal. What charge does each ion have?', 'Balance the charges.'],
-    solution: '<p><strong>X:</strong> the large jump is between the 2nd (1451) and 3rd (7733) values. X has two outer electrons, so it is in group 2 and forms X<sup>2+</sup>.</p><p><strong>Y:</strong> the values rise gradually until the large jump between the 7th (11 018) and 8th (33 604). Y has seven outer electrons, so it is in group 17 and gains one electron to form Y<sup>−</sup>.</p><p>One X<sup>2+</sup> ion needs two Y<sup>−</sup> ions, so the formula is XY<sub>2</sub>. (X is magnesium and Y is chlorine: <span class="chem">MgCl2</span>.)</p>'
+    solution: '<p><strong>X:</strong> the large jump is between the 2nd (1451) and 3rd (7733) values. X has two outer electrons, so it is in group 2 and forms X<sup>2+</sup>.</p><p><strong>Y:</strong> the values rise gradually until the large jump between the 7th (11\u00a0018) and 8th (33\u00a0604). Y has seven outer electrons, so it is in group 17 and gains one electron to form Y<sup>−</sup>.</p><p>One X<sup>2+</sup> ion needs two Y<sup>−</sup> ions, so the formula is XY<sub>2</sub>. (X is magnesium and Y is chlorine: <span class="chem">MgCl2</span>.)</p>'
   },
   {
     id: 's1-3-q044', level: 'ahl', tier: 'exam', type: 'short', marks: 3,
     syllabus: 'Structure 1.3.7',
-    stem: '<p>The first four successive ionization energies of aluminium (Z = 13) are 578, 1817, 2745 and 11 577 ' + KJ + '.</p><p>(a) Explain why the second ionization energy is greater than the first. [1]</p><p>(b) Explain why the fourth ionization energy is very much greater than the third. [2]</p>',
+    stem: '<p>The first four successive ionization energies of aluminium (Z = 13) are 578, 1817, 2745 and 11\u00a0577 ' + KJ + '.</p><p>(a) Explain why the second ionization energy is greater than the first. [1]</p><p>(b) Explain why the fourth ionization energy is very much greater than the third. [2]</p>',
     answer: '<p>(a) The second electron is removed from a positive ion, not from a neutral atom. The same nuclear charge now attracts fewer electrons (there is less repulsion between the remaining electrons), so each electron is held more strongly.</p><p>(b) Aluminium is ' + cfg('1s2 2s2 2p6 3s2 3p1') + '. The first three electrons come from the third main energy level. The fourth electron comes from the second main energy level (2p), which is closer to the nucleus. It is shielded by fewer inner electrons, so it is attracted much more strongly and needs much more energy to remove.</p>',
     markscheme: [
       '(a) The electron is removed from a positive ion / the same nuclear charge attracts fewer electrons / less electron–electron repulsion, so the attraction is stronger.',
@@ -837,7 +840,7 @@
     id: 's1-3-q046', level: 'ahl', tier: 'challenge', type: 'mcq', marks: 1,
     syllabus: 'Structure 1.3.7',
     stem: '<p>An element has twelve successive ionization energies. There are only two large jumps. Some of the values are shown.</p>' +
-      ieTable('Successive ionization energies / kJ mol<sup>−1</sup>', ['', '2nd', '3rd', '10th', '11th'], [['IE', '1451', '7733', '35 458', '169 988']]) +
+      ieTable('Successive ionization energies / kJ mol<sup>−1</sup>', ['', '2nd', '3rd', '10th', '11th'], [['IE', '1451', '7733', '35\u00a0458', '169\u00a0988']]) +
       '<p>Which arrangement of electrons in main energy levels fits these data?</p>',
     options: [
       'n = 1: 2 electrons. n = 2: 8 electrons. n = 3: 2 electrons.',
@@ -856,7 +859,7 @@
       'electrons 1 and 2: easiest to remove → outer level (n = 3)',
       'large jump (1451 → 7733)',
       'electrons 3 to 10: eight electrons → next level in (n = 2)',
-      'large jump (35 458 → 169 988)',
+      'large jump (35\u00a0458 → 169\u00a0988)',
       'electrons 11 and 12: hardest to remove → closest to the nucleus (n = 1)'
     ]) + '<p>So the arrangement is 2, 8, 2: the element is magnesium, ' + cfg('1s2 2s2 2p6 3s2') + ', in group 2 and period 3.</p>'
   }

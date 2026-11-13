@@ -369,6 +369,10 @@
       ctx.fillStyle = ink; ctx.font = body; ctx.fillText(t('energy supplied / kJ'), pl + pw / 2, H - 5);
       ctx.save(); ctx.translate(12, pt + ph / 2); ctx.rotate(-Math.PI / 2); ctx.fillText(t('temperature / °C'), 0, 0); ctx.restore();
 
+      /* cursor guide lines (under the particle picture) */
+      var xc = X(slider.value), yc = Y(cur.T);
+      ctx.strokeStyle = ink; ctx.lineWidth = 1; ctx.setLineDash([4, 3]);
+      ctx.beginPath(); ctx.moveTo(xc, pt + ph); ctx.lineTo(xc, yc); ctx.lineTo(pl, yc); ctx.stroke(); ctx.setLineDash([]);
       /* particle picture in the empty lower right of the plot */
       var ax0 = X(HC.cum[3]) + 14, ay0 = Y(100) + 30, aw = pl + pw - 8 - ax0, ah = pt + ph - 10 - ay0;
       var sc = Math.min(aw / sim.BW, ah / sim.BH);
@@ -391,11 +395,9 @@
       ctx.fillText(t('boiling'), X(HC.cum[3]) + 14, Y(100) - 8);
 
       /* cursor */
-      var xc = X(slider.value), yc = Y(cur.T);
-      ctx.strokeStyle = ink; ctx.lineWidth = 1; ctx.setLineDash([4, 3]);
-      ctx.beginPath(); ctx.moveTo(xc, pt + ph); ctx.lineTo(xc, yc); ctx.lineTo(pl, yc); ctx.stroke(); ctx.setLineDash([]);
+      var xc2 = X(slider.value), yc2 = Y(cur.T);
       ctx.fillStyle = w.color('--surface'); ctx.strokeStyle = ink; ctx.lineWidth = 2.5;
-      ctx.beginPath(); ctx.arc(xc, yc, 6, 0, 2 * Math.PI); ctx.fill(); ctx.stroke();
+      ctx.beginPath(); ctx.arc(xc2, yc2, 6, 0, 2 * Math.PI); ctx.fill(); ctx.stroke();
     });
 
     function update() {
@@ -484,7 +486,7 @@
         lab(236, 40, t('solvent leaves|as vapour'), 232, 44, 216, 56) +
         lab(268, 100, t('evaporating|basin'), 264, 104, 246, 110) +
         lab(4, 100, t('solution, then|crystals of the|dissolved solid'), 94, 116, 148, 130) +
-        lab(204, 206, t('gentle heat'), 200, 204, 192, 208));
+        lab(200, 198, t('gentle|heat'), 198, 200, 190, 208));
     },
     distillation: function () {
       return svgWrap('0 0 360 235',
@@ -498,11 +500,11 @@
         flame(67, 228) +
         lab(84, 26, t('thermometer: reads the|boiling point of the vapour'), 80, 28, 70, 40) +
         lab(196, 78, t('cooling water out'), 192, 76, 140, 84, null) +
-        lab(238, 118, t('condenser:|vapour cools|to a liquid'), 234, 118, 190, 122) +
-        lab(176, 222, t('cooling|water in'), 190, 196, 194, 168, 'end') +
+        lab(248, 98, t('condenser:|vapour cools|to a liquid'), 244, 102, 197, 117) +
+        lab(160, 200, t('cooling|water in'), 164, 196, 185, 166, 'end') +
         lab(296, 196, t('distillate'), 294, 198, 282, 212) +
         lab(4, 112, t('mixture'), 30, 116, 52, 168) +
-        lab(84, 226, t('heat')));
+        lab(22, 222, t('heat'), 50, 218, 58, 218));
     },
     recrystallization: function () {
       function cap(x, y, n, lines) { return '<text class="num" x="' + x + '" y="' + y + '">' + n + '</text>' + lab(x + 16, y, lines); }
@@ -512,7 +514,7 @@
         cap(8, 134, '1', t('Dissolve in the minimum|volume of hot solvent.')) +
         /* 2 filter hot */
         funnel(270, 14, 34, true) + '<polygon class="solid" points="262,34 278,34 272,42 268,42"/>' + beaker(244, 56, 52, 36, 16) +
-        cap(188, 134, '2', t('Filter while hot: insoluble|impurities stay on the paper.')) +
+        cap(188, 134, '2', t('Filter while hot:|insoluble impurities|stay on the paper.')) +
         /* 3 cool */
         beaker(60, 186, 60, 62, 40) + crystals([[70, 238], [84, 239], [98, 238], [77, 229], [92, 230], [106, 236]]) +
         cap(8, 272, '3', t('Cool slowly: crystals form.|Soluble impurities stay|dissolved.')) +
