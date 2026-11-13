@@ -2787,7 +2787,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "Species": "物種",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Species in this level": "本級的物種數目",
+    "Species in this level": "本級的物種",
 
     // widget string (assets/js/widgets-s3-1.js)
     "Completed": "已完成",
@@ -2796,7 +2796,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "{i} of {n}": "第 {i} 個，共 {n} 個",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Find the oxidation state of {el} in this species.": "找出這個物種中{el}的氧化態。",
+    "Find the oxidation state of {el} in this species.": "找出這個物種中{el} 的氧化態。",
 
     // widget string (assets/js/widgets-s3-1.js)
     "Step 1. What must all the oxidation states add up to?": "第 1 步。所有氧化態的總和應該是多少？",
@@ -2811,7 +2811,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "Not that. The total equals the overall charge on the species. A neutral compound or element has a total of 0.": "不對。總和等於物種的整體電荷。中性化合物或元素的總和是 0。",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Step {n}. What is the oxidation state of each {el} atom here?": "第 {n} 步。這裏每個{el}原子的氧化態是多少？",
+    "Step {n}. What is the oxidation state of each {el} atom here?": "第 {n} 步。這裏每個{el} 原子的氧化態是多少？",
 
     // widget string (assets/js/widgets-s3-1.js)
     "Right: {os}.": "正確：{os}。",
@@ -2820,7 +2820,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "Not that. Use the rule:": "不對。使用這條規則：",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Step {n}. Let the oxidation state of {el} be x. Solve for x.": "第 {n} 步。設{el}的氧化態為 x。解出 x。",
+    "Step {n}. Let the oxidation state of {el} be x. Solve for x.": "第 {n} 步。設 {el} 的氧化態為 x。解出 x。",
 
     // widget string (assets/js/widgets-s3-1.js)
     "Check": "檢查",
@@ -2847,7 +2847,7 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "Include the + sign: write {a}. A number with no sign does not earn the mark.": "要加上 + 號：寫 {a}。沒有正負號的數字不會得分。",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Correct: the oxidation state of {el} is {a}.": "正確：{el}的氧化態是 {a}。",
+    "Correct: the oxidation state of {el} is {a}.": "正確：{el} 的氧化態是 {a}。",
 
     // widget string (assets/js/widgets-s3-1.js)
     "Name: {name}": "名稱：{name}",

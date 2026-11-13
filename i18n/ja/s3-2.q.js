@@ -685,7 +685,7 @@ S1.i18n.register('ja', 's3-2.q', {
     // ── s3-2-q025 · order · exam · SL · Structure 3.2.4 · 1 mark
     "s3-2-q025": {
       // EN: <p>These four compounds have similar molar masses (58 to 60 <span class="unit">g mol-1</span>). Put them in order of <strong>increasing boiling point</strong> (lowest boiling point first).</p>
-      stem: "<p>次の 4 つの化合物は、モル質量がほぼ同じです（58 〜 60 <span class=\"unit\">g mol-1</span>）。<strong>沸点の低い順</strong>に並べましょう（沸点が最も低いものが先頭）。</p>",
+      stem: "<p>次の 4 つの化合物は、モル質量がほぼ同じです（58〜60 <span class=\"unit\">g mol-1</span>）。<strong>沸点の低い順</strong>に並べましょう（沸点が最も低いものが先頭）。</p>",
       options: [
         // EN: Butane, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>
         "Butane, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>",

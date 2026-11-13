@@ -703,812 +703,812 @@ S1.i18n.register('zh-Hant', 's3-2h', {
 
     // Infrared spectroscopy > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "aldehydes, ketones, carboxylic acids and esters": "",
+    "aldehydes, ketones, carboxylic acids and esters": "醛、酮、羧酸和酯",
 
     // Infrared spectroscopy > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "alkenes": "",
+    "alkenes": "烯烴",
 
     // Infrared spectroscopy > table > td
-    "medium-weak": "",
+    "medium-weak": "中至弱 (medium-weak)",
 
     // Infrared spectroscopy > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "alcohols, esters, ethers": "",
+    "alcohols, esters, ethers": "醇、酯、醚",
 
     // Infrared spectroscopy > p
-    "Almost every organic compound has C–H bonds. So the C–H absorption rarely helps you to tell compounds apart.": "",
+    "Almost every organic compound has C–H bonds. So the C–H absorption rarely helps you to tell compounds apart.": "幾乎所有有機化合物都有 C–H 鍵。所以 C–H 吸收很少能幫你分辨化合物。",
 
     // Infrared spectroscopy > li
-    "Look for a strong absorption at 1700–1750 <span class=\"unit\">cm-1</span>. If it is there, the molecule has a C=O bond.": "",
+    "Look for a strong absorption at 1700–1750 <span class=\"unit\">cm-1</span>. If it is there, the molecule has a C=O bond.": "看看 1700–1750 <span class=\"unit\">cm-1</span> 有沒有強吸收。如果有，分子就有 C=O 鍵。",
 
     // Infrared spectroscopy > li
-    "Look for a broad absorption above 2500 <span class=\"unit\">cm-1</span>. Broad at 3200–3600 is the O–H of an alcohol. Very broad at 2500–3000 is the O–H of a carboxylic acid.": "",
+    "Look for a broad absorption above 2500 <span class=\"unit\">cm-1</span>. Broad at 3200–3600 is the O–H of an alcohol. Very broad at 2500–3000 is the O–H of a carboxylic acid.": "看看 2500 <span class=\"unit\">cm-1</span> 以上有沒有寬的吸收。在 3200–3600 的寬吸收是醇的 O–H。在 2500–3000 的很寬吸收是羧酸的 O–H。",
 
     // Infrared spectroscopy > li
-    "Match any other strong absorption to a row of the booklet table. Check that the shape fits too.": "",
+    "Match any other strong absorption to a row of the booklet table. Check that the shape fits too.": "把其他強吸收逐一與手冊表格的某一行配對。同時檢查形狀是否吻合。",
 
     // Infrared spectroscopy > li
-    "Note which bonds are absent. “No O–H” and “no C=O” are useful evidence.": "",
+    "Note which bonds are absent. “No O–H” and “no C=O” are useful evidence.": "留意哪些鍵不存在。「沒有 O–H」和「沒有 C=O」都是有用的證據。",
 
     // Infrared spectroscopy > li
-    "Write each result as a bond with its booklet range.": "",
+    "Write each result as a bond with its booklet range.": "把每個結果寫成一種鍵，連同它在手冊中的範圍。",
 
     // Infrared spectroscopy > h3
-    "The fingerprint region": "",
+    "The fingerprint region": "指紋區",
 
     // Infrared spectroscopy > p
-    "Below about 1500 <span class=\"unit\">cm-1</span>, a spectrum has many overlapping absorptions. This part is called the fingerprint region, because its pattern is different for every compound.": "",
+    "Below about 1500 <span class=\"unit\">cm-1</span>, a spectrum has many overlapping absorptions. This part is called the fingerprint region, because its pattern is different for every compound.": "在約 1500 <span class=\"unit\">cm-1</span> 以下，光譜有很多重疊的吸收。這部分稱為指紋區 (fingerprint region)，因為每種化合物在這裏的圖樣都不同。",
 
     // Infrared spectroscopy > p
-    "You are only asked to interpret the functional group region, using the booklet table. You do not need to explain the pattern of small peaks in the fingerprint region. You can still be asked about a strong absorption that matches a booklet row there, such as C–O.": "",
+    "You are only asked to interpret the functional group region, using the booklet table. You do not need to explain the pattern of small peaks in the fingerprint region. You can still be asked about a strong absorption that matches a booklet row there, such as C–O.": "你只需要利用手冊表格解讀官能基區。你不需要解釋指紋區內小峰的圖樣。但如果那裏有一個強吸收與手冊某一行吻合（例如 C–O），題目仍然可以問。",
 
     // Infrared spectroscopy > widget > data-title attribute
-    "Infrared interpreter": "",
+    "Infrared interpreter": "紅外光譜解讀器",
 
     // Infrared spectroscopy > widget > figcaption
-    "In “Explore”, click a band to see the bond and the booklet row. In “Which compound is it?”, decide between an alkane, an alcohol, a carboxylic acid, a ketone and an ester. The spectra are simplified sketches drawn from typical band positions. They are not measured spectra.": "",
+    "In “Explore”, click a band to see the bond and the booklet row. In “Which compound is it?”, decide between an alkane, an alcohol, a carboxylic acid, a ketone and an ester. The spectra are simplified sketches drawn from typical band positions. They are not measured spectra.": "在「探索」模式，點選吸收帶可以看到對應的鍵和手冊的那一行。在「它是哪一類化合物？」模式，判斷它是烷烴、醇、羧酸、酮還是酯。這些光譜是根據典型吸收帶位置繪畫的簡化略圖，並不是量度所得的光譜。",
 
     // Infrared spectroscopy > worked example > h3
-    "Acid or ester?": "",
+    "Acid or ester?": "酸還是酯？",
 
     // Infrared spectroscopy > worked example > p
-    "A compound has the molecular formula <span class=\"chem\">C3H6O2</span>. It is either propanoic acid, <span class=\"chem\">CH3CH2COOH</span>, or methyl ethanoate, <span class=\"chem\">CH3COOCH3</span>. Use the sketch of its IR spectrum to identify it. The absorptions are labelled A (2500–3000 <span class=\"unit\">cm-1</span>, very broad), B (1715 <span class=\"unit\">cm-1</span>) and C (1240 <span class=\"unit\">cm-1</span>).": "",
+    "A compound has the molecular formula <span class=\"chem\">C3H6O2</span>. It is either propanoic acid, <span class=\"chem\">CH3CH2COOH</span>, or methyl ethanoate, <span class=\"chem\">CH3COOCH3</span>. Use the sketch of its IR spectrum to identify it. The absorptions are labelled A (2500–3000 <span class=\"unit\">cm-1</span>, very broad), B (1715 <span class=\"unit\">cm-1</span>) and C (1240 <span class=\"unit\">cm-1</span>).": "某化合物的分子式是 <span class=\"chem\">C3H6O2</span>。它是 propanoic acid（丙酸）<span class=\"chem\">CH3CH2COOH</span> 或 methyl ethanoate（乙酸甲酯）<span class=\"chem\">CH3COOCH3</span>。利用它的 IR 光譜略圖辨認 (identify) 它。各吸收標示為 A（2500–3000 <span class=\"unit\">cm-1</span>，很寬）、B（1715 <span class=\"unit\">cm-1</span>）和 C（1240 <span class=\"unit\">cm-1</span>）。",
 
     // Infrared spectroscopy > worked example > data-title attribute
-    "Assign absorption B": "",
+    "Assign absorption B": "指認吸收 B",
 
     // Infrared spectroscopy > worked example > p
-    "Start with the clearest absorption. Find the booklet range that contains it.": "",
+    "Start with the clearest absorption. Find the booklet range that contains it.": "由最清晰的吸收開始。找出包含它的手冊範圍。",
 
     // Infrared spectroscopy > worked example > maths line
-    "B: 1715 cm<sup>−1</sup> is inside 1700–1750 cm<sup>−1</sup> → C=O": "",
+    "B: 1715 cm<sup>−1</sup> is inside 1700–1750 cm<sup>−1</sup> → C=O": "B：1715 cm<sup>−1</sup> 在 1700–1750 cm<sup>−1</sup> 範圍內 → C=O",
 
     // Infrared spectroscopy > worked example > p
-    "Both compounds contain C=O, so B does not decide between them.": "",
+    "Both compounds contain C=O, so B does not decide between them.": "兩種化合物都含有 C=O，所以單憑 B 無法分辨它們。",
 
     // Infrared spectroscopy > worked example > data-title attribute
-    "Assign absorption A": "",
+    "Assign absorption A": "指認吸收 A",
 
     // Infrared spectroscopy > worked example > p
-    "The shape matters as much as the position.": "",
+    "The shape matters as much as the position.": "形狀和位置同樣重要。",
 
     // Infrared spectroscopy > worked example > maths line
-    "A: very broad, 2500–3000 cm<sup>−1</sup> → O–H in a carboxylic acid": "",
+    "A: very broad, 2500–3000 cm<sup>−1</sup> → O–H in a carboxylic acid": "A：很寬，2500–3000 cm<sup>−1</sup> → 羧酸的 O–H",
 
     // Infrared spectroscopy > worked example > data-title attribute
-    "Assign absorption C": "",
+    "Assign absorption C": "指認吸收 C",
 
     // Infrared spectroscopy > worked example > p
-    "Check that the remaining strong absorption also fits.": "",
+    "Check that the remaining strong absorption also fits.": "檢查餘下的強吸收是否也吻合。",
 
     // Infrared spectroscopy > worked example > maths line
-    "C: 1240 cm<sup>−1</sup> is inside 1050–1410 cm<sup>−1</sup> → C–O": "",
+    "C: 1240 cm<sup>−1</sup> is inside 1050–1410 cm<sup>−1</sup> → C–O": "C：1240 cm<sup>−1</sup> 在 1050–1410 cm<sup>−1</sup> 範圍內 → C–O",
 
     // Infrared spectroscopy > worked example > data-title attribute
-    "Decide": "",
+    "Decide": "判斷",
 
     // Infrared spectroscopy > worked example > p
-    "Look for a bond that one compound has and the other does not.": "",
+    "Look for a bond that one compound has and the other does not.": "找一種鍵：一種化合物有，另一種沒有。",
 
     // Infrared spectroscopy > worked example > p
-    "Methyl ethanoate has no O–H bond. It could not give absorption A.": "",
+    "Methyl ethanoate has no O–H bond. It could not give absorption A.": "methyl ethanoate 沒有 O–H 鍵。它不可能產生吸收 A。",
 
     // Infrared spectroscopy > worked example > maths line
-    "<b>The compound is propanoic acid.</b>": "",
+    "<b>The compound is propanoic acid.</b>": "<b>這種化合物是 propanoic acid。</b>",
 
     // Infrared spectroscopy > worked example > p
-    "Propanoic acid, because the spectrum shows the very broad O–H absorption of a carboxylic acid at 2500–3000 cm<sup>−1</sup>, which an ester does not have.": "",
+    "Propanoic acid, because the spectrum shows the very broad O–H absorption of a carboxylic acid at 2500–3000 cm<sup>−1</sup>, which an ester does not have.": "propanoic acid，因為光譜在 2500–3000 cm<sup>−1</sup> 顯示羧酸很寬的 O–H 吸收，而酯沒有這個吸收。",
 
     // Infrared spectroscopy > try it > data-label attribute
-    "Number of compounds": "",
+    "Number of compounds": "化合物的數目",
 
     // Infrared spectroscopy > try it > p
-    "How many of these five compounds absorb strongly at 1700–1750 <span class=\"unit\">cm-1</span>: propanone, ethanol, ethyl ethanoate, ethanoic acid, hexane?": "",
+    "How many of these five compounds absorb strongly at 1700–1750 <span class=\"unit\">cm-1</span>: propanone, ethanol, ethyl ethanoate, ethanoic acid, hexane?": "以下 5 種化合物中，有多少種在 1700–1750 <span class=\"unit\">cm-1</span> 有強吸收：propanone、ethanol、ethyl ethanoate、ethanoic acid、hexane？",
 
     // Infrared spectroscopy > try it > li
-    "Find 1700–1750 <span class=\"unit\">cm-1</span> in the booklet table. Which bond is it?": "",
+    "Find 1700–1750 <span class=\"unit\">cm-1</span> in the booklet table. Which bond is it?": "在手冊表格找出 1700–1750 <span class=\"unit\">cm-1</span>。這是哪一種鍵？",
 
     // Infrared spectroscopy > try it > li
-    "The bond is C=O. Which classes of compound contain C=O?": "",
+    "The bond is C=O. Which classes of compound contain C=O?": "這種鍵是 C=O。哪些類別的化合物含有 C=O？",
 
     // Infrared spectroscopy > try it > p
-    "C=O is in the ketone (propanone), the ester (ethyl ethanoate) and the carboxylic acid (ethanoic acid). The answer is 3.": "",
+    "C=O is in the ketone (propanone), the ester (ethyl ethanoate) and the carboxylic acid (ethanoic acid). The answer is 3.": "酮 (propanone)、酯 (ethyl ethanoate) 和羧酸 (ethanoic acid) 都有 C=O。答案是 3。",
 
     // Infrared spectroscopy > common mistake > p
-    "The two O–H rows are easy to mix up. An alcohol O–H absorbs at 3200–3600 <span class=\"unit\">cm-1</span>. A carboxylic acid O–H absorbs lower, at 2500–3000 <span class=\"unit\">cm-1</span>, and is much broader. It often covers the C–H absorption.": "",
+    "The two O–H rows are easy to mix up. An alcohol O–H absorbs at 3200–3600 <span class=\"unit\">cm-1</span>. A carboxylic acid O–H absorbs lower, at 2500–3000 <span class=\"unit\">cm-1</span>, and is much broader. It often covers the C–H absorption.": "手冊中兩行 O–H 很容易混淆。醇的 O–H 在 3200–3600 <span class=\"unit\">cm-1</span> 吸收。羧酸的 O–H 在較低的 2500–3000 <span class=\"unit\">cm-1</span> 吸收，而且寬得多，常常蓋過 C–H 吸收。",
 
     // Infrared spectroscopy > exam tip (shown in English + translation) > p
-    "Give the bond and the wavenumber range together, for example “C=O at 1700–1750 <span class=\"unit\">cm-1</span>”. One without the other may not earn the mark. Any value inside the booklet range is accepted. To choose between two compounds, name the compound, the bond that is present or absent, and its range.": "",
+    "Give the bond and the wavenumber range together, for example “C=O at 1700–1750 <span class=\"unit\">cm-1</span>”. One without the other may not earn the mark. Any value inside the booklet range is accepted. To choose between two compounds, name the compound, the bond that is present or absent, and its range.": "鍵和波數範圍要一起寫，例如「C=O，1700–1750 <span class=\"unit\">cm-1</span>」。只寫其中一樣未必得分。手冊範圍內的任何數值都可接受。要在兩種化合物之間選擇時，要寫出化合物的名稱、存在或不存在的鍵，以及它的範圍。",
 
     // Infrared spectroscopy > h3
-    "Infrared radiation and greenhouse gases": "",
+    "Infrared radiation and greenhouse gases": "紅外輻射和溫室氣體",
 
     // Infrared spectroscopy > p
-    "The surface of the Earth gives out infrared radiation. Greenhouse gases such as carbon dioxide, water vapour and methane absorb some of it, because their bonds vibrate at infrared frequencies.": "",
+    "The surface of the Earth gives out infrared radiation. Greenhouse gases such as carbon dioxide, water vapour and methane absorb some of it, because their bonds vibrate at infrared frequencies.": "地球表面會放出紅外輻射。二氧化碳、水蒸氣和甲烷等溫室氣體會吸收其中一部分，因為它們的鍵以紅外頻率振動。",
 
     // Infrared spectroscopy > p
-    "The molecules then give the energy out again in all directions. Some of it returns to the surface. This keeps the lower atmosphere warmer.": "",
+    "The molecules then give the energy out again in all directions. Some of it returns to the surface. This keeps the lower atmosphere warmer.": "然後這些分子把能量向各個方向再放出。其中一部分回到地面。這令低層大氣保持較暖。",
 
     // Infrared spectroscopy > p
-    "Nitrogen and oxygen make up most of the air, but <span class=\"chem\">N2</span> and <span class=\"chem\">O2</span> do not absorb infrared radiation. The reason is in “Linking it up” below.": "",
+    "Nitrogen and oxygen make up most of the air, but <span class=\"chem\">N2</span> and <span class=\"chem\">O2</span> do not absorb infrared radiation. The reason is in “Linking it up” below.": "空氣大部分是氮和氧，但 <span class=\"chem\">N2</span> 和 <span class=\"chem\">O2</span> 不吸收紅外輻射。原因在下面的「把知識連繫起來」。",
 
     // Infrared spectroscopy > not needed for IB > p
-    "You do not need to know how an IR spectrometer works, or the physics of why each bond has its own frequency. You do not need to calculate a global warming potential.": "",
+    "You do not need to know how an IR spectrometer works, or the physics of why each bond has its own frequency. You do not need to calculate a global warming potential.": "你不需要知道 IR 光譜儀怎樣運作，也不需要知道每種鍵為何有自己的頻率這背後的物理。你不需要計算全球升溫潛能值。",
 
     // Infrared spectroscopy > data-title attribute
-    "Infrared spectroscopy: quick check": "",
+    "Infrared spectroscopy: quick check": "紅外光譜法：快速小測",
 
     // Proton NMR: signals, chemical shifts and areas > data-toc attribute
-    "¹H NMR: signals, shifts, areas": "",
+    "¹H NMR: signals, shifts, areas": "¹H NMR：訊號、位移、面積",
 
     // Proton NMR: signals, chemical shifts and areas > h2
-    "Proton NMR: signals, chemical shifts and areas": "",
+    "Proton NMR: signals, chemical shifts and areas": "質子 NMR：訊號、化學位移和面積",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "<b>The question it answers:</b> how many different kinds of hydrogen atom does the molecule have, how many of each kind, and what is each kind next to?": "",
+    "<b>The question it answers:</b> how many different kinds of hydrogen atom does the molecule have, how many of each kind, and what is each kind next to?": "<b>它回答的問題：</b>分子有多少種不同的氫原子？每種有多少個？每種的旁邊是甚麼？",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "Think of a class photograph. Students in the front row have different neighbours from students in the back row. In a molecule, hydrogen atoms also sit in different surroundings.": "",
+    "Think of a class photograph. Students in the front row have different neighbours from students in the back row. In a molecule, hydrogen atoms also sit in different surroundings.": "想想一張班級合照。前排同學的鄰座，與後排同學的不同。在分子裏，氫原子所處的環境也各有不同。",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "Proton nuclear magnetic resonance spectroscopy, <dfn><sup>1</sup>H NMR</dfn>, detects the hydrogen atoms in a molecule. It gives one signal for each different surrounding.": "",
+    "Proton nuclear magnetic resonance spectroscopy, <dfn><sup>1</sup>H NMR</dfn>, detects the hydrogen atoms in a molecule. It gives one signal for each different surrounding.": "<dfn>質子核磁共振譜法 <span class=\"en-term\">(<sup>1</sup>H NMR)</span></dfn>能偵測分子中的氫原子。每種不同的環境會產生一個訊號。",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "A <dfn>chemical environment</dfn> is the set of atoms and bonds around a hydrogen atom. Hydrogen atoms with exactly the same surroundings are called equivalent. They are in the same environment.": "",
+    "A <dfn>chemical environment</dfn> is the set of atoms and bonds around a hydrogen atom. Hydrogen atoms with exactly the same surroundings are called equivalent. They are in the same environment.": "<dfn>化學環境 <span class=\"en-term\">(chemical environment)</span></dfn>是指氫原子周圍的一組原子和鍵。周圍環境完全相同的氫原子稱為等價 (equivalent) 氫原子。它們處於同一個環境。",
 
     // Proton NMR: signals, chemical shifts and areas > key idea > p
-    "A <sup>1</sup>H NMR spectrum gives three pieces of information at this stage. The number of signals is the number of hydrogen environments. The area under each signal shows how many H atoms are in that environment. The chemical shift shows what type of environment it is.": "",
+    "A <sup>1</sup>H NMR spectrum gives three pieces of information at this stage. The number of signals is the number of hydrogen environments. The area under each signal shows how many H atoms are in that environment. The chemical shift shows what type of environment it is.": "在這個階段，<sup>1</sup>H NMR 譜提供三項資料。訊號的數目就是氫環境的數目。每個訊號的面積顯示該環境有多少個 H 原子。化學位移顯示它是哪一類環境。",
 
     // Proton NMR: signals, chemical shifts and areas > h3
-    "1. Number of signals": "",
+    "1. Number of signals": "1. 訊號的數目",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "Count the different hydrogen environments. Two rules help.": "",
+    "Count the different hydrogen environments. Two rules help.": "數一數有多少個不同的氫環境。有兩條規則可以幫你。",
 
     // Proton NMR: signals, chemical shifts and areas > li
-    "The H atoms on the same carbon atom are equivalent. The three H atoms of a <span class=\"chem\">CH3</span> group give one signal.": "",
+    "The H atoms on the same carbon atom are equivalent. The three H atoms of a <span class=\"chem\">CH3</span> group give one signal.": "同一個碳原子上的 H 原子是等價的。<span class=\"chem\">CH3</span> 基團的三個 H 原子產生一個訊號。",
 
     // Proton NMR: signals, chemical shifts and areas > li
-    "Groups that are mirror images of each other in a symmetrical molecule are equivalent. The two <span class=\"chem\">CH3</span> groups in propanone, <span class=\"chem\">CH3COCH3</span>, give one signal.": "",
+    "Groups that are mirror images of each other in a symmetrical molecule are equivalent. The two <span class=\"chem\">CH3</span> groups in propanone, <span class=\"chem\">CH3COCH3</span>, give one signal.": "在對稱分子中，互為鏡像的基團是等價的。兩個 <span class=\"chem\">CH3</span> 基團在 propanone <span class=\"chem\">CH3COCH3</span> 中產生一個訊號。",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "Ethanol has three environments, labelled a, b and c. Its spectrum has three signals.": "",
+    "Ethanol has three environments, labelled a, b and c. Its spectrum has three signals.": "ethanol（乙醇）有三個環境，標示為 a、b 和 c。它的譜有三個訊號。",
 
     // Proton NMR: signals, chemical shifts and areas > h3
-    "2. Area under each signal": "",
+    "2. Area under each signal": "2. 每個訊號的面積",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "The area under a signal is proportional to the number of H atoms in that environment. The spectrometer measures the areas. This is called <dfn>integration</dfn>, and it is often printed as a stepped line called an integration trace. A bigger step means a bigger area.": "",
+    "The area under a signal is proportional to the number of H atoms in that environment. The spectrometer measures the areas. This is called <dfn>integration</dfn>, and it is often printed as a stepped line called an integration trace. A bigger step means a bigger area.": "訊號的面積與該環境中 H 原子的數目成正比。譜儀會量度這些面積。這稱為<dfn>積分 <span class=\"en-term\">(integration)</span></dfn>，通常印成一條階梯狀的線，稱為積分曲線 (integration trace)。階梯越高，面積越大。",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "The areas give a ratio, not the actual numbers. Ethanol gives areas in the ratio <span class=\"mono\">3 : 2 : 1</span>. Ethoxyethane, <span class=\"chem\">CH3CH2OCH2CH3</span>, has 6 H and 4 H in its two environments, so its ratio is also written <span class=\"mono\">3 : 2</span>.": "",
+    "The areas give a ratio, not the actual numbers. Ethanol gives areas in the ratio <span class=\"mono\">3 : 2 : 1</span>. Ethoxyethane, <span class=\"chem\">CH3CH2OCH2CH3</span>, has 6 H and 4 H in its two environments, so its ratio is also written <span class=\"mono\">3 : 2</span>.": "面積給出的是比，不是實際數目。ethanol 的面積比是 <span class=\"mono\">3 : 2 : 1</span>。ethoxyethane（乙氧基乙烷）<span class=\"chem\">CH3CH2OCH2CH3</span> 的兩個環境分別有 6 個 H 和 4 個 H，所以它的比也寫成 <span class=\"mono\">3 : 2</span>。",
 
     // Proton NMR: signals, chemical shifts and areas > h3
-    "3. Chemical shift": "",
+    "3. Chemical shift": "3. 化學位移",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "The position of a signal on the horizontal axis is its <dfn>chemical shift</dfn>, symbol δ, in parts per million (<span class=\"unit\">ppm</span>). The axis runs from high values on the left to 0 on the right.": "",
+    "The position of a signal on the horizontal axis is its <dfn>chemical shift</dfn>, symbol δ, in parts per million (<span class=\"unit\">ppm</span>). The axis runs from high values on the left to 0 on the right.": "訊號在橫軸上的位置就是它的<dfn>化學位移 <span class=\"en-term\">(chemical shift)</span></dfn>，符號是 δ，單位是百萬分率 (<span class=\"unit\">ppm</span>)。橫軸由左邊的高數值遞減至右邊的 0。",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "The chemical shift depends on what is near the hydrogen atom. An H atom close to an oxygen atom or a C=O group has a higher chemical shift.": "",
+    "The chemical shift depends on what is near the hydrogen atom. An H atom close to an oxygen atom or a C=O group has a higher chemical shift.": "化學位移取決於氫原子附近有甚麼。靠近氧原子或 C=O 基團的 H 原子，化學位移較高。",
 
     // Proton NMR: signals, chemical shifts and areas > data booklet note > p
-    "Section 21 of the data booklet gives typical chemical shifts for each type of proton. The booklet states that the values are measured relative to tetramethylsilane (TMS), which is the zero of the scale. It also states that values can vary with the solvent and conditions.": "",
+    "Section 21 of the data booklet gives typical chemical shifts for each type of proton. The booklet states that the values are measured relative to tetramethylsilane (TMS), which is the zero of the scale. It also states that values can vary with the solvent and conditions.": "數據手冊第 21 節列出每類質子的典型化學位移。手冊說明這些數值是相對於四甲基矽烷 (TMS) 量度的，TMS 是標度的零點。手冊也說明數值會隨溶劑和條件而變化。",
 
     // Proton NMR: signals, chemical shifts and areas > table > caption
-    "Data booklet, section 21: <sup>1</sup>H NMR data (R is an alkyl group; Hal is F, Cl, Br or I)": "",
+    "Data booklet, section 21: <sup>1</sup>H NMR data (R is an alkyl group; Hal is F, Cl, Br or I)": "數據手冊第 21 節：<sup>1</sup>H NMR 數據（R 是烷基；Hal 是 F、Cl、Br 或 I）",
 
     // Proton NMR: signals, chemical shifts and areas > table > th
     // widget string (assets/js/widgets-s3-2h.js)
-    "Type of proton": "",
+    "Type of proton": "質子的類型",
 
     // Proton NMR: signals, chemical shifts and areas > table > th
-    "In words": "",
+    "In words": "文字說明",
 
     // Proton NMR: signals, chemical shifts and areas > table > th
-    "Chemical shift / ppm": "",
+    "Chemical shift / ppm": "化學位移 / ppm",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H in a CH<sub>3</sub> group on an alkyl chain": "",
+    "H in a CH<sub>3</sub> group on an alkyl chain": "烷基鏈上 CH<sub>3</sub> 基團的 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H in a CH<sub>2</sub> group in an alkyl chain": "",
+    "H in a CH<sub>2</sub> group in an alkyl chain": "烷基鏈中 CH<sub>2</sub> 基團的 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H in a CH group in an alkyl chain": "",
+    "H in a CH group in an alkyl chain": "烷基鏈中 CH 基團的 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
-    "H on the carbon next to the C=O of an ester": "",
+    "H on the carbon next to the C=O of an ester": "與酯的 C=O 相鄰的碳原子上的 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
-    "H on the carbon next to a C=O with R on its other side": "",
-
-    // Proton NMR: signals, chemical shifts and areas > table > td
-    // widget string (assets/js/widgets-s3-2h.js)
-    "H in a CH<sub>3</sub> group on a benzene ring": "",
+    "H on the carbon next to a C=O with R on its other side": "與 C=O 相鄰的碳原子上的 H，而 C=O 的另一邊是 R",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H on a triple-bonded carbon": "",
+    "H in a CH<sub>3</sub> group on a benzene ring": "苯環上 CH<sub>3</sub> 基團的 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H on a carbon bonded to a halogen": "",
+    "H on a triple-bonded carbon": "三鍵碳原子上的 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H on a carbon bonded to the O of an alcohol or ether": "",
+    "H on a carbon bonded to a halogen": "與鹵素鍵合的碳原子上的 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H on the carbon bonded to the single-bonded O of an ester": "",
+    "H on a carbon bonded to the O of an alcohol or ether": "與醇或醚的 O 鍵合的碳原子上的 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H of a carboxyl group": "",
-
-    // Proton NMR: signals, chemical shifts and areas > table > td
-    "H of the hydroxyl group in an alcohol": "",
+    "H on the carbon bonded to the single-bonded O of an ester": "與酯中單鍵 O 鍵合的碳原子上的 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H on a double-bonded carbon": "",
+    "H of a carboxyl group": "羧基的 H",
+
+    // Proton NMR: signals, chemical shifts and areas > table > td
+    "H of the hydroxyl group in an alcohol": "醇中羥基的 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H of the OH group in a phenol": "",
+    "H on a double-bonded carbon": "雙鍵碳原子上的 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H on a benzene ring": "",
+    "H of the OH group in a phenol": "酚中 OH 基團的 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H of an aldehyde group": "",
+    "H on a benzene ring": "苯環上的 H",
+
+    // Proton NMR: signals, chemical shifts and areas > table > td
+    // widget string (assets/js/widgets-s3-2h.js)
+    "H of an aldehyde group": "醛基的 H",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "The first and last columns are from the data booklet, where the types of proton are drawn as structures. The middle column is a reading guide. A row drawn with <span class=\"chem\">CH2</span> is also used for a <span class=\"chem\">CH3</span> or CH group in the same position. This page uses the row RO–C(=O)–CH<sub>2</sub>– (2.0–2.5 ppm) for the carbon next to the C=O of a carboxylic acid as well, because the booklet has no separate row for acids.": "",
+    "The first and last columns are from the data booklet, where the types of proton are drawn as structures. The middle column is a reading guide. A row drawn with <span class=\"chem\">CH2</span> is also used for a <span class=\"chem\">CH3</span> or CH group in the same position. This page uses the row RO–C(=O)–CH<sub>2</sub>– (2.0–2.5 ppm) for the carbon next to the C=O of a carboxylic acid as well, because the booklet has no separate row for acids.": "第一欄和最後一欄來自數據手冊，手冊以結構圖畫出各類質子。中間一欄是閱讀指引。畫有 <span class=\"chem\">CH2</span> 的一行，也適用於相同位置的 <span class=\"chem\">CH3</span> 或 CH 基團。由於手冊沒有為酸另設一行，本頁也用 RO–C(=O)–CH<sub>2</sub>– (2.0–2.5 ppm) 這一行來代表與羧酸 C=O 相鄰的碳原子。",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "On this site, every NMR signal is given inside its booklet range, as in exam data. Real spectra vary a little: for example, the <span class=\"chem\">CH3</span> of an ethyl group joined to O is often measured near 1.2 ppm.": "",
+    "On this site, every NMR signal is given inside its booklet range, as in exam data. Real spectra vary a little: for example, the <span class=\"chem\">CH3</span> of an ethyl group joined to O is often measured near 1.2 ppm.": "在本網站，每個 NMR 訊號都落在手冊範圍內，與考試數據一樣。真實的譜會有少許出入：例如與 O 相連的乙基，它的 <span class=\"chem\">CH3</span> 量度所得的數值常接近 1.2 ppm。",
 
     // Proton NMR: signals, chemical shifts and areas > li
-    "Draw the structure so that every H atom is shown.": "",
+    "Draw the structure so that every H atom is shown.": "畫出結構，把每個 H 原子都畫出來。",
 
     // Proton NMR: signals, chemical shifts and areas > li
-    "Group the H atoms that have exactly the same surroundings. Look for symmetry. The number of groups is the number of signals.": "",
+    "Group the H atoms that have exactly the same surroundings. Look for symmetry. The number of groups is the number of signals.": "把周圍環境完全相同的 H 原子歸為一組。留意對稱性。組的數目就是訊號的數目。",
 
     // Proton NMR: signals, chemical shifts and areas > li
-    "Count the H atoms in each group. Write the counts as the simplest ratio. This is the ratio of the areas.": "",
+    "Count the H atoms in each group. Write the counts as the simplest ratio. This is the ratio of the areas.": "數一數每組有多少個 H 原子。把這些數目寫成最簡比。這就是面積比。",
 
     // Proton NMR: signals, chemical shifts and areas > li
-    "For each group, find the row of the booklet table that matches what its carbon is joined to. Quote that range.": "",
+    "For each group, find the row of the booklet table that matches what its carbon is joined to. Quote that range.": "為每一組在手冊表格找出一行，與它的碳原子所連接的原子或基團相符。寫出那個範圍。",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "To read a spectrum, work the other way: signals → environments, areas → H atoms in each, shifts → type of each environment.": "",
+    "To read a spectrum, work the other way: signals → environments, areas → H atoms in each, shifts → type of each environment.": "解讀譜時，則反過來做：訊號 → 環境，面積 → 每個環境的 H 原子數目，位移 → 每個環境的類型。",
 
     // Proton NMR: signals, chemical shifts and areas > common mistake > p
-    "The number of signals is not the number of hydrogen atoms, and it is not the number of carbon atoms. Propanone has six H atoms and three C atoms, but only one signal. Always count environments.": "",
+    "The number of signals is not the number of hydrogen atoms, and it is not the number of carbon atoms. Propanone has six H atoms and three C atoms, but only one signal. Always count environments.": "訊號的數目不是氫原子的數目，也不是碳原子的數目。propanone 有 6 個 H 原子和 3 個 C 原子，但只有一個訊號。一定要數環境。",
 
     // Proton NMR: signals, chemical shifts and areas > try it > data-label attribute
     // widget string (assets/js/widgets-s3-2h.js)
-    "Number of signals": "",
+    "Number of signals": "訊號的數目",
 
     // Proton NMR: signals, chemical shifts and areas > try it > p
-    "How many signals are in the <sup>1</sup>H NMR spectrum of pentan-3-one, <span class=\"chem\">CH3CH2COCH2CH3</span>?": "",
+    "How many signals are in the <sup>1</sup>H NMR spectrum of pentan-3-one, <span class=\"chem\">CH3CH2COCH2CH3</span>?": "pentan-3-one（戊-3-酮）<span class=\"chem\">CH3CH2COCH2CH3</span> 的 <sup>1</sup>H NMR 譜有多少個訊號？",
 
     // Proton NMR: signals, chemical shifts and areas > try it > li
-    "Draw the molecule. Is it symmetrical about the C=O group?": "",
+    "Draw the molecule. Is it symmetrical about the C=O group?": "畫出分子。它以 C=O 基團為中心對稱嗎？",
 
     // Proton NMR: signals, chemical shifts and areas > try it > li
-    "The two <span class=\"chem\">CH3</span> groups are equivalent, and the two <span class=\"chem\">CH2</span> groups are equivalent.": "",
+    "The two <span class=\"chem\">CH3</span> groups are equivalent, and the two <span class=\"chem\">CH2</span> groups are equivalent.": "兩個 <span class=\"chem\">CH3</span> 基團是等價的，兩個 <span class=\"chem\">CH2</span> 基團也是等價的。",
 
     // Proton NMR: signals, chemical shifts and areas > try it > p
-    "There are two environments: the <span class=\"chem\">CH3</span> hydrogens (6 H) and the <span class=\"chem\">CH2</span> hydrogens (4 H). The answer is 2, with areas in the ratio 3 : 2.": "",
+    "There are two environments: the <span class=\"chem\">CH3</span> hydrogens (6 H) and the <span class=\"chem\">CH2</span> hydrogens (4 H). The answer is 2, with areas in the ratio 3 : 2.": "有兩個環境：<span class=\"chem\">CH3</span> 的氫 (6 H) 和 <span class=\"chem\">CH2</span> 的氫 (4 H)。答案是 2，面積比是 3 : 2。",
 
     // Proton NMR: signals, chemical shifts and areas > try it > p
-    "How many signals are in the <sup>1</sup>H NMR spectrum of ethyl ethanoate, <span class=\"chem\">CH3COOCH2CH3</span>?": "",
+    "How many signals are in the <sup>1</sup>H NMR spectrum of ethyl ethanoate, <span class=\"chem\">CH3COOCH2CH3</span>?": "ethyl ethanoate（乙酸乙酯）<span class=\"chem\">CH3COOCH2CH3</span> 的 <sup>1</sup>H NMR 譜有多少個訊號？",
 
     // Proton NMR: signals, chemical shifts and areas > try it > li
-    "There are two <span class=\"chem\">CH3</span> groups. Do they have the same surroundings?": "",
+    "There are two <span class=\"chem\">CH3</span> groups. Do they have the same surroundings?": "有兩個 <span class=\"chem\">CH3</span> 基團。它們的周圍環境相同嗎？",
 
     // Proton NMR: signals, chemical shifts and areas > try it > li
-    "One <span class=\"chem\">CH3</span> is next to C=O. The other is next to a <span class=\"chem\">CH2</span> group. They are different environments.": "",
+    "One <span class=\"chem\">CH3</span> is next to C=O. The other is next to a <span class=\"chem\">CH2</span> group. They are different environments.": "一個 <span class=\"chem\">CH3</span> 在 C=O 旁邊。另一個在 <span class=\"chem\">CH2</span> 基團旁邊。它們是不同的環境。",
 
     // Proton NMR: signals, chemical shifts and areas > try it > p
-    "The environments are <span class=\"chem\">CH3</span> next to C=O, <span class=\"chem\">CH2</span> next to O, and <span class=\"chem\">CH3</span> next to <span class=\"chem\">CH2</span>. The answer is 3, with areas in the ratio 3 : 2 : 3.": "",
+    "The environments are <span class=\"chem\">CH3</span> next to C=O, <span class=\"chem\">CH2</span> next to O, and <span class=\"chem\">CH3</span> next to <span class=\"chem\">CH2</span>. The answer is 3, with areas in the ratio 3 : 2 : 3.": "環境是：C=O 旁邊的 <span class=\"chem\">CH3</span>、O 旁邊的 <span class=\"chem\">CH2</span>，以及 <span class=\"chem\">CH2</span> 旁邊的 <span class=\"chem\">CH3</span>。答案是 3，面積比是 3 : 2 : 3。",
 
     // Proton NMR: signals, chemical shifts and areas > exam tip (shown in English + translation) > p
-    "For “number of signals and ratio of areas”, the ratio can be given in any order, but it must match the environments. For a chemical shift, quote the booklet range for that type of proton. A molecule with no hydrogen atoms gives no signals.": "",
+    "For “number of signals and ratio of areas”, the ratio can be given in any order, but it must match the environments. For a chemical shift, quote the booklet range for that type of proton. A molecule with no hydrogen atoms gives no signals.": "回答「訊號數目和面積比」時，比可以用任何次序寫出，但必須與各環境對應。回答化學位移時，寫出手冊中該類質子的範圍。沒有氫原子的分子不會產生訊號。",
 
     // Proton NMR: signals, chemical shifts and areas > not needed for IB > p
-    "You do not need <sup>13</sup>C NMR. You do not need to explain how NMR works, why TMS is used, or which solvents are chosen. You do not need to memorize chemical shifts.": "",
+    "You do not need <sup>13</sup>C NMR. You do not need to explain how NMR works, why TMS is used, or which solvents are chosen. You do not need to memorize chemical shifts.": "你不需要學 <sup>13</sup>C NMR。你不需要解釋 NMR 怎樣運作、為甚麼用 TMS，或選用哪些溶劑。你不需要背誦化學位移。",
 
     // Proton NMR: signals, chemical shifts and areas > data-title attribute
-    "¹H NMR signals and areas: quick check": "",
+    "¹H NMR signals and areas: quick check": "¹H NMR 訊號和面積：快速小測",
 
     // Proton NMR: splitting patterns > data-toc attribute
-    "¹H NMR: splitting patterns": "",
+    "¹H NMR: splitting patterns": "¹H NMR：分裂模式",
 
     // Proton NMR: splitting patterns > h2
-    "Proton NMR: splitting patterns": "",
+    "Proton NMR: splitting patterns": "質子 NMR：分裂模式",
 
     // Proton NMR: splitting patterns > p
-    "<b>The question it answers:</b> how many hydrogen atoms are on the carbon atoms next to each group?": "",
+    "<b>The question it answers:</b> how many hydrogen atoms are on the carbon atoms next to each group?": "<b>它回答的問題：</b>每個基團相鄰的碳原子上有多少個氫原子？",
 
     // Proton NMR: splitting patterns > p
-    "Look closely at a signal and you often see that it is not one peak. It is a small cluster of peaks. The signal has been split.": "",
+    "Look closely at a signal and you often see that it is not one peak. It is a small cluster of peaks. The signal has been split.": "仔細看一個訊號，你常會發現它不是一個峰，而是一小簇峰。這個訊號被分裂了。",
 
     // Proton NMR: splitting patterns > p
-    "Splitting is caused by the hydrogen atoms on the neighbouring carbon atoms. So the splitting pattern of a signal tells you what is next to that group.": "",
+    "Splitting is caused by the hydrogen atoms on the neighbouring carbon atoms. So the splitting pattern of a signal tells you what is next to that group.": "分裂是由相鄰碳原子上的氫原子造成的。所以訊號的分裂模式 (splitting pattern) 能告訴你該基團的旁邊是甚麼。",
 
     // Proton NMR: splitting patterns > key idea > p
-    "If there are <i>n</i> hydrogen atoms on the neighbouring carbon atoms, the signal is split into <i>n</i> + 1 peaks. This is often called the <i>n</i> + 1 rule.": "",
+    "If there are <i>n</i> hydrogen atoms on the neighbouring carbon atoms, the signal is split into <i>n</i> + 1 peaks. This is often called the <i>n</i> + 1 rule.": "如果相鄰碳原子上有 <i>n</i> 個氫原子，訊號就分裂成 <i>n</i> + 1 個峰。這通常稱為 <i>n</i> + 1 規則。",
 
     // Proton NMR: splitting patterns > table > caption
-    "The four splitting patterns you need": "",
+    "The four splitting patterns you need": "你需要懂得的四種分裂模式",
 
     // Proton NMR: splitting patterns > table > th
-    "H atoms on neighbouring carbons (n)": "",
+    "H atoms on neighbouring carbons (n)": "相鄰碳原子上的 H 原子數目 (n)",
 
     // Proton NMR: splitting patterns > table > th
-    "Peaks in the signal (n + 1)": "",
+    "Peaks in the signal (n + 1)": "訊號中的峰數 (n + 1)",
 
     // Proton NMR: splitting patterns > table > th
-    "Name": "",
+    "Name": "名稱",
 
     // Proton NMR: splitting patterns > table > th
-    "Example of the neighbour": "",
+    "Example of the neighbour": "相鄰基團的例子",
 
     // Proton NMR: splitting patterns > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "singlet": "",
+    "singlet": "單峰 (singlet)",
 
     // Proton NMR: splitting patterns > table > td
-    "no H on the next atom, for example next to C=O or O": "",
-
-    // Proton NMR: splitting patterns > table > td
-    // widget string (assets/js/widgets-s3-2h.js)
-    "doublet": "",
-
-    // Proton NMR: splitting patterns > table > td
-    "next to a CH group": "",
+    "no H on the next atom, for example next to C=O or O": "相鄰原子上沒有 H，例如在 C=O 或 O 旁邊",
 
     // Proton NMR: splitting patterns > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "triplet": "",
+    "doublet": "雙峰 (doublet)",
 
     // Proton NMR: splitting patterns > table > td
-    "next to a CH<sub>2</sub> group": "",
+    "next to a CH group": "在 CH 基團旁邊",
 
     // Proton NMR: splitting patterns > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "quartet": "",
+    "triplet": "三峰 (triplet)",
 
     // Proton NMR: splitting patterns > table > td
-    "next to a CH<sub>3</sub> group": "",
+    "next to a CH<sub>2</sub> group": "在 CH<sub>2</sub> 基團旁邊",
+
+    // Proton NMR: splitting patterns > table > td
+    // widget string (assets/js/widgets-s3-2h.js)
+    "quartet": "四峰 (quartet)",
+
+    // Proton NMR: splitting patterns > table > td
+    "next to a CH<sub>3</sub> group": "在 CH<sub>3</sub> 基團旁邊",
 
     // Proton NMR: splitting patterns > h3
-    "Three things to remember": "",
+    "Three things to remember": "要記住的三件事",
 
     // Proton NMR: splitting patterns > li
-    "Count the H atoms on the neighbouring carbon atoms. Do not count the H atoms in the group itself.": "",
+    "Count the H atoms on the neighbouring carbon atoms. Do not count the H atoms in the group itself.": "數相鄰碳原子上的 H 原子。不要數基團本身的 H 原子。",
 
     // Proton NMR: splitting patterns > li
-    "Equivalent hydrogen atoms do not split each other. The six H atoms of propanone give a singlet.": "",
+    "Equivalent hydrogen atoms do not split each other. The six H atoms of propanone give a singlet.": "等價的氫原子不會令彼此分裂。propanone 的 6 個 H 原子產生一個單峰。",
 
     // Proton NMR: splitting patterns > li
-    "The H atom of an O–H group usually gives a singlet, and it usually does not split its neighbours. This page treats O–H in that way.": "",
+    "The H atom of an O–H group usually gives a singlet, and it usually does not split its neighbours. This page treats O–H in that way.": "O–H 基團的 H 原子通常產生單峰，而且通常不會令相鄰基團的訊號分裂。本頁就是這樣處理 O–H 的。",
 
     // Proton NMR: splitting patterns > li
-    "Choose one group of equivalent H atoms.": "",
+    "Choose one group of equivalent H atoms.": "選一組等價的 H 原子。",
 
     // Proton NMR: splitting patterns > li
-    "Find the carbon atoms bonded directly to its carbon.": "",
+    "Find the carbon atoms bonded directly to its carbon.": "找出與它的碳原子直接鍵合的碳原子。",
 
     // Proton NMR: splitting patterns > li
-    "Count the H atoms on those neighbouring carbon atoms. This number is <i>n</i>. Do not count the H of an O–H group.": "",
+    "Count the H atoms on those neighbouring carbon atoms. This number is <i>n</i>. Do not count the H of an O–H group.": "數這些相鄰碳原子上的 H 原子。這個數目就是 <i>n</i>。不要數 O–H 基團的 H。",
 
     // Proton NMR: splitting patterns > li
-    "The signal has <i>n</i> + 1 peaks: 1 is a singlet, 2 a doublet, 3 a triplet, 4 a quartet.": "",
+    "The signal has <i>n</i> + 1 peaks: 1 is a singlet, 2 a doublet, 3 a triplet, 4 a quartet.": "訊號有 <i>n</i> + 1 個峰：1 個是單峰，2 個是雙峰，3 個是三峰，4 個是四峰。",
 
     // Proton NMR: splitting patterns > li
-    "To read a spectrum, work the other way: peaks − 1 = H atoms on the neighbouring carbon atoms.": "",
+    "To read a spectrum, work the other way: peaks − 1 = H atoms on the neighbouring carbon atoms.": "解讀譜時，則反過來做：峰數 − 1 = 相鄰碳原子上的 H 原子數目。",
 
     // Proton NMR: splitting patterns > p
-    "A triplet together with a quartet is the pattern of an ethyl group, <span class=\"chem\">CH3CH2</span>–. The <span class=\"chem\">CH3</span> signal is a triplet because it is next to <span class=\"chem\">CH2</span>. The <span class=\"chem\">CH2</span> signal is a quartet because it is next to <span class=\"chem\">CH3</span>.": "",
+    "A triplet together with a quartet is the pattern of an ethyl group, <span class=\"chem\">CH3CH2</span>–. The <span class=\"chem\">CH3</span> signal is a triplet because it is next to <span class=\"chem\">CH2</span>. The <span class=\"chem\">CH2</span> signal is a quartet because it is next to <span class=\"chem\">CH3</span>.": "三峰和四峰一起出現，是乙基 <span class=\"chem\">CH3CH2</span>– 的特徵。<span class=\"chem\">CH3</span> 的訊號是三峰，因為它在 <span class=\"chem\">CH2</span> 旁邊。<span class=\"chem\">CH2</span> 的訊號是四峰，因為它在 <span class=\"chem\">CH3</span> 旁邊。",
 
     // Proton NMR: splitting patterns > widget > data-title attribute
-    "Proton NMR tutor": "",
+    "Proton NMR tutor": "質子 NMR 導師",
 
     // Proton NMR: splitting patterns > widget > figcaption
-    "In “Show me”, equivalent hydrogen atoms share a letter and an outline. In “Predict first”, you predict the number of signals and the splitting before you see the answer. The spectra are sketches: each signal is drawn inside its booklet range.": "",
+    "In “Show me”, equivalent hydrogen atoms share a letter and an outline. In “Predict first”, you predict the number of signals and the splitting before you see the answer. The spectra are sketches: each signal is drawn inside its booklet range.": "在「示範」模式，等價的氫原子有相同的字母和外框。在「先預測」模式，你要先預測訊號數目和分裂，然後才看答案。這些譜是略圖：每個訊號都畫在手冊範圍內。",
 
     // Proton NMR: splitting patterns > worked example > data-kicker attribute
-    "Worked example 1": "",
+    "Worked example 1": "例題 1",
 
     // Proton NMR: splitting patterns > worked example > h3
-    "Predict the <sup>1</sup>H NMR spectrum of propanoic acid": "",
+    "Predict the <sup>1</sup>H NMR spectrum of propanoic acid": "預測 propanoic acid 的 <sup>1</sup>H NMR 譜",
 
     // Proton NMR: splitting patterns > worked example > p
-    "Predict the number of signals, the ratio of areas, the chemical shift ranges and the splitting patterns in the <sup>1</sup>H NMR spectrum of propanoic acid, <span class=\"chem\">CH3CH2COOH</span>.": "",
+    "Predict the number of signals, the ratio of areas, the chemical shift ranges and the splitting patterns in the <sup>1</sup>H NMR spectrum of propanoic acid, <span class=\"chem\">CH3CH2COOH</span>.": "預測 (predict) propanoic acid <span class=\"chem\">CH3CH2COOH</span> 的 <sup>1</sup>H NMR 譜中的訊號數目、面積比、化學位移範圍和分裂模式。",
 
     // Proton NMR: splitting patterns > worked example > data-title attribute
-    "Find the hydrogen environments": "",
+    "Find the hydrogen environments": "找出氫環境",
 
     // Proton NMR: splitting patterns > worked example > p
-    "Each different environment gives one signal.": "",
+    "Each different environment gives one signal.": "每個不同的環境產生一個訊號。",
 
     // Proton NMR: splitting patterns > worked example > maths line
-    "a: CH<sub>3</sub> &nbsp; b: CH<sub>2</sub> &nbsp; c: COOH → 3 signals": "",
+    "a: CH<sub>3</sub> &nbsp; b: CH<sub>2</sub> &nbsp; c: COOH → 3 signals": "a：CH<sub>3</sub> &nbsp; b：CH<sub>2</sub> &nbsp; c：COOH → 3 個訊號",
 
     // Proton NMR: splitting patterns > worked example > data-title attribute
-    "Count the H atoms in each environment": "",
+    "Count the H atoms in each environment": "數每個環境的 H 原子",
 
     // Proton NMR: splitting patterns > worked example > p
-    "The areas are in the ratio of these numbers.": "",
+    "The areas are in the ratio of these numbers.": "面積比就是這些數目的比。",
 
     // Proton NMR: splitting patterns > worked example > data-title attribute
-    "Look up each chemical shift": "",
+    "Look up each chemical shift": "查找每個化學位移",
 
     // Proton NMR: splitting patterns > worked example > p
-    "Match each environment to a row of the booklet table.": "",
+    "Match each environment to a row of the booklet table.": "把每個環境與手冊表格的一行配對。",
 
     // Proton NMR: splitting patterns > worked example > maths line
-    "a, CH<sub>3</sub> on an alkyl chain: 0.9–1.0 ppm": "",
+    "a, CH<sub>3</sub> on an alkyl chain: 0.9–1.0 ppm": "a，烷基鏈上的 CH<sub>3</sub>：0.9–1.0 ppm",
 
     // Proton NMR: splitting patterns > worked example > maths line
-    "b, CH<sub>2</sub> next to C=O: 2.0–2.5 ppm": "",
+    "b, CH<sub>2</sub> next to C=O: 2.0–2.5 ppm": "b，C=O 旁邊的 CH<sub>2</sub>：2.0–2.5 ppm",
 
     // Proton NMR: splitting patterns > worked example > maths line
-    "c, H of COOH: 9.0–13.0 ppm": "",
+    "c, H of COOH: 9.0–13.0 ppm": "c，COOH 的 H：9.0–13.0 ppm",
 
     // Proton NMR: splitting patterns > worked example > data-title attribute
-    "Work out the splitting": "",
+    "Work out the splitting": "推算分裂",
 
     // Proton NMR: splitting patterns > worked example > p
-    "Peaks = number of H on neighbouring carbon atoms + 1.": "",
+    "Peaks = number of H on neighbouring carbon atoms + 1.": "峰數 = 相鄰碳原子上的 H 數目 + 1。",
 
     // Proton NMR: splitting patterns > worked example > maths line
-    "a: next to CH<sub>2</sub>, n = 2 → 3 peaks, triplet": "",
+    "a: next to CH<sub>2</sub>, n = 2 → 3 peaks, triplet": "a：在 CH<sub>2</sub> 旁邊，n = 2 → 3 個峰，三峰",
 
     // Proton NMR: splitting patterns > worked example > maths line
-    "b: next to CH<sub>3</sub>, n = 3 → 4 peaks, quartet (the carbon of COOH has no H)": "",
+    "b: next to CH<sub>3</sub>, n = 3 → 4 peaks, quartet (the carbon of COOH has no H)": "b：在 CH<sub>3</sub> 旁邊，n = 3 → 4 個峰，四峰（COOH 的碳原子沒有 H）",
 
     // Proton NMR: splitting patterns > worked example > maths line
-    "c: O–H → singlet": "",
+    "c: O–H → singlet": "c：O–H → 單峰",
 
     // Proton NMR: splitting patterns > worked example > p
-    "Three signals with areas 3 : 2 : 1. A triplet at 0.9–1.0 ppm, a quartet at 2.0–2.5 ppm and a singlet at 9.0–13.0 ppm.": "",
+    "Three signals with areas 3 : 2 : 1. A triplet at 0.9–1.0 ppm, a quartet at 2.0–2.5 ppm and a singlet at 9.0–13.0 ppm.": "三個訊號，面積比 3 : 2 : 1。三峰在 0.9–1.0 ppm，四峰在 2.0–2.5 ppm，單峰在 9.0–13.0 ppm。",
 
     // Proton NMR: splitting patterns > worked example > data-kicker attribute
-    "Worked example 2": "",
+    "Worked example 2": "例題 2",
 
     // Proton NMR: splitting patterns > worked example > h3
-    "Predict the <sup>1</sup>H NMR spectrum of ethyl ethanoate": "",
+    "Predict the <sup>1</sup>H NMR spectrum of ethyl ethanoate": "預測 ethyl ethanoate 的 <sup>1</sup>H NMR 譜",
 
     // Proton NMR: splitting patterns > worked example > p
-    "Predict the number of signals, the ratio of areas, the chemical shift ranges and the splitting patterns in the <sup>1</sup>H NMR spectrum of ethyl ethanoate, <span class=\"chem\">CH3COOCH2CH3</span>.": "",
+    "Predict the number of signals, the ratio of areas, the chemical shift ranges and the splitting patterns in the <sup>1</sup>H NMR spectrum of ethyl ethanoate, <span class=\"chem\">CH3COOCH2CH3</span>.": "預測 (predict) ethyl ethanoate <span class=\"chem\">CH3COOCH2CH3</span> 的 <sup>1</sup>H NMR 譜中的訊號數目、面積比、化學位移範圍和分裂模式。",
 
     // Proton NMR: splitting patterns > worked example > p
-    "The two CH<sub>3</sub> groups have different neighbours, so they are different environments.": "",
+    "The two CH<sub>3</sub> groups have different neighbours, so they are different environments.": "兩個 CH<sub>3</sub> 基團的相鄰基團不同，所以它們是不同的環境。",
 
     // Proton NMR: splitting patterns > worked example > maths line
-    "a: CH<sub>3</sub> next to C=O &nbsp; b: CH<sub>2</sub> next to O &nbsp; c: CH<sub>3</sub> next to CH<sub>2</sub> → 3 signals": "",
+    "a: CH<sub>3</sub> next to C=O &nbsp; b: CH<sub>2</sub> next to O &nbsp; c: CH<sub>3</sub> next to CH<sub>2</sub> → 3 signals": "a：C=O 旁邊的 CH<sub>3</sub> &nbsp; b：O 旁邊的 CH<sub>2</sub> &nbsp; c：CH<sub>2</sub> 旁邊的 CH<sub>3</sub> → 3 個訊號",
 
     // Proton NMR: splitting patterns > worked example > p
-    "The atom next to the carbon decides the row.": "",
+    "The atom next to the carbon decides the row.": "與碳原子相鄰的原子決定用哪一行。",
 
     // Proton NMR: splitting patterns > worked example > maths line
-    "a, CH<sub>3</sub> next to the C=O of an ester: 2.0–2.5 ppm": "",
+    "a, CH<sub>3</sub> next to the C=O of an ester: 2.0–2.5 ppm": "a，酯的 C=O 旁邊的 CH<sub>3</sub>：2.0–2.5 ppm",
 
     // Proton NMR: splitting patterns > worked example > maths line
-    "b, CH<sub>2</sub> bonded to the O of an ester: 3.7–4.8 ppm": "",
+    "b, CH<sub>2</sub> bonded to the O of an ester: 3.7–4.8 ppm": "b，與酯的 O 鍵合的 CH<sub>2</sub>：3.7–4.8 ppm",
 
     // Proton NMR: splitting patterns > worked example > maths line
-    "c, CH<sub>3</sub> on an alkyl chain: 0.9–1.0 ppm": "",
+    "c, CH<sub>3</sub> on an alkyl chain: 0.9–1.0 ppm": "c，烷基鏈上的 CH<sub>3</sub>：0.9–1.0 ppm",
 
     // Proton NMR: splitting patterns > worked example > maths line
-    "a: the next atom is the C of C=O, with no H, n = 0 → singlet": "",
+    "a: the next atom is the C of C=O, with no H, n = 0 → singlet": "a：相鄰原子是 C=O 的 C，沒有 H，n = 0 → 單峰",
 
     // Proton NMR: splitting patterns > worked example > maths line
-    "b: next to CH<sub>3</sub>, n = 3 → quartet (the O on the other side has no H)": "",
+    "b: next to CH<sub>3</sub>, n = 3 → quartet (the O on the other side has no H)": "b：在 CH<sub>3</sub> 旁邊，n = 3 → 四峰（另一邊的 O 沒有 H）",
 
     // Proton NMR: splitting patterns > worked example > maths line
-    "c: next to CH<sub>2</sub>, n = 2 → triplet": "",
+    "c: next to CH<sub>2</sub>, n = 2 → triplet": "c：在 CH<sub>2</sub> 旁邊，n = 2 → 三峰",
 
     // Proton NMR: splitting patterns > worked example > p
-    "Three signals with areas 3 : 2 : 3. A singlet at 2.0–2.5 ppm, a quartet at 3.7–4.8 ppm and a triplet at 0.9–1.0 ppm.": "",
+    "Three signals with areas 3 : 2 : 3. A singlet at 2.0–2.5 ppm, a quartet at 3.7–4.8 ppm and a triplet at 0.9–1.0 ppm.": "三個訊號，面積比 3 : 2 : 3。單峰在 2.0–2.5 ppm，四峰在 3.7–4.8 ppm，三峰在 0.9–1.0 ppm。",
 
     // Proton NMR: splitting patterns > try it > data-label attribute
-    "Number of peaks": "",
+    "Number of peaks": "峰的數目",
 
     // Proton NMR: splitting patterns > try it > p
-    "In the <sup>1</sup>H NMR spectrum of chloroethane, <span class=\"chem\">CH3CH2Cl</span>, how many peaks are in the signal of the <span class=\"chem\">CH2</span> group?": "",
+    "In the <sup>1</sup>H NMR spectrum of chloroethane, <span class=\"chem\">CH3CH2Cl</span>, how many peaks are in the signal of the <span class=\"chem\">CH2</span> group?": "在 chloroethane（氯乙烷）<span class=\"chem\">CH3CH2Cl</span> 的 <sup>1</sup>H NMR 譜中，<span class=\"chem\">CH2</span> 基團的訊號有多少個峰？",
 
     // Proton NMR: splitting patterns > try it > li
-    "Which carbon atom is next to the <span class=\"chem\">CH2</span> group, and how many H atoms does it carry?": "",
+    "Which carbon atom is next to the <span class=\"chem\">CH2</span> group, and how many H atoms does it carry?": "哪個碳原子與 <span class=\"chem\">CH2</span> 基團相鄰？它帶有多少個 H 原子？",
 
     // Proton NMR: splitting patterns > try it > li
-    "The neighbour is <span class=\"chem\">CH3</span>, so n = 3. Use n + 1.": "",
+    "The neighbour is <span class=\"chem\">CH3</span>, so n = 3. Use n + 1.": "相鄰的是 <span class=\"chem\">CH3</span>，所以 n = 3。用 n + 1。",
 
     // Proton NMR: splitting patterns > try it > maths line
-    "peaks = n + 1 = 3 + 1 = 4 (a quartet)": "",
+    "peaks = n + 1 = 3 + 1 = 4 (a quartet)": "峰數 = n + 1 = 3 + 1 = 4 (四峰)",
 
     // Proton NMR: splitting patterns > common mistake > p
-    "Two slips are common. The first is to use <i>n</i> instead of <i>n</i> + 1: a <span class=\"chem\">CH3</span> next to a <span class=\"chem\">CH2</span> is a triplet, not a doublet. The second is to count the H atoms on the same carbon: the three H atoms of a <span class=\"chem\">CH3</span> group do not split their own signal.": "",
+    "Two slips are common. The first is to use <i>n</i> instead of <i>n</i> + 1: a <span class=\"chem\">CH3</span> next to a <span class=\"chem\">CH2</span> is a triplet, not a doublet. The second is to count the H atoms on the same carbon: the three H atoms of a <span class=\"chem\">CH3</span> group do not split their own signal.": "有兩個常見的錯誤。第一是用了 <i>n</i> 而不是 <i>n</i> + 1：<span class=\"chem\">CH3</span> 如果在 <span class=\"chem\">CH2</span> 旁邊，是三峰，不是雙峰。第二是把同一個碳原子上的 H 原子也數進去：<span class=\"chem\">CH3</span> 基團的三個 H 原子不會令自己的訊號分裂。",
 
     // Proton NMR: splitting patterns > exam tip (shown in English + translation) > p
-    "A full prediction has four parts: the number of signals, the chemical shift range of each signal, the ratio of areas, and the splitting of each signal. You can give splitting as a word (“quartet”) or as a number of peaks (“4”).": "",
+    "A full prediction has four parts: the number of signals, the chemical shift range of each signal, the ratio of areas, and the splitting of each signal. You can give splitting as a word (“quartet”) or as a number of peaks (“4”).": "完整的預測有四部分：訊號數目、每個訊號的化學位移範圍、面積比，以及每個訊號的分裂。分裂可以用文字（「quartet」）或峰的數目（「4」）表示。",
 
     // Proton NMR: splitting patterns > not needed for IB > p
-    "You only need singlets, doublets, triplets and quartets. You do not need patterns with more than four peaks, the relative heights of the peaks in a cluster, or coupling constants. If a group has H atoms on neighbouring carbons on both sides, its pattern can be more complex. You will not be asked to name such a pattern.": "",
+    "You only need singlets, doublets, triplets and quartets. You do not need patterns with more than four peaks, the relative heights of the peaks in a cluster, or coupling constants. If a group has H atoms on neighbouring carbons on both sides, its pattern can be more complex. You will not be asked to name such a pattern.": "你只需要懂得單峰、雙峰、三峰和四峰。你不需要學多於四個峰的模式、一簇峰中各峰的相對高度，或耦合常數。如果一個基團兩邊相鄰的碳原子上都有 H 原子，它的分裂模式可能較複雜。題目不會要求你寫出這類模式的名稱。",
 
     // Proton NMR: splitting patterns > data-title attribute
-    "Splitting patterns: quick check": "",
+    "Splitting patterns: quick check": "分裂模式：快速小測",
 
     // Combining the techniques > data-toc attribute
     // Combining the techniques > h2
-    "Combining the techniques": "",
+    "Combining the techniques": "結合各種技術",
 
     // Combining the techniques > p
-    "<b>The question it answers:</b> what is the full structure of an unknown compound?": "",
+    "<b>The question it answers:</b> what is the full structure of an unknown compound?": "<b>它回答的問題：</b>未知化合物的完整結構是甚麼？",
 
     // Combining the techniques > p
-    "A detective does not rely on one clue. Each technique gives a different clue about a molecule. Together they give the structure.": "",
+    "A detective does not rely on one clue. Each technique gives a different clue about a molecule. Together they give the structure.": "偵探不會只靠一條線索。每種技術都為分子提供不同的線索。合起來就能得出結構。",
 
     // Combining the techniques > table > caption
-    "What each piece of data tells you": "",
+    "What each piece of data tells you": "每項數據告訴你甚麼",
 
     // Combining the techniques > table > th
-    "Data": "",
+    "Data": "數據",
 
     // Combining the techniques > table > th
-    "What you learn": "",
+    "What you learn": "你得知甚麼",
 
     // Combining the techniques > table > th
-    "Percentage composition by mass": "",
+    "Percentage composition by mass": "質量百分組成",
 
     // Combining the techniques > table > td
-    "the empirical formula": "",
+    "the empirical formula": "實驗式",
 
     // Combining the techniques > table > th
-    "Mass spectrum: molecular ion": "",
+    "Mass spectrum: molecular ion": "質譜：分子離子",
 
     // Combining the techniques > table > td
-    "<i>M</i><sub>r</sub>, and so the molecular formula": "",
+    "<i>M</i><sub>r</sub>, and so the molecular formula": "<i>M</i><sub>r</sub>，從而得出分子式",
 
     // Combining the techniques > table > th
-    "Mass spectrum: fragments": "",
+    "Mass spectrum: fragments": "質譜：碎片",
 
     // Combining the techniques > table > td
-    "groups that break off, such as CH<sub>3</sub> or CH<sub>2</sub>CH<sub>3</sub>": "",
+    "groups that break off, such as CH<sub>3</sub> or CH<sub>2</sub>CH<sub>3</sub>": "斷開的基團，例如 CH<sub>3</sub> 或 CH<sub>2</sub>CH<sub>3</sub>",
 
     // Combining the techniques > table > th
-    "Infrared spectrum": "",
+    "Infrared spectrum": "紅外光譜",
 
     // Combining the techniques > table > td
-    "the bonds present, and so the functional group": "",
+    "the bonds present, and so the functional group": "存在的鍵，從而得出官能基",
 
     // Combining the techniques > table > th
-    "<sup>1</sup>H NMR: number of signals": "",
+    "<sup>1</sup>H NMR: number of signals": "<sup>1</sup>H NMR：訊號數目",
 
     // Combining the techniques > table > td
-    "the number of hydrogen environments": "",
+    "the number of hydrogen environments": "氫環境的數目",
 
     // Combining the techniques > table > th
-    "<sup>1</sup>H NMR: areas": "",
+    "<sup>1</sup>H NMR: areas": "<sup>1</sup>H NMR：面積",
 
     // Combining the techniques > table > td
-    "the ratio of H atoms in the environments": "",
+    "the ratio of H atoms in the environments": "各環境中 H 原子的比",
 
     // Combining the techniques > table > th
-    "<sup>1</sup>H NMR: chemical shifts": "",
+    "<sup>1</sup>H NMR: chemical shifts": "<sup>1</sup>H NMR：化學位移",
 
     // Combining the techniques > table > td
-    "the type of each environment": "",
+    "the type of each environment": "每個環境的類型",
 
     // Combining the techniques > table > th
-    "<sup>1</sup>H NMR: splitting": "",
+    "<sup>1</sup>H NMR: splitting": "<sup>1</sup>H NMR：分裂",
 
     // Combining the techniques > table > td
-    "the number of H atoms on the neighbouring carbon atoms": "",
+    "the number of H atoms on the neighbouring carbon atoms": "相鄰碳原子上的 H 原子數目",
 
     // Combining the techniques > li
-    "Find the empirical formula from the percentage composition. Divide each percentage by the relative atomic mass. Then divide by the smallest value.": "",
+    "Find the empirical formula from the percentage composition. Divide each percentage by the relative atomic mass. Then divide by the smallest value.": "從百分組成求出實驗式。把每個百分率除以相對原子質量。然後除以最小的數值。",
 
     // Combining the techniques > li
-    "Read <i>M</i><sub>r</sub> from the molecular ion peak. Compare it with the empirical formula mass to get the molecular formula.": "",
+    "Read <i>M</i><sub>r</sub> from the molecular ion peak. Compare it with the empirical formula mass to get the molecular formula.": "從分子離子峰讀出 <i>M</i><sub>r</sub>。與實驗式的質量比較，得出分子式。",
 
     // Combining the techniques > li
-    "Use the IR spectrum to find the functional group. Note what is absent as well as what is present.": "",
+    "Use the IR spectrum to find the functional group. Note what is absent as well as what is present.": "用 IR 光譜找出官能基。除了存在的鍵，也要留意不存在的鍵。",
 
     // Combining the techniques > li
-    "Use the mass lost for one or two fragments to find groups in the molecule.": "",
+    "Use the mass lost for one or two fragments to find groups in the molecule.": "用一兩塊碎片失去的質量，找出分子中的基團。",
 
     // Combining the techniques > li
-    "Use the number of NMR signals and their areas to find how many H atoms are in each environment.": "",
+    "Use the number of NMR signals and their areas to find how many H atoms are in each environment.": "用 NMR 訊號的數目和面積，找出每個環境有多少個 H 原子。",
 
     // Combining the techniques > li
-    "Use the chemical shifts and the splitting to see what each group is next to.": "",
+    "Use the chemical shifts and the splitting to see what each group is next to.": "用化學位移和分裂，看看每個基團的旁邊是甚麼。",
 
     // Combining the techniques > li
-    "Draw a structure. Check it against every piece of data.": "",
+    "Draw a structure. Check it against every piece of data.": "畫出結構。逐一與每項數據核對。",
 
     // Combining the techniques > worked example > h3
-    "A full structure problem": "",
+    "A full structure problem": "一道完整的結構題",
 
     // Combining the techniques > worked example > p
-    "Compound X contains 69.70 % carbon, 11.72 % hydrogen and 18.57 % oxygen by mass. Its simplified mass spectrum, a sketch of its IR spectrum and a sketch of its <sup>1</sup>H NMR spectrum are shown. Deduce the structure of X.": "",
+    "Compound X contains 69.70 % carbon, 11.72 % hydrogen and 18.57 % oxygen by mass. Its simplified mass spectrum, a sketch of its IR spectrum and a sketch of its <sup>1</sup>H NMR spectrum are shown. Deduce the structure of X.": "化合物 X 按質量計含 69.70 % 碳、11.72 % 氫和 18.57 % 氧。圖中顯示它的簡化質譜、IR 光譜略圖和 <sup>1</sup>H NMR 譜略圖。推斷 (deduce) X 的結構。",
 
     // Combining the techniques > worked example > data-title attribute
-    "Find the empirical formula": "",
+    "Find the empirical formula": "求出實驗式",
 
     // Combining the techniques > worked example > p
-    "Percentages by mass become amounts in mol when you divide by the relative atomic mass.": "",
+    "Percentages by mass become amounts in mol when you divide by the relative atomic mass.": "把質量百分率除以相對原子質量，就得出以 mol 計的物質的量。",
 
     // Combining the techniques > worked example > maths line
-    "divide by 1.161 → C : H : O = 5.00 : 10.00 : 1.00": "",
+    "divide by 1.161 → C : H : O = 5.00 : 10.00 : 1.00": "除以 1.161 → C : H : O = 5.00 : 10.00 : 1.00",
 
     // Combining the techniques > worked example > maths line
-    "empirical formula = C<sub>5</sub>H<sub>10</sub>O": "",
+    "empirical formula = C<sub>5</sub>H<sub>10</sub>O": "實驗式 = C<sub>5</sub>H<sub>10</sub>O",
 
     // Combining the techniques > worked example > data-title attribute
-    "Find the molecular formula": "",
+    "Find the molecular formula": "求出分子式",
 
     // Combining the techniques > worked example > p
-    "The molecular ion peak gives M<sub>r</sub>.": "",
+    "The molecular ion peak gives M<sub>r</sub>.": "分子離子峰給出 M<sub>r</sub>。",
 
     // Combining the techniques > worked example > maths line
-    "molecular ion peak at m/z = 86, so <i>M</i><sub>r</sub> = 86": "",
+    "molecular ion peak at m/z = 86, so <i>M</i><sub>r</sub> = 86": "分子離子峰在 m/z = 86，所以 <i>M</i><sub>r</sub> = 86",
 
     // Combining the techniques > worked example > maths line
-    "mass of C<sub>5</sub>H<sub>10</sub>O = 5(12.01) + 10(1.01) + 16.00 = 86.15": "",
+    "mass of C<sub>5</sub>H<sub>10</sub>O = 5(12.01) + 10(1.01) + 16.00 = 86.15": "C<sub>5</sub>H<sub>10</sub>O 的質量 = 5(12.01) + 10(1.01) + 16.00 = 86.15",
 
     // Combining the techniques > worked example > maths line
-    "molecular formula = C<sub>5</sub>H<sub>10</sub>O": "",
+    "molecular formula = C<sub>5</sub>H<sub>10</sub>O": "分子式 = C<sub>5</sub>H<sub>10</sub>O",
 
     // Combining the techniques > worked example > data-title attribute
-    "Use the IR spectrum": "",
+    "Use the IR spectrum": "使用 IR 光譜",
 
     // Combining the techniques > worked example > p
-    "The IR spectrum shows the bonds, and so the functional group.": "",
+    "The IR spectrum shows the bonds, and so the functional group.": "IR 光譜顯示有哪些鍵，從而得出官能基。",
 
     // Combining the techniques > worked example > maths line
-    "1715 cm<sup>−1</sup> is inside 1700–1750 cm<sup>−1</sup> → C=O": "",
+    "1715 cm<sup>−1</sup> is inside 1700–1750 cm<sup>−1</sup> → C=O": "1715 cm<sup>−1</sup> 在 1700–1750 cm<sup>−1</sup> 範圍內 → C=O",
 
     // Combining the techniques > worked example > maths line
-    "no broad absorption at 3200–3600 or 2500–3000 cm<sup>−1</sup> → no O–H": "",
+    "no broad absorption at 3200–3600 or 2500–3000 cm<sup>−1</sup> → no O–H": "在 3200–3600 或 2500–3000 cm<sup>−1</sup> 沒有寬吸收 → 沒有 O–H",
 
     // Combining the techniques > worked example > p
-    "With one oxygen atom and a C=O bond, X is an aldehyde or a ketone.": "",
+    "With one oxygen atom and a C=O bond, X is an aldehyde or a ketone.": "X 有一個氧原子和一個 C=O 鍵，所以是醛或酮。",
 
     // Combining the techniques > worked example > data-title attribute
-    "Use the fragments": "",
+    "Use the fragments": "使用碎片",
 
     // Combining the techniques > worked example > p
-    "The mass lost shows a group that breaks off.": "",
+    "The mass lost shows a group that breaks off.": "失去的質量顯示斷開的是哪個基團。",
 
     // Combining the techniques > worked example > maths line
-    "86 − 57 = 29 → •CH<sub>2</sub>CH<sub>3</sub> or •CHO lost": "",
+    "86 − 57 = 29 → •CH<sub>2</sub>CH<sub>3</sub> or •CHO lost": "86 − 57 = 29 → 失去 •CH<sub>2</sub>CH<sub>3</sub> 或 •CHO",
 
     // Combining the techniques > worked example > p
-    "The spectrum cannot yet tell you which one. Keep both ideas.": "",
+    "The spectrum cannot yet tell you which one. Keep both ideas.": "質譜暫時無法告訴你是哪一個。兩個可能都先保留。",
 
     // Combining the techniques > worked example > data-title attribute
-    "Use the NMR signals and areas": "",
+    "Use the NMR signals and areas": "使用 NMR 的訊號和面積",
 
     // Combining the techniques > worked example > p
-    "Two signals mean two hydrogen environments. The areas share out the 10 H atoms.": "",
+    "Two signals mean two hydrogen environments. The areas share out the 10 H atoms.": "兩個訊號代表兩個氫環境。10 個 H 原子按面積比分配。",
 
     // Combining the techniques > worked example > maths line
-    "ratio 3 : 2, total 10 H → 6 H and 4 H": "",
+    "ratio 3 : 2, total 10 H → 6 H and 4 H": "比 3 : 2，共 10 H → 6 H 和 4 H",
 
     // Combining the techniques > worked example > p
-    "There is no signal at 9.4–10.0 ppm, so there is no aldehyde H. X is a ketone, and the piece of mass 29 is <span class=\"s32h-f\">•CH<sub>2</sub>CH<sub>3</sub></span>.": "",
+    "There is no signal at 9.4–10.0 ppm, so there is no aldehyde H. X is a ketone, and the piece of mass 29 is <span class=\"s32h-f\">•CH<sub>2</sub>CH<sub>3</sub></span>.": "在 9.4–10.0 ppm 沒有訊號，所以沒有醛的 H。X 是酮，質量為 29 的碎片是 <span class=\"s32h-f\">•CH<sub>2</sub>CH<sub>3</sub></span>。",
 
     // Combining the techniques > worked example > data-title attribute
-    "Use the shifts and the splitting, then draw X": "",
+    "Use the shifts and the splitting, then draw X": "使用位移和分裂，然後畫出 X",
 
     // Combining the techniques > worked example > p
-    "The splitting shows what each group is next to.": "",
+    "The splitting shows what each group is next to.": "分裂顯示每個基團的旁邊是甚麼。",
 
     // Combining the techniques > worked example > maths line
-    "6 H, triplet, 1.0 ppm → two equivalent CH<sub>3</sub> groups, each next to a CH<sub>2</sub>": "",
+    "6 H, triplet, 1.0 ppm → two equivalent CH<sub>3</sub> groups, each next to a CH<sub>2</sub>": "6 H，三峰，1.0 ppm → 兩個等價的 CH<sub>3</sub> 基團，各在一個 CH<sub>2</sub> 旁邊",
 
     // Combining the techniques > worked example > maths line
-    "4 H, quartet, 2.4 ppm → two equivalent CH<sub>2</sub> groups, each next to a CH<sub>3</sub> and next to C=O (2.2–2.7 ppm)": "",
+    "4 H, quartet, 2.4 ppm → two equivalent CH<sub>2</sub> groups, each next to a CH<sub>3</sub> and next to C=O (2.2–2.7 ppm)": "4 H，四峰，2.4 ppm → 兩個等價的 CH<sub>2</sub> 基團，各在一個 CH<sub>3</sub> 旁邊，並在 C=O 旁邊 (2.2–2.7 ppm)",
 
     // Combining the techniques > worked example > maths line
-    "<b>X is pentan-3-one, CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub>.</b>": "",
+    "<b>X is pentan-3-one, CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub>.</b>": "<b>X 是 pentan-3-one，CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub>。</b>",
 
     // Combining the techniques > worked example > p
-    "Check: the peak at m/z = 57 is <span class=\"chem\">CH3CH2CO+</span> and the peak at m/z = 29 is <span class=\"chem\">CH3CH2+</span>.": "",
+    "Check: the peak at m/z = 57 is <span class=\"chem\">CH3CH2CO+</span> and the peak at m/z = 29 is <span class=\"chem\">CH3CH2+</span>.": "核對：m/z = 57 的峰是 <span class=\"chem\">CH3CH2CO+</span>，m/z = 29 的峰是 <span class=\"chem\">CH3CH2+</span>。",
 
     // Combining the techniques > worked example > p
-    "Pentan-3-one, CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub>.": "",
+    "Pentan-3-one, CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub>.": "pentan-3-one，CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub>。",
 
     // Combining the techniques > widget > data-title attribute
-    "Structure detective": "",
+    "Structure detective": "結構偵探",
 
     // Combining the techniques > widget > figcaption
-    "Solve each step in order. Every correct step adds a line to the deduction notebook. The mass spectra use the real major peaks of each compound (NIST Chemistry WebBook) with small peaks left out. The IR and NMR spectra are sketches drawn inside the data booklet ranges.": "",
+    "Solve each step in order. Every correct step adds a line to the deduction notebook. The mass spectra use the real major peaks of each compound (NIST Chemistry WebBook) with small peaks left out. The IR and NMR spectra are sketches drawn inside the data booklet ranges.": "按次序解決每一步。每答對一步，推論筆記就會加上一行。質譜採用每種化合物真實的主要峰（NIST Chemistry WebBook），並略去了小峰。IR 光譜和 NMR 譜是在數據手冊範圍內繪畫的略圖。",
 
     // Combining the techniques > try it > data-label attribute
-    "Number of carbon atoms": "",
+    "Number of carbon atoms": "碳原子的數目",
 
     // Combining the techniques > try it > p
-    "A compound has the empirical formula <span class=\"chem\">C2H4O</span>. Its molecular ion peak is at <span class=\"mono\">m/z = 88</span>. How many carbon atoms are in one molecule?": "",
+    "A compound has the empirical formula <span class=\"chem\">C2H4O</span>. Its molecular ion peak is at <span class=\"mono\">m/z = 88</span>. How many carbon atoms are in one molecule?": "某化合物的實驗式是 <span class=\"chem\">C2H4O</span>。它的分子離子峰在 <span class=\"mono\">m/z = 88</span>。一個分子中有多少個碳原子？",
 
     // Combining the techniques > try it > li
-    "Find the mass of the empirical formula. Use whole-number masses: C 12, H 1, O 16.": "",
+    "Find the mass of the empirical formula. Use whole-number masses: C 12, H 1, O 16.": "求出實驗式的質量。用整數質量：C 12、H 1、O 16。",
 
     // Combining the techniques > try it > li
-    "The empirical formula mass is 44. How many times does 44 go into 88?": "",
+    "The empirical formula mass is 44. How many times does 44 go into 88?": "實驗式的質量是 44。88 是 44 的多少倍？",
 
     // Combining the techniques > try it > maths line
-    "88 / 44 = 2, so the molecular formula is C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>": "",
+    "88 / 44 = 2, so the molecular formula is C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>": "88 / 44 = 2，所以分子式是 C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>",
 
     // Combining the techniques > try it > p
-    "There are 4 carbon atoms.": "",
+    "There are 4 carbon atoms.": "有 4 個碳原子。",
 
     // Combining the techniques > common mistake > p
-    "Do not stop at the first structure that fits one spectrum. Several isomers often fit the IR spectrum. Check the number of NMR signals and the splitting for every structure you consider.": "",
+    "Do not stop at the first structure that fits one spectrum. Several isomers often fit the IR spectrum. Check the number of NMR signals and the splitting for every structure you consider.": "不要一找到與某一個譜吻合的結構就停下來。常常有幾種異構體都與 IR 光譜吻合。你考慮的每個結構，都要核對 NMR 訊號的數目和分裂。",
 
     // Combining the techniques > exam tip (shown in English + translation) > p
-    "These questions are marked in steps. Show each deduction: the bond and its range from the IR spectrum, the molecular ion and the formula, and the NMR evidence. The final structure can be a name or any clear structural formula.": "",
+    "These questions are marked in steps. Show each deduction: the bond and its range from the IR spectrum, the molecular ion and the formula, and the NMR evidence. The final structure can be a name or any clear structural formula.": "這類題目是按步驟評分的。寫出每一步推論：IR 光譜中的鍵和它的範圍、分子離子和化學式，以及 NMR 的證據。最終的結構可以是名稱，或任何清晰的結構式。",
 
     // Combining the techniques > not needed for IB > p
-    "Some books calculate an “index of hydrogen deficiency” at this point. It is not required here. The IR spectrum already shows whether there is a C=O or C=C bond. You also do not need UV–visible spectra or X-ray crystallography for organic structures.": "",
+    "Some books calculate an “index of hydrogen deficiency” at this point. It is not required here. The IR spectrum already shows whether there is a C=O or C=C bond. You also do not need UV–visible spectra or X-ray crystallography for organic structures.": "有些書會在這一步計算「缺氫指數」(index of hydrogen deficiency)。這裏不要求。IR 光譜已經顯示有沒有 C=O 或 C=C 鍵。你也不需要用紫外－可見光譜或 X 射線結晶學來確定有機結構。",
 
     // Combining the techniques > data-title attribute
-    "Combined analysis: quick check": "",
+    "Combined analysis: quick check": "綜合分析：快速小測",
 
     // Linking it up > h2
-    "Linking it up": "",
+    "Linking it up": "把知識連繫起來",
 
     // Linking it up > p
-    "The syllabus asks questions that connect this topic to others. Here are short answers to two of them.": "",
+    "The syllabus asks questions that connect this topic to others. Here are short answers to two of them.": "課程大綱設有一些把本課題與其他課題連繫起來的問題。以下是其中兩題的簡短答案。",
 
     // Linking it up > h3
-    "What features of a molecule determine whether it is IR active or not?": "",
+    "What features of a molecule determine whether it is IR active or not?": "分子的哪些特徵決定它是否有紅外活性 (IR active)？",
 
     // Linking it up > p
-    "A vibration absorbs infrared radiation only if it changes the dipole moment of the molecule. A molecule with polar bonds can do this. Carbon dioxide has no overall dipole, but when it bends or stretches unevenly, a dipole appears, so it absorbs. Water and methane absorb for the same reason.": "",
+    "A vibration absorbs infrared radiation only if it changes the dipole moment of the molecule. A molecule with polar bonds can do this. Carbon dioxide has no overall dipole, but when it bends or stretches unevenly, a dipole appears, so it absorbs. Water and methane absorb for the same reason.": "只有令分子的偶極矩改變的振動，才會吸收紅外輻射。有極性鍵的分子可以做到這一點。二氧化碳整體沒有偶極，但當它彎曲或不對稱地伸縮時，就會出現偶極，所以它會吸收。水和甲烷也是基於相同的原因而吸收。",
 
     // Linking it up > p
-    "Molecules such as <span class=\"chem\">N2</span> and <span class=\"chem\">O2</span> have two identical atoms and a non-polar bond. Stretching the bond does not create a dipole. They are not IR active. Bond polarity and molecular polarity are in Structure 2.2.": "",
+    "Molecules such as <span class=\"chem\">N2</span> and <span class=\"chem\">O2</span> have two identical atoms and a non-polar bond. Stretching the bond does not create a dipole. They are not IR active. Bond polarity and molecular polarity are in Structure 2.2.": "<span class=\"chem\">N2</span> 和 <span class=\"chem\">O2</span> 等分子由兩個相同的原子組成，鍵是非極性的。鍵伸縮時不會產生偶極。它們沒有紅外活性。鍵的極性和分子的極性見 Structure 2.2。",
 
     // Linking it up > h3
-    "What properties of a greenhouse gas determine its “global warming potential”?": "",
+    "What properties of a greenhouse gas determine its “global warming potential”?": "溫室氣體的哪些性質決定它的「全球升溫潛能值」(global warming potential)？",
 
     // Linking it up > p
-    "Two properties matter most. The first is how strongly the gas absorbs infrared radiation, and at which wavenumbers. The second is how long the gas stays in the atmosphere before it is removed. A gas that absorbs strongly and stays for a long time has a high global warming potential. Combustion and its products are in Reactivity 1.3.": "",
+    "Two properties matter most. The first is how strongly the gas absorbs infrared radiation, and at which wavenumbers. The second is how long the gas stays in the atmosphere before it is removed. A gas that absorbs strongly and stays for a long time has a high global warming potential. Combustion and its products are in Reactivity 1.3.": "最重要的性質有兩個。第一是這種氣體吸收紅外輻射有多強，以及在哪些波數吸收。第二是這種氣體在被清除之前，會在大氣中停留多久。吸收強而且停留時間長的氣體，全球升溫潛能值就高。燃燒和燃燒產物見 Reactivity 1.3。",
 
     // Exam-style practice > h2
-    "Exam-style practice": "",
+    "Exam-style practice": "考試題型練習",
 
     // Exam-style practice > p
-    "Three sets, from first steps to stretch. Every question here is Additional HL. You get feedback after each question, and questions you have not yet answered correctly come up first.": "",
+    "Three sets, from first steps to stretch. Every question here is Additional HL. You get feedback after each question, and questions you have not yet answered correctly come up first.": "共三組題目，由入門到進階。這裏每一題都是 HL 附加內容。每答完一題都有回饋，而你尚未答對的題目會先出現。",
 
     // Exam-style practice > data-title attribute
-    "3.2 HL Foundation: one idea at a time": "",
+    "3.2 HL Foundation: one idea at a time": "3.2 HL 基礎：每次一個概念",
 
     // Exam-style practice > data-title attribute
-    "3.2 HL Exam standard": "",
+    "3.2 HL Exam standard": "3.2 HL 考試程度",
 
     // Exam-style practice > data-title attribute
-    "3.2 HL Challenge": "",
+    "3.2 HL Challenge": "3.2 HL 挑戰",
 
     // Exam-style practice > data-title attribute
-    "3.2 HL Spectroscopy mix": "",
+    "3.2 HL Spectroscopy mix": "3.2 HL 光譜法綜合",
 
     // Exam-style practice > p
-    "The core content of this topic is on the page <a href=\"s3-2.html\">3.2 Functional groups</a>.": "",
+    "The core content of this topic is on the page <a href=\"s3-2.html\">3.2 Functional groups</a>.": "本課題的核心內容在 <a href=\"s3-2.html\">3.2 官能基</a> 頁面。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "iodoalkanes": "",
