@@ -239,3 +239,12 @@ S1.i18n.register('zh-Hant', 'ui', {
     "Previous": "上一個"
   }
 });
+
+/* Added for the scoped lookups: page text no longer falls back to the ui overlay, and new shell strings. */
+S1.i18n.register('zh-Hant', 'ui', {
+  strings: {
+    "Figure": "圖",
+    "Selected: {name}, atom {n} of {total}": "已選：{name}（第 {n} 個原子，共 {total} 個）",
+    "Press [ or ] to move between atoms and Enter to choose one.": "按 [ 或 ] 鍵切換原子，按 Enter 鍵選取。"
+  }
+});

@@ -14,7 +14,8 @@
 
    Data sources. Single- and double-bond lengths are the IB data booklet values
    (section 11). Bond lengths in the resonance species (CO3 2− 129 pm, NO3− 124 pm,
-   O3 128 pm, HCOO− 127 pm, benzene 140 pm), the bond angles of SF4, ClF3 and BrF5
+   O3 128 pm, HCOO− 127 pm, benzene 140 pm), the bond angles of SF4 (101.6°, 173.1°;
+   88° follows from them), ClF3 (87.5°) and BrF5 (84.8°)
    and the enthalpies of hydrogenation (cyclohexene −120, benzene −208 kJ mol−1) are
    rounded measured values from standard references; they are not in the booklet
    and are labelled "measured" or "about" wherever they are shown.
@@ -371,7 +372,7 @@
       { a: 'p', text: t('Benzene is a planar, regular hexagon. All bond angles are 120°.'), why: t('Physical evidence. A ring with alternating short and long bonds would not be a regular hexagon.') },
       { a: 'c', text: t('Benzene does not readily decolourize bromine water.'), why: t('Chemical evidence. Alkenes decolourize bromine water quickly by addition.') },
       { a: 'n', text: t('The molecular formula of benzene is C₆H₆, so it is unsaturated.'), why: t('This fits both models. Both drawings have the formula C₆H₆.') },
-      { a: 'p', text: t('Only one compound with the name 1,2-dibromobenzene exists.'), why: t('Structural (physical) evidence. Alternating bonds would give two different 1,2-isomers: one with a single bond between the two C–Br carbons, one with a double bond.') }
+      { a: 'p', also: 'c', text: t('Only one compound with the name 1,2-dibromobenzene exists.'), why: t('Evidence about structure. Alternating bonds would give two different 1,2-isomers: one with a single bond between the two C–Br carbons, one with a double bond. Some books list this as physical evidence and some as chemical evidence, so both answers are accepted here. In an exam, choose a clearer example for each kind.') }
     ];
     var OPTS = [{ value: 'p', label: t('Physical') }, { value: 'c', label: t('Chemical') }, { value: 'n', label: t('Fits both models') }];
     var list = el('div', { class: 's22h-cards' }), rows = [];
@@ -391,7 +392,7 @@
       rows.forEach(function (r) {
         if (r.seg.value == null) { r.card.removeAttribute('data-tone'); r.fb.hidden = true; return; }
         done++;
-        var ok = r.seg.value === r.c.a; if (ok) right++;
+        var ok = r.seg.value === r.c.a || r.seg.value === r.c.also; if (ok) right++;
         r.card.setAttribute('data-tone', ok ? 'ok' : 'bad');
         r.fb.hidden = false; r.fb.innerHTML = '<strong>' + (ok ? t('Correct.') : t('Not this one.')) + '</strong> ' + r.c.why;
       });
@@ -425,7 +426,7 @@
     var R3 = Math.sqrt(3);
     var DATA = [
       { id: 'PCl5', central: 'P', outer: 'Cl', d: 5, lp: 0, polar: 'no', count: t('P has 5 valence electrons. All 5 are used in the five P–Cl bonds. No lone pairs.'), angle: t('90° and 120° (and 180° between the two axial bonds)') },
-      { id: 'SF4', central: 'S', outer: 'F', d: 5, lp: 1, polar: 'yes', count: t('S has 6 valence electrons. 4 are used in the four S–F bonds. 2 are left: one lone pair.'), angle: t('less than 90° and less than 120° (measured: about 102° and about 173°)'),
+      { id: 'SF4', central: 'S', outer: 'F', d: 5, lp: 1, polar: 'yes', count: t('S has 6 valence electrons. 4 are used in the four S–F bonds. 2 are left: one lone pair.'), angle: t('less than 90° and less than 120° (measured: about 88° axial to equatorial, about 102° between the equatorial bonds; the two axial bonds are at about 173°, not 180°)'),
         alt: t('Wrong position, for comparison: an axial lone pair is at 90° to three bonding pairs. In the real molecule the lone pair is equatorial, at 90° to only two bonding pairs. Less repulsion.') },
       { id: 'ClF3', central: 'Cl', outer: 'F', d: 5, lp: 2, polar: 'yes', count: t('Cl has 7 valence electrons. 3 are used in the three Cl–F bonds. 4 are left: two lone pairs.'), angle: t('less than 90° (measured: about 87.5°)'),
         alt: t('Wrong position, for comparison: two axial lone pairs are each at 90° to three bonding pairs. In the real molecule both lone pairs are equatorial. Less repulsion.') },

@@ -108,7 +108,9 @@
       }
       if (mode === 'lewis') {
         var n = typeof a.lone === 'number' ? a.lone : Array.isArray(a.lone) ? a.lone.length : 0;
-        loneDirections(a, bondAngles[i], n).forEach(function (ang) {
+        var loneAngles = loneDirections(a, bondAngles[i], n);
+        a._taken = bondAngles[i].concat(loneAngles);
+        loneAngles.forEach(function (ang) {
           var r = clear(i) + 5, cx = p.x + Math.cos(ang) * r, cy = p.y + Math.sin(ang) * r, nx = -Math.sin(ang), ny = Math.cos(ang);
           [-4.2, 4.2].forEach(function (o) { svgEl('circle', { cx: cx + nx * o, cy: cy + ny * o, r: 2.3, style: 'fill:' + INK }, svg); });
         });
@@ -119,8 +121,15 @@
       }
       var ch = chargeText(a.charge);
       if (ch) {
-        // formal charge: small, up and to the right, circled so it is not read as an ion charge
-        var cx2 = p.x + clear(i) + 4, cy2 = p.y - clear(i) - 3;
+        // formal charge: small and circled so it is not read as an ion charge; placed on the diagonal that is
+        // furthest from this atom's bonds and lone pairs (upper right if that is free)
+        var taken = a._taken || bondAngles[i], bestA = -Math.PI / 4, bestGap = -1;
+        [-Math.PI / 4, -3 * Math.PI / 4, Math.PI / 4, 3 * Math.PI / 4].forEach(function (c) {
+          var gap = taken.length ? Math.min.apply(null, taken.map(function (q) { return angDist(c, q); })) : 9;
+          if (gap > bestGap + 0.05) { bestGap = gap; bestA = c; }
+        });
+        var cr = clear(i) + (bestGap < 0.9 ? 16 : 10);
+        var cx2 = p.x + Math.cos(bestA) * cr, cy2 = p.y + Math.sin(bestA) * cr;
         svgEl('circle', { cx: cx2, cy: cy2, r: 7.5, style: 'fill:var(--surface);stroke:' + INK + ';stroke-width:1' }, svg);
         var ct = svgEl('text', { x: cx2, y: cy2 + 0.5, 'text-anchor': 'middle', 'dominant-baseline': 'central', style: 'fill:' + INK + ';font-family:var(--font-mono);font-size:11px;font-weight:600' }, svg);
         ct.textContent = ch;
@@ -406,12 +415,14 @@
     canvas.className = 'mol__canvas'; canvas.tabIndex = 0; canvas.setAttribute('role', 'img');
     canvas.style.touchAction = 'pan-y'; canvas.style.display = 'block'; canvas.style.cursor = 'grab';
     el.appendChild(canvas);
+    var status = spec.onAtom ? S1.util.el('p', { class: 'sr-only', role: 'status', 'aria-live': 'polite' }) : null;
+    if (status) el.appendChild(status);
     var ctx = canvas.getContext('2d'), W = 0, H = 0;
     var yaw0 = -0.5, pitch0 = 0.35, yaw = yaw0, pitch = pitch0, spinning = false, raf = 0, visible = true;
     var reduced = S1.util.reducedMotion();
 
     S1.i18n.liveAttr(canvas, 'aria-label', function () {
-      return tl(spec.label || '3-D model') + '. ' + t('Drag or use the arrow keys to rotate.');
+      return tl(spec.label || '3-D model') + '. ' + t('Drag or use the arrow keys to rotate.') + (spec.onAtom ? ' ' + t('Press [ or ] to move between atoms and Enter to choose one.') : '');
     });
 
     function size() {
@@ -434,14 +445,15 @@
       var n = atoms.length || 1; cx /= n; cy /= n; cz /= n;
       var ext = 0.6;
       (spec.arrows || []).forEach(function (a) { [a.from, a.to].forEach(function (v) { if (typeof v !== 'number') ext = Math.max(ext, Math.hypot(v[0] - cx, v[1] - cy, v[2] - cz) + 0.2); }); });
-      atoms.forEach(function (a) { ext = Math.max(ext, Math.hypot(a.x - cx, a.y - cy, a.z - cz) + (RADII[a.el] || DEFAULT_R)); });
+      atoms.forEach(function (a) { ext = Math.max(ext, Math.hypot(a.x - cx, a.y - cy, a.z - cz) + (a.r || RADII[a.el] || DEFAULT_R)); });
       lps.forEach(function (l) { var a = atoms[l.on]; ext = Math.max(ext, Math.hypot(a.x - cx, a.y - cy, a.z - cz) + 1.05); });
       var scale = Math.min(W, H) / 2 / ext * 0.9, cam = ext * 4.5;
       function project(p) {
         var r = rot([p[0] - cx, p[1] - cy, p[2] - cz]), k = cam / (cam - r[2]);
         return { x: W / 2 + r[0] * scale * k, y: H / 2 - r[1] * scale * k, z: r[2], k: k };
       }
-      var P = atoms.map(function (a) { var q = project([a.x, a.y, a.z]); q.r = (RADII[a.el] || DEFAULT_R) * scale * q.k; return q; });
+      var P = atoms.map(function (a) { var q = project([a.x, a.y, a.z]); q.r = (a.r || RADII[a.el] || DEFAULT_R) * scale * q.k; return q; });
+      lastP = P;
       var items = [];
       atoms.forEach(function (a, i) { items.push({ z: P[i].z, type: 'atom', i: i }); });
       bonds.forEach(function (b) { items.push({ z: (P[b.a].z + P[b.b].z) / 2 - 0.001, type: 'bond', b: b }); });
@@ -464,9 +476,11 @@
           // start just inside each sphere's outline so the stick meets the ball cleanly
           var sa = Math.min(A.r * 0.92, len / 2), sb = Math.min(B.r * 0.92, len / 2);
           var x1 = A.x + ux * sa, y1 = A.y + uy * sa, x2 = B.x - ux * sb, y2 = B.y - uy * sb;
-          var order = it.b.order || 1, wdt = Math.max(2.5, scale * 0.11 * (A.k + B.k) / 2), offs = order === 2 ? [-0.9, 0.9] : order === 3 ? [-1.5, 0, 1.5] : [0];
-          offs.forEach(function (o) {
+          var order = it.b.order || 1, wdt = Math.max(2.5, scale * 0.11 * (A.k + B.k) / 2), offs = order === 2 || order === 1.5 || it.b.partial ? [-0.9, 0.9] : order === 3 ? [-1.5, 0, 1.5] : [0];
+          var partial = order === 1.5 || it.b.partial;       // delocalized: one full stick and one dashed
+          offs.forEach(function (o, oi) {
             ctx.beginPath(); ctx.moveTo(x1 + nx * o * wdt, y1 + ny * o * wdt); ctx.lineTo(x2 + nx * o * wdt, y2 + ny * o * wdt);
+            if (partial && oi === 1) { ctx.setLineDash([5, 4]); ctx.lineCap = 'butt'; ctx.strokeStyle = ink; ctx.lineWidth = 2; ctx.stroke(); ctx.setLineDash([]); return; }
             if (it.b.dashed) {     // a weaker attraction (hydrogen bond, force between layers): thin dashed line
               ctx.setLineDash([5, 5]); ctx.lineCap = 'butt'; ctx.strokeStyle = ink; ctx.lineWidth = 1.75; ctx.stroke(); ctx.setLineDash([]);
               return;
@@ -494,6 +508,7 @@
           g.addColorStop(0, shade(col, 0.45)); g.addColorStop(0.6, col); g.addColorStop(1, shade(col, -0.28));
           ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fillStyle = g; ctx.fill();
           ctx.lineWidth = 1.25; ctx.strokeStyle = ink; ctx.stroke();
+          if (it.i === picked || (spec.selected != null && it.i === spec.selected)) { ctx.beginPath(); ctx.arc(p.x, p.y, p.r + 4, 0, Math.PI * 2); ctx.lineWidth = 2.5; ctx.strokeStyle = accent; ctx.stroke(); }
           if (spec.labels !== false && p.r > 9) {
             ctx.fillStyle = lum(col) > 0.6 ? '#101826' : '#FFFFFF';
             ctx.font = '700 ' + Math.round(Math.min(16, p.r * 0.95)) + 'px ' + font; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
@@ -539,18 +554,39 @@
       if (spinBtn) { spinBtn.setAttribute('aria-pressed', String(spinning)); S1.i18n.render(spinBtn); }
     }
     var drag = null;
-    canvas.addEventListener('pointerdown', function (e) { drag = { x: e.clientX, y: e.clientY }; try { canvas.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ } canvas.style.cursor = 'grabbing'; if (spinning) setSpin(false); });
+    var lastP = [], picked = -1, downAt = null;
+    function pick(i, how) {
+      if (!spec.onAtom || i < 0 || !spec.atoms[i]) return;
+      picked = i; draw();
+      var a = spec.atoms[i];
+      if (status) S1.i18n.live(status, function () { return t('Selected: {name}, atom {n} of {total}', { name: a.label || a.el, n: i + 1, total: spec.atoms.length }); });
+      spec.onAtom(i, a, how);
+    }
+    canvas.addEventListener('pointerdown', function (e) { downAt = { x: e.clientX, y: e.clientY }; drag = { x: e.clientX, y: e.clientY }; try { canvas.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ } canvas.style.cursor = 'grabbing'; if (spinning) setSpin(false); });
     canvas.addEventListener('pointermove', function (e) {
       if (!drag) return;
       yaw += (e.clientX - drag.x) * 0.01; pitch = S1.util.clamp(pitch + (e.clientY - drag.y) * 0.01, -1.5, 1.5);
       drag = { x: e.clientX, y: e.clientY }; draw();
     });
-    ['pointerup', 'pointercancel', 'pointerleave'].forEach(function (ev) { canvas.addEventListener(ev, function () { drag = null; canvas.style.cursor = 'grab'; }); });
+    ['pointerup', 'pointercancel', 'pointerleave'].forEach(function (ev) { canvas.addEventListener(ev, function (e) {
+      // a press and release without movement is a click: choose the nearest atom in front
+      if (ev === 'pointerup' && spec.onAtom && downAt && Math.hypot(e.clientX - downAt.x, e.clientY - downAt.y) < 5) {
+        var r = canvas.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top, hit = -1, hz = -Infinity;
+        lastP.forEach(function (p, i) { if (Math.hypot(p.x - x, p.y - y) <= p.r + 3 && p.z > hz) { hz = p.z; hit = i; } });
+        if (hit > -1) pick(hit, 'pointer');
+      }
+      downAt = null; drag = null; canvas.style.cursor = spec.onAtom ? 'pointer' : 'grab';
+    }); });
     canvas.addEventListener('keydown', function (e) {
       var step = 0.15, used = true;
       if (e.key === 'ArrowLeft') yaw -= step; else if (e.key === 'ArrowRight') yaw += step;
       else if (e.key === 'ArrowUp') pitch = S1.util.clamp(pitch - step, -1.5, 1.5); else if (e.key === 'ArrowDown') pitch = S1.util.clamp(pitch + step, -1.5, 1.5);
-      else if (e.key === 'Home') { yaw = yaw0; pitch = pitch0; } else used = false;
+      else if (e.key === 'Home') { yaw = yaw0; pitch = pitch0; }
+      // with clickable atoms: [ and ] (or , and .) move the highlight, Enter or Space chooses
+      else if (spec.onAtom && (e.key === ']' || e.key === '.')) { picked = (picked + 1) % spec.atoms.length; }
+      else if (spec.onAtom && (e.key === '[' || e.key === ',')) { picked = (picked - 1 + spec.atoms.length) % spec.atoms.length; }
+      else if (spec.onAtom && (e.key === 'Enter' || e.key === ' ')) { pick(picked < 0 ? 0 : picked, 'keyboard'); }
+      else used = false;
       if (used) { e.preventDefault(); if (spinning) setSpin(false); draw(); }
     });
 
@@ -597,7 +633,7 @@
   }
 
   /* ---------- Declarative figures: <span data-s1-mol="lewis" data-spec='{…}'> ------------- */
-  var presets = {};
+  var presets = (S1.mol && S1.mol._presets) || {};      // core.js keeps define() calls made before this file loads
   /** S1.mol.define('nh3-lewis', {kind: 'lewis', central: 'N', outer: ['H','H','H'], centralLone: 1, label: '…'}) */
   function define(name, spec) { presets[name] = spec; }
   function drawFigures(root) {

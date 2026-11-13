@@ -239,3 +239,12 @@ S1.i18n.register('ja', 'ui', {
     "Previous": "前へ"
   }
 });
+
+/* Added for the scoped lookups: page text no longer falls back to the ui overlay, and new shell strings. */
+S1.i18n.register('ja', 'ui', {
+  strings: {
+    "Figure": "図",
+    "Selected: {name}, atom {n} of {total}": "選択中：{name}（原子 {n} / {total}）",
+    "Press [ or ] to move between atoms and Enter to choose one.": "[ または ] キーで原子を切り替え、Enter キーで選びます。"
+  }
+});

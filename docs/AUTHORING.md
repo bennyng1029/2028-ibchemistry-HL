@@ -96,6 +96,8 @@ On an AHL-only page do **not** also mark every section `data-level="ahl"`: the w
 <script src="../assets/js/chem.js"></script>
 <script src="../assets/js/core.js"></script>
 <script src="../assets/js/quiz.js"></script>
+<script src="../assets/js/mol.js"></script>        <!-- structure figures (needed for data-s1-mol, also inside questions) -->
+<script src="../assets/js/chart.js"></script>      <!-- only if the page draws charts or spectra -->
 <script src="../data/questions-s1-2.js"></script>
 <script src="../assets/js/widgets-s1-2.js"></script>
 </body>
@@ -391,6 +393,7 @@ Use `S1.chem.fmt`, `S1.chem.sci`, `S1.chem.fixed` for numbers in readouts.
 | `<div data-s1-pager></div>` | Previous / next topic links. |
 | `<nav data-s1-toc></nav>` | Section nav, built from `.topic-section` headings. |
 | `<div data-s1-topics="s1"></div>` | One strand's row of topic cells with progress (`s1`, `s2`, `s3`; empty = all three, each with a heading). |
+| `data-kind="figure"` on a widget | A static figure in the widget frame: the corner label reads "Figure" instead of "Interactive". |
 | `<div data-s1-reset></div>` | “Reset my progress” with in-page confirm. |
 | `<div data-s1-practice></div>` | The practice arena (practice page). |
 | `<hr class="spectrum">` | Balmer-line band as a section break. Use at most once per page. |
@@ -618,6 +621,8 @@ HTML is inserted: page text, worked examples, and quiz **stems, options, hints a
 <div  data-s1-mol="skeletal" data-spec='{"chain":3,"subs":{"2":"OH"},"label":"Skeletal formula of propan-2-ol"}'></div>
 ```
 
+- Load `mol.js` on the page (see the skeleton). If a page forgets, `core.js` fetches it the first time a
+  placeholder appears, so questions with figures still work on any page; the practice page loads it always.
 - `data-s1-mol` is `lewis`, `structural`, `skeletal` or `viewer3d`; `data-spec` is the spec as **JSON**
   (double quotes inside, single quotes around the attribute). A `<span>` is drawn inline, a `<div>` as a block.
 - For a figure used more than once, define it by name in your widget file (or at the top of the question
@@ -651,7 +656,7 @@ S1.mol.lewis('#ammonium',{ central: 'N', outer: ['H', 'H', 'H', 'H'], dative: [f
 | `orders[]` | Bond order to each outer atom: 1, 2 or 3 (default 1). |
 | `dative[]` | `true` draws that bond as a coordination-bond arrow pointing at the outer atom. |
 | `centralLone`, `outerLone[]` | Number of lone pairs. |
-| `centralCharge`, `outerCharges[]` | Formal charges (`'+'`, `'-'`, `-1`, `'2-'`), drawn in a small circle. |
+| `centralCharge`, `outerCharges[]` | Formal charges (`'+'`, `'-'`, `-1`, `'2-'`), drawn in a small circle on the diagonal that is clear of that atom's bonds and lone pairs. |
 | `bracket`, `charge` | Square brackets and the overall ion charge. |
 | `scale` | Pixels per bond length (default 46). |
 
@@ -719,14 +724,15 @@ view.setSpec(S1.mol.vsepr({ domains: 6, lonePairs: 2, central: 'Xe', outer: 'F' 
 
 | Key | Meaning |
 |---|---|
-| `atoms` | `[{el, x, y, z, label}]`, any consistent length unit (a bond is about 1 to 1.5). |
-| `bonds` | `[{a, b, order, dashed}]`. `dashed: true` draws a thin dashed line for a weaker attraction (hydrogen bond, forces between layers). |
+| `atoms` | `[{el, x, y, z, label, r}]`, any consistent length unit (a bond is about 1 to 1.5). `r` sets that atom's radius in the same unit (for ions drawn nearer to scale); the default depends on the element. |
+| `bonds` | `[{a, b, order, dashed}]`. `dashed: true` draws a thin dashed line for a weaker attraction (hydrogen bond, forces between layers). `order: 1.5` (or `partial: true`) draws one full and one dashed stick for a delocalized bond. |
 | `arrows` | `[{from, to, label, cross, color, width}]`: a vector such as a bond dipole. `from` / `to` are an atom index or `[x, y, z]`. `cross: true` adds the small cross at the tail (the positive end of a dipole). Colour defaults to `--accent`. |
 | `lonePairs` | `[{on: atomIndex, dir: [x, y, z]}]`, drawn as a dashed lobe with two dots. |
 | `angle`, `angleText` | `[i, j, k]` labels the angle at atom `j`; the true 3-D value is shown unless `angleText` is given. |
 | `height` | CSS px (default 280). The width follows the container. |
 | `autoRotate` | Start turning (default `false`; never starts by itself with reduced motion). |
 | `labels`, `controls` | Element symbols on the atoms; the "Turn slowly / Reset view" bar. Both default `true`. |
+| `onAtom`, `selected` | `onAtom(index, atom, how)` makes atoms clickable: a click or tap chooses the atom in front, and with the keyboard `[` and `]` move a highlight and Enter chooses. The chosen atom gets a ring and is announced to screen readers. `selected: index` sets the ring yourself. |
 | `label` | Text alternative. Required. |
 
 Returns `{el, canvas, setSpec(spec), reset(), rotate(dYaw, dPitch), spin(on), redraw(), destroy()}`.

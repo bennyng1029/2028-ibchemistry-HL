@@ -517,7 +517,8 @@
     }
 
     function water(ctx, x, y, ang, towardsO) {
-      /* a small water molecule; ang points from the ion to the molecule */
+      /* a small water molecule; ang points from the ion to the molecule. towardsO: the oxygen end faces the ion
+         (true for a cation); otherwise the hydrogen atoms face the ion (an anion). */
       var ox = x, oy = y, flip = towardsO ? 0 : Math.PI, h = 4.6, a1 = ang + flip + 0.92, a2 = ang + flip - 0.92;
       ctx.fillStyle = w.color('--surface'); ctx.strokeStyle = w.color('--ink-3'); ctx.lineWidth = 1;
       [a1, a2].forEach(function (a) { ctx.beginPath(); ctx.arc(ox + Math.cos(a) * h, oy + Math.sin(a) * h, 2.1, 0, 6.3); ctx.fill(); ctx.stroke(); });
@@ -552,7 +553,7 @@
         p = parts[i];
         var r = p.q > 0 ? RC : RA;
         if (state.mode === 'aq') {
-          for (var k = 0; k < 4; k++) { var ang = p.spin + k * Math.PI / 2; water(ctx, p.x + Math.cos(ang) * (r + 6.5), p.y + Math.sin(ang) * (r + 6.5), ang, p.q < 0); }
+          for (var k = 0; k < 4; k++) { var ang = p.spin + k * Math.PI / 2; water(ctx, p.x + Math.cos(ang) * (r + 6.5), p.y + Math.sin(ang) * (r + 6.5), ang, p.q > 0); }
         }
         ctx.beginPath(); ctx.arc(p.x, p.y, r, 0, 6.3);
         ctx.fillStyle = p.q > 0 ? accent : surface; ctx.fill();
@@ -659,7 +660,7 @@
       btn.textContent = state.stage === 0 ? t('Hit it') : state.stage === 1 ? t('What happens next?') : t('Start again');
       btnReset.hidden = state.stage === 0;
       setSee(state.stage === 0 ? t('Before the hit: every ion is next to ions of the opposite charge. Attraction holds the layers together.') :
-        state.stage === 1 ? t('The force has moved one layer of ions along by one ion. Now ions with the same charge are next to each other.') :
+        state.stage === 1 ? t('The force has moved the top layers along by one ion. Now ions with the same charge are next to each other.') :
         t('Ions with the same charge repel. The layers push apart and the crystal splits. This is why ionic solids are brittle.'));
       cv.draw();
     }
@@ -715,7 +716,7 @@
       form.appendChild(b);
     }
     function ions(c) { return ionHTML(c.cat, c.qc) + ' ' + rCat(c) + ' pm, ' + ionHTML(c.an, -c.qa) + ' ' + rAn(c) + ' pm'; }
-    function chargesText(c) { return c.qc + '+ ' + t('and') + ' ' + c.qa + MINUS; }
+    function chargesText(c) { return t('{a}+ and {b}−', { a: c.qc, b: c.qa }); }
 
     function reveal() {
       var A = get(state.a), B = get(state.b);
@@ -724,15 +725,19 @@
       state.shown = true;
       var big = A.dH > B.dH ? A : B, small = big === A ? B : A, right = (state.pick === 'a') === (big === A);
       var moreCharge = prod(big) > prod(small), closer = sum(big) < sum(small);
-      var reason = moreCharge && closer ? 'both' : moreCharge ? 'charge' : 'radius';
+      /* When the two sums of radii differ by 10 pm or less, the distance is "almost the same": charge is then the main reason. */
+      var near = moreCharge && Math.abs(sum(big) - sum(small)) <= 10;
+      var reason = near ? 'charge' : moreCharge && closer ? 'both' : moreCharge ? 'charge' : 'radius';
       var v = { big: chem.formula(big.f), small: chem.formula(small.f), sb: sum(big), ss: sum(small), qb: chargesText(big), qs: chargesText(small), hb: big.dH, hs: small.dH };
       var explain = reason === 'radius' ?
         t('The ions in both compounds have the same charges ({qb}). In {big} the sum of the ionic radii is smaller ({sb} pm against {ss} pm), so the centres of the ions are closer together. The electrostatic attraction between the oppositely charged ions is stronger, so the lattice enthalpy is larger.', v) :
+        near ?
+        t('The ions in {big} have higher charges ({qb}, against {qs} in {small}). The sum of the ionic radii is almost the same in the two compounds ({sb} pm against {ss} pm), so the higher charges are the main reason. The electrostatic attraction between the oppositely charged ions is stronger, so the lattice enthalpy is larger.', v) :
         reason === 'both' ?
         t('The ions in {big} have higher charges ({qb}, against {qs} in {small}). The sum of the ionic radii is also smaller ({sb} pm against {ss} pm). Both effects make the electrostatic attraction between the oppositely charged ions stronger, so the lattice enthalpy is larger.', v) :
         t('The ions in {big} have higher charges ({qb}, against {qs} in {small}). The ions in {big} are not closer together ({sb} pm against {ss} pm), but here the effect of the higher charge is bigger. The electrostatic attraction is stronger, so the lattice enthalpy is larger.', v);
       var values = t('Data booklet values: {big} {hb} kJ mol⁻¹, {small} {hs} kJ mol⁻¹.', v);
-      if (right && state.why === reason) setFeedback(fb, 'right', t('Correct'), values + ' ' + explain);
+      if (right && (state.why === reason || (near && closer && state.why === 'both'))) setFeedback(fb, 'right', t('Correct'), values + ' ' + explain);
       else if (right) setFeedback(fb, 'partial', t('Right compound, check the reason'), values + ' ' + explain);
       else setFeedback(fb, 'wrong', t('Not this time'), values + ' ' + explain);
       update();

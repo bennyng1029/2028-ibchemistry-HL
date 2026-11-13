@@ -405,7 +405,10 @@
         ctx.fillStyle = accent; ctx.fillRect(barX, by, bw, 18);
         ctx.strokeStyle = line; ctx.lineWidth = 1; ctx.strokeRect(barX + 0.5, by + 0.5, barMax, 17);
         ctx.fillStyle = ink; ctx.font = f.mono(13, true); ctx.textBaseline = 'middle';
-        ctx.fillText(r[2] + ' kJ mol⁻¹', barX + bw + 8 > W - 92 ? W - 92 : barX + bw + 8, by + (bw > barMax - 90 ? 30 : 9));
+        var below = bw > barMax - 110;                 // no room after the bar: write the value under its right end
+        ctx.textAlign = below ? 'right' : 'left';
+        ctx.fillText(r[2] + ' kJ mol⁻¹', below ? barX + barMax : barX + bw + 8, by + (below ? 30 : 9));
+        ctx.textAlign = 'left';
         ctx.fillStyle = ink2; ctx.font = f.body(12);
         if (narrow) ctx.fillText(fam.a + SYM[r[0]] + fam.b, barX, by - 46 < rowH * i + 8 ? rowH * i + 10 : by - 46);
       });
@@ -674,7 +677,7 @@
         items.push({ z: (C.z + P.z) / 2 - 0.01, kind: 'bond', p: P, i: i });
         items.push({ z: P.z, kind: 'atom', p: P, el: sym });
       });
-      (m.lone || []).forEach(function (d) { var P = project([shift[0] + d[0] * 0.5, d[1] * 0.5, d[2] * 0.5], W, H, scale); items.push({ z: P.z, kind: 'lone', p: P }); });
+      (m.lone || []).forEach(function (d) { var P = project([shift[0] + d[0] * 0.62, d[1] * 0.62, d[2] * 0.62], W, H, scale); items.push({ z: P.z, kind: 'lone', p: P }); });
       items.sort(function (a, b) { return a.z - b.z; });
       items.forEach(function (it) {
         if (it.kind === 'bond') {
@@ -705,10 +708,17 @@
         ctx.font = f.body(13, true); ctx.fillStyle = ink;
         if (model.size > 0) {
           var o = project([0, 0, 0], W, H, scale), tip = project([model.net[0], model.net[1], model.net[2]].map(function (v) { return v / model.size * 1.05; }), W, H, scale);
-          var ddx = tip.x - o.x, ddy = tip.y - o.y, dl = Math.hypot(ddx, ddy) || 1, push = dl < 12 ? 0 : 20;
-          var ox = two ? W / 2 - ddx / 2 : o.x + ddx / dl * push, oy = two ? H / 2 - 46 : o.y + ddy / dl * push, tx = ox + ddx, ty = oy + ddy;
-          ctx.strokeStyle = ink; ctx.fillStyle = ink; ctx.globalAlpha = 0.9; arrow(ctx, ox, oy, tx, ty, 5, false); ctx.globalAlpha = 1;
-          ctx.fillText(t('Thick arrow: net dipole'), 8, 16, W - 16);
+          var ddx = tip.x - o.x, ddy = tip.y - o.y, ox, oy;
+          if (two) { ox = W / 2 - ddx / 2; oy = H / 2 - 46; }
+          else {
+            // The net dipole is drawn in its own circle at the top right, so that it never covers an atom or a lone pair.
+            var k = 52 / (1.05 * scale), icx = W - 42, icy = 50; ddx *= k; ddy *= k;
+            ctx.beginPath(); ctx.arc(icx, icy, 34, 0, Math.PI * 2); ctx.fillStyle = surf; ctx.fill(); ctx.strokeStyle = ink2; ctx.lineWidth = 1; ctx.stroke();
+            ox = icx - ddx / 2; oy = icy - ddy / 2;
+          }
+          ctx.strokeStyle = ink; ctx.fillStyle = ink; arrow(ctx, ox, oy, ox + ddx, oy + ddy, two ? 5 : 4, false);
+          if (!two && Math.hypot(ddx, ddy) < 6) { ctx.beginPath(); ctx.arc(W - 42, 50, 5, 0, Math.PI * 2); ctx.fill(); }   // pointing straight at or away from the viewer
+          ctx.fillText(two ? t('Thick arrow: net dipole') : t('Thick arrow in the circle: net dipole'), 8, 16, W - 100);
         } else ctx.fillText(t('No net dipole'), 8, 16, W - 16);
       }
     });
@@ -824,9 +834,9 @@
     // Angles in degrees, 0 = right, anticlockwise. Donor: X at the left with its H pointing right (0°). Acceptor: Y at the right, lone pair pointing left (180°).
     var PAIRS = {
       water: { label: t('Water and water'), don: { el: 'O', subs: [{ el: 'H', a: 104.5 }], lone: [200, 270] }, acc: { el: 'O', subs: [{ el: 'H', a: -10 }, { el: 'H', a: -115 }], lone: [95] } },
-      ammonia: { label: t('Ammonia and ammonia'), don: { el: 'N', subs: [{ el: 'H', a: 107 }, { el: 'H', a: 253 }], lone: [180] }, acc: { el: 'N', subs: [{ el: 'H', a: 62 }, { el: 'H', a: 0 }, { el: 'H', a: -62 }], lone: [] } },
-      hf: { label: t('Hydrogen fluoride and hydrogen fluoride'), don: { el: 'F', subs: [], lone: [90, 180, 270] }, acc: { el: 'F', subs: [{ el: 'H', a: -60 }], lone: [75] } },
-      ethanol: { label: t('Ethanol and water'), don: { el: 'O', subs: [{ el: 'CH3CH2', a: 109 }], lone: [200, 270] }, acc: { el: 'O', subs: [{ el: 'H', a: -15 }, { el: 'H', a: -120 }], lone: [80] } }
+      ammonia: { label: t('Ammonia and ammonia'), don: { el: 'N', subs: [{ el: 'H', a: 107 }, { el: 'H', a: 253 }], lone: [180] }, acc: { el: 'N', subs: [{ el: 'H', a: 62 }, { el: 'H', a: 0 }, { el: 'H', a: -62 }], lone: [], dm: [-8, -25] } },
+      hf: { label: t('Hydrogen fluoride and hydrogen fluoride'), don: { el: 'F', subs: [], lone: [90, 180, 270] }, acc: { el: 'F', subs: [{ el: 'H', a: -75 }], lone: [90, 0], dm: [30, -24] } },
+      ethanol: { label: t('Ethanol and water'), don: { el: 'O', subs: [{ el: 'CH3CH2', a: 80 }], lone: [200, 270], dm: [26, -22] }, acc: { el: 'O', subs: [{ el: 'H', a: -15 }, { el: 'H', a: -120 }], lone: [80] } }
     };
     var key = 'water', step = 0, MAX = 4;
     w.select({ label: t('Molecules'), value: key, options: Object.keys(PAIRS).map(function (k) { return { value: k, label: PAIRS[k].label }; }), onChange: function (v) { key = v; step = 0; draw(); } });
@@ -838,7 +848,7 @@
     svg.style.maxWidth = '34rem';
     function txt(x, y, s, cls, anchor) { var n = svgEl('text', { x: x, y: y, 'text-anchor': anchor || 'middle', 'dominant-baseline': 'central', class: cls || 's22-svg-atom', text: s }, svg); return n; }
     function atomAt(x, y, sym) {
-      if (sym === 'CH3CH2') { var n = txt(x + 12, y, '', 's22-svg-atom', 'end'); n.innerHTML = 'CH<tspan baseline-shift="sub" font-size="11">3</tspan>CH<tspan baseline-shift="sub" font-size="11">2</tspan>'; }
+      if (sym === 'CH3CH2') { var n = txt(x + 21, y, '', 's22-svg-atom', 'end');   // the C of CH2 sits on the end of the bond n.innerHTML = 'CH<tspan baseline-shift="sub" font-size="11">3</tspan>CH<tspan baseline-shift="sub" font-size="11">2</tspan>'; }
       else txt(x, y, sym);
     }
     function lonePair(x, y, deg) {
@@ -865,7 +875,8 @@
       bond(dx, dy, hx, dy, 12, 11); atomAt(hx, dy, 'H');
       molecule(p.acc, ax, dy, false);
       if (step >= 1) {
-        txt(dx + 16, dy - 22, DELTA + MINUS, 's22-svg-delta'); txt(hx, dy - 22, DELTA + '+', 's22-svg-delta'); txt(ax + 24, dy - 22, DELTA + MINUS, 's22-svg-delta');
+        var d1 = p.don.dm || [16, -22], d2 = p.acc.dm || [24, -22];
+        txt(dx + d1[0], dy + d1[1], DELTA + MINUS, 's22-svg-delta'); txt(hx, dy - 22, DELTA + '+', 's22-svg-delta'); txt(ax + d2[0], dy + d2[1], DELTA + MINUS, 's22-svg-delta');
       }
       if (step >= 2) lonePair(ax, dy, 180);
       if (step >= 3) {

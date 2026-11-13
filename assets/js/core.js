@@ -891,6 +891,17 @@
     formatters.forEach(function (fn) { fn(root); });
   }
   var formatters = [];
+  // mol.js is optional. Until it loads, remember S1.mol.define() calls, and fetch it the first time a
+  // <… data-s1-mol> placeholder turns up on a page that did not include it.
+  if (!S1.mol) S1.mol = { _presets: {}, define: function (name, spec) { S1.mol._presets[name] = spec; } };
+  var molWanted = false;
+  formatters.push(function (root) {
+    if (molWanted || S1.mol.lewis || !root.querySelector || !root.querySelector('[data-s1-mol],[data-s1-mol-ref]')) return;
+    molWanted = true;
+    var sc = doc.createElement('script');
+    sc.src = util.root() + 'assets/js/mol.js';
+    doc.head.appendChild(sc);
+  });
   /** Register an inline formatter that must run wherever HTML is (re)inserted: page blocks, translations,
    *  quiz stems, options, hints, solutions. Used by mol.js for <span data-s1-mol>. fn(root) must be idempotent. */
   S1.onFormat = function (fn) { formatters.push(fn); if (isReady) fn(doc); };
@@ -1159,7 +1170,8 @@
     var titleId = util.uid('widget-title');
     var head = el('div', { class: 'widget__head' }, [
       el('h4', { class: 'widget__title', id: titleId, tp: titleText }),
-      (node.getAttribute('data-kicker') ? el('span', { class: 'widget__kicker', tp: node.getAttribute('data-kicker') }) : el('span', { class: 'widget__kicker', t: 'Interactive' }))
+      (node.getAttribute('data-kicker') ? el('span', { class: 'widget__kicker', tp: node.getAttribute('data-kicker') })
+        : node.getAttribute('data-kind') === 'figure' ? el('span', { class: 'widget__kicker', t: 'Figure' }) : el('span', { class: 'widget__kicker', t: 'Interactive' }))
     ]);
     var controls = el('div', { class: 'widget__controls' });
     var stage = el('div', { class: 'widget__stage' });

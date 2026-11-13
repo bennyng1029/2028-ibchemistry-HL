@@ -2,7 +2,8 @@
    Structure Lab — question bank for Structure 2.2, Additional HL
    (2.2.11 resonance, 2.2.12 benzene, 2.2.13 expanded octets and five/six
    electron domains, 2.2.14 formal charge, 2.2.15 sigma and pi bonds,
-   2.2.16 hybridization).  Every question is level 'ahl'.
+   2.2.16 hybridization, and the AHL guidance of 2.2.3: coordination bonds
+   in transition element complexes).  Every question is level 'ahl'.
    Schema: docs/AUTHORING.md section 4.  All questions are original.
    Bond lengths for single and double bonds are IB data booklet values
    (section 11).  Values that are not in the booklet (bond lengths in ozone
@@ -523,6 +524,33 @@
       ],
       hints: ['Count the electron domains around carbon. A triple bond is one domain.', 'An sp carbon has two hybrid orbitals and two p orbitals left unmixed. Which make σ bonds and which make π bonds?'],
       solution: '<p>Two domains → sp → linear, 180°. The two sp hybrid orbitals point in opposite directions and make the two σ bonds (to H and to N) by head-on overlap. The two unmixed p orbitals are at right angles to each other. Each overlaps sideways with a p orbital on nitrogen, giving two π bonds. Triple bond = 1 σ + 2 π.</p>'
+    },
+
+    /* ------------------------------------------------------------------ 2.2.3 (AHL guidance) Coordination bonds in complexes */
+    {
+      id: 's2-2h-q040', level: 'ahl', tier: 'foundation', type: 'numeric', marks: 1, syllabus: 'Structure 2.2.3',
+      stem: '<p>In the complex ion ' + c('[Fe(H2O)6]^3+') + ', six water molecules are bonded to one ' + c('Fe^3+') + ' ion.</p><p>How many coordination bonds are there in one complex ion?</p>',
+      answer: 6, tolerance: { abs: 0.01 }, unit: 'coordination bonds',
+      hints: ['A coordination bond is a covalent bond in which both shared electrons come from the same atom.', 'Each water molecule donates one lone pair from its oxygen atom to the metal ion.'],
+      solution: '<p>Each of the six water molecules donates one lone pair to the ' + c('Fe^3+') + ' ion. That makes <b>6</b> coordination bonds. The O–H bonds inside each water molecule are ordinary covalent bonds, so they are not counted.</p>'
+    },
+    {
+      id: 's2-2h-q041', level: 'ahl', tier: 'exam', type: 'mcq', marks: 1, syllabus: 'Structure 2.2.3',
+      stem: '<p>In the complex ion ' + c('[Cu(NH3)4(H2O)2]^2+') + ', each ammonia molecule is bonded to the copper ion. Which describes the bond between one ammonia molecule and the copper ion?</p>',
+      options: [
+        'A coordination bond: both electrons of the shared pair come from the nitrogen atom.',
+        'A coordination bond: both electrons of the shared pair come from the copper ion.',
+        'A covalent bond: one electron comes from the nitrogen atom and one from the copper ion.',
+        'An ionic bond: ammonia has gained electrons from the copper ion.'
+      ],
+      answer: 0,
+      misconception: {
+        1: 'The direction is reversed. The copper ion is positive and accepts the electron pair. The lone pair is on the nitrogen atom of ammonia.',
+        2: 'That describes an ordinary covalent bond. Here the nitrogen atom supplies both electrons, from its lone pair.',
+        3: 'Ammonia is a neutral molecule and stays a molecule in the complex. No electrons are transferred to it. It shares its lone pair with the copper ion.'
+      },
+      hints: ['Draw the Lewis formula of ammonia. What does nitrogen have besides its three bonds?', 'Which particle is short of electrons: the positive metal ion or the ammonia molecule?'],
+      solution: '<p>Nitrogen in ammonia has one lone pair. It donates this pair to the ' + c('Cu^2+') + ' ion. Both electrons of the shared pair come from the same atom (nitrogen), so the bond is a coordination bond. The ion has six coordination bonds: four from ammonia and two from water.</p>'
     }
   ]);
 })();
