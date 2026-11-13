@@ -592,7 +592,7 @@
   {
     id: 's3-2-q024', level: 'sl', tier: 'exam', type: 'short', marks: 2,
     syllabus: 'Structure 3.2.4',
-    stem: '<p>The table shows the boiling points of the first six alkanes.</p>' + table('Boiling points of the straight-chain alkanes', ['Alkane', 'Boiling point / °C'], [['methane, ' + cf('CH4'), MINUS + '162'], ['ethane, ' + cf('C2H6'), MINUS + '89'], ['propane, ' + cf('C3H8'), MINUS + '42'], ['butane, ' + cf('C4H10'), MINUS + '0.5'], ['pentane, ' + cf('C5H12'), '36'], ['hexane, ' + cf('C6H14'), '69']]) + '<p>Explain the trend in boiling point shown by the data.</p>',
+    stem: '<p>The table shows the boiling points of the first six alkanes.</p>' + table('Boiling points of the straight-chain alkanes', ['Alkane', 'Boiling point / °C'], [['methane, ' + cf('CH4'), MINUS + '161'], ['ethane, ' + cf('C2H6'), MINUS + '89'], ['propane, ' + cf('C3H8'), MINUS + '42'], ['butane, ' + cf('C4H10'), MINUS + '0.5'], ['pentane, ' + cf('C5H12'), '36'], ['hexane, ' + cf('C6H14'), '69']]) + '<p>Explain the trend in boiling point shown by the data.</p>',
     answer: '<p>The boiling point increases as the number of carbon atoms increases. Each molecule has more electrons (a greater molar mass and a larger surface area) than the one before, so the London (dispersion) forces between the molecules are stronger. More energy is needed to overcome these forces and separate the molecules.</p>',
     markscheme: [
       'More electrons / greater molar mass / larger surface area (as the chain length increases), so stronger London (dispersion) forces between molecules.',
@@ -666,7 +666,7 @@
     answer: 2,
     misconception: {
       0: 'The chain was numbered from the wrong end. Numbering from the other end gives the lower set of numbers, 2 and 3, instead of 3 and 4.',
-      1: 'The numbers are right, but substituents are listed in alphabetical order: chloro comes before methyl.',
+      1: 'The numbers are right, but IUPAC lists substituents in alphabetical order: chloro comes before methyl. (Markschemes have accepted this order in written answers, but it is not the IUPAC name.)',
       3: 'The longest chain was not used. The chain has five carbon atoms (pentane), not four.'
     },
     hints: ['Find the longest chain. Then number it from the end that gives the substituents the lowest numbers.', 'Write the substituents in alphabetical order.'],
@@ -912,9 +912,23 @@
     markscheme: [
       '(a) Pentan-3-one.',
       '(b) 3-methylbutan-2-one (accept 3-methylbutanone).',
-      '(c) Pentanal (accept 2-methylbutanal, 3-methylbutanal or 2,2-dimethylpropanal).'
+      '(c) Pentanal (accept 2-methylbutanal, 3-methylbutanal or 2,2-dimethylpropanal; accept any other correctly named compound with the formula ' + cf('C5H10O') + ' that is not a ketone).'
     ],
     hints: ['Every answer must have the molecular formula ' + cf('C5H10O') + '.', 'Position isomer: move the C=O along the same chain. Chain isomer: change the branching of the carbon chain.', 'Which other class has the general formula ' + gf('C', 'n', 'H', '2n', 'O', '') + '?']
+  },
+  {
+    id: 's3-2-q050', level: 'sl', tier: 'foundation', type: 'mcq', marks: 1,
+    syllabus: 'Structure 3.2.1',
+    stem: '<p>A drawing of a molecule shows one bond as a solid wedge and one bond as a dashed wedge. The other bonds are plain lines. Which type of formula is this?</p>',
+    options: ['Skeletal formula', 'Stereochemical formula', 'Condensed structural formula', 'Empirical formula'],
+    answer: 1,
+    misconception: {
+      0: 'A skeletal formula uses plain lines only. It shows the carbon chain as a zig-zag and does not show which bonds point towards you or away from you.',
+      2: 'A condensed structural formula is written on one line, such as ' + cf('CH3CH2OH') + '. It has no wedges.',
+      3: 'An empirical formula gives only the simplest whole-number ratio of the atoms. It is not a drawing.'
+    },
+    hints: ['Wedges are used to show three dimensions on flat paper.'],
+    solution: '<p>This is a <strong>stereochemical formula</strong>. It shows the 3-D arrangement of the bonds around an atom.</p><p>A solid wedge is a bond that comes towards you. A dashed wedge is a bond that goes away from you. Plain lines are bonds in the plane of the page.</p><p>At this level you need to recognize this type of formula. You do not have to draw it unless the question tells you to.</p>'
   }
 
   ]);

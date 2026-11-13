@@ -20,6 +20,8 @@
    Boiling points (°C, whole numbers, at 101 kPa) are from the Wikipedia articles of
    the compounds (infobox values, which cite the CRC Handbook / GESTIS), checked
    November 2026. They are real-world data, not data-booklet values.
+   Audit, November 2026: every value re-checked against the PubChem experimental records (CRC / ICSC entries).
+   Changed: methane −162 → −161 (−161.5), pentanoic acid 185 → 186 (186.1), hexanoic acid 206 → 205 (205).
 
    Every user-visible string goes through t("English text", {vars}).
    ========================================================================== */
@@ -872,11 +874,11 @@
 
   /** Boiling points in °C of the straight-chain members (group at C1), by number of carbon atoms. Source: see the file header. */
   var SERIES = [
-    { key: 'alkane', general: 'C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>', first: 1, bp: [-162, -89, -42, 0, 36, 69, 98, 126], mp: [-182, -183, -188, -138, -130, -95, -91, -57], member: function (n) { return 'C' + (n > 1 ? n : '') + 'H' + (2 * n + 2); } },
+    { key: 'alkane', general: 'C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>', first: 1, bp: [-161, -89, -42, 0, 36, 69, 98, 126], mp: [-182, -183, -188, -138, -130, -95, -91, -57], member: function (n) { return 'C' + (n > 1 ? n : '') + 'H' + (2 * n + 2); } },
     { key: 'alkene', general: 'C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>', first: 2, bp: [-104, -48, -6, 30, 63], member: function (n) { return 'C' + n + 'H' + 2 * n; } },
     { key: 'alcohol', general: 'C<sub><i>n</i></sub>H<sub>2<i>n</i>+1</sub>OH', first: 1, bp: [65, 78, 97, 118, 138, 157], member: function (n) { return 'C' + (n > 1 ? n : '') + 'H' + (2 * n + 1) + 'OH'; } },
     { key: 'aldehyde', general: 'C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O', first: 1, bp: [-19, 20, 48, 75, 103, 131], member: function (n) { return n === 1 ? 'HCHO' : 'C' + (n > 2 ? n - 1 : '') + 'H' + (2 * n - 1) + 'CHO'; } },
-    { key: 'carboxylic acid', general: 'C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O<sub>2</sub>', first: 1, bp: [101, 118, 141, 164, 185, 206], member: function (n) { return n === 1 ? 'HCOOH' : 'C' + (n > 2 ? n - 1 : '') + 'H' + (2 * n - 1) + 'COOH'; } },
+    { key: 'carboxylic acid', general: 'C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O<sub>2</sub>', first: 1, bp: [101, 118, 141, 164, 186, 205], member: function (n) { return n === 1 ? 'HCOOH' : 'C' + (n > 2 ? n - 1 : '') + 'H' + (2 * n - 1) + 'COOH'; } },
     { key: 'halogenoalkane', general: 'C<sub><i>n</i></sub>H<sub>2<i>n</i>+1</sub>Cl', first: 1, bp: [-24, 12, 47, 78, 108, 135], member: function (n) { return 'C' + (n > 1 ? n : '') + 'H' + (2 * n + 1) + 'Cl'; } }
   ];
 

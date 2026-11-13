@@ -9,7 +9,7 @@ S1.i18n.register('ja', 's1-4.q', {
     // ── s1-4-q001 · mcq · foundation · SL · Structure 1.4.1 · 1 mark
     "s1-4-q001": {
       // EN: <p>Which statement describes <strong>one mole</strong> of a substance?</p>
-      stem: "<p>物質の<strong>1 モル</strong>を正しく説明している文はどれですか。</p>",
+      stem: "<p>物質の <strong>1 モル</strong>を正しく説明している文はどれですか。</p>",
       options: [
         // EN: It has a mass of 6.02 × 10<sup>23</sup> <span class="unit">g</span>.
         "質量が 6.02 × 10<sup>23</sup> <span class=\"unit\">g</span> である。",
@@ -373,7 +373,7 @@ S1.i18n.register('ja', 's1-4.q', {
     // ── s1-4-q017 · mcq · exam · SL · Structure 1.4.3 · 1 mark
     "s1-4-q017": {
       // EN: <p>What is the mass, in <span class="unit">g</span>, of <strong>one molecule</strong> of water?</p><p><i>M</i>(<span class="chem">H2O</span>) = 18.02 <span class="unit">g mol-1</span></p>
-      stem: "<p>水<strong>1 分子</strong>の質量は何 <span class=\"unit\">g</span> ですか。</p><p><i>M</i>(<span class=\"chem\">H2O</span>) = 18.02 <span class=\"unit\">g mol-1</span></p>",
+      stem: "<p>水 <strong>1 分子</strong>の質量は何 <span class=\"unit\">g</span> ですか。</p><p><i>M</i>(<span class=\"chem\">H2O</span>) = 18.02 <span class=\"unit\">g mol-1</span></p>",
       options: [
         // EN: 1.66 × 10<sup>−24</sup>
         "1.66 × 10<sup>−24</sup>",
@@ -1190,7 +1190,7 @@ S1.i18n.register('ja', 's1-4.q', {
         // EN (option C): You swapped the two products. The 30 <span class="unit">cm3</span> of <span class="chem">CO2</span> gives the carbon and the 40 <span class="unit">cm3</span> of <span class="chem">H2O</span> gives the hydrogen.
         "2": "2 つの生成物を入れ替えてしまいました。30 <span class=\"unit\">cm3</span> の <span class=\"chem\">CO2</span> から炭素の数が、40 <span class=\"unit\">cm3</span> の <span class=\"chem\">H2O</span> から水素の数がわかります。",
         // EN (option D): You used the volumes as numbers of atoms. Divide by the 10 <span class="unit">cm3</span> of hydrocarbon first, to find how many molecules of each product form from <em>one</em> molecule.
-        "3": "体積を、そのまま原子の数として使いました。まず、炭化水素の 10 <span class=\"unit\">cm3</span> でわりましょう。すると、炭化水素<em>1 分子</em>から各生成物が何分子できるかがわかります。",
+        "3": "体積を、そのまま原子の数として使いました。まず、炭化水素の 10 <span class=\"unit\">cm3</span> でわりましょう。すると、炭化水素 <em>1 分子</em>から各生成物が何分子できるかがわかります。",
       },
     },
 
