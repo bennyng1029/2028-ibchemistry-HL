@@ -1132,6 +1132,36 @@
       'The electron is removed from the same main energy level (or sublevel), so shielding is the same/similar, and the attraction to the nucleus is stronger (accept: smaller atomic radius).'
     ],
     hints: ['What is different about the two nuclei?', 'Are the outer electrons in the same main energy level? What does that tell you about shielding?', 'Do not argue from how close chlorine is to a full sublevel. Compare the attraction for the electron that is removed.']
+  },
+  {
+    id: 's1-3-q064', level: 'sl', tier: 'foundation', type: 'mcq', marks: 1,
+    syllabus: 'Structure 1.3.2',
+    stem: '<p>The four lines in the <strong>visible</strong> part of the hydrogen emission spectrum are produced when electrons fall to which energy level?</p>',
+    options: ['n = 1', 'n = 2', 'n = 3', 'n = ∞'],
+    answer: 1,
+    misconception: {
+      0: 'Falls to n = 1 release the most energy. Those lines are in the ultraviolet, which you cannot see.',
+      2: 'Falls to n = 3 release little energy. Those lines are in the infrared, which you cannot see.',
+      3: 'Emission happens when an electron falls to a <em>lower</em> level. n = ∞ is the top, where the levels converge.'
+    },
+    hints: ['Three sets of lines: falls to n = 1, to n = 2 and to n = 3.', 'In order of decreasing energy the regions are ultraviolet, visible, infrared.'],
+    solution: '<p>Visible lines come from electrons falling to <strong>n = 2</strong> (from n = 3, 4, 5 and 6). Falls to n = 1 give ultraviolet lines and falls to n = 3 give infrared lines.</p>'
+  },
+  {
+    id: 's1-3-q065', level: 'ahl', tier: 'foundation', type: 'mcq', marks: 1,
+    syllabus: 'Structure 1.3.7',
+    stem: '<p>The table shows the first four successive ionization energies of an element.</p>' +
+      ieTable('Successive ionization energies / kJ mol<sup>−1</sup>', ['', '1st', '2nd', '3rd', '4th'], [['IE', '496', '4562', '6910', '9543']]) +
+      '<p>In which group of the periodic table is the element?</p>',
+    options: ['Group 1', 'Group 2', 'Group 13', 'Group 14'],
+    answer: 0,
+    misconception: {
+      1: 'A group 2 element has two outer electrons, so its large jump comes between the 2nd and 3rd values. Here 6910 is only about 1.5 times 4562.',
+      2: 'A group 13 element has three outer electrons, so its large jump comes between the 3rd and 4th values. Here 9543 is only about 1.4 times 6910.',
+      3: 'This counts all four values given. Look for the large jump and count only the electrons removed before it.'
+    },
+    hints: ['Compare each value with the one before it. Where does it become many times larger?', 'The number of electrons removed <em>before</em> the large jump is the number of outer electrons.'],
+    solution: math(['1st → 2nd: 496 → 4562 &nbsp; (about 9 times: the large jump)', '2nd → 3rd: 4562 → 6910 &nbsp; (about 1.5 times)', '3rd → 4th: 6910 → 9543 &nbsp; (about 1.4 times)']) + '<p>Only one electron is removed before the large jump, so the atom has one outer electron. The element is in <strong>group 1</strong>. (These are the values for sodium.)</p>'
   }
 
   ]);
