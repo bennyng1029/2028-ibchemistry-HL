@@ -1,7 +1,7 @@
 /* ==========================================================================
    Question bank: Structure 2.4 — From models to materials
-   30 original questions. q001–q022 are SL (2.4.1–2.4.5); q023–q030 are
-   Additional HL (2.4.6, condensation polymers). Schema: docs/AUTHORING.md.
+   37 original questions. q001–q022 and q031–q036 are SL (2.4.1–2.4.5); q023–q030 and
+   q037 are Additional HL (2.4.6, condensation polymers). Schema: docs/AUTHORING.md.
    Electronegativity values are from the data booklet (2025), section 9, and are
    given in every stem. The triangle outline follows data booklet section 17
    (same corner coordinates as assets/js/widgets-s2-4.js). Every number is
@@ -557,6 +557,132 @@
       },
       hints: ['The –OH end of one molecule reacts with the –COOH end of the next molecule.', 'Remove H from the –OH end and –OH from the –COOH end.'],
       solution: '<p>Each molecule loses an H from its –OH group and an –OH from its –COOH group, which together make one molecule of water. What remains is ' + f('–O–(CH2)5–CO–') + '. The ester link forms where one unit joins the next.</p>'
+    },
+
+    /* =====================================================================
+       Added in the audit: coverage of 2.4.1, 2.4.3, 2.4.4 and 2.4.6
+       ===================================================================== */
+    {
+      id: 's2-4-q031', topic: 's2-4', level: 'sl', tier: 'foundation', type: 'mcq', marks: 1,
+      syllabus: 'Structure 2.4.1',
+      stem: '<p>Chemists describe bonding as a continuum between the ionic, covalent and metallic models. What does this mean?</p>',
+      options: [
+        'Every substance has exactly one of the three types of bonding.',
+        'Bonding changes gradually from one type to another, and many substances lie between the models.',
+        'Every substance has equal amounts of the three types of bonding.',
+        'The type of bonding in a substance changes when the substance is heated.'
+      ],
+      answer: 1,
+      misconception: {
+        0: 'This describes three separate boxes. A continuum has no sharp dividing lines: a polar covalent bond, for example, is covalent with some ionic character.',
+        2: 'The amounts are not equal. A substance near a corner of the bonding triangle is described well by one model. A substance between the corners has character of more than one model.',
+        3: 'A continuum is not about one substance changing. It is about the gradual change in bonding from one substance to the next.'
+      },
+      hints: ['Think of the bonding triangle. Are substances found only at its three corners?'],
+      solution: '<p>A continuum is a smooth range with no sharp dividing lines. The three models are the extremes. The bonding in most substances lies somewhere between them, and the bonding triangle shows where.</p>'
+    },
+    {
+      id: 's2-4-q032', topic: 's2-4', level: 'sl', tier: 'exam', type: 'short', marks: 2,
+      syllabus: 'Structure 2.4.1',
+      stem: '<p>Solid copper conducts electricity. Solid sodium chloride does not. Use bonding models to explain this difference.</p>',
+      answer: '<p>Copper has metallic bonding: a lattice of cations with delocalized electrons. The delocalized electrons are free to move through the solid, so they carry charge.</p><p>Sodium chloride has ionic bonding. In the solid, the ions are held in fixed positions in the lattice, so no charged particles are free to move.</p>',
+      markscheme: [
+        'Copper: delocalized electrons that are free to move / mobile (through the lattice).',
+        'Sodium chloride: ions are in fixed positions / cannot move in the solid (lattice). Do not accept “no free electrons” alone.'
+      ],
+      hints: ['To conduct electricity, a substance needs charged particles that can move.', 'Name the charged particles in each solid. Can they move?'],
+      solution: '<p>Name the particles and say whether they can move. In copper the delocalized electrons move. In solid sodium chloride the charged particles are ions, and they are fixed in the lattice. “Sodium chloride has no free electrons” does not earn the mark, because an ionic compound conducts through moving ions when it is molten.</p>'
+    },
+    {
+      id: 's2-4-q033', topic: 's2-4', level: 'sl', tier: 'foundation', type: 'mcq', marks: 1,
+      syllabus: 'Structure 2.4.3',
+      stem: '<p>Bronze is made by adding tin to copper. Bronze is harder than pure copper. Which statement explains this?</p>',
+      options: [
+        'The tin atoms form strong covalent bonds with the copper atoms.',
+        'The tin atoms are a different size, so the layers cannot slide over each other as easily.',
+        'The tin atoms remove the delocalized electrons from the copper.',
+        'The tin atoms and the copper atoms form an ionic lattice.'
+      ],
+      answer: 1,
+      misconception: {
+        0: 'The bonding in an alloy is still metallic. The alloy is harder because its layers are disrupted, not because new covalent bonds form.',
+        2: 'The delocalized electrons stay. Tin is a metal and adds its own outer electrons to them.',
+        3: 'Both elements are metals, and neither forms negative ions here. The bonding stays metallic.'
+      },
+      hints: ['Why is a pure metal malleable? What must the layers be able to do?'],
+      solution: '<p>In pure copper the cations are all the same size and form regular layers, which slide over each other. Tin atoms are a different size. They disrupt the regular layers, so the layers slide less easily and the alloy is harder.</p>'
+    },
+    {
+      id: 's2-4-q034', topic: 's2-4', level: 'sl', tier: 'foundation', type: 'mcq', marks: 1,
+      syllabus: 'Structure 2.4.4',
+      stem: '<p>Polymers can be natural or synthetic. Which row is correct?</p>' +
+        '<div class="table-scroll"><table class="data"><thead><tr><th scope="col"></th><th scope="col">Natural polymer</th><th scope="col">Synthetic polymer</th></tr></thead><tbody>' +
+        '<tr><th scope="row">A</th><td>poly(ethene)</td><td>starch</td></tr><tr><th scope="row">B</th><td>protein</td><td>poly(ethene)</td></tr>' +
+        '<tr><th scope="row">C</th><td>water</td><td>protein</td></tr><tr><th scope="row">D</th><td>cellulose</td><td>ethene</td></tr></tbody></table></div>',
+      options: ['A', 'B', 'C', 'D'],
+      answer: 1,
+      misconception: {
+        0: 'These are the wrong way round. Starch is made by plants, so it is natural. Poly(ethene) is made in factories, so it is synthetic.',
+        2: 'Water is a small molecule, not a polymer. Protein is a natural polymer, made by living things.',
+        3: 'Cellulose is a natural polymer, but ethene is a small molecule. Ethene is the monomer that makes the polymer poly(ethene).'
+      },
+      hints: ['Natural polymers are made by living things. Synthetic polymers are made in factories.', 'A polymer is a large molecule. Check that both substances in the row are polymers.'],
+      solution: '<p>Proteins are natural polymers: living things make them from amino acids. Poly(ethene) is a synthetic polymer, a plastic made from ethene. Row B is correct.</p>'
+    },
+    {
+      id: 's2-4-q035', topic: 's2-4', level: 'sl', tier: 'exam', type: 'mcq', marks: 1,
+      syllabus: 'Structure 2.4.4',
+      stem: '<p>Many plastics soften when they are warmed, so they can be moulded into new shapes. Which statement explains this?</p>',
+      options: [
+        'The covalent bonds inside the polymer chains break.',
+        'The weak intermolecular forces between the polymer chains are overcome, so the chains can slide past each other.',
+        'The delocalized electrons in the plastic gain energy and move faster.',
+        'The ions in the plastic become free to move.'
+      ],
+      answer: 1,
+      misconception: {
+        0: 'The covalent bonds in the chains are strong and do not break on gentle heating. If they broke, the plastic would decompose into new substances.',
+        2: 'A plastic has no delocalized electrons. All its outer electrons are held in covalent bonds, which is why it is an electrical insulator.',
+        3: 'A plastic is made of covalently bonded molecules. It contains no ions.'
+      },
+      hints: ['There are two kinds of attraction in a plastic: inside each chain, and between chains. Which is weaker?'],
+      solution: '<p>Inside each chain the atoms are joined by strong covalent bonds. Between the chains there are only weak intermolecular forces. Gentle heating overcomes these weak forces, so the chains slide past each other and the plastic softens. No covalent bonds break.</p>'
+    },
+    {
+      id: 's2-4-q036', topic: 's2-4', level: 'sl', tier: 'exam', type: 'multi', marks: 2,
+      syllabus: 'Structure 2.4.4',
+      stem: '<p>Which statements about plastics are correct? Select all that apply.</p>',
+      options: [
+        'A plastic is made of very long molecules.',
+        'Plastics are electrical insulators because all their outer electrons are held in covalent bonds.',
+        'Plastics are unreactive because the forces between the chains are weak.',
+        'The atoms inside each polymer chain are joined by strong covalent bonds.',
+        'Most plastics are quickly broken down by microorganisms.'
+      ],
+      answer: [0, 1, 3],
+      misconception: {
+        2: 'The weak forces between chains explain physical properties, such as softening on heating. Plastics are unreactive because the covalent bonds inside the chains are strong.',
+        4: 'Most plastics are non-biodegradable. Microorganisms cannot easily break the strong covalent bonds in the chains, so plastic waste stays in the environment for a very long time.'
+      },
+      hints: ['Separate the two ideas: strong covalent bonds inside a chain, and weak forces between chains.', 'A chemical property depends on breaking bonds inside the chains.'],
+      solution: '<p>Plastics are polymers: very long molecules with strong covalent bonds inside each chain. There are no delocalized electrons or ions, so plastics do not conduct electricity. The strong covalent bonds make plastics unreactive and, for most plastics, non-biodegradable.</p>'
+    },
+    {
+      id: 's2-4-q037', topic: 's2-4', level: 'ahl', tier: 'foundation', type: 'mcq', marks: 1,
+      syllabus: 'Structure 2.4.6',
+      stem: '<p>A diamine reacts with a dicarboxylic acid to form a condensation polymer. Which row gives the type of polymer and the link between the monomer units?</p>' +
+        '<div class="table-scroll"><table class="data"><thead><tr><th scope="col"></th><th scope="col">Type of polymer</th><th scope="col">Link</th></tr></thead><tbody>' +
+        '<tr><th scope="row">A</th><td>polyester</td><td>–CO–O–</td></tr><tr><th scope="row">B</th><td>polyamide</td><td>–CO–O–</td></tr>' +
+        '<tr><th scope="row">C</th><td>polyamide</td><td>–CO–NH–</td></tr><tr><th scope="row">D</th><td>polyester</td><td>–CO–NH–</td></tr></tbody></table></div>',
+      options: ['A', 'B', 'C', 'D'],
+      answer: 2,
+      misconception: {
+        0: 'A polyester forms from a diol and a dicarboxylic acid. Here the first monomer is a diamine, with –NH<sub>2</sub> groups, so the link must contain nitrogen.',
+        1: 'The name is right, but –CO–O– is an ester link. An amide link contains nitrogen: –CO–NH–.',
+        3: 'The link is right, but a polymer with –CO–NH– links is called a polyamide.'
+      },
+      hints: ['A diamine has two –NH<sub>2</sub> groups. Which atom of the diamine joins to the C=O carbon?'],
+      solution: '<p>An –NH<sub>2</sub> group reacts with a –COOH group. Water is released and an amide link, –CO–NH–, forms. A polymer with many amide links is a polyamide.</p>'
     }
   ]);
 })();
