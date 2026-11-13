@@ -1006,7 +1006,7 @@
    */
   function drawGroups(host, m, o) {
     o = o || {};
-    var S = o.scale || 34, L = layoutGrid(m, { explicit: false }), pad = 26;
+    var S = o.scale || 34, L = layoutGrid(m, { explicit: false, path: o.path }), pad = 26;
     var xs = L.atoms.map(function (a) { return a.x * S; }), ys = L.atoms.map(function (a) { return a.y * S; });
     var x0 = Math.min.apply(null, xs) - pad - 8, x1 = Math.max.apply(null, xs) + pad + 8, y0 = Math.min.apply(null, ys) - pad, y1 = Math.max.apply(null, ys) + pad;
     host.innerHTML = ''; host.setAttribute('data-i18n', 'off'); host.classList.add('mol');
@@ -1092,7 +1092,7 @@
     }
     try { m = molFrom(host.getAttribute('data-s32-mol')); } catch (err) { return; }
     if (view === 'full') drawFull(host, m, { label: label, scale: scale || 32 });
-    else if (view === 'groups') drawGroups(host, m, { label: label, scale: scale || 32 });
+    else if (view === 'groups') drawGroups(host, m, { label: label, scale: scale || 32, path: host.getAttribute('data-path') ? host.getAttribute('data-path').split(',').map(Number) : null });
     else if (view === '3d') { var g = build3d(m); S1.mol.viewer3d(host, { atoms: g.atoms, bonds: g.bonds, angle: g.angle, height: Number(host.getAttribute('data-height')) || 220, label: label || t('3-D model') }); }
     else {
       var numbers = null, r;
