@@ -13,17 +13,29 @@
     return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
 
-  /* ---------- Constants (IB Chemistry data booklet, first assessment 2025) */
+  /* ---------- Constants (IB Chemistry data booklet, first assessment 2025, sections 2 and 4)
+     Every value is the one printed in the booklet (version 1.1; unofficial mirror, verified 2026-11-13).
+     STP_p_Pa and SATP_p_Pa are the booklet's 100 kPa written in Pa. */
   var constants = {
     NA: 6.02e23,        // Avogadro constant / mol^-1
     R: 8.31,            // gas constant / J K^-1 mol^-1
-    Vm_STP: 22.7,       // molar volume of an ideal gas at STP / dm^3 mol^-1
+    Vm_STP: 22.7,       // molar volume of an ideal gas at STP / dm^3 mol^-1  (= 2.27e-2 m^3 mol^-1)
     STP_T: 273.15,      // STP temperature / K
     STP_p: 100,         // STP pressure / kPa
     STP_p_Pa: 1.00e5,   // STP pressure / Pa
+    SATP_T: 298.15,     // SATP temperature / K
+    SATP_p: 100,        // SATP pressure / kPa
+    SATP_p_Pa: 1.00e5,  // SATP pressure / Pa
     h: 6.63e-34,        // Planck constant / J s
     c: 3.00e8,          // speed of light in vacuum / m s^-1
-    zeroC: 273.15       // 0 °C in K
+    e: 1.602177e-19,    // elementary charge / C
+    me: 9.109384e-31,   // electron rest mass / kg
+    mp: 1.672622e-27,   // proton rest mass / kg
+    mn: 1.674927e-27,   // neutron rest mass / kg
+    cw: 4.18,           // specific heat capacity of water / J g^-1 K^-1  (= kJ kg^-1 K^-1)
+    Kw: 1.00e-14,       // ionic product constant for water at 298.15 K / mol^2 dm^-6
+    F: 9.65e4,          // Faraday constant / C mol^-1
+    zeroC: 273.15       // 0 °C in K: temperature (K) = temperature (°C) + 273.15
   };
   // Display metadata for the same constants (symbolHtml, valueHtml, unit string for S1.chem.unit).
   var constantInfo = {
@@ -33,12 +45,24 @@
     STP_T: { name: 'STP temperature', symbolHtml: '<i>T</i>', valueHtml: '273.15', unit: 'K' },
     STP_p: { name: 'STP pressure', symbolHtml: '<i>p</i>', valueHtml: '100', unit: 'kPa' },
     h: { name: 'Planck constant', symbolHtml: '<i>h</i>', valueHtml: '6.63 ' + TIMES + ' 10<sup>' + MINUS + '34</sup>', unit: 'J s' },
-    c: { name: 'Speed of light in vacuum', symbolHtml: '<i>c</i>', valueHtml: '3.00 ' + TIMES + ' 10<sup>8</sup>', unit: 'm s-1' }
+    c: { name: 'Speed of light in vacuum', symbolHtml: '<i>c</i>', valueHtml: '3.00 ' + TIMES + ' 10<sup>8</sup>', unit: 'm s-1' },
+    SATP_T: { name: 'SATP temperature', symbolHtml: '<i>T</i>', valueHtml: '298.15', unit: 'K' },
+    SATP_p: { name: 'SATP pressure', symbolHtml: '<i>p</i>', valueHtml: '100', unit: 'kPa' },
+    e: { name: 'Elementary charge', symbolHtml: '<i>e</i>', valueHtml: '1.602177 ' + TIMES + ' 10<sup>' + MINUS + '19</sup>', unit: 'C' },
+    me: { name: 'Electron rest mass', symbolHtml: '<i>m</i><sub>e</sub>', valueHtml: '9.109384 ' + TIMES + ' 10<sup>' + MINUS + '31</sup>', unit: 'kg' },
+    mp: { name: 'Proton rest mass', symbolHtml: '<i>m</i><sub>p</sub>', valueHtml: '1.672622 ' + TIMES + ' 10<sup>' + MINUS + '27</sup>', unit: 'kg' },
+    mn: { name: 'Neutron rest mass', symbolHtml: '<i>m</i><sub>n</sub>', valueHtml: '1.674927 ' + TIMES + ' 10<sup>' + MINUS + '27</sup>', unit: 'kg' },
+    cw: { name: 'Specific heat capacity of water', symbolHtml: '<i>c</i><sub>w</sub>', valueHtml: '4.18', unit: 'J g-1 K-1' },
+    Kw: { name: 'Ionic product constant for water at 298.15 K', symbolHtml: '<i>K</i><sub>w</sub>', valueHtml: '1.00 ' + TIMES + ' 10<sup>' + MINUS + '14</sup>', unit: 'mol2 dm-6' },
+    F: { name: 'Faraday constant', symbolHtml: '<i>F</i>', valueHtml: '9.65 ' + TIMES + ' 10<sup>4</sup>', unit: 'C mol-1' }
   };
 
   /* ---------- Periodic table data, Z = 1–118 ------------------------------
-     ar: relative atomic mass to 2 d.p. (null for elements with no stable isotopes; massNumber is then the
-         mass number of the longest-lived isotope, as periodic tables print it in brackets, where well established).
+     symbol, name, ar and massNumber are the values printed in the IB Chemistry data booklet, first assessment 2025,
+     sections 6 and 7 (version 1.1; unofficial mirror, verified 2026-11-13).  The booklet prints Se 78.96 and
+     Mo 95.96; current IUPAC values round to 78.97 and 95.95.
+     ar: relative atomic mass to 2 d.p.; null where the booklet prints a mass number in brackets instead,
+         and massNumber is then that bracketed number.
      group: 1–18 (null for the f-block rows); La and Ac are placed in group 3, as in the IB data booklet layout.
      block: 's' | 'p' | 'd' | 'f'.   category: 'metal' | 'metalloid' | 'non-metal' | 'unknown' (Z >= 113).   */
   var elements = [
@@ -75,7 +99,7 @@
     { z: 31, symbol: 'Ga', name: 'gallium', ar: 69.72, group: 13, period: 4, block: 'p', category: 'metal' },
     { z: 32, symbol: 'Ge', name: 'germanium', ar: 72.63, group: 14, period: 4, block: 'p', category: 'metalloid' },
     { z: 33, symbol: 'As', name: 'arsenic', ar: 74.92, group: 15, period: 4, block: 'p', category: 'metalloid' },
-    { z: 34, symbol: 'Se', name: 'selenium', ar: 78.97, group: 16, period: 4, block: 'p', category: 'non-metal' },
+    { z: 34, symbol: 'Se', name: 'selenium', ar: 78.96, group: 16, period: 4, block: 'p', category: 'non-metal' },
     { z: 35, symbol: 'Br', name: 'bromine', ar: 79.90, group: 17, period: 4, block: 'p', category: 'non-metal' },
     { z: 36, symbol: 'Kr', name: 'krypton', ar: 83.80, group: 18, period: 4, block: 'p', category: 'non-metal' },
     { z: 37, symbol: 'Rb', name: 'rubidium', ar: 85.47, group: 1, period: 5, block: 's', category: 'metal' },
@@ -83,7 +107,7 @@
     { z: 39, symbol: 'Y', name: 'yttrium', ar: 88.91, group: 3, period: 5, block: 'd', category: 'metal' },
     { z: 40, symbol: 'Zr', name: 'zirconium', ar: 91.22, group: 4, period: 5, block: 'd', category: 'metal' },
     { z: 41, symbol: 'Nb', name: 'niobium', ar: 92.91, group: 5, period: 5, block: 'd', category: 'metal' },
-    { z: 42, symbol: 'Mo', name: 'molybdenum', ar: 95.95, group: 6, period: 5, block: 'd', category: 'metal' },
+    { z: 42, symbol: 'Mo', name: 'molybdenum', ar: 95.96, group: 6, period: 5, block: 'd', category: 'metal' },
     { z: 43, symbol: 'Tc', name: 'technetium', ar: null, group: 7, period: 5, block: 'd', category: 'metal', massNumber: 98 },
     { z: 44, symbol: 'Ru', name: 'ruthenium', ar: 101.07, group: 8, period: 5, block: 'd', category: 'metal' },
     { z: 45, symbol: 'Rh', name: 'rhodium', ar: 102.91, group: 9, period: 5, block: 'd', category: 'metal' },
@@ -144,22 +168,22 @@
     { z: 100, symbol: 'Fm', name: 'fermium', ar: null, group: null, period: 7, block: 'f', category: 'metal', massNumber: 257 },
     { z: 101, symbol: 'Md', name: 'mendelevium', ar: null, group: null, period: 7, block: 'f', category: 'metal', massNumber: 258 },
     { z: 102, symbol: 'No', name: 'nobelium', ar: null, group: null, period: 7, block: 'f', category: 'metal', massNumber: 259 },
-    { z: 103, symbol: 'Lr', name: 'lawrencium', ar: null, group: null, period: 7, block: 'f', category: 'metal' },
-    { z: 104, symbol: 'Rf', name: 'rutherfordium', ar: null, group: 4, period: 7, block: 'd', category: 'metal' },
-    { z: 105, symbol: 'Db', name: 'dubnium', ar: null, group: 5, period: 7, block: 'd', category: 'metal' },
-    { z: 106, symbol: 'Sg', name: 'seaborgium', ar: null, group: 6, period: 7, block: 'd', category: 'metal' },
-    { z: 107, symbol: 'Bh', name: 'bohrium', ar: null, group: 7, period: 7, block: 'd', category: 'metal' },
-    { z: 108, symbol: 'Hs', name: 'hassium', ar: null, group: 8, period: 7, block: 'd', category: 'metal' },
-    { z: 109, symbol: 'Mt', name: 'meitnerium', ar: null, group: 9, period: 7, block: 'd', category: 'metal' },
-    { z: 110, symbol: 'Ds', name: 'darmstadtium', ar: null, group: 10, period: 7, block: 'd', category: 'metal' },
-    { z: 111, symbol: 'Rg', name: 'roentgenium', ar: null, group: 11, period: 7, block: 'd', category: 'metal' },
-    { z: 112, symbol: 'Cn', name: 'copernicium', ar: null, group: 12, period: 7, block: 'd', category: 'metal' },
-    { z: 113, symbol: 'Nh', name: 'nihonium', ar: null, group: 13, period: 7, block: 'p', category: 'unknown' },
-    { z: 114, symbol: 'Fl', name: 'flerovium', ar: null, group: 14, period: 7, block: 'p', category: 'unknown' },
-    { z: 115, symbol: 'Mc', name: 'moscovium', ar: null, group: 15, period: 7, block: 'p', category: 'unknown' },
-    { z: 116, symbol: 'Lv', name: 'livermorium', ar: null, group: 16, period: 7, block: 'p', category: 'unknown' },
-    { z: 117, symbol: 'Ts', name: 'tennessine', ar: null, group: 17, period: 7, block: 'p', category: 'unknown' },
-    { z: 118, symbol: 'Og', name: 'oganesson', ar: null, group: 18, period: 7, block: 'p', category: 'unknown' }
+    { z: 103, symbol: 'Lr', name: 'lawrencium', ar: null, group: null, period: 7, block: 'f', category: 'metal', massNumber: 262 },
+    { z: 104, symbol: 'Rf', name: 'rutherfordium', ar: null, group: 4, period: 7, block: 'd', category: 'metal', massNumber: 267 },
+    { z: 105, symbol: 'Db', name: 'dubnium', ar: null, group: 5, period: 7, block: 'd', category: 'metal', massNumber: 268 },
+    { z: 106, symbol: 'Sg', name: 'seaborgium', ar: null, group: 6, period: 7, block: 'd', category: 'metal', massNumber: 269 },
+    { z: 107, symbol: 'Bh', name: 'bohrium', ar: null, group: 7, period: 7, block: 'd', category: 'metal', massNumber: 270 },
+    { z: 108, symbol: 'Hs', name: 'hassium', ar: null, group: 8, period: 7, block: 'd', category: 'metal', massNumber: 269 },
+    { z: 109, symbol: 'Mt', name: 'meitnerium', ar: null, group: 9, period: 7, block: 'd', category: 'metal', massNumber: 278 },
+    { z: 110, symbol: 'Ds', name: 'darmstadtium', ar: null, group: 10, period: 7, block: 'd', category: 'metal', massNumber: 281 },
+    { z: 111, symbol: 'Rg', name: 'roentgenium', ar: null, group: 11, period: 7, block: 'd', category: 'metal', massNumber: 281 },
+    { z: 112, symbol: 'Cn', name: 'copernicium', ar: null, group: 12, period: 7, block: 'd', category: 'metal', massNumber: 285 },
+    { z: 113, symbol: 'Nh', name: 'nihonium', ar: null, group: 13, period: 7, block: 'p', category: 'unknown', massNumber: 286 },
+    { z: 114, symbol: 'Fl', name: 'flerovium', ar: null, group: 14, period: 7, block: 'p', category: 'unknown', massNumber: 289 },
+    { z: 115, symbol: 'Mc', name: 'moscovium', ar: null, group: 15, period: 7, block: 'p', category: 'unknown', massNumber: 288 },
+    { z: 116, symbol: 'Lv', name: 'livermorium', ar: null, group: 16, period: 7, block: 'p', category: 'unknown', massNumber: 293 },
+    { z: 117, symbol: 'Ts', name: 'tennessine', ar: null, group: 17, period: 7, block: 'p', category: 'unknown', massNumber: 294 },
+    { z: 118, symbol: 'Og', name: 'oganesson', ar: null, group: 18, period: 7, block: 'p', category: 'unknown', massNumber: 294 }
   ];
   var bySymbol = {};
   elements.forEach(function (e) { bySymbol[e.symbol] = e; });

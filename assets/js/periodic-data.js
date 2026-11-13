@@ -45,7 +45,7 @@
            accepted exceptions listed in EXCEPTIONS (Cr, Cu, Nb, Mo, Ru, Rh, Pd, Ag,
            La, Ce, Gd, Pt, Au, Ac, Th, Pa, U, Np, Cm, Lr).  NOT from the booklet,
            which has no configurations.  Z = 1–36 checked against a hand-written
-           list and Z = 1–108, 112–118 against an independent periodic-table
+           list and Z = 1–109, 112–118 against an independent periodic-table
            data set on 2026-11-13; Ds and Rg are unmeasured and follow plain Aufbau.
 
    Not from the booklet (S1.periodic.nonBooklet):
