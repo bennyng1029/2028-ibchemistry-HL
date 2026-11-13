@@ -463,6 +463,14 @@
       for (i = 0; i < 3; i++) add(ex.o[i], [sb * Math.cos(i * 120 * rad), -cb, sb * Math.sin(i * 120 * rad)], ord[i]);
       lone.push({ on: 0, dir: [0, 1, 0] }); angle = [1, 0, 2];
     }
+    // Turn the model so that no atom or lone pair starts hidden behind the central atom in the viewer's first view.
+    var ry = (ex.d === 4 && ex.o.length >= 3 ? 45 : 0) * rad, rx = (ex.d === 4 && ex.lp === 2 ? -20 : 0) * rad;
+    function turn(v) {
+      var y1 = v[1] * Math.cos(rx) - v[2] * Math.sin(rx), z1 = v[1] * Math.sin(rx) + v[2] * Math.cos(rx);
+      return [v[0] * Math.cos(ry) + z1 * Math.sin(ry), y1, -v[0] * Math.sin(ry) + z1 * Math.cos(ry)];
+    }
+    atoms.forEach(function (a) { var v = turn([a.x, a.y, a.z]); a.x = v[0]; a.y = v[1]; a.z = v[2]; });
+    lone.forEach(function (l) { l.dir = turn(l.dir); });
     return { atoms: atoms, bonds: bonds, lonePairs: lone, angle: angle, angleText: measured(ex), height: 280,
       label: t('3-D model of {formula}', { formula: plainFormula(ex.f) }) };
   }
