@@ -695,6 +695,7 @@
         // reference: another neighbour of the parent that already has a position (a ring atom if the parent is in a ring)
         var refs = m.nb[p].map(function (x) { return x.j; }).filter(function (j) { return j !== i && P[j]; });
         var ringRef = refs.filter(function (j) { return m.ring[j] && m.ring[p]; });
+        refs.sort(function (a, b) { return order(m, p, a) - order(m, p, b); });      // prefer a single-bonded neighbour (so O–H and O–C of an acid or ester sit on the C=O side)
         var ref = ringRef.length ? P[ringRef[0]] : refs.length ? P[refs[0]] : (m.hpos && m.hpos[p] && m.hpos[p][0]) || null;
         var rv = ref ? sub3(ref, P[p]) : [0.3, 0.9, 0.2];
         var perp = v3(rv, back, -dot3(rv, back));

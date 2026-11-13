@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2.1 The ionic model | Structure Lab</title>
+<meta name="description" content="IB Chemistry Structure 2.1: how ions form, the ionic bond, formulas and names of ionic compounds, the ionic lattice, properties of ionic compounds and lattice enthalpy.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for topic 2.1. Tokens only. */
+.widget__controls .control { max-width: 100%; }
+.widget__controls .select { max-width: 100%; min-width: 0; }
+
+.stepper { display: grid; gap: 0.25rem; }
+.stepper__row { display: flex; align-items: center; gap: 0.35rem; }
+.stepper__btn { min-width: 2.5rem; font-family: var(--font-mono); font-size: 1.05rem; }
+.stepper__value { min-width: 2rem; text-align: center; font-family: var(--font-mono); font-size: 1.15rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+
+.challenge-bar { margin: 0 0 0.75rem; padding: 0.6rem 0.8rem; border-left: 4px solid var(--accent); background: var(--accent-soft); font-size: 1.1rem; }
+.challenge-bar__label { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent-ink); margin-right: 0.4rem; }
+.challenge-bar .small { display: block; margin-top: 0.2rem; }
+
+/* ion maker */
+.ionmaker { display: grid; gap: 0.6rem; }
+.ionmaker__label { font-weight: 700; }
+.ionmaker__subs { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.ionmaker__arrow { font-weight: 700; color: var(--accent-ink); padding: 0.15rem 0; }
+.ionmaker__arrow::before { content: "\2193\00a0"; }
+.ionmaker__note { color: var(--ink-2); font-size: 0.95rem; max-width: 40rem; }
+.ionmaker__key { display: flex; flex-wrap: wrap; gap: 0.3rem 1.25rem; font-size: 0.88rem; color: var(--ink-2); }
+.ionmaker__key span { display: inline-flex; align-items: center; gap: 0.4rem; }
+.sub { display: inline-flex; flex-direction: column; align-items: center; gap: 0.3rem; padding: 0.3rem 0.45rem 0.4rem; min-width: 2.5rem; border: 1px solid var(--line-strong); background: var(--surface); }
+.sub--outer { border: 3px solid var(--ink); }
+.sub__name { font-family: var(--font-mono); font-size: 0.82rem; font-weight: 600; }
+.sub__dots { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.28rem; max-width: 5.2rem; min-height: 0.75rem; }
+.e { display: inline-block; box-sizing: border-box; width: 0.75rem; height: 0.75rem; border-radius: 50%; background: var(--ink); }
+.e--lost { background: transparent; border: 1.5px dashed var(--ink-2); }
+.e--gained { background: var(--accent); outline: 1.5px solid var(--accent); outline-offset: 1.5px; }
+
+/* formula builder */
+.tiles { display: grid; gap: 0.75rem; margin: 0.25rem 0 0.5rem; }
+.tiles__cap { font-size: 0.88rem; margin-bottom: 0.25rem; }
+.tiles__track { display: flex; overflow-x: auto; padding-bottom: 2px; }
+.ctile { flex: none; box-sizing: border-box; width: calc(var(--q) * clamp(2.7rem, 100% / var(--n), 4.2rem)); display: grid; justify-items: center; gap: 0.1rem; padding: 0.35rem 0.1rem; border: 1.5px solid var(--ink); margin-right: -1.5px; }
+.ctile--pos { background: var(--accent-soft); }
+.ctile--neg { background: var(--surface-2); }
+.ctile__f { font-weight: 700; }
+.ctile__u { font-family: var(--font-mono); font-size: 0.9rem; white-space: nowrap; }
+
+/* lattice enthalpy comparer */
+.predict { margin-top: 0.75rem; display: grid; gap: 0.6rem; justify-items: start; }
+.predict__title { font-weight: 700; }
+.predict__set { border: 1px solid var(--line); padding: 0.4rem 0.75rem 0.5rem; margin: 0; min-width: 0; width: 100%; box-sizing: border-box; }
+.predict__legend { font-weight: 700; padding: 0 0.3rem; font-size: 0.95rem; }
+.predict__opt { display: flex; gap: 0.5rem; align-items: baseline; padding: 0.2rem 0; }
+
+/* properties sorter */
+.sorter__head { font-weight: 700; margin: 0.5rem 0 0.4rem; }
+.sorter__expl { list-style: none; padding: 0; margin: 0 0 1rem; display: grid; gap: 0.4rem; }
+.sorter__expl li { padding: 0.4rem 0.6rem; border: 1px solid var(--line); background: var(--surface); margin: 0; }
+.sorter__expl b { font-family: var(--font-mono); margin-right: 0.5rem; }
+.sorter__row { display: grid; grid-template-columns: 1fr auto; gap: 0.25rem 0.75rem; align-items: center; padding: 0.5rem 0; border-top: 1px solid var(--line); }
+.sorter__pick .select { width: auto; min-width: 5.5rem; }
+.sorter__mark { grid-column: 1 / -1; font-size: 0.9rem; }
+.sorter__mark:empty { display: none; }
+.sorter__mark--right { color: var(--ok); font-weight: 700; }
+.sorter__mark--wrong { color: var(--bad); }
+
+/* polyatomic ion drawings */
+.polyfig { display: flex; flex-wrap: wrap; gap: 1rem 2.5rem; align-items: flex-end; }
+.polyfig__item { display: grid; justify-items: center; gap: 0.25rem; }
+.polyfig__cap { font-size: 0.9rem; color: var(--ink-2); }
+</style>
+</head>
+<body data-page="s2-1">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="s2-1"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Structure 2.1</p>
+      <h1>The ionic model</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>What determines the ionic nature and properties of a compound?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <section class="topic-section" id="goals">
+        <h2>What you need to be able to do</h2>
+        <p>Tick each one when you can do it without looking at your notes. Everything on this page is for both SL and HL. Structure 2.1 has no Additional HL content.</p>
+        <ul class="checklist" data-s1-checklist="s2-1">
+          <li data-id="ion-formation" data-level="sl">Describe how metal atoms form cations by losing electrons and how non-metal atoms form anions by gaining electrons.</li>
+          <li data-id="ion-charge" data-level="sl">Predict the charge of an ion from the electron configuration of the atom.</li>
+          <li data-id="transition-ions" data-level="sl">Recall that a transition element can form ions with different charges.</li>
+          <li data-id="ionic-bond" data-level="sl">State that an ionic bond is the electrostatic attraction between oppositely charged ions, and say when ionic bonding is expected.</li>
+          <li data-id="polyatomic-ions" data-level="sl">Recall the names and formulas of the seven polyatomic ions in the guide.</li>
+          <li data-id="formula-from-ions" data-level="sl">Deduce the formula of an ionic compound from its ions, including polyatomic ions.</li>
+          <li data-id="names-formulas" data-level="sl">Change the name of an ionic compound into its formula, and the formula into its name.</li>
+          <li data-id="lattice" data-level="sl">Describe an ionic compound as a three-dimensional lattice of ions, represented by an empirical formula.</li>
+          <li data-id="properties" data-level="sl">Explain the volatility, electrical conductivity and solubility of ionic compounds.</li>
+          <li data-id="lattice-enthalpy" data-level="sl">Use lattice enthalpy as a measure of the strength of ionic bonding, and compare compounds using ion charge and ionic radius.</li>
+        </ul>
+      </section>
+
+      <!-- ============================================================ 2.1.1 ions -->
+      <section class="topic-section" id="ions" data-toc="How ions form">
+        <span class="section-code">Structure 2.1.1</span>
+        <h2>How atoms become ions</h2>
+        <p>Table salt is made from sodium and chlorine. Sodium is a soft metal that reacts violently with water. Chlorine is a poisonous green gas. The salt on your food is safe because it contains neither sodium atoms nor chlorine atoms. It contains <em>ions</em>.</p>
+        <p>An <dfn data-def="An atom, or a group of atoms, with an overall electric charge.">ion</dfn> is an atom, or a group of atoms, with an overall electric charge. An atom becomes an ion when it loses or gains electrons. The nucleus does not change.</p>
+        <ul>
+          <li>A metal atom <strong>loses</strong> electrons. It then has more protons than electrons, so it is a positive ion. A positive ion is called a <dfn data-def="A positive ion. It forms when an atom loses electrons.">cation</dfn>.</li>
+          <li>A non-metal atom <strong>gains</strong> electrons. It then has more electrons than protons, so it is a negative ion. A negative ion is called an <dfn data-def="A negative ion. It forms when an atom gains electrons.">anion</dfn>.</li>
+        </ul>
+
+        <aside class="callout callout--key">
+          <p>Charge on an ion = number of protons − number of electrons. Losing electrons makes the charge positive. Gaining electrons makes the charge negative.</p>
+        </aside>
+
+        <h3>Predicting the charge from the electron configuration</h3>
+        <p>Look at the outer shell of the atom. The outer shell is the shell with the highest number in the electron configuration.</p>
+        <p>A sodium atom is <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>1</sup></span>. Its outer shell holds one electron. Sodium loses that one electron. The ion <span class="chem">Na+</span> is <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>, the same configuration as the noble gas neon.</p>
+        <p>A chlorine atom is <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>5</sup></span>. Its outer shell holds seven electrons, one fewer than a full s and p set of eight. Chlorine gains one electron. The ion <span class="chem">Cl-</span> is <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></span>, the same configuration as argon.</p>
+        <p>This pattern works for the main-group elements. The ion usually has the electron configuration of the nearest noble gas.</p>
+
+        <h4>Method in words</h4>
+        <ol>
+          <li>Find the outer shell and count its electrons.</li>
+          <li>One, two or three outer electrons: the atom is a metal and loses them all. The charge is 1+, 2+ or 3+.</li>
+          <li>Five, six or seven outer electrons: the atom is a non-metal and gains electrons until the outer s and p sublevels hold eight. The charge is 3−, 2− or 1−.</li>
+          <li>Check: protons − electrons must equal the charge.</li>
+        </ol>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Usual ion charge for main-group elements</caption>
+            <thead>
+              <tr><th scope="col">Group</th><th scope="col" class="num">Outer electrons</th><th scope="col">What the atom does</th><th scope="col" class="num">Ion charge</th><th scope="col">Examples</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">1</th><td class="num">1</td><td>loses 1</td><td class="num">1+</td><td data-i18n="off"><span class="chem">Li+</span>, <span class="chem">Na+</span>, <span class="chem">K+</span></td></tr>
+              <tr><th scope="row">2</th><td class="num">2</td><td>loses 2</td><td class="num">2+</td><td data-i18n="off"><span class="chem">Mg^2+</span>, <span class="chem">Ca^2+</span></td></tr>
+              <tr><th scope="row">13 (aluminium)</th><td class="num">3</td><td>loses 3</td><td class="num">3+</td><td data-i18n="off"><span class="chem">Al^3+</span></td></tr>
+              <tr><th scope="row">15</th><td class="num">5</td><td>gains 3</td><td class="num">3−</td><td data-i18n="off"><span class="chem">N^3-</span>, <span class="chem">P^3-</span></td></tr>
+              <tr><th scope="row">16</th><td class="num">6</td><td>gains 2</td><td class="num">2−</td><td data-i18n="off"><span class="chem">O^2-</span>, <span class="chem">S^2-</span></td></tr>
+              <tr><th scope="row">17</th><td class="num">7</td><td>gains 1</td><td class="num">1−</td><td data-i18n="off"><span class="chem">F-</span>, <span class="chem">Cl-</span>, <span class="chem">Br-</span>, <span class="chem">I-</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <figure data-s1-widget="s2-1.ions" data-title="Ion maker">
+          <p class="widget__fallback">An interactive ion maker appears here when JavaScript is on. It shows the electron configuration of an atom and of its ion.</p>
+          <figcaption>Choose an element and predict what it will do. Then press Form the ion to see which electrons are lost or gained. Each dot is one electron. This is a counting model: it shows how many electrons are in each sublevel, not where they are.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Charge from an electron configuration</h3>
+          <div class="worked__problem">
+            <p>An atom has the electron configuration <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup></span>. Predict the charge of its ion, and write the electron configuration of the ion.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the outer shell">
+              <p class="worked__why">The outer shell is the one with the highest number. Here it is shell 4.</p>
+              <div class="worked__math">outer shell: 4s<sup>2</sup>, so 2 outer electrons</div>
+            </li>
+            <li data-title="Decide: lose or gain?">
+              <p class="worked__why">Two outer electrons means a metal. Losing 2 electrons takes far less energy than gaining 6.</p>
+              <div class="worked__math">the atom loses 2 electrons</div>
+            </li>
+            <li data-title="Work out the charge">
+              <p class="worked__why">Add the superscripts to count the electrons in the atom: 2 + 2 + 6 + 2 + 6 + 2 = 20. A neutral atom has the same number of protons.</p>
+              <div class="worked__math">protons = 20, electrons in the ion = 20 − 2 = 18</div>
+              <div class="worked__math">charge = 20 − 18 = <b>2+</b></div>
+            </li>
+            <li data-title="Write the configuration of the ion">
+              <p class="worked__why" data-label="Check">Remove the two 4s electrons. What is left is the configuration of argon, a noble gas.</p>
+              <div class="worked__math"><b>1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>The ion has a charge of 2+ and the configuration <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></span>. (The element is calcium, so the ion is <span class="chem">Ca^2+</span>.)</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="3" data-tolerance="0.1" data-label="Size of the charge">
+          <div class="tryit__q"><p>An atom has the electron configuration <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>1</sup></span>. Its ion is positive. What is the size of the charge? Type the number only.</p></div>
+          <ol class="tryit__hints">
+            <li>Which shell is the outer shell? Count all the electrons in it, in both sublevels.</li>
+            <li>Shell 3 holds <span class="mono">2 + 1</span> electrons. A metal atom loses all its outer electrons.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">outer shell: 3s<sup>2</sup> 3p<sup>1</sup> = 3 electrons, all lost</div>
+            <div class="worked__math">charge = 13 protons − 10 electrons = 3+</div>
+            <p>The size of the charge is <strong>3</strong>. The ion is <span class="chem">Al^3+</span>.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="18" data-tolerance="0.1" data-label="Number of electrons">
+          <div class="tryit__q"><p>A phosphorus atom is <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>3</sup></span>. How many electrons are in a phosphide ion?</p></div>
+          <ol class="tryit__hints">
+            <li>Phosphorus is a non-metal with 5 outer electrons. How many more does it need to reach 8?</li>
+            <li>The atom has 15 electrons and gains 3: <span class="mono">15 + 3</span>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">outer shell: 3s<sup>2</sup> 3p<sup>3</sup> = 5 electrons, so the atom gains 3</div>
+            <div class="worked__math">electrons = 15 + 3 = 18</div>
+            <p>The phosphide ion, <span class="chem">P^3-</span>, has <strong>18</strong> electrons and the same configuration as argon.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Gaining electrons does not make an ion positive. Electrons are negative, so an atom that <em>gains</em> two electrons has a charge of 2−. An atom that <em>loses</em> two electrons has a charge of 2+.</p>
+        </aside>
+
+        <h3>Transition elements can form more than one ion</h3>
+        <p>The table above works for main-group elements. It does not work for the transition elements in the middle of the periodic table. A transition element can form ions with different charges.</p>
+        <ul>
+          <li>Iron forms <span class="chem">Fe^2+</span> and <span class="chem">Fe^3+</span>.</li>
+          <li>Copper forms <span class="chem">Cu+</span> and <span class="chem">Cu^2+</span>.</li>
+        </ul>
+        <p>You cannot predict the charge of a transition element ion from its group number. The question must tell you, usually with a Roman numeral in the name. Iron(III) means <span class="chem">Fe^3+</span>. Try iron, copper and cobalt in the ion maker.</p>
+
+        <aside class="callout callout--scope" data-title="Comes later in Structure 3.1 (HL)">
+          <p>Here you only need to know <em>that</em> a transition element can form ions with different charges. The explanation uses successive ionization energies and is Additional HL content in Structure 3.1.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>Write the charge with the number first and the sign second: <span class="mono">2+</span> and <span class="mono">3−</span>, not <span class="mono">+2</span> and <span class="mono">−3</span>. For a charge of one, write the sign only: <span class="chem">Na+</span>, <span class="chem">Cl-</span>.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s2-1-q001,s2-1-q003,s2-1-q011,s2-1-q012" data-shuffle="false" data-count="0" data-title="Forming ions: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.1.2 bond -->
+      <section class="topic-section" id="bond" data-toc="The ionic bond">
+        <span class="section-code">Structure 2.1.2</span>
+        <h2>The ionic bond</h2>
+        <p>Rub a balloon on your hair and it sticks to a wall. Objects with opposite electric charges attract each other. This attraction is called an electrostatic attraction. Ions do the same thing, with far stronger forces.</p>
+        <p>An <dfn data-def="The electrostatic attraction between oppositely charged ions.">ionic bond</dfn> is the electrostatic attraction between oppositely charged ions.</p>
+        <p>When sodium reacts with chlorine, each sodium atom passes one electron to a chlorine atom. This transfer <em>makes</em> the ions <span class="chem">Na+</span> and <span class="chem">Cl-</span>. The bond is what happens next: the positive ions and the negative ions attract each other.</p>
+
+        <aside class="callout callout--mistake">
+          <p>“An ionic bond is the transfer of electrons” is not accepted. The transfer of electrons is how the ions form. The bond is the attraction between the ions after they have formed.</p>
+        </aside>
+
+        <p>The attraction acts in every direction. A sodium ion attracts every chloride ion near it, not one partner. This is why ionic compounds form giant structures and not small molecules. You will see this in the lattice section below.</p>
+
+        <aside class="callout callout--exam">
+          <p>The definition needs three things: “electrostatic attraction”, “between”, and “oppositely charged ions” (or “cations and anions”). An answer without the word electrostatic can lose the mark.</p>
+        </aside>
+
+        <h3>When should you expect ionic bonding?</h3>
+        <p>Ionic bonding is expected between a metal and a non-metal. The metal atoms lose electrons and the non-metal atoms gain them.</p>
+        <p>A better test uses electronegativity. <dfn data-def="A measure of how strongly an atom attracts the pair of electrons in a covalent bond.">Electronegativity</dfn> is a measure of how strongly an atom attracts the electrons in a bond. Metals have low values. Non-metals on the right of the periodic table have high values.</p>
+        <p>If the difference in electronegativity between two elements is large, one atom takes the electrons completely and ions form. Sodium is 0.9 and chlorine is 3.2. The difference is 3.2 − 0.9 = 2.3, which is large, so sodium chloride is ionic.</p>
+
+        <aside class="callout callout--booklet">
+          <p>Electronegativity values are in section 9 of the data booklet. Use these values, because older books give slightly different numbers.</p>
+        </aside>
+
+        <p>The IB guide gives no fixed number for “large”. Many books use a difference of about 1.8 as a rough guide, but it is not a rule. Bonding changes gradually from ionic to covalent. The proper IB tool is the bonding triangle in the data booklet, which you will use in Structure 2.4.</p>
+
+        <div data-s1-quiz data-ids="s2-1-q004,s2-1-q018" data-shuffle="false" data-count="0" data-title="The ionic bond: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.1.2 formulas -->
+      <section class="topic-section" id="formulas" data-toc="Formulas and names">
+        <span class="section-code">Structure 2.1.2</span>
+        <h2>Formulas and names of ionic compounds</h2>
+        <p>A crystal of salt does not give you an electric shock. An ionic compound has no overall charge. So the positive charges and the negative charges in its formula must add up to zero. That one idea gives you every ionic formula.</p>
+
+        <h3>Polyatomic ions</h3>
+        <p>Some ions contain more than one atom. A <dfn data-def="An ion made of two or more atoms joined by covalent bonds, with an overall charge.">polyatomic ion</dfn> is a group of atoms joined by covalent bonds, with an overall charge. The group stays together and behaves as one ion.</p>
+        <p>You must know these seven by name and by formula. They are not in the data booklet.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The seven polyatomic ions to learn</caption>
+            <thead>
+              <tr><th scope="col">Name</th><th scope="col">Formula</th><th scope="col" class="num">Charge</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">ammonium</th><td data-i18n="off"><span class="chem">NH4+</span></td><td class="num">1+</td></tr>
+              <tr><th scope="row">hydroxide</th><td data-i18n="off"><span class="chem">OH-</span></td><td class="num">1−</td></tr>
+              <tr><th scope="row">nitrate</th><td data-i18n="off"><span class="chem">NO3-</span></td><td class="num">1−</td></tr>
+              <tr><th scope="row">hydrogencarbonate</th><td data-i18n="off"><span class="chem">HCO3-</span></td><td class="num">1−</td></tr>
+              <tr><th scope="row">carbonate</th><td data-i18n="off"><span class="chem">CO3^2-</span></td><td class="num">2−</td></tr>
+              <tr><th scope="row">sulfate</th><td data-i18n="off"><span class="chem">SO4^2-</span></td><td class="num">2−</td></tr>
+              <tr><th scope="row">phosphate</th><td data-i18n="off"><span class="chem">PO4^3-</span></td><td class="num">3−</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>Ammonium is the only positive ion in the list. Hydrogencarbonate is written as one word.</p>
+
+        <figure data-s1-widget="s2-1.poly" data-title="Inside a polyatomic ion">
+          <p class="widget__fallback">Drawings of the ammonium ion and the hydroxide ion appear here when JavaScript is on.</p>
+          <figcaption>Lewis formulas of the ammonium ion and the hydroxide ion. The lines are covalent bonds between the atoms inside the ion. The square brackets and the charge show that the charge belongs to the whole group. Lewis formulas are taught in Structure 2.2.</figcaption>
+        </figure>
+
+        <aside class="callout callout--exam">
+          <p>A compound such as ammonium nitrate, <span class="chem">NH4NO3</span>, contains two kinds of bond. The bonds <em>inside</em> each polyatomic ion are covalent. The bond <em>between</em> the cation and the anion is ionic. Questions ask you to say which is where.</p>
+        </aside>
+
+        <h3>Formula from the ions: method in words</h3>
+        <ol>
+          <li>Write the two ions with their charges, cation first.</li>
+          <li>Find the smallest total charge that both charges divide into. For 3+ and 2− this is 6.</li>
+          <li>Work out how many of each ion give that total: 6 ÷ 3 = 2 cations and 6 ÷ 2 = 3 anions.</li>
+          <li>Write the formula with these numbers as subscripts. Do not write the number 1. Do not write the charges.</li>
+          <li>If you need two or more of a polyatomic ion, put the ion in brackets and write the number outside.</li>
+          <li>Check that the total positive charge equals the total negative charge, and that the numbers are the smallest whole numbers.</li>
+        </ol>
+
+        <figure data-s1-widget="s2-1.formula" data-title="Ionic formula builder">
+          <p class="widget__fallback">An interactive formula builder appears here when JavaScript is on. It balances the charges of a cation and an anion with tiles.</p>
+          <figcaption>Choose a cation and an anion. Each tile is one ion, and its width is its charge. Add ions until the two rows are the same length. Then press Quiz me to build a compound from its name. The builder only balances charges. A few of the combinations you can make are not stable compounds in real life.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Formula with a polyatomic ion: aluminium sulfate</h3>
+          <div class="worked__problem">
+            <p>Deduce the formula of aluminium sulfate.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Write the ions">
+              <p class="worked__why">Aluminium is in group 13, so its ion is 3+. Sulfate is one of the seven polyatomic ions to learn.</p>
+              <div class="worked__math">Al<sup>3+</sup> and SO<sub>4</sub><sup>2−</sup></div>
+            </li>
+            <li data-title="Find the smallest common total">
+              <p class="worked__why">The smallest number that both 3 and 2 divide into is 6.</p>
+              <div class="worked__math">total charge needed: 6+ and 6−</div>
+            </li>
+            <li data-title="Count the ions">
+              <p class="worked__why">Divide the total by the charge on each ion.</p>
+              <div class="worked__math">6 ÷ 3 = 2 Al<sup>3+</sup> ions</div>
+              <div class="worked__math">6 ÷ 2 = 3 SO<sub>4</sub><sup>2−</sup> ions</div>
+            </li>
+            <li data-title="Write the formula with brackets">
+              <p class="worked__why">There are three sulfate ions, so sulfate goes in brackets with the 3 outside. The 4 inside the bracket belongs to the sulfate ion and does not change.</p>
+              <div class="worked__math"><b>Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub></b></div>
+            </li>
+            <li data-title="Check the charges">
+              <p class="worked__why" data-label="Check">The total charge must be zero.</p>
+              <div class="worked__math">2 × (3+) = 6+ &nbsp; and &nbsp; 3 × (2−) = 6−</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p><span class="chem">Al2(SO4)3</span></p></div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 2">
+          <h3 class="worked__title">Two polyatomic ions: ammonium carbonate</h3>
+          <div class="worked__problem">
+            <p>Deduce the formula of ammonium carbonate.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Write the ions">
+              <p class="worked__why">Both ions are polyatomic. Ammonium is the positive one.</p>
+              <div class="worked__math">NH<sub>4</sub><sup>+</sup> and CO<sub>3</sub><sup>2−</sup></div>
+            </li>
+            <li data-title="Balance the charges">
+              <p class="worked__why">The smallest total that 1 and 2 both divide into is 2. So you need 2+ and 2−.</p>
+              <div class="worked__math">2 ÷ 1 = 2 NH<sub>4</sub><sup>+</sup> ions</div>
+              <div class="worked__math">2 ÷ 2 = 1 CO<sub>3</sub><sup>2−</sup> ion</div>
+            </li>
+            <li data-title="Write the formula">
+              <p class="worked__why">Two ammonium ions need brackets. One carbonate ion does not.</p>
+              <div class="worked__math"><b>(NH<sub>4</sub>)<sub>2</sub>CO<sub>3</sub></b></div>
+            </li>
+            <li data-title="Check the charges">
+              <p class="worked__why" data-label="Check">The total charge must be zero.</p>
+              <div class="worked__math">2 × (1+) = 2+ &nbsp; and &nbsp; 1 × (2−) = 2−</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p><span class="chem">(NH4)2CO3</span></p></div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 3">
+          <h3 class="worked__title">A Roman numeral in the name: iron(III) oxide</h3>
+          <div class="worked__problem">
+            <p>Deduce the formula of iron(III) oxide.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Read the charge of the metal from the name">
+              <p class="worked__why">Iron is a transition element, so it can form more than one ion. The Roman numeral III tells you this one is 3+.</p>
+              <div class="worked__math">Fe<sup>3+</sup></div>
+            </li>
+            <li data-title="Write the anion">
+              <p class="worked__why">Oxide is the ion of oxygen. Oxygen is in group 16, so it gains 2 electrons.</p>
+              <div class="worked__math">O<sup>2−</sup></div>
+            </li>
+            <li data-title="Balance the charges">
+              <p class="worked__why">The smallest total that 3 and 2 both divide into is 6.</p>
+              <div class="worked__math">6 ÷ 3 = 2 Fe<sup>3+</sup> ions</div>
+              <div class="worked__math">6 ÷ 2 = 3 O<sup>2−</sup> ions</div>
+            </li>
+            <li data-title="Write the formula and check">
+              <p class="worked__why" data-label="Check">2 × (3+) = 6+ and 3 × (2−) = 6−. The Roman numeral is not written in the formula.</p>
+              <div class="worked__math"><b>Fe<sub>2</sub>O<sub>3</sub></b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p><span class="chem">Fe2O3</span></p></div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Brackets change the meaning. <span class="chem">Mg(OH)2</span> has two hydroxide ions: 2 oxygen atoms and 2 hydrogen atoms. Without brackets, <span class="mono">MgOH<sub>2</sub></span> would mean 1 oxygen atom and 2 hydrogen atoms, which is wrong. Also use the simplest ratio: magnesium oxide is <span class="chem">MgO</span>, not <span class="mono">Mg<sub>2</sub>O<sub>2</sub></span>.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="15" data-tolerance="0.1" data-label="Number of atoms">
+          <div class="tryit__q"><p>Deduce the formula of ammonium sulfate. How many atoms, in total, are in one formula unit?</p></div>
+          <ol class="tryit__hints">
+            <li>The ions are <span class="chem">NH4+</span> and <span class="chem">SO4^2-</span>. How many ammonium ions balance one sulfate ion?</li>
+            <li>The formula is <span class="chem">(NH4)2SO4</span>. The 2 outside the bracket multiplies everything inside it.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">2 × (1+) = 2+ balances 1 × (2−), so the formula is (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub></div>
+            <div class="worked__math">atoms in 2 NH<sub>4</sub><sup>+</sup> = 2 × (1 + 4) = 10</div>
+            <div class="worked__math">atoms in 1 SO<sub>4</sub><sup>2−</sup> = 1 + 4 = 5</div>
+            <div class="worked__math">total = 10 + 5 = 15</div>
+            <p>There are <strong>15</strong> atoms: 2 N, 8 H, 1 S and 4 O.</p>
+          </div>
+        </div>
+
+        <h3>Naming ionic compounds</h3>
+        <ol>
+          <li>Name the cation first, then the anion.</li>
+          <li>A metal cation has the name of the metal: sodium, calcium, aluminium.</li>
+          <li>An anion made from one element ends in <strong>-ide</strong>: chlor<em>ine</em> becomes chlor<em>ide</em>, ox<em>ygen</em> becomes ox<em>ide</em>, sulf<em>ur</em> becomes sulf<em>ide</em>, nitr<em>ogen</em> becomes nitr<em>ide</em>.</li>
+          <li>A polyatomic ion keeps its own name: sulfate, nitrate, carbonate, hydroxide, ammonium.</li>
+          <li>If the metal can form more than one ion, write its charge as a Roman numeral in brackets straight after the metal name, with no space: iron(II), iron(III), copper(I), copper(II).</li>
+        </ol>
+        <p>A compound of only two elements is called a <dfn data-def="A compound that contains only two elements.">binary compound</dfn>. Its name always ends in -ide: sodium chloride, magnesium oxide, potassium sulfide.</p>
+        <p>The name does not say how many ions there are. <span class="chem">CaCl2</span> is calcium chloride, not “calcium dichloride”. You work out the numbers from the charges.</p>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 4">
+          <h3 class="worked__title">Name from a formula</h3>
+          <div class="worked__problem">
+            <p>Deduce the name of <span class="chem">Cu(NO3)2</span>.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Split the formula into its ions">
+              <p class="worked__why">The cation is written first. The bracket shows a polyatomic ion that you should recognise.</p>
+              <div class="worked__math">one copper ion and two NO<sub>3</sub><sup>−</sup> (nitrate) ions</div>
+            </li>
+            <li data-title="Find the charge on the metal ion">
+              <p class="worked__why">Copper is a transition element, so you must work out its charge. The total negative charge is 2 × (1−) = 2−. The compound is neutral, so the one copper ion must be 2+.</p>
+              <div class="worked__math">Cu<sup>2+</sup></div>
+            </li>
+            <li data-title="Name the cation">
+              <p class="worked__why">Copper can also be 1+, so the name needs a Roman numeral.</p>
+              <div class="worked__math">copper(II)</div>
+            </li>
+            <li data-title="Add the name of the anion">
+              <p class="worked__why">A polyatomic ion keeps its own name. The number of ions is not part of the name.</p>
+              <div class="worked__math"><b>copper(II) nitrate</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>copper(II) nitrate</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="3" data-tolerance="0.1" data-label="Size of the charge on Mn">
+          <div class="tryit__q"><p>An oxide of manganese has the formula <span class="chem">Mn2O3</span>. What is the size of the positive charge on each manganese ion? Type the number only.</p></div>
+          <ol class="tryit__hints">
+            <li>An oxide ion is <span class="chem">O^2-</span>. What is the total negative charge of three oxide ions?</li>
+            <li>The total positive charge must be 6+, shared between 2 manganese ions.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">total negative charge = 3 × (2−) = 6−</div>
+            <div class="worked__math">total positive charge = 6+, from 2 Mn ions</div>
+            <div class="worked__math">charge on each Mn = 6 ÷ 2 = 3+</div>
+            <p>The size of the charge is <strong>3</strong>, so the compound is manganese(III) oxide.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>Read the command carefully. If the question asks for a <em>name</em>, a formula earns no mark. If it asks for a <em>formula</em>, a name earns no mark. For a transition element, the name is not complete without the Roman numeral.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>You only need to remember the seven polyatomic ions in the table. If a question uses another ion, it will give you the formula and the charge. You will meet the Roman numeral again in Structure 3.1, where it is called the oxidation state.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s2-1-q005,s2-1-q006,s2-1-q007,s2-1-q013,s2-1-q014,s2-1-q015" data-shuffle="false" data-count="0" data-title="Formulas and names: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.1.3 lattice -->
+      <section class="topic-section" id="lattice" data-toc="The ionic lattice">
+        <span class="section-code">Structure 2.1.3</span>
+        <h2>The ionic lattice</h2>
+        <p>Look at grains of table salt through a magnifying glass. Many of them are tiny cubes. The cube shape comes from the way the ions are stacked inside.</p>
+        <p>An ionic compound is a <dfn data-def="A regular, repeating, three-dimensional arrangement of particles. In an ionic lattice the particles are positive and negative ions.">lattice</dfn>: a regular, repeating, three-dimensional arrangement of ions. Each ion is surrounded by ions of the opposite charge. The electrostatic attraction acts in all directions and holds the whole structure together.</p>
+
+        <figure data-s1-widget="s2-1.lattice" data-title="Sodium chloride lattice">
+          <p class="widget__fallback">A 3-D model of the sodium chloride lattice appears here when JavaScript is on. Sodium ions and chloride ions alternate in all three directions.</p>
+          <figcaption>Drag the model to turn it. Find one ion in the middle and look at its nearest neighbours: they all have the opposite charge. This is a model with three simplifications. The ions are drawn too small and too far apart, so that you can see inside. In a real crystal, neighbouring ions touch, and a chloride ion is almost twice as wide as a sodium ion. The lines only show which ions are nearest neighbours. They are not single bonds: each ion attracts all the oppositely charged ions around it. A real grain of salt continues this pattern for millions of ions in every direction.</figcaption>
+        </figure>
+
+        <h3>What the formula of an ionic compound means</h3>
+        <p>There are no separate molecules in the lattice. You cannot say which chloride ion “belongs” to which sodium ion. So the formula <span class="chem">NaCl</span> cannot describe a molecule.</p>
+        <p>The formula of an ionic compound gives the <em>ratio</em> of the ions in the lattice, in the smallest whole numbers. In sodium chloride there is one <span class="chem">Na+</span> for every <span class="chem">Cl-</span>. In calcium chloride, <span class="chem">CaCl2</span>, there are two <span class="chem">Cl-</span> for every <span class="chem">Ca^2+</span>.</p>
+        <p>A formula that gives the simplest ratio is an empirical formula. You met empirical formulas in Structure 1.4. One “<span class="chem">NaCl</span>” or one “<span class="chem">CaCl2</span>” is called a <dfn data-def="The group of ions shown by the formula of an ionic compound, for example one sodium ion and one chloride ion in NaCl.">formula unit</dfn>.</p>
+
+        <aside class="callout callout--mistake">
+          <p>Do not write “a molecule of sodium chloride” or “the intermolecular forces in sodium chloride”. An ionic compound has no molecules. Write “ions”, “lattice” and “electrostatic attraction between oppositely charged ions”.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>You do not need unit cells, coordination numbers (such as “6 : 6”), or the names of different lattice types. Different ionic compounds have different arrangements, but the idea is the same: a three-dimensional lattice of oppositely charged ions.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s2-1-q019,s2-1-q016" data-shuffle="false" data-count="0" data-title="The lattice: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.1.3 properties -->
+      <section class="topic-section" id="properties" data-toc="Properties">
+        <span class="section-code">Structure 2.1.3</span>
+        <h2>Explaining the properties of ionic compounds</h2>
+        <p>You can heat salt in a frying pan and nothing seems to happen. It does not melt and it does not boil away. The lattice model explains this, and the other properties of ionic compounds.</p>
+        <p>Every explanation has the same two parts. First say what the particles are and what holds them together. Then say what that means for the property.</p>
+
+        <h3>Volatility</h3>
+        <p><dfn data-def="How easily a substance turns into a gas. A volatile substance turns into a gas easily.">Volatility</dfn> describes how easily a substance turns into a gas. Ionic compounds have a <strong>low volatility</strong>. They also have high melting points and high boiling points. Sodium chloride melts at 801 °C and boils at 1413 °C.</p>
+        <p>The reason: the electrostatic attraction between the oppositely charged ions is strong, and it acts throughout the whole lattice. A large amount of energy is needed to overcome it and separate the ions.</p>
+
+        <h3>Electrical conductivity</h3>
+        <p>A substance conducts electricity if it contains charged particles that are free to move. An ionic compound always contains charged particles: its ions. The question is whether they can move.</p>
+        <ul>
+          <li><strong>Solid:</strong> does not conduct. The ions are held in fixed positions in the lattice. They can only vibrate.</li>
+          <li><strong>Molten</strong> (melted to a liquid): conducts. The lattice has broken down and the ions are free to move.</li>
+          <li><strong>Dissolved in water</strong> (aqueous solution): conducts. The ions are separated and free to move through the solution.</li>
+        </ul>
+
+        <figure data-s1-widget="s2-1.states" data-title="Can the ions move?">
+          <p class="widget__fallback">An animated particle model appears here when JavaScript is on. It compares solid, molten and dissolved sodium chloride between two electrodes.</p>
+          <figcaption>Change the state and watch the ions. The lamp lights only when ions can move from place to place. This is a model of a small part of the sample between two electrodes. The two ions are drawn to scale with each other, using their ionic radii. The water molecules are simplified, and only the ones next to an ion are drawn. In real water, molecules fill all the space between the ions.</figcaption>
+        </figure>
+
+        <aside class="callout callout--mistake">
+          <p>In a molten or dissolved ionic compound, the current is carried by moving <em>ions</em>, not by electrons. And a solid ionic compound does contain ions. It does not conduct because its ions cannot move, not because it has none.</p>
+        </aside>
+
+        <aside class="callout callout--scope" data-title="Comes later in Reactivity 3.2">
+          <p>What happens when the moving ions reach the electrodes is called electrolysis. It is taught in Reactivity 3.2. Here you only need to explain why the liquid conducts.</p>
+        </aside>
+
+        <h3>Solubility</h3>
+        <p>Many ionic compounds dissolve in water. A water molecule is polar: its oxygen atom has a small negative charge and its hydrogen atoms have small positive charges. You will learn why in Structure 2.2.</p>
+        <p>The negative end of a water molecule is attracted to cations. The positive end is attracted to anions. Many water molecules together attract an ion strongly enough to pull it out of the lattice. The ion then moves away, surrounded by water molecules.</p>
+        <p>Ionic compounds do not dissolve in non-polar solvents such as hexane. Non-polar molecules have no charged ends, so they do not attract the ions strongly enough to separate them.</p>
+        <p>Not every ionic compound dissolves in water. In some, such as calcium carbonate, the attraction between the ions in the lattice is too strong for the water molecules to overcome.</p>
+
+        <h3>Brittleness</h3>
+        <p>Ionic crystals are hard, but they are also <dfn data-def="A brittle solid breaks or shatters when it is hit. It does not bend or change shape.">brittle</dfn>: they shatter when hit. The syllabus names volatility, conductivity and solubility, but brittleness is a common exam question too.</p>
+
+        <figure data-s1-widget="s2-1.brittle" data-title="Hit it">
+          <p class="widget__fallback">An interactive diagram appears here when JavaScript is on. A force slides one layer of ions along, ions with the same charge come next to each other, they repel, and the crystal splits.</p>
+          <figcaption>Press Hit it, then follow the steps. This is a flat slice through a crystal, with the two ions drawn to scale with each other. As the top layers slide, the large negative ions meet and push the layers apart. A real crystal has a huge number of layers and breaks along flat surfaces.</figcaption>
+        </figure>
+
+        <h3>Put it together</h3>
+        <figure data-s1-widget="s2-1.sorter" data-title="Match the property to its explanation">
+          <p class="widget__fallback">A matching exercise appears here when JavaScript is on. It asks you to match six properties of sodium chloride to their explanations.</p>
+          <figcaption>Choose the letter of the explanation that fits each property, then press Check. Two of the explanations are wrong ideas that do not fit any ionic compound. Find out why they are wrong.</figcaption>
+        </figure>
+
+        <aside class="callout callout--exam">
+          <p>For conductivity, the mark is for “ions are free to move” (or “mobile ions”) when molten or dissolved, and “ions are in fixed positions” in the solid. For melting point, the mark is for “strong electrostatic attraction between oppositely charged ions” that needs “a lot of energy to overcome”.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s2-1-q002,s2-1-q008,s2-1-q020,s2-1-q023,s2-1-q024" data-shuffle="false" data-count="0" data-title="Properties: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 2.1.3 lattice enthalpy -->
+      <section class="topic-section" id="lattice-enthalpy" data-toc="Lattice enthalpy">
+        <span class="section-code">Structure 2.1.3</span>
+        <h2>Lattice enthalpy: how strong is the ionic bonding?</h2>
+        <p>Two fridge magnets that are stuck together need a pull to separate them. Stronger magnets need a harder pull. In the same way, you can measure how strongly ions are held in a lattice by the energy needed to pull them completely apart.</p>
+        <p>The <dfn data-def="The enthalpy change when one mole of a solid ionic compound is separated into its gaseous ions, infinitely far apart. It is endothermic.">lattice enthalpy</dfn> is the enthalpy change when one mole of a solid ionic compound is separated into gaseous ions, so far apart that they no longer attract each other.</p>
+
+        <div class="eq">
+          <div class="eq__formula">NaCl(s) → Na<sup>+</sup>(g) + Cl<sup>−</sup>(g) &nbsp;&nbsp; Δ<i>H</i><sub>lattice</sub> = +790 kJ mol<sup>−1</sup></div>
+          <dl class="eq__legend">
+            <div><dt>Δ<i>H</i><sub>lattice</sub></dt><dd>lattice enthalpy <span class="unit">kJ mol-1</span></dd></div>
+            <div><dt>(s), (g)</dt><dd>solid lattice, separate gaseous ions</dd></div>
+          </dl>
+        </div>
+
+        <p>Separating ions that attract each other always needs energy. So this process is endothermic and every lattice enthalpy is a positive number.</p>
+
+        <aside class="callout callout--key">
+          <p>Lattice enthalpy is a measure of the strength of the ionic bonding. A larger lattice enthalpy means stronger electrostatic attraction between the ions. It usually also means a higher melting point.</p>
+        </aside>
+
+        <aside class="callout callout--booklet">
+          <p>Section 16 of the data booklet lists lattice enthalpies. It defines them for the endothermic process: solid → gaseous ions. Ionic radii are in section 10. Some older books define lattice enthalpy the other way round and give negative values. Use the booklet.</p>
+        </aside>
+
+        <h3>Two things decide the size of the lattice enthalpy</h3>
+        <ul>
+          <li><strong>The charges on the ions.</strong> Ions with higher charges attract each other more strongly. A 2+ ion and a 2− ion attract much more strongly than a 1+ ion and a 1− ion.</li>
+          <li><strong>The radii of the ions.</strong> Smaller ions can get closer together. The shorter the distance between the centres of the ions, the stronger the attraction.</li>
+        </ul>
+        <p>So the lattice enthalpy is largest for small ions with high charges.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Lattice enthalpies and ionic radii from the data booklet</caption>
+            <thead>
+              <tr><th scope="col">Compound</th><th scope="col">Ions and ionic radii / pm</th><th scope="col" class="num">Sum of radii / pm</th><th scope="col" class="num">Δ<i>H</i><sub>lattice</sub> / kJ mol<sup>−1</sup></th><th scope="col">Compared with NaCl</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row" data-i18n="off"><span class="chem">KCl</span></th><td data-i18n="off"><span class="chem">K+</span> 138, <span class="chem">Cl-</span> 181</td><td class="num">319</td><td class="num">720</td><td>larger cation</td></tr>
+              <tr><th scope="row" data-i18n="off"><span class="chem">NaCl</span></th><td data-i18n="off"><span class="chem">Na+</span> 102, <span class="chem">Cl-</span> 181</td><td class="num">283</td><td class="num">790</td><td>–</td></tr>
+              <tr><th scope="row" data-i18n="off"><span class="chem">NaF</span></th><td data-i18n="off"><span class="chem">Na+</span> 102, <span class="chem">F-</span> 133</td><td class="num">235</td><td class="num">930</td><td>smaller anion</td></tr>
+              <tr><th scope="row" data-i18n="off"><span class="chem">MgO</span></th><td data-i18n="off"><span class="chem">Mg^2+</span> 72, <span class="chem">O^2-</span> 140</td><td class="num">212</td><td class="num">3791</td><td>higher charges and smaller ions</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <figure data-s1-widget="s2-1.enthalpy" data-title="Lattice enthalpy comparer">
+          <p class="widget__fallback">An interactive comparison appears here when JavaScript is on. It shows the ion charges and ionic radii of two compounds and asks you to predict which has the larger lattice enthalpy.</p>
+          <figcaption>Choose two compounds. The picture shows one cation touching one anion for each compound, all drawn to the same scale. Predict which lattice enthalpy is larger and why, then reveal the data booklet values. The picture is a model of one contact in the lattice, not a molecule.</figcaption>
+        </figure>
+
+        <h3>Method in words: comparing two ionic compounds</h3>
+        <ol>
+          <li>Write the ions in each compound, with their charges.</li>
+          <li>Compare the charges. Say which compound has ions with higher charges.</li>
+          <li>Compare the ionic radii. Say which compound has smaller ions.</li>
+          <li>Link to the force: higher charge or smaller ionic radius gives stronger electrostatic attraction between the oppositely charged ions.</li>
+          <li>Link to the property: stronger attraction means a larger lattice enthalpy, and more energy is needed to melt the solid.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 5">
+          <h3 class="worked__title">Comparing melting points</h3>
+          <div class="worked__problem">
+            <p>Magnesium oxide melts at 2852 °C. Sodium chloride melts at 801 °C. Explain why the melting point of magnesium oxide is much higher. Use the data booklet.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Write the ions">
+              <p class="worked__why">The explanation is about ions, so start by naming them with their charges.</p>
+              <div class="worked__math">MgO: Mg<sup>2+</sup> and O<sup>2−</sup></div>
+              <div class="worked__math">NaCl: Na<sup>+</sup> and Cl<sup>−</sup></div>
+            </li>
+            <li data-title="Compare the charges">
+              <p class="worked__why">Higher charges give stronger attraction.</p>
+              <div class="worked__math">the ions in MgO have higher charges (2+ and 2−) than the ions in NaCl (1+ and 1−)</div>
+            </li>
+            <li data-title="Compare the ionic radii">
+              <p class="worked__why">Use section 10 of the data booklet. Smaller ions are closer together, which gives stronger attraction.</p>
+              <div class="worked__math">Mg<sup>2+</sup> 72 pm is smaller than Na<sup>+</sup> 102 pm</div>
+              <div class="worked__math">O<sup>2−</sup> 140 pm is smaller than Cl<sup>−</sup> 181 pm</div>
+            </li>
+            <li data-title="Link to the force and the energy">
+              <p class="worked__why">This is the line that earns the final mark. Name the force and say what the energy is used for.</p>
+              <div class="worked__math"><b>stronger electrostatic attraction between the oppositely charged ions in MgO, so more energy is needed to overcome it</b></div>
+            </li>
+            <li data-title="Check with the lattice enthalpies">
+              <p class="worked__why" data-label="Check">Section 16 of the data booklet agrees: the lattice enthalpy of MgO is much larger.</p>
+              <div class="worked__math">MgO 3791 kJ mol<sup>−1</sup> &nbsp; NaCl 790 kJ mol<sup>−1</sup></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>The ions in MgO have higher charges (2+ and 2−, against 1+ and 1−) and smaller ionic radii. So the electrostatic attraction between the oppositely charged ions is stronger in MgO (its lattice enthalpy is larger), and more energy is needed to overcome it.</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="334" data-tolerance="0.5" data-unit="pm" data-label="Sum of the ionic radii">
+          <div class="tryit__q"><p>The ionic radius of <span class="chem">K+</span> is 138 pm and the ionic radius of <span class="chem">Br-</span> is 196 pm. Estimate the distance between the centres of a potassium ion and a bromide ion that touch in potassium bromide.</p></div>
+          <ol class="tryit__hints">
+            <li>When two spheres touch, the distance between their centres is one radius plus the other radius.</li>
+            <li><span class="mono">138 + 196</span></li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">distance = 138 pm + 196 pm = 334 pm</div>
+            <p>This is larger than the 283 pm in NaCl, so the attraction is weaker. The data booklet agrees: the lattice enthalpy of KBr is 691 <span class="unit">kJ mol-1</span>, smaller than the 790 <span class="unit">kJ mol-1</span> of NaCl.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="4.7987" data-tolerance="1%" data-sigfigs="2-3" data-label="Ratio">
+          <div class="tryit__q"><p>The lattice enthalpy of MgO is 3791 <span class="unit">kJ mol-1</span>. The lattice enthalpy of NaCl is 790 <span class="unit">kJ mol-1</span>. How many times larger is the lattice enthalpy of MgO? Give your answer to 2 or 3 significant figures.</p></div>
+          <ol class="tryit__hints">
+            <li>“How many times larger” means divide the larger value by the smaller value.</li>
+            <li><span class="mono">3791 ÷ 790</span></li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">3791 kJ mol<sup>−1</sup> ÷ 790 kJ mol<sup>−1</sup> = 4.7987…</div>
+            <p>About <strong>4.80</strong> times larger. The units cancel. Doubling both charges, and making the ions smaller, makes the attraction far stronger.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Write “ionic radius”, not “atomic radius” and not only “size”. The particles in the lattice are ions, and an ion does not have the same radius as its atom. Also do not write “MgO has stronger intermolecular forces”: there are no molecules.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>A full comparison names the factor (ion charge, ionic radius, or both), says which compound has the higher charge or the smaller ionic radius, and ends with “stronger electrostatic attraction between the ions”. If you are asked which quantity measures the strength of ionic bonding, the answer is “lattice enthalpy”.</p>
+        </aside>
+
+        <aside class="callout callout--scope" data-title="Comes later in Reactivity 1.2 (HL)">
+          <p>Lattice enthalpies are found by experiment using an energy cycle called a Born–Haber cycle. That is Additional HL content in Reactivity 1.2. Here you only compare lattice enthalpies using ion charge and ionic radius. You do not need any equation that calculates a lattice enthalpy.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s2-1-q009,s2-1-q021,s2-1-q022" data-shuffle="false" data-count="0" data-title="Lattice enthalpy: quick check"></div>
+      </section>
+
+      <hr class="spectrum">
+
+      <!-- ============================================================ linking -->
+      <section class="topic-section" id="links">
+        <h2>Linking it up</h2>
+        <p>The IB guide asks these linking questions. Short answers are enough at this stage.</p>
+
+        <h3>How does the position of an element in the periodic table relate to the charge of its ion(s)?</h3>
+        <p>The group number tells you the number of outer electrons. Metals in groups 1, 2 and 13 lose their 1, 2 or 3 outer electrons and form 1+, 2+ and 3+ ions. Non-metals in groups 15, 16 and 17 gain 3, 2 or 1 electrons and form 3−, 2− and 1− ions. Transition elements, in the middle block, can form ions with more than one charge. Structure 3.1 looks at the periodic table in detail.</p>
+
+        <h3>Why is the formation of an ionic compound from its elements a redox reaction?</h3>
+        <p>When sodium reacts with chlorine, each sodium atom loses an electron and each chlorine atom gains one. Losing electrons is called oxidation and gaining electrons is called reduction. Both happen together, so the reaction is a redox reaction. Redox is taught in Reactivity 3.2.</p>
+
+        <h3>What experimental data demonstrate the physical properties of ionic compounds?</h3>
+        <p>Three simple tests give the evidence. Measuring the melting point shows that it is high. Testing with a circuit shows that the solid does not conduct but the molten compound and the solution do. Shaking the solid with water and with a non-polar solvent shows where it dissolves. A substance with a high melting point that conducts only when molten or dissolved is very likely ionic.</p>
+
+        <h3>How can lattice enthalpies and the bonding continuum explain the trend in melting points of metal chlorides across period 3?</h3>
+        <p>Sodium chloride and magnesium chloride are ionic lattices with large lattice enthalpies, so they have high melting points. Moving across the period, the difference in electronegativity between the element and chlorine gets smaller. The bonding becomes more covalent. The chlorides of silicon and phosphorus are made of small molecules and have low melting points. Structure 2.4 and Structure 3.1 return to this.</p>
+      </section>
+
+      <!-- ============================================================ practice -->
+      <section class="topic-section" id="practice" data-toc="Exam-style practice">
+        <h2>Exam-style practice</h2>
+        <p>Three sets, from first steps to stretch. Questions you have not yet answered correctly come up first, so each set changes when you come back to it. Have the data booklet beside you.</p>
+        <h3>Foundation: one idea at a time</h3>
+        <div data-s1-quiz data-topic="s2-1" data-tier="foundation" data-count="5" data-title="2.1 foundation"></div>
+        <h3>Exam standard</h3>
+        <div data-s1-quiz data-topic="s2-1" data-tier="exam" data-count="6" data-title="2.1 exam standard"></div>
+        <h3>Challenge</h3>
+        <div data-s1-quiz data-topic="s2-1" data-tier="challenge" data-count="4" data-title="2.1 challenge"></div>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../assets/js/mol.js"></script>
+<script src="../data/questions-s2-1.js"></script>
+<script src="../assets/js/widgets-s2-1.js"></script>
+</body>
+</html>

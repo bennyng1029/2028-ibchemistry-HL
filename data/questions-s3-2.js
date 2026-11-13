@@ -278,7 +278,8 @@
   }
   function fig(s) { return '<p data-i18n="off">' + s + '</p>'; }
   function pair(a, b) {
-    return '<p data-i18n="off"><strong>X</strong>&nbsp; ' + a + ' &emsp; <strong>Y</strong>&nbsp; ' + b + '</p>';
+    function one(name, drawing) { return '<span style="display:inline-block;white-space:nowrap;margin:0 1.5em 0.4em 0"><strong>' + name + '</strong>&nbsp; ' + drawing + '</span>'; }
+    return '<p data-i18n="off">' + one('X', a) + ' ' + one('Y', b) + '</p>';
   }
 
   /* ---------- the questions -------------------------------------------------- */
@@ -443,7 +444,7 @@
   {
     id: 's3-2-q013', level: 'sl', tier: 'exam', type: 'multi', marks: 1,
     syllabus: 'Structure 3.2.2',
-    stem: '<p>Aspirin is a common medicine. Its skeletal formula is shown.</p>' + fig(skel('CC(=O)OC1=CC=CC=C1C(=O)O')) + '<p>Which functional groups are present in aspirin? Select <strong>all</strong> that apply.</p>',
+    stem: '<p>Aspirin is a common medicine. Its skeletal formula is shown.</p>' + fig(skel('OC(=O)C1=CC=CC=C1OC(C)=O')) + '<p>Which functional groups are present in aspirin? Select <strong>all</strong> that apply.</p>',
     options: ['Carboxyl', 'Ester', 'Phenyl', 'Hydroxyl', 'Alkoxy'],
     answer: [0, 1, 2],
     misconception: {
@@ -763,7 +764,7 @@
       3: 'Two slips: the longest chain has five carbon atoms, not four, and the hydroxyl group must get the lowest possible number.'
     },
     hints: ['Look for the longest chain that contains the carbon with the OH. It may go round a corner.', 'Number the chain from the end nearer to the OH.'],
-    solution: '<p>Step 1: the longest chain that contains the C' + '–' + 'OH carbon runs from the left-hand end, through the carbon with OH and the branch point, and up through the two-carbon branch. It has 5 carbon atoms: pentan-.</p><p>Step 2: number from the end nearer to the OH. The OH is on carbon 2: pentan-2-ol.</p><p>Step 3: the one carbon atom left over is a methyl group on carbon 3.</p><p>The name is <strong>3-methylpentan-2-ol</strong>. Its condensed formula is ' + cf('CH3CH(OH)CH(CH3)CH2CH3') + '.</p>'
+    solution: '<p>Step 1: the longest chain that contains the C' + '–' + 'OH carbon runs from the left-hand end, through the carbon with OH and the branch point, and on through the two-carbon branch. It has 5 carbon atoms: pentan-.</p><p>Step 2: number from the end nearer to the OH. The OH is on carbon 2: pentan-2-ol.</p><p>Step 3: the one carbon atom left over is a methyl group on carbon 3.</p><p>The name is <strong>3-methylpentan-2-ol</strong>. Its condensed formula is ' + cf('CH3CH(OH)CH(CH3)CH2CH3') + '.</p>'
   },
 
   /* ======================= Structure 3.2.6  Structural isomers =============== */

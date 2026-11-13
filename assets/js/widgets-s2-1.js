@@ -7,6 +7,7 @@
    s2-1.brittle   "Hit it": why an ionic crystal is brittle
    s2-1.enthalpy  Lattice enthalpy comparer: predict, then reveal
    s2-1.sorter    Match each property to its explanation
+   s2-1.poly      Lewis formulas of the ammonium and hydroxide ions (static)
    The widget API (w) is documented in docs/AUTHORING.md.
    DATA: ionic radii (pm) are from section 10 and lattice enthalpies (kJ mol-1)
    from section 16 of the IB Chemistry data booklet (first assessment 2025).
@@ -852,5 +853,23 @@
       selects.forEach(function (s, i) { s.value = ''; marks[i].textContent = ''; marks[i].className = 'sorter__mark'; });
       setScore(t('Match all six, then press Check.'));
     });
+  });
+
+  /* ==========================================================================
+     8. Lewis formulas of two polyatomic ions (static drawing, no controls)
+     ========================================================================== */
+  S1.widgets.register('s2-1.poly', function (w) {
+    if (!S1.mol || !S1.mol.lewis) return;
+    var row = el('div', { class: 'polyfig' });
+    function item(spec, caption) {
+      var host = el('div', {});
+      row.appendChild(el('div', { class: 'polyfig__item' }, [host, el('div', { class: 'polyfig__cap', html: caption })]));
+      S1.mol.lewis(host, spec);
+    }
+    w.stage.appendChild(row);
+    item({ central: 'N', outer: ['H', 'H', 'H', 'H'], bracket: true, charge: '+', label: t('Lewis formula of the ammonium ion: a nitrogen atom joined to four hydrogen atoms by covalent bonds, in square brackets with a charge of 1+') },
+      t('ammonium ion, {f}', { f: ionHTML('NH4', 1) }));
+    item({ central: 'O', outer: ['H'], centralLone: 3, bracket: true, charge: '-', label: t('Lewis formula of the hydroxide ion: an oxygen atom with three lone pairs joined to one hydrogen atom by a covalent bond, in square brackets with a charge of 1−') },
+      t('hydroxide ion, {f}', { f: ionHTML('OH', -1) }));
   });
 })();
