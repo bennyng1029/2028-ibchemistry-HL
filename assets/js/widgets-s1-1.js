@@ -15,7 +15,7 @@
 
     var setC = w.readoutItem('Celsius');
     var setK = w.readoutItem('Kelvin');
-    var setNote = w.readoutItem('What it means');
+    var setNote = w.readoutItem('What it means', { text: true });
 
     var slider = w.slider({ label: 'Temperature', min: MIN, max: MAX, step: 0.05, value: start, unit: '°C', onInput: update });
     w.button('Absolute zero', function () { slider.set(MIN); });
@@ -77,8 +77,8 @@
 
       // current value marker
       var xc = X(c);
-      ctx.fillStyle = ink;
-      ctx.beginPath(); ctx.moveTo(xc, y - 1); ctx.lineTo(xc - 6, y - 11); ctx.lineTo(xc + 6, y - 11); ctx.closePath(); ctx.fill();
+      ctx.strokeStyle = ink; ctx.lineWidth = 3;
+      ctx.beginPath(); ctx.moveTo(xc, y - 4); ctx.lineTo(xc, y + h + 4); ctx.stroke();
     });
 
     function update() {

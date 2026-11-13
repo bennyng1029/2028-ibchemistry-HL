@@ -728,6 +728,7 @@ table.data .num, table.data td.num, table.data th.num { text-align: right; font-
 .widget__readout-item { display: flex; flex-direction: column; }
 .widget__readout-label { font-family: var(--font-body); font-size: 0.76rem; color: var(--ink-3); }
 .widget__readout-value { font-size: 1.15rem; font-weight: 600; }
+.widget__readout-value--text { font-family: var(--font-body); font-size: 1rem; font-weight: 400; line-height: 1.75; }
 .widget__caption { padding: 0.65rem 1rem 0.8rem; border-top: 1px solid var(--line); font-size: 0.9rem; color: var(--ink-2); }
 .widget__caption > :last-child { margin-bottom: 0; }
 .widget__fallback { padding: 1rem; color: var(--ink-3); margin: 0; }

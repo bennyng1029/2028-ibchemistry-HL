@@ -759,9 +759,10 @@
         controls.appendChild(wrap);
         return { el: wrap, get value() { return s.value; }, set: function (v) { s.value = v; } };
       },
-      /** Named value in the readout strip. Returns a setter: var setT = w.readoutItem('Temperature'); setT('298 K') (HTML allowed). */
-      readoutItem: function (label) {
-        var value = el('span', { class: 'widget__readout-value' });
+      /** Named value in the readout strip. Returns a setter: var setT = w.readoutItem('Temperature'); setT('298 K') (HTML allowed).
+       *  Pass {text: true} for a sentence rather than a number. */
+      readoutItem: function (label, opts) {
+        var value = el('span', { class: 'widget__readout-value' + (opts && opts.text ? ' widget__readout-value--text' : '') });
         readout.appendChild(el('div', { class: 'widget__readout-item' }, [el('span', { class: 'widget__readout-label', text: label }), value]));
         return function (htmlText) { value.innerHTML = htmlText; };
       },
