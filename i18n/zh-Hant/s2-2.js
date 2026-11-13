@@ -15,7 +15,7 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "The covalent model": "共價模型",
 
     // The covalent model > page header > span
-    "What determines the covalent nature and properties of a substance?": "物質的共價性質和各種性質，是由甚麼決定的？",
+    "What determines the covalent nature and properties of a substance?": "物質的共價本質和性質，是由甚麼決定的？",
 
     // What you need to be able to do > data-toc attribute
     "What you need to do": "你要做得到的事",
@@ -610,7 +610,7 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "hydronium ion": "水合氫離子",
 
     // Coordination bonds > p
-    "carbon monoxide: one of the three pairs is a coordination bond from O": "一氧化碳：三對共用電子中，有一對是來自 O 的配位鍵",
+    "carbon monoxide: one of the three pairs is a coordination bond from O": "一氧化碳：三對共用電子中，一對是來自 O 的配位鍵",
 
     // Coordination bonds > figcaption
     "A coordination bond can be drawn as an arrow. The arrow starts at the atom that gave both electrons and points to the atom that accepted them.": "配位鍵可以畫成箭嘴。箭嘴由提供兩個電子的原子開始，指向接受電子的原子。",
@@ -674,10 +674,10 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "Groups of electrons around an atom behave in the same way. They are all negative, so they repel each other and move as far apart as possible.": "原子周圍的各組電子也是這樣。它們都帶負電荷，所以互相排斥，盡量遠離對方。",
 
     // Shapes of molecules: the VSEPR model > p
-    "This idea is the <dfn data-def=\"Valence shell electron pair repulsion model. It predicts the shape of a molecule from the repulsion between the electron domains around a central atom.\">valence shell electron pair repulsion (VSEPR) model</dfn>. It predicts the shape of a molecule from the repulsion between the electron domains around a central atom.": "這個想法就是<dfn data-def=\"價層電子對相斥模型。它根據中心原子周圍各個電子域之間的排斥，預測分子的形狀。\">價層電子對相斥學說 <span class=\"en-term\">(valence shell electron pair repulsion (VSEPR) model)</span></dfn>，簡稱 VSEPR 模型。它根據中心原子周圍各個電子域之間的排斥，預測分子的形狀。",
+    "This idea is the <dfn data-def=\"Valence shell electron pair repulsion model. It predicts the shape of a molecule from the repulsion between the electron domains around a central atom.\">valence shell electron pair repulsion (VSEPR) model</dfn>. It predicts the shape of a molecule from the repulsion between the electron domains around a central atom.": "這個想法就是<dfn data-def=\"價層電子對相斥學說（VSEPR 模型）。它根據中心原子周圍各個電子域之間的排斥，預測分子的形狀。\">價層電子對相斥學說 <span class=\"en-term\">(valence shell electron pair repulsion (VSEPR) model)</span></dfn>，即 VSEPR 模型。它根據中心原子周圍各個電子域之間的排斥，預測分子的形狀。",
 
     // Shapes of molecules: the VSEPR model > data-def attribute
-    "Valence shell electron pair repulsion model. It predicts the shape of a molecule from the repulsion between the electron domains around a central atom.": "價層電子對相斥模型。它根據中心原子周圍各個電子域之間的排斥，預測分子的形狀。",
+    "Valence shell electron pair repulsion model. It predicts the shape of a molecule from the repulsion between the electron domains around a central atom.": "價層電子對相斥學說（VSEPR 模型）。它根據中心原子周圍各個電子域之間的排斥，預測分子的形狀。",
 
     // Shapes of molecules: the VSEPR model > h3
     // Shapes of molecules: the VSEPR model > table > th
@@ -2400,7 +2400,7 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "Exam-style practice": "考試題型練習",
 
     // Exam-style practice > p
-    "Three sets, from first steps to level 7. Questions you have not yet answered correctly come first. All questions are original and written in the style of the IB papers.": "共有三組題目，由入門到 7 級程度。你還未答對的題目會先出現。所有題目都是原創的，並按 IB 試卷的風格編寫。",
+    "Three sets, from first steps to level 7. Questions you have not yet answered correctly come first. All questions are original and written in the style of the IB papers.": "共三組題目，由入門到 7 級程度。你尚未答對的題目會先出現。所有題目都是原創的，並按 IB 試卷的風格編寫。",
 
     // Exam-style practice > data-title attribute
     "Foundation: one idea at a time": "基礎：每次一個概念",
@@ -2781,10 +2781,10 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "Predict first.": "請先預測。",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "No": "否",
+    "No": "不會",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Yes": "是",
+    "Yes": "會",
 
     // widget string (assets/js/widgets-s2-2.js)
     "Yes: the molecule is polar.": "有：分子是極性的。",

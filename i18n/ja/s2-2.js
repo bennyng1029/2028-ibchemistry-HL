@@ -2790,7 +2790,7 @@ S1.i18n.register('ja', 's2-2', {
     "Yes: the molecule is polar.": "ある：この分子は極性分子です。",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "None: the ion has no net dipole.": "ない：このイオンにイオン全体の双極子はありません。",
+    "None: the ion has no net dipole.": "ない：このイオン全体の双極子はありません。",
 
     // widget string (assets/js/widgets-s2-2.js)
     "None: the molecule is non-polar.": "ない：この分子は無極性分子です。",

@@ -1801,13 +1801,13 @@ S1.i18n.register('ja', 's2-2h', {
     "Overall charge of the species": "化学種全体の電荷",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "V: valence electrons of the free atom": "V：結合していない原子の価電子",
+    "V: valence electrons of the free atom": "V：単独の原子の価電子",
 
     // widget string (assets/js/widgets-s2-2h.js)
     "N: non-bonding electrons on this atom": "N：この原子の非共有電子",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "B: bonding electrons around this atom": "B：この原子のまわりの結合電子",
+    "B: bonding electrons around this atom": "B：この原子の結合電子",
 
     // widget string (assets/js/widgets-s2-2h.js)
     "Formal charge = V − N − ½B": "形式電荷 = V − N − ½B",
