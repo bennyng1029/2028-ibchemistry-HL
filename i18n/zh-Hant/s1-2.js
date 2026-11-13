@@ -1189,3 +1189,19 @@ S1.i18n.register('zh-Hant', 's1-2', {
 
   }
 });
+
+/* Added by i18n-extract --only-missing on 2026-11-13: new or changed English. */
+S1.i18n.register('zh-Hant', 's1-2', {
+  strings: {
+
+    // widget string (assets/js/widgets-s1-2.js)
+    "{n} p": "{n} p",
+
+    // widget string (assets/js/widgets-s1-2.js)
+    "{n} n": "{n} n",
+
+    // widget string (assets/js/widgets-s1-2.js)
+    "{n} e−": "{n} e−",
+
+  }
+});

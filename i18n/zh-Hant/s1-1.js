@@ -1793,3 +1793,37 @@ S1.i18n.register('zh-Hant', 's1-1', {
 
   }
 });
+
+/* Added by i18n-extract --only-missing on 2026-11-13: new or changed English. */
+S1.i18n.register('zh-Hant', 's1-1', {
+  strings: {
+
+    // Changes of state and state symbols > figure label
+    "energy absorbed (endothermic): arrows pointing right": "吸收能量（吸熱）：箭嘴向右",
+
+    // Changes of state and state symbols > figure label
+    "SOLID": "固體",
+
+    // Changes of state and state symbols > figure label
+    "LIQUID": "液體",
+
+    // Changes of state and state symbols > figure label
+    "GAS": "氣體",
+
+    // Changes of state and state symbols > figure label
+    "vaporization": "汽化 (vaporization)",
+
+    // Changes of state and state symbols > figure label
+    "energy released (exothermic): arrows pointing left": "釋出能量（放熱）：箭嘴向左",
+
+    // widget string (assets/js/widgets-s1-1.js)
+    "m.p. {T} °C": "熔點 {T} °C",
+
+    // widget string (assets/js/widgets-s1-1.js)
+    "b.p. {T} °C": "沸點 {T} °C",
+
+    // widget string (assets/js/widgets-s1-1.js)
+    "{C} °C = {K} K": "{C} °C = {K} K",
+
+  }
+});

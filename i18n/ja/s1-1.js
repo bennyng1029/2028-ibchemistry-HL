@@ -1793,3 +1793,37 @@ S1.i18n.register('ja', 's1-1', {
 
   }
 });
+
+/* Added by i18n-extract --only-missing on 2026-11-13: new or changed English. */
+S1.i18n.register('ja', 's1-1', {
+  strings: {
+
+    // Changes of state and state symbols > figure label
+    "energy absorbed (endothermic): arrows pointing right": "エネルギーを吸収（吸熱）：右向きの矢印",
+
+    // Changes of state and state symbols > figure label
+    "SOLID": "固体",
+
+    // Changes of state and state symbols > figure label
+    "LIQUID": "液体",
+
+    // Changes of state and state symbols > figure label
+    "GAS": "気体",
+
+    // Changes of state and state symbols > figure label
+    "vaporization": "気化 (vaporization)",
+
+    // Changes of state and state symbols > figure label
+    "energy released (exothermic): arrows pointing left": "エネルギーを放出（発熱）：左向きの矢印",
+
+    // widget string (assets/js/widgets-s1-1.js)
+    "m.p. {T} °C": "融点 {T} °C",
+
+    // widget string (assets/js/widgets-s1-1.js)
+    "b.p. {T} °C": "沸点 {T} °C",
+
+    // widget string (assets/js/widgets-s1-1.js)
+    "{C} °C = {K} K": "{C} °C = {K} K",
+
+  }
+});
