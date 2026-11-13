@@ -955,321 +955,321 @@ S1.i18n.register('ja', 's1-4.q', {
     // ── s1-4-q041 · order · exam · SL · Structure 1.4.5 · 2 marks
     "s1-4-q041": {
       // EN: <p>Put these steps in order to prepare 250.0 <span class="unit">cm3</span> of a standard solution from a solid.</p>
-      stem: "",
+      stem: "<p>固体から標準溶液 (standard solution) 250.0 <span class=\"unit\">cm3</span> をつくります。次の操作を正しい順に並べましょう。</p>",
       options: [
         // EN: Weigh the required mass of solid accurately on a balance.
-        "",
+        "必要な質量の固体を、電子てんびんで正確にはかる。",
         // EN: Dissolve the solid in a small volume of distilled water in a beaker, stirring with a glass rod.
-        "",
+        "ビーカーの中で、固体を少量の蒸留水に溶かす。ガラス棒でかき混ぜる。",
         // EN: Pour the solution through a funnel into a 250.0 cm<sup>3</sup> volumetric flask. Rinse the beaker, rod and funnel with distilled water and add the rinsings to the flask.
-        "",
+        "ろうとを使って、溶液を 250.0 cm<sup>3</sup> のメスフラスコ (volumetric flask) に注ぐ。ビーカー、ガラス棒、ろうとを蒸留水ですすぎ、その洗液もフラスコに加える。",
         // EN: Add distilled water until the bottom of the meniscus is on the graduation mark, adding the last part drop by drop.
-        "",
+        "メニスカスの底が標線に合うまで、蒸留水を加える。最後は 1 滴ずつ加える。",
         // EN: Stopper the flask and invert it several times to mix.
-        "",
+        "フラスコに栓をして、数回逆さにして混ぜる。",
       ],
       hints: [
         // EN: The solid must be fully dissolved before the volume is made up to the mark.
-        "",
+        "標線まで水を加える前に、固体を完全に溶かしておく必要があります。",
         // EN: Mixing comes last. If you mixed and then added more water, the concentration would change.
-        "",
+        "混ぜるのは最後です。混ぜたあとで水を足すと、濃度が変わってしまいます。",
       ],
       // EN: <p>Weigh, dissolve, transfer with rinsings, make up to the mark, mix.</p><p>The rinsings matter because any solution left in the beaker would mean less solute in the flask than you weighed. The flask is filled to the mark so that the volume of <em>solution</em> is exactly 250.0 <span class="unit">cm3</span>. Inverting makes the concentration the same throughout.</p>
-      solution: "",
+      solution: "<p>「はかる → 溶かす → 洗液ごと移す → 標線まで水を加える → 混ぜる」の順です。</p><p>洗液が大切なのは、ビーカーに溶液が残ると、フラスコの中の溶質がはかった量より少なくなるからです。標線まで満たすのは、<em>溶液</em>の体積をちょうど 250.0 <span class=\"unit\">cm3</span> にするためです。逆さにして混ぜると、濃度がどこでも同じになります。</p>",
     },
 
     // ── s1-4-q042 · short · exam · SL · Structure 1.4.5 · 3 marks
     "s1-4-q042": {
       // EN: <p>A student has weighed 2.650 <span class="unit">g</span> of anhydrous sodium carbonate into a small beaker.</p><p>Describe how the student should use this solid to prepare 250.0 <span class="unit">cm3</span> of a standard solution.</p>
-      stem: "",
+      stem: "<p>ある生徒が、無水炭酸ナトリウム 2.650 <span class=\"unit\">g</span> を小さなビーカーにはかり取りました。</p><p>この固体を使って標準溶液 (standard solution) 250.0 <span class=\"unit\">cm3</span> をつくる方法を記述しなさい (describe)。</p>",
       hints: [
         // EN: Name the piece of glassware that measures one fixed volume very precisely.
-        "",
+        "決まった 1 つの体積をとても正確にはかれるガラス器具があります。その名前を書きましょう。",
         // EN: How do you make sure that <em>all</em> of the weighed solid ends up in the solution?
-        "",
+        "はかり取った固体を<em>すべて</em>溶液に入れるには、どうしますか。",
         // EN: There are two more things to say: how the final volume is set, and what you do after that.
-        "",
+        "書くことがあと 2 つあります。最終的な体積をどう合わせるか、そしてそのあとに何をするかです。",
       ],
       // EN: <p>What the marks reward: the type of water (distilled or deionized, because tap water contains dissolved ions), the volumetric flask with the rinsings transferred, making up to the mark, and mixing by inversion.</p><p>Two answers that lose marks: "add 250 <span class="unit">cm3</span> of water" (the final <em>solution</em> must be 250.0 <span class="unit">cm3</span>, which is not the same thing) and using a beaker or measuring cylinder to measure the final volume (not precise enough).</p>
-      solution: "",
+      solution: "<p>点になるのは次の内容です。水の種類（蒸留水または脱イオン水。水道水には溶けたイオンが含まれるため）。メスフラスコを使い、洗液も移すこと。標線まで水を加えること。逆さにして混ぜること。</p><p>点を失う答えが 2 つあります。1 つは「水を 250 <span class=\"unit\">cm3</span> 加える」です（250.0 <span class=\"unit\">cm3</span> でなければならないのは、できあがった<em>溶液</em>です。同じことではありません）。もう 1 つは、最終的な体積をビーカーやメスシリンダーではかることです（精度が足りません）。</p>",
       // EN: <p>Dissolve the solid in distilled (deionized) water in the beaker. Transfer the solution to a 250.0 cm<sup>3</sup> volumetric flask, rinsing the beaker (and funnel and stirring rod) with distilled water and adding the rinsings to the flask. Add distilled water up to the graduation mark (bottom of the meniscus on the line). Stopper and invert the flask several times to mix.</p>
-      answer: "",
+      answer: "<p>ビーカーの中で、固体を蒸留水（脱イオン水）に溶かす。溶液を 250.0 cm<sup>3</sup> のメスフラスコに移す。ビーカー（とろうと、ガラス棒）を蒸留水ですすぎ、洗液もフラスコに加える。標線まで蒸留水を加える（メニスカスの底を線に合わせる）。栓をして、フラスコを数回逆さにして混ぜる。</p>",
       markscheme: [
         // EN: Dissolve the solid in distilled / deionized water (in the beaker). (Do not accept "water" alone.)
-        "",
+        "固体を蒸留水 / 脱イオン水に（ビーカーの中で）溶かす。（「水」だけでは認めない。）",
         // EN: Transfer to a 250 cm³ volumetric flask AND rinse the beaker, adding the rinsings / washings to the flask.
-        "",
+        "250 cm³ のメスフラスコ (volumetric flask) に移し、かつビーカーをすすいで、その洗液もフラスコに加える。",
         // EN: Make up to the (graduation) mark with distilled water / until the bottom of the meniscus is on the mark. (Do not accept "add 250 cm³ of water".)
-        "",
+        "蒸留水を標線まで加える / メニスカスの底が標線に合うまで加える。（「水を 250 cm³ 加える」は認めない。）",
         // EN: Stopper and invert / shake to mix thoroughly. (Any three points for 3 marks.)
-        "",
+        "栓をして、逆さにする / 振ってよく混ぜる。（どれか 3 つで 3 点。）",
       ],
     },
 
     // ── s1-4-q043 · short · challenge · SL · Structure 1.4.5 · 3 marks
     "s1-4-q043": {
       // EN: <p>A student has a 0.500 <span class="unit">mol dm-3</span> stock solution of nickel(II) sulfate. To make a calibration curve they need 100.0 <span class="unit">cm3</span> of a 0.0500 <span class="unit">mol dm-3</span> solution.</p><p>Calculate the volume of stock solution needed and describe how to carry out the dilution, naming the glassware.</p>
-      stem: "",
+      stem: "<p>ある生徒が、0.500 <span class=\"unit\">mol dm-3</span> の硫酸ニッケル(II) の原液 (stock solution) を持っています。検量線 (calibration curve) をつくるために、0.0500 <span class=\"unit\">mol dm-3</span> の溶液が 100.0 <span class=\"unit\">cm3</span> 必要です。</p><p>必要な原液の体積を計算しなさい (calculate)。また、使うガラス器具の名前を挙げて、希釈のしかたを記述しなさい (describe)。</p>",
       hints: [
         // EN: The amount of solute does not change on dilution: <span class="mono"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></span>.
-        "",
+        "うすめても、溶質の物質量は変わりません：<span class=\"mono\"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></span>。",
         // EN: Choose glassware made to deliver or contain one precise volume. A measuring cylinder is not precise enough.
-        "",
+        "決まった 1 つの体積を正確にはかり取る器具と、正確に入れる器具を選びます。メスシリンダーでは精度が足りません。",
         // EN: How do you make the final volume exactly 100.0 <span class="unit">cm3</span>?
-        "",
+        "最終的な体積をちょうど 100.0 <span class=\"unit\">cm3</span> にするには、どうしますか。",
       ],
       // EN: <div class="worked__math"><i>V</i><sub>1</sub> = <span class="frac"><span><i>C</i><sub>2</sub><i>V</i><sub>2</sub></span><span><i>C</i><sub>1</sub></span></span><br>&nbsp;&nbsp;= <span class="frac"><span>0.0500 <span class="unit">mol dm-3</span> × 100.0 <span class="unit">cm3</span></span><span>0.500 <span class="unit">mol dm-3</span></span></span><br>&nbsp;&nbsp;= <strong>10.0 <span class="unit">cm3</span></strong></div><p>A pipette delivers the 10.0 <span class="unit">cm3</span> precisely. A volumetric flask fixes the final volume precisely. Writing "add 90 <span class="unit">cm3</span> of water" does not earn the mark: you make the solution <em>up to the mark</em>, because it is the final volume of solution that must be 100.0 <span class="unit">cm3</span>.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>V</i><sub>1</sub> = <span class=\"frac\"><span><i>C</i><sub>2</sub><i>V</i><sub>2</sub></span><span><i>C</i><sub>1</sub></span></span><br>&nbsp;&nbsp;= <span class=\"frac\"><span>0.0500 <span class=\"unit\">mol dm-3</span> × 100.0 <span class=\"unit\">cm3</span></span><span>0.500 <span class=\"unit\">mol dm-3</span></span></span><br>&nbsp;&nbsp;= <strong>10.0 <span class=\"unit\">cm3</span></strong></div><p>ホールピペットを使うと、10.0 <span class=\"unit\">cm3</span> を正確にはかり取れます。メスフラスコを使うと、最終的な体積が正確に決まります。「水を 90 <span class=\"unit\">cm3</span> 加える」と書いても点になりません。溶液は<em>標線まで</em>水を加えてつくります。100.0 <span class=\"unit\">cm3</span> でなければならないのは、できあがった溶液の体積だからです。</p>",
       // EN: <p><i>V</i><sub>1</sub> = (0.0500 × 100.0) ÷ 0.500 = 10.0 cm<sup>3</sup>.</p><p>Use a 10.0 cm<sup>3</sup> volumetric (bulb) pipette to transfer the stock solution into a 100.0 cm<sup>3</sup> volumetric flask. Add distilled water up to the graduation mark. Stopper and invert to mix.</p>
-      answer: "",
+      answer: "<p><i>V</i><sub>1</sub> = (0.0500 × 100.0) ÷ 0.500 = 10.0 cm<sup>3</sup>。</p><p>10.0 cm<sup>3</sup> のホールピペット (volumetric pipette) で原液をはかり取り、100.0 cm<sup>3</sup> のメスフラスコ (volumetric flask) に移す。標線まで蒸留水を加える。栓をして、逆さにして混ぜる。</p>",
       markscheme: [
         // EN: Volume of stock = 10.0 cm³.
-        "",
+        "原液の体積 = 10.0 cm³。",
         // EN: Measured with a (10.0 cm³) volumetric / graduated pipette (or burette). (Do not accept measuring cylinder.)
-        "",
+        "（10.0 cm³ の）ホールピペット / メスピペット（またはビュレット）ではかり取る。（メスシリンダーは認めない。）",
         // EN: Into a 100.0 cm³ volumetric flask.
-        "",
+        "100.0 cm³ のメスフラスコに入れる。",
         // EN: Made up to the mark with distilled / deionized water, AND mixed / inverted. (The volume mark plus any two of the other points for 3 marks.)
-        "",
+        "蒸留水 / 脱イオン水を標線まで加え、かつ混ぜる / 逆さにする。（体積の点に加えて、ほかの 3 つのうち 2 つで 3 点。）",
       ],
     },
 
     // ── s1-4-q044 · numeric · challenge · SL · Structure 1.4.5 · 3 marks
     "s1-4-q044": {
       // EN: <p>5.55 <span class="unit">g</span> of calcium chloride, <span class="chem">CaCl2</span>, is dissolved in distilled water and made up to 500.0 <span class="unit">cm3</span> in a volumetric flask (solution A).</p><p>10.0 <span class="unit">cm3</span> of solution A is then pipetted into a 250.0 <span class="unit">cm3</span> volumetric flask and made up to the mark (solution B).</p><p>Calculate [<span class="chem">Cl-</span>] in solution B, in <span class="unit">mol dm-3</span>. Give your answer to 3 significant figures.</p><p><i>M</i>(<span class="chem">CaCl2</span>) = 110.98 <span class="unit">g mol-1</span></p>
-      stem: "",
+      stem: "<p>塩化カルシウム <span class=\"chem\">CaCl2</span> 5.55 <span class=\"unit\">g</span> を蒸留水に溶かし、メスフラスコで全体を 500.0 <span class=\"unit\">cm3</span> にします（溶液 A）。</p><p>次に、溶液 A を 10.0 <span class=\"unit\">cm3</span> ホールピペットではかり取り、250.0 <span class=\"unit\">cm3</span> のメスフラスコに入れて、標線まで水を加えます（溶液 B）。</p><p>溶液 B の [<span class=\"chem\">Cl-</span>] を <span class=\"unit\">mol dm-3</span> 単位で計算しなさい (calculate)。有効数字 3 桁で答えましょう。</p><p><i>M</i>(<span class=\"chem\">CaCl2</span>) = 110.98 <span class=\"unit\">g mol-1</span></p>",
       hints: [
         // EN: Plan the chain: mass → amount of <span class="chem">CaCl2</span> → concentration of solution A → chloride ion concentration → dilution.
-        "",
+        "計算の流れを決めます：質量 → <span class=\"chem\">CaCl2</span> の物質量 → 溶液 A の濃度 → 塩化物イオンの濃度 → 希釈。",
         // EN: For solution A use <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span> then <span class="mono"><i>C</i> = <i>n</i> ÷ <i>V</i></span> with <i>V</i> = 0.5000 <span class="unit">dm3</span>. Each <span class="chem">CaCl2</span> gives 2 <span class="chem">Cl-</span>.
-        "",
+        "溶液 A には、まず <span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>M</i></span>、次に <span class=\"mono\"><i>C</i> = <i>n</i> ÷ <i>V</i></span> を使います。<i>V</i> = 0.5000 <span class=\"unit\">dm3</span> です。<span class=\"chem\">CaCl2</span> 1 つから <span class=\"chem\">Cl-</span> が 2 個生じます。",
         // EN: For the dilution use <span class="mono"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></span> with <i>V</i><sub>1</sub> = 10.0 <span class="unit">cm3</span> and <i>V</i><sub>2</sub> = 250.0 <span class="unit">cm3</span>.
-        "",
+        "希釈には <span class=\"mono\"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></span> を使います。<i>V</i><sub>1</sub> = 10.0 <span class=\"unit\">cm3</span>、<i>V</i><sub>2</sub> = 250.0 <span class=\"unit\">cm3</span> です。",
       ],
       // EN: <div class="worked__math"><i>n</i>(<span class="chem">CaCl2</span>) = <span class="frac"><span>5.55 <span class="unit">g</span></span><span>110.98 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.05001 <span class="unit">mol</span></div><div class="worked__math"><i>V</i>(A) = 500.0 <span class="unit">cm3</span> ÷ 1000<br>&nbsp;&nbsp;= 0.5000 <span class="unit">dm3</span></div><div class="worked__math">[<span class="chem">CaCl2</span>] in A = <span class="frac"><span>0.05001 <span class="unit">mol</span></span><span>0.5000 <span class="unit">dm3</span></span></span><br>&nbsp;&nbsp;= 0.1000 <span class="unit">mol dm-3</span> &nbsp; (M1)</div><div class="worked__math">[<span class="chem">Cl-</span>] in A = 2 × 0.1000 <span class="unit">mol dm-3</span><br>&nbsp;&nbsp;= 0.2000 <span class="unit">mol dm-3</span> &nbsp; (M2)</div><p>Dilution: the same ions are spread through a larger volume, so multiply by <i>V</i><sub>1</sub> ÷ <i>V</i><sub>2</sub>.</p><div class="worked__math"><span class="frac"><span><i>V</i><sub>1</sub></span><span><i>V</i><sub>2</sub></span></span> = <span class="frac"><span>10.0 <span class="unit">cm3</span></span><span>250.0 <span class="unit">cm3</span></span></span><br>&nbsp;&nbsp;= 0.0400</div><div class="worked__math">[<span class="chem">Cl-</span>] in B = 0.2000 <span class="unit">mol dm-3</span> × 0.0400<br>&nbsp;&nbsp;= <strong>0.00800 <span class="unit">mol dm-3</span></strong> &nbsp; (M3)</div><p>Named slips: 0.00400 means you forgot that each <span class="chem">CaCl2</span> gives 2 chloride ions. 0.200 is solution A, before the dilution.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>n</i>(<span class=\"chem\">CaCl2</span>) = <span class=\"frac\"><span>5.55 <span class=\"unit\">g</span></span><span>110.98 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.05001 <span class=\"unit\">mol</span></div><div class=\"worked__math\"><i>V</i>(A) = 500.0 <span class=\"unit\">cm3</span> ÷ 1000<br>&nbsp;&nbsp;= 0.5000 <span class=\"unit\">dm3</span></div><div class=\"worked__math\">[<span class=\"chem\">CaCl2</span>]（溶液 A） = <span class=\"frac\"><span>0.05001 <span class=\"unit\">mol</span></span><span>0.5000 <span class=\"unit\">dm3</span></span></span><br>&nbsp;&nbsp;= 0.1000 <span class=\"unit\">mol dm-3</span> &nbsp; (M1)</div><div class=\"worked__math\">[<span class=\"chem\">Cl-</span>]（溶液 A） = 2 × 0.1000 <span class=\"unit\">mol dm-3</span><br>&nbsp;&nbsp;= 0.2000 <span class=\"unit\">mol dm-3</span> &nbsp; (M2)</div><p>希釈：同じ数のイオンが、より大きな体積に広がります。だから <i>V</i><sub>1</sub> ÷ <i>V</i><sub>2</sub> をかけます。</p><div class=\"worked__math\"><span class=\"frac\"><span><i>V</i><sub>1</sub></span><span><i>V</i><sub>2</sub></span></span> = <span class=\"frac\"><span>10.0 <span class=\"unit\">cm3</span></span><span>250.0 <span class=\"unit\">cm3</span></span></span><br>&nbsp;&nbsp;= 0.0400</div><div class=\"worked__math\">[<span class=\"chem\">Cl-</span>]（溶液 B） = 0.2000 <span class=\"unit\">mol dm-3</span> × 0.0400<br>&nbsp;&nbsp;= <strong>0.00800 <span class=\"unit\">mol dm-3</span></strong> &nbsp; (M3)</div><p>よくあるミス：0.00400 は、<span class=\"chem\">CaCl2</span> 1 つから塩化物イオンが 2 個生じることを忘れたときの値です。0.200 は、うすめる前の溶液 A の値です。</p>",
     },
 
     // ── s1-4-q045 · numeric · challenge · SL · Structure 1.4.5 · 3 marks
     "s1-4-q045": {
       // EN: <p>A student makes a calibration curve for a coloured solution of copper(II) sulfate by measuring the absorbance of four standard solutions in a colorimeter.</p><div class="table-scroll"><table class="data"><caption>Calibration data</caption><thead><tr><th scope="col" class="num"><span style="text-transform:none;letter-spacing:0">[<span class="chem">CuSO4</span>] / mol dm<sup>−3</sup></span></th><th scope="col" class="num"><span style="text-transform:none;letter-spacing:0">Absorbance</span></th></tr></thead><tbody><tr><td class="num">0.010</td><td class="num">0.120</td></tr><tr><td class="num">0.020</td><td class="num">0.240</td></tr><tr><td class="num">0.030</td><td class="num">0.360</td></tr><tr><td class="num">0.040</td><td class="num">0.480</td></tr></tbody></table></div><p>The graph of absorbance against concentration is a straight line through the origin.</p><p>An unknown solution is too dark to measure directly. The student dilutes 5.00 <span class="unit">cm3</span> of it to 100.0 <span class="unit">cm3</span>. The diluted solution has an absorbance of 0.300.</p><p>Determine the concentration of the <strong>original</strong> unknown solution, in <span class="unit">mol dm-3</span>. Give your answer to 2 significant figures.</p>
-      stem: "",
+      stem: "<p>ある生徒が、色のついた硫酸銅(II) 溶液の検量線 (calibration curve) をつくります。比色計 (colorimeter) を使って、4 つの標準溶液の吸光度 (absorbance) をはかりました。</p><div class=\"table-scroll\"><table class=\"data\"><caption>検量線のデータ</caption><thead><tr><th scope=\"col\" class=\"num\"><span style=\"text-transform:none;letter-spacing:0\">[<span class=\"chem\">CuSO4</span>] / mol dm<sup>−3</sup></span></th><th scope=\"col\" class=\"num\"><span style=\"text-transform:none;letter-spacing:0\">吸光度</span></th></tr></thead><tbody><tr><td class=\"num\">0.010</td><td class=\"num\">0.120</td></tr><tr><td class=\"num\">0.020</td><td class=\"num\">0.240</td></tr><tr><td class=\"num\">0.030</td><td class=\"num\">0.360</td></tr><tr><td class=\"num\">0.040</td><td class=\"num\">0.480</td></tr></tbody></table></div><p>濃度を横軸、吸光度を縦軸にとったグラフは、原点を通る直線になります。</p><p>濃度のわからない溶液は、色が濃すぎてそのままでは測定できません。そこで生徒は、この溶液 5.00 <span class=\"unit\">cm3</span> をうすめて 100.0 <span class=\"unit\">cm3</span> にします。うすめた溶液の吸光度は 0.300 です。</p><p><strong>もとの</strong>溶液の濃度を <span class=\"unit\">mol dm-3</span> 単位で求めなさい (determine)。有効数字 2 桁で答えましょう。</p>",
       hints: [
         // EN: A calibration curve turns a measurement (absorbance) into a concentration. Find the gradient of the line: absorbance per <span class="unit">mol dm-3</span>.
-        "",
+        "検量線は、測定値（吸光度）を濃度に直すためのものです。直線の傾きを求めましょう。傾きは、1 <span class=\"unit\">mol dm-3</span> あたりの吸光度です。",
         // EN: Use the line to read the concentration of the <em>diluted</em> solution: concentration = absorbance ÷ gradient.
-        "",
+        "直線を使って、<em>うすめた</em>溶液の濃度を読み取ります。濃度 = 吸光度 ÷ 傾き です。",
         // EN: Then undo the dilution with <span class="mono"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></span>. The original solution must be more concentrated than the diluted one.
-        "",
+        "次に、<span class=\"mono\"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></span> で、うすめる前の濃度に戻します。もとの溶液は、うすめた溶液より濃いはずです。",
       ],
       // EN: <div class="worked__math">Gradient = <span class="frac"><span>0.480</span><span>0.040 <span class="unit">mol dm-3</span></span></span><br>&nbsp;&nbsp;= 12.0 <span class="unit">dm3 mol-1</span> &nbsp; (M1)</div><div class="worked__math"><i>C</i>(diluted) = <span class="frac"><span>0.300</span><span>12.0 <span class="unit">dm3 mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0250 <span class="unit">mol dm-3</span> &nbsp; (M2)</div><p>Undo the dilution. The original solution is more concentrated by the factor <i>V</i><sub>2</sub> ÷ <i>V</i><sub>1</sub>.</p><div class="worked__math"><span class="frac"><span><i>V</i><sub>2</sub></span><span><i>V</i><sub>1</sub></span></span> = <span class="frac"><span>100.0 <span class="unit">cm3</span></span><span>5.00 <span class="unit">cm3</span></span></span><br>&nbsp;&nbsp;= 20.0</div><div class="worked__math"><i>C</i>(original) = 0.0250 <span class="unit">mol dm-3</span> × 20.0<br>&nbsp;&nbsp;= <strong>0.50 <span class="unit">mol dm-3</span></strong> &nbsp; (M3)</div><p>The absorbance 0.300 lies between the standards (0.240 and 0.360), so the reading is inside the range of the calibration line. That is why the dark solution was diluted first. Named slips: 0.025 is the diluted solution. 0.00125 means you applied the dilution factor the wrong way round.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">傾き = <span class=\"frac\"><span>0.480</span><span>0.040 <span class=\"unit\">mol dm-3</span></span></span><br>&nbsp;&nbsp;= 12.0 <span class=\"unit\">dm3 mol-1</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>C</i>(うすめた溶液) = <span class=\"frac\"><span>0.300</span><span>12.0 <span class=\"unit\">dm3 mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0250 <span class=\"unit\">mol dm-3</span> &nbsp; (M2)</div><p>うすめる前の濃度に戻します。もとの溶液は、<i>V</i><sub>2</sub> ÷ <i>V</i><sub>1</sub> 倍だけ濃いです。</p><div class=\"worked__math\"><span class=\"frac\"><span><i>V</i><sub>2</sub></span><span><i>V</i><sub>1</sub></span></span> = <span class=\"frac\"><span>100.0 <span class=\"unit\">cm3</span></span><span>5.00 <span class=\"unit\">cm3</span></span></span><br>&nbsp;&nbsp;= 20.0</div><div class=\"worked__math\"><i>C</i>(もとの溶液) = 0.0250 <span class=\"unit\">mol dm-3</span> × 20.0<br>&nbsp;&nbsp;= <strong>0.50 <span class=\"unit\">mol dm-3</span></strong> &nbsp; (M3)</div><p>吸光度 0.300 は、標準溶液の値（0.240 と 0.360）の間にあります。つまり、検量線の範囲の中で読み取れています。色の濃い溶液を先にうすめたのは、このためです。よくあるミス：0.025 は、うすめた溶液の濃度です。0.00125 は、希釈倍率を逆向きに使ったときの値です。</p>",
     },
 
     // ── s1-4-q046 · mcq · foundation · SL · Structure 1.4.6 · 1 mark
     "s1-4-q046": {
       // EN: <p>Which is a correct statement of Avogadro's law?</p>
-      stem: "",
+      stem: "<p>アボガドロの法則 (Avogadro's law) を正しく述べている文はどれですか。</p>",
       options: [
         // EN: Equal masses of all gases, at the same temperature and pressure, occupy equal volumes.
-        "",
+        "同じ温度と圧力では、質量が等しい気体は、種類によらず同じ体積を占める。",
         // EN: Equal volumes of all gases, at the same temperature and pressure, contain equal numbers of molecules.
-        "",
+        "同じ温度と圧力では、体積が等しい気体は、種類によらず同じ数の分子を含む。",
         // EN: Equal volumes of all gases, at the same temperature and pressure, have equal masses.
-        "",
+        "同じ温度と圧力では、体積が等しい気体は、種類によらず同じ質量をもつ。",
         // EN: Equal volumes of all gases contain equal numbers of molecules at any temperature and pressure.
-        "",
+        "体積が等しい気体は、温度と圧力がどうであっても、種類によらず同じ数の分子を含む。",
       ],
       hints: [
         // EN: The law connects two things: the volume of a gas and the number of molecules in it.
-        "",
+        "この法則は 2 つのものを結びつけます。気体の体積と、その中の分子の数です。",
         // EN: A gas expands when heated or when the pressure is lowered. What conditions must be the same for a fair comparison?
-        "",
+        "気体は、加熱したり圧力を下げたりするとふくらみます。公平にくらべるには、どの条件をそろえる必要がありますか。",
       ],
       // EN: <p>Avogadro's law: equal volumes of all gases, measured under the same conditions of temperature and pressure, contain equal numbers of molecules. This means that for gases at the same temperature and pressure, the ratio of volumes equals the ratio of amounts in moles.</p>
-      solution: "",
+      solution: "<p>アボガドロの法則：同じ温度・同じ圧力のもとではかると、体積が等しい気体は、種類によらず同じ数の分子を含みます。つまり、温度と圧力が同じ気体では、体積の比がモル単位の物質量の比に等しくなります。</p>",
       misconception: {
         // EN (option A): Equal masses of different gases contain different numbers of molecules, because their molar masses differ. The law links volume to number of molecules, not to mass.
-        "0": "",
+        "0": "質量が等しくても、気体の種類が違えば分子の数は違います。モル質量が違うからです。この法則が結びつけるのは体積と分子の数で、質量ではありません。",
         // EN (option C): Equal volumes hold equal numbers of molecules, but the molecules of different gases have different masses. So the masses are not equal.
-        "2": "",
+        "2": "体積が等しければ、分子の数は等しくなります。でも、気体の種類が違うと分子の質量が違います。だから質量は等しくなりません。",
         // EN (option D): The condition is missing. The two gases must be measured at the <em>same</em> temperature and pressure as each other.
-        "3": "",
+        "3": "条件が抜けています。2 つの気体は、たがいに<em>同じ</em>温度と圧力ではからなければなりません。",
       },
     },
 
     // ── s1-4-q047 · numeric · foundation · SL · Structure 1.4.6 · 1 mark
     "s1-4-q047": {
       // EN: <p>Nitrogen reacts with hydrogen to form ammonia.</p><p><span class="chem">N2(g) + 3H2(g) -> 2NH3(g)</span></p><p>What volume of hydrogen, in <span class="unit">cm3</span>, reacts exactly with 30 <span class="unit">cm3</span> of nitrogen? All volumes are measured at the same temperature and pressure.</p>
-      stem: "",
+      stem: "<p>窒素は水素と反応してアンモニアになります。</p><p><span class=\"chem\">N2(g) + 3H2(g) -> 2NH3(g)</span></p><p>30 <span class=\"unit\">cm3</span> の窒素とちょうど反応する水素の体積は何 <span class=\"unit\">cm3</span> ですか。体積はすべて同じ温度と圧力ではかります。</p>",
       hints: [
         // EN: For gases at the same temperature and pressure, the ratio of volumes is the same as the ratio of moles in the equation.
-        "",
+        "同じ温度と圧力の気体では、体積の比は化学反応式のモルの比と同じです。",
         // EN: The equation shows 1 volume of <span class="chem">N2</span> reacting with 3 volumes of <span class="chem">H2</span>.
-        "",
+        "化学反応式から、<span class=\"chem\">N2</span> 1 体積が <span class=\"chem\">H2</span> 3 体積と反応するとわかります。",
       ],
       // EN: <p>The mole ratio <span class="chem">N2</span> : <span class="chem">H2</span> is 1 : 3. At the same temperature and pressure the volume ratio is also 1 : 3.</p><div class="worked__math"><i>V</i>(<span class="chem">H2</span>) = 3 × 30 <span class="unit">cm3</span> = <strong>90 <span class="unit">cm3</span></strong></div><p>No molar masses or conversions to moles are needed. Avogadro's law lets you use the coefficients directly on the volumes.</p>
-      solution: "",
+      solution: "<p>物質量の比（モル比）<span class=\"chem\">N2</span> : <span class=\"chem\">H2</span> は 1 : 3 です。同じ温度と圧力では、体積の比も 1 : 3 です。</p><div class=\"worked__math\"><i>V</i>(<span class=\"chem\">H2</span>) = 3 × 30 <span class=\"unit\">cm3</span> = <strong>90 <span class=\"unit\">cm3</span></strong></div><p>モル質量も、モルへの換算もいりません。アボガドロの法則があるので、係数をそのまま体積に使えます。</p>",
     },
 
     // ── s1-4-q048 · mcq · exam · SL · Structure 1.4.6 · 1 mark
     "s1-4-q048": {
       // EN: <p>20 <span class="unit">cm3</span> of propane is burned completely in 150 <span class="unit">cm3</span> of oxygen, which is an excess.</p><p><span class="chem">C3H8(g) + 5O2(g) -> 3CO2(g) + 4H2O(l)</span></p><p>What is the total volume of gas remaining, in <span class="unit">cm3</span>, when the mixture has returned to the original temperature and pressure?</p>
-      stem: "",
+      stem: "<p>20 <span class=\"unit\">cm3</span> のプロパンを、150 <span class=\"unit\">cm3</span> の酸素の中で完全燃焼させます。酸素は過剰 (in excess) にあります。</p><p><span class=\"chem\">C3H8(g) + 5O2(g) -> 3CO2(g) + 4H2O(l)</span></p><p>混合物をもとの温度と圧力に戻したとき、残っている気体の体積は合わせて何 <span class=\"unit\">cm3</span> ですか。</p>",
       options: [
         // EN: 60
-        "",
+        "60",
         // EN: 110
-        "",
+        "110",
         // EN: 140
-        "",
+        "140",
         // EN: 190
-        "",
+        "190",
       ],
       hints: [
         // EN: Use the coefficients as volume ratios, for the gases only. Check every state symbol.
-        "",
+        "係数を体積の比として使います。ただし気体だけです。状態記号をすべて確かめましょう。",
         // EN: Work out the volume of <span class="chem">O2</span> that reacts and the volume of <span class="chem">CO2</span> formed from 20 <span class="unit">cm3</span> of propane.
-        "",
+        "20 <span class=\"unit\">cm3</span> のプロパンと反応する <span class=\"chem\">O2</span> の体積と、生じる <span class=\"chem\">CO2</span> の体積を求めます。",
         // EN: What is in the container at the end? The gas that was made, plus any gas that was not used up.
-        "",
+        "最後に容器の中にあるのは何ですか。生じた気体と、使われずに残った気体です。",
       ],
       // EN: <div class="worked__math"><i>V</i>(<span class="chem">O2</span>) reacting = 5 × 20 <span class="unit">cm3</span><br>&nbsp;&nbsp;= 100 <span class="unit">cm3</span></div><div class="worked__math"><i>V</i>(<span class="chem">O2</span>) left over = 150 <span class="unit">cm3</span> − 100 <span class="unit">cm3</span><br>&nbsp;&nbsp;= 50 <span class="unit">cm3</span></div><div class="worked__math"><i>V</i>(<span class="chem">CO2</span>) formed = 3 × 20 <span class="unit">cm3</span><br>&nbsp;&nbsp;= 60 <span class="unit">cm3</span></div><p>The water is a liquid, so its volume is negligible.</p><div class="worked__math">Total gas = 50 <span class="unit">cm3</span> + 60 <span class="unit">cm3</span><br>&nbsp;&nbsp;= <strong>110 <span class="unit">cm3</span></strong></div>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>V</i>(<span class=\"chem\">O2</span>)（反応した分） = 5 × 20 <span class=\"unit\">cm3</span><br>&nbsp;&nbsp;= 100 <span class=\"unit\">cm3</span></div><div class=\"worked__math\"><i>V</i>(<span class=\"chem\">O2</span>)（残った分） = 150 <span class=\"unit\">cm3</span> − 100 <span class=\"unit\">cm3</span><br>&nbsp;&nbsp;= 50 <span class=\"unit\">cm3</span></div><div class=\"worked__math\"><i>V</i>(<span class=\"chem\">CO2</span>)（生じた分） = 3 × 20 <span class=\"unit\">cm3</span><br>&nbsp;&nbsp;= 60 <span class=\"unit\">cm3</span></div><p>水は液体なので、その体積は無視できるほど小さいです。</p><div class=\"worked__math\">気体の合計 = 50 <span class=\"unit\">cm3</span> + 60 <span class=\"unit\">cm3</span><br>&nbsp;&nbsp;= <strong>110 <span class=\"unit\">cm3</span></strong></div>",
       misconception: {
         // EN (option A): This is the <span class="chem">CO2</span> only. Some oxygen is left over: 150 <span class="unit">cm3</span> was supplied but only 100 <span class="unit">cm3</span> reacted.
-        "0": "",
+        "0": "これは <span class=\"chem\">CO2</span> だけの体積です。酸素も残っています。150 <span class=\"unit\">cm3</span> 入れましたが、反応したのは 100 <span class=\"unit\">cm3</span> だけです。",
         // EN (option C): You counted the water as a gas (60 + 80) and left out the excess oxygen. The state symbol (l) shows that the water is liquid, so its volume is negligible.
-        "2": "",
+        "2": "水を気体として数え（60 + 80）、余った酸素を入れ忘れました。状態記号 (l) から、水は液体だとわかります。だから水の体積は無視できます。",
         // EN (option D): You included the excess oxygen, but you also counted 80 <span class="unit">cm3</span> of water vapour. The state symbol (l) shows that the water is liquid at the final conditions.
-        "3": "",
+        "3": "余った酸素は入れましたが、水蒸気 80 <span class=\"unit\">cm3</span> も数えてしまいました。状態記号 (l) から、最後の条件では水は液体だとわかります。",
       },
     },
 
     // ── s1-4-q049 · numeric · exam · SL · Structure 1.4.6 · 1 mark
     "s1-4-q049": {
       // EN: <p>Butane burns completely in oxygen.</p><p><span class="chem">2C4H10(g) + 13O2(g) -> 8CO2(g) + 10H2O(l)</span></p><p>Calculate the volume of oxygen, in <span class="unit">cm3</span>, needed to burn 20.0 <span class="unit">cm3</span> of butane completely. Both volumes are measured at the same temperature and pressure. Give your answer to 3 significant figures.</p>
-      stem: "",
+      stem: "<p>ブタンは酸素の中で完全燃焼します。</p><p><span class=\"chem\">2C4H10(g) + 13O2(g) -> 8CO2(g) + 10H2O(l)</span></p><p>20.0 <span class=\"unit\">cm3</span> のブタンを完全燃焼させるのに必要な酸素の体積を <span class=\"unit\">cm3</span> 単位で計算しなさい (calculate)。どちらの体積も、同じ温度と圧力ではかります。有効数字 3 桁で答えましょう。</p>",
       hints: [
         // EN: At the same temperature and pressure, volume ratio = mole ratio.
-        "",
+        "同じ温度と圧力では、体積の比 = 物質量の比（モル比）です。",
         // EN: The ratio is 2 volumes of butane to 13 volumes of oxygen. Watch the 2 in front of the butane: the ratio is not 1 : 13.
-        "",
+        "比は、ブタン 2 体積に対して酸素 13 体積です。ブタンの前の 2 に注意しましょう。比は 1 : 13 ではありません。",
       ],
       // EN: <p>The mole ratio <span class="chem">C4H10</span> : <span class="chem">O2</span> is 2 : 13. At the same temperature and pressure the volume ratio is also 2 : 13.</p><div class="worked__math"><i>V</i>(<span class="chem">O2</span>) = 20.0 <span class="unit">cm3</span> × <span class="frac"><span>13</span><span>2</span></span><br>&nbsp;&nbsp;= <strong>130 <span class="unit">cm3</span></strong></div><p>Named slip: 260 <span class="unit">cm3</span> means you multiplied by 13 and ignored the coefficient 2 on butane.</p>
-      solution: "",
+      solution: "<p>物質量の比（モル比）<span class=\"chem\">C4H10</span> : <span class=\"chem\">O2</span> は 2 : 13 です。同じ温度と圧力では、体積の比も 2 : 13 です。</p><div class=\"worked__math\"><i>V</i>(<span class=\"chem\">O2</span>) = 20.0 <span class=\"unit\">cm3</span> × <span class=\"frac\"><span>13</span><span>2</span></span><br>&nbsp;&nbsp;= <strong>130 <span class=\"unit\">cm3</span></strong></div><p>よくあるミス：260 <span class=\"unit\">cm3</span> は、13 をかけただけで、ブタンの係数 2 を無視したときの値です。</p>",
     },
 
     // ── s1-4-q050 · mcq · challenge · SL · Structure 1.4.6 · 1 mark
     "s1-4-q050": {
       // EN: <p>10 <span class="unit">cm3</span> of a gaseous hydrocarbon, <span class="chem">C</span><sub><i>x</i></sub><span class="chem">H</span><sub><i>y</i></sub>, burns completely in excess oxygen. It forms 30 <span class="unit">cm3</span> of carbon dioxide and 40 <span class="unit">cm3</span> of water vapour. All volumes are measured at the same temperature (above 100 °C) and pressure.</p><p>What is the formula of the hydrocarbon?</p>
-      stem: "",
+      stem: "<p>気体の炭化水素 <span class=\"chem\">C</span><sub><i>x</i></sub><span class=\"chem\">H</span><sub><i>y</i></sub> 10 <span class=\"unit\">cm3</span> を、過剰の酸素の中で完全燃焼させます。二酸化炭素が 30 <span class=\"unit\">cm3</span>、水蒸気が 40 <span class=\"unit\">cm3</span> 生じます。体積はすべて、同じ温度（100 °C より高い）と同じ圧力ではかります。</p><p>この炭化水素の化学式は何ですか。</p>",
       options: [
         // EN: <span class="chem">C3H4</span>
-        "",
+        "<span class=\"chem\">C3H4</span>",
         // EN: <span class="chem">C3H8</span>
-        "",
+        "<span class=\"chem\">C3H8</span>",
         // EN: <span class="chem">C4H6</span>
-        "",
+        "<span class=\"chem\">C4H6</span>",
         // EN: <span class="chem">C30H80</span>
-        "",
+        "<span class=\"chem\">C30H80</span>",
       ],
       hints: [
         // EN: Avogadro's law: the volume ratio is the ratio of molecules. Simplify 10 : 30 : 40.
-        "",
+        "アボガドロの法則：体積の比は、分子の数の比です。10 : 30 : 40 を簡単にしましょう。",
         // EN: One molecule of hydrocarbon gives 3 molecules of <span class="chem">CO2</span> and 4 molecules of <span class="chem">H2O</span>.
-        "",
+        "炭化水素 1 分子から、<span class=\"chem\">CO2</span> が 3 分子、<span class=\"chem\">H2O</span> が 4 分子生じます。",
         // EN: All the C atoms end up in <span class="chem">CO2</span> and all the H atoms end up in <span class="chem">H2O</span>. Count the atoms.
-        "",
+        "C 原子はすべて <span class=\"chem\">CO2</span> に、H 原子はすべて <span class=\"chem\">H2O</span> になります。原子の数を数えましょう。",
       ],
       // EN: <p>Volume ratio, hydrocarbon : <span class="chem">CO2</span> : <span class="chem">H2O</span>:</p><div class="worked__math">10 : 30 : 40 = 1 : 3 : 4</div><p>So 1 molecule of hydrocarbon gives 3 molecules of <span class="chem">CO2</span> and 4 molecules of <span class="chem">H2O</span>.</p><div class="worked__math">C atoms: <i>x</i> = 3 × 1 = 3</div><div class="worked__math">H atoms: <i>y</i> = 4 × 2 = 8</div><p>The hydrocarbon is <strong><span class="chem">C3H8</span></strong>. Here the water counts as a gas because the temperature is above 100 °C.</p>
-      solution: "",
+      solution: "<p>体積の比、炭化水素 : <span class=\"chem\">CO2</span> : <span class=\"chem\">H2O</span> は次のとおりです。</p><div class=\"worked__math\">10 : 30 : 40 = 1 : 3 : 4</div><p>つまり、炭化水素 1 分子から、<span class=\"chem\">CO2</span> が 3 分子、<span class=\"chem\">H2O</span> が 4 分子生じます。</p><div class=\"worked__math\">C 原子： <i>x</i> = 3 × 1 = 3</div><div class=\"worked__math\">H 原子： <i>y</i> = 4 × 2 = 8</div><p>この炭化水素は <strong><span class=\"chem\">C3H8</span></strong> です。ここでは温度が 100 °C より高いので、水も気体として数えます。</p>",
       misconception: {
         // EN (option A): You have the carbon right, but you gave each water molecule one hydrogen atom. Each <span class="chem">H2O</span> contains 2 H atoms, so 4 volumes of water means 8 H.
-        "0": "",
+        "0": "炭素は合っています。でも、水 1 分子に水素原子を 1 個として数えました。<span class=\"chem\">H2O</span> 1 分子には H 原子が 2 個あるので、水 4 体積は H 8 個分です。",
         // EN (option C): You swapped the two products. The 30 <span class="unit">cm3</span> of <span class="chem">CO2</span> gives the carbon and the 40 <span class="unit">cm3</span> of <span class="chem">H2O</span> gives the hydrogen.
-        "2": "",
+        "2": "2 つの生成物を入れ替えてしまいました。30 <span class=\"unit\">cm3</span> の <span class=\"chem\">CO2</span> から炭素の数が、40 <span class=\"unit\">cm3</span> の <span class=\"chem\">H2O</span> から水素の数がわかります。",
         // EN (option D): You used the volumes as numbers of atoms. Divide by the 10 <span class="unit">cm3</span> of hydrocarbon first, to find how many molecules of each product form from <em>one</em> molecule.
-        "3": "",
+        "3": "体積を、そのまま原子の数として使いました。まず、炭化水素の 10 <span class=\"unit\">cm3</span> でわりましょう。すると、炭化水素<em>1 分子</em>から各生成物が何分子できるかがわかります。",
       },
     },
 
     // ── s1-4-q051 · multi · challenge · SL · Structure 1.4.6 · 1 mark
     "s1-4-q051": {
       // EN: <p>Two identical flasks are at the same temperature and pressure. Flask A contains ammonia, <span class="chem">NH3</span>. Flask B contains oxygen, <span class="chem">O2</span>.</p><p>Which statements are correct? Select <strong>all</strong> that apply.</p><p>Use <i>A</i><sub>r</sub>: H = 1.01, N = 14.01, O = 16.00.</p>
-      stem: "",
+      stem: "<p>同じ大きさの 2 つのフラスコが、同じ温度と圧力にあります。フラスコ A にはアンモニア <span class=\"chem\">NH3</span>、フラスコ B には酸素 <span class=\"chem\">O2</span> が入っています。</p><p>正しい文はどれですか。当てはまるものを<strong>すべて</strong>選びましょう。</p><p>次の <i>A</i><sub>r</sub> を使いましょう：H = 1.01、N = 14.01、O = 16.00</p>",
       options: [
         // EN: The two flasks contain the same number of molecules.
-        "",
+        "2 つのフラスコは、同じ数の分子を含む。",
         // EN: Flask A contains twice as many atoms as flask B.
-        "",
+        "フラスコ A は、フラスコ B の 2 倍の数の原子を含む。",
         // EN: The two flasks contain the same mass of gas.
-        "",
+        "2 つのフラスコは、同じ質量の気体を含む。",
         // EN: The gas in flask B has the greater mass.
-        "",
+        "フラスコ B の気体のほうが、質量が大きい。",
         // EN: Flask B contains fewer molecules because <span class="chem">O2</span> molecules are heavier.
-        "",
+        "<span class=\"chem\">O2</span> 分子のほうが重いので、フラスコ B のほうが分子の数が少ない。",
       ],
       hints: [
         // EN: Start from Avogadro's law. What does it say about the number of molecules in each flask?
-        "",
+        "アボガドロの法則から始めます。それぞれのフラスコの分子の数について、何がわかりますか。",
         // EN: Then compare one molecule of each gas: how many atoms does it have, and what is its molar mass?
-        "",
+        "次に、それぞれの気体の分子 1 個をくらべます。原子は何個ありますか。モル質量はいくつですか。",
       ],
       // EN: <p>Same volume, temperature and pressure means the same number of molecules, and so the same amount in moles, <i>n</i>.</p><p>Atoms: <span class="chem">NH3</span> has 4 atoms per molecule and <span class="chem">O2</span> has 2. So flask A contains twice as many atoms.</p><p>Mass: <i>m</i> = <i>n</i> × <i>M</i>, and <i>n</i> is the same for both.</p><div class="worked__math"><i>M</i>(<span class="chem">NH3</span>) = 17.04 <span class="unit">g mol-1</span></div><div class="worked__math"><i>M</i>(<span class="chem">O2</span>) = 32.00 <span class="unit">g mol-1</span></div><p>Oxygen has the larger molar mass, so flask B has the greater mass.</p>
-      solution: "",
+      solution: "<p>体積、温度、圧力が同じなので、分子の数が同じです。だから、モル単位の物質量 <i>n</i> も同じです。</p><p>原子：<span class=\"chem\">NH3</span> は 1 分子に原子が 4 個、<span class=\"chem\">O2</span> は 2 個です。だから、フラスコ A には 2 倍の数の原子があります。</p><p>質量：<i>m</i> = <i>n</i> × <i>M</i> で、<i>n</i> はどちらも同じです。</p><div class=\"worked__math\"><i>M</i>(<span class=\"chem\">NH3</span>) = 17.04 <span class=\"unit\">g mol-1</span></div><div class=\"worked__math\"><i>M</i>(<span class=\"chem\">O2</span>) = 32.00 <span class=\"unit\">g mol-1</span></div><p>酸素のほうがモル質量が大きいので、フラスコ B のほうが質量が大きくなります。</p>",
       misconception: {
         // EN (option C): Equal numbers of molecules do not mean equal masses. The molar masses are different: 17.04 <span class="unit">g mol-1</span> for <span class="chem">NH3</span> and 32.00 <span class="unit">g mol-1</span> for <span class="chem">O2</span>.
-        "2": "",
+        "2": "分子の数が同じでも、質量が同じとはかぎりません。モル質量が違います。<span class=\"chem\">NH3</span> は 17.04 <span class=\"unit\">g mol-1</span>、<span class=\"chem\">O2</span> は 32.00 <span class=\"unit\">g mol-1</span> です。",
         // EN (option E): Avogadro's law does not depend on the mass or size of the molecules. Equal volumes at the same temperature and pressure contain equal numbers of molecules.
-        "4": "",
+        "4": "アボガドロの法則は、分子の質量や大きさに関係なく成り立ちます。同じ温度と圧力で体積が等しければ、分子の数は等しくなります。",
       },
     },
 
     // ── s1-4-q052 · mcq · foundation · SL · Structure 1.4.5 · 1 mark
     "s1-4-q052": {
       // EN: <p>A student wants to find the concentration of a coloured solution with a colorimeter and a calibration curve.</p><p>Which describes how the calibration curve is made and used?</p>
-      stem: "",
+      stem: "<p>ある生徒が、比色計 (colorimeter) と検量線 (calibration curve) を使って、色のついた溶液の濃度を調べようとしています。</p><p>検量線のつくり方と使い方を正しく説明しているのはどれですか。</p>",
       options: [
         // EN: Measure the absorbance of the unknown solution several times and take the mean.
-        "",
+        "濃度のわからない溶液の吸光度を何回かはかり、平均をとる。",
         // EN: Measure the absorbance of several solutions of known concentration, plot absorbance against concentration, then read the concentration of the unknown from the line.
-        "",
+        "濃度のわかっている溶液をいくつか用意して吸光度をはかり、濃度を横軸、吸光度を縦軸にとってグラフをかく。その直線から、濃度のわからない溶液の濃度を読み取る。",
         // EN: Measure the absorbance of one solution of known concentration and assume the unknown has the same concentration.
-        "",
+        "濃度のわかっている溶液 1 つの吸光度をはかり、濃度のわからない溶液も同じ濃度だと考える。",
         // EN: Plot the mass of solute against the volume of solution and find the gradient.
-        "",
+        "溶質の質量を縦軸、溶液の体積を横軸にとってグラフをかき、傾きを求める。",
       ],
       hints: [
         // EN: A calibration curve links an instrument reading to a concentration. Which solutions must you measure to draw it?
-        "",
+        "検量線は、測定器の読みと濃度を結びつけます。検量線をかくには、どの溶液をはかる必要がありますか。",
         // EN: Standard solutions have known concentrations. The unknown is measured last and read from the graph.
-        "",
+        "標準溶液 (standard solution) は、濃度がわかっている溶液です。濃度のわからない溶液は最後にはかり、グラフから濃度を読み取ります。",
       ],
       // EN: <p>Make several standard solutions of known concentration. Measure the absorbance of each. Plot absorbance (<i>y</i>) against concentration (<i>x</i>) and draw the line of best fit. Then measure the absorbance of the unknown and read its concentration from the line. The unknown should lie inside the range of the standards.</p>
-      solution: "",
+      solution: "<p>濃度のわかっている標準溶液をいくつかつくります。それぞれの吸光度 (absorbance) をはかります。吸光度を縦軸 (<i>y</i>)、濃度を横軸 (<i>x</i>) にとって点を打ち、最もよく合う直線（近似直線）を引きます。次に、濃度のわからない溶液の吸光度をはかり、直線から濃度を読み取ります。その値は、標準溶液の範囲の中に入っている必要があります。</p>",
       misconception: {
         // EN (option A): Repeating the reading makes it more reliable, but an absorbance is not a concentration. You need solutions of known concentration to link the two.
-        "0": "",
+        "0": "くり返しはかると、値の信頼性は上がります。でも、吸光度は濃度ではありません。この 2 つを結びつけるには、濃度のわかっている溶液が必要です。",
         // EN (option C): One known solution gives one point, not a line. Several standard solutions are needed, and the unknown is read from the line of best fit.
-        "2": "",
+        "2": "濃度のわかっている溶液が 1 つだけでは、点が 1 つ決まるだけで、直線になりません。標準溶液がいくつか必要です。濃度のわからない溶液の濃度は、最もよく合う直線から読み取ります。",
         // EN (option D): That graph would give a concentration in <span class="unit">g dm-3</span> for a solution you made yourself. It does not use the colorimeter and says nothing about the unknown.
-        "3": "",
+        "3": "そのグラフからわかるのは、自分でつくった溶液の <span class=\"unit\">g dm-3</span> 単位の濃度です。比色計を使っていないので、濃度のわからない溶液については何もわかりません。",
       },
     },
 
     // ── s1-4-q053 · numeric · foundation · SL · Structure 1.4.5 · 1 mark
     "s1-4-q053": {
       // EN: <p>3.60 <span class="unit">g</span> of glucose is dissolved in distilled water and the solution is made up to 200.0 <span class="unit">cm3</span>.</p><p>Calculate the concentration of the solution in <span class="unit">g dm-3</span>. Give your answer to 3 significant figures.</p>
-      stem: "",
+      stem: "<p>3.60 <span class=\"unit\">g</span> のグルコースを蒸留水に溶かし、水を加えて溶液全体を 200.0 <span class=\"unit\">cm3</span> にします。</p><p>この溶液の濃度を <span class=\"unit\">g dm-3</span> 単位で計算しなさい (calculate)。有効数字 3 桁で答えましょう。</p>",
       hints: [
         // EN: A concentration in <span class="unit">g dm-3</span> is the mass of solute divided by the volume of solution. You do not need the molar mass.
-        "",
+        "<span class=\"unit\">g dm-3</span> 単位の濃度は、溶質の質量を溶液の体積でわった値です。モル質量はいりません。",
         // EN: Convert the volume first: 200.0 <span class="unit">cm3</span> ÷ 1000 = 0.2000 <span class="unit">dm3</span>.
-        "",
+        "先に体積を換算します。200.0 <span class=\"unit\">cm3</span> ÷ 1000 = 0.2000 <span class=\"unit\">dm3</span> です。",
       ],
       // EN: <div class="worked__math"><i>V</i> = 200.0 <span class="unit">cm3</span> ÷ 1000<br>&nbsp;&nbsp;= 0.2000 <span class="unit">dm3</span></div><div class="worked__math">concentration = <span class="frac"><span>3.60 <span class="unit">g</span></span><span>0.2000 <span class="unit">dm3</span></span></span><br>&nbsp;&nbsp;= <strong>18.0 <span class="unit">g dm-3</span></strong></div><p>Named slips: 0.0180 means you left the volume in <span class="unit">cm3</span>. 0.720 means you multiplied by the volume instead of dividing.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>V</i> = 200.0 <span class=\"unit\">cm3</span> ÷ 1000<br>&nbsp;&nbsp;= 0.2000 <span class=\"unit\">dm3</span></div><div class=\"worked__math\">濃度 = <span class=\"frac\"><span>3.60 <span class=\"unit\">g</span></span><span>0.2000 <span class=\"unit\">dm3</span></span></span><br>&nbsp;&nbsp;= <strong>18.0 <span class=\"unit\">g dm-3</span></strong></div><p>よくあるミス：0.0180 は、体積を <span class=\"unit\">cm3</span> のままにしたときの値です。0.720 は、体積でわるところで、かけてしまったときの値です。</p>",
     },
 
   }

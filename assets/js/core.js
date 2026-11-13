@@ -278,12 +278,22 @@
   var srcMap = typeof WeakMap === 'function' ? new WeakMap() : null;
   var attrMap = typeof WeakMap === 'function' ? new WeakMap() : null;
   var cattrMap = typeof WeakMap === 'function' ? new WeakMap() : null;
+  var svgMap = typeof WeakMap === 'function' ? new WeakMap() : null;
   var pageTitle = null;
   var UNIT_SEL = 'h1,h2,h3,h4,h5,h6,p,li,dt,dd,th,td,caption,figcaption,summary,legend,blockquote,button,option,label,.worked__math,.eq__formula,[data-i18n]';
   var SKIP_SEL = '[data-i18n="off"],.chem,.unit,code,pre,kbd,samp,script,style,noscript';
   var MATH_SEL = '.worked__math,.eq__formula';
   var ATTRS = ['title', 'aria-label', 'placeholder', 'alt'];
   var COMP_ATTRS = ['data-title', 'data-toc', 'data-def', 'data-label', 'data-kicker', 'data-correct'];
+  // Labels in an authored inline <svg>: every <text> or <tspan> without child elements is a unit, keyed by its text.
+  var SVG_SKIP = '[data-i18n="off"],.chem,.unit,.mol,[data-s1-mol],[data-s1-mol-ref],[data-s1-widget],.widget';
+  function isSvgLabel(text) {
+    return /[A-Za-zÀ-ɏ]{2}/.test(text) && !/^[A-Z][a-z]?$/.test(text) &&                       // not "+", "δ−", "H", "Cl"
+      !(/\d/.test(text) && /^(?:[A-Z][a-z]?|\d|[()\[\]+\-−\s])+$/.test(text));                    // not a formula such as "CH3" or "H2O"
+  }
+  /** Is this key something a translator can translate? At least one letter outside {placeholders} and the |context suffix.
+   *  tools/i18n-lib.js applies the same rule to t("…") strings, so the extractor, the checker and coverage() agree. */
+  function translatable(key) { return /[A-Za-zÀ-ɏ]/.test(String(key).replace(CTX, '').replace(/\{\w+\}/g, '')); }
 
   function norm(s) { return String(s == null ? '' : s).replace(/\s+/g, ' ').trim(); }
   function fill(s, vars) { return vars ? s.replace(/\{(\w+)\}/g, function (m, k) { return vars[k] != null ? vars[k] : m; }) : s; }
@@ -427,6 +437,31 @@
       COMP_ATTRS.forEach(function (a) { var v = n.getAttribute(a); if (v && /[A-Za-z]{2}/.test(v)) { o[a] = v; any = true; } });
       if (any) { cattrMap.set(n, o); n.setAttribute('data-i18n-cattr', ''); }
     });
+    if (svgMap) Array.prototype.forEach.call(scope.querySelectorAll('svg text, svg tspan'), function (n) {
+      if (svgMap.has(n) || n.firstElementChild || n.closest(SVG_SKIP)) return;   // a <text> made of <tspan>s: each <tspan> is the unit
+      var key = norm(n.textContent);
+      if (!isSvgLabel(key)) return;
+      svgMap.set(n, { text: n.textContent, key: key });
+      n.setAttribute('data-i18n-svg', '');
+    });
+  }
+  /* A translated block may carry its key-term definitions translated inline (data-def="…" inside the translation).
+     The tooltip must still show the English wording first, so put the English back in data-def and keep the
+     translated wording in data-def-tr.  Definitions are paired with the English block in document order. */
+  function restoreDefs(n, u) {
+    var got = n.querySelectorAll('.i18n-tr [data-def]');
+    if (!got.length) got = n.querySelectorAll('[data-def]');
+    if (!got.length) return;
+    if (!u.defs) {
+      var box = doc.createElement('div'); box.innerHTML = u.html;
+      u.defs = Array.prototype.map.call(box.querySelectorAll('[data-def]'), function (d) { return d.getAttribute('data-def'); });
+    }
+    if (got.length !== u.defs.length) return;                                   // cannot pair them: leave as written
+    Array.prototype.forEach.call(got, function (d, i) {
+      var tr = d.getAttribute('data-def'), en = u.defs[i];
+      if (norm(tr) !== norm(en)) d.setAttribute('data-def-tr', tr);
+      d.setAttribute('data-def', en);
+    });
   }
   /** Move a captured block to another element (for components that re-wrap authored content). */
   function moveUnit(from, to) {
@@ -449,7 +484,14 @@
       if (!english && !tr) n.setAttribute('data-i18n-miss', ''); else n.removeAttribute('data-i18n-miss');
       if ((n.__s1cur == null ? u.html : n.__s1cur) === out) return;
       n.__s1cur = out; n.innerHTML = out;
+      if (tr) restoreDefs(n, u);
       initFormat(n); initDefs(n);
+    });
+    if (svgMap) Array.prototype.forEach.call(root.querySelectorAll('[data-i18n-svg]'), function (n) {
+      var u = svgMap.get(n); if (!u) return;
+      var tr = english ? null : lookup(u.key), out = tr ? tr.replace(/<[^>]+>/g, '') : u.text;
+      if (!english && !tr) n.setAttribute('data-i18n-miss', ''); else n.removeAttribute('data-i18n-miss');
+      if (n.textContent !== out) n.textContent = out;
     });
     if (attrMap) Array.prototype.forEach.call(root.querySelectorAll('[data-i18n-attr]'), function (n) {
       var o = attrMap.get(n); if (!o) return;
@@ -563,7 +605,7 @@
     hasQ: function (question, field, index) { return lang !== 'en' && S1.i18n.q(question, field, index) !== (index != null ? (question[field] || [])[index] : question[field]); },
     /** Shell strings (ui scope); S1.i18n.ui.n for plurals.  either(): page, then common, then ui (helper defaults). */
     ui: t, either: either,
-    live: live, liveAttr: liveAttr, liveText: liveText, render: render, source: sourceOf, capture: capture, apply: applyLang, norm: norm,
+    live: live, liveAttr: liveAttr, liveText: liveText, render: render, source: sourceOf, capture: capture, apply: applyLang, norm: norm, translatable: translatable,
     /** Every translatable key on this page (used by tools/i18n-extract.js). */
     catalog: function () {
       var entries = [], blocks = [], attrs = [];
@@ -586,8 +628,9 @@
       }
       var title = norm(pageTitle == null ? doc.title : pageTitle);
       entries.push({ key: title, kind: 'page title', ctx: ['page title (browser tab)'] });
-      Array.prototype.forEach.call(doc.querySelectorAll('[data-i18n-src],[data-i18n-attr],[data-i18n-cattr]'), function (n) {
-        var u = srcMap.get(n), o = attrMap.get(n), c = cattrMap.get(n), a;
+      Array.prototype.forEach.call(doc.querySelectorAll('[data-i18n-src],[data-i18n-attr],[data-i18n-cattr],[data-i18n-svg]'), function (n) {
+        var u = srcMap.get(n), o = attrMap.get(n), c = cattrMap.get(n), g = svgMap.get(n), a;
+        if (g) { push(g.key, 'figure label', n); if (blocks.indexOf(g.key) < 0) blocks.push(g.key); }
         if (c) for (a in c) { push(norm(c[a]), a + ' attribute', n); if (attrs.indexOf(norm(c[a])) < 0) attrs.push(norm(c[a])); }
         if (o) for (a in o) { push(norm(o[a]), a + ' attribute', n); if (attrs.indexOf(norm(o[a])) < 0) attrs.push(norm(o[a])); }
         if (u) { push(u.key, u.math ? 'maths line' : n.tagName.toLowerCase(), n); if (blocks.indexOf(u.key) < 0) blocks.push(u.key); }
@@ -598,9 +641,9 @@
     coverage: function () {
       if (lang === 'en') return { lang: lang, missing: [], missingUi: [], total: 0 };
       var c = S1.i18n.catalog(), missing = [], missingUi = [];
-      var all = [c.title].concat(c.blocks, c.attrs, c.seen);
+      var all = [c.title].concat(c.blocks, c.attrs, c.seen.filter(translatable));
       all.forEach(function (k) { if (!lookup(k) && missing.indexOf(k) < 0) missing.push(k); });
-      c.seenUi.forEach(function (k) { if (!lookupUi(k) && !lookup(k)) missingUi.push(k); });
+      c.seenUi.filter(translatable).forEach(function (k) { if (!lookupUi(k) && !lookup(k)) missingUi.push(k); });
       return { lang: lang, total: all.length + c.seenUi.length, missing: missing, missingUi: missingUi };
     }
   };
@@ -922,7 +965,9 @@
   function showTip(node) {
     if (!tip) { tip = off(el('div', { class: 'tooltip', role: 'tooltip', id: 's1-tooltip' })); doc.body.appendChild(tip); }
     // A definition is wording she must be able to give in English: show the English, then the translation.
-    var defEn = node.getAttribute('data-def'), defTr = tp(defEn);
+    // The translation is the one written inline in the translated block (data-def-tr, set by restoreDefs), or else
+    // the page's separate "data-def attribute" entry.
+    var defEn = node.getAttribute('data-def'), defTr = (lang !== 'en' && node.getAttribute('data-def-tr')) || tp(defEn);
     tip.innerHTML = defTr !== defEn ? defEn + '<span class="i18n-tr" lang="' + lang + '">' + defTr + '</span>' : defEn;
     tip.hidden = false; tip.style.left = '0px'; tip.style.top = '0px';
     var r = node.getBoundingClientRect(), tw = tip.offsetWidth, th = tip.offsetHeight, vw = html.clientWidth;
