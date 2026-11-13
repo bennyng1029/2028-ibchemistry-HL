@@ -208,7 +208,8 @@
     if (canon(a) === canon(b)) return 'same';
     var ka = groups(a).map(function (g) { return g.key; }).sort().join('+'), kb = groups(b).map(function (g) { return g.key; }).sort().join('+');
     if (ka !== kb) return 'functional';
-    if (/alkoxy|ester|amino|amido/.test(ka)) return 'other';
+    if (/ester|amido/.test(ka)) return 'other';
+    if (/alkoxy|amino/.test(ka)) return skeleton(a) === skeleton(b) ? 'position' : 'other';     // e.g. propan-1-amine / propan-2-amine
     return skeleton(a) === skeleton(b) ? 'position' : 'chain';
   }
 
@@ -888,5 +889,848 @@
   };
   if (!S1.widgets || typeof document === 'undefined') return;      // node test: core only
 
-  /*__PART2__*/
+  /* ======================================================================
+     PART 2 — drawing helpers and widgets
+     ====================================================================== */
+  var el = S1.util.el, SVGNS = 'http://www.w3.org/2000/svg';
+  function svgEl(tag, attrs, parent, first) {
+    var n = document.createElementNS(SVGNS, tag);
+    for (var k in attrs) if (attrs[k] != null) n.setAttribute(k, attrs[k]);
+    if (parent) { if (first && parent.firstChild) parent.insertBefore(n, parent.firstChild); else parent.appendChild(n); }
+    return n;
+  }
+  function shuffle(a) { return S1.util.shuffle(a.slice()); }
+  function groupName(k) {
+    switch (k) {
+      case 'halogeno': return t('halogeno');
+      case 'hydroxyl': return t('hydroxyl');
+      case 'aldehyde': case 'ketone': case 'carbonyl': return t('carbonyl');
+      case 'carboxyl': return t('carboxyl');
+      case 'alkoxy': return t('alkoxy');
+      case 'amino': return t('amino');
+      case 'amido': return t('amido');
+      case 'ester': return t('ester');
+      case 'phenyl': return t('phenyl');
+      case 'alkenyl': return t('carbon–carbon double bond');
+      case 'alkynyl': return t('carbon–carbon triple bond');
+    }
+    return k;
+  }
+  function className(k) {
+    switch (k) {
+      case 'alkane': return t('alkane');
+      case 'alkene': return t('alkene');
+      case 'alkyne': return t('alkyne');
+      case 'halogenoalkane': return t('halogenoalkane');
+      case 'alcohol': return t('alcohol');
+      case 'aldehyde': return t('aldehyde');
+      case 'ketone': return t('ketone');
+      case 'carboxylic acid': return t('carboxylic acid');
+      case 'ether': return t('ether');
+      case 'amine': return t('amine');
+      case 'amide': return t('amide');
+      case 'ester': return t('ester');
+    }
+    return k || t('more than one functional group');
+  }
+  var GROUP_KEYS = ['halogeno', 'hydroxyl', 'carbonyl', 'carboxyl', 'alkoxy', 'amino', 'amido', 'ester', 'phenyl'];
+  var CLASS_KEYS = ['alkane', 'alkene', 'alkyne', 'halogenoalkane', 'alcohol', 'aldehyde', 'ketone', 'carboxylic acid', 'ether', 'amine', 'amide', 'ester'];
+  function groupOf(key) { return key === 'aldehyde' || key === 'ketone' ? 'carbonyl' : key; }
+  function degreeName(d) { return d === 1 ? t('primary') : d === 2 ? t('secondary') : d === 3 ? t('tertiary') : ''; }
+  function isSaturated(m) { return !m.bonds.some(function (b) { return b.order > 1 && m.atoms[b.a].el === 'C' && m.atoms[b.b].el === 'C'; }); }
+
+  /** Skeletal drawing through the shared helper. Returns {svg, pts: [{x, y}] per heavy atom (SVG units), L}. */
+  function drawSkeletal(host, m, o) {
+    o = o || {};
+    var S = o.scale || 40, L = layoutSkeletal(m, { path: o.path });
+    if (o.flipY) L.atoms.forEach(function (a) { a.y = -a.y; });
+    if (o.flipX) L.atoms.forEach(function (a) { a.x = -a.x; });
+    var atoms = L.atoms.map(function (a) { return { x: a.x, y: a.y, label: a.label, number: o.numbers && a.i >= 0 && o.numbers[a.i] != null ? o.numbers[a.i] : null }; });
+    var svg;
+    if (m.atoms.length === 1 && !atoms[0].label) {         // methane: a skeletal formula has nothing to draw
+      host.innerHTML = ''; host.appendChild(el('p', { class: 'small muted', text: t('(one carbon atom: nothing to draw)') }));
+      return { svg: null, pts: [], L: L, S: S };
+    }
+    svg = S1.mol.skeletal(host, { atoms: atoms, bonds: L.bonds, scale: S, label: o.label || t('Skeletal formula') });
+    return { svg: svg, pts: L.atoms.map(function (a) { return { x: a.x * S, y: a.y * S, i: a.i }; }), L: L, S: S };
+  }
+  /** Full structural formula (every atom and bond) through the shared helper. */
+  function drawFull(host, m, o) {
+    o = o || {};
+    var L = m.cyclic ? layoutRingFull(m) : layoutGrid(m, { explicit: true });
+    return S1.mol.structural(host, { atoms: L.atoms.map(function (a) { return { el: a.el, x: a.x, y: a.y }; }), bonds: L.bonds, scale: o.scale || 34, label: o.label || t('Full structural formula') });
+  }
+  /** The direction (radians) with the most room around a point, given the directions of its bonds. */
+  function freeDirection(dirs) {
+    var best = -Math.PI / 2, gap = -1;
+    for (var c = 0; c < 16; c++) {
+      var cand = -Math.PI / 2 + c * Math.PI / 8, g = dirs.length ? Math.min.apply(null, dirs.map(function (d) { var x = Math.abs(cand - d) % (2 * Math.PI); return x > Math.PI ? 2 * Math.PI - x : x; })) : 9;
+      if (g > gap + 1e-6) { gap = g; best = cand; }
+    }
+    return best;
+  }
+  function bondDirs(L, i) {
+    var out = [];
+    L.bonds.forEach(function (b) { var o = b.a === i ? b.b : b.b === i ? b.a : -1; if (o >= 0) out.push(Math.atan2(L.atoms[o].y - L.atoms[i].y, L.atoms[o].x - L.atoms[i].x)); });
+    return out;
+  }
+  /** A focusable, clickable circle over an atom of an SVG drawing. */
+  function addHit(svg, x, y, r, label, onPick) {
+    var c = svgEl('circle', { cx: x, cy: y, r: r, tabindex: 0, role: 'button', 'aria-label': label, class: 's32-hit' }, svg);
+    c.addEventListener('click', onPick);
+    c.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onPick(); } });
+    return c;
+  }
+  function addHalo(svg, x, y, r) { return svgEl('circle', { cx: x, cy: y, r: r || 15, style: 'fill:var(--accent-soft);stroke:var(--accent);stroke-width:1.5' }, svg, true); }
+  function groupLabelParts(m, i) {
+    var e = m.atoms[i].el, h = m.h[i];
+    if (!h) return [e];
+    return [e, 'H', h > 1 ? String(h) : ''];
+  }
+  /**
+   * A drawing made of groups (CH3, CH2, OH …) joined by bonds: local SVG, because the shared helpers draw
+   * either every atom or none of the carbons. o: {scale, selected, marks: {i: true}, onPick(i), label, names(i)}.
+   */
+  function drawGroups(host, m, o) {
+    o = o || {};
+    var S = o.scale || 34, L = layoutGrid(m, { explicit: false }), pad = 26;
+    var xs = L.atoms.map(function (a) { return a.x * S; }), ys = L.atoms.map(function (a) { return a.y * S; });
+    var x0 = Math.min.apply(null, xs) - pad - 8, x1 = Math.max.apply(null, xs) + pad + 8, y0 = Math.min.apply(null, ys) - pad, y1 = Math.max.apply(null, ys) + pad;
+    host.innerHTML = ''; host.setAttribute('data-i18n', 'off'); host.classList.add('mol');
+    var svg = svgEl('svg', { viewBox: [x0, y0, x1 - x0, y1 - y0].join(' '), width: x1 - x0, height: y1 - y0, role: o.onPick ? 'group' : 'img', 'aria-label': o.label || t('Structural formula'), class: 'mol__svg' }, host);
+    svg.style.maxWidth = '100%'; svg.style.height = 'auto';
+    var half = L.atoms.map(function (a) { var p = groupLabelParts(m, a.i); return (p[0].length * 11 + (p[1] ? 12 : 0) + (p[2] ? 7 : 0)) / 2; });
+    L.bonds.forEach(function (b) {
+      var p = L.atoms[b.a], q = L.atoms[b.b], dx = q.x - p.x, dy = q.y - p.y, len = Math.hypot(dx, dy) * S, ux = dx * S / len, uy = dy * S / len;
+      var ta = Math.abs(ux) > Math.abs(uy) ? half[b.a] + 4 : 13, tb = Math.abs(ux) > Math.abs(uy) ? half[b.b] + 4 : 13;
+      var offs = b.order === 2 ? [-3, 3] : b.order === 3 ? [-5, 0, 5] : [0];
+      offs.forEach(function (f) {
+        svgEl('line', { x1: p.x * S + ux * ta - uy * f, y1: p.y * S + uy * ta + ux * f, x2: q.x * S - ux * tb - uy * f, y2: q.y * S - uy * tb + ux * f, style: 'stroke:var(--ink);stroke-width:1.8;stroke-linecap:round' }, svg);
+      });
+    });
+    L.atoms.forEach(function (a, k) {
+      var cx = a.x * S, cy = a.y * S, parts = groupLabelParts(m, a.i);
+      if ((o.marks && o.marks[a.i]) || o.selected === a.i) svgEl('rect', { x: cx - half[k] - 5, y: cy - 14, width: 2 * half[k] + 10, height: 28, rx: 3, style: 'fill:var(--accent-soft);stroke:var(--accent);stroke-width:' + (o.selected === a.i ? 2.5 : 1.5) }, svg);
+      var tx = svgEl('text', { x: cx, y: cy, 'text-anchor': 'middle', 'dominant-baseline': 'central', style: 'fill:var(--ink);font-family:var(--font-body);font-size:17px;font-weight:700' }, svg);
+      svgEl('tspan', {}, tx).textContent = parts[0] + (parts[1] || '');
+      if (parts[2]) { svgEl('tspan', { dy: 5, style: 'font-size:11px' }, tx).textContent = parts[2]; }
+      if (o.onPick) {
+        var hit = svgEl('rect', { x: cx - half[k] - 6, y: cy - 16, width: 2 * half[k] + 12, height: 32, rx: 3, tabindex: 0, role: 'button', class: 's32-hit',
+          'aria-label': (o.names ? o.names(a.i) : parts.join('')) + (o.selected === a.i ? ' (' + t('selected') + ')' : '') }, svg);
+        hit.addEventListener('click', function () { o.onPick(a.i); });
+        hit.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); o.onPick(a.i); } });
+        if (o.focus === a.i) setTimeout(function () { try { hit.focus({ preventScroll: true }); } catch (err) { /* not focusable yet */ } }, 0);
+      }
+    });
+    return svg;
+  }
+
+  /* ---------- small UI pieces --------------------------------------------------- */
+  function seg(w, label, items, value, onChange, parent) {
+    var id = S1.util.uid('seg'), group = el('div', { class: 'seg', role: 'group', 'aria-labelledby': id }), state = { value: value, buttons: [] };
+    items.forEach(function (it) {
+      var b = el('button', { class: 'seg__btn', type: 'button', 'aria-pressed': String(it.value === value), html: it.label });
+      b.addEventListener('click', function () { state.set(it.value); if (onChange) onChange(it.value); });
+      b._value = it.value; state.buttons.push(b); group.appendChild(b);
+    });
+    state.set = function (v) { state.value = v; state.buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b._value === v)); }); };
+    (parent || w.controls).appendChild(el('div', { class: 'control s32-seg' }, [el('span', { class: 'control__label', id: id, text: label }), group]));
+    return state;
+  }
+  function say(box, tone, html) {
+    box.className = 'feedback s32-fb' + (tone === 'right' ? ' feedback--right' : tone === 'wrong' ? ' feedback--wrong' : tone === 'partial' ? ' feedback--partial' : '');
+    box.innerHTML = html ? '<p>' + html + '</p>' : '';
+  }
+  /** A row of answer buttons. items: [{html, value}]. onPick(value, api) — api.mark(value, 'right' | 'wrong'), api.lock(). */
+  function choices(parent, items, onPick, cls) {
+    var wrap = el('div', { class: 's32-opts' + (cls ? ' ' + cls : '') }), map = [], api = {};
+    items.forEach(function (it) {
+      var b = el('button', { class: 'btn s32-opt', type: 'button', html: it.html });
+      if (it.node) { b.innerHTML = ''; b.appendChild(it.node); }
+      b.addEventListener('click', function () { if (!b.disabled) onPick(it.value, api); });
+      map.push({ value: it.value, b: b }); wrap.appendChild(b);
+    });
+    api.mark = function (value, state) {
+      map.forEach(function (x) {
+        if (x.value !== value) return;
+        x.b.setAttribute('data-state', state);
+        if (!x.b.querySelector('.s32-tick')) x.b.appendChild(el('span', { class: 's32-tick', text: state === 'right' ? ' ✓' : ' ✗' }));
+        if (state === 'wrong') x.b.disabled = true;
+      });
+    };
+    api.lock = function () { map.forEach(function (x) { x.b.disabled = true; }); };
+    api.el = wrap;
+    parent.appendChild(wrap);
+    return api;
+  }
+  function nameHtml(name) { return '<b class="s32-name" data-i18n="off">' + S1.util.escapeHtml(name) + '</b>'; }
+  function fx(s) { return '<span class="s32-f" data-i18n="off">' + fHtml(s) + '</span>'; }
+
+  /* ---------- static figures in the page: <div data-s32-mol="ethanol" data-view="skeletal"> ---- */
+  function molFrom(str) { var c = compound(str); return c ? c.mol : parse(str); }
+  function renderFigure(host) {
+    var m, view = host.getAttribute('data-view') || 'skeletal', label = host.getAttribute('data-label') || '', scale = Number(host.getAttribute('data-scale')) || 0;
+    host.setAttribute('data-i18n', 'off');
+    if (view === 'stereo') {            // one tetrahedral carbon drawn with wedge and dash bonds
+      var subs = (host.getAttribute('data-subs') || 'H,H,H,H').split(',');
+      S1.mol.skeletal(host, { scale: 46, label: label || t('Stereochemical formula'), atoms: [{ x: 0, y: 0, label: 'C' }, { x: 0, y: -1, label: subs[0] }, { x: -0.92, y: 0.42, label: subs[1] }, { x: 0.42, y: 0.92, label: subs[2] }, { x: 0.98, y: 0.22, label: subs[3] }],
+        bonds: [{ a: 0, b: 1 }, { a: 0, b: 2 }, { a: 0, b: 3, stereo: 'wedge' }, { a: 0, b: 4, stereo: 'hash' }] });
+      return;
+    }
+    try { m = molFrom(host.getAttribute('data-s32-mol')); } catch (err) { return; }
+    if (view === 'full') drawFull(host, m, { label: label, scale: scale || 32 });
+    else if (view === 'groups') drawGroups(host, m, { label: label, scale: scale || 32 });
+    else if (view === '3d') { var g = build3d(m); S1.mol.viewer3d(host, { atoms: g.atoms, bonds: g.bonds, angle: g.angle, height: Number(host.getAttribute('data-height')) || 220, label: label || t('3-D model') }); }
+    else {
+      var numbers = null, r;
+      if (host.hasAttribute('data-numbers')) { r = nameOf(m); if (!r.fail) { numbers = {}; r.path.forEach(function (i, k) { numbers[i] = k + 1; }); } }
+      drawSkeletal(host, m, { label: label, scale: scale || 38, numbers: numbers });
+    }
+  }
+  function renderFigures() {
+    Array.prototype.forEach.call(document.querySelectorAll('[data-s32-mol]'), function (h) { if (!h.querySelector('svg, canvas')) renderFigure(h); });
+  }
+  if (S1.ready) S1.ready(renderFigures); else document.addEventListener('DOMContentLoaded', renderFigures);
+  document.addEventListener('s1:langchange', function () { setTimeout(renderFigures, 0); });
+
+  /* ====================================================================== s3-2.formulas */
+  S1.widgets.register('s3-2.formulas', function (w) {
+    var list = COMPOUNDS.slice(0, 27).map(function (c) { return compound(c[0]); });
+    var setClass = w.readoutItem(t('Class of compound')), setGroup = w.readoutItem(t('Functional group')), setSat = w.readoutItem(t('Carbon–carbon bonds'));
+    var sel = w.select({ label: t('Compound'), value: w.options.start || 'ethanol', onChange: update,
+      options: list.map(function (c) { return { value: c.id, label: c.name + ' (' + className(classKey(c.mol)) + ')' }; }) });
+    var grid = el('div', { class: 's32-panels' }); w.stage.appendChild(grid);
+    function panel(title, note, cls) {
+      var body = el('div', { class: 's32-panel__body' + (cls ? ' ' + cls : '') });
+      grid.appendChild(el('div', { class: 's32-panel' }, [el('p', { class: 's32-cap', text: title }), body, el('p', { class: 'small muted s32-panel__note', text: note })]));
+      return body;
+    }
+    var pMol = panel(t('Molecular formula'), t('The actual number of each kind of atom in one molecule.'), 's32-big');
+    var pEmp = panel(t('Empirical formula'), t('The simplest whole-number ratio of the atoms.'), 's32-big');
+    var pCon = panel(t('Condensed structural formula'), t('The groups in order along the chain, written on one line. Bonds to H are not drawn.'), 's32-big');
+    var pFull = panel(t('Full structural formula'), t('Every atom and every bond. Bond angles are drawn as 90°, which is not their real value.'));
+    var pSkel = panel(t('Skeletal formula'), t('Each line end and each corner is a carbon atom. H atoms on carbon are not drawn.'));
+    var p3d = panel(t('3-D model'), t('The real shape. Drag to turn it. Lone pairs are not drawn.'));
+    var viewer = null;
+    function update() {
+      var c = compound(sel.value), m = c.mol, gs = groups(m);
+      pMol.innerHTML = fx(molecular(m)); pEmp.innerHTML = fx(empirical(m)); pCon.innerHTML = fx(c.condensed);
+      drawFull(pFull, m, { label: t('Full structural formula of {name}', { name: c.name }) });
+      drawSkeletal(pSkel, m, { label: t('Skeletal formula of {name}', { name: c.name }), scale: 40 });
+      var g = build3d(m), spec = { atoms: g.atoms, bonds: g.bonds, angle: g.angle, height: 230, label: t('3-D model of {name}', { name: c.name }) };
+      if (viewer) viewer.setSpec(spec); else viewer = S1.mol.viewer3d(p3d, spec);
+      setClass(className(classKey(m)));
+      var names = []; gs.forEach(function (x) { var nm = groupName(x.key); if (names.indexOf(nm) < 0) names.push(nm); });
+      setGroup(names.length ? names.join(', ') : t('none (only C–C and C–H bonds)'));
+      setSat(isSaturated(m) ? t('saturated (single bonds only)') : gs.some(function (x) { return x.key === 'phenyl'; }) ? t('unsaturated (benzene ring)') : t('unsaturated (has a double or triple bond)'));
+    }
+    update();
+  });
+
+  /* ====================================================================== s3-2.skeletal */
+  S1.widgets.register('s3-2.skeletal', function (w) {
+    var ids = ['butane', 'methylbutane', 'but2ene', 'propan2ol', 'butanone', 'butanoic', 'methylbutanal', 'chloromethylbutane', 'ethylethanoate', 'propyne', 'benzoic'];
+    var setC = w.readoutItem(t('Carbon atoms revealed')), setH = w.readoutItem(t('H atoms on those carbons')), setF = w.readoutItem(t('Molecular formula'));
+    var sel = w.select({ label: t('Molecule'), value: w.options.start || 'methylbutane', onChange: reset, options: ids.map(function (id) { return { value: id, label: compound(id).name }; }) });
+    w.button(t('Reveal the next carbon'), function () { var next = carbons().filter(function (i) { return !shown[i]; })[0]; if (next != null) reveal(next); }, { primary: true });
+    w.button(t('Reveal all'), function () { carbons().forEach(function (i) { shown[i] = true; }); last = -1; draw(); });
+    w.button(t('Hide all'), reset);
+    var host = el('div', { class: 's32-draw' }), msg = el('div', { class: 'feedback s32-fb' });
+    w.stage.appendChild(host); w.stage.appendChild(msg);
+    var shown = {}, last = -1, m;
+    function carbons() { var out = []; m.atoms.forEach(function (a, i) { if (a.el === 'C') out.push(i); }); return out; }
+    function reset() { m = compound(sel.value).mol; shown = {}; last = -1; draw(); }
+    function reveal(i) { shown[i] = true; last = i; draw(i); }
+    function draw(focusI) {
+      var d = drawSkeletal(host, m, { scale: 54, label: t('Skeletal formula of {name}. Each carbon atom is a button.', { name: compound(sel.value).name }) });
+      d.svg.setAttribute('role', 'group');
+      var cs = carbons(), nC = 0, nH = 0;
+      cs.forEach(function (i) {
+        var p = d.pts[i];
+        if (shown[i]) {
+          nC++; nH += m.h[i];
+          var ang = freeDirection(bondDirs(d.L, i)), tx = svgEl('text', { x: p.x + Math.cos(ang) * 19, y: p.y + Math.sin(ang) * 17, 'text-anchor': 'middle', 'dominant-baseline': 'central', style: 'fill:var(--accent-ink);font-family:var(--font-body);font-size:14px;font-weight:700' }, d.svg);
+          svgEl('tspan', {}, tx).textContent = 'C' + (m.h[i] ? 'H' : '');
+          if (m.h[i] > 1) svgEl('tspan', { dy: 4, style: 'font-size:10px' }, tx).textContent = m.h[i];
+        }
+        svgEl('circle', { cx: p.x, cy: p.y, r: 4, style: 'fill:' + (shown[i] ? 'var(--accent)' : 'var(--surface)') + ';stroke:var(--accent);stroke-width:1.8' }, d.svg);
+        var hit = addHit(d.svg, p.x, p.y, 14, shown[i] ? t('Carbon atom with {h} hydrogen atoms', { h: m.h[i] }) : t('Hidden carbon atom: press to reveal'), function () { reveal(i); });
+        if (focusI === i) setTimeout(function () { try { hit.focus({ preventScroll: true }); } catch (err) { /* ignore */ } }, 0);
+      });
+      setC(nC + ' / ' + cs.length); setH(String(nH));
+      var all = nC === cs.length, cnt = counts(m), other = (cnt.H || 0) - cs.reduce(function (s, i) { return s + m.h[i]; }, 0);
+      setF(all ? fx(molecular(m)) : t('reveal every carbon first'));
+      if (last >= 0) {
+        var bonds = m.nb[last].reduce(function (s, x) { return s + x.o; }, 0);
+        say(msg, '', t('This carbon has {b} bonds drawn (a double bond counts as 2, a triple bond as 3). Carbon always forms 4 bonds, so it carries 4 − {b} = {h} hydrogen atoms.', { b: bonds, h: m.h[last] }));
+      } else if (all) {
+        say(msg, 'right', other ? t('All {c} carbon atoms found, carrying {h} H atoms. Add the {o} H atoms that are drawn on O or N, then count the other atoms.', { c: cs.length, h: nH, o: other })
+          : t('All {c} carbon atoms found, carrying {h} H atoms. Now count the other atoms that are drawn.', { c: cs.length, h: nH }));
+      } else say(msg, '', t('Press a line end or a corner of the drawing. Each one is a carbon atom.'));
+    }
+    reset();
+  });
+
+  /* ====================================================================== s3-2.translate */
+  S1.widgets.register('s3-2.translate', function (w) {
+    var pool = COMPOUNDS.map(function (c) { return compound(c[0]); }).filter(function (c) { return !c.mol.cyclic && c.mol.atoms.length >= 3 && classKey(c.mol) && !/acid \(|hydroxy|ethoxypropanone|methoxyethene/.test(c.name); });
+    var setScore = w.readoutItem(t('Score')), right = 0, asked = 0, q = null, kindIdx = 0, lastId = '';
+    var kinds = ['condensed', 'hcount', 'molecular'];
+    var host = el('div', { class: 's32-draw' }), prompt = el('p', { class: 's32-prompt' }), area = el('div'), fb = el('div', { class: 'feedback s32-fb' });
+    w.stage.appendChild(host); w.stage.appendChild(prompt); w.stage.appendChild(area); w.stage.appendChild(fb);
+    w.button(t('Next question'), next, { primary: true });
+    function done(ok) { if (!q.scored) { q.scored = true; asked++; if (ok) right++; setScore(t('{r} of {n} correct at the first try', { r: right, n: asked })); } }
+    function next() {
+      var c; do { c = pool[Math.floor(Math.random() * pool.length)]; } while (c.id === lastId);
+      lastId = c.id; q = { c: c, kind: kinds[kindIdx++ % 3], scored: false };
+      var m = c.mol, cnt = counts(m);
+      drawSkeletal(host, m, { scale: 46, label: t('Skeletal formula of the compound in the question') });
+      area.innerHTML = ''; say(fb, '', '');
+      if (q.kind === 'condensed') {
+        prompt.textContent = t('Which condensed structural formula matches this skeletal formula?');
+        var mf = molecular(m), nC = cnt.C, others = pool.filter(function (x) { return x.id !== c.id; });
+        var score = function (x) { return (molecular(x.mol) === mf ? 0 : counts(x.mol).C === nC ? 1 : 2) + Math.random() * 0.9; };
+        others.sort(function (a, b) { return score(a) - score(b); });
+        var opts = shuffle([c].concat(others.slice(0, 3)));
+        choices(area, opts.map(function (x) { return { html: fx(x.condensed), value: x.id }; }), function (v, api) {
+          if (v === c.id) { api.mark(v, 'right'); api.lock(); done(true); say(fb, 'right', t('Correct. This is {name}, {formula}.', { name: nameHtml(c.name), formula: fx(c.condensed) })); }
+          else { api.mark(v, 'wrong'); done(false); var o = compound(v); say(fb, 'wrong', molecular(o.mol) === mf ? t('That formula has the right atoms, but they are joined in a different order: it is {name}, an isomer. Follow the chain atom by atom.', { name: nameHtml(o.name) }) : t('That formula is {name}. Count the carbon atoms (line ends and corners) and look at the group that is drawn.', { name: nameHtml(o.name) })); }
+        });
+      } else if (q.kind === 'hcount') {
+        prompt.textContent = t('How many hydrogen atoms are in one molecule of this compound?');
+        var input = el('input', { class: 'input input--num s32-num', type: 'text', inputmode: 'numeric', 'aria-label': t('Number of hydrogen atoms') });
+        var check = el('button', { class: 'btn btn--primary', type: 'button', text: t('Check') });
+        area.appendChild(el('div', { class: 'btn-row' }, [input, check]));
+        var go = function () {
+          var v = parseInt(input.value, 10), H = cnt.H || 0, onC = 0; m.atoms.forEach(function (a, i) { if (a.el === 'C') onC += m.h[i]; });
+          if (isNaN(v)) { say(fb, 'partial', t('Type a whole number.')); return; }
+          if (v === H) { done(true); say(fb, 'right', t('Correct: {h} hydrogen atoms. The molecular formula is {f}.', { h: H, f: fx(molecular(m)) })); }
+          else { done(false); say(fb, 'wrong', v === onC && onC !== H ? t('You counted the H atoms on carbon. Add the H atoms that are drawn on O or N.') : v === 2 * cnt.C + 2 && !isSaturated(m) ? t('That would be right with single bonds only. Each double bond means two fewer H atoms.') : t('Not {v}. Give every carbon 4 bonds: 4 minus the bonds drawn is its number of H atoms. Then add any H drawn on O or N.', { v: v })); }
+        };
+        check.addEventListener('click', go); input.addEventListener('keydown', function (e) { if (e.key === 'Enter') go(); });
+      } else {
+        prompt.textContent = t('What is the molecular formula of this compound?');
+        var base = cnt, variants = [], add = function (c2) { var s = formulaText(c2, false); if (variants.indexOf(s) < 0 && c2.H > 0 && c2.C > 0) variants.push(s); };
+        var mk = function (dC, dH) { var c2 = JSON.parse(JSON.stringify(base)); c2.C += dC; c2.H = (c2.H || 0) + dH; return c2; };
+        add(base); add(mk(0, 2)); add(mk(0, -2)); add(mk(-1, -2)); add(mk(1, 2)); add(mk(-1, 0));
+        var correct = variants[0], opts2 = shuffle([correct].concat(shuffle(variants.slice(1)).slice(0, 3)));
+        choices(area, opts2.map(function (s) { return { html: fx(s), value: s }; }), function (v, api) {
+          if (v === correct) { api.mark(v, 'right'); api.lock(); done(true); say(fb, 'right', t('Correct. This is {name}.', { name: nameHtml(c.name) })); }
+          else { api.mark(v, 'wrong'); done(false); say(fb, 'wrong', t('Not that one. Count the carbon atoms first (every line end and corner), then give each carbon enough H atoms to make 4 bonds.')); }
+        });
+      }
+    }
+    next();
+  });
+
+  /* ====================================================================== s3-2.spotter */
+  S1.widgets.register('s3-2.spotter', function (w) {
+    var ids = ['bromopropane2', 'butan2ol', 'propanal', 'butanone', 'propanoic', 'methoxyethane', 'ethanamine', 'propanamide', 'ethylethanoate', 'chloropropane1',
+      'phenylamine', 'phenylethanone', 'hydroxypropanoic', 'aminoethanoic', 'hydroxybutanal', 'ethoxypropanone', 'chlorophenyl', 'paracetamol', 'aspirin'];
+    var setFound = w.readoutItem(t('Groups found')), setScore = w.readoutItem(t('Named correctly at the first try'));
+    var sel = w.select({ label: t('Molecule'), value: w.options.start || 'butan2ol', onChange: load,
+      options: ids.map(function (id, k) { return { value: id, label: t('Molecule {n}', { n: k + 1 }) + (k >= 10 ? ' ' + t('(challenge)') : '') }; }) });
+    w.button(t('Next molecule'), function () { var k = (ids.indexOf(sel.value) + 1) % ids.length; sel.set(ids[k]); load(); }, { primary: true });
+    var host = el('div', { class: 's32-draw' }), prompt = el('p', { class: 's32-prompt' }), area = el('div'), fb = el('div', { class: 'feedback s32-fb' });
+    w.stage.appendChild(host); w.stage.appendChild(prompt); w.stage.appendChild(area); w.stage.appendChild(fb);
+    var m, gs, found, active, good = 0, tries = 0, single;
+    function atomLabel(i) { var e = m.atoms[i].el; return e === 'C' ? t('carbon atom') : e === 'O' ? t('oxygen atom') : e === 'N' ? t('nitrogen atom') : t('halogen atom'); }
+    function load() {
+      m = compound(sel.value).mol; gs = groups(m).filter(function (g) { return GROUP_KEYS.indexOf(groupOf(g.key)) >= 0; });
+      found = gs.map(function () { return false; }); active = -1; single = gs.length === 1 && classKey(m);
+      area.innerHTML = ''; say(fb, '', ''); draw(); ask();
+    }
+    function ask() {
+      var left = found.filter(function (f) { return !f; }).length;
+      setFound(found.length - left + ' / ' + found.length);
+      prompt.textContent = left ? (found.length > 1 ? t('This molecule has {n} functional groups. Press an atom that belongs to one of them.', { n: found.length }) : t('Press an atom that belongs to the functional group.'))
+        : t('All the functional groups are found. Choose another molecule.');
+    }
+    function draw() {
+      var d = drawSkeletal(host, m, { scale: 46, label: t('Skeletal formula. Each atom is a button.') });
+      d.svg.setAttribute('role', 'group');
+      gs.forEach(function (g, k) { if (found[k] || k === active) g.atoms.forEach(function (i) { addHalo(d.svg, d.pts[i].x, d.pts[i].y, 15); }); });
+      m.atoms.forEach(function (a, i) { addHit(d.svg, d.pts[i].x, d.pts[i].y, 14, atomLabel(i), function () { pickAtom(i); }); });
+    }
+    function pickAtom(i) {
+      if (active >= 0 && !found[active]) return;
+      var k = -1; gs.forEach(function (g, q) { if (g.atoms.indexOf(i) >= 0) k = q; });
+      if (k < 0) { say(fb, 'wrong', t('That carbon atom is part of the hydrocarbon chain. A functional group is the part that is not only C–C and C–H single bonds.')); return; }
+      if (found[k]) { say(fb, '', t('You have already named that group. Look for another one.')); return; }
+      active = k; draw(); say(fb, '', '');
+      var g = gs[k], first = true;
+      prompt.textContent = t('Good: the highlighted atoms form one functional group. What is the name of the GROUP?');
+      area.innerHTML = '';
+      choices(area, GROUP_KEYS.map(function (key) { return { html: groupName(key), value: key }; }), function (v, api) {
+        tries += first ? 1 : 0;
+        if (v === groupOf(g.key)) {
+          if (first) good++;
+          api.mark(v, 'right'); api.lock(); found[k] = true; setScore(good + ' / ' + tries);
+          var extra = g.key === 'phenyl' ? ' ' + t('Phenyl is the name of the benzene ring when it is a group in a larger molecule.') : g.key === 'hydroxyl' && m.ring[g.on] ? ' ' + t('A hydroxyl group joined directly to a benzene ring makes a phenol. Phenols are not one of the classes you need.') : '';
+          if (single) { say(fb, 'right', t('Correct: the group is {g}.', { g: '<b>' + groupName(g.key) + '</b>' }) + extra); askClass(g); }
+          else { say(fb, 'right', t('Correct: the group is {g}.', { g: '<b>' + groupName(g.key) + '</b>' }) + extra); area.innerHTML = ''; active = -1; draw(); ask(); }
+        } else {
+          api.mark(v, 'wrong'); first = false; setScore(good + ' / ' + tries);
+          say(fb, 'wrong', whyNot(v, g.key));
+        }
+      }, 's32-opts--wrap');
+    }
+    function whyNot(v, key) {
+      if (key === 'carboxyl' && v === 'carbonyl') return t('There is a C=O here, but the same carbon also carries an O–H. The two together are one group with its own name.');
+      if (key === 'carboxyl' && v === 'hydroxyl') return t('There is an O–H here, but it sits on a carbon that also has a C=O. The two together are one group with its own name.');
+      if (key === 'ester' && (v === 'carbonyl' || v === 'alkoxy')) return t('Look at the whole group: a C=O with an O on the same carbon, and that O joined to another carbon. This combination has its own name.');
+      if (key === 'ester' && v === 'carboxyl') return t('Carboxyl ends in O–H. Here the O is joined to a carbon atom instead of an H atom.');
+      if (key === 'amido' && (v === 'carbonyl' || v === 'amino')) return t('Look at the whole group: a C=O with a nitrogen atom on the same carbon. This combination has its own name.');
+      if (key === 'amino' && v === 'amido') return t('Amido needs a C=O on the carbon next to the nitrogen. Here the nitrogen is joined to carbon atoms that have no C=O.');
+      if (key === 'alkoxy' && v === 'hydroxyl') return t('Hydroxyl is O–H. Here the oxygen has no H: it sits between two carbon atoms.');
+      if (key === 'alkoxy' && v === 'ester') return t('An ester needs a C=O on the carbon next to the oxygen. Here there is none.');
+      if (key === 'hydroxyl' && v === 'alkoxy') return t('Alkoxy is an oxygen between two carbon atoms. Here the oxygen is joined to one carbon and one hydrogen.');
+      if ((key === 'aldehyde' || key === 'ketone') && v === 'carboxyl') return t('Carboxyl needs an O–H on the same carbon as the C=O. Here the carbon has only the C=O.');
+      return t('Not {v}. Look at which atoms are in the highlighted group and how they are bonded.', { v: groupName(v) });
+    }
+    function askClass(g) {
+      prompt.textContent = t('Now the CLASS: a compound with this group belongs to which class of compounds?');
+      area.innerHTML = '';
+      var want = classKey(m);
+      choices(area, CLASS_KEYS.map(function (key) { return { html: className(key), value: key }; }), function (v, api) {
+        if (v === want) {
+          api.mark(v, 'right'); api.lock();
+          say(fb, 'right', t('Correct. The group is called {g}; the class of compound is {c}. This molecule is {name}.', { g: '<b>' + groupName(g.key) + '</b>', c: '<b>' + className(want) + '</b>', name: nameHtml(compound(sel.value).name) }));
+          active = -1; ask();
+        } else {
+          api.mark(v, 'wrong');
+          say(fb, 'wrong', (want === 'aldehyde' && v === 'ketone') || (want === 'ketone' && v === 'aldehyde') ? t('Both classes have the carbonyl group. Check where the C=O is: at the end of the chain (with an H on the same carbon) or inside the chain (between two carbon atoms).')
+            : t('Not {v}. Use the group you named to choose the class.', { v: className(v) }));
+        }
+      }, 's32-opts--wrap');
+    }
+    load();
+  });
+
+  /* ====================================================================== s3-2.series */
+  S1.widgets.register('s3-2.series', function (w) {
+    function seriesName(k) {
+      switch (k) {
+        case 'alkane': return t('alkanes');
+        case 'alkene': return t('alkenes (C=C at the end of the chain)');
+        case 'alcohol': return t('alcohols (OH on carbon 1)');
+        case 'aldehyde': return t('aldehydes');
+        case 'carboxylic acid': return t('carboxylic acids');
+        case 'halogenoalkane': return t('chloroalkanes (Cl on carbon 1)');
+      }
+      return k;
+    }
+    var setGen = w.readoutItem(t('General formula')), setMembers = w.readoutItem(t('Members shown'), { text: true }), setStep = w.readoutItem(t('Rise for each extra CH₂'), { text: true });
+    var selA = w.select({ label: t('Homologous series'), value: w.options.start || 'alkane', onChange: function () { revealed = false; update(); }, options: SERIES.map(function (s) { return { value: s.key, label: seriesName(s.key) }; }) });
+    var selB = w.select({ label: t('Compare with'), value: 'none', onChange: update, options: [{ value: 'none', label: t('nothing') }].concat(SERIES.map(function (s) { return { value: s.key, label: seriesName(s.key) }; })) });
+    var prop = seg(w, t('Property'), [{ value: 'bp', label: t('Boiling point') }, { value: 'mp', label: t('Melting point (alkanes)') }], 'bp', function () { revealed = true; update(); });
+    var host = el('div'), box = el('div', { class: 's32-predict' }), fb = el('div', { class: 'feedback s32-fb' });
+    w.stage.appendChild(host); w.stage.appendChild(box); w.stage.appendChild(fb);
+    var chart = null, revealed = false;
+    function get(key) { return SERIES.filter(function (s) { return s.key === key; })[0]; }
+    function update() {
+      var A = get(selA.value), B = selB.value !== 'none' && selB.value !== selA.value ? get(selB.value) : null;
+      var mp = prop.value === 'mp';
+      if (mp) { A = get('alkane'); B = null; }
+      var vals = mp ? A.mp : A.bp, nShow = mp || revealed ? vals.length : vals.length - 1;
+      var data = vals.slice(0, nShow).map(function (v, k) { return [A.first + k, v]; });
+      var series = [{ type: 'line', points: true, labels: true, data: data, name: seriesName(A.key) }];
+      if (B) series.push({ type: 'line', points: true, data: B.bp.map(function (v, k) { return [B.first + k, v]; }), name: seriesName(B.key) });
+      var all = vals.concat(B ? B.bp : []), lo = Math.floor((Math.min.apply(null, all) - 15) / 50) * 50, hi = Math.ceil((Math.max.apply(null, all) + 25) / 50) * 50;
+      var spec = { height: 300, label: t('Graph of boiling point or melting point against the number of carbon atoms. The values are in the readout below.'),
+        x: { label: t('Number of carbon atoms in the molecule'), min: 0.5, max: 8.5, ticks: [1, 2, 3, 4, 5, 6, 7, 8] },
+        y: { label: mp ? t('Melting point / °C') : t('Boiling point / °C'), min: lo, max: hi, step: 50 }, series: series };
+      if (chart) chart.update(spec); else chart = S1.chart.plot(host, spec);
+      setGen(fx(A.general.replace(/n\+?(\d?)/g, function (all2) { return all2; })).replace(/n/g, '<i>n</i>'));
+      setMembers(data.map(function (d) { return 'C' + d[0] + ': ' + String(d[1]).replace('-', '−') + ' °C'; }).join(', '));
+      var steps = []; for (var k = 1; k < nShow; k++) steps.push(vals[k] - vals[k - 1]);
+      setStep(steps.map(function (s) { return (s >= 0 ? '+' : '−') + Math.abs(s); }).join(', ') + ' °C');
+      box.innerHTML = '';
+      var nNext = A.first + vals.length - 1;
+      if (mp) { say(fb, '', t('Melting points also rise overall as the chain gets longer, but not smoothly. Melting also depends on how well the molecules pack together in the solid, so small molecules do not follow a neat line.')); return; }
+      if (!revealed) {
+        var input = el('input', { class: 'input input--num s32-num', type: 'text', inputmode: 'decimal', 'aria-label': t('Your predicted boiling point in °C') });
+        var go = el('button', { class: 'btn btn--primary', type: 'button', text: t('Check my prediction') });
+        box.appendChild(el('p', { class: 's32-prompt', html: t('Predict the next member: the one with {n} carbon atoms, {f}. What will its boiling point be, in °C?', { n: nNext, f: fx(A.member(nNext)) }) }));
+        box.appendChild(el('div', { class: 'btn-row' }, [input, go]));
+        var check = function () {
+          var p = S1.chem.parseNumber(input.value.replace('−', '-')); if (!p) { say(fb, 'partial', t('Type a number, for example 85.')); return; }
+          var actual = vals[vals.length - 1], diff = Math.abs(p.value - actual);
+          revealed = true; update();
+          say(fb, diff <= 8 ? 'right' : 'partial', t('The measured value is {a} °C. Your prediction was {d} °C away.', { a: String(actual).replace('-', '−'), d: S1.chem.fmt(diff, 2) }) + ' ' +
+            (diff <= 8 ? t('The trend is regular enough to predict from: that is the point of a homologous series.') : t('Look at the rise for each extra CH₂ in the readout and add a similar step to the last value.')));
+        };
+        go.addEventListener('click', check); input.addEventListener('keydown', function (e) { if (e.key === 'Enter') check(); });
+        say(fb, '', '');
+      } else {
+        var again = el('button', { class: 'btn btn--small', type: 'button', text: t('Hide the last member again') });
+        again.addEventListener('click', function () { revealed = false; update(); });
+        box.appendChild(again);
+      }
+    }
+    update();
+  });
+
+  /* ====================================================================== s3-2.namer */
+  S1.widgets.register('s3-2.namer', function (w) {
+    var setScore = w.readoutItem(t('Completed')), setRule = w.readoutItem(t('Limits'), { text: true });
+    setRule(t('Parent chain of 1 to 6 carbon atoms; no more than one C=C or C≡C; one type of group (halogeno, hydroxyl, carbonyl or carboxyl); methyl and ethyl branches.'));
+    var mode = seg(w, t('Mode'), [{ value: 'name', label: t('Structure → name') }, { value: 'draw', label: t('Name → structure') }], 'name', fresh);
+    var level = seg(w, t('Level'), [{ value: 1, label: '1' }, { value: 2, label: '2' }, { value: 3, label: '3' }], Number(w.options.level) || 1, fresh);
+    w.button(t('New molecule'), fresh, { primary: true });
+    var host = el('div', { class: 's32-draw' }), prompt = el('p', { class: 's32-prompt' }), area = el('div'), fb = el('div', { class: 'feedback s32-fb' }), built = el('p', { class: 's32-built' });
+    w.stage.appendChild(host); w.stage.appendChild(built); w.stage.appendChild(prompt); w.stage.appendChild(area); w.stage.appendChild(fb);
+    var r, step, clean, doneCount = 0, cleanCount = 0, drawPath, endA;
+    function suffixWords(s) {
+      if (!s.suffix) return s.unsat ? (s.unsat.type === 'en' ? t('the C=C double bond') : t('the C≡C triple bond')) : '';
+      return s.suffix.type === 'ol' ? t('the carbon that carries the O–H') : s.suffix.type === 'oic' ? t('the carbon of the COOH group') : t('the carbon of the C=O group');
+    }
+    function pickDrawPath() {
+      // sometimes lay the drawing along a chain that is NOT the parent chain, so the longest chain bends
+      var m = r.mol, s = r.spec, p = null;
+      if (level.value > 1 && Math.random() < 0.45) {
+        var cands = s.subs.filter(function (x) { return x.name === 'methyl' && x.loc >= 2 && x.loc <= 3 && s.n - x.loc >= 2; });
+        if (cands.length) {
+          var c = cands[0], at = r.path[c.loc - 1], me = m.nb[at].filter(function (x) { return m.atoms[x.j].el === 'C' && r.path.indexOf(x.j) < 0 && m.nb[x.j].length === 1; })[0];
+          if (me) p = [me.j].concat(r.path.slice(c.loc - 1));
+        }
+      }
+      if (p) { var L = layoutSkeletal(m, { path: p }), ok = true; for (var i = 0; i < L.atoms.length; i++) for (var j = i + 1; j < L.atoms.length; j++) if (Math.hypot(L.atoms[i].x - L.atoms[j].x, L.atoms[i].y - L.atoms[j].y) < 0.6) ok = false; if (!ok) p = null; }
+      return p;
+    }
+    function draw(stage) {
+      var numbers = null, n = r.spec.n;
+      if (stage === 'ends') { numbers = {}; numbers[r.path[endA ? 0 : n - 1]] = 'A'; if (n > 1) numbers[r.path[endA ? n - 1 : 0]] = 'B'; }
+      if (stage === 'numbered') { numbers = {}; r.path.forEach(function (i, k) { numbers[i] = k + 1; }); }
+      var d = drawSkeletal(host, r.mol, { scale: 46, path: drawPath, numbers: numbers, label: t('Skeletal formula of the molecule to name') });
+      if (stage && d.svg) for (var k = 0; k < n - 1; k++) {
+        var p = d.pts[r.path[k]], q = d.pts[r.path[k + 1]];
+        svgEl('line', { x1: p.x, y1: p.y, x2: q.x, y2: q.y, style: 'stroke:var(--accent-soft);stroke-width:13;stroke-linecap:round' }, d.svg, true);
+      }
+    }
+    function fresh() {
+      r = randomNamed(Number(level.value)); clean = true; step = 0; drawPath = pickDrawPath(); endA = Math.random() < 0.5;
+      built.innerHTML = ''; say(fb, '', '');
+      if (mode.value === 'name') { draw(null); stepChain(); } else drawMode();
+    }
+    function finish() {
+      doneCount++; if (clean) cleanCount++;
+      setScore(t('{n} names, {c} with no slip', { n: doneCount, c: cleanCount }));
+    }
+    function nextBtn(label, fn) {
+      var b = el('button', { class: 'btn btn--primary s32-next', type: 'button', text: label });
+      b.addEventListener('click', fn); area.appendChild(b); setTimeout(function () { try { b.focus({ preventScroll: true }); } catch (e) { /* ignore */ } }, 0);
+    }
+    /* Step 1: the parent chain */
+    function stepChain() {
+      var s = r.spec, total = r.mol.atoms.filter(function (a) { return a.el === 'C'; }).length, what = suffixWords(s);
+      prompt.innerHTML = '<b>' + t('Step 1 of 4.') + '</b> ' + (what ? t('Find the longest chain of carbon atoms that contains {what}. How many carbon atoms are in it?', { what: what }) : t('Find the longest chain of carbon atoms. How many carbon atoms are in it?'));
+      area.innerHTML = '';
+      choices(area, [1, 2, 3, 4, 5, 6, 7].map(function (v) { return { html: String(v), value: v }; }), function (v, api) {
+        if (v === s.n) {
+          api.mark(v, 'right'); api.lock(); draw('chain');
+          built.innerHTML = t('Parent chain: {n} carbon atoms, so the name is built on {stem}.', { n: s.n, stem: '<b class="s32-name" data-i18n="off">' + STEMS[s.n] + '-</b>' });
+          say(fb, 'right', t('Correct. The parent chain is highlighted.') + (total > s.n ? ' ' + t('The other {k} carbon atoms are branches.', { k: total - s.n }) : ''));
+          nextBtn(t('Next step'), s.n === 1 ? stepPrefix : stepEnd);
+        } else {
+          api.mark(v, 'wrong'); clean = false;
+          say(fb, 'wrong', v === total && total > s.n ? t('You counted every carbon atom. Count only the atoms in one continuous chain; the rest are branches.') : v < s.n ? t('There is a longer chain. A chain may bend round corners: follow the bonds, not the straight line of the drawing.') : t('Too many. Trace one path from carbon to carbon without lifting your finger and without visiting an atom twice.'));
+        }
+      });
+    }
+    /* Step 2: which end is carbon 1 */
+    function stepEnd() {
+      var s = r.spec, P = perceive(r.mol), rev = specFor(r.mol, P, r.path.slice().reverse()).spec, same = formatName(rev).name === r.name;
+      draw('ends');
+      prompt.innerHTML = '<b>' + t('Step 2 of 4.') + '</b> ' + t('The ends of the parent chain are marked A and B. Which end is carbon 1?');
+      area.innerHTML = '';
+      var want = same ? 'same' : endA ? 'A' : 'B', why;
+      var locs = function (x) { return x.subs.map(function (q) { return q.loc; }).sort(function (a, b) { return a - b; }).join(','); };
+      if (same) why = t('Both directions give exactly the same numbers, so either end can be carbon 1.');
+      else if (s.suffix && s.suffix.loc !== rev.suffix.loc) why = s.suffix.type === 'al' || s.suffix.type === 'oic' ? t('The carbon of a –CHO or –COOH group is always carbon 1.') : t('The group named by the ending gets the lowest number it can: {a}, not {b}.', { a: s.suffix.loc, b: rev.suffix.loc });
+      else if (s.unsat && s.unsat.loc !== rev.unsat.loc) why = t('The multiple bond gets the lowest number it can: it starts at carbon {a}, not carbon {b}.', { a: s.unsat.loc, b: rev.unsat.loc });
+      else if (locs(s) !== locs(rev)) why = t('The substituents get the lowest numbers they can: {a} is lower than {b} at the first difference.', { a: locs(s), b: locs(rev) });
+      else why = t('The numbers are the same from both ends, so the substituent that comes first in the alphabet gets the lower number.');
+      choices(area, [{ html: t('End A'), value: 'A' }, { html: t('End B'), value: 'B' }, { html: t('It makes no difference'), value: 'same' }], function (v, api) {
+        if (v === want) { api.mark(v, 'right'); api.lock(); draw('numbered'); say(fb, 'right', t('Correct.') + ' ' + why); nextBtn(t('Next step'), stepPrefix); }
+        else { api.mark(v, 'wrong'); clean = false; say(fb, 'wrong', v === 'same' ? t('It does matter here. Number from each end in turn and compare the numbers you get.') : want === 'same' ? t('Try numbering from the other end as well: do the numbers change?') : t('Number from each end in turn. Which end gives the lower number to the group named by the ending, then to the double bond, then to the branches?')); }
+      });
+    }
+    /* Step 3: the prefix */
+    function stepPrefix() {
+      var s = r.spec, none = t('nothing: no prefix is needed'), want = r.prefix || none, opts = [], P = perceive(r.mol);
+      draw('numbered');
+      function add(x) { if (x && x !== want && opts.indexOf(x) < 0) opts.push(x); }
+      function pre(spec) { return formatName(spec).prefix || none; }
+      var c;
+      add(pre(specFor(r.mol, P, r.path.slice().reverse()).spec));
+      if (s.subs.length) {
+        c = JSON.parse(JSON.stringify(s)); c.subs.forEach(function (x) { if (x.name === 'methyl') x.name = 'ethyl'; else if (x.name === 'ethyl') x.name = 'methyl'; else x.loc = x.loc < s.n ? x.loc + 1 : x.loc - 1; }); add(pre(c));
+        c = JSON.parse(JSON.stringify(s)); c.subs = c.subs.slice(0, 1); if (s.subs.length > 1) add(pre(c));
+        c = JSON.parse(JSON.stringify(s)); c.subs[0].loc = c.subs[0].loc > 1 ? c.subs[0].loc - 1 : c.subs[0].loc + 1; if (s.n > 1) add(pre(c));
+        add(none);
+      } else { add('1-methyl'); add('2-methyl'); if (s.n > 2) add(s.n + '-methyl'); }
+      opts = shuffle([want].concat(opts.slice(0, 3)));
+      prompt.innerHTML = '<b>' + t('Step 3 of 4.') + '</b> ' + t('Look at what is attached to the parent chain, apart from the group named by the ending. Which prefix describes it?');
+      area.innerHTML = '';
+      var list = s.subs.map(function (x) { return t('carbon {n}: {name}', { n: x.loc, name: x.name }); }).join('; ');
+      choices(area, opts.map(function (o) { return { html: o === none ? none : '<span data-i18n="off">' + o + '-</span>', value: o }; }), function (v, api) {
+        if (v === want) {
+          api.mark(v, 'right'); api.lock();
+          say(fb, 'right', s.subs.length ? t('Correct. Attached to the chain: {list}. Two of the same kind are written with di-, three with tri-. Different prefixes go in alphabetical order.', { list: list }) : t('Correct. Nothing is attached except the group named by the ending.'));
+          nextBtn(t('Next step'), stepAssemble);
+        } else { api.mark(v, 'wrong'); clean = false; say(fb, 'wrong', v === none ? t('Something is attached to the parent chain. Look for a line that leaves the highlighted chain, or a halogen atom.') : t('Not this one. Check each attached group: which numbered carbon is it on, and is it –CH₃ (methyl), –CH₂CH₃ (ethyl) or a halogen?')); }
+      });
+    }
+    /* Step 4: the whole name */
+    function stepAssemble() {
+      var wrong = wrongNames(r.mol, r), order = ['end', 'chain', 'suffix', 'unsat', 'locant', 'count'], pickd = [];
+      order.forEach(function (k) { var x = wrong.filter(function (q) { return q.why === k && pickd.indexOf(q) < 0; })[0]; if (x && pickd.length < 3) pickd.push(x); });
+      wrong.forEach(function (x) { if (pickd.length < 3 && pickd.indexOf(x) < 0) pickd.push(x); });
+      var opts = shuffle([{ name: r.name, why: null }].concat(pickd));
+      prompt.innerHTML = '<b>' + t('Step 4 of 4.') + '</b> ' + t('Put it together: prefix, then parent chain, then the ending. Which is the IUPAC name?');
+      area.innerHTML = '';
+      choices(area, opts.map(function (o) { return { html: '<span data-i18n="off">' + o.name + '</span>', value: o.name }; }), function (v, api) {
+        if (v === r.name) {
+          api.mark(v, 'right'); api.lock();
+          built.innerHTML = t('Name: {name}', { name: nameHtml(r.name) });
+          var s = r.spec, bits = [];
+          if (r.prefix) bits.push(t('{p} says what is attached and where', { p: '<b data-i18n="off">' + r.prefix + '-</b>' }));
+          bits.push(t('{p} says the parent chain has {n} carbon atoms', { p: '<b data-i18n="off">' + STEMS[s.n] + '-</b>', n: s.n }));
+          bits.push(s.unsat ? (s.unsat.type === 'en' ? t('-en- says there is one C=C double bond') : t('-yn- says there is one C≡C triple bond')) : t('-an- says all the carbon–carbon bonds are single'));
+          bits.push(!s.suffix ? t('the ending -e says there is no group that needs its own ending') : s.suffix.type === 'ol' ? t('the ending -ol says hydroxyl group (an alcohol)') : s.suffix.type === 'al' ? t('the ending -al says carbonyl group at the end of the chain (an aldehyde)') : s.suffix.type === 'one' ? t('the ending -one says carbonyl group inside the chain (a ketone)') : t('the ending -oic acid says carboxyl group (a carboxylic acid)'));
+          say(fb, 'right', t('Correct.') + ' ' + bits.join('; ') + '.');
+          finish(); nextBtn(t('New molecule'), fresh);
+        } else {
+          api.mark(v, 'wrong'); clean = false;
+          var why = opts.filter(function (o) { return o.name === v; })[0].why;
+          say(fb, 'wrong', why === 'end' ? t('That name numbers the chain from the wrong end.') : why === 'chain' ? t('That name uses a shorter chain as the parent. The parent is the longest chain.') : why === 'suffix' ? t('That ending belongs to a different functional group.') : why === 'unsat' ? t('That name leaves out the multiple bond.') : why === 'count' ? t('That name has the wrong number of carbon atoms in the parent chain.') : t('A position number in that name is wrong. Use the numbers on the drawing.'));
+        }
+      }, 's32-opts--col');
+    }
+    /* Name → structure */
+    function drawMode() {
+      host.innerHTML = '';
+      var near = nearMolecules(r).slice(0, 3), opts = shuffle([r].concat(near));
+      prompt.innerHTML = t('Which skeletal formula shows {name}?', { name: nameHtml(r.name) });
+      area.innerHTML = '';
+      var api = choices(area, opts.map(function (o, k) {
+        var box = el('span', { class: 's32-pic' });
+        drawSkeletal(box, o.mol, { scale: 34, label: t('Structure {n}', { n: k + 1 }) });
+        return { html: '', node: box, value: o.name };
+      }), function (v, api2) {
+        if (v === r.name) {
+          api2.mark(v, 'right'); api2.lock(); finish();
+          say(fb, 'right', t('Correct: that is {name}.', { name: nameHtml(r.name) }));
+          nextBtn(t('New molecule'), fresh);
+        } else { api2.mark(v, 'wrong'); clean = false; say(fb, 'wrong', t('That structure is {name}. Read the name you were given from the right: the ending, then the parent chain, then the prefixes with their numbers.', { name: nameHtml(v) })); }
+      }, 's32-opts--pics');
+      return api;
+    }
+    fresh();
+  });
+
+  /* ====================================================================== s3-2.isomers */
+  S1.widgets.register('s3-2.isomers', function (w) {
+    var setDraw = w.readoutItem(t('Your drawing')), setTarget = w.readoutItem(t('Target')), setFound = w.readoutItem(t('Isomers found'));
+    var sel = w.select({ label: t('Molecular formula'), value: w.options.start || 'C4H10', onChange: load,
+      options: ISOMER_SETS.map(function (s) { return { value: s.formula, label: s.formula.replace(/\d+/g, function (d) { return String.fromCharCode.apply(null, d.split('').map(function (c) { return 0x2080 + Number(c); })); }) + ruleShort(s) }; }) });
+    function ruleShort(s) { return s.rule === 'alkene' ? ' ' + t('(open chains)') : s.rule === 'carbonyl' ? ' ' + t('(with a carbonyl group)') : s.rule === 'acid-ester' ? ' ' + t('(acids and esters)') : ''; }
+    var tools = el('div', { class: 's32-tools' }), host = el('div', { class: 's32-draw s32-draw--edit' }), fb = el('div', { class: 'feedback s32-fb' }), foundBox = el('div', { class: 's32-cards' }), task = el('p', { class: 's32-prompt' });
+    w.stage.appendChild(task); w.stage.appendChild(host); w.stage.appendChild(tools); w.stage.appendChild(fb);
+    w.stage.appendChild(el('p', { class: 's32-cap', text: t('Isomers you have found') })); w.stage.appendChild(foundBox);
+    var set, atoms, bonds, selAtom, found, extras, target, shownAll;
+    function current() { return prep({ atoms: atoms.map(function (a) { return { el: a.el }; }), bonds: bonds.map(function (b) { return { a: b.a, b: b.b, order: b.order }; }) }); }
+    function fcount(f) { var c = {}; f.replace(/([A-Z][a-z]?)(\d*)/g, function (_, e, n) { c[e] = Number(n) || 1; }); return c; }
+    function load() {
+      set = ISOMER_SETS.filter(function (s) { return s.formula === sel.value; })[0]; target = fcount(set.formula);
+      found = []; extras = []; shownAll = false; clearDrawing();
+      task.innerHTML = t('Draw every structural isomer of {f}. Select an atom in the drawing, then add the next atom to it. Hydrogen atoms are added for you.', { f: fx(set.formula) }) + ' ' +
+        (set.rule === 'alkene' ? t('This task counts the open-chain isomers. All of them are alkenes.') : set.rule === 'carbonyl' ? t('This task counts the isomers that have a carbonyl group.') : set.rule === 'acid-ester' ? t('This task counts the isomers that are carboxylic acids or esters.') : '');
+      say(fb, '', ''); renderFound();
+    }
+    function clearDrawing() { atoms = [{ el: 'C' }]; bonds = []; selAtom = 0; render(); }
+    function addAtom(e, o) {
+      atoms.push({ el: e }); bonds.push({ a: selAtom, b: atoms.length - 1, order: o });
+      if (VALENCE[e] - o > 0) selAtom = atoms.length - 1;
+      say(fb, '', ''); render(selAtom);
+    }
+    function removeAtom() {
+      var m = current();
+      if (atoms.length === 1) return;
+      if (m.nb[selAtom].length > 1) { say(fb, 'partial', t('Only an atom at the end of a chain can be removed. Select an end atom first.')); return; }
+      var nbr = m.nb[selAtom][0].j, k = selAtom;
+      atoms.splice(k, 1);
+      bonds = bonds.filter(function (b) { return b.a !== k && b.b !== k; }).map(function (b) { return { a: b.a > k ? b.a - 1 : b.a, b: b.b > k ? b.b - 1 : b.b, order: b.order }; });
+      selAtom = nbr > k ? nbr - 1 : nbr; say(fb, '', ''); render(selAtom);
+    }
+    function render(focusI) {
+      var m = current(), cnt = counts(m);
+      drawGroups(host, m, { scale: 36, selected: selAtom, focus: focusI, label: t('Your drawing. Each group is a button: press one to select it.'), onPick: function (i) { selAtom = i; render(i); } });
+      setDraw(fx(molecular(m))); setTarget(fx(set.formula));
+      tools.innerHTML = '';
+      var free = m.h[selAtom], selEl = atoms[selAtom].el;
+      function tool(label, e, o) {
+        var left = (target[e] || 0) - (cnt[e] || 0), okBond = free >= o && (e === 'C' ? selEl !== 'Br' : selEl === 'C');
+        var b = el('button', { class: 'btn btn--small', type: 'button', html: label });
+        if (left <= 0 || !okBond) b.disabled = true;
+        b.addEventListener('click', function () { addAtom(e, o); });
+        tools.appendChild(b);
+      }
+      tools.appendChild(el('span', { class: 'control__label s32-tools__label', text: t('Add to the selected atom:') }));
+      tool(t('carbon'), 'C', 1);
+      if (set.unsat) tool(t('carbon, with a double bond (C=C)'), 'C', 2);
+      Object.keys(set.atoms).forEach(function (e) {
+        tool(e === 'O' ? t('oxygen') : e === 'N' ? t('nitrogen') : t('bromine'), e, 1);
+        if (e === 'O' && set.unsat) tool(t('oxygen, with a double bond (C=O)'), 'O', 2);
+      });
+      var rm = el('button', { class: 'btn btn--small', type: 'button', text: t('Remove the selected atom') }); rm.addEventListener('click', removeAtom); if (atoms.length === 1) rm.disabled = true;
+      var cl = el('button', { class: 'btn btn--small', type: 'button', text: t('Start a new drawing') }); cl.addEventListener('click', function () { say(fb, '', ''); clearDrawing(); });
+      var ck = el('button', { class: 'btn btn--small btn--primary', type: 'button', text: t('Check this isomer') }); ck.addEventListener('click', check);
+      tools.appendChild(el('span', { class: 's32-tools__break' })); tools.appendChild(rm); tools.appendChild(cl); tools.appendChild(ck);
+    }
+    function info(c) {
+      var m = c.mol, k = classKey(m), d = degree(m), extra = d && d.degree >= 1 && (k === 'alcohol' || k === 'halogenoalkane' || k === 'amine') ? degreeName(d.degree) + ' ' : '';
+      return extra + className(k);
+    }
+    function check() {
+      var m = current(), cnt = counts(m), need = [], k;
+      Object.keys(target).forEach(function (e) { if (e !== 'H' && (cnt[e] || 0) < target[e]) need.push((target[e] - (cnt[e] || 0)) + ' ' + e); });
+      if (need.length) { say(fb, 'partial', t('Not finished yet. You still need to add: {list}.', { list: need.join(', ') })); return; }
+      if ((cnt.H || 0) !== target.H) { say(fb, 'wrong', t('Your drawing is {a}, but the target is {b}. The other atoms are right, so check the bonds: each double bond removes two H atoms.', { a: fx(molecular(m)), b: fx(set.formula) })); return; }
+      var key = canon(m), idx = -1;
+      found.forEach(function (c, q) { if (canon(c.mol) === key) idx = q; });
+      if (idx >= 0) { say(fb, 'partial', t('This is the same molecule as number {n}, {name}. The atoms are joined in the same order; bending or turning a drawing does not make a new isomer.', { n: idx + 1, name: nameHtml(found[idx].name) })); return; }
+      var hit = null; set.targets.forEach(function (id) { if (canon(compound(id).mol) === key) hit = compound(id); });
+      if (!hit) {
+        if (extras.indexOf(key) < 0) extras.push(key);
+        say(fb, 'partial', t('The formula is right and this is a real structural isomer, but it is not one that this task counts (read the task above). Keep looking for the others.')); return;
+      }
+      var lines = found.slice(0, 3).map(function (c) {
+        var rel = relation(hit.mol, c.mol);
+        return rel === 'chain' ? t('It is a chain isomer of {n}: same functional group, different carbon chain.', { n: nameHtml(c.name) })
+          : rel === 'position' ? t('It is a position isomer of {n}: same carbon chain, group at a different position.', { n: nameHtml(c.name) })
+          : rel === 'functional' ? t('It is a functional group isomer of {n}: the atoms form a different functional group.', { n: nameHtml(c.name) })
+          : t('It is in the same class as {n}, with the atoms arranged differently around the group.', { n: nameHtml(c.name) });
+      });
+      found.push(hit); renderFound();
+      say(fb, 'right', t('New isomer: {name} ({cls}).', { name: nameHtml(hit.name), cls: info(hit) }) + ' ' + lines.join(' ') + (found.length === set.targets.length ? ' ' + t('That is all {n} of them.', { n: found.length }) : ''));
+      if (found.length < set.targets.length) clearDrawing();
+    }
+    function renderFound() {
+      foundBox.innerHTML = '';
+      setFound(found.length + ' / ' + set.targets.length);
+      var list = shownAll ? set.targets.map(compound) : found;
+      list.forEach(function (c, k) {
+        var pic = el('div', { class: 's32-card__pic' }), missed = found.indexOf(c) < 0;
+        foundBox.appendChild(el('div', { class: 's32-card' }, [pic, el('p', { class: 's32-card__name', html: (missed ? '' : (found.indexOf(c) + 1) + '. ') + nameHtml(c.name) }), el('p', { class: 'small muted', text: info(c) + (missed ? ' ' + t('(not found yet)') : '') }),
+          el('p', { class: 'small s32-f', 'data-i18n': 'off', html: fHtml(c.condensed) })]));
+        drawSkeletal(pic, c.mol, { scale: 30, label: t('Skeletal formula of {name}', { name: c.name }) });
+      });
+      if (!list.length) foundBox.appendChild(el('p', { class: 'small muted', text: t('None yet. Build one above and press "Check this isomer".') }));
+      if (!shownAll && found.length < set.targets.length) {
+        var b = el('button', { class: 'btn btn--small btn--quiet', type: 'button', text: t('Show all {n} isomers', { n: set.targets.length }) });
+        b.addEventListener('click', function () { shownAll = true; renderFound(); }); foundBox.appendChild(b);
+      }
+    }
+    load();
+  });
+
+  /* ====================================================================== s3-2.pairs */
+  S1.widgets.register('s3-2.pairs', function (w) {
+    var pairs = [];
+    ISOMER_SETS.forEach(function (s) {
+      for (var i = 0; i < s.targets.length; i++) for (var j = i + 1; j < s.targets.length; j++) {
+        var a = compound(s.targets[i]), b = compound(s.targets[j]), rel = relation(a.mol, b.mol);
+        if (rel !== 'other') pairs.push({ a: a, b: b, rel: rel });
+      }
+    });
+    ['methylbutane', 'butan2ol', 'bromobutane2', 'pentan2one', 'methylpropan1ol', 'but1ene', 'methylbutanal'].forEach(function (id) { pairs.push({ a: compound(id), b: compound(id), rel: 'same' }); });
+    var setScore = w.readoutItem(t('Score')), right = 0, asked = 0, cur = null, scored;
+    var row = el('div', { class: 's32-pair' }), A = el('div', { class: 's32-pair__pic' }), B = el('div', { class: 's32-pair__pic' }), area = el('div'), fb = el('div', { class: 'feedback s32-fb' });
+    row.appendChild(A); row.appendChild(B);
+    w.stage.appendChild(el('p', { class: 's32-prompt', text: t('How are these two structures related?') })); w.stage.appendChild(row); w.stage.appendChild(area); w.stage.appendChild(fb);
+    w.button(t('Next pair'), next, { primary: true });
+    function relName(k) { return k === 'chain' ? t('Chain isomers') : k === 'position' ? t('Position isomers') : k === 'functional' ? t('Functional group isomers') : t('The same molecule'); }
+    function next() {
+      var p; do { p = pairs[Math.floor(Math.random() * pairs.length)]; } while (p === cur);
+      cur = p; scored = false; say(fb, '', '');
+      var flip = Math.random() < 0.5, first = flip ? p.b : p.a, second = flip ? p.a : p.b;
+      drawSkeletal(A, first.mol, { scale: 38, label: t('First structure') });
+      var o2 = { scale: 38, label: t('Second structure') };
+      if (p.rel === 'same') {
+        var m = second.mol, r = nameOf(m), alt = null;
+        if (!r.fail) { var sub = r.spec.subs.filter(function (x) { return x.name === 'methyl' && x.loc > 1 && x.loc < r.spec.n; })[0];
+          if (sub) { var at = r.path[sub.loc - 1], me = m.nb[at].filter(function (x) { return m.atoms[x.j].el === 'C' && r.path.indexOf(x.j) < 0; })[0]; if (me) alt = [me.j].concat(sub.loc - 1 >= r.spec.n - sub.loc ? r.path.slice(0, sub.loc).reverse() : r.path.slice(sub.loc - 1)); } }
+        if (alt && alt.length >= 3) { o2.path = alt; o2.flipY = Math.random() < 0.5; } else { o2.flipX = true; o2.flipY = true; }
+      } else if (Math.random() < 0.4) o2.flipY = true;
+      drawSkeletal(B, second.mol, o2);
+      area.innerHTML = '';
+      choices(area, ['chain', 'position', 'functional', 'same'].map(function (k) { return { html: relName(k), value: k }; }), function (v, api) {
+        var names = t('{a} and {b}', { a: nameHtml(p.a.name), b: nameHtml(p.b.name) });
+        if (!scored) { scored = true; asked++; if (v === p.rel) right++; setScore(t('{r} of {n} correct at the first try', { r: right, n: asked })); }
+        if (v === p.rel) {
+          api.mark(v, 'right'); api.lock();
+          say(fb, 'right', p.rel === 'same' ? t('Correct. Both drawings are {a}: the atoms are joined in the same order, so it is one molecule drawn two ways.', { a: nameHtml(p.a.name) })
+            : p.rel === 'chain' ? t('Correct: {names}. Same functional group, but the carbon chain is branched differently.', { names: names })
+            : p.rel === 'position' ? t('Correct: {names}. Same carbon chain and same functional group, at a different position on the chain.', { names: names })
+            : t('Correct: {names}. Same molecular formula, but different functional groups: {c1} and {c2}.', { names: names, c1: className(classKey(p.a.mol)), c2: className(classKey(p.b.mol)) }));
+        } else {
+          api.mark(v, 'wrong');
+          say(fb, 'wrong', p.rel === 'same' ? t('Follow the chain in each drawing and list what is attached to each carbon. Do you get the same list?')
+            : v === 'same' ? t('They are different molecules. Find the longest chain in each one, or look at where the group is attached.')
+            : t('Ask three questions in order. Are the functional groups the same? If yes, is the carbon chain the same? If yes, only the position differs.'));
+        }
+      }, 's32-opts--wrap');
+    }
+    next();
+  });
+
+  /* ====================================================================== s3-2.degree */
+  S1.widgets.register('s3-2.degree', function (w) {
+    var ids = ['ethanol', 'propan2ol', 'methylpropan2ol', 'butan2ol', 'methylpropan1ol', 'pentan3ol', 'methylbutan2ol', 'bromobutane1', 'bromobutane2', 'bromomethylpropane2', 'bromomethylpropane1',
+      'chloromethylbutane', 'chloropropane2', 'iodopropane1', 'ethanamine', 'propan2amine', 'nmethylethanamine', 'trimethylamine', 'dimethylamine', 'methylpropan2amine'];
+    var setScore = w.readoutItem(t('Score')), right = 0, asked = 0, order = shuffle(ids), pos = 0, c, d, scored, stage, marks;
+    var host = el('div', { class: 's32-draw' }), prompt = el('p', { class: 's32-prompt' }), area = el('div'), fb = el('div', { class: 'feedback s32-fb' });
+    w.stage.appendChild(host); w.stage.appendChild(prompt); w.stage.appendChild(area); w.stage.appendChild(fb);
+    w.button(t('Next molecule'), next, { primary: true });
+    function slip() { if (!scored) { scored = true; asked++; setScore(t('{r} of {n} with no slip', { r: right, n: asked })); } }
+    function draw() {
+      drawGroups(host, c.mol, { scale: 36, marks: marks, onPick: stage === 1 ? pick : null, label: stage === 1 ? t('Structure of the molecule. Each group is a button.') : t('Structure of the molecule') });
+    }
+    function next() {
+      c = compound(order[pos++ % order.length]); d = degree(c.mol); scored = false; stage = 1; marks = {};
+      area.innerHTML = ''; say(fb, '', ''); draw();
+      prompt.innerHTML = '<b>' + t('Step 1 of 3.') + '</b> ' + (d.kind === 'amino' ? t('This is an amine. Press the atom whose neighbours you must count.') : d.kind === 'hydroxyl' ? t('This is an alcohol. Press the atom whose neighbours you must count.') : t('This is a halogenoalkane. Press the atom whose neighbours you must count.'));
+    }
+    function pick(i) {
+      if (stage !== 1) return;
+      if (i !== d.centre) {
+        slip();
+        say(fb, 'wrong', d.kind === 'amino' ? t('For an amine, look at the nitrogen atom itself.') : i === d.hetero ? (d.kind === 'hydroxyl' ? t('Not the oxygen itself. Look at the carbon atom that the O–H is bonded to.') : t('Not the halogen itself. Look at the carbon atom that the halogen is bonded to.')) : (d.kind === 'hydroxyl' ? t('Look at the carbon atom that is bonded directly to the O–H group.') : t('Look at the carbon atom that is bonded directly to the halogen.')));
+        return;
+      }
+      stage = 2; marks = {}; marks[d.centre] = true; draw();
+      say(fb, 'right', d.kind === 'amino' ? t('Correct. For an amine you count on the nitrogen atom.') : t('Correct. This is the carbon atom that carries the group.'));
+      prompt.innerHTML = '<b>' + t('Step 2 of 3.') + '</b> ' + t('How many carbon atoms are bonded directly to the highlighted atom?');
+      area.innerHTML = '';
+      choices(area, [0, 1, 2, 3].map(function (v) { return { html: String(v), value: v }; }), function (v, api) {
+        if (v !== d.degree) { api.mark(v, 'wrong'); slip(); say(fb, 'wrong', t('Count only carbon atoms, and only those joined directly to the highlighted atom by a bond. Do not count H, O, N or halogen atoms.')); return; }
+        api.mark(v, 'right'); api.lock(); stage = 3; d.counted.forEach(function (j) { marks[j] = true; }); draw();
+        say(fb, 'right', t('Correct: {n}. They are highlighted too.', { n: d.degree }));
+        prompt.innerHTML = '<b>' + t('Step 3 of 3.') + '</b> ' + t('So this compound is…');
+        area.innerHTML = '';
+        choices(area, [1, 2, 3].map(function (q) { return { html: degreeName(q), value: q }; }), function (v2, api2) {
+          if (v2 !== d.degree) { api2.mark(v2, 'wrong'); slip(); say(fb, 'wrong', t('One carbon neighbour is primary, two is secondary, three is tertiary.')); return; }
+          api2.mark(v2, 'right'); api2.lock();
+          if (!scored) { scored = true; asked++; right++; setScore(t('{r} of {n} with no slip', { r: right, n: asked })); }
+          var cls = className(classKey(c.mol));
+          say(fb, 'right', t('Correct: {name} is a {deg} {cls}.', { name: nameHtml(c.name), deg: degreeName(d.degree), cls: cls }) + ' ' +
+            (d.kind === 'amino' ? t('The nitrogen atom is bonded to {n} carbon atoms.', { n: d.degree }) : t('The carbon that carries the group is bonded to {n} other carbon atoms.', { n: d.degree })) +
+            (d.kind === 'amino' && d.degree === 1 && c.mol.nb[d.counted[0]].filter(function (x) { return c.mol.atoms[x.j].el === 'C'; }).length > 1 ? ' ' + t('Notice that the carbon next to the nitrogen has more than one carbon neighbour. That does not matter for an amine.') : ''));
+        });
+      });
+    }
+    next();
+  });
 })();

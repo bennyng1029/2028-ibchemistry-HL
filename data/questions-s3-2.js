@@ -45,11 +45,12 @@
   }
   function table(caption, head, rows) {
     var h = '<div class="table-scroll" tabindex="0"><table class="data"><caption>' + caption + '</caption><thead><tr>';
-    head.forEach(function (c, i) { h += '<th' + (i ? ' class="num"' : '') + ' scope="col">' + c + '</th>'; });
+    var last = head.length - 1;                                   // only the last column holds numbers
+    head.forEach(function (c, i) { h += '<th' + (i === last ? ' class="num"' : '') + ' scope="col">' + c + '</th>'; });
     h += '</tr></thead><tbody>';
     rows.forEach(function (r) {
       h += '<tr>';
-      r.forEach(function (c, i) { h += i ? '<td class="num">' + c + '</td>' : '<th scope="row">' + c + '</th>'; });
+      r.forEach(function (c, i) { h += i ? '<td' + (i === last ? ' class="num"' : '') + '>' + c + '</td>' : '<th scope="row">' + c + '</th>'; });
       h += '</tr>';
     });
     return h + '</tbody></table></div>';
@@ -605,7 +606,7 @@
     stem: '<p>These four compounds have similar molar masses (58 to 60 <span class="unit">g mol-1</span>). Put them in order of <strong>increasing boiling point</strong> (lowest boiling point first).</p>',
     options: ['Butane, ' + cf('CH3CH2CH2CH3'), 'Propanal, ' + cf('CH3CH2CHO'), 'Propan-1-ol, ' + cf('CH3CH2CH2OH'), 'Ethanoic acid, ' + cf('CH3COOH')],
     hints: ['The molar masses are similar, so the London (dispersion) forces are similar. Look for other forces.', 'Which molecules are polar? Which have an H atom bonded to O, so that they can form hydrogen bonds with each other?'],
-    solution: '<p>The London (dispersion) forces are similar, so the functional group decides the order.</p>' + table('Boiling points', ['Compound', 'Strongest force between molecules', 'Boiling point / °C'], [['butane', 'London (dispersion) forces only', MINUS + '0.5'], ['propanal', 'dipole' + '–' + 'dipole forces (polar C=O)', '48'], ['propan-1-ol', 'hydrogen bonding (O' + '–' + 'H)', '97'], ['ethanoic acid', 'hydrogen bonding (C=O and O' + '–' + 'H)', '118']]) + '<p>Ethanoic acid is higher than propan-1-ol because the carboxyl group forms more hydrogen bonds: both its C=O and its O' + '–' + 'H take part.</p>'
+    solution: '<p>The London (dispersion) forces are similar, so the functional group decides the order.</p>' + '<ul><li>Butane, ' + MINUS + '0.5 °C: London (dispersion) forces only.</li><li>Propanal, 48 °C: the C=O group is polar, so there are also dipole' + '\u2013' + 'dipole forces.</li><li>Propan-1-ol, 97 °C: the O' + '\u2013' + 'H group forms hydrogen bonds.</li><li>Ethanoic acid, 118 °C: hydrogen bonds, and more of them.</li></ul>' + '<p>Ethanoic acid is higher than propan-1-ol because the carboxyl group forms more hydrogen bonds: both its C=O and its O' + '–' + 'H take part.</p>'
   },
   {
     id: 's3-2-q026', level: 'sl', tier: 'exam', type: 'mcq', marks: 1,

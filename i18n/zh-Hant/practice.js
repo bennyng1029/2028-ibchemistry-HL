@@ -17,3 +17,14 @@ S1.i18n.register('zh-Hant', 'practice', {
     "When you want to push for the top grades.": "想爭取最高等級的時候。"
   }
 });
+
+/* Added for the scoped lookups: page text no longer falls back to the ui overlay, and new shell strings. */
+S1.i18n.register('zh-Hant', 'practice', {
+  strings: {
+    "Practice": "練習",
+    "Level": "程度",
+    "Foundation": "基礎",
+    "Exam style": "考試題型",
+    "Challenge": "挑戰"
+  }
+});

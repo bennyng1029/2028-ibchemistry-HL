@@ -622,7 +622,7 @@
       var polar = model.size > 0, right = polar === saysPolar, why;
       var anyPolar = model.bonds.some(function (b) { return b.diff > 0; });
       if (!anyPolar) why = t('The two atoms are the same, so the bond is not polar. There is nothing to add up.');
-      else if (!polar) why = t('The bonds are polar, but the shape is symmetrical ({shape}). The bond dipoles are equal and point in opposite directions, so they cancel.', { shape: shapeName(m.shape) });
+      else if (!polar) why = t('The bonds are polar, but the shape is symmetrical ({shape}). The bond dipoles are equal and are arranged symmetrically, so they cancel.', { shape: shapeName(m.shape) });
       else if (m.o.length === 1) why = t('There is one polar bond, so its dipole is the net dipole.');
       else why = t('The bond dipoles do not cancel, because of the shape ({shape}) or because the bonds are not all the same. The molecule has a net dipole.', { shape: shapeName(m.shape) });
       if (m.k === 'nh4') why += ' ' + t('The ion still has its overall charge of 1+, but it has no net dipole.');
@@ -633,7 +633,7 @@
     function update() {
       setBonds(model.bonds.filter(function (b, i, arr) { return arr.findIndex(function (o) { return o.b === b.b; }) === i; }).map(function (b) {
         var hi = Math.max(EN[b.a], EN[b.b]), lo = Math.min(EN[b.a], EN[b.b]);
-        return b.a + '–' + b.b + ': ' + hi.toFixed(1) + ' ' + MINUS + ' ' + lo.toFixed(1) + ' = ' + b.diff.toFixed(1) + (b.neg ? ' (' + t('{a} is {d}', { a: b.neg, d: DELTA + MINUS }) + ')' : ' (' + t('not polar') + ')');
+        return (m.o.length === 1 && b.b === 'H' ? b.b + '–' + b.a : b.a + '–' + b.b) + ': ' + hi.toFixed(1) + ' ' + MINUS + ' ' + lo.toFixed(1) + ' = ' + b.diff.toFixed(1) + (b.neg ? ' (' + t('{a} is {d}', { a: b.neg, d: DELTA + MINUS }) + ')' : ' (' + t('not polar') + ')');
       }).join('<br>'));
       if (!revealed) { setCancel(t('Predict first.')); setVerdict(t('Predict first.')); fb.clear(); }
       else {
@@ -673,7 +673,8 @@
           var P = it.p, dx = P.x - C.x, dy = P.y - C.y, len = Math.hypot(dx, dy) || 1, nx = -dy / len, ny = dx / len, order = (m.ord || [])[it.i] || 1;
           var offs = order === 1 ? [0] : order === 2 ? [-3, 3] : [-5, 0, 5];
           ctx.strokeStyle = ink; ctx.lineWidth = 2;
-          offs.forEach(function (o) { ctx.beginPath(); ctx.moveTo(C.x + nx * o, C.y + ny * o); ctx.lineTo(P.x + nx * o, P.y + ny * o); ctx.stroke(); });
+          var r1 = Math.min(len / 2, m.c === 'H' ? 12 : 16), r2 = Math.min(len / 2, m.o[it.i] === 'H' ? 12 : 16), ex = dx / len, ey = dy / len;
+          offs.forEach(function (o) { ctx.beginPath(); ctx.moveTo(C.x + ex * r1 + nx * o, C.y + ey * r1 + ny * o); ctx.lineTo(P.x - ex * r2 + nx * o, P.y - ey * r2 + ny * o); ctx.stroke(); });
           var b = model.bonds[it.i];
           if (b.diff > 0 && len > 30) {
             var off = 15 + (order - 1) * 3, s = b.sign > 0 ? 1 : -1;
@@ -915,9 +916,9 @@
   function bpText(s) { return s.bp == null ? t('sublimes at {v} °C', { v: MINUS + '78' }) : (s.bp < 0 ? MINUS + (-s.bp) : String(s.bp)) + ' ' + DEG + 'C'; }
 
   S1.widgets.register('s2-2.imf', function (w) {
-    var ORDER = ['ch4', 'c3h8', 'cl2', 'i2', 'co2', 'ccl4', 'hcl', 'ch3cl', 'chcl3', 'propanone', 'ether', 'ethanal', 'h2o', 'nh3', 'hf', 'ethanol', 'mixO2', 'mixCl2'];
+    var ORDER = ['ch4', 'c3h8', 'cl2', 'i2', 'co2', 'ccl4', 'hcl', 'ch3cl', 'chcl3', 'propanone', 'ether', 'ethanal', 'h2o', 'nh3', 'hf', 'ethanol', 'mixCH4', 'mixCl2'];
     var MIX = {
-      mixO2: { label: t('Mixture: a water molecule and an oxygen molecule'), a: 'H2O', b: 'O2' },
+      mixCH4: { label: t('Mixture: a chloromethane molecule and a methane molecule'), a: 'CH3Cl', b: 'CH4' },
       mixCl2: { label: t('Mixture: a hydrogen chloride molecule and a chlorine molecule'), a: 'HCl', b: 'Cl2' }
     };
     var key = 'h2o';
@@ -963,7 +964,7 @@
         want = { london: true, did: true, dd: false, hb: false };
         lines.push(t('London (dispersion) forces act between all molecules.'));
         lines.push(t('{a} is polar and {b} is non-polar. The permanent dipole of {a} pulls on the electrons of {b} and makes a temporary (induced) dipole. That attraction is a dipole–induced dipole force.', { a: chem.formula(MIX[key].a), b: chem.formula(MIX[key].b) }));
-        lines.push(t('Dipole–dipole forces and hydrogen bonding need two polar molecules, so they do not act between this pair.'));
+        lines.push(t('Dipole–dipole forces need two polar molecules. Hydrogen bonding needs an H atom bonded to N, O or F. Neither acts between this pair.'));
       } else {
         want = { london: true, did: false, dd: s.polar, hb: s.hb };
         lines.push(t('London (dispersion) forces: yes. They act between all molecules, because all molecules have electrons.'));
@@ -1044,7 +1045,7 @@
       var p = PAIRS[idx], hi = SUBS[p.a].bp > SUBS[p.b].bp ? p.a : p.b, right = k === hi;
       revealed = true; load();
       fb.set(right ? 'right' : 'wrong', right ? t('Correct.') : t('Not this time.'),
-        '<p>' + t('{name} has the higher boiling point.', { name: SUBS[hi].name() }) + '</p>' +
+        '<p>' + t('The higher boiling point belongs to {name}.', { name: SUBS[hi].name() }) + '</p>' +
         '<p><b>' + t('Name the forces in both:') + '</b> ' + p.m1 + '</p><p><b>' + t('Compare their strength:') + '</b> ' + p.m2 + '</p>' +
         '<p><b>' + t('Link to energy:') + '</b> ' + t('More energy is needed to separate the molecules of {name}, so it boils at a higher temperature.', { name: SUBS[hi].name() }) + '</p>');
     }
@@ -1071,7 +1072,7 @@
     var line = w.slider({ label: t('Measuring line'), min: 0, max: 115, step: 0.5, value: 40, unit: 'mm', onInput: function () { showLine(); cv.draw(); } });
     var setState = w.readoutItem(t('Status'), { text: true });
     var setLine = w.readoutItem(t('Measuring line reads'));
-    var cv = w.canvas({ height: 400, label: t('Chromatogram: a baseline with four starting spots, a rising solvent front and a ruler') });
+    var cv = w.canvas({ height: 420, label: t('Chromatogram: a baseline with four starting spots, a rising solvent front and a ruler') });
 
     var ask = el('div', { class: 's22-ask', hidden: true });
     w.stage.appendChild(ask);
@@ -1128,7 +1129,7 @@
     }
     cv.draw(function (ctx, W, H) {
       var f = fonts(w), ink = w.color('--ink'), ink2 = w.color('--ink-2'), ink3 = w.color('--ink-3'), accent = w.color('--accent'), soft = w.color('--accent-soft'), surf = w.color('--surface'), s2 = w.color('--surface-2'), lineC = w.color('--line-strong');
-      var top = 22, bottom = H - 30, px = (bottom - top) / PAPER;                // px per mm
+      var top = 22, bottom = H - 48, px = (bottom - top) / PAPER;                // px per mm
       var paperW = Math.min(250, W - 150), x0 = Math.max(8, (W - paperW - 120) / 2), x1 = x0 + paperW;
       function Y(mmFromEdge) { return bottom - mmFromEdge * px; }
       // beaker solvent
@@ -1180,10 +1181,13 @@
       }
       // captions
       ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic'; ctx.font = f.body(11); ctx.fillStyle = ink2;
-      ctx.fillText(t('baseline'), x0 + 4, Y(BASE) - 4);
-      if (state === 'done') { ctx.fillStyle = accent; ctx.fillText(t('solvent front'), x0 + 4, Y(BASE + front) - 5); }
-      ctx.fillStyle = ink2; ctx.fillText(t('solvent'), x0 + 4, bottom + 14);
-      ctx.fillText(t('Model data, not a real experiment'), x0, H - 2, W - x0 - 4);
+      var ly2 = H - 20, lx = Math.max(8, x0 - 8);
+      ctx.strokeStyle = ink3; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(lx, ly2 - 4); ctx.lineTo(lx + 18, ly2 - 4); ctx.stroke();
+      ctx.fillText(t('pencil baseline'), lx + 23, ly2);
+      var wB = ctx.measureText(t('pencil baseline')).width + 36;
+      ctx.strokeStyle = accent; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(lx + wB, ly2 - 4); ctx.lineTo(lx + wB + 18, ly2 - 4); ctx.stroke();
+      ctx.fillText(t('solvent front'), lx + wB + 23, ly2);
+      ctx.fillText(t('Model data, not a real experiment. Shaded area: solvent.'), lx, H - 4, W - lx - 4);
     });
     reset();
   });

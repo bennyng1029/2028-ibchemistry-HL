@@ -928,7 +928,8 @@
     w.button(t('Remove one 4s electron'), function () { remove('s'); }, { primary: true });
     w.button(t('Remove one 3d electron'), function () { remove('d'); }, { primary: true });
     w.button(t('Start again from the atom'), function () { resetAtom(); });
-    var svg = w.svg('0 0 520 130', { label: t('Orbital diagram: one 4s box and five 3d boxes for the chosen atom or ion. Arrows show the electrons.') });
+    var svg = w.svg('0 0 400 132', { label: t('Orbital diagram: one 4s box and five 3d boxes for the chosen atom or ion. Arrows show the electrons.') });
+    svg.style.maxWidth = '30rem';
     var fb = msgBox(w.stage);
     var setSp = w.readoutItem(t('Species'));
     var setCfg = w.readoutItem(t('Condensed configuration'));
@@ -966,16 +967,16 @@
     }
     function draw() {
       while (svg.firstChild) svg.removeChild(svg.firstChild);
-      drawBoxes('4s', arrows(s4, 1), 20, 50);
-      drawBoxes('3d', arrows(d3, 5), 130, 50);
-      svgEl('text', { x: 400, y: 82, 'font-size': 16, 'font-family': 'var(--font-body)', fill: 'var(--ink-2)', text: t('[Ar] core: 18 electrons') }, svg);
+      drawBoxes('4s', arrows(s4, 1), 20, 40);
+      drawBoxes('3d', arrows(d3, 5), 130, 40);
+      svgEl('text', { x: 20, y: 124, 'font-size': 14, 'font-family': 'var(--font-body)', fill: 'var(--ink-2)', text: t('Not shown: the [Ar] core of 18 inner electrons.') }, svg);
     }
     function update() {
       var c = charge(), inProgress = c > 0 && s4 > 0;
       draw();
       setSp(c === 0 ? t('{el} atom', { el: sym }) : inProgress ? t('{el} with one electron removed (not finished)', { el: sym }) : ionHtml(sym, c));
       setCfg(inProgress ? MINUS : cfgNow());
-      setD(d3 === 0 ? t('empty (d0)') : d3 === 10 ? t('full (d{n})', { n: 10 }) : t('partially filled (d{n})', { n: d3 }));
+      setD(d3 === 0 ? t('empty (3d<sup>0</sup>)') : d3 === 10 ? t('full (3d<sup>10</sup>)') : t('partially filled (3d<sup>{n}</sup>)', { n: d3 }));
       if (c === 0) setNote(t('This is the atom. Choose which sublevel loses the first electron.'));
       else if (inProgress) setNote(t('One 4s electron is still there. Common ions of this element have lost both 4s electrons. Remove it before you read the configuration.'));
       else if (d3 === 0) setNote(t('The d sublevel is empty. There is no d electron to promote, so compounds of this ion are not coloured.'));
@@ -1030,7 +1031,7 @@
       setCa(ratioText(ca));
       setTm(ratioText(a));
       var big = Math.max.apply(null, ratios(a).slice(0, 2));
-      setNote(t('Calcium: the third ionization energy is {r} times the second. The third electron comes from an inner energy level, so calcium only forms the 2+ ion. {name}: the second and third values rise by a factor of {b} or less. The 4s and 3d electrons are close in energy, so the successive ionization energies are close in value. Losing two electrons or three electrons costs a similar amount of energy, so more than one oxidation state is possible.',
+      setNote(t('Calcium: the third ionization energy is {r} times the second. The third electron comes from an inner energy level, so calcium only forms the 2+ ion. {name}: the second and third values rise by a factor of {b} or less. The 4s and 3d electrons are close in energy, so the successive ionization energies are close in value. There is no large jump after the second electron, so more than one oxidation state is possible.',
         { r: (ca[2] / ca[1]).toFixed(1), name: name.charAt(0).toUpperCase() + name.slice(1), b: big.toFixed(1) }));
     }
     update();
@@ -1131,14 +1132,16 @@
       svgEl('text', { x: 262, y: 70, 'font-size': 13, 'font-family': 'var(--font-body)', fill: 'var(--ink)', text: t('{colour} missing', { colour: colourName(abs.key) }) }, beam);
       svgEl('text', { x: 262, y: 88, 'font-size': 13, 'font-family': 'var(--font-body)', fill: 'var(--ink)', text: t('looks {colour}', { colour: colourName(obs.key) }) }, beam);
       // two sets of d orbitals (the pattern of the split is not required)
-      svgEl('text', { x: 8, y: 166, 'font-size': 13, 'font-family': 'var(--font-body)', fill: 'var(--ink)', text: t('Inside the complex ion: the d sublevel is split into two sets') }, beam);
-      svgEl('line', { x1: 60, y1: 200, x2: 170, y2: 200, stroke: 'var(--ink)', 'stroke-width': 3 }, beam);
+      svgEl('text', { x: 8, y: 166, 'font-size': 13, 'font-weight': 700, 'font-family': 'var(--font-body)', fill: 'var(--ink)', text: t('Inside the complex ion') }, beam);
+      svgEl('text', { x: 8, y: 183, 'font-size': 13, 'font-family': 'var(--font-body)', fill: 'var(--ink)', text: t('The d sublevel is split into two sets of orbitals.') }, beam);
+      svgEl('line', { x1: 60, y1: 208, x2: 170, y2: 208, stroke: 'var(--ink)', 'stroke-width': 3 }, beam);
       svgEl('line', { x1: 60, y1: 270, x2: 170, y2: 270, stroke: 'var(--ink)', 'stroke-width': 3 }, beam);
-      svgEl('text', { x: 180, y: 204, 'font-size': 13, 'font-family': 'var(--font-body)', fill: 'var(--ink-2)', text: t('higher-energy d orbitals') }, beam);
+      svgEl('text', { x: 180, y: 212, 'font-size': 13, 'font-family': 'var(--font-body)', fill: 'var(--ink-2)', text: t('higher-energy d orbitals') }, beam);
       svgEl('text', { x: 180, y: 274, 'font-size': 13, 'font-family': 'var(--font-body)', fill: 'var(--ink-2)', text: t('lower-energy d orbitals') }, beam);
-      svgEl('path', { d: 'M100 264 v-52 m-6 9 l6 -9 l6 9', stroke: 'var(--accent)', 'stroke-width': 3, fill: 'none' }, beam);
+      svgEl('path', { d: 'M100 264 v-46 m-6 9 l6 -9 l6 9', stroke: 'var(--accent)', 'stroke-width': 3, fill: 'none' }, beam);
       svgEl('circle', { cx: 100, cy: 270, r: 6, fill: 'var(--accent)', stroke: 'var(--ink)', 'stroke-width': 1 }, beam);
-      svgEl('text', { x: 114, y: 240, 'font-size': 13, 'font-family': 'var(--font-body)', fill: 'var(--ink)', text: t('electron promoted by absorbing {colour} light', { colour: colourName(abs.key) }) }, beam);
+      svgEl('text', { x: 114, y: 234, 'font-size': 13, 'font-family': 'var(--font-body)', fill: 'var(--ink)', text: t('an electron is promoted') }, beam);
+      svgEl('text', { x: 114, y: 251, 'font-size': 13, 'font-family': 'var(--font-body)', fill: 'var(--ink)', text: t('by absorbing {colour} light', { colour: colourName(abs.key) }) }, beam);
     }
     function update() {
       var abs = bandOf(nm), obs = complementOf(abs), fHz = CLIGHT / (nm * 1e-9);

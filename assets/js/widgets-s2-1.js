@@ -715,7 +715,7 @@
       form.appendChild(b);
     }
     function ions(c) { return ionHTML(c.cat, c.qc) + ' ' + rCat(c) + ' pm, ' + ionHTML(c.an, -c.qa) + ' ' + rAn(c) + ' pm'; }
-    function chargesText(c) { return chargeText(c.qc) + ' ' + t('and') + ' ' + chargeText(-c.qa); }
+    function chargesText(c) { return c.qc + '+ ' + t('and') + ' ' + c.qa + MINUS; }
 
     function reveal() {
       var A = get(state.a), B = get(state.b);

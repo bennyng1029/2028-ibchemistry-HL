@@ -114,7 +114,7 @@
     // region names
     ctx.fillStyle = ink; ctx.textAlign = 'center'; ctx.font = '700 ' + (fs + 1) + 'px ' + body;
     Object.keys(regions).forEach(function (k) { ctx.fillText(regions[k].name, X(regions[k].at[0]), Y(regions[k].at[1])); });
-    ctx.fillText(t('Polar'), X(2.78), Y(1.32)); ctx.fillText(t('covalent'), X(2.78), Y(1.32) + fs + 4);
+    ctx.fillText(t('Polar'), X(2.95), Y(1.3)); ctx.fillText(t('covalent'), X(2.95), Y(1.3) + fs + 4);
     // axes
     ctx.strokeStyle = ink2; ctx.lineWidth = 1.2;
     ctx.beginPath(); ctx.moveTo(X(x0), Y(y1)); ctx.lineTo(X(x0), Y(y0)); ctx.lineTo(X(x1), Y(y0)); ctx.stroke();
@@ -145,7 +145,7 @@
       if (p.label) {
         ctx.font = '700 ' + (fs + 1) + 'px ' + body;
         var tw = ctx.measureText(p.label).width, left = p.left || px + tw + 12 > W - 2;
-        var lx = left ? px - 9 - tw : px + 9, ly = py - 11;
+        var lx = left ? px - 9 - tw : px + 9, ly = p.below ? py + 15 : py - 11;
         if (ly < 9) ly = py + 14;
         ctx.fillStyle = w.color('--surface'); ctx.fillRect(lx - 2, ly - 8, tw + 4, 16);
         ctx.fillStyle = ink; ctx.textAlign = 'left'; ctx.fillText(p.label, lx, ly);
@@ -267,10 +267,10 @@
     var cv = w.canvas({ height: function (width) { return Math.round(Math.min(410, Math.max(270, width * 0.7))); },
       label: t('Bonding triangle with example substances. Sodium is in the metallic corner, chlorine in the covalent corner and caesium fluoride at the ionic top. Sodium chloride is in the ionic region. Hydrogen chloride and silicon dioxide are in the polar covalent region.') });
     var setInfo = w.readoutItem(t('What this region means'), { text: true });
-    var POINTS = [['Na', 'Na', 'Na'], ['Cl', 'Cl', 'Cl₂'], ['Cs', 'F', 'CsF', true], ['Na', 'Cl', 'NaCl', true], ['H', 'Cl', 'HCl'], ['Si', 'O', 'SiO₂', true]];
+    var POINTS = [['Na', 'Na', 'Na'], ['Cl', 'Cl', 'Cl₂'], ['Cs', 'F', 'CsF', true], ['Na', 'Cl', 'NaCl', true], ['H', 'Cl', 'HCl', 'below'], ['Si', 'O', 'SiO₂', true]];
     cv.draw(function (ctx, W, H) {
       drawTriangle(w, ctx, W, H, { highlight: which === 'all' ? null : which, points: POINTS.map(function (q) {
-        var p = position(q[0], q[1]); return { avg: p.avg, d: p.d, label: q[2], left: !!q[3] };
+        var p = position(q[0], q[1]); return { avg: p.avg, d: p.d, label: q[2], left: q[3] === true, below: q[3] === 'below' };
       }) });
     });
     function update() { setInfo(INFO[which]); cv.draw(); }
@@ -318,7 +318,18 @@
           });
           a.dx = dx; a.dy = dy;
         });
-        atoms.forEach(function (a) { a.x += a.dx; a.y += a.dy; });
+        atoms.forEach(function (a) { a.x += a.dx; a.y += a.dy; a.rad = a.f ? r * k : r; });
+        // settle: push apart any circles that still overlap, so the picture shows a packed, distorted lattice
+        for (var it = 0; it < 8; it++) {
+          for (i = 0; i < atoms.length; i++) for (j = i + 1; j < atoms.length; j++) {
+            var p1 = atoms[i], p2 = atoms[j], ex = p2.x - p1.x, ey = p2.y - p1.y, need = p1.rad + p2.rad;
+            if (Math.abs(ex) > need || Math.abs(ey) > need) continue;
+            var el2 = Math.sqrt(ex * ex + ey * ey);
+            if (el2 >= need || el2 === 0) continue;
+            var mv = (need - el2) / 2;
+            p1.x -= ex / el2 * mv; p1.y -= ey / el2 * mv; p2.x += ex / el2 * mv; p2.y += ey / el2 * mv;
+          }
+        }
       }
       // the moving rows ride up and over the row below, as real spheres would
       var u = ((r + shift * 2 * r) % (2 * r) + 2 * r) % (2 * r), near = Math.min(u, 2 * r - u);
@@ -733,7 +744,7 @@
     var bNext = w.button(t('Next step'), function () { if (step < 4) { step += 1; update(); } }, { primary: true });
     var head = el('div', { class: 's24-bar' }); w.stage.appendChild(head);
     var draw = el('div', { class: 's24-stage' }); w.stage.appendChild(draw);
-    var setLink = w.readoutItem(t('Link formed'));
+    var setLink = w.readoutItem(t('Link formed'), { text: true });
     var setSmall = w.readoutItem(t('Small molecule released'));
     var setRep = w.readoutItem(t('Repeating unit'));
 

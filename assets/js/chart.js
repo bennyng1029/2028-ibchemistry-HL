@@ -14,7 +14,7 @@
   'use strict';
   var S1 = window.S1;
   if (!S1 || !S1.util) { if (window.console) console.error('chart.js needs core.js to be loaded first'); return; }
-  var t = S1.t, doc = document;
+  var t = S1.i18n.ui, tl = S1.i18n.either, doc = document;   // tl: an author's own label first, then the shell default
   var SERIES_TOKENS = ['--accent', '--ink-2', '--line-strong', '--ink'];
 
   function niceStep(span, target) {
@@ -51,7 +51,7 @@
     canvas.setAttribute('role', 'img'); canvas.style.display = 'block';
     el.appendChild(canvas);
     var ctx = canvas.getContext('2d'), W = 0, H = 0;
-    S1.i18n.liveAttr(canvas, 'aria-label', function () { return t(spec.label || 'Chart'); });
+    S1.i18n.liveAttr(canvas, 'aria-label', function () { return tl(spec.label || 'Chart'); });
 
     function size() {
       var w = Math.max(220, Math.floor(el.clientWidth || 320)), h = spec.height || 260, dpr = Math.min(window.devicePixelRatio || 1, 3);
@@ -101,8 +101,8 @@
       ctx.strokeStyle = ink; ctx.lineWidth = 1.5;
       ctx.beginPath(); ctx.moveTo(m.l + 0.5, m.t); ctx.lineTo(m.l + 0.5, m.t + ph + 0.5); ctx.lineTo(W - m.r, m.t + ph + 0.5); ctx.stroke();
       ctx.fillStyle = ink2; ctx.font = '13px ' + body;
-      if (xa.label) { ctx.textAlign = 'center'; ctx.textBaseline = 'bottom'; ctx.fillText(t(xa.label), m.l + pw / 2, H - 4); }
-      if (ya.label) { ctx.save(); ctx.translate(13, m.t + ph / 2); ctx.rotate(-Math.PI / 2); ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(t(ya.label), 0, 0); ctx.restore(); }
+      if (xa.label) { ctx.textAlign = 'center'; ctx.textBaseline = 'bottom'; ctx.fillText(tl(xa.label), m.l + pw / 2, H - 4); }
+      if (ya.label) { ctx.save(); ctx.translate(13, m.t + ph / 2); ctx.rotate(-Math.PI / 2); ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(tl(ya.label), 0, 0); ctx.restore(); }
 
       // series
       ctx.save(); ctx.beginPath(); ctx.rect(m.l, m.t - 6, pw + 1, ph + 6); ctx.clip();
@@ -142,7 +142,7 @@
         });
       });
       (spec.annotations || []).forEach(function (a) {
-        var text = t(a.text), ax = X(a.x) + (a.dx || 0), ay = Y(a.y) + (a.dy == null ? -10 : a.dy);
+        var text = tl(a.text), ax = X(a.x) + (a.dx || 0), ay = Y(a.y) + (a.dy == null ? -10 : a.dy);
         ctx.font = '12px ' + body; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
         var tw = ctx.measureText(text).width + 8;
         ax = Math.max(m.l + tw / 2 + 2, Math.min(W - m.r - tw / 2, ax)); ay = Math.max(9, Math.min(m.t + ph - 9, ay));
@@ -153,7 +153,7 @@
       var lx = m.l;
       ctx.font = '12px ' + body; ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
       legend.forEach(function (s) {
-        var c = col(s.color || SERIES_TOKENS[series.indexOf(s) % SERIES_TOKENS.length]), name = t(s.name);
+        var c = col(s.color || SERIES_TOKENS[series.indexOf(s) % SERIES_TOKENS.length]), name = tl(s.name);
         ctx.fillStyle = c; ctx.fillRect(lx, 9, 14, 4); ctx.fillStyle = ink2; ctx.fillText(name, lx + 19, 11);
         lx += 19 + ctx.measureText(name).width + 16;
       });

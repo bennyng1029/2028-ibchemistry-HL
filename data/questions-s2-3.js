@@ -292,7 +292,7 @@
       id: 's2-3-q017', topic: 's2-3', level: 'sl', tier: 'challenge', type: 'mcq', marks: 1,
       syllabus: 'Structure 2.3.2',
       stem: '<p>P, Q, R and S are four s-block metals. The table shows the ion that each one forms. Which option gives the metal with the lowest melting point and the metal with the highest melting point?</p>' +
-        table('Ions formed by metals P to S', ['Metal', 'Charge of ion', 'Ionic radius / pm'], [
+        table('Ions formed by metals P to S', ['Metal', 'Charge', 'Radius / pm'], [
           ['P', '1+', '138'], ['Q', '2+', '135'], ['R', '1+', '167'], ['S', '2+', '100']]),
       options: [
         'Lowest: P. Highest: Q.',

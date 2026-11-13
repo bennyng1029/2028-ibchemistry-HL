@@ -680,7 +680,7 @@
     options: ['Be and N', 'B and O', 'C and F', 'Li and Ne'],
     answer: 1,
     misconception: {
-      0: 'Be (900) is higher than Li (520), and N (1402) is higher than C (1086). These are the elements just <em>before</em> each decrease.',
+      0: 'Be (900) is higher than Li (520), and N (1402) is higher than C (1086). These are the elements that come <em>before</em> each decrease.',
       2: 'C (1086) is higher than B (801), and F (1681) is higher than O (1314). These follow the general trend.',
       3: 'Li is the first element in the period, and Ne has the highest value of all.'
     },

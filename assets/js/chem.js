@@ -457,7 +457,7 @@
 
   /** Turn a checkNumeric result into student-facing feedback: {tone: 'right'|'partial'|'wrong', label, html}. */
   function describeCheck(res, spec) {
-    var t = S1.t || function (s, v) { return v ? s.replace(/\{(\w+)\}/g, function (_, k) { return v[k]; }) : s; };
+    var t = (S1.i18n && S1.i18n.ui) || S1.t || function (s, v) { return v ? s.replace(/\{(\w+)\}/g, function (_, k) { return v[k]; }) : s; };
     var range = sfRange(spec && spec.sigfigs);
     if (res.status === 'correct') return { tone: 'right', label: t('Correct'), html: '' };
     if (res.status === 'sigfig') {

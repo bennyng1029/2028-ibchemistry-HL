@@ -13,7 +13,7 @@ S1.i18n.register('zh-Hant', 'ui', {
     "1 question matches": "有 1 題符合",
     "10 questions": "10 題",
     "20 questions": "20 題",
-    "3-D model": "立體模型",
+    "3-D model": "3D 立體模型",
     "5 questions": "5 題",
     "A tough set. Go back over the worked examples, then retry the questions below.": "這組題目不容易。先重溫例題，再試做下面的題目。",
     "Additional HL": "HL 附加內容",
@@ -218,5 +218,24 @@ S1.i18n.register('zh-Hant', 'ui', {
     "Your answer (write it here or on paper; it is not saved)": "你的答案（可寫在這裏或紙上；不會儲存）",
     "Your digits look right but the power of ten is off. Check your unit conversions (for example cm<sup>3</sup> to dm<sup>3</sup>, or g to kg).": "數字看來正確，但 10 的次方不對。請檢查單位換算（例如 cm<sup>3</sup> 換成 dm<sup>3</sup>，或 g 換成 kg）。",
     "Your progress is saved only in this browser. Nothing is sent anywhere.": "你的進度只儲存在此瀏覽器內，不會傳送到任何地方。"
+  }
+});
+
+/* Added for the scoped lookups: page text no longer falls back to the ui overlay, and new shell strings. */
+S1.i18n.register('zh-Hant', 'ui', {
+  strings: {
+    "Diagram": "圖",
+    "Guiding question": "引導問題",
+    "Solution|quiz": "題解"
+  }
+});
+
+/* Added for the scoped lookups: page text no longer falls back to the ui overlay, and new shell strings. */
+S1.i18n.register('zh-Hant', 'ui', {
+  strings: {
+    "[1 mark]": "[1 分]",
+    "[{n} marks]": "[{n} 分]",
+    "Next": "下一個",
+    "Previous": "上一個"
   }
 });

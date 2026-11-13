@@ -17,3 +17,14 @@ S1.i18n.register('ja', 'practice', {
     "When you want to push for the top grades.": "最高の成績（7）をねらいたいとき。"
   }
 });
+
+/* Added for the scoped lookups: page text no longer falls back to the ui overlay, and new shell strings. */
+S1.i18n.register('ja', 'practice', {
+  strings: {
+    "Practice": "練習",
+    "Level": "レベル",
+    "Foundation": "基礎",
+    "Exam style": "試験形式",
+    "Challenge": "チャレンジ"
+  }
+});

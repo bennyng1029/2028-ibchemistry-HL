@@ -60,16 +60,18 @@
     },
     uid: function (prefix) { return (prefix || 's1') + '-' + (++uidN); },
     /** el('button', {class: 'btn', type: 'button', onclick: fn}, 'Text' | Node | [children])
-     *  Special keys: text, html, t (translated HTML that follows the language), tTitle, tLabel (translated title / aria-label). */
+     *  Special keys: text, html, t (shell string, translated in the ui scope, follows the language), tp (authored
+     *  page string, translated in the page scope), tTitle, tLabel (shell title / aria-label). */
     el: function (tag, attrs, children) {
       var node = doc.createElement(tag), k;
       if (attrs) for (k in attrs) {
         if (!Object.prototype.hasOwnProperty.call(attrs, k) || attrs[k] == null || attrs[k] === false) continue;
         if (k === 'html') node.innerHTML = attrs[k];
         else if (k === 'text') node.textContent = attrs[k];
-        else if (k === 't') S1.i18n.live(node, (function (key) { return function () { return S1.t(key); }; })(attrs[k]));
-        else if (k === 'tTitle') S1.i18n.liveAttr(node, 'title', (function (key) { return function () { return S1.t(key); }; })(attrs[k]));
-        else if (k === 'tLabel') S1.i18n.liveAttr(node, 'aria-label', (function (key) { return function () { return S1.t(key); }; })(attrs[k]));
+        else if (k === 't') S1.i18n.live(node, (function (key) { return function () { return S1.i18n.ui(key); }; })(attrs[k]));
+        else if (k === 'tp') S1.i18n.live(node, (function (key) { return function () { return S1.t(key); }; })(attrs[k]));
+        else if (k === 'tTitle') S1.i18n.liveAttr(node, 'title', (function (key) { return function () { return S1.i18n.ui(key); }; })(attrs[k]));
+        else if (k === 'tLabel') S1.i18n.liveAttr(node, 'aria-label', (function (key) { return function () { return S1.i18n.ui(key); }; })(attrs[k]));
         else if (k.slice(0, 2) === 'on' && typeof attrs[k] === 'function') node.addEventListener(k.slice(2), attrs[k]);
         else node.setAttribute(k, attrs[k] === true ? '' : attrs[k]);
       }
@@ -139,8 +141,8 @@
     var dark = S1.theme.get() === 'dark';
     Array.prototype.forEach.call(doc.querySelectorAll('.theme-toggle'), function (b) {
       var key = dark ? 'Switch to light theme' : 'Switch to dark theme';   // i18n
-      S1.i18n.liveAttr(b, 'aria-label', function () { return S1.t(key); });
-      S1.i18n.liveAttr(b, 'title', function () { return S1.t(key); });
+      S1.i18n.liveAttr(b, 'aria-label', function () { return S1.i18n.ui(key); });
+      S1.i18n.liveAttr(b, 'title', function () { return S1.i18n.ui(key); });
     });
   }
 
@@ -272,36 +274,75 @@
     { id: 'ja', label: '日本語', font: 'Noto+Sans+JP:wght@400;700' },
     { id: 'zh-Hant', label: '繁體中文', font: 'Noto+Sans+TC:wght@400;700' }
   ];
-  var lang = 'en', tables = {}, manifests = {}, reverse = {}, seen = {}, scopesLoaded = {};
+  var lang = 'en', tables = {}, manifests = {}, reverse = {}, seenUi = {}, seenPage = {}, scopesLoaded = {};
   var srcMap = typeof WeakMap === 'function' ? new WeakMap() : null;
   var attrMap = typeof WeakMap === 'function' ? new WeakMap() : null;
-  var catalogAttrs = {}, pageTitle = null;
-  var UNIT_SEL = 'h1,h2,h3,h4,h5,h6,p,li,dt,dd,th,td,caption,figcaption,summary,legend,blockquote,button,option,label,[data-i18n]';
-  var SKIP_SEL = '[data-i18n="off"],.chem,.unit,.eq__formula,.worked__math,code,pre,kbd,samp,script,style,noscript';
+  var cattrMap = typeof WeakMap === 'function' ? new WeakMap() : null;
+  var pageTitle = null;
+  var UNIT_SEL = 'h1,h2,h3,h4,h5,h6,p,li,dt,dd,th,td,caption,figcaption,summary,legend,blockquote,button,option,label,.worked__math,.eq__formula,[data-i18n]';
+  var SKIP_SEL = '[data-i18n="off"],.chem,.unit,code,pre,kbd,samp,script,style,noscript';
+  var MATH_SEL = '.worked__math,.eq__formula';
   var ATTRS = ['title', 'aria-label', 'placeholder', 'alt'];
   var COMP_ATTRS = ['data-title', 'data-toc', 'data-def', 'data-label', 'data-kicker', 'data-correct'];
 
   function norm(s) { return String(s == null ? '' : s).replace(/\s+/g, ' ').trim(); }
   function fill(s, vars) { return vars ? s.replace(/\{(\w+)\}/g, function (m, k) { return vars[k] != null ? vars[k] : m; }) : s; }
-  function table(l) { return tables[l] || (tables[l] = { strings: {}, questions: {} }); }
-  function lookup(key) {
+  // One table per language; strings are kept per scope ('ui', 'common', or a page id), questions by id.
+  function table(l) { return tables[l] || (tables[l] = { scopes: {}, questions: {} }); }
+  function lookupIn(scopes, key) {
     if (lang === 'en') return null;
-    var v = table(lang).strings[key];
-    return typeof v === 'string' && v !== '' ? v : null;
+    var sc = table(lang).scopes;
+    for (var i = 0; i < scopes.length; i++) { var v = sc[scopes[i]] && sc[scopes[i]][key]; if (typeof v === 'string' && v !== '') return v; }
+    return null;
+  }
+  /* SCOPES.  Text written by a page author (page blocks, attributes, widget strings) is looked up in that page's
+     own overlay, then in the shared 'common' overlay, and never in 'ui'.  Text produced by the shell and the
+     engines (core.js, quiz.js, mol.js, chart.js) is looked up in 'ui' only.  So the same English word can be
+     translated differently in the two places, and a page without an overlay stays in English.               */
+  function lookup(key) { return lookupIn([util.page(), 'common'], key); }
+  function lookupUi(key) { return lookupIn(['ui'], key); }
+  // Context suffix: t('Solution|quiz') and t('Solution|chemistry') are different keys that both read
+  // "Solution" in English.  The suffix is one word after a final "|".
+  var CTX = /\|[A-Za-z0-9_-]+$/;
+  function makeT(find, seenSet) {
+    var f = function (english, vars) {
+      var key = norm(english);
+      seenSet[key] = 1;
+      var tr = find(key), plain = String(english);
+      if (!tr && CTX.test(key)) { tr = find(key.replace(CTX, '')); plain = plain.replace(CTX, ''); }
+      else if (CTX.test(key)) plain = plain.replace(CTX, '');
+      if (tr) { (reverse[lang] || (reverse[lang] = {}))[norm(tr)] = english; return fill(tr, vars); }
+      return fill(plain, vars);
+    };
+    /**
+     * Plural forms: t.n(count, {one: '1 question matches', other: '{n} questions match'}, vars)
+     * picks `one` when count is exactly 1 (if given), else `other`, and fills {n} with the count.
+     * Each form is an ordinary key, so a language without plurals just translates both.
+     */
+    f.n = function (count, forms, vars) {
+      var v = { n: count }, k;
+      if (vars) for (k in vars) v[k] = vars[k];
+      return f(count === 1 && forms.one != null ? forms.one : forms.other, v);
+    };
+    return f;
   }
 
   /**
-   * S1.t('English text with {name}', {name: value}) → the translation in the current language,
-   * or the English text if there is none.  Works before any language file has loaded.
+   * S1.t('English text with {name}', {name: value}) → the translation in the current language, or the English
+   * text if there is none.  This is the function for PAGE and WIDGET strings: it looks in the page's overlay,
+   * then in 'common'.  It returns HTML, unescaped.  Works before any language file has loaded.
+   * S1.t.n(count, {one, other}, vars) chooses a plural form.  A key may end in "|context" (see above).
    */
-  S1.t = function (english, vars) {
-    var key = norm(english);
-    seen[key] = 1;
-    var tr = lookup(key);
+  S1.t = makeT(lookup, seenPage);
+  var tp = S1.t;
+  /** Shell and engine strings (ui scope). Same signature as S1.t, including .n(). */
+  var t = makeT(lookupUi, seenUi);
+  /** For helper defaults that an author may override (chart and drawing labels): page, then common, then ui. */
+  function either(english, vars) {
+    var key = norm(english), own = lookup(key), tr = own || lookupUi(key);
     if (tr) { (reverse[lang] || (reverse[lang] = {}))[norm(tr)] = english; return fill(tr, vars); }
-    return fill(String(english), vars);
-  };
-  var t = S1.t;
+    return fill(String(english).replace(CTX, ''), vars);
+  }
 
   /* Live bindings: generated text that re-renders itself when the language changes. */
   function render(node) {
@@ -319,7 +360,7 @@
     return s;
   }
   /** liveText(el, 'Label'): the label follows the language even if it was passed in already translated. */
-  function liveText(node, text) { var src = sourceOf(text); return live(node, function () { return t(src); }); }
+  function liveText(node, text) { var src = sourceOf(text); return live(node, function () { return tp(src); }); }
   // In HTML strings built by this file: data-t="English" (inner HTML), data-t-aria / data-t-title (attributes).
   function bindTree(root) {
     Array.prototype.forEach.call(root.querySelectorAll('[data-t]'), function (n) { var k = n.getAttribute('data-t'); n.removeAttribute('data-t'); live(n, function () { return t(k); }); });
@@ -328,12 +369,40 @@
   }
   function off(node) { node.setAttribute('data-i18n', 'off'); return node; }
 
+  // Does a maths block contain real words once formulas, units, variables and unit symbols are set aside?
+  var UNIT_WORDS = /^(?:mol|dm|cm|mm|nm|pm|km|kg|mg|g|kPa|Pa|atm|kJ|J|K|s|min|h|L|mL|ppm|Hz|eV|V|C|N|m|sf|dp|aq|l|pH|x|y|n|M|R|T|p|c|v)$/;
+  function hasWords(node) {
+    var clone = node.cloneNode(true);
+    Array.prototype.forEach.call(clone.querySelectorAll('.chem,.unit,.mono,i,var,sub,sup,code,[data-i18n="off"]'), function (x) { x.parentNode.removeChild(x); });
+    return (clone.textContent.match(/[A-Za-zÀ-ɏ]+/g) || []).some(function (w) {
+      return w.length >= 2 && !UNIT_WORDS.test(w) && !/^(?:[A-Z][a-z]?)+$/.test(w);     // not a unit symbol, not a formula
+    });
+  }
+  // The hero's "Guiding question" label is shell text: take it out of the authored block so that it is
+  // translated on every page, and the question itself becomes the block.
+  function splitGuiding(scope) {
+    Array.prototype.forEach.call(scope.querySelectorAll('.guiding'), function (p) {
+      var lab = p.querySelector('.guiding__label');
+      if (!lab || p.hasAttribute('data-s1-split') || !/^\s*guiding question\s*$/i.test(lab.textContent)) return;
+      p.setAttribute('data-s1-split', '');
+      p.removeChild(lab);
+      var q = doc.createElement('span');
+      q.className = 'guiding__q'; q.setAttribute('data-i18n', '');
+      while (p.firstChild) q.appendChild(p.firstChild);
+      var shell = doc.createElement('span');
+      shell.className = 'guiding__label'; shell.setAttribute('data-i18n', 'off');
+      p.appendChild(shell); p.appendChild(q);
+      live(shell, function () { return t('Guiding question'); });
+    });
+  }
+
   /* Capture authored content (before enhancement). */
   function capture(root) {
     if (!srcMap) return;
     if (root !== doc && root.closest && root.closest('[data-i18n="off"]')) return;
     var scope = root === doc ? doc.body : root;
     if (!scope) return;
+    splitGuiding(scope);
     var nodes = Array.prototype.slice.call(scope.querySelectorAll(UNIT_SEL));
     if (scope.matches && scope.matches(UNIT_SEL)) nodes.unshift(scope);
     nodes.forEach(function (n) {
@@ -341,7 +410,9 @@
       if (n.querySelector(UNIT_SEL) || n.querySelector('input,select,textarea,canvas,svg,[data-s1-widget],[data-s1-quiz]')) return;   // not a leaf block
       var text = n.textContent;
       if (!/[A-Za-zÀ-ɏ]{2}/.test(text)) return;                        // numbers and symbols only
-      srcMap.set(n, { html: n.innerHTML, key: norm(n.innerHTML) });
+      var isMath = n.matches(MATH_SEL);
+      if (isMath && !hasWords(n)) return;                                        // maths with no words in it
+      srcMap.set(n, { html: n.innerHTML, key: norm(n.innerHTML), math: isMath });
       n.setAttribute('data-i18n-src', '');
     });
     Array.prototype.forEach.call(scope.querySelectorAll('[title],[aria-label],[placeholder],[alt]'), function (n) {
@@ -351,8 +422,10 @@
       if (any) { attrMap.set(n, o); n.setAttribute('data-i18n-attr', ''); }
     });
     Array.prototype.forEach.call(scope.querySelectorAll('[data-title],[data-toc],[data-def],[data-label],[data-kicker],[data-correct]'), function (n) {
-      if (n.closest('[data-i18n="off"]')) return;
-      COMP_ATTRS.forEach(function (a) { var v = n.getAttribute(a); if (v) catalogAttrs[norm(v)] = 1; });
+      if (cattrMap.has(n) || n.closest('[data-i18n="off"]')) return;
+      var o = {}, any = false;
+      COMP_ATTRS.forEach(function (a) { var v = n.getAttribute(a); if (v && /[A-Za-z]{2}/.test(v)) { o[a] = v; any = true; } });
+      if (any) { cattrMap.set(n, o); n.setAttribute('data-i18n-cattr', ''); }
     });
   }
   /** Move a captured block to another element (for components that re-wrap authored content). */
@@ -401,7 +474,7 @@
     CSS_LABELS.forEach(function (pair) {
       Array.prototype.forEach.call(root.querySelectorAll(pair[0]), function (n) {
         var custom = n.tagName === 'LI' ? null : n.getAttribute(n.classList.contains('worked__why') ? 'data-label' : 'data-title');
-        n.setAttribute('data-s1-label', t(custom || pair[1]));
+        n.setAttribute('data-s1-label', custom ? tp(custom) : t(pair[1]));
       });
     });
   }
@@ -416,9 +489,17 @@
     var root = util.root(), page = util.page();
     function scopes() {
       var have = manifests[l] || [], want = ['ui'];
-      if (page && have.indexOf(page) > -1) want.push(page);
-      if (page === 'practice' || doc.querySelector('[data-s1-quiz][data-topic="all"]')) have.forEach(function (s) { if (want.indexOf(s) < 0 && /^s\d+-\d+h?$/.test(s)) want.push(s); });
-      return want.filter(function (s) { return !scopesLoaded[l + '/' + s]; });
+      function add(sc) { if (sc && have.indexOf(sc) > -1 && want.indexOf(sc) < 0) want.push(sc); }
+      add('common'); add(page); add(page + '.q');
+      // question translations for every bank this page can show
+      var all = page === 'practice';
+      Array.prototype.forEach.call(doc.querySelectorAll('[data-s1-quiz]'), function (q) {
+        var tp2 = q.getAttribute('data-topic') || '';
+        if (!tp2 || tp2 === 'all') { if (tp2 === 'all' || q.getAttribute('data-mode') === 'review') all = true; return; }
+        tp2.split(',').forEach(function (id) { id = id.trim(); add(id + '.q'); add(id); });
+      });
+      if (all) have.forEach(function (sc) { if (/^s\d+-\d+h?(\.q)?$/.test(sc)) add(sc); });
+      return want.filter(function (sc) { return !scopesLoaded[l + '/' + sc]; });
     }
     function next() {
       var list = scopes(), left = list.length;
@@ -458,12 +539,14 @@
         util.emit('s1:langchange', { lang: l });
       });
     },
-    /** Called by i18n/<lang>/<scope>.js:  S1.i18n.register('ja', 's1-1', {strings: {...}, questions: {...}}). */
+    /** Called by i18n/<lang>/<scope>.js:  S1.i18n.register('ja', 's1-1', {strings: {...}}) and, in s1-1.q.js,
+     *  S1.i18n.register('ja', 's1-1.q', {questions: {...}}).  One file may also carry both (the older form). */
     register: function (l, scope, data) {
-      var tb = table(l), k;
+      var tb = table(l), k, f, name = String(scope).replace(/\.q$/, '');
+      var st = tb.scopes[name] || (tb.scopes[name] = {});
       data = data || {};
-      for (k in (data.strings || {})) if (data.strings[k]) tb.strings[norm(k)] = data.strings[k];
-      for (k in (data.questions || {})) tb.questions[k] = data.questions[k];
+      for (k in (data.strings || {})) if (data.strings[k]) st[norm(k)] = data.strings[k];
+      for (k in (data.questions || {})) { var q = tb.questions[k] || (tb.questions[k] = {}); for (f in data.questions[k]) q[f] = data.questions[k][f]; }
       scopesLoaded[l + '/' + scope] = 1;
     },
     /** Called by i18n/<lang>/index.js: which overlay files exist.  S1.i18n.manifest('ja', ['ui', 'home', 's1-1']). */
@@ -478,22 +561,47 @@
     },
     /** true if the field has a translation in the current language. */
     hasQ: function (question, field, index) { return lang !== 'en' && S1.i18n.q(question, field, index) !== (index != null ? (question[field] || [])[index] : question[field]); },
+    /** Shell strings (ui scope); S1.i18n.ui.n for plurals.  either(): page, then common, then ui (helper defaults). */
+    ui: t, either: either,
     live: live, liveAttr: liveAttr, liveText: liveText, render: render, source: sourceOf, capture: capture, apply: applyLang, norm: norm,
     /** Every translatable key on this page (used by tools/i18n-extract.js). */
     catalog: function () {
-      var blocks = [], attrs = [];
-      Array.prototype.forEach.call(doc.querySelectorAll('[data-i18n-src]'), function (n) { var u = srcMap.get(n); if (u && blocks.indexOf(u.key) < 0) blocks.push(u.key); });
-      Array.prototype.forEach.call(doc.querySelectorAll('[data-i18n-attr]'), function (n) { var o = attrMap.get(n); for (var a in o) { var k = norm(o[a]); if (attrs.indexOf(k) < 0) attrs.push(k); } });
-      Object.keys(catalogAttrs).forEach(function (k) { if (attrs.indexOf(k) < 0) attrs.push(k); });
-      return { title: norm(pageTitle == null ? doc.title : pageTitle), blocks: blocks, attrs: attrs, seen: Object.keys(seen) };
+      var entries = [], blocks = [], attrs = [];
+      function ctxOf(n) {
+        var parts = [], sec = n.closest('.topic-section, section, header, footer');
+        var h = sec && sec.querySelector('h1, h2, h3');
+        if (h) { var hu = srcMap.get(h); parts.push((hu ? hu.html.replace(/<[^>]+>/g, '') : h.textContent).replace(/\s+/g, ' ').trim().slice(0, 60)); }
+        var comp = [['.worked', 'worked example'], ['.tryit, [data-s1-numeric]', 'try it'], ['.callout--exam', 'exam tip (shown in English + translation)'], ['.callout--key', 'key idea'],
+          ['.callout--mistake', 'common mistake'], ['.callout--scope', 'not needed for IB'], ['.callout--booklet', 'data booklet note'], ['.checklist, [data-s1-checklist]', 'checklist'],
+          ['.eq', 'equation'], ['table', 'table'], ['[data-s1-widget], .widget', 'widget'], ['.topic-hero', 'page header'], ['[data-level="ahl"]', 'Additional HL']];
+        comp.forEach(function (c) { if (n.closest(c[0])) parts.push(c[1]); });
+        return parts.join(' > ');
+      }
+      function push(key, kind, n) {
+        var e = null;
+        for (var i = 0; i < entries.length; i++) if (entries[i].key === key) e = entries[i];
+        if (!e) { e = { key: key, kind: kind, ctx: [] }; entries.push(e); }
+        var c = (ctxOf(n) + ' > ' + kind).replace(/^ > /, '');
+        if (e.ctx.indexOf(c) < 0) e.ctx.push(c);
+      }
+      var title = norm(pageTitle == null ? doc.title : pageTitle);
+      entries.push({ key: title, kind: 'page title', ctx: ['page title (browser tab)'] });
+      Array.prototype.forEach.call(doc.querySelectorAll('[data-i18n-src],[data-i18n-attr],[data-i18n-cattr]'), function (n) {
+        var u = srcMap.get(n), o = attrMap.get(n), c = cattrMap.get(n), a;
+        if (c) for (a in c) { push(norm(c[a]), a + ' attribute', n); if (attrs.indexOf(norm(c[a])) < 0) attrs.push(norm(c[a])); }
+        if (o) for (a in o) { push(norm(o[a]), a + ' attribute', n); if (attrs.indexOf(norm(o[a])) < 0) attrs.push(norm(o[a])); }
+        if (u) { push(u.key, u.math ? 'maths line' : n.tagName.toLowerCase(), n); if (blocks.indexOf(u.key) < 0) blocks.push(u.key); }
+      });
+      return { title: title, blocks: blocks, attrs: attrs, entries: entries, seen: Object.keys(seenPage), seenUi: Object.keys(seenUi) };
     },
-    /** Dev helper: keys used on this page that have no translation in the current language. */
+    /** Dev helper: keys used on this page that have no translation in the current language, by scope. */
     coverage: function () {
-      var c = S1.i18n.catalog(), tb = table(lang).strings, missing = [];
-      if (lang === 'en') return { lang: lang, missing: [], total: 0 };
+      if (lang === 'en') return { lang: lang, missing: [], missingUi: [], total: 0 };
+      var c = S1.i18n.catalog(), missing = [], missingUi = [];
       var all = [c.title].concat(c.blocks, c.attrs, c.seen);
-      all.forEach(function (k) { if (!tb[k] && missing.indexOf(k) < 0) missing.push(k); });
-      return { lang: lang, total: all.length, missing: missing };
+      all.forEach(function (k) { if (!lookup(k) && missing.indexOf(k) < 0) missing.push(k); });
+      c.seenUi.forEach(function (k) { if (!lookupUi(k) && !lookup(k)) missingUi.push(k); });
+      return { lang: lang, total: all.length + c.seenUi.length, missing: missing, missingUi: missingUi };
     }
   };
   try {
@@ -701,8 +809,8 @@
     function link(cls, dir, href, num, name) {
       return '<a class="' + cls + '" href="' + root + href + '"><span class="pager__dir" data-t="' + dir + '"></span><span class="pager__title">' + (num ? num + ' ' : '') + '<span data-t="' + esc(name) + '"></span></span></a>';
     }
-    if (prev) h += link('pager__prev', 'Previous', prev.href, prev.num, prev.short);
-    h += next ? link('pager__next', 'Next', next.href, next.num, next.short) : link('pager__next', 'Next', 'practice.html', '', 'Mixed practice');
+    if (prev) h += link('pager__prev', 'Previous', prev.href, prev.num, prev.short);   // i18n
+    h += next ? link('pager__next', 'Next', next.href, next.num, next.short) : link('pager__next', 'Next', 'practice.html', '', 'Mixed practice');   // i18n
     mount.classList.add('pager');
     mount.innerHTML = h;
     bindTree(mount);
@@ -730,7 +838,7 @@
       var h2 = s.querySelector('h2');
       var a = el('a', { href: '#' + s.id });
       // The label follows the heading, so it is translated whenever the heading is.
-      live(a, function () { var short = s.getAttribute('data-toc'); return short ? t(short) : esc(h2.textContent.replace(/\s+/g, ' ').trim()); });
+      live(a, function () { var short = s.getAttribute('data-toc'); return short ? tp(short) : esc(h2.textContent.replace(/\s+/g, ' ').trim()); });
       a.addEventListener('click', function () { setOpen(false); });
       links[s.id] = a;
       ol.appendChild(el('li', { 'data-level': s.getAttribute('data-level') === 'ahl' ? 'ahl' : null }, a));
@@ -797,7 +905,9 @@
   function hideTip() { if (tip) tip.hidden = true; if (tipFor) tipFor.removeAttribute('aria-describedby'); tipFor = null; }
   function showTip(node) {
     if (!tip) { tip = off(el('div', { class: 'tooltip', role: 'tooltip', id: 's1-tooltip' })); doc.body.appendChild(tip); }
-    tip.innerHTML = t(node.getAttribute('data-def'));
+    // A definition is wording she must be able to give in English: show the English, then the translation.
+    var defEn = node.getAttribute('data-def'), defTr = tp(defEn);
+    tip.innerHTML = defTr !== defEn ? defEn + '<span class="i18n-tr" lang="' + lang + '">' + defTr + '</span>' : defEn;
     tip.hidden = false; tip.style.left = '0px'; tip.style.top = '0px';
     var r = node.getBoundingClientRect(), tw = tip.offsetWidth, th = tip.offsetHeight, vw = html.clientWidth;
     var left = util.clamp(r.left + r.width / 2 - tw / 2, 8, vw - tw - 8);
@@ -867,13 +977,13 @@
           while (li.firstChild) wrap.appendChild(li.firstChild);
           li.appendChild(wrap); moveUnit(li, wrap);
         }
-        li.insertBefore(off(el('p', { class: 'worked__step-title', t: title })), li.firstChild);
+        li.insertBefore(off(el('p', { class: 'worked__step-title', tp: title })), li.firstChild);
       }
     });
     var count = el('p', { class: 'worked__count' });
     var liveMsg = el('p', { class: 'sr-only', role: 'status', 'aria-live': 'polite' });
-    var kicker = box.getAttribute('data-kicker') || 'Worked example';   // i18n
-    var head = off(el('div', { class: 'worked__head' }, [el('p', { class: 'worked__kicker', t: kicker }), count]));
+    var kicker = box.getAttribute('data-kicker');
+    var head = off(el('div', { class: 'worked__head' }, [kicker ? el('p', { class: 'worked__kicker', tp: kicker }) : el('p', { class: 'worked__kicker', t: 'Worked example' }), count]));
     box.insertBefore(head, box.firstChild);
 
     var nextBtn = el('button', { class: 'btn btn--primary', type: 'button' });
@@ -943,7 +1053,7 @@
     var check = el('button', { class: 'btn btn--primary', type: 'submit', t: 'Check' });
     var row = el('div', { class: 'field-row' }, [input, unitText ? el('span', { class: 'unit', html: S1.chem.unit(unitText), 'data-s1-done': '' }) : null, check]);
     var form = off(el('form', { class: 'tryit__form', novalidate: true }, [
-      el('label', { class: 'field-label', for: id, t: box.getAttribute('data-label') || 'Your answer' }), row,   // i18n
+      (box.getAttribute('data-label') ? el('label', { class: 'field-label', for: id, tp: box.getAttribute('data-label') }) : el('label', { class: 'field-label', for: id, t: 'Your answer' })), row,
       el('p', { class: 'field-help', id: id + '-help', t: STD_FORM_HELP })
     ]));
     var feedback = off(el('div', { class: 'feedback', role: 'status', 'aria-live': 'polite' }));
@@ -975,7 +1085,7 @@
       live(feedback, function () {
         var d = S1.chem.describeCheck(res, spec), extra = d.html;
         if (res.status === 'wrong' && !extra) extra = hadHints ? t('Check your working, or take a hint.') : t('Check each step of your working.');
-        if (res.status === 'correct') extra = t(box.getAttribute('data-correct') || 'Nice. Compare your working with the full solution if you want to check your method.');
+        if (res.status === 'correct') extra = box.getAttribute('data-correct') ? tp(box.getAttribute('data-correct')) : t('Nice. Compare your working with the full solution if you want to check your method.');
         return '<span class="feedback__label">' + d.label + '</span>' + extra;
       });
       if (res.status === 'correct' && solution) { solBtn.hidden = false; }
@@ -1043,8 +1153,8 @@
     var titleText = node.getAttribute('data-title') || '';
     var titleId = util.uid('widget-title');
     var head = el('div', { class: 'widget__head' }, [
-      el('h4', { class: 'widget__title', id: titleId, t: titleText }),
-      el('span', { class: 'widget__kicker', t: node.getAttribute('data-kicker') || 'Interactive' })   // i18n
+      el('h4', { class: 'widget__title', id: titleId, tp: titleText }),
+      (node.getAttribute('data-kicker') ? el('span', { class: 'widget__kicker', tp: node.getAttribute('data-kicker') }) : el('span', { class: 'widget__kicker', t: 'Interactive' }))
     ]);
     var controls = el('div', { class: 'widget__controls' });
     var stage = el('div', { class: 'widget__stage' });
@@ -1075,7 +1185,7 @@
       /** Run fn when the widget is torn down (to stop timers, observers or listeners you created yourself). */
       onCleanup: function (fn) { disposers.push(fn); },
       /** Same as S1.t: translate a string. */
-      t: t,
+      t: tp,
       /**
        * Hi-DPI canvas that fills the stage width. opts: {height: px | function (width) → px} or {aspect: width/height}, {label: 'alt text'}.
        * Returns {el, ctx, width, height, draw(fn)} — width/height are CSS pixels; fn(ctx, width, height) is called
@@ -1084,7 +1194,7 @@
       canvas: function (opts) {
         opts = opts || {};
         var c = el('canvas', { role: 'img' });
-        (function (src) { liveAttr(c, 'aria-label', function () { return t(src); }); })(sourceOf(opts.label || titleText || 'Diagram'));
+        (function (src) { liveAttr(c, 'aria-label', function () { return either(src); }); })(sourceOf(opts.label || titleText || 'Diagram'));   // i18n
         stage.appendChild(c);
         var ctx = c.getContext('2d'), obj = { el: c, ctx: ctx, width: 0, height: 0 }, fns = [];
         function size() {
@@ -1116,7 +1226,7 @@
       svg: function (viewBox, opts) {
         var s = doc.createElementNS('http://www.w3.org/2000/svg', 'svg');
         s.setAttribute('viewBox', viewBox); s.setAttribute('role', 'img');
-        (function (src) { liveAttr(s, 'aria-label', function () { return t(src); }); })(sourceOf((opts && opts.label) || titleText || 'Diagram'));
+        (function (src) { liveAttr(s, 'aria-label', function () { return either(src); }); })(sourceOf((opts && opts.label) || titleText || 'Diagram'));
         s.style.width = '100%'; s.style.height = 'auto';
         stage.appendChild(s);
         return s;
@@ -1130,7 +1240,7 @@
         var range = el('input', { type: 'range', id: id, min: opts.min, max: opts.max, step: step, value: opts.value });
         var labelSrc = sourceOf(opts.label);
         var num = el('input', { class: 'input', type: 'number', min: opts.min, max: opts.max, step: step, value: opts.value, inputmode: 'decimal' });
-        liveAttr(num, 'aria-label', function () { return t('{label}, exact value', { label: t(labelSrc) + (opts.unit ? ' (' + opts.unit + ')' : '') }); });
+        liveAttr(num, 'aria-label', function () { return t('{label}, exact value', { label: tp(labelSrc) + (opts.unit ? ' (' + opts.unit + ')' : '') }); });
         var wrap = el('div', { class: 'control' }, [
           liveText(el('label', { class: 'control__label', for: id }), opts.label),
           el('div', { class: 'control__row' }, [range, num, opts.unit ? el('span', { class: 'control__unit', html: S1.chem ? S1.chem.unit(opts.unit) : opts.unit }) : null])

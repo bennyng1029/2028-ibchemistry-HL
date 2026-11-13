@@ -15,7 +15,7 @@
   'use strict';
   var S1 = window.S1;
   if (!S1 || !S1.util) { if (window.console) console.error('mol.js needs core.js to be loaded first'); return; }
-  var t = S1.t, doc = document, NS = 'http://www.w3.org/2000/svg';
+  var t = S1.i18n.ui, tl = S1.i18n.either, doc = document, NS = 'http://www.w3.org/2000/svg';
   var MINUS = '−';
 
   function svgEl(tag, attrs, parent) {
@@ -80,7 +80,7 @@
     var svg = svgEl('svg', { viewBox: [x0, y0, w, h].join(' '), width: w, height: h, role: 'img', class: 'mol__svg' }, el);
     svg.style.maxWidth = '100%'; svg.style.height = 'auto';
     var fallbackLabel = mode === 'structural' ? 'Structural formula' : 'Lewis formula';   // i18n
-    S1.i18n.liveAttr(svg, 'aria-label', function () { return t(spec.label || fallbackLabel); });
+    S1.i18n.liveAttr(svg, 'aria-label', function () { return tl(spec.label || fallbackLabel); });
 
     var bondAngles = atoms.map(function () { return []; });
     bonds.forEach(function (b) { bondAngles[b.a].push(angleOf(pts[b.a], pts[b.b])); bondAngles[b.b].push(angleOf(pts[b.b], pts[b.a])); });
@@ -261,7 +261,7 @@
     var w = maxX - minX + 2 * pad, h = maxY - minY + 2 * pad;
     var svg = svgEl('svg', { viewBox: [minX - pad, minY - pad, w, h].join(' '), width: w, height: h, role: 'img', class: 'mol__svg' }, el);
     svg.style.maxWidth = '100%'; svg.style.height = 'auto';
-    S1.i18n.liveAttr(svg, 'aria-label', function () { return t(spec.label || 'Skeletal formula'); });
+    S1.i18n.liveAttr(svg, 'aria-label', function () { return tl(spec.label || 'Skeletal formula'); });
     var centre = { x: (minX + maxX) / 2, y: (minY + maxY) / 2 };
     var deg = atoms.map(function () { return []; });
     bonds.forEach(function (b) { deg[b.a].push(b.b); deg[b.b].push(b.a); });
@@ -411,7 +411,7 @@
     var reduced = S1.util.reducedMotion();
 
     S1.i18n.liveAttr(canvas, 'aria-label', function () {
-      return t(spec.label || '3-D model') + '. ' + t('Drag or use the arrow keys to rotate.');
+      return tl(spec.label || '3-D model') + '. ' + t('Drag or use the arrow keys to rotate.');
     });
 
     function size() {

@@ -220,3 +220,22 @@ S1.i18n.register('ja', 'ui', {
     "Your progress is saved only in this browser. Nothing is sent anywhere.": "進み具合はこのブラウザにだけ保存されます。外部には何も送信されません。"
   }
 });
+
+/* Added for the scoped lookups: page text no longer falls back to the ui overlay, and new shell strings. */
+S1.i18n.register('ja', 'ui', {
+  strings: {
+    "Diagram": "図",
+    "Guiding question": "導入の問い（Guiding question）",
+    "Solution|quiz": "解答"
+  }
+});
+
+/* Added for the scoped lookups: page text no longer falls back to the ui overlay, and new shell strings. */
+S1.i18n.register('ja', 'ui', {
+  strings: {
+    "[1 mark]": "[1 点]",
+    "[{n} marks]": "[{n} 点]",
+    "Next": "次へ",
+    "Previous": "前へ"
+  }
+});

@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3.2 Functional groups: Additional HL | Structure Lab</title>
+<meta name="description" content="IB Chemistry Structure 3.2 Additional HL: cis–trans isomers, chiral carbons and enantiomers, optical activity, and finding structures from mass spectra, infrared spectra and proton NMR spectra.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for topic 3.2 Additional HL. Existing tokens only. */
+.s32h-f { white-space: nowrap; }
+.s32h-mol__svg { display: block; }
+.s32h-fig { margin: 1rem 0; max-width: 100%; overflow-x: auto; }
+.s32h-figrow { display: flex; flex-wrap: wrap; gap: 1rem 2.5rem; align-items: flex-end; margin: 1rem 0; }
+.s32h-figrow__cell { min-width: 0; }
+.s32h-figrow__cap { margin: 0.3rem 0 0; font-size: 0.92rem; color: var(--ink-2); max-width: 17rem; }
+.s32h-chart { max-width: 34rem; margin: 0.75rem 0; }
+.s32h-pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 0.75rem; }
+.s32h-pair__cell { border: 1px solid var(--line); padding: 0.5rem; min-width: 0; background: var(--surface); }
+.s32h-pair__cell--mirror { border-left: 3px dashed var(--ink-3); }
+.s32h-pair__head { font-weight: 700; margin: 0 0 0.25rem; }
+.s32h-pair__2d { margin-top: 0.4rem; }
+.s32h-pair__2d svg, .s32h-center svg { margin: 0 auto; }
+.s32h-q { font-weight: 700; margin: 0.6rem 0; max-width: 44rem; }
+.s32h-note { margin: 0.5rem 0; max-width: 44rem; }
+.s32h-peaks, .s32h-turn { margin: 0.6rem 0; }
+.s32h-center { margin: 0.5rem 0 0.75rem; max-width: 100%; overflow-x: auto; }
+.widget .btn[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.widget .btn:disabled { opacity: 0.5; cursor: default; }
+.s32h-seg { flex-wrap: wrap; max-width: 100%; }
+.s32h-rowon > * { background: var(--accent-soft); font-weight: 700; }
+.s32h-irtable { margin-top: 1rem; }
+.s32h-hit { cursor: pointer; }
+.s32h-hit:focus { outline: none; }
+.s32h-hit__ring { fill: transparent; stroke: var(--line-strong); stroke-width: 1.5; stroke-dasharray: 3 3; }
+.s32h-hit:hover .s32h-hit__ring { stroke: var(--ink); }
+.s32h-hit:focus-visible .s32h-hit__ring { stroke: var(--focus); stroke-width: 3.5; stroke-dasharray: none; }
+.s32h-legend { margin: 0.6rem 0 0; padding-left: 1.4rem; max-width: 40rem; }
+.s32h-splits { display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; margin: 0.5rem 0 0.75rem; }
+.s32h-tick { display: block; font-size: 0.9rem; color: var(--ink-2); margin-top: 0.2rem; }
+.s32h-data { border: 1px solid var(--line); padding: 0.75rem; background: var(--surface); }
+.s32h-data__h, .s32h-book__h, .s32h-spectra__h { font-weight: 700; margin: 0 0 0.4rem; }
+.s32h-data p { margin: 0 0 0.6rem; }
+.s32h-spectra { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 0.75rem; }
+.s32h-spectra__cell { min-width: 0; }
+.s32h-ask { margin: 1rem 0; }
+.s32h-options { display: flex; flex-direction: column; gap: 0.5rem; align-items: stretch; max-width: 44rem; }
+.s32h-option { text-align: left; white-space: normal; justify-content: flex-start; height: auto; }
+.s32h-structs { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.75rem; }
+.s32h-struct { border: 1.5px solid var(--line-strong); background: var(--surface); color: inherit; font: inherit; padding: 0.5rem; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 0.25rem; min-width: 0; }
+.s32h-struct:hover { border-color: var(--ink); }
+.s32h-struct__name { font-weight: 700; }
+.s32h-book { border: 1px solid var(--line-strong); border-left: 4px solid var(--accent); padding: 0.75rem 1rem; background: var(--surface-2); }
+.s32h-book__list { margin: 0; padding-left: 1.3rem; }
+.s32h-book__list li { margin: 0.4rem 0; }
+.s32h-steps { max-width: 44rem; }
+</style>
+</head>
+<body data-page="s3-2h">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="s3-2h"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Structure 3.2 <span class="badge badge--ahl">Additional HL</span></p>
+      <h1>Functional groups: Additional HL</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>How does the classification of organic molecules help us to predict their properties?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <!-- ============================================================ GOALS -->
+      <section class="topic-section" id="goals" data-toc="What you need to do">
+        <h2>What you need to be able to do</h2>
+        <p>Everything on this page is Additional HL. Tick each one when you can do it without looking at your notes.</p>
+        <ul class="checklist" data-s1-checklist="s3-2h">
+          <li data-id="stereo-def" data-level="ahl">State what stereoisomers are: the same atoms joined in the same order, but arranged differently in space.</li>
+          <li data-id="cis-trans" data-level="ahl">Explain what causes <i>cis</i>–<i>trans</i> isomerism, and recognize it in non-cyclic alkenes and in rings of three or four carbon atoms.</li>
+          <li data-id="chiral-carbon" data-level="ahl">Find a chiral carbon atom and explain why it gives two stereoisomers with different optical properties.</li>
+          <li data-id="wedge-dash" data-level="ahl">Draw both enantiomers with wedge–dash bonds, showing the tetrahedral shape around the chiral carbon.</li>
+          <li data-id="enantiomer-models" data-level="ahl">Recognize a pair of enantiomers as non-superimposable mirror images in 3-D models.</li>
+          <li data-id="optical-terms" data-level="ahl">Use the terms chiral, optical activity, enantiomer and racemic mixture correctly.</li>
+          <li data-id="ms-fragments" data-level="ahl">Use the molecular ion and the fragmentation pattern of a mass spectrum to deduce features of a structure.</li>
+          <li data-id="ir-bonds" data-level="ahl">Use the data booklet to identify bonds from an infrared spectrum, and say why greenhouse gases absorb infrared radiation.</li>
+          <li data-id="nmr-signals" data-level="ahl">Interpret a <sup>1</sup>H NMR spectrum using the number of signals, the chemical shifts and the areas under the signals.</li>
+          <li data-id="nmr-splitting" data-level="ahl">Interpret singlets, doublets, triplets and quartets in a <sup>1</sup>H NMR spectrum.</li>
+          <li data-id="combined" data-level="ahl">Combine composition data, mass, infrared and <sup>1</sup>H NMR spectra to find the structure of a molecule.</li>
+        </ul>
+      </section>
+
+      <!-- ============================================================ RECAP -->
+      <section class="topic-section" id="recap" data-toc="What you need first">
+        <h2>What you need from the core page</h2>
+        <p>This page builds on <a href="s3-2.html">3.2 Functional groups</a>. Check that you can do these things first.</p>
+        <ul>
+          <li>Read and draw full structural, condensed structural and skeletal formulas.</li>
+          <li>Identify the functional groups (such as hydroxyl, carbonyl, carboxyl, ester and amino) and the classes of compound (such as alcohols, aldehydes, ketones, carboxylic acids, esters, ethers and amines).</li>
+          <li>Name hydrocarbons, halogenoalkanes, alcohols, aldehydes, ketones and carboxylic acids with up to six carbon atoms in the chain.</li>
+          <li>Recognize structural isomers: the same molecular formula, but the atoms are joined in a different order.</li>
+        </ul>
+        <p>You also need three ideas from other pages.</p>
+        <ul>
+          <li>A carbon atom with four single bonds is tetrahedral, with bond angles of 109.5° (Structure 2.2).</li>
+          <li>You can find an empirical formula from percentage composition by mass (Structure 1.4).</li>
+          <li>A mass spectrum plots relative abundance against the mass-to-charge ratio, <span class="mono">m/z</span> (Structure 1.2, Additional HL).</li>
+        </ul>
+      </section>
+
+      <!-- ============================================================ 3.2.7 cis–trans -->
+      <section class="topic-section" id="cis-trans" data-toc="Stereoisomers: cis–trans">
+        <span class="section-code">Structure 3.2.7</span>
+        <h2>Stereoisomers and <i>cis</i>–<i>trans</i> isomers</h2>
+
+        <p>Your left hand and your right hand have the same parts, joined in the same order. But they are not the same shape. Some molecules are like this too.</p>
+        <p><dfn>Stereoisomers</dfn> have the same molecular formula and the same structural formula. Their atoms are joined in the same order, with the same single, double and triple bonds. Only the arrangement of the atoms in space is different.</p>
+        <p>Compare this with structural isomers on the core page. In structural isomers the atoms are joined in a different order.</p>
+        <p>You need two kinds of stereoisomer: <i>cis</i>–<i>trans</i> isomers and optical isomers.</p>
+
+        <h3>What <i>cis</i>–<i>trans</i> isomers are</h3>
+        <p>Look at but-2-ene, <span class="chem">CH3CH=CHCH3</span>. Each carbon of the double bond holds one H atom and one <span class="chem">CH3</span> group. There are two ways to arrange them.</p>
+        <div class="s32h-fig" data-s32h-fig="but2ene" data-i18n="off"></div>
+        <p>In the <dfn><i>cis</i> isomer</dfn> the two matching groups are on the same side of the double bond. In the <dfn><i>trans</i> isomer</dfn> they are on opposite sides.</p>
+        <p>These are two different compounds. One cannot turn into the other, because atoms cannot rotate around a double bond. To rotate, the π bond would have to break.</p>
+
+        <aside class="callout callout--key">
+          <p><i>Cis</i>–<i>trans</i> isomerism needs two things. First, rotation must be restricted: by a C=C double bond or by a ring. Second, each of the two carbon atoms must have two different groups attached.</p>
+        </aside>
+
+        <h3>The two-step test for an alkene</h3>
+        <ol class="s32h-steps">
+          <li>Find the C=C double bond. Look at the two groups on the left carbon. Are they different from each other?</li>
+          <li>Look at the two groups on the right carbon. Are they different from each other?</li>
+        </ol>
+        <p>If both answers are yes, the alkene has <i>cis</i>–<i>trans</i> isomers. If one carbon has two identical groups, it does not. The groups on the left carbon do not have to match the groups on the right carbon.</p>
+
+        <h3>Rings of three and four carbon atoms</h3>
+        <p>A ring also stops rotation. Each ring carbon has one bond pointing above the ring and one pointing below it. If two different ring carbons each have two different groups, there are two isomers.</p>
+        <div class="s32h-fig" data-s32h-fig="ring-pair" data-i18n="off"></div>
+        <p>In these drawings, a solid wedge is a bond coming towards you. A hashed wedge is a bond going away from you.</p>
+
+        <figure data-s1-widget="s3-2h.cistrans" data-title="Cis–trans explorer" data-kicker="Model">
+          <p class="widget__fallback">An interactive pair of 3-D models appears here when JavaScript is on. It shows the cis and trans isomers of but-2-ene, 1,2-dichloroethene, 1,2-dimethylcyclopropane and 1,2-dimethylcyclobutane.</p>
+          <figcaption>Choose a pair. Drag a model to turn it. Notice that the same atoms are bonded to each other in both isomers. Only the positions in space differ.</figcaption>
+        </figure>
+
+        <aside class="callout callout--mistake">
+          <p>Students often say that but-1-ene has <i>cis</i>–<i>trans</i> isomers because it has a double bond. It does not. One carbon of its double bond has two H atoms. A double bond alone is not enough.</p>
+        </aside>
+
+        <figure data-s1-widget="s3-2h.ctest" data-title="Can it show cis–trans isomerism?">
+          <p class="widget__fallback">An interactive tester appears here when JavaScript is on. It shows twelve alkenes and small rings and asks whether each can show cis–trans isomerism.</p>
+          <figcaption>Decide for each molecule, then read the reason. For every “yes”, both isomers are drawn.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Does pent-2-ene have <i>cis</i>–<i>trans</i> isomers?</h3>
+          <div class="worked__problem">
+            <p>Deduce whether pent-2-ene and 2-methylbut-2-ene show <i>cis</i>–<i>trans</i> isomerism. Draw the isomers where they exist.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Draw the structure around the double bond">
+              <p class="worked__why">You can only compare groups when you can see what is attached to each carbon of the C=C.</p>
+              <div class="s32h-fig" data-s32h-fig="we-pent2ene-flat" data-i18n="off"></div>
+              <p>In pent-2-ene the double bond is between carbon 2 and carbon 3.</p>
+            </li>
+            <li data-title="Test the first carbon of the C=C">
+              <p class="worked__why">Each carbon must have two different groups.</p>
+              <p>Carbon 2 has an H atom and a <span class="chem">CH3</span> group. These are different.</p>
+            </li>
+            <li data-title="Test the second carbon of the C=C">
+              <p class="worked__why">One carbon with two identical groups would rule it out.</p>
+              <p>Carbon 3 has an H atom and a <span class="chem">CH2CH3</span> group. These are different. So pent-2-ene has <i>cis</i>–<i>trans</i> isomers.</p>
+            </li>
+            <li data-title="Draw both isomers">
+              <p class="worked__why">Keep the left carbon the same. Swap the two groups on the right carbon.</p>
+              <div class="s32h-fig" data-s32h-fig="we-pent2ene" data-i18n="off"></div>
+            </li>
+            <li data-title="Test 2-methylbut-2-ene">
+              <p class="worked__why">Use the same two-step test.</p>
+              <div class="s32h-fig" data-s32h-fig="we-2mb2e" data-i18n="off"></div>
+              <p>The left carbon of the C=C has two <span class="chem">CH3</span> groups. Swapping them changes nothing. <b>2-methylbut-2-ene has no <i>cis</i>–<i>trans</i> isomers.</b></p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Pent-2-ene has a <i>cis</i> and a <i>trans</i> isomer. 2-methylbut-2-ene does not.</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="2" data-tolerance="0.1" data-label="Number of alkenes">
+          <div class="tryit__q"><p>How many of these four alkenes show <i>cis</i>–<i>trans</i> isomerism: but-1-ene, but-2-ene, 2-methylpropene, pent-2-ene?</p></div>
+          <ol class="tryit__hints">
+            <li>Write the two groups on each carbon of the C=C for every alkene.</li>
+            <li>But-1-ene is <span class="chem">CH2=CHCH2CH3</span> and 2-methylpropene is <span class="chem">CH2=C(CH3)2</span>. Each has a carbon with two identical groups.</li>
+          </ol>
+          <div class="tryit__solution">
+            <p>Only but-2-ene and pent-2-ene have two different groups on each carbon of the C=C. The answer is 2.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>To explain <i>cis</i>–<i>trans</i> isomerism, give both points: restricted rotation around the C=C (or in the ring), and two different groups on each of the two carbon atoms. In a drawing, show clearly which groups are on the same side.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>The E–Z naming system is not assessed. You also do not need <i>cis</i>–<i>trans</i> isomers of rings with more than four carbon atoms, or of rings that contain a double bond.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s3-2h" data-syllabus="Structure 3.2.7" data-count="4" data-title="Stereoisomers: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 3.2.7 chirality -->
+      <section class="topic-section" id="chirality" data-toc="Chirality and enantiomers">
+        <span class="section-code">Structure 3.2.7</span>
+        <h2>Chiral carbon atoms and enantiomers</h2>
+
+        <p>Hold your hands up, palms facing you. One hand is the mirror image of the other. Now try to place one hand exactly on top of the other, both palms down. The thumbs point in opposite directions. Your hands are mirror images that cannot be superimposed.</p>
+        <p>A molecule can be like this when it has a chiral carbon atom.</p>
+        <p>A <dfn>chiral carbon</dfn> is a carbon atom bonded to four different atoms or groups. It is often marked with an asterisk (*).</p>
+        <p>A molecule with one chiral carbon exists in two forms. Each form is the mirror image of the other, and the two cannot be superimposed. These two stereoisomers are called <dfn>enantiomers</dfn>. They are also called optical isomers.</p>
+
+        <figure data-s1-widget="s3-2h.mirror" data-title="Chirality lab: can you superimpose the mirror image?" data-kicker="Model">
+          <p class="widget__fallback">An interactive pair of 3-D models appears here when JavaScript is on. It shows a molecule and its mirror image, and lets you rotate the mirror image to try to match the first molecule.</p>
+          <figcaption>Molecule B is the mirror image of molecule A. Rotate B and watch how many groups are in the same place as in A. Then try a molecule with two identical groups.</figcaption>
+        </figure>
+
+        <h3>How to find a chiral carbon</h3>
+        <ol class="s32h-steps">
+          <li>Ignore every carbon with a double or triple bond. It has fewer than four groups.</li>
+          <li>Ignore every <span class="chem">CH3</span> and <span class="chem">CH2</span> carbon. It has two or three identical H atoms.</li>
+          <li>For each carbon that is left, write its four groups. Compare whole groups, not only the first atom. <span class="chem">CH3</span> and <span class="chem">CH2CH3</span> are different groups.</li>
+        </ol>
+        <p>In a skeletal formula, remember the H atoms that are not drawn.</p>
+
+        <figure data-s1-widget="s3-2h.spotter" data-title="Chiral carbon spotter">
+          <p class="widget__fallback">An interactive exercise appears here when JavaScript is on. It shows seven molecules and asks you to click every chiral carbon atom. Two of the molecules have no chiral carbon.</p>
+          <figcaption>Click a carbon atom to test it. Each click tells you why that carbon is or is not chiral. Some molecules have no chiral carbon, and one has two.</figcaption>
+        </figure>
+
+        <h3>Drawing a pair of enantiomers</h3>
+        <p>A flat drawing cannot show a tetrahedral carbon. You need <dfn>wedge–dash notation</dfn>.</p>
+        <ul>
+          <li>A plain line is a bond in the plane of the paper.</li>
+          <li>A solid wedge is a bond coming out of the paper, towards you.</li>
+          <li>A hashed wedge is a bond going into the paper, away from you.</li>
+        </ul>
+        <p>Draw two plain bonds, one solid wedge and one hashed wedge around the chiral carbon. Then draw a mirror line and reflect the whole drawing.</p>
+        <div class="s32h-fig" data-s32h-fig="butan2ol-pair" data-i18n="off"></div>
+        <p>These are the two enantiomers of butan-2-ol. The dashed line is the mirror.</p>
+
+        <figure data-s1-widget="s3-2h.wedge" data-title="Wedge–dash drawing guide">
+          <p class="widget__fallback">An interactive drawing guide appears here when JavaScript is on. It builds a wedge–dash drawing of a pair of enantiomers in five steps.</p>
+          <figcaption>Step through the drawing. Copy each step on paper before you go to the next one.</figcaption>
+        </figure>
+
+        <aside class="callout callout--exam">
+          <p>Enantiomer drawings must look three-dimensional and must be mirror images of each other. Use tapered wedge and hashed bonds. Drawings with all four bonds at 90° do not earn the marks. When asked what a chiral carbon is, write “a carbon atom bonded to four different atoms or groups”. A description of optical properties alone does not earn that mark.</p>
+        </aside>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Find the chiral carbon and draw both enantiomers</h3>
+          <div class="worked__problem">
+            <p>Identify the chiral carbon atom in 2-chlorobutane, <span class="chem">CH3CHClCH2CH3</span>. Draw the two enantiomers.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Remove the carbons that cannot be chiral">
+              <p class="worked__why">A carbon with two or three H atoms has identical groups.</p>
+              <p>Carbon 1 and carbon 4 are <span class="chem">CH3</span> groups. Carbon 3 is a <span class="chem">CH2</span> group. None of them can be chiral.</p>
+            </li>
+            <li data-title="Write the four groups on the carbon that is left">
+              <p class="worked__why">A chiral carbon needs four different atoms or groups.</p>
+              <p>Carbon 2 is bonded to H, Cl, <span class="chem">CH3</span> and <span class="chem">CH2CH3</span>. All four are different, so carbon 2 is chiral.</p>
+              <div class="s32h-fig" data-s32h-fig="we-2clbutane" data-i18n="off"></div>
+            </li>
+            <li data-title="Draw one enantiomer in 3-D">
+              <p class="worked__why">The four bonds point to the corners of a tetrahedron.</p>
+              <p>Put the chiral carbon in the centre. Draw two plain bonds with a wide angle between them. Add one solid wedge and one hashed wedge. Attach the four groups. Their order does not matter for the first drawing.</p>
+            </li>
+            <li data-title="Reflect it in a mirror line">
+              <p class="worked__why">The second enantiomer is the mirror image of the first.</p>
+              <div class="s32h-fig" data-s32h-fig="we-2clbutane-pair" data-i18n="off"></div>
+              <p>Each group is the same distance from the mirror line on the other side. A wedge stays a wedge and a hashed bond stays a hashed bond.</p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Carbon 2 is the chiral carbon. The two mirror-image drawings are the enantiomers.</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="2" data-tolerance="0.1" data-label="Number of chiral carbons">
+          <div class="tryit__q"><p>How many chiral carbon atoms are in a molecule of <span class="chem">CH3CH(OH)CH(NH2)COOH</span>?</p></div>
+          <ol class="tryit__hints">
+            <li>The <span class="chem">CH3</span> carbon and the COOH carbon cannot be chiral. Test the two carbons in the middle.</li>
+            <li>Carbon 3 has H, OH, <span class="chem">CH3</span> and the rest of the chain. Carbon 2 has H, <span class="chem">NH2</span>, COOH and the rest of the chain.</li>
+          </ol>
+          <div class="tryit__solution">
+            <p>Both middle carbons have four different groups. The answer is 2.</p>
+          </div>
+        </div>
+
+        <h3>Optical activity</h3>
+        <p>Ordinary light vibrates in all planes. <dfn>Plane-polarized light</dfn> vibrates in one plane only.</p>
+        <p>A substance is <dfn>optically active</dfn> if it rotates the plane of plane-polarized light. Each enantiomer of a chiral compound is optically active.</p>
+        <p>The two enantiomers rotate the plane by the same angle, but in opposite directions. One rotates it clockwise and the other anticlockwise. This is the “different optical property” of enantiomers. An instrument called a polarimeter measures the rotation.</p>
+        <p>A <dfn>racemic mixture</dfn> contains equal amounts of the two enantiomers. The two rotations cancel, so a racemic mixture does not rotate plane-polarized light. It is optically inactive.</p>
+
+        <figure data-s1-widget="s3-2h.polarimeter" data-title="Rotation of plane-polarized light" data-kicker="Illustration">
+          <p class="widget__fallback">An interactive diagram appears here when JavaScript is on. It shows plane-polarized light passing through a sample. One enantiomer rotates the plane clockwise, the other rotates it anticlockwise by the same angle, and a racemic mixture does not rotate it.</p>
+          <figcaption>Change the sample and watch the plane of the light after the tube. The size of the angle here is only an example. You cannot tell from a drawing which enantiomer rotates the light clockwise: it must be measured.</figcaption>
+        </figure>
+
+        <h3>How enantiomers compare</h3>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Properties of a pair of enantiomers</caption>
+            <thead><tr><th scope="col">Property</th><th scope="col">The two enantiomers</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Melting point, boiling point, solubility, density</th><td>the same</td></tr>
+              <tr><th scope="row">Effect on plane-polarized light</th><td>same angle of rotation, opposite directions</td></tr>
+              <tr><th scope="row">Reactions with substances that are not chiral</th><td>the same</td></tr>
+              <tr><th scope="row">Behaviour in a chiral environment</th><td>different</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>A chiral environment contains other chiral molecules. The human body is one, because enzymes are chiral. So two enantiomers can have different effects in the body.</p>
+
+        <aside class="callout callout--scope">
+          <p>You do not need R/S, D/L or (+)/(−) labels. You do not need diastereomers, meso compounds or rules for counting stereoisomers. You do not need to explain how a polarimeter works or to calculate a rotation. For the chemistry of enantiomers, it is enough to know that they behave differently in chiral environments.</p>
+        </aside>
+
+        <aside class="callout callout--mistake">
+          <p>A racemic mixture is not “a molecule that is not chiral”. It is a 50 : 50 mixture of two chiral molecules. Each one still rotates the light. The rotations cancel.</p>
+        </aside>
+      </section>
+
+      <!-- ============================================================ 3.2.8 -->
+      <section class="topic-section" id="ms" data-toc="Mass spectrometry">
+        <span class="section-code">Structure 3.2.8</span>
+        <h2>Mass spectrometry of organic compounds</h2>
+
+        <p>Imagine dropping a model made of building bricks. It breaks into pieces. If you weigh the pieces, you can work out how the model was put together. A mass spectrometer does this to molecules.</p>
+
+        <h3>The molecular ion</h3>
+        <p>In the mass spectrometer, a molecule loses one electron. This makes a positive ion called the <dfn>molecular ion</dfn>, written <span class="mono">M<sup>+</sup></span>. It has the same mass as the whole molecule.</p>
+        <div class="eq" data-i18n="off">
+          <div class="eq__formula"><span class="chem">CH3COCH3 -> CH3COCH3+ + e-</span></div>
+        </div>
+        <p>The ion has a charge of 1+, so its <span class="mono">m/z</span> value equals its mass. The <span class="mono">m/z</span> of the molecular ion peak gives the relative molecular mass, <i>M</i><sub>r</sub>, of the compound.</p>
+
+        <h3>Fragmentation</h3>
+        <p>Many molecular ions break into smaller pieces. This is called <dfn>fragmentation</dfn>. One piece keeps the positive charge and is detected. The other piece has no charge and is not detected.</p>
+        <div class="eq" data-i18n="off">
+          <div class="eq__formula"><span class="chem">CH3COCH3+ -> CH3CO+ + •CH3</span></div>
+        </div>
+        <p>Here the ion <span class="chem">CH3CO+</span> gives a peak at <span class="mono">m/z = 43</span>. The piece that was lost, <span class="s32h-f">•CH<sub>3</sub></span>, has a mass of 15. You find it by subtraction: <span class="mono">58 − 43 = 15</span>.</p>
+        <p>The set of peaks is the <dfn>fragmentation pattern</dfn>. It tells you which groups the molecule contains.</p>
+
+        <h3>Method in words</h3>
+        <ol class="s32h-steps">
+          <li>Find the molecular ion peak. It is the peak at the highest <span class="mono">m/z</span>. Its <span class="mono">m/z</span> is <i>M</i><sub>r</sub>.</li>
+          <li>Choose another peak. Subtract its <span class="mono">m/z</span> from <i>M</i><sub>r</sub>. This is the mass lost.</li>
+          <li>Look up the mass lost in the data booklet. It suggests the piece that was lost.</li>
+          <li>Write the formula of the ion that was detected. Always include the positive charge.</li>
+          <li>Check that the piece fits the structure you are testing.</li>
+        </ol>
+
+        <aside class="callout callout--booklet">
+          <p>Section 22 of the data booklet lists “mass spectral fragments lost”. You do not need to memorize it.</p>
+        </aside>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Data booklet, section 22: mass spectral fragments lost</caption>
+            <thead><tr><th scope="col" class="num">Mass lost</th><th scope="col">Possible piece lost</th><th scope="col">What it suggests about the molecule</th></tr></thead>
+            <tbody>
+              <tr><td class="num">15</td><td data-i18n="off"><span class="s32h-f">•CH<sub>3</sub></span></td><td>a methyl group</td></tr>
+              <tr><td class="num">17</td><td data-i18n="off"><span class="s32h-f">•OH</span></td><td>an O–H group, for example in a carboxylic acid</td></tr>
+              <tr><td class="num">18</td><td data-i18n="off"><span class="s32h-f">H<sub>2</sub>O</span></td><td>an alcohol can lose water</td></tr>
+              <tr><td class="num">28</td><td data-i18n="off"><span class="s32h-f">CH<sub>2</sub>=CH<sub>2</sub></span>, <span class="s32h-f">CO</span></td><td>an ethene molecule or a carbon monoxide molecule</td></tr>
+              <tr><td class="num">29</td><td data-i18n="off"><span class="s32h-f">•CH<sub>2</sub>CH<sub>3</sub></span>, <span class="s32h-f">•CHO</span></td><td>an ethyl group, or the CHO group of an aldehyde</td></tr>
+              <tr><td class="num">31</td><td data-i18n="off"><span class="s32h-f">•OCH<sub>3</sub></span></td><td>a methoxy group, for example in a methyl ester</td></tr>
+              <tr><td class="num">45</td><td data-i18n="off"><span class="s32h-f">•COOH</span></td><td>a carboxyl group</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The first two columns are from the data booklet. The third column is a reading guide. The booklet says “possible” because two different pieces can have the same mass.</p>
+
+        <figure data-s1-widget="s3-2h.ms" data-title="Mass spectrum interpreter">
+          <p class="widget__fallback">An interactive mass spectrum appears here when JavaScript is on. For nine compounds it shows the main peaks, and for each peak it gives the m/z value, the mass lost from the molecular ion and the matching entry in the data booklet.</p>
+          <figcaption>Choose a compound and click each peak. These spectra are simplified sketches. They are built from the real major peaks of each compound (NIST Chemistry WebBook), with the small peaks left out.</figcaption>
+        </figure>
+
+        <aside class="callout callout--mistake">
+          <p>The tallest peak is not always the molecular ion peak. The tallest peak is only the most common ion. Look for the molecular ion at the highest <span class="mono">m/z</span>. A second slip is to mix up the mass lost and the mass detected. The peak shows the ion that was detected. The mass lost is the difference from <i>M</i><sub>r</sub>.</p>
+        </aside>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Which isomer gave this mass spectrum?</h3>
+          <div class="worked__problem">
+            <p>A compound has the molecular formula <span class="chem">C3H6O</span>. It is either propanal, <span class="chem">CH3CH2CHO</span>, or propanone, <span class="chem">CH3COCH3</span>. Its simplified mass spectrum is shown. Deduce which compound it is.</p>
+            <div class="s32h-chart" data-s32h-fig="we-ms" data-i18n="off"></div>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the molecular ion peak">
+              <p class="worked__why">The peak at the highest m/z is the whole molecule with one electron removed.</p>
+              <div class="worked__math">molecular ion peak: m/z = 58</div>
+              <div class="worked__math"><i>M</i><sub>r</sub>(C<sub>3</sub>H<sub>6</sub>O) = 3(12) + 6(1) + 16 = 58, so this fits</div>
+            </li>
+            <li data-title="Find the mass lost for the tallest peak">
+              <p class="worked__why">The difference from the molecular ion is the mass of the piece that broke off.</p>
+              <div class="worked__math">mass lost = 58 − 43 = 15</div>
+            </li>
+            <li data-title="Use the data booklet">
+              <p class="worked__why">Section 22 lists the piece for each mass lost.</p>
+              <div class="worked__math">15 → •CH<sub>3</sub></div>
+              <div class="worked__math">ion at m/z = 43: CH<sub>3</sub>CO<sup>+</sup> (12 + 3 + 12 + 16 = 43)</div>
+            </li>
+            <li data-title="Test each structure">
+              <p class="worked__why">The pieces must fit the structure.</p>
+              <p>Propanone is <span class="chem">CH3COCH3</span>. Breaking the bond next to the C=O gives <span class="chem">CH3CO+</span> and <span class="s32h-f">•CH<sub>3</sub></span>. This fits.</p>
+              <p>Propanal is <span class="chem">CH3CH2CHO</span>. It would lose <span class="s32h-f">•CH<sub>2</sub>CH<sub>3</sub></span> or <span class="s32h-f">•CHO</span>, mass 29. That would give a large peak at <span class="mono">m/z = 58 − 29 = 29</span>. This spectrum has no peak at 29.</p>
+              <div class="worked__math"><b>The compound is propanone.</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Propanone. The peak at m/z = 43 is CH<sub>3</sub>CO<sup>+</sup>, formed when the molecular ion loses •CH<sub>3</sub>.</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="57" data-tolerance="0.1" data-label="m/z">
+          <div class="tryit__q"><p>Butanone, <span class="chem">CH3COCH2CH3</span>, has <i>M</i><sub>r</sub> = 72. Its molecular ion loses a methyl group. At what <span class="mono">m/z</span> is the ion detected?</p></div>
+          <ol class="tryit__hints">
+            <li>The booklet gives the mass of the methyl piece, •CH<sub>3</sub>.</li>
+            <li>m/z of the ion = <i>M</i><sub>r</sub> − mass lost = 72 − 15.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">m/z = 72 − 15 = 57</div>
+            <p>The ion is <span class="chem">CH3CH2CO+</span>.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="42" data-tolerance="0.1" data-label="m/z">
+          <div class="tryit__q"><p>Propan-1-ol has <i>M</i><sub>r</sub> = 60. Its molecular ion can lose a molecule of water. At what <span class="mono">m/z</span> is the ion detected?</p></div>
+          <ol class="tryit__hints">
+            <li>Find the mass of <span class="chem">H2O</span> in section 22 of the booklet.</li>
+            <li>m/z of the ion = 60 − 18.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">m/z = 60 − 18 = 42</div>
+          </div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>When you write the formula of a fragment, include the positive charge, for example <span class="chem">CH3CO+</span>. A formula without the charge does not earn the mark. If you are asked why a spectrum has many peaks, the word needed is “fragmentation”.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>You do not need to know how the mass spectrometer works. You do not need isotope peaks such as M+1 or M+2, very accurate masses, or rearrangements. You only need the molecular ion and the pieces in the booklet table.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s3-2h" data-syllabus="Structure 3.2.8" data-count="4" data-title="Mass spectrometry: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 3.2.9 -->
+      <section class="topic-section" id="ir" data-toc="Infrared spectroscopy">
+        <span class="section-code">Structure 3.2.9</span>
+        <h2>Infrared spectroscopy</h2>
+
+        <p>Think of two balls joined by a spring. The spring can stretch and shorten at its own natural frequency. A covalent bond behaves in a similar way. It vibrates all the time.</p>
+        <p>A bond can absorb infrared (IR) radiation that has the right energy for its vibration. Each type of bond absorbs in its own range. So an IR spectrum shows which types of bond a molecule contains.</p>
+
+        <h3>Reading an IR spectrum</h3>
+        <ul>
+          <li>The horizontal axis is the <dfn>wavenumber</dfn>, in <span class="unit">cm-1</span>. It runs from 4000 on the left down to about 400 on the right.</li>
+          <li>The vertical axis is transmittance: the percentage of the radiation that passes through the sample.</li>
+          <li>An absorption shows as a dip. The line goes down where the sample absorbs.</li>
+          <li>Note three things for each dip: where it is, how strong it is, and whether it is broad or sharp.</li>
+        </ul>
+
+        <aside class="callout callout--booklet">
+          <p>Section 20 of the data booklet gives the wavenumber range for each bond. You do not need to memorize the ranges. The interactive spectrum below shows the whole table.</p>
+        </aside>
+
+        <h3>The absorptions you will use most</h3>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Key rows of the data booklet (section 20)</caption>
+            <thead><tr><th scope="col">Bond</th><th scope="col">Found in</th><th scope="col" class="num">Wavenumber / cm<sup>−1</sup></th><th scope="col">Shape</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">O–H</th><td>alcohols</td><td class="num">3200–3600</td><td>strong, broad</td></tr>
+              <tr><th scope="row">O–H</th><td>carboxylic acids</td><td class="num">2500–3000</td><td>strong, very broad</td></tr>
+              <tr><th scope="row">C–H</th><td>alkanes, alkenes, arenes</td><td class="num">2850–3090</td><td>strong</td></tr>
+              <tr><th scope="row">C=O</th><td>aldehydes, ketones, carboxylic acids and esters</td><td class="num">1700–1750</td><td>strong</td></tr>
+              <tr><th scope="row">C=C</th><td>alkenes</td><td class="num">1620–1680</td><td>medium-weak</td></tr>
+              <tr><th scope="row">C–O</th><td>alcohols, esters, ethers</td><td class="num">1050–1410</td><td>strong</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Almost every organic compound has C–H bonds. So the C–H absorption rarely helps you to tell compounds apart.</p>
+
+        <h3>The fingerprint region</h3>
+        <p>Below about 1500 <span class="unit">cm-1</span>, a spectrum has many overlapping absorptions. This part is called the fingerprint region, because its pattern is different for every compound.</p>
+        <p>You are only asked to interpret the functional group region, using the booklet table. You do not need to explain the pattern of small peaks in the fingerprint region. You can still be asked about a strong absorption that matches a booklet row there, such as C–O.</p>
+
+        <figure data-s1-widget="s3-2h.ir" data-title="Infrared interpreter">
+          <p class="widget__fallback">An interactive infrared spectrum appears here when JavaScript is on. It shows sketched spectra of ten compounds with the data booklet table beside them, and a second mode that asks you to identify the class of an unknown compound.</p>
+          <figcaption>In “Explore”, click a band to see the bond and the booklet row. In “Which compound is it?”, decide between an alkane, an alcohol, a carboxylic acid, a ketone and an ester. The spectra are simplified sketches drawn from typical band positions. They are not measured spectra.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Acid or ester?</h3>
+          <div class="worked__problem">
+            <p>A compound has the molecular formula <span class="chem">C3H6O2</span>. It is either propanoic acid, <span class="chem">CH3CH2COOH</span>, or methyl ethanoate, <span class="chem">CH3COOCH3</span>. Use the sketch of its IR spectrum to identify it. The absorptions are labelled A (2500–3000 <span class="unit">cm-1</span>, very broad), B (1715 <span class="unit">cm-1</span>) and C (1240 <span class="unit">cm-1</span>).</p>
+            <div class="s32h-chart" data-s32h-fig="we-ir" data-i18n="off"></div>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Assign absorption B">
+              <p class="worked__why">Start with the clearest absorption. Find the booklet range that contains it.</p>
+              <div class="worked__math">B: 1715 cm<sup>−1</sup> is inside 1700–1750 cm<sup>−1</sup> → C=O</div>
+              <p>Both compounds contain C=O, so B does not decide between them.</p>
+            </li>
+            <li data-title="Assign absorption A">
+              <p class="worked__why">The shape matters as much as the position.</p>
+              <div class="worked__math">A: very broad, 2500–3000 cm<sup>−1</sup> → O–H in a carboxylic acid</div>
+            </li>
+            <li data-title="Assign absorption C">
+              <p class="worked__why">Check that the remaining strong absorption also fits.</p>
+              <div class="worked__math">C: 1240 cm<sup>−1</sup> is inside 1050–1410 cm<sup>−1</sup> → C–O</div>
+            </li>
+            <li data-title="Decide">
+              <p class="worked__why">Look for a bond that one compound has and the other does not.</p>
+              <p>Methyl ethanoate has no O–H bond. It could not give absorption A.</p>
+              <div class="worked__math"><b>The compound is propanoic acid.</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Propanoic acid, because the spectrum shows the very broad O–H absorption of a carboxylic acid at 2500–3000 cm<sup>−1</sup>, which an ester does not have.</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="3" data-tolerance="0.1" data-label="Number of compounds">
+          <div class="tryit__q"><p>How many of these five compounds absorb strongly at 1700–1750 <span class="unit">cm-1</span>: propanone, ethanol, ethyl ethanoate, ethanoic acid, hexane?</p></div>
+          <ol class="tryit__hints">
+            <li>Find 1700–1750 <span class="unit">cm-1</span> in the booklet table. Which bond is it?</li>
+            <li>The bond is C=O. Which classes of compound contain C=O?</li>
+          </ol>
+          <div class="tryit__solution">
+            <p>C=O is in the ketone (propanone), the ester (ethyl ethanoate) and the carboxylic acid (ethanoic acid). The answer is 3.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>The two O–H rows are easy to mix up. An alcohol O–H absorbs at 3200–3600 <span class="unit">cm-1</span>. A carboxylic acid O–H absorbs lower, at 2500–3000 <span class="unit">cm-1</span>, and is much broader. It often covers the C–H absorption.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>Give the bond and the wavenumber range together, for example “C=O at 1700–1750 <span class="unit">cm-1</span>”. One without the other may not earn the mark. Any value inside the booklet range is accepted. To choose between two compounds, name the compound, the bond that is present or absent, and its range.</p>
+        </aside>
+
+        <h3>Infrared radiation and greenhouse gases</h3>
+        <p>The surface of the Earth gives out infrared radiation. Greenhouse gases such as carbon dioxide, water vapour and methane absorb some of it, because their bonds vibrate at infrared frequencies.</p>
+        <p>The molecules then give the energy out again in all directions. Some of it returns to the surface. This keeps the lower atmosphere warmer.</p>
+        <p>Nitrogen and oxygen make up most of the air, but <span class="chem">N2</span> and <span class="chem">O2</span> do not absorb infrared radiation. The reason is in “Linking it up” below.</p>
+
+        <aside class="callout callout--scope">
+          <p>You do not need to know how an IR spectrometer works, or the physics of why each bond has its own frequency. You do not need to calculate a global warming potential.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s3-2h" data-syllabus="Structure 3.2.9" data-count="4" data-title="Infrared spectroscopy: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 3.2.10 -->
+      <section class="topic-section" id="nmr" data-toc="¹H NMR: signals, shifts, areas">
+        <span class="section-code">Structure 3.2.10</span>
+        <h2>Proton NMR: signals, chemical shifts and areas</h2>
+
+        <p>Think of a class photograph. Students in the front row have different neighbours from students in the back row. In a molecule, hydrogen atoms also sit in different surroundings.</p>
+        <p>Proton nuclear magnetic resonance spectroscopy, <dfn><sup>1</sup>H NMR</dfn>, detects the hydrogen atoms in a molecule. It gives one signal for each different surrounding.</p>
+        <p>A <dfn>chemical environment</dfn> is the set of atoms and bonds around a hydrogen atom. Hydrogen atoms with exactly the same surroundings are called equivalent. They are in the same environment.</p>
+
+        <aside class="callout callout--key">
+          <p>A <sup>1</sup>H NMR spectrum gives three pieces of information at this stage. The number of signals is the number of hydrogen environments. The area under each signal shows how many H atoms are in that environment. The chemical shift shows what type of environment it is.</p>
+        </aside>
+
+        <h3>1. Number of signals</h3>
+        <p>Count the different hydrogen environments. Two rules help.</p>
+        <ul>
+          <li>The H atoms on the same carbon atom are equivalent. The three H atoms of a <span class="chem">CH3</span> group give one signal.</li>
+          <li>Groups that are mirror images of each other in a symmetrical molecule are equivalent. The two <span class="chem">CH3</span> groups in propanone, <span class="chem">CH3COCH3</span>, give one signal.</li>
+        </ul>
+        <div class="s32h-fig" data-s32h-fig="ch2-same" data-i18n="off"></div>
+        <p>Ethanol has three environments, labelled a, b and c. Its spectrum has three signals.</p>
+
+        <h3>2. Area under each signal</h3>
+        <p>The area under a signal is proportional to the number of H atoms in that environment. The spectrometer measures the areas. This is called <dfn>integration</dfn>, and it is often printed as a stepped line called an integration trace. A bigger step means a bigger area.</p>
+        <p>The areas give a ratio, not the actual numbers. Ethanol gives areas in the ratio <span class="mono">3 : 2 : 1</span>. Ethoxyethane, <span class="chem">CH3CH2OCH2CH3</span>, has 6 H and 4 H in its two environments, so its ratio is also written <span class="mono">3 : 2</span>.</p>
+
+        <h3>3. Chemical shift</h3>
+        <p>The position of a signal on the horizontal axis is its <dfn>chemical shift</dfn>, symbol δ, in parts per million (<span class="unit">ppm</span>). The axis runs from high values on the left to 0 on the right.</p>
+        <p>The chemical shift depends on what is near the hydrogen atom. An H atom close to an oxygen atom or a C=O group has a higher chemical shift.</p>
+
+        <aside class="callout callout--booklet">
+          <p>Section 21 of the data booklet gives typical chemical shifts for each type of proton. The booklet states that the values are measured relative to tetramethylsilane (TMS), which is the zero of the scale. It also states that values can vary with the solvent and conditions.</p>
+        </aside>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Data booklet, section 21: <sup>1</sup>H NMR data (R is an alkyl group; Hal is F, Cl, Br or I)</caption>
+            <thead><tr><th scope="col">Type of proton</th><th scope="col">In words</th><th scope="col" class="num">Chemical shift / ppm</th></tr></thead>
+            <tbody>
+              <tr><td data-i18n="off">–C<b>H</b><sub>3</sub></td><td>H in a CH<sub>3</sub> group on an alkyl chain</td><td class="num">0.9–1.0</td></tr>
+              <tr><td data-i18n="off">–C<b>H</b><sub>2</sub>–R</td><td>H in a CH<sub>2</sub> group in an alkyl chain</td><td class="num">1.3–1.4</td></tr>
+              <tr><td data-i18n="off">–C<b>H</b>R<sub>2</sub></td><td>H in a CH group in an alkyl chain</td><td class="num">1.5</td></tr>
+              <tr><td data-i18n="off">RO–C(=O)–C<b>H</b><sub>2</sub>–</td><td>H on the carbon next to the C=O of an ester</td><td class="num">2.0–2.5</td></tr>
+              <tr><td data-i18n="off">R–C(=O)–C<b>H</b><sub>2</sub>–</td><td>H on the carbon next to a C=O with R on its other side</td><td class="num">2.2–2.7</td></tr>
+              <tr><td data-i18n="off">C<sub>6</sub>H<sub>5</sub>–C<b>H</b><sub>3</sub></td><td>H in a CH<sub>3</sub> group on a benzene ring</td><td class="num">2.5–3.5</td></tr>
+              <tr><td data-i18n="off">–C≡C–<b>H</b></td><td>H on a triple-bonded carbon</td><td class="num">1.8–3.1</td></tr>
+              <tr><td data-i18n="off">–C<b>H</b><sub>2</sub>–Hal</td><td>H on a carbon bonded to a halogen</td><td class="num">3.5–4.4</td></tr>
+              <tr><td data-i18n="off">R–O–C<b>H</b><sub>2</sub>–</td><td>H on a carbon bonded to the O of an alcohol or ether</td><td class="num">3.3–3.7</td></tr>
+              <tr><td data-i18n="off">R–C(=O)–O–C<b>H</b><sub>2</sub>–</td><td>H on the carbon bonded to the single-bonded O of an ester</td><td class="num">3.7–4.8</td></tr>
+              <tr><td data-i18n="off">R–C(=O)–O–<b>H</b></td><td>H of a carboxyl group</td><td class="num">9.0–13.0</td></tr>
+              <tr><td data-i18n="off">R–O–<b>H</b></td><td>H of the hydroxyl group in an alcohol</td><td class="num">1.0–6.0</td></tr>
+              <tr><td data-i18n="off">–C<b>H</b>=C<b>H</b><sub>2</sub></td><td>H on a double-bonded carbon</td><td class="num">4.5–6.0</td></tr>
+              <tr><td data-i18n="off">C<sub>6</sub>H<sub>5</sub>–O<b>H</b></td><td>H of the OH group in a phenol</td><td class="num">4.0–12.0</td></tr>
+              <tr><td data-i18n="off">C<sub>6</sub>H<sub>5</sub>–<b>H</b></td><td>H on a benzene ring</td><td class="num">6.9–9.0</td></tr>
+              <tr><td data-i18n="off">R–C(=O)–<b>H</b></td><td>H of an aldehyde group</td><td class="num">9.4–10.0</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The first and last columns are from the data booklet, where the types of proton are drawn as structures. The middle column is a reading guide. A row drawn with <span class="chem">CH2</span> is also used for a <span class="chem">CH3</span> or CH group in the same position. This page uses the row RO–C(=O)–CH<sub>2</sub>– for the carbon next to the C=O of a carboxylic acid as well.</p>
+
+        <aside class="callout callout--mistake">
+          <p>The number of signals is not the number of hydrogen atoms, and it is not the number of carbon atoms. Propanone has six H atoms and three C atoms, but only one signal. Always count environments.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="2" data-tolerance="0.1" data-label="Number of signals">
+          <div class="tryit__q"><p>How many signals are in the <sup>1</sup>H NMR spectrum of pentan-3-one, <span class="chem">CH3CH2COCH2CH3</span>?</p></div>
+          <ol class="tryit__hints">
+            <li>Draw the molecule. Is it symmetrical about the C=O group?</li>
+            <li>The two <span class="chem">CH3</span> groups are equivalent, and the two <span class="chem">CH2</span> groups are equivalent.</li>
+          </ol>
+          <div class="tryit__solution">
+            <p>There are two environments: the <span class="chem">CH3</span> hydrogens (6 H) and the <span class="chem">CH2</span> hydrogens (4 H). The answer is 2, with areas in the ratio 3 : 2.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="3" data-tolerance="0.1" data-label="Number of signals">
+          <div class="tryit__q"><p>How many signals are in the <sup>1</sup>H NMR spectrum of ethyl ethanoate, <span class="chem">CH3COOCH2CH3</span>?</p></div>
+          <ol class="tryit__hints">
+            <li>There are two <span class="chem">CH3</span> groups. Do they have the same surroundings?</li>
+            <li>One <span class="chem">CH3</span> is next to C=O. The other is next to a <span class="chem">CH2</span> group. They are different environments.</li>
+          </ol>
+          <div class="tryit__solution">
+            <p>The environments are <span class="chem">CH3</span> next to C=O, <span class="chem">CH2</span> next to O, and <span class="chem">CH3</span> next to <span class="chem">CH2</span>. The answer is 3, with areas in the ratio 3 : 2 : 3.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>For “number of signals and ratio of areas”, the ratio can be given in any order, but it must match the environments. For a chemical shift, quote the booklet range for that type of proton. A molecule with no hydrogen atoms gives no signals.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>You do not need <sup>13</sup>C NMR. You do not need to explain how NMR works, why TMS is used, or which solvents are chosen. You do not need to memorize chemical shifts.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s3-2h" data-syllabus="Structure 3.2.10" data-count="4" data-title="¹H NMR signals and areas: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 3.2.11 -->
+      <section class="topic-section" id="splitting" data-toc="¹H NMR: splitting patterns">
+        <span class="section-code">Structure 3.2.11</span>
+        <h2>Proton NMR: splitting patterns</h2>
+
+        <p>Look closely at a signal and you often see that it is not one peak. It is a small cluster of peaks. The signal has been split.</p>
+        <p>Splitting is caused by the hydrogen atoms on the neighbouring carbon atoms. So the splitting pattern of a signal tells you what is next to that group.</p>
+
+        <aside class="callout callout--key">
+          <p>If there are <i>n</i> hydrogen atoms on the neighbouring carbon atoms, the signal is split into <i>n</i> + 1 peaks. This is often called the <i>n</i> + 1 rule.</p>
+        </aside>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The four splitting patterns you need</caption>
+            <thead><tr><th scope="col" class="num">H atoms on neighbouring carbons (n)</th><th scope="col" class="num">Peaks in the signal (n + 1)</th><th scope="col">Name</th><th scope="col">Example of the neighbour</th></tr></thead>
+            <tbody>
+              <tr><td class="num">0</td><td class="num">1</td><td>singlet</td><td>no H on the next atom, for example next to C=O or O</td></tr>
+              <tr><td class="num">1</td><td class="num">2</td><td>doublet</td><td>next to a CH group</td></tr>
+              <tr><td class="num">2</td><td class="num">3</td><td>triplet</td><td>next to a CH<sub>2</sub> group</td></tr>
+              <tr><td class="num">3</td><td class="num">4</td><td>quartet</td><td>next to a CH<sub>3</sub> group</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Three things to remember</h3>
+        <ul>
+          <li>Count the H atoms on the neighbouring carbon atoms. Do not count the H atoms in the group itself.</li>
+          <li>Equivalent hydrogen atoms do not split each other. The six H atoms of propanone give a singlet.</li>
+          <li>The H atom of an O–H group usually gives a singlet, and it usually does not split its neighbours. This page treats O–H in that way.</li>
+        </ul>
+        <p>A triplet together with a quartet is the pattern of an ethyl group, <span class="chem">CH3CH2</span>–. The <span class="chem">CH3</span> signal is a triplet because it is next to <span class="chem">CH2</span>. The <span class="chem">CH2</span> signal is a quartet because it is next to <span class="chem">CH3</span>.</p>
+
+        <figure data-s1-widget="s3-2h.nmr" data-title="Proton NMR tutor">
+          <p class="widget__fallback">An interactive tutor appears here when JavaScript is on. For twelve molecules it colours the equivalent hydrogen atoms, and shows the number of signals, the ratio of areas, the booklet chemical shift range and the splitting of each signal, with a sketched spectrum.</p>
+          <figcaption>In “Show me”, equivalent hydrogen atoms share a letter and an outline. In “Predict first”, you predict the number of signals and the splitting before you see the answer. The spectra are sketches: each signal is drawn inside its booklet range.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 1">
+          <h3 class="worked__title">Predict the <sup>1</sup>H NMR spectrum of propanoic acid</h3>
+          <div class="worked__problem">
+            <p>Predict the number of signals, the ratio of areas, the chemical shift ranges and the splitting patterns in the <sup>1</sup>H NMR spectrum of propanoic acid, <span class="chem">CH3CH2COOH</span>.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the hydrogen environments">
+              <p class="worked__why">Each different environment gives one signal.</p>
+              <div class="s32h-fig" data-s32h-fig="we-nmr1" data-i18n="off"></div>
+              <div class="worked__math">a: CH<sub>3</sub> &nbsp; b: CH<sub>2</sub> &nbsp; c: COOH → 3 signals</div>
+            </li>
+            <li data-title="Count the H atoms in each environment">
+              <p class="worked__why">The areas are in the ratio of these numbers.</p>
+              <div class="worked__math">a : b : c = 3 : 2 : 1</div>
+            </li>
+            <li data-title="Look up each chemical shift">
+              <p class="worked__why">Match each environment to a row of the booklet table.</p>
+              <div class="worked__math">a, CH<sub>3</sub> on an alkyl chain: 0.9–1.0 ppm</div>
+              <div class="worked__math">b, CH<sub>2</sub> next to C=O: 2.0–2.5 ppm</div>
+              <div class="worked__math">c, H of COOH: 9.0–13.0 ppm</div>
+            </li>
+            <li data-title="Work out the splitting">
+              <p class="worked__why">Peaks = number of H on neighbouring carbon atoms + 1.</p>
+              <div class="worked__math">a: next to CH<sub>2</sub>, n = 2 → 3 peaks, triplet</div>
+              <div class="worked__math">b: next to CH<sub>3</sub>, n = 3 → 4 peaks, quartet (the carbon of COOH has no H)</div>
+              <div class="worked__math">c: O–H → singlet</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Three signals with areas 3 : 2 : 1. A triplet at 0.9–1.0 ppm, a quartet at 2.0–2.5 ppm and a singlet at 9.0–13.0 ppm.</p></div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 2">
+          <h3 class="worked__title">Predict the <sup>1</sup>H NMR spectrum of ethyl ethanoate</h3>
+          <div class="worked__problem">
+            <p>Predict the number of signals, the ratio of areas, the chemical shift ranges and the splitting patterns in the <sup>1</sup>H NMR spectrum of ethyl ethanoate, <span class="chem">CH3COOCH2CH3</span>.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the hydrogen environments">
+              <p class="worked__why">The two CH<sub>3</sub> groups have different neighbours, so they are different environments.</p>
+              <div class="s32h-fig" data-s32h-fig="we-nmr2" data-i18n="off"></div>
+              <div class="worked__math">a: CH<sub>3</sub> next to C=O &nbsp; b: CH<sub>2</sub> next to O &nbsp; c: CH<sub>3</sub> next to CH<sub>2</sub> → 3 signals</div>
+            </li>
+            <li data-title="Count the H atoms in each environment">
+              <p class="worked__why">The areas are in the ratio of these numbers.</p>
+              <div class="worked__math">a : b : c = 3 : 2 : 3</div>
+            </li>
+            <li data-title="Look up each chemical shift">
+              <p class="worked__why">The atom next to the carbon decides the row.</p>
+              <div class="worked__math">a, CH<sub>3</sub> next to the C=O of an ester: 2.0–2.5 ppm</div>
+              <div class="worked__math">b, CH<sub>2</sub> bonded to the O of an ester: 3.7–4.8 ppm</div>
+              <div class="worked__math">c, CH<sub>3</sub> on an alkyl chain: 0.9–1.0 ppm</div>
+            </li>
+            <li data-title="Work out the splitting">
+              <p class="worked__why">Peaks = number of H on neighbouring carbon atoms + 1.</p>
+              <div class="worked__math">a: the next atom is the C of C=O, with no H, n = 0 → singlet</div>
+              <div class="worked__math">b: next to CH<sub>3</sub>, n = 3 → quartet (the O on the other side has no H)</div>
+              <div class="worked__math">c: next to CH<sub>2</sub>, n = 2 → triplet</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Three signals with areas 3 : 2 : 3. A singlet at 2.0–2.5 ppm, a quartet at 3.7–4.8 ppm and a triplet at 0.9–1.0 ppm.</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="4" data-tolerance="0.1" data-label="Number of peaks">
+          <div class="tryit__q"><p>In the <sup>1</sup>H NMR spectrum of chloroethane, <span class="chem">CH3CH2Cl</span>, how many peaks are in the signal of the <span class="chem">CH2</span> group?</p></div>
+          <ol class="tryit__hints">
+            <li>Which carbon atom is next to the <span class="chem">CH2</span> group, and how many H atoms does it carry?</li>
+            <li>The neighbour is <span class="chem">CH3</span>, so n = 3. Use n + 1.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">peaks = n + 1 = 3 + 1 = 4 (a quartet)</div>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Two slips are common. The first is to use <i>n</i> instead of <i>n</i> + 1: a <span class="chem">CH3</span> next to a <span class="chem">CH2</span> is a triplet, not a doublet. The second is to count the H atoms on the same carbon: the three H atoms of a <span class="chem">CH3</span> group do not split their own signal.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>A full prediction has four parts: the number of signals, the chemical shift range of each signal, the ratio of areas, and the splitting of each signal. You can give splitting as a word (“quartet”) or as a number of peaks (“4”).</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>You only need singlets, doublets, triplets and quartets. You do not need patterns with more than four peaks, the relative heights of the peaks in a cluster, or coupling constants. If a group has H atoms on neighbouring carbons on both sides, its pattern can be more complex. You will not be asked to name such a pattern.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s3-2h" data-syllabus="Structure 3.2.11" data-count="4" data-title="Splitting patterns: quick check"></div>
+      </section>
+
+      <!-- ============================================================ 3.2.12 -->
+      <section class="topic-section" id="combined" data-toc="Combining the techniques">
+        <span class="section-code">Structure 3.2.12</span>
+        <h2>Combining the techniques</h2>
+
+        <p>A detective does not rely on one clue. Each technique gives a different clue about a molecule. Together they give the structure.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>What each piece of data tells you</caption>
+            <thead><tr><th scope="col">Data</th><th scope="col">What you learn</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Percentage composition by mass</th><td>the empirical formula</td></tr>
+              <tr><th scope="row">Mass spectrum: molecular ion</th><td><i>M</i><sub>r</sub>, and so the molecular formula</td></tr>
+              <tr><th scope="row">Mass spectrum: fragments</th><td>groups that break off, such as CH<sub>3</sub> or CH<sub>2</sub>CH<sub>3</sub></td></tr>
+              <tr><th scope="row">Infrared spectrum</th><td>the bonds present, and so the functional group</td></tr>
+              <tr><th scope="row"><sup>1</sup>H NMR: number of signals</th><td>the number of hydrogen environments</td></tr>
+              <tr><th scope="row"><sup>1</sup>H NMR: areas</th><td>the ratio of H atoms in the environments</td></tr>
+              <tr><th scope="row"><sup>1</sup>H NMR: chemical shifts</th><td>the type of each environment</td></tr>
+              <tr><th scope="row"><sup>1</sup>H NMR: splitting</th><td>the number of H atoms on the neighbouring carbon atoms</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Method in words</h3>
+        <ol class="s32h-steps">
+          <li>Find the empirical formula from the percentage composition. Divide each percentage by the relative atomic mass. Then divide by the smallest value.</li>
+          <li>Read <i>M</i><sub>r</sub> from the molecular ion peak. Compare it with the empirical formula mass to get the molecular formula.</li>
+          <li>Use the IR spectrum to find the functional group. Note what is absent as well as what is present.</li>
+          <li>Use the mass lost for one or two fragments to find groups in the molecule.</li>
+          <li>Use the number of NMR signals and their areas to find how many H atoms are in each environment.</li>
+          <li>Use the chemical shifts and the splitting to see what each group is next to.</li>
+          <li>Draw a structure. Check it against every piece of data.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">A full structure problem</h3>
+          <div class="worked__problem">
+            <p>Compound X contains 69.70 % carbon, 11.72 % hydrogen and 18.57 % oxygen by mass. Its simplified mass spectrum, a sketch of its IR spectrum and a sketch of its <sup>1</sup>H NMR spectrum are shown. Deduce the structure of X.</p>
+            <div class="s32h-chart" data-s32h-fig="we-combo-ms" data-i18n="off"></div>
+            <div class="s32h-chart" data-s32h-fig="we-combo-ir" data-i18n="off"></div>
+            <div class="s32h-chart" data-s32h-fig="we-combo-nmr" data-i18n="off"></div>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the empirical formula">
+              <p class="worked__why">Percentages by mass become amounts in mol when you divide by the relative atomic mass.</p>
+              <div class="worked__math">C: 69.70 / 12.01 = 5.803 mol &nbsp; H: 11.72 / 1.01 = 11.60 mol &nbsp; O: 18.57 / 16.00 = 1.161 mol</div>
+              <div class="worked__math">divide by 1.161 → C : H : O = 5.00 : 10.00 : 1.00</div>
+              <div class="worked__math">empirical formula = C<sub>5</sub>H<sub>10</sub>O</div>
+            </li>
+            <li data-title="Find the molecular formula">
+              <p class="worked__why">The molecular ion peak gives M<sub>r</sub>.</p>
+              <div class="worked__math">molecular ion peak at m/z = 86, so <i>M</i><sub>r</sub> = 86</div>
+              <div class="worked__math">mass of C<sub>5</sub>H<sub>10</sub>O = 5(12.01) + 10(1.01) + 16.00 = 86.15</div>
+              <div class="worked__math">molecular formula = C<sub>5</sub>H<sub>10</sub>O</div>
+            </li>
+            <li data-title="Use the IR spectrum">
+              <p class="worked__why">The IR spectrum shows the bonds, and so the functional group.</p>
+              <div class="worked__math">1715 cm<sup>−1</sup> is inside 1700–1750 cm<sup>−1</sup> → C=O</div>
+              <div class="worked__math">no broad absorption at 3200–3600 or 2500–3000 cm<sup>−1</sup> → no O–H</div>
+              <p>With one oxygen atom and a C=O bond, X is an aldehyde or a ketone.</p>
+            </li>
+            <li data-title="Use the fragments">
+              <p class="worked__why">The mass lost shows a group that breaks off.</p>
+              <div class="worked__math">86 − 57 = 29 → •CH<sub>2</sub>CH<sub>3</sub> or •CHO lost</div>
+              <p>The spectrum cannot yet tell you which one. Keep both ideas.</p>
+            </li>
+            <li data-title="Use the NMR signals and areas">
+              <p class="worked__why">Two signals mean two hydrogen environments. The areas share out the 10 H atoms.</p>
+              <div class="worked__math">ratio 3 : 2, total 10 H → 6 H and 4 H</div>
+              <p>There is no signal at 9.4–10.0 ppm, so there is no aldehyde H. X is a ketone, and the piece of mass 29 is <span class="s32h-f">•CH<sub>2</sub>CH<sub>3</sub></span>.</p>
+            </li>
+            <li data-title="Use the shifts and the splitting, then draw X">
+              <p class="worked__why">The splitting shows what each group is next to.</p>
+              <div class="worked__math">6 H, triplet, 1.0 ppm → two equivalent CH<sub>3</sub> groups, each next to a CH<sub>2</sub></div>
+              <div class="worked__math">4 H, quartet, 2.4 ppm → two equivalent CH<sub>2</sub> groups, each next to a CH<sub>3</sub> and next to C=O (2.2–2.7 ppm)</div>
+              <div class="s32h-fig" data-s32h-fig="we-combo-answer" data-i18n="off"></div>
+              <div class="worked__math"><b>X is pentan-3-one, CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub>.</b></div>
+              <p>Check: the peak at m/z = 57 is <span class="chem">CH3CH2CO+</span> and the peak at m/z = 29 is <span class="chem">CH3CH2+</span>.</p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Pentan-3-one, CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub>.</p></div>
+        </div>
+
+        <figure data-s1-widget="s3-2h.detective" data-title="Structure detective">
+          <p class="widget__fallback">An interactive set of six structure problems appears here when JavaScript is on. Each problem gives percentage composition, a mass spectrum, an infrared spectrum and a proton NMR spectrum, and leads you step by step to the structure.</p>
+          <figcaption>Solve each step in order. Every correct step adds a line to the deduction notebook. The mass spectra use the real major peaks of each compound (NIST Chemistry WebBook) with small peaks left out. The IR and NMR spectra are sketches drawn inside the data booklet ranges.</figcaption>
+        </figure>
+
+        <div data-s1-numeric data-answer="4" data-tolerance="0.1" data-label="Number of carbon atoms">
+          <div class="tryit__q"><p>A compound has the empirical formula <span class="chem">C2H4O</span>. Its molecular ion peak is at <span class="mono">m/z = 88</span>. How many carbon atoms are in one molecule?</p></div>
+          <ol class="tryit__hints">
+            <li>Find the mass of the empirical formula. Use whole-number masses: C 12, H 1, O 16.</li>
+            <li>The empirical formula mass is 44. How many times does 44 go into 88?</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">2(12) + 4(1) + 16 = 44</div>
+            <div class="worked__math">88 / 44 = 2, so the molecular formula is C<sub>4</sub>H<sub>8</sub>O<sub>2</sub></div>
+            <p>There are 4 carbon atoms.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Do not stop at the first structure that fits one spectrum. Several isomers often fit the IR spectrum. Check the number of NMR signals and the splitting for every structure you consider.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>These questions are marked in steps. Show each deduction: the bond and its range from the IR spectrum, the molecular ion and the formula, and the NMR evidence. The final structure can be a name or any clear structural formula.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>Some books calculate an “index of hydrogen deficiency” at this point. It is not required here. The IR spectrum already shows whether there is a C=O or C=C bond. You also do not need UV–visible spectra or X-ray crystallography for organic structures.</p>
+        </aside>
+
+        <div data-s1-quiz data-topic="s3-2h" data-syllabus="Structure 3.2.12" data-count="4" data-title="Combined analysis: quick check"></div>
+      </section>
+
+      <!-- ============================================================ LINKS -->
+      <section class="topic-section" id="links">
+        <h2>Linking it up</h2>
+        <p>The syllabus asks questions that connect this topic to others. Here are short answers to two of them.</p>
+
+        <h3>What features of a molecule determine whether it is IR active or not?</h3>
+        <p>A vibration absorbs infrared radiation only if it changes the dipole moment of the molecule. A molecule with polar bonds can do this. Carbon dioxide has no overall dipole, but when it bends or stretches unevenly, a dipole appears, so it absorbs. Water and methane absorb for the same reason.</p>
+        <p>Molecules such as <span class="chem">N2</span> and <span class="chem">O2</span> have two identical atoms and a non-polar bond. Stretching the bond does not create a dipole. They are not IR active. Bond polarity and molecular polarity are in Structure 2.2.</p>
+
+        <h3>What properties of a greenhouse gas determine its “global warming potential”?</h3>
+        <p>Two properties matter most. The first is how strongly the gas absorbs infrared radiation, and at which wavenumbers. The second is how long the gas stays in the atmosphere before it is removed. A gas that absorbs strongly and stays for a long time has a high global warming potential. Combustion and its products are in Reactivity 1.3.</p>
+      </section>
+
+      <!-- ============================================================ PRACTICE -->
+      <section class="topic-section" id="practice">
+        <h2>Exam-style practice</h2>
+        <p>Three sets, from first steps to stretch. Every question here is Additional HL. You get feedback after each question, and questions you have not yet answered correctly come up first.</p>
+        <div data-s1-quiz data-topic="s3-2h" data-tier="foundation" data-count="6" data-title="3.2 HL Foundation: one idea at a time"></div>
+        <div data-s1-quiz data-topic="s3-2h" data-tier="exam" data-count="6" data-title="3.2 HL Exam standard"></div>
+        <div data-s1-quiz data-topic="s3-2h" data-tier="challenge" data-count="4" data-title="3.2 HL Challenge"></div>
+        <div data-s1-quiz data-topic="s3-2h" data-syllabus="Structure 3.2.8,Structure 3.2.9,Structure 3.2.10,Structure 3.2.11,Structure 3.2.12" data-count="6" data-title="3.2 HL Spectroscopy mix"></div>
+        <p>The core content of this topic is on the page <a href="s3-2.html">3.2 Functional groups</a>.</p>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../assets/js/mol.js"></script>
+<script src="../assets/js/chart.js"></script>
+<script src="../data/questions-s3-2h.js"></script>
+<script src="../assets/js/widgets-s3-2h.js"></script>
+</body>
+</html>

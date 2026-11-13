@@ -11,7 +11,7 @@
   var S1 = window.S1;
   if (!S1 || !S1.util) { if (window.console) console.error('quiz.js needs core.js to be loaded first'); return; }
   var util = S1.util, el = util.el, doc = document;
-  var t = S1.t, live = S1.i18n.live, liveAttr = S1.i18n.liveAttr, render = S1.i18n.render, Q = S1.i18n.q;
+  var t = S1.i18n.ui, tp = S1.t, live = S1.i18n.live, liveAttr = S1.i18n.liveAttr, render = S1.i18n.render, Q = S1.i18n.q;
 
   var TIER_LABEL = { foundation: 'Foundation', exam: 'Exam style', challenge: 'Challenge' };   // i18n
   var TYPE_LABEL = { mcq: 'Multiple choice', numeric: 'Calculation', multi: 'Select all that apply', order: 'Put in order', short: 'Written answer' };   // i18n
@@ -29,7 +29,7 @@
     for (var i = 0; i < s.length; i++) if (s[i] !== u[i]) return false;
     return true;
   }
-  function marksText(n) { return n === 1 ? t('[1 mark]') : t('[{n} marks]', { n: n }); }
+  function marksText(n) { return t.n(n, { one: '[1 mark]', other: '[{n} marks]' }); }
   // English wording first (it is what earns marks), translation beneath when there is one.
   function bilingual(q, field, index) {
     var en = index != null ? (q[field] || [])[index] : q[field], tr = Q(q, field, index);
@@ -112,7 +112,7 @@
           h += '<p><strong>' + t('Answer:') + '</strong> <span class="mono">' + shown + '</span>' + u + '</p>';
         }
         if (q.solution) h += Q(q, 'solution');
-        return '<h4>' + t('Solution') + '</h4>' + h;
+        return '<h4>' + t('Solution|quiz') + '</h4>' + h;
       });
       solution.hidden = false; solBtn.hidden = true;
       S1.enhance(solution);
@@ -298,7 +298,7 @@
         var status = got >= max ? 'right' : got > 0 ? 'partial' : 'wrong';
         first(status);
         say(status, function () {
-          return { label: max === 1 ? t('You gave yourself {got} of 1 mark', { got: got }) : t('You gave yourself {got} of {max} marks', { got: got, max: max }),
+          return { label: t.n(max, { one: 'You gave yourself {got} of 1 mark', other: 'You gave yourself {got} of {max} marks' }, { got: got, max: max }),
             body: status === 'right' ? '' : '<p>' + t('Read the points you missed, then try writing the answer again from memory later.') + '</p>' };
         });
         lock();
@@ -330,15 +330,17 @@
     host.classList.add('quiz');
     host.setAttribute('data-i18n', 'off');
     host.innerHTML = '';
-    var titleSrc = opts.title || (opts.mode === 'review' ? 'Review my mistakes' : 'Quick check');   // i18n
-    var title = el('h3', { class: 'quiz__title', t: titleSrc });
+    // A title given by the page author is page text; the defaults are shell text.
+    var titleDefault = opts.mode === 'review' ? 'Review my mistakes' : 'Quick check';   // i18n
+    var titleText = function () { return opts.title ? (opts.titleScope === 'ui' ? t(opts.title) : tp(opts.title)) : t(titleDefault); };
+    var title = live(el('h3', { class: 'quiz__title' }), titleText);
     var meta = el('p', { class: 'quiz__meta', role: 'status', 'aria-live': 'polite' });
     var track = el('ol', { class: 'quiz__track', 'aria-hidden': 'true' });
     var body = el('div', { class: 'quiz__body' });
     host.appendChild(el('div', { class: 'quiz__head' }, [title, meta]));
     host.appendChild(track);
     host.appendChild(body);
-    if (!host.getAttribute('aria-label') || host.__s1attrs) { host.setAttribute('role', 'region'); liveAttr(host, 'aria-label', function () { return t(titleSrc); }); }
+    if (!host.getAttribute('aria-label') || host.__s1attrs) { host.setAttribute('role', 'region'); liveAttr(host, 'aria-label', titleText); }
 
     var set = [], results = [], index = 0, finished = false;
     function rightCount() { return results.filter(function (r) { return r === 'right'; }).length; }
@@ -360,7 +362,7 @@
         ? 'No mistakes saved. Questions you get wrong will appear here so you can try them again.'   // i18n
         : (S1.questions.all().length ? 'No questions match this selection yet.' : 'Questions for this section are on their way.'));   // i18n
       body.innerHTML = '';
-      body.appendChild(el('p', { class: 'quiz__empty', t: key }));
+      body.appendChild(opts.emptyText ? el('p', { class: 'quiz__empty', tp: key }) : el('p', { class: 'quiz__empty', t: key }));
     }
     function paintHead() {
       render(meta);
@@ -518,7 +520,7 @@
     function mistakes() { return S1.questions.filter({ ids: S1.progress.mistakes() }).length; }
     live(match, function () {
       var n = matches();
-      return !current().topics.length ? t('Pick at least one topic.') : n === 1 ? t('1 question matches') : t('{n} questions match', { n: n });
+      return !current().topics.length ? t('Pick at least one topic.') : t.n(n, { one: '1 question matches', other: '{n} questions match' });
     });
     live(reviewBtn, function () { return t('Review my mistakes ({n})', { n: mistakes() }); });
     function paint() {
@@ -537,8 +539,8 @@
       if (s) { try { box.scrollIntoView({ block: 'start', behavior: util.reducedMotion() ? 'auto' : 'smooth' }); } catch (e) { box.scrollIntoView(); } s.focus({ preventScroll: true }); }
     }
     form.addEventListener('change', paint);
-    form.addEventListener('submit', function (e) { e.preventDefault(); var o = current(); o.title = 'Mixed practice'; run(o); });   // i18n
-    reviewBtn.addEventListener('click', function () { run({ mode: 'review', count: 0, title: 'Review my mistakes' }); });   // i18n
+    form.addEventListener('submit', function (e) { e.preventDefault(); var o = current(); o.title = 'Mixed practice'; o.titleScope = 'ui'; run(o); });   // i18n
+    reviewBtn.addEventListener('click', function () { run({ mode: 'review', count: 0, title: 'Review my mistakes', titleScope: 'ui' }); });   // i18n
     doc.addEventListener('s1:progress', paint);
     doc.addEventListener('s1:levelchange', paint);
     paint();

@@ -60,3 +60,12 @@ S1.i18n.register('ja', 'home', {
     "Ticks and quiz results are saved in this browser only. If you clear your browser data or change device, they start again.": "チェックとクイズの結果は、このブラウザにだけ保存されます。ブラウザのデータを消したり、別の端末を使ったりすると、最初からやり直しになります。"
   }
 });
+
+/* Added for the scoped lookups: page text no longer falls back to the ui overlay, and new shell strings. */
+S1.i18n.register('ja', 'home', {
+  strings: {
+    "Topics": "トピック",
+    "Challenge": "チャレンジ",
+    "Not needed for IB": "IB の範囲外"
+  }
+});

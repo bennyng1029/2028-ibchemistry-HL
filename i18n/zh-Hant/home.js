@@ -60,3 +60,12 @@ S1.i18n.register('zh-Hant', 'home', {
     "Ticks and quiz results are saved in this browser only. If you clear your browser data or change device, they start again.": "剔選記錄和小測結果只儲存在此瀏覽器內。如果你清除瀏覽器資料或轉用另一部裝置，記錄會由零開始。"
   }
 });
+
+/* Added for the scoped lookups: page text no longer falls back to the ui overlay, and new shell strings. */
+S1.i18n.register('zh-Hant', 'home', {
+  strings: {
+    "Topics": "課題",
+    "Challenge": "挑戰",
+    "Not needed for IB": "IB 不要求"
+  }
+});

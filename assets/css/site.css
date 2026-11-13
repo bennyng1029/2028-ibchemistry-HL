@@ -844,7 +844,7 @@ table.data .num, table.data td.num, table.data th.num { text-align: right; font-
   --font-mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", monospace;
   --measure: 36em;
 }
-:root:is([lang="ja"], [lang="zh-Hant"]) body { line-height: 1.85; line-break: strict; overflow-wrap: anywhere; }
+:root:is([lang="ja"], [lang="zh-Hant"]) body { line-height: 1.85; line-break: strict; overflow-wrap: break-word; }
 :root:is([lang="ja"], [lang="zh-Hant"]) :is(h1, h2, h3, h4) { letter-spacing: 0; line-height: 1.35; font-weight: 700; text-wrap: wrap; word-break: normal; }
 :root:is([lang="ja"], [lang="zh-Hant"]) h1 { font-size: clamp(1.7rem, 1.2rem + 2.2vw, 2.6rem); }
 :root:is([lang="ja"], [lang="zh-Hant"]) :is(em, cite, dfn) { font-style: normal; }
@@ -853,7 +853,7 @@ table.data .num, table.data td.num, table.data th.num { text-align: right; font-
 :root:is([lang="ja"], [lang="zh-Hant"]) :is(.eyebrow, .guiding__label, .toc__title, .worked__kicker, .widget__kicker, .pager__dir, .strand__num, .cells-title__num, .chips-group__title, .navgroup__label, .navgroup__tag, .cell--soon .cell__pct, .badge, .section-code) { letter-spacing: 0.02em; text-transform: none; }
 :root:is([lang="ja"], [lang="zh-Hant"]) :is(.callout, .tryit, .worked__answer)::before { letter-spacing: 0.02em; text-transform: none; font-family: var(--font-body); font-weight: 700; font-size: 0.82rem; }
 :root:is([lang="ja"], [lang="zh-Hant"]) .worked__why[data-s1-label]::before { content: attr(data-s1-label) "\FF1A"; }
-:root:is([lang="ja"], [lang="zh-Hant"]) :is(.btn, .seg__btn, .chip, .cell__name, .tile__name) { word-break: keep-all; overflow-wrap: anywhere; }
+:root:is([lang="ja"], [lang="zh-Hant"]) :is(.btn, .seg__btn, .chip, .cell__name, .tile__name) { word-break: keep-all; overflow-wrap: break-word; }
 :root:is([lang="ja"], [lang="zh-Hant"]) .cell__blurb { line-height: 1.6; }
 
 /* English kept beside a translation: key terms, exam wording */
@@ -892,3 +892,28 @@ table.data .num, table.data td.num, table.data th.num { text-align: right; font-
 .toc__toggle { min-width: 0; max-width: 100%; }
 .toc__toggle > span:first-child { flex: none; }
 .toc__list a { overflow-wrap: anywhere; }
+
+/* ---------- 29. i18n hardening: CJK line breaking, tables, fractions ----------- */
+/* Latin words, numbers and formulas are never split in the middle; CJK text still wraps anywhere it may. */
+:root:is([lang="ja"], [lang="zh-Hant"]) :is(.mono, .unit, .chem__t, code, .num, sub, sup, .en-term) { word-break: keep-all; overflow-wrap: normal; }
+:root:is([lang="ja"], [lang="zh-Hant"]) .toc__list a, .toc__list a { overflow-wrap: break-word; }
+/* Japanese headings break between phrases where the browser can do it (Chromium 119+); elsewhere wrap
+   a phrase that must stay together in <span class="nowrap">…</span>. */
+:root[lang="ja"] :is(h1, h2, h3, h4, .cell__name, .lede) { word-break: auto-phrase; }
+/* Wide tables: keep columns readable and let the table scroll inside its own box on a phone. */
+.table-scroll > table.data:has(thead th:nth-child(4)) { min-width: 34rem; }
+.table-scroll > table.data:has(thead th:nth-child(6)) { min-width: 44rem; }
+table.data tbody th { min-width: 6.5em; }
+:root:is([lang="ja"], [lang="zh-Hant"]) table.data :is(th, td) { word-break: normal; overflow-wrap: break-word; line-height: 1.6; }
+:root:is([lang="ja"], [lang="zh-Hant"]) table.data tbody th { min-width: 5.5em; word-break: keep-all; }
+.table-scroll { scrollbar-width: thin; }
+/* Fractions made of words wrap inside the available width instead of pushing the page wider. */
+.frac { max-width: 100%; }
+.frac > * { white-space: normal; overflow-wrap: break-word; min-width: 0; }
+.eq__formula:has(.frac) { white-space: normal; }
+.worked__math .frac { white-space: normal; text-indent: 0; }
+/* Element names in CJK: rare characters (Db, Sg, Bh, Hs, Ts, Og …) fall back through wider system fonts. */
+:root[lang="zh-Hant"] { --font-cjk-rare: "Noto Sans TC", "PingFang TC", "PingFang HK", "Microsoft JhengHei", "MingLiU-ExtB", "PMingLiU-ExtB", "Noto Sans CJK TC", "Noto Serif CJK TC", "Source Han Sans TC", "HanaMinA", "HanaMinB", sans-serif; }
+:root[lang="ja"] { --font-cjk-rare: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", "Noto Sans CJK JP", "Source Han Sans JP", sans-serif; }
+.el-name { font-family: var(--font-cjk-rare, inherit); }
+.guiding__q { display: inline; }
