@@ -852,7 +852,7 @@ S1.i18n.register('ja', 's3-2h', {
     "Think of a class photograph. Students in the front row have different neighbours from students in the back row. In a molecule, hydrogen atoms also sit in different surroundings.": "クラス写真を思い浮かべてください。前の列の生徒と後ろの列の生徒では、まわりにいる人が違います。分子の中の水素原子も、それぞれ違う環境に置かれています。",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "Proton nuclear magnetic resonance spectroscopy, <dfn><sup>1</sup>H NMR</dfn>, detects the hydrogen atoms in a molecule. It gives one signal for each different surrounding.": "プロトン核磁気共鳴分光法、<dfn><sup>1</sup>H NMR <span class=\"en-term\">(proton nuclear magnetic resonance spectroscopy)</span></dfn> は、分子の中の水素原子を検出します。違う環境 1 つにつき、シグナルが 1 つ出ます。",
+    "Proton nuclear magnetic resonance spectroscopy, <dfn><sup>1</sup>H NMR</dfn>, detects the hydrogen atoms in a molecule. It gives one signal for each different surrounding.": "プロトン核磁気共鳴分光法 (proton nuclear magnetic resonance spectroscopy)、略して<dfn>プロトン NMR <span class=\"en-term\">(<sup>1</sup>H NMR)</span></dfn> は、分子の中の水素原子を検出します。違う環境 1 つにつき、シグナルが 1 つ出ます。",
 
     // Proton NMR: signals, chemical shifts and areas > p
     "A <dfn>chemical environment</dfn> is the set of atoms and bonds around a hydrogen atom. Hydrogen atoms with exactly the same surroundings are called equivalent. They are in the same environment.": "<dfn>化学的環境 <span class=\"en-term\">(chemical environment)</span></dfn>とは、ある水素原子のまわりにある原子と結合の全体のことです。まわりがまったく同じ水素原子どうしを、等価 (equivalent) であるといいます。等価な水素原子は同じ環境にあります。",
@@ -1047,7 +1047,7 @@ S1.i18n.register('ja', 's3-2h', {
     "Splitting is caused by the hydrogen atoms on the neighbouring carbon atoms. So the splitting pattern of a signal tells you what is next to that group.": "分裂の原因は、隣の炭素原子に付いた水素原子です。だから、シグナルの分裂パターン (splitting pattern) から、その基の隣に何があるかがわかります。",
 
     // Proton NMR: splitting patterns > key idea > p
-    "If there are <i>n</i> hydrogen atoms on the neighbouring carbon atoms, the signal is split into <i>n</i> + 1 peaks. This is often called the <i>n</i> + 1 rule.": "隣の炭素原子に水素原子が <i>n</i> 個付いていると、シグナルは <i>n</i> + 1 本のピークに分裂します。これをよく <i>n</i> + 1 則（<i>n</i> + 1 rule）といいます。",
+    "If there are <i>n</i> hydrogen atoms on the neighbouring carbon atoms, the signal is split into <i>n</i> + 1 peaks. This is often called the <i>n</i> + 1 rule.": "隣の炭素原子に水素原子が <i>n</i> 個付いていると、シグナルは <i>n</i> + 1 本のピークに分裂します。これをよく <i>n</i> + 1 則 (n + 1 rule) といいます。",
 
     // Proton NMR: splitting patterns > table > caption
     "The four splitting patterns you need": "必要な 4 つの分裂パターン",
@@ -1418,10 +1418,10 @@ S1.i18n.register('ja', 's3-2h', {
     "The splitting shows what each group is next to.": "分裂から、それぞれの基の隣に何があるかがわかります。",
 
     // Combining the techniques > worked example > maths line
-    "6 H, triplet, 1.0 ppm → two equivalent CH<sub>3</sub> groups, each next to a CH<sub>2</sub>": "6 H、三重線、1.0 ppm → 等価な CH<sub>3</sub> 基が 2 つ。どちらも CH<sub>2</sub> の隣",
+    "6 H, triplet, 1.0 ppm → two equivalent CH<sub>3</sub> groups, each next to a CH<sub>2</sub>": "6 H、三重線、1.0 ppm → 等価な CH<sub>3</sub> 基が二つ。どちらも CH<sub>2</sub> の隣",
 
     // Combining the techniques > worked example > maths line
-    "4 H, quartet, 2.4 ppm → two equivalent CH<sub>2</sub> groups, each next to a CH<sub>3</sub> and next to C=O (2.2–2.7 ppm)": "4 H、四重線、2.4 ppm → 等価な CH<sub>2</sub> 基が 2 つ。どちらも CH<sub>3</sub> の隣で、C=O の隣 (2.2–2.7 ppm)",
+    "4 H, quartet, 2.4 ppm → two equivalent CH<sub>2</sub> groups, each next to a CH<sub>3</sub> and next to C=O (2.2–2.7 ppm)": "4 H、四重線、2.4 ppm → 等価な CH<sub>2</sub> 基が二つ。どちらも CH<sub>3</sub> の隣で、C=O の隣 (2.2–2.7 ppm)",
 
     // Combining the techniques > worked example > maths line
     "<b>X is pentan-3-one, CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub>.</b>": "<b>X は pentan-3-one、CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub> です。</b>",
