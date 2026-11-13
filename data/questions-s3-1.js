@@ -149,7 +149,7 @@
     options: ['Tin is in the p-block.', 'Tin is a transition element.', 'Tin is a metal.', 'Tin is in group 4.', 'Tin is in period 5.'],
     answer: [0, 2, 4],
     misconception: {
-      1: 'The transition elements are in the d-block (groups 3 to 12). Tin is in group 14. Not every metal is a transition element.',
+      1: 'The transition elements are in the d-block. Tin is in group 14, which is in the p-block. Not every metal is a transition element.',
       3: 'Groups are numbered from 1 to 18. Tin has four valence electrons, but it is in group 14. Group 4 starts with titanium.'
     },
     hints: ['Find Sn in the data booklet. Read its row (period) and its column (group).', 'Groups 13 to 18 are the p-block. The lower part of the p-block contains metals.'],
@@ -371,7 +371,7 @@
       3: 'From Cl to Br to I the values become <em>less</em> negative: −349, −325, −295. Less energy is released.'
     },
     hints: ['A more negative value means more energy is released.', 'Compare the size of the numbers from Cl down to I.'],
-    solution: '<p>From chlorine to iodine the values change from −349 to −325 to −295 ' + KJ + '. They become less negative, so <strong>less energy is released</strong>.</p><p>Explanation: down the group, the added electron enters a higher energy level. It is further from the nucleus and more shielded, so it is attracted less strongly.</p><p>Fluorine does not follow the pattern. Its atom is very small, so the added electron is repelled more by the electrons already there.</p>'
+    solution: '<p>From chlorine to iodine the values change from −349 to −325 to −295 ' + KJ + '. They become less negative, so <strong>less energy is released</strong>.</p><p>Explanation: down the group, the added electron enters a higher energy level. It is further from the nucleus and more shielded, so it is attracted less strongly.</p><p>Fluorine does not follow the pattern. Its atom is very small, so the added electron is repelled more by the electrons already there. You do not need to explain this exception.</p>'
   },
   {
     id: 's3-1-q018', level: 'sl', tier: 'challenge', type: 'short', marks: 3,
@@ -531,10 +531,10 @@
     id: 's3-1-q028', level: 'sl', tier: 'challenge', type: 'short', marks: 3,
     syllabus: 'Structure 3.1.5',
     stem: '<p>Some coal contains sulfur. When the coal burns, the sulfur also burns. Explain how this leads to acid rain. Include two equations with state symbols.</p>',
-    answer: '<p>The sulfur burns to form sulfur dioxide, a gaseous non-metal oxide:</p>' + math([ch('S(s) + O2(g) -> SO2(g)')]) + '<p>Sulfur dioxide is an acidic oxide. It reacts with water in the atmosphere to form an acid:</p>' + math([ch('SO2(g) + H2O(l) -> H2SO3(aq)')]) + '<p>The acid lowers the pH of the rain. (Sulfur dioxide can also be oxidized in the air to ' + ch('SO3') + ', which reacts with water to form sulfuric acid: ' + ch('SO3(g) + H2O(l) -> H2SO4(aq)') + '.)</p>',
+    answer: '<p>The sulfur burns to form sulfur dioxide, a gaseous non-metal oxide:</p>' + math([ch('S(s) + O2(g) -> SO2(g)')]) + '<p>Sulfur dioxide is an acidic oxide. It reacts with water in the atmosphere to form an acid:</p>' + math([ch('SO2(g) + H2O(l) <=> H2SO3(aq)')]) + '<p>The acid lowers the pH of the rain. (Sulfur dioxide can also be oxidized in the air to ' + ch('SO3') + ', which reacts with water to form sulfuric acid: ' + ch('SO3(g) + H2O(l) -> H2SO4(aq)') + '.)</p>',
     markscheme: [
       ch('S(s) + O2(g) -> SO2(g)'),
-      ch('SO2(g) + H2O(l) -> H2SO3(aq)') + ' (accept ⇌; accept ' + ch('SO3(g) + H2O(l) -> H2SO4(aq)') + ').',
+      ch('SO2(g) + H2O(l) <=> H2SO3(aq)') + ' (accept →; accept ' + ch('SO3(g) + H2O(l) -> H2SO4(aq)') + ').',
       'Sulfur dioxide is an acidic (non-metal) oxide that dissolves in / reacts with rain water to form an acid, so the pH of the rain is lowered.'
     ],
     hints: ['First equation: sulfur burning in oxygen.', 'Second equation: the oxide reacting with water. A non-metal oxide and water form an acid.', 'Finish by saying what the acid does to the rain.']
@@ -556,7 +556,7 @@
       2: 'The oxide is acidic, but this equation is not balanced: 3 oxygen atoms on the left and 4 on the right. Compare with ' + ch('SO2') + ', which forms ' + ch('H2SO3') + '.'
     },
     hints: ['Is selenium a metal or a non-metal? Use its group.', 'Use the reaction of ' + ch('SO2') + ' with water as your model.', 'Check that the equation you choose is balanced.'],
-    solution: '<p>Elements in the same group have similar chemical properties. Sulfur dioxide is an acidic non-metal oxide:</p>' + math([ch('SO2(g) + H2O(l) -> H2SO3(aq)')]) + '<p>Selenium is also a non-metal in group 16, so ' + ch('SeO2') + ' should react in the same way:</p>' + math([ch('SeO2(s) + H2O(l) -> H2SeO3(aq)')]) + '<p>Check: Se 1 = 1; O 3 = 3; H 2 = 2. The solution is acidic.</p>'
+    solution: '<p>Elements in the same group have similar chemical properties. Sulfur dioxide is an acidic non-metal oxide:</p>' + math([ch('SO2(g) + H2O(l) <=> H2SO3(aq)')]) + '<p>Selenium is also a non-metal in group 16, so ' + ch('SeO2') + ' should react in the same way:</p>' + math([ch('SeO2(s) + H2O(l) -> H2SeO3(aq)')]) + '<p>Check: Se 1 = 1; O 3 = 3; H 2 = 2. The solution is acidic.</p>'
   },
 
   /* ======================= Structure 3.1.6 (SL) ============================ */
@@ -1052,6 +1052,25 @@
       '<i>f</i> = (' + sci('3.00', 8) + ' m s<sup>' + MINUS + '1</sup>) ÷ (' + sci('4.24', -7) + ' m)',
       '= <b>' + sci('7.08', 14) + ' Hz</b> &nbsp; (3 s.f.)'
     ]) + '<p>(Using 400 nm gives ' + sci('7.50', 14) + ' Hz. That is the highest frequency in the range.)</p>'
+  },
+  {
+    id: 's3-1-q062', level: 'sl', tier: 'exam', type: 'mcq', marks: 1,
+    syllabus: 'Structure 3.1.5',
+    stem: '<p>Carbon dioxide dissolves in water and reacts with it. Which equation shows this reaction?</p>',
+    options: [
+      ch('CO2(g) + 2H2O(l) -> C(OH)4(aq)'),
+      ch('CO2(g) + H2O(l) <=> H2CO3(aq)'),
+      ch('CO2(g) + H2O(l) <=> H2CO4(aq)'),
+      ch('CO2(g) + H2O(l) -> CO(g) + H2O2(aq)')
+    ],
+    answer: 1,
+    misconception: {
+      0: 'Hydroxides form when the oxide of a group 1 or group 2 metal reacts with water. Carbon is a non-metal, so its oxide is acidic and forms an acid.',
+      2: 'This equation is not balanced: there are 3 oxygen atoms on the left and 4 on the right. Add the atoms of the oxide and the water to get the formula of the acid.',
+      3: 'Carbon dioxide does not take oxygen from water or give oxygen to it. A non-metal oxide and water combine to form one product, an acid.'
+    },
+    hints: ['Carbon is a non-metal. Is its oxide basic or acidic?', 'Non-metal oxide + water → acid. Add the atoms of ' + ch('CO2') + ' and ' + ch('H2O') + ' together.'],
+    solution: '<p>Carbon dioxide is an acidic non-metal oxide. It reacts with water to form carbonic acid:</p>' + math([ch('CO2(g) + H2O(l) <=> H2CO3(aq)')]) + '<p>Check: C 1 = 1; O 2 + 1 = 3; H 2 = 2. The reaction is reversible. The solution is weakly acidic. This reaction is the cause of ocean acidification.</p>'
   }
 
   ]);

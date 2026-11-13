@@ -313,9 +313,13 @@
     var whichSeg = null;
 
     function groupsAllowed() {
+      // Only groups whose booklet values can be compared fairly. Left out: groups where the
+      // first-listed ions have different charges (14, 15), and groups 13 and 14 where the
+      // values are irregular for reasons outside the syllabus.
       if (prop === 'ea') return [1, 16, 17];
-      if (prop === 'en' || prop === 'ion') return [1, 2, 13, 14, 15, 16, 17];
-      return [1, 2, 13, 14, 15, 16, 17, 18];
+      if (prop === 'ion') return [1, 2, 13, 16, 17];
+      if (prop === 'en') return [1, 2, 15, 16, 17];
+      return [1, 2, 14, 15, 16, 17, 18];
     }
     function fixChoice() {
       var ga = groupsAllowed();
@@ -457,6 +461,17 @@
         if (guess === exp) askFb.show('ok', p(t('Your prediction is right: {ans}.', { ans: ansLabel(exp) })));
         else askFb.show('bad', p(t('Not quite. The answer is: {ans}. Look at the graph, then build the explanation below.', { ans: ansLabel(exp) })));
       } else askFb.show('info', p(t('The answer is: {ans}.', { ans: ansLabel(exp) })));
+      // Be honest about the data: list any step that goes against the general trend.
+      if (exp !== 'mixed') {
+        var wantUp = exp === 'up' || exp === 'pos', against = [], ties = false;
+        for (var i = 1; i < s.length; i++) {
+          var dv = s[i].value - s[i - 1].value;
+          if (dv === 0) ties = true;
+          else if ((dv > 0) !== wantUp) against.push(s[i - 1].name + ' ' + numTxt(s[i - 1].value, prop) + ' → ' + s[i].name + ' ' + numTxt(s[i].value, prop));
+        }
+        if (against.length) askFb.el.innerHTML += p(t('This is the general trend. The data booklet values are not perfectly regular. Going the other way: {list}. You only need to explain the general trend.', { list: against.join('; ') }));
+        else if (ties) askFb.el.innerHTML += p(t('This is the general trend. Some neighbouring values in the data booklet are equal, because they are rounded.'));
+      }
       chartHost.hidden = false;
       var vs = s.map(function (d) { return d.value; });
       var spec = {
@@ -979,9 +994,9 @@
       setD(d3 === 0 ? t('empty (3d<sup>0</sup>)') : d3 === 10 ? t('full (3d<sup>10</sup>)') : t('partially filled (3d<sup>{n}</sup>)', { n: d3 }));
       if (c === 0) setNote(t('This is the atom. Choose which sublevel loses the first electron.'));
       else if (inProgress) setNote(t('One 4s electron is still there. Common ions of this element have lost both 4s electrons. Remove it before you read the configuration.'));
-      else if (d3 === 0) setNote(t('The d sublevel is empty. There is no d electron to promote, so compounds of this ion are not coloured.'));
-      else if (d3 === 10) setNote(t('The d sublevel is full. There is no space in the higher d orbitals for a promoted electron, so compounds of this ion are not coloured.'));
-      else setNote(t('The d sublevel is incomplete. This ion can form coloured compounds.'));
+      else if (d3 === 0) setNote(t('The d sublevel is empty. There is no d electron to promote between d orbitals, so this ion cannot absorb visible light in that way. This is why compounds of Sc<sup>3+</sup> are colourless.'));
+      else if (d3 === 10) setNote(t('The d sublevel is full. There is no space in the higher d orbitals for a promoted electron, so this ion cannot absorb visible light in that way. This is why solutions of Zn<sup>2+</sup> compounds are colourless.'));
+      else setNote(t('The d sublevel is partially filled. An electron can be promoted between d orbitals, so this ion can form coloured complexes.'));
     }
     w.onTheme(draw);
     resetAtom();
