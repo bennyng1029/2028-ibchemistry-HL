@@ -280,7 +280,7 @@
       s += '<text x="' + Rr + '" y="' + (B + 24) + '" text-anchor="end" ' + tx + ' fill="var(--ink)" font-weight="600">' + g.x + '</text>';
       if (shape === 'offset') s += '<text x="' + (L - 4) + '" y="' + (B + 13) + '" ' + tx + '>' + MINUS + '273.15</text>';
     } else if (shape === 'offset') {
-      s += '<text x="' + (L - 2) + '" y="' + (B + 13) + '" ' + tx + '>' + t('negative') + '</text>';
+      s += '<text x="' + (L - 2) + '" y="' + (B + 25) + '" ' + tx + '>' + t('negative') + '</text>';
     }
     return s + '</svg>';
   }
@@ -380,6 +380,7 @@
     var setCheck = w.readoutItem(t('Unit check'), { text: true });
 
     function show(key, on) { F[key].row.hidden = !on; }
+    function raw(key) { var p = chem.parseNumber(F[key].inp.value); return p && /^[\d.]+$/.test(F[key].inp.value.trim()) ? F[key].inp.value.trim() : tidy(p ? p.value : NaN, 7); }
     function val(key) { var p = chem.parseNumber(F[key].inp.value); return p ? p.value : NaN; }
     function line(html) { return '<div class="worked__math">' + html + '</div>'; }
     function already(unitHtml) { return ' ' + t('(already in {unit})', { unit: unitHtml }); }
@@ -399,15 +400,15 @@
       if (u !== 'P') {
         var p0 = val('P'), pUnit = F.P.sel.value;
         if (!(p0 > 0)) errs.push(t('Enter a pressure greater than zero.'));
-        if (pUnit === 'kPa') { P = kset ? p0 : p0 * 1000; conv.push(kset ? SYM.P + ' = ' + tidy(p0) + ' kPa' + already('kPa') : SYM.P + ' = ' + tidy(p0) + ' kPa ' + TIMES + ' 1000 = ' + tidy(P) + ' Pa'); }
-        else { P = kset ? p0 / 1000 : p0; conv.push(kset ? SYM.P + ' = ' + tidy(p0) + ' Pa ÷ 1000 = ' + tidy(P) + ' kPa' : SYM.P + ' = ' + tidy(p0) + ' Pa' + already('Pa')); }
+        if (pUnit === 'kPa') { P = kset ? p0 : p0 * 1000; conv.push(kset ? SYM.P + ' = ' + raw('P') + ' kPa' + already('kPa') : SYM.P + ' = ' + raw('P') + ' kPa ' + TIMES + ' 1000 = ' + tidy(P) + ' Pa'); }
+        else { P = kset ? p0 / 1000 : p0; conv.push(kset ? SYM.P + ' = ' + raw('P') + ' Pa ÷ 1000 = ' + tidy(P) + ' kPa' : SYM.P + ' = ' + raw('P') + ' Pa' + already('Pa')); }
       }
       if (u !== 'V') {
         var v0 = val('V'), vUnit = F.V.sel.value, dm; Vraw = v0;
         if (!(v0 > 0)) errs.push(t('Enter a volume greater than zero.'));
         dm = vUnit === 'cm3' ? v0 / 1000 : vUnit === 'm3' ? v0 * 1000 : v0; vCm = vUnit === 'cm3';
         V = kset ? dm : dm / 1000;
-        var vt = SYM.V + ' = ' + tidy(v0) + ' ' + U(vUnit);
+        var vt = SYM.V + ' = ' + raw('V') + ' ' + U(vUnit);
         if (kset) vt += vUnit === 'cm3' ? ' ÷ 1000 = ' + tidy(V) + ' ' + DM3 : vUnit === 'm3' ? ' ' + TIMES + ' 1000 = ' + tidy(V) + ' ' + DM3 : already(DM3);
         else vt += vUnit === 'cm3' ? ' ÷ 10<sup>6</sup> = ' + tidy(V) + ' ' + M3 : vUnit === 'dm3' ? ' ÷ 1000 = ' + tidy(V) + ' ' + M3 : already(M3);
         conv.push(vt);
@@ -417,7 +418,7 @@
         T = tC ? t0 + K0 : t0;
         if (!isFinite(t0)) errs.push(t('Enter a temperature.'));
         else if (!(T > 0)) errs.push(t('The temperature must be above absolute zero (0 K, {T} °C).', { T: MINUS + '273.15' }));
-        conv.push(tC ? SYM.T + ' = ' + tidy(t0) + ' °C + 273.15 = ' + tidy(T, 7) + ' K' : SYM.T + ' = ' + tidy(t0, 7) + ' K' + already('K'));
+        conv.push(tC ? SYM.T + ' = ' + raw('T').replace('-', MINUS) + ' °C + 273.15 = ' + tidy(T, 7) + ' K' : SYM.T + ' = ' + raw('T') + ' K' + already('K'));
       }
       var needM = (needAmount && aAs === 'm') || u === 'm', formula = F.formula.inp.value.trim();
       if (needM) {
@@ -433,7 +434,7 @@
       if (needAmount && aAs === 'm') {
         n = m / M;
         conv.push(Mline());
-        conv.push(SYM.n + ' = ' + SYM.m + ' ÷ ' + SYM.M + ' = ' + tidy(m) + ' g ÷ ' + chem.fixed(M, 2) + ' ' + GMOL + ' = ' + tidy(n, 5) + ' mol');
+        conv.push(SYM.n + ' = ' + SYM.m + ' ÷ ' + SYM.M + ' = ' + raw('m') + ' g ÷ ' + chem.fixed(M, 2) + ' ' + GMOL + ' = ' + tidy(n, 5) + ' mol');
       }
       var Rt = '8.31 ' + Ru, re = [], sub = [], ans, ansHtml, extra = '';
       var Pt = function () { return tidy(P) + ' ' + pu; }, Vt = function () { return tidy(V) + ' ' + vu; }, Tt = function () { return tidy(T, 7) + ' K'; }, nt = function () { return tidy(n, 5) + ' mol'; };
@@ -461,7 +462,7 @@
         }
         if (u === 'M') {
           ans = m / n; re.push(t('then {eq} (the same as {eq2})', { eq: '<i>M</i> = <i>m</i> ÷ <i>n</i>', eq2: '<i>M</i> = <i>mRT</i> ÷ <i>PV</i>' }));
-          sub.push('<i>M</i> = ' + tidy(m) + ' g ÷ ' + tidy(n, 5) + ' mol');
+          sub.push('<i>M</i> = ' + raw('m') + ' g ÷ ' + tidy(n, 5) + ' mol');
           ansHtml = chem.fmt(ans, 3) + ' ' + GMOL;
         }
       }

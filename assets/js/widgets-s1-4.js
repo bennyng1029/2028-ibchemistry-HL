@@ -185,7 +185,7 @@
     var YEAR = 365.25 * 24 * 3600, UNIVERSE_YR = 13.8e9, PEOPLE = 8e9;
     var sub = w.select({ label: t('Substance'), options: SUBST.map(function (s, i) { return { value: i, label: t('{name} ({formula})', { name: s.name, formula: subDigits(s.f) }) }; }), value: 0, onChange: update });
     var mass = w.slider({ label: t('Mass of sample'), min: 0.1, max: 100, step: 0.1, value: 18, unit: 'g', onInput: update });
-    var svg = w.svg('0 0 380 172', { label: t('Number line on a powers-of-ten scale from 1 to 10 to the power 24, marking the number of people on Earth, the number of seconds since the Big Bang, one mole, and the number of particles in your sample') });
+    var svg = w.svg('0 0 380 184', { label: t('Number line on a powers-of-ten scale from 1 to 10 to the power 24, marking the number of people on Earth, the number of seconds since the Big Bang, one mole, and the number of particles in your sample') });
     svg.classList.add('mole-svg');
     var facts = el('ul', { class: 'mole-facts' }); w.stage.appendChild(facts);
     var setM = w.readoutItem(t('Molar mass')), setN = w.readoutItem(t('Amount')), setP = w.readoutItem(t('Particles')), setA = w.readoutItem(t('Inside them'));
@@ -215,11 +215,11 @@
       mark(NA, t('one mole'), '6.02 × 10²³', 62, 'end', true);
       // the sample, below the axis
       var xs = X(N);
-      svg.appendChild(sv('path', { d: 'M' + xs + ' ' + (Y + 8) + ' l-6 12 h12 z', fill: 'var(--ink)' }));
-      svg.appendChild(sv('line', { x1: xs, y1: Y + 20, x2: xs, y2: Y + 40, stroke: 'var(--ink)', 'stroke-width': 1.5 }));
-      svg.appendChild(sv('text', { x: Math.min(Math.max(xs, 110), 270), y: Y + 54, 'text-anchor': 'middle', class: 'mole-svg__label' },
+      svg.appendChild(sv('path', { d: 'M' + xs + ' ' + (Y + 26) + ' l-6 12 h12 z', fill: 'var(--ink)' }));
+      svg.appendChild(sv('line', { x1: xs, y1: Y + 38, x2: xs, y2: Y + 50, stroke: 'var(--ink)', 'stroke-width': 1.5 }));
+      svg.appendChild(sv('text', { x: Math.min(Math.max(xs, 110), 270), y: Y + 64, 'text-anchor': 'middle', class: 'mole-svg__label' },
         s.kind === 'molecule' ? t('your sample: number of molecules') : s.kind === 'atom' ? t('your sample: number of atoms') : t('your sample: number of formula units')));
-      svg.appendChild(sv('text', { x: X0, y: Y + 72, class: 'mole-svg__small' }, t('Each big tick is 1000 times the one before.')));
+      svg.appendChild(sv('text', { x: X0, y: Y + 83, class: 'mole-svg__small' }, t('Each big tick is 1000 times the one before.')));
     }
     function update() {
       var s = SUBST[Number(sub.value)], pf = parseFormula(s.f), m = mass.value, n = m / pf.M, N = n * NA;

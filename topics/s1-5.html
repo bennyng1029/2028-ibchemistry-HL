@@ -13,6 +13,10 @@
 <link rel="stylesheet" href="../assets/css/site.css">
 <style>
 /* Page-specific pieces for the 1.5 widgets. Tokens only. */
+/* Workaround: the mobile section nav is a grid item and its nowrap label can widen the page. */
+.toc { min-width: 0; }
+.topic-section { min-width: 0; }
+.topic-section > .widget { min-width: 0; max-width: 100%; }
 .widget__controls .control { max-width: 100%; }
 .widget__controls .select { max-width: 100%; min-width: 0; }
 .g5-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(10.5rem, 1fr)); gap: 0.75rem; }
@@ -23,8 +27,9 @@
 .g5-svg { display: block; width: 100%; height: auto; max-width: 15rem; }
 .g5-lead { margin: 0 0 0.75rem; font-size: 0.95rem; }
 .g5-rows { list-style: none; margin: 0 0 1rem; padding: 0; border-top: 1px solid var(--line); }
-.g5-rows > li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0.3rem 0.75rem; align-items: center; padding: 0.55rem 0; border-bottom: 1px solid var(--line); margin: 0; }
+.g5-rows > li { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 9.5rem); gap: 0.3rem 0.75rem; align-items: center; padding: 0.55rem 0; border-bottom: 1px solid var(--line); margin: 0; }
 .g5-rows label { font-size: 0.95rem; }
+.g5-rows .select { width: 100%; min-width: 0; }
 .g5-mark { grid-column: 1 / -1; font-size: 0.86rem; color: var(--ink-2); }
 .g5-mark:empty { display: none; }
 .g5-mark--ok { color: var(--ink); border-left: 3px solid var(--ok); padding-left: 0.5rem; }
@@ -108,9 +113,9 @@
       </section>
 
       <!-- ================================================= 1.5.2 -->
-      <section class="topic-section" id="real">
+      <section class="topic-section" id="real" data-toc="Real gases">
         <span class="section-code">Structure 1.5.2</span>
-        <h2 data-toc="Real gases">Real gases and the limits of the model</h2>
+        <h2>Real gases and the limits of the model</h2>
         <p>Cool steam and it turns into liquid water. An ideal gas could never do that, because its particles do not attract each other. So real gases cannot be exactly ideal.</p>
         <p>A <dfn data-def="An actual gas. Its particles have a volume of their own and attract each other, so it does not follow the ideal gas model exactly.">real gas</dfn> breaks two of the assumptions. Its particles do have some volume, and they do attract each other. Under most conditions both effects are tiny. Under two conditions they are not.</p>
 
@@ -149,9 +154,9 @@
       </section>
 
       <!-- ================================================= 1.5.3 molar volume -->
-      <section class="topic-section" id="molar-volume">
+      <section class="topic-section" id="molar-volume" data-toc="Molar volume at STP">
         <span class="section-code">Structure 1.5.3</span>
-        <h2 data-toc="Molar volume at STP">Molar volume of an ideal gas</h2>
+        <h2>Molar volume of an ideal gas</h2>
         <p>Picture a box a little under 30 cm along each side, about the space taken up by four footballs. At 0 °C and 100 kPa, that box holds one mole of gas. It does not matter which gas.</p>
         <p>This follows from Avogadro’s law, which you met in Structure 1.4: equal volumes of gases at the same temperature and pressure contain equal numbers of molecules. Turn it around: equal numbers of molecules occupy equal volumes.</p>
         <p>The <dfn data-def="The volume occupied by one mole of an ideal gas. It is a constant at a specific temperature and pressure.">molar volume</dfn>, <i>V</i><sub>m</sub>, is the volume of one mole of an ideal gas. It is a constant at a specific temperature and pressure.</p>
@@ -245,9 +250,9 @@
       </section>
 
       <!-- ================================================= 1.5.3 relationships and graphs -->
-      <section class="topic-section" id="graphs">
+      <section class="topic-section" id="graphs" data-toc="P, V and T graphs">
         <span class="section-code">Structure 1.5.3</span>
-        <h2 data-toc="P, V and T graphs">How pressure, volume and temperature are related</h2>
+        <h2>How pressure, volume and temperature are related</h2>
         <p>Push the plunger of a sealed syringe and it pushes back harder. Leave a football outside on a cold night and it goes soft. These are the relationships in this section.</p>
         <p>A gas sample is described by four variables: pressure <i>P</i>, volume <i>V</i>, temperature <i>T</i> and amount <i>n</i>. To see how two of them are related, you hold the others constant. A <dfn data-def="A sample in which the amount of gas, n, does not change. No gas enters or leaves.">fixed mass</dfn> of gas means <i>n</i> is constant.</p>
 
@@ -401,9 +406,9 @@
       </section>
 
       <!-- ================================================= 1.5.4 PV = nRT -->
-      <section class="topic-section" id="pvnrt">
+      <section class="topic-section" id="pvnrt" data-toc="PV = nRT">
         <span class="section-code">Structure 1.5.4</span>
-        <h2 data-toc="PV = nRT">The ideal gas equation</h2>
+        <h2>The ideal gas equation</h2>
         <p>The combined gas law compares a gas before and after a change. Often you have only one set of conditions and want to know how much gas is there. For that you need the <dfn data-def="PV = nRT: the equation linking the pressure, volume, amount and temperature of an ideal gas.">ideal gas equation</dfn>.</p>
 
         <div class="eq">
@@ -597,9 +602,9 @@
       </section>
 
       <!-- ================================================= 1.5.4 molar mass -->
-      <section class="topic-section" id="molar-mass">
+      <section class="topic-section" id="molar-mass" data-toc="Molar mass from gas data">
         <span class="section-code">Structure 1.5.4</span>
-        <h2 data-toc="Molar mass from gas data">Molar mass of a gas from experimental data</h2>
+        <h2>Molar mass of a gas from experimental data</h2>
         <p>You have an unknown liquid that evaporates easily. Inject a weighed drop into a warm gas syringe and it turns to vapour. Read the volume, the temperature and the pressure, and you can work out its molar mass.</p>
         <p>The idea has two links. The gas equation gives the amount, <i>n</i>. Then molar mass is mass divided by amount.</p>
 

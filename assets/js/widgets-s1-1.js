@@ -391,7 +391,7 @@
 
       /* plateau labels */
       ctx.fillStyle = ink; ctx.font = body; ctx.textAlign = 'left';
-      ctx.fillText(t('melting'), X(HC.cum[1]) + 2, Y(0) + 17);
+      ctx.fillText(t('melting'), X(HC.cum[2]) + 6, Y(0) + 16);
       ctx.fillText(t('boiling'), X(HC.cum[3]) + 14, Y(100) - 8);
 
       /* cursor */

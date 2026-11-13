@@ -135,7 +135,7 @@
     var setCmp = w.readoutItem(t('Compared with red light (700 nm)'), { text: true });
     var setH = w.readoutItem(t('Hydrogen at this wavelength'), { text: true });
     var slider = w.slider({ label: t('Wavelength'), min: 400, max: 700, step: 1, value: 656, unit: 'nm', onInput: update });
-    var cv = w.canvas({ height: 236, label: t('Two spectra on the same wavelength scale from 400 to 700 nanometres. The top strip is a continuous spectrum: an unbroken band of colour from violet to red. The bottom strip is the line emission spectrum of hydrogen: four separate bright lines at 410, 434, 486 and 656 nanometres on a dark background.') });
+    var cv = w.canvas({ height: 214, label: t('Two spectra on the same wavelength scale from 400 to 700 nanometres. The top strip is a continuous spectrum: an unbroken band of colour from violet to red. The bottom strip is the line emission spectrum of hydrogen: four separate bright lines at 410, 434, 486 and 656 nanometres on a dark background.') });
     cv.draw(function (ctx, W) {
       var F = fonts(w), ink = w.color('--ink'), ink3 = w.color('--ink-3'), band = w.color('--band-bg');
       var x0 = 8, x1 = W - 8, L0 = 390, L1 = 710;
@@ -309,7 +309,7 @@
       botItems.forEach(function (it, i) {
         var yb = sy + sh + 16 + rowsB[i] * 14, tx = Math.max(x0 + 14, Math.min(x1 - 14, it.x));
         ctx.strokeStyle = ink3; ctx.lineWidth = 1;
-        if (rowsB[i] > 0) { ctx.beginPath(); ctx.moveTo(it.x, sy + sh + 3); ctx.lineTo(it.x, yb - 11); ctx.stroke(); }
+        if (rowsB[i] > 0) { ctx.beginPath(); ctx.moveTo(it.x, sy + sh + 3); ctx.lineTo(it.x, sy + sh + 7); ctx.stroke(); }
         ctx.fillStyle = it.u === hi ? ink : ink3; ctx.font = F.mono(12, it.u === hi);
         ctx.fillText(it.text, tx, yb);
       });
@@ -379,7 +379,7 @@
       axis(back, 0, 0, 42, -42);            // x, far half
       axis(back, -70, 0, 70, 0);            // y
       axis(back, 0, 70, 0, -70);            // z
-      lab('y', 74, 14); lab('z', 10, -68); lab('x', -56, 62);
+      lab('y', 74, 14); lab('z', 18, -66); lab('x', -56, 62);
       function lobe(parent, cx, cy, rx, ry, rot) {
         svgEl('ellipse', { cx: cx, cy: cy, rx: rx, ry: ry, transform: 'rotate(' + rot + ')', fill: 'var(--accent-soft)', stroke: 'var(--accent)', 'stroke-width': 2, 'fill-opacity': 0.88 }, parent);
       }

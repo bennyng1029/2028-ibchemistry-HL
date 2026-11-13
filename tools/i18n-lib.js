@@ -32,7 +32,7 @@ function literalsIn(code) {
   while ((m = re.exec(code))) { const v = unquote(m[0]); if (v != null) out.push(v); }
   return out;
 }
-const NOISE = /^(data-[\w-]+|is-[\w-]+|aria-[\w-]+|ahl|sl|all|en|ja|zh-Hant|[a-z]+__[\w-]+|[.#\[][^ ]*|[a-z0-9]+(-[a-z0-9]+)+)$/;
+const NOISE = /^(data-[\w-]+|is-[\w-]+|aria-[\w-]+|ahl|sl|all|en|ja|zh-Hant|[a-z]+__[\w-]+|[.#\[].*|[a-z0-9]+(-[a-z0-9]+)+)$/;
 function scanSource(src) {
   const keys = new Set();
   const add = v => { v = norm(v); if (v && /[A-Za-z]{2}/.test(v) && !NOISE.test(v)) keys.add(v); };
