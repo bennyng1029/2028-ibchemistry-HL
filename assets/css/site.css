@@ -118,7 +118,10 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   scroll-behavior: smooth;
-  scroll-padding-top: 4.5rem;
+  /* Every scroll target (a link to #id, scrollIntoView, keyboard focus) stops below the sticky "On this page" bar
+     of narrow screens. core.js measures the bar into --toc-h, so a taller bar (Japanese, Chinese, enlarged text)
+     is still cleared; 4.5rem is the floor and the value without JavaScript. */
+  scroll-padding-top: max(4.5rem, calc(var(--toc-h, 0px) + 1.5rem));
 }
 
 body {
@@ -490,6 +493,9 @@ input[type="checkbox"], input[type="radio"] { accent-color: var(--accent); }
 }
 
 .topic-section { padding-block: 0.5rem 2.25rem; scroll-margin-top: 4.5rem; }
+/* Anything else that can be jumped to inside a topic (a sub-heading, a widget, a worked example, a table, any id)
+   lands with a little air under the bar, not flush against it. */
+.topic-content :is(h3, h4, figure, table, .widget, [data-s1-widget], [data-s1-quiz], .worked, .tryit, .callout, [id]):not(.topic-section) { scroll-margin-top: 0.75rem; }
 .topic-section + .topic-section { border-top: 1px solid var(--line); padding-top: 2.25rem; }
 .topic-section > h2 { margin-bottom: 0.9rem; }
 .topic-section h3 { margin-top: 1.9rem; }

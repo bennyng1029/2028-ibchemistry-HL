@@ -601,6 +601,13 @@ overlay files later (`docs/TRANSLATING.md`). Three rules keep your page translat
    Add `data-i18n` to a `div` or `span` that holds loose text which must be translated.
 3. **Mark what must never be translated** with `data-i18n="off"` (it applies to everything inside).
    `.chem`, `.unit`, `.eq__formula`, `.worked__math`, `code`, `pre`, `kbd`, `samp` are skipped already.
+   On a **block** (a `td`, a `div`, a drawing) it takes the whole block out of translation. On an **inline**
+   element inside a sentence (`span`, `b`, `i`, `sub` … with only text inside) it protects just that run:
+   the sentence is still one entry, the translator copies the run unchanged and the checker insists on it.
+   So write `<td><span data-i18n="off">–OH</span> and <span data-i18n="off">–COOH</span></td>`, not
+   `<td data-i18n="off">–OH and –COOH</td>`, when the cell also holds a word.
+   The `data-label` of a drawing (its text for screen readers) is an entry even when the drawing or the
+   cell around it is `data-i18n="off"`: pass it through `S1.t(label)` when you set `aria-label`.
    **Labels in an inline `<svg>` are translated**: every `<text>`, and every `<tspan>` of a `<text>` that
    is built from `<tspan>`s, is one entry, keyed by its text (shown to translators as "figure label").
    Symbols and formulas (`+`, `δ−`, `H`, `Cl`, `CH3`) are left alone; put `data-i18n="off"` on a `<text>`

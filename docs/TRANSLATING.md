@@ -74,6 +74,9 @@ S1.i18n.register('ja', 's1-4.q', {
   `data-correct`); widget strings (`t("…")`); question fields.
 - **What is never translated:** anything inside `data-i18n="off"`, `.chem`, `.unit`, `code`, `pre`, `kbd`,
   `samp`; lines of working with no words in them; numbers, answers and marking logic.
+  A sentence may contain a short protected run, `<span data-i18n="off">–COO–</span>`: the sentence is your
+  entry, and you copy the run exactly as it is, tag and contents. The `data-label` of a drawing (what a
+  screen reader says) is an entry even when the drawing itself is never translated.
 - **Shown in both languages** (English first, translation underneath), because the exam is in English:
   exam tips (`callout--exam`), model answers and markscheme points of written questions, the definition in
   a key-term tooltip (`data-def`, see "Tooltip definitions" in section 3), and any block a page author
@@ -125,7 +128,7 @@ an English sentence makes its translation stale. Replace `ja` with `zh-Hant` and
 **After the English changes**, top up without disturbing your work:
 
 ```
-node tools/i18n-extract.js s1-4 --lang ja --write --only-missing   # appends only the new entries
+node tools/i18n-extract.js s1-4 --lang ja --write --only-missing   # appends only the new entries (new questions and new slots of old ones too)
 node tools/i18n-check.js ja s1-4                                   # shows the stale entries to delete
 ```
 
@@ -138,6 +141,7 @@ translation, and moves entries whose English has gone to a `STALE` list at the e
 |---|---|
 | placeholders | Every `{name}` of the English is in the translation, and no others. You may move them. |
 | tags | The same tags as the English (`<strong>`, `<i>`, `<sub>`, `<a>`, `<span class="chem">` …). You may add only `<span class="en-term">…</span>` and `<span class="nowrap">…</span>`. |
+| protected parts | Every element marked `data-i18n="off"` in the English is in the translation, identical (tag, attributes and contents), the same number of times. |
 | formulas and units | The text inside every `.chem`, `.unit`, `<sub>` and `<sup>` is unchanged. A `.frac` made only of symbols is unchanged; a fraction made of words may be translated. |
 | links | Every `href` is unchanged. |
 | numbers | Every number in the English appears in the translation, written with ordinary digits (`0-9`, not full-width). Do not spell a numeral out. Numbers are read one piece of text at a time, between tags, and a full stop or comma that ends a sentence is not part of a number: in `… = 18.</p><p><sup>40</sup>K` the numbers are 18 and 40, so `18。` is fine. A decimal point inside a number stays half-width (`18.40`). A list such as `1,2` may be written `1、2`. |

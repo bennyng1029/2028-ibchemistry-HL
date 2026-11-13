@@ -589,6 +589,41 @@
     link.href = 'https://fonts.googleapis.com/css2?family=' + def.font + '&display=swap';
     doc.head.appendChild(link);
   }
+  /* Translated text is longer or shorter than the English, and widgets restart, so everything below moves when the
+     language is applied.  Keep the reader where she was: remember what is at the top of the window (the target of
+     the #link she arrived by, if that is still there, otherwise the first block in view) and put it back at the
+     same height afterwards.  Without this, opening s3-2.html#naming with Chinese selected landed somewhere else,
+     often with the heading under the sticky "On this page" bar.  Returns the function that restores the place. */
+  function holdPlace(onLoad) {
+    var node = null, top = 0, r, i, t = null, moved = false;
+    function userMoved() { moved = true; }
+    ['wheel', 'touchstart', 'keydown', 'mousedown'].forEach(function (ev) { window.addEventListener(ev, userMoved, { passive: true, once: true }); });
+    function instantly(fn) { var sb = html.style.scrollBehavior; html.style.scrollBehavior = 'auto'; fn(); html.style.scrollBehavior = sb; }
+    try {
+      var id = decodeURIComponent((window.location.hash || '').slice(1));
+      t = id ? doc.getElementById(id) : null;
+    } catch (e) { /* malformed hash */ }
+    if (onLoad) {
+      // The saved language is applied while the page is still loading.  The browser's own (smooth) scroll to the
+      // #target may not have started or may be half way, aimed at where the target was in English: go there ourselves.
+      if (!t) return function () {};
+      var go = function () { if (!moved && t.isConnected && t.offsetParent !== null) instantly(function () { t.scrollIntoView(); }); };
+      return function () { go(); window.setTimeout(go, 60); window.setTimeout(go, 400); window.setTimeout(go, 1200); };
+    }
+    if (t) { r = t.getBoundingClientRect(); if (r.top > -4 && r.top < window.innerHeight * 0.6) node = t; }
+    if (!node && window.pageYOffset > 0) {
+      var c = doc.querySelectorAll('main h2, main h3, main [data-i18n-src], main figure');
+      for (i = 0; i < c.length; i++) { r = c[i].getBoundingClientRect(); if (r.height && r.top >= 0) { if (r.top < window.innerHeight) node = c[i]; break; } }
+    }
+    if (!node) return function () {};
+    top = node.getBoundingClientRect().top;
+    function put() {
+      if (moved || !node.isConnected) return;
+      var d = node.getBoundingClientRect().top - top;
+      if (Math.abs(d) >= 1) instantly(function () { window.scrollBy(0, d); });
+    }
+    return function () { put(); window.setTimeout(put, 60); window.setTimeout(put, 400); };   // again after the widgets have restarted
+  }
   function syncLangControls() {
     Array.prototype.forEach.call(doc.querySelectorAll('[data-s1-lang-select]'), function (s) { s.value = lang; });
   }
@@ -604,12 +639,14 @@
       var wanted = S1.i18n._wanted = l;
       loadLang(l, function () {
         if (S1.i18n._wanted !== wanted) return;                 // a later choice won
+        var keep = holdPlace(!!(opts && opts.silent));
         lang = l;
         html.setAttribute('lang', l);
         loadFont(l);
         applyLang(doc);
         syncLangControls();
         util.emit('s1:langchange', { lang: l });
+        keep();
       });
     },
     /** Called by i18n/<lang>/<scope>.js:  S1.i18n.register('ja', 's1-1', {strings: {...}}) and, in s1-1.q.js,
@@ -946,6 +983,14 @@
     doc.addEventListener('s1:levelchange', spy);
     doc.addEventListener('s1:langchange', function () { if (currentId) mark(currentId); });
     spy();
+    // On narrow screens this nav is a bar that sticks to the top. Tell the CSS how tall the bar really is (it grows
+    // with the language, the font and the text size), so that scroll targets always land below it: site.css uses
+    // --toc-h in html { scroll-padding-top }.  On wide screens the toggle is not displayed and the height is 0.
+    function measure() { html.style.setProperty('--toc-h', (toggle.offsetHeight ? toggle.offsetHeight + 2 : 0) + 'px'); }
+    window.addEventListener('resize', measure, { passive: true });
+    doc.addEventListener('s1:langchange', function () { window.setTimeout(measure, 0); });
+    if (doc.fonts && doc.fonts.ready && doc.fonts.ready.then) doc.fonts.ready.then(measure);
+    measure();
   }
 
   /* ---------- Formatting: .chem, .unit, level badges ---------------------- */

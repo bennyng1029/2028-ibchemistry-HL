@@ -861,6 +861,9 @@ S1.i18n.register('zh-Hant', 's2-4', {
     "a diol and a dicarboxylic acid": "二醇 (diol) 和二羧酸 (dicarboxylic acid)",
 
     // Condensation polymers > table > Additional HL > td
+    "<span data-i18n=\"off\">–OH</span> and <span data-i18n=\"off\">–COOH</span>": "<span data-i18n=\"off\">–OH</span> 和 <span data-i18n=\"off\">–COOH</span>",
+
+    // Condensation polymers > table > Additional HL > td
     "ester link, <span data-i18n=\"off\">–COO–</span>": "酯鍵 (ester link)，<span data-i18n=\"off\">–COO–</span>",
 
     // Condensation polymers > table > Additional HL > th
@@ -868,6 +871,9 @@ S1.i18n.register('zh-Hant', 's2-4', {
 
     // Condensation polymers > table > Additional HL > td
     "a diamine and a dicarboxylic acid": "二胺 (diamine) 和二羧酸",
+
+    // Condensation polymers > table > Additional HL > td
+    "<span data-i18n=\"off\">–NH<sub>2</sub></span> and <span data-i18n=\"off\">–COOH</span>": "<span data-i18n=\"off\">–NH<sub>2</sub></span> 和 <span data-i18n=\"off\">–COOH</span>",
 
     // Condensation polymers > table > Additional HL > td
     "amide link, <span data-i18n=\"off\">–CONH–</span>": "酰胺鍵 (amide link)，<span data-i18n=\"off\">–CONH–</span>",

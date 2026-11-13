@@ -669,7 +669,7 @@ S1.i18n.register('ja', 's2-4', {
     "A polymer formed when the double bond in each monomer breaks and the monomers join, with no other product.": "それぞれの単量体の二重結合が切れて単量体どうしがつながってできる高分子です。ほかの生成物はできません。",
 
     // Addition polymers > p
-    "Hydrocarbons with a <span class=\"chem\" data-i18n=\"off\">C=C</span> double bond are called alkenes. You will study alkenes as a class of compound in Structure 3.2.": "<span class=\"chem\" data-i18n=\"off\">C=C</span> 二重結合をもつ炭化水素を、アルケン (alkene) といいます。アルケンという化合物のグループは、Structure 3.2 で学びます。",
+    "Hydrocarbons with a <span class=\"chem\" data-i18n=\"off\">C=C</span> double bond are called alkenes. You will study alkenes as a class of compound in Structure 3.2.": "<span class=\"chem\" data-i18n=\"off\">C=C</span> 二重結合をもつ炭化水素を、アルケン (alkene) といいます。アルケンという化合物の種類は、Structure 3.2 で学びます。",
 
     // Addition polymers > key idea > p
     "In addition polymerization the monomers add together and nothing else is made. The polymer is the only product. The repeating unit contains the same atoms as one monomer.": "付加重合 (addition polymerization) では、単量体がそのままつながり、ほかには何もできません。生成物は高分子だけです。繰り返し単位は、単量体 1 個と同じ原子を含みます。",
@@ -861,6 +861,9 @@ S1.i18n.register('ja', 's2-4', {
     "a diol and a dicarboxylic acid": "ジオールとジカルボン酸",
 
     // Condensation polymers > table > Additional HL > td
+    "<span data-i18n=\"off\">–OH</span> and <span data-i18n=\"off\">–COOH</span>": "<span data-i18n=\"off\">–OH</span> と <span data-i18n=\"off\">–COOH</span>",
+
+    // Condensation polymers > table > Additional HL > td
     "ester link, <span data-i18n=\"off\">–COO–</span>": "エステル結合 (ester link)、<span data-i18n=\"off\">–COO–</span>",
 
     // Condensation polymers > table > Additional HL > th
@@ -868,6 +871,9 @@ S1.i18n.register('ja', 's2-4', {
 
     // Condensation polymers > table > Additional HL > td
     "a diamine and a dicarboxylic acid": "ジアミンとジカルボン酸",
+
+    // Condensation polymers > table > Additional HL > td
+    "<span data-i18n=\"off\">–NH<sub>2</sub></span> and <span data-i18n=\"off\">–COOH</span>": "<span data-i18n=\"off\">–NH<sub>2</sub></span> と <span data-i18n=\"off\">–COOH</span>",
 
     // Condensation polymers > table > Additional HL > td
     "amide link, <span data-i18n=\"off\">–CONH–</span>": "アミド結合 (amide link)、<span data-i18n=\"off\">–CONH–</span>",
