@@ -1703,64 +1703,64 @@ S1.i18n.register('ja', 's3-2h', {
     "but-1-ene": "but-1-ene",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "No. One carbon of the C=C has two H atoms. Swapping two identical groups changes nothing.": "いいえ。C=C の炭素の 1 つに H 原子が 2 個付いています。同じ基 2 つを入れ替えても、何も変わりません。",
+    "No. One carbon of the C=C has two H atoms. Swapping two identical groups changes nothing.": "答えは「いいえ」です。C=C の炭素の 1 つに H 原子が 2 個付いています。同じ基 2 つを入れ替えても、何も変わりません。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Yes. Each carbon of the C=C has two different groups: H and CH<sub>3</sub>.": "はい。C=C のどちらの炭素にも、違う基が 2 つ付いています：H と CH<sub>3</sub>。",
+    "Yes. Each carbon of the C=C has two different groups: H and CH<sub>3</sub>.": "答えは「はい」です。C=C のどちらの炭素にも、違う基が 2 つ付いています：H と CH<sub>3</sub>。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "2-methylpropene": "2-methylpropene",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "No. One carbon of the C=C has two H atoms and the other has two CH<sub>3</sub> groups.": "いいえ。C=C の一方の炭素には H 原子が 2 個、もう一方には CH<sub>3</sub> 基が 2 つ付いています。",
+    "No. One carbon of the C=C has two H atoms and the other has two CH<sub>3</sub> groups.": "答えは「いいえ」です。C=C の一方の炭素には H 原子が 2 個、もう一方には CH<sub>3</sub> 基が 2 つ付いています。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Yes. Each carbon of the C=C has two different groups: H and Cl.": "はい。C=C のどちらの炭素にも、違う基が 2 つ付いています：H と Cl。",
+    "Yes. Each carbon of the C=C has two different groups: H and Cl.": "答えは「はい」です。C=C のどちらの炭素にも、違う基が 2 つ付いています：H と Cl。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "1,1-dichloroethene": "1,1-dichloroethene",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "No. One carbon has two Cl atoms and the other has two H atoms.": "いいえ。一方の炭素には Cl 原子が 2 個、もう一方には H 原子が 2 個付いています。",
+    "No. One carbon has two Cl atoms and the other has two H atoms.": "答えは「いいえ」です。一方の炭素には Cl 原子が 2 個、もう一方には H 原子が 2 個付いています。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "2-methylbut-2-ene": "2-methylbut-2-ene",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "No. The left carbon of the C=C has two CH<sub>3</sub> groups. One carbon with two identical groups is enough to rule it out.": "いいえ。C=C の左の炭素に CH<sub>3</sub> 基が 2 つ付いています。同じ基が 2 つ付いた炭素が 1 つあるだけで、異性体はないと言えます。",
+    "No. The left carbon of the C=C has two CH<sub>3</sub> groups. One carbon with two identical groups is enough to rule it out.": "答えは「いいえ」です。C=C の左の炭素に CH<sub>3</sub> 基が 2 つ付いています。同じ基が 2 つ付いた炭素が 1 つあるだけで、異性体はないと言えます。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "pent-2-ene": "pent-2-ene",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Yes. One carbon has H and CH<sub>3</sub>. The other has H and CH<sub>2</sub>CH<sub>3</sub>. The groups do not need to match across the double bond.": "はい。一方の炭素には H と CH<sub>3</sub>、もう一方には H と CH<sub>2</sub>CH<sub>3</sub> が付いています。二重結合の両側で基が同じである必要はありません。",
+    "Yes. One carbon has H and CH<sub>3</sub>. The other has H and CH<sub>2</sub>CH<sub>3</sub>. The groups do not need to match across the double bond.": "答えは「はい」です。一方の炭素には H と CH<sub>3</sub>、もう一方には H と CH<sub>2</sub>CH<sub>3</sub> が付いています。二重結合の両側で基が同じである必要はありません。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "1-chloropropene": "1-chloropropene",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Yes. One carbon has H and Cl. The other has H and CH<sub>3</sub>.": "はい。一方の炭素には H と Cl、もう一方には H と CH<sub>3</sub> が付いています。",
+    "Yes. One carbon has H and Cl. The other has H and CH<sub>3</sub>.": "答えは「はい」です。一方の炭素には H と Cl、もう一方には H と CH<sub>3</sub> が付いています。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Yes. Two ring carbons each have two different groups: H and CH<sub>3</sub>. The ring stops rotation.": "はい。環の炭素 2 個のそれぞれに、違う基が 2 つ付いています：H と CH<sub>3</sub>。環が回転を止めます。",
+    "Yes. Two ring carbons each have two different groups: H and CH<sub>3</sub>. The ring stops rotation.": "答えは「はい」です。環の炭素 2 個のそれぞれに、違う基が 2 つ付いています：H と CH<sub>3</sub>。環が回転を止めます。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "1,1-dimethylcyclopropane": "1,1-dimethylcyclopropane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "No. Both CH<sub>3</sub> groups are on the same ring carbon. No ring carbon has two different groups.": "いいえ。CH<sub>3</sub> 基は 2 つとも環の同じ炭素に付いています。違う基が 2 つ付いた環の炭素はありません。",
+    "No. Both CH<sub>3</sub> groups are on the same ring carbon. No ring carbon has two different groups.": "答えは「いいえ」です。CH<sub>3</sub> 基は 2 つとも環の同じ炭素に付いています。違う基が 2 つ付いた環の炭素はありません。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "1,2-dichlorocyclobutane": "1,2-dichlorocyclobutane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Yes. Two ring carbons each have two different groups: H and Cl. The ring stops rotation.": "はい。環の炭素 2 個のそれぞれに、違う基が 2 つ付いています：H と Cl。環が回転を止めます。",
+    "Yes. Two ring carbons each have two different groups: H and Cl. The ring stops rotation.": "答えは「はい」です。環の炭素 2 個のそれぞれに、違う基が 2 つ付いています：H と Cl。環が回転を止めます。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "methylcyclobutane": "methylcyclobutane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "No. Only one ring carbon has two different groups. You need two such ring carbons.": "いいえ。違う基が 2 つ付いた環の炭素は 1 個だけです。そのような環の炭素が 2 個必要です。",
+    "No. Only one ring carbon has two different groups. You need two such ring carbons.": "答えは「いいえ」です。違う基が 2 つ付いた環の炭素は 1 個だけです。そのような環の炭素が 2 個必要です。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "Correct first time": "1 回目で正解",

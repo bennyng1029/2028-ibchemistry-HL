@@ -662,8 +662,14 @@ S1.i18n.register('zh-Hant', 's2-4', {
     // Addition polymers > p
     "Picture a line of people, each with their arms folded. If every person unfolds their arms and holds hands with the neighbours on both sides, the line becomes one long chain. Nobody leaves the line.": "想像一排人，每人都交叉雙臂。如果每個人都鬆開雙臂，與左右兩邊的人手牽手，這排人就成為一條長鏈。沒有人離開隊伍。",
 
+    // Addition polymers > p
+    "An <dfn data-def=\"A polymer formed when the double bond in each monomer breaks and the monomers join, with no other product.\">addition polymer</dfn> forms in this way. Each monomer has a carbon to carbon double bond, <span class=\"chem\" data-i18n=\"off\">C=C</span>. One bond of the double bond breaks. Each of the two carbon atoms then forms a new single bond to the next monomer.": "<dfn data-def=\"每個單體的雙鍵斷開、單體互相連接而成的聚合物，過程中沒有其他生成物。\">加成聚合物 <span class=\"en-term\">(addition polymer)</span></dfn>就是這樣形成的。每個單體都有一個碳碳雙鍵 <span class=\"chem\" data-i18n=\"off\">C=C</span>。雙鍵中的一個鍵斷開，然後兩個碳原子各自與相鄰的單體形成一個新的單鍵。",
+
     // Addition polymers > data-def attribute
     "A polymer formed when the double bond in each monomer breaks and the monomers join, with no other product.": "每個單體的雙鍵斷開，單體互相連接而形成的聚合物，沒有其他生成物。",
+
+    // Addition polymers > p
+    "Hydrocarbons with a <span class=\"chem\" data-i18n=\"off\">C=C</span> double bond are called alkenes. You will study alkenes as a class of compound in Structure 3.2.": "含有 <span class=\"chem\" data-i18n=\"off\">C=C</span> 雙鍵的烴稱為烯烴 (alkenes)。你會在 Structure 3.2 學習烯烴這類化合物。",
 
     // Addition polymers > key idea > p
     "In addition polymerization the monomers add together and nothing else is made. The polymer is the only product. The repeating unit contains the same atoms as one monomer.": "在加成聚合 (addition polymerization) 中，單體加在一起，不會生成其他物質。聚合物是唯一的生成物。重複單位所含的原子與一個單體相同。",
@@ -704,6 +710,9 @@ S1.i18n.register('zh-Hant', 's2-4', {
     // Addition polymers > worked example > p
     "Propene has the structure shown. Draw the repeating unit of the addition polymer formed from propene.": "Propene（丙烯）的結構如圖所示。繪畫 (draw) 由 propene 形成的加成聚合物的重複單位。",
 
+    // Addition polymers > worked example > data-label attribute
+    "Propene: two carbons joined by a double bond. The first carbon has two hydrogen atoms. The second carbon has one hydrogen atom and one CH3 group.": "Propene（丙烯）：兩個碳以雙鍵連接。第一個碳連着兩個氫原子。第二個碳連着一個氫原子和一個 CH3 基。",
+
     // Addition polymers > worked example > data-title attribute
     "Find the two double-bonded carbons": "找出以雙鍵相連的兩個碳",
 
@@ -734,6 +743,9 @@ S1.i18n.register('zh-Hant', 's2-4', {
     // Addition polymers > worked example > p
     "Each carbon must have four bonds. The <span class=\"chem\">CH3</span> group hangs off the chain.": "每個碳必須有四個鍵。<span class=\"chem\">CH3</span> 基掛在鏈的旁邊。",
 
+    // Addition polymers > worked example > data-label attribute
+    "Repeating unit of poly(propene): two backbone carbons joined by a single bond, with a continuation bond at each end through square brackets. The first carbon has two hydrogen atoms. The second carbon has one hydrogen atom and one CH3 group.": "Poly(propene)（聚丙烯）的重複單位：兩個主鏈碳以單鍵連接，兩端各有一個穿過方括號的延伸鍵。第一個碳連着兩個氫原子。第二個碳連着一個氫原子和一個 CH3 基。",
+
     // Addition polymers > worked example > p
     "The repeating unit is –CH<sub>2</sub>–CH(CH<sub>3</sub>)–, with the <span class=\"chem\">CH3</span> group as a side group.": "重複單位是 –CH<sub>2</sub>–CH(CH<sub>3</sub>)–，其中 <span class=\"chem\">CH3</span> 基是側基。",
 
@@ -758,11 +770,17 @@ S1.i18n.register('zh-Hant', 's2-4', {
     // Addition polymers > worked example > p
     "A section of an addition polymer is shown. Deduce the structure of the monomer.": "圖中顯示一段加成聚合物。推斷 (deduce) 單體的結構。",
 
+    // Addition polymers > worked example > data-label attribute
+    "A polymer chain section with four backbone carbons. Carbons 1 and 3 each have two hydrogen atoms. Carbons 2 and 4 each have one hydrogen atom and one CN group. A continuation bond is at each end.": "一段有四個主鏈碳的聚合物鏈。第 1 和第 3 個碳各連着兩個氫原子。第 2 和第 4 個碳各連着一個氫原子和一個 CN 基。兩端各有一個延伸鍵。",
+
     // Addition polymers > worked example > data-title attribute
     "Mark one repeating unit": "標出一個重複單位",
 
     // Addition polymers > worked example > p
     "The repeating unit of an addition polymer has two backbone carbons. Here the pattern repeats every two carbons.": "加成聚合物的重複單位有兩個主鏈碳。這裏的規律每兩個碳重複一次。",
+
+    // Addition polymers > worked example > data-label attribute
+    "The same chain with the first two backbone carbons and their side groups circled as one repeating unit": "同一段鏈，最初兩個主鏈碳和它們的側基被圈起，作為一個重複單位",
 
     // Addition polymers > worked example > data-title attribute
     "Copy the unit": "抄下這個單位",
@@ -772,6 +790,12 @@ S1.i18n.register('zh-Hant', 's2-4', {
 
     // Addition polymers > worked example > data-title attribute
     "Put the double bond back": "把雙鍵放回去",
+
+    // Addition polymers > worked example > p
+    "The continuation bonds were made from the double bond. Remove them and restore <span class=\"chem\" data-i18n=\"off\">C=C</span>.": "延伸鍵是由雙鍵變成的。把它們除去，並還原 <span class=\"chem\" data-i18n=\"off\">C=C</span>。",
+
+    // Addition polymers > worked example > data-label attribute
+    "The monomer: two carbons joined by a double bond. The first carbon has two hydrogen atoms. The second carbon has one hydrogen atom and one CN group.": "單體：兩個碳以雙鍵連接。第一個碳連着兩個氫原子。第二個碳連着一個氫原子和一個 CN 基。",
 
     // Addition polymers > worked example > p
     "The monomer is CH<sub>2</sub>=CH(CN).": "單體是 CH<sub>2</sub>=CH(CN)。",
@@ -836,11 +860,17 @@ S1.i18n.register('zh-Hant', 's2-4', {
     // Condensation polymers > table > Additional HL > td
     "a diol and a dicarboxylic acid": "二醇 (diol) 和二羧酸 (dicarboxylic acid)",
 
+    // Condensation polymers > table > Additional HL > td
+    "ester link, <span data-i18n=\"off\">–COO–</span>": "酯鍵 (ester link)，<span data-i18n=\"off\">–COO–</span>",
+
     // Condensation polymers > table > Additional HL > th
     "Polyamide": "聚酰胺 (polyamide)",
 
     // Condensation polymers > table > Additional HL > td
     "a diamine and a dicarboxylic acid": "二胺 (diamine) 和二羧酸",
+
+    // Condensation polymers > table > Additional HL > td
+    "amide link, <span data-i18n=\"off\">–CONH–</span>": "酰胺鍵 (amide link)，<span data-i18n=\"off\">–CONH–</span>",
 
     // Condensation polymers > Additional HL > p
     "“Di” means two. A diol has two –OH groups. A dicarboxylic acid has two –COOH groups. A diamine has two –NH<sub>2</sub> groups.": "「Di」的意思是二。二醇有兩個 –OH 基。二羧酸有兩個 –COOH 基。二胺有兩個 –NH<sub>2</sub> 基。",
@@ -875,6 +905,9 @@ S1.i18n.register('zh-Hant', 's2-4', {
     // Condensation polymers > worked example > Additional HL > p
     "A polyester is made from the two monomers shown. Draw its repeating unit and state the other product.": "一種聚酯由圖中的兩種單體製成。繪畫 (draw) 它的重複單位，並寫出 (state) 另一種生成物。",
 
+    // Condensation polymers > worked example > Additional HL > data-label attribute
+    "Monomer 1: a diol, H–O–(CH2)3–O–H. Monomer 2: a dicarboxylic acid, H–O–CO–(CH2)2–CO–O–H.": "單體 1：二醇 H–O–(CH2)3–O–H。單體 2：二羧酸 H–O–CO–(CH2)2–CO–O–H。",
+
     // Condensation polymers > worked example > Additional HL > data-title attribute
     "Identify the groups that react": "找出參與反應的基團",
 
@@ -890,6 +923,9 @@ S1.i18n.register('zh-Hant', 's2-4', {
     // Condensation polymers > worked example > Additional HL > p
     "The H comes from the diol. The –OH comes from the –COOH group of the acid.": "H 來自二醇。–OH 來自酸的 –COOH 基。",
 
+    // Condensation polymers > worked example > Additional HL > data-label attribute
+    "The same two monomers. One H of the diol and the OH of one carboxyl group are outlined: they form water.": "同樣的兩個單體。二醇的一個 H 和其中一個羧基的 OH 被框起：它們形成水。",
+
     // Condensation polymers > worked example > Additional HL > data-title attribute
     "Join O to the C=O carbon": "把 O 連到 C=O 的碳",
 
@@ -902,6 +938,9 @@ S1.i18n.register('zh-Hant', 's2-4', {
     // Condensation polymers > worked example > Additional HL > p
     "The other –OH group and the other –COOH group react in the same way with the next monomers. So the unit has a continuation bond at each end.": "另一個 –OH 基和另一個 –COOH 基，以同樣方式與下一個單體反應。所以這個單位兩端各有一個延伸鍵。",
 
+    // Condensation polymers > worked example > Additional HL > data-label attribute
+    "Repeating unit of the polyester in square brackets with n: –O–(CH2)3–O–CO–(CH2)2–CO–, each CO drawn as a carbon with a double bond to oxygen.": "聚酯的重複單位，放在方括號內並標有 n：–O–(CH2)3–O–CO–(CH2)2–CO–，每個 CO 都畫成一個與氧以雙鍵連接的碳。",
+
     // Condensation polymers > worked example > Additional HL > p
     "The repeating unit is –O–(CH<sub>2</sub>)<sub>3</sub>–O–CO–(CH<sub>2</sub>)<sub>2</sub>–CO–. The other product is water.": "重複單位是 –O–(CH<sub>2</sub>)<sub>3</sub>–O–CO–(CH<sub>2</sub>)<sub>2</sub>–CO–。另一種生成物是水。",
 
@@ -910,6 +949,9 @@ S1.i18n.register('zh-Hant', 's2-4', {
 
     // Condensation polymers > worked example > Additional HL > p
     "A polyamide is made from the two monomers shown. Draw its repeating unit.": "一種聚酰胺由圖中的兩種單體製成。繪畫 (draw) 它的重複單位。",
+
+    // Condensation polymers > worked example > Additional HL > data-label attribute
+    "Monomer 1: a diamine, H2N–(CH2)4–NH2. Monomer 2: a dicarboxylic acid, HOOC–(CH2)6–COOH.": "單體 1：二胺 H2N–(CH2)4–NH2。單體 2：二羧酸 HOOC–(CH2)6–COOH。",
 
     // Condensation polymers > worked example > Additional HL > p
     "An –NH<sub>2</sub> group of the diamine reacts with a –COOH group of the acid. This makes an amide link.": "二胺的一個 –NH<sub>2</sub> 基與酸的一個 –COOH 基反應。這樣形成一個酰胺鍵 (amide link)。",
@@ -920,6 +962,9 @@ S1.i18n.register('zh-Hant', 's2-4', {
     // Condensation polymers > worked example > Additional HL > p
     "One H comes from the –NH<sub>2</sub> group, so the nitrogen keeps one H. The –OH comes from the –COOH group.": "一個 H 來自 –NH<sub>2</sub> 基，所以氮保留一個 H。–OH 來自 –COOH 基。",
 
+    // Condensation polymers > worked example > Additional HL > data-label attribute
+    "The same two monomers. One H on a nitrogen atom and the OH of one carboxyl group are outlined: they form water.": "同樣的兩個單體。氮原子上的一個 H 和其中一個羧基的 OH 被框起：它們形成水。",
+
     // Condensation polymers > worked example > Additional HL > data-title attribute
     "Join N to the C=O carbon": "把 N 連到 C=O 的碳",
 
@@ -928,6 +973,9 @@ S1.i18n.register('zh-Hant', 's2-4', {
 
     // Condensation polymers > worked example > Additional HL > p
     "The far –NH<sub>2</sub> group loses an H and the far –COOH group loses an –OH when they join the next monomers.": "遠端的 –NH<sub>2</sub> 基失去一個 H，遠端的 –COOH 基失去一個 –OH，然後與下一個單體連接。",
+
+    // Condensation polymers > worked example > Additional HL > data-label attribute
+    "Repeating unit of the polyamide in square brackets with n: –NH–(CH2)4–NH–CO–(CH2)6–CO–, each N with one H and each CO drawn as a carbon with a double bond to oxygen.": "聚酰胺的重複單位，放在方括號內並標有 n：–NH–(CH2)4–NH–CO–(CH2)6–CO–，每個 N 帶有一個 H，每個 CO 都畫成一個與氧以雙鍵連接的碳。",
 
     // Condensation polymers > worked example > Additional HL > p
     "The repeating unit is –NH–(CH<sub>2</sub>)<sub>4</sub>–NH–CO–(CH<sub>2</sub>)<sub>6</sub>–CO–. Water is also formed.": "重複單位是 –NH–(CH<sub>2</sub>)<sub>4</sub>–NH–CO–(CH<sub>2</sub>)<sub>6</sub>–CO–。同時也生成水。",
@@ -949,6 +997,9 @@ S1.i18n.register('zh-Hant', 's2-4', {
 
     // Condensation polymers > worked example > Additional HL > p
     "The repeating unit of a polymer is shown. Identify the type of polymer and deduce the structures of the two monomers.": "圖中顯示一種聚合物的重複單位。辨認 (identify) 聚合物的類型，並推斷 (deduce) 兩種單體的結構。",
+
+    // Condensation polymers > worked example > Additional HL > data-label attribute
+    "Repeating unit in square brackets with n: –NH–(CH2)2–NH–CO–(CH2)3–CO–": "方括號內並標有 n 的重複單位：–NH–(CH2)2–NH–CO–(CH2)3–CO–",
 
     // Condensation polymers > worked example > Additional HL > data-title attribute
     "Find the link": "找出連接鍵",
@@ -982,6 +1033,9 @@ S1.i18n.register('zh-Hant', 's2-4', {
 
     // Condensation polymers > worked example > Additional HL > p
     "Each monomer must have two functional groups: a diamine and a dicarboxylic acid.": "每種單體必須有兩個官能基：一種是二胺，一種是二羧酸。",
+
+    // Condensation polymers > worked example > Additional HL > data-label attribute
+    "The two monomers: the diamine H2N–(CH2)2–NH2 and the dicarboxylic acid HOOC–(CH2)3–COOH": "兩個單體：二胺 H2N–(CH2)2–NH2 和二羧酸 HOOC–(CH2)3–COOH",
 
     // Condensation polymers > worked example > Additional HL > p
     "It is a polyamide. The monomers are H<sub>2</sub>N–(CH<sub>2</sub>)<sub>2</sub>–NH<sub>2</sub> and HOOC–(CH<sub>2</sub>)<sub>3</sub>–COOH.": "它是聚酰胺。單體是 H<sub>2</sub>N–(CH<sub>2</sub>)<sub>2</sub>–NH<sub>2</sub> 和 HOOC–(CH<sub>2</sub>)<sub>3</sub>–COOH。",

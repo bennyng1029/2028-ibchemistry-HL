@@ -367,31 +367,24 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "Charge": "電荷",
 
     // Formulas and names of ionic compounds > table > th
-    // widget string (assets/js/widgets-s2-1.js)
     "ammonium": "銨離子 (ammonium)",
 
     // Formulas and names of ionic compounds > table > th
-    // widget string (assets/js/widgets-s2-1.js)
     "hydroxide": "氫氧離子 (hydroxide)",
 
     // Formulas and names of ionic compounds > table > th
-    // widget string (assets/js/widgets-s2-1.js)
     "nitrate": "硝酸根離子 (nitrate)",
 
     // Formulas and names of ionic compounds > table > th
-    // widget string (assets/js/widgets-s2-1.js)
     "hydrogencarbonate": "碳酸氫根離子 (hydrogencarbonate)",
 
     // Formulas and names of ionic compounds > table > th
-    // widget string (assets/js/widgets-s2-1.js)
     "carbonate": "碳酸根離子 (carbonate)",
 
     // Formulas and names of ionic compounds > table > th
-    // widget string (assets/js/widgets-s2-1.js)
     "sulfate": "硫酸根離子 (sulfate)",
 
     // Formulas and names of ionic compounds > table > th
-    // widget string (assets/js/widgets-s2-1.js)
     "phosphate": "磷酸根離子 (phosphate)",
 
     // Formulas and names of ionic compounds > p
@@ -654,7 +647,6 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "Copper can also be 1+, so the name needs a Roman numeral.": "銅也可以是 1+，所以名稱要有羅馬數字。",
 
     // Formulas and names of ionic compounds > worked example > maths line
-    // widget string (assets/js/widgets-s2-1.js)
     "copper(II)": "銅(II) (copper(II))",
 
     // Formulas and names of ionic compounds > worked example > data-title attribute
@@ -824,8 +816,7 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "A brittle solid breaks or shatters when it is hit. It does not bend or change shape.": "脆的固體受撞擊時會斷裂或碎裂，不會彎曲或變形。",
 
     // Explaining the properties of ionic compounds > widget > data-title attribute
-    // widget string (assets/js/widgets-s2-1.js)
-    "Hit it": "撞擊",
+    "Hit it": "撞擊晶體",
 
     // Explaining the properties of ionic compounds > widget > figcaption
     "Press Hit it, then follow the steps. This is a flat slice through a crystal, with the two ions drawn to scale with each other. As the top layers slide, the large negative ions meet and push the layers apart. A real crystal has a huge number of layers and breaks along flat surfaces.": "按「撞擊」，然後跟着步驟做。這是晶體的一個平面切面，兩種離子互相按比例繪畫。上面幾層滑動時，較大的負離子相遇，把各層推開。真實的晶體有極多層，會沿平面裂開。",
@@ -1014,8 +1005,7 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "This is larger than the 283 pm in NaCl, so the attraction is weaker. The data booklet agrees: the lattice enthalpy of KBr is 691 <span class=\"unit\">kJ mol-1</span>, smaller than the 790 <span class=\"unit\">kJ mol-1</span> of NaCl.": "這比 NaCl 的 283 pm 大，所以引力較弱。數據手冊也吻合：KBr 的晶格焓是 691 <span class=\"unit\">kJ mol-1</span>，比 NaCl 的 790 <span class=\"unit\">kJ mol-1</span> 小。",
 
     // Lattice enthalpy: how strong is the ionic bonding? > try it > data-label attribute
-    // widget string (assets/js/widgets-s2-1.js)
-    "Ratio": "比例",
+    "Ratio": "比值",
 
     // Lattice enthalpy: how strong is the ionic bonding? > try it > p
     "The lattice enthalpy of MgO is 3791 <span class=\"unit\">kJ mol-1</span>. The lattice enthalpy of NaCl is 790 <span class=\"unit\">kJ mol-1</span>. How many times larger is the lattice enthalpy of MgO? Give your answer to 2 or 3 significant figures.": "MgO 的晶格焓是 3791 <span class=\"unit\">kJ mol-1</span>。NaCl 的晶格焓是 790 <span class=\"unit\">kJ mol-1</span>。MgO 的晶格焓是 NaCl 的多少倍？答案取 2 或 3 位有效數字。",
@@ -1100,19 +1090,19 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "group 1": "第 1 族",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "lithium": "鋰 (lithium)",
+    "lithium": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "lithium ion": "鋰離子 (lithium ion)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "sodium": "鈉 (sodium)",
+    "sodium": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "sodium ion": "鈉離子 (sodium ion)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "potassium": "鉀 (potassium)",
+    "potassium": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "potassium ion": "鉀離子 (potassium ion)",
@@ -1121,13 +1111,13 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "group 2": "第 2 族",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "magnesium": "鎂 (magnesium)",
+    "magnesium": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "magnesium ion": "鎂離子 (magnesium ion)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "calcium": "鈣 (calcium)",
+    "calcium": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "calcium ion": "鈣離子 (calcium ion)",
@@ -1136,7 +1126,7 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "group 13": "第 13 族",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "aluminium": "鋁 (aluminium)",
+    "aluminium": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "aluminium ion": "鋁離子 (aluminium ion)",
@@ -1145,13 +1135,13 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "group 15": "第 15 族",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "nitrogen": "氮 (nitrogen)",
+    "nitrogen": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "nitride ion": "氮離子 (nitride ion)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "phosphorus": "磷 (phosphorus)",
+    "phosphorus": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "phosphide ion": "磷離子 (phosphide ion)",
@@ -1160,13 +1150,13 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "group 16": "第 16 族",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "oxygen": "氧 (oxygen)",
+    "oxygen": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "oxide ion": "氧離子 (oxide ion)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "sulfur": "硫 (sulfur)",
+    "sulfur": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "sulfide ion": "硫離子 (sulfide ion)",
@@ -1175,19 +1165,19 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "group 17": "第 17 族",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "fluorine": "氟 (fluorine)",
+    "fluorine": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "fluoride ion": "氟離子 (fluoride ion)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "chlorine": "氯 (chlorine)",
+    "chlorine": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "chloride ion": "氯離子 (chloride ion)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "bromine": "溴 (bromine)",
+    "bromine": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "bromide ion": "溴離子 (bromide ion)",
@@ -1196,13 +1186,13 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "group 18": "第 18 族",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "argon": "氬 (argon)",
+    "argon": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "transition element": "過渡元素",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "iron": "鐵 (iron)",
+    "iron": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "iron(II) ion": "鐵(II)離子 (iron(II) ion)",
@@ -1211,7 +1201,7 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "iron(III) ion": "鐵(III)離子 (iron(III) ion)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "copper": "銅 (copper)",
+    "copper": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "copper(I) ion": "銅(I)離子 (copper(I) ion)",
@@ -1220,7 +1210,7 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "copper(II) ion": "銅(II)離子 (copper(II) ion)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "cobalt": "鈷 (cobalt)",
+    "cobalt": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "cobalt(II) ion": "鈷(II)離子 (cobalt(II) ion)",
@@ -1229,13 +1219,13 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "cobalt(III) ion": "鈷(III)離子 (cobalt(III) ion)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "helium": "氦 (helium)",
+    "helium": "",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "neon": "氖 (neon)",
+    "neon": "",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "krypton": "氪 (krypton)",
+    "krypton": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "Element": "元素",
@@ -1316,37 +1306,157 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "The 4s electrons are lost before the 3d electrons. A transition element can form more than one ion: try the other one.": "4s 電子比 3d 電子先失去。過渡元素能形成多於一種離子：試試另一種。",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "copper(I)": "銅(I) (copper(I))",
+    "lithium|ion": "鋰離子",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "barium": "鋇 (barium)",
+    "lithium|in-name": "鋰",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "iron(II)": "鐵(II) (iron(II))",
+    "sodium|ion": "鈉離子",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "iron(III)": "鐵(III) (iron(III))",
+    "sodium|in-name": "鈉",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "fluoride": "氟離子 (fluoride)",
+    "potassium|ion": "鉀離子",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "chloride": "氯離子 (chloride)",
+    "potassium|in-name": "鉀",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "bromide": "溴離子 (bromide)",
+    "ammonium|ion": "銨離子",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "iodide": "碘離子 (iodide)",
+    "ammonium|in-name": "銨",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "oxide": "氧離子 (oxide)",
+    "copper(I)|ion": "銅(I)離子",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "sulfide": "硫離子 (sulfide)",
+    "copper(I)|in-name": "銅(I)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "nitride": "氮離子 (nitride)",
+    "magnesium|ion": "鎂離子",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "magnesium|in-name": "鎂",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "calcium|ion": "鈣離子",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "calcium|in-name": "鈣",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "barium|ion": "鋇離子",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "barium|in-name": "鋇",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "iron(II)|ion": "鐵(II)離子",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "iron(II)|in-name": "鐵(II)",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "copper(II)|ion": "銅(II)離子",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "copper(II)|in-name": "銅(II)",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "aluminium|ion": "鋁離子",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "aluminium|in-name": "鋁",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "iron(III)|ion": "鐵(III)離子",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "iron(III)|in-name": "鐵(III)",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "fluoride|ion": "氟離子",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "fluoride|in-name": "氟化",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "chloride|ion": "氯離子",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "chloride|in-name": "氯化",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "bromide|ion": "溴離子",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "bromide|in-name": "溴化",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "iodide|ion": "碘離子",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "iodide|in-name": "碘化",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "hydroxide|ion": "氫氧離子",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "hydroxide|in-name": "氫氧化",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "nitrate|ion": "硝酸根離子",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "nitrate|in-name": "硝酸",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "hydrogencarbonate|ion": "碳酸氫根離子",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "hydrogencarbonate|in-name": "碳酸氫",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "oxide|ion": "氧離子",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "oxide|in-name": "氧化",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "sulfide|ion": "硫離子",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "sulfide|in-name": "硫化",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "carbonate|ion": "碳酸根離子",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "carbonate|in-name": "碳酸",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "sulfate|ion": "硫酸根離子",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "sulfate|in-name": "硫酸",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "nitride|ion": "氮離子",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "nitride|in-name": "氮化",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "phosphate|ion": "磷酸根離子",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "phosphate|in-name": "磷酸",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "{cation} {anion}|compound-name": "{anion}{cation}",
 
     // widget string (assets/js/widgets-s2-1.js)
     "Cation (positive ion)": "陽離子（正離子）",
@@ -1487,6 +1597,9 @@ S1.i18n.register('zh-Hant', 's2-1', {
     "Chloride ions shown": "顯示的氯離子",
 
     // widget string (assets/js/widgets-s2-1.js)
+    "Ratio|ions": "離子數目比",
+
+    // widget string (assets/js/widgets-s2-1.js)
     "Notice": "留意",
 
     // widget string (assets/js/widgets-s2-1.js)
@@ -1560,6 +1673,9 @@ S1.i18n.register('zh-Hant', 's2-1', {
 
     // widget string (assets/js/widgets-s2-1.js)
     "The moving ions carry the charge. Sodium ions move towards the negative electrode and chloride ions towards the positive electrode. No electrons move through the liquid.": "移動的離子傳導電荷。鈉離子移向負電極，氯離子移向正電極。液體中沒有電子在移動。",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "Hit it|button": "撞擊",
 
     // widget string (assets/js/widgets-s2-1.js)
     "Reset": "重設",

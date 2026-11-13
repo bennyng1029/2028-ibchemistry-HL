@@ -662,8 +662,14 @@ S1.i18n.register('ja', 's2-4', {
     // Addition polymers > p
     "Picture a line of people, each with their arms folded. If every person unfolds their arms and holds hands with the neighbours on both sides, the line becomes one long chain. Nobody leaves the line.": "腕を組んだ人が 1 列に並んでいるところを思い浮かべてください。全員が腕をほどいて両どなりの人と手をつなぐと、列は 1 本の長い鎖になります。列から抜ける人はいません。",
 
+    // Addition polymers > p
+    "An <dfn data-def=\"A polymer formed when the double bond in each monomer breaks and the monomers join, with no other product.\">addition polymer</dfn> forms in this way. Each monomer has a carbon to carbon double bond, <span class=\"chem\" data-i18n=\"off\">C=C</span>. One bond of the double bond breaks. Each of the two carbon atoms then forms a new single bond to the next monomer.": "<dfn data-def=\"各単量体の二重結合が切れて単量体どうしがつながり、ほかの生成物ができない高分子です。\">付加重合体 <span class=\"en-term\">(addition polymer)</span></dfn>は、このようにしてできます。どの単量体にも、炭素と炭素の間の二重結合 <span class=\"chem\" data-i18n=\"off\">C=C</span> があります。二重結合のうち 1 本の結合が切れます。すると、2 個の炭素原子はそれぞれ、となりの単量体と新しい単結合をつくります。",
+
     // Addition polymers > data-def attribute
     "A polymer formed when the double bond in each monomer breaks and the monomers join, with no other product.": "それぞれの単量体の二重結合が切れて単量体どうしがつながってできる高分子です。ほかの生成物はできません。",
+
+    // Addition polymers > p
+    "Hydrocarbons with a <span class=\"chem\" data-i18n=\"off\">C=C</span> double bond are called alkenes. You will study alkenes as a class of compound in Structure 3.2.": "<span class=\"chem\" data-i18n=\"off\">C=C</span> 二重結合をもつ炭化水素を、アルケン (alkene) といいます。アルケンという化合物のグループは、Structure 3.2 で学びます。",
 
     // Addition polymers > key idea > p
     "In addition polymerization the monomers add together and nothing else is made. The polymer is the only product. The repeating unit contains the same atoms as one monomer.": "付加重合 (addition polymerization) では、単量体がそのままつながり、ほかには何もできません。生成物は高分子だけです。繰り返し単位は、単量体 1 個と同じ原子を含みます。",
@@ -704,6 +710,9 @@ S1.i18n.register('ja', 's2-4', {
     // Addition polymers > worked example > p
     "Propene has the structure shown. Draw the repeating unit of the addition polymer formed from propene.": "図はプロペン (propene) の構造です。プロペンからできる付加重合体の繰り返し単位を描きなさい (draw)。",
 
+    // Addition polymers > worked example > data-label attribute
+    "Propene: two carbons joined by a double bond. The first carbon has two hydrogen atoms. The second carbon has one hydrogen atom and one CH3 group.": "プロペン：2 個の炭素が二重結合でつながっています。1 個目の炭素には水素原子が 2 個付いています。2 個目の炭素には水素原子 1 個と CH3 基 1 個が付いています。",
+
     // Addition polymers > worked example > data-title attribute
     "Find the two double-bonded carbons": "二重結合でつながった 2 個の炭素を見つける",
 
@@ -734,6 +743,9 @@ S1.i18n.register('ja', 's2-4', {
     // Addition polymers > worked example > p
     "Each carbon must have four bonds. The <span class=\"chem\">CH3</span> group hangs off the chain.": "どの炭素にも結合が 4 本なければなりません。<span class=\"chem\">CH3</span> 基は鎖から枝のように出ています。",
 
+    // Addition polymers > worked example > data-label attribute
+    "Repeating unit of poly(propene): two backbone carbons joined by a single bond, with a continuation bond at each end through square brackets. The first carbon has two hydrogen atoms. The second carbon has one hydrogen atom and one CH3 group.": "ポリ(プロペン) の繰り返し単位：主鎖の炭素 2 個が単結合でつながり、両端には、角括弧を突き抜ける、鎖の続きを表す結合があります。1 個目の炭素には水素原子が 2 個付いています。2 個目の炭素には水素原子 1 個と CH3 基 1 個が付いています。",
+
     // Addition polymers > worked example > p
     "The repeating unit is –CH<sub>2</sub>–CH(CH<sub>3</sub>)–, with the <span class=\"chem\">CH3</span> group as a side group.": "繰り返し単位は –CH<sub>2</sub>–CH(CH<sub>3</sub>)– で、<span class=\"chem\">CH3</span> 基は側基です。",
 
@@ -758,11 +770,17 @@ S1.i18n.register('ja', 's2-4', {
     // Addition polymers > worked example > p
     "A section of an addition polymer is shown. Deduce the structure of the monomer.": "図は付加重合体の一部分です。単量体の構造を導きなさい (deduce)。",
 
+    // Addition polymers > worked example > data-label attribute
+    "A polymer chain section with four backbone carbons. Carbons 1 and 3 each have two hydrogen atoms. Carbons 2 and 4 each have one hydrogen atom and one CN group. A continuation bond is at each end.": "主鎖の炭素が 4 個ある、高分子の鎖の一部分。1 番目と 3 番目の炭素には、それぞれ水素原子が 2 個付いています。2 番目と 4 番目の炭素には、それぞれ水素原子 1 個と CN 基 1 個が付いています。両端に、鎖の続きを表す結合があります。",
+
     // Addition polymers > worked example > data-title attribute
     "Mark one repeating unit": "繰り返し単位を 1 つ区切る",
 
     // Addition polymers > worked example > p
     "The repeating unit of an addition polymer has two backbone carbons. Here the pattern repeats every two carbons.": "付加重合体の繰り返し単位には、主鎖の炭素が 2 個あります。この例では、炭素 2 個ごとに同じ並びが繰り返しています。",
+
+    // Addition polymers > worked example > data-label attribute
+    "The same chain with the first two backbone carbons and their side groups circled as one repeating unit": "同じ鎖。最初の 2 個の主鎖の炭素とその側基が、1 つの繰り返し単位として丸で囲まれています",
 
     // Addition polymers > worked example > data-title attribute
     "Copy the unit": "単位を写す",
@@ -772,6 +790,12 @@ S1.i18n.register('ja', 's2-4', {
 
     // Addition polymers > worked example > data-title attribute
     "Put the double bond back": "二重結合を元に戻す",
+
+    // Addition polymers > worked example > p
+    "The continuation bonds were made from the double bond. Remove them and restore <span class=\"chem\" data-i18n=\"off\">C=C</span>.": "鎖の続きを表す結合は、二重結合からできたものです。これを消して、<span class=\"chem\" data-i18n=\"off\">C=C</span> に戻します。",
+
+    // Addition polymers > worked example > data-label attribute
+    "The monomer: two carbons joined by a double bond. The first carbon has two hydrogen atoms. The second carbon has one hydrogen atom and one CN group.": "単量体：2 個の炭素が二重結合でつながっています。1 個目の炭素には水素原子が 2 個付いています。2 個目の炭素には水素原子 1 個と CN 基 1 個が付いています。",
 
     // Addition polymers > worked example > p
     "The monomer is CH<sub>2</sub>=CH(CN).": "単量体は CH<sub>2</sub>=CH(CN) です。",
@@ -836,11 +860,17 @@ S1.i18n.register('ja', 's2-4', {
     // Condensation polymers > table > Additional HL > td
     "a diol and a dicarboxylic acid": "ジオールとジカルボン酸",
 
+    // Condensation polymers > table > Additional HL > td
+    "ester link, <span data-i18n=\"off\">–COO–</span>": "エステル結合 (ester link)、<span data-i18n=\"off\">–COO–</span>",
+
     // Condensation polymers > table > Additional HL > th
     "Polyamide": "ポリアミド (polyamide)",
 
     // Condensation polymers > table > Additional HL > td
     "a diamine and a dicarboxylic acid": "ジアミンとジカルボン酸",
+
+    // Condensation polymers > table > Additional HL > td
+    "amide link, <span data-i18n=\"off\">–CONH–</span>": "アミド結合 (amide link)、<span data-i18n=\"off\">–CONH–</span>",
 
     // Condensation polymers > Additional HL > p
     "“Di” means two. A diol has two –OH groups. A dicarboxylic acid has two –COOH groups. A diamine has two –NH<sub>2</sub> groups.": "「ジ (di)」は 2 つという意味です。ジオール (diol) には –OH 基が 2 つあります。ジカルボン酸 (dicarboxylic acid) には –COOH 基が 2 つあります。ジアミン (diamine) には –NH<sub>2</sub> 基が 2 つあります。",
@@ -875,6 +905,9 @@ S1.i18n.register('ja', 's2-4', {
     // Condensation polymers > worked example > Additional HL > p
     "A polyester is made from the two monomers shown. Draw its repeating unit and state the other product.": "図の 2 つの単量体からポリエステルができます。繰り返し単位を描きなさい (draw)。また、もう 1 つの生成物を述べなさい (state)。",
 
+    // Condensation polymers > worked example > Additional HL > data-label attribute
+    "Monomer 1: a diol, H–O–(CH2)3–O–H. Monomer 2: a dicarboxylic acid, H–O–CO–(CH2)2–CO–O–H.": "単量体 1：ジオール H–O–(CH2)3–O–H。単量体 2：ジカルボン酸 H–O–CO–(CH2)2–CO–O–H。",
+
     // Condensation polymers > worked example > Additional HL > data-title attribute
     "Identify the groups that react": "反応する基を特定する",
 
@@ -890,6 +923,9 @@ S1.i18n.register('ja', 's2-4', {
     // Condensation polymers > worked example > Additional HL > p
     "The H comes from the diol. The –OH comes from the –COOH group of the acid.": "H はジオールからきます。–OH は酸の –COOH 基からきます。",
 
+    // Condensation polymers > worked example > Additional HL > data-label attribute
+    "The same two monomers. One H of the diol and the OH of one carboxyl group are outlined: they form water.": "同じ 2 つの単量体。ジオールの H 1 個と、カルボキシ基 1 つの OH が線で囲まれています。これらが水になります。",
+
     // Condensation polymers > worked example > Additional HL > data-title attribute
     "Join O to the C=O carbon": "O を C=O の炭素とつなぐ",
 
@@ -902,6 +938,9 @@ S1.i18n.register('ja', 's2-4', {
     // Condensation polymers > worked example > Additional HL > p
     "The other –OH group and the other –COOH group react in the same way with the next monomers. So the unit has a continuation bond at each end.": "もう一方の –OH 基と、もう一方の –COOH 基も、次の単量体と同じように反応します。だから、単位の両端には鎖の続きを表す結合があります。",
 
+    // Condensation polymers > worked example > Additional HL > data-label attribute
+    "Repeating unit of the polyester in square brackets with n: –O–(CH2)3–O–CO–(CH2)2–CO–, each CO drawn as a carbon with a double bond to oxygen.": "角括弧と n で表した、ポリエステルの繰り返し単位：–O–(CH2)3–O–CO–(CH2)2–CO–。それぞれの CO は、酸素と二重結合した炭素として描かれています。",
+
     // Condensation polymers > worked example > Additional HL > p
     "The repeating unit is –O–(CH<sub>2</sub>)<sub>3</sub>–O–CO–(CH<sub>2</sub>)<sub>2</sub>–CO–. The other product is water.": "繰り返し単位は –O–(CH<sub>2</sub>)<sub>3</sub>–O–CO–(CH<sub>2</sub>)<sub>2</sub>–CO– です。もう 1 つの生成物は水です。",
 
@@ -910,6 +949,9 @@ S1.i18n.register('ja', 's2-4', {
 
     // Condensation polymers > worked example > Additional HL > p
     "A polyamide is made from the two monomers shown. Draw its repeating unit.": "図の 2 つの単量体からポリアミドができます。繰り返し単位を描きなさい。",
+
+    // Condensation polymers > worked example > Additional HL > data-label attribute
+    "Monomer 1: a diamine, H2N–(CH2)4–NH2. Monomer 2: a dicarboxylic acid, HOOC–(CH2)6–COOH.": "単量体 1：ジアミン H2N–(CH2)4–NH2。単量体 2：ジカルボン酸 HOOC–(CH2)6–COOH。",
 
     // Condensation polymers > worked example > Additional HL > p
     "An –NH<sub>2</sub> group of the diamine reacts with a –COOH group of the acid. This makes an amide link.": "ジアミンの –NH<sub>2</sub> 基が、酸の –COOH 基と反応します。これでアミド結合 (amide link) ができます。",
@@ -920,6 +962,9 @@ S1.i18n.register('ja', 's2-4', {
     // Condensation polymers > worked example > Additional HL > p
     "One H comes from the –NH<sub>2</sub> group, so the nitrogen keeps one H. The –OH comes from the –COOH group.": "H は –NH<sub>2</sub> 基から 1 個とれるので、窒素には H が 1 個残ります。–OH は –COOH 基からきます。",
 
+    // Condensation polymers > worked example > Additional HL > data-label attribute
+    "The same two monomers. One H on a nitrogen atom and the OH of one carboxyl group are outlined: they form water.": "同じ 2 つの単量体。窒素原子に付いた H 1 個と、カルボキシ基 1 つの OH が線で囲まれています。これらが水になります。",
+
     // Condensation polymers > worked example > Additional HL > data-title attribute
     "Join N to the C=O carbon": "N を C=O の炭素とつなぐ",
 
@@ -928,6 +973,9 @@ S1.i18n.register('ja', 's2-4', {
 
     // Condensation polymers > worked example > Additional HL > p
     "The far –NH<sub>2</sub> group loses an H and the far –COOH group loses an –OH when they join the next monomers.": "反対側の端の –NH<sub>2</sub> 基は H を、反対側の端の –COOH 基は –OH を失って、次の単量体とつながります。",
+
+    // Condensation polymers > worked example > Additional HL > data-label attribute
+    "Repeating unit of the polyamide in square brackets with n: –NH–(CH2)4–NH–CO–(CH2)6–CO–, each N with one H and each CO drawn as a carbon with a double bond to oxygen.": "角括弧と n で表した、ポリアミドの繰り返し単位：–NH–(CH2)4–NH–CO–(CH2)6–CO–。それぞれの N には H が 1 個付き、それぞれの CO は、酸素と二重結合した炭素として描かれています。",
 
     // Condensation polymers > worked example > Additional HL > p
     "The repeating unit is –NH–(CH<sub>2</sub>)<sub>4</sub>–NH–CO–(CH<sub>2</sub>)<sub>6</sub>–CO–. Water is also formed.": "繰り返し単位は –NH–(CH<sub>2</sub>)<sub>4</sub>–NH–CO–(CH<sub>2</sub>)<sub>6</sub>–CO– です。水もできます。",
@@ -949,6 +997,9 @@ S1.i18n.register('ja', 's2-4', {
 
     // Condensation polymers > worked example > Additional HL > p
     "The repeating unit of a polymer is shown. Identify the type of polymer and deduce the structures of the two monomers.": "図はある高分子の繰り返し単位です。高分子の種類を特定しなさい (identify)。また、2 つの単量体の構造を導きなさい (deduce)。",
+
+    // Condensation polymers > worked example > Additional HL > data-label attribute
+    "Repeating unit in square brackets with n: –NH–(CH2)2–NH–CO–(CH2)3–CO–": "角括弧と n で表した繰り返し単位：–NH–(CH2)2–NH–CO–(CH2)3–CO–",
 
     // Condensation polymers > worked example > Additional HL > data-title attribute
     "Find the link": "結合を見つける",
@@ -982,6 +1033,9 @@ S1.i18n.register('ja', 's2-4', {
 
     // Condensation polymers > worked example > Additional HL > p
     "Each monomer must have two functional groups: a diamine and a dicarboxylic acid.": "どちらの単量体にも官能基が 2 つなければなりません。ジアミンとジカルボン酸です。",
+
+    // Condensation polymers > worked example > Additional HL > data-label attribute
+    "The two monomers: the diamine H2N–(CH2)2–NH2 and the dicarboxylic acid HOOC–(CH2)3–COOH": "2 つの単量体：ジアミン H2N–(CH2)2–NH2 とジカルボン酸 HOOC–(CH2)3–COOH",
 
     // Condensation polymers > worked example > Additional HL > p
     "It is a polyamide. The monomers are H<sub>2</sub>N–(CH<sub>2</sub>)<sub>2</sub>–NH<sub>2</sub> and HOOC–(CH<sub>2</sub>)<sub>3</sub>–COOH.": "ポリアミドです。単量体は H<sub>2</sub>N–(CH<sub>2</sub>)<sub>2</sub>–NH<sub>2</sub> と HOOC–(CH<sub>2</sub>)<sub>3</sub>–COOH です。",

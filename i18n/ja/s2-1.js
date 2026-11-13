@@ -356,7 +356,7 @@ S1.i18n.register('ja', 's2-1', {
 
     // Formulas and names of ionic compounds > table > th
     // widget string (assets/js/widgets-s2-1.js)
-    "Name": "名前（英語）",
+    "Name": "名前",
 
     // Formulas and names of ionic compounds > table > th
     // widget string (assets/js/widgets-s2-1.js)
@@ -367,32 +367,25 @@ S1.i18n.register('ja', 's2-1', {
     "Charge": "電荷",
 
     // Formulas and names of ionic compounds > table > th
-    // widget string (assets/js/widgets-s2-1.js)
-    "ammonium": "ammonium",
+    "ammonium": "アンモニウムイオン (ammonium)",
 
     // Formulas and names of ionic compounds > table > th
-    // widget string (assets/js/widgets-s2-1.js)
-    "hydroxide": "hydroxide",
+    "hydroxide": "水酸化物イオン (hydroxide)",
 
     // Formulas and names of ionic compounds > table > th
-    // widget string (assets/js/widgets-s2-1.js)
-    "nitrate": "nitrate",
+    "nitrate": "硝酸イオン (nitrate)",
 
     // Formulas and names of ionic compounds > table > th
-    // widget string (assets/js/widgets-s2-1.js)
-    "hydrogencarbonate": "hydrogencarbonate",
+    "hydrogencarbonate": "炭酸水素イオン (hydrogencarbonate)",
 
     // Formulas and names of ionic compounds > table > th
-    // widget string (assets/js/widgets-s2-1.js)
-    "carbonate": "carbonate",
+    "carbonate": "炭酸イオン (carbonate)",
 
     // Formulas and names of ionic compounds > table > th
-    // widget string (assets/js/widgets-s2-1.js)
-    "sulfate": "sulfate",
+    "sulfate": "硫酸イオン (sulfate)",
 
     // Formulas and names of ionic compounds > table > th
-    // widget string (assets/js/widgets-s2-1.js)
-    "phosphate": "phosphate",
+    "phosphate": "リン酸イオン (phosphate)",
 
     // Formulas and names of ionic compounds > p
     "Ammonium is the only positive ion in the list. Hydrogencarbonate is written as one word.": "この中で正のイオンは、ammonium（アンモニウムイオン）だけです。hydrogencarbonate（炭酸水素イオン）は、英語では 1 語で書きます。",
@@ -654,7 +647,6 @@ S1.i18n.register('ja', 's2-1', {
     "Copper can also be 1+, so the name needs a Roman numeral.": "銅は 1+ にもなれるので、名前にはローマ数字が必要です。",
 
     // Formulas and names of ionic compounds > worked example > maths line
-    // widget string (assets/js/widgets-s2-1.js)
     "copper(II)": "copper(II)",
 
     // Formulas and names of ionic compounds > worked example > data-title attribute
@@ -824,8 +816,7 @@ S1.i18n.register('ja', 's2-1', {
     "A brittle solid breaks or shatters when it is hit. It does not bend or change shape.": "もろい固体は、たたくと割れたり、くだけたりする。曲がったり、形を変えたりはしない。",
 
     // Explaining the properties of ionic compounds > widget > data-title attribute
-    // widget string (assets/js/widgets-s2-1.js)
-    "Hit it": "たたく",
+    "Hit it": "結晶をたたいてみよう",
 
     // Explaining the properties of ionic compounds > widget > figcaption
     "Press Hit it, then follow the steps. This is a flat slice through a crystal, with the two ions drawn to scale with each other. As the top layers slide, the large negative ions meet and push the layers apart. A real crystal has a huge number of layers and breaks along flat surfaces.": "「たたく」を押して、ステップを順に進めましょう。これは結晶を平らに切った断面です。2 種類のイオンは、たがいに正しい大きさの比で描いています。上の層がずれると、大きな負のイオンどうしが出会い、層を押し離します。本物の結晶には非常に多くの層があり、平らな面にそって割れます。",
@@ -1014,7 +1005,6 @@ S1.i18n.register('ja', 's2-1', {
     "This is larger than the 283 pm in NaCl, so the attraction is weaker. The data booklet agrees: the lattice enthalpy of KBr is 691 <span class=\"unit\">kJ mol-1</span>, smaller than the 790 <span class=\"unit\">kJ mol-1</span> of NaCl.": "これは NaCl の 283 pm より大きいので、引力は弱くなります。データブックレットでも同じことがわかります。KBr の格子エンタルピーは 691 <span class=\"unit\">kJ mol-1</span> で、NaCl の 790 <span class=\"unit\">kJ mol-1</span> より小さくなっています。",
 
     // Lattice enthalpy: how strong is the ionic bonding? > try it > data-label attribute
-    // widget string (assets/js/widgets-s2-1.js)
     "Ratio": "比",
 
     // Lattice enthalpy: how strong is the ionic bonding? > try it > p
@@ -1100,19 +1090,19 @@ S1.i18n.register('ja', 's2-1', {
     "group 1": "1 族",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "lithium": "lithium",
+    "lithium": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "lithium ion": "リチウムイオン (lithium ion)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "sodium": "sodium",
+    "sodium": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "sodium ion": "ナトリウムイオン (sodium ion)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "potassium": "potassium",
+    "potassium": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "potassium ion": "カリウムイオン (potassium ion)",
@@ -1121,13 +1111,13 @@ S1.i18n.register('ja', 's2-1', {
     "group 2": "2 族",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "magnesium": "magnesium",
+    "magnesium": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "magnesium ion": "マグネシウムイオン (magnesium ion)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "calcium": "calcium",
+    "calcium": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "calcium ion": "カルシウムイオン (calcium ion)",
@@ -1136,7 +1126,7 @@ S1.i18n.register('ja', 's2-1', {
     "group 13": "13 族",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "aluminium": "aluminium",
+    "aluminium": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "aluminium ion": "アルミニウムイオン (aluminium ion)",
@@ -1145,13 +1135,13 @@ S1.i18n.register('ja', 's2-1', {
     "group 15": "15 族",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "nitrogen": "nitrogen",
+    "nitrogen": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "nitride ion": "窒化物イオン (nitride ion)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "phosphorus": "phosphorus",
+    "phosphorus": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "phosphide ion": "リン化物イオン (phosphide ion)",
@@ -1160,13 +1150,13 @@ S1.i18n.register('ja', 's2-1', {
     "group 16": "16 族",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "oxygen": "oxygen",
+    "oxygen": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "oxide ion": "酸化物イオン (oxide ion)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "sulfur": "sulfur",
+    "sulfur": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "sulfide ion": "硫化物イオン (sulfide ion)",
@@ -1175,19 +1165,19 @@ S1.i18n.register('ja', 's2-1', {
     "group 17": "17 族",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "fluorine": "fluorine",
+    "fluorine": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "fluoride ion": "フッ化物イオン (fluoride ion)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "chlorine": "chlorine",
+    "chlorine": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "chloride ion": "塩化物イオン (chloride ion)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "bromine": "bromine",
+    "bromine": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "bromide ion": "臭化物イオン (bromide ion)",
@@ -1196,13 +1186,13 @@ S1.i18n.register('ja', 's2-1', {
     "group 18": "18 族",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "argon": "argon",
+    "argon": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "transition element": "遷移元素",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "iron": "iron",
+    "iron": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "iron(II) ion": "鉄(II)イオン (iron(II) ion)",
@@ -1211,7 +1201,7 @@ S1.i18n.register('ja', 's2-1', {
     "iron(III) ion": "鉄(III)イオン (iron(III) ion)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "copper": "copper",
+    "copper": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "copper(I) ion": "銅(I)イオン (copper(I) ion)",
@@ -1220,7 +1210,7 @@ S1.i18n.register('ja', 's2-1', {
     "copper(II) ion": "銅(II)イオン (copper(II) ion)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "cobalt": "cobalt",
+    "cobalt": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "cobalt(II) ion": "コバルト(II)イオン (cobalt(II) ion)",
@@ -1229,13 +1219,13 @@ S1.i18n.register('ja', 's2-1', {
     "cobalt(III) ion": "コバルト(III)イオン (cobalt(III) ion)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "helium": "helium",
+    "helium": "",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "neon": "neon",
+    "neon": "",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "krypton": "krypton",
+    "krypton": "",
 
     // widget string (assets/js/widgets-s2-1.js)
     "Element": "元素",
@@ -1316,37 +1306,157 @@ S1.i18n.register('ja', 's2-1', {
     "The 4s electrons are lost before the 3d electrons. A transition element can form more than one ion: try the other one.": "4s の電子が、3d の電子より先に失われます。遷移元素は 2 種類以上のイオンをつくれます。もう一方のイオンも試してみましょう。",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "copper(I)": "copper(I)",
+    "lithium|ion": "リチウムイオン",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "barium": "barium",
+    "lithium|in-name": "リチウム",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "iron(II)": "iron(II)",
+    "sodium|ion": "ナトリウムイオン",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "iron(III)": "iron(III)",
+    "sodium|in-name": "ナトリウム",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "fluoride": "fluoride",
+    "potassium|ion": "カリウムイオン",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "chloride": "chloride",
+    "potassium|in-name": "カリウム",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "bromide": "bromide",
+    "ammonium|ion": "アンモニウムイオン",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "iodide": "iodide",
+    "ammonium|in-name": "アンモニウム",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "oxide": "oxide",
+    "copper(I)|ion": "銅(I)イオン",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "sulfide": "sulfide",
+    "copper(I)|in-name": "銅(I)",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "nitride": "nitride",
+    "magnesium|ion": "マグネシウムイオン",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "magnesium|in-name": "マグネシウム",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "calcium|ion": "カルシウムイオン",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "calcium|in-name": "カルシウム",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "barium|ion": "バリウムイオン",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "barium|in-name": "バリウム",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "iron(II)|ion": "鉄(II)イオン",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "iron(II)|in-name": "鉄(II)",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "copper(II)|ion": "銅(II)イオン",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "copper(II)|in-name": "銅(II)",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "aluminium|ion": "アルミニウムイオン",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "aluminium|in-name": "アルミニウム",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "iron(III)|ion": "鉄(III)イオン",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "iron(III)|in-name": "鉄(III)",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "fluoride|ion": "フッ化物イオン",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "fluoride|in-name": "フッ化",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "chloride|ion": "塩化物イオン",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "chloride|in-name": "塩化",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "bromide|ion": "臭化物イオン",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "bromide|in-name": "臭化",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "iodide|ion": "ヨウ化物イオン",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "iodide|in-name": "ヨウ化",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "hydroxide|ion": "水酸化物イオン",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "hydroxide|in-name": "水酸化",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "nitrate|ion": "硝酸イオン",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "nitrate|in-name": "硝酸",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "hydrogencarbonate|ion": "炭酸水素イオン",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "hydrogencarbonate|in-name": "炭酸水素",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "oxide|ion": "酸化物イオン",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "oxide|in-name": "酸化",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "sulfide|ion": "硫化物イオン",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "sulfide|in-name": "硫化",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "carbonate|ion": "炭酸イオン",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "carbonate|in-name": "炭酸",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "sulfate|ion": "硫酸イオン",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "sulfate|in-name": "硫酸",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "nitride|ion": "窒化物イオン",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "nitride|in-name": "窒化",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "phosphate|ion": "リン酸イオン",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "phosphate|in-name": "リン酸",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "{cation} {anion}|compound-name": "{anion}{cation}",
 
     // widget string (assets/js/widgets-s2-1.js)
     "Cation (positive ion)": "陽イオン（正のイオン）",
@@ -1487,6 +1597,9 @@ S1.i18n.register('ja', 's2-1', {
     "Chloride ions shown": "表示中の塩化物イオン",
 
     // widget string (assets/js/widgets-s2-1.js)
+    "Ratio|ions": "イオンの数の比",
+
+    // widget string (assets/js/widgets-s2-1.js)
     "Notice": "注目",
 
     // widget string (assets/js/widgets-s2-1.js)
@@ -1560,6 +1673,9 @@ S1.i18n.register('ja', 's2-1', {
 
     // widget string (assets/js/widgets-s2-1.js)
     "The moving ions carry the charge. Sodium ions move towards the negative electrode and chloride ions towards the positive electrode. No electrons move through the liquid.": "動いているイオンが電荷を運びます。ナトリウムイオンは負の電極へ、塩化物イオンは正の電極へ動きます。液体の中を電子が動くことはありません。",
+
+    // widget string (assets/js/widgets-s2-1.js)
+    "Hit it|button": "たたく",
 
     // widget string (assets/js/widgets-s2-1.js)
     "Reset": "リセット",

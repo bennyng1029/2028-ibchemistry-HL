@@ -33,7 +33,6 @@ S1.i18n.register('zh-Hant', 's2-3', {
     "Explain why metals conduct heat.": "解釋金屬為甚麼導熱。",
 
     // What you need to be able to do > checklist > span
-    // widget string (assets/js/widgets-s2-3.js)
     "Explain why metals are malleable.": "解釋金屬為甚麼有展性。",
 
     // What you need to be able to do > checklist > span
@@ -876,6 +875,9 @@ S1.i18n.register('zh-Hant', 's2-3', {
 
     // widget string (assets/js/widgets-s2-3.js)
     "No bonds break when a solid metal conducts heat. Energy is passed on by moving electrons and vibrating cations.": "固態金屬導熱時，沒有鍵斷裂。能量由移動的電子和振動的陽離子傳遞。",
+
+    // widget string (assets/js/widgets-s2-3.js)
+    "Explain why metals are malleable.|question": "解釋金屬為甚麼有展性。",
 
     // widget string (assets/js/widgets-s2-3.js)
     "The cations are arranged in layers.": "陽離子一層一層地排列。",

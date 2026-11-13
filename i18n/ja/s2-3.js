@@ -33,7 +33,6 @@ S1.i18n.register('ja', 's2-3', {
     "Explain why metals conduct heat.": "金属が熱を伝える理由を説明する。",
 
     // What you need to be able to do > checklist > span
-    // widget string (assets/js/widgets-s2-3.js)
     "Explain why metals are malleable.": "金属に展性がある理由を説明する。",
 
     // What you need to be able to do > checklist > span
@@ -876,6 +875,9 @@ S1.i18n.register('ja', 's2-3', {
 
     // widget string (assets/js/widgets-s2-3.js)
     "No bonds break when a solid metal conducts heat. Energy is passed on by moving electrons and vibrating cations.": "固体の金属が熱を伝えるとき、結合は切れません。エネルギーは、動く電子と振動する陽イオンによって伝わります。",
+
+    // widget string (assets/js/widgets-s2-3.js)
+    "Explain why metals are malleable.|question": "金属に展性がある理由を説明しなさい (explain)。",
 
     // widget string (assets/js/widgets-s2-3.js)
     "The cations are arranged in layers.": "陽イオンは層になって並んでいます。",
