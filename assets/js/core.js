@@ -13,7 +13,7 @@
   S1.config = {
     siteName: 'Structure 1 Lab',
     // Set to the public repository URL to show a "Source" link in the footer.
-    sourceUrl: ''
+    sourceUrl: 'https://github.com/bennyng1029/2028-ibchemistry-HL'
   };
 
   // Single source of truth for the five topics (header nav, index cells, hero tiles, pager).
