@@ -1140,9 +1140,9 @@ S1.i18n.register('ja', 's1-4.q', {
         // EN (option A): This is the <span class="chem">CO2</span> only. Some oxygen is left over: 150 <span class="unit">cm3</span> was supplied but only 100 <span class="unit">cm3</span> reacted.
         "0": "これは <span class=\"chem\">CO2</span> だけの体積です。酸素も残っています。150 <span class=\"unit\">cm3</span> 入れましたが、反応したのは 100 <span class=\"unit\">cm3</span> だけです。",
         // EN (option C): You counted the water as a gas (60 + 80) and left out the excess oxygen. The state symbol (l) shows that the water is liquid, so its volume is negligible.
-        "2": "水を気体として数え（60 + 80）、余った酸素を入れ忘れました。状態記号 (l) から、水は液体だとわかります。だから水の体積は無視できます。",
+        "2": "水を気体として数え（60 + 80）、過剰の酸素を入れ忘れました。状態記号 (l) から、水は液体だとわかります。だから、水の体積は無視できるほど小さいです。",
         // EN (option D): You included the excess oxygen, but you also counted 80 <span class="unit">cm3</span> of water vapour. The state symbol (l) shows that the water is liquid at the final conditions.
-        "3": "余った酸素は入れましたが、水蒸気 80 <span class=\"unit\">cm3</span> も数えてしまいました。状態記号 (l) から、最後の条件では水は液体だとわかります。",
+        "3": "過剰の酸素は入れましたが、水蒸気 80 <span class=\"unit\">cm3</span> も数えてしまいました。状態記号 (l) から、最後の条件では水は液体だとわかります。",
       },
     },
 

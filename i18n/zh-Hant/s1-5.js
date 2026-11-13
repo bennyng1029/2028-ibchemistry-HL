@@ -165,7 +165,7 @@ S1.i18n.register('zh-Hant', 's1-5', {
     "Molar volume of an ideal gas": "理想氣體的摩爾體積",
 
     // Molar volume of an ideal gas > p
-    "Picture a box a little under 30 cm along each side, about the space taken up by four footballs. At 0 °C and 100 kPa, that box holds one mole of gas. It does not matter which gas.": "想像一個每邊略短於 30 cm 的箱子，大約是四個足球所佔的空間。在 0 °C 和 100 kPa 下，這個箱子裝着一摩爾氣體。是哪一種氣體都一樣。",
+    "Picture a box a little under 30 cm along each side, about the space taken up by four footballs. At 0 °C and 100 kPa, that box holds one mole of gas. It does not matter which gas.": "想像一個每邊略短於 30 cm 的箱子，大約是四個足球所佔的空間。在 0 °C 和 100 kPa 下，這個箱子剛好裝着一摩爾氣體。無論是哪一種氣體都一樣。",
 
     // Molar volume of an ideal gas > p
     "This follows from Avogadro’s law, which you met in Structure 1.4: equal volumes of gases at the same temperature and pressure contain equal numbers of molecules. Turn it around: equal numbers of molecules occupy equal volumes.": "這來自你在 Structure 1.4 學過的亞佛加德羅定律：在相同的溫度和壓強下，相同體積的氣體含有相同數目的分子。反過來說：相同數目的分子佔相同的體積。",

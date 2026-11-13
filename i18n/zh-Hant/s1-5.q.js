@@ -401,16 +401,16 @@ S1.i18n.register('zh-Hant', 's1-5.q', {
     // ── s1-5-q018 · mcq · exam · SL · Structure 1.5.2 · 1 mark
     "s1-5-q018": {
       // EN: <p>The boiling points of four substances at 100 kPa are shown.</p><div class="table-scroll"><table class="data"><thead><tr><th scope="col">Substance</th><th scope="col" class="num">Boiling point / K</th></tr></thead><tbody><tr><th scope="row">helium, <span class="chem">He</span></th><td class="num">4</td></tr><tr><th scope="row">nitrogen, <span class="chem">N2</span></th><td class="num">77</td></tr><tr><th scope="row">methane, <span class="chem">CH4</span></th><td class="num">112</td></tr><tr><th scope="row">ammonia, <span class="chem">NH3</span></th><td class="num">240</td></tr></tbody></table></div><p>Which gas would you expect to deviate <strong>most</strong> from ideal behaviour at 300 K and 100 kPa?</p>
-      stem: "<p>下表列出四種物質在 100 kPa 下的沸點。</p><div class=\"table-scroll\"><table class=\"data\"><thead><tr><th scope=\"col\">物質</th><th scope=\"col\" class=\"num\">沸點 / K</th></tr></thead><tbody><tr><th scope=\"row\">氦 (helium) <span class=\"chem\">He</span></th><td class=\"num\">4</td></tr><tr><th scope=\"row\">氮 (nitrogen) <span class=\"chem\">N2</span></th><td class=\"num\">77</td></tr><tr><th scope=\"row\">甲烷 (methane) <span class=\"chem\">CH4</span></th><td class=\"num\">112</td></tr><tr><th scope=\"row\">氨 (ammonia) <span class=\"chem\">NH3</span></th><td class=\"num\">240</td></tr></tbody></table></div><p>在 300 K 和 100 kPa 下，你預期哪一種氣體<strong>最</strong>偏離理想行為？</p>",
+      stem: "<p>下表列出四種物質在 100 kPa 下的沸點。</p><div class=\"table-scroll\"><table class=\"data\"><thead><tr><th scope=\"col\">物質</th><th scope=\"col\" class=\"num\">沸點 / K</th></tr></thead><tbody><tr><th scope=\"row\">氦 <span class=\"chem\">He</span></th><td class=\"num\">4</td></tr><tr><th scope=\"row\">氮 <span class=\"chem\">N2</span></th><td class=\"num\">77</td></tr><tr><th scope=\"row\">甲烷 <span class=\"chem\">CH4</span></th><td class=\"num\">112</td></tr><tr><th scope=\"row\">氨 <span class=\"chem\">NH3</span></th><td class=\"num\">240</td></tr></tbody></table></div><p>在 300 K 和 100 kPa 下，你預期哪一種氣體<strong>最</strong>偏離理想行為？</p>",
       options: [
         // EN: Helium
-        "氦",
+        "氦 (helium)",
         // EN: Nitrogen
-        "氮",
+        "氮 (nitrogen)",
         // EN: Methane
-        "甲烷",
+        "甲烷 (methane)",
         // EN: Ammonia
-        "氨",
+        "氨 (ammonia)",
       ],
       hints: [
         // EN: A higher boiling point means stronger forces between the particles.
