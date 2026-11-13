@@ -36,7 +36,7 @@ S1.i18n.register('ja', 's3-2h', {
     "Find a chiral carbon atom and explain why it gives two stereoisomers with different optical properties.": "キラル炭素原子を見つける。それによって、光学的な性質が違う 2 つの立体異性体ができる理由を説明する。",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Draw both enantiomers with wedge–dash bonds, showing the tetrahedral shape around the chiral carbon.": "くさび–破線の結合を使って、両方の鏡像異性体を描く。キラル炭素のまわりの四面体形を示す。",
+    "Draw both enantiomers with wedge–dash bonds, showing the tetrahedral shape around the chiral carbon.": "くさび–破線の結合を使って、両方の鏡像異性体を描く。キラル炭素原子のまわりの正四面体形を示す。",
 
     // What you need to be able to do > checklist > Additional HL > span
     "Recognize a pair of enantiomers as non-superimposable mirror images in 3-D models.": "3D モデルで、鏡像異性体の組を「重ね合わせることができない鏡像」として見分ける。",
@@ -84,7 +84,7 @@ S1.i18n.register('ja', 's3-2h', {
     "You also need three ideas from other pages.": "ほかのページの考え方も 3 つ必要です。",
 
     // What you need from the core page > li
-    "A carbon atom with four single bonds is tetrahedral, with bond angles of 109.5° (Structure 2.2).": "単結合を 4 本もつ炭素原子は四面体形で、結合角は 109.5° です（Structure 2.2）。",
+    "A carbon atom with four single bonds is tetrahedral, with bond angles of 109.5° (Structure 2.2).": "単結合を 4 本もつ炭素原子は正四面体形で、結合角は 109.5° です（Structure 2.2）。",
 
     // What you need from the core page > li
     "You can find an empirical formula from percentage composition by mass (Structure 1.4).": "質量百分率組成から組成式を求めることができます（Structure 1.4）。",
@@ -256,7 +256,7 @@ S1.i18n.register('ja', 's3-2h', {
     "A <dfn>chiral carbon</dfn> is a carbon atom bonded to four different atoms or groups. It is often marked with an asterisk (*).": "<dfn>キラル炭素原子（不斉炭素原子）<span class=\"en-term\">(chiral carbon)</span></dfn>は、4 つの違う原子または基と結合した炭素原子です。よくアスタリスク（*）で示します。",
 
     // Chiral carbon atoms and enantiomers > p
-    "A molecule with one chiral carbon exists in two forms. Each form is the mirror image of the other, and the two cannot be superimposed. These two stereoisomers are called <dfn>enantiomers</dfn>. They are also called optical isomers.": "キラル炭素を 1 個もつ分子には、2 つの形があります。それぞれがもう一方の鏡像で、2 つを重ね合わせることはできません。この 2 つの立体異性体を<dfn>鏡像異性体（エナンチオマー）<span class=\"en-term\">(enantiomers)</span></dfn>といいます。光学異性体 (optical isomers) とも呼ばれます。",
+    "A molecule with one chiral carbon exists in two forms. Each form is the mirror image of the other, and the two cannot be superimposed. These two stereoisomers are called <dfn>enantiomers</dfn>. They are also called optical isomers.": "キラル炭素原子を 1 個もつ分子には、2 つの形があります。それぞれがもう一方の鏡像で、2 つを重ね合わせることはできません。この 2 つの立体異性体を<dfn>鏡像異性体（エナンチオマー）<span class=\"en-term\">(enantiomers)</span></dfn>といいます。光学異性体 (optical isomers) とも呼ばれます。",
 
     // Chiral carbon atoms and enantiomers > widget > data-title attribute
     "Chirality lab: can you superimpose the mirror image?": "キラリティー実験室：鏡像を重ね合わせられますか？",
@@ -265,7 +265,7 @@ S1.i18n.register('ja', 's3-2h', {
     "Molecule B is the mirror image of molecule A. Rotate B and watch how many groups are in the same place as in A. Then try a molecule with two identical groups.": "分子 B は分子 A の鏡像です。B を回して、A と同じ位置にある基がいくつあるかを見ましょう。次に、同じ基を 2 つもつ分子でも試しましょう。",
 
     // Chiral carbon atoms and enantiomers > h3
-    "How to find a chiral carbon": "キラル炭素の見つけ方",
+    "How to find a chiral carbon": "キラル炭素原子の見つけ方",
 
     // Chiral carbon atoms and enantiomers > li
     "Ignore every carbon with a double or triple bond. It has fewer than four groups.": "二重結合や三重結合をもつ炭素は、すべて無視します。基が 4 つより少ないからです。",
@@ -280,16 +280,16 @@ S1.i18n.register('ja', 's3-2h', {
     "In a skeletal formula, remember the H atoms that are not drawn.": "骨格構造式では、描かれていない H 原子を忘れないようにしましょう。",
 
     // Chiral carbon atoms and enantiomers > widget > data-title attribute
-    "Chiral carbon spotter": "キラル炭素を探そう",
+    "Chiral carbon spotter": "キラル炭素原子を探そう",
 
     // Chiral carbon atoms and enantiomers > widget > figcaption
-    "Click a carbon atom to test it. Each click tells you why that carbon is or is not chiral. Some molecules have no chiral carbon, and one has two.": "炭素原子をクリックして調べましょう。クリックするたびに、その炭素がキラルである理由、またはキラルでない理由がわかります。キラル炭素がない分子もあり、2 個ある分子も 1 つあります。",
+    "Click a carbon atom to test it. Each click tells you why that carbon is or is not chiral. Some molecules have no chiral carbon, and one has two.": "炭素原子をクリックして調べましょう。クリックするたびに、その炭素がキラルである理由、またはキラルでない理由がわかります。キラル炭素原子がない分子もあり、2 個ある分子も 1 つあります。",
 
     // Chiral carbon atoms and enantiomers > h3
     "Drawing a pair of enantiomers": "鏡像異性体の組を描く",
 
     // Chiral carbon atoms and enantiomers > p
-    "A flat drawing cannot show a tetrahedral carbon. You need <dfn>wedge–dash notation</dfn>.": "平面の図では、四面体形の炭素を表せません。<dfn>くさび–破線表記 <span class=\"en-term\">(wedge–dash notation)</span></dfn>が必要です。",
+    "A flat drawing cannot show a tetrahedral carbon. You need <dfn>wedge–dash notation</dfn>.": "平面の図では、正四面体形の炭素を表せません。<dfn>くさび–破線表記 <span class=\"en-term\">(wedge–dash notation)</span></dfn>が必要です。",
 
     // Chiral carbon atoms and enantiomers > li
     "A plain line is a bond in the plane of the paper.": "普通の線は、紙面上にある結合です。",
@@ -301,7 +301,7 @@ S1.i18n.register('ja', 's3-2h', {
     "A hashed wedge is a bond going into the paper, away from you.": "破線のくさびは、紙面の奥へ向かう結合です。",
 
     // Chiral carbon atoms and enantiomers > p
-    "Draw two plain bonds, one solid wedge and one hashed wedge around the chiral carbon. Then draw a mirror line and reflect the whole drawing.": "キラル炭素のまわりに、普通の線の結合を 2 本、実線のくさびを 1 本、破線のくさびを 1 本描きます。次に鏡の線を引いて、図全体を鏡に映した形を描きます。",
+    "Draw two plain bonds, one solid wedge and one hashed wedge around the chiral carbon. Then draw a mirror line and reflect the whole drawing.": "キラル炭素原子のまわりに、普通の線の結合を 2 本、実線のくさびを 1 本、破線のくさびを 1 本描きます。次に鏡の線を引いて、図全体を鏡に映した形を描きます。",
 
     // Chiral carbon atoms and enantiomers > p
     "These are the two enantiomers of butan-2-ol. The dashed line is the mirror.": "これが butan-2-ol の 2 つの鏡像異性体です。破線が鏡です。",
@@ -313,10 +313,10 @@ S1.i18n.register('ja', 's3-2h', {
     "Step through the drawing. Copy each step on paper before you go to the next one.": "図をステップごとに進めましょう。次へ進む前に、各ステップを紙に写しましょう。",
 
     // Chiral carbon atoms and enantiomers > exam tip (shown in English + translation) > p
-    "Enantiomer drawings must look three-dimensional and must be mirror images of each other. Use tapered wedge and hashed bonds. Drawings with all four bonds at 90° do not earn the marks. When asked what a chiral carbon is, write “a carbon atom bonded to four different atoms or groups”. A description of optical properties alone does not earn that mark.": "鏡像異性体の図は、立体的に見え、互いに鏡像になっていなければなりません。先が細くなるくさびと破線の結合を使いましょう。4 本の結合がすべて 90° の図では点になりません。キラル炭素とは何かを問われたら、「4 つの違う原子または基と結合した炭素原子」と書きます。光学的な性質を述べるだけでは、その点はもらえません。",
+    "Enantiomer drawings must look three-dimensional and must be mirror images of each other. Use tapered wedge and hashed bonds. Drawings with all four bonds at 90° do not earn the marks. When asked what a chiral carbon is, write “a carbon atom bonded to four different atoms or groups”. A description of optical properties alone does not earn that mark.": "鏡像異性体の図は、立体的に見え、互いに鏡像になっていなければなりません。先が細くなるくさびと破線の結合を使いましょう。4 本の結合がすべて 90° の図では点になりません。キラル炭素原子とは何かを問われたら、「4 つの違う原子または基と結合した炭素原子」と書きます。光学的な性質を述べるだけでは、その点はもらえません。",
 
     // Chiral carbon atoms and enantiomers > worked example > h3
-    "Find the chiral carbon and draw both enantiomers": "キラル炭素を見つけて、両方の鏡像異性体を描く",
+    "Find the chiral carbon and draw both enantiomers": "キラル炭素原子を見つけて、両方の鏡像異性体を描く",
 
     // Chiral carbon atoms and enantiomers > worked example > p
     "Identify the chiral carbon atom in 2-chlorobutane, <span class=\"chem\">CH3CHClCH2CH3</span>. Draw the two enantiomers.": "2-chlorobutane <span class=\"chem\">CH3CHClCH2CH3</span> のキラル炭素原子を特定しなさい (identify)。2 つの鏡像異性体を描きなさい。",
@@ -334,7 +334,7 @@ S1.i18n.register('ja', 's3-2h', {
     "Write the four groups on the carbon that is left": "残った炭素の 4 つの基を書き出す",
 
     // Chiral carbon atoms and enantiomers > worked example > p
-    "A chiral carbon needs four different atoms or groups.": "キラル炭素には、4 つの違う原子または基が必要です。",
+    "A chiral carbon needs four different atoms or groups.": "キラル炭素原子には、4 つの違う原子または基が必要です。",
 
     // Chiral carbon atoms and enantiomers > worked example > p
     "Carbon 2 is bonded to H, Cl, <span class=\"chem\">CH3</span> and <span class=\"chem\">CH2CH3</span>. All four are different, so carbon 2 is chiral.": "炭素 2 は H、Cl、<span class=\"chem\">CH3</span>、<span class=\"chem\">CH2CH3</span> と結合しています。4 つとも違うので、炭素 2 はキラルです。",
@@ -343,10 +343,10 @@ S1.i18n.register('ja', 's3-2h', {
     "Draw one enantiomer in 3-D": "一方の鏡像異性体を 3D で描く",
 
     // Chiral carbon atoms and enantiomers > worked example > p
-    "The four bonds point to the corners of a tetrahedron.": "4 本の結合は、四面体の頂点の方向を向いています。",
+    "The four bonds point to the corners of a tetrahedron.": "4 本の結合は、正四面体の頂点の方向を向いています。",
 
     // Chiral carbon atoms and enantiomers > worked example > p
-    "Put the chiral carbon in the centre. Draw two plain bonds with a wide angle between them. Add one solid wedge and one hashed wedge. Attach the four groups. Their order does not matter for the first drawing.": "キラル炭素を中心に置きます。普通の線の結合を 2 本、間の角度を広くとって描きます。実線のくさびを 1 本、破線のくさびを 1 本加えます。4 つの基を付けます。最初の図では、基の順序はどうでもかまいません。",
+    "Put the chiral carbon in the centre. Draw two plain bonds with a wide angle between them. Add one solid wedge and one hashed wedge. Attach the four groups. Their order does not matter for the first drawing.": "キラル炭素原子を中心に置きます。普通の線の結合を 2 本、間の角度を広くとって描きます。実線のくさびを 1 本、破線のくさびを 1 本加えます。4 つの基を付けます。最初の図では、基の順序はどうでもかまいません。",
 
     // Chiral carbon atoms and enantiomers > worked example > data-title attribute
     "Reflect it in a mirror line": "鏡の線で映す",
@@ -358,10 +358,10 @@ S1.i18n.register('ja', 's3-2h', {
     "Each group is the same distance from the mirror line on the other side. A wedge stays a wedge and a hashed bond stays a hashed bond.": "それぞれの基は、鏡の線の反対側の、同じ距離のところに来ます。くさびはくさびのまま、破線の結合は破線の結合のままです。",
 
     // Chiral carbon atoms and enantiomers > worked example > p
-    "Carbon 2 is the chiral carbon. The two mirror-image drawings are the enantiomers.": "炭素 2 がキラル炭素です。鏡像の関係にある 2 つの図が、鏡像異性体です。",
+    "Carbon 2 is the chiral carbon. The two mirror-image drawings are the enantiomers.": "炭素 2 がキラル炭素原子です。鏡像の関係にある 2 つの図が、鏡像異性体です。",
 
     // Chiral carbon atoms and enantiomers > try it > data-label attribute
-    "Number of chiral carbons": "キラル炭素の数",
+    "Number of chiral carbons": "キラル炭素原子の数",
 
     // Chiral carbon atoms and enantiomers > try it > p
     "How many chiral carbon atoms are in a molecule of <span class=\"chem\">CH3CH(OH)CH(NH2)COOH</span>?": "<span class=\"chem\">CH3CH(OH)CH(NH2)COOH</span> の分子 1 個に、キラル炭素原子はいくつありますか。",
@@ -1601,7 +1601,7 @@ S1.i18n.register('ja', 's3-2h', {
     "2-methylbut-2-ene: the left carbon of the double bond has two CH3 groups": "2-methylbut-2-ene：二重結合の左の炭素に CH3 基が 2 つ付いている",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "2-chlorobutane with the chiral carbon, carbon 2, marked with an asterisk": "2-chlorobutane。キラル炭素（炭素 2）にアスタリスクが付いている",
+    "2-chlorobutane with the chiral carbon, carbon 2, marked with an asterisk": "2-chlorobutane。キラル炭素原子（炭素 2）にアスタリスクが付いている",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "The two enantiomers of 2-chlorobutane drawn as mirror images with wedge and hashed bonds": "2-chlorobutane の 2 つの鏡像異性体。くさびと破線の結合を使い、鏡像として描いてある",
@@ -1874,13 +1874,13 @@ S1.i18n.register('ja', 's3-2h', {
     "Turn both models right": "両方のモデルを右に回す",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "This carbon has three H atoms. A chiral carbon needs four different groups.": "この炭素には H 原子が 3 個付いています。キラル炭素には、4 つの違う基が必要です。",
+    "This carbon has three H atoms. A chiral carbon needs four different groups.": "この炭素には H 原子が 3 個付いています。キラル炭素原子には、4 つの違う基が必要です。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "This carbon has two H atoms, so two of its four groups are the same.": "この炭素には H 原子が 2 個付いています。だから、4 つの基のうち 2 つが同じです。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "This carbon has a double bond, so it is bonded to only three groups. A chiral carbon is bonded to four different groups.": "この炭素には二重結合があるので、3 つの基としか結合していません。キラル炭素は、4 つの違う基と結合しています。",
+    "This carbon has a double bond, so it is bonded to only three groups. A chiral carbon is bonded to four different groups.": "この炭素には二重結合があるので、3 つの基としか結合していません。キラル炭素原子は、4 つの違う基と結合しています。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "structural formula": "構造式",
@@ -1982,16 +1982,16 @@ S1.i18n.register('ja', 's3-2h', {
     "Correct. Its four groups are all different: H, OH, CHO and CH(OH)CH<sub>3</sub>.": "正解です。4 つの基がすべて違います：H、OH、CHO、CH(OH)CH<sub>3</sub>。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Chiral carbons found": "見つけたキラル炭素",
+    "Chiral carbons found": "見つけたキラル炭素原子",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "This molecule has no chiral carbon": "この分子にキラル炭素はない",
+    "This molecule has no chiral carbon": "この分子にキラル炭素原子はない",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "I have found them all": "全部見つけた",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Molecule {n} of {total}: {name} ({style}). Click every chiral carbon.": "分子 {n} / {total}：{name}（{style}）。キラル炭素をすべてクリックしましょう。",
+    "Molecule {n} of {total}: {name} ({style}). Click every chiral carbon.": "分子 {n} / {total}：{name}（{style}）。キラル炭素原子をすべてクリックしましょう。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "{style} of {name}. Each carbon atom is a button.": "{name} の{style}。炭素原子はそれぞれボタンになっています。",
@@ -2003,25 +2003,25 @@ S1.i18n.register('ja', 's3-2h', {
     "There is nothing to find here. Check each carbon: does any have four different groups?": "ここには見つけるものがありません。炭素を 1 つずつ確かめましょう。4 つの違う基をもつ炭素はありますか。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Yes. This molecule has one chiral carbon.": "はい。この分子にはキラル炭素が 1 個あります。",
+    "Yes. This molecule has one chiral carbon.": "はい。この分子にはキラル炭素原子が 1 個あります。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Yes. This molecule has {n} chiral carbons.": "はい。この分子にはキラル炭素が {n} 個あります。",
+    "Yes. This molecule has {n} chiral carbons.": "はい。この分子にはキラル炭素原子が {n} 個あります。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not yet. There is another chiral carbon to find.": "まだです。見つけるキラル炭素がもう 1 個あります。",
+    "Not yet. There is another chiral carbon to find.": "まだです。見つけるキラル炭素原子がもう 1 個あります。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "2-aminopropanoic acid": "2-aminopropanoic acid",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Step 1. Write the chiral carbon in the centre.": "ステップ 1. キラル炭素を中心に書きます。",
+    "Step 1. Write the chiral carbon in the centre.": "ステップ 1. キラル炭素原子を中心に書きます。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Step 2. Draw two bonds as plain lines. These two bonds lie in the plane of the paper. Keep the angle between them wider than 90°, close to the tetrahedral angle of 109.5°.": "ステップ 2. 結合を 2 本、普通の線で描きます。この 2 本は紙面上にあります。間の角度は 90° より広くして、四面体の角度 109.5° に近づけます。",
+    "Step 2. Draw two bonds as plain lines. These two bonds lie in the plane of the paper. Keep the angle between them wider than 90°, close to the tetrahedral angle of 109.5°.": "ステップ 2. 結合を 2 本、普通の線で描きます。この 2 本は紙面上にあります。間の角度は 90° より広くして、正四面体の角度 109.5° に近づけます。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Step 3. Draw one bond as a solid wedge. A wedge bond points out of the paper, towards you. The narrow end is at the chiral carbon.": "ステップ 3. 結合を 1 本、実線のくさびで描きます。くさびの結合は、紙面から手前に出ています。細いほうの端がキラル炭素の側です。",
+    "Step 3. Draw one bond as a solid wedge. A wedge bond points out of the paper, towards you. The narrow end is at the chiral carbon.": "ステップ 3. 結合を 1 本、実線のくさびで描きます。くさびの結合は、紙面から手前に出ています。細いほうの端がキラル炭素原子の側です。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "Step 4. Draw the last bond as a hashed (dashed) wedge. It points into the paper, away from you. All four groups must be different.": "ステップ 4. 最後の結合を、破線のくさびで描きます。これは紙面の奥を向いています。4 つの基はすべて違っていなければなりません。",

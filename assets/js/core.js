@@ -413,6 +413,16 @@
     });
   }
 
+  /* An inline element marked data-i18n="off" inside a block (a formula written as text, a name that must stay
+     English) does not stop the block from being a unit: the block is translated as a whole and the protected
+     run is carried through unchanged (tools/i18n-check.js requires it to be identical in the translation).
+     A block-level or drawn data-i18n="off" child (a figure, a table cell, a widget) still does. */
+  var INLINE_TAGS = /^(?:SPAN|I|B|EM|STRONG|VAR|A|SUB|SUP|ABBR|SMALL|U|S|CODE|BDI)$/;
+  function isInlineOff(o) {
+    if (!INLINE_TAGS.test(o.tagName) || o.querySelector('div,p,ul,ol,table,img,svg,canvas,input,select,textarea,button')) return false;
+    for (var i = 0; i < o.attributes.length; i++) if (/^data-s\d/.test(o.attributes[i].name)) return false;   // a component host (data-s1-mol …)
+    return true;
+  }
   /* Capture authored content (before enhancement). */
   function capture(root) {
     if (!srcMap) return;
@@ -424,8 +434,19 @@
     if (scope.matches && scope.matches(UNIT_SEL)) nodes.unshift(scope);
     nodes.forEach(function (n) {
       if (srcMap.has(n) || n.closest(SKIP_SEL)) return;
-      if (n.querySelector(UNIT_SEL) || n.querySelector('input,select,textarea,canvas,svg,[data-s1-widget],[data-s1-quiz]')) return;   // not a leaf block
+      if (n.querySelector('input,select,textarea,canvas,svg,[data-s1-widget],[data-s1-quiz]')) return;
+      var inner = n.querySelectorAll(UNIT_SEL), offs = 0, i, o;
+      for (i = 0; i < inner.length; i++) {
+        o = inner[i].closest('[data-i18n="off"]');
+        if (o && o !== n && n.contains(o) && isInlineOff(o)) { offs++; continue; }   // an inline protected run: part of this block
+        return;                                                                      // not a leaf block
+      }
       var text = n.textContent;
+      if (offs) {                                                      // the words must be outside the protected runs
+        var bare = n.cloneNode(true);
+        Array.prototype.forEach.call(bare.querySelectorAll('[data-i18n="off"]'), function (x) { if (x.parentNode) x.parentNode.removeChild(x); });
+        text = bare.textContent;
+      }
       if (!/[A-Za-zÀ-ɏ]{2}/.test(text)) return;                        // numbers and symbols only
       var isMath = n.matches(MATH_SEL);
       if (isMath && !hasWords(n)) return;                                        // maths with no words in it
@@ -439,9 +460,12 @@
       if (any) { attrMap.set(n, o); n.setAttribute('data-i18n-attr', ''); }
     });
     Array.prototype.forEach.call(scope.querySelectorAll('[data-title],[data-toc],[data-def],[data-label],[data-kicker],[data-correct]'), function (n) {
-      if (cattrMap.has(n) || n.closest('[data-i18n="off"]')) return;
+      // data-i18n="off" protects what is drawn or written inside an element, not its text alternative: the data-label
+      // of a drawing (read to screen-reader users) is an entry even when the drawing itself is never translated.
+      var isOff = !!n.closest('[data-i18n="off"]');
+      if (cattrMap.has(n) || (isOff && !n.hasAttribute('data-label'))) return;
       var o = {}, any = false;
-      COMP_ATTRS.forEach(function (a) { var v = n.getAttribute(a); if (v && /[A-Za-z]{2}/.test(v)) { o[a] = v; any = true; } });
+      COMP_ATTRS.forEach(function (a) { if (isOff && a !== 'data-label') return; var v = n.getAttribute(a); if (v && /[A-Za-z]{2}/.test(v)) { o[a] = v; any = true; } });
       if (any) { cattrMap.set(n, o); n.setAttribute('data-i18n-cattr', ''); }
     });
     if (svgMap) Array.prototype.forEach.call(scope.querySelectorAll('svg text, svg tspan'), function (n) {
