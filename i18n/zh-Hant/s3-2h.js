@@ -36,7 +36,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "Find a chiral carbon atom and explain why it gives two stereoisomers with different optical properties.": "找出手性碳原子，並解釋為甚麼它會產生兩種旋光性質不同的立體異構體。",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Draw both enantiomers with wedge–dash bonds, showing the tetrahedral shape around the chiral carbon.": "用楔形鍵和虛線鍵畫出兩種對映異構體，顯示手性碳周圍的四面體形狀。",
+    "Draw both enantiomers with wedge–dash bonds, showing the tetrahedral shape around the chiral carbon.": "用楔形鍵和虛線鍵繪畫 (draw) 兩種對映異構體，顯示手性碳周圍的四面體形狀。",
 
     // What you need to be able to do > checklist > Additional HL > span
     "Recognize a pair of enantiomers as non-superimposable mirror images in 3-D models.": "在立體 (3-D) 模型中，認出一對對映異構體是不可重疊的鏡像。",
@@ -169,7 +169,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "Does pent-2-ene have <i>cis</i>–<i>trans</i> isomers?": "pent-2-ene 有 <i>cis</i>–<i>trans</i> 異構體嗎？",
 
     // Stereoisomers and cis–trans isomers > worked example > p
-    "Deduce whether pent-2-ene and 2-methylbut-2-ene show <i>cis</i>–<i>trans</i> isomerism. Draw the isomers where they exist.": "推斷 (deduce) pent-2-ene 和 2-methylbut-2-ene 是否有 <i>cis</i>–<i>trans</i> 異構現象。如果有，畫出異構體。",
+    "Deduce whether pent-2-ene and 2-methylbut-2-ene show <i>cis</i>–<i>trans</i> isomerism. Draw the isomers where they exist.": "推斷 (deduce) pent-2-ene 和 2-methylbut-2-ene 是否有 <i>cis</i>–<i>trans</i> 異構現象。如果有，繪畫 (draw) 異構體。",
 
     // Stereoisomers and cis–trans isomers > worked example > data-title attribute
     "Draw the structure around the double bond": "畫出雙鍵周圍的結構",
@@ -319,7 +319,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "Find the chiral carbon and draw both enantiomers": "找出手性碳並畫出兩種對映異構體",
 
     // Chiral carbon atoms and enantiomers > worked example > p
-    "Identify the chiral carbon atom in 2-chlorobutane, <span class=\"chem\">CH3CHClCH2CH3</span>. Draw the two enantiomers.": "辨認 (identify) 2-chlorobutane <span class=\"chem\">CH3CHClCH2CH3</span> 中的手性碳原子。畫出兩種對映異構體。",
+    "Identify the chiral carbon atom in 2-chlorobutane, <span class=\"chem\">CH3CHClCH2CH3</span>. Draw the two enantiomers.": "辨認 (identify) 2-chlorobutane <span class=\"chem\">CH3CHClCH2CH3</span> 中的手性碳原子。繪畫 (draw) 兩種對映異構體。",
 
     // Chiral carbon atoms and enantiomers > worked example > data-title attribute
     "Remove the carbons that cannot be chiral": "剔除不可能是手性的碳原子",
@@ -2405,7 +2405,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "Step 1. How many signals does the <sup>1</sup>H NMR spectrum of {name} have?": "第 1 步。{name} 的 <sup>1</sup>H NMR 譜有多少個訊號？",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not yet. Look for groups of H atoms that have exactly the same surroundings. Each different group gives one signal.": "還未正確。找出周圍環境完全相同的 H 原子組。每個不同的組產生一個訊號。",
+    "Not yet. Look for groups of H atoms that have exactly the same surroundings. Each different group gives one signal.": "仍未正確。找出周圍環境完全相同的 H 原子組。每個不同的組產生一個訊號。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "That is closer to the number of hydrogen atoms. Count the different environments instead. All the H atoms in one CH<sub>3</sub> group are equivalent.": "這比較接近氫原子的數目。應該數不同的環境。同一個 CH<sub>3</sub> 基團的所有 H 原子都是等價的。",
@@ -2441,7 +2441,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "Show the answer": "顯示答案",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Some are not right yet. Do not count the H atoms in the group itself. Count only H atoms on the carbon atoms next to it. No H on the next atom means a singlet.": "有些還未正確。不要數基團本身的 H 原子。只數它旁邊的碳原子上的 H 原子。相鄰原子上沒有 H，就是單峰。",
+    "Some are not right yet. Do not count the H atoms in the group itself. Count only H atoms on the carbon atoms next to it. No H on the next atom means a singlet.": "有些仍未正確。不要數基團本身的 H 原子。只數它旁邊的碳原子上的 H 原子。相鄰原子上沒有 H，就是單峰。",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "All correct. The table and the sketch show the full prediction.": "全部正確。表格和略圖顯示完整的預測。",
