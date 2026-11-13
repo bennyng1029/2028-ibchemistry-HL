@@ -429,14 +429,19 @@
     var form = el('form', { class: 'arena-filters', novalidate: true, 'aria-label': 'Choose your practice set' });
     var topicField = el('fieldset');
     topicField.appendChild(el('legend', { text: 'Topics' }));
-    var chips = el('div', { class: 'chips' });
+    var chips = el('div');
     var topicInputs = [];
-    S1.topics.forEach(function (t) {
-      var n = S1.questions.byTopic(t.id).length;
-      var input = el('input', { type: 'checkbox', value: t.id });
-      input.checked = preTopics ? preTopics.indexOf(t.id) > -1 : true;
-      topicInputs.push(input);
-      chips.appendChild(el('label', { class: 'chip' }, [input, el('span', { text: t.num + ' ' + t.short }), el('span', { class: 'chip__n', text: String(n), title: n + ' questions' })]));
+    S1.groups.forEach(function (g) {
+      var row = el('div', { class: 'chips' });
+      S1.topicsIn(g.id).forEach(function (t) {
+        var n = S1.questions.byTopic(t.id).length;
+        var input = el('input', { type: 'checkbox', value: t.id });
+        input.checked = n > 0 && (preTopics ? preTopics.indexOf(t.id) > -1 : true);
+        input.disabled = n === 0;
+        topicInputs.push(input);
+        row.appendChild(el('label', { class: 'chip' + (n === 0 ? ' chip--soon' : '') }, [input, el('span', { text: t.num + ' ' + t.short }), el('span', { class: 'chip__n', text: n === 0 ? 'soon' : String(n), title: n + ' questions' })]));
+      });
+      chips.appendChild(el('div', { class: 'chips-group', role: 'group', 'aria-label': g.name }, [el('p', { class: 'chips-group__title', text: g.name + ' \u00B7 ' + g.title }), row]));
     });
     topicField.appendChild(chips);
     form.appendChild(topicField);

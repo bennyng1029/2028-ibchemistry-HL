@@ -341,6 +341,7 @@
 
     cv.draw(function (ctx, W, H) {
       var ink = w.color('--ink'), ink3 = w.color('--ink-3'), accent = w.color('--accent'), line = w.color('--line-strong'), ink2 = w.color('--ink-2');
+      if (!ab.length) return;
       var list = iso(), m = masses(), Ar = mean();
       var lo = list[0][0] - 0.6, hi = list[list.length - 1][0] + 0.6, padL = 16, padR = 16;
       function X(v) { return padL + (v - lo) / (hi - lo) * (W - padL - padR); }
@@ -527,6 +528,7 @@
 
     cv.draw(function (ctx, W, H) {
       var ink = w.color('--ink'), ink3 = w.color('--ink-3'), accent = w.color('--accent'), grid = w.color('--line'), ink2 = w.color('--ink-2');
+      if (!peaks.length) return;
       var padL = 46, padR = 12, padT = 22, padB = 44;
       var x0 = padL, x1 = W - padR, y0 = H - padB, y1 = padT;
       var lo = peaks[0].mz - 2, hi = peaks[peaks.length - 1].mz + 2;

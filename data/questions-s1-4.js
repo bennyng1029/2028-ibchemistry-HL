@@ -11,12 +11,24 @@
   'use strict';
 
   /* Small local helpers for HTML strings (no globals are added). */
-  function M(line) { return '<div class="worked__math">' + line + '</div>'; }      // one line of working
+  /* One line of working. A long chain "a = b = c" is stacked as a, "= b", "= c" so that it stays readable on a phone. */
+  function M(line) {
+    var plain = line.replace(/<[^>]+>/g, '').replace(/&nbsp;/g, ' ');
+    var parts = line.split(' = ');
+    if (plain.length > 30 && parts.length > 2) {
+      line = parts[0] + ' = ' + parts[1];
+      for (var i = 2; i < parts.length; i++) line += '<br>&nbsp;&nbsp;= ' + parts[i];
+    }
+    return '<div class="worked__math">' + line + '</div>';
+  }
+  function P(text) { return '<p>' + text + '</p>'; }
   function C(f) { return '<span class="chem">' + f + '</span>'; }                   // chemical formula
   function U(u) { return '<span class="unit">' + u + '</span>'; }                   // unit
   function E(a, b) { return a + ' × 10<sup>' + String(b).replace('-', '−') + '</sup>'; } // scientific notation
   var NA = E('6.02', 23);
   var NAu = NA + ' ' + U('mol-1');
+  /* Table headers that hold symbols, formulas or units: keep their letter case (table.data headers are upper-cased by default). */
+  function TH(label) { return '<th scope="col" class="num"><span style="text-transform:none;letter-spacing:0">' + label + '</span></th>'; }
 
   S1.questions.register('s1-4', [
 
@@ -88,9 +100,9 @@
         'First find the number of molecules with <span class="mono"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></span>.',
         'Then ask: how many atoms are in one molecule of ' + C('NH3') + '? Multiply by that number.'
       ],
-      solution: M('Number of molecules = 0.500 ' + U('mol') + ' × ' + NAu + ' = ' + E('3.01', 23)) +
-        M('Atoms in one ' + C('NH3') + ' molecule = 1 N + 3 H = 4') +
-        M('Number of atoms = 4 × ' + E('3.01', 23) + ' = ' + E('1.204', 24) + ' = <strong>' + E('1.20', 24) + '</strong>')
+      solution: M('<i>N</i> = 0.500 ' + U('mol') + ' × ' + NAu + ' = ' + E('3.01', 23) + ' molecules') +
+        P('Each ' + C('NH3') + ' molecule contains 1 N atom and 3 H atoms: 4 atoms.') +
+        M('<i>N</i>(atoms) = 4 × ' + E('3.01', 23) + ' = ' + E('1.204', 24) + ' = <strong>' + E('1.20', 24) + '</strong>')
     },
     {
       id: 's1-4-q005', topic: 's1-4', level: 'sl', tier: 'exam', type: 'mcq', marks: 1,
@@ -107,9 +119,9 @@
         'Write the ions in one formula unit: how many ' + C('Al^3+') + ' and how many ' + C('SO4^2-') + '?',
         'A polyatomic ion such as ' + C('SO4^2-') + ' counts as one ion. Find the amount of ions in mol, then multiply by <i>N</i><sub>A</sub>.'
       ],
-      solution: M('Ions in one formula unit = 2 ' + C('Al^3+') + ' + 3 ' + C('SO4^2-') + ' = 5') +
-        M('Amount of ions = 5 × 0.20 ' + U('mol') + ' = 1.0 ' + U('mol')) +
-        M('Number of ions = 1.0 ' + U('mol') + ' × ' + NAu + ' = <strong>' + E('6.0', 23) + '</strong>')
+      solution: P('One formula unit contains 2 ' + C('Al^3+') + ' ions and 3 ' + C('SO4^2-') + ' ions: 5 ions.') +
+        M('<i>n</i>(ions) = 5 × 0.20 ' + U('mol') + ' = 1.0 ' + U('mol')) +
+        M('<i>N</i>(ions) = 1.0 ' + U('mol') + ' × ' + NAu + ' = <strong>' + E('6.0', 23) + '</strong>')
     },
     {
       id: 's1-4-q006', topic: 's1-4', level: 'sl', tier: 'foundation', type: 'multi', marks: 1,
@@ -187,8 +199,8 @@
         'Count the atoms of each element first. The subscript 3 outside the bracket multiplies everything inside it.',
         'There are 2 Al, 3 S and 3 × 4 = 12 O. Use the 2 decimal place <i>A</i><sub>r</sub> values, not whole numbers.'
       ],
-      solution: M('Atoms in ' + C('Al2(SO4)3') + ': 2 Al, 3 S, 12 O') +
-        M('<i>M</i><sub>r</sub> = (2 × 26.98) + (3 × 32.07) + (12 × 16.00)') +
+      solution: P('Count the atoms in ' + C('Al2(SO4)3') + ': 2 Al, 3 S and 3 × 4 = 12 O.') +
+        M('<i>M</i><sub>r</sub> = (2 × 26.98) + (3 × 32.07)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ (12 × 16.00)') +
         M('<i>M</i><sub>r</sub> = 53.96 + 96.21 + 192.00 = <strong>342.17</strong> (no units)') +
         '<p>Named slips: ignoring the bracket gives 150.03 (one S and four O). Using 3 S but only 4 O gives 214.17. Using whole-number <i>A</i><sub>r</sub> values gives 342, which is not what the IB expects.</p>'
     },
@@ -318,9 +330,9 @@
         '18.02 g is the mass of one mole of molecules. How many molecules share that mass?',
         'Share the mass equally: divide the molar mass by <i>N</i><sub>A</sub>. Expect a very small number.'
       ],
-      solution: M('Mass of 1 ' + U('mol') + ' of molecules = 18.02 ' + U('g')) +
-        M('Mass of one molecule = <span class="frac"><span>18.02 ' + U('g mol-1') + '</span><span>' + NAu + '</span></span>') +
-        M('= <strong>' + E('2.99', -23) + ' ' + U('g') + '</strong>')
+      solution: P('One mole of water molecules has a mass of 18.02 ' + U('g') + '. That mass is shared between ' + NA + ' molecules.') +
+        M('<i>m</i>(one molecule) = <span class="frac"><span>18.02 ' + U('g mol-1') + '</span><span>' + NAu + '</span></span>') +
+        M('<i>m</i>(one molecule) = <strong>' + E('2.99', -23) + ' ' + U('g') + '</strong>')
     },
     {
       id: 's1-4-q018', topic: 's1-4', level: 'sl', tier: 'exam', type: 'mcq', marks: 1,
@@ -342,7 +354,7 @@
         'For each sample find the amount of molecules with <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span>.',
         'Then multiply by the number of atoms in one molecule. Compare amounts of atoms in mol. You do not need <i>N</i><sub>A</sub> to compare.'
       ],
-      solution: '<div class="table-scroll"><table class="data"><thead><tr><th scope="col">Sample</th><th scope="col" class="num"><i>M</i> / g mol<sup>−1</sup></th><th scope="col" class="num"><i>n</i> / mol</th><th scope="col" class="num">Atoms each</th><th scope="col" class="num"><i>n</i>(atoms) / mol</th></tr></thead><tbody>' +
+      solution: '<div class="table-scroll"><table class="data"><thead><tr><th scope="col">Sample</th>' + TH('<i>M</i> / g mol<sup>−1</sup>') + TH('<i>n</i> / mol') + TH('Atoms each') + TH('<i>n</i>(atoms) / mol') + '</tr></thead><tbody>' +
         '<tr><th scope="row">' + C('He') + '</th><td class="num">4.00</td><td class="num">1.00</td><td class="num">1</td><td class="num">1.00</td></tr>' +
         '<tr><th scope="row">' + C('CH4') + '</th><td class="num">16.05</td><td class="num">0.997</td><td class="num">5</td><td class="num"><strong>4.98</strong></td></tr>' +
         '<tr><th scope="row">' + C('H2O') + '</th><td class="num">18.02</td><td class="num">1.50</td><td class="num">3</td><td class="num">4.50</td></tr>' +
@@ -386,7 +398,7 @@
         'Should there be more hydrogen atoms than molecules, or fewer?'
       ],
       solution: '<p>Lines 1 to 3 are correct. In line 4 the student divided by 4. Each ' + C('CH4') + ' molecule contains 4 hydrogen atoms, so there are 4 times <em>more</em> H atoms than molecules.</p>' +
-        M('Number of H atoms = 4 × ' + E('1.20', 23) + ' = <strong>' + E('4.80', 23) + '</strong>')
+        M('<i>N</i>(H) = 4 × ' + E('1.20', 23) + ' = <strong>' + E('4.80', 23) + '</strong>')
     },
 
     /* ====================================================================
@@ -419,8 +431,8 @@
         'Count the nitrogen atoms carefully. The subscript 2 outside the bracket applies to N and to H.',
         '<i>M</i> = (2 × 14.01) + (8 × 1.01) + 32.07 + (4 × 16.00).'
       ],
-      solution: M('<i>M</i>(' + C('(NH4)2SO4') + ') = (2 × 14.01) + (8 × 1.01) + 32.07 + (4 × 16.00) = 132.17 ' + U('g mol-1') + ' &nbsp; (M1)') +
-        M('Mass of N in 1 ' + U('mol') + ' = 2 × 14.01 = 28.02 ' + U('g')) +
+      solution: M('<i>M</i> = (2 × 14.01) + (8 × 1.01)<br>&nbsp;&nbsp;&nbsp;&nbsp;+ 32.07 + (4 × 16.00)<br>&nbsp;&nbsp;= 132.17 ' + U('g mol-1') + ' &nbsp; (M1)') +
+        M('<i>m</i>(N in 1 mol) = 2 × 14.01 ' + U('g') + ' = 28.02 ' + U('g')) +
         M('% N = <span class="frac"><span>28.02</span><span>132.17</span></span> × 100 = <strong>21.2 %</strong> &nbsp; (M2)') +
         '<p>Named slip: 10.6 % means you counted one nitrogen atom instead of two.</p>'
     },
@@ -440,7 +452,7 @@
         'Divide all three amounts by the smallest one.',
         'You should get 1 : 1 : 1.5. Do not round the 1.5. What can you multiply by to make every number whole?'
       ],
-      solution: '<div class="table-scroll"><table class="data"><thead><tr><th scope="col"></th><th scope="col" class="num">Na</th><th scope="col" class="num">S</th><th scope="col" class="num">O</th></tr></thead><tbody>' +
+      solution: '<div class="table-scroll"><table class="data"><thead><tr><th scope="col"></th>' + TH('Na') + TH('S') + TH('O') + '</tr></thead><tbody>' +
         '<tr><th scope="row">Mass in 100 g / g</th><td class="num">29.1</td><td class="num">40.5</td><td class="num">30.4</td></tr>' +
         '<tr><th scope="row">÷ <i>A</i><sub>r</sub> → amount / mol</th><td class="num">1.266</td><td class="num">1.263</td><td class="num">1.900</td></tr>' +
         '<tr><th scope="row">÷ smallest (1.263)</th><td class="num">1.00</td><td class="num">1.00</td><td class="num">1.50</td></tr>' +
@@ -489,7 +501,7 @@
         M('<i>m</i>(H) = 0.1998 ' + U('mol') + ' × 1.01 ' + U('g mol-1') + ' = 0.2018 ' + U('g')) +
         M('<i>m</i>(O) = 1.50 ' + U('g') + ' − 0.9005 ' + U('g') + ' − 0.2018 ' + U('g') + ' = 0.3977 ' + U('g')) +
         M('<i>n</i>(O) = <span class="frac"><span>0.3977 ' + U('g') + '</span><span>16.00 ' + U('g mol-1') + '</span></span> = 0.02485 ' + U('mol') + ' &nbsp; (M2)') +
-        M('Divide by the smallest (0.02485): C 3.02, H 8.04, O 1.00 → 3 : 8 : 1') +
+        P('Divide each amount by the smallest (0.02485 mol):') + M('C : H : O = 3.02 : 8.04 : 1.00') +
         '<p>Empirical formula: <strong>' + C('C3H8O') + '</strong> (M3). The ratios 3.02 and 8.04 are within experimental rounding of whole numbers, so rounding is justified here.</p>'
     },
     {
@@ -507,7 +519,7 @@
         'Find the mass of one empirical formula unit, ' + C('P2O5') + '.',
         'Divide the molar mass by the empirical formula mass. The result is how many empirical units make one molecule.'
       ],
-      solution: M('Empirical formula mass of ' + C('P2O5') + ' = (2 × 30.97) + (5 × 16.00) = 141.94 ' + U('g mol-1')) +
+      solution: P('Find the mass of one empirical formula unit.') + M('<i>M</i>(' + C('P2O5') + ') = (2 × 30.97) + (5 × 16.00) = 141.94 ' + U('g mol-1')) +
         M('Number of units = <span class="frac"><span>283.88 ' + U('g mol-1') + '</span><span>141.94 ' + U('g mol-1') + '</span></span> = 2.00') +
         M('Molecular formula = 2 × ' + C('P2O5') + ' = <strong>' + C('P4O10') + '</strong>')
     },
@@ -524,7 +536,7 @@
       solution: M('<i>m</i>(' + C('H2O') + ') = 4.99 ' + U('g') + ' − 3.19 ' + U('g') + ' = 1.80 ' + U('g') + ' &nbsp; (M1)') +
         M('<i>n</i>(' + C('CuSO4') + ') = <span class="frac"><span>3.19 ' + U('g') + '</span><span>159.62 ' + U('g mol-1') + '</span></span> = 0.01998 ' + U('mol')) +
         M('<i>n</i>(' + C('H2O') + ') = <span class="frac"><span>1.80 ' + U('g') + '</span><span>18.02 ' + U('g mol-1') + '</span></span> = 0.09989 ' + U('mol') + ' &nbsp; (M2)') +
-        M('<i>x</i> = <span class="frac"><span>0.09989 ' + U('mol') + '</span><span>0.01998 ' + U('mol') + '</span></span> = 5.00, so <strong><i>x</i> = 5</strong> &nbsp; (M3)') +
+        M('<i>x</i> = <span class="frac"><span>0.09989 ' + U('mol') + '</span><span>0.01998 ' + U('mol') + '</span></span> = 5.00 &nbsp; (M3)') + P('To the nearest whole number, <strong><i>x</i> = 5</strong>.') +
         '<p>Named slips: dividing the masses (1.80 ÷ 3.19 = 0.56) skips the conversion to moles. Using 4.99 g as the mass of ' + C('CuSO4') + ' gives 3.2, because 4.99 g still includes the water.</p>'
     },
     {
@@ -560,12 +572,15 @@
       ],
       solution: M('<i>n</i>(C) = <span class="frac"><span>2.64 ' + U('g') + '</span><span>44.01 ' + U('g mol-1') + '</span></span> = 0.05999 ' + U('mol')) +
         M('<i>n</i>(H) = 2 × <span class="frac"><span>1.35 ' + U('g') + '</span><span>18.02 ' + U('g mol-1') + '</span></span> = 0.1498 ' + U('mol') + ' &nbsp; (M1)') +
-        M('<i>m</i>(O) = 1.35 ' + U('g') + ' − (0.05999 × 12.01) ' + U('g') + ' − (0.1498 × 1.01) ' + U('g')) +
+        M('<i>m</i>(C) = 0.05999 ' + U('mol') + ' × 12.01 ' + U('g mol-1') + ' = 0.7204 ' + U('g')) +
+        M('<i>m</i>(H) = 0.1498 ' + U('mol') + ' × 1.01 ' + U('g mol-1') + ' = 0.1513 ' + U('g')) +
         M('<i>m</i>(O) = 1.35 ' + U('g') + ' − 0.7204 ' + U('g') + ' − 0.1513 ' + U('g') + ' = 0.4782 ' + U('g')) +
         M('<i>n</i>(O) = <span class="frac"><span>0.4782 ' + U('g') + '</span><span>16.00 ' + U('g mol-1') + '</span></span> = 0.02989 ' + U('mol') + ' &nbsp; (M2)') +
-        M('Divide by the smallest (0.02989): C 2.01, H 5.01, O 1.00 → empirical formula ' + C('C2H5O') + ' &nbsp; (M3)') +
-        M('Empirical formula mass = (2 × 12.01) + (5 × 1.01) + 16.00 = 45.07 ' + U('g mol-1')) +
-        M('<span class="frac"><span>90.14 ' + U('g mol-1') + '</span><span>45.07 ' + U('g mol-1') + '</span></span> = 2.00, so molecular formula = <strong>' + C('C4H10O2') + '</strong> &nbsp; (M4)')
+        P('Divide each amount by the smallest (0.02989 mol):') + M('C : H : O = 2.01 : 5.01 : 1.00') +
+        P('Empirical formula: <strong>' + C('C2H5O') + '</strong> (M3). Now compare its mass with the molar mass.') +
+        M('<i>M</i>(' + C('C2H5O') + ') = (2 × 12.01) + (5 × 1.01)<br>&nbsp;&nbsp;&nbsp;&nbsp;+ 16.00<br>&nbsp;&nbsp;= 45.07 ' + U('g mol-1')) +
+        M('Number of units = <span class="frac"><span>90.14 ' + U('g mol-1') + '</span><span>45.07 ' + U('g mol-1') + '</span></span> = 2.00') +
+        P('Molecular formula = 2 × ' + C('C2H5O') + ' = <strong>' + C('C4H10O2') + '</strong> (M4).')
     },
     {
       id: 's1-4-q030', topic: 's1-4', level: 'sl', tier: 'challenge', type: 'mcq', marks: 1,
@@ -600,13 +615,13 @@
       id: 's1-4-q031', topic: 's1-4', level: 'sl', tier: 'challenge', type: 'numeric', marks: 3,
       syllabus: 'Structure 1.4.4',
       stem: '<p>A metal M forms a chloride with the formula ' + C('MCl2') + '. The chloride contains 74.47 % chlorine by mass.</p><p>Calculate the relative atomic mass of M. Give your answer to 3 significant figures.</p><p><i>A</i><sub>r</sub>(Cl) = 35.45</p>',
-      answer: 2 * 35.45 / 0.7447 - 2 * 35.45, tolerance: '1%', sigfigs: [3, 4],
+      answer: 2 * 35.45 / 0.7447 - 2 * 35.45, tolerance: '1%', sigfigs: [3, 4], answerDisplay: '24.3',
       hints: [
         'This is percentage composition in reverse. You know the formula and the percentage, and you want a molar mass.',
         'In one mole of ' + C('MCl2') + ' there are 2 × 35.45 = 70.90 g of chlorine. That 70.90 g is 74.47 % of the molar mass.',
         'Molar mass = 70.90 ÷ 0.7447. Then subtract the chlorine to leave M.'
       ],
-      solution: M('Mass of Cl in 1 ' + U('mol') + ' of ' + C('MCl2') + ' = 2 × 35.45 = 70.90 ' + U('g') + ' &nbsp; (M1)') +
+      solution: P('One mole of ' + C('MCl2') + ' contains 2 mol of Cl.') + M('<i>m</i>(Cl) = 2 × 35.45 ' + U('g') + ' = 70.90 ' + U('g') + ' &nbsp; (M1)') +
         M('<i>M</i>(' + C('MCl2') + ') = <span class="frac"><span>70.90 ' + U('g mol-1') + '</span><span>0.7447</span></span> = 95.21 ' + U('g mol-1') + ' &nbsp; (M2)') +
         M('<i>A</i><sub>r</sub>(M) = 95.21 − 70.90 = 24.31 = <strong>24.3</strong> (no units) &nbsp; (M3)') +
         '<p>The data booklet value for magnesium is 24.31, so M is magnesium. Named slips: 12.2 means you used one Cl instead of two. 95.2 means you did not subtract the chlorine.</p>'
@@ -633,9 +648,11 @@
       ],
       solution: '<p>The first error is in line 2. Each ' + C('H2O') + ' molecule contains 2 hydrogen atoms.</p>' +
         M('<i>n</i>(H) = 2 × <i>n</i>(' + C('H2O') + ') = 2 × 0.0599 ' + U('mol') + ' = 0.120 ' + U('mol')) +
+        M('<i>m</i>(C) = 0.0400 ' + U('mol') + ' × 12.01 ' + U('g mol-1') + ' = 0.480 ' + U('g')) +
+        M('<i>m</i>(H) = 0.120 ' + U('mol') + ' × 1.01 ' + U('g mol-1') + ' = 0.121 ' + U('g')) +
         M('<i>m</i>(O) = 0.920 ' + U('g') + ' − 0.480 ' + U('g') + ' − 0.121 ' + U('g') + ' = 0.319 ' + U('g')) +
         M('<i>n</i>(O) = <span class="frac"><span>0.319 ' + U('g') + '</span><span>16.00 ' + U('g mol-1') + '</span></span> = 0.0199 ' + U('mol')) +
-        M('C : H : O = 0.0400 : 0.120 : 0.0199 = 2 : 6 : 1') +
+        M('C : H : O = 0.0400 : 0.120 : 0.0199<br>&nbsp;&nbsp;= 2 : 6 : 1') +
         '<p>The correct empirical formula is ' + C('C2H6O') + '. In an exam, lines 3 and 4 would still earn credit as "error carried forward", which is why showing working matters.</p>'
     },
 
@@ -716,8 +733,8 @@
         'Both units are "per ' + U('dm3') + '". Only the top of the unit changes: grams become moles.',
         'Grams to moles: divide by the molar mass, as in <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span>.'
       ],
-      solution: M('Concentration in ' + U('mol dm-3') + ' = <span class="frac"><span>concentration in ' + U('g dm-3') + '</span><span><i>M</i></span></span>') +
-        M('= <span class="frac"><span>7.30 ' + U('g dm-3') + '</span><span>36.46 ' + U('g mol-1') + '</span></span> = 0.2002 ' + U('mol dm-3') + ' = <strong>0.200 ' + U('mol dm-3') + '</strong>') +
+      solution: P('Concentration in ' + U('mol dm-3') + ' = concentration in ' + U('g dm-3') + ' ÷ molar mass.') +
+        M('<i>C</i> = <span class="frac"><span>7.30 ' + U('g dm-3') + '</span><span>36.46 ' + U('g mol-1') + '</span></span> = 0.2002 ' + U('mol dm-3') + ' = <strong>0.200 ' + U('mol dm-3') + '</strong>') +
         '<p>Named slip: multiplying gives 266. One ' + U('dm3') + ' holding 7.30 g of a substance with <i>M</i> ≈ 36 must hold much less than one mole.</p>'
     },
     {
@@ -729,9 +746,8 @@
         'You are changing moles into grams, in every ' + U('dm3') + '. Which way does <span class="mono"><i>m</i> = <i>n</i> × <i>M</i></span> go?',
         'Multiply the molar concentration by the molar mass. Check the units: mol dm<sup>−3</sup> × g mol<sup>−1</sup> = g dm<sup>−3</sup>.'
       ],
-      solution: M('Concentration in ' + U('g dm-3') + ' = concentration in ' + U('mol dm-3') + ' × <i>M</i>') +
-        M('= 0.0250 ' + U('mol dm-3') + ' × 158.04 ' + U('g mol-1')) +
-        M('= 3.951 ' + U('g dm-3') + ' = <strong>3.95 ' + U('g dm-3') + '</strong>') +
+      solution: P('Concentration in ' + U('g dm-3') + ' = concentration in ' + U('mol dm-3') + ' × molar mass.') +
+        M('<i>C</i> = 0.0250 ' + U('mol dm-3') + ' × 158.04 ' + U('g mol-1') + ' = 3.951 ' + U('g dm-3') + ' = <strong>3.95 ' + U('g dm-3') + '</strong>') +
         '<p>Named slip: dividing gives 0.000158. One mole of ' + C('KMnO4') + ' has a mass of 158 g, so the number of grams must be bigger than the number of moles.</p>'
     },
     {
@@ -834,17 +850,19 @@
         M('<i>V</i>(A) = 500.0 ' + U('cm3') + ' ÷ 1000 = 0.5000 ' + U('dm3')) +
         M('[' + C('CaCl2') + '] in A = <span class="frac"><span>0.05001 ' + U('mol') + '</span><span>0.5000 ' + U('dm3') + '</span></span> = 0.1000 ' + U('mol dm-3') + ' &nbsp; (M1)') +
         M('[' + C('Cl-') + '] in A = 2 × 0.1000 ' + U('mol dm-3') + ' = 0.2000 ' + U('mol dm-3') + ' &nbsp; (M2)') +
-        M('[' + C('Cl-') + '] in B = 0.2000 ' + U('mol dm-3') + ' × <span class="frac"><span>10.0 ' + U('cm3') + '</span><span>250.0 ' + U('cm3') + '</span></span> = <strong>0.00800 ' + U('mol dm-3') + '</strong> &nbsp; (M3)') +
+        P('Dilution: the same ions are spread through a larger volume, so multiply by <i>V</i><sub>1</sub> ÷ <i>V</i><sub>2</sub>.') +
+        M('<span class="frac"><span><i>V</i><sub>1</sub></span><span><i>V</i><sub>2</sub></span></span> = <span class="frac"><span>10.0 ' + U('cm3') + '</span><span>250.0 ' + U('cm3') + '</span></span> = 0.0400') +
+        M('[' + C('Cl-') + '] in B = 0.2000 ' + U('mol dm-3') + ' × 0.0400 = <strong>0.00800 ' + U('mol dm-3') + '</strong> &nbsp; (M3)') +
         '<p>Named slips: 0.00400 means you forgot that each ' + C('CaCl2') + ' gives 2 chloride ions. 0.200 is solution A, before the dilution.</p>'
     },
     {
       id: 's1-4-q045', topic: 's1-4', level: 'sl', tier: 'challenge', type: 'numeric', marks: 3,
       syllabus: 'Structure 1.4.5',
       stem: '<p>A student makes a calibration curve for a coloured solution of copper(II) sulfate by measuring the absorbance of four standard solutions in a colorimeter.</p>' +
-        '<div class="table-scroll"><table class="data"><caption>Calibration data</caption><thead><tr><th scope="col" class="num">[' + C('CuSO4') + '] / mol dm<sup>−3</sup></th><th scope="col" class="num">Absorbance</th></tr></thead><tbody>' +
+        '<div class="table-scroll"><table class="data"><caption>Calibration data</caption><thead><tr>' + TH('[' + C('CuSO4') + '] / mol dm<sup>−3</sup>') + TH('Absorbance') + '</tr></thead><tbody>' +
         '<tr><td class="num">0.010</td><td class="num">0.120</td></tr><tr><td class="num">0.020</td><td class="num">0.240</td></tr><tr><td class="num">0.030</td><td class="num">0.360</td></tr><tr><td class="num">0.040</td><td class="num">0.480</td></tr></tbody></table></div>' +
         '<p>The graph of absorbance against concentration is a straight line through the origin.</p><p>An unknown solution is too dark to measure directly. The student dilutes 5.00 ' + U('cm3') + ' of it to 100.0 ' + U('cm3') + '. The diluted solution has an absorbance of 0.300.</p><p>Determine the concentration of the <strong>original</strong> unknown solution, in ' + U('mol dm-3') + '. Give your answer to 2 significant figures.</p>',
-      answer: 0.50, tolerance: '2%', sigfigs: [2, 3], unit: 'mol dm-3',
+      answer: 0.50, tolerance: '2%', sigfigs: [2, 3], unit: 'mol dm-3', answerDisplay: '0.50',
       hints: [
         'A calibration curve turns a measurement (absorbance) into a concentration. Find the gradient of the line: absorbance per ' + U('mol dm-3') + '.',
         'Use the line to read the concentration of the <em>diluted</em> solution: concentration = absorbance ÷ gradient.',
@@ -852,7 +870,9 @@
       ],
       solution: M('Gradient = <span class="frac"><span>0.480</span><span>0.040 ' + U('mol dm-3') + '</span></span> = 12.0 ' + U('dm3 mol-1') + ' &nbsp; (M1)') +
         M('<i>C</i>(diluted) = <span class="frac"><span>0.300</span><span>12.0 ' + U('dm3 mol-1') + '</span></span> = 0.0250 ' + U('mol dm-3') + ' &nbsp; (M2)') +
-        M('<i>C</i>(original) = 0.0250 ' + U('mol dm-3') + ' × <span class="frac"><span>100.0 ' + U('cm3') + '</span><span>5.00 ' + U('cm3') + '</span></span> = <strong>0.50 ' + U('mol dm-3') + '</strong> &nbsp; (M3)') +
+        P('Undo the dilution. The original solution is more concentrated by the factor <i>V</i><sub>2</sub> ÷ <i>V</i><sub>1</sub>.') +
+        M('<span class="frac"><span><i>V</i><sub>2</sub></span><span><i>V</i><sub>1</sub></span></span> = <span class="frac"><span>100.0 ' + U('cm3') + '</span><span>5.00 ' + U('cm3') + '</span></span> = 20.0') +
+        M('<i>C</i>(original) = 0.0250 ' + U('mol dm-3') + ' × 20.0 = <strong>0.50 ' + U('mol dm-3') + '</strong> &nbsp; (M3)') +
         '<p>The absorbance 0.300 lies between the standards (0.240 and 0.360), so the reading is inside the range of the calibration line. That is why the dark solution was diluted first. Named slips: 0.025 is the diluted solution. 0.00125 means you applied the dilution factor the wrong way round.</p>'
     },
 
@@ -890,7 +910,7 @@
         'For gases at the same temperature and pressure, the ratio of volumes is the same as the ratio of moles in the equation.',
         'The equation shows 1 volume of ' + C('N2') + ' reacting with 3 volumes of ' + C('H2') + '.'
       ],
-      solution: M('Mole ratio ' + C('N2') + ' : ' + C('H2') + ' = 1 : 3, so volume ratio = 1 : 3') +
+      solution: P('The mole ratio ' + C('N2') + ' : ' + C('H2') + ' is 1 : 3. At the same temperature and pressure the volume ratio is also 1 : 3.') +
         M('<i>V</i>(' + C('H2') + ') = 3 × 30 ' + U('cm3') + ' = <strong>90 ' + U('cm3') + '</strong>') +
         '<p>No molar masses or conversions to moles are needed. Avogadro\'s law lets you use the coefficients directly on the volumes.</p>'
     },
@@ -913,7 +933,7 @@
       solution: M('<i>V</i>(' + C('O2') + ') reacting = 5 × 20 ' + U('cm3') + ' = 100 ' + U('cm3')) +
         M('<i>V</i>(' + C('O2') + ') left over = 150 ' + U('cm3') + ' − 100 ' + U('cm3') + ' = 50 ' + U('cm3')) +
         M('<i>V</i>(' + C('CO2') + ') formed = 3 × 20 ' + U('cm3') + ' = 60 ' + U('cm3')) +
-        M('<i>V</i>(' + C('H2O') + ') = negligible, because it is a liquid') +
+        P('The water is a liquid, so its volume is negligible.') +
         M('Total gas = 50 ' + U('cm3') + ' + 60 ' + U('cm3') + ' = <strong>110 ' + U('cm3') + '</strong>')
     },
     {
@@ -925,7 +945,7 @@
         'At the same temperature and pressure, volume ratio = mole ratio.',
         'The ratio is 2 volumes of butane to 13 volumes of oxygen. Watch the 2 in front of the butane: the ratio is not 1 : 13.'
       ],
-      solution: M('Mole ratio ' + C('C4H10') + ' : ' + C('O2') + ' = 2 : 13, so volume ratio = 2 : 13') +
+      solution: P('The mole ratio ' + C('C4H10') + ' : ' + C('O2') + ' is 2 : 13. At the same temperature and pressure the volume ratio is also 2 : 13.') +
         M('<i>V</i>(' + C('O2') + ') = 20.0 ' + U('cm3') + ' × <span class="frac"><span>13</span><span>2</span></span> = <strong>130 ' + U('cm3') + '</strong>') +
         '<p>Named slip: 260 ' + U('cm3') + ' means you multiplied by 13 and ignored the coefficient 2 on butane.</p>'
     },
@@ -945,8 +965,8 @@
         'One molecule of hydrocarbon gives 3 molecules of ' + C('CO2') + ' and 4 molecules of ' + C('H2O') + '.',
         'All the C atoms end up in ' + C('CO2') + ' and all the H atoms end up in ' + C('H2O') + '. Count the atoms.'
       ],
-      solution: M('Volume ratio hydrocarbon : ' + C('CO2') + ' : ' + C('H2O') + ' = 10 : 30 : 40 = 1 : 3 : 4') +
-        M('1 molecule of hydrocarbon → 3 ' + C('CO2') + ' + 4 ' + C('H2O')) +
+      solution: P('Volume ratio, hydrocarbon : ' + C('CO2') + ' : ' + C('H2O') + ':') + M('10 : 30 : 40 = 1 : 3 : 4') +
+        P('So 1 molecule of hydrocarbon gives 3 molecules of ' + C('CO2') + ' and 4 molecules of ' + C('H2O') + '.') +
         M('C atoms: <i>x</i> = 3 × 1 = 3') + M('H atoms: <i>y</i> = 4 × 2 = 8') +
         '<p>The hydrocarbon is <strong>' + C('C3H8') + '</strong>. Here the water counts as a gas because the temperature is above 100 °C.</p>'
     },
@@ -971,8 +991,10 @@
         'Then compare one molecule of each gas: how many atoms does it have, and what is its molar mass?'
       ],
       solution: '<p>Same volume, temperature and pressure means the same number of molecules, and so the same amount in moles, <i>n</i>.</p>' +
-        M('Atoms: ' + C('NH3') + ' has 4 per molecule, ' + C('O2') + ' has 2 → flask A has twice as many atoms') +
-        M('Mass: <i>m</i> = <i>n</i> × <i>M</i>. <i>M</i>(' + C('NH3') + ') = 17.04 ' + U('g mol-1') + ', <i>M</i>(' + C('O2') + ') = 32.00 ' + U('g mol-1') + ' → flask B has the greater mass')
+        P('Atoms: ' + C('NH3') + ' has 4 atoms per molecule and ' + C('O2') + ' has 2. So flask A contains twice as many atoms.') +
+        P('Mass: <i>m</i> = <i>n</i> × <i>M</i>, and <i>n</i> is the same for both.') +
+        M('<i>M</i>(' + C('NH3') + ') = 17.04 ' + U('g mol-1')) + M('<i>M</i>(' + C('O2') + ') = 32.00 ' + U('g mol-1')) +
+        P('Oxygen has the larger molar mass, so flask B has the greater mass.')
     }
   ]);
 })();

@@ -23,8 +23,18 @@
   function sci(m, e) {
     return m + ' ' + TIMES + ' 10<sup>' + (e < 0 ? MINUS + (-e) : e) + '</sup>';
   }
+  // Lines of working. Long lines are broken before '=' (and before '× (' or '÷ (') so they fit a phone screen.
+  function plainLen(h) { return h.replace(/<[^>]+>/g, '').replace(/&nbsp;/g, ' ').length; }
   function math(lines) {
-    return lines.map(function (l) { return '<div class="worked__math">' + l + '</div>'; }).join('');
+    var IND = '<br>&nbsp;&nbsp;';
+    return lines.map(function (l) {
+      if (plainLen(l) > 34) {
+        l = l.split(' = ').map(function (part) {
+          return plainLen(part) > 32 ? part.replace(/ ([\u00d7\u00f7]) \(/g, IND + '$1 (') : part;
+        }).join(IND + '= ');
+      }
+      return '<div class="worked__math">' + l + '</div>';
+    }).join('');
   }
   function ieTable(caption, head, rows) {
     var h = '<div class="table-scroll" tabindex="0"><table class="data"><caption>' + caption + '</caption><thead><tr>';
@@ -73,7 +83,7 @@
     function arrow(x, from, to, name) {
       var y1 = y[from], y2 = y[to] - 2;
       s += '<path d="M' + x + ' ' + y1 + 'V' + y2 + 'M' + (x - 5) + ' ' + (y2 - 8) + 'L' + x + ' ' + y2 + 'L' + (x + 5) + ' ' + (y2 - 8) + '" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>';
-      s += '<text x="' + (x + 9) + '" y="' + ((y1 + y2) / 2 + 5) + '" font-size="14" font-weight="700" fill="currentColor">' + name + '</text>';
+      s += '<text x="' + (x + 9) + '" y="' + (y2 - 12) + '" font-size="14" font-weight="700" fill="currentColor">' + name + '</text>';
     }
     arrow(96, 2, 1, 'P'); arrow(148, 3, 2, 'Q'); arrow(200, 5, 2, 'R'); arrow(252, 4, 3, 'S');
     return '<p><svg viewBox="0 0 300 210" width="300" height="210" role="img" aria-label="Energy level diagram for hydrogen, not to scale. Horizontal lines for n = 1 at the bottom up to n = 5, getting closer together, and a dashed line for n = infinity at the top. Four downward arrows: P from n = 2 to n = 1, Q from n = 3 to n = 2, R from n = 5 to n = 2, S from n = 4 to n = 3.">' + s + '</svg></p>';
@@ -161,7 +171,7 @@
     syllabus: 'Structure 1.3.1',
     stem: '<p>Put these types of electromagnetic radiation in order of <strong>increasing frequency</strong> (lowest frequency first).</p>',
     options: ['Infrared', 'Red light', 'Green light', 'Violet light', 'Ultraviolet'],
-    hints: ['Increasing frequency is the same order as increasing energy and <em>decreasing</em> wavelength.', 'Infrared lies just beyond the red end of the visible region. Ultraviolet lies just beyond the violet end.'],
+    hints: ['Increasing frequency is the same order as increasing energy and <em>decreasing</em> wavelength.', 'Infrared lies next to the red end of the visible region. Ultraviolet lies next to the violet end.'],
     solution: '<p>Infrared has the longest wavelength of these, so it has the lowest frequency. Within the visible region the wavelength falls from red (about 700 nm) through green to violet (about 400 nm), so the frequency rises. Ultraviolet has a shorter wavelength than violet, so it has the highest frequency and the highest energy.</p>'
   },
   {

@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1.5 Ideal gases | Structure 1 Lab</title>
+<meta name="description" content="IB Chemistry Structure 1.5: the ideal gas model, real gases, molar volume at STP, gas-law graphs, the combined gas law and PV = nRT, with interactive models and worked calculations.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for the 1.5 widgets. Tokens only. */
+.g5-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(10.5rem, 1fr)); gap: 0.75rem; }
+.g5-grid--shapes { grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr)); margin-bottom: 1rem; }
+.g5-card { border: 1px solid var(--line); background: var(--surface); padding: 0.5rem 0.6rem 0.6rem; min-width: 0; }
+.g5-card p { margin: 0.25rem 0 0; font-size: 0.86rem; line-height: 1.4; }
+.g5-card__w { color: var(--ink-2); }
+.g5-svg { display: block; width: 100%; height: auto; max-width: 15rem; }
+.g5-lead { margin: 0 0 0.75rem; font-size: 0.95rem; }
+.g5-rows { list-style: none; margin: 0 0 1rem; padding: 0; border-top: 1px solid var(--line); }
+.g5-rows > li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0.3rem 0.75rem; align-items: center; padding: 0.55rem 0; border-bottom: 1px solid var(--line); margin: 0; }
+.g5-rows label { font-size: 0.95rem; }
+.g5-mark { grid-column: 1 / -1; font-size: 0.86rem; color: var(--ink-2); }
+.g5-mark:empty { display: none; }
+.g5-mark--ok { color: var(--ink); border-left: 3px solid var(--ok); padding-left: 0.5rem; }
+.g5-mark--no { color: var(--ink); border-left: 3px solid var(--bad); padding-left: 0.5rem; }
+.s5-form { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 0.75rem 1.25rem; margin-bottom: 1rem; }
+.s5-field { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0.2rem 0.5rem; align-items: center; min-width: 0; }
+.s5-field .field-label { grid-column: 1 / -1; margin: 0; font-weight: 400; }
+.s5-field .input { width: 100%; min-width: 0; font-family: var(--font-mono); }
+.s5-steps { margin: 0; padding-left: 1.4rem; }
+.s5-steps > li { margin: 0 0 0.75rem; }
+.s5-steps h5 { margin: 0 0 0.35rem; font-size: 0.95rem; font-family: var(--font-body); }
+.s5-steps .worked__math + .worked__math { margin-top: 0.3rem; }
+.s5-small { font-size: 0.86rem; color: var(--ink-2); margin: 0.35rem 0 0; }
+.s5-err { margin: 0; padding: 0.6rem 0.8rem; border-left: 3px solid var(--bad); background: var(--bad-soft); }
+.s5-notes { margin: 0; padding-left: 1.1rem; }
+.s5-notes li { margin: 0 0 0.3rem; }
+.method { counter-reset: none; }
+</style>
+</head>
+<body data-page="s1-5">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="s1-5"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Structure 1.5</p>
+      <h1>Ideal gases</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>How does the model of ideal gas behaviour help us to predict the behaviour of real gases?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <section class="topic-section" id="goals">
+        <h2>What you need to be able to do</h2>
+        <p>Tick each one when you can do it without looking at your notes. Everything in this topic is SL core. There is no Additional HL content in 1.5.</p>
+        <ul class="checklist" data-s1-checklist="s1-5">
+          <li data-id="assumptions" data-level="sl">Recognize the key assumptions of the ideal gas model.</li>
+          <li data-id="limitations" data-level="sl">Explain why real gases deviate from the model, especially at low temperature and high pressure.</li>
+          <li data-id="molar-volume" data-level="sl">Use the molar volume of an ideal gas at STP to convert between amount and gas volume.</li>
+          <li data-id="graphs" data-level="sl">Describe and sketch how pressure, volume and temperature are related for a fixed mass of gas, and analyse graphs of these variables.</li>
+          <li data-id="combined" data-level="sl">Use the combined gas law when the conditions of a gas change.</li>
+          <li data-id="pvnrt" data-level="sl">Solve problems with <i>PV</i> = <i>nRT</i>, using consistent units.</li>
+          <li data-id="molar-mass" data-level="sl">Calculate the molar mass of a gas from experimental data.</li>
+        </ul>
+      </section>
+
+      <!-- ================================================= 1.5.1 -->
+      <section class="topic-section" id="model">
+        <span class="section-code">Structure 1.5.1</span>
+        <h2>The ideal gas model</h2>
+        <p>Pump up a bicycle tyre and you can feel the gas pushing back. That push is <dfn data-def="The force per unit area on a surface. For a gas it comes from particles colliding with the walls of the container.">pressure</dfn>. It comes from billions of tiny particles hitting the inside of the tyre.</p>
+        <p>Real gas particles are complicated. So chemists use a simplified picture called an <dfn data-def="A model gas made of moving particles with negligible volume and no intermolecular forces, in which all collisions are elastic.">ideal gas</dfn>. It is a model: it leaves out details to make the mathematics manageable.</p>
+        <p>The model makes four assumptions. Learn these four.</p>
+        <ol>
+          <li>The gas consists of <strong>moving particles</strong>.</li>
+          <li>The particles have <strong>negligible volume</strong>. The particles themselves take up almost none of the space in the container.</li>
+          <li>There are <strong>no intermolecular forces</strong>. The particles do not attract or repel each other.</li>
+          <li>All collisions between particles are <strong>elastic</strong>.</li>
+        </ol>
+        <p>An <dfn data-def="A collision in which the total kinetic energy of the particles is the same before and after.">elastic collision</dfn> is one where no kinetic energy is lost overall. The particles bounce apart with the same total kinetic energy they had before.</p>
+        <p><dfn data-def="Small enough to be ignored without changing the answer in any way that matters.">Negligible</dfn> means small enough to ignore. A gas at room conditions is almost entirely empty space, so ignoring the size of the particles is usually a very good approximation.</p>
+
+        <aside class="callout callout--key">
+          <p>An ideal gas does not exist. It is a model that real gases follow closely under everyday conditions. That is why one equation works for hydrogen, oxygen and carbon dioxide alike.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>If you are asked to state assumptions, use the exact phrases: <em>negligible volume</em> (of the particles), <em>no intermolecular forces</em>, <em>elastic collisions</em>. Writing “the gas has no volume” loses the mark. The gas fills its container. It is the particles whose volume is negligible.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>Textbooks often list more assumptions and go on to derive gas pressure from particle speeds. The four statements above are what the IB guide lists. You do not need the kinetic energy equation (<span class="mono">E = 3/2 RT</span>), root-mean-square speeds or any derivation.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s1-5-q001,s1-5-q002,s1-5-q020" data-count="0" data-title="Ideal gas model: quick check"></div>
+      </section>
+
+      <!-- ================================================= 1.5.2 -->
+      <section class="topic-section" id="real">
+        <span class="section-code">Structure 1.5.2</span>
+        <h2 data-toc="Real gases">Real gases and the limits of the model</h2>
+        <p>Cool steam and it turns into liquid water. An ideal gas could never do that, because its particles do not attract each other. So real gases cannot be exactly ideal.</p>
+        <p>A <dfn data-def="An actual gas. Its particles have a volume of their own and attract each other, so it does not follow the ideal gas model exactly.">real gas</dfn> breaks two of the assumptions. Its particles do have some volume, and they do attract each other. Under most conditions both effects are tiny. Under two conditions they are not.</p>
+
+        <h3>High pressure: particle volume matters</h3>
+        <p>At high pressure the gas is squeezed into a small space. The particles are close together. Their own volume is now a noticeable share of the container, so it is no longer negligible. Because the particles are close, the forces between them are also more significant.</p>
+
+        <h3>Low temperature: intermolecular forces matter</h3>
+        <p>At low temperature the particles have less kinetic energy and move more slowly. Slow particles are affected more by the attractions between them, so the intermolecular forces are no longer negligible. Cool a real gas far enough and those forces pull the particles together into a liquid.</p>
+
+        <aside class="callout callout--key">
+          <p>Real gases deviate most from ideal behaviour at <strong>low temperature and high pressure</strong>. They behave most like an ideal gas at <strong>high temperature and low pressure</strong>.</p>
+        </aside>
+
+        <figure data-s1-widget="s1-5.real" data-title="Real versus ideal: when does the model break down?" data-kicker="Qualitative model">
+          <p class="widget__fallback">An interactive picture of gas particles appears here when JavaScript is on. In words: at high pressure the particles are crowded, so their volume matters. At low temperature they are slow, so the attractions between them matter.</p>
+          <figcaption>Move the temperature and pressure sliders and watch the three bars. Dashed lines mark attractions between slow, close particles. This is an illustration to build your intuition. Nothing here is calculated from an equation, and the particles are drawn far too large.</figcaption>
+        </figure>
+
+        <h3>Which gases are closest to ideal?</h3>
+        <p>Gases with <strong>weak intermolecular forces</strong> and <strong>small particles</strong> match the model best. Helium and hydrogen are very close to ideal under ordinary conditions. Gases with stronger attractions between their molecules, such as ammonia, deviate more under the same conditions.</p>
+        <p>You will study the types of intermolecular force in Structure 2.2. For now, one clue is enough: a gas with a higher boiling point has stronger forces between its particles.</p>
+
+        <aside class="callout callout--exam">
+          <p>For “explain why a real gas deviates” questions, give a condition and a reason for each mark. <em>High pressure: particles are close together, so the volume of the particles is not negligible.</em> <em>Low temperature: particles move more slowly, so intermolecular forces become significant.</em></p>
+        </aside>
+
+        <aside class="callout callout--mistake">
+          <p>Do not swap the conditions. “High temperature and low pressure” describes where a gas is <em>most</em> ideal. A quick check: think of where a gas turns into a liquid (cold and squeezed). That is where it is least ideal.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>No mathematics is required for real gases. You do not need the van der Waals equation, the compressibility factor <i>Z</i>, or any calculation of how far a gas deviates. A reasoned explanation in words is all the IB asks for.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s1-5-q003,s1-5-q018,s1-5-q019" data-count="0" data-title="Real gases: quick check"></div>
+      </section>
+
+      <!-- ================================================= 1.5.3 molar volume -->
+      <section class="topic-section" id="molar-volume">
+        <span class="section-code">Structure 1.5.3</span>
+        <h2 data-toc="Molar volume at STP">Molar volume of an ideal gas</h2>
+        <p>Picture a box a little under 30 cm along each side, about the space taken up by four footballs. At 0 °C and 100 kPa, that box holds one mole of gas. It does not matter which gas.</p>
+        <p>This follows from Avogadro’s law, which you met in Structure 1.4: equal volumes of gases at the same temperature and pressure contain equal numbers of molecules. Turn it around: equal numbers of molecules occupy equal volumes.</p>
+        <p>The <dfn data-def="The volume occupied by one mole of an ideal gas. It is a constant at a specific temperature and pressure.">molar volume</dfn>, <i>V</i><sub>m</sub>, is the volume of one mole of an ideal gas. It is a constant at a specific temperature and pressure.</p>
+        <p><dfn data-def="Standard temperature and pressure: 273.15 K (0 °C) and 100 kPa.">STP</dfn> stands for standard temperature and pressure: <span class="mono">273.15 K</span> (0 °C) and <span class="mono">100 kPa</span>. At STP the molar volume of an ideal gas is <span class="mono">22.7 dm<sup>3</sup> mol<sup>−1</sup></span>.</p>
+
+        <div class="eq">
+          <div class="eq__formula"><i>n</i> = <span class="frac"><span><i>V</i></span><span><i>V</i><sub>m</sub></span></span></div>
+          <dl class="eq__legend">
+            <div><dt>n</dt><dd>amount of gas <span class="unit">mol</span></dd></div>
+            <div><dt>V</dt><dd>volume of the gas <span class="unit">dm3</span></dd></div>
+            <div><dt>V<sub>m</sub></dt><dd>molar volume, 22.7 at STP <span class="unit">dm3 mol-1</span></dd></div>
+          </dl>
+        </div>
+
+        <aside class="callout callout--booklet">
+          <p>The data booklet gives the molar volume of an ideal gas at STP as <span class="mono">22.7 dm<sup>3</sup> mol<sup>−1</sup></span> (also written <span class="mono">2.27 × 10<sup>−2</sup> m<sup>3</sup> mol<sup>−1</sup></span>), with STP defined as 273.15 K and 100 kPa. The relationship <i>n</i> = <i>V</i> ÷ <i>V</i><sub>m</sub> is not printed, so learn it.</p>
+        </aside>
+
+        <figure data-s1-widget="s1-5.molar" data-title="How big is a mole of gas at STP?" data-kicker="To scale">
+          <p class="widget__fallback">An interactive scale drawing appears here when JavaScript is on. One mole of an ideal gas at STP fills a cube with sides of 28.3 cm.</p>
+          <figcaption>Move either slider. The shaded cube shows the gas at STP, drawn to the same scale as a football and a 1 dm<sup>3</sup> cube. The amount and the volume always stay in the ratio 22.7 dm<sup>3</sup> for each mole.</figcaption>
+        </figure>
+
+        <aside class="callout callout--mistake">
+          <p>Older books and many websites use <span class="mono">22.4 dm<sup>3</sup> mol<sup>−1</sup></span>. That value belongs to an older definition of standard pressure. In IB Chemistry the value is <span class="mono">22.7</span>. Using 22.4 gives a wrong answer.</p>
+        </aside>
+
+        <h3>Method in words</h3>
+        <ol class="method">
+          <li>Check the conditions are STP. If they are not, use <i>PV</i> = <i>nRT</i> instead (later on this page).</li>
+          <li>Put the volume in dm<sup>3</sup>. To convert from cm<sup>3</sup>, divide by 1000.</li>
+          <li>To find amount: <i>n</i> = <i>V</i> ÷ 22.7. To find volume: <i>V</i> = <i>n</i> × 22.7.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Amount from a gas volume at STP</h3>
+          <div class="worked__problem">
+            <p>A sample of nitrogen gas occupies 568 cm<sup>3</sup> at STP. Calculate the amount of nitrogen, in mol.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Convert the volume to dm³">
+              <p class="worked__why">The molar volume is in dm<sup>3</sup> mol<sup>−1</sup>, so the volume must be in dm<sup>3</sup> too. There are 1000 cm<sup>3</sup> in 1 dm<sup>3</sup>.</p>
+              <div class="worked__math"><i>V</i> = 568 cm<sup>3</sup> ÷ 1000 = 0.568 dm<sup>3</sup></div>
+            </li>
+            <li data-title="Write the relationship">
+              <p class="worked__why">The gas is at STP, so one mole occupies 22.7 dm<sup>3</sup>.</p>
+              <div class="worked__math"><i>n</i> = <i>V</i> ÷ <i>V</i><sub>m</sub></div>
+            </li>
+            <li data-title="Substitute with units">
+              <p class="worked__why">dm<sup>3</sup> divided by dm<sup>3</sup> mol<sup>−1</sup> leaves mol. The units confirm the method.</p>
+              <div class="worked__math"><i>n</i> = 0.568 dm<sup>3</sup> ÷ 22.7 dm<sup>3</sup> mol<sup>−1</sup> = 0.025022… mol</div>
+            </li>
+            <li data-title="Round to the data">
+              <p class="worked__why">568 cm<sup>3</sup> and 22.7 both have 3 significant figures.</p>
+              <div class="worked__math"><i>n</i> = <b>0.0250 mol</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>0.0250 mol of N<sub>2</sub></p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="0.9534" data-tolerance="1%" data-sigfigs="3" data-unit="dm3">
+          <div class="tryit__q"><p>Calculate the volume, in dm<sup>3</sup>, occupied by 0.0420 mol of carbon dioxide at STP.</p></div>
+          <ol class="tryit__hints">
+            <li>At STP, every mole of an ideal gas occupies the same volume. Which data booklet value is that?</li>
+            <li><i>V</i> = <i>n</i> × <i>V</i><sub>m</sub> = <span class="mono">0.0420 mol × 22.7 dm<sup>3</sup> mol<sup>−1</sup></span>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>V</i> = 0.0420 mol × 22.7 dm<sup>3</sup> mol<sup>−1</sup> = 0.9534 dm<sup>3</sup></div>
+            <p>To 3 significant figures: <strong>0.953 dm<sup>3</sup></strong>.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="0.055066" data-tolerance="1%" data-sigfigs="3" data-unit="mol">
+          <div class="tryit__q"><p>A balloon contains 1250 cm<sup>3</sup> of helium at STP. Calculate the amount of helium, in mol.</p></div>
+          <ol class="tryit__hints">
+            <li>Convert the volume first: 1250 cm<sup>3</sup> is how many dm<sup>3</sup>?</li>
+            <li><i>n</i> = <i>V</i> ÷ <i>V</i><sub>m</sub> = <span class="mono">1.25 dm<sup>3</sup> ÷ 22.7 dm<sup>3</sup> mol<sup>−1</sup></span>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>V</i> = 1250 cm<sup>3</sup> ÷ 1000 = 1.25 dm<sup>3</sup></div>
+            <div class="worked__math"><i>n</i> = 1.25 dm<sup>3</sup> ÷ 22.7 dm<sup>3</sup> mol<sup>−1</sup> = 0.055066… mol</div>
+            <p>To 3 significant figures: <strong>0.0551 mol</strong>.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>22.7 dm<sup>3</sup> mol<sup>−1</sup> works only at STP. If a question gives any other temperature or pressure, such as 25 °C, the molar volume is different and you need <i>PV</i> = <i>nRT</i>.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s1-5-q004,s1-5-q005,s1-5-q025,s1-5-q031" data-count="0" data-title="Molar volume: quick check"></div>
+      </section>
+
+      <!-- ================================================= 1.5.3 relationships and graphs -->
+      <section class="topic-section" id="graphs">
+        <span class="section-code">Structure 1.5.3</span>
+        <h2 data-toc="P, V and T graphs">How pressure, volume and temperature are related</h2>
+        <p>Push the plunger of a sealed syringe and it pushes back harder. Leave a football outside on a cold night and it goes soft. These are the relationships in this section.</p>
+        <p>A gas sample is described by four variables: pressure <i>P</i>, volume <i>V</i>, temperature <i>T</i> and amount <i>n</i>. To see how two of them are related, you hold the others constant. A <dfn data-def="A sample in which the amount of gas, n, does not change. No gas enters or leaves.">fixed mass</dfn> of gas means <i>n</i> is constant.</p>
+
+        <figure data-s1-widget="s1-5.sandbox" data-title="Ideal gas sandbox" data-kicker="Model">
+          <p class="widget__fallback">An interactive gas container with a live graph appears here when JavaScript is on. It lets you change one variable at a time and watch the graph being traced.</p>
+          <figcaption>Choose an experiment, then drag the highlighted variable or press “Run the experiment”. The pressure is calculated from <i>PV</i> = <i>nRT</i>. In the picture, the particle speed scales with √<i>T</i>, the number of particles with <i>n</i>, and the length of the cylinder with <i>V</i>. The particles are drawn much larger than to scale, and there are far fewer of them than in a real sample.</figcaption>
+        </figure>
+
+        <h3>Pressure and volume (temperature constant)</h3>
+        <p>Squeeze a gas into half the volume and the particles hit the walls twice as often. The pressure doubles.</p>
+        <p>Pressure is <dfn data-def="Two quantities are inversely proportional if one doubles when the other halves. Their product is constant.">inversely proportional</dfn> to volume: <span class="mono"><i>P</i> ∝ 1/<i>V</i></span>, so <span class="mono"><i>PV</i> = constant</span>. A graph of <i>P</i> against <i>V</i> is a curve. A graph of <i>P</i> against 1/<i>V</i> is a straight line through the origin.</p>
+
+        <h3>Volume and temperature (pressure constant)</h3>
+        <p>Heat a gas in a container with a freely moving piston. The particles move faster and push the piston out until the pressure inside matches the pressure outside again. The volume increases.</p>
+        <p>Volume is <dfn data-def="Two quantities are directly proportional if doubling one doubles the other. Their graph is a straight line through the origin.">directly proportional</dfn> to the temperature in kelvin: <span class="mono"><i>V</i> ∝ <i>T</i></span>, so <span class="mono"><i>V</i>/<i>T</i> = constant</span>. A graph of <i>V</i> against <i>T</i> in kelvin is a straight line through the origin.</p>
+        <p>Plot the same data against temperature in °C and you still get a straight line, but it does not pass through the origin. Extend the line backwards (extrapolate) and it reaches zero volume at <span class="mono">−273.15 °C</span>. That temperature is <dfn data-def="0 K or −273.15 °C: the lowest possible temperature, at which an ideal gas would have zero volume.">absolute zero</dfn>, 0 K.</p>
+
+        <h3>Pressure and temperature (volume constant)</h3>
+        <p>Heat a gas in a rigid container. The particles move faster, so they hit the walls harder and more often. The pressure increases.</p>
+        <p>Pressure is directly proportional to the temperature in kelvin: <span class="mono"><i>P</i> ∝ <i>T</i></span>, so <span class="mono"><i>P</i>/<i>T</i> = constant</span>. A graph of <i>P</i> against <i>T</i> in kelvin is a straight line through the origin.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Three relationships for a fixed mass of an ideal gas</caption>
+            <thead>
+              <tr><th scope="col">Held constant</th><th scope="col">Relationship</th><th scope="col">What stays the same</th><th scope="col">Graph</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row"><i>T</i></th><td><i>P</i> ∝ 1/<i>V</i> (inverse)</td><td class="mono"><i>P</i><sub>1</sub><i>V</i><sub>1</sub> = <i>P</i><sub>2</sub><i>V</i><sub>2</sub></td><td><i>P</i> against <i>V</i>: curve. <i>P</i> against 1/<i>V</i>: line through origin.</td></tr>
+              <tr><th scope="row"><i>P</i></th><td><i>V</i> ∝ <i>T</i> (direct, <i>T</i> in K)</td><td class="mono"><i>V</i><sub>1</sub>/<i>T</i><sub>1</sub> = <i>V</i><sub>2</sub>/<i>T</i><sub>2</sub></td><td><i>V</i> against <i>T</i>/K: line through origin.</td></tr>
+              <tr><th scope="row"><i>V</i></th><td><i>P</i> ∝ <i>T</i> (direct, <i>T</i> in K)</td><td class="mono"><i>P</i><sub>1</sub>/<i>T</i><sub>1</sub> = <i>P</i><sub>2</sub>/<i>T</i><sub>2</sub></td><td><i>P</i> against <i>T</i>/K: line through origin.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>The direct proportions work only in kelvin. Heating a gas from 20 °C to 40 °C does not double its volume or pressure. In kelvin that is 293 K to 313 K, an increase of about 7 %.</p>
+        </aside>
+
+        <figure data-s1-widget="s1-5.gallery" data-title="Gas-law graphs: the shapes to know">
+          <p class="widget__fallback">A gallery of six sketch graphs appears here when JavaScript is on. P against V is a falling curve. P against 1/V, V against T in kelvin and P against T in kelvin are straight lines through the origin. V against T in °C is a straight line that meets the temperature axis at −273.15 °C. PV against P is a horizontal line.</p>
+          <figcaption>Study the six sketches, then press “Test yourself” and match each relationship to its shape. Notice that <i>PV</i> against <i>P</i> is flat: at constant temperature the product <i>PV</i> does not change.</figcaption>
+        </figure>
+
+        <aside class="callout callout--exam">
+          <p>When you sketch a graph, label both axes with the quantity and its unit, and make it clear whether a straight line passes through the origin. For <i>V</i> against <i>T</i> in °C, show the line meeting the temperature axis at −273 °C, usually as a dashed extrapolation.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>These relationships have historical names (Boyle’s law, Charles’s law, Gay-Lussac’s law). The IB will not assess the names. You need the relationships and their graphs, not who discovered them.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s1-5-q006,s1-5-q009,s1-5-q016,s1-5-q017,s1-5-q026" data-count="0" data-title="Relationships and graphs: quick check"></div>
+      </section>
+
+      <!-- ================================================= 1.5.4 combined gas law -->
+      <section class="topic-section" id="combined">
+        <span class="section-code">Structure 1.5.4</span>
+        <h2>The combined gas law</h2>
+        <p>A weather balloon rises. The air outside gets colder and the pressure drops, both at once. To find the new volume you need one equation that handles pressure, volume and temperature together.</p>
+        <p>Putting the three relationships together gives the <dfn data-def="P1V1/T1 = P2V2/T2 for a fixed amount of gas whose conditions change from state 1 to state 2.">combined gas law</dfn>. It links two sets of conditions for the same sample of gas: state 1 (before) and state 2 (after).</p>
+
+        <div class="eq">
+          <div class="eq__formula"><span class="frac"><span><i>P</i><sub>1</sub><i>V</i><sub>1</sub></span><span><i>T</i><sub>1</sub></span></span> = <span class="frac"><span><i>P</i><sub>2</sub><i>V</i><sub>2</sub></span><span><i>T</i><sub>2</sub></span></span></div>
+          <dl class="eq__legend">
+            <div><dt>P</dt><dd>pressure, same unit on both sides <span class="unit">kPa</span></dd></div>
+            <div><dt>V</dt><dd>volume, same unit on both sides <span class="unit">dm3</span></dd></div>
+            <div><dt>T</dt><dd>temperature, always in kelvin <span class="unit">K</span></dd></div>
+            <div><dt>1, 2</dt><dd>before and after the change, for a fixed amount of gas</dd></div>
+          </dl>
+        </div>
+
+        <aside class="callout callout--booklet">
+          <p>The combined gas law is printed in the data booklet. You do not need to memorise it, but you do need to rearrange it.</p>
+        </aside>
+
+        <h3>Method in words</h3>
+        <ol class="method">
+          <li>List <i>P</i><sub>1</sub>, <i>V</i><sub>1</sub>, <i>T</i><sub>1</sub> and <i>P</i><sub>2</sub>, <i>V</i><sub>2</sub>, <i>T</i><sub>2</sub>. Mark the unknown with a question mark.</li>
+          <li>Convert both temperatures to kelvin: add 273.15.</li>
+          <li>Check that the two pressures share a unit and the two volumes share a unit. They do not have to be Pa or m<sup>3</sup>, because the units cancel.</li>
+          <li>If a variable is constant, it cancels. Cross it out on both sides.</li>
+          <li>Rearrange for the unknown, substitute, and round at the end.</li>
+          <li>Sense check: did the answer move in the direction you expected?</li>
+        </ol>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">New volume when pressure and temperature both change</h3>
+          <div class="worked__problem">
+            <p>A gas syringe contains 85.0 cm<sup>3</sup> of gas at 22.0 °C and 101 kPa. Calculate the volume of the gas, in cm<sup>3</sup>, at 65.0 °C and 125 kPa.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="List the two states">
+              <p class="worked__why">Sorting the data first stops you mixing up “before” and “after”.</p>
+              <div class="worked__math"><i>P</i><sub>1</sub> = 101 kPa &nbsp; <i>V</i><sub>1</sub> = 85.0 cm<sup>3</sup> &nbsp; <i>T</i><sub>1</sub> = 22.0 °C</div>
+              <div class="worked__math"><i>P</i><sub>2</sub> = 125 kPa &nbsp; <i>V</i><sub>2</sub> = ? &nbsp; <i>T</i><sub>2</sub> = 65.0 °C</div>
+            </li>
+            <li data-title="Convert temperatures to kelvin">
+              <p class="worked__why">The gas relationships are proportional only on the kelvin scale.</p>
+              <div class="worked__math"><i>T</i><sub>1</sub> = 22.0 + 273.15 = 295.15 K</div>
+              <div class="worked__math"><i>T</i><sub>2</sub> = 65.0 + 273.15 = 338.15 K</div>
+            </li>
+            <li data-title="Rearrange for V₂">
+              <p class="worked__why">Multiply both sides by <i>T</i><sub>2</sub> and divide by <i>P</i><sub>2</sub> to leave <i>V</i><sub>2</sub> alone.</p>
+              <div class="worked__math"><i>V</i><sub>2</sub> = (<i>P</i><sub>1</sub> × <i>V</i><sub>1</sub> × <i>T</i><sub>2</sub>) ÷ (<i>T</i><sub>1</sub> × <i>P</i><sub>2</sub>)</div>
+            </li>
+            <li data-title="Substitute with units">
+              <p class="worked__why">kPa cancels with kPa and K with K, leaving cm<sup>3</sup>. No conversion to dm<sup>3</sup> is needed here.</p>
+              <div class="worked__math"><i>V</i><sub>2</sub> = (101 kPa × 85.0 cm<sup>3</sup> × 338.15 K) ÷ (295.15 K × 125 kPa)</div>
+              <div class="worked__math"><i>V</i><sub>2</sub> = 78.685… cm<sup>3</sup></div>
+            </li>
+            <li data-title="Round and sense check">
+              <p class="worked__why" data-label="Check">Heating makes the gas expand, but the larger pressure squeezes it more. A slightly smaller volume is reasonable. The data have 3 significant figures.</p>
+              <div class="worked__math"><i>V</i><sub>2</sub> = <b>78.7 cm<sup>3</sup></b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>78.7 cm<sup>3</sup></p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="2.94138" data-tolerance="1%" data-sigfigs="3" data-unit="dm3">
+          <div class="tryit__q"><p>A gas occupies 2.40 dm<sup>3</sup> at 15.0 °C. It is heated to 80.0 °C at constant pressure. Calculate the new volume, in dm<sup>3</sup>.</p></div>
+          <ol class="tryit__hints">
+            <li>The pressure is constant, so <i>P</i> cancels. You are left with <i>V</i><sub>1</sub>/<i>T</i><sub>1</sub> = <i>V</i><sub>2</sub>/<i>T</i><sub>2</sub>. What must you do to the temperatures first?</li>
+            <li><i>T</i><sub>1</sub> = 288.15 K and <i>T</i><sub>2</sub> = 353.15 K. Then <i>V</i><sub>2</sub> = <i>V</i><sub>1</sub> × <i>T</i><sub>2</sub> ÷ <i>T</i><sub>1</sub>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>T</i><sub>1</sub> = 15.0 + 273.15 = 288.15 K; &nbsp; <i>T</i><sub>2</sub> = 80.0 + 273.15 = 353.15 K</div>
+            <div class="worked__math"><i>V</i><sub>2</sub> = 2.40 dm<sup>3</sup> × 353.15 K ÷ 288.15 K = 2.9413… dm<sup>3</sup></div>
+            <p>To 3 significant figures: <strong>2.94 dm<sup>3</sup></strong>. If you got 12.8 dm<sup>3</sup>, you used °C.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="347.0118" data-tolerance="1%" data-sigfigs="3" data-unit="kPa">
+          <div class="tryit__q"><p>A sealed, rigid steel container holds gas at 310 kPa and 20.0 °C. It is left in the sun and warms to 55.0 °C. Calculate the new pressure, in kPa.</p></div>
+          <ol class="tryit__hints">
+            <li>Rigid means the volume is constant, so <i>V</i> cancels: <i>P</i><sub>1</sub>/<i>T</i><sub>1</sub> = <i>P</i><sub>2</sub>/<i>T</i><sub>2</sub>.</li>
+            <li><i>P</i><sub>2</sub> = <i>P</i><sub>1</sub> × <i>T</i><sub>2</sub> ÷ <i>T</i><sub>1</sub> = <span class="mono">310 kPa × 328.15 K ÷ 293.15 K</span>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>T</i><sub>1</sub> = 20.0 + 273.15 = 293.15 K; &nbsp; <i>T</i><sub>2</sub> = 55.0 + 273.15 = 328.15 K</div>
+            <div class="worked__math"><i>P</i><sub>2</sub> = 310 kPa × 328.15 K ÷ 293.15 K = 347.01… kPa</div>
+            <p>To 3 significant figures: <strong>347 kPa</strong>.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>The combined gas law is only for a fixed amount of gas. If gas is added or escapes between the two states, <i>n</i> has changed and you need <i>PV</i> = <i>nRT</i> for each state.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s1-5-q010,s1-5-q011,s1-5-q012,s1-5-q022" data-count="0" data-title="Combined gas law: quick check"></div>
+      </section>
+
+      <!-- ================================================= 1.5.4 PV = nRT -->
+      <section class="topic-section" id="pvnrt">
+        <span class="section-code">Structure 1.5.4</span>
+        <h2 data-toc="PV = nRT">The ideal gas equation</h2>
+        <p>The combined gas law compares a gas before and after a change. Often you have only one set of conditions and want to know how much gas is there. For that you need the <dfn data-def="PV = nRT: the equation linking the pressure, volume, amount and temperature of an ideal gas.">ideal gas equation</dfn>.</p>
+
+        <div class="eq">
+          <div class="eq__formula"><i>PV</i> = <i>nRT</i></div>
+          <dl class="eq__legend">
+            <div><dt>P</dt><dd>pressure <span class="unit">Pa</span> (or kPa)</dd></div>
+            <div><dt>V</dt><dd>volume <span class="unit">m3</span> (or dm<sup>3</sup> with kPa)</dd></div>
+            <div><dt>n</dt><dd>amount of gas <span class="unit">mol</span></dd></div>
+            <div><dt>R</dt><dd>gas constant, 8.31 <span class="unit">J K-1 mol-1</span></dd></div>
+            <div><dt>T</dt><dd>temperature <span class="unit">K</span></dd></div>
+          </dl>
+        </div>
+
+        <aside class="callout callout--booklet">
+          <p>The equation <i>PV</i> = <i>nRT</i> and the value <span class="mono"><i>R</i> = 8.31 J K<sup>−1</sup> mol<sup>−1</sup></span> are both in the data booklet.</p>
+        </aside>
+
+        <h3>Units: the part that costs the most marks</h3>
+        <p><i>R</i> is given in joules. So the product <i>P</i> × <i>V</i> must come out in joules too. Two pairs of units do this.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Two consistent unit sets for PV = nRT, both with R = 8.31 J K⁻¹ mol⁻¹</caption>
+            <thead>
+              <tr><th scope="col">Set</th><th scope="col">Pressure</th><th scope="col">Volume</th><th scope="col">Why P × V is in joules</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">SI base</th><td>Pa</td><td>m<sup>3</sup></td><td>1 Pa = 1 N m<sup>−2</sup>, so Pa × m<sup>3</sup> = N m = J</td></tr>
+              <tr><th scope="row">Lab-sized</th><td>kPa</td><td>dm<sup>3</sup></td><td>kPa × dm<sup>3</sup> = (10<sup>3</sup> Pa) × (10<sup>−3</sup> m<sup>3</sup>) = Pa × m<sup>3</sup> = J</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>In the second set the factor of 1000 in kPa cancels the factor of 1/1000 in dm<sup>3</sup>. Both sets give the same answer. Choose one set and convert everything into it before you substitute.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Conversions you will use every time</caption>
+            <thead>
+              <tr><th scope="col">From</th><th scope="col">To</th><th scope="col">Do this</th><th scope="col">Example</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">°C</th><td>K</td><td>add 273.15</td><td class="mono">25.0 °C = 298.15 K</td></tr>
+              <tr><th scope="row">cm<sup>3</sup></th><td>dm<sup>3</sup></td><td>divide by 1000</td><td class="mono">250 cm<sup>3</sup> = 0.250 dm<sup>3</sup></td></tr>
+              <tr><th scope="row">dm<sup>3</sup></th><td>m<sup>3</sup></td><td>divide by 1000</td><td class="mono">2.50 dm<sup>3</sup> = 2.50 × 10<sup>−3</sup> m<sup>3</sup></td></tr>
+              <tr><th scope="row">cm<sup>3</sup></th><td>m<sup>3</sup></td><td>divide by 1 000 000</td><td class="mono">250 cm<sup>3</sup> = 2.50 × 10<sup>−4</sup> m<sup>3</sup></td></tr>
+              <tr><th scope="row">kPa</th><td>Pa</td><td>multiply by 1000</td><td class="mono">101 kPa = 1.01 × 10<sup>5</sup> Pa</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Method in words</h3>
+        <ol class="method">
+          <li>List what you know (<i>P</i>, <i>V</i>, <i>n</i>, <i>T</i>) and mark the unknown.</li>
+          <li>Convert: <i>T</i> to K. Then either <i>P</i> to kPa and <i>V</i> to dm<sup>3</sup>, or <i>P</i> to Pa and <i>V</i> to m<sup>3</sup>.</li>
+          <li>If you have a mass instead of an amount, use <i>n</i> = <i>m</i> ÷ <i>M</i> (from Structure 1.4).</li>
+          <li>Rearrange <i>PV</i> = <i>nRT</i> for the unknown before you put numbers in.</li>
+          <li>Substitute with units, calculate, and round at the end.</li>
+        </ol>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>PV = nRT rearranged for each variable</caption>
+            <thead><tr><th scope="col">To find</th><th scope="col">Use</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">pressure</th><td class="mono"><i>P</i> = <i>nRT</i> ÷ <i>V</i></td></tr>
+              <tr><th scope="row">volume</th><td class="mono"><i>V</i> = <i>nRT</i> ÷ <i>P</i></td></tr>
+              <tr><th scope="row">amount</th><td class="mono"><i>n</i> = <i>PV</i> ÷ <i>RT</i></td></tr>
+              <tr><th scope="row">temperature</th><td class="mono"><i>T</i> = <i>PV</i> ÷ <i>nR</i></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <figure data-s1-widget="s1-5.solver" data-title="PV = nRT solver with unit coach">
+          <p class="widget__fallback">An interactive solver appears here when JavaScript is on. It converts your values to consistent units, rearranges PV = nRT and shows the substitution line by line.</p>
+          <figcaption>Choose what to find, type the values in the units the question gives, and read the working from top to bottom: conversions first, then the rearrangement, then the substitution. Use it to check your own working, not to replace it.</figcaption>
+        </figure>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Finding a volume with kPa and dm³</h3>
+          <div class="worked__problem">
+            <p>Calculate the volume, in dm<sup>3</sup>, occupied by 0.150 mol of carbon dioxide at 25.0 °C and 98.5 kPa.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="List and convert">
+              <p class="worked__why">The pressure is already in kPa, so the answer will come out in dm<sup>3</sup>. Only the temperature needs converting.</p>
+              <div class="worked__math"><i>n</i> = 0.150 mol &nbsp; <i>P</i> = 98.5 kPa &nbsp; <i>V</i> = ?</div>
+              <div class="worked__math"><i>T</i> = 25.0 + 273.15 = 298.15 K</div>
+            </li>
+            <li data-title="Rearrange for V">
+              <p class="worked__why">Divide both sides of <i>PV</i> = <i>nRT</i> by <i>P</i>.</p>
+              <div class="worked__math"><i>V</i> = <i>nRT</i> ÷ <i>P</i></div>
+            </li>
+            <li data-title="Substitute with units">
+              <p class="worked__why">mol × J K<sup>−1</sup> mol<sup>−1</sup> × K leaves J. Then J ÷ kPa gives dm<sup>3</sup>.</p>
+              <div class="worked__math"><i>V</i> = (0.150 mol × 8.31 J K<sup>−1</sup> mol<sup>−1</sup> × 298.15 K) ÷ 98.5 kPa</div>
+              <div class="worked__math"><i>V</i> = 371.64… J ÷ 98.5 kPa = 3.7730… dm<sup>3</sup></div>
+            </li>
+            <li data-title="Round and sense check">
+              <p class="worked__why" data-label="Check">One mole at STP is 22.7 dm<sup>3</sup>, so 0.150 mol near room conditions should be a few dm<sup>3</sup>. The data have 3 significant figures.</p>
+              <div class="worked__math"><i>V</i> = <b>3.77 dm<sup>3</sup></b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>3.77 dm<sup>3</sup></p></div>
+        </div>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Finding an amount, then a mass, with Pa and m³</h3>
+          <div class="worked__problem">
+            <p>A 2.50 dm<sup>3</sup> flask contains oxygen gas, O<sub>2</sub>, at 27.0 °C and 150 kPa. Calculate the mass of oxygen in the flask.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Convert to Pa, m³ and K">
+              <p class="worked__why">This example uses the SI base set to show that it gives the same kind of answer. You could also keep kPa and dm<sup>3</sup>.</p>
+              <div class="worked__math"><i>P</i> = 150 kPa × 1000 = 1.50 × 10<sup>5</sup> Pa</div>
+              <div class="worked__math"><i>V</i> = 2.50 dm<sup>3</sup> ÷ 1000 = 2.50 × 10<sup>−3</sup> m<sup>3</sup></div>
+              <div class="worked__math"><i>T</i> = 27.0 + 273.15 = 300.15 K</div>
+            </li>
+            <li data-title="Rearrange for n">
+              <p class="worked__why">You need the amount before you can find a mass. Divide both sides by <i>RT</i>.</p>
+              <div class="worked__math"><i>n</i> = <i>PV</i> ÷ <i>RT</i></div>
+            </li>
+            <li data-title="Substitute with units">
+              <p class="worked__why">Pa × m<sup>3</sup> = J on top. J K<sup>−1</sup> mol<sup>−1</sup> × K = J mol<sup>−1</sup> underneath. J ÷ J mol<sup>−1</sup> leaves mol.</p>
+              <div class="worked__math"><i>n</i> = (1.50 × 10<sup>5</sup> Pa × 2.50 × 10<sup>−3</sup> m<sup>3</sup>) ÷ (8.31 J K<sup>−1</sup> mol<sup>−1</sup> × 300.15 K)</div>
+              <div class="worked__math"><i>n</i> = 375 J ÷ 2494.2… J mol<sup>−1</sup> = 0.15034… mol</div>
+            </li>
+            <li data-title="Convert amount to mass">
+              <p class="worked__why">Oxygen gas is O<sub>2</sub>, so <i>M</i> = 2 × 16.00 = 32.00 g mol<sup>−1</sup>. Keep the unrounded value of <i>n</i> in your calculator.</p>
+              <div class="worked__math"><i>m</i> = <i>n</i> × <i>M</i> = 0.15034… mol × 32.00 g mol<sup>−1</sup> = 4.8110… g</div>
+            </li>
+            <li data-title="Round to the data">
+              <p class="worked__why">The data have 3 significant figures.</p>
+              <div class="worked__math"><i>m</i> = <b>4.81 g</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>4.81 g of O<sub>2</sub></p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="125.9588" data-tolerance="1%" data-sigfigs="3" data-unit="kPa">
+          <div class="tryit__q"><p>Calculate the pressure, in kPa, of 0.250 mol of gas in a 5.00 dm<sup>3</sup> container at 30.0 °C.</p></div>
+          <ol class="tryit__hints">
+            <li>The volume is in dm<sup>3</sup>, so the pressure will come out in kPa. Convert the temperature to kelvin.</li>
+            <li><i>P</i> = <i>nRT</i> ÷ <i>V</i> = <span class="mono">(0.250 × 8.31 × 303.15) ÷ 5.00</span>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>T</i> = 30.0 + 273.15 = 303.15 K</div>
+            <div class="worked__math"><i>P</i> = (0.250 mol × 8.31 J K<sup>−1</sup> mol<sup>−1</sup> × 303.15 K) ÷ 5.00 dm<sup>3</sup> = 125.95… kPa</div>
+            <p>To 3 significant figures: <strong>126 kPa</strong>.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="361.0108" data-tolerance="1%" data-sigfigs="3" data-unit="K">
+          <div class="tryit__q"><p>0.100 mol of gas occupies 2.00 dm<sup>3</sup> at a pressure of 150 kPa. Calculate the temperature of the gas, in K.</p></div>
+          <ol class="tryit__hints">
+            <li>kPa and dm<sup>3</sup> already match, so no conversion is needed. Rearrange <i>PV</i> = <i>nRT</i> for <i>T</i>.</li>
+            <li><i>T</i> = <i>PV</i> ÷ <i>nR</i> = <span class="mono">(150 × 2.00) ÷ (0.100 × 8.31)</span>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>T</i> = (150 kPa × 2.00 dm<sup>3</sup>) ÷ (0.100 mol × 8.31 J K<sup>−1</sup> mol<sup>−1</sup>) = 361.01… K</div>
+            <p>To 3 significant figures: <strong>361 K</strong>. The equation always gives temperature in kelvin.</p>
+          </div>
+        </div>
+
+        <div data-s1-numeric data-answer="0.16916" data-tolerance="1%" data-sigfigs="3" data-unit="g">
+          <div class="tryit__q"><p>A gas syringe holds 250 cm<sup>3</sup> of methane, CH<sub>4</sub>, at 18.0 °C and 102 kPa. Calculate the mass of methane, in g.</p></div>
+          <ol class="tryit__hints">
+            <li>Two conversions are needed before you start: cm<sup>3</sup> to dm<sup>3</sup> and °C to K.</li>
+            <li><i>n</i> = <i>PV</i> ÷ <i>RT</i> = <span class="mono">(102 × 0.250) ÷ (8.31 × 291.15)</span>. Then <i>m</i> = <i>n</i> × <i>M</i>, with <i>M</i>(CH<sub>4</sub>) = 16.05 g mol<sup>−1</sup>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>V</i> = 250 cm<sup>3</sup> ÷ 1000 = 0.250 dm<sup>3</sup>; &nbsp; <i>T</i> = 18.0 + 273.15 = 291.15 K</div>
+            <div class="worked__math"><i>n</i> = (102 kPa × 0.250 dm<sup>3</sup>) ÷ (8.31 J K<sup>−1</sup> mol<sup>−1</sup> × 291.15 K) = 0.010539… mol</div>
+            <div class="worked__math"><i>M</i>(CH<sub>4</sub>) = 12.01 + 4(1.01) = 16.05 g mol<sup>−1</sup></div>
+            <div class="worked__math"><i>m</i> = 0.010539… mol × 16.05 g mol<sup>−1</sup> = 0.16915… g</div>
+            <p>To 3 significant figures: <strong>0.169 g</strong>.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>The two classic errors are leaving the temperature in °C, and putting cm<sup>3</sup> straight in with kPa. The first gives an answer that is wildly out. The second is out by exactly 1000. If your amount of gas in a small flask comes out as several moles, check your volume unit.</p>
+        </aside>
+
+        <aside class="callout callout--exam">
+          <p>In a 2-mark gas equation question, one mark is usually for correct unit conversions (kelvin, and matching pressure and volume units) and one for the answer. Write the conversions as separate lines so the first mark is safe even if your final answer slips.</p>
+        </aside>
+
+        <aside class="callout callout--scope">
+          <p>IB uses SI units only for pressure and volume, so you will not meet atm, mmHg, bar or litres in gas questions. Partial pressures (Dalton’s law), Graham’s law of effusion and mole fractions are not in the guide at all. If a textbook chapter turns to those, you can stop.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s1-5-q007,s1-5-q008,s1-5-q013,s1-5-q014,s1-5-q021,s1-5-q023" data-count="0" data-title="PV = nRT: quick check"></div>
+      </section>
+
+      <!-- ================================================= 1.5.4 molar mass -->
+      <section class="topic-section" id="molar-mass">
+        <span class="section-code">Structure 1.5.4</span>
+        <h2 data-toc="Molar mass from gas data">Molar mass of a gas from experimental data</h2>
+        <p>You have an unknown liquid that evaporates easily. Inject a weighed drop into a warm gas syringe and it turns to vapour. Read the volume, the temperature and the pressure, and you can work out its molar mass.</p>
+        <p>The idea has two links. The gas equation gives the amount, <i>n</i>. Then molar mass is mass divided by amount.</p>
+
+        <div class="eq">
+          <div class="eq__formula"><i>M</i> = <span class="frac"><span><i>m</i></span><span><i>n</i></span></span> = <span class="frac"><span><i>mRT</i></span><span><i>PV</i></span></span></div>
+          <dl class="eq__legend">
+            <div><dt>M</dt><dd>molar mass <span class="unit">g mol-1</span></dd></div>
+            <div><dt>m</dt><dd>mass of the gas sample <span class="unit">g</span></dd></div>
+            <div><dt>n</dt><dd>amount of gas, from <i>n</i> = <i>PV</i> ÷ <i>RT</i> <span class="unit">mol</span></dd></div>
+            <div><dt>R</dt><dd>gas constant, 8.31 <span class="unit">J K-1 mol-1</span></dd></div>
+            <div><dt>T</dt><dd>temperature <span class="unit">K</span></dd></div>
+            <div><dt>P</dt><dd>pressure <span class="unit">kPa</span></dd></div>
+            <div><dt>V</dt><dd>volume <span class="unit">dm3</span></dd></div>
+          </dl>
+        </div>
+        <p>The combined form <i>M</i> = <i>mRT</i> ÷ <i>PV</i> is not in the data booklet. You do not need to memorise it. Working in two steps (find <i>n</i>, then <i>M</i> = <i>m</i> ÷ <i>n</i>) is safer and shows your method.</p>
+
+        <h3>Method in words</h3>
+        <ol class="method">
+          <li>Convert <i>T</i> to K, and <i>P</i> and <i>V</i> to a matching pair (kPa with dm<sup>3</sup>).</li>
+          <li>Find the amount of gas: <i>n</i> = <i>PV</i> ÷ <i>RT</i>.</li>
+          <li>Find the molar mass: <i>M</i> = <i>m</i> ÷ <i>n</i>, with the mass in g.</li>
+          <li>If you also know the empirical formula, divide <i>M</i> by the empirical formula mass to find how many empirical units make one molecule.</li>
+        </ol>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Molar mass of a volatile liquid</h3>
+          <div class="worked__problem">
+            <p>0.180 g of a volatile liquid is injected into a gas syringe kept at 100.0 °C. It vaporises completely and the vapour occupies 95.1 cm<sup>3</sup> at 101 kPa. Calculate the molar mass of the liquid.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Convert the units">
+              <p class="worked__why">With the pressure in kPa, the volume must be in dm<sup>3</sup>. The temperature must be in kelvin.</p>
+              <div class="worked__math"><i>V</i> = 95.1 cm<sup>3</sup> ÷ 1000 = 0.0951 dm<sup>3</sup></div>
+              <div class="worked__math"><i>T</i> = 100.0 + 273.15 = 373.15 K</div>
+            </li>
+            <li data-title="Find the amount of vapour">
+              <p class="worked__why">The gas equation counts the moles of vapour without needing to know what the substance is.</p>
+              <div class="worked__math"><i>n</i> = <i>PV</i> ÷ <i>RT</i> = (101 kPa × 0.0951 dm<sup>3</sup>) ÷ (8.31 J K<sup>−1</sup> mol<sup>−1</sup> × 373.15 K)</div>
+              <div class="worked__math"><i>n</i> = 9.6051 J ÷ 3100.8… J mol<sup>−1</sup> = 0.0030975… mol</div>
+            </li>
+            <li data-title="Divide mass by amount">
+              <p class="worked__why">Molar mass is the mass of one mole, so it is grams divided by moles.</p>
+              <div class="worked__math"><i>M</i> = <i>m</i> ÷ <i>n</i> = 0.180 g ÷ 0.0030975… mol = 58.11… g mol<sup>−1</sup></div>
+            </li>
+            <li data-title="Round to the data">
+              <p class="worked__why">The mass, volume and pressure have 3 significant figures.</p>
+              <div class="worked__math"><i>M</i> = <b>58.1 g mol<sup>−1</sup></b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>58.1 g mol<sup>−1</sup></p></div>
+        </div>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">From percentage composition and gas data to a molecular formula</h3>
+          <div class="worked__problem">
+            <p>A hydrocarbon contains 85.6 % carbon and 14.4 % hydrogen by mass. A 0.500 g sample of the gas occupies 221 cm<sup>3</sup> at 25.0 °C and 100 kPa. Determine the molecular formula of the hydrocarbon.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the empirical formula">
+              <p class="worked__why">This is the Structure 1.4 method: imagine 100 g, divide each mass by <i>A</i><sub>r</sub>, then divide by the smallest.</p>
+              <div class="worked__math">C: 85.6 g ÷ 12.01 g mol<sup>−1</sup> = 7.127… mol</div>
+              <div class="worked__math">H: 14.4 g ÷ 1.01 g mol<sup>−1</sup> = 14.25… mol</div>
+              <div class="worked__math">ratio H : C = 14.25… ÷ 7.127… = 2.00, so the empirical formula is CH<sub>2</sub></div>
+            </li>
+            <li data-title="Convert the gas data">
+              <p class="worked__why">kPa needs dm<sup>3</sup>, and the temperature must be in kelvin.</p>
+              <div class="worked__math"><i>V</i> = 221 cm<sup>3</sup> ÷ 1000 = 0.221 dm<sup>3</sup>; &nbsp; <i>T</i> = 25.0 + 273.15 = 298.15 K</div>
+            </li>
+            <li data-title="Find the amount of gas">
+              <p class="worked__why">The conditions are not STP, so use the gas equation, not 22.7.</p>
+              <div class="worked__math"><i>n</i> = (100 kPa × 0.221 dm<sup>3</sup>) ÷ (8.31 J K<sup>−1</sup> mol<sup>−1</sup> × 298.15 K) = 0.0089198… mol</div>
+            </li>
+            <li data-title="Find the molar mass">
+              <p class="worked__why">Mass divided by amount.</p>
+              <div class="worked__math"><i>M</i> = 0.500 g ÷ 0.0089198… mol = 56.05… g mol<sup>−1</sup></div>
+            </li>
+            <li data-title="Compare with the empirical formula mass">
+              <p class="worked__why">The molecular formula is a whole-number multiple of the empirical formula. Experimental data rarely give an exact whole number, so round to the nearest one.</p>
+              <div class="worked__math"><i>M</i>(CH<sub>2</sub>) = 12.01 + 2(1.01) = 14.03 g mol<sup>−1</sup></div>
+              <div class="worked__math">56.05… ÷ 14.03 = 3.995… ≈ 4</div>
+              <div class="worked__math">molecular formula = (CH<sub>2</sub>)<sub>4</sub> = <b>C<sub>4</sub>H<sub>8</sub></b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>C<sub>4</sub>H<sub>8</sub></p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="42.6313" data-tolerance="1%" data-sigfigs="3" data-unit="g mol-1">
+          <div class="tryit__q"><p>1.26 g of a gas occupies 0.750 dm<sup>3</sup> at 20.0 °C and 96.0 kPa. Calculate the molar mass of the gas.</p></div>
+          <ol class="tryit__hints">
+            <li>Find the amount of gas first with <i>n</i> = <i>PV</i> ÷ <i>RT</i>. Remember kelvin.</li>
+            <li><i>n</i> = <span class="mono">(96.0 × 0.750) ÷ (8.31 × 293.15)</span>. Then <i>M</i> = 1.26 g ÷ <i>n</i>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>T</i> = 20.0 + 273.15 = 293.15 K</div>
+            <div class="worked__math"><i>n</i> = (96.0 kPa × 0.750 dm<sup>3</sup>) ÷ (8.31 J K<sup>−1</sup> mol<sup>−1</sup> × 293.15 K) = 0.029555… mol</div>
+            <div class="worked__math"><i>M</i> = 1.26 g ÷ 0.029555… mol = 42.63… g mol<sup>−1</sup></div>
+            <p>To 3 significant figures: <strong>42.6 g mol<sup>−1</sup></strong>.</p>
+          </div>
+        </div>
+
+        <h3>Gas density uses the same idea</h3>
+        <p>Density is mass divided by volume. If a question gives the density of a gas, it has given you the mass of a known volume. For example, a density of 1.25 g dm<sup>−3</sup> means 1.25 g occupies 1.00 dm<sup>3</sup>. Put those two values into the method above. There is no new formula to learn.</p>
+
+        <aside class="callout callout--exam">
+          <p>These questions are often chained: empirical formula in one part, molar mass from gas data in the next, molecular formula at the end. Each part is marked with “error carried forward”. If an earlier answer is wrong but you use it correctly afterwards, you still earn the later marks. So keep going, and show every line.</p>
+        </aside>
+
+        <aside class="callout callout--mistake">
+          <p>Do not use 22.7 dm<sup>3</sup> mol<sup>−1</sup> to find the amount unless the gas is at STP. Vapour in a syringe at 100 °C takes up much more space per mole than that.</p>
+        </aside>
+
+        <div data-s1-quiz data-ids="s1-5-q015,s1-5-q024,s1-5-q028" data-count="0" data-title="Molar mass from gas data: quick check"></div>
+      </section>
+
+      <hr class="spectrum">
+
+      <!-- ================================================= Linking -->
+      <section class="topic-section" id="links">
+        <h2>Linking it up</h2>
+        <p>The IB guide asks linking questions that connect this topic to others. Short answers to four of them:</p>
+
+        <h3>Avogadro’s law applies to ideal gases. Under what conditions might a real gas deviate most?</h3>
+        <p>At low temperature and high pressure. There the particles are slow and close together, so intermolecular forces and the volume of the particles are no longer negligible. Under those conditions, equal volumes of two real gases may not contain exactly equal numbers of molecules.</p>
+
+        <h3>Under comparable conditions, why do some gases deviate more than others?</h3>
+        <p>Gases whose particles attract each other more strongly deviate more, because the “no intermolecular forces” assumption fits them less well. Larger particles also make the “negligible volume” assumption less accurate. Structure 2.2 explains why some molecules attract more strongly than others.</p>
+
+        <h3>Graphs can be sketches or accurately plotted points. What are the advantages and limitations of each?</h3>
+        <p>A sketch shows the shape of a relationship quickly: curve or line, through the origin or not. It carries no scale, so you cannot read values from it. Plotted data points let you find a gradient or an intercept, judge the scatter and spot anomalous results, and extrapolate (for example to absolute zero). They take longer, and they are only as reliable as the measurements and the range that was measured.</p>
+
+        <h3>How can the ideal gas law be used to find the molar mass of a gas from experimental data?</h3>
+        <p>Measure the mass, pressure, volume and temperature of a gas sample. Use <i>n</i> = <i>PV</i> ÷ <i>RT</i> to find the amount, then <i>M</i> = <i>m</i> ÷ <i>n</i>. The result assumes the gas behaves ideally, so it is most accurate at high temperature and low pressure.</p>
+      </section>
+
+      <!-- ================================================= Practice -->
+      <section class="topic-section" id="practice">
+        <h2>Exam-style practice</h2>
+        <p>Three sets, from first steps to stretch. All questions are original and stay inside the syllabus. Have your data booklet and calculator ready.</p>
+        <h3>Foundation: one idea at a time</h3>
+        <div data-s1-quiz data-topic="s1-5" data-tier="foundation" data-count="6" data-title="1.5 foundation"></div>
+        <h3>Exam standard</h3>
+        <div data-s1-quiz data-topic="s1-5" data-tier="exam" data-count="8" data-title="1.5 exam standard"></div>
+        <h3>Challenge: multi-step and unfamiliar contexts</h3>
+        <div data-s1-quiz data-topic="s1-5" data-tier="challenge" data-count="0" data-title="1.5 challenge"></div>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../data/questions-s1-5.js"></script>
+<script src="../assets/js/widgets-s1-5.js"></script>
+</body>
+</html>

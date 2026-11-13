@@ -11,23 +11,43 @@
 
   /* ---------- Site config and topic registry ----------------------------- */
   S1.config = {
-    siteName: 'Structure 1 Lab',
+    siteName: 'Structure Lab',
     // Set to the public repository URL to show a "Source" link in the footer.
     sourceUrl: 'https://github.com/bennyng1029/2028-ibchemistry-HL'
   };
 
-  // Single source of truth for the five topics (header nav, index cells, hero tiles, pager).
+  // The three strands of the "Structure" theme.
+  S1.groups = [
+    { id: 's1', num: '1', name: 'Structure 1', title: 'Models of the particulate nature of matter', idea: 'Matter is made of particles. Learn how to describe them, count them and predict how they behave.' },
+    { id: 's2', num: '2', name: 'Structure 2', title: 'Models of bonding and structure', idea: 'How particles hold together, and how the type of bonding explains the properties of a substance.' },
+    { id: 's3', num: '3', name: 'Structure 3', title: 'Classification of matter', idea: 'Sorting elements and compounds into families, so that you can predict what they will do.' }
+  ];
+  S1.group = function (id) {
+    for (var i = 0; i < S1.groups.length; i++) if (S1.groups[i].id === id) return S1.groups[i];
+    return null;
+  };
+
+  // Single source of truth for the topics (header nav, index cells, hero tiles, pager, practice filters).
+  // ready: false = page not published yet; the tile and nav entry show "coming soon" and are not links.
   S1.topics = [
-    { id: 's1-1', num: '1.1', sym: 'Pn', short: 'Particulate matter', title: 'Introduction to the particulate nature of matter', blurb: 'Elements, compounds and mixtures. States of matter, changes of state and temperature.', href: 'topics/s1-1.html' },
-    { id: 's1-2', num: '1.2', sym: 'Nu', short: 'Nuclear atom', title: 'The nuclear atom', blurb: 'Protons, neutrons and electrons. Isotopes, relative atomic mass and mass spectra.', href: 'topics/s1-2.html' },
-    { id: 's1-3', num: '1.3', sym: 'Ec', short: 'Electron configurations', title: 'Electron configurations', blurb: 'Emission spectra, energy levels, orbitals and ionization energy.', href: 'topics/s1-3.html' },
-    { id: 's1-4', num: '1.4', sym: 'Ml', short: 'The mole', title: 'Counting particles by mass: the mole', blurb: 'Moles, molar mass, formulas, concentration and gas volumes.', href: 'topics/s1-4.html' },
-    { id: 's1-5', num: '1.5', sym: 'Ig', short: 'Ideal gases', title: 'Ideal gases', blurb: 'The ideal gas model, the gas laws and pV = nRT.', href: 'topics/s1-5.html' }
+    { id: 's1-1', group: 's1', ready: true, num: '1.1', sym: 'Pn', short: 'Particulate matter', title: 'Introduction to the particulate nature of matter', blurb: 'Elements, compounds and mixtures. States of matter, changes of state and temperature.', href: 'topics/s1-1.html' },
+    { id: 's1-2', group: 's1', ready: true, num: '1.2', sym: 'Nu', short: 'Nuclear atom', title: 'The nuclear atom', blurb: 'Protons, neutrons and electrons. Isotopes, relative atomic mass and mass spectra.', href: 'topics/s1-2.html' },
+    { id: 's1-3', group: 's1', ready: true, num: '1.3', sym: 'Ec', short: 'Electron configurations', title: 'Electron configurations', blurb: 'Emission spectra, energy levels, orbitals and ionization energy.', href: 'topics/s1-3.html' },
+    { id: 's1-4', group: 's1', ready: true, num: '1.4', sym: 'Ml', short: 'The mole', title: 'Counting particles by mass: the mole', blurb: 'Moles, molar mass, formulas, concentration and gas volumes.', href: 'topics/s1-4.html' },
+    { id: 's1-5', group: 's1', ready: true, num: '1.5', sym: 'Ig', short: 'Ideal gases', title: 'Ideal gases', blurb: 'The ideal gas model, the gas laws and pV = nRT.', href: 'topics/s1-5.html' },
+    { id: 's2-1', group: 's2', ready: false, num: '2.1', sym: 'Io', short: 'Ionic model', title: 'The ionic model', blurb: 'Ions, ionic bonds, lattices and the properties of ionic compounds.', href: 'topics/s2-1.html' },
+    { id: 's2-2', group: 's2', ready: false, num: '2.2', sym: 'Cv', short: 'Covalent model', title: 'The covalent model', blurb: 'Lewis formulas, molecular shape, polarity and intermolecular forces.', href: 'topics/s2-2.html' },
+    { id: 's2-3', group: 's2', ready: false, num: '2.3', sym: 'Me', short: 'Metallic model', title: 'The metallic model', blurb: 'Metallic bonding, delocalized electrons and the properties of metals.', href: 'topics/s2-3.html' },
+    { id: 's2-4', group: 's2', ready: false, num: '2.4', sym: 'Ma', short: 'Models to materials', title: 'From models to materials', blurb: 'The bonding triangle, alloys and polymers.', href: 'topics/s2-4.html' },
+    { id: 's3-1', group: 's3', ready: false, num: '3.1', sym: 'Pe', short: 'Periodic table', title: 'The periodic table: classification of elements', blurb: 'Groups, periods and blocks. Periodic trends and oxidation states.', href: 'topics/s3-1.html' },
+    { id: 's3-2', group: 's3', ready: false, num: '3.2', sym: 'Fg', short: 'Functional groups', title: 'Functional groups: classification of organic compounds', blurb: 'Organic formulas, homologous series, naming and isomers.', href: 'topics/s3-2.html' }
   ];
   S1.topic = function (id) {
     for (var i = 0; i < S1.topics.length; i++) if (S1.topics[i].id === id) return S1.topics[i];
     return null;
   };
+  /** Topics of one strand: S1.topicsIn('s2'). */
+  S1.topicsIn = function (groupId) { return S1.topics.filter(function (t) { return t.group === groupId; }); };
 
   /* ---------- Small utilities -------------------------------------------- */
   var uidN = 0;
@@ -247,17 +267,26 @@
 
   function renderHeader(mount) {
     var root = util.root(), page = util.page();
-    var links = S1.topics.map(function (t) {
-      return '<li><a href="' + root + t.href + '"' + (page === t.id ? ' aria-current="page"' : '') + ' title="' + util.escapeHtml(t.title) + '">' +
-        '<span class="site-nav__num">' + t.num + '</span><span class="site-nav__name">' + util.escapeHtml(t.title) + '</span>' +
-        '<span class="sr-only site-nav__sr">' + util.escapeHtml(t.title) + '</span></a></li>';
+    var pageTopic = S1.topic(page);
+    var groupsHtml = S1.groups.map(function (g, gi) {
+      var menuId = 's1-navmenu-' + g.id, here = !!(pageTopic && pageTopic.group === g.id);
+      var items = S1.topicsIn(g.id).map(function (t) {
+        var inner = '<span class="site-nav__num">' + t.num + '</span><span class="site-nav__name">' + util.escapeHtml(t.title) + '</span>';
+        if (!t.ready && page !== t.id) return '<li><span class="navgroup__soon" aria-disabled="true">' + inner + '<span class="navgroup__tag">soon</span></span></li>';
+        return '<li><a href="' + root + t.href + '"' + (page === t.id ? ' aria-current="page"' : '') + '>' + inner + '</a></li>';
+      }).join('');
+      return '<li class="navgroup' + (here ? ' is-here' : '') + '" data-group="' + g.id + '">' +
+        '<button class="navgroup__btn" type="button" aria-expanded="false" aria-controls="' + menuId + '">' +
+          '<span class="navgroup__label">' + g.name + '</span><span class="navgroup__title">' + util.escapeHtml(g.title) + '</span>' + ICON.chev.replace('toc__chev', 'navgroup__chev') +
+        '</button>' +
+        '<ul class="navgroup__menu" id="' + menuId + '" aria-label="' + g.name + ': ' + util.escapeHtml(g.title) + '">' + items + '</ul></li>';
     }).join('');
-    links += '<li><a href="' + root + 'practice.html"' + (page === 'practice' ? ' aria-current="page"' : '') + '>Practice</a></li>';
+    var links = groupsHtml + '<li><a class="site-nav__link" href="' + root + 'practice.html"' + (page === 'practice' ? ' aria-current="page"' : '') + '>Practice</a></li>';
     mount.innerHTML =
       '<a class="skip-link" href="#main">Skip to content</a>' +
       '<header class="site-header">' +
         '<div class="site-header__bar wrap">' +
-          '<a class="wordmark" href="' + root + 'index.html"' + (page === 'home' ? ' aria-current="page"' : '') + '><span class="wordmark__cell" aria-hidden="true">S<sub>1</sub></span><span>Structure 1 Lab</span></a>' +
+          '<a class="wordmark" href="' + root + 'index.html"' + (page === 'home' ? ' aria-current="page"' : '') + '><span class="wordmark__cell" aria-hidden="true">St</span><span>' + util.escapeHtml(S1.config.siteName) + '</span></a>' +
           '<button class="btn btn--small nav-toggle" type="button" aria-expanded="false" aria-controls="s1-header-panel">Menu</button>' +
           '<div class="site-header__panel" id="s1-header-panel">' +
             '<nav class="site-nav" aria-label="Topics"><ul class="site-nav__list">' + links + '</ul></nav>' +
@@ -272,17 +301,58 @@
         '</div>' +
         '<div class="spectrum" aria-hidden="true"></div>' +
       '</header>';
-    // On small screens the visible name replaces the sr-only copy; avoid double reading.
     var header = mount.querySelector('.site-header'), toggle = mount.querySelector('.nav-toggle');
-    Array.prototype.forEach.call(mount.querySelectorAll('.site-nav__name'), function (n) { n.setAttribute('aria-hidden', 'true'); });
+    var groups = Array.prototype.slice.call(mount.querySelectorAll('.navgroup'));
+    var wide = window.matchMedia ? window.matchMedia('(min-width: 62em)') : { matches: true };
+    function setGroup(g, open) {
+      g.classList.toggle('is-open', open);
+      g.querySelector('.navgroup__btn').setAttribute('aria-expanded', String(open));
+    }
+    function closeGroups(except) { groups.forEach(function (g) { if (g !== except) setGroup(g, false); }); }
+    groups.forEach(function (g) {
+      var btn = g.querySelector('.navgroup__btn');
+      btn.addEventListener('click', function () {
+        var open = !g.classList.contains('is-open');
+        if (wide.matches) closeGroups(g);          // desktop: one menu at a time
+        setGroup(g, open);
+      });
+      btn.addEventListener('keydown', function (e) {
+        if (e.key === 'ArrowDown') {
+          e.preventDefault(); if (wide.matches) closeGroups(g); setGroup(g, true);
+          var first = g.querySelector('.navgroup__menu a'); if (first) first.focus();
+        }
+      });
+      g.querySelector('.navgroup__menu').addEventListener('keydown', function (e) {
+        if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
+        var as = Array.prototype.slice.call(g.querySelectorAll('.navgroup__menu a')), i = as.indexOf(doc.activeElement);
+        if (i < 0) return;
+        e.preventDefault();
+        if (e.key === 'ArrowUp' && i === 0) btn.focus(); else as[util.clamp(i + (e.key === 'ArrowDown' ? 1 : -1), 0, as.length - 1)].focus();
+      });
+      g.addEventListener('focusout', function (e) {
+        if (wide.matches && !g.contains(e.relatedTarget)) setGroup(g, false);
+      });
+    });
+    doc.addEventListener('click', function (e) {
+      if (!wide.matches) return;
+      groups.forEach(function (g) { if (!g.contains(e.target)) setGroup(g, false); });
+    });
+    function openForMobile() {
+      // In the mobile panel, start with the current strand open (all strands on other pages).
+      groups.forEach(function (g) { setGroup(g, !pageTopic || g.classList.contains('is-here')); });
+    }
     toggle.addEventListener('click', function () {
       var open = !header.classList.contains('is-open');
       header.classList.toggle('is-open', open);
       toggle.setAttribute('aria-expanded', String(open));
       toggle.textContent = open ? 'Close' : 'Menu';
+      if (open) openForMobile(); else closeGroups(null);
     });
     doc.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && header.classList.contains('is-open')) { toggle.click(); toggle.focus(); }
+      if (e.key !== 'Escape') return;
+      var openGroup = groups.filter(function (g) { return g.classList.contains('is-open'); })[0];
+      if (wide.matches && openGroup) { setGroup(openGroup, false); if (openGroup.contains(doc.activeElement)) openGroup.querySelector('.navgroup__btn').focus(); }
+      else if (header.classList.contains('is-open')) { toggle.click(); toggle.focus(); }
     });
     Array.prototype.forEach.call(mount.querySelectorAll('[data-s1-level-btn]'), function (b) {
       b.addEventListener('click', function () { S1.level.set(b.getAttribute('data-s1-level-btn')); });
@@ -295,7 +365,7 @@
     var root = util.root(), src = S1.config.sourceUrl;
     mount.innerHTML =
       '<footer class="site-footer"><div class="site-footer__inner wrap">' +
-        '<div><p><strong>Structure 1 Lab</strong> is an independent study guide for IB Chemistry, Structure 1.</p>' +
+        '<div><p><strong>' + util.escapeHtml(S1.config.siteName) + '</strong> is an independent study guide for the Structure theme of IB Chemistry.</p>' +
         '<p>It is not affiliated with, or endorsed by, the International Baccalaureate Organization. All questions and explanations are original. Always check details against the official subject guide and your teacher.</p></div>' +
         '<div><p>Code and content: <a href="' + root + 'LICENSE">MIT licence</a>.</p>' +
         '<p data-s1-source>' + (src ? '<a href="' + util.escapeHtml(src) + '">Source code</a>' : 'Source code: link coming soon.') + '</p>' +
@@ -318,21 +388,37 @@
 
   function initCells(mount) {
     var root = util.root();
-    var ul = el('ul', { class: 'cells' });
-    S1.topics.forEach(function (t) {
-      var a = el('a', { class: 'cell', href: root + t.href, 'data-topic': t.id, html:
-        '<span class="cell__top"><span class="cell__num">' + t.num + '</span><span class="cell__pct"></span></span>' +
-        '<span class="cell__sym" aria-hidden="true">' + t.sym + '</span>' +
-        '<span class="cell__name">' + util.escapeHtml(t.short) + '</span>' +
-        '<span class="cell__blurb">' + util.escapeHtml(t.blurb) + '</span>' +
-        '<span class="meter" aria-hidden="true"><span class="meter__fill"></span></span>' });
-      ul.appendChild(el('li', null, a));
-    });
+    var only = mount.getAttribute('data-s1-topics');           // 's1' | 's2' | 's3' | '' (all strands)
+    var groups = only ? [S1.group(only)].filter(Boolean) : S1.groups;
     mount.innerHTML = '';
-    mount.appendChild(ul);
+    groups.forEach(function (g) {
+      var topics = S1.topicsIn(g.id);
+      if (!only) mount.appendChild(el('h3', { class: 'cells-title', html: '<span class="cells-title__num">' + g.name + '</span> ' + util.escapeHtml(g.title) }));
+      var ul = el('ul', { class: 'cells', style: '--cols:' + topics.length });
+      topics.forEach(function (t) {
+        var inner =
+          '<span class="cell__top"><span class="cell__num">' + t.num + '</span><span class="cell__pct"></span></span>' +
+          '<span class="cell__sym" aria-hidden="true">' + t.sym + '</span>' +
+          '<span class="cell__name">' + util.escapeHtml(t.short) + '</span>' +
+          '<span class="cell__blurb">' + util.escapeHtml(t.blurb) + '</span>' +
+          '<span class="meter" aria-hidden="true"><span class="meter__fill"></span></span>';
+        var node = t.ready
+          ? el('a', { class: 'cell', href: root + t.href, 'data-topic': t.id, html: inner })
+          : el('span', { class: 'cell cell--soon', 'data-topic': t.id, html: inner });
+        ul.appendChild(el('li', null, node));
+      });
+      mount.appendChild(ul);
+    });
     function paint() {
-      Array.prototype.forEach.call(ul.querySelectorAll('.cell'), function (a) {
-        var t = S1.topic(a.getAttribute('data-topic')), s = S1.progress.summary(t.id);
+      Array.prototype.forEach.call(mount.querySelectorAll('.cell'), function (a) {
+        var t = S1.topic(a.getAttribute('data-topic'));
+        if (!t.ready) {
+          a.querySelector('.cell__pct').textContent = 'coming soon';
+          a.setAttribute('role', 'group');
+          a.setAttribute('aria-label', 'Topic ' + t.num + ', ' + t.title + '. Coming soon.');
+          return;
+        }
+        var s = S1.progress.summary(t.id);
         a.querySelector('.cell__pct').textContent = s.percent + '%';
         a.querySelector('.meter__fill').style.width = s.percent + '%';
         a.setAttribute('aria-label', 'Topic ' + t.num + ', ' + t.title + '. ' + s.percent + ' percent done.');
@@ -345,9 +431,11 @@
 
   function initPager(mount) {
     var root = util.root(), page = util.page(), idx = -1;
-    S1.topics.forEach(function (t, i) { if (t.id === page) idx = i; });
+    // Runs across every published topic, in syllabus order (plus the current page, if unpublished).
+    var seq = S1.topics.filter(function (t) { return t.ready || t.id === page; });
+    seq.forEach(function (t, i) { if (t.id === page) idx = i; });
     if (idx < 0) return;
-    var prev = S1.topics[idx - 1], next = S1.topics[idx + 1], h = '';
+    var prev = seq[idx - 1], next = seq[idx + 1], h = '';
     if (prev) h += '<a class="pager__prev" href="' + root + prev.href + '"><span class="pager__dir">Previous</span><span class="pager__title">' + prev.num + ' ' + util.escapeHtml(prev.short) + '</span></a>';
     h += next
       ? '<a class="pager__next" href="' + root + next.href + '"><span class="pager__dir">Next</span><span class="pager__title">' + next.num + ' ' + util.escapeHtml(next.short) + '</span></a>'
@@ -842,6 +930,8 @@
   S1.ready = function (fn) { if (isReady) fn(); else readyFns.push(fn); };
   function boot() {
     html.classList.add('js');
+    // Pages written before the rename still say "Structure 1 Lab" in <title>.
+    if (doc.title.indexOf('Structure 1 Lab') > -1) doc.title = doc.title.replace('Structure 1 Lab', S1.config.siteName);
     S1.enhance(doc);
     isReady = true;
     readyFns.forEach(function (fn) { fn(); });
