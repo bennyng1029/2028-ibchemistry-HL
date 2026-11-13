@@ -1100,8 +1100,8 @@ S1.i18n.register('zh-Hant', 's2-2.q', {
         // EN: One intermolecular force is named separately, because it is stronger and needs H bonded to N, O or F.
         "有一種分子間引力另有名稱，因為它較強，而且需要 H 與 N、O 或 F 鍵合。",
       ],
-      // EN: <p>"Van der Waals forces" covers <strong>London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces</strong>.</p><p>It does not include hydrogen bonding.</p><p>Exam tip: when you mean London forces, write "London (dispersion) forces". Markschemes do not accept "van der Waals" in place of "London".</p>
-      solution: "<p>「范德華力」涵蓋<strong>倫敦（色散）力、偶極－誘發偶極引力和偶極－偶極引力</strong>。</p><p>它不包括氫鍵。</p><p>考試提示：指倫敦力時，要寫「London (dispersion) forces」。評分準則不接受用「van der Waals」代替「London」。</p>",
+      // EN: <p>"Van der Waals forces" covers <strong>London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces</strong>.</p><p>It does not include hydrogen bonding.</p><p data-i18n="both">Exam tip: when you mean London forces, write "London (dispersion) forces". Markschemes do not accept "van der Waals" in place of "London".</p>
+      solution: "<p>「范德華力」涵蓋<strong>倫敦（色散）力、偶極－誘發偶極引力和偶極－偶極引力</strong>。</p><p>它不包括氫鍵。</p><p data-i18n=\"both\">考試提示：指倫敦力時，要寫「London (dispersion) forces」。評分準則不接受用「van der Waals」代替「London」。</p>",
       misconception: {
         // EN (option D): Hydrogen bonding is an intermolecular force, but the guide does not include it in the term "van der Waals forces".
         "3": "氫鍵是一種分子間引力，但學科指南沒有把它歸入「范德華力」這個名稱。",

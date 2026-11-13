@@ -3049,3 +3049,23 @@ S1.i18n.register('zh-Hant', 's3-1', {
 
   }
 });
+
+/* Added by i18n-extract --only-missing on 2026-11-13: new or changed English. */
+S1.i18n.register('zh-Hant', 's3-1', {
+  strings: {
+
+    // widget string (assets/js/widgets-s3-1.js)
+    "non-metal (some sources class astatine as a metalloid)": "非金屬（有些資料把砹歸類為類金屬）",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-13: new or changed English. */
+S1.i18n.register('zh-Hant', 's3-1', {
+  strings: {
+
+    // widget string (assets/js/widgets-s3-1.js)
+    "{class}; {family}": "{class}；{family}",
+
+  }
+});

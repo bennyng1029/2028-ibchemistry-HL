@@ -1100,8 +1100,8 @@ S1.i18n.register('ja', 's2-2.q', {
         // EN: One intermolecular force is named separately, because it is stronger and needs H bonded to N, O or F.
         "分子間力のうち 1 つは、別の名前で呼ばれます。ほかより強く、N、O、F のどれかと結合した H が必要だからです。",
       ],
-      // EN: <p>"Van der Waals forces" covers <strong>London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces</strong>.</p><p>It does not include hydrogen bonding.</p><p>Exam tip: when you mean London forces, write "London (dispersion) forces". Markschemes do not accept "van der Waals" in place of "London".</p>
-      solution: "<p>「ファンデルワールス力」には、<strong>ロンドン（分散）力、双極子–誘起双極子相互作用、双極子–双極子相互作用</strong>が含まれます。</p><p>水素結合は含まれません。</p><p>試験のポイント：ロンドン力のことを言いたいときは、\"London (dispersion) forces\" と書きましょう。採点基準では、\"London\" の代わりに \"van der Waals\" と書いても認められません。</p>",
+      // EN: <p>"Van der Waals forces" covers <strong>London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces</strong>.</p><p>It does not include hydrogen bonding.</p><p data-i18n="both">Exam tip: when you mean London forces, write "London (dispersion) forces". Markschemes do not accept "van der Waals" in place of "London".</p>
+      solution: "<p>「ファンデルワールス力」には、<strong>ロンドン（分散）力、双極子–誘起双極子相互作用、双極子–双極子相互作用</strong>が含まれます。</p><p>水素結合は含まれません。</p><p data-i18n=\"both\">試験のポイント：ロンドン力のことを言いたいときは、\"London (dispersion) forces\" と書きましょう。採点基準では、\"London\" の代わりに \"van der Waals\" と書いても認められません。</p>",
       misconception: {
         // EN (option D): Hydrogen bonding is an intermolecular force, but the guide does not include it in the term "van der Waals forces".
         "3": "水素結合は分子間力ですが、『指導の手引き』(the guide) では「ファンデルワールス力」という呼び名に含めていません。",

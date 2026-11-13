@@ -3048,3 +3048,23 @@ S1.i18n.register('ja', 's3-1', {
     "A water molecule donates a lone pair of electrons to a copper(II) ion. The arrow shows the coordination bond.": "水分子が、銅(II) イオンに非共有電子対を与えている。矢印は配位結合を表す。",
   }
 });
+
+/* Added by i18n-extract --only-missing on 2026-11-13: new or changed English. */
+S1.i18n.register('ja', 's3-1', {
+  strings: {
+
+    // widget string (assets/js/widgets-s3-1.js)
+    "non-metal (some sources class astatine as a metalloid)": "非金属（アスタチンを半金属に分類する資料もある）",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-13: new or changed English. */
+S1.i18n.register('ja', 's3-1', {
+  strings: {
+
+    // widget string (assets/js/widgets-s3-1.js)
+    "{class}; {family}": "{class}；{family}",
+
+  }
+});

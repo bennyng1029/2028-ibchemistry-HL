@@ -631,6 +631,10 @@ Also translated: `title`, `aria-label`, `placeholder`, `alt`; the component attr
 `data-toc`, `data-def`, `data-label`, `data-kicker`, `data-correct`; question fields (by question id).
 Exam tips (`.callout--exam`) and markscheme points are shown in English **and** the translation, because
 the exam is in English. Use `<dfn>` for key terms: translators keep the English term beside it.
+In a question's `solution`, mark a paragraph that must stay visible in English (an exam tip, for example) with
+`data-i18n="both"`: the quiz shows the English paragraph with its translation beneath. The translation keeps the
+attribute on the same block; marked blocks are paired by position. In a model answer (`answer`), a table that
+reads the same in both languages (formulas, numbers, IUPAC names) is shown once.
 Changing an English sentence after it has been translated makes that translation stale, so finish the
 English first.
 

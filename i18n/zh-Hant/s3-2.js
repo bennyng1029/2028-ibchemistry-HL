@@ -518,7 +518,7 @@ S1.i18n.register('zh-Hant', 's3-2', {
     // Functional groups and classes of compounds > table > th
     // Homologous series: families of compounds > table > td
     // widget string (assets/js/widgets-s3-2.js)
-    "ester": "酯 (ester)",
+    "ester": "酯基 (ester)",
 
     // Functional groups and classes of compounds > table > td
     "esters: like carboxyl, but with R in place of the H": "酯 (esters)：像羧基，但 H 換成了 R",
@@ -2677,6 +2677,125 @@ S1.i18n.register('zh-Hant', 's3-2', {
 
     // widget string (assets/js/widgets-s3-2.js)
     "Notice that the carbon next to the nitrogen has more than one carbon neighbour. That does not matter for an amine.": "留意氮旁邊的碳有多於一個相鄰的碳。這對胺來說並不重要。",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-13: new or changed English. */
+S1.i18n.register('zh-Hant', 's3-2', {
+  strings: {
+
+    // Six ways to write one molecule > table > data-label attribute
+    "Full structural formula of propan-1-ol": "propan-1-ol 的完整結構式",
+
+    // Six ways to write one molecule > table > data-label attribute
+    "Skeletal formula of propan-1-ol": "propan-1-ol 的骨架式",
+
+    // Six ways to write one molecule > table > data-label attribute
+    "Stereochemical formula of propan-1-ol, drawn around the carbon that carries the OH group": "propan-1-ol 的立體化學式，以連着 OH 基團的碳為中心畫出",
+
+    // Six ways to write one molecule > li
+    "A double bond between carbons is usually shown: <span class=\"s32-f\" data-i18n=\"off\">CH<sub>2</sub>=CHCH<sub>3</sub></span>.": "碳與碳之間的雙鍵通常會寫出來：<span class=\"s32-f\" data-i18n=\"off\">CH<sub>2</sub>=CHCH<sub>3</sub></span>。",
+
+    // Functional groups and classes of compounds > table > data-label attribute
+    "chloroethane": "chloroethane",
+
+    // Functional groups and classes of compounds > table > data-label attribute
+    "ethanol": "ethanol",
+
+    // Functional groups and classes of compounds > table > data-label attribute
+    "ethanal": "ethanal",
+
+    // Functional groups and classes of compounds > table > data-label attribute
+    // Structural isomers > table > data-label attribute
+    "propanone": "propanone",
+
+    // Functional groups and classes of compounds > table > data-label attribute
+    "ethanoic acid": "ethanoic acid",
+
+    // Functional groups and classes of compounds > table > data-label attribute
+    "methoxymethane": "methoxymethane",
+
+    // Functional groups and classes of compounds > table > data-label attribute
+    "ethanamine": "ethanamine",
+
+    // Functional groups and classes of compounds > table > data-label attribute
+    "ethanamide": "ethanamide",
+
+    // Functional groups and classes of compounds > table > data-label attribute
+    "methyl ethanoate": "methyl ethanoate",
+
+    // Functional groups and classes of compounds > table > data-label attribute
+    "benzoic acid: a benzene ring joined to a carboxyl group": "benzoic acid：一個苯環連着一個羧基",
+
+    // Homologous series: families of compounds > data-label attribute
+    "methane": "methane",
+
+    // Homologous series: families of compounds > data-label attribute
+    "ethane": "ethane",
+
+    // Homologous series: families of compounds > table > td
+    "ethene, <span class=\"s32-f\" data-i18n=\"off\">CH<sub>2</sub>=CH<sub>2</sub></span>": "ethene, <span class=\"s32-f\" data-i18n=\"off\">CH<sub>2</sub>=CH<sub>2</sub></span>",
+
+    // Homologous series: families of compounds > table > td
+    "ethyne, <span class=\"s32-f\" data-i18n=\"off\">CH≡CH</span>": "ethyne, <span class=\"s32-f\" data-i18n=\"off\">CH≡CH</span>",
+
+    // Homologous series: families of compounds > key idea > p
+    "Some general formulas are shared. Aldehydes and ketones are both <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O</span>. Carboxylic acids and esters are both <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O<sub>2</sub></span>. Alcohols and ethers are both <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>O</span>. So a molecular formula alone cannot tell you the class. This matters for isomers, later on this page.": "有些通式是共用的。醛和酮都是 <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O</span>。羧酸和酯都是 <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O<sub>2</sub></span>。醇和醚都是 <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>O</span>。所以單憑分子式不能判斷化合物的類別。這一點對本頁稍後的同分異構體很重要。",
+
+    // Homologous series: families of compounds > try it > li
+    "<span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub></span> with <i>n</i> = 5.": "<span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub></span>，其中 <i>n</i> = 5。",
+
+    // IUPAC names > p
+    "For example, in <span class=\"s32-name\" data-i18n=\"off\">2-methylbutan-1-ol</span> the prefix is 2-methyl, the stem is but, and the ending is an-1-ol.": "例如在 <span class=\"s32-name\" data-i18n=\"off\">2-methylbutan-1-ol</span> 中，前綴是 2-methyl，詞幹是 but，詞尾是 an-1-ol。",
+
+    // IUPAC names > p
+    "The letters before the ending tell you about the carbon–carbon bonds: <b>-an-</b> means all single, <b>-en-</b> means one C=C, and <b>-yn-</b> means one C≡C. So <span class=\"s32-name\" data-i18n=\"off\">but-2-enoic acid</span> is a four-carbon carboxylic acid with a C=C that starts at carbon 2.": "詞尾前面的字母說明碳碳鍵的情況：<b>-an-</b> 表示全是單鍵，<b>-en-</b> 表示有一個 C=C，<b>-yn-</b> 表示有一個 C≡C。所以 <span class=\"s32-name\" data-i18n=\"off\">but-2-enoic acid</span> 是一種四碳羧酸，它的 C=C 由第 2 個碳開始。",
+
+    // IUPAC names > not needed for IB > p
+    "Older books write the number in front of the whole name, as in “2-butanol”. Many everyday names are also still used, such as acetone, acetic acid, isopropyl and tert-butyl. You do not need them. You also do not need E/Z or cis–trans labels here: on this page <span class=\"s32-name\" data-i18n=\"off\">but-2-ene</span> is a complete name.": "舊書會把數字寫在整個名稱的前面，例如「2-butanol」。很多俗名現在仍然有人使用，例如 acetone、acetic acid、isopropyl 和 tert-butyl。你不需要學這些名稱。這裏也不需要 E/Z 或 cis–trans 標記：在本頁，<span class=\"s32-name\" data-i18n=\"off\">but-2-ene</span> 已是完整的名稱。",
+
+    // Structural isomers > table > data-label attribute
+    "2-methylpropane": "2-methylpropane",
+
+    // Structural isomers > worked example > p
+    "The formula fits <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>O</span>, so there are no double bonds and no rings. One O with only single bonds is either a hydroxyl group (an alcohol) or an alkoxy group (an ether).": "這個化學式符合 <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>O</span>，所以沒有雙鍵，也沒有環。一個只有單鍵的 O，不是羥基（醇），就是烷氧基（醚）。",
+
+    // Primary, secondary and tertiary > table > data-label attribute
+    "propan-1-ol: the carbon with the OH is bonded to one other carbon": "propan-1-ol：連着 OH 的碳與另外一個碳相連",
+
+    // Primary, secondary and tertiary > table > data-label attribute
+    "propan-2-ol: the carbon with the OH is bonded to two other carbons": "propan-2-ol：連着 OH 的碳與另外兩個碳相連",
+
+    // Primary, secondary and tertiary > table > data-label attribute
+    "2-methylpropan-2-ol: the carbon with the OH is bonded to three other carbons": "2-methylpropan-2-ol：連着 OH 的碳與另外三個碳相連",
+
+    // Primary, secondary and tertiary > table > data-label attribute
+    "A primary amine: the nitrogen is bonded to one carbon and two hydrogens": "一級胺：氮連着一個碳和兩個氫",
+
+    // Primary, secondary and tertiary > table > data-label attribute
+    "A secondary amine: the nitrogen is bonded to two carbons and one hydrogen": "二級胺：氮連着兩個碳和一個氫",
+
+    // Primary, secondary and tertiary > table > data-label attribute
+    "A tertiary amine: the nitrogen is bonded to three carbons and no hydrogens": "三級胺：氮連着三個碳，沒有連着氫",
+
+    // widget string (assets/js/widgets-s3-2.js)
+    "ester|group": "酯基 (ester)",
+
+    // widget string (assets/js/widgets-s3-2.js)
+    "ester|class": "酯 (ester)",
+
+    // widget string (assets/js/widgets-s3-2.js)
+    "{a}; {b}": "{a}；{b}",
+
+    // widget string (assets/js/widgets-s3-2.js)
+    "{name} — {class}": "{name} — {class}",
+
+    // widget string (assets/js/widgets-s3-2.js)
+    "Correct. {list}.": "正確。{list}。",
+
+    // widget string (assets/js/widgets-s3-2.js)
+    "{degree} {class}": "{degree} {class}",
 
   }
 });

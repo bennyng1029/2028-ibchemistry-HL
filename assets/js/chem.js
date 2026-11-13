@@ -64,7 +64,9 @@
      ar: relative atomic mass to 2 d.p.; null where the booklet prints a mass number in brackets instead,
          and massNumber is then that bracketed number.
      group: 1–18 (null for the f-block rows); La and Ac are placed in group 3, as in the IB data booklet layout.
-     block: 's' | 'p' | 'd' | 'f'.   category: 'metal' | 'metalloid' | 'non-metal' | 'unknown' (Z >= 113).   */
+     block: 's' | 'p' | 'd' | 'f'.   category: 'metal' | 'metalloid' | 'non-metal' | 'unknown' (Z >= 113).
+     Metalloids here are B, Si, Ge, As, Sb, Te (the list used on the Structure 3.1 page and in its questions). Sources disagree
+     about the edges of the band: astatine is classed as a non-metal here, and the s3-1 table widget adds that caveat.   */
   var elements = [
     { z: 1, symbol: 'H', name: 'hydrogen', ar: 1.01, group: 1, period: 1, block: 's', category: 'non-metal' },
     { z: 2, symbol: 'He', name: 'helium', ar: 4.00, group: 18, period: 1, block: 's', category: 'non-metal' },
@@ -150,7 +152,7 @@
     { z: 82, symbol: 'Pb', name: 'lead', ar: 207.20, group: 14, period: 6, block: 'p', category: 'metal' },
     { z: 83, symbol: 'Bi', name: 'bismuth', ar: 208.98, group: 15, period: 6, block: 'p', category: 'metal' },
     { z: 84, symbol: 'Po', name: 'polonium', ar: null, group: 16, period: 6, block: 'p', category: 'metal', massNumber: 209 },
-    { z: 85, symbol: 'At', name: 'astatine', ar: null, group: 17, period: 6, block: 'p', category: 'metalloid', massNumber: 210 },
+    { z: 85, symbol: 'At', name: 'astatine', ar: null, group: 17, period: 6, block: 'p', category: 'non-metal', massNumber: 210 },
     { z: 86, symbol: 'Rn', name: 'radon', ar: null, group: 18, period: 6, block: 'p', category: 'non-metal', massNumber: 222 },
     { z: 87, symbol: 'Fr', name: 'francium', ar: null, group: 1, period: 7, block: 's', category: 'metal', massNumber: 223 },
     { z: 88, symbol: 'Ra', name: 'radium', ar: null, group: 2, period: 7, block: 's', category: 'metal', massNumber: 226 },

@@ -518,7 +518,7 @@ S1.i18n.register('ja', 's3-2', {
     // Functional groups and classes of compounds > table > th
     // Homologous series: families of compounds > table > td
     // widget string (assets/js/widgets-s3-2.js)
-    "ester": "エステル (ester)",
+    "ester": "エステル基 (ester)",
 
     // Functional groups and classes of compounds > table > td
     "esters: like carboxyl, but with R in place of the H": "エステル (esters)：カルボキシ基に似ているが、H の代わりに R がついている",
@@ -2677,6 +2677,125 @@ S1.i18n.register('ja', 's3-2', {
 
     // widget string (assets/js/widgets-s3-2.js)
     "Notice that the carbon next to the nitrogen has more than one carbon neighbour. That does not matter for an amine.": "窒素のとなりの炭素には、炭素が 2 個以上結合していることに注意しましょう。アミンでは、それは関係ありません。",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-13: new or changed English. */
+S1.i18n.register('ja', 's3-2', {
+  strings: {
+
+    // Six ways to write one molecule > table > data-label attribute
+    "Full structural formula of propan-1-ol": "propan-1-ol の完全な構造式",
+
+    // Six ways to write one molecule > table > data-label attribute
+    "Skeletal formula of propan-1-ol": "propan-1-ol の骨格構造式",
+
+    // Six ways to write one molecule > table > data-label attribute
+    "Stereochemical formula of propan-1-ol, drawn around the carbon that carries the OH group": "propan-1-ol の立体化学式（OH 基がついた炭素を中心に描いたもの）",
+
+    // Six ways to write one molecule > li
+    "A double bond between carbons is usually shown: <span class=\"s32-f\" data-i18n=\"off\">CH<sub>2</sub>=CHCH<sub>3</sub></span>.": "炭素どうしの二重結合は、ふつう書き表します：<span class=\"s32-f\" data-i18n=\"off\">CH<sub>2</sub>=CHCH<sub>3</sub></span>。",
+
+    // Functional groups and classes of compounds > table > data-label attribute
+    "chloroethane": "chloroethane",
+
+    // Functional groups and classes of compounds > table > data-label attribute
+    "ethanol": "ethanol",
+
+    // Functional groups and classes of compounds > table > data-label attribute
+    "ethanal": "ethanal",
+
+    // Functional groups and classes of compounds > table > data-label attribute
+    // Structural isomers > table > data-label attribute
+    "propanone": "propanone",
+
+    // Functional groups and classes of compounds > table > data-label attribute
+    "ethanoic acid": "ethanoic acid",
+
+    // Functional groups and classes of compounds > table > data-label attribute
+    "methoxymethane": "methoxymethane",
+
+    // Functional groups and classes of compounds > table > data-label attribute
+    "ethanamine": "ethanamine",
+
+    // Functional groups and classes of compounds > table > data-label attribute
+    "ethanamide": "ethanamide",
+
+    // Functional groups and classes of compounds > table > data-label attribute
+    "methyl ethanoate": "methyl ethanoate",
+
+    // Functional groups and classes of compounds > table > data-label attribute
+    "benzoic acid: a benzene ring joined to a carboxyl group": "benzoic acid：カルボキシ基に結合したベンゼン環",
+
+    // Homologous series: families of compounds > data-label attribute
+    "methane": "methane",
+
+    // Homologous series: families of compounds > data-label attribute
+    "ethane": "ethane",
+
+    // Homologous series: families of compounds > table > td
+    "ethene, <span class=\"s32-f\" data-i18n=\"off\">CH<sub>2</sub>=CH<sub>2</sub></span>": "ethene, <span class=\"s32-f\" data-i18n=\"off\">CH<sub>2</sub>=CH<sub>2</sub></span>",
+
+    // Homologous series: families of compounds > table > td
+    "ethyne, <span class=\"s32-f\" data-i18n=\"off\">CH≡CH</span>": "ethyne, <span class=\"s32-f\" data-i18n=\"off\">CH≡CH</span>",
+
+    // Homologous series: families of compounds > key idea > p
+    "Some general formulas are shared. Aldehydes and ketones are both <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O</span>. Carboxylic acids and esters are both <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O<sub>2</sub></span>. Alcohols and ethers are both <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>O</span>. So a molecular formula alone cannot tell you the class. This matters for isomers, later on this page.": "一般式が同じになる同族列もあります。アルデヒドとケトンはどちらも <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O</span> です。カルボン酸とエステルはどちらも <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O<sub>2</sub></span> です。アルコールとエーテルはどちらも <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>O</span> です。だから、分子式だけでは化合物の種類はわかりません。このことは、このページの後のほうで学ぶ異性体で大切になります。",
+
+    // Homologous series: families of compounds > try it > li
+    "<span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub></span> with <i>n</i> = 5.": "<span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub></span> で <i>n</i> = 5。",
+
+    // IUPAC names > p
+    "For example, in <span class=\"s32-name\" data-i18n=\"off\">2-methylbutan-1-ol</span> the prefix is 2-methyl, the stem is but, and the ending is an-1-ol.": "たとえば <span class=\"s32-name\" data-i18n=\"off\">2-methylbutan-1-ol</span> では、接頭語は 2-methyl、語幹は but、語尾は an-1-ol です。",
+
+    // IUPAC names > p
+    "The letters before the ending tell you about the carbon–carbon bonds: <b>-an-</b> means all single, <b>-en-</b> means one C=C, and <b>-yn-</b> means one C≡C. So <span class=\"s32-name\" data-i18n=\"off\">but-2-enoic acid</span> is a four-carbon carboxylic acid with a C=C that starts at carbon 2.": "語尾の前の文字は、炭素–炭素結合について教えてくれます。<b>-an-</b> はすべて単結合、<b>-en-</b> は C=C が 1 つ、<b>-yn-</b> は C≡C が 1 つという意味です。だから <span class=\"s32-name\" data-i18n=\"off\">but-2-enoic acid</span> は、炭素 4 個のカルボン酸で、2 番の炭素から始まる C=C をもちます。",
+
+    // IUPAC names > not needed for IB > p
+    "Older books write the number in front of the whole name, as in “2-butanol”. Many everyday names are also still used, such as acetone, acetic acid, isopropyl and tert-butyl. You do not need them. You also do not need E/Z or cis–trans labels here: on this page <span class=\"s32-name\" data-i18n=\"off\">but-2-ene</span> is a complete name.": "古い本では、「2-butanol」のように、番号を名前全体の前に書きます。acetone、acetic acid、isopropyl、tert-butyl のような慣用名も、今でも多く使われています。これらは覚える必要はありません。また、ここでは E/Z や cis–trans の表示も必要ありません。このページでは、<span class=\"s32-name\" data-i18n=\"off\">but-2-ene</span> で完全な名前です。",
+
+    // Structural isomers > table > data-label attribute
+    "2-methylpropane": "2-methylpropane",
+
+    // Structural isomers > worked example > p
+    "The formula fits <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>O</span>, so there are no double bonds and no rings. One O with only single bonds is either a hydroxyl group (an alcohol) or an alkoxy group (an ether).": "この式は <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>O</span> に当てはまるので、二重結合も環もありません。単結合だけの O が 1 個あれば、それはヒドロキシ基（アルコール）かアルコキシ基（エーテル）のどちらかです。",
+
+    // Primary, secondary and tertiary > table > data-label attribute
+    "propan-1-ol: the carbon with the OH is bonded to one other carbon": "propan-1-ol：OH のついた炭素は、ほかの炭素 1 個と結合している",
+
+    // Primary, secondary and tertiary > table > data-label attribute
+    "propan-2-ol: the carbon with the OH is bonded to two other carbons": "propan-2-ol：OH のついた炭素は、ほかの炭素 2 個と結合している",
+
+    // Primary, secondary and tertiary > table > data-label attribute
+    "2-methylpropan-2-ol: the carbon with the OH is bonded to three other carbons": "2-methylpropan-2-ol：OH のついた炭素は、ほかの炭素 3 個と結合している",
+
+    // Primary, secondary and tertiary > table > data-label attribute
+    "A primary amine: the nitrogen is bonded to one carbon and two hydrogens": "第一級アミン：窒素は炭素 1 個、水素 2 個と結合している",
+
+    // Primary, secondary and tertiary > table > data-label attribute
+    "A secondary amine: the nitrogen is bonded to two carbons and one hydrogen": "第二級アミン：窒素は炭素 2 個、水素 1 個と結合している",
+
+    // Primary, secondary and tertiary > table > data-label attribute
+    "A tertiary amine: the nitrogen is bonded to three carbons and no hydrogens": "第三級アミン：窒素は炭素 3 個と結合し、水素とは結合していない",
+
+    // widget string (assets/js/widgets-s3-2.js)
+    "ester|group": "エステル基 (ester)",
+
+    // widget string (assets/js/widgets-s3-2.js)
+    "ester|class": "エステル (ester)",
+
+    // widget string (assets/js/widgets-s3-2.js)
+    "{a}; {b}": "{a}；{b}",
+
+    // widget string (assets/js/widgets-s3-2.js)
+    "{name} — {class}": "{name} — {class}",
+
+    // widget string (assets/js/widgets-s3-2.js)
+    "Correct. {list}.": "正解です。{list}。",
+
+    // widget string (assets/js/widgets-s3-2.js)
+    "{degree} {class}": "{degree} {class}",
 
   }
 });

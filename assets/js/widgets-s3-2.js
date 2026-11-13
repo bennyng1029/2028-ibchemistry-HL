@@ -679,6 +679,22 @@
   function cross3(a, b) { return [a[1] * b[2] - a[2] * b[1], a[2] * b[0] - a[0] * b[2], a[0] * b[1] - a[1] * b[0]]; }
   function unit3(a) { var l = Math.hypot(a[0], a[1], a[2]) || 1; return [a[0] / l, a[1] / l, a[2] / l]; }
   /**
+   * True if two atoms that are not bonded sit closer than 0.9 Å in a build3d() result. The builder places each
+   * substituent on its own, so crowded molecules can clash: aspirin (two large groups on neighbouring ring carbons)
+   * does. No such molecule is shown in 3-D today (the formulas widget uses the first 27 compounds, all clear);
+   * a figure that asks for one falls back to the skeletal drawing.
+   */
+  function clash3d(g) {
+    var bonded = {}, i, j, a, b;
+    g.bonds.forEach(function (q) { bonded[Math.min(q.a, q.b) + '-' + Math.max(q.a, q.b)] = true; });
+    for (i = 0; i < g.atoms.length; i++) for (j = i + 1; j < g.atoms.length; j++) {
+      if (bonded[i + '-' + j]) continue;
+      a = g.atoms[i]; b = g.atoms[j];
+      if (Math.hypot(a.x - b.x, a.y - b.y, a.z - b.z) < 0.9) return true;
+    }
+    return false;
+  }
+  /**
    * A viewer3d spec with every hydrogen: tetrahedral (109.5°) at saturated C, N and O, trigonal planar (120°) at C=C,
    * C=O, benzene-ring and amide atoms, linear (180°) at C≡C. Chains are built staggered. Lone pairs are not drawn.
    */
@@ -886,7 +902,7 @@
     parse: parse, prep: prep, counts: counts, molecular: molecular, empirical: empirical, fHtml: fHtml, canon: canon, skeleton: skeleton,
     groups: groups, classKey: classKey, degree: degree, relation: relation, formatName: formatName, specToMol: specToMol, parseName: parseName,
     nameOf: nameOf, inScope: inScope, randomNamed: randomNamed, wrongNames: wrongNames, nearMolecules: nearMolecules, carbonPaths: carbonPaths,
-    mainPath: mainPath, layoutOk: layoutOk, layoutSkeletal: layoutSkeletal, layoutGrid: layoutGrid, layoutRingFull: layoutRingFull, build3d: build3d,
+    mainPath: mainPath, layoutOk: layoutOk, layoutSkeletal: layoutSkeletal, layoutGrid: layoutGrid, layoutRingFull: layoutRingFull, build3d: build3d, clash3d: clash3d,
     COMPOUNDS: COMPOUNDS, compound: compound, ISOMER_SETS: ISOMER_SETS, SERIES: SERIES, HALO: HALO
   };
   if (!S1.widgets || typeof document === 'undefined') return;      // node test: core only
@@ -1095,9 +1111,10 @@
       return;
     }
     try { m = molFrom(host.getAttribute('data-s32-mol')); } catch (err) { return; }
+    var g = null;
     if (view === 'full') drawFull(host, m, { label: label, scale: scale || 32 });
     else if (view === 'groups') drawGroups(host, m, { label: label, scale: scale || 32, path: host.getAttribute('data-path') ? host.getAttribute('data-path').split(',').map(Number) : null });
-    else if (view === '3d') { var g = build3d(m); S1.mol.viewer3d(host, { atoms: g.atoms, bonds: g.bonds, angle: g.angle, height: Number(host.getAttribute('data-height')) || 220, label: label || t('3-D model') }); }
+    else if (view === '3d' && !clash3d(g = build3d(m))) { S1.mol.viewer3d(host, { atoms: g.atoms, bonds: g.bonds, angle: g.angle, height: Number(host.getAttribute('data-height')) || 220, label: label || t('3-D model') }); }
     else {
       var numbers = null, r;
       if (host.hasAttribute('data-numbers')) { r = nameOf(m); if (!r.fail) { numbers = {}; r.path.forEach(function (i, k) { numbers[i] = k + 1; }); } }

@@ -229,9 +229,10 @@
     }
     function classText(e) {
       var c = e.category === 'metal' ? t('metal') : e.category === 'metalloid' ? t('metalloid') : e.category === 'non-metal' ? t('non-metal') : t('class not yet known');
+      if (e.symbol === 'At') c = t('non-metal (some sources class astatine as a metalloid)');   // the page says sources disagree about the edges of the band
       var fam = familyOf(e);
       var ft = fam === 'alkali' ? t('alkali metal') : fam === 'halogen' ? t('halogen') : fam === 'noble' ? t('noble gas') : fam === 'transition' ? t('transition element') : '';
-      return ft ? c + '; ' + ft : c;
+      return ft ? t('{class}; {family}', { class: c, family: ft }) : c;
     }
     function whyText(e) {
       var n = e.period, v = { n: n, g: e.group, sym: e.symbol };

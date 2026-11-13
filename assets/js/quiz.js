@@ -33,7 +33,36 @@
   // English wording first (it is what earns marks), translation beneath when there is one.
   function bilingual(q, field, index) {
     var en = index != null ? (q[field] || [])[index] : q[field], tr = Q(q, field, index);
-    return tr !== en ? en + '<span class="i18n-tr" lang="' + S1.i18n.get() + '">' + tr + '</span>' : en;
+    return tr !== en ? en + '<span class="i18n-tr" lang="' + S1.i18n.get() + '">' + dropSameTables(en, tr) + '</span>' : en;
+  }
+  function fragment(htmlStr) { var d = doc.createElement('div'); d.innerHTML = htmlStr; return d; }
+  function textOf(node) { return (node.textContent || '').replace(/\s+/g, ''); }
+  /* A table of formulas, numbers and IUPAC names reads the same in both languages: it is shown once, in the
+     English part, and left out of the translation. Tables are paired by position; if the counts differ, or a
+     table holds any translated text, nothing is removed. */
+  function dropSameTables(en, tr) {
+    if (!/<table/i.test(String(tr))) return tr;
+    var a = fragment(en).querySelectorAll('table'), d = fragment(tr), b = d.querySelectorAll('table'), changed = false;
+    if (a.length !== b.length) return tr;
+    for (var i = 0; i < b.length; i++) {
+      if (textOf(a[i]) !== textOf(b[i]) || b[i].querySelector('[aria-label], [title], [alt]')) continue;
+      var box = b[i].parentNode !== d && b[i].parentNode.classList.contains('table-scroll') && b[i].parentNode.children.length === 1 ? b[i].parentNode : b[i];
+      box.parentNode.removeChild(box); changed = true;
+    }
+    return changed ? d.innerHTML : tr;
+  }
+  /* Blocks that the question author marked data-i18n="both" (an exam tip inside a solution, for example) are
+     shown in English with the translation beneath, like exam tips on a page. The marked blocks of the English
+     and of the translation are paired by position; if the counts differ the translation is shown as it is. */
+  function withBoth(en, tr) {
+    if (tr === en || String(en).indexOf('data-i18n="both"') < 0) return tr;
+    var a = fragment(en).querySelectorAll('[data-i18n="both"]'), d = fragment(tr), b = d.querySelectorAll('[data-i18n="both"]');
+    if (!a.length || a.length !== b.length) return tr;
+    for (var i = 0; i < b.length; i++) {
+      if (a[i].innerHTML === b[i].innerHTML) continue;
+      b[i].innerHTML = a[i].innerHTML + '<span class="i18n-tr" lang="' + S1.i18n.get() + '">' + b[i].innerHTML + '</span>';
+    }
+    return d.innerHTML;
   }
 
   /* ---------- Building a set of questions ---------------------------------- */
@@ -111,7 +140,7 @@
           var shown = q.answerDisplay != null ? Q(q, 'answerDisplay') : (q.sigfigs ? S1.chem.fmt(Number(q.answer), Array.isArray(q.sigfigs) ? q.sigfigs[q.sigfigs.length - 1] : Number(String(q.sigfigs).split('-').pop())) : String(q.answer).replace('-', S1.chem.MINUS));
           h += '<p><strong>' + t('Answer:') + '</strong> <span class="mono">' + shown + '</span>' + u + '</p>';
         }
-        if (q.solution) h += Q(q, 'solution');
+        if (q.solution) h += withBoth(q.solution, Q(q, 'solution'));
         return '<h4>' + t('Solution|quiz') + '</h4>' + h;
       });
       solution.hidden = false; solBtn.hidden = true;

@@ -680,14 +680,14 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "Shape": "形狀",
 
     // Infrared spectroscopy > table > td
-    "alcohols": "醇",
+    "alcohols": "醇 (alcohols)",
 
     // Infrared spectroscopy > table > td
     // widget string (assets/js/widgets-s3-2h.js)
     "strong, broad": "強、寬 (strong, broad)",
 
     // Infrared spectroscopy > table > td
-    "carboxylic acids": "羧酸",
+    "carboxylic acids": "羧酸 (carboxylic acids)",
 
     // Infrared spectroscopy > table > td
     // widget string (assets/js/widgets-s3-2h.js)
@@ -695,7 +695,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
 
     // Infrared spectroscopy > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "alkanes, alkenes, arenes": "烷烴、烯烴、芳烴",
+    "alkanes, alkenes, arenes": "烷烴、烯烴、芳烴 (alkanes, alkenes, arenes)",
 
     // Infrared spectroscopy > table > td
     // widget string (assets/js/widgets-s3-2h.js)
@@ -703,18 +703,18 @@ S1.i18n.register('zh-Hant', 's3-2h', {
 
     // Infrared spectroscopy > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "aldehydes, ketones, carboxylic acids and esters": "醛、酮、羧酸和酯",
+    "aldehydes, ketones, carboxylic acids and esters": "醛、酮、羧酸和酯 (aldehydes, ketones, carboxylic acids and esters)",
 
     // Infrared spectroscopy > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "alkenes": "烯烴",
+    "alkenes": "烯烴 (alkenes)",
 
     // Infrared spectroscopy > table > td
     "medium-weak": "中至弱 (medium-weak)",
 
     // Infrared spectroscopy > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "alcohols, esters, ethers": "醇、酯、醚",
+    "alcohols, esters, ethers": "醇、酯、醚 (alcohols, esters, ethers)",
 
     // Infrared spectroscopy > p
     "Almost every organic compound has C–H bonds. So the C–H absorption rarely helps you to tell compounds apart.": "幾乎所有有機化合物都有 C–H 鍵。所以 C–H 吸收很少能幫你分辨化合物。",
@@ -1511,34 +1511,34 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "The core content of this topic is on the page <a href=\"s3-2.html\">3.2 Functional groups</a>.": "本課題的核心內容在 <a href=\"s3-2.html\">3.2 官能基</a> 頁面。",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "iodoalkanes": "碘烷",
+    "iodoalkanes": "碘烷 (iodoalkanes)",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "bromoalkanes": "溴烷",
+    "bromoalkanes": "溴烷 (bromoalkanes)",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "chloroalkanes": "氯烷",
+    "chloroalkanes": "氯烷 (chloroalkanes)",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "fluoroalkanes": "氟烷",
+    "fluoroalkanes": "氟烷 (fluoroalkanes)",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "medium-weak; multiple bands": "中至弱；多個吸收帶 (medium-weak; multiple bands)",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "alkynes": "炔烴",
+    "alkynes": "炔烴 (alkynes)",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "variable": "可變 (variable)",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "carboxylic acids (with hydrogen bonding)": "羧酸（有氫鍵）",
+    "carboxylic acids (with hydrogen bonding)": "羧酸（有氫鍵）(carboxylic acids)",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "alcohols and phenols (with hydrogen bonding)": "醇和酚（有氫鍵）",
+    "alcohols and phenols (with hydrogen bonding)": "醇和酚（有氫鍵）(alcohols and phenols)",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "primary amines": "一級胺",
+    "primary amines": "一級胺 (primary amines)",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "medium; two bands": "中；兩個吸收帶 (medium; two bands)",
@@ -2288,7 +2288,7 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     "Data booklet, section 20: infrared data": "數據手冊第 20 節：紅外數據",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Types of organic molecules": "有機分子的類別",
+    "Types of organic molecules": "有機分子的類別 (Types of organic molecules)",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "Intensity": "強度",

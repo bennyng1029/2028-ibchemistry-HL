@@ -703,7 +703,7 @@ S1.i18n.register('ja', 's3-2h', {
 
     // Infrared spectroscopy > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "aldehydes, ketones, carboxylic acids and esters": "アルデヒド、ケトン、カルボン酸、エステル",
+    "aldehydes, ketones, carboxylic acids and esters": "アルデヒド、ケトン、カルボン酸、エステル (aldehydes, ketones, carboxylic acids and esters)",
 
     // Infrared spectroscopy > table > td
     // widget string (assets/js/widgets-s3-2h.js)
@@ -714,7 +714,7 @@ S1.i18n.register('ja', 's3-2h', {
 
     // Infrared spectroscopy > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "alcohols, esters, ethers": "アルコール、エステル、エーテル",
+    "alcohols, esters, ethers": "アルコール、エステル、エーテル (alcohols, esters, ethers)",
 
     // Infrared spectroscopy > p
     "Almost every organic compound has C–H bonds. So the C–H absorption rarely helps you to tell compounds apart.": "ほとんどすべての有機化合物に C–H 結合があります。だから、C–H の吸収は、化合物を見分けるのにあまり役立ちません。",
