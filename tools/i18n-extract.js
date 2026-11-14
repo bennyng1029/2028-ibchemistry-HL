@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /* Build or top up translation skeletons.
-     node tools/i18n-extract.js <pageId> [--lang ja|zh-Hant] [--write] [--only-missing] [--json]
+     node tools/i18n-extract.js <pageId> [--lang ja|zh-Hant|ko] [--write] [--only-missing] [--json]
    <pageId> is ui, home, practice, or a topic id such as s1-4.
 
    --write          creates or rewrites  i18n/<lang>/<pageId>.js   (page text, attributes, widget strings)

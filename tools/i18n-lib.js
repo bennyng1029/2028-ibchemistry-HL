@@ -6,7 +6,7 @@ const vm = require('vm');
 
 const ROOT = path.resolve(__dirname, '..');
 const SHELL_FILES = ['assets/js/chem.js', 'assets/js/core.js', 'assets/js/quiz.js', 'assets/js/mol.js', 'assets/js/chart.js'];
-const LANGS = ['ja', 'zh-Hant'];
+const LANGS = ['ja', 'zh-Hant', 'ko'];
 
 const norm = s => String(s == null ? '' : s).replace(/\s+/g, ' ').trim();
 
@@ -33,7 +33,7 @@ function literalsIn(code) {
   while ((m = re.exec(code))) { const v = unquote(m[0]); if (v != null) out.push(v); }
   return out;
 }
-const NOISE = /^(data-[\w-]+|is-[\w-]+|aria-[\w-]+|ahl|sl|all|en|ja|zh-Hant|ui|[a-z]+__[\w-]+|[.#][\w-].*|\[[\w-]+(?:[~^$*|]?=.*)?\]|[a-z0-9]+(-[a-z0-9]+)+)$/;
+const NOISE = /^(data-[\w-]+|is-[\w-]+|aria-[\w-]+|ahl|sl|all|en|ja|zh-Hant|ko|ui|[a-z]+__[\w-]+|[.#][\w-].*|\[[\w-]+(?:[~^$*|]?=.*)?\]|[a-z0-9]+(-[a-z0-9]+)+)$/;
 // Page and widget files: class names and selectors only. A hyphenated word in a t("…") call is a real string
 // ("non-metal", "s-block", "but-2-ene"), so the generic "looks like an id" rule of NOISE is not used there
 // (except for an operand of a comparison, such as  t(kind === 'some-id' ? … : …)).
@@ -376,7 +376,7 @@ function lintPair(en, tr, opts) {
   }
   return out;
 }
-/* Rough width of a figure label in ems: a CJK or full-width character is 1, anything else about 0.55. */
+/* Rough width of a figure label in ems: a CJK, Hangul or full-width character is 1, anything else about 0.55. */
 function labelWidth(s) {
   let w = 0;
   for (const ch of String(s).replace(/<[^>]+>/g, '')) w += /[\u2E80-\u9FFF\uF900-\uFAFF\uFF00-\uFFEF]/.test(ch) ? 1 : 0.55;

@@ -837,7 +837,7 @@ table.data .num, table.data td.num, table.data th.num { text-align: right; font-
 .tile--ahl .tile__sym { color: var(--ahl); }
 .lang-select { min-height: 2.5rem; padding: 0.3rem 0.5rem; font-size: 0.85rem; max-width: 8.5rem; }
 
-/* ---------- 24. Translations (ja, zh-Hant) ---------------------------------- */
+/* ---------- 24. Translations (ja, zh-Hant, ko) ------------------------------ */
 :root[lang="ja"] {
   --font-body: "Atkinson Hyperlegible", "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
   --font-display: "Bricolage Grotesque", "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
@@ -850,17 +850,27 @@ table.data .num, table.data td.num, table.data th.num { text-align: right; font-
   --font-mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", monospace;
   --measure: 36em;
 }
+:root[lang="ko"] {
+  --font-body: "Atkinson Hyperlegible", "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", sans-serif;
+  --font-display: "Bricolage Grotesque", "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", monospace;
+  --measure: 40em;
+}
 :root:is([lang="ja"], [lang="zh-Hant"]) body { line-height: 1.85; line-break: strict; overflow-wrap: break-word; }
-:root:is([lang="ja"], [lang="zh-Hant"]) :is(h1, h2, h3, h4) { letter-spacing: 0; line-height: 1.35; font-weight: 700; text-wrap: wrap; word-break: normal; }
-:root:is([lang="ja"], [lang="zh-Hant"]) h1 { font-size: clamp(1.7rem, 1.2rem + 2.2vw, 2.6rem); }
-:root:is([lang="ja"], [lang="zh-Hant"]) :is(em, cite, dfn) { font-style: normal; }
-:root:is([lang="ja"], [lang="zh-Hant"]) em { font-weight: 700; }
+/* Korean is written with spaces between words: break at the spaces, never inside a word. */
+:root[lang="ko"] body { line-height: 1.75; word-break: keep-all; overflow-wrap: break-word; }
+:root:is([lang="ja"], [lang="zh-Hant"], [lang="ko"]) :is(h1, h2, h3, h4) { letter-spacing: 0; line-height: 1.35; font-weight: 700; text-wrap: wrap; word-break: normal; }
+:root[lang="ko"] :is(h1, h2, h3, h4) { word-break: keep-all; }
+:root:is([lang="ja"], [lang="zh-Hant"], [lang="ko"]) h1 { font-size: clamp(1.7rem, 1.2rem + 2.2vw, 2.6rem); }
+:root:is([lang="ja"], [lang="zh-Hant"], [lang="ko"]) :is(em, cite, dfn) { font-style: normal; }
+:root:is([lang="ja"], [lang="zh-Hant"], [lang="ko"]) em { font-weight: 700; }
 /* Small caps-style labels: no tracking and no uppercase for CJK text */
-:root:is([lang="ja"], [lang="zh-Hant"]) :is(.eyebrow, .guiding__label, .toc__title, .worked__kicker, .widget__kicker, .pager__dir, .strand__num, .cells-title__num, .chips-group__title, .navgroup__label, .navgroup__tag, .cell--soon .cell__pct, .badge, .section-code) { letter-spacing: 0.02em; text-transform: none; }
-:root:is([lang="ja"], [lang="zh-Hant"]) :is(.callout, .tryit, .worked__answer)::before { letter-spacing: 0.02em; text-transform: none; font-family: var(--font-body); font-weight: 700; font-size: 0.82rem; }
+:root:is([lang="ja"], [lang="zh-Hant"], [lang="ko"]) :is(.eyebrow, .guiding__label, .toc__title, .worked__kicker, .widget__kicker, .pager__dir, .strand__num, .cells-title__num, .chips-group__title, .navgroup__label, .navgroup__tag, .cell--soon .cell__pct, .badge, .section-code) { letter-spacing: 0.02em; text-transform: none; }
+:root:is([lang="ja"], [lang="zh-Hant"], [lang="ko"]) :is(.callout, .tryit, .worked__answer)::before { letter-spacing: 0.02em; text-transform: none; font-family: var(--font-body); font-weight: 700; font-size: 0.82rem; }
 :root:is([lang="ja"], [lang="zh-Hant"]) .worked__why[data-s1-label]::before { content: attr(data-s1-label) "\FF1A"; }
-:root:is([lang="ja"], [lang="zh-Hant"]) :is(.btn, .seg__btn, .chip, .cell__name, .tile__name) { word-break: keep-all; overflow-wrap: break-word; }
-:root:is([lang="ja"], [lang="zh-Hant"]) .cell__blurb { line-height: 1.6; }
+:root[lang="ko"] .worked__why[data-s1-label]::before { content: attr(data-s1-label) ": "; }
+:root:is([lang="ja"], [lang="zh-Hant"], [lang="ko"]) :is(.btn, .seg__btn, .chip, .cell__name, .tile__name) { word-break: keep-all; overflow-wrap: break-word; }
+:root:is([lang="ja"], [lang="zh-Hant"], [lang="ko"]) .cell__blurb { line-height: 1.6; }
 
 /* English kept beside a translation: key terms, exam wording */
 .en-term { font-weight: 400; font-size: 0.92em; color: var(--ink-2); white-space: nowrap; }
@@ -901,8 +911,8 @@ table.data .num, table.data td.num, table.data th.num { text-align: right; font-
 
 /* ---------- 29. i18n hardening: CJK line breaking, tables, fractions ----------- */
 /* Latin words, numbers and formulas are never split in the middle; CJK text still wraps anywhere it may. */
-:root:is([lang="ja"], [lang="zh-Hant"]) :is(.mono, .unit, .chem__t, code, .num, sub, sup, .en-term) { word-break: keep-all; overflow-wrap: normal; }
-:root:is([lang="ja"], [lang="zh-Hant"]) .toc__list a, .toc__list a { overflow-wrap: break-word; }
+:root:is([lang="ja"], [lang="zh-Hant"], [lang="ko"]) :is(.mono, .unit, .chem__t, code, .num, sub, sup, .en-term) { word-break: keep-all; overflow-wrap: normal; }
+:root:is([lang="ja"], [lang="zh-Hant"], [lang="ko"]) .toc__list a, .toc__list a { overflow-wrap: break-word; }
 /* Japanese headings break between phrases where the browser can do it (Chromium 119+); elsewhere wrap
    a phrase that must stay together in <span class="nowrap">…</span>. */
 :root[lang="ja"] :is(h1, h2, h3, h4, .cell__name, .lede) { word-break: auto-phrase; }
@@ -911,7 +921,8 @@ table.data .num, table.data td.num, table.data th.num { text-align: right; font-
 .table-scroll > table.data:has(thead th:nth-child(6)) { min-width: 44rem; }
 table.data tbody th { min-width: 6.5em; }
 :root:is([lang="ja"], [lang="zh-Hant"]) table.data :is(th, td) { word-break: normal; overflow-wrap: break-word; line-height: 1.6; }
-:root:is([lang="ja"], [lang="zh-Hant"]) table.data tbody th { min-width: 5.5em; word-break: keep-all; }
+:root[lang="ko"] table.data :is(th, td) { word-break: keep-all; overflow-wrap: break-word; line-height: 1.6; }
+:root:is([lang="ja"], [lang="zh-Hant"], [lang="ko"]) table.data tbody th { min-width: 5.5em; word-break: keep-all; }
 .table-scroll { scrollbar-width: thin; }
 /* Fractions made of words wrap inside the available width instead of pushing the page wider. */
 .frac { max-width: 100%; }
@@ -920,6 +931,7 @@ table.data tbody th { min-width: 6.5em; }
 .worked__math .frac { white-space: normal; text-indent: 0; }
 /* Element names in CJK: rare characters (Db, Sg, Bh, Hs, Ts, Og …) fall back through wider system fonts. */
 :root[lang="zh-Hant"] { --font-cjk-rare: "Noto Sans TC", "PingFang TC", "PingFang HK", "Microsoft JhengHei", "MingLiU-ExtB", "PMingLiU-ExtB", "Noto Sans CJK TC", "Noto Serif CJK TC", "Source Han Sans TC", "HanaMinA", "HanaMinB", sans-serif; }
+:root[lang="ko"] { --font-cjk-rare: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans CJK KR", "Source Han Sans KR", sans-serif; }
 :root[lang="ja"] { --font-cjk-rare: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", "Noto Sans CJK JP", "Source Han Sans JP", sans-serif; }
 .el-name { font-family: var(--font-cjk-rare, inherit); }
 .guiding__q { display: inline; }

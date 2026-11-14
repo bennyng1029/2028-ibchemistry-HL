@@ -272,7 +272,8 @@
   var LANGS = [
     { id: 'en', label: 'English' },
     { id: 'ja', label: '日本語', font: 'Noto+Sans+JP:wght@400;700' },
-    { id: 'zh-Hant', label: '繁體中文', font: 'Noto+Sans+TC:wght@400;700' }
+    { id: 'zh-Hant', label: '繁體中文', font: 'Noto+Sans+TC:wght@400;700' },
+    { id: 'ko', label: '한국어', font: 'Noto+Sans+KR:wght@400;700' }
   ];
   var lang = 'en', tables = {}, manifests = {}, reverse = {}, seenUi = {}, seenPage = {}, scopesLoaded = {};
   var srcMap = typeof WeakMap === 'function' ? new WeakMap() : null;
@@ -632,7 +633,7 @@
 
   S1.i18n = {
     languages: LANGS,
-    /** Current language: 'en' | 'ja' | 'zh-Hant'. */
+    /** Current language: 'en' | 'ja' | 'zh-Hant' | 'ko'. */
     get: function () { return lang; },
     /** Switch language. Loads the overlay files, then translates the page. English shows while loading. */
     set: function (l, opts) {
