@@ -137,7 +137,7 @@
   S1.widgets.register('s1-4.units', function (w) {
     var SETS = {
       volume: { units: ['cm3', 'dm3', 'm3'], html: [U.cm3, U.dm3, U.m3], start: '25.0',
-        note: t('Solution volumes are usually given in cm<sup>3</sup>. <i>n</i> = <i>CV</i> needs dm<sup>3</sup>. The gas equation in topic 1.5 needs m<sup>3</sup>. Going to a bigger unit makes the number smaller, so you divide.') },
+        note: t('Solution volumes are usually given in cm<sup>3</sup>. <i>n</i> = <i>CV</i> needs dm<sup>3</sup>. The gas equation in topic 1.5 uses m<sup>3</sup> with Pa, or dm<sup>3</sup> with kPa. Going to a bigger unit makes the number smaller, so you divide.') },
       mass: { units: ['mg', 'g', 'kg'], html: ['mg', 'g', 'kg'], start: '250',
         note: t('<i>n</i> = <i>m</i> ÷ <i>M</i> needs the mass in g, because <i>M</i> is in g mol<sup>−1</sup>. Going to a bigger unit makes the number smaller, so you divide.') }
     };

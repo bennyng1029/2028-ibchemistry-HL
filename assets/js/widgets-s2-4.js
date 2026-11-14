@@ -158,7 +158,7 @@
     var s;
     if (c.region === 'ionic') s = t('The ionic model fits best. Expect a hard, brittle solid with a high melting point. It does not conduct electricity as a solid. It conducts when molten or dissolved in water.');
     else if (c.region === 'metallic') s = t('The metallic model fits best. Expect a solid that conducts electricity and heat well and is malleable.');
-    else if (d === 0) s = t('The covalent model fits best, and the bonds are non-polar (Δχ = 0). Expect a poor electrical conductor. The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).');
+    else if (d === 0) s = t('The covalent model fits best, and the bonds are non-polar (Δχ = 0). Expect a poor electrical conductor (graphite and graphene are exceptions). The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).');
     else s = t('The covalent model fits best. The bonds are polar, and more polar the higher the point sits. Expect a poor electrical conductor in every state. The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).');
     if (c.near) s += ' ' + t('Take care: this point is very close to the boundary with the {region} region. The triangle does not give a clear answer here. Expect properties between the two models.', { region: regionName(c.near) });
     if (c.outside) s += ' ' + t('This point is just outside the outline printed in the data booklet. The printed outline is drawn a little too small for points like this one (it happens with fluorides). Your two numbers are still correct. Read the nearest region: {region}.', { region: regionName(c.region) });
@@ -391,7 +391,7 @@
   S1.widgets.register('s2-4.plastics', function (w) {
     var ITEMS = [
       { p: t('Does not conduct electricity'), k: 'phys', why: t('All the outer electrons are held in covalent bonds. There are no delocalized electrons and no mobile ions to carry charge.') },
-      { p: t('Does not react with water, air, acids or alkalis'), k: 'chem', why: t('The chains are held together by strong covalent bonds, which take a lot of energy to break. So the polymer is chemically unreactive (inert).') },
+      { p: t('Does not react with water, air, acids or alkalis'), k: 'chem', why: t('The atoms in each chain are joined by strong covalent bonds, which take a lot of energy to break. So the polymer is chemically unreactive (inert).') },
       { p: t('Low density'), k: 'phys', why: t('The chains are made mostly of light atoms such as carbon and hydrogen, and long chains do not pack tightly.') },
       { p: t('Not broken down by microorganisms (non-biodegradable)'), k: 'chem', why: t('This is a chemical property: it is about reactions. The strong covalent bonds in the chains are not easily broken, so the plastic stays in the environment for a very long time.') },
       { p: t('Softens when heated, so it can be moulded into shapes'), k: 'phys', why: t('Only weak intermolecular forces hold one chain to the next. Gentle heating gives the chains enough energy to slide past each other. No covalent bonds break.') },
