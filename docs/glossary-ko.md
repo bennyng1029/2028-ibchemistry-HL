@@ -415,6 +415,77 @@ Structure Lab(IB Chemistry, Structure 1·2·3, first assessment 2025)을 한국�
 
 ---
 
-## 10. 수정 기록
+## 10. 번역하면서 정한 용어
 
-- 2026-11: 처음 작성(한국어 추가).
+처음 번역할 때 페이지마다 정해서 쓴 용어입니다. 다음 번역도 이 표를 따릅니다.
+
+### 10.1 사이트 UI
+
+| English | 한국어 |
+|---|---|
+| Exam style (difficulty) | 실전형 |
+| Exam-style practice | 시험형 연습 |
+| Additional HL | HL 추가 |
+| SL core | SL 핵심 내용 |
+| Right / Part marks / Missed / Skipped | 정답 / 부분 점수 / 오답 / 건너뜀 |
+| Quick check | 빠른 확인 |
+| Put in order / Select all that apply | 순서 맞추기 / 해당하는 것 모두 고르기 |
+| Accept / Do not accept (markscheme) | 인정 / 불인정 |
+| error carried forward (ECF) | 오류 이어 인정 (ECF) |
+
+### 10.2 화학 용어
+
+| English | 한국어 |
+|---|---|
+| potential energy / kinetic energy | 퍼텐셜 에너지 / 운동 에너지 |
+| forces of attraction | 인력 |
+| electrostatic attraction | 정전기적 인력 |
+| non-directional | 방향성이 없는 |
+| brittle | 잘 부서지는 |
+| photon | 광자 |
+| unpaired electron | 홀전자 |
+| lobe (of an orbital) | 덩어리 |
+| first ionization energy | 제1 이온화 에너지 |
+| species | 화학종 |
+| polyatomic ion | 다원자 이온 |
+| formula unit | 화학식 단위 |
+| elementary entity | 기본 입자 |
+| hydrated salt / anhydrous / water of crystallization | 수화된 염 / 무수 / 결정수 |
+| weighted average | 가중 평균 |
+| percentage abundance | 백분율 존재 비율 |
+| volumetric flask / graduation mark | 부피 플라스크 / 표선 |
+| pipette / burette / measuring cylinder | 피펫 / 뷰렛 / 눈금실린더 |
+| stock solution / dilution factor | 원액 / 희석 배수 |
+| calibration curve / absorbance / colorimeter | 검량선 / 흡광도 / 비색계 |
+| line of best fit | 가장 잘 맞는 직선 |
+| empirical formula mass | 실험식량 |
+| combined gas law | 보일-샤를 법칙 |
+| elastic collision | 탄성 충돌 |
+| extrapolate | 외삽 |
+| stationary phase / mobile phase | 고정상 / 이동상 |
+| thin layer chromatography | 얇은 막 크로마토그래피 (TLC) |
+| van der Waals forces | 반데르발스 힘 |
+| permanent / temporary / induced dipole | 영구 / 일시적 / 유발 쌍극자 |
+| partial charge / electron density | 부분 전하 / 전자 밀도 |
+| resonance hybrid | 공명 혼성체 |
+| head-on / sideways overlap | 정면 겹침 / 측면 겹침 |
+| equatorial / axial | 적도 위치 / 축 위치 |
+| bond order | 결합 차수 |
+| continuation bond | 이어지는 결합 |
+| backbone / side group | 주사슬 / 곁사슬 |
+| condensation polymerization / addition polymerization | 축합 중합 / 첨가 중합 |
+| ester link / amide link | 에스터 결합 / 아마이드 결합 |
+| hydrolysis | 가수 분해 |
+| biodegradable | 생분해성 |
+| parent chain / branch / substituent | 주사슬 / 곁가지 / 치환기 |
+| hydroxyl / carbonyl / carboxyl group | 하이드록시기 / 카보닐기 / 카복실기 |
+| alkoxy / amino / amido / phenyl group | 알콕시기 / 아미노기 / 아마이드기 / 페닐기 |
+| condensed / full structural formula | 축약 구조식 / 전개 구조식 |
+| chain / position / functional group isomers | 사슬 / 위치 / 작용기 이성질체 |
+| colour wheel / complementary colour | 색상환 / 보색 |
+| displacement reaction | 치환 반응 |
+| ion names: nitrate, nitrite, sulfate, sulfite, carbonate, phosphate, ammonium, hydroxide | 질산, 아질산, 황산, 아황산, 탄산, 인산, 암모늄, 수산화 이온 |
+
+## 11. 수정 기록
+
+- 2026-11: 처음 작성(한국어 추가). §10에 번역하면서 정한 용어를 모았습니다.

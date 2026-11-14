@@ -1302,123 +1302,123 @@ S1.i18n.register('ko', 's3-2h.q', {
         // EN: butan-1-ol, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH<span></span></span>
         "butan-1-ol, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH<span></span></span>",
         // EN: methyl ethanoate, <span class="chem">CH<sub>3</sub>COOCH<sub>3</sub><span></span></span>
-        "",
+        "methyl ethanoate, <span class=\"chem\">CH<sub>3</sub>COOCH<sub>3</sub><span></span></span>",
         // EN: ethyl methanoate, <span class="chem">HCOOCH<sub>2</sub>CH<sub>3</sub><span></span></span>
-        "",
+        "ethyl methanoate, <span class=\"chem\">HCOOCH<sub>2</sub>CH<sub>3</sub><span></span></span>",
         // EN: propanoic acid, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>COOH<span></span></span>
-        "",
+        "propanoic acid, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>COOH<span></span></span>",
       ],
       hints: [
         // EN: All four options have M<sub>r</sub> = 74, so the mass spectrum alone cannot decide.
-        "",
+        "네 선택지 모두 M<sub>r</sub> = 74이므로 질량 스펙트럼만으로는 결정할 수 없어요.",
         // EN: Use the infrared data to find the functional group.
-        "",
+        "적외선 자료로 작용기를 찾으세요.",
         // EN: Then check the number of NMR signals.
-        "",
+        "그다음 NMR 신호의 수를 확인하세요.",
       ],
       // EN: <ul><li>m/z 74 fits all four compounds.</li><li>Infrared: C=O (1700–1750 cm<sup>−1</sup>) and the very broad O–H of a carboxylic acid (2500–3000 cm<sup>−1</sup>). The compound has a –COOH group.</li><li>NMR: propanoic acid has three environments, <span class="chem">CH<sub>3</sub><span></span></span>, <span class="chem">CH<sub>2</sub><span></span></span> and COOH, with areas 3 : 2 : 1.</li></ul><p>The compound is propanoic acid. Each technique removes some of the options. Use all of them.</p>
-      solution: "",
+      solution: "<ul><li>m/z 74는 네 화합물 모두에 맞아요.</li><li>적외선: C=O(1700–1750 cm<sup>−1</sup>)와 카복실산의 매우 넓은 O–H(2500–3000 cm<sup>−1</sup>). 이 화합물에는 –COOH기가 있어요.</li><li>NMR: propanoic acid는 환경이 세 가지(<span class=\"chem\">CH<sub>3</sub><span></span></span>, <span class=\"chem\">CH<sub>2</sub><span></span></span>, COOH)이고 넓이는 3 : 2 : 1이에요.</li></ul><p>이 화합물은 propanoic acid예요. 기법마다 선택지 일부를 지워 줘요. 모두 이용하세요.</p>",
       misconception: {
         // EN (option A): Butan-1-ol does have M<sub>r</sub> = 74, but it has no C=O bond, its O–H absorption is at 3200–3600 cm<sup>−1</sup>, and it gives five NMR signals.
-        "0": "",
+        "0": "Butan-1-ol은 M<sub>r</sub> = 74이지만 C=O 결합이 없고, O–H 흡수가 3200–3600 cm<sup>−1</sup>에 있으며, NMR 신호가 다섯 개예요.",
         // EN (option B): Methyl ethanoate has M<sub>r</sub> = 74 and a C=O bond, but no O–H bond, and it gives only two NMR signals.
-        "1": "",
+        "1": "Methyl ethanoate는 M<sub>r</sub> = 74이고 C=O 결합이 있지만 O–H 결합이 없고, NMR 신호도 두 개뿐이에요.",
         // EN (option C): Ethyl methanoate has M<sub>r</sub> = 74, a C=O bond and three signals in the ratio 1 : 2 : 3. But it has no O–H bond, so it cannot give the very broad absorption at 2500–3000 cm<sup>−1</sup>.
-        "2": "",
+        "2": "Ethyl methanoate는 M<sub>r</sub> = 74이고 C=O 결합이 있으며 신호도 1 : 2 : 3의 비로 세 개예요. 하지만 O–H 결합이 없으므로 2500–3000 cm<sup>−1</sup>의 매우 넓은 흡수를 보일 수 없어요.",
       },
     },
 
     // ── s3-2h-q048 · mcq · challenge · AHL · Structure 3.2.12 · 1 mark
     "s3-2h-q048": {
       // EN: <p>A compound has the molecular formula <span class="chem">C<sub>4</sub>H<sub>8</sub>O<span></span></span>.</p><ul><li>Mass spectrum: peaks at m/z 72, 57 and 43 (tallest).</li><li>Infrared: strong absorption at 1715 cm<sup>−1</sup>; no absorption above 3100 cm<sup>−1</sup>.</li><li><sup>1</sup>H NMR: see the table.</li></ul><div class="table-scroll" tabindex="0"><table class="data"><caption><sup>1</sup>H NMR signals</caption><thead><tr><th scope="col">Shift / ppm</th><th scope="col">Area</th><th scope="col">Splitting</th></tr></thead><tbody><tr><th scope="row">2.5</th><td>2</td><td>quartet</td></tr><tr><th scope="row">2.2</th><td>3</td><td>singlet</td></tr><tr><th scope="row">1.0</th><td>3</td><td>triplet</td></tr></tbody></table></div><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 21): <sup>1</sup>H NMR chemical shifts</caption><thead><tr><th scope="col">Type of proton</th><th scope="col">Chemical shift / ppm</th></tr></thead><tbody><tr><th scope="row"><span class="chem">–C<b>H</b><sub>3</sub></span></th><td>0.9–1.0</td></tr><tr><th scope="row"><span class="chem">R–C(=O)–C<b>H</b><sub>2</sub>–</span></th><td>2.2–2.7</td></tr><tr><th scope="row"><span class="chem">R–O–<b>H</b></span></th><td>1.0–6.0</td></tr><tr><th scope="row"><span class="chem">–CH=C<b>H</b><sub>2</sub></span></th><td>4.5–6.0</td></tr><tr><th scope="row"><span class="chem">R–C(=O)–<b>H</b></span></th><td>9.4–10.0</td></tr></tbody></table></div><p>Which compound is it?</p>
-      stem: "",
+      stem: "<p>어떤 화합물의 분자식은 <span class=\"chem\">C<sub>4</sub>H<sub>8</sub>O<span></span></span>예요.</p><ul><li>질량 스펙트럼: m/z 72, 57, 43(가장 높음)에 봉우리.</li><li>적외선: 1715 cm<sup>−1</sup>에서 강한 흡수, 3100 cm<sup>−1</sup>보다 높은 곳에는 흡수 없음.</li><li><sup>1</sup>H NMR: 표 참고.</li></ul><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption><sup>1</sup>H NMR 신호</caption><thead><tr><th scope=\"col\">화학적 이동 / ppm</th><th scope=\"col\">넓이</th><th scope=\"col\">갈라짐</th></tr></thead><tbody><tr><th scope=\"row\">2.5</th><td>2</td><td>사중선</td></tr><tr><th scope=\"row\">2.2</th><td>3</td><td>단일선</td></tr><tr><th scope=\"row\">1.0</th><td>3</td><td>삼중선</td></tr></tbody></table></div><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(21절): <sup>1</sup>H NMR 화학적 이동</caption><thead><tr><th scope=\"col\">양성자의 종류</th><th scope=\"col\">화학적 이동 / ppm</th></tr></thead><tbody><tr><th scope=\"row\"><span class=\"chem\">–C<b>H</b><sub>3</sub></span></th><td>0.9–1.0</td></tr><tr><th scope=\"row\"><span class=\"chem\">R–C(=O)–C<b>H</b><sub>2</sub>–</span></th><td>2.2–2.7</td></tr><tr><th scope=\"row\"><span class=\"chem\">R–O–<b>H</b></span></th><td>1.0–6.0</td></tr><tr><th scope=\"row\"><span class=\"chem\">–CH=C<b>H</b><sub>2</sub></span></th><td>4.5–6.0</td></tr><tr><th scope=\"row\"><span class=\"chem\">R–C(=O)–<b>H</b></span></th><td>9.4–10.0</td></tr></tbody></table></div><p>이 화합물은 무엇인가요?</p>",
       options: [
         // EN: butanal, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CHO<span></span></span>
-        "",
+        "butanal, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CHO<span></span></span>",
         // EN: butanone, <span class="chem">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub><span></span></span>
-        "",
+        "butanone, <span class=\"chem\">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub><span></span></span>",
         // EN: 2-methylpropanal, <span class="chem">(CH<sub>3</sub>)<sub>2</sub>CHCHO<span></span></span>
-        "",
+        "2-methylpropanal, <span class=\"chem\">(CH<sub>3</sub>)<sub>2</sub>CHCHO<span></span></span>",
         // EN: but-3-en-1-ol, <span class="chem">CH<sub>2</sub>=CHCH<sub>2</sub>CH<sub>2</sub>OH<span></span></span>
-        "",
+        "but-3-en-1-ol, <span class=\"chem\">CH<sub>2</sub>=CHCH<sub>2</sub>CH<sub>2</sub>OH<span></span></span>",
       ],
       hints: [
         // EN: Infrared first: which functional group is present, and which is ruled out?
-        "",
+        "적외선부터 보세요. 어떤 작용기가 있고, 어떤 작용기가 제외되나요?",
         // EN: In the NMR data, a triplet (3 H) with a quartet (2 H) is an ethyl group. What is the singlet (3 H)?
-        "",
+        "NMR 자료에서 삼중선(H 3개)과 사중선(H 2개)은 에틸기예요. 단일선(H 3개)은 무엇인가요?",
         // EN: Check with the mass spectrum: 72 − 57 and 72 − 43.
-        "",
+        "질량 스펙트럼으로 확인하세요: 72 − 57과 72 − 43.",
       ],
       // EN: <ul><li><strong>Infrared:</strong> 1715 cm<sup>−1</sup> is C=O. No absorption at 3200–3600 cm<sup>−1</sup>, so there is no O–H. The compound is an aldehyde or a ketone.</li><li><strong>NMR:</strong> no signal at 9.4–10.0 ppm, so it is not an aldehyde. Triplet (3 H) + quartet (2 H) = <span class="chem">CH<sub>3</sub>CH<sub>2</sub><span></span></span>. Singlet (3 H) = <span class="chem">CH<sub>3</sub><span></span></span> with no H on the neighbouring carbon. The signals at 2.2 and 2.5 ppm are in the range 2.2–2.7 ppm: H atoms on carbons next to C=O.</li><li><strong>Mass spectrum:</strong> 72 − 57 = 15, loss of •<span class="chem">CH<sub>3</sub><span></span></span>. 72 − 43 = 29, loss of •<span class="chem">CH<sub>2</sub>CH<sub>3</sub><span></span></span>, which leaves <span class="chem">CH<sub>3</sub>CO<sup>+</sup><span></span></span>.</li></ul><p>The compound is butanone, <span class="chem">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub><span></span></span>.</p>
-      solution: "",
+      solution: "<ul><li><strong>적외선:</strong> 1715 cm<sup>−1</sup>는 C=O예요. 3200–3600 cm<sup>−1</sup>에 흡수가 없으므로 O–H는 없어요. 이 화합물은 알데하이드 또는 케톤이에요.</li><li><strong>NMR:</strong> 9.4–10.0 ppm에 신호가 없으므로 알데하이드가 아니에요. 삼중선(H 3개) + 사중선(H 2개) = <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub><span></span></span>. 단일선(H 3개) = 이웃 탄소에 H가 없는 <span class=\"chem\">CH<sub>3</sub><span></span></span>. 2.2 ppm과 2.5 ppm의 신호는 2.2–2.7 ppm 범위에 있어요. C=O 옆 탄소에 있는 H 원자예요.</li><li><strong>질량 스펙트럼:</strong> 72 − 57 = 15, •<span class=\"chem\">CH<sub>3</sub><span></span></span>를 잃음. 72 − 43 = 29, •<span class=\"chem\">CH<sub>2</sub>CH<sub>3</sub><span></span></span>를 잃고 <span class=\"chem\">CH<sub>3</sub>CO<sup>+</sup><span></span></span>가 남음.</li></ul><p>이 화합물은 butanone, <span class=\"chem\">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub><span></span></span>예요.</p>",
       misconception: {
         // EN (option A): Butanal has a C=O bond, but it has four hydrogen environments, and its CHO hydrogen would give a signal at 9.4–10.0 ppm.
-        "0": "",
+        "0": "Butanal은 C=O 결합이 있지만 수소 환경이 네 가지이고, CHO 수소는 9.4–10.0 ppm에서 신호를 만들 거예요.",
         // EN (option C): 2-methylpropanal has three signals, but their areas are 6 : 1 : 1, and its CHO hydrogen would give a signal at 9.4–10.0 ppm.
-        "2": "",
+        "2": "2-methylpropanal은 신호가 세 개이지만 넓이가 6 : 1 : 1이고, CHO 수소는 9.4–10.0 ppm에서 신호를 만들 거예요.",
         // EN (option D): But-3-en-1-ol has an O–H bond, which would absorb at 3200–3600 cm<sup>−1</sup>, and no C=O bond to absorb at 1715 cm<sup>−1</sup>.
-        "3": "",
+        "3": "But-3-en-1-ol은 3200–3600 cm<sup>−1</sup>에서 흡수할 O–H 결합이 있고, 1715 cm<sup>−1</sup>에서 흡수할 C=O 결합은 없어요.",
       },
     },
 
     // ── s3-2h-q049 · short · challenge · AHL · Structure 3.2.12 · 4 marks
     "s3-2h-q049": {
       // EN: <p>A compound has the molecular formula <span class="chem">C<sub>3</sub>H<sub>6</sub>O<span></span></span>.</p><ul><li>Infrared: strong absorption at 1715 cm<sup>−1</sup>.</li><li><sup>1</sup>H NMR: one signal, a singlet.</li><li>Mass spectrum: molecular ion at m/z 58; tallest peak at m/z 43.</li></ul><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 20): infrared absorption ranges</caption><thead><tr><th scope="col">Bond</th><th scope="col">Types of organic molecules</th><th scope="col">Wavenumber / cm<sup>−1</sup></th><th scope="col">Intensity</th></tr></thead><tbody><tr><th scope="row">C=O</th><td>aldehydes, ketones, carboxylic acids and esters</td><td>1700–1750</td><td>strong</td></tr><tr><th scope="row">O–H</th><td>alcohols and phenols (with hydrogen bonding)</td><td>3200–3600</td><td>strong, broad</td></tr></tbody></table></div><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 22): mass spectral fragments lost</caption><thead><tr><th scope="col">Mass lost</th><th scope="col">Possible neutral fragment lost</th></tr></thead><tbody><tr><th scope="row">15</th><td>•CH<sub>3</sub></td></tr><tr><th scope="row">17</th><td>•OH</td></tr><tr><th scope="row">18</th><td>H<sub>2</sub>O</td></tr><tr><th scope="row">28</th><td>CH<sub>2</sub>=CH<sub>2</sub> or CO</td></tr><tr><th scope="row">29</th><td>•CH<sub>2</sub>CH<sub>3</sub> or •CHO</td></tr><tr><th scope="row">31</th><td>•OCH<sub>3</sub></td></tr><tr><th scope="row">45</th><td>•COOH</td></tr></tbody></table></div><p>Deduce the structure of the compound. Explain how each piece of data supports your answer.</p>
-      stem: "",
+      stem: "<p>어떤 화합물의 분자식은 <span class=\"chem\">C<sub>3</sub>H<sub>6</sub>O<span></span></span>예요.</p><ul><li>적외선: 1715 cm<sup>−1</sup>에서 강한 흡수.</li><li><sup>1</sup>H NMR: 신호 하나, 단일선.</li><li>질량 스펙트럼: 분자 이온이 m/z 58에 있음, 가장 높은 봉우리는 m/z 43.</li></ul><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(20절): 적외선 흡수 범위</caption><thead><tr><th scope=\"col\">결합</th><th scope=\"col\">유기 분자의 종류</th><th scope=\"col\">파수 / cm<sup>−1</sup></th><th scope=\"col\">세기</th></tr></thead><tbody><tr><th scope=\"row\">C=O</th><td>알데하이드, 케톤, 카복실산, 에스터</td><td>1700–1750</td><td>강함</td></tr><tr><th scope=\"row\">O–H</th><td>알코올과 페놀(수소 결합 있음)</td><td>3200–3600</td><td>강함, 넓음</td></tr></tbody></table></div><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(22절): 질량 스펙트럼에서 떨어져 나가는 조각</caption><thead><tr><th scope=\"col\">잃은 질량</th><th scope=\"col\">떨어져 나갈 수 있는 중성 조각</th></tr></thead><tbody><tr><th scope=\"row\">15</th><td>•CH<sub>3</sub></td></tr><tr><th scope=\"row\">17</th><td>•OH</td></tr><tr><th scope=\"row\">18</th><td>H<sub>2</sub>O</td></tr><tr><th scope=\"row\">28</th><td>CH<sub>2</sub>=CH<sub>2</sub> 또는 CO</td></tr><tr><th scope=\"row\">29</th><td>•CH<sub>2</sub>CH<sub>3</sub> 또는 •CHO</td></tr><tr><th scope=\"row\">31</th><td>•OCH<sub>3</sub></td></tr><tr><th scope=\"row\">45</th><td>•COOH</td></tr></tbody></table></div><p>이 화합물의 구조를 추론하시오 (deduce). 각 자료가 답을 어떻게 뒷받침하는지 설명하시오 (explain).</p>",
       hints: [
         // EN: Start with the infrared absorption. Which bond is it?
-        "",
+        "적외선 흡수부터 보세요. 어떤 결합인가요?",
         // EN: There are only two structures with formula <span class="chem">C<sub>3</sub>H<sub>6</sub>O<span></span></span> that contain C=O. Draw both and count their hydrogen environments.
-        "",
+        "분자식이 <span class=\"chem\">C<sub>3</sub>H<sub>6</sub>O<span></span></span>이면서 C=O를 포함하는 구조는 두 가지뿐이에요. 둘 다 그려 보고 수소 환경의 수를 세세요.",
         // EN: Subtract 43 from 58 and look up the mass lost.
-        "",
+        "58에서 43을 빼고 잃은 질량을 표에서 찾으세요.",
       ],
       // EN: <p>A good order of attack: infrared for the functional group, NMR for the carbon skeleton, mass spectrum as a check.</p><div class="worked__math">58 − 43 = 15 → •CH<sub>3</sub> lost</div><div class="worked__math">CH<sub>3</sub>COCH<sub>3</sub><sup>+</sup> → CH<sub>3</sub>CO<sup>+</sup> + •CH<sub>3</sub></div><p>In a "deduce and explain" question, link every piece of data to a feature of the structure. Naming the compound without the evidence earns one mark only.</p>
-      solution: "",
+      solution: "<p>좋은 풀이 순서: 적외선으로 작용기, NMR로 탄소 골격, 질량 스펙트럼으로 확인.</p><div class=\"worked__math\">58 − 43 = 15 → •CH<sub>3</sub> 잃음</div><div class=\"worked__math\">CH<sub>3</sub>COCH<sub>3</sub><sup>+</sup> → CH<sub>3</sub>CO<sup>+</sup> + •CH<sub>3</sub></div><p>“추론하고 설명하시오” 문제에서는 모든 자료를 구조의 특징과 연결하세요. 증거 없이 화합물 이름만 쓰면 1점만 받아요.</p>",
       // EN: <p>The compound is propanone, <span class="chem">CH<sub>3</sub>COCH<sub>3</sub><span></span></span>.</p><ul><li>Infrared: 1715 cm<sup>−1</sup> is in the range 1700–1750 cm<sup>−1</sup>, so there is a C=O bond. With one O atom, the compound is an aldehyde or a ketone.</li><li>NMR: one signal means all six H atoms are in the same environment. That fits two equivalent <span class="chem">CH<sub>3</sub><span></span></span> groups. (Propanal, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CHO<span></span></span>, would give three signals.)</li><li>The signal is a singlet because the neighbouring carbon, the C=O carbon, holds no H atoms.</li><li>Mass spectrum: 58 − 43 = 15, the loss of •<span class="chem">CH<sub>3</sub><span></span></span>, which leaves <span class="chem">CH<sub>3</sub>CO<sup>+</sup><span></span></span> at m/z 43.</li></ul>
-      answer: "",
+      answer: "<p>이 화합물은 propanone, <span class=\"chem\">CH<sub>3</sub>COCH<sub>3</sub><span></span></span>예요.</p><ul><li>적외선: 1715 cm<sup>−1</sup>는 1700–1750 cm<sup>−1</sup> 범위에 있으므로 C=O 결합이 있어요. O 원자가 하나이므로 이 화합물은 알데하이드 또는 케톤이에요.</li><li>NMR: 신호가 하나이므로 H 원자 6개가 모두 같은 환경에 있어요. 동등한 <span class=\"chem\">CH<sub>3</sub><span></span></span>기 두 개와 맞아요. (Propanal, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CHO<span></span></span>라면 신호가 세 개일 거예요.)</li><li>이웃 탄소인 C=O 탄소에 H 원자가 없으므로 신호는 단일선이에요.</li><li>질량 스펙트럼: 58 − 43 = 15, •<span class=\"chem\">CH<sub>3</sub><span></span></span>를 잃은 것이고, m/z 43에 <span class=\"chem\">CH<sub>3</sub>CO<sup>+</sup><span></span></span>가 남아요.</li></ul>",
       markscheme: [
         // EN: IR: 1715 cm⁻¹ / 1700–1750 cm⁻¹ shows a C=O bond (aldehyde or ketone).
-        "",
+        "IR: 1715 cm⁻¹ / 1700–1750 cm⁻¹는 C=O 결합을 보여 줌(알데하이드 또는 케톤).",
         // EN: NMR: one signal, so all (six) H atoms are in one chemical environment / two equivalent CH₃ groups.
-        "",
+        "NMR: 신호가 하나이므로 (6개의) H 원자가 모두 한 화학적 환경에 있음 / 동등한 CH₃기 두 개.",
         // EN: Structure CH₃COCH₃ / propanone (name or any structural formula).
-        "",
+        "구조 CH₃COCH₃ / propanone(이름 또는 어떤 구조식이든 인정).",
         // EN: MS: m/z 43 is M − 15, loss of •CH₃ / the ion CH₃CO⁺ (with its + charge); OR singlet because there are no H atoms on the adjacent (C=O) carbon.
-        "",
+        "MS: m/z 43은 M − 15, •CH₃를 잃음 / 이온 CH₃CO⁺(+ 전하 포함). 또는 이웃한 (C=O) 탄소에 H 원자가 없으므로 단일선.",
       ],
     },
 
     // ── s3-2h-q050 · short · challenge · AHL · Structure 3.2.12 · 5 marks
     "s3-2h-q050": {
       // EN: <p>A liquid contains 52.1% carbon, 13.2% hydrogen and 34.7% oxygen by mass.</p><ul><li>Mass spectrum: molecular ion at m/z 46; tallest peak at m/z 31.</li><li>Infrared: strong, broad absorption at 3350 cm<sup>−1</sup>; no absorption at 1700–1750 cm<sup>−1</sup>.</li><li><sup>1</sup>H NMR: see the table.</li></ul><div class="table-scroll" tabindex="0"><table class="data"><caption><sup>1</sup>H NMR signals</caption><thead><tr><th scope="col">Shift / ppm</th><th scope="col">Area</th><th scope="col">Splitting</th></tr></thead><tbody><tr><th scope="row">3.7</th><td>2</td><td>quartet</td></tr><tr><th scope="row">2.6</th><td>1</td><td>singlet</td></tr><tr><th scope="row">1.0</th><td>3</td><td>triplet</td></tr></tbody></table></div><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 20): infrared absorption ranges</caption><thead><tr><th scope="col">Bond</th><th scope="col">Types of organic molecules</th><th scope="col">Wavenumber / cm<sup>−1</sup></th><th scope="col">Intensity</th></tr></thead><tbody><tr><th scope="row">C=O</th><td>aldehydes, ketones, carboxylic acids and esters</td><td>1700–1750</td><td>strong</td></tr><tr><th scope="row">O–H</th><td>carboxylic acids (with hydrogen bonding)</td><td>2500–3000</td><td>strong, very broad</td></tr><tr><th scope="row">O–H</th><td>alcohols and phenols (with hydrogen bonding)</td><td>3200–3600</td><td>strong, broad</td></tr></tbody></table></div><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 21): <sup>1</sup>H NMR chemical shifts</caption><thead><tr><th scope="col">Type of proton</th><th scope="col">Chemical shift / ppm</th></tr></thead><tbody><tr><th scope="row"><span class="chem">–C<b>H</b><sub>3</sub></span></th><td>0.9–1.0</td></tr><tr><th scope="row"><span class="chem">R–O–C<b>H</b><sub>2</sub>–</span></th><td>3.3–3.7</td></tr><tr><th scope="row"><span class="chem">R–O–<b>H</b></span></th><td>1.0–6.0</td></tr></tbody></table></div><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 22): mass spectral fragments lost</caption><thead><tr><th scope="col">Mass lost</th><th scope="col">Possible neutral fragment lost</th></tr></thead><tbody><tr><th scope="row">15</th><td>•CH<sub>3</sub></td></tr><tr><th scope="row">17</th><td>•OH</td></tr><tr><th scope="row">18</th><td>H<sub>2</sub>O</td></tr><tr><th scope="row">28</th><td>CH<sub>2</sub>=CH<sub>2</sub> or CO</td></tr><tr><th scope="row">29</th><td>•CH<sub>2</sub>CH<sub>3</sub> or •CHO</td></tr><tr><th scope="row">31</th><td>•OCH<sub>3</sub></td></tr><tr><th scope="row">45</th><td>•COOH</td></tr></tbody></table></div><p>Determine the empirical formula, the molecular formula and the structure of the compound. Show how the spectra support the structure.</p>
-      stem: "",
+      stem: "<p>어떤 액체는 질량으로 탄소 52.1%, 수소 13.2%, 산소 34.7%를 포함해요.</p><ul><li>질량 스펙트럼: 분자 이온이 m/z 46에 있음, 가장 높은 봉우리는 m/z 31.</li><li>적외선: 3350 cm<sup>−1</sup>에서 강하고 넓은 흡수, 1700–1750 cm<sup>−1</sup>에는 흡수 없음.</li><li><sup>1</sup>H NMR: 표 참고.</li></ul><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption><sup>1</sup>H NMR 신호</caption><thead><tr><th scope=\"col\">화학적 이동 / ppm</th><th scope=\"col\">넓이</th><th scope=\"col\">갈라짐</th></tr></thead><tbody><tr><th scope=\"row\">3.7</th><td>2</td><td>사중선</td></tr><tr><th scope=\"row\">2.6</th><td>1</td><td>단일선</td></tr><tr><th scope=\"row\">1.0</th><td>3</td><td>삼중선</td></tr></tbody></table></div><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(20절): 적외선 흡수 범위</caption><thead><tr><th scope=\"col\">결합</th><th scope=\"col\">유기 분자의 종류</th><th scope=\"col\">파수 / cm<sup>−1</sup></th><th scope=\"col\">세기</th></tr></thead><tbody><tr><th scope=\"row\">C=O</th><td>알데하이드, 케톤, 카복실산, 에스터</td><td>1700–1750</td><td>강함</td></tr><tr><th scope=\"row\">O–H</th><td>카복실산(수소 결합 있음)</td><td>2500–3000</td><td>강함, 매우 넓음</td></tr><tr><th scope=\"row\">O–H</th><td>알코올과 페놀(수소 결합 있음)</td><td>3200–3600</td><td>강함, 넓음</td></tr></tbody></table></div><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(21절): <sup>1</sup>H NMR 화학적 이동</caption><thead><tr><th scope=\"col\">양성자의 종류</th><th scope=\"col\">화학적 이동 / ppm</th></tr></thead><tbody><tr><th scope=\"row\"><span class=\"chem\">–C<b>H</b><sub>3</sub></span></th><td>0.9–1.0</td></tr><tr><th scope=\"row\"><span class=\"chem\">R–O–C<b>H</b><sub>2</sub>–</span></th><td>3.3–3.7</td></tr><tr><th scope=\"row\"><span class=\"chem\">R–O–<b>H</b></span></th><td>1.0–6.0</td></tr></tbody></table></div><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(22절): 질량 스펙트럼에서 떨어져 나가는 조각</caption><thead><tr><th scope=\"col\">잃은 질량</th><th scope=\"col\">떨어져 나갈 수 있는 중성 조각</th></tr></thead><tbody><tr><th scope=\"row\">15</th><td>•CH<sub>3</sub></td></tr><tr><th scope=\"row\">17</th><td>•OH</td></tr><tr><th scope=\"row\">18</th><td>H<sub>2</sub>O</td></tr><tr><th scope=\"row\">28</th><td>CH<sub>2</sub>=CH<sub>2</sub> 또는 CO</td></tr><tr><th scope=\"row\">29</th><td>•CH<sub>2</sub>CH<sub>3</sub> 또는 •CHO</td></tr><tr><th scope=\"row\">31</th><td>•OCH<sub>3</sub></td></tr><tr><th scope=\"row\">45</th><td>•COOH</td></tr></tbody></table></div><p>이 화합물의 실험식, 분자식, 구조를 구하시오 (determine). 스펙트럼이 구조를 어떻게 뒷받침하는지 보이세요.</p>",
       hints: [
         // EN: Start with the percentages: divide each by the relative atomic mass, then by the smallest answer.
-        "",
+        "백분율부터 시작하세요. 각 값을 상대 원자 질량으로 나눈 다음, 가장 작은 답으로 나누세요.",
         // EN: Compare the empirical formula mass with the m/z of the molecular ion.
-        "",
+        "실험식 질량을 분자 이온의 m/z와 비교하세요.",
         // EN: There are only two structures with this molecular formula: an alcohol and an ether. Which one do the infrared and NMR data fit?
-        "",
+        "이 분자식을 가진 구조는 알코올과 에테르 두 가지뿐이에요. 적외선과 NMR 자료에 맞는 것은 어느 쪽인가요?",
       ],
       // EN: <p>Any five of the six marking points give full marks. The route is always the same:</p><ol><li>composition → empirical formula;</li><li>molecular ion → molecular formula;</li><li>infrared → functional group;</li><li>NMR → how the atoms are joined;</li><li>mass spectrum fragments → check.</li></ol><p>The isomer methoxymethane, <span class="chem">CH<sub>3</sub>OCH<sub>3</sub><span></span></span>, would give no O–H absorption and only one NMR signal. In a measured spectrum of ethanol the <span class="chem">CH<sub>3</sub><span></span></span> triplet is nearer 1.2 ppm. Real spectra vary a little: the booklet says its values can change with the solvent and conditions.</p>
-      solution: "",
+      solution: "<p>채점 요점 여섯 가지 중 아무 다섯 가지를 쓰면 만점이에요. 풀이 순서는 늘 같아요.</p><ol><li>조성 → 실험식;</li><li>분자 이온 → 분자식;</li><li>적외선 → 작용기;</li><li>NMR → 원자들이 연결된 방식;</li><li>질량 스펙트럼 조각 → 확인.</li></ol><p>이성질체인 methoxymethane, <span class=\"chem\">CH<sub>3</sub>OCH<sub>3</sub><span></span></span>은 O–H 흡수가 없고 NMR 신호도 하나뿐일 거예요. 실제로 측정한 ethanol의 스펙트럼에서 <span class=\"chem\">CH<sub>3</sub><span></span></span> 삼중선은 1.2 ppm 가까이에 있어요. 실제 스펙트럼은 조금씩 달라요. 부클릿에도 값이 용매와 조건에 따라 달라질 수 있다고 나와 있어요.</p>",
       // EN: <p><strong>Empirical formula:</strong></p><div class="worked__math">C: 52.1 ÷ 12.01 = 4.34</div><div class="worked__math">H: 13.2 ÷ 1.01 = 13.07</div><div class="worked__math">O: 34.7 ÷ 16.00 = 2.17</div><div class="worked__math">ratio = 2.00 : 6.03 : 1 → C<sub>2</sub>H<sub>6</sub>O</div><p><strong>Molecular formula:</strong> the empirical formula mass is 2(12.01) + 6(1.01) + 16.00 = 46.08, which matches the molecular ion at m/z 46. So the molecular formula is <span class="chem">C<sub>2</sub>H<sub>6</sub>O<span></span></span>.</p><p><strong>Infrared:</strong> the broad absorption at 3350 cm<sup>−1</sup> (3200–3600 cm<sup>−1</sup>) is the O–H bond of an alcohol. So the compound is not the ether <span class="chem">CH<sub>3</sub>OCH<sub>3</sub><span></span></span>.</p><p><strong>NMR:</strong> three signals with areas 3 : 2 : 1. The triplet (3 H) and quartet (2 H) show an ethyl group, <span class="chem">CH<sub>3</sub>CH<sub>2</sub><span></span></span>. The quartet at 3.7 ppm (3.3–3.7 ppm) is a <span class="chem">CH<sub>2</sub><span></span></span> bonded to O. The singlet (1 H) is the O–H hydrogen.</p><p><strong>Mass spectrum:</strong> 46 − 31 = 15, the loss of •<span class="chem">CH<sub>3</sub><span></span></span>, which leaves <span class="chem">CH<sub>2</sub>OH<sup>+</sup><span></span></span>.</p><p><strong>Structure:</strong> ethanol, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>OH<span></span></span>.</p>
-      answer: "",
+      answer: "<p><strong>실험식:</strong></p><div class=\"worked__math\">C: 52.1 ÷ 12.01 = 4.34</div><div class=\"worked__math\">H: 13.2 ÷ 1.01 = 13.07</div><div class=\"worked__math\">O: 34.7 ÷ 16.00 = 2.17</div><div class=\"worked__math\">비 = 2.00 : 6.03 : 1 → C<sub>2</sub>H<sub>6</sub>O</div><p><strong>분자식:</strong> 실험식 질량은 2(12.01) + 6(1.01) + 16.00 = 46.08이고, m/z 46의 분자 이온과 맞아요. 따라서 분자식은 <span class=\"chem\">C<sub>2</sub>H<sub>6</sub>O<span></span></span>예요.</p><p><strong>적외선:</strong> 3350 cm<sup>−1</sup>(3200–3600 cm<sup>−1</sup>)의 넓은 흡수는 알코올의 O–H 결합이에요. 따라서 이 화합물은 에테르 <span class=\"chem\">CH<sub>3</sub>OCH<sub>3</sub><span></span></span>이 아니에요.</p><p><strong>NMR:</strong> 넓이가 3 : 2 : 1인 신호 세 개. 삼중선(H 3개)과 사중선(H 2개)은 에틸기 <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub><span></span></span>를 보여 줘요. 3.7 ppm(3.3–3.7 ppm)의 사중선은 O와 결합한 <span class=\"chem\">CH<sub>2</sub><span></span></span>예요. 단일선(H 1개)은 O–H 수소예요.</p><p><strong>질량 스펙트럼:</strong> 46 − 31 = 15, •<span class=\"chem\">CH<sub>3</sub><span></span></span>를 잃은 것이고, <span class=\"chem\">CH<sub>2</sub>OH<sup>+</sup><span></span></span>가 남아요.</p><p><strong>구조:</strong> ethanol, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>OH<span></span></span>.</p>",
       markscheme: [
         // EN: Empirical formula C₂H₆O, with working (mole ratio 4.34 : 13.07 : 2.17, or 2 : 6 : 1).
-        "",
+        "실험식 C₂H₆O, 풀이 과정 포함(몰비 4.34 : 13.07 : 2.17, 또는 2 : 6 : 1).",
         // EN: Molecular formula C₂H₆O, because the empirical formula mass (46) equals the m/z of the molecular ion.
-        "",
+        "분자식 C₂H₆O. 실험식 질량(46)이 분자 이온의 m/z와 같기 때문.",
         // EN: IR: absorption at 3200–3600 cm⁻¹ shows O–H of an alcohol (so not an ether); accept "no C=O".
-        "",
+        "IR: 3200–3600 cm⁻¹의 흡수는 알코올의 O–H를 보여 줌(따라서 에테르가 아님). “C=O 없음”도 인정.",
         // EN: NMR: three H environments in ratio 3 : 2 : 1, AND triplet + quartet show CH₃CH₂ / the quartet CH₂ is next to CH₃.
-        "",
+        "NMR: 비가 3 : 2 : 1인 H 환경 세 가지, 그리고 삼중선 + 사중선은 CH₃CH₂를 보여 줌 / 사중선 CH₂는 CH₃ 옆에 있음.",
         // EN: Structure CH₃CH₂OH / ethanol.
-        "",
+        "구조 CH₃CH₂OH / ethanol.",
         // EN: MS: m/z 31 is M − 15, loss of •CH₃ / the ion CH₂OH⁺ (with its + charge).
-        "",
+        "MS: m/z 31은 M − 15, •CH₃를 잃음 / 이온 CH₂OH⁺(+ 전하 포함).",
       ],
     },
 

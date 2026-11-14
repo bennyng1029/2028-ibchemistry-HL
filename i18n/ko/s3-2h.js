@@ -27,37 +27,37 @@ S1.i18n.register('ko', 's3-2h', {
     "Everything on this page is Additional HL. Tick each one when you can do it without looking at your notes.": "이 페이지의 내용은 모두 AHL(HL 추가 내용)이에요. 노트를 보지 않고 할 수 있게 되면 하나씩 체크하세요.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "State what stereoisomers are: the same atoms joined in the same order, but arranged differently in space.": "입체 이성질체가 무엇인지 쓸 수 있다: 같은 원자가 같은 순서로 연결되어 있지만, 공간에서의 배열이 다른 것.",
+    "State what stereoisomers are: the same atoms joined in the same order, but arranged differently in space.": "입체 이성질체가 무엇인지 쓰기: 같은 원자가 같은 순서로 연결되어 있지만, 공간에서의 배열이 다른 것.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Explain what causes <i>cis</i>–<i>trans</i> isomerism, and recognize it in non-cyclic alkenes and in rings of three or four carbon atoms.": "<i>cis</i>–<i>trans</i> 이성질 현상이 왜 생기는지 설명하고, 고리가 없는 알켄과 탄소 원자 3개 또는 4개로 된 고리에서 이를 알아볼 수 있다.",
+    "Explain what causes <i>cis</i>–<i>trans</i> isomerism, and recognize it in non-cyclic alkenes and in rings of three or four carbon atoms.": "<i>cis</i>–<i>trans</i> 이성질 현상이 왜 생기는지 설명하고, 고리가 없는 알켄과 탄소 원자 3개 또는 4개로 된 고리에서 알아보기.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Find a chiral carbon atom and explain why it gives two stereoisomers with different optical properties.": "카이랄 탄소 원자를 찾고, 이 탄소 때문에 광학적 성질이 다른 입체 이성질체 2개가 생기는 이유를 설명할 수 있다.",
+    "Find a chiral carbon atom and explain why it gives two stereoisomers with different optical properties.": "카이랄 탄소 원자를 찾고, 이 탄소 때문에 광학적 성질이 다른 입체 이성질체 2개가 생기는 이유 설명하기.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Draw both enantiomers with wedge–dash bonds, showing the tetrahedral shape around the chiral carbon.": "쐐기–점선 결합으로 두 거울상 이성질체를 모두 그리고, 카이랄 탄소 주위의 정사면체 모양을 나타낼 수 있다.",
+    "Draw both enantiomers with wedge–dash bonds, showing the tetrahedral shape around the chiral carbon.": "쐐기–점선 결합으로 두 거울상 이성질체를 모두 그리고, 카이랄 탄소 주위의 정사면체 모양 나타내기.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Recognize a pair of enantiomers as non-superimposable mirror images in 3-D models.": "3-D 모형에서 한 쌍의 거울상 이성질체를 서로 겹칠 수 없는 거울상으로 알아볼 수 있다.",
+    "Recognize a pair of enantiomers as non-superimposable mirror images in 3-D models.": "3-D 모형에서 한 쌍의 거울상 이성질체를 서로 겹칠 수 없는 거울상으로 알아보기.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Use the terms chiral, optical activity, enantiomer and racemic mixture correctly.": "카이랄, 광학 활성, 거울상 이성질체, 라셈 혼합물이라는 용어를 바르게 쓸 수 있다.",
+    "Use the terms chiral, optical activity, enantiomer and racemic mixture correctly.": "카이랄, 광학 활성, 거울상 이성질체, 라셈 혼합물이라는 용어를 바르게 쓰기.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Use the molecular ion and the fragmentation pattern of a mass spectrum to deduce features of a structure.": "질량 스펙트럼의 분자 이온과 조각 무늬를 이용해 구조의 특징을 추론할 수 있다.",
+    "Use the molecular ion and the fragmentation pattern of a mass spectrum to deduce features of a structure.": "질량 스펙트럼의 분자 이온과 조각 무늬를 이용해 구조의 특징 추론하기.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Use the data booklet to identify bonds from an infrared spectrum, and say why greenhouse gases absorb infrared radiation.": "데이터 부클릿을 이용해 적외선 스펙트럼에서 결합을 찾고, 온실 기체가 적외선을 흡수하는 이유를 말할 수 있다.",
+    "Use the data booklet to identify bonds from an infrared spectrum, and say why greenhouse gases absorb infrared radiation.": "데이터 부클릿을 이용해 적외선 스펙트럼에서 결합을 찾고, 온실 기체가 적외선을 흡수하는 이유 말하기.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Interpret a <sup>1</sup>H NMR spectrum using the number of signals, the chemical shifts and the areas under the signals.": "신호의 수, 화학적 이동, 신호 아래 넓이를 이용해 <sup>1</sup>H NMR 스펙트럼을 해석할 수 있다.",
+    "Interpret a <sup>1</sup>H NMR spectrum using the number of signals, the chemical shifts and the areas under the signals.": "신호의 수, 화학적 이동, 신호 아래 넓이를 이용해 <sup>1</sup>H NMR 스펙트럼 해석하기.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Interpret singlets, doublets, triplets and quartets in a <sup>1</sup>H NMR spectrum.": "<sup>1</sup>H NMR 스펙트럼의 단일선, 이중선, 삼중선, 사중선을 해석할 수 있다.",
+    "Interpret singlets, doublets, triplets and quartets in a <sup>1</sup>H NMR spectrum.": "<sup>1</sup>H NMR 스펙트럼의 단일선, 이중선, 삼중선, 사중선 해석하기.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Combine composition data, mass, infrared and <sup>1</sup>H NMR spectra to find the structure of a molecule.": "조성 자료, 질량 스펙트럼, 적외선 스펙트럼, <sup>1</sup>H NMR 스펙트럼을 종합해 분자의 구조를 찾을 수 있다.",
+    "Combine composition data, mass, infrared and <sup>1</sup>H NMR spectra to find the structure of a molecule.": "조성 자료, 질량 스펙트럼, 적외선 스펙트럼, <sup>1</sup>H NMR 스펙트럼을 종합해 분자의 구조 찾기.",
 
     // What you need from the core page > data-toc attribute
     "What you need first": "먼저 알아야 할 것",
@@ -69,16 +69,16 @@ S1.i18n.register('ko', 's3-2h', {
     "This page builds on <a href=\"s3-2.html\">3.2 Functional groups</a>. Check that you can do these things first.": "이 페이지는 <a href=\"s3-2.html\">3.2 작용기</a>를 바탕으로 해요. 먼저 아래 내용을 할 수 있는지 확인하세요.",
 
     // What you need from the core page > li
-    "Read and draw full structural, condensed structural and skeletal formulas.": "전개 구조식, 축약 구조식, 골격 구조식을 읽고 그릴 수 있다.",
+    "Read and draw full structural, condensed structural and skeletal formulas.": "전개 구조식, 축약 구조식, 골격 구조식을 읽고 그리기.",
 
     // What you need from the core page > li
-    "Identify the functional groups (such as hydroxyl, carbonyl, carboxyl, ester and amino) and the classes of compound (such as alcohols, aldehydes, ketones, carboxylic acids, esters, ethers and amines).": "작용기(하이드록시기, 카보닐기, 카복실기, 에스터기, 아미노기 등)와 화합물의 종류(알코올, 알데하이드, 케톤, 카복실산, 에스터, 에테르, 아민 등)를 찾을 수 있다.",
+    "Identify the functional groups (such as hydroxyl, carbonyl, carboxyl, ester and amino) and the classes of compound (such as alcohols, aldehydes, ketones, carboxylic acids, esters, ethers and amines).": "작용기(하이드록시기, 카보닐기, 카복실기, 에스터기, 아미노기 등)와 화합물의 종류(알코올, 알데하이드, 케톤, 카복실산, 에스터, 에테르, 아민 등) 찾기.",
 
     // What you need from the core page > li
-    "Name hydrocarbons, halogenoalkanes, alcohols, aldehydes, ketones and carboxylic acids with up to six carbon atoms in the chain.": "사슬의 탄소 원자가 6개까지인 탄화수소, 할로젠화 알케인, 알코올, 알데하이드, 케톤, 카복실산의 이름을 붙일 수 있다.",
+    "Name hydrocarbons, halogenoalkanes, alcohols, aldehydes, ketones and carboxylic acids with up to six carbon atoms in the chain.": "사슬의 탄소 원자가 6개까지인 탄화수소, 할로젠화 알케인, 알코올, 알데하이드, 케톤, 카복실산의 이름 붙이기.",
 
     // What you need from the core page > li
-    "Recognize structural isomers: the same molecular formula, but the atoms are joined in a different order.": "구조 이성질체를 알아볼 수 있다: 분자식은 같지만, 원자가 연결된 순서가 다른 것.",
+    "Recognize structural isomers: the same molecular formula, but the atoms are joined in a different order.": "구조 이성질체 알아보기: 분자식은 같지만, 원자가 연결된 순서가 다른 것.",
 
     // What you need from the core page > p
     "You also need three ideas from other pages.": "다른 페이지의 개념 3가지도 필요해요.",
@@ -144,7 +144,7 @@ S1.i18n.register('ko', 's3-2h', {
     "A ring also stops rotation. Each ring carbon has one bond pointing above the ring and one pointing below it. If two different ring carbons each have two different groups, there are two isomers.": "고리도 회전을 막아요. 고리의 각 탄소에는 고리 위쪽을 향하는 결합 1개와 아래쪽을 향하는 결합 1개가 있어요. 서로 다른 고리 탄소 2개에 각각 서로 다른 기 2개가 붙어 있으면 이성질체가 2개 있어요.",
 
     // Stereoisomers and cis–trans isomers > p
-    "In these drawings, a solid wedge is a bond coming towards you. A hashed wedge is a bond going away from you.": "이 그림에서 채운 쐐기는 나를 향해 나오는 결합이에요. 빗금 쐐기는 나에게서 멀어지는 결합이에요.",
+    "In these drawings, a solid wedge is a bond coming towards you. A hashed wedge is a bond going away from you.": "이 그림에서 실선 쐐기는 나를 향해 나오는 결합이에요. 점선 쐐기는 나에게서 멀어지는 결합이에요.",
 
     // Stereoisomers and cis–trans isomers > widget > data-title attribute
     "Cis–trans explorer": "시스–트랜스 탐색기",
@@ -295,13 +295,13 @@ S1.i18n.register('ko', 's3-2h', {
     "A plain line is a bond in the plane of the paper.": "보통 선은 종이 평면에 있는 결합이에요.",
 
     // Chiral carbon atoms and enantiomers > li
-    "A solid wedge is a bond coming out of the paper, towards you.": "채운 쐐기는 종이에서 나를 향해 튀어나오는 결합이에요.",
+    "A solid wedge is a bond coming out of the paper, towards you.": "실선 쐐기는 종이에서 나를 향해 튀어나오는 결합이에요.",
 
     // Chiral carbon atoms and enantiomers > li
-    "A hashed wedge is a bond going into the paper, away from you.": "빗금 쐐기는 종이 안쪽으로, 나에게서 멀어지는 결합이에요.",
+    "A hashed wedge is a bond going into the paper, away from you.": "점선 쐐기는 종이 안쪽으로, 나에게서 멀어지는 결합이에요.",
 
     // Chiral carbon atoms and enantiomers > p
-    "Draw two plain bonds, one solid wedge and one hashed wedge around the chiral carbon. Then draw a mirror line and reflect the whole drawing.": "카이랄 탄소 주위에 보통 결합 2개, 채운 쐐기 1개, 빗금 쐐기 1개를 그려요. 그다음 거울선을 긋고 그림 전체를 대칭으로 옮겨 그려요.",
+    "Draw two plain bonds, one solid wedge and one hashed wedge around the chiral carbon. Then draw a mirror line and reflect the whole drawing.": "카이랄 탄소 주위에 보통 결합 2개, 실선 쐐기 1개, 점선 쐐기 1개를 그려요. 그다음 거울선을 긋고 그림 전체를 대칭으로 옮겨 그려요.",
 
     // Chiral carbon atoms and enantiomers > p
     "These are the two enantiomers of butan-2-ol. The dashed line is the mirror.": "이것은 butan-2-ol의 두 거울상 이성질체예요. 점선이 거울이에요.",
@@ -346,7 +346,7 @@ S1.i18n.register('ko', 's3-2h', {
     "The four bonds point to the corners of a tetrahedron.": "결합 4개는 정사면체의 꼭짓점을 향해요.",
 
     // Chiral carbon atoms and enantiomers > worked example > p
-    "Put the chiral carbon in the centre. Draw two plain bonds with a wide angle between them. Add one solid wedge and one hashed wedge. Attach the four groups. Their order does not matter for the first drawing.": "카이랄 탄소를 가운데에 두세요. 보통 결합 2개를 넓은 각도로 그려요. 채운 쐐기 1개와 빗금 쐐기 1개를 더해요. 4개의 기를 붙여요. 첫 번째 그림에서는 기의 순서가 상관없어요.",
+    "Put the chiral carbon in the centre. Draw two plain bonds with a wide angle between them. Add one solid wedge and one hashed wedge. Attach the four groups. Their order does not matter for the first drawing.": "카이랄 탄소를 가운데에 두세요. 보통 결합 2개를 넓은 각도로 그려요. 실선 쐐기 1개와 점선 쐐기 1개를 더해요. 4개의 기를 붙여요. 첫 번째 그림에서는 기의 순서가 상관없어요.",
 
     // Chiral carbon atoms and enantiomers > worked example > data-title attribute
     "Reflect it in a mirror line": "거울선에 대해 대칭으로 그리기",
@@ -2021,7 +2021,7 @@ S1.i18n.register('ko', 's3-2h', {
     "Step 2. Draw two bonds as plain lines. These two bonds lie in the plane of the paper. Keep the angle between them wider than 90°, close to the tetrahedral angle of 109.5°.": "2단계. 결합 2개를 보통 선으로 그려요. 이 두 결합은 종이 평면에 있어요. 두 결합 사이의 각은 90°보다 넓게, 정사면체 각 109.5°에 가깝게 그려요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Step 3. Draw one bond as a solid wedge. A wedge bond points out of the paper, towards you. The narrow end is at the chiral carbon.": "3단계. 결합 1개를 채운 쐐기로 그려요. 쐐기 결합은 종이에서 나를 향해 튀어나와요. 좁은 끝이 카이랄 탄소 쪽에 있어요.",
+    "Step 3. Draw one bond as a solid wedge. A wedge bond points out of the paper, towards you. The narrow end is at the chiral carbon.": "3단계. 결합 1개를 실선 쐐기로 그려요. 쐐기 결합은 종이에서 나를 향해 튀어나와요. 좁은 끝이 카이랄 탄소 쪽에 있어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "Step 4. Draw the last bond as a hashed (dashed) wedge. It points into the paper, away from you. All four groups must be different.": "4단계. 마지막 결합을 빗금(점선) 쐐기로 그려요. 이 결합은 종이 안쪽으로, 나에게서 멀어지는 쪽을 향해요. 4개의 기는 모두 달라야 해요.",
@@ -2591,196 +2591,196 @@ S1.i18n.register('ko', 's3-2h', {
     "Infrared spectrum (sketch)": "적외선 스펙트럼 (그림)",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "<sup>1</sup>H NMR spectrum (sketch)": "",
+    "<sup>1</sup>H NMR spectrum (sketch)": "<sup>1</sup>H NMR 스펙트럼 (그림)",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Simplified mass spectrum of the unknown compound. Peaks at m/z {list}. The peak at the highest m/z is {m}.": "",
+    "Simplified mass spectrum of the unknown compound. Peaks at m/z {list}. The peak at the highest m/z is {m}.": "모르는 화합물의 단순화한 질량 스펙트럼. m/z {list}에 봉우리가 있어요. m/z가 가장 큰 봉우리는 {m}이에요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Peaks at m/z = {list}.": "",
+    "Peaks at m/z = {list}.": "m/z = {list}에 봉우리가 있어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Sketch of the infrared spectrum of the unknown compound. Main absorptions near {list} wavenumbers.": "",
+    "Sketch of the infrared spectrum of the unknown compound. Main absorptions near {list} wavenumbers.": "모르는 화합물의 적외선 스펙트럼 그림. 주요 흡수는 {list} 파수 근처에 있어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Sketch of the proton NMR spectrum of the unknown compound. See the table of signals.": "",
+    "Sketch of the proton NMR spectrum of the unknown compound. See the table of signals.": "모르는 화합물의 양성자 NMR 스펙트럼 그림. 신호 표를 보세요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "<sup>1</sup>H NMR signals": "",
+    "<sup>1</sup>H NMR signals": "<sup>1</sup>H NMR 신호",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Relative area": "",
+    "Relative area": "상대 넓이",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Deduction notebook": "",
+    "Deduction notebook": "추론 노트",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Your deductions appear here as you solve each step.": "",
+    "Your deductions appear here as you solve each step.": "단계를 풀 때마다 추론 내용이 여기에 나타나요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Composition: in 100 g there are {c} mol C, {h} mol H and {o} mol O. Dividing by the smallest gives C : H : O = {rc} : {rh} : {ro}.": "",
+    "Composition: in 100 g there are {c} mol C, {h} mol H and {o} mol O. Dividing by the smallest gives C : H : O = {rc} : {rh} : {ro}.": "조성: 100 g 안에 C {c} mol, H {h} mol, O {o} mol이 있어요. 가장 작은 값으로 나누면 C : H : O = {rc} : {rh} : {ro}예요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Multiply by {m} to get whole numbers.": "",
+    "Multiply by {m} to get whole numbers.": "정수를 얻으려면 {m}을 곱해요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Empirical formula: {f}.": "",
+    "Empirical formula: {f}.": "실험식: {f}.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "O–H of an alcohol (broad, 3200–3600 cm<sup>−1</sup>) and C–O. No C=O.": "",
+    "O–H of an alcohol (broad, 3200–3600 cm<sup>−1</sup>) and C–O. No C=O.": "알코올의 O–H(넓음, 3200–3600 cm<sup>−1</sup>)와 C–O. C=O는 없음.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "C=O (1700–1750 cm<sup>−1</sup>). No O–H.": "",
+    "C=O (1700–1750 cm<sup>−1</sup>). No O–H.": "C=O(1700–1750 cm<sup>−1</sup>). O–H는 없음.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "O–H of a carboxylic acid (very broad, 2500–3000 cm<sup>−1</sup>) and C=O.": "",
+    "O–H of a carboxylic acid (very broad, 2500–3000 cm<sup>−1</sup>) and C=O.": "카복실산의 O–H(매우 넓음, 2500–3000 cm<sup>−1</sup>)와 C=O.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "C–O (1050–1410 cm<sup>−1</sup>). No O–H and no C=O.": "",
+    "C–O (1050–1410 cm<sup>−1</sup>). No O–H and no C=O.": "C–O(1050–1410 cm<sup>−1</sup>). O–H도 C=O도 없음.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Empirical formula": "",
+    "Empirical formula": "실험식",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Use the percentage composition. What is the empirical formula?": "",
+    "Use the percentage composition. What is the empirical formula?": "백분율 조성을 이용하세요. 실험식은 무엇일까요?",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. Divide each percentage by the relative atomic mass (C 12.01, H 1.01, O 16.00). Then divide every answer by the smallest one. If you get a value such as 1.5, multiply all of them by 2.": "",
+    "Not this one. Divide each percentage by the relative atomic mass (C 12.01, H 1.01, O 16.00). Then divide every answer by the smallest one. If you get a value such as 1.5, multiply all of them by 2.": "이것이 아니에요. 각 백분율을 상대 원자 질량(C 12.01, H 1.01, O 16.00)으로 나누세요. 그다음 모든 값을 가장 작은 값으로 나누세요. 1.5 같은 값이 나오면 모두에 2를 곱하세요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The molecular ion peak is at m/z = {m}. What is the molecular formula?": "",
+    "The molecular ion peak is at m/z = {m}. What is the molecular formula?": "분자 이온 봉우리는 m/z = {m}에 있어요. 분자식은 무엇일까요?",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. The molecular ion gives <i>M</i><sub>r</sub> = {m}. The empirical formula {f} has a mass of {e}. How many times does {e} go into {m}?": "",
+    "Not this one. The molecular ion gives <i>M</i><sub>r</sub> = {m}. The empirical formula {f} has a mass of {e}. How many times does {e} go into {m}?": "이것이 아니에요. 분자 이온에서 <i>M</i><sub>r</sub> = {m}이에요. 실험식 {f}의 질량은 {e}예요. {m}은 {e}의 몇 배일까요?",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "MS: the molecular ion peak at m/z = {m} gives <i>M</i><sub>r</sub> = {m}. Empirical formula mass = {e}, and {m} ÷ {e} ≈ {k}. Molecular formula: {f}.": "",
+    "MS: the molecular ion peak at m/z = {m} gives <i>M</i><sub>r</sub> = {m}. Empirical formula mass = {e}, and {m} ÷ {e} ≈ {k}. Molecular formula: {f}.": "MS: m/z = {m}의 분자 이온 봉우리에서 <i>M</i><sub>r</sub> = {m}. 실험식량 = {e}이고, {m} ÷ {e} ≈ {k}. 분자식: {f}.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Infrared": "",
+    "Infrared": "적외선",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Look at the infrared spectrum and the booklet table. Which statement fits?": "",
+    "Look at the infrared spectrum and the booklet table. Which statement fits?": "적외선 스펙트럼과 부클릿 표를 보세요. 어느 설명이 맞을까요?",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. An alcohol gives a strong, broad absorption at 3200–3600 cm<sup>−1</sup>. This spectrum has nothing there.": "",
+    "Not this one. An alcohol gives a strong, broad absorption at 3200–3600 cm<sup>−1</sup>. This spectrum has nothing there.": "이것이 아니에요. 알코올은 3200–3600 cm<sup>−1</sup>에서 강하고 넓은 흡수를 만들어요. 이 스펙트럼에는 그곳에 아무것도 없어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. A carboxylic acid gives a very broad absorption at 2500–3000 cm<sup>−1</sup>. This spectrum has only the sharper C–H band near 2850–3090 cm<sup>−1</sup>.": "",
+    "Not this one. A carboxylic acid gives a very broad absorption at 2500–3000 cm<sup>−1</sup>. This spectrum has only the sharper C–H band near 2850–3090 cm<sup>−1</sup>.": "이것이 아니에요. 카복실산은 2500–3000 cm<sup>−1</sup>에서 매우 넓은 흡수를 만들어요. 이 스펙트럼에는 2850–3090 cm<sup>−1</sup> 근처의 더 날카로운 C–H 띠만 있어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. C=O gives a strong absorption at 1700–1750 cm<sup>−1</sup>. This spectrum has nothing there.": "",
+    "Not this one. C=O gives a strong absorption at 1700–1750 cm<sup>−1</sup>. This spectrum has nothing there.": "이것이 아니에요. C=O는 1700–1750 cm<sup>−1</sup>에서 강한 흡수를 만들어요. 이 스펙트럼에는 그곳에 아무것도 없어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. The spectrum has a strong absorption at 1700–1750 cm<sup>−1</sup>. That is C=O.": "",
+    "Not this one. The spectrum has a strong absorption at 1700–1750 cm<sup>−1</sup>. That is C=O.": "이것이 아니에요. 이 스펙트럼에는 1700–1750 cm<sup>−1</sup>에 강한 흡수가 있어요. 그것은 C=O예요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. The spectrum has a broad O–H absorption.": "",
+    "Not this one. The spectrum has a broad O–H absorption.": "이것이 아니에요. 이 스펙트럼에는 넓은 O–H 흡수가 있어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. The spectrum has a strong, broad absorption at 3200–3600 cm<sup>−1</sup>. That is the O–H of an alcohol.": "",
+    "Not this one. The spectrum has a strong, broad absorption at 3200–3600 cm<sup>−1</sup>. That is the O–H of an alcohol.": "이것이 아니에요. 이 스펙트럼에는 3200–3600 cm<sup>−1</sup>에 강하고 넓은 흡수가 있어요. 그것은 알코올의 O–H예요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. Check each absorption against the booklet table.": "",
+    "Not this one. Check each absorption against the booklet table.": "이것이 아니에요. 각 흡수를 부클릿 표와 비교해 보세요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Fragment": "",
+    "Fragment": "조각",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "In the mass spectrum there is a peak at m/z = {mz}. The mass lost from the molecular ion is {m} − {mz} = {lost}. Which piece could the molecule have lost?": "",
+    "In the mass spectrum there is a peak at m/z = {mz}. The mass lost from the molecular ion is {m} − {mz} = {lost}. Which piece could the molecule have lost?": "질량 스펙트럼에 m/z = {mz}의 봉우리가 있어요. 분자 이온에서 잃은 질량은 {m} − {mz} = {lost}예요. 분자가 잃었을 수 있는 조각은 무엇일까요?",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. Find the mass lost, {lost}, in the booklet table of mass spectral fragments lost.": "",
+    "Not this one. Find the mass lost, {lost}, in the booklet table of mass spectral fragments lost.": "이것이 아니에요. 질량 스펙트럼에서 잃은 조각의 부클릿 표에서 잃은 질량 {lost}를 찾아보세요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "NMR: signals and areas": "",
+    "NMR: signals and areas": "NMR: 신호와 넓이",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The <sup>1</sup>H NMR spectrum has {n} signals. Their areas are in the ratio {r}. What does this show?": "",
+    "The <sup>1</sup>H NMR spectrum has {n} signals. Their areas are in the ratio {r}. What does this show?": "<sup>1</sup>H NMR 스펙트럼에는 신호가 {n}개 있어요. 넓이 비는 {r}예요. 이것은 무엇을 보여 줄까요?",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The molecule has {n} hydrogen atoms.": "",
+    "The molecule has {n} hydrogen atoms.": "분자에 수소 원자가 {n}개 있어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The molecule has {n} different hydrogen environments. The numbers of H atoms in them are in the ratio {r}.": "",
+    "The molecule has {n} different hydrogen environments. The numbers of H atoms in them are in the ratio {r}.": "분자에 서로 다른 수소 환경이 {n}가지 있어요. 각 환경의 H 원자 수의 비는 {r}예요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The molecule has {n} carbon atoms.": "",
+    "The molecule has {n} carbon atoms.": "분자에 탄소 원자가 {n}개 있어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Each signal comes from one hydrogen atom.": "",
+    "Each signal comes from one hydrogen atom.": "각 신호는 수소 원자 1개에서 나와요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. <sup>1</sup>H NMR detects hydrogen atoms, not carbon atoms.": "",
+    "Not this one. <sup>1</sup>H NMR detects hydrogen atoms, not carbon atoms.": "이것이 아니에요. <sup>1</sup>H NMR은 탄소 원자가 아니라 수소 원자를 검출해요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. The number of signals is the number of different hydrogen environments. The formula shows {h} H atoms.": "",
+    "Not this one. The number of signals is the number of different hydrogen environments. The formula shows {h} H atoms.": "이것이 아니에요. 신호의 수는 서로 다른 수소 환경의 수예요. 화학식에는 H 원자가 {h}개 있어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "NMR: {n} signals, so {n} hydrogen environments. The ratio {r} adds up to {s}. The formula has {h} H atoms, so the environments contain {list} H atoms.": "",
+    "NMR: {n} signals, so {n} hydrogen environments. The ratio {r} adds up to {s}. The formula has {h} H atoms, so the environments contain {list} H atoms.": "NMR: 신호 {n}개, 따라서 수소 환경 {n}가지. 비 {r}를 모두 더하면 {s}예요. 화학식에 H 원자가 {h}개 있으므로 각 환경에는 H 원자가 {list}개 있어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "NMR: splitting": "",
+    "NMR: splitting": "NMR: 갈라짐",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "One signal is a triplet and another is a quartet. What does this pattern show?": "",
+    "One signal is a triplet and another is a quartet. What does this pattern show?": "한 신호는 삼중선이고 다른 신호는 사중선이에요. 이 무늬는 무엇을 보여 줄까요?",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "A group with 3 H and a group with 4 H.": "",
+    "A group with 3 H and a group with 4 H.": "H가 3개인 기와 H가 4개인 기.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "A CH<sub>3</sub> group next to a CH<sub>2</sub> group: CH<sub>3</sub>–CH<sub>2</sub>.": "",
+    "A CH<sub>3</sub> group next to a CH<sub>2</sub> group: CH<sub>3</sub>–CH<sub>2</sub>.": "CH<sub>2</sub>기 옆의 CH<sub>3</sub>기: CH<sub>3</sub>–CH<sub>2</sub>.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "A CH<sub>3</sub> group gives three lines because it has three H atoms.": "",
+    "A CH<sub>3</sub> group gives three lines because it has three H atoms.": "CH<sub>3</sub>기는 H 원자가 3개라서 선 3개를 만들어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Two CH<sub>2</sub> groups next to each other.": "",
+    "Two CH<sub>2</sub> groups next to each other.": "서로 이웃한 CH<sub>2</sub>기 2개.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. The H atoms in a group do not split their own signal. The splitting comes from H atoms on the neighbouring carbon atom.": "",
+    "Not this one. The H atoms in a group do not split their own signal. The splitting comes from H atoms on the neighbouring carbon atom.": "이것이 아니에요. 한 기 안의 H 원자는 자기 신호를 갈라지게 하지 않아요. 갈라짐은 이웃 탄소 원자의 H 원자 때문에 생겨요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. Number of lines = number of neighbouring H atoms + 1. A triplet has 2 neighbouring H. A quartet has 3 neighbouring H.": "",
+    "Not this one. Number of lines = number of neighbouring H atoms + 1. A triplet has 2 neighbouring H. A quartet has 3 neighbouring H.": "이것이 아니에요. 선의 수 = 이웃 H 원자의 수 + 1. 삼중선은 이웃 H가 2개예요. 사중선은 이웃 H가 3개예요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Both signals are singlets. What does this show?": "",
+    "Both signals are singlets. What does this show?": "두 신호 모두 단일선이에요. 이것은 무엇을 보여 줄까요?",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Each signal comes from one H atom.": "",
+    "Each signal comes from one H atom.": "각 신호는 H 원자 1개에서 나와요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The molecule has no CH<sub>3</sub> groups.": "",
+    "The molecule has no CH<sub>3</sub> groups.": "분자에 CH<sub>3</sub>기가 없어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The H atoms in each environment have no H atoms on the neighbouring carbon atom.": "",
+    "The H atoms in each environment have no H atoms on the neighbouring carbon atom.": "각 환경의 H 원자는 이웃 탄소 원자에 H 원자가 없어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The two groups of H atoms are bonded to the same carbon atom.": "",
+    "The two groups of H atoms are bonded to the same carbon atom.": "두 H 원자 묶음이 같은 탄소 원자에 결합해 있어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. Number of lines = number of neighbouring H atoms + 1. One line means 0 neighbouring H atoms.": "",
+    "Not this one. Number of lines = number of neighbouring H atoms + 1. One line means 0 neighbouring H atoms.": "이것이 아니에요. 선의 수 = 이웃 H 원자의 수 + 1. 선 1개는 이웃 H 원자가 0개라는 뜻이에요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Structure": "",
+    "Structure": "구조",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Put the deductions together. Which structure is the unknown compound?": "",
+    "Put the deductions together. Which structure is the unknown compound?": "추론을 모두 합쳐 보세요. 모르는 화합물은 어느 구조일까요?",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Solved. The unknown compound is {name}. Every piece of data fits this structure.": "",
+    "Solved. The unknown compound is {name}. Every piece of data fits this structure.": "해결했어요. 모르는 화합물은 {name}이에요. 모든 자료가 이 구조에 맞아요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Structure of {name} with its hydrogen environments labelled": "",
+    "Structure of {name} with its hydrogen environments labelled": "수소 환경을 표시한 {name}의 구조",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Step {n}: {name}.": "",
+    "Step {n}: {name}.": "{n}단계: {name}.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Structure: {name}. It has the right formula, functional group, fragments, number of signals, areas and splitting.": "",
+    "Structure: {name}. It has the right formula, functional group, fragments, number of signals, areas and splitting.": "구조: {name}. 화학식, 작용기, 조각, 신호의 수, 넓이, 갈라짐이 모두 맞아요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Correct. The deduction is in your notebook.": "",
+    "Correct. The deduction is in your notebook.": "정답이에요. 추론 내용이 노트에 기록됐어요.",
 
   }
 });

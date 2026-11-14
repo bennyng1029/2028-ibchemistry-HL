@@ -1381,7 +1381,7 @@ S1.i18n.register('ko', 's3-2.q', {
     // ── s3-2-q050 · mcq · foundation · SL · Structure 3.2.1 · 1 mark
     "s3-2-q050": {
       // EN: <p>A drawing of a molecule shows one bond as a solid wedge and one bond as a dashed wedge. The other bonds are plain lines. Which type of formula is this?</p>
-      stem: "<p>어떤 분자 그림에서 결합 하나는 채워진 쐐기로, 결합 하나는 점선 쐐기로 그려져 있어요. 나머지 결합은 보통 선이에요. 이것은 어떤 종류의 구조식인가요?</p>",
+      stem: "<p>어떤 분자 그림에서 결합 하나는 실선 쐐기로, 결합 하나는 점선 쐐기로 그려져 있어요. 나머지 결합은 보통 선이에요. 이것은 어떤 종류의 구조식인가요?</p>",
       options: [
         // EN: Skeletal formula
         "골격 구조식",
@@ -1397,7 +1397,7 @@ S1.i18n.register('ko', 's3-2.q', {
         "쐐기는 평평한 종이 위에 3차원을 나타내는 데 써요.",
       ],
       // EN: <p>This is a <strong>stereochemical formula</strong>. It shows the 3-D arrangement of the bonds around an atom.</p><p>A solid wedge is a bond that comes towards you. A dashed wedge is a bond that goes away from you. Plain lines are bonds in the plane of the page.</p><p>At this level you need to recognize this type of formula. You do not have to draw it unless the question tells you to.</p>
-      solution: "<p>이것은 <strong>입체 구조식 (stereochemical formula)</strong>이에요. 원자 주위 결합들의 3차원 배치를 보여 줘요.</p><p>채워진 쐐기는 나를 향해 튀어나오는 결합이에요. 점선 쐐기는 나에게서 멀어지는 결합이에요. 보통 선은 종이 평면 위에 있는 결합이에요.</p><p>이 단계에서는 이런 종류의 구조식을 알아볼 수 있으면 돼요. 문제에서 그리라고 하지 않으면 그릴 필요는 없어요.</p>",
+      solution: "<p>이것은 <strong>입체 구조식 (stereochemical formula)</strong>이에요. 원자 주위 결합들의 3차원 배치를 보여 줘요.</p><p>실선 쐐기는 나를 향해 튀어나오는 결합이에요. 점선 쐐기는 나에게서 멀어지는 결합이에요. 보통 선은 종이 평면 위에 있는 결합이에요.</p><p>이 단계에서는 이런 종류의 구조식을 알아볼 수 있으면 돼요. 문제에서 그리라고 하지 않으면 그릴 필요는 없어요.</p>",
       misconception: {
         // EN (option A): A skeletal formula uses plain lines only. It shows the carbon chain as a zig-zag and does not show which bonds point towards you or away from you.
         "0": "골격 구조식은 보통 선만 써요. 탄소 사슬을 지그재그로 나타내고, 어느 결합이 나를 향하는지 멀어지는지는 보여 주지 않아요.",
