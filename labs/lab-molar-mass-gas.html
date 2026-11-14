@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lab 8 Molar volume and the molar mass of a gas | Structure Lab</title>
+<meta name="description" content="IB Chemistry virtual practical for Structure 1.5 and 1.4: collect hydrogen from magnesium and acid to find the molar volume, and vaporize a volatile liquid in a gas syringe to find its molar mass with M = mRT/PV, with uncertainties and evaluation.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific layout for the lab widgets. Tokens only. */
+.toc { min-width: 0; }
+.topic-section { min-width: 0; }
+.topic-section > .widget { min-width: 0; max-width: 100%; }
+.widget__controls .control { max-width: 100%; }
+.widget__controls .select { max-width: 100%; min-width: 0; }
+.lab-chart { margin: 0.75rem 0 0; }
+.widget__stage .table-scroll { margin: 0.75rem 0 0; }
+.widget__stage table.data { font-size: 0.85rem; }
+.widget__stage table.data th, .widget__stage table.data td { padding: 0.35rem 0.6rem; }
+</style>
+</head>
+<body data-page="lab-molar-mass-gas">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="lab-molar-mass-gas"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Lab 8 · Structure 1.5 and 1.4</p>
+      <h1>Molar volume and the molar mass of a gas</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>How can a mass, a volume, a temperature and a pressure be combined, through the ideal gas equation, to give the molar mass of a gas?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <section class="topic-section" id="goals">
+        <h2>What you need to be able to do</h2>
+        <p>These are practical skills. Tick each one when you can do it on your own.</p>
+        <ul class="checklist" data-s1-checklist="lab-molar-mass-gas">
+          <li data-id="units" data-level="sl">Convert cm<sup>3</sup> to m<sup>3</sup>, kPa to Pa and °C to K before using <i>PV</i> = <i>nRT</i>.</li>
+          <li data-id="molar-volume" data-level="sl">Find the molar volume of hydrogen at room conditions from magnesium and excess acid.</li>
+          <li data-id="stp" data-level="sl">Convert a measured molar volume to STP and compare it with 22.7 dm<sup>3</sup> mol<sup>−1</sup>.</li>
+          <li data-id="molar-mass" data-level="sl">Calculate the molar mass of a volatile liquid with <i>M</i> = <i>mRT</i> / <i>PV</i>.</li>
+          <li data-id="gradient" data-level="sl">Find a molar volume or a molar mass from the gradient of a graph.</li>
+          <li data-id="propagate" data-level="sl">Propagate uncertainties through <i>M</i> = <i>mRT</i> / <i>PV</i> and compare them with the percentage error.</li>
+          <li data-id="evaluate" data-level="sl">Explain whether a named error makes the result too high or too low, and suggest an improvement.</li>
+        </ul>
+      </section>
+
+      <section class="topic-section" id="background">
+        <span class="section-code">Structure 1.5.4 · 1.4.3</span>
+        <h2>The chemistry behind it</h2>
+        <p>The ideal gas equation links the amount of a gas to things you can measure: its pressure, volume and temperature. The amount also equals mass ÷ molar mass. Put the two together and you can find the molar mass of a gas from four measurements.</p>
+        <div class="eq">
+          <div class="eq__formula"><i>PV</i> = <i>nRT</i> and <i>n</i> = <span class="frac"><span><i>m</i></span><span><i>M</i></span></span>, so <i>M</i> = <span class="frac"><span><i>mRT</i></span><span><i>PV</i></span></span></div>
+          <dl class="eq__legend">
+            <div><dt>M</dt><dd>molar mass <span class="unit">g mol-1</span></dd></div>
+            <div><dt>m</dt><dd>mass of the gas <span class="unit">g</span></dd></div>
+            <div><dt>R</dt><dd>gas constant, 8.31 <span class="unit">J K-1 mol-1</span></dd></div>
+            <div><dt>T</dt><dd>temperature <span class="unit">K</span></dd></div>
+            <div><dt>P</dt><dd>pressure <span class="unit">Pa</span></dd></div>
+            <div><dt>V</dt><dd>volume <span class="unit">m3</span></dd></div>
+          </dl>
+        </div>
+        <p>The <dfn data-def="The volume occupied by one mole of a gas at a stated temperature and pressure.">molar volume</dfn> is the volume of one mole of gas, <i>V</i><sub>m</sub> = <i>V</i> ÷ <i>n</i>. For an ideal gas it is the same for every gas at the same temperature and pressure. At STP (273.15 K, 100 kPa) it is 22.7 dm<sup>3</sup> mol<sup>−1</sup>. A laboratory is warmer than 0 °C, so the molar volume there is larger, about 24 to 25 dm<sup>3</sup> mol<sup>−1</sup>. Work it out from <i>RT</i> / <i>P</i>; it is not in the data booklet.</p>
+        <p>In Part A, magnesium reacts with excess hydrochloric acid. One mole of magnesium gives one mole of hydrogen:</p>
+        <p><span class="chem">Mg(s) + 2HCl(aq) -> MgCl2(aq) + H2(g)</span></p>
+        <p>In Part B, a weighed sample of a liquid with a low boiling point is turned into vapour inside a heated gas syringe.</p>
+        <p>More on the topic pages: <a href="../topics/s1-5.html#pvnrt">the ideal gas equation</a>, <a href="../topics/s1-5.html#molar-mass">molar mass of a gas</a>, <a href="../topics/s1-5.html#molar-volume">molar volume at STP</a> and <a href="../topics/s1-4.html#avogadro">Avogadro’s law</a>.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Unit traps in PV = nRT (R = 8.31 J K⁻¹ mol⁻¹)</caption>
+            <thead><tr><th scope="col">Quantity</th><th scope="col">Measured in</th><th scope="col">Convert to</th><th scope="col">How</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">volume</th><td>cm<sup>3</sup></td><td>m<sup>3</sup></td><td>× 10<sup>−6</sup> (divide by 1 000 000)</td></tr>
+              <tr><th scope="row">volume</th><td>dm<sup>3</sup></td><td>m<sup>3</sup></td><td>× 10<sup>−3</sup></td></tr>
+              <tr><th scope="row">pressure</th><td>kPa</td><td>Pa</td><td>× 10<sup>3</sup></td></tr>
+              <tr><th scope="row">temperature</th><td>°C</td><td>K</td><td>+ 273.15</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <aside class="callout callout--key">
+          <p>kPa with dm<sup>3</sup> also works, because 1 kPa × 1 dm<sup>3</sup> = 1 J. What never works is mixing them: kPa with m<sup>3</sup>, or Pa with cm<sup>3</sup>.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="plan" data-toc="Aim, variables, safety">
+        <h2>Aim, variables and safety</h2>
+        <p><strong>Aim.</strong> Part A: find the molar volume of hydrogen at room temperature and pressure, and compare it with the ideal gas value. Part B: find the molar mass of an unknown volatile liquid and identify it.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Variables</caption>
+            <thead><tr><th scope="col">Variable</th><th scope="col">Part A: magnesium and acid</th><th scope="col">Part B: volatile liquid</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">independent</th><td>mass of magnesium</td><td>mass of liquid injected</td></tr>
+              <tr><th scope="row">dependent</th><td>volume of hydrogen</td><td>volume of vapour</td></tr>
+              <tr><th scope="row">controlled</th><td>room temperature and pressure; acid in excess; the way the magnesium is added</td><td>temperature of the heating jacket; atmospheric pressure</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h3>Equipment</h3>
+        <ul>
+          <li>Part A: magnesium ribbon and sandpaper, balance (±0.001 g), 50 cm<sup>3</sup> of 1.0 mol dm<sup>−3</sup> hydrochloric acid, conical flask, small test tube to stand inside it, bung and delivery tube, 100 cm<sup>3</sup> gas syringe (±0.5 cm<sup>3</sup>), thermometer (±0.5 °C), barometer or digital pressure sensor (±0.1 kPa)</li>
+          <li>Part B: 100 cm<sup>3</sup> gas syringe in an electric heating jacket (or a steam jacket), self-sealing rubber cap, 1 cm<sup>3</sup> hypodermic syringe, balance (±0.001 g), thermometer, barometer, the unknown liquid</li>
+        </ul>
+        <aside class="callout callout--safety">
+          <p>Hydrogen is extremely flammable and forms explosive mixtures with air: no flames anywhere near Part A, and release the gas only into a well-ventilated room. Hydrochloric acid at 1.0 mol dm<sup>−3</sup> irritates the eyes and skin, so wear eye protection and rinse any splashes with plenty of water. The volatile liquids in Part B (such as propanone or hexane) are highly flammable and their vapours are harmful: use a fume cupboard, heat only with the electric or steam jacket, never a Bunsen burner. The heating jacket is hot enough to burn. Point the hypodermic needle away from people and put it in a sharps container after use.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="method">
+        <h2>Method</h2>
+        <h3>Part A: molar volume of hydrogen</h3>
+        <ol class="method">
+          <li>Rub a length of magnesium ribbon with sandpaper until it is shiny. <em>Why:</em> the dull coating is magnesium oxide. It adds to the mass but gives no hydrogen.</li>
+          <li>Cut and weigh a piece of about 0.07 g. <em>Why:</em> at room conditions 0.1 g of magnesium gives about 100 cm<sup>3</sup> of hydrogen, which would fill the syringe.</li>
+          <li>Put 50 cm<sup>3</sup> of 1.0 mol dm<sup>−3</sup> hydrochloric acid in the flask. Stand the magnesium in a small dry test tube inside the flask. <em>Why:</em> the acid is in large excess, so all the magnesium reacts.</li>
+          <li>Fit the bung joined to the gas syringe and check that the syringe reads zero. Then tip the flask so the acid reaches the magnesium. <em>Why:</em> no hydrogen escapes before the apparatus is sealed.</li>
+          <li>When the fizzing stops, wait until the flask has cooled to room temperature, then read the volume. <em>Why:</em> the reaction gives out heat, and warm gas takes up more space.</li>
+          <li>Record the room temperature and the atmospheric pressure. Repeat with different masses of magnesium.</li>
+        </ol>
+        <h3>Part B: molar mass of a volatile liquid</h3>
+        <ol class="method">
+          <li>Heat the gas syringe in its jacket to a steady temperature at least 20 °C above the boiling point of the liquid. Let a few cm<sup>3</sup> of air warm up inside, and record this starting volume. <em>Why:</em> all the liquid must turn into vapour, and the vapour should be far from condensing.</li>
+          <li>Draw about 0.15 cm<sup>3</sup> of the liquid into the hypodermic syringe and weigh it. <em>Why:</em> the vapour must not overfill the gas syringe.</li>
+          <li>Push the needle through the self-sealing cap, inject the liquid, withdraw the needle and reweigh the hypodermic syringe at once. <em>Why:</em> the mass injected is the difference between the two weighings.</li>
+          <li>Wait until the plunger stops moving. Record the final volume and the jacket temperature. <em>Why:</em> the vapour must reach the jacket temperature.</li>
+          <li>Record the atmospheric pressure. Repeat with different volumes of liquid at the same jacket temperature.</li>
+        </ol>
+        <aside class="callout callout--key">
+          <p>Another common version uses butane from a gas lighter. Weigh the lighter, release the gas under water into an upturned measuring cylinder full of water, dry the lighter and weigh it again. The data are processed in exactly the same way.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="experiment" data-toc="Run the experiment">
+        <span class="section-code">Tool 1 · Inquiry 2</span>
+        <h2>Run the experiment</h2>
+        <p>These are simulated experiments. Every reading has a small random error, like a real one, and the apparatus has realistic precision. Some method choices add a systematic error on purpose. Try them, and see which way they push the result.</p>
+
+        <figure data-s1-widget="lab-molar-mass-gas.mg" data-title="Part A: magnesium and hydrochloric acid" data-kicker="Virtual experiment">
+          <p class="widget__fallback">An interactive magnesium and acid experiment appears here when JavaScript is on. Typical result at 21.5 °C and 101.2 kPa: 0.072 g of magnesium gives 73.5 cm³ of hydrogen.</p>
+          <figcaption>Choose a mass of magnesium and run the reaction. Do at least three runs with different masses, using the careful method. Then change one method choice at a time and see how the molar volume changes. The table converts each run to a molar volume; the graph gives one from the gradient.</figcaption>
+        </figure>
+
+        <figure data-s1-widget="lab-molar-mass-gas.vapour" data-title="Part B: vaporize a volatile liquid" data-kicker="Virtual experiment">
+          <p class="widget__fallback">An interactive heated gas syringe appears here when JavaScript is on. Typical result: 0.152 g of liquid at 99.0 °C and 101.0 kPa gives 79.5 cm³ of vapour.</p>
+          <figcaption>Choose an unknown liquid, set the jacket temperature and inject. Use at least three different volumes at the same temperature, then work out the molar mass before you reveal the liquid. Try a jacket temperature close to, or below, the boiling point and see what happens.</figcaption>
+        </figure>
+      </section>
+
+      <section class="topic-section" id="processing">
+        <span class="section-code">Structure 1.5.4 · 1.4.3 · 1.4.6</span>
+        <h2>Processing the data</h2>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Molar volume of hydrogen</h3>
+          <div class="worked__problem">
+            <p>0.0742 g of magnesium reacts with excess hydrochloric acid. The hydrogen has a volume of 76.5 cm<sup>3</sup> at 23.0 °C and 100.6 kPa. Calculate the molar volume of hydrogen under these conditions, and convert it to STP.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Amount of magnesium">
+              <p class="worked__why">Use <i>A</i><sub>r</sub>(Mg) = 24.31 from the data booklet.</p>
+              <div class="worked__math"><i>n</i>(Mg) = 0.0742 g ÷ 24.31 g mol<sup>−1</sup> = 3.052… × 10<sup>−3</sup> mol</div>
+            </li>
+            <li data-title="Amount of hydrogen">
+              <p class="worked__why">The equation shows 1 mol of Mg gives 1 mol of H<sub>2</sub>.</p>
+              <div class="worked__math"><i>n</i>(H<sub>2</sub>) = 3.052… × 10<sup>−3</sup> mol</div>
+            </li>
+            <li data-title="Molar volume at room conditions">
+              <p class="worked__why">Convert the volume to dm<sup>3</sup> to get the usual unit.</p>
+              <div class="worked__math"><i>V</i><sub>m</sub> = 0.0765 dm<sup>3</sup> ÷ 3.052… × 10<sup>−3</sup> mol = 25.06… dm<sup>3</sup> mol<sup>−1</sup> ≈ <b>25.1 dm<sup>3</sup> mol<sup>−1</sup></b></div>
+            </li>
+            <li data-title="Convert to STP">
+              <p class="worked__why">Use the combined gas law, <i>P</i><sub>1</sub><i>V</i><sub>1</sub> / <i>T</i><sub>1</sub> = <i>P</i><sub>2</sub><i>V</i><sub>2</sub> / <i>T</i><sub>2</sub>, with temperatures in kelvin. STP is 100 kPa and 273.15 K.</p>
+              <div class="worked__math"><i>V</i><sub>m</sub>(STP) = 25.06 × (100.6 ÷ 100) × (273.15 ÷ 296.15) = 23.3 dm<sup>3</sup> mol<sup>−1</sup></div>
+            </li>
+            <li data-title="Compare with the data booklet">
+              <p class="worked__why">Percentage error = |experimental − literature| ÷ literature × 100.</p>
+              <div class="worked__math">percentage error = (23.26 − 22.7) ÷ 22.7 × 100 = 2.4 %</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>25.1 dm<sup>3</sup> mol<sup>−1</sup> at 23.0 °C and 100.6 kPa, which is 23.3 dm<sup>3</sup> mol<sup>−1</sup> at STP: 2.4 % above 22.7 dm<sup>3</sup> mol<sup>−1</sup>.</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="24.518" data-tolerance="0.5%" data-sigfigs="3" data-unit="dm3 mol-1">
+          <div class="tryit__q"><p>0.0585 g of magnesium gives 59.0 cm<sup>3</sup> of hydrogen with excess acid. Calculate the molar volume of hydrogen under the conditions of the experiment, in dm<sup>3</sup> mol<sup>−1</sup>.</p></div>
+          <ol class="tryit__hints">
+            <li>Find the amount of magnesium. It equals the amount of hydrogen.</li>
+            <li><i>n</i> = 0.0585 ÷ 24.31. Then divide the volume in dm<sup>3</sup> by that amount.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>n</i>(H<sub>2</sub>) = <i>n</i>(Mg) = 0.0585 ÷ 24.31 = 2.406 × 10<sup>−3</sup> mol</div>
+            <div class="worked__math"><i>V</i><sub>m</sub> = 0.0590 dm<sup>3</sup> ÷ 2.406 × 10<sup>−3</sup> mol = 24.5 dm<sup>3</sup> mol<sup>−1</sup></div>
+          </div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 2">
+          <h3 class="worked__title">Molar mass of a volatile liquid</h3>
+          <div class="worked__problem">
+            <p>A hypodermic syringe weighs 12.483 g before and 12.331 g after injecting a liquid into a gas syringe at 99.0 °C. The gas syringe reading rises from 4.5 cm<sup>3</sup> to 84.0 cm<sup>3</sup>. The atmospheric pressure is 101.0 kPa. Calculate the molar mass of the liquid.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the mass and the volume">
+              <p class="worked__why">Both come from the difference between two readings.</p>
+              <div class="worked__math"><i>m</i> = 12.483 − 12.331 = 0.152 g</div>
+              <div class="worked__math"><i>V</i> = 84.0 − 4.5 = 79.5 cm<sup>3</sup></div>
+            </li>
+            <li data-title="Convert to SI units">
+              <p class="worked__why"><i>R</i> = 8.31 J K<sup>−1</sup> mol<sup>−1</sup> needs Pa, m<sup>3</sup> and K.</p>
+              <div class="worked__math"><i>V</i> = 79.5 × 10<sup>−6</sup> m<sup>3</sup>;  <i>P</i> = 1.010 × 10<sup>5</sup> Pa;  <i>T</i> = 99.0 + 273.15 = 372.15 K</div>
+            </li>
+            <li data-title="Substitute into M = mRT / PV">
+              <p class="worked__why">Keep the mass in grams, so the molar mass comes out in g mol<sup>−1</sup>.</p>
+              <div class="worked__math"><i>M</i> = (0.152 × 8.31 × 372.15) ÷ (1.010 × 10<sup>5</sup> × 79.5 × 10<sup>−6</sup>)</div>
+              <div class="worked__math"><i>M</i> = 470.07 ÷ 8.0295 = 58.54… g mol<sup>−1</sup></div>
+            </li>
+            <li data-title="Round and identify">
+              <p class="worked__why">The mass, 0.152 g, has 3 significant figures.</p>
+              <div class="worked__math"><i>M</i> = <b>58.5 g mol<sup>−1</sup></b></div>
+              <div class="worked__math">propanone, <span class="chem">C3H6O</span>: <i>M</i> = 58.09 g mol<sup>−1</sup>; percentage error = 0.8 %</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>58.5 g mol<sup>−1</sup>, which fits propanone (58.09 g mol<sup>−1</sup>).</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="86.978" data-tolerance="0.5%" data-sigfigs="3" data-unit="g mol-1">
+          <div class="tryit__q"><p>0.103 g of a liquid is injected into a gas syringe at 98.5 °C. The volume of vapour is 36.5 cm<sup>3</sup> and the pressure is 100.2 kPa. Calculate the molar mass of the liquid, in g mol<sup>−1</sup>.</p></div>
+          <ol class="tryit__hints">
+            <li>Convert first: cm<sup>3</sup> to m<sup>3</sup>, kPa to Pa, °C to K.</li>
+            <li><i>M</i> = (0.103 × 8.31 × 371.65) ÷ (1.002 × 10<sup>5</sup> × 36.5 × 10<sup>−6</sup>).</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>T</i> = 98.5 + 273.15 = 371.65 K;  <i>P</i> = 1.002 × 10<sup>5</sup> Pa;  <i>V</i> = 3.65 × 10<sup>−5</sup> m<sup>3</sup></div>
+            <div class="worked__math"><i>M</i> = 318.1 ÷ 3.657 = 87.0 g mol<sup>−1</sup> (hexane, <span class="chem">C6H14</span>, is 86.20 g mol<sup>−1</sup>)</div>
+          </div>
+        </div>
+
+        <h3>Using a graph instead of one run</h3>
+        <p>Plot the volume of gas against the mass, for several runs, and draw a line of best fit through the origin. A graph averages out random errors and shows up an odd run. The gradient is the volume per gram.</p>
+        <ul>
+          <li>Part A: molar volume = gradient (cm<sup>3</sup> g<sup>−1</sup>) × 24.31 g mol<sup>−1</sup> ÷ 1000.</li>
+          <li>Part B: <i>V</i> / <i>m</i> = <i>RT</i> / <i>PM</i>, so <i>M</i> = <i>RT</i> ÷ (<i>P</i> × gradient), with the gradient in m<sup>3</sup> g<sup>−1</sup>.</li>
+        </ul>
+        <p>If your best line clearly misses the origin, a similar amount of gas was lost (or gained) in every run. That is a sign of a systematic error.</p>
+
+        <aside class="callout callout--mistake">
+          <p>Using <i>P</i> in kPa with <i>V</i> in cm<sup>3</sup> makes <i>PV</i> 1000 times too big, so the molar mass comes out 1000 times too small. Using °C instead of K is just as serious. If a molar mass looks impossible (0.06 g mol<sup>−1</sup>, or 2000 g mol<sup>−1</sup>), check the units first.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="uncertainty">
+        <span class="section-code">Tool 3</span>
+        <h2>Uncertainties</h2>
+        <p>For a product or a quotient such as <i>M</i> = <i>mRT</i> / <i>PV</i>, add the percentage uncertainties of the measured quantities. <i>R</i> is a constant and adds nothing. A mass or a volume found by difference uses two readings, so add their absolute uncertainties first.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Propagating uncertainties for worked example 2</caption>
+            <thead><tr><th scope="col">Quantity</th><th scope="col" class="num">Value</th><th scope="col" class="num">Absolute uncertainty</th><th scope="col" class="num">Percentage uncertainty</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">mass, two weighings</th><td class="num">0.152 g</td><td class="num">±0.002 g</td><td class="num">1.3 %</td></tr>
+              <tr><th scope="row">volume, two readings</th><td class="num">79.5 cm<sup>3</sup></td><td class="num">±1.0 cm<sup>3</sup></td><td class="num">1.3 %</td></tr>
+              <tr><th scope="row">temperature</th><td class="num">372.2 K</td><td class="num">±0.5 K</td><td class="num">0.13 %</td></tr>
+              <tr><th scope="row">pressure</th><td class="num">101.0 kPa</td><td class="num">±0.1 kPa</td><td class="num">0.10 %</td></tr>
+              <tr><th scope="row">molar mass</th><td class="num">58.5 g mol<sup>−1</sup></td><td class="num">±1.6 g mol<sup>−1</sup></td><td class="num">2.8 %</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>So <span class="mono">M = 58.5 ± 1.6 g mol<sup>−1</sup></span>, or <span class="mono">59 ± 2 g mol<sup>−1</sup></span> with the uncertainty to one significant figure. The percentage error compared with propanone is 0.8 %, smaller than the 2.8 % uncertainty. The result agrees with propanone within experimental uncertainty. The mass and the volume dominate: a larger sample, within the range of the syringe, would reduce both.</p>
+
+        <h3>Part A: is the difference bigger than the uncertainty?</h3>
+        <p>In worked example 1, the mass (0.0742 ± 0.001 g) has an uncertainty of 1.3 % and the volume (76.5 ± 0.5 cm<sup>3</sup>, one reading from zero) 0.7 %. The molar volume therefore has an uncertainty of about 2.0 %: <span class="mono">25.1 ± 0.5 dm<sup>3</sup> mol<sup>−1</sup></span>.</p>
+        <p>The ideal gas value at 23.0 °C and 100.6 kPa is <i>RT</i> / <i>P</i> = 8.31 × 296.15 ÷ 100.6 = 24.5 dm<sup>3</sup> mol<sup>−1</sup>. The measured value is 2.5 % higher, which is more than the 2.0 % uncertainty. Random error alone does not explain it, so a systematic error is likely. The table in the next section suggests which.</p>
+        <aside class="callout callout--scope">
+          <p>Hydrogen collected over aqueous acid (or butane collected over water) also contains some water vapour, so the gas volume is a little larger than the volume of dry gas. Correcting for this uses the vapour pressure of water and partial pressures, which are not in the IB guide. You only need to recognize it as a source of error that makes the volume too large.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="evaluation" data-toc="Errors and improvements">
+        <h2>Evaluation: errors and improvements</h2>
+        <p>A random error scatters the results; repeats and a graph reduce its effect. A systematic error pushes every result the same way; only a change of method fixes it. For each error below, follow the chain: what happens to the measured quantity, then what happens to the result.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Sources of error in finding molar volume and molar mass</caption>
+            <thead><tr><th scope="col">Source of error</th><th scope="col">Effect on the result</th><th scope="col">Realistic improvement</th></tr></thead>
+            <tbody>
+              <tr><td>Part A: oxide coating on the magnesium (systematic).</td><td>Part of the mass is magnesium oxide, which gives no hydrogen. Less gas forms than the mass suggests, so the molar volume is too low.</td><td>Clean the ribbon with sandpaper until it is shiny, just before weighing.</td></tr>
+              <tr><td>Part A: hydrogen escapes before the bung is fitted (systematic).</td><td>The volume measured is too small, so the molar volume is too low.</td><td>Keep the magnesium in a small tube (or on a thread) above the acid and tip the flask only after sealing it.</td></tr>
+              <tr><td>Part A: volume read while the gas is still warm (systematic).</td><td>The reaction is exothermic. Warm gas takes up more space, so the molar volume is too high.</td><td>Wait until the flask is back at room temperature, then read the volume.</td></tr>
+              <tr><td>Part A: the hydrogen contains water vapour (systematic).</td><td>The volume includes some water vapour, so the molar volume is too high.</td><td>Note it as a limitation. (The correction is beyond the guide; see the box above.)</td></tr>
+              <tr><td>Part A: some hydrogen dissolves in the acid (systematic, small).</td><td>The volume is slightly too small, so the molar volume is slightly too low.</td><td>Hydrogen is only slightly soluble, so this effect is very small. Use the smallest volume of acid that is still in excess.</td></tr>
+              <tr><td>Part B: the vapour is close to its boiling point (systematic).</td><td>The attractions between the molecules are no longer negligible, so the vapour takes up less space than an ideal gas would. <i>V</i> is too small, so <i>M</i> is too high.</td><td>Set the jacket at least 20–30 °C above the boiling point of the liquid.</td></tr>
+              <tr><td>Part B: not all of the liquid vaporizes (systematic).</td><td><i>V</i> is too small for the mass recorded, so <i>M</i> is too high.</td><td>Use a higher jacket temperature or a smaller sample. Check that no drops remain.</td></tr>
+              <tr><td>Part B: liquid evaporates from the needle between weighing and injecting (systematic).</td><td>The mass recorded is larger than the mass that reached the syringe, so <i>M</i> is too high.</td><td>Inject straight after the first weighing and reweigh at once.</td></tr>
+              <tr><td>Both: friction in the gas syringe, and reading the scale (random).</td><td>Volumes scatter, so the result is less precise.</td><td>Turn the plunger gently before reading; do several runs and use a graph.</td></tr>
+              <tr><td>Both: small masses on a ±0.001 g balance (random).</td><td>A large percentage uncertainty in <i>m</i> (1.3 % for 0.07 g).</td><td>Use the largest sample the syringe allows, or a ±0.0001 g balance.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <aside class="callout callout--exam">
+          <p>Markschemes want the direction <em>and</em> the reason. “The molar volume is too low because some hydrogen escaped before the bung was fitted, so the volume measured was too small” earns the mark. “Gas escaped” on its own usually does not.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="exam">
+        <h2>Exam practice</h2>
+        <p>Paper 1B style questions on this practical: calculations, unit traps, uncertainties and evaluation. All the questions are original.</p>
+        <div data-s1-quiz data-topic="lab-molar-mass-gas" data-count="0" data-title="Molar mass of a gas lab: exam practice"></div>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../assets/js/chart.js"></script>
+<script src="../data/questions-lab-molar-mass-gas.js"></script>
+<script src="../assets/js/widgets-lab-molar-mass-gas.js"></script>
+</body>
+</html>

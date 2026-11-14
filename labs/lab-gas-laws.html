@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lab 7 Investigating the gas laws | Structure Lab</title>
+<meta name="description" content="IB Chemistry virtual practical for Structure 1.5: measure pressure, volume and temperature of trapped air, plot P against 1/V and P against temperature, and extrapolate to find absolute zero, with uncertainties and evaluation.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific layout for the lab widgets. Tokens only. */
+.toc { min-width: 0; }
+.topic-section { min-width: 0; }
+.topic-section > .widget { min-width: 0; max-width: 100%; }
+.widget__controls .control { max-width: 100%; }
+.widget__controls .select { max-width: 100%; min-width: 0; }
+.lab-chart { margin: 0.75rem 0 0; }
+.widget__stage .table-scroll { margin: 0.75rem 0 0; }
+.widget__stage table.data { font-size: 0.85rem; }
+.widget__stage table.data th, .widget__stage table.data td { padding: 0.35rem 0.6rem; }
+</style>
+</head>
+<body data-page="lab-gas-laws">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="lab-gas-laws"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Lab 7 · Structure 1.5</p>
+      <h1>Investigating the gas laws</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>What can measurements on a trapped sample of air tell us about how pressure, volume and temperature are linked, and is there a lowest possible temperature?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <section class="topic-section" id="goals">
+        <h2>What you need to be able to do</h2>
+        <p>These are practical skills. Tick each one when you can do it on your own.</p>
+        <ul class="checklist" data-s1-checklist="lab-gas-laws">
+          <li data-id="variables" data-level="sl">Identify the independent, dependent and controlled variables in a gas experiment.</li>
+          <li data-id="record" data-level="sl">Record pressure, volume and temperature readings with their units and uncertainties.</li>
+          <li data-id="inverse" data-level="sl">Test for inverse proportion by calculating <i>PV</i> or by plotting <i>P</i> against 1/<i>V</i>.</li>
+          <li data-id="best-fit" data-level="sl">Plot a graph against temperature and draw a line of best fit.</li>
+          <li data-id="extrapolate" data-level="sl">Extrapolate a straight line to estimate absolute zero.</li>
+          <li data-id="uncertainty" data-level="sl">Estimate the uncertainty of an extrapolated value and compare it with the percentage error.</li>
+          <li data-id="evaluate" data-level="sl">Identify random and systematic errors and suggest realistic improvements.</li>
+        </ul>
+      </section>
+
+      <section class="topic-section" id="background">
+        <span class="section-code">Structure 1.5.3</span>
+        <h2>The chemistry behind it</h2>
+        <p>Gas particles are always moving. They hit the walls of their container, and those collisions cause the pressure. For a <strong>fixed amount</strong> of an ideal gas, three relationships follow.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Three relationships for a fixed amount of gas</caption>
+            <thead><tr><th scope="col">Kept constant</th><th scope="col">Relationship</th><th scope="col">Straight line through the origin</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">temperature</th><td>Pressure is inversely proportional to volume.</td><td><i>P</i> against 1/<i>V</i></td></tr>
+              <tr><th scope="row">volume</th><td>Pressure is proportional to the absolute temperature.</td><td><i>P</i> against <i>T</i> in K</td></tr>
+              <tr><th scope="row">pressure</th><td>Volume is proportional to the absolute temperature.</td><td><i>V</i> against <i>T</i> in K</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>In the laboratory you measure temperature in °C. A graph of pressure (or volume) against temperature in °C is still a straight line, but it does not pass through the origin. If you extend the line backwards, it meets the temperature axis at about −273 °C. That is <dfn data-def="The lowest possible temperature, 0 K or −273.15 °C. An ideal gas would have zero pressure and zero volume there.">absolute zero</dfn>, 0 K. Extending a line beyond your data like this is called <dfn data-def="Extending a graph line beyond the range of the measured data to estimate a value.">extrapolation</dfn>.</p>
+        <p>The full story is on the topic page: <a href="../topics/s1-5.html#graphs">gas-law graphs</a> and <a href="../topics/s1-5.html#pvnrt">the ideal gas equation</a>.</p>
+        <aside class="callout callout--key">
+          <p>All three relationships come from one equation, <i>PV</i> = <i>nRT</i>. Keep two of <i>P</i>, <i>V</i> and <i>T</i> (and <i>n</i>) fixed and the third pair must be proportional, as long as <i>T</i> is in kelvin.</p>
+        </aside>
+        <aside class="callout callout--scope">
+          <p>Books call these Boyle’s law, Charles’s law and the pressure law. The guide says the names of the gas laws will not be assessed. You need the relationships and their graphs, not the names.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="plan" data-toc="Aim, variables, safety">
+        <h2>Aim, variables and safety</h2>
+        <p><strong>Aim.</strong> Part A: find how the pressure of a fixed amount of air changes with its volume at constant temperature. Part B: find how the pressure (at fixed volume) or the volume (at fixed pressure) changes with temperature, and use the graph to estimate absolute zero.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Variables</caption>
+            <thead><tr><th scope="col">Variable</th><th scope="col">Part A</th><th scope="col">Part B, fixed volume</th><th scope="col">Part B, fixed pressure</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">independent</th><td>volume of the syringe</td><td>temperature of the water bath</td><td>temperature of the water bath</td></tr>
+              <tr><th scope="row">dependent</th><td>pressure</td><td>pressure</td><td>volume of the gas</td></tr>
+              <tr><th scope="row">controlled</th><td>temperature; amount of air (no leaks)</td><td>volume of the flask; amount of air (no leaks)</td><td>atmospheric pressure; amount of air (no leaks)</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h3>Equipment</h3>
+        <ul>
+          <li>100 cm<sup>3</sup> gas syringe (±0.5 cm<sup>3</sup>), with a cap to seal the nozzle</li>
+          <li>gas pressure sensor and data logger (±0.1 kPa, range up to about 210 kPa)</li>
+          <li>short, narrow plastic tube to join the syringe or flask to the sensor</li>
+          <li>250 cm<sup>3</sup> borosilicate round-bottomed flask with a one-hole bung and glass tube</li>
+          <li>large beaker or electric water bath, kettle, ice, stirring rod</li>
+          <li>thermometer, −10 °C to 110 °C (±0.5 °C)</li>
+          <li>clamp stands, bosses and clamps</li>
+        </ul>
+        <aside class="callout callout--safety">
+          <p>Water near 90 °C scalds. Use an electric water bath or add kettle water slowly, never carry a full beaker of hot water, and clamp the flask so the bath cannot be knocked over. Wear eye protection: a sealed flask is above atmospheric pressure when hot, and a flask with a crack can break. Check the flask for cracks first, and never move a hot flask straight into ice water. Keep the data logger and any mains leads away from the water.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="method">
+        <h2>Method</h2>
+        <h3>Part A: pressure and volume</h3>
+        <ol class="method">
+          <li>Pull the plunger out to 50 cm<sup>3</sup>. Join the syringe to the pressure sensor with the shortest tube you have. <em>Why:</em> the air inside the tube is part of the trapped gas, but the syringe scale does not measure it.</li>
+          <li>Test for leaks. Hold the plunger in at about 30 cm<sup>3</sup> for one minute. The pressure reading should not fall. <em>Why:</em> the amount of gas must stay constant.</li>
+          <li>Move the plunger to a new volume. Wait about 30 seconds, then record the volume and the pressure. <em>Why:</em> pushing the plunger in quickly warms the gas a little. Waiting lets it return to room temperature.</li>
+          <li>Take readings from 25 cm<sup>3</sup> to 100 cm<sup>3</sup>, about every 10 cm<sup>3</sup>. Then repeat the readings, moving the plunger the other way. <em>Why:</em> a wide range shows the shape of the graph, and repeats show up leaks and friction.</li>
+          <li>Record the room temperature at the start and at the end. <em>Why:</em> temperature is a controlled variable, so you need to show it stayed the same.</li>
+        </ol>
+        <h3>Part B: temperature</h3>
+        <ol class="method">
+          <li>Clamp the dry flask so that as much of it as possible is under the water. Join it to the pressure sensor with a short tube. <em>Why:</em> all the gas should be at the bath temperature.</li>
+          <li>Start with a mixture of ice and water at about 0 °C. Stir, wait until both the thermometer and the pressure reading are steady, then record both. <em>Why:</em> the gas inside the flask takes a few minutes to reach the temperature of the water.</li>
+          <li>Raise the temperature by about 10 °C to 15 °C, by heating or by adding hot water. Stir, wait, and record again. Continue up to about 90 °C. <em>Why:</em> a wide range of temperatures makes the extrapolation more reliable.</li>
+          <li>For the fixed-pressure version, seal about 70 cm<sup>3</sup> of air in a gas syringe with a cap and hold it under the water. Record the volume instead of the pressure. Turn the plunger gently before each reading. <em>Why:</em> friction can stop the plunger moving freely, so the gas would not be at atmospheric pressure.</li>
+          <li>Plot pressure (or volume) against temperature in °C. Draw the line of best fit and extend it to the temperature axis.</li>
+        </ol>
+      </section>
+
+      <section class="topic-section" id="experiment" data-toc="Run the experiment">
+        <span class="section-code">Tool 2 · Structure 1.5.3</span>
+        <h2>Run the experiment</h2>
+        <p>These are simulated experiments. Every reading has a small random error, like a real one, so a new run gives slightly different data. The precision is that of real apparatus. Copy your table into a spreadsheet if you want to plot it yourself.</p>
+
+        <figure data-s1-widget="lab-gas-laws.boyle" data-title="Part A: squeeze the air in a gas syringe" data-kicker="Virtual experiment">
+          <p class="widget__fallback">An interactive gas syringe and pressure sensor appear here when JavaScript is on. Typical readings at 21 °C: 30 cm³, 168.6 kPa; 50 cm³, 101.3 kPa; 100 cm³, 50.8 kPa.</p>
+          <figcaption>Set a syringe reading and record the pressure. Take at least six readings from 25 cm<sup>3</sup> to 100 cm<sup>3</sup>. Compare the two graphs: the curve of <i>P</i> against <i>V</i>, and the straight line of <i>P</i> against 1/<i>V</i>. Then try “Read the sensor at once” after big moves of the plunger, and look at the <i>PV</i> column.</figcaption>
+        </figure>
+
+        <figure data-s1-widget="lab-gas-laws.heat" data-title="Part B: warm the air and find absolute zero" data-kicker="Virtual experiment">
+          <p class="widget__fallback">An interactive water bath appears here when JavaScript is on. Typical fixed-volume readings: 0.0 °C, 93.2 kPa; 40.0 °C, 106.8 kPa; 80.0 °C, 120.4 kPa.</p>
+          <figcaption>Choose a set-up. Set the bath temperature, take a reading, and repeat from about 0 °C to 90 °C. The graph extends your line of best fit back to the temperature axis. The readout gives your estimate of absolute zero and a range from the worst-fit lines. Switch the temperature axis to kelvin to see the line pass close to the origin. Then start a new run and choose “Read at once”: how far does your estimate move, and which way?</figcaption>
+        </figure>
+
+        <aside class="callout callout--exam">
+          <p>On a graph you plot yourself, label each axis with the quantity and its unit (<span class="mono">P / kPa</span>, <span class="mono">θ / °C</span>), choose scales that spread the points over most of the grid, and draw one smooth line of best fit. Do not join the points dot to dot.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="processing">
+        <span class="section-code">Structure 1.5.3 · 1.5.4</span>
+        <h2>Processing the data</h2>
+        <p>Two calculations come out of this lab. From Part B, you find where the line meets the temperature axis. From Part A, you test whether <i>PV</i> stays constant and use the gradient to find the amount of gas.</p>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Absolute zero from a pressure–temperature graph</h3>
+          <div class="worked__problem">
+            <p>A student heats a sealed flask of air and plots pressure against temperature in °C. The line of best fit passes through (0.0 °C, 92.4 kPa) and (80.0 °C, 119.6 kPa). Estimate absolute zero from this line.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the gradient">
+              <p class="worked__why">Use two points on the line, far apart, not two data points.</p>
+              <div class="worked__math">gradient = (119.6 − 92.4) kPa ÷ (80.0 − 0.0) °C = 27.2 ÷ 80.0 = 0.340 kPa °C<sup>−1</sup></div>
+            </li>
+            <li data-title="Read the intercept on the pressure axis">
+              <p class="worked__why">The line passes through θ = 0.0 °C at 92.4 kPa, so that is the y-intercept.</p>
+              <div class="worked__math"><i>P</i> = 0.340θ + 92.4</div>
+            </li>
+            <li data-title="Set the pressure to zero">
+              <p class="worked__why">An ideal gas has zero pressure at absolute zero, so solve for θ when <i>P</i> = 0.</p>
+              <div class="worked__math">0 = 0.340θ + 92.4</div>
+              <div class="worked__math">θ = −92.4 ÷ 0.340 = −271.76… °C</div>
+            </li>
+            <li data-title="Round and compare">
+              <p class="worked__why">The data have 3 significant figures. The literature value is −273.15 °C.</p>
+              <div class="worked__math">θ = <b>−272 °C</b></div>
+              <div class="worked__math">percentage error = |−271.8 − (−273.15)| ÷ 273.15 × 100 = 0.5 %</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Absolute zero is about −272 °C, a 0.5 % difference from −273.15 °C.</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="-274.32" data-tolerance="0.5%" data-sigfigs="3" data-unit="°C">
+          <div class="tryit__q"><p>In the fixed-pressure experiment, the line of best fit of volume against temperature passes through (10.0 °C, 52.6 cm<sup>3</sup>) and (90.0 °C, 67.4 cm<sup>3</sup>). Estimate absolute zero, in °C.</p></div>
+          <ol class="tryit__hints">
+            <li>Find the gradient first, in cm<sup>3</sup> °C<sup>−1</sup>. Then work back from a known point to the temperature at which <i>V</i> = 0.</li>
+            <li>gradient = (67.4 − 52.6) ÷ (90.0 − 10.0). The volume must fall by 52.6 cm<sup>3</sup> from the point at 10.0 °C.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">gradient = 14.8 cm<sup>3</sup> ÷ 80.0 °C = 0.185 cm<sup>3</sup> °C<sup>−1</sup></div>
+            <div class="worked__math">temperature fall needed = 52.6 ÷ 0.185 = 284.3 °C</div>
+            <div class="worked__math">θ = 10.0 − 284.3 = −274 °C</div>
+          </div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 2">
+          <h3 class="worked__title">Testing inverse proportion and finding the amount of gas</h3>
+          <div class="worked__problem">
+            <p>In Part A at 21.0 °C a student records: 30 cm<sup>3</sup>, 168.6 kPa; 50 cm<sup>3</sup>, 101.3 kPa; 80 cm<sup>3</sup>, 63.5 kPa; 100 cm<sup>3</sup>, 50.8 kPa. Show that the pressure is inversely proportional to the volume, and calculate the amount of air, in mol.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Calculate PV for each reading">
+              <p class="worked__why">If <i>P</i> is inversely proportional to <i>V</i>, the product <i>PV</i> is constant.</p>
+              <div class="worked__math">30 × 168.6 = 5058;  50 × 101.3 = 5065;  80 × 63.5 = 5080;  100 × 50.8 = 5080 (kPa cm<sup>3</sup>)</div>
+            </li>
+            <li data-title="Judge the spread">
+              <p class="worked__why">The values differ by less than 0.5 %, which is within the uncertainty of the volume readings (about 1.7 % at 30 cm<sup>3</sup>). So <i>PV</i> is constant within experimental error.</p>
+              <div class="worked__math">mean <i>PV</i> = 5071 kPa cm<sup>3</sup> ≈ 5.07 × 10<sup>3</sup> kPa cm<sup>3</sup></div>
+            </li>
+            <li data-title="Convert to SI units">
+              <p class="worked__why">1 kPa = 10<sup>3</sup> Pa and 1 cm<sup>3</sup> = 10<sup>−6</sup> m<sup>3</sup>, so 1 kPa cm<sup>3</sup> = 10<sup>−3</sup> Pa m<sup>3</sup> = 10<sup>−3</sup> J.</p>
+              <div class="worked__math"><i>PV</i> = 5.07 × 10<sup>3</sup> × 10<sup>−3</sup> = 5.07 J (Pa m<sup>3</sup>)</div>
+            </li>
+            <li data-title="Use PV = nRT">
+              <p class="worked__why">Temperature must be in kelvin: 21.0 + 273.15 = 294.15 K.</p>
+              <div class="worked__math"><i>n</i> = <i>PV</i> ÷ <i>RT</i> = 5.07 ÷ (8.31 × 294.15) = 2.074… × 10<sup>−3</sup> mol</div>
+              <div class="worked__math"><i>n</i> = <b>2.07 × 10<sup>−3</sup> mol</b> (3 significant figures)</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p><i>PV</i> is constant within error, so <i>P</i> ∝ 1/<i>V</i>. The syringe holds 2.07 × 10<sup>−3</sup> mol of air.</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="1.5927e-3" data-tolerance="1%" data-sigfigs="3" data-unit="mol">
+          <div class="tryit__q"><p>The gradient of a student’s graph of <i>P</i> against 1/<i>V</i> is 3.86 × 10<sup>3</sup> kPa cm<sup>3</sup>. The room temperature was 18.5 °C. Calculate the amount of air in the syringe, in mol.</p></div>
+          <ol class="tryit__hints">
+            <li>The gradient of <i>P</i> against 1/<i>V</i> equals <i>PV</i>. Convert kPa cm<sup>3</sup> to J (Pa m<sup>3</sup>) before you use <i>R</i> = 8.31.</li>
+            <li>3.86 × 10<sup>3</sup> kPa cm<sup>3</sup> = 3.86 J. <i>T</i> = 18.5 + 273.15 = 291.65 K.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>PV</i> = 3.86 × 10<sup>3</sup> × 10<sup>−3</sup> = 3.86 J</div>
+            <div class="worked__math"><i>n</i> = 3.86 ÷ (8.31 × 291.65) = 1.59 × 10<sup>−3</sup> mol</div>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Putting kPa and cm<sup>3</sup> straight into <i>PV</i> = <i>nRT</i> with <i>R</i> = 8.31 gives an answer 1000 times too large. Use Pa and m<sup>3</sup>, or kPa and dm<sup>3</sup>. Always use kelvin for <i>T</i>: a temperature in °C gives nonsense.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="uncertainty">
+        <span class="section-code">Tool 3</span>
+        <h2>Uncertainties</h2>
+        <h3>Readings</h3>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Uncertainty of the apparatus</caption>
+            <thead><tr><th scope="col">Reading</th><th scope="col" class="num">Absolute uncertainty</th><th scope="col" class="num">Example</th><th scope="col" class="num">Percentage uncertainty</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">syringe volume</th><td class="num">±0.5 cm<sup>3</sup></td><td class="num">30 cm<sup>3</sup></td><td class="num">1.7 %</td></tr>
+              <tr><th scope="row">syringe volume</th><td class="num">±0.5 cm<sup>3</sup></td><td class="num">100 cm<sup>3</sup></td><td class="num">0.5 %</td></tr>
+              <tr><th scope="row">pressure</th><td class="num">±0.1 kPa</td><td class="num">168.6 kPa</td><td class="num">0.06 %</td></tr>
+              <tr><th scope="row">temperature</th><td class="num">±0.5 °C</td><td class="num">20.0 °C</td><td class="num">2.5 %</td></tr>
+              <tr><th scope="row">temperature</th><td class="num">±0.5 K</td><td class="num">293.2 K</td><td class="num">0.17 %</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Percentage uncertainty = absolute uncertainty ÷ value × 100. The same reading has a much smaller percentage uncertainty in kelvin than in °C, because the number is bigger. A temperature <em>difference</em> uses two readings, so its absolute uncertainty is ±0.5 + 0.5 = ±1.0 °C.</p>
+        <p>For a product or a quotient, add the percentage uncertainties. At 30 cm<sup>3</sup>, <i>PV</i> has an uncertainty of 1.7 % + 0.06 % ≈ 1.7 %. The volume dominates. That is why the smallest volumes give the least certain points.</p>
+
+        <h3>The uncertainty of absolute zero</h3>
+        <p>Your estimate comes from an extrapolation, so small errors in the line become large errors at −273 °C. One way to see how large is to draw two <dfn data-def="The steepest and the shallowest straight lines that still pass through the error bars of the data points.">worst-fit lines</dfn>: the steepest and the shallowest lines that still pass through the error bars of your lowest and highest points.</p>
+        <p>Take the worked example. The lowest and highest readings, (0.0 °C, 92.4 kPa) and (80.0 °C, 119.6 kPa), sit on the line, with error bars of ±0.5 °C and ±0.1 kPa.</p>
+        <ul>
+          <li>Steepest line: through (0.5 °C, 92.3 kPa) and (79.5 °C, 119.7 kPa). It meets the axis at −266 °C.</li>
+          <li>Shallowest line: through (−0.5 °C, 92.5 kPa) and (80.5 °C, 119.5 kPa). It meets the axis at −278 °C.</li>
+        </ul>
+        <p>So the result is <span class="mono">−272 ± 6 °C</span>. The literature value, −273.15 °C, lies inside this range. The 0.5 % percentage error is smaller than the uncertainty, so random error alone could explain the difference. If the literature value had been outside the range, a systematic error would be likely.</p>
+        <aside class="callout callout--key">
+          <p>Real data scatter more than the error bars of the instruments suggest, because of other random errors (the gas not quite at the bath temperature, uneven heating). The worst-fit lines then have to pass through all the points’ error bars, not just the two end points. The virtual experiment uses the two end points to keep things simple.</p>
+        </aside>
+        <aside class="callout callout--scope">
+          <p>The guide does not set a formal method for the uncertainty of a gradient or an intercept. Worst-fit lines are one common way. You will not need a statistical method such as least-squares error analysis.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="evaluation" data-toc="Errors and improvements">
+        <h2>Evaluation: errors and improvements</h2>
+        <p>A <dfn data-def="An error that makes readings scatter unpredictably above and below the true value. Repeats and averaging reduce its effect.">random error</dfn> scatters readings both ways; repeats reduce its effect. A <dfn data-def="An error that shifts every reading in the same direction. Repeats do not remove it; you must change the method or the apparatus.">systematic error</dfn> pushes every reading the same way, so repeats do not help. You have to change the method.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Sources of error in the gas-law experiments</caption>
+            <thead><tr><th scope="col">Source of error</th><th scope="col">Effect on the result</th><th scope="col">Realistic improvement</th></tr></thead>
+            <tbody>
+              <tr><td>Part B, fixed volume: the air in the connecting tube stays near room temperature (systematic).</td><td>The pressure rises less than it should as the bath heats up. The gradient is too small, so the line meets the axis too far down: the estimate is more negative than −273 °C.</td><td>Use a short, narrow tube and a large flask, and push the flask as deep into the water as possible.</td></tr>
+              <tr><td>Part B: readings taken before the gas reaches the bath temperature (systematic when heating).</td><td>The first reading, taken after a long wait in ice water, is correct. After each rise in temperature the gas is still cooler than the thermometer reading, so the later pressures (or volumes) are too low. The line is too shallow, so the estimate is more negative than −273 °C, often by a lot.</td><td>Stir the water and wait until the sensor reading has stopped changing before you record.</td></tr>
+              <tr><td>Part B, fixed pressure: friction between the plunger and the barrel (systematic when heating).</td><td>The plunger sticks behind the expanding gas, so the volumes read after heating are too small. The line is too shallow, so the estimate is more negative than −273 °C. Friction also adds random scatter.</td><td>Use a glass syringe, turn the plunger gently before each reading, or use a capillary tube with a bead of liquid instead.</td></tr>
+              <tr><td>Part A: air in the tube to the sensor is not included in <i>V</i> (systematic).</td><td><i>PV</i> falls slightly as <i>V</i> gets smaller, and the graph of <i>P</i> against 1/<i>V</i> does not pass exactly through the origin.</td><td>Use the shortest tube possible, or measure the tube’s volume and add it to every syringe reading.</td></tr>
+              <tr><td>Part A: gas leaks out at the joints at high pressure (systematic).</td><td>The amount of gas falls, so <i>PV</i> falls during the run.</td><td>Use tight push-fit joints, test for leaks first, and take readings without long delays.</td></tr>
+              <tr><td>Part A: reading straight after a quick compression (random or systematic).</td><td>The gas is briefly warmer, so the pressure is too high at small volumes.</td><td>Move the plunger slowly and wait about 30 s before each reading.</td></tr>
+              <tr><td>Readings of the thermometer and the syringe scale (random).</td><td>Points scatter about the line, so the gradient and the intercept are less certain.</td><td>Take more readings over a wider range and repeat them; use a digital temperature probe.</td></tr>
+              <tr><td>Long extrapolation from 0–90 °C back to −273 °C.</td><td>Small errors in the gradient give large errors in the estimate.</td><td>Use the widest safe temperature range and many evenly spread points.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <aside class="callout callout--exam">
+          <p>For an error question, say three things: what the error is, which way it moves the result (bigger or smaller, and why), and a specific improvement. “Human error” and “be more careful” earn no marks.</p>
+        </aside>
+        <aside class="callout callout--scope">
+          <p>Air behaves almost ideally between 0 °C and 90 °C and up to about 200 kPa, so non-ideal behaviour is not a significant error here. You do not need to correct for it.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="exam">
+        <h2>Exam practice</h2>
+        <p>Paper 1B style questions on this practical: data, graphs, uncertainties and evaluation. All the questions are original.</p>
+        <div data-s1-quiz data-topic="lab-gas-laws" data-count="0" data-title="Gas laws lab: exam practice"></div>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../assets/js/chart.js"></script>
+<script src="../data/questions-lab-gas-laws.js"></script>
+<script src="../assets/js/widgets-lab-gas-laws.js"></script>
+</body>
+</html>
