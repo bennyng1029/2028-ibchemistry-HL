@@ -314,7 +314,7 @@
       solution: M('<i>M</i>(' + C('MgSO4.7H2O') + ') = 120.38 + (7 × 18.02) = 246.52 ' + U('g mol-1')) +
         M('<i>n</i>(hydrate) = <span class="frac"><span>12.3 ' + U('g') + '</span><span>246.52 ' + U('g mol-1') + '</span></span> = 0.049895 ' + U('mol') + ' &nbsp; (M1)') +
         M('<i>n</i>(' + C('H2O') + ') = 7 × 0.049895 ' + U('mol') + ' = <strong>0.349 ' + U('mol') + '</strong> &nbsp; (M2)') +
-        '<p>Named slip: dividing 12.3 g by the anhydrous molar mass (120.38) gives 0.715 mol. The solid you weighed includes its water, so the hydrated molar mass must be used.</p>'
+        '<p>Named slip: dividing 12.3 g by the anhydrous molar mass (120.38) gives 0.102 mol, and 7 × 0.102 gives 0.715 mol of water. The solid you weighed includes its water, so the hydrated molar mass must be used.</p>'
     },
     {
       id: 's1-4-q017', topic: 's1-4', level: 'sl', tier: 'exam', type: 'mcq', marks: 1,

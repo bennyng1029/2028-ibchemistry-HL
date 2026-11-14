@@ -740,7 +740,7 @@ S1.i18n.register('ja', 's1-3.q', {
       },
     },
 
-    // ── s1-3-q027 · mcq · exam · AHL · Structure 1.3.5 · 1 mark
+    // ── s1-3-q027 · mcq · exam · AHL · Structure 3.1.9 · 1 mark
     "s1-3-q027": {
       // EN: <p>What is the condensed electron configuration of the <span class="chem">Fe^3+</span> ion? (Iron has Z = 26.)</p>
       stem: "<p><span class=\"chem\">Fe^3+</span> イオンの省略形の電子配置 (condensed electron configuration) はどれですか。（鉄は Z = 26 です。）</p>",
@@ -972,7 +972,7 @@ S1.i18n.register('ja', 's1-3.q', {
       solution: "<p>逆向きに進みます：1 mol あたりのエネルギー → 原子 1 個あたりのエネルギー → 振動数 → 波長。</p><div class=\"worked__math\">IE = 496 <span class=\"unit\">kJ mol-1</span><br>&nbsp;&nbsp;= 4.96 × 10<sup>5</sup> <span class=\"unit\">J mol-1</span></div><div class=\"worked__math\">原子 1 個あたり：E<br>&nbsp;&nbsp;= 4.96 × 10<sup>5</sup> <span class=\"unit\">J mol-1</span> ÷ 6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span><br>&nbsp;&nbsp;= 8.239 × 10<sup>−19</sup> J</div><div class=\"worked__math\">f = E ÷ h<br>&nbsp;&nbsp;= (8.239 × 10<sup>−19</sup> J)<br>&nbsp;&nbsp;÷ (6.63 × 10<sup>−34</sup> J s)<br>&nbsp;&nbsp;= 1.243 × 10<sup>15</sup> <span class=\"unit\">s-1</span></div><div class=\"worked__math\">λ = c ÷ f<br>&nbsp;&nbsp;= (3.00 × 10<sup>8</sup> <span class=\"unit\">m s-1</span>)<br>&nbsp;&nbsp;÷ (1.243 × 10<sup>15</sup> <span class=\"unit\">s-1</span>)<br>&nbsp;&nbsp;= 2.41 × 10<sup>−7</sup> m</div><div class=\"worked__math\">λ = 2.41 × 10<sup>−7</sup> m × 10<sup>9</sup> <span class=\"unit\">nm m-1</span><br>&nbsp;&nbsp;= 241 nm</div><p>241 nm は紫外線の領域です。kJ を J に直し忘れると、波長が 1000 倍長くなってしまいます。</p>",
     },
 
-    // ── s1-3-q038 · mcq · challenge · AHL · Structure 1.3.6 · 2 marks
+    // ── s1-3-q038 · mcq · challenge · AHL · Structure 1.3.6 · 1 mark
     "s1-3-q038": {
       // EN: <p>Ultraviolet radiation of wavelength 200 nm shines on separate samples of gaseous sodium atoms and gaseous magnesium atoms. The first ionization energies are Na 496 <span class="unit">kJ mol-1</span> and Mg 738 <span class="unit">kJ mol-1</span>.</p><p>For which atoms does one photon of this radiation have enough energy to remove an electron from an atom in its ground state?</p>
       stem: "<p>波長 200 nm の紫外線を、気体のナトリウム (Na) 原子の試料と、気体のマグネシウム (Mg) 原子の試料に別々に当てます。第一イオン化エネルギーは Na 496 <span class=\"unit\">kJ mol-1</span>、Mg 738 <span class=\"unit\">kJ mol-1</span> です。</p><p>この紫外線の光子 1 個が、基底状態の原子から電子を取り除くのに十分なエネルギーをもつのは、どの原子の場合ですか。</p>",
@@ -1088,7 +1088,7 @@ S1.i18n.register('ja', 's1-3.q', {
       },
     },
 
-    // ── s1-3-q043 · mcq · challenge · AHL · Structure 1.3.7 · 2 marks
+    // ── s1-3-q043 · mcq · challenge · AHL · Structure 1.3.7 · 1 mark
     "s1-3-q043": {
       // EN: <p>The table shows successive ionization energies of two elements, X and Y. Both are in period 3.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Successive ionization energies / kJ mol<sup>−1</sup></caption><thead><tr><th scope="col"></th><th class="num" scope="col">1st</th><th class="num" scope="col">2nd</th><th class="num" scope="col">3rd</th><th class="num" scope="col">4th</th><th class="num" scope="col">5th</th><th class="num" scope="col">6th</th><th class="num" scope="col">7th</th><th class="num" scope="col">8th</th></tr></thead><tbody><tr><th scope="row">X</th><td class="num">738</td><td class="num">1451</td><td class="num">7733</td><td class="num">10 543</td><td class="num">13 630</td><td class="num">18 020</td><td class="num">21 711</td><td class="num">25 661</td></tr><tr><th scope="row">Y</th><td class="num">1251</td><td class="num">2298</td><td class="num">3822</td><td class="num">5159</td><td class="num">6542</td><td class="num">9362</td><td class="num">11 018</td><td class="num">33 604</td></tr></tbody></table></div><p>X and Y form an ionic compound. What is its formula?</p>
       stem: "<p>表は、2 つの元素 X と Y の逐次イオン化エネルギーを示しています。どちらも第 3 周期の元素です。</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>逐次イオン化エネルギー / kJ mol<sup>−1</sup></caption><thead><tr><th scope=\"col\"></th><th class=\"num\" scope=\"col\">第 1</th><th class=\"num\" scope=\"col\">第 2</th><th class=\"num\" scope=\"col\">第 3</th><th class=\"num\" scope=\"col\">第 4</th><th class=\"num\" scope=\"col\">第 5</th><th class=\"num\" scope=\"col\">第 6</th><th class=\"num\" scope=\"col\">第 7</th><th class=\"num\" scope=\"col\">第 8</th></tr></thead><tbody><tr><th scope=\"row\">X</th><td class=\"num\">738</td><td class=\"num\">1451</td><td class=\"num\">7733</td><td class=\"num\">10 543</td><td class=\"num\">13 630</td><td class=\"num\">18 020</td><td class=\"num\">21 711</td><td class=\"num\">25 661</td></tr><tr><th scope=\"row\">Y</th><td class=\"num\">1251</td><td class=\"num\">2298</td><td class=\"num\">3822</td><td class=\"num\">5159</td><td class=\"num\">6542</td><td class=\"num\">9362</td><td class=\"num\">11 018</td><td class=\"num\">33 604</td></tr></tbody></table></div><p>X と Y はイオン化合物をつくります。その化学式はどれですか。</p>",
@@ -1552,7 +1552,7 @@ S1.i18n.register('ja', 's1-3.q', {
       },
     },
 
-    // ── s1-3-q059 · mcq · exam · AHL · Structure 1.3.5 · 1 mark
+    // ── s1-3-q059 · mcq · exam · AHL · Structure 3.1.9 · 1 mark
     "s1-3-q059": {
       // EN: <p>What is the condensed electron configuration of the <span class="chem">Cu^2+</span> ion? (Copper has Z = 29.)</p>
       stem: "<p><span class=\"chem\">Cu^2+</span> イオンの省略形の電子配置 (condensed electron configuration) はどれですか。（銅は Z = 29 です。）</p>",
@@ -1584,7 +1584,7 @@ S1.i18n.register('ja', 's1-3.q', {
       },
     },
 
-    // ── s1-3-q060 · mcq · challenge · AHL · Structure 1.3.5 · 1 mark
+    // ── s1-3-q060 · mcq · challenge · AHL · Structure 3.1.9 · 1 mark
     "s1-3-q060": {
       // EN: <p>Which pair of ions have the same electron configuration?</p>
       stem: "<p>電子配置が同じイオンの組はどれですか。</p>",
@@ -1636,8 +1636,8 @@ S1.i18n.register('ja', 's1-3.q', {
         // EN: Check the state symbols and the number of electrons.
         "状態記号と電子の数を確かめましょう。",
       ],
-      // EN: <p>The first ionization energy is the energy needed to remove one mole of electrons from one mole of gaseous atoms, forming one mole of gaseous 1+ ions:</p><div class="worked__math"><span class="chem">Mg(g) -> Mg+(g) + e-</span></div><p>Both species must have the state symbol (g).</p>
-      solution: "<p>第一イオン化エネルギーは、気体の原子 1 mol から電子 1 mol を取り除いて、気体の 1+ イオン 1 mol にするのに必要なエネルギーです。</p><div class=\"worked__math\"><span class=\"chem\">Mg(g) -> Mg+(g) + e-</span></div><p>どちらの化学種にも状態記号 (g) が必要です。</p>",
+      // EN: <p>The first ionization energy is the minimum energy needed to remove one mole of electrons from one mole of gaseous atoms in their ground state, forming one mole of gaseous 1+ ions:</p><div class="worked__math"><span class="chem">Mg(g) -> Mg+(g) + e-</span></div><p>Both species must have the state symbol (g).</p>
+      solution: "<p>第一イオン化エネルギーは、基底状態にある気体の原子 1 mol から電子 1 mol を取り除いて、気体の 1+ イオン 1 mol にするのに必要な最小のエネルギーです。</p><div class=\"worked__math\"><span class=\"chem\">Mg(g) -> Mg+(g) + e-</span></div><p>どちらの化学種にも状態記号 (g) が必要です。</p>",
       misconception: {
         // EN (option A): Ionization energy is defined for <em>gaseous</em> atoms. Starting from the solid would include the energy needed to turn the solid into separate atoms.
         "0": "イオン化エネルギーは、<em>気体</em>の原子について定義されます。固体から始めると、固体をばらばらの原子にするエネルギーも含まれてしまいます。",

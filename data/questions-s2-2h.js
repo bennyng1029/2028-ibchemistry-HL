@@ -515,7 +515,7 @@
     },
     {
       id: 's2-2h-q039', level: 'ahl', tier: 'challenge', type: 'short', marks: 3, syllabus: 'Structure 2.2.16',
-      stem: '<p>Hydrogen cyanide has the structure H–C≡N, with one lone pair on nitrogen.</p><p>Analyse the bonding around the carbon atom. State its hybridization and the H–C–N bond angle, and describe how the σ bonds and the π bonds to carbon are formed.</p>',
+      stem: '<p>Hydrogen cyanide has the structure H–C≡N, with one lone pair on nitrogen.</p><p>State the hybridization of the carbon atom and the H–C–N bond angle, and describe how the σ bonds and the π bonds to carbon are formed.</p>',
       answer: '<p>Carbon has two electron domains (one single bond and one triple bond), so it is sp hybridized and the H–C–N angle is 180°. The C–H σ bond forms by head-on overlap of an sp hybrid orbital on carbon with the 1s orbital of hydrogen. The C–N σ bond forms by head-on overlap of the other sp hybrid orbital on carbon with a hybrid orbital on nitrogen. The two π bonds form by sideways overlap of the two unhybridized p orbitals on carbon with two p orbitals on nitrogen.</p>',
       markscheme: [
         'Carbon is sp hybridized AND the bond angle is 180° (two electron domains).',

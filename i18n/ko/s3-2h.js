@@ -318,9 +318,6 @@ S1.i18n.register('ko', 's3-2h', {
     // Chiral carbon atoms and enantiomers > worked example > h3
     "Find the chiral carbon and draw both enantiomers": "카이랄 탄소를 찾고 두 거울상 이성질체 그리기",
 
-    // Chiral carbon atoms and enantiomers > worked example > p
-    "Identify the chiral carbon atom in 2-chlorobutane, <span class=\"chem\">CH3CHClCH2CH3</span>. Draw the two enantiomers.": "2-chlorobutane, <span class=\"chem\">CH3CHClCH2CH3</span>에서 카이랄 탄소 원자를 찾으시오 (identify). 두 거울상 이성질체를 그리시오.",
-
     // Chiral carbon atoms and enantiomers > worked example > data-title attribute
     "Remove the carbons that cannot be chiral": "카이랄일 수 없는 탄소 제외하기",
 
@@ -823,9 +820,6 @@ S1.i18n.register('ko', 's3-2h', {
 
     // Infrared spectroscopy > h3
     "Infrared radiation and greenhouse gases": "적외선과 온실 기체",
-
-    // Infrared spectroscopy > p
-    "The surface of the Earth gives out infrared radiation. Greenhouse gases such as carbon dioxide, water vapour and methane absorb some of it, because their bonds vibrate at infrared frequencies.": "지구 표면은 적외선을 내보내요. 이산화 탄소, 수증기, 메테인 같은 온실 기체는 그 일부를 흡수해요. 이들의 결합이 적외선 진동수로 진동하기 때문이에요.",
 
     // Infrared spectroscopy > p
     "The molecules then give the energy out again in all directions. Some of it returns to the surface. This keeps the lower atmosphere warmer.": "그러면 분자는 그 에너지를 다시 모든 방향으로 내보내요. 그중 일부는 지표면으로 되돌아가요. 그래서 대기의 아래층이 더 따뜻하게 유지돼요.",
@@ -2781,6 +2775,19 @@ S1.i18n.register('ko', 's3-2h', {
 
     // widget string (assets/js/widgets-s3-2h.js)
     "Correct. The deduction is in your notebook.": "정답이에요. 추론 내용이 노트에 기록됐어요.",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('ko', 's3-2h', {
+  strings: {
+
+    // Chiral carbon atoms and enantiomers > worked example > p
+    "Deduce which carbon atom is chiral in 2-chlorobutane, <span class=\"chem\">CH3CHClCH2CH3</span>. Draw the two enantiomers.": "2-chlorobutane, <span class=\"chem\">CH3CHClCH2CH3</span>에서 어느 탄소 원자가 카이랄 탄소인지 추론하시오 (deduce). 두 거울상 이성질체를 그리시오.",
+
+    // Infrared spectroscopy > p
+    "The surface of the Earth gives out infrared radiation. Greenhouse gases such as carbon dioxide, water vapour and methane absorb some of it, because they have polar bonds whose vibrations change the dipole of the molecule, and these vibrations absorb infrared radiation.": "지구 표면은 적외선을 내보내요. 이산화 탄소, 수증기, 메테인 같은 온실 기체는 그 일부를 흡수해요. 이들 기체에는 극성 결합이 있고, 그 결합의 진동이 분자의 쌍극자를 바꾸기 때문이에요. 이런 진동이 적외선을 흡수해요.",
 
   }
 });

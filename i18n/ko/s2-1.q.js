@@ -263,10 +263,10 @@ S1.i18n.register('ko', 's2-1.q', {
       misconception: {
         // EN (option A): Electronegativity describes how strongly one atom attracts bonding electrons. It is a property of an element, not of the bonding in a compound.
         "0": "전기 음성도는 한 원자가 결합 전자를 얼마나 강하게 끌어당기는지를 나타내요. 화합물 속 결합의 성질이 아니라 원소의 성질이에요.",
-        // EN (option B): First ionization energy is the energy needed to remove an electron from a gaseous atom. It does not measure the attraction between ions in a lattice.
-        "1": "제1 이온화 에너지는 기체 상태의 원자에서 전자 하나를 떼어 내는 데 필요한 에너지예요. 격자 속 이온 사이의 인력을 나타내지 않아요.",
-        // EN (option D): Relative formula mass is the mass of a formula unit. It tells you nothing about how strongly the ions attract each other.
-        "3": "상대 화학식량은 화학식 단위 하나의 질량이에요. 이온끼리 얼마나 강하게 끌어당기는지에 대해서는 아무것도 알려 주지 않아요.",
+        // EN (option B): First ionization energy is the minimum energy needed to remove one mole of electrons from one mole of gaseous atoms. It does not measure the attraction between ions in a lattice.
+        "1": "제1 이온화 에너지는 기체 원자 1몰에서 전자 1몰을 떼어 내는 데 필요한 최소 에너지예요. 격자 속 이온 사이의 인력을 나타내지 않아요.",
+        // EN (option D): Relative formula mass is the sum of the relative atomic masses of the atoms in the formula. It has no units. It tells you nothing about how strongly the ions attract each other.
+        "3": "상대 화학식량은 화학식에 있는 원자들의 상대 원자 질량을 모두 더한 값이에요. 단위가 없어요. 이온끼리 얼마나 강하게 끌어당기는지에 대해서는 아무것도 알려 주지 않아요.",
       },
     },
 

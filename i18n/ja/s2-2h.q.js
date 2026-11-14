@@ -1042,8 +1042,8 @@ S1.i18n.register('ja', 's2-2h.q', {
 
     // ── s2-2h-q039 · short · challenge · AHL · Structure 2.2.16 · 3 marks
     "s2-2h-q039": {
-      // EN: <p>Hydrogen cyanide has the structure H–C≡N, with one lone pair on nitrogen.</p><p>Analyse the bonding around the carbon atom. State its hybridization and the H–C–N bond angle, and describe how the σ bonds and the π bonds to carbon are formed.</p>
-      stem: "<p>シアン化水素の構造は H–C≡N で、窒素に非共有電子対が 1 組あります。</p><p>炭素原子のまわりの結合を分析しなさい (analyse)。炭素の混成と H–C–N 結合角を述べなさい (state)。また、炭素の σ 結合と π 結合がどのようにできるかを記述しなさい (describe)。</p>",
+      // EN: <p>Hydrogen cyanide has the structure H–C≡N, with one lone pair on nitrogen.</p><p>State the hybridization of the carbon atom and the H–C–N bond angle, and describe how the σ bonds and the π bonds to carbon are formed.</p>
+      stem: "<p>シアン化水素の構造は H–C≡N で、窒素に非共有電子対が 1 組あります。</p><p>炭素原子の混成と H–C–N 結合角を述べなさい (state)。また、炭素の σ 結合と π 結合がどのようにできるかを記述しなさい (describe)。</p>",
       hints: [
         // EN: Count the electron domains around carbon. A triple bond is one domain.
         "炭素のまわりの電子領域を数えましょう。三重結合は 1 つの領域です。",

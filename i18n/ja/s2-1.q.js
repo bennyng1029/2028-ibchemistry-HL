@@ -263,10 +263,10 @@ S1.i18n.register('ja', 's2-1.q', {
       misconception: {
         // EN (option A): Electronegativity describes how strongly one atom attracts bonding electrons. It is a property of an element, not of the bonding in a compound.
         "0": "電気陰性度は、1 個の原子が結合の電子をどれだけ強く引きつけるかを表します。元素の性質であって、化合物の結合の性質ではありません。",
-        // EN (option B): First ionization energy is the energy needed to remove an electron from a gaseous atom. It does not measure the attraction between ions in a lattice.
-        "1": "第一イオン化エネルギーは、気体の原子から電子を 1 個取りのぞくのに必要なエネルギーです。結晶格子の中のイオンどうしの引力をはかるものではありません。",
-        // EN (option D): Relative formula mass is the mass of a formula unit. It tells you nothing about how strongly the ions attract each other.
-        "3": "相対式量は、組成式単位 1 つ分の質量です。イオンどうしがどれだけ強く引き合うかは、何もわかりません。",
+        // EN (option B): First ionization energy is the minimum energy needed to remove one mole of electrons from one mole of gaseous atoms. It does not measure the attraction between ions in a lattice.
+        "1": "第一イオン化エネルギーは、気体の原子 1 mol から電子 1 mol を取りのぞくのに必要な最小のエネルギーです。結晶格子の中のイオンどうしの引力をはかるものではありません。",
+        // EN (option D): Relative formula mass is the sum of the relative atomic masses of the atoms in the formula. It has no units. It tells you nothing about how strongly the ions attract each other.
+        "3": "相対式量は、化学式に含まれる原子の相対原子質量の合計です。単位はありません。イオンどうしがどれだけ強く引き合うかは、何もわかりません。",
       },
     },
 

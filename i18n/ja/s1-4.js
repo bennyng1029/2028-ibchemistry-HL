@@ -1760,9 +1760,6 @@ S1.i18n.register('ja', 's1-4', {
     "Something is missing after the dot.": "点のあとに何かが足りません。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Solution volumes are usually given in cm<sup>3</sup>. <i>n</i> = <i>CV</i> needs dm<sup>3</sup>. The gas equation in topic 1.5 needs m<sup>3</sup>. Going to a bigger unit makes the number smaller, so you divide.": "溶液の体積は、ふつう cm<sup>3</sup> で与えられます。<i>n</i> = <i>CV</i> には dm<sup>3</sup> が必要です。トピック 1.5 の気体の式には m<sup>3</sup> が必要です。大きい単位に直すと数値は小さくなるので、割り算をします。",
-
-    // widget string (assets/js/widgets-s1-4.js)
     "<i>n</i> = <i>m</i> ÷ <i>M</i> needs the mass in g, because <i>M</i> is in g mol<sup>−1</sup>. Going to a bigger unit makes the number smaller, so you divide.": "<i>M</i> の単位は g mol<sup>−1</sup> なので、<i>n</i> = <i>m</i> ÷ <i>M</i> には g で表した質量が必要です。大きい単位に直すと数値は小さくなるので、割り算をします。",
 
     // widget string (assets/js/widgets-s1-4.js)
@@ -2388,6 +2385,16 @@ S1.i18n.register('ja', 's1-4', {
 
     // widget string (assets/js/widgets-s1-4.js)
     "Total gas volume: {before} of reactants becomes {after} of product. Volume is not conserved, because the number of gas molecules changes. Mass is conserved.": "気体の体積の合計：反応物 {before} が生成物 {after} になります。体積は保存されません。気体分子の数が変わるからです。質量は保存されます。",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('ja', 's1-4', {
+  strings: {
+
+    // widget string (assets/js/widgets-s1-4.js)
+    "Solution volumes are usually given in cm<sup>3</sup>. <i>n</i> = <i>CV</i> needs dm<sup>3</sup>. The gas equation in topic 1.5 uses m<sup>3</sup> with Pa, or dm<sup>3</sup> with kPa. Going to a bigger unit makes the number smaller, so you divide.": "溶液の体積は、ふつう cm<sup>3</sup> で与えられます。<i>n</i> = <i>CV</i> には dm<sup>3</sup> が必要です。トピック 1.5 の気体の式では、m<sup>3</sup> なら Pa と、dm<sup>3</sup> なら kPa と組み合わせて使います。大きい単位に直すと数値は小さくなるので、割り算をします。",
 
   }
 });

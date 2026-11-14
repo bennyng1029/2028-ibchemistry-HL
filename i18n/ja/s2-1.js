@@ -313,12 +313,6 @@ S1.i18n.register('ja', 's2-1', {
     "Ionic bonding is expected between a metal and a non-metal. The metal atoms lose electrons and the non-metal atoms gain them.": "イオン結合は、金属と非金属の間でできると予想されます。金属の原子が電子を失い、非金属の原子がそれを受け取ります。",
 
     // The ionic bond > p
-    "A better test uses electronegativity. <dfn data-def=\"A measure of how strongly an atom attracts the pair of electrons in a covalent bond.\">Electronegativity</dfn> is a measure of how strongly an atom attracts the electrons in a bond. Metals have low values. Non-metals on the right of the periodic table have high values.": "電気陰性度を使うと、もっとよい判断ができます。<dfn data-def=\"共有結合の電子対を、原子がどれだけ強く引きつけるかを表す尺度。\">電気陰性度 <span class=\"en-term\">(electronegativity)</span></dfn>は、原子が結合の電子をどれだけ強く引きつけるかを表す尺度です。金属の値は小さく、周期表の右側にある非金属の値は大きくなります。",
-
-    // The ionic bond > data-def attribute
-    "A measure of how strongly an atom attracts the pair of electrons in a covalent bond.": "共有結合の電子対を、原子がどれだけ強く引きつけるかを表す尺度。",
-
-    // The ionic bond > p
     "If the difference in electronegativity between two elements is large, one atom takes the electrons completely and ions form. Sodium is 0.9 and chlorine is 3.2. The difference is 3.2 − 0.9 = 2.3, which is large, so sodium chloride is ionic.": "2 つの元素の電気陰性度の差が大きいと、一方の原子が電子を完全に取ってしまい、イオンができます。ナトリウムは 0.9、塩素は 3.2 です。差は 3.2 − 0.9 = 2.3 で、大きい値です。だから、塩化ナトリウムはイオン性です。",
 
     // The ionic bond > data booklet note > p
@@ -1868,6 +1862,19 @@ S1.i18n.register('ja', 's2-1', {
 
     // widget string (assets/js/widgets-s2-1.js)
     "hydroxide ion, {f}": "水酸化物イオン {f}",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('ja', 's2-1', {
+  strings: {
+
+    // The ionic bond > p
+    "A better test uses electronegativity. <dfn data-def=\"The relative ability of an atom to attract a shared pair of electrons in a covalent bond.\">Electronegativity</dfn> is the relative ability of an atom to attract a shared pair of electrons in a covalent bond. Metals have low values. Non-metals on the right of the periodic table have high values.": "電気陰性度を使うと、もっとよい判断ができます。<dfn data-def=\"共有結合の共有電子対を引きつける、原子の相対的な能力。\">電気陰性度 <span class=\"en-term\">(electronegativity)</span></dfn>は、共有結合の共有電子対を引きつける、原子の相対的な能力です。金属の値は小さく、周期表の右側にある非金属の値は大きくなります。",
+
+    // The ionic bond > data-def attribute
+    "The relative ability of an atom to attract a shared pair of electrons in a covalent bond.": "共有結合の共有電子対を引きつける、原子の相対的な能力。",
 
   }
 });

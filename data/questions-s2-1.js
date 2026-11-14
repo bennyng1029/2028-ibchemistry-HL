@@ -156,8 +156,8 @@
       answer: 2,
       misconception: {
         0: 'Electronegativity describes how strongly one atom attracts bonding electrons. It is a property of an element, not of the bonding in a compound.',
-        1: 'First ionization energy is the energy needed to remove an electron from a gaseous atom. It does not measure the attraction between ions in a lattice.',
-        3: 'Relative formula mass is the mass of a formula unit. It tells you nothing about how strongly the ions attract each other.'
+        1: 'First ionization energy is the minimum energy needed to remove one mole of electrons from one mole of gaseous atoms. It does not measure the attraction between ions in a lattice.',
+        3: 'Relative formula mass is the sum of the relative atomic masses of the atoms in the formula. It has no units. It tells you nothing about how strongly the ions attract each other.'
       },
       hints: ['Which quantity is the energy needed to separate the ions of a solid lattice completely?'],
       solution: '<p>Lattice enthalpy is the enthalpy change when one mole of a solid ionic compound is separated into gaseous ions. The stronger the electrostatic attraction between the ions, the larger the lattice enthalpy.</p>'

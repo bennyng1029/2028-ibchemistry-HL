@@ -128,12 +128,6 @@ S1.i18n.register('ja', 's2-4', {
     // Bonding is a continuum > data-def attribute
     "A diagram with ionic, covalent and metallic bonding at its three corners. A substance is placed on it using the electronegativities of its two elements.": "イオン結合・共有結合・金属結合を 3 つの角に置いた図です。物質の位置は、2 つの元素の電気陰性度から決めます。",
 
-    // Bonding is a continuum > p
-    "Remember that <dfn data-def=\"A measure of how strongly an atom attracts the shared pair of electrons in a covalent bond.\">electronegativity</dfn>, symbol <i>χ</i>, measures how strongly an atom attracts a shared pair of electrons.": "思い出しましょう。<dfn data-def=\"共有結合の共有電子対を、原子がどれだけ強く引きつけるかを表す尺度です。\">電気陰性度 <span class=\"en-term\">(electronegativity)</span></dfn>（記号 <i>χ</i>）は、原子が共有電子対をどれだけ強く引きつけるかを表します。",
-
-    // Bonding is a continuum > data-def attribute
-    "A measure of how strongly an atom attracts the shared pair of electrons in a covalent bond.": "共有結合の共有電子対を、原子がどれだけ強く引きつけるかを表す尺度です。",
-
     // Bonding is a continuum > widget > data-title attribute
     "A map of bonding": "結合の地図",
 
@@ -400,9 +394,6 @@ S1.i18n.register('ja', 's2-4', {
 
     // Placing a compound in the bonding triangle > table > td
     "Shared electron pairs": "共有電子対",
-
-    // Placing a compound in the bonding triangle > table > td
-    "Does not conduct in any state. Low melting point if it is made of molecules. Very high melting point if it is a covalent network.": "どの状態でも電気を通さない。分子でできていれば融点が低い。共有結合の結晶なら融点がとても高い。",
 
     // Placing a compound in the bonding triangle > table > td
     "Cations and delocalized electrons": "陽イオンと非局在化電子",
@@ -823,14 +814,8 @@ S1.i18n.register('ja', 's2-4', {
     // Condensation polymers > Additional HL > p
     "Imagine a line of people where each person must take off a glove before shaking hands with a neighbour. A chain forms, and a pile of gloves is left over. In a condensation polymer, the “glove” is a small molecule, usually water.": "人が 1 列に並んでいて、となりの人と握手する前に、手袋を片方はずさなければならないとします。鎖ができ、はずした手袋の山が残ります。縮合重合体では、この「手袋」にあたるのが小さな分子で、ふつうは水です。",
 
-    // Condensation polymers > Additional HL > p
-    "A <dfn data-def=\"A polymer formed when functional groups on the monomers react together. A small molecule, usually water, is released each time a link forms.\">condensation polymer</dfn> forms when functional groups on the monomers react with each other. Each time two monomers join, a small molecule is released. A <dfn data-def=\"A group of atoms in a molecule that gives the molecule its typical reactions, such as –OH or –COOH.\">functional group</dfn> is a group of atoms that gives a molecule its typical reactions.": "<dfn data-def=\"単量体の官能基どうしが反応してできる高分子です。結合が 1 つできるたびに、小さな分子（ふつうは水）が放出されます。\">縮合重合体 <span class=\"en-term\">(condensation polymer)</span></dfn>は、単量体の官能基どうしが反応してできます。2 個の単量体がつながるたびに、小さな分子が 1 個放出されます。<dfn data-def=\"分子に特有の反応をさせる原子のまとまりです。–OH や –COOH などがあります。\">官能基 <span class=\"en-term\">(functional group)</span></dfn>とは、分子に特有の反応をさせる原子のまとまりです。",
-
     // Condensation polymers > Additional HL > data-def attribute
     "A polymer formed when functional groups on the monomers react together. A small molecule, usually water, is released each time a link forms.": "単量体の官能基どうしが反応してできる高分子です。結合が 1 つできるたびに、小さな分子（ふつうは水）が放出されます。",
-
-    // Condensation polymers > Additional HL > data-def attribute
-    "A group of atoms in a molecule that gives the molecule its typical reactions, such as –OH or –COOH.": "分子に特有の反応をさせる原子のまとまりです。–OH や –COOH などがあります。",
 
     // Condensation polymers > Additional HL > p
     "Each monomer needs <strong>two</strong> functional groups, so that it can join to a neighbour on both sides. You need two kinds of condensation polymer.": "単量体には、官能基が <strong>2 つ</strong>必要です。両側のとなりとつながるためです。縮合重合体は 2 種類を覚えましょう。",
@@ -1181,9 +1166,6 @@ S1.i18n.register('ja', 's2-4', {
     // Linking it up > p
     "Most plastics have a backbone of carbon atoms joined by strong, non-polar bonds. Water and microorganisms cannot break these bonds easily. A biodegradable plastic has other groups of atoms in its backbone, such as ester links, which can react with water. The chain then breaks into small molecules. You will meet these groups in Structure 3.2.": "ほとんどのプラスチックの主鎖は、強くて無極性の結合でつながった炭素原子でできています。水や微生物は、この結合をなかなか切れません。生分解性プラスチックは、主鎖の中に、エステル結合のような水と反応できる別の原子のまとまりをもっています。そのため、鎖が切れて小さな分子になります。これらのまとまりは Structure 3.2 で学びます。",
 
-    // Linking it up > Additional HL > p
-    "Ester and amide links are found in condensation polymers. They are broken by hydrolysis. So some polyesters and polyamides can be broken down in the environment, but addition polymers cannot.": "エステル結合とアミド結合は、縮合重合体にあります。これらの結合は加水分解で切れます。だから、ポリエステルやポリアミドの中には環境の中で分解されるものがありますが、付加重合体は分解されません。",
-
     // Exam-style practice > data-toc attribute
     // Exam-style practice > h2
     "Exam-style practice": "試験形式の練習",
@@ -1310,9 +1292,6 @@ S1.i18n.register('ja', 's2-4', {
 
     // widget string (assets/js/widgets-s2-4.js)
     "The metallic model fits best. Expect a solid that conducts electricity and heat well and is malleable.": "金属結合モデルが最もよく合います。電気と熱をよく通し、展性のある固体だと予測できます。",
-
-    // widget string (assets/js/widgets-s2-4.js)
-    "The covalent model fits best, and the bonds are non-polar (Δχ = 0). Expect a poor electrical conductor. The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).": "共有結合モデルが最もよく合い、結合は無極性です（Δχ = 0）。電気を通しにくいと予測できます。物質が分子でできているか（融点が低い）、共有結合の結晶か（融点がとても高い）は、三角形からはわかりません。",
 
     // widget string (assets/js/widgets-s2-4.js)
     "The covalent model fits best. The bonds are polar, and more polar the higher the point sits. Expect a poor electrical conductor in every state. The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).": "共有結合モデルが最もよく合います。結合には極性があり、点が高いところにあるほど極性が大きくなります。どの状態でも電気を通しにくいと予測できます。物質が分子でできているか（融点が低い）、共有結合の結晶か（融点がとても高い）は、三角形からはわかりません。",
@@ -1463,9 +1442,6 @@ S1.i18n.register('ja', 's2-4', {
 
     // widget string (assets/js/widgets-s2-4.js)
     "Does not react with water, air, acids or alkalis": "水、空気、酸、アルカリと反応しない",
-
-    // widget string (assets/js/widgets-s2-4.js)
-    "The chains are held together by strong covalent bonds, which take a lot of energy to break. So the polymer is chemically unreactive (inert).": "鎖は強い共有結合でできていて、切るには多くのエネルギーが必要です。だから、高分子は化学的に反応しにくい（不活性）のです。",
 
     // widget string (assets/js/widgets-s2-4.js)
     "The chains are made mostly of light atoms such as carbon and hydrogen, and long chains do not pack tightly.": "鎖は主に炭素や水素のような軽い原子でできています。また、長い鎖はぎっしりとは詰まりません。",
@@ -1730,6 +1706,37 @@ S1.i18n.register('ja', 's2-4', {
 
     // widget string (assets/js/widgets-s2-4.js)
     "Hydrolysis: the linked molecule and one water molecule give back the two monomers. The atoms that came from water are outlined.": "加水分解：つながった分子と水分子 1 個から、2 つの単量体が元どおりにできる。水からきた原子が囲んである。",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('ja', 's2-4', {
+  strings: {
+
+    // Bonding is a continuum > p
+    "Remember that <dfn data-def=\"The relative ability of an atom to attract a shared pair of electrons in a covalent bond.\">electronegativity</dfn>, symbol <i>χ</i>, measures how strongly an atom attracts a shared pair of electrons.": "思い出しましょう。<dfn data-def=\"共有結合の共有電子対を引きつける、原子の相対的な能力です。\">電気陰性度 <span class=\"en-term\">(electronegativity)</span></dfn>（記号 <i>χ</i>）は、原子が共有電子対をどれだけ強く引きつけるかを表します。",
+
+    // Bonding is a continuum > data-def attribute
+    "The relative ability of an atom to attract a shared pair of electrons in a covalent bond.": "共有結合の共有電子対を引きつける、原子の相対的な能力です。",
+
+    // Placing a compound in the bonding triangle > table > td
+    "Does not conduct in any state (graphite and graphene are the exceptions). Low melting point if it is made of molecules. Very high melting point if it is a covalent network.": "どの状態でも電気を通さない（黒鉛とグラフェンは例外）。分子でできていれば融点が低い。共有結合の結晶なら融点がとても高い。",
+
+    // Condensation polymers > Additional HL > p
+    "A <dfn data-def=\"A polymer formed when functional groups on the monomers react together. A small molecule, usually water, is released each time a link forms.\">condensation polymer</dfn> forms when functional groups on the monomers react with each other. Each time two monomers join, a small molecule is released. A <dfn data-def=\"An atom or group of atoms that gives a compound its characteristic physical and chemical properties, such as –OH or –COOH.\">functional group</dfn> is an atom or group of atoms that gives a compound its characteristic physical and chemical properties.": "<dfn data-def=\"単量体の官能基どうしが反応してできる高分子です。結合が 1 つできるたびに、小さな分子（ふつうは水）が放出されます。\">縮合重合体 <span class=\"en-term\">(condensation polymer)</span></dfn>は、単量体の官能基どうしが反応してできます。2 個の単量体がつながるたびに、小さな分子が 1 個放出されます。<dfn data-def=\"化合物に特有の物理的性質と化学的性質を与える、原子または原子のまとまりです。–OH や –COOH などがあります。\">官能基 <span class=\"en-term\">(functional group)</span></dfn>とは、化合物に特有の物理的性質と化学的性質を与える、原子または原子のまとまりです。",
+
+    // Condensation polymers > Additional HL > data-def attribute
+    "An atom or group of atoms that gives a compound its characteristic physical and chemical properties, such as –OH or –COOH.": "化合物に特有の物理的性質と化学的性質を与える、原子または原子のまとまりです。–OH や –COOH などがあります。",
+
+    // Linking it up > Additional HL > p
+    "Ester and amide links are found in condensation polymers. They are broken by hydrolysis. So some polyesters and polyamides can be broken down in the environment by hydrolysis. Addition polymers have no such links, so they break down only very slowly.": "エステル結合とアミド結合は、縮合重合体にあります。これらの結合は加水分解で切れます。だから、ポリエステルやポリアミドの中には、環境の中で加水分解によって分解されるものがあります。付加重合体にはこのような結合がないので、とてもゆっくりとしか分解されません。",
+
+    // widget string (assets/js/widgets-s2-4.js)
+    "The covalent model fits best, and the bonds are non-polar (Δχ = 0). Expect a poor electrical conductor (graphite and graphene are exceptions). The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).": "共有結合モデルが最もよく合い、結合は無極性です（Δχ = 0）。電気を通しにくいと予測できます（黒鉛とグラフェンは例外です）。物質が分子でできているか（融点が低い）、共有結合の結晶か（融点がとても高い）は、三角形からはわかりません。",
+
+    // widget string (assets/js/widgets-s2-4.js)
+    "The atoms in each chain are joined by strong covalent bonds, which take a lot of energy to break. So the polymer is chemically unreactive (inert).": "それぞれの鎖の中の原子は強い共有結合でつながっていて、切るには多くのエネルギーが必要です。だから、高分子は化学的に反応しにくい（不活性）のです。",
 
   }
 });

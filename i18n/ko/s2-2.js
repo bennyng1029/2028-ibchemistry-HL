@@ -101,12 +101,6 @@ S1.i18n.register('ko', 's2-2', {
     // Covalent bonds, the octet rule and Lewis formulas > data-def attribute
     "The electrostatic attraction between a shared pair of electrons and the positively charged nuclei.": "공유 전자쌍과 양전하를 띤 원자핵 사이의 정전기적 인력.",
 
-    // Covalent bonds, the octet rule and Lewis formulas > p
-    "Covalent bonds usually form between atoms of non-metals. A group of atoms joined by covalent bonds is a <dfn data-def=\"A group of atoms held together by covalent bonds.\">molecule</dfn>.": "공유 결합은 보통 비금속 원자 사이에서 생겨요. 공유 결합으로 연결된 원자들의 무리를 <dfn data-def=\"공유 결합으로 묶여 있는 원자들의 무리.\">분자 <span class=\"en-term\">(molecule)</span></dfn>라고 해요.",
-
-    // Covalent bonds, the octet rule and Lewis formulas > data-def attribute
-    "A group of atoms held together by covalent bonds.": "공유 결합으로 묶여 있는 원자들의 무리.",
-
     // Covalent bonds, the octet rule and Lewis formulas > exam tip (shown in English + translation) > p
     "“State what a covalent bond is” is a one-mark question. The answer needs three parts: <b>electrostatic attraction</b>, a <b>shared pair of electrons</b>, and the <b>(positively charged) nuclei</b>.": "“공유 결합이 무엇인지 쓰시오”는 1점짜리 문제예요. 답에는 3가지가 들어가야 해요: <b>정전기적 인력</b>, <b>공유 전자쌍</b>, <b>(양전하를 띤) 원자핵</b>.",
 
@@ -514,14 +508,8 @@ S1.i18n.register('ko', 's2-2', {
     // Single, double and triple bonds > widget > data-title attribute
     "Bond length and bond strength": "결합 길이와 결합 세기",
 
-    // Single, double and triple bonds > p
-    "The <dfn data-def=\"The distance between the nuclei of two bonded atoms.\">bond length</dfn> is the distance between the two nuclei. The <dfn data-def=\"How much energy is needed to break a bond. A stronger bond needs more energy.\">bond strength</dfn> tells you how much energy is needed to break the bond. It is measured as a bond enthalpy.": "<dfn data-def=\"결합한 두 원자의 원자핵 사이 거리.\">결합 길이 <span class=\"en-term\">(bond length)</span></dfn>는 두 원자핵 사이의 거리예요. <dfn data-def=\"결합을 끊는 데 필요한 에너지의 크기. 결합이 강할수록 더 많은 에너지가 필요해요.\">결합 세기 <span class=\"en-term\">(bond strength)</span></dfn>는 결합을 끊는 데 에너지가 얼마나 필요한지 알려 줘요. 결합 엔탈피로 나타내요.",
-
     // Single, double and triple bonds > data-def attribute
     "The distance between the nuclei of two bonded atoms.": "결합한 두 원자의 원자핵 사이 거리.",
-
-    // Single, double and triple bonds > data-def attribute
-    "How much energy is needed to break a bond. A stronger bond needs more energy.": "결합을 끊는 데 필요한 에너지의 크기. 결합이 강할수록 더 많은 에너지가 필요해요.",
 
     // Single, double and triple bonds > p
     "Think of the shared electrons as glue between the two nuclei. More shared pairs mean more negative charge between the nuclei. Both nuclei are attracted more strongly to it.": "공유 전자를 두 원자핵 사이의 접착제라고 생각해 봐요. 공유 전자쌍이 많을수록 원자핵 사이의 음전하가 많아져요. 두 원자핵이 모두 그 전자에 더 세게 끌려요.",
@@ -590,9 +578,6 @@ S1.i18n.register('ko', 's2-2', {
 
     // Coordination bonds > p
     "The atom that gives the pair must have a lone pair. The atom that accepts the pair must have room for two more electrons.": "전자쌍을 내놓는 원자에는 비공유 전자쌍이 있어야 해요. 전자쌍을 받는 원자에는 전자 2개가 더 들어갈 자리가 있어야 해요.",
-
-    // Coordination bonds > h3
-    "Three examples to know": "알아 둘 예 3가지",
 
     // Coordination bonds > p
     "<b>The ammonium ion.</b> Ammonia has a lone pair on nitrogen. An H<sup>+</sup> ion has no electrons. Nitrogen shares its lone pair with H<sup>+</sup>.": "<b>암모늄 이온.</b> 암모니아의 질소에는 비공유 전자쌍이 있어요. H<sup>+</sup> 이온에는 전자가 없어요. 질소가 비공유 전자쌍을 H<sup>+</sup>와 공유해요.",
@@ -982,9 +967,6 @@ S1.i18n.register('ko', 's2-2', {
     // Shapes of molecules: the VSEPR model > exam tip (shown in English + translation) > p
     "“State and explain the shape” is two marks. One is for the name of the shape. The other is for the reason: the number of electron domains, or the number of bonding pairs and lone pairs, around the central atom. For a bent or pyramidal molecule an angle in a sensible range below the ideal value is accepted.": "“모양을 쓰고 설명하시오”는 2점이에요. 1점은 모양의 이름이에요. 나머지 1점은 이유예요: 중심 원자 주위의 전자 영역 수, 또는 공유 전자쌍과 비공유 전자쌍의 수. 굽은 형이나 삼각뿔형 분자에서는 이상적인 값보다 작은 적절한 범위의 각이 인정돼요.",
 
-    // Shapes of molecules: the VSEPR model > not needed for IB > p
-    "Shapes with five or six electron domains are Additional HL and are on the <a href=\"s2-2h.html\">HL page</a>. The guide does not list exact angles to memorize. “Less than 109.5°” with the reason is what you must be able to give.": "전자 영역이 5개나 6개인 모양은 HL 추가 내용이고 <a href=\"s2-2h.html\">HL 페이지</a>에 있어요. 가이드에는 외워야 할 정확한 각이 나와 있지 않아요. 이유와 함께 “109.5°보다 작다”고 쓸 수 있어야 해요.",
-
     // Shapes of molecules: the VSEPR model > data-title attribute
     "Shapes and bond angles: quick check": "모양과 결합각: 빠른 확인",
 
@@ -994,12 +976,6 @@ S1.i18n.register('ko', 's2-2', {
 
     // Bond polarity > p
     "Sharing is not always equal. In a tug of war between a strong team and a weak team, the rope moves towards the strong team. In a bond, the shared electrons move towards the atom that attracts them more.": "전자를 항상 똑같이 나눠 갖는 건 아니에요. 힘센 팀과 약한 팀이 줄다리기를 하면 줄은 힘센 팀 쪽으로 움직여요. 결합에서도 공유 전자는 전자를 더 세게 끌어당기는 원자 쪽으로 움직여요.",
-
-    // Bond polarity > p
-    "<dfn data-def=\"A measure of how strongly an atom attracts a shared (bonding) pair of electrons in a covalent bond.\">Electronegativity</dfn> measures how strongly an atom attracts a shared pair of electrons. It has no unit. Fluorine has the highest value, 4.0.": "<dfn data-def=\"공유 결합에서 원자가 공유 전자쌍(공유 결합 전자쌍)을 얼마나 세게 끌어당기는지 나타내는 척도.\">전기 음성도 <span class=\"en-term\">(electronegativity)</span></dfn>는 원자가 공유 전자쌍을 얼마나 세게 끌어당기는지 나타내요. 단위는 없어요. 플루오린이 가장 높은 값인 4.0을 가져요.",
-
-    // Bond polarity > data-def attribute
-    "A measure of how strongly an atom attracts a shared (bonding) pair of electrons in a covalent bond.": "공유 결합에서 원자가 공유 전자쌍(공유 결합 전자쌍)을 얼마나 세게 끌어당기는지 나타내는 척도.",
 
     // Bond polarity > table > caption
     "Electronegativity values from the data booklet": "데이터 부클릿의 전기 음성도 값",
@@ -1400,9 +1376,6 @@ S1.i18n.register('ko', 's2-2', {
 
     // Covalent network structures > h3
     "Fullerenes": "풀러렌",
-
-    // Covalent network structures > p
-    "Fullerenes are closed cages of carbon atoms. The one to know is <span class=\"chem\">C60</span>. Its 60 atoms form a ball of 12 pentagons and 20 hexagons, like a football. Each carbon atom is bonded to three others.": "풀러렌은 탄소 원자로 이루어진 닫힌 우리 모양이에요. 알아 둘 것은 <span class=\"chem\">C60</span>이에요. 원자 60개가 오각형 12개와 육각형 20개로 된 축구공 같은 공 모양을 이뤄요. 각 탄소 원자는 다른 탄소 원자 3개와 결합해요.",
 
     // Covalent network structures > p
     "<span class=\"chem\">C60</span> is a <em>molecule</em>. It is not a network. Solid <span class=\"chem\">C60</span> is made of separate molecules, held together by weak London (dispersion) forces.": "<span class=\"chem\">C60</span>은 <em>분자</em>예요. 그물 구조가 아니에요. 고체 <span class=\"chem\">C60</span>은 따로 떨어진 분자들이 약한 런던 분산력으로 모여 있는 거예요.",
@@ -1923,9 +1896,6 @@ S1.i18n.register('ko', 's2-2', {
     // Explaining physical properties > worked example > h3
     "Explaining a boiling-point difference": "끓는점 차이 설명하기",
 
-    // Explaining physical properties > worked example > p
-    "Butane, <span class=\"chem\">CH3CH2CH2CH3</span>, boils at −1 °C. Propanone, <span class=\"chem\">CH3COCH3</span>, boils at 56 °C. Their molar masses are 58.14 and 58.09 <span class=\"unit\">g mol-1</span>. Explain the difference in boiling point.": "butane <span class=\"chem\">CH3CH2CH2CH3</span>은 −1 °C에서 끓어요. propanone <span class=\"chem\">CH3COCH3</span>은 56 °C에서 끓어요. 두 물질의 몰 질량은 58.14와 58.09 <span class=\"unit\">g mol-1</span>이에요. 끓는점 차이를 설명하시오 (explain).",
-
     // Explaining physical properties > worked example > data-title attribute
     "Decide whether each molecule is polar": "각 분자가 극성인지 판단하기",
 
@@ -2012,9 +1982,6 @@ S1.i18n.register('ko', 's2-2', {
     "Water molecules are held to each other by hydrogen bonds. A solute that can form hydrogen bonds with water, such as ethanol, mixes in easily.": "물 분자들은 수소 결합으로 서로 붙잡혀 있어요. ethanol처럼 물과 수소 결합을 만들 수 있는 용질은 쉽게 섞여요.",
 
     // Explaining physical properties > li
-    "A non-polar solute, such as hexane, can form only weak London forces with water. These cannot replace the hydrogen bonds between water molecules. So the two liquids stay separate.": "hexane 같은 무극성 용질은 물과 약한 런던 분산력만 만들 수 있어요. 이 힘으로는 물 분자 사이의 수소 결합을 대신할 수 없어요. 그래서 두 액체는 섞이지 않고 나뉘어 있어요.",
-
-    // Explaining physical properties > li
     "As the hydrocarbon chain of an alcohol gets longer, more of the molecule is non-polar. Solubility in water falls. Ethanol mixes completely with water. Octan-1-ol hardly dissolves.": "알코올의 탄화수소 사슬이 길어질수록 분자에서 무극성인 부분이 많아져요. 물에 대한 용해도가 낮아져요. ethanol은 물과 완전히 섞여요. octan-1-ol은 거의 녹지 않아요.",
 
     // Explaining physical properties > li
@@ -2062,9 +2029,6 @@ S1.i18n.register('ko', 's2-2', {
     // Explaining physical properties > worked example > maths line
     "ethanol and water: <b>hydrogen bonds</b> form between them": "ethanol과 물: 둘 사이에 <b>수소 결합</b>이 생김",
 
-    // Explaining physical properties > worked example > maths line
-    "hexane and water: only weak London (dispersion) forces": "hexane과 물: 약한 런던 분산력만 있음",
-
     // Explaining physical properties > worked example > data-title attribute
     "Compare with the forces already present": "원래 있던 힘과 비교하기",
 
@@ -2073,9 +2037,6 @@ S1.i18n.register('ko', 's2-2', {
 
     // Explaining physical properties > worked example > maths line
     "hexane–water forces are much weaker than water–water hydrogen bonds → hexane does not mix": "hexane–물 사이의 힘은 물–물 사이의 수소 결합보다 훨씬 약함 → hexane은 섞이지 않음",
-
-    // Explaining physical properties > worked example > p
-    "Ethanol has an O–H group, so it forms hydrogen bonds with water molecules and dissolves. Hexane is non-polar. It forms only London (dispersion) forces with water, which are too weak to replace the hydrogen bonds between water molecules.": "ethanol에는 O–H 작용기가 있어서 물 분자와 수소 결합을 만들고 녹아요. hexane은 무극성이에요. 물과 런던 분산력만 만드는데, 이 힘은 너무 약해서 물 분자 사이의 수소 결합을 대신할 수 없어요.",
 
     // Explaining physical properties > table > caption
     "Molecular substances and covalent network substances compared": "분자 물질과 공유 결정 물질의 비교",
@@ -2391,9 +2352,6 @@ S1.i18n.register('ko', 's2-2', {
 
     // Linking it up > h3
     "What features of a molecule make it “infrared (IR) active”?": "분자가 “적외선(IR) 활성”이 되려면 어떤 특징이 필요할까?",
-
-    // Linking it up > p
-    "HL only (Structure 3.2): a molecule absorbs infrared radiation when a vibration changes its dipole. So bond polarity and molecular geometry, the ideas of section 2.2.6, decide whether a molecule such as <span class=\"chem\">CO2</span> or <span class=\"chem\">H2O</span> absorbs infrared radiation.": "HL 전용 (Structure 3.2): 분자는 진동할 때 쌍극자가 바뀌면 적외선을 흡수해요. 그래서 2.2.6절에서 배운 결합의 극성과 분자 모양이 <span class=\"chem\">CO2</span>나 <span class=\"chem\">H2O</span> 같은 분자가 적외선을 흡수하는지를 결정해요.",
 
     // Exam-style practice > data-toc attribute
     // Exam-style practice > h2
@@ -3262,6 +3220,55 @@ S1.i18n.register('ko', 's2-2', {
 
     // widget string (assets/js/widgets-s2-2.js)
     "Model data, not a real experiment. Shaded area: solvent.": "모형 자료이며 실제 실험이 아니에요. 색칠한 부분: 용매.",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('ko', 's2-2', {
+  strings: {
+
+    // Covalent bonds, the octet rule and Lewis formulas > p
+    "Covalent bonds usually form between atoms of non-metals. A discrete, electrically neutral group of atoms joined by covalent bonds is a <dfn data-def=\"A discrete, electrically neutral group of atoms held together by covalent bonds. A covalent network, such as diamond, is not made of molecules.\">molecule</dfn>.": "공유 결합은 보통 비금속 원자 사이에서 생겨요. 공유 결합으로 연결된, 전기적으로 중성인 독립된 원자 무리를 <dfn data-def=\"공유 결합으로 묶여 있는, 전기적으로 중성인 독립된 원자 무리. 다이아몬드 같은 공유 결정은 분자로 이루어져 있지 않아요.\">분자 <span class=\"en-term\">(molecule)</span></dfn>라고 해요.",
+
+    // Covalent bonds, the octet rule and Lewis formulas > data-def attribute
+    "A discrete, electrically neutral group of atoms held together by covalent bonds. A covalent network, such as diamond, is not made of molecules.": "공유 결합으로 묶여 있는, 전기적으로 중성인 독립된 원자 무리. 다이아몬드 같은 공유 결정은 분자로 이루어져 있지 않아요.",
+
+    // Single, double and triple bonds > p
+    "The <dfn data-def=\"The distance between the nuclei of two bonded atoms.\">bond length</dfn> is the distance between the two nuclei. The <dfn data-def=\"How much energy is needed to break a bond. It is measured as the bond enthalpy: the energy needed to break one mole of the bond in gaseous molecules. A stronger bond needs more energy.\">bond strength</dfn> tells you how much energy is needed to break the bond. It is measured as a bond enthalpy.": "<dfn data-def=\"결합한 두 원자의 원자핵 사이 거리.\">결합 길이 <span class=\"en-term\">(bond length)</span></dfn>는 두 원자핵 사이의 거리예요. <dfn data-def=\"결합을 끊는 데 필요한 에너지의 크기. 결합 엔탈피로 나타내요: 기체 상태 분자 속 결합 1몰을 끊는 데 필요한 에너지예요. 결합이 강할수록 더 많은 에너지가 필요해요.\">결합 세기 <span class=\"en-term\">(bond strength)</span></dfn>는 결합을 끊는 데 에너지가 얼마나 필요한지 알려 줘요. 결합 엔탈피로 나타내요.",
+
+    // Single, double and triple bonds > data-def attribute
+    "How much energy is needed to break a bond. It is measured as the bond enthalpy: the energy needed to break one mole of the bond in gaseous molecules. A stronger bond needs more energy.": "결합을 끊는 데 필요한 에너지의 크기. 결합 엔탈피로 나타내요: 기체 상태 분자 속 결합 1몰을 끊는 데 필요한 에너지예요. 결합이 강할수록 더 많은 에너지가 필요해요.",
+
+    // Coordination bonds > h3
+    "Three common examples": "흔한 예 3가지",
+
+    // Shapes of molecules: the VSEPR model > not needed for IB > p
+    "Shapes with five or six electron domains are Additional HL and are on the <a href=\"s2-2h.html\">HL page</a>. The guide does not list exact angles to memorize.": "전자 영역이 5개나 6개인 모양은 HL 추가 내용이고 <a href=\"s2-2h.html\">HL 페이지</a>에 있어요. 가이드에는 외워야 할 정확한 각이 나와 있지 않아요.",
+
+    // Bond polarity > p
+    "<dfn data-def=\"The relative ability of an atom to attract a shared (bonding) pair of electrons in a covalent bond.\">Electronegativity</dfn> measures how strongly an atom attracts a shared pair of electrons. It has no unit. Fluorine has the highest value, 4.0.": "<dfn data-def=\"공유 결합에서 원자가 공유 전자쌍(공유 결합 전자쌍)을 끌어당기는 상대적인 능력.\">전기 음성도 <span class=\"en-term\">(electronegativity)</span></dfn>는 원자가 공유 전자쌍을 얼마나 세게 끌어당기는지 나타내요. 단위는 없어요. 플루오린이 가장 높은 값인 4.0을 가져요.",
+
+    // Bond polarity > data-def attribute
+    "The relative ability of an atom to attract a shared (bonding) pair of electrons in a covalent bond.": "공유 결합에서 원자가 공유 전자쌍(공유 결합 전자쌍)을 끌어당기는 상대적인 능력.",
+
+    // Covalent network structures > p
+    "Fullerenes are closed cages of carbon atoms. The usual example is <span class=\"chem\">C60</span>. Its 60 atoms form a ball of 12 pentagons and 20 hexagons, like a football. Each carbon atom is bonded to three others.": "풀러렌은 탄소 원자로 이루어진 닫힌 우리 모양이에요. 대표적인 예는 <span class=\"chem\">C60</span>이에요. 원자 60개가 오각형 12개와 육각형 20개로 된 축구공 같은 공 모양을 이뤄요. 각 탄소 원자는 다른 탄소 원자 3개와 결합해요.",
+
+    // Explaining physical properties > worked example > p
+    "Butane, <span class=\"chem\">CH3CH2CH2CH3</span>, boils at 0 °C. Propanone, <span class=\"chem\">CH3COCH3</span>, boils at 56 °C. Their molar masses are 58.14 and 58.09 <span class=\"unit\">g mol-1</span>. Explain the difference in boiling point.": "butane <span class=\"chem\">CH3CH2CH2CH3</span>은 0 °C에서 끓어요. propanone <span class=\"chem\">CH3COCH3</span>은 56 °C에서 끓어요. 두 물질의 몰 질량은 58.14와 58.09 <span class=\"unit\">g mol-1</span>이에요. 끓는점 차이를 설명하시오 (explain).",
+
+    // Explaining physical properties > li
+    "A non-polar solute, such as hexane, can form only weak London (dispersion) and dipole–induced dipole forces with water. These cannot replace the hydrogen bonds between water molecules. So the two liquids stay separate.": "hexane 같은 무극성 용질은 물과의 사이에 약한 런던 분산력과 쌍극자-유발 쌍극자 힘만 만들 수 있어요. 이 힘들로는 물 분자 사이의 수소 결합을 대신할 수 없어요. 그래서 두 액체는 섞이지 않고 나뉘어 있어요.",
+
+    // Explaining physical properties > worked example > maths line
+    "hexane and water: only weak London (dispersion) and dipole–induced dipole forces": "hexane과 물: 약한 런던 분산력과 쌍극자–유발 쌍극자 힘만 있음",
+
+    // Explaining physical properties > worked example > p
+    "Ethanol has an O–H group, so it forms hydrogen bonds with water molecules and dissolves. Hexane is non-polar. It forms only London (dispersion) and dipole–induced dipole forces with water, which are too weak to replace the hydrogen bonds between water molecules.": "ethanol에는 O–H 작용기가 있어서 물 분자와 수소 결합을 만들고 녹아요. hexane은 무극성이에요. 물과의 사이에는 런던 분산력과 쌍극자-유발 쌍극자 힘만 생기는데, 이 힘들은 너무 약해서 물 분자 사이의 수소 결합을 대신할 수 없어요.",
+
+    // Linking it up > Additional HL > p
+    "Structure 3.2: a molecule absorbs infrared radiation when a vibration changes its dipole. So bond polarity and molecular geometry, the ideas of section 2.2.6, decide whether a molecule such as <span class=\"chem\">CO2</span> or <span class=\"chem\">H2O</span> absorbs infrared radiation.": "Structure 3.2: 분자는 진동할 때 쌍극자가 바뀌면 적외선을 흡수해요. 그래서 2.2.6절에서 배운 결합의 극성과 분자 모양이 <span class=\"chem\">CO2</span>나 <span class=\"chem\">H2O</span> 같은 분자가 적외선을 흡수하는지를 결정해요.",
 
   }
 });

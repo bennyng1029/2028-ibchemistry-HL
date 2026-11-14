@@ -1760,9 +1760,6 @@ S1.i18n.register('zh-Hant', 's1-4', {
     "Something is missing after the dot.": "點的後面缺了東西。",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Solution volumes are usually given in cm<sup>3</sup>. <i>n</i> = <i>CV</i> needs dm<sup>3</sup>. The gas equation in topic 1.5 needs m<sup>3</sup>. Going to a bigger unit makes the number smaller, so you divide.": "溶液的體積通常以 cm<sup>3</sup> 給出。<i>n</i> = <i>CV</i> 需要 dm<sup>3</sup>。課題 1.5 的氣體方程需要 m<sup>3</sup>。換成較大的單位，數字會變小，所以要除。",
-
-    // widget string (assets/js/widgets-s1-4.js)
     "<i>n</i> = <i>m</i> ÷ <i>M</i> needs the mass in g, because <i>M</i> is in g mol<sup>−1</sup>. Going to a bigger unit makes the number smaller, so you divide.": "<i>n</i> = <i>m</i> ÷ <i>M</i> 需要以 g 表示的質量，因為 <i>M</i> 的單位是 g mol<sup>−1</sup>。換成較大的單位，數字會變小，所以要除。",
 
     // widget string (assets/js/widgets-s1-4.js)
@@ -2388,6 +2385,16 @@ S1.i18n.register('zh-Hant', 's1-4', {
 
     // widget string (assets/js/widgets-s1-4.js)
     "Total gas volume: {before} of reactants becomes {after} of product. Volume is not conserved, because the number of gas molecules changes. Mass is conserved.": "氣體總體積：{before} 的反應物變成 {after} 的生成物。體積並不守恆，因為氣體分子的數目改變了。質量則守恆。",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('zh-Hant', 's1-4', {
+  strings: {
+
+    // widget string (assets/js/widgets-s1-4.js)
+    "Solution volumes are usually given in cm<sup>3</sup>. <i>n</i> = <i>CV</i> needs dm<sup>3</sup>. The gas equation in topic 1.5 uses m<sup>3</sup> with Pa, or dm<sup>3</sup> with kPa. Going to a bigger unit makes the number smaller, so you divide.": "溶液的體積通常以 cm<sup>3</sup> 給出。<i>n</i> = <i>CV</i> 需要 dm<sup>3</sup>。課題 1.5 的氣體方程配合 Pa 時用 m<sup>3</sup>，配合 kPa 時則用 dm<sup>3</sup>。換成較大的單位，數字會變小，所以要除。",
 
   }
 });

@@ -1761,9 +1761,6 @@ S1.i18n.register('ko', 's1-4', {
     "Something is missing after the dot.": "점 뒤에 무언가 빠졌어요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Solution volumes are usually given in cm<sup>3</sup>. <i>n</i> = <i>CV</i> needs dm<sup>3</sup>. The gas equation in topic 1.5 needs m<sup>3</sup>. Going to a bigger unit makes the number smaller, so you divide.": "용액의 부피는 보통 cm<sup>3</sup>로 주어져요. <i>n</i> = <i>CV</i>에는 dm<sup>3</sup>가 필요해요. 1.5 단원의 기체 방정식에는 m<sup>3</sup>가 필요해요. 더 큰 단위로 가면 숫자가 작아지므로 나누세요.",
-
-    // widget string (assets/js/widgets-s1-4.js)
     "<i>n</i> = <i>m</i> ÷ <i>M</i> needs the mass in g, because <i>M</i> is in g mol<sup>−1</sup>. Going to a bigger unit makes the number smaller, so you divide.": "<i>M</i>이 g mol<sup>−1</sup> 단위이므로 <i>n</i> = <i>m</i> ÷ <i>M</i>에는 g 단위의 질량이 필요해요. 더 큰 단위로 가면 숫자가 작아지므로 나누세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
@@ -2389,6 +2386,16 @@ S1.i18n.register('ko', 's1-4', {
 
     // widget string (assets/js/widgets-s1-4.js)
     "Total gas volume: {before} of reactants becomes {after} of product. Volume is not conserved, because the number of gas molecules changes. Mass is conserved.": "전체 기체 부피: 반응물 {before}가 생성물 {after}가 돼요. 기체 분자 수가 바뀌므로 부피는 보존되지 않아요. 질량은 보존돼요.",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('ko', 's1-4', {
+  strings: {
+
+    // widget string (assets/js/widgets-s1-4.js)
+    "Solution volumes are usually given in cm<sup>3</sup>. <i>n</i> = <i>CV</i> needs dm<sup>3</sup>. The gas equation in topic 1.5 uses m<sup>3</sup> with Pa, or dm<sup>3</sup> with kPa. Going to a bigger unit makes the number smaller, so you divide.": "용액의 부피는 보통 cm<sup>3</sup>로 주어져요. <i>n</i> = <i>CV</i>에는 dm<sup>3</sup>가 필요해요. 1.5 단원의 기체 방정식에서는 m<sup>3</sup>를 Pa와 함께 쓰거나, dm<sup>3</sup>를 kPa와 함께 써요. 더 큰 단위로 가면 숫자가 작아지므로 나누세요.",
 
   }
 });

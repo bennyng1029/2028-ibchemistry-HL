@@ -1502,9 +1502,6 @@ S1.i18n.register('ko', 's3-1', {
     "Variable oxidation state": "여러 가지 산화수",
 
     // Properties of transition elements > table > Additional HL > td
-    "One element forms ions with different charges, such as <span class=\"chem\">Fe^2+</span> and <span class=\"chem\">Fe^3+</span>.": "한 원소가 <span class=\"chem\">Fe^2+</span>과 <span class=\"chem\">Fe^3+</span>처럼 전하가 다른 이온을 만들어요.",
-
-    // Properties of transition elements > table > Additional HL > td
     "next section": "다음 절",
 
     // Properties of transition elements > table > Additional HL > th
@@ -3052,6 +3049,25 @@ S1.i18n.register('ko', 's3-1', {
 
     // widget string (assets/js/widgets-s3-1.js)
     "A water molecule donates a lone pair of electrons to a copper(II) ion. The arrow shows the coordination bond.": "물 분자가 구리(II) 이온에 비공유 전자쌍을 내줘요. 화살표는 배위 결합을 나타내요.",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('ko', 's3-1', {
+  strings: {
+
+    // Trends down group 1 and group 17 > p
+    "Why? A halogen atom reacts by gaining one electron. Going down the group, the outer energy level is further from the nucleus and more shielded by inner electrons, so an extra electron is attracted less strongly. Chlorine gains an electron most easily and iodine least easily.": "왜 그럴까요? 할로젠 원자는 전자 1개를 얻어서 반응해요. 족 아래로 갈수록 가장 바깥 에너지 준위가 원자핵에서 더 멀어지고, 안쪽 전자에 의한 가려막기도 커져요. 그래서 새로 들어오는 전자를 끌어당기는 힘이 약해져요. 염소가 전자를 가장 쉽게 얻고, 아이오딘이 가장 어렵게 얻어요.",
+
+    // Trends down group 1 and group 17 > p
+    "The equations are ionic equations. The metal ion in the halide solution does not take part:": "반응식은 이온 반응식이에요. 할로젠화물 용액 속의 금속 이온은 반응에 참여하지 않아요:",
+
+    // Trends down group 1 and group 17 > p
+    "Iodine does not displace chloride or bromide ions.": "아이오딘은 염화 이온이나 브로민화 이온을 치환하지 못해요.",
+
+    // Properties of transition elements > table > Additional HL > td
+    "One element has more than one oxidation state in its compounds, such as +2 and +3 for iron (<span class=\"chem\">Fe^2+</span> and <span class=\"chem\">Fe^3+</span>).": "한 원소가 화합물에서 둘 이상의 산화수를 가져요. 예를 들어 철은 +2와 +3을 가져요(<span class=\"chem\">Fe^2+</span>과 <span class=\"chem\">Fe^3+</span>).",
 
   }
 });

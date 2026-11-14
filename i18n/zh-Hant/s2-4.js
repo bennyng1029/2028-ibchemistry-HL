@@ -128,12 +128,6 @@ S1.i18n.register('zh-Hant', 's2-4', {
     // Bonding is a continuum > data-def attribute
     "A diagram with ionic, covalent and metallic bonding at its three corners. A substance is placed on it using the electronegativities of its two elements.": "一幅以離子鍵合、共價鍵合和金屬鍵合為三個角的圖。物質按它兩種元素的電負性放在圖上。",
 
-    // Bonding is a continuum > p
-    "Remember that <dfn data-def=\"A measure of how strongly an atom attracts the shared pair of electrons in a covalent bond.\">electronegativity</dfn>, symbol <i>χ</i>, measures how strongly an atom attracts a shared pair of electrons.": "記住，<dfn data-def=\"量度原子吸引共價鍵中共用電子對的能力有多強。\">電負性 <span class=\"en-term\">(electronegativity)</span></dfn>（符號 <i>χ</i>）量度原子吸引共用電子對的能力有多強。",
-
-    // Bonding is a continuum > data-def attribute
-    "A measure of how strongly an atom attracts the shared pair of electrons in a covalent bond.": "量度原子吸引共價鍵中共用電子對的能力有多強。",
-
     // Bonding is a continuum > widget > data-title attribute
     "A map of bonding": "鍵合的地圖",
 
@@ -400,9 +394,6 @@ S1.i18n.register('zh-Hant', 's2-4', {
 
     // Placing a compound in the bonding triangle > table > td
     "Shared electron pairs": "共用電子對",
-
-    // Placing a compound in the bonding triangle > table > td
-    "Does not conduct in any state. Low melting point if it is made of molecules. Very high melting point if it is a covalent network.": "任何物態下都不導電。由分子構成的話，熔點低。屬巨型共價結構的話，熔點非常高。",
 
     // Placing a compound in the bonding triangle > table > td
     "Cations and delocalized electrons": "陽離子和離域電子",
@@ -823,14 +814,8 @@ S1.i18n.register('zh-Hant', 's2-4', {
     // Condensation polymers > Additional HL > p
     "Imagine a line of people where each person must take off a glove before shaking hands with a neighbour. A chain forms, and a pile of gloves is left over. In a condensation polymer, the “glove” is a small molecule, usually water.": "想像一排人，每個人都要先脫下一隻手套，才能與旁邊的人握手。這樣就形成一條鏈，並剩下一堆手套。在縮合聚合物中，「手套」是一個小分子，通常是水。",
 
-    // Condensation polymers > Additional HL > p
-    "A <dfn data-def=\"A polymer formed when functional groups on the monomers react together. A small molecule, usually water, is released each time a link forms.\">condensation polymer</dfn> forms when functional groups on the monomers react with each other. Each time two monomers join, a small molecule is released. A <dfn data-def=\"A group of atoms in a molecule that gives the molecule its typical reactions, such as –OH or –COOH.\">functional group</dfn> is a group of atoms that gives a molecule its typical reactions.": "<dfn data-def=\"單體上的官能基互相反應而形成的聚合物。每形成一個連接鍵，就放出一個小分子，通常是水。\">縮合聚合物 <span class=\"en-term\">(condensation polymer)</span></dfn>是由單體上的官能基互相反應而形成的。每當兩個單體連接，就放出一個小分子。<dfn data-def=\"分子中的一組原子，令分子具有它的典型反應，例如 –OH 或 –COOH。\">官能基 <span class=\"en-term\">(functional group)</span></dfn>是令分子具有典型反應的一組原子。",
-
     // Condensation polymers > Additional HL > data-def attribute
     "A polymer formed when functional groups on the monomers react together. A small molecule, usually water, is released each time a link forms.": "單體上的官能基互相反應而形成的聚合物。每形成一個連接鍵，就放出一個小分子，通常是水。",
-
-    // Condensation polymers > Additional HL > data-def attribute
-    "A group of atoms in a molecule that gives the molecule its typical reactions, such as –OH or –COOH.": "分子中的一組原子，令分子具有它的典型反應，例如 –OH 或 –COOH。",
 
     // Condensation polymers > Additional HL > p
     "Each monomer needs <strong>two</strong> functional groups, so that it can join to a neighbour on both sides. You need two kinds of condensation polymer.": "每個單體需要有<strong>兩個</strong>官能基，才能在兩邊各與一個相鄰的單體連接。你需要認識兩類縮合聚合物。",
@@ -1181,9 +1166,6 @@ S1.i18n.register('zh-Hant', 's2-4', {
     // Linking it up > p
     "Most plastics have a backbone of carbon atoms joined by strong, non-polar bonds. Water and microorganisms cannot break these bonds easily. A biodegradable plastic has other groups of atoms in its backbone, such as ester links, which can react with water. The chain then breaks into small molecules. You will meet these groups in Structure 3.2.": "大部分塑膠的主鏈由碳原子以強的非極性鍵連接而成。水和微生物不容易斷開這些鍵。可生物降解的塑膠，主鏈中有其他原子組合，例如酯鍵，可以與水反應。鏈於是斷開成小分子。你會在 Structure 3.2 認識這些基團。",
 
-    // Linking it up > Additional HL > p
-    "Ester and amide links are found in condensation polymers. They are broken by hydrolysis. So some polyesters and polyamides can be broken down in the environment, but addition polymers cannot.": "酯鍵和酰胺鍵存在於縮合聚合物中。它們可經水解斷開。所以有些聚酯和聚酰胺能在環境中分解，但加成聚合物不能。",
-
     // Exam-style practice > data-toc attribute
     // Exam-style practice > h2
     "Exam-style practice": "考試題型練習",
@@ -1310,9 +1292,6 @@ S1.i18n.register('zh-Hant', 's2-4', {
 
     // widget string (assets/js/widgets-s2-4.js)
     "The metallic model fits best. Expect a solid that conducts electricity and heat well and is malleable.": "金屬模型最適用。預計它是固體，導電和導熱良好，而且有展性。",
-
-    // widget string (assets/js/widgets-s2-4.js)
-    "The covalent model fits best, and the bonds are non-polar (Δχ = 0). Expect a poor electrical conductor. The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).": "共價模型最適用，而且鍵是非極性的 (Δχ = 0)。預計它導電性差。鍵合三角不能告訴你這種物質是由分子構成（熔點低），還是巨型共價結構（熔點非常高）。",
 
     // widget string (assets/js/widgets-s2-4.js)
     "The covalent model fits best. The bonds are polar, and more polar the higher the point sits. Expect a poor electrical conductor in every state. The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).": "共價模型最適用。鍵是極性的，點的位置越高，極性越強。預計它在任何物態下導電性都差。鍵合三角不能告訴你這種物質是由分子構成（熔點低），還是巨型共價結構（熔點非常高）。",
@@ -1463,9 +1442,6 @@ S1.i18n.register('zh-Hant', 's2-4', {
 
     // widget string (assets/js/widgets-s2-4.js)
     "Does not react with water, air, acids or alkalis": "不與水、空氣、酸或鹼反應",
-
-    // widget string (assets/js/widgets-s2-4.js)
-    "The chains are held together by strong covalent bonds, which take a lot of energy to break. So the polymer is chemically unreactive (inert).": "鏈由強的共價鍵結合，要大量能量才能斷開。所以聚合物在化學上不活潑（惰性）。",
 
     // widget string (assets/js/widgets-s2-4.js)
     "The chains are made mostly of light atoms such as carbon and hydrogen, and long chains do not pack tightly.": "鏈主要由碳和氫等輕的原子構成，而且長鏈不能緊密堆疊。",
@@ -1730,6 +1706,37 @@ S1.i18n.register('zh-Hant', 's2-4', {
 
     // widget string (assets/js/widgets-s2-4.js)
     "Hydrolysis: the linked molecule and one water molecule give back the two monomers. The atoms that came from water are outlined.": "水解：連接起來的分子和一個水分子，變回兩個單體。來自水的原子有框線標出。",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('zh-Hant', 's2-4', {
+  strings: {
+
+    // Bonding is a continuum > p
+    "Remember that <dfn data-def=\"The relative ability of an atom to attract a shared pair of electrons in a covalent bond.\">electronegativity</dfn>, symbol <i>χ</i>, measures how strongly an atom attracts a shared pair of electrons.": "記住，<dfn data-def=\"原子在共價鍵中吸引共用電子對的相對能力。\">電負性 <span class=\"en-term\">(electronegativity)</span></dfn>（符號 <i>χ</i>）量度原子吸引共用電子對的能力有多強。",
+
+    // Bonding is a continuum > data-def attribute
+    "The relative ability of an atom to attract a shared pair of electrons in a covalent bond.": "原子在共價鍵中吸引共用電子對的相對能力。",
+
+    // Placing a compound in the bonding triangle > table > td
+    "Does not conduct in any state (graphite and graphene are the exceptions). Low melting point if it is made of molecules. Very high melting point if it is a covalent network.": "任何物態下都不導電（石墨和石墨烯是例外）。由分子構成的話，熔點低。屬巨型共價結構的話，熔點非常高。",
+
+    // Condensation polymers > Additional HL > p
+    "A <dfn data-def=\"A polymer formed when functional groups on the monomers react together. A small molecule, usually water, is released each time a link forms.\">condensation polymer</dfn> forms when functional groups on the monomers react with each other. Each time two monomers join, a small molecule is released. A <dfn data-def=\"An atom or group of atoms that gives a compound its characteristic physical and chemical properties, such as –OH or –COOH.\">functional group</dfn> is an atom or group of atoms that gives a compound its characteristic physical and chemical properties.": "<dfn data-def=\"單體上的官能基互相反應而形成的聚合物。每形成一個連接鍵，就放出一個小分子，通常是水。\">縮合聚合物 <span class=\"en-term\">(condensation polymer)</span></dfn>是由單體上的官能基互相反應而形成的。每當兩個單體連接，就放出一個小分子。<dfn data-def=\"一個原子或一組原子，令化合物具有特有的物理性質和化學性質，例如 –OH 或 –COOH。\">官能基 <span class=\"en-term\">(functional group)</span></dfn>是一個原子或一組原子，令化合物具有特有的物理性質和化學性質。",
+
+    // Condensation polymers > Additional HL > data-def attribute
+    "An atom or group of atoms that gives a compound its characteristic physical and chemical properties, such as –OH or –COOH.": "一個原子或一組原子，令化合物具有特有的物理性質和化學性質，例如 –OH 或 –COOH。",
+
+    // Linking it up > Additional HL > p
+    "Ester and amide links are found in condensation polymers. They are broken by hydrolysis. So some polyesters and polyamides can be broken down in the environment by hydrolysis. Addition polymers have no such links, so they break down only very slowly.": "酯鍵和酰胺鍵存在於縮合聚合物中。它們可經水解斷開。所以有些聚酯和聚酰胺能在環境中經水解分解。加成聚合物沒有這類連接鍵，所以只會非常緩慢地分解。",
+
+    // widget string (assets/js/widgets-s2-4.js)
+    "The covalent model fits best, and the bonds are non-polar (Δχ = 0). Expect a poor electrical conductor (graphite and graphene are exceptions). The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).": "共價模型最適用，而且鍵是非極性的 (Δχ = 0)。預計它導電性差（石墨和石墨烯是例外）。鍵合三角不能告訴你這種物質是由分子構成（熔點低），還是巨型共價結構（熔點非常高）。",
+
+    // widget string (assets/js/widgets-s2-4.js)
+    "The atoms in each chain are joined by strong covalent bonds, which take a lot of energy to break. So the polymer is chemically unreactive (inert).": "每條鏈中的原子由強的共價鍵連接，要大量能量才能斷開。所以聚合物在化學上不活潑（惰性）。",
 
   }
 });

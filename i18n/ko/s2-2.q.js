@@ -265,8 +265,8 @@ S1.i18n.register('ko', 's2-2.q', {
         "공유 전자 6개가 서로 강하게 반발하므로 삼중 결합이 가장 약하다.",
       ],
       hints: [
-        // EN: Bond enthalpy is the energy needed to break the bond. A bigger value means a stronger bond.
-        "결합 엔탈피는 결합을 끊는 데 필요한 에너지예요. 값이 클수록 결합이 강해요.",
+        // EN: Bond enthalpy is the energy needed to break one mole of the bond in gaseous molecules. A bigger value means a stronger bond.
+        "결합 엔탈피는 기체 상태 분자 속 결합 1몰을 끊는 데 필요한 에너지예요. 값이 클수록 결합이 강해요.",
         // EN: Find the increase from single to double, and from double to triple.
         "단일에서 이중으로, 이중에서 삼중으로 늘어난 값을 구해 봐요.",
         // EN: For "directly proportional", doubling the pairs would double the bond enthalpy. Does it?
@@ -1137,8 +1137,8 @@ S1.i18n.register('ko', 's2-2.q', {
         "0": "쌍극자-쌍극자 힘은 극성 분자 두 개가 있어야 생겨요. 아르곤 원자에는 영구 쌍극자가 없어요.",
         // EN (option C): Hydrogen bonding needs an N, O or F atom on the other particle. Argon is not one of these.
         "2": "수소 결합이 생기려면 상대 입자에 N, O, F 원자가 있어야 해요. 아르곤은 여기에 해당하지 않아요.",
-        // EN (option D): Ionic bonding is the attraction between oppositely charged ions. Argon atoms and water molecules are not ions.
-        "3": "이온 결합은 반대 전하를 띤 이온 사이의 인력이에요. 아르곤 원자와 물 분자는 이온이 아니에요.",
+        // EN (option D): Ionic bonding is the electrostatic attraction between oppositely charged ions. Argon atoms and water molecules are not ions.
+        "3": "이온 결합은 반대 전하를 띤 이온 사이의 정전기적 인력이에요. 아르곤 원자와 물 분자는 이온이 아니에요.",
       },
     },
 

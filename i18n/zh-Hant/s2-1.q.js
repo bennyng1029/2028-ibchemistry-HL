@@ -263,10 +263,10 @@ S1.i18n.register('zh-Hant', 's2-1.q', {
       misconception: {
         // EN (option A): Electronegativity describes how strongly one atom attracts bonding electrons. It is a property of an element, not of the bonding in a compound.
         "0": "電負性描述一個原子吸引鍵合電子的能力有多強。它是元素的性質，不是化合物中鍵合的性質。",
-        // EN (option B): First ionization energy is the energy needed to remove an electron from a gaseous atom. It does not measure the attraction between ions in a lattice.
-        "1": "第一電離能是從氣態原子移走一個電子所需的能量。它並不量度晶格中離子之間的引力。",
-        // EN (option D): Relative formula mass is the mass of a formula unit. It tells you nothing about how strongly the ions attract each other.
-        "3": "相對式量是一個式單位的質量。它不能說明離子互相吸引得有多強。",
+        // EN (option B): First ionization energy is the minimum energy needed to remove one mole of electrons from one mole of gaseous atoms. It does not measure the attraction between ions in a lattice.
+        "1": "第一電離能是從一摩爾氣態原子移走一摩爾電子所需的最少能量。它並不量度晶格中離子之間的引力。",
+        // EN (option D): Relative formula mass is the sum of the relative atomic masses of the atoms in the formula. It has no units. It tells you nothing about how strongly the ions attract each other.
+        "3": "相對式量是化學式中各原子的相對原子質量的總和。它沒有單位。它不能說明離子互相吸引得有多強。",
       },
     },
 

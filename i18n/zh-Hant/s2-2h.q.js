@@ -1042,8 +1042,8 @@ S1.i18n.register('zh-Hant', 's2-2h.q', {
 
     // ── s2-2h-q039 · short · challenge · AHL · Structure 2.2.16 · 3 marks
     "s2-2h-q039": {
-      // EN: <p>Hydrogen cyanide has the structure H–C≡N, with one lone pair on nitrogen.</p><p>Analyse the bonding around the carbon atom. State its hybridization and the H–C–N bond angle, and describe how the σ bonds and the π bonds to carbon are formed.</p>
-      stem: "<p>氰化氫的結構是 H–C≡N，氮上有一個孤電子對。</p><p>分析 (analyse) 碳原子周圍的鍵合。寫出 (state) 它的雜化方式和 H–C–N 鍵角，並描述 (describe) 連接碳的 σ 鍵和 π 鍵怎樣形成。</p>",
+      // EN: <p>Hydrogen cyanide has the structure H–C≡N, with one lone pair on nitrogen.</p><p>State the hybridization of the carbon atom and the H–C–N bond angle, and describe how the σ bonds and the π bonds to carbon are formed.</p>
+      stem: "<p>氰化氫的結構是 H–C≡N，氮上有一個孤電子對。</p><p>寫出 (state) 碳原子的雜化方式和 H–C–N 鍵角，並描述 (describe) 連接碳的 σ 鍵和 π 鍵怎樣形成。</p>",
       hints: [
         // EN: Count the electron domains around carbon. A triple bond is one domain.
         "數出碳周圍的電子域。三鍵算一個電子域。",

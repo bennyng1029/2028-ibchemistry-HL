@@ -1094,9 +1094,6 @@ S1.i18n.register('ja', 's1-1', {
     // Linking it up > h3
     "Why are alloys generally considered to be mixtures, even though they often contain metallic bonding?": "合金は金属結合をもつことが多いのに、なぜ一般に混合物と考えられるのですか。",
 
-    // Linking it up > p
-    "An alloy does not have a fixed ratio of elements. Brass can be made with different proportions of copper and zinc. A compound always has a fixed ratio. The full picture of bonding in alloys comes in Structure 2.3.": "合金では、元素の比が決まっていません。黄銅（しんちゅう）は、銅と亜鉛の割合を変えて作れます。化合物では、比はいつも一定です。合金の結合については、Structure 2.3 でくわしく学びます。",
-
     // Linking it up > h3
     "Why are some changes of state endothermic and some exothermic?": "なぜ、吸熱の状態変化と発熱の状態変化があるのですか。",
 
@@ -1834,6 +1831,16 @@ S1.i18n.register('ja', 's1-1', {
 
     // widget string (assets/js/widgets-s1-1.js)
     "melting|curve": "融解",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('ja', 's1-1', {
+  strings: {
+
+    // Linking it up > p
+    "An alloy does not have a fixed ratio of elements. Brass can be made with different proportions of copper and zinc. A compound always has a fixed ratio. Metallic bonding is explained in Structure 2.3, and alloys in Structure 2.4.": "合金では、元素の比が決まっていません。黄銅（しんちゅう）は、銅と亜鉛の割合を変えて作れます。化合物では、比はいつも一定です。金属結合は Structure 2.3 で、合金は Structure 2.4 でくわしく学びます。",
 
   }
 });

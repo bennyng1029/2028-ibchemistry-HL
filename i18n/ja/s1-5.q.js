@@ -688,7 +688,7 @@ S1.i18n.register('ja', 's1-5.q', {
       solution: "<div class=\"worked__math\">V = 155 cm<sup>3</sup> ÷ 1000 = 0.155 dm<sup>3</sup>; &nbsp; T = 100.0 + 273.15 = 373.15 K</div><div class=\"worked__math\">n = (100 kPa × 0.155 dm<sup>3</sup>) ÷ (8.31 J K<sup>−1</sup> mol<sup>−1</sup> × 373.15 K) = 0.0049985… mol</div><div class=\"worked__math\">M = 0.230 g ÷ 0.0049985… mol = 46.01… g mol<sup>−1</sup> = <b>46.0 g mol<sup>−1</sup></b></div><p>分子式：100 g の中には、次の物質量が含まれます。</p><div class=\"worked__math\">C: 52.2 ÷ 12.01 = 4.346 mol; &nbsp; H: 13.1 ÷ 1.01 = 12.97 mol; &nbsp; O: 34.7 ÷ 16.00 = 2.169 mol</div><div class=\"worked__math\">2.169 で割ると: C 2.00 : H 5.98 : O 1.00 なので、組成式は C<sub>2</sub>H<sub>6</sub>O (46.08 g mol<sup>−1</sup>)</div><p>46.0 ÷ 46.08 ≈ 1 なので、分子式も <strong>C<sub>2</sub>H<sub>6</sub>O</strong> です。</p>",
     },
 
-    // ── s1-5-q028 · mcq · challenge · SL · Structure 1.5.4 · 2 marks
+    // ── s1-5-q028 · mcq · challenge · SL · Structure 1.5.4 · 1 mark
     "s1-5-q028": {
       // EN: <p>A gaseous hydrocarbon has the empirical formula <span class="chem">CH2</span>. A 1.40 g sample occupies 0.755 <span class="unit">dm3</span> at 91.0 °C and 100 kPa. What is the molecular formula of the hydrocarbon?</p>
       stem: "<p>ある気体の炭化水素の組成式 (empirical formula)は <span class=\"chem\">CH2</span> です。この試料 1.40 g は、91.0 °C、100 kPa で 0.755 <span class=\"unit\">dm3</span> を占めます。この炭化水素の分子式はどれですか。</p>",
