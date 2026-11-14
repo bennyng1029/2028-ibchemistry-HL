@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lab 10 Periodic trends in the laboratory | Structure Lab</title>
+<meta name="description" content="A guided virtual practical for IB Chemistry Structure 3.1: halogen displacement reactions with a non-polar solvent layer, group 1 metals with water, and the acid–base character of oxides from the pH of their mixtures with water.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for Lab 10. Existing tokens only. */
+.lpt-results { flex: 1 1 100%; min-width: 0; font-family: var(--font-body); }
+.lpt-results__title { font-size: 0.76rem; color: var(--ink-3); margin: 0.2rem 0 0.3rem; }
+.lpt-results table.data { font-size: 0.88rem; margin: 0; }
+.lpt-results .muted { font-size: 0.88rem; margin: 0; }
+.widget .btn[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.lpt-msg { margin-top: 0.75rem; padding: 0.6rem 0.8rem; border: 1px solid var(--line-strong); border-left-width: 4px; background: var(--surface-2); max-width: 44rem; }
+.lpt-msg[hidden] { display: none; }
+.lpt-msg p { margin: 0 0 0.4rem; }
+.lpt-msg p:last-child { margin-bottom: 0; }
+.lpt-msg[data-tone="bad"] { border-color: var(--bad); background: var(--bad-soft); }
+.lpt-msg[data-tone="ok"] { border-color: var(--ok); background: var(--ok-soft); }
+.lpt-msg[data-tone="warn"] { border-color: var(--amber-line); background: var(--amber-soft); }
+.lpt-q { font-weight: 700; margin: 0.75rem 0 0.4rem; }
+.lpt-obs { margin: 0.5rem 0 0; padding-left: 1.2rem; font-family: var(--font-body); font-size: 0.95rem; }
+.lpt-obs li { margin: 0.15rem 0; }
+.lpt-eq { font-family: var(--font-mono); }
+</style>
+</head>
+<body data-page="lab-periodicity">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="lab-periodicity"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Lab 10 · Structure 3.1</p>
+      <h1>Periodic trends in the laboratory</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>How can simple test-tube reactions show the patterns that the position of an element in the periodic table predicts?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <!-- ============================================================ GOALS -->
+      <section class="topic-section" id="goals" data-toc="What you need to do">
+        <h2>What you need to be able to do</h2>
+        <p>Tick each one when you can do it without looking at your notes.</p>
+        <ul class="checklist" data-s1-checklist="lab-periodicity">
+          <li data-id="displacement-observe" data-level="sl">Describe what you see when a halogen is added to a solution of halide ions, and use a non-polar solvent layer to tell which halogen is present.</li>
+          <li data-id="ionic-equation" data-level="sl">Write the ionic equation, with state symbols, for a halogen displacement reaction from your observations.</li>
+          <li data-id="group17-order" data-level="sl">Deduce the order of reactivity of chlorine, bromine and iodine from your results, and explain it.</li>
+          <li data-id="group1-observe" data-level="sl">Describe and explain the reactions of lithium, sodium and potassium with water, and write the equation.</li>
+          <li data-id="oxide-ph" data-level="sl">Classify an oxide as basic or acidic from the pH of its mixture with water, and write the equation for group 1 and 2 metal oxides and the oxides of carbon and sulfur.</li>
+          <li data-id="controls" data-level="sl">Explain the purpose of a control, and judge how reliable a colour observation is.</li>
+          <li data-id="mean-uncertainty" data-level="sl">Process repeated timings into a mean with an uncertainty, and decide whether two results really differ.</li>
+          <li data-id="evaluate" data-level="sl">Name the main sources of error in these practicals and suggest realistic improvements.</li>
+        </ul>
+      </section>
+
+      <!-- ============================================================ BACKGROUND -->
+      <section class="topic-section" id="background" data-toc="The chemistry behind it">
+        <span class="section-code">Structure 3.1.4, 3.1.5</span>
+        <h2>The chemistry behind it</h2>
+        <h3>Down group 17</h3>
+        <p>A halogen atom reacts by gaining one electron. Going down the group, the outer energy level is further from the nucleus and more shielded. An extra electron is attracted less strongly, so the halogens get <b>less reactive</b> down the group.</p>
+        <p>A more reactive halogen takes electrons from the halide ions of a less reactive one. This is a <dfn data-def="A reaction in which a more reactive element takes the place of a less reactive element in a compound.">displacement reaction</dfn>. The new halogen that forms shows up as a colour change.</p>
+        <h3>Down group 1</h3>
+        <p>A group 1 atom reacts by losing its one outer electron. Going down the group, that electron is further from the nucleus and more shielded, so it is lost more easily. The metals get <b>more reactive</b> down the group. With water they form a metal hydroxide and hydrogen:</p>
+        <p data-i18n="off"><span class="chem">2M(s) + 2H2O(l) -> 2MOH(aq) + H2(g)</span></p>
+        <h3>Across a period: oxides</h3>
+        <p>Metal oxides are <b>basic</b>: those that dissolve give alkaline solutions (pH above 7). Non-metal oxides are <b>acidic</b>: those that dissolve give acidic solutions (pH below 7). Aluminium oxide sits between them: it is <dfn data-def="Able to react both as an acid and as a base.">amphoteric</dfn>.</p>
+        <p>The full story, with the explanations, is on the topic page: <a href="../topics/s3-1.html#groups">group 1 and group 17</a> and <a href="../topics/s3-1.html#oxides">oxides</a>.</p>
+
+        <aside class="callout callout--scope">
+          <p>The guide does not give a list of colours to learn. Exam questions usually describe the colours, but knowing them helps you describe and interpret observations. You need equations with water only for the oxides of group 1 and group 2 metals, carbon and sulfur. The other oxides in this lab are here to show the trend.</p>
+        </aside>
+      </section>
+
+      <!-- ============================================================ PLAN -->
+      <section class="topic-section" id="plan" data-toc="Aim, variables and safety">
+        <h2>Aim, variables and safety</h2>
+        <h3>Aim</h3>
+        <p>To find the order of reactivity of the halogens and of the group 1 metals, and to show how the acid–base character of oxides changes from metals to non-metals.</p>
+
+        <h3>Variables</h3>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Variables in the three parts of this lab</caption>
+            <thead><tr><th scope="col">Part</th><th scope="col">Independent</th><th scope="col">Dependent</th><th scope="col">Controlled</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">A: halogens</th><td>The halogen and the halide ion</td><td>The colour of the water layer and of the cyclohexane layer</td><td>Volume and concentration of each halide solution (2 cm<sup>3</sup>, 0.1 mol dm<sup>−3</sup>); number of drops of halogen solution; volume of cyclohexane; time of shaking</td></tr>
+              <tr><th scope="row">B: group 1</th><td>The metal</td><td>Observations; time for the piece to disappear</td><td>Size of the piece; volume and temperature of the water; the same indicator</td></tr>
+              <tr><th scope="row">C: oxides</th><td>The oxide</td><td>pH of the mixture with water</td><td>Mass of solid (0.50 g) or time of bubbling the gas; volume of water (50 cm<sup>3</sup>); stirring time; temperature</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Equipment</h3>
+        <ul>
+          <li>Part A: test tubes in a rack, stoppers, dropping pipettes; 0.1 mol dm<sup>−3</sup> potassium chloride, potassium bromide and potassium iodide solutions; distilled water; chlorine water, dilute bromine water and iodine solution; cyclohexane; a white tile behind the rack.</li>
+          <li>Part B (teacher demonstration): lithium, sodium and potassium stored under oil; scalpel, tile, forceps, filter paper; a large glass trough of water with universal indicator; safety screen; stopwatch; ruler.</li>
+          <li>Part C: 100 cm<sup>3</sup> beakers, 50 cm<sup>3</sup> measuring cylinder, balance (±0.01 g), stirring rod; universal indicator; a pH meter calibrated with buffer solutions; the oxides (see the safety notes).</li>
+        </ul>
+
+        <aside class="callout callout--safety">
+          <p>Wear <b>eye protection</b> throughout. <b>Chlorine water and bromine water</b> give off toxic, choking vapours, and bromine water is harmful on skin. Use small volumes of dilute solutions, in a fume cupboard or a well-ventilated room. Anyone with asthma should take extra care.</p>
+          <p><b>Cyclohexane</b> is highly flammable and its vapour is harmful. No flames in the room during Part A. Keep the tubes stoppered, and pour the mixtures into the labelled halogenated waste bottle, not down the sink.</p>
+          <p><b>Group 1 metals</b>: teacher demonstration only, behind a safety screen, with students at least 2 m away. Use a piece no bigger than a 3 mm cube, in a large trough of water, never in a test tube. Potassium can spit hot metal. The hydroxide solution formed is corrosive.</p>
+          <p><b>Oxides</b>: sulfur is burned in a fume cupboard, because sulfur dioxide is toxic and can trigger asthma. <b>Phosphorus(V) oxide</b> reacts violently with water and is corrosive: teacher only, a tiny amount, in a fume cupboard. Sodium oxide and calcium oxide are corrosive and get hot with water. Do not look directly at burning magnesium.</p>
+        </aside>
+      </section>
+
+      <!-- ============================================================ METHOD -->
+      <section class="topic-section" id="method" data-toc="Method">
+        <h2>Method</h2>
+        <h3>Part A: halogens and halide ions</h3>
+        <ol>
+          <li>Put 2 cm<sup>3</sup> of potassium chloride, potassium bromide and potassium iodide solution into three test tubes. Put 2 cm<sup>3</sup> of distilled water into a fourth tube. The water tube is a <b>control</b>: it shows the colour of the halogen solution on its own.</li>
+          <li>Add 10 drops of chlorine water to each tube. Shake gently and record the colour against a white tile.</li>
+          <li>Add 1 cm<sup>3</sup> of cyclohexane to each tube, stopper and shake for 10 seconds. Let the layers separate. Cyclohexane does not mix with water and floats on top. Halogens are non-polar molecules, so they dissolve better in the non-polar cyclohexane, where each has a clear colour.</li>
+          <li>Record the colour of both layers. Compare each tube with the control.</li>
+          <li>Repeat steps 1 to 4 with bromine water and then with iodine solution. Iodine dissolves only slightly in water, so iodine solution is made with a little potassium iodide.</li>
+        </ol>
+        <h3>Part B: group 1 metals with water (teacher demonstration)</h3>
+        <ol start="6">
+          <li>Cut a piece of lithium about 3 mm on each side, on a tile. Cut a fresh surface so that the oxide coating does not delay the reaction. Blot off the oil with filter paper.</li>
+          <li>Drop the piece onto the water in the trough and start the stopwatch. Record what you see. Stop the stopwatch when the piece has gone.</li>
+          <li>Repeat with fresh water at least twice for each metal, then with sodium and potassium. Keep the piece the same size each time.</li>
+        </ol>
+        <h3>Part C: oxides with water</h3>
+        <ol start="9">
+          <li>Put 50 cm<sup>3</sup> of distilled water in a beaker. Measure its pH. This is the control.</li>
+          <li>Add 0.50 g of a solid oxide to 50 cm<sup>3</sup> of fresh distilled water, stir for one minute and measure the pH. For a gas, bubble it through the water for one minute, or shake the water in the gas jar where the element was burned.</li>
+          <li>Use universal indicator for a quick estimate and a calibrated pH meter for a reading to ±0.1. Rinse the probe with distilled water between samples.</li>
+        </ol>
+      </section>
+
+      <!-- ============================================================ EXPERIMENT -->
+      <section class="topic-section" id="experiment" data-toc="Run the experiment">
+        <h2>Run the experiment</h2>
+        <h3>Part A: halogens and halide ions</h3>
+        <figure data-s1-widget="lab-periodicity.halogens" data-title="Halogen solutions with halide ions">
+          <p class="widget__fallback">An interactive test-tube rack appears here when JavaScript is on. Chlorine water turns potassium bromide solution yellow-orange and potassium iodide solution brown. With cyclohexane, bromine gives an orange top layer and iodine a violet top layer.</p>
+          <figcaption>Choose a halogen solution, add it to all four tubes, then add cyclohexane and shake. Do this for all three halogens, then put them in order of reactivity. Compare every tube with the water control.</figcaption>
+        </figure>
+        <aside class="callout callout--mistake">
+          <p>Brown in the water layer does not prove that iodine was made: the iodine solution is brown before it reacts. Look at the control tube and at the cyclohexane layer. A violet top layer in a tube where iodine was not added shows that iodine has formed.</p>
+        </aside>
+
+        <h3>Part B: group 1 metals with water</h3>
+        <figure data-s1-widget="lab-periodicity.group1" data-title="Group 1 metals with water: timed demonstration">
+          <p class="widget__fallback">An interactive demonstration appears here when JavaScript is on. Lithium fizzes steadily for about a minute, sodium melts into a ball and is gone in about 15 s, potassium burns with a lilac flame and is gone in a few seconds.</p>
+          <figcaption>Choose a metal and drop in a piece. Time how long it takes to disappear. Do at least three runs for each metal; the readout gives the mean and its uncertainty.</figcaption>
+        </figure>
+
+        <h3>Part C: oxides with water</h3>
+        <figure data-s1-widget="lab-periodicity.oxides" data-title="Oxides with water: measuring the pH">
+          <p class="widget__fallback">An interactive pH test appears here when JavaScript is on. Sodium, magnesium and calcium oxides give alkaline solutions; carbon dioxide, sulfur dioxide and phosphorus(V) oxide give acidic solutions; aluminium oxide and silicon dioxide do not dissolve.</p>
+          <figcaption>Start with the water control. Then add each oxide, measure the pH, and classify the oxide. The equation appears once you have classified it.</figcaption>
+        </figure>
+      </section>
+
+      <!-- ============================================================ PROCESSING -->
+      <section class="topic-section" id="processing" data-toc="Processing the data">
+        <h2>Processing the data</h2>
+        <h3>From observations to an ionic equation</h3>
+        <div class="worked" data-s1-worked data-kicker="Worked example 1">
+          <h3 class="worked__title">Chlorine water and potassium bromide</h3>
+          <div class="worked__problem">
+            <p>Chlorine water was added to potassium bromide solution. The solution turned yellow-orange. After shaking with cyclohexane, the top layer was orange. The control (chlorine water and water) stayed almost colourless in both layers. Write the ionic equation, with state symbols, and state what it shows.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Interpret the colour">
+              <p class="worked__why">An orange cyclohexane layer means bromine. The control shows that chlorine alone does not give this colour, so bromine has formed.</p>
+              <div class="worked__math">product: <span class="chem">Br2</span></div>
+            </li>
+            <li data-title="Write the full equation">
+              <p class="worked__why">Chlorine takes the place of bromine in the salt. Balance the halogen atoms.</p>
+              <div class="worked__math"><span class="chem">Cl2(aq) + 2KBr(aq) -> 2KCl(aq) + Br2(aq)</span></div>
+            </li>
+            <li data-title="Remove the spectator ions">
+              <p class="worked__why">The potassium ions are the same on both sides, so they take no part.</p>
+              <div class="worked__math"><b><span class="chem">Cl2(aq) + 2Br-(aq) -> 2Cl-(aq) + Br2(aq)</span></b></div>
+            </li>
+            <li data-title="Conclude">
+              <p class="worked__why">A halogen can only displace a halogen that is less reactive than itself.</p>
+              <div class="worked__math">chlorine is more reactive than bromine</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p><span class="chem">Cl2(aq) + 2Br-(aq) -> 2Cl-(aq) + Br2(aq)</span>. Chlorine is more reactive than bromine.</p></div>
+        </div>
+
+        <h3>From a pH reading to an equation</h3>
+        <p>Typical readings with a calibrated pH meter. The control (distilled water) is slightly acidic, because carbon dioxide from the air dissolves in it.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Oxides with water: results, character and equations</caption>
+            <thead><tr><th scope="col">Oxide</th><th scope="col" class="num">pH</th><th scope="col">Character</th><th scope="col">Equation</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">none (control)</th><td class="num">5.8</td><td>—</td><td>—</td></tr>
+              <tr><th scope="row">sodium oxide</th><td class="num">13.2</td><td>basic</td><td><span class="chem">Na2O(s) + H2O(l) -> 2NaOH(aq)</span></td></tr>
+              <tr><th scope="row">magnesium oxide</th><td class="num">10.1</td><td>basic</td><td><span class="chem">MgO(s) + H2O(l) -> Mg(OH)2(aq)</span></td></tr>
+              <tr><th scope="row">calcium oxide</th><td class="num">12.3</td><td>basic</td><td><span class="chem">CaO(s) + H2O(l) -> Ca(OH)2(aq)</span></td></tr>
+              <tr><th scope="row">carbon dioxide</th><td class="num">4.0</td><td>acidic</td><td><span class="chem">CO2(g) + H2O(l) &lt;=&gt; H2CO3(aq)</span></td></tr>
+              <tr><th scope="row">sulfur dioxide</th><td class="num">2.4</td><td>acidic</td><td><span class="chem">SO2(g) + H2O(l) &lt;=&gt; H2SO3(aq)</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Magnesium hydroxide dissolves only slightly, so its solution is only weakly alkaline. A low pH change does not mean a weakly basic oxide if the oxide hardly dissolves.</p>
+
+        <div data-s1-quiz data-ids="lab-periodicity-q003,lab-periodicity-q010,lab-periodicity-q011" data-shuffle="false" data-title="Write the equations"></div>
+
+        <h3>Repeated timings: mean and uncertainty</h3>
+        <div class="worked" data-s1-worked data-kicker="Worked example 2">
+          <h3 class="worked__title">How long does lithium take?</h3>
+          <div class="worked__problem">
+            <p>Three pieces of lithium took 58.2 s, 52.6 s and 61.0 s to disappear. Calculate the mean time with its absolute and percentage uncertainty.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the mean">
+              <p class="worked__why">Average the repeats to reduce the effect of random error.</p>
+              <div class="worked__math">mean = (58.2 + 52.6 + 61.0) / 3 = 57.27 s</div>
+            </li>
+            <li data-title="Uncertainty from the range">
+              <p class="worked__why">The scatter of the repeats is much bigger than the stopwatch precision, so use half the range.</p>
+              <div class="worked__math">uncertainty = (61.0 − 52.6) / 2 = 4.2 s ≈ 4 s</div>
+            </li>
+            <li data-title="Percentage uncertainty">
+              <p class="worked__why">Divide by the mean and multiply by 100.</p>
+              <div class="worked__math">4.2 / 57.27 × 100 = 7.3 %</div>
+            </li>
+            <li data-title="Round together">
+              <p class="worked__why">Give the uncertainty to one significant figure and the mean to the same place.</p>
+              <div class="worked__math">time = <b>57 ± 4 s</b> (7 %)</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>57 ± 4 s, a percentage uncertainty of about 7 %.</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="7.80" data-tolerance="3%" data-sigfigs="1-2" data-unit="%">
+          <div class="tryit__q"><p>Four pieces of sodium took 13.8 s, 15.1 s, 12.9 s and 14.6 s. Calculate the percentage uncertainty of the mean time, using half the range as the absolute uncertainty.</p></div>
+          <ol class="tryit__hints">
+            <li>Find the mean of the four times first.</li>
+            <li>Half the range is (15.1 − 12.9) / 2. Divide it by the mean and multiply by 100.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">mean = (13.8 + 15.1 + 12.9 + 14.6) / 4 = 14.1 s</div>
+            <div class="worked__math">uncertainty = (15.1 − 12.9) / 2 = 1.1 s</div>
+            <div class="worked__math">1.1 / 14.1 × 100 = <b>7.8 %</b>, so time = 14.1 ± 1.1 s</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================ UNCERTAINTY -->
+      <section class="topic-section" id="uncertainty" data-toc="Uncertainties">
+        <h2>Uncertainties</h2>
+        <h3>Colour observations</h3>
+        <p>Most of Part A is qualitative. A colour has no ± value, but you can still make the observation reliable:</p>
+        <ul>
+          <li><b>Controls:</b> the halogen in water shows the colour before any reaction. A change is a difference from the control, not a colour on its own.</li>
+          <li><b>A second test:</b> the cyclohexane layer separates brown iodine from yellow-orange bromine, which can look alike in water.</li>
+          <li><b>Same conditions:</b> the same volumes, a white background and the same light for every tube.</li>
+          <li><b>Repeats:</b> repeat each mixture and ask a partner to describe the colour without telling them what you expect.</li>
+        </ul>
+
+        <h3>Timings</h3>
+        <p>The stopwatch reads to 0.01 s, but your reaction time is about 0.2 to 0.5 s, and judging when the piece has “gone” is harder still. The sizes of the pieces also differ. So the scatter of repeated runs is the best measure of uncertainty, as in worked example 2.</p>
+        <p>Do the results show a real difference? Lithium took 57 ± 4 s and sodium 14.1 ± 1.1 s. The ranges (53 to 61 s and 13.0 to 15.2 s) do not overlap, so the difference is larger than the uncertainty: sodium really does react faster.</p>
+
+        <h3>pH readings</h3>
+        <p>Universal indicator gives the pH to about ±1 from a colour chart. A calibrated pH meter reads to ±0.1. Compare every reading with the control, not with pH 7.</p>
+        <p>The literature value for saturated calcium hydroxide solution at 25 °C is about pH 12.4. A reading of 12.1 gives:</p>
+        <div class="worked__math">percentage error = (12.4 − 12.1) / 12.4 × 100 = 2.4 %</div>
+        <p>The difference, 0.3, is larger than the meter uncertainty of ±0.1. So there is probably a systematic effect: the solution was not saturated, it was warmer than 25 °C, or it had absorbed carbon dioxide from the air.</p>
+      </section>
+
+      <!-- ============================================================ EVALUATION -->
+      <section class="topic-section" id="evaluation" data-toc="Errors and improvements">
+        <h2>Evaluation: errors and improvements</h2>
+        <p><b>Random errors</b> scatter results on both sides of the true value, such as pieces of metal of slightly different size. Repeating and averaging reduces their effect. <b>Systematic errors</b> push every result the same way, such as an old chlorine water that has lost most of its chlorine. Repeating does not help.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Sources of error, their effect and improvements</caption>
+            <thead><tr><th scope="col">Source of error</th><th scope="col">Effect on the result</th><th scope="col">Realistic improvement</th></tr></thead>
+            <tbody>
+              <tr><td>Chlorine water is old: chlorine escapes from the solution over time</td><td>Little bromine or iodine forms, so the colour change is faint and a reaction may be missed. Systematic.</td><td>Use freshly made chlorine water, kept stoppered.</td></tr>
+              <tr><td>Brown and yellow-orange look alike in dilute water solutions</td><td>Bromine and iodine can be confused.</td><td>Shake with cyclohexane and compare the top layers (orange or violet); use a white background and a control tube.</td></tr>
+              <tr><td>Pieces of metal of different sizes</td><td>Bigger pieces take longer, so the times scatter. Random.</td><td>Cut cubes of the same size with a ruler, or weigh the pieces; do more repeats.</td></tr>
+              <tr><td>Oxide coating on the metal</td><td>The reaction starts late, so the time is too long. Systematic.</td><td>Cut a fresh surface just before each run.</td></tr>
+              <tr><td>Water warms up or becomes alkaline after several runs</td><td>Later runs are faster. Systematic.</td><td>Use fresh water at the same temperature for every run.</td></tr>
+              <tr><td>Carbon dioxide from the air dissolves in the water</td><td>The control is about pH 5.8, not 7, and alkaline readings drift down. Systematic.</td><td>Measure a control; use freshly boiled and cooled water; measure straight away.</td></tr>
+              <tr><td>Different amounts of oxide, or not stirred for the same time</td><td>The pH depends on how much dissolves. Random.</td><td>Weigh 0.50 g of each solid; stir for the same time; repeat.</td></tr>
+              <tr><td>Universal indicator colours judged by eye</td><td>pH known only to about ±1.</td><td>Use a pH meter calibrated with buffer solutions.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <aside class="callout callout--exam">
+          <p>For an improvement, name the exact change and say what it fixes. “Use fresh chlorine water, because chlorine escapes from old solutions” earns the mark. “Be more careful” does not.</p>
+        </aside>
+      </section>
+
+      <!-- ============================================================ EXAM -->
+      <section class="topic-section" id="exam" data-toc="Exam practice">
+        <h2>Exam practice</h2>
+        <p>Questions in the style of Paper 1B, built on this practical. You get feedback after each one, and questions you have not yet answered correctly come up first.</p>
+        <div data-s1-quiz data-topic="lab-periodicity" data-count="0" data-title="Lab 10: periodic trends in the laboratory"></div>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../data/questions-lab-periodicity.js"></script>
+<script src="../assets/js/widgets-lab-periodicity.js"></script>
+</body>
+</html>
