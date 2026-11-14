@@ -274,7 +274,7 @@ Structure Lab(IB Chemistry, Structure 1·2·3, first assessment 2025)을 한국�
 | Pauli exclusion principle | 파울리 배타 원리 |
 | Hund's rule | 훈트 규칙 |
 | spin | 스핀 |
-| condensed configuration (noble-gas core) | 축약 전자 배치 (비활성 기체 핵심) |
+| condensed configuration (noble-gas core) | 축약 전자 배치 (비활성 기체 코어) |
 | ionization energy (first / successive) | 이온화 에너지 (제1 / 순차) |
 | valence electron | 원자가 전자 |
 
@@ -390,7 +390,7 @@ Structure Lab(IB Chemistry, Structure 1·2·3, first assessment 2025)을 한국�
 | isomer / structural isomer / stereoisomer | 이성질체 / 구조 이성질체 / 입체 이성질체 |
 | cis-trans isomers | 시스-트랜스 이성질체 |
 | optical isomer / enantiomer / chiral | 광학 이성질체 / 거울상 이성질체 / 카이랄 |
-| racemic mixture | 라셈 혼합물 |
+| racemic mixture | 라세미 혼합물 |
 | plane-polarized light | 평면 편광 |
 | infrared (IR) spectroscopy | 적외선(IR) 분광법 |
 | wavenumber | 파수 |

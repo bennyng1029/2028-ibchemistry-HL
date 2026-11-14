@@ -317,7 +317,7 @@ S1.i18n.register('ko', 's3-2h.q', {
     // ── s3-2h-q012 · short · exam · AHL · Structure 3.2.7 · 2 marks
     "s3-2h-q012": {
       // EN: <p>State what is meant by a <strong>racemic mixture</strong>, and explain why a racemic mixture is not optically active.</p>
-      stem: "<p><strong>라셈 혼합물</strong>이 무엇을 뜻하는지 쓰고 (state), 라셈 혼합물이 광학 활성을 나타내지 않는 이유를 설명하시오 (explain).</p>",
+      stem: "<p><strong>라세미 혼합물</strong>이 무엇을 뜻하는지 쓰고 (state), 라세미 혼합물이 광학 활성을 나타내지 않는 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: How much of each enantiomer does the mixture contain?
         "혼합물에 각 거울상 이성질체가 얼마나 들어 있나요?",
@@ -327,7 +327,7 @@ S1.i18n.register('ko', 's3-2h.q', {
       // EN: <p>Use the words "equal amounts" and "enantiomers" for the first mark. For the second mark say that the rotations are equal and opposite, so they cancel. "It contains both forms" is too vague to score.</p>
       solution: "<p>첫 번째 점수를 받으려면 “같은 양”과 “거울상 이성질체”라는 말을 쓰세요. 두 번째 점수를 받으려면 회전이 크기는 같고 방향은 반대라서 상쇄된다고 쓰세요. “두 형태를 모두 포함한다”는 너무 막연해서 점수를 받지 못해요.</p>",
       // EN: <p>A racemic mixture contains equal amounts of the two enantiomers of a chiral compound. One enantiomer rotates the plane of plane-polarised light clockwise and the other rotates it anticlockwise by the same angle, so the two rotations cancel and there is no overall rotation.</p>
-      answer: "<p>라셈 혼합물은 카이랄 화합물의 두 거울상 이성질체를 같은 양씩 포함해요. 한 거울상 이성질체는 평면 편광의 편광면을 시계 방향으로, 다른 하나는 같은 각도만큼 시계 반대 방향으로 회전시키므로, 두 회전이 상쇄되어 전체적으로는 회전이 없어요.</p>",
+      answer: "<p>라세미 혼합물은 카이랄 화합물의 두 거울상 이성질체를 같은 양씩 포함해요. 한 거울상 이성질체는 평면 편광의 편광면을 시계 방향으로, 다른 하나는 같은 각도만큼 시계 반대 방향으로 회전시키므로, 두 회전이 상쇄되어 전체적으로는 회전이 없어요.</p>",
       markscheme: [
         // EN: A mixture containing equal amounts (equimolar / 50:50) of the two enantiomers.
         "두 거울상 이성질체를 같은 양(같은 몰수 / 50:50)씩 포함한 혼합물.",
@@ -342,27 +342,27 @@ S1.i18n.register('ko', 's3-2h.q', {
       stem: "<p>편광계는 시료가 평면 편광의 편광면을 회전시키는 각도를 측정해요.</p><p>어떤 화합물의 한 거울상 이성질체 용액은 빛을 시계 방향으로 13° 회전시켜요. 전체 농도가 같은 용액 두 개를 같은 편광계 관에 넣어 더 측정해요.</p><p>각 용액에서 예상되는 회전은 무엇인가요?</p>",
       options: [
         // EN: Other enantiomer: 13° anticlockwise. Racemic mixture: 0°.
-        "다른 거울상 이성질체: 시계 반대 방향 13°. 라셈 혼합물: 0°.",
+        "다른 거울상 이성질체: 시계 반대 방향 13°. 라세미 혼합물: 0°.",
         // EN: Other enantiomer: 13° clockwise. Racemic mixture: 0°.
-        "다른 거울상 이성질체: 시계 방향 13°. 라셈 혼합물: 0°.",
+        "다른 거울상 이성질체: 시계 방향 13°. 라세미 혼합물: 0°.",
         // EN: Other enantiomer: 13° anticlockwise. Racemic mixture: 26° clockwise.
-        "다른 거울상 이성질체: 시계 반대 방향 13°. 라셈 혼합물: 시계 방향 26°.",
+        "다른 거울상 이성질체: 시계 반대 방향 13°. 라세미 혼합물: 시계 방향 26°.",
         // EN: Other enantiomer: 0°. Racemic mixture: 13° anticlockwise.
-        "다른 거울상 이성질체: 0°. 라셈 혼합물: 시계 반대 방향 13°.",
+        "다른 거울상 이성질체: 0°. 라세미 혼합물: 시계 반대 방향 13°.",
       ],
       hints: [
         // EN: Two enantiomers rotate plane-polarised light by the same angle. What about the direction?
         "두 거울상 이성질체는 평면 편광을 같은 각도만큼 회전시켜요. 방향은 어떨까요?",
         // EN: A racemic mixture has equal amounts of both enantiomers. Add a clockwise and an equal anticlockwise rotation.
-        "라셈 혼합물에는 두 거울상 이성질체가 같은 양씩 들어 있어요. 시계 방향 회전과 같은 크기의 시계 반대 방향 회전을 더해 보세요.",
+        "라세미 혼합물에는 두 거울상 이성질체가 같은 양씩 들어 있어요. 시계 방향 회전과 같은 크기의 시계 반대 방향 회전을 더해 보세요.",
       ],
       // EN: <p>The other enantiomer rotates the light by the same angle in the opposite direction: 13° anticlockwise.</p><p>A racemic mixture contains equal amounts of both enantiomers. The clockwise and anticlockwise rotations cancel, so the reading is 0°. The mixture is optically inactive.</p>
-      solution: "<p>다른 거울상 이성질체는 빛을 같은 각도만큼 반대 방향으로 회전시켜요. 즉 시계 반대 방향 13°예요.</p><p>라셈 혼합물에는 두 거울상 이성질체가 같은 양씩 들어 있어요. 시계 방향 회전과 시계 반대 방향 회전이 상쇄되므로 측정값은 0°예요. 이 혼합물은 광학 활성이 없어요.</p>",
+      solution: "<p>다른 거울상 이성질체는 빛을 같은 각도만큼 반대 방향으로 회전시켜요. 즉 시계 반대 방향 13°예요.</p><p>라세미 혼합물에는 두 거울상 이성질체가 같은 양씩 들어 있어요. 시계 방향 회전과 시계 반대 방향 회전이 상쇄되므로 측정값은 0°예요. 이 혼합물은 광학 활성이 없어요.</p>",
       misconception: {
         // EN (option B): If both enantiomers rotated the light in the same direction, a polarimeter could not tell them apart. They rotate it in opposite directions.
         "1": "두 거울상 이성질체가 빛을 같은 방향으로 회전시킨다면 편광계로 둘을 구별할 수 없을 거예요. 둘은 빛을 반대 방향으로 회전시켜요.",
         // EN (option C): The rotations of the two enantiomers do not add up in a racemic mixture. They are opposite, so they cancel.
-        "2": "라셈 혼합물에서 두 거울상 이성질체의 회전은 더해지지 않아요. 방향이 반대이므로 상쇄돼요.",
+        "2": "라세미 혼합물에서 두 거울상 이성질체의 회전은 더해지지 않아요. 방향이 반대이므로 상쇄돼요.",
         // EN (option D): Both enantiomers are optically active. It is the 50:50 mixture that shows no rotation.
         "3": "두 거울상 이성질체는 모두 광학 활성이 있어요. 회전을 나타내지 않는 것은 50:50 혼합물이에요.",
       },

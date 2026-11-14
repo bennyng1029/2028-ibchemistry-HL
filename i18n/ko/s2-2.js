@@ -15,7 +15,7 @@ S1.i18n.register('ko', 's2-2', {
     "The covalent model": "공유 결합 모형",
 
     // The covalent model > page header > span
-    "What determines the covalent nature and properties of a substance?": "물질의 공유 결합성과 성질은 무엇으로 결정될까?",
+    "What determines the covalent nature and properties of a substance?": "물질의 공유 결합성과 성질은 무엇으로 결정될까요?",
 
     // What you need to be able to do > data-toc attribute
     "What you need to do": "할 수 있어야 할 것",
@@ -144,16 +144,16 @@ S1.i18n.register('ko', 's2-2', {
     "F, Cl, Br, I": "F, Cl, Br, I",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "The <dfn data-def=\"The tendency of atoms to gain a valence shell with a total of 8 electrons.\">octet rule</dfn> is the tendency of atoms to gain a valence shell with a total of 8 electrons. Atoms can reach 8 by sharing electrons.": "<dfn data-def=\"원자가 원자가 껍질에 전자를 모두 8개 갖추려는 경향.\">옥텟 규칙 <span class=\"en-term\">(octet rule)</span></dfn>은 원자가 원자가 껍질에 전자를 모두 8개 갖추려는 경향이에요. 원자는 전자를 공유해서 8개를 채울 수 있어요.",
+    "The <dfn data-def=\"The tendency of atoms to gain a valence shell with a total of 8 electrons.\">octet rule</dfn> is the tendency of atoms to gain a valence shell with a total of 8 electrons. Atoms can reach 8 by sharing electrons.": "<dfn data-def=\"원자는 원자가 껍질에 전자를 모두 8개 갖추려는 경향.\">옥텟 규칙 <span class=\"en-term\">(octet rule)</span></dfn>은 원자는 원자가 껍질에 전자를 모두 8개 갖추려는 경향이에요. 원자는 전자를 공유해서 8개를 채울 수 있어요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > data-def attribute
-    "The tendency of atoms to gain a valence shell with a total of 8 electrons.": "원자가 원자가 껍질에 전자를 모두 8개 갖추려는 경향.",
+    "The tendency of atoms to gain a valence shell with a total of 8 electrons.": "원자는 원자가 껍질에 전자를 모두 8개 갖추려는 경향.",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
     "Hydrogen is different. Its first shell is full with 2 electrons, so a hydrogen atom forms one bond only.": "수소는 달라요. 수소의 첫 번째 껍질은 전자 2개로 꽉 차기 때문에, 수소 원자는 결합을 1개만 만들어요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "The octet rule is a useful guide. It is not a law. Two atoms often have <dfn data-def=\"An atom in a molecule with fewer than 8 electrons in its valence shell.\">fewer than an octet</dfn> in their compounds: beryllium (4 electrons) and boron (6 electrons).": "옥텟 규칙은 쓸모 있는 길잡이예요. 법칙은 아니에요. 원자 두 가지는 화합물에서 흔히 원자가 껍질의 전자가 <dfn data-def=\"분자 안에서 원자가 껍질의 전자가 8개보다 적은 원자.\">옥텟 미만 <span class=\"en-term\">(fewer than an octet)</span></dfn>이에요: 베릴륨(전자 4개)과 붕소(전자 6개)예요.",
+    "The octet rule is a useful guide. It is not a law. Two atoms often have <dfn data-def=\"An atom in a molecule with fewer than 8 electrons in its valence shell.\">fewer than an octet</dfn> in their compounds: beryllium (4 electrons) and boron (6 electrons).": "옥텟 규칙은 쓸모 있는 길잡이예요. 법칙은 아니에요. 두 원소는 화합물에서 흔히 원자가 껍질의 전자가 <dfn data-def=\"분자 안에서 원자가 껍질의 전자가 8개보다 적은 원자.\">옥텟 미만 <span class=\"en-term\">(fewer than an octet)</span></dfn>이에요: 베릴륨(전자 4개)과 붕소(전자 6개)예요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > data-def attribute
     "An atom in a molecule with fewer than 8 electrons in its valence shell.": "분자 안에서 원자가 껍질의 전자가 8개보다 적은 원자.",
@@ -552,7 +552,7 @@ S1.i18n.register('ko', 's2-2', {
     "Choose a pair of atoms. The bonds are drawn to scale. Notice that the shortest bond always has the longest energy bar.": "원자 쌍을 하나 골라 보세요. 결합은 실제 비율대로 그려져 있어요. 가장 짧은 결합의 에너지 막대가 항상 가장 길다는 점을 눈여겨보세요.",
 
     // Single, double and triple bonds > data booklet note > p
-    "Bond lengths are in section 11 and bond enthalpies are in section 12 of the data booklet. You do not need to memorize any values. You need the trend and the reason.": "결합 길이는 데이터 부클릿 11번 항목에, 결합 엔탈피는 12번 항목에 있어요. 값을 외울 필요는 없어요. 경향과 그 이유를 알아야 해요.",
+    "Bond lengths are in section 11 and bond enthalpies are in section 12 of the data booklet. You do not need to memorize any values. You need the trend and the reason.": "결합 길이는 데이터 부클릿 11절에, 결합 엔탈피는 12절에 있어요. 값을 외울 필요는 없어요. 경향과 그 이유를 알아야 해요.",
 
     // Single, double and triple bonds > try it > p
     "Use the table. How much shorter is the N≡N bond than the N–N bond?": "표를 이용하세요. N≡N 결합은 N–N 결합보다 얼마나 짧을까요?",
@@ -1021,7 +1021,7 @@ S1.i18n.register('ko', 's2-2', {
     "Electronegativity": "전기 음성도",
 
     // Bond polarity > data booklet note > p
-    "Electronegativity values are in section 9 of the data booklet. Use those values. Older books give slightly different numbers, such as 2.5 for carbon and 3.5 for oxygen.": "전기 음성도 값은 데이터 부클릿 9번 항목에 있어요. 그 값을 쓰세요. 예전 책에는 탄소 2.5, 산소 3.5처럼 조금 다른 값이 나와 있어요.",
+    "Electronegativity values are in section 9 of the data booklet. Use those values. Older books give slightly different numbers, such as 2.5 for carbon and 3.5 for oxygen.": "전기 음성도 값은 데이터 부클릿 9절에 있어요. 그 값을 쓰세요. 예전 책에는 탄소 2.5, 산소 3.5처럼 조금 다른 값이 나와 있어요.",
 
     // Bond polarity > h3
     "Polar bonds": "극성 결합",
@@ -1408,7 +1408,7 @@ S1.i18n.register('ko', 's2-2', {
     "<span class=\"chem\">C60</span> is a <em>molecule</em>. It is not a network. Solid <span class=\"chem\">C60</span> is made of separate molecules, held together by weak London (dispersion) forces.": "<span class=\"chem\">C60</span>은 <em>분자</em>예요. 그물 구조가 아니에요. 고체 <span class=\"chem\">C60</span>은 따로 떨어진 분자들이 약한 런던 분산력으로 모여 있는 거예요.",
 
     // Covalent network structures > li
-    "It turns into a gas at a much lower temperature than diamond or graphite: only the forces between molecules must be overcome.": "다이아몬드나 흑연보다 훨씬 낮은 온도에서 기체가 돼요: 분자 사이의 힘만 이겨 내면 되기 때문이에요.",
+    "It turns into a gas at a much lower temperature than diamond or graphite: only the forces between molecules must be overcome.": "다이아몬드나 흑연보다 훨씬 낮은 온도에서 기체가 돼요: 분자 간 힘만 이겨 내면 되기 때문이에요.",
 
     // Covalent network structures > li
     "A poor conductor of electricity: electrons are delocalized inside one molecule but cannot move from molecule to molecule.": "전기가 잘 통하지 않아요: 전자가 분자 하나 안에서는 비편재화되어 있지만, 분자에서 분자로 옮겨 갈 수는 없어요.",
@@ -1560,7 +1560,7 @@ S1.i18n.register('ko', 's2-2', {
     "high (about 1700 °C)": "높음 (약 1700 °C)",
 
     // Covalent network structures > p
-    "The data booklet gives 3500 °C for the melting point of carbon and 1414 °C for silicon (section 8).": "데이터 부클릿에는 탄소의 녹는점이 3500 °C, 규소의 녹는점이 1414 °C로 나와 있어요(8번 항목).",
+    "The data booklet gives 3500 °C for the melting point of carbon and 1414 °C for silicon (section 8).": "데이터 부클릿에는 탄소의 녹는점이 3500 °C, 규소의 녹는점이 1414 °C로 나와 있어요(8절).",
 
     // Covalent network structures > try it > data-label attribute
     "Delocalized electrons per carbon atom": "탄소 원자 1개당 비편재화된 전자 수",
@@ -1791,7 +1791,7 @@ S1.i18n.register('ko', 's2-2', {
     "Is there an H atom bonded directly to N, O or F? If yes, add hydrogen bonding.": "N, O, F에 직접 결합한 H 원자가 있나요? 그렇다면 수소 결합을 추가해요.",
 
     // Intermolecular forces > li
-    "For a mixture of a polar and a non-polar substance, the force between the two different molecules is dipole–induced dipole (as well as London).": "극성 물질과 무극성 물질의 혼합물에서는, 서로 다른 두 분자 사이의 힘이 쌍극자-유발 쌍극자 힘이에요(런던 분산력과 함께).",
+    "For a mixture of a polar and a non-polar substance, the force between the two different molecules is dipole–induced dipole (as well as London).": "극성 물질과 무극성 물질의 혼합물에서는, 서로 다른 두 분자 간 힘이 쌍극자-유발 쌍극자 힘이에요(런던 분산력과 함께).",
 
     // Intermolecular forces > widget > data-title attribute
     "Which forces are present?": "어떤 힘이 있을까?",
@@ -1984,7 +1984,7 @@ S1.i18n.register('ko', 's2-2', {
     "Boiling-point questions are marked in the same way every time. Mark 1: name the intermolecular forces in <b>both</b> substances. Mark 2: state which are stronger. “Stronger bonding” or “stronger forces” without the names earns nothing.": "끓는점 문제는 매번 같은 방식으로 채점해요. 1점: <b>두</b> 물질의 분자 간 힘의 이름을 모두 써요. 2점: 어느 쪽이 더 강한지 써요. 힘의 이름 없이 “결합이 더 강하다”나 “힘이 더 강하다”라고만 쓰면 점수를 받지 못해요.",
 
     // Explaining physical properties > common mistake > p
-    "Never write that covalent bonds break when a molecular substance boils. Boiling water gives water vapour, which is still <span class=\"chem\">H2O</span> molecules. Only the forces between the molecules are overcome.": "분자 물질이 끓을 때 공유 결합이 끊어진다고 절대 쓰지 마세요. 물이 끓으면 수증기가 되는데, 수증기도 여전히 <span class=\"chem\">H2O</span> 분자예요. 분자 사이의 힘만 극복돼요.",
+    "Never write that covalent bonds break when a molecular substance boils. Boiling water gives water vapour, which is still <span class=\"chem\">H2O</span> molecules. Only the forces between the molecules are overcome.": "분자 물질이 끓을 때 공유 결합이 끊어진다고 절대 쓰지 마세요. 물이 끓으면 수증기가 되는데, 수증기도 여전히 <span class=\"chem\">H2O</span> 분자예요. 분자 간 힘만 극복돼요.",
 
     // Explaining physical properties > p
     "An electric current is a flow of charged particles. A substance conducts only if it has charged particles that are free to move: ions or delocalized electrons.": "전류는 전하를 띤 입자의 흐름이에요. 물질은 자유롭게 움직일 수 있는 전하를 띤 입자, 즉 이온이나 비편재화된 전자가 있을 때만 전기가 통해요.",
@@ -2030,7 +2030,7 @@ S1.i18n.register('ko', 's2-2', {
     "Explaining solubility": "용해도 설명하기",
 
     // Explaining physical properties > worked example > p
-    "Ethanol, <span class=\"chem\">CH3CH2OH</span>, mixes completely with water. Hexane, <span class=\"chem\">C6H14</span>, is almost insoluble in water. Explain this difference.": "ethanol <span class=\"chem\">CH3CH2OH</span>은 물과 완전히 섞여요. hexane <span class=\"chem\">C6H14</span>은 물에 거의 녹지 않아요. 이 차이를 설명하시오 (explain).",
+    "Ethanol, <span class=\"chem\">CH3CH2OH</span>, mixes completely with water. Hexane, <span class=\"chem\">C6H14</span>, is almost insoluble in water. Explain this difference.": "ethanol <span class=\"chem\">CH3CH2OH</span>는 물과 완전히 섞여요. hexane <span class=\"chem\">C6H14</span>은 물에 거의 녹지 않아요. 이 차이를 설명하시오 (explain).",
 
     // Explaining physical properties > worked example > data-title attribute
     "Describe the solvent": "용매에 대해 서술하기",
@@ -2946,7 +2946,7 @@ S1.i18n.register('ko', 's2-2', {
     "2. Lone pairs. The {y} atom of the second molecule has a lone pair that points at the H atom.": "2. 비공유 전자쌍. 두 번째 분자의 {y} 원자에는 H 원자를 향하는 비공유 전자쌍이 있어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "3. A dashed line from the δ+ hydrogen to the lone pair on {y}. Dashed, because it is a force between molecules. It is not a covalent bond.": "3. δ+인 수소에서 {y} 원자의 비공유 전자쌍까지 점선을 그어요. 분자 사이의 힘이므로 점선으로 그려요. 공유 결합이 아니에요.",
+    "3. A dashed line from the δ+ hydrogen to the lone pair on {y}. Dashed, because it is a force between molecules. It is not a covalent bond.": "3. δ+인 수소에서 {y} 원자의 비공유 전자쌍까지 점선을 그어요. 분자 간 힘이므로 점선으로 그려요. 공유 결합이 아니에요.",
 
     // widget string (assets/js/widgets-s2-2.js)
     "4. The three atoms {x}–H···{y} are drawn in a straight line (180°).": "4. 세 원자 {x}–H···{y}는 일직선(180°)으로 그려요.",

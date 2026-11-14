@@ -661,7 +661,7 @@ S1.i18n.register('ko', 's3-2', {
     "Check": "확인",
 
     // Functional groups and classes of compounds > worked example > p
-    "The question asked for groups, so do not answer “alcohol” or “amide”.": "문제가 기를 물었으므로 “알코올”이나 “아마이드”라고 답하지 마세요.",
+    "The question asked for groups, so do not answer “alcohol” or “amide”.": "문제가 작용기를 물었으므로 “알코올”이나 “아마이드”라고 답하지 마세요.",
 
     // Functional groups and classes of compounds > worked example > p
     "Hydroxyl, amido and phenyl.": "하이드록시기(hydroxyl), 아마이드기(amido), 페닐기(phenyl).",
@@ -1973,7 +1973,7 @@ S1.i18n.register('ko', 's3-2', {
     "How do chain length, branching and the functional group affect intermolecular forces?": "사슬 길이, 가지, 작용기는 분자 간 힘에 어떤 영향을 줄까요?",
 
     // Linking it up > p
-    "A longer chain has more electrons and a larger surface, so London (dispersion) forces are stronger. Branching makes a molecule more compact, so less of its surface touches its neighbours and the London forces are weaker. A polar functional group such as C=O adds dipole–dipole forces. A group with O–H or N–H allows hydrogen bonding. Stronger forces between molecules mean a higher boiling point.": "사슬이 길수록 전자가 많고 표면이 넓으므로 런던 분산력이 더 강해요. 가지가 있으면 분자가 더 오밀조밀해져서 이웃 분자와 닿는 표면이 줄어들고 런던 분산력이 더 약해져요. C=O 같은 극성 작용기는 쌍극자-쌍극자 힘을 더해요. O–H나 N–H가 있는 기는 수소 결합을 할 수 있게 해 줘요. 분자 사이의 힘이 강할수록 끓는점이 높아요.",
+    "A longer chain has more electrons and a larger surface, so London (dispersion) forces are stronger. Branching makes a molecule more compact, so less of its surface touches its neighbours and the London forces are weaker. A polar functional group such as C=O adds dipole–dipole forces. A group with O–H or N–H allows hydrogen bonding. Stronger forces between molecules mean a higher boiling point.": "사슬이 길수록 전자가 많고 표면이 넓으므로 런던 분산력이 더 강해요. 가지가 있으면 분자가 더 오밀조밀해져서 이웃 분자와 닿는 표면이 줄어들고 런던 분산력이 더 약해져요. C=O 같은 극성 작용기는 쌍극자-쌍극자 힘을 더해요. O–H나 N–H가 있는 기는 수소 결합을 할 수 있게 해 줘요. 분자 간 힘이 강할수록 끓는점이 높아요.",
 
     // Linking it up > h3
     "How can functional groups be used to plan a route from one compound to another?": "작용기를 이용해 한 화합물에서 다른 화합물로 가는 경로를 어떻게 계획할 수 있을까요?",

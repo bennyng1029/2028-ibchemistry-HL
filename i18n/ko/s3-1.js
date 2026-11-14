@@ -184,7 +184,7 @@ S1.i18n.register('ko', 's3-1', {
     "Choose how to colour the table, then click an element. On a phone, slide the table sideways. Then try “Find the element”.": "표를 색칠할 방법을 고른 다음 원소를 클릭하세요. 휴대폰에서는 표를 옆으로 밀어 보세요. 그다음 “원소 찾기”를 해 보세요.",
 
     // Periods, groups and blocks > data booklet note > p
-    "The periodic table is in section 7 of the data booklet. It shows groups 1 to 18, atomic numbers and relative atomic masses. It does not label the blocks or the metalloids, so learn where they are.": "주기율표는 데이터 부클릿 7번 항목에 있어요. 1족~18족, 원자 번호, 상대 원자 질량이 나와 있어요. 하지만 구역이나 준금속은 표시되어 있지 않으니, 위치를 외워 두세요.",
+    "The periodic table is in section 7 of the data booklet. It shows groups 1 to 18, atomic numbers and relative atomic masses. It does not label the blocks or the metalloids, so learn where they are.": "주기율표는 데이터 부클릿 7절에 있어요. 1족~18족, 원자 번호, 상대 원자 질량이 나와 있어요. 하지만 구역이나 준금속은 표시되어 있지 않으니, 위치를 외워 두세요.",
 
     // Periods, groups and blocks > not needed for IB > p
     "The guide does not list which elements are metalloids, and sources disagree about the edges of the band. You need the general position: a diagonal band between the metals and the non-metals. You do not need to learn a list.": "가이드에는 어떤 원소가 준금속인지 나와 있지 않고, 띠의 경계도 자료마다 달라요. 대략적인 위치, 즉 금속과 비금속 사이의 대각선 띠라는 것만 알면 돼요. 목록을 외울 필요는 없어요.",
@@ -258,7 +258,7 @@ S1.i18n.register('ko', 's3-1', {
     "Method in words: position → configuration": "말로 정리한 방법: 위치 → 전자 배치",
 
     // Position and electron configuration > li
-    "Find the noble gas at the end of the period above. It gives the core, for example <span class=\"mono\">[Ar]</span>.": "바로 위 주기의 끝에 있는 비활성 기체를 찾으세요. 그것이 핵심 부분이 돼요. 예: <span class=\"mono\">[Ar]</span>.",
+    "Find the noble gas at the end of the period above. It gives the core, for example <span class=\"mono\">[Ar]</span>.": "바로 위 주기의 끝에 있는 비활성 기체를 찾으세요. 그것이 코어 부분이 돼요. 예: <span class=\"mono\">[Ar]</span>.",
 
     // Position and electron configuration > li
     "The period number, n, is the outer main energy level.": "주기 번호 n은 가장 바깥 주 에너지 준위예요.",
@@ -276,13 +276,13 @@ S1.i18n.register('ko', 's3-1', {
     "An element is in period 4 and group 15. Deduce its condensed electron configuration and identify the element.": "어떤 원소가 4주기 15족에 있어요. 이 원소의 축약 전자 배치를 추론하시오 (deduce). 그리고 이 원소가 무엇인지 찾으시오 (identify).",
 
     // Position and electron configuration > worked example > data-title attribute
-    "Find the core": "핵심 부분 찾기",
+    "Find the core": "코어 부분 찾기",
 
     // Position and electron configuration > worked example > p
     "The noble gas at the end of period 3 is argon. All its 18 electrons are inner electrons here.": "3주기 끝에 있는 비활성 기체는 아르곤이에요. 아르곤의 전자 18개는 여기서 모두 안쪽 전자예요.",
 
     // Position and electron configuration > worked example > maths line
-    "core = [Ar]": "핵심 부분 = [Ar]",
+    "core = [Ar]": "코어 부분 = [Ar]",
 
     // Position and electron configuration > worked example > data-title attribute
     "Use the period": "주기 이용하기",
@@ -584,7 +584,7 @@ S1.i18n.register('ko', 's3-1', {
     "Choose a property and a direction. Predict the trend, then look at the data booklet values and build the explanation. Click the heat-map to change the period or group.": "성질과 방향을 고르세요. 경향을 예측한 다음, 데이터 부클릿 값을 보고 설명을 만들어 보세요. 히트맵을 클릭하면 주기나 족을 바꿀 수 있어요.",
 
     // Periodicity: trends in properties > data booklet note > p
-    "First ionization energy, electron affinity and electronegativity are in section 9 of the data booklet. Atomic and ionic radii are in section 10. Radii are given in <span class=\"mono\">10<sup>−12</sup> m</span>, which is the picometre, pm. The atomic radii are covalent radii.": "제1 이온화 에너지, 전자 친화도, 전기 음성도는 데이터 부클릿 9번 항목에 있어요. 원자 반지름과 이온 반지름은 10번 항목에 있어요. 반지름은 <span class=\"mono\">10<sup>−12</sup> m</span> 단위, 즉 피코미터(pm)로 나와 있어요. 원자 반지름은 공유 결합 반지름이에요.",
+    "First ionization energy, electron affinity and electronegativity are in section 9 of the data booklet. Atomic and ionic radii are in section 10. Radii are given in <span class=\"mono\">10<sup>−12</sup> m</span>, which is the picometre, pm. The atomic radii are covalent radii.": "제1 이온화 에너지, 전자 친화도, 전기 음성도는 데이터 부클릿 9절에 있어요. 원자 반지름과 이온 반지름은 10절에 있어요. 반지름은 <span class=\"mono\">10<sup>−12</sup> m</span> 단위, 즉 피코미터(pm)로 나와 있어요. 원자 반지름은 공유 결합 반지름이에요.",
 
     // Periodicity: trends in properties > worked example > data-kicker attribute
     "Worked example 2": "예제 2",
@@ -1785,10 +1785,10 @@ S1.i18n.register('ko', 's3-1', {
     "Colour wheel: absorbed and observed colours": "색상환: 흡수되는 색과 관찰되는 색",
 
     // Why transition element complexes are coloured > widget > Additional HL > figcaption
-    "Set the wavelength of the light absorbed. The wheel has the same layout and wavelengths as section 15 of the data booklet. The colours on screen are only a guide. The diagram shows two sets of d orbitals without any pattern: you do not need the pattern.": "흡수되는 빛의 파장을 정해 보세요. 이 색상환은 데이터 부클릿 15번 항목과 배치와 파장이 같아요. 화면의 색은 참고용일 뿐이에요. 그림은 d 오비탈의 두 묶음을 특정한 배열 없이 보여 줘요: 배열은 알 필요가 없어요.",
+    "Set the wavelength of the light absorbed. The wheel has the same layout and wavelengths as section 15 of the data booklet. The colours on screen are only a guide. The diagram shows two sets of d orbitals without any pattern: you do not need the pattern.": "흡수되는 빛의 파장을 정해 보세요. 이 색상환은 데이터 부클릿 15절과 배치와 파장이 같아요. 화면의 색은 참고용일 뿐이에요. 그림은 d 오비탈의 두 묶음을 특정한 배열 없이 보여 줘요: 배열은 알 필요가 없어요.",
 
     // Why transition element complexes are coloured > data booklet note > Additional HL > p
-    "The colour wheel is in section 15 of the data booklet. The equation <i>c</i> = <i>λf</i> is in section 1 and the speed of light is in section 2. You do not need to memorize any of them.": "색상환은 데이터 부클릿 15번 항목에 있어요. 식 <i>c</i> = <i>λf</i>는 1번 항목에, 빛의 속력은 2번 항목에 있어요. 어느 것도 외울 필요가 없어요.",
+    "The colour wheel is in section 15 of the data booklet. The equation <i>c</i> = <i>λf</i> is in section 1 and the speed of light is in section 2. You do not need to memorize any of them.": "색상환은 데이터 부클릿 15절에 있어요. 식 <i>c</i> = <i>λf</i>는 1절에, 빛의 속력은 2절에 있어요. 어느 것도 외울 필요가 없어요.",
 
     // Why transition element complexes are coloured > common mistake > Additional HL > p
     "The complex does not <b>emit</b> the colour you see. It <b>absorbs</b> the complementary colour, and the rest of the white light passes through. Writing “the electron falls back and emits blue light” is wrong.": "착화합물은 우리가 보는 색을 <b>방출</b>하는 것이 아니에요. 보색을 <b>흡수</b>하고, 나머지 백색광이 통과해요. “전자가 다시 떨어지면서 파란빛을 방출한다”라고 쓰면 틀려요.",
@@ -2895,7 +2895,7 @@ S1.i18n.register('ko', 's3-1', {
     "Right: with 4s empty, the next electron comes from 3d.": "맞아요: 4s가 비었으므로 다음 전자는 3d에서 나와요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Not shown: the [Ar] core of 18 inner electrons.": "나타내지 않은 것: 안쪽 전자 18개로 이루어진 [Ar] 핵심 부분.",
+    "Not shown: the [Ar] core of 18 inner electrons.": "나타내지 않은 것: 안쪽 전자 18개로 이루어진 [Ar] 코어 부분.",
 
     // widget string (assets/js/widgets-s3-1.js)
     "{el} atom": "{el} 원자",
