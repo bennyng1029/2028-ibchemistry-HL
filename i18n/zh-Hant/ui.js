@@ -248,3 +248,148 @@ S1.i18n.register('zh-Hant', 'ui', {
     "Press [ or ] to move between atoms and Enter to choose one.": "按 [ 或 ] 鍵切換原子，按 Enter 鍵選取。"
   }
 });
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('zh-Hant', 'ui', {
+  strings: {
+
+    // shell: core.js
+    "All labs": "所有實驗",
+
+    // Lab 9 short name (tile, pager)
+    "Bonding from properties": "從性質判斷鍵合",
+
+    // Lab 5 card text
+    "Burn magnesium, heat a hydrate, and turn mass data into a formula.": "燃燒鎂、加熱水合物，再把質量數據轉化為化學式。",
+
+    // Lab 7 card text
+    "Change pressure, volume and temperature, plot the data and find absolute zero.": "改變壓強、體積和溫度，繪畫數據圖表，求出絕對零度。",
+
+    // Lab 1 card text
+    "Choose a separation method, purify a solid by recrystallization and test its purity.": "選擇分離方法，用再結晶法提純固體，再檢驗其純度。",
+
+    // Lab 2 short name (tile, pager)
+    "Chromatography": "色層法",
+
+    // Lab 8 card text
+    "Collect a gas, use pV = nRT, and find a molar mass with its uncertainty.": "收集氣體，運用 pV = nRT，求出摩爾質量及其不確定度。",
+
+    // Lab 5 short name (tile, pager)
+    "Empirical formula": "實驗式",
+
+    // Lab 5 title (labs page, related labs)
+    "Finding an empirical formula by experiment": "以實驗求出實驗式",
+
+    // Lab 4 title (labs page, related labs)
+    "Flame tests and emission spectra": "焰色試驗和發射光譜",
+
+    // Lab 4 short name (tile, pager)
+    "Flame tests and spectra": "焰色試驗和光譜",
+
+    // Lab 7 short name (tile, pager)
+    "Gas laws": "氣體定律",
+
+    // Lab 10 card text
+    "Halogen displacement reactions and the acid–base character of period 3 oxides.": "鹵素置換反應，以及第 3 週期氧化物的酸鹼性。",
+
+    // Lab 3 title (labs page, related labs)
+    "Heating and cooling curves": "加熱曲線和冷卻曲線",
+
+    // Lab 3 short name (tile, pager)
+    "Heating curves": "加熱曲線",
+
+    // Lab 4 card text
+    "Identify metal ions by flame colour and read line spectra.": "從焰色辨認金屬離子，並解讀線光譜。",
+
+    // Lab 9 title (labs page, related labs)
+    "Identifying the type of bonding from properties": "從性質辨認鍵合類型",
+
+    // Lab 7 title (labs page, related labs)
+    "Investigating the gas laws": "探究氣體定律",
+
+    // lab number
+    "Lab 1": "實驗 1",
+
+    // lab number
+    "Lab 10": "實驗 10",
+
+    // lab number
+    "Lab 2": "實驗 2",
+
+    // lab number
+    "Lab 3": "實驗 3",
+
+    // lab number
+    "Lab 4": "實驗 4",
+
+    // lab number
+    "Lab 5": "實驗 5",
+
+    // lab number
+    "Lab 6": "實驗 6",
+
+    // lab number
+    "Lab 7": "實驗 7",
+
+    // lab number
+    "Lab 8": "實驗 8",
+
+    // lab number
+    "Lab 9": "實驗 9",
+
+    // shell: core.js
+    "Labs": "實驗",
+
+    // Lab 3 card text
+    "Log temperature against time and explain the flat parts with particles.": "記錄溫度隨時間的變化，並用粒子解釋曲線的平坦部分。",
+
+    // Lab 6 card text
+    "Make a standard solution, dilute it, and read an unknown off a calibration curve.": "配製標準溶液，把它稀釋，再從校準曲線讀出未知濃度。",
+
+    // Lab 8 short name (tile, pager)
+    "Molar mass of a gas": "氣體的摩爾質量",
+
+    // Lab 8 title (labs page, related labs)
+    "Molar volume and the molar mass of a gas": "摩爾體積和氣體的摩爾質量",
+
+    // Lab 2 title (labs page, related labs)
+    "Paper and thin-layer chromatography": "紙色層法和薄層色層法",
+
+    // Lab 10 short name (tile, pager)
+    "Periodic trends": "週期趨勢",
+
+    // Lab 10 title (labs page, related labs)
+    "Periodic trends in the laboratory": "實驗室中的週期趨勢",
+
+    // shell: core.js
+    "Previous and next lab": "上一個和下一個實驗",
+
+    // shell: core.js
+    "Related labs": "相關實驗",
+
+    // Lab 2 card text
+    "Run a chromatogram, measure Rf values and explain them with polarity.": "製作色層譜，量度 Rf 值，並用極性解釋。",
+
+    // shell: core.js
+    "Safety": "安全",
+
+    // Lab 1 title (labs page, related labs)
+    "Separating and purifying mixtures": "分離和提純混合物",
+
+    // Lab 1 short name (tile, pager)
+    "Separating mixtures": "分離混合物",
+
+    // Lab 6 short name (tile, pager)
+    "Standard solutions": "標準溶液",
+
+    // Lab 6 title (labs page, related labs)
+    "Standard solutions and calibration curves": "標準溶液和校準曲線",
+
+    // Lab 9 card text
+    "Test melting point, solubility and conductivity, then classify unknown solids.": "測試熔點、溶解度和導電性，再把未知固體分類。",
+
+    // shell: core.js
+    "Topics:": "課題：",
+
+  }
+});

@@ -69,3 +69,19 @@ S1.i18n.register('zh-Hant', 'home', {
     "Not needed for IB": "IB 不要求"
   }
 });
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('zh-Hant', 'home', {
+  strings: {
+
+    // Labs > h2
+    "Labs": "實驗",
+
+    // Labs > p
+    "Virtual practicals, with Paper 1B style questions.": "虛擬實驗，附 Paper 1B 題型的題目。",
+
+    // Labs > p
+    "Ten guided practicals take you from method to data, processing, uncertainty and evaluation: separating mixtures, chromatography, flame tests, empirical formulas, standard solutions, the gas laws, bonding from properties and periodic trends. <a href=\"labs.html\">See all the labs</a>.": "10 個有指導的實驗，帶你由實驗方法到數據、數據處理、不確定度和評價：分離混合物、色層法、焰色試驗、實驗式、標準溶液、氣體定律、從性質判斷鍵合，以及週期趨勢。<a href=\"labs.html\">查看所有實驗</a>。",
+
+  }
+});
