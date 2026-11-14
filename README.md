@@ -8,7 +8,13 @@ for first assessment 2025):
 - **Structure 3.** Classification of matter (3.1 and 3.2)
 
 There are 13 topic pages (1.1 to 1.5, 2.1 to 2.4 and 3.1 to 3.2, with separate Additional HL pages for
-2.2 and 3.2), a home page and a mixed practice page.
+2.2 and 3.2), ten guided virtual labs, a home page and a mixed practice page.
+
+The **Labs** are practicals you might do in school, run as virtual experiments: separating mixtures,
+chromatography, heating curves, flame tests and spectra, empirical formulas, standard solutions and
+calibration curves, the gas laws, the molar mass of a gas, bonding from properties, and periodic trends.
+Each one goes from the plan and method to your own data, its processing, uncertainties and an
+evaluation, and ends with questions in the style of Paper 1B.
 
 It is written for students who find the ideas or the calculations hard. Every topic has short
 explanations, worked examples you reveal one step at a time, “try it” calculations with hints, and
@@ -30,8 +36,8 @@ There is nothing to install or build.
 - **On GitHub Pages:** in the repository settings, open **Pages** and set **Source** to
   **GitHub Actions**. The workflow [`.github/workflows/pages.yml`](.github/workflows/pages.yml) then
   publishes the site on every push to `main` (or when you run it by hand from the Actions tab). It
-  uploads only the files the site needs: `index.html`, `practice.html`, `LICENSE`, `topics/`, `assets/`,
-  `data/` and `i18n/`. All links are relative, so the site works under any subpath
+  uploads only the files the site needs: `index.html`, `practice.html`, `labs.html`, `LICENSE`, `topics/`, `labs/`,
+  `assets/`, `data/` and `i18n/`. All links are relative, so the site works under any subpath
   (`https://<user>.github.io/<repository>/`).
 - The empty `.nojekyll` file is only needed if you set the Pages source to "Deploy from a branch"
   instead: it tells Pages to serve the files as they are. The workflow adds one to the published folder too.
@@ -45,7 +51,9 @@ account and no server. Progress is saved in your own browser (`localStorage`) an
 ```
 index.html                  home: the three strands and their topics, how to study, exam facts, progress
 practice.html               mixed practice across all topics, with filters and mistake review
+labs.html                   the labs, grouped by strand, with progress
 topics/<id>.html            one page per topic: s1-1 … s1-5, s2-1, s2-2, s2-2h, s2-3, s2-4, s3-1, s3-2, s3-2h
+labs/<id>.html              one page per lab: lab-separation, lab-chromatography … lab-periodicity
 assets/css/site.css         the design system (tokens, light and dark themes, all components)
 assets/js/chem.js           formulas, numbers, sig figs, answer checking, constants, element table (Z = 1–118)
 assets/js/core.js           header and footer, theme, SL/HL switch, languages, progress, components, widget frame
@@ -53,8 +61,8 @@ assets/js/quiz.js           question engine and practice arena
 assets/js/mol.js            Lewis, structural and skeletal formulas, 3-D ball-and-stick viewer, VSEPR shapes
 assets/js/chart.js          line, scatter, bar and stick charts; IR, mass and NMR spectra
 assets/js/periodic-data.js  data booklet values: electronegativity, ionization energy, electron affinity, radii, melting and boiling points; configurations
-assets/js/widgets-<id>.js   interactive diagrams for each topic
-data/questions-<id>.js      question bank for each topic
+assets/js/widgets-<id>.js   interactive diagrams for each topic and lab
+data/questions-<id>.js      question bank for each topic and lab
 i18n/<lang>/*.js            translation overlays (ja, zh-Hant, ko)
 tools/i18n-*.js             extraction and checking tools for translators (Node + Playwright, dev only)
 dev/                        test pages for the components and drawing helpers (not linked from the site, not published)
