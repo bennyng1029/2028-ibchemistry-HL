@@ -86,7 +86,7 @@
       ],
       answer: 1,
       misconception: {
-        0: 'The nitrogen does add mass, but compare it with the mass the oxide would have added for the same magnesium. Three Mg atoms gain 28.02 g mol⁻¹ as Mg₃N₂ but 48.00 g mol⁻¹ as three MgO.',
+        0: 'The nitrogen does add mass, but compare it with the mass the oxide would have added for the same magnesium. 3 mol of Mg gain 28.02 g as Mg₃N₂ but 48.00 g as 3 mol of MgO.',
         2: 'The student does not know that any nitride has formed. All of the mass gain is counted as oxygen, so the nitride does change the calculated ratio.',
         3: 'The nitrogen stays in the solid as nitride ions. It is the smaller mass gain that matters.'
       },

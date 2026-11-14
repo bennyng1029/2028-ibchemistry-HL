@@ -99,8 +99,8 @@ S1.i18n.register('ja', 'lab-empirical-formula.q', {
       // EN: <p>3 mol of Mg gain 2 × 14.01 = 28.02 g as <span class="chem">Mg3N2</span>, but 3 × 16.00 = 48.00 g as 3 <span class="chem">MgO</span>. So the total mass gain is smaller than it should be. The student counts all of the gain as oxygen, so the calculated amount of oxygen is too low and the ratio O : Mg is <strong>too low</strong>.</p><p>Improvement: add a few drops of distilled water to the cooled product and heat again. The nitride is converted to the oxide.</p>
       solution: "<p>Mg 3 mol は、<span class=\"chem\">Mg3N2</span> になると 2 × 14.01 = 28.02 g 増えますが、3 <span class=\"chem\">MgO</span> になると 3 × 16.00 = 48.00 g 増えます。そのため、増えた質量の合計は本来より小さくなります。生徒は増えた分をすべて酸素として数えるので、計算した酸素の物質量が低くなりすぎ、比 O : Mg は<strong>低くなりすぎます</strong>。</p><p>改善策：冷ました生成物に蒸留水を数滴加え、もう一度加熱します。窒化物は酸化物に変わります。</p>",
       misconception: {
-        // EN (option A): The nitrogen does add mass, but compare it with the mass the oxide would have added for the same magnesium. Three Mg atoms gain 28.02 g mol⁻¹ as Mg₃N₂ but 48.00 g mol⁻¹ as three MgO.
-        "0": "窒素は質量を加えますが、同じマグネシウムから酸化物ができた場合に増える質量とくらべましょう。Mg 原子 3 個分は、Mg₃N₂ になると 28.02 g mol⁻¹ 増えますが、3 つの MgO になると 48.00 g mol⁻¹ 増えます。",
+        // EN (option A): The nitrogen does add mass, but compare it with the mass the oxide would have added for the same magnesium. 3 mol of Mg gain 28.02 g as Mg₃N₂ but 48.00 g as 3 mol of MgO.
+        "0": "窒素は質量を加えますが、同じマグネシウムから酸化物ができた場合に増える質量とくらべましょう。Mg 3 mol は、Mg₃N₂ になると 28.02 g 増えますが、MgO 3 mol になると 48.00 g 増えます。",
         // EN (option C): The student does not know that any nitride has formed. All of the mass gain is counted as oxygen, so the nitride does change the calculated ratio.
         "2": "生徒は、窒化物ができたことを知りません。増えた質量はすべて酸素として数えられるので、窒化物は計算した比を変えてしまいます。",
         // EN (option D): The nitrogen stays in the solid as nitride ions. It is the smaller mass gain that matters.

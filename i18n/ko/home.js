@@ -193,7 +193,7 @@ S1.i18n.register('ko', 'home', {
     "Virtual practicals, with Paper 1B style questions.": "Paper 1B 형식 문제가 있는 가상 실험이에요.",
 
     // Labs > p
-    "Ten guided practicals take you from method to data, processing, uncertainty and evaluation: separating mixtures, chromatography, flame tests, empirical formulas, standard solutions, the gas laws, bonding from properties and periodic trends. <a href=\"labs.html\">See all the labs</a>.": "안내를 따라가는 10가지 실험으로 방법부터 자료 수집, 처리, 불확도, 평가까지 해 봐요: 혼합물 분리, 크로마토그래피, 불꽃 반응, 실험식, 표준 용액, 기체 법칙, 성질로 본 결합, 주기적 경향. <a href=\"labs.html\">모든 실험 보기</a>.",
+    "Ten guided practicals take you from method to data, processing, uncertainty and evaluation: separating mixtures, chromatography, heating curves, flame tests, empirical formulas, standard solutions, the gas laws, the molar mass of a gas, bonding from properties and periodic trends. <a href=\"labs.html\">See all the labs</a>.": "안내를 따라가는 10가지 실험으로 방법부터 자료 수집, 처리, 불확도, 평가까지 해 봐요: 혼합물 분리, 크로마토그래피, 가열 곡선, 불꽃 반응, 실험식, 표준 용액, 기체 법칙, 기체의 몰 질량, 성질로 본 결합, 주기적 경향. <a href=\"labs.html\">모든 실험 보기</a>.",
 
   }
 });

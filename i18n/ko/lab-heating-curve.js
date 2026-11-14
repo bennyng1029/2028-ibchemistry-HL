@@ -39,7 +39,7 @@ S1.i18n.register('ko', 'lab-heating-curve', {
     "Explain the flat parts with particles: energy overcomes the forces between the particles, and the average kinetic energy stays the same.": "평평한 부분을 입자로 설명할 수 있어요: 에너지는 입자 사이의 힘을 이겨 내는 데 쓰이고, 평균 운동 에너지는 그대로예요.",
 
     // What you need to be able to do > checklist > span
-    "Recognise supercooling on a cooling curve, and read the freezing point from the plateau, not from the dip.": "냉각 곡선에서 과냉각을 알아보고, 어는점을 움푹 팬 곳이 아니라 평평한 구간에서 읽을 수 있어요.",
+    "Recognize supercooling on a cooling curve, and read the freezing point from the plateau, not from the dip.": "냉각 곡선에서 과냉각을 알아보고, 어는점을 움푹 팬 곳이 아니라 평평한 구간에서 읽을 수 있어요.",
 
     // What you need to be able to do > checklist > span
     "State the uncertainty of a temperature reading, work out a percentage uncertainty, and compare it with a percentage error.": "온도 측정값의 불확도를 말하고, 백분율 불확도를 구해 백분율 오차와 비교할 수 있어요.",

@@ -81,7 +81,7 @@ S1.i18n.register('zh-Hant', 'home', {
     "Virtual practicals, with Paper 1B style questions.": "虛擬實驗，附 Paper 1B 題型的題目。",
 
     // Labs > p
-    "Ten guided practicals take you from method to data, processing, uncertainty and evaluation: separating mixtures, chromatography, flame tests, empirical formulas, standard solutions, the gas laws, bonding from properties and periodic trends. <a href=\"labs.html\">See all the labs</a>.": "10 個有指導的實驗，帶你由實驗方法到數據、數據處理、不確定度和評價：分離混合物、色層法、焰色試驗、實驗式、標準溶液、氣體定律、從性質判斷鍵合，以及週期趨勢。<a href=\"labs.html\">查看所有實驗</a>。",
+    "Ten guided practicals take you from method to data, processing, uncertainty and evaluation: separating mixtures, chromatography, heating curves, flame tests, empirical formulas, standard solutions, the gas laws, the molar mass of a gas, bonding from properties and periodic trends. <a href=\"labs.html\">See all the labs</a>.": "10 個有指導的實驗，帶你由實驗方法到數據、數據處理、不確定度和評價：分離混合物、色層法、加熱曲線、焰色試驗、實驗式、標準溶液、氣體定律、氣體的摩爾質量、從性質判斷鍵合，以及週期趨勢。<a href=\"labs.html\">查看所有實驗</a>。",
 
   }
 });

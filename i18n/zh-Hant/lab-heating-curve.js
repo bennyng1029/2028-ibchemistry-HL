@@ -39,7 +39,7 @@ S1.i18n.register('zh-Hant', 'lab-heating-curve', {
     "Explain the flat parts with particles: energy overcomes the forces between the particles, and the average kinetic energy stays the same.": "用粒子解釋平坦部分：能量用來克服粒子之間的作用力，平均動能保持不變。",
 
     // What you need to be able to do > checklist > span
-    "Recognise supercooling on a cooling curve, and read the freezing point from the plateau, not from the dip.": "在冷卻曲線上認出過冷現象，並從平台而不是從下陷部分讀出凝固點。",
+    "Recognize supercooling on a cooling curve, and read the freezing point from the plateau, not from the dip.": "在冷卻曲線上認出過冷現象，並從平台而不是從下陷部分讀出凝固點。",
 
     // What you need to be able to do > checklist > span
     "State the uncertainty of a temperature reading, work out a percentage uncertainty, and compare it with a percentage error.": "寫出溫度讀數的不確定度，計算百分不確定度，並和百分誤差比較。",

@@ -105,7 +105,7 @@ S1.i18n.register('zh-Hant', 'lab-gas-laws', {
     "The full story is on the topic page: <a href=\"../topics/s1-5.html#graphs\">gas-law graphs</a> and <a href=\"../topics/s1-5.html#pvnrt\">the ideal gas equation</a>.": "完整的內容在課題頁：<a href=\"../topics/s1-5.html#graphs\">氣體定律的圖表</a>和<a href=\"../topics/s1-5.html#pvnrt\">理想氣體方程</a>。",
 
     // The chemistry behind it > key idea > p
-    "All three relationships come from one equation, <i>PV</i> = <i>nRT</i>. Keep two of <i>P</i>, <i>V</i> and <i>T</i> (and <i>n</i>) fixed and the third pair must be proportional, as long as <i>T</i> is in kelvin.": "三種關係都來自同一條方程 <i>PV</i> = <i>nRT</i>。把 <i>P</i>、<i>V</i>、<i>T</i> 其中兩個（以及 <i>n</i>）固定，餘下的一對就必定成正比，只要 <i>T</i> 以開爾文為單位。",
+    "All three relationships come from one equation, <i>PV</i> = <i>nRT</i>. Keep one of <i>P</i>, <i>V</i> and <i>T</i> (and <i>n</i>) fixed and the other two are proportional or inversely proportional, as long as <i>T</i> is in kelvin.": "三種關係都來自同一條方程 <i>PV</i> = <i>nRT</i>。把 <i>P</i>、<i>V</i>、<i>T</i> 其中一個（以及 <i>n</i>）固定，餘下兩個就成正比或反比，只要 <i>T</i> 以開爾文為單位。",
 
     // The chemistry behind it > not needed for IB > p
     "Books call these Boyle’s law, Charles’s law and the pressure law. The guide says the names of the gas laws will not be assessed. You need the relationships and their graphs, not the names.": "課本稱這些定律為波義耳定律、查理定律和壓強定律。學科指南說明不會評核氣體定律的名稱。你需要的是這些關係和它們的圖表，而不是名稱。",

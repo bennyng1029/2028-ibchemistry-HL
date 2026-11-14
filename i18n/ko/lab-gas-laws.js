@@ -105,7 +105,7 @@ S1.i18n.register('ko', 'lab-gas-laws', {
     "The full story is on the topic page: <a href=\"../topics/s1-5.html#graphs\">gas-law graphs</a> and <a href=\"../topics/s1-5.html#pvnrt\">the ideal gas equation</a>.": "자세한 내용은 단원 페이지에 있어요: <a href=\"../topics/s1-5.html#graphs\">기체 법칙 그래프</a>와 <a href=\"../topics/s1-5.html#pvnrt\">이상 기체 방정식</a>.",
 
     // The chemistry behind it > key idea > p
-    "All three relationships come from one equation, <i>PV</i> = <i>nRT</i>. Keep two of <i>P</i>, <i>V</i> and <i>T</i> (and <i>n</i>) fixed and the third pair must be proportional, as long as <i>T</i> is in kelvin.": "세 관계는 모두 하나의 식 <i>PV</i> = <i>nRT</i>에서 나와요. <i>P</i>, <i>V</i>, <i>T</i> 중 하나와 <i>n</i>을 일정하게 두면 나머지 두 양은 비례하거나 반비례해요. 단, <i>T</i>는 켈빈 단위여야 해요.",
+    "All three relationships come from one equation, <i>PV</i> = <i>nRT</i>. Keep one of <i>P</i>, <i>V</i> and <i>T</i> (and <i>n</i>) fixed and the other two are proportional or inversely proportional, as long as <i>T</i> is in kelvin.": "세 관계는 모두 하나의 식 <i>PV</i> = <i>nRT</i>에서 나와요. <i>P</i>, <i>V</i>, <i>T</i> 중 하나와 <i>n</i>을 일정하게 두면 나머지 두 양은 비례하거나 반비례해요. 단, <i>T</i>는 켈빈 단위여야 해요.",
 
     // The chemistry behind it > not needed for IB > p
     "Books call these Boyle’s law, Charles’s law and the pressure law. The guide says the names of the gas laws will not be assessed. You need the relationships and their graphs, not the names.": "교과서에서는 이 관계들을 보일 법칙, 샤를 법칙, 압력 법칙이라고 불러요. IB 지침에 따르면 기체 법칙의 이름은 평가하지 않아요. 이름이 아니라 관계와 그래프를 알아야 해요.",

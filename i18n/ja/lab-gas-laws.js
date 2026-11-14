@@ -105,7 +105,7 @@ S1.i18n.register('ja', 'lab-gas-laws', {
     "The full story is on the topic page: <a href=\"../topics/s1-5.html#graphs\">gas-law graphs</a> and <a href=\"../topics/s1-5.html#pvnrt\">the ideal gas equation</a>.": "くわしい説明はトピックのページにあります：<a href=\"../topics/s1-5.html#graphs\">気体の法則のグラフ</a>、<a href=\"../topics/s1-5.html#pvnrt\">理想気体の状態方程式</a>。",
 
     // The chemistry behind it > key idea > p
-    "All three relationships come from one equation, <i>PV</i> = <i>nRT</i>. Keep two of <i>P</i>, <i>V</i> and <i>T</i> (and <i>n</i>) fixed and the third pair must be proportional, as long as <i>T</i> is in kelvin.": "3 つの関係は、すべて 1 つの式 <i>PV</i> = <i>nRT</i> から出てきます。<i>P</i>、<i>V</i>、<i>T</i> のうち 1 つ（と <i>n</i>）を一定にすると、残りの 2 つは比例か反比例の関係になります。ただし、<i>T</i> はケルビンで表さなければなりません。",
+    "All three relationships come from one equation, <i>PV</i> = <i>nRT</i>. Keep one of <i>P</i>, <i>V</i> and <i>T</i> (and <i>n</i>) fixed and the other two are proportional or inversely proportional, as long as <i>T</i> is in kelvin.": "3 つの関係は、すべて 1 つの式 <i>PV</i> = <i>nRT</i> から出てきます。<i>P</i>、<i>V</i>、<i>T</i> のうち 1 つ（と <i>n</i>）を一定にすると、残りの 2 つは比例か反比例の関係になります。ただし、<i>T</i> はケルビンで表さなければなりません。",
 
     // The chemistry behind it > not needed for IB > p
     "Books call these Boyle’s law, Charles’s law and the pressure law. The guide says the names of the gas laws will not be assessed. You need the relationships and their graphs, not the names.": "教科書では、これらをボイルの法則、シャルルの法則、圧力の法則と呼びます。『指導の手引き』には、気体の法則の名前は評価しないと書かれています。必要なのは関係とそのグラフで、名前ではありません。",

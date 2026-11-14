@@ -99,8 +99,8 @@ S1.i18n.register('ko', 'lab-empirical-formula.q', {
       // EN: <p>3 mol of Mg gain 2 × 14.01 = 28.02 g as <span class="chem">Mg3N2</span>, but 3 × 16.00 = 48.00 g as 3 <span class="chem">MgO</span>. So the total mass gain is smaller than it should be. The student counts all of the gain as oxygen, so the calculated amount of oxygen is too low and the ratio O : Mg is <strong>too low</strong>.</p><p>Improvement: add a few drops of distilled water to the cooled product and heat again. The nitride is converted to the oxide.</p>
       solution: "<p>Mg 3 mol은 <span class=\"chem\">Mg3N2</span>가 되면 2 × 14.01 = 28.02 g이 늘지만, 3 <span class=\"chem\">MgO</span>가 되면 3 × 16.00 = 48.00 g이 늘어요. 그래서 늘어난 질량 전체가 원래보다 작아요. 학생은 늘어난 질량을 모두 산소로 계산하므로, 계산한 산소의 양이 너무 작고 비 O : Mg가 <strong>너무 작아요</strong>.</p><p>개선 방법: 식은 생성물에 증류수를 몇 방울 넣고 다시 가열해요. 질화물이 산화물로 바뀌어요.</p>",
       misconception: {
-        // EN (option A): The nitrogen does add mass, but compare it with the mass the oxide would have added for the same magnesium. Three Mg atoms gain 28.02 g mol⁻¹ as Mg₃N₂ but 48.00 g mol⁻¹ as three MgO.
-        "0": "질소가 질량을 보태기는 하지만, 같은 마그네슘으로 산화물이 생길 때 늘어났을 질량과 비교해 보세요. Mg 원자 3개는 Mg₃N₂가 되면 28.02 g mol⁻¹, MgO 3개가 되면 48.00 g mol⁻¹이 늘어요.",
+        // EN (option A): The nitrogen does add mass, but compare it with the mass the oxide would have added for the same magnesium. 3 mol of Mg gain 28.02 g as Mg₃N₂ but 48.00 g as 3 mol of MgO.
+        "0": "질소가 질량을 보태기는 하지만, 같은 마그네슘으로 산화물이 생길 때 늘어났을 질량과 비교해 보세요. Mg 3 mol은 Mg₃N₂가 되면 28.02 g, MgO 3 mol이 되면 48.00 g이 늘어요.",
         // EN (option C): The student does not know that any nitride has formed. All of the mass gain is counted as oxygen, so the nitride does change the calculated ratio.
         "2": "학생은 질화물이 생겼다는 것을 몰라요. 늘어난 질량은 모두 산소로 계산되므로, 질화물은 계산한 비를 바꿔요.",
         // EN (option D): The nitrogen stays in the solid as nitride ions. It is the smaller mass gain that matters.

@@ -99,8 +99,8 @@ S1.i18n.register('zh-Hant', 'lab-empirical-formula.q', {
       // EN: <p>3 mol of Mg gain 2 × 14.01 = 28.02 g as <span class="chem">Mg3N2</span>, but 3 × 16.00 = 48.00 g as 3 <span class="chem">MgO</span>. So the total mass gain is smaller than it should be. The student counts all of the gain as oxygen, so the calculated amount of oxygen is too low and the ratio O : Mg is <strong>too low</strong>.</p><p>Improvement: add a few drops of distilled water to the cooled product and heat again. The nitride is converted to the oxide.</p>
       solution: "<p>3 mol Mg 生成 <span class=\"chem\">Mg3N2</span> 時增加 2 × 14.01 = 28.02 g，但生成 3 <span class=\"chem\">MgO</span> 時增加 3 × 16.00 = 48.00 g。所以增加的總質量比應有的少。學生把增加的質量全部當作氧計算，所以計算出的氧的物質的量過低，比值 O : Mg <strong>過低</strong>。</p><p>改進方法：在冷卻了的生成物中加入幾滴蒸餾水，再加熱。氮化物會轉化為氧化物。</p>",
       misconception: {
-        // EN (option A): The nitrogen does add mass, but compare it with the mass the oxide would have added for the same magnesium. Three Mg atoms gain 28.02 g mol⁻¹ as Mg₃N₂ but 48.00 g mol⁻¹ as three MgO.
-        "0": "氮確實增加了質量，但要與相同份量的鎂生成氧化物時增加的質量比較。三個 Mg 原子生成 Mg₃N₂ 時增加 28.02 g mol⁻¹，但生成三個 MgO 時增加 48.00 g mol⁻¹。",
+        // EN (option A): The nitrogen does add mass, but compare it with the mass the oxide would have added for the same magnesium. 3 mol of Mg gain 28.02 g as Mg₃N₂ but 48.00 g as 3 mol of MgO.
+        "0": "氮確實增加了質量，但要與相同份量的鎂生成氧化物時增加的質量比較。3 mol Mg 生成 Mg₃N₂ 時增加 28.02 g，但生成 3 mol MgO 時增加 48.00 g。",
         // EN (option C): The student does not know that any nitride has formed. All of the mass gain is counted as oxygen, so the nitride does change the calculated ratio.
         "2": "學生並不知道有氮化物生成。增加的質量全部被當作氧計算，所以氮化物確實會改變計算出的比值。",
         // EN (option D): The nitrogen stays in the solid as nitride ions. It is the smaller mass gain that matters.
