@@ -144,7 +144,7 @@ S1.i18n.register('ko', 's3-2h', {
     "A ring also stops rotation. Each ring carbon has one bond pointing above the ring and one pointing below it. If two different ring carbons each have two different groups, there are two isomers.": "고리도 회전을 막아요. 고리의 각 탄소에는 고리 위쪽을 향하는 결합 1개와 아래쪽을 향하는 결합 1개가 있어요. 서로 다른 고리 탄소 2개에 각각 서로 다른 기 2개가 붙어 있으면 이성질체가 2개 있어요.",
 
     // Stereoisomers and cis–trans isomers > p
-    "In these drawings, a solid wedge is a bond coming towards you. A hashed wedge is a bond going away from you.": "이 그림에서 채운 쐐기는 나를 향해 나오는 결합이에요. 빗금 쐐기는 나에게서 멀어지는 결합이에요.",
+    "In these drawings, a solid wedge is a bond coming towards you. A hashed wedge is a bond going away from you.": "이 그림에서 실선 쐐기는 나를 향해 나오는 결합이에요. 점선 쐐기는 나에게서 멀어지는 결합이에요.",
 
     // Stereoisomers and cis–trans isomers > widget > data-title attribute
     "Cis–trans explorer": "시스–트랜스 탐색기",
@@ -295,13 +295,13 @@ S1.i18n.register('ko', 's3-2h', {
     "A plain line is a bond in the plane of the paper.": "보통 선은 종이 평면에 있는 결합이에요.",
 
     // Chiral carbon atoms and enantiomers > li
-    "A solid wedge is a bond coming out of the paper, towards you.": "채운 쐐기는 종이에서 나를 향해 튀어나오는 결합이에요.",
+    "A solid wedge is a bond coming out of the paper, towards you.": "실선 쐐기는 종이에서 나를 향해 튀어나오는 결합이에요.",
 
     // Chiral carbon atoms and enantiomers > li
-    "A hashed wedge is a bond going into the paper, away from you.": "빗금 쐐기는 종이 안쪽으로, 나에게서 멀어지는 결합이에요.",
+    "A hashed wedge is a bond going into the paper, away from you.": "점선 쐐기는 종이 안쪽으로, 나에게서 멀어지는 결합이에요.",
 
     // Chiral carbon atoms and enantiomers > p
-    "Draw two plain bonds, one solid wedge and one hashed wedge around the chiral carbon. Then draw a mirror line and reflect the whole drawing.": "카이랄 탄소 주위에 보통 결합 2개, 채운 쐐기 1개, 빗금 쐐기 1개를 그려요. 그다음 거울선을 긋고 그림 전체를 대칭으로 옮겨 그려요.",
+    "Draw two plain bonds, one solid wedge and one hashed wedge around the chiral carbon. Then draw a mirror line and reflect the whole drawing.": "카이랄 탄소 주위에 보통 결합 2개, 실선 쐐기 1개, 점선 쐐기 1개를 그려요. 그다음 거울선을 긋고 그림 전체를 대칭으로 옮겨 그려요.",
 
     // Chiral carbon atoms and enantiomers > p
     "These are the two enantiomers of butan-2-ol. The dashed line is the mirror.": "이것은 butan-2-ol의 두 거울상 이성질체예요. 점선이 거울이에요.",
@@ -346,7 +346,7 @@ S1.i18n.register('ko', 's3-2h', {
     "The four bonds point to the corners of a tetrahedron.": "결합 4개는 정사면체의 꼭짓점을 향해요.",
 
     // Chiral carbon atoms and enantiomers > worked example > p
-    "Put the chiral carbon in the centre. Draw two plain bonds with a wide angle between them. Add one solid wedge and one hashed wedge. Attach the four groups. Their order does not matter for the first drawing.": "카이랄 탄소를 가운데에 두세요. 보통 결합 2개를 넓은 각도로 그려요. 채운 쐐기 1개와 빗금 쐐기 1개를 더해요. 4개의 기를 붙여요. 첫 번째 그림에서는 기의 순서가 상관없어요.",
+    "Put the chiral carbon in the centre. Draw two plain bonds with a wide angle between them. Add one solid wedge and one hashed wedge. Attach the four groups. Their order does not matter for the first drawing.": "카이랄 탄소를 가운데에 두세요. 보통 결합 2개를 넓은 각도로 그려요. 실선 쐐기 1개와 점선 쐐기 1개를 더해요. 4개의 기를 붙여요. 첫 번째 그림에서는 기의 순서가 상관없어요.",
 
     // Chiral carbon atoms and enantiomers > worked example > data-title attribute
     "Reflect it in a mirror line": "거울선에 대해 대칭으로 그리기",
@@ -2021,7 +2021,7 @@ S1.i18n.register('ko', 's3-2h', {
     "Step 2. Draw two bonds as plain lines. These two bonds lie in the plane of the paper. Keep the angle between them wider than 90°, close to the tetrahedral angle of 109.5°.": "2단계. 결합 2개를 보통 선으로 그려요. 이 두 결합은 종이 평면에 있어요. 두 결합 사이의 각은 90°보다 넓게, 정사면체 각 109.5°에 가깝게 그려요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Step 3. Draw one bond as a solid wedge. A wedge bond points out of the paper, towards you. The narrow end is at the chiral carbon.": "3단계. 결합 1개를 채운 쐐기로 그려요. 쐐기 결합은 종이에서 나를 향해 튀어나와요. 좁은 끝이 카이랄 탄소 쪽에 있어요.",
+    "Step 3. Draw one bond as a solid wedge. A wedge bond points out of the paper, towards you. The narrow end is at the chiral carbon.": "3단계. 결합 1개를 실선 쐐기로 그려요. 쐐기 결합은 종이에서 나를 향해 튀어나와요. 좁은 끝이 카이랄 탄소 쪽에 있어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "Step 4. Draw the last bond as a hashed (dashed) wedge. It points into the paper, away from you. All four groups must be different.": "4단계. 마지막 결합을 빗금(점선) 쐐기로 그려요. 이 결합은 종이 안쪽으로, 나에게서 멀어지는 쪽을 향해요. 4개의 기는 모두 달라야 해요.",

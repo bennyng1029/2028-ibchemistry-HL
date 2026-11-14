@@ -186,7 +186,7 @@ S1.i18n.register('ko', 's3-2', {
     "Stereochemical formula of propan-1-ol, drawn around the carbon that carries the OH group": "OH기가 붙은 탄소를 중심으로 그린 propan-1-ol의 입체 구조식",
 
     // Six ways to write one molecule > table > td
-    "The 3-D arrangement around an atom. A solid wedge comes towards you. A dashed wedge goes away from you. Plain lines lie in the plane of the page.": "한 원자 주위의 3-D 배열. 꽉 찬 쐐기는 앞으로(여러분 쪽으로) 나와요. 점선 쐐기는 뒤로(여러분에게서 멀어지는 쪽으로) 들어가요. 보통 선은 종이 면 위에 있어요.",
+    "The 3-D arrangement around an atom. A solid wedge comes towards you. A dashed wedge goes away from you. Plain lines lie in the plane of the page.": "한 원자 주위의 3-D 배열. 실선 쐐기는 앞으로(여러분 쪽으로) 나와요. 점선 쐐기는 뒤로(여러분에게서 멀어지는 쪽으로) 들어가요. 보통 선은 종이 면 위에 있어요.",
 
     // Six ways to write one molecule > p
     "The empirical formula and the molecular formula can be different. Ethanoic acid has the molecular formula <span class=\"chem\">C2H4O2</span>. Divide every number by 2 and you get its empirical formula, <span class=\"chem\">CH2O</span>. You met empirical formulas in Structure 1.4.": "실험식과 분자식은 다를 수 있어요. ethanoic acid(아세트산)의 분자식은 <span class=\"chem\">C2H4O2</span>예요. 모든 수를 2로 나누면 실험식 <span class=\"chem\">CH2O</span>가 돼요. 실험식은 Structure 1.4에서 배웠어요.",
