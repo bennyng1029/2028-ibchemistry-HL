@@ -178,7 +178,8 @@
       if (rows.length < 3) setFit(t('Record at least three readings over the whole range of the syringe.'));
       else if (graphSel.value === 'inv') {
         var f = fitLine(rows.map(function (r) { return [1 / r.V, r.p]; }));
-        setFit(t('gradient = {m} kPa cm³, y-intercept = {b} kPa', { m: sig(f.m, 3), b: fx(f.b, 1) }));
+        if (!f) setFit(t('Record at least three readings over the whole range of the syringe.'));   // no spread in 1/V yet
+        else setFit(t('gradient = {m} kPa cm³, y-intercept = {b} kPa', { m: sig(f.m, 3), b: fx(f.b, 1) }));
       } else {
         var pv = rows.map(function (r) { return r.p * r.V; }), lo = Math.min.apply(null, pv), hi = Math.max.apply(null, pv);
         setFit(t('PV ranges from {lo} to {hi} kPa cm³', { lo: sig(lo, 3), hi: sig(hi, 3) }));
