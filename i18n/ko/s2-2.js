@@ -1100,822 +1100,822 @@ S1.i18n.register('ko', 's2-2', {
     "Use the table of electronegativity values. Calculate the difference in electronegativity for a C–Cl bond.": "전기 음성도 값 표를 이용하세요. C–Cl 결합의 전기 음성도 차이를 계산하시오 (calculate).",
 
     // Bond polarity > try it > li
-    "Carbon is 2.6 and chlorine is 3.2.": "",
+    "Carbon is 2.6 and chlorine is 3.2.": "탄소는 2.6, 염소는 3.2예요.",
 
     // Bond polarity > try it > p
-    "Chlorine has the larger value, so chlorine is δ− and carbon is δ+.": "",
+    "Chlorine has the larger value, so chlorine is δ− and carbon is δ+.": "염소의 값이 더 크므로 염소가 δ−이고 탄소가 δ+예요.",
 
     // Bond polarity > try it > p
-    "Calculate the difference in electronegativity for a C=O bond. Which atom is δ−?": "",
+    "Calculate the difference in electronegativity for a C=O bond. Which atom is δ−?": "C=O 결합의 전기 음성도 차이를 계산하시오 (calculate). 어느 원자가 δ−일까요?",
 
     // Bond polarity > try it > li
-    "Carbon is 2.6 and oxygen is 3.4.": "",
+    "Carbon is 2.6 and oxygen is 3.4.": "탄소는 2.6, 산소는 3.4예요.",
 
     // Bond polarity > try it > li
-    "A double bond is treated in the same way as a single bond here.": "",
+    "A double bond is treated in the same way as a single bond here.": "여기서는 이중 결합도 단일 결합과 똑같이 다뤄요.",
 
     // Bond polarity > try it > p
-    "Oxygen has the larger value, so oxygen is δ− and carbon is δ+.": "",
+    "Oxygen has the larger value, so oxygen is δ− and carbon is δ+.": "산소의 값이 더 크므로 산소가 δ−이고 탄소가 δ+예요.",
 
     // Bond polarity > common mistake > p
-    "A partial charge is not an ion charge. Write δ+ and δ−, never + and −. And put δ− on the atom with the <em>larger</em> electronegativity, because it pulls the negative electrons towards itself.": "",
+    "A partial charge is not an ion charge. Write δ+ and δ−, never + and −. And put δ− on the atom with the <em>larger</em> electronegativity, because it pulls the negative electrons towards itself.": "부분 전하는 이온의 전하가 아니에요. +와 −가 아니라 반드시 δ+와 δ−로 쓰세요. 그리고 δ−는 전기 음성도가 <em>더 큰</em> 원자에 붙여요. 그 원자가 음전하를 띤 전자를 자기 쪽으로 끌어당기기 때문이에요.",
 
     // Bond polarity > exam tip (shown in English + translation) > p
-    "If you are asked to show the polarity of a bond, you need both partial charges, δ+ and δ−, on the correct atoms for the mark. To explain why a bond is polar, write “the two atoms have different electronegativities”.": "",
+    "If you are asked to show the polarity of a bond, you need both partial charges, δ+ and δ−, on the correct atoms for the mark. To explain why a bond is polar, write “the two atoms have different electronegativities”.": "결합의 극성을 나타내라고 하면, 점수를 받으려면 부분 전하 δ+와 δ−를 둘 다 올바른 원자에 써야 해요. 결합이 왜 극성인지 설명하려면 “두 원자의 전기 음성도가 다르다”고 쓰세요.",
 
     // Bond polarity > not needed for IB > p
-    "The guide gives no cut-off numbers (such as 0.4 or 1.8) for “non-polar”, “polar” and “ionic”. You do not need to memorize any. To decide the type of bonding from electronegativity, you will use the bonding triangle in Structure 2.4. The trends in electronegativity are explained in Structure 3.1.": "",
+    "The guide gives no cut-off numbers (such as 0.4 or 1.8) for “non-polar”, “polar” and “ionic”. You do not need to memorize any. To decide the type of bonding from electronegativity, you will use the bonding triangle in Structure 2.4. The trends in electronegativity are explained in Structure 3.1.": "가이드에는 “무극성”, “극성”, “이온성”을 나누는 기준 숫자(0.4나 1.8 같은)가 없어요. 외울 필요가 없어요. 전기 음성도로 결합의 종류를 정할 때는 Structure 2.4의 결합 삼각형을 쓰게 돼요. 전기 음성도의 경향은 Structure 3.1에서 설명해요.",
 
     // Bond polarity > data-title attribute
-    "Bond polarity: quick check": "",
+    "Bond polarity: quick check": "결합의 극성: 빠른 확인",
 
     // Molecular polarity > data-toc attribute
-    "Polar molecules": "",
+    "Polar molecules": "극성 분자",
 
     // Molecular polarity > h2
-    "Molecular polarity": "",
+    "Molecular polarity": "분자의 극성",
 
     // Molecular polarity > p
-    "Two equal teams pull a rope in opposite directions. Both pull hard, but the rope does not move. Equal pulls in opposite directions cancel.": "",
+    "Two equal teams pull a rope in opposite directions. Both pull hard, but the rope does not move. Equal pulls in opposite directions cancel.": "힘이 같은 두 팀이 줄을 반대 방향으로 당겨요. 둘 다 세게 당기지만 줄은 움직이지 않아요. 반대 방향으로 같은 힘으로 당기면 서로 상쇄돼요.",
 
     // Molecular polarity > p
-    "Bond dipoles work in the same way. Each bond dipole has a size and a direction. If the dipoles are equal and the shape is symmetrical, they cancel.": "",
+    "Bond dipoles work in the same way. Each bond dipole has a size and a direction. If the dipoles are equal and the shape is symmetrical, they cancel.": "결합 쌍극자도 똑같이 작용해요. 결합 쌍극자에는 각각 크기와 방향이 있어요. 쌍극자의 크기가 같고 모양이 대칭이면 서로 상쇄돼요.",
 
     // Molecular polarity > p
-    "A <dfn data-def=\"A molecule with a net dipole: its bond dipoles do not cancel, so one side of the molecule is δ+ and the other side is δ−.\">polar molecule</dfn> has a <dfn data-def=\"The overall dipole of a molecule, found by adding all the bond dipoles as vectors.\">net dipole</dfn>: its bond dipoles do not cancel. A <dfn data-def=\"A molecule with no net dipole.\">non-polar molecule</dfn> has no net dipole.": "",
+    "A <dfn data-def=\"A molecule with a net dipole: its bond dipoles do not cancel, so one side of the molecule is δ+ and the other side is δ−.\">polar molecule</dfn> has a <dfn data-def=\"The overall dipole of a molecule, found by adding all the bond dipoles as vectors.\">net dipole</dfn>: its bond dipoles do not cancel. A <dfn data-def=\"A molecule with no net dipole.\">non-polar molecule</dfn> has no net dipole.": "<dfn data-def=\"알짜 쌍극자가 있는 분자: 결합 쌍극자가 상쇄되지 않아서 분자의 한쪽은 δ+, 다른 쪽은 δ−예요.\">극성 분자 <span class=\"en-term\">(polar molecule)</span></dfn>에는 <dfn data-def=\"모든 결합 쌍극자를 벡터로 더해서 구한 분자 전체의 쌍극자.\">알짜 쌍극자 <span class=\"en-term\">(net dipole)</span></dfn>가 있어요: 결합 쌍극자가 상쇄되지 않아요. <dfn data-def=\"알짜 쌍극자가 없는 분자.\">무극성 분자 <span class=\"en-term\">(non-polar molecule)</span></dfn>에는 알짜 쌍극자가 없어요.",
 
     // Molecular polarity > data-def attribute
-    "A molecule with a net dipole: its bond dipoles do not cancel, so one side of the molecule is δ+ and the other side is δ−.": "",
+    "A molecule with a net dipole: its bond dipoles do not cancel, so one side of the molecule is δ+ and the other side is δ−.": "알짜 쌍극자가 있는 분자: 결합 쌍극자가 상쇄되지 않아서 분자의 한쪽은 δ+, 다른 쪽은 δ−예요.",
 
     // Molecular polarity > data-def attribute
-    "The overall dipole of a molecule, found by adding all the bond dipoles as vectors.": "",
+    "The overall dipole of a molecule, found by adding all the bond dipoles as vectors.": "모든 결합 쌍극자를 벡터로 더해서 구한 분자 전체의 쌍극자.",
 
     // Molecular polarity > data-def attribute
-    "A molecule with no net dipole.": "",
+    "A molecule with no net dipole.": "알짜 쌍극자가 없는 분자.",
 
     // Molecular polarity > key idea > p
-    "Molecular polarity depends on two things: the polarity of the bonds <b>and</b> the geometry of the molecule. You always need both.": "",
+    "Molecular polarity depends on two things: the polarity of the bonds <b>and</b> the geometry of the molecule. You always need both.": "분자의 극성은 두 가지로 정해져요: 결합의 극성 <b>그리고</b> 분자의 모양이에요. 항상 둘 다 필요해요.",
 
     // Molecular polarity > h3
-    "Same kind of bond, different shape": "",
+    "Same kind of bond, different shape": "같은 종류의 결합, 다른 모양",
 
     // Molecular polarity > p
-    "Carbon dioxide has two polar C=O bonds. The molecule is linear, so the two dipoles point in opposite directions and cancel. <span class=\"chem\">CO2</span> is non-polar.": "",
+    "Carbon dioxide has two polar C=O bonds. The molecule is linear, so the two dipoles point in opposite directions and cancel. <span class=\"chem\">CO2</span> is non-polar.": "이산화 탄소에는 극성 C=O 결합이 2개 있어요. 분자가 직선형이므로 두 쌍극자가 반대 방향을 향해서 상쇄돼요. <span class=\"chem\">CO2</span>는 무극성이에요.",
 
     // Molecular polarity > p
-    "Water has two polar O–H bonds. The molecule is bent, so the two dipoles do not point in opposite directions. They add up. <span class=\"chem\">H2O</span> is polar.": "",
+    "Water has two polar O–H bonds. The molecule is bent, so the two dipoles do not point in opposite directions. They add up. <span class=\"chem\">H2O</span> is polar.": "물에는 극성 O–H 결합이 2개 있어요. 분자가 굽은 형이므로 두 쌍극자가 반대 방향을 향하지 않아요. 쌍극자가 합쳐져요. <span class=\"chem\">H2O</span>는 극성이에요.",
 
     // Molecular polarity > widget > data-title attribute
-    "Polarity lab": "",
+    "Polarity lab": "극성 실험실",
 
     // Molecular polarity > widget > figcaption
-    "Choose a molecule and predict before you look. In this model, a thicker arrow means a larger difference in electronegativity. Turn the model to see the shape. Compare CCl<sub>4</sub> with CHCl<sub>3</sub>.": "",
+    "Choose a molecule and predict before you look. In this model, a thicker arrow means a larger difference in electronegativity. Turn the model to see the shape. Compare CCl<sub>4</sub> with CHCl<sub>3</sub>.": "분자를 하나 고르고, 보기 전에 먼저 예측해 보세요. 이 모형에서 화살표가 굵을수록 전기 음성도 차이가 커요. 모형을 돌려서 모양을 보세요. CCl<sub>4</sub>와 CHCl<sub>3</sub>를 비교해 보세요.",
 
     // Molecular polarity > li
-    "Draw the Lewis formula and deduce the molecular geometry.": "",
+    "Draw the Lewis formula and deduce the molecular geometry.": "루이스 구조식을 그리고 분자 모양을 추론해요.",
 
     // Molecular polarity > li
-    "Decide whether each bond is polar. Use electronegativity values.": "",
+    "Decide whether each bond is polar. Use electronegativity values.": "결합이 각각 극성인지 판단해요. 전기 음성도 값을 이용해요.",
 
     // Molecular polarity > li
-    "Ask: do the bond dipoles cancel? They cancel when the outer atoms are all the same <em>and</em> the shape is linear, trigonal planar or tetrahedral, with no lone pairs on the central atom.": "",
+    "Ask: do the bond dipoles cancel? They cancel when the outer atoms are all the same <em>and</em> the shape is linear, trigonal planar or tetrahedral, with no lone pairs on the central atom.": "스스로 물어봐요: 결합 쌍극자가 상쇄될까? 바깥 원자가 모두 같고 <em>그리고</em> 모양이 직선형, 평면 삼각형, 정사면체형 중 하나이며 중심 원자에 비공유 전자쌍이 없을 때 상쇄돼요.",
 
     // Molecular polarity > li
-    "If they cancel, the molecule is non-polar. If they do not, the molecule is polar.": "",
+    "If they cancel, the molecule is non-polar. If they do not, the molecule is polar.": "상쇄되면 무극성 분자예요. 상쇄되지 않으면 극성 분자예요.",
 
     // Molecular polarity > table > caption
     // widget string (assets/js/widgets-s2-2.js)
-    "Do the bond dipoles cancel?": "",
+    "Do the bond dipoles cancel?": "결합 쌍극자가 상쇄될까?",
 
     // Molecular polarity > table > th
-    "Outer atoms all the same": "",
+    "Outer atoms all the same": "바깥 원자가 모두 같음",
 
     // Molecular polarity > table > th
-    "Outer atoms different": "",
+    "Outer atoms different": "바깥 원자가 다름",
 
     // Molecular polarity > table > th
-    "linear (2 domains)": "",
+    "linear (2 domains)": "직선형 (영역 2개)",
 
     // Molecular polarity > table > td
-    "cancel: <span class=\"chem\">CO2</span>, <span class=\"chem\">BeCl2</span>": "",
+    "cancel: <span class=\"chem\">CO2</span>, <span class=\"chem\">BeCl2</span>": "상쇄됨: <span class=\"chem\">CO2</span>, <span class=\"chem\">BeCl2</span>",
 
     // Molecular polarity > table > td
-    "do not cancel: HCN": "",
+    "do not cancel: HCN": "상쇄되지 않음: HCN",
 
     // Molecular polarity > table > td
-    "cancel: <span class=\"chem\">BF3</span>": "",
+    "cancel: <span class=\"chem\">BF3</span>": "상쇄됨: <span class=\"chem\">BF3</span>",
 
     // Molecular polarity > table > td
-    "do not cancel: HCHO": "",
+    "do not cancel: HCHO": "상쇄되지 않음: HCHO",
 
     // Molecular polarity > table > td
-    "cancel: <span class=\"chem\">CH4</span>, <span class=\"chem\">CCl4</span>": "",
+    "cancel: <span class=\"chem\">CH4</span>, <span class=\"chem\">CCl4</span>": "상쇄됨: <span class=\"chem\">CH4</span>, <span class=\"chem\">CCl4</span>",
 
     // Molecular polarity > table > td
-    "do not cancel: <span class=\"chem\">CH3Cl</span>, <span class=\"chem\">CHCl3</span>": "",
+    "do not cancel: <span class=\"chem\">CH3Cl</span>, <span class=\"chem\">CHCl3</span>": "상쇄되지 않음: <span class=\"chem\">CH3Cl</span>, <span class=\"chem\">CHCl3</span>",
 
     // Molecular polarity > table > td
-    "do not cancel: <span class=\"chem\">H2O</span>, <span class=\"chem\">SO2</span>": "",
+    "do not cancel: <span class=\"chem\">H2O</span>, <span class=\"chem\">SO2</span>": "상쇄되지 않음: <span class=\"chem\">H2O</span>, <span class=\"chem\">SO2</span>",
 
     // Molecular polarity > table > td
-    "do not cancel": "",
+    "do not cancel": "상쇄되지 않음",
 
     // Molecular polarity > table > td
-    "do not cancel: <span class=\"chem\">NH3</span>": "",
+    "do not cancel: <span class=\"chem\">NH3</span>": "상쇄되지 않음: <span class=\"chem\">NH3</span>",
 
     // Molecular polarity > p
-    "The same reasoning works for ions. In the ammonium ion, <span class=\"chem\">NH4+</span>, the four N–H dipoles cancel because the ion is tetrahedral. The ion has a charge, but it has no net dipole.": "",
+    "The same reasoning works for ions. In the ammonium ion, <span class=\"chem\">NH4+</span>, the four N–H dipoles cancel because the ion is tetrahedral. The ion has a charge, but it has no net dipole.": "이온에도 같은 방법을 쓸 수 있어요. 암모늄 이온 <span class=\"chem\">NH4+</span>에서는 이온이 정사면체형이라서 N–H 쌍극자 4개가 상쇄돼요. 이 이온은 전하는 있지만 알짜 쌍극자는 없어요.",
 
     // Molecular polarity > worked example > data-kicker attribute
-    "Worked example 6": "",
+    "Worked example 6": "예제 6",
 
     // Molecular polarity > worked example > h3
-    "Is the molecule polar?": "",
+    "Is the molecule polar?": "이 분자는 극성일까?",
 
     // Molecular polarity > worked example > p
-    "Deduce whether boron trifluoride, <span class=\"chem\">BF3</span>, and ammonia, <span class=\"chem\">NH3</span>, are polar molecules.": "",
+    "Deduce whether boron trifluoride, <span class=\"chem\">BF3</span>, and ammonia, <span class=\"chem\">NH3</span>, are polar molecules.": "삼플루오린화 붕소 <span class=\"chem\">BF3</span>와 암모니아 <span class=\"chem\">NH3</span>가 극성 분자인지 추론하시오 (deduce).",
 
     // Molecular polarity > worked example > data-title attribute
-    "Decide whether the bonds are polar": "",
+    "Decide whether the bonds are polar": "결합이 극성인지 판단하기",
 
     // Molecular polarity > worked example > p
-    "A molecule can only be polar if it has polar bonds. Use the booklet values.": "",
+    "A molecule can only be polar if it has polar bonds. Use the booklet values.": "분자는 극성 결합이 있어야만 극성이 될 수 있어요. 데이터 부클릿 값을 쓰세요.",
 
     // Molecular polarity > worked example > maths line
-    "B–F: 4.0 − 2.0 = 2.0, so polar, with F δ−": "",
+    "B–F: 4.0 − 2.0 = 2.0, so polar, with F δ−": "B–F: 4.0 − 2.0 = 2.0, 그러므로 극성, F가 δ−",
 
     // Molecular polarity > worked example > maths line
-    "N–H: 3.0 − 2.2 = 0.8, so polar, with N δ−": "",
+    "N–H: 3.0 − 2.2 = 0.8, so polar, with N δ−": "N–H: 3.0 − 2.2 = 0.8, 그러므로 극성, N이 δ−",
 
     // Molecular polarity > worked example > data-title attribute
-    "Find the geometry of boron trifluoride": "",
+    "Find the geometry of boron trifluoride": "삼플루오린화 붕소의 모양 구하기",
 
     // Molecular polarity > worked example > p
-    "Boron has three bonding domains and no lone pairs.": "",
+    "Boron has three bonding domains and no lone pairs.": "붕소에는 결합 영역이 3개 있고 비공유 전자쌍은 없어요.",
 
     // Molecular polarity > worked example > maths line
-    "BF3: 3 electron domains, 0 lone pairs → trigonal planar, 120°": "",
+    "BF3: 3 electron domains, 0 lone pairs → trigonal planar, 120°": "BF3: 전자 영역 3개, 비공유 전자쌍 0개 → 평면 삼각형, 120°",
 
     // Molecular polarity > worked example > data-title attribute
-    "Find the geometry of ammonia": "",
+    "Find the geometry of ammonia": "암모니아의 모양 구하기",
 
     // Molecular polarity > worked example > p
-    "Nitrogen has three bonding domains and one lone pair.": "",
+    "Nitrogen has three bonding domains and one lone pair.": "질소에는 결합 영역이 3개, 비공유 전자쌍이 1개 있어요.",
 
     // Molecular polarity > worked example > maths line
-    "NH3: 4 electron domains, 1 lone pair → trigonal pyramidal": "",
+    "NH3: 4 electron domains, 1 lone pair → trigonal pyramidal": "NH3: 전자 영역 4개, 비공유 전자쌍 1개 → 삼각뿔형",
 
     // Molecular polarity > worked example > data-title attribute
-    "Do the dipoles cancel in boron trifluoride?": "",
+    "Do the dipoles cancel in boron trifluoride?": "삼플루오린화 붕소에서 쌍극자가 상쇄될까?",
 
     // Molecular polarity > worked example > p
-    "Three equal dipoles at 120° in one plane pull equally in all directions.": "",
+    "Three equal dipoles at 120° in one plane pull equally in all directions.": "한 평면에서 120° 간격으로 놓인 같은 크기의 쌍극자 3개는 모든 방향으로 똑같이 당겨요.",
 
     // Molecular polarity > worked example > maths line
-    "BF3: bond dipoles cancel → <b>non-polar</b>": "",
+    "BF3: bond dipoles cancel → <b>non-polar</b>": "BF3: 결합 쌍극자가 상쇄됨 → <b>무극성</b>",
 
     // Molecular polarity > worked example > data-title attribute
-    "Do the dipoles cancel in ammonia?": "",
+    "Do the dipoles cancel in ammonia?": "암모니아에서 쌍극자가 상쇄될까?",
 
     // Molecular polarity > worked example > p
-    "The three N–H dipoles all point partly towards the nitrogen end of the pyramid. Nothing pulls the other way.": "",
+    "The three N–H dipoles all point partly towards the nitrogen end of the pyramid. Nothing pulls the other way.": "N–H 쌍극자 3개는 모두 어느 정도 삼각뿔의 질소 쪽 끝을 향해요. 반대쪽으로 당기는 것이 없어요.",
 
     // Molecular polarity > worked example > maths line
-    "NH3: bond dipoles do not cancel → <b>polar</b>": "",
+    "NH3: bond dipoles do not cancel → <b>polar</b>": "NH3: 결합 쌍극자가 상쇄되지 않음 → <b>극성</b>",
 
     // Molecular polarity > worked example > p
-    "<span class=\"chem\">BF3</span> is non-polar: its polar bonds are arranged symmetrically (trigonal planar), so the dipoles cancel. <span class=\"chem\">NH3</span> is polar: it is trigonal pyramidal, so the dipoles do not cancel.": "",
+    "<span class=\"chem\">BF3</span> is non-polar: its polar bonds are arranged symmetrically (trigonal planar), so the dipoles cancel. <span class=\"chem\">NH3</span> is polar: it is trigonal pyramidal, so the dipoles do not cancel.": "<span class=\"chem\">BF3</span>는 무극성이에요: 극성 결합이 대칭(평면 삼각형)으로 배열되어 쌍극자가 상쇄돼요. <span class=\"chem\">NH3</span>는 극성이에요: 삼각뿔형이라서 쌍극자가 상쇄되지 않아요.",
 
     // Molecular polarity > try it > data-label attribute
-    "Number of polar molecules": "",
+    "Number of polar molecules": "극성 분자의 수",
 
     // Molecular polarity > try it > p
-    "How many of these five molecules are polar? <span class=\"chem\">CO2</span>, <span class=\"chem\">H2O</span>, <span class=\"chem\">NH3</span>, <span class=\"chem\">CH4</span>, <span class=\"chem\">CHCl3</span>": "",
+    "How many of these five molecules are polar? <span class=\"chem\">CO2</span>, <span class=\"chem\">H2O</span>, <span class=\"chem\">NH3</span>, <span class=\"chem\">CH4</span>, <span class=\"chem\">CHCl3</span>": "다음 분자 5개 중 극성 분자는 몇 개일까요? <span class=\"chem\">CO2</span>, <span class=\"chem\">H2O</span>, <span class=\"chem\">NH3</span>, <span class=\"chem\">CH4</span>, <span class=\"chem\">CHCl3</span>",
 
     // Molecular polarity > try it > li
-    "First name the shape of each one: linear, bent, trigonal pyramidal, tetrahedral, tetrahedral.": "",
+    "First name the shape of each one: linear, bent, trigonal pyramidal, tetrahedral, tetrahedral.": "먼저 각 분자의 모양 이름을 붙여요: 직선형, 굽은 형, 삼각뿔형, 정사면체형, 정사면체형.",
 
     // Molecular polarity > try it > li
-    "Symmetrical shapes with identical outer atoms have no net dipole. Check whether the outer atoms of <span class=\"chem\">CHCl3</span> are identical.": "",
+    "Symmetrical shapes with identical outer atoms have no net dipole. Check whether the outer atoms of <span class=\"chem\">CHCl3</span> are identical.": "바깥 원자가 모두 같은 대칭 모양에는 알짜 쌍극자가 없어요. <span class=\"chem\">CHCl3</span>의 바깥 원자가 모두 같은지 확인해 보세요.",
 
     // Molecular polarity > try it > p
-    "Three: <span class=\"chem\">H2O</span> (bent), <span class=\"chem\">NH3</span> (trigonal pyramidal) and <span class=\"chem\">CHCl3</span> (tetrahedral, but the outer atoms are not all the same).": "",
+    "Three: <span class=\"chem\">H2O</span> (bent), <span class=\"chem\">NH3</span> (trigonal pyramidal) and <span class=\"chem\">CHCl3</span> (tetrahedral, but the outer atoms are not all the same).": "3개예요: <span class=\"chem\">H2O</span>(굽은 형), <span class=\"chem\">NH3</span>(삼각뿔형), <span class=\"chem\">CHCl3</span>(정사면체형이지만 바깥 원자가 모두 같지는 않음).",
 
     // Molecular polarity > try it > p
-    "<span class=\"chem\">CO2</span> and <span class=\"chem\">CH4</span> are symmetrical, so their bond dipoles cancel.": "",
+    "<span class=\"chem\">CO2</span> and <span class=\"chem\">CH4</span> are symmetrical, so their bond dipoles cancel.": "<span class=\"chem\">CO2</span>와 <span class=\"chem\">CH4</span>는 대칭이라서 결합 쌍극자가 상쇄돼요.",
 
     // Molecular polarity > common mistake > p
-    "“It has polar bonds, so the molecule is polar” is wrong reasoning. <span class=\"chem\">CO2</span>, <span class=\"chem\">BF3</span> and <span class=\"chem\">CCl4</span> all have polar bonds and are non-polar molecules. Always check the shape.": "",
+    "“It has polar bonds, so the molecule is polar” is wrong reasoning. <span class=\"chem\">CO2</span>, <span class=\"chem\">BF3</span> and <span class=\"chem\">CCl4</span> all have polar bonds and are non-polar molecules. Always check the shape.": "“극성 결합이 있으니까 극성 분자다”는 잘못된 추론이에요. <span class=\"chem\">CO2</span>, <span class=\"chem\">BF3</span>, <span class=\"chem\">CCl4</span>는 모두 극성 결합이 있지만 무극성 분자예요. 항상 모양을 확인하세요.",
 
     // Molecular polarity > exam tip (shown in English + translation) > p
-    "For “explain why the molecule is polar” write two things. First: the bonds are polar because the atoms differ in electronegativity. Second: the bond dipoles do not cancel because of the shape, so there is a net dipole. An answer that only mentions electronegativity does not earn the second mark.": "",
+    "For “explain why the molecule is polar” write two things. First: the bonds are polar because the atoms differ in electronegativity. Second: the bond dipoles do not cancel because of the shape, so there is a net dipole. An answer that only mentions electronegativity does not earn the second mark.": "“이 분자가 왜 극성인지 설명하시오”에는 두 가지를 쓰세요. 첫째: 원자들의 전기 음성도가 달라서 결합이 극성이다. 둘째: 모양 때문에 결합 쌍극자가 상쇄되지 않아서 알짜 쌍극자가 있다. 전기 음성도만 언급한 답은 두 번째 점수를 받지 못해요.",
 
     // Molecular polarity > not needed for IB > p
-    "You do not need to calculate a dipole moment or use its unit (the debye). The question is always a yes or no decision with a reason.": "",
+    "You do not need to calculate a dipole moment or use its unit (the debye). The question is always a yes or no decision with a reason.": "쌍극자 모멘트를 계산하거나 그 단위(디바이)를 쓸 필요는 없어요. 문제는 항상 이유와 함께 ‘예’ 또는 ‘아니요’를 정하는 거예요.",
 
     // Molecular polarity > data-title attribute
-    "Molecular polarity: quick check": "",
+    "Molecular polarity: quick check": "분자의 극성: 빠른 확인",
 
     // Covalent network structures > data-toc attribute
     // Covalent network structures > h2
-    "Covalent network structures": "",
+    "Covalent network structures": "공유 결정",
 
     // Covalent network structures > p
-    "A drop of water contains billions of separate molecules. A diamond is different. Every carbon atom in it is joined by covalent bonds to its neighbours, and those to their neighbours, through the whole crystal.": "",
+    "A drop of water contains billions of separate molecules. A diamond is different. Every carbon atom in it is joined by covalent bonds to its neighbours, and those to their neighbours, through the whole crystal.": "물 한 방울에는 따로 떨어진 분자가 수십억 개 있어요. 다이아몬드는 달라요. 다이아몬드 속 모든 탄소 원자는 이웃 원자와 공유 결합으로 이어져 있고, 그 이웃은 또 그 이웃과 이어져서 결정 전체가 연결되어 있어요.",
 
     // Covalent network structures > p
-    "A <dfn data-def=\"A giant structure in which atoms are joined by covalent bonds throughout. There are no separate molecules.\">covalent network structure</dfn> is a giant structure of atoms joined by covalent bonds throughout. It has no separate molecules. Carbon and silicon form covalent network structures.": "",
+    "A <dfn data-def=\"A giant structure in which atoms are joined by covalent bonds throughout. There are no separate molecules.\">covalent network structure</dfn> is a giant structure of atoms joined by covalent bonds throughout. It has no separate molecules. Carbon and silicon form covalent network structures.": "<dfn data-def=\"원자들이 전체에 걸쳐 공유 결합으로 연결된 거대 구조. 따로 떨어진 분자가 없어요.\">공유 결정(공유 그물 구조) <span class=\"en-term\">(covalent network structure)</span></dfn>은 원자들이 전체에 걸쳐 공유 결합으로 연결된 거대 구조예요. 따로 떨어진 분자가 없어요. 탄소와 규소는 공유 결정을 만들어요.",
 
     // Covalent network structures > data-def attribute
-    "A giant structure in which atoms are joined by covalent bonds throughout. There are no separate molecules.": "",
+    "A giant structure in which atoms are joined by covalent bonds throughout. There are no separate molecules.": "원자들이 전체에 걸쳐 공유 결합으로 연결된 거대 구조. 따로 떨어진 분자가 없어요.",
 
     // Covalent network structures > p
-    "<dfn data-def=\"Different forms of the same element, with different bonding and structural patterns.\">Allotropes</dfn> are different forms of the same element. Their atoms are bonded and arranged in different patterns, so they have different chemical and physical properties. Diamond, graphite, graphene and fullerenes are allotropes of carbon.": "",
+    "<dfn data-def=\"Different forms of the same element, with different bonding and structural patterns.\">Allotropes</dfn> are different forms of the same element. Their atoms are bonded and arranged in different patterns, so they have different chemical and physical properties. Diamond, graphite, graphene and fullerenes are allotropes of carbon.": "<dfn data-def=\"같은 원소로 이루어졌지만 결합과 구조의 형태가 다른 여러 형태.\">동소체 <span class=\"en-term\">(allotropes)</span></dfn>는 같은 원소의 서로 다른 형태예요. 원자의 결합과 배열 방식이 달라서 화학적 성질과 물리적 성질이 달라요. 다이아몬드, 흑연, 그래핀, 풀러렌은 탄소의 동소체예요.",
 
     // Covalent network structures > data-def attribute
-    "Different forms of the same element, with different bonding and structural patterns.": "",
+    "Different forms of the same element, with different bonding and structural patterns.": "같은 원소로 이루어졌지만 결합과 구조의 형태가 다른 여러 형태.",
 
     // Covalent network structures > widget > data-title attribute
-    "Network structures in three dimensions": "",
+    "Network structures in three dimensions": "3차원으로 보는 공유 결정",
 
     // Covalent network structures > widget > figcaption
-    "Choose a structure and drag to turn it. Each model is a small piece: the real pattern continues in every direction (except in C<sub>60</sub>, which is one whole molecule). Count how many bonds each atom has.": "",
+    "Choose a structure and drag to turn it. Each model is a small piece: the real pattern continues in every direction (except in C<sub>60</sub>, which is one whole molecule). Count how many bonds each atom has.": "구조를 하나 고르고 끌어서 돌려 보세요. 각 모형은 작은 조각이에요: 실제 무늬는 모든 방향으로 계속 이어져요(C<sub>60</sub>은 예외로, 그 자체가 분자 하나예요). 원자마다 결합이 몇 개 있는지 세어 보세요.",
 
     // Covalent network structures > h3
     // widget string (assets/js/widgets-s2-2.js)
-    "Diamond": "",
+    "Diamond": "다이아몬드",
 
     // Covalent network structures > p
-    "Each carbon atom is bonded to four other carbon atoms. The four bonds point to the corners of a tetrahedron, with angles of 109.5°. All four valence electrons of each atom are held in bonds.": "",
+    "Each carbon atom is bonded to four other carbon atoms. The four bonds point to the corners of a tetrahedron, with angles of 109.5°. All four valence electrons of each atom are held in bonds.": "각 탄소 원자는 다른 탄소 원자 4개와 결합해요. 결합 4개는 정사면체의 꼭짓점을 향하고, 결합각은 109.5°예요. 각 원자의 원자가 전자 4개가 모두 결합에 쓰여요.",
 
     // Covalent network structures > li
-    "Very hard and a very high melting point: many strong covalent bonds must be broken.": "",
+    "Very hard and a very high melting point: many strong covalent bonds must be broken.": "매우 단단하고 녹는점이 매우 높아요: 강한 공유 결합을 많이 끊어야 해요.",
 
     // Covalent network structures > li
-    "Does not conduct electricity: there are no delocalized electrons and no ions.": "",
+    "Does not conduct electricity: there are no delocalized electrons and no ions.": "전기가 통하지 않아요: 비편재화된 전자도 이온도 없어요.",
 
     // Covalent network structures > li
-    "Insoluble in water and in other solvents.": "",
+    "Insoluble in water and in other solvents.": "물과 다른 용매에 녹지 않아요.",
 
     // Covalent network structures > h3
     // widget string (assets/js/widgets-s2-2.js)
-    "Graphite": "",
+    "Graphite": "흑연",
 
     // Covalent network structures > p
-    "Each carbon atom is bonded to three other carbon atoms. The atoms form flat layers of hexagons, with angles of 120°.": "",
+    "Each carbon atom is bonded to three other carbon atoms. The atoms form flat layers of hexagons, with angles of 120°.": "각 탄소 원자는 다른 탄소 원자 3개와 결합해요. 원자들은 육각형으로 이루어진 평평한 층을 만들고, 결합각은 120°예요.",
 
     // Covalent network structures > p
-    "Three of the four valence electrons of each atom are in bonds. The fourth is <dfn data-def=\"Not held between two particular atoms. A delocalized electron is free to move through the structure.\">delocalized</dfn>: it is free to move along the layer.": "",
+    "Three of the four valence electrons of each atom are in bonds. The fourth is <dfn data-def=\"Not held between two particular atoms. A delocalized electron is free to move through the structure.\">delocalized</dfn>: it is free to move along the layer.": "각 원자의 원자가 전자 4개 중 3개는 결합에 쓰여요. 네 번째 전자는 <dfn data-def=\"특정한 두 원자 사이에 붙잡혀 있지 않음. 비편재화된 전자는 구조 전체를 자유롭게 움직일 수 있어요.\">비편재화되어 <span class=\"en-term\">(delocalized)</span></dfn> 있어요: 층을 따라 자유롭게 움직일 수 있어요.",
 
     // Covalent network structures > data-def attribute
-    "Not held between two particular atoms. A delocalized electron is free to move through the structure.": "",
+    "Not held between two particular atoms. A delocalized electron is free to move through the structure.": "특정한 두 원자 사이에 붙잡혀 있지 않음. 비편재화된 전자는 구조 전체를 자유롭게 움직일 수 있어요.",
 
     // Covalent network structures > p
-    "Between the layers there are only weak London (dispersion) forces. You will meet these forces in section 2.2.8.": "",
+    "Between the layers there are only weak London (dispersion) forces. You will meet these forces in section 2.2.8.": "층과 층 사이에는 약한 런던 분산력만 작용해요. 이 힘은 2.2.8절에서 배워요.",
 
     // Covalent network structures > li
-    "Conducts electricity: the delocalized electrons can move along the layers.": "",
+    "Conducts electricity: the delocalized electrons can move along the layers.": "전기가 통해요: 비편재화된 전자가 층을 따라 움직일 수 있어요.",
 
     // Covalent network structures > li
-    "Soft and slippery: the layers slide over each other easily. Graphite is used in pencils and as a lubricant.": "",
+    "Soft and slippery: the layers slide over each other easily. Graphite is used in pencils and as a lubricant.": "무르고 미끄러워요: 층이 서로 쉽게 미끄러져요. 흑연은 연필심과 윤활제로 쓰여요.",
 
     // Covalent network structures > li
-    "Very high melting point: the covalent bonds inside the layers are strong.": "",
+    "Very high melting point: the covalent bonds inside the layers are strong.": "녹는점이 매우 높아요: 층 안의 공유 결합이 강해요.",
 
     // Covalent network structures > h3
     // widget string (assets/js/widgets-s2-2.js)
-    "Graphene": "",
+    "Graphene": "그래핀",
 
     // Covalent network structures > p
-    "Graphene is a single layer of graphite. It is one atom thick. Each carbon atom is bonded to three others in a flat sheet of hexagons, and one electron per atom is delocalized.": "",
+    "Graphene is a single layer of graphite. It is one atom thick. Each carbon atom is bonded to three others in a flat sheet of hexagons, and one electron per atom is delocalized.": "그래핀은 흑연의 한 층이에요. 두께가 원자 1개예요. 각 탄소 원자는 육각형으로 이루어진 평평한 판에서 다른 탄소 원자 3개와 결합하고, 원자 1개당 전자 1개가 비편재화되어 있어요.",
 
     // Covalent network structures > li
-    "A very good conductor of electricity and of heat: delocalized electrons move across the sheet.": "",
+    "A very good conductor of electricity and of heat: delocalized electrons move across the sheet.": "전기와 열을 매우 잘 전달해요: 비편재화된 전자가 판 위를 움직여요.",
 
     // Covalent network structures > li
-    "Very strong for its mass, because of the strong covalent bonds in the sheet.": "",
+    "Very strong for its mass, because of the strong covalent bonds in the sheet.": "판 속의 강한 공유 결합 때문에 질량에 비해 매우 강해요.",
 
     // Covalent network structures > li
-    "Very thin, light, flexible and almost transparent.": "",
+    "Very thin, light, flexible and almost transparent.": "매우 얇고 가벼우며, 잘 휘고 거의 투명해요.",
 
     // Covalent network structures > h3
-    "Fullerenes": "",
+    "Fullerenes": "풀러렌",
 
     // Covalent network structures > p
-    "Fullerenes are closed cages of carbon atoms. The one to know is <span class=\"chem\">C60</span>. Its 60 atoms form a ball of 12 pentagons and 20 hexagons, like a football. Each carbon atom is bonded to three others.": "",
+    "Fullerenes are closed cages of carbon atoms. The one to know is <span class=\"chem\">C60</span>. Its 60 atoms form a ball of 12 pentagons and 20 hexagons, like a football. Each carbon atom is bonded to three others.": "풀러렌은 탄소 원자로 이루어진 닫힌 우리 모양이에요. 알아 둘 것은 <span class=\"chem\">C60</span>이에요. 원자 60개가 오각형 12개와 육각형 20개로 된 축구공 같은 공 모양을 이뤄요. 각 탄소 원자는 다른 탄소 원자 3개와 결합해요.",
 
     // Covalent network structures > p
-    "<span class=\"chem\">C60</span> is a <em>molecule</em>. It is not a network. Solid <span class=\"chem\">C60</span> is made of separate molecules, held together by weak London (dispersion) forces.": "",
+    "<span class=\"chem\">C60</span> is a <em>molecule</em>. It is not a network. Solid <span class=\"chem\">C60</span> is made of separate molecules, held together by weak London (dispersion) forces.": "<span class=\"chem\">C60</span>은 <em>분자</em>예요. 그물 구조가 아니에요. 고체 <span class=\"chem\">C60</span>은 따로 떨어진 분자들이 약한 런던 분산력으로 모여 있는 거예요.",
 
     // Covalent network structures > li
-    "It turns into a gas at a much lower temperature than diamond or graphite: only the forces between molecules must be overcome.": "",
+    "It turns into a gas at a much lower temperature than diamond or graphite: only the forces between molecules must be overcome.": "다이아몬드나 흑연보다 훨씬 낮은 온도에서 기체가 돼요: 분자 사이의 힘만 이겨 내면 되기 때문이에요.",
 
     // Covalent network structures > li
-    "A poor conductor of electricity: electrons are delocalized inside one molecule but cannot move from molecule to molecule.": "",
+    "A poor conductor of electricity: electrons are delocalized inside one molecule but cannot move from molecule to molecule.": "전기가 잘 통하지 않아요: 전자가 분자 하나 안에서는 비편재화되어 있지만, 분자에서 분자로 옮겨 갈 수는 없어요.",
 
     // Covalent network structures > li
-    "Dissolves slightly in some non-polar solvents, because it is made of separate non-polar molecules.": "",
+    "Dissolves slightly in some non-polar solvents, because it is made of separate non-polar molecules.": "일부 무극성 용매에 조금 녹아요. 따로 떨어진 무극성 분자로 이루어져 있기 때문이에요.",
 
     // Covalent network structures > h3
     // widget string (assets/js/widgets-s2-2.js)
-    "Silicon": "",
+    "Silicon": "규소",
 
     // Covalent network structures > p
-    "Silicon is below carbon in group 14, so it also has four valence electrons. Solid silicon has the same structure as diamond: each silicon atom is bonded to four others in a tetrahedral arrangement.": "",
+    "Silicon is below carbon in group 14, so it also has four valence electrons. Solid silicon has the same structure as diamond: each silicon atom is bonded to four others in a tetrahedral arrangement.": "규소는 14족에서 탄소 바로 아래에 있으므로, 원자가 전자가 4개예요. 고체 규소는 다이아몬드와 구조가 같아요: 각 규소 원자가 다른 규소 원자 4개와 정사면체 배치로 결합해요.",
 
     // Covalent network structures > p
-    "Silicon is hard and has a high melting point, 1414 °C. This is lower than carbon’s. A silicon atom is larger than a carbon atom, so the Si–Si bond is longer and weaker than the C–C bond.": "",
+    "Silicon is hard and has a high melting point, 1414 °C. This is lower than carbon’s. A silicon atom is larger than a carbon atom, so the Si–Si bond is longer and weaker than the C–C bond.": "규소는 단단하고 녹는점이 1414 °C로 높아요. 이것은 탄소보다 낮아요. 규소 원자는 탄소 원자보다 크므로 Si–Si 결합이 C–C 결합보다 길고 약해요.",
 
     // Covalent network structures > h3
-    "Silicon dioxide": "",
+    "Silicon dioxide": "이산화 규소",
 
     // Covalent network structures > p
-    "Silicon dioxide (silica) is the main substance in sand and quartz. Each silicon atom is bonded to four oxygen atoms in a tetrahedral arrangement. Each oxygen atom is bonded to two silicon atoms.": "",
+    "Silicon dioxide (silica) is the main substance in sand and quartz. Each silicon atom is bonded to four oxygen atoms in a tetrahedral arrangement. Each oxygen atom is bonded to two silicon atoms.": "이산화 규소(실리카)는 모래와 석영의 주성분이에요. 각 규소 원자는 산소 원자 4개와 정사면체 배치로 결합해요. 각 산소 원자는 규소 원자 2개와 결합해요.",
 
     // Covalent network structures > p
-    "The formula <span class=\"chem\">SiO2</span> is a ratio: one silicon atom for every two oxygen atoms. There are no <span class=\"chem\">SiO2</span> molecules. Compare this with <span class=\"chem\">CO2</span>, which is made of small separate molecules and is a gas.": "",
+    "The formula <span class=\"chem\">SiO2</span> is a ratio: one silicon atom for every two oxygen atoms. There are no <span class=\"chem\">SiO2</span> molecules. Compare this with <span class=\"chem\">CO2</span>, which is made of small separate molecules and is a gas.": "화학식 <span class=\"chem\">SiO2</span>는 비를 나타내요: 규소 원자 1개당 산소 원자 2개예요. <span class=\"chem\">SiO2</span> 분자라는 것은 없어요. 작고 따로 떨어진 분자로 이루어진 기체인 <span class=\"chem\">CO2</span>와 비교해 보세요.",
 
     // Covalent network structures > li
-    "Hard, with a high melting point (about 1700 °C): strong Si–O covalent bonds run through the whole structure.": "",
+    "Hard, with a high melting point (about 1700 °C): strong Si–O covalent bonds run through the whole structure.": "단단하고 녹는점이 높아요(약 1700 °C): 강한 Si–O 공유 결합이 구조 전체에 이어져 있어요.",
 
     // Covalent network structures > li
-    "Does not conduct electricity: no delocalized electrons and no mobile ions.": "",
+    "Does not conduct electricity: no delocalized electrons and no mobile ions.": "전기가 통하지 않아요: 비편재화된 전자도, 움직일 수 있는 이온도 없어요.",
 
     // Covalent network structures > li
-    "Insoluble in water.": "",
+    "Insoluble in water.": "물에 녹지 않아요.",
 
     // Covalent network structures > table > caption
-    "Structures and properties side by side": "",
+    "Structures and properties side by side": "구조와 성질 한눈에 비교하기",
 
     // Covalent network structures > table > th
     // Explaining physical properties > table > th
     // widget string (assets/js/widgets-s2-2.js)
-    "Substance": "",
+    "Substance": "물질",
 
     // Covalent network structures > table > th
-    "Type of structure": "",
+    "Type of structure": "구조의 종류",
 
     // Covalent network structures > table > th
     // widget string (assets/js/widgets-s2-2.js)
-    "Each atom is bonded to": "",
+    "Each atom is bonded to": "각 원자와 결합한 원자",
 
     // Covalent network structures > table > th
-    "Melting point": "",
+    "Melting point": "녹는점",
 
     // Covalent network structures > table > th
-    "Hardness": "",
+    "Hardness": "굳기",
 
     // Covalent network structures > table > th
     // Explaining physical properties > h3
     // Explaining physical properties > table > th
-    "Electrical conductivity": "",
+    "Electrical conductivity": "전기 전도성",
 
     // Covalent network structures > table > th
-    "diamond": "",
+    "diamond": "다이아몬드",
 
     // Covalent network structures > table > td
-    "covalent network": "",
+    "covalent network": "공유 결정",
 
     // Covalent network structures > table > td
-    "4 C, tetrahedral": "",
+    "4 C, tetrahedral": "C 4개, 정사면체형",
 
     // Covalent network structures > table > td
     // Explaining physical properties > table > td
-    "very high": "",
+    "very high": "매우 높음",
 
     // Covalent network structures > table > td
-    "very hard": "",
+    "very hard": "매우 단단함",
 
     // Covalent network structures > table > td
     // Explaining physical properties > table > td
-    "none": "",
+    "none": "없음",
 
     // Covalent network structures > table > th
-    "graphite": "",
+    "graphite": "흑연",
 
     // Covalent network structures > table > td
-    "covalent network in layers": "",
+    "covalent network in layers": "층 모양의 공유 결정",
 
     // Covalent network structures > table > td
-    "3 C, flat hexagons": "",
+    "3 C, flat hexagons": "C 3개, 평평한 육각형",
 
     // Covalent network structures > table > td
-    "soft, slippery": "",
+    "soft, slippery": "무르고 미끄러움",
 
     // Covalent network structures > table > td
-    "good, along the layers": "",
+    "good, along the layers": "좋음, 층을 따라",
 
     // Covalent network structures > table > th
-    "graphene": "",
+    "graphene": "그래핀",
 
     // Covalent network structures > table > td
-    "one covalent layer": "",
+    "one covalent layer": "공유 결합 층 1개",
 
     // Covalent network structures > table > td
-    "very strong sheet": "",
+    "very strong sheet": "매우 강한 판",
 
     // Covalent network structures > table > td
-    "very good": "",
+    "very good": "매우 좋음",
 
     // Covalent network structures > table > th
-    "fullerene <span class=\"chem\">C60</span>": "",
+    "fullerene <span class=\"chem\">C60</span>": "풀러렌 <span class=\"chem\">C60</span>",
 
     // Covalent network structures > table > td
-    "molecular": "",
+    "molecular": "분자",
 
     // Covalent network structures > table > td
-    "3 C, closed cage": "",
+    "3 C, closed cage": "C 3개, 닫힌 우리 모양",
 
     // Covalent network structures > table > td
-    "much lower (turns into a gas when heated)": "",
+    "much lower (turns into a gas when heated)": "훨씬 낮음 (가열하면 기체가 됨)",
 
     // Covalent network structures > table > td
-    "soft": "",
+    "soft": "무름",
 
     // Covalent network structures > table > td
-    "poor": "",
+    "poor": "나쁨",
 
     // Covalent network structures > table > th
-    "silicon": "",
+    "silicon": "규소",
 
     // Covalent network structures > table > td
-    "4 Si, tetrahedral": "",
+    "4 Si, tetrahedral": "Si 4개, 정사면체형",
 
     // Covalent network structures > table > td
-    "high (1414 °C)": "",
+    "high (1414 °C)": "높음 (1414 °C)",
 
     // Covalent network structures > table > td
-    "hard": "",
+    "hard": "단단함",
 
     // Covalent network structures > table > td
-    "slight": "",
+    "slight": "약간",
 
     // Covalent network structures > table > th
-    "silicon dioxide": "",
+    "silicon dioxide": "이산화 규소",
 
     // Covalent network structures > table > td
-    "Si: 4 O; O: 2 Si": "",
+    "Si: 4 O; O: 2 Si": "Si: O 4개, O: Si 2개",
 
     // Covalent network structures > table > td
-    "high (about 1700 °C)": "",
+    "high (about 1700 °C)": "높음 (약 1700 °C)",
 
     // Covalent network structures > p
-    "The data booklet gives 3500 °C for the melting point of carbon and 1414 °C for silicon (section 8).": "",
+    "The data booklet gives 3500 °C for the melting point of carbon and 1414 °C for silicon (section 8).": "데이터 부클릿에는 탄소의 녹는점이 3500 °C, 규소의 녹는점이 1414 °C로 나와 있어요(8번 항목).",
 
     // Covalent network structures > try it > data-label attribute
-    "Delocalized electrons per carbon atom": "",
+    "Delocalized electrons per carbon atom": "탄소 원자 1개당 비편재화된 전자 수",
 
     // Covalent network structures > try it > p
-    "In graphite each carbon atom forms three covalent bonds, each with one of its own electrons. How many valence electrons per carbon atom are left to be delocalized?": "",
+    "In graphite each carbon atom forms three covalent bonds, each with one of its own electrons. How many valence electrons per carbon atom are left to be delocalized?": "흑연에서 각 탄소 원자는 자기 전자를 1개씩 써서 공유 결합을 3개 만들어요. 탄소 원자 1개당 비편재화될 원자가 전자는 몇 개 남을까요?",
 
     // Covalent network structures > try it > li
-    "How many valence electrons does a carbon atom have?": "",
+    "How many valence electrons does a carbon atom have?": "탄소 원자에는 원자가 전자가 몇 개 있을까요?",
 
     // Covalent network structures > try it > li
-    "Subtract the three electrons used in the three bonds.": "",
+    "Subtract the three electrons used in the three bonds.": "결합 3개에 쓰인 전자 3개를 빼요.",
 
     // Covalent network structures > try it > maths line
-    "4 valence electrons − 3 in bonds = 1 delocalized electron": "",
+    "4 valence electrons − 3 in bonds = 1 delocalized electron": "원자가 전자 4개 − 결합에 쓰인 3개 = 비편재화된 전자 1개",
 
     // Covalent network structures > common mistake > p
-    "Do not write “intermolecular forces” for diamond, silicon or silicon dioxide. They have no molecules. And graphite does not conduct because of “free ions” or “free atoms”. It conducts because each carbon atom has one <b>delocalized electron</b> that can move along the layers.": "",
+    "Do not write “intermolecular forces” for diamond, silicon or silicon dioxide. They have no molecules. And graphite does not conduct because of “free ions” or “free atoms”. It conducts because each carbon atom has one <b>delocalized electron</b> that can move along the layers.": "다이아몬드, 규소, 이산화 규소에 “분자 간 힘”이라고 쓰지 마세요. 이 물질들에는 분자가 없어요. 그리고 흑연이 전기가 통하는 것은 “자유 이온”이나 “자유 원자” 때문이 아니에요. 각 탄소 원자에 층을 따라 움직일 수 있는 <b>비편재화된 전자</b>가 1개씩 있기 때문이에요.",
 
     // Covalent network structures > exam tip (shown in English + translation) > p
-    "“Describe the structure” marks are for: the number of atoms each atom is bonded to, the arrangement (tetrahedral, or layers of hexagons), and delocalized electrons where they exist. “Explain the property” marks need a link, for example: “strong covalent bonds throughout the structure, so a large amount of energy is needed to break them”.": "",
+    "“Describe the structure” marks are for: the number of atoms each atom is bonded to, the arrangement (tetrahedral, or layers of hexagons), and delocalized electrons where they exist. “Explain the property” marks need a link, for example: “strong covalent bonds throughout the structure, so a large amount of energy is needed to break them”.": "“구조를 서술하시오” 문제의 점수는 다음에 주어져요: 각 원자가 결합한 원자의 수, 배치(정사면체형, 또는 육각형으로 이루어진 층), 그리고 있는 경우 비편재화된 전자. “성질을 설명하시오” 문제의 점수를 받으려면 연결이 필요해요. 예: “구조 전체에 강한 공유 결합이 있어서 이를 끊는 데 많은 에너지가 필요하다”.",
 
     // Covalent network structures > not needed for IB > p
-    "Carbon nanotubes, semiconductors and doping are not in the guide. The required list is exactly: silicon, silicon dioxide, diamond, graphite, fullerenes and graphene. Explaining these structures with hybridization is Additional HL.": "",
+    "Carbon nanotubes, semiconductors and doping are not in the guide. The required list is exactly: silicon, silicon dioxide, diamond, graphite, fullerenes and graphene. Explaining these structures with hybridization is Additional HL.": "탄소 나노튜브, 반도체, 도핑은 가이드에 없어요. 꼭 알아야 할 목록은 정확히 규소, 이산화 규소, 다이아몬드, 흑연, 풀러렌, 그래핀이에요. 이 구조들을 혼성화로 설명하는 것은 HL 추가 내용이에요.",
 
     // Covalent network structures > data-title attribute
-    "Network structures: quick check": "",
+    "Network structures: quick check": "공유 결정: 빠른 확인",
 
     // Intermolecular forces > data-toc attribute
     // Intermolecular forces > h2
-    "Intermolecular forces": "",
+    "Intermolecular forces": "분자 간 힘",
 
     // Intermolecular forces > p
-    "Water forms drops. Petrol evaporates quickly. Candle wax is a solid. In all three, the molecules attract each other, but with different strengths.": "",
+    "Water forms drops. Petrol evaporates quickly. Candle wax is a solid. In all three, the molecules attract each other, but with different strengths.": "물은 방울을 만들어요. 휘발유는 빨리 증발해요. 양초의 왁스는 고체예요. 세 경우 모두 분자들이 서로 끌어당기지만, 그 세기가 달라요.",
 
     // Intermolecular forces > p
-    "<dfn data-def=\"Forces of attraction between molecules. They are much weaker than covalent bonds.\">Intermolecular forces</dfn> are forces of attraction <em>between</em> molecules. They are much weaker than the covalent bonds <em>inside</em> a molecule.": "",
+    "<dfn data-def=\"Forces of attraction between molecules. They are much weaker than covalent bonds.\">Intermolecular forces</dfn> are forces of attraction <em>between</em> molecules. They are much weaker than the covalent bonds <em>inside</em> a molecule.": "<dfn data-def=\"분자 사이의 인력. 공유 결합보다 훨씬 약해요.\">분자 간 힘 <span class=\"en-term\">(intermolecular forces)</span></dfn>은 분자 <em>사이</em>의 인력이에요. 분자 <em>안</em>의 공유 결합보다 훨씬 약해요.",
 
     // Intermolecular forces > data-def attribute
-    "Forces of attraction between molecules. They are much weaker than covalent bonds.": "",
+    "Forces of attraction between molecules. They are much weaker than covalent bonds.": "분자 사이의 인력. 공유 결합보다 훨씬 약해요.",
 
     // Intermolecular forces > key idea > p
-    "When a molecular substance melts or boils, the molecules move apart. Only the intermolecular forces are overcome. The covalent bonds inside each molecule do not break.": "",
+    "When a molecular substance melts or boils, the molecules move apart. Only the intermolecular forces are overcome. The covalent bonds inside each molecule do not break.": "분자 물질이 녹거나 끓을 때는 분자들이 서로 멀어져요. 분자 간 힘만 극복돼요. 각 분자 안의 공유 결합은 끊어지지 않아요.",
 
     // Intermolecular forces > p
-    "The kind of force between molecules depends on two things: the size of the molecules and their polarity. There are four kinds to know.": "",
+    "The kind of force between molecules depends on two things: the size of the molecules and their polarity. There are four kinds to know.": "분자 사이에 작용하는 힘의 종류는 두 가지로 정해져요: 분자의 크기와 분자의 극성이에요. 알아야 할 힘은 4가지예요.",
 
     // Intermolecular forces > h3
     // widget string (assets/js/widgets-s2-2.js)
-    "London (dispersion) forces": "",
+    "London (dispersion) forces": "런던 분산력",
 
     // Intermolecular forces > p
-    "The electrons in a molecule are always moving. At any moment, there may be slightly more electrons on one side than on the other. For that moment the molecule has a small, temporary dipole.": "",
+    "The electrons in a molecule are always moving. At any moment, there may be slightly more electrons on one side than on the other. For that moment the molecule has a small, temporary dipole.": "분자 속 전자는 늘 움직여요. 어느 순간에는 전자가 한쪽에 조금 더 많이 있을 수 있어요. 그 순간 분자에는 작은 일시적 쌍극자가 생겨요.",
 
     // Intermolecular forces > p
-    "This temporary dipole pushes or pulls the electrons in a neighbouring molecule. It induces (causes) a dipole there. The two temporary dipoles attract each other.": "",
+    "This temporary dipole pushes or pulls the electrons in a neighbouring molecule. It induces (causes) a dipole there. The two temporary dipoles attract each other.": "이 일시적 쌍극자는 이웃 분자의 전자를 밀거나 당겨요. 그래서 이웃 분자에 쌍극자를 유발해요(일으켜요). 두 일시적 쌍극자는 서로 끌어당겨요.",
 
     // Intermolecular forces > aria-label attribute
-    "Two atoms side by side. Each has an evenly spread electron cloud.": "",
+    "Two atoms side by side. Each has an evenly spread electron cloud.": "나란히 있는 원자 2개. 각 원자의 전자구름이 고르게 퍼져 있어요.",
 
     // Intermolecular forces > p
-    "<b>1.</b> On average, the electrons are spread evenly. There is no dipole.": "",
+    "<b>1.</b> On average, the electrons are spread evenly. There is no dipole.": "<b>1.</b> 평균적으로 전자는 고르게 퍼져 있어요. 쌍극자가 없어요.",
 
     // Intermolecular forces > aria-label attribute
-    "The electron cloud of the left atom has shifted to the right. Its left side is delta plus and its right side is delta minus.": "",
+    "The electron cloud of the left atom has shifted to the right. Its left side is delta plus and its right side is delta minus.": "왼쪽 원자의 전자구름이 오른쪽으로 치우쳤어요. 왼쪽은 델타 플러스, 오른쪽은 델타 마이너스예요.",
 
     // Intermolecular forces > p
-    "<b>2.</b> For an instant, the electrons in one atom are more on one side: a temporary dipole.": "",
+    "<b>2.</b> For an instant, the electrons in one atom are more on one side: a temporary dipole.": "<b>2.</b> 아주 짧은 순간, 한 원자의 전자가 한쪽으로 더 많이 몰려요: 일시적 쌍극자예요.",
 
     // Intermolecular forces > aria-label attribute
-    "Both atoms now have their electron clouds shifted to the right. A dashed line joins the delta minus side of the left atom to the delta plus side of the right atom.": "",
+    "Both atoms now have their electron clouds shifted to the right. A dashed line joins the delta minus side of the left atom to the delta plus side of the right atom.": "이제 두 원자의 전자구름이 모두 오른쪽으로 치우쳤어요. 점선이 왼쪽 원자의 델타 마이너스 쪽과 오른쪽 원자의 델타 플러스 쪽을 이어요.",
 
     // Intermolecular forces > p
-    "<b>3.</b> It repels the electrons of its neighbour and induces a dipole there. The two dipoles attract.": "",
+    "<b>3.</b> It repels the electrons of its neighbour and induces a dipole there. The two dipoles attract.": "<b>3.</b> 이 쌍극자가 이웃 원자의 전자를 밀어내서 그곳에 쌍극자를 유발해요. 두 쌍극자가 서로 끌어당겨요.",
 
     // Intermolecular forces > figcaption
-    "A model of how a London (dispersion) force arises between two atoms or non-polar molecules. The dipoles last for an instant and keep changing.": "",
+    "A model of how a London (dispersion) force arises between two atoms or non-polar molecules. The dipoles last for an instant and keep changing.": "두 원자 또는 무극성 분자 사이에 런던 분산력이 생기는 과정의 모형. 쌍극자는 아주 짧은 순간만 유지되고 계속 바뀌어요.",
 
     // Intermolecular forces > p
-    "These attractions are <dfn data-def=\"Weak attractions between temporary (instantaneous) dipoles and the dipoles they induce in neighbouring molecules. They act between all molecules.\">London (dispersion) forces</dfn>. Two facts matter most.": "",
+    "These attractions are <dfn data-def=\"Weak attractions between temporary (instantaneous) dipoles and the dipoles they induce in neighbouring molecules. They act between all molecules.\">London (dispersion) forces</dfn>. Two facts matter most.": "이런 인력을 <dfn data-def=\"일시적(순간) 쌍극자와 그 쌍극자가 이웃 분자에 유발한 쌍극자 사이의 약한 인력. 모든 분자 사이에 작용해요.\">런던 분산력 <span class=\"en-term\">(London (dispersion) forces)</span></dfn>이라고 해요. 가장 중요한 사실은 2가지예요.",
 
     // Intermolecular forces > data-def attribute
-    "Weak attractions between temporary (instantaneous) dipoles and the dipoles they induce in neighbouring molecules. They act between all molecules.": "",
+    "Weak attractions between temporary (instantaneous) dipoles and the dipoles they induce in neighbouring molecules. They act between all molecules.": "일시적(순간) 쌍극자와 그 쌍극자가 이웃 분자에 유발한 쌍극자 사이의 약한 인력. 모든 분자 사이에 작용해요.",
 
     // Intermolecular forces > li
-    "London forces act between <b>all</b> molecules and atoms, polar or non-polar, because all of them have electrons.": "",
+    "London forces act between <b>all</b> molecules and atoms, polar or non-polar, because all of them have electrons.": "런던 분산력은 극성이든 무극성이든 <b>모든</b> 분자와 원자 사이에 작용해요. 모두 전자를 가지고 있기 때문이에요.",
 
     // Intermolecular forces > li
-    "London forces are stronger when a molecule has more electrons, so they increase with molar mass. They are also stronger when molecules can touch over a larger surface area.": "",
+    "London forces are stronger when a molecule has more electrons, so they increase with molar mass. They are also stronger when molecules can touch over a larger surface area.": "런던 분산력은 분자의 전자가 많을수록 강해지므로, 몰 질량이 클수록 커져요. 또 분자들이 더 넓은 표면적으로 맞닿을 수 있을 때도 강해져요.",
 
     // Intermolecular forces > h3
-    "Dipole–dipole forces": "",
+    "Dipole–dipole forces": "쌍극자-쌍극자 힘",
 
     // Intermolecular forces > p
-    "A polar molecule has a permanent dipole: one end is always δ+ and the other is always δ−. The δ+ end of one molecule attracts the δ− end of the next.": "",
+    "A polar molecule has a permanent dipole: one end is always δ+ and the other is always δ−. The δ+ end of one molecule attracts the δ− end of the next.": "극성 분자에는 영구 쌍극자가 있어요: 한쪽 끝은 항상 δ+이고 다른 쪽 끝은 항상 δ−예요. 한 분자의 δ+ 끝이 이웃 분자의 δ− 끝을 끌어당겨요.",
 
     // Intermolecular forces > p
-    "These attractions are <dfn data-def=\"Attractions between the permanent dipoles of polar molecules.\">dipole–dipole forces</dfn>. They act between polar molecules only, for example between HCl molecules.": "",
+    "These attractions are <dfn data-def=\"Attractions between the permanent dipoles of polar molecules.\">dipole–dipole forces</dfn>. They act between polar molecules only, for example between HCl molecules.": "이런 인력을 <dfn data-def=\"극성 분자의 영구 쌍극자 사이의 인력.\">쌍극자-쌍극자 힘 <span class=\"en-term\">(dipole–dipole forces)</span></dfn>이라고 해요. 극성 분자 사이에서만 작용해요. 예를 들면 HCl 분자 사이에서 작용해요.",
 
     // Intermolecular forces > data-def attribute
-    "Attractions between the permanent dipoles of polar molecules.": "",
+    "Attractions between the permanent dipoles of polar molecules.": "극성 분자의 영구 쌍극자 사이의 인력.",
 
     // Intermolecular forces > h3
-    "Dipole–induced dipole forces": "",
+    "Dipole–induced dipole forces": "쌍극자-유발 쌍극자 힘",
 
     // Intermolecular forces > p
-    "Now mix a polar substance with a non-polar one. The permanent dipole of the polar molecule shifts the electrons of the non-polar molecule and induces a dipole in it. The two then attract.": "",
+    "Now mix a polar substance with a non-polar one. The permanent dipole of the polar molecule shifts the electrons of the non-polar molecule and induces a dipole in it. The two then attract.": "이번에는 극성 물질과 무극성 물질을 섞어 봐요. 극성 분자의 영구 쌍극자가 무극성 분자의 전자를 치우치게 해서 쌍극자를 유발해요. 그러면 두 분자가 서로 끌어당겨요.",
 
     // Intermolecular forces > p
-    "This is a <dfn data-def=\"The attraction between a polar molecule and the dipole it induces in a non-polar molecule.\">dipole–induced dipole force</dfn>. One example is the attraction between a polar water molecule and a non-polar oxygen molecule. It is why a little oxygen dissolves in water.": "",
+    "This is a <dfn data-def=\"The attraction between a polar molecule and the dipole it induces in a non-polar molecule.\">dipole–induced dipole force</dfn>. One example is the attraction between a polar water molecule and a non-polar oxygen molecule. It is why a little oxygen dissolves in water.": "이것이 <dfn data-def=\"극성 분자와, 그 분자가 무극성 분자에 유발한 쌍극자 사이의 인력.\">쌍극자-유발 쌍극자 힘 <span class=\"en-term\">(dipole–induced dipole force)</span></dfn>이에요. 극성인 물 분자와 무극성인 산소 분자 사이의 인력이 한 예예요. 산소가 물에 조금 녹는 이유가 이것이에요.",
 
     // Intermolecular forces > data-def attribute
-    "The attraction between a polar molecule and the dipole it induces in a non-polar molecule.": "",
+    "The attraction between a polar molecule and the dipole it induces in a non-polar molecule.": "극성 분자와, 그 분자가 무극성 분자에 유발한 쌍극자 사이의 인력.",
 
     // Intermolecular forces > h3
-    "Hydrogen bonding": "",
+    "Hydrogen bonding": "수소 결합",
 
     // Intermolecular forces > p
-    "A <dfn data-def=\"An attraction between a hydrogen atom that is covalently bonded to an electronegative atom, and an electronegative atom of a neighbouring molecule.\">hydrogen bond</dfn> occurs when hydrogen, covalently bonded to an electronegative atom, has an attractive interaction with a neighbouring electronegative atom.": "",
+    "A <dfn data-def=\"An attraction between a hydrogen atom that is covalently bonded to an electronegative atom, and an electronegative atom of a neighbouring molecule.\">hydrogen bond</dfn> occurs when hydrogen, covalently bonded to an electronegative atom, has an attractive interaction with a neighbouring electronegative atom.": "<dfn data-def=\"전기 음성도가 큰 원자와 공유 결합한 수소 원자와, 이웃 분자의 전기 음성도가 큰 원자 사이의 인력.\">수소 결합 <span class=\"en-term\">(hydrogen bond)</span></dfn>은 전기 음성도가 큰 원자와 공유 결합한 수소가 이웃한 전기 음성도가 큰 원자와 서로 끌어당길 때 생겨요.",
 
     // Intermolecular forces > data-def attribute
-    "An attraction between a hydrogen atom that is covalently bonded to an electronegative atom, and an electronegative atom of a neighbouring molecule.": "",
+    "An attraction between a hydrogen atom that is covalently bonded to an electronegative atom, and an electronegative atom of a neighbouring molecule.": "전기 음성도가 큰 원자와 공유 결합한 수소 원자와, 이웃 분자의 전기 음성도가 큰 원자 사이의 인력.",
 
     // Intermolecular forces > p
-    "In almost all the examples you will meet, the electronegative atoms are nitrogen, oxygen or fluorine. So look for two things.": "",
+    "In almost all the examples you will meet, the electronegative atoms are nitrogen, oxygen or fluorine. So look for two things.": "앞으로 만날 거의 모든 예에서 전기 음성도가 큰 원자는 질소, 산소, 플루오린이에요. 그러니 두 가지를 찾아요.",
 
     // Intermolecular forces > li
-    "A hydrogen atom bonded directly to N, O or F. This bond is very polar, so the H atom is strongly δ+.": "",
+    "A hydrogen atom bonded directly to N, O or F. This bond is very polar, so the H atom is strongly δ+.": "N, O, F에 직접 결합한 수소 원자. 이 결합은 극성이 매우 커서 H 원자가 강한 δ+를 띠어요.",
 
     // Intermolecular forces > li
-    "A lone pair on an N, O or F atom of a neighbouring molecule. The δ+ hydrogen is attracted to it.": "",
+    "A lone pair on an N, O or F atom of a neighbouring molecule. The δ+ hydrogen is attracted to it.": "이웃 분자의 N, O, F 원자에 있는 비공유 전자쌍. δ+인 수소가 여기에 끌려요.",
 
     // Intermolecular forces > p
-    "Water, ammonia, hydrogen fluoride and ethanol all form hydrogen bonds between their own molecules. Hydrogen bonding is the strongest of the four intermolecular forces. It is still much weaker than a covalent bond.": "",
+    "Water, ammonia, hydrogen fluoride and ethanol all form hydrogen bonds between their own molecules. Hydrogen bonding is the strongest of the four intermolecular forces. It is still much weaker than a covalent bond.": "물, 암모니아, 플루오린화 수소, ethanol은 모두 같은 물질의 분자 사이에서 수소 결합을 만들어요. 수소 결합은 4가지 분자 간 힘 중 가장 강해요. 그래도 공유 결합보다는 훨씬 약해요.",
 
     // Intermolecular forces > widget > data-title attribute
-    "How to draw a hydrogen bond": "",
+    "How to draw a hydrogen bond": "수소 결합 그리는 방법",
 
     // Intermolecular forces > widget > figcaption
-    "Press “Add the next label” four times. These are the four things to put in your own drawing.": "",
+    "Press “Add the next label” four times. These are the four things to put in your own drawing.": "“다음 표시 추가”를 4번 누르세요. 이 4가지를 직접 그리는 그림에 넣어야 해요.",
 
     // Intermolecular forces > common mistake > p
-    "A hydrogen bond is not the covalent O–H bond inside a molecule. It is the attraction <em>between</em> molecules. Also, a hydrogen atom bonded to carbon does not form hydrogen bonds. So propanone, <span class=\"chem\">CH3COCH3</span>, has no hydrogen bonding between its own molecules, although it contains H atoms and an O atom.": "",
+    "A hydrogen bond is not the covalent O–H bond inside a molecule. It is the attraction <em>between</em> molecules. Also, a hydrogen atom bonded to carbon does not form hydrogen bonds. So propanone, <span class=\"chem\">CH3COCH3</span>, has no hydrogen bonding between its own molecules, although it contains H atoms and an O atom.": "수소 결합은 분자 안의 O–H 공유 결합이 아니에요. 분자 <em>사이</em>의 인력이에요. 또 탄소에 결합한 수소 원자는 수소 결합을 만들지 않아요. 그래서 propanone <span class=\"chem\">CH3COCH3</span>은 H 원자와 O 원자가 있지만, 자기 분자 사이에 수소 결합이 없어요.",
 
     // Intermolecular forces > exam tip (shown in English + translation) > p
-    "“Explain what a hydrogen bond is” has two marks. One: hydrogen is covalently bonded to a highly electronegative atom (N, O or F). Two: it is attracted to an electronegative atom (or its lone pair) on a neighbouring molecule. A clearly labelled diagram can earn both.": "",
+    "“Explain what a hydrogen bond is” has two marks. One: hydrogen is covalently bonded to a highly electronegative atom (N, O or F). Two: it is attracted to an electronegative atom (or its lone pair) on a neighbouring molecule. A clearly labelled diagram can earn both.": "“수소 결합이 무엇인지 설명하시오”는 2점이에요. 첫째: 수소가 전기 음성도가 매우 큰 원자(N, O, F)와 공유 결합해 있다. 둘째: 그 수소가 이웃 분자의 전기 음성도가 큰 원자(또는 그 원자의 비공유 전자쌍)에 끌린다. 표시가 분명한 그림으로 2점을 모두 받을 수 있어요.",
 
     // Intermolecular forces > h3
-    "The term “van der Waals forces”": "",
+    "The term “van der Waals forces”": "“판데르발스 힘”이라는 용어",
 
     // Intermolecular forces > key idea > p
-    "<dfn data-def=\"An inclusive term for three intermolecular forces: London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces. It does not include hydrogen bonding.\">Van der Waals forces</dfn> is an inclusive term. It covers three forces together: London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces. It does <b>not</b> include hydrogen bonding.": "",
+    "<dfn data-def=\"An inclusive term for three intermolecular forces: London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces. It does not include hydrogen bonding.\">Van der Waals forces</dfn> is an inclusive term. It covers three forces together: London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces. It does <b>not</b> include hydrogen bonding.": "<dfn data-def=\"분자 간 힘 3가지를 함께 이르는 말: 런던 분산력, 쌍극자-유발 쌍극자 힘, 쌍극자-쌍극자 힘. 수소 결합은 포함하지 않아요.\">판데르발스 힘 <span class=\"en-term\">(van der Waals forces)</span></dfn>은 여러 힘을 함께 이르는 말이에요. 런던 분산력, 쌍극자-유발 쌍극자 힘, 쌍극자-쌍극자 힘의 3가지를 모두 포함해요. 수소 결합은 포함하지 <b>않아요</b>.",
 
     // Intermolecular forces > key idea > data-def attribute
-    "An inclusive term for three intermolecular forces: London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces. It does not include hydrogen bonding.": "",
+    "An inclusive term for three intermolecular forces: London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces. It does not include hydrogen bonding.": "분자 간 힘 3가지를 함께 이르는 말: 런던 분산력, 쌍극자-유발 쌍극자 힘, 쌍극자-쌍극자 힘. 수소 결합은 포함하지 않아요.",
 
     // Intermolecular forces > exam tip (shown in English + translation) > p
-    "Do not write “van der Waals forces” when you mean London forces. Markschemes have refused it. Write “London (dispersion) forces”. “London forces” or “dispersion forces” are also accepted.": "",
+    "Do not write “van der Waals forces” when you mean London forces. Markschemes have refused it. Write “London (dispersion) forces”. “London forces” or “dispersion forces” are also accepted.": "런던 분산력을 뜻할 때 “판데르발스 힘(van der Waals forces)”이라고 쓰지 마세요. 채점 기준에서 인정하지 않은 적이 있어요. “London (dispersion) forces”라고 쓰세요. “London forces”나 “dispersion forces”도 인정돼요.",
 
     // Intermolecular forces > table > caption
-    "The four intermolecular forces": "",
+    "The four intermolecular forces": "4가지 분자 간 힘",
 
     // Intermolecular forces > table > th
-    "Force": "",
+    "Force": "힘",
 
     // Intermolecular forces > table > th
-    "Acts between": "",
+    "Acts between": "작용하는 대상",
 
     // Intermolecular forces > table > th
-    "A van der Waals force?": "",
-
-    // Intermolecular forces > table > th
-    // Explaining physical properties > table > td
-    "London (dispersion)": "",
-
-    // Intermolecular forces > table > td
-    "all molecules and atoms": "",
-
-    // Intermolecular forces > table > td
-    "<span class=\"chem\">CH4</span>, <span class=\"chem\">Cl2</span>, <span class=\"chem\">CO2</span>, and every other molecule": "",
-
-    // Intermolecular forces > table > td
-    "yes": "",
-
-    // Intermolecular forces > table > th
-    "dipole–induced dipole": "",
-
-    // Intermolecular forces > table > td
-    "a polar molecule and a non-polar molecule": "",
-
-    // Intermolecular forces > table > td
-    "<span class=\"chem\">H2O</span> with <span class=\"chem\">O2</span>": "",
+    "A van der Waals force?": "판데르발스 힘인가?",
 
     // Intermolecular forces > table > th
     // Explaining physical properties > table > td
-    "dipole–dipole": "",
+    "London (dispersion)": "런던 분산력",
 
     // Intermolecular forces > table > td
-    "polar molecules": "",
+    "all molecules and atoms": "모든 분자와 원자",
 
     // Intermolecular forces > table > td
-    "HCl, <span class=\"chem\">CH3Cl</span>, propanone": "",
+    "<span class=\"chem\">CH4</span>, <span class=\"chem\">Cl2</span>, <span class=\"chem\">CO2</span>, and every other molecule": "<span class=\"chem\">CH4</span>, <span class=\"chem\">Cl2</span>, <span class=\"chem\">CO2</span> 등 모든 분자",
+
+    // Intermolecular forces > table > td
+    "yes": "예",
+
+    // Intermolecular forces > table > th
+    "dipole–induced dipole": "쌍극자-유발 쌍극자",
+
+    // Intermolecular forces > table > td
+    "a polar molecule and a non-polar molecule": "극성 분자와 무극성 분자",
+
+    // Intermolecular forces > table > td
+    "<span class=\"chem\">H2O</span> with <span class=\"chem\">O2</span>": "<span class=\"chem\">H2O</span>와 <span class=\"chem\">O2</span>",
+
+    // Intermolecular forces > table > th
+    // Explaining physical properties > table > td
+    "dipole–dipole": "쌍극자-쌍극자",
+
+    // Intermolecular forces > table > td
+    "polar molecules": "극성 분자",
+
+    // Intermolecular forces > table > td
+    "HCl, <span class=\"chem\">CH3Cl</span>, propanone": "HCl, <span class=\"chem\">CH3Cl</span>, propanone",
 
     // Intermolecular forces > table > th
     // Explaining physical properties > table > td
     // widget string (assets/js/widgets-s2-2.js)
-    "hydrogen bonding": "",
+    "hydrogen bonding": "수소 결합",
 
     // Intermolecular forces > table > td
-    "molecules with H bonded to N, O or F": "",
+    "molecules with H bonded to N, O or F": "N, O, F에 결합한 H가 있는 분자",
 
     // Intermolecular forces > table > td
-    "<span class=\"chem\">H2O</span>, <span class=\"chem\">NH3</span>, HF, ethanol": "",
+    "<span class=\"chem\">H2O</span>, <span class=\"chem\">NH3</span>, HF, ethanol": "<span class=\"chem\">H2O</span>, <span class=\"chem\">NH3</span>, HF, ethanol",
 
     // Intermolecular forces > table > td
-    "no": "",
+    "no": "아니요",
 
     // Intermolecular forces > h3
-    "Method in words: which forces are present?": "",
+    "Method in words: which forces are present?": "말로 정리한 방법: 어떤 힘이 있을까?",
 
     // Intermolecular forces > li
-    "Every substance: write London (dispersion) forces.": "",
+    "Every substance: write London (dispersion) forces.": "모든 물질: 런던 분산력을 써요.",
 
     // Intermolecular forces > li
-    "Is the molecule polar (section 2.2.6)? If yes, add dipole–dipole forces.": "",
+    "Is the molecule polar (section 2.2.6)? If yes, add dipole–dipole forces.": "분자가 극성인가요(2.2.6절)? 그렇다면 쌍극자-쌍극자 힘을 추가해요.",
 
     // Intermolecular forces > li
-    "Is there an H atom bonded directly to N, O or F? If yes, add hydrogen bonding.": "",
+    "Is there an H atom bonded directly to N, O or F? If yes, add hydrogen bonding.": "N, O, F에 직접 결합한 H 원자가 있나요? 그렇다면 수소 결합을 추가해요.",
 
     // Intermolecular forces > li
-    "For a mixture of a polar and a non-polar substance, the force between the two different molecules is dipole–induced dipole (as well as London).": "",
+    "For a mixture of a polar and a non-polar substance, the force between the two different molecules is dipole–induced dipole (as well as London).": "극성 물질과 무극성 물질의 혼합물에서는, 서로 다른 두 분자 사이의 힘이 쌍극자-유발 쌍극자 힘이에요(런던 분산력과 함께).",
 
     // Intermolecular forces > widget > data-title attribute
-    "Which forces are present?": "",
+    "Which forces are present?": "어떤 힘이 있을까?",
 
     // Intermolecular forces > widget > figcaption
-    "Choose a substance, tick every force that is present, then check. Start with water, then try propanone and carbon dioxide. Boiling points are measured values at normal atmospheric pressure, rounded to the nearest degree.": "",
+    "Choose a substance, tick every force that is present, then check. Start with water, then try propanone and carbon dioxide. Boiling points are measured values at normal atmospheric pressure, rounded to the nearest degree.": "물질을 하나 고르고, 작용하는 힘을 모두 체크한 다음 확인해 보세요. 물부터 시작해서 propanone과 이산화 탄소도 해 보세요. 끓는점은 보통 대기압에서 측정한 값이고, 1도 단위로 반올림했어요.",
 
     // Intermolecular forces > try it > data-label attribute
-    "Number of substances": "",
+    "Number of substances": "물질의 수",
 
     // Intermolecular forces > try it > p
-    "How many of these six substances have hydrogen bonding between their own molecules? <span class=\"chem\">CH3OH</span>, <span class=\"chem\">CH3CHO</span>, <span class=\"chem\">NH3</span>, HCl, <span class=\"chem\">CH3OCH3</span>, HF": "",
+    "How many of these six substances have hydrogen bonding between their own molecules? <span class=\"chem\">CH3OH</span>, <span class=\"chem\">CH3CHO</span>, <span class=\"chem\">NH3</span>, HCl, <span class=\"chem\">CH3OCH3</span>, HF": "다음 물질 6가지 중 같은 물질의 분자 사이에 수소 결합이 있는 것은 몇 가지일까요? <span class=\"chem\">CH3OH</span>, <span class=\"chem\">CH3CHO</span>, <span class=\"chem\">NH3</span>, HCl, <span class=\"chem\">CH3OCH3</span>, HF",
 
     // Intermolecular forces > try it > li
-    "For each one, ask: is there an H atom bonded directly to N, O or F?": "",
+    "For each one, ask: is there an H atom bonded directly to N, O or F?": "각각에 대해 물어봐요: N, O, F에 직접 결합한 H 원자가 있나?",
 
     // Intermolecular forces > try it > li
-    "In <span class=\"chem\">CH3CHO</span> and <span class=\"chem\">CH3OCH3</span> every H atom is bonded to carbon. Chlorine is not N, O or F.": "",
+    "In <span class=\"chem\">CH3CHO</span> and <span class=\"chem\">CH3OCH3</span> every H atom is bonded to carbon. Chlorine is not N, O or F.": "<span class=\"chem\">CH3CHO</span>와 <span class=\"chem\">CH3OCH3</span>에서는 모든 H 원자가 탄소에 결합해 있어요. 염소는 N, O, F가 아니에요.",
 
     // Intermolecular forces > try it > p
-    "Three: <span class=\"chem\">CH3OH</span> (O–H), <span class=\"chem\">NH3</span> (N–H) and HF (F–H).": "",
+    "Three: <span class=\"chem\">CH3OH</span> (O–H), <span class=\"chem\">NH3</span> (N–H) and HF (F–H).": "3가지예요: <span class=\"chem\">CH3OH</span>(O–H), <span class=\"chem\">NH3</span>(N–H), HF(F–H).",
 
     // Intermolecular forces > try it > p
-    "Ethanal and methoxymethane contain oxygen, but no H atom is bonded to it. HCl is polar, so it has dipole–dipole forces, but no hydrogen bonding.": "",
+    "Ethanal and methoxymethane contain oxygen, but no H atom is bonded to it. HCl is polar, so it has dipole–dipole forces, but no hydrogen bonding.": "ethanal과 methoxymethane에는 산소가 있지만, 산소에 결합한 H 원자가 없어요. HCl은 극성이라 쌍극자-쌍극자 힘은 있지만, 수소 결합은 없어요.",
 
     // Intermolecular forces > not needed for IB > p
-    "“Ion–dipole forces” are not in the guide’s list of intermolecular forces. You do not need the history of the hydrogen bond definition or any calculation of the strength of a force.": "",
+    "“Ion–dipole forces” are not in the guide’s list of intermolecular forces. You do not need the history of the hydrogen bond definition or any calculation of the strength of a force.": "“이온-쌍극자 힘”은 가이드의 분자 간 힘 목록에 없어요. 수소 결합 정의의 역사나 힘의 세기 계산은 알 필요가 없어요.",
 
     // Intermolecular forces > data-title attribute
-    "Intermolecular forces: quick check": "",
+    "Intermolecular forces: quick check": "분자 간 힘: 빠른 확인",
 
     // Explaining physical properties > data-toc attribute
-    "Physical properties": "",
+    "Physical properties": "물리적 성질",
 
     // Explaining physical properties > h2
-    "Explaining physical properties": "",
+    "Explaining physical properties": "물리적 성질 설명하기",
 
     // Explaining physical properties > p
-    "Nail polish remover (propanone) dries on your skin in seconds. Water takes minutes. Cooking oil stays. The difference comes from the strength of the forces between the molecules.": "",
+    "Nail polish remover (propanone) dries on your skin in seconds. Water takes minutes. Cooking oil stays. The difference comes from the strength of the forces between the molecules.": "매니큐어 리무버(propanone)는 피부에서 몇 초 만에 말라요. 물은 몇 분이 걸려요. 식용유는 그대로 남아요. 이 차이는 분자 사이에 작용하는 힘의 세기에서 와요.",
 
     // Explaining physical properties > key idea > p
-    "For molecules of comparable molar mass, the strengths are generally: London (dispersion) forces &lt; dipole–dipole forces &lt; hydrogen bonding. All of them are much weaker than covalent bonds.": "",
+    "For molecules of comparable molar mass, the strengths are generally: London (dispersion) forces &lt; dipole–dipole forces &lt; hydrogen bonding. All of them are much weaker than covalent bonds.": "몰 질량이 비슷한 분자끼리 비교하면, 세기는 대체로 런던 분산력 &lt; 쌍극자-쌍극자 힘 &lt; 수소 결합 순서예요. 모두 공유 결합보다 훨씬 약해요.",
 
     // Explaining physical properties > p
-    "The words “comparable molar mass” matter. London forces grow with the number of electrons. A large non-polar molecule can have stronger forces in total than a small polar one. Iodine, <span class=\"chem\">I2</span>, is non-polar, yet it is a solid at room temperature.": "",
+    "The words “comparable molar mass” matter. London forces grow with the number of electrons. A large non-polar molecule can have stronger forces in total than a small polar one. Iodine, <span class=\"chem\">I2</span>, is non-polar, yet it is a solid at room temperature.": "“몰 질량이 비슷한”이라는 말이 중요해요. 런던 분산력은 전자 수가 많을수록 커져요. 큰 무극성 분자는 작은 극성 분자보다 전체적으로 더 센 힘을 가질 수 있어요. 아이오딘 <span class=\"chem\">I2</span>는 무극성이지만 상온에서 고체예요.",
 
     // Explaining physical properties > h3
     // Explaining physical properties > table > th
-    "Volatility": "",
+    "Volatility": "휘발성",
 
     // Explaining physical properties > p
-    "<dfn data-def=\"How easily a substance turns into a vapour. A volatile substance evaporates easily and has a low boiling point.\">Volatility</dfn> is how easily a substance turns into a vapour. A volatile substance has a low boiling point.": "",
+    "<dfn data-def=\"How easily a substance turns into a vapour. A volatile substance evaporates easily and has a low boiling point.\">Volatility</dfn> is how easily a substance turns into a vapour. A volatile substance has a low boiling point.": "<dfn data-def=\"물질이 얼마나 쉽게 증기가 되는지. 휘발성이 큰 물질은 쉽게 증발하고 끓는점이 낮아요.\">휘발성 <span class=\"en-term\">(volatility)</span></dfn>은 물질이 얼마나 쉽게 증기가 되는지를 나타내요. 휘발성이 큰 물질은 끓는점이 낮아요.",
 
     // Explaining physical properties > data-def attribute
-    "How easily a substance turns into a vapour. A volatile substance evaporates easily and has a low boiling point.": "",
+    "How easily a substance turns into a vapour. A volatile substance evaporates easily and has a low boiling point.": "물질이 얼마나 쉽게 증기가 되는지. 휘발성이 큰 물질은 쉽게 증발하고 끓는점이 낮아요.",
 
     // Explaining physical properties > p
-    "To boil a liquid, you must give its molecules enough energy to separate. Stronger intermolecular forces need more energy. So stronger forces mean a higher boiling point and a lower volatility.": "",
+    "To boil a liquid, you must give its molecules enough energy to separate. Stronger intermolecular forces need more energy. So stronger forces mean a higher boiling point and a lower volatility.": "액체를 끓이려면 분자들이 떨어질 수 있을 만큼 에너지를 주어야 해요. 분자 간 힘이 강할수록 더 많은 에너지가 필요해요. 그래서 힘이 강할수록 끓는점이 높고 휘발성이 작아요.",
 
     // Explaining physical properties > table > caption
-    "Three compounds with almost the same molar mass": "",
+    "Three compounds with almost the same molar mass": "몰 질량이 거의 같은 화합물 3가지",
 
     // Explaining physical properties > table > th
-    "Compound": "",
+    "Compound": "화합물",
 
     // Explaining physical properties > table > th
-    "Molar mass / g mol<sup>−1</sup>": "",
+    "Molar mass / g mol<sup>−1</sup>": "몰 질량 / g mol<sup>−1</sup>",
 
     // Explaining physical properties > table > th
-    "Strongest intermolecular force": "",
+    "Strongest intermolecular force": "가장 강한 분자 간 힘",
 
     // Explaining physical properties > table > th
-    "Boiling point / °C": "",
+    "Boiling point / °C": "끓는점 / °C",
 
     // Explaining physical properties > table > th
-    "propane, <span class=\"chem\">CH3CH2CH3</span>": "",
+    "propane, <span class=\"chem\">CH3CH2CH3</span>": "propane, <span class=\"chem\">CH3CH2CH3</span>",
 
     // Explaining physical properties > table > th
-    "ethanal, <span class=\"chem\">CH3CHO</span>": "",
+    "ethanal, <span class=\"chem\">CH3CHO</span>": "ethanal, <span class=\"chem\">CH3CHO</span>",
 
     // Explaining physical properties > table > th
-    "ethanol, <span class=\"chem\">CH3CH2OH</span>": "",
+    "ethanol, <span class=\"chem\">CH3CH2OH</span>": "ethanol, <span class=\"chem\">CH3CH2OH</span>",
 
     // Explaining physical properties > h3
-    "Bigger molecules, stronger London forces": "",
+    "Bigger molecules, stronger London forces": "분자가 클수록 런던 분산력이 강해요",
 
     // Explaining physical properties > p
-    "In a family of similar molecules, the boiling point rises as the molecules get bigger. More electrons mean stronger London forces.": "",
+    "In a family of similar molecules, the boiling point rises as the molecules get bigger. More electrons mean stronger London forces.": "비슷한 분자들의 무리에서는 분자가 클수록 끓는점이 높아져요. 전자가 많을수록 런던 분산력이 강하기 때문이에요.",
 
     // Explaining physical properties > table > caption
-    "Boiling points rise with the number of electrons": "",
+    "Boiling points rise with the number of electrons": "전자 수가 많을수록 끓는점이 높아져요",
 
     // Explaining physical properties > table > th
-    "Electrons per molecule": "",
+    "Electrons per molecule": "분자 1개의 전자 수",
 
     // Explaining physical properties > table > th
-    "methane, <span class=\"chem\">CH4</span>": "",
+    "methane, <span class=\"chem\">CH4</span>": "methane, <span class=\"chem\">CH4</span>",
 
     // Explaining physical properties > table > th
-    "ethane, <span class=\"chem\">C2H6</span>": "",
+    "ethane, <span class=\"chem\">C2H6</span>": "ethane, <span class=\"chem\">C2H6</span>",
 
     // Explaining physical properties > table > th
-    "propane, <span class=\"chem\">C3H8</span>": "",
+    "propane, <span class=\"chem\">C3H8</span>": "propane, <span class=\"chem\">C3H8</span>",
 
     // Explaining physical properties > table > th
-    "butane, <span class=\"chem\">C4H10</span>": "",
+    "butane, <span class=\"chem\">C4H10</span>": "butane, <span class=\"chem\">C4H10</span>",
 
     // Explaining physical properties > table > th
-    "chlorine, <span class=\"chem\">Cl2</span>": "",
+    "chlorine, <span class=\"chem\">Cl2</span>": "염소, <span class=\"chem\">Cl2</span>",
 
     // Explaining physical properties > table > th
-    "bromine, <span class=\"chem\">Br2</span>": "",
+    "bromine, <span class=\"chem\">Br2</span>": "브로민, <span class=\"chem\">Br2</span>",
 
     // Explaining physical properties > table > th
-    "iodine, <span class=\"chem\">I2</span>": "",
+    "iodine, <span class=\"chem\">I2</span>": "아이오딘, <span class=\"chem\">I2</span>",
 
     // Explaining physical properties > p
-    "Shape matters too. Pentane and 2,2-dimethylpropane are both <span class=\"chem\">C5H12</span>. Pentane is a long chain, so its molecules touch over a large surface area. It boils at 36 °C. The branched molecule is compact, like a ball. It boils at 10 °C.": "",
+    "Shape matters too. Pentane and 2,2-dimethylpropane are both <span class=\"chem\">C5H12</span>. Pentane is a long chain, so its molecules touch over a large surface area. It boils at 36 °C. The branched molecule is compact, like a ball. It boils at 10 °C.": "모양도 중요해요. pentane과 2,2-dimethylpropane은 둘 다 <span class=\"chem\">C5H12</span>예요. pentane은 긴 사슬이라서 분자들이 넓은 표면적으로 맞닿아요. 끓는점은 36 °C예요. 가지 달린 분자는 공처럼 촘촘해요. 끓는점은 10 °C예요.",
 
     // Explaining physical properties > widget > data-title attribute
-    "Which has the higher boiling point?": "",
+    "Which has the higher boiling point?": "어느 쪽의 끓는점이 더 높을까?",
 
     // Explaining physical properties > widget > figcaption
-    "Choose a pair and predict before you look. Then read the model answer: it always names the forces in both substances, compares their strength, and links to energy.": "",
+    "Choose a pair and predict before you look. Then read the model answer: it always names the forces in both substances, compares their strength, and links to energy.": "쌍을 하나 고르고, 보기 전에 먼저 예측해 보세요. 그다음 모범 답안을 읽어 보세요: 모범 답안은 항상 두 물질의 힘을 모두 밝히고, 세기를 비교하고, 에너지와 연결해요.",
 
     // Explaining physical properties > worked example > data-kicker attribute
     "Worked example 7": "",

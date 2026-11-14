@@ -6,799 +6,799 @@ S1.i18n.register('ko', 's3-2', {
   strings: {
 
     // page title (browser tab)
-    "3.2 Functional groups | Structure Lab": "",
+    "3.2 Functional groups | Structure Lab": "3.2 작용기 | Structure Lab",
 
     // Functional groups: classification of organic compounds > page header > p
-    "Structure 3.2": "",
+    "Structure 3.2": "Structure 3.2",
 
     // Functional groups: classification of organic compounds > page header > h1
-    "Functional groups: classification of organic compounds": "",
+    "Functional groups: classification of organic compounds": "작용기: 유기 화합물의 분류",
 
     // Functional groups: classification of organic compounds > page header > span
-    "How does the classification of organic molecules help us to predict their properties?": "",
+    "How does the classification of organic molecules help us to predict their properties?": "유기 분자를 분류하면 그 성질을 예측하는 데 어떻게 도움이 될까요?",
 
     // What you need to be able to do > data-toc attribute
-    "What you need to do": "",
+    "What you need to do": "알아야 할 것",
 
     // What you need to be able to do > h2
-    "What you need to be able to do": "",
+    "What you need to be able to do": "할 수 있어야 하는 것",
 
     // What you need to be able to do > p
-    "Organic chemistry is the chemistry of carbon compounds. There are millions of them. This page shows you how chemists draw them, sort them into families and name them.": "",
+    "Organic chemistry is the chemistry of carbon compounds. There are millions of them. This page shows you how chemists draw them, sort them into families and name them.": "유기 화학은 탄소 화합물의 화학이에요. 탄소 화합물은 수백만 가지나 돼요. 이 페이지에서는 화학자들이 유기 화합물을 어떻게 그리고, 어떻게 계열로 나누고, 어떻게 이름 붙이는지 알아봐요.",
 
     // What you need to be able to do > p
-    "You do not need to know any organic chemistry before you start. Tick each item when you can do it without looking at your notes.": "",
+    "You do not need to know any organic chemistry before you start. Tick each item when you can do it without looking at your notes.": "유기 화학을 미리 알고 있지 않아도 괜찮아요. 노트를 보지 않고 할 수 있게 되면 하나씩 체크하세요.",
 
     // What you need to be able to do > checklist > span
-    "Identify empirical, molecular, full structural, condensed structural, skeletal and stereochemical formulas.": "",
+    "Identify empirical, molecular, full structural, condensed structural, skeletal and stereochemical formulas.": "실험식, 분자식, 전개 구조식, 축약 구조식, 골격 구조식, 입체 구조식을 구별해요.",
 
     // What you need to be able to do > checklist > span
-    "Convert between molecular, skeletal and structural formulas.": "",
+    "Convert between molecular, skeletal and structural formulas.": "분자식, 골격 구조식, 구조식을 서로 바꿔 나타내요.",
 
     // What you need to be able to do > checklist > span
-    "Build or read a 3-D model of an organic molecule.": "",
+    "Build or read a 3-D model of an organic molecule.": "유기 분자의 3-D 모형을 만들거나 읽어요.",
 
     // What you need to be able to do > checklist > span
-    "Identify these functional groups by name and by structure: halogeno, hydroxyl, carbonyl, carboxyl, alkoxy, amino, amido, ester and phenyl.": "",
+    "Identify these functional groups by name and by structure: halogeno, hydroxyl, carbonyl, carboxyl, alkoxy, amino, amido, ester and phenyl.": "다음 작용기를 이름과 구조로 찾아요: 할로젠기, 하이드록시기, 카보닐기, 카복실기, 알콕시기, 아미노기, 아마이드기, 에스터기, 페닐기.",
 
     // What you need to be able to do > checklist > span
-    "Use the words saturated and unsaturated correctly.": "",
+    "Use the words saturated and unsaturated correctly.": "포화와 불포화라는 말을 올바르게 써요.",
 
     // What you need to be able to do > checklist > span
-    "Describe a homologous series and use its general formula.": "",
+    "Describe a homologous series and use its general formula.": "동족 계열을 서술하고 그 일반식을 이용해요.",
 
     // What you need to be able to do > checklist > span
-    "Identify alkanes, alkenes, alkynes, halogenoalkanes, alcohols, aldehydes, ketones, carboxylic acids, ethers, amines, amides and esters.": "",
+    "Identify alkanes, alkenes, alkynes, halogenoalkanes, alcohols, aldehydes, ketones, carboxylic acids, ethers, amines, amides and esters.": "알케인, 알켄, 알카인, 할로젠화 알케인, 알코올, 알데하이드, 케톤, 카복실산, 에테르, 아민, 아마이드, 에스터를 찾아요.",
 
     // What you need to be able to do > checklist > span
-    "Describe and explain the trend in melting point and boiling point along a homologous series.": "",
+    "Describe and explain the trend in melting point and boiling point along a homologous series.": "동족 계열을 따라 녹는점과 끓는점이 변하는 경향을 서술하고 설명해요.",
 
     // What you need to be able to do > checklist > span
-    "Name compounds with a parent chain of up to six carbon atoms that contain one type of group: halogeno, hydroxyl, carbonyl or carboxyl. Include branched chains and compounds with one double or triple bond.": "",
+    "Name compounds with a parent chain of up to six carbon atoms that contain one type of group: halogeno, hydroxyl, carbonyl or carboxyl. Include branched chains and compounds with one double or triple bond.": "주사슬의 탄소 원자가 6개 이하이고 한 종류의 작용기(할로젠기, 하이드록시기, 카보닐기, 카복실기)를 가진 화합물의 이름을 붙여요. 가지 달린 사슬과 이중 결합 또는 삼중 결합이 하나 있는 화합물도 포함해요.",
 
     // What you need to be able to do > checklist > span
-    "Recognize structural isomers: straight-chain and branched, position, and functional group isomers.": "",
+    "Recognize structural isomers: straight-chain and branched, position, and functional group isomers.": "구조 이성질체를 알아봐요: 곧은 사슬과 가지 달린 사슬, 위치 이성질체, 작용기 이성질체.",
 
     // What you need to be able to do > checklist > span
-    "Classify alcohols, halogenoalkanes and amines as primary, secondary or tertiary.": "",
+    "Classify alcohols, halogenoalkanes and amines as primary, secondary or tertiary.": "알코올, 할로젠화 알케인, 아민을 1차, 2차, 3차로 분류해요.",
 
     // What you need to be able to do > not needed for IB > data-title attribute
-    "Where the rest lives": "",
+    "Where the rest lives": "나머지 내용은 어디에 있을까요",
 
     // What you need to be able to do > not needed for IB > p
-    "This page sorts, draws and names organic compounds. What the compounds <em>do</em> (their reactions and mechanisms) comes later, in Reactivity 3. Stereoisomers and spectroscopy are Additional HL and have their own page.": "",
+    "This page sorts, draws and names organic compounds. What the compounds <em>do</em> (their reactions and mechanisms) comes later, in Reactivity 3. Stereoisomers and spectroscopy are Additional HL and have their own page.": "이 페이지에서는 유기 화합물을 분류하고, 그리고, 이름 붙여요. 화합물이 <em>하는 일</em>(반응과 반응 메커니즘)은 나중에 Reactivity 3에서 배워요. 입체 이성질체와 분광법은 HL 추가 내용이고 따로 페이지가 있어요.",
 
     // Six ways to write one molecule > data-toc attribute
-    "Six kinds of formula": "",
+    "Six kinds of formula": "6가지 화학식",
 
     // Six ways to write one molecule > h2
-    "Six ways to write one molecule": "",
+    "Six ways to write one molecule": "분자 하나를 나타내는 6가지 방법",
 
     // Six ways to write one molecule > p
-    "Think of a house. You can give its address, show a floor plan, or show a photograph. Each one is correct. Each one tells you something different. Chemists do the same with molecules.": "",
+    "Think of a house. You can give its address, show a floor plan, or show a photograph. Each one is correct. Each one tells you something different. Chemists do the same with molecules.": "집 한 채를 생각해 봐요. 주소를 알려 줄 수도 있고, 평면도를 보여 줄 수도 있고, 사진을 보여 줄 수도 있어요. 모두 맞는 방법이에요. 그리고 각각 다른 정보를 알려 줘요. 화학자도 분자를 이렇게 나타내요.",
 
     // Six ways to write one molecule > h3
-    "First: how many bonds each atom makes": "",
+    "First: how many bonds each atom makes": "먼저: 원자마다 몇 개의 결합을 만들까요",
 
     // Six ways to write one molecule > p
-    "Organic molecules are held together by covalent bonds. In almost every organic molecule you will meet, each kind of atom makes a fixed number of bonds.": "",
+    "Organic molecules are held together by covalent bonds. In almost every organic molecule you will meet, each kind of atom makes a fixed number of bonds.": "유기 분자는 공유 결합으로 이어져 있어요. 여러분이 만날 거의 모든 유기 분자에서 원자의 종류마다 만드는 결합의 수가 정해져 있어요.",
 
     // Six ways to write one molecule > table > caption
-    "Number of covalent bonds formed in organic molecules": "",
+    "Number of covalent bonds formed in organic molecules": "유기 분자에서 원자가 만드는 공유 결합의 수",
 
     // Six ways to write one molecule > table > th
-    "Atom": "",
+    "Atom": "원자",
 
     // Six ways to write one molecule > table > th
-    "Bonds": "",
+    "Bonds": "결합 수",
 
     // Six ways to write one molecule > table > th
-    "What that looks like": "",
+    "What that looks like": "모양",
 
     // Six ways to write one molecule > table > th
-    "carbon, C": "",
+    "carbon, C": "탄소, C",
 
     // Six ways to write one molecule > table > td
-    "four single bonds, or a double bond and two single bonds, or a triple bond and one single bond": "",
+    "four single bonds, or a double bond and two single bonds, or a triple bond and one single bond": "단일 결합 4개, 또는 이중 결합 1개와 단일 결합 2개, 또는 삼중 결합 1개와 단일 결합 1개",
 
     // Six ways to write one molecule > table > th
-    "nitrogen, N": "",
+    "nitrogen, N": "질소, N",
 
     // Six ways to write one molecule > table > td
-    "three single bonds, for example": "",
+    "three single bonds, for example": "예를 들어 단일 결합 3개",
 
     // Six ways to write one molecule > table > th
-    "oxygen, O": "",
+    "oxygen, O": "산소, O",
 
     // Six ways to write one molecule > table > td
-    "two single bonds, or one double bond": "",
+    "two single bonds, or one double bond": "단일 결합 2개, 또는 이중 결합 1개",
 
     // Six ways to write one molecule > table > th
-    "hydrogen, H": "",
+    "hydrogen, H": "수소, H",
 
     // Six ways to write one molecule > table > td
-    "one single bond": "",
+    "one single bond": "단일 결합 1개",
 
     // Six ways to write one molecule > table > th
-    "halogens: F, Cl, Br, I": "",
+    "halogens: F, Cl, Br, I": "할로젠: F, Cl, Br, I",
 
     // Six ways to write one molecule > key idea > p
-    "Carbon always forms four bonds. A double bond counts as two and a triple bond counts as three. Almost everything on this page follows from that one fact.": "",
+    "Carbon always forms four bonds. A double bond counts as two and a triple bond counts as three. Almost everything on this page follows from that one fact.": "탄소는 항상 결합을 4개 만들어요. 이중 결합은 2개, 삼중 결합은 3개로 세요. 이 페이지의 거의 모든 내용이 이 한 가지 사실에서 나와요.",
 
     // Six ways to write one molecule > h3
-    "The six formulas": "",
+    "The six formulas": "6가지 화학식",
 
     // Six ways to write one molecule > p
-    "Here is one compound, propan-1-ol, written in every way you need to know.": "",
+    "Here is one compound, propan-1-ol, written in every way you need to know.": "한 화합물 propan-1-ol을 꼭 알아야 하는 모든 방법으로 나타내 봤어요.",
 
     // Six ways to write one molecule > table > caption
-    "Six formulas for propan-1-ol": "",
+    "Six formulas for propan-1-ol": "propan-1-ol의 6가지 화학식",
 
     // Six ways to write one molecule > table > th
-    "Type of formula": "",
+    "Type of formula": "화학식의 종류",
 
     // Six ways to write one molecule > table > th
-    "Propan-1-ol": "",
+    "Propan-1-ol": "Propan-1-ol",
 
     // Six ways to write one molecule > table > th
-    "What it tells you": "",
+    "What it tells you": "알 수 있는 것",
 
     // Six ways to write one molecule > table > th
-    "<dfn>Empirical formula</dfn>": "",
+    "<dfn>Empirical formula</dfn>": "<dfn>실험식 <span class=\"en-term\">(Empirical formula)</span></dfn>",
 
     // Six ways to write one molecule > table > td
-    "The simplest whole-number ratio of the atoms. Here it is the same as the molecular formula.": "",
+    "The simplest whole-number ratio of the atoms. Here it is the same as the molecular formula.": "원자 수의 가장 간단한 정수비. 이 화합물에서는 분자식과 같아요.",
 
     // Six ways to write one molecule > table > th
-    "<dfn>Molecular formula</dfn>": "",
+    "<dfn>Molecular formula</dfn>": "<dfn>분자식 <span class=\"en-term\">(Molecular formula)</span></dfn>",
 
     // Six ways to write one molecule > table > td
-    "The actual number of each atom in one molecule. It does not show how the atoms are joined.": "",
+    "The actual number of each atom in one molecule. It does not show how the atoms are joined.": "분자 1개에 들어 있는 각 원자의 실제 개수. 원자가 어떻게 연결되어 있는지는 보여 주지 않아요.",
 
     // Six ways to write one molecule > table > th
-    "<dfn>Full structural formula</dfn>": "",
+    "<dfn>Full structural formula</dfn>": "<dfn>전개 구조식 <span class=\"en-term\">(Full structural formula)</span></dfn>",
 
     // Six ways to write one molecule > table > data-label attribute
-    "Full structural formula of propan-1-ol": "",
+    "Full structural formula of propan-1-ol": "propan-1-ol의 전개 구조식",
 
     // Six ways to write one molecule > table > td
-    "Every atom and every bond. It is also called a displayed formula.": "",
+    "Every atom and every bond. It is also called a displayed formula.": "모든 원자와 모든 결합을 나타내요. displayed formula라고도 해요.",
 
     // Six ways to write one molecule > table > th
-    "<dfn>Condensed structural formula</dfn>": "",
+    "<dfn>Condensed structural formula</dfn>": "<dfn>축약 구조식 <span class=\"en-term\">(Condensed structural formula)</span></dfn>",
 
     // Six ways to write one molecule > table > td
-    "The groups of atoms in order along the chain, on one line. Most bonds are not drawn.": "",
+    "The groups of atoms in order along the chain, on one line. Most bonds are not drawn.": "원자 묶음을 사슬을 따라 순서대로 한 줄에 쓴 것. 대부분의 결합은 그리지 않아요.",
 
     // Six ways to write one molecule > table > th
-    "<dfn>Skeletal formula</dfn>": "",
+    "<dfn>Skeletal formula</dfn>": "<dfn>골격 구조식 <span class=\"en-term\">(Skeletal formula)</span></dfn>",
 
     // Six ways to write one molecule > table > data-label attribute
-    "Skeletal formula of propan-1-ol": "",
+    "Skeletal formula of propan-1-ol": "propan-1-ol의 골격 구조식",
 
     // Six ways to write one molecule > table > td
-    "A zig-zag line for the carbon chain. Carbon atoms and the hydrogen atoms on them are not written.": "",
+    "A zig-zag line for the carbon chain. Carbon atoms and the hydrogen atoms on them are not written.": "탄소 사슬을 지그재그 선으로 나타내요. 탄소 원자와 거기에 붙은 수소 원자는 쓰지 않아요.",
 
     // Six ways to write one molecule > table > th
-    "<dfn>Stereochemical formula</dfn>": "",
+    "<dfn>Stereochemical formula</dfn>": "<dfn>입체 구조식 <span class=\"en-term\">(Stereochemical formula)</span></dfn>",
 
     // Six ways to write one molecule > table > data-label attribute
-    "Stereochemical formula of propan-1-ol, drawn around the carbon that carries the OH group": "",
+    "Stereochemical formula of propan-1-ol, drawn around the carbon that carries the OH group": "OH기가 붙은 탄소를 중심으로 그린 propan-1-ol의 입체 구조식",
 
     // Six ways to write one molecule > table > td
-    "The 3-D arrangement around an atom. A solid wedge comes towards you. A dashed wedge goes away from you. Plain lines lie in the plane of the page.": "",
+    "The 3-D arrangement around an atom. A solid wedge comes towards you. A dashed wedge goes away from you. Plain lines lie in the plane of the page.": "한 원자 주위의 3-D 배열. 꽉 찬 쐐기는 앞으로(여러분 쪽으로) 나와요. 점선 쐐기는 뒤로(여러분에게서 멀어지는 쪽으로) 들어가요. 보통 선은 종이 면 위에 있어요.",
 
     // Six ways to write one molecule > p
-    "The empirical formula and the molecular formula can be different. Ethanoic acid has the molecular formula <span class=\"chem\">C2H4O2</span>. Divide every number by 2 and you get its empirical formula, <span class=\"chem\">CH2O</span>. You met empirical formulas in Structure 1.4.": "",
+    "The empirical formula and the molecular formula can be different. Ethanoic acid has the molecular formula <span class=\"chem\">C2H4O2</span>. Divide every number by 2 and you get its empirical formula, <span class=\"chem\">CH2O</span>. You met empirical formulas in Structure 1.4.": "실험식과 분자식은 다를 수 있어요. ethanoic acid(아세트산)의 분자식은 <span class=\"chem\">C2H4O2</span>예요. 모든 수를 2로 나누면 실험식 <span class=\"chem\">CH2O</span>가 돼요. 실험식은 Structure 1.4에서 배웠어요.",
 
     // Six ways to write one molecule > widget > data-title attribute
-    "One compound, six formulas": "",
+    "One compound, six formulas": "한 화합물, 6가지 화학식",
 
     // Six ways to write one molecule > widget > figcaption
-    "Choose a compound. Compare what each formula shows and what it hides. Turn the 3-D model: the bond angles at a carbon with four single bonds are 109.5°, not the 90° drawn in a full structural formula.": "",
+    "Choose a compound. Compare what each formula shows and what it hides. Turn the 3-D model: the bond angles at a carbon with four single bonds are 109.5°, not the 90° drawn in a full structural formula.": "화합물을 하나 골라 봐요. 각 화학식이 무엇을 보여 주고 무엇을 숨기는지 비교해 봐요. 3-D 모형을 돌려 봐요: 단일 결합이 4개인 탄소의 결합각은 109.5°이고, 전개 구조식에 그려진 90°가 아니에요.",
 
     // Six ways to write one molecule > exam tip (shown in English + translation) > p
-    "If a question asks for a structural formula, a molecular formula such as <span class=\"chem\">C3H8O</span> does not earn the mark. Show how the atoms are joined. If it asks for a <em>full</em> structural formula, draw every bond, including each C–H and the O–H.": "",
+    "If a question asks for a structural formula, a molecular formula such as <span class=\"chem\">C3H8O</span> does not earn the mark. Show how the atoms are joined. If it asks for a <em>full</em> structural formula, draw every bond, including each C–H and the O–H.": "문제에서 구조식을 요구할 때 <span class=\"chem\">C3H8O</span> 같은 분자식을 쓰면 점수를 받지 못해요. 원자가 어떻게 연결되어 있는지 보여 주세요. <em>전개</em> 구조식을 요구하면 각각의 C–H와 O–H를 포함해 모든 결합을 그려야 해요.",
 
     // Six ways to write one molecule > h3
-    "How to read a condensed structural formula": "",
+    "How to read a condensed structural formula": "축약 구조식 읽는 법",
 
     // Six ways to write one molecule > p
-    "Read it from left to right. Each carbon is written with the hydrogen atoms that are bonded to it. Then comes the next carbon in the chain.": "",
+    "Read it from left to right. Each carbon is written with the hydrogen atoms that are bonded to it. Then comes the next carbon in the chain.": "왼쪽에서 오른쪽으로 읽어요. 각 탄소는 그 탄소에 결합한 수소 원자와 함께 써요. 그다음에 사슬의 다음 탄소가 와요.",
 
     // Six ways to write one molecule > li
-    "<span class=\"chem\">CH3CH2CH3</span> is a chain of three carbons: <span class=\"chem\">CH3</span>, then <span class=\"chem\">CH2</span>, then <span class=\"chem\">CH3</span>.": "",
+    "<span class=\"chem\">CH3CH2CH3</span> is a chain of three carbons: <span class=\"chem\">CH3</span>, then <span class=\"chem\">CH2</span>, then <span class=\"chem\">CH3</span>.": "<span class=\"chem\">CH3CH2CH3</span>는 탄소 3개로 된 사슬이에요: <span class=\"chem\">CH3</span>, 그다음 <span class=\"chem\">CH2</span>, 그다음 <span class=\"chem\">CH3</span>.",
 
     // Six ways to write one molecule > li
-    "Brackets show a group that hangs off the chain. In <span class=\"chem\">CH3CH(CH3)CH3</span> the <span class=\"chem\">CH3</span> in brackets is a branch on the second carbon.": "",
+    "Brackets show a group that hangs off the chain. In <span class=\"chem\">CH3CH(CH3)CH3</span> the <span class=\"chem\">CH3</span> in brackets is a branch on the second carbon.": "괄호는 사슬에 매달린 기를 나타내요. <span class=\"chem\">CH3CH(CH3)CH3</span>에서 괄호 안의 <span class=\"chem\">CH3</span>는 두 번째 탄소에 붙은 곁가지예요.",
 
     // Six ways to write one molecule > li
-    "Brackets with a number mean several copies of the same group on one atom. <span class=\"chem\">(CH3)3COH</span> has three <span class=\"chem\">CH3</span> groups on the carbon that carries the OH.": "",
+    "Brackets with a number mean several copies of the same group on one atom. <span class=\"chem\">(CH3)3COH</span> has three <span class=\"chem\">CH3</span> groups on the carbon that carries the OH.": "괄호 뒤에 숫자가 있으면 한 원자에 같은 기가 여러 개 붙어 있다는 뜻이에요. <span class=\"chem\">(CH3)3COH</span>에는 OH가 붙은 탄소에 <span class=\"chem\">CH3</span>기가 3개 있어요.",
 
     // Six ways to write one molecule > li
-    "Some groups have a standard short form. <span class=\"chem\">COOH</span> is a carbon with a double bond to one O and a single bond to an O–H. <span class=\"chem\">CHO</span> is a carbon with one H and a double bond to O. <span class=\"chem\">CO</span> between two carbons is a carbon with a double bond to O.": "",
+    "Some groups have a standard short form. <span class=\"chem\">COOH</span> is a carbon with a double bond to one O and a single bond to an O–H. <span class=\"chem\">CHO</span> is a carbon with one H and a double bond to O. <span class=\"chem\">CO</span> between two carbons is a carbon with a double bond to O.": "어떤 기는 정해진 줄임 표기가 있어요. <span class=\"chem\">COOH</span>는 한 O와 이중 결합을 하고 O–H와 단일 결합을 한 탄소예요. <span class=\"chem\">CHO</span>는 H 하나가 붙어 있고 O와 이중 결합을 한 탄소예요. 두 탄소 사이의 <span class=\"chem\">CO</span>는 O와 이중 결합을 한 탄소예요.",
 
     // Six ways to write one molecule > li
-    "A double bond between carbons is usually shown: <span class=\"s32-f\" data-i18n=\"off\">CH<sub>2</sub>=CHCH<sub>3</sub></span>.": "",
+    "A double bond between carbons is usually shown: <span class=\"s32-f\" data-i18n=\"off\">CH<sub>2</sub>=CHCH<sub>3</sub></span>.": "탄소 사이의 이중 결합은 보통 표시해요: <span class=\"s32-f\" data-i18n=\"off\">CH<sub>2</sub>=CHCH<sub>3</sub></span>.",
 
     // Six ways to write one molecule > worked example > h3
-    "From condensed to full structural, and back": "",
+    "From condensed to full structural, and back": "축약 구조식에서 전개 구조식으로, 그리고 다시 거꾸로",
 
     // Six ways to write one molecule > worked example > p
-    "(a) Draw the full structural formula of <span class=\"chem\">CH3CH(OH)CH3</span>. (b) Write the condensed structural formula of the compound drawn in step 4.": "",
+    "(a) Draw the full structural formula of <span class=\"chem\">CH3CH(OH)CH3</span>. (b) Write the condensed structural formula of the compound drawn in step 4.": "(a) <span class=\"chem\">CH3CH(OH)CH3</span>의 전개 구조식을 그려요. (b) 4단계에 그린 화합물의 축약 구조식을 써요.",
 
     // Six ways to write one molecule > worked example > data-title attribute
-    "Find the carbon chain": "",
+    "Find the carbon chain": "탄소 사슬 찾기",
 
     // Six ways to write one molecule > worked example > p
-    "The carbons outside brackets form the chain.": "",
+    "The carbons outside brackets form the chain.": "괄호 밖에 있는 탄소들이 사슬을 이뤄요.",
 
     // Six ways to write one molecule > worked example > p
-    "<span class=\"chem\">CH3</span> – <span class=\"chem\">CH</span> – <span class=\"chem\">CH3</span>: three carbon atoms in a row. The <span class=\"chem\">(OH)</span> in brackets is attached to the middle carbon.": "",
+    "<span class=\"chem\">CH3</span> – <span class=\"chem\">CH</span> – <span class=\"chem\">CH3</span>: three carbon atoms in a row. The <span class=\"chem\">(OH)</span> in brackets is attached to the middle carbon.": "<span class=\"chem\">CH3</span> – <span class=\"chem\">CH</span> – <span class=\"chem\">CH3</span>: 탄소 원자 3개가 한 줄로 있어요. 괄호 안의 <span class=\"chem\">(OH)</span>는 가운데 탄소에 붙어 있어요.",
 
     // Six ways to write one molecule > worked example > data-title attribute
-    "Draw every bond": "",
+    "Draw every bond": "모든 결합 그리기",
 
     // Six ways to write one molecule > worked example > p
-    "A full structural formula shows each bond as a line, including O–H.": "",
+    "A full structural formula shows each bond as a line, including O–H.": "전개 구조식은 O–H를 포함해 각 결합을 선 하나로 나타내요.",
 
     // Six ways to write one molecule > worked example > data-label attribute
-    "Full structural formula of propan-2-ol: three carbons in a row, an O–H group on the middle carbon, and seven hydrogen atoms on the carbons": "",
+    "Full structural formula of propan-2-ol: three carbons in a row, an O–H group on the middle carbon, and seven hydrogen atoms on the carbons": "propan-2-ol의 전개 구조식: 탄소 3개가 한 줄로 있고, 가운데 탄소에 O–H기가 있으며, 탄소들에 수소 원자 7개가 붙어 있어요",
 
     // Six ways to write one molecule > worked example > data-title attribute
-    "Check each atom": "",
+    "Check each atom": "원자 하나하나 확인하기",
 
     // Six ways to write one molecule > worked example > p
-    "Counting bonds catches most drawing errors.": "",
+    "Counting bonds catches most drawing errors.": "결합 수를 세면 그림의 실수를 대부분 찾을 수 있어요.",
 
     // Six ways to write one molecule > worked example > p
-    "Each carbon has 4 bonds. The oxygen has 2. Each hydrogen has 1. The drawing has 3 C, 8 H and 1 O, which matches <span class=\"chem\">CH3CH(OH)CH3</span>.": "",
+    "Each carbon has 4 bonds. The oxygen has 2. Each hydrogen has 1. The drawing has 3 C, 8 H and 1 O, which matches <span class=\"chem\">CH3CH(OH)CH3</span>.": "각 탄소는 결합이 4개예요. 산소는 2개예요. 각 수소는 1개예요. 그림에는 C 3개, H 8개, O 1개가 있어서 <span class=\"chem\">CH3CH(OH)CH3</span>와 맞아요.",
 
     // Six ways to write one molecule > worked example > data-title attribute
-    "Part (b): read a drawing carbon by carbon": "",
+    "Part (b): read a drawing carbon by carbon": "(b): 그림을 탄소 하나씩 읽기",
 
     // Six ways to write one molecule > worked example > p
-    "Go along the chain and write each carbon with its own hydrogens.": "",
+    "Go along the chain and write each carbon with its own hydrogens.": "사슬을 따라가면서 각 탄소를 그 탄소의 수소와 함께 써요.",
 
     // Six ways to write one molecule > worked example > data-label attribute
-    "Full structural formula of a four-carbon chain. The last carbon has a double bond to one oxygen and a single bond to an O–H group.": "",
+    "Full structural formula of a four-carbon chain. The last carbon has a double bond to one oxygen and a single bond to an O–H group.": "탄소 4개짜리 사슬의 전개 구조식. 마지막 탄소는 산소 하나와 이중 결합을 하고, O–H기와 단일 결합을 해요.",
 
     // Six ways to write one molecule > worked example > p
-    "First carbon: <span class=\"chem\">CH3</span>. Second: <span class=\"chem\">CH2</span>. Third: <span class=\"chem\">CH2</span>. Fourth: a carbon with =O and –O–H, written <span class=\"chem\">COOH</span>.": "",
+    "First carbon: <span class=\"chem\">CH3</span>. Second: <span class=\"chem\">CH2</span>. Third: <span class=\"chem\">CH2</span>. Fourth: a carbon with =O and –O–H, written <span class=\"chem\">COOH</span>.": "첫 번째 탄소: <span class=\"chem\">CH3</span>. 두 번째: <span class=\"chem\">CH2</span>. 세 번째: <span class=\"chem\">CH2</span>. 네 번째: =O와 –O–H가 붙은 탄소로, <span class=\"chem\">COOH</span>로 써요.",
 
     // Six ways to write one molecule > worked example > data-title attribute
-    "Write it on one line": "",
+    "Write it on one line": "한 줄로 쓰기",
 
     // Six ways to write one molecule > worked example > p
-    "Keep the groups in the same order as the chain.": "",
+    "Keep the groups in the same order as the chain.": "기를 사슬과 같은 순서로 써요.",
 
     // Six ways to write one molecule > worked example > p
-    "(a) The drawing in step 2. (b) <span class=\"chem\">CH3CH2CH2COOH</span>": "",
+    "(a) The drawing in step 2. (b) <span class=\"chem\">CH3CH2CH2COOH</span>": "(a) 2단계의 그림. (b) <span class=\"chem\">CH3CH2CH2COOH</span>",
 
     // Six ways to write one molecule > h3
-    "How to read a skeletal formula": "",
+    "How to read a skeletal formula": "골격 구조식 읽는 법",
 
     // Six ways to write one molecule > p
-    "A skeletal formula is the fastest one to draw, and exam papers use it often. It leaves out the letters C and H. You have to put them back in your head. There are four rules.": "",
+    "A skeletal formula is the fastest one to draw, and exam papers use it often. It leaves out the letters C and H. You have to put them back in your head. There are four rules.": "골격 구조식은 가장 빨리 그릴 수 있는 화학식이라 시험지에 자주 나와요. C와 H라는 글자를 생략해요. 머릿속에서 다시 채워 넣어야 해요. 규칙은 4가지예요.",
 
     // Six ways to write one molecule > li
-    "Every line is a bond between two atoms. A double line is a double bond.": "",
+    "Every line is a bond between two atoms. A double line is a double bond.": "모든 선은 두 원자 사이의 결합이에요. 두 줄 선은 이중 결합이에요.",
 
     // Six ways to write one molecule > li
-    "Every line end and every corner is a carbon atom, unless another symbol is written there.": "",
+    "Every line end and every corner is a carbon atom, unless another symbol is written there.": "다른 기호가 쓰여 있지 않으면, 선의 끝과 꺾인 곳은 모두 탄소 원자예요.",
 
     // Six ways to write one molecule > li
-    "Each carbon has enough hydrogen atoms to make four bonds in total. These hydrogens are not drawn.": "",
+    "Each carbon has enough hydrogen atoms to make four bonds in total. These hydrogens are not drawn.": "각 탄소에는 결합이 모두 4개가 되도록 수소 원자가 붙어 있어요. 이 수소는 그리지 않아요.",
 
     // Six ways to write one molecule > li
-    "Atoms that are not carbon or hydrogen are always written. A hydrogen bonded to one of them is written too, as in OH or <span class=\"chem\">NH2</span>.": "",
+    "Atoms that are not carbon or hydrogen are always written. A hydrogen bonded to one of them is written too, as in OH or <span class=\"chem\">NH2</span>.": "탄소나 수소가 아닌 원자는 항상 써요. 그런 원자에 결합한 수소도 OH나 <span class=\"chem\">NH2</span>처럼 함께 써요.",
 
     // Six ways to write one molecule > data-label attribute
-    "Skeletal formula of butane: a zig-zag of three lines": "",
+    "Skeletal formula of butane: a zig-zag of three lines": "butane의 골격 구조식: 선 3개로 된 지그재그",
 
     // Six ways to write one molecule > p
-    "butane, <span class=\"chem\">CH3CH2CH2CH3</span>: four carbons, so three lines": "",
+    "butane, <span class=\"chem\">CH3CH2CH2CH3</span>: four carbons, so three lines": "butane, <span class=\"chem\">CH3CH2CH2CH3</span>: 탄소가 4개이므로 선은 3개",
 
     // Six ways to write one molecule > data-label attribute
-    "Skeletal formula of 2-methylpropane: three lines that meet at one point": "",
+    "Skeletal formula of 2-methylpropane: three lines that meet at one point": "2-methylpropane의 골격 구조식: 한 점에서 만나는 선 3개",
 
     // Six ways to write one molecule > p
-    "2-methylpropane: the middle carbon has three lines, so it has one H": "",
+    "2-methylpropane: the middle carbon has three lines, so it has one H": "2-methylpropane: 가운데 탄소에 선이 3개이므로 H는 1개",
 
     // Six ways to write one molecule > data-label attribute
-    "Skeletal formula of but-2-ene: a zig-zag with a double line in the middle": "",
+    "Skeletal formula of but-2-ene: a zig-zag with a double line in the middle": "but-2-ene의 골격 구조식: 가운데에 두 줄 선이 있는 지그재그",
 
     // Six ways to write one molecule > p
-    "but-2-ene: each carbon of the C=C has one H": "",
+    "but-2-ene: each carbon of the C=C has one H": "but-2-ene: C=C의 각 탄소에 H가 1개",
 
     // Six ways to write one molecule > data-label attribute
-    "Skeletal formula of ethanoic acid: one line to a carbon that has a double bond to O and a single bond to OH": "",
+    "Skeletal formula of ethanoic acid: one line to a carbon that has a double bond to O and a single bond to OH": "ethanoic acid의 골격 구조식: 선 하나가 O와 이중 결합을 하고 OH와 단일 결합을 한 탄소로 이어져요",
 
     // Six ways to write one molecule > p
     // Homologous series: families of compounds > table > td
-    "ethanoic acid, <span class=\"chem\">CH3COOH</span>": "",
+    "ethanoic acid, <span class=\"chem\">CH3COOH</span>": "ethanoic acid, <span class=\"chem\">CH3COOH</span>",
 
     // Six ways to write one molecule > widget > data-title attribute
-    "Skeletal formula reading tutor": "",
+    "Skeletal formula reading tutor": "골격 구조식 읽기 연습",
 
     // Six ways to write one molecule > widget > figcaption
-    "Before you press a point, say how many hydrogen atoms that carbon carries. Then press it to check. When every carbon is revealed, the molecular formula appears.": "",
+    "Before you press a point, say how many hydrogen atoms that carbon carries. Then press it to check. When every carbon is revealed, the molecular formula appears.": "점을 누르기 전에, 그 탄소에 수소 원자가 몇 개 붙어 있는지 말해 봐요. 그다음 눌러서 확인해요. 모든 탄소가 드러나면 분자식이 나타나요.",
 
     // Six ways to write one molecule > worked example > h3
-    "From a skeletal formula to a molecular formula": "",
+    "From a skeletal formula to a molecular formula": "골격 구조식에서 분자식으로",
 
     // Six ways to write one molecule > worked example > p
-    "Deduce the molecular formula of this compound.": "",
+    "Deduce the molecular formula of this compound.": "이 화합물의 분자식을 추론하시오 (deduce).",
 
     // Six ways to write one molecule > worked example > data-label attribute
-    "Skeletal formula: a zig-zag chain of four carbons. The second carbon from the left has one extra line going up. The right-hand end of the chain is a double bond to an O.": "",
+    "Skeletal formula: a zig-zag chain of four carbons. The second carbon from the left has one extra line going up. The right-hand end of the chain is a double bond to an O.": "골격 구조식: 탄소 4개로 된 지그재그 사슬. 왼쪽에서 두 번째 탄소에서 선 하나가 위로 더 나와 있어요. 사슬의 오른쪽 끝은 O와의 이중 결합이에요.",
 
     // Six ways to write one molecule > worked example > data-title attribute
-    "Count the carbon atoms": "",
+    "Count the carbon atoms": "탄소 원자 세기",
 
     // Six ways to write one molecule > worked example > p
-    "Every line end and corner without a symbol is a carbon.": "",
+    "Every line end and corner without a symbol is a carbon.": "기호가 없는 선의 끝과 꺾인 곳은 모두 탄소예요.",
 
     // Six ways to write one molecule > worked example > p
-    "The chain has four carbons. The last of them is the one joined to O by the double bond. The branch adds one more.": "",
+    "The chain has four carbons. The last of them is the one joined to O by the double bond. The branch adds one more.": "사슬에는 탄소가 4개 있어요. 그중 마지막 탄소가 이중 결합으로 O와 연결된 탄소예요. 곁가지가 탄소 하나를 더해요.",
 
     // Six ways to write one molecule > worked example > data-title attribute
-    "Give each carbon its hydrogens": "",
+    "Give each carbon its hydrogens": "각 탄소에 수소 채우기",
 
     // Six ways to write one molecule > worked example > p
-    "Hydrogens = 4 − (bonds drawn at that carbon).": "",
+    "Hydrogens = 4 − (bonds drawn at that carbon).": "수소 수 = 4 − (그 탄소에 그려진 결합 수).",
 
     // Six ways to write one molecule > worked example > maths line
-    "left end: 1 bond drawn → 3 H": "",
+    "left end: 1 bond drawn → 3 H": "왼쪽 끝: 그려진 결합 1개 → H 3개",
 
     // Six ways to write one molecule > worked example > maths line
-    "branch end: 1 bond drawn → 3 H": "",
+    "branch end: 1 bond drawn → 3 H": "곁가지 끝: 그려진 결합 1개 → H 3개",
 
     // Six ways to write one molecule > worked example > maths line
-    "carbon with the branch: 3 bonds drawn → 1 H": "",
+    "carbon with the branch: 3 bonds drawn → 1 H": "곁가지가 있는 탄소: 그려진 결합 3개 → H 1개",
 
     // Six ways to write one molecule > worked example > maths line
-    "next carbon: 2 bonds drawn → 2 H": "",
+    "next carbon: 2 bonds drawn → 2 H": "다음 탄소: 그려진 결합 2개 → H 2개",
 
     // Six ways to write one molecule > worked example > maths line
-    "carbon of C=O: 1 single + 1 double = 3 bonds → 1 H": "",
+    "carbon of C=O: 1 single + 1 double = 3 bonds → 1 H": "C=O의 탄소: 단일 1개 + 이중 1개 = 결합 3개 → H 1개",
 
     // Six ways to write one molecule > worked example > data-title attribute
-    "Add the hydrogens": "",
+    "Add the hydrogens": "수소 더하기",
 
     // Six ways to write one molecule > worked example > p
-    "No H is drawn on the oxygen, so there are no others to add.": "",
+    "No H is drawn on the oxygen, so there are no others to add.": "산소에는 H가 그려져 있지 않으므로 더할 수소는 없어요.",
 
     // Six ways to write one molecule > worked example > data-title attribute
-    "Count the other atoms and write the formula": "",
+    "Count the other atoms and write the formula": "다른 원자를 세고 화학식 쓰기",
 
     // Six ways to write one molecule > worked example > p
-    "Write C first, then H, then the other elements.": "",
+    "Write C first, then H, then the other elements.": "C를 먼저, 그다음 H, 그다음 다른 원소를 써요.",
 
     // Six ways to write one molecule > try it > data-label attribute
     // Homologous series: families of compounds > try it > data-label attribute
-    "Number of H atoms": "",
+    "Number of H atoms": "H 원자 수",
 
     // Six ways to write one molecule > try it > p
     // widget string (assets/js/widgets-s3-2.js)
-    "How many hydrogen atoms are in one molecule of this compound?": "",
+    "How many hydrogen atoms are in one molecule of this compound?": "이 화합물 분자 1개에는 수소 원자가 몇 개 있을까요?",
 
     // Six ways to write one molecule > try it > data-label attribute
-    "Skeletal formula: a zig-zag chain of five carbons. The second carbon has a double bond to an O. The third carbon has one extra line.": "",
+    "Skeletal formula: a zig-zag chain of five carbons. The second carbon has a double bond to an O. The third carbon has one extra line.": "골격 구조식: 탄소 5개로 된 지그재그 사슬. 두 번째 탄소는 O와 이중 결합을 해요. 세 번째 탄소에는 선이 하나 더 있어요.",
 
     // Six ways to write one molecule > try it > li
-    "Count the carbons first: five in the chain and one branch.": "",
+    "Count the carbons first: five in the chain and one branch.": "먼저 탄소를 세요: 사슬에 5개, 곁가지에 1개.",
 
     // Six ways to write one molecule > try it > li
-    "The carbon of the C=O has four bonds drawn already (two single, one double), so it has no H. The carbon with the branch has three bonds drawn.": "",
+    "The carbon of the C=O has four bonds drawn already (two single, one double), so it has no H. The carbon with the branch has three bonds drawn.": "C=O의 탄소는 이미 결합 4개(단일 2개, 이중 1개)가 그려져 있으므로 H가 없어요. 곁가지가 있는 탄소는 결합 3개가 그려져 있어요.",
 
     // Six ways to write one molecule > try it > p
-    "The molecular formula is <span class=\"chem\">C6H12O</span>.": "",
+    "The molecular formula is <span class=\"chem\">C6H12O</span>.": "분자식은 <span class=\"chem\">C6H12O</span>예요.",
 
     // Six ways to write one molecule > try it > p
-    "How many hydrogen atoms are in one molecule of <span class=\"chem\">CH3CH(CH3)CH2OH</span>?": "",
+    "How many hydrogen atoms are in one molecule of <span class=\"chem\">CH3CH(CH3)CH2OH</span>?": "<span class=\"chem\">CH3CH(CH3)CH2OH</span> 분자 1개에는 수소 원자가 몇 개 있을까요?",
 
     // Six ways to write one molecule > try it > li
-    "The group in brackets is a branch. It still belongs to the molecule.": "",
+    "The group in brackets is a branch. It still belongs to the molecule.": "괄호 안의 기는 곁가지예요. 그래도 분자의 일부예요.",
 
     // Six ways to write one molecule > try it > li
-    "Add the H atoms group by group: <span class=\"chem\">CH3</span>, <span class=\"chem\">CH</span>, <span class=\"chem\">CH3</span>, <span class=\"chem\">CH2</span>, <span class=\"chem\">OH</span>.": "",
+    "Add the H atoms group by group: <span class=\"chem\">CH3</span>, <span class=\"chem\">CH</span>, <span class=\"chem\">CH3</span>, <span class=\"chem\">CH2</span>, <span class=\"chem\">OH</span>.": "기마다 H 원자를 더해요: <span class=\"chem\">CH3</span>, <span class=\"chem\">CH</span>, <span class=\"chem\">CH3</span>, <span class=\"chem\">CH2</span>, <span class=\"chem\">OH</span>.",
 
     // Six ways to write one molecule > try it > p
-    "The molecular formula is <span class=\"chem\">C4H10O</span>.": "",
+    "The molecular formula is <span class=\"chem\">C4H10O</span>.": "분자식은 <span class=\"chem\">C4H10O</span>예요.",
 
     // Six ways to write one molecule > common mistake > p
-    "Many students forget the carbon at the <em>end</em> of a line, or forget the hydrogen atoms that are not drawn. A single straight line is ethane, with two carbons and six hydrogens. It is not “nothing”.": "",
+    "Many students forget the carbon at the <em>end</em> of a line, or forget the hydrogen atoms that are not drawn. A single straight line is ethane, with two carbons and six hydrogens. It is not “nothing”.": "많은 학생이 선 <em>끝</em>에 있는 탄소를 잊거나, 그려지지 않은 수소 원자를 잊어요. 곧은 선 하나는 탄소 2개와 수소 6개로 된 ethane이에요. “아무것도 없는” 게 아니에요.",
 
     // Six ways to write one molecule > widget > data-title attribute
-    "Translate it: formula quiz": "",
+    "Translate it: formula quiz": "바꿔 보기: 화학식 퀴즈",
 
     // Six ways to write one molecule > widget > data-kicker attribute
     // IUPAC names > widget > data-kicker attribute
     // Structural isomers > widget > data-kicker attribute
     // Primary, secondary and tertiary > widget > data-kicker attribute
-    "Practice": "",
+    "Practice": "연습",
 
     // Six ways to write one molecule > widget > figcaption
-    "Three kinds of question in turn. Work each one out on paper before you answer.": "",
+    "Three kinds of question in turn. Work each one out on paper before you answer.": "세 종류의 문제가 번갈아 나와요. 답하기 전에 종이에 먼저 풀어 보세요.",
 
     // Six ways to write one molecule > not needed for IB > p
-    "At this level you only need to <em>recognize</em> a stereochemical (wedge and dash) formula. You do not have to draw one unless the question tells you to; drawing them is part of Additional HL. Other 3-D drawings you may see elsewhere, such as Newman and Fischer projections, are not in the IB course.": "",
+    "At this level you only need to <em>recognize</em> a stereochemical (wedge and dash) formula. You do not have to draw one unless the question tells you to; drawing them is part of Additional HL. Other 3-D drawings you may see elsewhere, such as Newman and Fischer projections, are not in the IB course.": "이 단계에서는 입체 구조식(쐐기와 점선)을 <em>알아보기</em>만 하면 돼요. 문제에서 그리라고 하지 않는 한 직접 그릴 필요는 없어요. 입체 구조식 그리기는 HL 추가 내용이에요. 다른 곳에서 볼 수 있는 뉴먼 투영식, 피셔 투영식 같은 다른 3-D 그림은 IB 과정에 나오지 않아요.",
 
     // Six ways to write one molecule > data-title attribute
-    "Formulas: quick check": "",
+    "Formulas: quick check": "화학식: 빠른 확인",
 
     // Functional groups and classes of compounds > data-toc attribute
-    "Functional groups": "",
+    "Functional groups": "작용기",
 
     // Functional groups and classes of compounds > h2
-    "Functional groups and classes of compounds": "",
+    "Functional groups and classes of compounds": "작용기와 화합물의 종류",
 
     // Functional groups and classes of compounds > p
-    "Ethanol and propan-1-ol have different sizes, but they behave in very similar ways. Both mix with water. Both burn easily. The reason is one small part that they share: an O–H joined to a carbon atom.": "",
+    "Ethanol and propan-1-ol have different sizes, but they behave in very similar ways. Both mix with water. Both burn easily. The reason is one small part that they share: an O–H joined to a carbon atom.": "ethanol과 propan-1-ol은 크기가 다르지만 성질은 매우 비슷해요. 둘 다 물과 섞여요. 둘 다 쉽게 타요. 그 이유는 둘이 공통으로 가진 작은 부분, 즉 탄소 원자에 붙은 O–H 때문이에요.",
 
     // Functional groups and classes of compounds > p
-    "A <dfn>functional group</dfn> is an atom or a group of atoms that gives a compound its characteristic physical and chemical properties. The rest of the molecule, the chain of carbon and hydrogen, changes those properties only a little.": "",
+    "A <dfn>functional group</dfn> is an atom or a group of atoms that gives a compound its characteristic physical and chemical properties. The rest of the molecule, the chain of carbon and hydrogen, changes those properties only a little.": "<dfn>작용기 <span class=\"en-term\">(functional group)</span></dfn>는 화합물에 특유의 물리적·화학적 성질을 주는 원자 또는 원자 묶음이에요. 분자의 나머지 부분인 탄소와 수소의 사슬은 이 성질을 조금만 바꿔요.",
 
     // Functional groups and classes of compounds > p
-    "Chemists sort organic compounds into <dfn>classes</dfn> according to the functional group in their molecules. In general formulas the letter R stands for the rest of the molecule: any group made of carbon and hydrogen, such as <span class=\"chem\">CH3</span> or <span class=\"chem\">CH3CH2</span>.": "",
+    "Chemists sort organic compounds into <dfn>classes</dfn> according to the functional group in their molecules. In general formulas the letter R stands for the rest of the molecule: any group made of carbon and hydrogen, such as <span class=\"chem\">CH3</span> or <span class=\"chem\">CH3CH2</span>.": "화학자는 분자에 들어 있는 작용기에 따라 유기 화합물을 여러 <dfn>종류 <span class=\"en-term\">(classes)</span></dfn>로 나눠요. 일반식에서 R은 분자의 나머지 부분을 나타내요: <span class=\"chem\">CH3</span>나 <span class=\"chem\">CH3CH2</span>처럼 탄소와 수소로 된 어떤 기든 될 수 있어요.",
 
     // Functional groups and classes of compounds > h3
-    "The nine groups you must identify": "",
+    "The nine groups you must identify": "찾을 줄 알아야 하는 9가지 기",
 
     // Functional groups and classes of compounds > table > caption
-    "Functional groups: the name of the group and the class of compound it makes": "",
+    "Functional groups: the name of the group and the class of compound it makes": "작용기: 기의 이름과 그 기가 만드는 화합물의 종류",
 
     // Functional groups and classes of compounds > table > th
-    "Name of the group": "",
+    "Name of the group": "기의 이름",
 
     // Functional groups and classes of compounds > table > th
     // Primary, secondary and tertiary > table > th
-    "Structure": "",
+    "Structure": "구조",
 
     // Functional groups and classes of compounds > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "Class of compound": "",
+    "Class of compound": "화합물의 종류",
 
     // Functional groups and classes of compounds > table > th
     // IUPAC names > table > th
     // Primary, secondary and tertiary > table > th
-    "Example": "",
+    "Example": "예",
 
     // Functional groups and classes of compounds > table > th
     // Homologous series: families of compounds > table > td
     // widget string (assets/js/widgets-s3-2.js)
-    "halogeno": "",
+    "halogeno": "할로젠기",
 
     // Functional groups and classes of compounds > table > td
     // Homologous series: families of compounds > table > th
-    "halogenoalkanes": "",
+    "halogenoalkanes": "할로젠화 알케인",
 
     // Functional groups and classes of compounds > table > data-label attribute
-    "chloroethane": "",
+    "chloroethane": "chloroethane",
 
     // Functional groups and classes of compounds > table > th
     // Homologous series: families of compounds > table > td
     // widget string (assets/js/widgets-s3-2.js)
-    "hydroxyl": "",
+    "hydroxyl": "하이드록시기",
 
     // Functional groups and classes of compounds > table > td
     // Homologous series: families of compounds > table > th
-    "alcohols": "",
+    "alcohols": "알코올",
 
     // Functional groups and classes of compounds > table > data-label attribute
-    "ethanol": "",
+    "ethanol": "ethanol",
 
     // Functional groups and classes of compounds > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "carbonyl": "",
+    "carbonyl": "카보닐기",
 
     // Functional groups and classes of compounds > table > td
-    "aldehydes: the C=O is at the end of the chain, so its carbon also carries an H": "",
+    "aldehydes: the C=O is at the end of the chain, so its carbon also carries an H": "알데하이드: C=O가 사슬 끝에 있어서 그 탄소에 H도 붙어 있어요",
 
     // Functional groups and classes of compounds > table > data-label attribute
-    "ethanal": "",
+    "ethanal": "ethanal",
 
     // Functional groups and classes of compounds > table > td
-    "ketones: the C=O is inside the chain, between two carbons": "",
+    "ketones: the C=O is inside the chain, between two carbons": "케톤: C=O가 사슬 안쪽, 두 탄소 사이에 있어요",
 
     // Functional groups and classes of compounds > table > data-label attribute
     // Structural isomers > table > data-label attribute
-    "propanone": "",
+    "propanone": "propanone",
 
     // Functional groups and classes of compounds > table > th
     // Homologous series: families of compounds > table > td
     // widget string (assets/js/widgets-s3-2.js)
-    "carboxyl": "",
+    "carboxyl": "카복실기",
 
     // Functional groups and classes of compounds > table > td
     // Homologous series: families of compounds > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "carboxylic acids": "",
+    "carboxylic acids": "카복실산",
 
     // Functional groups and classes of compounds > table > data-label attribute
-    "ethanoic acid": "",
+    "ethanoic acid": "ethanoic acid",
 
     // Functional groups and classes of compounds > table > th
     // Homologous series: families of compounds > table > td
     // widget string (assets/js/widgets-s3-2.js)
-    "alkoxy": "",
+    "alkoxy": "알콕시기",
 
     // Functional groups and classes of compounds > table > td
-    "ethers: an O between two carbons": "",
+    "ethers: an O between two carbons": "에테르: 두 탄소 사이에 O가 있어요",
 
     // Functional groups and classes of compounds > table > data-label attribute
-    "methoxymethane": "",
+    "methoxymethane": "methoxymethane",
 
     // Functional groups and classes of compounds > table > th
     // Homologous series: families of compounds > table > td
     // widget string (assets/js/widgets-s3-2.js)
-    "amino": "",
+    "amino": "아미노기",
 
     // Functional groups and classes of compounds > table > td
-    "amines (one or both H atoms on the N can be replaced by R)": "",
+    "amines (one or both H atoms on the N can be replaced by R)": "아민(N에 붙은 H 원자 하나 또는 둘이 R로 바뀔 수 있어요)",
 
     // Functional groups and classes of compounds > table > data-label attribute
-    "ethanamine": "",
+    "ethanamine": "ethanamine",
 
     // Functional groups and classes of compounds > table > th
     // Homologous series: families of compounds > table > td
     // widget string (assets/js/widgets-s3-2.js)
-    "amido": "",
+    "amido": "아마이드기",
 
     // Functional groups and classes of compounds > table > td
-    "amides: an N on the carbon of a C=O": "",
+    "amides: an N on the carbon of a C=O": "아마이드: C=O의 탄소에 N이 붙어 있어요",
 
     // Functional groups and classes of compounds > table > data-label attribute
-    "ethanamide": "",
+    "ethanamide": "ethanamide",
 
     // Functional groups and classes of compounds > table > th
     // Homologous series: families of compounds > table > td
-    "ester": "",
+    "ester": "에스터기",
 
     // Functional groups and classes of compounds > table > td
-    "esters: like carboxyl, but with R in place of the H": "",
+    "esters: like carboxyl, but with R in place of the H": "에스터: 카복실기와 비슷하지만 H 대신 R이 있어요",
 
     // Functional groups and classes of compounds > table > data-label attribute
-    "methyl ethanoate": "",
+    "methyl ethanoate": "methyl ethanoate",
 
     // Functional groups and classes of compounds > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "phenyl": "",
+    "phenyl": "페닐기",
 
     // Functional groups and classes of compounds > table > td
-    "a benzene ring joined to the rest of a molecule (no class to learn)": "",
+    "a benzene ring joined to the rest of a molecule (no class to learn)": "분자의 나머지 부분에 연결된 벤젠 고리(외워야 할 화합물 종류는 없어요)",
 
     // Functional groups and classes of compounds > table > data-label attribute
-    "benzoic acid: a benzene ring joined to a carboxyl group": "",
+    "benzoic acid: a benzene ring joined to a carboxyl group": "benzoic acid: 카복실기에 연결된 벤젠 고리",
 
     // Functional groups and classes of compounds > p
-    "Three classes have no group from this list. <dfn>Alkanes</dfn> have only C–C single bonds and C–H bonds. <dfn>Alkenes</dfn> have a carbon–carbon double bond, C=C. <dfn>Alkynes</dfn> have a carbon–carbon triple bond, C≡C. That makes twelve classes in total.": "",
+    "Three classes have no group from this list. <dfn>Alkanes</dfn> have only C–C single bonds and C–H bonds. <dfn>Alkenes</dfn> have a carbon–carbon double bond, C=C. <dfn>Alkynes</dfn> have a carbon–carbon triple bond, C≡C. That makes twelve classes in total.": "3가지 종류는 이 목록에 있는 기가 없어요. <dfn>알케인 <span class=\"en-term\">(Alkanes)</span></dfn>은 C–C 단일 결합과 C–H 결합만 있어요. <dfn>알켄 <span class=\"en-term\">(Alkenes)</span></dfn>은 탄소–탄소 이중 결합 C=C가 있어요. <dfn>알카인 <span class=\"en-term\">(Alkynes)</span></dfn>은 탄소–탄소 삼중 결합 C≡C가 있어요. 그래서 모두 12가지 종류가 돼요.",
 
     // Functional groups and classes of compounds > p
-    "The benzene ring is drawn here with alternating single and double lines. The real bonding in benzene is described in Structure 2.2 (Additional HL). For this page, you only need to recognize the ring and call it phenyl. Markschemes use “phenyl” for any benzene ring that is part of a larger molecule, also when the ring carries two groups, as in aspirin.": "",
+    "The benzene ring is drawn here with alternating single and double lines. The real bonding in benzene is described in Structure 2.2 (Additional HL). For this page, you only need to recognize the ring and call it phenyl. Markschemes use “phenyl” for any benzene ring that is part of a larger molecule, also when the ring carries two groups, as in aspirin.": "여기서는 벤젠 고리를 단일 선과 두 줄 선이 번갈아 나오게 그렸어요. 벤젠의 실제 결합은 Structure 2.2(HL 추가)에서 다뤄요. 이 페이지에서는 고리를 알아보고 페닐이라고 부를 수만 있으면 돼요. 채점 기준에서는 더 큰 분자의 일부인 벤젠 고리를 모두 “phenyl”이라고 해요. 아스피린처럼 고리에 기가 2개 붙어 있을 때도 마찬가지예요.",
 
     // Functional groups and classes of compounds > common mistake > p
-    "The name of the group and the name of the class are two different words. The group in ethanol is <strong>hydroxyl</strong>; the class is <strong>alcohol</strong>. The group in ethanal is <strong>carbonyl</strong>; the class is <strong>aldehyde</strong>. The group in ethanoic acid is <strong>carboxyl</strong>; the class is <strong>carboxylic acid</strong>.": "",
+    "The name of the group and the name of the class are two different words. The group in ethanol is <strong>hydroxyl</strong>; the class is <strong>alcohol</strong>. The group in ethanal is <strong>carbonyl</strong>; the class is <strong>aldehyde</strong>. The group in ethanoic acid is <strong>carboxyl</strong>; the class is <strong>carboxylic acid</strong>.": "기의 이름과 화합물 종류의 이름은 서로 다른 말이에요. ethanol에 있는 기는 <strong>하이드록시기(hydroxyl)</strong>이고, 종류는 <strong>알코올(alcohol)</strong>이에요. ethanal에 있는 기는 <strong>카보닐기(carbonyl)</strong>이고, 종류는 <strong>알데하이드(aldehyde)</strong>예요. ethanoic acid에 있는 기는 <strong>카복실기(carboxyl)</strong>이고, 종류는 <strong>카복실산(carboxylic acid)</strong>이에요.",
 
     // Functional groups and classes of compounds > exam tip (shown in English + translation) > p
-    "Read the question word by word. “State the name of the functional group” wants hydroxyl, carbonyl, carboxyl or phenyl. Answers such as alcohol, aldehyde, carboxylic acid or “benzene ring” have lost this mark. “State the class” or “the homologous series” wants alcohol, aldehyde or carboxylic acid.": "",
+    "Read the question word by word. “State the name of the functional group” wants hydroxyl, carbonyl, carboxyl or phenyl. Answers such as alcohol, aldehyde, carboxylic acid or “benzene ring” have lost this mark. “State the class” or “the homologous series” wants alcohol, aldehyde or carboxylic acid.": "문제를 한 단어씩 읽어요. “State the name of the functional group”(작용기의 이름을 쓰시오)는 hydroxyl, carbonyl, carboxyl, phenyl을 원해요. alcohol, aldehyde, carboxylic acid, “benzene ring” 같은 답은 이 점수를 잃었어요. “State the class”나 “the homologous series”(종류나 동족 계열을 쓰시오)는 alcohol, aldehyde, carboxylic acid를 원해요.",
 
     // Functional groups and classes of compounds > h3
-    "Look at the whole group": "",
+    "Look at the whole group": "기 전체를 보기",
 
     // Functional groups and classes of compounds > p
-    "Some groups contain smaller ones. Always take the largest group you can see.": "",
+    "Some groups contain smaller ones. Always take the largest group you can see.": "어떤 기는 더 작은 기를 품고 있어요. 항상 보이는 가장 큰 기를 고르세요.",
 
     // Functional groups and classes of compounds > li
-    "C=O with an O–H on the same carbon is <strong>carboxyl</strong>. It is not “carbonyl and hydroxyl”.": "",
+    "C=O with an O–H on the same carbon is <strong>carboxyl</strong>. It is not “carbonyl and hydroxyl”.": "같은 탄소에 C=O와 O–H가 있으면 <strong>카복실기</strong>예요. “카보닐기와 하이드록시기”가 아니에요.",
 
     // Functional groups and classes of compounds > li
-    "C=O with an O–R on the same carbon is <strong>ester</strong>. It is not “carbonyl and alkoxy”.": "",
+    "C=O with an O–R on the same carbon is <strong>ester</strong>. It is not “carbonyl and alkoxy”.": "같은 탄소에 C=O와 O–R가 있으면 <strong>에스터기</strong>예요. “카보닐기와 알콕시기”가 아니에요.",
 
     // Functional groups and classes of compounds > li
-    "C=O with an N on the same carbon is <strong>amido</strong>. It is not “carbonyl and amino”.": "",
+    "C=O with an N on the same carbon is <strong>amido</strong>. It is not “carbonyl and amino”.": "같은 탄소에 C=O와 N이 있으면 <strong>아마이드기</strong>예요. “카보닐기와 아미노기”가 아니에요.",
 
     // Functional groups and classes of compounds > h3
-    "Saturated and unsaturated": "",
+    "Saturated and unsaturated": "포화와 불포화",
 
     // Functional groups and classes of compounds > p
-    "A <dfn>saturated</dfn> compound has only single bonds between its carbon atoms. An <dfn>unsaturated</dfn> compound has at least one carbon–carbon double bond or triple bond.": "",
+    "A <dfn>saturated</dfn> compound has only single bonds between its carbon atoms. An <dfn>unsaturated</dfn> compound has at least one carbon–carbon double bond or triple bond.": "<dfn>포화 <span class=\"en-term\">(saturated)</span></dfn> 화합물은 탄소 원자 사이에 단일 결합만 있어요. <dfn>불포화 <span class=\"en-term\">(unsaturated)</span></dfn> 화합물은 탄소–탄소 이중 결합이나 삼중 결합이 적어도 하나 있어요.",
 
     // Functional groups and classes of compounds > p
-    "Alkanes are saturated. Alkenes and alkynes are unsaturated. The words describe the carbon–carbon bonds only: ethanol and propanone are both saturated.": "",
+    "Alkanes are saturated. Alkenes and alkynes are unsaturated. The words describe the carbon–carbon bonds only: ethanol and propanone are both saturated.": "알케인은 포화 화합물이에요. 알켄과 알카인은 불포화 화합물이에요. 이 말은 탄소–탄소 결합만을 가리켜요: ethanol과 propanone은 둘 다 포화 화합물이에요.",
 
     // Functional groups and classes of compounds > widget > data-title attribute
-    "Functional group spotter": "",
+    "Functional group spotter": "작용기 찾기",
 
     // Functional groups and classes of compounds > widget > figcaption
-    "Molecules 1 to 10 have one functional group: name the group, then the class. Molecules 11 to 19 have two or three groups, as in paracetamol (18) and aspirin (19): find and name each group.": "",
+    "Molecules 1 to 10 have one functional group: name the group, then the class. Molecules 11 to 19 have two or three groups, as in paracetamol (18) and aspirin (19): find and name each group.": "분자 1부터 10까지는 작용기가 하나예요: 기의 이름을 말하고, 그다음 화합물의 종류를 말해요. 분자 11부터 19까지는 paracetamol(18), aspirin(19)처럼 기가 2개나 3개 있어요: 각 기를 찾아 이름을 말해요.",
 
     // Functional groups and classes of compounds > worked example > h3
-    "Finding every group in a larger molecule": "",
+    "Finding every group in a larger molecule": "더 큰 분자에서 모든 기 찾기",
 
     // Functional groups and classes of compounds > worked example > p
-    "Paracetamol is a painkiller. Identify the functional groups in its molecule.": "",
+    "Paracetamol is a painkiller. Identify the functional groups in its molecule.": "paracetamol은 진통제예요. 이 분자에 있는 작용기를 찾으시오 (identify).",
 
     // Functional groups and classes of compounds > worked example > data-label attribute
-    "Skeletal formula of paracetamol: a benzene ring. One ring carbon carries an OH group. The opposite ring carbon is joined to an N–H, which is joined to a carbon that has a double bond to O and a CH3 group.": "",
+    "Skeletal formula of paracetamol: a benzene ring. One ring carbon carries an OH group. The opposite ring carbon is joined to an N–H, which is joined to a carbon that has a double bond to O and a CH3 group.": "paracetamol의 골격 구조식: 벤젠 고리. 고리의 한 탄소에 OH기가 붙어 있어요. 반대쪽 고리 탄소는 N–H와 연결되고, 이 N–H는 O와 이중 결합을 하고 CH3기가 붙은 탄소와 연결돼요.",
 
     // Functional groups and classes of compounds > worked example > data-title attribute
-    "Find every atom that is not C or H": "",
+    "Find every atom that is not C or H": "C나 H가 아닌 원자를 모두 찾기",
 
     // Functional groups and classes of compounds > worked example > p
-    "Functional groups are built around these atoms, and around rings and multiple bonds.": "",
+    "Functional groups are built around these atoms, and around rings and multiple bonds.": "작용기는 이런 원자, 그리고 고리와 다중 결합을 중심으로 이루어져요.",
 
     // Functional groups and classes of compounds > worked example > p
-    "There are two oxygen atoms and one nitrogen atom. There is also a six-carbon ring with alternating double bonds.": "",
+    "There are two oxygen atoms and one nitrogen atom. There is also a six-carbon ring with alternating double bonds.": "산소 원자 2개와 질소 원자 1개가 있어요. 이중 결합이 번갈아 있는 탄소 6개짜리 고리도 있어요.",
 
     // Functional groups and classes of compounds > worked example > data-title attribute
-    "Check what each one is bonded to": "",
+    "Check what each one is bonded to": "각 원자가 무엇과 결합했는지 확인하기",
 
     // Functional groups and classes of compounds > worked example > p
-    "The neighbours decide which group it is.": "",
+    "The neighbours decide which group it is.": "이웃한 원자가 어떤 기인지를 정해요.",
 
     // Functional groups and classes of compounds > worked example > p
-    "One O carries an H and is bonded to a ring carbon. The other O is double-bonded to a carbon. That same carbon is bonded to the N.": "",
+    "One O carries an H and is bonded to a ring carbon. The other O is double-bonded to a carbon. That same carbon is bonded to the N.": "한 O에는 H가 붙어 있고 고리 탄소와 결합해요. 다른 O는 탄소와 이중 결합을 해요. 바로 그 탄소가 N과 결합해요.",
 
     // Functional groups and classes of compounds > worked example > data-title attribute
-    "Take the largest groups": "",
+    "Take the largest groups": "가장 큰 기 고르기",
 
     // Functional groups and classes of compounds > worked example > p
-    "C=O and N on the same carbon are one group, not two.": "",
+    "C=O and N on the same carbon are one group, not two.": "같은 탄소에 있는 C=O와 N은 기 2개가 아니라 기 하나예요.",
 
     // Functional groups and classes of compounds > worked example > p
-    "O–H is a <strong>hydroxyl</strong> group. C=O with N on the same carbon is an <strong>amido</strong> group. The ring is a <strong>phenyl</strong> group.": "",
+    "O–H is a <strong>hydroxyl</strong> group. C=O with N on the same carbon is an <strong>amido</strong> group. The ring is a <strong>phenyl</strong> group.": "O–H는 <strong>하이드록시기</strong>예요. 같은 탄소에 N이 있는 C=O는 <strong>아마이드기</strong>예요. 고리는 <strong>페닐기</strong>예요.",
 
     // Functional groups and classes of compounds > worked example > data-title attribute
-    "Answer with group names": "",
+    "Answer with group names": "기의 이름으로 답하기",
 
     // Functional groups and classes of compounds > worked example > data-label attribute
     // IUPAC names > worked example > data-title attribute
     // IUPAC names > worked example > data-label attribute
     // Structural isomers > worked example > data-label attribute
     // widget string (assets/js/widgets-s3-2.js)
-    "Check": "",
+    "Check": "확인",
 
     // Functional groups and classes of compounds > worked example > p
-    "The question asked for groups, so do not answer “alcohol” or “amide”.": "",
+    "The question asked for groups, so do not answer “alcohol” or “amide”.": "문제가 기를 물었으므로 “알코올”이나 “아마이드”라고 답하지 마세요.",
 
     // Functional groups and classes of compounds > worked example > p
-    "Hydroxyl, amido and phenyl.": "",
+    "Hydroxyl, amido and phenyl.": "하이드록시기(hydroxyl), 아마이드기(amido), 페닐기(phenyl).",
 
     // Functional groups and classes of compounds > not needed for IB > p
-    "Textbooks and websites list many more groups, such as nitrile, nitro, acyl chloride, acid anhydride and thiol. They are not in the IB guide. Phenols and arenes are not classes you have to learn either. Stop at the nine groups and twelve classes above.": "",
+    "Textbooks and websites list many more groups, such as nitrile, nitro, acyl chloride, acid anhydride and thiol. They are not in the IB guide. Phenols and arenes are not classes you have to learn either. Stop at the nine groups and twelve classes above.": "교과서와 웹사이트에는 나이트릴, 나이트로, 아실 클로라이드, 산 무수물, 싸이올처럼 훨씬 많은 기가 나와요. 이것들은 IB 지침에 없어요. 페놀과 아렌도 외워야 하는 종류가 아니에요. 위의 9가지 기와 12가지 종류까지만 알면 돼요.",
 
     // Functional groups and classes of compounds > data-title attribute
-    "Functional groups: quick check": "",
+    "Functional groups: quick check": "작용기: 빠른 확인",
 
     // Homologous series: families of compounds > data-toc attribute
     // widget string (assets/js/widgets-s3-2.js)
-    "Homologous series": "",
+    "Homologous series": "동족 계열",
 
     // Homologous series: families of compounds > h2
-    "Homologous series: families of compounds": "",
+    "Homologous series: families of compounds": "동족 계열: 화합물의 가족",
 
     // Homologous series: families of compounds > p
-    "Methane, ethane, propane and butane are like the steps of a staircase. Each step is one <span class=\"chem\">CH2</span> higher than the one before.": "",
+    "Methane, ethane, propane and butane are like the steps of a staircase. Each step is one <span class=\"chem\">CH2</span> higher than the one before.": "methane, ethane, propane, butane은 계단과 같아요. 각 계단은 바로 앞 계단보다 <span class=\"chem\">CH2</span> 하나만큼 높아요.",
 
     // Homologous series: families of compounds > data-label attribute
-    "methane": "",
+    "methane": "methane",
 
     // Homologous series: families of compounds > data-label attribute
-    "ethane": "",
+    "ethane": "ethane",
 
     // Homologous series: families of compounds > data-label attribute
     // IUPAC names > table > td
     // IUPAC names > table > data-label attribute
-    "propane": "",
+    "propane": "propane",
 
     // Homologous series: families of compounds > data-label attribute
     // Structural isomers > table > data-label attribute
     // Structural isomers > p
-    "butane": "",
+    "butane": "butane",
 
     // Homologous series: families of compounds > p
-    "A <dfn>homologous series</dfn> is a family of compounds in which each member differs from the next by a common structural unit, usually <span class=\"chem\">CH2</span>. Each series can be described by a general formula.": "",
+    "A <dfn>homologous series</dfn> is a family of compounds in which each member differs from the next by a common structural unit, usually <span class=\"chem\">CH2</span>. Each series can be described by a general formula.": "<dfn>동족 계열 <span class=\"en-term\">(homologous series)</span></dfn>은 각 구성원이 다음 구성원과 공통된 구조 단위(보통 <span class=\"chem\">CH2</span>)만큼 차이 나는 화합물의 가족이에요. 각 계열은 일반식으로 나타낼 수 있어요.",
 
     // Homologous series: families of compounds > p
-    "The members of one homologous series:": "",
+    "The members of one homologous series:": "한 동족 계열의 구성원은:",
 
     // Homologous series: families of compounds > li
-    "have the same functional group;": "",
+    "have the same functional group;": "같은 작용기를 가져요.",
 
     // Homologous series: families of compounds > li
-    "fit the same <dfn>general formula</dfn>, a formula written with <i>n</i> for the number of carbon atoms;": "",
+    "fit the same <dfn>general formula</dfn>, a formula written with <i>n</i> for the number of carbon atoms;": "같은 <dfn>일반식 <span class=\"en-term\">(general formula)</span></dfn>에 맞아요. 일반식은 탄소 원자 수를 <i>n</i>으로 나타낸 식이에요.",
 
     // Homologous series: families of compounds > li
-    "differ from the next member by one <span class=\"chem\">CH2</span>;": "",
+    "differ from the next member by one <span class=\"chem\">CH2</span>;": "다음 구성원과 <span class=\"chem\">CH2</span> 하나만큼 차이 나요.",
 
     // Homologous series: families of compounds > li
-    "show a gradual trend in physical properties, such as boiling point;": "",
+    "show a gradual trend in physical properties, such as boiling point;": "끓는점 같은 물리적 성질이 조금씩 변하는 경향을 보여요.",
 
     // Homologous series: families of compounds > li
-    "have similar chemical properties, because they have the same functional group.": "",
+    "have similar chemical properties, because they have the same functional group.": "같은 작용기를 가지므로 화학적 성질이 비슷해요.",
 
     // Homologous series: families of compounds > h3
-    "The twelve series you must identify": "",
+    "The twelve series you must identify": "찾을 줄 알아야 하는 12가지 계열",
 
     // Homologous series: families of compounds > table > caption
-    "Homologous series (classes of compounds)": "",
+    "Homologous series (classes of compounds)": "동족 계열(화합물의 종류)",
 
     // Homologous series: families of compounds > table > th
-    "Series": "",
-
-    // Homologous series: families of compounds > table > th
-    // widget string (assets/js/widgets-s3-2.js)
-    "Functional group": "",
+    "Series": "계열",
 
     // Homologous series: families of compounds > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "General formula": "",
-
-    // Homologous series: families of compounds > table > th
-    "A small member": "",
+    "Functional group": "작용기",
 
     // Homologous series: families of compounds > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "alkanes": "",
-
-    // Homologous series: families of compounds > table > td
-    "none (C–C and C–H only)": "",
-
-    // Homologous series: families of compounds > table > td
-    "ethane, <span class=\"chem\">CH3CH3</span>": "",
+    "General formula": "일반식",
 
     // Homologous series: families of compounds > table > th
-    "alkenes": "",
-
-    // Homologous series: families of compounds > table > td
-    "ethene, <span class=\"s32-f\" data-i18n=\"off\">CH<sub>2</sub>=CH<sub>2</sub></span>": "",
+    "A small member": "작은 구성원의 예",
 
     // Homologous series: families of compounds > table > th
-    "alkynes": "",
+    // widget string (assets/js/widgets-s3-2.js)
+    "alkanes": "알케인",
 
     // Homologous series: families of compounds > table > td
-    "ethyne, <span class=\"s32-f\" data-i18n=\"off\">CH≡CH</span>": "",
+    "none (C–C and C–H only)": "없음(C–C와 C–H만)",
 
     // Homologous series: families of compounds > table > td
-    "chloroethane, <span class=\"chem\">CH3CH2Cl</span>": "",
+    "ethane, <span class=\"chem\">CH3CH3</span>": "ethane, <span class=\"chem\">CH3CH3</span>",
+
+    // Homologous series: families of compounds > table > th
+    "alkenes": "알켄",
+
+    // Homologous series: families of compounds > table > td
+    "ethene, <span class=\"s32-f\" data-i18n=\"off\">CH<sub>2</sub>=CH<sub>2</sub></span>": "ethene, <span class=\"s32-f\" data-i18n=\"off\">CH<sub>2</sub>=CH<sub>2</sub></span>",
+
+    // Homologous series: families of compounds > table > th
+    "alkynes": "알카인",
+
+    // Homologous series: families of compounds > table > td
+    "ethyne, <span class=\"s32-f\" data-i18n=\"off\">CH≡CH</span>": "ethyne, <span class=\"s32-f\" data-i18n=\"off\">CH≡CH</span>",
+
+    // Homologous series: families of compounds > table > td
+    "chloroethane, <span class=\"chem\">CH3CH2Cl</span>": "chloroethane, <span class=\"chem\">CH3CH2Cl</span>",
 
     // Homologous series: families of compounds > table > td
     // Trends in boiling point and melting point > table > th
-    "ethanol, <span class=\"chem\">CH3CH2OH</span>": "",
+    "ethanol, <span class=\"chem\">CH3CH2OH</span>": "ethanol, <span class=\"chem\">CH3CH2OH</span>",
 
     // Homologous series: families of compounds > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "aldehydes": "",
+    "aldehydes": "알데하이드",
 
     // Homologous series: families of compounds > table > td
-    "carbonyl (end of chain)": "",
+    "carbonyl (end of chain)": "카보닐기(사슬 끝)",
 
     // Homologous series: families of compounds > table > td
     // Trends in boiling point and melting point > table > th
-    "ethanal, <span class=\"chem\">CH3CHO</span>": "",
+    "ethanal, <span class=\"chem\">CH3CHO</span>": "ethanal, <span class=\"chem\">CH3CHO</span>",
 
     // Homologous series: families of compounds > table > th
-    "ketones": "",
+    "ketones": "케톤",
 
     // Homologous series: families of compounds > table > td
-    "carbonyl (inside chain)": "",
+    "carbonyl (inside chain)": "카보닐기(사슬 안쪽)",
 
     // Homologous series: families of compounds > table > td
-    "propanone, <span class=\"chem\">CH3COCH3</span>": "",
+    "propanone, <span class=\"chem\">CH3COCH3</span>": "propanone, <span class=\"chem\">CH3COCH3</span>",
 
     // Homologous series: families of compounds > table > th
-    "ethers": "",
+    "ethers": "에테르",
 
     // Homologous series: families of compounds > table > td
-    "methoxymethane, <span class=\"chem\">CH3OCH3</span>": "",
+    "methoxymethane, <span class=\"chem\">CH3OCH3</span>": "methoxymethane, <span class=\"chem\">CH3OCH3</span>",
 
     // Homologous series: families of compounds > table > th
-    "amines": "",
+    "amines": "아민",
 
     // Homologous series: families of compounds > table > td
-    "ethanamine, <span class=\"chem\">CH3CH2NH2</span>": "",
+    "ethanamine, <span class=\"chem\">CH3CH2NH2</span>": "ethanamine, <span class=\"chem\">CH3CH2NH2</span>",
 
     // Homologous series: families of compounds > table > th
     "amides": "",

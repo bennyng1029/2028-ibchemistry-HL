@@ -636,640 +636,640 @@ S1.i18n.register('ko', 's1-4.q', {
         // EN: <span class="chem">P4O5</span>
         "<span class=\"chem\">P4O5</span>",
         // EN: <span class="chem">P4O10</span>
-        "",
+        "<span class=\"chem\">P4O10</span>",
       ],
       hints: [
         // EN: Find the mass of one empirical formula unit, <span class="chem">P2O5</span>.
-        "",
+        "실험식 단위 <span class=\"chem\">P2O5</span> 1개의 질량을 구하세요.",
         // EN: Divide the molar mass by the empirical formula mass. The result is how many empirical units make one molecule.
-        "",
+        "몰 질량을 실험식량으로 나누세요. 그 결과가 분자 1개를 이루는 실험식 단위의 개수예요.",
       ],
       // EN: <p>Find the mass of one empirical formula unit.</p><div class="worked__math"><i>M</i>(<span class="chem">P2O5</span>) = (2 × 30.97) + (5 × 16.00)<br>&nbsp;&nbsp;= 141.94 <span class="unit">g mol-1</span></div><div class="worked__math">Number of units = <span class="frac"><span>283.88 <span class="unit">g mol-1</span></span><span>141.94 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 2.00</div><div class="worked__math">Molecular formula = 2 × <span class="chem">P2O5</span><br>&nbsp;&nbsp;= <strong><span class="chem">P4O10</span></strong></div>
-      solution: "",
+      solution: "<p>실험식 단위 1개의 질량을 구하세요.</p><div class=\"worked__math\"><i>M</i>(<span class=\"chem\">P2O5</span>) = (2 × 30.97) + (5 × 16.00)<br>&nbsp;&nbsp;= 141.94 <span class=\"unit\">g mol-1</span></div><div class=\"worked__math\">단위 개수 = <span class=\"frac\"><span>283.88 <span class=\"unit\">g mol-1</span></span><span>141.94 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 2.00</div><div class=\"worked__math\">분자식 = 2 × <span class=\"chem\">P2O5</span><br>&nbsp;&nbsp;= <strong><span class=\"chem\">P4O10</span></strong></div>",
       misconception: {
         // EN (option A): This is the empirical formula. Its mass is 141.94, which is only half of the molar mass, so the molecule contains two empirical units.
-        "0": "",
+        "0": "이것은 실험식이에요. 질량이 141.94로 몰 질량의 절반밖에 안 되므로, 분자에는 실험식 단위가 2개 들어 있어요.",
         // EN (option B): You doubled only the oxygen. Every subscript in the empirical formula must be multiplied by the same whole number.
-        "1": "",
+        "1": "산소만 2배 했어요. 실험식의 모든 아래 첨자에 같은 정수를 곱해야 해요.",
         // EN (option C): You doubled only the phosphorus. Every subscript in the empirical formula must be multiplied by the same whole number.
-        "2": "",
+        "2": "인만 2배 했어요. 실험식의 모든 아래 첨자에 같은 정수를 곱해야 해요.",
       },
     },
 
     // ── s1-4-q027 · numeric · exam · SL · Structure 1.4.4 · 3 marks
     "s1-4-q027": {
       // EN: <p>7.15 <span class="unit">g</span> of hydrated sodium carbonate, <span class="chem">Na2CO3</span>·<i>x</i><span class="chem">H2O</span>, is heated to constant mass. The anhydrous <span class="chem">Na2CO3</span> left has a mass of 2.65 <span class="unit">g</span>.</p><p>Determine the whole-number value of <i>x</i>.</p><p><i>M</i>(<span class="chem">Na2CO3</span>) = 105.99 <span class="unit">g mol-1</span>, <i>M</i>(<span class="chem">H2O</span>) = 18.02 <span class="unit">g mol-1</span></p>
-      stem: "",
+      stem: "<p>탄산 나트륨 수화물(<span class=\"chem\">Na2CO3</span>·<i>x</i><span class=\"chem\">H2O</span>) 7.15 <span class=\"unit\">g</span>을 질량이 일정해질 때까지 가열했어요. 남은 무수 <span class=\"chem\">Na2CO3</span>의 질량은 2.65 <span class=\"unit\">g</span>이에요.</p><p><i>x</i>의 정숫값을 구하시오 (determine).</p><p><i>M</i>(<span class=\"chem\">Na2CO3</span>) = 105.99 <span class=\"unit\">g mol-1</span>, <i>M</i>(<span class=\"chem\">H2O</span>) = 18.02 <span class=\"unit\">g mol-1</span></p>",
       hints: [
         // EN: This is an empirical formula problem with two "building blocks": <span class="chem">Na2CO3</span> and <span class="chem">H2O</span>. The mass lost on heating is the mass of water.
-        "",
+        "이것은 “구성 단위”가 두 개(<span class=\"chem\">Na2CO3</span>와 <span class=\"chem\">H2O</span>)인 실험식 문제예요. 가열해서 줄어든 질량이 물의 질량이에요.",
         // EN: Find the amount of each with <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span>. Use 2.65 g for <span class="chem">Na2CO3</span> and the mass lost for <span class="chem">H2O</span>.
-        "",
+        "<span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>M</i></span>로 각각의 양을 구하세요. <span class=\"chem\">Na2CO3</span>는 2.65 g, <span class=\"chem\">H2O</span>는 줄어든 질량을 쓰세요.",
         // EN: <i>x</i> = <i>n</i>(<span class="chem">H2O</span>) ÷ <i>n</i>(<span class="chem">Na2CO3</span>).
-        "",
+        "<i>x</i> = <i>n</i>(<span class=\"chem\">H2O</span>) ÷ <i>n</i>(<span class=\"chem\">Na2CO3</span>).",
       ],
       // EN: <div class="worked__math"><i>m</i>(<span class="chem">H2O</span>) = 7.15 <span class="unit">g</span> − 2.65 <span class="unit">g</span><br>&nbsp;&nbsp;= 4.50 <span class="unit">g</span> &nbsp; (M1)</div><div class="worked__math"><i>n</i>(<span class="chem">Na2CO3</span>) = <span class="frac"><span>2.65 <span class="unit">g</span></span><span>105.99 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.02500 <span class="unit">mol</span></div><div class="worked__math"><i>n</i>(<span class="chem">H2O</span>) = <span class="frac"><span>4.50 <span class="unit">g</span></span><span>18.02 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.2497 <span class="unit">mol</span> &nbsp; (M2)</div><div class="worked__math"><i>x</i> = <span class="frac"><span>0.2497 <span class="unit">mol</span></span><span>0.02500 <span class="unit">mol</span></span></span><br>&nbsp;&nbsp;= 9.99 &nbsp; (M3)</div><p>To the nearest whole number, <strong><i>x</i> = 10</strong>.</p><p>Named slips: dividing the masses (4.50 ÷ 2.65 = 1.7) skips the conversion to moles. Using 7.15 g as the mass of <span class="chem">Na2CO3</span> gives 3.7, because 7.15 g still includes the water.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>m</i>(<span class=\"chem\">H2O</span>) = 7.15 <span class=\"unit\">g</span> − 2.65 <span class=\"unit\">g</span><br>&nbsp;&nbsp;= 4.50 <span class=\"unit\">g</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>n</i>(<span class=\"chem\">Na2CO3</span>) = <span class=\"frac\"><span>2.65 <span class=\"unit\">g</span></span><span>105.99 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.02500 <span class=\"unit\">mol</span></div><div class=\"worked__math\"><i>n</i>(<span class=\"chem\">H2O</span>) = <span class=\"frac\"><span>4.50 <span class=\"unit\">g</span></span><span>18.02 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.2497 <span class=\"unit\">mol</span> &nbsp; (M2)</div><div class=\"worked__math\"><i>x</i> = <span class=\"frac\"><span>0.2497 <span class=\"unit\">mol</span></span><span>0.02500 <span class=\"unit\">mol</span></span></span><br>&nbsp;&nbsp;= 9.99 &nbsp; (M3)</div><p>가장 가까운 정수로 나타내면 <strong><i>x</i> = 10</strong>이에요.</p><p>흔한 실수: 질량끼리 나누면(4.50 ÷ 2.65 = 1.7) 몰로 바꾸는 단계를 건너뛴 거예요. 7.15 g을 <span class=\"chem\">Na2CO3</span>의 질량으로 쓰면 3.7이 나와요. 7.15 g에는 아직 물이 포함되어 있기 때문이에요.</p>",
     },
 
     // ── s1-4-q028 · short · exam · SL · Structure 1.4.4 · 2 marks
     "s1-4-q028": {
       // EN: <p>A student heats a hydrated salt in a crucible to find the amount of water of crystallization. The method says: "heat to constant mass".</p><p>Describe what "heat to constant mass" means in practice, and explain why it is done.</p>
-      stem: "",
+      stem: "<p>한 학생이 도가니에 수화된 염을 넣고 가열해서 결정수의 양을 구하려고 해요. 실험 방법에는 “질량이 일정해질 때까지 가열한다”라고 쓰여 있어요.</p><p>“질량이 일정해질 때까지 가열한다”가 실제로 무엇을 뜻하는지 서술하시오 (describe). 그리고 왜 그렇게 하는지 설명하시오 (explain).</p>",
       hints: [
         // EN: How can you tell, using only a balance, that nothing more is leaving the crucible?
-        "",
+        "저울만 써서, 도가니에서 더 이상 빠져나가는 것이 없다는 것을 어떻게 알 수 있을까요?",
         // EN: Think about what would happen to your value for the water if some water was still in the solid.
-        "",
+        "고체에 물이 아직 남아 있다면 물의 양을 구한 값이 어떻게 될지 생각해 보세요.",
       ],
       // EN: <p>One weighing cannot tell you whether water is still being lost. If the mass after a second heating is the same as after the first, no more water is leaving. If you stop too early, the mass lost is too small, so the calculated amount of water is too low.</p>
-      solution: "",
+      solution: "<p>한 번 재는 것만으로는 물이 아직 빠져나가고 있는지 알 수 없어요. 두 번째로 가열한 뒤의 질량이 첫 번째와 같으면 더 이상 물이 빠져나가지 않는 거예요. 너무 일찍 멈추면 줄어든 질량이 너무 작아서, 계산한 물의 양도 너무 작게 나와요.</p>",
       // EN: <p>Heat, cool and weigh the crucible, then repeat the heating and weighing until two weighings in a row give the same mass. This shows that all the water of crystallization has been removed, so the mass lost is the full mass of water.</p>
-      answer: "",
+      answer: "<p>도가니를 가열하고 식힌 뒤 질량을 재요. 그다음 연속한 두 번의 측정값이 같아질 때까지 가열과 측정을 되풀이해요. 그러면 결정수가 모두 제거되었으므로 줄어든 질량이 물의 전체 질량이에요.</p>",
       markscheme: [
         // EN: Heat, (cool,) weigh and repeat until the mass no longer changes / two consecutive readings are the same.
-        "",
+        "가열하고 (식히고) 질량을 잰 뒤, 질량이 더 이상 변하지 않을 때까지 / 연속한 두 측정값이 같을 때까지 되풀이한다.",
         // EN: To make sure that all of the water has been removed / the dehydration is complete. (Accept: otherwise the mass of water, and so the value of x, would be too low.)
-        "",
+        "물이 모두 제거되었는지 / 탈수가 완전히 일어났는지 확인하기 위해서. (인정: 그렇지 않으면 물의 질량과 x의 값이 너무 작게 나온다.)",
       ],
     },
 
     // ── s1-4-q029 · short · challenge · SL · Structure 1.4.4 · 4 marks
     "s1-4-q029": {
       // EN: <p>A colourless liquid contains only carbon, hydrogen and oxygen. Complete combustion of 1.35 <span class="unit">g</span> of the liquid gives 2.64 <span class="unit">g</span> of <span class="chem">CO2</span> and 1.35 <span class="unit">g</span> of <span class="chem">H2O</span>. Its molar mass is 90.14 <span class="unit">g mol-1</span>.</p><p>Determine the empirical formula and the molecular formula of the liquid. Show your working.</p><p><i>M</i>(<span class="chem">CO2</span>) = 44.01 <span class="unit">g mol-1</span>, <i>M</i>(<span class="chem">H2O</span>) = 18.02 <span class="unit">g mol-1</span>. <i>A</i><sub>r</sub>: C = 12.01, H = 1.01, O = 16.00.</p>
-      stem: "",
+      stem: "<p>어떤 무색 액체는 탄소, 수소, 산소만 포함해요. 이 액체 1.35 <span class=\"unit\">g</span>을 완전 연소시키면 <span class=\"chem\">CO2</span> 2.64 <span class=\"unit\">g</span>과 <span class=\"chem\">H2O</span> 1.35 <span class=\"unit\">g</span>이 생겨요. 이 액체의 몰 질량은 90.14 <span class=\"unit\">g mol-1</span>이에요.</p><p>이 액체의 실험식과 분자식을 구하시오 (determine). 풀이 과정을 보이세요.</p><p><i>M</i>(<span class=\"chem\">CO2</span>) = 44.01 <span class=\"unit\">g mol-1</span>, <i>M</i>(<span class=\"chem\">H2O</span>) = 18.02 <span class=\"unit\">g mol-1</span>. <i>A</i><sub>r</sub>: C = 12.01, H = 1.01, O = 16.00.</p>",
       hints: [
         // EN: Split the task: first the empirical formula from the combustion data, then the molecular formula from the molar mass.
-        "",
+        "문제를 나누세요: 먼저 연소 자료로 실험식을 구하고, 그다음 몰 질량으로 분자식을 구해요.",
         // EN: <i>n</i>(C) = <i>n</i>(<span class="chem">CO2</span>), <i>n</i>(H) = 2 × <i>n</i>(<span class="chem">H2O</span>). Find the mass of O by difference.
-        "",
+        "<i>n</i>(C) = <i>n</i>(<span class=\"chem\">CO2</span>), <i>n</i>(H) = 2 × <i>n</i>(<span class=\"chem\">H2O</span>). O의 질량은 차이로 구하세요.",
         // EN: Compare the molar mass with the mass of one empirical formula unit. Multiply every subscript by the ratio.
-        "",
+        "몰 질량을 실험식 단위 1개의 질량과 비교하세요. 모든 아래 첨자에 그 비를 곱하세요.",
       ],
       // EN: <div class="worked__math"><i>n</i>(C) = <span class="frac"><span>2.64 <span class="unit">g</span></span><span>44.01 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.05999 <span class="unit">mol</span></div><div class="worked__math"><i>n</i>(H) = 2 × <span class="frac"><span>1.35 <span class="unit">g</span></span><span>18.02 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.1498 <span class="unit">mol</span> &nbsp; (M1)</div><div class="worked__math"><i>m</i>(C) = 0.05999 <span class="unit">mol</span> × 12.01 <span class="unit">g mol-1</span><br>&nbsp;&nbsp;= 0.7204 <span class="unit">g</span></div><div class="worked__math"><i>m</i>(H) = 0.1498 <span class="unit">mol</span> × 1.01 <span class="unit">g mol-1</span><br>&nbsp;&nbsp;= 0.1513 <span class="unit">g</span></div><div class="worked__math"><i>m</i>(O) = 1.35 <span class="unit">g</span> − 0.7204 <span class="unit">g</span> − 0.1513 <span class="unit">g</span><br>&nbsp;&nbsp;= 0.4782 <span class="unit">g</span></div><div class="worked__math"><i>n</i>(O) = <span class="frac"><span>0.4782 <span class="unit">g</span></span><span>16.00 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.02989 <span class="unit">mol</span> &nbsp; (M2)</div><p>Divide each amount by the smallest (0.02989 mol):</p><div class="worked__math">C : H : O = 2.01 : 5.01 : 1.00</div><p>Empirical formula: <strong><span class="chem">C2H5O</span></strong> (M3). Now compare its mass with the molar mass.</p><div class="worked__math"><i>M</i>(<span class="chem">C2H5O</span>) = (2 × 12.01) + (5 × 1.01)<br>&nbsp;&nbsp;&nbsp;&nbsp;+ 16.00<br>&nbsp;&nbsp;= 45.07 <span class="unit">g mol-1</span></div><div class="worked__math">Number of units = <span class="frac"><span>90.14 <span class="unit">g mol-1</span></span><span>45.07 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 2.00</div><p>Molecular formula = 2 × <span class="chem">C2H5O</span> = <strong><span class="chem">C4H10O2</span></strong> (M4).</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>n</i>(C) = <span class=\"frac\"><span>2.64 <span class=\"unit\">g</span></span><span>44.01 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.05999 <span class=\"unit\">mol</span></div><div class=\"worked__math\"><i>n</i>(H) = 2 × <span class=\"frac\"><span>1.35 <span class=\"unit\">g</span></span><span>18.02 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.1498 <span class=\"unit\">mol</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>m</i>(C) = 0.05999 <span class=\"unit\">mol</span> × 12.01 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= 0.7204 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>m</i>(H) = 0.1498 <span class=\"unit\">mol</span> × 1.01 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= 0.1513 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>m</i>(O) = 1.35 <span class=\"unit\">g</span> − 0.7204 <span class=\"unit\">g</span> − 0.1513 <span class=\"unit\">g</span><br>&nbsp;&nbsp;= 0.4782 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>n</i>(O) = <span class=\"frac\"><span>0.4782 <span class=\"unit\">g</span></span><span>16.00 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.02989 <span class=\"unit\">mol</span> &nbsp; (M2)</div><p>각 양을 가장 작은 값(0.02989 mol)으로 나누세요:</p><div class=\"worked__math\">C : H : O = 2.01 : 5.01 : 1.00</div><p>실험식: <strong><span class=\"chem\">C2H5O</span></strong> (M3). 이제 그 질량을 몰 질량과 비교해요.</p><div class=\"worked__math\"><i>M</i>(<span class=\"chem\">C2H5O</span>) = (2 × 12.01) + (5 × 1.01)<br>&nbsp;&nbsp;&nbsp;&nbsp;+ 16.00<br>&nbsp;&nbsp;= 45.07 <span class=\"unit\">g mol-1</span></div><div class=\"worked__math\">단위 개수 = <span class=\"frac\"><span>90.14 <span class=\"unit\">g mol-1</span></span><span>45.07 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 2.00</div><p>분자식 = 2 × <span class=\"chem\">C2H5O</span> = <strong><span class=\"chem\">C4H10O2</span></strong> (M4).</p>",
       // EN: <p><i>n</i>(C) = 2.64 ÷ 44.01 = 0.0600 mol; <i>n</i>(H) = 2 × (1.35 ÷ 18.02) = 0.150 mol.</p><p><i>m</i>(O) = 1.35 − (0.0600 × 12.01) − (0.150 × 1.01) = 0.478 g; <i>n</i>(O) = 0.0299 mol.</p><p>C : H : O = 2 : 5 : 1, so the empirical formula is <span class="chem">C2H5O</span> (mass 45.07). 90.14 ÷ 45.07 = 2, so the molecular formula is <span class="chem">C4H10O2</span>.</p>
-      answer: "",
+      answer: "<p><i>n</i>(C) = 2.64 ÷ 44.01 = 0.0600 mol; <i>n</i>(H) = 2 × (1.35 ÷ 18.02) = 0.150 mol.</p><p><i>m</i>(O) = 1.35 − (0.0600 × 12.01) − (0.150 × 1.01) = 0.478 g; <i>n</i>(O) = 0.0299 mol.</p><p>C : H : O = 2 : 5 : 1이므로 실험식은 <span class=\"chem\">C2H5O</span>(질량 45.07)예요. 90.14 ÷ 45.07 = 2이므로 분자식은 <span class=\"chem\">C4H10O2</span>예요.</p>",
       markscheme: [
         // EN: M1: n(C) = 0.0600 mol AND n(H) = 0.150 mol. (Accept masses: 0.720 g of C and 0.151 g of H.)
-        "",
+        "M1: n(C) = 0.0600 mol 그리고 n(H) = 0.150 mol. (질량도 인정: C 0.720 g, H 0.151 g.)",
         // EN: M2: mass of O by difference = 0.478 g, OR n(O) = 0.0299 mol.
-        "",
+        "M2: 차이로 구한 O의 질량 = 0.478 g, 또는 n(O) = 0.0299 mol.",
         // EN: M3: empirical formula C₂H₅O.
-        "",
+        "M3: 실험식 C₂H₅O.",
         // EN: M4: 90.14 ÷ 45.07 = 2, so molecular formula C₄H₁₀O₂. (Allow error carried forward from your empirical formula.)
-        "",
+        "M4: 90.14 ÷ 45.07 = 2이므로 분자식은 C₄H₁₀O₂. (앞에서 구한 실험식의 오류는 이어서 인정(ECF).)",
       ],
     },
 
     // ── s1-4-q030 · mcq · challenge · SL · Structure 1.4.4 · 1 mark
     "s1-4-q030": {
       // EN: <p>An oxide of iron contains 72.4 % iron and 27.6 % oxygen by mass. A student works out its empirical formula.</p><ol><li>Fe: 72.4 ÷ 55.85 = 1.296 &nbsp; O: 27.6 ÷ 16.00 = 1.725</li><li>Divide by the smallest: Fe 1.296 ÷ 1.296 = 1.00 &nbsp; O 1.725 ÷ 1.296 = 1.33</li><li>Round to whole numbers: Fe = 1, O = 1</li><li>Empirical formula: <span class="chem">FeO</span></li></ol><p>Which statement about this working is correct?</p>
-      stem: "",
+      stem: "<p>어떤 철 산화물은 질량으로 철 72.4 %, 산소 27.6 %를 포함해요. 한 학생이 실험식을 다음과 같이 구했어요.</p><ol><li>Fe: 72.4 ÷ 55.85 = 1.296 &nbsp; O: 27.6 ÷ 16.00 = 1.725</li><li>가장 작은 값으로 나누기: Fe 1.296 ÷ 1.296 = 1.00 &nbsp; O 1.725 ÷ 1.296 = 1.33</li><li>정수로 반올림하기: Fe = 1, O = 1</li><li>실험식: <span class=\"chem\">FeO</span></li></ol><p>이 풀이에 대한 설명으로 옳은 것은 무엇인가요?</p>",
       options: [
         // EN: Line 1 is wrong: the percentages should be divided by the atomic numbers.
-        "",
+        "1번 줄이 틀렸다: 백분율을 원자 번호로 나누어야 한다.",
         // EN: Line 2 is wrong: the student should divide by the largest value.
-        "",
+        "2번 줄이 틀렸다: 가장 큰 값으로 나누어야 한다.",
         // EN: Line 3 is wrong: 1.33 is too far from a whole number to round.
-        "",
+        "3번 줄이 틀렸다: 1.33은 정수와 너무 멀어서 반올림할 수 없다.",
         // EN: The working is correct and the formula is <span class="chem">FeO</span>.
-        "",
+        "풀이가 맞고 화학식은 <span class=\"chem\">FeO</span>이다.",
       ],
       hints: [
         // EN: Only round when a value is very close to a whole number (for example 1.98 or 3.02).
-        "",
+        "값이 정수에 아주 가까울 때만 반올림하세요(예: 1.98이나 3.02).",
         // EN: 1.33 is a recognizable fraction: 1⅓. What can you multiply by to clear a third?
-        "",
+        "1.33은 알아볼 수 있는 분수예요: 1⅓. 3분의 1을 없애려면 무엇을 곱하면 될까요?",
       ],
       // EN: <p>Lines 1 and 2 are correct. The error is in line 3. A ratio of 1 : 1.33 must be multiplied up, not rounded.</p><div class="worked__math">Fe : O = 1.00 : 1.33</div><div class="worked__math">× 3: Fe : O = 3.00 : 3.99 ≈ 3 : 4</div><p>The empirical formula is <strong><span class="chem">Fe3O4</span></strong>. Look out for .5 (× 2), .33 or .67 (× 3) and .25 or .75 (× 4).</p>
-      solution: "",
+      solution: "<p>1번과 2번 줄은 맞아요. 오류는 3번 줄에 있어요. 1 : 1.33이라는 비는 반올림하지 말고 곱해서 정수로 만들어야 해요.</p><div class=\"worked__math\">Fe : O = 1.00 : 1.33</div><div class=\"worked__math\">× 3: Fe : O = 3.00 : 3.99 ≈ 3 : 4</div><p>실험식은 <strong><span class=\"chem\">Fe3O4</span></strong>예요. .5(× 2), .33 또는 .67(× 3), .25 또는 .75(× 4)를 잘 살펴보세요.</p>",
       misconception: {
         // EN (option A): Dividing by <i>A</i><sub>r</sub> is right. It converts mass into amount in moles. Atomic number counts protons and is not used here.
-        "0": "",
+        "0": "<i>A</i><sub>r</sub>로 나누는 것은 맞아요. 질량을 몰 단위의 양으로 바꿔 줘요. 원자 번호는 양성자 수이고 여기서는 쓰지 않아요.",
         // EN (option B): Dividing by the smallest value is the standard method. It sets the smallest amount to 1 so that the other values are easy to compare.
-        "1": "",
+        "1": "가장 작은 값으로 나누는 것은 표준 방법이에요. 가장 작은 양을 1로 맞춰서 다른 값들을 비교하기 쉽게 해 줘요.",
         // EN (option D): Check the last step. 1.33 is one and a third, not about 1. <span class="chem">FeO</span> would contain 77.7 % iron, which does not match the data.
-        "3": "",
+        "3": "마지막 단계를 확인하세요. 1.33은 1과 3분의 1이지, 1에 가까운 값이 아니에요. <span class=\"chem\">FeO</span>라면 철이 77.7 %여야 하는데, 자료와 맞지 않아요.",
       },
     },
 
     // ── s1-4-q031 · numeric · challenge · SL · Structure 1.4.4 · 3 marks
     "s1-4-q031": {
       // EN: <p>A metal M forms a chloride with the formula <span class="chem">MCl2</span>. The chloride contains 74.47 % chlorine by mass.</p><p>Calculate the relative atomic mass of M. Give your answer to 3 significant figures.</p><p><i>A</i><sub>r</sub>(Cl) = 35.45</p>
-      stem: "",
+      stem: "<p>금속 M은 화학식이 <span class=\"chem\">MCl2</span>인 염화물을 만들어요. 이 염화물은 질량으로 염소를 74.47 % 포함해요.</p><p>M의 상대 원자 질량을 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p><p><i>A</i><sub>r</sub>(Cl) = 35.45</p>",
       hints: [
         // EN: This is percentage composition in reverse. You know the formula and the percentage, and you want a molar mass.
-        "",
+        "이것은 질량 백분율 조성을 거꾸로 푸는 문제예요. 화학식과 백분율을 알고, 몰 질량을 구하려는 거예요.",
         // EN: In one mole of <span class="chem">MCl2</span> there are 2 × 35.45 = 70.90 g of chlorine. That 70.90 g is 74.47 % of the molar mass.
-        "",
+        "<span class=\"chem\">MCl2</span> 1몰에는 염소가 2 × 35.45 = 70.90 g 있어요. 이 70.90 g이 몰 질량의 74.47 %예요.",
         // EN: Molar mass = 70.90 ÷ 0.7447. Then subtract the chlorine to leave M.
-        "",
+        "몰 질량 = 70.90 ÷ 0.7447. 그다음 염소를 빼면 M이 남아요.",
       ],
       // EN: <p>One mole of <span class="chem">MCl2</span> contains 2 mol of Cl.</p><div class="worked__math"><i>m</i>(Cl) = 2 × 35.45 <span class="unit">g</span><br>&nbsp;&nbsp;= 70.90 <span class="unit">g</span> &nbsp; (M1)</div><div class="worked__math"><i>M</i>(<span class="chem">MCl2</span>) = <span class="frac"><span>70.90 <span class="unit">g mol-1</span></span><span>0.7447</span></span><br>&nbsp;&nbsp;= 95.21 <span class="unit">g mol-1</span> &nbsp; (M2)</div><div class="worked__math"><i>A</i><sub>r</sub>(M) = 95.21 − 70.90<br>&nbsp;&nbsp;= 24.31<br>&nbsp;&nbsp;= <strong>24.3</strong> (no units) &nbsp; (M3)</div><p>The data booklet value for magnesium is 24.31, so M is magnesium. Named slips: 12.2 means you used one Cl instead of two. 95.2 means you did not subtract the chlorine.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">MCl2</span> 1몰에는 Cl이 2 mol 들어 있어요.</p><div class=\"worked__math\"><i>m</i>(Cl) = 2 × 35.45 <span class=\"unit\">g</span><br>&nbsp;&nbsp;= 70.90 <span class=\"unit\">g</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>M</i>(<span class=\"chem\">MCl2</span>) = <span class=\"frac\"><span>70.90 <span class=\"unit\">g mol-1</span></span><span>0.7447</span></span><br>&nbsp;&nbsp;= 95.21 <span class=\"unit\">g mol-1</span> &nbsp; (M2)</div><div class=\"worked__math\"><i>A</i><sub>r</sub>(M) = 95.21 − 70.90<br>&nbsp;&nbsp;= 24.31<br>&nbsp;&nbsp;= <strong>24.3</strong> (단위 없음) &nbsp; (M3)</div><p>데이터 부클릿에서 마그네슘의 값은 24.31이므로 M은 마그네슘이에요. 흔한 실수: 12.2가 나왔다면 Cl을 2개가 아니라 1개로 쓴 거예요. 95.2가 나왔다면 염소를 빼지 않은 거예요.</p>",
     },
 
     // ── s1-4-q032 · mcq · challenge · SL · Structure 1.4.4 · 1 mark
     "s1-4-q032": {
       // EN: <p>0.920 <span class="unit">g</span> of a compound of carbon, hydrogen and oxygen burns completely to give 1.76 <span class="unit">g</span> of <span class="chem">CO2</span> and 1.08 <span class="unit">g</span> of <span class="chem">H2O</span>. A student starts to find the empirical formula.</p><ol><li><i>n</i>(C) = <i>n</i>(<span class="chem">CO2</span>) = 1.76 ÷ 44.01 = 0.0400 <span class="unit">mol</span></li><li><i>n</i>(H) = <i>n</i>(<span class="chem">H2O</span>) = 1.08 ÷ 18.02 = 0.0599 <span class="unit">mol</span></li><li><i>m</i>(O) = 0.920 − (0.0400 × 12.01) − (0.0599 × 1.01) = 0.379 <span class="unit">g</span></li><li><i>n</i>(O) = 0.379 ÷ 16.00 = 0.0237 <span class="unit">mol</span></li></ol><p>Which line contains the first error?</p>
-      stem: "",
+      stem: "<p>탄소, 수소, 산소로 된 화합물 0.920 <span class=\"unit\">g</span>이 완전 연소해서 <span class=\"chem\">CO2</span> 1.76 <span class=\"unit\">g</span>과 <span class=\"chem\">H2O</span> 1.08 <span class=\"unit\">g</span>이 생겼어요. 한 학생이 실험식을 구하기 시작했어요.</p><ol><li><i>n</i>(C) = <i>n</i>(<span class=\"chem\">CO2</span>) = 1.76 ÷ 44.01 = 0.0400 <span class=\"unit\">mol</span></li><li><i>n</i>(H) = <i>n</i>(<span class=\"chem\">H2O</span>) = 1.08 ÷ 18.02 = 0.0599 <span class=\"unit\">mol</span></li><li><i>m</i>(O) = 0.920 − (0.0400 × 12.01) − (0.0599 × 1.01) = 0.379 <span class=\"unit\">g</span></li><li><i>n</i>(O) = 0.379 ÷ 16.00 = 0.0237 <span class=\"unit\">mol</span></li></ol><p>처음으로 오류가 있는 줄은 어느 것인가요?</p>",
       options: [
         // EN: Line 1
-        "",
+        "1번 줄",
         // EN: Line 2
-        "",
+        "2번 줄",
         // EN: Line 3
-        "",
+        "3번 줄",
         // EN: Line 4
-        "",
+        "4번 줄",
       ],
       hints: [
         // EN: Check each "<i>n</i>(element) = <i>n</i>(product)" step against the formula of the product.
-        "",
+        "“<i>n</i>(원소) = <i>n</i>(생성물)” 단계마다 생성물의 화학식과 맞는지 확인하세요.",
         // EN: How many hydrogen atoms are in one molecule of <span class="chem">H2O</span>?
-        "",
+        "<span class=\"chem\">H2O</span> 분자 1개에는 수소 원자가 몇 개 있나요?",
       ],
       // EN: <p>The first error is in line 2. Each <span class="chem">H2O</span> molecule contains 2 hydrogen atoms.</p><div class="worked__math"><i>n</i>(H) = 2 × <i>n</i>(<span class="chem">H2O</span>)<br>&nbsp;&nbsp;= 2 × 0.0599 <span class="unit">mol</span><br>&nbsp;&nbsp;= 0.120 <span class="unit">mol</span></div><div class="worked__math"><i>m</i>(C) = 0.0400 <span class="unit">mol</span> × 12.01 <span class="unit">g mol-1</span><br>&nbsp;&nbsp;= 0.480 <span class="unit">g</span></div><div class="worked__math"><i>m</i>(H) = 0.120 <span class="unit">mol</span> × 1.01 <span class="unit">g mol-1</span><br>&nbsp;&nbsp;= 0.121 <span class="unit">g</span></div><div class="worked__math"><i>m</i>(O) = 0.920 <span class="unit">g</span> − 0.480 <span class="unit">g</span> − 0.121 <span class="unit">g</span><br>&nbsp;&nbsp;= 0.319 <span class="unit">g</span></div><div class="worked__math"><i>n</i>(O) = <span class="frac"><span>0.319 <span class="unit">g</span></span><span>16.00 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0199 <span class="unit">mol</span></div><div class="worked__math">C : H : O = 0.0400 : 0.120 : 0.0199<br>&nbsp;&nbsp;= 2 : 6 : 1</div><p>The correct empirical formula is <span class="chem">C2H6O</span>. In an exam, lines 3 and 4 would still earn credit as "error carried forward", which is why showing working matters.</p>
-      solution: "",
+      solution: "<p>처음 오류는 2번 줄에 있어요. <span class=\"chem\">H2O</span> 분자 1개에는 수소 원자가 2개 있어요.</p><div class=\"worked__math\"><i>n</i>(H) = 2 × <i>n</i>(<span class=\"chem\">H2O</span>)<br>&nbsp;&nbsp;= 2 × 0.0599 <span class=\"unit\">mol</span><br>&nbsp;&nbsp;= 0.120 <span class=\"unit\">mol</span></div><div class=\"worked__math\"><i>m</i>(C) = 0.0400 <span class=\"unit\">mol</span> × 12.01 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= 0.480 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>m</i>(H) = 0.120 <span class=\"unit\">mol</span> × 1.01 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= 0.121 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>m</i>(O) = 0.920 <span class=\"unit\">g</span> − 0.480 <span class=\"unit\">g</span> − 0.121 <span class=\"unit\">g</span><br>&nbsp;&nbsp;= 0.319 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>n</i>(O) = <span class=\"frac\"><span>0.319 <span class=\"unit\">g</span></span><span>16.00 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0199 <span class=\"unit\">mol</span></div><div class=\"worked__math\">C : H : O = 0.0400 : 0.120 : 0.0199<br>&nbsp;&nbsp;= 2 : 6 : 1</div><p>올바른 실험식은 <span class=\"chem\">C2H6O</span>예요. 시험에서는 3번과 4번 줄도 “오류 이어 인정(error carried forward)”으로 점수를 받을 수 있어요. 그래서 풀이 과정을 보이는 것이 중요해요.</p>",
       misconception: {
         // EN (option A): Line 1 is correct. Each <span class="chem">CO2</span> molecule contains one carbon atom, so <i>n</i>(C) = <i>n</i>(<span class="chem">CO2</span>).
-        "0": "",
+        "0": "1번 줄은 맞아요. <span class=\"chem\">CO2</span> 분자 1개에는 탄소 원자가 1개 있으므로 <i>n</i>(C) = <i>n</i>(<span class=\"chem\">CO2</span>)예요.",
         // EN (option C): The method in line 3 is correct: oxygen is found by difference. Its value is wrong only because it uses a wrong number from an earlier line. Find where that number came from.
-        "2": "",
+        "2": "3번 줄의 방법은 맞아요: 산소는 차이로 구해요. 값이 틀린 것은 앞 줄의 틀린 수를 썼기 때문이에요. 그 수가 어디서 왔는지 찾아보세요.",
         // EN (option D): The method in line 4 is correct: <i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub> with 16.00 for oxygen atoms. The wrong value was carried forward from an earlier line.
-        "3": "",
+        "3": "4번 줄의 방법은 맞아요: 산소 원자에 16.00을 써서 <i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub>예요. 틀린 값은 앞 줄에서 이어져 온 거예요.",
       },
     },
 
     // ── s1-4-q033 · numeric · foundation · SL · Structure 1.4.5 · 1 mark
     "s1-4-q033": {
       // EN: <p>0.0500 <span class="unit">mol</span> of sodium chloride is dissolved in water and the solution is made up to 250 <span class="unit">cm3</span>.</p><p>Calculate the concentration of the solution, in <span class="unit">mol dm-3</span>. Give your answer to 3 significant figures.</p>
-      stem: "",
+      stem: "<p>염화 나트륨 0.0500 <span class=\"unit\">mol</span>을 물에 녹이고 용액을 250 <span class=\"unit\">cm3</span>로 맞췄어요.</p><p>이 용액의 농도를 <span class=\"unit\">mol dm-3</span> 단위로 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p>",
       hints: [
         // EN: The data booklet gives <span class="mono"><i>n</i> = <i>C</i><i>V</i></span>. Rearranged: <span class="mono"><i>C</i> = <i>n</i> ÷ <i>V</i></span>.
-        "",
+        "데이터 부클릿에는 <span class=\"mono\"><i>n</i> = <i>C</i><i>V</i></span>가 있어요. 식을 바꾸면 <span class=\"mono\"><i>C</i> = <i>n</i> ÷ <i>V</i></span>예요.",
         // EN: The volume must be in <span class="unit">dm3</span>. To convert <span class="unit">cm3</span> to <span class="unit">dm3</span>, divide by 1000: 250 <span class="unit">cm3</span> = 0.250 <span class="unit">dm3</span>.
-        "",
+        "부피는 <span class=\"unit\">dm3</span>여야 해요. <span class=\"unit\">cm3</span>를 <span class=\"unit\">dm3</span>로 바꾸려면 1000으로 나누세요: 250 <span class=\"unit\">cm3</span> = 0.250 <span class=\"unit\">dm3</span>.",
       ],
       // EN: <div class="worked__math"><i>V</i> = 250 <span class="unit">cm3</span> ÷ 1000 = 0.250 <span class="unit">dm3</span></div><div class="worked__math"><i>C</i> = <span class="frac"><span><i>n</i></span><span><i>V</i></span></span> = <span class="frac"><span>0.0500 <span class="unit">mol</span></span><span>0.250 <span class="unit">dm3</span></span></span></div><div class="worked__math"><i>C</i> = <strong>0.200 <span class="unit">mol dm-3</span></strong></div><p>Named slips: 0.000200 means you left the volume in <span class="unit">cm3</span>. 0.0125 means you multiplied by the volume instead of dividing.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>V</i> = 250 <span class=\"unit\">cm3</span> ÷ 1000 = 0.250 <span class=\"unit\">dm3</span></div><div class=\"worked__math\"><i>C</i> = <span class=\"frac\"><span><i>n</i></span><span><i>V</i></span></span> = <span class=\"frac\"><span>0.0500 <span class=\"unit\">mol</span></span><span>0.250 <span class=\"unit\">dm3</span></span></span></div><div class=\"worked__math\"><i>C</i> = <strong>0.200 <span class=\"unit\">mol dm-3</span></strong></div><p>흔한 실수: 0.000200이 나왔다면 부피를 <span class=\"unit\">cm3</span>로 둔 거예요. 0.0125가 나왔다면 부피로 나누지 않고 곱한 거예요.</p>",
     },
 
     // ── s1-4-q034 · mcq · foundation · SL · Structure 1.4.5 · 1 mark
     "s1-4-q034": {
       // EN: <p>A bottle is labelled <span class="mono">[NaOH] = 0.10</span>. What do the square brackets tell you?</p>
-      stem: "",
+      stem: "<p>병에 <span class=\"mono\">[NaOH] = 0.10</span>이라고 적혀 있어요. 대괄호는 무엇을 나타내나요?</p>",
       options: [
         // EN: The bottle contains 0.10 <span class="unit">mol</span> of <span class="chem">NaOH</span>.
-        "",
+        "병에 <span class=\"chem\">NaOH</span>가 0.10 <span class=\"unit\">mol</span> 들어 있다.",
         // EN: The solution contains 0.10 <span class="unit">g</span> of <span class="chem">NaOH</span> in each <span class="unit">dm3</span> of solution.
-        "",
+        "용액 1 <span class=\"unit\">dm3</span>마다 <span class=\"chem\">NaOH</span>가 0.10 <span class=\"unit\">g</span> 들어 있다.",
         // EN: The solution contains 0.10 <span class="unit">mol</span> of <span class="chem">NaOH</span> in each <span class="unit">dm3</span> of solution.
-        "",
+        "용액 1 <span class=\"unit\">dm3</span>마다 <span class=\"chem\">NaOH</span>가 0.10 <span class=\"unit\">mol</span> 들어 있다.",
         // EN: 0.10 <span class="unit">mol</span> of <span class="chem">NaOH</span> was added to exactly 1 <span class="unit">dm3</span> of water.
-        "",
+        "<span class=\"chem\">NaOH</span> 0.10 <span class=\"unit\">mol</span>을 물 정확히 1 <span class=\"unit\">dm3</span>에 넣었다.",
       ],
       hints: [
         // EN: Square brackets around a formula mean "molar concentration of".
-        "",
+        "화학식을 감싼 대괄호는 “~의 몰 농도”라는 뜻이에요.",
         // EN: Molar concentration = amount of solute ÷ volume of <em>solution</em>.
-        "",
+        "몰 농도 = 용질의 양 ÷ <em>용액</em>의 부피.",
       ],
       // EN: <p>[NaOH] means the molar concentration of sodium hydroxide, in <span class="unit">mol dm-3</span>. So there is 0.10 mol of <span class="chem">NaOH</span> in each <span class="unit">dm3</span> of solution.</p>
-      solution: "",
+      solution: "<p>[NaOH]는 수산화 나트륨의 몰 농도를 <span class=\"unit\">mol dm-3</span> 단위로 나타낸 거예요. 그러니까 용액 1 <span class=\"unit\">dm3</span>마다 <span class=\"chem\">NaOH</span>가 0.10 mol 들어 있어요.</p>",
       misconception: {
         // EN (option A): Square brackets show a concentration, not an amount. The amount in the bottle also depends on the volume of solution.
-        "0": "",
+        "0": "대괄호는 양이 아니라 농도를 나타내요. 병에 든 양은 용액의 부피에 따라서도 달라져요.",
         // EN (option B): Square brackets mean <em>molar</em> concentration, in <span class="unit">mol dm-3</span>. A mass concentration in <span class="unit">g dm-3</span> is written without square brackets.
-        "1": "",
+        "1": "대괄호는 <em>몰</em> 농도(<span class=\"unit\">mol dm-3</span>)를 뜻해요. <span class=\"unit\">g dm-3</span> 단위의 질량 농도는 대괄호 없이 써요.",
         // EN (option D): Concentration is defined by the volume of the final <em>solution</em>, not the volume of water added. Adding solute to 1 <span class="unit">dm3</span> of water does not give exactly 1 <span class="unit">dm3</span> of solution.
-        "3": "",
+        "3": "농도는 넣은 물의 부피가 아니라 최종 <em>용액</em>의 부피로 정해요. 물 1 <span class=\"unit\">dm3</span>에 용질을 넣는다고 용액이 정확히 1 <span class=\"unit\">dm3</span>가 되지는 않아요.",
       },
     },
 
     // ── s1-4-q035 · numeric · foundation · SL · Structure 1.4.5 · 1 mark
     "s1-4-q035": {
       // EN: <p>Calculate the amount, in <span class="unit">mol</span>, of <span class="chem">HCl</span> in 25.0 <span class="unit">cm3</span> of 0.120 <span class="unit">mol dm-3</span> hydrochloric acid. Give your answer to 3 significant figures.</p>
-      stem: "",
+      stem: "<p>0.120 <span class=\"unit\">mol dm-3</span> 염산 25.0 <span class=\"unit\">cm3</span>에 들어 있는 <span class=\"chem\">HCl</span>의 양을 <span class=\"unit\">mol</span> 단위로 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p>",
       hints: [
         // EN: Use <span class="mono"><i>n</i> = <i>C</i><i>V</i></span> from the data booklet.
-        "",
+        "데이터 부클릿의 <span class=\"mono\"><i>n</i> = <i>C</i><i>V</i></span>를 쓰세요.",
         // EN: Convert the volume first: 25.0 <span class="unit">cm3</span> ÷ 1000 = 0.0250 <span class="unit">dm3</span>.
-        "",
+        "먼저 부피를 바꾸세요: 25.0 <span class=\"unit\">cm3</span> ÷ 1000 = 0.0250 <span class=\"unit\">dm3</span>.",
       ],
       // EN: <div class="worked__math"><i>V</i> = 25.0 <span class="unit">cm3</span> ÷ 1000<br>&nbsp;&nbsp;= 0.0250 <span class="unit">dm3</span></div><div class="worked__math"><i>n</i> = <i>C</i><i>V</i><br>&nbsp;&nbsp;= 0.120 <span class="unit">mol dm-3</span> × 0.0250 <span class="unit">dm3</span></div><div class="worked__math"><i>n</i> = 0.00300 <span class="unit">mol</span><br>&nbsp;&nbsp;= <strong>3.00 × 10<sup>−3</sup> <span class="unit">mol</span></strong></div><p>Named slip: 3.00 mol means you did not convert <span class="unit">cm3</span> to <span class="unit">dm3</span>. A small flask of dilute acid cannot hold 3 mol of HCl.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>V</i> = 25.0 <span class=\"unit\">cm3</span> ÷ 1000<br>&nbsp;&nbsp;= 0.0250 <span class=\"unit\">dm3</span></div><div class=\"worked__math\"><i>n</i> = <i>C</i><i>V</i><br>&nbsp;&nbsp;= 0.120 <span class=\"unit\">mol dm-3</span> × 0.0250 <span class=\"unit\">dm3</span></div><div class=\"worked__math\"><i>n</i> = 0.00300 <span class=\"unit\">mol</span><br>&nbsp;&nbsp;= <strong>3.00 × 10<sup>−3</sup> <span class=\"unit\">mol</span></strong></div><p>흔한 실수: 3.00 mol이 나왔다면 <span class=\"unit\">cm3</span>를 <span class=\"unit\">dm3</span>로 바꾸지 않은 거예요. 작은 플라스크에 든 묽은 산에 HCl이 3 mol이나 있을 수는 없어요.</p>",
     },
 
     // ── s1-4-q036 · numeric · exam · SL · Structure 1.4.5 · 2 marks
     "s1-4-q036": {
       // EN: <p>A student needs 100.0 <span class="unit">cm3</span> of a 0.2000 <span class="unit">mol dm-3</span> standard solution of sodium carbonate, <span class="chem">Na2CO3</span>.</p><p>Calculate the mass of anhydrous sodium carbonate needed, in <span class="unit">g</span>. Give your answer to 4 significant figures.</p><p><i>M</i>(<span class="chem">Na2CO3</span>) = 105.99 <span class="unit">g mol-1</span></p>
-      stem: "",
+      stem: "<p>한 학생이 탄산 나트륨(<span class=\"chem\">Na2CO3</span>) 0.2000 <span class=\"unit\">mol dm-3</span> 표준 용액 100.0 <span class=\"unit\">cm3</span>가 필요해요.</p><p>필요한 무수 탄산 나트륨의 질량을 <span class=\"unit\">g</span> 단위로 계산하시오 (calculate). 유효 숫자 4자리로 답하세요.</p><p><i>M</i>(<span class=\"chem\">Na2CO3</span>) = 105.99 <span class=\"unit\">g mol-1</span></p>",
       hints: [
         // EN: Two relationships, one after the other: <span class="mono"><i>n</i> = <i>C</i><i>V</i></span>, then <span class="mono"><i>m</i> = <i>n</i> × <i>M</i></span>.
-        "",
+        "관계식 두 개를 차례로 써요: <span class=\"mono\"><i>n</i> = <i>C</i><i>V</i></span>, 그다음 <span class=\"mono\"><i>m</i> = <i>n</i> × <i>M</i></span>.",
         // EN: Convert the volume: 100.0 <span class="unit">cm3</span> = 0.1000 <span class="unit">dm3</span>.
-        "",
+        "부피를 바꾸세요: 100.0 <span class=\"unit\">cm3</span> = 0.1000 <span class=\"unit\">dm3</span>.",
         // EN: The data have 4 significant figures, so give 4 in your answer.
-        "",
+        "자료가 유효 숫자 4자리이므로 답도 4자리로 쓰세요.",
       ],
       // EN: <div class="worked__math"><i>V</i> = 100.0 <span class="unit">cm3</span> ÷ 1000<br>&nbsp;&nbsp;= 0.1000 <span class="unit">dm3</span></div><div class="worked__math"><i>n</i> = <i>C</i><i>V</i><br>&nbsp;&nbsp;= 0.2000 <span class="unit">mol dm-3</span> × 0.1000 <span class="unit">dm3</span><br>&nbsp;&nbsp;= 0.02000 <span class="unit">mol</span> &nbsp; (M1)</div><div class="worked__math"><i>m</i> = <i>n</i> × <i>M</i><br>&nbsp;&nbsp;= 0.02000 <span class="unit">mol</span> × 105.99 <span class="unit">g mol-1</span><br>&nbsp;&nbsp;= 2.1198 <span class="unit">g</span><br>&nbsp;&nbsp;= <strong>2.120 <span class="unit">g</span></strong> &nbsp; (M2)</div><p>Named slips: 21.20 g is the mass for a whole <span class="unit">dm3</span> (volume not used). 2120 g means the volume was left in <span class="unit">cm3</span>.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>V</i> = 100.0 <span class=\"unit\">cm3</span> ÷ 1000<br>&nbsp;&nbsp;= 0.1000 <span class=\"unit\">dm3</span></div><div class=\"worked__math\"><i>n</i> = <i>C</i><i>V</i><br>&nbsp;&nbsp;= 0.2000 <span class=\"unit\">mol dm-3</span> × 0.1000 <span class=\"unit\">dm3</span><br>&nbsp;&nbsp;= 0.02000 <span class=\"unit\">mol</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>m</i> = <i>n</i> × <i>M</i><br>&nbsp;&nbsp;= 0.02000 <span class=\"unit\">mol</span> × 105.99 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= 2.1198 <span class=\"unit\">g</span><br>&nbsp;&nbsp;= <strong>2.120 <span class=\"unit\">g</span></strong> &nbsp; (M2)</div><p>흔한 실수: 21.20 g은 1 <span class=\"unit\">dm3</span> 전체에 필요한 질량이에요(부피를 쓰지 않음). 2120 g이 나왔다면 부피를 <span class=\"unit\">cm3</span>로 둔 거예요.</p>",
     },
 
     // ── s1-4-q037 · numeric · exam · SL · Structure 1.4.5 · 1 mark
     "s1-4-q037": {
       // EN: <p>A solution of hydrochloric acid has a concentration of 7.30 <span class="unit">g dm-3</span>.</p><p>Calculate its concentration in <span class="unit">mol dm-3</span>. Give your answer to 3 significant figures.</p><p><i>M</i>(<span class="chem">HCl</span>) = 36.46 <span class="unit">g mol-1</span></p>
-      stem: "",
+      stem: "<p>어떤 염산의 농도는 7.30 <span class=\"unit\">g dm-3</span>이에요.</p><p>이 농도를 <span class=\"unit\">mol dm-3</span> 단위로 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p><p><i>M</i>(<span class=\"chem\">HCl</span>) = 36.46 <span class=\"unit\">g mol-1</span></p>",
       hints: [
         // EN: Both units are "per <span class="unit">dm3</span>". Only the top of the unit changes: grams become moles.
-        "",
+        "두 단위 모두 “<span class=\"unit\">dm3</span>당”이에요. 단위의 윗부분만 바뀌어요: 그램이 몰이 돼요.",
         // EN: Grams to moles: divide by the molar mass, as in <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span>.
-        "",
+        "그램에서 몰로: <span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>M</i></span>처럼 몰 질량으로 나눠요.",
       ],
       // EN: <p>Concentration in <span class="unit">mol dm-3</span> = concentration in <span class="unit">g dm-3</span> ÷ molar mass.</p><div class="worked__math"><i>C</i> = <span class="frac"><span>7.30 <span class="unit">g dm-3</span></span><span>36.46 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.2002 <span class="unit">mol dm-3</span><br>&nbsp;&nbsp;= <strong>0.200 <span class="unit">mol dm-3</span></strong></div><p>Named slip: multiplying gives 266. One <span class="unit">dm3</span> holding 7.30 g of a substance with <i>M</i> ≈ 36 must hold much less than one mole.</p>
-      solution: "",
+      solution: "<p><span class=\"unit\">mol dm-3</span> 단위 농도 = <span class=\"unit\">g dm-3</span> 단위 농도 ÷ 몰 질량.</p><div class=\"worked__math\"><i>C</i> = <span class=\"frac\"><span>7.30 <span class=\"unit\">g dm-3</span></span><span>36.46 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.2002 <span class=\"unit\">mol dm-3</span><br>&nbsp;&nbsp;= <strong>0.200 <span class=\"unit\">mol dm-3</span></strong></div><p>흔한 실수: 곱하면 266이 나와요. <i>M</i> ≈ 36인 물질이 1 <span class=\"unit\">dm3</span>에 7.30 g 들어 있다면 1몰보다 훨씬 적어야 해요.</p>",
     },
 
     // ── s1-4-q038 · numeric · exam · SL · Structure 1.4.5 · 1 mark
     "s1-4-q038": {
       // EN: <p>A solution of potassium manganate(VII) has [<span class="chem">KMnO4</span>] = 0.0250 <span class="unit">mol dm-3</span>.</p><p>Calculate its concentration in <span class="unit">g dm-3</span>. Give your answer to 3 significant figures.</p><p><i>M</i>(<span class="chem">KMnO4</span>) = 158.04 <span class="unit">g mol-1</span></p>
-      stem: "",
+      stem: "<p>망가니즈산(VII) 칼륨(과망가니즈산 칼륨) 용액의 농도는 [<span class=\"chem\">KMnO4</span>] = 0.0250 <span class=\"unit\">mol dm-3</span>이에요.</p><p>이 농도를 <span class=\"unit\">g dm-3</span> 단위로 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p><p><i>M</i>(<span class=\"chem\">KMnO4</span>) = 158.04 <span class=\"unit\">g mol-1</span></p>",
       hints: [
         // EN: You are changing moles into grams, in every <span class="unit">dm3</span>. Which way does <span class="mono"><i>m</i> = <i>n</i> × <i>M</i></span> go?
-        "",
+        "1 <span class=\"unit\">dm3</span>마다 몰을 그램으로 바꾸는 거예요. <span class=\"mono\"><i>m</i> = <i>n</i> × <i>M</i></span>은 어느 방향일까요?",
         // EN: Multiply the molar concentration by the molar mass. Check the units: mol dm<sup>−3</sup> × g mol<sup>−1</sup> = g dm<sup>−3</sup>.
-        "",
+        "몰 농도에 몰 질량을 곱하세요. 단위를 확인하세요: mol dm<sup>−3</sup> × g mol<sup>−1</sup> = g dm<sup>−3</sup>.",
       ],
       // EN: <p>Concentration in <span class="unit">g dm-3</span> = concentration in <span class="unit">mol dm-3</span> × molar mass.</p><div class="worked__math"><i>C</i> = 0.0250 <span class="unit">mol dm-3</span> × 158.04 <span class="unit">g mol-1</span><br>&nbsp;&nbsp;= 3.951 <span class="unit">g dm-3</span><br>&nbsp;&nbsp;= <strong>3.95 <span class="unit">g dm-3</span></strong></div><p>Named slip: dividing gives 0.000158. One mole of <span class="chem">KMnO4</span> has a mass of 158 g, so the number of grams must be bigger than the number of moles.</p>
-      solution: "",
+      solution: "<p><span class=\"unit\">g dm-3</span> 단위 농도 = <span class=\"unit\">mol dm-3</span> 단위 농도 × 몰 질량.</p><div class=\"worked__math\"><i>C</i> = 0.0250 <span class=\"unit\">mol dm-3</span> × 158.04 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= 3.951 <span class=\"unit\">g dm-3</span><br>&nbsp;&nbsp;= <strong>3.95 <span class=\"unit\">g dm-3</span></strong></div><p>흔한 실수: 나누면 0.000158이 나와요. <span class=\"chem\">KMnO4</span> 1몰의 질량은 158 g이므로 그램 수가 몰 수보다 커야 해요.</p>",
     },
 
     // ── s1-4-q039 · mcq · exam · SL · Structure 1.4.5 · 1 mark
     "s1-4-q039": {
       // EN: <p>A solution of magnesium chloride has [<span class="chem">MgCl2</span>] = 0.15 <span class="unit">mol dm-3</span>.</p><p>What is the concentration of chloride ions, [<span class="chem">Cl-</span>], in <span class="unit">mol dm-3</span>?</p>
-      stem: "",
+      stem: "<p>염화 마그네슘 용액의 농도는 [<span class=\"chem\">MgCl2</span>] = 0.15 <span class=\"unit\">mol dm-3</span>이에요.</p><p>염화 이온의 농도 [<span class=\"chem\">Cl-</span>]는 몇 <span class=\"unit\">mol dm-3</span>인가요?</p>",
       options: [
         // EN: 0.075
-        "",
+        "0.075",
         // EN: 0.15
-        "",
+        "0.15",
         // EN: 0.30
-        "",
+        "0.30",
         // EN: 0.45
-        "",
+        "0.45",
       ],
       hints: [
         // EN: Write what happens when the salt dissolves: <span class="chem">MgCl2 -> Mg^2+ + 2Cl-</span>.
-        "",
+        "염이 녹을 때 일어나는 일을 써 보세요: <span class=\"chem\">MgCl2 -> Mg^2+ + 2Cl-</span>.",
         // EN: How many moles of <span class="chem">Cl-</span> come from one mole of <span class="chem">MgCl2</span>?
-        "",
+        "<span class=\"chem\">MgCl2</span> 1몰에서 <span class=\"chem\">Cl-</span>는 몇 몰 나오나요?",
       ],
       // EN: <div class="worked__math"><span class="chem">MgCl2(s) -> Mg^2+(aq) + 2Cl-(aq)</span></div><div class="worked__math">[<span class="chem">Cl-</span>] = 2 × [<span class="chem">MgCl2</span>]<br>&nbsp;&nbsp;= 2 × 0.15 <span class="unit">mol dm-3</span><br>&nbsp;&nbsp;= <strong>0.30 <span class="unit">mol dm-3</span></strong></div>
-      solution: "",
+      solution: "<div class=\"worked__math\"><span class=\"chem\">MgCl2(s) -> Mg^2+(aq) + 2Cl-(aq)</span></div><div class=\"worked__math\">[<span class=\"chem\">Cl-</span>] = 2 × [<span class=\"chem\">MgCl2</span>]<br>&nbsp;&nbsp;= 2 × 0.15 <span class=\"unit\">mol dm-3</span><br>&nbsp;&nbsp;= <strong>0.30 <span class=\"unit\">mol dm-3</span></strong></div>",
       misconception: {
         // EN (option A): You divided by 2. Each formula unit releases 2 chloride ions, so there are more chloride ions than formula units, not fewer.
-        "0": "",
+        "0": "2로 나누었어요. 화학식 단위 1개에서 염화 이온이 2개 나오므로, 염화 이온은 화학식 단위보다 적은 것이 아니라 많아요.",
         // EN (option B): This is the concentration of <span class="chem">Mg^2+</span> ions. The subscript 2 in <span class="chem">MgCl2</span> means each formula unit gives 2 chloride ions.
-        "1": "",
+        "1": "이것은 <span class=\"chem\">Mg^2+</span> 이온의 농도예요. <span class=\"chem\">MgCl2</span>의 아래 첨자 2는 화학식 단위 1개에서 염화 이온이 2개 나온다는 뜻이에요.",
         // EN (option D): This is the total concentration of all ions (1 <span class="chem">Mg^2+</span> + 2 <span class="chem">Cl-</span>). The question asks for chloride ions only.
-        "3": "",
+        "3": "이것은 모든 이온의 총농도예요(<span class=\"chem\">Mg^2+</span> 1개 + <span class=\"chem\">Cl-</span> 2개). 문제는 염화 이온만 묻고 있어요.",
       },
     },
 
     // ── s1-4-q040 · numeric · exam · SL · Structure 1.4.5 · 1 mark
     "s1-4-q040": {
       // EN: <p>A student has a 1.00 <span class="unit">mol dm-3</span> stock solution of copper(II) sulfate. They need 250.0 <span class="unit">cm3</span> of a 0.0800 <span class="unit">mol dm-3</span> solution.</p><p>Calculate the volume of stock solution needed, in <span class="unit">cm3</span>. Give your answer to 3 significant figures.</p>
-      stem: "",
+      stem: "<p>한 학생에게 황산 구리(II) 1.00 <span class=\"unit\">mol dm-3</span> 원액이 있어요. 이 학생은 0.0800 <span class=\"unit\">mol dm-3</span> 용액 250.0 <span class=\"unit\">cm3</span>가 필요해요.</p><p>필요한 원액의 부피를 <span class=\"unit\">cm3</span> 단위로 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p>",
       hints: [
         // EN: Diluting adds water but does not change the amount of solute. So <i>n</i> before = <i>n</i> after, which gives <span class="mono"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></span>.
-        "",
+        "희석하면 물이 더해지지만 용질의 양은 변하지 않아요. 그래서 희석 전 <i>n</i> = 희석 후 <i>n</i>이고, 여기서 <span class=\"mono\"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></span>가 나와요.",
         // EN: Label the values: <i>C</i><sub>1</sub> = 1.00, <i>C</i><sub>2</sub> = 0.0800, <i>V</i><sub>2</sub> = 250.0 <span class="unit">cm3</span>. Both volumes can stay in <span class="unit">cm3</span> here because the same unit is on both sides.
-        "",
+        "값에 이름을 붙이세요: <i>C</i><sub>1</sub> = 1.00, <i>C</i><sub>2</sub> = 0.0800, <i>V</i><sub>2</sub> = 250.0 <span class=\"unit\">cm3</span>. 양변에 같은 단위가 있으므로 여기서는 두 부피를 모두 <span class=\"unit\">cm3</span>로 두어도 돼요.",
       ],
       // EN: <div class="worked__math"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></div><div class="worked__math"><i>V</i><sub>1</sub> = <span class="frac"><span><i>C</i><sub>2</sub><i>V</i><sub>2</sub></span><span><i>C</i><sub>1</sub></span></span><br>&nbsp;&nbsp;= <span class="frac"><span>0.0800 <span class="unit">mol dm-3</span> × 250.0 <span class="unit">cm3</span></span><span>1.00 <span class="unit">mol dm-3</span></span></span></div><div class="worked__math"><i>V</i><sub>1</sub> = <strong>20.0 <span class="unit">cm3</span></strong></div><p>Size check: the new solution is 12.5 times more dilute, so you need one 12.5th of the final volume. The 20.0 <span class="unit">cm3</span> is then made up to 250.0 <span class="unit">cm3</span> with distilled water. You do not add 250 <span class="unit">cm3</span> of water to it.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></div><div class=\"worked__math\"><i>V</i><sub>1</sub> = <span class=\"frac\"><span><i>C</i><sub>2</sub><i>V</i><sub>2</sub></span><span><i>C</i><sub>1</sub></span></span><br>&nbsp;&nbsp;= <span class=\"frac\"><span>0.0800 <span class=\"unit\">mol dm-3</span> × 250.0 <span class=\"unit\">cm3</span></span><span>1.00 <span class=\"unit\">mol dm-3</span></span></span></div><div class=\"worked__math\"><i>V</i><sub>1</sub> = <strong>20.0 <span class=\"unit\">cm3</span></strong></div><p>크기 확인: 새 용액은 12.5배 묽으므로 최종 부피의 12.5분의 1이 필요해요. 그다음 이 20.0 <span class=\"unit\">cm3</span>에 증류수를 넣어 250.0 <span class=\"unit\">cm3</span>로 맞춰요. 여기에 물 250 <span class=\"unit\">cm3</span>를 더하는 것이 아니에요.</p>",
     },
 
     // ── s1-4-q041 · order · exam · SL · Structure 1.4.5 · 2 marks
     "s1-4-q041": {
       // EN: <p>Put these steps in order to prepare 250.0 <span class="unit">cm3</span> of a standard solution from a solid.</p>
-      stem: "",
+      stem: "<p>고체로 표준 용액 250.0 <span class=\"unit\">cm3</span>를 만드는 단계를 순서대로 놓으세요.</p>",
       options: [
         // EN: Weigh the required mass of solid accurately on a balance.
-        "",
+        "필요한 질량의 고체를 저울로 정확하게 잰다.",
         // EN: Dissolve the solid in a small volume of distilled water in a beaker, stirring with a glass rod.
-        "",
+        "비커에 든 적은 양의 증류수에 고체를 넣고 유리 막대로 저으며 녹인다.",
         // EN: Pour the solution through a funnel into a 250.0 cm<sup>3</sup> volumetric flask. Rinse the beaker, rod and funnel with distilled water and add the rinsings to the flask.
-        "",
+        "깔때기를 통해 용액을 250.0 cm<sup>3</sup> 부피 플라스크에 붓는다. 비커, 유리 막대, 깔때기를 증류수로 헹구고 헹군 물도 플라스크에 넣는다.",
         // EN: Add distilled water until the bottom of the meniscus is on the graduation mark, adding the last part drop by drop.
-        "",
+        "메니스커스의 아랫부분이 표선에 닿을 때까지 증류수를 넣는다. 마지막에는 한 방울씩 넣는다.",
         // EN: Stopper the flask and invert it several times to mix.
-        "",
+        "플라스크의 마개를 막고 여러 번 뒤집어 섞는다.",
       ],
       hints: [
         // EN: The solid must be fully dissolved before the volume is made up to the mark.
-        "",
+        "표선까지 부피를 맞추기 전에 고체가 완전히 녹아 있어야 해요.",
         // EN: Mixing comes last. If you mixed and then added more water, the concentration would change.
-        "",
+        "섞기는 마지막이에요. 섞은 뒤에 물을 더 넣으면 농도가 바뀌어요.",
       ],
       // EN: <p>Weigh, dissolve, transfer with rinsings, make up to the mark, mix.</p><p>The rinsings matter because any solution left in the beaker would mean less solute in the flask than you weighed. The flask is filled to the mark so that the volume of <em>solution</em> is exactly 250.0 <span class="unit">cm3</span>. Inverting makes the concentration the same throughout.</p>
-      solution: "",
+      solution: "<p>질량 재기, 녹이기, 헹군 물과 함께 옮기기, 표선까지 맞추기, 섞기.</p><p>헹구는 것이 중요한 이유는 비커에 용액이 남으면 플라스크 속 용질이 잰 양보다 적어지기 때문이에요. 플라스크를 표선까지 채우는 것은 <em>용액</em>의 부피를 정확히 250.0 <span class=\"unit\">cm3</span>로 만들기 위해서예요. 뒤집어 섞으면 농도가 전체적으로 고르게 돼요.</p>",
     },
 
     // ── s1-4-q042 · short · exam · SL · Structure 1.4.5 · 3 marks
     "s1-4-q042": {
       // EN: <p>A student has weighed 2.650 <span class="unit">g</span> of anhydrous sodium carbonate into a small beaker.</p><p>Describe how the student should use this solid to prepare 250.0 <span class="unit">cm3</span> of a standard solution.</p>
-      stem: "",
+      stem: "<p>한 학생이 무수 탄산 나트륨 2.650 <span class=\"unit\">g</span>을 작은 비커에 달아 놓았어요.</p><p>이 고체로 표준 용액 250.0 <span class=\"unit\">cm3</span>를 만드는 방법을 서술하시오 (describe).</p>",
       hints: [
         // EN: Name the piece of glassware that measures one fixed volume very precisely.
-        "",
+        "정해진 한 가지 부피를 아주 정밀하게 재는 유리 기구의 이름을 쓰세요.",
         // EN: How do you make sure that <em>all</em> of the weighed solid ends up in the solution?
-        "",
+        "잰 고체가 <em>모두</em> 용액에 들어가게 하려면 어떻게 해야 할까요?",
         // EN: There are two more things to say: how the final volume is set, and what you do after that.
-        "",
+        "두 가지를 더 말해야 해요: 최종 부피를 어떻게 맞추는지, 그리고 그다음에 무엇을 하는지.",
       ],
       // EN: <p>What the marks reward: the type of water (distilled or deionized, because tap water contains dissolved ions), the volumetric flask with the rinsings transferred, making up to the mark, and mixing by inversion.</p><p>Two answers that lose marks: "add 250 <span class="unit">cm3</span> of water" (the final <em>solution</em> must be 250.0 <span class="unit">cm3</span>, which is not the same thing) and using a beaker or measuring cylinder to measure the final volume (not precise enough).</p>
-      solution: "",
+      solution: "<p>점수를 받는 내용: 물의 종류(수돗물에는 이온이 녹아 있으므로 증류수 또는 탈이온수), 헹군 물까지 옮긴 부피 플라스크, 표선까지 맞추기, 뒤집어 섞기.</p><p>점수를 잃는 두 가지 답: “물 250 <span class=\"unit\">cm3</span>를 넣는다”(최종 <em>용액</em>이 250.0 <span class=\"unit\">cm3</span>여야 하므로 같은 말이 아님), 그리고 최종 부피를 비커나 눈금실린더로 재기(충분히 정밀하지 않음).</p>",
       // EN: <p>Dissolve the solid in distilled (deionized) water in the beaker. Transfer the solution to a 250.0 cm<sup>3</sup> volumetric flask, rinsing the beaker (and funnel and stirring rod) with distilled water and adding the rinsings to the flask. Add distilled water up to the graduation mark (bottom of the meniscus on the line). Stopper and invert the flask several times to mix.</p>
-      answer: "",
+      answer: "<p>비커 속 고체를 증류수(탈이온수)에 녹인다. 용액을 250.0 cm<sup>3</sup> 부피 플라스크로 옮기고, 비커(와 깔때기, 유리 막대)를 증류수로 헹궈 헹군 물도 플라스크에 넣는다. 표선까지 증류수를 넣는다(메니스커스의 아랫부분이 선에 닿게). 마개를 막고 플라스크를 여러 번 뒤집어 섞는다.</p>",
       markscheme: [
         // EN: Dissolve the solid in distilled / deionized water (in the beaker). (Do not accept "water" alone.)
-        "",
+        "(비커에서) 고체를 증류수 / 탈이온수에 녹인다. (“물”만 쓰면 인정하지 않음.)",
         // EN: Transfer to a 250 cm³ volumetric flask AND rinse the beaker, adding the rinsings / washings to the flask.
-        "",
+        "250 cm³ 부피 플라스크로 옮기고 그리고 비커를 헹궈 헹군 물 / 씻은 물을 플라스크에 넣는다.",
         // EN: Make up to the (graduation) mark with distilled water / until the bottom of the meniscus is on the mark. (Do not accept "add 250 cm³ of water".)
-        "",
+        "증류수로 (눈금) 표선까지 / 메니스커스의 아랫부분이 표선에 닿을 때까지 맞춘다. (“물 250 cm³를 넣는다”는 인정하지 않음.)",
         // EN: Stopper and invert / shake to mix thoroughly. (Any three points for 3 marks.)
-        "",
+        "마개를 막고 뒤집어 / 흔들어 고르게 섞는다. (아무 세 가지로 3점.)",
       ],
     },
 
     // ── s1-4-q043 · short · challenge · SL · Structure 1.4.5 · 3 marks
     "s1-4-q043": {
       // EN: <p>A student has a 0.500 <span class="unit">mol dm-3</span> stock solution of nickel(II) sulfate. To make a calibration curve they need 100.0 <span class="unit">cm3</span> of a 0.0500 <span class="unit">mol dm-3</span> solution.</p><p>Calculate the volume of stock solution needed and describe how to carry out the dilution, naming the glassware.</p>
-      stem: "",
+      stem: "<p>한 학생에게 황산 니켈(II) 0.500 <span class=\"unit\">mol dm-3</span> 원액이 있어요. 검량선을 만들려면 0.0500 <span class=\"unit\">mol dm-3</span> 용액 100.0 <span class=\"unit\">cm3</span>가 필요해요.</p><p>필요한 원액의 부피를 계산하시오 (calculate). 그리고 유리 기구의 이름을 들어 희석하는 방법을 서술하시오 (describe).</p>",
       hints: [
         // EN: The amount of solute does not change on dilution: <span class="mono"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></span>.
-        "",
+        "희석해도 용질의 양은 변하지 않아요: <span class=\"mono\"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></span>.",
         // EN: Choose glassware made to deliver or contain one precise volume. A measuring cylinder is not precise enough.
-        "",
+        "정해진 한 가지 부피를 정밀하게 옮기거나 담도록 만든 유리 기구를 고르세요. 눈금실린더는 충분히 정밀하지 않아요.",
         // EN: How do you make the final volume exactly 100.0 <span class="unit">cm3</span>?
-        "",
+        "최종 부피를 어떻게 정확히 100.0 <span class=\"unit\">cm3</span>로 만들까요?",
       ],
       // EN: <div class="worked__math"><i>V</i><sub>1</sub> = <span class="frac"><span><i>C</i><sub>2</sub><i>V</i><sub>2</sub></span><span><i>C</i><sub>1</sub></span></span><br>&nbsp;&nbsp;= <span class="frac"><span>0.0500 <span class="unit">mol dm-3</span> × 100.0 <span class="unit">cm3</span></span><span>0.500 <span class="unit">mol dm-3</span></span></span><br>&nbsp;&nbsp;= <strong>10.0 <span class="unit">cm3</span></strong></div><p>A pipette delivers the 10.0 <span class="unit">cm3</span> precisely. A volumetric flask fixes the final volume precisely. Writing "add 90 <span class="unit">cm3</span> of water" does not earn the mark: you make the solution <em>up to the mark</em>, because it is the final volume of solution that must be 100.0 <span class="unit">cm3</span>.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>V</i><sub>1</sub> = <span class=\"frac\"><span><i>C</i><sub>2</sub><i>V</i><sub>2</sub></span><span><i>C</i><sub>1</sub></span></span><br>&nbsp;&nbsp;= <span class=\"frac\"><span>0.0500 <span class=\"unit\">mol dm-3</span> × 100.0 <span class=\"unit\">cm3</span></span><span>0.500 <span class=\"unit\">mol dm-3</span></span></span><br>&nbsp;&nbsp;= <strong>10.0 <span class=\"unit\">cm3</span></strong></div><p>피펫으로 10.0 <span class=\"unit\">cm3</span>를 정밀하게 옮겨요. 부피 플라스크로 최종 부피를 정밀하게 맞춰요. “물 90 <span class=\"unit\">cm3</span>를 넣는다”라고 쓰면 점수를 받지 못해요: 100.0 <span class=\"unit\">cm3</span>여야 하는 것은 최종 용액의 부피이므로 용액을 <em>표선까지</em> 맞춰야 해요.</p>",
       // EN: <p><i>V</i><sub>1</sub> = (0.0500 × 100.0) ÷ 0.500 = 10.0 cm<sup>3</sup>.</p><p>Use a 10.0 cm<sup>3</sup> volumetric (bulb) pipette to transfer the stock solution into a 100.0 cm<sup>3</sup> volumetric flask. Add distilled water up to the graduation mark. Stopper and invert to mix.</p>
-      answer: "",
+      answer: "<p><i>V</i><sub>1</sub> = (0.0500 × 100.0) ÷ 0.500 = 10.0 cm<sup>3</sup>.</p><p>10.0 cm<sup>3</sup> 부피(홀) 피펫으로 원액을 100.0 cm<sup>3</sup> 부피 플라스크에 옮긴다. 표선까지 증류수를 넣는다. 마개를 막고 뒤집어 섞는다.</p>",
       markscheme: [
         // EN: Volume of stock = 10.0 cm³.
-        "",
+        "원액의 부피 = 10.0 cm³.",
         // EN: Measured with a (10.0 cm³) volumetric / graduated pipette (or burette). (Do not accept measuring cylinder.)
-        "",
+        "(10.0 cm³) 부피 피펫 / 눈금 피펫(또는 뷰렛)으로 잰다. (눈금실린더는 인정하지 않음.)",
         // EN: Into a 100.0 cm³ volumetric flask.
-        "",
+        "100.0 cm³ 부피 플라스크에 넣는다.",
         // EN: Made up to the mark with distilled / deionized water, AND mixed / inverted. (The volume mark plus any two of the other points for 3 marks.)
-        "",
+        "증류수 / 탈이온수로 표선까지 맞추고 그리고 섞는다 / 뒤집는다. (부피 점수와 나머지 중 아무 두 가지로 3점.)",
       ],
     },
 
     // ── s1-4-q044 · numeric · challenge · SL · Structure 1.4.5 · 3 marks
     "s1-4-q044": {
       // EN: <p>5.55 <span class="unit">g</span> of calcium chloride, <span class="chem">CaCl2</span>, is dissolved in distilled water and made up to 500.0 <span class="unit">cm3</span> in a volumetric flask (solution A).</p><p>10.0 <span class="unit">cm3</span> of solution A is then pipetted into a 250.0 <span class="unit">cm3</span> volumetric flask and made up to the mark (solution B).</p><p>Calculate [<span class="chem">Cl-</span>] in solution B, in <span class="unit">mol dm-3</span>. Give your answer to 3 significant figures.</p><p><i>M</i>(<span class="chem">CaCl2</span>) = 110.98 <span class="unit">g mol-1</span></p>
-      stem: "",
+      stem: "<p>염화 칼슘(<span class=\"chem\">CaCl2</span>) 5.55 <span class=\"unit\">g</span>을 증류수에 녹이고 부피 플라스크에서 500.0 <span class=\"unit\">cm3</span>로 맞췄어요(용액 A).</p><p>그다음 용액 A 10.0 <span class=\"unit\">cm3</span>를 피펫으로 250.0 <span class=\"unit\">cm3</span> 부피 플라스크에 옮기고 표선까지 맞췄어요(용액 B).</p><p>용액 B의 [<span class=\"chem\">Cl-</span>]를 <span class=\"unit\">mol dm-3</span> 단위로 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p><p><i>M</i>(<span class=\"chem\">CaCl2</span>) = 110.98 <span class=\"unit\">g mol-1</span></p>",
       hints: [
         // EN: Plan the chain: mass → amount of <span class="chem">CaCl2</span> → concentration of solution A → chloride ion concentration → dilution.
-        "",
+        "순서를 계획하세요: 질량 → <span class=\"chem\">CaCl2</span>의 양 → 용액 A의 농도 → 염화 이온의 농도 → 희석.",
         // EN: For solution A use <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span> then <span class="mono"><i>C</i> = <i>n</i> ÷ <i>V</i></span> with <i>V</i> = 0.5000 <span class="unit">dm3</span>. Each <span class="chem">CaCl2</span> gives 2 <span class="chem">Cl-</span>.
-        "",
+        "용액 A는 <span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>M</i></span>, 그다음 <i>V</i> = 0.5000 <span class=\"unit\">dm3</span>로 <span class=\"mono\"><i>C</i> = <i>n</i> ÷ <i>V</i></span>를 쓰세요. <span class=\"chem\">CaCl2</span> 1개에서 <span class=\"chem\">Cl-</span> 2개가 나와요.",
         // EN: For the dilution use <span class="mono"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></span> with <i>V</i><sub>1</sub> = 10.0 <span class="unit">cm3</span> and <i>V</i><sub>2</sub> = 250.0 <span class="unit">cm3</span>.
-        "",
+        "희석은 <i>V</i><sub>1</sub> = 10.0 <span class=\"unit\">cm3</span>, <i>V</i><sub>2</sub> = 250.0 <span class=\"unit\">cm3</span>로 <span class=\"mono\"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></span>를 쓰세요.",
       ],
       // EN: <div class="worked__math"><i>n</i>(<span class="chem">CaCl2</span>) = <span class="frac"><span>5.55 <span class="unit">g</span></span><span>110.98 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.05001 <span class="unit">mol</span></div><div class="worked__math"><i>V</i>(A) = 500.0 <span class="unit">cm3</span> ÷ 1000<br>&nbsp;&nbsp;= 0.5000 <span class="unit">dm3</span></div><div class="worked__math">[<span class="chem">CaCl2</span>] in A = <span class="frac"><span>0.05001 <span class="unit">mol</span></span><span>0.5000 <span class="unit">dm3</span></span></span><br>&nbsp;&nbsp;= 0.1000 <span class="unit">mol dm-3</span> &nbsp; (M1)</div><div class="worked__math">[<span class="chem">Cl-</span>] in A = 2 × 0.1000 <span class="unit">mol dm-3</span><br>&nbsp;&nbsp;= 0.2000 <span class="unit">mol dm-3</span> &nbsp; (M2)</div><p>Dilution: the same ions are spread through a larger volume, so multiply by <i>V</i><sub>1</sub> ÷ <i>V</i><sub>2</sub>.</p><div class="worked__math"><span class="frac"><span><i>V</i><sub>1</sub></span><span><i>V</i><sub>2</sub></span></span> = <span class="frac"><span>10.0 <span class="unit">cm3</span></span><span>250.0 <span class="unit">cm3</span></span></span><br>&nbsp;&nbsp;= 0.0400</div><div class="worked__math">[<span class="chem">Cl-</span>] in B = 0.2000 <span class="unit">mol dm-3</span> × 0.0400<br>&nbsp;&nbsp;= <strong>0.00800 <span class="unit">mol dm-3</span></strong> &nbsp; (M3)</div><p>Named slips: 0.00400 means you forgot that each <span class="chem">CaCl2</span> gives 2 chloride ions. 0.200 is solution A, before the dilution.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>n</i>(<span class=\"chem\">CaCl2</span>) = <span class=\"frac\"><span>5.55 <span class=\"unit\">g</span></span><span>110.98 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.05001 <span class=\"unit\">mol</span></div><div class=\"worked__math\"><i>V</i>(A) = 500.0 <span class=\"unit\">cm3</span> ÷ 1000<br>&nbsp;&nbsp;= 0.5000 <span class=\"unit\">dm3</span></div><div class=\"worked__math\">A의 [<span class=\"chem\">CaCl2</span>] = <span class=\"frac\"><span>0.05001 <span class=\"unit\">mol</span></span><span>0.5000 <span class=\"unit\">dm3</span></span></span><br>&nbsp;&nbsp;= 0.1000 <span class=\"unit\">mol dm-3</span> &nbsp; (M1)</div><div class=\"worked__math\">A의 [<span class=\"chem\">Cl-</span>] = 2 × 0.1000 <span class=\"unit\">mol dm-3</span><br>&nbsp;&nbsp;= 0.2000 <span class=\"unit\">mol dm-3</span> &nbsp; (M2)</div><p>희석: 같은 이온이 더 큰 부피에 퍼지므로 <i>V</i><sub>1</sub> ÷ <i>V</i><sub>2</sub>를 곱해요.</p><div class=\"worked__math\"><span class=\"frac\"><span><i>V</i><sub>1</sub></span><span><i>V</i><sub>2</sub></span></span> = <span class=\"frac\"><span>10.0 <span class=\"unit\">cm3</span></span><span>250.0 <span class=\"unit\">cm3</span></span></span><br>&nbsp;&nbsp;= 0.0400</div><div class=\"worked__math\">B의 [<span class=\"chem\">Cl-</span>] = 0.2000 <span class=\"unit\">mol dm-3</span> × 0.0400<br>&nbsp;&nbsp;= <strong>0.00800 <span class=\"unit\">mol dm-3</span></strong> &nbsp; (M3)</div><p>흔한 실수: 0.00400이 나왔다면 <span class=\"chem\">CaCl2</span> 1개에서 염화 이온이 2개 나온다는 것을 잊은 거예요. 0.200은 희석하기 전의 용액 A예요.</p>",
     },
 
     // ── s1-4-q045 · numeric · challenge · SL · Structure 1.4.5 · 3 marks
     "s1-4-q045": {
       // EN: <p>A student makes a calibration curve for a coloured solution of copper(II) sulfate by measuring the absorbance of four standard solutions in a colorimeter.</p><div class="table-scroll"><table class="data"><caption>Calibration data</caption><thead><tr><th scope="col" class="num"><span style="text-transform:none;letter-spacing:0">[<span class="chem">CuSO4</span>] / mol dm<sup>−3</sup></span></th><th scope="col" class="num"><span style="text-transform:none;letter-spacing:0">Absorbance</span></th></tr></thead><tbody><tr><td class="num">0.010</td><td class="num">0.120</td></tr><tr><td class="num">0.020</td><td class="num">0.240</td></tr><tr><td class="num">0.030</td><td class="num">0.360</td></tr><tr><td class="num">0.040</td><td class="num">0.480</td></tr></tbody></table></div><p>The graph of absorbance against concentration is a straight line through the origin.</p><p>An unknown solution is too dark to measure directly. The student dilutes 5.00 <span class="unit">cm3</span> of it to 100.0 <span class="unit">cm3</span>. The diluted solution has an absorbance of 0.300.</p><p>Determine the concentration of the <strong>original</strong> unknown solution, in <span class="unit">mol dm-3</span>. Give your answer to 2 significant figures.</p>
-      stem: "",
+      stem: "<p>한 학생이 색깔 있는 황산 구리(II) 용액의 검량선을 만들려고, 비색계로 표준 용액 4개의 흡광도를 쟀어요.</p><div class=\"table-scroll\"><table class=\"data\"><caption>검량 자료</caption><thead><tr><th scope=\"col\" class=\"num\"><span style=\"text-transform:none;letter-spacing:0\">[<span class=\"chem\">CuSO4</span>] / mol dm<sup>−3</sup></span></th><th scope=\"col\" class=\"num\"><span style=\"text-transform:none;letter-spacing:0\">흡광도</span></th></tr></thead><tbody><tr><td class=\"num\">0.010</td><td class=\"num\">0.120</td></tr><tr><td class=\"num\">0.020</td><td class=\"num\">0.240</td></tr><tr><td class=\"num\">0.030</td><td class=\"num\">0.360</td></tr><tr><td class=\"num\">0.040</td><td class=\"num\">0.480</td></tr></tbody></table></div><p>농도에 대한 흡광도 그래프는 원점을 지나는 직선이에요.</p><p>농도를 모르는 용액은 색이 너무 진해서 바로 잴 수 없어요. 학생은 이 용액 5.00 <span class=\"unit\">cm3</span>를 100.0 <span class=\"unit\">cm3</span>로 희석했어요. 희석한 용액의 흡광도는 0.300이에요.</p><p><strong>처음</strong> 미지 용액의 농도를 <span class=\"unit\">mol dm-3</span> 단위로 구하시오 (determine). 유효 숫자 2자리로 답하세요.</p>",
       hints: [
         // EN: A calibration curve turns a measurement (absorbance) into a concentration. Find the gradient of the line: absorbance per <span class="unit">mol dm-3</span>.
-        "",
+        "검량선은 측정값(흡광도)을 농도로 바꿔 줘요. 직선의 기울기, 즉 <span class=\"unit\">mol dm-3</span>당 흡광도를 구하세요.",
         // EN: Use the line to read the concentration of the <em>diluted</em> solution: concentration = absorbance ÷ gradient.
-        "",
+        "직선으로 <em>희석한</em> 용액의 농도를 읽으세요: 농도 = 흡광도 ÷ 기울기.",
         // EN: Then undo the dilution with <span class="mono"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></span>. The original solution must be more concentrated than the diluted one.
-        "",
+        "그다음 <span class=\"mono\"><i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub></span>로 희석을 되돌리세요. 처음 용액은 희석한 용액보다 진해야 해요.",
       ],
       // EN: <div class="worked__math">Gradient = <span class="frac"><span>0.480</span><span>0.040 <span class="unit">mol dm-3</span></span></span><br>&nbsp;&nbsp;= 12.0 <span class="unit">dm3 mol-1</span> &nbsp; (M1)</div><div class="worked__math"><i>C</i>(diluted) = <span class="frac"><span>0.300</span><span>12.0 <span class="unit">dm3 mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0250 <span class="unit">mol dm-3</span> &nbsp; (M2)</div><p>Undo the dilution. The original solution is more concentrated by the factor <i>V</i><sub>2</sub> ÷ <i>V</i><sub>1</sub>.</p><div class="worked__math"><span class="frac"><span><i>V</i><sub>2</sub></span><span><i>V</i><sub>1</sub></span></span> = <span class="frac"><span>100.0 <span class="unit">cm3</span></span><span>5.00 <span class="unit">cm3</span></span></span><br>&nbsp;&nbsp;= 20.0</div><div class="worked__math"><i>C</i>(original) = 0.0250 <span class="unit">mol dm-3</span> × 20.0<br>&nbsp;&nbsp;= <strong>0.50 <span class="unit">mol dm-3</span></strong> &nbsp; (M3)</div><p>The absorbance 0.300 lies between the standards (0.240 and 0.360), so the reading is inside the range of the calibration line. That is why the dark solution was diluted first. Named slips: 0.025 is the diluted solution. 0.00125 means you applied the dilution factor the wrong way round.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">기울기 = <span class=\"frac\"><span>0.480</span><span>0.040 <span class=\"unit\">mol dm-3</span></span></span><br>&nbsp;&nbsp;= 12.0 <span class=\"unit\">dm3 mol-1</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>C</i>(희석) = <span class=\"frac\"><span>0.300</span><span>12.0 <span class=\"unit\">dm3 mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0250 <span class=\"unit\">mol dm-3</span> &nbsp; (M2)</div><p>희석을 되돌려요. 처음 용액은 <i>V</i><sub>2</sub> ÷ <i>V</i><sub>1</sub>배만큼 더 진해요.</p><div class=\"worked__math\"><span class=\"frac\"><span><i>V</i><sub>2</sub></span><span><i>V</i><sub>1</sub></span></span> = <span class=\"frac\"><span>100.0 <span class=\"unit\">cm3</span></span><span>5.00 <span class=\"unit\">cm3</span></span></span><br>&nbsp;&nbsp;= 20.0</div><div class=\"worked__math\"><i>C</i>(처음) = 0.0250 <span class=\"unit\">mol dm-3</span> × 20.0<br>&nbsp;&nbsp;= <strong>0.50 <span class=\"unit\">mol dm-3</span></strong> &nbsp; (M3)</div><p>흡광도 0.300은 표준 용액의 값(0.240과 0.360) 사이에 있으므로, 측정값이 검량선의 범위 안에 있어요. 그래서 진한 용액을 먼저 희석한 거예요. 흔한 실수: 0.025는 희석한 용액이에요. 0.00125가 나왔다면 희석 배수를 거꾸로 적용한 거예요.</p>",
     },
 
     // ── s1-4-q046 · mcq · foundation · SL · Structure 1.4.6 · 1 mark
     "s1-4-q046": {
       // EN: <p>Which is a correct statement of Avogadro's law?</p>
-      stem: "",
+      stem: "<p>아보가드로 법칙을 바르게 나타낸 것은 무엇인가요?</p>",
       options: [
         // EN: Equal masses of all gases, at the same temperature and pressure, occupy equal volumes.
-        "",
+        "온도와 압력이 같을 때, 모든 기체는 질량이 같으면 부피도 같다.",
         // EN: Equal volumes of all gases, at the same temperature and pressure, contain equal numbers of molecules.
-        "",
+        "온도와 압력이 같을 때, 모든 기체는 부피가 같으면 분자 수도 같다.",
         // EN: Equal volumes of all gases, at the same temperature and pressure, have equal masses.
-        "",
+        "온도와 압력이 같을 때, 모든 기체는 부피가 같으면 질량도 같다.",
         // EN: Equal volumes of all gases contain equal numbers of molecules at any temperature and pressure.
-        "",
+        "온도와 압력에 상관없이, 모든 기체는 부피가 같으면 분자 수도 같다.",
       ],
       hints: [
         // EN: The law connects two things: the volume of a gas and the number of molecules in it.
-        "",
+        "이 법칙은 두 가지를 연결해요: 기체의 부피와 그 속에 든 분자 수.",
         // EN: A gas expands when heated or when the pressure is lowered. What conditions must be the same for a fair comparison?
-        "",
+        "기체는 가열하거나 압력을 낮추면 팽창해요. 공정하게 비교하려면 어떤 조건이 같아야 할까요?",
       ],
       // EN: <p>Avogadro's law: equal volumes of all gases, measured under the same conditions of temperature and pressure, contain equal numbers of molecules. This means that for gases at the same temperature and pressure, the ratio of volumes equals the ratio of amounts in moles.</p>
-      solution: "",
+      solution: "<p>아보가드로 법칙: 같은 온도와 압력에서 잰 모든 기체는 부피가 같으면 같은 수의 분자를 포함해요. 그러니까 온도와 압력이 같은 기체에서는 부피의 비가 몰 단위 양의 비와 같아요.</p>",
       misconception: {
         // EN (option A): Equal masses of different gases contain different numbers of molecules, because their molar masses differ. The law links volume to number of molecules, not to mass.
-        "0": "",
+        "0": "서로 다른 기체는 질량이 같아도 몰 질량이 다르므로 분자 수가 달라요. 이 법칙은 부피를 질량이 아니라 분자 수와 연결해요.",
         // EN (option C): Equal volumes hold equal numbers of molecules, but the molecules of different gases have different masses. So the masses are not equal.
-        "2": "",
+        "2": "부피가 같으면 분자 수는 같지만, 기체마다 분자의 질량이 달라요. 그래서 질량은 같지 않아요.",
         // EN (option D): The condition is missing. The two gases must be measured at the <em>same</em> temperature and pressure as each other.
-        "3": "",
+        "3": "조건이 빠졌어요. 두 기체는 서로 <em>같은</em> 온도와 압력에서 재야 해요.",
       },
     },
 
     // ── s1-4-q047 · numeric · foundation · SL · Structure 1.4.6 · 1 mark
     "s1-4-q047": {
       // EN: <p>Nitrogen reacts with hydrogen to form ammonia.</p><p><span class="chem">N2(g) + 3H2(g) -> 2NH3(g)</span></p><p>What volume of hydrogen, in <span class="unit">cm3</span>, reacts exactly with 30 <span class="unit">cm3</span> of nitrogen? All volumes are measured at the same temperature and pressure.</p>
-      stem: "",
+      stem: "<p>질소는 수소와 반응해 암모니아를 만들어요.</p><p><span class=\"chem\">N2(g) + 3H2(g) -> 2NH3(g)</span></p><p>질소 30 <span class=\"unit\">cm3</span>와 과부족 없이 반응하는 수소의 부피는 몇 <span class=\"unit\">cm3</span>인가요? 모든 부피는 같은 온도와 압력에서 잰 값이에요.</p>",
       hints: [
         // EN: For gases at the same temperature and pressure, the ratio of volumes is the same as the ratio of moles in the equation.
-        "",
+        "온도와 압력이 같은 기체에서는 부피의 비가 반응식의 몰 비와 같아요.",
         // EN: The equation shows 1 volume of <span class="chem">N2</span> reacting with 3 volumes of <span class="chem">H2</span>.
-        "",
+        "반응식을 보면 <span class=\"chem\">N2</span> 1부피가 <span class=\"chem\">H2</span> 3부피와 반응해요.",
       ],
       // EN: <p>The mole ratio <span class="chem">N2</span> : <span class="chem">H2</span> is 1 : 3. At the same temperature and pressure the volume ratio is also 1 : 3.</p><div class="worked__math"><i>V</i>(<span class="chem">H2</span>) = 3 × 30 <span class="unit">cm3</span> = <strong>90 <span class="unit">cm3</span></strong></div><p>No molar masses or conversions to moles are needed. Avogadro's law lets you use the coefficients directly on the volumes.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">N2</span> : <span class=\"chem\">H2</span>의 몰 비는 1 : 3이에요. 온도와 압력이 같으면 부피의 비도 1 : 3이에요.</p><div class=\"worked__math\"><i>V</i>(<span class=\"chem\">H2</span>) = 3 × 30 <span class=\"unit\">cm3</span> = <strong>90 <span class=\"unit\">cm3</span></strong></div><p>몰 질량도, 몰로 바꾸는 과정도 필요 없어요. 아보가드로 법칙 덕분에 계수를 부피에 바로 쓸 수 있어요.</p>",
     },
 
     // ── s1-4-q048 · mcq · exam · SL · Structure 1.4.6 · 1 mark
     "s1-4-q048": {
       // EN: <p>20 <span class="unit">cm3</span> of propane is burned completely in 150 <span class="unit">cm3</span> of oxygen, which is an excess.</p><p><span class="chem">C3H8(g) + 5O2(g) -> 3CO2(g) + 4H2O(l)</span></p><p>What is the total volume of gas remaining, in <span class="unit">cm3</span>, when the mixture has returned to the original temperature and pressure?</p>
-      stem: "",
+      stem: "<p>프로페인 20 <span class=\"unit\">cm3</span>를 산소 150 <span class=\"unit\">cm3</span>(과량) 속에서 완전 연소시켰어요.</p><p><span class=\"chem\">C3H8(g) + 5O2(g) -> 3CO2(g) + 4H2O(l)</span></p><p>혼합물이 처음 온도와 압력으로 돌아왔을 때 남은 기체의 전체 부피는 몇 <span class=\"unit\">cm3</span>인가요?</p>",
       options: [
         // EN: 60
-        "",
+        "60",
         // EN: 110
-        "",
+        "110",
         // EN: 140
-        "",
+        "140",
         // EN: 190
-        "",
+        "190",
       ],
       hints: [
         // EN: Use the coefficients as volume ratios, for the gases only. Check every state symbol.
-        "",
+        "계수를 부피의 비로 쓰되, 기체에만 쓰세요. 상태 기호를 모두 확인하세요.",
         // EN: Work out the volume of <span class="chem">O2</span> that reacts and the volume of <span class="chem">CO2</span> formed from 20 <span class="unit">cm3</span> of propane.
-        "",
+        "프로페인 20 <span class=\"unit\">cm3</span>와 반응하는 <span class=\"chem\">O2</span>의 부피와 생기는 <span class=\"chem\">CO2</span>의 부피를 구하세요.",
         // EN: What is in the container at the end? The gas that was made, plus any gas that was not used up.
-        "",
+        "마지막에 용기 안에는 무엇이 있을까요? 생긴 기체, 그리고 다 쓰이지 않은 기체예요.",
       ],
       // EN: <div class="worked__math"><i>V</i>(<span class="chem">O2</span>) reacting = 5 × 20 <span class="unit">cm3</span><br>&nbsp;&nbsp;= 100 <span class="unit">cm3</span></div><div class="worked__math"><i>V</i>(<span class="chem">O2</span>) left over = 150 <span class="unit">cm3</span> − 100 <span class="unit">cm3</span><br>&nbsp;&nbsp;= 50 <span class="unit">cm3</span></div><div class="worked__math"><i>V</i>(<span class="chem">CO2</span>) formed = 3 × 20 <span class="unit">cm3</span><br>&nbsp;&nbsp;= 60 <span class="unit">cm3</span></div><p>The water is a liquid, so its volume is negligible.</p><div class="worked__math">Total gas = 50 <span class="unit">cm3</span> + 60 <span class="unit">cm3</span><br>&nbsp;&nbsp;= <strong>110 <span class="unit">cm3</span></strong></div>
-      solution: "",
+      solution: "<div class=\"worked__math\">반응한 <i>V</i>(<span class=\"chem\">O2</span>) = 5 × 20 <span class=\"unit\">cm3</span><br>&nbsp;&nbsp;= 100 <span class=\"unit\">cm3</span></div><div class=\"worked__math\">남은 <i>V</i>(<span class=\"chem\">O2</span>) = 150 <span class=\"unit\">cm3</span> − 100 <span class=\"unit\">cm3</span><br>&nbsp;&nbsp;= 50 <span class=\"unit\">cm3</span></div><div class=\"worked__math\">생긴 <i>V</i>(<span class=\"chem\">CO2</span>) = 3 × 20 <span class=\"unit\">cm3</span><br>&nbsp;&nbsp;= 60 <span class=\"unit\">cm3</span></div><p>물은 액체이므로 그 부피는 무시할 수 있어요.</p><div class=\"worked__math\">기체 전체 = 50 <span class=\"unit\">cm3</span> + 60 <span class=\"unit\">cm3</span><br>&nbsp;&nbsp;= <strong>110 <span class=\"unit\">cm3</span></strong></div>",
       misconception: {
         // EN (option A): This is the <span class="chem">CO2</span> only. Some oxygen is left over: 150 <span class="unit">cm3</span> was supplied but only 100 <span class="unit">cm3</span> reacted.
-        "0": "",
+        "0": "이것은 <span class=\"chem\">CO2</span>만의 부피예요. 산소가 일부 남아요: 150 <span class=\"unit\">cm3</span>를 넣었지만 100 <span class=\"unit\">cm3</span>만 반응했어요.",
         // EN (option C): You counted the water as a gas (60 + 80) and left out the excess oxygen. The state symbol (l) shows that the water is liquid, so its volume is negligible.
-        "2": "",
+        "2": "물을 기체로 세고(60 + 80) 과량의 산소를 빠뜨렸어요. 상태 기호 (l)은 물이 액체라는 뜻이므로 그 부피는 무시할 수 있어요.",
         // EN (option D): You included the excess oxygen, but you also counted 80 <span class="unit">cm3</span> of water vapour. The state symbol (l) shows that the water is liquid at the final conditions.
-        "3": "",
+        "3": "과량의 산소는 넣었지만 수증기 80 <span class=\"unit\">cm3</span>까지 셌어요. 상태 기호 (l)은 마지막 조건에서 물이 액체라는 뜻이에요.",
       },
     },
 
     // ── s1-4-q049 · numeric · exam · SL · Structure 1.4.6 · 1 mark
     "s1-4-q049": {
       // EN: <p>Butane burns completely in oxygen.</p><p><span class="chem">2C4H10(g) + 13O2(g) -> 8CO2(g) + 10H2O(l)</span></p><p>Calculate the volume of oxygen, in <span class="unit">cm3</span>, needed to burn 20.0 <span class="unit">cm3</span> of butane completely. Both volumes are measured at the same temperature and pressure. Give your answer to 3 significant figures.</p>
-      stem: "",
+      stem: "<p>뷰테인은 산소 속에서 완전 연소해요.</p><p><span class=\"chem\">2C4H10(g) + 13O2(g) -> 8CO2(g) + 10H2O(l)</span></p><p>뷰테인 20.0 <span class=\"unit\">cm3</span>를 완전 연소시키는 데 필요한 산소의 부피를 <span class=\"unit\">cm3</span> 단위로 계산하시오 (calculate). 두 부피는 같은 온도와 압력에서 잰 값이에요. 유효 숫자 3자리로 답하세요.</p>",
       hints: [
         // EN: At the same temperature and pressure, volume ratio = mole ratio.
-        "",
+        "온도와 압력이 같으면 부피의 비 = 몰 비.",
         // EN: The ratio is 2 volumes of butane to 13 volumes of oxygen. Watch the 2 in front of the butane: the ratio is not 1 : 13.
-        "",
+        "비는 뷰테인 2부피 대 산소 13부피예요. 뷰테인 앞의 2를 조심하세요: 비는 1 : 13이 아니에요.",
       ],
       // EN: <p>The mole ratio <span class="chem">C4H10</span> : <span class="chem">O2</span> is 2 : 13. At the same temperature and pressure the volume ratio is also 2 : 13.</p><div class="worked__math"><i>V</i>(<span class="chem">O2</span>) = 20.0 <span class="unit">cm3</span> × <span class="frac"><span>13</span><span>2</span></span><br>&nbsp;&nbsp;= <strong>130 <span class="unit">cm3</span></strong></div><p>Named slip: 260 <span class="unit">cm3</span> means you multiplied by 13 and ignored the coefficient 2 on butane.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">C4H10</span> : <span class=\"chem\">O2</span>의 몰 비는 2 : 13이에요. 온도와 압력이 같으면 부피의 비도 2 : 13이에요.</p><div class=\"worked__math\"><i>V</i>(<span class=\"chem\">O2</span>) = 20.0 <span class=\"unit\">cm3</span> × <span class=\"frac\"><span>13</span><span>2</span></span><br>&nbsp;&nbsp;= <strong>130 <span class=\"unit\">cm3</span></strong></div><p>흔한 실수: 260 <span class=\"unit\">cm3</span>가 나왔다면 13을 곱하고 뷰테인의 계수 2를 무시한 거예요.</p>",
     },
 
     // ── s1-4-q050 · mcq · challenge · SL · Structure 1.4.6 · 1 mark
     "s1-4-q050": {
       // EN: <p>10 <span class="unit">cm3</span> of a gaseous hydrocarbon, <span class="chem">C</span><sub><i>x</i></sub><span class="chem">H</span><sub><i>y</i></sub>, burns completely in excess oxygen. It forms 30 <span class="unit">cm3</span> of carbon dioxide and 40 <span class="unit">cm3</span> of water vapour. All volumes are measured at the same temperature (above 100 °C) and pressure.</p><p>What is the formula of the hydrocarbon?</p>
-      stem: "",
+      stem: "<p>기체 탄화수소 <span class=\"chem\">C</span><sub><i>x</i></sub><span class=\"chem\">H</span><sub><i>y</i></sub> 10 <span class=\"unit\">cm3</span>가 과량의 산소 속에서 완전 연소해요. 이산화 탄소 30 <span class=\"unit\">cm3</span>와 수증기 40 <span class=\"unit\">cm3</span>가 생겨요. 모든 부피는 같은 온도(100 °C보다 높음)와 압력에서 잰 값이에요.</p><p>이 탄화수소의 화학식은 무엇인가요?</p>",
       options: [
         // EN: <span class="chem">C3H4</span>
-        "",
+        "<span class=\"chem\">C3H4</span>",
         // EN: <span class="chem">C3H8</span>
-        "",
+        "<span class=\"chem\">C3H8</span>",
         // EN: <span class="chem">C4H6</span>
-        "",
+        "<span class=\"chem\">C4H6</span>",
         // EN: <span class="chem">C30H80</span>
-        "",
+        "<span class=\"chem\">C30H80</span>",
       ],
       hints: [
         // EN: Avogadro's law: the volume ratio is the ratio of molecules. Simplify 10 : 30 : 40.
-        "",
+        "아보가드로 법칙: 부피의 비는 분자 수의 비예요. 10 : 30 : 40을 간단히 하세요.",
         // EN: One molecule of hydrocarbon gives 3 molecules of <span class="chem">CO2</span> and 4 molecules of <span class="chem">H2O</span>.
-        "",
+        "탄화수소 분자 1개에서 <span class=\"chem\">CO2</span> 분자 3개와 <span class=\"chem\">H2O</span> 분자 4개가 생겨요.",
         // EN: All the C atoms end up in <span class="chem">CO2</span> and all the H atoms end up in <span class="chem">H2O</span>. Count the atoms.
-        "",
+        "C 원자는 모두 <span class=\"chem\">CO2</span>로, H 원자는 모두 <span class=\"chem\">H2O</span>로 가요. 원자 수를 세어 보세요.",
       ],
       // EN: <p>Volume ratio, hydrocarbon : <span class="chem">CO2</span> : <span class="chem">H2O</span>:</p><div class="worked__math">10 : 30 : 40 = 1 : 3 : 4</div><p>So 1 molecule of hydrocarbon gives 3 molecules of <span class="chem">CO2</span> and 4 molecules of <span class="chem">H2O</span>.</p><div class="worked__math">C atoms: <i>x</i> = 3 × 1 = 3</div><div class="worked__math">H atoms: <i>y</i> = 4 × 2 = 8</div><p>The hydrocarbon is <strong><span class="chem">C3H8</span></strong>. Here the water counts as a gas because the temperature is above 100 °C.</p>
-      solution: "",
+      solution: "<p>부피의 비, 탄화수소 : <span class=\"chem\">CO2</span> : <span class=\"chem\">H2O</span>:</p><div class=\"worked__math\">10 : 30 : 40 = 1 : 3 : 4</div><p>그러니까 탄화수소 분자 1개에서 <span class=\"chem\">CO2</span> 분자 3개와 <span class=\"chem\">H2O</span> 분자 4개가 생겨요.</p><div class=\"worked__math\">C 원자: <i>x</i> = 3 × 1 = 3</div><div class=\"worked__math\">H 원자: <i>y</i> = 4 × 2 = 8</div><p>이 탄화수소는 <strong><span class=\"chem\">C3H8</span></strong>이에요. 여기서는 온도가 100 °C보다 높으므로 물을 기체로 세요.</p>",
       misconception: {
         // EN (option A): You have the carbon right, but you gave each water molecule one hydrogen atom. Each <span class="chem">H2O</span> contains 2 H atoms, so 4 volumes of water means 8 H.
-        "0": "",
+        "0": "탄소는 맞지만 물 분자 1개에 수소 원자를 1개로 셌어요. <span class=\"chem\">H2O</span> 1개에는 H 원자가 2개 있으므로, 물 4부피는 H 8개예요.",
         // EN (option C): You swapped the two products. The 30 <span class="unit">cm3</span> of <span class="chem">CO2</span> gives the carbon and the 40 <span class="unit">cm3</span> of <span class="chem">H2O</span> gives the hydrogen.
-        "2": "",
+        "2": "두 생성물을 바꿨어요. <span class=\"chem\">CO2</span> 30 <span class=\"unit\">cm3</span>에서 탄소를, <span class=\"chem\">H2O</span> 40 <span class=\"unit\">cm3</span>에서 수소를 알 수 있어요.",
         // EN (option D): You used the volumes as numbers of atoms. Divide by the 10 <span class="unit">cm3</span> of hydrocarbon first, to find how many molecules of each product form from <em>one</em> molecule.
-        "3": "",
+        "3": "부피를 원자 수처럼 썼어요. 먼저 탄화수소 10 <span class=\"unit\">cm3</span>로 나누어, 분자 <em>1개</em>에서 각 생성물 분자가 몇 개 생기는지 구하세요.",
       },
     },
 
     // ── s1-4-q051 · multi · challenge · SL · Structure 1.4.6 · 1 mark
     "s1-4-q051": {
       // EN: <p>Two identical flasks are at the same temperature and pressure. Flask A contains ammonia, <span class="chem">NH3</span>. Flask B contains oxygen, <span class="chem">O2</span>.</p><p>Which statements are correct? Select <strong>all</strong> that apply.</p><p>Use <i>A</i><sub>r</sub>: H = 1.01, N = 14.01, O = 16.00.</p>
-      stem: "",
+      stem: "<p>똑같은 플라스크 두 개가 같은 온도와 압력에 있어요. 플라스크 A에는 암모니아(<span class=\"chem\">NH3</span>)가, 플라스크 B에는 산소(<span class=\"chem\">O2</span>)가 들어 있어요.</p><p>옳은 설명을 <strong>모두</strong> 고르세요.</p><p><i>A</i><sub>r</sub>를 이용하세요: H = 1.01, N = 14.01, O = 16.00.</p>",
       options: [
         // EN: The two flasks contain the same number of molecules.
-        "",
+        "두 플라스크에 든 분자 수는 같다.",
         // EN: Flask A contains twice as many atoms as flask B.
-        "",
+        "플라스크 A에는 플라스크 B보다 원자가 2배 많다.",
         // EN: The two flasks contain the same mass of gas.
-        "",
+        "두 플라스크에 든 기체의 질량은 같다.",
         // EN: The gas in flask B has the greater mass.
-        "",
+        "플라스크 B에 든 기체의 질량이 더 크다.",
         // EN: Flask B contains fewer molecules because <span class="chem">O2</span> molecules are heavier.
-        "",
+        "<span class=\"chem\">O2</span> 분자가 더 무거우므로 플라스크 B에 든 분자 수가 더 적다.",
       ],
       hints: [
         // EN: Start from Avogadro's law. What does it say about the number of molecules in each flask?
-        "",
+        "아보가드로 법칙에서 시작하세요. 각 플라스크에 든 분자 수에 대해 무엇을 말해 주나요?",
         // EN: Then compare one molecule of each gas: how many atoms does it have, and what is its molar mass?
-        "",
+        "그다음 두 기체의 분자 1개를 비교하세요: 원자가 몇 개인지, 몰 질량은 얼마인지.",
       ],
       // EN: <p>Same volume, temperature and pressure means the same number of molecules, and so the same amount in moles, <i>n</i>.</p><p>Atoms: <span class="chem">NH3</span> has 4 atoms per molecule and <span class="chem">O2</span> has 2. So flask A contains twice as many atoms.</p><p>Mass: <i>m</i> = <i>n</i> × <i>M</i>, and <i>n</i> is the same for both.</p><div class="worked__math"><i>M</i>(<span class="chem">NH3</span>) = 17.04 <span class="unit">g mol-1</span></div><div class="worked__math"><i>M</i>(<span class="chem">O2</span>) = 32.00 <span class="unit">g mol-1</span></div><p>Oxygen has the larger molar mass, so flask B has the greater mass.</p>
-      solution: "",
+      solution: "<p>부피, 온도, 압력이 같으면 분자 수가 같고, 따라서 몰 단위의 양 <i>n</i>도 같아요.</p><p>원자: <span class=\"chem\">NH3</span>는 분자 1개에 원자가 4개, <span class=\"chem\">O2</span>는 2개예요. 그래서 플라스크 A에는 원자가 2배 많아요.</p><p>질량: <i>m</i> = <i>n</i> × <i>M</i>이고, <i>n</i>은 둘 다 같아요.</p><div class=\"worked__math\"><i>M</i>(<span class=\"chem\">NH3</span>) = 17.04 <span class=\"unit\">g mol-1</span></div><div class=\"worked__math\"><i>M</i>(<span class=\"chem\">O2</span>) = 32.00 <span class=\"unit\">g mol-1</span></div><p>산소의 몰 질량이 더 크므로 플라스크 B의 질량이 더 커요.</p>",
       misconception: {
         // EN (option C): Equal numbers of molecules do not mean equal masses. The molar masses are different: 17.04 <span class="unit">g mol-1</span> for <span class="chem">NH3</span> and 32.00 <span class="unit">g mol-1</span> for <span class="chem">O2</span>.
-        "2": "",
+        "2": "분자 수가 같다고 질량이 같은 것은 아니에요. 몰 질량이 달라요: <span class=\"chem\">NH3</span>는 17.04 <span class=\"unit\">g mol-1</span>, <span class=\"chem\">O2</span>는 32.00 <span class=\"unit\">g mol-1</span>이에요.",
         // EN (option E): Avogadro's law does not depend on the mass or size of the molecules. Equal volumes at the same temperature and pressure contain equal numbers of molecules.
-        "4": "",
+        "4": "아보가드로 법칙은 분자의 질량이나 크기와 상관없어요. 온도와 압력이 같을 때 부피가 같으면 분자 수도 같아요.",
       },
     },
 
     // ── s1-4-q052 · mcq · foundation · SL · Structure 1.4.5 · 1 mark
     "s1-4-q052": {
       // EN: <p>A student wants to find the concentration of a coloured solution with a colorimeter and a calibration curve.</p><p>Which describes how the calibration curve is made and used?</p>
-      stem: "",
+      stem: "<p>한 학생이 비색계와 검량선을 써서 색깔 있는 용액의 농도를 구하려고 해요.</p><p>검량선을 만들고 쓰는 방법을 바르게 설명한 것은 무엇인가요?</p>",
       options: [
         // EN: Measure the absorbance of the unknown solution several times and take the mean.
-        "",
+        "미지 용액의 흡광도를 여러 번 재고 평균을 낸다.",
         // EN: Measure the absorbance of several solutions of known concentration, plot absorbance against concentration, then read the concentration of the unknown from the line.
-        "",
+        "농도를 아는 용액 여러 개의 흡광도를 재고, 농도에 대한 흡광도 그래프를 그린 다음, 직선에서 미지 용액의 농도를 읽는다.",
         // EN: Measure the absorbance of one solution of known concentration and assume the unknown has the same concentration.
-        "",
+        "농도를 아는 용액 하나의 흡광도를 재고, 미지 용액의 농도가 그와 같다고 가정한다.",
         // EN: Plot the mass of solute against the volume of solution and find the gradient.
-        "",
+        "용액의 부피에 대한 용질의 질량 그래프를 그리고 기울기를 구한다.",
       ],
       hints: [
         // EN: A calibration curve links an instrument reading to a concentration. Which solutions must you measure to draw it?
-        "",
+        "검량선은 기기의 측정값을 농도와 연결해요. 검량선을 그리려면 어떤 용액을 재야 할까요?",
         // EN: Standard solutions have known concentrations. The unknown is measured last and read from the graph.
-        "",
+        "표준 용액은 농도를 알아요. 미지 용액은 마지막에 재고 그래프에서 읽어요.",
       ],
       // EN: <p>Make several standard solutions of known concentration. Measure the absorbance of each. Plot absorbance (<i>y</i>) against concentration (<i>x</i>) and draw the line of best fit. Then measure the absorbance of the unknown and read its concentration from the line. The unknown should lie inside the range of the standards.</p>
-      solution: "",
+      solution: "<p>농도를 아는 표준 용액을 여러 개 만들어요. 각각의 흡광도를 재요. 흡광도(<i>y</i>)를 농도(<i>x</i>)에 대해 그리고 최적선을 그어요. 그다음 미지 용액의 흡광도를 재고 직선에서 농도를 읽어요. 미지 용액의 값은 표준 용액들의 범위 안에 있어야 해요.</p>",
       misconception: {
         // EN (option A): Repeating the reading makes it more reliable, but an absorbance is not a concentration. You need solutions of known concentration to link the two.
-        "0": "",
+        "0": "여러 번 재면 측정값을 더 믿을 수 있지만, 흡광도는 농도가 아니에요. 둘을 연결하려면 농도를 아는 용액이 필요해요.",
         // EN (option C): One known solution gives one point, not a line. Several standard solutions are needed, and the unknown is read from the line of best fit.
-        "2": "",
+        "2": "농도를 아는 용액 하나로는 점 하나만 얻을 뿐 직선을 그릴 수 없어요. 표준 용액이 여러 개 필요하고, 미지 용액은 최적선에서 읽어요.",
         // EN (option D): That graph would give a concentration in <span class="unit">g dm-3</span> for a solution you made yourself. It does not use the colorimeter and says nothing about the unknown.
-        "3": "",
+        "3": "그 그래프는 직접 만든 용액의 <span class=\"unit\">g dm-3</span> 단위 농도를 알려 줄 뿐이에요. 비색계를 쓰지 않고, 미지 용액에 대해서는 아무것도 알려 주지 않아요.",
       },
     },
 
     // ── s1-4-q053 · numeric · foundation · SL · Structure 1.4.5 · 1 mark
     "s1-4-q053": {
       // EN: <p>3.60 <span class="unit">g</span> of glucose is dissolved in distilled water and the solution is made up to 200.0 <span class="unit">cm3</span>.</p><p>Calculate the concentration of the solution in <span class="unit">g dm-3</span>. Give your answer to 3 significant figures.</p>
-      stem: "",
+      stem: "<p>포도당 3.60 <span class=\"unit\">g</span>을 증류수에 녹이고 용액을 200.0 <span class=\"unit\">cm3</span>로 맞췄어요.</p><p>이 용액의 농도를 <span class=\"unit\">g dm-3</span> 단위로 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p>",
       hints: [
         // EN: A concentration in <span class="unit">g dm-3</span> is the mass of solute divided by the volume of solution. You do not need the molar mass.
-        "",
+        "<span class=\"unit\">g dm-3</span> 단위의 농도는 용질의 질량을 용액의 부피로 나눈 값이에요. 몰 질량은 필요 없어요.",
         // EN: Convert the volume first: 200.0 <span class="unit">cm3</span> ÷ 1000 = 0.2000 <span class="unit">dm3</span>.
-        "",
+        "먼저 부피를 바꾸세요: 200.0 <span class=\"unit\">cm3</span> ÷ 1000 = 0.2000 <span class=\"unit\">dm3</span>.",
       ],
       // EN: <div class="worked__math"><i>V</i> = 200.0 <span class="unit">cm3</span> ÷ 1000<br>&nbsp;&nbsp;= 0.2000 <span class="unit">dm3</span></div><div class="worked__math">concentration = <span class="frac"><span>3.60 <span class="unit">g</span></span><span>0.2000 <span class="unit">dm3</span></span></span><br>&nbsp;&nbsp;= <strong>18.0 <span class="unit">g dm-3</span></strong></div><p>Named slips: 0.0180 means you left the volume in <span class="unit">cm3</span>. 0.720 means you multiplied by the volume instead of dividing.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>V</i> = 200.0 <span class=\"unit\">cm3</span> ÷ 1000<br>&nbsp;&nbsp;= 0.2000 <span class=\"unit\">dm3</span></div><div class=\"worked__math\">농도 = <span class=\"frac\"><span>3.60 <span class=\"unit\">g</span></span><span>0.2000 <span class=\"unit\">dm3</span></span></span><br>&nbsp;&nbsp;= <strong>18.0 <span class=\"unit\">g dm-3</span></strong></div><p>흔한 실수: 0.0180이 나왔다면 부피를 <span class=\"unit\">cm3</span>로 둔 거예요. 0.720이 나왔다면 부피로 나누지 않고 곱한 거예요.</p>",
     },
 
   }

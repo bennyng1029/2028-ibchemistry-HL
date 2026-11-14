@@ -775,343 +775,343 @@ S1.i18n.register('ko', 's1-3.q', {
     // ── s1-3-q028 · mcq · foundation · AHL · Structure 1.3.6 · 1 mark
     "s1-3-q028": {
       // EN: <p>Which feature of the emission spectrum of an atom can be used to find its first ionization energy?</p>
-      stem: "",
+      stem: "<p>원자의 방출 스펙트럼에서 제1 이온화 에너지를 구하는 데 쓸 수 있는 특징은 무엇인가요?</p>",
       options: [
         // EN: The line with the lowest frequency in the visible region
-        "",
+        "가시광선 영역에서 진동수가 가장 작은 선",
         // EN: The total number of lines in the spectrum
-        "",
+        "스펙트럼에 있는 선의 전체 개수",
         // EN: The limit of convergence at high frequency
-        "",
+        "높은 진동수 쪽의 수렴 한계",
         // EN: The spacing between the first two lines of a set
-        "",
+        "한 선 계열에서 처음 두 선 사이의 간격",
       ],
       hints: [
         // EN: Ionization means the electron is removed completely, to n = ∞. Where do the lines end up as the upper level gets higher and higher?
-        "",
+        "이온화란 전자가 n = ∞까지 완전히 떨어져 나가는 것이에요. 위쪽 준위가 점점 더 높아지면 선들은 결국 어디로 가나요?",
       ],
       // EN: <p>The lines in a set get closer together at higher frequency until they merge. This point is the <strong>limit of convergence</strong>. It corresponds to the electron moving between the lower level and n = ∞, which is ionization. Its frequency (or wavelength) gives the ionization energy using E = hf.</p>
-      solution: "",
+      solution: "<p>한 계열의 선들은 진동수가 높아질수록 서로 가까워지다가 결국 하나로 합쳐져요. 이 지점이 <strong>수렴 한계</strong>예요. 이것은 전자가 아래쪽 준위와 n = ∞ 사이를 이동하는 것, 즉 이온화에 해당해요. 이 지점의 진동수(또는 파장)로부터 E = hf를 이용해 이온화 에너지를 구할 수 있어요.</p>",
       misconception: {
         // EN (option A): A single line gives the energy difference between two levels inside the atom. Ionization means the electron leaves the atom completely.
-        "0": "",
+        "0": "선 하나는 원자 안에 있는 두 준위 사이의 에너지 차이를 알려 줘요. 이온화는 전자가 원자에서 완전히 떨어져 나가는 것이에요.",
         // EN (option B): The number of lines does not measure an energy.
-        "1": "",
+        "1": "선의 개수로는 에너지를 잴 수 없어요.",
         // EN (option D): The spacing between two lines gives the energy difference between two upper levels. It does not give the energy needed to remove the electron.
-        "3": "",
+        "3": "두 선 사이의 간격은 위쪽 두 준위 사이의 에너지 차이를 알려 줘요. 전자를 떼어 내는 데 필요한 에너지를 알려 주지는 않아요.",
       },
     },
 
     // ── s1-3-q029 · mcq · exam · AHL · Structure 1.3.6 · 1 mark
     "s1-3-q029": {
       // EN: <p>Why does the first ionization energy generally <strong>increase</strong> across period 3, from sodium to argon?</p>
-      stem: "",
+      stem: "<p>3주기에서 나트륨부터 아르곤까지 갈수록 제1 이온화 에너지가 대체로 <strong>커지는</strong> 이유는 무엇인가요?</p>",
       options: [
         // EN: The number of occupied main energy levels increases.
-        "",
+        "전자가 들어 있는 주 에너지 준위의 수가 많아진다.",
         // EN: The nuclear charge increases while the shielding by inner electrons stays about the same.
-        "",
+        "핵전하는 커지지만, 안쪽 전자에 의한 가려막기는 거의 그대로이다.",
         // EN: The atoms get larger, so the outer electrons are further from the nucleus.
-        "",
+        "원자가 커지므로 바깥 전자가 원자핵에서 더 멀어진다.",
         // EN: The shielding by inner electrons increases with each element.
-        "",
+        "원소마다 안쪽 전자에 의한 가려막기가 커진다.",
       ],
       hints: [
         // EN: What changes in the nucleus from one element to the next?
-        "",
+        "한 원소에서 다음 원소로 갈 때 원자핵에서는 무엇이 달라지나요?",
         // EN: Are the extra electrons going into a new main energy level or the same one?
-        "",
+        "늘어난 전자는 새로운 주 에너지 준위로 들어가나요, 아니면 같은 준위로 들어가나요?",
       ],
       // EN: <p>Across the period the number of protons increases, so the nuclear charge increases. The outer electrons are all in the same main energy level (n = 3), so the shielding by the inner electrons is about the same. The outer electrons are attracted more strongly to the nucleus (and are closer to it), so more energy is needed to remove one.</p>
-      solution: "",
+      solution: "<p>주기를 따라 갈수록 양성자 수가 많아지므로 핵전하가 커져요. 바깥 전자는 모두 같은 주 에너지 준위(n = 3)에 있으므로, 안쪽 전자에 의한 가려막기는 거의 같아요. 바깥 전자가 원자핵에 더 강하게 끌리므로(그리고 원자핵에 더 가까우므로), 전자 하나를 떼어 내는 데 더 많은 에너지가 필요해요.</p>",
       misconception: {
         // EN (option A): All the period 3 elements have three occupied main energy levels. A new level starts only at the next period.
-        "0": "",
+        "0": "3주기 원소는 모두 전자가 들어 있는 주 에너지 준위가 3개예요. 새로운 준위는 다음 주기에서야 시작돼요.",
         // EN (option C): The atoms get <em>smaller</em> across a period. And an electron further from the nucleus would be easier to remove, not harder.
-        "2": "",
+        "2": "주기를 따라 갈수록 원자는 <em>작아져요</em>. 그리고 전자가 원자핵에서 더 멀다면 떼어 내기가 더 어려운 것이 아니라 더 쉬워요.",
         // EN (option D): Across a period the extra electrons go into the same main energy level, so the number of inner (shielding) electrons does not change. More shielding would also make ionization easier, not harder.
-        "3": "",
+        "3": "주기를 따라 갈 때 늘어난 전자는 같은 주 에너지 준위로 들어가므로, 안쪽(가려막는) 전자의 수는 변하지 않아요. 또 가려막기가 커진다면 이온화가 더 어려워지는 것이 아니라 더 쉬워질 거예요.",
       },
     },
 
     // ── s1-3-q030 · short · exam · AHL · Structure 1.3.6 · 2 marks
     "s1-3-q030": {
       // EN: <p>The first ionization energies of three group 1 elements are: Li 520, Na 496 and K 419 <span class="unit">kJ mol-1</span>.</p><p>Explain why the first ionization energy decreases down the group.</p>
-      stem: "",
+      stem: "<p>1족 원소 세 가지의 제1 이온화 에너지는 다음과 같아요: Li 520, Na 496, K 419 <span class=\"unit\">kJ mol-1</span>.</p><p>족의 아래로 갈수록 제1 이온화 에너지가 작아지는 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: Compare where the outer electron is: 2s in Li, 3s in Na, 4s in K.
-        "",
+        "바깥 전자가 어디에 있는지 비교해 봐요: Li는 2s, Na는 3s, K는 4s.",
         // EN: Two things change that both weaken the attraction to the nucleus. Name both.
-        "",
+        "원자핵의 인력을 약하게 만드는 두 가지가 달라져요. 둘 다 쓰세요.",
       ],
       // EN: <p>Going down the group, the outer electron is in a higher main energy level, so it is further from the nucleus. There are also more inner electrons, so the outer electron is more shielded from the nucleus. The attraction between the nucleus and the outer electron is weaker (even though the nuclear charge is larger), so less energy is needed to remove it.</p>
-      answer: "",
+      answer: "<p>족의 아래로 갈수록 바깥 전자가 더 높은 주 에너지 준위에 있으므로 원자핵에서 더 멀어요. 또 안쪽 전자가 더 많으므로, 바깥 전자는 원자핵으로부터 더 많이 가려막혀요. 원자핵과 바깥 전자 사이의 인력이 (핵전하가 더 큰데도) 더 약하므로, 전자를 떼어 내는 데 필요한 에너지가 더 적어요.</p>",
       markscheme: [
         // EN: The outer electron is in a higher main energy level / is further from the nucleus (accept: atomic radius increases).
-        "",
+        "바깥 전자가 더 높은 주 에너지 준위에 있다 / 원자핵에서 더 멀다(인정: 원자 반지름이 커진다).",
         // EN: There is more shielding by inner electrons, so the attraction between the nucleus and the outer electron is weaker (this outweighs the increase in nuclear charge).
-        "",
+        "안쪽 전자에 의한 가려막기가 더 커서, 원자핵과 바깥 전자 사이의 인력이 더 약하다(이 효과가 핵전하 증가보다 크다).",
       ],
     },
 
     // ── s1-3-q031 · short · exam · AHL · Structure 1.3.6 · 2 marks
     "s1-3-q031": {
       // EN: <p>The first ionization energy of beryllium is 900 <span class="unit">kJ mol-1</span> and that of boron is 801 <span class="unit">kJ mol-1</span>, even though boron has the greater nuclear charge.</p><p>Explain why boron has the lower first ionization energy.</p>
-      stem: "",
+      stem: "<p>베릴륨의 제1 이온화 에너지는 900 <span class=\"unit\">kJ mol-1</span>이고 붕소는 801 <span class=\"unit\">kJ mol-1</span>이에요. 붕소의 핵전하가 더 큰데도 그래요.</p><p>붕소의 제1 이온화 에너지가 더 작은 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: Write the electron configuration of each atom. Which sublevel does the outermost electron come from?
-        "",
+        "각 원자의 전자 배치를 써요. 가장 바깥 전자는 어느 부껍질에서 나오나요?",
         // EN: Base the explanation on the energy of the electron that is removed.
-        "",
+        "떼어 내는 전자의 에너지를 바탕으로 설명해요.",
       ],
       // EN: <p>Beryllium is <span class="mono">1s<sup>2</sup> 2s<sup>2</sup></span>, so the electron removed comes from the 2s sublevel. Boron is <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>1</sup></span>, so the electron removed comes from the 2p sublevel. The 2p sublevel is higher in energy than the 2s sublevel (the 2p electron is also shielded by the 2s electrons), so less energy is needed to remove it.</p>
-      answer: "",
+      answer: "<p>베릴륨은 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup></span>이므로 떼어 내는 전자는 2s 부껍질에서 나와요. 붕소는 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>1</sup></span>이므로 떼어 내는 전자는 2p 부껍질에서 나와요. 2p 부껍질은 2s 부껍질보다 에너지가 높으므로(또 2p 전자는 2s 전자에 의해 가려막혀요), 전자를 떼어 내는 데 필요한 에너지가 더 적어요.</p>",
       markscheme: [
         // EN: The electron is removed from the 2p sublevel in B but from the 2s sublevel in Be (accept: configurations 1s² 2s² 2p¹ and 1s² 2s² used to show this).
-        "",
+        "B에서는 전자가 2p 부껍질에서, Be에서는 2s 부껍질에서 떨어져 나간다(인정: 전자 배치 1s² 2s² 2p¹과 1s² 2s²를 써서 이를 보인 경우).",
         // EN: The 2p sublevel is higher in energy than 2s / the 2p electron is further from the nucleus and shielded by the 2s electrons, so it is easier to remove.
-        "",
+        "2p 부껍질은 2s보다 에너지가 높다 / 2p 전자는 원자핵에서 더 멀고 2s 전자에 의해 가려막혀서, 떼어 내기가 더 쉽다.",
       ],
     },
 
     // ── s1-3-q032 · short · challenge · AHL · Structure 1.3.6 · 2 marks
     "s1-3-q032": {
       // EN: <p>The first ionization energy of nitrogen is 1402 <span class="unit">kJ mol-1</span> and that of oxygen is 1314 <span class="unit">kJ mol-1</span>. In both atoms the electron is removed from the 2p sublevel, and oxygen has the greater nuclear charge.</p><p>Explain why oxygen has the lower first ionization energy.</p>
-      stem: "",
+      stem: "<p>질소의 제1 이온화 에너지는 1402 <span class=\"unit\">kJ mol-1</span>이고 산소는 1314 <span class=\"unit\">kJ mol-1</span>이에요. 두 원자 모두 전자는 2p 부껍질에서 떨어져 나가고, 핵전하는 산소가 더 커요.</p><p>산소의 제1 이온화 에너지가 더 작은 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: Draw the three 2p boxes for each atom and fill them using Hund’s rule.
-        "",
+        "각 원자에 대해 2p 상자 세 개를 그리고, 훈트 규칙에 따라 채워 봐요.",
         // EN: What is different about the orbital that the electron leaves in oxygen?
-        "",
+        "산소에서 전자가 떠나는 오비탈은 무엇이 다른가요?",
         // EN: Do not write about a half-filled sublevel being "stable". Explain using repulsion and the energy of the electron removed.
-        "",
+        "반쯤 채워진 부껍질이 \"안정하다\"고 쓰지 마세요. 반발력과 떼어 내는 전자의 에너지를 이용해 설명해요.",
       ],
       // EN: <p>Nitrogen is <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>3</sup></span>: each 2p orbital holds one electron. Oxygen is <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>4</sup></span>: one 2p orbital holds two electrons. The electron removed from oxygen comes from this doubly occupied 2p orbital. The two electrons in the same orbital repel each other, which raises the energy of the electron, so less energy is needed to remove it.</p><p><svg viewBox="0 0 200 56" width="200" height="56" role="img" aria-label="Orbital diagrams of the 2p sublevel. In nitrogen each of the three 2p boxes holds one up arrow. In oxygen the first 2p box holds an up and a down arrow and the other two hold one up arrow each."><rect x="2" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M17 25V8M13 13L17 8L21 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="32" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M47 25V8M43 13L47 8L51 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="62" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M77 25V8M73 13L77 8L81 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><text x="47" y="50" text-anchor="middle" font-size="14" fill="currentColor">2p in N</text><rect x="108" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M118 25V8M114 13L118 8L122 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M128 7V24M124 19L128 24L132 19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="138" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M153 25V8M149 13L153 8L157 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="168" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M183 25V8M179 13L183 8L187 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><text x="153" y="50" text-anchor="middle" font-size="14" fill="currentColor">2p in O</text></svg></p>
-      answer: "",
+      answer: "<p>질소는 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>3</sup></span>이에요: 2p 오비탈마다 전자가 하나씩 들어 있어요. 산소는 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>4</sup></span>예요: 2p 오비탈 하나에 전자가 두 개 들어 있어요. 산소에서 떼어 내는 전자는 전자 두 개가 들어 있는 이 2p 오비탈에서 나와요. 같은 오비탈에 있는 두 전자는 서로 밀어내고, 이 반발력이 전자의 에너지를 높이므로, 전자를 떼어 내는 데 필요한 에너지가 더 적어요.</p><p><svg viewBox=\"0 0 200 56\" width=\"200\" height=\"56\" role=\"img\" aria-label=\"2p 부껍질의 오비탈 상자 그림. 질소는 2p 상자 세 개에 각각 위쪽 화살표가 하나씩 있어요. 산소는 첫 번째 2p 상자에 위쪽과 아래쪽 화살표가 하나씩 있고, 나머지 두 상자에는 위쪽 화살표가 하나씩 있어요.\"><rect x=\"2\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M17 25V8M13 13L17 8L21 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"32\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M47 25V8M43 13L47 8L51 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"62\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M77 25V8M73 13L77 8L81 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"47\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">N의 2p</text><rect x=\"108\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M118 25V8M114 13L118 8L122 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M128 7V24M124 19L128 24L132 19\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"138\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M153 25V8M149 13L153 8L157 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"168\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M183 25V8M179 13L183 8L187 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"153\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">O의 2p</text></svg></p>",
       markscheme: [
         // EN: In O the electron is removed from a doubly occupied 2p orbital / a 2p orbital containing a pair of electrons (in N each 2p orbital is singly occupied).
-        "",
+        "O에서는 전자가 두 개 들어 있는 2p 오비탈 / 전자쌍이 들어 있는 2p 오비탈에서 떨어져 나간다(N에서는 2p 오비탈마다 전자가 하나씩 들어 있다).",
         // EN: Repulsion between the two electrons in the same orbital makes the electron easier to remove (accept: raises its energy).
-        "",
+        "같은 오비탈에 있는 두 전자 사이의 반발력 때문에 전자를 떼어 내기가 더 쉽다(인정: 전자의 에너지를 높인다).",
       ],
     },
 
     // ── s1-3-q033 · numeric · foundation · AHL · Structure 1.3.6 · 1 mark
     "s1-3-q033": {
       // EN: <p>The red line in the visible emission spectrum of hydrogen has a wavelength of 656 nm.</p><p>Calculate the frequency of this light. Use c = 3.00 × 10<sup>8</sup> <span class="unit">m s-1</span> and give your answer to three significant figures.</p>
-      stem: "",
+      stem: "<p>수소의 가시광선 방출 스펙트럼에서 빨간색 선의 파장은 656 nm예요.</p><p>이 빛의 진동수를 계산하시오 (calculate). c = 3.00 × 10<sup>8</sup> <span class=\"unit\">m s-1</span>을 이용하고, 답은 유효 숫자 3자리로 쓰세요.</p>",
       hints: [
         // EN: The data booklet gives c = λf. Rearrange it to make f the subject.
-        "",
+        "데이터 부클릿에 c = λf가 나와 있어요. 이 식을 f에 대해 정리해요.",
         // EN: Convert the wavelength to metres first: 1 nm = 1 × 10<sup>−9</sup> m.
-        "",
+        "먼저 파장을 미터로 바꿔요: 1 nm = 1 × 10<sup>−9</sup> m.",
       ],
       // EN: <p>Convert the wavelength to metres, then use c = λf.</p><div class="worked__math">λ = 656 nm<br>&nbsp;&nbsp;= 656 × 10<sup>−9</sup> m<br>&nbsp;&nbsp;= 6.56 × 10<sup>−7</sup> m</div><div class="worked__math">f = c ÷ λ<br>&nbsp;&nbsp;= (3.00 × 10<sup>8</sup> <span class="unit">m s-1</span>)<br>&nbsp;&nbsp;÷ (6.56 × 10<sup>−7</sup> m)</div><div class="worked__math">f = 4.57 × 10<sup>14</sup> <span class="unit">s-1</span><br>&nbsp;&nbsp;= 4.57 × 10<sup>14</sup> Hz</div><p>If you leave the wavelength in nm you get 4.57 × 10<sup>5</sup>, which is too small by a factor of 10<sup>9</sup>.</p>
-      solution: "",
+      solution: "<p>파장을 미터로 바꾼 다음 c = λf를 이용해요.</p><div class=\"worked__math\">λ = 656 nm<br>&nbsp;&nbsp;= 656 × 10<sup>−9</sup> m<br>&nbsp;&nbsp;= 6.56 × 10<sup>−7</sup> m</div><div class=\"worked__math\">f = c ÷ λ<br>&nbsp;&nbsp;= (3.00 × 10<sup>8</sup> <span class=\"unit\">m s-1</span>)<br>&nbsp;&nbsp;÷ (6.56 × 10<sup>−7</sup> m)</div><div class=\"worked__math\">f = 4.57 × 10<sup>14</sup> <span class=\"unit\">s-1</span><br>&nbsp;&nbsp;= 4.57 × 10<sup>14</sup> Hz</div><p>파장을 nm 그대로 두면 4.57 × 10<sup>5</sup>이 나오는데, 이것은 10<sup>9</sup>배만큼 너무 작은 값이에요.</p>",
     },
 
     // ── s1-3-q034 · numeric · foundation · AHL · Structure 1.3.6 · 1 mark
     "s1-3-q034": {
       // EN: <p>One line in the emission spectrum of hydrogen has a frequency of 6.17 × 10<sup>14</sup> Hz.</p><p>Calculate the energy of one photon of this light. Use h = 6.63 × 10<sup>−34</sup> J s and give your answer to three significant figures.</p>
-      stem: "",
+      stem: "<p>수소의 방출 스펙트럼에 있는 한 선의 진동수는 6.17 × 10<sup>14</sup> Hz예요.</p><p>이 빛의 광자 하나의 에너지를 계산하시오 (calculate). h = 6.63 × 10<sup>−34</sup> J s를 이용하고, 답은 유효 숫자 3자리로 쓰세요.</p>",
       hints: [
         // EN: The data booklet gives E = hf.
-        "",
+        "데이터 부클릿에 E = hf가 나와 있어요.",
         // EN: Multiply the two numbers. Add the powers of ten: −34 + 14.
-        "",
+        "두 수를 곱해요. 10의 거듭제곱 지수는 더해요: −34 + 14.",
       ],
       // EN: <div class="worked__math">E = hf</div><div class="worked__math">E = (6.63 × 10<sup>−34</sup> J s)<br>&nbsp;&nbsp;× (6.17 × 10<sup>14</sup> <span class="unit">s-1</span>)</div><div class="worked__math">E = 4.09 × 10<sup>−19</sup> J</div><p>This is the energy of <em>one</em> photon, so it is the energy change of one atom. It is a very small number of joules.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">E = hf</div><div class=\"worked__math\">E = (6.63 × 10<sup>−34</sup> J s)<br>&nbsp;&nbsp;× (6.17 × 10<sup>14</sup> <span class=\"unit\">s-1</span>)</div><div class=\"worked__math\">E = 4.09 × 10<sup>−19</sup> J</div><p>이것은 광자 <em>하나</em>의 에너지이므로, 원자 하나의 에너지 변화예요. 줄(J)로 나타내면 아주 작은 수예요.</p>",
     },
 
     // ── s1-3-q035 · numeric · exam · AHL · Structure 1.3.6 · 3 marks
     "s1-3-q035": {
       // EN: <p>In the emission spectrum of hydrogen, the lines produced by electrons falling to n = 1 converge at a wavelength of 91.2 nm.</p><p>Calculate the first ionization energy of hydrogen, in <span class="unit">kJ mol-1</span>. Use the data booklet values of h, c and the Avogadro constant.</p>
-      stem: "",
+      stem: "<p>수소의 방출 스펙트럼에서 n = 1로 떨어지는 전자가 만드는 선들은 파장 91.2 nm에서 수렴해요.</p><p>수소의 제1 이온화 에너지를 <span class=\"unit\">kJ mol-1</span> 단위로 계산하시오 (calculate). 데이터 부클릿에 있는 h, c, 아보가드로 상수 값을 이용하세요.</p>",
       hints: [
         // EN: Three steps: wavelength → frequency (c = λf), frequency → energy of one photon (E = hf), energy for one atom → energy for one mole.
-        "",
+        "3단계예요: 파장 → 진동수(c = λf), 진동수 → 광자 하나의 에너지(E = hf), 원자 하나의 에너지 → 1몰의 에너지.",
         // EN: Convert 91.2 nm to metres before you start.
-        "",
+        "시작하기 전에 91.2 nm를 미터로 바꿔요.",
         // EN: To go from J per atom to <span class="unit">kJ mol-1</span>, multiply by 6.02 × 10<sup>23</sup> <span class="unit">mol-1</span> and divide by 1000.
-        "",
+        "원자 하나당 J에서 <span class=\"unit\">kJ mol-1</span>로 바꾸려면 6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span>을 곱하고 1000으로 나눠요.",
       ],
       // EN: <p>The convergence limit corresponds to ionization, so the photon at 91.2 nm has the energy needed to ionize one atom.</p><div class="worked__math">λ = 91.2 nm = 9.12 × 10<sup>−8</sup> m</div><div class="worked__math">f = c ÷ λ<br>&nbsp;&nbsp;= (3.00 × 10<sup>8</sup> <span class="unit">m s-1</span>)<br>&nbsp;&nbsp;÷ (9.12 × 10<sup>−8</sup> m)<br>&nbsp;&nbsp;= 3.289 × 10<sup>15</sup> <span class="unit">s-1</span></div><div class="worked__math">E = hf<br>&nbsp;&nbsp;= (6.63 × 10<sup>−34</sup> J s)<br>&nbsp;&nbsp;× (3.289 × 10<sup>15</sup> <span class="unit">s-1</span>)<br>&nbsp;&nbsp;= 2.181 × 10<sup>−18</sup> J<br>&nbsp;&nbsp;(for one atom)</div><div class="worked__math">for one mole: 2.181 × 10<sup>−18</sup> J × 6.02 × 10<sup>23</sup> <span class="unit">mol-1</span><br>&nbsp;&nbsp;= 1.313 × 10<sup>6</sup> <span class="unit">J mol-1</span></div><div class="worked__math">IE = 1.313 × 10<sup>6</sup> <span class="unit">J mol-1</span> ÷ 1000<br>&nbsp;&nbsp;= 1313 <span class="unit">kJ mol-1</span> ≈ 1310 <span class="unit">kJ mol-1</span></div><p>Check: the data booklet value for hydrogen is 1312 <span class="unit">kJ mol-1</span>. Common slips: leaving the wavelength in nm, stopping at the energy of one atom (2.18 × 10<sup>−18</sup> J), and forgetting to divide by 1000.</p>
-      solution: "",
+      solution: "<p>수렴 한계는 이온화에 해당하므로, 91.2 nm의 광자는 원자 하나를 이온화하는 데 필요한 에너지를 가져요.</p><div class=\"worked__math\">λ = 91.2 nm = 9.12 × 10<sup>−8</sup> m</div><div class=\"worked__math\">f = c ÷ λ<br>&nbsp;&nbsp;= (3.00 × 10<sup>8</sup> <span class=\"unit\">m s-1</span>)<br>&nbsp;&nbsp;÷ (9.12 × 10<sup>−8</sup> m)<br>&nbsp;&nbsp;= 3.289 × 10<sup>15</sup> <span class=\"unit\">s-1</span></div><div class=\"worked__math\">E = hf<br>&nbsp;&nbsp;= (6.63 × 10<sup>−34</sup> J s)<br>&nbsp;&nbsp;× (3.289 × 10<sup>15</sup> <span class=\"unit\">s-1</span>)<br>&nbsp;&nbsp;= 2.181 × 10<sup>−18</sup> J<br>&nbsp;&nbsp;(원자 하나당)</div><div class=\"worked__math\">한 몰당: 2.181 × 10<sup>−18</sup> J × 6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span><br>&nbsp;&nbsp;= 1.313 × 10<sup>6</sup> <span class=\"unit\">J mol-1</span></div><div class=\"worked__math\">IE = 1.313 × 10<sup>6</sup> <span class=\"unit\">J mol-1</span> ÷ 1000<br>&nbsp;&nbsp;= 1313 <span class=\"unit\">kJ mol-1</span> ≈ 1310 <span class=\"unit\">kJ mol-1</span></div><p>확인: 데이터 부클릿에 나온 수소의 값은 1312 <span class=\"unit\">kJ mol-1</span>이에요. 흔한 실수: 파장을 nm 그대로 두는 것, 원자 하나의 에너지(2.18 × 10<sup>−18</sup> J)에서 멈추는 것, 1000으로 나누는 것을 잊는 것.</p>",
       // EN: 1310 (or 1313)
-      answerDisplay: "",
+      answerDisplay: "1310 (또는 1313)",
     },
 
     // ── s1-3-q036 · numeric · exam · AHL · Structure 1.3.6 · 2 marks
     "s1-3-q036": {
       // EN: <p>In the emission spectrum of helium atoms, the lines produced by electrons falling to the lowest energy level converge at a frequency of 5.94 × 10<sup>15</sup> Hz.</p><p>Calculate the first ionization energy of helium, in <span class="unit">kJ mol-1</span>.</p>
-      stem: "",
+      stem: "<p>헬륨 원자의 방출 스펙트럼에서 가장 낮은 에너지 준위로 떨어지는 전자가 만드는 선들은 진동수 5.94 × 10<sup>15</sup> Hz에서 수렴해요.</p><p>헬륨의 제1 이온화 에너지를 <span class=\"unit\">kJ mol-1</span> 단위로 계산하시오 (calculate).</p>",
       hints: [
         // EN: You already have the frequency, so go straight to E = hf.
-        "",
+        "진동수가 이미 주어졌으니 바로 E = hf로 가요.",
         // EN: E = hf gives the energy for one atom in joules. The answer must be for one mole, in kilojoules.
-        "",
+        "E = hf로 구한 값은 원자 하나의 에너지이고 단위는 줄이에요. 답은 1몰에 대한 값이어야 하고 단위는 킬로줄이에요.",
       ],
       // EN: <div class="worked__math">E = hf<br>&nbsp;&nbsp;= (6.63 × 10<sup>−34</sup> J s)<br>&nbsp;&nbsp;× (5.94 × 10<sup>15</sup> <span class="unit">s-1</span>)<br>&nbsp;&nbsp;= 3.938 × 10<sup>−18</sup> J<br>&nbsp;&nbsp;(for one atom)</div><div class="worked__math">for one mole: 3.938 × 10<sup>−18</sup> J × 6.02 × 10<sup>23</sup> <span class="unit">mol-1</span><br>&nbsp;&nbsp;= 2.371 × 10<sup>6</sup> <span class="unit">J mol-1</span></div><div class="worked__math">IE = 2.371 × 10<sup>6</sup> <span class="unit">J mol-1</span> ÷ 1000<br>&nbsp;&nbsp;= 2371 <span class="unit">kJ mol-1</span> ≈ 2370 <span class="unit">kJ mol-1</span></div><p>This is the highest first ionization energy of any element. The data booklet value is 2372 <span class="unit">kJ mol-1</span>.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">E = hf<br>&nbsp;&nbsp;= (6.63 × 10<sup>−34</sup> J s)<br>&nbsp;&nbsp;× (5.94 × 10<sup>15</sup> <span class=\"unit\">s-1</span>)<br>&nbsp;&nbsp;= 3.938 × 10<sup>−18</sup> J<br>&nbsp;&nbsp;(원자 하나당)</div><div class=\"worked__math\">한 몰당: 3.938 × 10<sup>−18</sup> J × 6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span><br>&nbsp;&nbsp;= 2.371 × 10<sup>6</sup> <span class=\"unit\">J mol-1</span></div><div class=\"worked__math\">IE = 2.371 × 10<sup>6</sup> <span class=\"unit\">J mol-1</span> ÷ 1000<br>&nbsp;&nbsp;= 2371 <span class=\"unit\">kJ mol-1</span> ≈ 2370 <span class=\"unit\">kJ mol-1</span></div><p>이것은 모든 원소 중에서 가장 큰 제1 이온화 에너지예요. 데이터 부클릿 값은 2372 <span class=\"unit\">kJ mol-1</span>이에요.</p>",
     },
 
     // ── s1-3-q037 · numeric · exam · AHL · Structure 1.3.6 · 3 marks
     "s1-3-q037": {
       // EN: <p>The first ionization energy of sodium is 496 <span class="unit">kJ mol-1</span>.</p><p>Calculate the wavelength, in nm, of the convergence limit that corresponds to the ionization of a gaseous sodium atom. Give your answer to three significant figures.</p>
-      stem: "",
+      stem: "<p>나트륨의 제1 이온화 에너지는 496 <span class=\"unit\">kJ mol-1</span>이에요.</p><p>기체 나트륨 원자의 이온화에 해당하는 수렴 한계의 파장을 nm 단위로 계산하시오 (calculate). 답은 유효 숫자 3자리로 쓰세요.</p>",
       hints: [
         // EN: This is the usual calculation in reverse. First find the energy needed to ionize <em>one</em> atom, in joules.
-        "",
+        "평소 계산을 거꾸로 하는 거예요. 먼저 원자 <em>하나</em>를 이온화하는 데 필요한 에너지를 줄 단위로 구해요.",
         // EN: kJ → J: multiply by 1000. One mole → one atom: divide by 6.02 × 10<sup>23</sup> <span class="unit">mol-1</span>.
-        "",
+        "kJ → J: 1000을 곱해요. 1몰 → 원자 하나: 6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span>로 나눠요.",
         // EN: Then f = E ÷ h, and λ = c ÷ f. Convert metres to nm at the end.
-        "",
+        "그다음 f = E ÷ h, λ = c ÷ f를 이용해요. 마지막에 미터를 nm로 바꿔요.",
       ],
       // EN: <p>Work backwards: energy per mole → energy per atom → frequency → wavelength.</p><div class="worked__math">IE = 496 <span class="unit">kJ mol-1</span><br>&nbsp;&nbsp;= 4.96 × 10<sup>5</sup> <span class="unit">J mol-1</span></div><div class="worked__math">for one atom: E<br>&nbsp;&nbsp;= 4.96 × 10<sup>5</sup> <span class="unit">J mol-1</span> ÷ 6.02 × 10<sup>23</sup> <span class="unit">mol-1</span><br>&nbsp;&nbsp;= 8.239 × 10<sup>−19</sup> J</div><div class="worked__math">f = E ÷ h<br>&nbsp;&nbsp;= (8.239 × 10<sup>−19</sup> J)<br>&nbsp;&nbsp;÷ (6.63 × 10<sup>−34</sup> J s)<br>&nbsp;&nbsp;= 1.243 × 10<sup>15</sup> <span class="unit">s-1</span></div><div class="worked__math">λ = c ÷ f<br>&nbsp;&nbsp;= (3.00 × 10<sup>8</sup> <span class="unit">m s-1</span>)<br>&nbsp;&nbsp;÷ (1.243 × 10<sup>15</sup> <span class="unit">s-1</span>)<br>&nbsp;&nbsp;= 2.41 × 10<sup>−7</sup> m</div><div class="worked__math">λ = 2.41 × 10<sup>−7</sup> m × 10<sup>9</sup> <span class="unit">nm m-1</span><br>&nbsp;&nbsp;= 241 nm</div><p>241 nm is in the ultraviolet region. If you forget to change kJ to J, you get a wavelength 1000 times too long.</p>
-      solution: "",
+      solution: "<p>거꾸로 계산해요: 몰당 에너지 → 원자 하나당 에너지 → 진동수 → 파장.</p><div class=\"worked__math\">IE = 496 <span class=\"unit\">kJ mol-1</span><br>&nbsp;&nbsp;= 4.96 × 10<sup>5</sup> <span class=\"unit\">J mol-1</span></div><div class=\"worked__math\">원자 하나당: E<br>&nbsp;&nbsp;= 4.96 × 10<sup>5</sup> <span class=\"unit\">J mol-1</span> ÷ 6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span><br>&nbsp;&nbsp;= 8.239 × 10<sup>−19</sup> J</div><div class=\"worked__math\">f = E ÷ h<br>&nbsp;&nbsp;= (8.239 × 10<sup>−19</sup> J)<br>&nbsp;&nbsp;÷ (6.63 × 10<sup>−34</sup> J s)<br>&nbsp;&nbsp;= 1.243 × 10<sup>15</sup> <span class=\"unit\">s-1</span></div><div class=\"worked__math\">λ = c ÷ f<br>&nbsp;&nbsp;= (3.00 × 10<sup>8</sup> <span class=\"unit\">m s-1</span>)<br>&nbsp;&nbsp;÷ (1.243 × 10<sup>15</sup> <span class=\"unit\">s-1</span>)<br>&nbsp;&nbsp;= 2.41 × 10<sup>−7</sup> m</div><div class=\"worked__math\">λ = 2.41 × 10<sup>−7</sup> m × 10<sup>9</sup> <span class=\"unit\">nm m-1</span><br>&nbsp;&nbsp;= 241 nm</div><p>241 nm는 자외선 영역이에요. kJ를 J로 바꾸는 것을 잊으면 파장이 1000배 너무 길게 나와요.</p>",
     },
 
     // ── s1-3-q038 · mcq · challenge · AHL · Structure 1.3.6 · 2 marks
     "s1-3-q038": {
       // EN: <p>Ultraviolet radiation of wavelength 200 nm shines on separate samples of gaseous sodium atoms and gaseous magnesium atoms. The first ionization energies are Na 496 <span class="unit">kJ mol-1</span> and Mg 738 <span class="unit">kJ mol-1</span>.</p><p>For which atoms does one photon of this radiation have enough energy to remove an electron from an atom in its ground state?</p>
-      stem: "",
+      stem: "<p>파장이 200 nm인 자외선을 기체 나트륨 원자 시료와 기체 마그네슘 원자 시료에 각각 쪼여요. 제1 이온화 에너지는 Na 496 <span class=\"unit\">kJ mol-1</span>, Mg 738 <span class=\"unit\">kJ mol-1</span>이에요.</p><p>이 복사의 광자 하나가 바닥상태 원자에서 전자 하나를 떼어 낼 만큼 충분한 에너지를 가지는 것은 어느 원자인가요?</p>",
       options: [
         // EN: Both sodium and magnesium
-        "",
+        "나트륨과 마그네슘 모두",
         // EN: Sodium only
-        "",
+        "나트륨만",
         // EN: Magnesium only
-        "",
+        "마그네슘만",
         // EN: Neither sodium nor magnesium
-        "",
+        "나트륨도 마그네슘도 아님",
       ],
       hints: [
         // EN: Find the energy of one photon with f = c ÷ λ and E = hf.
-        "",
+        "f = c ÷ λ와 E = hf를 이용해 광자 하나의 에너지를 구해요.",
         // EN: Convert to <span class="unit">kJ mol-1</span> so that you can compare it with the two ionization energies.
-        "",
+        "두 이온화 에너지와 비교할 수 있도록 <span class=\"unit\">kJ mol-1</span>로 바꿔요.",
       ],
       // EN: <div class="worked__math">λ = 200 nm = 2.00 × 10<sup>−7</sup> m</div><div class="worked__math">f = c ÷ λ<br>&nbsp;&nbsp;= (3.00 × 10<sup>8</sup> <span class="unit">m s-1</span>)<br>&nbsp;&nbsp;÷ (2.00 × 10<sup>−7</sup> m)<br>&nbsp;&nbsp;= 1.50 × 10<sup>15</sup> <span class="unit">s-1</span></div><div class="worked__math">E = hf<br>&nbsp;&nbsp;= (6.63 × 10<sup>−34</sup> J s)<br>&nbsp;&nbsp;× (1.50 × 10<sup>15</sup> <span class="unit">s-1</span>)<br>&nbsp;&nbsp;= 9.945 × 10<sup>−19</sup> J &nbsp; (one photon)</div><div class="worked__math">per mole: 9.945 × 10<sup>−19</sup> J × 6.02 × 10<sup>23</sup> <span class="unit">mol-1</span> ÷ 1000<br>&nbsp;&nbsp;= 599 <span class="unit">kJ mol-1</span></div><p>599 <span class="unit">kJ mol-1</span> is more than 496 <span class="unit">kJ mol-1</span> (Na) but less than 738 <span class="unit">kJ mol-1</span> (Mg). So a photon has enough energy to ionize a sodium atom but not a magnesium atom.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">λ = 200 nm = 2.00 × 10<sup>−7</sup> m</div><div class=\"worked__math\">f = c ÷ λ<br>&nbsp;&nbsp;= (3.00 × 10<sup>8</sup> <span class=\"unit\">m s-1</span>)<br>&nbsp;&nbsp;÷ (2.00 × 10<sup>−7</sup> m)<br>&nbsp;&nbsp;= 1.50 × 10<sup>15</sup> <span class=\"unit\">s-1</span></div><div class=\"worked__math\">E = hf<br>&nbsp;&nbsp;= (6.63 × 10<sup>−34</sup> J s)<br>&nbsp;&nbsp;× (1.50 × 10<sup>15</sup> <span class=\"unit\">s-1</span>)<br>&nbsp;&nbsp;= 9.945 × 10<sup>−19</sup> J &nbsp; (광자 하나)</div><div class=\"worked__math\">몰당: 9.945 × 10<sup>−19</sup> J × 6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span> ÷ 1000<br>&nbsp;&nbsp;= 599 <span class=\"unit\">kJ mol-1</span></div><p>599 <span class=\"unit\">kJ mol-1</span>은 496 <span class=\"unit\">kJ mol-1</span>(Na)보다 크지만 738 <span class=\"unit\">kJ mol-1</span>(Mg)보다 작아요. 따라서 광자 하나는 나트륨 원자를 이온화할 에너지는 있지만, 마그네슘 원자를 이온화할 에너지는 없어요.</p>",
       misconception: {
         // EN (option A): The energy of one mole of these photons is 5.99 × 10<sup>5</sup> <span class="unit">J mol-1</span>. That looks larger than 738, but the units are different. Convert it to <span class="unit">kJ mol-1</span> before comparing.
-        "0": "",
+        "0": "이 광자 1몰의 에너지는 5.99 × 10<sup>5</sup> <span class=\"unit\">J mol-1</span>이에요. 738보다 커 보이지만 단위가 달라요. 비교하기 전에 <span class=\"unit\">kJ mol-1</span>로 바꿔요.",
         // EN (option C): A photon needs <em>at least</em> the ionization energy. The atom with the lower ionization energy is the one that is easier to ionize.
-        "2": "",
+        "2": "광자는 <em>적어도</em> 이온화 에너지만큼의 에너지가 있어야 해요. 이온화 에너지가 더 작은 원자가 이온화되기 더 쉬워요.",
         // EN (option D): The energy of one photon is about 10<sup>−18</sup> J, which looks tiny next to 496. But 496 <span class="unit">kJ mol-1</span> is for a mole of atoms. Multiply the photon energy by the Avogadro constant before comparing.
-        "3": "",
+        "3": "광자 하나의 에너지는 약 10<sup>−18</sup> J로, 496에 비하면 아주 작아 보여요. 하지만 496 <span class=\"unit\">kJ mol-1</span>은 원자 1몰에 대한 값이에요. 비교하기 전에 광자 에너지에 아보가드로 상수를 곱해요.",
       },
     },
 
     // ── s1-3-q039 · numeric · challenge · AHL · Structure 1.3.6 · 3 marks
     "s1-3-q039": {
       // EN: <p>In the emission spectrum of hydrogen, the lines in and near the visible region are produced by electrons falling to n = 2. These lines converge at a wavelength of 365 nm.</p><p>Calculate the energy, in <span class="unit">kJ mol-1</span>, needed to remove an electron from the n = 2 level of a hydrogen atom. Give your answer to three significant figures.</p>
-      stem: "",
+      stem: "<p>수소의 방출 스펙트럼에서 가시광선 영역과 그 근처에 있는 선들은 n = 2로 떨어지는 전자가 만들어요. 이 선들은 파장 365 nm에서 수렴해요.</p><p>수소 원자의 n = 2 준위에서 전자 하나를 떼어 내는 데 필요한 에너지를 <span class=\"unit\">kJ mol-1</span> 단위로 계산하시오 (calculate). 답은 유효 숫자 3자리로 쓰세요.</p>",
       hints: [
         // EN: The method is the same as for a first ionization energy: the convergence limit of a set of lines corresponds to removing the electron from the level where those lines end.
-        "",
+        "방법은 제1 이온화 에너지를 구할 때와 같아요: 한 선 계열의 수렴 한계는 그 선들이 끝나는 준위에서 전자를 떼어 내는 것에 해당해요.",
         // EN: λ → f with c = λf, then E = hf, then scale from one atom to one mole and from J to kJ.
-        "",
+        "c = λf로 λ → f, 그다음 E = hf, 그다음 원자 하나에서 1몰로, J에서 kJ로 바꿔요.",
       ],
       // EN: <p>This convergence limit corresponds to an electron moving between n = 2 and n = ∞.</p><div class="worked__math">λ = 365 nm = 3.65 × 10<sup>−7</sup> m</div><div class="worked__math">f = c ÷ λ<br>&nbsp;&nbsp;= (3.00 × 10<sup>8</sup> <span class="unit">m s-1</span>)<br>&nbsp;&nbsp;÷ (3.65 × 10<sup>−7</sup> m)<br>&nbsp;&nbsp;= 8.219 × 10<sup>14</sup> <span class="unit">s-1</span></div><div class="worked__math">E = hf<br>&nbsp;&nbsp;= (6.63 × 10<sup>−34</sup> J s)<br>&nbsp;&nbsp;× (8.219 × 10<sup>14</sup> <span class="unit">s-1</span>)<br>&nbsp;&nbsp;= 5.449 × 10<sup>−19</sup> J<br>&nbsp;&nbsp;(for one atom)</div><div class="worked__math">per mole: 5.449 × 10<sup>−19</sup> J × 6.02 × 10<sup>23</sup> <span class="unit">mol-1</span> ÷ 1000<br>&nbsp;&nbsp;= 328 <span class="unit">kJ mol-1</span></div><p>This is much less than the first ionization energy of hydrogen (1312 <span class="unit">kJ mol-1</span>). The first ionization energy is for an atom in its ground state, with the electron in n = 1. An electron already in n = 2 is higher in energy, so less energy is needed to remove it. To find a first ionization energy you must use the convergence limit of the lines that end on the ground state.</p>
-      solution: "",
+      solution: "<p>이 수렴 한계는 전자가 n = 2와 n = ∞ 사이를 이동하는 것에 해당해요.</p><div class=\"worked__math\">λ = 365 nm = 3.65 × 10<sup>−7</sup> m</div><div class=\"worked__math\">f = c ÷ λ<br>&nbsp;&nbsp;= (3.00 × 10<sup>8</sup> <span class=\"unit\">m s-1</span>)<br>&nbsp;&nbsp;÷ (3.65 × 10<sup>−7</sup> m)<br>&nbsp;&nbsp;= 8.219 × 10<sup>14</sup> <span class=\"unit\">s-1</span></div><div class=\"worked__math\">E = hf<br>&nbsp;&nbsp;= (6.63 × 10<sup>−34</sup> J s)<br>&nbsp;&nbsp;× (8.219 × 10<sup>14</sup> <span class=\"unit\">s-1</span>)<br>&nbsp;&nbsp;= 5.449 × 10<sup>−19</sup> J<br>&nbsp;&nbsp;(원자 하나당)</div><div class=\"worked__math\">몰당: 5.449 × 10<sup>−19</sup> J × 6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span> ÷ 1000<br>&nbsp;&nbsp;= 328 <span class=\"unit\">kJ mol-1</span></div><p>이 값은 수소의 제1 이온화 에너지(1312 <span class=\"unit\">kJ mol-1</span>)보다 훨씬 작아요. 제1 이온화 에너지는 전자가 n = 1에 있는 바닥상태 원자에 대한 값이에요. 이미 n = 2에 있는 전자는 에너지가 더 높으므로, 떼어 내는 데 필요한 에너지가 더 적어요. 제1 이온화 에너지를 구하려면 바닥상태에서 끝나는 선들의 수렴 한계를 이용해야 해요.</p>",
     },
 
     // ── s1-3-q040 · short · challenge · AHL · Structure 1.3.6 · 3 marks
     "s1-3-q040": {
       // EN: <p>The table shows the first ionization energies of the period 3 elements.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>First ionization energy / kJ mol<sup>−1</sup></caption><thead><tr><th scope="col">Element</th><th class="num" scope="col">Na</th><th class="num" scope="col">Mg</th><th class="num" scope="col">Al</th><th class="num" scope="col">Si</th><th class="num" scope="col">P</th><th class="num" scope="col">S</th><th class="num" scope="col">Cl</th><th class="num" scope="col">Ar</th></tr></thead><tbody><tr><th scope="row">First IE</th><td class="num">496</td><td class="num">738</td><td class="num">578</td><td class="num">787</td><td class="num">1012</td><td class="num">1000</td><td class="num">1251</td><td class="num">1520</td></tr></tbody></table></div><p>The values do not rise steadily. Use the data to explain how the two decreases are evidence that the third main energy level is divided into sublevels.</p>
-      stem: "",
+      stem: "<p>표는 3주기 원소들의 제1 이온화 에너지를 나타낸 거예요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>제1 이온화 에너지 / kJ mol<sup>−1</sup></caption><thead><tr><th scope=\"col\">원소</th><th class=\"num\" scope=\"col\">Na</th><th class=\"num\" scope=\"col\">Mg</th><th class=\"num\" scope=\"col\">Al</th><th class=\"num\" scope=\"col\">Si</th><th class=\"num\" scope=\"col\">P</th><th class=\"num\" scope=\"col\">S</th><th class=\"num\" scope=\"col\">Cl</th><th class=\"num\" scope=\"col\">Ar</th></tr></thead><tbody><tr><th scope=\"row\">제1 IE</th><td class=\"num\">496</td><td class=\"num\">738</td><td class=\"num\">578</td><td class=\"num\">787</td><td class=\"num\">1012</td><td class=\"num\">1000</td><td class=\"num\">1251</td><td class=\"num\">1520</td></tr></tbody></table></div><p>값이 꾸준히 커지지는 않아요. 자료를 이용하여, 두 번의 감소가 세 번째 주 에너지 준위가 부껍질로 나뉘어 있다는 증거가 되는 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: Find the two places where the value goes down, not up.
-        "",
+        "값이 커지지 않고 작아지는 곳 두 군데를 찾아요.",
         // EN: For each one, write the configurations of the two elements and ask which electron is removed.
-        "",
+        "각각에 대해 두 원소의 전자 배치를 쓰고, 어느 전자가 떨어져 나가는지 생각해 봐요.",
         // EN: Finish by saying what the pattern would look like if there were no sublevels.
-        "",
+        "마지막으로, 부껍질이 없다면 경향이 어떻게 보일지 써서 마무리해요.",
       ],
       // EN: <p>If all the n = 3 electrons had the same energy, the first ionization energy would rise steadily across the period as the nuclear charge increases. It does not.</p><p>The value falls from Mg (738) to Al (578). In Mg the electron is removed from the 3s sublevel, but in Al it is removed from the 3p sublevel. The 3p sublevel is higher in energy than 3s, so the electron is easier to remove. This shows that n = 3 contains sublevels of different energy.</p><p>The value falls from P (1012) to S (1000). In P each 3p orbital holds one electron. In S the electron is removed from a 3p orbital that holds two electrons. Repulsion between the paired electrons makes it easier to remove. This shows that the 3p sublevel is made of orbitals that fill singly before they pair.</p>
-      answer: "",
+      answer: "<p>n = 3의 전자가 모두 같은 에너지를 가진다면, 주기를 따라 핵전하가 커지면서 제1 이온화 에너지도 꾸준히 커질 거예요. 하지만 실제로는 그렇지 않아요.</p><p>값이 Mg(738)에서 Al(578)로 작아져요. Mg에서는 전자가 3s 부껍질에서 떨어져 나가지만, Al에서는 3p 부껍질에서 떨어져 나가요. 3p 부껍질은 3s보다 에너지가 높으므로 전자를 떼어 내기가 더 쉬워요. 이것은 n = 3에 에너지가 서로 다른 부껍질이 있다는 것을 보여 줘요.</p><p>값이 P(1012)에서 S(1000)로 작아져요. P에서는 3p 오비탈마다 전자가 하나씩 들어 있어요. S에서는 전자 두 개가 들어 있는 3p 오비탈에서 전자가 떨어져 나가요. 짝을 이룬 전자 사이의 반발력 때문에 떼어 내기가 더 쉬워요. 이것은 3p 부껍질이 여러 오비탈로 이루어져 있고, 이 오비탈들이 짝을 짓기 전에 하나씩 먼저 채워진다는 것을 보여 줘요.</p>",
       markscheme: [
         // EN: Mg to Al decrease: the electron is removed from the 3p sublevel in Al but from 3s in Mg, and 3p is higher in energy than 3s (so n = 3 is split into sublevels of different energy).
-        "",
+        "Mg에서 Al로의 감소: Al에서는 전자가 3p 부껍질에서, Mg에서는 3s에서 떨어져 나가며, 3p는 3s보다 에너지가 높다(따라서 n = 3은 에너지가 다른 부껍질로 나뉘어 있다).",
         // EN: P to S decrease: the electron in S is removed from a doubly occupied 3p orbital, and repulsion between the paired electrons makes it easier to remove (in P the 3p orbitals are singly occupied).
-        "",
+        "P에서 S로의 감소: S에서는 전자 두 개가 들어 있는 3p 오비탈에서 전자가 떨어져 나가며, 짝을 이룬 전자 사이의 반발력 때문에 떼어 내기가 더 쉽다(P에서는 3p 오비탈마다 전자가 하나씩 들어 있다).",
         // EN: Link to evidence: with a single undivided energy level the ionization energy would increase steadily with nuclear charge / the decreases come after the 3s sublevel is full and after each 3p orbital holds one electron, which matches the s and p sublevels.
-        "",
+        "증거와 연결: 나뉘지 않은 하나의 에너지 준위라면 이온화 에너지는 핵전하에 따라 꾸준히 커질 것이다 / 감소는 3s 부껍질이 다 찬 뒤와 3p 오비탈마다 전자가 하나씩 들어간 뒤에 나타나며, 이는 s와 p 부껍질과 들어맞는다.",
       ],
     },
 
     // ── s1-3-q041 · numeric · foundation · AHL · Structure 1.3.7 · 1 mark
     "s1-3-q041": {
       // EN: <p>The table shows the first four successive ionization energies of an element.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Successive ionization energies / kJ mol<sup>−1</sup></caption><thead><tr><th scope="col"></th><th class="num" scope="col">1st</th><th class="num" scope="col">2nd</th><th class="num" scope="col">3rd</th><th class="num" scope="col">4th</th></tr></thead><tbody><tr><th scope="row">IE</th><td class="num">590</td><td class="num">1145</td><td class="num">4912</td><td class="num">6491</td></tr></tbody></table></div><p>In which group of the periodic table is the element? Type the group number.</p>
-      stem: "",
+      stem: "<p>표는 어떤 원소의 처음 네 개의 순차 이온화 에너지를 나타낸 거예요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>순차 이온화 에너지 / kJ mol<sup>−1</sup></caption><thead><tr><th scope=\"col\"></th><th class=\"num\" scope=\"col\">제1</th><th class=\"num\" scope=\"col\">제2</th><th class=\"num\" scope=\"col\">제3</th><th class=\"num\" scope=\"col\">제4</th></tr></thead><tbody><tr><th scope=\"row\">IE</th><td class=\"num\">590</td><td class=\"num\">1145</td><td class=\"num\">4912</td><td class=\"num\">6491</td></tr></tbody></table></div><p>이 원소는 주기율표의 몇 족에 있나요? 족 번호를 입력하세요.</p>",
       hints: [
         // EN: Look for the place where the ionization energy suddenly becomes several times larger.
-        "",
+        "이온화 에너지가 갑자기 몇 배로 커지는 곳을 찾아요.",
         // EN: The number of electrons removed <em>before</em> the large jump is the number of outer electrons.
-        "",
+        "큰 증가가 일어나기 <em>전에</em> 떼어 낸 전자의 수가 바깥 전자의 수예요.",
       ],
       // EN: <p>Compare each value with the one before it.</p><div class="worked__math">1st → 2nd: 590 → 1145<br>&nbsp;&nbsp;(about 2 times)</div><div class="worked__math">2nd → 3rd: 1145 → 4912<br>&nbsp;&nbsp;(about 4 times: the large jump)</div><div class="worked__math">3rd → 4th: 4912 → 6491<br>&nbsp;&nbsp;(about 1.3 times)</div><p>Two electrons are removed before the large jump, so the atom has two outer electrons. The third electron comes from a main energy level closer to the nucleus. The element is in <strong>group 2</strong>. (These are the values for calcium.)</p>
-      solution: "",
+      solution: "<p>각 값을 바로 앞의 값과 비교해요.</p><div class=\"worked__math\">제1 → 제2: 590 → 1145<br>&nbsp;&nbsp;(약 2배)</div><div class=\"worked__math\">제2 → 제3: 1145 → 4912<br>&nbsp;&nbsp;(약 4배: 큰 증가)</div><div class=\"worked__math\">제3 → 제4: 4912 → 6491<br>&nbsp;&nbsp;(약 1.3배)</div><p>큰 증가 전에 전자 두 개를 떼어 내므로, 이 원자의 바깥 전자는 두 개예요. 세 번째 전자는 원자핵에 더 가까운 주 에너지 준위에서 나와요. 이 원소는 <strong>2족</strong>에 있어요. (이 값들은 칼슘의 값이에요.)</p>",
     },
 
     // ── s1-3-q042 · mcq · exam · AHL · Structure 1.3.7 · 1 mark
     "s1-3-q042": {
       // EN: <p>The table shows the first six successive ionization energies of an element in period 3.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Successive ionization energies / kJ mol<sup>−1</sup></caption><thead><tr><th scope="col"></th><th class="num" scope="col">1st</th><th class="num" scope="col">2nd</th><th class="num" scope="col">3rd</th><th class="num" scope="col">4th</th><th class="num" scope="col">5th</th><th class="num" scope="col">6th</th></tr></thead><tbody><tr><th scope="row">IE</th><td class="num">787</td><td class="num">1577</td><td class="num">3232</td><td class="num">4356</td><td class="num">16 091</td><td class="num">19 805</td></tr></tbody></table></div><p>Which element is it?</p>
-      stem: "",
+      stem: "<p>표는 3주기에 있는 어떤 원소의 처음 여섯 개의 순차 이온화 에너지를 나타낸 거예요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>순차 이온화 에너지 / kJ mol<sup>−1</sup></caption><thead><tr><th scope=\"col\"></th><th class=\"num\" scope=\"col\">제1</th><th class=\"num\" scope=\"col\">제2</th><th class=\"num\" scope=\"col\">제3</th><th class=\"num\" scope=\"col\">제4</th><th class=\"num\" scope=\"col\">제5</th><th class=\"num\" scope=\"col\">제6</th></tr></thead><tbody><tr><th scope=\"row\">IE</th><td class=\"num\">787</td><td class=\"num\">1577</td><td class=\"num\">3232</td><td class=\"num\">4356</td><td class=\"num\">16 091</td><td class=\"num\">19 805</td></tr></tbody></table></div><p>이 원소는 무엇인가요?</p>",
       options: [
         // EN: Aluminium
-        "",
+        "알루미늄",
         // EN: Silicon
-        "",
+        "규소",
         // EN: Phosphorus
-        "",
+        "인",
         // EN: Sulfur
-        "",
+        "황",
       ],
       hints: [
         // EN: Find the largest jump between two neighbouring values.
-        "",
+        "이웃한 두 값 사이에서 가장 크게 증가하는 곳을 찾아요.",
         // EN: Count the electrons removed before that jump. That is the number of outer electrons.
-        "",
+        "그 증가 전에 떼어 낸 전자의 수를 세어요. 그것이 바깥 전자의 수예요.",
       ],
       // EN: <p>The values rise gradually up to the 4th (4356), then jump to 16 091 for the 5th. That is about 3.7 times larger. Four electrons are removed before the jump, so the atom has four outer electrons and is in group 14. The group 14 element in period 3 is <strong>silicon</strong>, <span class="mono">[Ne] 3s<sup>2</sup> 3p<sup>2</sup></span>. The 5th electron has to come from the n = 2 level.</p>
-      solution: "",
+      solution: "<p>값은 제4 이온화 에너지(4356)까지 서서히 커지다가, 제5 이온화 에너지에서 16 091로 크게 증가해요. 약 3.7배 커진 거예요. 큰 증가 전에 전자 네 개를 떼어 내므로, 이 원자의 바깥 전자는 네 개이고 14족에 있어요. 3주기의 14족 원소는 <strong>규소</strong> <span class=\"mono\">[Ne] 3s<sup>2</sup> 3p<sup>2</sup></span>예요. 5번째 전자는 n = 2 준위에서 나와야 해요.</p>",
       misconception: {
         // EN (option A): Aluminium is in group 13, so its large jump comes after the 3rd electron. Here the 4th value (4356) is not much larger than the 3rd (3232).
-        "0": "",
+        "0": "알루미늄은 13족이므로 3번째 전자 다음에 큰 증가가 나타나요. 여기서는 제4 값(4356)이 제3 값(3232)보다 그다지 크지 않아요.",
         // EN (option C): This counts the electron <em>after</em> the jump as an outer electron. The 5th electron is the first one taken from the inner level. Phosphorus would have its large jump after the 5th electron.
-        "2": "",
+        "2": "이것은 큰 증가 <em>다음의</em> 전자를 바깥 전자로 센 거예요. 5번째 전자는 안쪽 준위에서 처음으로 떼어 낸 전자예요. 인이라면 5번째 전자 다음에 큰 증가가 나타날 거예요.",
         // EN (option D): Sulfur has six outer electrons, so all six of these values would rise gradually with no large jump.
-        "3": "",
+        "3": "황은 바깥 전자가 여섯 개이므로, 이 여섯 값은 모두 큰 증가 없이 서서히 커질 거예요.",
       },
     },
 
     // ── s1-3-q043 · mcq · challenge · AHL · Structure 1.3.7 · 2 marks
     "s1-3-q043": {
       // EN: <p>The table shows successive ionization energies of two elements, X and Y. Both are in period 3.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Successive ionization energies / kJ mol<sup>−1</sup></caption><thead><tr><th scope="col"></th><th class="num" scope="col">1st</th><th class="num" scope="col">2nd</th><th class="num" scope="col">3rd</th><th class="num" scope="col">4th</th><th class="num" scope="col">5th</th><th class="num" scope="col">6th</th><th class="num" scope="col">7th</th><th class="num" scope="col">8th</th></tr></thead><tbody><tr><th scope="row">X</th><td class="num">738</td><td class="num">1451</td><td class="num">7733</td><td class="num">10 543</td><td class="num">13 630</td><td class="num">18 020</td><td class="num">21 711</td><td class="num">25 661</td></tr><tr><th scope="row">Y</th><td class="num">1251</td><td class="num">2298</td><td class="num">3822</td><td class="num">5159</td><td class="num">6542</td><td class="num">9362</td><td class="num">11 018</td><td class="num">33 604</td></tr></tbody></table></div><p>X and Y form an ionic compound. What is its formula?</p>
-      stem: "",
+      stem: "<p>표는 두 원소 X와 Y의 순차 이온화 에너지를 나타낸 거예요. 둘 다 3주기 원소예요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>순차 이온화 에너지 / kJ mol<sup>−1</sup></caption><thead><tr><th scope=\"col\"></th><th class=\"num\" scope=\"col\">제1</th><th class=\"num\" scope=\"col\">제2</th><th class=\"num\" scope=\"col\">제3</th><th class=\"num\" scope=\"col\">제4</th><th class=\"num\" scope=\"col\">제5</th><th class=\"num\" scope=\"col\">제6</th><th class=\"num\" scope=\"col\">제7</th><th class=\"num\" scope=\"col\">제8</th></tr></thead><tbody><tr><th scope=\"row\">X</th><td class=\"num\">738</td><td class=\"num\">1451</td><td class=\"num\">7733</td><td class=\"num\">10 543</td><td class=\"num\">13 630</td><td class=\"num\">18 020</td><td class=\"num\">21 711</td><td class=\"num\">25 661</td></tr><tr><th scope=\"row\">Y</th><td class=\"num\">1251</td><td class=\"num\">2298</td><td class=\"num\">3822</td><td class=\"num\">5159</td><td class=\"num\">6542</td><td class=\"num\">9362</td><td class=\"num\">11 018</td><td class=\"num\">33 604</td></tr></tbody></table></div><p>X와 Y는 이온 결합 화합물을 만들어요. 이 화합물의 화학식은 무엇인가요?</p>",
       options: [
         // EN: XY
-        "",
+        "XY",
         // EN: XY<sub>2</sub>
-        "",
+        "XY<sub>2</sub>",
         // EN: X<sub>2</sub>Y
-        "",
+        "X<sub>2</sub>Y",
         // EN: X<sub>2</sub>Y<sub>7</sub>
-        "",
+        "X<sub>2</sub>Y<sub>7</sub>",
       ],
       hints: [
         // EN: Find the large jump for each element to get its number of outer electrons.
-        "",
+        "각 원소에서 큰 증가를 찾아 바깥 전자의 수를 구해요.",
         // EN: X is a metal and Y is a non-metal. What charge does each ion have?
-        "",
+        "X는 금속이고 Y는 비금속이에요. 각 이온의 전하는 얼마인가요?",
         // EN: Balance the charges.
-        "",
+        "전하를 맞춰요.",
       ],
       // EN: <p><strong>X:</strong> the large jump is between the 2nd (1451) and 3rd (7733) values. X has two outer electrons, so it is in group 2 and forms X<sup>2+</sup>.</p><p><strong>Y:</strong> the values rise gradually until the large jump between the 7th (11 018) and 8th (33 604). Y has seven outer electrons, so it is in group 17 and gains one electron to form Y<sup>−</sup>.</p><p>One X<sup>2+</sup> ion needs two Y<sup>−</sup> ions, so the formula is XY<sub>2</sub>. (X is magnesium and Y is chlorine: <span class="chem">MgCl2</span>.)</p>
-      solution: "",
+      solution: "<p><strong>X:</strong> 큰 증가는 제2 값(1451)과 제3 값(7733) 사이에 있어요. X는 바깥 전자가 두 개이므로 2족이고, X<sup>2+</sup>가 돼요.</p><p><strong>Y:</strong> 값이 서서히 커지다가 제7 값(11 018)과 제8 값(33 604) 사이에서 크게 증가해요. Y는 바깥 전자가 일곱 개이므로 17족이고, 전자 하나를 얻어 Y<sup>−</sup>이 돼요.</p><p>X<sup>2+</sup> 이온 하나에는 Y<sup>−</sup> 이온 두 개가 필요하므로, 화학식은 XY<sub>2</sub>예요. (X는 마그네슘이고 Y는 염소예요: <span class=\"chem\">MgCl2</span>.)</p>",
       misconception: {
         // EN (option A): A 1 : 1 formula needs charges of equal size. X has two outer electrons and forms a 2+ ion. Y has seven outer electrons and gains one electron to form a 1− ion.
         "0": "",

@@ -885,773 +885,773 @@ S1.i18n.register('ko', 's1-4', {
     "Find the mass of carbon from the CO<sub>2</sub> and the mass of hydrogen from the H<sub>2</sub>O. Then subtract both from 1.150 g.": "CO<sub>2</sub>에서 탄소의 질량을, H<sub>2</sub>O에서 수소의 질량을 구하세요. 그다음 1.150 g에서 둘을 빼세요.",
 
     // Empirical and molecular formulas > try it > li
-    "<i>m</i>(C) = 2.197 × 12.01 ÷ 44.01 and <i>m</i>(H) = 1.349 × 2.02 ÷ 18.02. Do not round them before you subtract.": "",
+    "<i>m</i>(C) = 2.197 × 12.01 ÷ 44.01 and <i>m</i>(H) = 1.349 × 2.02 ÷ 18.02. Do not round them before you subtract.": "<i>m</i>(C) = 2.197 × 12.01 ÷ 44.01, <i>m</i>(H) = 1.349 × 2.02 ÷ 18.02. 빼기 전에 반올림하지 마세요.",
 
     // Empirical and molecular formulas > try it > p
-    "<strong>0.399 g</strong> of oxygen. Carrying on: the amounts are C 0.04992 mol, H 0.1497 mol and O 0.02495 mol, a ratio of 2 : 6 : 1, so the empirical formula is C<sub>2</sub>H<sub>6</sub>O.": "",
+    "<strong>0.399 g</strong> of oxygen. Carrying on: the amounts are C 0.04992 mol, H 0.1497 mol and O 0.02495 mol, a ratio of 2 : 6 : 1, so the empirical formula is C<sub>2</sub>H<sub>6</sub>O.": "산소 <strong>0.399 g</strong>. 계속하면: 양은 C 0.04992 mol, H 0.1497 mol, O 0.02495 mol이고 비는 2 : 6 : 1이므로, 실험식은 C<sub>2</sub>H<sub>6</sub>O예요.",
 
     // Empirical and molecular formulas > h3
-    "From empirical formula to molecular formula": "",
+    "From empirical formula to molecular formula": "실험식에서 분자식으로",
 
     // Empirical and molecular formulas > p
-    "The empirical formula gives the ratio. To find the real molecule you need one more fact: the molar mass. It usually comes from another experiment, often a gas measurement (topic 1.5).": "",
+    "The empirical formula gives the ratio. To find the real molecule you need one more fact: the molar mass. It usually comes from another experiment, often a gas measurement (topic 1.5).": "실험식은 비를 알려 줘요. 실제 분자를 알려면 한 가지 사실이 더 필요해요: 몰 질량이에요. 몰 질량은 대개 다른 실험에서 얻는데, 기체 측정에서 얻는 경우가 많아요(1.5 단원).",
 
     // Empirical and molecular formulas > li
-    "Work out the mass of the empirical formula, from <i>A</i><sub>r</sub> values.": "",
+    "Work out the mass of the empirical formula, from <i>A</i><sub>r</sub> values.": "<i>A</i><sub>r</sub> 값으로 실험식의 질량을 구하세요.",
 
     // Empirical and molecular formulas > li
-    "Divide the molar mass by the empirical formula mass. The answer should be a whole number.": "",
+    "Divide the molar mass by the empirical formula mass. The answer should be a whole number.": "몰 질량을 실험식 질량으로 나누세요. 답은 정수가 되어야 해요.",
 
     // Empirical and molecular formulas > li
-    "Multiply every subscript in the empirical formula by that whole number.": "",
+    "Multiply every subscript in the empirical formula by that whole number.": "실험식의 모든 아래 첨자에 그 정수를 곱하세요.",
 
     // Empirical and molecular formulas > worked example > h3
-    "Molecular formula from molar mass": "",
+    "Molecular formula from molar mass": "몰 질량으로 분자식 구하기",
 
     // Empirical and molecular formulas > worked example > p
-    "The compound in the last worked example has the empirical formula <span class=\"chem\">C2H4O</span>. Its molar mass is 88.12 g mol<sup>−1</sup>. Determine its molecular formula.": "",
+    "The compound in the last worked example has the empirical formula <span class=\"chem\">C2H4O</span>. Its molar mass is 88.12 g mol<sup>−1</sup>. Determine its molecular formula.": "앞 예제의 화합물은 실험식이 <span class=\"chem\">C2H4O</span>예요. 몰 질량은 88.12 g mol<sup>−1</sup>이에요. 분자식을 구하시오 (determine).",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Find the empirical formula mass": "",
+    "Find the empirical formula mass": "실험식 질량 구하기",
 
     // Empirical and molecular formulas > worked example > p
-    "You need to know how heavy one “unit” of the ratio is.": "",
+    "You need to know how heavy one “unit” of the ratio is.": "비의 “단위” 하나가 얼마나 무거운지 알아야 해요.",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Divide the molar mass by it": "",
+    "Divide the molar mass by it": "몰 질량을 실험식 질량으로 나누기",
 
     // Empirical and molecular formulas > worked example > p
-    "This tells you how many empirical units fit into one molecule.": "",
+    "This tells you how many empirical units fit into one molecule.": "이렇게 하면 분자 하나에 실험식 단위가 몇 개 들어가는지 알 수 있어요.",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Multiply the subscripts": "",
+    "Multiply the subscripts": "아래 첨자 곱하기",
 
     // Empirical and molecular formulas > worked example > p
-    "Two units per molecule, so double every subscript.": "",
+    "Two units per molecule, so double every subscript.": "분자 하나에 단위가 2개이므로, 모든 아래 첨자를 2배로 하세요.",
 
     // Empirical and molecular formulas > try it > data-label attribute
-    "Carbon atoms": "",
+    "Carbon atoms": "탄소 원자",
 
     // Empirical and molecular formulas > try it > p
-    "A sugar has the empirical formula <span class=\"chem\">CH2O</span> and a molar mass of 180.18 g mol<sup>−1</sup>. How many carbon atoms are in one molecule of the sugar? (<i>A</i><sub>r</sub>: C 12.01, H 1.01, O 16.00)": "",
+    "A sugar has the empirical formula <span class=\"chem\">CH2O</span> and a molar mass of 180.18 g mol<sup>−1</sup>. How many carbon atoms are in one molecule of the sugar? (<i>A</i><sub>r</sub>: C 12.01, H 1.01, O 16.00)": "어떤 당은 실험식이 <span class=\"chem\">CH2O</span>이고 몰 질량이 180.18 g mol<sup>−1</sup>이에요. 이 당 분자 하나에는 탄소 원자가 몇 개 있을까요? (<i>A</i><sub>r</sub>: C 12.01, H 1.01, O 16.00)",
 
     // Empirical and molecular formulas > try it > li
-    "Find the mass of one CH<sub>2</sub>O unit first.": "",
+    "Find the mass of one CH<sub>2</sub>O unit first.": "먼저 CH<sub>2</sub>O 단위 하나의 질량을 구하세요.",
 
     // Empirical and molecular formulas > try it > li
-    "The empirical formula mass is 30.03. Divide 180.18 by it to see how many units make one molecule.": "",
+    "The empirical formula mass is 30.03. Divide 180.18 by it to see how many units make one molecule.": "실험식 질량은 30.03이에요. 180.18을 이 값으로 나누어 분자 하나가 몇 단위로 이루어지는지 보세요.",
 
     // Empirical and molecular formulas > try it > maths line
-    "empirical formula mass = 12.01 + 2(1.01) + 16.00 = 30.03": "",
+    "empirical formula mass = 12.01 + 2(1.01) + 16.00 = 30.03": "실험식 질량 = 12.01 + 2(1.01) + 16.00 = 30.03",
 
     // Empirical and molecular formulas > try it > p
-    "The molecular formula is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>, so there are <strong>6</strong> carbon atoms.": "",
+    "The molecular formula is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>, so there are <strong>6</strong> carbon atoms.": "분자식은 C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>이므로 탄소 원자는 <strong>6</strong>개예요.",
 
     // Empirical and molecular formulas > common mistake > p
-    "Read which formula the question wants. If it asks for the empirical formula of <span class=\"chem\">C4H8O2</span>, simplify to <span class=\"chem\">C2H4O</span>. If it asks for the molecular formula, do not simplify.": "",
+    "Read which formula the question wants. If it asks for the empirical formula of <span class=\"chem\">C4H8O2</span>, simplify to <span class=\"chem\">C2H4O</span>. If it asks for the molecular formula, do not simplify.": "문제가 어떤 화학식을 원하는지 읽으세요. <span class=\"chem\">C4H8O2</span>의 실험식을 묻는다면 <span class=\"chem\">C2H4O</span>로 간단히 하세요. 분자식을 묻는다면 간단히 하지 마세요.",
 
     // Empirical and molecular formulas > h3
-    "Water of crystallization from heating a hydrate": "",
+    "Water of crystallization from heating a hydrate": "수화물을 가열해 결정수 구하기",
 
     // Empirical and molecular formulas > p
-    "The same table method finds the <i>x</i> in a hydrated salt such as <span class=\"chem\">CuSO4.xH2O</span>. A weighed sample is heated so the water is driven off as steam. What is left is the <dfn data-def=\"Without water. An anhydrous salt has lost its water of crystallization.\">anhydrous</dfn> salt. The mass lost is the mass of water.": "",
+    "The same table method finds the <i>x</i> in a hydrated salt such as <span class=\"chem\">CuSO4.xH2O</span>. A weighed sample is heated so the water is driven off as steam. What is left is the <dfn data-def=\"Without water. An anhydrous salt has lost its water of crystallization.\">anhydrous</dfn> salt. The mass lost is the mass of water.": "같은 표 방법으로 <span class=\"chem\">CuSO4.xH2O</span> 같은 수화물 염의 <i>x</i>를 구할 수 있어요. 무게를 잰 시료를 가열해 물을 수증기로 날려 보내요. 남는 것은 <dfn data-def=\"물이 없는 상태. 무수 염은 결정수를 잃은 염이에요.\">무수 <span class=\"en-term\">(anhydrous)</span></dfn> 염이에요. 줄어든 질량이 물의 질량이에요.",
 
     // Empirical and molecular formulas > data-def attribute
-    "Without water. An anhydrous salt has lost its water of crystallization.": "",
+    "Without water. An anhydrous salt has lost its water of crystallization.": "물이 없는 상태. 무수 염은 결정수를 잃은 염이에요.",
 
     // Empirical and molecular formulas > p
-    "Here the two “elements” in the table are the anhydrous salt and the water. Divide each mass by its own molar mass, then divide by the amount of salt.": "",
+    "Here the two “elements” in the table are the anhydrous salt and the water. Divide each mass by its own molar mass, then divide by the amount of salt.": "여기서는 표의 두 “원소”가 무수 염과 물이에요. 각 질량을 각자의 몰 질량으로 나눈 다음, 염의 양으로 나누세요.",
 
     // Empirical and molecular formulas > worked example > h3
-    "Finding x in a hydrate": "",
+    "Finding x in a hydrate": "수화물에서 x 구하기",
 
     // Empirical and molecular formulas > worked example > p
-    "4.99 g of hydrated copper(II) sulfate, <span class=\"chem\">CuSO4.xH2O</span>, is heated to constant mass. 3.19 g of anhydrous <span class=\"chem\">CuSO4</span> remains. Determine <i>x</i>.": "",
+    "4.99 g of hydrated copper(II) sulfate, <span class=\"chem\">CuSO4.xH2O</span>, is heated to constant mass. 3.19 g of anhydrous <span class=\"chem\">CuSO4</span> remains. Determine <i>x</i>.": "수화된 황산 구리(II) <span class=\"chem\">CuSO4.xH2O</span> 4.99 g을 질량이 일정해질 때까지 가열해요. 무수 <span class=\"chem\">CuSO4</span> 3.19 g이 남아요. <i>x</i>를 구하시오 (determine).",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Find the mass of water lost": "",
+    "Find the mass of water lost": "잃은 물의 질량 구하기",
 
     // Empirical and molecular formulas > worked example > p
-    "The only thing that left the crucible was water.": "",
+    "The only thing that left the crucible was water.": "도가니에서 빠져나간 것은 물뿐이에요.",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Convert both masses to moles": "",
+    "Convert both masses to moles": "두 질량을 모두 몰로 바꾸기",
 
     // Empirical and molecular formulas > worked example > p
-    "The formula is a mole ratio of salt to water. <i>M</i>(CuSO<sub>4</sub>) = 63.55 + 32.07 + 4(16.00) = 159.62 g mol<sup>−1</sup>.": "",
+    "The formula is a mole ratio of salt to water. <i>M</i>(CuSO<sub>4</sub>) = 63.55 + 32.07 + 4(16.00) = 159.62 g mol<sup>−1</sup>.": "화학식은 염과 물의 몰 비예요. <i>M</i>(CuSO<sub>4</sub>) = 63.55 + 32.07 + 4(16.00) = 159.62 g mol<sup>−1</sup>.",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Divide by the amount of salt": "",
+    "Divide by the amount of salt": "염의 양으로 나누기",
 
     // Empirical and molecular formulas > worked example > p
-    "You want the number of waters for each one CuSO<sub>4</sub>.": "",
+    "You want the number of waters for each one CuSO<sub>4</sub>.": "CuSO<sub>4</sub> 하나당 물 분자 수를 구해야 해요.",
 
     // Empirical and molecular formulas > worked example > p
-    "<i>x</i> must be a whole number, because it counts molecules.": "",
+    "<i>x</i> must be a whole number, because it counts molecules.": "<i>x</i>는 분자 수를 세므로 정수여야 해요.",
 
     // Empirical and molecular formulas > worked example > maths line
-    "<i>x</i> = <b>5</b>, so the formula is CuSO<sub>4</sub>·5H<sub>2</sub>O": "",
+    "<i>x</i> = <b>5</b>, so the formula is CuSO<sub>4</sub>·5H<sub>2</sub>O": "<i>x</i> = <b>5</b>, 따라서 화학식은 CuSO<sub>4</sub>·5H<sub>2</sub>O",
 
     // Empirical and molecular formulas > exam tip (shown in English + translation) > p
-    "“Heat to constant mass” means heat, cool, weigh, and repeat until two weighings agree. It shows that all the water has gone. If some water stays behind, the mass lost is too small and the calculated <i>x</i> is too low.": "",
+    "“Heat to constant mass” means heat, cool, weigh, and repeat until two weighings agree. It shows that all the water has gone. If some water stays behind, the mass lost is too small and the calculated <i>x</i> is too low.": "“질량이 일정해질 때까지 가열하기”는 가열하고, 식히고, 무게를 재는 과정을 두 번의 측정값이 같아질 때까지 되풀이한다는 뜻이에요. 그러면 물이 모두 빠져나갔다는 것을 알 수 있어요. 물이 일부 남아 있으면 잃은 질량이 너무 작아서 계산한 <i>x</i>가 너무 낮아져요.",
 
     // Empirical and molecular formulas > try it > p
-    "6.16 g of hydrated magnesium sulfate, <span class=\"chem\">MgSO4.xH2O</span>, is heated to constant mass. 3.01 g of anhydrous <span class=\"chem\">MgSO4</span> remains. Determine the whole number <i>x</i>. (<i>M</i>: <span class=\"chem\">MgSO4</span> 120.38 g mol<sup>−1</sup>, <span class=\"chem\">H2O</span> 18.02 g mol<sup>−1</sup>)": "",
+    "6.16 g of hydrated magnesium sulfate, <span class=\"chem\">MgSO4.xH2O</span>, is heated to constant mass. 3.01 g of anhydrous <span class=\"chem\">MgSO4</span> remains. Determine the whole number <i>x</i>. (<i>M</i>: <span class=\"chem\">MgSO4</span> 120.38 g mol<sup>−1</sup>, <span class=\"chem\">H2O</span> 18.02 g mol<sup>−1</sup>)": "수화된 황산 마그네슘 <span class=\"chem\">MgSO4.xH2O</span> 6.16 g을 질량이 일정해질 때까지 가열해요. 무수 <span class=\"chem\">MgSO4</span> 3.01 g이 남아요. 정수 <i>x</i>를 구하시오 (determine). (<i>M</i>: <span class=\"chem\">MgSO4</span> 120.38 g mol<sup>−1</sup>, <span class=\"chem\">H2O</span> 18.02 g mol<sup>−1</sup>)",
 
     // Empirical and molecular formulas > try it > li
-    "The mass of water is the mass lost on heating: 6.16 g − 3.01 g.": "",
+    "The mass of water is the mass lost on heating: 6.16 g − 3.01 g.": "물의 질량은 가열해서 줄어든 질량이에요: 6.16 g − 3.01 g.",
 
     // Empirical and molecular formulas > try it > li
-    "Convert 3.01 g of MgSO<sub>4</sub> and 3.15 g of H<sub>2</sub>O to moles. Then divide the moles of water by the moles of salt.": "",
+    "Convert 3.01 g of MgSO<sub>4</sub> and 3.15 g of H<sub>2</sub>O to moles. Then divide the moles of water by the moles of salt.": "MgSO<sub>4</sub> 3.01 g과 H<sub>2</sub>O 3.15 g을 몰로 바꾸세요. 그다음 물의 몰을 염의 몰로 나누세요.",
 
     // Empirical and molecular formulas > try it > p
-    "Rounded to a whole number, <strong><i>x</i> = 7</strong>: MgSO<sub>4</sub>·7H<sub>2</sub>O.": "",
+    "Rounded to a whole number, <strong><i>x</i> = 7</strong>: MgSO<sub>4</sub>·7H<sub>2</sub>O.": "정수로 반올림하면 <strong><i>x</i> = 7</strong>: MgSO<sub>4</sub>·7H<sub>2</sub>O.",
 
     // Empirical and molecular formulas > not needed for IB > p
-    "Combustion problems in this topic use compounds of carbon, hydrogen and oxygen, with oxygen found by difference. You do not need to know how an elemental analyser works.": "",
+    "Combustion problems in this topic use compounds of carbon, hydrogen and oxygen, with oxygen found by difference. You do not need to know how an elemental analyser works.": "이 단원의 연소 문제는 탄소, 수소, 산소로 된 화합물을 쓰고, 산소는 차이로 구해요. 원소 분석기의 작동 원리는 몰라도 돼요.",
 
     // Empirical and molecular formulas > data-title attribute
-    "Combustion, molecular formulas and hydrates: quick check": "",
+    "Combustion, molecular formulas and hydrates: quick check": "연소, 분자식, 수화물: 빠른 확인",
 
     // Concentration of solutions > data-toc attribute
-    "Concentration": "",
+    "Concentration": "농도",
 
     // Concentration of solutions > h2
-    "Concentration of solutions": "",
+    "Concentration of solutions": "용액의 농도",
 
     // Concentration of solutions > p
-    "Two glasses of squash can hold the same amount of syrup but taste different, because one has more water in it. What matters is how much is dissolved <em>per unit volume</em>. That is concentration.": "",
+    "Two glasses of squash can hold the same amount of syrup but taste different, because one has more water in it. What matters is how much is dissolved <em>per unit volume</em>. That is concentration.": "주스 원액을 물에 탄 음료 두 잔에 원액이 같은 양 들어 있어도 맛이 다를 수 있어요. 한 잔에 물이 더 많기 때문이에요. 중요한 것은 <em>단위 부피당</em> 얼마나 녹아 있는가예요. 그것이 농도예요.",
 
     // Concentration of solutions > p
-    "A <dfn data-def=\"The substance that dissolves.\">solute</dfn> dissolves in a <dfn data-def=\"The liquid that does the dissolving, usually water.\">solvent</dfn> to make a <dfn data-def=\"A homogeneous mixture of a solute dissolved in a solvent.\">solution</dfn>. The <dfn data-def=\"The amount of solute, in mol, per cubic decimetre of solution. Units mol dm^-3. Shown by square brackets.\">molar concentration</dfn> is the amount of solute divided by the volume of the solution. Its units are <span class=\"unit\">mol dm-3</span>.": "",
+    "A <dfn data-def=\"The substance that dissolves.\">solute</dfn> dissolves in a <dfn data-def=\"The liquid that does the dissolving, usually water.\">solvent</dfn> to make a <dfn data-def=\"A homogeneous mixture of a solute dissolved in a solvent.\">solution</dfn>. The <dfn data-def=\"The amount of solute, in mol, per cubic decimetre of solution. Units mol dm^-3. Shown by square brackets.\">molar concentration</dfn> is the amount of solute divided by the volume of the solution. Its units are <span class=\"unit\">mol dm-3</span>.": "<dfn data-def=\"녹는 물질.\">용질 <span class=\"en-term\">(solute)</span></dfn>이 <dfn data-def=\"녹이는 액체. 보통 물.\">용매 <span class=\"en-term\">(solvent)</span></dfn>에 녹아 <dfn data-def=\"용질이 용매에 녹아 있는 균일 혼합물.\">용액 <span class=\"en-term\">(solution)</span></dfn>이 돼요. <dfn data-def=\"용액 1세제곱데시미터당 용질의 양(mol). 단위 mol dm^-3. 대괄호로 나타내요.\">몰 농도 <span class=\"en-term\">(molar concentration)</span></dfn>는 용질의 양을 용액의 부피로 나눈 값이에요. 단위는 <span class=\"unit\">mol dm-3</span>이에요.",
 
     // Concentration of solutions > data-def attribute
-    "The substance that dissolves.": "",
+    "The substance that dissolves.": "녹는 물질.",
 
     // Concentration of solutions > data-def attribute
-    "The liquid that does the dissolving, usually water.": "",
+    "The liquid that does the dissolving, usually water.": "녹이는 액체. 보통 물.",
 
     // Concentration of solutions > data-def attribute
-    "A homogeneous mixture of a solute dissolved in a solvent.": "",
+    "A homogeneous mixture of a solute dissolved in a solvent.": "용질이 용매에 녹아 있는 균일 혼합물.",
 
     // Concentration of solutions > data-def attribute
-    "The amount of solute, in mol, per cubic decimetre of solution. Units mol dm^-3. Shown by square brackets.": "",
+    "The amount of solute, in mol, per cubic decimetre of solution. Units mol dm^-3. Shown by square brackets.": "용액 1세제곱데시미터당 용질의 양(mol). 단위 mol dm^-3. 대괄호로 나타내요.",
 
     // Concentration of solutions > equation > dd
-    "amount of solute <span class=\"unit\">mol</span>": "",
+    "amount of solute <span class=\"unit\">mol</span>": "용질의 양 <span class=\"unit\">mol</span>",
 
     // Concentration of solutions > equation > dd
-    "molar concentration <span class=\"unit\">mol dm-3</span>": "",
+    "molar concentration <span class=\"unit\">mol dm-3</span>": "몰 농도 <span class=\"unit\">mol dm-3</span>",
 
     // Concentration of solutions > equation > dd
-    "volume of solution <span class=\"unit\">dm3</span>": "",
+    "volume of solution <span class=\"unit\">dm3</span>": "용액의 부피 <span class=\"unit\">dm3</span>",
 
     // Concentration of solutions > data booklet note > p
-    "<i>n</i> = <i>CV</i> is printed in the data booklet. Rearranged: <span class=\"mono\"><i>C</i> = <i>n</i> ÷ <i>V</i></span> and <span class=\"mono\"><i>V</i> = <i>n</i> ÷ <i>C</i></span>. The volume must be in dm<sup>3</sup>.": "",
+    "<i>n</i> = <i>CV</i> is printed in the data booklet. Rearranged: <span class=\"mono\"><i>C</i> = <i>n</i> ÷ <i>V</i></span> and <span class=\"mono\"><i>V</i> = <i>n</i> ÷ <i>C</i></span>. The volume must be in dm<sup>3</sup>.": "<i>n</i> = <i>CV</i>는 데이터 부클릿에 나와 있어요. 식을 바꾸면: <span class=\"mono\"><i>C</i> = <i>n</i> ÷ <i>V</i></span>, <span class=\"mono\"><i>V</i> = <i>n</i> ÷ <i>C</i></span>. 부피는 반드시 dm<sup>3</sup> 단위여야 해요.",
 
     // Concentration of solutions > p
-    "Square brackets mean “molar concentration of”. So <span class=\"mono\">[NaCl] = 0.400 mol dm<sup>−3</sup></span> reads “the concentration of sodium chloride is 0.400 moles per cubic decimetre”. You are expected to use this notation.": "",
+    "Square brackets mean “molar concentration of”. So <span class=\"mono\">[NaCl] = 0.400 mol dm<sup>−3</sup></span> reads “the concentration of sodium chloride is 0.400 moles per cubic decimetre”. You are expected to use this notation.": "대괄호는 “~의 몰 농도”를 뜻해요. 그래서 <span class=\"mono\">[NaCl] = 0.400 mol dm<sup>−3</sup></span>은 “염화 나트륨의 농도는 1세제곱데시미터당 0.400몰이다”라고 읽어요. 이 표기법을 쓸 수 있어야 해요.",
 
     // Concentration of solutions > key idea > p
-    "<i>V</i> is the volume of the finished <strong>solution</strong>, not the volume of water you added. Dissolving a solid changes the volume a little, which is why solutions are made up to a mark and not by adding a measured volume of water.": "",
+    "<i>V</i> is the volume of the finished <strong>solution</strong>, not the volume of water you added. Dissolving a solid changes the volume a little, which is why solutions are made up to a mark and not by adding a measured volume of water.": "<i>V</i>는 완성된 <strong>용액</strong>의 부피이지, 넣은 물의 부피가 아니에요. 고체를 녹이면 부피가 조금 변해요. 그래서 용액은 정해진 부피의 물을 넣는 것이 아니라 눈금선까지 채워서 만들어요.",
 
     // Concentration of solutions > h3
-    "Two ways to state a concentration": "",
+    "Two ways to state a concentration": "농도를 나타내는 두 가지 방법",
 
     // Concentration of solutions > p
-    "The <dfn data-def=\"The mass of solute, in g, per cubic decimetre of solution. Units g dm^-3.\">mass concentration</dfn> is the mass of solute per volume of solution, in <span class=\"unit\">g dm-3</span>. The two are linked by the molar mass, in exactly the way mass and moles are.": "",
+    "The <dfn data-def=\"The mass of solute, in g, per cubic decimetre of solution. Units g dm^-3.\">mass concentration</dfn> is the mass of solute per volume of solution, in <span class=\"unit\">g dm-3</span>. The two are linked by the molar mass, in exactly the way mass and moles are.": "<dfn data-def=\"용액 1세제곱데시미터당 용질의 질량(g). 단위 g dm^-3.\">질량 농도 <span class=\"en-term\">(mass concentration)</span></dfn>는 용액 부피당 용질의 질량이고, 단위는 <span class=\"unit\">g dm-3</span>이에요. 두 농도는 몰 질량으로 연결되는데, 질량과 몰이 연결되는 방식과 똑같아요.",
 
     // Concentration of solutions > data-def attribute
-    "The mass of solute, in g, per cubic decimetre of solution. Units g dm^-3.": "",
+    "The mass of solute, in g, per cubic decimetre of solution. Units g dm^-3.": "용액 1세제곱데시미터당 용질의 질량(g). 단위 g dm^-3.",
 
     // Concentration of solutions > equation > maths line
-    "mass concentration = <i>C</i> × <i>M</i>": "",
+    "mass concentration = <i>C</i> × <i>M</i>": "질량 농도 = <i>C</i> × <i>M</i>",
 
     // Concentration of solutions > equation > dd
-    "molar mass of the solute <span class=\"unit\">g mol-1</span>": "",
+    "molar mass of the solute <span class=\"unit\">g mol-1</span>": "용질의 몰 질량 <span class=\"unit\">g mol-1</span>",
 
     // Concentration of solutions > p
-    "The mass concentration comes out in <span class=\"unit\">g dm-3</span>. For example, 0.0500 mol dm<sup>−3</sup> sulfuric acid (<i>M</i> = 98.09 g mol<sup>−1</sup>) is <span class=\"mono\">0.0500 × 98.09 = 4.90 g dm<sup>−3</sup></span>. To go from g dm<sup>−3</sup> to mol dm<sup>−3</sup>, divide by <i>M</i>.": "",
+    "The mass concentration comes out in <span class=\"unit\">g dm-3</span>. For example, 0.0500 mol dm<sup>−3</sup> sulfuric acid (<i>M</i> = 98.09 g mol<sup>−1</sup>) is <span class=\"mono\">0.0500 × 98.09 = 4.90 g dm<sup>−3</sup></span>. To go from g dm<sup>−3</sup> to mol dm<sup>−3</sup>, divide by <i>M</i>.": "질량 농도는 <span class=\"unit\">g dm-3</span> 단위로 나와요. 예를 들어 0.0500 mol dm<sup>−3</sup> 황산(<i>M</i> = 98.09 g mol<sup>−1</sup>)은 <span class=\"mono\">0.0500 × 98.09 = 4.90 g dm<sup>−3</sup></span>이에요. g dm<sup>−3</sup>에서 mol dm<sup>−3</sup>로 가려면 <i>M</i>으로 나누세요.",
 
     // Concentration of solutions > li
-    "Ask the three questions. Is the solute given as a mass, an amount or a concentration?": "",
+    "Ask the three questions. Is the solute given as a mass, an amount or a concentration?": "세 가지 질문을 하세요. 용질이 질량, 양, 농도 중 무엇으로 주어졌나요?",
 
     // Concentration of solutions > li
-    "Convert every volume from cm<sup>3</sup> to dm<sup>3</sup> by dividing by 1000. Write this as its own line.": "",
+    "Convert every volume from cm<sup>3</sup> to dm<sup>3</sup> by dividing by 1000. Write this as its own line.": "모든 부피를 1000으로 나누어 cm<sup>3</sup>에서 dm<sup>3</sup>로 바꾸세요. 이것을 따로 한 줄로 쓰세요.",
 
     // Concentration of solutions > li
-    "If you have a mass of solute, convert it to moles with <i>n</i> = <i>m</i> ÷ <i>M</i>.": "",
+    "If you have a mass of solute, convert it to moles with <i>n</i> = <i>m</i> ÷ <i>M</i>.": "용질의 질량이 있으면 <i>n</i> = <i>m</i> ÷ <i>M</i>으로 몰로 바꾸세요.",
 
     // Concentration of solutions > li
-    "Use <i>n</i> = <i>CV</i>, rearranged for what you want.": "",
+    "Use <i>n</i> = <i>CV</i>, rearranged for what you want.": "구할 것에 맞게 바꾼 <i>n</i> = <i>CV</i>를 쓰세요.",
 
     // Concentration of solutions > li
-    "Check the size of the answer, round, and write the unit.": "",
+    "Check the size of the answer, round, and write the unit.": "답의 크기를 확인하고, 반올림하고, 단위를 쓰세요.",
 
     // Concentration of solutions > worked example > h3
-    "Concentration from mass and volume": "",
+    "Concentration from mass and volume": "질량과 부피로 농도 구하기",
 
     // Concentration of solutions > worked example > p
-    "5.85 g of sodium chloride, <span class=\"chem\">NaCl</span>, is dissolved in distilled water and the solution is made up to 250.0 cm<sup>3</sup>. Calculate the concentration in mol dm<sup>−3</sup> and in g dm<sup>−3</sup>.": "",
+    "5.85 g of sodium chloride, <span class=\"chem\">NaCl</span>, is dissolved in distilled water and the solution is made up to 250.0 cm<sup>3</sup>. Calculate the concentration in mol dm<sup>−3</sup> and in g dm<sup>−3</sup>.": "염화 나트륨 <span class=\"chem\">NaCl</span> 5.85 g을 증류수에 녹이고 용액을 250.0 cm<sup>3</sup>로 맞춰요. 농도를 mol dm<sup>−3</sup> 단위와 g dm<sup>−3</sup> 단위로 계산하시오 (calculate).",
 
     // Concentration of solutions > worked example > data-title attribute
-    "Convert the volume to dm³": "",
+    "Convert the volume to dm³": "부피를 dm³로 바꾸기",
 
     // Concentration of solutions > worked example > p
-    "<i>n</i> = <i>CV</i> only works with the volume in dm<sup>3</sup>.": "",
+    "<i>n</i> = <i>CV</i> only works with the volume in dm<sup>3</sup>.": "<i>n</i> = <i>CV</i>는 부피가 dm<sup>3</sup> 단위일 때만 성립해요.",
 
     // Concentration of solutions > worked example > data-title attribute
-    "Convert the mass to moles": "",
+    "Convert the mass to moles": "질량을 몰로 바꾸기",
 
     // Concentration of solutions > worked example > p
-    "Molar concentration needs an amount in mol, not a mass.": "",
+    "Molar concentration needs an amount in mol, not a mass.": "몰 농도에는 질량이 아니라 mol 단위의 양이 필요해요.",
 
     // Concentration of solutions > worked example > data-title attribute
-    "Divide amount by volume": "",
+    "Divide amount by volume": "양을 부피로 나누기",
 
     // Concentration of solutions > worked example > p
-    "Rearranging <i>n</i> = <i>CV</i> gives <i>C</i> = <i>n</i> ÷ <i>V</i>.": "",
+    "Rearranging <i>n</i> = <i>CV</i> gives <i>C</i> = <i>n</i> ÷ <i>V</i>.": "<i>n</i> = <i>CV</i>를 바꾸면 <i>C</i> = <i>n</i> ÷ <i>V</i>예요.",
 
     // Concentration of solutions > worked example > p
-    "The mass has 3 significant figures, the fewest in the data.": "",
+    "The mass has 3 significant figures, the fewest in the data.": "질량은 유효 숫자가 3자리로, 자료 중 가장 적어요.",
 
     // Concentration of solutions > worked example > data-title attribute
-    "Find the mass concentration": "",
+    "Find the mass concentration": "질량 농도 구하기",
 
     // Concentration of solutions > worked example > p
-    "Mass per volume uses the mass directly. There is no need to go through moles.": "",
+    "Mass per volume uses the mass directly. There is no need to go through moles.": "부피당 질량은 질량을 바로 써요. 몰을 거칠 필요가 없어요.",
 
     // Concentration of solutions > worked example > p
-    "0.400 mol dm<sup>−3</sup>, which is 23.4 g dm<sup>−3</sup>": "",
+    "0.400 mol dm<sup>−3</sup>, which is 23.4 g dm<sup>−3</sup>": "0.400 mol dm<sup>−3</sup>, 즉 23.4 g dm<sup>−3</sup>",
 
     // Concentration of solutions > common mistake > p
-    "Dividing by 250 instead of 0.2500 gives 0.000400, an answer 1000 times too small. Mixing up the two units is also common. For the same solution, the value in <span class=\"unit\">g dm-3</span> is always the bigger number, because every molar mass is greater than 1 g mol<sup>−1</sup>.": "",
+    "Dividing by 250 instead of 0.2500 gives 0.000400, an answer 1000 times too small. Mixing up the two units is also common. For the same solution, the value in <span class=\"unit\">g dm-3</span> is always the bigger number, because every molar mass is greater than 1 g mol<sup>−1</sup>.": "0.2500 대신 250으로 나누면 0.000400이 나오는데, 1000배 너무 작은 답이에요. 두 단위를 헷갈리는 것도 흔한 실수예요. 같은 용액이라면 <span class=\"unit\">g dm-3</span> 단위의 값이 항상 더 큰 수예요. 모든 몰 질량이 1 g mol<sup>−1</sup>보다 크기 때문이에요.",
 
     // Concentration of solutions > try it > p
-    "Calculate the amount, in mol, of solute in 20.0 cm<sup>3</sup> of a 0.150 mol dm<sup>−3</sup> solution.": "",
+    "Calculate the amount, in mol, of solute in 20.0 cm<sup>3</sup> of a 0.150 mol dm<sup>−3</sup> solution.": "0.150 mol dm<sup>−3</sup> 용액 20.0 cm<sup>3</sup>에 들어 있는 용질의 양을 mol 단위로 계산하시오 (calculate).",
 
     // Concentration of solutions > try it > li
-    "Which relationship links amount, concentration and volume? What unit must the volume be in?": "",
+    "Which relationship links amount, concentration and volume? What unit must the volume be in?": "양, 농도, 부피를 연결하는 관계식은 무엇일까요? 부피는 어떤 단위여야 할까요?",
 
     // Concentration of solutions > try it > li
-    "<i>V</i> = 20.0 ÷ 1000 = 0.0200 dm<sup>3</sup>. Then <i>n</i> = <i>C</i> × <i>V</i>.": "",
+    "<i>V</i> = 20.0 ÷ 1000 = 0.0200 dm<sup>3</sup>. Then <i>n</i> = <i>C</i> × <i>V</i>.": "<i>V</i> = 20.0 ÷ 1000 = 0.0200 dm<sup>3</sup>. 그다음 <i>n</i> = <i>C</i> × <i>V</i>.",
 
     // Concentration of solutions > try it > p
-    "<strong>0.00300 mol</strong>, or 3.00 × 10<sup>−3</sup> mol.": "",
+    "<strong>0.00300 mol</strong>, or 3.00 × 10<sup>−3</sup> mol.": "<strong>0.00300 mol</strong>, 즉 3.00 × 10<sup>−3</sup> mol.",
 
     // Concentration of solutions > try it > p
-    "1.20 g of sodium hydroxide, <span class=\"chem\">NaOH</span>, is dissolved and made up to 250.0 cm<sup>3</sup> of solution. Calculate [NaOH]. (<i>M</i>(NaOH) = 40.00 g mol<sup>−1</sup>)": "",
+    "1.20 g of sodium hydroxide, <span class=\"chem\">NaOH</span>, is dissolved and made up to 250.0 cm<sup>3</sup> of solution. Calculate [NaOH]. (<i>M</i>(NaOH) = 40.00 g mol<sup>−1</sup>)": "수산화 나트륨 <span class=\"chem\">NaOH</span> 1.20 g을 녹여 용액 250.0 cm<sup>3</sup>로 맞춰요. [NaOH]를 계산하시오 (calculate). (<i>M</i>(NaOH) = 40.00 g mol<sup>−1</sup>)",
 
     // Concentration of solutions > try it > li
-    "Two conversions are needed before you can divide: mass to moles, and cm<sup>3</sup> to dm<sup>3</sup>.": "",
+    "Two conversions are needed before you can divide: mass to moles, and cm<sup>3</sup> to dm<sup>3</sup>.": "나누기 전에 두 가지 변환이 필요해요: 질량을 몰로, cm<sup>3</sup>를 dm<sup>3</sup>로.",
 
     // Concentration of solutions > try it > li
-    "<i>n</i> = 1.20 ÷ 40.00 = 0.0300 mol and <i>V</i> = 0.2500 dm<sup>3</sup>. Now <i>C</i> = <i>n</i> ÷ <i>V</i>.": "",
+    "<i>n</i> = 1.20 ÷ 40.00 = 0.0300 mol and <i>V</i> = 0.2500 dm<sup>3</sup>. Now <i>C</i> = <i>n</i> ÷ <i>V</i>.": "<i>n</i> = 1.20 ÷ 40.00 = 0.0300 mol, <i>V</i> = 0.2500 dm<sup>3</sup>. 이제 <i>C</i> = <i>n</i> ÷ <i>V</i>.",
 
     // Concentration of solutions > try it > p
-    "<strong>0.120 mol dm<sup>−3</sup></strong>": "",
+    "<strong>0.120 mol dm<sup>−3</sup></strong>": "<strong>0.120 mol dm<sup>−3</sup></strong>",
 
     // Concentration of solutions > try it > p
-    "A bottle is labelled “sodium hydroxide, 8.00 g dm<sup>−3</sup>”. Convert this to a molar concentration. (<i>M</i>(NaOH) = 40.00 g mol<sup>−1</sup>)": "",
+    "A bottle is labelled “sodium hydroxide, 8.00 g dm<sup>−3</sup>”. Convert this to a molar concentration. (<i>M</i>(NaOH) = 40.00 g mol<sup>−1</sup>)": "병에 “수산화 나트륨, 8.00 g dm<sup>−3</sup>”라고 쓰여 있어요. 이것을 몰 농도로 바꾸시오. (<i>M</i>(NaOH) = 40.00 g mol<sup>−1</sup>)",
 
     // Concentration of solutions > try it > li
-    "Going from grams to moles: do you multiply or divide by the molar mass?": "",
+    "Going from grams to moles: do you multiply or divide by the molar mass?": "그램에서 몰로 갈 때: 몰 질량을 곱할까요, 나눌까요?",
 
     // Concentration of solutions > try it > li
-    "Divide: <span class=\"mono\">8.00 g dm<sup>−3</sup> ÷ 40.00 g mol<sup>−1</sup></span>.": "",
+    "Divide: <span class=\"mono\">8.00 g dm<sup>−3</sup> ÷ 40.00 g mol<sup>−1</sup></span>.": "나누세요: <span class=\"mono\">8.00 g dm<sup>−3</sup> ÷ 40.00 g mol<sup>−1</sup></span>.",
 
     // Concentration of solutions > try it > p
-    "<strong>0.200 mol dm<sup>−3</sup></strong>. The units confirm it: g dm<sup>−3</sup> ÷ g mol<sup>−1</sup> = mol dm<sup>−3</sup>.": "",
+    "<strong>0.200 mol dm<sup>−3</sup></strong>. The units confirm it: g dm<sup>−3</sup> ÷ g mol<sup>−1</sup> = mol dm<sup>−3</sup>.": "<strong>0.200 mol dm<sup>−3</sup></strong>. 단위로 확인할 수 있어요: g dm<sup>−3</sup> ÷ g mol<sup>−1</sup> = mol dm<sup>−3</sup>.",
 
     // Concentration of solutions > h3
-    "Concentration of the ions": "",
+    "Concentration of the ions": "이온의 농도",
 
     // Concentration of solutions > p
-    "When an ionic compound dissolves, its ions separate. The formula tells you how many of each you get. One <span class=\"chem\">MgCl2</span> gives one <span class=\"chem\">Mg^2+</span> and two <span class=\"chem\">Cl-</span>. So in 0.150 mol dm<sup>−3</sup> <span class=\"chem\">MgCl2</span>, <span class=\"mono\">[Mg<sup>2+</sup>] = 0.150 mol dm<sup>−3</sup></span> and <span class=\"mono\">[Cl<sup>−</sup>] = 2 × 0.150 = 0.300 mol dm<sup>−3</sup></span>.": "",
+    "When an ionic compound dissolves, its ions separate. The formula tells you how many of each you get. One <span class=\"chem\">MgCl2</span> gives one <span class=\"chem\">Mg^2+</span> and two <span class=\"chem\">Cl-</span>. So in 0.150 mol dm<sup>−3</sup> <span class=\"chem\">MgCl2</span>, <span class=\"mono\">[Mg<sup>2+</sup>] = 0.150 mol dm<sup>−3</sup></span> and <span class=\"mono\">[Cl<sup>−</sup>] = 2 × 0.150 = 0.300 mol dm<sup>−3</sup></span>.": "이온 결합 화합물이 녹으면 이온들이 떨어져 나와요. 각 이온이 몇 개씩 생기는지는 화학식이 알려 줘요. <span class=\"chem\">MgCl2</span> 하나는 <span class=\"chem\">Mg^2+</span> 하나와 <span class=\"chem\">Cl-</span> 둘을 내놓아요. 그래서 0.150 mol dm<sup>−3</sup> <span class=\"chem\">MgCl2</span>에서는 <span class=\"mono\">[Mg<sup>2+</sup>] = 0.150 mol dm<sup>−3</sup></span>, <span class=\"mono\">[Cl<sup>−</sup>] = 2 × 0.150 = 0.300 mol dm<sup>−3</sup></span>이에요.",
 
     // Concentration of solutions > data-title attribute
-    "Concentration calculations: quick check": "",
+    "Concentration calculations: quick check": "농도 계산: 빠른 확인",
 
     // Concentration of solutions > h3
-    "Making a standard solution": "",
+    "Making a standard solution": "표준 용액 만들기",
 
     // Concentration of solutions > p
-    "A <dfn data-def=\"A solution whose concentration is known accurately.\">standard solution</dfn> is one whose concentration is known accurately. It is made in a <dfn data-def=\"A flask with a long narrow neck and a single graduation mark. It holds one accurately known volume, such as 250.0 cm^3.\">volumetric flask</dfn>, which has a single mark on a narrow neck and holds one precise volume.": "",
+    "A <dfn data-def=\"A solution whose concentration is known accurately.\">standard solution</dfn> is one whose concentration is known accurately. It is made in a <dfn data-def=\"A flask with a long narrow neck and a single graduation mark. It holds one accurately known volume, such as 250.0 cm^3.\">volumetric flask</dfn>, which has a single mark on a narrow neck and holds one precise volume.": "<dfn data-def=\"농도가 정확히 알려진 용액.\">표준 용액 <span class=\"en-term\">(standard solution)</span></dfn>은 농도가 정확히 알려진 용액이에요. 표준 용액은 <dfn data-def=\"길고 좁은 목에 눈금선이 하나 있는 플라스크. 250.0 cm^3처럼 정확히 알려진 한 가지 부피만 담아요.\">부피 플라스크 <span class=\"en-term\">(volumetric flask)</span></dfn>로 만드는데, 좁은 목에 눈금선이 하나 있고 정밀한 한 가지 부피만 담아요.",
 
     // Concentration of solutions > data-def attribute
-    "A solution whose concentration is known accurately.": "",
+    "A solution whose concentration is known accurately.": "농도가 정확히 알려진 용액.",
 
     // Concentration of solutions > data-def attribute
-    "A flask with a long narrow neck and a single graduation mark. It holds one accurately known volume, such as 250.0 cm^3.": "",
+    "A flask with a long narrow neck and a single graduation mark. It holds one accurately known volume, such as 250.0 cm^3.": "길고 좁은 목에 눈금선이 하나 있는 플라스크. 250.0 cm^3처럼 정확히 알려진 한 가지 부피만 담아요.",
 
     // Concentration of solutions > widget > data-title attribute
-    "Solution lab": "",
+    "Solution lab": "용액 실험실",
 
     // Concentration of solutions > widget > figcaption
-    "Choose a solute, a mass and a flask to see both concentrations with the working. Switch the task to “Dilute a stock solution” to explore <i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub>. Flask sizes are drawn roughly to scale. The depth of shading is illustrative: it shows “more concentrated” or “less concentrated”, not a measured colour.": "",
+    "Choose a solute, a mass and a flask to see both concentrations with the working. Switch the task to “Dilute a stock solution” to explore <i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub>. Flask sizes are drawn roughly to scale. The depth of shading is illustrative: it shows “more concentrated” or “less concentrated”, not a measured colour.": "용질, 질량, 플라스크를 골라 두 가지 농도와 풀이를 보세요. 과제를 “원액 희석하기”로 바꾸면 <i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub>를 탐구할 수 있어요. 플라스크 크기는 대략 실제 비율로 그렸어요. 색의 진하기는 설명용이에요: “더 진함” 또는 “더 묽음”을 보여 줄 뿐, 측정한 색이 아니에요.",
 
     // Concentration of solutions > worked example > h3
-    "Mass needed for a standard solution": "",
+    "Mass needed for a standard solution": "표준 용액에 필요한 질량",
 
     // Concentration of solutions > worked example > p
-    "Calculate the mass of anhydrous sodium carbonate, <span class=\"chem\">Na2CO3</span>, needed to prepare 250.0 cm<sup>3</sup> of a 0.1000 mol dm<sup>−3</sup> solution.": "",
+    "Calculate the mass of anhydrous sodium carbonate, <span class=\"chem\">Na2CO3</span>, needed to prepare 250.0 cm<sup>3</sup> of a 0.1000 mol dm<sup>−3</sup> solution.": "0.1000 mol dm<sup>−3</sup> 용액 250.0 cm<sup>3</sup>를 만드는 데 필요한 무수 탄산 나트륨 <span class=\"chem\">Na2CO3</span>의 질량을 계산하시오 (calculate).",
 
     // Concentration of solutions > worked example > p
-    "Given: a concentration and a volume. Wanted: a mass. Route: solution → moles → mass.": "",
+    "Given: a concentration and a volume. Wanted: a mass. Route: solution → moles → mass.": "주어진 것: 농도와 부피. 구할 것: 질량. 경로: 용액 → 몰 → 질량.",
 
     // Concentration of solutions > worked example > maths line
-    "<i>n</i> = <i>CV</i> &nbsp; then &nbsp; <i>m</i> = <i>n</i> × <i>M</i>": "",
+    "<i>n</i> = <i>CV</i> &nbsp; then &nbsp; <i>m</i> = <i>n</i> × <i>M</i>": "<i>n</i> = <i>CV</i> &nbsp; 그다음 &nbsp; <i>m</i> = <i>n</i> × <i>M</i>",
 
     // Concentration of solutions > worked example > p
-    "The concentration is per dm<sup>3</sup>, so the volume must match.": "",
+    "The concentration is per dm<sup>3</sup>, so the volume must match.": "농도가 dm<sup>3</sup>당이므로 부피도 맞춰야 해요.",
 
     // Concentration of solutions > worked example > data-title attribute
-    "Find the amount needed": "",
+    "Find the amount needed": "필요한 양 구하기",
 
     // Concentration of solutions > worked example > p
-    "This is the amount of solute that must end up in the flask.": "",
+    "This is the amount of solute that must end up in the flask.": "이것이 플라스크에 최종적으로 들어가야 하는 용질의 양이에요.",
 
     // Concentration of solutions > worked example > data-title attribute
-    "Convert moles to mass": "",
+    "Convert moles to mass": "몰을 질량으로 바꾸기",
 
     // Concentration of solutions > worked example > p
-    "A balance measures grams, not moles.": "",
+    "A balance measures grams, not moles.": "저울은 몰이 아니라 그램을 재요.",
 
     // Concentration of solutions > worked example > p
-    "Standard-solution data are given to 4 significant figures, so the answer is too.": "",
+    "Standard-solution data are given to 4 significant figures, so the answer is too.": "표준 용액 자료는 유효 숫자 4자리로 주어지므로, 답도 4자리예요.",
 
     // Concentration of solutions > worked example > p
-    "2.650 g of Na<sub>2</sub>CO<sub>3</sub>": "",
+    "2.650 g of Na<sub>2</sub>CO<sub>3</sub>": "Na<sub>2</sub>CO<sub>3</sub> 2.650 g",
 
     // Concentration of solutions > p
-    "Calculating the mass is half the job. You also need to be able to describe the procedure:": "",
+    "Calculating the mass is half the job. You also need to be able to describe the procedure:": "질량 계산은 일의 절반이에요. 과정도 서술할 수 있어야 해요:",
 
     // Concentration of solutions > li
-    "Weigh the solid accurately on a balance.": "",
+    "Weigh the solid accurately on a balance.": "저울로 고체의 질량을 정확히 재요.",
 
     // Concentration of solutions > li
-    "Dissolve it in a small volume of <strong>distilled</strong> (or deionized) water in a beaker, stirring until none is left.": "",
+    "Dissolve it in a small volume of <strong>distilled</strong> (or deionized) water in a beaker, stirring until none is left.": "비커에서 적은 양의 <strong>증류수</strong>(또는 탈이온수)에 넣고, 다 녹을 때까지 저어요.",
 
     // Concentration of solutions > li
-    "Pour the solution through a funnel into the volumetric flask. Rinse the beaker, the stirring rod and the funnel with distilled water, and add the <strong>rinsings</strong> to the flask.": "",
+    "Pour the solution through a funnel into the volumetric flask. Rinse the beaker, the stirring rod and the funnel with distilled water, and add the <strong>rinsings</strong> to the flask.": "용액을 깔때기를 통해 부피 플라스크에 부어요. 비커, 젓개, 깔때기를 증류수로 헹구고, <strong>헹군 물</strong>도 플라스크에 넣어요.",
 
     // Concentration of solutions > li
-    "Add distilled water until the bottom of the meniscus sits on the <strong>mark</strong>. Add the last drops with a dropping pipette.": "",
+    "Add distilled water until the bottom of the meniscus sits on the <strong>mark</strong>. Add the last drops with a dropping pipette.": "메니스커스의 바닥이 <strong>눈금선</strong>에 닿을 때까지 증류수를 넣어요. 마지막 몇 방울은 스포이트로 넣어요.",
 
     // Concentration of solutions > li
-    "Stopper the flask and <strong>invert</strong> it several times to mix.": "",
+    "Stopper the flask and <strong>invert</strong> it several times to mix.": "플라스크 마개를 막고 여러 번 <strong>뒤집어</strong> 섞어요.",
 
     // Concentration of solutions > exam tip (shown in English + translation) > p
-    "Markschemes reward specific words: <strong>volumetric flask</strong>, <strong>distilled or deionized water</strong>, transfer <strong>with rinsings</strong>, <strong>make up to the mark</strong>, <strong>stopper and invert to mix</strong>. Writing only “water” can lose a mark. “Add 250 cm<sup>3</sup> of water” is wrong chemistry: the flask is filled <em>up to</em> the mark, so the solution, not the water, is 250.0 cm<sup>3</sup>.": "",
+    "Markschemes reward specific words: <strong>volumetric flask</strong>, <strong>distilled or deionized water</strong>, transfer <strong>with rinsings</strong>, <strong>make up to the mark</strong>, <strong>stopper and invert to mix</strong>. Writing only “water” can lose a mark. “Add 250 cm<sup>3</sup> of water” is wrong chemistry: the flask is filled <em>up to</em> the mark, so the solution, not the water, is 250.0 cm<sup>3</sup>.": "채점 기준은 특정한 표현에 점수를 줘요: <strong>부피 플라스크</strong>, <strong>증류수 또는 탈이온수</strong>, <strong>헹군 물과 함께</strong> 옮기기, <strong>눈금선까지 채우기</strong>, <strong>마개를 막고 뒤집어 섞기</strong>. “물”이라고만 쓰면 점수를 잃을 수 있어요. “물 250 cm<sup>3</sup>를 넣는다”는 화학적으로 틀린 말이에요: 플라스크는 눈금선<em>까지</em> 채우므로, 250.0 cm<sup>3</sup>인 것은 물이 아니라 용액이에요.",
 
     // Concentration of solutions > try it > p
-    "Calculate the mass of hydrated copper(II) sulfate, <span class=\"chem\">CuSO4.5H2O</span>, needed to prepare 100.0 cm<sup>3</sup> of a 0.200 mol dm<sup>−3</sup> solution. (<i>M</i>(<span class=\"chem\">CuSO4.5H2O</span>) = 249.72 g mol<sup>−1</sup>)": "",
+    "Calculate the mass of hydrated copper(II) sulfate, <span class=\"chem\">CuSO4.5H2O</span>, needed to prepare 100.0 cm<sup>3</sup> of a 0.200 mol dm<sup>−3</sup> solution. (<i>M</i>(<span class=\"chem\">CuSO4.5H2O</span>) = 249.72 g mol<sup>−1</sup>)": "0.200 mol dm<sup>−3</sup> 용액 100.0 cm<sup>3</sup>를 만드는 데 필요한 수화된 황산 구리(II) <span class=\"chem\">CuSO4.5H2O</span>의 질량을 계산하시오 (calculate). (<i>M</i>(<span class=\"chem\">CuSO4.5H2O</span>) = 249.72 g mol<sup>−1</sup>)",
 
     // Concentration of solutions > try it > li
-    "Route: solution → moles → mass. Start by converting 100.0 cm<sup>3</sup> to dm<sup>3</sup>.": "",
+    "Route: solution → moles → mass. Start by converting 100.0 cm<sup>3</sup> to dm<sup>3</sup>.": "경로: 용액 → 몰 → 질량. 먼저 100.0 cm<sup>3</sup>를 dm<sup>3</sup>로 바꾸세요.",
 
     // Concentration of solutions > try it > li
-    "<i>n</i> = 0.200 × 0.1000 = 0.0200 mol. Then <i>m</i> = <i>n</i> × <i>M</i>, using the molar mass of the hydrate, because that is the solid you weigh.": "",
+    "<i>n</i> = 0.200 × 0.1000 = 0.0200 mol. Then <i>m</i> = <i>n</i> × <i>M</i>, using the molar mass of the hydrate, because that is the solid you weigh.": "<i>n</i> = 0.200 × 0.1000 = 0.0200 mol. 그다음 <i>m</i> = <i>n</i> × <i>M</i>인데, 무게를 재는 고체가 수화물이므로 수화물의 몰 질량을 써요.",
 
     // Concentration of solutions > try it > p
-    "To 3 significant figures (set by 0.200): <strong>4.99 g</strong>.": "",
+    "To 3 significant figures (set by 0.200): <strong>4.99 g</strong>.": "유효 숫자 3자리로(0.200에 맞춤): <strong>4.99 g</strong>.",
 
     // Concentration of solutions > h3
     // widget string (assets/js/widgets-s1-4.js)
-    "Dilution": "",
+    "Dilution": "희석",
 
     // Concentration of solutions > p
-    "Adding water to squash makes it weaker, but the syrup is all still there. <dfn data-def=\"Lowering the concentration of a solution by adding more solvent. The amount of solute does not change.\">Dilution</dfn> lowers the concentration by adding solvent. The amount of solute does not change.": "",
+    "Adding water to squash makes it weaker, but the syrup is all still there. <dfn data-def=\"Lowering the concentration of a solution by adding more solvent. The amount of solute does not change.\">Dilution</dfn> lowers the concentration by adding solvent. The amount of solute does not change.": "주스 원액에 물을 더 넣으면 맛이 연해지지만, 원액은 그대로 다 들어 있어요. <dfn data-def=\"용매를 더 넣어 용액의 농도를 낮추는 것. 용질의 양은 변하지 않아요.\">희석 <span class=\"en-term\">(dilution)</span></dfn>은 용매를 넣어 농도를 낮추는 거예요. 용질의 양은 변하지 않아요.",
 
     // Concentration of solutions > data-def attribute
-    "Lowering the concentration of a solution by adding more solvent. The amount of solute does not change.": "",
+    "Lowering the concentration of a solution by adding more solvent. The amount of solute does not change.": "용매를 더 넣어 용액의 농도를 낮추는 것. 용질의 양은 변하지 않아요.",
 
     // Concentration of solutions > p
-    "Amount before = amount after. Since <i>n</i> = <i>CV</i>, that gives the dilution relationship.": "",
+    "Amount before = amount after. Since <i>n</i> = <i>CV</i>, that gives the dilution relationship.": "희석 전의 양 = 희석 후의 양. <i>n</i> = <i>CV</i>이므로, 여기서 희석 관계식이 나와요.",
 
     // Concentration of solutions > equation > dd
-    "concentration of the stock solution <span class=\"unit\">mol dm-3</span>": "",
+    "concentration of the stock solution <span class=\"unit\">mol dm-3</span>": "원액의 농도 <span class=\"unit\">mol dm-3</span>",
 
     // Concentration of solutions > equation > dd
-    "volume of stock solution taken <span class=\"unit\">cm3</span>": "",
+    "volume of stock solution taken <span class=\"unit\">cm3</span>": "덜어 낸 원액의 부피 <span class=\"unit\">cm3</span>",
 
     // Concentration of solutions > equation > dd
-    "concentration after dilution <span class=\"unit\">mol dm-3</span>": "",
+    "concentration after dilution <span class=\"unit\">mol dm-3</span>": "희석 후의 농도 <span class=\"unit\">mol dm-3</span>",
 
     // Concentration of solutions > equation > dd
-    "final total volume <span class=\"unit\">cm3</span>": "",
+    "final total volume <span class=\"unit\">cm3</span>": "최종 전체 부피 <span class=\"unit\">cm3</span>",
 
     // Concentration of solutions > p
-    "This relationship is not in the data booklet, so learn where it comes from. The two volumes may both be in cm<sup>3</sup> or both in dm<sup>3</sup>, as long as they match. The <dfn data-def=\"How many times a solution has been diluted: final volume divided by the volume of stock taken.\">dilution factor</dfn> is <i>V</i><sub>2</sub> ÷ <i>V</i><sub>1</sub>. A “10 times” dilution divides the concentration by 10.": "",
+    "This relationship is not in the data booklet, so learn where it comes from. The two volumes may both be in cm<sup>3</sup> or both in dm<sup>3</sup>, as long as they match. The <dfn data-def=\"How many times a solution has been diluted: final volume divided by the volume of stock taken.\">dilution factor</dfn> is <i>V</i><sub>2</sub> ÷ <i>V</i><sub>1</sub>. A “10 times” dilution divides the concentration by 10.": "이 관계식은 데이터 부클릿에 없으니, 어디서 나오는지 알아 두세요. 두 부피는 단위만 같으면 둘 다 cm<sup>3</sup>여도, 둘 다 dm<sup>3</sup>여도 돼요. <dfn data-def=\"용액을 몇 배로 희석했는지 나타내는 값: 최종 부피를 덜어 낸 원액의 부피로 나눈 값.\">희석 배수 <span class=\"en-term\">(dilution factor)</span></dfn>는 <i>V</i><sub>2</sub> ÷ <i>V</i><sub>1</sub>이에요. “10배” 희석은 농도를 10으로 나눠요.",
 
     // Concentration of solutions > data-def attribute
-    "How many times a solution has been diluted: final volume divided by the volume of stock taken.": "",
+    "How many times a solution has been diluted: final volume divided by the volume of stock taken.": "용액을 몇 배로 희석했는지 나타내는 값: 최종 부피를 덜어 낸 원액의 부피로 나눈 값.",
 
     // Concentration of solutions > worked example > h3
-    "Volume of stock solution for a dilution": "",
+    "Volume of stock solution for a dilution": "희석에 필요한 원액의 부피",
 
     // Concentration of solutions > worked example > p
-    "What volume of 2.00 mol dm<sup>−3</sup> hydrochloric acid is needed to prepare 250.0 cm<sup>3</sup> of 0.100 mol dm<sup>−3</sup> hydrochloric acid?": "",
+    "What volume of 2.00 mol dm<sup>−3</sup> hydrochloric acid is needed to prepare 250.0 cm<sup>3</sup> of 0.100 mol dm<sup>−3</sup> hydrochloric acid?": "0.100 mol dm<sup>−3</sup> 염산 250.0 cm<sup>3</sup>를 만들려면 2.00 mol dm<sup>−3</sup> 염산이 얼마나 필요할까요?",
 
     // Concentration of solutions > worked example > data-title attribute
-    "Label the four quantities": "",
+    "Label the four quantities": "네 가지 양에 이름 붙이기",
 
     // Concentration of solutions > worked example > p
-    "“1” is the stock solution you start with. “2” is the diluted solution you end with. The unknown is <i>V</i><sub>1</sub>.": "",
+    "“1” is the stock solution you start with. “2” is the diluted solution you end with. The unknown is <i>V</i><sub>1</sub>.": "“1”은 처음에 쓰는 원액이에요. “2”는 마지막에 얻는 희석된 용액이에요. 모르는 값은 <i>V</i><sub>1</sub>이에요.",
 
     // Concentration of solutions > worked example > data-title attribute
-    "Rearrange for the unknown": "",
+    "Rearrange for the unknown": "모르는 값에 대한 식으로 바꾸기",
 
     // Concentration of solutions > worked example > p
-    "The amount of HCl is the same before and after: <i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub>.": "",
+    "The amount of HCl is the same before and after: <i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub>.": "HCl의 양은 희석 전과 후가 같아요: <i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub>.",
 
     // Concentration of solutions > worked example > p
-    "The concentration units cancel, so <i>V</i><sub>1</sub> comes out in the same unit as <i>V</i><sub>2</sub>.": "",
+    "The concentration units cancel, so <i>V</i><sub>1</sub> comes out in the same unit as <i>V</i><sub>2</sub>.": "농도 단위가 약분되므로, <i>V</i><sub>1</sub>은 <i>V</i><sub>2</sub>와 같은 단위로 나와요.",
 
     // Concentration of solutions > worked example > data-title attribute
-    "Check with the dilution factor": "",
+    "Check with the dilution factor": "희석 배수로 확인하기",
 
     // Concentration of solutions > worked example > data-label attribute
     // Avogadro’s law and reacting gas volumes > worked example > data-label attribute
-    "Check": "",
+    "Check": "확인",
 
     // Concentration of solutions > worked example > p
-    "The concentration falls 20 times (2.00 ÷ 0.100), so the volume must grow 20 times.": "",
+    "The concentration falls 20 times (2.00 ÷ 0.100), so the volume must grow 20 times.": "농도가 20배 줄어드므로(2.00 ÷ 0.100), 부피는 20배 늘어나야 해요.",
 
     // Concentration of solutions > worked example > p
-    "12.5 cm<sup>3</sup> of the 2.00 mol dm<sup>−3</sup> acid": "",
+    "12.5 cm<sup>3</sup> of the 2.00 mol dm<sup>−3</sup> acid": "2.00 mol dm<sup>−3</sup> 산 12.5 cm<sup>3</sup>",
 
     // Concentration of solutions > p
-    "You also need to describe the procedure. Markschemes look for these points:": "",
+    "You also need to describe the procedure. Markschemes look for these points:": "과정도 서술할 수 있어야 해요. 채점 기준은 다음 내용을 찾아요:",
 
     // Concentration of solutions > li
-    "Use a <strong>pipette</strong> (or a burette) to measure the stock solution. A measuring cylinder is not precise enough.": "",
+    "Use a <strong>pipette</strong> (or a burette) to measure the stock solution. A measuring cylinder is not precise enough.": "<strong>피펫</strong>(또는 뷰렛)으로 원액을 재요. 눈금실린더는 충분히 정밀하지 않아요.",
 
     // Concentration of solutions > li
-    "Run it into a <strong>volumetric flask</strong> of the right size, here 250.0 cm<sup>3</sup>.": "",
+    "Run it into a <strong>volumetric flask</strong> of the right size, here 250.0 cm<sup>3</sup>.": "알맞은 크기의 <strong>부피 플라스크</strong>, 여기서는 250.0 cm<sup>3</sup> 플라스크에 넣어요.",
 
     // Concentration of solutions > li
-    "Add <strong>distilled water</strong> up to the <strong>mark</strong>.": "",
+    "Add <strong>distilled water</strong> up to the <strong>mark</strong>.": "<strong>눈금선</strong>까지 <strong>증류수</strong>를 넣어요.",
 
     // Concentration of solutions > li
-    "Stopper and invert several times to <strong>mix</strong>.": "",
+    "Stopper and invert several times to <strong>mix</strong>.": "마개를 막고 여러 번 뒤집어 <strong>섞어요</strong>.",
 
     // Concentration of solutions > common mistake > p
-    "“Add 237.5 cm<sup>3</sup> of water” is not the right description. <i>V</i><sub>2</sub> is the <em>total</em> final volume, and volumes do not always add exactly. The correct instruction is to make the solution up to the mark.": "",
+    "“Add 237.5 cm<sup>3</sup> of water” is not the right description. <i>V</i><sub>2</sub> is the <em>total</em> final volume, and volumes do not always add exactly. The correct instruction is to make the solution up to the mark.": "“물 237.5 cm<sup>3</sup>를 넣는다”는 바른 서술이 아니에요. <i>V</i><sub>2</sub>는 최종 <em>전체</em> 부피이고, 부피는 항상 정확히 더해지지 않아요. 바른 지시는 용액을 눈금선까지 채우는 거예요.",
 
     // Concentration of solutions > p
-    "A <dfn data-def=\"A series of dilutions in which each new solution is made by diluting the one before it by the same factor.\">serial dilution</dfn> repeats the same step. Dilute a 1.00 mol dm<sup>−3</sup> stock 10 times to get 0.100 mol dm<sup>−3</sup>. Dilute that 10 times to get 0.0100 mol dm<sup>−3</sup>, and so on. It reaches very low concentrations without measuring tiny volumes.": "",
+    "A <dfn data-def=\"A series of dilutions in which each new solution is made by diluting the one before it by the same factor.\">serial dilution</dfn> repeats the same step. Dilute a 1.00 mol dm<sup>−3</sup> stock 10 times to get 0.100 mol dm<sup>−3</sup>. Dilute that 10 times to get 0.0100 mol dm<sup>−3</sup>, and so on. It reaches very low concentrations without measuring tiny volumes.": "<dfn data-def=\"새 용액마다 바로 앞 용액을 같은 배수로 희석해서 만드는 일련의 희석.\">연속 희석 <span class=\"en-term\">(serial dilution)</span></dfn>은 같은 단계를 되풀이해요. 1.00 mol dm<sup>−3</sup> 원액을 10배 희석하면 0.100 mol dm<sup>−3</sup>가 돼요. 그것을 다시 10배 희석하면 0.0100 mol dm<sup>−3</sup>가 되고, 이런 식으로 계속해요. 아주 적은 부피를 재지 않고도 매우 낮은 농도까지 갈 수 있어요.",
 
     // Concentration of solutions > data-def attribute
-    "A series of dilutions in which each new solution is made by diluting the one before it by the same factor.": "",
+    "A series of dilutions in which each new solution is made by diluting the one before it by the same factor.": "새 용액마다 바로 앞 용액을 같은 배수로 희석해서 만드는 일련의 희석.",
 
     // Concentration of solutions > try it > p
-    "10.0 cm<sup>3</sup> of a 0.500 mol dm<sup>−3</sup> solution is pipetted into a 250.0 cm<sup>3</sup> volumetric flask and made up to the mark with distilled water. Calculate the concentration of the diluted solution.": "",
+    "10.0 cm<sup>3</sup> of a 0.500 mol dm<sup>−3</sup> solution is pipetted into a 250.0 cm<sup>3</sup> volumetric flask and made up to the mark with distilled water. Calculate the concentration of the diluted solution.": "0.500 mol dm<sup>−3</sup> 용액 10.0 cm<sup>3</sup>를 피펫으로 250.0 cm<sup>3</sup> 부피 플라스크에 옮기고 증류수로 눈금선까지 채워요. 희석된 용액의 농도를 계산하시오 (calculate).",
 
     // Concentration of solutions > try it > li
-    "Which values are <i>C</i><sub>1</sub>, <i>V</i><sub>1</sub> and <i>V</i><sub>2</sub>? The unknown is <i>C</i><sub>2</sub>. It must be smaller than 0.500.": "",
+    "Which values are <i>C</i><sub>1</sub>, <i>V</i><sub>1</sub> and <i>V</i><sub>2</sub>? The unknown is <i>C</i><sub>2</sub>. It must be smaller than 0.500.": "<i>C</i><sub>1</sub>, <i>V</i><sub>1</sub>, <i>V</i><sub>2</sub>는 어떤 값일까요? 모르는 값은 <i>C</i><sub>2</sub>예요. 이 값은 0.500보다 작아야 해요.",
 
     // Concentration of solutions > try it > p
-    "<strong>0.0200 mol dm<sup>−3</sup></strong>. The dilution factor is 250.0 ÷ 10.0 = 25, and 0.500 ÷ 25 = 0.0200.": "",
+    "<strong>0.0200 mol dm<sup>−3</sup></strong>. The dilution factor is 250.0 ÷ 10.0 = 25, and 0.500 ÷ 25 = 0.0200.": "<strong>0.0200 mol dm<sup>−3</sup></strong>. 희석 배수는 250.0 ÷ 10.0 = 25이고, 0.500 ÷ 25 = 0.0200이에요.",
 
     // Concentration of solutions > h3
-    "Finding a concentration with a calibration curve": "",
+    "Finding a concentration with a calibration curve": "검량선으로 농도 구하기",
 
     // Concentration of solutions > p
-    "Some solutions are coloured, and the more concentrated they are, the more light they absorb. A <dfn data-def=\"An instrument that measures how much light of a chosen colour a solution absorbs.\">colorimeter</dfn> or spectrophotometer measures this as a number called absorbance. That gives a quick way to find an unknown concentration.": "",
+    "Some solutions are coloured, and the more concentrated they are, the more light they absorb. A <dfn data-def=\"An instrument that measures how much light of a chosen colour a solution absorbs.\">colorimeter</dfn> or spectrophotometer measures this as a number called absorbance. That gives a quick way to find an unknown concentration.": "어떤 용액은 색이 있고, 진할수록 빛을 더 많이 흡수해요. <dfn data-def=\"정한 색의 빛을 용액이 얼마나 흡수하는지 재는 기기.\">비색계 <span class=\"en-term\">(colorimeter)</span></dfn>나 분광 광도계는 이것을 흡광도라는 수로 재요. 이것으로 모르는 농도를 빠르게 구할 수 있어요.",
 
     // Concentration of solutions > data-def attribute
-    "An instrument that measures how much light of a chosen colour a solution absorbs.": "",
+    "An instrument that measures how much light of a chosen colour a solution absorbs.": "정한 색의 빛을 용액이 얼마나 흡수하는지 재는 기기.",
 
     // Concentration of solutions > li
-    "Make several standard solutions of known concentration, usually by diluting one stock solution.": "",
+    "Make several standard solutions of known concentration, usually by diluting one stock solution.": "농도를 아는 표준 용액을 여러 개 만들어요. 보통 원액 하나를 희석해서 만들어요.",
 
     // Concentration of solutions > li
-    "Measure the absorbance of each one.": "",
+    "Measure the absorbance of each one.": "각 용액의 흡광도를 재요.",
 
     // Concentration of solutions > li
-    "Plot absorbance (<i>y</i>) against concentration (<i>x</i>) and draw the line of best fit. This graph is the <dfn data-def=\"A graph of an instrument reading against known concentrations, used to read off an unknown concentration.\">calibration curve</dfn>.": "",
+    "Plot absorbance (<i>y</i>) against concentration (<i>x</i>) and draw the line of best fit. This graph is the <dfn data-def=\"A graph of an instrument reading against known concentrations, used to read off an unknown concentration.\">calibration curve</dfn>.": "흡광도(<i>y</i>)를 농도(<i>x</i>)에 대해 그리고 가장 잘 맞는 직선을 그어요. 이 그래프가 <dfn data-def=\"알려진 농도에 대한 기기 측정값의 그래프. 모르는 농도를 읽어 내는 데 써요.\">검량선 <span class=\"en-term\">(calibration curve)</span></dfn>이에요.",
 
     // Concentration of solutions > data-def attribute
-    "A graph of an instrument reading against known concentrations, used to read off an unknown concentration.": "",
+    "A graph of an instrument reading against known concentrations, used to read off an unknown concentration.": "알려진 농도에 대한 기기 측정값의 그래프. 모르는 농도를 읽어 내는 데 써요.",
 
     // Concentration of solutions > li
-    "Measure the absorbance of the unknown solution and read its concentration from the line.": "",
+    "Measure the absorbance of the unknown solution and read its concentration from the line.": "모르는 용액의 흡광도를 재고, 직선에서 농도를 읽어요.",
 
     // Concentration of solutions > widget > data-title attribute
-    "Reading a calibration curve": "",
+    "Reading a calibration curve": "검량선 읽기",
 
     // Concentration of solutions > widget > figcaption
-    "The crosses are six standard solutions (example data, not a real experiment). Move the slider to set the absorbance of an unknown. Read across to the line, then down to the axis. The unknown must lie inside the range of the standards.": "",
+    "The crosses are six standard solutions (example data, not a real experiment). Move the slider to set the absorbance of an unknown. Read across to the line, then down to the axis. The unknown must lie inside the range of the standards.": "× 표시는 표준 용액 6개예요(예시 자료이며, 실제 실험이 아니에요). 슬라이더를 움직여 모르는 용액의 흡광도를 정하세요. 가로로 직선까지 간 다음, 아래로 축까지 읽으세요. 모르는 용액은 표준 용액의 범위 안에 있어야 해요.",
 
     // Concentration of solutions > not needed for IB > p
-    "You do not need the Beer–Lambert law or any equation for absorbance. You only need the idea: known standards, a graph, a line of best fit, and reading the unknown from it. Concentration units such as ppm, molality, percentage by mass and mole fraction are not in the IB guide. Use <span class=\"unit\">mol dm-3</span> and <span class=\"unit\">g dm-3</span>.": "",
+    "You do not need the Beer–Lambert law or any equation for absorbance. You only need the idea: known standards, a graph, a line of best fit, and reading the unknown from it. Concentration units such as ppm, molality, percentage by mass and mole fraction are not in the IB guide. Use <span class=\"unit\">mol dm-3</span> and <span class=\"unit\">g dm-3</span>.": "베르-람베르트 법칙이나 흡광도에 관한 식은 필요 없어요. 생각만 알면 돼요: 농도를 아는 표준 용액, 그래프, 가장 잘 맞는 직선, 그리고 직선에서 모르는 값 읽기. ppm, 몰랄 농도, 질량 백분율, 몰 분율 같은 농도 단위는 IB 지침에 없어요. <span class=\"unit\">mol dm-3</span>와 <span class=\"unit\">g dm-3</span>를 쓰세요.",
 
     // Concentration of solutions > not needed for IB > p
-    "Titration calculations, where a solution of known concentration is used to find another through a reaction, belong to Reactivity 2.1 and Reactivity 3.1. They combine <i>n</i> = <i>CV</i> from this section with the mole ratio of an equation.": "",
+    "Titration calculations, where a solution of known concentration is used to find another through a reaction, belong to Reactivity 2.1 and Reactivity 3.1. They combine <i>n</i> = <i>CV</i> from this section with the mole ratio of an equation.": "농도를 아는 용액으로 반응을 통해 다른 용액의 농도를 구하는 적정 계산은 Reactivity 2.1과 Reactivity 3.1에서 배워요. 이 절의 <i>n</i> = <i>CV</i>와 반응식의 몰 비를 함께 써요.",
 
     // Concentration of solutions > data-title attribute
-    "Standard solutions, dilution and calibration: quick check": "",
+    "Standard solutions, dilution and calibration: quick check": "표준 용액, 희석, 검량선: 빠른 확인",
 
     // Avogadro’s law and reacting gas volumes > data-toc attribute
     // Avogadro’s law and reacting gas volumes > key idea > data-title attribute
-    "Avogadro’s law": "",
+    "Avogadro’s law": "아보가드로 법칙",
 
     // Avogadro’s law and reacting gas volumes > h2
-    "Avogadro’s law and reacting gas volumes": "",
+    "Avogadro’s law and reacting gas volumes": "아보가드로 법칙과 반응하는 기체의 부피",
 
     // Avogadro’s law and reacting gas volumes > p
-    "In a gas, the particles are far apart. Almost all of the volume is empty space, so the size of the particles themselves hardly matters. A balloon of hydrogen and a balloon of carbon dioxide of the same size, at the same temperature and pressure, hold the same number of molecules, even though the carbon dioxide molecules are much heavier.": "",
+    "In a gas, the particles are far apart. Almost all of the volume is empty space, so the size of the particles themselves hardly matters. A balloon of hydrogen and a balloon of carbon dioxide of the same size, at the same temperature and pressure, hold the same number of molecules, even though the carbon dioxide molecules are much heavier.": "기체에서는 입자들이 서로 멀리 떨어져 있어요. 부피의 거의 전부가 빈 공간이라서, 입자 자체의 크기는 거의 상관이 없어요. 같은 온도와 압력에서 크기가 같은 수소 풍선과 이산화 탄소 풍선에는 같은 수의 분자가 들어 있어요. 이산화 탄소 분자가 훨씬 무거운데도 말이에요.",
 
     // Avogadro’s law and reacting gas volumes > key idea > p
-    "Equal volumes of all gases, measured under the same conditions of temperature and pressure, contain equal numbers of molecules.": "",
+    "Equal volumes of all gases, measured under the same conditions of temperature and pressure, contain equal numbers of molecules.": "같은 온도와 압력 조건에서 잰, 부피가 같은 모든 기체는 같은 수의 분자를 포함해요.",
 
     // Avogadro’s law and reacting gas volumes > p
-    "Equal numbers of molecules means equal amounts in moles. So for gases at the same temperature and pressure, volume is directly proportional to amount. Double the moles, double the volume.": "",
+    "Equal numbers of molecules means equal amounts in moles. So for gases at the same temperature and pressure, volume is directly proportional to amount. Double the moles, double the volume.": "분자 수가 같다는 것은 몰로 나타낸 양이 같다는 뜻이에요. 그래서 같은 온도와 압력의 기체에서 부피는 양에 정비례해요. 몰이 2배가 되면 부피도 2배가 돼요.",
 
     // Avogadro’s law and reacting gas volumes > p
-    "This has a very useful result. In a balanced equation, the coefficients give the mole ratio. For gases, the same coefficients also give the <strong>volume ratio</strong>. You can work in volumes and never calculate a single mole.": "",
+    "This has a very useful result. In a balanced equation, the coefficients give the mole ratio. For gases, the same coefficients also give the <strong>volume ratio</strong>. You can work in volumes and never calculate a single mole.": "여기서 아주 유용한 결과가 나와요. 균형 맞춘 반응식에서 계수는 몰 비를 나타내요. 기체에서는 같은 계수가 <strong>부피 비</strong>도 나타내요. 몰을 하나도 계산하지 않고 부피만으로 풀 수 있어요.",
 
     // Avogadro’s law and reacting gas volumes > widget > data-title attribute
-    "Reacting gas volumes": "",
+    "Reacting gas volumes": "반응하는 기체의 부피",
 
     // Avogadro’s law and reacting gas volumes > widget > figcaption
-    "Pick a reaction, choose one gas and set its volume. The other volumes follow from the coefficients. Box heights are in proportion to the volumes. This is a model: each dot stands for the same very large number of molecules, and every box has the same number of dots per unit area, as Avogadro’s law says.": "",
+    "Pick a reaction, choose one gas and set its volume. The other volumes follow from the coefficients. Box heights are in proportion to the volumes. This is a model: each dot stands for the same very large number of molecules, and every box has the same number of dots per unit area, as Avogadro’s law says.": "반응을 고르고, 기체 하나를 골라 부피를 정하세요. 나머지 부피는 계수에 따라 정해져요. 상자의 높이는 부피에 비례해요. 이것은 모형이에요: 점 하나는 똑같이 매우 큰 수의 분자를 나타내고, 아보가드로 법칙에 따라 모든 상자는 단위 넓이당 점의 수가 같아요.",
 
     // Avogadro’s law and reacting gas volumes > li
-    "Write the balanced equation with state symbols. Only substances marked (g) take part in the volume ratio.": "",
+    "Write the balanced equation with state symbols. Only substances marked (g) take part in the volume ratio.": "상태 기호와 함께 균형 맞춘 반응식을 쓰세요. (g) 표시가 있는 물질만 부피 비에 들어가요.",
 
     // Avogadro’s law and reacting gas volumes > li
-    "Check that all volumes are measured at the same temperature and pressure.": "",
+    "Check that all volumes are measured at the same temperature and pressure.": "모든 부피를 같은 온도와 압력에서 쟀는지 확인하세요.",
 
     // Avogadro’s law and reacting gas volumes > li
-    "Find the coefficient of the gas you know and of the gas you want.": "",
+    "Find the coefficient of the gas you know and of the gas you want.": "아는 기체와 구할 기체의 계수를 찾으세요.",
 
     // Avogadro’s law and reacting gas volumes > li
-    "Volume wanted = volume known × (coefficient wanted ÷ coefficient known).": "",
+    "Volume wanted = volume known × (coefficient wanted ÷ coefficient known).": "구할 부피 = 아는 부피 × (구할 기체의 계수 ÷ 아는 기체의 계수).",
 
     // Avogadro’s law and reacting gas volumes > li
-    "Keep the same volume unit throughout. There is no need to convert cm<sup>3</sup> to dm<sup>3</sup>, because it is a ratio.": "",
+    "Keep the same volume unit throughout. There is no need to convert cm<sup>3</sup> to dm<sup>3</sup>, because it is a ratio.": "처음부터 끝까지 같은 부피 단위를 쓰세요. 비이므로 cm<sup>3</sup>를 dm<sup>3</sup>로 바꿀 필요가 없어요.",
 
     // Avogadro’s law and reacting gas volumes > worked example > h3
-    "Volumes of reacting gases": "",
+    "Volumes of reacting gases": "반응하는 기체의 부피",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "Propane burns completely in oxygen:": "",
+    "Propane burns completely in oxygen:": "propane(프로페인)은 산소 속에서 완전 연소해요:",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "<span class=\"chem\">C3H8(g) + 5O2(g) -&gt; 3CO2(g) + 4H2O(l)</span>": "",
+    "<span class=\"chem\">C3H8(g) + 5O2(g) -&gt; 3CO2(g) + 4H2O(l)</span>": "<span class=\"chem\">C3H8(g) + 5O2(g) -&gt; 3CO2(g) + 4H2O(l)</span>",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "25.0 cm<sup>3</sup> of propane is burned. All volumes are measured at the same temperature and pressure. Calculate the volume of oxygen needed and the volume of carbon dioxide formed.": "",
+    "25.0 cm<sup>3</sup> of propane is burned. All volumes are measured at the same temperature and pressure. Calculate the volume of oxygen needed and the volume of carbon dioxide formed.": "propane 25.0 cm<sup>3</sup>를 태워요. 모든 부피는 같은 온도와 압력에서 재요. 필요한 산소의 부피와 생기는 이산화 탄소의 부피를 계산하시오 (calculate).",
 
     // Avogadro’s law and reacting gas volumes > worked example > data-title attribute
-    "Read the mole ratio": "",
+    "Read the mole ratio": "몰 비 읽기",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "The coefficients tell you how many moles react. An unwritten coefficient is 1.": "",
+    "The coefficients tell you how many moles react. An unwritten coefficient is 1.": "계수는 몇 몰이 반응하는지 알려 줘요. 쓰여 있지 않은 계수는 1이에요.",
 
     // Avogadro’s law and reacting gas volumes > worked example > data-title attribute
-    "Use Avogadro’s law": "",
+    "Use Avogadro’s law": "아보가드로 법칙 쓰기",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "Same temperature and pressure, so the volume ratio of the gases equals the mole ratio.": "",
+    "Same temperature and pressure, so the volume ratio of the gases equals the mole ratio.": "온도와 압력이 같으므로, 기체의 부피 비는 몰 비와 같아요.",
 
     // Avogadro’s law and reacting gas volumes > worked example > maths line
-    "volume ratio = 1 : 5 : 3": "",
+    "volume ratio = 1 : 5 : 3": "부피 비 = 1 : 5 : 3",
 
     // Avogadro’s law and reacting gas volumes > worked example > data-title attribute
-    "Scale to the volume given": "",
+    "Scale to the volume given": "주어진 부피에 맞춰 늘리기",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "Multiply by coefficient wanted ÷ coefficient known. The coefficients are exact, so the answers keep 3 significant figures.": "",
+    "Multiply by coefficient wanted ÷ coefficient known. The coefficients are exact, so the answers keep 3 significant figures.": "구할 기체의 계수 ÷ 아는 기체의 계수를 곱하세요. 계수는 정확한 수이므로, 답은 유효 숫자 3자리를 유지해요.",
 
     // Avogadro’s law and reacting gas volumes > worked example > data-title attribute
-    "Check the state symbols": "",
+    "Check the state symbols": "상태 기호 확인하기",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "The water is a liquid, (l). It is not a gas, so it adds nothing to the gas volume.": "",
+    "The water is a liquid, (l). It is not a gas, so it adds nothing to the gas volume.": "물은 액체 (l)이에요. 기체가 아니므로 기체 부피에 아무것도 더하지 않아요.",
 
     // Avogadro’s law and reacting gas volumes > worked example > maths line
-    "gas before: 25.0 + 125 = 150 cm<sup>3</sup> &nbsp; gas after: 75.0 cm<sup>3</sup>": "",
+    "gas before: 25.0 + 125 = 150 cm<sup>3</sup> &nbsp; gas after: 75.0 cm<sup>3</sup>": "반응 전 기체: 25.0 + 125 = 150 cm<sup>3</sup> &nbsp; 반응 후 기체: 75.0 cm<sup>3</sup>",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "125 cm<sup>3</sup> of O<sub>2</sub> is needed and 75.0 cm<sup>3</sup> of CO<sub>2</sub> forms": "",
+    "125 cm<sup>3</sup> of O<sub>2</sub> is needed and 75.0 cm<sup>3</sup> of CO<sub>2</sub> forms": "O<sub>2</sub> 125 cm<sup>3</sup>가 필요하고 CO<sub>2</sub> 75.0 cm<sup>3</sup>가 생겨요",
 
     // Avogadro’s law and reacting gas volumes > common mistake > p
-    "Volumes of gases are not conserved in a reaction. In the example, 150 cm<sup>3</sup> of gas becomes 75.0 cm<sup>3</sup>. Mass is conserved and atoms are conserved, but the number of gas molecules can change. Also watch for <span class=\"chem\">H2O(l)</span>: counting liquid water as a gas volume is a common wrong answer.": "",
+    "Volumes of gases are not conserved in a reaction. In the example, 150 cm<sup>3</sup> of gas becomes 75.0 cm<sup>3</sup>. Mass is conserved and atoms are conserved, but the number of gas molecules can change. Also watch for <span class=\"chem\">H2O(l)</span>: counting liquid water as a gas volume is a common wrong answer.": "반응에서 기체의 부피는 보존되지 않아요. 예제에서 기체 150 cm<sup>3</sup>가 75.0 cm<sup>3</sup>가 돼요. 질량과 원자는 보존되지만, 기체 분자의 수는 바뀔 수 있어요. <span class=\"chem\">H2O(l)</span>도 조심하세요: 액체인 물을 기체 부피로 세는 것은 흔한 오답이에요.",
 
     // Avogadro’s law and reacting gas volumes > try it > p
-    "Carbon monoxide burns in oxygen: <span class=\"chem\">2CO(g) + O2(g) -&gt; 2CO2(g)</span>. What volume of oxygen is needed to react completely with 150 cm<sup>3</sup> of carbon monoxide, at the same temperature and pressure? Give your answer to 3 significant figures.": "",
+    "Carbon monoxide burns in oxygen: <span class=\"chem\">2CO(g) + O2(g) -&gt; 2CO2(g)</span>. What volume of oxygen is needed to react completely with 150 cm<sup>3</sup> of carbon monoxide, at the same temperature and pressure? Give your answer to 3 significant figures.": "일산화 탄소는 산소 속에서 연소해요: <span class=\"chem\">2CO(g) + O2(g) -&gt; 2CO2(g)</span>. 같은 온도와 압력에서 일산화 탄소 150 cm<sup>3</sup>와 완전히 반응하려면 산소가 얼마나 필요할까요? 답은 유효 숫자 3자리로 쓰시오.",
 
     // Avogadro’s law and reacting gas volumes > try it > li
-    "What is the mole ratio of CO to O<sub>2</sub> in the equation? The volume ratio is the same.": "",
+    "What is the mole ratio of CO to O<sub>2</sub> in the equation? The volume ratio is the same.": "반응식에서 CO와 O<sub>2</sub>의 몰 비는 얼마일까요? 부피 비도 같아요.",
 
     // Avogadro’s law and reacting gas volumes > try it > li
-    "CO : O<sub>2</sub> = 2 : 1, so <i>V</i>(O<sub>2</sub>) = 150 × (1 ÷ 2).": "",
+    "CO : O<sub>2</sub> = 2 : 1, so <i>V</i>(O<sub>2</sub>) = 150 × (1 ÷ 2).": "CO : O<sub>2</sub> = 2 : 1이므로 <i>V</i>(O<sub>2</sub>) = 150 × (1 ÷ 2).",
 
     // Avogadro’s law and reacting gas volumes > try it > p
-    "<strong>75.0 cm<sup>3</sup></strong> of oxygen.": "",
+    "<strong>75.0 cm<sup>3</sup></strong> of oxygen.": "산소 <strong>75.0 cm<sup>3</sup></strong>.",
 
     // Avogadro’s law and reacting gas volumes > try it > p
-    "Ammonia is made from nitrogen and hydrogen: <span class=\"chem\">N2(g) + 3H2(g) -&gt; 2NH3(g)</span>. What volume of ammonia forms when 45.0 cm<sup>3</sup> of hydrogen reacts completely, at the same temperature and pressure?": "",
+    "Ammonia is made from nitrogen and hydrogen: <span class=\"chem\">N2(g) + 3H2(g) -&gt; 2NH3(g)</span>. What volume of ammonia forms when 45.0 cm<sup>3</sup> of hydrogen reacts completely, at the same temperature and pressure?": "암모니아는 질소와 수소로 만들어요: <span class=\"chem\">N2(g) + 3H2(g) -&gt; 2NH3(g)</span>. 같은 온도와 압력에서 수소 45.0 cm<sup>3</sup>가 완전히 반응하면 암모니아가 얼마나 생길까요?",
 
     // Avogadro’s law and reacting gas volumes > try it > li
-    "Find the coefficients of the gas you know (H<sub>2</sub>) and the gas you want (NH<sub>3</sub>).": "",
+    "Find the coefficients of the gas you know (H<sub>2</sub>) and the gas you want (NH<sub>3</sub>).": "아는 기체(H<sub>2</sub>)와 구할 기체(NH<sub>3</sub>)의 계수를 찾으세요.",
 
     // Avogadro’s law and reacting gas volumes > try it > li
-    "H<sub>2</sub> : NH<sub>3</sub> = 3 : 2, so <i>V</i>(NH<sub>3</sub>) = 45.0 × (2 ÷ 3).": "",
+    "H<sub>2</sub> : NH<sub>3</sub> = 3 : 2, so <i>V</i>(NH<sub>3</sub>) = 45.0 × (2 ÷ 3).": "H<sub>2</sub> : NH<sub>3</sub> = 3 : 2이므로 <i>V</i>(NH<sub>3</sub>) = 45.0 × (2 ÷ 3).",
 
     // Avogadro’s law and reacting gas volumes > try it > p
-    "<strong>30.0 cm<sup>3</sup></strong> of ammonia. It also needs 45.0 ÷ 3 = 15.0 cm<sup>3</sup> of nitrogen.": "",
+    "<strong>30.0 cm<sup>3</sup></strong> of ammonia. It also needs 45.0 ÷ 3 = 15.0 cm<sup>3</sup> of nitrogen.": "암모니아 <strong>30.0 cm<sup>3</sup></strong>. 질소도 45.0 ÷ 3 = 15.0 cm<sup>3</sup>가 필요해요.",
 
     // Avogadro’s law and reacting gas volumes > h3
-    "When one gas is in excess": "",
+    "When one gas is in excess": "한 기체가 과량일 때",
 
     // Avogadro’s law and reacting gas volumes > p
-    "Sometimes more of one gas is supplied than the reaction needs. The question then says that gas is “in <dfn data-def=\"More than the amount needed to react. Some of it is left over at the end.\">excess</dfn>”. Some of it is left over at the end, mixed with the gases that were made.": "",
+    "Sometimes more of one gas is supplied than the reaction needs. The question then says that gas is “in <dfn data-def=\"More than the amount needed to react. Some of it is left over at the end.\">excess</dfn>”. Some of it is left over at the end, mixed with the gases that were made.": "반응에 필요한 양보다 한 기체를 더 많이 넣을 때가 있어요. 그러면 문제에서 그 기체가 “<dfn data-def=\"반응에 필요한 양보다 많은 것. 일부가 마지막에 남아요.\">과량 <span class=\"en-term\">(excess)</span></dfn>”이라고 말해요. 그 일부는 마지막에 생성된 기체와 섞인 채 남아요.",
 
     // Avogadro’s law and reacting gas volumes > data-def attribute
-    "More than the amount needed to react. Some of it is left over at the end.": "",
+    "More than the amount needed to react. Some of it is left over at the end.": "반응에 필요한 양보다 많은 것. 일부가 마지막에 남아요.",
 
     // Avogadro’s law and reacting gas volumes > li
-    "Use the volume ratio to find how much of the excess gas <em>reacts</em>.": "",
+    "Use the volume ratio to find how much of the excess gas <em>reacts</em>.": "부피 비로 과량인 기체가 얼마나 <em>반응하는지</em> 구하세요.",
 
     // Avogadro’s law and reacting gas volumes > li
-    "Gas left over = volume supplied − volume that reacted.": "",
+    "Gas left over = volume supplied − volume that reacted.": "남은 기체 = 넣은 부피 − 반응한 부피.",
 
     // Avogadro’s law and reacting gas volumes > li
-    "Gas at the end = gas left over + gaseous products. Leave out anything marked (l) or (s).": "",
+    "Gas at the end = gas left over + gaseous products. Leave out anything marked (l) or (s).": "마지막 기체 = 남은 기체 + 기체 생성물. (l)이나 (s) 표시가 있는 것은 빼세요.",
 
     // Avogadro’s law and reacting gas volumes > worked example > h3
-    "Gas left at the end": "",
+    "Gas left at the end": "마지막에 남는 기체",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "10.0 cm<sup>3</sup> of methane is burned in 50.0 cm<sup>3</sup> of oxygen, which is an excess:": "",
+    "10.0 cm<sup>3</sup> of methane is burned in 50.0 cm<sup>3</sup> of oxygen, which is an excess:": "methane(메테인) 10.0 cm<sup>3</sup>를 과량인 산소 50.0 cm<sup>3</sup> 속에서 태워요:",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "<span class=\"chem\">CH4(g) + 2O2(g) -&gt; CO2(g) + 2H2O(l)</span>": "",
+    "<span class=\"chem\">CH4(g) + 2O2(g) -&gt; CO2(g) + 2H2O(l)</span>": "<span class=\"chem\">CH4(g) + 2O2(g) -&gt; CO2(g) + 2H2O(l)</span>",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "All volumes are measured at the same temperature and pressure. Calculate the total volume of gas at the end.": "",
+    "All volumes are measured at the same temperature and pressure. Calculate the total volume of gas at the end.": "모든 부피는 같은 온도와 압력에서 재요. 마지막 기체의 전체 부피를 계산하시오 (calculate).",
 
     // Avogadro’s law and reacting gas volumes > worked example > data-title attribute
-    "Find the oxygen that reacts": "",
+    "Find the oxygen that reacts": "반응하는 산소 구하기",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "All the methane burns, because oxygen is in excess. The ratio CH<sub>4</sub> : O<sub>2</sub> is 1 : 2.": "",
+    "All the methane burns, because oxygen is in excess. The ratio CH<sub>4</sub> : O<sub>2</sub> is 1 : 2.": "산소가 과량이므로 methane은 모두 타요. CH<sub>4</sub> : O<sub>2</sub>의 비는 1 : 2예요.",
 
     // Avogadro’s law and reacting gas volumes > worked example > maths line
-    "<i>V</i>(O<sub>2</sub> reacting) = 10.0 cm<sup>3</sup> × <span class=\"frac\"><span>2</span><span>1</span></span> = 20.0 cm<sup>3</sup>": "",
+    "<i>V</i>(O<sub>2</sub> reacting) = 10.0 cm<sup>3</sup> × <span class=\"frac\"><span>2</span><span>1</span></span> = 20.0 cm<sup>3</sup>": "<i>V</i>(반응하는 O<sub>2</sub>) = 10.0 cm<sup>3</sup> × <span class=\"frac\"><span>2</span><span>1</span></span> = 20.0 cm<sup>3</sup>",
 
     // Avogadro’s law and reacting gas volumes > worked example > data-title attribute
-    "Find the oxygen left over": "",
+    "Find the oxygen left over": "남은 산소 구하기",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "What was supplied, minus what was used.": "",
+    "What was supplied, minus what was used.": "넣은 양에서 쓴 양을 빼요.",
 
     // Avogadro’s law and reacting gas volumes > worked example > maths line
     // Avogadro’s law and reacting gas volumes > try it > maths line
-    "<i>V</i>(O<sub>2</sub> left) = 50.0 cm<sup>3</sup> − 20.0 cm<sup>3</sup> = 30.0 cm<sup>3</sup>": "",
+    "<i>V</i>(O<sub>2</sub> left) = 50.0 cm<sup>3</sup> − 20.0 cm<sup>3</sup> = 30.0 cm<sup>3</sup>": "<i>V</i>(남은 O<sub>2</sub>) = 50.0 cm<sup>3</sup> − 20.0 cm<sup>3</sup> = 30.0 cm<sup>3</sup>",
 
     // Avogadro’s law and reacting gas volumes > worked example > data-title attribute
-    "Find the gas made": "",
+    "Find the gas made": "생긴 기체 구하기",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "The ratio CH<sub>4</sub> : CO<sub>2</sub> is 1 : 1. The water is a liquid, so it is not counted.": "",
+    "The ratio CH<sub>4</sub> : CO<sub>2</sub> is 1 : 1. The water is a liquid, so it is not counted.": "CH<sub>4</sub> : CO<sub>2</sub>의 비는 1 : 1이에요. 물은 액체이므로 세지 않아요.",
 
     // Avogadro’s law and reacting gas volumes > worked example > data-title attribute
-    "Add the gases present at the end": "",
+    "Add the gases present at the end": "마지막에 있는 기체 더하기",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "The container now holds the oxygen left over and the carbon dioxide made.": "",
+    "The container now holds the oxygen left over and the carbon dioxide made.": "이제 용기에는 남은 산소와 생긴 이산화 탄소가 들어 있어요.",
 
     // Avogadro’s law and reacting gas volumes > worked example > maths line
-    "<i>V</i>(total) = 30.0 cm<sup>3</sup> + 10.0 cm<sup>3</sup> = <b>40.0 cm<sup>3</sup></b>": "",
+    "<i>V</i>(total) = 30.0 cm<sup>3</sup> + 10.0 cm<sup>3</sup> = <b>40.0 cm<sup>3</sup></b>": "<i>V</i>(전체) = 30.0 cm<sup>3</sup> + 10.0 cm<sup>3</sup> = <b>40.0 cm<sup>3</sup></b>",
 
     // Avogadro’s law and reacting gas volumes > worked example > p
-    "40.0 cm<sup>3</sup> of gas: 30.0 cm<sup>3</sup> of O<sub>2</sub> and 10.0 cm<sup>3</sup> of CO<sub>2</sub>": "",
+    "40.0 cm<sup>3</sup> of gas: 30.0 cm<sup>3</sup> of O<sub>2</sub> and 10.0 cm<sup>3</sup> of CO<sub>2</sub>": "기체 40.0 cm<sup>3</sup>: O<sub>2</sub> 30.0 cm<sup>3</sup>와 CO<sub>2</sub> 10.0 cm<sup>3</sup>",
 
     // Avogadro’s law and reacting gas volumes > try it > p
-    "40.0 cm<sup>3</sup> of carbon monoxide is burned in 50.0 cm<sup>3</sup> of oxygen, which is an excess: <span class=\"chem\">2CO(g) + O2(g) -&gt; 2CO2(g)</span>. Calculate the total volume of gas at the end, at the same temperature and pressure.": "",
+    "40.0 cm<sup>3</sup> of carbon monoxide is burned in 50.0 cm<sup>3</sup> of oxygen, which is an excess: <span class=\"chem\">2CO(g) + O2(g) -&gt; 2CO2(g)</span>. Calculate the total volume of gas at the end, at the same temperature and pressure.": "일산화 탄소 40.0 cm<sup>3</sup>를 과량인 산소 50.0 cm<sup>3</sup> 속에서 태워요: <span class=\"chem\">2CO(g) + O2(g) -&gt; 2CO2(g)</span>. 같은 온도와 압력에서 마지막 기체의 전체 부피를 계산하시오 (calculate).",
 
     // Avogadro’s law and reacting gas volumes > try it > li
-    "Two gases are present at the end: the oxygen left over and the carbon dioxide made. Find each one.": "",
+    "Two gases are present at the end: the oxygen left over and the carbon dioxide made. Find each one.": "마지막에는 기체가 두 가지 있어요: 남은 산소와 생긴 이산화 탄소. 각각 구하세요.",
 
     // Avogadro’s law and reacting gas volumes > try it > li
-    "O<sub>2</sub> reacting = 40.0 × (1 ÷ 2) = 20.0 cm<sup>3</sup>, so 30.0 cm<sup>3</sup> is left. CO<sub>2</sub> made = 40.0 × (2 ÷ 2).": "",
+    "O<sub>2</sub> reacting = 40.0 × (1 ÷ 2) = 20.0 cm<sup>3</sup>, so 30.0 cm<sup>3</sup> is left. CO<sub>2</sub> made = 40.0 × (2 ÷ 2).": "반응하는 O<sub>2</sub> = 40.0 × (1 ÷ 2) = 20.0 cm<sup>3</sup>이므로 30.0 cm<sup>3</sup>가 남아요. 생긴 CO<sub>2</sub> = 40.0 × (2 ÷ 2).",
 
     // Avogadro’s law and reacting gas volumes > try it > maths line
-    "<i>V</i>(O<sub>2</sub> reacting) = 40.0 cm<sup>3</sup> × <span class=\"frac\"><span>1</span><span>2</span></span> = 20.0 cm<sup>3</sup>": "",
+    "<i>V</i>(O<sub>2</sub> reacting) = 40.0 cm<sup>3</sup> × <span class=\"frac\"><span>1</span><span>2</span></span> = 20.0 cm<sup>3</sup>": "<i>V</i>(반응하는 O<sub>2</sub>) = 40.0 cm<sup>3</sup> × <span class=\"frac\"><span>1</span><span>2</span></span> = 20.0 cm<sup>3</sup>",
 
     // Avogadro’s law and reacting gas volumes > try it > p
-    "Total: 30.0 + 40.0 = <strong>70.0 cm<sup>3</sup></strong>.": "",
+    "Total: 30.0 + 40.0 = <strong>70.0 cm<sup>3</sup></strong>.": "전체: 30.0 + 40.0 = <strong>70.0 cm<sup>3</sup></strong>.",
 
     // Avogadro’s law and reacting gas volumes > exam tip (shown in English + translation) > p
-    "If you are asked to state Avogadro’s law, include all three parts: equal volumes of gases, same temperature and pressure, equal numbers of molecules. In a calculation, write “volume ratio = mole ratio” before you use the coefficients.": "",
+    "If you are asked to state Avogadro’s law, include all three parts: equal volumes of gases, same temperature and pressure, equal numbers of molecules. In a calculation, write “volume ratio = mole ratio” before you use the coefficients.": "아보가드로 법칙을 쓰라고 하면(state), 세 부분을 모두 넣으세요: 같은 부피의 기체, 같은 온도와 압력, 같은 수의 분자. 계산에서는 계수를 쓰기 전에 “부피 비 = 몰 비”라고 쓰세요.",
 
     // Avogadro’s law and reacting gas volumes > not needed for IB > p
-    "The molar volume of a gas (22.7 dm<sup>3</sup> mol<sup>−1</sup> at STP) and <i>PV</i> = <i>nRT</i> are in topic 1.5. In this topic, the question tells you which gas is in excess. Working out for yourself which reactant runs out first (the limiting reactant) is taught in Reactivity 2.1.": "",
+    "The molar volume of a gas (22.7 dm<sup>3</sup> mol<sup>−1</sup> at STP) and <i>PV</i> = <i>nRT</i> are in topic 1.5. In this topic, the question tells you which gas is in excess. Working out for yourself which reactant runs out first (the limiting reactant) is taught in Reactivity 2.1.": "기체의 몰 부피(STP에서 22.7 dm<sup>3</sup> mol<sup>−1</sup>)와 <i>PV</i> = <i>nRT</i>는 1.5 단원에 있어요. 이 단원에서는 어떤 기체가 과량인지 문제에서 알려 줘요. 어떤 반응물이 먼저 다 쓰이는지(한계 반응물) 스스로 알아내는 것은 Reactivity 2.1에서 배워요.",
 
     // Avogadro’s law and reacting gas volumes > data-title attribute
-    "Avogadro’s law: quick check": "",
+    "Avogadro’s law: quick check": "아보가드로 법칙: 빠른 확인",
 
     // Where this topic stops > data-toc attribute
-    "What is not in 1.4": "",
+    "What is not in 1.4": "1.4에 없는 내용",
 
     // Where this topic stops > h2
-    "Where this topic stops": "",
+    "Where this topic stops": "이 단원은 어디까지인가",
 
     // Where this topic stops > p
-    "Textbooks and online tutors often pile extra material onto the mole. This table shows what is in Structure 1.4, what comes later in the course, and what you can leave alone.": "",
+    "Textbooks and online tutors often pile extra material onto the mole. This table shows what is in Structure 1.4, what comes later in the course, and what you can leave alone.": "교과서와 온라인 강의는 몰에 추가 내용을 많이 얹는 경우가 많아요. 이 표는 무엇이 Structure 1.4에 있고, 무엇이 과정의 뒷부분에 나오며, 무엇은 신경 쓰지 않아도 되는지 보여 줘요.",
 
     // Where this topic stops > table > caption
-    "In, later, or not needed": "",
+    "In, later, or not needed": "포함, 나중에, 또는 필요 없음",
 
     // Where this topic stops > table > th
-    "Idea": "",
+    "Idea": "개념",
 
     // Where this topic stops > table > th
-    "Status": "",
+    "Status": "구분",
 
     // Where this topic stops > table > th
-    "Moles ⇄ particles, mass, concentration": "",
+    "Moles ⇄ particles, mass, concentration": "몰 ⇄ 입자 수, 질량, 농도",
 
     // Where this topic stops > table > td
-    "In this topic (1.4.1, 1.4.3, 1.4.5)": "",
+    "In this topic (1.4.1, 1.4.3, 1.4.5)": "이 단원 (1.4.1, 1.4.3, 1.4.5)",
 
     // Where this topic stops > table > th
-    "Empirical and molecular formulas, including combustion data": "",
+    "Empirical and molecular formulas, including combustion data": "연소 자료를 포함한 실험식과 분자식",
 
     // Where this topic stops > table > td
-    "In this topic (1.4.4)": "",
+    "In this topic (1.4.4)": "이 단원 (1.4.4)",
 
     // Where this topic stops > table > th
-    "Standard solutions, dilution, calibration curves": "",
+    "Standard solutions, dilution, calibration curves": "표준 용액, 희석, 검량선",
 
     // Where this topic stops > table > td
-    "In this topic (1.4.5)": "",
+    "In this topic (1.4.5)": "이 단원 (1.4.5)",
 
     // Where this topic stops > table > th
-    "Gas volume ratios from an equation, including a gas you are told is in excess": "",
+    "Gas volume ratios from an equation, including a gas you are told is in excess": "반응식으로 구하는 기체 부피 비 (과량이라고 주어진 기체 포함)",
 
     // Where this topic stops > table > td
-    "In this topic (1.4.6)": "",
+    "In this topic (1.4.6)": "이 단원 (1.4.6)",
 
     // Where this topic stops > table > th
-    "Reacting masses from an equation": "",
+    "Reacting masses from an equation": "반응식으로 구하는 반응 질량",
 
     // Where this topic stops > table > td
-    "Later: Reactivity 2.1": "",
+    "Later: Reactivity 2.1": "나중에: Reactivity 2.1",
 
     // Where this topic stops > table > th
-    "Finding the limiting reactant, percentage yield, atom economy": "",
+    "Finding the limiting reactant, percentage yield, atom economy": "한계 반응물 찾기, 수득률, 원자 경제성",
 
     // Where this topic stops > table > th
-    "Percentage uncertainty of a concentration you have made": "",
+    "Percentage uncertainty of a concentration you have made": "직접 만든 용액 농도의 백분율 불확도",
 
     // Where this topic stops > table > td
-    "Later: the uncertainty skills in Tool 3": "",
+    "Later: the uncertainty skills in Tool 3": "나중에: Tool 3의 불확도 기술",
 
     // Where this topic stops > table > th
     "Titration calculations": "",

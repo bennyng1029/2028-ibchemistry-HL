@@ -9,492 +9,492 @@ S1.i18n.register('ko', 's3-1.q', {
     // ── s3-1-q001 · mcq · foundation · SL · Structure 3.1.1 · 1 mark
     "s3-1-q001": {
       // EN: <p>Which element is a metalloid?</p>
-      stem: "",
+      stem: "<p>준금속인 원소는 어느 것인가요?</p>",
       options: [
         // EN: Aluminium, Al
-        "",
+        "알루미늄, Al",
         // EN: Phosphorus, P
-        "",
+        "인, P",
         // EN: Silicon, Si
-        "",
+        "규소, Si",
         // EN: Sulfur, S
-        "",
+        "황, S",
       ],
       hints: [
         // EN: Find the four elements in period 3 of your periodic table.
-        "",
+        "주기율표의 3주기에서 이 네 원소를 찾아보세요.",
         // EN: Metalloids lie on the diagonal boundary between the metals (left) and the non-metals (right).
-        "",
+        "준금속은 금속(왼쪽)과 비금속(오른쪽) 사이의 대각선 경계에 있어요.",
       ],
       // EN: <p>Metals are on the left and in the centre of the periodic table. Non-metals are on the upper right. The metalloids lie on the diagonal boundary between them. They include B, Si, Ge, As, Sb and Te. <strong>Silicon</strong> is a metalloid. Its properties are between those of a metal and a non-metal.</p>
-      solution: "",
+      solution: "<p>금속은 주기율표의 왼쪽과 가운데에 있어요. 비금속은 오른쪽 위에 있어요. 준금속은 그 둘 사이의 대각선 경계에 있어요. B, Si, Ge, As, Sb, Te가 준금속이에요. <strong>규소</strong>는 준금속이에요. 규소의 성질은 금속과 비금속의 중간이에요.</p>",
       misconception: {
         // EN (option A): Aluminium sits next to the metalloids, but it is a metal. It is shiny, it conducts electricity well and it forms <span class="chem">Al^3+</span> ions.
-        "0": "",
+        "0": "알루미늄은 준금속 바로 옆에 있지만 금속이에요. 광택이 있고, 전기를 잘 통하며, <span class=\"chem\">Al^3+</span> 이온을 만들어요.",
         // EN (option B): Phosphorus is a non-metal. It does not conduct electricity and its oxide is acidic.
-        "1": "",
+        "1": "인은 비금속이에요. 전기가 통하지 않고, 인의 산화물은 산성이에요.",
         // EN (option D): Sulfur is a non-metal. It is a brittle yellow solid that does not conduct electricity.
-        "3": "",
+        "3": "황은 비금속이에요. 잘 부서지는 노란색 고체이고 전기가 통하지 않아요.",
       },
     },
 
     // ── s3-1-q002 · mcq · foundation · SL · Structure 3.1.1 · 1 mark
     "s3-1-q002": {
       // EN: <p>The diagram shows an outline of the periodic table divided into four regions, A, B, C and D.</p><p><svg viewBox="0 0 294 161.5" width="294" height="161.5" style="max-width:100%;height:auto" role="img" aria-label="Outline of the periodic table divided into four regions. Region A is the two columns on the left, groups 1 and 2. Region B is the wide middle part, groups 3 to 12. Region C is the six columns on the right, groups 13 to 18. Region D is the two long rows drawn below the main table."><polygon points="12,10 27,10 27,25 42,25 42,115 12,115" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><text x="27" y="76" text-anchor="middle" font-size="17" font-weight="700" fill="currentColor">A</text><polygon points="42,55 192,55 192,115 42,115" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><text x="117" y="91" text-anchor="middle" font-size="17" font-weight="700" fill="currentColor">B</text><polygon points="192,25 267,25 267,10 282,10 282,115 192,115" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><text x="237" y="76" text-anchor="middle" font-size="17" font-weight="700" fill="currentColor">C</text><polygon points="57,125.5 267,125.5 267,155.5 57,155.5" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><text x="162" y="146.5" text-anchor="middle" font-size="17" font-weight="700" fill="currentColor">D</text><text x="19.5" y="8" text-anchor="middle" font-size="10" fill="currentColor">1</text><text x="274.5" y="8" text-anchor="middle" font-size="10" fill="currentColor">18</text></svg></p><p>Which region is the d-block?</p>
-      stem: "",
+      stem: "<p>그림은 주기율표의 윤곽을 A, B, C, D의 4개 영역으로 나눈 것이에요.</p><p><svg viewBox=\"0 0 294 161.5\" width=\"294\" height=\"161.5\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"4개 영역으로 나눈 주기율표의 윤곽. 영역 A는 왼쪽의 2개 열로, 1족과 2족이에요. 영역 B는 가운데의 넓은 부분으로, 3족에서 12족까지예요. 영역 C는 오른쪽의 6개 열로, 13족에서 18족까지예요. 영역 D는 본 표 아래에 따로 그린 긴 2개 행이에요.\"><polygon points=\"12,10 27,10 27,25 42,25 42,115 12,115\" fill=\"currentColor\" fill-opacity=\"0.07\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><text x=\"27\" y=\"76\" text-anchor=\"middle\" font-size=\"17\" font-weight=\"700\" fill=\"currentColor\">A</text><polygon points=\"42,55 192,55 192,115 42,115\" fill=\"currentColor\" fill-opacity=\"0.07\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><text x=\"117\" y=\"91\" text-anchor=\"middle\" font-size=\"17\" font-weight=\"700\" fill=\"currentColor\">B</text><polygon points=\"192,25 267,25 267,10 282,10 282,115 192,115\" fill=\"currentColor\" fill-opacity=\"0.07\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><text x=\"237\" y=\"76\" text-anchor=\"middle\" font-size=\"17\" font-weight=\"700\" fill=\"currentColor\">C</text><polygon points=\"57,125.5 267,125.5 267,155.5 57,155.5\" fill=\"currentColor\" fill-opacity=\"0.07\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><text x=\"162\" y=\"146.5\" text-anchor=\"middle\" font-size=\"17\" font-weight=\"700\" fill=\"currentColor\">D</text><text x=\"19.5\" y=\"8\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">1</text><text x=\"274.5\" y=\"8\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">18</text></svg></p><p>d 구역은 어느 영역인가요?</p>",
       options: [
         // EN: A
-        "",
+        "A",
         // EN: B
-        "",
+        "B",
         // EN: C
-        "",
+        "C",
         // EN: D
-        "",
+        "D",
       ],
       hints: [
         // EN: A d sublevel holds up to 10 electrons. Which region is 10 columns wide?
-        "",
+        "d 부껍질에는 전자가 10개까지 들어가요. 폭이 10칸인 영역은 어디인가요?",
         // EN: An s sublevel holds 2 electrons, a p sublevel 6 and an f sublevel 14.
-        "",
+        "s 부껍질에는 전자가 2개, p 부껍질에는 6개, f 부껍질에는 14개 들어가요.",
       ],
       // EN: <p>The width of each block matches the number of electrons its sublevel can hold. The s-block is 2 columns wide (A). The d-block is 10 columns wide: groups 3 to 12 (<strong>B</strong>). The p-block is 6 columns wide (C). The f-block is 14 columns wide (D).</p><p>One exception: helium is drawn at the top of group 18, but its configuration is <span class="mono nowrap">1s<sup>2</sup></span>.</p>
-      solution: "",
+      solution: "<p>각 구역의 폭은 그 부껍질에 들어갈 수 있는 전자 수와 같아요. s 구역은 폭이 2칸이에요(A). d 구역은 폭이 10칸으로, 3족에서 12족까지예요(<strong>B</strong>). p 구역은 폭이 6칸이에요(C). f 구역은 폭이 14칸이에요(D).</p><p>예외가 하나 있어요. 헬륨은 18족 맨 위에 그려져 있지만, 전자 배치는 <span class=\"mono nowrap\">1s<sup>2</sup></span>이에요.</p>",
       misconception: {
         // EN (option A): Region A is groups 1 and 2. In these elements the outer electrons are in an s sublevel, so this is the s-block.
-        "0": "",
+        "0": "영역 A는 1족과 2족이에요. 이 원소들은 바깥 전자가 s 부껍질에 있으므로 s 구역이에요.",
         // EN (option C): Region C is groups 13 to 18. In these elements a p sublevel is being filled, so this is the p-block.
-        "2": "",
+        "2": "영역 C는 13족에서 18족까지예요. 이 원소들은 p 부껍질이 채워지고 있으므로 p 구역이에요.",
         // EN (option D): Region D is the two rows drawn below the main table. In these elements an f sublevel is being filled, so this is the f-block.
-        "3": "",
+        "3": "영역 D는 본 표 아래에 따로 그린 2개 행이에요. 이 원소들은 f 부껍질이 채워지고 있으므로 f 구역이에요.",
       },
     },
 
     // ── s3-1-q003 · multi · exam · SL · Structure 3.1.1 · 1 mark
     "s3-1-q003": {
       // EN: <p>Tin, Sn, has atomic number 50. Use the periodic table in the data booklet. Which statements about tin are correct? Select all that apply.</p>
-      stem: "",
+      stem: "<p>주석(Sn)의 원자 번호는 50이에요. 데이터 부클릿의 주기율표를 이용하세요. 주석에 대한 설명으로 옳은 것은 어느 것인가요? 해당하는 것을 모두 고르세요.</p>",
       options: [
         // EN: Tin is in the p-block.
-        "",
+        "주석은 p 구역에 있어요.",
         // EN: Tin is a transition element.
-        "",
+        "주석은 전이 원소예요.",
         // EN: Tin is a metal.
-        "",
+        "주석은 금속이에요.",
         // EN: Tin is in group 4.
-        "",
+        "주석은 4족에 있어요.",
         // EN: Tin is in period 5.
-        "",
+        "주석은 5주기에 있어요.",
       ],
       hints: [
         // EN: Find Sn in the data booklet. Read its row (period) and its column (group).
-        "",
+        "데이터 부클릿에서 Sn을 찾으세요. 그 행(주기)과 열(족)을 읽으세요.",
         // EN: Groups 13 to 18 are the p-block. The lower part of the p-block contains metals.
-        "",
+        "13족에서 18족까지가 p 구역이에요. p 구역의 아래쪽에는 금속이 있어요.",
       ],
       // EN: <p>Tin is in period 5 and group 14. Groups 13 to 18 form the <strong>p-block</strong>. Tin lies below and to the left of the metalloid boundary, so it is a <strong>metal</strong>. It is not a transition element, because it is not in the d-block.</p>
-      solution: "",
+      solution: "<p>주석은 5주기, 14족에 있어요. 13족에서 18족까지는 <strong>p 구역</strong>이에요. 주석은 준금속 경계의 왼쪽 아래에 있으므로 <strong>금속</strong>이에요. 주석은 d 구역에 있지 않으므로 전이 원소가 아니에요.</p>",
       misconception: {
         // EN (option B): The transition elements are in the d-block. Tin is in group 14, which is in the p-block. Not every metal is a transition element.
-        "1": "",
+        "1": "전이 원소는 d 구역에 있어요. 주석은 14족이고, 14족은 p 구역이에요. 모든 금속이 전이 원소인 것은 아니에요.",
         // EN (option D): Groups are numbered from 1 to 18. Tin has four valence electrons, but it is in group 14. Group 4 starts with titanium.
-        "3": "",
+        "3": "족 번호는 1에서 18까지예요. 주석의 원자가 전자는 4개이지만 주석은 14족에 있어요. 4족은 타이타늄으로 시작해요.",
       },
     },
 
     // ── s3-1-q004 · mcq · exam · SL · Structure 3.1.1 · 1 mark
     "s3-1-q004": {
       // EN: <p>Use the periodic table in the data booklet. Which row gives the correct block and type for the element?</p>
-      stem: "",
+      stem: "<p>데이터 부클릿의 주기율표를 이용하세요. 원소의 구역과 종류가 옳게 짝지어진 것은 어느 것인가요?</p>",
       options: [
         // EN: Zinc, Zn: s-block, metal
-        "",
+        "아연, Zn: s 구역, 금속",
         // EN: Germanium, Ge: p-block, non-metal
-        "",
+        "저마늄, Ge: p 구역, 비금속",
         // EN: Gallium, Ga: p-block, metal
-        "",
+        "갈륨, Ga: p 구역, 금속",
         // EN: Cerium, Ce: d-block, metal
-        "",
+        "세륨, Ce: d 구역, 금속",
       ],
       hints: [
         // EN: Find the group of each element. Groups 1–2: s-block. Groups 3–12: d-block. Groups 13–18: p-block.
-        "",
+        "각 원소의 족을 찾으세요. 1–2족: s 구역. 3–12족: d 구역. 13–18족: p 구역.",
         // EN: The metalloids include B, Si, Ge, As, Sb and Te.
-        "",
+        "준금속에는 B, Si, Ge, As, Sb, Te가 있어요.",
       ],
       // EN: <p>Gallium is in group 13, so it is in the <strong>p-block</strong>. It is below aluminium and to the left of the metalloid boundary, so it is a <strong>metal</strong>. The p-block contains metals, metalloids and non-metals.</p>
-      solution: "",
+      solution: "<p>갈륨은 13족에 있으므로 <strong>p 구역</strong>이에요. 알루미늄 아래, 준금속 경계의 왼쪽에 있으므로 <strong>금속</strong>이에요. p 구역에는 금속, 준금속, 비금속이 모두 있어요.</p>",
       misconception: {
         // EN (option A): Zinc is a metal, but it is in group 12. Groups 3 to 12 are the d-block.
-        "0": "",
+        "0": "아연은 금속이지만 12족에 있어요. 3족에서 12족까지는 d 구역이에요.",
         // EN (option B): Germanium is in the p-block, but it lies on the diagonal boundary. It is a metalloid.
-        "1": "",
+        "1": "저마늄은 p 구역에 있지만 대각선 경계 위에 있어요. 저마늄은 준금속이에요.",
         // EN (option D): Cerium is a metal, but it is in the first of the two rows drawn below the main table. Those rows are the f-block.
-        "3": "",
+        "3": "세륨은 금속이지만, 본 표 아래에 따로 그린 2개 행 가운데 첫째 행에 있어요. 그 행들은 f 구역이에요.",
       },
     },
 
     // ── s3-1-q005 · mcq · foundation · SL · Structure 3.1.2 · 1 mark
     "s3-1-q005": {
       // EN: <p>An atom has the electron configuration <span class="mono nowrap">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>4</sup></span>. Where is the element in the periodic table?</p>
-      stem: "",
+      stem: "<p>어떤 원자의 전자 배치가 <span class=\"mono nowrap\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>4</sup></span>이에요. 이 원소는 주기율표의 어디에 있나요?</p>",
       options: [
         // EN: Period 3, group 16
-        "",
+        "3주기, 16족",
         // EN: Period 3, group 6
-        "",
+        "3주기, 6족",
         // EN: Period 4, group 16
-        "",
+        "4주기, 16족",
         // EN: Period 6, group 3
-        "",
+        "6주기, 3족",
       ],
       hints: [
         // EN: Which is the highest energy level that contains electrons? That is the period.
-        "",
+        "전자가 들어 있는 가장 높은 에너지 준위는 무엇인가요? 그것이 주기예요.",
         // EN: Count the electrons in that outer level. For the p-block, add 10 to get the group number.
-        "",
+        "그 바깥 준위의 전자 수를 세어 보세요. p 구역에서는 10을 더하면 족 번호가 돼요.",
       ],
       // EN: <p>The outer occupied energy level is n = 3, so the element is in <strong>period 3</strong>. The outer level holds 2 + 4 = 6 valence electrons. The element is in the p-block, so the group is 6 + 10 = <strong>16</strong>. The element is sulfur.</p>
-      solution: "",
+      solution: "<p>전자가 들어 있는 가장 바깥 에너지 준위는 n = 3이므로, 이 원소는 <strong>3주기</strong>에 있어요. 바깥 준위에는 원자가 전자가 2 + 4 = 6개 있어요. 이 원소는 p 구역에 있으므로 족은 6 + 10 = <strong>16</strong>이에요. 이 원소는 황이에요.</p>",
       misconception: {
         // EN (option B): The atom has 6 valence electrons, but groups are numbered 1 to 18. For a p-block element, group number = valence electrons + 10.
-        "1": "",
+        "1": "이 원자의 원자가 전자는 6개이지만, 족 번호는 1에서 18까지예요. p 구역 원소에서는 족 번호 = 원자가 전자 수 + 10이에요.",
         // EN (option C): The period number is the outer energy level that contains electrons. Here that is level 3, not 4.
-        "2": "",
+        "2": "주기 번호는 전자가 들어 있는 가장 바깥 에너지 준위의 번호예요. 여기서는 4가 아니라 3이에요.",
         // EN (option D): Period and group are swapped. The outer energy level (3) gives the period. The valence electrons (6) give the group.
-        "3": "",
+        "3": "주기와 족이 서로 바뀌었어요. 가장 바깥 에너지 준위(3)가 주기를, 원자가 전자 수(6)가 족을 알려 줘요.",
       },
     },
 
     // ── s3-1-q006 · mcq · exam · SL · Structure 3.1.2 · 1 mark
     "s3-1-q006": {
       // EN: <p>An element is in period 4 and group 7 of the periodic table. What is the electron configuration of its atom?</p>
-      stem: "",
+      stem: "<p>어떤 원소가 주기율표의 4주기, 7족에 있어요. 이 원자의 전자 배치는 무엇인가요?</p>",
       options: [
         // EN: <span class="mono nowrap">[Ar] 4s<sup>2</sup> 4p<sup>5</sup></span>
-        "",
+        "<span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 4p<sup>5</sup></span>",
         // EN: <span class="mono nowrap">[Ar] 4s<sup>2</sup> 3d<sup>7</sup></span>
-        "",
+        "<span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 3d<sup>7</sup></span>",
         // EN: <span class="mono nowrap">[Kr] 4s<sup>2</sup> 3d<sup>5</sup></span>
-        "",
+        "<span class=\"mono nowrap\">[Kr] 4s<sup>2</sup> 3d<sup>5</sup></span>",
         // EN: <span class="mono nowrap">[Ar] 4s<sup>2</sup> 3d<sup>5</sup></span>
-        "",
+        "<span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 3d<sup>5</sup></span>",
       ],
       hints: [
         // EN: Groups 3 to 12 in period 4 are the d-block. The 3d sublevel is being filled.
-        "",
+        "4주기의 3족에서 12족까지는 d 구역이에요. 3d 부껍질이 채워지고 있어요.",
         // EN: For groups 3 to 12: group number = number of 4s electrons + number of 3d electrons.
-        "",
+        "3족에서 12족까지: 족 번호 = 4s 전자 수 + 3d 전자 수.",
       ],
       // EN: <p>Period 4 means the outer energy level is n = 4, and the core is argon. Group 7 is in the d-block, so the 4s and 3d electrons add up to 7: <span class="mono nowrap">[Ar] 4s<sup>2</sup> 3d<sup>5</sup></span>. The element is manganese. (IB also accepts <span class="mono nowrap">[Ar] 3d<sup>5</sup> 4s<sup>2</sup></span>.)</p>
-      solution: "",
+      solution: "<p>4주기이므로 가장 바깥 에너지 준위는 n = 4이고, 안쪽 핵심은 아르곤이에요. 7족은 d 구역에 있으므로 4s 전자와 3d 전자를 더하면 7개예요: <span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 3d<sup>5</sup></span>. 이 원소는 망가니즈예요. (IB에서는 <span class=\"mono nowrap\">[Ar] 3d<sup>5</sup> 4s<sup>2</sup></span>도 정답으로 인정해요.)</p>",
       misconception: {
         // EN (option A): This configuration has 7 electrons in the fourth level, but it also leaves out the 3d sublevel. Seven outer s and p electrons belong to group 17, not group 7.
-        "0": "",
+        "0": "이 배치는 넷째 준위에 전자가 7개 있지만, 3d 부껍질을 빠뜨렸어요. 바깥 s, p 전자가 7개이면 7족이 아니라 17족이에요.",
         // EN (option B): For groups 3 to 12, the group number equals the number of 4s electrons plus 3d electrons. Here 2 + 7 = 9, which is group 9.
-        "1": "",
+        "1": "3족에서 12족까지는 족 번호 = 4s 전자 수 + 3d 전자 수예요. 여기서는 2 + 7 = 9이므로 9족이에요.",
         // EN (option C): The noble gas in the brackets is the one at the end of the period before. For period 4 that is argon. [Kr] would put the element in period 5.
-        "2": "",
+        "2": "괄호 안의 비활성 기체는 바로 앞 주기의 끝에 있는 원소예요. 4주기에서는 아르곤이에요. [Kr]이면 이 원소가 5주기에 있게 돼요.",
       },
     },
 
     // ── s3-1-q007 · multi · exam · SL · Structure 3.1.2 · 1 mark
     "s3-1-q007": {
       // EN: <p>Which statements are correct? Select all that apply.</p>
-      stem: "",
+      stem: "<p>옳은 설명은 어느 것인가요? 해당하는 것을 모두 고르세요.</p>",
       options: [
         // EN: Elements in the same group have the same number of valence electrons.
-        "",
+        "같은 족의 원소들은 원자가 전자 수가 같아요.",
         // EN: Elements in the same period have the same number of valence electrons.
-        "",
+        "같은 주기의 원소들은 원자가 전자 수가 같아요.",
         // EN: The period number is the number of the outer energy level that contains electrons.
-        "",
+        "주기 번호는 전자가 들어 있는 가장 바깥 에너지 준위의 번호예요.",
         // EN: Bromine is a halogen.
-        "",
+        "브로민은 할로젠이에요.",
         // EN: Calcium is an alkali metal.
-        "",
+        "칼슘은 알칼리 금속이에요.",
       ],
       hints: [
         // EN: A group is a column. A period is a row.
-        "",
+        "족은 세로줄(열)이고, 주기는 가로줄(행)이에요.",
         // EN: Alkali metals: group 1. Halogens: group 17. Noble gases: group 18. Transition elements: in the d-block.
-        "",
+        "알칼리 금속: 1족. 할로젠: 17족. 비활성 기체: 18족. 전이 원소: d 구역.",
       ],
       // EN: <p>Elements in a <strong>group</strong> have the same number of valence electrons. Elements in a <strong>period</strong> have the same outer occupied energy level, and the period number is the number of that level. Bromine is in group 17, so it is a halogen. Calcium is in group 2, so it is not an alkali metal.</p>
-      solution: "",
+      solution: "<p>같은 <strong>족</strong>의 원소들은 원자가 전자 수가 같아요. 같은 <strong>주기</strong>의 원소들은 전자가 들어 있는 가장 바깥 에너지 준위가 같고, 주기 번호가 그 준위의 번호예요. 브로민은 17족이므로 할로젠이에요. 칼슘은 2족이므로 알칼리 금속이 아니에요.</p>",
       misconception: {
         // EN (option B): Across a period the number of valence electrons increases by one each time. What stays the same in a period is the outer occupied energy level.
-        "1": "",
+        "1": "주기를 따라 가면 원자가 전자 수가 하나씩 늘어나요. 한 주기 안에서 같은 것은 전자가 들어 있는 가장 바깥 에너지 준위예요.",
         // EN (option E): The alkali metals are the group 1 metals (Li, Na, K, …). Calcium is in group 2.
-        "4": "",
+        "4": "알칼리 금속은 1족 금속이에요(Li, Na, K, …). 칼슘은 2족이에요.",
       },
     },
 
     // ── s3-1-q008 · mcq · challenge · SL · Structure 3.1.2 · 1 mark
     "s3-1-q008": {
       // EN: <p>The ion <span class="chem">X^2-</span> has the electron configuration <span class="mono nowrap">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>6</sup></span>. Where is element X in the periodic table?</p>
-      stem: "",
+      stem: "<p>이온 <span class=\"chem\">X^2-</span>의 전자 배치는 <span class=\"mono nowrap\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>6</sup></span>이에요. 원소 X는 주기율표의 어디에 있나요?</p>",
       options: [
         // EN: Period 4, group 18
-        "",
+        "4주기, 18족",
         // EN: Period 4, group 16
-        "",
+        "4주기, 16족",
         // EN: Period 5, group 2
-        "",
+        "5주기, 2족",
         // EN: Period 3, group 16
-        "",
+        "3주기, 16족",
       ],
       hints: [
         // EN: How many electrons does the ion have? How many does the neutral atom have?
-        "",
+        "이 이온의 전자는 몇 개인가요? 중성 원자의 전자는 몇 개인가요?",
         // EN: A 2− ion has two more electrons than its atom. Remove the last two electrons that were added.
-        "",
+        "2− 이온은 원자보다 전자가 2개 더 많아요. 마지막에 더해진 전자 2개를 빼세요.",
         // EN: Then read the period from the outer level and the group from the valence electrons.
-        "",
+        "그다음 바깥 준위로 주기를, 원자가 전자로 족을 읽으세요.",
       ],
       // EN: <p>The ion has 36 electrons. A 2− ion has gained two electrons, so the atom of X has 34 electrons: <span class="mono nowrap">[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>4</sup></span>.</p><p>The outer level is n = 4, so X is in <strong>period 4</strong>. It has 2 + 4 = 6 valence electrons and is in the p-block, so the group is 6 + 10 = <strong>16</strong>. X is selenium.</p>
-      solution: "",
+      solution: "<p>이 이온의 전자는 36개예요. 2− 이온은 전자 2개를 얻은 것이므로 X 원자의 전자는 34개예요: <span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>4</sup></span>.</p><p>바깥 준위가 n = 4이므로 X는 <strong>4주기</strong>에 있어요. 원자가 전자가 2 + 4 = 6개이고 p 구역에 있으므로, 족은 6 + 10 = <strong>16</strong>이에요. X는 셀레늄이에요.</p>",
       misconception: {
         // EN (option A): This is the position of the atom that has this configuration (krypton). The question gives the configuration of a 2− ion, which has two more electrons than the atom of X.
-        "0": "",
+        "0": "이것은 이 전자 배치를 가진 원자(크립톤)의 위치예요. 문제에 주어진 것은 2− 이온의 전자 배치이고, 이 이온은 X 원자보다 전자가 2개 더 많아요.",
         // EN (option C): This adds two electrons. A 2− ion has gained two electrons, so the atom has two <em>fewer</em> electrons than the ion.
-        "2": "",
+        "2": "이것은 전자 2개를 더한 거예요. 2− 이온은 전자 2개를 얻었으므로, 원자는 이온보다 전자가 2개 <em>적어요</em>.",
         // EN (option D): The outer occupied level of the ion is n = 4, not n = 3. A sulfide ion has only 18 electrons. This ion has 36.
-        "3": "",
+        "3": "이 이온에서 전자가 들어 있는 가장 바깥 준위는 n = 3이 아니라 n = 4예요. 황화 이온의 전자는 18개뿐이에요. 이 이온의 전자는 36개예요.",
       },
     },
 
     // ── s3-1-q009 · mcq · foundation · SL · Structure 3.1.3 · 1 mark
     "s3-1-q009": {
       // EN: <p>The table shows atomic radii from the data booklet.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Atomic radius / 10<sup>−12</sup> m</caption><thead><tr><th scope="col">Element</th><th class="num" scope="col">Na</th><th class="num" scope="col">Mg</th><th class="num" scope="col">Al</th><th class="num" scope="col">Si</th><th class="num" scope="col">P</th><th class="num" scope="col">S</th><th class="num" scope="col">Cl</th></tr></thead><tbody><tr><th scope="row">Radius</th><td class="num">160</td><td class="num">140</td><td class="num">124</td><td class="num">114</td><td class="num">109</td><td class="num">104</td><td class="num">100</td></tr></tbody></table></div><p>Which statement explains the trend?</p>
-      stem: "",
+      stem: "<p>표는 데이터 부클릿에 있는 원자 반지름이에요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>원자 반지름 / 10<sup>−12</sup> m</caption><thead><tr><th scope=\"col\">원소</th><th class=\"num\" scope=\"col\">Na</th><th class=\"num\" scope=\"col\">Mg</th><th class=\"num\" scope=\"col\">Al</th><th class=\"num\" scope=\"col\">Si</th><th class=\"num\" scope=\"col\">P</th><th class=\"num\" scope=\"col\">S</th><th class=\"num\" scope=\"col\">Cl</th></tr></thead><tbody><tr><th scope=\"row\">반지름</th><td class=\"num\">160</td><td class=\"num\">140</td><td class=\"num\">124</td><td class=\"num\">114</td><td class=\"num\">109</td><td class=\"num\">104</td><td class=\"num\">100</td></tr></tbody></table></div><p>이 경향을 설명하는 것은 어느 것인가요?</p>",
       options: [
         // EN: The number of occupied energy levels decreases across the period.
-        "",
+        "주기를 따라 전자가 들어 있는 에너지 준위의 수가 줄어들어요.",
         // EN: Shielding by inner electrons decreases across the period.
-        "",
+        "주기를 따라 안쪽 전자에 의한 가려막기가 줄어들어요.",
         // EN: The nuclear charge increases, and the outer electrons are in the same energy level with similar shielding.
-        "",
+        "핵전하가 커지고, 바깥 전자는 같은 에너지 준위에 있어서 가려막기 정도가 비슷해요.",
         // EN: The atoms gain electrons across the period, and electrons repel each other.
-        "",
+        "주기를 따라 갈수록 원자의 전자가 많아지고, 전자끼리 서로 밀어내요.",
       ],
       hints: [
         // EN: Describe the trend first: does the radius increase or decrease from Na to Cl?
-        "",
+        "먼저 경향을 서술해 보세요. Na에서 Cl로 갈수록 반지름이 커지나요, 작아지나요?",
         // EN: Compare Na and Cl: number of protons, number of occupied energy levels, number of inner electrons.
-        "",
+        "Na와 Cl을 비교해 보세요: 양성자 수, 전자가 들어 있는 에너지 준위 수, 안쪽 전자 수.",
       ],
       // EN: <p>The radius decreases from 160 to 100 (in 10<sup>−12</sup> m). Across period 3 the number of protons rises from 11 to 17, so the <strong>nuclear charge increases</strong>. The outer electrons are all in the <strong>same energy level</strong> (n = 3) and are shielded by the same 10 inner electrons. The outer electrons are attracted more strongly and are pulled closer to the nucleus.</p>
-      solution: "",
+      solution: "<p>반지름은 160에서 100으로 작아져요(단위 10<sup>−12</sup> m). 3주기를 따라 양성자 수가 11에서 17로 늘어나므로 <strong>핵전하가 커져요</strong>. 바깥 전자는 모두 <strong>같은 에너지 준위</strong>(n = 3)에 있고, 똑같이 10개의 안쪽 전자에 가려져 있어요. 그래서 바깥 전자가 더 세게 끌려 원자핵 가까이 당겨져요.</p>",
       misconception: {
         // EN (option A): All period 3 atoms have three occupied energy levels. The number of levels does not change across a period.
-        "0": "",
+        "0": "3주기 원자는 모두 전자가 들어 있는 에너지 준위가 3개예요. 한 주기 안에서 준위의 수는 변하지 않아요.",
         // EN (option B): Every period 3 atom has the same 10 inner electrons, so the shielding by inner electrons stays about the same.
-        "1": "",
+        "1": "3주기 원자는 모두 안쪽 전자가 똑같이 10개이므로, 안쪽 전자에 의한 가려막기는 거의 같아요.",
         // EN (option D): More repulsion would make the atoms larger. The data show that the atoms get smaller. The extra protons in the nucleus have the larger effect.
-        "3": "",
+        "3": "반발이 커지면 원자가 커져야 해요. 자료를 보면 원자는 작아져요. 원자핵에 늘어난 양성자의 효과가 더 커요.",
       },
     },
 
     // ── s3-1-q010 · order · foundation · SL · Structure 3.1.3 · 1 mark
     "s3-1-q010": {
       // EN: <p>Use the positions of these elements in the periodic table. Put them in order of <strong>increasing electronegativity</strong> (lowest first).</p>
-      stem: "",
+      stem: "<p>주기율표에서 이 원소들의 위치를 이용하세요. <strong>전기 음성도가 커지는 순서</strong>(가장 작은 것부터)로 늘어놓으세요.</p>",
       options: [
         // EN: Potassium, K
-        "",
+        "칼륨, K",
         // EN: Sodium, Na
-        "",
+        "나트륨, Na",
         // EN: Silicon, Si
-        "",
+        "규소, Si",
         // EN: Chlorine, Cl
-        "",
+        "염소, Cl",
         // EN: Fluorine, F
-        "",
+        "플루오린, F",
       ],
       hints: [
         // EN: Electronegativity increases across a period, from left to right.
-        "",
+        "전기 음성도는 주기를 따라 왼쪽에서 오른쪽으로 갈수록 커져요.",
         // EN: Electronegativity decreases down a group. Compare K with Na, and Cl with F.
-        "",
+        "전기 음성도는 족 아래로 갈수록 작아져요. K와 Na, Cl과 F를 비교해 보세요.",
       ],
       // EN: <p>Electronegativity is a measure of how strongly an atom attracts a bonding pair of electrons. It <strong>increases across a period</strong>: the nuclear charge increases while the shielding stays about the same. It <strong>decreases down a group</strong>: the bonding electrons are further from the nucleus and more shielded.</p><p>Data booklet values: K 0.8, Na 0.9, Si 1.9, Cl 3.2, F 4.0.</p>
-      solution: "",
+      solution: "<p>전기 음성도는 원자가 공유 전자쌍을 얼마나 세게 끌어당기는지를 나타내는 척도예요. 전기 음성도는 <strong>주기를 따라 커져요</strong>: 가려막기는 거의 같은데 핵전하가 커지기 때문이에요. 또 <strong>족 아래로 갈수록 작아져요</strong>: 결합 전자가 원자핵에서 더 멀고 더 많이 가려지기 때문이에요.</p><p>데이터 부클릿 값: K 0.8, Na 0.9, Si 1.9, Cl 3.2, F 4.0.</p>",
     },
 
     // ── s3-1-q011 · mcq · foundation · SL · Structure 3.1.3 · 1 mark
     "s3-1-q011": {
       // EN: <p>Which equation represents the first electron affinity of chlorine?</p>
-      stem: "",
+      stem: "<p>염소의 제1 전자 친화도를 나타내는 반응식은 어느 것인가요?</p>",
       options: [
         // EN: <span class="chem">Cl(g) -> Cl+(g) + e-</span>
-        "",
+        "<span class=\"chem\">Cl(g) -> Cl+(g) + e-</span>",
         // EN: <span class="chem">Cl-(g) -> Cl(g) + e-</span>
-        "",
+        "<span class=\"chem\">Cl-(g) -> Cl(g) + e-</span>",
         // EN: <span class="chem">Cl2(g) + 2e- -> 2Cl-(g)</span>
-        "",
+        "<span class=\"chem\">Cl2(g) + 2e- -> 2Cl-(g)</span>",
         // EN: <span class="chem">Cl(g) + e- -> Cl-(g)</span>
-        "",
+        "<span class=\"chem\">Cl(g) + e- -> Cl-(g)</span>",
       ],
       hints: [
         // EN: “Affinity” here is about gaining an electron, not losing one.
-        "",
+        "여기서 ‘친화도’는 전자를 잃는 것이 아니라 얻는 것에 관한 말이에요.",
         // EN: The starting particle is one gaseous atom.
-        "",
+        "출발하는 입자는 기체 원자 하나예요.",
       ],
       // EN: <p>The first electron affinity is the energy change when one mole of electrons is added to one mole of gaseous atoms to form one mole of gaseous 1− ions:</p><div class="worked__math"><span class="chem">Cl(g) + e- -> Cl-(g)</span></div><p>For chlorine the data booklet value is −349 kJ mol<sup>−1</sup>. The negative sign shows that energy is released.</p>
-      solution: "",
+      solution: "<p>제1 전자 친화도는 기체 원자 1몰에 전자 1몰을 더해 기체 1− 이온 1몰을 만들 때의 에너지 변화예요:</p><div class=\"worked__math\"><span class=\"chem\">Cl(g) + e- -> Cl-(g)</span></div><p>염소의 데이터 부클릿 값은 −349 kJ mol<sup>−1</sup>이에요. 음의 부호는 에너지가 방출된다는 뜻이에요.</p>",
       misconception: {
         // EN (option A): This equation removes an electron from the atom. It represents the first ionization energy.
-        "0": "",
+        "0": "이 반응식은 원자에서 전자를 떼어 내요. 제1 이온화 에너지를 나타내요.",
         // EN (option B): This equation removes an electron from the ion. It is the reverse of the electron affinity.
-        "1": "",
+        "1": "이 반응식은 이온에서 전자를 떼어 내요. 전자 친화도의 역반응이에요.",
         // EN (option C): Electron affinity is defined for separate gaseous <em>atoms</em>, not for molecules, and for one mole of electrons gained.
-        "2": "",
+        "2": "전자 친화도는 분자가 아니라 따로 떨어진 기체 <em>원자</em>에 대해, 그리고 전자 1몰을 얻을 때에 대해 정의해요.",
       },
     },
 
     // ── s3-1-q012 · short · exam · SL · Structure 3.1.3 · 2 marks
     "s3-1-q012": {
       // EN: <p>The first ionization energies of three group 1 elements are: Li 520, Na 496, K 419 (in kJ mol<sup>−1</sup>).</p><p>Explain why the first ionization energy decreases down group 1.</p>
-      stem: "",
+      stem: "<p>1족 원소 3가지의 제1 이온화 에너지는 Li 520, Na 496, K 419예요(단위 kJ mol<sup>−1</sup>).</p><p>1족 아래로 갈수록 제1 이온화 에너지가 작아지는 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: Write the outer electron of each atom: 2s, 3s, 4s.
-        "",
+        "각 원자의 바깥 전자를 쓰세요: 2s, 3s, 4s.",
         // EN: Give two reasons why the nucleus holds a 4s electron in K less strongly than a 2s electron in Li.
-        "",
+        "K의 4s 전자를 원자핵이 Li의 2s 전자보다 약하게 붙잡는 이유를 2가지 드세요.",
       ],
       // EN: <p>Down the group, the outer electron is in a higher energy level, so it is further from the nucleus. There are also more inner electrons, so the outer electron is more shielded from the nucleus. The attraction between the nucleus and the outer electron is weaker (even though the nuclear charge is larger), so less energy is needed to remove the electron.</p><p>Do not write only “the atomic radius increases”. Say <em>why</em>: the electron is in a higher energy level and is more shielded.</p>
-      answer: "",
+      answer: "<p>족 아래로 갈수록 바깥 전자가 더 높은 에너지 준위에 있으므로 원자핵에서 더 멀어요. 또 안쪽 전자가 더 많아서 바깥 전자가 원자핵으로부터 더 많이 가려져요. (핵전하는 더 크지만) 원자핵과 바깥 전자 사이의 인력이 약해지므로, 전자를 떼어 내는 데 필요한 에너지가 작아져요.</p><p>“원자 반지름이 커진다”라고만 쓰지 마세요. <em>왜</em> 그런지 쓰세요: 전자가 더 높은 에너지 준위에 있고 더 많이 가려지기 때문이에요.</p>",
       markscheme: [
         // EN: The outer electron is in a higher energy level / further from the nucleus (do not accept “atomic radius increases” alone).
-        "",
+        "바깥 전자가 더 높은 에너지 준위에 있다 / 원자핵에서 더 멀다(“원자 반지름이 커진다”만으로는 인정하지 않음).",
         // EN: There is more shielding by inner electrons, so the attraction between the nucleus and the outer electron is weaker.
-        "",
+        "안쪽 전자에 의한 가려막기가 더 커서 원자핵과 바깥 전자 사이의 인력이 더 약하다.",
       ],
     },
 
     // ── s3-1-q013 · order · exam · SL · Structure 3.1.3 · 1 mark
     "s3-1-q013": {
       // EN: <p>These five ions all have the electron configuration <span class="mono nowrap">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>. Put them in order of <strong>increasing ionic radius</strong> (smallest first).</p>
-      stem: "",
+      stem: "<p>다음 5가지 이온은 모두 전자 배치가 <span class=\"mono nowrap\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>이에요. <strong>이온 반지름이 커지는 순서</strong>(가장 작은 것부터)로 늘어놓으세요.</p>",
       options: [
         // EN: <span class="chem">Al^3+</span>
-        "",
+        "<span class=\"chem\">Al^3+</span>",
         // EN: <span class="chem">Mg^2+</span>
-        "",
+        "<span class=\"chem\">Mg^2+</span>",
         // EN: <span class="chem">Na+</span>
-        "",
+        "<span class=\"chem\">Na+</span>",
         // EN: <span class="chem">F-</span>
-        "",
+        "<span class=\"chem\">F-</span>",
         // EN: <span class="chem">O^2-</span>
-        "",
+        "<span class=\"chem\">O^2-</span>",
       ],
       hints: [
         // EN: All five ions have 10 electrons. What is different about them?
-        "",
+        "5가지 이온 모두 전자가 10개예요. 무엇이 다른가요?",
         // EN: Count the protons in each nucleus. More protons pull the same 10 electrons closer.
-        "",
+        "각 원자핵의 양성자 수를 세어 보세요. 양성자가 많을수록 같은 10개의 전자를 더 가까이 끌어당겨요.",
       ],
       // EN: <p>Each ion has 10 electrons in the same arrangement. The number of protons is different: O 8, F 9, Na 11, Mg 12, Al 13. A larger nuclear charge attracts the same number of electrons more strongly, so the ion is smaller.</p><p>Data booklet ionic radii (in 10<sup>−12</sup> m): <span class="chem">Al^3+</span> 54, <span class="chem">Mg^2+</span> 72, <span class="chem">Na+</span> 102, <span class="chem">F-</span> 133, <span class="chem">O^2-</span> 140.</p>
-      solution: "",
+      solution: "<p>각 이온은 전자 10개가 같은 방식으로 배치되어 있어요. 다른 것은 양성자 수예요: O 8, F 9, Na 11, Mg 12, Al 13. 핵전하가 클수록 같은 수의 전자를 더 세게 끌어당기므로 이온이 더 작아요.</p><p>데이터 부클릿의 이온 반지름(단위 10<sup>−12</sup> m): <span class=\"chem\">Al^3+</span> 54, <span class=\"chem\">Mg^2+</span> 72, <span class=\"chem\">Na+</span> 102, <span class=\"chem\">F-</span> 133, <span class=\"chem\">O^2-</span> 140.</p>",
     },
 
     // ── s3-1-q014 · mcq · exam · SL · Structure 3.1.3 · 1 mark
     "s3-1-q014": {
       // EN: <p>The data booklet gives these radii: Na atom 160, <span class="chem">Na+</span> ion 102 (in 10<sup>−12</sup> m).</p><p>Which statement best explains why the sodium ion is much smaller than the sodium atom?</p>
-      stem: "",
+      stem: "<p>데이터 부클릿에 나온 반지름은 Na 원자 160, <span class=\"chem\">Na+</span> 이온 102예요(단위 10<sup>−12</sup> m).</p><p>나트륨 이온이 나트륨 원자보다 훨씬 작은 이유를 가장 잘 설명하는 것은 어느 것인가요?</p>",
       options: [
         // EN: The ion has more protons than the atom.
-        "",
+        "이온은 원자보다 양성자가 더 많아요.",
         // EN: The ion has one fewer occupied energy level than the atom.
-        "",
+        "이온은 원자보다 전자가 들어 있는 에너지 준위가 1개 적어요.",
         // EN: The ion has gained an electron, so the nucleus attracts the electrons more strongly.
-        "",
+        "이온은 전자를 얻었으므로 원자핵이 전자를 더 세게 끌어당겨요.",
         // EN: The ion has more shielding than the atom.
-        "",
+        "이온은 원자보다 가려막기가 더 커요.",
       ],
       hints: [
         // EN: Write the electron configuration of Na and of <span class="chem">Na+</span>.
-        "",
+        "Na와 <span class=\"chem\">Na+</span>의 전자 배치를 쓰세요.",
         // EN: Which energy level is the outer one in each?
-        "",
+        "각각에서 가장 바깥 에너지 준위는 어느 것인가요?",
       ],
       // EN: <p>Na is <span class="mono nowrap">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>1</sup></span>. <span class="chem">Na+</span> is <span class="mono nowrap">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>. The ion has lost its only electron in the third energy level, so it has <strong>one fewer occupied energy level</strong>. The same 11 protons now attract only 10 electrons, so the remaining electrons are held more closely.</p><p>The opposite happens for a negative ion: <span class="chem">Cl-</span> (181) is larger than Cl (100), because the extra electron increases the repulsion between the outer electrons while the nuclear charge stays the same.</p>
-      solution: "",
+      solution: "<p>Na는 <span class=\"mono nowrap\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>1</sup></span>이에요. <span class=\"chem\">Na+</span>는 <span class=\"mono nowrap\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>이에요. 이온은 셋째 에너지 준위에 있던 단 하나의 전자를 잃었으므로 <strong>전자가 들어 있는 에너지 준위가 1개 적어요</strong>. 같은 11개의 양성자가 이제 전자 10개만 끌어당기므로, 남은 전자는 더 가까이 붙잡혀요.</p><p>음이온에서는 반대 일이 일어나요: <span class=\"chem\">Cl-</span>(181)은 Cl(100)보다 커요. 핵전하는 그대로인데, 더해진 전자 때문에 바깥 전자 사이의 반발이 커지기 때문이에요.</p>",
       misconception: {
         // EN (option A): Forming an ion does not change the nucleus. The atom and the ion both have 11 protons.
-        "0": "",
+        "0": "이온이 되어도 원자핵은 변하지 않아요. 원자와 이온 모두 양성자가 11개예요.",
         // EN (option C): A positive ion forms when an atom <em>loses</em> an electron. Sodium loses its 3s electron.
-        "2": "",
+        "2": "양이온은 원자가 전자를 <em>잃을</em> 때 생겨요. 나트륨은 3s 전자를 잃어요.",
         // EN (option D): The ion has fewer electrons than the atom, so it cannot have more shielding.
-        "3": "",
+        "3": "이온은 원자보다 전자가 적으므로 가려막기가 더 클 수 없어요.",
       },
     },
 
     // ── s3-1-q015 · short · challenge · SL · Structure 3.1.3 · 3 marks
     "s3-1-q015": {
       // EN: <p>The table shows ionic radii from the data booklet.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Ionic radius / 10<sup>−12</sup> m</caption><thead><tr><th scope="col">Ion</th><th class="num" scope="col"><span class="chem">S^2-</span></th><th class="num" scope="col"><span class="chem">Cl-</span></th><th class="num" scope="col"><span class="chem">K+</span></th><th class="num" scope="col"><span class="chem">Ca^2+</span></th></tr></thead><tbody><tr><th scope="row">Radius</th><td class="num">184</td><td class="num">181</td><td class="num">138</td><td class="num">100</td></tr></tbody></table></div><p>Explain the trend in ionic radius from <span class="chem">S^2-</span> to <span class="chem">Ca^2+</span>.</p>
-      stem: "",
+      stem: "<p>표는 데이터 부클릿에 있는 이온 반지름이에요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>이온 반지름 / 10<sup>−12</sup> m</caption><thead><tr><th scope=\"col\">이온</th><th class=\"num\" scope=\"col\"><span class=\"chem\">S^2-</span></th><th class=\"num\" scope=\"col\"><span class=\"chem\">Cl-</span></th><th class=\"num\" scope=\"col\"><span class=\"chem\">K+</span></th><th class=\"num\" scope=\"col\"><span class=\"chem\">Ca^2+</span></th></tr></thead><tbody><tr><th scope=\"row\">반지름</th><td class=\"num\">184</td><td class=\"num\">181</td><td class=\"num\">138</td><td class=\"num\">100</td></tr></tbody></table></div><p><span class=\"chem\">S^2-</span>에서 <span class=\"chem\">Ca^2+</span>까지 이온 반지름의 경향을 설명하시오 (explain).</p>",
       hints: [
         // EN: Count the electrons in each ion.
-        "",
+        "각 이온의 전자 수를 세어 보세요.",
         // EN: Count the protons in each ion.
-        "",
+        "각 이온의 양성자 수를 세어 보세요.",
         // EN: Link the two: same electrons, different pull.
-        "",
+        "두 가지를 연결하세요: 전자 수는 같고, 끌어당기는 힘은 달라요.",
       ],
       // EN: <p>All four ions have 18 electrons and the same electron configuration, <span class="mono nowrap">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></span>. The nuclear charge increases from 16 protons in <span class="chem">S^2-</span> to 20 protons in <span class="chem">Ca^2+</span>. The same number of electrons is attracted more strongly by the larger nuclear charge, so the electrons are pulled closer to the nucleus and the radius decreases.</p>
-      answer: "",
+      answer: "<p>4가지 이온 모두 전자가 18개이고 전자 배치가 <span class=\"mono nowrap\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></span>로 같아요. 핵전하는 <span class=\"chem\">S^2-</span>의 양성자 16개에서 <span class=\"chem\">Ca^2+</span>의 양성자 20개까지 커져요. 같은 수의 전자가 더 큰 핵전하에 더 세게 끌리므로, 전자가 원자핵 가까이 당겨지고 반지름이 작아져요.</p>",
       markscheme: [
         // EN: All four ions have the same number of electrons / the same electron configuration (18 electrons; accept “isoelectronic”).
-        "",
+        "4가지 이온 모두 전자 수가 같다 / 전자 배치가 같다(전자 18개, “등전자”도 인정).",
         // EN: The nuclear charge / number of protons increases from S (16) to Ca (20).
-        "",
+        "핵전하 / 양성자 수가 S(16)에서 Ca(20)로 커진다.",
         // EN: So the electrons are attracted more strongly / pulled closer to the nucleus (and the radius decreases).
-        "",
+        "그래서 전자가 더 세게 끌린다 / 원자핵 가까이 당겨진다(반지름이 작아진다).",
       ],
     },
 
     // ── s3-1-q016 · multi · exam · SL · Structure 3.1.3 · 1 mark
     "s3-1-q016": {
       // EN: <p>Which of these <strong>increase</strong> across period 3 from sodium to chlorine? Select all that apply.</p>
-      stem: "",
+      stem: "<p>나트륨에서 염소까지 3주기를 따라 <strong>커지는</strong> 것은 어느 것인가요? 해당하는 것을 모두 고르세요.</p>",
       options: [
         // EN: Nuclear charge
-        "",
+        "핵전하",
         // EN: Atomic radius
-        "",
+        "원자 반지름",
         // EN: First ionization energy (general trend)
-        "",
+        "제1 이온화 에너지(전체적인 경향)",
         // EN: Electronegativity
-        "",
+        "전기 음성도",
         // EN: Number of occupied energy levels
-        "",
+        "전자가 들어 있는 에너지 준위의 수",
       ],
       hints: [
         // EN: Start with the nucleus: what changes from Na (Z = 11) to Cl (Z = 17)?
-        "",
+        "원자핵부터 생각해 보세요: Na(Z = 11)에서 Cl(Z = 17)로 가면서 무엇이 바뀌나요?",
         // EN: A stronger attraction for outer electrons makes the atom smaller, makes an electron harder to remove, and attracts bonding electrons more.
-        "",
+        "바깥 전자를 더 세게 끌어당기면 원자는 작아지고, 전자는 떼어 내기 어려워지고, 결합 전자는 더 많이 끌려와요.",
       ],
       // EN: <p>Across period 3 the <strong>nuclear charge</strong> increases (11 to 17 protons). The outer electrons are in the same energy level with similar shielding, so they are attracted more strongly. This means:</p><ul><li>atomic radius decreases (160 to 100, in 10<sup>−12</sup> m);</li><li>first ionization energy generally increases (Na 496, Cl 1251 kJ mol<sup>−1</sup>);</li><li>electronegativity increases (Na 0.9, Cl 3.2).</li></ul><p>The number of occupied energy levels stays at three.</p>
-      solution: "",
+      solution: "<p>3주기를 따라 <strong>핵전하</strong>가 커져요(양성자 11개에서 17개). 바깥 전자는 같은 에너지 준위에 있고 가려막기 정도가 비슷하므로 더 세게 끌려요. 그래서:</p><ul><li>원자 반지름은 작아져요(160에서 100, 단위 10<sup>−12</sup> m);</li><li>제1 이온화 에너지는 대체로 커져요(Na 496, Cl 1251 kJ mol<sup>−1</sup>);</li><li>전기 음성도는 커져요(Na 0.9, Cl 3.2).</li></ul><p>전자가 들어 있는 에너지 준위의 수는 3개 그대로예요.</p>",
       misconception: {
         // EN (option B): Atomic radius decreases across a period: Na 160, Cl 100 (in 10<sup>−12</sup> m). The increasing nuclear charge pulls the outer electrons closer.
-        "1": "",
+        "1": "원자 반지름은 주기를 따라 작아져요: Na 160, Cl 100(단위 10<sup>−12</sup> m). 커지는 핵전하가 바깥 전자를 더 가까이 끌어당겨요.",
         // EN (option E): Every period 3 atom has three occupied energy levels. That is what makes them one period.
-        "4": "",
+        "4": "3주기 원자는 모두 전자가 들어 있는 에너지 준위가 3개예요. 그래서 같은 주기에 있는 거예요.",
       },
     },
 
     // ── s3-1-q017 · mcq · exam · SL · Structure 3.1.3 · 1 mark
     "s3-1-q017": {
       // EN: <p>The table shows first electron affinities from the data booklet.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>First electron affinity / kJ mol<sup>−1</sup></caption><thead><tr><th scope="col">Element</th><th class="num" scope="col">F</th><th class="num" scope="col">Cl</th><th class="num" scope="col">Br</th><th class="num" scope="col">I</th></tr></thead><tbody><tr><th scope="row">EA</th><td class="num">−328</td><td class="num">−349</td><td class="num">−325</td><td class="num">−295</td></tr></tbody></table></div><p>Which statement is supported by the data?</p>
-      stem: "",
+      stem: "<p>표는 데이터 부클릿에 있는 제1 전자 친화도예요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>제1 전자 친화도 / kJ mol<sup>−1</sup></caption><thead><tr><th scope=\"col\">원소</th><th class=\"num\" scope=\"col\">F</th><th class=\"num\" scope=\"col\">Cl</th><th class=\"num\" scope=\"col\">Br</th><th class=\"num\" scope=\"col\">I</th></tr></thead><tbody><tr><th scope=\"row\">EA</th><td class=\"num\">−328</td><td class=\"num\">−349</td><td class=\"num\">−325</td><td class=\"num\">−295</td></tr></tbody></table></div><p>이 자료가 뒷받침하는 설명은 어느 것인가요?</p>",
       options: [
         // EN: A fluorine atom releases the most energy when it gains an electron.
-        "",
+        "플루오린 원자는 전자를 얻을 때 에너지를 가장 많이 방출해요.",
         // EN: Energy must be supplied to add an electron to each of these atoms.
         "",
         // EN: From chlorine to iodine, less energy is released when an atom gains an electron.

@@ -898,1240 +898,1240 @@ S1.i18n.register('ko', 's2-2h', {
     "The total is 0, as it must be for a molecule. Here carbon is negative although oxygen is more electronegative. This formula is still the accepted one, because it is the only one that gives both atoms an octet.": "합계는 0이에요. 분자이므로 당연히 그래야 해요. 여기서는 산소의 전기 음성도가 더 큰데도 탄소가 음전하를 가져요. 그래도 이 구조식이 인정되는 구조식이에요. 두 원자 모두에게 옥텟을 주는 구조식은 이것 하나뿐이기 때문이에요.",
 
     // Formal charge > data-title attribute
-    "Formal charge: quick check": "",
+    "Formal charge: quick check": "형식 전하: 빠른 확인",
 
     // Sigma (σ) and pi (π) bonds > data-toc attribute
-    "Sigma and pi bonds": "",
+    "Sigma and pi bonds": "시그마 결합과 파이 결합",
 
     // Sigma (σ) and pi (π) bonds > h2
-    "Sigma (σ) and pi (π) bonds": "",
+    "Sigma (σ) and pi (π) bonds": "시그마(σ) 결합과 파이(π) 결합",
 
     // Sigma (σ) and pi (π) bonds > p
-    "So far a covalent bond has been a line or a pair of dots. Now look closer. A covalent bond forms when an atomic orbital of one atom overlaps with an atomic orbital of another atom. The shared electrons are in the region where the orbitals overlap.": "",
+    "So far a covalent bond has been a line or a pair of dots. Now look closer. A covalent bond forms when an atomic orbital of one atom overlaps with an atomic orbital of another atom. The shared electrons are in the region where the orbitals overlap.": "지금까지 공유 결합은 선 하나나 점 한 쌍이었어요. 이제 더 자세히 봐요. 공유 결합은 한 원자의 원자 오비탈이 다른 원자의 원자 오비탈과 겹칠 때 생겨요. 공유된 전자는 오비탈이 겹치는 영역에 있어요.",
 
     // Sigma (σ) and pi (π) bonds > p
-    "Orbitals can overlap in two ways. The line through the two nuclei is called the <dfn>bond axis</dfn>.": "",
+    "Orbitals can overlap in two ways. The line through the two nuclei is called the <dfn>bond axis</dfn>.": "오비탈이 겹치는 방법은 두 가지예요. 두 원자핵을 지나는 직선을 <dfn>결합축 <span class=\"en-term\">(bond axis)</span></dfn>이라고 해요.",
 
     // Sigma (σ) and pi (π) bonds > li
-    "A <dfn data-def=\"A bond formed by the head-on combination of atomic orbitals. The electron density is concentrated along the bond axis.\">sigma bond (σ)</dfn> forms by the <strong>head-on</strong> combination of atomic orbitals. The electron density is concentrated <strong>along the bond axis</strong>, between the two nuclei.": "",
+    "A <dfn data-def=\"A bond formed by the head-on combination of atomic orbitals. The electron density is concentrated along the bond axis.\">sigma bond (σ)</dfn> forms by the <strong>head-on</strong> combination of atomic orbitals. The electron density is concentrated <strong>along the bond axis</strong>, between the two nuclei.": "<dfn data-def=\"원자 오비탈이 정면으로 겹쳐서 생기는 결합. 전자 밀도가 결합축을 따라 모여 있다.\">시그마(σ) 결합 <span class=\"en-term\">(sigma bond)</span></dfn>은 원자 오비탈이 <strong>정면으로</strong>(head-on) 겹쳐서 생겨요. 전자 밀도는 두 원자핵 사이, <strong>결합축을 따라</strong> 모여 있어요.",
 
     // Sigma (σ) and pi (π) bonds > data-def attribute
-    "A bond formed by the head-on combination of atomic orbitals. The electron density is concentrated along the bond axis.": "",
+    "A bond formed by the head-on combination of atomic orbitals. The electron density is concentrated along the bond axis.": "원자 오비탈이 정면으로 겹쳐서 생기는 결합. 전자 밀도가 결합축을 따라 모여 있다.",
 
     // Sigma (σ) and pi (π) bonds > li
-    "A <dfn data-def=\"A bond formed by the lateral (sideways) combination of p orbitals. The electron density is concentrated on opposite sides of the bond axis.\">pi bond (π)</dfn> forms by the <strong>lateral</strong> (sideways) combination of <strong>p orbitals</strong>. The electron density is concentrated on <strong>opposite sides of the bond axis</strong>.": "",
+    "A <dfn data-def=\"A bond formed by the lateral (sideways) combination of p orbitals. The electron density is concentrated on opposite sides of the bond axis.\">pi bond (π)</dfn> forms by the <strong>lateral</strong> (sideways) combination of <strong>p orbitals</strong>. The electron density is concentrated on <strong>opposite sides of the bond axis</strong>.": "<dfn data-def=\"p 오비탈이 옆으로(측면으로) 겹쳐서 생기는 결합. 전자 밀도가 결합축의 양쪽에 모여 있다.\">파이(π) 결합 <span class=\"en-term\">(pi bond)</span></dfn>은 <strong>p 오비탈</strong>이 <strong>옆으로</strong>(lateral, sideways) 겹쳐서 생겨요. 전자 밀도는 <strong>결합축의 양쪽</strong>에 모여 있어요.",
 
     // Sigma (σ) and pi (π) bonds > data-def attribute
-    "A bond formed by the lateral (sideways) combination of p orbitals. The electron density is concentrated on opposite sides of the bond axis.": "",
+    "A bond formed by the lateral (sideways) combination of p orbitals. The electron density is concentrated on opposite sides of the bond axis.": "p 오비탈이 옆으로(측면으로) 겹쳐서 생기는 결합. 전자 밀도가 결합축의 양쪽에 모여 있다.",
 
     // Sigma (σ) and pi (π) bonds > widget > data-title attribute
-    "Head-on and sideways overlap": "",
+    "Head-on and sideways overlap": "정면 겹침과 측면 겹침",
 
     // Sigma (σ) and pi (π) bonds > widget > figcaption
-    "Choose two orbitals and move the atoms together. The shaded region is where the orbitals overlap. These are simple outline sketches of orbital shapes, not exact electron density maps. Hybrid orbitals (next section) also overlap head-on to make σ bonds.": "",
+    "Choose two orbitals and move the atoms together. The shaded region is where the orbitals overlap. These are simple outline sketches of orbital shapes, not exact electron density maps. Hybrid orbitals (next section) also overlap head-on to make σ bonds.": "오비탈 두 개를 고르고 원자들을 가까이 옮기세요. 색칠된 영역이 오비탈이 겹치는 곳이에요. 오비탈 모양을 간단히 그린 윤곽이고, 정확한 전자 밀도 지도는 아니에요. 혼성 오비탈(다음 부분)도 정면으로 겹쳐서 σ 결합을 만들어요.",
 
     // Sigma (σ) and pi (π) bonds > h3
-    "Single, double and triple bonds": "",
+    "Single, double and triple bonds": "단일, 이중, 삼중 결합",
 
     // Sigma (σ) and pi (π) bonds > p
-    "Two atoms can make only one head-on overlap, so there is only one σ bond between any two atoms. Any further bonds between the same two atoms must be π bonds.": "",
+    "Two atoms can make only one head-on overlap, so there is only one σ bond between any two atoms. Any further bonds between the same two atoms must be π bonds.": "두 원자는 정면 겹침을 하나만 만들 수 있으므로, 두 원자 사이의 σ 결합은 하나뿐이에요. 같은 두 원자 사이에 더 있는 결합은 모두 π 결합이에요.",
 
     // Sigma (σ) and pi (π) bonds > figcaption
-    "Solid line: σ bond. Dashed line: π bond. A single bond is one σ bond. A double bond is one σ and one π. A triple bond is one σ and two π.": "",
+    "Solid line: σ bond. Dashed line: π bond. A single bond is one σ bond. A double bond is one σ and one π. A triple bond is one σ and two π.": "실선: σ 결합. 점선: π 결합. 단일 결합은 σ 결합 1개예요. 이중 결합은 σ 1개와 π 1개예요. 삼중 결합은 σ 1개와 π 2개예요.",
 
     // Sigma (σ) and pi (π) bonds > p
-    "Sideways overlap is less effective than head-on overlap. So a π bond is weaker than a σ bond between the same atoms. This fits the data booklet: C=C (614 <span class=\"unit\">kJ mol-1</span>) is stronger than C–C (346 <span class=\"unit\">kJ mol-1</span>), but it is not twice as strong.": "",
+    "Sideways overlap is less effective than head-on overlap. So a π bond is weaker than a σ bond between the same atoms. This fits the data booklet: C=C (614 <span class=\"unit\">kJ mol-1</span>) is stronger than C–C (346 <span class=\"unit\">kJ mol-1</span>), but it is not twice as strong.": "측면 겹침은 정면 겹침보다 덜 효과적이에요. 그래서 같은 원자 사이에서 π 결합은 σ 결합보다 약해요. 데이터 부클릿 값도 이와 맞아요: C=C(614 <span class=\"unit\">kJ mol-1</span>)는 C–C(346 <span class=\"unit\">kJ mol-1</span>)보다 강하지만 두 배만큼 강하지는 않아요.",
 
     // Sigma (σ) and pi (π) bonds > h3
-    "Method: counting σ and π bonds": "",
+    "Method: counting σ and π bonds": "방법: σ 결합과 π 결합 세기",
 
     // Sigma (σ) and pi (π) bonds > li
-    "Draw the full structural formula. Show every bond, including every C–H bond.": "",
+    "Draw the full structural formula. Show every bond, including every C–H bond.": "전개 구조식을 그려요. 모든 C–H 결합을 포함해 결합을 하나도 빠짐없이 그려요.",
 
     // Sigma (σ) and pi (π) bonds > li
-    "σ bonds: count one for every pair of atoms that are joined, whatever the bond is.": "",
+    "σ bonds: count one for every pair of atoms that are joined, whatever the bond is.": "σ 결합: 결합 종류와 상관없이, 연결된 원자 쌍마다 하나씩 세요.",
 
     // Sigma (σ) and pi (π) bonds > li
-    "π bonds: count one for each double bond and two for each triple bond.": "",
+    "π bonds: count one for each double bond and two for each triple bond.": "π 결합: 이중 결합마다 하나, 삼중 결합마다 둘씩 세요.",
 
     // Sigma (σ) and pi (π) bonds > li
-    "For a species with resonance, count using one resonance structure.": "",
+    "For a species with resonance, count using one resonance structure.": "공명이 있는 화학종은 공명 구조 하나로 세요.",
 
     // Sigma (σ) and pi (π) bonds > worked example > data-kicker attribute
-    "Worked example 5": "",
+    "Worked example 5": "예제 5",
 
     // Sigma (σ) and pi (π) bonds > worked example > h3
-    "Counting σ and π bonds": "",
+    "Counting σ and π bonds": "σ 결합과 π 결합 세기",
 
     // Sigma (σ) and pi (π) bonds > worked example > p
-    "Deduce the number of σ bonds and π bonds in one molecule of propenoic acid, <span class=\"chem\">CH2=CH–COOH</span>.": "",
+    "Deduce the number of σ bonds and π bonds in one molecule of propenoic acid, <span class=\"chem\">CH2=CH–COOH</span>.": "propenoic acid <span class=\"chem\">CH2=CH–COOH</span> 분자 1개에 있는 σ 결합과 π 결합의 수를 추론하시오 (deduce).",
 
     // Sigma (σ) and pi (π) bonds > worked example > data-title attribute
-    "Draw every bond": "",
+    "Draw every bond": "모든 결합 그리기",
 
     // Sigma (σ) and pi (π) bonds > worked example > p
-    "A condensed formula hides the C–H and O–H bonds. You cannot count what you cannot see.": "",
+    "A condensed formula hides the C–H and O–H bonds. You cannot count what you cannot see.": "축약 구조식에는 C–H 결합과 O–H 결합이 보이지 않아요. 보이지 않는 것은 셀 수 없어요.",
 
     // Sigma (σ) and pi (π) bonds > worked example > data-title attribute
-    "Count the single bonds": "",
+    "Count the single bonds": "단일 결합 세기",
 
     // Sigma (σ) and pi (π) bonds > worked example > p
-    "Every single bond is one σ bond.": "",
+    "Every single bond is one σ bond.": "단일 결합은 모두 σ 결합 1개예요.",
 
     // Sigma (σ) and pi (π) bonds > worked example > maths line
-    "C–H: 3; C–C: 1; C–O: 1; O–H: 1; total 6 single bonds": "",
+    "C–H: 3; C–C: 1; C–O: 1; O–H: 1; total 6 single bonds": "C–H: 3; C–C: 1; C–O: 1; O–H: 1; 단일 결합 모두 6개",
 
     // Sigma (σ) and pi (π) bonds > worked example > data-title attribute
-    "Count the multiple bonds": "",
+    "Count the multiple bonds": "다중 결합 세기",
 
     // Sigma (σ) and pi (π) bonds > worked example > p
-    "Each double bond is one σ bond and one π bond.": "",
+    "Each double bond is one σ bond and one π bond.": "이중 결합은 각각 σ 결합 1개와 π 결합 1개예요.",
 
     // Sigma (σ) and pi (π) bonds > worked example > maths line
-    "C=C: 1; C=O: 1; total 2 double bonds": "",
+    "C=C: 1; C=O: 1; total 2 double bonds": "C=C: 1; C=O: 1; 이중 결합 모두 2개",
 
     // Sigma (σ) and pi (π) bonds > worked example > data-title attribute
-    "Add up": "",
+    "Add up": "더하기",
 
     // Sigma (σ) and pi (π) bonds > worked example > p
-    "σ comes from every bond. π comes only from the multiple bonds.": "",
+    "σ comes from every bond. π comes only from the multiple bonds.": "σ는 모든 결합에서 나와요. π는 다중 결합에서만 나와요.",
 
     // Sigma (σ) and pi (π) bonds > worked example > p
-    "A molecule with no ring has one σ bond fewer than its number of atoms.": "",
+    "A molecule with no ring has one σ bond fewer than its number of atoms.": "고리가 없는 분자에서 σ 결합 수는 원자 수보다 하나 적어요.",
 
     // Sigma (σ) and pi (π) bonds > worked example > maths line
-    "C<sub>3</sub>H<sub>4</sub>O<sub>2</sub> has 3 + 4 + 2 = 9 atoms; 9 − 1 = 8 σ bonds": "",
+    "C<sub>3</sub>H<sub>4</sub>O<sub>2</sub> has 3 + 4 + 2 = 9 atoms; 9 − 1 = 8 σ bonds": "C<sub>3</sub>H<sub>4</sub>O<sub>2</sub>의 원자 수는 3 + 4 + 2 = 9; 9 − 1 = 8개 σ 결합",
 
     // Sigma (σ) and pi (π) bonds > worked example > p
-    "8 σ bonds and 2 π bonds.": "",
+    "8 σ bonds and 2 π bonds.": "σ 결합 8개와 π 결합 2개.",
 
     // Sigma (σ) and pi (π) bonds > widget > data-title attribute
-    "σ and π counter": "",
+    "σ and π counter": "σ·π 세기 연습",
 
     // Sigma (σ) and pi (π) bonds > widget > figcaption
-    "Count the σ bonds and the π bonds, then check. Organic and inorganic examples are included.": "",
+    "Count the σ bonds and the π bonds, then check. Organic and inorganic examples are included.": "σ 결합과 π 결합의 수를 세고 확인하세요. 유기 화합물과 무기 화합물 예가 모두 있어요.",
 
     // Sigma (σ) and pi (π) bonds > try it > data-label attribute
     // widget string (assets/js/widgets-s2-2h.js)
-    "Number of σ bonds": "",
+    "Number of σ bonds": "σ 결합의 수",
 
     // Sigma (σ) and pi (π) bonds > try it > p
-    "How many σ bonds are there in one molecule of propene, <span class=\"chem\">CH2=CH–CH3</span>?": "",
+    "How many σ bonds are there in one molecule of propene, <span class=\"chem\">CH2=CH–CH3</span>?": "propene <span class=\"chem\">CH2=CH–CH3</span> 분자 1개에는 σ 결합이 몇 개 있을까요?",
 
     // Sigma (σ) and pi (π) bonds > try it > li
-    "Draw all six C–H bonds.": "",
+    "Draw all six C–H bonds.": "C–H 결합 6개를 모두 그려요.",
 
     // Sigma (σ) and pi (π) bonds > try it > li
-    "Add the C–C single bond and the one σ bond inside C=C.": "",
+    "Add the C–C single bond and the one σ bond inside C=C.": "C–C 단일 결합과 C=C 안의 σ 결합 1개를 더해요.",
 
     // Sigma (σ) and pi (π) bonds > try it > maths line
-    "C–H: 6; C–C: 1; C=C: 1 σ; total = <b>8 σ bonds</b> (and 1 π bond)": "",
+    "C–H: 6; C–C: 1; C=C: 1 σ; total = <b>8 σ bonds</b> (and 1 π bond)": "C–H: 6; C–C: 1; C=C: 1 σ; 합계 = <b>σ 결합 8개</b> (그리고 π 결합 1개)",
 
     // Sigma (σ) and pi (π) bonds > try it > data-label attribute
     // widget string (assets/js/widgets-s2-2h.js)
-    "Number of π bonds": "",
+    "Number of π bonds": "π 결합의 수",
 
     // Sigma (σ) and pi (π) bonds > try it > p
-    "How many π bonds are there in one molecule of <span class=\"chem\">HC≡C–CH=CH2</span>?": "",
+    "How many π bonds are there in one molecule of <span class=\"chem\">HC≡C–CH=CH2</span>?": "<span class=\"chem\">HC≡C–CH=CH2</span> 분자 1개에는 π 결합이 몇 개 있을까요?",
 
     // Sigma (σ) and pi (π) bonds > try it > li
-    "Find the multiple bonds: one triple bond and one double bond.": "",
+    "Find the multiple bonds: one triple bond and one double bond.": "다중 결합을 찾아요: 삼중 결합 1개와 이중 결합 1개.",
 
     // Sigma (σ) and pi (π) bonds > try it > li
-    "A triple bond has two π bonds. A double bond has one.": "",
+    "A triple bond has two π bonds. A double bond has one.": "삼중 결합에는 π 결합이 2개, 이중 결합에는 1개 있어요.",
 
     // Sigma (σ) and pi (π) bonds > try it > maths line
-    "C≡C: 2 π; C=C: 1 π; total = <b>3 π bonds</b>": "",
+    "C≡C: 2 π; C=C: 1 π; total = <b>3 π bonds</b>": "C≡C: 2 π; C=C: 1 π; 합계 = <b>π 결합 3개</b>",
 
     // Sigma (σ) and pi (π) bonds > common mistake > p
-    "A π bond is drawn with two regions, one above and one below the bond axis. Together they are <strong>one</strong> π bond holding two electrons. Do not count them as two bonds.": "",
+    "A π bond is drawn with two regions, one above and one below the bond axis. Together they are <strong>one</strong> π bond holding two electrons. Do not count them as two bonds.": "π 결합은 결합축 위와 아래에 있는 두 영역으로 그려요. 두 영역을 합쳐서 전자 2개를 가진 <strong>하나의</strong> π 결합이에요. 결합 두 개로 세지 마세요.",
 
     // Sigma (σ) and pi (π) bonds > exam tip (shown in English + translation) > p
-    "For σ write “head-on (end-to-end) overlap” and “electron density along the bond axis”. For π write “sideways (lateral) overlap of p orbitals” and “electron density above and below the bond axis”. When counting, the most common lost mark is forgetting the C–H bonds.": "",
+    "For σ write “head-on (end-to-end) overlap” and “electron density along the bond axis”. For π write “sideways (lateral) overlap of p orbitals” and “electron density above and below the bond axis”. When counting, the most common lost mark is forgetting the C–H bonds.": "σ에 대해서는 “정면(끝과 끝) 겹침”과 “결합축을 따라 있는 전자 밀도”라고 쓰세요. π에 대해서는 “p 오비탈의 측면 겹침”과 “결합축 위와 아래에 있는 전자 밀도”라고 쓰세요. 결합을 셀 때 가장 흔히 점수를 잃는 이유는 C–H 결합을 빠뜨리는 거예요.",
 
     // Sigma (σ) and pi (π) bonds > not needed for IB > p
-    "You do not need molecular orbital theory: no bonding and antibonding orbitals, no σ* or π*, and no energy-level diagrams for molecules. Describe bonds as the overlap of atomic orbitals.": "",
+    "You do not need molecular orbital theory: no bonding and antibonding orbitals, no σ* or π*, and no energy-level diagrams for molecules. Describe bonds as the overlap of atomic orbitals.": "분자 오비탈 이론은 몰라도 돼요: 결합성·반결합성 오비탈, σ*나 π*, 분자의 에너지 준위 그림은 필요 없어요. 결합은 원자 오비탈의 겹침으로 서술하세요.",
 
     // Sigma (σ) and pi (π) bonds > data-title attribute
-    "Sigma and pi bonds: quick check": "",
+    "Sigma and pi bonds: quick check": "시그마 결합과 파이 결합: 빠른 확인",
 
     // Hybridization > data-toc attribute
     // Hybridization > h2
     // Hybridization > table > th
     // widget string (assets/js/widgets-s2-2h.js)
-    "Hybridization": "",
+    "Hybridization": "혼성화",
 
     // Hybridization > p
-    "Carbon has the configuration <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>2</sup></span>. Its valence orbitals are one 2s orbital and three 2p orbitals. They have different shapes and different energies. Yet in methane the four C–H bonds are identical and point to the corners of a tetrahedron.": "",
+    "Carbon has the configuration <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>2</sup></span>. Its valence orbitals are one 2s orbital and three 2p orbitals. They have different shapes and different energies. Yet in methane the four C–H bonds are identical and point to the corners of a tetrahedron.": "탄소의 전자 배치는 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>2</sup></span>예요. 원자가 오비탈은 2s 오비탈 1개와 2p 오비탈 3개예요. 이 오비탈들은 모양도 에너지도 달라요. 그런데 메테인에서 C–H 결합 4개는 모두 똑같고, 정사면체의 꼭짓점을 향해요.",
 
     // Hybridization > p
-    "The model that explains this is <dfn data-def=\"The mixing of atomic orbitals to form new hybrid orbitals for bonding.\">hybridization</dfn>: the mixing of atomic orbitals to form new <dfn>hybrid orbitals</dfn> for bonding.": "",
+    "The model that explains this is <dfn data-def=\"The mixing of atomic orbitals to form new hybrid orbitals for bonding.\">hybridization</dfn>: the mixing of atomic orbitals to form new <dfn>hybrid orbitals</dfn> for bonding.": "이것을 설명하는 모형이 <dfn data-def=\"원자 오비탈이 섞여서 결합에 쓰일 새로운 혼성 오비탈을 만드는 것.\">혼성화 <span class=\"en-term\">(hybridization)</span></dfn>예요. 원자 오비탈이 섞여서 결합에 쓰일 새로운 <dfn>혼성 오비탈 <span class=\"en-term\">(hybrid orbitals)</span></dfn>을 만드는 거예요.",
 
     // Hybridization > data-def attribute
-    "The mixing of atomic orbitals to form new hybrid orbitals for bonding.": "",
+    "The mixing of atomic orbitals to form new hybrid orbitals for bonding.": "원자 오비탈이 섞여서 결합에 쓰일 새로운 혼성 오비탈을 만드는 것.",
 
     // Hybridization > p
-    "Think of mixing paint. One tin of red and three tins of white make four tins of the same pink. In the same way, one s orbital and three p orbitals make four identical hybrid orbitals. The number of orbitals does not change.": "",
+    "Think of mixing paint. One tin of red and three tins of white make four tins of the same pink. In the same way, one s orbital and three p orbitals make four identical hybrid orbitals. The number of orbitals does not change.": "물감을 섞는다고 생각해 봐요. 빨간 물감 한 통과 흰 물감 세 통을 섞으면 똑같은 분홍색 물감 네 통이 돼요. 마찬가지로 s 오비탈 1개와 p 오비탈 3개가 섞이면 똑같은 혼성 오비탈 4개가 돼요. 오비탈의 수는 변하지 않아요.",
 
     // Hybridization > table > caption
-    "The three types of hybridization you need": "",
+    "The three types of hybridization you need": "알아야 할 혼성화 세 가지",
 
     // Hybridization > table > th
-    "Orbitals mixed": "",
+    "Orbitals mixed": "섞이는 오비탈",
 
     // Hybridization > table > th
-    "p orbitals left unmixed": "",
+    "p orbitals left unmixed": "섞이지 않고 남는 p 오비탈",
 
     // Hybridization > table > th
-    "Examples": "",
+    "Examples": "예",
 
     // Hybridization > table > td
-    "one s + three p": "",
+    "one s + three p": "s 1개 + p 3개",
 
     // Hybridization > table > td
-    "sp<sup>3</sup> (four hybrid orbitals)": "",
+    "sp<sup>3</sup> (four hybrid orbitals)": "sp<sup>3</sup> (혼성 오비탈 4개)",
 
     // Hybridization > table > td
-    "tetrahedral, 109.5°": "",
+    "tetrahedral, 109.5°": "정사면체형, 109.5°",
 
     // Hybridization > table > td
-    "C in <span class=\"chem\">CH4</span> and ethane; N in <span class=\"chem\">NH3</span>; O in <span class=\"chem\">H2O</span>": "",
+    "C in <span class=\"chem\">CH4</span> and ethane; N in <span class=\"chem\">NH3</span>; O in <span class=\"chem\">H2O</span>": "<span class=\"chem\">CH4</span>와 ethane의 C; <span class=\"chem\">NH3</span>의 N; <span class=\"chem\">H2O</span>의 O",
 
     // Hybridization > table > td
-    "one s + two p": "",
+    "one s + two p": "s 1개 + p 2개",
 
     // Hybridization > table > td
-    "sp<sup>2</sup> (three hybrid orbitals)": "",
+    "sp<sup>2</sup> (three hybrid orbitals)": "sp<sup>2</sup> (혼성 오비탈 3개)",
 
     // Hybridization > table > td
-    "trigonal planar, 120°": "",
+    "trigonal planar, 120°": "평면 삼각형, 120°",
 
     // Hybridization > table > td
-    "C in ethene, benzene and methanal; B in <span class=\"chem\">BF3</span>": "",
+    "C in ethene, benzene and methanal; B in <span class=\"chem\">BF3</span>": "ethene, 벤젠, methanal의 C; <span class=\"chem\">BF3</span>의 B",
 
     // Hybridization > table > td
-    "one s + one p": "",
+    "one s + one p": "s 1개 + p 1개",
 
     // Hybridization > table > td
-    "sp (two hybrid orbitals)": "",
+    "sp (two hybrid orbitals)": "sp (혼성 오비탈 2개)",
 
     // Hybridization > table > td
-    "linear, 180°": "",
+    "linear, 180°": "직선형, 180°",
 
     // Hybridization > table > td
-    "C in ethyne, <span class=\"chem\">CO2</span> and <span class=\"chem\">HCN</span>": "",
+    "C in ethyne, <span class=\"chem\">CO2</span> and <span class=\"chem\">HCN</span>": "ethyne, <span class=\"chem\">CO2</span>, <span class=\"chem\">HCN</span>의 C",
 
     // Hybridization > key idea > p
-    "Count the electron domains around the atom. 4 domains → sp<sup>3</sup>. 3 domains → sp<sup>2</sup>. 2 domains → sp. Check: the name counts the orbitals that were mixed. sp<sup>3</sup> is 1 + 3 = 4 orbitals, for 4 domains.": "",
+    "Count the electron domains around the atom. 4 domains → sp<sup>3</sup>. 3 domains → sp<sup>2</sup>. 2 domains → sp. Check: the name counts the orbitals that were mixed. sp<sup>3</sup> is 1 + 3 = 4 orbitals, for 4 domains.": "원자 주위의 전자 영역을 세요. 전자 영역 4개 → sp<sup>3</sup>. 3개 → sp<sup>2</sup>. 2개 → sp. 확인: 이름은 섞인 오비탈 수를 나타내요. sp<sup>3</sup>는 1 + 3 = 4개 오비탈이므로 전자 영역 4개에 해당해요.",
 
     // Hybridization > h3
-    "What the orbitals do": "",
+    "What the orbitals do": "오비탈이 하는 일",
 
     // Hybridization > li
-    "<strong>Hybrid orbitals</strong> point at the neighbouring atoms. They form σ bonds by head-on overlap, or they hold lone pairs.": "",
+    "<strong>Hybrid orbitals</strong> point at the neighbouring atoms. They form σ bonds by head-on overlap, or they hold lone pairs.": "<strong>혼성 오비탈</strong>은 이웃 원자를 향해요. 정면 겹침으로 σ 결합을 만들거나, 비공유 전자쌍을 담아요.",
 
     // Hybridization > li
-    "<strong>Unmixed p orbitals</strong> stand at right angles to the hybrid orbitals. They form π bonds by sideways overlap.": "",
+    "<strong>Unmixed p orbitals</strong> stand at right angles to the hybrid orbitals. They form π bonds by sideways overlap.": "<strong>섞이지 않은 p 오비탈</strong>은 혼성 오비탈과 직각을 이뤄요. 측면 겹침으로 π 결합을 만들어요.",
 
     // Hybridization > p
-    "Look at ethene, <span class=\"chem\">CH2=CH2</span>. Each carbon has three domains, so it is sp<sup>2</sup>. Two sp<sup>2</sup> orbitals overlap with hydrogen 1s orbitals to make C–H σ bonds. The third overlaps with an sp<sup>2</sup> orbital of the other carbon to make the C–C σ bond. Each carbon has one unmixed p orbital. These two overlap sideways to make the π bond.": "",
+    "Look at ethene, <span class=\"chem\">CH2=CH2</span>. Each carbon has three domains, so it is sp<sup>2</sup>. Two sp<sup>2</sup> orbitals overlap with hydrogen 1s orbitals to make C–H σ bonds. The third overlaps with an sp<sup>2</sup> orbital of the other carbon to make the C–C σ bond. Each carbon has one unmixed p orbital. These two overlap sideways to make the π bond.": "ethene <span class=\"chem\">CH2=CH2</span>를 봐요. 각 탄소에는 전자 영역이 3개 있으므로 sp<sup>2</sup>예요. sp<sup>2</sup> 오비탈 2개는 수소의 1s 오비탈과 겹쳐서 C–H σ 결합을 만들어요. 세 번째 오비탈은 다른 탄소의 sp<sup>2</sup> 오비탈과 겹쳐서 C–C σ 결합을 만들어요. 각 탄소에는 섞이지 않은 p 오비탈이 1개씩 있어요. 이 두 오비탈이 옆으로 겹쳐서 π 결합을 만들어요.",
 
     // Hybridization > p
-    "In ethyne, <span class=\"chem\">HC≡CH</span>, each carbon has two domains, so it is sp. Each carbon has two unmixed p orbitals, which make the two π bonds of the triple bond.": "",
+    "In ethyne, <span class=\"chem\">HC≡CH</span>, each carbon has two domains, so it is sp. Each carbon has two unmixed p orbitals, which make the two π bonds of the triple bond.": "ethyne <span class=\"chem\">HC≡CH</span>에서 각 탄소에는 전자 영역이 2개 있으므로 sp예요. 각 탄소에는 섞이지 않은 p 오비탈이 2개씩 있고, 이것들이 삼중 결합의 π 결합 2개를 만들어요.",
 
     // Hybridization > widget > data-title attribute
-    "Hybridization explorer": "",
+    "Hybridization explorer": "혼성화 탐색기",
 
     // Hybridization > widget > figcaption
-    "Choose a molecule, then an atom. The chain of reasoning is domains → hybridization → geometry. The energy diagram is a simple model: the orbitals mix, and the atom's valence electrons are shared out among the new orbitals. Hybrid orbitals have an energy between s and p.": "",
+    "Choose a molecule, then an atom. The chain of reasoning is domains → hybridization → geometry. The energy diagram is a simple model: the orbitals mix, and the atom's valence electrons are shared out among the new orbitals. Hybrid orbitals have an energy between s and p.": "분자를 고르고, 원자를 고르세요. 추론 순서는 전자 영역 → 혼성화 → 모양이에요. 에너지 그림은 단순한 모형이에요: 오비탈이 섞이고, 원자의 원자가 전자가 새 오비탈들에 나뉘어 들어가요. 혼성 오비탈의 에너지는 s와 p 사이예요.",
 
     // Hybridization > h3
-    "Lone pairs count": "",
+    "Lone pairs count": "비공유 전자쌍도 세요",
 
     // Hybridization > p
-    "Nitrogen in ammonia has three bonds and one lone pair. That is four domains, so nitrogen is sp<sup>3</sup>. The lone pair sits in one of the four sp<sup>3</sup> orbitals. The <em>electron domain geometry</em> is tetrahedral, and the molecular geometry is trigonal pyramidal.": "",
+    "Nitrogen in ammonia has three bonds and one lone pair. That is four domains, so nitrogen is sp<sup>3</sup>. The lone pair sits in one of the four sp<sup>3</sup> orbitals. The <em>electron domain geometry</em> is tetrahedral, and the molecular geometry is trigonal pyramidal.": "암모니아의 질소에는 결합 3개와 비공유 전자쌍 1개가 있어요. 전자 영역이 4개이므로 질소는 sp<sup>3</sup>예요. 비공유 전자쌍은 sp<sup>3</sup> 오비탈 4개 중 하나에 있어요. <em>전자 영역 배치</em>는 정사면체형이고, 분자 모양은 삼각뿔형이에요.",
 
     // Hybridization > p
-    "The same rule works for outer atoms. Each oxygen in O=C=O has one double bond and two lone pairs: three domains, so sp<sup>2</sup>.": "",
+    "The same rule works for outer atoms. Each oxygen in O=C=O has one double bond and two lone pairs: three domains, so sp<sup>2</sup>.": "같은 규칙이 바깥 원자에도 적용돼요. O=C=O의 각 산소에는 이중 결합 1개와 비공유 전자쌍 2개가 있어요: 전자 영역 3개이므로 sp<sup>2</sup>예요.",
 
     // Hybridization > h3
-    "Both directions": "",
+    "Both directions": "양쪽 방향 모두",
 
     // Hybridization > p
-    "You must be able to go from structure to hybridization, and back.": "",
+    "You must be able to go from structure to hybridization, and back.": "구조에서 혼성화로, 그리고 거꾸로도 갈 수 있어야 해요.",
 
     // Hybridization > li
-    "Lewis formula → count domains → electron domain geometry → hybridization.": "",
+    "Lewis formula → count domains → electron domain geometry → hybridization.": "루이스 구조식 → 전자 영역 세기 → 전자 영역 배치 → 혼성화.",
 
     // Hybridization > li
-    "Hybridization → geometry. An sp<sup>2</sup> atom has its bonds at about 120° in one plane. An sp atom has its bonds at 180°. An sp<sup>3</sup> atom has its domains at about 109.5°.": "",
+    "Hybridization → geometry. An sp<sup>2</sup> atom has its bonds at about 120° in one plane. An sp atom has its bonds at 180°. An sp<sup>3</sup> atom has its domains at about 109.5°.": "혼성화 → 모양. sp<sup>2</sup> 원자는 결합들이 한 평면에서 약 120°를 이뤄요. sp 원자는 결합들이 180°를 이뤄요. sp<sup>3</sup> 원자는 전자 영역들이 약 109.5°를 이뤄요.",
 
     // Hybridization > p
-    "This connects to the carbon allotropes on the core page. Each carbon in diamond has four single bonds and is sp<sup>3</sup>. Each carbon in graphite and graphene has three σ bonds and is sp<sup>2</sup>. The unmixed p orbitals overlap across the whole layer, which gives the delocalized electrons that conduct electricity.": "",
+    "This connects to the carbon allotropes on the core page. Each carbon in diamond has four single bonds and is sp<sup>3</sup>. Each carbon in graphite and graphene has three σ bonds and is sp<sup>2</sup>. The unmixed p orbitals overlap across the whole layer, which gives the delocalized electrons that conduct electricity.": "이것은 기본 페이지의 탄소 동소체와 이어져요. 다이아몬드의 각 탄소는 단일 결합이 4개이고 sp<sup>3</sup>예요. 흑연과 그래핀의 각 탄소는 σ 결합이 3개이고 sp<sup>2</sup>예요. 섞이지 않은 p 오비탈이 층 전체에 걸쳐 겹쳐서, 전기를 통하게 하는 비편재화된 전자를 만들어요.",
 
     // Hybridization > worked example > data-kicker attribute
-    "Worked example 6": "",
+    "Worked example 6": "예제 6",
 
     // Hybridization > worked example > h3
-    "Hybridization of each atom in a molecule": "",
+    "Hybridization of each atom in a molecule": "분자 속 각 원자의 혼성화",
 
     // Hybridization > worked example > p
-    "Deduce the hybridization of both carbon atoms and both oxygen atoms in ethanoic acid, <span class=\"chem\">CH3COOH</span>.": "",
+    "Deduce the hybridization of both carbon atoms and both oxygen atoms in ethanoic acid, <span class=\"chem\">CH3COOH</span>.": "ethanoic acid <span class=\"chem\">CH3COOH</span>에서 두 탄소 원자와 두 산소 원자의 혼성화를 추론하시오 (deduce).",
 
     // Hybridization > worked example > data-title attribute
-    "The CH3 carbon": "",
+    "The CH3 carbon": "CH3의 탄소",
 
     // Hybridization > worked example > p
-    "Count what is around the atom: bonded atoms plus lone pairs.": "",
+    "Count what is around the atom: bonded atoms plus lone pairs.": "원자 주위에 있는 것을 세요: 결합한 원자와 비공유 전자쌍.",
 
     // Hybridization > worked example > p
-    "Bonded to 3 H and 1 C, no lone pairs: 4 domains → <strong>sp<sup>3</sup></strong> (tetrahedral, 109.5°).": "",
+    "Bonded to 3 H and 1 C, no lone pairs: 4 domains → <strong>sp<sup>3</sup></strong> (tetrahedral, 109.5°).": "H 3개, C 1개와 결합하고 비공유 전자쌍은 없어요: 전자 영역 4개 → <strong>sp<sup>3</sup></strong> (정사면체형, 109.5°).",
 
     // Hybridization > worked example > data-title attribute
-    "The COOH carbon": "",
+    "The COOH carbon": "COOH의 탄소",
 
     // Hybridization > worked example > p
-    "A double bond is one domain, not two.": "",
+    "A double bond is one domain, not two.": "이중 결합은 전자 영역 2개가 아니라 1개예요.",
 
     // Hybridization > worked example > p
-    "Bonded to C, O (double bond) and O (single bond), no lone pairs: 3 domains → <strong>sp<sup>2</sup></strong> (trigonal planar, 120°).": "",
+    "Bonded to C, O (double bond) and O (single bond), no lone pairs: 3 domains → <strong>sp<sup>2</sup></strong> (trigonal planar, 120°).": "C, O(이중 결합), O(단일 결합)와 결합하고 비공유 전자쌍은 없어요: 전자 영역 3개 → <strong>sp<sup>2</sup></strong> (평면 삼각형, 120°).",
 
     // Hybridization > worked example > data-title attribute
-    "The C=O oxygen": "",
+    "The C=O oxygen": "C=O의 산소",
 
     // Hybridization > worked example > p
-    "Lone pairs are domains too.": "",
+    "Lone pairs are domains too.": "비공유 전자쌍도 전자 영역이에요.",
 
     // Hybridization > worked example > p
-    "1 bonded atom + 2 lone pairs: 3 domains → <strong>sp<sup>2</sup></strong>.": "",
+    "1 bonded atom + 2 lone pairs: 3 domains → <strong>sp<sup>2</sup></strong>.": "결합한 원자 1개 + 비공유 전자쌍 2개: 전자 영역 3개 → <strong>sp<sup>2</sup></strong>.",
 
     // Hybridization > worked example > data-title attribute
-    "The O–H oxygen": "",
+    "The O–H oxygen": "O–H의 산소",
 
     // Hybridization > worked example > p
-    "This oxygen is like the oxygen in water.": "",
+    "This oxygen is like the oxygen in water.": "이 산소는 물 분자의 산소와 비슷해요.",
 
     // Hybridization > worked example > p
-    "2 bonded atoms + 2 lone pairs: 4 domains → <strong>sp<sup>3</sup></strong>. The C–O–H angle is less than 109.5°.": "",
+    "2 bonded atoms + 2 lone pairs: 4 domains → <strong>sp<sup>3</sup></strong>. The C–O–H angle is less than 109.5°.": "결합한 원자 2개 + 비공유 전자쌍 2개: 전자 영역 4개 → <strong>sp<sup>3</sup></strong>. C–O–H 결합각은 109.5°보다 작아요.",
 
     // Hybridization > worked example > p
-    "CH<sub>3</sub> carbon sp<sup>3</sup>; COOH carbon sp<sup>2</sup>; C=O oxygen sp<sup>2</sup>; O–H oxygen sp<sup>3</sup>.": "",
+    "CH<sub>3</sub> carbon sp<sup>3</sup>; COOH carbon sp<sup>2</sup>; C=O oxygen sp<sup>2</sup>; O–H oxygen sp<sup>3</sup>.": "CH<sub>3</sub> 탄소 sp<sup>3</sup>; COOH 탄소 sp<sup>2</sup>; C=O 산소 sp<sup>2</sup>; O–H 산소 sp<sup>3</sup>.",
 
     // Hybridization > try it > data-label attribute
-    "Number of sp² carbon atoms": "",
+    "Number of sp² carbon atoms": "sp² 탄소 원자의 수",
 
     // Hybridization > try it > p
-    "How many of the three carbon atoms in propene, <span class=\"chem\">CH2=CH–CH3</span>, are sp<sup>2</sup> hybridized?": "",
+    "How many of the three carbon atoms in propene, <span class=\"chem\">CH2=CH–CH3</span>, are sp<sup>2</sup> hybridized?": "propene <span class=\"chem\">CH2=CH–CH3</span>의 탄소 원자 3개 중 몇 개가 sp<sup>2</sup> 혼성일까요?",
 
     // Hybridization > try it > li
-    "sp<sup>2</sup> means three electron domains.": "",
+    "sp<sup>2</sup> means three electron domains.": "sp<sup>2</sup>는 전자 영역이 3개라는 뜻이에요.",
 
     // Hybridization > try it > li
-    "Count the atoms joined to each carbon. Which carbons are part of the double bond?": "",
+    "Count the atoms joined to each carbon. Which carbons are part of the double bond?": "각 탄소에 연결된 원자 수를 세요. 어느 탄소가 이중 결합에 속하나요?",
 
     // Hybridization > try it > p
-    "The two carbons of the C=C bond each have three domains: sp<sup>2</sup>. The <span class=\"chem\">CH3</span> carbon has four domains: sp<sup>3</sup>. Answer: <strong>2</strong>.": "",
+    "The two carbons of the C=C bond each have three domains: sp<sup>2</sup>. The <span class=\"chem\">CH3</span> carbon has four domains: sp<sup>3</sup>. Answer: <strong>2</strong>.": "C=C 결합의 두 탄소는 각각 전자 영역이 3개예요: sp<sup>2</sup>. <span class=\"chem\">CH3</span>의 탄소는 전자 영역이 4개예요: sp<sup>3</sup>. 답: <strong>2</strong>.",
 
     // Hybridization > common mistake > p
-    "Do not read hybridization from the number of bonds. Nitrogen in <span class=\"chem\">NH3</span> has three bonds but four domains (sp<sup>3</sup>). Carbon in <span class=\"chem\">CO2</span> has four bonds but two domains (sp). Count domains.": "",
+    "Do not read hybridization from the number of bonds. Nitrogen in <span class=\"chem\">NH3</span> has three bonds but four domains (sp<sup>3</sup>). Carbon in <span class=\"chem\">CO2</span> has four bonds but two domains (sp). Count domains.": "결합 수로 혼성화를 판단하지 마세요. <span class=\"chem\">NH3</span>의 질소는 결합이 3개지만 전자 영역은 4개예요(sp<sup>3</sup>). <span class=\"chem\">CO2</span>의 탄소는 결합이 4개지만 전자 영역은 2개예요(sp). 전자 영역을 세세요.",
 
     // Hybridization > exam tip (shown in English + translation) > p
-    "A typical question labels three atoms in a molecule and asks for the hybridization of each. Work on one atom at a time. Draw in any lone pairs and hidden hydrogen atoms before you count.": "",
+    "A typical question labels three atoms in a molecule and asks for the hybridization of each. Work on one atom at a time. Draw in any lone pairs and hidden hydrogen atoms before you count.": "흔히 나오는 문제는 분자 속 원자 세 개에 표시를 하고 각각의 혼성화를 물어요. 원자를 하나씩 차례로 풀어요. 세기 전에 비공유 전자쌍과 숨어 있는 수소 원자를 모두 그려 넣으세요.",
 
     // Hybridization > not needed for IB > p
-    "Only sp, sp<sup>2</sup> and sp<sup>3</sup> are needed. You do not need hybrid orbitals that use d orbitals, percentage “s character”, or drawings of hybrid orbital shapes with phases.": "",
+    "Only sp, sp<sup>2</sup> and sp<sup>3</sup> are needed. You do not need hybrid orbitals that use d orbitals, percentage “s character”, or drawings of hybrid orbital shapes with phases.": "sp, sp<sup>2</sup>, sp<sup>3</sup>만 알면 돼요. d 오비탈을 쓰는 혼성 오비탈, 백분율 “s 성질”, 위상을 넣은 혼성 오비탈 모양 그림은 필요 없어요.",
 
     // Hybridization > data-title attribute
-    "Hybridization: quick check": "",
+    "Hybridization: quick check": "혼성화: 빠른 확인",
 
     // Coordination bonds in transition element complexes > data-toc attribute
-    "Coordination bonds in complexes": "",
+    "Coordination bonds in complexes": "착이온의 배위 결합",
 
     // Coordination bonds in transition element complexes > h2
-    "Coordination bonds in transition element complexes": "",
+    "Coordination bonds in transition element complexes": "전이 원소 착이온의 배위 결합",
 
     // Coordination bonds in transition element complexes > p
-    "From the core page: a <dfn data-def=\"A covalent bond in which both electrons of the shared pair originate from the same atom.\">coordination bond</dfn> is a covalent bond in which both electrons of the shared pair come from the same atom. The ammonium ion and carbon monoxide are examples.": "",
+    "From the core page: a <dfn data-def=\"A covalent bond in which both electrons of the shared pair originate from the same atom.\">coordination bond</dfn> is a covalent bond in which both electrons of the shared pair come from the same atom. The ammonium ion and carbon monoxide are examples.": "기본 페이지 복습: <dfn data-def=\"공유 전자쌍의 두 전자가 모두 같은 원자에서 온 공유 결합.\">배위 결합 <span class=\"en-term\">(coordination bond)</span></dfn>은 공유 전자쌍의 두 전자가 모두 같은 원자에서 온 공유 결합이에요. 암모늄 이온과 일산화 탄소가 그 예예요.",
 
     // Coordination bonds in transition element complexes > data-def attribute
-    "A covalent bond in which both electrons of the shared pair originate from the same atom.": "",
+    "A covalent bond in which both electrons of the shared pair originate from the same atom.": "공유 전자쌍의 두 전자가 모두 같은 원자에서 온 공유 결합.",
 
     // Coordination bonds in transition element complexes > p
-    "At HL you also need to find coordination bonds in <dfn>complex ions</dfn> of transition elements. A complex ion has a metal ion in the centre. Around it are molecules or ions called <dfn>ligands</dfn>. Each ligand has a lone pair, which it donates to the metal ion.": "",
+    "At HL you also need to find coordination bonds in <dfn>complex ions</dfn> of transition elements. A complex ion has a metal ion in the centre. Around it are molecules or ions called <dfn>ligands</dfn>. Each ligand has a lone pair, which it donates to the metal ion.": "HL에서는 전이 원소의 <dfn>착이온 <span class=\"en-term\">(complex ions)</span></dfn>에서도 배위 결합을 찾을 수 있어야 해요. 착이온은 가운데에 금속 이온이 있어요. 그 주위에 <dfn>리간드 <span class=\"en-term\">(ligands)</span></dfn>라고 부르는 분자나 이온이 있어요. 리간드는 각각 비공유 전자쌍을 가지고 있고, 이것을 금속 이온에 내줘요.",
 
     // Coordination bonds in transition element complexes > p
-    "So every bond between a ligand and the central metal ion is a coordination bond. Both electrons come from the ligand.": "",
+    "So every bond between a ligand and the central metal ion is a coordination bond. Both electrons come from the ligand.": "그래서 리간드와 중심 금속 이온 사이의 결합은 모두 배위 결합이에요. 두 전자는 모두 리간드에서 와요.",
 
     // Coordination bonds in transition element complexes > widget > data-title attribute
-    "Coordination bonds in a complex ion": "",
+    "Coordination bonds in a complex ion": "착이온의 배위 결합",
 
     // Coordination bonds in transition element complexes > widget > data-kicker attribute
-    "Flat sketch": "",
+    "Flat sketch": "평면 그림",
 
     // Coordination bonds in transition element complexes > widget > figcaption
-    "Each arrow is a coordination bond. It points from the atom that gives the electron pair (oxygen) to the atom that accepts it (copper). Only the donated lone pair of each water molecule is shown. The sketch is flat and does not show the real three-dimensional shape.": "",
+    "Each arrow is a coordination bond. It points from the atom that gives the electron pair (oxygen) to the atom that accepts it (copper). Only the donated lone pair of each water molecule is shown. The sketch is flat and does not show the real three-dimensional shape.": "화살표 하나가 배위 결합 하나예요. 화살표는 전자쌍을 주는 원자(산소)에서 받는 원자(구리)를 향해요. 각 물 분자의 비공유 전자쌍 중 내주는 것만 표시했어요. 평면 그림이라 실제 3차원 모양은 보여 주지 않아요.",
 
     // Coordination bonds in transition element complexes > try it > data-label attribute
     // widget string (assets/js/widgets-s2-2h.js)
-    "Coordination bonds": "",
+    "Coordination bonds": "배위 결합",
 
     // Coordination bonds in transition element complexes > try it > p
-    "How many coordination bonds are there in the complex ion <span class=\"chem\">[Cu(NH3)4(H2O)2]^2+</span>?": "",
+    "How many coordination bonds are there in the complex ion <span class=\"chem\">[Cu(NH3)4(H2O)2]^2+</span>?": "착이온 <span class=\"chem\">[Cu(NH3)4(H2O)2]^2+</span>에는 배위 결합이 몇 개 있을까요?",
 
     // Coordination bonds in transition element complexes > try it > li
-    "Count the ligands joined to the copper ion.": "",
+    "Count the ligands joined to the copper ion.": "구리 이온에 연결된 리간드를 세요.",
 
     // Coordination bonds in transition element complexes > try it > li
-    "Each ammonia molecule and each water molecule donates one lone pair.": "",
+    "Each ammonia molecule and each water molecule donates one lone pair.": "암모니아 분자와 물 분자는 각각 비공유 전자쌍을 하나씩 내줘요.",
 
     // Coordination bonds in transition element complexes > try it > maths line
-    "4 (from NH<sub>3</sub>) + 2 (from H<sub>2</sub>O) = <b>6 coordination bonds</b>": "",
+    "4 (from NH<sub>3</sub>) + 2 (from H<sub>2</sub>O) = <b>6 coordination bonds</b>": "4 (NH<sub>3</sub>에서) + 2 (H<sub>2</sub>O에서) = <b>배위 결합 6개</b>",
 
     // Coordination bonds in transition element complexes > try it > p
-    "The N–H and O–H bonds inside the ligands are ordinary covalent bonds.": "",
+    "The N–H and O–H bonds inside the ligands are ordinary covalent bonds.": "리간드 안의 N–H 결합과 O–H 결합은 보통의 공유 결합이에요.",
 
     // Coordination bonds in transition element complexes > not needed for IB > p
-    "For this topic you only identify the coordination bonds. Names of complex ions, their shapes, and terms such as “bidentate” are not in the IB course. The properties and colour of transition element complexes come later in Structure 3.1. Complex ions as Lewis acid–base products, and their charges, come in Reactivity 3.4.": "",
+    "For this topic you only identify the coordination bonds. Names of complex ions, their shapes, and terms such as “bidentate” are not in the IB course. The properties and colour of transition element complexes come later in Structure 3.1. Complex ions as Lewis acid–base products, and their charges, come in Reactivity 3.4.": "이 주제에서는 배위 결합을 찾기만 하면 돼요. 착이온의 이름, 모양, “두자리(bidentate)” 같은 용어는 IB 과정에 없어요. 전이 원소 착이온의 성질과 색은 나중에 Structure 3.1에서 나와요. 루이스 산–염기 반응의 생성물로서의 착이온과 그 전하는 Reactivity 3.4에서 나와요.",
 
     // Coordination bonds in transition element complexes > data-title attribute
-    "Coordination bonds in complexes: quick check": "",
+    "Coordination bonds in complexes: quick check": "착이온의 배위 결합: 빠른 확인",
 
     // Putting it together: a Paper 2 chain > data-toc attribute
-    "Putting it together": "",
+    "Putting it together": "종합하기",
 
     // Putting it together: a Paper 2 chain > h2
-    "Putting it together: a Paper 2 chain": "",
+    "Putting it together: a Paper 2 chain": "종합하기: Paper 2 연결 문제",
 
     // Putting it together: a Paper 2 chain > p
-    "Longer questions ask several of these skills about one species. Each part uses the same Lewis formula, so draw it carefully at the start.": "",
+    "Longer questions ask several of these skills about one species. Each part uses the same Lewis formula, so draw it carefully at the start.": "긴 문제는 한 화학종에 대해 이 기술들을 여러 개 물어요. 모든 문항이 같은 루이스 구조식을 쓰므로, 처음에 신중하게 그리세요.",
 
     // Putting it together: a Paper 2 chain > worked example > data-kicker attribute
-    "Worked example 7": "",
+    "Worked example 7": "예제 7",
 
     // Putting it together: a Paper 2 chain > worked example > h3
-    "One ion, five questions": "",
+    "One ion, five questions": "이온 하나, 문제 다섯 개",
 
     // Putting it together: a Paper 2 chain > worked example > p
-    "The ethanoate ion, <span class=\"chem\">CH3COO-</span>, forms when ethanoic acid loses <span class=\"chem\">H+</span>.": "",
+    "The ethanoate ion, <span class=\"chem\">CH3COO-</span>, forms when ethanoic acid loses <span class=\"chem\">H+</span>.": "ethanoate 이온 <span class=\"chem\">CH3COO-</span>은 ethanoic acid가 <span class=\"chem\">H+</span>를 잃을 때 생겨요.",
 
     // Putting it together: a Paper 2 chain > worked example > p
-    "(a) Draw the two resonance structures of the ion. (b) Explain why its two carbon–oxygen bonds have the same length. (c) Calculate the formal charge on each oxygen atom in one resonance structure. (d) Deduce the number of σ and π bonds in the ion. (e) Deduce the hybridization of each carbon atom and the O–C–O bond angle.": "",
+    "(a) Draw the two resonance structures of the ion. (b) Explain why its two carbon–oxygen bonds have the same length. (c) Calculate the formal charge on each oxygen atom in one resonance structure. (d) Deduce the number of σ and π bonds in the ion. (e) Deduce the hybridization of each carbon atom and the O–C–O bond angle.": "(a) 이 이온의 공명 구조 두 개를 그리시오 (draw). (b) 두 탄소–산소 결합의 길이가 같은 이유를 설명하시오 (explain). (c) 공명 구조 하나에서 각 산소 원자의 형식 전하를 계산하시오 (calculate). (d) 이온에 있는 σ 결합과 π 결합의 수를 추론하시오 (deduce). (e) 각 탄소 원자의 혼성화와 O–C–O 결합각을 추론하시오.",
 
     // Putting it together: a Paper 2 chain > worked example > data-title attribute
-    "(a) Resonance structures": "",
+    "(a) Resonance structures": "(a) 공명 구조",
 
     // Putting it together: a Paper 2 chain > worked example > p
-    "The C=O double bond can be drawn to either oxygen atom. Nothing else moves.": "",
+    "The C=O double bond can be drawn to either oxygen atom. Nothing else moves.": "C=O 이중 결합은 어느 산소 원자 쪽으로도 그릴 수 있어요. 다른 것은 움직이지 않아요.",
 
     // Putting it together: a Paper 2 chain > worked example > data-title attribute
-    "(b) Equal bond lengths": "",
+    "(b) Equal bond lengths": "(b) 같은 결합 길이",
 
     // Putting it together: a Paper 2 chain > worked example > p
-    "Use the key word. Say what is delocalized and over which atoms.": "",
+    "Use the key word. Say what is delocalized and over which atoms.": "핵심 단어를 쓰세요. 무엇이 어느 원자들에 걸쳐 비편재화되어 있는지 말하세요.",
 
     // Putting it together: a Paper 2 chain > worked example > p
-    "The π electrons are delocalized over the carbon atom and both oxygen atoms. So the two carbon–oxygen bonds are identical, with a length between C–O (143 pm) and C=O (122 pm).": "",
+    "The π electrons are delocalized over the carbon atom and both oxygen atoms. So the two carbon–oxygen bonds are identical, with a length between C–O (143 pm) and C=O (122 pm).": "π 전자는 탄소 원자와 두 산소 원자에 걸쳐 비편재화되어 있어요. 그래서 두 탄소–산소 결합은 똑같고, 길이는 C–O(143 pm)와 C=O(122 pm) 사이예요.",
 
     // Putting it together: a Paper 2 chain > worked example > data-title attribute
-    "(c) Formal charges": "",
+    "(c) Formal charges": "(c) 형식 전하",
 
     // Putting it together: a Paper 2 chain > worked example > p
-    "Use FC = V − N − ½B for each oxygen in the first structure.": "",
+    "Use FC = V − N − ½B for each oxygen in the first structure.": "첫 번째 구조에서 각 산소에 대해 FC = V − N − ½B를 써요.",
 
     // Putting it together: a Paper 2 chain > worked example > maths line
-    "O in C=O: 6 − 4 − ½(4) = 0": "",
+    "O in C=O: 6 − 4 − ½(4) = 0": "C=O의 O: 6 − 4 − ½(4) = 0",
 
     // Putting it together: a Paper 2 chain > worked example > maths line
-    "O in C–O: 6 − 6 − ½(2) = −1": "",
+    "O in C–O: 6 − 6 − ½(2) = −1": "C–O의 O: 6 − 6 − ½(2) = −1",
 
     // Putting it together: a Paper 2 chain > worked example > p
-    "All the other atoms are 0, so the total is −1, the charge on the ion.": "",
+    "All the other atoms are 0, so the total is −1, the charge on the ion.": "다른 원자는 모두 0이므로 합계는 −1이고, 이것이 이온의 전하예요.",
 
     // Putting it together: a Paper 2 chain > worked example > data-title attribute
-    "(d) σ and π bonds": "",
+    "(d) σ and π bonds": "(d) σ 결합과 π 결합",
 
     // Putting it together: a Paper 2 chain > worked example > p
-    "Count using one resonance structure. Include the three C–H bonds.": "",
+    "Count using one resonance structure. Include the three C–H bonds.": "공명 구조 하나로 세요. C–H 결합 세 개를 포함하세요.",
 
     // Putting it together: a Paper 2 chain > worked example > maths line
-    "σ: C–H 3; C–C 1; C=O 1; C–O 1; total <b>6</b>": "",
+    "σ: C–H 3; C–C 1; C=O 1; C–O 1; total <b>6</b>": "σ: C–H 3; C–C 1; C=O 1; C–O 1; 합계 <b>6</b>",
 
     // Putting it together: a Paper 2 chain > worked example > maths line
-    "π: C=O 1; total <b>1</b>": "",
+    "π: C=O 1; total <b>1</b>": "π: C=O 1; 합계 <b>1</b>",
 
     // Putting it together: a Paper 2 chain > worked example > data-title attribute
-    "(e) Hybridization and angle": "",
+    "(e) Hybridization and angle": "(e) 혼성화와 결합각",
 
     // Putting it together: a Paper 2 chain > worked example > p
-    "Count the electron domains around each carbon.": "",
+    "Count the electron domains around each carbon.": "각 탄소 주위의 전자 영역을 세요.",
 
     // Putting it together: a Paper 2 chain > worked example > p
-    "CH<sub>3</sub> carbon: 4 domains → sp<sup>3</sup>. COO carbon: 3 domains → sp<sup>2</sup>, trigonal planar, so the O–C–O angle is about <strong>120°</strong>.": "",
+    "CH<sub>3</sub> carbon: 4 domains → sp<sup>3</sup>. COO carbon: 3 domains → sp<sup>2</sup>, trigonal planar, so the O–C–O angle is about <strong>120°</strong>.": "CH<sub>3</sub> 탄소: 전자 영역 4개 → sp<sup>3</sup>. COO 탄소: 전자 영역 3개 → sp<sup>2</sup>, 평면 삼각형이므로 O–C–O 결합각은 약 <strong>120°</strong>예요.",
 
     // Putting it together: a Paper 2 chain > worked example > p
-    "Two resonance structures; delocalized π electrons give equal C–O bonds; formal charges 0 and −1; 6 σ and 1 π; sp<sup>3</sup> and sp<sup>2</sup>, about 120°.": "",
+    "Two resonance structures; delocalized π electrons give equal C–O bonds; formal charges 0 and −1; 6 σ and 1 π; sp<sup>3</sup> and sp<sup>2</sup>, about 120°.": "공명 구조 2개; 비편재화된 π 전자 때문에 C–O 결합이 같음; 형식 전하 0과 −1; σ 6개와 π 1개; sp<sup>3</sup>와 sp<sup>2</sup>, 약 120°.",
 
     // Linking it up > h2
-    "Linking it up": "",
+    "Linking it up": "연결하기",
 
     // Linking it up > p
-    "The syllabus asks questions that connect this topic to others. Here are short answers to four of them.": "",
+    "The syllabus asks questions that connect this topic to others. Here are short answers to four of them.": "교수요목은 이 단원을 다른 단원과 연결하는 질문을 던져요. 그중 네 가지에 짧게 답해 볼게요.",
 
     // Linking it up > h3
-    "Why are oxygen and ozone dissociated by different wavelengths of light?": "",
+    "Why are oxygen and ozone dissociated by different wavelengths of light?": "산소와 오존은 왜 서로 다른 파장의 빛에 의해 해리될까요?",
 
     // Linking it up > p
-    "<span class=\"chem\">O2</span> has a double bond. In ozone, delocalization makes both bonds intermediate between single and double, so they are weaker. A weaker bond needs less energy to break. Light of lower energy has a longer wavelength (Structure 1.3). So ozone is broken by longer wavelengths of ultraviolet light than oxygen is.": "",
+    "<span class=\"chem\">O2</span> has a double bond. In ozone, delocalization makes both bonds intermediate between single and double, so they are weaker. A weaker bond needs less energy to break. Light of lower energy has a longer wavelength (Structure 1.3). So ozone is broken by longer wavelengths of ultraviolet light than oxygen is.": "<span class=\"chem\">O2</span>에는 이중 결합이 있어요. 오존에서는 비편재화 때문에 두 결합이 모두 단일 결합과 이중 결합의 중간이므로 더 약해요. 약한 결합은 끊는 데 에너지가 덜 들어요. 에너지가 낮은 빛은 파장이 길어요(Structure 1.3). 그래서 오존은 산소보다 파장이 긴 자외선에 의해 분해돼요.",
 
     // Linking it up > h3
-    "How does the resonance energy in benzene explain its relative unreactivity?": "",
+    "How does the resonance energy in benzene explain its relative unreactivity?": "벤젠의 공명 에너지로 벤젠이 비교적 반응성이 낮은 이유를 어떻게 설명할까요?",
 
     // Linking it up > p
-    "Delocalization makes benzene about 152 <span class=\"unit\">kJ mol-1</span> more stable than a ring with three separate C=C bonds. This extra stability is called the resonance energy. An addition reaction would destroy the delocalized ring and lose that stability. So benzene does not readily undergo addition. Substitution keeps the ring. You will study this in Reactivity 3.4.": "",
+    "Delocalization makes benzene about 152 <span class=\"unit\">kJ mol-1</span> more stable than a ring with three separate C=C bonds. This extra stability is called the resonance energy. An addition reaction would destroy the delocalized ring and lose that stability. So benzene does not readily undergo addition. Substitution keeps the ring. You will study this in Reactivity 3.4.": "비편재화 때문에 벤젠은 C=C 결합이 따로따로 3개 있는 고리보다 약 152 <span class=\"unit\">kJ mol-1</span> 더 안정해요. 이 추가 안정성을 공명 에너지라고 해요. 첨가 반응이 일어나면 비편재화된 고리가 깨지고 그 안정성을 잃게 돼요. 그래서 벤젠은 첨가 반응을 잘 하지 않아요. 치환 반응은 고리를 유지해요. 이 내용은 Reactivity 3.4에서 배워요.",
 
     // Linking it up > h3
-    "How does the ability of some atoms to expand their octet relate to their position in the periodic table?": "",
+    "How does the ability of some atoms to expand their octet relate to their position in the periodic table?": "어떤 원자가 옥텟을 확장할 수 있는 능력은 주기율표에서의 위치와 어떤 관계가 있을까요?",
 
     // Linking it up > p
-    "Atoms in period 2 never have more than eight valence electrons, because their valence shell is the second main energy level. Atoms in period 3 and below have a larger valence shell that can hold more than eight electrons. So expanded octets are found for elements such as P, S, Cl, Br, I and Xe (Structure 3.1).": "",
+    "Atoms in period 2 never have more than eight valence electrons, because their valence shell is the second main energy level. Atoms in period 3 and below have a larger valence shell that can hold more than eight electrons. So expanded octets are found for elements such as P, S, Cl, Br, I and Xe (Structure 3.1).": "2주기 원자는 원자가 전자가 절대로 8개를 넘지 않아요. 원자가 껍질이 두 번째 주 에너지 준위이기 때문이에요. 3주기와 그 아래의 원자는 원자가 껍질이 더 커서 전자가 8개보다 많이 들어갈 수 있어요. 그래서 확장된 옥텟은 P, S, Cl, Br, I, Xe 같은 원소에서 볼 수 있어요(Structure 3.1).",
 
     // Linking it up > h3
-    "What are the different assumptions made in the calculation of formal charge and of oxidation states?": "",
+    "What are the different assumptions made in the calculation of formal charge and of oxidation states?": "형식 전하를 계산할 때와 산화수를 계산할 때 하는 가정은 어떻게 다를까요?",
 
     // Linking it up > p
-    "Formal charge assumes that the electrons in every bond are shared equally. It treats the bonding as purely covalent. Oxidation state assumes that the electrons in every bond belong completely to the more electronegative atom. It treats the bonding as purely ionic. Real bonds are between these two extremes. You will use oxidation states in Structure 3.1 and Reactivity 3.2.": "",
+    "Formal charge assumes that the electrons in every bond are shared equally. It treats the bonding as purely covalent. Oxidation state assumes that the electrons in every bond belong completely to the more electronegative atom. It treats the bonding as purely ionic. Real bonds are between these two extremes. You will use oxidation states in Structure 3.1 and Reactivity 3.2.": "형식 전하는 모든 결합의 전자가 똑같이 공유된다고 가정해요. 결합을 완전한 공유 결합으로 다루는 거예요. 산화수는 모든 결합의 전자가 전기 음성도가 더 큰 원자에 완전히 속한다고 가정해요. 결합을 완전한 이온 결합으로 다루는 거예요. 실제 결합은 이 두 극단 사이에 있어요. 산화수는 Structure 3.1과 Reactivity 3.2에서 쓰게 돼요.",
 
     // Exam-style practice > h2
-    "Exam-style practice": "",
+    "Exam-style practice": "시험형 연습",
 
     // Exam-style practice > p
-    "Three sets, from first steps to stretch. Every question here is Additional HL. You get feedback after each question, and questions you have not yet answered correctly come up first.": "",
+    "Three sets, from first steps to stretch. Every question here is Additional HL. You get feedback after each question, and questions you have not yet answered correctly come up first.": "첫걸음부터 심화까지 세 세트예요. 여기 있는 문제는 모두 AHL(HL 추가 내용)이에요. 문제마다 피드백을 받고, 아직 맞히지 못한 문제가 먼저 나와요.",
 
     // Exam-style practice > data-title attribute
-    "2.2 HL Foundation: one idea at a time": "",
+    "2.2 HL Foundation: one idea at a time": "2.2 HL 기초: 한 번에 개념 하나씩",
 
     // Exam-style practice > data-title attribute
-    "2.2 HL Exam standard": "",
+    "2.2 HL Exam standard": "2.2 HL 시험 표준",
 
     // Exam-style practice > data-title attribute
-    "2.2 HL Challenge": "",
+    "2.2 HL Challenge": "2.2 HL 도전",
 
     // Exam-style practice > p
-    "For Lewis formulas, shapes of smaller molecules, polarity and intermolecular forces, go back to <a href=\"s2-2.html\">2.2 The covalent model</a>.": "",
+    "For Lewis formulas, shapes of smaller molecules, polarity and intermolecular forces, go back to <a href=\"s2-2.html\">2.2 The covalent model</a>.": "루이스 구조식, 작은 분자의 모양, 극성, 분자 간 힘은 <a href=\"s2-2.html\">2.2 공유 결합 모형</a>으로 돌아가서 보세요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Lewis formula of the nitrite ion with the double bond on the right": "",
+    "Lewis formula of the nitrite ion with the double bond on the right": "이중 결합이 오른쪽에 있는 아질산 이온의 루이스 구조식",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Lewis formula of the nitrite ion with the double bond on the left": "",
+    "Lewis formula of the nitrite ion with the double bond on the left": "이중 결합이 왼쪽에 있는 아질산 이온의 루이스 구조식",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Structure A of the thiocyanate ion: two double bonds": "",
+    "Structure A of the thiocyanate ion: two double bonds": "싸이오사이안산 이온의 구조 A: 이중 결합 2개",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Structure B of the thiocyanate ion: triple bond to nitrogen, single bond to sulfur": "",
+    "Structure B of the thiocyanate ion: triple bond to nitrogen, single bond to sulfur": "싸이오사이안산 이온의 구조 B: 질소와 삼중 결합, 황과 단일 결합",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Structure C of the thiocyanate ion: single bond to nitrogen, triple bond to sulfur": "",
+    "Structure C of the thiocyanate ion: single bond to nitrogen, triple bond to sulfur": "싸이오사이안산 이온의 구조 C: 질소와 단일 결합, 황과 삼중 결합",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Lewis formula of sulfur tetrafluoride: four S–F bonds and one lone pair on sulfur": "",
+    "Lewis formula of sulfur tetrafluoride: four S–F bonds and one lone pair on sulfur": "사플루오린화 황의 루이스 구조식: S–F 결합 4개와 황의 비공유 전자쌍 1개",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Lewis formula of the tetrachloroiodate ion: four I–Cl bonds and two lone pairs on iodine": "",
+    "Lewis formula of the tetrachloroiodate ion: four I–Cl bonds and two lone pairs on iodine": "테트라클로로아이오딘산 이온의 루이스 구조식: I–Cl 결합 4개와 아이오딘의 비공유 전자쌍 2개",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Sulfate ion drawn with two double bonds: formal charge 0 on sulfur": "",
+    "Sulfate ion drawn with two double bonds: formal charge 0 on sulfur": "이중 결합 2개로 그린 황산 이온: 황의 형식 전하 0",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Sulfate ion drawn with four single bonds: formal charge +2 on sulfur": "",
+    "Sulfate ion drawn with four single bonds: formal charge +2 on sulfur": "단일 결합 4개로 그린 황산 이온: 황의 형식 전하 +2",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Full structural formula of propenoic acid, CH2=CH–COOH": "",
+    "Full structural formula of propenoic acid, CH2=CH–COOH": "propenoic acid CH2=CH–COOH의 전개 구조식",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Lewis formula of ethanoic acid, with two lone pairs on each oxygen atom": "",
+    "Lewis formula of ethanoic acid, with two lone pairs on each oxygen atom": "각 산소 원자에 비공유 전자쌍이 2개씩 있는 ethanoic acid의 루이스 구조식",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Lewis formula of the ethanoate ion with the double bond to the lower oxygen": "",
+    "Lewis formula of the ethanoate ion with the double bond to the lower oxygen": "이중 결합이 아래쪽 산소에 있는 ethanoate 이온의 루이스 구조식",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Lewis formula of the ethanoate ion with the double bond to the upper oxygen": "",
+    "Lewis formula of the ethanoate ion with the double bond to the upper oxygen": "이중 결합이 위쪽 산소에 있는 ethanoate 이온의 루이스 구조식",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Three sketches: a single bond is one sigma bond; a double bond is one sigma and one pi bond; a triple bond is one sigma and two pi bonds": "",
+    "Three sketches: a single bond is one sigma bond; a double bond is one sigma and one pi bond; a triple bond is one sigma and two pi bonds": "그림 세 개: 단일 결합은 시그마 결합 1개, 이중 결합은 시그마 결합 1개와 파이 결합 1개, 삼중 결합은 시그마 결합 1개와 파이 결합 2개",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "single bond": "",
+    "single bond": "단일 결합",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "double bond": "",
+    "double bond": "이중 결합",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "triple bond": "",
+    "triple bond": "삼중 결합",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "carbonate ion": "",
+    "carbonate ion": "탄산 이온",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "three carbon–oxygen bonds": "",
+    "three carbon–oxygen bonds": "탄소–산소 결합 3개",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "The π electrons are spread over the carbon atom and all three oxygen atoms.": "",
+    "The π electrons are spread over the carbon atom and all three oxygen atoms.": "π 전자가 탄소 원자와 산소 원자 3개 전체에 걸쳐 퍼져 있어요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "nitrate ion": "",
+    "nitrate ion": "질산 이온",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "three nitrogen–oxygen bonds": "",
+    "three nitrogen–oxygen bonds": "질소–산소 결합 3개",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "The π electrons are spread over the nitrogen atom and all three oxygen atoms.": "",
+    "The π electrons are spread over the nitrogen atom and all three oxygen atoms.": "π 전자가 질소 원자와 산소 원자 3개 전체에 걸쳐 퍼져 있어요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "ozone": "",
+    "ozone": "오존",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "two oxygen–oxygen bonds": "",
+    "two oxygen–oxygen bonds": "산소–산소 결합 2개",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "The π electrons are spread over all three oxygen atoms.": "",
+    "The π electrons are spread over all three oxygen atoms.": "π 전자가 산소 원자 3개 전체에 걸쳐 퍼져 있어요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "methanoate ion": "",
+    "methanoate ion": "methanoate 이온",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "two carbon–oxygen bonds": "",
+    "two carbon–oxygen bonds": "탄소–산소 결합 2개",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "The π electrons are spread over the carbon atom and both oxygen atoms.": "",
+    "The π electrons are spread over the carbon atom and both oxygen atoms.": "π 전자가 탄소 원자와 두 산소 원자에 걸쳐 퍼져 있어요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "benzene": "",
+    "benzene": "벤젠",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "six carbon–carbon bonds": "",
+    "six carbon–carbon bonds": "탄소–탄소 결합 6개",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Six π electrons are spread over all six carbon atoms, above and below the ring.": "",
+    "Six π electrons are spread over all six carbon atoms, above and below the ring.": "π 전자 6개가 고리의 위와 아래에서 탄소 원자 6개 전체에 걸쳐 퍼져 있어요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Species": "",
+    "Species": "화학종",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Previous": "",
+    "Previous": "이전",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Next": "",
+    "Next": "다음",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Showing": "",
+    "Showing": "보는 중",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Data booklet bond lengths": "",
+    "Data booklet bond lengths": "데이터 부클릿 결합 길이",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Measured bond length": "",
+    "Measured bond length": "측정된 결합 길이",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Bond length scale: double bond {d} pm, single bond {s} pm, measured {r} pm": "",
+    "Bond length scale: double bond {d} pm, single bond {s} pm, measured {r} pm": "결합 길이 눈금: 이중 결합 {d} pm, 단일 결합 {s} pm, 측정값 {r} pm",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Bond length scale: double bond {d} pm, single bond {s} pm": "",
+    "Bond length scale: double bond {d} pm, single bond {s} pm": "결합 길이 눈금: 이중 결합 {d} pm, 단일 결합 {s} pm",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "bond length / pm": "",
+    "bond length / pm": "결합 길이 / pm",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "measured {r}": "",
+    "measured {r}": "측정값 {r}",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Resonance structure {k} of {n} of the {name}": "",
+    "Resonance structure {k} of {n} of the {name}": "{name}의 공명 구조 {n}개 중 {k}번째",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Resonance structure {k} of {n}": "",
+    "Resonance structure {k} of {n}": "공명 구조 {n}개 중 {k}번째",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Step to the end to see it": "",
+    "Step to the end to see it": "끝까지 넘겨서 확인하세요",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "This one structure predicts two different bond lengths: {d} pm for the double bond and {s} pm for each single bond. Press Next to move the double bond.": "",
+    "This one structure predicts two different bond lengths: {d} pm for the double bond and {s} pm for each single bond. Press Next to move the double bond.": "이 구조 하나는 결합 길이를 두 가지로 예측해요: 이중 결합은 {d} pm, 단일 결합은 각각 {s} pm. ‘다음’을 눌러 이중 결합을 옮겨 보세요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Delocalized picture of the {name}: all the {bonds} are the same": "",
+    "Delocalized picture of the {name}: all the {bonds} are the same": "{name}의 비편재화 그림: {bonds}의 길이가 모두 같아요",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Delocalized picture": "",
+    "Delocalized picture": "비편재화 그림",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "All {bonds}: about {r} pm": "",
+    "All {bonds}: about {r} pm": "{bonds} 모두: 약 {r} pm",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "The real particle is none of the separate structures. All {bonds} are equal, at about {r} pm. That is between the single bond ({s} pm) and the double bond ({d} pm). {pi} This spreading out is delocalization. (The dashed lines are not a Lewis formula: no lone pairs are shown.)": "",
+    "The real particle is none of the separate structures. All {bonds} are equal, at about {r} pm. That is between the single bond ({s} pm) and the double bond ({d} pm). {pi} This spreading out is delocalization. (The dashed lines are not a Lewis formula: no lone pairs are shown.)": "실제 입자는 따로따로 그린 구조 중 어느 것도 아니에요. {bonds}의 길이는 모두 약 {r} pm으로 같아요. 이것은 단일 결합({s} pm)과 이중 결합({d} pm) 사이예요. {pi} 이렇게 퍼지는 것이 비편재화예요. (점선은 루이스 구조식이 아니에요: 비공유 전자쌍이 표시되어 있지 않아요.)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Enthalpy level diagram. Cyclohexane is the lowest level. Real benzene plus hydrogen is 208 kJ per mole above it. The model with three separate double bonds is predicted to be 360 kJ per mole above it, which is 152 kJ per mole higher than real benzene.": "",
+    "Enthalpy level diagram. Cyclohexane is the lowest level. Real benzene plus hydrogen is 208 kJ per mole above it. The model with three separate double bonds is predicted to be 360 kJ per mole above it, which is 152 kJ per mole higher than real benzene.": "엔탈피 준위 그림. cyclohexane이 가장 낮은 준위예요. 실제 벤젠과 수소는 그보다 몰당 208 kJ 위에 있어요. 이중 결합이 따로따로 3개 있는 모형은 그보다 몰당 360 kJ 위에 있다고 예측되며, 이는 실제 벤젠보다 몰당 152 kJ 높아요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "cyclohexane, C₆H₁₂": "",
+    "cyclohexane, C₆H₁₂": "cyclohexane, C₆H₁₂",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "real benzene + 3H₂": "",
+    "real benzene + 3H₂": "실제 벤젠 + 3H₂",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "three C=C model + 3H₂ (predicted)": "",
+    "three C=C model + 3H₂ (predicted)": "C=C 3개 모형 + 3H₂ (예측)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Enthalpy (kJ mol⁻¹, to scale)": "",
+    "Enthalpy (kJ mol⁻¹, to scale)": "엔탈피 (kJ mol⁻¹, 실제 비율)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Cyclohexene + H₂": "",
+    "Cyclohexene + H₂": "cyclohexene + H₂",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Predicted for three C=C": "",
+    "Predicted for three C=C": "C=C 3개일 때 예측값",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Measured for benzene": "",
+    "Measured for benzene": "벤젠의 측정값",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Benzene is more stable by": "",
+    "Benzene is more stable by": "벤젠이 더 안정한 정도",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "All six carbon–carbon bonds in benzene have the same length, about 140 pm.": "",
+    "All six carbon–carbon bonds in benzene have the same length, about 140 pm.": "벤젠의 탄소–탄소 결합 6개는 길이가 모두 약 140 pm으로 같아요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Physical evidence. Alternating single and double bonds would give two different lengths.": "",
+    "Physical evidence. Alternating single and double bonds would give two different lengths.": "물리적 증거. 단일 결합과 이중 결합이 번갈아 있다면 길이가 두 가지여야 해요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "The carbon–carbon bond length in benzene is between C–C (154 pm) and C=C (134 pm).": "",
+    "The carbon–carbon bond length in benzene is between C–C (154 pm) and C=C (134 pm).": "벤젠의 탄소–탄소 결합 길이는 C–C(154 pm)와 C=C(134 pm) 사이예요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Physical evidence. Each bond is between a single and a double bond.": "",
+    "Physical evidence. Each bond is between a single and a double bond.": "물리적 증거. 각 결합이 단일 결합과 이중 결합의 중간이에요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Benzene reacts by substitution, not by addition.": "",
+    "Benzene reacts by substitution, not by addition.": "벤젠은 첨가가 아니라 치환으로 반응해요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Chemical evidence. Real C=C double bonds react by addition.": "",
+    "Chemical evidence. Real C=C double bonds react by addition.": "화학적 증거. 실제 C=C 이중 결합은 첨가로 반응해요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Benzene reacts with hydrogen to form cyclohexane, C₆H₁₂.": "",
+    "Benzene reacts with hydrogen to form cyclohexane, C₆H₁₂.": "벤젠은 수소와 반응해서 cyclohexane C₆H₁₂를 만들어요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "This fits both models. A molecule with three C=C bonds would also add three H₂. It does not tell the models apart.": "",
+    "This fits both models. A molecule with three C=C bonds would also add three H₂. It does not tell the models apart.": "두 모형 모두에 맞아요. C=C 결합이 3개인 분자도 H₂ 3개를 첨가할 거예요. 두 모형을 구별해 주지 못해요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "The enthalpy of hydrogenation of benzene (−208 kJ mol⁻¹) is less exothermic than three times that of cyclohexene (−360 kJ mol⁻¹).": "",
+    "The enthalpy of hydrogenation of benzene (−208 kJ mol⁻¹) is less exothermic than three times that of cyclohexene (−360 kJ mol⁻¹).": "벤젠의 수소화 엔탈피(−208 kJ mol⁻¹)는 cyclohexene의 3배(−360 kJ mol⁻¹)보다 덜 발열적이에요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Chemical (energy) evidence. Benzene is more stable than a molecule with three separate C=C bonds.": "",
+    "Chemical (energy) evidence. Benzene is more stable than a molecule with three separate C=C bonds.": "화학적(에너지) 증거. 벤젠은 C=C 결합이 따로따로 3개 있는 분자보다 더 안정해요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Benzene is a planar, regular hexagon. All bond angles are 120°.": "",
+    "Benzene is a planar, regular hexagon. All bond angles are 120°.": "벤젠은 평면 정육각형이에요. 결합각은 모두 120°예요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Physical evidence. A ring with alternating short and long bonds would not be a regular hexagon.": "",
+    "Physical evidence. A ring with alternating short and long bonds would not be a regular hexagon.": "물리적 증거. 짧은 결합과 긴 결합이 번갈아 있는 고리라면 정육각형이 아닐 거예요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Benzene does not readily decolourize bromine water.": "",
+    "Benzene does not readily decolourize bromine water.": "벤젠은 브로민수의 색을 잘 없애지 못해요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Chemical evidence. Alkenes decolourize bromine water quickly by addition.": "",
+    "Chemical evidence. Alkenes decolourize bromine water quickly by addition.": "화학적 증거. 알켄은 첨가 반응으로 브로민수의 색을 빠르게 없애요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "The molecular formula of benzene is C₆H₆, so it is unsaturated.": "",
+    "The molecular formula of benzene is C₆H₆, so it is unsaturated.": "벤젠의 분자식은 C₆H₆이므로 불포화 화합물이에요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "This fits both models. Both drawings have the formula C₆H₆.": "",
+    "This fits both models. Both drawings have the formula C₆H₆.": "두 모형 모두에 맞아요. 두 그림 모두 화학식이 C₆H₆이에요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Only one compound with the name 1,2-dibromobenzene exists.": "",
+    "Only one compound with the name 1,2-dibromobenzene exists.": "1,2-dibromobenzene이라는 이름의 화합물은 한 가지만 존재해요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Evidence about structure. Alternating bonds would give two different 1,2-isomers: one with a single bond between the two C–Br carbons, one with a double bond. Some books list this as physical evidence and some as chemical evidence, so both answers are accepted here. In an exam, choose a clearer example for each kind.": "",
+    "Evidence about structure. Alternating bonds would give two different 1,2-isomers: one with a single bond between the two C–Br carbons, one with a double bond. Some books list this as physical evidence and some as chemical evidence, so both answers are accepted here. In an exam, choose a clearer example for each kind.": "구조에 관한 증거. 결합이 번갈아 있다면 서로 다른 1,2-이성질체가 두 가지 생길 거예요: 두 C–Br 탄소 사이가 단일 결합인 것과 이중 결합인 것. 이것을 물리적 증거로 분류하는 책도 있고 화학적 증거로 분류하는 책도 있으므로, 여기서는 둘 다 정답으로 인정해요. 시험에서는 각 종류마다 더 분명한 예를 고르세요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Fits both models": "",
+    "Fits both models": "두 모형 모두에 맞음",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Sorted correctly": "",
+    "Sorted correctly": "바르게 분류한 수",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Card {n} is": "",
+    "Card {n} is": "카드 {n}의 분류",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Check my sorting": "",
+    "Check my sorting": "분류 확인",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Correct.": "",
+    "Correct.": "정답이에요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Not this one.": "",
+    "Not this one.": "이건 아니에요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "You have sorted {d} of {n} cards. Sort the rest, then check again.": "",
+    "You have sorted {d} of {n} cards. Sort the rest, then check again.": "카드 {n}장 중 {d}장을 분류했어요. 나머지를 분류하고 다시 확인하세요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "All correct. In an exam, give one physical and one chemical piece of evidence. Equal bond lengths and substitution instead of addition are the safest pair.": "",
+    "All correct. In an exam, give one physical and one chemical piece of evidence. Equal bond lengths and substitution instead of addition are the safest pair.": "모두 정답이에요. 시험에서는 물리적 증거 하나와 화학적 증거 하나를 쓰세요. 같은 결합 길이와 첨가 대신 치환이 가장 안전한 짝이에요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{r} of {n} correct. Read the notes on the cards marked wrong and change them.": "",
+    "{r} of {n} correct. Read the notes on the cards marked wrong and change them.": "{n}개 중 {r}개 정답. 틀렸다고 표시된 카드의 설명을 읽고 바꿔 보세요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Start again": "",
+    "Start again": "처음부터 다시",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "P has 5 valence electrons. All 5 are used in the five P–Cl bonds. No lone pairs.": "",
+    "P has 5 valence electrons. All 5 are used in the five P–Cl bonds. No lone pairs.": "P의 원자가 전자는 5개예요. 5개 모두 P–Cl 결합 5개에 쓰여요. 비공유 전자쌍은 없어요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "90° and 120° (and 180° between the two axial bonds)": "",
+    "90° and 120° (and 180° between the two axial bonds)": "90°와 120° (그리고 두 축 결합 사이는 180°)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "S has 6 valence electrons. 4 are used in the four S–F bonds. 2 are left: one lone pair.": "",
+    "S has 6 valence electrons. 4 are used in the four S–F bonds. 2 are left: one lone pair.": "S의 원자가 전자는 6개예요. 4개가 S–F 결합 4개에 쓰여요. 2개가 남아요: 비공유 전자쌍 1개.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "less than 90° and less than 120° (measured: about 88° axial to equatorial, about 102° between the equatorial bonds; the two axial bonds are at about 173°, not 180°)": "",
+    "less than 90° and less than 120° (measured: about 88° axial to equatorial, about 102° between the equatorial bonds; the two axial bonds are at about 173°, not 180°)": "90°보다 작고 120°보다 작음 (측정값: 축–적도 사이 약 88°, 적도 결합 사이 약 102°; 두 축 결합은 180°가 아니라 약 173°)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Wrong position, for comparison: an axial lone pair is at 90° to three bonding pairs. In the real molecule the lone pair is equatorial, at 90° to only two bonding pairs. Less repulsion.": "",
+    "Wrong position, for comparison: an axial lone pair is at 90° to three bonding pairs. In the real molecule the lone pair is equatorial, at 90° to only two bonding pairs. Less repulsion.": "비교를 위한 잘못된 위치: 축 위치의 비공유 전자쌍은 공유 전자쌍 3개와 90°를 이뤄요. 실제 분자에서 비공유 전자쌍은 적도 위치에 있어서 공유 전자쌍 2개와만 90°를 이뤄요. 반발이 더 작아요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Cl has 7 valence electrons. 3 are used in the three Cl–F bonds. 4 are left: two lone pairs.": "",
+    "Cl has 7 valence electrons. 3 are used in the three Cl–F bonds. 4 are left: two lone pairs.": "Cl의 원자가 전자는 7개예요. 3개가 Cl–F 결합 3개에 쓰여요. 4개가 남아요: 비공유 전자쌍 2개.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "less than 90° (measured: about 87.5°)": "",
+    "less than 90° (measured: about 87.5°)": "90°보다 작음 (측정값: 약 87.5°)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Wrong position, for comparison: two axial lone pairs are each at 90° to three bonding pairs. In the real molecule both lone pairs are equatorial. Less repulsion.": "",
+    "Wrong position, for comparison: two axial lone pairs are each at 90° to three bonding pairs. In the real molecule both lone pairs are equatorial. Less repulsion.": "비교를 위한 잘못된 위치: 축 위치의 비공유 전자쌍 2개는 각각 공유 전자쌍 3개와 90°를 이뤄요. 실제 분자에서는 두 비공유 전자쌍이 모두 적도 위치에 있어요. 반발이 더 작아요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Xe has 8 valence electrons. 2 are used in the two Xe–F bonds. 6 are left: three lone pairs.": "",
+    "Xe has 8 valence electrons. 2 are used in the two Xe–F bonds. 6 are left: three lone pairs.": "Xe의 원자가 전자는 8개예요. 2개가 Xe–F 결합 2개에 쓰여요. 6개가 남아요: 비공유 전자쌍 3개.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "The central I has 7 valence electrons, plus 1 for the negative charge: 8. 2 are used in the two I–I bonds. 6 are left: three lone pairs.": "",
+    "The central I has 7 valence electrons, plus 1 for the negative charge: 8. 2 are used in the two I–I bonds. 6 are left: three lone pairs.": "가운데 I의 원자가 전자는 7개이고, 음전하 때문에 1개를 더하면 8개예요. 2개가 I–I 결합 2개에 쓰여요. 6개가 남아요: 비공유 전자쌍 3개.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "S has 6 valence electrons. All 6 are used in the six S–F bonds. No lone pairs.": "",
+    "S has 6 valence electrons. All 6 are used in the six S–F bonds. No lone pairs.": "S의 원자가 전자는 6개예요. 6개 모두 S–F 결합 6개에 쓰여요. 비공유 전자쌍은 없어요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "90° (and 180° between opposite bonds)": "",
+    "90° (and 180° between opposite bonds)": "90° (그리고 마주 보는 결합 사이는 180°)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Br has 7 valence electrons. 5 are used in the five Br–F bonds. 2 are left: one lone pair.": "",
+    "Br has 7 valence electrons. 5 are used in the five Br–F bonds. 2 are left: one lone pair.": "Br의 원자가 전자는 7개예요. 5개가 Br–F 결합 5개에 쓰여요. 2개가 남아요: 비공유 전자쌍 1개.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "less than 90° (measured: about 85°)": "",
+    "less than 90° (measured: about 85°)": "90°보다 작음 (측정값: 약 85°)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Xe has 8 valence electrons. 4 are used in the four Xe–F bonds. 4 are left: two lone pairs.": "",
+    "Xe has 8 valence electrons. 4 are used in the four Xe–F bonds. 4 are left: two lone pairs.": "Xe의 원자가 전자는 8개예요. 4개가 Xe–F 결합 4개에 쓰여요. 4개가 남아요: 비공유 전자쌍 2개.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Wrong position, for comparison: lone pairs next to each other are only 90° apart. In the real molecule they are opposite each other, 180° apart. Less repulsion.": "",
+    "Wrong position, for comparison: lone pairs next to each other are only 90° apart. In the real molecule they are opposite each other, 180° apart. Less repulsion.": "비교를 위한 잘못된 위치: 이웃한 비공유 전자쌍은 90°밖에 떨어져 있지 않아요. 실제 분자에서는 서로 반대편에, 180° 떨어져 있어요. 반발이 더 작아요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Mode": "",
+    "Mode": "방식",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Predict first": "",
+    "Predict first": "먼저 예측",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Explore": "",
+    "Explore": "자유 탐색",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Try the other lone pair position": "",
+    "Try the other lone pair position": "다른 비공유 전자쌍 위치 보기",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Polarity": "",
+    "Polarity": "극성",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Bonding domains: {b}. Lone pairs: {l}. Predict the molecular geometry.": "",
+    "Bonding domains: {b}. Lone pairs: {l}. Predict the molecular geometry.": "결합 영역: {b}. 비공유 전자쌍: {l}. 분자 모양을 예측하세요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Correct. {f} is {shape}.": "",
+    "Correct. {f} is {shape}.": "정답이에요. {f}는 {shape}이에요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Not quite. You chose {yours}. There are {d} domains (bonding: {b}, lone pairs: {l}), so {f} is {shape}. Turn the model to see why.": "",
+    "Not quite. You chose {yours}. There are {d} domains (bonding: {b}, lone pairs: {l}), so {f} is {shape}. Turn the model to see why.": "아쉬워요. {yours}을(를) 골랐어요. 전자 영역이 {d}개(결합: {b}, 비공유 전자쌍: {l})이므로 {f}는 {shape}이에요. 모형을 돌려서 이유를 확인해 보세요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{d} (bonding: {b}, lone pairs: {l})": "",
+    "{d} (bonding: {b}, lone pairs: {l})": "{d} (결합: {b}, 비공유 전자쌍: {l})",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{f} drawn with the lone pairs in the wrong position, for comparison": "",
+    "{f} drawn with the lone pairs in the wrong position, for comparison": "비교를 위해 비공유 전자쌍을 잘못된 위치에 그린 {f}",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Ball-and-stick model of {f}: {shape}": "",
+    "Ball-and-stick model of {f}: {shape}": "{f}의 공-막대 모형: {shape}",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "polar: the bond dipoles do not cancel": "",
+    "polar: the bond dipoles do not cancel": "극성: 결합 쌍극자가 상쇄되지 않음",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "non-polar: the bond dipoles cancel": "",
+    "non-polar: the bond dipoles cancel": "무극성: 결합 쌍극자가 상쇄됨",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "an ion: it has an overall charge": "",
+    "an ion: it has an overall charge": "이온: 전체 전하가 있음",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{el} (left)": "",
+    "{el} (left)": "{el} (왼쪽)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{el} (right)": "",
+    "{el} (right)": "{el} (오른쪽)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{el} (top)": "",
+    "{el} (top)": "{el} (위)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{el} (bottom)": "",
+    "{el} (bottom)": "{el} (아래)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{el} (centre)": "",
+    "{el} (centre)": "{el} (가운데)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{el} (bottom left)": "",
+    "{el} (bottom left)": "{el} (왼쪽 아래)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{el} (bottom right)": "",
+    "{el} (bottom right)": "{el} (오른쪽 아래)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Lewis formula": "",
+    "Lewis formula": "루이스 구조식",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Formal charges found": "",
+    "Formal charges found": "찾은 형식 전하",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Overall charge of the species": "",
+    "Overall charge of the species": "화학종 전체의 전하",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "V: valence electrons of the free atom": "",
+    "V: valence electrons of the free atom": "V: 자유 원자의 원자가 전자",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "N: non-bonding electrons on this atom": "",
+    "N: non-bonding electrons on this atom": "N: 이 원자의 비결합 전자",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "B: bonding electrons around this atom": "",
+    "B: bonding electrons around this atom": "B: 이 원자 주위의 결합 전자",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Formal charge = V − N − ½B": "",
+    "Formal charge = V − N − ½B": "형식 전하 = V − N − ½B",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Show the working": "",
+    "Show the working": "풀이 보기",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Lewis formula of {f}. Choose an atom to find its formal charge.": "",
+    "Lewis formula of {f}. Choose an atom to find its formal charge.": "{f}의 루이스 구조식. 형식 전하를 구할 원자를 고르세요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{atom}: group {g}, so V = {V}. Lone pairs on it: {lp}, so N = {N}. The bonds around it hold {B} electrons (2 for each line), so B = {B}.": "",
+    "{atom}: group {g}, so V = {V}. Lone pairs on it: {lp}, so N = {N}. The bonds around it hold {B} electrons (2 for each line), so B = {B}.": "{atom}: {g}족이므로 V = {V}. 이 원자의 비공유 전자쌍: {lp}개이므로 N = {N}. 주위 결합에 전자가 {B}개(선 하나마다 2) 있으므로 B = {B}.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "none yet": "",
+    "none yet": "아직 없음",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "All found. Check: the formal charges of all the atoms add up to {sum}. This equals the overall charge of {f}.": "",
+    "All found. Check: the formal charges of all the atoms add up to {sum}. This equals the overall charge of {f}.": "모두 찾았어요. 확인: 모든 원자의 형식 전하를 더하면 {sum}이에요. 이것은 {f}의 전체 전하와 같아요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "(The other outer atoms are the same as the one you worked out.)": "",
+    "(The other outer atoms are the same as the one you worked out.)": "(다른 바깥 원자들은 방금 구한 원자와 같아요.)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Correct. The formal charge on {atom} is {fc}.": "",
+    "Correct. The formal charge on {atom} is {fc}.": "정답이에요. {atom}의 형식 전하는 {fc}예요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "V is the number of valence electrons in the free atom. {el} is in group {g}.": "",
+    "V is the number of valence electrons in the free atom. {el} is in group {g}.": "V는 자유 원자의 원자가 전자 수예요. {el}은(는) {g}족이에요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "N counts electrons, not pairs. Each lone pair is 2 electrons.": "",
+    "N counts electrons, not pairs. Each lone pair is 2 electrons.": "N은 전자쌍이 아니라 전자를 세요. 비공유 전자쌍 하나는 전자 2개예요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "N counts only the dots drawn on this atom: its lone pair electrons.": "",
+    "N counts only the dots drawn on this atom: its lone pair electrons.": "N은 이 원자에 그려진 점, 즉 비공유 전자쌍의 전자만 세요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "B counts electrons, not bonds. Each line is 2 electrons, so a double bond is 4.": "",
+    "B counts electrons, not bonds. Each line is 2 electrons, so a double bond is 4.": "B는 결합이 아니라 전자를 세요. 선 하나가 전자 2개이므로 이중 결합은 4예요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "B counts every electron in the bonds touching this atom: 2 for each line.": "",
+    "B counts every electron in the bonds touching this atom: 2 for each line.": "B는 이 원자에 닿아 있는 결합의 전자를 모두 세요: 선 하나마다 2.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Check the sign. Start from V, then subtract.": "",
+    "Check the sign. Start from V, then subtract.": "부호를 확인하세요. V에서 시작해서 빼요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "V, N and B are right. Now calculate V − N − ½B. Halve B before you subtract it.": "",
+    "V, N and B are right. Now calculate V − N − ½B. Halve B before you subtract it.": "V, N, B는 맞아요. 이제 V − N − ½B를 계산하세요. B를 빼기 전에 반으로 나누세요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Not yet.": "",
+    "Not yet.": "아직 아니에요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Atom": "",
+    "Atom": "원자",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "In A every atom has formal charge 0. B has +1 on one oxygen and −1 on the other. Charges closest to zero win, so A is preferred.": "",
+    "In A every atom has formal charge 0. B has +1 on one oxygen and −1 on the other. Charges closest to zero win, so A is preferred.": "A에서는 모든 원자의 형식 전하가 0이에요. B에서는 한 산소가 +1, 다른 산소가 −1이에요. 0에 가장 가까운 전하가 이기므로 A가 더 알맞아요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "C has the largest charges (−2, +1, +1), so reject it. A and B both have one +1 and one −1. In A the −1 is on oxygen, the more electronegative atom, so A is preferred.": "",
+    "C has the largest charges (−2, +1, +1), so reject it. A and B both have one +1 and one −1. In A the −1 is on oxygen, the more electronegative atom, so A is preferred.": "C는 전하가 가장 크므로(−2, +1, +1) 제외해요. A와 B는 둘 다 +1 하나와 −1 하나가 있어요. A에서는 −1이 전기 음성도가 더 큰 산소에 있으므로 A가 더 알맞아요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "A keeps the octet on sulfur but has +1 on S and −1 on one O. In B every atom has formal charge 0, so formal charge prefers B. Sulfur is in period 3, so it can have an expanded octet.": "",
+    "A keeps the octet on sulfur but has +1 on S and −1 on one O. In B every atom has formal charge 0, so formal charge prefers B. Sulfur is in period 3, so it can have an expanded octet.": "A는 황의 옥텟을 유지하지만 S에 +1, O 하나에 −1이 있어요. B에서는 모든 원자의 형식 전하가 0이므로 형식 전하로는 B가 더 알맞아요. 황은 3주기 원소라서 확장된 옥텟을 가질 수 있어요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "A has +2 on S and −1 on all four O atoms. B has 0 on S and −1 on only two O atoms. B has formal charges closest to zero, so formal charge prefers B. Both add up to −2.": "",
+    "A has +2 on S and −1 on all four O atoms. B has 0 on S and −1 on only two O atoms. B has formal charges closest to zero, so formal charge prefers B. Both add up to −2.": "A는 S에 +2, 네 O 원자 모두에 −1이 있어요. B는 S에 0, 두 O 원자에만 −1이 있어요. B의 형식 전하가 0에 가장 가까우므로 형식 전하로는 B가 더 알맞아요. 둘 다 합계는 −2예요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Show formal charges": "",
+    "Show formal charges": "형식 전하 보기",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Rule": "",
+    "Rule": "규칙",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Prefer formal charges closest to zero. Then put any negative formal charge on the more electronegative atom.": "",
+    "Prefer formal charges closest to zero. Then put any negative formal charge on the more electronegative atom.": "형식 전하가 0에 가장 가까운 것을 골라요. 그다음 음의 형식 전하가 전기 음성도가 더 큰 원자에 있는 것을 골라요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Lewis formula {L} of {f}": "",
+    "Lewis formula {L} of {f}": "{f}의 루이스 구조식 {L}",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Choose {L}": "",
+    "Choose {L}": "{L} 고르기",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Correct: {L} is the preferred Lewis formula.": "",
+    "Correct: {L} is the preferred Lewis formula.": "정답: {L}이(가) 더 알맞은 루이스 구조식이에요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{L} is not the preferred formula.": "",
+    "{L} is not the preferred formula.": "{L}은(는) 더 알맞은 구조식이 아니에요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "H–H in H₂": "",
+    "H–H in H₂": "H₂의 H–H",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "H–Cl in HCl": "",
+    "H–Cl in HCl": "HCl의 H–Cl",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "F–F in F₂": "",
+    "F–F in F₂": "F₂의 F–F",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "the second bond in C=C": "",
+    "the second bond in C=C": "C=C의 두 번째 결합",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Orbitals": "",
+    "Orbitals": "오비탈",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "s and s, head-on": "",
+    "s and s, head-on": "s와 s, 정면",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "s and p, head-on": "",
+    "s and p, head-on": "s와 p, 정면",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "p and p, head-on": "",
+    "p and p, head-on": "p와 p, 정면",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "p and p, sideways": "",
+    "p and p, sideways": "p와 p, 측면",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Bring the atoms together": "",
+    "Bring the atoms together": "원자를 가까이 옮기기",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Two atomic orbitals on a bond axis": "",
+    "Two atomic orbitals on a bond axis": "결합축 위의 원자 오비탈 두 개",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Overlap": "",
+    "Overlap": "겹침",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Bond formed": "",
+    "Bond formed": "생긴 결합",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Electron density": "",
+    "Electron density": "전자 밀도",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "bond axis": "",
+    "bond axis": "결합축",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Example: {ex}": "",
+    "Example: {ex}": "예: {ex}",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "overlap above the axis": "",
+    "overlap above the axis": "축 위쪽의 겹침",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "overlap below the axis": "",
+    "overlap below the axis": "축 아래쪽의 겹침",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "overlap on the axis, between the nuclei": "",
+    "overlap on the axis, between the nuclei": "축 위, 두 원자핵 사이의 겹침",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "sideways (lateral)": "",
+    "sideways (lateral)": "측면(옆으로)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "head-on (end to end)": "",
+    "head-on (end to end)": "정면(끝과 끝)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "none yet: the orbitals do not overlap": "",
+    "none yet: the orbitals do not overlap": "아직 없음: 오비탈이 겹치지 않아요",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "pi (π) bond: the two regions together are one bond": "",
+    "pi (π) bond: the two regions together are one bond": "파이(π) 결합: 두 영역을 합쳐 결합 하나",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "sigma (σ) bond": "",
+    "sigma (σ) bond": "시그마(σ) 결합",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "on opposite sides of the bond axis": "",
+    "on opposite sides of the bond axis": "결합축의 양쪽",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "along the bond axis": "",
+    "along the bond axis": "결합축을 따라",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "ethene": "",
+    "ethene": "ethene",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "ethyne": "",
+    "ethyne": "ethyne",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "nitrogen": "",
+    "nitrogen": "질소",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "carbon dioxide": "",
+    "carbon dioxide": "이산화 탄소",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "hydrogen cyanide": "",
+    "hydrogen cyanide": "사이안화 수소",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "methanal": "",
+    "methanal": "methanal",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "propene": "",
+    "propene": "propene",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "ethanoic acid": "",
+    "ethanoic acid": "ethanoic acid",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "propanenitrile": "",
+    "propanenitrile": "propanenitrile",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "carbonate ion (one resonance structure)": "",
+    "carbonate ion (one resonance structure)": "탄산 이온 (공명 구조 하나)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "benzene (one resonance structure)": "",
+    "benzene (one resonance structure)": "벤젠 (공명 구조 하나)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Molecule or ion": "",
+    "Molecule or ion": "분자 또는 이온",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Next molecule": "",
+    "Next molecule": "다음 분자",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Show the count": "",
+    "Show the count": "세는 과정 보기",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Molecules counted correctly": "",
+    "Molecules counted correctly": "바르게 센 분자",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{s} single, {d} double and {tr} triple bonds. Every bond has one σ bond: σ = {s} + {d} + {tr} = {sig}. Each double bond adds one π bond and each triple bond adds two: π = {d} + 2 × {tr} = {pi}.": "",
+    "{s} single, {d} double and {tr} triple bonds. Every bond has one σ bond: σ = {s} + {d} + {tr} = {sig}. Each double bond adds one π bond and each triple bond adds two: π = {d} + 2 × {tr} = {pi}.": "단일 결합 {s}개, 이중 결합 {d}개, 삼중 결합 {tr}개. 모든 결합에는 σ 결합이 1개 있어요: σ = {s} + {d} + {tr} = {sig}. 이중 결합은 π 결합을 1개, 삼중 결합은 2개 더해요: π = {d} + 2 × {tr} = {pi}.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Type a whole number in both boxes.": "",
+    "Type a whole number in both boxes.": "두 칸에 모두 정수를 입력하세요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "σ: did you count the bonds to hydrogen? Every single bond is a σ bond.": "",
+    "σ: did you count the bonds to hydrogen? Every single bond is a σ bond.": "σ: 수소와의 결합을 셌나요? 단일 결합은 모두 σ 결합이에요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "σ: a double or triple bond also contains one σ bond.": "",
+    "σ: a double or triple bond also contains one σ bond.": "σ: 이중 결합이나 삼중 결합에도 σ 결합이 1개 들어 있어요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "σ: you counted every line. Only one line in each double or triple bond is a σ bond.": "",
+    "σ: you counted every line. Only one line in each double or triple bond is a σ bond.": "σ: 선을 모두 셌네요. 이중 결합이나 삼중 결합에서 σ 결합은 선 하나뿐이에요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "σ: count one σ bond for every pair of atoms joined together.": "",
+    "σ: count one σ bond for every pair of atoms joined together.": "σ: 서로 연결된 원자 쌍마다 σ 결합을 하나씩 세요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "π: a triple bond has two π bonds.": "",
+    "π: a triple bond has two π bonds.": "π: 삼중 결합에는 π 결합이 2개 있어요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "π: not every line in a multiple bond is π. One of them is the σ bond.": "",
+    "π: not every line in a multiple bond is π. One of them is the σ bond.": "π: 다중 결합의 선이 모두 π인 것은 아니에요. 그중 하나는 σ 결합이에요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "π: one for each double bond, two for each triple bond, none for single bonds.": "",
+    "π: one for each double bond, two for each triple bond, none for single bonds.": "π: 이중 결합마다 1개, 삼중 결합마다 2개, 단일 결합은 0개예요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Structure of {name}, showing every bond": "",
+    "Structure of {name}, showing every bond": "모든 결합을 나타낸 {name}의 구조",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "ethane": "",
+    "ethane": "ethane",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "ammonia": "",
+    "ammonia": "암모니아",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "water": "",
+    "water": "물",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Molecule": "",
+    "Molecule": "분자",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Bonds from this atom": "",
+    "Bonds from this atom": "이 원자의 결합",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Energy diagram: one s orbital and {n} p orbitals mix to form {d} {h} hybrid orbitals of equal energy. {p} p orbitals are left unmixed.": "",
+    "Energy diagram: one s orbital and {n} p orbitals mix to form {d} {h} hybrid orbitals of equal energy. {p} p orbitals are left unmixed.": "에너지 그림: s 오비탈 1개와 p 오비탈 {n}개가 섞여서 에너지가 같은 {h} 혼성 오비탈 {d}개를 만들어요. p 오비탈 {p}개는 섞이지 않고 남아요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "energy": "",
+    "energy": "에너지",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{el} atom": "",
+    "{el} atom": "{el} 원자",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "before mixing": "",
+    "before mixing": "섞이기 전",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{el} in the molecule": "",
+    "{el} in the molecule": "분자 속 {el}",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "after mixing": "",
+    "after mixing": "섞인 후",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "mix": "",
+    "mix": "섞임",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{d} {h} hybrid orbitals. Holding lone pairs: {l}. Forming σ bonds: {b}.": "",
+    "{d} {h} hybrid orbitals. Holding lone pairs: {l}. Forming σ bonds: {b}.": "{h} 혼성 오비탈 {d}개. 비공유 전자쌍을 담은 것: {l}. σ 결합을 만드는 것: {b}.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{d} {h} hybrid orbitals: each forms one σ bond.": "",
+    "{d} {h} hybrid orbitals: each forms one σ bond.": "{h} 혼성 오비탈 {d}개: 각각 σ 결합을 1개씩 만들어요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "No p orbital is left unmixed, so this atom forms no π bond.": "",
+    "No p orbital is left unmixed, so this atom forms no π bond.": "섞이지 않고 남은 p 오비탈이 없으므로 이 원자는 π 결합을 만들지 않아요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "1 unmixed p orbital: it forms the π bond.": "",
+    "1 unmixed p orbital: it forms the π bond.": "섞이지 않은 p 오비탈 1개: π 결합을 만들어요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "2 unmixed p orbitals: they form two π bonds.": "",
+    "2 unmixed p orbitals: they form two π bonds.": "섞이지 않은 p 오비탈 2개: π 결합 2개를 만들어요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Hydrogen uses its 1s orbital to form one σ bond. It is not hybridized.": "",
+    "Hydrogen uses its 1s orbital to form one σ bond. It is not hybridized.": "수소는 1s 오비탈로 σ 결합 1개를 만들어요. 혼성화하지 않아요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "tetrahedral (109.5°)": "",
+    "tetrahedral (109.5°)": "정사면체형 (109.5°)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "trigonal planar (120°)": "",
+    "trigonal planar (120°)": "평면 삼각형 (120°)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "linear (180°)": "",
+    "linear (180°)": "직선형 (180°)",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{atom}: bonded atoms {nb} + lone pairs {lp} = <strong>{dom} electron domains</strong> → <strong>{hyb}</strong> → electron domain geometry: {geo}.": "",
+    "{atom}: bonded atoms {nb} + lone pairs {lp} = <strong>{dom} electron domains</strong> → <strong>{hyb}</strong> → electron domain geometry: {geo}.": "{atom}: 결합한 원자 {nb} + 비공유 전자쌍 {lp} = <strong>전자 영역 {dom}개</strong> → <strong>{hyb}</strong> → 전자 영역 배치: {geo}.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "A double or triple bond counts as one domain.": "",
+    "A double or triple bond counts as one domain.": "이중 결합이나 삼중 결합은 전자 영역 1개로 세요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{dom} (bonded atoms: {nb}, lone pairs: {lp})": "",
+    "{dom} (bonded atoms: {nb}, lone pairs: {lp})": "{dom} (결합한 원자: {nb}, 비공유 전자쌍: {lp})",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "{sg} σ and {pi} π": "",
+    "{sg} σ and {pi} π": "σ {sg}개, π {pi}개",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Lewis formula of {name}. Choose an atom.": "",
+    "Lewis formula of {name}. Choose an atom.": "{name}의 루이스 구조식. 원자를 고르세요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "The complex ion hexaaquacopper(II): a copper 2+ ion in the centre. Six water molecules each donate a lone pair from oxygen to the copper ion, shown as six arrows pointing to the copper.": "",
+    "The complex ion hexaaquacopper(II): a copper 2+ ion in the centre. Six water molecules each donate a lone pair from oxygen to the copper ion, shown as six arrows pointing to the copper.": "착이온 헥사아쿠아구리(II): 가운데에 구리 2+ 이온이 있어요. 물 분자 6개가 각각 산소의 비공유 전자쌍을 구리 이온에 내주며, 구리를 향하는 화살표 6개로 나타냈어요.",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "Both electrons in each bond come from": "",
+    "Both electrons in each bond come from": "각 결합의 두 전자가 오는 곳",
 
     // widget string (assets/js/widgets-s2-2h.js)
-    "the oxygen atom of a water molecule": "",
+    "the oxygen atom of a water molecule": "물 분자의 산소 원자",
 
   }
 });

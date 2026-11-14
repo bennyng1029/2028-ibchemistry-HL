@@ -24,7 +24,7 @@ S1.i18n.register('ko', 's2-4', {
     "Tick each one when you can do it without looking at your notes.": "노트를 보지 않고 할 수 있게 되면 하나씩 체크하세요.",
 
     // What you need to be able to do > checklist > span
-    "Describe bonding as a continuum between the ionic, covalent and metallic models, and use the models to explain the properties of a material.": "결합을 이온 결합, 공유 결합, 금속 결합 모형 사이의 연속체로 설명하고, 이 모형들로 재료의 성질을 설명할 수 있어요.",
+    "Describe bonding as a continuum between the ionic, covalent and metallic models, and use the models to explain the properties of a material.": "결합을 이온 결합, 공유 결합, 금속 결합 모형 사이의 연속체로 서술하고, 이 모형들로 재료의 성질을 설명할 수 있어요.",
 
     // What you need to be able to do > checklist > span
     "Find the position of a binary compound in the bonding triangle from electronegativity data.": "전기 음성도 자료로 이성분 화합물의 결합 삼각형 속 위치를 찾을 수 있어요.",
@@ -1186,550 +1186,550 @@ S1.i18n.register('ko', 's2-4', {
 
     // Exam-style practice > data-toc attribute
     // Exam-style practice > h2
-    "Exam-style practice": "",
+    "Exam-style practice": "시험 유형 연습",
 
     // Exam-style practice > p
-    "Questions you have not yet answered correctly come up first, so each set changes when you come back to it. Each question gives the electronegativity values and the diagram you need. Have paper and a calculator beside you.": "",
+    "Questions you have not yet answered correctly come up first, so each set changes when you come back to it. Each question gives the electronegativity values and the diagram you need. Have paper and a calculator beside you.": "아직 맞히지 못한 문제가 먼저 나오므로, 다시 올 때마다 문제 세트가 달라져요. 각 문제에는 필요한 전기 음성도 값과 그림이 주어져요. 종이와 계산기를 옆에 두세요.",
 
     // Exam-style practice > h3
-    "Foundation: one idea at a time": "",
+    "Foundation: one idea at a time": "기초: 한 번에 한 가지씩",
 
     // Exam-style practice > data-title attribute
-    "2.4 foundation": "",
+    "2.4 foundation": "2.4 기초",
 
     // Exam-style practice > h3
-    "Exam standard": "",
+    "Exam standard": "시험 수준",
 
     // Exam-style practice > data-title attribute
-    "2.4 exam standard": "",
+    "2.4 exam standard": "2.4 시험 수준",
 
     // Exam-style practice > h3
-    "Challenge": "",
+    "Challenge": "도전",
 
     // Exam-style practice > data-title attribute
-    "2.4 challenge": "",
+    "2.4 challenge": "2.4 도전",
 
     // Exam-style practice > Additional HL > h3
-    "Additional HL only: condensation polymers": "",
+    "Additional HL only: condensation polymers": "HL 추가 내용만: 축합 중합체",
 
     // Exam-style practice > Additional HL > data-title attribute
-    "2.4 Additional HL": "",
+    "2.4 Additional HL": "2.4 HL 추가",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "hydrogen": "",
+    "hydrogen": "수소",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "lithium": "",
+    "lithium": "리튬",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "beryllium": "",
+    "beryllium": "베릴륨",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "boron": "",
+    "boron": "붕소",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "carbon": "",
+    "carbon": "탄소",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "nitrogen": "",
+    "nitrogen": "질소",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "oxygen": "",
+    "oxygen": "산소",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "fluorine": "",
+    "fluorine": "플루오린",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "sodium": "",
+    "sodium": "나트륨",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "magnesium": "",
+    "magnesium": "마그네슘",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "aluminium": "",
+    "aluminium": "알루미늄",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "silicon": "",
+    "silicon": "규소",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "phosphorus": "",
+    "phosphorus": "인",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "sulfur": "",
+    "sulfur": "황",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "chlorine": "",
+    "chlorine": "염소",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "potassium": "",
+    "potassium": "칼륨",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "calcium": "",
+    "calcium": "칼슘",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "iron": "",
+    "iron": "철",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "zinc": "",
+    "zinc": "아연",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "bromine": "",
+    "bromine": "브로민",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "tin": "",
+    "tin": "주석",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "iodine": "",
+    "iodine": "아이오딘",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "caesium": "",
+    "caesium": "세슘",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "barium": "",
+    "barium": "바륨",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "metallic": "",
+    "metallic": "금속 결합",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "ionic": "",
+    "ionic": "이온 결합",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "covalent or polar covalent": "",
+    "covalent or polar covalent": "공유 결합 또는 극성 공유 결합",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Polar": "",
+    "Polar": "극성",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "covalent": "",
+    "covalent": "공유 결합",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Electronegativity difference, Δχ": "",
+    "Electronegativity difference, Δχ": "전기 음성도 차, Δχ",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The ionic model fits best. Expect a hard, brittle solid with a high melting point. It does not conduct electricity as a solid. It conducts when molten or dissolved in water.": "",
+    "The ionic model fits best. Expect a hard, brittle solid with a high melting point. It does not conduct electricity as a solid. It conducts when molten or dissolved in water.": "이온 결합 모형이 가장 잘 맞아요. 녹는점이 높고 단단하며 잘 부서지는 고체일 거예요. 고체에서는 전기가 통하지 않아요. 녹거나 물에 녹으면 전기가 통해요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The metallic model fits best. Expect a solid that conducts electricity and heat well and is malleable.": "",
+    "The metallic model fits best. Expect a solid that conducts electricity and heat well and is malleable.": "금속 결합 모형이 가장 잘 맞아요. 전기와 열이 잘 통하고 펴짐성이 있는 고체일 거예요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The covalent model fits best, and the bonds are non-polar (Δχ = 0). Expect a poor electrical conductor. The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).": "",
+    "The covalent model fits best, and the bonds are non-polar (Δχ = 0). Expect a poor electrical conductor. The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).": "공유 결합 모형이 가장 잘 맞고, 결합은 무극성이에요(Δχ = 0). 전기가 잘 통하지 않을 거예요. 이 물질이 분자로 되어 있는지(녹는점이 낮음), 공유 결정인지(녹는점이 매우 높음)는 삼각형으로 알 수 없어요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The covalent model fits best. The bonds are polar, and more polar the higher the point sits. Expect a poor electrical conductor in every state. The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).": "",
+    "The covalent model fits best. The bonds are polar, and more polar the higher the point sits. Expect a poor electrical conductor in every state. The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).": "공유 결합 모형이 가장 잘 맞아요. 결합에 극성이 있고, 점이 높이 있을수록 극성이 커요. 어떤 상태에서도 전기가 잘 통하지 않을 거예요. 이 물질이 분자로 되어 있는지(녹는점이 낮음), 공유 결정인지(녹는점이 매우 높음)는 삼각형으로 알 수 없어요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Take care: this point is very close to the boundary with the {region} region. The triangle does not give a clear answer here. Expect properties between the two models.": "",
+    "Take care: this point is very close to the boundary with the {region} region. The triangle does not give a clear answer here. Expect properties between the two models.": "주의하세요. 이 점은 {region} 영역과의 경계에 아주 가까워요. 여기서는 삼각형이 분명한 답을 주지 않아요. 두 모형 사이의 성질을 예상하세요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "This point is just outside the outline printed in the data booklet. The printed outline is drawn a little too small for points like this one (it happens with fluorides). Your two numbers are still correct. Read the nearest region: {region}.": "",
+    "This point is just outside the outline printed in the data booklet. The printed outline is drawn a little too small for points like this one (it happens with fluorides). Your two numbers are still correct. Read the nearest region: {region}.": "이 점은 데이터 부클릿에 인쇄된 외곽선 바로 바깥에 있어요. 인쇄된 외곽선은 이런 점에 비해 조금 작게 그려져 있어요(플루오린화물에서 이런 일이 생겨요). 두 숫자는 그래도 맞아요. 가장 가까운 영역을 읽으세요: {region}.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "First element": "",
+    "First element": "첫 번째 원소",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Second element (choose the same one for an element)": "",
+    "Second element (choose the same one for an element)": "두 번째 원소(홑원소 물질이면 같은 원소를 고르세요)",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Or pick an example": "",
+    "Or pick an example": "또는 예시 고르기",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "(my own choice)": "",
+    "(my own choice)": "(직접 고름)",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Predict first: new compound": "",
+    "Predict first: new compound": "먼저 예측하기: 새 화합물",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Bonding triangle. Horizontal axis: average electronegativity. Vertical axis: electronegativity difference. Metallic region at the bottom left, ionic region at the top, covalent and polar covalent region at the bottom right. The readout below gives the position of the chosen point.": "",
+    "Bonding triangle. Horizontal axis: average electronegativity. Vertical axis: electronegativity difference. Metallic region at the bottom left, ionic region at the top, covalent and polar covalent region at the bottom right. The readout below gives the position of the chosen point.": "결합 삼각형. 가로축: 평균 전기 음성도. 세로축: 전기 음성도 차. 금속 결합 영역은 왼쪽 아래, 이온 결합 영역은 위쪽, 공유 결합과 극성 공유 결합 영역은 오른쪽 아래에 있어요. 아래의 표시 창에 고른 점의 위치가 나와요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Position (average, difference)": "",
+    "Position (average, difference)": "위치(평균, 차)",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Read from the % scale": "",
+    "Read from the % scale": "% 눈금에서 읽은 값",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Prediction": "",
+    "Prediction": "예측",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Correct": "",
+    "Correct": "정답",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Not quite": "",
+    "Not quite": "아쉬워요",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "{formula} sits in the {region} region. Check the two numbers in the working, then find the point on the triangle.": "",
+    "{formula} sits in the {region} region. Check the two numbers in the working, then find the point on the triangle.": "{formula}의 위치는 {region} 영역이에요. 풀이의 두 숫자를 확인한 다음 삼각형에서 점을 찾아보세요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "It is close to the boundary with the {other} region, so either model on its own is a rough description.": "",
+    "It is close to the boundary with the {other} region, so either model on its own is a rough description.": "{other} 영역과의 경계에 가까워서, 어느 한 모형만으로는 대략적인 설명밖에 되지 않아요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Where would {formula} sit?": "",
+    "Where would {formula} sit?": "{formula}는 어디에 놓일까요?",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Use χ({a}) = {xa}.": "",
+    "Use χ({a}) = {xa}.": "χ({a}) = {xa}를 사용하세요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Use χ({a}) = {xa} and χ({b}) = {xb}.": "",
+    "Use χ({a}) = {xa} and χ({b}) = {xb}.": "χ({a}) = {xa}, χ({b}) = {xb}를 사용하세요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Work out the difference and the average on paper. Then choose a region.": "",
+    "Work out the difference and the average on paper. Then choose a region.": "종이에 차와 평균을 계산해 보세요. 그다음 영역을 고르세요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Make your prediction first.": "",
+    "Make your prediction first.": "먼저 예측하세요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "average": "",
+    "average": "평균",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "about {ionic} % ionic, {cov} % covalent": "",
+    "about {ionic} % ionic, {cov} % covalent": "이온 결합성 약 {ionic} %, 공유 결합성 {cov} %",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Each corner is one pure bonding model. Most substances sit somewhere between the corners.": "",
+    "Each corner is one pure bonding model. Most substances sit somewhere between the corners.": "각 꼭짓점은 순수한 결합 모형 하나예요. 대부분의 물질은 꼭짓점 사이 어딘가에 있어요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Bottom left: both elements have low electronegativity, and the difference is small. Neither atom holds its outer electrons strongly, so the electrons are delocalized. Sodium is an example.": "",
+    "Bottom left: both elements have low electronegativity, and the difference is small. Neither atom holds its outer electrons strongly, so the electrons are delocalized. Sodium is an example.": "왼쪽 아래: 두 원소 모두 전기 음성도가 낮고 차가 작아요. 어느 원자도 바깥 전자를 세게 붙잡지 않아서 전자가 비편재화돼요. 나트륨이 한 예예요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Top: one element has low electronegativity and the other has high electronegativity, so the difference is large. Electrons are transferred and ions form. Caesium fluoride is a very ionic example.": "",
+    "Top: one element has low electronegativity and the other has high electronegativity, so the difference is large. Electrons are transferred and ions form. Caesium fluoride is a very ionic example.": "위쪽: 한 원소는 전기 음성도가 낮고 다른 원소는 전기 음성도가 높아서 차가 커요. 전자가 이동해 이온이 만들어져요. 플루오린화 세슘은 이온 결합성이 매우 큰 예예요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Bottom right: both elements have high electronegativity, and the difference is small. Both atoms attract the electrons strongly, so the electrons are shared. Chlorine is an example. Higher up this region the sharing is unequal: polar covalent.": "",
+    "Bottom right: both elements have high electronegativity, and the difference is small. Both atoms attract the electrons strongly, so the electrons are shared. Chlorine is an example. Higher up this region the sharing is unequal: polar covalent.": "오른쪽 아래: 두 원소 모두 전기 음성도가 높고 차가 작아요. 두 원자 모두 전자를 세게 끌어당겨서 전자를 공유해요. 염소가 한 예예요. 이 영역에서 위로 올라갈수록 전자를 불균등하게 공유해요: 극성 공유 결합.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Explain a region": "",
+    "Explain a region": "영역 설명 보기",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The whole triangle": "",
+    "The whole triangle": "삼각형 전체",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Bonding triangle with example substances. Sodium is in the metallic corner, chlorine in the covalent corner and caesium fluoride at the ionic top. Sodium chloride is in the ionic region. Silicon dioxide is in the polar covalent region. On a wide screen hydrogen chloride is also shown there.": "",
+    "Bonding triangle with example substances. Sodium is in the metallic corner, chlorine in the covalent corner and caesium fluoride at the ionic top. Sodium chloride is in the ionic region. Silicon dioxide is in the polar covalent region. On a wide screen hydrogen chloride is also shown there.": "예시 물질이 표시된 결합 삼각형. 나트륨은 금속 결합 꼭짓점, 염소는 공유 결합 꼭짓점, 플루오린화 세슘은 이온 결합 꼭대기에 있어요. 염화 나트륨은 이온 결합 영역에 있어요. 이산화 규소는 극성 공유 결합 영역에 있어요. 넓은 화면에서는 염화 수소도 그 영역에 표시돼요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "What this region means": "",
+    "What this region means": "이 영역의 뜻",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Material": "",
+    "Material": "재료",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Pure metal": "",
+    "Pure metal": "순수한 금속",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Alloy: some larger atoms added": "",
+    "Alloy: some larger atoms added": "합금: 더 큰 원자를 조금 섞음",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Alloy: some smaller atoms added": "",
+    "Alloy: some smaller atoms added": "합금: 더 작은 원자를 조금 섞음",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Push the top layers": "",
+    "Push the top layers": "위쪽 층 밀기",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Reset": "",
+    "Reset": "처음으로",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Model of a metal lattice: rows of positive ions in a sea of delocalized electrons. In the alloy some ions are a different size, so the rows are no longer regular.": "",
+    "Model of a metal lattice: rows of positive ions in a sea of delocalized electrons. In the alloy some ions are a different size, so the rows are no longer regular.": "금속 격자 모형: 비편재화된 전자의 바다 속에 양이온이 줄지어 있어요. 합금에서는 일부 이온의 크기가 달라서 줄이 더 이상 규칙적이지 않아요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "What happened": "",
+    "What happened": "일어난 일",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "force": "",
+    "force": "힘",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Shaded background: delocalized electrons (not drawn one by one)": "",
+    "Shaded background: delocalized electrons (not drawn one by one)": "음영 배경: 비편재화된 전자(하나하나 그리지 않음)",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "All ions are the same size: regular layers": "",
+    "All ions are the same size: regular layers": "모든 이온의 크기가 같음: 규칙적인 층",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Dark circles: atoms of the added element": "",
+    "Dark circles: atoms of the added element": "진한 원: 섞은 원소의 원자",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Nothing yet. Press “Push the top layers”.": "",
+    "Nothing yet. Press “Push the top layers”.": "아직 아무 일도 없어요. “위쪽 층 밀기”를 누르세요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The layers have moved two places. Press Reset to try again.": "",
+    "The layers have moved two places. Press Reset to try again.": "층이 두 칸 움직였어요. 다시 해 보려면 “처음으로”를 누르세요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The layers slid one place. Every ion is still surrounded by delocalized electrons, so the metallic bonding is unchanged. The metal changed shape without breaking: it is malleable.": "",
+    "The layers slid one place. Every ion is still surrounded by delocalized electrons, so the metallic bonding is unchanged. The metal changed shape without breaking: it is malleable.": "층이 한 칸 미끄러졌어요. 모든 이온이 여전히 비편재화된 전자에 둘러싸여 있어서 금속 결합은 그대로예요. 금속은 부서지지 않고 모양만 바뀌었어요. 펴짐성이 있는 거예요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The layers hardly moved. The different-sized atoms break up the regular layers, so the layers cannot slide past each other as easily. The same force gives less change of shape: the alloy is harder and stronger.": "",
+    "The layers hardly moved. The different-sized atoms break up the regular layers, so the layers cannot slide past each other as easily. The same force gives less change of shape: the alloy is harder and stronger.": "층이 거의 움직이지 않았어요. 크기가 다른 원자가 규칙적인 층을 흐트러뜨려서 층이 서로 쉽게 미끄러지지 못해요. 같은 힘을 줘도 모양이 덜 바뀌어요. 합금이 더 단단하고 강한 거예요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Does not conduct electricity": "",
+    "Does not conduct electricity": "전기가 통하지 않음",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "All the outer electrons are held in covalent bonds. There are no delocalized electrons and no mobile ions to carry charge.": "",
+    "All the outer electrons are held in covalent bonds. There are no delocalized electrons and no mobile ions to carry charge.": "바깥 전자가 모두 공유 결합에 붙잡혀 있어요. 전하를 옮길 비편재화된 전자도, 움직이는 이온도 없어요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Does not react with water, air, acids or alkalis": "",
+    "Does not react with water, air, acids or alkalis": "물, 공기, 산, 알칼리와 반응하지 않음",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The chains are held together by strong covalent bonds, which take a lot of energy to break. So the polymer is chemically unreactive (inert).": "",
+    "The chains are held together by strong covalent bonds, which take a lot of energy to break. So the polymer is chemically unreactive (inert).": "사슬은 강한 공유 결합으로 이루어져 있고, 이 결합을 끊으려면 많은 에너지가 필요해요. 그래서 고분자는 화학적으로 반응성이 작아요(비활성).",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The chains are made mostly of light atoms such as carbon and hydrogen, and long chains do not pack tightly.": "",
+    "The chains are made mostly of light atoms such as carbon and hydrogen, and long chains do not pack tightly.": "사슬은 주로 탄소, 수소처럼 가벼운 원자로 되어 있고, 긴 사슬은 빽빽하게 쌓이지 않아요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Not broken down by microorganisms (non-biodegradable)": "",
+    "Not broken down by microorganisms (non-biodegradable)": "미생물이 분해하지 못함(생분해되지 않음)",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "This is a chemical property: it is about reactions. The strong covalent bonds in the chains are not easily broken, so the plastic stays in the environment for a very long time.": "",
+    "This is a chemical property: it is about reactions. The strong covalent bonds in the chains are not easily broken, so the plastic stays in the environment for a very long time.": "이것은 화학적 성질이에요. 반응에 관한 성질이기 때문이에요. 사슬 속 강한 공유 결합이 쉽게 끊어지지 않아서 플라스틱은 아주 오랫동안 환경에 남아 있어요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Softens when heated, so it can be moulded into shapes": "",
+    "Softens when heated, so it can be moulded into shapes": "가열하면 물러져서 여러 모양으로 만들 수 있음",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Only weak intermolecular forces hold one chain to the next. Gentle heating gives the chains enough energy to slide past each other. No covalent bonds break.": "",
+    "Only weak intermolecular forces hold one chain to the next. Gentle heating gives the chains enough energy to slide past each other. No covalent bonds break.": "한 사슬과 다음 사슬 사이에는 약한 분자 간 힘만 작용해요. 살짝 가열하면 사슬이 서로 미끄러질 만큼 에너지를 얻어요. 공유 결합은 끊어지지 않아요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "There are no delocalized electrons to carry energy quickly through the material.": "",
+    "There are no delocalized electrons to carry energy quickly through the material.": "재료 속에서 에너지를 빠르게 전달할 비편재화된 전자가 없어요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Each chain is very long, so the many intermolecular forces along its length add up. The chains also tangle.": "",
+    "Each chain is very long, so the many intermolecular forces along its length add up. The chains also tangle.": "사슬 하나하나가 매우 길어서, 사슬을 따라 작용하는 수많은 분자 간 힘이 합쳐져요. 사슬끼리 엉키기도 해요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Sorted correctly": "",
+    "Sorted correctly": "맞게 분류한 수",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "All sorted.": "",
+    "All sorted.": "모두 분류했어요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "In an exam, read the question carefully: if it asks for a chemical property of a plastic, a physical property earns no mark.": "",
+    "In an exam, read the question carefully: if it asks for a chemical property of a plastic, a physical property earns no mark.": "시험에서는 문제를 잘 읽으세요. 플라스틱의 화학적 성질을 묻는다면 물리적 성질을 써도 점수를 받지 못해요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Start again": "",
+    "Start again": "다시 시작",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Property {n} of {total}": "",
+    "Property {n} of {total}": "성질 {n} / {total}",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Physical property": "",
+    "Physical property": "물리적 성질",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Chemical property": "",
+    "Chemical property": "화학적 성질",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "This is a physical property: no new substance forms.": "",
+    "This is a physical property: no new substance forms.": "이것은 물리적 성질이에요. 새로운 물질이 생기지 않아요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "This is a chemical property: it describes how the plastic reacts.": "",
+    "This is a chemical property: it describes how the plastic reacts.": "이것은 화학적 성질이에요. 플라스틱이 어떻게 반응하는지를 나타내요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Reason from the structure:": "",
+    "Reason from the structure:": "구조에서 찾은 이유:",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Next property": "",
+    "Next property": "다음 성질",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "ethene": "",
+    "ethene": "ethene",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "propene": "",
+    "propene": "propene",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "chloroethene": "",
+    "chloroethene": "chloroethene",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "tetrafluoroethene": "",
+    "tetrafluoroethene": "tetrafluoroethene",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "phenylethene": "",
+    "phenylethene": "phenylethene",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "propenenitrile": "",
+    "propenenitrile": "propenenitrile",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "1,1-dichloroethene": "",
+    "1,1-dichloroethene": "1,1-dichloroethene",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "1,2-dichloroethene": "",
+    "1,2-dichloroethene": "1,2-dichloroethene",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "1,1-difluoroethene": "",
+    "1,1-difluoroethene": "1,1-difluoroethene",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "but-2-ene": "",
+    "but-2-ene": "but-2-ene",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Monomer": "",
+    "Monomer": "단위체",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Back": "",
+    "Back": "이전",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Next step": "",
+    "Next step": "다음 단계",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Reverse: find the monomer": "",
+    "Reverse: find the monomer": "거꾸로: 단위체 찾기",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Back to the builder": "",
+    "Back to the builder": "만들기로 돌아가기",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Repeating unit": "",
+    "Repeating unit": "반복 단위",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Check": "",
+    "Check": "확인",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Step 1 of 4: three monomer molecules": "",
+    "Step 1 of 4: three monomer molecules": "4단계 중 1단계: 단위체 분자 3개",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Each monomer has a carbon to carbon double bond, C=C.": "",
+    "Each monomer has a carbon to carbon double bond, C=C.": "각 단위체에는 탄소-탄소 이중 결합 C=C가 있어요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Step 2 of 4: open each double bond": "",
+    "Step 2 of 4: open each double bond": "4단계 중 2단계: 이중 결합 열기",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "One of the two bonds in each C=C breaks. Each of the two carbons can now form one new bond. This picture is a book-keeping model, not the reaction mechanism.": "",
+    "One of the two bonds in each C=C breaks. Each of the two carbons can now form one new bond. This picture is a book-keeping model, not the reaction mechanism.": "각 C=C의 두 결합 중 하나가 끊어져요. 이제 두 탄소가 각각 새 결합을 하나씩 만들 수 있어요. 이 그림은 원자와 결합의 수를 세기 위한 모형이지 반응 메커니즘이 아니에요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Step 3 of 4: join the units": "",
+    "Step 3 of 4: join the units": "4단계 중 3단계: 단위 잇기",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The new bonds link the carbons into one long chain. Only single bonds remain in the backbone. The side groups have not moved. No atoms are lost.": "",
+    "The new bonds link the carbons into one long chain. Only single bonds remain in the backbone. The side groups have not moved. No atoms are lost.": "새 결합이 탄소들을 하나의 긴 사슬로 이어요. 주사슬에는 단일 결합만 남아요. 곁사슬은 움직이지 않았어요. 잃어버린 원자는 없어요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Step 4 of 4: the repeating unit": "",
+    "Step 4 of 4: the repeating unit": "4단계 중 4단계: 반복 단위",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "One pair of backbone carbons with its four side groups, in brackets. The bonds must cross the brackets. The letter n means a very large number.": "",
+    "One pair of backbone carbons with its four side groups, in brackets. The bonds must cross the brackets. The letter n means a very large number.": "주사슬 탄소 한 쌍과 곁사슬 4개를 괄호로 묶어요. 결합은 괄호를 지나가야 해요. 문자 n은 아주 큰 수를 뜻해요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Three separate molecules of {name}, each with a carbon to carbon double bond": "",
+    "Three separate molecules of {name}, each with a carbon to carbon double bond": "{name} 분자 3개가 따로 있고, 각각 탄소-탄소 이중 결합이 있어요",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Three units of {name} with the double bonds opened: each unit has a single bond between its two carbons and one free bond at each end": "",
+    "Three units of {name} with the double bonds opened: each unit has a single bond between its two carbons and one free bond at each end": "이중 결합이 열린 {name} 단위 3개: 각 단위의 두 탄소 사이에는 단일 결합이 있고, 양 끝에 빈 결합이 하나씩 있어요",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "A chain of three repeating units made from {name}: six backbone carbons joined by single bonds, with a continuation bond at each end": "",
+    "A chain of three repeating units made from {name}: six backbone carbons joined by single bonds, with a continuation bond at each end": "{name}로 만든 반복 단위 3개짜리 사슬: 단일 결합으로 연결된 주사슬 탄소 6개, 양 끝에는 이어지는 결합",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Repeating unit of the polymer of {name}: {unit}, in square brackets with n": "",
+    "Repeating unit of the polymer of {name}: {unit}, in square brackets with n": "{name} 고분자의 반복 단위: 대괄호와 n으로 나타낸 {unit}",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "reach step 4": "",
+    "reach step 4": "4단계에서 나와요",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The repeating unit has the same atoms as one monomer: nothing is lost, so the atom economy is 100 %.": "",
+    "The repeating unit has the same atoms as one monomer: nothing is lost, so the atom economy is 100 %.": "반복 단위에는 단위체 하나와 똑같은 원자들이 있어요. 잃어버린 것이 없으므로 원자 경제성은 100 %예요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Count the atoms at each step. The number never changes.": "",
+    "Count the atoms at each step. The number never changes.": "단계마다 원자를 세어 보세요. 개수는 절대 바뀌지 않아요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Find the monomer.": "",
+    "Find the monomer.": "단위체를 찾으세요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "This is a section of an addition polymer. Which monomer made it?": "",
+    "This is a section of an addition polymer. Which monomer made it?": "첨가 중합체의 일부분이에요. 어떤 단위체로 만들었을까요?",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "A section of an addition polymer chain with six backbone carbons. Repeating unit: {unit}": "",
+    "A section of an addition polymer chain with six backbone carbons. Repeating unit: {unit}": "주사슬 탄소가 6개인 첨가 중합체 사슬의 일부분. 반복 단위: {unit}",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Not this one": "",
+    "Not this one": "이것이 아니에요",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The monomer is {name}, {mono}. Two neighbouring backbone carbons and their four side groups make one repeating unit. Put the double bond back between those two carbons.": "",
+    "The monomer is {name}, {mono}. Two neighbouring backbone carbons and their four side groups make one repeating unit. Put the double bond back between those two carbons.": "단위체는 {name}, {mono}예요. 이웃한 주사슬 탄소 2개와 곁사슬 4개가 반복 단위 하나를 이뤄요. 그 두 탄소 사이에 이중 결합을 되돌려 놓으세요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Split the chain into pairs of backbone carbons. Each pair, with its four side groups, came from one monomer. Compare those side groups with this molecule, then try again.": "",
+    "Split the chain into pairs of backbone carbons. Each pair, with its four side groups, came from one monomer. Compare those side groups with this molecule, then try again.": "사슬을 주사슬 탄소 2개씩 나눠 보세요. 곁사슬 4개를 포함한 한 쌍이 단위체 하나에서 왔어요. 그 곁사슬을 이 분자와 비교한 다음 다시 해 보세요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Another polymer": "",
+    "Another polymer": "다른 고분자",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The repeating unit of an addition polymer has two backbone carbons.": "",
+    "The repeating unit of an addition polymer has two backbone carbons.": "첨가 중합체의 반복 단위에는 주사슬 탄소가 2개 있어요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Polyester: diol + dicarboxylic acid": "",
+    "Polyester: diol + dicarboxylic acid": "폴리에스터: 다이올 + 다이카복실산",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "ester link, –COO–": "",
+    "ester link, –COO–": "에스터 결합, –COO–",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "a diol (two –OH groups)": "",
+    "a diol (two –OH groups)": "다이올(–OH 원자단 2개)",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "a dicarboxylic acid (two –COOH groups)": "",
+    "a dicarboxylic acid (two –COOH groups)": "다이카복실산(–COOH 원자단 2개)",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Polyamide: diamine + dicarboxylic acid": "",
+    "Polyamide: diamine + dicarboxylic acid": "폴리아마이드: 다이아민 + 다이카복실산",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "amide link, –CONH–": "",
+    "amide link, –CONH–": "아마이드 결합, –CONH–",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "a diamine (two –NH₂ groups)": "",
+    "a diamine (two –NH₂ groups)": "다이아민(–NH₂ 원자단 2개)",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Polypeptide: amino acids": "",
+    "Polypeptide: amino acids": "폴리펩타이드: 아미노산",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "amide link, –CONH– (called a peptide bond in proteins)": "",
+    "amide link, –CONH– (called a peptide bond in proteins)": "아마이드 결합, –CONH–(단백질에서는 펩타이드 결합이라고 해요)",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "an amino acid (one –NH₂ group and one –COOH group)": "",
+    "an amino acid (one –NH₂ group and one –COOH group)": "아미노산(–NH₂ 원자단 1개와 –COOH 원자단 1개)",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "a second amino acid": "",
+    "a second amino acid": "두 번째 아미노산",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Polymer type": "",
+    "Polymer type": "고분자의 종류",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Small molecule released": "",
+    "Small molecule released": "떨어져 나오는 작은 분자",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Step 1 of 5: the two monomers": "",
+    "Step 1 of 5: the two monomers": "5단계 중 1단계: 두 단위체",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Monomer A is {A}. Monomer B is {B}. Each monomer has two functional groups, one at each end, so it can join on both sides. R¹ and R² stand for the side groups.": "",
+    "Monomer A is {A}. Monomer B is {B}. Each monomer has two functional groups, one at each end, so it can join on both sides. R¹ and R² stand for the side groups.": "단위체 A는 {A}이에요. 단위체 B는 {B}이에요. 각 단위체에는 양 끝에 작용기가 하나씩, 모두 2개 있어서 양쪽으로 결합할 수 있어요. R¹과 R²는 곁사슬을 나타내요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Monomer A is {A}. Monomer B is {B}. Each monomer has two functional groups, one at each end, so it can join on both sides. A box stands for the rest of the molecule.": "",
+    "Monomer A is {A}. Monomer B is {B}. Each monomer has two functional groups, one at each end, so it can join on both sides. A box stands for the rest of the molecule.": "단위체 A는 {A}이에요. 단위체 B는 {B}이에요. 각 단위체에는 양 끝에 작용기가 하나씩, 모두 2개 있어서 양쪽으로 결합할 수 있어요. 상자는 분자의 나머지 부분을 나타내요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Two monomers, each with a functional group at both ends": "",
+    "Two monomers, each with a functional group at both ends": "양 끝에 각각 작용기가 있는 단위체 2개",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Step 2 of 5: find the atoms that leave": "",
+    "Step 2 of 5: find the atoms that leave": "5단계 중 2단계: 떨어져 나가는 원자 찾기",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The dashed outlines mark an H atom on one monomer and the –OH of a –COOH group on the other monomer. Together these atoms make one molecule of water.": "",
+    "The dashed outlines mark an H atom on one monomer and the –OH of a –COOH group on the other monomer. Together these atoms make one molecule of water.": "점선 테두리는 한 단위체의 H 원자와 다른 단위체에 있는 –COOH 원자단의 –OH를 표시해요. 이 원자들이 합쳐져 물 분자 하나가 돼요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The same two monomers. A hydrogen atom on one monomer and the OH of a carboxyl group on the other monomer are outlined.": "",
+    "The same two monomers. A hydrogen atom on one monomer and the OH of a carboxyl group on the other monomer are outlined.": "같은 두 단위체. 한 단위체의 수소 원자와 다른 단위체에 있는 카복실기의 OH에 테두리가 쳐져 있어요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Step 3 of 5: the link forms and water is released": "",
+    "Step 3 of 5: the link forms and water is released": "5단계 중 3단계: 결합이 생기고 물이 떨어져 나옴",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "A new bond joins the two monomers. The underlined atoms are the {link}. The product still has a functional group at each end, so it can react again and the chain grows.": "",
+    "A new bond joins the two monomers. The underlined atoms are the {link}. The product still has a functional group at each end, so it can react again and the chain grows.": "새 결합이 두 단위체를 이어요. 밑줄 친 원자들이 {link}이에요. 생성물의 양 끝에는 여전히 작용기가 있어서 다시 반응할 수 있고, 사슬이 길어져요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "The two monomers joined by a new link, and one molecule of water": "",
+    "The two monomers joined by a new link, and one molecule of water": "새 결합으로 이어진 두 단위체와 물 분자 1개",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Step 4 of 5: the repeating unit": "",
+    "Step 4 of 5: the repeating unit": "5단계 중 4단계: 반복 단위",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "One amino acid unit with its end atoms removed, in brackets with n. R stands for the side group, which differs from one amino acid to the next.": "",
+    "One amino acid unit with its end atoms removed, in brackets with n. R stands for the side group, which differs from one amino acid to the next.": "끝 원자를 지운 아미노산 단위 하나를 괄호와 n으로 나타냈어요. R은 곁사슬을 나타내고, 아미노산마다 달라요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "One unit from A joined to one unit from B, with the end H and OH removed. The bonds cross the brackets. One link is inside the unit. The second link forms where units join.": "",
+    "One unit from A joined to one unit from B, with the end H and OH removed. The bonds cross the brackets. One link is inside the unit. The second link forms where units join.": "A에서 온 단위 하나와 B에서 온 단위 하나가 이어져 있고, 끝의 H와 OH는 지웠어요. 결합은 괄호를 지나가요. 결합 하나는 단위 안에 있어요. 두 번째 결합은 단위끼리 이어지는 곳에서 생겨요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Repeating unit of the condensation polymer in square brackets with n: {unit}": "",
+    "Repeating unit of the condensation polymer in square brackets with n: {unit}": "대괄호와 n으로 나타낸 축합 중합체의 반복 단위: {unit}",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Step 5 of 5: hydrolysis, the reverse reaction": "",
+    "Step 5 of 5: hydrolysis, the reverse reaction": "5단계 중 5단계: 가수 분해, 역반응",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Water breaks the underlined link. The –OH of water joins the C=O carbon and the H of water joins the O or N atom. The monomers form again. Biological macromolecules are broken down in the same way.": "",
+    "Water breaks the underlined link. The –OH of water joins the C=O carbon and the H of water joins the O or N atom. The monomers form again. Biological macromolecules are broken down in the same way.": "물이 밑줄 친 결합을 끊어요. 물의 –OH는 C=O 탄소에, 물의 H는 O나 N 원자에 붙어요. 단위체가 다시 만들어져요. 생체 거대 분자도 같은 방식으로 분해돼요.",
 
     // widget string (assets/js/widgets-s2-4.js)
-    "Hydrolysis: the linked molecule and one water molecule give back the two monomers. The atoms that came from water are outlined.": "",
+    "Hydrolysis: the linked molecule and one water molecule give back the two monomers. The atoms that came from water are outlined.": "가수 분해: 이어진 분자와 물 분자 1개가 반응해 두 단위체로 돌아가요. 물에서 온 원자에 테두리가 쳐져 있어요.",
 
   }
 });

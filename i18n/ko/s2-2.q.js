@@ -808,829 +808,829 @@ S1.i18n.register('ko', 's2-2.q', {
       stem: "<p>황화 카보닐(carbonyl sulfide)의 구조는 <span class=\"chem\">O=C=S</span>예요. 이산화 탄소처럼 탄소 원자 주위에 전자 영역이 2개 있어요.</p><p>데이터 부클릿의 전기 음성도 값: C 2.6, O 3.4, S 2.6.</p><p>황화 카보닐에 대한 설명으로 옳은 것은 무엇인가요?</p>",
       options: [
         // EN: It is non-polar, because it is linear and the bond dipoles cancel.
-        "",
+        "직선형이고 결합 쌍극자가 상쇄되므로 무극성이다.",
         // EN: It is polar, because the molecule is bent.
-        "",
+        "분자가 굽은 형이므로 극성이다.",
         // EN: It is polar, because the two bonds have different polarities, so the bond dipoles do not cancel.
-        "",
+        "두 결합의 극성이 달라 결합 쌍극자가 상쇄되지 않으므로 극성이다.",
         // EN: It is non-polar, because oxygen and sulfur are in the same group.
-        "",
+        "산소와 황이 같은 족이므로 무극성이다.",
       ],
       hints: [
         // EN: Two electron domains: what is the shape?
-        "",
+        "전자 영역이 2개이면 모양은 무엇인가요?",
         // EN: Calculate the electronegativity difference for <span class="chem">C=O</span> and for <span class="chem">C=S</span>.
-        "",
+        "<span class=\"chem\">C=O</span>와 <span class=\"chem\">C=S</span>의 전기 음성도 차이를 계산해 보세요.",
         // EN: Dipoles cancel only if they are equal in size and opposite in direction.
-        "",
+        "쌍극자는 크기가 같고 방향이 반대일 때만 상쇄돼요.",
       ],
       // EN: <p>Shape: two electron domains around carbon, so the molecule is <strong>linear</strong>.</p><div class="worked__math">C=O: 3.4 − 2.6 = 0.8 (polar)</div><div class="worked__math">C=S: 2.6 − 2.6 = 0.0 (non-polar)</div><p>The <span class="chem">C=O</span> bond dipole has nothing equal and opposite to cancel it. The molecule has a <strong>net dipole</strong>, with the oxygen end δ−.</p><p>Molecular polarity depends on both bond polarity and geometry. Always check both.</p>
-      solution: "",
+      solution: "<p>모양: 탄소 주위에 전자 영역이 2개이므로 분자는 <strong>직선형</strong>이에요.</p><div class=\"worked__math\">C=O: 3.4 − 2.6 = 0.8 (극성)</div><div class=\"worked__math\">C=S: 2.6 − 2.6 = 0.0 (무극성)</div><p><span class=\"chem\">C=O</span> 결합 쌍극자를 상쇄할, 크기가 같고 방향이 반대인 쌍극자가 없어요. 분자에는 산소 쪽이 δ−인 <strong>분자 전체의 쌍극자</strong>가 있어요.</p><p>분자의 극성은 결합의 극성과 분자 모양 둘 다에 따라 달라져요. 항상 둘 다 확인하세요.</p>",
       misconception: {
         // EN (option A): It is linear, but linear molecules are non-polar only when the two bond dipoles are <strong>equal</strong> and opposite. Here the two bonds are different.
-        "0": "",
+        "0": "직선형은 맞지만, 직선형 분자는 두 결합 쌍극자가 <strong>크기가 같고</strong> 방향이 반대일 때만 무극성이에요. 여기서는 두 결합이 달라요.",
         // EN (option B): Carbon has two electron domains and no lone pairs, so the molecule is linear, not bent. It is polar for a different reason.
-        "1": "",
+        "1": "탄소에는 전자 영역 2개가 있고 비공유 전자쌍이 없으므로 분자는 굽은 형이 아니라 직선형이에요. 극성인 이유는 다른 데 있어요.",
         // EN (option D): Elements in the same group can have different electronegativities. Use the values: O is 3.4 and S is 2.6.
-        "3": "",
+        "3": "같은 족 원소라도 전기 음성도가 다를 수 있어요. 값을 써 보세요: O는 3.4, S는 2.6이에요.",
       },
     },
 
     // ── s2-2-q031 · mcq · foundation · SL · Structure 2.2.7 · 1 mark
     "s2-2-q031": {
       // EN: <p>Diamond and silicon have the same type of structure. Which statement describes it?</p>
-      stem: "",
+      stem: "<p>다이아몬드와 규소는 같은 종류의 구조를 가져요. 이 구조를 설명한 것은 무엇인가요?</p>",
       options: [
         // EN: Each atom is covalently bonded to three other atoms in flat layers.
-        "",
+        "각 원자가 평평한 층 안에서 다른 원자 3개와 공유 결합한다.",
         // EN: Each atom is covalently bonded to four other atoms in a tetrahedral arrangement, through the whole structure.
-        "",
+        "각 원자가 구조 전체에 걸쳐 다른 원자 4개와 정사면체형으로 공유 결합한다.",
         // EN: Small molecules are held together by weak intermolecular forces.
-        "",
+        "작은 분자들이 약한 분자 간 힘으로 붙어 있다.",
         // EN: Positive ions are held in a lattice by delocalized electrons.
-        "",
+        "양이온이 비편재화된 전자에 의해 격자 속에 붙잡혀 있다.",
       ],
       hints: [
         // EN: Carbon and silicon are both in group 14. Each atom has four valence electrons.
-        "",
+        "탄소와 규소는 둘 다 14족이에요. 원자마다 원자가 전자가 4개예요.",
         // EN: Four bonding pairs around one atom repel to which shape?
-        "",
+        "원자 하나 주위의 공유 전자쌍 4개가 서로 밀어내면 어떤 모양이 될까요?",
       ],
       // EN: <p>In diamond and in silicon, every atom forms <strong>four covalent bonds</strong> to four other atoms. The four bonds point to the corners of a tetrahedron (109.5°).</p><p>This pattern repeats in three dimensions. The result is a <strong>covalent network structure</strong>: a giant structure with strong covalent bonds throughout.</p>
-      solution: "",
+      solution: "<p>다이아몬드와 규소에서는 모든 원자가 다른 원자 4개와 <strong>공유 결합 4개</strong>를 만들어요. 결합 4개는 정사면체의 꼭짓점을 향해요(109.5°).</p><p>이 배열이 3차원으로 반복돼요. 그 결과가 <strong>공유 그물 구조(공유 결정)</strong>예요. 구조 전체에 강한 공유 결합이 퍼져 있는 거대한 구조예요.</p>",
       misconception: {
         // EN (option A): This describes graphite or graphene. In diamond and silicon, each atom uses all four valence electrons in four covalent bonds.
-        "0": "",
+        "0": "이것은 흑연이나 그래핀에 대한 설명이에요. 다이아몬드와 규소에서는 각 원자가 원자가 전자 4개를 모두 공유 결합 4개에 써요.",
         // EN (option C): Diamond and silicon are covalent network structures. They do not contain separate small molecules.
-        "2": "",
+        "2": "다이아몬드와 규소는 공유 그물 구조예요. 따로 떨어진 작은 분자가 들어 있지 않아요.",
         // EN (option D): This describes a metal. Silicon and diamond have covalent bonds between atoms. There are no ions and no delocalized electrons.
-        "3": "",
+        "3": "이것은 금속에 대한 설명이에요. 규소와 다이아몬드에는 원자 사이에 공유 결합이 있어요. 이온도, 비편재화된 전자도 없어요.",
       },
     },
 
     // ── s2-2-q032 · multi · foundation · SL · Structure 2.2.7 · 1 mark
     "s2-2-q032": {
       // EN: <p>Which of these substances are good conductors of electricity? Select all that apply.</p>
-      stem: "",
+      stem: "<p>다음 중 전기를 잘 전도하는 물질은 무엇인가요? 해당하는 것을 모두 고르세요.</p>",
       options: [
         // EN: diamond
-        "",
+        "다이아몬드",
         // EN: graphite
-        "",
+        "흑연",
         // EN: graphene
-        "",
+        "그래핀",
         // EN: silicon dioxide
-        "",
+        "이산화 규소",
         // EN: fullerene, <span class="chem">C60</span>
-        "",
+        "풀러렌, <span class=\"chem\">C60</span>",
       ],
       hints: [
         // EN: A substance conducts if it has charged particles that are free to move.
-        "",
+        "자유롭게 움직일 수 있는 전하를 띤 입자가 있으면 전기가 통해요.",
         // EN: In which structures does each carbon atom bond to only three other atoms?
-        "",
+        "탄소 원자 하나가 다른 원자 3개와만 결합하는 구조는 어느 것일까요?",
       ],
       // EN: <p>In <strong>graphite</strong> and <strong>graphene</strong>, each carbon atom forms only three covalent bonds. The fourth valence electron of each atom is <strong>delocalized</strong> across the whole layer. These electrons are free to move, so they carry charge.</p><p>Diamond and silicon dioxide have no delocalized electrons. In <span class="chem">C60</span>, electrons cannot move between molecules.</p>
-      solution: "",
+      solution: "<p><strong>흑연</strong>과 <strong>그래핀</strong>에서는 탄소 원자마다 공유 결합을 3개만 만들어요. 각 원자의 네 번째 원자가 전자는 층 전체에 <strong>비편재화</strong>되어 있어요. 이 전자들은 자유롭게 움직일 수 있으므로 전하를 운반해요.</p><p>다이아몬드와 이산화 규소에는 비편재화된 전자가 없어요. <span class=\"chem\">C60</span>에서는 전자가 분자와 분자 사이를 움직일 수 없어요.</p>",
       misconception: {
         // EN (option A): In diamond, each carbon atom uses all four valence electrons in covalent bonds. There are no delocalized electrons, so there is nothing to carry charge.
-        "0": "",
+        "0": "다이아몬드에서는 탄소 원자마다 원자가 전자 4개를 모두 공유 결합에 써요. 비편재화된 전자가 없으므로 전하를 운반할 것이 없어요.",
         // EN (option D): In silicon dioxide, all the valence electrons are held in covalent bonds. There are no delocalized electrons and no mobile ions.
-        "3": "",
+        "3": "이산화 규소에서는 원자가 전자가 모두 공유 결합에 묶여 있어요. 비편재화된 전자도, 움직일 수 있는 이온도 없어요.",
         // EN (option E): Electrons are delocalized inside each <span class="chem">C60</span> molecule, but they cannot move from one molecule to the next. So solid <span class="chem">C60</span> is a poor conductor.
-        "4": "",
+        "4": "전자는 각 <span class=\"chem\">C60</span> 분자 안에서 비편재화되어 있지만, 한 분자에서 다음 분자로 이동할 수 없어요. 그래서 고체 <span class=\"chem\">C60</span>은 전기가 잘 통하지 않아요.",
       },
     },
 
     // ── s2-2-q033 · short · exam · SL · Structure 2.2.7 · 3 marks
     "s2-2-q033": {
       // EN: <p>Diamond and graphite are allotropes of carbon. Diamond is very hard and does not conduct electricity. Graphite is soft and conducts electricity.</p><p>Explain these differences in terms of structure and bonding.</p>
-      stem: "",
+      stem: "<p>다이아몬드와 흑연은 탄소의 동소체예요. 다이아몬드는 매우 단단하고 전기가 통하지 않아요. 흑연은 무르고 전기가 통해요.</p><p>이 차이를 구조와 결합으로 설명하시오 (explain).</p>",
       hints: [
         // EN: How many covalent bonds does each carbon atom form in diamond? In graphite?
-        "",
+        "다이아몬드에서 탄소 원자는 각각 공유 결합을 몇 개 만드나요? 흑연에서는요?",
         // EN: For hardness, think about what holds the layers of graphite together.
-        "",
+        "단단함은 흑연의 층을 무엇이 붙잡고 있는지 생각해 봐요.",
         // EN: For conductivity, think about the fourth valence electron of each carbon atom in graphite.
-        "",
+        "전기 전도성은 흑연에서 각 탄소 원자의 네 번째 원자가 전자를 생각해 봐요.",
       ],
       // EN: <p><strong>Diamond:</strong> each carbon atom is covalently bonded to four other carbon atoms in a three-dimensional (tetrahedral) network. The strong covalent bonds in all directions make it hard. All four valence electrons are in bonds, so there are no delocalized electrons and it does not conduct.</p><p><strong>Graphite:</strong> each carbon atom is covalently bonded to three other carbon atoms in layers of hexagons. There are only weak London (dispersion) forces between the layers, so the layers can slide over each other and graphite is soft. Each atom has one delocalized electron, which is free to move along the layers, so graphite conducts.</p>
-      answer: "",
+      answer: "<p><strong>다이아몬드:</strong> 탄소 원자마다 다른 탄소 원자 4개와 3차원(정사면체형) 그물 구조로 공유 결합해요. 모든 방향으로 뻗은 강한 공유 결합 때문에 단단해요. 원자가 전자 4개가 모두 결합에 쓰이므로 비편재화된 전자가 없고 전기가 통하지 않아요.</p><p><strong>흑연:</strong> 탄소 원자마다 다른 탄소 원자 3개와 공유 결합해 육각형으로 된 층을 이뤄요. 층 사이에는 약한 런던 분산력만 있으므로 층이 서로 미끄러질 수 있고 흑연은 물러요. 원자마다 비편재화된 전자가 1개씩 있고, 이 전자가 층을 따라 자유롭게 움직일 수 있으므로 흑연은 전기가 통해요.</p>",
       markscheme: [
         // EN: Diamond: each carbon atom bonded to four others / three-dimensional (tetrahedral) covalent network, so it is hard. AND no delocalized electrons / all valence electrons used in bonds, so it does not conduct.
-        "",
+        "다이아몬드: 탄소 원자마다 다른 원자 4개와 결합 / 3차원(정사면체형) 공유 그물 구조, 그래서 단단하다. 그리고 비편재화된 전자가 없다 / 원자가 전자가 모두 결합에 쓰인다, 그래서 전기가 통하지 않는다.",
         // EN: Graphite is soft: layers held together by weak London (dispersion) forces, so the layers can slide over each other. Do not accept "van der Waals" alone or "weak bonds between atoms".
-        "",
+        "흑연은 무르다: 층이 약한 런던 분산력으로 붙어 있어 층이 서로 미끄러질 수 있다. \"반데르발스 힘(van der Waals)\"만 쓰거나 \"원자 사이의 약한 결합\"이라고 쓴 답은 인정하지 않음.",
         // EN: Graphite conducts: each carbon atom bonded to only three others, so there are delocalized electrons that are free to move (along the layers). Do not accept "free ions".
-        "",
+        "흑연은 전기가 통한다: 탄소 원자마다 다른 원자 3개와만 결합하므로 (층을 따라) 자유롭게 움직일 수 있는 비편재화된 전자가 있다. \"자유 이온\"은 인정하지 않음.",
       ],
     },
 
     // ── s2-2-q034 · short · exam · SL · Structure 2.2.7 · 3 marks
     "s2-2-q034": {
       // EN: <p>Carbon and silicon are both in group 14. Carbon dioxide, <span class="chem">CO2</span>, changes from solid to gas at −78 °C. Silicon dioxide, <span class="chem">SiO2</span>, melts at about 1700 °C.</p><p>Explain this large difference in terms of structure and bonding.</p>
-      stem: "",
+      stem: "<p>탄소와 규소는 둘 다 14족이에요. 이산화 탄소 <span class=\"chem\">CO2</span>는 −78 °C에서 고체에서 기체로 변해요. 이산화 규소 <span class=\"chem\">SiO2</span>는 약 1700 °C에서 녹아요.</p><p>이 큰 차이를 구조와 결합으로 설명하시오 (explain).</p>",
       hints: [
         // EN: One of these substances is made of small molecules. The other is a giant structure.
-        "",
+        "두 물질 중 하나는 작은 분자로 되어 있어요. 다른 하나는 거대한 구조예요.",
         // EN: For each substance, say exactly what must be broken or overcome.
-        "",
+        "각 물질에서 정확히 무엇을 끊거나 극복해야 하는지 쓰세요.",
         // EN: Finish with a comparison of strength.
-        "",
+        "마지막에 세기를 비교하세요.",
       ],
       // EN: <p>Silicon dioxide has a covalent network structure. Each silicon atom is covalently bonded to four oxygen atoms and each oxygen atom to two silicon atoms, through the whole structure. To melt it, strong covalent bonds must be broken.</p><p>Carbon dioxide is made of small, separate molecules. Only weak London (dispersion) forces between the molecules must be overcome. The covalent bonds inside the molecules do not break.</p><p>Covalent bonds are much stronger than London forces, so much more energy is needed for silicon dioxide.</p>
-      answer: "",
+      answer: "<p>이산화 규소는 공유 그물 구조예요. 구조 전체에 걸쳐 규소 원자마다 산소 원자 4개와, 산소 원자마다 규소 원자 2개와 공유 결합해요. 녹이려면 강한 공유 결합을 끊어야 해요.</p><p>이산화 탄소는 작고 따로 떨어진 분자로 되어 있어요. 분자 사이의 약한 런던 분산력만 극복하면 돼요. 분자 안의 공유 결합은 끊어지지 않아요.</p><p>공유 결합은 런던 분산력보다 훨씬 강하므로 이산화 규소에는 훨씬 많은 에너지가 필요해요.</p>",
       markscheme: [
         // EN: Silicon dioxide is a covalent network (giant covalent) structure, so covalent bonds (between atoms) must be broken.
-        "",
+        "이산화 규소는 공유 그물 구조(거대 공유 구조)이므로 (원자 사이의) 공유 결합을 끊어야 한다.",
         // EN: Carbon dioxide is (simple) molecular, so only London (dispersion) forces between molecules must be overcome. Accept "intermolecular forces". Do not accept covalent bonds breaking in carbon dioxide.
-        "",
+        "이산화 탄소는 (단순) 분자 물질이므로 분자 사이의 런던 분산력만 극복하면 된다. \"분자 간 힘\"도 인정. 이산화 탄소에서 공유 결합이 끊어진다는 답은 인정하지 않음.",
         // EN: Covalent bonds are (much) stronger than London forces / intermolecular forces, so (much) more energy is needed. Do not accept "stronger bonding" with no bond or force named.
-        "",
+        "공유 결합은 런던 분산력 / 분자 간 힘보다 (훨씬) 강하므로 (훨씬) 많은 에너지가 필요하다. 결합이나 힘의 이름 없이 \"결합이 더 강하다\"라고만 쓴 답은 인정하지 않음.",
       ],
     },
 
     // ── s2-2-q035 · mcq · exam · SL · Structure 2.2.7 · 1 mark
     "s2-2-q035": {
       // EN: <p>Fullerene, <span class="chem">C60</span>, turns into a gas at a much lower temperature than diamond. It also dissolves in some non-polar solvents, but diamond does not.</p><p>Which statement explains these observations?</p>
-      stem: "",
+      stem: "<p>풀러렌 <span class=\"chem\">C60</span>은 다이아몬드보다 훨씬 낮은 온도에서 기체가 돼요. 또 일부 무극성 용매에 녹지만, 다이아몬드는 녹지 않아요.</p><p>이 관찰 결과를 설명하는 것은 무엇인가요?</p>",
       options: [
         // EN: The covalent bonds in <span class="chem">C60</span> are much weaker than the covalent bonds in diamond.
-        "",
+        "<span class=\"chem\">C60</span>의 공유 결합이 다이아몬드의 공유 결합보다 훨씬 약하다.",
         // EN: <span class="chem">C60</span> is made of separate molecules with weak London (dispersion) forces between them. Diamond is a covalent network.
-        "",
+        "<span class=\"chem\">C60</span>은 따로 떨어진 분자로 되어 있고 분자 사이에 약한 런던 분산력이 작용한다. 다이아몬드는 공유 그물 구조이다.",
         // EN: <span class="chem">C60</span> has delocalized electrons, and diamond does not.
-        "",
+        "<span class=\"chem\">C60</span>에는 비편재화된 전자가 있고 다이아몬드에는 없다.",
         // EN: <span class="chem">C60</span> is made of layers that can slide over each other.
-        "",
+        "<span class=\"chem\">C60</span>은 서로 미끄러질 수 있는 층으로 되어 있다.",
       ],
       hints: [
         // EN: The formula <span class="chem">C60</span> tells you there are 60 atoms in one molecule.
-        "",
+        "화학식 <span class=\"chem\">C60</span>을 보면 분자 하나에 원자가 60개 있다는 것을 알 수 있어요.",
         // EN: What must be overcome to separate molecules? What must be broken to separate the atoms in diamond?
-        "",
+        "분자를 떼어 놓으려면 무엇을 극복해야 하나요? 다이아몬드의 원자를 떼어 놓으려면 무엇을 끊어야 하나요?",
       ],
       // EN: <p><span class="chem">C60</span> is a <strong>molecular</strong> allotrope. Each molecule is a cage of 60 carbon atoms, each bonded to three others. Between the molecules there are only weak London (dispersion) forces.</p><p>Little energy is needed to separate the molecules, and a non-polar solvent can separate them too. In diamond, strong covalent bonds through the whole network must be broken.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">C60</span>은 <strong>분자로 된</strong> 동소체예요. 분자 하나는 탄소 원자 60개로 된 새장 모양이고, 각 원자는 다른 원자 3개와 결합해요. 분자 사이에는 약한 런던 분산력만 있어요.</p><p>분자를 떼어 놓는 데 에너지가 조금만 필요하고, 무극성 용매도 분자를 떼어 놓을 수 있어요. 다이아몬드에서는 그물 구조 전체의 강한 공유 결합을 끊어야 해요.</p>",
       misconception: {
         // EN (option A): The covalent bonds inside a <span class="chem">C60</span> molecule are strong, and they do not break when it turns into a gas. Only the forces between the molecules are overcome.
-        "0": "",
+        "0": "<span class=\"chem\">C60</span> 분자 안의 공유 결합은 강하고, 기체가 될 때 끊어지지 않아요. 분자 사이의 힘만 극복돼요.",
         // EN (option C): This is true, but it does not explain volatility or solubility. Those properties depend on what holds the particles together.
-        "2": "",
+        "2": "맞는 말이지만 휘발성이나 용해도를 설명하지 못해요. 이런 성질은 입자를 무엇이 붙잡고 있는지에 따라 달라져요.",
         // EN (option D): Layers describe graphite. <span class="chem">C60</span> molecules are closed cages of 60 carbon atoms.
-        "3": "",
+        "3": "층은 흑연에 대한 설명이에요. <span class=\"chem\">C60</span> 분자는 탄소 원자 60개로 된 닫힌 새장 모양이에요.",
       },
     },
 
     // ── s2-2-q036 · mcq · challenge · SL · Structure 2.2.7 · 1 mark
     "s2-2-q036": {
       // EN: <p>X, Y and Z are three allotropes of carbon: diamond, graphite and fullerene (<span class="chem">C60</span>), in some order.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Properties of three allotropes of carbon</caption><thead><tr><th scope="col">Allotrope</th><th scope="col">Hardness</th><th scope="col">Electrical conductivity of the solid</th><th scope="col">Solubility in methylbenzene (a non-polar solvent)</th></tr></thead><tbody><tr><th scope="row">X</th><td>soft</td><td>good</td><td>insoluble</td></tr><tr><th scope="row">Y</th><td>soft</td><td>poor</td><td>dissolves slightly and colours the solvent</td></tr><tr><th scope="row">Z</th><td>very hard</td><td>poor</td><td>insoluble</td></tr></tbody></table></div><p>Which row identifies X and Y?</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Options</caption><thead><tr><th scope="col"></th><th scope="col">X</th><th scope="col">Y</th></tr></thead><tbody><tr><th scope="row">A</th><td>graphite</td><td>diamond</td></tr><tr><th scope="row">B</th><td>fullerene</td><td>graphite</td></tr><tr><th scope="row">C</th><td>diamond</td><td>fullerene</td></tr><tr><th scope="row">D</th><td>graphite</td><td>fullerene</td></tr></tbody></table></div>
-      stem: "",
+      stem: "<p>X, Y, Z는 탄소의 동소체 세 가지인 다이아몬드, 흑연, 풀러렌(<span class=\"chem\">C60</span>)을 어떤 순서로 나타낸 거예요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>탄소 동소체 세 가지의 성질</caption><thead><tr><th scope=\"col\">동소체</th><th scope=\"col\">단단함</th><th scope=\"col\">고체의 전기 전도성</th><th scope=\"col\">methylbenzene(무극성 용매)에 대한 용해도</th></tr></thead><tbody><tr><th scope=\"row\">X</th><td>무름</td><td>좋음</td><td>녹지 않음</td></tr><tr><th scope=\"row\">Y</th><td>무름</td><td>나쁨</td><td>조금 녹아 용매에 색을 띠게 함</td></tr><tr><th scope=\"row\">Z</th><td>매우 단단함</td><td>나쁨</td><td>녹지 않음</td></tr></tbody></table></div><p>X와 Y를 옳게 나타낸 행은 무엇인가요?</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>보기</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">X</th><th scope=\"col\">Y</th></tr></thead><tbody><tr><th scope=\"row\">A</th><td>흑연</td><td>다이아몬드</td></tr><tr><th scope=\"row\">B</th><td>풀러렌</td><td>흑연</td></tr><tr><th scope=\"row\">C</th><td>다이아몬드</td><td>풀러렌</td></tr><tr><th scope=\"row\">D</th><td>흑연</td><td>풀러렌</td></tr></tbody></table></div>",
       options: [
         // EN: A
-        "",
+        "A",
         // EN: B
-        "",
+        "B",
         // EN: C
-        "",
+        "C",
         // EN: D
-        "",
+        "D",
       ],
       hints: [
         // EN: Only one allotrope conducts well. Which one has delocalized electrons that can move through the whole structure?
-        "",
+        "전기가 잘 통하는 동소체는 하나뿐이에요. 구조 전체를 움직일 수 있는 비편재화된 전자가 있는 것은 어느 것인가요?",
         // EN: Covalent network structures do not dissolve. Which allotrope is made of separate molecules?
-        "",
+        "공유 그물 구조는 녹지 않아요. 따로 떨어진 분자로 된 동소체는 어느 것인가요?",
       ],
       // EN: <p><strong>X</strong> is a good conductor and is soft: <strong>graphite</strong>. It has delocalized electrons in its layers, and weak London forces between layers.</p><p><strong>Y</strong> dissolves in a non-polar solvent, so it is made of separate molecules: <strong>fullerene</strong>. Only London forces between <span class="chem">C60</span> molecules must be overcome.</p><p><strong>Z</strong> is very hard, a poor conductor and insoluble: diamond.</p>
-      solution: "",
+      solution: "<p><strong>X</strong>는 전기가 잘 통하고 물러요: <strong>흑연</strong>이에요. 층 안에 비편재화된 전자가 있고, 층 사이에는 약한 런던 분산력이 있어요.</p><p><strong>Y</strong>는 무극성 용매에 녹으므로 따로 떨어진 분자로 되어 있어요: <strong>풀러렌</strong>이에요. <span class=\"chem\">C60</span> 분자 사이의 런던 분산력만 극복하면 돼요.</p><p><strong>Z</strong>는 매우 단단하고 전기가 잘 통하지 않으며 녹지 않아요: 다이아몬드예요.</p>",
       misconception: {
         // EN (option A): X is right. But diamond is very hard and does not dissolve, because it is a covalent network. Y is soft and dissolves, so Y must be made of separate molecules.
-        "0": "",
+        "0": "X는 맞아요. 하지만 다이아몬드는 공유 그물 구조이므로 매우 단단하고 녹지 않아요. Y는 무르고 녹으므로 따로 떨어진 분자로 되어 있어야 해요.",
         // EN (option B): The two are the wrong way round. A substance that dissolves must be made of separate molecules. Graphite is a covalent network and does not dissolve.
-        "1": "",
+        "1": "둘이 서로 바뀌었어요. 녹는 물질은 따로 떨어진 분자로 되어 있어야 해요. 흑연은 공유 그물 구조이므로 녹지 않아요.",
         // EN (option C): Diamond is very hard and a poor conductor. X is soft and a good conductor, so X has delocalized electrons that can move through the whole structure.
-        "2": "",
+        "2": "다이아몬드는 매우 단단하고 전기가 잘 통하지 않아요. X는 무르고 전기가 잘 통하므로, 구조 전체를 움직일 수 있는 비편재화된 전자가 있어요.",
       },
     },
 
     // ── s2-2-q037 · mcq · foundation · SL · Structure 2.2.8 · 1 mark
     "s2-2-q037": {
       // EN: <p>Which intermolecular force acts between methane molecules, <span class="chem">CH4</span>?</p>
-      stem: "",
+      stem: "<p>methane 분자 <span class=\"chem\">CH4</span> 사이에는 어떤 분자 간 힘이 작용하나요?</p>",
       options: [
         // EN: London (dispersion) forces only
-        "",
+        "런던 분산력만",
         // EN: dipole–dipole forces and London (dispersion) forces
-        "",
+        "쌍극자-쌍극자 힘과 런던 분산력",
         // EN: hydrogen bonding and London (dispersion) forces
-        "",
+        "수소 결합과 런던 분산력",
         // EN: covalent bonds
-        "",
+        "공유 결합",
       ],
       hints: [
         // EN: Is a methane molecule polar or non-polar?
-        "",
+        "methane 분자는 극성인가요, 무극성인가요?",
         // EN: Which force exists between all molecules, including non-polar ones?
-        "",
+        "무극성 분자를 포함해 모든 분자 사이에 작용하는 힘은 무엇인가요?",
       ],
       // EN: <p>Methane is a <strong>non-polar</strong> molecule: it is tetrahedral, so the small <span class="chem">C–H</span> bond dipoles cancel.</p><p>Non-polar molecules attract each other only by <strong>London (dispersion) forces</strong>. These forces exist between all molecules.</p>
-      solution: "",
+      solution: "<p>methane은 <strong>무극성</strong> 분자예요. 정사면체형이므로 작은 <span class=\"chem\">C–H</span> 결합 쌍극자가 상쇄돼요.</p><p>무극성 분자는 <strong>런던 분산력</strong>으로만 서로 끌어당겨요. 이 힘은 모든 분자 사이에 작용해요.</p>",
       misconception: {
         // EN (option B): Dipole–dipole forces need polar molecules. Methane is tetrahedral and symmetrical, so it has no net dipole.
-        "1": "",
+        "1": "쌍극자-쌍극자 힘은 극성 분자에만 있어요. methane은 정사면체형이고 대칭이므로 분자 전체의 쌍극자가 없어요.",
         // EN (option C): Methane contains hydrogen, but the hydrogen is bonded to carbon. Hydrogen bonding needs H bonded to N, O or F.
-        "2": "",
+        "2": "methane에는 수소가 있지만 수소가 탄소와 결합해 있어요. 수소 결합이 생기려면 H가 N, O, F와 결합해 있어야 해요.",
         // EN (option D): Covalent bonds are inside each molecule (between C and H). The question asks about the forces between molecules.
-        "3": "",
+        "3": "공유 결합은 각 분자 안(C와 H 사이)에 있어요. 문제는 분자 사이의 힘을 묻고 있어요.",
       },
     },
 
     // ── s2-2-q038 · mcq · exam · SL · Structure 2.2.8 · 1 mark
     "s2-2-q038": {
       // EN: <p>Which substance has hydrogen bonding between its own molecules?</p>
-      stem: "",
+      stem: "<p>자기 분자들 사이에 수소 결합이 있는 물질은 무엇인가요?</p>",
       options: [
         // EN: fluoromethane, <span class="chem">CH3F</span>
-        "",
+        "fluoromethane, <span class=\"chem\">CH3F</span>",
         // EN: methoxymethane, <span class="chem">CH3OCH3</span>
-        "",
+        "methoxymethane, <span class=\"chem\">CH3OCH3</span>",
         // EN: ethanal, <span class="chem">CH3CHO</span>
-        "",
+        "ethanal, <span class=\"chem\">CH3CHO</span>",
         // EN: methanamine, <span class="chem">CH3NH2</span>
-        "",
+        "methanamine, <span class=\"chem\">CH3NH2</span>",
       ],
       hints: [
         // EN: Hydrogen bonding needs a hydrogen atom covalently bonded to N, O or F.
-        "",
+        "수소 결합이 생기려면 수소 원자가 N, O, F와 공유 결합해 있어야 해요.",
         // EN: For each molecule, check which atom each hydrogen is bonded to.
-        "",
+        "각 분자에서 수소가 어느 원자와 결합해 있는지 확인하세요.",
       ],
       // EN: <p>A hydrogen bond needs <strong>H covalently bonded to a very electronegative atom</strong> (N, O or F). That H is then attracted to a lone pair on N, O or F in a neighbouring molecule.</p><p>Only <span class="chem">CH3NH2</span> has such a hydrogen: the two H atoms of the <span class="chem">NH2</span> group. In the other three molecules, every H is bonded to carbon.</p>
-      solution: "",
+      solution: "<p>수소 결합이 생기려면 <strong>H가 전기 음성도가 매우 큰 원자(N, O, F)와 공유 결합</strong>해 있어야 해요. 그러면 그 H가 이웃 분자의 N, O, F에 있는 비공유 전자쌍에 끌려요.</p><p>이런 수소가 있는 것은 <span class=\"chem\">CH3NH2</span>뿐이에요. <span class=\"chem\">NH2</span> 기의 H 원자 2개예요. 나머지 세 분자에서는 모든 H가 탄소와 결합해 있어요.</p>",
       misconception: {
         // EN (option A): The molecule contains H and F, but every H is bonded to carbon. There is no <span class="chem">H–F</span> bond, so there is no hydrogen that can form a hydrogen bond.
-        "0": "",
+        "0": "이 분자에는 H와 F가 있지만 모든 H가 탄소와 결합해 있어요. <span class=\"chem\">H–F</span> 결합이 없으므로 수소 결합을 만들 수 있는 수소가 없어요.",
         // EN (option B): The molecule contains H and O, but every H is bonded to carbon. There is no <span class="chem">O–H</span> bond. The forces are dipole–dipole and London forces.
-        "1": "",
+        "1": "이 분자에는 H와 O가 있지만 모든 H가 탄소와 결합해 있어요. <span class=\"chem\">O–H</span> 결합이 없어요. 작용하는 힘은 쌍극자-쌍극자 힘과 런던 분산력이에요.",
         // EN (option C): The oxygen is double-bonded to carbon. Every H is bonded to carbon. With no <span class="chem">O–H</span> bond, ethanal molecules cannot hydrogen-bond to each other.
-        "2": "",
+        "2": "산소는 탄소와 이중 결합해 있어요. 모든 H가 탄소와 결합해 있어요. <span class=\"chem\">O–H</span> 결합이 없으므로 ethanal 분자끼리는 수소 결합을 할 수 없어요.",
       },
     },
 
     // ── s2-2-q039 · multi · exam · SL · Structure 2.2.8 · 1 mark
     "s2-2-q039": {
       // EN: <p>In IB Chemistry, "van der Waals forces" is an inclusive term. Which of these does it include? Select all that apply.</p>
-      stem: "",
+      stem: "<p>IB Chemistry에서 \"반데르발스 힘(van der Waals forces)\"은 여러 힘을 포함하는 용어예요. 다음 중 이 용어에 포함되는 것은 무엇인가요? 해당하는 것을 모두 고르세요.</p>",
       options: [
         // EN: London (dispersion) forces
-        "",
+        "런던 분산력",
         // EN: dipole–induced dipole forces
-        "",
+        "쌍극자-유발 쌍극자 힘",
         // EN: dipole–dipole forces
-        "",
+        "쌍극자-쌍극자 힘",
         // EN: hydrogen bonding
-        "",
+        "수소 결합",
         // EN: covalent bonds
-        "",
+        "공유 결합",
       ],
       hints: [
         // EN: The term covers three intermolecular forces.
-        "",
+        "이 용어는 분자 간 힘 3가지를 포함해요.",
         // EN: One intermolecular force is named separately, because it is stronger and needs H bonded to N, O or F.
-        "",
+        "분자 간 힘 하나는 따로 이름을 붙여요. 더 강하고, H가 N, O, F와 결합해 있어야 생기기 때문이에요.",
       ],
       // EN: <p>"Van der Waals forces" covers <strong>London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces</strong>.</p><p>It does not include hydrogen bonding.</p><p data-i18n="both">Exam tip: when you mean London forces, write "London (dispersion) forces". Markschemes do not accept "van der Waals" in place of "London".</p>
-      solution: "",
+      solution: "<p>\"반데르발스 힘\"은 <strong>런던 분산력, 쌍극자-유발 쌍극자 힘, 쌍극자-쌍극자 힘</strong>을 포함해요.</p><p>수소 결합은 포함하지 않아요.</p><p data-i18n=\"both\">시험 팁: 런던 분산력을 뜻할 때는 \"London (dispersion) forces\"라고 쓰세요. 채점 기준에서는 \"London\" 대신 \"van der Waals\"라고 쓴 답을 인정하지 않아요.</p>",
       misconception: {
         // EN (option D): Hydrogen bonding is an intermolecular force, but the guide does not include it in the term "van der Waals forces".
-        "3": "",
+        "3": "수소 결합은 분자 간 힘이지만, IB 교수요목에서는 \"반데르발스 힘\"이라는 용어에 포함하지 않아요.",
         // EN (option E): Covalent bonds hold atoms together inside a molecule. Van der Waals forces act between molecules.
-        "4": "",
+        "4": "공유 결합은 분자 안에서 원자들을 붙잡아요. 반데르발스 힘은 분자 사이에 작용해요.",
       },
     },
 
     // ── s2-2-q040 · mcq · exam · SL · Structure 2.2.8 · 1 mark
     "s2-2-q040": {
       // EN: <p>A small amount of argon gas dissolves in water. Which force acts between an argon atom and a water molecule, in addition to London (dispersion) forces?</p>
-      stem: "",
+      stem: "<p>아르곤 기체는 물에 조금 녹아요. 아르곤 원자와 물 분자 사이에 런던 분산력 말고 또 어떤 힘이 작용하나요?</p>",
       options: [
         // EN: dipole–dipole forces
-        "",
+        "쌍극자-쌍극자 힘",
         // EN: dipole–induced dipole forces
-        "",
+        "쌍극자-유발 쌍극자 힘",
         // EN: hydrogen bonding
-        "",
+        "수소 결합",
         // EN: ionic bonding
-        "",
+        "이온 결합",
       ],
       hints: [
         // EN: Water is a polar molecule. Argon is a non-polar atom.
-        "",
+        "물은 극성 분자예요. 아르곤은 무극성 원자예요.",
         // EN: A polar molecule can push or pull the electron cloud of a nearby particle.
-        "",
+        "극성 분자는 가까이 있는 입자의 전자 구름을 밀거나 당길 수 있어요.",
       ],
       // EN: <p>Water has a permanent dipole. Argon has none.</p><p>When a water molecule comes close, its dipole distorts the electron cloud of the argon atom. This creates an <strong>induced dipole</strong> in argon. The attraction between the two is a <strong>dipole–induced dipole force</strong>.</p>
-      solution: "",
+      solution: "<p>물에는 영구 쌍극자가 있어요. 아르곤에는 없어요.</p><p>물 분자가 가까이 오면 물의 쌍극자가 아르곤 원자의 전자 구름을 일그러뜨려요. 그러면 아르곤에 <strong>유발 쌍극자</strong>가 생겨요. 둘 사이의 인력이 <strong>쌍극자-유발 쌍극자 힘</strong>이에요.</p>",
       misconception: {
         // EN (option A): Dipole–dipole forces need two polar molecules. An argon atom has no permanent dipole.
-        "0": "",
+        "0": "쌍극자-쌍극자 힘은 극성 분자 두 개가 있어야 생겨요. 아르곤 원자에는 영구 쌍극자가 없어요.",
         // EN (option C): Hydrogen bonding needs an N, O or F atom on the other particle. Argon is not one of these.
-        "2": "",
+        "2": "수소 결합이 생기려면 상대 입자에 N, O, F 원자가 있어야 해요. 아르곤은 여기에 해당하지 않아요.",
         // EN (option D): Ionic bonding is the attraction between oppositely charged ions. Argon atoms and water molecules are not ions.
-        "3": "",
+        "3": "이온 결합은 반대 전하를 띤 이온 사이의 인력이에요. 아르곤 원자와 물 분자는 이온이 아니에요.",
       },
     },
 
     // ── s2-2-q041 · short · exam · SL · Structure 2.2.8 · 2 marks
     "s2-2-q041": {
       // EN: <p>Liquid ammonia, <span class="chem">NH3</span>, has hydrogen bonding between its molecules.</p><p>Explain how a hydrogen bond forms between two ammonia molecules.</p>
-      stem: "",
+      stem: "<p>액체 암모니아 <span class=\"chem\">NH3</span>는 분자 사이에 수소 결합이 있어요.</p><p>암모니아 분자 두 개 사이에 수소 결합이 어떻게 생기는지 설명하시오 (explain).</p>",
       hints: [
         // EN: A hydrogen bond has two parts. First: which atom is the hydrogen covalently bonded to?
-        "",
+        "수소 결합은 두 부분으로 설명해요. 첫째: 수소가 어느 원자와 공유 결합해 있나요?",
         // EN: Second: what on the other molecule attracts this hydrogen?
-        "",
+        "둘째: 다른 분자의 무엇이 이 수소를 끌어당기나요?",
       ],
       // EN: <p>In ammonia, hydrogen is covalently bonded to nitrogen, which is a very electronegative atom. The <span class="chem">N–H</span> bond is polar, so the hydrogen atom is δ+.</p><p>This δ+ hydrogen is attracted to the lone pair on the (δ−) nitrogen atom of a neighbouring ammonia molecule. This attraction is the hydrogen bond.</p>
-      answer: "",
+      answer: "<p>암모니아에서 수소는 전기 음성도가 매우 큰 원자인 질소와 공유 결합해 있어요. <span class=\"chem\">N–H</span> 결합은 극성이므로 수소 원자는 δ+예요.</p><p>이 δ+ 수소가 이웃 암모니아 분자의 (δ−) 질소 원자에 있는 비공유 전자쌍에 끌려요. 이 인력이 수소 결합이에요.</p>",
       markscheme: [
         // EN: Hydrogen is (covalently) bonded to nitrogen, a (highly) electronegative atom. Accept: the N–H bond is very polar / H is δ+.
-        "",
+        "수소가 (전기 음성도가 매우) 큰 원자인 질소와 (공유) 결합해 있다. 인정: N–H 결합은 극성이 매우 크다 / H는 δ+이다.",
         // EN: This hydrogen is attracted to (the lone pair on) the nitrogen atom of a neighbouring molecule. Accept a labelled diagram. Do not accept a description of the N–H covalent bond as the hydrogen bond.
-        "",
+        "이 수소가 이웃 분자의 질소 원자(의 비공유 전자쌍)에 끌린다. 이름을 붙인 그림도 인정. N–H 공유 결합을 수소 결합이라고 설명한 답은 인정하지 않음.",
       ],
     },
 
     // ── s2-2-q042 · mcq · challenge · SL · Structure 2.2.8 · 1 mark
     "s2-2-q042": {
       // EN: <p>Two compounds have the same molecular formula, <span class="chem">C3H9N</span>.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Two isomers</caption><thead><tr><th scope="col">Compound</th><th scope="col">Structural formula</th><th scope="col">Boiling point / °C</th></tr></thead><tbody><tr><th scope="row">P</th><td><span class="chem">CH3CH2CH2NH2</span></td><td>48</td></tr><tr><th scope="row">Q</th><td><span class="chem">(CH3)3N</span></td><td>3</td></tr></tbody></table></div><p>Which is the best explanation for the higher boiling point of P?</p>
-      stem: "",
+      stem: "<p>두 화합물의 분자식은 <span class=\"chem\">C3H9N</span>으로 같아요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>두 이성질체</caption><thead><tr><th scope=\"col\">화합물</th><th scope=\"col\">구조식</th><th scope=\"col\">끓는점 / °C</th></tr></thead><tbody><tr><th scope=\"row\">P</th><td><span class=\"chem\">CH3CH2CH2NH2</span></td><td>48</td></tr><tr><th scope=\"row\">Q</th><td><span class=\"chem\">(CH3)3N</span></td><td>3</td></tr></tbody></table></div><p>P의 끓는점이 더 높은 이유를 가장 잘 설명한 것은 무엇인가요?</p>",
       options: [
         // EN: P has more electrons than Q, so P has stronger London (dispersion) forces.
-        "",
+        "P는 Q보다 전자가 많으므로 런던 분산력이 더 강하다.",
         // EN: P has hydrogen bonding between its molecules. Q has no hydrogen atom bonded to nitrogen, so Q has no hydrogen bonding between its molecules.
-        "",
+        "P는 분자 사이에 수소 결합이 있다. Q에는 질소와 결합한 수소 원자가 없으므로 분자 사이에 수소 결합이 없다.",
         // EN: The covalent bonds in P are stronger than the covalent bonds in Q.
-        "",
+        "P의 공유 결합이 Q의 공유 결합보다 강하다.",
         // EN: P is polar and Q is non-polar.
-        "",
+        "P는 극성이고 Q는 무극성이다.",
       ],
       hints: [
         // EN: Both molecules contain N and H. Look at which atom the H atoms are bonded to.
-        "",
+        "두 분자 모두 N과 H가 있어요. H 원자가 어느 원자와 결합해 있는지 보세요.",
         // EN: In Q, the nitrogen atom is bonded to three carbon atoms.
-        "",
+        "Q에서 질소 원자는 탄소 원자 3개와 결합해 있어요.",
       ],
       // EN: <p>In <strong>P</strong>, two hydrogen atoms are bonded to nitrogen (<span class="chem">NH2</span>). These δ+ hydrogens are attracted to the lone pair on nitrogen in a neighbouring molecule. P has <strong>hydrogen bonding</strong>.</p><p>In <strong>Q</strong>, nitrogen is bonded to three carbon atoms. Every hydrogen is bonded to carbon. Q molecules attract each other only by dipole–dipole and London forces.</p><p>Hydrogen bonding is stronger, so more energy is needed to separate the molecules of P. Q is also more compact, which makes its London forces a little weaker.</p>
-      solution: "",
+      solution: "<p><strong>P</strong>에서는 수소 원자 2개가 질소와 결합해 있어요(<span class=\"chem\">NH2</span>). 이 δ+ 수소가 이웃 분자의 질소에 있는 비공유 전자쌍에 끌려요. P에는 <strong>수소 결합</strong>이 있어요.</p><p><strong>Q</strong>에서는 질소가 탄소 원자 3개와 결합해 있어요. 모든 수소가 탄소와 결합해 있어요. Q 분자끼리는 쌍극자-쌍극자 힘과 런던 분산력으로만 끌어당겨요.</p><p>수소 결합이 더 강하므로 P의 분자를 떼어 놓는 데 에너지가 더 많이 필요해요. 또 Q는 더 조밀한 모양이라 런던 분산력이 조금 더 약해요.</p>",
       misconception: {
         // EN (option A): P and Q have the same molecular formula, so they have the same number of electrons.
-        "0": "",
+        "0": "P와 Q는 분자식이 같으므로 전자 수도 같아요.",
         // EN (option C): Boiling separates molecules from each other. It does not break covalent bonds, so covalent bond strength does not decide the boiling point.
-        "2": "",
+        "2": "끓으면 분자가 서로 떨어져요. 공유 결합은 끊어지지 않으므로 공유 결합의 세기가 끓는점을 결정하지 않아요.",
         // EN (option D): Q is also polar. Its nitrogen atom has a lone pair and three bonding pairs, so the shape around N is trigonal pyramidal and the bond dipoles do not cancel.
-        "3": "",
+        "3": "Q도 극성이에요. 질소 원자에 비공유 전자쌍 1개와 공유 전자쌍 3개가 있으므로 N 주위의 모양은 삼각뿔형이고 결합 쌍극자가 상쇄되지 않아요.",
       },
     },
 
     // ── s2-2-q043 · mcq · foundation · SL · Structure 2.2.9 · 1 mark
     "s2-2-q043": {
       // EN: <p>Pure liquid hexane, <span class="chem">C6H14</span>, does not conduct electricity. Why?</p>
-      stem: "",
+      stem: "<p>순수한 액체 hexane <span class=\"chem\">C6H14</span>는 전기가 통하지 않아요. 왜 그런가요?</p>",
       options: [
         // EN: The covalent bonds in hexane are too strong.
-        "",
+        "hexane의 공유 결합이 너무 강하다.",
         // EN: Hexane has no ions and no delocalized electrons that are free to move.
-        "",
+        "hexane에는 자유롭게 움직일 수 있는 이온도, 비편재화된 전자도 없다.",
         // EN: The London (dispersion) forces between hexane molecules are too weak.
-        "",
+        "hexane 분자 사이의 런던 분산력이 너무 약하다.",
         // EN: The electrons in hexane are free to move but the molecules are not.
-        "",
+        "hexane의 전자는 자유롭게 움직일 수 있지만 분자는 움직일 수 없다.",
       ],
       hints: [
         // EN: To conduct electricity, a substance needs charged particles that are free to move: ions or delocalized electrons.
-        "",
+        "전기가 통하려면 자유롭게 움직일 수 있는 전하를 띤 입자, 즉 이온이나 비편재화된 전자가 있어야 해요.",
       ],
       // EN: <p>Hexane is made of neutral molecules. All its valence electrons are held in covalent bonds. So there are <strong>no mobile ions and no delocalized electrons</strong> to carry charge.</p><p>This is true for most molecular covalent substances, as solids and as liquids.</p>
-      solution: "",
+      solution: "<p>hexane은 중성 분자로 되어 있어요. 원자가 전자는 모두 공유 결합에 묶여 있어요. 그래서 전하를 운반할 <strong>움직이는 이온도, 비편재화된 전자도 없어요</strong>.</p><p>대부분의 분자성 공유 물질은 고체일 때도 액체일 때도 마찬가지예요.</p>",
       misconception: {
         // EN (option A): Bond strength is not the reason. A substance conducts only if it has charged particles that can move.
-        "0": "",
+        "0": "결합의 세기는 이유가 아니에요. 움직일 수 있는 전하를 띤 입자가 있을 때만 전기가 통해요.",
         // EN (option C): Intermolecular forces affect the boiling point. They do not decide electrical conductivity.
-        "2": "",
+        "2": "분자 간 힘은 끓는점에 영향을 줘요. 전기 전도성을 결정하지는 않아요.",
         // EN (option D): The electrons in hexane are held in covalent bonds between two atoms. They are not free to move through the liquid.
-        "3": "",
+        "3": "hexane의 전자는 두 원자 사이의 공유 결합에 묶여 있어요. 액체 속을 자유롭게 움직일 수 없어요.",
       },
     },
 
     // ── s2-2-q044 · mcq · foundation · SL · Structure 2.2.9 · 1 mark
     "s2-2-q044": {
       // EN: <p>What is overcome when liquid water boils?</p>
-      stem: "",
+      stem: "<p>액체 물이 끓을 때 극복되는 것은 무엇인가요?</p>",
       options: [
         // EN: the covalent bonds between hydrogen and oxygen atoms
-        "",
+        "수소 원자와 산소 원자 사이의 공유 결합",
         // EN: the hydrogen bonds between water molecules
-        "",
+        "물 분자 사이의 수소 결합",
         // EN: the ionic bonds between water molecules
-        "",
+        "물 분자 사이의 이온 결합",
         // EN: the attraction between the nuclei and the electrons in each atom
-        "",
+        "각 원자의 원자핵과 전자 사이의 인력",
       ],
       hints: [
         // EN: Steam is still <span class="chem">H2O</span>. What has changed?
-        "",
+        "수증기도 여전히 <span class=\"chem\">H2O</span>예요. 무엇이 바뀌었을까요?",
         // EN: Boiling separates molecules from each other.
-        "",
+        "끓으면 분자가 서로 떨어져요.",
       ],
       // EN: <p>Boiling separates the molecules from each other. The molecules stay whole.</p><p>So boiling overcomes the <strong>intermolecular forces</strong>. In water the strongest of these is <strong>hydrogen bonding</strong>. The <span class="chem">O–H</span> covalent bonds inside each molecule do not break.</p>
-      solution: "",
+      solution: "<p>끓으면 분자가 서로 떨어져요. 분자 자체는 그대로예요.</p><p>그러니까 끓을 때는 <strong>분자 간 힘</strong>이 극복돼요. 물에서 그중 가장 강한 힘은 <strong>수소 결합</strong>이에요. 분자 안의 <span class=\"chem\">O–H</span> 공유 결합은 끊어지지 않아요.</p>",
       misconception: {
         // EN (option A): If the <span class="chem">O–H</span> covalent bonds broke, the water would become hydrogen and oxygen. Steam is still made of <span class="chem">H2O</span> molecules.
-        "0": "",
+        "0": "<span class=\"chem\">O–H</span> 공유 결합이 끊어진다면 물은 수소와 산소로 변할 거예요. 수증기도 여전히 <span class=\"chem\">H2O</span> 분자로 되어 있어요.",
         // EN (option C): Water molecules are neutral. There are no ions in pure water to form ionic bonds between molecules.
-        "2": "",
+        "2": "물 분자는 중성이에요. 순수한 물에는 분자 사이에 이온 결합을 만들 이온이 없어요.",
         // EN (option D): Boiling does not remove electrons from atoms. It only separates whole molecules from each other.
-        "3": "",
+        "3": "끓는다고 원자에서 전자가 떨어져 나가지 않아요. 분자 전체가 서로 떨어질 뿐이에요.",
       },
     },
 
     // ── s2-2-q045 · short · exam · SL · Structure 2.2.9 · 2 marks
     "s2-2-q045": {
       // EN: <p>Ethanol and methoxymethane have the same molecular formula, <span class="chem">C2H6O</span>, and the same molar mass.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Two isomers</caption><thead><tr><th scope="col">Compound</th><th scope="col">Structural formula</th><th scope="col">Boiling point / °C</th></tr></thead><tbody><tr><th scope="row">ethanol</th><td><span class="chem">CH3CH2OH</span></td><td>78</td></tr><tr><th scope="row">methoxymethane</th><td><span class="chem">CH3OCH3</span></td><td>−25</td></tr></tbody></table></div><p>Explain why ethanol has the higher boiling point.</p>
-      stem: "",
+      stem: "<p>ethanol과 methoxymethane은 분자식이 <span class=\"chem\">C2H6O</span>로 같고 몰 질량도 같아요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>두 이성질체</caption><thead><tr><th scope=\"col\">화합물</th><th scope=\"col\">구조식</th><th scope=\"col\">끓는점 / °C</th></tr></thead><tbody><tr><th scope=\"row\">ethanol</th><td><span class=\"chem\">CH3CH2OH</span></td><td>78</td></tr><tr><th scope=\"row\">methoxymethane</th><td><span class=\"chem\">CH3OCH3</span></td><td>−25</td></tr></tbody></table></div><p>ethanol의 끓는점이 더 높은 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: Name the strongest intermolecular force in <strong>each</strong> substance.
-        "",
+        "<strong>각</strong> 물질에서 가장 강한 분자 간 힘의 이름을 쓰세요.",
         // EN: Then say which force is stronger. Link this to the energy needed.
-        "",
+        "그런 다음 어느 힘이 더 강한지 쓰세요. 필요한 에너지와 연결하세요.",
       ],
       // EN: <p>Ethanol has hydrogen bonding between its molecules, because it has a hydrogen atom bonded to oxygen (<span class="chem">O–H</span>). Methoxymethane has no <span class="chem">O–H</span> bond, so it has only dipole–dipole forces (and London forces) between its molecules.</p><p>Hydrogen bonding is stronger than dipole–dipole forces, so more energy is needed to separate the ethanol molecules.</p>
-      answer: "",
+      answer: "<p>ethanol은 산소와 결합한 수소 원자(<span class=\"chem\">O–H</span>)가 있으므로 분자 사이에 수소 결합이 있어요. methoxymethane에는 <span class=\"chem\">O–H</span> 결합이 없으므로 분자 사이에 쌍극자-쌍극자 힘(과 런던 분산력)만 있어요.</p><p>수소 결합은 쌍극자-쌍극자 힘보다 강하므로 ethanol 분자를 떼어 놓는 데 에너지가 더 많이 필요해요.</p>",
       markscheme: [
         // EN: Ethanol has hydrogen bonding (between molecules) AND methoxymethane has dipole–dipole forces (and London forces) only / no hydrogen bonding.
-        "",
+        "ethanol은 (분자 사이에) 수소 결합이 있다 그리고 methoxymethane은 쌍극자-쌍극자 힘(과 런던 분산력)만 있다 / 수소 결합이 없다.",
         // EN: Hydrogen bonding is stronger (than dipole–dipole forces), so more energy is needed to separate the molecules.
-        "",
+        "수소 결합이 (쌍극자-쌍극자 힘보다) 강하므로 분자를 떼어 놓는 데 에너지가 더 많이 필요하다.",
       ],
     },
 
     // ── s2-2-q046 · order · exam · SL · Structure 2.2.9 · 2 marks
     "s2-2-q046": {
       // EN: <p>Put these four alkanes in order of boiling point. Put the <strong>lowest</strong> boiling point first.</p>
-      stem: "",
+      stem: "<p>이 알케인 4가지를 끓는점 순서대로 나열하세요. 끓는점이 <strong>가장 낮은</strong> 것을 처음에 놓으세요.</p>",
       options: [
         // EN: 2,2-dimethylpropane, <span class="chem">C(CH3)4</span>
-        "",
+        "2,2-dimethylpropane, <span class=\"chem\">C(CH3)4</span>",
         // EN: 2-methylbutane, <span class="chem">(CH3)2CHCH2CH3</span>
-        "",
+        "2-methylbutane, <span class=\"chem\">(CH3)2CHCH2CH3</span>",
         // EN: pentane, <span class="chem">CH3CH2CH2CH2CH3</span>
-        "",
+        "pentane, <span class=\"chem\">CH3CH2CH2CH2CH3</span>",
         // EN: hexane, <span class="chem">CH3CH2CH2CH2CH2CH3</span>
-        "",
+        "hexane, <span class=\"chem\">CH3CH2CH2CH2CH2CH3</span>",
       ],
       hints: [
         // EN: All four molecules are non-polar. Which intermolecular force acts between them?
-        "",
+        "네 분자 모두 무극성이에요. 분자 사이에 어떤 분자 간 힘이 작용하나요?",
         // EN: Three of them are isomers, <span class="chem">C5H12</span>. The fourth has more electrons.
-        "",
+        "그중 셋은 이성질체 <span class=\"chem\">C5H12</span>예요. 나머지 하나는 전자가 더 많아요.",
         // EN: A more branched molecule is more compact. It has less surface area in contact with its neighbours.
-        "",
+        "가지가 많은 분자일수록 더 조밀해요. 이웃 분자와 맞닿는 표면적이 작아요.",
       ],
       // EN: <p>All four are non-polar, so only <strong>London (dispersion) forces</strong> act between the molecules.</p><p>The three <span class="chem">C5H12</span> isomers have the same number of electrons. More branching makes a molecule more compact, with less surface contact between molecules, so the London forces are weaker.</p><p>Hexane has more electrons and a longer chain, so it has the strongest London forces.</p><p>Boiling points: 2,2-dimethylpropane 10 °C; 2-methylbutane 28 °C; pentane 36 °C; hexane 69 °C.</p>
-      solution: "",
+      solution: "<p>네 분자 모두 무극성이므로 분자 사이에는 <strong>런던 분산력</strong>만 작용해요.</p><p><span class=\"chem\">C5H12</span> 이성질체 셋은 전자 수가 같아요. 가지가 많을수록 분자가 조밀해져 분자끼리 맞닿는 표면이 줄어들므로 런던 분산력이 약해져요.</p><p>hexane은 전자가 더 많고 사슬이 더 길어서 런던 분산력이 가장 강해요.</p><p>끓는점: 2,2-dimethylpropane 10 °C, 2-methylbutane 28 °C, pentane 36 °C, hexane 69 °C.</p>",
     },
 
     // ── s2-2-q047 · mcq · exam · SL · Structure 2.2.9 · 1 mark
     "s2-2-q047": {
       // EN: <p>Three liquids have similar molar masses.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Three compounds of similar molar mass</caption><thead><tr><th scope="col">Compound</th><th scope="col">Structural formula</th><th scope="col">Molar mass / <span class="unit">g mol-1</span></th></tr></thead><tbody><tr><th scope="row">butane</th><td><span class="chem">CH3CH2CH2CH3</span></td><td>58</td></tr><tr><th scope="row">propanone</th><td><span class="chem">CH3COCH3</span></td><td>58</td></tr><tr><th scope="row">propan-1-ol</th><td><span class="chem">CH3CH2CH2OH</span></td><td>60</td></tr></tbody></table></div><p>Which compound is the most volatile, and why?</p>
-      stem: "",
+      stem: "<p>세 액체의 몰 질량은 비슷해요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>몰 질량이 비슷한 화합물 세 가지</caption><thead><tr><th scope=\"col\">화합물</th><th scope=\"col\">구조식</th><th scope=\"col\">몰 질량 / <span class=\"unit\">g mol-1</span></th></tr></thead><tbody><tr><th scope=\"row\">butane</th><td><span class=\"chem\">CH3CH2CH2CH3</span></td><td>58</td></tr><tr><th scope=\"row\">propanone</th><td><span class=\"chem\">CH3COCH3</span></td><td>58</td></tr><tr><th scope=\"row\">propan-1-ol</th><td><span class=\"chem\">CH3CH2CH2OH</span></td><td>60</td></tr></tbody></table></div><p>휘발성이 가장 큰 화합물은 무엇이고, 그 이유는 무엇인가요?</p>",
       options: [
         // EN: Butane, because it has only London (dispersion) forces between its molecules.
-        "",
+        "butane, 분자 사이에 런던 분산력만 있기 때문이다.",
         // EN: Butane, because its covalent bonds are the weakest.
-        "",
+        "butane, 공유 결합이 가장 약하기 때문이다.",
         // EN: Propan-1-ol, because it has hydrogen bonding between its molecules.
-        "",
+        "propan-1-ol, 분자 사이에 수소 결합이 있기 때문이다.",
         // EN: Propanone, because it has dipole–dipole forces between its molecules.
-        "",
+        "propanone, 분자 사이에 쌍극자-쌍극자 힘이 있기 때문이다.",
       ],
       hints: [
         // EN: A volatile substance turns into a gas easily. It has a low boiling point.
-        "",
+        "휘발성 물질은 쉽게 기체가 돼요. 끓는점이 낮아요.",
         // EN: Find the strongest intermolecular force in each compound.
-        "",
+        "각 화합물에서 가장 강한 분자 간 힘을 찾아보세요.",
         // EN: For similar molar mass: London forces < dipole–dipole forces < hydrogen bonding.
-        "",
+        "몰 질량이 비슷하면: 런던 분산력 < 쌍극자-쌍극자 힘 < 수소 결합.",
       ],
       // EN: <p><strong>Volatile</strong> means the substance vaporizes easily. The most volatile compound has the weakest intermolecular forces.</p><p>Butane is non-polar: London forces only. Propanone is polar (<span class="chem">C=O</span>): dipole–dipole forces. Propan-1-ol has an <span class="chem">O–H</span> group: hydrogen bonding.</p><p>So <strong>butane</strong> is the most volatile. The boiling points agree: butane −1 °C, propanone 56 °C, propan-1-ol 97 °C.</p>
-      solution: "",
+      solution: "<p><strong>휘발성</strong>이 크다는 것은 물질이 쉽게 기화한다는 뜻이에요. 휘발성이 가장 큰 화합물은 분자 간 힘이 가장 약해요.</p><p>butane은 무극성이에요: 런던 분산력만 있어요. propanone은 극성(<span class=\"chem\">C=O</span>)이에요: 쌍극자-쌍극자 힘이 있어요. propan-1-ol에는 <span class=\"chem\">O–H</span> 기가 있어요: 수소 결합이 있어요.</p><p>그래서 <strong>butane</strong>의 휘발성이 가장 커요. 끓는점도 이와 맞아요: butane −1 °C, propanone 56 °C, propan-1-ol 97 °C.</p>",
       misconception: {
         // EN (option B): The compound is right but the reason is wrong. Evaporation and boiling do not break covalent bonds. They overcome intermolecular forces.
-        "1": "",
+        "1": "화합물은 맞지만 이유가 틀렸어요. 증발하거나 끓을 때 공유 결합은 끊어지지 않아요. 분자 간 힘이 극복될 뿐이에요.",
         // EN (option C): Hydrogen bonding is the strongest of these forces. Strong intermolecular forces make a substance <strong>less</strong> volatile.
-        "2": "",
+        "2": "수소 결합은 이 힘들 중 가장 강해요. 분자 간 힘이 강하면 물질의 휘발성이 <strong>작아져요</strong>.",
         // EN (option D): Dipole–dipole forces are stronger than London forces alone (for similar molar mass). So propanone is less volatile than the compound with London forces only.
-        "3": "",
+        "3": "(몰 질량이 비슷하면) 쌍극자-쌍극자 힘은 런던 분산력만 있을 때보다 강해요. 그래서 propanone은 런던 분산력만 있는 화합물보다 휘발성이 작아요.",
       },
     },
 
     // ── s2-2-q048 · short · exam · SL · Structure 2.2.9 · 2 marks
     "s2-2-q048": {
       // EN: <p>Ethanol, <span class="chem">CH3CH2OH</span>, mixes with water in all proportions. Hexan-1-ol, <span class="chem">CH3(CH2)5OH</span>, is only slightly soluble in water.</p><p>Explain why ethanol is soluble in water, and why hexan-1-ol is much less soluble.</p>
-      stem: "",
+      stem: "<p>ethanol <span class=\"chem\">CH3CH2OH</span>는 물과 어떤 비율로도 섞여요. hexan-1-ol <span class=\"chem\">CH3(CH2)5OH</span>는 물에 조금만 녹아요.</p><p>ethanol이 물에 녹는 이유와 hexan-1-ol이 훨씬 덜 녹는 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: Which part of each molecule can form hydrogen bonds with water?
-        "",
+        "각 분자의 어느 부분이 물과 수소 결합을 할 수 있나요?",
         // EN: What is different about the rest of the hexan-1-ol molecule?
-        "",
+        "hexan-1-ol 분자의 나머지 부분은 무엇이 다른가요?",
       ],
       // EN: <p>Ethanol has a hydroxyl (<span class="chem">O–H</span>) group, so it can form hydrogen bonds with water molecules. This is why it dissolves.</p><p>Hexan-1-ol also has a hydroxyl group, but it has a much longer non-polar hydrocarbon chain. The chain cannot form hydrogen bonds with water (it attracts water only by weak London forces), so the molecule as a whole is much less soluble.</p>
-      answer: "",
+      answer: "<p>ethanol에는 하이드록시기(<span class=\"chem\">O–H</span>)가 있어서 물 분자와 수소 결합을 할 수 있어요. 그래서 녹아요.</p><p>hexan-1-ol에도 하이드록시기가 있지만 훨씬 긴 무극성 탄화수소 사슬이 있어요. 이 사슬은 물과 수소 결합을 할 수 없으므로(약한 런던 분산력으로만 물을 끌어당겨요) 분자 전체로는 훨씬 덜 녹아요.</p>",
       markscheme: [
         // EN: Ethanol / the hydroxyl (OH) group forms hydrogen bonds with water (molecules).
-        "",
+        "ethanol / 하이드록시(OH)기가 물 (분자)와 수소 결합을 한다.",
         // EN: Hexan-1-ol has a longer non-polar hydrocarbon chain, which cannot form hydrogen bonds with water. Accept: a larger part of the molecule is non-polar.
-        "",
+        "hexan-1-ol에는 물과 수소 결합을 할 수 없는 더 긴 무극성 탄화수소 사슬이 있다. 인정: 분자에서 무극성인 부분이 더 크다.",
       ],
     },
 
     // ── s2-2-q049 · short · challenge · SL · Structure 2.2.9 · 3 marks
     "s2-2-q049": {
       // EN: <p>Bromine, <span class="chem">Br2</span>, and iodine monochloride, <span class="chem">ICl</span>, have almost the same molar mass, and each molecule has 70 electrons.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Two substances with 70 electrons in each molecule</caption><thead><tr><th scope="col">Substance</th><th scope="col">Molar mass / <span class="unit">g mol-1</span></th><th scope="col">Boiling point / °C</th></tr></thead><tbody><tr><th scope="row"><span class="chem">Br2</span></th><td>160</td><td>59</td></tr><tr><th scope="row"><span class="chem">ICl</span></th><td>162</td><td>97</td></tr></tbody></table></div><p>Electronegativity values from the data booklet: Cl 3.2, Br 3.0, I 2.7.</p><p>Explain why iodine monochloride has the higher boiling point.</p>
-      stem: "",
+      stem: "<p>브로민 <span class=\"chem\">Br2</span>와 일염화 아이오딘 <span class=\"chem\">ICl</span>은 몰 질량이 거의 같고, 분자마다 전자가 70개 있어요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>분자마다 전자가 70개인 물질 두 가지</caption><thead><tr><th scope=\"col\">물질</th><th scope=\"col\">몰 질량 / <span class=\"unit\">g mol-1</span></th><th scope=\"col\">끓는점 / °C</th></tr></thead><tbody><tr><th scope=\"row\"><span class=\"chem\">Br2</span></th><td>160</td><td>59</td></tr><tr><th scope=\"row\"><span class=\"chem\">ICl</span></th><td>162</td><td>97</td></tr></tbody></table></div><p>데이터 부클릿의 전기 음성도 값: Cl 3.2, Br 3.0, I 2.7.</p><p>일염화 아이오딘의 끓는점이 더 높은 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: The question gives the number of electrons. Which intermolecular force depends on this?
-        "",
+        "문제에 전자 수가 주어져 있어요. 어떤 분자 간 힘이 전자 수에 따라 달라지나요?",
         // EN: Use the electronegativity values. Is each molecule polar?
-        "",
+        "전기 음성도 값을 이용하세요. 각 분자는 극성인가요?",
         // EN: Finish by comparing the total strength of the forces and the energy needed.
-        "",
+        "마지막으로 힘의 전체 세기와 필요한 에너지를 비교하세요.",
       ],
       // EN: <p>Both molecules have the same number of electrons, so their London (dispersion) forces are similar in strength.</p><p><span class="chem">Br2</span> is non-polar, because the two atoms are the same. <span class="chem">ICl</span> is polar, because chlorine is more electronegative than iodine (3.2 and 2.7). So <span class="chem">ICl</span> also has dipole–dipole forces between its molecules.</p><p>The total intermolecular forces in <span class="chem">ICl</span> are stronger, so more energy is needed to separate its molecules.</p>
-      answer: "",
+      answer: "<p>두 분자는 전자 수가 같으므로 런던 분산력의 세기가 비슷해요.</p><p><span class=\"chem\">Br2</span>는 두 원자가 같으므로 무극성이에요. <span class=\"chem\">ICl</span>은 염소가 아이오딘보다 전기 음성도가 크므로(3.2와 2.7) 극성이에요. 그래서 <span class=\"chem\">ICl</span>은 분자 사이에 쌍극자-쌍극자 힘도 있어요.</p><p><span class=\"chem\">ICl</span>의 분자 간 힘의 합이 더 강하므로 분자를 떼어 놓는 데 에너지가 더 많이 필요해요.</p>",
       markscheme: [
         // EN: London (dispersion) forces are similar in both, because the molecules have the same number of electrons / similar molar mass.
-        "",
+        "분자의 전자 수가 같으므로 / 몰 질량이 비슷하므로 두 물질의 런던 분산력은 비슷하다.",
         // EN: ICl is polar (Cl is more electronegative than I / electronegativity difference of 0.5) but Br<sub>2</sub> is non-polar, so ICl (also) has dipole–dipole forces.
-        "",
+        "ICl은 극성이지만(Cl이 I보다 전기 음성도가 크다 / 전기 음성도 차이 0.5) Br<sub>2</sub>는 무극성이므로, ICl에는 쌍극자-쌍극자 힘도 있다.",
         // EN: The intermolecular forces in ICl are stronger (overall), so more energy is needed to separate the molecules. Do not accept any reference to breaking covalent bonds.
-        "",
+        "ICl의 분자 간 힘이 (전체적으로) 더 강하므로 분자를 떼어 놓는 데 에너지가 더 많이 필요하다. 공유 결합이 끊어진다는 언급은 인정하지 않음.",
       ],
     },
 
     // ── s2-2-q050 · short · challenge · SL · Structure 2.2.9 · 4 marks
     "s2-2-q050": {
       // EN: <p>Hydrogen sulfide, <span class="chem">H2S</span>, has a higher molar mass than water, but a much lower boiling point.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Two hydrides of group 16</caption><thead><tr><th scope="col">Substance</th><th scope="col">Molar mass / <span class="unit">g mol-1</span></th><th scope="col">Boiling point / °C</th></tr></thead><tbody><tr><th scope="row"><span class="chem">H2S</span></th><td>34</td><td>−60</td></tr><tr><th scope="row"><span class="chem">H2O</span></th><td>18</td><td>100</td></tr></tbody></table></div><p>Electronegativity values from the data booklet: H 2.2, O 3.4, S 2.6.</p><p>(a) Deduce the molecular geometry of <span class="chem">H2S</span>. Give a reason.</p><p>(b) Deduce, with a reason, if the <span class="chem">H2S</span> molecule is polar.</p><p>(c) Explain why <span class="chem">H2S</span> has a lower boiling point than water.</p>
-      stem: "",
+      stem: "<p>황화 수소 <span class=\"chem\">H2S</span>는 물보다 몰 질량이 크지만 끓는점은 훨씬 낮아요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>16족의 수소 화합물 두 가지</caption><thead><tr><th scope=\"col\">물질</th><th scope=\"col\">몰 질량 / <span class=\"unit\">g mol-1</span></th><th scope=\"col\">끓는점 / °C</th></tr></thead><tbody><tr><th scope=\"row\"><span class=\"chem\">H2S</span></th><td>34</td><td>−60</td></tr><tr><th scope=\"row\"><span class=\"chem\">H2O</span></th><td>18</td><td>100</td></tr></tbody></table></div><p>데이터 부클릿의 전기 음성도 값: H 2.2, O 3.4, S 2.6.</p><p>(a) <span class=\"chem\">H2S</span>의 분자 모양을 추론하시오 (deduce). 이유를 쓰시오.</p><p>(b) <span class=\"chem\">H2S</span> 분자가 극성인지 이유와 함께 추론하시오.</p><p>(c) <span class=\"chem\">H2S</span>의 끓는점이 물보다 낮은 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: (a) Sulfur is in group 16, like oxygen. Count its bonding pairs and lone pairs.
-        "",
+        "(a) 황은 산소처럼 16족이에요. 공유 전자쌍과 비공유 전자쌍을 세어 보세요.",
         // EN: (b) Check two things: are the bonds polar, and do the bond dipoles cancel?
-        "",
+        "(b) 두 가지를 확인하세요. 결합이 극성인가요? 결합 쌍극자가 상쇄되나요?",
         // EN: (c) Name the strongest intermolecular force in each substance. Then compare their strengths.
-        "",
+        "(c) 각 물질에서 가장 강한 분자 간 힘의 이름을 쓰세요. 그런 다음 세기를 비교하세요.",
       ],
       // EN: <p>(a) Bent (V-shaped). Sulfur has four electron domains: two bonding pairs and two lone pairs.</p><p>(b) Polar. The <span class="chem">S–H</span> bonds are polar (difference 2.6 − 2.2 = 0.4), and because the molecule is bent the bond dipoles do not cancel.</p><p>(c) <span class="chem">H2S</span> has dipole–dipole forces and London forces between its molecules. Water has hydrogen bonding, because H is bonded to the very electronegative O atom. Hydrogen bonding is stronger, so more energy is needed to separate water molecules. This outweighs the stronger London forces in <span class="chem">H2S</span>.</p>
-      answer: "",
+      answer: "<p>(a) 굽은 형(V자형). 황에는 전자 영역이 4개 있어요. 공유 전자쌍 2개와 비공유 전자쌍 2개예요.</p><p>(b) 극성. <span class=\"chem\">S–H</span> 결합은 극성이고(차이 2.6 − 2.2 = 0.4), 분자가 굽은 형이므로 결합 쌍극자가 상쇄되지 않아요.</p><p>(c) <span class=\"chem\">H2S</span>는 분자 사이에 쌍극자-쌍극자 힘과 런던 분산력이 있어요. 물은 H가 전기 음성도가 매우 큰 O 원자와 결합해 있으므로 수소 결합이 있어요. 수소 결합이 더 강하므로 물 분자를 떼어 놓는 데 에너지가 더 많이 필요해요. 이 효과가 <span class=\"chem\">H2S</span>의 더 강한 런던 분산력보다 커요.</p>",
       markscheme: [
         // EN: (a) Bent / V-shaped / angular AND two bonding pairs and two lone (non-bonding) pairs on sulfur / four electron domains with two lone pairs.
-        "",
+        "(a) 굽은 형 / V자형 / 꺾인 모양 그리고 황에 공유 전자쌍 2개와 비공유 전자쌍 2개 / 전자 영역 4개 중 비공유 전자쌍 2개.",
         // EN: (b) Polar, because the bond dipoles do not cancel / the molecule is not symmetrical (bent). Allow follow-through from the shape in (a).
-        "",
+        "(b) 결합 쌍극자가 상쇄되지 않으므로 / 분자가 대칭이 아니므로(굽은 형) 극성이다. (a)의 모양에서 이어진 답(follow-through)도 인정.",
         // EN: (c) H<sub>2</sub>S has dipole–dipole forces (and London forces) AND water has hydrogen bonding.
-        "",
+        "(c) H<sub>2</sub>S에는 쌍극자-쌍극자 힘(과 런던 분산력)이 있다 그리고 물에는 수소 결합이 있다.",
         // EN: (c) Hydrogen bonding is stronger (than dipole–dipole forces), so more energy is needed to separate the molecules of water.
-        "",
+        "(c) 수소 결합이 (쌍극자-쌍극자 힘보다) 강하므로 물 분자를 떼어 놓는 데 에너지가 더 많이 필요하다.",
       ],
     },
 
     // ── s2-2-q051 · mcq · challenge · SL · Structure 2.2.9 · 1 mark
     "s2-2-q051": {
       // EN: <p>Ethanal, <span class="chem">CH3CHO</span>, and propane, <span class="chem">CH3CH2CH3</span>, both have a molar mass of 44 <span class="unit">g mol-1</span>. Ethanal boils at 20 °C and propane boils at −42 °C.</p><p>A student explains: "Ethanal has the higher boiling point because it contains hydrogen and oxygen, so it forms hydrogen bonds between its molecules. Propane has only London (dispersion) forces."</p><p>Which statement correctly identifies the error in this explanation?</p>
-      stem: "",
+      stem: "<p>ethanal <span class=\"chem\">CH3CHO</span>와 propane <span class=\"chem\">CH3CH2CH3</span>는 둘 다 몰 질량이 44 <span class=\"unit\">g mol-1</span>예요. ethanal은 20 °C에서, propane은 −42 °C에서 끓어요.</p><p>한 학생이 이렇게 설명했어요: \"ethanal에는 수소와 산소가 있으므로 분자 사이에 수소 결합을 만든다. 그래서 끓는점이 더 높다. propane에는 런던 분산력만 있다.\"</p><p>이 설명의 오류를 옳게 지적한 것은 무엇인가요?</p>",
       options: [
         // EN: There is no error.
-        "",
+        "오류가 없다.",
         // EN: Ethanal is non-polar, so it also has only London (dispersion) forces.
-        "",
+        "ethanal은 무극성이므로 ethanal에도 런던 분산력만 있다.",
         // EN: In ethanal every hydrogen atom is bonded to carbon, so there is no hydrogen bonding between ethanal molecules. The extra force is dipole–dipole.
-        "",
+        "ethanal에서는 모든 수소 원자가 탄소와 결합해 있으므로 ethanal 분자 사이에 수소 결합이 없다. 추가로 작용하는 힘은 쌍극자-쌍극자 힘이다.",
         // EN: Boiling breaks the <span class="chem">C=O</span> bond in ethanal, and this bond is stronger than the bonds in propane.
-        "",
+        "끓을 때 ethanal의 <span class=\"chem\">C=O</span> 결합이 끊어지는데, 이 결합은 propane의 결합보다 강하다.",
       ],
       hints: [
         // EN: Draw ethanal. Is any hydrogen atom bonded to oxygen?
-        "",
+        "ethanal을 그려 보세요. 산소와 결합한 수소 원자가 있나요?",
         // EN: Ethanal has a polar <span class="chem">C=O</span> bond. Which intermolecular force do polar molecules have?
-        "",
+        "ethanal에는 극성인 <span class=\"chem\">C=O</span> 결합이 있어요. 극성 분자에는 어떤 분자 간 힘이 있나요?",
       ],
       // EN: <p>Hydrogen bonding needs H <strong>covalently bonded to</strong> N, O or F. In ethanal the oxygen is double-bonded to carbon and all four hydrogens are bonded to carbon. So ethanal molecules do not hydrogen-bond to each other.</p><p>Ethanal is polar, so it has <strong>dipole–dipole forces</strong> as well as London forces. Propane is non-polar and has London forces only. Dipole–dipole forces are stronger than London forces alone (for similar molar mass), so ethanal has the higher boiling point.</p>
-      solution: "",
+      solution: "<p>수소 결합이 생기려면 H가 N, O, F와 <strong>공유 결합</strong>해 있어야 해요. ethanal에서 산소는 탄소와 이중 결합해 있고 수소 4개는 모두 탄소와 결합해 있어요. 그래서 ethanal 분자끼리는 수소 결합을 하지 않아요.</p><p>ethanal은 극성이므로 런던 분산력뿐 아니라 <strong>쌍극자-쌍극자 힘</strong>도 있어요. propane은 무극성이고 런던 분산력만 있어요. (몰 질량이 비슷하면) 쌍극자-쌍극자 힘은 런던 분산력만 있을 때보다 강하므로 ethanal의 끓는점이 더 높아요.</p>",
       misconception: {
         // EN (option A): Check the structure of ethanal: <span class="chem">CH3–CH=O</span>. Containing H and O is not enough. Which atom is each H bonded to?
-        "0": "",
+        "0": "ethanal의 구조를 확인하세요: <span class=\"chem\">CH3–CH=O</span>. H와 O가 들어 있는 것만으로는 부족해요. 각 H가 어느 원자와 결합해 있나요?",
         // EN (option B): Ethanal is polar. The <span class="chem">C=O</span> bond has an electronegativity difference of 3.4 − 2.6 = 0.8, and its dipole is not cancelled.
-        "1": "",
+        "1": "ethanal은 극성이에요. <span class=\"chem\">C=O</span> 결합의 전기 음성도 차이는 3.4 − 2.6 = 0.8이고, 이 쌍극자는 상쇄되지 않아요.",
         // EN (option D): Boiling does not break covalent bonds. It only overcomes the forces between molecules.
-        "3": "",
+        "3": "끓을 때 공유 결합은 끊어지지 않아요. 분자 사이의 힘만 극복돼요.",
       },
     },
 
     // ── s2-2-q052 · mcq · foundation · SL · Structure 2.2.10 · 1 mark
     "s2-2-q052": {
       // EN: <p>How is the retardation factor, <i>R</i><sub>F</sub>, of a spot calculated?</p>
-      stem: "",
+      stem: "<p>점의 이동률 <i>R</i><sub>F</sub>는 어떻게 계산하나요?</p>",
       options: [
         // EN: distance moved by the solvent front ÷ distance moved by the spot
-        "",
+        "용매 전선이 이동한 거리 ÷ 점이 이동한 거리",
         // EN: distance moved by the spot ÷ distance moved by the solvent front, both measured from the baseline
-        "",
+        "점이 이동한 거리 ÷ 용매 전선이 이동한 거리, 둘 다 출발선에서 잰다",
         // EN: distance moved by the spot ÷ total length of the paper
-        "",
+        "점이 이동한 거리 ÷ 종이의 전체 길이",
         // EN: distance moved by the solvent front − distance moved by the spot
-        "",
+        "용매 전선이 이동한 거리 − 점이 이동한 거리",
       ],
       hints: [
         // EN: The value is always between 0 and 1.
-        "",
+        "값은 항상 0과 1 사이예요.",
         // EN: Both distances start at the baseline, where the sample was placed.
-        "",
+        "두 거리 모두 시료를 찍은 출발선에서 시작해요.",
       ],
       // EN: <p><i>R</i><sub>F</sub> = distance moved by the spot ÷ distance moved by the solvent front.</p><p>Measure both distances <strong>from the baseline</strong>. The value has no unit and lies between 0 and 1.</p>
-      solution: "",
+      solution: "<p><i>R</i><sub>F</sub> = 점이 이동한 거리 ÷ 용매 전선이 이동한 거리.</p><p>두 거리 모두 <strong>출발선에서</strong> 재요. 값에는 단위가 없고 0과 1 사이에 있어요.</p>",
       misconception: {
         // EN (option A): This is upside down. It would give a value greater than 1. A spot cannot move further than the solvent, so <i>R</i><sub>F</sub> is never more than 1.
-        "0": "",
+        "0": "분자와 분모가 뒤바뀌었어요. 이렇게 하면 값이 1보다 커져요. 점은 용매보다 더 멀리 이동할 수 없으므로 <i>R</i><sub>F</sub>는 절대 1보다 크지 않아요.",
         // EN (option C): Use the distance the solvent moved, not the length of the paper. The solvent front does not usually reach the top of the paper.
-        "2": "",
+        "2": "종이의 길이가 아니라 용매가 이동한 거리를 쓰세요. 용매 전선은 보통 종이 맨 위까지 가지 않아요.",
         // EN (option D): <i>R</i><sub>F</sub> is a ratio, not a difference. It has no unit.
-        "3": "",
+        "3": "<i>R</i><sub>F</sub>는 차가 아니라 비예요. 단위가 없어요.",
       },
     },
 
     // ── s2-2-q053 · numeric · foundation · SL · Structure 2.2.10 · 1 mark
     "s2-2-q053": {
       // EN: <p>In a paper chromatography experiment, a spot of dye moves 3.6 cm from the baseline. The solvent front moves 8.0 cm from the baseline.</p><p>Calculate the <i>R</i><sub>F</sub> value of the dye. Give your answer to 2 significant figures.</p>
-      stem: "",
+      stem: "<p>종이 크로마토그래피 실험에서 염료 점이 출발선에서 3.6 cm 이동했어요. 용매 전선은 출발선에서 8.0 cm 이동했어요.</p><p>염료의 <i>R</i><sub>F</sub> 값을 계산하시오 (calculate). 답은 유효 숫자 2자리로 쓰시오.</p>",
       hints: [
         // EN: <i>R</i><sub>F</sub> = distance moved by the spot ÷ distance moved by the solvent front.
-        "",
+        "<i>R</i><sub>F</sub> = 점이 이동한 거리 ÷ 용매 전선이 이동한 거리.",
         // EN: The answer must be less than 1 and has no unit.
-        "",
+        "답은 1보다 작아야 하고 단위가 없어요.",
       ],
       // EN: <div class="worked__math"><i>R</i><sub>F</sub> = 3.6 cm ÷ 8.0 cm = 0.45</div><p>The units cancel, so <i>R</i><sub>F</sub> has no unit.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>R</i><sub>F</sub> = 3.6 cm ÷ 8.0 cm = 0.45</div><p>단위가 약분되므로 <i>R</i><sub>F</sub>에는 단위가 없어요.</p>",
     },
 
     // ── s2-2-q054 · numeric · exam · SL · Structure 2.2.10 · 1 mark
     "s2-2-q054": {
       // EN: <p>The diagram shows a paper chromatogram of one dye. A ruler is placed next to the paper. All the labelled distances are measured in cm from the <strong>bottom edge</strong> of the paper.</p><p><svg viewBox="0 0 300 242" width="300" height="242" role="img" style="max-width:100%;height:auto" aria-label="Paper chromatogram with a ruler. Distances from the bottom edge of the paper: baseline 1.5 cm, centre of the spot 6.9 cm, solvent front 10.5 cm, top of the paper 12.0 cm."><line x1="40" x2="40" y1="230" y2="26" stroke="currentColor" stroke-width="1.2"/><line x1="32" x2="40" y1="230" y2="230" stroke="currentColor" stroke-width="1"/><text x="28" y="234" text-anchor="end" font-size="11" fill="currentColor">0</text><line x1="35" x2="40" y1="213" y2="213" stroke="currentColor" stroke-width="1"/><line x1="32" x2="40" y1="196" y2="196" stroke="currentColor" stroke-width="1"/><text x="28" y="200" text-anchor="end" font-size="11" fill="currentColor">2</text><line x1="35" x2="40" y1="179" y2="179" stroke="currentColor" stroke-width="1"/><line x1="32" x2="40" y1="162" y2="162" stroke="currentColor" stroke-width="1"/><text x="28" y="166" text-anchor="end" font-size="11" fill="currentColor">4</text><line x1="35" x2="40" y1="145" y2="145" stroke="currentColor" stroke-width="1"/><line x1="32" x2="40" y1="128" y2="128" stroke="currentColor" stroke-width="1"/><text x="28" y="132" text-anchor="end" font-size="11" fill="currentColor">6</text><line x1="35" x2="40" y1="111" y2="111" stroke="currentColor" stroke-width="1"/><line x1="32" x2="40" y1="94" y2="94" stroke="currentColor" stroke-width="1"/><text x="28" y="98" text-anchor="end" font-size="11" fill="currentColor">8</text><line x1="35" x2="40" y1="77" y2="77" stroke="currentColor" stroke-width="1"/><line x1="32" x2="40" y1="60" y2="60" stroke="currentColor" stroke-width="1"/><text x="28" y="64" text-anchor="end" font-size="11" fill="currentColor">10</text><line x1="35" x2="40" y1="43" y2="43" stroke="currentColor" stroke-width="1"/><line x1="32" x2="40" y1="26" y2="26" stroke="currentColor" stroke-width="1"/><text x="28" y="30" text-anchor="end" font-size="11" fill="currentColor">12</text><text x="28" y="11" text-anchor="end" font-size="11" fill="currentColor">cm</text><rect x="56" y="26" width="84" height="204" fill="none" stroke="currentColor" stroke-width="1.4"/><line x1="56" x2="140" y1="204.5" y2="204.5" stroke="currentColor" stroke-width="1.2"/><line x1="56" x2="140" y1="51.5" y2="51.5" stroke="currentColor" stroke-width="1.2" stroke-dasharray="5 4"/><path d="M92 204.5l6 -6m-6 6l6 6m-6 -6l-6 -6m6 6l-6 6" stroke="currentColor" stroke-width="1.2" fill="none"/><ellipse cx="98" cy="112.69999999999999" rx="8" ry="5.5" fill="currentColor" fill-opacity="0.55" stroke="currentColor"/><line x1="142" x2="152" y1="26" y2="26" stroke="currentColor" stroke-width="1"/><text x="156" y="30" font-size="12" fill="currentColor">top of paper, 12.0</text><line x1="142" x2="152" y1="51.5" y2="51.5" stroke="currentColor" stroke-width="1"/><text x="156" y="55.5" font-size="12" fill="currentColor">solvent front, 10.5</text><line x1="142" x2="152" y1="112.69999999999999" y2="112.69999999999999" stroke="currentColor" stroke-width="1"/><text x="156" y="116.69999999999999" font-size="12" fill="currentColor">centre of spot, 6.9</text><line x1="142" x2="152" y1="204.5" y2="204.5" stroke="currentColor" stroke-width="1"/><text x="156" y="208.5" font-size="12" fill="currentColor">baseline, 1.5</text><line x1="142" x2="152" y1="230" y2="230" stroke="currentColor" stroke-width="1"/><text x="156" y="234" font-size="12" fill="currentColor">bottom edge, 0.0</text></svg></p><p>Calculate the <i>R</i><sub>F</sub> value of the dye. Give your answer to 2 significant figures.</p>
-      stem: "",
+      stem: "<p>그림은 염료 한 가지의 종이 크로마토그램이에요. 종이 옆에 자가 놓여 있어요. 표시된 거리는 모두 종이의 <strong>아래 끝</strong>에서 cm 단위로 잰 값이에요.</p><p><svg viewBox=\"0 0 300 242\" width=\"300\" height=\"242\" role=\"img\" style=\"max-width:100%;height:auto\" aria-label=\"자가 함께 있는 종이 크로마토그램. 종이 아래 끝에서 잰 거리: 출발선 1.5 cm, 점의 중심 6.9 cm, 용매 전선 10.5 cm, 종이 위 끝 12.0 cm.\"><line x1=\"40\" x2=\"40\" y1=\"230\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"32\" x2=\"40\" y1=\"230\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"28\" y=\"234\" text-anchor=\"end\" font-size=\"11\" fill=\"currentColor\">0</text><line x1=\"35\" x2=\"40\" y1=\"213\" y2=\"213\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"32\" x2=\"40\" y1=\"196\" y2=\"196\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"28\" y=\"200\" text-anchor=\"end\" font-size=\"11\" fill=\"currentColor\">2</text><line x1=\"35\" x2=\"40\" y1=\"179\" y2=\"179\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"32\" x2=\"40\" y1=\"162\" y2=\"162\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"28\" y=\"166\" text-anchor=\"end\" font-size=\"11\" fill=\"currentColor\">4</text><line x1=\"35\" x2=\"40\" y1=\"145\" y2=\"145\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"32\" x2=\"40\" y1=\"128\" y2=\"128\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"28\" y=\"132\" text-anchor=\"end\" font-size=\"11\" fill=\"currentColor\">6</text><line x1=\"35\" x2=\"40\" y1=\"111\" y2=\"111\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"32\" x2=\"40\" y1=\"94\" y2=\"94\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"28\" y=\"98\" text-anchor=\"end\" font-size=\"11\" fill=\"currentColor\">8</text><line x1=\"35\" x2=\"40\" y1=\"77\" y2=\"77\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"32\" x2=\"40\" y1=\"60\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"28\" y=\"64\" text-anchor=\"end\" font-size=\"11\" fill=\"currentColor\">10</text><line x1=\"35\" x2=\"40\" y1=\"43\" y2=\"43\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"32\" x2=\"40\" y1=\"26\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"28\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"currentColor\">12</text><text x=\"28\" y=\"11\" text-anchor=\"end\" font-size=\"11\" fill=\"currentColor\">cm</text><rect x=\"56\" y=\"26\" width=\"84\" height=\"204\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><line x1=\"56\" x2=\"140\" y1=\"204.5\" y2=\"204.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"56\" x2=\"140\" y1=\"51.5\" y2=\"51.5\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><path d=\"M92 204.5l6 -6m-6 6l6 6m-6 -6l-6 -6m6 6l-6 6\" stroke=\"currentColor\" stroke-width=\"1.2\" fill=\"none\"/><ellipse cx=\"98\" cy=\"112.69999999999999\" rx=\"8\" ry=\"5.5\" fill=\"currentColor\" fill-opacity=\"0.55\" stroke=\"currentColor\"/><line x1=\"142\" x2=\"152\" y1=\"26\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"156\" y=\"30\" font-size=\"12\" fill=\"currentColor\">종이 위 끝, 12.0</text><line x1=\"142\" x2=\"152\" y1=\"51.5\" y2=\"51.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"156\" y=\"55.5\" font-size=\"12\" fill=\"currentColor\">용매 전선, 10.5</text><line x1=\"142\" x2=\"152\" y1=\"112.69999999999999\" y2=\"112.69999999999999\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"156\" y=\"116.69999999999999\" font-size=\"12\" fill=\"currentColor\">점의 중심, 6.9</text><line x1=\"142\" x2=\"152\" y1=\"204.5\" y2=\"204.5\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"156\" y=\"208.5\" font-size=\"12\" fill=\"currentColor\">출발선, 1.5</text><line x1=\"142\" x2=\"152\" y1=\"230\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"156\" y=\"234\" font-size=\"12\" fill=\"currentColor\">아래 끝, 0.0</text></svg></p><p>염료의 <i>R</i><sub>F</sub> 값을 계산하시오 (calculate). 답은 유효 숫자 2자리로 쓰시오.</p>",
       hints: [
         // EN: Both distances in the <i>R</i><sub>F</sub> formula start at the baseline, not at the bottom edge.
-        "",
+        "<i>R</i><sub>F</sub> 식의 두 거리는 모두 아래 끝이 아니라 출발선에서 시작해요.",
         // EN: Distance moved by the spot = 6.9 − 1.5. Find the distance moved by the solvent front in the same way.
-        "",
+        "점이 이동한 거리 = 6.9 − 1.5. 용매 전선이 이동한 거리도 같은 방법으로 구하세요.",
         // EN: You do not need the position of the top of the paper.
-        "",
+        "종이 위 끝의 위치는 필요 없어요.",
       ],
       // EN: <div class="worked__math">distance moved by spot = 6.9 − 1.5 = 5.4 cm</div><div class="worked__math">distance moved by solvent front = 10.5 − 1.5 = 9.0 cm</div><div class="worked__math"><i>R</i><sub>F</sub> = 5.4 cm ÷ 9.0 cm = 0.60</div><p>Common slips: 6.9 ÷ 10.5 = 0.66 (measured from the bottom edge) and 6.9 ÷ 12.0 = 0.58 (used the top of the paper).</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">점이 이동한 거리 = 6.9 − 1.5 = 5.4 cm</div><div class=\"worked__math\">용매 전선이 이동한 거리 = 10.5 − 1.5 = 9.0 cm</div><div class=\"worked__math\"><i>R</i><sub>F</sub> = 5.4 cm ÷ 9.0 cm = 0.60</div><p>흔한 실수: 6.9 ÷ 10.5 = 0.66(아래 끝에서 잼), 6.9 ÷ 12.0 = 0.58(종이 위 끝을 씀).</p>",
     },
 
     // ── s2-2-q055 · mcq · exam · SL · Structure 2.2.10 · 1 mark
     "s2-2-q055": {
       // EN: <p>Two compounds, P and Q, are separated by thin layer chromatography (TLC). The stationary phase is silica, which is polar. The mobile phase is hexane, which is non-polar.</p><p>P and Q have the same structure, except that P has a hydroxyl (<span class="chem">–OH</span>) group where Q has a hydrogen atom.</p><p>The two spots have <i>R</i><sub>F</sub> values of 0.21 and 0.74. Which row is correct?</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Options</caption><thead><tr><th scope="col"></th><th scope="col"><i>R</i><sub>F</sub> of P</th><th scope="col">Reason</th></tr></thead><tbody><tr><th scope="row">A</th><td>0.21</td><td>P is more strongly attracted to the polar stationary phase</td></tr><tr><th scope="row">B</th><td>0.21</td><td>P is more strongly attracted to the non-polar mobile phase</td></tr><tr><th scope="row">C</th><td>0.74</td><td>P is more strongly attracted to the polar stationary phase</td></tr><tr><th scope="row">D</th><td>0.74</td><td>P is more strongly attracted to the non-polar mobile phase</td></tr></tbody></table></div>
-      stem: "",
+      stem: "<p>두 화합물 P와 Q를 얇은 막 크로마토그래피(TLC)로 분리해요. 고정상은 극성인 실리카예요. 이동상은 무극성인 hexane이에요.</p><p>P와 Q는 구조가 같은데, Q의 수소 원자 하나가 있는 자리에 P는 하이드록시기(<span class=\"chem\">–OH</span>)가 있어요.</p><p>두 점의 <i>R</i><sub>F</sub> 값은 0.21과 0.74예요. 옳은 행은 무엇인가요?</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>보기</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">P의 <i>R</i><sub>F</sub></th><th scope=\"col\">이유</th></tr></thead><tbody><tr><th scope=\"row\">A</th><td>0.21</td><td>P가 극성 고정상에 더 강하게 끌린다</td></tr><tr><th scope=\"row\">B</th><td>0.21</td><td>P가 무극성 이동상에 더 강하게 끌린다</td></tr><tr><th scope=\"row\">C</th><td>0.74</td><td>P가 극성 고정상에 더 강하게 끌린다</td></tr><tr><th scope=\"row\">D</th><td>0.74</td><td>P가 무극성 이동상에 더 강하게 끌린다</td></tr></tbody></table></div>",
       options: [
         // EN: A
-        "",
+        "A",
         // EN: B
-        "",
+        "B",
         // EN: C
-        "",
+        "C",
         // EN: D
-        "",
+        "D",
       ],
       hints: [
         // EN: Which compound is more polar, P or Q?
-        "",
+        "P와 Q 중 어느 화합물의 극성이 더 큰가요?",
         // EN: A component that is strongly attracted to the stationary phase spends more time not moving.
-        "",
+        "고정상에 강하게 끌리는 성분은 움직이지 않고 머무는 시간이 길어요.",
         // EN: A small <i>R</i><sub>F</sub> means the spot moved a short distance.
-        "",
+        "<i>R</i><sub>F</sub>가 작다는 것은 점이 짧은 거리를 이동했다는 뜻이에요.",
       ],
       // EN: <p>The <span class="chem">–OH</span> group makes <strong>P more polar</strong> than Q. P can form hydrogen bonds with the polar silica.</p><p>So P is more strongly attracted to the <strong>stationary phase</strong>. It is held back and moves a shorter distance: <i>R</i><sub>F</sub> = <strong>0.21</strong>.</p><p>Q is less polar. It is more attracted to the non-polar mobile phase and is carried further: <i>R</i><sub>F</sub> = 0.74.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">–OH</span> 기 때문에 <strong>P가 Q보다 극성이 커요</strong>. P는 극성인 실리카와 수소 결합을 할 수 있어요.</p><p>그래서 P는 <strong>고정상</strong>에 더 강하게 끌려요. 붙잡혀 있어서 더 짧은 거리를 이동해요: <i>R</i><sub>F</sub> = <strong>0.21</strong>.</p><p>Q는 극성이 더 작아요. 무극성 이동상에 더 끌려서 더 멀리 운반돼요: <i>R</i><sub>F</sub> = 0.74.</p>",
       misconception: {
         // EN (option B): The <i>R</i><sub>F</sub> value is right, but the reason is wrong. A compound that is strongly attracted to the mobile phase is carried further and has a high <i>R</i><sub>F</sub>. Also, P is the more polar compound, so it is less attracted to hexane than Q is.
-        "1": "",
+        "1": "<i>R</i><sub>F</sub> 값은 맞지만 이유가 틀렸어요. 이동상에 강하게 끌리는 화합물은 더 멀리 운반되어 <i>R</i><sub>F</sub>가 커요. 또 P는 극성이 더 큰 화합물이므로 Q보다 hexane에 덜 끌려요.",
         // EN (option C): The reason is right, but it leads to the other value. A compound that is strongly attracted to the stationary phase is held back, so it moves a short distance.
-        "2": "",
+        "2": "이유는 맞지만 이 이유라면 다른 값이 돼요. 고정상에 강하게 끌리는 화합물은 붙잡혀 있으므로 짧은 거리를 이동해요.",
         // EN (option D): The polarity logic is reversed. The hydroxyl group makes P more polar (it can hydrogen-bond to silica), so P is attracted more to the stationary phase, not to hexane.
-        "3": "",
+        "3": "극성에 대한 논리가 거꾸로예요. 하이드록시기 때문에 P의 극성이 더 크므로(실리카와 수소 결합 가능) P는 hexane이 아니라 고정상에 더 끌려요.",
       },
     },
 
     // ── s2-2-q056 · short · exam · SL · Structure 2.2.10 · 2 marks
     "s2-2-q056": {
       // EN: <p>A mixture of two dyes is separated by paper chromatography. One dye moves further up the paper than the other.</p><p>Explain why the two dyes separate.</p>
-      stem: "",
+      stem: "<p>두 염료의 혼합물을 종이 크로마토그래피로 분리해요. 한 염료가 다른 염료보다 종이 위쪽으로 더 멀리 이동해요.</p><p>두 염료가 분리되는 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: Chromatography has two phases. Name them.
-        "",
+        "크로마토그래피에는 상이 두 가지 있어요. 이름을 쓰세요.",
         // EN: Each dye is attracted to both phases. What decides how far a dye moves?
-        "",
+        "각 염료는 두 상 모두에 끌려요. 염료가 얼마나 멀리 이동할지는 무엇이 결정하나요?",
       ],
       // EN: <p>The two dyes have different relative attractions (intermolecular forces) to the mobile phase and to the stationary phase.</p><p>The dye that is more strongly attracted to (more soluble in) the mobile phase, and less strongly attracted to the stationary phase, is carried further by the solvent. It has the higher <i>R</i><sub>F</sub> value.</p>
-      answer: "",
+      answer: "<p>두 염료는 이동상과 고정상에 대한 상대적인 인력(분자 간 힘)이 서로 달라요.</p><p>이동상에 더 강하게 끌리고(이동상에 더 잘 녹고) 고정상에 덜 끌리는 염료가 용매에 의해 더 멀리 운반돼요. 이 염료의 <i>R</i><sub>F</sub> 값이 더 커요.</p>",
       markscheme: [
         // EN: The dyes have different (relative) attractions / intermolecular forces to the mobile phase and the stationary phase. Accept: different solubility in the solvent / different adsorption on the stationary phase.
-        "",
+        "두 염료는 이동상과 고정상에 대한 (상대적인) 인력 / 분자 간 힘이 다르다. 인정: 용매에 대한 용해도가 다르다 / 고정상에 대한 흡착 정도가 다르다.",
         // EN: The dye that is more attracted to (more soluble in) the mobile phase / less attracted to the stationary phase moves further (has the higher R<sub>F</sub>).
-        "",
+        "이동상에 더 끌리는(이동상에 더 잘 녹는) / 고정상에 덜 끌리는 염료가 더 멀리 이동한다(R<sub>F</sub>가 더 크다).",
       ],
     },
 
     // ── s2-2-q057 · multi · exam · SL · Structure 2.2.10 · 2 marks
     "s2-2-q057": {
       // EN: <p>A food colouring, M, is tested by paper chromatography. The solvent front moves 10.0 cm from the baseline. M gives three spots, at 2.0 cm, 5.5 cm and 8.0 cm from the baseline.</p><p>Five pure dyes are tested on a <strong>second</strong> piece of the same paper with the same solvent. On this paper, the solvent front moves 8.0 cm from the baseline.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Second chromatogram (solvent front at 8.0 cm)</caption><thead><tr><th scope="col">Pure dye</th><th scope="col">Distance moved by spot / cm</th></tr></thead><tbody><tr><th scope="row">A</th><td>1.6</td></tr><tr><th scope="row">B</th><td>4.4</td></tr><tr><th scope="row">C</th><td>5.5</td></tr><tr><th scope="row">D</th><td>6.4</td></tr><tr><th scope="row">E</th><td>2.0</td></tr></tbody></table></div><p>Which dyes could be present in M? Select all that apply.</p>
-      stem: "",
+      stem: "<p>식용 색소 M을 종이 크로마토그래피로 검사해요. 용매 전선은 출발선에서 10.0 cm 이동했어요. M은 출발선에서 2.0 cm, 5.5 cm, 8.0 cm인 곳에 점 3개를 나타내요.</p><p>순수한 염료 5가지를 같은 종이의 <strong>두 번째</strong> 조각에서 같은 용매로 검사해요. 이 종이에서는 용매 전선이 출발선에서 8.0 cm 이동했어요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>두 번째 크로마토그램(용매 전선 8.0 cm)</caption><thead><tr><th scope=\"col\">순수한 염료</th><th scope=\"col\">점이 이동한 거리 / cm</th></tr></thead><tbody><tr><th scope=\"row\">A</th><td>1.6</td></tr><tr><th scope=\"row\">B</th><td>4.4</td></tr><tr><th scope=\"row\">C</th><td>5.5</td></tr><tr><th scope=\"row\">D</th><td>6.4</td></tr><tr><th scope=\"row\">E</th><td>2.0</td></tr></tbody></table></div><p>M에 들어 있을 수 있는 염료는 무엇인가요? 해당하는 것을 모두 고르세요.</p>",
       options: [
         // EN: A
-        "",
+        "A",
         // EN: B
-        "",
+        "B",
         // EN: C
-        "",
+        "C",
         // EN: D
-        "",
+        "D",
         // EN: E
-        "",
+        "E",
       ],
       hints: [
         // EN: The solvent fronts moved different distances, so you cannot compare distances directly.
-        "",
+        "용매 전선이 이동한 거리가 다르므로 거리를 직접 비교할 수 없어요.",
         // EN: Calculate <i>R</i><sub>F</sub> for each spot of M (divide by 10.0) and for each pure dye (divide by 8.0).
-        "",
+        "M의 각 점(10.0으로 나누기)과 순수한 각 염료(8.0으로 나누기)의 <i>R</i><sub>F</sub>를 계산하세요.",
         // EN: The same dye has the same <i>R</i><sub>F</sub> under the same conditions.
-        "",
+        "같은 조건에서 같은 염료는 <i>R</i><sub>F</sub>가 같아요.",
       ],
       // EN: <p>Spots of M (solvent front 10.0 cm):</p><div class="worked__math">2.0 ÷ 10.0 = 0.20</div><div class="worked__math">5.5 ÷ 10.0 = 0.55</div><div class="worked__math">8.0 ÷ 10.0 = 0.80</div><p>Pure dyes (solvent front 8.0 cm):</p><div class="worked__math">A: 1.6 ÷ 8.0 = 0.20</div><div class="worked__math">B: 4.4 ÷ 8.0 = 0.55</div><div class="worked__math">C: 5.5 ÷ 8.0 = 0.69</div><div class="worked__math">D: 6.4 ÷ 8.0 = 0.80</div><div class="worked__math">E: 2.0 ÷ 8.0 = 0.25</div><p>The <i>R</i><sub>F</sub> values of <strong>A, B and D</strong> match the three spots of M. C and E moved the same <em>distances</em> as spots of M, but their <i>R</i><sub>F</sub> values do not match.</p>
-      solution: "",
+      solution: "<p>M의 점(용매 전선 10.0 cm):</p><div class=\"worked__math\">2.0 ÷ 10.0 = 0.20</div><div class=\"worked__math\">5.5 ÷ 10.0 = 0.55</div><div class=\"worked__math\">8.0 ÷ 10.0 = 0.80</div><p>순수한 염료(용매 전선 8.0 cm):</p><div class=\"worked__math\">A: 1.6 ÷ 8.0 = 0.20</div><div class=\"worked__math\">B: 4.4 ÷ 8.0 = 0.55</div><div class=\"worked__math\">C: 5.5 ÷ 8.0 = 0.69</div><div class=\"worked__math\">D: 6.4 ÷ 8.0 = 0.80</div><div class=\"worked__math\">E: 2.0 ÷ 8.0 = 0.25</div><p><strong>A, B, D</strong>의 <i>R</i><sub>F</sub> 값이 M의 점 3개와 일치해요. C와 E는 M의 점과 같은 <em>거리</em>를 이동했지만 <i>R</i><sub>F</sub> 값은 일치하지 않아요.</p>",
       misconception: {
         // EN (option C): Dye C moved 5.5 cm, the same distance as one spot of M. But the solvent moved a different distance on the two papers. Compare <i>R</i><sub>F</sub> values: C has 5.5 ÷ 8.0 = 0.69, and no spot of M has this value.
-        "2": "",
+        "2": "염료 C는 M의 점 하나와 같은 5.5 cm를 이동했어요. 하지만 두 종이에서 용매가 이동한 거리가 달라요. <i>R</i><sub>F</sub> 값을 비교하세요: C는 5.5 ÷ 8.0 = 0.69이고, M에는 이 값을 가진 점이 없어요.",
         // EN (option E): Dye E moved 2.0 cm, the same distance as one spot of M. But its <i>R</i><sub>F</sub> is 2.0 ÷ 8.0 = 0.25, and the spot of M has 2.0 ÷ 10.0 = 0.20. Compare <i>R</i><sub>F</sub> values, not distances.
-        "4": "",
+        "4": "염료 E는 M의 점 하나와 같은 2.0 cm를 이동했어요. 하지만 E의 <i>R</i><sub>F</sub>는 2.0 ÷ 8.0 = 0.25이고, M의 점은 2.0 ÷ 10.0 = 0.20이에요. 거리가 아니라 <i>R</i><sub>F</sub> 값을 비교하세요.",
       },
     },
 
     // ── s2-2-q058 · numeric · challenge · SL · Structure 2.2.10 · 2 marks
     "s2-2-q058": {
       // EN: <p>Under certain conditions, a compound has an <i>R</i><sub>F</sub> value of 0.62.</p><p>A student draws the baseline 2.0 cm above the bottom edge of a TLC plate. The solvent front stops 14.0 cm above the bottom edge.</p><p>How far above the <strong>bottom edge</strong> of the plate will the centre of the spot be? Give your answer to 2 significant figures.</p>
-      stem: "",
+      stem: "<p>어떤 조건에서 한 화합물의 <i>R</i><sub>F</sub> 값은 0.62예요.</p><p>한 학생이 TLC 판의 아래 끝에서 2.0 cm 위에 출발선을 그렸어요. 용매 전선은 아래 끝에서 14.0 cm 위에서 멈춰요.</p><p>점의 중심은 판의 <strong>아래 끝</strong>에서 얼마나 위에 있을까요? 답은 유효 숫자 2자리로 쓰세요.</p>",
       hints: [
         // EN: First find the distance the solvent front moved from the baseline.
-        "",
+        "먼저 용매 전선이 출발선에서 이동한 거리를 구하세요.",
         // EN: Rearrange: distance moved by the spot = <i>R</i><sub>F</sub> × distance moved by the solvent front.
-        "",
+        "식을 변형해요: 점이 이동한 거리 = <i>R</i><sub>F</sub> × 용매 전선이 이동한 거리.",
         // EN: That distance starts at the baseline. The question asks for the distance from the bottom edge.
-        "",
+        "이 거리는 출발선에서 시작해요. 문제는 아래 끝에서의 거리를 묻고 있어요.",
       ],
       // EN: <div class="worked__math">distance moved by solvent front = 14.0 − 2.0 = 12.0 cm</div><div class="worked__math">distance moved by spot = 0.62 × 12.0 cm = 7.44 cm</div><div class="worked__math">height above bottom edge = 7.44 + 2.0 = 9.44 cm</div><p>To 2 significant figures this is <strong>9.4 cm</strong>.</p><p>Common slips: 0.62 × 14.0 = 8.7 cm (used the bottom edge for the solvent distance) and 7.4 cm (forgot to add the 2.0 cm).</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">용매 전선이 이동한 거리 = 14.0 − 2.0 = 12.0 cm</div><div class=\"worked__math\">점이 이동한 거리 = 0.62 × 12.0 cm = 7.44 cm</div><div class=\"worked__math\">아래 끝에서의 높이 = 7.44 + 2.0 = 9.44 cm</div><p>유효 숫자 2자리로 쓰면 <strong>9.4 cm</strong>예요.</p><p>흔한 실수: 0.62 × 14.0 = 8.7 cm(용매 거리를 아래 끝에서 잼), 7.4 cm(2.0 cm를 더하는 것을 잊음).</p>",
     },
 
     // ── s2-2-q059 · mcq · foundation · SL · Structure 2.2.2 · 1 mark
     "s2-2-q059": {
       // EN: <p>Which carbon–carbon bond is the <strong>longest</strong> and the <strong>weakest</strong>?</p>
-      stem: "",
+      stem: "<p><strong>가장 길고</strong> <strong>가장 약한</strong> 탄소–탄소 결합은 무엇인가요?</p>",
       options: [
         // EN: the single bond, <span class="chem">C–C</span>
-        "",
+        "단일 결합, <span class=\"chem\">C–C</span>",
         // EN: the double bond, <span class="chem">C=C</span>
-        "",
+        "이중 결합, <span class=\"chem\">C=C</span>",
         // EN: the triple bond, <span class="chem">C≡C</span>
-        "",
+        "삼중 결합, <span class=\"chem\">C≡C</span>",
         // EN: They all have the same length and strength.
-        "",
+        "모두 길이와 세기가 같다.",
       ],
       hints: [
         // EN: Single, double and triple bonds have one, two and three shared pairs.
-        "",
+        "단일, 이중, 삼중 결합에는 공유 전자쌍이 각각 1개, 2개, 3개 있어요.",
         // EN: Fewer shared pairs means a weaker attraction between the two nuclei and the shared electrons.
-        "",
+        "공유 전자쌍이 적을수록 두 원자핵과 공유 전자 사이의 인력이 약해요.",
       ],
       // EN: <p>The single bond has only one shared pair. The attraction between the two nuclei and the shared electrons is weakest, so the nuclei are furthest apart.</p><p>Data booklet values: <span class="chem">C–C</span> 154 pm and 346 kJ mol<sup>−1</sup>; <span class="chem">C=C</span> 134 pm and 614 kJ mol<sup>−1</sup>; <span class="chem">C≡C</span> 120 pm and 839 kJ mol<sup>−1</sup>.</p>
-      solution: "",
+      solution: "<p>단일 결합에는 공유 전자쌍이 1개뿐이에요. 두 원자핵과 공유 전자 사이의 인력이 가장 약하므로 원자핵이 가장 멀리 떨어져 있어요.</p><p>데이터 부클릿 값: <span class=\"chem\">C–C</span> 154 pm, 346 kJ mol<sup>−1</sup>; <span class=\"chem\">C=C</span> 134 pm, 614 kJ mol<sup>−1</sup>; <span class=\"chem\">C≡C</span> 120 pm, 839 kJ mol<sup>−1</sup>.</p>",
       misconception: {
         // EN (option B): A double bond has two shared pairs. It is shorter and stronger than a single bond, which has one shared pair.
-        "1": "",
+        "1": "이중 결합에는 공유 전자쌍이 2개 있어요. 공유 전자쌍이 1개인 단일 결합보다 짧고 강해요.",
         // EN (option C): A triple bond has three shared pairs. The nuclei are attracted most strongly to the shared electrons, so this is the shortest and strongest bond.
-        "2": "",
+        "2": "삼중 결합에는 공유 전자쌍이 3개 있어요. 원자핵이 공유 전자에 가장 강하게 끌리므로 가장 짧고 강한 결합이에요.",
         // EN (option D): The number of shared pairs is different in each bond, so the attraction between the nuclei and the shared electrons is different too.
         "3": "",
       },

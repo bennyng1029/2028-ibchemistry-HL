@@ -6,1079 +6,1079 @@ S1.i18n.register('ko', 's3-1', {
   strings: {
 
     // page title (browser tab)
-    "3.1 The periodic table | Structure Lab": "",
+    "3.1 The periodic table | Structure Lab": "3.1 주기율표 | Structure Lab",
 
     // The periodic table: classification of elements > page header > p
-    "Structure 3.1": "",
+    "Structure 3.1": "Structure 3.1",
 
     // The periodic table: classification of elements > page header > h1
-    "The periodic table: classification of elements": "",
+    "The periodic table: classification of elements": "주기율표: 원소의 분류",
 
     // The periodic table: classification of elements > page header > span
-    "How does the periodic table help us to predict patterns and trends in the properties of elements?": "",
+    "How does the periodic table help us to predict patterns and trends in the properties of elements?": "주기율표는 원소의 성질에 나타나는 규칙성과 경향을 예측하는 데 어떻게 도움이 될까요?",
 
     // What you need to be able to do > data-toc attribute
-    "What you need to do": "",
+    "What you need to do": "알아야 할 것",
 
     // What you need to be able to do > h2
-    "What you need to be able to do": "",
+    "What you need to be able to do": "할 수 있어야 하는 것",
 
     // What you need to be able to do > p
-    "Tick each one when you can do it without looking at your notes.": "",
+    "Tick each one when you can do it without looking at your notes.": "노트를 보지 않고 할 수 있게 되면 하나씩 체크하세요.",
 
     // What you need to be able to do > checklist > span
-    "Describe periods, groups and the four blocks (s, p, d, f), and identify the positions of metals, metalloids and non-metals.": "",
+    "Describe periods, groups and the four blocks (s, p, d, f), and identify the positions of metals, metalloids and non-metals.": "주기, 족, 4개의 구역(s, p, d, f)을 서술하고, 금속, 준금속, 비금속의 위치를 찾아요.",
 
     // What you need to be able to do > checklist > span
-    "Deduce the electron configuration of an atom up to Z = 36 from its position in the periodic table, and the position from the configuration.": "",
+    "Deduce the electron configuration of an atom up to Z = 36 from its position in the periodic table, and the position from the configuration.": "주기율표에서의 위치로부터 Z = 36까지인 원자의 전자 배치를 추론하고, 반대로 전자 배치로부터 위치를 추론해요.",
 
     // What you need to be able to do > checklist > span
-    "Identify the alkali metals, halogens, transition elements and noble gases.": "",
+    "Identify the alkali metals, halogens, transition elements and noble gases.": "알칼리 금속, 할로젠, 전이 원소, 비활성 기체를 찾아요.",
 
     // What you need to be able to do > checklist > span
-    "Explain the trends across a period and down a group in atomic radius, ionic radius, ionization energy, electron affinity and electronegativity.": "",
+    "Explain the trends across a period and down a group in atomic radius, ionic radius, ionization energy, electron affinity and electronegativity.": "원자 반지름, 이온 반지름, 이온화 에너지, 전자 친화도, 전기 음성도가 주기를 따라, 그리고 족 아래로 가면서 변하는 경향을 설명해요.",
 
     // What you need to be able to do > checklist > span
-    "Describe and explain the reactions of group 1 metals with water, with equations.": "",
+    "Describe and explain the reactions of group 1 metals with water, with equations.": "1족 금속과 물의 반응을 반응식과 함께 서술하고 설명해요.",
 
     // What you need to be able to do > checklist > span
-    "Describe and explain the reactions of group 17 elements with halide ions, with equations.": "",
+    "Describe and explain the reactions of group 17 elements with halide ions, with equations.": "17족 원소와 할로젠화 이온의 반응을 반응식과 함께 서술하고 설명해요.",
 
     // What you need to be able to do > checklist > span
-    "Describe the trend from basic metal oxides, through amphoteric oxides, to acidic non-metal oxides.": "",
+    "Describe the trend from basic metal oxides, through amphoteric oxides, to acidic non-metal oxides.": "염기성인 금속 산화물에서 양쪽성 산화물을 거쳐 산성인 비금속 산화물로 바뀌는 경향을 서술해요.",
 
     // What you need to be able to do > checklist > span
-    "Deduce equations for the reactions with water of the oxides of group 1 metals, group 2 metals, carbon and sulfur.": "",
+    "Deduce equations for the reactions with water of the oxides of group 1 metals, group 2 metals, carbon and sulfur.": "1족 금속, 2족 금속, 탄소, 황의 산화물이 물과 반응하는 반응식을 추론해요.",
 
     // What you need to be able to do > checklist > span
-    "Explain how non-metal oxides cause acid rain and how rising carbon dioxide levels cause ocean acidification.": "",
+    "Explain how non-metal oxides cause acid rain and how rising carbon dioxide levels cause ocean acidification.": "비금속 산화물이 산성비를 일으키는 방법과, 이산화 탄소 농도가 높아지면서 해양 산성화가 일어나는 방법을 설명해요.",
 
     // What you need to be able to do > checklist > span
-    "Deduce the oxidation state of an atom in a compound or an ion, including hydrides and peroxides, and write it with the sign first.": "",
+    "Deduce the oxidation state of an atom in a compound or an ion, including hydrides and peroxides, and write it with the sign first.": "수소화물과 과산화물을 포함하여 화합물이나 이온 속 원자의 산화수를 추론하고, 부호를 먼저 써서 나타내요.",
 
     // What you need to be able to do > checklist > span
-    "Explain why the oxidation state of an element is zero.": "",
+    "Explain why the oxidation state of an element is zero.": "홑원소 물질 속 원소의 산화수가 0인 이유를 설명해요.",
 
     // What you need to be able to do > checklist > span
-    "Use oxidation numbers (Roman numerals) in names, and recognize nitrate, nitrite, sulfate and sulfite.": "",
+    "Use oxidation numbers (Roman numerals) in names, and recognize nitrate, nitrite, sulfate and sulfite.": "이름에 산화수(로마 숫자)를 쓰고, 질산 이온, 아질산 이온, 황산 이온, 아황산 이온을 알아봐요.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Explain how the discontinuities in first ionization energy across a period are evidence for energy sublevels.": "",
+    "Explain how the discontinuities in first ionization energy across a period are evidence for energy sublevels.": "주기를 따라 제1 이온화 에너지가 불연속적으로 변하는 것이 에너지 부껍질의 증거가 되는 이유를 설명해요.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Recognize the characteristic properties of transition elements.": "",
+    "Recognize the characteristic properties of transition elements.": "전이 원소의 특징적인 성질을 알아봐요.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Explain why transition elements have variable oxidation states.": "",
+    "Explain why transition elements have variable oxidation states.": "전이 원소가 여러 가지 산화수를 가지는 이유를 설명해요.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Deduce the electron configurations of ions of the first-row transition elements.": "",
+    "Deduce the electron configurations of ions of the first-row transition elements.": "첫째 줄 전이 원소 이온의 전자 배치를 추론해요.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Explain why transition element complexes are coloured.": "",
+    "Explain why transition element complexes are coloured.": "전이 원소 착화합물이 색을 띠는 이유를 설명해요.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Use the colour wheel and c = λf to deduce the wavelength, frequency and colour of light absorbed or observed.": "",
+    "Use the colour wheel and c = λf to deduce the wavelength, frequency and colour of light absorbed or observed.": "색상환과 c = λf를 사용하여 흡수되거나 관찰되는 빛의 파장, 진동수, 색을 추론해요.",
 
     // Periods, groups and blocks > data-toc attribute
     // Periods, groups and blocks > h2
-    "Periods, groups and blocks": "",
+    "Periods, groups and blocks": "주기, 족, 구역",
 
     // Periods, groups and blocks > p
-    "A calendar puts the days in rows. Every Monday is in the same column. The periodic table does the same thing with the elements. Elements with similar properties are in the same column.": "",
+    "A calendar puts the days in rows. Every Monday is in the same column. The periodic table does the same thing with the elements. Elements with similar properties are in the same column.": "달력은 날짜를 가로줄로 늘어놓아요. 월요일은 모두 같은 세로줄에 있어요. 주기율표도 원소를 이렇게 늘어놓아요. 성질이 비슷한 원소는 같은 세로줄에 있어요.",
 
     // Periods, groups and blocks > p
-    "The elements are in order of atomic number, Z. There are three ways to describe where an element is.": "",
+    "The elements are in order of atomic number, Z. There are three ways to describe where an element is.": "원소는 원자 번호 Z 순서로 놓여 있어요. 원소가 어디에 있는지 말하는 방법은 3가지예요.",
 
     // Periods, groups and blocks > li
-    "A <dfn data-def=\"A horizontal row of the periodic table.\">period</dfn> is a horizontal row. There are 7 periods.": "",
+    "A <dfn data-def=\"A horizontal row of the periodic table.\">period</dfn> is a horizontal row. There are 7 periods.": "<dfn data-def=\"주기율표의 가로줄.\">주기 <span class=\"en-term\">(period)</span></dfn>는 가로줄이에요. 주기는 7개가 있어요.",
 
     // Periods, groups and blocks > data-def attribute
-    "A horizontal row of the periodic table.": "",
+    "A horizontal row of the periodic table.": "주기율표의 가로줄.",
 
     // Periods, groups and blocks > li
-    "A <dfn data-def=\"A vertical column of the periodic table. Groups are numbered from 1 to 18.\">group</dfn> is a vertical column. Groups are numbered from 1 to 18.": "",
+    "A <dfn data-def=\"A vertical column of the periodic table. Groups are numbered from 1 to 18.\">group</dfn> is a vertical column. Groups are numbered from 1 to 18.": "<dfn data-def=\"주기율표의 세로줄. 족에는 1부터 18까지 번호가 붙어 있다.\">족 <span class=\"en-term\">(group)</span></dfn>은 세로줄이에요. 족에는 1부터 18까지 번호가 붙어 있어요.",
 
     // Periods, groups and blocks > data-def attribute
-    "A vertical column of the periodic table. Groups are numbered from 1 to 18.": "",
+    "A vertical column of the periodic table. Groups are numbered from 1 to 18.": "주기율표의 세로줄. 족에는 1부터 18까지 번호가 붙어 있다.",
 
     // Periods, groups and blocks > li
-    "A <dfn data-def=\"A region of the periodic table named after the sublevel (s, p, d or f) that is being filled.\">block</dfn> is a region named after the sublevel that is being filled: s, p, d or f.": "",
+    "A <dfn data-def=\"A region of the periodic table named after the sublevel (s, p, d or f) that is being filled.\">block</dfn> is a region named after the sublevel that is being filled: s, p, d or f.": "<dfn data-def=\"전자가 채워지고 있는 부껍질(s, p, d, f)의 이름을 딴 주기율표의 영역.\">구역(블록) <span class=\"en-term\">(block)</span></dfn>은 전자가 채워지고 있는 부껍질의 이름을 딴 영역이에요: s, p, d, f.",
 
     // Periods, groups and blocks > data-def attribute
-    "A region of the periodic table named after the sublevel (s, p, d or f) that is being filled.": "",
+    "A region of the periodic table named after the sublevel (s, p, d or f) that is being filled.": "전자가 채워지고 있는 부껍질(s, p, d, f)의 이름을 딴 주기율표의 영역.",
 
     // Periods, groups and blocks > table > caption
-    "The four blocks": "",
+    "The four blocks": "4개의 구역",
 
     // Periods, groups and blocks > table > th
     // Position and electron configuration > table > th
     // widget string (assets/js/widgets-s3-1.js)
-    "Block": "",
+    "Block": "구역",
 
     // Periods, groups and blocks > table > th
-    "Where it is": "",
+    "Where it is": "위치",
 
     // Periods, groups and blocks > table > th
-    "Sublevel being filled": "",
+    "Sublevel being filled": "채워지는 부껍질",
 
     // Periods, groups and blocks > table > th
-    "Columns wide": "",
-
-    // Periods, groups and blocks > table > th
-    // widget string (assets/js/widgets-s3-1.js)
-    "s-block": "",
-
-    // Periods, groups and blocks > table > td
-    "groups 1 and 2, and helium": "",
-
-    // Periods, groups and blocks > table > td
-    "s (holds 2 electrons)": "",
+    "Columns wide": "세로줄 수",
 
     // Periods, groups and blocks > table > th
     // widget string (assets/js/widgets-s3-1.js)
-    "p-block": "",
+    "s-block": "s 구역",
 
     // Periods, groups and blocks > table > td
-    "groups 13 to 18 (not helium)": "",
+    "groups 1 and 2, and helium": "1족과 2족, 그리고 헬륨",
 
     // Periods, groups and blocks > table > td
-    "p (holds 6 electrons)": "",
+    "s (holds 2 electrons)": "s (전자 2개를 수용)",
 
     // Periods, groups and blocks > table > th
     // widget string (assets/js/widgets-s3-1.js)
-    "d-block": "",
+    "p-block": "p 구역",
 
     // Periods, groups and blocks > table > td
-    "groups 3 to 12": "",
+    "groups 13 to 18 (not helium)": "13족~18족 (헬륨 제외)",
 
     // Periods, groups and blocks > table > td
-    "d (holds 10 electrons)": "",
+    "p (holds 6 electrons)": "p (전자 6개를 수용)",
 
     // Periods, groups and blocks > table > th
     // widget string (assets/js/widgets-s3-1.js)
-    "f-block": "",
+    "d-block": "d 구역",
 
     // Periods, groups and blocks > table > td
-    "the two rows drawn below the main table": "",
+    "groups 3 to 12": "3족~12족",
 
     // Periods, groups and blocks > table > td
-    "f (holds 14 electrons)": "",
+    "d (holds 10 electrons)": "d (전자 10개를 수용)",
+
+    // Periods, groups and blocks > table > th
+    // widget string (assets/js/widgets-s3-1.js)
+    "f-block": "f 구역",
+
+    // Periods, groups and blocks > table > td
+    "the two rows drawn below the main table": "본 표 아래에 따로 그린 2줄",
+
+    // Periods, groups and blocks > table > td
+    "f (holds 14 electrons)": "f (전자 14개를 수용)",
 
     // Periods, groups and blocks > p
-    "The width of each block matches the number of electrons its sublevel can hold. Sublevels are explained in <a href=\"s1-3.html#sublevels\">Structure 1.3</a>.": "",
+    "The width of each block matches the number of electrons its sublevel can hold. Sublevels are explained in <a href=\"s1-3.html#sublevels\">Structure 1.3</a>.": "각 구역의 폭은 그 부껍질에 들어갈 수 있는 전자 수와 같아요. 부껍질은 <a href=\"s1-3.html#sublevels\">Structure 1.3</a>에서 설명해요.",
 
     // Periods, groups and blocks > h3
-    "Metals, metalloids and non-metals": "",
+    "Metals, metalloids and non-metals": "금속, 준금속, 비금속",
 
     // Periods, groups and blocks > p
-    "Most elements are <b>metals</b>. They are on the left and in the centre of the table. The <b>non-metals</b> are on the right, plus hydrogen. Between them is a diagonal band of <dfn data-def=\"An element with properties between those of metals and non-metals.\">metalloids</dfn>, such as silicon. Metalloids have properties between those of metals and non-metals.": "",
+    "Most elements are <b>metals</b>. They are on the left and in the centre of the table. The <b>non-metals</b> are on the right, plus hydrogen. Between them is a diagonal band of <dfn data-def=\"An element with properties between those of metals and non-metals.\">metalloids</dfn>, such as silicon. Metalloids have properties between those of metals and non-metals.": "대부분의 원소는 <b>금속</b>이에요. 금속은 표의 왼쪽과 가운데에 있어요. <b>비금속</b>은 오른쪽에 있고, 수소도 비금속이에요. 그 사이에 규소 같은 <dfn data-def=\"금속과 비금속의 중간 성질을 가진 원소.\">준금속 <span class=\"en-term\">(metalloids)</span></dfn>이 대각선 띠 모양으로 놓여 있어요. 준금속은 금속과 비금속의 중간 성질을 가져요.",
 
     // Periods, groups and blocks > data-def attribute
-    "An element with properties between those of metals and non-metals.": "",
+    "An element with properties between those of metals and non-metals.": "금속과 비금속의 중간 성질을 가진 원소.",
 
     // Periods, groups and blocks > widget > data-title attribute
-    "Interactive periodic table": "",
+    "Interactive periodic table": "대화형 주기율표",
 
     // Periods, groups and blocks > widget > figcaption
-    "Choose how to colour the table, then click an element. On a phone, slide the table sideways. Then try “Find the element”.": "",
+    "Choose how to colour the table, then click an element. On a phone, slide the table sideways. Then try “Find the element”.": "표를 색칠할 방법을 고른 다음 원소를 클릭하세요. 휴대폰에서는 표를 옆으로 밀어 보세요. 그다음 “원소 찾기”를 해 보세요.",
 
     // Periods, groups and blocks > data booklet note > p
-    "The periodic table is in section 7 of the data booklet. It shows groups 1 to 18, atomic numbers and relative atomic masses. It does not label the blocks or the metalloids, so learn where they are.": "",
+    "The periodic table is in section 7 of the data booklet. It shows groups 1 to 18, atomic numbers and relative atomic masses. It does not label the blocks or the metalloids, so learn where they are.": "주기율표는 데이터 부클릿 7번 항목에 있어요. 1족~18족, 원자 번호, 상대 원자 질량이 나와 있어요. 하지만 구역이나 준금속은 표시되어 있지 않으니, 위치를 외워 두세요.",
 
     // Periods, groups and blocks > not needed for IB > p
-    "The guide does not list which elements are metalloids, and sources disagree about the edges of the band. You need the general position: a diagonal band between the metals and the non-metals. You do not need to learn a list.": "",
+    "The guide does not list which elements are metalloids, and sources disagree about the edges of the band. You need the general position: a diagonal band between the metals and the non-metals. You do not need to learn a list.": "가이드에는 어떤 원소가 준금속인지 나와 있지 않고, 띠의 경계도 자료마다 달라요. 대략적인 위치, 즉 금속과 비금속 사이의 대각선 띠라는 것만 알면 돼요. 목록을 외울 필요는 없어요.",
 
     // Periods, groups and blocks > data-title attribute
-    "Periods, groups and blocks: quick check": "",
+    "Periods, groups and blocks: quick check": "주기, 족, 구역: 빠른 확인",
 
     // Position and electron configuration > data-toc attribute
-    "Position and configuration": "",
+    "Position and configuration": "위치와 전자 배치",
 
     // Position and electron configuration > h2
-    "Position and electron configuration": "",
+    "Position and electron configuration": "위치와 전자 배치",
 
     // Position and electron configuration > p
-    "An element’s address in the table tells you how its electrons are arranged. This works in both directions.": "",
+    "An element’s address in the table tells you how its electrons are arranged. This works in both directions.": "원소가 표에서 어디에 있는지를 보면 전자가 어떻게 배치되어 있는지 알 수 있어요. 반대 방향으로도 돼요.",
 
     // Position and electron configuration > key idea > p
-    "The <b>period number</b> is the outer main energy level that is occupied by electrons. Elements in the same <b>group</b> have the same number of valence electrons.": "",
+    "The <b>period number</b> is the outer main energy level that is occupied by electrons. Elements in the same <b>group</b> have the same number of valence electrons.": "<b>주기 번호</b>는 전자가 들어 있는 가장 바깥 주 에너지 준위예요. 같은 <b>족</b>의 원소는 원자가 전자 수가 같아요.",
 
     // Position and electron configuration > p
-    "<dfn data-def=\"The electrons in the outer main energy level of an atom.\">Valence electrons</dfn> are the electrons in the outer main energy level. They decide most of the chemistry of an element. That is why elements in a group react in similar ways.": "",
+    "<dfn data-def=\"The electrons in the outer main energy level of an atom.\">Valence electrons</dfn> are the electrons in the outer main energy level. They decide most of the chemistry of an element. That is why elements in a group react in similar ways.": "<dfn data-def=\"원자의 가장 바깥 주 에너지 준위에 있는 전자.\">원자가 전자 <span class=\"en-term\">(valence electrons)</span></dfn>는 가장 바깥 주 에너지 준위에 있는 전자예요. 원소의 화학적 성질은 대부분 원자가 전자가 결정해요. 그래서 같은 족의 원소는 비슷한 방식으로 반응해요.",
 
     // Position and electron configuration > data-def attribute
-    "The electrons in the outer main energy level of an atom.": "",
+    "The electrons in the outer main energy level of an atom.": "원자의 가장 바깥 주 에너지 준위에 있는 전자.",
 
     // Position and electron configuration > table > caption
-    "From group number to outer electrons": "",
+    "From group number to outer electrons": "족 번호에서 바깥 전자로",
 
     // Position and electron configuration > table > th
-    "Groups": "",
-
-    // Position and electron configuration > table > th
-    // Oxidation states > table > th
-    "Rule": "",
+    "Groups": "족",
 
     // Position and electron configuration > table > th
     // Oxidation states > table > th
-    "Example": "",
+    "Rule": "규칙",
 
     // Position and electron configuration > table > th
-    "1 and 2": "",
-
-    // Position and electron configuration > table > td
-    "valence electrons = group number": "",
-
-    // Position and electron configuration > table > td
-    "Ca, group 2, period 4: <span class=\"mono\">[Ar] 4s<sup>2</sup></span>": "",
+    // Oxidation states > table > th
+    "Example": "예",
 
     // Position and electron configuration > table > th
-    "13 to 18": "",
+    "1 and 2": "1과 2",
 
     // Position and electron configuration > table > td
-    "valence electrons = group number − 10": "",
+    "valence electrons = group number": "원자가 전자 수 = 족 번호",
 
     // Position and electron configuration > table > td
-    "P, group 15, period 3: <span class=\"mono\">[Ne] 3s<sup>2</sup> 3p<sup>3</sup></span> (5 valence electrons)": "",
+    "Ca, group 2, period 4: <span class=\"mono\">[Ar] 4s<sup>2</sup></span>": "Ca, 2족, 4주기: <span class=\"mono\">[Ar] 4s<sup>2</sup></span>",
 
     // Position and electron configuration > table > th
-    "3 to 12": "",
+    "13 to 18": "13~18",
 
     // Position and electron configuration > table > td
-    "4s and 3d electrons together = group number": "",
+    "valence electrons = group number − 10": "원자가 전자 수 = 족 번호 − 10",
 
     // Position and electron configuration > table > td
-    "Fe, group 8, period 4: <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span> (2 + 6 = 8)": "",
+    "P, group 15, period 3: <span class=\"mono\">[Ne] 3s<sup>2</sup> 3p<sup>3</sup></span> (5 valence electrons)": "P, 15족, 3주기: <span class=\"mono\">[Ne] 3s<sup>2</sup> 3p<sup>3</sup></span> (원자가 전자 5개)",
+
+    // Position and electron configuration > table > th
+    "3 to 12": "3~12",
+
+    // Position and electron configuration > table > td
+    "4s and 3d electrons together = group number": "4s 전자와 3d 전자 수의 합 = 족 번호",
+
+    // Position and electron configuration > table > td
+    "Fe, group 8, period 4: <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span> (2 + 6 = 8)": "Fe, 8족, 4주기: <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span> (2 + 6 = 8)",
 
     // Position and electron configuration > p
-    "Helium is the one odd case. It has 2 valence electrons, but its outer level is full, so it is placed in group 18.": "",
+    "Helium is the one odd case. It has 2 valence electrons, but its outer level is full, so it is placed in group 18.": "헬륨은 단 하나의 예외예요. 원자가 전자가 2개이지만 바깥 준위가 꽉 차 있어서 18족에 놓여요.",
 
     // Position and electron configuration > h3
-    "Method in words: position → configuration": "",
+    "Method in words: position → configuration": "말로 정리한 방법: 위치 → 전자 배치",
 
     // Position and electron configuration > li
-    "Find the noble gas at the end of the period above. It gives the core, for example <span class=\"mono\">[Ar]</span>.": "",
+    "Find the noble gas at the end of the period above. It gives the core, for example <span class=\"mono\">[Ar]</span>.": "바로 위 주기의 끝에 있는 비활성 기체를 찾으세요. 그것이 핵심 부분이 돼요. 예: <span class=\"mono\">[Ar]</span>.",
 
     // Position and electron configuration > li
-    "The period number, n, is the outer main energy level.": "",
+    "The period number, n, is the outer main energy level.": "주기 번호 n은 가장 바깥 주 에너지 준위예요.",
 
     // Position and electron configuration > li
-    "Count along the period from group 1 to your element. Fill <span class=\"mono\">ns</span> first, then <span class=\"mono\">(n − 1)d</span> in period 4, then <span class=\"mono\">np</span>.": "",
+    "Count along the period from group 1 to your element. Fill <span class=\"mono\">ns</span> first, then <span class=\"mono\">(n − 1)d</span> in period 4, then <span class=\"mono\">np</span>.": "주기를 따라 1족부터 그 원소까지 세어 나가세요. 먼저 <span class=\"mono\">ns</span>를 채우고, 4주기에서는 다음으로 <span class=\"mono\">(n − 1)d</span>를, 그다음 <span class=\"mono\">np</span>를 채워요.",
 
     // Position and electron configuration > li
-    "Check Cr and Cu. They have one 4s electron, not two (see <a href=\"s1-3.html#configurations\">Structure 1.3</a>).": "",
+    "Check Cr and Cu. They have one 4s electron, not two (see <a href=\"s1-3.html#configurations\">Structure 1.3</a>).": "Cr과 Cu를 확인하세요. 이 원소들은 4s 전자가 2개가 아니라 1개예요(<a href=\"s1-3.html#configurations\">Structure 1.3</a> 참고).",
 
     // Position and electron configuration > worked example > h3
-    "Configuration from position": "",
+    "Configuration from position": "위치로부터 전자 배치 구하기",
 
     // Position and electron configuration > worked example > p
-    "An element is in period 4 and group 15. Deduce its condensed electron configuration and identify the element.": "",
+    "An element is in period 4 and group 15. Deduce its condensed electron configuration and identify the element.": "어떤 원소가 4주기 15족에 있어요. 이 원소의 축약 전자 배치를 추론하시오 (deduce). 그리고 이 원소가 무엇인지 찾으시오 (identify).",
 
     // Position and electron configuration > worked example > data-title attribute
-    "Find the core": "",
+    "Find the core": "핵심 부분 찾기",
 
     // Position and electron configuration > worked example > p
-    "The noble gas at the end of period 3 is argon. All its 18 electrons are inner electrons here.": "",
+    "The noble gas at the end of period 3 is argon. All its 18 electrons are inner electrons here.": "3주기 끝에 있는 비활성 기체는 아르곤이에요. 아르곤의 전자 18개는 여기서 모두 안쪽 전자예요.",
 
     // Position and electron configuration > worked example > maths line
-    "core = [Ar]": "",
+    "core = [Ar]": "핵심 부분 = [Ar]",
 
     // Position and electron configuration > worked example > data-title attribute
-    "Use the period": "",
+    "Use the period": "주기 이용하기",
 
     // Position and electron configuration > worked example > p
-    "Period 4 means the outer main energy level is n = 4.": "",
+    "Period 4 means the outer main energy level is n = 4.": "4주기라는 것은 가장 바깥 주 에너지 준위가 n = 4라는 뜻이에요.",
 
     // Position and electron configuration > worked example > maths line
-    "outer electrons are in 4s and 4p": "",
+    "outer electrons are in 4s and 4p": "바깥 전자는 4s와 4p에 있음",
 
     // Position and electron configuration > worked example > data-title attribute
-    "Count across the period": "",
+    "Count across the period": "주기를 따라 세기",
 
     // Position and electron configuration > worked example > p
-    "Groups 1 and 2 fill 4s. Groups 3 to 12 fill 3d. Groups 13, 14 and 15 put three electrons in 4p.": "",
+    "Groups 1 and 2 fill 4s. Groups 3 to 12 fill 3d. Groups 13, 14 and 15 put three electrons in 4p.": "1족과 2족은 4s를 채워요. 3족~12족은 3d를 채워요. 13족, 14족, 15족은 4p에 전자 3개를 넣어요.",
 
     // Position and electron configuration > worked example > maths line
-    "4s<sup>2</sup> (2 electrons), 3d<sup>10</sup> (10 electrons), 4p<sup>3</sup> (3 electrons)": "",
+    "4s<sup>2</sup> (2 electrons), 3d<sup>10</sup> (10 electrons), 4p<sup>3</sup> (3 electrons)": "4s<sup>2</sup> (전자 2개), 3d<sup>10</sup> (전자 10개), 4p<sup>3</sup> (전자 3개)",
 
     // Position and electron configuration > worked example > data-title attribute
-    "Write it and check": "",
+    "Write it and check": "쓰고 확인하기",
 
     // Position and electron configuration > worked example > p
-    "Check with the atomic number: 18 + 2 + 10 + 3 = 33. Element 33 is arsenic.": "",
+    "Check with the atomic number: 18 + 2 + 10 + 3 = 33. Element 33 is arsenic.": "원자 번호로 확인해요: 18 + 2 + 10 + 3 = 33. 33번 원소는 비소예요.",
 
     // Position and electron configuration > worked example > maths line
-    "<b>[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>3</sup></b>, arsenic, As": "",
+    "<b>[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>3</sup></b>, arsenic, As": "<b>[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>3</sup></b>, 비소, As",
 
     // Position and electron configuration > worked example > p
-    "[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>3</sup>. The element is arsenic, As. (You may also write 3d<sup>10</sup> before 4s<sup>2</sup>.)": "",
+    "[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>3</sup>. The element is arsenic, As. (You may also write 3d<sup>10</sup> before 4s<sup>2</sup>.)": "[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>3</sup>. 이 원소는 비소(As)예요. (3d<sup>10</sup>을 4s<sup>2</sup>보다 먼저 써도 돼요.)",
 
     // Position and electron configuration > h3
-    "Method in words: configuration → position": "",
+    "Method in words: configuration → position": "말로 정리한 방법: 전자 배치 → 위치",
 
     // Position and electron configuration > li
-    "The highest main energy level in the configuration gives the <b>period</b>.": "",
+    "The highest main energy level in the configuration gives the <b>period</b>.": "전자 배치에서 가장 높은 주 에너지 준위가 <b>주기</b>를 알려 줘요.",
 
     // Position and electron configuration > li
-    "The last sublevel being filled gives the <b>block</b>.": "",
+    "The last sublevel being filled gives the <b>block</b>.": "마지막으로 채워지고 있는 부껍질이 <b>구역</b>을 알려 줘요.",
 
     // Position and electron configuration > li
-    "Count the outer electrons to get the <b>group</b>, using the table above.": "",
+    "Count the outer electrons to get the <b>group</b>, using the table above.": "위의 표를 이용해 바깥 전자 수를 세면 <b>족</b>을 알 수 있어요.",
 
     // Position and electron configuration > try it > data-label attribute
-    "Group number": "",
+    "Group number": "족 번호",
 
     // Position and electron configuration > try it > p
-    "An atom has the configuration <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>4</sup></span>. Which group is the element in?": "",
+    "An atom has the configuration <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>4</sup></span>. Which group is the element in?": "어떤 원자의 전자 배치가 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>4</sup></span>예요. 이 원소는 몇 족에 있나요?",
 
     // Position and electron configuration > try it > li
-    "The outer main energy level is n = 3. Count the electrons in 3s and 3p.": "",
+    "The outer main energy level is n = 3. Count the electrons in 3s and 3p.": "가장 바깥 주 에너지 준위는 n = 3이에요. 3s와 3p에 있는 전자 수를 세어 보세요.",
 
     // Position and electron configuration > try it > li
-    "There are 2 + 4 = 6 valence electrons. For the p-block, group number = valence electrons + 10.": "",
+    "There are 2 + 4 = 6 valence electrons. For the p-block, group number = valence electrons + 10.": "원자가 전자는 2 + 4 = 6개예요. p 구역에서는 족 번호 = 원자가 전자 수 + 10이에요.",
 
     // Position and electron configuration > try it > maths line
-    "valence electrons = 2 + 4 = 6": "",
+    "valence electrons = 2 + 4 = 6": "원자가 전자 수 = 2 + 4 = 6",
 
     // Position and electron configuration > try it > maths line
-    "group = 6 + 10 = 16 (period 3: the element is sulfur)": "",
+    "group = 6 + 10 = 16 (period 3: the element is sulfur)": "족 = 6 + 10 = 16 (3주기: 이 원소는 황)",
 
     // Position and electron configuration > try it > data-label attribute
-    "Number of valence electrons": "",
+    "Number of valence electrons": "원자가 전자 수",
 
     // Position and electron configuration > try it > p
-    "Bromine is in period 4 and group 17. How many valence electrons does a bromine atom have?": "",
+    "Bromine is in period 4 and group 17. How many valence electrons does a bromine atom have?": "브로민은 4주기 17족에 있어요. 브로민 원자의 원자가 전자는 몇 개인가요?",
 
     // Position and electron configuration > try it > li
-    "Bromine is in the p-block. Use: valence electrons = group number − 10.": "",
+    "Bromine is in the p-block. Use: valence electrons = group number − 10.": "브로민은 p 구역에 있어요. 원자가 전자 수 = 족 번호 − 10을 이용하세요.",
 
     // Position and electron configuration > try it > maths line
-    "valence electrons = 17 − 10 = 7 (4s<sup>2</sup> 4p<sup>5</sup>)": "",
+    "valence electrons = 17 − 10 = 7 (4s<sup>2</sup> 4p<sup>5</sup>)": "원자가 전자 수 = 17 − 10 = 7 (4s<sup>2</sup> 4p<sup>5</sup>)",
 
     // Position and electron configuration > h3
-    "Four family names to know": "",
+    "Four family names to know": "알아 두어야 할 4가지 원소 무리 이름",
 
     // Position and electron configuration > table > caption
-    "Named classifications in the guide": "",
+    "Named classifications in the guide": "가이드에 나오는 이름 붙은 분류",
 
     // Position and electron configuration > table > th
-    "Name": "",
+    "Name": "이름",
 
     // Position and electron configuration > table > th
     // Discontinuities in first ionization energy > table > Additional HL > th
-    "Where": "",
+    "Where": "위치",
 
     // Position and electron configuration > table > th
-    "What they share": "",
+    "What they share": "공통점",
 
     // Position and electron configuration > table > th
-    "alkali metals": "",
+    "alkali metals": "알칼리 금속",
 
     // Position and electron configuration > table > td
-    "group 1 (not hydrogen)": "",
+    "group 1 (not hydrogen)": "1족 (수소 제외)",
 
     // Position and electron configuration > table > td
-    "1 valence electron; form 1+ ions": "",
+    "1 valence electron; form 1+ ions": "원자가 전자 1개; 1+ 이온을 만듦",
 
     // Position and electron configuration > table > th
-    "halogens": "",
+    "halogens": "할로젠",
 
     // Position and electron configuration > table > td
-    "group 17": "",
+    "group 17": "17족",
 
     // Position and electron configuration > table > td
-    "7 valence electrons; form 1− ions": "",
+    "7 valence electrons; form 1− ions": "원자가 전자 7개; 1− 이온을 만듦",
 
     // Position and electron configuration > table > th
-    "noble gases": "",
+    "noble gases": "비활성 기체",
 
     // Position and electron configuration > table > td
-    "group 18": "",
+    "group 18": "18족",
 
     // Position and electron configuration > table > td
-    "full outer energy level; very unreactive": "",
+    "full outer energy level; very unreactive": "바깥 에너지 준위가 꽉 참; 반응성이 매우 작음",
 
     // Position and electron configuration > table > th
-    "transition elements": "",
+    "transition elements": "전이 원소",
 
     // Position and electron configuration > table > td
-    "in the d-block: groups 3 to 11 (group 12 is usually not counted)": "",
+    "in the d-block: groups 3 to 11 (group 12 is usually not counted)": "d 구역: 3족~11족 (12족은 보통 포함하지 않음)",
 
     // Position and electron configuration > table > td
-    "metals; many form ions with different charges": "",
+    "metals; many form ions with different charges": "금속; 전하가 다른 여러 이온을 만드는 것이 많음",
 
     // Position and electron configuration > exam tip (shown in English + translation) > p
-    "Use group numbers 1 to 18. The old numbering (groups I to VIII, or group 0) is not used. For a d-block atom, examiners accept 4s and 3d in either order.": "",
+    "Use group numbers 1 to 18. The old numbering (groups I to VIII, or group 0) is not used. For a d-block atom, examiners accept 4s and 3d in either order.": "족 번호는 1~18을 쓰세요. 옛날 번호(I족~VIII족, 또는 0족)는 쓰지 않아요. d 구역 원자에서는 4s와 3d를 어느 순서로 써도 채점자가 인정해요.",
 
     // Position and electron configuration > not needed for IB > p
-    "You only need to deduce configurations up to Z = 36 (krypton). For heavier elements you only need the position. Other family names, such as “alkaline earth metals” or “chalcogens”, are not required.": "",
+    "You only need to deduce configurations up to Z = 36 (krypton). For heavier elements you only need the position. Other family names, such as “alkaline earth metals” or “chalcogens”, are not required.": "전자 배치는 Z = 36(크립톤)까지만 추론할 수 있으면 돼요. 그보다 무거운 원소는 위치만 알면 돼요. “알칼리 토금속”이나 “칼코젠” 같은 다른 무리 이름은 필요 없어요.",
 
     // Position and electron configuration > data-title attribute
-    "Position and configuration: quick check": "",
+    "Position and configuration: quick check": "위치와 전자 배치: 빠른 확인",
 
     // Periodicity: trends in properties > data-toc attribute
-    "Periodic trends": "",
+    "Periodic trends": "주기적 경향",
 
     // Periodicity: trends in properties > h2
-    "Periodicity: trends in properties": "",
+    "Periodicity: trends in properties": "주기성: 성질의 경향",
 
     // Periodicity: trends in properties > p
-    "Imagine a magnet pulling on a paper clip. The pull is stronger if the magnet is stronger. It is weaker if the clip is further away, or if something is in between. The nucleus pulls on the outer electrons in the same way.": "",
+    "Imagine a magnet pulling on a paper clip. The pull is stronger if the magnet is stronger. It is weaker if the clip is further away, or if something is in between. The nucleus pulls on the outer electrons in the same way.": "자석이 클립을 끌어당긴다고 상상해 보세요. 자석이 셀수록 끌어당기는 힘이 커요. 클립이 더 멀리 있거나, 사이에 무언가가 있으면 힘이 약해져요. 원자핵도 같은 방식으로 바깥 전자를 끌어당겨요.",
 
     // Periodicity: trends in properties > p
-    "<dfn data-def=\"The repeating pattern of trends in the properties of elements across a period and down a group.\">Periodicity</dfn> means that the trends in properties repeat across each period and down each group. You explain almost every trend with the same three ideas.": "",
+    "<dfn data-def=\"The repeating pattern of trends in the properties of elements across a period and down a group.\">Periodicity</dfn> means that the trends in properties repeat across each period and down each group. You explain almost every trend with the same three ideas.": "<dfn data-def=\"원소의 성질이 주기를 따라, 그리고 족 아래로 가면서 반복되는 경향의 무늬.\">주기성 <span class=\"en-term\">(periodicity)</span></dfn>은 성질의 경향이 주기마다, 그리고 족마다 반복된다는 뜻이에요. 거의 모든 경향은 같은 3가지 개념으로 설명할 수 있어요.",
 
     // Periodicity: trends in properties > data-def attribute
-    "The repeating pattern of trends in the properties of elements across a period and down a group.": "",
+    "The repeating pattern of trends in the properties of elements across a period and down a group.": "원소의 성질이 주기를 따라, 그리고 족 아래로 가면서 반복되는 경향의 무늬.",
 
     // Periodicity: trends in properties > li
-    "<b>Nuclear charge.</b> More protons give a stronger attraction.": "",
+    "<b>Nuclear charge.</b> More protons give a stronger attraction.": "<b>핵전하.</b> 양성자가 많을수록 인력이 강해요.",
 
     // Periodicity: trends in properties > li
-    "<b>Shielding.</b> Electrons in inner energy levels repel the outer electrons. This cancels part of the attraction.": "",
+    "<b>Shielding.</b> Electrons in inner energy levels repel the outer electrons. This cancels part of the attraction.": "<b>가려막기.</b> 안쪽 에너지 준위의 전자가 바깥 전자를 밀어내요. 그래서 인력의 일부가 상쇄돼요.",
 
     // Periodicity: trends in properties > li
-    "<b>Distance.</b> Electrons in a higher main energy level are further from the nucleus, so the attraction is weaker.": "",
+    "<b>Distance.</b> Electrons in a higher main energy level are further from the nucleus, so the attraction is weaker.": "<b>거리.</b> 더 높은 주 에너지 준위의 전자는 원자핵에서 더 멀리 있어서 인력이 약해요.",
 
     // Periodicity: trends in properties > table > caption
-    "What changes in each direction": "",
+    "What changes in each direction": "방향에 따라 변하는 것",
 
     // Periodicity: trends in properties > table > th
-    "Across a period (left to right)": "",
+    "Across a period (left to right)": "주기를 따라 (왼쪽 → 오른쪽)",
 
     // Periodicity: trends in properties > table > th
     // widget string (assets/js/widgets-s3-1.js)
-    "Down a group": "",
+    "Down a group": "족 아래로",
 
     // Periodicity: trends in properties > table > th
-    "Nuclear charge": "",
+    "Nuclear charge": "핵전하",
 
     // Periodicity: trends in properties > table > td
     // widget string (assets/js/widgets-s3-1.js)
-    "increases": "",
+    "increases": "증가",
 
     // Periodicity: trends in properties > table > th
-    "Shielding by inner electrons": "",
+    "Shielding by inner electrons": "안쪽 전자에 의한 가려막기",
 
     // Periodicity: trends in properties > table > td
     // widget string (assets/js/widgets-s3-1.js)
-    "stays about the same": "",
+    "stays about the same": "거의 같음",
 
     // Periodicity: trends in properties > table > th
-    "Outer electrons": "",
+    "Outer electrons": "바깥 전자",
 
     // Periodicity: trends in properties > table > td
-    "same main energy level": "",
+    "same main energy level": "같은 주 에너지 준위",
 
     // Periodicity: trends in properties > table > td
-    "higher main energy level, further away": "",
+    "higher main energy level, further away": "더 높은 주 에너지 준위, 더 멀리 있음",
 
     // Periodicity: trends in properties > table > th
-    "Attraction of the nucleus for the outer electrons": "",
+    "Attraction of the nucleus for the outer electrons": "원자핵이 바깥 전자를 끌어당기는 인력",
 
     // Periodicity: trends in properties > table > td
-    "<b>stronger</b>": "",
+    "<b>stronger</b>": "<b>강해짐</b>",
 
     // Periodicity: trends in properties > table > td
-    "<b>weaker</b>": "",
+    "<b>weaker</b>": "<b>약해짐</b>",
 
     // Periodicity: trends in properties > p
-    "Down a group the nuclear charge also increases. But the extra distance and the extra shielding matter more, so the attraction gets weaker.": "",
+    "Down a group the nuclear charge also increases. But the extra distance and the extra shielding matter more, so the attraction gets weaker.": "족 아래로 가면 핵전하도 커져요. 하지만 늘어난 거리와 늘어난 가려막기의 효과가 더 커서 인력은 약해져요.",
 
     // Periodicity: trends in properties > h3
-    "The five properties": "",
+    "The five properties": "5가지 성질",
 
     // Periodicity: trends in properties > table > caption
-    "Definitions and trends": "",
+    "Definitions and trends": "정의와 경향",
 
     // Periodicity: trends in properties > table > th
     // Properties of transition elements > table > Additional HL > th
     // widget string (assets/js/widgets-s3-1.js)
-    "Property": "",
+    "Property": "성질",
 
     // Periodicity: trends in properties > table > th
-    "Meaning": "",
-
-    // Periodicity: trends in properties > table > th
-    // widget string (assets/js/widgets-s3-1.js)
-    "Across a period": "",
+    "Meaning": "의미",
 
     // Periodicity: trends in properties > table > th
     // widget string (assets/js/widgets-s3-1.js)
-    "Atomic radius": "",
+    "Across a period": "주기를 따라",
+
+    // Periodicity: trends in properties > table > th
+    // widget string (assets/js/widgets-s3-1.js)
+    "Atomic radius": "원자 반지름",
 
     // Periodicity: trends in properties > table > td
-    "Half the distance between the nuclei of two bonded atoms of the element.": "",
+    "Half the distance between the nuclei of two bonded atoms of the element.": "결합한 같은 원소의 두 원자에서 원자핵 사이 거리의 절반.",
 
     // Periodicity: trends in properties > table > td
     // widget string (assets/js/widgets-s3-1.js)
-    "decreases": "",
+    "decreases": "감소",
 
     // Periodicity: trends in properties > table > th
     // Periodicity: trends in properties > h3
     // widget string (assets/js/widgets-s3-1.js)
-    "Ionic radius": "",
+    "Ionic radius": "이온 반지름",
 
     // Periodicity: trends in properties > table > td
-    "The radius of an ion.": "",
+    "The radius of an ion.": "이온의 반지름.",
 
     // Periodicity: trends in properties > table > td
-    "decreases along the positive ions, jumps up, then decreases along the negative ions": "",
+    "decreases along the positive ions, jumps up, then decreases along the negative ions": "양이온을 따라 감소하다가 크게 늘어난 뒤, 음이온을 따라 다시 감소",
 
     // Periodicity: trends in properties > table > th
     // widget string (assets/js/widgets-s3-1.js)
-    "First ionization energy": "",
+    "First ionization energy": "제1 이온화 에너지",
 
     // Periodicity: trends in properties > table > td
-    "The minimum energy needed to remove one mole of electrons from one mole of gaseous atoms.": "",
+    "The minimum energy needed to remove one mole of electrons from one mole of gaseous atoms.": "기체 상태 원자 1몰에서 전자 1몰을 떼어 내는 데 필요한 최소 에너지.",
 
     // Periodicity: trends in properties > table > td
-    "increases (in general)": "",
+    "increases (in general)": "증가 (대체로)",
 
     // Periodicity: trends in properties > table > th
     // widget string (assets/js/widgets-s3-1.js)
-    "Electron affinity": "",
+    "Electron affinity": "전자 친화도",
 
     // Periodicity: trends in properties > table > td
-    "The energy change when one mole of electrons is added to one mole of gaseous atoms.": "",
+    "The energy change when one mole of electrons is added to one mole of gaseous atoms.": "기체 상태 원자 1몰에 전자 1몰이 더해질 때의 에너지 변화.",
 
     // Periodicity: trends in properties > table > td
-    "becomes more negative (in general)": "",
+    "becomes more negative (in general)": "더 큰 음의 값이 됨 (대체로)",
 
     // Periodicity: trends in properties > table > td
-    "becomes less negative (in general)": "",
+    "becomes less negative (in general)": "더 작은 음의 값이 됨 (대체로)",
 
     // Periodicity: trends in properties > table > th
     // widget string (assets/js/widgets-s3-1.js)
-    "Electronegativity": "",
+    "Electronegativity": "전기 음성도",
 
     // Periodicity: trends in properties > table > td
-    "The relative ability of an atom to attract a shared pair of electrons in a covalent bond.": "",
+    "The relative ability of an atom to attract a shared pair of electrons in a covalent bond.": "공유 결합에서 원자가 공유 전자쌍을 끌어당기는 상대적인 능력.",
 
     // Periodicity: trends in properties > table > caption
-    "The two processes as equations": "",
+    "The two processes as equations": "두 과정을 반응식으로 나타내기",
 
     // Periodicity: trends in properties > table > th
-    "Quantity": "",
+    "Quantity": "양",
 
     // Periodicity: trends in properties > table > th
-    "Process": "",
+    "Process": "과정",
 
     // Periodicity: trends in properties > table > th
-    "Unit": "",
+    "Unit": "단위",
 
     // Periodicity: trends in properties > table > td
-    "<span class=\"unit\">kJ mol-1</span>": "",
+    "<span class=\"unit\">kJ mol-1</span>": "<span class=\"unit\">kJ mol-1</span>",
 
     // Periodicity: trends in properties > table > th
-    "First electron affinity": "",
+    "First electron affinity": "제1 전자 친화도",
 
     // Periodicity: trends in properties > p
-    "A negative electron affinity means that energy is released when the atom gains an electron. Chlorine has the value <span class=\"mono\">−349 kJ mol<sup>−1</sup></span>. Sodium has <span class=\"mono\">−53 kJ mol<sup>−1</sup></span>. Chlorine attracts an extra electron much more strongly.": "",
+    "A negative electron affinity means that energy is released when the atom gains an electron. Chlorine has the value <span class=\"mono\">−349 kJ mol<sup>−1</sup></span>. Sodium has <span class=\"mono\">−53 kJ mol<sup>−1</sup></span>. Chlorine attracts an extra electron much more strongly.": "전자 친화도가 음수라는 것은 원자가 전자를 얻을 때 에너지가 방출된다는 뜻이에요. 염소의 값은 <span class=\"mono\">−349 kJ mol<sup>−1</sup></span>이에요. 나트륨은 <span class=\"mono\">−53 kJ mol<sup>−1</sup></span>이에요. 염소가 전자 하나를 더 훨씬 강하게 끌어당겨요.",
 
     // Periodicity: trends in properties > widget > data-title attribute
-    "Periodic trends explorer": "",
+    "Periodic trends explorer": "주기적 경향 탐색기",
 
     // Periodicity: trends in properties > widget > figcaption
-    "Choose a property and a direction. Predict the trend, then look at the data booklet values and build the explanation. Click the heat-map to change the period or group.": "",
+    "Choose a property and a direction. Predict the trend, then look at the data booklet values and build the explanation. Click the heat-map to change the period or group.": "성질과 방향을 고르세요. 경향을 예측한 다음, 데이터 부클릿 값을 보고 설명을 만들어 보세요. 히트맵을 클릭하면 주기나 족을 바꿀 수 있어요.",
 
     // Periodicity: trends in properties > data booklet note > p
-    "First ionization energy, electron affinity and electronegativity are in section 9 of the data booklet. Atomic and ionic radii are in section 10. Radii are given in <span class=\"mono\">10<sup>−12</sup> m</span>, which is the picometre, pm. The atomic radii are covalent radii.": "",
+    "First ionization energy, electron affinity and electronegativity are in section 9 of the data booklet. Atomic and ionic radii are in section 10. Radii are given in <span class=\"mono\">10<sup>−12</sup> m</span>, which is the picometre, pm. The atomic radii are covalent radii.": "제1 이온화 에너지, 전자 친화도, 전기 음성도는 데이터 부클릿 9번 항목에 있어요. 원자 반지름과 이온 반지름은 10번 항목에 있어요. 반지름은 <span class=\"mono\">10<sup>−12</sup> m</span> 단위, 즉 피코미터(pm)로 나와 있어요. 원자 반지름은 공유 결합 반지름이에요.",
 
     // Periodicity: trends in properties > worked example > data-kicker attribute
-    "Worked example 2": "",
+    "Worked example 2": "예제 2",
 
     // Periodicity: trends in properties > worked example > h3
-    "Explaining a trend in atomic radius": "",
+    "Explaining a trend in atomic radius": "원자 반지름의 경향 설명하기",
 
     // Periodicity: trends in properties > worked example > p
-    "The atomic radius of sodium is 160 pm and the atomic radius of chlorine is 100 pm. Explain why the atomic radius decreases across period 3. [2]": "",
+    "The atomic radius of sodium is 160 pm and the atomic radius of chlorine is 100 pm. Explain why the atomic radius decreases across period 3. [2]": "나트륨의 원자 반지름은 160 pm이고 염소의 원자 반지름은 100 pm이에요. 3주기에서 주기를 따라 원자 반지름이 감소하는 이유를 설명하시오 (explain). [2]",
 
     // Periodicity: trends in properties > worked example > data-title attribute
-    "Say what changes": "",
+    "Say what changes": "무엇이 변하는지 말하기",
 
     // Periodicity: trends in properties > worked example > p
-    "The first mark is for the cause. Across a period, each element has one more proton.": "",
+    "The first mark is for the cause. Across a period, each element has one more proton.": "첫 번째 점수는 원인에 대한 것이에요. 주기를 따라가면 원소마다 양성자가 하나씩 늘어나요.",
 
     // Periodicity: trends in properties > worked example > maths line
-    "Na has 11 protons. Cl has 17 protons. The nuclear charge increases.": "",
+    "Na has 11 protons. Cl has 17 protons. The nuclear charge increases.": "Na는 양성자가 11개. Cl은 양성자가 17개. 핵전하가 증가함.",
 
     // Periodicity: trends in properties > worked example > data-title attribute
-    "Say what stays the same": "",
+    "Say what stays the same": "무엇이 그대로인지 말하기",
 
     // Periodicity: trends in properties > worked example > p
-    "The second mark is for showing that nothing cancels the extra attraction.": "",
+    "The second mark is for showing that nothing cancels the extra attraction.": "두 번째 점수는 늘어난 인력을 상쇄하는 것이 없다는 점을 보여 주는 거예요.",
 
     // Periodicity: trends in properties > worked example > maths line
-    "The outer electrons are in the same main energy level (n = 3), so the shielding by inner electrons is about the same.": "",
+    "The outer electrons are in the same main energy level (n = 3), so the shielding by inner electrons is about the same.": "바깥 전자는 같은 주 에너지 준위(n = 3)에 있으므로, 안쪽 전자에 의한 가려막기는 거의 같음.",
 
     // Periodicity: trends in properties > worked example > data-title attribute
-    "Link to the property": "",
+    "Link to the property": "성질과 연결하기",
 
     // Periodicity: trends in properties > worked example > p
-    "Finish with the effect on the size of the atom.": "",
+    "Finish with the effect on the size of the atom.": "원자 크기에 미치는 효과로 마무리하세요.",
 
     // Periodicity: trends in properties > worked example > maths line
-    "<b>The outer electrons are attracted more strongly and pulled closer to the nucleus.</b>": "",
+    "<b>The outer electrons are attracted more strongly and pulled closer to the nucleus.</b>": "<b>바깥 전자가 더 강하게 끌려 원자핵에 더 가까이 당겨짐.</b>",
 
     // Periodicity: trends in properties > worked example > p
-    "Nuclear charge increases across the period. The outer electrons are in the same energy level with similar shielding, so they are attracted more strongly and the radius decreases.": "",
+    "Nuclear charge increases across the period. The outer electrons are in the same energy level with similar shielding, so they are attracted more strongly and the radius decreases.": "주기를 따라 핵전하가 증가해요. 바깥 전자는 같은 에너지 준위에 있고 가려막기도 비슷하므로, 더 강하게 끌어당겨져 반지름이 감소해요.",
 
     // Periodicity: trends in properties > p
-    "Two rules cover most questions.": "",
+    "Two rules cover most questions.": "대부분의 문제는 2가지 규칙으로 풀 수 있어요.",
 
     // Periodicity: trends in properties > li
-    "A <b>positive ion is smaller than its atom</b>. Sodium is 160 pm, but <span class=\"chem\">Na+</span> is 102 pm. The atom has lost its whole outer energy level.": "",
+    "A <b>positive ion is smaller than its atom</b>. Sodium is 160 pm, but <span class=\"chem\">Na+</span> is 102 pm. The atom has lost its whole outer energy level.": "<b>양이온은 원래 원자보다 작아요</b>. 나트륨은 160 pm이지만 <span class=\"chem\">Na+</span>은 102 pm이에요. 원자가 바깥 에너지 준위 전체를 잃었기 때문이에요.",
 
     // Periodicity: trends in properties > li
-    "A <b>negative ion is larger than its atom</b>. Chlorine is 100 pm, but <span class=\"chem\">Cl-</span> is 181 pm. The nuclear charge is the same, but there is one more electron. The electrons repel each other more and spread out.": "",
+    "A <b>negative ion is larger than its atom</b>. Chlorine is 100 pm, but <span class=\"chem\">Cl-</span> is 181 pm. The nuclear charge is the same, but there is one more electron. The electrons repel each other more and spread out.": "<b>음이온은 원래 원자보다 커요</b>. 염소는 100 pm이지만 <span class=\"chem\">Cl-</span>은 181 pm이에요. 핵전하는 같은데 전자가 하나 더 있어요. 전자끼리 더 많이 밀어내서 더 넓게 퍼져요.",
 
     // Periodicity: trends in properties > p
-    "Some ions have exactly the same electron configuration. Then only the nuclear charge is different.": "",
+    "Some ions have exactly the same electron configuration. Then only the nuclear charge is different.": "어떤 이온들은 전자 배치가 완전히 같아요. 그러면 핵전하만 달라요.",
 
     // Periodicity: trends in properties > widget > data-title attribute
-    "Six ions with the same electron configuration": "",
+    "Six ions with the same electron configuration": "전자 배치가 같은 6가지 이온",
 
     // Periodicity: trends in properties > widget > figcaption
-    "All six ions have 10 electrons. Predict first, then move the slider to compare them. The circles are drawn to scale with data booklet radii.": "",
+    "All six ions have 10 electrons. Predict first, then move the slider to compare them. The circles are drawn to scale with data booklet radii.": "6가지 이온은 모두 전자가 10개예요. 먼저 예측한 다음, 슬라이더를 움직여 비교해 보세요. 원은 데이터 부클릿의 반지름에 맞춰 같은 비율로 그렸어요.",
 
     // Periodicity: trends in properties > worked example > data-kicker attribute
-    "Worked example 3": "",
+    "Worked example 3": "예제 3",
 
     // Periodicity: trends in properties > worked example > h3
-    "Comparing ionic radii": "",
+    "Comparing ionic radii": "이온 반지름 비교하기",
 
     // Periodicity: trends in properties > worked example > p
-    "Ionic radii: <span class=\"chem\">K+</span> 138 pm, <span class=\"chem\">Cl-</span> 181 pm. The atomic radius of chlorine is 100 pm. Explain (a) why <span class=\"chem\">Cl-</span> is larger than the chlorine atom, and (b) why <span class=\"chem\">K+</span> is smaller than <span class=\"chem\">Cl-</span>. [3]": "",
+    "Ionic radii: <span class=\"chem\">K+</span> 138 pm, <span class=\"chem\">Cl-</span> 181 pm. The atomic radius of chlorine is 100 pm. Explain (a) why <span class=\"chem\">Cl-</span> is larger than the chlorine atom, and (b) why <span class=\"chem\">K+</span> is smaller than <span class=\"chem\">Cl-</span>. [3]": "이온 반지름: <span class=\"chem\">K+</span> 138 pm, <span class=\"chem\">Cl-</span> 181 pm. 염소의 원자 반지름은 100 pm이에요. (a) <span class=\"chem\">Cl-</span>이 염소 원자보다 큰 이유와 (b) <span class=\"chem\">K+</span>이 <span class=\"chem\">Cl-</span>보다 작은 이유를 설명하시오 (explain). [3]",
 
     // Periodicity: trends in properties > worked example > data-title attribute
-    "(a) Compare protons and electrons": "",
+    "(a) Compare protons and electrons": "(a) 양성자와 전자 비교하기",
 
     // Periodicity: trends in properties > worked example > p
-    "Atom and ion have the same nucleus. Only the number of electrons is different.": "",
+    "Atom and ion have the same nucleus. Only the number of electrons is different.": "원자와 이온은 원자핵이 같아요. 전자 수만 달라요.",
 
     // Periodicity: trends in properties > worked example > maths line
-    "Cl: 17 protons, 17 electrons. Cl<sup>−</sup>: 17 protons, 18 electrons.": "",
+    "Cl: 17 protons, 17 electrons. Cl<sup>−</sup>: 17 protons, 18 electrons.": "Cl: 양성자 17개, 전자 17개. Cl<sup>−</sup>: 양성자 17개, 전자 18개.",
 
     // Periodicity: trends in properties > worked example > data-title attribute
-    "(a) Give the reason": "",
+    "(a) Give the reason": "(a) 이유 쓰기",
 
     // Periodicity: trends in properties > worked example > p
-    "The same nuclear charge now holds one more electron.": "",
+    "The same nuclear charge now holds one more electron.": "같은 핵전하가 이제 전자 하나를 더 붙잡고 있어요.",
 
     // Periodicity: trends in properties > worked example > maths line
-    "There is more repulsion between the electrons in the outer level, so they spread further from the nucleus.": "",
+    "There is more repulsion between the electrons in the outer level, so they spread further from the nucleus.": "바깥 준위의 전자 사이 반발이 커져서, 전자가 원자핵에서 더 멀리 퍼짐.",
 
     // Periodicity: trends in properties > worked example > data-title attribute
-    "(b) Compare the configurations": "",
+    "(b) Compare the configurations": "(b) 전자 배치 비교하기",
 
     // Periodicity: trends in properties > worked example > p
-    "Check whether the two ions have the same number of electrons.": "",
+    "Check whether the two ions have the same number of electrons.": "두 이온의 전자 수가 같은지 확인하세요.",
 
     // Periodicity: trends in properties > worked example > maths line
-    "K<sup>+</sup> and Cl<sup>−</sup> both have 18 electrons: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup>": "",
+    "K<sup>+</sup> and Cl<sup>−</sup> both have 18 electrons: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup>": "K<sup>+</sup>과 Cl<sup>−</sup>은 둘 다 전자가 18개: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup>",
 
     // Periodicity: trends in properties > worked example > data-title attribute
-    "(b) Compare the nuclear charges": "",
+    "(b) Compare the nuclear charges": "(b) 핵전하 비교하기",
 
     // Periodicity: trends in properties > worked example > p
-    "Same electrons and same shielding, so the nuclear charge decides the size.": "",
+    "Same electrons and same shielding, so the nuclear charge decides the size.": "전자도 같고 가려막기도 같으므로, 핵전하가 크기를 결정해요.",
 
     // Periodicity: trends in properties > worked example > maths line
-    "<b>K<sup>+</sup> has 19 protons and Cl<sup>−</sup> has 17. The greater nuclear charge attracts the same number of electrons more strongly, so K<sup>+</sup> is smaller.</b>": "",
+    "<b>K<sup>+</sup> has 19 protons and Cl<sup>−</sup> has 17. The greater nuclear charge attracts the same number of electrons more strongly, so K<sup>+</sup> is smaller.</b>": "<b>K<sup>+</sup>은 양성자가 19개이고 Cl<sup>−</sup>은 17개임. 핵전하가 더 커서 같은 수의 전자를 더 강하게 끌어당기므로 K<sup>+</sup>이 더 작음.</b>",
 
     // Periodicity: trends in properties > worked example > p
-    "(a) Same nuclear charge, one more electron, more repulsion between electrons. (b) Same electron configuration, but K<sup>+</sup> has the greater nuclear charge.": "",
+    "(a) Same nuclear charge, one more electron, more repulsion between electrons. (b) Same electron configuration, but K<sup>+</sup> has the greater nuclear charge.": "(a) 핵전하는 같은데 전자가 하나 더 있어서 전자 사이 반발이 커요. (b) 전자 배치는 같지만 K<sup>+</sup>의 핵전하가 더 커요.",
 
     // Periodicity: trends in properties > worked example > data-kicker attribute
-    "Worked example 4": "",
+    "Worked example 4": "예제 4",
 
     // Periodicity: trends in properties > worked example > h3
-    "Explaining a trend in first ionization energy": "",
+    "Explaining a trend in first ionization energy": "제1 이온화 에너지의 경향 설명하기",
 
     // Periodicity: trends in properties > worked example > p
-    "First ionization energies: Na <span class=\"mono\">496 kJ mol<sup>−1</sup></span>, K <span class=\"mono\">419 kJ mol<sup>−1</sup></span>. Explain why the value for potassium is lower. [2]": "",
+    "First ionization energies: Na <span class=\"mono\">496 kJ mol<sup>−1</sup></span>, K <span class=\"mono\">419 kJ mol<sup>−1</sup></span>. Explain why the value for potassium is lower. [2]": "제1 이온화 에너지: Na <span class=\"mono\">496 kJ mol<sup>−1</sup></span>, K <span class=\"mono\">419 kJ mol<sup>−1</sup></span>. 칼륨의 값이 더 낮은 이유를 설명하시오 (explain). [2]",
 
     // Periodicity: trends in properties > worked example > data-title attribute
-    "Find the electron that is removed": "",
+    "Find the electron that is removed": "떼어 내는 전자 찾기",
 
     // Periodicity: trends in properties > worked example > p
-    "Ionization energy is about one electron: the outer one.": "",
+    "Ionization energy is about one electron: the outer one.": "이온화 에너지는 전자 하나, 즉 가장 바깥 전자에 대한 것이에요.",
 
     // Periodicity: trends in properties > worked example > maths line
-    "Na: [Ne] 3s<sup>1</sup>, electron removed from n = 3. K: [Ar] 4s<sup>1</sup>, electron removed from n = 4.": "",
+    "Na: [Ne] 3s<sup>1</sup>, electron removed from n = 3. K: [Ar] 4s<sup>1</sup>, electron removed from n = 4.": "Na: [Ne] 3s<sup>1</sup>, n = 3에서 전자를 떼어 냄. K: [Ar] 4s<sup>1</sup>, n = 4에서 전자를 떼어 냄.",
 
     // Periodicity: trends in properties > worked example > data-title attribute
-    "Compare distance and shielding": "",
+    "Compare distance and shielding": "거리와 가려막기 비교하기",
 
     // Periodicity: trends in properties > worked example > p
-    "This is the mark-earning comparison. Write about energy levels, not only about “size”.": "",
+    "This is the mark-earning comparison. Write about energy levels, not only about “size”.": "점수를 받는 비교가 바로 이것이에요. “크기”만 쓰지 말고 에너지 준위에 대해 쓰세요.",
 
     // Periodicity: trends in properties > worked example > maths line
-    "In K the outer electron is in a higher main energy level. It is further from the nucleus and shielded by more inner electrons.": "",
+    "In K the outer electron is in a higher main energy level. It is further from the nucleus and shielded by more inner electrons.": "K에서는 바깥 전자가 더 높은 주 에너지 준위에 있음. 원자핵에서 더 멀고, 더 많은 안쪽 전자에 의해 가려짐.",
 
     // Periodicity: trends in properties > worked example > data-title attribute
-    "Link to the energy": "",
+    "Link to the energy": "에너지와 연결하기",
 
     // Periodicity: trends in properties > worked example > p
-    "Weaker attraction means less energy is needed.": "",
+    "Weaker attraction means less energy is needed.": "인력이 약하면 필요한 에너지가 적어요.",
 
     // Periodicity: trends in properties > worked example > maths line
-    "<b>The outer electron in K is attracted less strongly, so less energy is needed to remove it.</b>": "",
+    "<b>The outer electron in K is attracted less strongly, so less energy is needed to remove it.</b>": "<b>K의 바깥 전자는 덜 강하게 끌어당겨지므로, 떼어 내는 데 필요한 에너지가 더 적음.</b>",
 
     // Periodicity: trends in properties > worked example > p
-    "The electron removed from K is in a higher energy level, further from the nucleus and more shielded. The attraction is weaker, even though K has more protons.": "",
+    "The electron removed from K is in a higher energy level, further from the nucleus and more shielded. The attraction is weaker, even though K has more protons.": "K에서 떼어 내는 전자는 더 높은 에너지 준위에 있어서, 원자핵에서 더 멀고 더 많이 가려져 있어요. K의 양성자가 더 많더라도 인력은 더 약해요.",
 
     // Periodicity: trends in properties > exam tip (shown in English + translation) > p
-    "“The atomic radius increases” on its own does not earn the first mark for an ionization energy question. Write about the energy level of the electron, its distance from the nucleus and the shielding. Never write that shielding increases across a period.": "",
+    "“The atomic radius increases” on its own does not earn the first mark for an ionization energy question. Write about the energy level of the electron, its distance from the nucleus and the shielding. Never write that shielding increases across a period.": "이온화 에너지 문제에서 “원자 반지름이 증가한다”만 쓰면 첫 번째 점수를 받지 못해요. 전자의 에너지 준위, 원자핵으로부터의 거리, 가려막기에 대해 쓰세요. 주기를 따라 가려막기가 증가한다고는 절대 쓰지 마세요.",
 
     // Periodicity: trends in properties > worked example > data-kicker attribute
-    "Worked example 5": "",
+    "Worked example 5": "예제 5",
 
     // Periodicity: trends in properties > worked example > h3
-    "Explaining a trend in electronegativity": "",
+    "Explaining a trend in electronegativity": "전기 음성도의 경향 설명하기",
 
     // Periodicity: trends in properties > worked example > p
-    "Electronegativity values: S 2.6, Cl 3.2, F 4.0. Explain (a) why chlorine is more electronegative than sulfur, and (b) why fluorine is more electronegative than chlorine. [4]": "",
+    "Electronegativity values: S 2.6, Cl 3.2, F 4.0. Explain (a) why chlorine is more electronegative than sulfur, and (b) why fluorine is more electronegative than chlorine. [4]": "전기 음성도 값: S 2.6, Cl 3.2, F 4.0. (a) 염소가 황보다 전기 음성도가 큰 이유와 (b) 플루오린이 염소보다 전기 음성도가 큰 이유를 설명하시오 (explain). [4]",
 
     // Periodicity: trends in properties > worked example > data-title attribute
-    "Start from the definition": "",
+    "Start from the definition": "정의에서 시작하기",
 
     // Periodicity: trends in properties > worked example > p
-    "Electronegativity is about attracting a shared pair of electrons in a bond.": "",
+    "Electronegativity is about attracting a shared pair of electrons in a bond.": "전기 음성도는 결합 속 공유 전자쌍을 끌어당기는 것에 대한 것이에요.",
 
     // Periodicity: trends in properties > worked example > maths line
-    "Ask: how strongly does each nucleus attract a bonding pair?": "",
+    "Ask: how strongly does each nucleus attract a bonding pair?": "질문: 각 원자핵이 공유 전자쌍을 얼마나 강하게 끌어당기는가?",
 
     // Periodicity: trends in properties > worked example > data-title attribute
-    "(a) Same period": "",
+    "(a) Same period": "(a) 같은 주기",
 
     // Periodicity: trends in properties > worked example > p
-    "S and Cl are both in period 3. Use the “across a period” reasons.": "",
+    "S and Cl are both in period 3. Use the “across a period” reasons.": "S와 Cl은 둘 다 3주기에 있어요. “주기를 따라”의 이유를 이용하세요.",
 
     // Periodicity: trends in properties > worked example > maths line
-    "Cl has a greater nuclear charge (17 protons, S has 16). The shielding is about the same.": "",
+    "Cl has a greater nuclear charge (17 protons, S has 16). The shielding is about the same.": "Cl의 핵전하가 더 큼(양성자 17개, S는 16개). 가려막기는 거의 같음.",
 
     // Periodicity: trends in properties > worked example > maths line
-    "<b>The chlorine nucleus attracts the shared pair more strongly.</b>": "",
+    "<b>The chlorine nucleus attracts the shared pair more strongly.</b>": "<b>염소의 원자핵이 공유 전자쌍을 더 강하게 끌어당김.</b>",
 
     // Periodicity: trends in properties > worked example > data-title attribute
-    "(b) Same group": "",
+    "(b) Same group": "(b) 같은 족",
 
     // Periodicity: trends in properties > worked example > p
-    "F and Cl are both in group 17. Use the “down a group” reasons.": "",
+    "F and Cl are both in group 17. Use the “down a group” reasons.": "F와 Cl은 둘 다 17족에 있어요. “족 아래로”의 이유를 이용하세요.",
 
     // Periodicity: trends in properties > worked example > maths line
-    "F has fewer occupied energy levels. A shared pair is closer to the nucleus and less shielded.": "",
+    "F has fewer occupied energy levels. A shared pair is closer to the nucleus and less shielded.": "F는 전자가 들어 있는 에너지 준위가 더 적음. 공유 전자쌍이 원자핵에 더 가깝고 덜 가려짐.",
 
     // Periodicity: trends in properties > worked example > maths line
-    "<b>The fluorine nucleus attracts the shared pair more strongly.</b>": "",
+    "<b>The fluorine nucleus attracts the shared pair more strongly.</b>": "<b>플루오린의 원자핵이 공유 전자쌍을 더 강하게 끌어당김.</b>",
 
     // Periodicity: trends in properties > worked example > p
-    "(a) Greater nuclear charge with similar shielding. (b) The bonding pair is closer to the nucleus and less shielded in fluorine.": "",
+    "(a) Greater nuclear charge with similar shielding. (b) The bonding pair is closer to the nucleus and less shielded in fluorine.": "(a) 가려막기는 비슷하고 핵전하가 더 커요. (b) 플루오린에서는 공유 전자쌍이 원자핵에 더 가깝고 덜 가려져요.",
 
     // Periodicity: trends in properties > common mistake > p
-    "Do not write “electron affinity increases”. The values are negative, so “increases” is unclear. Write “becomes more negative” or “more energy is released”. The data are also not smooth: fluorine (−328) is less negative than chlorine (−349).": "",
+    "Do not write “electron affinity increases”. The values are negative, so “increases” is unclear. Write “becomes more negative” or “more energy is released”. The data are also not smooth: fluorine (−328) is less negative than chlorine (−349).": "“전자 친화도가 증가한다”라고 쓰지 마세요. 값이 음수라서 “증가”가 무슨 뜻인지 분명하지 않아요. “더 큰 음의 값이 된다” 또는 “더 많은 에너지가 방출된다”라고 쓰세요. 자료도 매끄럽게 변하지 않아요: 플루오린(−328)은 염소(−349)보다 덜 음의 값이에요.",
 
     // Periodicity: trends in properties > not needed for IB > p
-    "The term “effective nuclear charge” and rules for calculating it are not in the guide. Melting point trends are not part of this section. The small dips in first ionization energy across a period are Additional HL.": "",
+    "The term “effective nuclear charge” and rules for calculating it are not in the guide. Melting point trends are not part of this section. The small dips in first ionization energy across a period are Additional HL.": "“유효 핵전하”라는 용어와 그 계산 규칙은 가이드에 없어요. 녹는점의 경향은 이 단원에 포함되지 않아요. 주기를 따라 제1 이온화 에너지가 조금씩 내려가는 부분은 HL 추가 내용이에요.",
 
     // Periodicity: trends in properties > data-title attribute
-    "Periodic trends: quick check": "",
+    "Periodic trends: quick check": "주기적 경향: 빠른 확인",
 
     // Trends down group 1 and group 17 > data-toc attribute
-    "Group 1 and group 17": "",
+    "Group 1 and group 17": "1족과 17족",
 
     // Trends down group 1 and group 17 > h2
-    "Trends down group 1 and group 17": "",
+    "Trends down group 1 and group 17": "1족과 17족에서 아래로 가며 나타나는 경향",
 
     // Trends down group 1 and group 17 > p
-    "Metals react by losing electrons. Non-metals react by gaining electrons. So the trends in the last section let you predict how reactive an element is.": "",
+    "Metals react by losing electrons. Non-metals react by gaining electrons. So the trends in the last section let you predict how reactive an element is.": "금속은 전자를 잃으면서 반응해요. 비금속은 전자를 얻으면서 반응해요. 그래서 앞 절의 경향을 이용하면 원소의 반응성을 예측할 수 있어요.",
 
     // Trends down group 1 and group 17 > li
-    "<dfn data-def=\"The tendency of an element to lose electrons and form positive ions.\">Metallic character</dfn> is the tendency to lose electrons and form positive ions. It <b>increases down group 1</b>.": "",
+    "<dfn data-def=\"The tendency of an element to lose electrons and form positive ions.\">Metallic character</dfn> is the tendency to lose electrons and form positive ions. It <b>increases down group 1</b>.": "<dfn data-def=\"원소가 전자를 잃고 양이온이 되려는 경향.\">금속성 <span class=\"en-term\">(metallic character)</span></dfn>은 전자를 잃고 양이온이 되려는 경향이에요. 금속성은 <b>1족에서 아래로 갈수록 커져요</b>.",
 
     // Trends down group 1 and group 17 > data-def attribute
-    "The tendency of an element to lose electrons and form positive ions.": "",
+    "The tendency of an element to lose electrons and form positive ions.": "원소가 전자를 잃고 양이온이 되려는 경향.",
 
     // Trends down group 1 and group 17 > li
-    "Non-metallic character is the tendency to gain electrons. It <b>decreases down group 17</b>.": "",
+    "Non-metallic character is the tendency to gain electrons. It <b>decreases down group 17</b>.": "비금속성은 전자를 얻으려는 경향이에요. 비금속성은 <b>17족에서 아래로 갈수록 작아져요</b>.",
 
     // Trends down group 1 and group 17 > h3
     // Trends down group 1 and group 17 > widget > data-title attribute
-    "Group 1 metals with water": "",
+    "Group 1 metals with water": "1족 금속과 물",
 
     // Trends down group 1 and group 17 > p
-    "Every group 1 metal reacts with water. The products are a metal hydroxide and hydrogen gas.": "",
+    "Every group 1 metal reacts with water. The products are a metal hydroxide and hydrogen gas.": "1족 금속은 모두 물과 반응해요. 생성물은 금속 수산화물과 수소 기체예요.",
 
     // Trends down group 1 and group 17 > equation > dd
-    "any group 1 metal: Li, Na, K, Rb or Cs": "",
+    "any group 1 metal: Li, Na, K, Rb or Cs": "모든 1족 금속: Li, Na, K, Rb, Cs",
 
     // Trends down group 1 and group 17 > widget > figcaption
-    "Choose a metal. Read the observations and the equation, then compare the first ionization energies. This is a description of real observations, not a simulation.": "",
+    "Choose a metal. Read the observations and the equation, then compare the first ionization energies. This is a description of real observations, not a simulation.": "금속을 고르세요. 관찰 결과와 반응식을 읽은 다음, 제1 이온화 에너지를 비교해 보세요. 이것은 실제 관찰 결과를 설명한 것이지 시뮬레이션이 아니에요.",
 
     // Trends down group 1 and group 17 > exam tip (shown in English + translation) > p
-    "Observations that earn marks: the metal floats, fizzes (bubbles of gas), moves on the surface, and gets smaller or dissolves. The solution becomes alkaline. For the trend, link reactivity to how easily the outer electron is lost.": "",
+    "Observations that earn marks: the metal floats, fizzes (bubbles of gas), moves on the surface, and gets smaller or dissolves. The solution becomes alkaline. For the trend, link reactivity to how easily the outer electron is lost.": "점수를 받는 관찰 결과: 금속이 물에 뜨고, 쉬익 소리를 내며 거품(기체 방울)이 생기고, 물 표면 위를 돌아다니고, 작아지거나 녹아 없어져요. 용액은 알칼리성이 돼요. 경향을 설명할 때는 반응성을 바깥 전자를 얼마나 쉽게 잃는지와 연결하세요.",
 
     // Trends down group 1 and group 17 > h3
-    "Group 17 elements with halide ions": "",
+    "Group 17 elements with halide ions": "17족 원소와 할로젠화 이온",
 
     // Trends down group 1 and group 17 > p
-    "A <dfn data-def=\"An ion with a 1− charge formed from a halogen atom: fluoride, chloride, bromide or iodide.\">halide ion</dfn> is the 1− ion of a halogen, such as <span class=\"chem\">Cl-</span>. A more reactive halogen takes electrons from the halide ion of a less reactive halogen. This is called a <dfn data-def=\"A reaction in which a more reactive element takes the place of a less reactive element in a compound.\">displacement reaction</dfn>.": "",
+    "A <dfn data-def=\"An ion with a 1− charge formed from a halogen atom: fluoride, chloride, bromide or iodide.\">halide ion</dfn> is the 1− ion of a halogen, such as <span class=\"chem\">Cl-</span>. A more reactive halogen takes electrons from the halide ion of a less reactive halogen. This is called a <dfn data-def=\"A reaction in which a more reactive element takes the place of a less reactive element in a compound.\">displacement reaction</dfn>.": "<dfn data-def=\"할로젠 원자로부터 만들어진 1− 전하의 이온: 플루오린화 이온, 염화 이온, 브로민화 이온, 아이오딘화 이온.\">할로젠화 이온 <span class=\"en-term\">(halide ion)</span></dfn>은 <span class=\"chem\">Cl-</span>처럼 할로젠의 1− 이온이에요. 반응성이 더 큰 할로젠은 반응성이 더 작은 할로젠의 할로젠화 이온에서 전자를 빼앗아요. 이것을 <dfn data-def=\"반응성이 더 큰 원소가 화합물 속에서 반응성이 더 작은 원소의 자리를 차지하는 반응.\">치환 반응 <span class=\"en-term\">(displacement reaction)</span></dfn>이라고 해요.",
 
     // Trends down group 1 and group 17 > data-def attribute
-    "An ion with a 1− charge formed from a halogen atom: fluoride, chloride, bromide or iodide.": "",
+    "An ion with a 1− charge formed from a halogen atom: fluoride, chloride, bromide or iodide.": "할로젠 원자로부터 만들어진 1− 전하의 이온: 플루오린화 이온, 염화 이온, 브로민화 이온, 아이오딘화 이온.",
 
     // Trends down group 1 and group 17 > data-def attribute
-    "A reaction in which a more reactive element takes the place of a less reactive element in a compound.": "",
+    "A reaction in which a more reactive element takes the place of a less reactive element in a compound.": "반응성이 더 큰 원소가 화합물 속에서 반응성이 더 작은 원소의 자리를 차지하는 반응.",
 
     // Trends down group 1 and group 17 > p
-    "Reactivity decreases down group 17: chlorine is more reactive than bromine, and bromine is more reactive than iodine.": "",
+    "Reactivity decreases down group 17: chlorine is more reactive than bromine, and bromine is more reactive than iodine.": "17족에서는 아래로 갈수록 반응성이 작아져요: 염소는 브로민보다, 브로민은 아이오딘보다 반응성이 커요.",
 
     // Trends down group 1 and group 17 > widget > data-title attribute
-    "Halogen and halide ion: which mixtures react?": "",
+    "Halogen and halide ion: which mixtures react?": "할로젠과 할로젠화 이온: 어떤 혼합물이 반응할까요?",
 
     // Trends down group 1 and group 17 > widget > figcaption
-    "Predict all six mixtures, then check. The equations are ionic equations: the metal ion in the halide solution does not take part.": "",
+    "Predict all six mixtures, then check. The equations are ionic equations: the metal ion in the halide solution does not take part.": "6가지 혼합물을 모두 예측한 다음 확인해 보세요. 반응식은 이온 반응식이에요: 할로젠화물 용액 속의 금속 이온은 반응에 참여하지 않아요.",
 
     // Trends down group 1 and group 17 > common mistake > p
-    "Take care with the names. <b>Chlorine</b>, <span class=\"chem\">Cl2</span>, is the element. <b>Chloride</b>, <span class=\"chem\">Cl-</span>, is the ion. “Chlorine displaces bromide ions” is correct. “Chloride displaces bromine” is wrong.": "",
+    "Take care with the names. <b>Chlorine</b>, <span class=\"chem\">Cl2</span>, is the element. <b>Chloride</b>, <span class=\"chem\">Cl-</span>, is the ion. “Chlorine displaces bromide ions” is correct. “Chloride displaces bromine” is wrong.": "이름에 주의하세요. <b>염소</b>(<span class=\"chem\">Cl2</span>)는 원소예요. <b>염화 이온</b>(<span class=\"chem\">Cl-</span>)은 이온이에요. “염소가 브로민화 이온을 치환한다”는 맞아요. “염화 이온이 브로민을 치환한다”는 틀려요.",
 
     // Trends down group 1 and group 17 > not needed for IB > p
-    "Only these two sets of reactions are required here. You do not need group 1 metals with oxygen or halogens, tests with silver nitrate, or group 2 trends. Explaining displacement with oxidation and reduction comes later in Reactivity 3.2.": "",
+    "Only these two sets of reactions are required here. You do not need group 1 metals with oxygen or halogens, tests with silver nitrate, or group 2 trends. Explaining displacement with oxidation and reduction comes later in Reactivity 3.2.": "여기서는 이 두 가지 반응만 알면 돼요. 1족 금속과 산소나 할로젠의 반응, 질산 은을 이용한 검출, 2족의 경향은 필요 없어요. 치환 반응을 산화와 환원으로 설명하는 것은 나중에 Reactivity 3.2에서 배워요.",
 
     // Trends down group 1 and group 17 > data-title attribute
-    "Group 1 and group 17: quick check": "",
+    "Group 1 and group 17: quick check": "1족과 17족: 빠른 확인",
 
     // Oxides: from basic to acidic > data-toc attribute
-    "Oxides: basic to acidic": "",
+    "Oxides: basic to acidic": "산화물: 염기성에서 산성으로",
 
     // Oxides: from basic to acidic > h2
-    "Oxides: from basic to acidic": "",
+    "Oxides: from basic to acidic": "산화물: 염기성에서 산성으로",
 
     // Oxides: from basic to acidic > p
-    "There is no sharp line between metals and non-metals. The properties change gradually across a period. You can see this clearly in the oxides.": "",
+    "There is no sharp line between metals and non-metals. The properties change gradually across a period. You can see this clearly in the oxides.": "금속과 비금속 사이에 뚜렷한 경계선은 없어요. 주기를 따라 성질이 조금씩 바뀌어요. 이것은 산화물에서 분명하게 볼 수 있어요.",
 
     // Oxides: from basic to acidic > li
-    "<b>Metal oxides are basic.</b> If they dissolve in water, they form alkaline solutions.": "",
+    "<b>Metal oxides are basic.</b> If they dissolve in water, they form alkaline solutions.": "<b>금속 산화물은 염기성이에요.</b> 물에 녹으면 알칼리성 용액이 돼요.",
 
     // Oxides: from basic to acidic > li
-    "<b>Non-metal oxides are acidic.</b> If they dissolve in water, they form acidic solutions.": "",
+    "<b>Non-metal oxides are acidic.</b> If they dissolve in water, they form acidic solutions.": "<b>비금속 산화물은 산성이에요.</b> 물에 녹으면 산성 용액이 돼요.",
 
     // Oxides: from basic to acidic > li
-    "Between them are <dfn data-def=\"Able to react both as an acid and as a base.\">amphoteric</dfn> oxides. An amphoteric oxide can react as a base (with an acid) and as an acid (with a base). Aluminium oxide is the usual example.": "",
+    "Between them are <dfn data-def=\"Able to react both as an acid and as a base.\">amphoteric</dfn> oxides. An amphoteric oxide can react as a base (with an acid) and as an acid (with a base). Aluminium oxide is the usual example.": "그 사이에는 <dfn data-def=\"산으로도, 염기로도 반응할 수 있는.\">양쪽성 <span class=\"en-term\">(amphoteric)</span></dfn> 산화물이 있어요. 양쪽성 산화물은 (산과 반응할 때) 염기로도, (염기와 반응할 때) 산으로도 작용할 수 있어요. 대표적인 예는 산화 알루미늄이에요.",
 
     // Oxides: from basic to acidic > data-def attribute
-    "Able to react both as an acid and as a base.": "",
+    "Able to react both as an acid and as a base.": "산으로도, 염기로도 반응할 수 있는.",
 
     // Oxides: from basic to acidic > widget > data-title attribute
-    "Oxides across period 3": "",
+    "Oxides across period 3": "3주기의 산화물",
 
     // Oxides: from basic to acidic > widget > figcaption
-    "Move the slider across period 3. Watch the bonding change from ionic to covalent and the character change from basic to acidic. The pH positions are approximate.": "",
+    "Move the slider across period 3. Watch the bonding change from ionic to covalent and the character change from basic to acidic. The pH positions are approximate.": "슬라이더를 3주기를 따라 움직여 보세요. 결합이 이온 결합에서 공유 결합으로, 성질이 염기성에서 산성으로 바뀌는 것을 살펴보세요. pH 위치는 대략적인 값이에요.",
 
     // Oxides: from basic to acidic > common mistake > p
-    "Amphoteric does not mean neutral. A neutral substance reacts with neither acids nor bases. An amphoteric oxide reacts with both.": "",
+    "Amphoteric does not mean neutral. A neutral substance reacts with neither acids nor bases. An amphoteric oxide reacts with both.": "양쪽성은 중성이라는 뜻이 아니에요. 중성 물질은 산과도 염기와도 반응하지 않아요. 양쪽성 산화물은 둘 다와 반응해요.",
 
     // Oxides: from basic to acidic > h3
-    "Equations you must be able to write": "",
+    "Equations you must be able to write": "꼭 쓸 수 있어야 하는 반응식",
 
     // Oxides: from basic to acidic > p
-    "You need equations for the reaction with water of four kinds of oxide. The patterns are short.": "",
+    "You need equations for the reaction with water of four kinds of oxide. The patterns are short.": "4가지 산화물이 물과 반응하는 반응식이 필요해요. 규칙은 간단해요.",
 
     // Oxides: from basic to acidic > table > caption
-    "Oxides with water": "",
+    "Oxides with water": "산화물과 물",
 
     // Oxides: from basic to acidic > table > th
-    "Oxide of": "",
+    "Oxide of": "무엇의 산화물",
 
     // Oxides: from basic to acidic > table > th
-    "Pattern": "",
+    "Pattern": "규칙",
 
     // Oxides: from basic to acidic > table > th
-    "Example equation": "",
+    "Example equation": "반응식 예",
 
     // Oxides: from basic to acidic > table > th
-    "a group 1 metal": "",
+    "a group 1 metal": "1족 금속",
 
     // Oxides: from basic to acidic > table > td
-    "basic oxide + water → metal hydroxide": "",
+    "basic oxide + water → metal hydroxide": "염기성 산화물 + 물 → 금속 수산화물",
 
     // Oxides: from basic to acidic > table > td
-    "<span class=\"chem\">Na2O(s) + H2O(l) -&gt; 2NaOH(aq)</span>": "",
+    "<span class=\"chem\">Na2O(s) + H2O(l) -&gt; 2NaOH(aq)</span>": "<span class=\"chem\">Na2O(s) + H2O(l) -&gt; 2NaOH(aq)</span>",
 
     // Oxides: from basic to acidic > table > th
-    "a group 2 metal": "",
+    "a group 2 metal": "2족 금속",
 
     // Oxides: from basic to acidic > table > td
-    "<span class=\"chem\">CaO(s) + H2O(l) -&gt; Ca(OH)2(aq)</span>": "",
+    "<span class=\"chem\">CaO(s) + H2O(l) -&gt; Ca(OH)2(aq)</span>": "<span class=\"chem\">CaO(s) + H2O(l) -&gt; Ca(OH)2(aq)</span>",
 
     // Oxides: from basic to acidic > table > th
-    "carbon": "",
+    "carbon": "탄소",
 
     // Oxides: from basic to acidic > table > td
-    "acidic oxide + water → acid": "",
+    "acidic oxide + water → acid": "산성 산화물 + 물 → 산",
 
     // Oxides: from basic to acidic > table > td
-    "<span class=\"chem\">CO2(g) + H2O(l) &lt;=&gt; H2CO3(aq)</span>": "",
+    "<span class=\"chem\">CO2(g) + H2O(l) &lt;=&gt; H2CO3(aq)</span>": "<span class=\"chem\">CO2(g) + H2O(l) &lt;=&gt; H2CO3(aq)</span>",
 
     // Oxides: from basic to acidic > table > th
-    "sulfur": "",
+    "sulfur": "황",
 
     // Oxides: from basic to acidic > table > td
-    "<span class=\"chem\">SO2(g) + H2O(l) &lt;=&gt; H2SO3(aq)</span><br><span class=\"chem\">SO3(g) + H2O(l) -&gt; H2SO4(aq)</span>": "",
+    "<span class=\"chem\">SO2(g) + H2O(l) &lt;=&gt; H2SO3(aq)</span><br><span class=\"chem\">SO3(g) + H2O(l) -&gt; H2SO4(aq)</span>": "<span class=\"chem\">SO2(g) + H2O(l) &lt;=&gt; H2SO3(aq)</span><br><span class=\"chem\">SO3(g) + H2O(l) -&gt; H2SO4(aq)</span>",
 
     // Oxides: from basic to acidic > p
-    "The acids are carbonic acid, <span class=\"chem\">H2CO3</span>, sulfurous acid, <span class=\"chem\">H2SO3</span>, and sulfuric acid, <span class=\"chem\">H2SO4</span>. To get the formula of the acid, add the atoms of the oxide and the water together.": "",
+    "The acids are carbonic acid, <span class=\"chem\">H2CO3</span>, sulfurous acid, <span class=\"chem\">H2SO3</span>, and sulfuric acid, <span class=\"chem\">H2SO4</span>. To get the formula of the acid, add the atoms of the oxide and the water together.": "생성되는 산은 탄산(<span class=\"chem\">H2CO3</span>), 아황산(<span class=\"chem\">H2SO3</span>), 황산(<span class=\"chem\">H2SO4</span>)이에요. 산의 화학식은 산화물과 물의 원자를 모두 더하면 얻을 수 있어요.",
 
     // Oxides: from basic to acidic > worked example > data-kicker attribute
-    "Worked example 6": "",
+    "Worked example 6": "예제 6",
 
     // Oxides: from basic to acidic > worked example > h3
-    "Equations for oxides with water": "",
+    "Equations for oxides with water": "산화물과 물의 반응식",
 
     // Oxides: from basic to acidic > worked example > p
-    "Deduce the equation, with state symbols, for the reaction with water of (a) potassium oxide, (b) barium oxide and (c) sulfur dioxide.": "",
+    "Deduce the equation, with state symbols, for the reaction with water of (a) potassium oxide, (b) barium oxide and (c) sulfur dioxide.": "(a) 산화 칼륨, (b) 산화 바륨, (c) 이산화 황이 물과 반응하는 반응식을 상태 기호를 포함하여 추론하시오 (deduce).",
 
     // Oxides: from basic to acidic > worked example > data-title attribute
-    "(a) Write the formulas": "",
+    "(a) Write the formulas": "(a) 화학식 쓰기",
 
     // Oxides: from basic to acidic > worked example > p
-    "Potassium is in group 1, so its ion is K<sup>+</sup>. The oxide is K<sub>2</sub>O and the hydroxide is KOH.": "",
+    "Potassium is in group 1, so its ion is K<sup>+</sup>. The oxide is K<sub>2</sub>O and the hydroxide is KOH.": "칼륨은 1족이므로 이온은 K<sup>+</sup>이에요. 산화물은 K<sub>2</sub>O이고 수산화물은 KOH예요.",
 
     // Oxides: from basic to acidic > worked example > maths line
-    "K<sub>2</sub>O + H<sub>2</sub>O → KOH (not balanced)": "",
+    "K<sub>2</sub>O + H<sub>2</sub>O → KOH (not balanced)": "K<sub>2</sub>O + H<sub>2</sub>O → KOH (계수 맞추기 전)",
 
     // Oxides: from basic to acidic > worked example > data-title attribute
-    "(a) Balance and add states": "",
+    "(a) Balance and add states": "(a) 계수를 맞추고 상태 기호 붙이기",
 
     // Oxides: from basic to acidic > worked example > p
-    "There are two K atoms on the left, so you need 2KOH. Then check H and O.": "",
+    "There are two K atoms on the left, so you need 2KOH. Then check H and O.": "왼쪽에 K 원자가 2개 있으므로 2KOH가 필요해요. 그다음 H와 O를 확인하세요.",
 
     // Oxides: from basic to acidic > worked example > data-title attribute
-    "(b) Group 2 oxide": "",
+    "(b) Group 2 oxide": "(b) 2족 산화물",
 
     // Oxides: from basic to acidic > worked example > p
-    "Barium is in group 2, so its ion is Ba<sup>2+</sup>. The oxide is BaO and the hydroxide is Ba(OH)<sub>2</sub>. It is already balanced.": "",
+    "Barium is in group 2, so its ion is Ba<sup>2+</sup>. The oxide is BaO and the hydroxide is Ba(OH)<sub>2</sub>. It is already balanced.": "바륨은 2족이므로 이온은 Ba<sup>2+</sup>이에요. 산화물은 BaO이고 수산화물은 Ba(OH)<sub>2</sub>예요. 이미 계수가 맞아요.",
 
     // Oxides: from basic to acidic > worked example > data-title attribute
-    "(c) Non-metal oxide": "",
+    "(c) Non-metal oxide": "(c) 비금속 산화물",
 
     // Oxides: from basic to acidic > worked example > p
-    "Add the atoms of SO<sub>2</sub> and H<sub>2</sub>O to get the acid: H<sub>2</sub>SO<sub>3</sub>. The reaction is reversible.": "",
+    "Add the atoms of SO<sub>2</sub> and H<sub>2</sub>O to get the acid: H<sub>2</sub>SO<sub>3</sub>. The reaction is reversible.": "SO<sub>2</sub>와 H<sub>2</sub>O의 원자를 더하면 산이 돼요: H<sub>2</sub>SO<sub>3</sub>. 이 반응은 가역 반응이에요.",
 
     // Oxides: from basic to acidic > worked example > p
-    "(a) K<sub>2</sub>O(s) + H<sub>2</sub>O(l) → 2KOH(aq). (b) BaO(s) + H<sub>2</sub>O(l) → Ba(OH)<sub>2</sub>(aq). (c) SO<sub>2</sub>(g) + H<sub>2</sub>O(l) ⇌ H<sub>2</sub>SO<sub>3</sub>(aq).": "",
+    "(a) K<sub>2</sub>O(s) + H<sub>2</sub>O(l) → 2KOH(aq). (b) BaO(s) + H<sub>2</sub>O(l) → Ba(OH)<sub>2</sub>(aq). (c) SO<sub>2</sub>(g) + H<sub>2</sub>O(l) ⇌ H<sub>2</sub>SO<sub>3</sub>(aq).": "(a) K<sub>2</sub>O(s) + H<sub>2</sub>O(l) → 2KOH(aq). (b) BaO(s) + H<sub>2</sub>O(l) → Ba(OH)<sub>2</sub>(aq). (c) SO<sub>2</sub>(g) + H<sub>2</sub>O(l) ⇌ H<sub>2</sub>SO<sub>3</sub>(aq).",
 
     // Oxides: from basic to acidic > exam tip (shown in English + translation) > p
-    "If the question asks for state symbols, they are part of the mark. Check that the equation is balanced. Remember that a group 2 hydroxide has two hydroxide ions: <span class=\"chem\">Ca(OH)2</span>.": "",
+    "If the question asks for state symbols, they are part of the mark. Check that the equation is balanced. Remember that a group 2 hydroxide has two hydroxide ions: <span class=\"chem\">Ca(OH)2</span>.": "문제에서 상태 기호를 요구하면 상태 기호도 점수에 포함돼요. 반응식의 계수가 맞는지 확인하세요. 2족 수산화물에는 수산화 이온이 2개 있다는 것을 기억하세요: <span class=\"chem\">Ca(OH)2</span>.",
 
     // Oxides: from basic to acidic > exam tip (shown in English + translation) > p
-    "Magnesium hydroxide and calcium hydroxide are only slightly soluble. This page writes them with (aq), because the solution that forms is alkaline. You may also see (s).": "",
+    "Magnesium hydroxide and calcium hydroxide are only slightly soluble. This page writes them with (aq), because the solution that forms is alkaline. You may also see (s).": "수산화 마그네슘과 수산화 칼슘은 물에 조금만 녹아요. 생기는 용액이 알칼리성이므로 이 페이지에서는 (aq)로 써요. (s)로 쓴 것도 볼 수 있어요.",
 
     // Oxides: from basic to acidic > h3
-    "Acid rain and ocean acidification": "",
+    "Acid rain and ocean acidification": "산성비와 해양 산성화",
 
     // Oxides: from basic to acidic > h4
-    "Acid rain": "",
+    "Acid rain": "산성비",
 
     // Oxides: from basic to acidic > li
-    "Burning fuels releases gaseous non-metal oxides, such as sulfur dioxide and oxides of nitrogen.": "",
+    "Burning fuels releases gaseous non-metal oxides, such as sulfur dioxide and oxides of nitrogen.": "연료를 태우면 이산화 황, 질소 산화물 같은 기체 비금속 산화물이 나와요.",
 
     // Oxides: from basic to acidic > li
-    "Sulfur dioxide dissolves in rain water: <span class=\"chem\">SO2(g) + H2O(l) &lt;=&gt; H2SO3(aq)</span>": "",
+    "Sulfur dioxide dissolves in rain water: <span class=\"chem\">SO2(g) + H2O(l) &lt;=&gt; H2SO3(aq)</span>": "이산화 황은 빗물에 녹아요: <span class=\"chem\">SO2(g) + H2O(l) &lt;=&gt; H2SO3(aq)</span>",
 
     // Oxides: from basic to acidic > li
-    "In the air, sulfur dioxide can also react with oxygen: <span class=\"chem\">2SO2(g) + O2(g) -&gt; 2SO3(g)</span>": "",
+    "In the air, sulfur dioxide can also react with oxygen: <span class=\"chem\">2SO2(g) + O2(g) -&gt; 2SO3(g)</span>": "공기 중에서 이산화 황은 산소와 반응하기도 해요: <span class=\"chem\">2SO2(g) + O2(g) -&gt; 2SO3(g)</span>",
 
     // Oxides: from basic to acidic > li
-    "Sulfur trioxide forms a stronger acid: <span class=\"chem\">SO3(g) + H2O(l) -&gt; H2SO4(aq)</span>": "",
+    "Sulfur trioxide forms a stronger acid: <span class=\"chem\">SO3(g) + H2O(l) -&gt; H2SO4(aq)</span>": "삼산화 황은 더 강한 산을 만들어요: <span class=\"chem\">SO3(g) + H2O(l) -&gt; H2SO4(aq)</span>",
 
     // Oxides: from basic to acidic > li
-    "The rain is more acidic than normal rain. It damages buildings, trees and life in lakes.": "",
+    "The rain is more acidic than normal rain. It damages buildings, trees and life in lakes.": "이 비는 보통 비보다 산성이 강해요. 건물, 나무, 호수 속 생물에 피해를 줘요.",
 
     // Oxides: from basic to acidic > h4
-    "Ocean acidification": "",
+    "Ocean acidification": "해양 산성화",
 
     // Oxides: from basic to acidic > li
-    "The level of carbon dioxide in the atmosphere is rising.": "",
+    "The level of carbon dioxide in the atmosphere is rising.": "대기 중 이산화 탄소의 농도가 높아지고 있어요.",
 
     // Oxides: from basic to acidic > li
-    "More carbon dioxide dissolves in sea water: <span class=\"chem\">CO2(g) + H2O(l) &lt;=&gt; H2CO3(aq)</span>": "",
+    "More carbon dioxide dissolves in sea water: <span class=\"chem\">CO2(g) + H2O(l) &lt;=&gt; H2CO3(aq)</span>": "더 많은 이산화 탄소가 바닷물에 녹아요: <span class=\"chem\">CO2(g) + H2O(l) &lt;=&gt; H2CO3(aq)</span>",
 
     // Oxides: from basic to acidic > li
-    "Carbonic acid releases hydrogen ions: <span class=\"chem\">H2CO3(aq) &lt;=&gt; H+(aq) + HCO3-(aq)</span>": "",
+    "Carbonic acid releases hydrogen ions: <span class=\"chem\">H2CO3(aq) &lt;=&gt; H+(aq) + HCO3-(aq)</span>": "탄산은 수소 이온을 내놓아요: <span class=\"chem\">H2CO3(aq) &lt;=&gt; H+(aq) + HCO3-(aq)</span>",
 
     // Oxides: from basic to acidic > li
-    "The pH of the ocean falls. This harms organisms with shells or skeletons made of calcium carbonate, such as corals.": "",
+    "The pH of the ocean falls. This harms organisms with shells or skeletons made of calcium carbonate, such as corals.": "바다의 pH가 낮아져요. 그러면 산호처럼 탄산 칼슘으로 된 껍데기나 골격을 가진 생물이 피해를 입어요.",
 
     // Oxides: from basic to acidic > figcaption
-    "Both problems have the same cause: an acidic non-metal oxide reacts with water to form an acid.": "",
+    "Both problems have the same cause: an acidic non-metal oxide reacts with water to form an acid.": "두 문제의 원인은 같아요: 산성인 비금속 산화물이 물과 반응해 산을 만들어요.",
 
     // Oxides: from basic to acidic > not needed for IB > p
-    "You do not need equations for oxides of nitrogen, phosphorus, silicon or chlorine with water, or for amphoteric oxides. You do not need methods for reducing acid rain. What pH means, and how acids react, comes later in Reactivity 3.1.": "",
+    "You do not need equations for oxides of nitrogen, phosphorus, silicon or chlorine with water, or for amphoteric oxides. You do not need methods for reducing acid rain. What pH means, and how acids react, comes later in Reactivity 3.1.": "질소, 인, 규소, 염소의 산화물이나 양쪽성 산화물이 물과 반응하는 반응식은 필요 없어요. 산성비를 줄이는 방법도 필요 없어요. pH가 무엇인지, 산이 어떻게 반응하는지는 나중에 Reactivity 3.1에서 배워요.",
 
     // Oxides: from basic to acidic > data-title attribute
-    "Oxides: quick check": "",
+    "Oxides: quick check": "산화물: 빠른 확인",
 
     // Oxidation states > data-toc attribute
     // Oxidation states > h2
-    "Oxidation states": "",
+    "Oxidation states": "산화수",
 
     // Oxidation states > p
-    "Chemists need a way to keep count of electrons when atoms bond. Think of it as bookkeeping: each atom gets a number that shows how many electrons it has “lost” or “gained”.": "",
+    "Chemists need a way to keep count of electrons when atoms bond. Think of it as bookkeeping: each atom gets a number that shows how many electrons it has “lost” or “gained”.": "원자가 결합할 때 화학자들은 전자를 세는 방법이 필요해요. 장부 정리라고 생각하세요: 각 원자에 전자를 몇 개 “잃었는지” 또는 “얻었는지”를 보여 주는 숫자를 붙여요.",
 
     // Oxidation states > p
-    "The <dfn data-def=\"A number assigned to an atom to show the number of electrons transferred in forming a bond. It is the charge the atom would have if the compound were composed of ions.\">oxidation state</dfn> is a number assigned to an atom to show the number of electrons transferred in forming a bond. It is the charge that the atom would have if the compound were composed of ions.": "",
+    "The <dfn data-def=\"A number assigned to an atom to show the number of electrons transferred in forming a bond. It is the charge the atom would have if the compound were composed of ions.\">oxidation state</dfn> is a number assigned to an atom to show the number of electrons transferred in forming a bond. It is the charge that the atom would have if the compound were composed of ions.": "<dfn data-def=\"결합이 만들어질 때 이동한 전자 수를 나타내기 위해 원자에 붙이는 숫자. 화합물이 이온으로 이루어져 있다고 가정할 때 그 원자가 가지는 전하.\">산화수 <span class=\"en-term\">(oxidation state)</span></dfn>는 결합이 만들어질 때 이동한 전자 수를 나타내기 위해 원자에 붙이는 숫자예요. 화합물이 이온으로 이루어져 있다고 가정할 때 그 원자가 가지게 될 전하예요.",
 
     // Oxidation states > data-def attribute
-    "A number assigned to an atom to show the number of electrons transferred in forming a bond. It is the charge the atom would have if the compound were composed of ions.": "",
+    "A number assigned to an atom to show the number of electrons transferred in forming a bond. It is the charge the atom would have if the compound were composed of ions.": "결합이 만들어질 때 이동한 전자 수를 나타내기 위해 원자에 붙이는 숫자. 화합물이 이온으로 이루어져 있다고 가정할 때 그 원자가 가지는 전하.",
 
     // Oxidation states > p
-    "In sodium chloride the ions are real: <span class=\"chem\">Na+</span> is +1 and <span class=\"chem\">Cl-</span> is −1. In water the bonds are covalent, but you still pretend. Oxygen is more electronegative, so it is given both electrons of each bond. Oxygen is −2 and each hydrogen is +1.": "",
+    "In sodium chloride the ions are real: <span class=\"chem\">Na+</span> is +1 and <span class=\"chem\">Cl-</span> is −1. In water the bonds are covalent, but you still pretend. Oxygen is more electronegative, so it is given both electrons of each bond. Oxygen is −2 and each hydrogen is +1.": "염화 나트륨에서는 이온이 실제로 있어요: <span class=\"chem\">Na+</span>은 +1이고 <span class=\"chem\">Cl-</span>은 −1이에요. 물에서는 결합이 공유 결합이지만, 그래도 이온이라고 가정해요. 산소의 전기 음성도가 더 크므로 각 결합의 전자 2개를 모두 산소가 가진다고 봐요. 산소는 −2이고 각 수소는 +1이에요.",
 
     // Oxidation states > exam tip (shown in English + translation) > p
-    "Write the sign first, then the number: <b>+2</b>, <b>−1</b>. Writing “2+” or “2” does not earn the mark. The form 2+ is for the charge on an ion, such as <span class=\"chem\">Mg^2+</span>. A Roman numeral, such as II, is also accepted. The terms “oxidation state” and “oxidation number” mean the same thing here, and both are accepted.": "",
+    "Write the sign first, then the number: <b>+2</b>, <b>−1</b>. Writing “2+” or “2” does not earn the mark. The form 2+ is for the charge on an ion, such as <span class=\"chem\">Mg^2+</span>. A Roman numeral, such as II, is also accepted. The terms “oxidation state” and “oxidation number” mean the same thing here, and both are accepted.": "부호를 먼저 쓰고 그다음 숫자를 쓰세요: <b>+2</b>, <b>−1</b>. “2+”나 “2”라고 쓰면 점수를 받지 못해요. 2+ 형태는 <span class=\"chem\">Mg^2+</span>처럼 이온의 전하를 나타낼 때 써요. II 같은 로마 숫자도 인정돼요. 여기서 “oxidation state”와 “oxidation number”는 같은 뜻이고(둘 다 산화수), 둘 다 인정돼요.",
 
     // Oxidation states > h3
-    "The rules": "",
+    "The rules": "규칙",
 
     // Oxidation states > table > caption
-    "Rules for oxidation states, in order of use": "",
+    "Rules for oxidation states, in order of use": "산화수 규칙 (사용하는 순서대로)",
 
     // Oxidation states > table > th
-    "Statement": "",
+    "Statement": "내용",
 
     // Oxidation states > table > td
-    "An atom in an element is 0.": "",
+    "An atom in an element is 0.": "홑원소 물질 속 원자의 산화수는 0이에요.",
 
     // Oxidation states > table > td
-    "<span class=\"chem\">Cl2</span>, Na, <span class=\"chem\">O2</span>: all 0": "",
+    "<span class=\"chem\">Cl2</span>, Na, <span class=\"chem\">O2</span>: all 0": "<span class=\"chem\">Cl2</span>, Na, <span class=\"chem\">O2</span>: 모두 0",
 
     // Oxidation states > table > td
-    "The oxidation states in a neutral compound add up to 0.": "",
+    "The oxidation states in a neutral compound add up to 0.": "중성 화합물에서 산화수의 합은 0이에요.",
 
     // Oxidation states > table > td
-    "The oxidation states in an ion add up to the charge on the ion.": "",
+    "The oxidation states in an ion add up to the charge on the ion.": "이온에서 산화수의 합은 그 이온의 전하와 같아요.",
 
     // Oxidation states > table > td
-    "<span class=\"chem\">Mg^2+</span> is +2; in <span class=\"chem\">OH-</span>: (−2) + (+1) = −1": "",
+    "<span class=\"chem\">Mg^2+</span> is +2; in <span class=\"chem\">OH-</span>: (−2) + (+1) = −1": "<span class=\"chem\">Mg^2+</span>은 +2; <span class=\"chem\">OH-</span>에서는 (−2) + (+1) = −1",
 
     // Oxidation states > table > td
-    "Fluorine is always −1 in compounds.": "",
+    "Fluorine is always −1 in compounds.": "화합물에서 플루오린은 항상 −1이에요.",
 
     // Oxidation states > table > td
-    "HF: F is −1": "",
+    "HF: F is −1": "HF: F는 −1",
 
     // Oxidation states > table > td
-    "Group 1 metals are always +1 and group 2 metals are always +2 in compounds.": "",
+    "Group 1 metals are always +1 and group 2 metals are always +2 in compounds.": "화합물에서 1족 금속은 항상 +1이고, 2족 금속은 항상 +2예요.",
 
     // Oxidation states > table > td
-    "NaCl: Na is +1; CaO: Ca is +2": "",
+    "NaCl: Na is +1; CaO: Ca is +2": "NaCl: Na는 +1; CaO: Ca는 +2",
 
     // Oxidation states > table > td
-    "Hydrogen is +1. <b>Exception:</b> −1 in metal hydrides.": "",
+    "Hydrogen is +1. <b>Exception:</b> −1 in metal hydrides.": "수소는 +1이에요. <b>예외:</b> 금속 수소화물에서는 −1이에요.",
 
     // Oxidation states > table > td
     "HCl: +1; NaH: −1": "",

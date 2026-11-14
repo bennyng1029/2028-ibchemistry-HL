@@ -6,305 +6,305 @@ S1.i18n.register('ko', 's3-2h', {
   strings: {
 
     // page title (browser tab)
-    "3.2 Functional groups: Additional HL | Structure Lab": "",
+    "3.2 Functional groups: Additional HL | Structure Lab": "3.2 작용기: HL 추가 | Structure Lab",
 
     // Functional groups: Additional HL > page header > p
-    "Structure 3.2 <span class=\"badge badge--ahl\">Additional HL</span>": "",
+    "Structure 3.2 <span class=\"badge badge--ahl\">Additional HL</span>": "Structure 3.2 <span class=\"badge badge--ahl\">HL 추가</span>",
 
     // Functional groups: Additional HL > page header > h1
-    "Functional groups: Additional HL": "",
+    "Functional groups: Additional HL": "작용기: HL 추가",
 
     // Functional groups: Additional HL > page header > span
-    "How does the classification of organic molecules help us to predict their properties?": "",
+    "How does the classification of organic molecules help us to predict their properties?": "유기 분자를 분류하면 그 성질을 예측하는 데 어떻게 도움이 될까요?",
 
     // What you need to be able to do > data-toc attribute
-    "What you need to do": "",
+    "What you need to do": "알아야 할 것",
 
     // What you need to be able to do > h2
-    "What you need to be able to do": "",
+    "What you need to be able to do": "할 수 있어야 하는 것",
 
     // What you need to be able to do > p
-    "Everything on this page is Additional HL. Tick each one when you can do it without looking at your notes.": "",
+    "Everything on this page is Additional HL. Tick each one when you can do it without looking at your notes.": "이 페이지의 내용은 모두 AHL(HL 추가 내용)이에요. 노트를 보지 않고 할 수 있게 되면 하나씩 체크하세요.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "State what stereoisomers are: the same atoms joined in the same order, but arranged differently in space.": "",
+    "State what stereoisomers are: the same atoms joined in the same order, but arranged differently in space.": "입체 이성질체가 무엇인지 쓸 수 있다: 같은 원자가 같은 순서로 연결되어 있지만, 공간에서의 배열이 다른 것.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Explain what causes <i>cis</i>–<i>trans</i> isomerism, and recognize it in non-cyclic alkenes and in rings of three or four carbon atoms.": "",
+    "Explain what causes <i>cis</i>–<i>trans</i> isomerism, and recognize it in non-cyclic alkenes and in rings of three or four carbon atoms.": "<i>cis</i>–<i>trans</i> 이성질 현상이 왜 생기는지 설명하고, 고리가 없는 알켄과 탄소 원자 3개 또는 4개로 된 고리에서 이를 알아볼 수 있다.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Find a chiral carbon atom and explain why it gives two stereoisomers with different optical properties.": "",
+    "Find a chiral carbon atom and explain why it gives two stereoisomers with different optical properties.": "카이랄 탄소 원자를 찾고, 이 탄소 때문에 광학적 성질이 다른 입체 이성질체 2개가 생기는 이유를 설명할 수 있다.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Draw both enantiomers with wedge–dash bonds, showing the tetrahedral shape around the chiral carbon.": "",
+    "Draw both enantiomers with wedge–dash bonds, showing the tetrahedral shape around the chiral carbon.": "쐐기–점선 결합으로 두 거울상 이성질체를 모두 그리고, 카이랄 탄소 주위의 정사면체 모양을 나타낼 수 있다.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Recognize a pair of enantiomers as non-superimposable mirror images in 3-D models.": "",
+    "Recognize a pair of enantiomers as non-superimposable mirror images in 3-D models.": "3-D 모형에서 한 쌍의 거울상 이성질체를 서로 겹칠 수 없는 거울상으로 알아볼 수 있다.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Use the terms chiral, optical activity, enantiomer and racemic mixture correctly.": "",
+    "Use the terms chiral, optical activity, enantiomer and racemic mixture correctly.": "카이랄, 광학 활성, 거울상 이성질체, 라셈 혼합물이라는 용어를 바르게 쓸 수 있다.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Use the molecular ion and the fragmentation pattern of a mass spectrum to deduce features of a structure.": "",
+    "Use the molecular ion and the fragmentation pattern of a mass spectrum to deduce features of a structure.": "질량 스펙트럼의 분자 이온과 조각 무늬를 이용해 구조의 특징을 추론할 수 있다.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Use the data booklet to identify bonds from an infrared spectrum, and say why greenhouse gases absorb infrared radiation.": "",
+    "Use the data booklet to identify bonds from an infrared spectrum, and say why greenhouse gases absorb infrared radiation.": "데이터 부클릿을 이용해 적외선 스펙트럼에서 결합을 찾고, 온실 기체가 적외선을 흡수하는 이유를 말할 수 있다.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Interpret a <sup>1</sup>H NMR spectrum using the number of signals, the chemical shifts and the areas under the signals.": "",
+    "Interpret a <sup>1</sup>H NMR spectrum using the number of signals, the chemical shifts and the areas under the signals.": "신호의 수, 화학적 이동, 신호 아래 넓이를 이용해 <sup>1</sup>H NMR 스펙트럼을 해석할 수 있다.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Interpret singlets, doublets, triplets and quartets in a <sup>1</sup>H NMR spectrum.": "",
+    "Interpret singlets, doublets, triplets and quartets in a <sup>1</sup>H NMR spectrum.": "<sup>1</sup>H NMR 스펙트럼의 단일선, 이중선, 삼중선, 사중선을 해석할 수 있다.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Combine composition data, mass, infrared and <sup>1</sup>H NMR spectra to find the structure of a molecule.": "",
+    "Combine composition data, mass, infrared and <sup>1</sup>H NMR spectra to find the structure of a molecule.": "조성 자료, 질량 스펙트럼, 적외선 스펙트럼, <sup>1</sup>H NMR 스펙트럼을 종합해 분자의 구조를 찾을 수 있다.",
 
     // What you need from the core page > data-toc attribute
-    "What you need first": "",
+    "What you need first": "먼저 알아야 할 것",
 
     // What you need from the core page > h2
-    "What you need from the core page": "",
+    "What you need from the core page": "기본 페이지에서 가져올 내용",
 
     // What you need from the core page > p
-    "This page builds on <a href=\"s3-2.html\">3.2 Functional groups</a>. Check that you can do these things first.": "",
+    "This page builds on <a href=\"s3-2.html\">3.2 Functional groups</a>. Check that you can do these things first.": "이 페이지는 <a href=\"s3-2.html\">3.2 작용기</a>를 바탕으로 해요. 먼저 아래 내용을 할 수 있는지 확인하세요.",
 
     // What you need from the core page > li
-    "Read and draw full structural, condensed structural and skeletal formulas.": "",
+    "Read and draw full structural, condensed structural and skeletal formulas.": "전개 구조식, 축약 구조식, 골격 구조식을 읽고 그릴 수 있다.",
 
     // What you need from the core page > li
-    "Identify the functional groups (such as hydroxyl, carbonyl, carboxyl, ester and amino) and the classes of compound (such as alcohols, aldehydes, ketones, carboxylic acids, esters, ethers and amines).": "",
+    "Identify the functional groups (such as hydroxyl, carbonyl, carboxyl, ester and amino) and the classes of compound (such as alcohols, aldehydes, ketones, carboxylic acids, esters, ethers and amines).": "작용기(하이드록시기, 카보닐기, 카복실기, 에스터기, 아미노기 등)와 화합물의 종류(알코올, 알데하이드, 케톤, 카복실산, 에스터, 에테르, 아민 등)를 찾을 수 있다.",
 
     // What you need from the core page > li
-    "Name hydrocarbons, halogenoalkanes, alcohols, aldehydes, ketones and carboxylic acids with up to six carbon atoms in the chain.": "",
+    "Name hydrocarbons, halogenoalkanes, alcohols, aldehydes, ketones and carboxylic acids with up to six carbon atoms in the chain.": "사슬의 탄소 원자가 6개까지인 탄화수소, 할로젠화 알케인, 알코올, 알데하이드, 케톤, 카복실산의 이름을 붙일 수 있다.",
 
     // What you need from the core page > li
-    "Recognize structural isomers: the same molecular formula, but the atoms are joined in a different order.": "",
+    "Recognize structural isomers: the same molecular formula, but the atoms are joined in a different order.": "구조 이성질체를 알아볼 수 있다: 분자식은 같지만, 원자가 연결된 순서가 다른 것.",
 
     // What you need from the core page > p
-    "You also need three ideas from other pages.": "",
+    "You also need three ideas from other pages.": "다른 페이지의 개념 3가지도 필요해요.",
 
     // What you need from the core page > li
-    "A carbon atom with four single bonds is tetrahedral, with bond angles of 109.5° (Structure 2.2).": "",
+    "A carbon atom with four single bonds is tetrahedral, with bond angles of 109.5° (Structure 2.2).": "단일 결합 4개를 가진 탄소 원자는 정사면체형이고, 결합각은 109.5°예요(Structure 2.2).",
 
     // What you need from the core page > li
-    "You can find an empirical formula from percentage composition by mass (Structure 1.4).": "",
+    "You can find an empirical formula from percentage composition by mass (Structure 1.4).": "질량 백분율 조성으로 실험식을 구할 수 있어요(Structure 1.4).",
 
     // What you need from the core page > li
-    "A mass spectrum plots relative abundance against the mass-to-charge ratio, <span class=\"mono\">m/z</span> (Structure 1.2, Additional HL).": "",
+    "A mass spectrum plots relative abundance against the mass-to-charge ratio, <span class=\"mono\">m/z</span> (Structure 1.2, Additional HL).": "질량 스펙트럼은 질량 대 전하 비 <span class=\"mono\">m/z</span>에 대한 상대 존재 비율을 나타낸 그래프예요(Structure 1.2, HL 추가).",
 
     // Stereoisomers and cis–trans isomers > data-toc attribute
-    "Stereoisomers: cis–trans": "",
+    "Stereoisomers: cis–trans": "입체 이성질체: 시스–트랜스",
 
     // Stereoisomers and cis–trans isomers > h2
-    "Stereoisomers and <i>cis</i>–<i>trans</i> isomers": "",
+    "Stereoisomers and <i>cis</i>–<i>trans</i> isomers": "입체 이성질체와 <i>cis</i>–<i>trans</i> 이성질체",
 
     // Stereoisomers and cis–trans isomers > p
-    "Your left hand and your right hand have the same parts, joined in the same order. But they are not the same shape. Some molecules are like this too.": "",
+    "Your left hand and your right hand have the same parts, joined in the same order. But they are not the same shape. Some molecules are like this too.": "왼손과 오른손은 같은 부분이 같은 순서로 이어져 있어요. 하지만 모양은 같지 않아요. 어떤 분자도 이와 같아요.",
 
     // Stereoisomers and cis–trans isomers > p
-    "<dfn>Stereoisomers</dfn> have the same molecular formula and the same structural formula. Their atoms are joined in the same order, with the same single, double and triple bonds. Only the arrangement of the atoms in space is different.": "",
+    "<dfn>Stereoisomers</dfn> have the same molecular formula and the same structural formula. Their atoms are joined in the same order, with the same single, double and triple bonds. Only the arrangement of the atoms in space is different.": "<dfn>입체 이성질체 <span class=\"en-term\">(Stereoisomers)</span></dfn>는 분자식도 같고 구조식도 같아요. 원자들이 같은 순서로, 같은 단일 결합·이중 결합·삼중 결합으로 연결되어 있어요. 다른 것은 공간에서 원자들이 배열된 모습뿐이에요.",
 
     // Stereoisomers and cis–trans isomers > p
-    "Compare this with structural isomers on the core page. In structural isomers the atoms are joined in a different order.": "",
+    "Compare this with structural isomers on the core page. In structural isomers the atoms are joined in a different order.": "기본 페이지의 구조 이성질체와 비교해 보세요. 구조 이성질체에서는 원자가 연결된 순서가 달라요.",
 
     // Stereoisomers and cis–trans isomers > p
-    "You need two kinds of stereoisomer: <i>cis</i>–<i>trans</i> isomers and optical isomers.": "",
+    "You need two kinds of stereoisomer: <i>cis</i>–<i>trans</i> isomers and optical isomers.": "입체 이성질체는 2가지를 알아야 해요: <i>cis</i>–<i>trans</i> 이성질체와 광학 이성질체.",
 
     // Stereoisomers and cis–trans isomers > h3
-    "What <i>cis</i>–<i>trans</i> isomers are": "",
+    "What <i>cis</i>–<i>trans</i> isomers are": "<i>cis</i>–<i>trans</i> 이성질체란",
 
     // Stereoisomers and cis–trans isomers > p
-    "Look at but-2-ene, <span class=\"chem\">CH3CH=CHCH3</span>. Each carbon of the double bond holds one H atom and one <span class=\"chem\">CH3</span> group. There are two ways to arrange them.": "",
+    "Look at but-2-ene, <span class=\"chem\">CH3CH=CHCH3</span>. Each carbon of the double bond holds one H atom and one <span class=\"chem\">CH3</span> group. There are two ways to arrange them.": "but-2-ene, <span class=\"chem\">CH3CH=CHCH3</span>을 보세요. 이중 결합의 각 탄소에는 H 원자 1개와 <span class=\"chem\">CH3</span>기 1개가 붙어 있어요. 이들을 배열하는 방법은 2가지예요.",
 
     // Stereoisomers and cis–trans isomers > p
-    "In the <dfn><i>cis</i> isomer</dfn> the two matching groups are on the same side of the double bond. In the <dfn><i>trans</i> isomer</dfn> they are on opposite sides.": "",
+    "In the <dfn><i>cis</i> isomer</dfn> the two matching groups are on the same side of the double bond. In the <dfn><i>trans</i> isomer</dfn> they are on opposite sides.": "<dfn>시스 이성질체 <span class=\"en-term\">(<i>cis</i> isomer)</span></dfn>에서는 짝이 되는 두 기가 이중 결합의 같은 쪽에 있어요. <dfn>트랜스 이성질체 <span class=\"en-term\">(<i>trans</i> isomer)</span></dfn>에서는 서로 반대쪽에 있어요.",
 
     // Stereoisomers and cis–trans isomers > p
-    "These are two different compounds. One cannot turn into the other, because atoms cannot rotate around a double bond. To rotate, the π bond would have to break.": "",
+    "These are two different compounds. One cannot turn into the other, because atoms cannot rotate around a double bond. To rotate, the π bond would have to break.": "이 둘은 서로 다른 화합물이에요. 이중 결합을 축으로 원자가 회전할 수 없기 때문에, 하나가 다른 하나로 바뀔 수 없어요. 회전하려면 π 결합이 끊어져야 해요.",
 
     // Stereoisomers and cis–trans isomers > key idea > p
-    "<i>Cis</i>–<i>trans</i> isomerism needs two things. First, rotation must be restricted: by a C=C double bond or by a ring. Second, each of the two carbon atoms must have two different groups attached.": "",
+    "<i>Cis</i>–<i>trans</i> isomerism needs two things. First, rotation must be restricted: by a C=C double bond or by a ring. Second, each of the two carbon atoms must have two different groups attached.": "<i>Cis</i>–<i>trans</i> 이성질 현상에는 2가지 조건이 필요해요. 첫째, 회전이 제한되어야 해요: C=C 이중 결합이나 고리 때문에요. 둘째, 두 탄소 원자에 각각 서로 다른 기 2개가 붙어 있어야 해요.",
 
     // Stereoisomers and cis–trans isomers > h3
-    "The two-step test for an alkene": "",
+    "The two-step test for an alkene": "알켄을 판단하는 2단계 검사",
 
     // Stereoisomers and cis–trans isomers > li
-    "Find the C=C double bond. Look at the two groups on the left carbon. Are they different from each other?": "",
+    "Find the C=C double bond. Look at the two groups on the left carbon. Are they different from each other?": "C=C 이중 결합을 찾아요. 왼쪽 탄소에 붙은 두 기를 보세요. 두 기가 서로 다른가요?",
 
     // Stereoisomers and cis–trans isomers > li
-    "Look at the two groups on the right carbon. Are they different from each other?": "",
+    "Look at the two groups on the right carbon. Are they different from each other?": "오른쪽 탄소에 붙은 두 기를 보세요. 두 기가 서로 다른가요?",
 
     // Stereoisomers and cis–trans isomers > p
-    "If both answers are yes, the alkene has <i>cis</i>–<i>trans</i> isomers. If one carbon has two identical groups, it does not. The groups on the left carbon do not have to match the groups on the right carbon.": "",
+    "If both answers are yes, the alkene has <i>cis</i>–<i>trans</i> isomers. If one carbon has two identical groups, it does not. The groups on the left carbon do not have to match the groups on the right carbon.": "두 답이 모두 '예'이면 그 알켄은 <i>cis</i>–<i>trans</i> 이성질체가 있어요. 한 탄소에 같은 기가 2개 붙어 있으면 없어요. 왼쪽 탄소의 기가 오른쪽 탄소의 기와 같을 필요는 없어요.",
 
     // Stereoisomers and cis–trans isomers > h3
-    "Rings of three and four carbon atoms": "",
+    "Rings of three and four carbon atoms": "탄소 원자 3개와 4개로 된 고리",
 
     // Stereoisomers and cis–trans isomers > p
-    "A ring also stops rotation. Each ring carbon has one bond pointing above the ring and one pointing below it. If two different ring carbons each have two different groups, there are two isomers.": "",
+    "A ring also stops rotation. Each ring carbon has one bond pointing above the ring and one pointing below it. If two different ring carbons each have two different groups, there are two isomers.": "고리도 회전을 막아요. 고리의 각 탄소에는 고리 위쪽을 향하는 결합 1개와 아래쪽을 향하는 결합 1개가 있어요. 서로 다른 고리 탄소 2개에 각각 서로 다른 기 2개가 붙어 있으면 이성질체가 2개 있어요.",
 
     // Stereoisomers and cis–trans isomers > p
-    "In these drawings, a solid wedge is a bond coming towards you. A hashed wedge is a bond going away from you.": "",
+    "In these drawings, a solid wedge is a bond coming towards you. A hashed wedge is a bond going away from you.": "이 그림에서 채운 쐐기는 나를 향해 나오는 결합이에요. 빗금 쐐기는 나에게서 멀어지는 결합이에요.",
 
     // Stereoisomers and cis–trans isomers > widget > data-title attribute
-    "Cis–trans explorer": "",
+    "Cis–trans explorer": "시스–트랜스 탐색기",
 
     // Stereoisomers and cis–trans isomers > widget > data-kicker attribute
     // Chiral carbon atoms and enantiomers > widget > data-kicker attribute
-    "Model": "",
+    "Model": "모형",
 
     // Stereoisomers and cis–trans isomers > widget > figcaption
-    "Choose a pair. Drag a model to turn it. Notice that the same atoms are bonded to each other in both isomers. Only the positions in space differ.": "",
+    "Choose a pair. Drag a model to turn it. Notice that the same atoms are bonded to each other in both isomers. Only the positions in space differ.": "한 쌍을 고르세요. 모형을 끌어서 돌려 보세요. 두 이성질체 모두에서 같은 원자끼리 결합해 있다는 점에 주목하세요. 다른 것은 공간에서의 위치뿐이에요.",
 
     // Stereoisomers and cis–trans isomers > common mistake > p
-    "Students often say that but-1-ene has <i>cis</i>–<i>trans</i> isomers because it has a double bond. It does not. One carbon of its double bond has two H atoms. A double bond alone is not enough.": "",
+    "Students often say that but-1-ene has <i>cis</i>–<i>trans</i> isomers because it has a double bond. It does not. One carbon of its double bond has two H atoms. A double bond alone is not enough.": "학생들은 but-1-ene이 이중 결합을 가지고 있으니 <i>cis</i>–<i>trans</i> 이성질체가 있다고 자주 말해요. 그렇지 않아요. 이중 결합의 한 탄소에 H 원자가 2개 붙어 있어요. 이중 결합만으로는 충분하지 않아요.",
 
     // Stereoisomers and cis–trans isomers > widget > data-title attribute
-    "Can it show cis–trans isomerism?": "",
+    "Can it show cis–trans isomerism?": "시스–트랜스 이성질 현상을 보일까요?",
 
     // Stereoisomers and cis–trans isomers > widget > figcaption
-    "Decide for each molecule, then read the reason. For every “yes”, both isomers are drawn.": "",
+    "Decide for each molecule, then read the reason. For every “yes”, both isomers are drawn.": "각 분자에 대해 판단한 다음, 이유를 읽어 보세요. '예'인 경우에는 두 이성질체를 모두 그려 두었어요.",
 
     // Stereoisomers and cis–trans isomers > worked example > h3
-    "Does pent-2-ene have <i>cis</i>–<i>trans</i> isomers?": "",
+    "Does pent-2-ene have <i>cis</i>–<i>trans</i> isomers?": "pent-2-ene은 <i>cis</i>–<i>trans</i> 이성질체가 있을까요?",
 
     // Stereoisomers and cis–trans isomers > worked example > p
-    "Deduce whether pent-2-ene and 2-methylbut-2-ene show <i>cis</i>–<i>trans</i> isomerism. Draw the isomers where they exist.": "",
+    "Deduce whether pent-2-ene and 2-methylbut-2-ene show <i>cis</i>–<i>trans</i> isomerism. Draw the isomers where they exist.": "pent-2-ene과 2-methylbut-2-ene이 <i>cis</i>–<i>trans</i> 이성질 현상을 보이는지 추론하시오 (deduce). 이성질체가 있으면 그리시오.",
 
     // Stereoisomers and cis–trans isomers > worked example > data-title attribute
-    "Draw the structure around the double bond": "",
+    "Draw the structure around the double bond": "이중 결합 주위의 구조 그리기",
 
     // Stereoisomers and cis–trans isomers > worked example > p
-    "You can only compare groups when you can see what is attached to each carbon of the C=C.": "",
+    "You can only compare groups when you can see what is attached to each carbon of the C=C.": "C=C의 각 탄소에 무엇이 붙어 있는지 보여야 기를 비교할 수 있어요.",
 
     // Stereoisomers and cis–trans isomers > worked example > p
-    "In pent-2-ene the double bond is between carbon 2 and carbon 3.": "",
+    "In pent-2-ene the double bond is between carbon 2 and carbon 3.": "pent-2-ene에서 이중 결합은 탄소 2와 탄소 3 사이에 있어요.",
 
     // Stereoisomers and cis–trans isomers > worked example > data-title attribute
-    "Test the first carbon of the C=C": "",
+    "Test the first carbon of the C=C": "C=C의 첫 번째 탄소 검사하기",
 
     // Stereoisomers and cis–trans isomers > worked example > p
-    "Each carbon must have two different groups.": "",
+    "Each carbon must have two different groups.": "각 탄소에 서로 다른 기가 2개 있어야 해요.",
 
     // Stereoisomers and cis–trans isomers > worked example > p
-    "Carbon 2 has an H atom and a <span class=\"chem\">CH3</span> group. These are different.": "",
+    "Carbon 2 has an H atom and a <span class=\"chem\">CH3</span> group. These are different.": "탄소 2에는 H 원자 1개와 <span class=\"chem\">CH3</span>기 1개가 있어요. 둘은 서로 달라요.",
 
     // Stereoisomers and cis–trans isomers > worked example > data-title attribute
-    "Test the second carbon of the C=C": "",
+    "Test the second carbon of the C=C": "C=C의 두 번째 탄소 검사하기",
 
     // Stereoisomers and cis–trans isomers > worked example > p
-    "One carbon with two identical groups would rule it out.": "",
+    "One carbon with two identical groups would rule it out.": "한 탄소에라도 같은 기가 2개 있으면 이성질체가 없어요.",
 
     // Stereoisomers and cis–trans isomers > worked example > p
-    "Carbon 3 has an H atom and a <span class=\"chem\">CH2CH3</span> group. These are different. So pent-2-ene has <i>cis</i>–<i>trans</i> isomers.": "",
+    "Carbon 3 has an H atom and a <span class=\"chem\">CH2CH3</span> group. These are different. So pent-2-ene has <i>cis</i>–<i>trans</i> isomers.": "탄소 3에는 H 원자 1개와 <span class=\"chem\">CH2CH3</span>기 1개가 있어요. 둘은 서로 달라요. 따라서 pent-2-ene은 <i>cis</i>–<i>trans</i> 이성질체가 있어요.",
 
     // Stereoisomers and cis–trans isomers > worked example > data-title attribute
-    "Draw both isomers": "",
+    "Draw both isomers": "두 이성질체 그리기",
 
     // Stereoisomers and cis–trans isomers > worked example > p
-    "Keep the left carbon the same. Swap the two groups on the right carbon.": "",
+    "Keep the left carbon the same. Swap the two groups on the right carbon.": "왼쪽 탄소는 그대로 두고, 오른쪽 탄소의 두 기를 서로 바꿔요.",
 
     // Stereoisomers and cis–trans isomers > worked example > data-title attribute
-    "Test 2-methylbut-2-ene": "",
+    "Test 2-methylbut-2-ene": "2-methylbut-2-ene 검사하기",
 
     // Stereoisomers and cis–trans isomers > worked example > p
-    "Use the same two-step test.": "",
+    "Use the same two-step test.": "같은 2단계 검사를 해요.",
 
     // Stereoisomers and cis–trans isomers > worked example > p
-    "The left carbon of the C=C has two <span class=\"chem\">CH3</span> groups. Swapping them changes nothing. <b>2-methylbut-2-ene has no <i>cis</i>–<i>trans</i> isomers.</b>": "",
+    "The left carbon of the C=C has two <span class=\"chem\">CH3</span> groups. Swapping them changes nothing. <b>2-methylbut-2-ene has no <i>cis</i>–<i>trans</i> isomers.</b>": "C=C의 왼쪽 탄소에는 <span class=\"chem\">CH3</span>기가 2개 있어요. 둘을 바꿔도 달라지는 것이 없어요. <b>2-methylbut-2-ene은 <i>cis</i>–<i>trans</i> 이성질체가 없어요.</b>",
 
     // Stereoisomers and cis–trans isomers > worked example > p
-    "Pent-2-ene has a <i>cis</i> and a <i>trans</i> isomer. 2-methylbut-2-ene does not.": "",
+    "Pent-2-ene has a <i>cis</i> and a <i>trans</i> isomer. 2-methylbut-2-ene does not.": "pent-2-ene은 <i>cis</i> 이성질체와 <i>trans</i> 이성질체가 있어요. 2-methylbut-2-ene은 없어요.",
 
     // Stereoisomers and cis–trans isomers > try it > data-label attribute
-    "Number of alkenes": "",
+    "Number of alkenes": "알켄의 수",
 
     // Stereoisomers and cis–trans isomers > try it > p
-    "How many of these four alkenes show <i>cis</i>–<i>trans</i> isomerism: but-1-ene, but-2-ene, 2-methylpropene, pent-2-ene?": "",
+    "How many of these four alkenes show <i>cis</i>–<i>trans</i> isomerism: but-1-ene, but-2-ene, 2-methylpropene, pent-2-ene?": "다음 알켄 4가지 중 <i>cis</i>–<i>trans</i> 이성질 현상을 보이는 것은 몇 개일까요: but-1-ene, but-2-ene, 2-methylpropene, pent-2-ene?",
 
     // Stereoisomers and cis–trans isomers > try it > li
-    "Write the two groups on each carbon of the C=C for every alkene.": "",
+    "Write the two groups on each carbon of the C=C for every alkene.": "각 알켄에 대해 C=C의 각 탄소에 붙은 두 기를 써 보세요.",
 
     // Stereoisomers and cis–trans isomers > try it > li
-    "But-1-ene is <span class=\"chem\">CH2=CHCH2CH3</span> and 2-methylpropene is <span class=\"chem\">CH2=C(CH3)2</span>. Each has a carbon with two identical groups.": "",
+    "But-1-ene is <span class=\"chem\">CH2=CHCH2CH3</span> and 2-methylpropene is <span class=\"chem\">CH2=C(CH3)2</span>. Each has a carbon with two identical groups.": "but-1-ene은 <span class=\"chem\">CH2=CHCH2CH3</span>이고 2-methylpropene은 <span class=\"chem\">CH2=C(CH3)2</span>예요. 둘 다 같은 기가 2개 붙은 탄소가 있어요.",
 
     // Stereoisomers and cis–trans isomers > try it > p
-    "Only but-2-ene and pent-2-ene have two different groups on each carbon of the C=C. The answer is 2.": "",
+    "Only but-2-ene and pent-2-ene have two different groups on each carbon of the C=C. The answer is 2.": "C=C의 각 탄소에 서로 다른 기가 2개씩 있는 것은 but-2-ene과 pent-2-ene뿐이에요. 답은 2예요.",
 
     // Stereoisomers and cis–trans isomers > exam tip (shown in English + translation) > p
-    "To explain <i>cis</i>–<i>trans</i> isomerism, give both points: restricted rotation around the C=C (or in the ring), and two different groups on each of the two carbon atoms. In a drawing, show clearly which groups are on the same side.": "",
+    "To explain <i>cis</i>–<i>trans</i> isomerism, give both points: restricted rotation around the C=C (or in the ring), and two different groups on each of the two carbon atoms. In a drawing, show clearly which groups are on the same side.": "<i>cis</i>–<i>trans</i> 이성질 현상을 설명할 때는 두 가지를 모두 쓰세요: C=C 주위(또는 고리 안)의 회전이 제한된다는 것, 그리고 두 탄소 원자에 각각 서로 다른 기가 2개 있다는 것. 그림에서는 어떤 기들이 같은 쪽에 있는지 분명하게 보이세요.",
 
     // Stereoisomers and cis–trans isomers > not needed for IB > p
-    "The E–Z naming system is not assessed. You also do not need <i>cis</i>–<i>trans</i> isomers of rings with more than four carbon atoms, or of rings that contain a double bond.": "",
+    "The E–Z naming system is not assessed. You also do not need <i>cis</i>–<i>trans</i> isomers of rings with more than four carbon atoms, or of rings that contain a double bond.": "E–Z 명명법은 평가하지 않아요. 탄소 원자가 4개보다 많은 고리나, 이중 결합을 포함한 고리의 <i>cis</i>–<i>trans</i> 이성질체도 알 필요가 없어요.",
 
     // Stereoisomers and cis–trans isomers > data-title attribute
-    "Stereoisomers: quick check": "",
+    "Stereoisomers: quick check": "입체 이성질체: 빠른 확인",
 
     // Chiral carbon atoms and enantiomers > data-toc attribute
-    "Chirality and enantiomers": "",
+    "Chirality and enantiomers": "카이랄성과 거울상 이성질체",
 
     // Chiral carbon atoms and enantiomers > h2
-    "Chiral carbon atoms and enantiomers": "",
+    "Chiral carbon atoms and enantiomers": "카이랄 탄소 원자와 거울상 이성질체",
 
     // Chiral carbon atoms and enantiomers > p
-    "Hold your hands up, palms facing you. One hand is the mirror image of the other. Now try to place one hand exactly on top of the other, both palms down. The thumbs point in opposite directions. Your hands are mirror images that cannot be superimposed.": "",
+    "Hold your hands up, palms facing you. One hand is the mirror image of the other. Now try to place one hand exactly on top of the other, both palms down. The thumbs point in opposite directions. Your hands are mirror images that cannot be superimposed.": "두 손바닥이 나를 향하게 손을 들어 보세요. 한 손은 다른 손의 거울상이에요. 이제 두 손바닥을 모두 아래로 향하게 하고 한 손을 다른 손 위에 정확히 포개 보세요. 엄지가 서로 반대쪽을 가리켜요. 두 손은 서로 겹칠 수 없는 거울상이에요.",
 
     // Chiral carbon atoms and enantiomers > p
-    "A molecule can be like this when it has a chiral carbon atom.": "",
+    "A molecule can be like this when it has a chiral carbon atom.": "분자에 카이랄 탄소 원자가 있으면 이와 같을 수 있어요.",
 
     // Chiral carbon atoms and enantiomers > p
-    "A <dfn>chiral carbon</dfn> is a carbon atom bonded to four different atoms or groups. It is often marked with an asterisk (*).": "",
+    "A <dfn>chiral carbon</dfn> is a carbon atom bonded to four different atoms or groups. It is often marked with an asterisk (*).": "<dfn>카이랄 탄소 <span class=\"en-term\">(chiral carbon)</span></dfn>는 서로 다른 원자나 기 4개와 결합한 탄소 원자예요. 흔히 별표(*)로 표시해요.",
 
     // Chiral carbon atoms and enantiomers > p
-    "A molecule with one chiral carbon exists in two forms. Each form is the mirror image of the other, and the two cannot be superimposed. These two stereoisomers are called <dfn>enantiomers</dfn>. They are also called optical isomers.": "",
+    "A molecule with one chiral carbon exists in two forms. Each form is the mirror image of the other, and the two cannot be superimposed. These two stereoisomers are called <dfn>enantiomers</dfn>. They are also called optical isomers.": "카이랄 탄소가 1개 있는 분자는 2가지 형태로 존재해요. 각 형태는 다른 형태의 거울상이고, 둘은 서로 겹칠 수 없어요. 이 두 입체 이성질체를 <dfn>거울상 이성질체 <span class=\"en-term\">(enantiomers)</span></dfn>라고 해요. 광학 이성질체(optical isomers)라고도 해요.",
 
     // Chiral carbon atoms and enantiomers > widget > data-title attribute
-    "Chirality lab: can you superimpose the mirror image?": "",
+    "Chirality lab: can you superimpose the mirror image?": "카이랄성 실험실: 거울상을 겹칠 수 있을까요?",
 
     // Chiral carbon atoms and enantiomers > widget > figcaption
-    "Molecule B is the mirror image of molecule A. Rotate B and watch how many groups are in the same place as in A. Then try a molecule with two identical groups.": "",
+    "Molecule B is the mirror image of molecule A. Rotate B and watch how many groups are in the same place as in A. Then try a molecule with two identical groups.": "분자 B는 분자 A의 거울상이에요. B를 돌리면서 A와 같은 자리에 있는 기가 몇 개인지 보세요. 그다음 같은 기가 2개 있는 분자로도 해 보세요.",
 
     // Chiral carbon atoms and enantiomers > h3
-    "How to find a chiral carbon": "",
+    "How to find a chiral carbon": "카이랄 탄소를 찾는 방법",
 
     // Chiral carbon atoms and enantiomers > li
-    "Ignore every carbon with a double or triple bond. It has fewer than four groups.": "",
+    "Ignore every carbon with a double or triple bond. It has fewer than four groups.": "이중 결합이나 삼중 결합을 가진 탄소는 모두 제외해요. 이런 탄소에는 기가 4개보다 적게 붙어 있어요.",
 
     // Chiral carbon atoms and enantiomers > li
-    "Ignore every <span class=\"chem\">CH3</span> and <span class=\"chem\">CH2</span> carbon. It has two or three identical H atoms.": "",
+    "Ignore every <span class=\"chem\">CH3</span> and <span class=\"chem\">CH2</span> carbon. It has two or three identical H atoms.": "<span class=\"chem\">CH3</span> 탄소와 <span class=\"chem\">CH2</span> 탄소는 모두 제외해요. 같은 H 원자가 2개 또는 3개 붙어 있어요.",
 
     // Chiral carbon atoms and enantiomers > li
-    "For each carbon that is left, write its four groups. Compare whole groups, not only the first atom. <span class=\"chem\">CH3</span> and <span class=\"chem\">CH2CH3</span> are different groups.": "",
+    "For each carbon that is left, write its four groups. Compare whole groups, not only the first atom. <span class=\"chem\">CH3</span> and <span class=\"chem\">CH2CH3</span> are different groups.": "남은 각 탄소에 대해 붙어 있는 4개의 기를 써요. 첫 번째 원자만 보지 말고 기 전체를 비교하세요. <span class=\"chem\">CH3</span>와 <span class=\"chem\">CH2CH3</span>는 서로 다른 기예요.",
 
     // Chiral carbon atoms and enantiomers > p
-    "In a skeletal formula, remember the H atoms that are not drawn.": "",
+    "In a skeletal formula, remember the H atoms that are not drawn.": "골격 구조식에서는 그려지지 않은 H 원자를 잊지 마세요.",
 
     // Chiral carbon atoms and enantiomers > widget > data-title attribute
-    "Chiral carbon spotter": "",
+    "Chiral carbon spotter": "카이랄 탄소 찾기",
 
     // Chiral carbon atoms and enantiomers > widget > figcaption
-    "Click a carbon atom to test it. Each click tells you why that carbon is or is not chiral. Some molecules have no chiral carbon, and one has two.": "",
+    "Click a carbon atom to test it. Each click tells you why that carbon is or is not chiral. Some molecules have no chiral carbon, and one has two.": "탄소 원자를 클릭해 검사해 보세요. 클릭할 때마다 그 탄소가 카이랄인지 아닌지와 그 이유를 알려 줘요. 카이랄 탄소가 없는 분자도 있고, 2개 있는 분자도 1개 있어요.",
 
     // Chiral carbon atoms and enantiomers > h3
-    "Drawing a pair of enantiomers": "",
+    "Drawing a pair of enantiomers": "거울상 이성질체 한 쌍 그리기",
 
     // Chiral carbon atoms and enantiomers > p
-    "A flat drawing cannot show a tetrahedral carbon. You need <dfn>wedge–dash notation</dfn>.": "",
+    "A flat drawing cannot show a tetrahedral carbon. You need <dfn>wedge–dash notation</dfn>.": "평면 그림으로는 정사면체형 탄소를 나타낼 수 없어요. <dfn>쐐기–점선 표기법 <span class=\"en-term\">(wedge–dash notation)</span></dfn>이 필요해요.",
 
     // Chiral carbon atoms and enantiomers > li
-    "A plain line is a bond in the plane of the paper.": "",
+    "A plain line is a bond in the plane of the paper.": "보통 선은 종이 평면에 있는 결합이에요.",
 
     // Chiral carbon atoms and enantiomers > li
-    "A solid wedge is a bond coming out of the paper, towards you.": "",
+    "A solid wedge is a bond coming out of the paper, towards you.": "채운 쐐기는 종이에서 나를 향해 튀어나오는 결합이에요.",
 
     // Chiral carbon atoms and enantiomers > li
-    "A hashed wedge is a bond going into the paper, away from you.": "",
+    "A hashed wedge is a bond going into the paper, away from you.": "빗금 쐐기는 종이 안쪽으로, 나에게서 멀어지는 결합이에요.",
 
     // Chiral carbon atoms and enantiomers > p
-    "Draw two plain bonds, one solid wedge and one hashed wedge around the chiral carbon. Then draw a mirror line and reflect the whole drawing.": "",
+    "Draw two plain bonds, one solid wedge and one hashed wedge around the chiral carbon. Then draw a mirror line and reflect the whole drawing.": "카이랄 탄소 주위에 보통 결합 2개, 채운 쐐기 1개, 빗금 쐐기 1개를 그려요. 그다음 거울선을 긋고 그림 전체를 대칭으로 옮겨 그려요.",
 
     // Chiral carbon atoms and enantiomers > p
-    "These are the two enantiomers of butan-2-ol. The dashed line is the mirror.": "",
+    "These are the two enantiomers of butan-2-ol. The dashed line is the mirror.": "이것은 butan-2-ol의 두 거울상 이성질체예요. 점선이 거울이에요.",
 
     // Chiral carbon atoms and enantiomers > widget > data-title attribute
     "Wedge–dash drawing guide": "",

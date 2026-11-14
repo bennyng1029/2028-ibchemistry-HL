@@ -177,7 +177,7 @@ S1.i18n.register('ko', 's1-5', {
     "The volume occupied by one mole of an ideal gas. It is a constant at a specific temperature and pressure.": "이상 기체 1몰이 차지하는 부피예요. 특정한 온도와 압력에서 일정한 값이에요.",
 
     // Molar volume of an ideal gas > p
-    "<dfn data-def=\"Standard temperature and pressure: 273.15 K (0 °C) and 100 kPa.\">STP</dfn> stands for standard temperature and pressure: <span class=\"mono\">273.15 K</span> (0 °C) and <span class=\"mono\">100 kPa</span>. At STP the molar volume of an ideal gas is <span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span>.": "<dfn data-def=\"표준 온도와 압력: 273.15 K (0 °C), 100 kPa예요.\">STP <span class=\"en-term\">(standard temperature and pressure)</span></dfn>는 표준 온도와 압력이라는 뜻으로, <span class=\"mono\">273.15 K</span>(0 °C), <span class=\"mono\">100 kPa</span>이에요. STP에서 이상 기체의 몰 부피는 <span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span>이에요.",
+    "<dfn data-def=\"Standard temperature and pressure: 273.15 K (0 °C) and 100 kPa.\">STP</dfn> stands for standard temperature and pressure: <span class=\"mono\">273.15 K</span> (0 °C) and <span class=\"mono\">100 kPa</span>. At STP the molar volume of an ideal gas is <span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span>.": "<dfn data-def=\"표준 온도와 압력: 273.15 K (0 °C), 100 kPa예요.\">표준 온도와 압력 <span class=\"en-term\">(STP)</span></dfn>은 standard temperature and pressure의 약자로, <span class=\"mono\">273.15 K</span>(0 °C), <span class=\"mono\">100 kPa</span>이에요. STP에서 이상 기체의 몰 부피는 <span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span>이에요.",
 
     // Molar volume of an ideal gas > data-def attribute
     "Standard temperature and pressure: 273.15 K (0 °C) and 100 kPa.": "표준 온도와 압력: 273.15 K (0 °C), 100 kPa예요.",

@@ -9,284 +9,284 @@ S1.i18n.register('ko', 's3-2.q', {
     // ── s3-2-q001 · mcq · foundation · SL · Structure 3.2.1 · 1 mark
     "s3-2-q001": {
       // EN: <p>Propan-2-ol can be represented in four ways. Which one is the <strong>condensed structural formula</strong>?</p>
-      stem: "",
+      stem: "<p>Propan-2-ol은 4가지 방법으로 나타낼 수 있어요. 이 중 <strong>축약 구조식 (condensed structural formula)</strong>은 어느 것인가요?</p>",
       options: [
         // EN: <span class="chem">C<sub>3</sub>H<sub>8</sub>O</span>
-        "",
+        "<span class=\"chem\">C<sub>3</sub>H<sub>8</sub>O</span>",
         // EN: <span class="chem">CH<sub>3</sub>CH(OH)CH<sub>3</sub></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH(OH)CH<sub>3</sub></span>",
         // EN: <svg class="mol mol--skeletal" viewBox="-4 -49 54 53" width="54" height="53" role="img" aria-label="Skeletal formula. Line notation: CC(O)C" data-g="S:C.C.O1.C;0-1,1-2,1-3" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L22.5 -31.5"/><path d="M22.5 -13L45 0"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="22.5" y="-34.4" text-anchor="middle">O</text><text x="27.7" y="-34.4" text-anchor="start">H</text></g></svg>
-        "",
+        "<svg class=\"mol mol--skeletal\" viewBox=\"-4 -49 54 53\" width=\"54\" height=\"53\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC(O)C\" data-g=\"S:C.C.O1.C;0-1,1-2,1-3\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L22.5 -31.5\"/><path d=\"M22.5 -13L45 0\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"22.5\" y=\"-34.4\" text-anchor=\"middle\">O</text><text x=\"27.7\" y=\"-34.4\" text-anchor=\"start\">H</text></g></svg>",
         // EN: <svg class="mol mol--structural" viewBox="-45 -78 158 122" width="158" height="122" role="img" aria-label="Full structural formula. Line notation: CC(O)C" data-g="F:C.C.C.H.H.H.O.H.H.H.H.H;0-1,1-2,0-3,0-4,0-5,1-6,6-7,1-8,2-9,2-10,2-11" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M7.5 0L26.5 0"/><path d="M41.5 0L60.5 0"/><path d="M-7.5 0L-26.5 0"/><path d="M0 -7.5L0 -26.5"/><path d="M0 7.5L0 26.5"/><path d="M34 -7.5L34 -26.5"/><path d="M34 -41.5L34 -60.5"/><path d="M34 7.5L34 26.5"/><path d="M75.5 0L94.5 0"/><path d="M68 -7.5L68 -26.5"/><path d="M68 7.5L68 26.5"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="0" y="4.6" text-anchor="middle">C</text><text x="34" y="4.6" text-anchor="middle">C</text><text x="68" y="4.6" text-anchor="middle">C</text><text x="-34" y="4.6" text-anchor="middle">H</text><text x="0" y="-29.4" text-anchor="middle">H</text><text x="0" y="38.6" text-anchor="middle">H</text><text x="34" y="-29.4" text-anchor="middle">O</text><text x="34" y="-63.4" text-anchor="middle">H</text><text x="34" y="38.6" text-anchor="middle">H</text><text x="102" y="4.6" text-anchor="middle">H</text><text x="68" y="-29.4" text-anchor="middle">H</text><text x="68" y="38.6" text-anchor="middle">H</text></g></svg>
-        "",
+        "<svg class=\"mol mol--structural\" viewBox=\"-45 -78 158 122\" width=\"158\" height=\"122\" role=\"img\" aria-label=\"Full structural formula. Line notation: CC(O)C\" data-g=\"F:C.C.C.H.H.H.O.H.H.H.H.H;0-1,1-2,0-3,0-4,0-5,1-6,6-7,1-8,2-9,2-10,2-11\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M7.5 0L26.5 0\"/><path d=\"M41.5 0L60.5 0\"/><path d=\"M-7.5 0L-26.5 0\"/><path d=\"M0 -7.5L0 -26.5\"/><path d=\"M0 7.5L0 26.5\"/><path d=\"M34 -7.5L34 -26.5\"/><path d=\"M34 -41.5L34 -60.5\"/><path d=\"M34 7.5L34 26.5\"/><path d=\"M75.5 0L94.5 0\"/><path d=\"M68 -7.5L68 -26.5\"/><path d=\"M68 7.5L68 26.5\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"0\" y=\"4.6\" text-anchor=\"middle\">C</text><text x=\"34\" y=\"4.6\" text-anchor=\"middle\">C</text><text x=\"68\" y=\"4.6\" text-anchor=\"middle\">C</text><text x=\"-34\" y=\"4.6\" text-anchor=\"middle\">H</text><text x=\"0\" y=\"-29.4\" text-anchor=\"middle\">H</text><text x=\"0\" y=\"38.6\" text-anchor=\"middle\">H</text><text x=\"34\" y=\"-29.4\" text-anchor=\"middle\">O</text><text x=\"34\" y=\"-63.4\" text-anchor=\"middle\">H</text><text x=\"34\" y=\"38.6\" text-anchor=\"middle\">H</text><text x=\"102\" y=\"4.6\" text-anchor=\"middle\">H</text><text x=\"68\" y=\"-29.4\" text-anchor=\"middle\">H</text><text x=\"68\" y=\"38.6\" text-anchor=\"middle\">H</text></g></svg>",
       ],
       hints: [
         // EN: A condensed structural formula is written on one line. It lists each carbon atom followed by the atoms joined to it.
-        "",
+        "축약 구조식은 한 줄로 써요. 탄소 원자를 하나씩 쓰고, 그 바로 뒤에 그 탄소에 결합한 원자들을 써요.",
       ],
       // EN: <p><span class="chem">CH<sub>3</sub>CH(OH)CH<sub>3</sub></span> is the condensed structural formula. Read it carbon by carbon: a <span class="chem">CH<sub>3</sub></span> group, then a CH carbon that carries an OH group (the brackets show a branch), then another <span class="chem">CH<sub>3</sub></span> group.</p><p><span class="chem">C<sub>3</sub>H<sub>8</sub>O</span> is the molecular formula. The zig-zag drawing is the skeletal formula. The drawing with every atom and bond is the full structural formula.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">CH<sub>3</sub>CH(OH)CH<sub>3</sub></span>가 축약 구조식이에요. 탄소를 하나씩 읽어 봐요. 먼저 <span class=\"chem\">CH<sub>3</sub></span> 기, 다음은 OH 기가 붙은 CH 탄소(괄호는 가지를 나타내요), 마지막으로 또 하나의 <span class=\"chem\">CH<sub>3</sub></span> 기예요.</p><p><span class=\"chem\">C<sub>3</sub>H<sub>8</sub>O</span>는 분자식이에요. 지그재그 선 그림은 골격 구조식이에요. 모든 원자와 결합을 그린 그림은 전개 구조식이에요.</p>",
       misconception: {
         // EN (option A): This is the molecular formula. It counts the atoms of each element in one molecule, but it does not show how they are joined.
-        "0": "",
+        "0": "이것은 분자식이에요. 분자 1개에 들어 있는 각 원소의 원자 수는 알 수 있지만, 원자들이 어떻게 연결되어 있는지는 보여 주지 않아요.",
         // EN (option C): This is the skeletal formula. Each line is a bond, each end or corner is a carbon atom, and hydrogen atoms on carbon are not drawn.
-        "2": "",
+        "2": "이것은 골격 구조식이에요. 선 하나는 결합 하나이고, 선의 끝과 꺾인 곳은 각각 탄소 원자예요. 탄소에 붙은 수소 원자는 그리지 않아요.",
         // EN (option D): This is the full structural formula. It shows every atom and every bond. A condensed formula writes each carbon with its atoms as a group, without drawing bonds.
-        "3": "",
+        "3": "이것은 전개 구조식이에요. 모든 원자와 모든 결합을 보여 줘요. 축약 구조식은 결합을 그리지 않고, 탄소와 거기에 붙은 원자들을 한 묶음으로 써요.",
       },
     },
 
     // ── s3-2-q002 · numeric · foundation · SL · Structure 3.2.1 · 1 mark
     "s3-2-q002": {
       // EN: <p>The skeletal formula of a compound is shown.</p><p data-i18n="off"><svg class="mol mol--skeletal" viewBox="-4 -49 99 53" width="99" height="53" role="img" aria-label="Skeletal formula. Line notation: CC(O)CC(C)C" data-g="S:C.C.O1.C.C.C.C;0-1,1-2,1-3,3-4,4-5,4-6" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L22.5 -31.5"/><path d="M22.5 -13L45 0"/><path d="M45 0L67.5 -13"/><path d="M67.5 -13L67.5 -39"/><path d="M67.5 -13L90.1 0"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="22.5" y="-34.4" text-anchor="middle">O</text><text x="27.7" y="-34.4" text-anchor="start">H</text></g></svg></p><p>How many <strong>carbon</strong> atoms are there in one molecule?</p>
-      stem: "",
+      stem: "<p>어떤 화합물의 골격 구조식이 있어요.</p><p data-i18n=\"off\"><svg class=\"mol mol--skeletal\" viewBox=\"-4 -49 99 53\" width=\"99\" height=\"53\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC(O)CC(C)C\" data-g=\"S:C.C.O1.C.C.C.C;0-1,1-2,1-3,3-4,4-5,4-6\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L22.5 -31.5\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M67.5 -13L67.5 -39\"/><path d=\"M67.5 -13L90.1 0\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"22.5\" y=\"-34.4\" text-anchor=\"middle\">O</text><text x=\"27.7\" y=\"-34.4\" text-anchor=\"start\">H</text></g></svg></p><p>분자 1개에 <strong>탄소</strong> 원자는 몇 개 있나요?</p>",
       hints: [
         // EN: In a skeletal formula, every end of a line and every corner is a carbon atom, unless another symbol is written there.
-        "",
+        "골격 구조식에서는 다른 원소 기호가 쓰여 있지 않는 한, 선의 끝과 꺾인 곳이 모두 탄소 원자예요.",
         // EN: Count the ends and the corners. Do not count the O of the OH group.
-        "",
+        "선의 끝과 꺾인 곳을 세어 봐요. OH 기의 O는 세지 않아요.",
       ],
       // EN: <p>Count each line end and each corner that has no symbol.</p><p>Along the chain there are 5 carbon atoms: the left end, three corners, and the right end. The branch at the right adds 1 more line end.</p><div class="worked__math">5 + 1 = 6 carbon atoms</div><p>The line that goes to OH ends at an oxygen atom, so it is not a carbon atom. The molecular formula is <span class="chem">C<sub>6</sub>H<sub>14</sub>O</span>.</p>
-      solution: "",
+      solution: "<p>원소 기호가 없는 선의 끝과 꺾인 곳을 하나씩 세어요.</p><p>사슬을 따라 탄소 원자가 5개 있어요. 왼쪽 끝, 꺾인 곳 세 군데, 오른쪽 끝이에요. 오른쪽의 가지가 선의 끝을 1개 더 만들어요.</p><div class=\"worked__math\">탄소 원자 5 + 1 = 6개</div><p>OH로 가는 선은 산소 원자에서 끝나므로 탄소 원자가 아니에요. 분자식은 <span class=\"chem\">C<sub>6</sub>H<sub>14</sub>O</span>예요.</p>",
       // EN: carbon atoms
-      unit: "",
+      unit: "개 (탄소 원자)",
     },
 
     // ── s3-2-q003 · numeric · exam · SL · Structure 3.2.1 · 1 mark
     "s3-2-q003": {
       // EN: <p>The skeletal formula of a hydrocarbon is shown.</p><p data-i18n="off"><svg class="mol mol--skeletal" viewBox="-4 -43 99 47" width="99" height="47" role="img" aria-label="Skeletal formula. Line notation: CC(C)=CCC" data-g="S:C.C.C.C.C.C;0-1,1-2,1=3,3-4,4-5" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L22.5 -39"/><path d="M22.5 -13L45 0"/><path d="M28.1 -14.6L43.7 -5.6"/><path d="M45 0L67.5 -13"/><path d="M67.5 -13L90.1 0"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"></g></svg></p><p>How many <strong>hydrogen</strong> atoms are there in one molecule?</p>
-      stem: "",
+      stem: "<p>어떤 탄화수소의 골격 구조식이 있어요.</p><p data-i18n=\"off\"><svg class=\"mol mol--skeletal\" viewBox=\"-4 -43 99 47\" width=\"99\" height=\"47\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC(C)=CCC\" data-g=\"S:C.C.C.C.C.C;0-1,1-2,1=3,3-4,4-5\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L22.5 -39\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M28.1 -14.6L43.7 -5.6\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M67.5 -13L90.1 0\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"></g></svg></p><p>분자 1개에 <strong>수소</strong> 원자는 몇 개 있나요?</p>",
       hints: [
         // EN: Each carbon atom forms four bonds in total. The bonds that are not drawn are bonds to hydrogen.
-        "",
+        "탄소 원자는 모두 합쳐 결합을 4개 만들어요. 그려지지 않은 결합은 수소와의 결합이에요.",
         // EN: A double bond counts as two of the four bonds for each carbon atom it joins.
-        "",
+        "이중 결합은 그 결합으로 연결된 각 탄소 원자에게 결합 4개 중 2개로 세요.",
         // EN: Work along the molecule and write the number of H atoms on each carbon. Then add them.
-        "",
+        "분자를 따라가며 각 탄소에 붙은 H 원자 수를 적어요. 그런 다음 모두 더해요.",
       ],
       // EN: <p>There are 6 carbon atoms. Give each one enough hydrogen atoms to make four bonds.</p><div class="worked__math">three line ends: 3 × <span class="chem">CH<sub>3</sub></span> = 9 H</div><div class="worked__math">C=C carbon with the branch: 4 bonds to carbon already, 0 H</div><div class="worked__math">other C=C carbon: 3 bonds drawn, 1 H</div><div class="worked__math"><span class="chem">CH<sub>2</sub></span> corner: 2 H</div><div class="worked__math">total = 9 + 0 + 1 + 2 = 12 H</div><p>The molecular formula is <span class="chem">C<sub>6</sub>H<sub>12</sub></span>. This fits the general formula of the alkenes, <span class="chem">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub></span>.</p>
-      solution: "",
+      solution: "<p>탄소 원자는 6개예요. 각 탄소가 결합 4개를 만들도록 수소 원자를 붙여요.</p><div class=\"worked__math\">선의 끝 세 곳: 3 × <span class=\"chem\">CH<sub>3</sub></span> = 9 H</div><div class=\"worked__math\">가지가 달린 C=C 탄소: 이미 탄소와 결합 4개, 0 H</div><div class=\"worked__math\">다른 C=C 탄소: 그려진 결합 3개, 1 H</div><div class=\"worked__math\"><span class=\"chem\">CH<sub>2</sub></span> 꺾인 곳: 2 H</div><div class=\"worked__math\">합계 = 9 + 0 + 1 + 2 = 12 H</div><p>분자식은 <span class=\"chem\">C<sub>6</sub>H<sub>12</sub></span>예요. 알켄의 일반식 <span class=\"chem\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub></span>에 맞아요.</p>",
       // EN: hydrogen atoms
-      unit: "",
+      unit: "개 (수소 원자)",
     },
 
     // ── s3-2-q004 · mcq · exam · SL · Structure 3.2.1 · 1 mark
     "s3-2-q004": {
       // EN: <p>What is the <strong>molecular formula</strong> of the compound with this skeletal formula?</p><p data-i18n="off"><svg class="mol mol--skeletal" viewBox="-4 -49 117 59" width="117" height="59" role="img" aria-label="Skeletal formula. Line notation: CC(C)CC(=O)O" data-g="S:C.C.C.C.C.O.O1;0-1,1-2,1-3,3-4,4=5,4-6" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L22.5 -39"/><path d="M22.5 -13L45 0"/><path d="M45 0L67.5 -13"/><path d="M69.7 -13L69.7 -31.5"/><path d="M65.3 -13L65.3 -31.5"/><path d="M67.5 -13L83.6 -3.7"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="67.5" y="-34.4" text-anchor="middle">O</text><text x="90.1" y="4.6" text-anchor="middle">O</text><text x="95.3" y="4.6" text-anchor="start">H</text></g></svg></p>
-      stem: "",
+      stem: "<p>다음 골격 구조식으로 나타낸 화합물의 <strong>분자식</strong>은 무엇인가요?</p><p data-i18n=\"off\"><svg class=\"mol mol--skeletal\" viewBox=\"-4 -49 117 59\" width=\"117\" height=\"59\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC(C)CC(=O)O\" data-g=\"S:C.C.C.C.C.O.O1;0-1,1-2,1-3,3-4,4=5,4-6\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L22.5 -39\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M69.7 -13L69.7 -31.5\"/><path d=\"M65.3 -13L65.3 -31.5\"/><path d=\"M67.5 -13L83.6 -3.7\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"67.5\" y=\"-34.4\" text-anchor=\"middle\">O</text><text x=\"90.1\" y=\"4.6\" text-anchor=\"middle\">O</text><text x=\"95.3\" y=\"4.6\" text-anchor=\"start\">H</text></g></svg></p>",
       options: [
         // EN: <span class="chem">C<sub>4</sub>H<sub>8</sub>O<sub>2</sub></span>
-        "",
+        "<span class=\"chem\">C<sub>4</sub>H<sub>8</sub>O<sub>2</sub></span>",
         // EN: <span class="chem">C<sub>5</sub>H<sub>10</sub>O<sub>2</sub></span>
-        "",
+        "<span class=\"chem\">C<sub>5</sub>H<sub>10</sub>O<sub>2</sub></span>",
         // EN: <span class="chem">C<sub>5</sub>H<sub>12</sub>O<sub>2</sub></span>
-        "",
+        "<span class=\"chem\">C<sub>5</sub>H<sub>12</sub>O<sub>2</sub></span>",
         // EN: <span class="chem">C<sub>5</sub>H<sub>10</sub>O</span>
-        "",
+        "<span class=\"chem\">C<sub>5</sub>H<sub>10</sub>O</span>",
       ],
       hints: [
         // EN: Count the carbon atoms first: line ends and corners with no symbol.
-        "",
+        "먼저 탄소 원자를 세어요. 원소 기호가 없는 선의 끝과 꺾인 곳이에요.",
         // EN: Then give each carbon atom enough hydrogen atoms to make four bonds. Remember the H in OH.
-        "",
+        "그다음 각 탄소 원자가 결합 4개를 만들도록 수소 원자를 붙여요. OH의 H도 잊지 마세요.",
       ],
       // EN: <p>Carbon: 2 line ends on the left, 2 corners in the chain, and the carbon joined to both oxygen atoms. That is 5 C.</p><div class="worked__math">2 × <span class="chem">CH<sub>3</sub></span> = 6 H</div><div class="worked__math">CH (branch point) = 1 H</div><div class="worked__math"><span class="chem">CH<sub>2</sub></span> = 2 H</div><div class="worked__math">C(=O)OH carbon = 0 H, and OH = 1 H</div><div class="worked__math">total = 6 + 1 + 2 + 1 = 10 H</div><p>There are 2 O atoms. The molecular formula is <span class="chem">C<sub>5</sub>H<sub>10</sub>O<sub>2</sub></span>.</p>
-      solution: "",
+      solution: "<p>탄소: 왼쪽의 선의 끝 2개, 사슬의 꺾인 곳 2개, 그리고 두 산소 원자와 결합한 탄소예요. 모두 5 C예요.</p><div class=\"worked__math\">2 × <span class=\"chem\">CH<sub>3</sub></span> = 6 H</div><div class=\"worked__math\">CH (가지가 갈라지는 곳) = 1 H</div><div class=\"worked__math\"><span class=\"chem\">CH<sub>2</sub></span> = 2 H</div><div class=\"worked__math\">C(=O)OH 탄소 = 0 H, OH = 1 H</div><div class=\"worked__math\">합계 = 6 + 1 + 2 + 1 = 10 H</div><p>O 원자는 2개예요. 분자식은 <span class=\"chem\">C<sub>5</sub>H<sub>10</sub>O<sub>2</sub></span>예요.</p>",
       misconception: {
         // EN (option A): One carbon atom is missing. The end of the short branch line is a carbon atom too, and so is the carbon that holds the two oxygen atoms.
-        "0": "",
+        "0": "탄소 원자 1개가 빠졌어요. 짧은 가지 선의 끝도 탄소 원자이고, 두 산소 원자가 붙은 탄소도 탄소 원자예요.",
         // EN (option C): This has two hydrogen atoms too many. The carbon with the C=O double bond uses two of its four bonds for that oxygen, so it holds no hydrogen atoms.
-        "2": "",
+        "2": "수소 원자가 2개 많아요. C=O 이중 결합이 있는 탄소는 결합 4개 중 2개를 그 산소에 쓰므로 수소 원자가 없어요.",
         // EN (option D): There are two oxygen atoms: one in the C=O double bond and one in the OH group.
-        "3": "",
+        "3": "산소 원자는 2개예요. 하나는 C=O 이중 결합에, 하나는 OH 기에 있어요.",
       },
     },
 
     // ── s3-2-q005 · mcq · exam · SL · Structure 3.2.1 · 1 mark
     "s3-2-q005": {
       // EN: <p>The full structural formula of a compound is shown.</p><p data-i18n="off"><svg class="mol mol--structural" viewBox="-45 -44 226 88" width="226" height="88" role="img" aria-label="Full structural formula. Line notation: CCCC(=O)O" data-g="F:C.C.C.C.O.H.H.H.H.H.H.H.O.H;0-1,1-2,2-3,3-4,0-5,0-6,0-7,1-8,1-9,2-10,2-11,3=12,4-13" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M7.5 0L26.5 0"/><path d="M41.5 0L60.5 0"/><path d="M75.5 0L94.5 0"/><path d="M109.5 0L128.5 0"/><path d="M-7.5 0L-26.5 0"/><path d="M0 -7.5L0 -26.5"/><path d="M0 7.5L0 26.5"/><path d="M34 -7.5L34 -26.5"/><path d="M34 7.5L34 26.5"/><path d="M68 -7.5L68 -26.5"/><path d="M68 7.5L68 26.5"/><path d="M104.3 -7.5L104.3 -26.5"/><path d="M99.7 -7.5L99.7 -26.5"/><path d="M143.5 0L162.5 0"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="0" y="4.6" text-anchor="middle">C</text><text x="34" y="4.6" text-anchor="middle">C</text><text x="68" y="4.6" text-anchor="middle">C</text><text x="102" y="4.6" text-anchor="middle">C</text><text x="136" y="4.6" text-anchor="middle">O</text><text x="-34" y="4.6" text-anchor="middle">H</text><text x="0" y="-29.4" text-anchor="middle">H</text><text x="0" y="38.6" text-anchor="middle">H</text><text x="34" y="-29.4" text-anchor="middle">H</text><text x="34" y="38.6" text-anchor="middle">H</text><text x="68" y="-29.4" text-anchor="middle">H</text><text x="68" y="38.6" text-anchor="middle">H</text><text x="102" y="-29.4" text-anchor="middle">O</text><text x="170" y="4.6" text-anchor="middle">H</text></g></svg></p><p>What is its <strong>empirical formula</strong>?</p>
-      stem: "",
+      stem: "<p>어떤 화합물의 전개 구조식이 있어요.</p><p data-i18n=\"off\"><svg class=\"mol mol--structural\" viewBox=\"-45 -44 226 88\" width=\"226\" height=\"88\" role=\"img\" aria-label=\"Full structural formula. Line notation: CCCC(=O)O\" data-g=\"F:C.C.C.C.O.H.H.H.H.H.H.H.O.H;0-1,1-2,2-3,3-4,0-5,0-6,0-7,1-8,1-9,2-10,2-11,3=12,4-13\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M7.5 0L26.5 0\"/><path d=\"M41.5 0L60.5 0\"/><path d=\"M75.5 0L94.5 0\"/><path d=\"M109.5 0L128.5 0\"/><path d=\"M-7.5 0L-26.5 0\"/><path d=\"M0 -7.5L0 -26.5\"/><path d=\"M0 7.5L0 26.5\"/><path d=\"M34 -7.5L34 -26.5\"/><path d=\"M34 7.5L34 26.5\"/><path d=\"M68 -7.5L68 -26.5\"/><path d=\"M68 7.5L68 26.5\"/><path d=\"M104.3 -7.5L104.3 -26.5\"/><path d=\"M99.7 -7.5L99.7 -26.5\"/><path d=\"M143.5 0L162.5 0\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"0\" y=\"4.6\" text-anchor=\"middle\">C</text><text x=\"34\" y=\"4.6\" text-anchor=\"middle\">C</text><text x=\"68\" y=\"4.6\" text-anchor=\"middle\">C</text><text x=\"102\" y=\"4.6\" text-anchor=\"middle\">C</text><text x=\"136\" y=\"4.6\" text-anchor=\"middle\">O</text><text x=\"-34\" y=\"4.6\" text-anchor=\"middle\">H</text><text x=\"0\" y=\"-29.4\" text-anchor=\"middle\">H</text><text x=\"0\" y=\"38.6\" text-anchor=\"middle\">H</text><text x=\"34\" y=\"-29.4\" text-anchor=\"middle\">H</text><text x=\"34\" y=\"38.6\" text-anchor=\"middle\">H</text><text x=\"68\" y=\"-29.4\" text-anchor=\"middle\">H</text><text x=\"68\" y=\"38.6\" text-anchor=\"middle\">H</text><text x=\"102\" y=\"-29.4\" text-anchor=\"middle\">O</text><text x=\"170\" y=\"4.6\" text-anchor=\"middle\">H</text></g></svg></p><p>이 화합물의 <strong>실험식</strong>은 무엇인가요?</p>",
       options: [
         // EN: <span class="chem">C<sub>4</sub>H<sub>8</sub>O<sub>2</sub></span>
-        "",
+        "<span class=\"chem\">C<sub>4</sub>H<sub>8</sub>O<sub>2</sub></span>",
         // EN: <span class="chem">C<sub>2</sub>H<sub>4</sub>O<sub>2</sub></span>
-        "",
+        "<span class=\"chem\">C<sub>2</sub>H<sub>4</sub>O<sub>2</sub></span>",
         // EN: <span class="chem">C<sub>2</sub>H<sub>4</sub>O</span>
-        "",
+        "<span class=\"chem\">C<sub>2</sub>H<sub>4</sub>O</span>",
         // EN: <span class="chem">CH<sub>2</sub>O</span>
-        "",
+        "<span class=\"chem\">CH<sub>2</sub>O</span>",
       ],
       hints: [
         // EN: First count the atoms to get the molecular formula.
-        "",
+        "먼저 원자 수를 세어 분자식을 구해요.",
         // EN: Then divide every subscript by the same largest whole number.
-        "",
+        "그다음 모든 아래 첨자를, 모두를 나눌 수 있는 가장 큰 같은 정수로 나눠요.",
       ],
       // EN: <p>Count the atoms in the drawing: 4 C, 8 H and 2 O. The molecular formula is <span class="chem">C<sub>4</sub>H<sub>8</sub>O<sub>2</sub></span>.</p><div class="worked__math">4 : 8 : 2 = 2 : 4 : 1 &nbsp; (divide by 2)</div><p>The empirical formula is <span class="chem">C<sub>2</sub>H<sub>4</sub>O</span>.</p>
-      solution: "",
+      solution: "<p>그림의 원자를 세면 C 4개, H 8개, O 2개예요. 분자식은 <span class=\"chem\">C<sub>4</sub>H<sub>8</sub>O<sub>2</sub></span>예요.</p><div class=\"worked__math\">4 : 8 : 2 = 2 : 4 : 1 &nbsp; (2로 나눔)</div><p>실험식은 <span class=\"chem\">C<sub>2</sub>H<sub>4</sub>O</span>예요.</p>",
       misconception: {
         // EN (option A): This is the molecular formula. The empirical formula is the simplest whole-number ratio, so divide every subscript by the largest number that divides all of them.
-        "0": "",
+        "0": "이것은 분자식이에요. 실험식은 가장 간단한 정수 비이므로, 모든 아래 첨자를 그것들을 모두 나눌 수 있는 가장 큰 수로 나눠요.",
         // EN (option B): Carbon and hydrogen were divided by 2, but oxygen was not. Every subscript must be divided by the same number.
-        "1": "",
+        "1": "탄소와 수소는 2로 나눴지만 산소는 나누지 않았어요. 모든 아래 첨자는 같은 수로 나눠야 해요.",
         // EN (option D): Carbon and hydrogen were divided by 4, but oxygen by 2. The ratio 4 : 8 : 2 can only be divided by 2.
-        "3": "",
+        "3": "탄소와 수소는 4로 나눴는데 산소는 2로 나눴어요. 4 : 8 : 2라는 비는 2로만 나눌 수 있어요.",
       },
     },
 
     // ── s3-2-q006 · mcq · exam · SL · Structure 3.2.1 · 1 mark
     "s3-2-q006": {
       // EN: <p>Which skeletal formula represents <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)CHO</span>?</p>
-      stem: "",
+      stem: "<p><span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)CHO</span>를 나타내는 골격 구조식은 어느 것인가요?</p>",
       options: [
         // EN: <svg class="mol mol--skeletal" viewBox="-4 -43 106 53" width="106" height="53" role="img" aria-label="Skeletal formula. Line notation: CC(C)CC=O" data-g="S:C.C.C.C.C.O;0-1,1-2,1-3,3-4,4=5" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L22.5 -39"/><path d="M22.5 -13L45 0"/><path d="M45 0L67.5 -13"/><path d="M66.4 -11.1L82.5 -1.8"/><path d="M68.6 -14.9L84.7 -5.7"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="90.1" y="4.6" text-anchor="middle">O</text></g></svg>
-        "",
+        "<svg class=\"mol mol--skeletal\" viewBox=\"-4 -43 106 53\" width=\"106\" height=\"53\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC(C)CC=O\" data-g=\"S:C.C.C.C.C.O;0-1,1-2,1-3,3-4,4=5\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L22.5 -39\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M66.4 -11.1L82.5 -1.8\"/><path d=\"M68.6 -14.9L84.7 -5.7\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"90.1\" y=\"4.6\" text-anchor=\"middle\">O</text></g></svg>",
         // EN: <svg class="mol mol--skeletal" viewBox="-4 -17 117 47" width="117" height="47" role="img" aria-label="Skeletal formula. Line notation: CCC(C)CO" data-g="S:C.C.C.C.C.O1;0-1,1-2,2-3,2-4,4-5" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L45 0"/><path d="M45 0L45 26"/><path d="M45 0L67.5 -13"/><path d="M67.5 -13L83.6 -3.7"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="90.1" y="4.6" text-anchor="middle">O</text><text x="95.3" y="4.6" text-anchor="start">H</text></g></svg>
-        "",
+        "<svg class=\"mol mol--skeletal\" viewBox=\"-4 -17 117 47\" width=\"117\" height=\"47\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CCC(C)CO\" data-g=\"S:C.C.C.C.C.O1;0-1,1-2,2-3,2-4,4-5\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L45 26\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M67.5 -13L83.6 -3.7\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"90.1\" y=\"4.6\" text-anchor=\"middle\">O</text><text x=\"95.3\" y=\"4.6\" text-anchor=\"start\">H</text></g></svg>",
         // EN: <svg class="mol mol--skeletal" viewBox="-4 -17 106 47" width="106" height="47" role="img" aria-label="Skeletal formula. Line notation: CCC(C)C=O" data-g="S:C.C.C.C.C.O;0-1,1-2,2-3,2-4,4=5" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L45 0"/><path d="M45 0L45 26"/><path d="M45 0L67.5 -13"/><path d="M66.4 -11.1L82.5 -1.8"/><path d="M68.6 -14.9L84.7 -5.7"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="90.1" y="4.6" text-anchor="middle">O</text></g></svg>
-        "",
+        "<svg class=\"mol mol--skeletal\" viewBox=\"-4 -17 106 47\" width=\"106\" height=\"47\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CCC(C)C=O\" data-g=\"S:C.C.C.C.C.O;0-1,1-2,2-3,2-4,4=5\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L45 26\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M66.4 -11.1L82.5 -1.8\"/><path d=\"M68.6 -14.9L84.7 -5.7\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"90.1\" y=\"4.6\" text-anchor=\"middle\">O</text></g></svg>",
         // EN: <svg class="mol mol--skeletal" viewBox="-4 -49 99 79" width="99" height="79" role="img" aria-label="Skeletal formula. Line notation: CCC(C)C(=O)C" data-g="S:C.C.C.C.C.O.C;0-1,1-2,2-3,2-4,4=5,4-6" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L45 0"/><path d="M45 0L45 26"/><path d="M45 0L67.5 -13"/><path d="M69.7 -13L69.7 -31.5"/><path d="M65.3 -13L65.3 -31.5"/><path d="M67.5 -13L90.1 0"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="67.5" y="-34.4" text-anchor="middle">O</text></g></svg>
-        "",
+        "<svg class=\"mol mol--skeletal\" viewBox=\"-4 -49 99 79\" width=\"99\" height=\"79\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CCC(C)C(=O)C\" data-g=\"S:C.C.C.C.C.O.C;0-1,1-2,2-3,2-4,4=5,4-6\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L45 26\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M69.7 -13L69.7 -31.5\"/><path d=\"M65.3 -13L65.3 -31.5\"/><path d=\"M67.5 -13L90.1 0\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"67.5\" y=\"-34.4\" text-anchor=\"middle\">O</text></g></svg>",
       ],
       hints: [
         // EN: Count the carbon atoms in the condensed formula. The skeletal formula must have the same number of line ends and corners.
-        "",
+        "축약 구조식에서 탄소 원자를 세어요. 골격 구조식에도 같은 수의 선의 끝과 꺾인 곳이 있어야 해요.",
         // EN: CHO means a carbon atom with a double bond to O and a single bond to H.
-        "",
+        "CHO는 O와 이중 결합을, H와 단일 결합을 하는 탄소 원자를 뜻해요.",
       ],
       // EN: <p>Read the condensed formula from left to right: <span class="chem">CH<sub>3</sub></span>, <span class="chem">CH<sub>2</sub></span>, then a CH that carries a <span class="chem">CH<sub>3</sub></span> branch, then CHO. That is 5 carbon atoms.</p><p>The correct drawing has a chain of four carbon atoms that ends in C=O, with a one-carbon branch on the carbon next to the C=O carbon.</p>
-      solution: "",
+      solution: "<p>축약 구조식을 왼쪽부터 읽어요. <span class=\"chem\">CH<sub>3</sub></span>, <span class=\"chem\">CH<sub>2</sub></span>, 다음은 <span class=\"chem\">CH<sub>3</sub></span> 가지가 달린 CH, 그리고 CHO예요. 탄소 원자는 5개예요.</p><p>맞는 그림은 C=O로 끝나는 탄소 4개짜리 사슬이 있고, C=O 탄소 바로 옆 탄소에 탄소 1개짜리 가지가 달려 있어요.</p>",
       misconception: {
         // EN (option A): The branch is on the wrong carbon atom. In the condensed formula the CH that carries <span class="chem">CH<sub>3</sub></span> is joined directly to CHO.
-        "0": "",
+        "0": "가지가 잘못된 탄소 원자에 달려 있어요. 축약 구조식에서 <span class=\"chem\">CH<sub>3</sub></span>가 달린 CH는 CHO와 바로 연결되어 있어요.",
         // EN (option B): CHO is not C–OH. In CHO the carbon atom has a double bond to oxygen and a single bond to hydrogen.
-        "1": "",
+        "1": "CHO는 C–OH가 아니에요. CHO에서 탄소 원자는 산소와 이중 결합을, 수소와 단일 결합을 해요.",
         // EN (option D): This drawing has six carbon atoms. CHO is at the end of a chain: its carbon holds H, not another carbon atom.
-        "3": "",
+        "3": "이 그림에는 탄소 원자가 6개 있어요. CHO는 사슬의 끝에 있어요. 그 탄소에는 다른 탄소 원자가 아니라 H가 붙어 있어요.",
       },
     },
 
     // ── s3-2-q007 · short · exam · SL · Structure 3.2.1 · 2 marks
     "s3-2-q007": {
       // EN: <p>The skeletal formula of a compound is shown.</p><p data-i18n="off"><svg class="mol mol--skeletal" viewBox="-4 -49 76 79" width="76" height="79" role="img" aria-label="Skeletal formula. Line notation: CC(=O)C(C)C" data-g="S:C.C.O.C.C.C;0-1,1=2,1-3,3-4,3-5" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M24.7 -13L24.7 -31.5"/><path d="M20.3 -13L20.3 -31.5"/><path d="M22.5 -13L45 0"/><path d="M45 0L45 26"/><path d="M45 0L67.5 -13"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="22.5" y="-34.4" text-anchor="middle">O</text></g></svg></p><p>Deduce (a) the molecular formula and (b) a condensed structural formula of the compound.</p>
-      stem: "",
+      stem: "<p>어떤 화합물의 골격 구조식이 있어요.</p><p data-i18n=\"off\"><svg class=\"mol mol--skeletal\" viewBox=\"-4 -49 76 79\" width=\"76\" height=\"79\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC(=O)C(C)C\" data-g=\"S:C.C.O.C.C.C;0-1,1=2,1-3,3-4,3-5\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M24.7 -13L24.7 -31.5\"/><path d=\"M20.3 -13L20.3 -31.5\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L45 26\"/><path d=\"M45 0L67.5 -13\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"22.5\" y=\"-34.4\" text-anchor=\"middle\">O</text></g></svg></p><p>이 화합물의 (a) 분자식과 (b) 축약 구조식 하나를 추론하시오 (deduce).</p>",
       hints: [
         // EN: Count carbon atoms at line ends and corners. Then add hydrogen atoms so that each carbon has four bonds.
-        "",
+        "선의 끝과 꺾인 곳에서 탄소 원자를 세어요. 그런 다음 각 탄소가 결합 4개를 갖도록 수소 원자를 더해요.",
         // EN: In a condensed formula a C=O in the middle of a chain is written CO. A branch is written in brackets after the carbon that carries it.
-        "",
+        "축약 구조식에서 사슬 가운데에 있는 C=O는 CO로 써요. 가지는 그 가지가 달린 탄소 뒤에 괄호로 써요.",
       ],
       // EN: <p>(a) <span class="chem">C<sub>5</sub>H<sub>10</sub>O</span></p><p>(b) <span class="chem">CH<sub>3</sub>COCH(CH<sub>3</sub>)<sub>2</sub></span> &nbsp;or&nbsp; <span class="chem">CH<sub>3</sub>COCH(CH<sub>3</sub>)CH<sub>3</sub></span></p><p>There are 5 carbon atoms: three line ends, the C=O carbon and the branch-point carbon. The three line ends are <span class="chem">CH<sub>3</sub></span> groups (9 H) and the branch point is CH (1 H). The C=O carbon has no hydrogen atoms.</p>
-      answer: "",
+      answer: "<p>(a) <span class=\"chem\">C<sub>5</sub>H<sub>10</sub>O</span></p><p>(b) <span class=\"chem\">CH<sub>3</sub>COCH(CH<sub>3</sub>)<sub>2</sub></span> &nbsp;또는&nbsp; <span class=\"chem\">CH<sub>3</sub>COCH(CH<sub>3</sub>)CH<sub>3</sub></span></p><p>탄소 원자는 5개예요. 선의 끝 세 곳, C=O 탄소, 가지가 갈라지는 탄소예요. 선의 끝 세 곳은 <span class=\"chem\">CH<sub>3</sub></span> 기(9 H)이고, 가지가 갈라지는 곳은 CH(1 H)예요. C=O 탄소에는 수소 원자가 없어요.</p>",
       markscheme: [
         // EN: (a) <span class="chem">C<sub>5</sub>H<sub>10</sub>O</span> (elements in any order).
-        "",
+        "(a) <span class=\"chem\">C<sub>5</sub>H<sub>10</sub>O</span> (원소의 순서는 상관없음).",
         // EN: (b) <span class="chem">CH<sub>3</sub>COCH(CH<sub>3</sub>)<sub>2</sub></span> (accept <span class="chem">CH<sub>3</sub>COCH(CH<sub>3</sub>)CH<sub>3</sub></span>, <span class="chem">(CH<sub>3</sub>)<sub>2</sub>CHCOCH<sub>3</sub></span> or <span class="chem">CH<sub>3</sub>C(O)CH(CH<sub>3</sub>)<sub>2</sub></span>). Do not accept a molecular formula here.
-        "",
+        "(b) <span class=\"chem\">CH<sub>3</sub>COCH(CH<sub>3</sub>)<sub>2</sub></span> (<span class=\"chem\">CH<sub>3</sub>COCH(CH<sub>3</sub>)CH<sub>3</sub></span>, <span class=\"chem\">(CH<sub>3</sub>)<sub>2</sub>CHCOCH<sub>3</sub></span> 또는 <span class=\"chem\">CH<sub>3</sub>C(O)CH(CH<sub>3</sub>)<sub>2</sub></span>도 인정). 여기서 분자식은 인정하지 않음.",
       ],
     },
 
     // ── s3-2-q008 · mcq · challenge · SL · Structure 3.2.1 · 1 mark
     "s3-2-q008": {
       // EN: <p>Paracetamol is a medicine that reduces pain. Its skeletal formula is shown.</p><p data-i18n="off"><svg class="mol mol--skeletal" viewBox="-4 -62 162 84" width="162" height="84" role="img" aria-label="Skeletal formula. Line notation: CC(=O)NC1=CC=C(O)C=C1" data-g="S:C.C.O.N1.C.C.C.C.O1.C.C;0-1,1=2,1-3,3-4,4=5,5-6,6=7,7-8,7-9,9=10,4-10" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M24.7 -13L24.7 -31.5"/><path d="M20.3 -13L20.3 -31.5"/><path d="M22.5 -13L38.5 -3.7"/><path d="M51.5 -3.7L67.5 -13"/><path d="M67.5 -13L90.1 0"/><path d="M73.1 -14.6L88.7 -5.6"/><path d="M90.1 0L112.6 -13"/><path d="M112.6 -13L112.6 -39"/><path d="M108.4 -17L108.4 -35"/><path d="M112.6 -39L128.6 -48.2"/><path d="M112.6 -39L90.1 -52"/><path d="M90.1 -52L67.5 -39"/><path d="M88.7 -46.4L73.1 -37.4"/><path d="M67.5 -13L67.5 -39"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="22.5" y="-34.4" text-anchor="middle">O</text><text x="45" y="4.6" text-anchor="middle">N</text><text x="45" y="17.6" text-anchor="middle">H</text><text x="135.1" y="-47.4" text-anchor="middle">O</text><text x="140.3" y="-47.4" text-anchor="start">H</text></g></svg></p><p>What is the molecular formula of paracetamol?</p>
-      stem: "",
+      stem: "<p>파라세타몰(paracetamol)은 통증을 줄여 주는 약이에요. 골격 구조식이 있어요.</p><p data-i18n=\"off\"><svg class=\"mol mol--skeletal\" viewBox=\"-4 -62 162 84\" width=\"162\" height=\"84\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC(=O)NC1=CC=C(O)C=C1\" data-g=\"S:C.C.O.N1.C.C.C.C.O1.C.C;0-1,1=2,1-3,3-4,4=5,5-6,6=7,7-8,7-9,9=10,4-10\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M24.7 -13L24.7 -31.5\"/><path d=\"M20.3 -13L20.3 -31.5\"/><path d=\"M22.5 -13L38.5 -3.7\"/><path d=\"M51.5 -3.7L67.5 -13\"/><path d=\"M67.5 -13L90.1 0\"/><path d=\"M73.1 -14.6L88.7 -5.6\"/><path d=\"M90.1 0L112.6 -13\"/><path d=\"M112.6 -13L112.6 -39\"/><path d=\"M108.4 -17L108.4 -35\"/><path d=\"M112.6 -39L128.6 -48.2\"/><path d=\"M112.6 -39L90.1 -52\"/><path d=\"M90.1 -52L67.5 -39\"/><path d=\"M88.7 -46.4L73.1 -37.4\"/><path d=\"M67.5 -13L67.5 -39\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"22.5\" y=\"-34.4\" text-anchor=\"middle\">O</text><text x=\"45\" y=\"4.6\" text-anchor=\"middle\">N</text><text x=\"45\" y=\"17.6\" text-anchor=\"middle\">H</text><text x=\"135.1\" y=\"-47.4\" text-anchor=\"middle\">O</text><text x=\"140.3\" y=\"-47.4\" text-anchor=\"start\">H</text></g></svg></p><p>파라세타몰의 분자식은 무엇인가요?</p>",
       options: [
         // EN: <span class="chem">C<sub>8</sub>H<sub>5</sub>NO<sub>2</sub></span>
-        "",
+        "<span class=\"chem\">C<sub>8</sub>H<sub>5</sub>NO<sub>2</sub></span>",
         // EN: <span class="chem">C<sub>7</sub>H<sub>9</sub>NO<sub>2</sub></span>
-        "",
+        "<span class=\"chem\">C<sub>7</sub>H<sub>9</sub>NO<sub>2</sub></span>",
         // EN: <span class="chem">C<sub>8</sub>H<sub>9</sub>NO<sub>2</sub></span>
-        "",
+        "<span class=\"chem\">C<sub>8</sub>H<sub>9</sub>NO<sub>2</sub></span>",
         // EN: <span class="chem">C<sub>8</sub>H<sub>15</sub>NO<sub>2</sub></span>
-        "",
+        "<span class=\"chem\">C<sub>8</sub>H<sub>15</sub>NO<sub>2</sub></span>",
       ],
       hints: [
         // EN: Count carbon atoms: the six corners of the ring, the C=O carbon and the line end.
-        "",
+        "탄소 원자를 세어요. 고리의 꺾인 곳 6개, C=O 탄소, 그리고 선의 끝이에요.",
         // EN: Ring carbons that carry N or O have no hydrogen atoms. The other four ring carbons have one each.
-        "",
+        "N이나 O가 붙은 고리 탄소에는 수소 원자가 없어요. 나머지 고리 탄소 4개에는 하나씩 있어요.",
         // EN: Do not forget the hydrogen atoms written in NH and OH.
-        "",
+        "NH와 OH에 쓰여 있는 수소 원자를 잊지 마세요.",
       ],
       // EN: <p>Carbon: 6 in the ring + the C=O carbon + the <span class="chem">CH<sub>3</sub></span> line end = 8 C.</p><div class="worked__math"><span class="chem">CH<sub>3</sub></span> = 3 H</div><div class="worked__math">N–H = 1 H</div><div class="worked__math">four ring C–H = 4 H</div><div class="worked__math">O–H = 1 H</div><div class="worked__math">total = 3 + 1 + 4 + 1 = 9 H</div><p>There is 1 N atom and there are 2 O atoms. The molecular formula is <span class="chem">C<sub>8</sub>H<sub>9</sub>NO<sub>2</sub></span>.</p>
-      solution: "",
+      solution: "<p>탄소: 고리에 6개 + C=O 탄소 + <span class=\"chem\">CH<sub>3</sub></span> 선의 끝 = 8 C.</p><div class=\"worked__math\"><span class=\"chem\">CH<sub>3</sub></span> = 3 H</div><div class=\"worked__math\">N–H = 1 H</div><div class=\"worked__math\">고리의 C–H 네 개 = 4 H</div><div class=\"worked__math\">O–H = 1 H</div><div class=\"worked__math\">합계 = 3 + 1 + 4 + 1 = 9 H</div><p>N 원자는 1개, O 원자는 2개예요. 분자식은 <span class=\"chem\">C<sub>8</sub>H<sub>9</sub>NO<sub>2</sub></span>예요.</p>",
       misconception: {
         // EN (option A): The four hydrogen atoms on the ring are missing. A ring carbon with only three bonds drawn (counting the double bond as two) holds one hydrogen atom.
-        "0": "",
+        "0": "고리에 붙은 수소 원자 4개가 빠졌어요. 그려진 결합이 3개뿐인(이중 결합은 2개로 셈) 고리 탄소에는 수소 원자가 1개 붙어 있어요.",
         // EN (option B): One carbon atom is missing. The free line end on the left is a <span class="chem">CH<sub>3</sub></span> group.
-        "1": "",
+        "1": "탄소 원자 1개가 빠졌어요. 왼쪽의 자유로운 선의 끝은 <span class=\"chem\">CH<sub>3</sub></span> 기예요.",
         // EN (option D): This treats the ring as if it had only single bonds. Each ring carbon is part of one double bond, so it has room for at most one hydrogen atom.
-        "3": "",
+        "3": "고리에 단일 결합만 있는 것처럼 계산했어요. 고리의 각 탄소는 이중 결합 하나에 참여하므로, 수소 원자는 최대 1개만 붙을 수 있어요.",
       },
     },
 
     // ── s3-2-q009 · mcq · foundation · SL · Structure 3.2.2 · 1 mark
     "s3-2-q009": {
       // EN: <p>Ethanol is <span class="chem">CH<sub>3</sub>CH<sub>2</sub>OH</span>. What is the name of the <strong>functional group</strong> –OH in ethanol?</p>
-      stem: "",
+      stem: "<p>Ethanol은 <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>OH</span>예요. Ethanol에 있는 <strong>작용기</strong> –OH의 이름은 무엇인가요?</p>",
       options: [
         // EN: Alcohol
-        "",
+        "알코올 (alcohol)",
         // EN: Hydroxide
-        "",
+        "수산화 이온 (hydroxide)",
         // EN: Hydroxyl
-        "",
+        "하이드록시기 (hydroxyl)",
         // EN: Carboxyl
-        "",
+        "카복실기 (carboxyl)",
       ],
       hints: [
         // EN: A class name (such as alcohol) and a functional group name are different things. Which one does the question ask for?
-        "",
+        "화합물 종류의 이름(예: 알코올)과 작용기의 이름은 서로 달라요. 문제는 어느 것을 묻고 있나요?",
       ],
       // EN: <p>The group –OH joined to a carbon atom by a covalent bond is the <strong>hydroxyl</strong> group. Compounds that contain it belong to the class called alcohols.</p><p>Exam point: if the question says “functional group”, write hydroxyl. If it says “class” or “homologous series”, write alcohol.</p>
-      solution: "",
+      solution: "<p>탄소 원자에 공유 결합으로 붙은 –OH 기는 <strong>하이드록시기 (hydroxyl)</strong>예요. 이 기를 가진 화합물은 알코올이라는 종류에 속해요.</p><p>시험 포인트: 문제에 “functional group(작용기)”이라고 쓰여 있으면 hydroxyl이라고 써요. “class(종류)”나 “homologous series(동족 계열)”라고 쓰여 있으면 alcohol이라고 써요.</p>",
       misconception: {
         // EN (option A): “Alcohol” is the name of the class of compound (the homologous series). The question asks for the name of the group, and markschemes do not accept the class name.
-        "0": "",
+        "0": "“알코올”은 화합물 종류(동족 계열)의 이름이에요. 문제는 기의 이름을 묻고 있고, 채점 기준은 종류 이름을 인정하지 않아요.",
         // EN (option B): Hydroxide is the ion <span class="chem">OH</span><sup>−</sup> in ionic compounds such as NaOH. In ethanol the OH is joined to carbon by a covalent bond.
-        "1": "",
+        "1": "수산화 이온은 NaOH 같은 이온 결합 화합물에 있는 <span class=\"chem\">OH</span><sup>−</sup> 이온이에요. Ethanol에서 OH는 탄소에 공유 결합으로 붙어 있어요.",
         // EN (option D): Carboxyl is the group –COOH, where the OH is on a carbon that also has a C=O double bond.
-        "3": "",
+        "3": "카복실기는 –COOH 기예요. 여기서 OH는 C=O 이중 결합도 가진 탄소에 붙어 있어요.",
       },
     },
 
     // ── s3-2-q010 · mcq · foundation · SL · Structure 3.2.2 · 1 mark
     "s3-2-q010": {
       // EN: <p>Which hydrocarbon is <strong>unsaturated</strong>?</p>
-      stem: "",
+      stem: "<p><strong>불포화</strong> 탄화수소는 어느 것인가요?</p>",
       options: [
         // EN: <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>",
         // EN: <span class="chem">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>3</sub></span>
-        "",
+        "<span class=\"chem\">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>3</sub></span>",
         // EN: <span class="chem">CH<sub>3</sub>CH=CHCH<sub>3</sub></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH=CHCH<sub>3</sub></span>",
         // EN: <span class="chem">(CH<sub>3</sub>)<sub>4</sub>C</span>
-        "",
+        "<span class=\"chem\">(CH<sub>3</sub>)<sub>4</sub>C</span>",
       ],
       hints: [
         // EN: Unsaturated means that the molecule contains at least one carbon–carbon double or triple bond.
-        "",
+        "불포화란 분자에 탄소–탄소 이중 결합이나 삼중 결합이 적어도 1개 있다는 뜻이에요.",
       ],
       // EN: <p>A saturated compound has only single bonds between its carbon atoms. An unsaturated compound has at least one carbon–carbon double bond or triple bond.</p><p><span class="chem">CH<sub>3</sub>CH=CHCH<sub>3</sub></span> has a C=C double bond, so it is unsaturated. The other three are alkanes.</p>
-      solution: "",
+      solution: "<p>포화 화합물은 탄소 원자 사이에 단일 결합만 있어요. 불포화 화합물은 탄소–탄소 이중 결합이나 삼중 결합이 적어도 1개 있어요.</p><p><span class=\"chem\">CH<sub>3</sub>CH=CHCH<sub>3</sub></span>에는 C=C 이중 결합이 있으므로 불포화예요. 나머지 3개는 알케인이에요.</p>",
       misconception: {
         // EN (option A): This is butane. All its carbon–carbon bonds are single bonds, so it is saturated.
-        "0": "",
+        "0": "이것은 butane이에요. 탄소–탄소 결합이 모두 단일 결합이므로 포화예요.",
         // EN (option B): A branch does not make a molecule unsaturated. Every carbon–carbon bond here is a single bond.
-        "1": "",
+        "1": "가지가 있다고 불포화가 되지는 않아요. 여기서는 탄소–탄소 결합이 모두 단일 결합이에요.",
         // EN (option D): This molecule is highly branched, but it has only single bonds between carbon atoms. It is saturated.
-        "3": "",
+        "3": "이 분자는 가지가 많지만 탄소 원자 사이에는 단일 결합만 있어요. 포화예요.",
       },
     },
 
     // ── s3-2-q011 · mcq · foundation · SL · Structure 3.2.2 · 1 mark
     "s3-2-q011": {
       // EN: <p>The skeletal formula of propanal is shown.</p><p data-i18n="off"><svg class="mol mol--skeletal" viewBox="-4 -23 83 27" width="83" height="27" role="img" aria-label="Skeletal formula. Line notation: CCC=O" data-g="S:C.C.C.O;0-1,1-2,2=3" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L45 0"/><path d="M46.1 1.9L62.2 -7.3"/><path d="M43.9 -1.9L60 -11.2"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="67.5" y="-8.4" text-anchor="middle">O</text></g></svg></p><p>What is the name of the <strong>functional group</strong> in propanal?</p>
-      stem: "",
+      stem: "<p>Propanal의 골격 구조식이 있어요.</p><p data-i18n=\"off\"><svg class=\"mol mol--skeletal\" viewBox=\"-4 -23 83 27\" width=\"83\" height=\"27\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CCC=O\" data-g=\"S:C.C.C.O;0-1,1-2,2=3\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M46.1 1.9L62.2 -7.3\"/><path d=\"M43.9 -1.9L60 -11.2\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"67.5\" y=\"-8.4\" text-anchor=\"middle\">O</text></g></svg></p><p>Propanal에 있는 <strong>작용기</strong>의 이름은 무엇인가요?</p>",
       options: [
         // EN: Aldehyde
-        "",
+        "알데하이드 (aldehyde)",
         // EN: Carbonyl
         "",
         // EN: Carboxyl
@@ -494,13 +494,13 @@ S1.i18n.register('ko', 's3-2.q', {
       stem: "",
       options: [
         // EN: <span class="chem">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub></span>
-        "",
+        "<span class=\"chem\">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub></span>",
         // EN: <span class="chem">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub></span>
-        "",
+        "<span class=\"chem\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub></span>",
         // EN: <span class="chem">C<sub><i>n</i></sub>H<sub>2<i>n</i>−2</sub></span>
-        "",
+        "<span class=\"chem\">C<sub><i>n</i></sub>H<sub>2<i>n</i>−2</sub></span>",
         // EN: <span class="chem">C<sub><i>n</i></sub>H<sub>2<i>n</i>+1</sub></span>
-        "",
+        "<span class=\"chem\">C<sub><i>n</i></sub>H<sub>2<i>n</i>+1</sub></span>",
       ],
       hints: [
         // EN: Test each formula with ethene, <span class="chem">C<sub>2</sub>H<sub>4</sub></span>, and propene, <span class="chem">C<sub>3</sub>H<sub>6</sub></span>.
@@ -524,13 +524,13 @@ S1.i18n.register('ko', 's3-2.q', {
       stem: "",
       options: [
         // EN: <span class="chem">CH<sub>3</sub>OCH<sub>3</sub></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>OCH<sub>3</sub></span>",
         // EN: <span class="chem">CH<sub>3</sub>CHO</span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CHO</span>",
         // EN: <span class="chem">HOCH<sub>2</sub>CH<sub>2</sub>OH</span>
-        "",
+        "<span class=\"chem\">HOCH<sub>2</sub>CH<sub>2</sub>OH</span>",
         // EN: <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>",
       ],
       hints: [
         // EN: Members of one series have the same functional group.
@@ -908,13 +908,13 @@ S1.i18n.register('ko', 's3-2.q', {
       stem: "",
       options: [
         // EN: <svg class="mol mol--skeletal" viewBox="-4 -49 117 59" width="117" height="59" role="img" aria-label="Skeletal formula. Line notation: CC(C)CC(=O)O" data-g="S:C.C.C.C.C.O.O1;0-1,1-2,1-3,3-4,4=5,4-6" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L22.5 -39"/><path d="M22.5 -13L45 0"/><path d="M45 0L67.5 -13"/><path d="M69.7 -13L69.7 -31.5"/><path d="M65.3 -13L65.3 -31.5"/><path d="M67.5 -13L83.6 -3.7"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="67.5" y="-34.4" text-anchor="middle">O</text><text x="90.1" y="4.6" text-anchor="middle">O</text><text x="95.3" y="4.6" text-anchor="start">H</text></g></svg>
-        "",
+        "<svg class=\"mol mol--skeletal\" viewBox=\"-4 -49 117 59\" width=\"117\" height=\"59\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC(C)CC(=O)O\" data-g=\"S:C.C.C.C.C.O.O1;0-1,1-2,1-3,3-4,4=5,4-6\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L22.5 -39\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M69.7 -13L69.7 -31.5\"/><path d=\"M65.3 -13L65.3 -31.5\"/><path d=\"M67.5 -13L83.6 -3.7\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"67.5\" y=\"-34.4\" text-anchor=\"middle\">O</text><text x=\"90.1\" y=\"4.6\" text-anchor=\"middle\">O</text><text x=\"95.3\" y=\"4.6\" text-anchor=\"start\">H</text></g></svg>",
         // EN: <svg class="mol mol--skeletal" viewBox="-4 -17 106 47" width="106" height="47" role="img" aria-label="Skeletal formula. Line notation: CCC(C)C=O" data-g="S:C.C.C.C.C.O;0-1,1-2,2-3,2-4,4=5" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L45 0"/><path d="M45 0L45 26"/><path d="M45 0L67.5 -13"/><path d="M66.4 -11.1L82.5 -1.8"/><path d="M68.6 -14.9L84.7 -5.7"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="90.1" y="4.6" text-anchor="middle">O</text></g></svg>
-        "",
+        "<svg class=\"mol mol--skeletal\" viewBox=\"-4 -17 106 47\" width=\"106\" height=\"47\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CCC(C)C=O\" data-g=\"S:C.C.C.C.C.O;0-1,1-2,2-3,2-4,4=5\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L45 26\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M66.4 -11.1L82.5 -1.8\"/><path d=\"M68.6 -14.9L84.7 -5.7\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"90.1\" y=\"4.6\" text-anchor=\"middle\">O</text></g></svg>",
         // EN: <svg class="mol mol--skeletal" viewBox="-4 -23 139 59" width="139" height="59" role="img" aria-label="Skeletal formula. Line notation: CCC(C)CC(=O)O" data-g="S:C.C.C.C.C.C.O.O1;0-1,1-2,2-3,2-4,4-5,5=6,5-7" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L45 0"/><path d="M45 0L45 26"/><path d="M45 0L67.5 -13"/><path d="M67.5 -13L90.1 0"/><path d="M87.9 0L87.9 18.5"/><path d="M92.3 0L92.3 18.5"/><path d="M90.1 0L106.1 -9.2"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="90.1" y="30.6" text-anchor="middle">O</text><text x="112.6" y="-8.4" text-anchor="middle">O</text><text x="117.8" y="-8.4" text-anchor="start">H</text></g></svg>
-        "",
+        "<svg class=\"mol mol--skeletal\" viewBox=\"-4 -23 139 59\" width=\"139\" height=\"59\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CCC(C)CC(=O)O\" data-g=\"S:C.C.C.C.C.C.O.O1;0-1,1-2,2-3,2-4,4-5,5=6,5-7\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L45 26\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M67.5 -13L90.1 0\"/><path d=\"M87.9 0L87.9 18.5\"/><path d=\"M92.3 0L92.3 18.5\"/><path d=\"M90.1 0L106.1 -9.2\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"90.1\" y=\"30.6\" text-anchor=\"middle\">O</text><text x=\"112.6\" y=\"-8.4\" text-anchor=\"middle\">O</text><text x=\"117.8\" y=\"-8.4\" text-anchor=\"start\">H</text></g></svg>",
         // EN: <svg class="mol mol--skeletal" viewBox="-4 -49 117 79" width="117" height="79" role="img" aria-label="Skeletal formula. Line notation: CCC(C)C(=O)O" data-g="S:C.C.C.C.C.O.O1;0-1,1-2,2-3,2-4,4=5,4-6" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L45 0"/><path d="M45 0L45 26"/><path d="M45 0L67.5 -13"/><path d="M69.7 -13L69.7 -31.5"/><path d="M65.3 -13L65.3 -31.5"/><path d="M67.5 -13L83.6 -3.7"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="67.5" y="-34.4" text-anchor="middle">O</text><text x="90.1" y="4.6" text-anchor="middle">O</text><text x="95.3" y="4.6" text-anchor="start">H</text></g></svg>
-        "",
+        "<svg class=\"mol mol--skeletal\" viewBox=\"-4 -49 117 79\" width=\"117\" height=\"79\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CCC(C)C(=O)O\" data-g=\"S:C.C.C.C.C.O.O1;0-1,1-2,2-3,2-4,4=5,4-6\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L45 26\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M69.7 -13L69.7 -31.5\"/><path d=\"M65.3 -13L65.3 -31.5\"/><path d=\"M67.5 -13L83.6 -3.7\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"67.5\" y=\"-34.4\" text-anchor=\"middle\">O</text><text x=\"90.1\" y=\"4.6\" text-anchor=\"middle\">O</text><text x=\"95.3\" y=\"4.6\" text-anchor=\"start\">H</text></g></svg>",
       ],
       hints: [
         // EN: Butanoic acid has four carbon atoms in the chain, including the carbon of the COOH group.
@@ -1086,13 +1086,13 @@ S1.i18n.register('ko', 's3-2.q', {
       stem: "",
       options: [
         // EN: <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>",
         // EN: <span class="chem">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>OH</span>
-        "",
+        "<span class=\"chem\">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>OH</span>",
         // EN: <span class="chem">CH<sub>3</sub>CH(OH)CH<sub>3</sub></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH(OH)CH<sub>3</sub></span>",
         // EN: <span class="chem">(CH<sub>3</sub>)<sub>3</sub>COH</span>
-        "",
+        "<span class=\"chem\">(CH<sub>3</sub>)<sub>3</sub>COH</span>",
       ],
       hints: [
         // EN: Find the carbon atom that is bonded to the OH group.
@@ -1166,13 +1166,13 @@ S1.i18n.register('ko', 's3-2.q', {
       stem: "",
       options: [
         // EN: <span class="chem">CH<sub>3</sub>CH(NH<sub>2</sub>)CH<sub>3</sub></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH(NH<sub>2</sub>)CH<sub>3</sub></span>",
         // EN: <span class="chem">CH<sub>3</sub>CH<sub>2</sub>NHCH<sub>3</sub></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>NHCH<sub>3</sub></span>",
         // EN: <span class="chem">(CH<sub>3</sub>)<sub>3</sub>N</span>
-        "",
+        "<span class=\"chem\">(CH<sub>3</sub>)<sub>3</sub>N</span>",
         // EN: <span class="chem">(CH<sub>3</sub>)<sub>3</sub>CNH<sub>2</sub></span>
-        "",
+        "<span class=\"chem\">(CH<sub>3</sub>)<sub>3</sub>CNH<sub>2</sub></span>",
       ],
       hints: [
         // EN: For amines, the rule is about the nitrogen atom, not about a carbon atom.
@@ -1248,13 +1248,13 @@ S1.i18n.register('ko', 's3-2.q', {
       stem: "",
       options: [
         // EN: <svg class="mol mol--skeletal" viewBox="-4 -17 99 47" width="99" height="47" role="img" aria-label="Skeletal formula. Line notation: CCC(C)CC" data-g="S:C.C.C.C.C.C;0-1,1-2,2-3,2-4,4-5" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L45 0"/><path d="M45 0L45 26"/><path d="M45 0L67.5 -13"/><path d="M67.5 -13L90.1 0"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"></g></svg>
-        "",
+        "<svg class=\"mol mol--skeletal\" viewBox=\"-4 -17 99 47\" width=\"99\" height=\"47\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CCC(C)CC\" data-g=\"S:C.C.C.C.C.C;0-1,1-2,2-3,2-4,4-5\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L45 26\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M67.5 -13L90.1 0\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"></g></svg>",
         // EN: <svg class="mol mol--skeletal" viewBox="-4 -39.5 76 44" width="76" height="44" role="img" aria-label="Skeletal formula. Line notation: CC(C)(C)CC" data-g="S:C.C.C.C.C.C;0-1,1-2,1-3,1-4,4-5" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L9.5 -35.5"/><path d="M22.5 -13L35.5 -35.5"/><path d="M22.5 -13L45 0"/><path d="M45 0L67.5 -13"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"></g></svg>
-        "",
+        "<svg class=\"mol mol--skeletal\" viewBox=\"-4 -39.5 76 44\" width=\"76\" height=\"44\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC(C)(C)CC\" data-g=\"S:C.C.C.C.C.C;0-1,1-2,1-3,1-4,4-5\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L9.5 -35.5\"/><path d=\"M22.5 -13L35.5 -35.5\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L67.5 -13\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"></g></svg>",
         // EN: <svg class="mol mol--skeletal" viewBox="-4 -4 99 47" width="99" height="47" role="img" aria-label="Skeletal formula. Line notation: CCCC(C)C" data-g="S:C.C.C.C.C.C;0-1,1-2,2-3,3-4,3-5" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 13"/><path d="M22.5 13L45 0"/><path d="M45 0L67.5 13"/><path d="M67.5 13L67.5 39"/><path d="M67.5 13L90.1 0"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"></g></svg>
-        "",
+        "<svg class=\"mol mol--skeletal\" viewBox=\"-4 -4 99 47\" width=\"99\" height=\"47\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CCCC(C)C\" data-g=\"S:C.C.C.C.C.C;0-1,1-2,2-3,3-4,3-5\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 13\"/><path d=\"M22.5 13L45 0\"/><path d=\"M45 0L67.5 13\"/><path d=\"M67.5 13L67.5 39\"/><path d=\"M67.5 13L90.1 0\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"></g></svg>",
         // EN: <svg class="mol mol--skeletal" viewBox="-4 -43 76 73" width="76" height="73" role="img" aria-label="Skeletal formula. Line notation: CC(C)C(C)C" data-g="S:C.C.C.C.C.C;0-1,1-2,1-3,3-4,3-5" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L22.5 -39"/><path d="M22.5 -13L45 0"/><path d="M45 0L45 26"/><path d="M45 0L67.5 -13"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"></g></svg>
-        "",
+        "<svg class=\"mol mol--skeletal\" viewBox=\"-4 -43 76 73\" width=\"76\" height=\"73\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC(C)C(C)C\" data-g=\"S:C.C.C.C.C.C;0-1,1-2,1-3,3-4,3-5\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L22.5 -39\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L45 26\"/><path d=\"M45 0L67.5 -13\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"></g></svg>",
       ],
       hints: [
         // EN: Turning a drawing over, or drawing it from the other end, does not make a new molecule.
@@ -1328,15 +1328,15 @@ S1.i18n.register('ko', 's3-2.q', {
       stem: "",
       options: [
         // EN: <span class="chem">CH<sub>3</sub>COOCH<sub>3</sub></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>COOCH<sub>3</sub></span>",
         // EN: <span class="chem">HOOCCH<sub>2</sub>CH<sub>3</sub></span>
-        "",
+        "<span class=\"chem\">HOOCCH<sub>2</sub>CH<sub>3</sub></span>",
         // EN: <span class="chem">HCOOCH<sub>2</sub>CH<sub>3</sub></span>
-        "",
+        "<span class=\"chem\">HCOOCH<sub>2</sub>CH<sub>3</sub></span>",
         // EN: <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COOH</span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COOH</span>",
         // EN: <span class="chem">CH<sub>3</sub>COCH<sub>2</sub>OH</span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>COCH<sub>2</sub>OH</span>",
       ],
       hints: [
         // EN: Work out the molecular formula of propanoic acid first. An isomer must match it exactly.

@@ -1229,601 +1229,601 @@ S1.i18n.register('ko', 's1-1', {
     "Substance": "물질",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Melting point": "",
+    "Melting point": "녹는점",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Boiling point": "",
+    "Boiling point": "끓는점",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Box of 48 particles shown as a solid, liquid or gas, with a bar below showing the temperature ranges of the three states": "",
+    "Box of 48 particles shown as a solid, liquid or gas, with a bar below showing the temperature ranges of the three states": "고체, 액체, 기체 상태로 나타낸 입자 48개가 든 상자와, 아래에 세 상태의 온도 범위를 보여 주는 막대",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Pause motion": "",
+    "Pause motion": "움직임 멈추기",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Play motion": "",
+    "Play motion": "움직임 재생",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "liquid": "",
+    "liquid": "액체",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "m.p. {T} °C": "",
+    "m.p. {T} °C": "녹는점 {T} °C",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "b.p. {T} °C": "",
+    "b.p. {T} °C": "끓는점 {T} °C",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Close together in a regular, fixed arrangement. They only vibrate about fixed positions.": "",
+    "Close together in a regular, fixed arrangement. They only vibrate about fixed positions.": "서로 가까이 붙어 규칙적이고 고정된 배열을 이뤄요. 고정된 위치에서 진동만 해요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Solid and liquid together": "",
+    "Solid and liquid together": "고체와 액체가 함께 있음",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "At the melting point both states can exist together. Some particles are still in fixed positions. Others have broken free and move past each other.": "",
+    "At the melting point both states can exist together. Some particles are still in fixed positions. Others have broken free and move past each other.": "녹는점에서는 두 상태가 함께 있을 수 있어요. 어떤 입자는 아직 고정된 위치에 있어요. 다른 입자는 풀려나서 서로 미끄러지듯 지나가요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Still close together, but in a random arrangement. They move past each other, so the liquid flows and takes the shape of the bottom of the box.": "",
+    "Still close together, but in a random arrangement. They move past each other, so the liquid flows and takes the shape of the bottom of the box.": "여전히 서로 가까이 있지만 무질서하게 배열되어 있어요. 서로 미끄러지듯 지나가므로 액체가 흐르고 상자 바닥의 모양을 따라가요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Liquid and gas together": "",
+    "Liquid and gas together": "액체와 기체가 함께 있음",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "At the boiling point both states can exist together. Some particles have escaped the attractions of their neighbours and move freely through the box.": "",
+    "At the boiling point both states can exist together. Some particles have escaped the attractions of their neighbours and move freely through the box.": "끓는점에서는 두 상태가 함께 있을 수 있어요. 어떤 입자는 이웃 입자의 인력에서 벗어나 상자 안을 자유롭게 움직여요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Far apart, in a random arrangement. They move quickly in all directions and fill the whole box.": "",
+    "Far apart, in a random arrangement. They move quickly in all directions and fill the whole box.": "서로 멀리 떨어져 무질서하게 배열되어 있어요. 모든 방향으로 빠르게 움직이며 상자 전체를 채워요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "{C} °C = {K} K": "",
+    "{C} °C = {K} K": "{C} °C = {K} K",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Ice warming: solid": "",
+    "Ice warming: solid": "얼음이 데워짐: 고체",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "The temperature rises. The energy supplied increases the average kinetic energy of the particles: they vibrate faster about their fixed positions.": "",
+    "The temperature rises. The energy supplied increases the average kinetic energy of the particles: they vibrate faster about their fixed positions.": "온도가 올라가요. 공급한 에너지가 입자의 평균 운동 에너지를 높여요: 입자가 고정된 위치에서 더 빠르게 진동해요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Melting: solid and liquid ({pct}% melted)": "",
+    "Melting: solid and liquid ({pct}% melted)": "융해: 고체와 액체 ({pct}% 녹음)",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "The temperature stays at 0 °C. The energy supplied is used to overcome some of the attractions that hold the particles in fixed positions. Their potential energy rises. Their average kinetic energy does not change.": "",
+    "The temperature stays at 0 °C. The energy supplied is used to overcome some of the attractions that hold the particles in fixed positions. Their potential energy rises. Their average kinetic energy does not change.": "온도가 0 °C에 머물러요. 공급한 에너지는 입자를 고정된 위치에 붙잡아 두는 인력의 일부를 극복하는 데 쓰여요. 퍼텐셜 에너지가 커져요. 평균 운동 에너지는 변하지 않아요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Water warming: liquid": "",
+    "Water warming: liquid": "물이 데워짐: 액체",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "The temperature rises again. All the solid has melted, so the energy supplied increases the average kinetic energy of the particles.": "",
+    "The temperature rises again. All the solid has melted, so the energy supplied increases the average kinetic energy of the particles.": "온도가 다시 올라가요. 고체가 모두 녹았으므로 공급한 에너지가 입자의 평균 운동 에너지를 높여요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Boiling: liquid and gas ({pct}% boiled)": "",
+    "Boiling: liquid and gas ({pct}% boiled)": "끓음: 액체와 기체 ({pct}% 끓음)",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "The temperature stays at 100 °C. The energy supplied is used to overcome the attractions between the particles so that they separate completely. Their average kinetic energy does not change. This plateau is long because the particles must be fully separated.": "",
+    "The temperature stays at 100 °C. The energy supplied is used to overcome the attractions between the particles so that they separate completely. Their average kinetic energy does not change. This plateau is long because the particles must be fully separated.": "온도가 100 °C에 머물러요. 공급한 에너지는 입자 사이의 인력을 극복해 입자를 완전히 떼어 놓는 데 쓰여요. 평균 운동 에너지는 변하지 않아요. 입자를 완전히 떼어 놓아야 하므로 이 평평한 구간은 길어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Steam warming: gas": "",
+    "Steam warming: gas": "수증기가 데워짐: 기체",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "The temperature rises again. All the liquid has boiled, so the energy supplied increases the average kinetic energy of the gas particles.": "",
+    "The temperature rises again. All the liquid has boiled, so the energy supplied increases the average kinetic energy of the gas particles.": "온도가 다시 올라가요. 액체가 모두 끓었으므로 공급한 에너지가 기체 입자의 평균 운동 에너지를 높여요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Energy supplied": "",
+    "Energy supplied": "공급한 에너지",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Stage": "",
+    "Stage": "단계",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Why": "",
+    "Why": "이유",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Previous stage": "",
+    "Previous stage": "이전 단계",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Next stage": "",
+    "Next stage": "다음 단계",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Heating curve for 100 grams of water: temperature against energy supplied, with flat sections at 0 and 100 degrees Celsius, and a particle picture for the chosen point": "",
+    "Heating curve for 100 grams of water: temperature against energy supplied, with flat sections at 0 and 100 degrees Celsius, and a particle picture for the chosen point": "물 100 g의 가열 곡선: 공급한 에너지에 따른 온도. 0 °C와 100 °C에서 평평한 구간이 있고, 고른 지점의 입자 그림이 함께 나옴",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "energy supplied / kJ": "",
+    "energy supplied / kJ": "공급한 에너지 / kJ",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "temperature / °C": "",
+    "temperature / °C": "온도 / °C",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "particle picture": "",
+    "particle picture": "입자 그림",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "melting|curve": "",
+    "melting|curve": "융해",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "boiling": "",
+    "boiling": "끓음",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "{E} kJ": "",
+    "{E} kJ": "{E} kJ",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "mixture|poured in": "",
+    "mixture|poured in": "혼합물을|부음",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "filter paper|in a funnel": "",
+    "filter paper|in a funnel": "깔때기 속|거름종이",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "residue:|insoluble solid|stays on paper": "",
+    "residue:|insoluble solid|stays on paper": "거름 찌꺼기:|녹지 않는 고체가|종이에 남음",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "filtrate:|liquid that|passes through": "",
+    "filtrate:|liquid that|passes through": "거른 액:|통과하는|액체",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "add water|(the solvent)": "",
+    "add water|(the solvent)": "물을 넣음|(용매)",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "stir with a|glass rod": "",
+    "stir with a|glass rod": "유리 막대로|저음",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "soluble solid|dissolves:|a solution forms": "",
+    "soluble solid|dissolves:|a solution forms": "녹는 고체가|녹음:|용액이 생김",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "insoluble solid|does not|dissolve": "",
+    "insoluble solid|does not|dissolve": "녹지 않는|고체는|녹지 않음",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "solvent leaves|as vapour": "",
+    "solvent leaves|as vapour": "용매가 증기로|빠져나감",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "evaporating|basin": "",
+    "evaporating|basin": "증발|접시",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "solution, then|crystals of the|dissolved solid": "",
+    "solution, then|crystals of the|dissolved solid": "용액, 그다음|녹아 있던|고체의 결정",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "gentle|heat": "",
+    "gentle|heat": "약하게|가열",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "thermometer: shows the|temperature of the vapour": "",
+    "thermometer: shows the|temperature of the vapour": "온도계: 증기의|온도를 보여 줌",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "cooling water out": "",
+    "cooling water out": "냉각수 나감",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "condenser:|vapour cools|to a liquid": "",
+    "condenser:|vapour cools|to a liquid": "냉각기:|증기가 식어|액체가 됨",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "cooling|water in": "",
+    "cooling|water in": "냉각수|들어옴",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "distillate": "",
+    "distillate": "증류액",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "mixture": "",
+    "mixture": "혼합물",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "heat": "",
+    "heat": "가열",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Dissolve in the minimum|volume of hot solvent.": "",
+    "Dissolve in the minimum|volume of hot solvent.": "최소한의 뜨거운|용매에 녹임.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Filter while hot:|insoluble impurities|stay on the paper.": "",
+    "Filter while hot:|insoluble impurities|stay on the paper.": "뜨거울 때 거름:|녹지 않는 불순물은|종이에 남음.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Cool slowly: crystals form.|Soluble impurities stay|dissolved.": "",
+    "Cool slowly: crystals form.|Soluble impurities stay|dissolved.": "천천히 식힘: 결정이 생김.|녹는 불순물은|녹아 있음.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Filter, rinse with a little|cold solvent, then dry|the crystals.": "",
+    "Filter, rinse with a little|cold solvent, then dry|the crystals.": "거른 뒤 차가운 용매로|조금 헹구고 결정을|말림.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "lid": "",
+    "lid": "뚜껑",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "solvent front": "",
+    "solvent front": "용매 전선",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "separated dyes:|each travels a|different distance": "",
+    "separated dyes:|each travels a|different distance": "분리된 염료:|각각 이동한|거리가 다름",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "chromatography|paper": "",
+    "chromatography|paper": "크로마토그래피|종이",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "pencil baseline|with the start|spot": "",
+    "pencil baseline|with the start|spot": "연필로 그은|출발선과|시작 점",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "solvent: its level|starts below|the baseline": "",
+    "solvent: its level|starts below|the baseline": "용매: 처음 높이는|출발선보다|아래",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Solubility in water: one solid dissolves, the other does not.": "",
+    "Solubility in water: one solid dissolves, the other does not.": "물에 대한 용해도: 한 고체는 녹고 다른 고체는 녹지 않아요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "One part is an undissolved solid, the other is a liquid. The solid particles are too large to pass through filter paper.": "",
+    "One part is an undissolved solid, the other is a liquid. The solid particles are too large to pass through filter paper.": "한 성분은 녹지 않은 고체이고 다른 성분은 액체예요. 고체 입자는 너무 커서 거름종이를 통과하지 못해요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Volatility: one part has a much lower boiling point, so it turns to vapour more easily.": "",
+    "Volatility: one part has a much lower boiling point, so it turns to vapour more easily.": "휘발성: 한 성분의 끓는점이 훨씬 낮아서 더 쉽게 증기가 돼요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Solubility changes with temperature: the solid is much more soluble in hot solvent than in cold solvent.": "",
+    "Solubility changes with temperature: the solid is much more soluble in hot solvent than in cold solvent.": "용해도가 온도에 따라 달라져요: 고체가 차가운 용매보다 뜨거운 용매에 훨씬 잘 녹아요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "The parts are attracted to paper and to a solvent by different amounts.": "",
+    "The parts are attracted to paper and to a solvent by different amounts.": "각 성분이 종이와 용매에 끌리는 정도가 달라요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Solvation (dissolving), then filtration": "",
+    "Solvation (dissolving), then filtration": "용매화(용해), 그다음 거름",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Evaporation, then crystallization": "",
+    "Evaporation, then crystallization": "증발, 그다음 결정화",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Sand in salt water": "",
+    "Sand in salt water": "소금물 속 모래",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Sand stirred into salt water.": "",
+    "Sand stirred into salt water.": "소금물에 모래를 넣고 저은 것.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "the sand removed from the liquid": "",
+    "the sand removed from the liquid": "액체에서 분리한 모래",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "The sand has not dissolved. Its grains are far too large to pass through the tiny holes in filter paper. The water and the dissolved salt pass through.": "",
+    "The sand has not dissolved. Its grains are far too large to pass through the tiny holes in filter paper. The water and the dissolved salt pass through.": "모래는 녹지 않았어요. 모래 알갱이는 거름종이의 작은 구멍을 통과하기에는 너무 커요. 물과 녹아 있는 소금은 통과해요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Filtration separates an insoluble solid from a liquid. The sand is the <strong>residue</strong>. The salt solution is the <strong>filtrate</strong>. Filtration cannot remove the dissolved salt.": "",
+    "Filtration separates an insoluble solid from a liquid. The sand is the <strong>residue</strong>. The salt solution is the <strong>filtrate</strong>. Filtration cannot remove the dissolved salt.": "거름은 녹지 않는 고체를 액체에서 분리해요. 모래가 <strong>거름 찌꺼기</strong>예요. 소금물이 <strong>거른 액</strong>이에요. 거름으로는 녹아 있는 소금을 없앨 수 없어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "There is only one undissolved solid here. The salt is already dissolved.": "",
+    "There is only one undissolved solid here. The salt is already dissolved.": "여기에는 녹지 않은 고체가 하나뿐이에요. 소금은 이미 녹아 있어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "True, but it is a slow way to get sand out of water. Look for the simplest difference.": "",
+    "True, but it is a slow way to get sand out of water. Look for the simplest difference.": "맞는 말이지만, 물에서 모래를 꺼내기에는 느린 방법이에요. 가장 간단한 차이를 찾아보세요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Sand does not dissolve in hot water either.": "",
+    "Sand does not dissolve in hot water either.": "모래는 뜨거운 물에도 녹지 않아요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "That is the idea behind chromatography, which separates dissolved substances.": "",
+    "That is the idea behind chromatography, which separates dissolved substances.": "그것은 녹아 있는 물질들을 분리하는 크로마토그래피의 원리예요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Dry sand and salt": "",
+    "Dry sand and salt": "마른 모래와 소금",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "A dry mixture of sand and salt (both solids).": "",
+    "A dry mixture of sand and salt (both solids).": "모래와 소금의 마른 혼합물(둘 다 고체).",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "the sand and the salt in separate containers": "",
+    "the sand and the salt in separate containers": "따로따로 다른 용기에 담긴 모래와 소금",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Salt is soluble in water. Sand is insoluble.": "",
+    "Salt is soluble in water. Sand is insoluble.": "소금은 물에 녹아요. 모래는 녹지 않아요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Add water and stir. The salt dissolves (solvation) and the sand does not. Then filter: sand is the residue, salt solution is the filtrate. Evaporate the water from the filtrate to get the salt back, and dry the sand.": "",
+    "Add water and stir. The salt dissolves (solvation) and the sand does not. Then filter: sand is the residue, salt solution is the filtrate. Evaporate the water from the filtrate to get the salt back, and dry the sand.": "물을 넣고 저어요. 소금은 녹고(용매화) 모래는 녹지 않아요. 그다음 걸러요: 모래가 거름 찌꺼기, 소금물이 거른 액이에요. 거른 액에서 물을 증발시켜 소금을 다시 얻고, 모래는 말려요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Both parts are solids at the start. There is no liquid to filter yet.": "",
+    "Both parts are solids at the start. There is no liquid to filter yet.": "처음에는 두 성분 모두 고체예요. 아직 거를 액체가 없어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Both solids have very high boiling points. Heating will not separate them in a school laboratory.": "",
+    "Both solids have very high boiling points. Heating will not separate them in a school laboratory.": "두 고체 모두 끓는점이 매우 높아요. 학교 실험실에서 가열해서는 분리할 수 없어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "That difference is used to purify one solid, not to separate these two.": "",
+    "That difference is used to purify one solid, not to separate these two.": "그 차이는 고체 하나를 순수하게 만드는 데 쓰지, 이 둘을 분리하는 데 쓰지 않아요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Copper(II) sulfate solution": "",
+    "Copper(II) sulfate solution": "황산 구리(II) 용액",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Copper(II) sulfate dissolved in water.": "",
+    "Copper(II) sulfate dissolved in water.": "물에 녹인 황산 구리(II).",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "solid copper(II) sulfate crystals": "",
+    "solid copper(II) sulfate crystals": "고체 황산 구리(II) 결정",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Water is volatile: it turns to vapour when heated. The dissolved solid has a very high boiling point and stays behind.": "",
+    "Water is volatile: it turns to vapour when heated. The dissolved solid has a very high boiling point and stays behind.": "물은 휘발성이 있어서 가열하면 증기가 돼요. 녹아 있는 고체는 끓는점이 매우 높아서 남아 있어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Heat gently to evaporate some of the water until the solution is saturated. Then leave it to cool so that crystals form (crystallization). You want the solid, so the water can escape into the air.": "",
+    "Heat gently to evaporate some of the water until the solution is saturated. Then leave it to cool so that crystals form (crystallization). You want the solid, so the water can escape into the air.": "약하게 가열해 물의 일부를 증발시켜 용액을 포화 상태로 만들어요. 그다음 식혀서 결정이 생기게 해요(결정화). 원하는 것은 고체이므로 물은 공기 중으로 날아가도 돼요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "There is only one solid here, and it is already dissolved.": "",
+    "There is only one solid here, and it is already dissolved.": "여기에는 고체가 하나뿐이고, 이미 녹아 있어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "The solid is dissolved, so its particles pass through filter paper with the water.": "",
+    "The solid is dissolved, so its particles pass through filter paper with the water.": "고체가 녹아 있으므로 그 입자는 물과 함께 거름종이를 통과해요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "True for many solids, but here there are no impurities to remove. Which difference lets you remove the water?": "",
+    "True for many solids, but here there are no impurities to remove. Which difference lets you remove the water?": "많은 고체에 맞는 말이지만, 여기에는 없앨 불순물이 없어요. 어떤 차이를 이용하면 물을 없앨 수 있을까요?",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "There is only one dissolved substance, so there is nothing to spread out on paper.": "",
+    "There is only one dissolved substance, so there is nothing to spread out on paper.": "녹아 있는 물질이 하나뿐이므로 종이 위에 퍼뜨려 나눌 것이 없어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Salt water (you want the water)": "",
+    "Salt water (you want the water)": "소금물 (물을 얻고 싶을 때)",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Salt dissolved in water.": "",
+    "Salt dissolved in water.": "물에 녹인 소금.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "pure water": "",
+    "pure water": "순수한 물",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Water boils at 100 °C. Salt has a very high boiling point and does not vaporize.": "",
+    "Water boils at 100 °C. Salt has a very high boiling point and does not vaporize.": "물은 100 °C에서 끓어요. 소금은 끓는점이 매우 높아서 기화하지 않아요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Distillation boils the water and then condenses the vapour back to a liquid in a separate container. The liquid collected is the <strong>distillate</strong>. The salt stays in the flask. Evaporation would lose the water you want.": "",
+    "Distillation boils the water and then condenses the vapour back to a liquid in a separate container. The liquid collected is the <strong>distillate</strong>. The salt stays in the flask. Evaporation would lose the water you want.": "증류는 물을 끓인 다음 증기를 다른 용기에서 다시 액체로 액화시켜요. 모은 액체를 <strong>증류액</strong>이라고 해요. 소금은 플라스크에 남아요. 증발시키면 얻고 싶은 물을 잃어버려요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "The salt is dissolved, so it passes through filter paper with the water.": "",
+    "The salt is dissolved, so it passes through filter paper with the water.": "소금은 녹아 있으므로 물과 함께 거름종이를 통과해요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "That helps to purify a solid. Here you want the liquid.": "",
+    "That helps to purify a solid. Here you want the liquid.": "그것은 고체를 순수하게 만드는 데 도움이 돼요. 여기서는 액체를 얻고 싶어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Chromatography separates tiny amounts for identification. It would not give you a beaker of water.": "",
+    "Chromatography separates tiny amounts for identification. It would not give you a beaker of water.": "크로마토그래피는 확인을 위해 아주 적은 양을 분리해요. 물을 비커 하나 가득 얻을 수는 없어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Ethanol and water": "",
+    "Ethanol and water": "Ethanol과 물",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Ethanol and water, two liquids that mix completely.": "",
+    "Ethanol and water, two liquids that mix completely.": "Ethanol과 물, 완전히 섞이는 두 액체.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "the ethanol separated from the water": "",
+    "the ethanol separated from the water": "물에서 분리한 ethanol",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Ethanol boils at 78 °C and water at 100 °C. Ethanol is more volatile.": "",
+    "Ethanol boils at 78 °C and water at 100 °C. Ethanol is more volatile.": "Ethanol은 78 °C에서, 물은 100 °C에서 끓어요. Ethanol이 더 휘발성이 커요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "On heating, the vapour contains more of the liquid with the lower boiling point (ethanol). The condenser turns the vapour back into a liquid, which is collected as the distillate. One distillation gives a distillate that is richer in ethanol. It is not pure ethanol.": "",
+    "On heating, the vapour contains more of the liquid with the lower boiling point (ethanol). The condenser turns the vapour back into a liquid, which is collected as the distillate. One distillation gives a distillate that is richer in ethanol. It is not pure ethanol.": "가열하면 증기에는 끓는점이 낮은 액체(ethanol)가 더 많이 들어 있어요. 냉각기가 증기를 다시 액체로 바꾸고, 이것을 증류액으로 모아요. 한 번 증류하면 ethanol이 더 많이 든 증류액을 얻어요. 순수한 ethanol은 아니에요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Both parts are liquids, and they mix completely.": "",
+    "Both parts are liquids, and they mix completely.": "두 성분 모두 액체이고, 완전히 섞여요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "There is no undissolved solid. Both liquids pass through filter paper.": "",
+    "There is no undissolved solid. Both liquids pass through filter paper.": "녹지 않은 고체가 없어요. 두 액체 모두 거름종이를 통과해요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "That applies to a solid dissolved in a solvent.": "",
+    "That applies to a solid dissolved in a solvent.": "그것은 용매에 녹아 있는 고체에 해당해요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Chromatography separates tiny amounts for identification, not two bulk liquids.": "",
+    "Chromatography separates tiny amounts for identification, not two bulk liquids.": "크로마토그래피는 확인을 위해 아주 적은 양을 분리하지, 많은 양의 두 액체를 분리하지 않아요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Dyes in black ink": "",
+    "Dyes in black ink": "검은색 잉크 속 염료",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Black ink, a solution of several coloured dyes.": "",
+    "Black ink, a solution of several coloured dyes.": "여러 색의 염료가 녹아 있는 용액인 검은색 잉크.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "to find out how many dyes the ink contains": "",
+    "to find out how many dyes the ink contains": "잉크에 염료가 몇 가지 들어 있는지 알아내기",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Each dye is attracted to the paper and dissolves in the moving solvent by a different amount.": "",
+    "Each dye is attracted to the paper and dissolves in the moving solvent by a different amount.": "각 염료가 종이에 끌리는 정도와 움직이는 용매에 녹는 정도가 달라요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "The solvent moves up the paper and carries the dyes with it. A dye that is more soluble in the solvent and less attracted to the paper travels further. Each dye ends up at a different height.": "",
+    "The solvent moves up the paper and carries the dyes with it. A dye that is more soluble in the solvent and less attracted to the paper travels further. Each dye ends up at a different height.": "용매가 종이를 타고 올라가면서 염료를 함께 운반해요. 용매에 더 잘 녹고 종이에 덜 끌리는 염료일수록 더 멀리 이동해요. 결국 염료마다 다른 높이에 자리 잡아요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "All the dyes are dissolved in the same ink.": "",
+    "All the dyes are dissolved in the same ink.": "모든 염료가 같은 잉크에 녹아 있어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "The dyes are dissolved, so they pass through filter paper together.": "",
+    "The dyes are dissolved, so they pass through filter paper together.": "염료는 녹아 있으므로 함께 거름종이를 통과해요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Dyes are not volatile. Heating removes the solvent but leaves the dyes mixed together.": "",
+    "Dyes are not volatile. Heating removes the solvent but leaves the dyes mixed together.": "염료는 휘발성이 없어요. 가열하면 용매는 없어지지만 염료는 섞인 채로 남아요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "That would not separate several dissolved dyes from each other.": "",
+    "That would not separate several dissolved dyes from each other.": "그 방법으로는 녹아 있는 여러 염료를 서로 분리할 수 없어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Impure solid product": "",
+    "Impure solid product": "불순한 고체 생성물",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "An impure solid product from a reaction. It contains small amounts of other solids.": "",
+    "An impure solid product from a reaction. It contains small amounts of other solids.": "반응으로 얻은 불순한 고체 생성물. 다른 고체가 소량 섞여 있어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "pure, dry crystals of the product": "",
+    "pure, dry crystals of the product": "순수하고 마른 생성물 결정",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "The product is very soluble in the hot solvent but much less soluble in the cold solvent. Small amounts of soluble impurities stay dissolved when the solution cools.": "",
+    "The product is very soluble in the hot solvent but much less soluble in the cold solvent. Small amounts of soluble impurities stay dissolved when the solution cools.": "생성물은 뜨거운 용매에는 아주 잘 녹지만 차가운 용매에는 훨씬 덜 녹아요. 소량의 녹는 불순물은 용액이 식어도 녹아 있어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Dissolve the solid in the minimum volume of hot solvent. Filter hot to remove insoluble impurities. Cool so that the product crystallizes. Filter, rinse with a little cold solvent and dry.": "",
+    "Dissolve the solid in the minimum volume of hot solvent. Filter hot to remove insoluble impurities. Cool so that the product crystallizes. Filter, rinse with a little cold solvent and dry.": "고체를 최소한의 뜨거운 용매에 녹여요. 뜨거울 때 걸러서 녹지 않는 불순물을 없애요. 식혀서 생성물이 결정이 되게 해요. 걸러서 차가운 용매로 조금 헹군 다음 말려요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Close. But one filtration cannot remove impurities that also dissolve.": "",
+    "Close. But one filtration cannot remove impurities that also dissolve.": "거의 맞았어요. 하지만 거름을 한 번 해서는 함께 녹는 불순물을 없앨 수 없어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Everything is solid at the start. There is no liquid to filter yet.": "",
+    "Everything is solid at the start. There is no liquid to filter yet.": "처음에는 모두 고체예요. 아직 거를 액체가 없어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "The solids are not volatile.": "",
+    "The solids are not volatile.": "고체들은 휘발성이 없어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Chromatography separates tiny amounts for identification. It would not give you a useful mass of product.": "",
+    "Chromatography separates tiny amounts for identification. It would not give you a useful mass of product.": "크로마토그래피는 확인을 위해 아주 적은 양을 분리해요. 쓸모 있는 양의 생성물을 얻을 수는 없어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Solvation is the first step when you start with two solids, one soluble and one insoluble.": "",
+    "Solvation is the first step when you start with two solids, one soluble and one insoluble.": "용매화는 녹는 고체와 녹지 않는 고체, 두 고체로 시작할 때의 첫 단계예요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Filtration only removes a solid that has not dissolved. Dissolved particles pass through the paper.": "",
+    "Filtration only removes a solid that has not dissolved. Dissolved particles pass through the paper.": "거름은 녹지 않은 고체만 없애요. 녹아 있는 입자는 종이를 통과해요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Evaporation keeps the dissolved solid and loses the solvent into the air. Check which part you want to keep.": "",
+    "Evaporation keeps the dissolved solid and loses the solvent into the air. Check which part you want to keep.": "증발은 녹아 있는 고체를 남기고 용매는 공기 중으로 잃어요. 어떤 성분을 얻고 싶은지 확인하세요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Distillation collects the liquid that boils off. Check which part you want to keep.": "",
+    "Distillation collects the liquid that boils off. Check which part you want to keep.": "증류는 끓어서 나온 액체를 모아요. 어떤 성분을 얻고 싶은지 확인하세요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Recrystallization purifies a solid that has small amounts of impurities.": "",
+    "Recrystallization purifies a solid that has small amounts of impurities.": "재결정은 소량의 불순물이 섞인 고체를 순수하게 만들어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Paper chromatography separates small amounts of dissolved substances so that you can identify them.": "",
+    "Paper chromatography separates small amounts of dissolved substances so that you can identify them.": "종이 크로마토그래피는 녹아 있는 소량의 물질을 분리해서 무엇인지 확인할 수 있게 해요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Labelled diagram of filtration": "",
+    "Labelled diagram of filtration": "이름을 붙인 거름 장치 그림",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Solvation": "",
+    "Solvation": "용매화",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Labelled diagram of solvation": "",
+    "Labelled diagram of solvation": "이름을 붙인 용매화 그림",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Evaporation and crystallization": "",
+    "Evaporation and crystallization": "증발과 결정화",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Labelled diagram of evaporation and crystallization": "",
+    "Labelled diagram of evaporation and crystallization": "이름을 붙인 증발과 결정화 그림",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Labelled diagram of distillation": "",
+    "Labelled diagram of distillation": "이름을 붙인 증류 장치 그림",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Labelled diagram of recrystallization": "",
+    "Labelled diagram of recrystallization": "이름을 붙인 재결정 그림",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Labelled diagram of paper chromatography": "",
+    "Labelled diagram of paper chromatography": "이름을 붙인 종이 크로마토그래피 그림",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Start again": "",
+    "Start again": "처음부터 다시",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Not chosen yet": "",
+    "Not chosen yet": "아직 고르지 않음",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "<strong>You have:</strong> {mix}<br><strong>You want:</strong> {want}.": "",
+    "<strong>You have:</strong> {mix}<br><strong>You want:</strong> {want}.": "<strong>가진 것:</strong> {mix}<br><strong>얻고 싶은 것:</strong> {want}.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Step 1. Which physical property is different?": "",
+    "Step 1. Which physical property is different?": "1단계. 어떤 물리적 성질이 다를까요?",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Try another property.": "",
+    "Try another property.": "다른 성질을 골라 보세요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Step 2. Which technique uses that difference to give you what you want?": "",
+    "Step 2. Which technique uses that difference to give you what you want?": "2단계. 그 차이를 이용해 원하는 것을 얻는 기술은 무엇일까요?",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Homogeneous mixture": "",
+    "Homogeneous mixture": "균일 혼합물",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Heterogeneous mixture": "",
+    "Heterogeneous mixture": "불균일 혼합물",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Copper wire": "",
+    "Copper wire": "구리 선",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Copper contains only copper atoms.": "",
+    "Copper contains only copper atoms.": "구리에는 구리 원자만 들어 있어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Oxygen gas, {formula}": "",
+    "Oxygen gas, {formula}": "산소 기체, {formula}",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "The molecules contain two atoms, but both are oxygen atoms. One type of atom means an element.": "",
+    "The molecules contain two atoms, but both are oxygen atoms. One type of atom means an element.": "분자에 원자가 2개 들어 있지만 둘 다 산소 원자예요. 원자의 종류가 한 가지이면 원소예요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Diamond": "",
+    "Diamond": "다이아몬드",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Diamond contains only carbon atoms.": "",
+    "Diamond contains only carbon atoms.": "다이아몬드에는 탄소 원자만 들어 있어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Distilled water, {formula}": "",
+    "Distilled water, {formula}": "증류수, {formula}",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Hydrogen and oxygen atoms are chemically bonded in a fixed 2 : 1 ratio.": "",
+    "Hydrogen and oxygen atoms are chemically bonded in a fixed 2 : 1 ratio.": "수소 원자와 산소 원자가 2 : 1의 일정한 비율로 화학적으로 결합해 있어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Sodium chloride crystals, {formula}": "",
+    "Sodium chloride crystals, {formula}": "염화 나트륨 결정, {formula}",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Sodium and chlorine are chemically bonded in a fixed 1 : 1 ratio.": "",
+    "Sodium and chlorine are chemically bonded in a fixed 1 : 1 ratio.": "나트륨과 염소가 1 : 1의 일정한 비율로 화학적으로 결합해 있어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Carbon dioxide, {formula}": "",
+    "Carbon dioxide, {formula}": "이산화 탄소, {formula}",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Carbon and oxygen atoms are chemically bonded in a fixed 1 : 2 ratio.": "",
+    "Carbon and oxygen atoms are chemically bonded in a fixed 1 : 2 ratio.": "탄소 원자와 산소 원자가 1 : 2의 일정한 비율로 화학적으로 결합해 있어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Clean, dry air": "",
+    "Clean, dry air": "깨끗하고 건조한 공기",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Air is several gases (mainly nitrogen and oxygen) mixed evenly. The composition is the same throughout.": "",
+    "Air is several gases (mainly nitrogen and oxygen) mixed evenly. The composition is the same throughout.": "공기는 여러 기체(주로 질소와 산소)가 고르게 섞인 것이에요. 조성이 전체적으로 같아요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Salt dissolved in water": "",
+    "Salt dissolved in water": "물에 녹인 소금",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "A solution is a mixture with the same composition throughout. You cannot see separate parts.": "",
+    "A solution is a mixture with the same composition throughout. You cannot see separate parts.": "용액은 조성이 전체적으로 같은 혼합물이에요. 따로 떨어진 부분이 보이지 않아요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Brass (copper and zinc)": "",
+    "Brass (copper and zinc)": "황동 (구리와 아연)",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Brass is an alloy. The copper and zinc atoms are mixed evenly, and the ratio can vary, so it is a mixture and not a compound.": "",
+    "Brass is an alloy. The copper and zinc atoms are mixed evenly, and the ratio can vary, so it is a mixture and not a compound.": "황동은 합금이에요. 구리 원자와 아연 원자가 고르게 섞여 있고 비율이 달라질 수 있으므로, 화합물이 아니라 혼합물이에요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Sand stirred into water": "",
+    "Sand stirred into water": "물에 넣고 저은 모래",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "You can see separate regions of sand and of water. The composition is not the same throughout.": "",
+    "You can see separate regions of sand and of water. The composition is not the same throughout.": "모래 부분과 물 부분이 따로 보여요. 조성이 전체적으로 같지 않아요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Oil and water": "",
+    "Oil and water": "기름과 물",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "The two liquids form separate layers. The composition is not the same throughout.": "",
+    "The two liquids form separate layers. The composition is not the same throughout.": "두 액체가 따로 층을 이뤄요. 조성이 전체적으로 같지 않아요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Granite rock": "",
+    "Granite rock": "화강암",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "You can see grains of different minerals. The composition is not the same throughout.": "",
+    "You can see grains of different minerals. The composition is not the same throughout.": "서로 다른 광물 알갱이가 보여요. 조성이 전체적으로 같지 않아요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Check the types of atom. A compound needs atoms of two or more different elements.": "",
+    "Check the types of atom. A compound needs atoms of two or more different elements.": "원자의 종류를 확인하세요. 화합물이 되려면 2가지 이상의 서로 다른 원소의 원자가 있어야 해요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "A mixture contains more than one substance. This is a single substance.": "",
+    "A mixture contains more than one substance. This is a single substance.": "혼합물에는 2가지 이상의 물질이 들어 있어요. 이것은 한 가지 물질이에요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "An element has only one type of atom. Look at the formula: how many different elements are in it?": "",
+    "An element has only one type of atom. Look at the formula: how many different elements are in it?": "원소에는 한 종류의 원자만 있어요. 화학식을 보세요: 서로 다른 원소가 몇 가지 들어 있나요?",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "The different atoms here are chemically bonded in a fixed ratio. In a mixture the parts are not bonded to each other and the ratio can vary.": "",
+    "The different atoms here are chemically bonded in a fixed ratio. In a mixture the parts are not bonded to each other and the ratio can vary.": "여기서는 서로 다른 원자가 일정한 비율로 화학적으로 결합해 있어요. 혼합물에서는 성분끼리 결합하지 않고 비율이 달라질 수 있어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "The different atoms here are chemically bonded in a fixed ratio. That makes a single pure substance, not a mixture.": "",
+    "The different atoms here are chemically bonded in a fixed ratio. That makes a single pure substance, not a mixture.": "여기서는 서로 다른 원자가 일정한 비율로 화학적으로 결합해 있어요. 그래서 혼합물이 아니라 한 가지 순물질이에요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "There is more than one substance here.": "",
+    "There is more than one substance here.": "여기에는 2가지 이상의 물질이 있어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "The substances here are not chemically bonded to each other, and their ratio can vary. That makes a mixture.": "",
+    "The substances here are not chemically bonded to each other, and their ratio can vary. That makes a mixture.": "여기 있는 물질들은 서로 화학적으로 결합하지 않았고, 비율이 달라질 수 있어요. 그래서 혼합물이에요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "It is a mixture, but can you see separate parts? If the composition is the same throughout, it is homogeneous.": "",
+    "It is a mixture, but can you see separate parts? If the composition is the same throughout, it is homogeneous.": "혼합물은 맞아요. 그런데 따로 떨어진 부분이 보이나요? 조성이 전체적으로 같다면 균일 혼합물이에요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "It is a mixture, but the parts are not evenly spread. You can see separate regions.": "",
+    "It is a mixture, but the parts are not evenly spread. You can see separate regions.": "혼합물은 맞아요. 하지만 성분이 고르게 퍼져 있지 않아요. 따로 떨어진 부분이 보여요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Sorted": "",
+    "Sorted": "분류함",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Right first time": "",
+    "Right first time": "한 번에 맞힘",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "1. Pick a substance": "",
+    "1. Pick a substance": "1. 물질 고르기",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "Substances still to sort": "",
+    "Substances still to sort": "아직 분류하지 않은 물질",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "2. Choose where it belongs": "",
+    "2. Choose where it belongs": "2. 들어갈 곳 고르기",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "All sorted. You got {n} of {total} right first time.": "",
+    "All sorted. You got {n} of {total} right first time.": "모두 분류했어요. {total}개 중 {n}개를 한 번에 맞혔어요.",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "{bin}: substances placed here": "",
+    "{bin}: substances placed here": "{bin}: 여기에 놓은 물질",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "{n} of {total}": "",
+    "{n} of {total}": "{total}개 중 {n}개",
 
     // widget string (assets/js/widgets-s1-1.js)
-    "<strong>{name}</strong>: {text}": "",
+    "<strong>{name}</strong>: {text}": "<strong>{name}</strong>: {text}",
 
   }
 });
