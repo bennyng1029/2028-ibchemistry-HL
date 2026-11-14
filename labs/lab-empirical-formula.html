@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lab 5 Finding an empirical formula by experiment | Structure Lab</title>
+<meta name="description" content="A guided virtual practical for IB Chemistry Structure 1.4: burn magnesium in a crucible and heat hydrated copper(II) sulfate to constant mass, then turn the mass data into an empirical formula with uncertainties and an evaluation.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for Lab 5. Tokens only. */
+.labw-svg { max-width: 34rem; margin-inline: auto; }
+.labw-svg text { font-family: var(--font-body); fill: var(--ink); font-size: 13px; }
+.labw-svg .labw-svg__small { font-size: 11.5px; fill: var(--ink-2); }
+.labw-svg .labw-svg__display { font-family: var(--font-mono); font-size: 19px; font-weight: 600; fill: var(--ink); }
+.labw-svg .labw-svg__strong { font-weight: 700; }
+.labw-data { margin-top: 0.85rem; }
+.labw-data__head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.5rem; margin: 0 0 0.4rem; }
+.labw-data__title { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: 0.98rem; }
+.labw-data__status { font-size: 0.85rem; color: var(--ink-2); }
+.widget__stage .table-scroll { margin: 0; }
+.labw-data table.data { font-size: 0.9rem; }
+.labw-note { margin: 0.6rem 0 0; font-size: 0.92rem; color: var(--ink-2); max-width: none; }
+.labw-work { margin-top: 0.75rem; }
+.labw-work:empty { display: none; }
+.widget__controls > .control { max-width: 100%; min-width: 0; }
+.widget__controls .select { max-width: 100%; min-width: 0; width: 100%; }
+</style>
+</head>
+<body data-page="lab-empirical-formula">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="lab-empirical-formula"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Lab 5 · Structure 1.4</p>
+      <h1>Finding an empirical formula by experiment</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>How can the change in mass when a substance is burned or heated tell us the formula of a compound?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <section class="topic-section" id="goals">
+        <h2>What you need to be able to do</h2>
+        <p>This lab has two parts. In part A you burn magnesium to find the formula of magnesium oxide. In part B you heat a hydrated salt to find how much water of crystallization it holds. Tick each skill when you can do it without notes.</p>
+        <ul class="checklist" data-s1-checklist="lab-empirical-formula">
+          <li data-id="ef-method-mgo" data-level="sl">Describe how to burn magnesium in a crucible so that oxygen gets in but no product escapes.</li>
+          <li data-id="ef-constant-mass" data-level="sl">Explain what “heating to constant mass” means and why it is needed.</li>
+          <li data-id="ef-hydrate" data-level="sl">Find the value of <i>x</i> in a hydrated salt from the mass lost on heating.</li>
+          <li data-id="ef-process" data-level="sl">Turn mass data into amounts in moles and then into a simple whole-number ratio.</li>
+          <li data-id="ef-approx" data-level="sl">Decide when a ratio such as 0.93 can be rounded to 1, and when a ratio such as 1.5 must be multiplied up.</li>
+          <li data-id="ef-combustion" data-level="sl">Use the masses of carbon dioxide and water from a combustion to find an empirical formula.</li>
+          <li data-id="ef-uncertainty" data-level="sl">Propagate balance uncertainties through a mass difference and a ratio, and compare the result with the expected formula.</li>
+          <li data-id="ef-evaluate" data-level="sl">Say how each common error changes the result, and suggest a realistic improvement.</li>
+        </ul>
+      </section>
+
+      <section class="topic-section" id="background" data-toc="The chemistry behind it">
+        <span class="section-code">Structure 1.4.3 – 1.4.4</span>
+        <h2>The chemistry behind it</h2>
+        <p>An <dfn data-def="The simplest whole-number ratio of the atoms of each element in a compound.">empirical formula</dfn> gives the simplest whole-number ratio of atoms in a compound. To find it, you need the mass of each element in a sample. Then <i>n</i> = <i>m</i> ÷ <i>M</i> turns each mass into an amount in moles, and the ratio of the amounts is the ratio of the atoms. The full method is on the topic page: <a href="../topics/s1-4.html#formulas">Empirical and molecular formulas</a>.</p>
+
+        <h3>Part A: magnesium burning in air</h3>
+        <p>When magnesium burns, it combines with oxygen from the air. The solid gets <strong>heavier</strong>, because the oxygen atoms now sit in the solid product.</p>
+        <p><span class="chem">2Mg(s) + O2(g) -> 2MgO(s)</span></p>
+        <p>So you weigh the magnesium before, and the oxide after. The increase in mass is the mass of oxygen that combined.</p>
+
+        <h3>Part B: driving off water of crystallization</h3>
+        <p>Many salts form crystals with water molecules built into the lattice. This is <dfn data-def="Water molecules that are part of the crystal lattice of a salt, in a fixed ratio to the formula unit.">water of crystallization</dfn>. Blue hydrated copper(II) sulfate loses this water on gentle heating and turns into a white powder.</p>
+        <p><span class="chem">CuSO4.xH2O(s) -> CuSO4(s) + xH2O(g)</span></p>
+        <p>This time the solid gets <strong>lighter</strong>. The loss in mass is the mass of water. The mass left is the anhydrous salt.</p>
+
+        <aside class="callout callout--key">
+          <p>In both parts, the balance cannot see atoms. It sees mass. The whole method rests on knowing which change in mass belongs to which substance: a gain of oxygen in part A, a loss of water in part B.</p>
+        </aside>
+
+        <h3>Linking question: combustion data</h3>
+        <p>The same idea works for compounds of carbon and hydrogen. Burn a known mass completely in excess oxygen and collect the products. All the carbon ends up in <span class="chem">CO2</span> and all the hydrogen in <span class="chem">H2O</span>. So <i>n</i>(C) = <i>n</i>(<span class="chem">CO2</span>) and <i>n</i>(H) = 2 × <i>n</i>(<span class="chem">H2O</span>). If the compound also contains oxygen, its mass is found by difference. You will meet one of these in the exam practice.</p>
+      </section>
+
+      <section class="topic-section" id="plan" data-toc="Aim, variables and safety">
+        <h2>Aim, variables and safety</h2>
+        <p><strong>Aim.</strong> To find the empirical formula of magnesium oxide, and the value of <i>x</i> in <span class="chem">CuSO4.xH2O</span>, from measured masses.</p>
+        <p>These are measurements, not investigations of a cause and effect, so there is no independent variable to change. What matters is what you measure and what you keep the same.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Variables in the two parts</caption>
+            <thead><tr><th scope="col">Variable</th><th scope="col">Part A: magnesium oxide</th><th scope="col">Part B: hydrated salt</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Measured</th><td>Mass of crucible and lid; with magnesium; with the oxide after each heating</td><td>Mass of crucible; with the hydrate; after each heating</td></tr>
+              <tr><th scope="row">Calculated</th><td>Mass of magnesium, mass of oxygen, mole ratio Mg : O</td><td>Mass of anhydrous salt, mass of water, value of <i>x</i></td></tr>
+              <tr><th scope="row">Controlled</th><td>Same balance for every reading; same crucible and lid; heat until the mass is constant</td><td>Same balance; same crucible; gentle heating; cool the same way before every weighing</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Equipment</h3>
+        <ul>
+          <li>Porcelain crucible with lid, pipeclay triangle, tripod, heatproof mat, Bunsen burner, crucible tongs</li>
+          <li>Balance reading to 0.01 g (or 0.001 g if available)</li>
+          <li>About 25 cm of magnesium ribbon, cleaned with emery paper to remove the dull oxide layer</li>
+          <li>About 2.5 g of hydrated copper(II) sulfate crystals; a desiccator for cooling if available</li>
+        </ul>
+
+        <aside class="callout callout--safety">
+          <p>Wear eye protection throughout. Burning magnesium gives out a very bright white light that includes ultraviolet: do not look straight at it, and lift the lid only a little, with tongs. The crucible, lid, triangle and tripod stay hot long after they stop glowing, so move them only with tongs and let them cool on the heatproof mat. Keep the rest of the magnesium ribbon away from the flame. Copper(II) sulfate is harmful if swallowed and irritates the eyes and skin; wash your hands after use and put the residue in the waste container, not the sink, because it is toxic to aquatic life. Do not heat copper(II) sulfate strongly: above about 600 °C it decomposes and gives off sulfur trioxide, which is corrosive.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="method">
+        <h2>Method</h2>
+        <h3>Part A: magnesium oxide</h3>
+        <ol>
+          <li>Heat the empty crucible and lid for a minute, let them cool, then weigh them together. <span class="muted">This drives off any moisture, so the first reading is a true starting mass.</span></li>
+          <li>Coil the cleaned magnesium ribbon loosely, put it in the crucible, and weigh crucible, lid and magnesium together.</li>
+          <li>Put the crucible on the pipeclay triangle with the lid on. Heat gently at first, then strongly.</li>
+          <li>Every minute or so, lift the lid slightly with tongs for a moment, then put it back. <span class="muted">Lifting lets fresh air in, so there is oxygen for the reaction. Putting it back stops the white smoke of magnesium oxide escaping.</span></li>
+          <li>When the magnesium no longer glows when the lid is lifted, take the lid off and heat strongly for two more minutes.</li>
+          <li>Let everything cool, then weigh crucible, lid and contents.</li>
+          <li>Heat again for two minutes, cool and reweigh. Repeat until two readings in a row agree to within 0.01 g. <span class="muted">This is heating to constant mass. It shows that the reaction is complete.</span></li>
+        </ol>
+        <h3>Part B: hydrated copper(II) sulfate</h3>
+        <ol>
+          <li>Weigh a clean, dry crucible.</li>
+          <li>Add about 2.5 g of the blue crystals and weigh again.</li>
+          <li>Heat gently, with the lid off, stirring now and then with a glass rod. <span class="muted">Gentle heating stops the crystals spitting out, and stops the anhydrous salt decomposing.</span></li>
+          <li>When the solid is white all through, let it cool in a desiccator, then weigh. <span class="muted">Anhydrous copper(II) sulfate takes water back from the air, so it should not cool on the open bench.</span></li>
+          <li>Heat, cool and weigh again until two readings agree to within 0.01 g.</li>
+        </ol>
+        <aside class="callout callout--exam">
+          <p>“Heat to constant mass” earns its mark only with the detail: heat, cool, weigh, and <strong>repeat until two consecutive masses are the same</strong> (within the balance’s precision). Then say why: all the magnesium has reacted, or all the water has been removed.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="experiment" data-toc="Run the experiment">
+        <h2>Run the experiment</h2>
+        <p>Each run uses a new piece of apparatus and a new sample, so your readings change a little from run to run, just as in a real lab. Work through the buttons from left to right. Write your readings down, or copy the raw data table, before you process them.</p>
+
+        <figure data-s1-widget="lab-empirical-formula.magnesium" data-title="Part A: burning magnesium in a crucible">
+          <p class="widget__fallback">Typical data: crucible and lid 26.42 g; with magnesium 26.78 g; after heating 27.01 g, 27.00 g, 27.00 g.</p>
+          <figcaption>Choose how you use the lid and which balance you have, then weigh, add the magnesium and heat until the mass stops changing. Try the “lid left off” and “lid never lifted” options to see what each error does to the ratio.</figcaption>
+        </figure>
+
+        <figure data-s1-widget="lab-empirical-formula.hydrate" data-title="Part B: heating hydrated copper(II) sulfate">
+          <p class="widget__fallback">Typical data: crucible 18.47 g; with hydrate 21.03 g; after heating 20.25 g, 20.14 g, 20.12 g, 20.12 g.</p>
+          <figcaption>Heat gently and cool in a desiccator for a good result. Then try strong heating, or cooling on the open bench, and see why the mass never settles or why <i>x</i> comes out wrong.</figcaption>
+        </figure>
+      </section>
+
+      <section class="topic-section" id="processing" data-toc="Processing the data">
+        <span class="section-code">Structure 1.4.4</span>
+        <h2>Processing the data</h2>
+        <p>The route is always the same: masses of each part, then amounts in moles, then divide by the smallest amount, then a whole-number ratio. Use the data booklet <i>A</i><sub>r</sub> values: Mg = 24.31, O = 16.00, H = 1.01, S = 32.07, Cu = 63.55.</p>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">The formula of magnesium oxide</h3>
+          <div class="worked__problem">
+            <p>A student records these readings on a balance that reads to 0.01 g.</p>
+            <div class="table-scroll">
+              <table class="data">
+                <caption>Part A raw data</caption>
+                <thead><tr><th scope="col">Reading</th><th scope="col" class="num">Mass / g</th></tr></thead>
+                <tbody>
+                  <tr><th scope="row">Crucible and lid</th><td class="num">26.42</td></tr>
+                  <tr><th scope="row">Crucible, lid and magnesium</th><td class="num">26.78</td></tr>
+                  <tr><th scope="row">After heating 1</th><td class="num">27.01</td></tr>
+                  <tr><th scope="row">After heating 2</th><td class="num">27.00</td></tr>
+                  <tr><th scope="row">After heating 3</th><td class="num">27.00</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p>Determine the empirical formula of magnesium oxide.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the mass of each element">
+              <p class="worked__why">Use the last, constant reading. The gain in mass is the oxygen that combined.</p>
+              <div class="worked__math">mass of Mg = 26.78 g − 26.42 g = 0.36 g</div>
+              <div class="worked__math">mass of O = 27.00 g − 26.78 g = 0.22 g</div>
+            </li>
+            <li data-title="Convert each mass to moles">
+              <p class="worked__why">Atoms combine in a ratio of numbers, not of masses, so use <i>n</i> = <i>m</i> ÷ <i>M</i> for each element.</p>
+              <div class="worked__math"><i>n</i>(Mg) = 0.36 g ÷ 24.31 g mol<sup>−1</sup> = 0.01481 mol</div>
+              <div class="worked__math"><i>n</i>(O) = 0.22 g ÷ 16.00 g mol<sup>−1</sup> = 0.01375 mol</div>
+            </li>
+            <li data-title="Divide by the smaller amount">
+              <p class="worked__why">This makes the smaller number exactly 1, so the ratio is easy to read.</p>
+              <div class="worked__math">Mg : O = 0.01481 ÷ 0.01375 : 0.01375 ÷ 0.01375 = 1.08 : 1</div>
+              <div class="worked__math">or, as O ÷ Mg: 0.01375 ÷ 0.01481 = 0.93</div>
+            </li>
+            <li data-title="Judge the whole-number ratio">
+              <p class="worked__why">1.08 : 1 is close to 1 : 1. The gap is small enough to be experimental error (see the uncertainty section). It is not close to a real ratio such as 3 : 2 = 1.5 : 1.</p>
+              <div class="worked__math">Mg : O ≈ 1 : 1, so the empirical formula is <b>MgO</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p><span class="chem">MgO</span> (measured ratio Mg : O = 1.08 : 1)</p></div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Using the masses directly (0.36 : 0.22) instead of moles gives a ratio that means nothing. Another slip is to take the mass of oxygen from the first heating reading. Always use the reading where the mass has become constant.</p>
+        </aside>
+
+        <h3>Now you: the value of <i>x</i> in a hydrate</h3>
+        <p>For a hydrate, the two “parts” are the anhydrous salt and the water. Treat <span class="chem">CuSO4</span> as one unit with <i>M</i> = 159.62 g mol<sup>−1</sup>, and water with <i>M</i> = 18.02 g mol<sup>−1</sup>. Then <i>x</i> = <i>n</i>(<span class="chem">H2O</span>) ÷ <i>n</i>(<span class="chem">CuSO4</span>).</p>
+
+        <div data-s1-numeric data-answer="4.885" data-tolerance="2%" data-sigfigs="2-3" data-label="x =">
+          <div class="tryit__q">
+            <p>A student heats hydrated copper(II) sulfate. Crucible: 18.47 g. Crucible and hydrate: 21.03 g. After heating: 20.25 g, 20.14 g, 20.12 g, 20.12 g. Calculate the value of <i>x</i> in <span class="chem">CuSO4.xH2O</span> from these data, before rounding to a whole number.</p>
+          </div>
+          <ol class="tryit__hints">
+            <li>Mass of anhydrous salt = final mass − crucible. Mass of water = (crucible + hydrate) − final mass.</li>
+            <li>Anhydrous: 1.65 g; water: 0.91 g. Now find <i>n</i> of each and divide <i>n</i>(water) by <i>n</i>(<span class="chem">CuSO4</span>).</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">mass of <span class="chem">CuSO4</span> = 20.12 g − 18.47 g = 1.65 g</div>
+            <div class="worked__math">mass of water = 21.03 g − 20.12 g = 0.91 g</div>
+            <div class="worked__math"><i>n</i>(<span class="chem">CuSO4</span>) = 1.65 ÷ 159.62 = 0.010337 mol</div>
+            <div class="worked__math"><i>n</i>(<span class="chem">H2O</span>) = 0.91 ÷ 18.02 = 0.050499 mol</div>
+            <div class="worked__math"><i>x</i> = 0.050499 ÷ 0.010337 = 4.89</div>
+            <p><i>x</i> = 4.9 to 2 significant figures (0.91 g has only 2). The nearest whole number is 5, so the formula is <span class="chem">CuSO4.5H2O</span>.</p>
+          </div>
+        </div>
+
+        <aside class="callout callout--key">
+          <p>Approximation is a judgement, not a rule. Round 0.93 or 4.89 to the nearest whole number only when the difference is within your experimental uncertainty. A ratio such as 1 : 1.50 or 1 : 1.33 is real: multiply by 2 or 3 to get whole numbers (2 : 3, 3 : 4).</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="uncertainty" data-toc="Uncertainties">
+        <h2>Uncertainties</h2>
+        <p>A balance that reads to 0.01 g has an uncertainty of ±0.01 g in every reading. The masses you use are <strong>differences</strong> of two readings, so their uncertainties add.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Rules for propagating uncertainties</caption>
+            <thead><tr><th scope="col">Operation</th><th scope="col">What to add</th><th scope="col">Example</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Adding or subtracting</th><td>absolute uncertainties</td><td><span class="mono">(26.78 ± 0.01) − (26.42 ± 0.01) = 0.36 ± 0.02 g</span></td></tr>
+              <tr><th scope="row">Multiplying or dividing</th><td>percentage uncertainties</td><td><span class="mono">ratio = <i>n</i>(O) ÷ <i>n</i>(Mg)</span>: add the % uncertainties of the two masses</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The molar masses come from the data booklet. Their uncertainty is tiny compared with the balance, so you can ignore it.</p>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 2">
+          <h3 class="worked__title">How sure is the magnesium oxide ratio?</h3>
+          <div class="worked__problem"><p>Use the part A data above (balance ±0.01 g). Find the uncertainty in the ratio <i>n</i>(O) ÷ <i>n</i>(Mg) = 0.93, and compare it with the expected value of 1.00 for <span class="chem">MgO</span>.</p></div>
+          <ol class="worked__steps">
+            <li data-title="Absolute uncertainty of each mass">
+              <p class="worked__why">Each mass is a difference of two readings, each ±0.01 g.</p>
+              <div class="worked__math">mass of Mg = 0.36 ± 0.02 g</div>
+              <div class="worked__math">mass of O = 0.22 ± 0.02 g</div>
+            </li>
+            <li data-title="Turn them into percentages">
+              <p class="worked__why">Percentage uncertainty = absolute uncertainty ÷ value × 100.</p>
+              <div class="worked__math">Mg: 0.02 ÷ 0.36 × 100 = 5.6 %</div>
+              <div class="worked__math">O: 0.02 ÷ 0.22 × 100 = 9.1 %</div>
+            </li>
+            <li data-title="Add them for the ratio">
+              <p class="worked__why"><i>n</i> = <i>m</i> ÷ <i>M</i> carries the same percentage as the mass, and a ratio is a division, so the percentages add.</p>
+              <div class="worked__math">ratio: 5.6 % + 9.1 % = 14.7 % ≈ 15 %</div>
+              <div class="worked__math">0.93 × 0.15 = 0.14, so ratio = 0.93 ± 0.14</div>
+            </li>
+            <li data-title="Compare with the expected value">
+              <p class="worked__why">Percentage error = |experimental − expected| ÷ expected × 100.</p>
+              <div class="worked__math">percentage error = |0.93 − 1.00| ÷ 1.00 × 100 = 7 %</div>
+              <div class="worked__math">7 % &lt; 15 %: the difference lies <b>inside</b> the uncertainty</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Ratio = 0.93 ± 0.14 (about ±15 %). The result agrees with <span class="chem">MgO</span> within its uncertainty. Random error from the balance is large enough to explain the whole gap.</p></div>
+        </div>
+
+        <aside class="callout callout--exam">
+          <p>Quote an absolute uncertainty to one significant figure and the value to the same decimal place: 0.9 ± 0.1, not 0.93 ± 0.14, in a final answer. When the percentage error is <strong>bigger</strong> than the percentage uncertainty, random error alone cannot explain it: look for a systematic error.</p>
+        </aside>
+
+        <p>The magnesium experiment uses small masses, so a 0.01 g reading is a large fraction of each. A balance reading to 0.001 g makes each mass about ten times more precise. A longer piece of ribbon helps too. Try both in the experiment above.</p>
+
+        <div data-s1-numeric data-answer="3.41" data-tolerance="3%" data-sigfigs="2-3" data-unit="%">
+          <div class="tryit__q"><p>Use the hydrate data from the “Try it” in the processing section (anhydrous salt 1.65 g, water 0.91 g; balance ±0.01 g). Calculate the percentage uncertainty in the value of <i>x</i>.</p></div>
+          <ol class="tryit__hints">
+            <li>Each mass is a difference of two readings, so each has an absolute uncertainty of ±0.02 g.</li>
+            <li><i>x</i> is a ratio of the two amounts. Add the two percentage uncertainties: 0.02 ÷ 0.91 × 100 and 0.02 ÷ 1.65 × 100.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">water: 0.02 ÷ 0.91 × 100 = 2.20 %</div>
+            <div class="worked__math">anhydrous salt: 0.02 ÷ 1.65 × 100 = 1.21 %</div>
+            <div class="worked__math">x: 2.20 % + 1.21 % = 3.4 %</div>
+            <p>So <i>x</i> = 4.89 ± 0.17, or 4.9 ± 0.2. The expected value 5 lies inside this range, and the percentage error (2.3 %) is smaller than the uncertainty.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="topic-section" id="evaluation" data-toc="Errors and improvements">
+        <h2>Evaluation: errors and improvements</h2>
+        <p>A <dfn data-def="An error that makes repeated readings scatter unpredictably above and below the true value. Repeats and averaging reduce its effect.">random error</dfn> scatters results both ways; repeats and a more precise balance reduce it. A <dfn data-def="An error that pushes every result the same way, for example always too low. Repeats do not remove it; the method must change.">systematic error</dfn> pushes every result the same way; only a change of method removes it. In these experiments most of the important errors are systematic.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Common errors, their effect, and how to fix them</caption>
+            <thead><tr><th scope="col">Source of error</th><th scope="col">Effect on the result</th><th scope="col">Realistic improvement</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">White smoke of <span class="chem">MgO</span> escapes when the lid is off or lifted too long</th><td>Final mass too low, so mass of O too low: ratio O : Mg too <strong>low</strong> (looks like too much Mg)</td><td>Keep the lid on; lift it only slightly and briefly with tongs</td></tr>
+              <tr><th scope="row">Lid never lifted, so too little oxygen gets in</th><td>Some Mg does not react; mass of O too low: ratio too <strong>low</strong>. The mass can look constant even though the reaction is unfinished</td><td>Lift the lid every minute; check that no grey metal is left before the final weighings</td></tr>
+              <tr><th scope="row">Some magnesium reacts with nitrogen in the air to form <span class="chem">Mg3N2</span></th><td>Nitride is lighter than the oxide for the same Mg, so mass gain too small: ratio too <strong>low</strong></td><td>Add a few drops of distilled water to the cooled solid and heat again: the nitride turns into the oxide (ammonia is given off)</td></tr>
+              <tr><th scope="row">Oxide layer on the ribbon before you start</th><td>Part of the “magnesium” mass is already oxide, so less oxygen is gained: ratio too <strong>low</strong></td><td>Clean the ribbon with emery paper just before weighing</td></tr>
+              <tr><th scope="row">Hydrate not heated to constant mass (some water left)</th><td>Mass of water too low and anhydrous mass too high: <i>x</i> too <strong>low</strong></td><td>Heat, cool and reweigh until two masses agree within 0.01 g</td></tr>
+              <tr><th scope="row">Heating the hydrate too strongly (solid turns black)</th><td><span class="chem">CuSO4</span> decomposes to <span class="chem">CuO</span> and <span class="chem">SO3</span>; extra mass is lost and counted as water: <i>x</i> too <strong>high</strong>. The mass never becomes constant</td><td>Heat gently with a small flame; stop when the solid is white all through</td></tr>
+              <tr><th scope="row">Crystals spit out of the crucible at the start</th><td>Lost solid is counted as water: <i>x</i> too <strong>high</strong></td><td>Heat gently at first, with a lid partly on, and stir</td></tr>
+              <tr><th scope="row">Anhydrous salt cools on the open bench</th><td>It takes water back from the air, so the final mass is too high: <i>x</i> too <strong>low</strong></td><td>Cool in a desiccator, and weigh as soon as it is cool</td></tr>
+              <tr><th scope="row">Small masses read on a 0.01 g balance</th><td>Random error: large percentage uncertainty (about 15 % in the Mg : O ratio)</td><td>Use a 0.001 g balance, a bigger sample, and repeat the whole experiment</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <aside class="callout callout--exam">
+          <p>An evaluation point earns marks when it has three parts: the error, its direction (too high or too low, and why), and an improvement that fixes <em>that</em> error. “Human error” and “be more careful” earn nothing.</p>
+        </aside>
+        <aside class="callout callout--scope">
+          <p>You do not need to learn the reaction of magnesium with nitrogen or the decomposition of copper(II) sulfate for the exam. They are here only to explain the errors. You are expected to reason about the direction of an error from the data, not to recall these equations.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="exam" data-toc="Exam practice">
+        <h2>Exam practice</h2>
+        <p>These questions are in the style of Paper 1B: short parts built on practical data. Write your working on paper before you type an answer.</p>
+        <div data-s1-quiz data-topic="lab-empirical-formula" data-count="0" data-title="Lab 5: empirical formula by experiment"></div>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../data/questions-lab-empirical-formula.js"></script>
+<script src="../assets/js/widgets-lab-empirical-formula.js"></script>
+</body>
+</html>

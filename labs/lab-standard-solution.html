@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lab 6 Standard solutions and calibration curves | Structure Lab</title>
+<meta name="description" content="A guided virtual practical for IB Chemistry Structure 1.4.5: prepare a standard solution of copper(II) sulfate, make dilutions, measure absorbance with a colorimeter and read an unknown concentration from a calibration curve, with uncertainties and an evaluation.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for Lab 6. Tokens only. */
+.labw-svg { max-width: 34rem; margin-inline: auto; }
+.labw-svg text { font-family: var(--font-body); fill: var(--ink); font-size: 13px; }
+.labw-svg .labw-svg__small { font-size: 11.5px; fill: var(--ink-2); }
+.labw-svg .labw-svg__display { font-family: var(--font-mono); font-size: 19px; font-weight: 600; fill: var(--ink); }
+.labw-svg .labw-svg__strong { font-weight: 700; }
+.labw-steps { margin: 0.75rem 0 0; padding-left: 1.4rem; font-size: 0.92rem; }
+.labw-steps li { margin-bottom: 0.25rem; color: var(--ink-3); }
+.labw-steps li.is-done { color: var(--ink-2); }
+.labw-steps li.is-now { color: var(--ink); font-weight: 700; }
+.labw-steps__tag { font-family: var(--font-mono); font-size: 0.78rem; font-weight: 400; }
+.labw-check { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: flex-end; flex: 1 1 100%; }
+.labw-check .input { width: 9rem; font-family: var(--font-mono); }
+.labw-check__fb { flex: 1 1 100%; margin: 0; font-size: 0.9rem; color: var(--ink-2); }
+.labw-chart { margin-top: 0.25rem; }
+.labw-data { margin-top: 0.85rem; }
+.labw-data__head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.5rem; margin: 0 0 0.4rem; }
+.labw-data__title { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: 0.98rem; }
+.labw-data__status { font-size: 0.85rem; color: var(--ink-2); }
+.widget__stage .table-scroll { margin: 0; }
+.labw-data table.data { font-size: 0.9rem; }
+.labw-data--short tbody th { white-space: nowrap; }
+.labw-note { margin: 0.6rem 0 0; font-size: 0.92rem; color: var(--ink-2); max-width: none; }
+.labw-work { margin-top: 0.75rem; }
+.labw-work:empty { display: none; }
+.widget__controls > .control { max-width: 100%; min-width: 0; }
+.widget__controls .select { max-width: 100%; min-width: 0; width: 100%; }
+</style>
+</head>
+<body data-page="lab-standard-solution">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="lab-standard-solution"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Lab 6 · Structure 1.4</p>
+      <h1>Standard solutions and calibration curves</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>How do we make a solution whose concentration we know exactly, and then use it to measure a concentration we do not know?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <section class="topic-section" id="goals">
+        <h2>What you need to be able to do</h2>
+        <p>In part A you make a standard solution of copper(II) sulfate. In part B you dilute it to make a set of standards, measure how much light each absorbs, and use the graph to find the concentration of an unknown. Tick each skill when you can do it without notes.</p>
+        <ul class="checklist" data-s1-checklist="lab-standard-solution">
+          <li data-id="ss-mass" data-level="sl">Calculate the mass of solid needed for a given volume and concentration of solution.</li>
+          <li data-id="ss-prepare" data-level="sl">Describe how to prepare a standard solution in a volumetric flask, using the words a markscheme expects.</li>
+          <li data-id="ss-dilute" data-level="sl">Calculate and describe a dilution, and choose suitable glassware for it.</li>
+          <li data-id="ss-calibration" data-level="sl">Make a set of standards, plot a calibration curve and read an unknown concentration from it.</li>
+          <li data-id="ss-filter" data-level="sl">Explain why a colorimeter filter of the complementary colour is used.</li>
+          <li data-id="ss-uncertainty" data-level="sl">Propagate uncertainties from the balance, flask, pipette and burette into a concentration.</li>
+          <li data-id="ss-evaluate" data-level="sl">Say how each common error changes the concentration, and suggest a realistic improvement.</li>
+        </ul>
+      </section>
+
+      <section class="topic-section" id="background" data-toc="The chemistry behind it">
+        <span class="section-code">Structure 1.4.5</span>
+        <h2>The chemistry behind it</h2>
+        <p>A <dfn data-def="A solution whose concentration is known accurately.">standard solution</dfn> is a solution whose concentration is known accurately. You make it by dissolving a weighed mass of solid and making the solution up to an exact volume. Two relationships do all the work:</p>
+        <div class="eq">
+          <div class="eq__formula"><i>n</i> = <span class="frac"><span><i>m</i></span><span><i>M</i></span></span> &nbsp;&nbsp; <i>n</i> = <i>CV</i></div>
+          <dl class="eq__legend">
+            <div><dt>n</dt><dd>amount of solute <span class="unit">mol</span></dd></div>
+            <div><dt>m</dt><dd>mass of solute <span class="unit">g</span></dd></div>
+            <div><dt>M</dt><dd>molar mass <span class="unit">g mol-1</span></dd></div>
+            <div><dt>C</dt><dd>concentration <span class="unit">mol dm-3</span></dd></div>
+            <div><dt>V</dt><dd>volume of solution <span class="unit">dm3</span></dd></div>
+          </dl>
+        </div>
+        <p>Diluting a solution does not change the amount of solute, so <i>C</i><sub>1</sub><i>V</i><sub>1</sub> = <i>C</i><sub>2</sub><i>V</i><sub>2</sub>. The full explanations are on the topic page: <a href="../topics/s1-4.html#concentration">Concentration</a>.</p>
+
+        <h3>Why copper(II) sulfate?</h3>
+        <p>Copper(II) sulfate solution is blue. The more concentrated it is, the deeper the blue and the more light it absorbs. A <dfn data-def="An instrument that shines light of one colour through a sample and measures how much of it is absorbed.">colorimeter</dfn> measures this as a number called <dfn data-def="A measure of how much light a sample absorbs. It has no units. 0 means no light is absorbed.">absorbance</dfn>. Over a sensible range, a graph of absorbance against concentration is a straight line. That graph is the <dfn data-def="A graph of an instrument reading against the known concentrations of standards, used to read off an unknown concentration.">calibration curve</dfn>.</p>
+        <p>The solid you weigh is the hydrate, <span class="chem">CuSO4.5H2O</span>, <i>M</i> = 249.72 g mol<sup>−1</sup>. One mole of it gives one mole of <span class="chem">CuSO4</span> in solution, so [<span class="chem">CuSO4</span>] = <i>n</i>(hydrate) ÷ <i>V</i>.</p>
+
+        <aside class="callout callout--scope">
+          <p>You do not need the Beer–Lambert law or any equation for absorbance. You only need the method: standards of known concentration, a graph, a line of best fit, and reading the unknown from the line. The colorimeter here is simulated with a straight-line response.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="plan" data-toc="Aim, variables and safety">
+        <h2>Aim, variables and safety</h2>
+        <p><strong>Aim.</strong> To prepare a 0.250 mol dm<sup>−3</sup> standard solution of copper(II) sulfate, and to use it to find the concentration of an unknown copper(II) sulfate solution with a calibration curve.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Variables in part B</caption>
+            <thead><tr><th scope="col">Type</th><th scope="col">Variable</th><th scope="col">How</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Independent</th><td>Concentration of each standard</td><td>Volumes of stock solution and water measured from two burettes</td></tr>
+              <tr><th scope="row">Dependent</th><td>Absorbance</td><td>Read on the colorimeter, ±0.01</td></tr>
+              <tr><th scope="row">Controlled</th><td>Filter (colour of light)</td><td>The same red filter for every reading</td></tr>
+              <tr><th scope="row">Controlled</th><td>Path length and cuvette</td><td>The same cuvette, same way round, filled to the same height</td></tr>
+              <tr><th scope="row">Controlled</th><td>Zero of the colorimeter</td><td>Set with a cuvette of distilled water (the blank) before measuring</td></tr>
+              <tr><th scope="row">Controlled</th><td>Temperature</td><td>All solutions at room temperature</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Equipment</h3>
+        <ul>
+          <li>Hydrated copper(II) sulfate, weighing boat, spatula, balance reading to 0.01 g</li>
+          <li>Beaker, glass stirring rod, filter funnel, wash bottle of distilled water, dropping pipette</li>
+          <li>250.0 cm<sup>3</sup> volumetric flask (±0.2 cm<sup>3</sup>) with stopper</li>
+          <li>Two 50 cm<sup>3</sup> burettes (±0.05 cm<sup>3</sup> per reading), six test tubes in a rack</li>
+          <li>Colorimeter with a red filter, cuvettes, tissue</li>
+        </ul>
+
+        <aside class="callout callout--safety">
+          <p>Wear eye protection. Copper(II) sulfate, solid and solution, is harmful if swallowed and causes eye and skin irritation. Wipe up spills at once and wash your hands after the practical. It is very toxic to aquatic life, so collect all leftover solutions in the labelled waste container and do not pour them down the sink. Fill burettes below eye level, with a funnel, and remove the funnel before you take a reading. Glassware such as volumetric flasks breaks easily: hold the flask by the neck and the stopper together when you invert it.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="method">
+        <h2>Method</h2>
+        <h3>Part A: the standard solution</h3>
+        <ol>
+          <li>Calculate the mass of <span class="chem">CuSO4.5H2O</span> needed (15.61 g for 250.0 cm<sup>3</sup> of 0.250 mol dm<sup>−3</sup>).</li>
+          <li>Weigh a weighing boat with about that mass of solid. Record the mass exactly; it does not need to be exactly 15.61 g.</li>
+          <li>Tip the solid into a beaker, then reweigh the empty boat. <span class="muted">This is weighing by difference: the mass in the beaker is what you use, even if a few crystals stay in the boat.</span></li>
+          <li>Add about 100 cm<sup>3</sup> of distilled water and stir until all the solid has dissolved. <span class="muted">Solid that has not dissolved would not reach the flask evenly.</span></li>
+          <li>Pour the solution through a funnel into the volumetric flask. Rinse the beaker, rod and funnel with distilled water and add the rinsings to the flask. <span class="muted">This makes sure all the weighed solute ends up in the flask.</span></li>
+          <li>Add distilled water until the bottom of the meniscus sits on the mark, with your eye level with the mark. Add the last few drops with a dropping pipette. <span class="muted">Overshooting cannot be undone.</span></li>
+          <li>Stopper the flask and invert it ten or more times. <span class="muted">Otherwise the solution near the bottom is more concentrated than near the top.</span></li>
+        </ol>
+        <h3>Part B: standards and the calibration curve</h3>
+        <ol>
+          <li>Fill one burette with the standard solution and one with distilled water.</li>
+          <li>Run 2.00, 4.00, 6.00, 8.00 and 10.00 cm<sup>3</sup> of standard into five test tubes, and add water to make each up to 10.00 cm<sup>3</sup>. Mix each tube.</li>
+          <li>Fit the red filter. Put the blank (distilled water) in the colorimeter and set the reading to zero.</li>
+          <li>Measure the absorbance of each standard. Rinse the cuvette with the next solution before you fill it, and wipe the clear sides with tissue.</li>
+          <li>Measure the unknown three times and take the mean.</li>
+          <li>Plot absorbance against concentration, draw the line of best fit, and read the unknown’s concentration from the line.</li>
+        </ol>
+        <aside class="callout callout--exam">
+          <p>For “describe how to prepare a standard solution”, markschemes look for: <strong>dissolve in distilled (or deionized) water</strong>; transfer <strong>with rinsings</strong> to a <strong>volumetric flask</strong>; <strong>make up to the mark</strong>; <strong>stopper and invert</strong> to mix. “Add 250 cm<sup>3</sup> of water” loses the mark.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="experiment" data-toc="Run the experiment">
+        <h2>Run the experiment</h2>
+        <p>Every run gives slightly different readings, as a real one would. Try the good technique first, then change one choice at a time to see what each error does.</p>
+
+        <figure data-s1-widget="lab-standard-solution.prepare" data-title="Part A: make the standard solution">
+          <p class="widget__fallback">Typical data: boat and solid 17.43 g; empty boat 1.84 g; 15.59 g transferred into a 250.0 cm³ flask, giving 0.2497 mol dm⁻³.</p>
+          <figcaption>Check your mass calculation first, then do each step in order. The choices change how you transfer the solution, make it up to the mark and mix it. At the end, compare the concentration you would calculate with what is really in the flask.</figcaption>
+        </figure>
+
+        <figure data-s1-widget="lab-standard-solution.calibration" data-title="Part B: standards, colorimeter and calibration curve">
+          <p class="widget__fallback">Typical data: standards of 0.0500 to 0.2500 mol dm⁻³ give absorbances of 0.15 to 0.74 with a red filter. An unknown reading 0.41 corresponds to about 0.139 mol dm⁻³.</p>
+          <figcaption>Make the standards, zero the colorimeter on the blank, measure the standards and the unknown, then read the unknown from the line. Try measuring cylinders instead of burettes, or a filter of the wrong colour, and watch the points scatter or the line flatten.</figcaption>
+        </figure>
+      </section>
+
+      <section class="topic-section" id="processing" data-toc="Processing the data">
+        <span class="section-code">Structure 1.4.5</span>
+        <h2>Processing the data</h2>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">The concentration of the standard solution</h3>
+          <div class="worked__problem">
+            <p>A student wants 250.0 cm<sup>3</sup> of 0.250 mol dm<sup>−3</sup> copper(II) sulfate. They weigh by difference: boat and solid 17.43 g, empty boat afterwards 1.84 g. Calculate the mass they should aim for, and the actual concentration they made. <i>M</i>(<span class="chem">CuSO4.5H2O</span>) = 249.72 g mol<sup>−1</sup>.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Amount needed">
+              <p class="worked__why">Convert the volume to dm<sup>3</sup> first, then use <i>n</i> = <i>CV</i>.</p>
+              <div class="worked__math"><i>V</i> = 250.0 cm<sup>3</sup> ÷ 1000 = 0.2500 dm<sup>3</sup></div>
+              <div class="worked__math"><i>n</i> = 0.250 mol dm<sup>−3</sup> × 0.2500 dm<sup>3</sup> = 0.0625 mol</div>
+            </li>
+            <li data-title="Mass to aim for">
+              <p class="worked__why">Use the molar mass of the hydrate, because that is the solid on the balance.</p>
+              <div class="worked__math"><i>m</i> = 0.0625 mol × 249.72 g mol<sup>−1</sup> = 15.61 g</div>
+            </li>
+            <li data-title="Mass actually used">
+              <p class="worked__why">The mass in the beaker is the difference between the two readings.</p>
+              <div class="worked__math"><i>m</i> = 17.43 g − 1.84 g = 15.59 g</div>
+            </li>
+            <li data-title="Actual concentration">
+              <p class="worked__why">Report the concentration you really made, not the one you aimed for.</p>
+              <div class="worked__math"><i>n</i> = 15.59 g ÷ 249.72 g mol<sup>−1</sup> = 0.062430 mol</div>
+              <div class="worked__math">[<span class="chem">CuSO4</span>] = 0.062430 mol ÷ 0.2500 dm<sup>3</sup> = <b>0.2497 mol dm<sup>−3</sup></b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Aim for 15.61 g. The solution made is 0.2497 mol dm<sup>−3</sup> (4 s.f., matching 15.59 g and 250.0 cm<sup>3</sup>).</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="0.25068" data-tolerance="1%" data-sigfigs="3-4" data-unit="mol dm-3">
+          <div class="tryit__q"><p>Another student uses a 100.0 cm<sup>3</sup> volumetric flask. Boat and solid: 7.95 g. Empty boat afterwards: 1.69 g. Calculate the concentration of copper(II) sulfate in the flask.</p></div>
+          <ol class="tryit__hints">
+            <li>Mass transferred = 7.95 − 1.69. Then <i>n</i> = <i>m</i> ÷ 249.72.</li>
+            <li>[<span class="chem">CuSO4</span>] = <i>n</i> ÷ 0.1000 dm<sup>3</sup>.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>m</i> = 7.95 g − 1.69 g = 6.26 g</div>
+            <div class="worked__math"><i>n</i> = 6.26 ÷ 249.72 = 0.025068 mol</div>
+            <div class="worked__math">[<span class="chem">CuSO4</span>] = 0.025068 ÷ 0.1000 = 0.251 mol dm<sup>−3</sup></div>
+          </div>
+        </div>
+
+        <h3>Diluting to make the standards</h3>
+        <p>Each standard is a dilution of the stock, so use <i>C</i><sub>2</sub> = <i>C</i><sub>1</sub><i>V</i><sub>1</sub> ÷ <i>V</i><sub>2</sub>, where <i>V</i><sub>2</sub> is the total volume (stock + water).</p>
+
+        <div data-s1-numeric data-answer="0.175" data-tolerance="1%" data-sigfigs="3" data-unit="mol dm-3">
+          <div class="tryit__q"><p>A test tube holds 7.00 cm<sup>3</sup> of 0.250 mol dm<sup>−3</sup> copper(II) sulfate and 3.00 cm<sup>3</sup> of distilled water. Calculate the concentration of the mixture.</p></div>
+          <ol class="tryit__hints">
+            <li>The total volume is 7.00 + 3.00 = 10.00 cm<sup>3</sup>.</li>
+            <li><i>C</i><sub>2</sub> = 0.250 × 7.00 ÷ 10.00.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>C</i><sub>2</sub> = 0.250 mol dm<sup>−3</sup> × 7.00 cm<sup>3</sup> ÷ 10.00 cm<sup>3</sup> = 0.175 mol dm<sup>−3</sup></div>
+          </div>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 2">
+          <h3 class="worked__title">Reading an unknown from the calibration curve</h3>
+          <div class="worked__problem">
+            <div class="table-scroll">
+              <table class="data">
+                <caption>Calibration data (red filter)</caption>
+                <thead><tr><th scope="col">Standard</th><th scope="col" class="num">[CuSO₄] / mol dm⁻³</th><th scope="col" class="num">Absorbance</th></tr></thead>
+                <tbody>
+                  <tr><th scope="row">Blank</th><td class="num">0.0000</td><td class="num">0.00</td></tr>
+                  <tr><th scope="row">1</th><td class="num">0.0500</td><td class="num">0.15</td></tr>
+                  <tr><th scope="row">2</th><td class="num">0.1000</td><td class="num">0.29</td></tr>
+                  <tr><th scope="row">3</th><td class="num">0.1500</td><td class="num">0.45</td></tr>
+                  <tr><th scope="row">4</th><td class="num">0.2000</td><td class="num">0.59</td></tr>
+                  <tr><th scope="row">5</th><td class="num">0.2500</td><td class="num">0.74</td></tr>
+                  <tr><th scope="row">Unknown</th><td class="num">?</td><td class="num">0.41, 0.42, 0.41</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p>Find the concentration of the unknown in mol dm<sup>−3</sup> and in g dm<sup>−3</sup>. <i>M</i>(<span class="chem">CuSO4</span>) = 159.62 g mol<sup>−1</sup>.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Average the unknown">
+              <p class="worked__why">Repeat readings reduce the effect of random error.</p>
+              <div class="worked__math">mean absorbance = (0.41 + 0.42 + 0.41) ÷ 3 = 0.413</div>
+            </li>
+            <li data-title="Find the gradient of the line">
+              <p class="worked__why">The points lie close to a straight line through the origin. Use two points on the line, far apart.</p>
+              <div class="worked__math">gradient = (0.740 − 0.000) ÷ (0.2500 − 0.0000) = 2.96 dm<sup>3</sup> mol<sup>−1</sup></div>
+            </li>
+            <li data-title="Read the concentration">
+              <p class="worked__why">On the graph you read across from the absorbance to the line and down to the axis. The gradient does the same job.</p>
+              <div class="worked__math">[<span class="chem">CuSO4</span>] = 0.413 ÷ 2.96 = <b>0.140 mol dm<sup>−3</sup></b></div>
+            </li>
+            <li data-title="Convert to g dm⁻³">
+              <p class="worked__why">Multiply by the molar mass of the dissolved substance, <span class="chem">CuSO4</span>.</p>
+              <div class="worked__math">0.140 mol dm<sup>−3</sup> × 159.62 g mol<sup>−1</sup> = 22.3 g dm<sup>−3</sup></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>[<span class="chem">CuSO4</span>] = 0.140 mol dm<sup>−3</sup> = 22.3 g dm<sup>−3</sup>. The unknown lies inside the range of the standards, so reading it from the line is reliable.</p></div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Reading an unknown from a part of the line you have extended beyond the last standard is not reliable: the line may bend at high absorbance. If the unknown is above the top standard, dilute it by a known factor, measure it again, and multiply the result by the factor.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="0.17627" data-tolerance="3%" data-sigfigs="2-3" data-unit="mol dm-3">
+          <div class="tryit__q"><p>In another run the line of best fit passes through the origin with a gradient of 2.95 dm<sup>3</sup> mol<sup>−1</sup>. The mean absorbance of the unknown is 0.52. Calculate [<span class="chem">CuSO4</span>].</p></div>
+          <ol class="tryit__hints">
+            <li>Absorbance = gradient × concentration, for a line through the origin.</li>
+            <li>[<span class="chem">CuSO4</span>] = 0.52 ÷ 2.95.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">[<span class="chem">CuSO4</span>] = 0.52 ÷ 2.95 dm<sup>3</sup> mol<sup>−1</sup> = 0.18 mol dm<sup>−3</sup></div>
+            <p>The absorbance has 2 significant figures, so 0.18 (or 0.176) mol dm<sup>−3</sup>.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="topic-section" id="uncertainty" data-toc="Uncertainties">
+        <h2>Uncertainties</h2>
+        <p>Every piece of glassware has an uncertainty, usually printed on it. For a reading on a scale, it is half the smallest division or the precision of the display.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Typical uncertainties of the apparatus</caption>
+            <thead><tr><th scope="col">Apparatus</th><th scope="col" class="num">Uncertainty</th><th scope="col">Note</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Balance (2 d.p.)</th><td class="num">±0.01 g</td><td>Per reading. A mass by difference uses two readings: ±0.02 g</td></tr>
+              <tr><th scope="row">Volumetric flask, 250.0 cm<sup>3</sup></th><td class="num">±0.2 cm<sup>3</sup></td><td>One volume only</td></tr>
+              <tr><th scope="row">Volumetric pipette, 25.00 cm<sup>3</sup></th><td class="num">±0.04 cm<sup>3</sup></td><td>One volume only</td></tr>
+              <tr><th scope="row">Burette</th><td class="num">±0.05 cm<sup>3</sup></td><td>Per reading. A volume delivered uses two readings: ±0.10 cm<sup>3</sup></td></tr>
+              <tr><th scope="row">Measuring cylinder, 10 cm<sup>3</sup></th><td class="num">±0.1 cm<sup>3</sup></td><td>Not precise enough for standard solutions</td></tr>
+              <tr><th scope="row">Colorimeter</th><td class="num">±0.01</td><td>Absorbance has no units</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example 3">
+          <h3 class="worked__title">Uncertainty in the stock and in one standard</h3>
+          <div class="worked__problem"><p>Use the worked example above: 15.59 g of solid in a 250.0 cm<sup>3</sup> flask gives 0.2497 mol dm<sup>−3</sup>. Standard 2 is 4.00 cm<sup>3</sup> of this stock and 6.00 cm<sup>3</sup> of water, each from a burette. Find the percentage uncertainty in each concentration.</p></div>
+          <ol class="worked__steps">
+            <li data-title="Stock: the mass">
+              <p class="worked__why">Weighing by difference uses two readings, ±0.01 g each.</p>
+              <div class="worked__math">0.02 ÷ 15.59 × 100 = 0.13 %</div>
+            </li>
+            <li data-title="Stock: the volume">
+              <div class="worked__math">0.2 ÷ 250.0 × 100 = 0.08 %</div>
+              <p class="worked__why">Concentration = <i>n</i> ÷ <i>V</i> is a division, so the percentages add.</p>
+              <div class="worked__math">stock: 0.13 % + 0.08 % = 0.21 %, so 0.2497 ± 0.0005 mol dm<sup>−3</sup></div>
+            </li>
+            <li data-title="Standard 2: the volumes">
+              <p class="worked__why">Each burette volume is a difference of two readings: ±0.10 cm<sup>3</sup>. The total volume is a sum of two volumes: ±0.20 cm<sup>3</sup>.</p>
+              <div class="worked__math">stock taken: 0.10 ÷ 4.00 × 100 = 2.5 %</div>
+              <div class="worked__math">total volume: 0.20 ÷ 10.00 × 100 = 2.0 %</div>
+            </li>
+            <li data-title="Standard 2: combine">
+              <p class="worked__why"><i>C</i><sub>2</sub> = <i>C</i><sub>1</sub> × <i>V</i><sub>1</sub> ÷ <i>V</i><sub>2</sub>: multiply and divide, so add all three percentages.</p>
+              <div class="worked__math">0.21 % + 2.5 % + 2.0 % = 4.7 %</div>
+              <div class="worked__math"><i>C</i><sub>2</sub> = 0.0999 mol dm<sup>−3</sup> ± 4.7 % = <b>0.100 ± 0.005 mol dm<sup>−3</sup></b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Stock: ±0.21 %. Standard 2: about ±5 %. The small volumes in the dilution, not the balance or the flask, control the uncertainty of the standards.</p></div>
+        </div>
+
+        <aside class="callout callout--key">
+          <p>The same absolute uncertainty is a bigger percentage of a smaller quantity. That is why the most dilute standard is the least certain, and why bigger volumes (a pipette into a 100.0 cm<sup>3</sup> flask, say) give better standards than a few cm<sup>3</sup> from a burette.</p>
+        </aside>
+
+        <h3>Comparing with the true value</h3>
+        <p>Suppose the unknown was made by the teacher as 0.150 mol dm<sup>−3</sup>, and you found 0.140 mol dm<sup>−3</sup>.</p>
+        <div class="worked__math">percentage error = |0.140 − 0.150| ÷ 0.150 × 100 = 6.7 %</div>
+        <p>The uncertainty of the result is at least that of the standards (about 5 %), plus the reading of the absorbance (0.01 in 0.41, about 2.4 %), so around 7 %. The percentage error is about the same size, so the result is consistent with the true value within its uncertainty. If the error had been 20 %, you should look for a systematic error.</p>
+
+        <div data-s1-numeric data-answer="0.56" data-tolerance="0.05" data-sigfigs="1-3" data-unit="%">
+          <div class="tryit__q"><p>A student makes a standard by running 10.00 cm<sup>3</sup> of stock from a volumetric pipette (±0.04 cm<sup>3</sup>) into a 50.00 cm<sup>3</sup> volumetric flask (±0.08 cm<sup>3</sup>) and making it up to the mark. Ignoring the uncertainty of the stock, calculate the percentage uncertainty in the new concentration.</p></div>
+          <ol class="tryit__hints">
+            <li>Find the percentage uncertainty of each volume.</li>
+            <li>0.04 ÷ 10.00 × 100 and 0.08 ÷ 50.00 × 100, then add.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">pipette: 0.04 ÷ 10.00 × 100 = 0.4 %</div>
+            <div class="worked__math">flask: 0.08 ÷ 50.00 × 100 = 0.16 %</div>
+            <div class="worked__math">total = 0.4 % + 0.16 % = 0.56 %</div>
+            <p>About 0.6 %, much better than about 5 % with burettes into 10 cm<sup>3</sup>.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="topic-section" id="evaluation" data-toc="Errors and improvements">
+        <h2>Evaluation: errors and improvements</h2>
+        <p><dfn data-def="An error that makes repeated readings scatter unpredictably above and below the true value. Repeats and averaging reduce its effect.">Random errors</dfn> make the points scatter about the line; more precise glassware and repeats reduce them. <dfn data-def="An error that pushes every result the same way, for example always too low. Repeats do not remove it; the method must change.">Systematic errors</dfn> move every result the same way; only a better method removes them.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Common errors, their effect, and how to fix them</caption>
+            <thead><tr><th scope="col">Source of error</th><th scope="col">Effect on the result</th><th scope="col">Realistic improvement</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Rinsings of the beaker and funnel not added to the flask</th><td>Some solute is lost: the true concentration is <strong>lower</strong> than the one calculated</td><td>Rinse beaker, rod and funnel with distilled water and add every rinsing to the flask</td></tr>
+              <tr><th scope="row">Water added past the mark</th><td>Volume too large: concentration <strong>lower</strong> than calculated</td><td>Add the last few cm<sup>3</sup> drop by drop with a dropping pipette, eye level with the mark</td></tr>
+              <tr><th scope="row">Stopped below the mark, or meniscus read from above</th><td>Volume too small: concentration <strong>higher</strong> than calculated</td><td>Read the bottom of the meniscus with your eye level with the mark</td></tr>
+              <tr><th scope="row">Flask not inverted to mix</th><td>The solution is not uniform: samples taken from it are too dilute or too concentrated, at random</td><td>Stopper and invert at least ten times</td></tr>
+              <tr><th scope="row">Mass of solid taken from the first reading only (no reweighing of the boat)</th><td>Crystals left in the boat are counted: calculated concentration <strong>higher</strong> than the true one</td><td>Weigh by difference: reweigh the boat after tipping</td></tr>
+              <tr><th scope="row">Standards measured with measuring cylinders</th><td>Large random error: points scatter about the line, so the unknown is less certain</td><td>Use burettes, or pipettes and volumetric flasks</td></tr>
+              <tr><th scope="row">Colorimeter not zeroed with the blank</th><td>Every absorbance is too high by the same amount: the line does not pass through the origin. A line through the origin would then give an unknown that is too <strong>high</strong></td><td>Zero on a cuvette of distilled water before measuring, and check the zero again between readings</td></tr>
+              <tr><th scope="row">Fingerprints, scratches or bubbles on the cuvette</th><td>Random extra absorbance: readings too high and scattered</td><td>Hold cuvettes by the ridged sides, wipe the clear sides, tap out bubbles</td></tr>
+              <tr><th scope="row">Wrong filter (blue light for a blue solution)</th><td>Very small absorbances and a shallow line: a large percentage uncertainty</td><td>Use the filter of the complementary colour (red or orange for a blue solution)</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <aside class="callout callout--exam">
+          <p>For each error, give the direction and the reason: “volume too large, so the concentration is lower than calculated”. Then give an improvement that fixes that exact error. The colour wheel in the data booklet tells you which filter is complementary to the colour of the solution.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="exam" data-toc="Exam practice">
+        <h2>Exam practice</h2>
+        <p>These questions are in the style of Paper 1B: short parts built on practical data. Write your working on paper before you type an answer.</p>
+        <div data-s1-quiz data-topic="lab-standard-solution" data-count="0" data-title="Lab 6: standard solutions and calibration"></div>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../assets/js/chart.js"></script>
+<script src="../data/questions-lab-standard-solution.js"></script>
+<script src="../assets/js/widgets-lab-standard-solution.js"></script>
+</body>
+</html>
