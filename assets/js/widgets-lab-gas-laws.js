@@ -286,6 +286,7 @@
     function record() {
       var rows = data[mode];
       if (rows.length >= MAXROWS) { setNote(t('That is plenty of readings. Delete one or start a new run.')); return; }
+      if (!rows.length) { run.gasT = cur.bath; run.lastV = V0 * (cur.bath + K0) / (run.room + K0); }   // the first reading follows a long wait in the bath
       var lag = waitSel.value === 'wait' ? 0.01 : 0.4;            // fraction of the temperature gap still left
       run.gasT = cur.bath + (run.gasT - cur.bath) * lag;
       var Tg = run.gasT + K0, Tr = run.room + K0, y;

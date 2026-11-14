@@ -184,7 +184,7 @@
     }
 
     function why(s) {
-      if (s.id === 'graphite') return t('It conducts as a solid, like a metal, but it is not malleable, does not melt in a flame and is a non-metal: a covalent network with delocalized electrons between the layers.');
+      if (s.id === 'graphite') return t('It conducts as a solid, like a metal, but it is not malleable, does not melt in a flame and is a non-metal: a covalent network of layers, with delocalized electrons that move along each layer.');
       if (s.type === 'ionic') return t('It conducts only after it dissolves (or melts), never as a solid: its ions are fixed in the lattice but free to move once it breaks up. High melting point, brittle, soluble in water but not in hexane.');
       if (s.type === 'molecular') return t('It melts easily and never conducts, even when melted or mixed with water: weak forces between molecules and no charged particles that can move.');
       if (s.type === 'network') return t('It does not melt in a flame, does not dissolve in either solvent and does not conduct: a giant structure held by strong covalent bonds.');

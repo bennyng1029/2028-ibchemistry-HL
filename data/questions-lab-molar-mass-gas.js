@@ -36,7 +36,7 @@
       answer: 1,
       misconception: {
         0: 'Check the direction. kPa × cm³ gives a number for <i>PV</i> that is 1000 times larger than Pa × m³. <i>PV</i> is on the bottom of the fraction.',
-        2: 'The two conversions partly cancel: kPa is 10³ times too small a unit, cm³ is 10⁶ times too small. Overall <i>PV</i> is 10³ times too big as a number.',
+        2: 'The two conversions partly cancel: a pressure in kPa is a number 10³ times smaller than in Pa, but a volume in cm³ is a number 10⁶ times larger than in m³. Overall <i>PV</i> is 10³ times too big as a number.',
         3: '<i>R</i> = 8.31 is in J K⁻¹ mol⁻¹, and 1 J = 1 Pa m³. Units of <i>P</i> and <i>V</i> must match that.'
       },
       hints: ['1 kPa = 10³ Pa and 1 cm³ = 10⁻⁶ m³. What is 1 kPa cm³ in Pa m³?'],
@@ -98,7 +98,7 @@
     {
       id: 'lab-molar-mass-gas-q008', topic: 'lab-molar-mass-gas', level: 'sl', tier: 'challenge', type: 'numeric', marks: 2, syllabus: 'Structure 1.5.4',
       stem: '<p>Data from a volatile-liquid experiment:</p><ul><li>mass of liquid (two weighings) = 0.125 ± 0.002 g</li><li>volume of vapour (two readings) = 62.0 ± 1.0 <span class="unit">cm3</span></li><li>temperature = 371.2 ± 0.5 K</li><li>pressure = 100.5 ± 0.1 kPa</li></ul><p>Calculate the percentage uncertainty in the molar mass calculated with <i>M</i> = <i>mRT</i> / <i>PV</i>.</p>',
-      answer: 3.4471, tolerance: '3%', sigfigs: [1, 3], unit: '%',
+      answer: 3.4471, tolerance: '3%', sigfigs: [2, 3], unit: '%',
       hints: ['For products and quotients, add the percentage uncertainties.', '<i>R</i> is a constant, so it has no uncertainty.'],
       solution: '<div class="worked__math">%<i>m</i> = 0.002 ÷ 0.125 × 100 = 1.60 %</div><div class="worked__math">%<i>V</i> = 1.0 ÷ 62.0 × 100 = 1.61 %</div><div class="worked__math">%<i>T</i> = 0.5 ÷ 371.2 × 100 = 0.13 %;  %<i>P</i> = 0.1 ÷ 100.5 × 100 = 0.10 %</div><div class="worked__math">%<i>M</i> = 1.60 + 1.61 + 0.13 + 0.10 = 3.4 %</div>'
     },

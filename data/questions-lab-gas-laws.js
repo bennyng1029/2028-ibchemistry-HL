@@ -30,7 +30,7 @@
     {
       id: 'lab-gas-laws-q002', topic: 'lab-gas-laws', level: 'sl', tier: 'exam', type: 'numeric', marks: 2, syllabus: 'Structure 1.5.3',
       stem: '<p>A sealed gas syringe is held in a water bath. The graph of the volume of the gas against temperature in °C is a straight line. The line of best fit passes through (20.0 °C, 61.2 <span class="unit">cm3</span>) and (80.0 °C, 73.8 <span class="unit">cm3</span>).</p><p>Estimate absolute zero from these data, in °C.</p>',
-      answer: -271.43, tolerance: '0.5%', sigfigs: 3, unit: '°C',
+      answer: -271.43, tolerance: { abs: 1.6 }, sigfigs: 3, unit: '°C',
       hints: ['Find the gradient of the line first.', 'From (20.0 °C, 61.2 cm³), how far must the temperature fall for the volume to fall by 61.2 cm³?'],
       solution: '<div class="worked__math">gradient = (73.8 − 61.2) ÷ (80.0 − 20.0) = 12.6 ÷ 60.0 = 0.210 cm<sup>3</sup> °C<sup>−1</sup></div><div class="worked__math">fall in temperature for <i>V</i> = 0: 61.2 ÷ 0.210 = 291.4 °C</div><div class="worked__math">θ = 20.0 − 291.4 = −271 °C</div><p>M1 for the gradient, M2 for the answer. Accept answers from −270 °C to −273 °C.</p>'
     },

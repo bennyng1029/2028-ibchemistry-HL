@@ -70,7 +70,7 @@
       stem: '<p>An unknown grey solid conducts electricity as a solid, does not melt in a Bunsen flame, and leaves a grey mark when tapped. It is graphite. Why does graphite conduct?</p>',
       options: [
         'It contains positive ions that move through the layers.',
-        'Each carbon atom forms three covalent bonds, and the fourth outer electron is delocalized between the layers.',
+        'Each carbon atom forms three covalent bonds, and the fourth outer electron is delocalized within its layer, so it can move along the layers.',
         'It has metallic bonding between its carbon atoms.',
         'Its layers are held together by strong covalent bonds.'
       ],
@@ -144,7 +144,7 @@
       id: ID + '-q010', topic: ID, level: 'sl', tier: 'exam', type: 'numeric', marks: 1,
       syllabus: 'Structure 2.1.3',
       stem: '<p>Three readings for one solution are 18.2, 18.8 and 18.5 mA. Using half the range as the uncertainty, calculate the percentage uncertainty in the mean current.</p>',
-      answer: 1.6216, tolerance: '3%', sigfigs: [1, 3], unit: '%',
+      answer: 1.6216, tolerance: '3%', sigfigs: [2, 3], unit: '%',
       hints: ['Mean = 18.5 mA. Half the range = (18.8 − 18.2) ÷ 2.', 'Percentage uncertainty = uncertainty ÷ mean × 100.'],
       solution: M('mean = (18.2 + 18.8 + 18.5) ÷ 3 = 18.5 mA') + M('uncertainty = (18.8 − 18.2) ÷ 2 = ±0.3 mA') + M('% uncertainty = 0.3 ÷ 18.5 × 100 = 1.6 %')
     },
