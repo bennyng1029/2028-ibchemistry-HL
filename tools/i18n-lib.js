@@ -291,7 +291,7 @@ function readHtml(html, opts) {
       if (f) {
         stack.forEach(p => { p.html += m[0]; });
         if (f.kind && f.kind !== 'frac') prot.push(f.kind + ':' + norm(f.text));
-        if (f.kind === 'frac' && !/[A-Za-zÀ-ɏ぀-鿿]{2}/.test(f.text.replace(/\s/g, ''))) prot.push('frac:' + norm(f.text));
+        if (f.kind === 'frac' && !/[A-Za-zÀ-ɏ぀-鿿가-힣]{2}/.test(f.text.replace(/\s/g, ''))) prot.push('frac:' + norm(f.text));
         if (f.name === 'dfn') dfns.push(f.html);
         if (f.isEn) enTerms.push(norm(f.text));
         if (f.isOff) offs.push(norm(f.open + f.html + m[0]));
