@@ -252,7 +252,7 @@ S1.i18n.register('ko', 's2-1', {
     "The phosphide ion, <span class=\"chem\">P^3-</span>, has <strong>18</strong> electrons and the same configuration as argon.": "인화 이온 <span class=\"chem\">P^3-</span>에는 전자가 <strong>18</strong>개 있고, 아르곤과 전자 배치가 같아요.",
 
     // How atoms become ions > common mistake > p
-    "Gaining electrons does not make an ion positive. Electrons are negative, so an atom that <em>gains</em> two electrons has a charge of 2−. An atom that <em>loses</em> two electrons has a charge of 2+.": "전자를 얻는다고 이온이 양이 되지는 않아요. 전자는 음전하를 띠므로, 전자 두 개를 <em>얻은</em> 원자의 전하는 2−예요. 전자 두 개를 <em>잃은</em> 원자의 전하는 2+예요.",
+    "Gaining electrons does not make an ion positive. Electrons are negative, so an atom that <em>gains</em> two electrons has a charge of 2−. An atom that <em>loses</em> two electrons has a charge of 2+.": "전자를 얻는다고 양이온이 되지는 않아요. 전자는 음전하를 띠므로, 전자 두 개를 <em>얻은</em> 원자의 전하는 2−예요. 전자 두 개를 <em>잃은</em> 원자의 전하는 2+예요.",
 
     // How atoms become ions > h3
     "Transition elements can form more than one ion": "전이 원소는 두 가지 이상의 이온을 만들 수 있어요",
@@ -322,7 +322,7 @@ S1.i18n.register('ko', 's2-1', {
     "If the difference in electronegativity between two elements is large, one atom takes the electrons completely and ions form. Sodium is 0.9 and chlorine is 3.2. The difference is 3.2 − 0.9 = 2.3, which is large, so sodium chloride is ionic.": "두 원소의 전기 음성도 차이가 크면, 한 원자가 전자를 완전히 가져가서 이온이 만들어져요. 나트륨은 0.9, 염소는 3.2예요. 차이는 3.2 − 0.9 = 2.3으로 크기 때문에, 염화 나트륨은 이온 결합 화합물이에요.",
 
     // The ionic bond > data booklet note > p
-    "Electronegativity values are in section 9 of the data booklet. Use these values, because older books give slightly different numbers.": "전기 음성도 값은 데이터 부클릿 9번 항목에 있어요. 오래된 책은 조금 다른 숫자를 쓰기도 하니, 이 값을 쓰세요.",
+    "Electronegativity values are in section 9 of the data booklet. Use these values, because older books give slightly different numbers.": "전기 음성도 값은 데이터 부클릿 9절에 있어요. 오래된 책은 조금 다른 숫자를 쓰기도 하니, 이 값을 쓰세요.",
 
     // The ionic bond > p
     "The IB guide gives no fixed number for “large”. Many books use a difference of about 1.8 as a rough guide, but it is not a rule. Bonding changes gradually from ionic to covalent. The proper IB tool is the bonding triangle in the data booklet, which you will use in Structure 2.4.": "IB 교수요목에는 “크다”의 기준이 되는 정해진 숫자가 없어요. 많은 책에서 차이 약 1.8을 대략적인 기준으로 쓰지만, 규칙은 아니에요. 결합은 이온 결합에서 공유 결합으로 조금씩 바뀌어 가요. IB에서 쓰는 올바른 도구는 데이터 부클릿의 결합 삼각형이고, Structure 2.4에서 쓰게 돼요.",
@@ -867,7 +867,7 @@ S1.i18n.register('ko', 's2-1', {
     "Lattice enthalpy is a measure of the strength of the ionic bonding. A larger lattice enthalpy means stronger electrostatic attraction between the ions. It usually also means a higher melting point.": "격자 엔탈피는 이온 결합 세기의 척도예요. 격자 엔탈피가 클수록 이온 사이의 정전기적 인력이 강해요. 보통 녹는점도 더 높아요.",
 
     // Lattice enthalpy: how strong is the ionic bonding? > data booklet note > p
-    "Section 16 of the data booklet lists lattice enthalpies. It defines them for the endothermic process: solid → gaseous ions. Ionic radii are in section 10. Some older books define lattice enthalpy the other way round and give negative values. Use the booklet.": "데이터 부클릿 16번 항목에 격자 엔탈피가 나와 있어요. 부클릿은 격자 엔탈피를 흡열 과정, 즉 고체 → 기체 이온으로 정의해요. 이온 반지름은 10번 항목에 있어요. 오래된 책 중에는 격자 엔탈피를 반대 방향으로 정의해서 음수 값을 주는 것도 있어요. 부클릿을 따르세요.",
+    "Section 16 of the data booklet lists lattice enthalpies. It defines them for the endothermic process: solid → gaseous ions. Ionic radii are in section 10. Some older books define lattice enthalpy the other way round and give negative values. Use the booklet.": "데이터 부클릿 16절에 격자 엔탈피가 나와 있어요. 부클릿은 격자 엔탈피를 흡열 과정, 즉 고체 → 기체 이온으로 정의해요. 이온 반지름은 10절에 있어요. 오래된 책 중에는 격자 엔탈피를 반대 방향으로 정의해서 음수 값을 주는 것도 있어요. 부클릿을 따르세요.",
 
     // Lattice enthalpy: how strong is the ionic bonding? > h3
     "Two things decide the size of the lattice enthalpy": "격자 엔탈피의 크기를 정하는 두 가지",
@@ -963,7 +963,7 @@ S1.i18n.register('ko', 's2-1', {
     "Compare the ionic radii": "이온 반지름 비교하기",
 
     // Lattice enthalpy: how strong is the ionic bonding? > worked example > p
-    "Use section 10 of the data booklet. Smaller ions are closer together, which gives stronger attraction.": "데이터 부클릿 10번 항목을 이용하세요. 이온이 작을수록 서로 가까워서 인력이 강해요.",
+    "Use section 10 of the data booklet. Smaller ions are closer together, which gives stronger attraction.": "데이터 부클릿 10절을 이용하세요. 이온이 작을수록 서로 가까워서 인력이 강해요.",
 
     // Lattice enthalpy: how strong is the ionic bonding? > worked example > maths line
     "Mg<sup>2+</sup> 72 pm is smaller than Na<sup>+</sup> 102 pm": "Mg<sup>2+</sup> 72 pm은 Na<sup>+</sup> 102 pm보다 작다",
@@ -984,7 +984,7 @@ S1.i18n.register('ko', 's2-1', {
     "Check with the lattice enthalpies": "격자 엔탈피로 확인하기",
 
     // Lattice enthalpy: how strong is the ionic bonding? > worked example > p
-    "Section 16 of the data booklet agrees: the lattice enthalpy of MgO is much larger.": "데이터 부클릿 16번 항목도 같은 결론이에요: MgO의 격자 엔탈피가 훨씬 커요.",
+    "Section 16 of the data booklet agrees: the lattice enthalpy of MgO is much larger.": "데이터 부클릿 16절도 같은 결론이에요: MgO의 격자 엔탈피가 훨씬 커요.",
 
     // Lattice enthalpy: how strong is the ionic bonding? > worked example > p
     "The ions in MgO have higher charges (2+ and 2−, against 1+ and 1−) and smaller ionic radii. So the electrostatic attraction between the oppositely charged ions is stronger in MgO (its lattice enthalpy is larger), and more energy is needed to overcome it.": "MgO의 이온은 전하가 더 크고 (2+와 2−, 대 1+와 1−) 이온 반지름이 더 작아요. 그래서 MgO에서 반대 전하를 띤 이온 사이의 정전기적 인력이 더 강하고 (격자 엔탈피가 더 크고), 이를 이기는 데 더 많은 에너지가 필요해요.",
@@ -1804,7 +1804,7 @@ S1.i18n.register('ko', 's2-1', {
     "An ionic compound has no molecules, so it has no intermolecular forces. It is a lattice of ions.": "이온 결합 화합물에는 분자가 없으므로 분자 간 힘도 없어요. 이온 결합 화합물은 이온의 격자예요.",
 
     // widget string (assets/js/widgets-s2-1.js)
-    "The forces between the molecules are weak and need little energy to overcome.": "분자 사이의 힘이 약해서 이기는 데 에너지가 조금만 필요해요.",
+    "The forces between the molecules are weak and need little energy to overcome.": "분자 간 힘이 약해서 이기는 데 에너지가 조금만 필요해요.",
 
     // widget string (assets/js/widgets-s2-1.js)
     "Sodium chloride has a high melting point and a low volatility.": "염화 나트륨은 녹는점이 높고 휘발성이 작아요.",

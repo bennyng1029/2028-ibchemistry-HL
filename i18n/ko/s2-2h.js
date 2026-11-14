@@ -222,7 +222,7 @@ S1.i18n.register('ko', 's2-2h', {
     "To explain equal bond lengths, write that the (π) electrons are <strong>delocalized</strong>, so the bonds are identical and intermediate between single and double. If you are asked for a Lewis formula only, one resonance structure is enough. A drawing with dashed bonds is not a Lewis formula.": "결합 길이가 같은 이유를 설명할 때는 (π) 전자가 <strong>비편재화되어</strong> 있어서 결합들이 똑같고 단일 결합과 이중 결합의 중간이라고 쓰세요. 루이스 구조식만 묻는다면 공명 구조 하나면 충분해요. 결합을 점선으로 그린 그림은 루이스 구조식이 아니에요.",
 
     // Resonance structures and delocalization > data booklet note > p
-    "Section 11 of the data booklet lists single and double bond lengths, such as C–O 143 pm and C=O 122 pm. A bond in a resonance hybrid has a length between the two values.": "데이터 부클릿 11번 항목에는 C–O 143 pm, C=O 122 pm처럼 단일 결합과 이중 결합의 길이가 나와 있어요. 공명 혼성체의 결합 길이는 두 값 사이예요.",
+    "Section 11 of the data booklet lists single and double bond lengths, such as C–O 143 pm and C=O 122 pm. A bond in a resonance hybrid has a length between the two values.": "데이터 부클릿 11절에는 C–O 143 pm, C=O 122 pm처럼 단일 결합과 이중 결합의 길이가 나와 있어요. 공명 혼성체의 결합 길이는 두 값 사이예요.",
 
     // Resonance structures and delocalization > try it > data-label attribute
     "Number of resonance structures": "공명 구조의 수",
@@ -1378,7 +1378,7 @@ S1.i18n.register('ko', 's2-2h', {
     "The syllabus asks questions that connect this topic to others. Here are short answers to four of them.": "교수요목은 이 단원을 다른 단원과 연결하는 질문을 던져요. 그중 네 가지에 짧게 답해 볼게요.",
 
     // Linking it up > h3
-    "Why are oxygen and ozone dissociated by different wavelengths of light?": "산소와 오존은 왜 서로 다른 파장의 빛에 의해 해리될까요?",
+    "Why are oxygen and ozone dissociated by different wavelengths of light?": "산소와 오존은 왜 서로 다른 파장의 빛으로 해리될까요?",
 
     // Linking it up > p
     "<span class=\"chem\">O2</span> has a double bond. In ozone, delocalization makes both bonds intermediate between single and double, so they are weaker. A weaker bond needs less energy to break. Light of lower energy has a longer wavelength (Structure 1.3). So ozone is broken by longer wavelengths of ultraviolet light than oxygen is.": "<span class=\"chem\">O2</span>에는 이중 결합이 있어요. 오존에서는 비편재화 때문에 두 결합이 모두 단일 결합과 이중 결합의 중간이므로 더 약해요. 약한 결합은 끊는 데 에너지가 덜 들어요. 에너지가 낮은 빛은 파장이 길어요(Structure 1.3). 그래서 오존은 산소보다 파장이 긴 자외선에 의해 분해돼요.",

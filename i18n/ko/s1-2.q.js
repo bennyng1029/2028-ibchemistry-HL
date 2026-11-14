@@ -527,7 +527,7 @@ S1.i18n.register('ko', 's1-2.q', {
     // ── s1-2-q021 · short · challenge · SL · Structure 1.2.2 · 3 marks
     "s1-2-q021": {
       // EN: <p>“Heavy water” has the formula <span class="nowrap"><sup>2</sup>H</span><sub>2</sub>O. Ordinary water is almost entirely <span class="nowrap"><sup>1</sup>H</span><sub>2</sub>O. In both, the oxygen is <span class="nowrap"><sup>16</sup>O</span>.</p><p>Sodium reacts with ordinary water to form sodium hydroxide and hydrogen. Predict, with reasons, how heavy water compares with ordinary water in (a) its reaction with sodium and (b) its density.</p>
-      stem: "<p>‘중수(heavy water)’의 화학식은 <span class=\"nowrap\"><sup>2</sup>H</span><sub>2</sub>O예요. 보통의 물은 거의 모두 <span class=\"nowrap\"><sup>1</sup>H</span><sub>2</sub>O예요. 두 물 모두 산소는 <span class=\"nowrap\"><sup>16</sup>O</span>이에요.</p><p>나트륨(Na)은 보통의 물과 반응하여 수산화 나트륨과 수소를 만들어요. 중수를 보통의 물과 비교하여 (a) 나트륨과의 반응과 (b) 밀도가 어떻게 다를지 이유와 함께 예측하시오 (predict).</p>",
+      stem: "<p>‘중수(heavy water)’의 화학식은 <span class=\"nowrap\"><sup>2</sup>H</span><sub>2</sub>O예요. 보통의 물은 거의 모두 <span class=\"nowrap\"><sup>1</sup>H</span><sub>2</sub>O예요. 두 물 모두 산소는 <span class=\"nowrap\"><sup>16</sup>O</span>예요.</p><p>나트륨(Na)은 보통의 물과 반응하여 수산화 나트륨과 수소를 만들어요. 중수를 보통의 물과 비교하여 (a) 나트륨과의 반응과 (b) 밀도가 어떻게 다를지 이유와 함께 예측하시오 (predict).</p>",
       hints: [
         // EN: Which of (a) and (b) is a chemical property, and which is a physical property?
         "(a)와 (b) 중 어느 것이 화학적 성질이고, 어느 것이 물리적 성질인가요?",
@@ -655,7 +655,7 @@ S1.i18n.register('ko', 's1-2.q', {
     // ── s1-2-q027 · short · exam · AHL · Structure 1.2.3 · 2 marks
     "s1-2-q027": {
       // EN: <p>Bromine has two isotopes, <span class="nowrap"><sup>79</sup>Br</span> and <span class="nowrap"><sup>81</sup>Br</span>, in almost equal abundance. The mass spectrum of bromine, <span class="chem">Br2</span>, has peaks at <i>m/z</i> 158, 160 and 162 with heights in the ratio 1 : 2 : 1. Explain why there are three peaks and why the middle peak is the tallest.</p>
-      stem: "<p>브로민에는 동위 원소 <span class=\"nowrap\"><sup>79</sup>Br</span>와 <span class=\"nowrap\"><sup>81</sup>Br</span>가 거의 같은 비율로 존재해요. 브로민(<span class=\"chem\">Br2</span>)의 질량 스펙트럼에는 <i>m/z</i> 158, 160, 162에 봉우리가 있고, 높이의 비는 1 : 2 : 1이에요. 봉우리가 3개인 이유와 가운데 봉우리가 가장 높은 이유를 설명하시오 (explain).</p>",
+      stem: "<p>브로민에는 동위 원소 <span class=\"nowrap\"><sup>79</sup>Br</span>과 <span class=\"nowrap\"><sup>81</sup>Br</span>이 거의 같은 비율로 존재해요. 브로민(<span class=\"chem\">Br2</span>)의 질량 스펙트럼에는 <i>m/z</i> 158, 160, 162에 봉우리가 있고, 높이의 비는 1 : 2 : 1이에요. 봉우리가 3개인 이유와 가운데 봉우리가 가장 높은 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: Each molecule has two atoms. List every way of choosing them from the two isotopes, and add up the masses.
         "분자 하나에는 원자가 두 개 있어요. 두 동위 원소에서 원자를 고르는 모든 경우를 나열하고 질량을 더해 봐요.",
@@ -691,7 +691,7 @@ S1.i18n.register('ko', 's1-2.q', {
     // ── s1-2-q029 · mcq · challenge · AHL · Structure 1.2.3 · 1 mark
     "s1-2-q029": {
       // EN: <p>Chlorine has two isotopes, <span class="nowrap"><sup>35</sup>Cl</span> and <span class="nowrap"><sup>37</sup>Cl</span>, with abundances in the ratio 3 : 1. The mass spectrum of chlorine, <span class="chem">Cl2</span>, has peaks at <i>m/z</i> 70, 72 and 74. What is the ratio of the heights of these peaks, in that order?</p>
-      stem: "<p>염소에는 동위 원소 <span class=\"nowrap\"><sup>35</sup>Cl</span>와 <span class=\"nowrap\"><sup>37</sup>Cl</span>가 3 : 1의 비로 존재해요. 염소(<span class=\"chem\">Cl2</span>)의 질량 스펙트럼에는 <i>m/z</i> 70, 72, 74에 봉우리가 있어요. 이 순서대로 봉우리 높이의 비는 얼마인가요?</p>",
+      stem: "<p>염소에는 동위 원소 <span class=\"nowrap\"><sup>35</sup>Cl</span>과 <span class=\"nowrap\"><sup>37</sup>Cl</span>이 3 : 1의 비로 존재해요. 염소(<span class=\"chem\">Cl2</span>)의 질량 스펙트럼에는 <i>m/z</i> 70, 72, 74에 봉우리가 있어요. 이 순서대로 봉우리 높이의 비는 얼마인가요?</p>",
       options: [
         // EN: 1 : 2 : 1
         "1 : 2 : 1",
@@ -771,7 +771,7 @@ S1.i18n.register('ko', 's1-2.q', {
     // ── s1-2-q032 · mcq · exam · AHL · Structure 1.2.3 · 1 mark
     "s1-2-q032": {
       // EN: <p>Bromine has two isotopes, <span class="nowrap"><sup>79</sup>Br</span> and <span class="nowrap"><sup>81</sup>Br</span>, in almost equal abundance. The mass spectrum of bromine, <span class="chem">Br2</span>, has three peaks near <i>m/z</i> 160. It also has exactly two more peaks, at <i>m/z</i> 79 and 81, with almost equal heights. Which species cause the peaks at <i>m/z</i> 79 and 81?</p>
-      stem: "<p>브로민에는 동위 원소 <span class=\"nowrap\"><sup>79</sup>Br</span>와 <span class=\"nowrap\"><sup>81</sup>Br</span>가 거의 같은 비율로 존재해요. 브로민(<span class=\"chem\">Br2</span>)의 질량 스펙트럼에는 <i>m/z</i> 160 근처에 봉우리가 3개 있어요. 또 <i>m/z</i> 79와 81에 높이가 거의 같은 봉우리가 정확히 2개 더 있어요. <i>m/z</i> 79와 81의 봉우리를 만드는 화학종은 무엇인가요?</p>",
+      stem: "<p>브로민에는 동위 원소 <span class=\"nowrap\"><sup>79</sup>Br</span>과 <span class=\"nowrap\"><sup>81</sup>Br</span>이 거의 같은 비율로 존재해요. 브로민(<span class=\"chem\">Br2</span>)의 질량 스펙트럼에는 <i>m/z</i> 160 근처에 봉우리가 3개 있어요. 또 <i>m/z</i> 79와 81에 높이가 거의 같은 봉우리가 정확히 2개 더 있어요. <i>m/z</i> 79와 81의 봉우리를 만드는 화학종은 무엇인가요?</p>",
       options: [
         // EN: <span class="nowrap"><sup>79</sup>Br</span> and <span class="nowrap"><sup>81</sup>Br</span> atoms
         "<span class=\"nowrap\"><sup>79</sup>Br</span> 원자와 <span class=\"nowrap\"><sup>81</sup>Br</span> 원자",

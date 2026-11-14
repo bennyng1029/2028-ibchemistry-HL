@@ -656,7 +656,7 @@ S1.i18n.register('ko', 's3-2.q', {
         // EN (option A): Boiling does not break the covalent bonds inside molecules. It separates whole molecules from each other, so the forces <em>between</em> molecules matter.
         "0": "끓을 때 분자 안의 공유 결합은 끊어지지 않아요. 분자 전체가 서로 떨어지는 것이므로, 분자 <em>사이의</em> 힘이 중요해요.",
         // EN (option C): Larger molecules have more electrons, so the forces between them are stronger, not weaker.
-        "2": "큰 분자일수록 전자가 많으므로, 분자 사이의 힘은 약해지는 것이 아니라 강해져요.",
+        "2": "큰 분자일수록 전자가 많으므로, 분자 간 힘은 약해지는 것이 아니라 강해져요.",
         // EN (option D): The type of force is the same, but its strength is not. More electrons give stronger London (dispersion) forces.
         "3": "힘의 종류는 같지만 세기는 달라요. 전자가 많을수록 런던 분산력이 강해요.",
       },
@@ -1069,7 +1069,7 @@ S1.i18n.register('ko', 's3-2.q', {
         "이성질체는 같은 원자들로 이루어져 있어요. 그럼 무엇이 다를까요?",
       ],
       // EN: <p>Structural isomers have the <strong>same molecular formula</strong> but <strong>different connectivities</strong>: the atoms are joined together in a different order.</p><p>Example: butane, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>, and methylpropane, <span class="chem">(CH<sub>3</sub>)<sub>3</sub>CH</span>, are both <span class="chem">C<sub>4</sub>H<sub>10</sub></span>.</p>
-      solution: "<p>구조 이성질체는 <strong>분자식은 같지만</strong> <strong>연결 방식이 달라요</strong>. 원자들이 다른 순서로 연결되어 있어요.</p><p>예: butane <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>과 methylpropane <span class=\"chem\">(CH<sub>3</sub>)<sub>3</sub>CH</span>은 둘 다 <span class=\"chem\">C<sub>4</sub>H<sub>10</sub></span>이에요.</p>",
+      solution: "<p>구조 이성질체는 <strong>분자식은 같지만</strong> <strong>연결 방식이 달라요</strong>. 원자들이 다른 순서로 연결되어 있어요.</p><p>예: butane <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>과 methylpropane <span class=\"chem\">(CH<sub>3</sub>)<sub>3</sub>CH</span>는 둘 다 <span class=\"chem\">C<sub>4</sub>H<sub>10</sub></span>이에요.</p>",
       misconception: {
         // EN (option A): This describes members of a homologous series. Isomers have exactly the same atoms.
         "0": "이것은 동족 계열의 화합물들에 대한 설명이에요. 이성질체는 원자 구성이 완전히 같아요.",
@@ -1195,7 +1195,7 @@ S1.i18n.register('ko', 's3-2.q', {
     // ── s3-2-q043 · mcq · exam · SL · Structure 3.2.6 · 1 mark
     "s3-2-q043": {
       // EN: <p>Two halogenoalkanes are X, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CHBrCH<sub>3</sub></span>, and Y, <span class="chem">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>Br</span>. Which row classifies them correctly?</p>
-      stem: "<p>두 할로젠화 알케인 X <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CHBrCH<sub>3</sub></span>와 Y <span class=\"chem\">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>Br</span>가 있어요. 둘을 바르게 분류한 것은 어느 것인가요?</p>",
+      stem: "<p>두 할로젠화 알케인 X <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CHBrCH<sub>3</sub></span>와 Y <span class=\"chem\">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>Br</span>이 있어요. 둘을 바르게 분류한 것은 어느 것인가요?</p>",
       options: [
         // EN: X is primary. Y is secondary.
         "X는 1차, Y는 2차이다.",
@@ -1284,9 +1284,9 @@ S1.i18n.register('ko', 's3-2.q', {
         // EN: Butane, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>, and methylpropane, <span class="chem">(CH<sub>3</sub>)<sub>3</sub>CH</span>
         "Butane <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>과 methylpropane <span class=\"chem\">(CH<sub>3</sub>)<sub>3</sub>CH</span>",
         // EN: Propanal, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CHO</span>, and propanone, <span class="chem">CH<sub>3</sub>COCH<sub>3</sub></span>
-        "Propanal <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CHO</span>과 propanone <span class=\"chem\">CH<sub>3</sub>COCH<sub>3</sub></span>",
+        "Propanal <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CHO</span>와 propanone <span class=\"chem\">CH<sub>3</sub>COCH<sub>3</sub></span>",
         // EN: Ethanol, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>OH</span>, and propan-1-ol, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>
-        "Ethanol <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>OH</span>과 propan-1-ol <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>",
+        "Ethanol <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>OH</span>와 propan-1-ol <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>",
       ],
       hints: [
         // EN: Functional group isomers have the same molecular formula but belong to different classes of compound.

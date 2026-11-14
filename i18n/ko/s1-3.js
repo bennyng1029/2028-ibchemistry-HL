@@ -557,7 +557,7 @@ S1.i18n.register('ko', 's1-3', {
     "<b>Full configuration.</b> Every sublevel is written out: <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>4</sup></span> for sulfur.": "<b>전체 전자 배치.</b> 모든 부껍질을 다 써요. 황의 경우 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>4</sup></span>이에요.",
 
     // Writing electron configurations > p
-    "<b>Condensed configuration.</b> The inner electrons are replaced by the symbol of the previous noble gas in square brackets: <span class=\"mono\">[Ne] 3s<sup>2</sup> 3p<sup>4</sup></span> for sulfur. The noble gas cores you need are <span class=\"mono\">[He]</span> = 2 electrons, <span class=\"mono\">[Ne]</span> = 10 and <span class=\"mono\">[Ar]</span> = 18.": "<b>축약 전자 배치.</b> 안쪽 전자를 바로 앞 비활성 기체의 기호를 대괄호에 넣어 바꿔 써요. 황의 경우 <span class=\"mono\">[Ne] 3s<sup>2</sup> 3p<sup>4</sup></span>이에요. 알아야 할 비활성 기체 핵심은 <span class=\"mono\">[He]</span> = 전자 2개, <span class=\"mono\">[Ne]</span> = 10개, <span class=\"mono\">[Ar]</span> = 18개예요.",
+    "<b>Condensed configuration.</b> The inner electrons are replaced by the symbol of the previous noble gas in square brackets: <span class=\"mono\">[Ne] 3s<sup>2</sup> 3p<sup>4</sup></span> for sulfur. The noble gas cores you need are <span class=\"mono\">[He]</span> = 2 electrons, <span class=\"mono\">[Ne]</span> = 10 and <span class=\"mono\">[Ar]</span> = 18.": "<b>축약 전자 배치.</b> 안쪽 전자를 바로 앞 비활성 기체의 기호를 대괄호에 넣어 바꿔 써요. 황의 경우 <span class=\"mono\">[Ne] 3s<sup>2</sup> 3p<sup>4</sup></span>이에요. 알아야 할 비활성 기체 코어은 <span class=\"mono\">[He]</span> = 전자 2개, <span class=\"mono\">[Ne]</span> = 10개, <span class=\"mono\">[Ar]</span> = 18개예요.",
 
     // Writing electron configurations > p
     "<b>Orbital diagram</b> (arrow-in-box diagram). Each orbital is a box and each electron is an arrow. Boxes for higher-energy sublevels are drawn higher up. This is the only notation that shows Hund’s rule and spin.": "<b>오비탈 상자 그림</b>(상자 속 화살표 그림). 오비탈 하나는 상자 하나, 전자 하나는 화살표 하나로 나타내요. 에너지가 더 높은 부껍질의 상자는 더 위에 그려요. 훈트 규칙과 스핀을 보여 주는 표기법은 이것뿐이에요.",
@@ -599,7 +599,7 @@ S1.i18n.register('ko', 's1-3', {
     "Check that the superscripts add up to 26.": "위첨자를 모두 더하면 26이 되는지 확인하세요.",
 
     // Writing electron configurations > worked example > data-title attribute
-    "Condense with the noble gas core": "비활성 기체 핵심으로 축약하기",
+    "Condense with the noble gas core": "비활성 기체 코어으로 축약하기",
 
     // Writing electron configurations > worked example > p
     "The first 18 electrons, up to 3p<sup>6</sup>, are the configuration of argon. Replace them with [Ar].": "3p<sup>6</sup>까지의 처음 전자 18개는 아르곤의 전자 배치예요. 이 부분을 [Ar]로 바꿔 써요.",
@@ -617,7 +617,7 @@ S1.i18n.register('ko', 's1-3', {
     "Full: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>6</sup>. Condensed: [Ar] 4s<sup>2</sup> 3d<sup>6</sup>. In a full diagram the 3d boxes are drawn slightly higher than the 4s box.": "전체: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>6</sup>. 축약: [Ar] 4s<sup>2</sup> 3d<sup>6</sup>. 완전한 그림에서는 3d 상자를 4s 상자보다 조금 더 높게 그려요.",
 
     // Writing electron configurations > exam tip (shown in English + translation) > p
-    "Examiners accept the 4s and 3d sublevels in either order: <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span> or <span class=\"mono\">[Ar] 3d<sup>6</sup> 4s<sup>2</sup></span>. This site writes them in filling order. If the question says “full”, do not use a noble gas core.": "채점자는 4s와 3d 부껍질을 어느 순서로 써도 인정해요: <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span> 또는 <span class=\"mono\">[Ar] 3d<sup>6</sup> 4s<sup>2</sup></span>. 이 사이트에서는 채워지는 순서대로 써요. 문제에서 “전체(full)”라고 하면 비활성 기체 핵심을 쓰지 마세요.",
+    "Examiners accept the 4s and 3d sublevels in either order: <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span> or <span class=\"mono\">[Ar] 3d<sup>6</sup> 4s<sup>2</sup></span>. This site writes them in filling order. If the question says “full”, do not use a noble gas core.": "채점자는 4s와 3d 부껍질을 어느 순서로 써도 인정해요: <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span> 또는 <span class=\"mono\">[Ar] 3d<sup>6</sup> 4s<sup>2</sup></span>. 이 사이트에서는 채워지는 순서대로 써요. 문제에서 “전체(full)”라고 하면 비활성 기체 코어을 쓰지 마세요.",
 
     // Writing electron configurations > h3
     "Two exceptions: chromium and copper": "두 가지 예외: 크로뮴과 구리",
@@ -671,7 +671,7 @@ S1.i18n.register('ko', 's1-3', {
     "State the condensed electron configurations of a chromium atom (Z = 24) and a copper atom (Z = 29), and the number of unpaired electrons in each.": "크로뮴 원자(Z = 24)와 구리 원자(Z = 29)의 축약 전자 배치를 쓰고 (state), 각각의 홀전자 수를 쓰시오.",
 
     // Writing electron configurations > worked example > data-title attribute
-    "Find the electrons after the argon core": "아르곤 핵심 다음의 전자 찾기",
+    "Find the electrons after the argon core": "아르곤 코어 다음의 전자 찾기",
 
     // Writing electron configurations > worked example > p
     "Argon accounts for 18 electrons. The rest go into 4s and 3d.": "아르곤이 전자 18개를 차지해요. 나머지는 4s와 3d에 들어가요.",
@@ -848,7 +848,7 @@ S1.i18n.register('ko', 's1-3', {
     "Copper is one of the two exceptions. What happens to its 4s sublevel?": "구리는 두 가지 예외 중 하나예요. 4s 부껍질은 어떻게 될까요?",
 
     // Writing electron configurations > try it > li
-    "Cu is [Ar] 4s<sup>1</sup> 3d<sup>?</sup>. There are 29 − 18 = 11 electrons after the argon core, and one of them is in 4s.": "Cu는 [Ar] 4s<sup>1</sup> 3d<sup>?</sup>예요. 아르곤 핵심 다음에 전자가 29 − 18 = 11개 있고, 그중 하나가 4s에 있어요.",
+    "Cu is [Ar] 4s<sup>1</sup> 3d<sup>?</sup>. There are 29 − 18 = 11 electrons after the argon core, and one of them is in 4s.": "Cu는 [Ar] 4s<sup>1</sup> 3d<sup>?</sup>예요. 아르곤 코어 다음에 전자가 29 − 18 = 11개 있고, 그중 하나가 4s에 있어요.",
 
     // Writing electron configurations > try it > p
     "The 3d sublevel holds <strong>10</strong> electrons. Following the filling order without the exception would give 9, which is wrong.": "3d 부껍질에는 전자가 <strong>10</strong>개 있어요. 예외를 무시하고 채우는 순서대로만 하면 9개가 나오는데, 이것은 틀린 답이에요.",

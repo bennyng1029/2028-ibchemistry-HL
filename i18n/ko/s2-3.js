@@ -297,7 +297,7 @@ S1.i18n.register('ko', 's2-3', {
     "Some books say instead that a small ion with a large charge has a high “charge density”. It is the same idea. In an answer, it is safest to name the charge and the radius of the ion.": "어떤 책에서는 그 대신, 크기가 작고 전하가 큰 이온은 “전하 밀도”가 높다고 말해요. 같은 생각이에요. 답을 쓸 때는 이온의 전하와 반지름을 직접 말하는 것이 가장 안전해요.",
 
     // How strong is a metallic bond? > data booklet note > p
-    "Melting points of the elements are in section 8 of the data booklet, in °C. Ionic radii are in section 10, in units of 10<sup>−12</sup> m (the same as pm). You do not need to remember any of these values.": "원소의 녹는점은 데이터 부클릿 섹션 8에 °C 단위로 나와 있어요. 이온 반지름은 섹션 10에 10<sup>−12</sup> m 단위(pm과 같음)로 나와 있어요. 이 값들은 하나도 외울 필요가 없어요.",
+    "Melting points of the elements are in section 8 of the data booklet, in °C. Ionic radii are in section 10, in units of 10<sup>−12</sup> m (the same as pm). You do not need to remember any of these values.": "원소의 녹는점은 데이터 부클릿 8절에 °C 단위로 나와 있어요. 이온 반지름은 10절에 10<sup>−12</sup> m 단위(pm과 같음)로 나와 있어요. 이 값들은 하나도 외울 필요가 없어요.",
 
     // How strong is a metallic bond? > h3
     "Two trends to explain": "설명해야 할 두 가지 경향",
@@ -350,7 +350,7 @@ S1.i18n.register('ko', 's2-3', {
     "Melting point trend explorer": "녹는점 경향 탐색",
 
     // How strong is a metallic bond? > widget > figcaption
-    "Choose a set of metals. Read the ion data, make a prediction, then reveal the melting points. All values are from sections 8 and 10 of the data booklet. The number of delocalized electrons per atom is the simple model used in IB: it equals the charge on the ion.": "금속 묶음을 하나 고르세요. 이온 자료를 읽고 예측한 다음, 녹는점을 확인하세요. 모든 값은 데이터 부클릿 섹션 8과 10에서 가져왔어요. 원자당 비편재화된 전자 수는 IB에서 쓰는 간단한 모형으로, 이온의 전하와 같아요.",
+    "Choose a set of metals. Read the ion data, make a prediction, then reveal the melting points. All values are from sections 8 and 10 of the data booklet. The number of delocalized electrons per atom is the simple model used in IB: it equals the charge on the ion.": "금속 묶음을 하나 고르세요. 이온 자료를 읽고 예측한 다음, 녹는점을 확인하세요. 모든 값은 데이터 부클릿 8절과 10에서 가져왔어요. 원자당 비편재화된 전자 수는 IB에서 쓰는 간단한 모형으로, 이온의 전하와 같아요.",
 
     // How strong is a metallic bond? > h3
     "Method in words: comparing two melting points": "말로 쓰는 방법: 두 녹는점 비교하기",
@@ -510,7 +510,7 @@ S1.i18n.register('ko', 's2-3', {
     "Melting points across period 4": "4주기의 녹는점",
 
     // Transition elements: delocalized d-electrons > widget > Additional HL > figcaption
-    "Make a prediction, then reveal the melting points of potassium, calcium and the first-row transition elements from scandium to copper. The values are from section 8 of the data booklet.": "예측한 다음, 칼륨, 칼슘, 그리고 스칸듐부터 구리까지 첫 번째 줄 전이 원소의 녹는점을 확인하세요. 값은 데이터 부클릿 섹션 8에서 가져왔어요.",
+    "Make a prediction, then reveal the melting points of potassium, calcium and the first-row transition elements from scandium to copper. The values are from section 8 of the data booklet.": "예측한 다음, 칼륨, 칼슘, 그리고 스칸듐부터 구리까지 첫 번째 줄 전이 원소의 녹는점을 확인하세요. 값은 데이터 부클릿 8절에서 가져왔어요.",
 
     // Transition elements: delocalized d-electrons > worked example > Additional HL > h3
     "Why a transition element has a high melting point": "전이 원소의 녹는점이 높은 이유",
@@ -573,7 +573,7 @@ S1.i18n.register('ko', 's2-3', {
     "What experimental data demonstrate the physical properties of metals, and trends in these properties?": "어떤 실험 자료가 금속의 물리적 성질과 그 성질의 경향을 보여 줄까요?",
 
     // Linking it up > p
-    "Melting points are one example. The values in section 8 of the data booklet show the fall down group 1 and the rise from sodium to aluminium. Measurements of electrical conductivity show that metals conduct as solids and as liquids. Periodic trends are studied in Structure 3.1.": "녹는점이 한 예예요. 데이터 부클릿 섹션 8의 값을 보면 1족 아래로 갈수록 녹는점이 낮아지고, 나트륨에서 알루미늄으로 갈수록 높아져요. 전기 전도도를 측정하면 금속이 고체와 액체 상태에서 모두 전기를 전도한다는 것을 알 수 있어요. 주기적 경향은 Structure 3.1에서 공부해요.",
+    "Melting points are one example. The values in section 8 of the data booklet show the fall down group 1 and the rise from sodium to aluminium. Measurements of electrical conductivity show that metals conduct as solids and as liquids. Periodic trends are studied in Structure 3.1.": "녹는점이 한 예예요. 데이터 부클릿 8절의 값을 보면 1족 아래로 갈수록 녹는점이 낮아지고, 나트륨에서 알루미늄으로 갈수록 높아져요. 전기 전도도를 측정하면 금속이 고체와 액체 상태에서 모두 전기를 전도한다는 것을 알 수 있어요. 주기적 경향은 Structure 3.1에서 공부해요.",
 
     // Linking it up > h3
     "What trends in the reactivity of metals can be predicted from the periodic table?": "주기율표로 금속의 반응성에 대해 어떤 경향을 예측할 수 있을까요?",

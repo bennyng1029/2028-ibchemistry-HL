@@ -42,7 +42,7 @@ S1.i18n.register('ko', 's3-2h', {
     "Recognize a pair of enantiomers as non-superimposable mirror images in 3-D models.": "3-D 모형에서 한 쌍의 거울상 이성질체를 서로 겹칠 수 없는 거울상으로 알아보기.",
 
     // What you need to be able to do > checklist > Additional HL > span
-    "Use the terms chiral, optical activity, enantiomer and racemic mixture correctly.": "카이랄, 광학 활성, 거울상 이성질체, 라셈 혼합물이라는 용어를 바르게 쓰기.",
+    "Use the terms chiral, optical activity, enantiomer and racemic mixture correctly.": "카이랄, 광학 활성, 거울상 이성질체, 라세미 혼합물이라는 용어를 바르게 쓰기.",
 
     // What you need to be able to do > checklist > Additional HL > span
     "Use the molecular ion and the fragmentation pattern of a mass spectrum to deduce features of a structure.": "질량 스펙트럼의 분자 이온과 조각 무늬를 이용해 구조의 특징 추론하기.",
@@ -388,7 +388,7 @@ S1.i18n.register('ko', 's3-2h', {
     "The two enantiomers rotate the plane by the same angle, but in opposite directions. One rotates it clockwise and the other anticlockwise. This is the “different optical property” of enantiomers. An instrument called a polarimeter measures the rotation.": "두 거울상 이성질체는 진동면을 같은 각도만큼, 하지만 반대 방향으로 회전시켜요. 하나는 시계 방향으로, 다른 하나는 시계 반대 방향으로 회전시켜요. 이것이 거울상 이성질체의 “서로 다른 광학적 성질”이에요. 회전은 편광계라는 기기로 측정해요.",
 
     // Chiral carbon atoms and enantiomers > p
-    "A <dfn>racemic mixture</dfn> contains equal amounts of the two enantiomers. The two rotations cancel, so a racemic mixture does not rotate plane-polarized light. It is optically inactive.": "<dfn>라셈 혼합물 <span class=\"en-term\">(racemic mixture)</span></dfn>은 두 거울상 이성질체를 같은 양만큼 포함해요. 두 회전이 서로 상쇄되므로 라셈 혼합물은 평면 편광을 회전시키지 않아요. 광학 비활성이에요.",
+    "A <dfn>racemic mixture</dfn> contains equal amounts of the two enantiomers. The two rotations cancel, so a racemic mixture does not rotate plane-polarized light. It is optically inactive.": "<dfn>라세미 혼합물 <span class=\"en-term\">(racemic mixture)</span></dfn>은 두 거울상 이성질체를 같은 양만큼 포함해요. 두 회전이 서로 상쇄되므로 라세미 혼합물은 평면 편광을 회전시키지 않아요. 광학 비활성이에요.",
 
     // Chiral carbon atoms and enantiomers > widget > data-title attribute
     "Rotation of plane-polarized light": "평면 편광의 회전",
@@ -439,7 +439,7 @@ S1.i18n.register('ko', 's3-2h', {
     "You do not need R/S, D/L or (+)/(−) labels. You do not need diastereomers, meso compounds or rules for counting stereoisomers. You do not need to explain how a polarimeter works or to calculate a rotation. For the chemistry of enantiomers, it is enough to know that they behave differently in chiral environments.": "R/S, D/L, (+)/(−) 표시는 알 필요가 없어요. 부분입체 이성질체, 메소 화합물, 입체 이성질체 수를 세는 규칙도 알 필요가 없어요. 편광계의 작동 원리를 설명하거나 회전을 계산할 필요도 없어요. 거울상 이성질체의 화학에 대해서는 카이랄 환경에서 서로 다르게 행동한다는 것만 알면 돼요.",
 
     // Chiral carbon atoms and enantiomers > common mistake > p
-    "A racemic mixture is not “a molecule that is not chiral”. It is a 50 : 50 mixture of two chiral molecules. Each one still rotates the light. The rotations cancel.": "라셈 혼합물은 “카이랄이 아닌 분자”가 아니에요. 두 카이랄 분자가 50 : 50으로 섞인 혼합물이에요. 각 분자는 여전히 빛을 회전시켜요. 회전이 서로 상쇄될 뿐이에요.",
+    "A racemic mixture is not “a molecule that is not chiral”. It is a 50 : 50 mixture of two chiral molecules. Each one still rotates the light. The rotations cancel.": "라세미 혼합물은 “카이랄이 아닌 분자”가 아니에요. 두 카이랄 분자가 50 : 50으로 섞인 혼합물이에요. 각 분자는 여전히 빛을 회전시켜요. 회전이 서로 상쇄될 뿐이에요.",
 
     // Mass spectrometry of organic compounds > data-toc attribute
     "Mass spectrometry": "질량 분석법",
@@ -460,7 +460,7 @@ S1.i18n.register('ko', 's3-2h', {
     "In the mass spectrometer, a molecule loses one electron. This makes a positive ion called the <dfn>molecular ion</dfn>, written <span class=\"mono\">M<sup>+</sup></span>. It has the same mass as the whole molecule.": "질량 분석기 안에서 분자는 전자 1개를 잃어요. 그러면 <dfn>분자 이온 <span class=\"en-term\">(molecular ion)</span></dfn>이라는 양이온이 생기고, <span class=\"mono\">M<sup>+</sup></span>로 써요. 분자 이온의 질량은 분자 전체의 질량과 같아요.",
 
     // Mass spectrometry of organic compounds > p
-    "The ion has a charge of 1+, so its <span class=\"mono\">m/z</span> value equals its mass. The <span class=\"mono\">m/z</span> of the molecular ion peak gives the relative molecular mass, <i>M</i><sub>r</sub>, of the compound.": "이 이온의 전하는 1+이므로 <span class=\"mono\">m/z</span> 값은 질량과 같아요. 분자 이온 봉우리의 <span class=\"mono\">m/z</span>가 화합물의 상대 분자 질량 <i>M</i><sub>r</sub>를 알려 줘요.",
+    "The ion has a charge of 1+, so its <span class=\"mono\">m/z</span> value equals its mass. The <span class=\"mono\">m/z</span> of the molecular ion peak gives the relative molecular mass, <i>M</i><sub>r</sub>, of the compound.": "이 이온의 전하는 1+이므로 <span class=\"mono\">m/z</span> 값은 질량과 같아요. 분자 이온 봉우리의 <span class=\"mono\">m/z</span>가 화합물의 상대 분자 질량 <i>M</i><sub>r</sub>을 알려 줘요.",
 
     // Mass spectrometry of organic compounds > h3
     "Fragmentation": "조각화",
@@ -482,7 +482,7 @@ S1.i18n.register('ko', 's3-2h', {
     "Method in words": "말로 정리한 방법",
 
     // Mass spectrometry of organic compounds > li
-    "Find the molecular ion peak. It is the peak at the highest <span class=\"mono\">m/z</span>. Its <span class=\"mono\">m/z</span> is <i>M</i><sub>r</sub>.": "분자 이온 봉우리를 찾아요. <span class=\"mono\">m/z</span>가 가장 큰 봉우리예요. 그 <span class=\"mono\">m/z</span>가 <i>M</i><sub>r</sub>예요.",
+    "Find the molecular ion peak. It is the peak at the highest <span class=\"mono\">m/z</span>. Its <span class=\"mono\">m/z</span> is <i>M</i><sub>r</sub>.": "분자 이온 봉우리를 찾아요. <span class=\"mono\">m/z</span>가 가장 큰 봉우리예요. 그 <span class=\"mono\">m/z</span>가 <i>M</i><sub>r</sub>이에요.",
 
     // Mass spectrometry of organic compounds > li
     "Choose another peak. Subtract its <span class=\"mono\">m/z</span> from <i>M</i><sub>r</sub>. This is the mass lost.": "다른 봉우리를 하나 골라요. <i>M</i><sub>r</sub>에서 그 봉우리의 <span class=\"mono\">m/z</span>를 빼요. 이것이 잃은 질량이에요.",
@@ -971,7 +971,7 @@ S1.i18n.register('ko', 's3-2h', {
     "H of an aldehyde group": "알데하이드기의 H",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "The first and last columns are from the data booklet, where the types of proton are drawn as structures. The middle column is a reading guide. A row drawn with <span class=\"chem\">CH2</span> is also used for a <span class=\"chem\">CH3</span> or CH group in the same position. This page uses the row RO–C(=O)–CH<sub>2</sub>– (2.0–2.5 ppm) for the carbon next to the C=O of a carboxylic acid as well, because the booklet has no separate row for acids.": "첫째 열과 마지막 열은 데이터 부클릿에서 가져왔어요. 부클릿에는 양성자의 종류가 구조로 그려져 있어요. 가운데 열은 읽는 법을 돕는 안내예요. <span class=\"chem\">CH2</span>로 그려진 행은 같은 위치의 <span class=\"chem\">CH3</span>기나 CH기에도 써요. 부클릿에 산만을 위한 행이 따로 없어서, 이 페이지에서는 카복실산의 C=O 옆 탄소에도 RO–C(=O)–CH<sub>2</sub>– 행(2.0–2.5 ppm)을 써요.",
+    "The first and last columns are from the data booklet, where the types of proton are drawn as structures. The middle column is a reading guide. A row drawn with <span class=\"chem\">CH2</span> is also used for a <span class=\"chem\">CH3</span> or CH group in the same position. This page uses the row RO–C(=O)–CH<sub>2</sub>– (2.0–2.5 ppm) for the carbon next to the C=O of a carboxylic acid as well, because the booklet has no separate row for acids.": "첫째 열과 마지막 열은 데이터 부클릿에서 가져왔어요. 부클릿에는 양성자의 종류가 구조로 그려져 있어요. 가운데 열은 읽는 법을 돕는 안내예요. <span class=\"chem\">CH2</span>로 그려진 행은 같은 위치의 <span class=\"chem\">CH3</span>기나 CH기에도 써요. 부클릿에 카복실산 전용 행이 따로 없어서, 이 페이지에서는 카복실산의 C=O 옆 탄소에도 RO–C(=O)–CH<sub>2</sub>– 행(2.0–2.5 ppm)을 써요.",
 
     // Proton NMR: signals, chemical shifts and areas > p
     "On this site, every NMR signal is given inside its booklet range, as in exam data. Real spectra vary a little: for example, the <span class=\"chem\">CH3</span> of an ethyl group joined to O is often measured near 1.2 ppm.": "이 사이트에서는 시험 자료처럼 모든 NMR 신호를 부클릿 범위 안의 값으로 나타내요. 실제 스펙트럼은 조금씩 달라요: 예를 들어 O에 붙은 에틸기의 <span class=\"chem\">CH3</span>는 1.2 ppm 근처에서 측정되는 경우가 많아요.",
@@ -1322,7 +1322,7 @@ S1.i18n.register('ko', 's3-2h', {
     "Find the empirical formula from the percentage composition. Divide each percentage by the relative atomic mass. Then divide by the smallest value.": "백분율 조성으로 실험식을 구해요. 각 백분율을 상대 원자 질량으로 나눠요. 그다음 가장 작은 값으로 나눠요.",
 
     // Combining the techniques > li
-    "Read <i>M</i><sub>r</sub> from the molecular ion peak. Compare it with the empirical formula mass to get the molecular formula.": "분자 이온 봉우리에서 <i>M</i><sub>r</sub>를 읽어요. 이것을 실험식량과 비교해 분자식을 구해요.",
+    "Read <i>M</i><sub>r</sub> from the molecular ion peak. Compare it with the empirical formula mass to get the molecular formula.": "분자 이온 봉우리에서 <i>M</i><sub>r</sub>을 읽어요. 이것을 실험식량과 비교해 분자식을 구해요.",
 
     // Combining the techniques > li
     "Use the IR spectrum to find the functional group. Note what is absent as well as what is present.": "IR 스펙트럼으로 작용기를 찾아요. 있는 것뿐 아니라 없는 것도 적어 두세요.",
@@ -1361,7 +1361,7 @@ S1.i18n.register('ko', 's3-2h', {
     "Find the molecular formula": "분자식 구하기",
 
     // Combining the techniques > worked example > p
-    "The molecular ion peak gives M<sub>r</sub>.": "분자 이온 봉우리가 M<sub>r</sub>를 알려 줘요.",
+    "The molecular ion peak gives M<sub>r</sub>.": "분자 이온 봉우리가 M<sub>r</sub>을 알려 줘요.",
 
     // Combining the techniques > worked example > maths line
     "molecular ion peak at m/z = 86, so <i>M</i><sub>r</sub> = 86": "분자 이온 봉우리는 m/z = 86, 따라서 <i>M</i><sub>r</sub> = 86",
@@ -2054,7 +2054,7 @@ S1.i18n.register('ko', 's3-2h', {
     "The plane of polarization is rotated anticlockwise, by the same angle.": "편광면이 같은 각도만큼 시계 반대 방향으로 회전해요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Racemic mixture": "라셈 혼합물",
+    "Racemic mixture": "라세미 혼합물",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "No rotation. The two enantiomers are present in equal amounts, so their rotations cancel.": "회전 없음. 두 거울상 이성질체가 같은 양만큼 있어서 회전이 서로 상쇄돼요.",

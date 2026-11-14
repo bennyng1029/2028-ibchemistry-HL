@@ -329,7 +329,7 @@ S1.i18n.register('ko', 's1-2', {
     "Atoms of the same element with different numbers of neutrons.": "같은 원소의 원자이지만 중성자 수가 다른 원자.",
 
     // Isotopes > p
-    "You name an isotope by its mass number: chlorine-35 and chlorine-37, or <sup>35</sup>Cl and <sup>37</sup>Cl.": "동위 원소는 질량수로 이름을 붙여요: 염소-35와 염소-37, 또는 <sup>35</sup>Cl와 <sup>37</sup>Cl.",
+    "You name an isotope by its mass number: chlorine-35 and chlorine-37, or <sup>35</sup>Cl and <sup>37</sup>Cl.": "동위 원소는 질량수로 이름을 붙여요: 염소-35와 염소-37, 또는 <sup>35</sup>Cl과 <sup>37</sup>Cl.",
 
     // Isotopes > table > caption
     "The two isotopes of chlorine found in nature": "자연에 존재하는 염소의 동위 원소 2가지",
@@ -513,7 +513,7 @@ S1.i18n.register('ko', 's1-2', {
     "Call the percentage of one isotope <i>x</i>. The other is then 100 − <i>x</i>.": "한 동위 원소의 백분율을 <i>x</i>라고 해요. 그러면 다른 하나는 100 − <i>x</i>예요.",
 
     // Relative atomic mass from isotope data > li
-    "Write the weighted-mean equation with <i>x</i> in it, and set it equal to <i>A</i><sub>r</sub>.": "<i>x</i>가 들어간 가중 평균 식을 쓰고, 그 값을 <i>A</i><sub>r</sub>와 같다고 놓아요.",
+    "Write the weighted-mean equation with <i>x</i> in it, and set it equal to <i>A</i><sub>r</sub>.": "<i>x</i>가 들어간 가중 평균 식을 쓰고, 그 값을 <i>A</i><sub>r</sub>과 같다고 놓아요.",
 
     // Relative atomic mass from isotope data > li
     "Multiply both sides by 100 to remove the fraction.": "양변에 100을 곱해 분수를 없애요.",
@@ -727,7 +727,7 @@ S1.i18n.register('ko', 's1-2', {
     "To two decimal places: <strong>69.80</strong>. (The data booklet gives 69.72. Your calculated value is the one to write.)": "소수점 아래 2자리까지: <strong>69.80</strong>. (데이터 부클릿 값은 69.72예요. 답으로 쓸 값은 계산한 값이에요.)",
 
     // Mass spectra > exam tip (shown in English + translation) > Additional HL > p
-    "The particles detected in a mass spectrometer are positive ions. If you are asked which species causes a peak, include the charge: <sup>35</sup>Cl<sup>+</sup>, not <sup>35</sup>Cl. Without the + the mark is not given.": "질량 분석기에서 검출되는 입자는 양이온이에요. 어떤 화학종이 봉우리를 만드는지 물으면 전하를 함께 쓰세요: <sup>35</sup>Cl가 아니라 <sup>35</sup>Cl<sup>+</sup>. +가 없으면 점수를 받지 못해요.",
+    "The particles detected in a mass spectrometer are positive ions. If you are asked which species causes a peak, include the charge: <sup>35</sup>Cl<sup>+</sup>, not <sup>35</sup>Cl. Without the + the mark is not given.": "질량 분석기에서 검출되는 입자는 양이온이에요. 어떤 화학종이 봉우리를 만드는지 물으면 전하를 함께 쓰세요: <sup>35</sup>Cl이 아니라 <sup>35</sup>Cl<sup>+</sup>. +가 없으면 점수를 받지 못해요.",
 
     // Mass spectra > Additional HL > h3
     "Elements that exist as molecules": "분자로 존재하는 원소",
@@ -736,7 +736,7 @@ S1.i18n.register('ko', 's1-2', {
     "Chlorine gas is made of <span class=\"chem\">Cl2</span> molecules. Each molecule contains two atoms, and each atom can be either isotope. So the spectrum of the <span class=\"chem\">Cl2+</span> ions has three peaks, not two.": "염소 기체는 <span class=\"chem\">Cl2</span> 분자로 이루어져 있어요. 분자 하나에는 원자가 2개 있고, 각 원자는 두 동위 원소 중 어느 것이든 될 수 있어요. 그래서 <span class=\"chem\">Cl2+</span> 이온의 스펙트럼에는 봉우리가 2개가 아니라 3개 있어요.",
 
     // Mass spectra > table > Additional HL > caption
-    "Peaks for <span class=\"chem\">Cl2+</span>, where <sup>35</sup>Cl : <sup>37</sup>Cl is about 3 : 1": "<span class=\"chem\">Cl2+</span>의 봉우리(<sup>35</sup>Cl : <sup>37</sup>Cl는 약 3 : 1)",
+    "Peaks for <span class=\"chem\">Cl2+</span>, where <sup>35</sup>Cl : <sup>37</sup>Cl is about 3 : 1": "<span class=\"chem\">Cl2+</span>의 봉우리(<sup>35</sup>Cl : <sup>37</sup>Cl은 약 3 : 1)",
 
     // Mass spectra > table > Additional HL > th
     "Atoms in the molecule": "분자 속 원자",
@@ -748,19 +748,19 @@ S1.i18n.register('ko', 's1-2', {
     "Relative height": "상대 높이",
 
     // Mass spectra > table > Additional HL > td
-    "<sup>35</sup>Cl and <sup>35</sup>Cl": "<sup>35</sup>Cl와 <sup>35</sup>Cl",
+    "<sup>35</sup>Cl and <sup>35</sup>Cl": "<sup>35</sup>Cl과 <sup>35</sup>Cl",
 
     // Mass spectra > table > Additional HL > td
-    "<sup>35</sup>Cl and <sup>37</sup>Cl (two ways round)": "<sup>35</sup>Cl와 <sup>37</sup>Cl (2가지 순서)",
+    "<sup>35</sup>Cl and <sup>37</sup>Cl (two ways round)": "<sup>35</sup>Cl과 <sup>37</sup>Cl (2가지 순서)",
 
     // Mass spectra > table > Additional HL > td
-    "<sup>37</sup>Cl and <sup>37</sup>Cl": "<sup>37</sup>Cl와 <sup>37</sup>Cl",
+    "<sup>37</sup>Cl and <sup>37</sup>Cl": "<sup>37</sup>Cl과 <sup>37</sup>Cl",
 
     // Mass spectra > Additional HL > p
     "The middle peak has a factor of 2 because the mixed molecule can form in two ways: <sup>35</sup>Cl–<sup>37</sup>Cl or <sup>37</sup>Cl–<sup>35</sup>Cl. It is like tossing two coins: one head and one tail is twice as likely as two heads.": "섞인 분자는 <sup>35</sup>Cl–<sup>37</sup>Cl 또는 <sup>37</sup>Cl–<sup>35</sup>Cl의 2가지 방법으로 생길 수 있어서, 가운데 봉우리에는 2가 곱해져요. 동전 2개를 던지는 것과 같아요: 앞면 하나와 뒷면 하나가 나올 확률은 앞면 두 개가 나올 확률의 2배예요.",
 
     // Mass spectra > Additional HL > p
-    "Bromine has two isotopes, <sup>79</sup>Br and <sup>81</sup>Br, in almost equal amounts. The same reasoning gives peaks for <span class=\"chem\">Br2+</span> at <i>m/z</i> 158, 160 and 162 with heights in the ratio 1 : 2 : 1.": "브로민에는 2가지 동위 원소 <sup>79</sup>Br와 <sup>81</sup>Br가 거의 같은 양만큼 있어요. 같은 방식으로 생각하면 <span class=\"chem\">Br2+</span>의 봉우리는 <i>m/z</i> 158, 160, 162에 나타나고, 높이의 비는 1 : 2 : 1이에요.",
+    "Bromine has two isotopes, <sup>79</sup>Br and <sup>81</sup>Br, in almost equal amounts. The same reasoning gives peaks for <span class=\"chem\">Br2+</span> at <i>m/z</i> 158, 160 and 162 with heights in the ratio 1 : 2 : 1.": "브로민에는 2가지 동위 원소 <sup>79</sup>Br과 <sup>81</sup>Br이 거의 같은 양만큼 있어요. 같은 방식으로 생각하면 <span class=\"chem\">Br2+</span>의 봉우리는 <i>m/z</i> 158, 160, 162에 나타나고, 높이의 비는 1 : 2 : 1이에요.",
 
     // Mass spectra > Additional HL > p
     "Some molecules break into single atoms inside the instrument. So the full spectrum of chlorine also has two peaks from <sup>35</sup>Cl<sup>+</sup> and <sup>37</sup>Cl<sup>+</sup> ions, at <i>m/z</i> 35 and 37, with heights in the ratio 3 : 1. The full spectrum of bromine also has peaks at <i>m/z</i> 79 and 81, with almost equal heights.": "어떤 분자는 기기 안에서 원자 하나하나로 쪼개져요. 그래서 염소의 전체 스펙트럼에는 <sup>35</sup>Cl<sup>+</sup> 이온과 <sup>37</sup>Cl<sup>+</sup> 이온에 의한 봉우리 2개도 <i>m/z</i> 35와 37에 나타나고, 높이의 비는 3 : 1이에요. 브로민의 전체 스펙트럼에도 <i>m/z</i> 79와 81에 높이가 거의 같은 봉우리가 있어요.",
@@ -1185,7 +1185,7 @@ S1.i18n.register('ko', 's1-2', {
     "Look in the periodic table for the element whose relative atomic mass is closest to your value. Do not match the mass to the atomic number.": "주기율표에서 상대 원자 질량이 내 값에 가장 가까운 원소를 찾으세요. 질량을 원자 번호와 맞추면 안 돼요.",
 
     // widget string (assets/js/widgets-s1-2.js)
-    "Work out <i>A</i><sub>r</sub> first. Then look in the periodic table for the element whose relative atomic mass is closest to your value. Do not match the mass to the atomic number.": "먼저 <i>A</i><sub>r</sub>를 구하세요. 그다음 주기율표에서 상대 원자 질량이 내 값에 가장 가까운 원소를 찾으세요. 질량을 원자 번호와 맞추면 안 돼요.",
+    "Work out <i>A</i><sub>r</sub> first. Then look in the periodic table for the element whose relative atomic mass is closest to your value. Do not match the mass to the atomic number.": "먼저 <i>A</i><sub>r</sub>을 구하세요. 그다음 주기율표에서 상대 원자 질량이 내 값에 가장 가까운 원소를 찾으세요. 질량을 원자 번호와 맞추면 안 돼요.",
 
     // widget string (assets/js/widgets-s1-2.js)
     "relative abundance / %": "상대 존재 비율 / %",

@@ -58,7 +58,7 @@ S1.i18n.register('ko', 's1-4.q', {
       stem: "<p>물 시료에 분자가 9.03 × 10<sup>22</sup>개 들어 있어요. 물의 양을 <span class=\"unit\">mol</span> 단위로 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p>",
       hints: [
         // EN: Rearrange <span class="mono"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></span> to make <i>n</i> the subject.
-        "<span class=\"mono\"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></span>을 <i>n</i>에 대한 식으로 바꾸세요.",
+        "<span class=\"mono\"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></span>를 <i>n</i>에 대한 식으로 바꾸세요.",
         // EN: Going from particles to moles makes the number much smaller, so you divide by 6.02 × 10<sup>23</sup>. Compare the powers of ten first: 10<sup>22</sup> is less than 10<sup>23</sup>, so the answer is less than 1 mol.
         "입자 수에서 몰로 가면 수가 훨씬 작아지므로 6.02 × 10<sup>23</sup>으로 나눠요. 먼저 10의 거듭제곱을 비교해 봐요: 10<sup>22</sup>는 10<sup>23</sup>보다 작으므로 답은 1 mol보다 작아요.",
       ],
@@ -197,7 +197,7 @@ S1.i18n.register('ko', 's1-4.q', {
     // ── s1-4-q008 · mcq · foundation · SL · Structure 1.4.2 · 1 mark
     "s1-4-q008": {
       // EN: <p>Which is the relative formula mass, <i>M</i><sub>r</sub>, of calcium hydroxide, <span class="chem">Ca(OH)2</span>?</p><p>Use <i>A</i><sub>r</sub>: Ca = 40.08, O = 16.00, H = 1.01.</p>
-      stem: "<p>수산화 칼슘(<span class=\"chem\">Ca(OH)2</span>)의 상대 화학식량 <i>M</i><sub>r</sub>는 얼마인가요?</p><p><i>A</i><sub>r</sub>를 이용하세요: Ca = 40.08, O = 16.00, H = 1.01.</p>",
+      stem: "<p>수산화 칼슘(<span class=\"chem\">Ca(OH)2</span>)의 상대 화학식량 <i>M</i><sub>r</sub>은 얼마인가요?</p><p><i>A</i><sub>r</sub>을 이용하세요: Ca = 40.08, O = 16.00, H = 1.01.</p>",
       options: [
         // EN: 57.09
         "57.09",
@@ -215,7 +215,7 @@ S1.i18n.register('ko', 's1-4.q', {
         "괄호 밖의 2는 O와 H 둘 다에 곱해요. 그리고 <em>상대</em> 질량에 단위가 있는지도 생각해 보세요.",
       ],
       // EN: <div class="worked__math"><i>M</i><sub>r</sub> = 40.08 + 2 × (16.00 + 1.01)</div><div class="worked__math"><i>M</i><sub>r</sub> = 40.08 + 34.02<br>&nbsp;&nbsp;= <strong>74.10</strong> (no units)</div><p><i>A</i><sub>r</sub> and <i>M</i><sub>r</sub> are ratios, so they have no units. Molar mass has the same number with units of <span class="unit">g mol-1</span>.</p>
-      solution: "<div class=\"worked__math\"><i>M</i><sub>r</sub> = 40.08 + 2 × (16.00 + 1.01)</div><div class=\"worked__math\"><i>M</i><sub>r</sub> = 40.08 + 34.02<br>&nbsp;&nbsp;= <strong>74.10</strong> (단위 없음)</div><p><i>A</i><sub>r</sub>와 <i>M</i><sub>r</sub>는 비이므로 단위가 없어요. 몰 질량은 같은 수에 <span class=\"unit\">g mol-1</span> 단위가 붙어요.</p>",
+      solution: "<div class=\"worked__math\"><i>M</i><sub>r</sub> = 40.08 + 2 × (16.00 + 1.01)</div><div class=\"worked__math\"><i>M</i><sub>r</sub> = 40.08 + 34.02<br>&nbsp;&nbsp;= <strong>74.10</strong> (단위 없음)</div><p><i>A</i><sub>r</sub>과 <i>M</i><sub>r</sub>은 비이므로 단위가 없어요. 몰 질량은 같은 수에 <span class=\"unit\">g mol-1</span> 단위가 붙어요.</p>",
       misconception: {
         // EN (option A): You added one Ca, one O and one H. The subscript 2 outside the bracket means there are two O atoms and two H atoms.
         "0": "Ca 1개, O 1개, H 1개만 더했어요. 괄호 밖의 아래 첨자 2는 O 원자 2개와 H 원자 2개가 있다는 뜻이에요.",
@@ -229,7 +229,7 @@ S1.i18n.register('ko', 's1-4.q', {
     // ── s1-4-q009 · numeric · foundation · SL · Structure 1.4.2 · 1 mark
     "s1-4-q009": {
       // EN: <p>Calculate the relative formula mass, <i>M</i><sub>r</sub>, of iron(III) sulfate, <span class="chem">Fe2(SO4)3</span>. Give your answer to 2 decimal places.</p><p>Use the data booklet values: Fe = 55.85, S = 32.07, O = 16.00.</p>
-      stem: "<p>황산 철(III)(<span class=\"chem\">Fe2(SO4)3</span>)의 상대 화학식량 <i>M</i><sub>r</sub>를 계산하시오 (calculate). 소수점 아래 2자리로 답하세요.</p><p>데이터 부클릿 값을 이용하세요: Fe = 55.85, S = 32.07, O = 16.00.</p>",
+      stem: "<p>황산 철(III)(<span class=\"chem\">Fe2(SO4)3</span>)의 상대 화학식량 <i>M</i><sub>r</sub>을 계산하시오 (calculate). 소수점 아래 2자리로 답하세요.</p><p>데이터 부클릿 값을 이용하세요: Fe = 55.85, S = 32.07, O = 16.00.</p>",
       hints: [
         // EN: Count the atoms of each element first. The subscript 3 outside the bracket multiplies everything inside it.
         "먼저 각 원소의 원자 수를 세세요. 괄호 밖의 아래 첨자 3은 괄호 안의 모든 것에 곱해요.",
@@ -265,7 +265,7 @@ S1.i18n.register('ko', 's1-4.q', {
     // ── s1-4-q011 · mcq · exam · SL · Structure 1.4.2 · 1 mark
     "s1-4-q011": {
       // EN: <p>What is the molar mass of hydrated copper(II) sulfate, <span class="chem">CuSO4.5H2O</span>, in <span class="unit">g mol-1</span>?</p><p>Use <i>A</i><sub>r</sub>: Cu = 63.55, S = 32.07, O = 16.00, H = 1.01.</p>
-      stem: "<p>황산 구리(II) 수화물(<span class=\"chem\">CuSO4.5H2O</span>)의 몰 질량은 몇 <span class=\"unit\">g mol-1</span>인가요?</p><p><i>A</i><sub>r</sub>를 이용하세요: Cu = 63.55, S = 32.07, O = 16.00, H = 1.01.</p>",
+      stem: "<p>황산 구리(II) 수화물(<span class=\"chem\">CuSO4.5H2O</span>)의 몰 질량은 몇 <span class=\"unit\">g mol-1</span>인가요?</p><p><i>A</i><sub>r</sub>을 이용하세요: Cu = 63.55, S = 32.07, O = 16.00, H = 1.01.</p>",
       options: [
         // EN: 159.62
         "159.62",
@@ -325,7 +325,7 @@ S1.i18n.register('ko', 's1-4.q', {
     // ── s1-4-q014 · numeric · exam · SL · Structure 1.4.3 · 2 marks
     "s1-4-q014": {
       // EN: <p>Calculate the number of molecules in 9.00 <span class="unit">g</span> of water, <span class="chem">H2O</span>. Give your answer to 3 significant figures.</p><p>Use <i>A</i><sub>r</sub>: H = 1.01, O = 16.00.</p>
-      stem: "<p>물(<span class=\"chem\">H2O</span>) 9.00 <span class=\"unit\">g</span>에 들어 있는 분자 수를 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p><p><i>A</i><sub>r</sub>를 이용하세요: H = 1.01, O = 16.00.</p>",
+      stem: "<p>물(<span class=\"chem\">H2O</span>) 9.00 <span class=\"unit\">g</span>에 들어 있는 분자 수를 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p><p><i>A</i><sub>r</sub>을 이용하세요: H = 1.01, O = 16.00.</p>",
       hints: [
         // EN: This is a two-step route: mass → amount → number of particles. You cannot go from grams to particles in one step.
         "두 단계로 가요: 질량 → 물질의 양 → 입자 수. 그램에서 입자 수로 한 번에 갈 수는 없어요.",
@@ -405,7 +405,7 @@ S1.i18n.register('ko', 's1-4.q', {
     // ── s1-4-q018 · mcq · exam · SL · Structure 1.4.3 · 1 mark
     "s1-4-q018": {
       // EN: <p>Which sample contains the greatest total number of <strong>atoms</strong>?</p><p>Use <i>A</i><sub>r</sub>: H = 1.01, He = 4.00, C = 12.01, O = 16.00.</p>
-      stem: "<p><strong>원자</strong>의 총수가 가장 많은 시료는 무엇인가요?</p><p><i>A</i><sub>r</sub>를 이용하세요: H = 1.01, He = 4.00, C = 12.01, O = 16.00.</p>",
+      stem: "<p><strong>원자</strong>의 총수가 가장 많은 시료는 무엇인가요?</p><p><i>A</i><sub>r</sub>을 이용하세요: H = 1.01, He = 4.00, C = 12.01, O = 16.00.</p>",
       options: [
         // EN: 4.00 <span class="unit">g</span> of helium, <span class="chem">He</span>
         "헬륨(<span class=\"chem\">He</span>) 4.00 <span class=\"unit\">g</span>",
@@ -437,7 +437,7 @@ S1.i18n.register('ko', 's1-4.q', {
     // ── s1-4-q019 · numeric · challenge · SL · Structure 1.4.3 · 3 marks
     "s1-4-q019": {
       // EN: <p>A sample of magnesium chloride, <span class="chem">MgCl2</span>, contains 3.01 × 10<sup>22</sup> chloride ions.</p><p>Calculate the mass of the sample, in <span class="unit">g</span>. Give your answer to 3 significant figures.</p><p>Use <i>A</i><sub>r</sub>: Mg = 24.31, Cl = 35.45.</p>
-      stem: "<p>염화 마그네슘(<span class=\"chem\">MgCl2</span>) 시료에 염화 이온이 3.01 × 10<sup>22</sup>개 들어 있어요.</p><p>이 시료의 질량을 <span class=\"unit\">g</span> 단위로 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p><p><i>A</i><sub>r</sub>를 이용하세요: Mg = 24.31, Cl = 35.45.</p>",
+      stem: "<p>염화 마그네슘(<span class=\"chem\">MgCl2</span>) 시료에 염화 이온이 3.01 × 10<sup>22</sup>개 들어 있어요.</p><p>이 시료의 질량을 <span class=\"unit\">g</span> 단위로 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p><p><i>A</i><sub>r</sub>을 이용하세요: Mg = 24.31, Cl = 35.45.</p>",
       hints: [
         // EN: Work backwards along the usual route: number of ions → amount of ions → amount of <span class="chem">MgCl2</span> → mass.
         "평소 경로를 거꾸로 따라가세요: 이온 수 → 이온의 양 → <span class=\"chem\">MgCl2</span>의 양 → 질량.",
@@ -517,7 +517,7 @@ S1.i18n.register('ko', 's1-4.q', {
     // ── s1-4-q022 · numeric · exam · SL · Structure 1.4.4 · 2 marks
     "s1-4-q022": {
       // EN: <p>Ammonium sulfate, <span class="chem">(NH4)2SO4</span>, is used as a fertilizer.</p><p>Calculate the percentage by mass of nitrogen in ammonium sulfate. Give your answer to 3 significant figures.</p><p>Use <i>A</i><sub>r</sub>: N = 14.01, H = 1.01, S = 32.07, O = 16.00.</p>
-      stem: "<p>황산 암모늄(<span class=\"chem\">(NH4)2SO4</span>)은 비료로 쓰여요.</p><p>황산 암모늄에서 질소의 질량 백분율을 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p><p><i>A</i><sub>r</sub>를 이용하세요: N = 14.01, H = 1.01, S = 32.07, O = 16.00.</p>",
+      stem: "<p>황산 암모늄(<span class=\"chem\">(NH4)2SO4</span>)은 비료로 쓰여요.</p><p>황산 암모늄에서 질소의 질량 백분율을 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p><p><i>A</i><sub>r</sub>을 이용하세요: N = 14.01, H = 1.01, S = 32.07, O = 16.00.</p>",
       hints: [
         // EN: Percentage by mass of an element = (mass of that element in one mole of compound ÷ molar mass of compound) × 100.
         "원소의 질량 백분율 = (화합물 1몰 속 그 원소의 질량 ÷ 화합물의 몰 질량) × 100.",
@@ -533,7 +533,7 @@ S1.i18n.register('ko', 's1-4.q', {
     // ── s1-4-q023 · mcq · exam · SL · Structure 1.4.4 · 1 mark
     "s1-4-q023": {
       // EN: <p>A compound contains, by mass, 29.1 % sodium, 40.5 % sulfur and 30.4 % oxygen.</p><p>What is its empirical formula?</p><p>Use <i>A</i><sub>r</sub>: Na = 22.99, S = 32.07, O = 16.00.</p>
-      stem: "<p>어떤 화합물은 질량으로 나트륨 29.1 %, 황 40.5 %, 산소 30.4 %를 포함해요.</p><p>이 화합물의 실험식은 무엇인가요?</p><p><i>A</i><sub>r</sub>를 이용하세요: Na = 22.99, S = 32.07, O = 16.00.</p>",
+      stem: "<p>어떤 화합물은 질량으로 나트륨 29.1 %, 황 40.5 %, 산소 30.4 %를 포함해요.</p><p>이 화합물의 실험식은 무엇인가요?</p><p><i>A</i><sub>r</sub>을 이용하세요: Na = 22.99, S = 32.07, O = 16.00.</p>",
       options: [
         // EN: <span class="chem">NaSO</span>
         "<span class=\"chem\">NaSO</span>",
@@ -567,7 +567,7 @@ S1.i18n.register('ko', 's1-4.q', {
     // ── s1-4-q024 · mcq · exam · SL · Structure 1.4.4 · 1 mark
     "s1-4-q024": {
       // EN: <p>1.43 <span class="unit">g</span> of an oxide of copper is heated in a stream of hydrogen until all of it has been reduced to copper. The copper left has a mass of 1.27 <span class="unit">g</span>.</p><p>What is the empirical formula of the oxide?</p><p>Use <i>A</i><sub>r</sub>: Cu = 63.55, O = 16.00.</p>
-      stem: "<p>구리 산화물 1.43 <span class=\"unit\">g</span>을 수소 기류 속에서 가열해 모두 구리로 환원시켰어요. 남은 구리의 질량은 1.27 <span class=\"unit\">g</span>이에요.</p><p>이 산화물의 실험식은 무엇인가요?</p><p><i>A</i><sub>r</sub>를 이용하세요: Cu = 63.55, O = 16.00.</p>",
+      stem: "<p>구리 산화물 1.43 <span class=\"unit\">g</span>을 수소 기류 속에서 가열해 모두 구리로 환원시켰어요. 남은 구리의 질량은 1.27 <span class=\"unit\">g</span>이에요.</p><p>이 산화물의 실험식은 무엇인가요?</p><p><i>A</i><sub>r</sub>을 이용하세요: Cu = 63.55, O = 16.00.</p>",
       options: [
         // EN: <span class="chem">CuO2</span>
         "<span class=\"chem\">CuO2</span>",
@@ -627,7 +627,7 @@ S1.i18n.register('ko', 's1-4.q', {
     // ── s1-4-q026 · mcq · exam · SL · Structure 1.4.4 · 1 mark
     "s1-4-q026": {
       // EN: <p>An oxide of phosphorus has the empirical formula <span class="chem">P2O5</span> and a molar mass of 283.88 <span class="unit">g mol-1</span>.</p><p>What is its molecular formula?</p><p>Use <i>A</i><sub>r</sub>: P = 30.97, O = 16.00.</p>
-      stem: "<p>인의 산화물 중 하나는 실험식이 <span class=\"chem\">P2O5</span>이고 몰 질량이 283.88 <span class=\"unit\">g mol-1</span>이에요.</p><p>분자식은 무엇인가요?</p><p><i>A</i><sub>r</sub>를 이용하세요: P = 30.97, O = 16.00.</p>",
+      stem: "<p>인의 산화물 중 하나는 실험식이 <span class=\"chem\">P2O5</span>이고 몰 질량이 283.88 <span class=\"unit\">g mol-1</span>이에요.</p><p>분자식은 무엇인가요?</p><p><i>A</i><sub>r</sub>을 이용하세요: P = 30.97, O = 16.00.</p>",
       options: [
         // EN: <span class="chem">P2O5</span>
         "<span class=\"chem\">P2O5</span>",
@@ -798,7 +798,7 @@ S1.i18n.register('ko', 's1-4.q', {
         // EN (option C): The method in line 3 is correct: oxygen is found by difference. Its value is wrong only because it uses a wrong number from an earlier line. Find where that number came from.
         "2": "3번 줄의 방법은 맞아요: 산소는 차이로 구해요. 값이 틀린 것은 앞 줄의 틀린 수를 썼기 때문이에요. 그 수가 어디서 왔는지 찾아보세요.",
         // EN (option D): The method in line 4 is correct: <i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub> with 16.00 for oxygen atoms. The wrong value was carried forward from an earlier line.
-        "3": "4번 줄의 방법은 맞아요: 산소 원자에 16.00을 써서 <i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub>예요. 틀린 값은 앞 줄에서 이어져 온 거예요.",
+        "3": "4번 줄의 방법은 맞아요: 산소 원자에 16.00을 써서 <i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub>이에요. 틀린 값은 앞 줄에서 이어져 온 거예요.",
       },
     },
 
@@ -1197,7 +1197,7 @@ S1.i18n.register('ko', 's1-4.q', {
     // ── s1-4-q051 · multi · challenge · SL · Structure 1.4.6 · 1 mark
     "s1-4-q051": {
       // EN: <p>Two identical flasks are at the same temperature and pressure. Flask A contains ammonia, <span class="chem">NH3</span>. Flask B contains oxygen, <span class="chem">O2</span>.</p><p>Which statements are correct? Select <strong>all</strong> that apply.</p><p>Use <i>A</i><sub>r</sub>: H = 1.01, N = 14.01, O = 16.00.</p>
-      stem: "<p>똑같은 플라스크 두 개가 같은 온도와 압력에 있어요. 플라스크 A에는 암모니아(<span class=\"chem\">NH3</span>)가, 플라스크 B에는 산소(<span class=\"chem\">O2</span>)가 들어 있어요.</p><p>옳은 설명을 <strong>모두</strong> 고르세요.</p><p><i>A</i><sub>r</sub>를 이용하세요: H = 1.01, N = 14.01, O = 16.00.</p>",
+      stem: "<p>똑같은 플라스크 두 개가 같은 온도와 압력에 있어요. 플라스크 A에는 암모니아(<span class=\"chem\">NH3</span>)가, 플라스크 B에는 산소(<span class=\"chem\">O2</span>)가 들어 있어요.</p><p>옳은 설명을 <strong>모두</strong> 고르세요.</p><p><i>A</i><sub>r</sub>을 이용하세요: H = 1.01, N = 14.01, O = 16.00.</p>",
       options: [
         // EN: The two flasks contain the same number of molecules.
         "두 플라스크에 든 분자 수는 같다.",

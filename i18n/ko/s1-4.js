@@ -27,7 +27,7 @@ S1.i18n.register('ko', 's1-4', {
     "Convert an amount in moles to a number of atoms, molecules, ions or formula units, and back, using the Avogadro constant.": "아보가드로 상수를 이용해 몰로 나타낸 양을 원자, 분자, 이온 또는 화학식 단위의 개수로 바꾸고, 거꾸로도 바꾸기.",
 
     // What you need to be able to do > checklist > span
-    "Work out a relative formula mass, <i>M</i><sub>r</sub>, from relative atomic masses, and say why <i>A</i><sub>r</sub> and <i>M</i><sub>r</sub> have no units.": "상대 원자 질량으로 상대 화학식량 <i>M</i><sub>r</sub>를 구하고, <i>A</i><sub>r</sub>와 <i>M</i><sub>r</sub>에 단위가 없는 이유 말하기.",
+    "Work out a relative formula mass, <i>M</i><sub>r</sub>, from relative atomic masses, and say why <i>A</i><sub>r</sub> and <i>M</i><sub>r</sub> have no units.": "상대 원자 질량으로 상대 화학식량 <i>M</i><sub>r</sub>을 구하고, <i>A</i><sub>r</sub>과 <i>M</i><sub>r</sub>에 단위가 없는 이유 말하기.",
 
     // What you need to be able to do > checklist > span
     "Solve problems that link mass, amount and number of particles using <i>n</i> = <i>m</i> / <i>M</i>.": "<i>n</i> = <i>m</i> / <i>M</i>을 이용해 질량, 물질의 양, 입자 수를 연결하는 문제 풀기.",
@@ -348,22 +348,22 @@ S1.i18n.register('ko', 's1-4', {
     "One atom has a mass of around 10<sup>−23</sup> g. Numbers like that are awkward, so chemists compare atoms with each other instead. The standard is the carbon-12 atom, <span class=\"chem\">^12C</span>, which is given a mass of exactly 12 units.": "원자 하나의 질량은 약 10<sup>−23</sup> g이에요. 이런 수는 다루기 불편해서, 화학자들은 대신 원자끼리 비교해요. 기준은 탄소-12 원자 <span class=\"chem\">^12C</span>이고, 그 질량을 정확히 12로 정해요.",
 
     // Relative atomic mass and relative formula mass > p
-    "The <dfn data-def=\"The weighted average mass of the atoms of an element, taking isotopic abundance into account, relative to one-twelfth of the mass of an atom of carbon-12. It has no units.\">relative atomic mass</dfn>, <i>A</i><sub>r</sub>, of an element is the weighted average mass of its atoms compared with one-twelfth of the mass of a carbon-12 atom. It is an average because most elements are a mixture of isotopes (see topic 1.2). That is why chlorine has <i>A</i><sub>r</sub> = 35.45, although no single chlorine atom has that mass.": "원소의 <dfn data-def=\"동위 원소의 존재 비율을 고려한 원소 원자들의 가중 평균 질량을 탄소-12 원자 질량의 1/12과 비교한 값. 단위가 없어요.\">상대 원자 질량 <span class=\"en-term\">(relative atomic mass)</span></dfn> <i>A</i><sub>r</sub>는 그 원자들의 가중 평균 질량을 탄소-12 원자 질량의 12분의 1과 비교한 값이에요. 평균인 이유는 대부분의 원소가 동위 원소의 혼합물이기 때문이에요(1.2 단원 참고). 그래서 염소 원자 중 그 질량을 가진 원자는 하나도 없는데도 염소의 <i>A</i><sub>r</sub> = 35.45예요.",
+    "The <dfn data-def=\"The weighted average mass of the atoms of an element, taking isotopic abundance into account, relative to one-twelfth of the mass of an atom of carbon-12. It has no units.\">relative atomic mass</dfn>, <i>A</i><sub>r</sub>, of an element is the weighted average mass of its atoms compared with one-twelfth of the mass of a carbon-12 atom. It is an average because most elements are a mixture of isotopes (see topic 1.2). That is why chlorine has <i>A</i><sub>r</sub> = 35.45, although no single chlorine atom has that mass.": "원소의 <dfn data-def=\"동위 원소의 존재 비율을 고려한 원소 원자들의 가중 평균 질량을 탄소-12 원자 질량의 1/12과 비교한 값. 단위가 없어요.\">상대 원자 질량 <span class=\"en-term\">(relative atomic mass)</span></dfn> <i>A</i><sub>r</sub>은 그 원자들의 가중 평균 질량을 탄소-12 원자 질량의 12분의 1과 비교한 값이에요. 평균인 이유는 대부분의 원소가 동위 원소의 혼합물이기 때문이에요(1.2 단원 참고). 그래서 염소 원자 중 그 질량을 가진 원자는 하나도 없는데도 염소의 <i>A</i><sub>r</sub> = 35.45예요.",
 
     // Relative atomic mass and relative formula mass > data-def attribute
     "The weighted average mass of the atoms of an element, taking isotopic abundance into account, relative to one-twelfth of the mass of an atom of carbon-12. It has no units.": "동위 원소의 존재 비율을 고려한 원소 원자들의 가중 평균 질량을 탄소-12 원자 질량의 1/12과 비교한 값. 단위가 없어요.",
 
     // Relative atomic mass and relative formula mass > p
-    "The <dfn data-def=\"The sum of the relative atomic masses of all the atoms in a formula. It has no units.\">relative formula mass</dfn>, <i>M</i><sub>r</sub>, is the sum of the <i>A</i><sub>r</sub> values of every atom in the formula. For a substance made of molecules it is also called the relative molecular mass.": "<dfn data-def=\"화학식에 있는 모든 원자의 상대 원자 질량을 더한 값. 단위가 없어요.\">상대 화학식량 <span class=\"en-term\">(relative formula mass)</span></dfn> <i>M</i><sub>r</sub>는 화학식에 있는 모든 원자의 <i>A</i><sub>r</sub> 값을 더한 값이에요. 분자로 이루어진 물질에서는 상대 분자 질량(분자량)이라고도 해요.",
+    "The <dfn data-def=\"The sum of the relative atomic masses of all the atoms in a formula. It has no units.\">relative formula mass</dfn>, <i>M</i><sub>r</sub>, is the sum of the <i>A</i><sub>r</sub> values of every atom in the formula. For a substance made of molecules it is also called the relative molecular mass.": "<dfn data-def=\"화학식에 있는 모든 원자의 상대 원자 질량을 더한 값. 단위가 없어요.\">상대 화학식량 <span class=\"en-term\">(relative formula mass)</span></dfn> <i>M</i><sub>r</sub>은 화학식에 있는 모든 원자의 <i>A</i><sub>r</sub> 값을 더한 값이에요. 분자로 이루어진 물질에서는 상대 분자 질량(분자량)이라고도 해요.",
 
     // Relative atomic mass and relative formula mass > data-def attribute
     "The sum of the relative atomic masses of all the atoms in a formula. It has no units.": "화학식에 있는 모든 원자의 상대 원자 질량을 더한 값. 단위가 없어요.",
 
     // Relative atomic mass and relative formula mass > key idea > p
-    "<i>A</i><sub>r</sub> and <i>M</i><sub>r</sub> are ratios: one mass divided by another mass. The units cancel, so they have <strong>no units</strong>.": "<i>A</i><sub>r</sub>와 <i>M</i><sub>r</sub>는 비예요: 한 질량을 다른 질량으로 나눈 값이에요. 단위가 약분되므로 <strong>단위가 없어요</strong>.",
+    "<i>A</i><sub>r</sub> and <i>M</i><sub>r</sub> are ratios: one mass divided by another mass. The units cancel, so they have <strong>no units</strong>.": "<i>A</i><sub>r</sub>과 <i>M</i><sub>r</sub>은 비예요: 한 질량을 다른 질량으로 나눈 값이에요. 단위가 약분되므로 <strong>단위가 없어요</strong>.",
 
     // Relative atomic mass and relative formula mass > data booklet note > p
-    "The periodic table in the data booklet gives <i>A</i><sub>r</sub> to two decimal places: H 1.01, C 12.01, N 14.01, O 16.00, Na 22.99, Cl 35.45. Use these values in calculations, not rounded whole numbers.": "데이터 부클릿의 주기율표는 <i>A</i><sub>r</sub>를 소수점 아래 2자리까지 줘요: H 1.01, C 12.01, N 14.01, O 16.00, Na 22.99, Cl 35.45. 계산에는 반올림한 정수가 아니라 이 값을 쓰세요.",
+    "The periodic table in the data booklet gives <i>A</i><sub>r</sub> to two decimal places: H 1.01, C 12.01, N 14.01, O 16.00, Na 22.99, Cl 35.45. Use these values in calculations, not rounded whole numbers.": "데이터 부클릿의 주기율표는 <i>A</i><sub>r</sub>을 소수점 아래 2자리까지 줘요: H 1.01, C 12.01, N 14.01, O 16.00, Na 22.99, Cl 35.45. 계산에는 반올림한 정수가 아니라 이 값을 쓰세요.",
 
     // Relative atomic mass and relative formula mass > li
     "List each element in the formula.": "화학식에 있는 원소를 하나씩 적으세요.",
@@ -375,7 +375,7 @@ S1.i18n.register('ko', 's1-4', {
     "Multiply each count by the element’s <i>A</i><sub>r</sub> (2 d.p.).": "각 원자 수에 그 원소의 <i>A</i><sub>r</sub>(소수점 아래 2자리)를 곱하세요.",
 
     // Relative atomic mass and relative formula mass > li
-    "Add the subtotals. Give <i>M</i><sub>r</sub> to 2 decimal places, with no unit.": "소계를 더하세요. <i>M</i><sub>r</sub>는 단위 없이 소수점 아래 2자리로 쓰세요.",
+    "Add the subtotals. Give <i>M</i><sub>r</sub> to 2 decimal places, with no unit.": "소계를 더하세요. <i>M</i><sub>r</sub>은 단위 없이 소수점 아래 2자리로 쓰세요.",
 
     // Relative atomic mass and relative formula mass > widget > data-title attribute
     "Molar mass builder": "몰 질량 만들기",
@@ -435,7 +435,7 @@ S1.i18n.register('ko', 's1-4', {
     "<strong>342.17</strong>, with no unit, because it is a relative mass.": "<strong>342.17</strong>, 상대 질량이므로 단위가 없어요.",
 
     // Relative atomic mass and relative formula mass > not needed for IB > p
-    "You do not need the unified atomic mass unit (u or Da) or the mass of one atom in kilograms for this topic. Calculating <i>A</i><sub>r</sub> from isotope abundances belongs to topic 1.2.": "이 단원에서는 통일 원자 질량 단위(u 또는 Da)나 원자 하나의 질량을 킬로그램으로 나타낸 값이 필요 없어요. 동위 원소 존재 비율로 <i>A</i><sub>r</sub>를 계산하는 것은 1.2 단원 내용이에요.",
+    "You do not need the unified atomic mass unit (u or Da) or the mass of one atom in kilograms for this topic. Calculating <i>A</i><sub>r</sub> from isotope abundances belongs to topic 1.2.": "이 단원에서는 통일 원자 질량 단위(u 또는 Da)나 원자 하나의 질량을 킬로그램으로 나타낸 값이 필요 없어요. 동위 원소 존재 비율로 <i>A</i><sub>r</sub>을 계산하는 것은 1.2 단원 내용이에요.",
 
     // Relative atomic mass and relative formula mass > data-title attribute
     "Relative masses: quick check": "상대 질량: 빠른 확인",
@@ -452,7 +452,7 @@ S1.i18n.register('ko', 's1-4', {
     "A bank does not count coins one by one. It weighs the bag, because it knows the mass of one coin. Chemists do the same with atoms. If you know the mass of one mole of a substance, a balance tells you how many particles you have.": "은행은 동전을 하나하나 세지 않아요. 동전 하나의 질량을 알기 때문에 자루의 무게를 재요. 화학자도 원자에 대해 똑같이 해요. 물질 1몰의 질량을 알면, 저울로 입자가 몇 개 있는지 알 수 있어요.",
 
     // Molar mass: weighing instead of counting > p
-    "The <dfn data-def=\"The mass of one mole of a substance. Symbol M, units g mol^-1. It has the same number as the relative formula mass.\">molar mass</dfn>, <i>M</i>, is the mass of one mole of a substance. Its units are <span class=\"unit\">g mol-1</span>. The mole is chosen so that the molar mass has the same number as <i>M</i><sub>r</sub>: water has <i>M</i><sub>r</sub> = 18.02, so <i>M</i> = 18.02 g mol<sup>−1</sup>.": "<dfn data-def=\"물질 1몰의 질량. 기호 M, 단위 g mol^-1. 상대 화학식량과 같은 수예요.\">몰 질량 <span class=\"en-term\">(molar mass)</span></dfn> <i>M</i>은 물질 1몰의 질량이에요. 단위는 <span class=\"unit\">g mol-1</span>이에요. 몰은 몰 질량이 <i>M</i><sub>r</sub>와 같은 수가 되도록 정해져 있어요: 물은 <i>M</i><sub>r</sub> = 18.02이므로 <i>M</i> = 18.02 g mol<sup>−1</sup>이에요.",
+    "The <dfn data-def=\"The mass of one mole of a substance. Symbol M, units g mol^-1. It has the same number as the relative formula mass.\">molar mass</dfn>, <i>M</i>, is the mass of one mole of a substance. Its units are <span class=\"unit\">g mol-1</span>. The mole is chosen so that the molar mass has the same number as <i>M</i><sub>r</sub>: water has <i>M</i><sub>r</sub> = 18.02, so <i>M</i> = 18.02 g mol<sup>−1</sup>.": "<dfn data-def=\"물질 1몰의 질량. 기호 M, 단위 g mol^-1. 상대 화학식량과 같은 수예요.\">몰 질량 <span class=\"en-term\">(molar mass)</span></dfn> <i>M</i>은 물질 1몰의 질량이에요. 단위는 <span class=\"unit\">g mol-1</span>이에요. 몰은 몰 질량이 <i>M</i><sub>r</sub>과 같은 수가 되도록 정해져 있어요: 물은 <i>M</i><sub>r</sub> = 18.02이므로 <i>M</i> = 18.02 g mol<sup>−1</sup>이에요.",
 
     // Molar mass: weighing instead of counting > data-def attribute
     "The mass of one mole of a substance. Symbol M, units g mol^-1. It has the same number as the relative formula mass.": "물질 1몰의 질량. 기호 M, 단위 g mol^-1. 상대 화학식량과 같은 수예요.",
@@ -768,7 +768,7 @@ S1.i18n.register('ko', 's1-4', {
     "Convert each mass to moles": "각 질량을 몰로 바꾸기",
 
     // Empirical and molecular formulas > worked example > p
-    "A formula counts atoms, so you need amounts, not masses. Use <i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub>.": "화학식은 원자를 세므로, 질량이 아니라 양이 필요해요. <i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub>를 쓰세요.",
+    "A formula counts atoms, so you need amounts, not masses. Use <i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub>.": "화학식은 원자를 세므로, 질량이 아니라 양이 필요해요. <i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub>을 쓰세요.",
 
     // Empirical and molecular formulas > worked example > data-title attribute
     "Divide by the smallest": "가장 작은 값으로 나누기",
@@ -1152,7 +1152,7 @@ S1.i18n.register('ko', 's1-4', {
     "<strong>0.120 mol dm<sup>−3</sup></strong>": "<strong>0.120 mol dm<sup>−3</sup></strong>",
 
     // Concentration of solutions > try it > p
-    "A bottle is labelled “sodium hydroxide, 8.00 g dm<sup>−3</sup>”. Convert this to a molar concentration. (<i>M</i>(NaOH) = 40.00 g mol<sup>−1</sup>)": "병에 “수산화 나트륨, 8.00 g dm<sup>−3</sup>”라고 쓰여 있어요. 이것을 몰 농도로 바꾸시오. (<i>M</i>(NaOH) = 40.00 g mol<sup>−1</sup>)",
+    "A bottle is labelled “sodium hydroxide, 8.00 g dm<sup>−3</sup>”. Convert this to a molar concentration. (<i>M</i>(NaOH) = 40.00 g mol<sup>−1</sup>)": "병에 “수산화 나트륨, 8.00 g dm<sup>−3</sup>”라고 쓰여 있어요. 이것을 몰 농도로 바꾸세요. (<i>M</i>(NaOH) = 40.00 g mol<sup>−1</sup>)",
 
     // Concentration of solutions > try it > li
     "Going from grams to moles: do you multiply or divide by the molar mass?": "그램에서 몰로 갈 때: 몰 질량을 곱할까요, 나눌까요?",

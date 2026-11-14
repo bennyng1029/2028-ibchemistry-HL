@@ -15,7 +15,7 @@ S1.i18n.register('ko', 's1-5', {
     "Ideal gases": "이상 기체",
 
     // Ideal gases > page header > span
-    "How does the model of ideal gas behaviour help us to predict the behaviour of real gases?": "이상 기체의 행동 모형은 실제 기체의 행동을 예측하는 데 어떻게 도움이 될까?",
+    "How does the model of ideal gas behaviour help us to predict the behaviour of real gases?": "이상 기체의 행동 모형은 실제 기체의 행동을 예측하는 데 어떻게 도움이 될까요?",
 
     // What you need to be able to do > h2
     "What you need to be able to do": "할 수 있어야 하는 것",
@@ -24,25 +24,25 @@ S1.i18n.register('ko', 's1-5', {
     "Tick each one when you can do it without looking at your notes. Everything in this topic is SL core. There is no Additional HL content in 1.5.": "노트를 보지 않고 할 수 있게 되면 하나씩 체크하세요. 이 단원의 내용은 모두 SL 핵심 내용이에요. 1.5에는 AHL(HL 추가 내용)이 없어요.",
 
     // What you need to be able to do > checklist > span
-    "Recognize the key assumptions of the ideal gas model.": "이상 기체 모형의 핵심 가정을 알아본다.",
+    "Recognize the key assumptions of the ideal gas model.": "이상 기체 모형의 핵심 가정을 알아봐요.",
 
     // What you need to be able to do > checklist > span
-    "Explain why real gases deviate from the model, especially at low temperature and high pressure.": "실제 기체가 모형에서 벗어나는 이유를, 특히 낮은 온도와 높은 압력에서 설명한다.",
+    "Explain why real gases deviate from the model, especially at low temperature and high pressure.": "실제 기체가 모형에서 벗어나는 이유를, 특히 낮은 온도와 높은 압력에서 설명해요.",
 
     // What you need to be able to do > checklist > span
-    "Use the molar volume of an ideal gas at STP to convert between amount and gas volume.": "STP에서 이상 기체의 몰 부피를 이용해 물질의 양과 기체 부피를 서로 바꾼다.",
+    "Use the molar volume of an ideal gas at STP to convert between amount and gas volume.": "STP에서 이상 기체의 몰 부피를 이용해 물질의 양과 기체 부피를 서로 바꿔요.",
 
     // What you need to be able to do > checklist > span
-    "Describe and sketch how pressure, volume and temperature are related for a fixed mass of gas, and analyse graphs of these variables.": "일정한 질량의 기체에서 압력, 부피, 온도가 어떤 관계인지 서술하고 개형을 그리며, 이 변수들의 그래프를 분석한다.",
+    "Describe and sketch how pressure, volume and temperature are related for a fixed mass of gas, and analyse graphs of these variables.": "일정한 질량의 기체에서 압력, 부피, 온도가 어떤 관계인지 서술하고 개형을 그리며, 이 변수들의 그래프를 분석해요.",
 
     // What you need to be able to do > checklist > span
-    "Use the combined gas law when the conditions of a gas change.": "기체의 조건이 바뀔 때 보일-샤를 법칙(결합 기체 법칙)을 이용한다.",
+    "Use the combined gas law when the conditions of a gas change.": "기체의 조건이 바뀔 때 보일-샤를 법칙(결합 기체 법칙)을 이용해요.",
 
     // What you need to be able to do > checklist > span
-    "Solve problems with <i>PV</i> = <i>nRT</i>, using consistent units.": "단위를 맞추어 <i>PV</i> = <i>nRT</i>로 문제를 푼다.",
+    "Solve problems with <i>PV</i> = <i>nRT</i>, using consistent units.": "단위를 맞추어 <i>PV</i> = <i>nRT</i>로 문제를 풀어요.",
 
     // What you need to be able to do > checklist > span
-    "Calculate the molar mass of a gas from experimental data.": "실험 자료로부터 기체의 몰 질량을 계산한다.",
+    "Calculate the molar mass of a gas from experimental data.": "실험 자료로부터 기체의 몰 질량을 계산해요.",
 
     // The ideal gas model > h2
     "The ideal gas model": "이상 기체 모형",
@@ -63,16 +63,16 @@ S1.i18n.register('ko', 's1-5', {
     "The model makes four assumptions. Learn these four.": "이 모형에는 네 가지 가정이 있어요. 이 네 가지를 외워 두세요.",
 
     // The ideal gas model > li
-    "The gas consists of <strong>moving particles</strong>.": "기체는 <strong>움직이는 입자</strong>로 이루어져 있다.",
+    "The gas consists of <strong>moving particles</strong>.": "기체는 <strong>움직이는 입자</strong>로 이루어져 있어요.",
 
     // The ideal gas model > li
-    "The particles have <strong>negligible volume</strong>. The particles themselves take up almost none of the space in the container.": "입자의 <strong>부피는 무시할 수 있다</strong>. 입자 자체는 용기 안의 공간을 거의 차지하지 않는다.",
+    "The particles have <strong>negligible volume</strong>. The particles themselves take up almost none of the space in the container.": "입자의 <strong>부피는 무시할 수 있어요</strong>. 입자 자체는 용기 안의 공간을 거의 차지하지 않아요.",
 
     // The ideal gas model > li
-    "There are <strong>no intermolecular forces</strong>. The particles do not attract or repel each other.": "<strong>분자 간 힘이 없다</strong>. 입자들은 서로 끌어당기지도 밀어내지도 않는다.",
+    "There are <strong>no intermolecular forces</strong>. The particles do not attract or repel each other.": "<strong>분자 간 힘이 없어요</strong>. 입자들은 서로 끌어당기지도 밀어내지도 않아요.",
 
     // The ideal gas model > li
-    "All collisions between particles are <strong>elastic</strong>.": "입자 사이의 모든 충돌은 <strong>탄성 충돌</strong>이다.",
+    "All collisions between particles are <strong>elastic</strong>.": "입자 사이의 모든 충돌은 <strong>탄성 충돌</strong>이에요.",
 
     // The ideal gas model > p
     "An <dfn data-def=\"A collision in which the total kinetic energy of the particles is the same before and after.\">elastic collision</dfn> is one where no kinetic energy is lost overall. The particles bounce apart with the same total kinetic energy they had before.": "<dfn data-def=\"충돌 전과 후에 입자들의 전체 운동 에너지가 같은 충돌이에요.\">탄성 충돌 <span class=\"en-term\">(elastic collision)</span></dfn>은 전체적으로 운동 에너지를 잃지 않는 충돌이에요. 입자들은 충돌 전과 같은 전체 운동 에너지를 가진 채 튕겨 나가요.",
@@ -171,7 +171,7 @@ S1.i18n.register('ko', 's1-5', {
     "This follows from Avogadro’s law, which you met in Structure 1.4: equal volumes of gases at the same temperature and pressure contain equal numbers of molecules. Turn it around: equal numbers of molecules occupy equal volumes.": "이것은 Structure 1.4에서 배운 아보가드로 법칙에서 나와요: 같은 온도와 압력에서 같은 부피의 기체에는 같은 수의 분자가 들어 있어요. 거꾸로 말하면, 같은 수의 분자는 같은 부피를 차지해요.",
 
     // Molar volume of an ideal gas > p
-    "The <dfn data-def=\"The volume occupied by one mole of an ideal gas. It is a constant at a specific temperature and pressure.\">molar volume</dfn>, <i>V</i><sub>m</sub>, is the volume of one mole of an ideal gas. It is a constant at a specific temperature and pressure.": "<dfn data-def=\"이상 기체 1몰이 차지하는 부피예요. 특정한 온도와 압력에서 일정한 값이에요.\">몰 부피 <span class=\"en-term\">(molar volume)</span></dfn> <i>V</i><sub>m</sub>는 이상 기체 1몰의 부피예요. 특정한 온도와 압력에서 일정한 값이에요.",
+    "The <dfn data-def=\"The volume occupied by one mole of an ideal gas. It is a constant at a specific temperature and pressure.\">molar volume</dfn>, <i>V</i><sub>m</sub>, is the volume of one mole of an ideal gas. It is a constant at a specific temperature and pressure.": "<dfn data-def=\"이상 기체 1몰이 차지하는 부피예요. 특정한 온도와 압력에서 일정한 값이에요.\">몰 부피 <span class=\"en-term\">(molar volume)</span></dfn> <i>V</i><sub>m</sub>은 이상 기체 1몰의 부피예요. 특정한 온도와 압력에서 일정한 값이에요.",
 
     // Molar volume of an ideal gas > data-def attribute
     "The volume occupied by one mole of an ideal gas. It is a constant at a specific temperature and pressure.": "이상 기체 1몰이 차지하는 부피예요. 특정한 온도와 압력에서 일정한 값이에요.",

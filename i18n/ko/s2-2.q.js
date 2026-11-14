@@ -974,7 +974,7 @@ S1.i18n.register('ko', 's2-2.q', {
       solution: "<p><span class=\"chem\">C60</span>은 <strong>분자로 된</strong> 동소체예요. 분자 하나는 탄소 원자 60개로 된 새장 모양이고, 각 원자는 다른 원자 3개와 결합해요. 분자 사이에는 약한 런던 분산력만 있어요.</p><p>분자를 떼어 놓는 데 에너지가 조금만 필요하고, 무극성 용매도 분자를 떼어 놓을 수 있어요. 다이아몬드에서는 그물 구조 전체의 강한 공유 결합을 끊어야 해요.</p>",
       misconception: {
         // EN (option A): The covalent bonds inside a <span class="chem">C60</span> molecule are strong, and they do not break when it turns into a gas. Only the forces between the molecules are overcome.
-        "0": "<span class=\"chem\">C60</span> 분자 안의 공유 결합은 강하고, 기체가 될 때 끊어지지 않아요. 분자 사이의 힘만 극복돼요.",
+        "0": "<span class=\"chem\">C60</span> 분자 안의 공유 결합은 강하고, 기체가 될 때 끊어지지 않아요. 분자 간 힘만 극복돼요.",
         // EN (option C): This is true, but it does not explain volatility or solubility. Those properties depend on what holds the particles together.
         "2": "맞는 말이지만 휘발성이나 용해도를 설명하지 못해요. 이런 성질은 입자를 무엇이 붙잡고 있는지에 따라 달라져요.",
         // EN (option D): Layers describe graphite. <span class="chem">C60</span> molecules are closed cages of 60 carbon atoms.
@@ -1042,7 +1042,7 @@ S1.i18n.register('ko', 's2-2.q', {
         // EN (option C): Methane contains hydrogen, but the hydrogen is bonded to carbon. Hydrogen bonding needs H bonded to N, O or F.
         "2": "methane에는 수소가 있지만 수소가 탄소와 결합해 있어요. 수소 결합이 생기려면 H가 N, O, F와 결합해 있어야 해요.",
         // EN (option D): Covalent bonds are inside each molecule (between C and H). The question asks about the forces between molecules.
-        "3": "공유 결합은 각 분자 안(C와 H 사이)에 있어요. 문제는 분자 사이의 힘을 묻고 있어요.",
+        "3": "공유 결합은 각 분자 안(C와 H 사이)에 있어요. 문제는 분자 간 힘을 묻고 있어요.",
       },
     },
 
@@ -1434,7 +1434,7 @@ S1.i18n.register('ko', 's2-2.q', {
         // EN (option B): Ethanal is polar. The <span class="chem">C=O</span> bond has an electronegativity difference of 3.4 − 2.6 = 0.8, and its dipole is not cancelled.
         "1": "ethanal은 극성이에요. <span class=\"chem\">C=O</span> 결합의 전기 음성도 차이는 3.4 − 2.6 = 0.8이고, 이 쌍극자는 상쇄되지 않아요.",
         // EN (option D): Boiling does not break covalent bonds. It only overcomes the forces between molecules.
-        "3": "끓을 때 공유 결합은 끊어지지 않아요. 분자 사이의 힘만 극복돼요.",
+        "3": "끓을 때 공유 결합은 끊어지지 않아요. 분자 간 힘만 극복돼요.",
       },
     },
 
