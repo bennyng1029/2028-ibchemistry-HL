@@ -915,6 +915,8 @@ table.data .num, table.data td.num, table.data th.num { text-align: right; font-
 .nuclide__pre--a { align-self: flex-start; margin-top: -0.25em; }
 .nuclide sup { align-self: flex-start; top: 0; margin-top: -0.2em; }
 .widget__controls .control { max-width: 100%; min-width: 0; }
+/* A slider row cannot shrink past its number box and unit: keep room for them (and a usable track). */
+.widget__controls .control:has(input[type="range"]) { min-width: min(100%, 14rem); grid-template-columns: minmax(0, 1fr); }
 .widget__controls .control .select, .widget__controls select { max-width: 100%; min-width: 0; width: 100%; text-overflow: ellipsis; }
 
 /* ---------- 26. Equations wrap between terms, never inside one --------------- */
