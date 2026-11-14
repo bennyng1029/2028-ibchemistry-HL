@@ -1502,9 +1502,6 @@ S1.i18n.register('ja', 's3-1', {
     "Variable oxidation state": "複数の酸化数",
 
     // Properties of transition elements > table > Additional HL > td
-    "One element forms ions with different charges, such as <span class=\"chem\">Fe^2+</span> and <span class=\"chem\">Fe^3+</span>.": "<span class=\"chem\">Fe^2+</span> と <span class=\"chem\">Fe^3+</span> のように、1 つの元素が電荷の違うイオンをつくる。",
-
-    // Properties of transition elements > table > Additional HL > td
     "next section": "次のセクション",
 
     // Properties of transition elements > table > Additional HL > th
@@ -3065,6 +3062,25 @@ S1.i18n.register('ja', 's3-1', {
 
     // widget string (assets/js/widgets-s3-1.js)
     "{class}; {family}": "{class}；{family}",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('ja', 's3-1', {
+  strings: {
+
+    // Trends down group 1 and group 17 > p
+    "Why? A halogen atom reacts by gaining one electron. Going down the group, the outer energy level is further from the nucleus and more shielded by inner electrons, so an extra electron is attracted less strongly. Chlorine gains an electron most easily and iodine least easily.": "なぜでしょうか。ハロゲン原子は、電子を 1 個受け取って反応します。族を下へ進むと、最も外側のエネルギー準位は原子核から遠くなり、内側の電子による遮蔽も大きくなります。そのため、加わる電子を引きつける力が弱くなります。塩素がいちばん電子を受け取りやすく、ヨウ素がいちばん受け取りにくいのです。",
+
+    // Trends down group 1 and group 17 > p
+    "The equations are ionic equations. The metal ion in the halide solution does not take part:": "反応式はイオン反応式で書きます。ハロゲン化物の水溶液に含まれる金属イオンは、反応に関わりません。",
+
+    // Trends down group 1 and group 17 > p
+    "Iodine does not displace chloride or bromide ions.": "ヨウ素は、塩化物イオンも臭化物イオンも置換しません。",
+
+    // Properties of transition elements > table > Additional HL > td
+    "One element has more than one oxidation state in its compounds, such as +2 and +3 for iron (<span class=\"chem\">Fe^2+</span> and <span class=\"chem\">Fe^3+</span>).": "1 つの元素が、化合物の中で複数の酸化数をとる。たとえば鉄の +2 と +3（<span class=\"chem\">Fe^2+</span> と <span class=\"chem\">Fe^3+</span>）。",
 
   }
 });

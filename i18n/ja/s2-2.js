@@ -101,12 +101,6 @@ S1.i18n.register('ja', 's2-2', {
     // Covalent bonds, the octet rule and Lewis formulas > data-def attribute
     "The electrostatic attraction between a shared pair of electrons and the positively charged nuclei.": "共有電子対と、正の電荷をもつ原子核との間にはたらく静電気的な引力。",
 
-    // Covalent bonds, the octet rule and Lewis formulas > p
-    "Covalent bonds usually form between atoms of non-metals. A group of atoms joined by covalent bonds is a <dfn data-def=\"A group of atoms held together by covalent bonds.\">molecule</dfn>.": "共有結合は、ふつう非金属の原子どうしの間にできます。共有結合でつながった原子のまとまりが<dfn data-def=\"共有結合で結びついた原子のまとまり。\">分子 <span class=\"en-term\">(molecule)</span></dfn>です。",
-
-    // Covalent bonds, the octet rule and Lewis formulas > data-def attribute
-    "A group of atoms held together by covalent bonds.": "共有結合で結びついた原子のまとまり。",
-
     // Covalent bonds, the octet rule and Lewis formulas > exam tip (shown in English + translation) > p
     "“State what a covalent bond is” is a one-mark question. The answer needs three parts: <b>electrostatic attraction</b>, a <b>shared pair of electrons</b>, and the <b>(positively charged) nuclei</b>.": "「共有結合とは何かを述べなさい (state)」は 1 点の問題です。答えには 3 つの要素が必要です。<b>静電気的な引力</b>、<b>共有電子対</b>、<b>（正の電荷をもつ）原子核</b>です。",
 
@@ -514,14 +508,8 @@ S1.i18n.register('ja', 's2-2', {
     // Single, double and triple bonds > widget > data-title attribute
     "Bond length and bond strength": "結合距離と結合の強さ",
 
-    // Single, double and triple bonds > p
-    "The <dfn data-def=\"The distance between the nuclei of two bonded atoms.\">bond length</dfn> is the distance between the two nuclei. The <dfn data-def=\"How much energy is needed to break a bond. A stronger bond needs more energy.\">bond strength</dfn> tells you how much energy is needed to break the bond. It is measured as a bond enthalpy.": "<dfn data-def=\"結合している 2 つの原子の原子核の間の距離。\">結合距離 <span class=\"en-term\">(bond length)</span></dfn>は、2 つの原子核の間の距離です。<dfn data-def=\"結合を切るのに必要なエネルギーの大きさ。強い結合ほど、多くのエネルギーが必要です。\">結合の強さ <span class=\"en-term\">(bond strength)</span></dfn>は、その結合を切るのにどれだけエネルギーが必要かを表します。結合エンタルピー (bond enthalpy) として測定します。",
-
     // Single, double and triple bonds > data-def attribute
     "The distance between the nuclei of two bonded atoms.": "結合している 2 つの原子の原子核の間の距離。",
-
-    // Single, double and triple bonds > data-def attribute
-    "How much energy is needed to break a bond. A stronger bond needs more energy.": "結合を切るのに必要なエネルギーの大きさ。強い結合ほど、多くのエネルギーが必要です。",
 
     // Single, double and triple bonds > p
     "Think of the shared electrons as glue between the two nuclei. More shared pairs mean more negative charge between the nuclei. Both nuclei are attracted more strongly to it.": "共有された電子を、2 つの原子核をつなぐ接着剤だと考えてみましょう。共有電子対が多いほど、原子核の間の負の電荷が増えます。両方の原子核が、それに強く引きつけられます。",
@@ -590,9 +578,6 @@ S1.i18n.register('ja', 's2-2', {
 
     // Coordination bonds > p
     "The atom that gives the pair must have a lone pair. The atom that accepts the pair must have room for two more electrons.": "電子対を出す原子には、非共有電子対がなければなりません。電子対を受け取る原子には、電子をあと 2 個入れる余地がなければなりません。",
-
-    // Coordination bonds > h3
-    "Three examples to know": "覚えておきたい 3 つの例",
 
     // Coordination bonds > p
     "<b>The ammonium ion.</b> Ammonia has a lone pair on nitrogen. An H<sup>+</sup> ion has no electrons. Nitrogen shares its lone pair with H<sup>+</sup>.": "<b>アンモニウムイオン (ammonium ion)。</b>アンモニアは、窒素に非共有電子対があります。H<sup>+</sup> イオンには電子がありません。窒素が、自分の非共有電子対を H<sup>+</sup> と共有します。",
@@ -982,9 +967,6 @@ S1.i18n.register('ja', 's2-2', {
     // Shapes of molecules: the VSEPR model > exam tip (shown in English + translation) > p
     "“State and explain the shape” is two marks. One is for the name of the shape. The other is for the reason: the number of electron domains, or the number of bonding pairs and lone pairs, around the central atom. For a bent or pyramidal molecule an angle in a sensible range below the ideal value is accepted.": "「形を述べ、説明しなさい (state and explain)」は 2 点です。1 点は形の名前です。もう 1 点は理由です。中心原子のまわりの電子領域の数、または共有電子対と非共有電子対の数を書きます。折れ線形や三角錐形の分子では、理想的な値より小さい妥当な範囲の角度なら認められます。",
 
-    // Shapes of molecules: the VSEPR model > not needed for IB > p
-    "Shapes with five or six electron domains are Additional HL and are on the <a href=\"s2-2h.html\">HL page</a>. The guide does not list exact angles to memorize. “Less than 109.5°” with the reason is what you must be able to give.": "電子領域が 5 つまたは 6 つの形は HL 追加内容（AHL）で、<a href=\"s2-2h.html\">HL のページ</a>にあります。『指導の手引き』は、覚えるべき正確な角度を挙げていません。「109.5° より小さい」と書き、その理由を言えることが必要です。",
-
     // Shapes of molecules: the VSEPR model > data-title attribute
     "Shapes and bond angles: quick check": "形と結合角：確認クイズ",
 
@@ -994,12 +976,6 @@ S1.i18n.register('ja', 's2-2', {
 
     // Bond polarity > p
     "Sharing is not always equal. In a tug of war between a strong team and a weak team, the rope moves towards the strong team. In a bond, the shared electrons move towards the atom that attracts them more.": "共有は、いつも平等とはかぎりません。強いチームと弱いチームが綱引きをすると、綱は強いチームのほうへ動きます。結合では、共有された電子が、より強く引きつける原子のほうへ寄ります。",
-
-    // Bond polarity > p
-    "<dfn data-def=\"A measure of how strongly an atom attracts a shared (bonding) pair of electrons in a covalent bond.\">Electronegativity</dfn> measures how strongly an atom attracts a shared pair of electrons. It has no unit. Fluorine has the highest value, 4.0.": "<dfn data-def=\"共有結合の中で、原子が共有電子対をどれだけ強く引きつけるかを表す尺度。\">電気陰性度 <span class=\"en-term\">(electronegativity)</span></dfn>は、原子が共有電子対をどれだけ強く引きつけるかを表します。単位はありません。フッ素の値がいちばん大きく、4.0 です。",
-
-    // Bond polarity > data-def attribute
-    "A measure of how strongly an atom attracts a shared (bonding) pair of electrons in a covalent bond.": "共有結合の中で、原子が共有電子対をどれだけ強く引きつけるかを表す尺度。",
 
     // Bond polarity > table > caption
     "Electronegativity values from the data booklet": "データブックレットの電気陰性度の値",
@@ -1400,9 +1376,6 @@ S1.i18n.register('ja', 's2-2', {
 
     // Covalent network structures > h3
     "Fullerenes": "フラーレン",
-
-    // Covalent network structures > p
-    "Fullerenes are closed cages of carbon atoms. The one to know is <span class=\"chem\">C60</span>. Its 60 atoms form a ball of 12 pentagons and 20 hexagons, like a football. Each carbon atom is bonded to three others.": "フラーレンは、炭素原子がつくる閉じたかご形の分子です。覚えておくのは <span class=\"chem\">C60</span> です。60 個の原子が、五角形 12 個と六角形 20 個でできたボールの形をつくります。サッカーボールのような形です。それぞれの炭素原子は、ほかの 3 個と結合しています。",
 
     // Covalent network structures > p
     "<span class=\"chem\">C60</span> is a <em>molecule</em>. It is not a network. Solid <span class=\"chem\">C60</span> is made of separate molecules, held together by weak London (dispersion) forces.": "<span class=\"chem\">C60</span> は<em>分子</em>です。共有結合の結晶ではありません。固体の <span class=\"chem\">C60</span> は、ばらばらの分子が弱いロンドン（分散）力で集まってできています。",
@@ -1923,9 +1896,6 @@ S1.i18n.register('ja', 's2-2', {
     // Explaining physical properties > worked example > h3
     "Explaining a boiling-point difference": "沸点の違いを説明する",
 
-    // Explaining physical properties > worked example > p
-    "Butane, <span class=\"chem\">CH3CH2CH2CH3</span>, boils at −1 °C. Propanone, <span class=\"chem\">CH3COCH3</span>, boils at 56 °C. Their molar masses are 58.14 and 58.09 <span class=\"unit\">g mol-1</span>. Explain the difference in boiling point.": "ブタン <span class=\"chem\">CH3CH2CH2CH3</span> の沸点は −1 °C です。プロパノン <span class=\"chem\">CH3COCH3</span> の沸点は 56 °C です。モル質量は 58.14 <span class=\"unit\">g mol-1</span> と 58.09 です。沸点の違いを説明しなさい (explain)。",
-
     // Explaining physical properties > worked example > data-title attribute
     "Decide whether each molecule is polar": "それぞれの分子が極性かどうかを決める",
 
@@ -2012,9 +1982,6 @@ S1.i18n.register('ja', 's2-2', {
     "Water molecules are held to each other by hydrogen bonds. A solute that can form hydrogen bonds with water, such as ethanol, mixes in easily.": "水分子どうしは、水素結合で引き合っています。エタノールのように、水と水素結合をつくれる溶質は、かんたんに混ざります。",
 
     // Explaining physical properties > li
-    "A non-polar solute, such as hexane, can form only weak London forces with water. These cannot replace the hydrogen bonds between water molecules. So the two liquids stay separate.": "ヘキサンのような無極性の溶質は、水との間に弱いロンドン力しかつくれません。これでは、水分子どうしの水素結合の代わりになりません。だから、2 つの液体は分かれたままです。",
-
-    // Explaining physical properties > li
     "As the hydrocarbon chain of an alcohol gets longer, more of the molecule is non-polar. Solubility in water falls. Ethanol mixes completely with water. Octan-1-ol hardly dissolves.": "アルコールの炭化水素の鎖が長くなるほど、分子の中で無極性の部分が増えます。水への溶けやすさは下がります。エタノールは水と完全に混ざります。オクタン-1-オールはほとんど溶けません。",
 
     // Explaining physical properties > li
@@ -2062,9 +2029,6 @@ S1.i18n.register('ja', 's2-2', {
     // Explaining physical properties > worked example > maths line
     "ethanol and water: <b>hydrogen bonds</b> form between them": "エタノールと水：分子の間に<b>水素結合</b>ができる",
 
-    // Explaining physical properties > worked example > maths line
-    "hexane and water: only weak London (dispersion) forces": "ヘキサンと水：弱いロンドン（分散）力のみ",
-
     // Explaining physical properties > worked example > data-title attribute
     "Compare with the forces already present": "もとからある力とくらべる",
 
@@ -2073,9 +2037,6 @@ S1.i18n.register('ja', 's2-2', {
 
     // Explaining physical properties > worked example > maths line
     "hexane–water forces are much weaker than water–water hydrogen bonds → hexane does not mix": "ヘキサン–水の間の力は、水–水の水素結合よりずっと弱い → ヘキサンは混ざらない",
-
-    // Explaining physical properties > worked example > p
-    "Ethanol has an O–H group, so it forms hydrogen bonds with water molecules and dissolves. Hexane is non-polar. It forms only London (dispersion) forces with water, which are too weak to replace the hydrogen bonds between water molecules.": "エタノールには O–H 基があるので、水分子と水素結合をつくって溶ける。ヘキサンは無極性である。水との間にはロンドン（分散）力しかつくれず、この力は弱すぎて、水分子どうしの水素結合の代わりにならない。",
 
     // Explaining physical properties > table > caption
     "Molecular substances and covalent network substances compared": "分子でできた物質と共有結合の結晶の比較",
@@ -2391,9 +2352,6 @@ S1.i18n.register('ja', 's2-2', {
 
     // Linking it up > h3
     "What features of a molecule make it “infrared (IR) active”?": "分子が「赤外（IR）活性」になるのは、どんな特徴があるときですか。",
-
-    // Linking it up > p
-    "HL only (Structure 3.2): a molecule absorbs infrared radiation when a vibration changes its dipole. So bond polarity and molecular geometry, the ideas of section 2.2.6, decide whether a molecule such as <span class=\"chem\">CO2</span> or <span class=\"chem\">H2O</span> absorbs infrared radiation.": "HL のみ（Structure 3.2）：分子は、振動によって双極子が変化するときに赤外線を吸収します。だから、<span class=\"chem\">CO2</span> や <span class=\"chem\">H2O</span> のような分子が赤外線を吸収するかどうかは、結合の極性と分子の形、つまり 2.2.6 のところの考え方で決まります。",
 
     // Exam-style practice > data-toc attribute
     // Exam-style practice > h2
@@ -3262,6 +3220,55 @@ S1.i18n.register('ja', 's2-2', {
 
     // widget string (assets/js/widgets-s2-2.js)
     "Model data, not a real experiment. Shaded area: solvent.": "モデルのデータで、実際の実験ではありません。色の付いた部分：溶媒。",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('ja', 's2-2', {
+  strings: {
+
+    // Covalent bonds, the octet rule and Lewis formulas > p
+    "Covalent bonds usually form between atoms of non-metals. A discrete, electrically neutral group of atoms joined by covalent bonds is a <dfn data-def=\"A discrete, electrically neutral group of atoms held together by covalent bonds. A covalent network, such as diamond, is not made of molecules.\">molecule</dfn>.": "共有結合は、ふつう非金属の原子どうしの間にできます。共有結合でつながった、独立した電気的に中性な原子のまとまりが<dfn data-def=\"共有結合で結びついた、独立した電気的に中性な原子のまとまり。ダイヤモンドのような共有結合の結晶は、分子でできていません。\">分子 <span class=\"en-term\">(molecule)</span></dfn>です。",
+
+    // Covalent bonds, the octet rule and Lewis formulas > data-def attribute
+    "A discrete, electrically neutral group of atoms held together by covalent bonds. A covalent network, such as diamond, is not made of molecules.": "共有結合で結びついた、独立した電気的に中性な原子のまとまり。ダイヤモンドのような共有結合の結晶は、分子でできていません。",
+
+    // Single, double and triple bonds > p
+    "The <dfn data-def=\"The distance between the nuclei of two bonded atoms.\">bond length</dfn> is the distance between the two nuclei. The <dfn data-def=\"How much energy is needed to break a bond. It is measured as the bond enthalpy: the energy needed to break one mole of the bond in gaseous molecules. A stronger bond needs more energy.\">bond strength</dfn> tells you how much energy is needed to break the bond. It is measured as a bond enthalpy.": "<dfn data-def=\"結合している 2 つの原子の原子核の間の距離。\">結合距離 <span class=\"en-term\">(bond length)</span></dfn>は、2 つの原子核の間の距離です。<dfn data-def=\"結合を切るのに必要なエネルギーの大きさ。結合エンタルピー、つまり気体の分子の中の結合 1 mol を切るのに必要なエネルギーとして測定します。強い結合ほど、多くのエネルギーが必要です。\">結合の強さ <span class=\"en-term\">(bond strength)</span></dfn>は、その結合を切るのにどれだけエネルギーが必要かを表します。結合エンタルピー (bond enthalpy) として測定します。",
+
+    // Single, double and triple bonds > data-def attribute
+    "How much energy is needed to break a bond. It is measured as the bond enthalpy: the energy needed to break one mole of the bond in gaseous molecules. A stronger bond needs more energy.": "結合を切るのに必要なエネルギーの大きさ。結合エンタルピー、つまり気体の分子の中の結合 1 mol を切るのに必要なエネルギーとして測定します。強い結合ほど、多くのエネルギーが必要です。",
+
+    // Coordination bonds > h3
+    "Three common examples": "よく出てくる 3 つの例",
+
+    // Shapes of molecules: the VSEPR model > not needed for IB > p
+    "Shapes with five or six electron domains are Additional HL and are on the <a href=\"s2-2h.html\">HL page</a>. The guide does not list exact angles to memorize.": "電子領域が 5 つまたは 6 つの形は HL 追加内容（AHL）で、<a href=\"s2-2h.html\">HL のページ</a>にあります。『指導の手引き』は、覚えるべき正確な角度を挙げていません。",
+
+    // Bond polarity > p
+    "<dfn data-def=\"The relative ability of an atom to attract a shared (bonding) pair of electrons in a covalent bond.\">Electronegativity</dfn> measures how strongly an atom attracts a shared pair of electrons. It has no unit. Fluorine has the highest value, 4.0.": "<dfn data-def=\"共有結合の中で、共有電子対（結合電子対）を引きつける、原子の相対的な能力。\">電気陰性度 <span class=\"en-term\">(electronegativity)</span></dfn>は、原子が共有電子対をどれだけ強く引きつけるかを表します。単位はありません。フッ素の値がいちばん大きく、4.0 です。",
+
+    // Bond polarity > data-def attribute
+    "The relative ability of an atom to attract a shared (bonding) pair of electrons in a covalent bond.": "共有結合の中で、共有電子対（結合電子対）を引きつける、原子の相対的な能力。",
+
+    // Covalent network structures > p
+    "Fullerenes are closed cages of carbon atoms. The usual example is <span class=\"chem\">C60</span>. Its 60 atoms form a ball of 12 pentagons and 20 hexagons, like a football. Each carbon atom is bonded to three others.": "フラーレンは、炭素原子がつくる閉じたかご形の分子です。よく例に挙げられるのは <span class=\"chem\">C60</span> です。60 個の原子が、五角形 12 個と六角形 20 個でできたボールの形をつくります。サッカーボールのような形です。それぞれの炭素原子は、ほかの 3 個と結合しています。",
+
+    // Explaining physical properties > worked example > p
+    "Butane, <span class=\"chem\">CH3CH2CH2CH3</span>, boils at 0 °C. Propanone, <span class=\"chem\">CH3COCH3</span>, boils at 56 °C. Their molar masses are 58.14 and 58.09 <span class=\"unit\">g mol-1</span>. Explain the difference in boiling point.": "ブタン <span class=\"chem\">CH3CH2CH2CH3</span> の沸点は 0 °C です。プロパノン <span class=\"chem\">CH3COCH3</span> の沸点は 56 °C です。モル質量は 58.14 <span class=\"unit\">g mol-1</span> と 58.09 です。沸点の違いを説明しなさい (explain)。",
+
+    // Explaining physical properties > li
+    "A non-polar solute, such as hexane, can form only weak London (dispersion) and dipole–induced dipole forces with water. These cannot replace the hydrogen bonds between water molecules. So the two liquids stay separate.": "ヘキサンのような無極性の溶質は、水との間に弱いロンドン（分散）力と双極子–誘起双極子相互作用しかつくれません。これでは、水分子どうしの水素結合の代わりになりません。だから、2 つの液体は分かれたままです。",
+
+    // Explaining physical properties > worked example > maths line
+    "hexane and water: only weak London (dispersion) and dipole–induced dipole forces": "ヘキサンと水：弱いロンドン（分散）力と双極子–誘起双極子相互作用のみ",
+
+    // Explaining physical properties > worked example > p
+    "Ethanol has an O–H group, so it forms hydrogen bonds with water molecules and dissolves. Hexane is non-polar. It forms only London (dispersion) and dipole–induced dipole forces with water, which are too weak to replace the hydrogen bonds between water molecules.": "エタノールには O–H 基があるので、水分子と水素結合をつくって溶ける。ヘキサンは無極性である。水との間にはロンドン（分散）力と双極子–誘起双極子相互作用しかつくれず、これらの力は弱すぎて、水分子どうしの水素結合の代わりにならない。",
+
+    // Linking it up > Additional HL > p
+    "Structure 3.2: a molecule absorbs infrared radiation when a vibration changes its dipole. So bond polarity and molecular geometry, the ideas of section 2.2.6, decide whether a molecule such as <span class=\"chem\">CO2</span> or <span class=\"chem\">H2O</span> absorbs infrared radiation.": "Structure 3.2：分子は、振動によって双極子が変化するときに赤外線を吸収します。だから、<span class=\"chem\">CO2</span> や <span class=\"chem\">H2O</span> のような分子が赤外線を吸収するかどうかは、結合の極性と分子の形、つまり 2.2.6 のところの考え方で決まります。",
 
   }
 });

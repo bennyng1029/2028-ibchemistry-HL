@@ -318,9 +318,6 @@ S1.i18n.register('ja', 's3-2h', {
     // Chiral carbon atoms and enantiomers > worked example > h3
     "Find the chiral carbon and draw both enantiomers": "キラル炭素原子を見つけて、両方の鏡像異性体を描く",
 
-    // Chiral carbon atoms and enantiomers > worked example > p
-    "Identify the chiral carbon atom in 2-chlorobutane, <span class=\"chem\">CH3CHClCH2CH3</span>. Draw the two enantiomers.": "2-chlorobutane <span class=\"chem\">CH3CHClCH2CH3</span> のキラル炭素原子を特定しなさい (identify)。2 つの鏡像異性体を描きなさい。",
-
     // Chiral carbon atoms and enantiomers > worked example > data-title attribute
     "Remove the carbons that cannot be chiral": "キラルになれない炭素を除く",
 
@@ -823,9 +820,6 @@ S1.i18n.register('ja', 's3-2h', {
 
     // Infrared spectroscopy > h3
     "Infrared radiation and greenhouse gases": "赤外線と温室効果ガス",
-
-    // Infrared spectroscopy > p
-    "The surface of the Earth gives out infrared radiation. Greenhouse gases such as carbon dioxide, water vapour and methane absorb some of it, because their bonds vibrate at infrared frequencies.": "地球の表面は赤外線を放出しています。二酸化炭素、水蒸気、methane（メタン）などの温室効果ガスは、その一部を吸収します。これらの分子の結合が、赤外線の振動数で振動するからです。",
 
     // Infrared spectroscopy > p
     "The molecules then give the energy out again in all directions. Some of it returns to the surface. This keeps the lower atmosphere warmer.": "分子はそのあと、エネルギーをあらゆる方向にもう一度放出します。その一部は地表に戻ります。こうして、大気の下層が暖かく保たれます。",
@@ -2781,6 +2775,19 @@ S1.i18n.register('ja', 's3-2h', {
 
     // widget string (assets/js/widgets-s3-2h.js)
     "Correct. The deduction is in your notebook.": "正解です。推論をノートに書き加えました。",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('ja', 's3-2h', {
+  strings: {
+
+    // Chiral carbon atoms and enantiomers > worked example > p
+    "Deduce which carbon atom is chiral in 2-chlorobutane, <span class=\"chem\">CH3CHClCH2CH3</span>. Draw the two enantiomers.": "2-chlorobutane <span class=\"chem\">CH3CHClCH2CH3</span> のどの炭素原子がキラルかを導きなさい (deduce)。2 つの鏡像異性体を描きなさい。",
+
+    // Infrared spectroscopy > p
+    "The surface of the Earth gives out infrared radiation. Greenhouse gases such as carbon dioxide, water vapour and methane absorb some of it, because they have polar bonds whose vibrations change the dipole of the molecule, and these vibrations absorb infrared radiation.": "地球の表面は赤外線を放出しています。二酸化炭素、水蒸気、methane（メタン）などの温室効果ガスは、その一部を吸収します。これらの分子には極性のある結合があり、その振動によって分子の双極子が変化するからです。このような振動が赤外線を吸収します。",
 
   }
 });

@@ -265,8 +265,8 @@ S1.i18n.register('ja', 's2-2.q', {
         "三重結合は、6 個の共有電子が強く反発し合うので、最も弱い結合である。",
       ],
       hints: [
-        // EN: Bond enthalpy is the energy needed to break the bond. A bigger value means a stronger bond.
-        "結合エンタルピー (bond enthalpy) は、結合を切るのに必要なエネルギーです。値が大きいほど結合は強くなります。",
+        // EN: Bond enthalpy is the energy needed to break one mole of the bond in gaseous molecules. A bigger value means a stronger bond.
+        "結合エンタルピー (bond enthalpy) は、気体の分子の中の結合 1 mol を切るのに必要なエネルギーです。値が大きいほど結合は強くなります。",
         // EN: Find the increase from single to double, and from double to triple.
         "単結合から二重結合への増加と、二重結合から三重結合への増加を求めましょう。",
         // EN: For "directly proportional", doubling the pairs would double the bond enthalpy. Does it?
@@ -1137,8 +1137,8 @@ S1.i18n.register('ja', 's2-2.q', {
         "0": "双極子–双極子相互作用には、極性分子が 2 つ必要です。アルゴン原子には永久双極子がありません。",
         // EN (option C): Hydrogen bonding needs an N, O or F atom on the other particle. Argon is not one of these.
         "2": "水素結合には、相手の粒子に N、O、F のどれかの原子が必要です。アルゴンはそのどれでもありません。",
-        // EN (option D): Ionic bonding is the attraction between oppositely charged ions. Argon atoms and water molecules are not ions.
-        "3": "イオン結合は、反対の電荷をもつイオンの間の引力です。アルゴン原子も水分子もイオンではありません。",
+        // EN (option D): Ionic bonding is the electrostatic attraction between oppositely charged ions. Argon atoms and water molecules are not ions.
+        "3": "イオン結合は、反対の電荷をもつイオンの間の静電気的な引力です。アルゴン原子も水分子もイオンではありません。",
       },
     },
 
