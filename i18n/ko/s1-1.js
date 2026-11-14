@@ -422,7 +422,7 @@ S1.i18n.register('ko', 's1-1', {
     "Draw the baseline in pencil, because pencil does not dissolve in the solvent. Put a small spot of the mixture on the baseline. Stand the paper in a little solvent, with the solvent level <strong>below</strong> the baseline. If the spot started under the solvent, the dyes would dissolve into the beaker instead of moving up the paper. A pure substance gives one spot. A mixture gives more than one.": "출발선은 연필로 그어요. 연필 자국은 용매에 녹지 않기 때문이에요. 혼합물을 출발선 위에 작게 찍어요. 종이를 용매가 조금 담긴 비커에 세우는데, 용매의 높이가 출발선보다 <strong>아래</strong>에 있어야 해요. 점이 용매 아래에서 시작하면 염료가 종이를 타고 올라가지 않고 비커 속으로 녹아 나와요. 순물질은 점이 1개 생겨요. 혼합물은 점이 여러 개 생겨요.",
 
     // Separating mixtures > not needed for IB > p
-    "You do not need retardation factor (R<sub>f</sub>) calculations or the terms stationary phase and mobile phase in this topic. They come later, in Structure 2.2, together with thin layer chromatography. You also do not need the details of fractionating columns, centrifuges or separating funnels here.": "이 단원에서는 이동률(R<sub>f</sub>) 계산이나 정지상, 이동상 같은 용어는 필요 없어요. 이것들은 나중에 Structure 2.2에서 얇은 막 크로마토그래피와 함께 나와요. 분별 증류관, 원심 분리기, 분별 깔때기의 자세한 내용도 여기서는 필요 없어요.",
+    "You do not need retardation factor (R<sub>f</sub>) calculations or the terms stationary phase and mobile phase in this topic. They come later, in Structure 2.2, together with thin layer chromatography. You also do not need the details of fractionating columns, centrifuges or separating funnels here.": "이 단원에서는 이동률(R<sub>f</sub>) 계산이나 고정상, 이동상 같은 용어는 필요 없어요. 이것들은 나중에 Structure 2.2에서 얇은 막 크로마토그래피와 함께 나와요. 분별 증류관, 원심 분리기, 분별 깔때기의 자세한 내용도 여기서는 필요 없어요.",
 
     // Separating mixtures > data-title attribute
     "Separating mixtures: quick check": "혼합물의 분리: 확인 퀴즈",
