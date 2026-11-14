@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lab 9 Identifying the type of bonding from properties | Structure Lab</title>
+<meta name="description" content="A guided virtual practical for IB Chemistry Structure 2: test unknown solids for hardness, melting, solubility in water and hexane, and electrical conductivity, then classify them as ionic, covalent molecular, covalent network or metallic.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for Lab 9. Tokens only. */
+.widget__controls > .control { max-width: 100%; min-width: 0; }
+.widget__controls .select { max-width: 100%; min-width: 0; width: 100%; }
+.bp-table { margin: 0.75rem 0 0; }
+.bp-table table { margin: 0; font-size: 0.86rem; }
+.bp-table .data th, .bp-table .data td { padding: 0.3rem 0.5rem; vertical-align: top; }
+.bp-table td { min-width: 5.5rem; }
+.bp-table tr.bp-current > * { background: var(--accent-soft); }
+.bp-table tr.bp-current > th { font-weight: 700; }
+.bp-id { display: block; font-weight: 400; font-size: 0.78rem; color: var(--ink-2); }
+.bp-empty { color: var(--ink-3); }
+.bp-note { margin: 0.6rem 0 0; font-size: 0.9rem; color: var(--ink-2); max-width: none; }
+.bp-classify { margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--line); }
+.bp-classify__title { margin: 0 0 0.5rem; font-family: var(--font-display); font-size: 1rem; }
+.bp-classify__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr)); gap: 0.5rem 0.9rem; }
+.bp-classify__grid .select { width: 100%; }
+.bp-classify__buttons { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
+.bp-classify .feedback ul { margin: 0.4rem 0 0; padding-left: 1.1rem; }
+</style>
+</head>
+<body data-page="lab-bonding-properties">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="lab-bonding-properties"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Lab 9 · Structure 2.1–2.4</p>
+      <h1>Identifying the type of bonding from properties</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>Which simple laboratory tests can show how the particles in an unknown solid are bonded and arranged?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <section class="topic-section" id="goals">
+        <h2>What you need to be able to do</h2>
+        <p>This lab links the four bonding models of Structure 2 to evidence you can collect. All of it is SL and HL core. Tick each item when you can do it without help.</p>
+        <ul class="checklist" data-s1-checklist="lab-bonding-properties">
+          <li data-id="plan" data-level="sl">Plan a fair set of tests: the same mass of solid, the same volume of solvent, the same circuit, and a distilled-water control.</li>
+          <li data-id="safety" data-level="sl">Give real precautions for heating solids, using hexane and using an electrical circuit.</li>
+          <li data-id="record" data-level="sl">Record qualitative observations and ammeter readings in a clear results table.</li>
+          <li data-id="classify" data-level="sl">Classify an unknown solid as ionic, covalent molecular, covalent network or metallic from its melting, solubility and conductivity.</li>
+          <li data-id="explain" data-level="sl">Explain each result with particles: ions fixed or free to move, delocalized electrons, weak forces between molecules, strong covalent bonds throughout.</li>
+          <li data-id="triangle" data-level="sl">Calculate the electronegativity difference and average for a binary compound, and link its position in the bonding triangle to its properties.</li>
+          <li data-id="uncertainty" data-level="sl">Use repeat readings to give a mean with an uncertainty, and decide whether two readings really differ.</li>
+          <li data-id="evaluate" data-level="sl">Identify the limits of the tests and suggest realistic improvements.</li>
+        </ul>
+      </section>
+
+      <section class="topic-section" id="background" data-toc="The chemistry behind it">
+        <span class="section-code">Structure 2.1.3, 2.2.7, 2.2.9, 2.3.1, 2.4.1</span>
+        <h2>The chemistry behind it</h2>
+        <p>Each bonding model predicts a pattern of properties. You can test three of them with simple apparatus: how easily the solid melts, what it dissolves in, and when it conducts electricity.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The pattern each model predicts</caption>
+            <thead><tr><th scope="col">Structure</th><th scope="col">Melting point</th><th scope="col">Solubility</th><th scope="col">Conducts electricity?</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Ionic lattice</th><td>high: strong attraction between oppositely charged ions</td><td>often soluble in water; insoluble in hexane</td><td>not as a solid (ions fixed); yes when molten or dissolved (ions free to move)</td></tr>
+              <tr><th scope="row">Covalent molecular</th><td>low: weak forces between molecules</td><td>non-polar ones dissolve in hexane; polar ones that can hydrogen bond may dissolve in water</td><td>no, as a solid or liquid: no charged particles that can move (a few, such as HCl, react with water to form ions, so their solutions conduct)</td></tr>
+              <tr><th scope="row">Covalent network</th><td>very high: strong covalent bonds throughout</td><td>insoluble in both</td><td>no, except graphite (and graphene): delocalized electrons</td></tr>
+              <tr><th scope="row">Metallic</th><td>usually high: attraction between cations and delocalized electrons</td><td>insoluble in both</td><td>yes, as a solid and as a liquid: delocalized electrons</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Metals are also <dfn data-def="Can be hammered or pressed into a new shape without breaking.">malleable</dfn>, while ionic crystals and network solids are hard and brittle. A hammer test is a quick extra clue.</p>
+        <p>For the full explanations, see <a href="../topics/s2-1.html#properties">ionic compounds</a>, <a href="../topics/s2-2.html#properties">covalent substances</a> and <a href="../topics/s2-2.html#networks">covalent network structures</a>, <a href="../topics/s2-3.html#properties">metals</a>, and <a href="../topics/s2-4.html#triangle">the bonding triangle</a>.</p>
+        <aside class="callout callout--key">
+          <p>Bonding is a continuum, not four boxes. The four labels are models. A real substance fits one of them well enough to predict its properties, and the bonding triangle shows where it sits between them.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="plan" data-toc="Aim, variables and safety">
+        <h2>Aim, variables and safety</h2>
+        <p><strong>Aim:</strong> to classify six unknown solids as ionic, covalent molecular, covalent network or metallic from their physical properties.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Variables</caption>
+            <thead><tr><th scope="col">Type</th><th scope="col">Variable</th><th scope="col">How it is controlled or measured</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Independent</th><td>the solid tested</td><td>six unknowns, A to F</td></tr>
+              <tr><th scope="row">Dependent</th><td>melting behaviour, solubility, current</td><td>observations; digital ammeter (±0.1 mA)</td></tr>
+              <tr><th scope="row">Controlled</th><td>mass of solid</td><td>0.50 g on a balance (±0.01 g), or one level spatula for the quick tests</td></tr>
+              <tr><th scope="row">Controlled</th><td>volume of solvent</td><td>5.0 cm<sup>3</sup> for solubility, 10.0 cm<sup>3</sup> of distilled water for conductivity (10 cm<sup>3</sup> measuring cylinder, ±0.1 cm<sup>3</sup>)</td></tr>
+              <tr><th scope="row">Controlled</th><td>the circuit</td><td>same 6.0 V d.c. supply, 100 Ω resistor, carbon electrodes at a fixed distance and depth</td></tr>
+              <tr><th scope="row">Control</th><td>distilled water alone</td><td>shows the reading for “no ions”</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Equipment</h3>
+        <ul>
+          <li>Unknown solids A–F, spatula, balance, white tile, small hammer and paper</li>
+          <li>Test tubes and rack, distilled water, hexane (in a fume cupboard), 10 cm<sup>3</sup> measuring cylinder</li>
+          <li>Beaker of hot water (water bath), crucible, pipe-clay triangle, tripod, Bunsen burner, heat-resistant mat, tongs</li>
+          <li>Low-voltage d.c. supply (6 V), 100 Ω resistor, digital milliammeter, two carbon electrodes in a holder, leads and crocodile clips</li>
+        </ul>
+
+        <aside class="callout callout--safety">
+          <p>Wear eye protection throughout. Hexane is highly flammable and its vapour is harmful: use it in a fume cupboard, with no flames anywhere nearby, and pour the waste into the labelled organic waste container, not the sink. Heat solids gently at first and point tubes away from people. Sucrose chars and wax can catch fire if overheated: heat wax only in a water bath, and turn off the Bunsen if anything ignites. Crucibles stay hot long after they stop glowing: handle them with tongs and leave them on the mat. Use only a low-voltage supply (6 V), and switch it off before you move the electrodes. Molten metals are a teacher demonstration only. Wrap a solid in paper before you tap it, so that no fragments fly.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="method">
+        <h2>Method</h2>
+        <ol>
+          <li>Record the appearance of each solid. <em>Why:</em> a metallic shine is a first clue, though graphite shines too.</li>
+          <li>Wrap a small piece in paper and tap it once with a hammer on a tile. Record whether it flattens, shatters, crumbles or squashes.</li>
+          <li>Put a spatula of the solid in a dry test tube in a beaker of boiling water for 2 minutes. If it has not melted, put a little in a crucible and heat it with a Bunsen flame, gently and then strongly, for up to 3 minutes. <em>Why:</em> the water bath picks out solids that melt below 100 °C without the risk of fire.</li>
+          <li>Shake one spatula of the solid with 5 cm<sup>3</sup> of distilled water. Repeat with 5 cm<sup>3</sup> of hexane in the fume cupboard. Record whether it dissolves.</li>
+          <li>Set up the circuit. Touch both electrodes onto the solid and record the current. <em>Why:</em> a current in the solid shows electrons that can move.</li>
+          <li>Rinse and dry the electrodes. Dip them in 10.0 cm<sup>3</sup> of distilled water and record the current: this is the control. Add 0.50 g of the solid, stir and record the current again. <em>Why:</em> only a reading clearly above the control shows ions in solution. Rinsing stops ions carrying over from one test to the next.</li>
+          <li>Where the solid melted in the flame, your teacher may test the conductivity of the melt.</li>
+          <li>Repeat each conductivity reading three times, rinsing the electrodes between readings.</li>
+        </ol>
+      </section>
+
+      <section class="topic-section" id="experiment" data-toc="Run the experiment">
+        <h2>Run the experiment</h2>
+        <p>Choose a solid and a test, then press “Do the test”. Results go into the table. Repeat a conductivity test to collect more readings. When you are ready, classify each solid and check your answers. “New set of unknowns” gives a different set.</p>
+
+        <figure data-s1-widget="lab-bonding-properties.bench" data-title="Test bench: six unknown solids">
+          <p class="widget__fallback">An interactive test bench appears here when JavaScript is on. You can test six unknown solids by tapping, heating, shaking with water or hexane, and measuring conductivity, then classify them.</p>
+          <figcaption>The drawing shows the test you chose and its result. In the table, conductivity cells show the last three readings in mA. Compare every reading with the distilled-water control, not with zero. The unknowns are drawn at random from eight solids, so the letters change with each new set.</figcaption>
+        </figure>
+
+        <aside class="callout callout--mistake">
+          <p>“It dissolves in water, so it is ionic” is a common wrong conclusion. Sucrose dissolves in water too, but the solution does not conduct. Only a solution that conducts more than distilled water shows ions.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="processing" data-toc="Processing the data">
+        <h2>Processing the data</h2>
+        <p>Here the data are mostly observations. Processing them means reading across each row and finding the one model that fits <em>all</em> the results. Start with conductivity: it separates the models most clearly.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Results for four other solids (control, distilled water: 0.1 mA)</caption>
+            <thead><tr><th scope="col">Solid</th><th scope="col">Hammer</th><th scope="col">Heating</th><th scope="col">Water</th><th scope="col">Hexane</th><th scope="col" class="num">Solid / mA</th><th scope="col" class="num">With water / mA</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">P</th><td>brittle</td><td>does not melt</td><td>dissolves</td><td>insoluble</td><td class="num">0.0</td><td class="num">23.8</td></tr>
+              <tr><th scope="row">Q</th><td>soft</td><td>melts below 100 °C</td><td>insoluble</td><td>dissolves</td><td class="num">0.0</td><td class="num">0.1</td></tr>
+              <tr><th scope="row">R</th><td>malleable</td><td>does not melt</td><td>insoluble</td><td>insoluble</td><td class="num">59.6</td><td class="num">0.1</td></tr>
+              <tr><th scope="row">S</th><td>very hard</td><td>does not melt</td><td>insoluble</td><td>insoluble</td><td class="num">0.0</td><td class="num">0.0</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">Classifying from a results table</h3>
+          <div class="worked__problem">
+            <p>Use the table above. Classify P, Q, R and S, and give the evidence for each.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Sort by conductivity of the solid">
+              <p class="worked__why">Only metals and graphite conduct as solids, because only they have delocalized electrons.</p>
+              <div class="worked__math">R conducts as a solid (59.6 mA); P, Q and S do not</div>
+            </li>
+            <li data-title="Decide between metal and graphite">
+              <p class="worked__why">A metal is malleable: layers of cations slide over each other without breaking the non-directional metallic bonding.</p>
+              <div class="worked__math">R is malleable → <b>R is metallic</b></div>
+            </li>
+            <li data-title="Look for ions in solution">
+              <p class="worked__why">Compare with the control (0.1 mA). Only P’s mixture conducts much more, so only P releases ions that can move.</p>
+              <div class="worked__math">P: 23.8 mA ≫ 0.1 mA, high melting point, brittle → <b>P is ionic</b></div>
+            </li>
+            <li data-title="Use the melting point">
+              <p class="worked__why">A low melting point means weak forces between particles; a solid that does not melt in a flame has strong bonds throughout.</p>
+              <div class="worked__math">Q melts below 100 °C, no current → <b>Q is covalent molecular</b></div>
+              <div class="worked__math">S does not melt, insoluble, no current → <b>S is covalent network</b></div>
+            </li>
+            <li data-title="Check the solvents agree">
+              <p class="worked__why">Q dissolves in hexane but not in water, so its molecules are non-polar (London forces). P dissolves in polar water, as many ionic solids do.</p>
+              <div class="worked__math">every result fits the chosen model</div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>P ionic, Q covalent molecular (non-polar), R metallic, S covalent network.</p></div>
+        </div>
+
+        <h3>Link to the bonding triangle</h3>
+        <p>For a binary compound you can check the classification with electronegativity values from the data booklet. Calculate Δ<i>χ</i> = |<i>χ</i><sub>a</sub> − <i>χ</i><sub>b</sub>| (the vertical axis) and the average (<i>χ</i><sub>a</sub> + <i>χ</i><sub>b</sub>) / 2 (the horizontal axis), then read the region from the triangle in the booklet.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Two of the unknowns on the bonding triangle (data booklet electronegativities)</caption>
+            <thead><tr><th scope="col">Compound</th><th scope="col" class="num">Δ<i>χ</i></th><th scope="col" class="num">average <i>χ</i></th><th scope="col">Region</th><th scope="col">Fits the tests?</th></tr></thead>
+            <tbody>
+              <tr><th scope="row"><span class="chem">NaCl</span></th><td class="num">3.2 − 0.9 = 2.3</td><td class="num">(0.9 + 3.2) / 2 = 2.05</td><td>ionic</td><td>yes: conducts only when dissolved</td></tr>
+              <tr><th scope="row"><span class="chem">SiO2</span></th><td class="num">3.4 − 1.9 = 1.5</td><td class="num">(1.9 + 3.4) / 2 = 2.65</td><td>polar covalent</td><td>yes: covalent bonds, no ions</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The triangle tells you the type of bonding, not the structure. Silicon dioxide and a molecular compound such as hydrogen chloride (Δ<i>χ</i> = 1.0, average 2.7) are both polar covalent. Only the melting test tells you that silicon dioxide is a giant network.</p>
+
+        <div data-s1-numeric data-answer="1.9" data-tolerance="0.01">
+          <div class="tryit__q">
+            <p>Potassium iodide was one of the unknowns. Use <i>χ</i>(K) = 0.8 and <i>χ</i>(I) = 2.7 from the data booklet. Calculate the electronegativity difference, Δ<i>χ</i>, for <span class="chem">KI</span>.</p>
+          </div>
+          <ol class="tryit__hints">
+            <li>Δ<i>χ</i> is the size of the difference: subtract the smaller value from the larger.</li>
+            <li>2.7 − 0.8.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">Δ<i>χ</i> = 2.7 − 0.8 = 1.9</div>
+            <div class="worked__math">average <i>χ</i> = (0.8 + 2.7) / 2 = 1.75</div>
+            <p>A large difference with a low average puts KI in the upper left part of the triangle, towards the ionic corner. That fits the tests: it conducts when dissolved but not as a solid.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="topic-section" id="uncertainty" data-toc="Uncertainties">
+        <span class="section-code">Tool 3</span>
+        <h2>Uncertainties</h2>
+        <p>Most results in this lab are qualitative. The ammeter readings are numbers, so they carry an uncertainty. The digital ammeter reads to 0.1 mA, so one reading is ±0.1 mA. Repeat readings usually vary by more than this, because the electrodes are never in exactly the same place.</p>
+        <p>When repeats vary by more than the instrument uncertainty, use half the range of the repeats as the uncertainty of the mean.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Three readings with sodium chloride and water</caption>
+            <thead><tr><th scope="col">Step</th><th scope="col">Working</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Readings</th><td><span class="mono">24.3, 24.9, 24.6 mA</span></td></tr>
+              <tr><th scope="row">Mean</th><td><span class="mono">(24.3 + 24.9 + 24.6) ÷ 3 = 24.6 mA</span></td></tr>
+              <tr><th scope="row">Uncertainty (half the range)</th><td><span class="mono">(24.9 − 24.3) ÷ 2 = ±0.3 mA</span></td></tr>
+              <tr><th scope="row">Result</th><td><span class="mono">24.6 ± 0.3 mA</span></td></tr>
+              <tr><th scope="row">Percentage uncertainty</th><td><span class="mono">0.3 ÷ 24.6 × 100 = 1.2 %</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Is a reading really different from the control?</h3>
+        <p>Subtract the control. For a difference, add the absolute uncertainties.</p>
+        <ul>
+          <li><strong>Sucrose solution</strong> 0.1 ± 0.1 mA, distilled water 0.1 ± 0.1 mA. Difference 0.0 ± 0.2 mA. The difference is smaller than its uncertainty, so there is no evidence of ions.</li>
+          <li><strong>Sodium chloride solution</strong> 24.6 ± 0.3 mA, distilled water 0.1 ± 0.1 mA. Difference 24.5 ± 0.4 mA, far larger than its uncertainty: there are ions free to move.</li>
+        </ul>
+        <p>There is no literature value to compare with, because the current depends on this circuit, the electrodes and the concentration. Compare currents only within one set-up. A melting point measured with a thermometer can be compared with a data value as a percentage error, as in <a href="lab-heating-curve.html#uncertainty">Lab 3</a>.</p>
+
+        <aside class="callout callout--exam">
+          <p>A “conducts / does not conduct” conclusion needs a comparison. Say what the control read, and say that the difference is (or is not) larger than the uncertainty of the readings.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="evaluation" data-toc="Errors and improvements">
+        <h2>Evaluation: errors and improvements</h2>
+        <p>Random errors, such as small changes in where the electrodes sit, scatter repeat readings. Systematic errors, such as ions left on the electrodes, push results one way every time.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Errors, limitations and improvements</caption>
+            <thead><tr><th scope="col">Source of error or limitation</th><th scope="col">Effect on the result</th><th scope="col">Realistic improvement</th></tr></thead>
+            <tbody>
+              <tr><td>Ions left on the electrodes from the previous solution</td><td>Systematic. The next mixture reads too high, so a molecular or network solid can look as if it releases ions.</td><td>Rinse the electrodes with distilled water and dry them between tests; check against the control each time.</td></tr>
+              <tr><td>Tap water used instead of distilled water</td><td>Systematic. Dissolved ions make every mixture conduct.</td><td>Use distilled or deionized water and measure a control.</td></tr>
+              <tr><td>Electrode distance and depth change between readings</td><td>Random. Repeat currents for the same solution vary.</td><td>Fix the electrodes in a holder at a set depth; repeat three times and take the mean.</td></tr>
+              <tr><td>Different masses of solid, or a solid that dissolves slowly</td><td>The concentration of ions differs, so currents cannot be compared.</td><td>Weigh 0.50 g each time, crush to a powder and stir for the same time before reading.</td></tr>
+              <tr><td>Flakes of an insoluble conductor (graphite) touching both electrodes in the water</td><td>The mixture seems to conduct, so graphite might be taken for an ionic solid.</td><td>Let the solid settle or filter it, and test the clear liquid.</td></tr>
+              <tr><td>A Bunsen flame cannot melt most ionic, network and metallic solids</td><td>Limitation: “does not melt” only shows a high melting point. It cannot tell sodium chloride from sand.</td><td>Rely on conductivity in water; use data booklet melting points; test melts only as a teacher demonstration.</td></tr>
+              <tr><td>Sucrose chars as it melts</td><td>The melting behaviour is hard to judge.</td><td>Heat gently in an oil bath with a thermometer, or use a melting point apparatus.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <aside class="callout callout--scope">
+          <p>An insoluble ionic solid, such as magnesium oxide, gives the same results as sand in these school tests, because it does not dissolve and does not melt in a flame. You do not need further tests for this in the course: just say that the tests cannot tell them apart. Percentage ionic character is not calculated.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="exam" data-toc="Exam practice">
+        <h2>Exam practice</h2>
+        <p>These questions are in the style of Paper 1B: they are built on the tests you have just done. Write your answer on paper first, then check.</p>
+        <div data-s1-quiz data-topic="lab-bonding-properties" data-count="0" data-title="Lab 9 exam practice"></div>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../data/questions-lab-bonding-properties.js"></script>
+<script src="../assets/js/widgets-lab-bonding-properties.js"></script>
+</body>
+</html>

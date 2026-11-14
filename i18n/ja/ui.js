@@ -248,3 +248,148 @@ S1.i18n.register('ja', 'ui', {
     "Press [ or ] to move between atoms and Enter to choose one.": "[ または ] キーで原子を切り替え、Enter キーで選びます。"
   }
 });
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('ja', 'ui', {
+  strings: {
+
+    // shell: core.js
+    "All labs": "すべての実験",
+
+    // Lab 9 short name (tile, pager)
+    "Bonding from properties": "性質から結合を調べる",
+
+    // Lab 5 card text
+    "Burn magnesium, heat a hydrate, and turn mass data into a formula.": "マグネシウムを燃焼させ、水和物を加熱し、質量のデータから化学式を求めます。",
+
+    // Lab 7 card text
+    "Change pressure, volume and temperature, plot the data and find absolute zero.": "圧力・体積・温度を変え、データをグラフにして絶対零度を求めます。",
+
+    // Lab 1 card text
+    "Choose a separation method, purify a solid by recrystallization and test its purity.": "分離法を選び、再結晶で固体を精製し、その純度を調べます。",
+
+    // Lab 2 short name (tile, pager)
+    "Chromatography": "クロマトグラフィー",
+
+    // Lab 8 card text
+    "Collect a gas, use pV = nRT, and find a molar mass with its uncertainty.": "気体を集め、pV = nRT を使って、モル質量を不確かさとともに求めます。",
+
+    // Lab 5 short name (tile, pager)
+    "Empirical formula": "組成式",
+
+    // Lab 5 title (labs page, related labs)
+    "Finding an empirical formula by experiment": "実験で組成式を求める",
+
+    // Lab 4 title (labs page, related labs)
+    "Flame tests and emission spectra": "炎色反応と発光スペクトル",
+
+    // Lab 4 short name (tile, pager)
+    "Flame tests and spectra": "炎色反応とスペクトル",
+
+    // Lab 7 short name (tile, pager)
+    "Gas laws": "気体の法則",
+
+    // Lab 10 card text
+    "Halogen displacement reactions and the acid–base character of period 3 oxides.": "ハロゲンの置換反応と、第 3 周期の酸化物の酸・塩基としての性質を調べます。",
+
+    // Lab 3 title (labs page, related labs)
+    "Heating and cooling curves": "加熱曲線と冷却曲線",
+
+    // Lab 3 short name (tile, pager)
+    "Heating curves": "加熱曲線",
+
+    // Lab 4 card text
+    "Identify metal ions by flame colour and read line spectra.": "炎の色で金属イオンを特定し、線スペクトルを読み取ります。",
+
+    // Lab 9 title (labs page, related labs)
+    "Identifying the type of bonding from properties": "性質から結合の種類を見分ける",
+
+    // Lab 7 title (labs page, related labs)
+    "Investigating the gas laws": "気体の法則を調べる",
+
+    // lab number
+    "Lab 1": "実験 1",
+
+    // lab number
+    "Lab 10": "実験 10",
+
+    // lab number
+    "Lab 2": "実験 2",
+
+    // lab number
+    "Lab 3": "実験 3",
+
+    // lab number
+    "Lab 4": "実験 4",
+
+    // lab number
+    "Lab 5": "実験 5",
+
+    // lab number
+    "Lab 6": "実験 6",
+
+    // lab number
+    "Lab 7": "実験 7",
+
+    // lab number
+    "Lab 8": "実験 8",
+
+    // lab number
+    "Lab 9": "実験 9",
+
+    // shell: core.js
+    "Labs": "実験",
+
+    // Lab 3 card text
+    "Log temperature against time and explain the flat parts with particles.": "温度を時間とともに記録し、グラフの平らな部分を粒子で説明します。",
+
+    // Lab 6 card text
+    "Make a standard solution, dilute it, and read an unknown off a calibration curve.": "標準溶液をつくって希釈し、検量線から未知試料の濃度を読み取ります。",
+
+    // Lab 8 short name (tile, pager)
+    "Molar mass of a gas": "気体のモル質量",
+
+    // Lab 8 title (labs page, related labs)
+    "Molar volume and the molar mass of a gas": "モル体積と気体のモル質量",
+
+    // Lab 2 title (labs page, related labs)
+    "Paper and thin-layer chromatography": "ペーパークロマトグラフィーと薄層クロマトグラフィー",
+
+    // Lab 10 short name (tile, pager)
+    "Periodic trends": "周期的な傾向",
+
+    // Lab 10 title (labs page, related labs)
+    "Periodic trends in the laboratory": "実験で調べる周期的な傾向",
+
+    // shell: core.js
+    "Previous and next lab": "前後の実験",
+
+    // shell: core.js
+    "Related labs": "関連する実験",
+
+    // Lab 2 card text
+    "Run a chromatogram, measure Rf values and explain them with polarity.": "クロマトグラムをつくって Rf 値を測り、極性で説明します。",
+
+    // shell: core.js
+    "Safety": "安全",
+
+    // Lab 1 title (labs page, related labs)
+    "Separating and purifying mixtures": "混合物の分離と精製",
+
+    // Lab 1 short name (tile, pager)
+    "Separating mixtures": "混合物の分離",
+
+    // Lab 6 short name (tile, pager)
+    "Standard solutions": "標準溶液",
+
+    // Lab 6 title (labs page, related labs)
+    "Standard solutions and calibration curves": "標準溶液と検量線",
+
+    // Lab 9 card text
+    "Test melting point, solubility and conductivity, then classify unknown solids.": "融点・溶けやすさ・電気伝導性を調べ、未知の固体を分類します。",
+
+    // shell: core.js
+    "Topics:": "トピック：",
+
+  }
+});

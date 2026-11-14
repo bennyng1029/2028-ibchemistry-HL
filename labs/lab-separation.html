@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lab 1 Separating and purifying mixtures | Structure Lab</title>
+<meta name="description" content="IB Chemistry virtual practical for Structure 1.1.1 and Tool 1: choose a separation technique, purify benzoic acid by recrystallization, find the percentage recovery with its uncertainty, and test purity with a melting point.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for Lab 1. Tokens only. */
+.lab-goal { margin: 0 0 0.75rem; font-weight: 700; max-width: none; }
+.lab-note { margin: 0.6rem 0 0; font-size: 0.92rem; color: var(--ink-2); max-width: none; }
+.lab-note:empty { display: none; }
+.lab-empty { margin: 0.75rem 0 0; font-size: 0.9rem; color: var(--ink-3); }
+.widget__stage .lab-table { margin: 0.75rem 0 0; }
+.lab-table table { font-size: 0.86rem; }
+.lab-table caption { text-align: left; }
+.lab-table .lab-wide { min-width: 9.5rem; }
+.lab-table td, .lab-table th { vertical-align: top; }
+.lab-bins { display: grid; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); gap: 0.5rem; }
+.lab-bin { border: 1.5px solid var(--line-strong); background: var(--surface-2); padding: 0.5rem 0.65rem; min-width: 0; }
+.lab-bin--lost { border-style: dashed; background: transparent; }
+.lab-bin__label { margin: 0 0 0.3rem; font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.04em; color: var(--ink-2); }
+.lab-bin__items { margin: 0; padding-left: 1.1rem; font-size: 0.92rem; }
+.lab-bin__items li { margin: 0; }
+.lab-kit { columns: 2 14rem; column-gap: 2rem; }
+.lab-kit li { break-inside: avoid; }
+</style>
+</head>
+<body data-page="lab-separation">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="lab-separation"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Lab 1 · Structure 1.1</p>
+      <h1>Separating and purifying mixtures</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>How do you decide on a way to separate a mixture, and how can you tell whether the product you get is pure?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <section class="topic-section" id="goals">
+        <h2>What you need to be able to do</h2>
+        <p>This lab practises skills from Structure 1.1.1 and Tool 1. You will choose techniques for several mixtures, purify a solid by recrystallization, and check how pure it is. Tick each item when you can do it without help.</p>
+        <ul class="checklist" data-s1-checklist="lab-separation">
+          <li data-id="choose-method" data-level="sl">Choose a separation technique from the states of the parts of a mixture and a physical property that differs between them.</li>
+          <li data-id="plan-sequence" data-level="sl">Plan a sequence of steps to separate a soluble solid from an insoluble one, including drying both products.</li>
+          <li data-id="recryst-steps" data-level="sl">Describe recrystallization and give the reason for each key step.</li>
+          <li data-id="yield-purity" data-level="sl">Predict how a change in the method affects the yield and the purity of the product.</li>
+          <li data-id="mp-purity" data-level="sl">Use a melting range to judge whether a solid is pure.</li>
+          <li data-id="recovery-unc" data-level="sl">Calculate a percentage recovery and its uncertainty from mass readings.</li>
+          <li data-id="evaluate" data-level="sl">Identify random and systematic errors and suggest realistic improvements.</li>
+        </ul>
+      </section>
+
+      <section class="topic-section" id="background" data-toc="Background">
+        <span class="section-code">Structure 1.1.1 · Tool 1</span>
+        <h2>The chemistry behind it</h2>
+        <p>A mixture can be separated by physical methods because its parts are not chemically bonded. Each technique uses one physical property that is different for the parts: solubility, particle size or boiling point. The full table of techniques is in <a href="../topics/s1-1.html#separating">Structure 1.1: separating mixtures</a>.</p>
+        <p>Chemists also need to <strong>purify</strong> products. A solid made in a reaction usually contains small amounts of other substances. <dfn data-def="A technique that purifies a solid: dissolve it in the minimum volume of hot solvent, filter hot, cool to form crystals, filter, rinse with cold solvent and dry.">Recrystallization</dfn> works when the product is much more soluble in a hot solvent than in the same solvent when cold.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Approximate solubility of benzoic acid in water</caption>
+            <thead><tr><th scope="col">Temperature / °C</th><th scope="col" class="num">Mass that dissolves in 100 cm<sup>3</sup> of water / g</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">5 (ice bath)</th><td class="num">0.2</td></tr>
+              <tr><th scope="row">20 (room temperature)</th><td class="num">0.3</td></tr>
+              <tr><th scope="row">95 (nearly boiling)</th><td class="num">4.6</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>So hot water can dissolve about 20 times as much benzoic acid as cold water. A small amount of a soluble impurity stays dissolved when the solution cools, because there is too little of it to saturate the cold water. An insoluble impurity, such as sand, never dissolves, so it can be filtered off while the solution is hot.</p>
+
+        <aside class="callout callout--key">
+          <p>A pure solid melts at a fixed temperature, over a narrow range of about 1 °C. Impurities lower the melting point and make it melt over a wider range. So a melting point is a quick check of purity, as well as of identity.</p>
+        </aside>
+        <p>Chromatography is the other technique in Structure 1.1.1. It has its own practical: <a href="lab-chromatography.html">Lab 2: Paper and thin-layer chromatography</a>.</p>
+        <aside class="callout callout--scope">
+          <p>You do not need fractional distillation columns, separating funnels, sublimation or mixed melting points. You also do not need to explain why impurities lower a melting point in any depth. A percentage recovery is not a percentage yield: yields from reactions come later, in Reactivity 2.1.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="plan" data-toc="Aim, variables and safety">
+        <h2>Aim, variables and safety</h2>
+        <p><strong>Aim:</strong> to purify a sample of impure benzoic acid by recrystallization from water, find the percentage recovery, and use the melting range to judge the purity of the product.</p>
+        <p>The impure sample contains about 91 % benzoic acid, with some sand and a small amount of a soluble impurity.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Variables in the recrystallization investigation</caption>
+            <thead><tr><th scope="col">Type</th><th scope="col">Variable</th><th scope="col">How it is measured or kept the same</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Independent</th><td>volume of hot water used (in other runs: the cooling method)</td><td>measuring cylinder, ±1 cm<sup>3</sup></td></tr>
+              <tr><th scope="row">Dependent</th><td>percentage recovery of benzoic acid</td><td>masses on a balance, ±0.01 g</td></tr>
+              <tr><th scope="row">Dependent</th><td>melting range of the product</td><td>melting point apparatus, ±0.5 °C</td></tr>
+              <tr><th scope="row">Controlled</th><td>mass and batch of impure sample</td><td>about 2 g from the same bottle</td></tr>
+              <tr><th scope="row">Controlled</th><td>temperature of the hot water and of the ice bath</td><td>nearly boiling (about 95 °C); ice bath about 5 °C</td></tr>
+              <tr><th scope="row">Controlled</th><td>rinse and drying</td><td>same small volume of ice-cold water; dry to constant mass</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Equipment</h3>
+        <ul class="lab-kit">
+          <li>impure benzoic acid, about 2 g</li>
+          <li>distilled water</li>
+          <li>two 100 cm<sup>3</sup> beakers and a glass rod</li>
+          <li>hot plate</li>
+          <li>50 cm<sup>3</sup> measuring cylinder</li>
+          <li>stemless filter funnel, fluted filter paper, conical flask</li>
+          <li>ice bath</li>
+          <li>second funnel and filter paper (or a Büchner funnel with suction)</li>
+          <li>watch glass and spatula</li>
+          <li>balance reading to 0.01 g</li>
+          <li>melting point apparatus with thermometer, capillary tubes</li>
+          <li>low-temperature oven or desiccator</li>
+        </ul>
+
+        <aside class="callout callout--safety">
+          <p>Wear eye protection throughout. Benzoic acid causes serious eye irritation and its dust irritates the nose and throat: do not make dust, and wash your hands afterwards.</p>
+          <p>Nearly boiling water scalds. Move hot beakers with tongs or heat-resistant gloves, and remember the hot plate stays hot after it is switched off. The melting point block goes above 120 °C: do not touch it, and let it cool before you change capillaries. Capillary tubes are thin glass: put broken ones in the glass bin, not the ordinary bin.</p>
+          <p>If your teacher shows a distillation of ethanol and water, ethanol is highly flammable: heat it with an electric heater or water bath, never a naked flame, with anti-bumping granules in the flask.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="method">
+        <h2>Method</h2>
+        <h3>Part A: recrystallization</h3>
+        <ol>
+          <li>Weigh about 2 g of impure benzoic acid into a 100 cm<sup>3</sup> beaker. Record the mass to 0.01 g.</li>
+          <li>Heat about 60 cm<sup>3</sup> of distilled water on the hot plate until it nearly boils.</li>
+          <li>Add the hot water to the solid in small portions, stirring and keeping it hot, until the benzoic acid has just dissolved. The sand will not dissolve. Record the volume used. <em>Why:</em> the less solvent you use, the less product stays dissolved when the solution cools.</li>
+          <li>Add a few cm<sup>3</sup> more hot water (about one tenth extra). <em>Why:</em> a solution that is exactly saturated starts to crystallize in the funnel as it cools slightly.</li>
+          <li>Filter the hot solution through fluted filter paper in a warm, stemless funnel. <em>Why:</em> this removes insoluble impurities such as sand. A warm funnel with no stem gives the solution little chance to cool before it passes through.</li>
+          <li>Cover the filtrate and let it cool slowly to room temperature, then stand it in an ice bath for 10 minutes. <em>Why:</em> slow cooling gives larger crystals that trap less impurity; the ice bath makes more of the product crystallize.</li>
+          <li>Filter to collect the crystals. Rinse them with a small volume of ice-cold water. <em>Why:</em> the rinse washes away the solution that contains the soluble impurity. Warm water would dissolve some of the crystals.</li>
+          <li>Dry the crystals on a weighed watch glass in a low-temperature oven or a desiccator. Weigh, dry again and reweigh until two masses agree (constant mass). <em>Why:</em> any water left in the product adds to its mass.</li>
+        </ol>
+        <h3>Part B: melting point</h3>
+        <ol start="9">
+          <li>Grind a little of the dry product. Press the open end of a capillary tube into it and tap the tube until there is 2–3 mm of tightly packed solid at the bottom.</li>
+          <li>Heat the block quickly to about 110 °C, then slowly, at 1–2 °C per minute. <em>Why:</em> if you heat fast, the thermometer gets ahead of the sample.</li>
+          <li>Record the temperature when liquid first appears and when the last solid disappears. This is the melting range.</li>
+          <li>Repeat with the impure starting material and with pure benzoic acid, so you can compare all three.</li>
+        </ol>
+      </section>
+
+      <section class="topic-section" id="experiment" data-toc="Run the experiment">
+        <h2>Run the experiment</h2>
+        <h3>1. Choose a technique</h3>
+        <p>Start by matching techniques to mixtures. For each mixture, think about which part you want to keep and which property differs, then try a technique. Wrong choices are useful: see where each part ends up.</p>
+        <figure data-s1-widget="lab-separation.chooser" data-title="Separation bench">
+          <p class="widget__fallback">An interactive activity appears here when JavaScript is on. You choose a mixture and a technique and see where each part of the mixture ends up.</p>
+          <figcaption>Choose a mixture and a technique, then press Try it. The boxes show where each part ends up; a dashed box means it is lost. Notice that evaporation and distillation use the same property, but only distillation keeps the liquid.</figcaption>
+        </figure>
+
+        <h3>2. Recrystallize the impure benzoic acid</h3>
+        <p>Do a first run with the method as written. Then change one thing at a time and compare the recovery and what the crystals look like. Each run uses a new sample of about 2 g, so the masses change slightly from run to run.</p>
+        <figure data-s1-widget="lab-separation.recryst" data-title="Recrystallization">
+          <p class="widget__fallback">An interactive recrystallization appears here when JavaScript is on. You choose the volume of hot water, the cooling, the rinse and the drying, and get mass readings for your product.</p>
+          <figcaption>Set the method and press Run recrystallization. The graph shows why the volume matters: the dashed line is the concentration of your hot solution, and only the part above the solubility curve at the final temperature crystallizes. Copy the raw data into your notebook. The masses are model data.</figcaption>
+        </figure>
+
+        <h3>3. Test the purity</h3>
+        <p>Products from your runs appear in the sample list. Compare one of them with the impure sample and with pure benzoic acid. Press the buttons at the moment you see each change.</p>
+        <figure data-s1-widget="lab-separation.meltpoint" data-title="Melting point apparatus">
+          <p class="widget__fallback">An interactive melting point apparatus appears here when JavaScript is on. You heat a sample in a capillary tube and record the temperatures at which it starts and finishes melting.</p>
+          <figcaption>Press Start heating and watch the sample. Press "Melting starts now" when liquid first appears and "Fully melted now" when the last solid goes. Try the fast heating setting too, and compare the ranges. The readout describes the sample in words.</figcaption>
+        </figure>
+      </section>
+
+      <section class="topic-section" id="processing" data-toc="Processing the data">
+        <h2>Processing the data</h2>
+        <p>The percentage recovery tells you how much of the starting material you got back as product. Find the mass of product by difference, then compare it with the mass you started with.</p>
+        <div class="eq">
+          <div class="eq__formula">percentage recovery = <span class="frac"><span><i>m</i><sub>p</sub></span><span><i>m</i><sub>s</sub></span></span> × 100</div>
+          <dl class="eq__legend">
+            <div><dt>m<sub>p</sub></dt><dd>mass of dry product <span class="unit">g</span></dd></div>
+            <div><dt>m<sub>s</sub></dt><dd>mass of impure sample at the start <span class="unit">g</span></dd></div>
+          </dl>
+        </div>
+
+        <div class="worked" data-s1-worked data-kicker="Worked example">
+          <h3 class="worked__title">Percentage recovery and purity from one run</h3>
+          <div class="worked__problem">
+            <p>A student recrystallized 2.04 g of impure benzoic acid. The empty watch glass had a mass of 24.36 g. The watch glass with the dry product had a mass of 25.87 g. The product melted at 120.0–121.5 °C. The literature melting point of benzoic acid is 122 °C. Calculate the percentage recovery and comment on the purity.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Find the mass of product">
+              <p class="worked__why">The product was weighed on the watch glass, so subtract the mass of the glass.</p>
+              <div class="worked__math"><i>m</i>(product) = 25.87 g − 24.36 g = 1.51 g</div>
+            </li>
+            <li data-title="Divide by the starting mass">
+              <p class="worked__why">Recovery compares what you got back with what you started with.</p>
+              <div class="worked__math">recovery = (1.51 g / 2.04 g) × 100 = 74.0196… %</div>
+            </li>
+            <li data-title="Round to the data">
+              <p class="worked__why">Both masses have 3 significant figures.</p>
+              <div class="worked__math">recovery = <b>74.0 %</b></div>
+            </li>
+            <li data-title="Interpret the melting range">
+              <p class="worked__why">A pure solid melts sharply at its literature value; impurities lower and widen the range.</p>
+              <p>The range is 1.5 °C wide and ends 0.5 °C below 122 °C. The product is much purer than the starting material, but it may still hold a trace of impurity.</p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>Percentage recovery = 74.0 %. The narrow melting range close to 122 °C shows the product is nearly pure.</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="82.6923" data-tolerance="0.3%" data-sigfigs="3" data-unit="%" data-label="Percentage recovery">
+          <div class="tryit__q"><p>Another student starts with 3.12 g of impure benzoic acid. The empty watch glass has a mass of 25.08 g, and 27.66 g with the dry product. Calculate the percentage recovery.</p></div>
+          <ol class="tryit__hints">
+            <li>First find the mass of product by difference.</li>
+            <li>The product has a mass of 2.58 g. Divide by 3.12 g and multiply by 100.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math"><i>m</i>(product) = 27.66 g − 25.08 g = 2.58 g</div>
+            <div class="worked__math">recovery = (2.58 g / 3.12 g) × 100 = 82.7 %</div>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>A recovery close to or above 100 % is not good news. Some product is always lost, so a very high value usually means the product was still wet, or contains an impurity such as sand.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="uncertainty">
+        <span class="section-code">Tool 3</span>
+        <h2>Uncertainties</h2>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Uncertainty of each reading</caption>
+            <thead><tr><th scope="col">Apparatus</th><th scope="col">Reads to</th><th scope="col">Uncertainty of one reading</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">balance</th><td>0.01 g</td><td>±0.01 g</td></tr>
+              <tr><th scope="row">thermometer (1 °C divisions)</th><td>0.5 °C</td><td>±0.5 °C</td></tr>
+              <tr><th scope="row">50 cm<sup>3</sup> measuring cylinder</th><td>1 cm<sup>3</sup></td><td>±1 cm<sup>3</sup></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h3>Propagating the uncertainty</h3>
+        <p>Use the worked example data. The mass of product comes from <strong>two</strong> readings subtracted, so <strong>add the absolute uncertainties</strong>.</p>
+        <div class="worked__math">Δ<i>m</i>(product) = ±(0.01 + 0.01) g = ±0.02 g</div>
+        <p>The recovery is a <strong>division</strong>, so <strong>add the percentage uncertainties</strong>.</p>
+        <div class="worked__math">% uncertainty of <i>m</i>(product) = (0.02 / 1.51) × 100 = 1.32 %</div>
+        <div class="worked__math">% uncertainty of <i>m</i>(impure sample) = (0.01 / 2.04) × 100 = 0.49 %</div>
+        <div class="worked__math">% uncertainty of recovery = 1.32 % + 0.49 % = 1.81 %</div>
+        <div class="worked__math">absolute uncertainty = 74.0 × 1.81 / 100 = ±1.3, so recovery = 74 ± 1 %</div>
+        <p>The mass of impure sample is read once on a balance that was set to zero, so it carries one reading uncertainty. The absolute uncertainty is given to 1 significant figure, and the value is rounded to the same decimal place.</p>
+
+        <div data-s1-numeric data-answer="1.0957" data-tolerance="2%" data-sigfigs="2" data-unit="%" data-label="Percentage uncertainty of the recovery">
+          <div class="tryit__q"><p>For the "Try it" data above (3.12 g of sample; watch glass 25.08 g, then 27.66 g), calculate the percentage uncertainty of the recovery. The balance reads to ±0.01 g.</p></div>
+          <ol class="tryit__hints">
+            <li>The product mass (2.58 g) comes from two readings, so its uncertainty is ±0.02 g.</li>
+            <li>Add (0.02 / 2.58) × 100 and (0.01 / 3.12) × 100.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">(0.02 / 2.58) × 100 = 0.775 %</div>
+            <div class="worked__math">(0.01 / 3.12) × 100 = 0.321 %</div>
+            <div class="worked__math">% uncertainty = 0.775 % + 0.321 % = 1.1 %</div>
+          </div>
+        </div>
+
+        <h3>Comparing with the literature value</h3>
+        <p>The impure starting material in the same experiment melted at 113.5–119.5 °C. Compare the temperature at which each sample is fully melted with the literature value of 122 °C.</p>
+        <div class="worked__math">percentage error = |experimental − literature| / literature × 100</div>
+        <div class="worked__math">product: |121.5 − 122| / 122 × 100 = 0.4 %</div>
+        <div class="worked__math">impure sample: |119.5 − 122| / 122 × 100 = 2.0 %</div>
+        <p>Then ask the more useful question: <strong>is the difference bigger than the uncertainty?</strong> For the product, the difference is 0.5 °C, the same as the thermometer uncertainty, so it agrees with the literature value. For the impure sample the difference is 2.5 °C, five times the uncertainty, so it is a real effect: the impurities lowered the melting point.</p>
+        <aside class="callout callout--exam">
+          <p>In Paper 1B, give an absolute uncertainty to 1 significant figure and the value to the same decimal place. When you compare with a literature value, say whether the difference is larger than the uncertainty. If it is, there must be a systematic error or a real effect such as an impurity.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="evaluation" data-toc="Evaluation">
+        <h2>Evaluation: errors and improvements</h2>
+        <p>A <dfn data-def="An error that makes repeated readings scatter unpredictably above and below the true value. Repeats and averages reduce its effect.">random error</dfn> makes repeated results scatter, for example judging by eye the moment the last crystal melts. Repeating and averaging reduces its effect. A <dfn data-def="An error that shifts every result in the same direction. Repeats do not reduce it; you must change the method or the apparatus.">systematic error</dfn> pushes every result the same way, for example weighing crystals that are still wet. Repeats do not help: you must change the method.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Sources of error in this practical</caption>
+            <thead><tr><th scope="col">Source of error</th><th scope="col">Effect on the result</th><th scope="col">Realistic improvement</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">too much hot water used</th><td>more benzoic acid stays dissolved after cooling, so the recovery is lower</td><td>add hot water in small portions until the solid just dissolves; record the volume</td></tr>
+              <tr><th scope="row">crystals form in the funnel during hot filtration</th><td>product is lost with the sand, so the recovery is lower</td><td>use a stemless funnel warmed with hot water, add about one tenth extra hot solvent, filter quickly</td></tr>
+              <tr><th scope="row">cooling too quickly</th><td>small crystals trap impure solution, so the product melts lower and over a wider range</td><td>cool slowly to room temperature first, then use the ice bath</td></tr>
+              <tr><th scope="row">rinsing with warm water</th><td>some crystals dissolve, so the recovery is lower</td><td>rinse with a small volume of ice-cold water</td></tr>
+              <tr><th scope="row">product weighed while still wet (systematic)</th><td>water adds to the mass, so the recovery is too high; water also lowers the melting point</td><td>dry to constant mass in a low-temperature oven or desiccator</td></tr>
+              <tr><th scope="row">crystals left on the paper and glassware</th><td>recovery is lower</td><td>wash the last crystals across with a little of the cold filtrate</td></tr>
+              <tr><th scope="row">heating too fast in the melting point test (systematic)</th><td>the thermometer runs ahead of the sample, so the readings are too high and the range looks wider</td><td>heat quickly to about 10 °C below the expected value, then at 1–2 °C per minute</td></tr>
+              <tr><th scope="row">judging the start and end of melting by eye (random)</th><td>readings scatter by about 1 °C</td><td>repeat with fresh capillaries and take the mean; run pure benzoic acid alongside as a check</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <aside class="callout callout--exam">
+          <p>For an error, always say which way it moves the result and why. "Human error" earns nothing. A good improvement names a specific change to the apparatus or method that removes that error.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="exam" data-toc="Exam practice">
+        <h2>Exam practice</h2>
+        <p>These questions are in the style of Paper 1B: data from a practical, method, uncertainty and evaluation. Use the data given in each question.</p>
+        <div data-s1-quiz data-topic="lab-separation" data-count="0" data-title="Lab 1 exam practice"></div>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../data/questions-lab-separation.js"></script>
+<script src="../assets/js/widgets-lab-separation.js"></script>
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lab 3 Heating and cooling curves | Structure Lab</title>
+<meta name="description" content="A guided virtual practical for IB Chemistry Structure 1.1: heat and cool stearic acid, lauric acid and water, log temperature against time, find the melting point from the plateau, and explain the flat parts with particles.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for Lab 3. Tokens only. */
+.widget__controls > .control { max-width: 100%; min-width: 0; }
+.widget__controls .select { max-width: 100%; min-width: 0; width: 100%; }
+.hc-chart { margin-top: 0.75rem; }
+.hc-table { margin: 0.75rem 0 0; max-height: 18rem; overflow-y: auto; }
+.hc-table table { margin: 0; }
+.hc-table .data th, .hc-table .data td { padding-top: 0.3rem; padding-bottom: 0.3rem; }
+</style>
+</head>
+<body data-page="lab-heating-curve">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="lab-heating-curve"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Lab 3 · Structure 1.1</p>
+      <h1>Heating and cooling curves</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>What can a graph of temperature against time tell us about what the particles are doing when a substance changes state?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <section class="topic-section" id="goals">
+        <h2>What you need to be able to do</h2>
+        <p>This lab practises the skills behind Structure 1.1.2 and 1.1.3. All of it is SL and HL core. Tick each item when you can do it without help.</p>
+        <ul class="checklist" data-s1-checklist="lab-heating-curve">
+          <li data-id="plan" data-level="sl">Plan a heating or cooling experiment: name the independent, dependent and controlled variables, and give real safety precautions.</li>
+          <li data-id="record" data-level="sl">Record temperature and time in a table with headings, units and the uncertainty of each instrument.</li>
+          <li data-id="plot" data-level="sl">Plot a heating or cooling curve with labelled axes and a smooth line through the points.</li>
+          <li data-id="find-mp" data-level="sl">Find a melting point (or freezing point) from the flat part of a curve, and convert it to kelvin.</li>
+          <li data-id="explain" data-level="sl">Explain the flat parts with particles: energy overcomes the forces between the particles, and the average kinetic energy stays the same.</li>
+          <li data-id="supercool" data-level="sl">Recognize supercooling on a cooling curve, and read the freezing point from the plateau, not from the dip.</li>
+          <li data-id="uncertainty" data-level="sl">State the uncertainty of a temperature reading, work out a percentage uncertainty, and compare it with a percentage error.</li>
+          <li data-id="evaluate" data-level="sl">Identify random and systematic errors in the method and suggest realistic improvements.</li>
+        </ul>
+      </section>
+
+      <section class="topic-section" id="background" data-toc="The chemistry behind it">
+        <span class="section-code">Structure 1.1.2–1.1.3</span>
+        <h2>The chemistry behind it</h2>
+        <p>When you heat a solid at a steady rate, its temperature rises. Then, at the melting point, the temperature stops rising while the solid melts. Only when all of it has melted does the temperature start to rise again.</p>
+        <p>Temperature is a measure of the <dfn data-def="The average of the kinetic energies of all the particles in a sample. Temperature in kelvin is a measure of it.">average kinetic energy</dfn> of the particles. On a sloping part of the curve, the energy supplied makes the particles move faster, so the temperature rises. On a flat part, the energy supplied is used to overcome the attractions between the particles. Their potential energy increases, but their average kinetic energy does not change, so the temperature stays constant.</p>
+        <p>A cooling curve is the same story backwards. As a liquid freezes, the particles are pulled into fixed positions by the attractive forces, and energy is released. That energy keeps the temperature constant until all the liquid has frozen.</p>
+        <p>For the full story, see <a href="../topics/s1-1.html#curves">heating curves</a>, <a href="../topics/s1-1.html#changes">changes of state</a> and <a href="../topics/s1-1.html#temperature">temperature and kelvin</a> in Structure 1.1. Why stearic acid melts at a higher temperature than lauric acid is about <a href="../topics/s2-2.html#imf">intermolecular forces</a> (Structure 2.2).</p>
+
+        <div class="eq">
+          <div class="eq__formula"><i>T</i> / K = <i>t</i> / °C + 273.15</div>
+          <dl class="eq__legend">
+            <div><dt>T</dt><dd>temperature in kelvin <span class="unit">K</span></dd></div>
+            <div><dt>t</dt><dd>temperature in degrees Celsius <span class="unit">°C</span></dd></div>
+          </dl>
+        </div>
+        <p>A change of 1 K is the same size as a change of 1 °C. So a temperature <em>difference</em>, and its uncertainty, has the same number in both units.</p>
+      </section>
+
+      <section class="topic-section" id="plan" data-toc="Aim, variables and safety">
+        <h2>Aim, variables and safety</h2>
+        <p><strong>Aim:</strong> to find the melting point of a pure solid from its heating curve and its freezing point from its cooling curve, and to see how the flat parts depend on the rate of heating or cooling.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Variables</caption>
+            <thead><tr><th scope="col">Type</th><th scope="col">Variable</th><th scope="col">How it is measured or kept the same</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Independent</th><td>time</td><td>stopwatch, reading at fixed intervals (for example every 30 s)</td></tr>
+              <tr><th scope="row">Dependent</th><td>temperature of the sample</td><td>thermometer with its bulb in the middle of the sample</td></tr>
+              <tr><th scope="row">Controlled</th><td>mass of sample</td><td>weigh about 5 g on a balance (±0.01 g) for every run</td></tr>
+              <tr><th scope="row">Controlled</th><td>temperature of the water bath (or hotplate setting)</td><td>check the bath with a second thermometer; stir it</td></tr>
+              <tr><th scope="row">Controlled</th><td>position of the thermometer</td><td>bulb fully covered by the sample, not touching the glass</td></tr>
+              <tr><th scope="row">Controlled</th><td>same thermometer and same tube</td><td>use the same apparatus for heating and cooling runs</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The rate of heating or cooling is not a variable you want to change during a run. In this lab you change it <em>between</em> runs to see its effect on the shape of the curve.</p>
+
+        <h3>Equipment</h3>
+        <ul>
+          <li>Boiling tube held in a clamp and stand, about 5 g of stearic acid or lauric acid</li>
+          <li>Thermometer (−10 to 110 °C, 1 °C divisions) or a digital temperature probe and data logger</li>
+          <li>250 cm<sup>3</sup> beaker as a water bath, a kettle or hotplate to provide hot water, a stopwatch</li>
+          <li>For water: crushed ice in a beaker on a hotplate, a stirring rod, and an ice–salt mixture for the cooling run</li>
+        </ul>
+
+        <aside class="callout callout--safety">
+          <p>Wear eye protection. The water bath and the molten acids are hot enough to scald (up to about 95 °C): hold the boiling tube with a clamp or tongs, and let it cool before you touch it. Heat the acids in a water bath, never directly in a Bunsen flame: they would overheat, give off irritating fumes and could catch fire. Stearic acid and lauric acid irritate the eyes and skin, so avoid contact and wash off any spills. Never try to pull a thermometer out of the solid: it can snap. Re-melt the solid in the water bath first. When boiling water, add anti-bumping granules and keep your face away from the steam. An ice–salt mixture at −20 °C can cause cold burns, so do not hold it in your bare hand.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="method">
+        <h2>Method</h2>
+        <h3>Heating curve</h3>
+        <ol>
+          <li>Put about 5 g of the solid in a dry boiling tube and push the thermometer into it so that the bulb is in the middle of the solid. <em>Why:</em> the bulb must measure the sample, not the air or the glass.</li>
+          <li>Record the starting temperature at time 0.</li>
+          <li>Clamp the tube in a water bath that is about 10–15 °C above the expected melting point, and start the stopwatch. <em>Why:</em> a bath close to the melting point heats the sample slowly and evenly, so the flat part is long and clear.</li>
+          <li>Record the temperature every 30 s, and note what you see (solid, solid and liquid, liquid). <em>Why:</em> the observations tell you which flat part is a change of state.</li>
+          <li>Once the solid has melted, gently stir with the thermometer and keep recording until the temperature has risen by about 10 °C.</li>
+        </ol>
+        <h3>Cooling curve</h3>
+        <ol>
+          <li>Heat the tube until all the solid has melted and the liquid is about 15 °C above the melting point.</li>
+          <li>Take the tube out of the bath, dry the outside, and clamp it in an empty beaker so that air surrounds it. Start the stopwatch. <em>Why:</em> the air slows the cooling, so the freezing plateau lasts several minutes.</li>
+          <li>Record the temperature every 30 s, stirring gently while the sample is still liquid. Note when the first crystals appear. <em>Why:</em> stirring keeps the temperature even and helps crystals start to form, which reduces supercooling.</li>
+          <li>Stop when the temperature is about 10 °C below the freezing point.</li>
+          <li>Plot temperature (y-axis) against time (x-axis) for each run and draw a smooth curve through the points.</li>
+        </ol>
+      </section>
+
+      <section class="topic-section" id="experiment" data-toc="Run the experiment">
+        <h2>Run the experiment</h2>
+        <p>Choose a substance and an experiment, then press Start. The stopwatch runs faster than real time. Readings are taken at the interval you choose and go into the table and the graph. Every new run gives slightly different results, just as in a real lab.</p>
+
+        <figure data-s1-widget="lab-heating-curve.rig" data-title="Heating and cooling rig" data-substance="stearic">
+          <p class="widget__fallback">An interactive experiment appears here when JavaScript is on. It heats or cools stearic acid, lauric acid or water, records the temperature at fixed times, and plots a heating or cooling curve.</p>
+          <figcaption>The drawing shows the sample: the hatched part is solid and the plain part is liquid. Use “Find the flat parts” to list each stretch of readings taken while two states were present, with its mean, and any flat stretch at the end where the sample has reached the temperature of its surroundings. The model is simplified: each run has a small random thermometer error and, for the acids, a sample that is not perfectly pure.</figcaption>
+        </figure>
+
+        <h3>Runs to try</h3>
+        <ol>
+          <li>Stearic acid, heating curve, gentle rate. Find the melting point.</li>
+          <li>Stearic acid, cooling curve, slow rate. Is there a dip before the plateau? Compare the freezing point with the melting point.</li>
+          <li>Repeat run 1 at the fast rate. What happens to the length and the flatness of the plateau?</li>
+          <li>Water (ice), heating curve. You should see two flat parts. Which is melting and which is boiling?</li>
+          <li>Change to the digital probe and readings every 15 s. Does the plateau become easier to read?</li>
+        </ol>
+
+        <aside class="callout callout--key">
+          <p>A flat part is a change of state only if two states are present together. At the end of a heating run the liquid also stops warming once it reaches the temperature of the water bath. That flat part is not a melting point. Your observations column tells the two apart.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="processing" data-toc="Processing the data">
+        <h2>Processing the data</h2>
+        <p>To find the melting point (or freezing point), find the flat part of the curve where two states are present. Take the mean of the readings on it. Do not include the readings before the plateau starts or after it ends.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Cooling stearic acid in air (readings every 30 s, thermometer ±0.5 °C)</caption>
+            <thead><tr><th scope="col" class="num">Time / s</th><th scope="col" class="num">Temperature / °C</th><th scope="col">What you see</th></tr></thead>
+            <tbody>
+              <tr><td class="num">0</td><td class="num">80.0</td><td>liquid</td></tr>
+              <tr><td class="num">30</td><td class="num">76.5</td><td>liquid</td></tr>
+              <tr><td class="num">60</td><td class="num">73.5</td><td>liquid</td></tr>
+              <tr><td class="num">90</td><td class="num">71.0</td><td>liquid</td></tr>
+              <tr><td class="num">120</td><td class="num">69.0</td><td>liquid</td></tr>
+              <tr><td class="num">150</td><td class="num">67.5</td><td>liquid</td></tr>
+              <tr><td class="num">180</td><td class="num">68.5</td><td>crystals forming in liquid</td></tr>
+              <tr><td class="num">210</td><td class="num">68.5</td><td>crystals forming in liquid</td></tr>
+              <tr><td class="num">240</td><td class="num">68.5</td><td>crystals forming in liquid</td></tr>
+              <tr><td class="num">270</td><td class="num">68.5</td><td>crystals forming in liquid</td></tr>
+              <tr><td class="num">300</td><td class="num">68.0</td><td>crystals forming in liquid</td></tr>
+              <tr><td class="num">330</td><td class="num">68.0</td><td>crystals forming in liquid</td></tr>
+              <tr><td class="num">360</td><td class="num">67.0</td><td>solid</td></tr>
+              <tr><td class="num">390</td><td class="num">65.5</td><td>solid</td></tr>
+              <tr><td class="num">420</td><td class="num">63.5</td><td>solid</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="worked" data-s1-worked>
+          <h3 class="worked__title">The freezing point of stearic acid</h3>
+          <div class="worked__problem">
+            <p>Use the table above. Find the freezing point of the sample in °C and in K. The literature value is 69.3 °C. Calculate the percentage error.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Spot the supercooling">
+              <p class="worked__why">The liquid cooled below its freezing point before crystals formed. Then the energy released as crystals formed warmed it back up.</p>
+              <div class="worked__math">dip to 67.5 °C at 150 s, then up to 68.5 °C at 180 s</div>
+            </li>
+            <li data-title="Choose the plateau readings">
+              <p class="worked__why">The plateau is where liquid and solid are both present, from 180 s to 330 s. The dip at 150 s is not part of it.</p>
+              <div class="worked__math">68.5, 68.5, 68.5, 68.5, 68.0, 68.0 °C</div>
+            </li>
+            <li data-title="Take the mean">
+              <p class="worked__why">A mean of several readings reduces the effect of random errors.</p>
+              <div class="worked__math">mean = (4 × 68.5 + 2 × 68.0) ÷ 6 = 410.0 ÷ 6 = 68.33 °C</div>
+            </li>
+            <li data-title="Convert to kelvin">
+              <p class="worked__why">Add 273.15. The kelvin and the degree Celsius are the same size.</p>
+              <div class="worked__math"><i>T</i> = 68.33 + 273.15 = 341.48 K</div>
+            </li>
+            <li data-title="Percentage error">
+              <p class="worked__why">Compare with the literature value: |experimental − literature| ÷ literature × 100.</p>
+              <div class="worked__math">% error = (69.3 − 68.33) ÷ 69.3 × 100 = 1.39 %</div>
+            </li>
+            <li data-title="Round to the data">
+              <p class="worked__why">The thermometer reads to ±0.5 °C, so give the temperature to one decimal place.</p>
+              <div class="worked__math">freezing point = <b>68.3 °C = 341.5 K</b>; % error = <b>1.4 %</b></div>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>68.3 °C (341.5 K), 1.4 % below the literature value.</p></div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Reading the freezing point from the lowest point of the dip (67.5 °C here) is a common error. The dip is supercooled liquid, which is not a stable state. The freezing point is the temperature of the plateau that follows.</p>
+        </aside>
+
+        <div data-s1-numeric data-answer="0.8752" data-tolerance="5%" data-sigfigs="1-3" data-unit="%">
+          <div class="tryit__q">
+            <p>A student heats lauric acid in a water bath. The readings on the flat part of the heating curve are 43.0, 43.0, 43.5, 43.5, 43.5 and 44.0 °C. The literature melting point of lauric acid is 43.8 °C. Calculate the percentage error in the student’s melting point.</p>
+          </div>
+          <ol class="tryit__hints">
+            <li>First find the mean of the six plateau readings.</li>
+            <li>The mean is 43.42 °C. Now use (43.8 − mean) ÷ 43.8 × 100.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">mean = (2 × 43.0 + 3 × 43.5 + 44.0) ÷ 6 = 260.5 ÷ 6 = 43.42 °C</div>
+            <div class="worked__math">% error = (43.8 − 43.42) ÷ 43.8 × 100 = 0.88 %</div>
+            <p>About 0.9 %. The experimental value is a little low, which is what a slightly impure sample would give.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="topic-section" id="uncertainty" data-toc="Uncertainties">
+        <span class="section-code">Tool 3</span>
+        <h2>Uncertainties</h2>
+        <p>A glass thermometer with 1 °C divisions can be read to the nearest half division, so each reading is ±0.5 °C. A digital probe that shows one decimal place is ±0.1 °C. The stopwatch is about ±1 s, mostly from your reaction time, which is small compared with a 30 s interval.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Uncertainties for the stearic acid result</caption>
+            <thead><tr><th scope="col">Quantity</th><th scope="col">Value</th><th scope="col">How the uncertainty is found</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Freezing point</th><td><span class="mono">68.3 ± 0.5 °C</span></td><td>the uncertainty of one reading (the readings vary by less than this)</td></tr>
+              <tr><th scope="row">Percentage uncertainty</th><td><span class="mono">0.7 %</span></td><td><span class="mono">0.5 ÷ 68.3 × 100 = 0.73 %</span></td></tr>
+              <tr><th scope="row">In kelvin</th><td><span class="mono">341.5 ± 0.5 K</span></td><td>adding 273.15 does not change the absolute uncertainty</td></tr>
+              <tr><th scope="row">Depth of supercooling</th><td><span class="mono">1.0 ± 1.0 °C</span></td><td>a difference of two readings: add the absolute uncertainties, 0.5 + 0.5</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>Notice two things. In kelvin the percentage uncertainty is much smaller (0.5 ÷ 341.5 × 100 = 0.15 %), because the number is bigger but the absolute uncertainty is the same. And the depth of supercooling, 1.0 ± 1.0 °C, is no bigger than its uncertainty: a single run cannot show it clearly. A probe at ±0.1 °C would.</p>
+        <p>The rules: for a sum or a difference, add the absolute uncertainties. For a product or a quotient, add the percentage uncertainties. This lab only needs the first rule.</p>
+
+        <h3>Is the difference from the literature value real?</h3>
+        <p>Compare the percentage error with the percentage uncertainty.</p>
+        <ul>
+          <li><strong>Stearic acid:</strong> percentage error 1.4 % is larger than the percentage uncertainty 0.7 %. The difference cannot be explained by reading the thermometer alone. There must be a systematic error, such as an impure sample or a thermometer that reads low.</li>
+          <li><strong>Lauric acid (Try it):</strong> percentage error 0.9 % is smaller than the percentage uncertainty (0.5 ÷ 43.4 × 100 = 1.2 %). The result agrees with the literature value within the uncertainty of the measurement.</li>
+        </ul>
+
+        <aside class="callout callout--exam">
+          <p>Give an absolute uncertainty to one significant figure, and quote the value to the same decimal place: 68.3 ± 0.5 °C, not 68.33 ± 0.5 °C. When asked whether random error explains a result, compare the percentage error with the percentage uncertainty, and say which is larger.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="evaluation" data-toc="Errors and improvements">
+        <h2>Evaluation: errors and improvements</h2>
+        <p><dfn data-def="Errors that scatter readings unpredictably above and below the true value. Repeating and averaging reduces their effect.">Random errors</dfn> scatter readings both ways, so repeating and taking a mean reduces them. <dfn data-def="Errors that shift every reading in the same direction, for example a thermometer that always reads 0.5 °C low. Repeating does not reduce them.">Systematic errors</dfn> push every reading the same way, so repeats do not help. You must change the method or the apparatus.</p>
+
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Errors and improvements</caption>
+            <thead><tr><th scope="col">Source of error</th><th scope="col">Type and effect on the result</th><th scope="col">Realistic improvement</th></tr></thead>
+            <tbody>
+              <tr><td>Impurities in the sample (school-grade stearic acid contains other fatty acids)</td><td>Systematic. The melting point is lower than the literature value and the plateau slopes, because an impure solid melts over a range.</td><td>Use a purer sample, or recrystallize it first. Report a melting range.</td></tr>
+              <tr><td>Thermometer calibration offset</td><td>Systematic. Every reading is shifted by the same amount, so the melting point is too high or too low.</td><td>Check the thermometer in a mixture of ice and pure water (0 °C) and correct the readings.</td></tr>
+              <tr><td>Heating or cooling too fast</td><td>The outside of the sample changes state before the middle, so the plateau is short and sloped. The mean is harder to judge.</td><td>Use a water bath only 10–15 °C above the melting point; cool in air, not in cold water; stir the bath.</td></tr>
+              <tr><td>Thermometer bulb not fully in the sample, or touching the glass</td><td>Systematic. The reading follows the bath or the air, not the sample, so the plateau is unclear.</td><td>Place the bulb in the middle of the sample and clamp the thermometer in place.</td></tr>
+              <tr><td>Supercooling on the cooling curve</td><td>A dip below the freezing point. If the lowest reading is used, the freezing point is too low.</td><td>Stir gently or add a seed crystal; read the plateau after the dip.</td></tr>
+              <tr><td>Reading the scale (parallax, judging half divisions)</td><td>Random. Readings scatter by about ±0.5 °C.</td><td>Read at eye level, take the mean of several plateau readings, or use a digital probe (±0.1 °C).</td></tr>
+              <tr><td>Readings too far apart (60 s)</td><td>Few points on the plateau; the start and end of the plateau and any dip can be missed.</td><td>Take readings every 15 s, or use a data logger.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>“Human error” or “use more accurate equipment” earns no marks. Name the error, say which way it moves the result, and give an improvement that fixes that error.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="exam" data-toc="Exam practice">
+        <h2>Exam practice</h2>
+        <p>These questions are in the style of Paper 1B: they are built on the experiment you have just done. Work on paper first, then check.</p>
+        <div data-s1-quiz data-topic="lab-heating-curve" data-count="0" data-title="Lab 3 exam practice"></div>
+
+        <aside class="callout callout--scope">
+          <p>You do not need to calculate the energy needed for each part of the curve, and you do not need specific or latent heat values. Energy calculations come in Reactivity 1.1. Phase diagrams are not in the course.</p>
+        </aside>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../assets/js/chart.js"></script>
+<script src="../data/questions-lab-heating-curve.js"></script>
+<script src="../assets/js/widgets-lab-heating-curve.js"></script>
+</body>
+</html>

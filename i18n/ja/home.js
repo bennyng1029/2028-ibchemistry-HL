@@ -69,3 +69,19 @@ S1.i18n.register('ja', 'home', {
     "Not needed for IB": "IB の範囲外"
   }
 });
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('ja', 'home', {
+  strings: {
+
+    // Labs > h2
+    "Labs": "実験",
+
+    // Labs > p
+    "Virtual practicals, with Paper 1B style questions.": "バーチャル実験。Paper 1B 形式の問題つきです。",
+
+    // Labs > p
+    "Ten guided practicals take you from method to data, processing, uncertainty and evaluation: separating mixtures, chromatography, heating curves, flame tests, empirical formulas, standard solutions, the gas laws, the molar mass of a gas, bonding from properties and periodic trends. <a href=\"labs.html\">See all the labs</a>.": "10 の実験ガイドで、方法からデータ、データ処理、不確かさ、評価までを順に進めます。混合物の分離、クロマトグラフィー、加熱曲線、炎色反応、組成式、標準溶液、気体の法則、気体のモル質量、性質から調べる結合、周期的な傾向を扱います。<a href=\"labs.html\">すべての実験を見る</a>。",
+
+  }
+});

@@ -695,3 +695,148 @@ S1.i18n.register('ko', 'ui', {
 
   }
 });
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('ko', 'ui', {
+  strings: {
+
+    // shell: core.js
+    "All labs": "모든 실험",
+
+    // Lab 9 short name (tile, pager)
+    "Bonding from properties": "성질로 본 결합",
+
+    // Lab 5 card text
+    "Burn magnesium, heat a hydrate, and turn mass data into a formula.": "마그네슘을 태우고 수화물을 가열한 뒤, 질량 자료로 화학식을 구해요.",
+
+    // Lab 7 card text
+    "Change pressure, volume and temperature, plot the data and find absolute zero.": "압력, 부피, 온도를 바꾸고 자료를 그래프로 그려 절대 영도를 찾아요.",
+
+    // Lab 1 card text
+    "Choose a separation method, purify a solid by recrystallization and test its purity.": "분리 방법을 고르고, 재결정으로 고체를 정제한 뒤 순도를 확인해요.",
+
+    // Lab 2 short name (tile, pager)
+    "Chromatography": "크로마토그래피",
+
+    // Lab 8 card text
+    "Collect a gas, use pV = nRT, and find a molar mass with its uncertainty.": "기체를 모으고 pV = nRT를 써서 몰 질량과 그 불확도를 구해요.",
+
+    // Lab 5 short name (tile, pager)
+    "Empirical formula": "실험식",
+
+    // Lab 5 title (labs page, related labs)
+    "Finding an empirical formula by experiment": "실험으로 실험식 구하기",
+
+    // Lab 4 title (labs page, related labs)
+    "Flame tests and emission spectra": "불꽃 반응과 방출 스펙트럼",
+
+    // Lab 4 short name (tile, pager)
+    "Flame tests and spectra": "불꽃 반응과 스펙트럼",
+
+    // Lab 7 short name (tile, pager)
+    "Gas laws": "기체 법칙",
+
+    // Lab 10 card text
+    "Halogen displacement reactions and the acid–base character of period 3 oxides.": "할로젠 치환 반응과 3주기 산화물의 산·염기 성질을 알아봐요.",
+
+    // Lab 3 title (labs page, related labs)
+    "Heating and cooling curves": "가열 곡선과 냉각 곡선",
+
+    // Lab 3 short name (tile, pager)
+    "Heating curves": "가열 곡선",
+
+    // Lab 4 card text
+    "Identify metal ions by flame colour and read line spectra.": "불꽃 색으로 금속 이온을 확인하고 선 스펙트럼을 읽어요.",
+
+    // Lab 9 title (labs page, related labs)
+    "Identifying the type of bonding from properties": "성질로 결합의 종류 알아내기",
+
+    // Lab 7 title (labs page, related labs)
+    "Investigating the gas laws": "기체 법칙 탐구",
+
+    // lab number
+    "Lab 1": "실험 1",
+
+    // lab number
+    "Lab 10": "실험 10",
+
+    // lab number
+    "Lab 2": "실험 2",
+
+    // lab number
+    "Lab 3": "실험 3",
+
+    // lab number
+    "Lab 4": "실험 4",
+
+    // lab number
+    "Lab 5": "실험 5",
+
+    // lab number
+    "Lab 6": "실험 6",
+
+    // lab number
+    "Lab 7": "실험 7",
+
+    // lab number
+    "Lab 8": "실험 8",
+
+    // lab number
+    "Lab 9": "실험 9",
+
+    // shell: core.js
+    "Labs": "실험",
+
+    // Lab 3 card text
+    "Log temperature against time and explain the flat parts with particles.": "시간에 따른 온도를 기록하고, 평평한 구간을 입자로 설명해요.",
+
+    // Lab 6 card text
+    "Make a standard solution, dilute it, and read an unknown off a calibration curve.": "표준 용액을 만들어 희석하고, 검량선에서 모르는 농도를 읽어요.",
+
+    // Lab 8 short name (tile, pager)
+    "Molar mass of a gas": "기체의 몰 질량",
+
+    // Lab 8 title (labs page, related labs)
+    "Molar volume and the molar mass of a gas": "몰 부피와 기체의 몰 질량",
+
+    // Lab 2 title (labs page, related labs)
+    "Paper and thin-layer chromatography": "종이 크로마토그래피와 얇은 막 크로마토그래피",
+
+    // Lab 10 short name (tile, pager)
+    "Periodic trends": "주기적 경향",
+
+    // Lab 10 title (labs page, related labs)
+    "Periodic trends in the laboratory": "실험실에서 보는 주기적 경향",
+
+    // shell: core.js
+    "Previous and next lab": "이전 실험과 다음 실험",
+
+    // shell: core.js
+    "Related labs": "관련 실험",
+
+    // Lab 2 card text
+    "Run a chromatogram, measure Rf values and explain them with polarity.": "크로마토그램을 전개하고 Rf 값을 측정해 극성으로 설명해요.",
+
+    // shell: core.js
+    "Safety": "안전",
+
+    // Lab 1 title (labs page, related labs)
+    "Separating and purifying mixtures": "혼합물의 분리와 정제",
+
+    // Lab 1 short name (tile, pager)
+    "Separating mixtures": "혼합물 분리",
+
+    // Lab 6 short name (tile, pager)
+    "Standard solutions": "표준 용액",
+
+    // Lab 6 title (labs page, related labs)
+    "Standard solutions and calibration curves": "표준 용액과 검량선",
+
+    // Lab 9 card text
+    "Test melting point, solubility and conductivity, then classify unknown solids.": "녹는점, 용해도, 전기 전도성을 시험하고 모르는 고체를 분류해요.",
+
+    // shell: core.js
+    "Topics:": "단원:",
+
+  }
+});

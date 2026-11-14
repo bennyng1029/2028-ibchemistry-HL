@@ -13,11 +13,13 @@ const norm = s => String(s == null ? '' : s).replace(/\s+/g, ' ').trim();
 function pageFile(id) {
   if (id === 'home') return 'index.html';
   if (id === 'practice') return 'practice.html';
+  if (id === 'labs') return 'labs.html';
+  if (/^lab-[a-z0-9-]+$/.test(id)) return 'labs/' + id + '.html';
   if (/^s\d+-\d+h?$/.test(id)) return 'topics/' + id + '.html';
   if (id === 'dev') return 'dev/kitchen-sink.html';
   return null;
 }
-const isTopic = id => /^s\d+-\d+h?$/.test(id) || id === 'dev';
+const isTopic = id => /^s\d+-\d+h?$/.test(id) || /^lab-[a-z0-9-]+$/.test(id) || id === 'dev';
 
 /* ---------- Finding t("…") strings in source files ---------------------------- */
 function unquote(lit) {
@@ -221,6 +223,7 @@ async function catalog(browser, scope) {
       const out = [];
       S1.groups.forEach(g => out.push([g.name, 'strand name'], [g.title, 'strand title']));
       S1.topics.forEach(t => out.push([t.title, 'topic ' + t.num + ' title (menus, tiles)'], [t.short, 'topic ' + t.num + ' short name (tile)'], [t.blurb, 'topic ' + t.num + ' tile text']));
+      (S1.labs || []).forEach(l => out.push([l.num, 'lab number'], [l.title, l.num + ' title (labs page, related labs)'], [l.short, l.num + ' short name (tile, pager)'], [l.blurb, l.num + ' card text']));
       return out;
     });
     got.forEach(g => add(g[0], g[1]));
@@ -288,7 +291,7 @@ function readHtml(html, opts) {
       if (f) {
         stack.forEach(p => { p.html += m[0]; });
         if (f.kind && f.kind !== 'frac') prot.push(f.kind + ':' + norm(f.text));
-        if (f.kind === 'frac' && !/[A-Za-zÀ-ɏ぀-鿿]{2}/.test(f.text.replace(/\s/g, ''))) prot.push('frac:' + norm(f.text));
+        if (f.kind === 'frac' && !/[A-Za-zÀ-ɏ぀-鿿가-힣]{2}/.test(f.text.replace(/\s/g, ''))) prot.push('frac:' + norm(f.text));
         if (f.name === 'dfn') dfns.push(f.html);
         if (f.isEn) enTerms.push(norm(f.text));
         if (f.isOff) offs.push(norm(f.open + f.html + m[0]));

@@ -25,8 +25,8 @@ jobs:
       - name: Collect the site files
         run: |
           mkdir _site
-          cp index.html practice.html LICENSE _site/
-          cp -r topics assets data i18n _site/
+          cp index.html practice.html labs.html LICENSE _site/
+          cp -r topics labs assets data i18n _site/
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

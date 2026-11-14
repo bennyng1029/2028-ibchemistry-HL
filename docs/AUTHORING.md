@@ -884,3 +884,38 @@ so say so if a page shows those numbers.
 
 **A missing value is `null`, never a guess: always handle `null`.** Sources and caveats are in the header
 of `periodic-data.js`. The numbers were read from an unofficial mirror of the booklet (verified 2026-11-13).
+
+---
+
+## 11. Labs (guided virtual practicals)
+
+A lab is a practical a student could do in school, run as a virtual experiment. Labs live in `labs/` and use the
+topic-page skeleton (section 1) with three changes: the page id starts with `lab-`, `data-root="../"`, and the
+sections follow the fixed order below. They are listed in `S1.labs` in `core.js` (`id, group, ready, num, sym,
+short, title, blurb, topics, href`). From that registry the shell builds the header "Labs" link, the cards on
+`labs.html`, the lab pager (Previous / Next across labs, then "All labs"), and a **Related labs** box above the
+pager on every topic page listed in `topics`. A lab owns exactly three files:
+
+`labs/<id>.html`, `data/questions-<id>.js`, `assets/js/widgets-<id>.js`
+
+Widget names are prefixed with the lab id (`lab-chromatography.plate`). Question ids are `<id>-q001` …, with
+`topic: '<id>'`. On `labs.html` add a `<script>` tag for the new question bank (progress needs it).
+
+### Section order (ids are fixed so links between labs work)
+
+| Section id | Heading | What goes in it |
+|---|---|---|
+| `goals` | What you need to be able to do | Checklist, `data-s1-checklist="<id>"`. Skills, not facts. |
+| `background` | The chemistry behind it | Short. Link to the topic page sections for the full story. |
+| `plan` | Aim, variables and safety | Aim. A table of independent, dependent and controlled variables (where they apply). Equipment. A `<aside class="callout callout--safety">` box: real hazards and precautions only. |
+| `method` | Method | Numbered steps a student could follow in a school lab. Say why each key step is done. |
+| `experiment` | Run the experiment | One or more widgets. Readings carry realistic random scatter (a new run gives slightly different data) and the precision of real apparatus (balance ±0.01 g, burette ±0.05 cm³, thermometer ±0.5 °C …). The readout shows the raw data table so the student can copy it. |
+| `processing` | Processing the data | A worked example (`data-s1-worked`) on one fixed data set, then a "Try it" (`data-s1-numeric`, section 3.7) on another. Units and significant figures. |
+| `uncertainty` | Uncertainties | Tool 3: absolute and percentage uncertainty of the readings and of the result, propagation by adding absolute (sums) or percentage (products) uncertainties, comparison with a literature value (percentage error), and whether the difference is larger than the uncertainty. |
+| `evaluation` | Evaluation: errors and improvements | Random versus systematic errors. A table: source of error, effect on the result (bigger or smaller, and why), realistic improvement. |
+| `exam` | Exam practice | `data-s1-quiz data-topic="<id>" data-count="0"`. 8–14 original Paper 1B style questions: data tables, graphs, uncertainty, errors, improvements, plus one or two linked to the theory. |
+
+Every lab must stay inside the guide: use the Tool 1 / Tool 3 / Inquiry wording in `docs/research/` section 5
+and the topic's own scope rules. Anything outside the syllabus goes in a `callout--scope` box. Safety advice must
+be real and specific (eye protection, a named hazard of a named chemical, a fume cupboard where it matters),
+never a generic list.
