@@ -466,389 +466,389 @@ S1.i18n.register('ko', 's3-2h.q', {
       solution: "<p>메틸기의 질량은 12 + 3 × 1 = 15예요. 검출기는 양이온만 기록하므로 m/z 15의 봉우리는 <span class=\"chem\">CH<sub>3</sub><sup>+</sup><span></span></span>가 만들어요.</p><p>봉우리를 만드는 조각에는 항상 + 전하를 쓰세요.</p>",
       misconception: {
         // EN (option B): The formula is right but the charge is missing. A neutral radical is not deflected or detected. Only positive ions give peaks, and markschemes give no mark for a fragment written without its + charge.
-        "1": "",
+        "1": "화학식은 맞지만 전하가 빠졌어요. 중성 라디칼은 휘어지지도 검출되지도 않아요. 양이온만 봉우리를 만들고, 채점 기준은 + 전하 없이 쓴 조각에는 점수를 주지 않아요.",
         // EN (option C): A mass spectrometer produces and detects positive ions, formed when electrons are knocked out of molecules.
-        "2": "",
+        "2": "질량 분석기는 분자에서 전자를 떼어 내어 만든 양이온을 만들고 검출해요.",
         // EN (option D): Check the mass: O + H = 16 + 1 = 17, not 15.
-        "3": "",
+        "3": "질량을 확인하세요. O + H = 16 + 1 = 17이고, 15가 아니에요.",
       },
     },
 
     // ── s3-2h-q018 · numeric · exam · AHL · Structure 3.2.8 · 1 mark
     "s3-2h-q018": {
       // EN: <p>Propanoic acid, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>COOH<span></span></span>, has a molecular ion peak at m/z 74.</p><p>Some molecular ions break up by losing a •COOH fragment. At what m/z value does the ion that is formed appear?</p><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 22): mass spectral fragments lost</caption><thead><tr><th scope="col">Mass lost</th><th scope="col">Possible neutral fragment lost</th></tr></thead><tbody><tr><th scope="row">15</th><td>•CH<sub>3</sub></td></tr><tr><th scope="row">17</th><td>•OH</td></tr><tr><th scope="row">18</th><td>H<sub>2</sub>O</td></tr><tr><th scope="row">28</th><td>CH<sub>2</sub>=CH<sub>2</sub> or CO</td></tr><tr><th scope="row">29</th><td>•CH<sub>2</sub>CH<sub>3</sub> or •CHO</td></tr><tr><th scope="row">31</th><td>•OCH<sub>3</sub></td></tr><tr><th scope="row">45</th><td>•COOH</td></tr></tbody></table></div>
-      stem: "",
+      stem: "<p>Propanoic acid, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>COOH<span></span></span>는 m/z 74에 분자 이온 봉우리가 있어요.</p><p>일부 분자 이온은 •COOH 조각을 잃으며 쪼개져요. 이때 생기는 이온은 어떤 m/z 값에 나타나나요?</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(22절): 질량 스펙트럼에서 떨어져 나가는 조각</caption><thead><tr><th scope=\"col\">잃은 질량</th><th scope=\"col\">떨어져 나갈 수 있는 중성 조각</th></tr></thead><tbody><tr><th scope=\"row\">15</th><td>•CH<sub>3</sub></td></tr><tr><th scope=\"row\">17</th><td>•OH</td></tr><tr><th scope=\"row\">18</th><td>H<sub>2</sub>O</td></tr><tr><th scope=\"row\">28</th><td>CH<sub>2</sub>=CH<sub>2</sub> 또는 CO</td></tr><tr><th scope=\"row\">29</th><td>•CH<sub>2</sub>CH<sub>3</sub> 또는 •CHO</td></tr><tr><th scope=\"row\">31</th><td>•OCH<sub>3</sub></td></tr><tr><th scope=\"row\">45</th><td>•COOH</td></tr></tbody></table></div>",
       hints: [
         // EN: Find the mass of •COOH in the table.
-        "",
+        "표에서 •COOH의 질량을 찾으세요.",
         // EN: The table gives the mass that is <strong>lost</strong>. The peak is at the mass that is <strong>left</strong>.
-        "",
+        "표는 <strong>잃은</strong> 질량을 알려 줘요. 봉우리는 <strong>남은</strong> 질량에 나타나요.",
       ],
       // EN: <p>The neutral fragment •COOH has a mass of 45. It is not detected.</p><div class="worked__math">m/z of ion left = 74 − 45 = <b>29</b></div><p>The ion is <span class="chem">CH<sub>3</sub>CH<sub>2</sub><sup>+</sup><span></span></span> (2 × 12 + 5 × 1 = 29). The real spectrum of propanoic acid has a strong peak at m/z 29.</p>
-      solution: "",
+      solution: "<p>중성 조각 •COOH의 질량은 45예요. 이 조각은 검출되지 않아요.</p><div class=\"worked__math\">남은 이온의 m/z = 74 − 45 = <b>29</b></div><p>이 이온은 <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub><sup>+</sup><span></span></span>예요(2 × 12 + 5 × 1 = 29). 실제 propanoic acid의 스펙트럼에는 m/z 29에 강한 봉우리가 있어요.</p>",
     },
 
     // ── s3-2h-q019 · mcq · exam · AHL · Structure 3.2.8 · 1 mark
     "s3-2h-q019": {
       // EN: <p>The mass spectrum of butanone, <span class="chem">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub><span></span></span>, has its molecular ion peak at m/z 72 and its tallest peak at m/z 43.</p><p>Which ion causes the peak at m/z 43?</p><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 22): mass spectral fragments lost</caption><thead><tr><th scope="col">Mass lost</th><th scope="col">Possible neutral fragment lost</th></tr></thead><tbody><tr><th scope="row">15</th><td>•CH<sub>3</sub></td></tr><tr><th scope="row">17</th><td>•OH</td></tr><tr><th scope="row">18</th><td>H<sub>2</sub>O</td></tr><tr><th scope="row">28</th><td>CH<sub>2</sub>=CH<sub>2</sub> or CO</td></tr><tr><th scope="row">29</th><td>•CH<sub>2</sub>CH<sub>3</sub> or •CHO</td></tr><tr><th scope="row">31</th><td>•OCH<sub>3</sub></td></tr><tr><th scope="row">45</th><td>•COOH</td></tr></tbody></table></div>
-      stem: "",
+      stem: "<p>butanone, <span class=\"chem\">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub><span></span></span>의 질량 스펙트럼은 분자 이온 봉우리가 m/z 72에, 가장 높은 봉우리가 m/z 43에 있어요.</p><p>m/z 43의 봉우리를 만드는 이온은 무엇인가요?</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(22절): 질량 스펙트럼에서 떨어져 나가는 조각</caption><thead><tr><th scope=\"col\">잃은 질량</th><th scope=\"col\">떨어져 나갈 수 있는 중성 조각</th></tr></thead><tbody><tr><th scope=\"row\">15</th><td>•CH<sub>3</sub></td></tr><tr><th scope=\"row\">17</th><td>•OH</td></tr><tr><th scope=\"row\">18</th><td>H<sub>2</sub>O</td></tr><tr><th scope=\"row\">28</th><td>CH<sub>2</sub>=CH<sub>2</sub> 또는 CO</td></tr><tr><th scope=\"row\">29</th><td>•CH<sub>2</sub>CH<sub>3</sub> 또는 •CHO</td></tr><tr><th scope=\"row\">31</th><td>•OCH<sub>3</sub></td></tr><tr><th scope=\"row\">45</th><td>•COOH</td></tr></tbody></table></div>",
       options: [
         // EN: <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CO<sup>+</sup><span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CO<sup>+</sup><span></span></span>",
         // EN: <span class="chem">CH<sub>3</sub>CO<sup>+</sup><span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CO<sup>+</sup><span></span></span>",
         // EN: <span class="chem">CH<sub>3</sub>CH<sub>2</sub><sup>+</sup><span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub><sup>+</sup><span></span></span>",
         // EN: <span class="chem">CH<sub>3</sub>CO<span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CO<span></span></span>",
       ],
       hints: [
         // EN: Work out the mass lost: 72 − 43.
-        "",
+        "잃은 질량을 구하세요: 72 − 43.",
         // EN: Which neutral fragment in the table has that mass and is present in butanone? What is left behind?
-        "",
+        "표에서 그 질량을 가지면서 butanone에 들어 있는 중성 조각은 무엇인가요? 남는 것은 무엇인가요?",
       ],
       // EN: <div class="worked__math">mass lost = 72 − 43 = 29</div><p>A loss of 29 is •<span class="chem">CH<sub>2</sub>CH<sub>3</sub><span></span></span> (or •CHO, but butanone has no CHO group). Butanone has an ethyl group next to the C=O group, so the C–C bond there breaks:</p><div class="worked__math">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub><sup>+</sup> → CH<sub>3</sub>CO<sup>+</sup> + •CH<sub>2</sub>CH<sub>3</sub></div><p>The ion left is <span class="chem">CH<sub>3</sub>CO<sup>+</sup><span></span></span>, mass 15 + 12 + 16 = 43.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">잃은 질량 = 72 − 43 = 29</div><p>29를 잃는 것은 •<span class=\"chem\">CH<sub>2</sub>CH<sub>3</sub><span></span></span>예요(•CHO일 수도 있지만 butanone에는 CHO기가 없어요). butanone은 C=O기 옆에 에틸기가 있으므로 그곳의 C–C 결합이 끊어져요.</p><div class=\"worked__math\">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub><sup>+</sup> → CH<sub>3</sub>CO<sup>+</sup> + •CH<sub>2</sub>CH<sub>3</sub></div><p>남은 이온은 <span class=\"chem\">CH<sub>3</sub>CO<sup>+</sup><span></span></span>이고, 질량은 15 + 12 + 16 = 43이에요.</p>",
       misconception: {
         // EN (option A): This ion has a mass of 57. It forms when the molecular ion loses •<span class="chem">CH<sub>3</sub><span></span></span> (72 − 15 = 57).
-        "0": "",
+        "0": "이 이온의 질량은 57이에요. 분자 이온이 •<span class=\"chem\">CH<sub>3</sub><span></span></span>를 잃을 때 생겨요(72 − 15 = 57).",
         // EN (option C): This ion has a mass of 29. Here 29 is the mass that is lost, not the mass that is detected.
-        "2": "",
+        "2": "이 이온의 질량은 29예요. 여기서 29는 검출되는 질량이 아니라 잃은 질량이에요.",
         // EN (option D): The atoms are right, but a neutral fragment gives no peak. The ion must be written with a + charge.
-        "3": "",
+        "3": "원자는 맞지만 중성 조각은 봉우리를 만들지 않아요. 이온은 + 전하를 붙여 써야 해요.",
       },
     },
 
     // ── s3-2h-q020 · mcq · exam · AHL · Structure 3.2.8 · 1 mark
     "s3-2h-q020": {
       // EN: <p>Propan-1-ol, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH<span></span></span>, and propan-2-ol, <span class="chem">CH<sub>3</sub>CH(OH)CH<sub>3</sub><span></span></span>, are isomers with M<sub>r</sub> = 60. In each molecular ion, the C–C bond next to the carbon that holds the OH group breaks easily.</p><p>Which peak is expected to be strong in the mass spectrum of propan-1-ol but weak in that of propan-2-ol?</p><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 22): mass spectral fragments lost</caption><thead><tr><th scope="col">Mass lost</th><th scope="col">Possible neutral fragment lost</th></tr></thead><tbody><tr><th scope="row">15</th><td>•CH<sub>3</sub></td></tr><tr><th scope="row">17</th><td>•OH</td></tr><tr><th scope="row">18</th><td>H<sub>2</sub>O</td></tr><tr><th scope="row">28</th><td>CH<sub>2</sub>=CH<sub>2</sub> or CO</td></tr><tr><th scope="row">29</th><td>•CH<sub>2</sub>CH<sub>3</sub> or •CHO</td></tr><tr><th scope="row">31</th><td>•OCH<sub>3</sub></td></tr><tr><th scope="row">45</th><td>•COOH</td></tr></tbody></table></div>
-      stem: "",
+      stem: "<p>Propan-1-ol, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH<span></span></span>와 propan-2-ol, <span class=\"chem\">CH<sub>3</sub>CH(OH)CH<sub>3</sub><span></span></span>은 M<sub>r</sub> = 60인 이성질체예요. 각 분자 이온에서는 OH기가 붙은 탄소 옆의 C–C 결합이 쉽게 끊어져요.</p><p>propan-1-ol의 질량 스펙트럼에서는 강하지만 propan-2-ol의 질량 스펙트럼에서는 약할 것으로 예상되는 봉우리는 무엇인가요?</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(22절): 질량 스펙트럼에서 떨어져 나가는 조각</caption><thead><tr><th scope=\"col\">잃은 질량</th><th scope=\"col\">떨어져 나갈 수 있는 중성 조각</th></tr></thead><tbody><tr><th scope=\"row\">15</th><td>•CH<sub>3</sub></td></tr><tr><th scope=\"row\">17</th><td>•OH</td></tr><tr><th scope=\"row\">18</th><td>H<sub>2</sub>O</td></tr><tr><th scope=\"row\">28</th><td>CH<sub>2</sub>=CH<sub>2</sub> 또는 CO</td></tr><tr><th scope=\"row\">29</th><td>•CH<sub>2</sub>CH<sub>3</sub> 또는 •CHO</td></tr><tr><th scope=\"row\">31</th><td>•OCH<sub>3</sub></td></tr><tr><th scope=\"row\">45</th><td>•COOH</td></tr></tbody></table></div>",
       options: [
         // EN: m/z 15
-        "",
+        "m/z 15",
         // EN: m/z 31
-        "",
+        "m/z 31",
         // EN: m/z 45
-        "",
+        "m/z 45",
         // EN: m/z 60
-        "",
+        "m/z 60",
       ],
       hints: [
         // EN: Draw each molecule. Which group is attached to the C–OH carbon by a C–C bond?
-        "",
+        "각 분자를 그려 보세요. C–OH 탄소에 C–C 결합으로 붙어 있는 원자단은 무엇인가요?",
         // EN: In propan-1-ol that group is ethyl. In propan-2-ol it is methyl. Subtract the mass lost from 60.
-        "",
+        "propan-1-ol에서는 그 원자단이 에틸기예요. propan-2-ol에서는 메틸기예요. 60에서 잃은 질량을 빼세요.",
       ],
       // EN: <p><strong>Propan-1-ol:</strong> the C–OH carbon is bonded to an ethyl group. Losing •<span class="chem">CH<sub>2</sub>CH<sub>3</sub><span></span></span> (29) leaves <span class="chem">CH<sub>2</sub>OH<sup>+</sup><span></span></span>:</p><div class="worked__math">60 − 29 = <b>31</b></div><p><strong>Propan-2-ol:</strong> the C–OH carbon is bonded to two methyl groups. Losing •<span class="chem">CH<sub>3</sub><span></span></span> (15) leaves <span class="chem">CH<sub>3</sub>CHOH<sup>+</sup><span></span></span>:</p><div class="worked__math">60 − 15 = 45</div><p>So a strong peak at m/z 31 points to propan-1-ol. In the real spectra, m/z 31 is the tallest peak for propan-1-ol and m/z 45 is the tallest peak for propan-2-ol.</p>
-      solution: "",
+      solution: "<p><strong>Propan-1-ol:</strong> C–OH 탄소가 에틸기와 결합해 있어요. •<span class=\"chem\">CH<sub>2</sub>CH<sub>3</sub><span></span></span>(29)를 잃으면 <span class=\"chem\">CH<sub>2</sub>OH<sup>+</sup><span></span></span>가 남아요.</p><div class=\"worked__math\">60 − 29 = <b>31</b></div><p><strong>Propan-2-ol:</strong> C–OH 탄소가 메틸기 두 개와 결합해 있어요. •<span class=\"chem\">CH<sub>3</sub><span></span></span>(15)를 잃으면 <span class=\"chem\">CH<sub>3</sub>CHOH<sup>+</sup><span></span></span>가 남아요.</p><div class=\"worked__math\">60 − 15 = 45</div><p>따라서 m/z 31의 강한 봉우리는 propan-1-ol을 가리켜요. 실제 스펙트럼에서 m/z 31은 propan-1-ol의 가장 높은 봉우리이고, m/z 45는 propan-2-ol의 가장 높은 봉우리예요.</p>",
       misconception: {
         // EN (option A): A mass of 15 is the methyl fragment. When the C–C bond breaks, the charge mostly stays on the part that contains oxygen, so this is not the peak that picks out propan-1-ol.
-        "0": "",
+        "0": "질량 15는 메틸 조각이에요. C–C 결합이 끊어질 때 전하는 주로 산소가 있는 쪽에 남으므로, 이 봉우리로는 propan-1-ol을 골라낼 수 없어요.",
         // EN (option C): m/z 45 is 60 − 15, the loss of •<span class="chem">CH<sub>3</sub><span></span></span> from the carbon next to C–OH. Propan-2-ol does this, giving <span class="chem">CH<sub>3</sub>CHOH<sup>+</sup><span></span></span>. It is the strong peak of propan-2-ol.
-        "2": "",
+        "2": "m/z 45는 60 − 15, 즉 C–OH 옆의 탄소에서 •<span class=\"chem\">CH<sub>3</sub><span></span></span>를 잃은 것이에요. propan-2-ol이 이렇게 쪼개져서 <span class=\"chem\">CH<sub>3</sub>CHOH<sup>+</sup><span></span></span>가 생겨요. 이것은 propan-2-ol의 강한 봉우리예요.",
         // EN (option D): m/z 60 is the molecular ion. Isomers have the same M<sub>r</sub>, so this peak cannot tell them apart.
-        "3": "",
+        "3": "m/z 60은 분자 이온이에요. 이성질체는 M<sub>r</sub>이 같으므로 이 봉우리로는 둘을 구별할 수 없어요.",
       },
     },
 
     // ── s3-2h-q021 · short · challenge · AHL · Structure 3.2.8 · 3 marks
     "s3-2h-q021": {
       // EN: <p>Pentan-2-one, <span class="chem">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub><span></span></span>, and pentan-3-one, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub><span></span></span>, are isomers. The table shows the main peaks in the mass spectra of the two compounds, labelled P and Q.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Main peaks (m/z); the tallest peak is in bold</caption><thead><tr><th scope="col">Spectrum</th><th scope="col">Peaks</th></tr></thead><tbody><tr><th scope="row">P</th><td>29, <b>57</b>, 86</td></tr><tr><th scope="row">Q</th><td><b>43</b>, 71, 86</td></tr></tbody></table></div><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 22): mass spectral fragments lost</caption><thead><tr><th scope="col">Mass lost</th><th scope="col">Possible neutral fragment lost</th></tr></thead><tbody><tr><th scope="row">15</th><td>•CH<sub>3</sub></td></tr><tr><th scope="row">17</th><td>•OH</td></tr><tr><th scope="row">18</th><td>H<sub>2</sub>O</td></tr><tr><th scope="row">28</th><td>CH<sub>2</sub>=CH<sub>2</sub> or CO</td></tr><tr><th scope="row">29</th><td>•CH<sub>2</sub>CH<sub>3</sub> or •CHO</td></tr><tr><th scope="row">31</th><td>•OCH<sub>3</sub></td></tr><tr><th scope="row">45</th><td>•COOH</td></tr></tbody></table></div><p>Deduce which compound gave each spectrum. Use two of the fragment peaks in your explanation.</p>
-      stem: "",
+      stem: "<p>Pentan-2-one, <span class=\"chem\">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub><span></span></span>과 pentan-3-one, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub><span></span></span>은 이성질체예요. 표는 두 화합물의 질량 스펙트럼에서 주요 봉우리를 P와 Q로 나타낸 것이에요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>주요 봉우리(m/z). 가장 높은 봉우리는 굵은 글씨</caption><thead><tr><th scope=\"col\">스펙트럼</th><th scope=\"col\">봉우리</th></tr></thead><tbody><tr><th scope=\"row\">P</th><td>29, <b>57</b>, 86</td></tr><tr><th scope=\"row\">Q</th><td><b>43</b>, 71, 86</td></tr></tbody></table></div><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(22절): 질량 스펙트럼에서 떨어져 나가는 조각</caption><thead><tr><th scope=\"col\">잃은 질량</th><th scope=\"col\">떨어져 나갈 수 있는 중성 조각</th></tr></thead><tbody><tr><th scope=\"row\">15</th><td>•CH<sub>3</sub></td></tr><tr><th scope=\"row\">17</th><td>•OH</td></tr><tr><th scope=\"row\">18</th><td>H<sub>2</sub>O</td></tr><tr><th scope=\"row\">28</th><td>CH<sub>2</sub>=CH<sub>2</sub> 또는 CO</td></tr><tr><th scope=\"row\">29</th><td>•CH<sub>2</sub>CH<sub>3</sub> 또는 •CHO</td></tr><tr><th scope=\"row\">31</th><td>•OCH<sub>3</sub></td></tr><tr><th scope=\"row\">45</th><td>•COOH</td></tr></tbody></table></div><p>각 스펙트럼이 어느 화합물의 것인지 추론하시오 (deduce). 설명에 조각 봉우리 두 개를 이용하세요.</p>",
       hints: [
         // EN: Both have a molecular ion at m/z 86. Subtract each fragment peak from 86 to find the mass lost.
-        "",
+        "둘 다 분자 이온이 m/z 86에 있어요. 86에서 각 조각 봉우리를 빼서 잃은 질량을 구하세요.",
         // EN: Ketones tend to break at the C–C bond next to the C=O group. Which groups sit next to C=O in each isomer?
-        "",
+        "케톤은 C=O기 옆의 C–C 결합에서 잘 끊어져요. 각 이성질체에서 C=O 옆에는 어떤 원자단이 있나요?",
       ],
       // EN: <p>Method: mass lost = M − fragment peak, then match the mass lost to the booklet table and to a group that the molecule really contains.</p><div class="worked__math">P: 86 − 57 = 29 → •CH<sub>2</sub>CH<sub>3</sub> lost</div><div class="worked__math">Q: 86 − 71 = 15 → •CH<sub>3</sub> lost</div><p>Pentan-3-one has two ethyl groups next to C=O and no methyl group there. Pentan-2-one has a methyl group next to C=O. The peaks are those of the real spectra.</p>
-      solution: "",
+      solution: "<p>방법: 잃은 질량 = M − 조각 봉우리. 그다음 잃은 질량을 부클릿 표와, 분자에 실제로 있는 원자단에 맞춰 보세요.</p><div class=\"worked__math\">P: 86 − 57 = 29 → •CH<sub>2</sub>CH<sub>3</sub> 잃음</div><div class=\"worked__math\">Q: 86 − 71 = 15 → •CH<sub>3</sub> 잃음</div><p>pentan-3-one은 C=O 옆에 에틸기가 두 개 있고 메틸기는 없어요. pentan-2-one은 C=O 옆에 메틸기가 있어요. 이 봉우리들은 실제 스펙트럼의 봉우리예요.</p>",
       // EN: <p>P is pentan-3-one and Q is pentan-2-one.</p><p>The peak at m/z 57 in P is M − 29: loss of •<span class="chem">CH<sub>2</sub>CH<sub>3</sub><span></span></span> to leave <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CO<sup>+</sup><span></span></span>. Pentan-3-one has an ethyl group on each side of the C=O group, so it loses 29 easily.</p><p>The peak at m/z 71 in Q is M − 15: loss of •<span class="chem">CH<sub>3</sub><span></span></span> to leave <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CO<sup>+</sup><span></span></span>. Only pentan-2-one has a <span class="chem">CH<sub>3</sub><span></span></span> group bonded to the C=O carbon. (The peak at m/z 43 in Q is <span class="chem">CH<sub>3</sub>CO<sup>+</sup><span></span></span>, which also needs a <span class="chem">CH<sub>3</sub><span></span></span> next to C=O.)</p>
-      answer: "",
+      answer: "<p>P는 pentan-3-one이고 Q는 pentan-2-one이에요.</p><p>P의 m/z 57 봉우리는 M − 29예요. •<span class=\"chem\">CH<sub>2</sub>CH<sub>3</sub><span></span></span>를 잃고 <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CO<sup>+</sup><span></span></span>가 남아요. pentan-3-one은 C=O기 양쪽에 에틸기가 하나씩 있으므로 29를 쉽게 잃어요.</p><p>Q의 m/z 71 봉우리는 M − 15예요. •<span class=\"chem\">CH<sub>3</sub><span></span></span>를 잃고 <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CO<sup>+</sup><span></span></span>가 남아요. C=O 탄소에 <span class=\"chem\">CH<sub>3</sub><span></span></span>기가 결합한 것은 pentan-2-one뿐이에요. (Q의 m/z 43 봉우리는 <span class=\"chem\">CH<sub>3</sub>CO<sup>+</sup><span></span></span>이고, 이것도 C=O 옆에 <span class=\"chem\">CH<sub>3</sub><span></span></span>가 있어야 생겨요.)</p>",
       markscheme: [
         // EN: P is pentan-3-one AND Q is pentan-2-one.
-        "",
+        "P는 pentan-3-one이고 Q는 pentan-2-one임(둘 다).",
         // EN: m/z 57 = 86 − 29, loss of •CH₂CH₃ / the ion CH₃CH₂CO⁺, which fits an ethyl group next to C=O in pentan-3-one. (Accept m/z 29 = CH₃CH₂⁺.)
-        "",
+        "m/z 57 = 86 − 29, •CH₂CH₃를 잃음 / 이온 CH₃CH₂CO⁺. pentan-3-one에서 C=O 옆에 에틸기가 있는 것과 맞음. (m/z 29 = CH₃CH₂⁺도 인정.)",
         // EN: m/z 71 = 86 − 15, loss of •CH₃ next to C=O in pentan-2-one; OR m/z 43 is CH₃CO⁺, which needs CH₃ next to C=O. Ions must be written with a + charge.
-        "",
+        "m/z 71 = 86 − 15, pentan-2-one에서 C=O 옆의 •CH₃를 잃음. 또는 m/z 43은 CH₃CO⁺이며, C=O 옆에 CH₃가 있어야 함. 이온은 + 전하를 붙여 써야 함.",
       ],
     },
 
     // ── s3-2h-q022 · mcq · exam · AHL · Structure 3.2.8 · 1 mark
     "s3-2h-q022": {
       // EN: <p>A compound contains only carbon, hydrogen and oxygen. Other evidence shows that each molecule contains <strong>one</strong> oxygen atom. The molecular ion peak in its mass spectrum is at m/z 72.</p><p>What is the molecular formula of the compound?</p>
-      stem: "",
+      stem: "<p>어떤 화합물은 탄소, 수소, 산소만 포함해요. 다른 증거로부터 각 분자에 산소 원자가 <strong>하나</strong> 있다는 것을 알아요. 이 화합물의 질량 스펙트럼에서 분자 이온 봉우리는 m/z 72에 있어요.</p><p>이 화합물의 분자식은 무엇인가요?</p>",
       options: [
         // EN: <span class="chem">C<sub>4</sub>H<sub>8</sub>O<span></span></span>
-        "",
+        "<span class=\"chem\">C<sub>4</sub>H<sub>8</sub>O<span></span></span>",
         // EN: <span class="chem">C<sub>3</sub>H<sub>4</sub>O<sub>2</sub><span></span></span>
-        "",
+        "<span class=\"chem\">C<sub>3</sub>H<sub>4</sub>O<sub>2</sub><span></span></span>",
         // EN: <span class="chem">C<sub>5</sub>H<sub>12</sub><span></span></span>
-        "",
+        "<span class=\"chem\">C<sub>5</sub>H<sub>12</sub><span></span></span>",
         // EN: <span class="chem">C<sub>4</sub>H<sub>10</sub>O<span></span></span>
-        "",
+        "<span class=\"chem\">C<sub>4</sub>H<sub>10</sub>O<span></span></span>",
       ],
       hints: [
         // EN: Subtract the mass of the one oxygen atom from 72.
-        "",
+        "72에서 산소 원자 하나의 질량을 빼세요.",
         // EN: Build the remaining mass from carbon (12) and hydrogen (1).
-        "",
+        "남은 질량을 탄소(12)와 수소(1)로 채우세요.",
       ],
       // EN: <div class="worked__math">72 − 16 = 56 left for C and H</div><div class="worked__math">4 × 12 = 48, &nbsp; 56 − 48 = 8 → 8 H</div><p>The molecular formula is <span class="chem">C<sub>4</sub>H<sub>8</sub>O<span></span></span>. (Three carbons would need 20 H atoms, which is impossible, and five carbons give 60, which is too much.)</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">72 − 16 = 56이 C와 H 몫으로 남음</div><div class=\"worked__math\">4 × 12 = 48, &nbsp; 56 − 48 = 8 → H 8개</div><p>분자식은 <span class=\"chem\">C<sub>4</sub>H<sub>8</sub>O<span></span></span>예요. (탄소가 3개라면 H 원자가 20개 필요해서 불가능하고, 탄소가 5개라면 60이 되어 너무 커요.)</p>",
       misconception: {
         // EN (option B): This formula does add up to 72, but it has two oxygen atoms. The question says there is one.
-        "1": "",
+        "1": "이 화학식도 합이 72이지만 산소 원자가 두 개예요. 문제에서는 하나라고 했어요.",
         // EN (option C): This formula adds up to 72, but it has no oxygen atom.
-        "2": "",
+        "2": "이 화학식은 합이 72이지만 산소 원자가 없어요.",
         // EN (option D): Check the mass: 4 × 12 + 10 × 1 + 16 = 74, not 72.
-        "3": "",
+        "3": "질량을 확인하세요. 4 × 12 + 10 × 1 + 16 = 74이고, 72가 아니에요.",
       },
     },
 
     // ── s3-2h-q023 · mcq · foundation · AHL · Structure 3.2.9 · 1 mark
     "s3-2h-q023": {
       // EN: <p>The infrared spectrum of a compound has a strong, sharp absorption at 1715 cm<sup>−1</sup>. Which bond causes it?</p><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 20): infrared absorption ranges</caption><thead><tr><th scope="col">Bond</th><th scope="col">Types of organic molecules</th><th scope="col">Wavenumber / cm<sup>−1</sup></th><th scope="col">Intensity</th></tr></thead><tbody><tr><th scope="row">C–O</th><td>alcohols, esters, ethers</td><td>1050–1410</td><td>strong</td></tr><tr><th scope="row">C=C</th><td>alkenes</td><td>1620–1680</td><td>medium-weak; multiple bands</td></tr><tr><th scope="row">C=O</th><td>aldehydes, ketones, carboxylic acids and esters</td><td>1700–1750</td><td>strong</td></tr><tr><th scope="row">O–H</th><td>carboxylic acids (with hydrogen bonding)</td><td>2500–3000</td><td>strong, very broad</td></tr><tr><th scope="row">C–H</th><td>alkanes, alkenes, arenes</td><td>2850–3090</td><td>strong</td></tr><tr><th scope="row">O–H</th><td>alcohols and phenols (with hydrogen bonding)</td><td>3200–3600</td><td>strong, broad</td></tr></tbody></table></div>
-      stem: "",
+      stem: "<p>어떤 화합물의 적외선 스펙트럼은 1715 cm<sup>−1</sup>에서 강하고 날카로운 흡수를 보여요. 이 흡수를 일으키는 결합은 무엇인가요?</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(20절): 적외선 흡수 범위</caption><thead><tr><th scope=\"col\">결합</th><th scope=\"col\">유기 분자의 종류</th><th scope=\"col\">파수 / cm<sup>−1</sup></th><th scope=\"col\">세기</th></tr></thead><tbody><tr><th scope=\"row\">C–O</th><td>알코올, 에스터, 에테르</td><td>1050–1410</td><td>강함</td></tr><tr><th scope=\"row\">C=C</th><td>알켄</td><td>1620–1680</td><td>중간~약함, 여러 개의 띠</td></tr><tr><th scope=\"row\">C=O</th><td>알데하이드, 케톤, 카복실산, 에스터</td><td>1700–1750</td><td>강함</td></tr><tr><th scope=\"row\">O–H</th><td>카복실산(수소 결합 있음)</td><td>2500–3000</td><td>강함, 매우 넓음</td></tr><tr><th scope=\"row\">C–H</th><td>알케인, 알켄, 아렌</td><td>2850–3090</td><td>강함</td></tr><tr><th scope=\"row\">O–H</th><td>알코올과 페놀(수소 결합 있음)</td><td>3200–3600</td><td>강함, 넓음</td></tr></tbody></table></div>",
       options: [
         // EN: C–O
-        "",
+        "C–O",
         // EN: C=C
-        "",
+        "C=C",
         // EN: C=O
-        "",
+        "C=O",
         // EN: O–H
-        "",
+        "O–H",
       ],
       hints: [
         // EN: Find the row of the table whose range contains 1715.
-        "",
+        "표에서 범위 안에 1715가 들어가는 줄을 찾으세요.",
       ],
       // EN: <p>1715 cm<sup>−1</sup> lies in the range 1700–1750 cm<sup>−1</sup>. This strong absorption is caused by a C=O bond. The compound could be an aldehyde, a ketone, a carboxylic acid or an ester.</p>
-      solution: "",
+      solution: "<p>1715 cm<sup>−1</sup>는 1700–1750 cm<sup>−1</sup> 범위에 있어요. 이 강한 흡수는 C=O 결합 때문이에요. 이 화합물은 알데하이드, 케톤, 카복실산, 에스터 중 하나일 수 있어요.</p>",
       misconception: {
         // EN (option A): C–O absorbs at 1050–1410 cm<sup>−1</sup>. The single bond and the double bond are easy to mix up, so check the table row carefully.
-        "0": "",
+        "0": "C–O는 1050–1410 cm<sup>−1</sup>에서 흡수해요. 단일 결합과 이중 결합은 헷갈리기 쉬우니 표의 줄을 꼼꼼히 확인하세요.",
         // EN (option B): C=C absorbs at 1620–1680 cm<sup>−1</sup>, and its absorption is medium to weak, not strong.
-        "1": "",
+        "1": "C=C는 1620–1680 cm<sup>−1</sup>에서 흡수하고, 그 흡수는 강하지 않고 중간에서 약한 정도예요.",
         // EN (option D): O–H absorptions are broad and appear at much higher wavenumbers (2500–3000 or 3200–3600 cm<sup>−1</sup>).
-        "3": "",
+        "3": "O–H 흡수는 넓고, 훨씬 높은 파수(2500–3000 또는 3200–3600 cm<sup>−1</sup>)에 나타나요.",
       },
     },
 
     // ── s3-2h-q024 · mcq · exam · AHL · Structure 3.2.9 · 1 mark
     "s3-2h-q024": {
       // EN: <p>The infrared spectrum of a compound shows a strong, very broad absorption from 2500 to 3000 cm<sup>−1</sup> and a strong absorption at 1715 cm<sup>−1</sup>.</p><p>Which compound could it be?</p><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 20): infrared absorption ranges</caption><thead><tr><th scope="col">Bond</th><th scope="col">Types of organic molecules</th><th scope="col">Wavenumber / cm<sup>−1</sup></th><th scope="col">Intensity</th></tr></thead><tbody><tr><th scope="row">C–O</th><td>alcohols, esters, ethers</td><td>1050–1410</td><td>strong</td></tr><tr><th scope="row">C=O</th><td>aldehydes, ketones, carboxylic acids and esters</td><td>1700–1750</td><td>strong</td></tr><tr><th scope="row">O–H</th><td>carboxylic acids (with hydrogen bonding)</td><td>2500–3000</td><td>strong, very broad</td></tr><tr><th scope="row">C–H</th><td>alkanes, alkenes, arenes</td><td>2850–3090</td><td>strong</td></tr><tr><th scope="row">O–H</th><td>alcohols and phenols (with hydrogen bonding)</td><td>3200–3600</td><td>strong, broad</td></tr></tbody></table></div>
-      stem: "",
+      stem: "<p>어떤 화합물의 적외선 스펙트럼은 2500부터 3000 cm<sup>−1</sup>까지 강하고 매우 넓은 흡수를, 1715 cm<sup>−1</sup>에서 강한 흡수를 보여요.</p><p>이 화합물은 무엇일 수 있나요?</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(20절): 적외선 흡수 범위</caption><thead><tr><th scope=\"col\">결합</th><th scope=\"col\">유기 분자의 종류</th><th scope=\"col\">파수 / cm<sup>−1</sup></th><th scope=\"col\">세기</th></tr></thead><tbody><tr><th scope=\"row\">C–O</th><td>알코올, 에스터, 에테르</td><td>1050–1410</td><td>강함</td></tr><tr><th scope=\"row\">C=O</th><td>알데하이드, 케톤, 카복실산, 에스터</td><td>1700–1750</td><td>강함</td></tr><tr><th scope=\"row\">O–H</th><td>카복실산(수소 결합 있음)</td><td>2500–3000</td><td>강함, 매우 넓음</td></tr><tr><th scope=\"row\">C–H</th><td>알케인, 알켄, 아렌</td><td>2850–3090</td><td>강함</td></tr><tr><th scope=\"row\">O–H</th><td>알코올과 페놀(수소 결합 있음)</td><td>3200–3600</td><td>강함, 넓음</td></tr></tbody></table></div>",
       options: [
         // EN: propan-1-ol, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH<span></span></span>
-        "",
+        "propan-1-ol, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH<span></span></span>",
         // EN: propanal, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CHO<span></span></span>
-        "",
+        "propanal, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CHO<span></span></span>",
         // EN: propanoic acid, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>COOH<span></span></span>
-        "",
+        "propanoic acid, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>COOH<span></span></span>",
         // EN: methyl ethanoate, <span class="chem">CH<sub>3</sub>COOCH<sub>3</sub><span></span></span>
-        "",
+        "methyl ethanoate, <span class=\"chem\">CH<sub>3</sub>COOCH<sub>3</sub><span></span></span>",
       ],
       hints: [
         // EN: Assign each absorption to a bond using the table.
-        "",
+        "표를 이용해 각 흡수를 결합에 대응시키세요.",
         // EN: Which class of compound has both of these bonds in one functional group?
-        "",
+        "한 작용기 안에 이 두 결합을 모두 가진 화합물의 종류는 무엇인가요?",
       ],
       // EN: <p>1715 cm<sup>−1</sup> is in the C=O range (1700–1750 cm<sup>−1</sup>). The very broad absorption at 2500–3000 cm<sup>−1</sup> is the O–H bond of a carboxylic acid. A carboxyl group, –COOH, has both, so the compound is propanoic acid.</p>
-      solution: "",
+      solution: "<p>1715 cm<sup>−1</sup>는 C=O 범위(1700–1750 cm<sup>−1</sup>)에 있어요. 2500–3000 cm<sup>−1</sup>의 매우 넓은 흡수는 카복실산의 O–H 결합이에요. 카복실기 –COOH는 두 결합을 모두 가지므로 이 화합물은 propanoic acid예요.</p>",
       misconception: {
         // EN (option A): An alcohol has no C=O bond, so it has no absorption at 1700–1750 cm<sup>−1</sup>. Its O–H absorption is at 3200–3600 cm<sup>−1</sup>.
-        "0": "",
+        "0": "알코올에는 C=O 결합이 없으므로 1700–1750 cm<sup>−1</sup>에서 흡수가 없어요. 알코올의 O–H 흡수는 3200–3600 cm<sup>−1</sup>에 있어요.",
         // EN (option B): An aldehyde has the C=O absorption but no O–H bond, so it cannot give the very broad absorption at 2500–3000 cm<sup>−1</sup>.
-        "1": "",
+        "1": "알데하이드는 C=O 흡수는 있지만 O–H 결합이 없으므로 2500–3000 cm<sup>−1</sup>의 매우 넓은 흡수를 보일 수 없어요.",
         // EN (option D): An ester has the C=O absorption but no O–H bond, so it cannot give the very broad absorption at 2500–3000 cm<sup>−1</sup>.
-        "3": "",
+        "3": "에스터는 C=O 흡수는 있지만 O–H 결합이 없으므로 2500–3000 cm<sup>−1</sup>의 매우 넓은 흡수를 보일 수 없어요.",
       },
     },
 
     // ── s3-2h-q025 · mcq · exam · AHL · Structure 3.2.9 · 1 mark
     "s3-2h-q025": {
       // EN: <p>Propanoic acid, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>COOH<span></span></span>, and methyl ethanoate, <span class="chem">CH<sub>3</sub>COOCH<sub>3</sub><span></span></span>, are isomers.</p><p>Which feature of their infrared spectra tells them apart?</p><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 20): infrared absorption ranges</caption><thead><tr><th scope="col">Bond</th><th scope="col">Types of organic molecules</th><th scope="col">Wavenumber / cm<sup>−1</sup></th><th scope="col">Intensity</th></tr></thead><tbody><tr><th scope="row">C–O</th><td>alcohols, esters, ethers</td><td>1050–1410</td><td>strong</td></tr><tr><th scope="row">C=O</th><td>aldehydes, ketones, carboxylic acids and esters</td><td>1700–1750</td><td>strong</td></tr><tr><th scope="row">O–H</th><td>carboxylic acids (with hydrogen bonding)</td><td>2500–3000</td><td>strong, very broad</td></tr><tr><th scope="row">C–H</th><td>alkanes, alkenes, arenes</td><td>2850–3090</td><td>strong</td></tr><tr><th scope="row">O–H</th><td>alcohols and phenols (with hydrogen bonding)</td><td>3200–3600</td><td>strong, broad</td></tr></tbody></table></div>
-      stem: "",
+      stem: "<p>Propanoic acid, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>COOH<span></span></span>와 methyl ethanoate, <span class=\"chem\">CH<sub>3</sub>COOCH<sub>3</sub><span></span></span>는 이성질체예요.</p><p>적외선 스펙트럼의 어떤 특징으로 둘을 구별할 수 있나요?</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(20절): 적외선 흡수 범위</caption><thead><tr><th scope=\"col\">결합</th><th scope=\"col\">유기 분자의 종류</th><th scope=\"col\">파수 / cm<sup>−1</sup></th><th scope=\"col\">세기</th></tr></thead><tbody><tr><th scope=\"row\">C–O</th><td>알코올, 에스터, 에테르</td><td>1050–1410</td><td>강함</td></tr><tr><th scope=\"row\">C=O</th><td>알데하이드, 케톤, 카복실산, 에스터</td><td>1700–1750</td><td>강함</td></tr><tr><th scope=\"row\">O–H</th><td>카복실산(수소 결합 있음)</td><td>2500–3000</td><td>강함, 매우 넓음</td></tr><tr><th scope=\"row\">C–H</th><td>알케인, 알켄, 아렌</td><td>2850–3090</td><td>강함</td></tr><tr><th scope=\"row\">O–H</th><td>알코올과 페놀(수소 결합 있음)</td><td>3200–3600</td><td>강함, 넓음</td></tr></tbody></table></div>",
       options: [
         // EN: Only methyl ethanoate absorbs at 1700–1750 cm<sup>−1</sup>.
-        "",
+        "methyl ethanoate만 1700–1750 cm<sup>−1</sup>에서 흡수해요.",
         // EN: Only propanoic acid has a very broad absorption at 2500–3000 cm<sup>−1</sup>.
-        "",
+        "propanoic acid만 2500–3000 cm<sup>−1</sup>에서 매우 넓은 흡수를 보여요.",
         // EN: Only propanoic acid has a broad absorption at 3200–3600 cm<sup>−1</sup>.
-        "",
+        "propanoic acid만 3200–3600 cm<sup>−1</sup>에서 넓은 흡수를 보여요.",
         // EN: Only methyl ethanoate absorbs at 2850–3090 cm<sup>−1</sup>.
-        "",
+        "methyl ethanoate만 2850–3090 cm<sup>−1</sup>에서 흡수해요.",
       ],
       hints: [
         // EN: List the bonds in each molecule. Which bond is in one molecule but not in the other?
-        "",
+        "각 분자에 있는 결합을 나열하세요. 한 분자에는 있고 다른 분자에는 없는 결합은 무엇인가요?",
         // EN: The booklet has two different O–H rows. Choose the row for carboxylic acids.
-        "",
+        "부클릿에는 O–H 줄이 서로 다른 두 개 있어요. 카복실산 줄을 고르세요.",
       ],
       // EN: <p>Both molecules have C=O, C–O and C–H bonds. Only the acid has an O–H bond. The O–H bond in a carboxylic acid gives a strong, very broad absorption at 2500–3000 cm<sup>−1</sup>. The ester has no absorption of that kind.</p>
-      solution: "",
+      solution: "<p>두 분자 모두 C=O, C–O, C–H 결합을 가져요. O–H 결합은 산에만 있어요. 카복실산의 O–H 결합은 2500–3000 cm<sup>−1</sup>에서 강하고 매우 넓은 흡수를 보여요. 에스터에는 그런 흡수가 없어요.</p>",
       misconception: {
         // EN (option A): Both molecules contain a C=O bond, so both absorb at 1700–1750 cm<sup>−1</sup>.
-        "0": "",
+        "0": "두 분자 모두 C=O 결합이 있으므로 둘 다 1700–1750 cm<sup>−1</sup>에서 흡수해요.",
         // EN (option C): 3200–3600 cm<sup>−1</sup> is the O–H range for alcohols. The O–H bond of a carboxylic acid absorbs at 2500–3000 cm<sup>−1</sup>.
-        "2": "",
+        "2": "3200–3600 cm<sup>−1</sup>는 알코올의 O–H 범위예요. 카복실산의 O–H 결합은 2500–3000 cm<sup>−1</sup>에서 흡수해요.",
         // EN (option D): Both molecules contain C–H bonds, so both absorb at 2850–3090 cm<sup>−1</sup>.
-        "3": "",
+        "3": "두 분자 모두 C–H 결합이 있으므로 둘 다 2850–3090 cm<sup>−1</sup>에서 흡수해요.",
       },
     },
 
     // ── s3-2h-q026 · short · exam · AHL · Structure 3.2.9 · 3 marks
     "s3-2h-q026": {
       // EN: <p>Ethyl ethanoate, <span class="chem">CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>3</sub><span></span></span>, is an ester. Butanoic acid, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COOH<span></span></span>, is one of its isomers.</p><p>(a) Other than C–H, state two bonds in ethyl ethanoate that absorb infrared radiation, with the wavenumber range of each. (b) State one absorption that butanoic acid shows but ethyl ethanoate does not.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 20): infrared absorption ranges</caption><thead><tr><th scope="col">Bond</th><th scope="col">Types of organic molecules</th><th scope="col">Wavenumber / cm<sup>−1</sup></th><th scope="col">Intensity</th></tr></thead><tbody><tr><th scope="row">C–O</th><td>alcohols, esters, ethers</td><td>1050–1410</td><td>strong</td></tr><tr><th scope="row">C=C</th><td>alkenes</td><td>1620–1680</td><td>medium-weak; multiple bands</td></tr><tr><th scope="row">C=O</th><td>aldehydes, ketones, carboxylic acids and esters</td><td>1700–1750</td><td>strong</td></tr><tr><th scope="row">O–H</th><td>carboxylic acids (with hydrogen bonding)</td><td>2500–3000</td><td>strong, very broad</td></tr><tr><th scope="row">C–H</th><td>alkanes, alkenes, arenes</td><td>2850–3090</td><td>strong</td></tr><tr><th scope="row">O–H</th><td>alcohols and phenols (with hydrogen bonding)</td><td>3200–3600</td><td>strong, broad</td></tr></tbody></table></div>
-      stem: "",
+      stem: "<p>Ethyl ethanoate, <span class=\"chem\">CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>3</sub><span></span></span>는 에스터예요. Butanoic acid, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COOH<span></span></span>는 그 이성질체 중 하나예요.</p><p>(a) C–H 말고 ethyl ethanoate에서 적외선을 흡수하는 결합 두 가지를 각각의 파수 범위와 함께 쓰시오 (state). (b) butanoic acid에는 나타나지만 ethyl ethanoate에는 나타나지 않는 흡수 하나를 쓰시오.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(20절): 적외선 흡수 범위</caption><thead><tr><th scope=\"col\">결합</th><th scope=\"col\">유기 분자의 종류</th><th scope=\"col\">파수 / cm<sup>−1</sup></th><th scope=\"col\">세기</th></tr></thead><tbody><tr><th scope=\"row\">C–O</th><td>알코올, 에스터, 에테르</td><td>1050–1410</td><td>강함</td></tr><tr><th scope=\"row\">C=C</th><td>알켄</td><td>1620–1680</td><td>중간~약함, 여러 개의 띠</td></tr><tr><th scope=\"row\">C=O</th><td>알데하이드, 케톤, 카복실산, 에스터</td><td>1700–1750</td><td>강함</td></tr><tr><th scope=\"row\">O–H</th><td>카복실산(수소 결합 있음)</td><td>2500–3000</td><td>강함, 매우 넓음</td></tr><tr><th scope=\"row\">C–H</th><td>알케인, 알켄, 아렌</td><td>2850–3090</td><td>강함</td></tr><tr><th scope=\"row\">O–H</th><td>알코올과 페놀(수소 결합 있음)</td><td>3200–3600</td><td>강함, 넓음</td></tr></tbody></table></div>",
       hints: [
         // EN: An ester group has one double bond and one single bond between carbon and oxygen.
-        "",
+        "에스터기에는 탄소와 산소 사이에 이중 결합 하나와 단일 결합 하나가 있어요.",
         // EN: What does a carboxyl group have that an ester group lacks?
-        "",
+        "카복실기에는 있고 에스터기에는 없는 것은 무엇인가요?",
       ],
       // EN: <p>Each mark needs the bond <strong>and</strong> its range. The ester group –COO– contains a C=O bond and a C–O bond. The carboxyl group –COOH also has an O–H bond. Use the carboxylic acid row of the table for it, not the alcohol row.</p>
-      solution: "",
+      solution: "<p>각 점수를 받으려면 결합<strong>과</strong> 그 범위를 모두 써야 해요. 에스터기 –COO–에는 C=O 결합과 C–O 결합이 있어요. 카복실기 –COOH에는 O–H 결합도 있어요. 이 결합에는 알코올 줄이 아니라 표의 카복실산 줄을 쓰세요.</p>",
       // EN: <p>(a) C=O at 1700–1750 cm<sup>−1</sup>, and C–O at 1050–1410 cm<sup>−1</sup>.</p><p>(b) O–H in a carboxylic acid at 2500–3000 cm<sup>−1</sup> (strong and very broad).</p>
-      answer: "",
+      answer: "<p>(a) 1700–1750 cm<sup>−1</sup>의 C=O, 그리고 1050–1410 cm<sup>−1</sup>의 C–O.</p><p>(b) 2500–3000 cm<sup>−1</sup>의 카복실산 O–H(강하고 매우 넓음).</p>",
       markscheme: [
         // EN: C=O AND 1700–1750 cm⁻¹ (any value inside the range is accepted).
-        "",
+        "C=O 그리고 1700–1750 cm⁻¹(범위 안의 어떤 값이든 인정).",
         // EN: C–O AND 1050–1410 cm⁻¹ (any value inside the range is accepted).
-        "",
+        "C–O 그리고 1050–1410 cm⁻¹(범위 안의 어떤 값이든 인정).",
         // EN: O–H (in carboxylic acids) AND 2500–3000 cm⁻¹. Do not accept 3200–3600 cm⁻¹, which is for alcohols.
-        "",
+        "(카복실산의) O–H 그리고 2500–3000 cm⁻¹. 알코올의 범위인 3200–3600 cm⁻¹는 인정하지 않음.",
       ],
     },
 
     // ── s3-2h-q027 · multi · exam · AHL · Structure 3.2.9 · 1 mark
     "s3-2h-q027": {
       // EN: <p>Prop-2-en-1-ol has the structure <span class="chem">CH<sub>2</sub>=CHCH<sub>2</sub>OH<span></span></span>. Which absorptions are expected in its infrared spectrum? Select <strong>all</strong> that apply.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 20): infrared absorption ranges</caption><thead><tr><th scope="col">Bond</th><th scope="col">Types of organic molecules</th><th scope="col">Wavenumber / cm<sup>−1</sup></th><th scope="col">Intensity</th></tr></thead><tbody><tr><th scope="row">C–O</th><td>alcohols, esters, ethers</td><td>1050–1410</td><td>strong</td></tr><tr><th scope="row">C=C</th><td>alkenes</td><td>1620–1680</td><td>medium-weak; multiple bands</td></tr><tr><th scope="row">C=O</th><td>aldehydes, ketones, carboxylic acids and esters</td><td>1700–1750</td><td>strong</td></tr><tr><th scope="row">O–H</th><td>carboxylic acids (with hydrogen bonding)</td><td>2500–3000</td><td>strong, very broad</td></tr><tr><th scope="row">C–H</th><td>alkanes, alkenes, arenes</td><td>2850–3090</td><td>strong</td></tr><tr><th scope="row">O–H</th><td>alcohols and phenols (with hydrogen bonding)</td><td>3200–3600</td><td>strong, broad</td></tr></tbody></table></div>
-      stem: "",
+      stem: "<p>Prop-2-en-1-ol의 구조는 <span class=\"chem\">CH<sub>2</sub>=CHCH<sub>2</sub>OH<span></span></span>예요. 이 화합물의 적외선 스펙트럼에서 예상되는 흡수는 무엇인가요? 해당하는 것을 <strong>모두</strong> 고르세요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(20절): 적외선 흡수 범위</caption><thead><tr><th scope=\"col\">결합</th><th scope=\"col\">유기 분자의 종류</th><th scope=\"col\">파수 / cm<sup>−1</sup></th><th scope=\"col\">세기</th></tr></thead><tbody><tr><th scope=\"row\">C–O</th><td>알코올, 에스터, 에테르</td><td>1050–1410</td><td>강함</td></tr><tr><th scope=\"row\">C=C</th><td>알켄</td><td>1620–1680</td><td>중간~약함, 여러 개의 띠</td></tr><tr><th scope=\"row\">C=O</th><td>알데하이드, 케톤, 카복실산, 에스터</td><td>1700–1750</td><td>강함</td></tr><tr><th scope=\"row\">O–H</th><td>카복실산(수소 결합 있음)</td><td>2500–3000</td><td>강함, 매우 넓음</td></tr><tr><th scope=\"row\">C–H</th><td>알케인, 알켄, 아렌</td><td>2850–3090</td><td>강함</td></tr><tr><th scope=\"row\">O–H</th><td>알코올과 페놀(수소 결합 있음)</td><td>3200–3600</td><td>강함, 넓음</td></tr></tbody></table></div>",
       options: [
         // EN: C–O, 1050–1410 cm<sup>−1</sup>
-        "",
+        "C–O, 1050–1410 cm<sup>−1</sup>",
         // EN: C=C, 1620–1680 cm<sup>−1</sup>
-        "",
+        "C=C, 1620–1680 cm<sup>−1</sup>",
         // EN: C=O, 1700–1750 cm<sup>−1</sup>
-        "",
+        "C=O, 1700–1750 cm<sup>−1</sup>",
         // EN: O–H of a carboxylic acid, 2500–3000 cm<sup>−1</sup>, very broad
-        "",
+        "카복실산의 O–H, 2500–3000 cm<sup>−1</sup>, 매우 넓음",
         // EN: C–H, 2850–3090 cm<sup>−1</sup>
-        "",
+        "C–H, 2850–3090 cm<sup>−1</sup>",
         // EN: O–H of an alcohol, 3200–3600 cm<sup>−1</sup>, broad
-        "",
+        "알코올의 O–H, 3200–3600 cm<sup>−1</sup>, 넓음",
       ],
       hints: [
         // EN: Write out the structure and list every type of bond it contains.
-        "",
+        "구조를 써 보고 들어 있는 결합의 종류를 모두 나열하세요.",
         // EN: There are two functional groups: an alkene C=C and an alcohol O–H.
-        "",
+        "작용기가 두 개 있어요. 알켄의 C=C와 알코올의 O–H예요.",
       ],
       // EN: <p>The molecule contains these bonds: C=C (alkene), C–H, C–O and O–H (alcohol). Each gives an absorption in its booklet range. There is no C=O bond and no carboxyl group, so there is no absorption at 1700–1750 cm<sup>−1</sup> and no very broad absorption at 2500–3000 cm<sup>−1</sup>.</p>
-      solution: "",
+      solution: "<p>이 분자에는 C=C(알켄), C–H, C–O, O–H(알코올) 결합이 있어요. 각 결합은 부클릿의 범위에서 흡수를 보여요. C=O 결합과 카복실기는 없으므로 1700–1750 cm<sup>−1</sup>의 흡수도, 2500–3000 cm<sup>−1</sup>의 매우 넓은 흡수도 없어요.</p>",
       misconception: {
         // EN (option C): The oxygen atom here is in an O–H group joined to carbon by a single bond. There is no C=O bond in the molecule. The double bond is C=C.
-        "2": "",
+        "2": "여기서 산소 원자는 탄소와 단일 결합으로 이어진 O–H기에 있어요. 이 분자에는 C=O 결합이 없어요. 이중 결합은 C=C예요.",
         // EN (option D): The molecule is an alcohol, not a carboxylic acid. Its O–H absorption is at 3200–3600 cm<sup>−1</sup>.
-        "3": "",
+        "3": "이 분자는 카복실산이 아니라 알코올이에요. O–H 흡수는 3200–3600 cm<sup>−1</sup>에 있어요.",
       },
     },
 
     // ── s3-2h-q028 · multi · exam · AHL · Structure 3.2.9 · 1 mark
     "s3-2h-q028": {
       // EN: <p>A greenhouse gas absorbs infrared radiation. A molecule can only do this if one of its vibrations changes the dipole moment of the molecule.</p><p>Which of these gases in the atmosphere absorb infrared radiation? Select <strong>all</strong> that apply.</p>
-      stem: "",
+      stem: "<p>온실 기체는 적외선을 흡수해요. 분자의 진동 중 하나가 분자의 쌍극자 모멘트를 변화시킬 때만 분자가 적외선을 흡수할 수 있어요.</p><p>대기 중의 다음 기체 중 적외선을 흡수하는 것은 무엇인가요? 해당하는 것을 <strong>모두</strong> 고르세요.</p>",
       options: [
         // EN: <span class="chem">CH<sub>4</sub><span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>4</sub><span></span></span>",
         // EN: <span class="chem">CO<sub>2</sub><span></span></span>
-        "",
+        "<span class=\"chem\">CO<sub>2</sub><span></span></span>",
         // EN: <span class="chem">H<sub>2</sub>O<span></span></span>
-        "",
+        "<span class=\"chem\">H<sub>2</sub>O<span></span></span>",
         // EN: <span class="chem">N<sub>2</sub><span></span></span>
-        "",
+        "<span class=\"chem\">N<sub>2</sub><span></span></span>",
         // EN: <span class="chem">O<sub>2</sub><span></span></span>
-        "",
+        "<span class=\"chem\">O<sub>2</sub><span></span></span>",
       ],
       hints: [
         // EN: Which molecules contain polar bonds?
-        "",
+        "극성 결합을 가진 분자는 무엇인가요?",
         // EN: A molecule does not need to be polar overall. It needs a vibration that changes its dipole moment.
-        "",
+        "분자 전체가 극성일 필요는 없어요. 쌍극자 모멘트를 변화시키는 진동이 있으면 돼요.",
       ],
       // EN: <p><span class="chem">CH<sub>4</sub><span></span></span>, <span class="chem">CO<sub>2</sub><span></span></span> and <span class="chem">H<sub>2</sub>O<span></span></span> all contain polar bonds. Some of their stretching and bending vibrations change the dipole moment, so they absorb infrared radiation. They are greenhouse gases.</p><p><span class="chem">CO<sub>2</sub><span></span></span> and <span class="chem">CH<sub>4</sub><span></span></span> are non-polar molecules overall, but when they bend or stretch unevenly a dipole appears. <span class="chem">N<sub>2</sub><span></span></span> and <span class="chem">O<sub>2</sub><span></span></span> have one non-polar bond each, so no vibration can change the dipole moment. That is why the two main gases in air are not greenhouse gases.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">CH<sub>4</sub><span></span></span>, <span class=\"chem\">CO<sub>2</sub><span></span></span>, <span class=\"chem\">H<sub>2</sub>O<span></span></span>는 모두 극성 결합을 가져요. 이들의 신축 진동과 굽힘 진동 중 일부는 쌍극자 모멘트를 변화시키므로 적외선을 흡수해요. 이들은 온실 기체예요.</p><p><span class=\"chem\">CO<sub>2</sub><span></span></span>와 <span class=\"chem\">CH<sub>4</sub><span></span></span>는 분자 전체로는 무극성이지만, 굽히거나 고르지 않게 늘어날 때 쌍극자가 생겨요. <span class=\"chem\">N<sub>2</sub><span></span></span>와 <span class=\"chem\">O<sub>2</sub><span></span></span>는 무극성 결합이 하나씩만 있으므로 어떤 진동도 쌍극자 모멘트를 변화시킬 수 없어요. 그래서 공기의 주성분인 두 기체는 온실 기체가 아니에요.</p>",
       misconception: {
         // EN (option D): The two atoms in <span class="chem">N<sub>2</sub><span></span></span> are identical, so the bond is non-polar. Stretching it does not create a dipole, so nitrogen does not absorb infrared radiation.
-        "3": "",
+        "3": "<span class=\"chem\">N<sub>2</sub><span></span></span>의 두 원자는 똑같으므로 결합이 무극성이에요. 결합이 늘어나도 쌍극자가 생기지 않으므로 질소는 적외선을 흡수하지 않아요.",
         // EN (option E): The two atoms in <span class="chem">O<sub>2</sub><span></span></span> are identical, so the bond is non-polar. Stretching it does not create a dipole, so oxygen does not absorb infrared radiation.
-        "4": "",
+        "4": "<span class=\"chem\">O<sub>2</sub><span></span></span>의 두 원자는 똑같으므로 결합이 무극성이에요. 결합이 늘어나도 쌍극자가 생기지 않으므로 산소는 적외선을 흡수하지 않아요.",
       },
     },
 
     // ── s3-2h-q029 · short · challenge · AHL · Structure 3.2.9 · 3 marks
     "s3-2h-q029": {
       // EN: <p>Carbon dioxide makes up about 0.04% of the atmosphere and nitrogen about 78%.</p><p>Explain how carbon dioxide molecules cause a greenhouse effect, and why nitrogen molecules do not.</p>
-      stem: "",
+      stem: "<p>이산화 탄소는 대기의 약 0.04%, 질소는 약 78%를 차지해요.</p><p>이산화 탄소 분자가 온실 효과를 일으키는 방식과 질소 분자는 그렇지 않은 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: What kind of radiation does the Earth give out?
-        "",
+        "지구는 어떤 종류의 복사를 내보내나요?",
         // EN: What happens to the bonds of a molecule when it absorbs infrared radiation? What must change during the vibration?
-        "",
+        "분자가 적외선을 흡수하면 결합에는 어떤 일이 일어나나요? 진동하는 동안 무엇이 변해야 하나요?",
         // EN: Compare the bond in <span class="chem">N<sub>2</sub><span></span></span> with the bonds in <span class="chem">CO<sub>2</sub><span></span></span>.
-        "",
+        "<span class=\"chem\">N<sub>2</sub><span></span></span>의 결합과 <span class=\"chem\">CO<sub>2</sub><span></span></span>의 결합을 비교해 보세요.",
       ],
       // EN: <p>Three of the four points give full marks. A common weak answer says that <span class="chem">CO<sub>2</sub><span></span></span> "traps heat" or "reflects" radiation. The accurate words are: infrared radiation is <strong>absorbed</strong> by bond vibrations and then <strong>re-emitted</strong>. Do not say that <span class="chem">CO<sub>2</sub><span></span></span> is a polar molecule. It is non-polar overall, but its bonds are polar and its dipole moment changes as it vibrates.</p>
-      solution: "",
+      solution: "<p>네 가지 요점 중 세 가지를 쓰면 만점이에요. 흔히 나오는 약한 답은 <span class=\"chem\">CO<sub>2</sub><span></span></span>가 “열을 가둔다”거나 복사를 “반사한다”고 쓰는 것이에요. 정확한 표현은 이래요: 적외선은 결합의 진동에 <strong>흡수</strong>되었다가 <strong>다시 방출</strong>돼요. <span class=\"chem\">CO<sub>2</sub><span></span></span>가 극성 분자라고 쓰지 마세요. 분자 전체로는 무극성이지만 결합은 극성이고, 진동할 때 쌍극자 모멘트가 변해요.</p>",
       // EN: <p>The warm surface of the Earth emits infrared radiation. The C=O bonds in <span class="chem">CO<sub>2</sub><span></span></span> are polar, and some vibrations of the molecule (bending and uneven stretching) change its dipole moment, so <span class="chem">CO<sub>2</sub><span></span></span> absorbs infrared radiation. The molecules then re-emit the radiation in all directions, so part of it returns to the surface and the atmosphere is warmed. <span class="chem">N<sub>2</sub><span></span></span> has a non-polar bond: its vibration does not change the dipole moment, so it does not absorb infrared radiation.</p>
-      answer: "",
+      answer: "<p>따뜻한 지구 표면은 적외선을 방출해요. <span class=\"chem\">CO<sub>2</sub><span></span></span>의 C=O 결합은 극성이고, 분자의 일부 진동(굽힘 진동과 고르지 않은 신축 진동)이 쌍극자 모멘트를 변화시키므로 <span class=\"chem\">CO<sub>2</sub><span></span></span>는 적외선을 흡수해요. 그 뒤 분자는 복사를 모든 방향으로 다시 방출하므로 일부가 지표로 돌아가고 대기가 따뜻해져요. <span class=\"chem\">N<sub>2</sub><span></span></span>는 무극성 결합을 가져요. 진동해도 쌍극자 모멘트가 변하지 않으므로 적외선을 흡수하지 않아요.</p>",
       markscheme: [
         // EN: The Earth's surface emits infrared (long-wavelength) radiation.
-        "",
+        "지구 표면은 적외선(파장이 긴 복사)을 방출함.",
         // EN: CO₂ absorbs infrared radiation because its bonds are polar / its vibrations (stretching or bending) change the dipole moment of the molecule.
-        "",
+        "CO₂는 결합이 극성이기 때문에 / 진동(신축 또는 굽힘)이 분자의 쌍극자 모멘트를 변화시키기 때문에 적외선을 흡수함.",
         // EN: The absorbed radiation is re-emitted in all directions, so some returns to the Earth / less energy escapes to space.
-        "",
+        "흡수된 복사는 모든 방향으로 다시 방출되므로 일부가 지구로 돌아감 / 우주로 빠져나가는 에너지가 줄어듦.",
         // EN: N₂ has a non-polar bond / its vibration causes no change in dipole moment, so it does not absorb infrared radiation.
-        "",
+        "N₂는 무극성 결합을 가짐 / 진동해도 쌍극자 모멘트가 변하지 않으므로 적외선을 흡수하지 않음.",
       ],
     },
 
     // ── s3-2h-q030 · mcq · challenge · AHL · Structure 3.2.9 · 1 mark
     "s3-2h-q030": {
       // EN: <p>Three bottles contain propan-1-ol, propanoic acid and methyl ethanoate. The table lists the main infrared absorptions of each liquid, apart from C–H.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Main absorptions / cm<sup>−1</sup> (not including C–H)</caption><thead><tr><th scope="col">Liquid</th><th scope="col">Absorptions</th></tr></thead><tbody><tr><th scope="row">I</th><td>1745 (strong); 1240 (strong)</td></tr><tr><th scope="row">II</th><td>2500–3000 (strong, very broad); 1715 (strong); 1240 (strong)</td></tr><tr><th scope="row">III</th><td>3200–3500 (strong, broad); 1060 (strong)</td></tr></tbody></table></div><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 20): infrared absorption ranges</caption><thead><tr><th scope="col">Bond</th><th scope="col">Types of organic molecules</th><th scope="col">Wavenumber / cm<sup>−1</sup></th><th scope="col">Intensity</th></tr></thead><tbody><tr><th scope="row">C–O</th><td>alcohols, esters, ethers</td><td>1050–1410</td><td>strong</td></tr><tr><th scope="row">C=O</th><td>aldehydes, ketones, carboxylic acids and esters</td><td>1700–1750</td><td>strong</td></tr><tr><th scope="row">O–H</th><td>carboxylic acids (with hydrogen bonding)</td><td>2500–3000</td><td>strong, very broad</td></tr><tr><th scope="row">O–H</th><td>alcohols and phenols (with hydrogen bonding)</td><td>3200–3600</td><td>strong, broad</td></tr></tbody></table></div><p>Which row identifies the three liquids?</p>
-      stem: "",
+      stem: "<p>병 세 개에 propan-1-ol, propanoic acid, methyl ethanoate가 들어 있어요. 표는 C–H를 제외한 각 액체의 주요 적외선 흡수를 나타내요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>주요 흡수 / cm<sup>−1</sup> (C–H 제외)</caption><thead><tr><th scope=\"col\">액체</th><th scope=\"col\">흡수</th></tr></thead><tbody><tr><th scope=\"row\">I</th><td>1745 (강함); 1240 (강함)</td></tr><tr><th scope=\"row\">II</th><td>2500–3000 (강함, 매우 넓음); 1715 (강함); 1240 (강함)</td></tr><tr><th scope=\"row\">III</th><td>3200–3500 (강함, 넓음); 1060 (강함)</td></tr></tbody></table></div><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(20절): 적외선 흡수 범위</caption><thead><tr><th scope=\"col\">결합</th><th scope=\"col\">유기 분자의 종류</th><th scope=\"col\">파수 / cm<sup>−1</sup></th><th scope=\"col\">세기</th></tr></thead><tbody><tr><th scope=\"row\">C–O</th><td>알코올, 에스터, 에테르</td><td>1050–1410</td><td>강함</td></tr><tr><th scope=\"row\">C=O</th><td>알데하이드, 케톤, 카복실산, 에스터</td><td>1700–1750</td><td>강함</td></tr><tr><th scope=\"row\">O–H</th><td>카복실산(수소 결합 있음)</td><td>2500–3000</td><td>강함, 매우 넓음</td></tr><tr><th scope=\"row\">O–H</th><td>알코올과 페놀(수소 결합 있음)</td><td>3200–3600</td><td>강함, 넓음</td></tr></tbody></table></div><p>세 액체를 올바르게 찾은 줄은 무엇인가요?</p>",
       options: [
         // EN: I = methyl ethanoate, II = propanoic acid, III = propan-1-ol
-        "",
+        "I = methyl ethanoate, II = propanoic acid, III = propan-1-ol",
         // EN: I = propanoic acid, II = methyl ethanoate, III = propan-1-ol
-        "",
+        "I = propanoic acid, II = methyl ethanoate, III = propan-1-ol",
         // EN: I = methyl ethanoate, II = propan-1-ol, III = propanoic acid
-        "",
+        "I = methyl ethanoate, II = propan-1-ol, III = propanoic acid",
         // EN: I = propan-1-ol, II = propanoic acid, III = methyl ethanoate
-        "",
+        "I = propan-1-ol, II = propanoic acid, III = methyl ethanoate",
       ],
       hints: [
         // EN: Start with C=O (1700–1750). Which liquid does not have it?
-        "",
+        "C=O(1700–1750)부터 보세요. 어느 액체에 이것이 없나요?",
         // EN: Then use the two different O–H ranges to separate the acid from the alcohol.
-        "",
+        "그다음 서로 다른 두 O–H 범위를 이용해 산과 알코올을 구별하세요.",
       ],
       // EN: <ul><li>III has no C=O absorption. It has a broad O–H absorption at 3200–3600 cm<sup>−1</sup> and a C–O absorption: the alcohol, propan-1-ol.</li><li>II has C=O and the very broad O–H absorption at 2500–3000 cm<sup>−1</sup>: the carboxylic acid, propanoic acid.</li><li>I has C=O and C–O but no O–H absorption: the ester, methyl ethanoate.</li></ul>
-      solution: "",
+      solution: "<ul><li>III에는 C=O 흡수가 없어요. 3200–3600 cm<sup>−1</sup>의 넓은 O–H 흡수와 C–O 흡수가 있어요. 알코올인 propan-1-ol이에요.</li><li>II에는 C=O 흡수와 2500–3000 cm<sup>−1</sup>의 매우 넓은 O–H 흡수가 있어요. 카복실산인 propanoic acid예요.</li><li>I에는 C=O와 C–O는 있지만 O–H 흡수는 없어요. 에스터인 methyl ethanoate예요.</li></ul>",
       misconception: {
         // EN (option B): Liquid I has no O–H absorption at all, so it cannot be the acid. Liquid II has the very broad acid O–H absorption, which an ester cannot give.
-        "1": "",
+        "1": "액체 I에는 O–H 흡수가 전혀 없으므로 산일 수 없어요. 액체 II에는 산의 매우 넓은 O–H 흡수가 있는데, 에스터는 이런 흡수를 보일 수 없어요.",
         // EN (option C): The two O–H ranges have been swapped. The very broad absorption at 2500–3000 cm<sup>−1</sup> belongs to the carboxylic acid. An alcohol absorbs at 3200–3600 cm<sup>−1</sup> and has no C=O absorption.
-        "2": "",
+        "2": "두 O–H 범위가 뒤바뀌었어요. 2500–3000 cm<sup>−1</sup>의 매우 넓은 흡수는 카복실산의 것이에요. 알코올은 3200–3600 cm<sup>−1</sup>에서 흡수하고 C=O 흡수가 없어요.",
         // EN (option D): Liquid I has a C=O absorption at 1745 cm<sup>−1</sup>, which an alcohol cannot give. Liquid III has no C=O absorption, so it cannot be an ester.
-        "3": "",
+        "3": "액체 I에는 1745 cm<sup>−1</sup>의 C=O 흡수가 있는데, 알코올은 이런 흡수를 보일 수 없어요. 액체 III에는 C=O 흡수가 없으므로 에스터일 수 없어요.",
       },
     },
 

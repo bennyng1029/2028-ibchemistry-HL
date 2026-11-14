@@ -54,7 +54,7 @@ S1.i18n.register('ko', 's2-2', {
     "Describe the structures and explain the properties of silicon, silicon dioxide, diamond, graphite, fullerenes and graphene.": "규소, 이산화 규소, 다이아몬드, 흑연, 풀러렌, 그래핀의 구조를 서술하고 성질을 설명할 수 있어요.",
 
     // What you need to be able to do > checklist > span
-    "Deduce which intermolecular forces act between molecules, and use the term “van der Waals forces” correctly.": "분자 사이에 어떤 분자 간 힘이 작용하는지 추론하고, “판데르발스 힘(van der Waals forces)”이라는 용어를 바르게 쓸 수 있어요.",
+    "Deduce which intermolecular forces act between molecules, and use the term “van der Waals forces” correctly.": "분자 사이에 어떤 분자 간 힘이 작용하는지 추론하고, “반데르발스 힘(van der Waals forces)”이라는 용어를 바르게 쓸 수 있어요.",
 
     // What you need to be able to do > checklist > span
     "Describe and draw a hydrogen bond between two molecules.": "두 분자 사이의 수소 결합을 서술하고 그릴 수 있어요.",
@@ -1709,16 +1709,16 @@ S1.i18n.register('ko', 's2-2', {
     "“Explain what a hydrogen bond is” has two marks. One: hydrogen is covalently bonded to a highly electronegative atom (N, O or F). Two: it is attracted to an electronegative atom (or its lone pair) on a neighbouring molecule. A clearly labelled diagram can earn both.": "“수소 결합이 무엇인지 설명하시오”는 2점이에요. 첫째: 수소가 전기 음성도가 매우 큰 원자(N, O, F)와 공유 결합해 있다. 둘째: 그 수소가 이웃 분자의 전기 음성도가 큰 원자(또는 그 원자의 비공유 전자쌍)에 끌린다. 표시가 분명한 그림으로 2점을 모두 받을 수 있어요.",
 
     // Intermolecular forces > h3
-    "The term “van der Waals forces”": "“판데르발스 힘”이라는 용어",
+    "The term “van der Waals forces”": "“반데르발스 힘”이라는 용어",
 
     // Intermolecular forces > key idea > p
-    "<dfn data-def=\"An inclusive term for three intermolecular forces: London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces. It does not include hydrogen bonding.\">Van der Waals forces</dfn> is an inclusive term. It covers three forces together: London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces. It does <b>not</b> include hydrogen bonding.": "<dfn data-def=\"분자 간 힘 3가지를 함께 이르는 말: 런던 분산력, 쌍극자-유발 쌍극자 힘, 쌍극자-쌍극자 힘. 수소 결합은 포함하지 않아요.\">판데르발스 힘 <span class=\"en-term\">(van der Waals forces)</span></dfn>은 여러 힘을 함께 이르는 말이에요. 런던 분산력, 쌍극자-유발 쌍극자 힘, 쌍극자-쌍극자 힘의 3가지를 모두 포함해요. 수소 결합은 포함하지 <b>않아요</b>.",
+    "<dfn data-def=\"An inclusive term for three intermolecular forces: London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces. It does not include hydrogen bonding.\">Van der Waals forces</dfn> is an inclusive term. It covers three forces together: London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces. It does <b>not</b> include hydrogen bonding.": "<dfn data-def=\"분자 간 힘 3가지를 함께 이르는 말: 런던 분산력, 쌍극자-유발 쌍극자 힘, 쌍극자-쌍극자 힘. 수소 결합은 포함하지 않아요.\">반데르발스 힘 <span class=\"en-term\">(van der Waals forces)</span></dfn>은 여러 힘을 함께 이르는 말이에요. 런던 분산력, 쌍극자-유발 쌍극자 힘, 쌍극자-쌍극자 힘의 3가지를 모두 포함해요. 수소 결합은 포함하지 <b>않아요</b>.",
 
     // Intermolecular forces > key idea > data-def attribute
     "An inclusive term for three intermolecular forces: London (dispersion) forces, dipole–induced dipole forces and dipole–dipole forces. It does not include hydrogen bonding.": "분자 간 힘 3가지를 함께 이르는 말: 런던 분산력, 쌍극자-유발 쌍극자 힘, 쌍극자-쌍극자 힘. 수소 결합은 포함하지 않아요.",
 
     // Intermolecular forces > exam tip (shown in English + translation) > p
-    "Do not write “van der Waals forces” when you mean London forces. Markschemes have refused it. Write “London (dispersion) forces”. “London forces” or “dispersion forces” are also accepted.": "런던 분산력을 뜻할 때 “판데르발스 힘(van der Waals forces)”이라고 쓰지 마세요. 채점 기준에서 인정하지 않은 적이 있어요. “London (dispersion) forces”라고 쓰세요. “London forces”나 “dispersion forces”도 인정돼요.",
+    "Do not write “van der Waals forces” when you mean London forces. Markschemes have refused it. Write “London (dispersion) forces”. “London forces” or “dispersion forces” are also accepted.": "런던 분산력을 뜻할 때 “반데르발스 힘(van der Waals forces)”이라고 쓰지 마세요. 채점 기준에서 인정하지 않은 적이 있어요. “London (dispersion) forces”라고 쓰세요. “London forces”나 “dispersion forces”도 인정돼요.",
 
     // Intermolecular forces > table > caption
     "The four intermolecular forces": "4가지 분자 간 힘",
@@ -1730,7 +1730,7 @@ S1.i18n.register('ko', 's2-2', {
     "Acts between": "작용하는 대상",
 
     // Intermolecular forces > table > th
-    "A van der Waals force?": "판데르발스 힘인가?",
+    "A van der Waals force?": "반데르발스 힘인가?",
 
     // Intermolecular forces > table > th
     // Explaining physical properties > table > td
@@ -2133,13 +2133,13 @@ S1.i18n.register('ko', 's2-2', {
     "A drop of water falls on a note written in black ink. As the water spreads through the paper, the black mark separates into bands of blue, red and yellow. The ink was a mixture, and the water has separated it.": "검은 잉크로 쓴 메모에 물방울이 떨어져요. 물이 종이에 번져 가면서 검은 자국이 파란색, 빨간색, 노란색 띠로 나뉘어요. 잉크는 혼합물이었고, 물이 그것을 분리한 거예요.",
 
     // Chromatography > p
-    "<dfn data-def=\"A technique that separates the components of a mixture, based on their relative attractions to a mobile phase and a stationary phase.\">Chromatography</dfn> is a technique that separates the components of a mixture. It works because the components have different attractions, involving intermolecular forces, to two phases.": "<dfn data-def=\"이동상과 정지상에 대한 상대적인 인력 차이를 이용해 혼합물의 성분을 분리하는 방법.\">크로마토그래피 <span class=\"en-term\">(chromatography)</span></dfn>는 혼합물의 성분을 분리하는 방법이에요. 성분마다 두 상(phase)에 대한 인력(분자 간 힘이 관여해요)이 다르기 때문에 분리돼요.",
+    "<dfn data-def=\"A technique that separates the components of a mixture, based on their relative attractions to a mobile phase and a stationary phase.\">Chromatography</dfn> is a technique that separates the components of a mixture. It works because the components have different attractions, involving intermolecular forces, to two phases.": "<dfn data-def=\"이동상과 고정상에 대한 상대적인 인력 차이를 이용해 혼합물의 성분을 분리하는 방법.\">크로마토그래피 <span class=\"en-term\">(chromatography)</span></dfn>는 혼합물의 성분을 분리하는 방법이에요. 성분마다 두 상(phase)에 대한 인력(분자 간 힘이 관여해요)이 다르기 때문에 분리돼요.",
 
     // Chromatography > data-def attribute
-    "A technique that separates the components of a mixture, based on their relative attractions to a mobile phase and a stationary phase.": "이동상과 정지상에 대한 상대적인 인력 차이를 이용해 혼합물의 성분을 분리하는 방법.",
+    "A technique that separates the components of a mixture, based on their relative attractions to a mobile phase and a stationary phase.": "이동상과 고정상에 대한 상대적인 인력 차이를 이용해 혼합물의 성분을 분리하는 방법.",
 
     // Chromatography > li
-    "The <dfn data-def=\"The phase that does not move in chromatography, for example the water held in the paper or the solid coating of a TLC plate.\">stationary phase</dfn> stays in place.": "<dfn data-def=\"크로마토그래피에서 움직이지 않는 상. 예를 들어 종이에 붙잡혀 있는 물이나 TLC 판의 고체 코팅.\">정지상 <span class=\"en-term\">(stationary phase)</span></dfn>은 제자리에 있어요.",
+    "The <dfn data-def=\"The phase that does not move in chromatography, for example the water held in the paper or the solid coating of a TLC plate.\">stationary phase</dfn> stays in place.": "<dfn data-def=\"크로마토그래피에서 움직이지 않는 상. 예를 들어 종이에 붙잡혀 있는 물이나 TLC 판의 고체 코팅.\">고정상 <span class=\"en-term\">(stationary phase)</span></dfn>은 제자리에 있어요.",
 
     // Chromatography > data-def attribute
     "The phase that does not move in chromatography, for example the water held in the paper or the solid coating of a TLC plate.": "크로마토그래피에서 움직이지 않는 상. 예를 들어 종이에 붙잡혀 있는 물이나 TLC 판의 고체 코팅.",
@@ -2158,7 +2158,7 @@ S1.i18n.register('ko', 's2-2', {
 
     // Chromatography > table > th
     // widget string (assets/js/widgets-s2-2.js)
-    "Stationary phase": "정지상",
+    "Stationary phase": "고정상",
 
     // Chromatography > table > th
     "Mobile phase": "이동상",
@@ -2185,16 +2185,16 @@ S1.i18n.register('ko', 's2-2', {
     "Why the components separate": "성분이 분리되는 이유",
 
     // Chromatography > p
-    "Each component is pulled in two ways at once. It is attracted to the stationary phase, which holds it back. It is attracted to the moving solvent, which carries it forward.": "각 성분은 동시에 두 방향으로 끌려요. 정지상에 끌리면 제자리에 붙잡혀요. 움직이는 용매에 끌리면 앞으로 실려 가요.",
+    "Each component is pulled in two ways at once. It is attracted to the stationary phase, which holds it back. It is attracted to the moving solvent, which carries it forward.": "각 성분은 동시에 두 방향으로 끌려요. 고정상에 끌리면 제자리에 붙잡혀요. 움직이는 용매에 끌리면 앞으로 실려 가요.",
 
     // Chromatography > li
-    "A component that is attracted strongly to the stationary phase spends more time held still. It moves a short distance.": "정지상에 강하게 끌리는 성분은 붙잡혀 있는 시간이 길어요. 조금만 이동해요.",
+    "A component that is attracted strongly to the stationary phase spends more time held still. It moves a short distance.": "고정상에 강하게 끌리는 성분은 붙잡혀 있는 시간이 길어요. 조금만 이동해요.",
 
     // Chromatography > li
     "A component that is attracted more to the mobile phase (it is more soluble in the solvent) spends more time moving. It travels far.": "이동상에 더 끌리는(용매에 더 잘 녹는) 성분은 움직이는 시간이 길어요. 멀리 이동해요.",
 
     // Chromatography > p
-    "In both paper chromatography and TLC with silica, the stationary phase is polar and can form hydrogen bonds. So polar components, and those that can hydrogen-bond, are held back most. Less polar components travel further with a less polar solvent.": "종이 크로마토그래피와 실리카를 쓰는 TLC에서는 모두 정지상이 극성이고 수소 결합을 만들 수 있어요. 그래서 극성 성분과 수소 결합을 할 수 있는 성분이 가장 많이 붙잡혀요. 극성이 작은 성분은 극성이 작은 용매와 함께 더 멀리 이동해요.",
+    "In both paper chromatography and TLC with silica, the stationary phase is polar and can form hydrogen bonds. So polar components, and those that can hydrogen-bond, are held back most. Less polar components travel further with a less polar solvent.": "종이 크로마토그래피와 실리카를 쓰는 TLC에서는 모두 고정상이 극성이고 수소 결합을 만들 수 있어요. 그래서 극성 성분과 수소 결합을 할 수 있는 성분이 가장 많이 붙잡혀요. 극성이 작은 성분은 극성이 작은 용매와 함께 더 멀리 이동해요.",
 
     // Chromatography > h3
     "How a chromatogram is run": "크로마토그램을 만드는 방법",
@@ -2254,7 +2254,7 @@ S1.i18n.register('ko', 's2-2', {
     "An R<sub>F</sub> value has no unit and is always between 0 and 1.": "R<sub>F</sub> 값은 단위가 없고 항상 0과 1 사이예요.",
 
     // Chromatography > li
-    "A substance has the same R<sub>F</sub> value every time, if the stationary phase, the solvent and the temperature are the same.": "정지상, 용매, 온도가 같으면 한 물질의 R<sub>F</sub> 값은 매번 같아요.",
+    "A substance has the same R<sub>F</sub> value every time, if the stationary phase, the solvent and the temperature are the same.": "고정상, 용매, 온도가 같으면 한 물질의 R<sub>F</sub> 값은 매번 같아요.",
 
     // Chromatography > p
     "This lets you interpret a chromatogram. If a spot from the mixture has the same R<sub>F</sub> value as a known substance run in the same way, it is probably that substance. A pure substance gives one spot. A mixture usually gives more than one.": "이것을 이용해 크로마토그램을 해석할 수 있어요. 혼합물에서 나온 점이 같은 조건으로 전개한 알고 있는 물질과 R<sub>F</sub> 값이 같으면, 아마 그 물질일 거예요. 순물질은 점이 1개 생겨요. 혼합물은 보통 2개 이상 생겨요.",
@@ -2338,930 +2338,930 @@ S1.i18n.register('ko', 's2-2', {
     "The spot moved 6.3 − 1.5 = 4.8 cm. Work out how far the solvent front moved in the same way, then divide.": "점은 6.3 − 1.5 = 4.8 cm 이동했어요. 같은 방법으로 용매 전선이 이동한 거리를 구한 다음 나눠요.",
 
     // Chromatography > try it > maths line
-    "distance moved by the spot = 6.3 cm − 1.5 cm = 4.8 cm": "",
+    "distance moved by the spot = 6.3 cm − 1.5 cm = 4.8 cm": "점이 이동한 거리 = 6.3 cm − 1.5 cm = 4.8 cm",
 
     // Chromatography > try it > maths line
-    "distance moved by the solvent front = 9.5 cm − 1.5 cm = 8.0 cm": "",
+    "distance moved by the solvent front = 9.5 cm − 1.5 cm = 8.0 cm": "용매 전선이 이동한 거리 = 9.5 cm − 1.5 cm = 8.0 cm",
 
     // Chromatography > common mistake > p
-    "Three errors are common. Measuring from the bottom edge of the paper, not from the baseline. Dividing by the distance to the top of the paper, not to the solvent front. Giving a value greater than 1, or adding a unit.": "",
+    "Three errors are common. Measuring from the bottom edge of the paper, not from the baseline. Dividing by the distance to the top of the paper, not to the solvent front. Giving a value greater than 1, or adding a unit.": "흔한 실수는 3가지예요. 출발선이 아니라 종이의 아래쪽 가장자리에서 재는 것. 용매 전선이 아니라 종이 맨 위까지의 거리로 나누는 것. 1보다 큰 값을 쓰거나 단위를 붙이는 것.",
 
     // Chromatography > common mistake > p
-    "Do not reverse the polarity logic. With a polar stationary phase, the <em>more</em> polar component is held back more. It moves less and has the <em>smaller</em> R<sub>F</sub> value.": "",
+    "Do not reverse the polarity logic. With a polar stationary phase, the <em>more</em> polar component is held back more. It moves less and has the <em>smaller</em> R<sub>F</sub> value.": "극성 논리를 거꾸로 하지 마세요. 고정상이 극성이면 극성이 <em>더 큰</em> 성분이 더 많이 붙잡혀요. 그 성분은 덜 이동하고 R<sub>F</sub> 값이 <em>더 작아요</em>.",
 
     // Chromatography > exam tip (shown in English + translation) > p
-    "Because you measure from a diagram, markschemes accept a small range around the R<sub>F</sub> value. To explain the principle, say: the components have different attractions to the stationary phase and to the mobile phase (or different solubilities in the solvent), so they move at different speeds. To improve a poor separation, suggest a different solvent or a longer paper.": "",
+    "Because you measure from a diagram, markschemes accept a small range around the R<sub>F</sub> value. To explain the principle, say: the components have different attractions to the stationary phase and to the mobile phase (or different solubilities in the solvent), so they move at different speeds. To improve a poor separation, suggest a different solvent or a longer paper.": "그림에서 재는 것이므로, 채점 기준은 R<sub>F</sub> 값 주변의 작은 범위를 인정해요. 원리를 설명할 때는 이렇게 쓰세요: 성분마다 고정상과 이동상에 대한 인력이 달라서(또는 용매에 대한 용해도가 달라서) 서로 다른 속도로 이동한다. 분리가 잘 안 되면 다른 용매나 더 긴 종이를 쓰자고 제안하세요.",
 
     // Chromatography > not needed for IB > p
-    "You do not need to know about locating agents (chemicals or lamps used to make colourless spots visible). The technical and operating details of gas chromatography and high-performance liquid chromatography will not be assessed.": "",
+    "You do not need to know about locating agents (chemicals or lamps used to make colourless spots visible). The technical and operating details of gas chromatography and high-performance liquid chromatography will not be assessed.": "발색제(색이 없는 점을 보이게 하는 데 쓰는 화학 물질이나 램프)에 대해서는 알 필요가 없어요. 기체 크로마토그래피와 고성능 액체 크로마토그래피의 기술적 세부 사항과 조작 방법은 평가하지 않아요.",
 
     // Chromatography > data-title attribute
-    "Chromatography: quick check": "",
+    "Chromatography: quick check": "크로마토그래피: 빠른 확인",
 
     // Linking it up > data-toc attribute
     // Linking it up > h2
-    "Linking it up": "",
+    "Linking it up": "연결해 보기",
 
     // Linking it up > p
-    "These are some of the linking questions from the guide, with short answers. They connect this topic to others.": "",
+    "These are some of the linking questions from the guide, with short answers. They connect this topic to others.": "가이드에 있는 연결 질문 몇 가지와 짧은 답이에요. 이 단원을 다른 단원과 이어 줘요.",
 
     // Linking it up > h3
-    "Why do ionic bonds only form between different elements, while covalent bonds can form between atoms of the same element?": "",
+    "Why do ionic bonds only form between different elements, while covalent bonds can form between atoms of the same element?": "이온 결합은 왜 서로 다른 원소 사이에서만 생기고, 공유 결합은 같은 원소의 원자 사이에서도 생길 수 있을까?",
 
     // Linking it up > p
-    "An ionic bond needs one atom to lose electrons and another to gain them. That needs a large difference in electronegativity, so the two atoms must be different elements. Two atoms of the same element attract electrons equally. Neither can take electrons from the other, so they share them in a covalent bond. (Structure 2.1)": "",
+    "An ionic bond needs one atom to lose electrons and another to gain them. That needs a large difference in electronegativity, so the two atoms must be different elements. Two atoms of the same element attract electrons equally. Neither can take electrons from the other, so they share them in a covalent bond. (Structure 2.1)": "이온 결합이 생기려면 한 원자는 전자를 잃고 다른 원자는 전자를 얻어야 해요. 그러려면 전기 음성도 차이가 커야 하므로, 두 원자는 서로 다른 원소여야 해요. 같은 원소의 두 원자는 전자를 똑같이 끌어당겨요. 어느 쪽도 상대의 전자를 빼앗을 수 없으므로, 전자를 공유해서 공유 결합을 만들어요. (Structure 2.1)",
 
     // Linking it up > h3
-    "Why are silicon–silicon bonds generally weaker than carbon–carbon bonds?": "",
+    "Why are silicon–silicon bonds generally weaker than carbon–carbon bonds?": "규소–규소 결합은 왜 대체로 탄소–탄소 결합보다 약할까?",
 
     // Linking it up > p
-    "A silicon atom has one more occupied energy level than a carbon atom, so it is larger. In an Si–Si bond the shared pair is further from both nuclei, and the attraction is weaker. The data booklet shows this: Si–Si is 232 pm and 226 <span class=\"unit\">kJ mol-1</span>, while C–C is 154 pm and 346 <span class=\"unit\">kJ mol-1</span>. (Structure 3.1)": "",
+    "A silicon atom has one more occupied energy level than a carbon atom, so it is larger. In an Si–Si bond the shared pair is further from both nuclei, and the attraction is weaker. The data booklet shows this: Si–Si is 232 pm and 226 <span class=\"unit\">kJ mol-1</span>, while C–C is 154 pm and 346 <span class=\"unit\">kJ mol-1</span>. (Structure 3.1)": "규소 원자는 탄소 원자보다 전자가 채워진 에너지 준위가 하나 더 많아서 더 커요. Si–Si 결합에서는 공유 전자쌍이 두 원자핵에서 더 멀리 있어서 인력이 더 약해요. 데이터 부클릿에서도 볼 수 있어요: Si–Si는 232 pm, 226 <span class=\"unit\">kJ mol-1</span>이고, C–C는 154 pm, 346 <span class=\"unit\">kJ mol-1</span>이에요. (Structure 3.1)",
 
     // Linking it up > h3
-    "To what extent can intermolecular forces explain the deviation of real gases from ideal behaviour?": "",
+    "To what extent can intermolecular forces explain the deviation of real gases from ideal behaviour?": "실제 기체가 이상 기체의 행동에서 벗어나는 것을 분자 간 힘으로 어디까지 설명할 수 있을까?",
 
     // Linking it up > p
-    "The ideal gas model assumes that there are no forces between the particles. Real molecules do attract each other. At low temperature and high pressure the molecules are slow and close together, so these attractions matter and the gas no longer behaves ideally. Gases with stronger intermolecular forces deviate more. (Structure 1.5)": "",
+    "The ideal gas model assumes that there are no forces between the particles. Real molecules do attract each other. At low temperature and high pressure the molecules are slow and close together, so these attractions matter and the gas no longer behaves ideally. Gases with stronger intermolecular forces deviate more. (Structure 1.5)": "이상 기체 모형은 입자 사이에 힘이 없다고 가정해요. 실제 분자는 서로 끌어당겨요. 온도가 낮고 압력이 높으면 분자가 느리고 서로 가까이 있어서 이 인력이 중요해지고, 기체는 더 이상 이상 기체처럼 행동하지 않아요. 분자 간 힘이 강한 기체일수록 더 많이 벗어나요. (Structure 1.5)",
 
     // Linking it up > h3
-    "How do the terms “bonds” and “forces” compare?": "",
+    "How do the terms “bonds” and “forces” compare?": "“결합(bond)”과 “힘(force)”이라는 용어는 어떻게 다를까?",
 
     // Linking it up > p
-    "Both are electrostatic attractions. “Bond” is normally used for the strong attractions that hold atoms or ions together: ionic, covalent and metallic bonds. “Force” is normally used for the much weaker attractions between molecules. The hydrogen bond has “bond” in its name, but it is an intermolecular force.": "",
+    "Both are electrostatic attractions. “Bond” is normally used for the strong attractions that hold atoms or ions together: ionic, covalent and metallic bonds. “Force” is normally used for the much weaker attractions between molecules. The hydrogen bond has “bond” in its name, but it is an intermolecular force.": "둘 다 정전기적 인력이에요. “결합”은 보통 원자나 이온을 붙잡아 두는 강한 인력에 써요: 이온 결합, 공유 결합, 금속 결합. “힘”은 보통 분자 사이의 훨씬 약한 인력에 써요. 수소 결합은 이름에 “결합”이 들어 있지만 분자 간 힘이에요.",
 
     // Linking it up > h3
-    "What features of a molecule make it “infrared (IR) active”?": "",
+    "What features of a molecule make it “infrared (IR) active”?": "분자가 “적외선(IR) 활성”이 되려면 어떤 특징이 필요할까?",
 
     // Linking it up > p
-    "HL only (Structure 3.2): a molecule absorbs infrared radiation when a vibration changes its dipole. So bond polarity and molecular geometry, the ideas of section 2.2.6, decide whether a molecule such as <span class=\"chem\">CO2</span> or <span class=\"chem\">H2O</span> absorbs infrared radiation.": "",
+    "HL only (Structure 3.2): a molecule absorbs infrared radiation when a vibration changes its dipole. So bond polarity and molecular geometry, the ideas of section 2.2.6, decide whether a molecule such as <span class=\"chem\">CO2</span> or <span class=\"chem\">H2O</span> absorbs infrared radiation.": "HL 전용 (Structure 3.2): 분자는 진동할 때 쌍극자가 바뀌면 적외선을 흡수해요. 그래서 2.2.6절에서 배운 결합의 극성과 분자 모양이 <span class=\"chem\">CO2</span>나 <span class=\"chem\">H2O</span> 같은 분자가 적외선을 흡수하는지를 결정해요.",
 
     // Exam-style practice > data-toc attribute
     // Exam-style practice > h2
-    "Exam-style practice": "",
+    "Exam-style practice": "시험 유형 연습",
 
     // Exam-style practice > p
-    "Three sets, from first steps to level 7. Questions you have not yet answered correctly come first. All questions are original and written in the style of the IB papers.": "",
+    "Three sets, from first steps to level 7. Questions you have not yet answered correctly come first. All questions are original and written in the style of the IB papers.": "첫걸음부터 7등급 수준까지 3세트예요. 아직 맞히지 못한 문제가 먼저 나와요. 모든 문제는 IB 시험지 형식으로 새로 쓴 문제예요.",
 
     // Exam-style practice > data-title attribute
-    "Foundation: one idea at a time": "",
+    "Foundation: one idea at a time": "기초: 한 번에 개념 하나씩",
 
     // Exam-style practice > data-title attribute
-    "Exam standard": "",
+    "Exam standard": "시험 수준",
 
     // Exam-style practice > data-title attribute
-    "Challenge: level 7": "",
+    "Challenge: level 7": "도전: 7등급",
 
     // Exam-style practice > p
-    "<a class=\"btn\" href=\"../practice.html\">Open the practice arena</a>": "",
+    "<a class=\"btn\" href=\"../practice.html\">Open the practice arena</a>": "<a class=\"btn\" href=\"../practice.html\">연습장 열기</a>",
 
     // Where this topic continues > data-toc attribute
-    "Next: Additional HL": "",
+    "Next: Additional HL": "다음: HL 추가 내용",
 
     // Where this topic continues > h2
-    "Where this topic continues": "",
+    "Where this topic continues": "이 단원이 이어지는 곳",
 
     // Where this topic continues > p
-    "This is the end of the SL and HL core for Structure 2.2. SL students have now finished the topic.": "",
+    "This is the end of the SL and HL core for Structure 2.2. SL students have now finished the topic.": "여기까지가 Structure 2.2의 SL·HL 공통 내용이에요. SL 학생은 이제 이 단원을 마쳤어요.",
 
     // Where this topic continues > p
-    "HL students continue on the Additional HL page. It covers resonance and delocalization, benzene, expanded octets with five and six electron domains, formal charge, sigma and pi bonds, and hybridization.": "",
+    "HL students continue on the Additional HL page. It covers resonance and delocalization, benzene, expanded octets with five and six electron domains, formal charge, sigma and pi bonds, and hybridization.": "HL 학생은 HL 추가 내용 페이지에서 계속해요. 공명과 비편재화, 벤젠, 전자 영역이 5개와 6개인 확장된 옥텟, 형식 전하, 시그마 결합과 파이 결합, 혼성화를 다뤄요.",
 
     // Where this topic continues > p
-    "<a class=\"btn btn--primary\" href=\"s2-2h.html\">Go to 2.2 Additional HL</a>": "",
+    "<a class=\"btn btn--primary\" href=\"s2-2h.html\">Go to 2.2 Additional HL</a>": "<a class=\"btn btn--primary\" href=\"s2-2h.html\">2.2 HL 추가 내용으로 가기</a>",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Lewis formula of {formula}": "",
+    "Lewis formula of {formula}": "{formula}의 루이스 구조식",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Unfinished Lewis formula of {formula}": "",
+    "Unfinished Lewis formula of {formula}": "완성되지 않은 {formula}의 루이스 구조식",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Molecule or ion": "",
+    "Molecule or ion": "분자 또는 이온",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Check my formula": "",
+    "Check my formula": "내 구조식 확인",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Start again": "",
+    "Start again": "처음부터 다시",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Show the answer": "",
+    "Show the answer": "답 보기",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Valence electrons in total": "",
+    "Valence electrons in total": "원자가 전자 합계",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Placed so far": "",
+    "Placed so far": "지금까지 놓은 전자",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Left to place": "",
+    "Left to place": "남은 전자",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Check the count": "",
+    "Check the count": "개수 확인",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Show how to count": "",
+    "Show how to count": "세는 방법 보기",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Step 1. How many valence electrons are there in total?": "",
+    "Step 1. How many valence electrons are there in total?": "1단계. 원자가 전자는 모두 몇 개일까요?",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "The charge is {charge}, so take away {n}.": "",
+    "The charge is {charge}, so take away {n}.": "전하가 {charge}이므로 {n}만큼 빼요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "The charge is {charge}, so add {n}.": "",
+    "The charge is {charge}, so add {n}.": "전하가 {charge}이므로 {n}만큼 더해요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Total = {n} electrons = {p} pairs.": "",
+    "Total = {n} electrons = {p} pairs.": "합계 = 전자 {n}개 = {p}쌍.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Use the group number: H 1, Be 2, B 3, C 4, N 5, O 6, F and Cl 7.": "",
+    "Use the group number: H 1, Be 2, B 3, C 4, N 5, O 6, F and Cl 7.": "족 번호를 이용해요: H 1, Be 2, B 3, C 4, N 5, O 6, F와 Cl 7.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Type a whole number.": "",
+    "Type a whole number.": "정수를 입력하세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Correct.": "",
+    "Correct.": "정답이에요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "{n} valence electrons, which is {p} pairs. The atoms are already joined with single bonds. Now place the remaining pairs.": "",
+    "{n} valence electrons, which is {p} pairs. The atoms are already joined with single bonds. Now place the remaining pairs.": "원자가 전자 {n}개, 즉 {p}쌍이에요. 원자들은 이미 단일 결합으로 이어져 있어요. 이제 남은 전자쌍을 놓아요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Not yet.": "",
+    "Not yet.": "아직이에요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "You changed the count the wrong way for the charge. A positive ion has lost electrons. A negative ion has gained electrons.": "",
+    "You changed the count the wrong way for the charge. A positive ion has lost electrons. A negative ion has gained electrons.": "전하에 맞춰 개수를 반대로 고쳤어요. 양이온은 전자를 잃었어요. 음이온은 전자를 얻었어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "You forgot the charge. Take away one electron for each positive charge. Add one for each negative charge.": "",
+    "You forgot the charge. Take away one electron for each positive charge. Add one for each negative charge.": "전하를 잊었어요. 양전하 1개마다 전자를 1개 빼요. 음전하 1개마다 1개 더해요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Add the valence electrons of every atom. Count each atom, not each element.": "",
+    "Add the valence electrons of every atom. Count each atom, not each element.": "모든 원자의 원자가 전자를 더해요. 원소의 종류가 아니라 원자 하나하나를 세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Lewis formula of {formula} being built": "",
+    "Lewis formula of {formula} being built": "만들고 있는 {formula}의 루이스 구조식",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Bond between {a} and {b}: {n} shared pair(s). Press to change.": "",
+    "Bond between {a} and {b}: {n} shared pair(s). Press to change.": "{a}와 {b} 사이의 결합: 공유 전자쌍 {n}개. 눌러서 바꾸세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Atom {a}: {n} lone pair(s). Press to add one.": "",
+    "Atom {a}: {n} lone pair(s). Press to add one.": "원자 {a}: 비공유 전자쌍 {n}개. 눌러서 하나 추가하세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "No room here.": "",
+    "No room here.": "여기에는 자리가 없어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "This atom already has four bonds, so it has no room for a lone pair.": "",
+    "This atom already has four bonds, so it has no room for a lone pair.": "이 원자는 이미 결합이 4개라서 비공유 전자쌍이 들어갈 자리가 없어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Count the electrons first. Then you can click the atoms and bonds.": "",
+    "Count the electrons first. Then you can click the atoms and bonds.": "먼저 전자를 세요. 그다음 원자와 결합을 클릭할 수 있어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Click an atom to add a lone pair. After the highest number it goes back to zero. Click the middle of a bond to change it: single, double, triple, single.": "",
+    "Click an atom to add a lone pair. After the highest number it goes back to zero. Click the middle of a bond to change it: single, double, triple, single.": "원자를 클릭하면 비공유 전자쌍이 추가돼요. 최대 개수 다음에는 0으로 돌아가요. 결합의 가운데를 클릭하면 결합이 바뀌어요: 단일, 이중, 삼중, 단일.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Count all the valence electrons. Adjust for the charge of an ion.": "",
+    "Count all the valence electrons. Adjust for the charge of an ion.": "원자가 전자를 모두 세요. 이온이면 전하에 맞춰 조정해요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Join the atoms with single bonds. (Done for you here. Each bond uses 2 electrons.)": "",
+    "Join the atoms with single bonds. (Done for you here. Each bond uses 2 electrons.)": "원자들을 단일 결합으로 이어요. (여기서는 미리 해 두었어요. 결합 하나에 전자 2개가 쓰여요.)",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Give the outer atoms full shells with lone pairs. Hydrogen needs none. Put any electrons left over on the central atom.": "",
+    "Give the outer atoms full shells with lone pairs. Hydrogen needs none. Put any electrons left over on the central atom.": "바깥 원자의 껍질을 비공유 전자쌍으로 채워요. 수소에는 필요 없어요. 남은 전자는 중심 원자에 놓아요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Check each atom. If the central atom has fewer than 8 electrons, move a lone pair from an outer atom to make a double or triple bond.": "",
+    "Check each atom. If the central atom has fewer than 8 electrons, move a lone pair from an outer atom to make a double or triple bond.": "원자를 하나씩 확인해요. 중심 원자의 전자가 8개보다 적으면, 바깥 원자의 비공유 전자쌍을 옮겨서 이중 결합이나 삼중 결합을 만들어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "For an ion, add square brackets and the charge.": "",
+    "For an ion, add square brackets and the charge.": "이온이면 대괄호와 전하를 붙여요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "done": "",
+    "done": "완료",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "to do": "",
+    "to do": "할 일",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Boron has only 6 electrons here. This is an atom with fewer than an octet, and it is the accepted formula.": "",
+    "Boron has only 6 electrons here. This is an atom with fewer than an octet, and it is the accepted formula.": "여기서 붕소의 전자는 6개뿐이에요. 옥텟 미만인 원자이고, 이것이 인정되는 구조식이에요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Beryllium has only 4 electrons here. This is an atom with fewer than an octet, and it is the accepted formula.": "",
+    "Beryllium has only 4 electrons here. This is an atom with fewer than an octet, and it is the accepted formula.": "여기서 베릴륨의 전자는 4개뿐이에요. 옥텟 미만인 원자이고, 이것이 인정되는 구조식이에요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "One of the four N–H bonds is a coordination bond: both electrons came from nitrogen. All four bonds are identical once formed.": "",
+    "One of the four N–H bonds is a coordination bond: both electrons came from nitrogen. All four bonds are identical once formed.": "N–H 결합 4개 중 1개는 배위 결합이에요: 두 전자가 모두 질소에서 왔어요. 일단 생기고 나면 결합 4개는 모두 똑같아요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "One of the three O–H bonds is a coordination bond: both electrons came from a lone pair on oxygen.": "",
+    "One of the three O–H bonds is a coordination bond: both electrons came from a lone pair on oxygen.": "O–H 결합 3개 중 1개는 배위 결합이에요: 두 전자가 모두 산소의 비공유 전자쌍에서 왔어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Each atom keeps one lone pair. Carbon gives 2 electrons to the triple bond and oxygen gives 4. So one of the three shared pairs comes only from oxygen: it is a coordination bond.": "",
+    "Each atom keeps one lone pair. Carbon gives 2 electrons to the triple bond and oxygen gives 4. So one of the three shared pairs comes only from oxygen: it is a coordination bond.": "각 원자는 비공유 전자쌍을 1개씩 가져요. 탄소는 삼중 결합에 전자 2개를, 산소는 4개를 내놓아요. 그래서 공유 전자쌍 3개 중 1개는 산소에서만 와요: 이것이 배위 결합이에요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "The double bond could go to any one of the three oxygen atoms. HL students study what this means (resonance) on the HL page.": "",
+    "The double bond could go to any one of the three oxygen atoms. HL students study what this means (resonance) on the HL page.": "이중 결합은 산소 원자 3개 중 어느 것에나 올 수 있어요. 이것이 무슨 뜻인지(공명)는 HL 학생이 HL 페이지에서 배워요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "The brackets and the charge have been added. In an exam the charge must be shown.": "",
+    "The brackets and the charge have been added. In an exam the charge must be shown.": "대괄호와 전하를 붙였어요. 시험에서는 전하를 꼭 표시해야 해요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Count first.": "",
+    "Count first.": "먼저 세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Do step 1 before you place any electrons.": "",
+    "Do step 1 before you place any electrons.": "전자를 놓기 전에 1단계를 하세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Too many electrons.": "",
+    "Too many electrons.": "전자가 너무 많아요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "You have placed {p} electrons, but there are only {n}. Remove {d}.": "",
+    "You have placed {p} electrons, but there are only {n}. Remove {d}.": "전자를 {p}개 놓았지만 {n}개뿐이에요. {d}개를 빼세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Electrons are missing.": "",
+    "Electrons are missing.": "전자가 모자라요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "You have placed {p} of the {n} electrons. A Lewis formula must show all the valence electrons, including the lone pairs on the outer atoms.": "",
+    "You have placed {p} of the {n} electrons. A Lewis formula must show all the valence electrons, including the lone pairs on the outer atoms.": "전자 {n}개 중 {p}개를 놓았어요. 루이스 구조식에는 바깥 원자의 비공유 전자쌍을 포함해 원자가 전자가 모두 나타나야 해요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Check hydrogen.": "",
+    "Check hydrogen.": "수소를 확인하세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "A hydrogen atom holds only 2 electrons: one single bond and no lone pairs.": "",
+    "A hydrogen atom holds only 2 electrons: one single bond and no lone pairs.": "수소 원자는 전자를 2개만 가져요: 단일 결합 1개, 비공유 전자쌍 0개.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "More than an octet.": "",
+    "More than an octet.": "옥텟보다 많아요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "The atom {a} has {n} electrons around it. In this topic no atom has more than four pairs.": "",
+    "The atom {a} has {n} electrons around it. In this topic no atom has more than four pairs.": "원자 {a} 주위에 전자가 {n}개 있어요. 이 단원에서는 전자쌍이 4개보다 많은 원자가 없어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "All {n} electrons are shown and every atom has the right number.": "",
+    "All {n} electrons are shown and every atom has the right number.": "전자 {n}개가 모두 나타나 있고, 모든 원자의 전자 수가 맞아요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "The atom {a} has only {n} electrons. Take a lone pair from a neighbouring atom and share it: click the atom to remove the lone pair, then click the bond to make it a multiple bond.": "",
+    "The atom {a} has only {n} electrons. Take a lone pair from a neighbouring atom and share it: click the atom to remove the lone pair, then click the bond to make it a multiple bond.": "원자 {a}의 전자는 {n}개뿐이에요. 이웃 원자의 비공유 전자쌍을 가져와 공유하세요: 그 원자를 클릭해서 비공유 전자쌍을 없앤 다음, 결합을 클릭해서 다중 결합으로 만드세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Nearly.": "",
+    "Nearly.": "거의 다 됐어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Every atom has 8 electrons, but this is not the accepted formula. {a} is an exception: draw it with single bonds only, so it has fewer than an octet.": "",
+    "Every atom has 8 electrons, but this is not the accepted formula. {a} is an exception: draw it with single bonds only, so it has fewer than an octet.": "모든 원자의 전자가 8개이지만, 이것은 인정되는 구조식이 아니에요. {a}는 예외예요: 단일 결합으로만 그려서 옥텟 미만이 되게 하세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "The electron count is right, but the pairs are not in the usual places. Try the most symmetrical arrangement.": "",
+    "The electron count is right, but the pairs are not in the usual places. Try the most symmetrical arrangement.": "전자 수는 맞지만 전자쌍이 보통 있는 자리에 있지 않아요. 가장 대칭적인 배치를 해 보세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Answer shown.": "",
+    "Answer shown.": "답을 보여 줬어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Pair of atoms": "",
+    "Pair of atoms": "원자 쌍",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Bond length": "",
+    "Bond length": "결합 길이",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Bond enthalpy": "",
+    "Bond enthalpy": "결합 엔탈피",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Bond lengths drawn to scale, with bars for bond enthalpy": "",
+    "Bond lengths drawn to scale, with bars for bond enthalpy": "실제 비율로 그린 결합 길이와 결합 엔탈피 막대",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "length (to scale)": "",
+    "length (to scale)": "길이 (실제 비율)",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "bond enthalpy": "",
+    "bond enthalpy": "결합 엔탈피",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "3-D model of {formula}": "",
+    "3-D model of {formula}": "{formula}의 3차원 모형",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "about {a}": "",
+    "about {a}": "약 {a}",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "less than {a}": "",
+    "less than {a}": "{a}보다 작음",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Mode": "",
+    "Mode": "모드",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Explore": "",
+    "Explore": "탐색하기",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Predict first": "",
+    "Predict first": "먼저 예측하기",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Lone pairs on the central atom": "",
+    "Lone pairs on the central atom": "중심 원자의 비공유 전자쌍",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Notice": "",
+    "Notice": "참고",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Choose…": "",
+    "Choose…": "선택…",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Check my prediction": "",
+    "Check my prediction": "내 예측 확인",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Next molecule": "",
+    "Next molecule": "다음 분자",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Choose all three.": "",
+    "Choose all three.": "3가지를 모두 고르세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "The central atom has {d} electron domains: {b} bonding and {l} lone pair(s). A double or triple bond counts as one domain.": "",
+    "The central atom has {d} electron domains: {b} bonding and {l} lone pair(s). A double or triple bond counts as one domain.": "중심 원자에는 전자 영역이 {d}개 있어요: 결합 영역 {b}개와 비공유 전자쌍 {l}개. 이중 결합이나 삼중 결합은 영역 1개로 세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Electron domain geometry: correct.": "",
+    "Electron domain geometry: correct.": "전자 영역 배치: 정답.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Electron domain geometry: not correct.": "",
+    "Electron domain geometry: not correct.": "전자 영역 배치: 오답.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "{d} domains are arranged as {g}.": "",
+    "{d} domains are arranged as {g}.": "영역 {d}개의 배치는 {g}이에요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Molecular geometry: correct.": "",
+    "Molecular geometry: correct.": "분자 모양: 정답.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Molecular geometry: not correct.": "",
+    "Molecular geometry: not correct.": "분자 모양: 오답.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Looking at the atoms only, the shape is {g}.": "",
+    "Looking at the atoms only, the shape is {g}.": "원자만 보면 모양은 {g}이에요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Bond angle: correct.": "",
+    "Bond angle: correct.": "결합각: 정답.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Bond angle: not correct.": "",
+    "Bond angle: not correct.": "결합각: 오답.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Lone pairs repel more than bonding pairs, so the angle is less than {a}. The measured value is {m}.": "",
+    "Lone pairs repel more than bonding pairs, so the angle is less than {a}. The measured value is {m}.": "비공유 전자쌍이 공유 전자쌍보다 더 강하게 반발하므로 결합각은 {a}보다 작아요. 측정값은 {m}이에요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "With no lone pairs the angle is {a}.": "",
+    "With no lone pairs the angle is {a}.": "비공유 전자쌍이 없으면 결합각은 {a}예요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "{n} of 3 correct.": "",
+    "{n} of 3 correct.": "3개 중 {n}개 정답.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "measured: {m}": "",
+    "measured: {m}": "측정값: {m}",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Each lone pair is an electron domain too. It takes up space but is not part of the shape name.": "",
+    "Each lone pair is an electron domain too. It takes up space but is not part of the shape name.": "비공유 전자쌍도 전자 영역이에요. 공간을 차지하지만 모양 이름에는 들어가지 않아요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "No lone pairs: the molecular geometry is the same as the electron domain geometry.": "",
+    "No lone pairs: the molecular geometry is the same as the electron domain geometry.": "비공유 전자쌍 없음: 분자 모양이 전자 영역 배치와 같아요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "The double bond has more electron density, so it repels more. The H–C–H angle closes to about 116° and each H–C=O angle opens to about 122°.": "",
+    "The double bond has more electron density, so it repels more. The H–C–H angle closes to about 116° and each H–C=O angle opens to about 122°.": "이중 결합은 전자 밀도가 더 커서 더 강하게 반발해요. H–C–H 결합각은 약 116°로 좁아지고, 각 H–C=O 결합각은 약 122°로 넓어져요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "The model is drawn from one Lewis formula. In the real molecule the two bonds are equal (an HL idea).": "",
+    "The model is drawn from one Lewis formula. In the real molecule the two bonds are equal (an HL idea).": "이 모형은 루이스 구조식 하나를 바탕으로 그렸어요. 실제 분자에서는 두 결합이 같아요(HL 내용).",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "An ion follows the same rules as a molecule.": "",
+    "An ion follows the same rules as a molecule.": "이온도 분자와 같은 규칙을 따라요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Predict the geometry around the central atom of {formula}.": "",
+    "Predict the geometry around the central atom of {formula}.": "{formula}의 중심 원자 주위의 배치를 예측해 보세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Count the electron domains in the Lewis formula. Then choose your three answers.": "",
+    "Count the electron domains in the Lewis formula. Then choose your three answers.": "루이스 구조식에서 전자 영역을 세요. 그다음 답 3가지를 고르세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Turn the model": "",
+    "Turn the model": "모형 돌리기",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Each bond (difference in electronegativity)": "",
+    "Each bond (difference in electronegativity)": "각 결합 (전기 음성도 차이)",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Net dipole": "",
+    "Net dipole": "알짜 쌍극자",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Model of the molecule with an arrow along each polar bond": "",
+    "Model of the molecule with an arrow along each polar bond": "극성 결합마다 화살표가 그려진 분자 모형",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Predict first: is there a net dipole?": "",
+    "Predict first: is there a net dipole?": "먼저 예측하기: 알짜 쌍극자가 있을까?",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Yes: it is polar": "",
+    "Yes: it is polar": "예: 극성이에요",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "No: the dipoles cancel": "",
+    "No: the dipoles cancel": "아니요: 쌍극자가 상쇄돼요",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "The two atoms are the same, so the bond is not polar. There is nothing to add up.": "",
+    "The two atoms are the same, so the bond is not polar. There is nothing to add up.": "두 원자가 같으므로 결합은 극성이 아니에요. 더할 것이 없어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "The bonds are polar, but the shape is symmetrical: {shape}. The bond dipoles are equal and are arranged symmetrically, so they cancel.": "",
+    "The bonds are polar, but the shape is symmetrical: {shape}. The bond dipoles are equal and are arranged symmetrically, so they cancel.": "결합은 극성이지만 모양이 대칭이에요: {shape}. 결합 쌍극자의 크기가 같고 대칭으로 배열되어 있어서 상쇄돼요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "bent": "",
+    "bent": "굽은 형",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "There is one polar bond, so its dipole is the net dipole.": "",
+    "There is one polar bond, so its dipole is the net dipole.": "극성 결합이 1개뿐이므로, 그 쌍극자가 곧 알짜 쌍극자예요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "The shape is {shape}, which is not symmetrical. The bond dipoles do not cancel, so the molecule has a net dipole.": "",
+    "The shape is {shape}, which is not symmetrical. The bond dipoles do not cancel, so the molecule has a net dipole.": "모양이 {shape}이라서 대칭이 아니에요. 결합 쌍극자가 상쇄되지 않으므로 분자에 알짜 쌍극자가 있어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "The shape is {shape}, but the outer atoms are not all the same. The bond dipoles are not equal, so they do not cancel. The molecule has a net dipole.": "",
+    "The shape is {shape}, but the outer atoms are not all the same. The bond dipoles are not equal, so they do not cancel. The molecule has a net dipole.": "모양은 {shape}이지만 바깥 원자가 모두 같지는 않아요. 결합 쌍극자의 크기가 달라서 상쇄되지 않아요. 분자에 알짜 쌍극자가 있어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "The ion still has its overall charge of 1+, but it has no net dipole.": "",
+    "The ion still has its overall charge of 1+, but it has no net dipole.": "이 이온은 여전히 전체 전하 1+를 띠지만, 알짜 쌍극자는 없어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "The C–H difference is only 0.4, so each bond is only slightly polar anyway.": "",
+    "The C–H difference is only 0.4, so each bond is only slightly polar anyway.": "C–H의 차이는 0.4뿐이라서, 어차피 각 결합의 극성은 아주 약해요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Not this time.": "",
+    "Not this time.": "이번에는 아니에요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "{a} is {d}": "",
+    "{a} is {d}": "{a} 쪽이 {d}",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "not polar": "",
+    "not polar": "극성 아님",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Predict first.": "",
+    "Predict first.": "먼저 예측하세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "No": "",
+    "No": "아니요",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Yes": "",
+    "Yes": "예",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Yes: the molecule is polar.": "",
+    "Yes: the molecule is polar.": "예: 분자는 극성이에요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "None: the ion has no net dipole.": "",
+    "None: the ion has no net dipole.": "없음: 이 이온에는 알짜 쌍극자가 없어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "None: the molecule is non-polar.": "",
+    "None: the molecule is non-polar.": "없음: 분자는 무극성이에요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Thin arrows: bond dipoles, pointing at the more electronegative atom.": "",
+    "Thin arrows: bond dipoles, pointing at the more electronegative atom.": "가는 화살표: 결합 쌍극자, 전기 음성도가 더 큰 원자를 가리켜요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Thick arrow in the circle: net dipole": "",
+    "Thick arrow in the circle: net dipole": "원 안의 굵은 화살표: 알짜 쌍극자",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "No net dipole": "",
+    "No net dipole": "알짜 쌍극자 없음",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "4 other carbon atoms": "",
+    "4 other carbon atoms": "다른 탄소 원자 4개",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "tetrahedral, 109.5°, in three dimensions": "",
+    "tetrahedral, 109.5°, in three dimensions": "정사면체형, 109.5°, 3차원",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "No. All four valence electrons are in bonds.": "",
+    "No. All four valence electrons are in bonds.": "아니요. 원자가 전자 4개가 모두 결합에 쓰여요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "A covalent network: every atom is held by strong covalent bonds. So diamond is very hard and has a very high melting point.": "",
+    "A covalent network: every atom is held by strong covalent bonds. So diamond is very hard and has a very high melting point.": "공유 결정: 모든 원자가 강한 공유 결합으로 붙잡혀 있어요. 그래서 다이아몬드는 매우 단단하고 녹는점이 매우 높아요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "3-D model of a piece of diamond": "",
+    "3-D model of a piece of diamond": "다이아몬드 조각의 3차원 모형",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "3 other carbon atoms": "",
+    "3 other carbon atoms": "다른 탄소 원자 3개",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "flat layers of hexagons, 120°": "",
+    "flat layers of hexagons, 120°": "육각형으로 된 평평한 층, 120°",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Yes. One electron per atom is delocalized and moves along the layers.": "",
+    "Yes. One electron per atom is delocalized and moves along the layers.": "예. 원자 1개당 전자 1개가 비편재화되어 층을 따라 움직여요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Covalent bonds inside each layer. Only weak London (dispersion) forces between layers, so no sticks are drawn there. The layers slide: graphite is soft and slippery. The gap between layers is drawn to scale.": "",
+    "Covalent bonds inside each layer. Only weak London (dispersion) forces between layers, so no sticks are drawn there. The layers slide: graphite is soft and slippery. The gap between layers is drawn to scale.": "각 층 안에는 공유 결합이 있어요. 층 사이에는 약한 런던 분산력만 있어서 막대를 그리지 않았어요. 층이 미끄러지므로 흑연은 무르고 미끄러워요. 층 사이 간격은 실제 비율대로 그렸어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "3-D model of three layers of graphite": "",
+    "3-D model of three layers of graphite": "흑연 세 층의 3차원 모형",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "one flat layer of hexagons, 120°": "",
+    "one flat layer of hexagons, 120°": "육각형으로 된 평평한 층 1개, 120°",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Yes. One electron per atom is delocalized across the sheet.": "",
+    "Yes. One electron per atom is delocalized across the sheet.": "예. 원자 1개당 전자 1개가 판 전체에 비편재화되어 있어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "A single layer of graphite, one atom thick. Very strong, very light, and a very good conductor of electricity and heat.": "",
+    "A single layer of graphite, one atom thick. Very strong, very light, and a very good conductor of electricity and heat.": "흑연 한 층으로, 두께가 원자 1개예요. 매우 강하고 매우 가벼우며, 전기와 열을 매우 잘 전달해요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "3-D model of a sheet of graphene": "",
+    "3-D model of a sheet of graphene": "그래핀 판의 3차원 모형",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Fullerene, C60": "",
+    "Fullerene, C60": "풀러렌, C60",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "a closed cage of 60 atoms: 12 pentagons and 20 hexagons": "",
+    "a closed cage of 60 atoms: 12 pentagons and 20 hexagons": "원자 60개로 된 닫힌 우리 모양: 오각형 12개와 육각형 20개",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Poor. Electrons are delocalized inside one molecule but cannot move from one molecule to the next.": "",
+    "Poor. Electrons are delocalized inside one molecule but cannot move from one molecule to the next.": "나빠요. 전자가 분자 하나 안에서는 비편재화되어 있지만, 다른 분자로 옮겨 갈 수 없어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "This is a molecule, not a network. Only weak London (dispersion) forces act between C60 molecules, so it turns into a gas at a much lower temperature than diamond, and it dissolves slightly in some non-polar solvents.": "",
+    "This is a molecule, not a network. Only weak London (dispersion) forces act between C60 molecules, so it turns into a gas at a much lower temperature than diamond, and it dissolves slightly in some non-polar solvents.": "이것은 그물 구조가 아니라 분자예요. C60 분자 사이에는 약한 런던 분산력만 작용하므로, 다이아몬드보다 훨씬 낮은 온도에서 기체가 되고 일부 무극성 용매에 조금 녹아요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "3-D model of one molecule of fullerene C60": "",
+    "3-D model of one molecule of fullerene C60": "풀러렌 C60 분자 1개의 3차원 모형",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "4 other silicon atoms": "",
+    "4 other silicon atoms": "다른 규소 원자 4개",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "tetrahedral, 109.5°, like diamond": "",
+    "tetrahedral, 109.5°, like diamond": "정사면체형, 109.5°, 다이아몬드와 같음",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Only slightly at room temperature.": "",
+    "Only slightly at room temperature.": "상온에서는 아주 조금만 통해요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Same structure as diamond, but Si–Si bonds are longer and weaker than C–C bonds. So silicon melts at a lower temperature (1414 °C) than diamond.": "",
+    "Same structure as diamond, but Si–Si bonds are longer and weaker than C–C bonds. So silicon melts at a lower temperature (1414 °C) than diamond.": "다이아몬드와 구조가 같지만, Si–Si 결합이 C–C 결합보다 길고 약해요. 그래서 규소는 다이아몬드보다 낮은 온도(1414 °C)에서 녹아요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "3-D model of a piece of silicon": "",
+    "3-D model of a piece of silicon": "규소 조각의 3차원 모형",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Silicon dioxide, SiO2": "",
+    "Silicon dioxide, SiO2": "이산화 규소, SiO2",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Si: 4 oxygen atoms. O: 2 silicon atoms.": "",
+    "Si: 4 oxygen atoms. O: 2 silicon atoms.": "Si: 산소 원자 4개. O: 규소 원자 2개.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "tetrahedral around each silicon atom": "",
+    "tetrahedral around each silicon atom": "각 규소 원자 주위에 정사면체형",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "No. There are no delocalized electrons and no ions that can move.": "",
+    "No. There are no delocalized electrons and no ions that can move.": "아니요. 비편재화된 전자도, 움직일 수 있는 이온도 없어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "A covalent network of Si–O bonds. SiO₂ is a ratio (an empirical formula), not a molecule. Simplified model: oxygen is drawn in a straight line between silicon atoms, but the real Si–O–Si angle is bent.": "",
+    "A covalent network of Si–O bonds. SiO₂ is a ratio (an empirical formula), not a molecule. Simplified model: oxygen is drawn in a straight line between silicon atoms, but the real Si–O–Si angle is bent.": "Si–O 결합으로 이루어진 공유 결정이에요. SiO₂는 분자가 아니라 비(실험식)를 나타내요. 단순화한 모형: 산소를 규소 원자 사이에 일직선으로 그렸지만, 실제 Si–O–Si 결합각은 굽어 있어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "3-D model of a piece of silicon dioxide": "",
+    "3-D model of a piece of silicon dioxide": "이산화 규소 조각의 3차원 모형",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Structure": "",
+    "Structure": "구조",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Arrangement": "",
+    "Arrangement": "배치",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Conducts electricity?": "",
+    "Conducts electricity?": "전기가 통할까?",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Water and water": "",
+    "Water and water": "물과 물",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Ammonia and ammonia": "",
+    "Ammonia and ammonia": "암모니아와 암모니아",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Hydrogen fluoride and hydrogen fluoride": "",
+    "Hydrogen fluoride and hydrogen fluoride": "플루오린화 수소와 플루오린화 수소",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Ethanol and water": "",
+    "Ethanol and water": "ethanol과 물",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Molecules": "",
+    "Molecules": "분자",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Add the next label": "",
+    "Add the next label": "다음 표시 추가",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Show all": "",
+    "Show all": "모두 보기",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Hide the labels": "",
+    "Hide the labels": "표시 숨기기",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "What to draw": "",
+    "What to draw": "그려야 할 것",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Two molecules with a hydrogen bond drawn as a dashed line between them": "",
+    "Two molecules with a hydrogen bond drawn as a dashed line between them": "수소 결합이 점선으로 그려진 두 분자",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "hydrogen bond": "",
+    "hydrogen bond": "수소 결합",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Start with the two molecules. Then add the labels one at a time.": "",
+    "Start with the two molecules. Then add the labels one at a time.": "두 분자부터 시작해요. 그다음 표시를 하나씩 추가해요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "1. Partial charges. {x} is much more electronegative than H, so the {x}–H bond is polar: {x} is δ− and H is δ+.": "",
+    "1. Partial charges. {x} is much more electronegative than H, so the {x}–H bond is polar: {x} is δ− and H is δ+.": "1. 부분 전하. {x} 원자는 H보다 전기 음성도가 훨씬 커서 {x}–H 결합은 극성이에요: {x} 원자는 δ−, H는 δ+예요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "2. Lone pairs. The {y} atom of the second molecule has a lone pair that points at the H atom.": "",
+    "2. Lone pairs. The {y} atom of the second molecule has a lone pair that points at the H atom.": "2. 비공유 전자쌍. 두 번째 분자의 {y} 원자에는 H 원자를 향하는 비공유 전자쌍이 있어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "3. A dashed line from the δ+ hydrogen to the lone pair on {y}. Dashed, because it is a force between molecules. It is not a covalent bond.": "",
+    "3. A dashed line from the δ+ hydrogen to the lone pair on {y}. Dashed, because it is a force between molecules. It is not a covalent bond.": "3. δ+인 수소에서 {y} 원자의 비공유 전자쌍까지 점선을 그어요. 분자 사이의 힘이므로 점선으로 그려요. 공유 결합이 아니에요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "4. The three atoms {x}–H···{y} are drawn in a straight line (180°).": "",
+    "4. The three atoms {x}–H···{y} are drawn in a straight line (180°).": "4. 세 원자 {x}–H···{y}는 일직선(180°)으로 그려요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "propane": "",
+    "propane": "propane",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "pentane": "",
+    "pentane": "pentane",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "2,2-dimethylpropane": "",
+    "2,2-dimethylpropane": "2,2-dimethylpropane",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "bromine": "",
+    "bromine": "브로민",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "iodine": "",
+    "iodine": "아이오딘",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "carbon dioxide": "",
+    "carbon dioxide": "이산화 탄소",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "tetrachloromethane": "",
+    "tetrachloromethane": "tetrachloromethane",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "hydrogen chloride": "",
+    "hydrogen chloride": "염화 수소",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "hydrogen bromide": "",
+    "hydrogen bromide": "브로민화 수소",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "hydrogen sulfide": "",
+    "hydrogen sulfide": "황화 수소",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "chloromethane": "",
+    "chloromethane": "chloromethane",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "trichloromethane": "",
+    "trichloromethane": "trichloromethane",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "propanone": "",
+    "propanone": "propanone",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "methoxymethane": "",
+    "methoxymethane": "methoxymethane",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "ethanal": "",
+    "ethanal": "ethanal",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "hydrogen fluoride": "",
+    "hydrogen fluoride": "플루오린화 수소",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "ethanol": "",
+    "ethanol": "ethanol",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Full structural formula of {name}": "",
+    "Full structural formula of {name}": "{name}의 전개 구조식",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "sublimes at {v} °C": "",
+    "sublimes at {v} °C": "{v} °C에서 승화",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Mixture: a chloromethane molecule and a methane molecule": "",
+    "Mixture: a chloromethane molecule and a methane molecule": "혼합물: chloromethane 분자와 methane 분자",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Mixture: a hydrogen chloride molecule and a chlorine molecule": "",
+    "Mixture: a hydrogen chloride molecule and a chlorine molecule": "혼합물: 염화 수소 분자와 염소 분자",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Molar mass": "",
+    "Molar mass": "몰 질량",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Boiling point": "",
+    "Boiling point": "끓는점",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "dipole–induced dipole forces": "",
+    "dipole–induced dipole forces": "쌍극자-유발 쌍극자 힘",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "dipole–dipole forces": "",
+    "dipole–dipole forces": "쌍극자-쌍극자 힘",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Tick every force that acts between these two different molecules.": "",
+    "Tick every force that acts between these two different molecules.": "서로 다른 이 두 분자 사이에 작용하는 힘을 모두 체크하세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Tick every force that acts between the molecules of this substance.": "",
+    "Tick every force that acts between the molecules of this substance.": "이 물질의 분자 사이에 작용하는 힘을 모두 체크하세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "London (dispersion) forces act between all molecules.": "",
+    "London (dispersion) forces act between all molecules.": "런던 분산력은 모든 분자 사이에 작용해요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "{a} is polar and {b} is non-polar. The permanent dipole of {a} pulls on the electrons of {b} and makes a temporary (induced) dipole. That attraction is a dipole–induced dipole force.": "",
+    "{a} is polar and {b} is non-polar. The permanent dipole of {a} pulls on the electrons of {b} and makes a temporary (induced) dipole. That attraction is a dipole–induced dipole force.": "{a} 분자는 극성이고 {b} 분자는 무극성이에요. {a} 분자의 영구 쌍극자가 {b} 분자의 전자를 끌어당겨 일시적(유발) 쌍극자를 만들어요. 이 인력이 쌍극자-유발 쌍극자 힘이에요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Dipole–dipole forces need two polar molecules. Hydrogen bonding needs an H atom bonded to N, O or F. Neither acts between this pair.": "",
+    "Dipole–dipole forces need two polar molecules. Hydrogen bonding needs an H atom bonded to N, O or F. Neither acts between this pair.": "쌍극자-쌍극자 힘은 극성 분자가 둘 다 있어야 해요. 수소 결합은 N, O, F에 결합한 H 원자가 있어야 해요. 이 쌍에는 둘 다 작용하지 않아요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "London (dispersion) forces: yes. They act between all molecules, because all molecules have electrons.": "",
+    "London (dispersion) forces: yes. They act between all molecules, because all molecules have electrons.": "런던 분산력: 있음. 모든 분자에는 전자가 있으므로 모든 분자 사이에 작용해요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Dipole–dipole forces: yes. The molecule is polar.": "",
+    "Dipole–dipole forces: yes. The molecule is polar.": "쌍극자-쌍극자 힘: 있음. 분자가 극성이에요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Hydrogen bonding: yes. There is an H atom bonded directly to {x}, and {x} has a lone pair.": "",
+    "Hydrogen bonding: yes. There is an H atom bonded directly to {x}, and {x} has a lone pair.": "수소 결합: 있음. {x} 원자에 직접 결합한 H 원자가 있고, {x} 원자에 비공유 전자쌍이 있어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Dipole–dipole forces: yes. The molecule has a net dipole.": "",
+    "Dipole–dipole forces: yes. The molecule has a net dipole.": "쌍극자-쌍극자 힘: 있음. 분자에 알짜 쌍극자가 있어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Hydrogen bonding: no. There is an oxygen atom, but every H atom is bonded to carbon. No H atom is bonded to O, N or F.": "",
+    "Hydrogen bonding: no. There is an oxygen atom, but every H atom is bonded to carbon. No H atom is bonded to O, N or F.": "수소 결합: 없음. 산소 원자는 있지만 H 원자는 모두 탄소에 결합해 있어요. O, N, F에 결합한 H 원자가 없어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Hydrogen bonding: no. No H atom is bonded to N, O or F.": "",
+    "Hydrogen bonding: no. No H atom is bonded to N, O or F.": "수소 결합: 없음. N, O, F에 결합한 H 원자가 없어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Dipole–dipole forces: no. The bonds are polar, but the molecule is symmetrical, so the bond dipoles cancel. There is no net dipole.": "",
+    "Dipole–dipole forces: no. The bonds are polar, but the molecule is symmetrical, so the bond dipoles cancel. There is no net dipole.": "쌍극자-쌍극자 힘: 없음. 결합은 극성이지만 분자가 대칭이라서 결합 쌍극자가 상쇄돼요. 알짜 쌍극자가 없어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Dipole–dipole forces: no. The molecule is non-polar.": "",
+    "Dipole–dipole forces: no. The molecule is non-polar.": "쌍극자-쌍극자 힘: 없음. 분자가 무극성이에요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Hydrogen bonding: no.": "",
+    "Hydrogen bonding: no.": "수소 결합: 없음.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Dipole–induced dipole forces: IB uses this name for the attraction between a polar molecule and a non-polar molecule, so it is used for mixtures.": "",
+    "Dipole–induced dipole forces: IB uses this name for the attraction between a polar molecule and a non-polar molecule, so it is used for mixtures.": "쌍극자-유발 쌍극자 힘: IB는 극성 분자와 무극성 분자 사이의 인력을 이 이름으로 부르므로, 혼합물에 써요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Not yet. Remember: London forces are always present.": "",
+    "Not yet. Remember: London forces are always present.": "아직이에요. 기억하세요: 런던 분산력은 항상 있어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Propane and ethanal (similar molar mass)": "",
+    "Propane and ethanal (similar molar mass)": "propane과 ethanal (몰 질량이 비슷함)",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Propane is non-polar: it has London (dispersion) forces only. Ethanal is polar: it has London (dispersion) forces and dipole–dipole forces.": "",
+    "Propane is non-polar: it has London (dispersion) forces only. Ethanal is polar: it has London (dispersion) forces and dipole–dipole forces.": "propane은 무극성이에요: 런던 분산력만 있어요. ethanal은 극성이에요: 런던 분산력과 쌍극자-쌍극자 힘이 있어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "The molar masses are almost equal, so the London forces are similar. The extra dipole–dipole forces make the total attraction between ethanal molecules stronger.": "",
+    "The molar masses are almost equal, so the London forces are similar. The extra dipole–dipole forces make the total attraction between ethanal molecules stronger.": "몰 질량이 거의 같으므로 런던 분산력은 비슷해요. 쌍극자-쌍극자 힘이 더해져서 ethanal 분자 사이의 전체 인력이 더 강해요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Methoxymethane and ethanol (isomers)": "",
+    "Methoxymethane and ethanol (isomers)": "methoxymethane과 ethanol (이성질체)",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Ethanol has an O–H group, so it has hydrogen bonding (as well as London and dipole–dipole forces). Methoxymethane has London and dipole–dipole forces only: no H is bonded to O.": "",
+    "Ethanol has an O–H group, so it has hydrogen bonding (as well as London and dipole–dipole forces). Methoxymethane has London and dipole–dipole forces only: no H is bonded to O.": "ethanol에는 O–H 작용기가 있어서 수소 결합이 있어요(런던 분산력과 쌍극자-쌍극자 힘도 있어요). methoxymethane에는 런던 분산력과 쌍극자-쌍극자 힘만 있어요: O에 결합한 H가 없어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Hydrogen bonding is stronger than dipole–dipole forces. The molar masses are the same.": "",
+    "Hydrogen bonding is stronger than dipole–dipole forces. The molar masses are the same.": "수소 결합은 쌍극자-쌍극자 힘보다 강해요. 몰 질량은 같아요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Chlorine and bromine": "",
+    "Chlorine and bromine": "염소와 브로민",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Both are non-polar. Both have London (dispersion) forces only.": "",
+    "Both are non-polar. Both have London (dispersion) forces only.": "둘 다 무극성이에요. 둘 다 런던 분산력만 있어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "A bromine molecule has more electrons (70) than a chlorine molecule (34). So the London forces between bromine molecules are stronger.": "",
+    "A bromine molecule has more electrons (70) than a chlorine molecule (34). So the London forces between bromine molecules are stronger.": "브로민 분자는 염소 분자(34)보다 전자가 많아요(70). 그래서 브로민 분자 사이의 런던 분산력이 더 강해요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Pentane and 2,2-dimethylpropane (isomers)": "",
+    "Pentane and 2,2-dimethylpropane (isomers)": "pentane과 2,2-dimethylpropane (이성질체)",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Both are non-polar. Both have London (dispersion) forces only, and the same number of electrons.": "",
+    "Both are non-polar. Both have London (dispersion) forces only, and the same number of electrons.": "둘 다 무극성이에요. 둘 다 런던 분산력만 있고, 전자 수도 같아요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Pentane is a long chain. Its molecules touch over a larger surface area than the compact, branched molecules. So the London forces between pentane molecules are stronger.": "",
+    "Pentane is a long chain. Its molecules touch over a larger surface area than the compact, branched molecules. So the London forces between pentane molecules are stronger.": "pentane은 긴 사슬이에요. pentane 분자들은 촘촘하고 가지 달린 분자보다 더 넓은 표면적으로 맞닿아요. 그래서 pentane 분자 사이의 런던 분산력이 더 강해요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Hydrogen sulfide and water": "",
+    "Hydrogen sulfide and water": "황화 수소와 물",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Water has hydrogen bonding (H bonded to O). Hydrogen sulfide has London and dipole–dipole forces, but no hydrogen bonding.": "",
+    "Water has hydrogen bonding (H bonded to O). Hydrogen sulfide has London and dipole–dipole forces, but no hydrogen bonding.": "물에는 수소 결합이 있어요(H가 O에 결합). 황화 수소에는 런던 분산력과 쌍극자-쌍극자 힘은 있지만 수소 결합은 없어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Hydrogen bonding is stronger than the dipole–dipole forces in hydrogen sulfide. This wins, even though hydrogen sulfide has the larger molar mass.": "",
+    "Hydrogen bonding is stronger than the dipole–dipole forces in hydrogen sulfide. This wins, even though hydrogen sulfide has the larger molar mass.": "수소 결합은 황화 수소의 쌍극자-쌍극자 힘보다 강해요. 황화 수소의 몰 질량이 더 크지만, 이 효과가 더 커요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Hydrogen chloride and hydrogen bromide": "",
+    "Hydrogen chloride and hydrogen bromide": "염화 수소와 브로민화 수소",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Both are polar. Both have London (dispersion) forces and dipole–dipole forces.": "",
+    "Both are polar. Both have London (dispersion) forces and dipole–dipole forces.": "둘 다 극성이에요. 둘 다 런던 분산력과 쌍극자-쌍극자 힘이 있어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Hydrogen bromide has more electrons (36) than hydrogen chloride (18), so its London forces are stronger. This matters more than the slightly larger dipole of hydrogen chloride.": "",
+    "Hydrogen bromide has more electrons (36) than hydrogen chloride (18), so its London forces are stronger. This matters more than the slightly larger dipole of hydrogen chloride.": "브로민화 수소는 염화 수소(18)보다 전자가 많아서(36) 런던 분산력이 더 강해요. 이 효과가 염화 수소의 조금 더 큰 쌍극자보다 더 중요해요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Pair of substances": "",
+    "Pair of substances": "물질 쌍",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Predict first: which has the higher boiling point?": "",
+    "Predict first: which has the higher boiling point?": "먼저 예측하기: 어느 쪽의 끓는점이 더 높을까?",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "boiling point": "",
+    "boiling point": "끓는점",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "The higher boiling point belongs to {name}.": "",
+    "The higher boiling point belongs to {name}.": "끓는점이 더 높은 물질: {name}.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Name the forces in both:": "",
+    "Name the forces in both:": "두 물질의 힘 이름 쓰기:",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Compare their strength:": "",
+    "Compare their strength:": "세기 비교하기:",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Link to energy:": "",
+    "Link to energy:": "에너지와 연결하기:",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "More energy is needed to separate the molecules of {name}, so it boils at a higher temperature.": "",
+    "More energy is needed to separate the molecules of {name}, so it boils at a higher temperature.": "{name} 분자를 떼어 놓는 데 더 많은 에너지가 필요하므로, 더 높은 온도에서 끓어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Paper": "",
+    "Paper": "종이",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "TLC plate": "",
+    "TLC plate": "TLC 판",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Mobile phase (solvent)": "",
+    "Mobile phase (solvent)": "이동상 (용매)",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Less polar": "",
+    "Less polar": "극성이 더 작음",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "More polar": "",
+    "More polar": "극성이 더 큼",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Ruler zero at": "",
+    "Ruler zero at": "자의 0점 위치",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Baseline": "",
+    "Baseline": "출발선",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Bottom edge": "",
+    "Bottom edge": "아래쪽 가장자리",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Run": "",
+    "Run": "전개",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "New paper": "",
+    "New paper": "새 종이",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Measuring line": "",
+    "Measuring line": "측정선",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Status": "",
+    "Status": "상태",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Measuring line reads": "",
+    "Measuring line reads": "측정선 눈금",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Chromatogram: a baseline with four starting spots, a rising solvent front and a ruler": "",
+    "Chromatogram: a baseline with four starting spots, a rising solvent front and a ruler": "크로마토그램: 출발점 4개가 찍힌 출발선, 올라가는 용매 전선, 자",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Spot in lane M": "",
+    "Spot in lane M": "M 줄의 점",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Spot 1 (lowest)": "",
+    "Spot 1 (lowest)": "점 1 (가장 아래)",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Spot 2 (middle)": "",
+    "Spot 2 (middle)": "점 2 (가운데)",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Spot 3 (highest)": "",
+    "Spot 3 (highest)": "점 3 (가장 위)",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Your R<sub>F</sub> value": "",
+    "Your R<sub>F</sub> value": "내 R<sub>F</sub> 값",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Ready. The spots are on the pencil baseline, above the solvent level. Press Run.": "",
+    "Ready. The spots are on the pencil baseline, above the solvent level. Press Run.": "준비 완료. 점들은 용매 표면보다 위에 있는 연필 출발선 위에 있어요. 전개를 누르세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Running. The solvent rises and carries the components with it.": "",
+    "Running. The solvent rises and carries the components with it.": "전개 중. 용매가 올라가면서 성분들을 함께 실어 날라요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Finished. The solvent front is marked. Move the measuring line to read distances, then calculate an R<sub>F</sub> value. Lanes A, B and C are known pure substances.": "",
+    "Finished. The solvent front is marked. Move the measuring line to read distances, then calculate an R<sub>F</sub> value. Lanes A, B and C are known pure substances.": "끝났어요. 용매 전선이 표시되었어요. 측정선을 옮겨서 거리를 읽은 다음 R<sub>F</sub> 값을 계산하세요. A, B, C 줄은 이미 알고 있는 순물질이에요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Type a number, for example 0.45.": "",
+    "Type a number, for example 0.45.": "숫자를 입력하세요. 예: 0.45.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "This spot moved least. It is the most polar component: it is attracted most strongly to the polar stationary phase.": "",
+    "This spot moved least. It is the most polar component: it is attracted most strongly to the polar stationary phase.": "이 점은 가장 조금 이동했어요. 극성이 가장 큰 성분이에요: 극성 고정상에 가장 강하게 끌려요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "This spot moved furthest. It is the least polar component: it is attracted more to the mobile phase than to the polar stationary phase.": "",
+    "This spot moved furthest. It is the least polar component: it is attracted more to the mobile phase than to the polar stationary phase.": "이 점은 가장 멀리 이동했어요. 극성이 가장 작은 성분이에요: 극성 고정상보다 이동상에 더 끌려요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "This spot is in between: its attraction to the stationary phase is in between too.": "",
+    "This spot is in between: its attraction to the stationary phase is in between too.": "이 점은 중간에 있어요: 고정상에 대한 인력도 중간이에요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "It is level with the spot in lane A, so the mixture contains substance A.": "",
+    "It is level with the spot in lane A, so the mixture contains substance A.": "A 줄의 점과 높이가 같으므로, 혼합물에 물질 A가 들어 있어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "It is level with the spot in lane C, so the mixture contains substance C.": "",
+    "It is level with the spot in lane C, so the mixture contains substance C.": "C 줄의 점과 높이가 같으므로, 혼합물에 물질 C가 들어 있어요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "It is not level with A, B or C, so it is none of them.": "",
+    "It is not level with A, B or C, so it is none of them.": "A, B, C 어느 것과도 높이가 같지 않으므로, 그중 어느 것도 아니에요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "An R<sub>F</sub> value can never be more than 1: a spot cannot travel further than the solvent front. Put the spot distance on top.": "",
+    "An R<sub>F</sub> value can never be more than 1: a spot cannot travel further than the solvent front. Put the spot distance on top.": "R<sub>F</sub> 값은 절대 1보다 클 수 없어요: 점은 용매 전선보다 멀리 이동할 수 없어요. 점의 거리를 위(분자)에 놓으세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "You measured from the bottom edge of the paper. Both distances start at the baseline.": "",
+    "You measured from the bottom edge of the paper. Both distances start at the baseline.": "종이의 아래쪽 가장자리에서 쟀어요. 두 거리 모두 출발선에서 시작해요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "You divided by the distance to the top of the paper. Divide by the distance to the solvent front.": "",
+    "You divided by the distance to the top of the paper. Divide by the distance to the solvent front.": "종이 맨 위까지의 거리로 나눴어요. 용매 전선까지의 거리로 나누세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "That is the distance moved by the spot. Divide it by the distance moved by the solvent front.": "",
+    "That is the distance moved by the spot. Divide it by the distance moved by the solvent front.": "그것은 점이 이동한 거리예요. 이것을 용매 전선이 이동한 거리로 나누세요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Measure from the baseline to the centre of the spot, and from the baseline to the solvent front. Then divide the first by the second.": "",
+    "Measure from the baseline to the centre of the spot, and from the baseline to the solvent front. Then divide the first by the second.": "출발선에서 점의 중심까지, 그리고 출발선에서 용매 전선까지 재요. 그다음 첫 번째 값을 두 번째 값으로 나눠요.",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "pencil baseline": "",
+    "pencil baseline": "연필 출발선",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "solvent front": "",
+    "solvent front": "용매 전선",
 
     // widget string (assets/js/widgets-s2-2.js)
-    "Model data, not a real experiment. Shaded area: solvent.": "",
+    "Model data, not a real experiment. Shaded area: solvent.": "모형 자료이며 실제 실험이 아니에요. 색칠한 부분: 용매.",
 
   }
 });

@@ -411,7 +411,7 @@ S1.i18n.register('ko', 's1-4', {
     "<i>M</i><sub>r</sub> = 164.10 (no units)": "<i>M</i><sub>r</sub> = 164.10 (단위 없음)",
 
     // Relative atomic mass and relative formula mass > p
-    "A <dfn data-def=\"A salt whose crystals contain a fixed number of water molecules per formula unit, called water of crystallization.\">hydrated salt</dfn> has water molecules built into its crystals. The dot in <span class=\"chem\">CuSO4.5H2O</span> means “with”, so add five whole waters: <span class=\"mono\">63.55 + 32.07 + 4(16.00) + 5(18.02) = 249.72</span>.": "<dfn data-def=\"결정 속에 화학식 단위당 정해진 수의 물 분자가 들어 있는 염. 이 물을 결정수라고 해요.\">수화물 염 <span class=\"en-term\">(hydrated salt)</span></dfn>은 결정 속에 물 분자가 들어 있어요. <span class=\"chem\">CuSO4.5H2O</span>의 점은 “~와 함께”라는 뜻이므로, 물 분자 다섯 개를 통째로 더하세요: <span class=\"mono\">63.55 + 32.07 + 4(16.00) + 5(18.02) = 249.72</span>.",
+    "A <dfn data-def=\"A salt whose crystals contain a fixed number of water molecules per formula unit, called water of crystallization.\">hydrated salt</dfn> has water molecules built into its crystals. The dot in <span class=\"chem\">CuSO4.5H2O</span> means “with”, so add five whole waters: <span class=\"mono\">63.55 + 32.07 + 4(16.00) + 5(18.02) = 249.72</span>.": "<dfn data-def=\"결정 속에 화학식 단위당 정해진 수의 물 분자가 들어 있는 염. 이 물을 결정수라고 해요.\">수화된 염 <span class=\"en-term\">(hydrated salt)</span></dfn>은 결정 속에 물 분자가 들어 있어요. <span class=\"chem\">CuSO4.5H2O</span>의 점은 “~와 함께”라는 뜻이므로, 물 분자 다섯 개를 통째로 더하세요: <span class=\"mono\">63.55 + 32.07 + 4(16.00) + 5(18.02) = 249.72</span>.",
 
     // Relative atomic mass and relative formula mass > data-def attribute
     "A salt whose crystals contain a fixed number of water molecules per formula unit, called water of crystallization.": "결정 속에 화학식 단위당 정해진 수의 물 분자가 들어 있는 염. 이 물을 결정수라고 해요.",
@@ -954,7 +954,7 @@ S1.i18n.register('ko', 's1-4', {
     "Water of crystallization from heating a hydrate": "수화물을 가열해 결정수 구하기",
 
     // Empirical and molecular formulas > p
-    "The same table method finds the <i>x</i> in a hydrated salt such as <span class=\"chem\">CuSO4.xH2O</span>. A weighed sample is heated so the water is driven off as steam. What is left is the <dfn data-def=\"Without water. An anhydrous salt has lost its water of crystallization.\">anhydrous</dfn> salt. The mass lost is the mass of water.": "같은 표 방법으로 <span class=\"chem\">CuSO4.xH2O</span> 같은 수화물 염의 <i>x</i>를 구할 수 있어요. 무게를 잰 시료를 가열해 물을 수증기로 날려 보내요. 남는 것은 <dfn data-def=\"물이 없는 상태. 무수 염은 결정수를 잃은 염이에요.\">무수 <span class=\"en-term\">(anhydrous)</span></dfn> 염이에요. 줄어든 질량이 물의 질량이에요.",
+    "The same table method finds the <i>x</i> in a hydrated salt such as <span class=\"chem\">CuSO4.xH2O</span>. A weighed sample is heated so the water is driven off as steam. What is left is the <dfn data-def=\"Without water. An anhydrous salt has lost its water of crystallization.\">anhydrous</dfn> salt. The mass lost is the mass of water.": "같은 표 방법으로 <span class=\"chem\">CuSO4.xH2O</span> 같은 수화된 염의 <i>x</i>를 구할 수 있어요. 무게를 잰 시료를 가열해 물을 수증기로 날려 보내요. 남는 것은 <dfn data-def=\"물이 없는 상태. 무수 염은 결정수를 잃은 염이에요.\">무수 <span class=\"en-term\">(anhydrous)</span></dfn> 염이에요. 줄어든 질량이 물의 질량이에요.",
 
     // Empirical and molecular formulas > data-def attribute
     "Without water. An anhydrous salt has lost its water of crystallization.": "물이 없는 상태. 무수 염은 결정수를 잃은 염이에요.",
@@ -1053,7 +1053,7 @@ S1.i18n.register('ko', 's1-4', {
     "Square brackets mean “molar concentration of”. So <span class=\"mono\">[NaCl] = 0.400 mol dm<sup>−3</sup></span> reads “the concentration of sodium chloride is 0.400 moles per cubic decimetre”. You are expected to use this notation.": "대괄호는 “~의 몰 농도”를 뜻해요. 그래서 <span class=\"mono\">[NaCl] = 0.400 mol dm<sup>−3</sup></span>은 “염화 나트륨의 농도는 1세제곱데시미터당 0.400몰이다”라고 읽어요. 이 표기법을 쓸 수 있어야 해요.",
 
     // Concentration of solutions > key idea > p
-    "<i>V</i> is the volume of the finished <strong>solution</strong>, not the volume of water you added. Dissolving a solid changes the volume a little, which is why solutions are made up to a mark and not by adding a measured volume of water.": "<i>V</i>는 완성된 <strong>용액</strong>의 부피이지, 넣은 물의 부피가 아니에요. 고체를 녹이면 부피가 조금 변해요. 그래서 용액은 정해진 부피의 물을 넣는 것이 아니라 눈금선까지 채워서 만들어요.",
+    "<i>V</i> is the volume of the finished <strong>solution</strong>, not the volume of water you added. Dissolving a solid changes the volume a little, which is why solutions are made up to a mark and not by adding a measured volume of water.": "<i>V</i>는 완성된 <strong>용액</strong>의 부피이지, 넣은 물의 부피가 아니에요. 고체를 녹이면 부피가 조금 변해요. 그래서 용액은 정해진 부피의 물을 넣는 것이 아니라 표선까지 채워서 만들어요.",
 
     // Concentration of solutions > h3
     "Two ways to state a concentration": "농도를 나타내는 두 가지 방법",
@@ -1176,13 +1176,13 @@ S1.i18n.register('ko', 's1-4', {
     "Making a standard solution": "표준 용액 만들기",
 
     // Concentration of solutions > p
-    "A <dfn data-def=\"A solution whose concentration is known accurately.\">standard solution</dfn> is one whose concentration is known accurately. It is made in a <dfn data-def=\"A flask with a long narrow neck and a single graduation mark. It holds one accurately known volume, such as 250.0 cm^3.\">volumetric flask</dfn>, which has a single mark on a narrow neck and holds one precise volume.": "<dfn data-def=\"농도가 정확히 알려진 용액.\">표준 용액 <span class=\"en-term\">(standard solution)</span></dfn>은 농도가 정확히 알려진 용액이에요. 표준 용액은 <dfn data-def=\"길고 좁은 목에 눈금선이 하나 있는 플라스크. 250.0 cm^3처럼 정확히 알려진 한 가지 부피만 담아요.\">부피 플라스크 <span class=\"en-term\">(volumetric flask)</span></dfn>로 만드는데, 좁은 목에 눈금선이 하나 있고 정밀한 한 가지 부피만 담아요.",
+    "A <dfn data-def=\"A solution whose concentration is known accurately.\">standard solution</dfn> is one whose concentration is known accurately. It is made in a <dfn data-def=\"A flask with a long narrow neck and a single graduation mark. It holds one accurately known volume, such as 250.0 cm^3.\">volumetric flask</dfn>, which has a single mark on a narrow neck and holds one precise volume.": "<dfn data-def=\"농도가 정확히 알려진 용액.\">표준 용액 <span class=\"en-term\">(standard solution)</span></dfn>은 농도가 정확히 알려진 용액이에요. 표준 용액은 <dfn data-def=\"길고 좁은 목에 표선이 하나 있는 플라스크. 250.0 cm^3처럼 정확히 알려진 한 가지 부피만 담아요.\">부피 플라스크 <span class=\"en-term\">(volumetric flask)</span></dfn>로 만드는데, 좁은 목에 표선이 하나 있고 정밀한 한 가지 부피만 담아요.",
 
     // Concentration of solutions > data-def attribute
     "A solution whose concentration is known accurately.": "농도가 정확히 알려진 용액.",
 
     // Concentration of solutions > data-def attribute
-    "A flask with a long narrow neck and a single graduation mark. It holds one accurately known volume, such as 250.0 cm^3.": "길고 좁은 목에 눈금선이 하나 있는 플라스크. 250.0 cm^3처럼 정확히 알려진 한 가지 부피만 담아요.",
+    "A flask with a long narrow neck and a single graduation mark. It holds one accurately known volume, such as 250.0 cm^3.": "길고 좁은 목에 표선이 하나 있는 플라스크. 250.0 cm^3처럼 정확히 알려진 한 가지 부피만 담아요.",
 
     // Concentration of solutions > widget > data-title attribute
     "Solution lab": "용액 실험실",
@@ -1236,13 +1236,13 @@ S1.i18n.register('ko', 's1-4', {
     "Pour the solution through a funnel into the volumetric flask. Rinse the beaker, the stirring rod and the funnel with distilled water, and add the <strong>rinsings</strong> to the flask.": "용액을 깔때기를 통해 부피 플라스크에 부어요. 비커, 젓개, 깔때기를 증류수로 헹구고, <strong>헹군 물</strong>도 플라스크에 넣어요.",
 
     // Concentration of solutions > li
-    "Add distilled water until the bottom of the meniscus sits on the <strong>mark</strong>. Add the last drops with a dropping pipette.": "메니스커스의 바닥이 <strong>눈금선</strong>에 닿을 때까지 증류수를 넣어요. 마지막 몇 방울은 스포이트로 넣어요.",
+    "Add distilled water until the bottom of the meniscus sits on the <strong>mark</strong>. Add the last drops with a dropping pipette.": "메니스커스의 바닥이 <strong>표선</strong>에 닿을 때까지 증류수를 넣어요. 마지막 몇 방울은 스포이트로 넣어요.",
 
     // Concentration of solutions > li
     "Stopper the flask and <strong>invert</strong> it several times to mix.": "플라스크 마개를 막고 여러 번 <strong>뒤집어</strong> 섞어요.",
 
     // Concentration of solutions > exam tip (shown in English + translation) > p
-    "Markschemes reward specific words: <strong>volumetric flask</strong>, <strong>distilled or deionized water</strong>, transfer <strong>with rinsings</strong>, <strong>make up to the mark</strong>, <strong>stopper and invert to mix</strong>. Writing only “water” can lose a mark. “Add 250 cm<sup>3</sup> of water” is wrong chemistry: the flask is filled <em>up to</em> the mark, so the solution, not the water, is 250.0 cm<sup>3</sup>.": "채점 기준은 특정한 표현에 점수를 줘요: <strong>부피 플라스크</strong>, <strong>증류수 또는 탈이온수</strong>, <strong>헹군 물과 함께</strong> 옮기기, <strong>눈금선까지 채우기</strong>, <strong>마개를 막고 뒤집어 섞기</strong>. “물”이라고만 쓰면 점수를 잃을 수 있어요. “물 250 cm<sup>3</sup>를 넣는다”는 화학적으로 틀린 말이에요: 플라스크는 눈금선<em>까지</em> 채우므로, 250.0 cm<sup>3</sup>인 것은 물이 아니라 용액이에요.",
+    "Markschemes reward specific words: <strong>volumetric flask</strong>, <strong>distilled or deionized water</strong>, transfer <strong>with rinsings</strong>, <strong>make up to the mark</strong>, <strong>stopper and invert to mix</strong>. Writing only “water” can lose a mark. “Add 250 cm<sup>3</sup> of water” is wrong chemistry: the flask is filled <em>up to</em> the mark, so the solution, not the water, is 250.0 cm<sup>3</sup>.": "채점 기준은 특정한 표현에 점수를 줘요: <strong>부피 플라스크</strong>, <strong>증류수 또는 탈이온수</strong>, <strong>헹군 물과 함께</strong> 옮기기, <strong>표선까지 채우기</strong>, <strong>마개를 막고 뒤집어 섞기</strong>. “물”이라고만 쓰면 점수를 잃을 수 있어요. “물 250 cm<sup>3</sup>를 넣는다”는 화학적으로 틀린 말이에요: 플라스크는 표선<em>까지</em> 채우므로, 250.0 cm<sup>3</sup>인 것은 물이 아니라 용액이에요.",
 
     // Concentration of solutions > try it > p
     "Calculate the mass of hydrated copper(II) sulfate, <span class=\"chem\">CuSO4.5H2O</span>, needed to prepare 100.0 cm<sup>3</sup> of a 0.200 mol dm<sup>−3</sup> solution. (<i>M</i>(<span class=\"chem\">CuSO4.5H2O</span>) = 249.72 g mol<sup>−1</sup>)": "0.200 mol dm<sup>−3</sup> 용액 100.0 cm<sup>3</sup>를 만드는 데 필요한 수화된 황산 구리(II) <span class=\"chem\">CuSO4.5H2O</span>의 질량을 계산하시오 (calculate). (<i>M</i>(<span class=\"chem\">CuSO4.5H2O</span>) = 249.72 g mol<sup>−1</sup>)",
@@ -1331,13 +1331,13 @@ S1.i18n.register('ko', 's1-4', {
     "Run it into a <strong>volumetric flask</strong> of the right size, here 250.0 cm<sup>3</sup>.": "알맞은 크기의 <strong>부피 플라스크</strong>, 여기서는 250.0 cm<sup>3</sup> 플라스크에 넣어요.",
 
     // Concentration of solutions > li
-    "Add <strong>distilled water</strong> up to the <strong>mark</strong>.": "<strong>눈금선</strong>까지 <strong>증류수</strong>를 넣어요.",
+    "Add <strong>distilled water</strong> up to the <strong>mark</strong>.": "<strong>표선</strong>까지 <strong>증류수</strong>를 넣어요.",
 
     // Concentration of solutions > li
     "Stopper and invert several times to <strong>mix</strong>.": "마개를 막고 여러 번 뒤집어 <strong>섞어요</strong>.",
 
     // Concentration of solutions > common mistake > p
-    "“Add 237.5 cm<sup>3</sup> of water” is not the right description. <i>V</i><sub>2</sub> is the <em>total</em> final volume, and volumes do not always add exactly. The correct instruction is to make the solution up to the mark.": "“물 237.5 cm<sup>3</sup>를 넣는다”는 바른 서술이 아니에요. <i>V</i><sub>2</sub>는 최종 <em>전체</em> 부피이고, 부피는 항상 정확히 더해지지 않아요. 바른 지시는 용액을 눈금선까지 채우는 거예요.",
+    "“Add 237.5 cm<sup>3</sup> of water” is not the right description. <i>V</i><sub>2</sub> is the <em>total</em> final volume, and volumes do not always add exactly. The correct instruction is to make the solution up to the mark.": "“물 237.5 cm<sup>3</sup>를 넣는다”는 바른 서술이 아니에요. <i>V</i><sub>2</sub>는 최종 <em>전체</em> 부피이고, 부피는 항상 정확히 더해지지 않아요. 바른 지시는 용액을 표선까지 채우는 거예요.",
 
     // Concentration of solutions > p
     "A <dfn data-def=\"A series of dilutions in which each new solution is made by diluting the one before it by the same factor.\">serial dilution</dfn> repeats the same step. Dilute a 1.00 mol dm<sup>−3</sup> stock 10 times to get 0.100 mol dm<sup>−3</sup>. Dilute that 10 times to get 0.0100 mol dm<sup>−3</sup>, and so on. It reaches very low concentrations without measuring tiny volumes.": "<dfn data-def=\"새 용액마다 바로 앞 용액을 같은 배수로 희석해서 만드는 일련의 희석.\">연속 희석 <span class=\"en-term\">(serial dilution)</span></dfn>은 같은 단계를 되풀이해요. 1.00 mol dm<sup>−3</sup> 원액을 10배 희석하면 0.100 mol dm<sup>−3</sup>가 돼요. 그것을 다시 10배 희석하면 0.0100 mol dm<sup>−3</sup>가 되고, 이런 식으로 계속해요. 아주 적은 부피를 재지 않고도 매우 낮은 농도까지 갈 수 있어요.",
@@ -1346,7 +1346,7 @@ S1.i18n.register('ko', 's1-4', {
     "A series of dilutions in which each new solution is made by diluting the one before it by the same factor.": "새 용액마다 바로 앞 용액을 같은 배수로 희석해서 만드는 일련의 희석.",
 
     // Concentration of solutions > try it > p
-    "10.0 cm<sup>3</sup> of a 0.500 mol dm<sup>−3</sup> solution is pipetted into a 250.0 cm<sup>3</sup> volumetric flask and made up to the mark with distilled water. Calculate the concentration of the diluted solution.": "0.500 mol dm<sup>−3</sup> 용액 10.0 cm<sup>3</sup>를 피펫으로 250.0 cm<sup>3</sup> 부피 플라스크에 옮기고 증류수로 눈금선까지 채워요. 희석된 용액의 농도를 계산하시오 (calculate).",
+    "10.0 cm<sup>3</sup> of a 0.500 mol dm<sup>−3</sup> solution is pipetted into a 250.0 cm<sup>3</sup> volumetric flask and made up to the mark with distilled water. Calculate the concentration of the diluted solution.": "0.500 mol dm<sup>−3</sup> 용액 10.0 cm<sup>3</sup>를 피펫으로 250.0 cm<sup>3</sup> 부피 플라스크에 옮기고 증류수로 표선까지 채워요. 희석된 용액의 농도를 계산하시오 (calculate).",
 
     // Concentration of solutions > try it > li
     "Which values are <i>C</i><sub>1</sub>, <i>V</i><sub>1</sub> and <i>V</i><sub>2</sub>? The unknown is <i>C</i><sub>2</sub>. It must be smaller than 0.500.": "<i>C</i><sub>1</sub>, <i>V</i><sub>1</sub>, <i>V</i><sub>2</sub>는 어떤 값일까요? 모르는 값은 <i>C</i><sub>2</sub>예요. 이 값은 0.500보다 작아야 해요.",
@@ -2220,7 +2220,7 @@ S1.i18n.register('ko', 's1-4', {
     "needs the molar mass": "몰 질량이 필요해요",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "the mark": "눈금선",
+    "the mark": "표선",
 
     // widget string (assets/js/widgets-s1-4.js)
     "hydrated copper(II) sulfate": "수화된 황산 구리(II)",
@@ -2259,7 +2259,7 @@ S1.i18n.register('ko', 's1-4', {
     "Volumetric flask, V₂": "부피 플라스크, V₂",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volumetric flask filled to the graduation mark": "눈금선까지 채운 부피 플라스크",
+    "Volumetric flask filled to the graduation mark": "표선까지 채운 부피 플라스크",
 
     // widget string (assets/js/widgets-s1-4.js)
     "Amount of solute": "용질의 양",
@@ -2283,7 +2283,7 @@ S1.i18n.register('ko', 's1-4', {
     "make up": "채우기",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "to the mark": "눈금선까지",
+    "to the mark": "표선까지",
 
     // widget string (assets/js/widgets-s1-4.js)
     "{v} cm³ flask": "{v} cm³ 플라스크",
@@ -2295,7 +2295,7 @@ S1.i18n.register('ko', 's1-4', {
     "colourless solution": "무색 용액",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "A balance with {m} g of {name} and a {v} cm3 volumetric flask filled to the graduation mark": "{name} {m} g이 올려진 저울과, 눈금선까지 채운 {v} cm3 부피 플라스크",
+    "A balance with {m} g of {name} and a {v} cm3 volumetric flask filled to the graduation mark": "{name} {m} g이 올려진 저울과, 표선까지 채운 {v} cm3 부피 플라스크",
 
     // widget string (assets/js/widgets-s1-4.js)
     "mass concentration = {calc}": "질량 농도 = {calc}",

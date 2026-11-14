@@ -1026,535 +1026,535 @@ S1.i18n.register('ko', 's3-1.q', {
         // EN: <span class="chem">SO3</span>
         "<span class=\"chem\">SO3</span>",
         // EN: <span class="chem">S^2-</span>
-        "",
+        "<span class=\"chem\">S^2-</span>",
       ],
       hints: [
         // EN: The Roman numeral (IV) is the oxidation state of sulfur: +4.
-        "",
+        "로마 숫자 (IV)는 황의 산화수예요: +4.",
         // EN: Test each ion: sulfur + oxygens (each −2) = charge on the ion.
-        "",
+        "각 이온을 확인해 보세요: 황 + 산소들(각각 −2) = 이온의 전하.",
       ],
       // EN: <p>Sulfate(IV) means sulfur has oxidation state +4. Test <span class="chem">SO3^2-</span>:</p><div class="worked__math"><i>x</i> + 3(−2) = −2</div><div class="worked__math"><i>x</i> = <b>+4</b></div><p>So <span class="chem">SO3^2-</span> is sulfate(IV), or sulfite. <span class="chem">SO4^2-</span> is sulfate(VI), or sulfate. In the same way, <span class="chem">NO2-</span> is nitrite (nitrogen +3) and <span class="chem">NO3-</span> is nitrate (nitrogen +5). IB accepts both kinds of name.</p>
-      solution: "",
+      solution: "<p>황산(IV)은 황의 산화수가 +4라는 뜻이에요. <span class=\"chem\">SO3^2-</span>를 확인해 봐요:</p><div class=\"worked__math\"><i>x</i> + 3(−2) = −2</div><div class=\"worked__math\"><i>x</i> = <b>+4</b></div><p>그러므로 <span class=\"chem\">SO3^2-</span>는 황산(IV) 이온, 즉 아황산 이온이에요. <span class=\"chem\">SO4^2-</span>는 황산(VI) 이온, 즉 황산 이온이에요. 같은 방식으로 <span class=\"chem\">NO2-</span>는 아질산 이온(질소 +3)이고 <span class=\"chem\">NO3-</span>는 질산 이온(질소 +5)이에요. IB에서는 두 가지 이름을 모두 인정해요.</p>",
       misconception: {
         // EN (option B): In <span class="chem">SO4^2-</span> sulfur is +6: <i>x</i> + 4(−2) = −2. This is sulfate(VI), usually called sulfate.
-        "1": "",
+        "1": "<span class=\"chem\">SO4^2-</span>에서 황은 +6이에요: <i>x</i> + 4(−2) = −2. 이것은 황산(VI) 이온이고, 보통 황산 이온이라고 불러요.",
         // EN (option C): <span class="chem">SO3</span> is a molecule, sulfur trioxide, not an ion. Sulfur is +6 in it.
-        "2": "",
+        "2": "<span class=\"chem\">SO3</span>는 이온이 아니라 분자인 삼산화 황이에요. 여기서 황은 +6이에요.",
         // EN (option D): <span class="chem">S^2-</span> is the sulfide ion. Sulfur is −2. Names ending in -ate or -ite contain oxygen.
-        "3": "",
+        "3": "<span class=\"chem\">S^2-</span>는 황화 이온이에요. 황은 −2예요. 영어 이름이 -ate나 -ite로 끝나는 이온(한국어로는 ‘~산 이온’, ‘아~산 이온’)에는 산소가 들어 있어요.",
       },
     },
 
     // ── s3-1-q037 · order · challenge · SL · Structure 3.1.6 · 1 mark
     "s3-1-q037": {
       // EN: <p>Put these species in order of <strong>increasing oxidation state of nitrogen</strong> (most negative first).</p>
-      stem: "",
+      stem: "<p>다음 화학종을 <strong>질소의 산화수가 커지는 순서</strong>(가장 작은 음수부터)로 늘어놓으세요.</p>",
       options: [
         // EN: <span class="chem">NH4+</span>
-        "",
+        "<span class=\"chem\">NH4+</span>",
         // EN: <span class="chem">N2H4</span>
-        "",
+        "<span class=\"chem\">N2H4</span>",
         // EN: <span class="chem">N2</span>
-        "",
+        "<span class=\"chem\">N2</span>",
         // EN: <span class="chem">NO2-</span>
-        "",
+        "<span class=\"chem\">NO2-</span>",
         // EN: <span class="chem">NO3-</span>
-        "",
+        "<span class=\"chem\">NO3-</span>",
       ],
       hints: [
         // EN: Hydrogen is +1 and oxygen is −2 in all of these.
-        "",
+        "이 화학종들에서 수소는 모두 +1, 산소는 모두 −2예요.",
         // EN: For an ion, the total equals the charge on the ion. For an element, the oxidation state is 0.
-        "",
+        "이온에서는 합계가 이온의 전하와 같아요. 홑원소 물질에서는 산화수가 0이에요.",
         // EN: In <span class="chem">N2H4</span> there are two nitrogen atoms: divide by 2.
-        "",
+        "<span class=\"chem\">N2H4</span>에는 질소 원자가 2개 있어요: 2로 나누세요.",
       ],
       // EN: <div class="worked__math"><span class="chem">NH4+</span>: <i>x</i> + 4(+1) = +1, so <i>x</i> = −3</div><div class="worked__math"><span class="chem">N2H4</span>: 2<i>x</i> + 4(+1) = 0, so <i>x</i> = −2</div><div class="worked__math"><span class="chem">N2</span>: element, so <i>x</i> = 0</div><div class="worked__math"><span class="chem">NO2-</span>: <i>x</i> + 2(−2) = −1, so <i>x</i> = +3</div><div class="worked__math"><span class="chem">NO3-</span>: <i>x</i> + 3(−2) = −1, so <i>x</i> = +5</div><p>Nitrogen shows oxidation states from −3 to +5.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><span class=\"chem\">NH4+</span>: <i>x</i> + 4(+1) = +1, 따라서 <i>x</i> = −3</div><div class=\"worked__math\"><span class=\"chem\">N2H4</span>: 2<i>x</i> + 4(+1) = 0, 따라서 <i>x</i> = −2</div><div class=\"worked__math\"><span class=\"chem\">N2</span>: 홑원소 물질, 따라서 <i>x</i> = 0</div><div class=\"worked__math\"><span class=\"chem\">NO2-</span>: <i>x</i> + 2(−2) = −1, 따라서 <i>x</i> = +3</div><div class=\"worked__math\"><span class=\"chem\">NO3-</span>: <i>x</i> + 3(−2) = −1, 따라서 <i>x</i> = +5</div><p>질소는 −3부터 +5까지의 산화수를 가져요.</p>",
     },
 
     // ── s3-1-q038 · mcq · foundation · AHL · Structure 3.1.7 · 1 mark
     "s3-1-q038": {
       // EN: <p>The table shows first ionization energies from the data booklet for period 2.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>First ionization energy / kJ mol<sup>−1</sup></caption><thead><tr><th scope="col">Element</th><th class="num" scope="col">Li</th><th class="num" scope="col">Be</th><th class="num" scope="col">B</th><th class="num" scope="col">C</th><th class="num" scope="col">N</th><th class="num" scope="col">O</th><th class="num" scope="col">F</th><th class="num" scope="col">Ne</th></tr></thead><tbody><tr><th scope="row">IE</th><td class="num">520</td><td class="num">900</td><td class="num">801</td><td class="num">1086</td><td class="num">1402</td><td class="num">1314</td><td class="num">1681</td><td class="num">2081</td></tr></tbody></table></div><p>The general trend is an increase. Which two elements have a <strong>lower</strong> first ionization energy than the element before them?</p>
-      stem: "",
+      stem: "<p>표는 데이터 부클릿에 있는 2주기 원소의 제1 이온화 에너지예요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>제1 이온화 에너지 / kJ mol<sup>−1</sup></caption><thead><tr><th scope=\"col\">원소</th><th class=\"num\" scope=\"col\">Li</th><th class=\"num\" scope=\"col\">Be</th><th class=\"num\" scope=\"col\">B</th><th class=\"num\" scope=\"col\">C</th><th class=\"num\" scope=\"col\">N</th><th class=\"num\" scope=\"col\">O</th><th class=\"num\" scope=\"col\">F</th><th class=\"num\" scope=\"col\">Ne</th></tr></thead><tbody><tr><th scope=\"row\">IE</th><td class=\"num\">520</td><td class=\"num\">900</td><td class=\"num\">801</td><td class=\"num\">1086</td><td class=\"num\">1402</td><td class=\"num\">1314</td><td class=\"num\">1681</td><td class=\"num\">2081</td></tr></tbody></table></div><p>전체적인 경향은 증가예요. 제1 이온화 에너지가 바로 앞 원소보다 <strong>작은</strong> 두 원소는 어느 것인가요?</p>",
       options: [
         // EN: Be and N
-        "",
+        "Be와 N",
         // EN: B and O
-        "",
+        "B와 O",
         // EN: C and F
-        "",
+        "C와 F",
         // EN: Li and Ne
-        "",
+        "Li와 Ne",
       ],
       hints: [
         // EN: Go along the row. Compare each value with the one to its left.
-        "",
+        "표의 행을 따라가며 각 값을 왼쪽 값과 비교해 보세요.",
         // EN: There are two places where the value goes down.
-        "",
+        "값이 내려가는 곳이 두 군데 있어요.",
       ],
       // EN: <p>The value falls from Be (900) to <strong>B</strong> (801), and from N (1402) to <strong>O</strong> (1314). These two decreases are called discontinuities.</p><ul><li>B: the electron is removed from the 2p sublevel, which is higher in energy than the 2s sublevel.</li><li>O: the electron is removed from a 2p orbital that holds two electrons. The two electrons repel each other, so one is removed more easily.</li></ul>
-      solution: "",
+      solution: "<p>값은 Be(900)에서 <strong>B</strong>(801)로, N(1402)에서 <strong>O</strong>(1314)로 떨어져요. 이 두 감소를 불연속이라고 해요.</p><ul><li>B: 2s 부껍질보다 에너지가 높은 2p 부껍질에서 전자를 떼어 내요.</li><li>O: 전자 2개가 들어 있는 2p 오비탈에서 전자를 떼어 내요. 두 전자가 서로 밀어내므로 하나를 더 쉽게 떼어 낼 수 있어요.</li></ul>",
       misconception: {
         // EN (option A): Be (900) is higher than Li (520), and N (1402) is higher than C (1086). These are the elements that come <em>before</em> each decrease.
-        "0": "",
+        "0": "Be(900)는 Li(520)보다 크고, N(1402)은 C(1086)보다 커요. 이 원소들은 각 감소의 <em>바로 앞</em>에 있는 원소예요.",
         // EN (option C): C (1086) is higher than B (801), and F (1681) is higher than O (1314). These follow the general trend.
-        "2": "",
+        "2": "C(1086)는 B(801)보다 크고, F(1681)는 O(1314)보다 커요. 이 원소들은 전체적인 경향을 따라요.",
         // EN (option D): Li is the first element in the period, and Ne has the highest value of all.
-        "3": "",
+        "3": "Li는 주기의 첫 원소이고, Ne는 모든 원소 가운데 값이 가장 커요.",
       },
     },
 
     // ── s3-1-q039 · short · exam · AHL · Structure 3.1.7 · 2 marks
     "s3-1-q039": {
       // EN: <p>The first ionization energy of magnesium is 738 kJ mol<sup>−1</sup>. The first ionization energy of aluminium is 578 kJ mol<sup>−1</sup>.</p><p>Explain why the value for aluminium is lower, even though aluminium has a greater nuclear charge.</p>
-      stem: "",
+      stem: "<p>마그네슘의 제1 이온화 에너지는 738 kJ mol<sup>−1</sup>이에요. 알루미늄의 제1 이온화 에너지는 578 kJ mol<sup>−1</sup>이에요.</p><p>알루미늄의 핵전하가 더 큰데도 알루미늄의 값이 더 작은 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: Write the electron configuration of each atom.
-        "",
+        "각 원자의 전자 배치를 쓰세요.",
         // EN: From which sublevel is the electron removed in each atom? Which sublevel is higher in energy?
-        "",
+        "각 원자에서 전자는 어느 부껍질에서 떨어져 나가나요? 어느 부껍질의 에너지가 더 높나요?",
       ],
       // EN: <p>Mg is <span class="mono nowrap">[Ne] 3s<sup>2</sup></span> and Al is <span class="mono nowrap">[Ne] 3s<sup>2</sup> 3p<sup>1</sup></span>. In magnesium the electron is removed from the 3s sublevel. In aluminium it is removed from the 3p sublevel. The 3p sublevel is higher in energy than the 3s sublevel, so less energy is needed to remove the electron.</p><p>Do not write that a full 3s sublevel is “specially stable”. Base your answer on the energy of the electron that is removed.</p>
-      answer: "",
+      answer: "<p>Mg는 <span class=\"mono nowrap\">[Ne] 3s<sup>2</sup></span>이고 Al은 <span class=\"mono nowrap\">[Ne] 3s<sup>2</sup> 3p<sup>1</sup></span>이에요. 마그네슘에서는 3s 부껍질에서 전자를 떼어 내요. 알루미늄에서는 3p 부껍질에서 떼어 내요. 3p 부껍질은 3s 부껍질보다 에너지가 높으므로, 전자를 떼어 내는 데 필요한 에너지가 더 작아요.</p><p>꽉 찬 3s 부껍질이 “특별히 안정하다”라고 쓰지 마세요. 떨어져 나가는 전자의 에너지를 근거로 답하세요.</p>",
       markscheme: [
         // EN: In Al the electron is removed from the 3p sublevel, and in Mg from the 3s sublevel.
-        "",
+        "Al에서는 3p 부껍질에서, Mg에서는 3s 부껍질에서 전자가 떨어져 나간다.",
         // EN: The 3p sublevel is higher in energy than the 3s sublevel (accept: the 3p electron is further from the nucleus / is also shielded by the 3s electrons), so less energy is needed.
-        "",
+        "3p 부껍질은 3s 부껍질보다 에너지가 높으므로(“3p 전자가 원자핵에서 더 멀다 / 3s 전자에 의해서도 가려진다”도 인정) 필요한 에너지가 더 작다.",
       ],
     },
 
     // ── s3-1-q040 · short · exam · AHL · Structure 3.1.7 · 2 marks
     "s3-1-q040": {
       // EN: <p>The first ionization energy of phosphorus is 1012 kJ mol<sup>−1</sup>. The first ionization energy of sulfur is 1000 kJ mol<sup>−1</sup>.</p><p>Explain why the value for sulfur is lower, even though sulfur has a greater nuclear charge.</p>
-      stem: "",
+      stem: "<p>인의 제1 이온화 에너지는 1012 kJ mol<sup>−1</sup>이에요. 황의 제1 이온화 에너지는 1000 kJ mol<sup>−1</sup>이에요.</p><p>황의 핵전하가 더 큰데도 황의 값이 더 작은 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: Draw the 3p orbitals as three boxes for P and for S.
-        "",
+        "P와 S의 3p 오비탈을 각각 상자 3개로 그려 보세요.",
         // EN: In which atom does one box contain two electrons? What do two electrons in one orbital do to each other?
-        "",
+        "어느 원자에서 상자 하나에 전자가 2개 들어 있나요? 한 오비탈에 있는 두 전자는 서로에게 어떤 영향을 주나요?",
       ],
       // EN: <p>P is <span class="mono nowrap">[Ne] 3s<sup>2</sup> 3p<sup>3</sup></span>: each of the three 3p orbitals holds one electron. S is <span class="mono nowrap">[Ne] 3s<sup>2</sup> 3p<sup>4</sup></span>: one 3p orbital holds two electrons. In sulfur the electron is removed from this doubly occupied orbital. The two electrons in the same orbital repel each other, so less energy is needed to remove one of them.</p><p>Do not write that a half-filled 3p sublevel is “specially stable”. IB does not accept this.</p>
-      answer: "",
+      answer: "<p>P는 <span class=\"mono nowrap\">[Ne] 3s<sup>2</sup> 3p<sup>3</sup></span>이에요: 3개의 3p 오비탈에 전자가 하나씩 들어 있어요. S는 <span class=\"mono nowrap\">[Ne] 3s<sup>2</sup> 3p<sup>4</sup></span>이에요: 3p 오비탈 하나에 전자가 2개 들어 있어요. 황에서는 전자 2개가 들어 있는 이 오비탈에서 전자를 떼어 내요. 같은 오비탈에 있는 두 전자는 서로 밀어내므로, 그중 하나를 떼어 내는 데 필요한 에너지가 더 작아요.</p><p>반쯤 채워진 3p 부껍질이 “특별히 안정하다”라고 쓰지 마세요. IB에서는 이 답을 인정하지 않아요.</p>",
       markscheme: [
         // EN: In S the electron is removed from a 3p orbital that contains two electrons / a paired electron is removed (in P each 3p orbital contains one electron).
-        "",
+        "S에서는 전자 2개가 들어 있는 3p 오비탈에서 전자가 떨어져 나간다 / 쌍을 이룬 전자가 떨어져 나간다(P에서는 각 3p 오비탈에 전자가 1개씩 들어 있다).",
         // EN: The two electrons in the same orbital repel each other, so less energy is needed to remove one.
-        "",
+        "같은 오비탈에 있는 두 전자는 서로 밀어내므로, 하나를 떼어 내는 데 필요한 에너지가 더 작다.",
       ],
     },
 
     // ── s3-1-q041 · mcq · challenge · AHL · Structure 3.1.7 · 1 mark
     "s3-1-q041": {
       // EN: <p>The graph shows the first ionization energies of the period 3 elements, from the data booklet.</p><p><svg viewBox="0 0 316 196" width="316" height="196" style="max-width:100%;height:auto" role="img" aria-label="Graph of first ionization energy in kilojoules per mole against element for period 3. Sodium 496, magnesium 738, aluminium 578, silicon 787, phosphorus 1012, sulfur 1000, chlorine 1251, argon 1520. The general trend is upward, with small decreases at aluminium and at sulfur."><path d="M58 14V170H306" fill="none" stroke="currentColor" stroke-width="1.4"/><line x1="53" x2="306" y1="170" y2="170" stroke="currentColor" stroke-width="0.6" stroke-opacity="0.35"/><text x="49" y="174" text-anchor="end" font-size="12" fill="currentColor">0</text><line x1="53" x2="306" y1="131" y2="131" stroke="currentColor" stroke-width="0.6" stroke-opacity="0.35"/><text x="49" y="135" text-anchor="end" font-size="12" fill="currentColor">400</text><line x1="53" x2="306" y1="92" y2="92" stroke="currentColor" stroke-width="0.6" stroke-opacity="0.35"/><text x="49" y="96" text-anchor="end" font-size="12" fill="currentColor">800</text><line x1="53" x2="306" y1="53" y2="53" stroke="currentColor" stroke-width="0.6" stroke-opacity="0.35"/><text x="49" y="57" text-anchor="end" font-size="12" fill="currentColor">1200</text><line x1="53" x2="306" y1="14" y2="14" stroke="currentColor" stroke-width="0.6" stroke-opacity="0.35"/><text x="49" y="18" text-anchor="end" font-size="12" fill="currentColor">1600</text><text x="74" y="187" text-anchor="middle" font-size="12" fill="currentColor">Na</text><text x="104.85714285714286" y="187" text-anchor="middle" font-size="12" fill="currentColor">Mg</text><text x="135.71428571428572" y="187" text-anchor="middle" font-size="12" fill="currentColor">Al</text><text x="166.57142857142856" y="187" text-anchor="middle" font-size="12" fill="currentColor">Si</text><text x="197.42857142857144" y="187" text-anchor="middle" font-size="12" fill="currentColor">P</text><text x="228.28571428571428" y="187" text-anchor="middle" font-size="12" fill="currentColor">S</text><text x="259.1428571428571" y="187" text-anchor="middle" font-size="12" fill="currentColor">Cl</text><text x="290" y="187" text-anchor="middle" font-size="12" fill="currentColor">Ar</text><path d="M74.0 121.6L104.9 98.0L135.7 113.6L166.6 93.3L197.4 71.3L228.3 72.5L259.1 48.0L290.0 21.8" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="74.0" cy="121.6" r="4" fill="currentColor"/><circle cx="104.9" cy="98.0" r="4" fill="currentColor"/><circle cx="135.7" cy="113.6" r="4" fill="currentColor"/><circle cx="166.6" cy="93.3" r="4" fill="currentColor"/><circle cx="197.4" cy="71.3" r="4" fill="currentColor"/><circle cx="228.3" cy="72.5" r="4" fill="currentColor"/><circle cx="259.1" cy="48.0" r="4" fill="currentColor"/><circle cx="290.0" cy="21.8" r="4" fill="currentColor"/><text transform="translate(14 92) rotate(-90)" text-anchor="middle" font-size="12" fill="currentColor">first IE / kJ mol⁻¹</text></svg></p><p>What do the decreases at aluminium and at sulfur show?</p>
-      stem: "",
+      stem: "<p>그래프는 데이터 부클릿에 있는 3주기 원소의 제1 이온화 에너지예요.</p><p><svg viewBox=\"0 0 316 196\" width=\"316\" height=\"196\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"3주기 원소에 대한 제1 이온화 에너지(단위: 킬로줄/몰) 그래프. 나트륨 496, 마그네슘 738, 알루미늄 578, 규소 787, 인 1012, 황 1000, 염소 1251, 아르곤 1520. 전체적으로 증가하는 경향이고, 알루미늄과 황에서 조금 감소해요.\"><path d=\"M58 14V170H306\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><line x1=\"53\" x2=\"306\" y1=\"170\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.35\"/><text x=\"49\" y=\"174\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">0</text><line x1=\"53\" x2=\"306\" y1=\"131\" y2=\"131\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.35\"/><text x=\"49\" y=\"135\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">400</text><line x1=\"53\" x2=\"306\" y1=\"92\" y2=\"92\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.35\"/><text x=\"49\" y=\"96\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">800</text><line x1=\"53\" x2=\"306\" y1=\"53\" y2=\"53\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.35\"/><text x=\"49\" y=\"57\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">1200</text><line x1=\"53\" x2=\"306\" y1=\"14\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.35\"/><text x=\"49\" y=\"18\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">1600</text><text x=\"74\" y=\"187\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">Na</text><text x=\"104.85714285714286\" y=\"187\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">Mg</text><text x=\"135.71428571428572\" y=\"187\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">Al</text><text x=\"166.57142857142856\" y=\"187\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">Si</text><text x=\"197.42857142857144\" y=\"187\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">P</text><text x=\"228.28571428571428\" y=\"187\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">S</text><text x=\"259.1428571428571\" y=\"187\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">Cl</text><text x=\"290\" y=\"187\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">Ar</text><path d=\"M74.0 121.6L104.9 98.0L135.7 113.6L166.6 93.3L197.4 71.3L228.3 72.5L259.1 48.0L290.0 21.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><circle cx=\"74.0\" cy=\"121.6\" r=\"4\" fill=\"currentColor\"/><circle cx=\"104.9\" cy=\"98.0\" r=\"4\" fill=\"currentColor\"/><circle cx=\"135.7\" cy=\"113.6\" r=\"4\" fill=\"currentColor\"/><circle cx=\"166.6\" cy=\"93.3\" r=\"4\" fill=\"currentColor\"/><circle cx=\"197.4\" cy=\"71.3\" r=\"4\" fill=\"currentColor\"/><circle cx=\"228.3\" cy=\"72.5\" r=\"4\" fill=\"currentColor\"/><circle cx=\"259.1\" cy=\"48.0\" r=\"4\" fill=\"currentColor\"/><circle cx=\"290.0\" cy=\"21.8\" r=\"4\" fill=\"currentColor\"/><text transform=\"translate(14 92) rotate(-90)\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">제1 IE / kJ mol⁻¹</text></svg></p><p>알루미늄과 황에서 값이 감소한다는 것은 무엇을 보여 주나요?</p>",
       options: [
         // EN: A filled or half-filled sublevel has a special stability.
-        "",
+        "채워지거나 반쯤 채워진 부껍질은 특별히 안정해요.",
         // EN: The nuclear charge decreases at aluminium and at sulfur.
-        "",
+        "알루미늄과 황에서 핵전하가 작아져요.",
         // EN: The electrons in the third energy level do not all have the same energy.
-        "",
+        "셋째 에너지 준위에 있는 전자들의 에너지가 모두 같지는 않아요.",
         // EN: Aluminium and sulfur each start a new main energy level.
-        "",
+        "알루미늄과 황에서 각각 새로운 주 에너지 준위가 시작돼요.",
       ],
       hints: [
         // EN: If all the n = 3 electrons had the same energy, what would the graph look like?
-        "",
+        "n = 3의 전자들이 모두 같은 에너지를 가진다면, 그래프는 어떤 모양일까요?",
         // EN: The decrease at Al comes with the first 3p electron. What does that tell you about 3s and 3p?
-        "",
+        "Al에서의 감소는 첫 번째 3p 전자와 함께 나타나요. 이것은 3s와 3p에 대해 무엇을 알려 주나요?",
       ],
       // EN: <p>Nuclear charge increases steadily across the period. If all the electrons in the third energy level had the same energy, the first ionization energy would rise steadily too. It does not.</p><p>The decrease at aluminium shows that the 3p electron is at a higher energy than the 3s electrons. So the main energy level is split into <strong>sublevels of different energy</strong>. The decrease at sulfur shows the effect of repulsion when a p orbital holds two electrons. The discontinuities are evidence for sublevels.</p>
-      solution: "",
+      solution: "<p>핵전하는 주기를 따라 꾸준히 커져요. 셋째 에너지 준위의 전자들이 모두 같은 에너지를 가진다면, 제1 이온화 에너지도 꾸준히 커질 거예요. 하지만 그렇지 않아요.</p><p>알루미늄에서의 감소는 3p 전자가 3s 전자보다 에너지가 높다는 것을 보여 줘요. 그러므로 주 에너지 준위는 <strong>에너지가 서로 다른 부껍질</strong>로 나뉘어 있어요. 황에서의 감소는 p 오비탈 하나에 전자가 2개 들어 있을 때 생기는 반발의 효과를 보여 줘요. 이 불연속은 부껍질이 있다는 증거예요.</p>",
       misconception: {
         // EN (option A): The guide says explanations must be based on the energy of the electron removed, not on “special stability”. Markschemes reject this argument.
-        "0": "",
+        "0": "교수요목 안내서에 따르면, 설명은 “특별한 안정성”이 아니라 떨어져 나가는 전자의 에너지를 근거로 해야 해요. 채점 기준에서는 이 논리를 인정하지 않아요.",
         // EN (option B): The nuclear charge increases by one proton at every step across the period, including at aluminium and sulfur.
-        "1": "",
+        "1": "핵전하는 주기를 따라 한 단계마다 양성자 1개씩 커져요. 알루미늄과 황에서도 마찬가지예요.",
         // EN (option D): All period 3 elements have their outer electrons in the same main energy level, n = 3. A new main level starts at the next period (potassium), where the drop is much larger.
-        "3": "",
+        "3": "3주기 원소는 모두 바깥 전자가 같은 주 에너지 준위 n = 3에 있어요. 새로운 주 준위는 다음 주기(칼륨)에서 시작되고, 거기서는 값이 훨씬 크게 떨어져요.",
       },
     },
 
     // ── s3-1-q042 · multi · foundation · AHL · Structure 3.1.8 · 1 mark
     "s3-1-q042": {
       // EN: <p>Which are characteristic properties of transition elements? Select all that apply.</p>
-      stem: "",
+      stem: "<p>전이 원소의 특징적인 성질은 어느 것인가요? 해당하는 것을 모두 고르세요.</p>",
       options: [
         // EN: Variable oxidation states
-        "",
+        "여러 가지 산화수",
         // EN: Low melting points
-        "",
+        "낮은 녹는점",
         // EN: Formation of coloured compounds
-        "",
+        "색깔 있는 화합물을 만듦",
         // EN: Catalytic properties
-        "",
+        "촉매 성질",
         // EN: Formation of complex ions with ligands
-        "",
+        "리간드와 착이온을 만듦",
         // EN: Poor electrical conductivity
-        "",
+        "낮은 전기 전도성",
       ],
       hints: [
         // EN: Think about iron or copper: are they easy to melt? Do they conduct?
-        "",
+        "철이나 구리를 생각해 보세요: 쉽게 녹나요? 전기가 통하나요?",
         // EN: The guide lists six properties: variable oxidation state, high melting points, magnetic properties, catalytic properties, coloured compounds and complex ions.
-        "",
+        "교수요목 안내서에는 6가지 성질이 나와요: 여러 가지 산화수, 높은 녹는점, 자기적 성질, 촉매 성질, 색깔 있는 화합물, 착이온.",
       ],
       // EN: <p>Transition elements have incomplete d sublevels. This gives them characteristic properties: <strong>variable oxidation states</strong>, <strong>high melting points</strong>, <strong>magnetic properties</strong>, <strong>catalytic properties</strong>, <strong>coloured compounds</strong>, and <strong>complex ions with ligands</strong>. You need to recognize this list.</p>
-      solution: "",
+      solution: "<p>전이 원소는 d 부껍질이 다 채워져 있지 않아요. 그래서 특징적인 성질을 보여요: <strong>여러 가지 산화수</strong>, <strong>높은 녹는점</strong>, <strong>자기적 성질</strong>, <strong>촉매 성질</strong>, <strong>색깔 있는 화합물</strong>, <strong>리간드와 착이온 형성</strong>. 이 목록을 알아볼 수 있어야 해요.</p>",
       misconception: {
         // EN (option B): Transition elements have <em>high</em> melting points. Their metallic bonding is strong.
-        "1": "",
+        "1": "전이 원소는 녹는점이 <em>높아요</em>. 금속 결합이 강하기 때문이에요.",
         // EN (option F): Transition elements are metals. They are good electrical conductors.
-        "5": "",
+        "5": "전이 원소는 금속이에요. 전기를 잘 통해요.",
       },
     },
 
     // ── s3-1-q043 · mcq · exam · AHL · Structure 3.1.8 · 1 mark
     "s3-1-q043": {
       // EN: <p>Zinc is in the d-block. Its atom has the configuration <span class="mono nowrap">[Ar] 4s<sup>2</sup> 3d<sup>10</sup></span> and its only common ion is <span class="chem">Zn^2+</span>. Why is zinc not classed as a transition element?</p>
-      stem: "",
+      stem: "<p>아연은 d 구역에 있어요. 아연 원자의 전자 배치는 <span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 3d<sup>10</sup></span>이고, 흔한 이온은 <span class=\"chem\">Zn^2+</span> 하나뿐이에요. 아연을 전이 원소로 분류하지 않는 이유는 무엇인가요?</p>",
       options: [
         // EN: Zinc has a full 4s sublevel.
-        "",
+        "아연은 4s 부껍질이 꽉 차 있어요.",
         // EN: Neither the zinc atom nor the <span class="chem">Zn^2+</span> ion has an incomplete d sublevel.
-        "",
+        "아연 원자와 <span class=\"chem\">Zn^2+</span> 이온 모두 다 채워지지 않은 d 부껍질이 없어요.",
         // EN: The <span class="chem">Zn^2+</span> ion has the configuration <span class="mono nowrap">[Ar] 4s<sup>2</sup> 3d<sup>8</sup></span>.
-        "",
+        "<span class=\"chem\">Zn^2+</span> 이온의 전자 배치는 <span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 3d<sup>8</sup></span>이에요.",
         // EN: Zinc is a metal with a high density.
-        "",
+        "아연은 밀도가 큰 금속이에요.",
       ],
       hints: [
         // EN: What feature of the d sublevel makes an element a transition element?
-        "",
+        "d 부껍질의 어떤 특징이 있어야 전이 원소가 되나요?",
         // EN: Write the configuration of <span class="chem">Zn^2+</span>. Remember which electrons are lost first.
-        "",
+        "<span class=\"chem\">Zn^2+</span>의 전자 배치를 쓰세요. 어떤 전자가 먼저 떨어져 나가는지 기억하세요.",
       ],
       // EN: <p>A transition element has an <strong>incomplete d sublevel</strong> (as an atom or in its ions). Zn is <span class="mono nowrap">[Ar] 4s<sup>2</sup> 3d<sup>10</sup></span> and <span class="chem">Zn^2+</span> is <span class="mono nowrap">[Ar] 3d<sup>10</sup></span>. The 3d sublevel is full in both. So zinc does not show the characteristic properties: it has one oxidation state in its compounds, and its compounds are not coloured.</p>
-      solution: "",
+      solution: "<p>전이 원소는 (원자 상태나 이온 상태에서) <strong>다 채워지지 않은 d 부껍질</strong>을 가져요. Zn은 <span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 3d<sup>10</sup></span>이고 <span class=\"chem\">Zn^2+</span>는 <span class=\"mono nowrap\">[Ar] 3d<sup>10</sup></span>이에요. 둘 다 3d 부껍질이 꽉 차 있어요. 그래서 아연은 특징적인 성질을 보이지 않아요: 화합물에서 산화수가 한 가지뿐이고, 화합물에 색깔이 없어요.</p>",
       misconception: {
         // EN (option A): True, but iron and many other transition elements also have a full 4s sublevel. The d sublevel is what matters.
-        "0": "",
+        "0": "맞는 말이지만, 철을 비롯한 많은 전이 원소도 4s 부껍질이 꽉 차 있어요. 중요한 것은 d 부껍질이에요.",
         // EN (option C): The 4s electrons are lost first when a first-row d-block atom forms an ion. <span class="chem">Zn^2+</span> is <span class="mono nowrap">[Ar] 3d<sup>10</sup></span>.
-        "2": "",
+        "2": "첫째 줄 d 구역 원자가 이온이 될 때는 4s 전자가 먼저 떨어져 나가요. <span class=\"chem\">Zn^2+</span>는 <span class=\"mono nowrap\">[Ar] 3d<sup>10</sup></span>이에요.",
         // EN (option D): True, but this does not decide whether an element is a transition element.
-        "3": "",
+        "3": "맞는 말이지만, 이것으로 전이 원소인지 아닌지가 정해지지는 않아요.",
       },
     },
 
     // ── s3-1-q044 · short · challenge · AHL · Structure 3.1.8 · 2 marks
     "s3-1-q044": {
       // EN: <p>Scandium has the electron configuration <span class="mono nowrap">[Ar] 4s<sup>2</sup> 3d<sup>1</sup></span>. In its compounds it forms only the <span class="chem">Sc^3+</span> ion.</p><p>Give one argument for and one argument against classing scandium as a transition element.</p>
-      stem: "",
+      stem: "<p>스칸듐의 전자 배치는 <span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 3d<sup>1</sup></span>이에요. 스칸듐은 화합물에서 <span class=\"chem\">Sc^3+</span> 이온만 만들어요.</p><p>스칸듐을 전이 원소로 분류하는 것에 찬성하는 근거 하나와 반대하는 근거 하나를 쓰세요.</p>",
       hints: [
         // EN: Look at the 3d sublevel in the atom.
-        "",
+        "원자의 3d 부껍질을 보세요.",
         // EN: Now write the configuration of <span class="chem">Sc^3+</span>. Which three electrons are lost?
-        "",
+        "이제 <span class=\"chem\">Sc^3+</span>의 전자 배치를 쓰세요. 어떤 전자 3개가 떨어져 나가나요?",
       ],
       // EN: <p><strong>For:</strong> the scandium atom has an incomplete d sublevel (<span class="mono nowrap">3d<sup>1</sup></span>).</p><p><strong>Against:</strong> the only ion, <span class="chem">Sc^3+</span>, has the configuration <span class="mono nowrap">[Ar]</span>, with no d electrons. So scandium does not show characteristic properties of transition elements: it has only one oxidation state (+3) in its compounds, and its compounds are not coloured.</p>
-      answer: "",
+      answer: "<p><strong>찬성:</strong> 스칸듐 원자는 다 채워지지 않은 d 부껍질(<span class=\"mono nowrap\">3d<sup>1</sup></span>)을 가져요.</p><p><strong>반대:</strong> 유일한 이온인 <span class=\"chem\">Sc^3+</span>의 전자 배치는 <span class=\"mono nowrap\">[Ar]</span>이고, d 전자가 없어요. 그래서 스칸듐은 전이 원소의 특징적인 성질을 보이지 않아요: 화합물에서 산화수가 한 가지(+3)뿐이고, 화합물에 색깔이 없어요.</p>",
       markscheme: [
         // EN: For: the atom has an incomplete / partially filled d sublevel (3d<sup>1</sup>).
-        "",
+        "찬성: 원자가 다 채워지지 않은 / 부분적으로 채워진 d 부껍질(3d<sup>1</sup>)을 가진다.",
         // EN: Against: <span class="chem">Sc^3+</span> has no d electrons / is [Ar] (accept: it shows only one oxidation state / its compounds are not coloured).
-        "",
+        "반대: <span class=\"chem\">Sc^3+</span>에는 d 전자가 없다 / [Ar]이다(“산화수가 한 가지뿐이다 / 화합물에 색깔이 없다”도 인정).",
       ],
     },
 
     // ── s3-1-q045 · mcq · foundation · AHL · Structure 3.1.8 · 1 mark
     "s3-1-q045": {
       // EN: <p>Transition elements form complex ions with ligands. What is a ligand?</p>
-      stem: "",
+      stem: "<p>전이 원소는 리간드와 착이온을 만들어요. 리간드란 무엇인가요?</p>",
       options: [
         // EN: The positive metal ion at the centre of a complex ion.
-        "",
+        "착이온의 중심에 있는 금속 양이온.",
         // EN: A molecule or ion that accepts a pair of electrons from a metal ion.
-        "",
+        "금속 이온으로부터 전자쌍을 받는 분자나 이온.",
         // EN: An ion outside the square brackets that balances the charge of a complex ion.
-        "",
+        "대괄호 바깥에서 착이온의 전하와 균형을 이루는 이온.",
         // EN: A molecule or ion with a lone pair of electrons that forms a coordination bond to a central metal ion.
-        "",
+        "비공유 전자쌍을 가지고 있어서 중심 금속 이온과 배위 결합을 만드는 분자나 이온.",
       ],
       hints: [
         // EN: Examples of ligands: <span class="chem">H2O</span>, <span class="chem">NH3</span>, <span class="chem">Cl-</span>. What do these have in common?
-        "",
+        "리간드의 예: <span class=\"chem\">H2O</span>, <span class=\"chem\">NH3</span>, <span class=\"chem\">Cl-</span>. 이들의 공통점은 무엇인가요?",
         // EN: In a coordination bond, both electrons of the shared pair come from the same atom.
-        "",
+        "배위 결합에서는 공유 전자쌍의 두 전자가 모두 같은 원자에서 와요.",
       ],
       // EN: <p>A ligand is a molecule or ion that has a <strong>lone pair of electrons</strong>. It donates the lone pair to the central metal ion and forms a <strong>coordination bond</strong>. In <span class="chem">[Cu(H2O)6]^2+</span> the six water molecules are the ligands.</p>
-      solution: "",
+      solution: "<p>리간드는 <strong>비공유 전자쌍</strong>을 가진 분자나 이온이에요. 리간드는 비공유 전자쌍을 중심 금속 이온에 내주어 <strong>배위 결합</strong>을 만들어요. <span class=\"chem\">[Cu(H2O)6]^2+</span>에서는 물 분자 6개가 리간드예요.</p>",
       misconception: {
         // EN (option A): The metal ion is the centre of the complex. The ligands are the species bonded around it.
-        "0": "",
+        "0": "금속 이온은 착이온의 중심이에요. 리간드는 그 주위에 결합한 화학종이에요.",
         // EN (option B): The direction is reversed. The ligand <em>donates</em> the electron pair. The metal ion accepts it.
-        "1": "",
+        "1": "방향이 거꾸로예요. 리간드가 전자쌍을 <em>내주고</em>, 금속 이온이 그것을 받아요.",
         // EN (option C): An ion outside the brackets is not bonded to the metal ion. Ligands are written inside the square brackets.
-        "2": "",
+        "2": "대괄호 바깥의 이온은 금속 이온과 결합해 있지 않아요. 리간드는 대괄호 안에 써요.",
       },
     },
 
     // ── s3-1-q046 · numeric · exam · AHL · Structure 3.1.8 · 1 mark
     "s3-1-q046": {
       // EN: <p>Deduce the oxidation state of chromium in the compound <span class="chem">[Cr(H2O)4Cl2]Cl</span>.</p><p>Type the sign first and then the number, for example +3 or −3.</p>
-      stem: "",
+      stem: "<p>화합물 <span class=\"chem\">[Cr(H2O)4Cl2]Cl</span>에서 크로뮴의 산화수를 추론하시오 (deduce).</p><p>부호를 먼저, 그다음 숫자를 입력하세요. 예: +3 또는 −3.</p>",
       hints: [
         // EN: The chloride ion outside the brackets is <span class="chem">Cl-</span>. What is the charge on the complex ion inside the brackets?
-        "",
+        "대괄호 바깥의 염화 이온은 <span class=\"chem\">Cl-</span>이에요. 대괄호 안 착이온의 전하는 얼마인가요?",
         // EN: Water is a neutral ligand. Each chloride ligand is 1−.
-        "",
+        "물은 전하가 없는 리간드예요. 염화 리간드는 각각 1−예요.",
         // EN: Chromium + ligand charges = charge on the complex ion.
-        "",
+        "크로뮴 + 리간드의 전하 = 착이온의 전하.",
       ],
       // EN: <p>The compound has no overall charge. The ion outside the brackets is <span class="chem">Cl-</span>, so the complex ion is <span class="chem">[Cr(H2O)4Cl2]+</span>.</p><p>Inside the complex: water is neutral (0), and each chloride ligand is −1. Let chromium be <i>x</i>.</p><div class="worked__math"><i>x</i> + 4(0) + 2(−1) = +1</div><div class="worked__math"><i>x</i> = <b>+3</b></div>
-      solution: "",
+      solution: "<p>이 화합물은 전체 전하가 없어요. 대괄호 바깥의 이온이 <span class=\"chem\">Cl-</span>이므로 착이온은 <span class=\"chem\">[Cr(H2O)4Cl2]+</span>예요.</p><p>착이온 안에서 물은 전하가 없고(0), 염화 리간드는 각각 −1이에요. 크로뮴을 <i>x</i>라고 해요.</p><div class=\"worked__math\"><i>x</i> + 4(0) + 2(−1) = +1</div><div class=\"worked__math\"><i>x</i> = <b>+3</b></div>",
       // EN: In an exam, write +3 (or III) with the sign first. “3+” and “3” do not score.
-      correctNote: "",
+      correctNote: "시험에서는 부호를 먼저 써서 +3(또는 III)으로 쓰세요. “3+”나 “3”은 점수를 받지 못해요.",
     },
 
     // ── s3-1-q047 · multi · exam · AHL · Structure 3.1.8 · 1 mark
     "s3-1-q047": {
       // EN: <p>Which statements about the complex ion <span class="chem">[CuCl4]^2-</span> are correct? Select all that apply.</p>
-      stem: "",
+      stem: "<p>착이온 <span class=\"chem\">[CuCl4]^2-</span>에 대한 설명으로 옳은 것은 어느 것인가요? 해당하는 것을 모두 고르세요.</p>",
       options: [
         // EN: The chloride ions are the ligands.
-        "",
+        "염화 이온이 리간드예요.",
         // EN: Each chloride ion donates a pair of electrons to the copper ion.
-        "",
+        "각 염화 이온은 구리 이온에 전자쌍을 내줘요.",
         // EN: The bonds between copper and chlorine are coordination bonds.
-        "",
+        "구리와 염소 사이의 결합은 배위 결합이에요.",
         // EN: The oxidation state of copper is −2.
-        "",
+        "구리의 산화수는 −2예요.",
         // EN: The copper ion donates pairs of electrons to the chloride ions.
-        "",
+        "구리 이온이 염화 이온에 전자쌍을 내줘요.",
         // EN: The oxidation state of copper is +2.
-        "",
+        "구리의 산화수는 +2예요.",
       ],
       hints: [
         // EN: Each ligand is a chloride ion, <span class="chem">Cl-</span>, with lone pairs.
-        "",
+        "각 리간드는 비공유 전자쌍을 가진 염화 이온 <span class=\"chem\">Cl-</span>이에요.",
         // EN: Copper + 4(−1) = −2.
-        "",
+        "구리 + 4(−1) = −2.",
       ],
       // EN: <p>The four chloride ions are the <strong>ligands</strong>. Each one donates a lone pair to the copper ion, so each Cu–Cl bond is a <strong>coordination bond</strong>.</p><div class="worked__math"><i>x</i> + 4(−1) = −2</div><div class="worked__math"><i>x</i> = <b>+2</b></div><p>The oxidation state of copper is +2.</p>
-      solution: "",
+      solution: "<p>염화 이온 4개가 <strong>리간드</strong>예요. 각 염화 이온은 비공유 전자쌍을 구리 이온에 내주므로, 각 Cu–Cl 결합은 <strong>배위 결합</strong>이에요.</p><div class=\"worked__math\"><i>x</i> + 4(−1) = −2</div><div class=\"worked__math\"><i>x</i> = <b>+2</b></div><p>구리의 산화수는 +2예요.</p>",
       misconception: {
         // EN (option D): The charge on the whole complex ion is 2−. That is not the oxidation state of copper. Four <span class="chem">Cl-</span> ligands give −4, so copper is +2.
-        "3": "",
+        "3": "착이온 전체의 전하는 2−예요. 그것은 구리의 산화수가 아니에요. <span class=\"chem\">Cl-</span> 리간드 4개가 −4이므로 구리는 +2예요.",
         // EN (option E): The direction is reversed. Ligands donate lone pairs. The metal ion accepts them.
-        "4": "",
+        "4": "방향이 거꾸로예요. 리간드가 비공유 전자쌍을 내주고, 금속 이온이 그것을 받아요.",
       },
     },
 
     // ── s3-1-q048 · mcq · foundation · AHL · Structure 3.1.9 · 1 mark
     "s3-1-q048": {
       // EN: <p>An iron atom has the electron configuration <span class="mono nowrap">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>. What is the electron configuration of the <span class="chem">Fe^2+</span> ion?</p>
-      stem: "",
+      stem: "<p>철 원자의 전자 배치는 <span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>이에요. <span class=\"chem\">Fe^2+</span> 이온의 전자 배치는 무엇인가요?</p>",
       options: [
         // EN: <span class="mono nowrap">[Ar] 3d<sup>6</sup></span>
-        "",
+        "<span class=\"mono nowrap\">[Ar] 3d<sup>6</sup></span>",
         // EN: <span class="mono nowrap">[Ar] 4s<sup>2</sup> 3d<sup>4</sup></span>
-        "",
+        "<span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 3d<sup>4</sup></span>",
         // EN: <span class="mono nowrap">[Ar] 4s<sup>1</sup> 3d<sup>5</sup></span>
-        "",
+        "<span class=\"mono nowrap\">[Ar] 4s<sup>1</sup> 3d<sup>5</sup></span>",
         // EN: <span class="mono nowrap">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>
-        "",
+        "<span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>",
       ],
       hints: [
         // EN: A 2+ ion has lost two electrons.
-        "",
+        "2+ 이온은 전자 2개를 잃은 거예요.",
         // EN: Which sublevel loses electrons first: 4s or 3d?
-        "",
+        "어느 부껍질의 전자가 먼저 떨어져 나가나요: 4s인가요, 3d인가요?",
       ],
       // EN: <p>The 4s sublevel is filled before 3d, but in the ion the <strong>4s electrons are lost first</strong>. Remove the two 4s electrons:</p><div class="worked__math">Fe: <span class="mono nowrap">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span> &nbsp;→&nbsp; <span class="chem">Fe^2+</span>: <b><span class="mono nowrap">[Ar] 3d<sup>6</sup></span></b></div>
-      solution: "",
+      solution: "<p>4s 부껍질은 3d보다 먼저 채워지지만, 이온이 될 때는 <strong>4s 전자가 먼저 떨어져 나가요</strong>. 4s 전자 2개를 빼세요:</p><div class=\"worked__math\">Fe: <span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span> &nbsp;→&nbsp; <span class=\"chem\">Fe^2+</span>: <b><span class=\"mono nowrap\">[Ar] 3d<sup>6</sup></span></b></div>",
       misconception: {
         // EN (option B): This removes two 3d electrons. When a first-row transition atom forms an ion, the 4s electrons are lost first.
-        "1": "",
+        "1": "이것은 3d 전자 2개를 뺀 거예요. 첫째 줄 전이 원소의 원자가 이온이 될 때는 4s 전자가 먼저 떨어져 나가요.",
         // EN (option C): This removes one 4s and one 3d electron. Both 4s electrons are lost before any 3d electron.
-        "2": "",
+        "2": "이것은 4s 전자 1개와 3d 전자 1개를 뺀 거예요. 3d 전자보다 먼저 4s 전자 2개가 모두 떨어져 나가요.",
         // EN (option D): This is the configuration of the atom. A 2+ ion has two fewer electrons.
-        "3": "",
+        "3": "이것은 원자의 전자 배치예요. 2+ 이온은 전자가 2개 더 적어요.",
       },
     },
 
     // ── s3-1-q049 · mcq · exam · AHL · Structure 3.1.9 · 1 mark
     "s3-1-q049": {
       // EN: <p>What is the electron configuration of the <span class="chem">Cu^2+</span> ion?</p>
-      stem: "",
+      stem: "<p><span class=\"chem\">Cu^2+</span> 이온의 전자 배치는 무엇인가요?</p>",
       options: [
         // EN: <span class="mono nowrap">[Ar] 4s<sup>1</sup> 3d<sup>8</sup></span>
-        "",
+        "<span class=\"mono nowrap\">[Ar] 4s<sup>1</sup> 3d<sup>8</sup></span>",
         // EN: <span class="mono nowrap">[Ar] 4s<sup>2</sup> 3d<sup>7</sup></span>
-        "",
+        "<span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 3d<sup>7</sup></span>",
         // EN: <span class="mono nowrap">[Ar] 3d<sup>9</sup></span>
-        "",
+        "<span class=\"mono nowrap\">[Ar] 3d<sup>9</sup></span>",
         // EN: <span class="mono nowrap">[Ar] 3d<sup>10</sup></span>
-        "",
+        "<span class=\"mono nowrap\">[Ar] 3d<sup>10</sup></span>",
       ],
       hints: [
         // EN: Copper is one of the two exceptions in the first row. Its atom is <span class="mono nowrap">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>.
-        "",
+        "구리는 첫째 줄의 두 예외 가운데 하나예요. 구리 원자는 <span class=\"mono nowrap\">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>이에요.",
         // EN: Remove the 4s electron first, then one 3d electron.
-        "",
+        "4s 전자를 먼저 빼고, 그다음 3d 전자 1개를 빼세요.",
       ],
       // EN: <p>The copper atom is <span class="mono nowrap">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>. Remove two electrons: first the 4s electron, then one 3d electron.</p><div class="worked__math">Cu: <span class="mono nowrap">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span> &nbsp;→&nbsp; <span class="chem">Cu+</span>: <span class="mono nowrap">[Ar] 3d<sup>10</sup></span> &nbsp;→&nbsp; <span class="chem">Cu^2+</span>: <b><span class="mono nowrap">[Ar] 3d<sup>9</sup></span></b></div>
-      solution: "",
+      solution: "<p>구리 원자는 <span class=\"mono nowrap\">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>이에요. 전자 2개를 빼요: 먼저 4s 전자, 그다음 3d 전자 1개예요.</p><div class=\"worked__math\">Cu: <span class=\"mono nowrap\">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span> &nbsp;→&nbsp; <span class=\"chem\">Cu+</span>: <span class=\"mono nowrap\">[Ar] 3d<sup>10</sup></span> &nbsp;→&nbsp; <span class=\"chem\">Cu^2+</span>: <b><span class=\"mono nowrap\">[Ar] 3d<sup>9</sup></span></b></div>",
       misconception: {
         // EN (option A): This keeps the 4s electron and removes two 3d electrons. The 4s electron is lost first.
-        "0": "",
+        "0": "이것은 4s 전자를 남기고 3d 전자 2개를 뺀 거예요. 4s 전자가 먼저 떨어져 나가요.",
         // EN (option B): This starts from <span class="mono nowrap">[Ar] 4s<sup>2</sup> 3d<sup>9</sup></span> and removes two 3d electrons. The copper atom is <span class="mono nowrap">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>, and 4s is lost first.
-        "1": "",
+        "1": "이것은 <span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 3d<sup>9</sup></span>에서 시작해 3d 전자 2개를 뺀 거예요. 구리 원자는 <span class=\"mono nowrap\">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>이고, 4s 전자가 먼저 떨어져 나가요.",
         // EN (option D): This is <span class="chem">Cu+</span>, which has lost only the 4s electron. <span class="chem">Cu^2+</span> has lost one more.
-        "3": "",
+        "3": "이것은 4s 전자만 잃은 <span class=\"chem\">Cu+</span>예요. <span class=\"chem\">Cu^2+</span>는 전자를 하나 더 잃었어요.",
       },
     },
 
     // ── s3-1-q050 · multi · exam · AHL · Structure 3.1.9 · 1 mark
     "s3-1-q050": {
       // EN: <p>Which ions have the electron configuration <span class="mono nowrap">[Ar] 3d<sup>5</sup></span>? Select all that apply.</p>
-      stem: "",
+      stem: "<p>전자 배치가 <span class=\"mono nowrap\">[Ar] 3d<sup>5</sup></span>인 이온은 어느 것인가요? 해당하는 것을 모두 고르세요.</p>",
       options: [
         // EN: <span class="chem">Cr^3+</span>
-        "",
+        "<span class=\"chem\">Cr^3+</span>",
         // EN: <span class="chem">Mn^2+</span>
-        "",
+        "<span class=\"chem\">Mn^2+</span>",
         // EN: <span class="chem">Fe^2+</span>
-        "",
+        "<span class=\"chem\">Fe^2+</span>",
         // EN: <span class="chem">Fe^3+</span>
-        "",
+        "<span class=\"chem\">Fe^3+</span>",
         // EN: <span class="chem">Co^2+</span>
-        "",
+        "<span class=\"chem\">Co^2+</span>",
       ],
       hints: [
         // EN: A quick check: number of electrons in the ion = atomic number − charge.
-        "",
+        "빠르게 확인하는 방법: 이온의 전자 수 = 원자 번호 − 전하.",
         // EN: <span class="mono nowrap">[Ar] 3d<sup>5</sup></span> has 18 + 5 = 23 electrons.
-        "",
+        "<span class=\"mono nowrap\">[Ar] 3d<sup>5</sup></span>의 전자는 18 + 5 = 23개예요.",
       ],
       // EN: <p><span class="mono nowrap">[Ar] 3d<sup>5</sup></span> has 23 electrons. Count the electrons in each ion (atomic number − charge):</p><div class="worked__math"><span class="chem">Cr^3+</span>: 24 − 3 = 21 &nbsp; <span class="mono nowrap">[Ar] 3d<sup>3</sup></span></div><div class="worked__math"><span class="chem">Mn^2+</span>: 25 − 2 = 23 &nbsp; <b><span class="mono nowrap">[Ar] 3d<sup>5</sup></span></b></div><div class="worked__math"><span class="chem">Fe^2+</span>: 26 − 2 = 24 &nbsp; <span class="mono nowrap">[Ar] 3d<sup>6</sup></span></div><div class="worked__math"><span class="chem">Fe^3+</span>: 26 − 3 = 23 &nbsp; <b><span class="mono nowrap">[Ar] 3d<sup>5</sup></span></b></div><div class="worked__math"><span class="chem">Co^2+</span>: 27 − 2 = 25 &nbsp; <span class="mono nowrap">[Ar] 3d<sup>7</sup></span></div><p>In these ions all the 4s electrons have been lost, so every electron beyond the argon core is a 3d electron.</p>
-      solution: "",
+      solution: "<p><span class=\"mono nowrap\">[Ar] 3d<sup>5</sup></span>의 전자는 23개예요. 각 이온의 전자 수를 세어 보세요(원자 번호 − 전하):</p><div class=\"worked__math\"><span class=\"chem\">Cr^3+</span>: 24 − 3 = 21 &nbsp; <span class=\"mono nowrap\">[Ar] 3d<sup>3</sup></span></div><div class=\"worked__math\"><span class=\"chem\">Mn^2+</span>: 25 − 2 = 23 &nbsp; <b><span class=\"mono nowrap\">[Ar] 3d<sup>5</sup></span></b></div><div class=\"worked__math\"><span class=\"chem\">Fe^2+</span>: 26 − 2 = 24 &nbsp; <span class=\"mono nowrap\">[Ar] 3d<sup>6</sup></span></div><div class=\"worked__math\"><span class=\"chem\">Fe^3+</span>: 26 − 3 = 23 &nbsp; <b><span class=\"mono nowrap\">[Ar] 3d<sup>5</sup></span></b></div><div class=\"worked__math\"><span class=\"chem\">Co^2+</span>: 27 − 2 = 25 &nbsp; <span class=\"mono nowrap\">[Ar] 3d<sup>7</sup></span></div><p>이 이온들은 4s 전자를 모두 잃었으므로, 아르곤 핵심 바깥의 전자는 모두 3d 전자예요.</p>",
       misconception: {
         // EN (option A): Cr is <span class="mono nowrap">[Ar] 4s<sup>1</sup> 3d<sup>5</sup></span>. Removing three electrons (4s first) leaves <span class="mono nowrap">[Ar] 3d<sup>3</sup></span>.
-        "0": "",
+        "0": "Cr은 <span class=\"mono nowrap\">[Ar] 4s<sup>1</sup> 3d<sup>5</sup></span>이에요. 전자 3개를 빼면(4s 먼저) <span class=\"mono nowrap\">[Ar] 3d<sup>3</sup></span>이 남아요.",
         // EN (option C): Fe is <span class="mono nowrap">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>. Removing the two 4s electrons leaves <span class="mono nowrap">[Ar] 3d<sup>6</sup></span>.
-        "2": "",
+        "2": "Fe는 <span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>이에요. 4s 전자 2개를 빼면 <span class=\"mono nowrap\">[Ar] 3d<sup>6</sup></span>이 남아요.",
         // EN (option E): Co is <span class="mono nowrap">[Ar] 4s<sup>2</sup> 3d<sup>7</sup></span>. Removing the two 4s electrons leaves <span class="mono nowrap">[Ar] 3d<sup>7</sup></span>.
-        "4": "",
+        "4": "Co는 <span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 3d<sup>7</sup></span>이에요. 4s 전자 2개를 빼면 <span class=\"mono nowrap\">[Ar] 3d<sup>7</sup></span>이 남아요.",
       },
     },
 
     // ── s3-1-q051 · numeric · challenge · AHL · Structure 3.1.9 · 2 marks
     "s3-1-q051": {
       // EN: <p>The compound <span class="chem">VOSO4</span> contains the sulfate ion, <span class="chem">SO4^2-</span>. Deduce the number of 3d electrons in the vanadium ion in this compound.</p>
-      stem: "",
+      stem: "<p>화합물 <span class=\"chem\">VOSO4</span>에는 황산 이온 <span class=\"chem\">SO4^2-</span>이 들어 있어요. 이 화합물에서 바나듐 이온의 3d 전자 수를 추론하시오 (deduce).</p>",
       hints: [
         // EN: First find the oxidation state of vanadium. Sulfate is 2− and oxygen is −2.
-        "",
+        "먼저 바나듐의 산화수를 구하세요. 황산 이온은 2−이고 산소는 −2예요.",
         // EN: A vanadium atom is <span class="mono nowrap">[Ar] 4s<sup>2</sup> 3d<sup>3</sup></span>.
-        "",
+        "바나듐 원자는 <span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 3d<sup>3</sup></span>이에요.",
         // EN: Remove that number of electrons, 4s first.
-        "",
+        "그 수만큼 전자를 빼세요. 4s 전자부터 빼요.",
       ],
       // EN: <p><strong>Step 1: oxidation state.</strong> Let vanadium be <i>x</i>. Oxygen is −2 and sulfate is 2−.</p><div class="worked__math"><i>x</i> + (−2) + (−2) = 0</div><div class="worked__math"><i>x</i> = +4</div><p><strong>Step 2: configuration.</strong> V is <span class="mono nowrap">[Ar] 4s<sup>2</sup> 3d<sup>3</sup></span>. Remove four electrons: the two 4s electrons first, then two 3d electrons.</p><div class="worked__math">V<sup>4+</sup>: <span class="mono nowrap">[Ar] 3d<sup>1</sup></span></div><p>The ion has <strong>1</strong> 3d electron.</p>
-      solution: "",
+      solution: "<p><strong>1단계: 산화수.</strong> 바나듐을 <i>x</i>라고 해요. 산소는 −2이고 황산 이온은 2−예요.</p><div class=\"worked__math\"><i>x</i> + (−2) + (−2) = 0</div><div class=\"worked__math\"><i>x</i> = +4</div><p><strong>2단계: 전자 배치.</strong> V는 <span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 3d<sup>3</sup></span>이에요. 전자 4개를 빼요: 먼저 4s 전자 2개, 그다음 3d 전자 2개예요.</p><div class=\"worked__math\">V<sup>4+</sup>: <span class=\"mono nowrap\">[Ar] 3d<sup>1</sup></span></div><p>이 이온의 3d 전자는 <strong>1</strong>개예요.</p>",
       // EN: 3d electrons
-      unit: "",
+      unit: "3d 전자",
     },
 
     // ── s3-1-q052 · mcq · exam · AHL · Structure 3.1.9 · 1 mark
     "s3-1-q052": {
       // EN: <p>Calcium has only the oxidation state +2 in its compounds. Vanadium has the oxidation states +2, +3, +4 and +5 in its compounds. The table shows successive ionization energies.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Successive ionization energies / kJ mol<sup>−1</sup></caption><thead><tr><th scope="col"></th><th class="num" scope="col">1st</th><th class="num" scope="col">2nd</th><th class="num" scope="col">3rd</th><th class="num" scope="col">4th</th><th class="num" scope="col">5th</th><th class="num" scope="col">6th</th></tr></thead><tbody><tr><th scope="row">Ca</th><td class="num">590</td><td class="num">1145</td><td class="num">4912</td><td class="num">6491</td><td class="num"></td><td class="num"></td></tr><tr><th scope="row">V</th><td class="num">651</td><td class="num">1414</td><td class="num">2830</td><td class="num">4507</td><td class="num">6299</td><td class="num">12 363</td></tr></tbody></table></div><p>Which statement explains the difference?</p>
-      stem: "",
+      stem: "<p>칼슘은 화합물에서 산화수 +2만 가져요. 바나듐은 화합물에서 +2, +3, +4, +5의 산화수를 가져요. 표는 순차 이온화 에너지를 나타내요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>순차 이온화 에너지 / kJ mol<sup>−1</sup></caption><thead><tr><th scope=\"col\"></th><th class=\"num\" scope=\"col\">제1</th><th class=\"num\" scope=\"col\">제2</th><th class=\"num\" scope=\"col\">제3</th><th class=\"num\" scope=\"col\">제4</th><th class=\"num\" scope=\"col\">제5</th><th class=\"num\" scope=\"col\">제6</th></tr></thead><tbody><tr><th scope=\"row\">Ca</th><td class=\"num\">590</td><td class=\"num\">1145</td><td class=\"num\">4912</td><td class=\"num\">6491</td><td class=\"num\"></td><td class=\"num\"></td></tr><tr><th scope=\"row\">V</th><td class=\"num\">651</td><td class=\"num\">1414</td><td class=\"num\">2830</td><td class=\"num\">4507</td><td class=\"num\">6299</td><td class=\"num\">12 363</td></tr></tbody></table></div><p>이 차이를 설명하는 것은 어느 것인가요?</p>",
       options: [
         // EN: Every ionization energy of vanadium is lower than the same ionization energy of calcium.
-        "",
+        "바나듐의 이온화 에너지는 모두 칼슘의 같은 차수 이온화 에너지보다 작아요.",
         // EN: Vanadium has a greater nuclear charge, so it holds its electrons less strongly.
-        "",
+        "바나듐은 핵전하가 더 크므로 전자를 덜 세게 붙잡아요.",
         // EN: The first five ionization energies of vanadium are close in value. For calcium there is a very large increase after the second.
-        "",
+        "바나듐의 처음 5개 이온화 에너지는 값이 서로 가까워요. 칼슘은 둘째 값 다음에 매우 크게 증가해요.",
         // EN: A calcium atom has only two electrons that can be removed.
-        "",
+        "칼슘 원자에는 떼어 낼 수 있는 전자가 2개뿐이에요.",
       ],
       hints: [
         // EN: Find the increase from each value to the next.
-        "",
+        "각 값에서 다음 값까지 얼마나 증가하는지 구하세요.",
         // EN: Where is the first very large increase for Ca? Where is it for V?
-        "",
+        "Ca에서 처음으로 매우 크게 증가하는 곳은 어디인가요? V에서는 어디인가요?",
       ],
       // EN: <p>Look at the increase from each ionization energy to the next.</p><div class="worked__math">Ca: +555, then +3767</div><div class="worked__math">V: +763, +1416, +1677, +1792, then +6064</div><p>For calcium there is a very large increase after the second electron. The third electron comes from an inner energy level (3p), so calcium forms only <span class="chem">Ca^2+</span>.</p><p>For vanadium the first five values rise in small steps, because the 4s and 3d electrons are close in energy. The <strong>successive ionization energies are close in value</strong>, so vanadium can lose different numbers of electrons and shows variable oxidation states. The large increase comes only after the fifth electron.</p>
-      solution: "",
+      solution: "<p>각 이온화 에너지에서 다음 이온화 에너지까지의 증가량을 보세요.</p><div class=\"worked__math\">Ca: +555, 그다음 +3767</div><div class=\"worked__math\">V: +763, +1416, +1677, +1792, 그다음 +6064</div><p>칼슘은 둘째 전자 다음에 매우 크게 증가해요. 셋째 전자는 안쪽 에너지 준위(3p)에서 나오므로 칼슘은 <span class=\"chem\">Ca^2+</span>만 만들어요.</p><p>바나듐은 처음 5개 값이 조금씩 커져요. 4s 전자와 3d 전자의 에너지가 서로 가깝기 때문이에요. <strong>순차 이온화 에너지의 값이 서로 가까우므로</strong>, 바나듐은 잃는 전자의 수가 달라질 수 있고 여러 가지 산화수를 보여요. 큰 증가는 다섯째 전자 다음에야 나타나요.</p>",
       misconception: {
         // EN (option A): Check the data: the 1st and 2nd values for vanadium (651, 1414) are higher than those for calcium (590, 1145).
-        "0": "",
+        "0": "자료를 확인하세요: 바나듐의 제1, 제2 값(651, 1414)은 칼슘의 값(590, 1145)보다 커요.",
         // EN (option B): A greater nuclear charge attracts electrons <em>more</em> strongly, not less.
-        "1": "",
+        "1": "핵전하가 크면 전자를 덜 세게가 아니라 <em>더</em> 세게 끌어당겨요.",
         // EN (option D): A calcium atom has 20 electrons, and the table gives a 3rd and a 4th ionization energy. The third electron can be removed, but it needs much more energy.
-        "3": "",
+        "3": "칼슘 원자의 전자는 20개이고, 표에는 제3, 제4 이온화 에너지도 나와 있어요. 셋째 전자도 떼어 낼 수는 있지만 훨씬 더 많은 에너지가 필요해요.",
       },
     },
 
     // ── s3-1-q053 · numeric · challenge · AHL · Structure 3.1.9 · 1 mark
     "s3-1-q053": {
       // EN: <p>The table shows the first six successive ionization energies of a first-row transition element.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Successive ionization energies / kJ mol<sup>−1</sup></caption><thead><tr><th scope="col"></th><th class="num" scope="col">1st</th><th class="num" scope="col">2nd</th><th class="num" scope="col">3rd</th><th class="num" scope="col">4th</th><th class="num" scope="col">5th</th><th class="num" scope="col">6th</th></tr></thead><tbody><tr><th scope="row">IE</th><td class="num">659</td><td class="num">1310</td><td class="num">2653</td><td class="num">4175</td><td class="num">9581</td><td class="num">11 533</td></tr></tbody></table></div><p>Deduce the highest oxidation state that this element is likely to show in its compounds.</p><p>Type the sign first and then the number, for example +3.</p>
-      stem: "",
+      stem: "<p>표는 첫째 줄 전이 원소 하나의 처음 6개 순차 이온화 에너지예요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>순차 이온화 에너지 / kJ mol<sup>−1</sup></caption><thead><tr><th scope=\"col\"></th><th class=\"num\" scope=\"col\">제1</th><th class=\"num\" scope=\"col\">제2</th><th class=\"num\" scope=\"col\">제3</th><th class=\"num\" scope=\"col\">제4</th><th class=\"num\" scope=\"col\">제5</th><th class=\"num\" scope=\"col\">제6</th></tr></thead><tbody><tr><th scope=\"row\">IE</th><td class=\"num\">659</td><td class=\"num\">1310</td><td class=\"num\">2653</td><td class=\"num\">4175</td><td class=\"num\">9581</td><td class=\"num\">11 533</td></tr></tbody></table></div><p>이 원소가 화합물에서 보일 가능성이 있는 가장 높은 산화수를 추론하시오 (deduce).</p><p>부호를 먼저, 그다음 숫자를 입력하세요. 예: +3.</p>",
       hints: [
         // EN: Find the increase from each value to the next.
-        "",
+        "각 값에서 다음 값까지 얼마나 증가하는지 구하세요.",
         // EN: The 4s and 3d electrons are close in energy. The next electron comes from an inner level and needs much more energy.
-        "",
+        "4s 전자와 3d 전자는 에너지가 서로 가까워요. 그다음 전자는 안쪽 준위에서 나오므로 훨씬 더 많은 에너지가 필요해요.",
         // EN: Count the electrons removed before the very large increase.
-        "",
+        "매우 크게 증가하기 전까지 떼어 낸 전자의 수를 세어 보세요.",
       ],
       // EN: <p>Find the increase from each value to the next.</p><div class="worked__math">+651, +1343, +1522, then <b>+5406</b>, then +1952</div><p>The first four values rise in small steps. These four electrons are the 4s and 3d electrons, which are close in energy. The fifth electron needs much more energy, because it comes from the inner 3p sublevel.</p><p>The atom has four outer (4s and 3d) electrons, so the highest oxidation state is <strong>+4</strong>. The element is titanium, <span class="mono nowrap">[Ar] 4s<sup>2</sup> 3d<sup>2</sup></span>.</p>
-      solution: "",
+      solution: "<p>각 값에서 다음 값까지의 증가량을 구해요.</p><div class=\"worked__math\">+651, +1343, +1522, 그다음 <b>+5406</b>, 그다음 +1952</div><p>처음 4개 값은 조금씩 커져요. 이 4개의 전자는 에너지가 서로 가까운 4s 전자와 3d 전자예요. 다섯째 전자는 안쪽의 3p 부껍질에서 나오므로 훨씬 더 많은 에너지가 필요해요.</p><p>이 원자는 바깥 전자(4s와 3d)가 4개이므로, 가장 높은 산화수는 <strong>+4</strong>예요. 이 원소는 타이타늄 <span class=\"mono nowrap\">[Ar] 4s<sup>2</sup> 3d<sup>2</sup></span>이에요.</p>",
       // EN: In an exam, write +4 with the sign first.
-      correctNote: "",
+      correctNote: "시험에서는 부호를 먼저 써서 +4로 쓰세요.",
     },
 
     // ── s3-1-q054 · mcq · foundation · AHL · Structure 3.1.10 · 1 mark
     "s3-1-q054": {
       // EN: <p>The diagram shows the colour wheel from the data booklet.</p><p><svg viewBox="0 0 300 224" width="300" height="224" style="max-width:100%;height:auto" role="img" aria-label="Colour wheel from the data booklet. Six equal sectors, clockwise from the top: orange, 585 to 647 nanometres; yellow, 575 to 585; green, 491 to 575; blue, 424 to 491; violet, 400 to 424; red, 647 to 700. Orange is opposite blue, yellow is opposite violet, and green is opposite red."><circle cx="150" cy="112" r="74" fill="none" stroke="currentColor" stroke-width="1.5"/><line x1="150" y1="112" x2="224.0" y2="112.0" stroke="currentColor" stroke-width="1.2"/><line x1="150" y1="112" x2="187.0" y2="47.9" stroke="currentColor" stroke-width="1.2"/><line x1="150" y1="112" x2="113.0" y2="47.9" stroke="currentColor" stroke-width="1.2"/><line x1="150" y1="112" x2="76.0" y2="112.0" stroke="currentColor" stroke-width="1.2"/><line x1="150" y1="112" x2="113.0" y2="176.1" stroke="currentColor" stroke-width="1.2"/><line x1="150" y1="112" x2="187.0" y2="176.1" stroke="currentColor" stroke-width="1.2"/><text x="150.0" y="70.1" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Orange</text><text x="189.7" y="93.1" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Yellow</text><text x="189.7" y="138.9" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Green</text><text x="150.0" y="161.9" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Blue</text><text x="110.3" y="138.9" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Violet</text><text x="110.3" y="93.1" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Red</text><text x="110.0" y="40.7" text-anchor="end" font-size="12" fill="currentColor">647 nm</text><text x="190.0" y="40.7" text-anchor="start" font-size="12" fill="currentColor">585 nm</text><text x="232.0" y="116.0" text-anchor="start" font-size="12" fill="currentColor">575 nm</text><text x="190.0" y="193.3" text-anchor="start" font-size="12" fill="currentColor">491 nm</text><text x="110.0" y="193.3" text-anchor="end" font-size="12" fill="currentColor">424 nm</text><text x="68.0" y="108.0" text-anchor="end" font-size="12" fill="currentColor">700 nm</text><text x="68.0" y="126.0" text-anchor="end" font-size="12" fill="currentColor">400 nm</text></svg></p><p>A solution of a transition element complex absorbs orange light. What colour does the solution appear in white light?</p>
-      stem: "",
+      stem: "<p>그림은 데이터 부클릿에 있는 색상환이에요.</p><p><svg viewBox=\"0 0 300 224\" width=\"300\" height=\"224\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"데이터 부클릿의 색상환. 크기가 같은 6개 부채꼴로, 맨 위에서 시계 방향으로: 주황 585–647 나노미터, 노랑 575–585, 초록 491–575, 파랑 424–491, 보라 400–424, 빨강 647–700. 주황은 파랑의 맞은편, 노랑은 보라의 맞은편, 초록은 빨강의 맞은편에 있어요.\"><circle cx=\"150\" cy=\"112\" r=\"74\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"112\" x2=\"224.0\" y2=\"112.0\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"187.0\" y2=\"47.9\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"113.0\" y2=\"47.9\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"76.0\" y2=\"112.0\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"113.0\" y2=\"176.1\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"187.0\" y2=\"176.1\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"150.0\" y=\"70.1\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">주황</text><text x=\"189.7\" y=\"93.1\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">노랑</text><text x=\"189.7\" y=\"138.9\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">초록</text><text x=\"150.0\" y=\"161.9\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">파랑</text><text x=\"110.3\" y=\"138.9\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">보라</text><text x=\"110.3\" y=\"93.1\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">빨강</text><text x=\"110.0\" y=\"40.7\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">647 nm</text><text x=\"190.0\" y=\"40.7\" text-anchor=\"start\" font-size=\"12\" fill=\"currentColor\">585 nm</text><text x=\"232.0\" y=\"116.0\" text-anchor=\"start\" font-size=\"12\" fill=\"currentColor\">575 nm</text><text x=\"190.0\" y=\"193.3\" text-anchor=\"start\" font-size=\"12\" fill=\"currentColor\">491 nm</text><text x=\"110.0\" y=\"193.3\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">424 nm</text><text x=\"68.0\" y=\"108.0\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">700 nm</text><text x=\"68.0\" y=\"126.0\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">400 nm</text></svg></p><p>어떤 전이 원소 착화합물의 용액이 주황색 빛을 흡수해요. 이 용액은 백색광 아래에서 무슨 색으로 보이나요?</p>",
       options: [
         // EN: Orange
-        "",
+        "주황색",
         // EN: Yellow
-        "",
+        "노란색",
         // EN: Blue
-        "",
+        "파란색",
         // EN: Red
-        "",
+        "빨간색",
       ],
       hints: [
         // EN: The colour you see is complementary to the colour absorbed.
-        "",
+        "눈에 보이는 색은 흡수된 색의 보색이에요.",
         // EN: On the wheel, complementary colours are directly opposite each other.
-        "",
+        "색상환에서 보색은 서로 정반대편에 있어요.",
       ],
       // EN: <p>The colour observed is <strong>complementary</strong> to the colour absorbed. Complementary colours are opposite each other on the colour wheel. Blue is opposite orange, so the solution appears <strong>blue</strong>.</p>
-      solution: "",
+      solution: "<p>눈에 보이는 색은 흡수된 색의 <strong>보색</strong>이에요. 보색은 색상환에서 서로 맞은편에 있어요. 파랑은 주황의 맞은편에 있으므로 용액은 <strong>파란색</strong>으로 보여요.</p>",
       misconception: {
         // EN (option A): Orange is the colour that is absorbed, so it is removed from the light that reaches your eye. You see what is left.
-        "0": "",
+        "0": "주황색은 흡수되는 색이므로, 눈에 들어오는 빛에서 빠져요. 눈에는 남은 빛의 색이 보여요.",
         // EN (option B): Yellow is next to orange on the wheel. The complementary colour is directly <em>opposite</em>, not next to it.
-        "1": "",
+        "1": "노랑은 색상환에서 주황 바로 옆에 있어요. 보색은 옆이 아니라 정반대편, 즉 <em>맞은편</em>에 있어요.",
         // EN (option D): Red is next to orange on the wheel. The complementary colour is directly <em>opposite</em>, not next to it.
-        "3": "",
+        "3": "빨강은 색상환에서 주황 바로 옆에 있어요. 보색은 옆이 아니라 정반대편, 즉 <em>맞은편</em>에 있어요.",
       },
     },
 
     // ── s3-1-q055 · short · exam · AHL · Structure 3.1.10 · 3 marks
     "s3-1-q055": {
       // EN: <p>A solution that contains the complex ion <span class="chem">[Cu(H2O)6]^2+</span> is blue. Explain why this complex ion is coloured.</p>
-      stem: "",
+      stem: "<p>착이온 <span class=\"chem\">[Cu(H2O)6]^2+</span>이 들어 있는 용액은 파란색이에요. 이 착이온이 색을 띠는 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: Start with the d electrons of <span class="chem">Cu^2+</span>.
-        "",
+        "<span class=\"chem\">Cu^2+</span>의 d 전자부터 생각해 보세요.",
         // EN: What do the ligands do to the d orbitals? What happens to an electron when light arrives?
-        "",
+        "리간드는 d 오비탈에 어떤 영향을 주나요? 빛이 들어오면 전자에는 무슨 일이 일어나나요?",
         // EN: Finish with the link between the colour absorbed and the colour seen.
         "",
       ],

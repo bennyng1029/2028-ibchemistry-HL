@@ -1686,724 +1686,724 @@ S1.i18n.register('ko', 's3-1', {
     "Worked example 11": "예제 11",
 
     // Variable oxidation states and ion configurations > worked example > Additional HL > h3
-    "Configurations of transition element ions": "",
+    "Configurations of transition element ions": "전이 원소 이온의 전자 배치",
 
     // Variable oxidation states and ion configurations > worked example > Additional HL > p
-    "Deduce the condensed electron configurations of (a) <span class=\"chem\">Mn^2+</span>, (b) <span class=\"chem\">Cr^3+</span> and (c) <span class=\"chem\">Cu^2+</span>.": "",
+    "Deduce the condensed electron configurations of (a) <span class=\"chem\">Mn^2+</span>, (b) <span class=\"chem\">Cr^3+</span> and (c) <span class=\"chem\">Cu^2+</span>.": "(a) <span class=\"chem\">Mn^2+</span>, (b) <span class=\"chem\">Cr^3+</span>, (c) <span class=\"chem\">Cu^2+</span>의 축약 전자 배치를 추론하시오 (deduce).",
 
     // Variable oxidation states and ion configurations > worked example > Additional HL > data-title attribute
-    "Write the atoms": "",
+    "Write the atoms": "원자의 전자 배치 쓰기",
 
     // Variable oxidation states and ion configurations > worked example > Additional HL > p
-    "Start from the atom every time. Cr and Cu are the two exceptions with one 4s electron.": "",
+    "Start from the atom every time. Cr and Cu are the two exceptions with one 4s electron.": "항상 원자에서 시작하세요. Cr과 Cu는 4s 전자가 1개인 두 가지 예외예요.",
 
     // Variable oxidation states and ion configurations > worked example > Additional HL > data-title attribute
-    "(a) Remove two electrons from Mn": "",
+    "(a) Remove two electrons from Mn": "(a) Mn에서 전자 2개 떼어 내기",
 
     // Variable oxidation states and ion configurations > worked example > Additional HL > p
-    "Both come from 4s.": "",
+    "Both come from 4s.": "2개 모두 4s에서 나와요.",
 
     // Variable oxidation states and ion configurations > worked example > Additional HL > data-title attribute
-    "(b) Remove three electrons from Cr": "",
+    "(b) Remove three electrons from Cr": "(b) Cr에서 전자 3개 떼어 내기",
 
     // Variable oxidation states and ion configurations > worked example > Additional HL > p
-    "Chromium has only one 4s electron. It goes first. The other two come from 3d.": "",
+    "Chromium has only one 4s electron. It goes first. The other two come from 3d.": "크로뮴은 4s 전자가 1개뿐이에요. 이 전자가 먼저 떨어져 나가요. 나머지 2개는 3d에서 나와요.",
 
     // Variable oxidation states and ion configurations > worked example > Additional HL > data-title attribute
-    "(c) Remove two electrons from Cu": "",
+    "(c) Remove two electrons from Cu": "(c) Cu에서 전자 2개 떼어 내기",
 
     // Variable oxidation states and ion configurations > worked example > Additional HL > p
-    "Copper has one 4s electron. It goes first. The second comes from 3d.": "",
+    "Copper has one 4s electron. It goes first. The second comes from 3d.": "구리는 4s 전자가 1개예요. 이 전자가 먼저 떨어져 나가요. 두 번째 전자는 3d에서 나와요.",
 
     // Variable oxidation states and ion configurations > worked example > Additional HL > p
-    "(a) [Ar] 3d<sup>5</sup>. (b) [Ar] 3d<sup>3</sup>. (c) [Ar] 3d<sup>9</sup>.": "",
+    "(a) [Ar] 3d<sup>5</sup>. (b) [Ar] 3d<sup>3</sup>. (c) [Ar] 3d<sup>9</sup>.": "(a) [Ar] 3d<sup>5</sup>. (b) [Ar] 3d<sup>3</sup>. (c) [Ar] 3d<sup>9</sup>.",
 
     // Variable oxidation states and ion configurations > try it > Additional HL > data-label attribute
-    "Number of 3d electrons": "",
+    "Number of 3d electrons": "3d 전자의 수",
 
     // Variable oxidation states and ion configurations > try it > Additional HL > p
-    "How many 3d electrons does a <span class=\"chem\">Co^3+</span> ion have? (Cobalt is Z = 27.)": "",
+    "How many 3d electrons does a <span class=\"chem\">Co^3+</span> ion have? (Cobalt is Z = 27.)": "<span class=\"chem\">Co^3+</span> 이온에는 3d 전자가 몇 개 있나요? (코발트는 Z = 27이에요.)",
 
     // Variable oxidation states and ion configurations > try it > Additional HL > li
-    "The cobalt atom is [Ar] 4s<sup>2</sup> 3d<sup>7</sup>. Three electrons must be removed.": "",
+    "The cobalt atom is [Ar] 4s<sup>2</sup> 3d<sup>7</sup>. Three electrons must be removed.": "코발트 원자는 [Ar] 4s<sup>2</sup> 3d<sup>7</sup>이에요. 전자 3개를 떼어 내야 해요.",
 
     // Variable oxidation states and ion configurations > try it > Additional HL > li
-    "Two come from 4s. The third comes from 3d.": "",
+    "Two come from 4s. The third comes from 3d.": "2개는 4s에서 나와요. 세 번째 전자는 3d에서 나와요.",
 
     // Variable oxidation states and ion configurations > try it > Additional HL > p
-    "How many 3d electrons does a <span class=\"chem\">V^3+</span> ion have? (Vanadium is Z = 23.)": "",
+    "How many 3d electrons does a <span class=\"chem\">V^3+</span> ion have? (Vanadium is Z = 23.)": "<span class=\"chem\">V^3+</span> 이온에는 3d 전자가 몇 개 있나요? (바나듐은 Z = 23이에요.)",
 
     // Variable oxidation states and ion configurations > try it > Additional HL > li
-    "The vanadium atom is [Ar] 4s<sup>2</sup> 3d<sup>3</sup>.": "",
+    "The vanadium atom is [Ar] 4s<sup>2</sup> 3d<sup>3</sup>.": "바나듐 원자는 [Ar] 4s<sup>2</sup> 3d<sup>3</sup>이에요.",
 
     // Variable oxidation states and ion configurations > try it > Additional HL > li
-    "Remove two electrons from 4s, then one from 3d.": "",
+    "Remove two electrons from 4s, then one from 3d.": "4s에서 전자 2개를 떼어 낸 다음, 3d에서 1개를 떼어 내세요.",
 
     // Variable oxidation states and ion configurations > common mistake > Additional HL > p
-    "The common error is to remove 3d electrons first, which gives <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>4</sup></span> for <span class=\"chem\">Fe^2+</span>. The correct answer is <span class=\"mono\">[Ar] 3d<sup>6</sup></span>. The 4s sublevel fills first, and it also empties first.": "",
+    "The common error is to remove 3d electrons first, which gives <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>4</sup></span> for <span class=\"chem\">Fe^2+</span>. The correct answer is <span class=\"mono\">[Ar] 3d<sup>6</sup></span>. The 4s sublevel fills first, and it also empties first.": "흔한 실수는 3d 전자를 먼저 떼어 내는 거예요. 그러면 <span class=\"chem\">Fe^2+</span>의 전자 배치가 <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>4</sup></span>가 돼요. 맞는 답은 <span class=\"mono\">[Ar] 3d<sup>6</sup></span>이에요. 4s 부껍질은 먼저 채워지고, 먼저 비워지기도 해요.",
 
     // Variable oxidation states and ion configurations > not needed for IB > Additional HL > p
-    "You do not need to memorize which oxidation states each transition element has, or the colours of particular ions.": "",
+    "You do not need to memorize which oxidation states each transition element has, or the colours of particular ions.": "각 전이 원소가 어떤 산화수를 가지는지, 특정 이온이 무슨 색인지는 외울 필요가 없어요.",
 
     // Variable oxidation states and ion configurations > Additional HL > data-title attribute
-    "Variable oxidation states and ion configurations: quick check": "",
+    "Variable oxidation states and ion configurations: quick check": "여러 가지 산화수와 이온의 전자 배치: 빠른 확인",
 
     // Why transition element complexes are coloured > Additional HL > data-toc attribute
-    "Colour of complexes": "",
+    "Colour of complexes": "착화합물의 색",
 
     // Why transition element complexes are coloured > Additional HL > h2
-    "Why transition element complexes are coloured": "",
+    "Why transition element complexes are coloured": "전이 원소 착화합물이 색을 띠는 이유",
 
     // Why transition element complexes are coloured > Additional HL > p
-    "A red filter on a torch does not add red light. It removes the other colours and lets red through. A coloured solution works in the same way: it removes part of the white light, and you see what is left.": "",
+    "A red filter on a torch does not add red light. It removes the other colours and lets red through. A coloured solution works in the same way: it removes part of the white light, and you see what is left.": "손전등에 빨간 필터를 끼우면 빨간빛이 더해지는 것이 아니에요. 다른 색을 없애고 빨간빛만 통과시키는 거예요. 색을 띤 용액도 같은 방식으로 작용해요: 백색광의 일부를 없애고, 남은 빛이 보이는 거예요.",
 
     // Why transition element complexes are coloured > Additional HL > h3
-    "The explanation, step by step": "",
+    "The explanation, step by step": "단계별 설명",
 
     // Why transition element complexes are coloured > Additional HL > li
-    "The transition element ion has a <b>partially filled d sublevel</b>.": "",
+    "The transition element ion has a <b>partially filled d sublevel</b>.": "전이 원소 이온에는 <b>부분적으로 채워진 d 부껍질</b>이 있어요.",
 
     // Why transition element complexes are coloured > Additional HL > li
-    "In a complex ion, the ligands cause the d sublevel to <b>split</b> into two sets of orbitals with different energies.": "",
+    "In a complex ion, the ligands cause the d sublevel to <b>split</b> into two sets of orbitals with different energies.": "착이온에서는 리간드 때문에 d 부껍질이 에너지가 다른 두 묶음의 오비탈로 <b>갈라져요</b>.",
 
     // Why transition element complexes are coloured > Additional HL > li
-    "An electron in the lower set <b>absorbs light</b> and is <b>promoted</b> to the higher set.": "",
+    "An electron in the lower set <b>absorbs light</b> and is <b>promoted</b> to the higher set.": "아래 묶음에 있는 전자가 <b>빛을 흡수하고</b> 위 묶음으로 <b>들뜨게 돼요</b>.",
 
     // Why transition element complexes are coloured > Additional HL > li
-    "The energy gap between the two sets matches the energy of light in the <b>visible</b> region. So one colour of visible light is absorbed.": "",
+    "The energy gap between the two sets matches the energy of light in the <b>visible</b> region. So one colour of visible light is absorbed.": "두 묶음 사이의 에너지 차이는 <b>가시광선</b> 영역의 빛 에너지와 같아요. 그래서 가시광선 중 한 가지 색이 흡수돼요.",
 
     // Why transition element complexes are coloured > Additional HL > li
-    "The colour you <b>observe is complementary</b> to the colour absorbed. It is the light that passes through.": "",
+    "The colour you <b>observe is complementary</b> to the colour absorbed. It is the light that passes through.": "우리가 <b>보는 색은 흡수된 색의 보색</b>이에요. 그것은 통과한 빛이에요.",
 
     // Why transition element complexes are coloured > Additional HL > p
-    "<dfn data-def=\"The colour opposite a given colour on the colour wheel. If a substance absorbs one colour, it appears as the complementary colour.\">Complementary colours</dfn> are opposite each other on the colour wheel.": "",
+    "<dfn data-def=\"The colour opposite a given colour on the colour wheel. If a substance absorbs one colour, it appears as the complementary colour.\">Complementary colours</dfn> are opposite each other on the colour wheel.": "<dfn data-def=\"색상환에서 어떤 색의 맞은편에 있는 색. 물질이 한 가지 색을 흡수하면 그 보색으로 보인다.\">보색 <span class=\"en-term\">(complementary colours)</span></dfn>은 색상환에서 서로 맞은편에 있어요.",
 
     // Why transition element complexes are coloured > Additional HL > data-def attribute
-    "The colour opposite a given colour on the colour wheel. If a substance absorbs one colour, it appears as the complementary colour.": "",
+    "The colour opposite a given colour on the colour wheel. If a substance absorbs one colour, it appears as the complementary colour.": "색상환에서 어떤 색의 맞은편에 있는 색. 물질이 한 가지 색을 흡수하면 그 보색으로 보인다.",
 
     // Why transition element complexes are coloured > widget > Additional HL > data-title attribute
-    "Colour wheel: absorbed and observed colours": "",
+    "Colour wheel: absorbed and observed colours": "색상환: 흡수되는 색과 관찰되는 색",
 
     // Why transition element complexes are coloured > widget > Additional HL > figcaption
-    "Set the wavelength of the light absorbed. The wheel has the same layout and wavelengths as section 15 of the data booklet. The colours on screen are only a guide. The diagram shows two sets of d orbitals without any pattern: you do not need the pattern.": "",
+    "Set the wavelength of the light absorbed. The wheel has the same layout and wavelengths as section 15 of the data booklet. The colours on screen are only a guide. The diagram shows two sets of d orbitals without any pattern: you do not need the pattern.": "흡수되는 빛의 파장을 정해 보세요. 이 색상환은 데이터 부클릿 15번 항목과 배치와 파장이 같아요. 화면의 색은 참고용일 뿐이에요. 그림은 d 오비탈의 두 묶음을 특정한 배열 없이 보여 줘요: 배열은 알 필요가 없어요.",
 
     // Why transition element complexes are coloured > data booklet note > Additional HL > p
-    "The colour wheel is in section 15 of the data booklet. The equation <i>c</i> = <i>λf</i> is in section 1 and the speed of light is in section 2. You do not need to memorize any of them.": "",
+    "The colour wheel is in section 15 of the data booklet. The equation <i>c</i> = <i>λf</i> is in section 1 and the speed of light is in section 2. You do not need to memorize any of them.": "색상환은 데이터 부클릿 15번 항목에 있어요. 식 <i>c</i> = <i>λf</i>는 1번 항목에, 빛의 속력은 2번 항목에 있어요. 어느 것도 외울 필요가 없어요.",
 
     // Why transition element complexes are coloured > common mistake > Additional HL > p
-    "The complex does not <b>emit</b> the colour you see. It <b>absorbs</b> the complementary colour, and the rest of the white light passes through. Writing “the electron falls back and emits blue light” is wrong.": "",
+    "The complex does not <b>emit</b> the colour you see. It <b>absorbs</b> the complementary colour, and the rest of the white light passes through. Writing “the electron falls back and emits blue light” is wrong.": "착화합물은 우리가 보는 색을 <b>방출</b>하는 것이 아니에요. 보색을 <b>흡수</b>하고, 나머지 백색광이 통과해요. “전자가 다시 떨어지면서 파란빛을 방출한다”라고 쓰면 틀려요.",
 
     // Why transition element complexes are coloured > worked example > Additional HL > data-kicker attribute
-    "Worked example 12": "",
+    "Worked example 12": "예제 12",
 
     // Why transition element complexes are coloured > worked example > Additional HL > h3
-    "Coloured and colourless ions": "",
+    "Coloured and colourless ions": "색을 띠는 이온과 무색 이온",
 
     // Why transition element complexes are coloured > worked example > Additional HL > p
-    "A solution containing the complex ion <span class=\"mono\">[Cu(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup></span> is blue. Solutions of zinc compounds are colourless. Explain both observations. [5]": "",
+    "A solution containing the complex ion <span class=\"mono\">[Cu(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup></span> is blue. Solutions of zinc compounds are colourless. Explain both observations. [5]": "착이온 <span class=\"mono\">[Cu(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup></span>을 포함한 용액은 파란색이에요. 아연 화합물의 용액은 무색이에요. 두 관찰 결과를 모두 설명하시오 (explain). [5]",
 
     // Why transition element complexes are coloured > worked example > Additional HL > data-title attribute
-    "Write the ion configurations": "",
+    "Write the ion configurations": "이온의 전자 배치 쓰기",
 
     // Why transition element complexes are coloured > worked example > Additional HL > p
-    "Colour depends on the d electrons of the ion, not of the atom.": "",
+    "Colour depends on the d electrons of the ion, not of the atom.": "색은 원자가 아니라 이온의 d 전자에 따라 달라져요.",
 
     // Why transition element complexes are coloured > worked example > Additional HL > data-title attribute
-    "Point 1: partially filled d sublevel": "",
+    "Point 1: partially filled d sublevel": "1번 요점: 부분적으로 채워진 d 부껍질",
 
     // Why transition element complexes are coloured > worked example > Additional HL > p
-    "Start with the feature that makes colour possible.": "",
+    "Start with the feature that makes colour possible.": "색을 띨 수 있게 하는 특징부터 시작하세요.",
 
     // Why transition element complexes are coloured > worked example > Additional HL > maths line
-    "Cu<sup>2+</sup> has a partially filled d sublevel.": "",
+    "Cu<sup>2+</sup> has a partially filled d sublevel.": "Cu<sup>2+</sup>에는 부분적으로 채워진 d 부껍질이 있음.",
 
     // Why transition element complexes are coloured > worked example > Additional HL > data-title attribute
-    "Point 2: splitting": "",
+    "Point 2: splitting": "2번 요점: 갈라짐",
 
     // Why transition element complexes are coloured > worked example > Additional HL > p
-    "Say what the ligands do.": "",
+    "Say what the ligands do.": "리간드가 무엇을 하는지 쓰세요.",
 
     // Why transition element complexes are coloured > worked example > Additional HL > maths line
-    "The water ligands cause the d sublevel to split into two sets of orbitals with different energies.": "",
+    "The water ligands cause the d sublevel to split into two sets of orbitals with different energies.": "물 리간드 때문에 d 부껍질이 에너지가 다른 두 묶음의 오비탈로 갈라짐.",
 
     // Why transition element complexes are coloured > worked example > Additional HL > data-title attribute
-    "Points 3 and 4: absorption": "",
+    "Points 3 and 4: absorption": "3번과 4번 요점: 흡수",
 
     // Why transition element complexes are coloured > worked example > Additional HL > p
-    "You must mention that light is absorbed. Without this, the complementary colour point does not score.": "",
+    "You must mention that light is absorbed. Without this, the complementary colour point does not score.": "빛이 흡수된다는 것을 반드시 써야 해요. 이것이 없으면 보색 요점은 점수를 받지 못해요.",
 
     // Why transition element complexes are coloured > worked example > Additional HL > maths line
-    "An electron absorbs visible light (orange) and is promoted from the lower set to the higher set.": "",
+    "An electron absorbs visible light (orange) and is promoted from the lower set to the higher set.": "전자가 가시광선(주황색)을 흡수하고 아래 묶음에서 위 묶음으로 들뜸.",
 
     // Why transition element complexes are coloured > worked example > Additional HL > maths line
-    "The colour observed, blue, is complementary to the colour absorbed.": "",
+    "The colour observed, blue, is complementary to the colour absorbed.": "관찰되는 색인 파란색은 흡수된 색의 보색임.",
 
     // Why transition element complexes are coloured > worked example > Additional HL > data-title attribute
-    "Point 5: zinc": "",
+    "Point 5: zinc": "5번 요점: 아연",
 
     // Why transition element complexes are coloured > worked example > Additional HL > p
-    "Compare with the ion that has no space in its d sublevel.": "",
+    "Compare with the ion that has no space in its d sublevel.": "d 부껍질에 빈자리가 없는 이온과 비교하세요.",
 
     // Why transition element complexes are coloured > worked example > Additional HL > maths line
-    "<b>Zn<sup>2+</sup> has a full d sublevel (3d<sup>10</sup>), so no electron can be promoted between d orbitals. No visible light is absorbed.</b>": "",
+    "<b>Zn<sup>2+</sup> has a full d sublevel (3d<sup>10</sup>), so no electron can be promoted between d orbitals. No visible light is absorbed.</b>": "<b>Zn<sup>2+</sup>은 d 부껍질이 꽉 차 있으므로(3d<sup>10</sup>), d 오비탈 사이에서 들뜰 수 있는 전자가 없음. 가시광선이 흡수되지 않음.</b>",
 
     // Why transition element complexes are coloured > worked example > Additional HL > p
-    "Cu<sup>2+</sup> (3d<sup>9</sup>) has a partially filled d sublevel, split by the ligands. An electron is promoted by absorbing orange light, and the complementary colour, blue, is seen. Zn<sup>2+</sup> (3d<sup>10</sup>) has a full d sublevel, so no promotion is possible.": "",
+    "Cu<sup>2+</sup> (3d<sup>9</sup>) has a partially filled d sublevel, split by the ligands. An electron is promoted by absorbing orange light, and the complementary colour, blue, is seen. Zn<sup>2+</sup> (3d<sup>10</sup>) has a full d sublevel, so no promotion is possible.": "Cu<sup>2+</sup>(3d<sup>9</sup>)에는 부분적으로 채워진 d 부껍질이 있고, 리간드 때문에 갈라져요. 전자가 주황색 빛을 흡수하여 들뜨고, 그 보색인 파란색이 보여요. Zn<sup>2+</sup>(3d<sup>10</sup>)은 d 부껍질이 꽉 차 있어서 전자가 들뜰 수 없어요.",
 
     // Why transition element complexes are coloured > Additional HL > p
-    "The same reasoning explains <span class=\"chem\">Sc^3+</span>. It has no d electrons at all, so there is no electron to promote. Its compounds are colourless.": "",
+    "The same reasoning explains <span class=\"chem\">Sc^3+</span>. It has no d electrons at all, so there is no electron to promote. Its compounds are colourless.": "같은 이유로 <span class=\"chem\">Sc^3+</span>도 설명할 수 있어요. 이 이온에는 d 전자가 전혀 없으므로 들뜰 전자가 없어요. 그래서 화합물이 무색이에요.",
 
     // Why transition element complexes are coloured > Additional HL > h3
-    "Calculations with c = λf": "",
+    "Calculations with c = λf": "c = λf를 이용한 계산",
 
     // Why transition element complexes are coloured > equation > Additional HL > dd
-    "speed of light, <span class=\"mono\">3.00 × 10<sup>8</sup></span> <span class=\"unit\">m s-1</span>": "",
+    "speed of light, <span class=\"mono\">3.00 × 10<sup>8</sup></span> <span class=\"unit\">m s-1</span>": "빛의 속력, <span class=\"mono\">3.00 × 10<sup>8</sup></span> <span class=\"unit\">m s-1</span>",
 
     // Why transition element complexes are coloured > equation > Additional HL > dd
-    "wavelength <span class=\"unit\">m</span>": "",
+    "wavelength <span class=\"unit\">m</span>": "파장 <span class=\"unit\">m</span>",
 
     // Why transition element complexes are coloured > equation > Additional HL > dd
-    "frequency <span class=\"unit\">Hz</span> (the same as <span class=\"unit\">s-1</span>)": "",
+    "frequency <span class=\"unit\">Hz</span> (the same as <span class=\"unit\">s-1</span>)": "진동수 <span class=\"unit\">Hz</span> (<span class=\"unit\">s-1</span>과 같음)",
 
     // Why transition element complexes are coloured > Additional HL > li
-    "Decide whether you were given the light <b>absorbed</b> or the colour <b>observed</b>.": "",
+    "Decide whether you were given the light <b>absorbed</b> or the colour <b>observed</b>.": "주어진 것이 <b>흡수된</b> 빛인지, <b>관찰된</b> 색인지 판단하세요.",
 
     // Why transition element complexes are coloured > Additional HL > li
-    "If you have a wavelength in nm, convert it to metres: multiply by <span class=\"mono\">10<sup>−9</sup></span>.": "",
+    "If you have a wavelength in nm, convert it to metres: multiply by <span class=\"mono\">10<sup>−9</sup></span>.": "파장이 nm로 주어졌다면 미터로 바꾸세요: <span class=\"mono\">10<sup>−9</sup></span>를 곱해요.",
 
     // Why transition element complexes are coloured > Additional HL > li
-    "Rearrange: <i>f</i> = <i>c</i> / <i>λ</i> or <i>λ</i> = <i>c</i> / <i>f</i>.": "",
+    "Rearrange: <i>f</i> = <i>c</i> / <i>λ</i> or <i>λ</i> = <i>c</i> / <i>f</i>.": "식을 변형하세요: <i>f</i> = <i>c</i> / <i>λ</i> 또는 <i>λ</i> = <i>c</i> / <i>f</i>.",
 
     // Why transition element complexes are coloured > Additional HL > li
-    "To use the colour wheel, convert a wavelength in metres back to nm: divide by <span class=\"mono\">10<sup>−9</sup></span>.": "",
+    "To use the colour wheel, convert a wavelength in metres back to nm: divide by <span class=\"mono\">10<sup>−9</sup></span>.": "색상환을 이용하려면 미터 단위의 파장을 다시 nm로 바꾸세요: <span class=\"mono\">10<sup>−9</sup></span>로 나눠요.",
 
     // Why transition element complexes are coloured > Additional HL > li
-    "Find the colour on the wheel. The complementary colour is directly opposite.": "",
+    "Find the colour on the wheel. The complementary colour is directly opposite.": "색상환에서 색을 찾으세요. 보색은 바로 맞은편에 있어요.",
 
     // Why transition element complexes are coloured > worked example > Additional HL > data-kicker attribute
-    "Worked example 13": "",
+    "Worked example 13": "예제 13",
 
     // Why transition element complexes are coloured > worked example > Additional HL > h3
-    "Colour from the frequency absorbed": "",
+    "Colour from the frequency absorbed": "흡수된 진동수로부터 색 구하기",
 
     // Why transition element complexes are coloured > worked example > Additional HL > p
-    "A complex ion absorbs light of frequency <span class=\"mono\">5.00 × 10<sup>14</sup> Hz</span>. Calculate the wavelength of this light in nm. Then use the colour wheel to deduce the colour absorbed and the colour of the complex.": "",
+    "A complex ion absorbs light of frequency <span class=\"mono\">5.00 × 10<sup>14</sup> Hz</span>. Calculate the wavelength of this light in nm. Then use the colour wheel to deduce the colour absorbed and the colour of the complex.": "어떤 착이온이 진동수 <span class=\"mono\">5.00 × 10<sup>14</sup> Hz</span>의 빛을 흡수해요. 이 빛의 파장을 nm 단위로 계산하시오 (calculate). 그다음 색상환을 이용하여 흡수된 색과 착이온의 색을 추론하시오 (deduce).",
 
     // Why transition element complexes are coloured > worked example > Additional HL > data-title attribute
-    "Rearrange the equation": "",
+    "Rearrange the equation": "식 변형하기",
 
     // Why transition element complexes are coloured > worked example > Additional HL > p
-    "You know c and f, and you want λ.": "",
+    "You know c and f, and you want λ.": "c와 f를 알고 있고, λ를 구해야 해요.",
 
     // Why transition element complexes are coloured > worked example > Additional HL > data-title attribute
-    "Substitute with units": "",
+    "Substitute with units": "단위와 함께 대입하기",
 
     // Why transition element complexes are coloured > worked example > Additional HL > p
-    "Hz is the same as s<sup>−1</sup>, so the seconds cancel and the answer is in metres.": "",
+    "Hz is the same as s<sup>−1</sup>, so the seconds cancel and the answer is in metres.": "Hz는 s<sup>−1</sup>과 같으므로 초가 약분되어 답의 단위는 미터가 돼요.",
 
     // Why transition element complexes are coloured > worked example > Additional HL > data-title attribute
-    "Convert to nm": "",
+    "Convert to nm": "nm로 바꾸기",
 
     // Why transition element complexes are coloured > worked example > Additional HL > p
-    "The colour wheel is in nm. 1 nm = 10<sup>−9</sup> m, so divide by 10<sup>−9</sup>.": "",
+    "The colour wheel is in nm. 1 nm = 10<sup>−9</sup> m, so divide by 10<sup>−9</sup>.": "색상환은 nm 단위예요. 1 nm = 10<sup>−9</sup> m이므로 10<sup>−9</sup>로 나눠요.",
 
     // Why transition element complexes are coloured > worked example > Additional HL > data-title attribute
-    "Use the colour wheel": "",
+    "Use the colour wheel": "색상환 이용하기",
 
     // Why transition element complexes are coloured > worked example > Additional HL > p
-    "Find the sector that contains 600 nm, then go straight across the wheel.": "",
+    "Find the sector that contains 600 nm, then go straight across the wheel.": "600 nm가 들어 있는 부채꼴을 찾은 다음, 색상환을 가로질러 맞은편으로 가세요.",
 
     // Why transition element complexes are coloured > worked example > Additional HL > maths line
-    "600 nm is between 585 nm and 647 nm: orange is absorbed.": "",
+    "600 nm is between 585 nm and 647 nm: orange is absorbed.": "600 nm는 585 nm와 647 nm 사이: 주황색이 흡수됨.",
 
     // Why transition element complexes are coloured > worked example > Additional HL > maths line
-    "<b>Opposite orange is blue: the complex is blue.</b>": "",
+    "<b>Opposite orange is blue: the complex is blue.</b>": "<b>주황색의 맞은편은 파란색: 착이온은 파란색임.</b>",
 
     // Why transition element complexes are coloured > worked example > Additional HL > p
-    "λ = 600 nm (3 significant figures, like the data). Orange light is absorbed, so the complex appears blue.": "",
+    "λ = 600 nm (3 significant figures, like the data). Orange light is absorbed, so the complex appears blue.": "λ = 600 nm (자료와 같이 유효 숫자 3자리). 주황색 빛이 흡수되므로 착이온은 파란색으로 보여요.",
 
     // Why transition element complexes are coloured > try it > Additional HL > p
-    "A complex ion absorbs light of wavelength 450 nm. Calculate the frequency of this light.": "",
+    "A complex ion absorbs light of wavelength 450 nm. Calculate the frequency of this light.": "어떤 착이온이 파장 450 nm의 빛을 흡수해요. 이 빛의 진동수를 계산하시오 (calculate).",
 
     // Why transition element complexes are coloured > try it > Additional HL > li
-    "Convert the wavelength to metres first: 450 nm = 450 × 10<sup>−9</sup> m = 4.50 × 10<sup>−7</sup> m.": "",
+    "Convert the wavelength to metres first: 450 nm = 450 × 10<sup>−9</sup> m = 4.50 × 10<sup>−7</sup> m.": "먼저 파장을 미터로 바꾸세요: 450 nm = 450 × 10<sup>−9</sup> m = 4.50 × 10<sup>−7</sup> m.",
 
     // Why transition element complexes are coloured > try it > Additional HL > li
-    "Use <i>f</i> = <i>c</i> / <i>λ</i> with <i>c</i> = 3.00 × 10<sup>8</sup> m s<sup>−1</sup>.": "",
+    "Use <i>f</i> = <i>c</i> / <i>λ</i> with <i>c</i> = 3.00 × 10<sup>8</sup> m s<sup>−1</sup>.": "<i>c</i> = 3.00 × 10<sup>8</sup> m s<sup>−1</sup>로 <i>f</i> = <i>c</i> / <i>λ</i>를 이용하세요.",
 
     // Why transition element complexes are coloured > try it > Additional HL > maths line
-    "450 nm is blue light, so this complex appears orange.": "",
+    "450 nm is blue light, so this complex appears orange.": "450 nm는 파란빛이므로 이 착이온은 주황색으로 보임.",
 
     // Why transition element complexes are coloured > try it > Additional HL > p
-    "A complex ion absorbs light of frequency <span class=\"mono\">7.25 × 10<sup>14</sup> Hz</span>. Calculate the wavelength absorbed, in nm. Then decide what colour the complex is.": "",
+    "A complex ion absorbs light of frequency <span class=\"mono\">7.25 × 10<sup>14</sup> Hz</span>. Calculate the wavelength absorbed, in nm. Then decide what colour the complex is.": "어떤 착이온이 진동수 <span class=\"mono\">7.25 × 10<sup>14</sup> Hz</span>의 빛을 흡수해요. 흡수된 빛의 파장을 nm 단위로 계산하시오 (calculate). 그다음 착이온이 무슨 색인지 판단하세요.",
 
     // Why transition element complexes are coloured > try it > Additional HL > li
-    "Use <i>λ</i> = <i>c</i> / <i>f</i>. The answer comes out in metres.": "",
+    "Use <i>λ</i> = <i>c</i> / <i>f</i>. The answer comes out in metres.": "<i>λ</i> = <i>c</i> / <i>f</i>를 이용하세요. 답은 미터 단위로 나와요.",
 
     // Why transition element complexes are coloured > try it > Additional HL > li
-    "<i>λ</i> = (3.00 × 10<sup>8</sup>) / (7.25 × 10<sup>14</sup>) m. Then divide by 10<sup>−9</sup> to get nm.": "",
+    "<i>λ</i> = (3.00 × 10<sup>8</sup>) / (7.25 × 10<sup>14</sup>) m. Then divide by 10<sup>−9</sup> to get nm.": "<i>λ</i> = (3.00 × 10<sup>8</sup>) / (7.25 × 10<sup>14</sup>) m. 그다음 10<sup>−9</sup>로 나누어 nm로 바꾸세요.",
 
     // Why transition element complexes are coloured > try it > Additional HL > maths line
-    "414 nm is violet (400 to 424 nm). Opposite violet is yellow: the complex is yellow.": "",
+    "414 nm is violet (400 to 424 nm). Opposite violet is yellow: the complex is yellow.": "414 nm는 보라색(400~424 nm). 보라색의 맞은편은 노란색: 착이온은 노란색임.",
 
     // Why transition element complexes are coloured > common mistake > Additional HL > p
-    "The most common slip is to put a wavelength in nm straight into <i>c</i> = <i>λf</i>. The speed of light is in metres per second, so the wavelength must be in metres. Your frequency should be close to <span class=\"mono\">10<sup>14</sup> Hz</span> to <span class=\"mono\">10<sup>15</sup> Hz</span> for visible light. If it is not, check the units.": "",
+    "The most common slip is to put a wavelength in nm straight into <i>c</i> = <i>λf</i>. The speed of light is in metres per second, so the wavelength must be in metres. Your frequency should be close to <span class=\"mono\">10<sup>14</sup> Hz</span> to <span class=\"mono\">10<sup>15</sup> Hz</span> for visible light. If it is not, check the units.": "가장 흔한 실수는 nm 단위의 파장을 그대로 <i>c</i> = <i>λf</i>에 넣는 거예요. 빛의 속력은 미터 매 초 단위이므로 파장도 미터 단위여야 해요. 가시광선이라면 진동수가 <span class=\"mono\">10<sup>14</sup> Hz</span>에서 <span class=\"mono\">10<sup>15</sup> Hz</span> 정도가 나와야 해요. 그렇지 않으면 단위를 확인하세요.",
 
     // Why transition element complexes are coloured > exam tip (shown in English + translation) > Additional HL > p
-    "For “what colour is absorbed?” examiners accept the colour name, the wavelength range from the wheel, or a wavelength inside the range. The complementary colour point only scores if you also say that light is absorbed.": "",
+    "For “what colour is absorbed?” examiners accept the colour name, the wavelength range from the wheel, or a wavelength inside the range. The complementary colour point only scores if you also say that light is absorbed.": "“어떤 색이 흡수되는가?”에 대해 채점자는 색 이름, 색상환의 파장 범위, 또는 그 범위 안의 파장을 인정해요. 보색 요점은 빛이 흡수된다는 것도 함께 써야만 점수를 받아요.",
 
     // Why transition element complexes are coloured > not needed for IB > Additional HL > p
-    "You do not need d-orbital splitting diagrams for different shapes, crystal field theory, or the spectrochemical series. The data booklet has no spectrochemical series. If a question compares two complexes, it will give you the information you need.": "",
+    "You do not need d-orbital splitting diagrams for different shapes, crystal field theory, or the spectrochemical series. The data booklet has no spectrochemical series. If a question compares two complexes, it will give you the information you need.": "여러 모양에 대한 d 오비탈 갈라짐 그림, 결정장 이론, 분광 화학 계열은 알 필요가 없어요. 데이터 부클릿에는 분광 화학 계열이 없어요. 두 착화합물을 비교하는 문제라면 필요한 정보가 주어질 거예요.",
 
     // Why transition element complexes are coloured > Additional HL > data-title attribute
-    "Colour of complexes: quick check": "",
+    "Colour of complexes: quick check": "착화합물의 색: 빠른 확인",
 
     // Linking it up > h2
-    "Linking it up": "",
+    "Linking it up": "연결해 보기",
 
     // Linking it up > p
-    "The syllabus asks questions that connect this topic to others. Here are short answers to some of them.": "",
+    "The syllabus asks questions that connect this topic to others. Here are short answers to some of them.": "교수요목에는 이 단원을 다른 단원과 연결하는 질문이 있어요. 그중 몇 가지에 대한 짧은 답이에요.",
 
     // Linking it up > h3
-    "How has the organization of elements in the periodic table helped the discovery of new elements?": "",
+    "How has the organization of elements in the periodic table helped the discovery of new elements?": "주기율표에서 원소를 배열한 방식은 새로운 원소의 발견에 어떻게 도움이 되었을까요?",
 
     // Linking it up > p
-    "When the elements are arranged by their properties, gaps appear. A gap predicts an element that nobody has found yet. Its position also predicts its properties, so chemists know what to look for. Gallium and germanium were found in this way. Today, new elements are made in laboratories to continue period 7.": "",
+    "When the elements are arranged by their properties, gaps appear. A gap predicts an element that nobody has found yet. Its position also predicts its properties, so chemists know what to look for. Gallium and germanium were found in this way. Today, new elements are made in laboratories to continue period 7.": "원소를 성질에 따라 배열하면 빈칸이 생겨요. 빈칸은 아직 아무도 찾지 못한 원소를 예측해요. 빈칸의 위치로 그 원소의 성질도 예측할 수 있어서, 화학자들은 무엇을 찾아야 할지 알 수 있어요. 갈륨과 저마늄이 이렇게 발견되었어요. 오늘날에는 7주기를 이어 가기 위해 실험실에서 새로운 원소를 만들어요.",
 
     // Linking it up > h3
-    "Why are simulations often used to explore the reactivity of group 1 and group 17 elements?": "",
+    "Why are simulations often used to explore the reactivity of group 1 and group 17 elements?": "1족과 17족 원소의 반응성을 살펴볼 때 왜 시뮬레이션을 자주 사용할까요?",
 
     // Linking it up > p
-    "Some of the reactions are too dangerous for a school laboratory. Rubidium and caesium react explosively with water, and the halogens are toxic. A simulation or a video lets you compare all the elements safely and repeat the comparison as often as you like.": "",
+    "Some of the reactions are too dangerous for a school laboratory. Rubidium and caesium react explosively with water, and the halogens are toxic. A simulation or a video lets you compare all the elements safely and repeat the comparison as often as you like.": "어떤 반응은 학교 실험실에서 하기에 너무 위험해요. 루비듐과 세슘은 물과 폭발적으로 반응하고, 할로젠은 독성이 있어요. 시뮬레이션이나 영상을 이용하면 모든 원소를 안전하게 비교하고, 원하는 만큼 반복해서 비교할 수 있어요.",
 
     // Linking it up > h3
-    "How do differences in bonding explain the properties of metal and non-metal oxides?": "",
+    "How do differences in bonding explain the properties of metal and non-metal oxides?": "결합의 차이로 금속 산화물과 비금속 산화물의 성질을 어떻게 설명할 수 있을까요?",
 
     // Linking it up > p
-    "Metal oxides are ionic. They contain oxide ions, <span class=\"chem\">O^2-</span>, which react with water to form hydroxide ions. So the solution is alkaline. Non-metal oxides are covalent molecules. They react with water to form acids, which release hydrogen ions. Ionic oxides also have high melting points, and many molecular oxides are gases.": "",
+    "Metal oxides are ionic. They contain oxide ions, <span class=\"chem\">O^2-</span>, which react with water to form hydroxide ions. So the solution is alkaline. Non-metal oxides are covalent molecules. They react with water to form acids, which release hydrogen ions. Ionic oxides also have high melting points, and many molecular oxides are gases.": "금속 산화물은 이온 결합 화합물이에요. 금속 산화물에 들어 있는 산화 이온 <span class=\"chem\">O^2-</span>은 물과 반응해 수산화 이온을 만들어요. 그래서 용액이 알칼리성이에요. 비금속 산화물은 공유 결합 분자예요. 비금속 산화물은 물과 반응해 산을 만들고, 이 산이 수소 이온을 내놓아요. 이온 결합 산화물은 녹는점도 높고, 분자성 산화물은 기체인 것이 많아요.",
 
     // Linking it up > h3
-    "How can oxidation states be used to analyse redox reactions?": "",
+    "How can oxidation states be used to analyse redox reactions?": "산화수를 이용하여 산화 환원 반응을 어떻게 분석할 수 있을까요?",
 
     // Linking it up > p
-    "If the oxidation state of an atom increases during a reaction, that atom has been oxidized. If it decreases, the atom has been reduced. You will use this in Reactivity 3.2.": "",
+    "If the oxidation state of an atom increases during a reaction, that atom has been oxidized. If it decreases, the atom has been reduced. You will use this in Reactivity 3.2.": "반응하는 동안 어떤 원자의 산화수가 증가하면 그 원자는 산화된 거예요. 산화수가 감소하면 그 원자는 환원된 거예요. 이것은 Reactivity 3.2에서 사용해요.",
 
     // Linking it up > Additional HL > h3
-    "What is the nature of the reaction between transition element ions and ligands?": "",
+    "What is the nature of the reaction between transition element ions and ligands?": "전이 원소 이온과 리간드 사이의 반응은 어떤 성질을 가질까요?",
 
     // Linking it up > Additional HL > p
-    "The ligand donates a pair of electrons and the metal ion accepts it. A coordination bond forms. You will describe this as a Lewis acid–base reaction in Reactivity 3.4.": "",
+    "The ligand donates a pair of electrons and the metal ion accepts it. A coordination bond forms. You will describe this as a Lewis acid–base reaction in Reactivity 3.4.": "리간드는 전자쌍을 내주고 금속 이온은 그 전자쌍을 받아요. 그러면 배위 결합이 생겨요. Reactivity 3.4에서는 이것을 루이스 산–염기 반응으로 설명해요.",
 
     // Linking it up > Additional HL > h3
-    "How can colorimetry be used to find the concentration of a solution of coloured ions?": "",
+    "How can colorimetry be used to find the concentration of a solution of coloured ions?": "비색법을 이용하여 색을 띤 이온 용액의 농도를 어떻게 구할 수 있을까요?",
 
     // Linking it up > Additional HL > p
-    "A colorimeter measures how much light a solution absorbs. A more concentrated solution absorbs more light. You measure the absorbance of several solutions of known concentration and plot a calibration curve. Then you read the unknown concentration from the curve. You choose light of the complementary colour, because that is the light the solution absorbs most strongly.": "",
+    "A colorimeter measures how much light a solution absorbs. A more concentrated solution absorbs more light. You measure the absorbance of several solutions of known concentration and plot a calibration curve. Then you read the unknown concentration from the curve. You choose light of the complementary colour, because that is the light the solution absorbs most strongly.": "비색계는 용액이 빛을 얼마나 흡수하는지 측정해요. 더 진한 용액은 빛을 더 많이 흡수해요. 농도를 아는 여러 용액의 흡광도를 측정하고 검량선을 그려요. 그다음 검량선에서 모르는 농도를 읽어요. 용액이 가장 강하게 흡수하는 빛이 보색이므로, 보색의 빛을 골라 사용해요.",
 
     // Exam-style practice > h2
-    "Exam-style practice": "",
+    "Exam-style practice": "실전형 연습",
 
     // Exam-style practice > p
-    "Three sets, from first steps to stretch. You get feedback after each question, and questions you have not yet answered correctly come up first.": "",
+    "Three sets, from first steps to stretch. You get feedback after each question, and questions you have not yet answered correctly come up first.": "첫걸음부터 심화까지 세 세트가 있어요. 문제마다 피드백을 받을 수 있고, 아직 맞히지 못한 문제가 먼저 나와요.",
 
     // Exam-style practice > data-title attribute
-    "3.1 Foundation: one idea at a time": "",
+    "3.1 Foundation: one idea at a time": "3.1 기초: 한 번에 한 가지씩",
 
     // Exam-style practice > data-title attribute
-    "3.1 Exam standard": "",
+    "3.1 Exam standard": "3.1 시험 수준",
 
     // Exam-style practice > data-title attribute
-    "3.1 Challenge": "",
+    "3.1 Challenge": "3.1 도전",
 
     // Exam-style practice > Additional HL > data-title attribute
-    "3.1 Additional HL only: transition elements and colour": "",
+    "3.1 Additional HL only: transition elements and colour": "3.1 HL 추가 전용: 전이 원소와 색",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Colour the table by": "",
+    "Colour the table by": "표 색칠 기준",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Metal or non-metal": "",
+    "Metal or non-metal": "금속 또는 비금속",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Named family": "",
+    "Named family": "원소 무리 이름",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Mode": "",
+    "Mode": "모드",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Explore": "",
+    "Explore": "살펴보기",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Find the element": "",
+    "Find the element": "원소 찾기",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Next question": "",
+    "Next question": "다음 문제",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Periodic table of the elements. Use the arrow keys to move between elements and Enter to choose one.": "",
+    "Periodic table of the elements. Use the arrow keys to move between elements and Enter to choose one.": "원소의 주기율표. 화살표 키로 원소 사이를 이동하고 Enter 키로 원소를 고르세요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "period 6, f-block": "",
+    "period 6, f-block": "6주기, f 구역",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "period 7, f-block": "",
+    "period 7, f-block": "7주기, f 구역",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Position": "",
+    "Position": "위치",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Class and family": "",
+    "Class and family": "분류와 무리",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Electron configuration": "",
+    "Electron configuration": "전자 배치",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "How position and configuration match": "",
+    "How position and configuration match": "위치와 전자 배치가 맞는 방법",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Score": "",
+    "Score": "점수",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "M = metal": "",
+    "M = metal": "M = 금속",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Md = metalloid": "",
+    "Md = metalloid": "Md = 준금속",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "N = non-metal": "",
+    "N = non-metal": "N = 비금속",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "? = not yet known": "",
+    "? = not yet known": "? = 아직 모름",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "A = alkali metal (group 1, not hydrogen)": "",
+    "A = alkali metal (group 1, not hydrogen)": "A = 알칼리 금속 (1족, 수소 제외)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "H = halogen (group 17)": "",
+    "H = halogen (group 17)": "H = 할로젠 (17족)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Ng = noble gas (group 18)": "",
+    "Ng = noble gas (group 18)": "Ng = 비활성 기체 (18족)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "T = transition element (d-block, groups 3 to 11)": "",
+    "T = transition element (d-block, groups 3 to 11)": "T = 전이 원소 (d 구역, 3족~11족)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "period {p}, f-block (no group number)": "",
+    "period {p}, f-block (no group number)": "{p}주기, f 구역 (족 번호 없음)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "period {p}, group {g}, {b}-block": "",
+    "period {p}, group {g}, {b}-block": "{p}주기, {g}족, {b} 구역",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "metal": "",
+    "metal": "금속",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "metalloid": "",
+    "metalloid": "준금속",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "non-metal": "",
+    "non-metal": "비금속",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "class not yet known": "",
+    "class not yet known": "분류가 아직 알려지지 않음",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "non-metal (some sources class astatine as a metalloid)": "",
+    "non-metal (some sources class astatine as a metalloid)": "비금속 (아스타틴을 준금속으로 분류하는 자료도 있음)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "alkali metal": "",
+    "alkali metal": "알칼리 금속",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "halogen": "",
+    "halogen": "할로젠",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "noble gas": "",
+    "noble gas": "비활성 기체",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "transition element": "",
+    "transition element": "전이 원소",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "{class}; {family}": "",
+    "{class}; {family}": "{class}; {family}",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "You only need to deduce configurations up to Z = 36. For heavier elements you only need the position: period, group, block and class.": "",
+    "You only need to deduce configurations up to Z = 36. For heavier elements you only need the position: period, group, block and class.": "전자 배치는 Z = 36까지만 추론할 수 있으면 돼요. 그보다 무거운 원소는 위치(주기, 족, 구역, 분류)만 알면 돼요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "One electron in 1s. The outer energy level is n = 1, so hydrogen is in period 1. It has one valence electron, so it is placed in group 1, but it is a non-metal and not an alkali metal.": "",
+    "One electron in 1s. The outer energy level is n = 1, so hydrogen is in period 1. It has one valence electron, so it is placed in group 1, but it is a non-metal and not an alkali metal.": "1s에 전자가 1개 있어요. 바깥 에너지 준위가 n = 1이므로 수소는 1주기에 있어요. 원자가 전자가 1개라서 1족에 놓이지만, 비금속이고 알칼리 금속이 아니에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Two electrons in 1s. The outer energy level is n = 1, so helium is in period 1. Its outer level is full, so it is placed in group 18 with the noble gases.": "",
+    "Two electrons in 1s. The outer energy level is n = 1, so helium is in period 1. Its outer level is full, so it is placed in group 18 with the noble gases.": "1s에 전자가 2개 있어요. 바깥 에너지 준위가 n = 1이므로 헬륨은 1주기에 있어요. 바깥 준위가 꽉 차 있어서 비활성 기체와 함께 18족에 놓여요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The highest occupied energy level is n = {n}, so the period is {n}. There is 1 valence electron, in the {n}s sublevel, so the group is 1.": "",
+    "The highest occupied energy level is n = {n}, so the period is {n}. There is 1 valence electron, in the {n}s sublevel, so the group is 1.": "전자가 들어 있는 가장 높은 에너지 준위가 n = {n}이므로 {n}주기예요. 원자가 전자는 {n}s 부껍질에 1개 있으므로 1족이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The highest occupied energy level is n = {n}, so the period is {n}. There are {v} valence electrons, in the {n}s sublevel, so the group is {g}.": "",
+    "The highest occupied energy level is n = {n}, so the period is {n}. There are {v} valence electrons, in the {n}s sublevel, so the group is {g}.": "전자가 들어 있는 가장 높은 에너지 준위가 n = {n}이므로 {n}주기예요. 원자가 전자는 {n}s 부껍질에 {v}개 있으므로 {g}족이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The highest occupied energy level is n = {n}, so the period is {n}. The valence electrons are {n}s2 and {n}p{pp}: {v} in total. For groups 13 to 18, group number = valence electrons + 10 = {g}.": "",
+    "The highest occupied energy level is n = {n}, so the period is {n}. The valence electrons are {n}s2 and {n}p{pp}: {v} in total. For groups 13 to 18, group number = valence electrons + 10 = {g}.": "전자가 들어 있는 가장 높은 에너지 준위가 n = {n}이므로 {n}주기예요. 원자가 전자는 {n}s2와 {n}p{pp}로, 모두 {v}개예요. 13족~18족에서는 족 번호 = 원자가 전자 수 + 10 = {g}예요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The highest occupied energy level is n = {n}, so the period is {n}. The 3d sublevel is being filled across this row, so {sym} is in the d-block. 4s and 3d electrons together: 12, so the group is 12. Group 12 elements are usually not counted as transition elements.": "",
+    "The highest occupied energy level is n = {n}, so the period is {n}. The 3d sublevel is being filled across this row, so {sym} is in the d-block. 4s and 3d electrons together: 12, so the group is 12. Group 12 elements are usually not counted as transition elements.": "전자가 들어 있는 가장 높은 에너지 준위가 n = {n}이므로 {n}주기예요. 이 줄에서는 3d 부껍질이 채워지므로 {sym}은(는) d 구역에 있어요. 4s 전자와 3d 전자의 합은 12이므로 12족이에요. 12족 원소는 보통 전이 원소에 포함하지 않아요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The highest occupied energy level is n = {n}, so the period is {n}. The 3d sublevel is being filled, so {sym} is in the d-block. Count the 4s and 3d electrons together to get the group number: {g}.": "",
+    "The highest occupied energy level is n = {n}, so the period is {n}. The 3d sublevel is being filled, so {sym} is in the d-block. Count the 4s and 3d electrons together to get the group number: {g}.": "전자가 들어 있는 가장 높은 에너지 준위가 n = {n}이므로 {n}주기예요. 3d 부껍질이 채워지고 있으므로 {sym}은(는) d 구역에 있어요. 4s 전자와 3d 전자를 함께 세면 족 번호가 나와요: {g}.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "{right} found in {tries} tries": "",
+    "{right} found in {tries} tries": "{tries}번 시도해서 {right}개 찾음",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Choose an element in the table": "",
+    "Choose an element in the table": "표에서 원소를 고르세요",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Read the question above the table, then click or tap the element.": "",
+    "Read the question above the table, then click or tap the element.": "표 위의 문제를 읽은 다음, 원소를 클릭하거나 탭하세요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "{symbol} ({name}), Z = {z}": "",
+    "{symbol} ({name}), Z = {z}": "{symbol} ({name}), Z = {z}",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "not needed beyond Z = 36": "",
+    "not needed beyond Z = 36": "Z = 36보다 큰 원소는 필요 없음",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Correct. {symbol} ({name}) is in period {p}, group {g}. Its configuration is {cfg}.": "",
+    "Correct. {symbol} ({name}) is in period {p}, group {g}. Its configuration is {cfg}.": "정답이에요. {symbol} ({name})은(는) {p}주기, {g}족에 있어요. 전자 배치는 {cfg}예요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Check the period: it equals the highest occupied main energy level.": "",
+    "Check the period: it equals the highest occupied main energy level.": "주기를 확인하세요: 주기는 전자가 들어 있는 가장 높은 주 에너지 준위와 같아요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The period is right. Now count the outer electrons to find the group.": "",
+    "The period is right. Now count the outer electrons to find the group.": "주기는 맞아요. 이제 바깥 전자 수를 세어 족을 찾으세요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Not this one. You chose {symbol}, in period {p}{g}.": "",
+    "Not this one. You chose {symbol}, in period {p}{g}.": "이 원소가 아니에요. 고른 원소: {symbol}, {p}주기{g}.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    ", group {g}": "",
+    ", group {g}": ", {g}족",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Find the element whose atoms have the electron configuration {cfg}.": "",
+    "Find the element whose atoms have the electron configuration {cfg}.": "원자의 전자 배치가 {cfg}인 원소를 찾으세요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Find the element in period {p}, group {g}. Before you click, work out its electron configuration.": "",
+    "Find the element in period {p}, group {g}. Before you click, work out its electron configuration.": "{p}주기, {g}족에 있는 원소를 찾으세요. 클릭하기 전에 전자 배치를 먼저 구해 보세요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Find the element whose atoms have {v} valence electrons, with the outer electrons in main energy level n = {n}.": "",
+    "Find the element whose atoms have {v} valence electrons, with the outer electrons in main energy level n = {n}.": "원자가 전자가 {v}개이고, 바깥 전자가 주 에너지 준위 n = {n}에 있는 원소를 찾으세요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Direction": "",
+    "Direction": "방향",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Which period": "",
+    "Which period": "어느 주기",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Which group": "",
+    "Which group": "어느 족",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Heat-map of the chosen property on the periodic table, hydrogen to barium. A darker cell means a larger value. The selected period or group is outlined.": "",
+    "Heat-map of the chosen property on the periodic table, hydrogen to barium. A darker cell means a larger value. The selected period or group is outlined.": "선택한 성질을 주기율표에 나타낸 히트맵(수소~바륨). 칸이 진할수록 값이 커요. 선택한 주기나 족은 테두리로 표시돼요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Darker = more negative value (more energy released). No tint = no value in the booklet.": "",
+    "Darker = more negative value (more energy released). No tint = no value in the booklet.": "진할수록 = 더 큰 음의 값(방출되는 에너지가 더 많음). 색 없음 = 부클릿에 값이 없음.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Darker = larger value. No tint = no value in the booklet.": "",
+    "Darker = larger value. No tint = no value in the booklet.": "진할수록 = 더 큰 값. 색 없음 = 부클릿에 값이 없음.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Data booklet values": "",
+    "Data booklet values": "데이터 부클릿 값",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "atomic radius": "",
+    "atomic radius": "원자 반지름",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "ionic radius": "",
+    "ionic radius": "이온 반지름",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "first ionization energy": "",
+    "first ionization energy": "제1 이온화 에너지",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "electron affinity": "",
+    "electron affinity": "전자 친화도",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "electronegativity": "",
+    "electronegativity": "전기 음성도",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Atomic radius / pm": "",
+    "Atomic radius / pm": "원자 반지름 / pm",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Ionic radius / pm": "",
+    "Ionic radius / pm": "이온 반지름 / pm",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "First ionization energy / kJ mol⁻¹": "",
+    "First ionization energy / kJ mol⁻¹": "제1 이온화 에너지 / kJ mol⁻¹",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Electron affinity / kJ mol⁻¹": "",
+    "Electron affinity / kJ mol⁻¹": "전자 친화도 / kJ mol⁻¹",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "across period {n} (left to right)": "",
+    "across period {n} (left to right)": "{n}주기를 따라 (왼쪽 → 오른쪽)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "down group {g}": "",
+    "down group {g}": "{g}족 아래로",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Across period {n} the nuclear charge increases. The outer electrons are in the same main energy level, so the shielding by inner electrons stays about the same. The nucleus attracts the outer electrons more strongly and pulls them closer. The atomic radius decreases.": "",
+    "Across period {n} the nuclear charge increases. The outer electrons are in the same main energy level, so the shielding by inner electrons stays about the same. The nucleus attracts the outer electrons more strongly and pulls them closer. The atomic radius decreases.": "{n}주기를 따라가면 핵전하가 증가해요. 바깥 전자는 같은 주 에너지 준위에 있으므로 안쪽 전자에 의한 가려막기는 거의 같아요. 원자핵이 바깥 전자를 더 강하게 끌어당겨 더 가까이 당겨요. 원자 반지름이 감소해요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Down group {g} each atom has one more occupied main energy level. The outer electrons are further from the nucleus and are shielded by more inner electrons. This outweighs the greater nuclear charge. The atomic radius increases.": "",
+    "Down group {g} each atom has one more occupied main energy level. The outer electrons are further from the nucleus and are shielded by more inner electrons. This outweighs the greater nuclear charge. The atomic radius increases.": "{g}족 아래로 가면 원자마다 전자가 들어 있는 주 에너지 준위가 하나씩 늘어나요. 바깥 전자는 원자핵에서 더 멀어지고 더 많은 안쪽 전자에 의해 가려져요. 이 효과가 늘어난 핵전하보다 커요. 원자 반지름이 증가해요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "There are two parts. The positive ions come first. They have all lost their outer-level electrons, so they have one fewer occupied energy level than the negative ions. Along the positive ions the nuclear charge increases while the number of electrons stays the same, so the radius decreases. The negative ions have one more occupied energy level, so they are much larger. Along the negative ions the nuclear charge again increases, so the radius decreases again.": "",
+    "There are two parts. The positive ions come first. They have all lost their outer-level electrons, so they have one fewer occupied energy level than the negative ions. Along the positive ions the nuclear charge increases while the number of electrons stays the same, so the radius decreases. The negative ions have one more occupied energy level, so they are much larger. Along the negative ions the nuclear charge again increases, so the radius decreases again.": "두 부분으로 나뉘어요. 양이온이 먼저 나와요. 양이온은 모두 바깥 준위의 전자를 잃었으므로, 음이온보다 전자가 들어 있는 에너지 준위가 하나 적어요. 양이온을 따라가면 전자 수는 같은데 핵전하가 증가하므로 반지름이 감소해요. 음이온은 전자가 들어 있는 에너지 준위가 하나 더 많아서 훨씬 커요. 음이온을 따라가면서도 핵전하가 다시 증가하므로 반지름이 다시 감소해요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Down group {g} each ion has one more occupied main energy level. The outer electrons are further from the nucleus and more shielded. The ionic radius increases.": "",
+    "Down group {g} each ion has one more occupied main energy level. The outer electrons are further from the nucleus and more shielded. The ionic radius increases.": "{g}족 아래로 가면 이온마다 전자가 들어 있는 주 에너지 준위가 하나씩 늘어나요. 바깥 전자는 원자핵에서 더 멀어지고 더 많이 가려져요. 이온 반지름이 증가해요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Across period {n} the nuclear charge increases. The electron removed is in the same main energy level, so the shielding by inner electrons stays about the same. The outer electron is attracted more strongly, so more energy is needed to remove it. First ionization energy increases in general. The two small dips are explained in the Additional HL section.": "",
+    "Across period {n} the nuclear charge increases. The electron removed is in the same main energy level, so the shielding by inner electrons stays about the same. The outer electron is attracted more strongly, so more energy is needed to remove it. First ionization energy increases in general. The two small dips are explained in the Additional HL section.": "{n}주기를 따라가면 핵전하가 증가해요. 떼어 내는 전자는 같은 주 에너지 준위에 있으므로 안쪽 전자에 의한 가려막기는 거의 같아요. 바깥 전자가 더 강하게 끌어당겨지므로 떼어 내는 데 에너지가 더 많이 필요해요. 제1 이온화 에너지는 대체로 증가해요. 작게 두 번 내려가는 부분은 HL 추가 절에서 설명해요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Down group {g} the electron removed is in a higher main energy level. It is further from the nucleus and shielded by more inner electrons. This outweighs the greater nuclear charge. The outer electron is attracted less strongly, so less energy is needed to remove it. First ionization energy decreases.": "",
+    "Down group {g} the electron removed is in a higher main energy level. It is further from the nucleus and shielded by more inner electrons. This outweighs the greater nuclear charge. The outer electron is attracted less strongly, so less energy is needed to remove it. First ionization energy decreases.": "{g}족 아래로 가면 떼어 내는 전자가 더 높은 주 에너지 준위에 있어요. 원자핵에서 더 멀고 더 많은 안쪽 전자에 의해 가려져요. 이 효과가 늘어난 핵전하보다 커요. 바깥 전자가 덜 강하게 끌어당겨지므로 떼어 내는 데 에너지가 덜 필요해요. 제1 이온화 에너지가 감소해요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Across period {n} the nuclear charge increases and the shielding by inner electrons stays about the same. The atoms get smaller. The nucleus attracts a shared pair of electrons more strongly. Electronegativity increases.": "",
+    "Across period {n} the nuclear charge increases and the shielding by inner electrons stays about the same. The atoms get smaller. The nucleus attracts a shared pair of electrons more strongly. Electronegativity increases.": "{n}주기를 따라가면 핵전하가 증가하고 안쪽 전자에 의한 가려막기는 거의 같아요. 원자가 작아져요. 원자핵이 공유 전자쌍을 더 강하게 끌어당겨요. 전기 음성도가 증가해요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Down group {g} the atoms have more occupied energy levels. A shared pair of electrons is further from the nucleus and more shielded, so it is attracted less strongly. Electronegativity decreases.": "",
+    "Down group {g} the atoms have more occupied energy levels. A shared pair of electrons is further from the nucleus and more shielded, so it is attracted less strongly. Electronegativity decreases.": "{g}족 아래로 가면 원자에서 전자가 들어 있는 에너지 준위가 많아져요. 공유 전자쌍이 원자핵에서 더 멀고 더 많이 가려지므로 덜 강하게 끌어당겨져요. 전기 음성도가 감소해요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Across period {n} the nuclear charge increases and the shielding stays about the same. An added electron is attracted more strongly, so more energy is released. Electron affinity becomes more negative in general. The booklet data are not smooth: some elements have no value, and the pattern has steps.": "",
+    "Across period {n} the nuclear charge increases and the shielding stays about the same. An added electron is attracted more strongly, so more energy is released. Electron affinity becomes more negative in general. The booklet data are not smooth: some elements have no value, and the pattern has steps.": "{n}주기를 따라가면 핵전하가 증가하고 가려막기는 거의 같아요. 더해지는 전자가 더 강하게 끌어당겨지므로 에너지가 더 많이 방출돼요. 전자 친화도는 대체로 더 큰 음의 값이 돼요. 부클릿 자료는 매끄럽지 않아요: 값이 없는 원소도 있고, 계단 모양으로 변하는 부분도 있어요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Down group {g} an added electron goes into a higher main energy level. It is further from the nucleus and more shielded, so it is attracted less strongly and less energy is released. Electron affinity becomes less negative in general. Check the graph for exceptions near the top of the group: the data are not a smooth trend.": "",
+    "Down group {g} an added electron goes into a higher main energy level. It is further from the nucleus and more shielded, so it is attracted less strongly and less energy is released. Electron affinity becomes less negative in general. Check the graph for exceptions near the top of the group: the data are not a smooth trend.": "{g}족 아래로 가면 더해지는 전자가 더 높은 주 에너지 준위로 들어가요. 원자핵에서 더 멀고 더 많이 가려지므로 덜 강하게 끌어당겨지고, 방출되는 에너지가 줄어요. 전자 친화도는 대체로 더 작은 음의 값이 돼요. 족의 위쪽에 있는 예외는 그래프로 확인하세요: 자료가 매끄러운 경향을 보이지 않아요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It increases": "",
+    "It increases": "증가한다",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It decreases": "",
+    "It decreases": "감소한다",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It becomes more negative (more energy released)": "",
+    "It becomes more negative (more energy released)": "더 큰 음의 값이 된다 (방출되는 에너지가 더 많음)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It becomes less negative (less energy released)": "",
+    "It becomes less negative (less energy released)": "더 작은 음의 값이 된다 (방출되는 에너지가 더 적음)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "No single steady trend": "",
+    "No single steady trend": "꾸준한 경향이 하나로 정해지지 않음",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Predict first: going {where}, what happens to the {prop}?": "",
+    "Predict first: going {where}, what happens to the {prop}?": "먼저 예측해 보세요: {where} 가면 {prop}은(는) 어떻게 될까요?",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Show the data": "",
+    "Show the data": "자료 보기",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Hidden until you predict.": "",
+    "Hidden until you predict.": "예측하기 전에는 보이지 않아요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Your prediction is right: {ans}.": "",
+    "Your prediction is right: {ans}.": "예측이 맞았어요: {ans}.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Not quite. The answer is: {ans}. Look at the graph, then build the explanation below.": "",
+    "Not quite. The answer is: {ans}. Look at the graph, then build the explanation below.": "아쉬워요. 답은 이거예요: {ans}. 그래프를 본 다음, 아래에서 설명을 만들어 보세요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The answer is: {ans}.": "",
+    "The answer is: {ans}.": "답: {ans}.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "This is the general trend. The data booklet values are not perfectly regular. Going the other way: {list}. You only need to explain the general trend.": "",
+    "This is the general trend. The data booklet values are not perfectly regular. Going the other way: {list}. You only need to explain the general trend.": "이것은 전체적인 경향이에요. 데이터 부클릿 값이 완벽하게 규칙적이지는 않아요. 반대 방향으로 가는 곳: {list}. 전체적인 경향만 설명할 수 있으면 돼요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "This is the general trend. Some neighbouring values in the data booklet are equal, because they are rounded.": "",
+    "This is the general trend. Some neighbouring values in the data booklet are equal, because they are rounded.": "이것은 전체적인 경향이에요. 데이터 부클릿에서 이웃한 값 중 일부는 반올림 때문에 같아요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Line graph of {prop} {where}.": "",
+    "Line graph of {prop} {where}.": "{where} {prop}의 꺾은선 그래프.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Ion": "",
+    "Ion": "이온",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "(Group 18 is not plotted.)": "",
+    "(Group 18 is not plotted.)": "(18족은 그래프에 나타내지 않았어요.)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Explanation": "",
+    "Explanation": "설명",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Build the explanation: choose one option in each row, going {where}.": "",
+    "Build the explanation: choose one option in each row, going {where}.": "설명을 만들어 보세요: {where} 가는 경우에 대해 각 줄에서 하나씩 고르세요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "1. Nuclear charge (number of protons)": "",
+    "1. Nuclear charge (number of protons)": "1. 핵전하 (양성자 수)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "stays the same": "",
+    "stays the same": "그대로",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "2. Shielding by inner electrons": "",
+    "2. Shielding by inner electrons": "2. 안쪽 전자에 의한 가려막기",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "3. The outer electrons are": "",
+    "3. The outer electrons are": "3. 바깥 전자의 위치",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "in the same main energy level": "",
+    "in the same main energy level": "같은 주 에너지 준위",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "in a higher main energy level, further from the nucleus": "",
+    "in a higher main energy level, further from the nucleus": "더 높은 주 에너지 준위, 원자핵에서 더 멂",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "choose…": "",
+    "choose…": "고르세요…",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Check my explanation": "",
+    "Check my explanation": "내 설명 확인",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Choose an option in all three rows first.": "",
+    "Choose an option in all three rows first.": "먼저 세 줄 모두에서 하나씩 고르세요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Right: {label} — {right}.": "",
+    "Right: {label} — {right}.": "맞아요: {label} — {right}.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Change this: {label} — {right}.": "",
+    "Change this: {label} — {right}.": "고쳐 보세요: {label} — {right}.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Notice that the nuclear charge increases down a group as well. The extra energy levels and extra shielding matter more.": "",
+    "Notice that the nuclear charge increases down a group as well. The extra energy levels and extra shielding matter more.": "족 아래로 가도 핵전하가 증가한다는 점에 주목하세요. 늘어난 에너지 준위와 늘어난 가려막기의 효과가 더 커요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Model answer.": "",
+    "Model answer.": "모범 답안.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Predict first: these six ions all have 10 electrons (1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup>). Which statement is correct?": "",
+    "Predict first: these six ions all have 10 electrons (1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup>). Which statement is correct?": "먼저 예측해 보세요: 이 6가지 이온은 모두 전자가 10개예요(1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup>). 어느 설명이 맞을까요?",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The nitride ion is the largest": "",
+    "The nitride ion is the largest": "질화 이온이 가장 크다",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The aluminium ion is the largest": "",
+    "The aluminium ion is the largest": "알루미늄 이온이 가장 크다",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "They are all the same size": "",
+    "They are all the same size": "모두 크기가 같다",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Correct. The nitride ion has the fewest protons (7) pulling on the same 10 electrons, so it is the largest.": "",
+    "Correct. The nitride ion has the fewest protons (7) pulling on the same 10 electrons, so it is the largest.": "정답이에요. 질화 이온은 같은 10개의 전자를 끌어당기는 양성자 수가 가장 적어서(7개) 가장 커요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Not quite. The aluminium ion has the most protons (13) pulling on the same 10 electrons, so it is the smallest. The nitride ion is the largest.": "",
+    "Not quite. The aluminium ion has the most protons (13) pulling on the same 10 electrons, so it is the smallest. The nitride ion is the largest.": "아쉬워요. 알루미늄 이온은 같은 10개의 전자를 끌어당기는 양성자 수가 가장 많아서(13개) 가장 작아요. 가장 큰 것은 질화 이온이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Not quite. The electrons are the same, but the nuclear charge is not. More protons pull the same 10 electrons closer.": "",
+    "Not quite. The electrons are the same, but the nuclear charge is not. More protons pull the same 10 electrons closer.": "아쉬워요. 전자는 같지만 핵전하는 달라요. 양성자가 많을수록 같은 10개의 전자를 더 가까이 끌어당겨요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Choose an ion (1 = nitride … 6 = aluminium)": "",
+    "Choose an ion (1 = nitride … 6 = aluminium)": "이온을 고르세요 (1 = 질화 이온 … 6 = 알루미늄 이온)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Protons": "",
+    "Protons": "양성자",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Electrons": "",
+    "Electrons": "전자",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Why": "",
+    "Why": "이유",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Six ions drawn as circles to scale: nitride, oxide, fluoride, sodium, magnesium and aluminium. The circles get smaller from left to right as the number of protons rises from 7 to 13.": "",
+    "Six ions drawn as circles to scale: nitride, oxide, fluoride, sodium, magnesium and aluminium. The circles get smaller from left to right as the number of protons rises from 7 to 13.": "6가지 이온을 같은 비율의 원으로 그린 그림: 질화 이온, 산화 이온, 플루오린화 이온, 나트륨 이온, 마그네슘 이온, 알루미늄 이온. 양성자 수가 7에서 13으로 늘어나면서 왼쪽에서 오른쪽으로 갈수록 원이 작아져요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Drawn to scale. The number is the nuclear charge.": "",
+    "Drawn to scale. The number is the nuclear charge.": "같은 비율로 그렸어요. 숫자는 핵전하예요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Sizes hidden until you predict.": "",
+    "Sizes hidden until you predict.": "예측하기 전에는 크기가 보이지 않아요.",
 
     // widget string (assets/js/widgets-s3-1.js)
     "All six ions have the same electron configuration, so the shielding is the same. The nuclear charge rises from +7 to +13. A greater nuclear charge pulls the same 10 electrons closer, so the ion is smaller.": "",

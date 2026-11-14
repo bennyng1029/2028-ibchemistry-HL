@@ -346,24 +346,24 @@ S1.i18n.register('ko', 's1-3.q', {
       ],
       hints: [
         // EN: One of them looks the same from every direction. The other has two lobes, one on each side of the nucleus.
-        "하나는 어느 방향에서 보아도 똑같이 보여요. 다른 하나는 원자핵 양쪽에 하나씩, 두 개의 엽(lobe)이 있어요.",
+        "하나는 어느 방향에서 보아도 똑같이 보여요. 다른 하나는 원자핵 양쪽에 하나씩, 두 개의 덩어리(lobe)가 있어요.",
       ],
       // EN: <p>An s orbital is spherical, centred on the nucleus. A p orbital is dumbbell-shaped: two lobes on opposite sides of the nucleus. There are three p orbitals in a p sublevel, pointing along the x, y and z axes.</p>
-      solution: "<p>s 오비탈은 원자핵을 중심으로 한 구형이에요. p 오비탈은 아령 모양으로, 원자핵의 양쪽 반대편에 엽이 두 개 있어요. p 부껍질에는 p 오비탈이 3개 있고, 각각 x, y, z 축 방향을 향해요.</p>",
+      solution: "<p>s 오비탈은 원자핵을 중심으로 한 구형이에요. p 오비탈은 아령 모양으로, 원자핵의 양쪽 반대편에 덩어리가 두 개 있어요. p 부껍질에는 p 오비탈이 3개 있고, 각각 x, y, z 축 방향을 향해요.</p>",
       misconception: {
         // EN (option B): These are the right two shapes, swapped. The s orbital is the sphere.
         "1": "두 모양은 맞지만 서로 바뀌었어요. 구형인 것은 s 오비탈이에요.",
         // EN (option C): An orbital is not a path. It is a region of space where there is a high probability of finding the electron.
         "2": "오비탈은 경로가 아니에요. 전자를 발견할 확률이 높은 공간 영역이에요.",
         // EN (option D): A larger sphere describes an s orbital in a higher main energy level (2s compared with 1s). A p orbital has two lobes.
-        "3": "더 큰 구는 더 높은 주 에너지 준위에 있는 s 오비탈을 나타내요(1s와 비교한 2s). p 오비탈에는 엽이 두 개 있어요.",
+        "3": "더 큰 구는 더 높은 주 에너지 준위에 있는 s 오비탈을 나타내요(1s와 비교한 2s). p 오비탈에는 덩어리가 두 개 있어요.",
       },
     },
 
     // ── s1-3-q014 · mcq · exam · SL · Structure 1.3.4 · 1 mark
     "s1-3-q014": {
       // EN: <p>The diagram shows one atomic orbital. The nucleus is where the axes cross.</p><p><svg viewBox="0 0 262 196" width="262" height="196" role="img" aria-label="An orbital drawn on x, y and z axes. It has two lobes, one on each side of the nucleus, pointing along the horizontal axis, which is labelled x. The vertical axis is labelled y and the dashed diagonal axis is labelled z."><line x1="20" y1="100" x2="240" y2="100" stroke="currentColor" stroke-width="1.2"/><line x1="130" y1="186" x2="130" y2="14" stroke="currentColor" stroke-width="1.2"/><line x1="76" y1="154" x2="184" y2="46" stroke="currentColor" stroke-width="1.2" stroke-dasharray="5 4"/><text x="246" y="105" font-size="14" fill="currentColor">x</text><text x="126" y="11" text-anchor="middle" font-size="14" fill="currentColor">y</text><text x="190" y="44" font-size="14" fill="currentColor">z</text><path d="M130 100C150 68 214 70 214 100C214 130 150 132 130 100Z" fill="currentColor" fill-opacity="0.16" stroke="currentColor" stroke-width="1.8"/><path d="M130 100C110 68 46 70 46 100C46 130 110 132 130 100Z" fill="currentColor" fill-opacity="0.16" stroke="currentColor" stroke-width="1.8"/><circle cx="130" cy="100" r="3" fill="currentColor"/></svg></p><p>Which orbital is shown?</p>
-      stem: "<p>그림은 원자 오비탈 하나를 나타낸 거예요. 축들이 만나는 점에 원자핵이 있어요.</p><p><svg viewBox=\"0 0 262 196\" width=\"262\" height=\"196\" role=\"img\" aria-label=\"x, y, z 축 위에 그린 오비탈. 원자핵 양쪽에 엽이 하나씩, 모두 두 개 있고, x라고 표시된 가로축 방향을 향해요. 세로축은 y, 점선으로 된 대각선 축은 z라고 표시되어 있어요.\"><line x1=\"20\" y1=\"100\" x2=\"240\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"130\" y1=\"186\" x2=\"130\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"76\" y1=\"154\" x2=\"184\" y2=\"46\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><text x=\"246\" y=\"105\" font-size=\"14\" fill=\"currentColor\">x</text><text x=\"126\" y=\"11\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">y</text><text x=\"190\" y=\"44\" font-size=\"14\" fill=\"currentColor\">z</text><path d=\"M130 100C150 68 214 70 214 100C214 130 150 132 130 100Z\" fill=\"currentColor\" fill-opacity=\"0.16\" stroke=\"currentColor\" stroke-width=\"1.8\"/><path d=\"M130 100C110 68 46 70 46 100C46 130 110 132 130 100Z\" fill=\"currentColor\" fill-opacity=\"0.16\" stroke=\"currentColor\" stroke-width=\"1.8\"/><circle cx=\"130\" cy=\"100\" r=\"3\" fill=\"currentColor\"/></svg></p><p>그림의 오비탈은 어느 것인가요?</p>",
+      stem: "<p>그림은 원자 오비탈 하나를 나타낸 거예요. 축들이 만나는 점에 원자핵이 있어요.</p><p><svg viewBox=\"0 0 262 196\" width=\"262\" height=\"196\" role=\"img\" aria-label=\"x, y, z 축 위에 그린 오비탈. 원자핵 양쪽에 덩어리가 하나씩, 모두 두 개 있고, x라고 표시된 가로축 방향을 향해요. 세로축은 y, 점선으로 된 대각선 축은 z라고 표시되어 있어요.\"><line x1=\"20\" y1=\"100\" x2=\"240\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"130\" y1=\"186\" x2=\"130\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"76\" y1=\"154\" x2=\"184\" y2=\"46\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><text x=\"246\" y=\"105\" font-size=\"14\" fill=\"currentColor\">x</text><text x=\"126\" y=\"11\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">y</text><text x=\"190\" y=\"44\" font-size=\"14\" fill=\"currentColor\">z</text><path d=\"M130 100C150 68 214 70 214 100C214 130 150 132 130 100Z\" fill=\"currentColor\" fill-opacity=\"0.16\" stroke=\"currentColor\" stroke-width=\"1.8\"/><path d=\"M130 100C110 68 46 70 46 100C46 130 110 132 130 100Z\" fill=\"currentColor\" fill-opacity=\"0.16\" stroke=\"currentColor\" stroke-width=\"1.8\"/><circle cx=\"130\" cy=\"100\" r=\"3\" fill=\"currentColor\"/></svg></p><p>그림의 오비탈은 어느 것인가요?</p>",
       options: [
         // EN: s
         "s",
@@ -376,19 +376,19 @@ S1.i18n.register('ko', 's1-3.q', {
       ],
       hints: [
         // EN: Two lobes means a p orbital.
-        "엽이 두 개이면 p 오비탈이에요.",
+        "덩어리가 두 개이면 p 오비탈이에요.",
         // EN: A p orbital is named after the axis that its lobes lie along.
-        "p 오비탈의 이름은 엽들이 놓여 있는 축을 따라 붙여요.",
+        "p 오비탈의 이름은 덩어리들이 놓여 있는 축을 따라 붙여요.",
       ],
       // EN: <p>The orbital has two lobes, one on each side of the nucleus, so it is a p orbital. The lobes lie along the x axis, so it is p<sub>x</sub>. The other two p orbitals have the same shape and the same energy, but point along the y and z axes.</p>
-      solution: "<p>이 오비탈은 원자핵 양쪽에 엽이 하나씩, 모두 두 개 있으므로 p 오비탈이에요. 엽들이 x 축을 따라 놓여 있으므로 p<sub>x</sub>예요. 나머지 두 p 오비탈은 모양과 에너지가 같지만, y 축과 z 축 방향을 향해요.</p>",
+      solution: "<p>이 오비탈은 원자핵 양쪽에 덩어리가 하나씩, 모두 두 개 있으므로 p 오비탈이에요. 덩어리들이 x 축을 따라 놓여 있으므로 p<sub>x</sub>예요. 나머지 두 p 오비탈은 모양과 에너지가 같지만, y 축과 z 축 방향을 향해요.</p>",
       misconception: {
         // EN (option A): An s orbital is a sphere centred on the nucleus. This orbital has two lobes.
-        "0": "s 오비탈은 원자핵을 중심으로 한 구예요. 이 오비탈에는 엽이 두 개 있어요.",
+        "0": "s 오비탈은 원자핵을 중심으로 한 구예요. 이 오비탈에는 덩어리가 두 개 있어요.",
         // EN (option C): A p<sub>y</sub> orbital has its lobes along the y axis. Check which axis runs through the middle of both lobes here.
-        "2": "p<sub>y</sub> 오비탈은 엽들이 y 축을 따라 놓여 있어요. 여기서 두 엽의 가운데를 지나는 축이 어느 것인지 확인해 봐요.",
+        "2": "p<sub>y</sub> 오비탈은 덩어리들이 y 축을 따라 놓여 있어요. 여기서 두 덩어리의 가운데를 지나는 축이 어느 것인지 확인해 봐요.",
         // EN (option D): A p<sub>z</sub> orbital has its lobes along the z axis. Check which axis runs through the middle of both lobes here.
-        "3": "p<sub>z</sub> 오비탈은 엽들이 z 축을 따라 놓여 있어요. 여기서 두 엽의 가운데를 지나는 축이 어느 것인지 확인해 봐요.",
+        "3": "p<sub>z</sub> 오비탈은 덩어리들이 z 축을 따라 놓여 있어요. 여기서 두 덩어리의 가운데를 지나는 축이 어느 것인지 확인해 봐요.",
       },
     },
 
@@ -1468,301 +1468,301 @@ S1.i18n.register('ko', 's1-3.q', {
         // EN: 2 sublevels and 8 orbitals
         "부껍질 2개, 오비탈 8개",
         // EN: 3 sublevels and 9 orbitals
-        "",
+        "부껍질 3개, 오비탈 9개",
       ],
       hints: [
         // EN: Name the sublevels in n = 2 first.
-        "",
+        "먼저 n = 2에 있는 부껍질의 이름을 써요.",
         // EN: An s sublevel has 1 orbital. A p sublevel has 3.
-        "",
+        "s 부껍질에는 오비탈이 1개 있어요. p 부껍질에는 3개 있어요.",
       ],
       // EN: <div class="worked__math">sublevels in n&nbsp;=&nbsp;2: 2s and 2p<br>&nbsp;&nbsp;(2 sublevels)</div><div class="worked__math">orbitals: 1 (2s) + 3 (2p) = 4</div><p>Check: 4 orbitals × 2 electrons = 8 electrons, which agrees with 2n<sup>2</sup> = 8.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">n&nbsp;=&nbsp;2의 부껍질: 2s와 2p<br>&nbsp;&nbsp;(부껍질 2개)</div><div class=\"worked__math\">오비탈: 1 (2s) + 3 (2p) = 4</div><p>확인: 오비탈 4개 × 전자 2개 = 전자 8개이고, 이것은 2n<sup>2</sup> = 8과 일치해요.</p>",
       misconception: {
         // EN (option A): There are two sublevels, but they do not have one orbital each. The 2p sublevel has three orbitals.
-        "0": "",
+        "0": "부껍질은 두 개이지만, 각각 오비탈이 하나씩 있는 것은 아니에요. 2p 부껍질에는 오비탈이 세 개 있어요.",
         // EN (option C): 8 is the number of electrons that n = 2 can hold. Each orbital holds two electrons, so there are 4 orbitals.
-        "2": "",
+        "2": "8은 n = 2에 들어갈 수 있는 전자의 수예요. 오비탈 하나에 전자가 두 개 들어가므로, 오비탈은 4개예요.",
         // EN (option D): This describes n = 3 (3s, 3p and 3d). There is no 2d sublevel.
-        "3": "",
+        "3": "이것은 n = 3(3s, 3p, 3d)에 대한 설명이에요. 2d 부껍질은 없어요.",
       },
     },
 
     // ── s1-3-q057 · mcq · exam · SL · Structure 1.3.5 · 1 mark
     "s1-3-q057": {
       // EN: <p>A student draws this orbital diagram for a carbon atom (Z = 6) in its ground state.</p><p><svg viewBox="0 0 186 56" width="186" height="56" role="img" aria-label="Orbital diagram. The 1s box contains one up arrow and one down arrow. The 2s box contains one up arrow only. Each of the three 2p boxes contains one up arrow."><rect x="2" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M12 25V8M8 13L12 8L16 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 7V24M18 19L22 24L26 19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><text x="17" y="50" text-anchor="middle" font-size="14" fill="currentColor">1s</text><rect x="48" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M63 25V8M59 13L63 8L67 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><text x="63" y="50" text-anchor="middle" font-size="14" fill="currentColor">2s</text><rect x="94" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M109 25V8M105 13L109 8L113 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="124" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M139 25V8M135 13L139 8L143 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="154" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M169 25V8M165 13L169 8L173 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><text x="139" y="50" text-anchor="middle" font-size="14" fill="currentColor">2p</text></svg></p><p>Which rule or principle does the diagram break?</p>
-      stem: "",
+      stem: "<p>한 학생이 바닥상태에 있는 탄소 원자(Z = 6)의 오비탈 상자 그림을 다음과 같이 그렸어요.</p><p><svg viewBox=\"0 0 186 56\" width=\"186\" height=\"56\" role=\"img\" aria-label=\"오비탈 상자 그림. 1s 상자에는 위쪽 화살표 하나와 아래쪽 화살표 하나가 있어요. 2s 상자에는 위쪽 화살표 하나만 있어요. 2p 상자 세 개에는 각각 위쪽 화살표가 하나씩 있어요.\"><rect x=\"2\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M12 25V8M8 13L12 8L16 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M22 7V24M18 19L22 24L26 19\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"17\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">1s</text><rect x=\"48\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M63 25V8M59 13L63 8L67 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"63\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">2s</text><rect x=\"94\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M109 25V8M105 13L109 8L113 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"124\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M139 25V8M135 13L139 8L143 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"154\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M169 25V8M165 13L169 8L173 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"139\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">2p</text></svg></p><p>이 그림은 어떤 규칙 또는 원리를 어기고 있나요?</p>",
       options: [
         // EN: The Aufbau principle
-        "",
+        "쌓음 원리",
         // EN: Hund’s rule
-        "",
+        "훈트 규칙",
         // EN: The Pauli exclusion principle
-        "",
+        "파울리 배타 원리",
         // EN: None. The diagram is correct.
-        "",
+        "없음. 그림이 옳다.",
       ],
       hints: [
         // EN: The total number of electrons (6) is right. Check each sublevel from the lowest energy upwards.
-        "",
+        "전체 전자 수(6개)는 맞아요. 에너지가 가장 낮은 부껍질부터 차례로 하나씩 확인해 봐요.",
         // EN: Is every lower-energy sublevel full before the next one is used?
-        "",
+        "다음 부껍질을 쓰기 전에 에너지가 더 낮은 부껍질이 모두 채워졌나요?",
       ],
       // EN: <p>The <strong>Aufbau principle</strong> says electrons fill the lowest-energy sublevel that has space. Here the 2s sublevel holds only one electron, but there are three electrons in the higher-energy 2p sublevel. In the ground state, 2s is filled first.</p><p><svg viewBox="0 0 186 56" width="186" height="56" role="img" aria-label="Correct orbital diagram for carbon. The 1s and 2s boxes each contain a pair of opposite arrows. Two of the three 2p boxes contain one up arrow each and the third is empty."><rect x="2" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M12 25V8M8 13L12 8L16 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 7V24M18 19L22 24L26 19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><text x="17" y="50" text-anchor="middle" font-size="14" fill="currentColor">1s</text><rect x="48" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M58 25V8M54 13L58 8L62 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M68 7V24M64 19L68 24L72 19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><text x="63" y="50" text-anchor="middle" font-size="14" fill="currentColor">2s</text><rect x="94" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M109 25V8M105 13L109 8L113 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="124" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M139 25V8M135 13L139 8L143 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="154" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><text x="139" y="50" text-anchor="middle" font-size="14" fill="currentColor">2p</text></svg></p><p>The correct diagram is <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>2</sup></span>, with the two 2p electrons in separate orbitals.</p>
-      solution: "",
+      solution: "<p><strong>쌓음 원리</strong>에 따르면 전자는 빈자리가 있는 부껍질 중 에너지가 가장 낮은 곳부터 채워요. 여기서는 2s 부껍질에 전자가 하나만 있는데, 에너지가 더 높은 2p 부껍질에 전자가 세 개 있어요. 바닥상태에서는 2s가 먼저 채워져요.</p><p><svg viewBox=\"0 0 186 56\" width=\"186\" height=\"56\" role=\"img\" aria-label=\"탄소의 올바른 오비탈 상자 그림. 1s 상자와 2s 상자에는 각각 반대 방향 화살표 한 쌍이 있어요. 2p 상자 세 개 중 두 개에는 위쪽 화살표가 하나씩 있고, 세 번째는 비어 있어요.\"><rect x=\"2\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M12 25V8M8 13L12 8L16 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M22 7V24M18 19L22 24L26 19\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"17\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">1s</text><rect x=\"48\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M58 25V8M54 13L58 8L62 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M68 7V24M64 19L68 24L72 19\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"63\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">2s</text><rect x=\"94\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M109 25V8M105 13L109 8L113 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"124\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M139 25V8M135 13L139 8L143 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"154\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"139\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">2p</text></svg></p><p>올바른 배치는 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>2</sup></span>이고, 2p 전자 두 개는 서로 다른 오비탈에 들어가요.</p>",
       misconception: {
         // EN (option B): Hund’s rule is obeyed inside the 2p sublevel: each 2p orbital holds one electron and the spins are parallel. The problem is that 2p is being used too early.
-        "1": "",
+        "1": "2p 부껍질 안에서는 훈트 규칙이 지켜졌어요: 2p 오비탈마다 전자가 하나씩 있고 스핀의 방향이 같아요. 문제는 2p를 너무 일찍 쓴 거예요.",
         // EN (option C): No orbital holds two electrons with the same spin, and no orbital holds more than two. The Pauli exclusion principle is obeyed.
-        "2": "",
+        "2": "스핀이 같은 전자 두 개가 들어 있는 오비탈도, 전자가 세 개 이상 들어 있는 오비탈도 없어요. 파울리 배타 원리는 지켜졌어요.",
         // EN (option D): Count the electrons in 2s. That sublevel still has space, but an electron has been put in the higher-energy 2p sublevel.
-        "3": "",
+        "3": "2s의 전자 수를 세어 봐요. 이 부껍질에는 아직 빈자리가 있는데, 전자가 에너지가 더 높은 2p 부껍질에 들어가 있어요.",
       },
     },
 
     // ── s1-3-q058 · mcq · exam · SL · Structure 1.3.5 · 1 mark
     "s1-3-q058": {
       // EN: <p>What is the condensed electron configuration of a selenium atom (Z = 34) in its ground state?</p>
-      stem: "",
+      stem: "<p>바닥상태에 있는 셀레늄 원자(Se, Z = 34)의 축약 전자 배치는 무엇인가요?</p>",
       options: [
         // EN: <span class="mono">[Ar] 4s<sup>2</sup> 4p<sup>4</sup></span>
-        "",
+        "<span class=\"mono\">[Ar] 4s<sup>2</sup> 4p<sup>4</sup></span>",
         // EN: <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>4</sup></span>
-        "",
+        "<span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>4</sup></span>",
         // EN: <span class="mono">[Kr] 4p<sup>4</sup></span>
-        "",
+        "<span class=\"mono\">[Kr] 4p<sup>4</sup></span>",
         // EN: <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>6</sup></span>
-        "",
+        "<span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>6</sup></span>",
       ],
       hints: [
         // EN: Argon accounts for 18 electrons, so 16 more are needed.
-        "",
+        "아르곤이 전자 18개를 차지하므로, 16개가 더 필요해요.",
         // EN: After the argon core the order is 4s, then 3d, then 4p.
-        "",
+        "아르곤 핵심 다음의 순서는 4s, 그다음 3d, 그다음 4p예요.",
       ],
       // EN: <p>Selenium has 34 electrons: the argon core (18) plus 16.</p><div class="worked__math">4s<sup>2</sup> (2) &nbsp; 3d<sup>10</sup> (12) &nbsp; 4p<sup>4</sup> (16)</div><div class="worked__math"><span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>4</sup></span><br>&nbsp;&nbsp;(18 + 2 + 10 + 4 = 34)</div><p>Writing it as <span class="mono">[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>4</sup></span> is also accepted.</p>
-      solution: "",
+      solution: "<p>셀레늄은 전자가 34개예요: 아르곤 핵심(18개)에 16개를 더한 것이에요.</p><div class=\"worked__math\">4s<sup>2</sup> (2) &nbsp; 3d<sup>10</sup> (12) &nbsp; 4p<sup>4</sup> (16)</div><div class=\"worked__math\"><span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>4</sup></span><br>&nbsp;&nbsp;(18 + 2 + 10 + 4 = 34)</div><p><span class=\"mono\">[Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>4</sup></span>로 써도 인정돼요.</p>",
       misconception: {
         // EN (option A): Count the electrons: 18 + 2 + 4 = 24. The ten 3d electrons are missing. The 3d sublevel fills before 4p.
-        "0": "",
+        "0": "전자 수를 세어 봐요: 18 + 2 + 4 = 24. 3d 전자 열 개가 빠졌어요. 3d 부껍질은 4p보다 먼저 채워져요.",
         // EN (option C): The noble gas core must be the noble gas <em>before</em> the element. Krypton (Z = 36) comes after selenium.
-        "2": "",
+        "2": "비활성 기체 핵심은 그 원소 <em>앞에</em> 있는 비활성 기체여야 해요. 크립톤(Z = 36)은 셀레늄보다 뒤에 있어요.",
         // EN (option D): Count the electrons: 18 + 2 + 10 + 6 = 36. That is krypton (or the ion <span class="chem">Se^2-</span>), not a selenium atom.
-        "3": "",
+        "3": "전자 수를 세어 봐요: 18 + 2 + 10 + 6 = 36. 이것은 셀레늄 원자가 아니라 크립톤(또는 <span class=\"chem\">Se^2-</span> 이온)이에요.",
       },
     },
 
     // ── s1-3-q059 · mcq · exam · AHL · Structure 1.3.5 · 1 mark
     "s1-3-q059": {
       // EN: <p>What is the condensed electron configuration of the <span class="chem">Cu^2+</span> ion? (Copper has Z = 29.)</p>
-      stem: "",
+      stem: "<p><span class=\"chem\">Cu^2+</span> 이온의 축약 전자 배치는 무엇인가요? (구리는 Z = 29예요.)</p>",
       options: [
         // EN: <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>7</sup></span>
-        "",
+        "<span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>7</sup></span>",
         // EN: <span class="mono">[Ar] 4s<sup>1</sup> 3d<sup>8</sup></span>
-        "",
+        "<span class=\"mono\">[Ar] 4s<sup>1</sup> 3d<sup>8</sup></span>",
         // EN: <span class="mono">[Ar] 3d<sup>9</sup></span>
-        "",
+        "<span class=\"mono\">[Ar] 3d<sup>9</sup></span>",
         // EN: <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>9</sup></span>
-        "",
+        "<span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>9</sup></span>",
       ],
       hints: [
         // EN: Start from the real configuration of the copper atom. Copper is one of the two exceptions.
-        "",
+        "구리 원자의 실제 전자 배치에서 시작해요. 구리는 두 예외 중 하나예요.",
         // EN: The atom is <span class="mono">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>. Remove two electrons, starting with 4s.
-        "",
+        "원자는 <span class=\"mono\">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>이에요. 4s부터 시작해서 전자 두 개를 떼어 내요.",
       ],
       // EN: <p>The copper atom is <span class="mono">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span> (an exception to the usual filling order). Remove the single 4s electron first, then one 3d electron:</p><div class="worked__math"><span class="chem">Cu^2+</span>: <span class="mono">[Ar] 3d<sup>9</sup></span><br>&nbsp;&nbsp;(29 − 2 = 27 electrons)</div><p>This skill is listed for HL in Structure 3.1.</p>
-      solution: "",
+      solution: "<p>구리 원자는 <span class=\"mono\">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>이에요(일반적인 채우는 순서의 예외). 먼저 4s 전자 하나를 떼어 내고, 그다음 3d 전자 하나를 떼어 내요:</p><div class=\"worked__math\"><span class=\"chem\">Cu^2+</span>: <span class=\"mono\">[Ar] 3d<sup>9</sup></span><br>&nbsp;&nbsp;(전자 29 − 2 = 27개)</div><p>이 내용은 Structure 3.1의 HL 기능으로 나와 있어요.</p>",
       misconception: {
         // EN (option A): This keeps the 4s electrons and removes electrons from 3d. In ions of the first-row d-block metals, 4s is emptied first.
-        "0": "",
+        "0": "이것은 4s 전자를 그대로 두고 3d에서 전자를 떼어 냈어요. 첫 번째 줄 d 구역 금속의 이온에서는 4s가 먼저 비워져요.",
         // EN (option B): This keeps one electron in 4s. The 4s sublevel is emptied before any 3d electron is removed.
-        "1": "",
+        "1": "이것은 4s에 전자 하나를 남겨 두었어요. 3d 전자를 떼어 내기 전에 4s 부껍질이 먼저 비워져요.",
         // EN (option D): Count the electrons: 18 + 2 + 9 = 29. That is the number in a copper atom, and it is not the atom’s real configuration either.
-        "3": "",
+        "3": "전자 수를 세어 봐요: 18 + 2 + 9 = 29. 이것은 구리 원자의 전자 수이고, 원자의 실제 전자 배치도 아니에요.",
       },
     },
 
     // ── s1-3-q060 · mcq · challenge · AHL · Structure 1.3.5 · 1 mark
     "s1-3-q060": {
       // EN: <p>Which pair of ions have the same electron configuration?</p>
-      stem: "",
+      stem: "<p>전자 배치가 같은 이온의 쌍은 어느 것인가요?</p>",
       options: [
         // EN: <span class="chem">Mn^2+</span> and <span class="chem">Fe^2+</span>
-        "",
+        "<span class=\"chem\">Mn^2+</span>과 <span class=\"chem\">Fe^2+</span>",
         // EN: <span class="chem">Mn^2+</span> and <span class="chem">Fe^3+</span>
-        "",
+        "<span class=\"chem\">Mn^2+</span>과 <span class=\"chem\">Fe^3+</span>",
         // EN: <span class="chem">Cr^3+</span> and <span class="chem">Fe^3+</span>
-        "",
+        "<span class=\"chem\">Cr^3+</span>과 <span class=\"chem\">Fe^3+</span>",
         // EN: <span class="chem">Ti^2+</span> and <span class="chem">Ca^2+</span>
-        "",
+        "<span class=\"chem\">Ti^2+</span>과 <span class=\"chem\">Ca^2+</span>",
       ],
       hints: [
         // EN: Count the electrons in each ion: atomic number minus the charge. Mn is 25, Fe is 26, Cr is 24, Ti is 22, Ca is 20.
-        "",
+        "각 이온의 전자 수를 세어 봐요: 원자 번호에서 전하를 빼요. Mn은 25, Fe는 26, Cr는 24, Ti는 22, Ca는 20이에요.",
         // EN: Two ions with the same number of electrons, both with an empty 4s sublevel, have the same configuration.
-        "",
+        "전자 수가 같고 둘 다 4s 부껍질이 비어 있는 두 이온은 전자 배치가 같아요.",
       ],
       // EN: <p>Write each atom, then remove the 4s electrons before any 3d electrons.</p><div class="worked__math">Mn: <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>5</sup></span> → <span class="chem">Mn^2+</span>: <span class="mono">[Ar] 3d<sup>5</sup></span></div><div class="worked__math">Fe: <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span> → <span class="chem">Fe^2+</span>: <span class="mono">[Ar] 3d<sup>6</sup></span> → <span class="chem">Fe^3+</span>: <span class="mono">[Ar] 3d<sup>5</sup></span></div><div class="worked__math">Cr: <span class="mono">[Ar] 4s<sup>1</sup> 3d<sup>5</sup></span> → <span class="chem">Cr^3+</span>: <span class="mono">[Ar] 3d<sup>3</sup></span></div><div class="worked__math">Ti: <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>2</sup></span> → <span class="chem">Ti^2+</span>: <span class="mono">[Ar] 3d<sup>2</sup></span></div><p><span class="chem">Mn^2+</span> and <span class="chem">Fe^3+</span> both have 23 electrons and are both <span class="mono">[Ar] 3d<sup>5</sup></span>.</p>
-      solution: "",
+      solution: "<p>각 원자의 전자 배치를 쓴 다음, 3d 전자보다 4s 전자를 먼저 떼어 내요.</p><div class=\"worked__math\">Mn: <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>5</sup></span> → <span class=\"chem\">Mn^2+</span>: <span class=\"mono\">[Ar] 3d<sup>5</sup></span></div><div class=\"worked__math\">Fe: <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span> → <span class=\"chem\">Fe^2+</span>: <span class=\"mono\">[Ar] 3d<sup>6</sup></span> → <span class=\"chem\">Fe^3+</span>: <span class=\"mono\">[Ar] 3d<sup>5</sup></span></div><div class=\"worked__math\">Cr: <span class=\"mono\">[Ar] 4s<sup>1</sup> 3d<sup>5</sup></span> → <span class=\"chem\">Cr^3+</span>: <span class=\"mono\">[Ar] 3d<sup>3</sup></span></div><div class=\"worked__math\">Ti: <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>2</sup></span> → <span class=\"chem\">Ti^2+</span>: <span class=\"mono\">[Ar] 3d<sup>2</sup></span></div><p><span class=\"chem\">Mn^2+</span>과 <span class=\"chem\">Fe^3+</span>은 둘 다 전자가 23개이고, 둘 다 <span class=\"mono\">[Ar] 3d<sup>5</sup></span>예요.</p>",
       misconception: {
         // EN (option A): Same charge, but different numbers of electrons: <span class="chem">Mn^2+</span> has 23 and <span class="chem">Fe^2+</span> has 24.
-        "0": "",
+        "0": "전하는 같지만 전자 수가 달라요: <span class=\"chem\">Mn^2+</span>은 23개, <span class=\"chem\">Fe^2+</span>은 24개예요.",
         // EN (option C): Same charge, but different numbers of electrons: <span class="chem">Cr^3+</span> has 21 and <span class="chem">Fe^3+</span> has 23.
-        "2": "",
+        "2": "전하는 같지만 전자 수가 달라요: <span class=\"chem\">Cr^3+</span>은 21개, <span class=\"chem\">Fe^3+</span>은 23개예요.",
         // EN (option D): <span class="chem">Ca^2+</span> has 18 electrons, <span class="mono">[Ar]</span>. <span class="chem">Ti^2+</span> has 20 electrons, <span class="mono">[Ar] 3d<sup>2</sup></span>.
-        "3": "",
+        "3": "<span class=\"chem\">Ca^2+</span>은 전자가 18개이고 <span class=\"mono\">[Ar]</span>이에요. <span class=\"chem\">Ti^2+</span>은 전자가 20개이고 <span class=\"mono\">[Ar] 3d<sup>2</sup></span>예요.",
       },
     },
 
     // ── s1-3-q061 · mcq · foundation · AHL · Structure 1.3.6 · 1 mark
     "s1-3-q061": {
       // EN: <p>Which equation represents the <strong>first ionization energy</strong> of magnesium?</p>
-      stem: "",
+      stem: "<p>마그네슘의 <strong>제1 이온화 에너지</strong>를 나타내는 반응식은 어느 것인가요?</p>",
       options: [
         // EN: <span class="chem">Mg(s) -> Mg+(g) + e-</span>
-        "",
+        "<span class=\"chem\">Mg(s) -> Mg+(g) + e-</span>",
         // EN: <span class="chem">Mg(g) -> Mg+(g) + e-</span>
-        "",
+        "<span class=\"chem\">Mg(g) -> Mg+(g) + e-</span>",
         // EN: <span class="chem">Mg(g) -> Mg^2+(g) + 2e-</span>
-        "",
+        "<span class=\"chem\">Mg(g) -> Mg^2+(g) + 2e-</span>",
         // EN: <span class="chem">Mg(g) + e- -> Mg-(g)</span>
-        "",
+        "<span class=\"chem\">Mg(g) + e- -> Mg-(g)</span>",
       ],
       hints: [
         // EN: First ionization energy: one mole of electrons is removed from one mole of gaseous atoms.
-        "",
+        "제1 이온화 에너지: 기체 원자 1몰에서 전자 1몰을 떼어 내요.",
         // EN: Check the state symbols and the number of electrons.
-        "",
+        "상태 기호와 전자 수를 확인해요.",
       ],
       // EN: <p>The first ionization energy is the energy needed to remove one mole of electrons from one mole of gaseous atoms, forming one mole of gaseous 1+ ions:</p><div class="worked__math"><span class="chem">Mg(g) -> Mg+(g) + e-</span></div><p>Both species must have the state symbol (g).</p>
-      solution: "",
+      solution: "<p>제1 이온화 에너지는 기체 원자 1몰에서 전자 1몰을 떼어 내어 기체 1+ 이온 1몰을 만드는 데 필요한 에너지예요:</p><div class=\"worked__math\"><span class=\"chem\">Mg(g) -> Mg+(g) + e-</span></div><p>두 화학종 모두 상태 기호가 (g)여야 해요.</p>",
       misconception: {
         // EN (option A): Ionization energy is defined for <em>gaseous</em> atoms. Starting from the solid would include the energy needed to turn the solid into separate atoms.
-        "0": "",
+        "0": "이온화 에너지는 <em>기체</em> 원자에 대해 정의해요. 고체에서 시작하면 고체를 낱낱의 원자로 바꾸는 데 필요한 에너지까지 포함하게 돼요.",
         // EN (option C): This removes two electrons. The first ionization energy is for removing one electron from each atom.
-        "2": "",
+        "2": "이것은 전자 두 개를 떼어 내요. 제1 이온화 에너지는 원자마다 전자 하나를 떼어 내는 것에 대한 값이에요.",
         // EN (option D): This atom gains an electron. Ionization means an electron is removed.
-        "3": "",
+        "3": "이 원자는 전자를 얻어요. 이온화는 전자를 떼어 내는 것을 뜻해요.",
       },
     },
 
     // ── s1-3-q062 · mcq · exam · AHL · Structure 1.3.6 · 1 mark
     "s1-3-q062": {
       // EN: <p>The first ionization energy of phosphorus is 1012 <span class="unit">kJ mol-1</span> and that of sulfur is 1000 <span class="unit">kJ mol-1</span>. Which statement explains why the value for sulfur is lower?</p>
-      stem: "",
+      stem: "<p>인의 제1 이온화 에너지는 1012 <span class=\"unit\">kJ mol-1</span>이고 황은 1000 <span class=\"unit\">kJ mol-1</span>이에요. 황의 값이 더 작은 이유를 옳게 설명한 것은 어느 것인가요?</p>",
       options: [
         // EN: The electron removed from sulfur is in a 3p orbital that holds two electrons, and these two electrons repel each other.
-        "",
+        "황에서 떼어 내는 전자는 전자 두 개가 들어 있는 3p 오비탈에 있고, 이 두 전자는 서로 밀어낸다.",
         // EN: The electron removed from sulfur is in the 3p sublevel, but the electron removed from phosphorus is in the 3s sublevel.
-        "",
+        "황에서 떼어 내는 전자는 3p 부껍질에 있지만, 인에서 떼어 내는 전자는 3s 부껍질에 있다.",
         // EN: Sulfur has more inner electrons than phosphorus, so its outer electrons are more shielded.
-        "",
+        "황은 인보다 안쪽 전자가 더 많으므로, 바깥 전자가 더 많이 가려막힌다.",
         // EN: Sulfur has a smaller nuclear charge than phosphorus.
-        "",
+        "황은 인보다 핵전하가 작다.",
       ],
       hints: [
         // EN: Write both configurations. Which sublevel does each atom lose an electron from?
-        "",
+        "두 원자의 전자 배치를 써요. 각 원자는 어느 부껍질에서 전자를 잃나요?",
         // EN: Draw the three 3p boxes for each atom. What is different in sulfur?
-        "",
+        "각 원자에 대해 3p 상자 세 개를 그려 봐요. 황에서는 무엇이 다른가요?",
       ],
       // EN: <p>P is <span class="mono">[Ne] 3s<sup>2</sup> 3p<sup>3</sup></span>: each 3p orbital holds one electron. S is <span class="mono">[Ne] 3s<sup>2</sup> 3p<sup>4</sup></span>: one 3p orbital holds a pair. The electron removed from sulfur comes from this doubly occupied orbital. Repulsion between the two electrons in the same orbital raises the energy of the electron, so less energy is needed to remove it.</p><p><svg viewBox="0 0 200 56" width="200" height="56" role="img" aria-label="Orbital diagrams of the 3p sublevel. In phosphorus each of the three 3p boxes holds one up arrow. In sulfur the first 3p box holds an up and a down arrow and the other two hold one up arrow each."><rect x="2" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M17 25V8M13 13L17 8L21 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="32" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M47 25V8M43 13L47 8L51 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="62" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M77 25V8M73 13L77 8L81 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><text x="47" y="50" text-anchor="middle" font-size="14" fill="currentColor">3p in P</text><rect x="108" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M118 25V8M114 13L118 8L122 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M128 7V24M124 19L128 24L132 19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="138" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M153 25V8M149 13L153 8L157 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="168" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M183 25V8M179 13L183 8L187 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><text x="153" y="50" text-anchor="middle" font-size="14" fill="currentColor">3p in S</text></svg></p>
-      solution: "",
+      solution: "<p>P는 <span class=\"mono\">[Ne] 3s<sup>2</sup> 3p<sup>3</sup></span>이에요: 3p 오비탈마다 전자가 하나씩 들어 있어요. S는 <span class=\"mono\">[Ne] 3s<sup>2</sup> 3p<sup>4</sup></span>예요: 3p 오비탈 하나에 전자쌍이 들어 있어요. 황에서 떼어 내는 전자는 전자 두 개가 들어 있는 이 오비탈에서 나와요. 같은 오비탈에 있는 두 전자 사이의 반발력이 전자의 에너지를 높이므로, 떼어 내는 데 필요한 에너지가 더 적어요.</p><p><svg viewBox=\"0 0 200 56\" width=\"200\" height=\"56\" role=\"img\" aria-label=\"3p 부껍질의 오비탈 상자 그림. 인은 3p 상자 세 개에 각각 위쪽 화살표가 하나씩 있어요. 황은 첫 번째 3p 상자에 위쪽과 아래쪽 화살표가 하나씩 있고, 나머지 두 상자에는 위쪽 화살표가 하나씩 있어요.\"><rect x=\"2\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M17 25V8M13 13L17 8L21 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"32\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M47 25V8M43 13L47 8L51 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"62\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M77 25V8M73 13L77 8L81 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"47\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">P의 3p</text><rect x=\"108\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M118 25V8M114 13L118 8L122 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M128 7V24M124 19L128 24L132 19\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"138\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M153 25V8M149 13L153 8L157 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"168\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M183 25V8M179 13L183 8L187 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"153\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">S의 3p</text></svg></p>",
       misconception: {
         // EN (option B): Both atoms lose a 3p electron: P is <span class="mono">[Ne] 3s<sup>2</sup> 3p<sup>3</sup></span> and S is <span class="mono">[Ne] 3s<sup>2</sup> 3p<sup>4</sup></span>. A change of sublevel explains the fall from Mg to Al, not this one.
-        "1": "",
+        "1": "두 원자 모두 3p 전자를 잃어요: P는 <span class=\"mono\">[Ne] 3s<sup>2</sup> 3p<sup>3</sup></span>이고 S는 <span class=\"mono\">[Ne] 3s<sup>2</sup> 3p<sup>4</sup></span>예요. 부껍질이 바뀌는 것은 Mg에서 Al로의 감소를 설명하지, 이 감소를 설명하지는 않아요.",
         // EN (option C): Both atoms have the same ten inner electrons (<span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>), so the shielding by inner electrons is the same.
-        "2": "",
+        "2": "두 원자 모두 안쪽 전자 열 개(<span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>)가 같으므로, 안쪽 전자에 의한 가려막기도 같아요.",
         // EN (option D): Sulfur has 16 protons and phosphorus has 15. Sulfur has the <em>greater</em> nuclear charge, which is why the lower value needs explaining.
-        "3": "",
+        "3": "황은 양성자가 16개이고 인은 15개예요. 황의 핵전하가 <em>더 크기</em> 때문에, 값이 더 작은 이유를 설명해야 하는 거예요.",
       },
     },
 
     // ── s1-3-q063 · short · exam · AHL · Structure 1.3.6 · 2 marks
     "s1-3-q063": {
       // EN: <p>The first ionization energy of sulfur is 1000 <span class="unit">kJ mol-1</span> and that of chlorine is 1251 <span class="unit">kJ mol-1</span>.</p><p>Explain why chlorine has the higher first ionization energy.</p>
-      stem: "",
+      stem: "<p>황의 제1 이온화 에너지는 1000 <span class=\"unit\">kJ mol-1</span>이고 염소는 1251 <span class=\"unit\">kJ mol-1</span>이에요.</p><p>염소의 제1 이온화 에너지가 더 큰 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: What is different about the two nuclei?
-        "",
+        "두 원자핵은 무엇이 다른가요?",
         // EN: Are the outer electrons in the same main energy level? What does that tell you about shielding?
-        "",
+        "바깥 전자들이 같은 주 에너지 준위에 있나요? 이것은 가려막기에 대해 무엇을 알려 주나요?",
         // EN: Do not argue from how close chlorine is to a full sublevel. Compare the attraction for the electron that is removed.
-        "",
+        "염소가 부껍질이 다 차기까지 얼마나 가까운지로 설명하지 마세요. 떼어 내는 전자에 대한 인력을 비교해요.",
       ],
       // EN: <p>Chlorine has one more proton than sulfur, so its nuclear charge is greater. In both atoms the electron is removed from the 3p sublevel, in the same main energy level, so the shielding by inner electrons is the same. The outer electron in chlorine is attracted more strongly to the nucleus (and is slightly closer to it), so more energy is needed to remove it.</p>
-      answer: "",
+      answer: "<p>염소는 황보다 양성자가 하나 더 많으므로 핵전하가 더 커요. 두 원자 모두 전자는 같은 주 에너지 준위의 3p 부껍질에서 떨어져 나가므로, 안쪽 전자에 의한 가려막기는 같아요. 염소의 바깥 전자는 원자핵에 더 강하게 끌리므로(그리고 원자핵에 조금 더 가까우므로), 떼어 내는 데 더 많은 에너지가 필요해요.</p>",
       markscheme: [
         // EN: Chlorine has a greater nuclear charge / more protons.
-        "",
+        "염소의 핵전하가 더 크다 / 양성자가 더 많다.",
         // EN: The electron is removed from the same main energy level (or sublevel), so shielding is the same/similar, and the attraction to the nucleus is stronger (accept: smaller atomic radius).
-        "",
+        "전자가 같은 주 에너지 준위(또는 부껍질)에서 떨어져 나가므로 가려막기가 같다/비슷하고, 원자핵에 대한 인력이 더 강하다(인정: 원자 반지름이 더 작다).",
       ],
     },
 
     // ── s1-3-q064 · mcq · foundation · SL · Structure 1.3.2 · 1 mark
     "s1-3-q064": {
       // EN: <p>The four lines in the <strong>visible</strong> part of the hydrogen emission spectrum are produced when electrons fall to which energy level?</p>
-      stem: "",
+      stem: "<p>수소 방출 스펙트럼의 <strong>가시광선</strong> 부분에 있는 선 네 개는 전자가 어느 에너지 준위로 떨어질 때 생기나요?</p>",
       options: [
         // EN: n = 1
-        "",
+        "n = 1",
         // EN: n = 2
-        "",
+        "n = 2",
         // EN: n = 3
-        "",
+        "n = 3",
         // EN: n = ∞
-        "",
+        "n = ∞",
       ],
       hints: [
         // EN: Three sets of lines: falls to n = 1, to n = 2 and to n = 3.
-        "",
+        "선 계열은 세 가지예요: n = 1로, n = 2로, n = 3으로 떨어지는 것.",
         // EN: In order of decreasing energy the regions are ultraviolet, visible, infrared.
-        "",
+        "에너지가 큰 것부터 차례로 영역은 자외선, 가시광선, 적외선이에요.",
       ],
       // EN: <p>Visible lines come from electrons falling to <strong>n = 2</strong> (from n = 3, 4, 5 and 6). Falls to n = 1 give ultraviolet lines and falls to n = 3 give infrared lines.</p>
-      solution: "",
+      solution: "<p>가시광선 선은 전자가 <strong>n = 2</strong>로 떨어질 때 생겨요(n = 3, 4, 5, 6에서). n = 1로 떨어지면 자외선 선이, n = 3으로 떨어지면 적외선 선이 생겨요.</p>",
       misconception: {
         // EN (option A): Falls to n = 1 release the most energy. Those lines are in the ultraviolet, which you cannot see.
-        "0": "",
+        "0": "n = 1로 떨어질 때 에너지가 가장 많이 방출돼요. 이 선들은 자외선 영역에 있어서 눈으로 볼 수 없어요.",
         // EN (option C): Falls to n = 3 release little energy. Those lines are in the infrared, which you cannot see.
-        "2": "",
+        "2": "n = 3으로 떨어질 때는 에너지가 조금만 방출돼요. 이 선들은 적외선 영역에 있어서 눈으로 볼 수 없어요.",
         // EN (option D): Emission happens when an electron falls to a <em>lower</em> level. n = ∞ is the top, where the levels converge.
-        "3": "",
+        "3": "방출은 전자가 <em>더 낮은</em> 준위로 떨어질 때 일어나요. n = ∞는 준위들이 수렴하는 맨 위쪽이에요.",
       },
     },
 
     // ── s1-3-q065 · mcq · foundation · AHL · Structure 1.3.7 · 1 mark
     "s1-3-q065": {
       // EN: <p>The table shows the first four successive ionization energies of an element.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Successive ionization energies / kJ mol<sup>−1</sup></caption><thead><tr><th scope="col"></th><th class="num" scope="col">1st</th><th class="num" scope="col">2nd</th><th class="num" scope="col">3rd</th><th class="num" scope="col">4th</th></tr></thead><tbody><tr><th scope="row">IE</th><td class="num">496</td><td class="num">4562</td><td class="num">6910</td><td class="num">9543</td></tr></tbody></table></div><p>In which group of the periodic table is the element?</p>
-      stem: "",
+      stem: "<p>표는 어떤 원소의 처음 네 개의 순차 이온화 에너지를 나타낸 거예요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>순차 이온화 에너지 / kJ mol<sup>−1</sup></caption><thead><tr><th scope=\"col\"></th><th class=\"num\" scope=\"col\">제1</th><th class=\"num\" scope=\"col\">제2</th><th class=\"num\" scope=\"col\">제3</th><th class=\"num\" scope=\"col\">제4</th></tr></thead><tbody><tr><th scope=\"row\">IE</th><td class=\"num\">496</td><td class=\"num\">4562</td><td class=\"num\">6910</td><td class=\"num\">9543</td></tr></tbody></table></div><p>이 원소는 주기율표의 몇 족에 있나요?</p>",
       options: [
         // EN: Group 1
-        "",
+        "1족",
         // EN: Group 2
-        "",
+        "2족",
         // EN: Group 13
-        "",
+        "13족",
         // EN: Group 14
-        "",
+        "14족",
       ],
       hints: [
         // EN: Compare each value with the one before it. Where does it become many times larger?
-        "",
+        "각 값을 바로 앞의 값과 비교해요. 어디에서 몇 배로 크게 증가하나요?",
         // EN: The number of electrons removed <em>before</em> the large jump is the number of outer electrons.
-        "",
+        "큰 증가가 일어나기 <em>전에</em> 떼어 낸 전자의 수가 바깥 전자의 수예요.",
       ],
       // EN: <div class="worked__math">1st → 2nd: 496 → 4562<br>&nbsp;&nbsp;(about 9 times: the large jump)</div><div class="worked__math">2nd → 3rd: 4562 → 6910<br>&nbsp;&nbsp;(about 1.5 times)</div><div class="worked__math">3rd → 4th: 6910 → 9543<br>&nbsp;&nbsp;(about 1.4 times)</div><p>Only one electron is removed before the large jump, so the atom has one outer electron. The element is in <strong>group 1</strong>. (These are the values for sodium.)</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">제1 → 제2: 496 → 4562<br>&nbsp;&nbsp;(약 9배: 큰 증가)</div><div class=\"worked__math\">제2 → 제3: 4562 → 6910<br>&nbsp;&nbsp;(약 1.5배)</div><div class=\"worked__math\">제3 → 제4: 6910 → 9543<br>&nbsp;&nbsp;(약 1.4배)</div><p>큰 증가 전에 전자를 하나만 떼어 내므로, 이 원자의 바깥 전자는 하나예요. 이 원소는 <strong>1족</strong>에 있어요. (이 값들은 나트륨의 값이에요.)</p>",
       misconception: {
         // EN (option B): A group 2 element has two outer electrons, so its large jump comes between the 2nd and 3rd values. Here 6910 is only about 1.5 times 4562.
-        "1": "",
+        "1": "2족 원소는 바깥 전자가 두 개이므로, 큰 증가가 제2 값과 제3 값 사이에 나타나요. 여기서 6910은 4562의 약 1.5배밖에 되지 않아요.",
         // EN (option C): A group 13 element has three outer electrons, so its large jump comes between the 3rd and 4th values. Here 9543 is only about 1.4 times 6910.
-        "2": "",
+        "2": "13족 원소는 바깥 전자가 세 개이므로, 큰 증가가 제3 값과 제4 값 사이에 나타나요. 여기서 9543은 6910의 약 1.4배밖에 되지 않아요.",
         // EN (option D): This counts all four values given. Look for the large jump and count only the electrons removed before it.
-        "3": "",
+        "3": "이것은 주어진 값 네 개를 모두 센 거예요. 큰 증가를 찾고, 그 전에 떼어 낸 전자만 세어요.",
       },
     },
 

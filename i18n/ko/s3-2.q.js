@@ -774,138 +774,138 @@ S1.i18n.register('ko', 's3-2.q', {
       ],
       hints: [
         // EN: Count the carbon atoms in the chain to get the stem.
-        "",
+        "사슬의 탄소 원자를 세어 어간을 정해요.",
         // EN: Number the chain so that the carbon with OH has the lowest number, and put that number before -ol.
-        "",
+        "OH가 붙은 탄소가 가장 작은 번호를 받도록 사슬에 번호를 매기고, 그 번호를 -ol 앞에 써요.",
       ],
       // EN: <p>Step 1: the longest chain has 4 carbon atoms, so the stem is but-. All bonds between carbon atoms are single, so it is butan-.</p><p>Step 2: the functional group is hydroxyl, so the ending is -ol.</p><p>Step 3: number from the end nearest the OH. The OH is on carbon 1.</p><p>The name is <strong>butan-1-ol</strong>.</p>
-      solution: "",
+      solution: "<p>1단계: 가장 긴 사슬에 탄소 원자가 4개 있으므로 어간은 but-예요. 탄소 원자 사이의 결합이 모두 단일 결합이므로 butan-이에요.</p><p>2단계: 작용기가 하이드록시기이므로 어미는 -ol이에요.</p><p>3단계: OH에 가까운 끝에서부터 번호를 매겨요. OH는 1번 탄소에 있어요.</p><p>이름은 <strong>butan-1-ol</strong>이에요.</p>",
       misconception: {
         // EN (option A): The chain was numbered from the wrong end. Number from the end that gives the hydroxyl group the lowest possible number.
-        "0": "",
+        "0": "사슬의 번호를 반대쪽 끝에서 매겼어요. 하이드록시기가 가능한 한 가장 작은 번호를 받는 쪽 끝에서 번호를 매겨요.",
         // EN (option B): The ending -al is for aldehydes (CHO). A compound with a hydroxyl group has the ending -ol.
-        "1": "",
+        "1": "어미 -al은 알데하이드(CHO)에 써요. 하이드록시기가 있는 화합물은 어미가 -ol이에요.",
         // EN (option D): The position number is missing. Without it the name could also mean the isomer with OH on the second carbon.
-        "3": "",
+        "3": "위치 번호가 빠졌어요. 번호가 없으면 2번 탄소에 OH가 있는 이성질체를 뜻할 수도 있어요.",
       },
     },
 
     // ── s3-2-q029 · numeric · foundation · SL · Structure 3.2.5 · 1 mark
     "s3-2-q029": {
       // EN: <p>The skeletal formula of an alkane is shown.</p><p data-i18n="off"><svg class="mol mol--skeletal" viewBox="-4 -56 99 60" width="99" height="60" role="img" aria-label="Skeletal formula. Line notation: CC(CC)CCC" data-g="S:C.C.C.C.C.C.C;0-1,1-2,2-3,1-4,4-5,5-6" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L22.5 -39"/><path d="M22.5 -39L45 -52"/><path d="M22.5 -13L45 0"/><path d="M45 0L67.5 -13"/><path d="M67.5 -13L90.1 0"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"></g></svg></p><p>The first step in naming it is to find the longest continuous chain of carbon atoms. How many carbon atoms are in the <strong>longest chain</strong>?</p>
-      stem: "",
+      stem: "<p>어떤 알케인의 골격 구조식이 있어요.</p><p data-i18n=\"off\"><svg class=\"mol mol--skeletal\" viewBox=\"-4 -56 99 60\" width=\"99\" height=\"60\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC(CC)CCC\" data-g=\"S:C.C.C.C.C.C.C;0-1,1-2,2-3,1-4,4-5,5-6\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L22.5 -39\"/><path d=\"M22.5 -39L45 -52\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M67.5 -13L90.1 0\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"></g></svg></p><p>이름을 붙이는 첫 단계는 끊기지 않고 이어진 가장 긴 탄소 사슬을 찾는 거예요. <strong>가장 긴 사슬</strong>에는 탄소 원자가 몇 개 있나요?</p>",
       hints: [
         // EN: The longest chain does not have to be drawn in a straight line across the page. It can go round a corner.
-        "",
+        "가장 긴 사슬이 종이를 가로질러 곧게 그려져 있을 필요는 없어요. 꺾인 곳을 돌아갈 수도 있어요.",
         // EN: Try starting at each line end in turn. Count the longest path to another line end.
-        "",
+        "선의 끝 하나하나에서 차례로 시작해 봐요. 다른 선의 끝까지 가는 가장 긴 경로를 세어요.",
       ],
       // EN: <p>The chain drawn across the page has only 5 carbon atoms. A longer path starts at the end of the two-carbon branch, goes down to the main zig-zag, and then runs to the right-hand end.</p><div class="worked__math">2 (branch) + 4 (rest of the zig-zag) = 6 carbon atoms</div><p>The parent chain is hexane. The one carbon atom left over (the left-hand end) is a methyl group on carbon 3, so the compound is 3-methylhexane.</p>
-      solution: "",
+      solution: "<p>종이를 가로질러 그려진 사슬에는 탄소 원자가 5개뿐이에요. 탄소 2개짜리 가지의 끝에서 시작해 주된 지그재그로 내려온 다음, 오른쪽 끝까지 가는 경로가 더 길어요.</p><div class=\"worked__math\">2 (가지) + 4 (지그재그의 나머지) = 6 탄소 원자</div><p>주 사슬은 hexane이에요. 남은 탄소 원자 1개(왼쪽 끝)는 3번 탄소에 붙은 메틸기이므로, 이 화합물은 3-methylhexane이에요.</p>",
       // EN: carbon atoms
-      unit: "",
+      unit: "개 (탄소 원자)",
     },
 
     // ── s3-2-q030 · mcq · exam · SL · Structure 3.2.5 · 1 mark
     "s3-2-q030": {
       // EN: <p>What is the IUPAC name of this compound?</p><p data-i18n="off"><svg class="mol mol--skeletal" viewBox="-4 -43 99 79" width="99" height="79" role="img" aria-label="Skeletal formula. Line notation: CC(C)C(Cl)CC" data-g="S:C.C.C.C.Cl.C.C;0-1,1-2,1-3,3-4,3-5,5-6" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L22.5 -39"/><path d="M22.5 -13L45 0"/><path d="M45 0L45 16"/><path d="M45 0L67.5 -13"/><path d="M67.5 -13L90.1 0"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="45" y="30.6" text-anchor="middle">Cl</text></g></svg></p>
-      stem: "",
+      stem: "<p>이 화합물의 IUPAC 이름은 무엇인가요?</p><p data-i18n=\"off\"><svg class=\"mol mol--skeletal\" viewBox=\"-4 -43 99 79\" width=\"99\" height=\"79\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC(C)C(Cl)CC\" data-g=\"S:C.C.C.C.Cl.C.C;0-1,1-2,1-3,3-4,3-5,5-6\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L22.5 -39\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L45 16\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M67.5 -13L90.1 0\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"45\" y=\"30.6\" text-anchor=\"middle\">Cl</text></g></svg></p>",
       options: [
         // EN: 3-chloro-4-methylpentane
-        "",
+        "3-chloro-4-methylpentane",
         // EN: 2-methyl-3-chloropentane
-        "",
+        "2-methyl-3-chloropentane",
         // EN: 3-chloro-2-methylpentane
-        "",
+        "3-chloro-2-methylpentane",
         // EN: 2-chloro-1,1-dimethylbutane
-        "",
+        "2-chloro-1,1-dimethylbutane",
       ],
       hints: [
         // EN: Find the longest chain. Then number it from the end that gives the substituents the lowest numbers.
-        "",
+        "가장 긴 사슬을 찾아요. 그런 다음 치환기가 가장 작은 번호를 받는 쪽 끝에서 번호를 매겨요.",
         // EN: Write the substituents in alphabetical order.
-        "",
+        "치환기는 알파벳 순서로 써요.",
       ],
       // EN: <p>Step 1: the longest chain has 5 carbon atoms: pentane.</p><p>Step 2: there are two substituents, a methyl group and a chlorine atom. Numbering from the left gives positions 2 and 3. Numbering from the right gives 3 and 4. Use 2 and 3.</p><p>Step 3: list the substituents alphabetically: chloro before methyl.</p><p>The name is <strong>3-chloro-2-methylpentane</strong>.</p>
-      solution: "",
+      solution: "<p>1단계: 가장 긴 사슬에 탄소 원자가 5개 있어요: pentane.</p><p>2단계: 치환기가 2개 있어요. 메틸기와 염소 원자예요. 왼쪽부터 번호를 매기면 위치는 2와 3이에요. 오른쪽부터 매기면 3과 4예요. 2와 3을 써요.</p><p>3단계: 치환기를 알파벳 순서로 나열해요. chloro가 methyl보다 앞이에요.</p><p>이름은 <strong>3-chloro-2-methylpentane</strong>이에요.</p>",
       misconception: {
         // EN (option A): The chain was numbered from the wrong end. Numbering from the other end gives the lower set of numbers, 2 and 3, instead of 3 and 4.
-        "0": "",
+        "0": "사슬의 번호를 반대쪽 끝에서 매겼어요. 다른 쪽 끝에서 매기면 3과 4 대신 더 작은 번호 2와 3을 얻어요.",
         // EN (option B): The numbers are right, but IUPAC lists substituents in alphabetical order: chloro comes before methyl. (Markschemes have accepted this order in written answers, but it is not the IUPAC name.)
-        "1": "",
+        "1": "번호는 맞지만, IUPAC은 치환기를 알파벳 순서로 나열해요. chloro가 methyl보다 앞에 와요. (서술형 답에서 채점 기준이 이 순서를 인정한 적은 있지만, IUPAC 이름은 아니에요.)",
         // EN (option D): The longest chain was not used. The chain has five carbon atoms (pentane), not four.
-        "3": "",
+        "3": "가장 긴 사슬을 쓰지 않았어요. 사슬에는 탄소 원자가 4개가 아니라 5개(pentane) 있어요.",
       },
     },
 
     // ── s3-2-q031 · mcq · exam · SL · Structure 3.2.5 · 1 mark
     "s3-2-q031": {
       // EN: <p>What is the IUPAC name of this compound?</p><p data-i18n="off"><svg class="mol mol--skeletal" viewBox="-4 -43 106 53" width="106" height="53" role="img" aria-label="Skeletal formula. Line notation: CC(C)CC=O" data-g="S:C.C.C.C.C.O;0-1,1-2,1-3,3-4,4=5" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L22.5 -39"/><path d="M22.5 -13L45 0"/><path d="M45 0L67.5 -13"/><path d="M66.4 -11.1L82.5 -1.8"/><path d="M68.6 -14.9L84.7 -5.7"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="90.1" y="4.6" text-anchor="middle">O</text></g></svg></p>
-      stem: "",
+      stem: "<p>이 화합물의 IUPAC 이름은 무엇인가요?</p><p data-i18n=\"off\"><svg class=\"mol mol--skeletal\" viewBox=\"-4 -43 106 53\" width=\"106\" height=\"53\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC(C)CC=O\" data-g=\"S:C.C.C.C.C.O;0-1,1-2,1-3,3-4,4=5\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L22.5 -39\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M66.4 -11.1L82.5 -1.8\"/><path d=\"M68.6 -14.9L84.7 -5.7\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"90.1\" y=\"4.6\" text-anchor=\"middle\">O</text></g></svg></p>",
       options: [
         // EN: 2-methylbutanal
-        "",
+        "2-methylbutanal",
         // EN: 3-methylbutanal
-        "",
+        "3-methylbutanal",
         // EN: 3-methylbutan-1-one
-        "",
+        "3-methylbutan-1-one",
         // EN: Pentanal
-        "",
+        "Pentanal",
       ],
       hints: [
         // EN: The C=O is at the end of the chain. Which class is this, and what is its ending?
-        "",
+        "C=O가 사슬의 끝에 있어요. 어느 종류이고, 어미는 무엇인가요?",
         // EN: The carbon atom of the C=O group is carbon 1.
-        "",
+        "C=O 기의 탄소 원자가 1번 탄소예요.",
       ],
       // EN: <p>Step 1: the longest chain that includes the C=O carbon has 4 carbon atoms: butan-.</p><p>Step 2: the C=O is at the end of the chain, so the compound is an aldehyde: butanal. The C=O carbon is carbon 1, so no number is needed for it.</p><p>Step 3: the methyl group is on carbon 3.</p><p>The name is <strong>3-methylbutanal</strong>.</p>
-      solution: "",
+      solution: "<p>1단계: C=O 탄소를 포함하는 가장 긴 사슬에 탄소 원자가 4개 있어요: butan-.</p><p>2단계: C=O가 사슬의 끝에 있으므로 이 화합물은 알데하이드예요: butanal. C=O 탄소가 1번 탄소이므로 번호를 쓸 필요가 없어요.</p><p>3단계: 메틸기는 3번 탄소에 있어요.</p><p>이름은 <strong>3-methylbutanal</strong>이에요.</p>",
       misconception: {
         // EN (option A): The chain was numbered from the wrong end. In an aldehyde the C=O carbon is always carbon 1.
-        "0": "",
+        "0": "사슬의 번호를 반대쪽 끝에서 매겼어요. 알데하이드에서는 C=O 탄소가 언제나 1번 탄소예요.",
         // EN (option C): The ending -one is for ketones, where the C=O is inside the chain. A C=O at the end of the chain is an aldehyde, with the ending -al.
-        "2": "",
+        "2": "어미 -one은 C=O가 사슬 안쪽에 있는 케톤에 써요. 사슬 끝에 있는 C=O는 알데하이드이고, 어미는 -al이에요.",
         // EN (option D): Pentanal has an unbranched chain of five carbon atoms. This molecule has a chain of four carbon atoms and a methyl branch. The two are isomers.
-        "3": "",
+        "3": "Pentanal은 탄소 원자 5개가 가지 없이 이어진 사슬이에요. 이 분자는 탄소 원자 4개짜리 사슬과 메틸 가지가 있어요. 둘은 이성질체예요.",
       },
     },
 
     // ── s3-2-q032 · mcq · exam · SL · Structure 3.2.5 · 1 mark
     "s3-2-q032": {
       // EN: <p>What is the IUPAC name of this compound?</p><p data-i18n="off"><svg class="mol mol--skeletal" viewBox="-4 -49 99 53" width="99" height="53" role="img" aria-label="Skeletal formula. Line notation: CC(C)CC(=O)C" data-g="S:C.C.C.C.C.O.C;0-1,1-2,1-3,3-4,4=5,4-6" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L22.5 -39"/><path d="M22.5 -13L45 0"/><path d="M45 0L67.5 -13"/><path d="M69.7 -13L69.7 -31.5"/><path d="M65.3 -13L65.3 -31.5"/><path d="M67.5 -13L90.1 0"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="67.5" y="-34.4" text-anchor="middle">O</text></g></svg></p>
-      stem: "",
+      stem: "<p>이 화합물의 IUPAC 이름은 무엇인가요?</p><p data-i18n=\"off\"><svg class=\"mol mol--skeletal\" viewBox=\"-4 -49 99 53\" width=\"99\" height=\"53\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC(C)CC(=O)C\" data-g=\"S:C.C.C.C.C.O.C;0-1,1-2,1-3,3-4,4=5,4-6\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L22.5 -39\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M69.7 -13L69.7 -31.5\"/><path d=\"M65.3 -13L65.3 -31.5\"/><path d=\"M67.5 -13L90.1 0\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"67.5\" y=\"-34.4\" text-anchor=\"middle\">O</text></g></svg></p>",
       options: [
         // EN: 2-methylpentan-4-one
-        "",
+        "2-methylpentan-4-one",
         // EN: 4-methylpentan-2-one
-        "",
+        "4-methylpentan-2-one",
         // EN: 4-methylpentanone
-        "",
+        "4-methylpentanone",
         // EN: 1,1-dimethylbutan-3-one
-        "",
+        "1,1-dimethylbutan-3-one",
       ],
       hints: [
         // EN: The C=O is inside the chain. Which class is this, and what is its ending?
-        "",
+        "C=O가 사슬 안쪽에 있어요. 어느 종류이고, 어미는 무엇인가요?",
         // EN: Number the chain from the end nearer to the C=O.
-        "",
+        "C=O에 더 가까운 쪽 끝에서 사슬에 번호를 매겨요.",
       ],
       // EN: <p>Step 1: the longest chain has 5 carbon atoms: pentan-.</p><p>Step 2: the C=O is inside the chain, so the compound is a ketone, with the ending -one. Number from the right-hand end so that the C=O carbon is carbon 2: pentan-2-one.</p><p>Step 3: the methyl group is then on carbon 4.</p><p>The name is <strong>4-methylpentan-2-one</strong>.</p>
-      solution: "",
+      solution: "<p>1단계: 가장 긴 사슬에 탄소 원자가 5개 있어요: pentan-.</p><p>2단계: C=O가 사슬 안쪽에 있으므로 이 화합물은 케톤이고, 어미는 -one이에요. C=O 탄소가 2번 탄소가 되도록 오른쪽 끝에서 번호를 매겨요: pentan-2-one.</p><p>3단계: 그러면 메틸기는 4번 탄소에 있어요.</p><p>이름은 <strong>4-methylpentan-2-one</strong>이에요.</p>",
       misconception: {
         // EN (option A): The chain was numbered from the wrong end. The carbonyl group must get the lowest possible number, so it is carbon 2, not carbon 4.
-        "0": "",
+        "0": "사슬의 번호를 반대쪽 끝에서 매겼어요. 카보닐기가 가능한 한 가장 작은 번호를 받아야 하므로 4번이 아니라 2번 탄소예요.",
         // EN (option C): The position of the C=O is missing. In a five-carbon chain the C=O could be on carbon 2 or carbon 3, so the number is needed.
-        "2": "",
+        "2": "C=O의 위치가 빠졌어요. 탄소 5개짜리 사슬에서 C=O는 2번이나 3번 탄소에 있을 수 있으므로 번호가 필요해요.",
         // EN (option D): The longest chain was not used. The chain has five carbon atoms (pentane), with one methyl branch.
-        "3": "",
+        "3": "가장 긴 사슬을 쓰지 않았어요. 사슬에는 탄소 원자가 5개(pentane) 있고, 메틸 가지가 1개 있어요.",
       },
     },
 
     // ── s3-2-q033 · mcq · exam · SL · Structure 3.2.5 · 1 mark
     "s3-2-q033": {
       // EN: <p>Which skeletal formula represents <strong>2-methylbutanoic acid</strong>?</p>
-      stem: "",
+      stem: "<p><strong>2-methylbutanoic acid</strong>를 나타내는 골격 구조식은 어느 것인가요?</p>",
       options: [
         // EN: <svg class="mol mol--skeletal" viewBox="-4 -49 117 59" width="117" height="59" role="img" aria-label="Skeletal formula. Line notation: CC(C)CC(=O)O" data-g="S:C.C.C.C.C.O.O1;0-1,1-2,1-3,3-4,4=5,4-6" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L22.5 -39"/><path d="M22.5 -13L45 0"/><path d="M45 0L67.5 -13"/><path d="M69.7 -13L69.7 -31.5"/><path d="M65.3 -13L65.3 -31.5"/><path d="M67.5 -13L83.6 -3.7"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="67.5" y="-34.4" text-anchor="middle">O</text><text x="90.1" y="4.6" text-anchor="middle">O</text><text x="95.3" y="4.6" text-anchor="start">H</text></g></svg>
         "<svg class=\"mol mol--skeletal\" viewBox=\"-4 -49 117 59\" width=\"117\" height=\"59\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC(C)CC(=O)O\" data-g=\"S:C.C.C.C.C.O.O1;0-1,1-2,1-3,3-4,4=5,4-6\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L22.5 -39\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M69.7 -13L69.7 -31.5\"/><path d=\"M65.3 -13L65.3 -31.5\"/><path d=\"M67.5 -13L83.6 -3.7\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"67.5\" y=\"-34.4\" text-anchor=\"middle\">O</text><text x=\"90.1\" y=\"4.6\" text-anchor=\"middle\">O</text><text x=\"95.3\" y=\"4.6\" text-anchor=\"start\">H</text></g></svg>",
@@ -918,172 +918,172 @@ S1.i18n.register('ko', 's3-2.q', {
       ],
       hints: [
         // EN: Butanoic acid has four carbon atoms in the chain, including the carbon of the COOH group.
-        "",
+        "Butanoic acid의 사슬에는 COOH 기의 탄소를 포함해 탄소 원자가 4개 있어요.",
         // EN: The COOH carbon is carbon 1. Put the methyl group on carbon 2.
-        "",
+        "COOH 탄소가 1번 탄소예요. 메틸기를 2번 탄소에 붙여요.",
       ],
       // EN: <p>Build the molecule from the name.</p><p>butan-: a chain of 4 carbon atoms. -oic acid: carbon 1 is the carbon of a COOH group. 2-methyl: a <span class="chem">CH<sub>3</sub></span> branch on carbon 2, the carbon next to COOH.</p><p>The condensed formula is <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)COOH</span>.</p>
-      solution: "",
+      solution: "<p>이름에서부터 분자를 만들어 봐요.</p><p>butan-: 탄소 원자 4개짜리 사슬. -oic acid: 1번 탄소가 COOH 기의 탄소. 2-methyl: 2번 탄소, 즉 COOH 바로 옆 탄소에 붙은 <span class=\"chem\">CH<sub>3</sub></span> 가지.</p><p>축약 구조식은 <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)COOH</span>예요.</p>",
       misconception: {
         // EN (option A): This is 3-methylbutanoic acid. The carbon of the COOH group is carbon 1, so carbon 2 is the carbon next to it.
-        "0": "",
+        "0": "이것은 3-methylbutanoic acid예요. COOH 기의 탄소가 1번 탄소이므로, 2번 탄소는 그 바로 옆 탄소예요.",
         // EN (option B): This has no OH on the C=O carbon, so it is an aldehyde (2-methylbutanal), not a carboxylic acid.
-        "1": "",
+        "1": "이것은 C=O 탄소에 OH가 없으므로 카복실산이 아니라 알데하이드(2-methylbutanal)예요.",
         // EN (option C): This chain is too long. The carbon atom of the COOH group is counted as part of the four-carbon butan- chain. This drawing is 3-methylpentanoic acid.
-        "2": "",
+        "2": "이 사슬은 너무 길어요. COOH 기의 탄소 원자도 탄소 4개짜리 butan- 사슬의 일부로 세어요. 이 그림은 3-methylpentanoic acid예요.",
       },
     },
 
     // ── s3-2-q034 · short · exam · SL · Structure 3.2.5 · 2 marks
     "s3-2-q034": {
       // EN: <p>The skeletal formula of an alkene is shown.</p><p data-i18n="off"><svg class="mol mol--skeletal" viewBox="-4 -43 99 47" width="99" height="47" role="img" aria-label="Skeletal formula. Line notation: CC=CC(C)C" data-g="S:C.C.C.C.C.C;0-1,1=2,2-3,3-4,3-5" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M21.4 -11.1L43.9 1.9"/><path d="M23.6 -14.9L46.1 -1.9"/><path d="M45 0L67.5 -13"/><path d="M67.5 -13L67.5 -39"/><path d="M67.5 -13L90.1 0"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"></g></svg></p><p>State the IUPAC name of this compound. Show how you chose the numbers.</p>
-      stem: "",
+      stem: "<p>어떤 알켄의 골격 구조식이 있어요.</p><p data-i18n=\"off\"><svg class=\"mol mol--skeletal\" viewBox=\"-4 -43 99 47\" width=\"99\" height=\"47\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC=CC(C)C\" data-g=\"S:C.C.C.C.C.C;0-1,1=2,2-3,3-4,3-5\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M21.4 -11.1L43.9 1.9\"/><path d=\"M23.6 -14.9L46.1 -1.9\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M67.5 -13L67.5 -39\"/><path d=\"M67.5 -13L90.1 0\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"></g></svg></p><p>이 화합물의 IUPAC 이름을 쓰시오 (state). 번호를 어떻게 정했는지 보이세요.</p>",
       hints: [
         // EN: The parent chain must contain both carbon atoms of the C=C.
-        "",
+        "주 사슬에는 C=C의 두 탄소 원자가 모두 들어 있어야 해요.",
         // EN: The double bond gets the lowest possible number. The branch takes whatever number follows from that.
-        "",
+        "이중 결합이 가능한 한 가장 작은 번호를 받아요. 가지의 번호는 그에 따라 정해져요.",
       ],
       // EN: <p><strong>4-methylpent-2-ene</strong></p><p>The longest chain that contains the C=C has 5 carbon atoms: pent-. Number from the end nearer to the double bond. The double bond then starts at carbon 2: pent-2-ene. The methyl group is on carbon 4.</p><p>Numbering from the other end would give 2-methylpent-3-ene. This is wrong because the double bond must get the lowest possible number.</p>
-      answer: "",
+      answer: "<p><strong>4-methylpent-2-ene</strong></p><p>C=C를 포함하는 가장 긴 사슬에 탄소 원자가 5개 있어요: pent-. 이중 결합에 더 가까운 쪽 끝에서 번호를 매겨요. 그러면 이중 결합이 2번 탄소에서 시작해요: pent-2-ene. 메틸기는 4번 탄소에 있어요.</p><p>다른 쪽 끝에서 번호를 매기면 2-methylpent-3-ene이 돼요. 이중 결합이 가능한 한 가장 작은 번호를 받아야 하므로 이것은 틀려요.</p>",
       markscheme: [
         // EN: Parent chain: pent-2-ene (five carbon atoms, numbered so that the double bond starts at carbon 2).
-        "",
+        "주 사슬: pent-2-ene (탄소 원자 5개, 이중 결합이 2번 탄소에서 시작하도록 번호를 매김).",
         // EN: Complete name: 4-methylpent-2-ene. (Missing hyphens are not penalised. Do not accept 2-methylpent-3-ene.)
-        "",
+        "완전한 이름: 4-methylpent-2-ene. (하이픈이 빠져도 감점하지 않음. 2-methylpent-3-ene은 인정하지 않음.)",
       ],
     },
 
     // ── s3-2-q035 · mcq · exam · SL · Structure 3.2.5 · 1 mark
     "s3-2-q035": {
       // EN: <p>What is the IUPAC name of this compound?</p><p data-i18n="off"><svg class="mol mol--structural" viewBox="-45 -44 192 88" width="192" height="88" role="img" aria-label="Full structural formula. Line notation: CC(Cl)(Cl)CC" data-g="F:C.C.C.C.H.H.H.Cl.Cl.H.H.H.H.H;0-1,1-2,2-3,0-4,0-5,0-6,1-7,1-8,2-9,2-10,3-11,3-12,3-13" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M7.5 0L26.5 0"/><path d="M41.5 0L60.5 0"/><path d="M75.5 0L94.5 0"/><path d="M-7.5 0L-26.5 0"/><path d="M0 -7.5L0 -26.5"/><path d="M0 7.5L0 26.5"/><path d="M34 -7.5L34 -26.5"/><path d="M34 7.5L34 26.5"/><path d="M68 -7.5L68 -26.5"/><path d="M68 7.5L68 26.5"/><path d="M109.5 0L128.5 0"/><path d="M102 -7.5L102 -26.5"/><path d="M102 7.5L102 26.5"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="0" y="4.6" text-anchor="middle">C</text><text x="34" y="4.6" text-anchor="middle">C</text><text x="68" y="4.6" text-anchor="middle">C</text><text x="102" y="4.6" text-anchor="middle">C</text><text x="-34" y="4.6" text-anchor="middle">H</text><text x="0" y="-29.4" text-anchor="middle">H</text><text x="0" y="38.6" text-anchor="middle">H</text><text x="34" y="-29.4" text-anchor="middle">Cl</text><text x="34" y="38.6" text-anchor="middle">Cl</text><text x="68" y="-29.4" text-anchor="middle">H</text><text x="68" y="38.6" text-anchor="middle">H</text><text x="136" y="4.6" text-anchor="middle">H</text><text x="102" y="-29.4" text-anchor="middle">H</text><text x="102" y="38.6" text-anchor="middle">H</text></g></svg></p>
-      stem: "",
+      stem: "<p>이 화합물의 IUPAC 이름은 무엇인가요?</p><p data-i18n=\"off\"><svg class=\"mol mol--structural\" viewBox=\"-45 -44 192 88\" width=\"192\" height=\"88\" role=\"img\" aria-label=\"Full structural formula. Line notation: CC(Cl)(Cl)CC\" data-g=\"F:C.C.C.C.H.H.H.Cl.Cl.H.H.H.H.H;0-1,1-2,2-3,0-4,0-5,0-6,1-7,1-8,2-9,2-10,3-11,3-12,3-13\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M7.5 0L26.5 0\"/><path d=\"M41.5 0L60.5 0\"/><path d=\"M75.5 0L94.5 0\"/><path d=\"M-7.5 0L-26.5 0\"/><path d=\"M0 -7.5L0 -26.5\"/><path d=\"M0 7.5L0 26.5\"/><path d=\"M34 -7.5L34 -26.5\"/><path d=\"M34 7.5L34 26.5\"/><path d=\"M68 -7.5L68 -26.5\"/><path d=\"M68 7.5L68 26.5\"/><path d=\"M109.5 0L128.5 0\"/><path d=\"M102 -7.5L102 -26.5\"/><path d=\"M102 7.5L102 26.5\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"0\" y=\"4.6\" text-anchor=\"middle\">C</text><text x=\"34\" y=\"4.6\" text-anchor=\"middle\">C</text><text x=\"68\" y=\"4.6\" text-anchor=\"middle\">C</text><text x=\"102\" y=\"4.6\" text-anchor=\"middle\">C</text><text x=\"-34\" y=\"4.6\" text-anchor=\"middle\">H</text><text x=\"0\" y=\"-29.4\" text-anchor=\"middle\">H</text><text x=\"0\" y=\"38.6\" text-anchor=\"middle\">H</text><text x=\"34\" y=\"-29.4\" text-anchor=\"middle\">Cl</text><text x=\"34\" y=\"38.6\" text-anchor=\"middle\">Cl</text><text x=\"68\" y=\"-29.4\" text-anchor=\"middle\">H</text><text x=\"68\" y=\"38.6\" text-anchor=\"middle\">H</text><text x=\"136\" y=\"4.6\" text-anchor=\"middle\">H</text><text x=\"102\" y=\"-29.4\" text-anchor=\"middle\">H</text><text x=\"102\" y=\"38.6\" text-anchor=\"middle\">H</text></g></svg></p>",
       options: [
         // EN: 2-dichlorobutane
-        "",
+        "2-dichlorobutane",
         // EN: 2,2-chlorobutane
-        "",
+        "2,2-chlorobutane",
         // EN: 3,3-dichlorobutane
-        "",
+        "3,3-dichlorobutane",
         // EN: 2,2-dichlorobutane
-        "",
+        "2,2-dichlorobutane",
       ],
       hints: [
         // EN: Count the carbon atoms in the chain, then number from the end nearer to the chlorine atoms.
-        "",
+        "사슬의 탄소 원자를 세고, 염소 원자에 더 가까운 쪽 끝에서 번호를 매겨요.",
         // EN: Two identical substituents: give one number for each, and use the prefix di-.
-        "",
+        "같은 치환기가 2개 있으면 각각에 번호를 하나씩 주고, 접두사 di-를 써요.",
       ],
       // EN: <p>Step 1: the chain has 4 carbon atoms and only single bonds: butane.</p><p>Step 2: number from the left, so that the chlorine atoms are on carbon 2 (not carbon 3).</p><p>Step 3: there are two chlorine atoms. Give a number for each and use di-: 2,2-dichloro.</p><p>The name is <strong>2,2-dichlorobutane</strong>.</p>
-      solution: "",
+      solution: "<p>1단계: 사슬에 탄소 원자가 4개 있고 단일 결합만 있어요: butane.</p><p>2단계: 염소 원자가 3번이 아니라 2번 탄소에 오도록 왼쪽부터 번호를 매겨요.</p><p>3단계: 염소 원자가 2개 있어요. 각각에 번호를 주고 di-를 써요: 2,2-dichloro.</p><p>이름은 <strong>2,2-dichlorobutane</strong>이에요.</p>",
       misconception: {
         // EN (option A): Each substituent needs its own number, even when both are on the same carbon atom. Write 2,2- for two chlorine atoms on carbon 2.
-        "0": "",
+        "0": "치환기는 둘 다 같은 탄소 원자에 있더라도 각각 번호가 필요해요. 2번 탄소에 염소 원자가 2개 있으면 2,2-라고 써요.",
         // EN (option B): The prefix di- is missing. Two identical substituents need both the numbers (2,2-) and the prefix di-.
-        "1": "",
+        "1": "접두사 di-가 빠졌어요. 같은 치환기가 2개이면 번호(2,2-)와 접두사 di-가 모두 필요해요.",
         // EN (option C): The chain was numbered from the wrong end. Number from the end nearer to the chlorine atoms, so they are on carbon 2.
-        "2": "",
+        "2": "사슬의 번호를 반대쪽 끝에서 매겼어요. 염소 원자에 더 가까운 쪽 끝에서 번호를 매겨서 염소가 2번 탄소에 오게 해요.",
       },
     },
 
     // ── s3-2-q036 · mcq · challenge · SL · Structure 3.2.5 · 1 mark
     "s3-2-q036": {
       // EN: <p>What is the IUPAC name of this compound?</p><p data-i18n="off"><svg class="mol mol--skeletal" viewBox="-4 -49 117 59" width="117" height="59" role="img" aria-label="Skeletal formula. Line notation: CC(C)=CC(=O)O" data-g="S:C.C.C.C.C.O.O1;0-1,1-2,1=3,3-4,4=5,4-6" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L22.5 -39"/><path d="M22.5 -13L45 0"/><path d="M28.1 -14.6L43.7 -5.6"/><path d="M45 0L67.5 -13"/><path d="M69.7 -13L69.7 -31.5"/><path d="M65.3 -13L65.3 -31.5"/><path d="M67.5 -13L83.6 -3.7"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="67.5" y="-34.4" text-anchor="middle">O</text><text x="90.1" y="4.6" text-anchor="middle">O</text><text x="95.3" y="4.6" text-anchor="start">H</text></g></svg></p>
-      stem: "",
+      stem: "<p>이 화합물의 IUPAC 이름은 무엇인가요?</p><p data-i18n=\"off\"><svg class=\"mol mol--skeletal\" viewBox=\"-4 -49 117 59\" width=\"117\" height=\"59\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC(C)=CC(=O)O\" data-g=\"S:C.C.C.C.C.O.O1;0-1,1-2,1=3,3-4,4=5,4-6\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L22.5 -39\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M28.1 -14.6L43.7 -5.6\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M69.7 -13L69.7 -31.5\"/><path d=\"M65.3 -13L65.3 -31.5\"/><path d=\"M67.5 -13L83.6 -3.7\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"67.5\" y=\"-34.4\" text-anchor=\"middle\">O</text><text x=\"90.1\" y=\"4.6\" text-anchor=\"middle\">O</text><text x=\"95.3\" y=\"4.6\" text-anchor=\"start\">H</text></g></svg></p>",
       options: [
         // EN: 3-methylbutanoic acid
-        "",
+        "3-methylbutanoic acid",
         // EN: 2-methylbut-2-en-4-oic acid
-        "",
+        "2-methylbut-2-en-4-oic acid",
         // EN: 3-methylbut-2-enoic acid
-        "",
+        "3-methylbut-2-enoic acid",
         // EN: 3-methylbut-2-enal
-        "",
+        "3-methylbut-2-enal",
       ],
       hints: [
         // EN: Start numbering at the carbon atom of the COOH group.
-        "",
+        "COOH 기의 탄소 원자에서 번호를 매기기 시작해요.",
         // EN: The name needs three parts: the branch, the position of the C=C, and the ending for the carboxyl group.
-        "",
+        "이름에는 세 부분이 필요해요. 가지, C=C의 위치, 그리고 카복실기를 나타내는 어미예요.",
       ],
       // EN: <p>Step 1: the longest chain that includes the COOH carbon has 4 carbon atoms: but-.</p><p>Step 2: the COOH carbon is carbon 1. The C=C double bond starts at carbon 2: but-2-en-.</p><p>Step 3: the group is carboxyl, so the ending is -oic acid: but-2-enoic acid.</p><p>Step 4: the methyl branch is on carbon 3.</p><p>The name is <strong>3-methylbut-2-enoic acid</strong>.</p>
-      solution: "",
+      solution: "<p>1단계: COOH 탄소를 포함하는 가장 긴 사슬에 탄소 원자가 4개 있어요: but-.</p><p>2단계: COOH 탄소가 1번 탄소예요. C=C 이중 결합은 2번 탄소에서 시작해요: but-2-en-.</p><p>3단계: 작용기가 카복실기이므로 어미는 -oic acid예요: but-2-enoic acid.</p><p>4단계: 메틸 가지는 3번 탄소에 있어요.</p><p>이름은 <strong>3-methylbut-2-enoic acid</strong>예요.</p>",
       misconception: {
         // EN (option A): This name is for a saturated acid. The C=C double bond must be shown in the name by -en- and its position.
-        "0": "",
+        "0": "이 이름은 포화 산의 이름이에요. C=C 이중 결합은 이름에서 -en-과 그 위치로 나타내야 해요.",
         // EN (option B): The chain was numbered from the wrong end. The carbon atom of the COOH group is always carbon 1.
-        "1": "",
+        "1": "사슬의 번호를 반대쪽 끝에서 매겼어요. COOH 기의 탄소 원자는 언제나 1번 탄소예요.",
         // EN (option D): The ending -al is for an aldehyde. The C=O carbon here also carries an OH, so the group is carboxyl and the ending is -oic acid.
-        "3": "",
+        "3": "어미 -al은 알데하이드에 써요. 여기서 C=O 탄소에는 OH도 붙어 있으므로 작용기는 카복실기이고 어미는 -oic acid예요.",
       },
     },
 
     // ── s3-2-q037 · mcq · challenge · SL · Structure 3.2.5 · 1 mark
     "s3-2-q037": {
       // EN: <p>What is the IUPAC name of this compound?</p><p data-i18n="off"><svg class="mol mol--skeletal" viewBox="-4 -49 76 92" width="76" height="92" role="img" aria-label="Skeletal formula. Line notation: CC(O)C(CC)C" data-g="S:C.C.O1.C.C.C.C;0-1,1-2,1-3,3-4,4-5,3-6" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L22.5 -31.5"/><path d="M22.5 -13L45 0"/><path d="M45 0L45 26"/><path d="M45 26L67.5 39"/><path d="M45 0L67.5 -13"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="22.5" y="-34.4" text-anchor="middle">O</text><text x="27.7" y="-34.4" text-anchor="start">H</text></g></svg></p>
-      stem: "",
+      stem: "<p>이 화합물의 IUPAC 이름은 무엇인가요?</p><p data-i18n=\"off\"><svg class=\"mol mol--skeletal\" viewBox=\"-4 -49 76 92\" width=\"76\" height=\"92\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC(O)C(CC)C\" data-g=\"S:C.C.O1.C.C.C.C;0-1,1-2,1-3,3-4,4-5,3-6\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L22.5 -31.5\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L45 26\"/><path d=\"M45 26L67.5 39\"/><path d=\"M45 0L67.5 -13\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"22.5\" y=\"-34.4\" text-anchor=\"middle\">O</text><text x=\"27.7\" y=\"-34.4\" text-anchor=\"start\">H</text></g></svg></p>",
       options: [
         // EN: 3-ethylbutan-2-ol
-        "",
+        "3-ethylbutan-2-ol",
         // EN: 3-methylpentan-2-ol
-        "",
+        "3-methylpentan-2-ol",
         // EN: 3-methylpentan-4-ol
-        "",
+        "3-methylpentan-4-ol",
         // EN: 2-ethylbutan-3-ol
-        "",
+        "2-ethylbutan-3-ol",
       ],
       hints: [
         // EN: Look for the longest chain that contains the carbon with the OH. It may go round a corner.
-        "",
+        "OH가 붙은 탄소를 포함하는 가장 긴 사슬을 찾아요. 꺾인 곳을 돌아갈 수도 있어요.",
         // EN: Number the chain from the end nearer to the OH.
-        "",
+        "OH에 더 가까운 쪽 끝에서 사슬에 번호를 매겨요.",
       ],
       // EN: <p>Step 1: the longest chain that contains the C–OH carbon runs from the left-hand end, through the carbon with OH and the branch point, and on through the two-carbon branch. It has 5 carbon atoms: pentan-.</p><p>Step 2: number from the end nearer to the OH. The OH is on carbon 2: pentan-2-ol.</p><p>Step 3: the one carbon atom left over is a methyl group on carbon 3.</p><p>The name is <strong>3-methylpentan-2-ol</strong>. Its condensed formula is <span class="chem">CH<sub>3</sub>CH(OH)CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub></span>.</p>
-      solution: "",
+      solution: "<p>1단계: C–OH 탄소를 포함하는 가장 긴 사슬은 왼쪽 끝에서 시작해 OH가 붙은 탄소와 가지가 갈라지는 탄소를 지나, 탄소 2개짜리 가지까지 이어져요. 탄소 원자가 5개 있어요: pentan-.</p><p>2단계: OH에 더 가까운 쪽 끝에서 번호를 매겨요. OH는 2번 탄소에 있어요: pentan-2-ol.</p><p>3단계: 남은 탄소 원자 1개는 3번 탄소에 붙은 메틸기예요.</p><p>이름은 <strong>3-methylpentan-2-ol</strong>이에요. 축약 구조식은 <span class=\"chem\">CH<sub>3</sub>CH(OH)CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub></span>이에요.</p>",
       misconception: {
         // EN (option A): The chain drawn across the page has four carbon atoms, but it is not the longest. A chain of five goes through the two-carbon branch.
-        "0": "",
+        "0": "종이를 가로질러 그려진 사슬에는 탄소 원자가 4개 있지만, 가장 긴 사슬은 아니에요. 탄소 2개짜리 가지를 지나는 탄소 5개짜리 사슬이 있어요.",
         // EN (option C): The five-carbon chain is right, but it was numbered from the wrong end. The hydroxyl group must get the lowest possible number.
-        "2": "",
+        "2": "탄소 5개짜리 사슬은 맞지만, 번호를 반대쪽 끝에서 매겼어요. 하이드록시기가 가능한 한 가장 작은 번호를 받아야 해요.",
         // EN (option D): Two slips: the longest chain has five carbon atoms, not four, and the hydroxyl group must get the lowest possible number.
-        "3": "",
+        "3": "실수가 두 가지 있어요. 가장 긴 사슬은 탄소 원자가 4개가 아니라 5개이고, 하이드록시기가 가능한 한 가장 작은 번호를 받아야 해요.",
       },
     },
 
     // ── s3-2-q038 · mcq · foundation · SL · Structure 3.2.6 · 1 mark
     "s3-2-q038": {
       // EN: <p>What are structural isomers?</p>
-      stem: "",
+      stem: "<p>구조 이성질체란 무엇인가요?</p>",
       options: [
         // EN: Compounds with the same general formula but different numbers of carbon atoms
-        "",
+        "일반식은 같지만 탄소 원자 수가 다른 화합물",
         // EN: Compounds with the same molecular formula but different connectivities of their atoms
-        "",
+        "분자식은 같지만 원자들의 연결 방식이 다른 화합물",
         // EN: Compounds with the same empirical formula but different molar masses
-        "",
+        "실험식은 같지만 몰 질량이 다른 화합물",
         // EN: Atoms with the same number of protons but different numbers of neutrons
-        "",
+        "양성자 수는 같지만 중성자 수가 다른 원자",
       ],
       hints: [
         // EN: Isomers contain the same atoms. What is different about them?
-        "",
+        "이성질체는 같은 원자들로 이루어져 있어요. 그럼 무엇이 다를까요?",
       ],
       // EN: <p>Structural isomers have the <strong>same molecular formula</strong> but <strong>different connectivities</strong>: the atoms are joined together in a different order.</p><p>Example: butane, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>, and methylpropane, <span class="chem">(CH<sub>3</sub>)<sub>3</sub>CH</span>, are both <span class="chem">C<sub>4</sub>H<sub>10</sub></span>.</p>
-      solution: "",
+      solution: "<p>구조 이성질체는 <strong>분자식은 같지만</strong> <strong>연결 방식이 달라요</strong>. 원자들이 다른 순서로 연결되어 있어요.</p><p>예: butane <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>과 methylpropane <span class=\"chem\">(CH<sub>3</sub>)<sub>3</sub>CH</span>은 둘 다 <span class=\"chem\">C<sub>4</sub>H<sub>10</sub></span>이에요.</p>",
       misconception: {
         // EN (option A): This describes members of a homologous series. Isomers have exactly the same atoms.
-        "0": "",
+        "0": "이것은 동족 계열의 화합물들에 대한 설명이에요. 이성질체는 원자 구성이 완전히 같아요.",
         // EN (option C): These compounds have different molecular formulas (for example <span class="chem">C<sub>2</sub>H<sub>4</sub></span> and <span class="chem">C<sub>3</sub>H<sub>6</sub></span>), so they are not isomers.
-        "2": "",
+        "2": "이 화합물들은 분자식이 서로 다르므로(예: <span class=\"chem\">C<sub>2</sub>H<sub>4</sub></span>와 <span class=\"chem\">C<sub>3</sub>H<sub>6</sub></span>) 이성질체가 아니에요.",
         // EN (option D): This describes isotopes of an element. Isomers are compounds.
-        "3": "",
+        "3": "이것은 원소의 동위 원소에 대한 설명이에요. 이성질체는 화합물이에요.",
       },
     },
 
     // ── s3-2-q039 · mcq · foundation · SL · Structure 3.2.6 · 1 mark
     "s3-2-q039": {
       // EN: <p>Which compound is a <strong>secondary</strong> alcohol?</p>
-      stem: "",
+      stem: "<p><strong>2차</strong> 알코올은 어느 것인가요?</p>",
       options: [
         // EN: <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>
         "<span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>",
@@ -1096,74 +1096,74 @@ S1.i18n.register('ko', 's3-2.q', {
       ],
       hints: [
         // EN: Find the carbon atom that is bonded to the OH group.
-        "",
+        "OH 기와 결합한 탄소 원자를 찾아요.",
         // EN: Count how many other carbon atoms are bonded directly to that carbon: one = primary, two = secondary, three = tertiary.
-        "",
+        "그 탄소에 직접 결합한 다른 탄소 원자의 수를 세어요. 1개 = 1차, 2개 = 2차, 3개 = 3차.",
       ],
       // EN: <p>Look only at the carbon atom that carries the OH group, and count the carbon atoms joined to it.</p><p>In <span class="chem">CH<sub>3</sub>CH(OH)CH<sub>3</sub></span> (propan-2-ol) that carbon is joined to two <span class="chem">CH<sub>3</sub></span> groups. Two carbon atoms means a <strong>secondary</strong> alcohol.</p>
-      solution: "",
+      solution: "<p>OH 기가 붙은 탄소 원자만 보고, 그 탄소에 연결된 탄소 원자의 수를 세어요.</p><p><span class=\"chem\">CH<sub>3</sub>CH(OH)CH<sub>3</sub></span>(propan-2-ol)에서 그 탄소는 <span class=\"chem\">CH<sub>3</sub></span> 기 2개와 연결되어 있어요. 탄소 원자 2개이므로 <strong>2차</strong> 알코올이에요.</p>",
       misconception: {
         // EN (option A): The carbon that holds the OH is joined to only one other carbon atom. This is a primary alcohol.
-        "0": "",
+        "0": "OH가 붙은 탄소가 다른 탄소 원자 1개와만 연결되어 있어요. 이것은 1차 알코올이에요.",
         // EN (option B): The branch is on the next carbon along. The carbon that holds the OH is <span class="chem">CH<sub>2</sub></span>, joined to only one other carbon atom, so this is a primary alcohol.
-        "1": "",
+        "1": "가지는 그다음 탄소에 있어요. OH가 붙은 탄소는 <span class=\"chem\">CH<sub>2</sub></span>이고 다른 탄소 원자 1개와만 연결되어 있으므로, 1차 알코올이에요.",
         // EN (option D): The carbon that holds the OH is joined to three other carbon atoms. This is a tertiary alcohol.
-        "3": "",
+        "3": "OH가 붙은 탄소가 다른 탄소 원자 3개와 연결되어 있어요. 이것은 3차 알코올이에요.",
       },
     },
 
     // ── s3-2-q040 · numeric · foundation · SL · Structure 3.2.6 · 1 mark
     "s3-2-q040": {
       // EN: <p>How many structural isomers have the molecular formula <span class="chem">C<sub>5</sub>H<sub>12</sub></span>?</p>
-      stem: "",
+      stem: "<p>분자식이 <span class=\"chem\">C<sub>5</sub>H<sub>12</sub></span>인 구조 이성질체는 몇 가지인가요?</p>",
       hints: [
         // EN: Start with the unbranched chain of five carbon atoms.
-        "",
+        "탄소 원자 5개가 가지 없이 이어진 사슬부터 시작해요.",
         // EN: Then shorten the chain to four carbon atoms and add one methyl branch. Then try a chain of three with two branches.
-        "",
+        "그다음 사슬을 탄소 원자 4개로 줄이고 메틸 가지 1개를 붙여요. 그다음 가지가 2개인 탄소 3개짜리 사슬을 시도해 봐요.",
         // EN: Check that you have not drawn the same molecule twice in a different position.
-        "",
+        "같은 분자를 위치만 바꿔 두 번 그리지 않았는지 확인해요.",
       ],
       // EN: <p>Work from the longest chain to the shortest.</p><ul><li>Chain of 5: pentane, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span></li><li>Chain of 4 with one methyl branch: 2-methylbutane, <span class="chem">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>CH<sub>3</sub></span></li><li>Chain of 3 with two methyl branches: 2,2-dimethylpropane, <span class="chem">(CH<sub>3</sub>)<sub>4</sub>C</span></li></ul><p>There are <strong>3</strong> isomers. A methyl group on carbon 3 of butane is the same molecule as 2-methylbutane, seen from the other end.</p>
-      solution: "",
+      solution: "<p>가장 긴 사슬부터 가장 짧은 사슬 순서로 해 봐요.</p><ul><li>탄소 5개짜리 사슬: pentane, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span></li><li>메틸 가지 1개가 있는 탄소 4개짜리 사슬: 2-methylbutane, <span class=\"chem\">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>CH<sub>3</sub></span></li><li>메틸 가지 2개가 있는 탄소 3개짜리 사슬: 2,2-dimethylpropane, <span class=\"chem\">(CH<sub>3</sub>)<sub>4</sub>C</span></li></ul><p>이성질체는 <strong>3</strong>가지예요. Butane의 3번 탄소에 메틸기가 있는 분자는 반대쪽 끝에서 본 2-methylbutane과 같은 분자예요.</p>",
       // EN: isomers
-      unit: "",
+      unit: "가지 (이성질체)",
     },
 
     // ── s3-2-q041 · mcq · foundation · SL · Structure 3.2.6 · 1 mark
     "s3-2-q041": {
       // EN: <p>The skeletal formulas of two alcohols, X and Y, are shown.</p><p data-i18n="off"><span style="display:inline-block;white-space:nowrap;margin:0 1.5em 0.4em 0"><strong>X</strong>&nbsp; <svg class="mol mol--skeletal" viewBox="-4 -17 117 27" width="117" height="27" role="img" aria-label="Skeletal formula. Line notation: CCCCO" data-g="S:C.C.C.C.O1;0-1,1-2,2-3,3-4" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L45 0"/><path d="M45 0L67.5 -13"/><path d="M67.5 -13L83.6 -3.7"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="90.1" y="4.6" text-anchor="middle">O</text><text x="95.3" y="4.6" text-anchor="start">H</text></g></svg></span> <span style="display:inline-block;white-space:nowrap;margin:0 1.5em 0.4em 0"><strong>Y</strong>&nbsp; <svg class="mol mol--skeletal" viewBox="-4 -17 76 53" width="76" height="53" role="img" aria-label="Skeletal formula. Line notation: CCC(O)C" data-g="S:C.C.C.O1.C;0-1,1-2,2-3,2-4" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L45 0"/><path d="M45 0L45 18.5"/><path d="M45 0L67.5 -13"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="45" y="30.6" text-anchor="middle">O</text><text x="50.2" y="30.6" text-anchor="start">H</text></g></svg></span></p><p>How are X and Y related?</p>
-      stem: "",
+      stem: "<p>두 알코올 X와 Y의 골격 구조식이 있어요.</p><p data-i18n=\"off\"><span style=\"display:inline-block;white-space:nowrap;margin:0 1.5em 0.4em 0\"><strong>X</strong>&nbsp; <svg class=\"mol mol--skeletal\" viewBox=\"-4 -17 117 27\" width=\"117\" height=\"27\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CCCCO\" data-g=\"S:C.C.C.C.O1;0-1,1-2,2-3,3-4\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M67.5 -13L83.6 -3.7\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"90.1\" y=\"4.6\" text-anchor=\"middle\">O</text><text x=\"95.3\" y=\"4.6\" text-anchor=\"start\">H</text></g></svg></span> <span style=\"display:inline-block;white-space:nowrap;margin:0 1.5em 0.4em 0\"><strong>Y</strong>&nbsp; <svg class=\"mol mol--skeletal\" viewBox=\"-4 -17 76 53\" width=\"76\" height=\"53\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CCC(O)C\" data-g=\"S:C.C.C.O1.C;0-1,1-2,2-3,2-4\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L45 18.5\"/><path d=\"M45 0L67.5 -13\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"45\" y=\"30.6\" text-anchor=\"middle\">O</text><text x=\"50.2\" y=\"30.6\" text-anchor=\"start\">H</text></g></svg></span></p><p>X와 Y는 어떤 관계인가요?</p>",
       options: [
         // EN: They are chain isomers.
-        "",
+        "사슬 이성질체이다.",
         // EN: They are position isomers.
-        "",
+        "위치 이성질체이다.",
         // EN: They are functional group isomers.
-        "",
+        "작용기 이성질체이다.",
         // EN: They are not isomers.
-        "",
+        "이성질체가 아니다.",
       ],
       hints: [
         // EN: Check the molecular formula of each. Then compare the carbon chain, the functional group, and where the group is.
-        "",
+        "각각의 분자식을 확인해요. 그런 다음 탄소 사슬, 작용기, 작용기의 위치를 비교해요.",
       ],
       // EN: <p>Both molecules are <span class="chem">C<sub>4</sub>H<sub>10</sub>O</span>. Both have the same unbranched four-carbon chain and the same functional group, hydroxyl.</p><p>Only the position of the group is different: carbon 1 in X (butan-1-ol) and carbon 2 in Y (butan-2-ol). They are <strong>position isomers</strong>.</p>
-      solution: "",
+      solution: "<p>두 분자 모두 <span class=\"chem\">C<sub>4</sub>H<sub>10</sub>O</span>예요. 둘 다 가지 없는 같은 탄소 4개짜리 사슬과 같은 작용기인 하이드록시기를 가지고 있어요.</p><p>작용기의 위치만 달라요. X(butan-1-ol)에서는 1번 탄소, Y(butan-2-ol)에서는 2번 탄소예요. 둘은 <strong>위치 이성질체</strong>예요.</p>",
       misconception: {
         // EN (option A): Chain isomers have differently branched carbon chains. Here both molecules have an unbranched chain of four carbon atoms.
-        "0": "",
+        "0": "사슬 이성질체는 탄소 사슬의 가지 모양이 서로 달라요. 여기서는 두 분자 모두 탄소 원자 4개가 가지 없이 이어진 사슬이에요.",
         // EN (option C): Functional group isomers have different functional groups. Both molecules have a hydroxyl group.
-        "2": "",
+        "2": "작용기 이성질체는 작용기가 서로 달라요. 두 분자 모두 하이드록시기가 있어요.",
         // EN (option D): Both have the molecular formula <span class="chem">C<sub>4</sub>H<sub>10</sub>O</span> and their atoms are joined differently, so they are isomers.
-        "3": "",
+        "3": "둘 다 분자식이 <span class=\"chem\">C<sub>4</sub>H<sub>10</sub>O</span>이고 원자들의 연결 방식이 다르므로 이성질체예요.",
       },
     },
 
     // ── s3-2-q042 · mcq · exam · SL · Structure 3.2.6 · 1 mark
     "s3-2-q042": {
       // EN: <p>Which compound is a <strong>secondary</strong> amine?</p>
-      stem: "",
+      stem: "<p><strong>2차</strong> 아민은 어느 것인가요?</p>",
       options: [
         // EN: <span class="chem">CH<sub>3</sub>CH(NH<sub>2</sub>)CH<sub>3</sub></span>
         "<span class=\"chem\">CH<sub>3</sub>CH(NH<sub>2</sub>)CH<sub>3</sub></span>",
@@ -1176,76 +1176,76 @@ S1.i18n.register('ko', 's3-2.q', {
       ],
       hints: [
         // EN: For amines, the rule is about the nitrogen atom, not about a carbon atom.
-        "",
+        "아민의 규칙은 탄소 원자가 아니라 질소 원자에 대한 것이에요.",
         // EN: Count the carbon atoms bonded directly to N.
-        "",
+        "N에 직접 결합한 탄소 원자를 세어요.",
       ],
       // EN: <p>Amines are classified by the number of carbon atoms bonded to the nitrogen atom.</p><p>In <span class="chem">CH<sub>3</sub>CH<sub>2</sub>NHCH<sub>3</sub></span> the nitrogen is bonded to two carbon atoms (and one H). It is a <strong>secondary</strong> amine.</p><p>This is different from alcohols and halogenoalkanes, where you count the carbon atoms on the carbon that holds the group.</p>
-      solution: "",
+      solution: "<p>아민은 질소 원자에 결합한 탄소 원자의 수로 분류해요.</p><p><span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>NHCH<sub>3</sub></span>에서 질소는 탄소 원자 2개(그리고 H 1개)와 결합해 있어요. <strong>2차</strong> 아민이에요.</p><p>이것은 알코올이나 할로젠화 알케인과 달라요. 그 경우에는 작용기가 붙은 탄소에 연결된 탄소 원자를 세어요.</p>",
       misconception: {
         // EN (option A): This is the alcohol rule used by mistake. For amines, count the carbon atoms bonded to the <em>nitrogen</em>. Here the N is bonded to one carbon, so the amine is primary.
-        "0": "",
+        "0": "알코올의 규칙을 잘못 적용했어요. 아민에서는 <em>질소</em>에 결합한 탄소 원자를 세어요. 여기서 N은 탄소 1개와 결합해 있으므로 1차 아민이에요.",
         // EN (option C): The nitrogen atom is bonded to three carbon atoms. This is a tertiary amine.
-        "2": "",
+        "2": "질소 원자가 탄소 원자 3개와 결합해 있어요. 이것은 3차 아민이에요.",
         // EN (option D): The nitrogen atom is bonded to only one carbon atom, so this is a primary amine. The branching of that carbon does not matter.
-        "3": "",
+        "3": "질소 원자가 탄소 원자 1개와만 결합해 있으므로 1차 아민이에요. 그 탄소에 가지가 있는지는 상관없어요.",
       },
     },
 
     // ── s3-2-q043 · mcq · exam · SL · Structure 3.2.6 · 1 mark
     "s3-2-q043": {
       // EN: <p>Two halogenoalkanes are X, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CHBrCH<sub>3</sub></span>, and Y, <span class="chem">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>Br</span>. Which row classifies them correctly?</p>
-      stem: "",
+      stem: "<p>두 할로젠화 알케인 X <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CHBrCH<sub>3</sub></span>와 Y <span class=\"chem\">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>Br</span>가 있어요. 둘을 바르게 분류한 것은 어느 것인가요?</p>",
       options: [
         // EN: X is primary. Y is secondary.
-        "",
+        "X는 1차, Y는 2차이다.",
         // EN: X is secondary. Y is primary.
-        "",
+        "X는 2차, Y는 1차이다.",
         // EN: X is secondary. Y is secondary.
-        "",
+        "X는 2차, Y는 2차이다.",
         // EN: X is secondary. Y is tertiary.
-        "",
+        "X는 2차, Y는 3차이다.",
       ],
       hints: [
         // EN: Find the carbon atom bonded to Br in each molecule.
-        "",
+        "각 분자에서 Br과 결합한 탄소 원자를 찾아요.",
         // EN: Count the other carbon atoms bonded directly to that carbon.
-        "",
+        "그 탄소에 직접 결합한 다른 탄소 원자를 세어요.",
       ],
       // EN: <p>X: the C–Br carbon is bonded to two other carbon atoms (<span class="chem">CH<sub>2</sub></span> and <span class="chem">CH<sub>3</sub></span>). X is <strong>secondary</strong>. It is 2-bromobutane.</p><p>Y: the C–Br carbon is <span class="chem">CH<sub>2</sub>Br</span>, bonded to one other carbon atom. Y is <strong>primary</strong>. It is 1-bromo-2-methylpropane.</p>
-      solution: "",
+      solution: "<p>X: C–Br 탄소는 다른 탄소 원자 2개(<span class=\"chem\">CH<sub>2</sub></span>와 <span class=\"chem\">CH<sub>3</sub></span>)와 결합해 있어요. X는 <strong>2차</strong>예요. 2-bromobutane이에요.</p><p>Y: C–Br 탄소는 <span class=\"chem\">CH<sub>2</sub>Br</span>이고, 다른 탄소 원자 1개와 결합해 있어요. Y는 <strong>1차</strong>예요. 1-bromo-2-methylpropane이에요.</p>",
       misconception: {
         // EN (option A): The two answers are the wrong way round. Count the carbon atoms on the carbon that holds the Br.
-        "0": "",
+        "0": "두 답이 서로 바뀌었어요. Br이 붙은 탄소에 연결된 탄소 원자를 세어요.",
         // EN (option C): In Y the branch is on the carbon next to the C–Br carbon. The C–Br carbon itself is <span class="chem">CH<sub>2</sub></span>, joined to only one carbon atom.
-        "2": "",
+        "2": "Y에서 가지는 C–Br 탄소 옆 탄소에 있어요. C–Br 탄소 자체는 <span class=\"chem\">CH<sub>2</sub></span>이고, 탄소 원자 1개와만 연결되어 있어요.",
         // EN (option D): In Y the carbon with three carbon neighbours is the CH, but the Br is on the <span class="chem">CH<sub>2</sub></span> carbon next to it.
-        "3": "",
+        "3": "Y에서 이웃 탄소가 3개인 탄소는 CH이지만, Br은 그 옆의 <span class=\"chem\">CH<sub>2</sub></span> 탄소에 있어요.",
       },
     },
 
     // ── s3-2-q044 · numeric · exam · SL · Structure 3.2.6 · 1 mark
     "s3-2-q044": {
       // EN: <p>How many structural isomers have the molecular formula <span class="chem">C<sub>4</sub>H<sub>9</sub>Br</span>?</p>
-      stem: "",
+      stem: "<p>분자식이 <span class=\"chem\">C<sub>4</sub>H<sub>9</sub>Br</span>인 구조 이성질체는 몇 가지인가요?</p>",
       hints: [
         // EN: There are two possible carbon chains for four carbon atoms: unbranched, and branched.
-        "",
+        "탄소 원자 4개로 만들 수 있는 탄소 사슬은 두 가지예요. 가지 없는 사슬과 가지 달린 사슬이에요.",
         // EN: For each chain, put the Br on each different carbon atom in turn.
-        "",
+        "각 사슬에서 Br을 서로 다른 탄소 원자에 차례로 붙여 봐요.",
         // EN: Carbon atoms that are equivalent (for example the two ends of butane) give the same molecule.
-        "",
+        "동등한 탄소 원자(예: butane의 양쪽 끝)에 붙이면 같은 분자가 돼요.",
       ],
       // EN: <p>Unbranched chain (butane): Br on carbon 1 or on carbon 2.</p><p>Branched chain (methylpropane): Br on a <span class="chem">CH<sub>3</sub></span> carbon or on the central carbon.</p><ul><li>1-bromobutane, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>Br</span> (primary)</li><li>2-bromobutane, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CHBrCH<sub>3</sub></span> (secondary)</li><li>1-bromo-2-methylpropane, <span class="chem">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>Br</span> (primary)</li><li>2-bromo-2-methylpropane, <span class="chem">(CH<sub>3</sub>)<sub>3</sub>CBr</span> (tertiary)</li></ul><p>There are <strong>4</strong> structural isomers.</p>
-      solution: "",
+      solution: "<p>가지 없는 사슬(butane): Br이 1번 탄소 또는 2번 탄소에 있어요.</p><p>가지 달린 사슬(methylpropane): Br이 <span class=\"chem\">CH<sub>3</sub></span> 탄소 또는 가운데 탄소에 있어요.</p><ul><li>1-bromobutane, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>Br</span> (1차)</li><li>2-bromobutane, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CHBrCH<sub>3</sub></span> (2차)</li><li>1-bromo-2-methylpropane, <span class=\"chem\">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>Br</span> (1차)</li><li>2-bromo-2-methylpropane, <span class=\"chem\">(CH<sub>3</sub>)<sub>3</sub>CBr</span> (3차)</li></ul><p>구조 이성질체는 <strong>4</strong>가지예요.</p>",
       // EN: isomers
-      unit: "",
+      unit: "가지 (이성질체)",
     },
 
     // ── s3-2-q045 · mcq · exam · SL · Structure 3.2.6 · 1 mark
     "s3-2-q045": {
       // EN: <p>The skeletal formula of compound X is shown.</p><p data-i18n="off"><svg class="mol mol--skeletal" viewBox="-4 -43 99 47" width="99" height="47" role="img" aria-label="Skeletal formula. Line notation: CC(C)CCC" data-g="S:C.C.C.C.C.C;0-1,1-2,1-3,3-4,4-5" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L22.5 -39"/><path d="M22.5 -13L45 0"/><path d="M45 0L67.5 -13"/><path d="M67.5 -13L90.1 0"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"></g></svg></p><p>Three of the drawings below are structural isomers of X. Which drawing shows <strong>X itself</strong>, drawn in a different way?</p>
-      stem: "",
+      stem: "<p>화합물 X의 골격 구조식이 있어요.</p><p data-i18n=\"off\"><svg class=\"mol mol--skeletal\" viewBox=\"-4 -43 99 47\" width=\"99\" height=\"47\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC(C)CCC\" data-g=\"S:C.C.C.C.C.C;0-1,1-2,1-3,3-4,4-5\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L22.5 -39\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M67.5 -13L90.1 0\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"></g></svg></p><p>아래 그림 중 3개는 X의 구조 이성질체예요. 다르게 그렸을 뿐인 <strong>X 자신</strong>은 어느 그림인가요?</p>",
       options: [
         // EN: <svg class="mol mol--skeletal" viewBox="-4 -17 99 47" width="99" height="47" role="img" aria-label="Skeletal formula. Line notation: CCC(C)CC" data-g="S:C.C.C.C.C.C;0-1,1-2,2-3,2-4,4-5" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M22.5 -13L45 0"/><path d="M45 0L45 26"/><path d="M45 0L67.5 -13"/><path d="M67.5 -13L90.1 0"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"></g></svg>
         "<svg class=\"mol mol--skeletal\" viewBox=\"-4 -17 99 47\" width=\"99\" height=\"47\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CCC(C)CC\" data-g=\"S:C.C.C.C.C.C;0-1,1-2,2-3,2-4,4-5\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L45 26\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M67.5 -13L90.1 0\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"></g></svg>",
@@ -1258,74 +1258,74 @@ S1.i18n.register('ko', 's3-2.q', {
       ],
       hints: [
         // EN: Turning a drawing over, or drawing it from the other end, does not make a new molecule.
-        "",
+        "그림을 뒤집거나 반대쪽 끝에서부터 그려도 새로운 분자가 되지 않아요.",
         // EN: Name each drawing: find the longest chain, then the position of each branch. Two drawings with the same name are the same compound.
-        "",
+        "각 그림에 이름을 붙여 봐요. 가장 긴 사슬을 찾고, 각 가지의 위치를 찾아요. 이름이 같은 두 그림은 같은 화합물이에요.",
       ],
       // EN: <p>Name X: the longest chain has 5 carbon atoms, and there is one methyl branch on carbon 2. X is 2-methylpentane.</p><p>The correct drawing also has a five-carbon chain with one methyl branch on the second carbon from one end. It is X, turned over and drawn from the other end.</p><p>The other three are 3-methylpentane, 2,2-dimethylbutane and 2,3-dimethylbutane. All are <span class="chem">C<sub>6</sub>H<sub>14</sub></span>, so they are chain isomers of X.</p>
-      solution: "",
+      solution: "<p>X의 이름: 가장 긴 사슬에 탄소 원자가 5개 있고, 2번 탄소에 메틸 가지가 1개 있어요. X는 2-methylpentane이에요.</p><p>맞는 그림도 탄소 5개짜리 사슬이 있고, 한쪽 끝에서 두 번째 탄소에 메틸 가지가 1개 있어요. X를 뒤집어서 반대쪽 끝에서부터 그린 거예요.</p><p>나머지 셋은 3-methylpentane, 2,2-dimethylbutane, 2,3-dimethylbutane이에요. 모두 <span class=\"chem\">C<sub>6</sub>H<sub>14</sub></span>이므로 X의 사슬 이성질체예요.</p>",
       misconception: {
         // EN (option A): Here the branch is on the middle carbon of a five-carbon chain (3-methylpentane). In X the branch is on the second carbon.
-        "0": "",
+        "0": "여기서는 가지가 탄소 5개짜리 사슬의 가운데 탄소에 있어요(3-methylpentane). X에서는 가지가 두 번째 탄소에 있어요.",
         // EN (option B): This molecule has two branches on the same carbon and a longest chain of four (2,2-dimethylbutane). X has one branch and a longest chain of five.
-        "1": "",
+        "1": "이 분자는 같은 탄소에 가지가 2개 있고, 가장 긴 사슬은 탄소 4개예요(2,2-dimethylbutane). X는 가지가 1개이고 가장 긴 사슬은 탄소 5개예요.",
         // EN (option D): This molecule has two branches on neighbouring carbon atoms and a longest chain of four (2,3-dimethylbutane). X has one branch.
-        "3": "",
+        "3": "이 분자는 이웃한 탄소 원자에 가지가 하나씩 2개 있고, 가장 긴 사슬은 탄소 4개예요(2,3-dimethylbutane). X는 가지가 1개예요.",
       },
     },
 
     // ── s3-2-q046 · mcq · exam · SL · Structure 3.2.6 · 1 mark
     "s3-2-q046": {
       // EN: <p>Which pair of compounds are <strong>functional group isomers</strong>?</p>
-      stem: "",
+      stem: "<p><strong>작용기 이성질체</strong>인 화합물 쌍은 어느 것인가요?</p>",
       options: [
         // EN: Propan-1-ol, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>, and propan-2-ol, <span class="chem">CH<sub>3</sub>CH(OH)CH<sub>3</sub></span>
-        "",
+        "Propan-1-ol <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>와 propan-2-ol <span class=\"chem\">CH<sub>3</sub>CH(OH)CH<sub>3</sub></span>",
         // EN: Butane, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>, and methylpropane, <span class="chem">(CH<sub>3</sub>)<sub>3</sub>CH</span>
-        "",
+        "Butane <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>과 methylpropane <span class=\"chem\">(CH<sub>3</sub>)<sub>3</sub>CH</span>",
         // EN: Propanal, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CHO</span>, and propanone, <span class="chem">CH<sub>3</sub>COCH<sub>3</sub></span>
-        "",
+        "Propanal <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CHO</span>과 propanone <span class=\"chem\">CH<sub>3</sub>COCH<sub>3</sub></span>",
         // EN: Ethanol, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>OH</span>, and propan-1-ol, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>
-        "",
+        "Ethanol <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>OH</span>과 propan-1-ol <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>",
       ],
       hints: [
         // EN: Functional group isomers have the same molecular formula but belong to different classes of compound.
-        "",
+        "작용기 이성질체는 분자식은 같지만 서로 다른 화합물 종류에 속해요.",
       ],
       // EN: <p>Propanal and propanone are both <span class="chem">C<sub>3</sub>H<sub>6</sub>O</span>. Propanal is an aldehyde and propanone is a ketone, so they belong to different classes.</p><p>They are <strong>functional group isomers</strong>. (Both contain a carbonyl group, but its place in the chain puts them in different homologous series.)</p>
-      solution: "",
+      solution: "<p>Propanal과 propanone은 둘 다 <span class=\"chem\">C<sub>3</sub>H<sub>6</sub>O</span>예요. Propanal은 알데하이드이고 propanone은 케톤이므로, 서로 다른 종류에 속해요.</p><p>둘은 <strong>작용기 이성질체</strong>예요. (둘 다 카보닐기가 있지만, 사슬에서 그 위치가 달라 서로 다른 동족 계열에 속해요.)</p>",
       misconception: {
         // EN (option A): Both are alcohols. Only the position of the hydroxyl group differs, so these are position isomers.
-        "0": "",
+        "0": "둘 다 알코올이에요. 하이드록시기의 위치만 다르므로 위치 이성질체예요.",
         // EN (option B): Both are alkanes. Only the branching of the carbon chain differs, so these are chain isomers.
-        "1": "",
+        "1": "둘 다 알케인이에요. 탄소 사슬의 가지 모양만 다르므로 사슬 이성질체예요.",
         // EN (option D): These have different molecular formulas (<span class="chem">C<sub>2</sub>H<sub>6</sub>O</span> and <span class="chem">C<sub>3</sub>H<sub>8</sub>O</span>), so they are not isomers. They are members of the same homologous series.
-        "3": "",
+        "3": "분자식이 서로 다르므로(<span class=\"chem\">C<sub>2</sub>H<sub>6</sub>O</span>와 <span class=\"chem\">C<sub>3</sub>H<sub>8</sub>O</span>) 이성질체가 아니에요. 같은 동족 계열에 속하는 화합물이에요.",
       },
     },
 
     // ── s3-2-q047 · numeric · challenge · SL · Structure 3.2.6 · 1 mark
     "s3-2-q047": {
       // EN: <p>How many structural isomers have the molecular formula <span class="chem">C<sub>4</sub>H<sub>10</sub>O</span>? Include isomers from every class of compound.</p>
-      stem: "",
+      stem: "<p>분자식이 <span class=\"chem\">C<sub>4</sub>H<sub>10</sub>O</span>인 구조 이성질체는 몇 가지인가요? 모든 화합물 종류의 이성질체를 포함해요.</p>",
       hints: [
         // EN: The formula fits <span class="chem">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>O</span>, so there are no double bonds and no rings. Which two classes fit?
-        "",
+        "이 분자식은 <span class=\"chem\">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>O</span>에 맞으므로 이중 결합도 고리도 없어요. 어느 두 종류가 맞나요?",
         // EN: Alcohols: use both four-carbon chains, and put OH on each different carbon.
-        "",
+        "알코올: 탄소 4개짜리 사슬 두 가지를 모두 쓰고, OH를 서로 다른 탄소에 하나씩 붙여 봐요.",
         // EN: Ethers: put the O atom between two carbon groups. The groups can be 1 + 3 carbon atoms or 2 + 2.
-        "",
+        "에테르: O 원자를 두 탄소 기 사이에 넣어요. 탄소 기는 탄소 원자 1 + 3개 또는 2 + 2개가 될 수 있어요.",
       ],
       // EN: <p>The oxygen atom can be in a hydroxyl group (alcohols) or between two carbon atoms (ethers).</p><p><strong>Alcohols (4)</strong></p><ul><li>butan-1-ol, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span></li><li>butan-2-ol, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH(OH)CH<sub>3</sub></span></li><li>2-methylpropan-1-ol, <span class="chem">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>OH</span></li><li>2-methylpropan-2-ol, <span class="chem">(CH<sub>3</sub>)<sub>3</sub>COH</span></li></ul><p><strong>Ethers (3)</strong></p><ul><li><span class="chem">CH<sub>3</sub>OCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span></li><li><span class="chem">CH<sub>3</sub>OCH(CH<sub>3</sub>)<sub>2</sub></span></li><li><span class="chem">CH<sub>3</sub>CH<sub>2</sub>OCH<sub>2</sub>CH<sub>3</sub></span></li></ul><div class="worked__math">4 + 3 = 7 structural isomers</div><p>You do not need to name the ethers.</p>
-      solution: "",
+      solution: "<p>산소 원자는 하이드록시기 안에 있을 수도 있고(알코올), 두 탄소 원자 사이에 있을 수도 있어요(에테르).</p><p><strong>알코올 (4)</strong></p><ul><li>butan-1-ol, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span></li><li>butan-2-ol, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH(OH)CH<sub>3</sub></span></li><li>2-methylpropan-1-ol, <span class=\"chem\">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>OH</span></li><li>2-methylpropan-2-ol, <span class=\"chem\">(CH<sub>3</sub>)<sub>3</sub>COH</span></li></ul><p><strong>에테르 (3)</strong></p><ul><li><span class=\"chem\">CH<sub>3</sub>OCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span></li><li><span class=\"chem\">CH<sub>3</sub>OCH(CH<sub>3</sub>)<sub>2</sub></span></li><li><span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>OCH<sub>2</sub>CH<sub>3</sub></span></li></ul><div class=\"worked__math\">구조 이성질체 4 + 3 = 7가지</div><p>에테르의 이름은 붙이지 않아도 돼요.</p>",
       // EN: isomers
-      unit: "",
+      unit: "가지 (이성질체)",
     },
 
     // ── s3-2-q048 · multi · challenge · SL · Structure 3.2.6 · 1 mark
     "s3-2-q048": {
       // EN: <p>Which compounds are <strong>functional group isomers</strong> of propanoic acid, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>COOH</span>? Select <strong>all</strong> that apply.</p>
-      stem: "",
+      stem: "<p>Propanoic acid <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>COOH</span>의 <strong>작용기 이성질체</strong>는 어느 것인가요? 해당하는 것을 <strong>모두</strong> 고르세요.</p>",
       options: [
         // EN: <span class="chem">CH<sub>3</sub>COOCH<sub>3</sub></span>
         "<span class=\"chem\">CH<sub>3</sub>COOCH<sub>3</sub></span>",
@@ -1340,71 +1340,71 @@ S1.i18n.register('ko', 's3-2.q', {
       ],
       hints: [
         // EN: Work out the molecular formula of propanoic acid first. An isomer must match it exactly.
-        "",
+        "먼저 propanoic acid의 분자식을 구해요. 이성질체는 분자식이 정확히 같아야 해요.",
         // EN: Then check the functional group: it must be different from carboxyl.
-        "",
+        "그다음 작용기를 확인해요. 카복실기와 달라야 해요.",
       ],
       // EN: <p>Propanoic acid is <span class="chem">C<sub>3</sub>H<sub>6</sub>O<sub>2</sub></span> and its functional group is carboxyl.</p><ul><li><span class="chem">CH<sub>3</sub>COOCH<sub>3</sub></span> is <span class="chem">C<sub>3</sub>H<sub>6</sub>O<sub>2</sub></span> with an ester group: a functional group isomer.</li><li><span class="chem">HCOOCH<sub>2</sub>CH<sub>3</sub></span> is <span class="chem">C<sub>3</sub>H<sub>6</sub>O<sub>2</sub></span> with an ester group: a functional group isomer.</li><li><span class="chem">CH<sub>3</sub>COCH<sub>2</sub>OH</span> is <span class="chem">C<sub>3</sub>H<sub>6</sub>O<sub>2</sub></span> with a carbonyl group and a hydroxyl group: a functional group isomer.</li><li><span class="chem">HOOCCH<sub>2</sub>CH<sub>3</sub></span> is propanoic acid.</li><li><span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COOH</span> is <span class="chem">C<sub>4</sub>H<sub>8</sub>O<sub>2</sub></span>, a different molecular formula.</li></ul>
-      solution: "",
+      solution: "<p>Propanoic acid는 <span class=\"chem\">C<sub>3</sub>H<sub>6</sub>O<sub>2</sub></span>이고 작용기는 카복실기예요.</p><ul><li><span class=\"chem\">CH<sub>3</sub>COOCH<sub>3</sub></span>는 에스터기가 있는 <span class=\"chem\">C<sub>3</sub>H<sub>6</sub>O<sub>2</sub></span>예요: 작용기 이성질체.</li><li><span class=\"chem\">HCOOCH<sub>2</sub>CH<sub>3</sub></span>는 에스터기가 있는 <span class=\"chem\">C<sub>3</sub>H<sub>6</sub>O<sub>2</sub></span>예요: 작용기 이성질체.</li><li><span class=\"chem\">CH<sub>3</sub>COCH<sub>2</sub>OH</span>는 카보닐기와 하이드록시기가 있는 <span class=\"chem\">C<sub>3</sub>H<sub>6</sub>O<sub>2</sub></span>예요: 작용기 이성질체.</li><li><span class=\"chem\">HOOCCH<sub>2</sub>CH<sub>3</sub></span>는 propanoic acid 자신이에요.</li><li><span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COOH</span>는 <span class=\"chem\">C<sub>4</sub>H<sub>8</sub>O<sub>2</sub></span>로, 분자식이 달라요.</li></ul>",
       misconception: {
         // EN (option B): This is propanoic acid itself, written from the other end. Writing a formula backwards does not make a new compound.
-        "1": "",
+        "1": "이것은 propanoic acid 자신을 반대쪽 끝에서부터 쓴 거예요. 화학식을 거꾸로 써도 새로운 화합물이 되지 않아요.",
         // EN (option D): This has four carbon atoms, so its molecular formula is <span class="chem">C<sub>4</sub>H<sub>8</sub>O<sub>2</sub></span>. It is the next member of the same homologous series, not an isomer.
-        "3": "",
+        "3": "이것은 탄소 원자가 4개이므로 분자식이 <span class=\"chem\">C<sub>4</sub>H<sub>8</sub>O<sub>2</sub></span>예요. 같은 동족 계열의 다음 화합물이지 이성질체가 아니에요.",
       },
     },
 
     // ── s3-2-q049 · short · challenge · SL · Structure 3.2.6 · 3 marks
     "s3-2-q049": {
       // EN: <p>Pentan-2-one is <span class="chem">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>. State the IUPAC name of:</p><p>(a) a position isomer of pentan-2-one;</p><p>(b) a chain isomer of pentan-2-one that is also a ketone;</p><p>(c) a functional group isomer of pentan-2-one.</p>
-      stem: "",
+      stem: "<p>Pentan-2-one은 <span class=\"chem\">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>이에요. 다음의 IUPAC 이름을 쓰시오 (state).</p><p>(a) pentan-2-one의 위치 이성질체</p><p>(b) pentan-2-one의 사슬 이성질체 중 케톤인 것</p><p>(c) pentan-2-one의 작용기 이성질체</p>",
       hints: [
         // EN: Every answer must have the molecular formula <span class="chem">C<sub>5</sub>H<sub>10</sub>O</span>.
-        "",
+        "모든 답은 분자식이 <span class=\"chem\">C<sub>5</sub>H<sub>10</sub>O</span>여야 해요.",
         // EN: Position isomer: move the C=O along the same chain. Chain isomer: change the branching of the carbon chain.
-        "",
+        "위치 이성질체: 같은 사슬에서 C=O의 위치를 옮겨요. 사슬 이성질체: 탄소 사슬의 가지 모양을 바꿔요.",
         // EN: Which other class has the general formula <span class="chem">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O</span>?
-        "",
+        "일반식이 <span class=\"chem\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O</span>인 다른 종류는 무엇인가요?",
       ],
       // EN: <p>Pentan-2-one is <span class="chem">C<sub>5</sub>H<sub>10</sub>O</span>.</p><p>(a) <strong>Pentan-3-one</strong>, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub></span>. The chain is the same, and the C=O has moved to carbon 3.</p><p>(b) <strong>3-methylbutan-2-one</strong>, <span class="chem">CH<sub>3</sub>COCH(CH<sub>3</sub>)<sub>2</sub></span>. The carbon chain is now branched.</p><p>(c) <strong>Pentanal</strong>, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CHO</span>, or another aldehyde with the formula <span class="chem">C<sub>5</sub>H<sub>10</sub>O</span>. An aldehyde is in a different class from a ketone.</p>
-      answer: "",
+      answer: "<p>Pentan-2-one은 <span class=\"chem\">C<sub>5</sub>H<sub>10</sub>O</span>예요.</p><p>(a) <strong>Pentan-3-one</strong>, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub></span>. 사슬은 같고, C=O가 3번 탄소로 옮겨졌어요.</p><p>(b) <strong>3-methylbutan-2-one</strong>, <span class=\"chem\">CH<sub>3</sub>COCH(CH<sub>3</sub>)<sub>2</sub></span>. 탄소 사슬에 가지가 생겼어요.</p><p>(c) <strong>Pentanal</strong>, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CHO</span>, 또는 분자식이 <span class=\"chem\">C<sub>5</sub>H<sub>10</sub>O</span>인 다른 알데하이드. 알데하이드는 케톤과 다른 종류예요.</p>",
       markscheme: [
         // EN: (a) Pentan-3-one.
-        "",
+        "(a) Pentan-3-one.",
         // EN: (b) 3-methylbutan-2-one (accept 3-methylbutanone).
-        "",
+        "(b) 3-methylbutan-2-one (3-methylbutanone도 인정).",
         // EN: (c) Pentanal (accept 2-methylbutanal, 3-methylbutanal or 2,2-dimethylpropanal; accept any other correctly named compound with the formula <span class="chem">C<sub>5</sub>H<sub>10</sub>O</span> that is not a ketone).
-        "",
+        "(c) Pentanal (2-methylbutanal, 3-methylbutanal, 2,2-dimethylpropanal도 인정. 분자식이 <span class=\"chem\">C<sub>5</sub>H<sub>10</sub>O</span>이고 케톤이 아니며 이름을 바르게 붙인 다른 화합물도 인정).",
       ],
     },
 
     // ── s3-2-q050 · mcq · foundation · SL · Structure 3.2.1 · 1 mark
     "s3-2-q050": {
       // EN: <p>A drawing of a molecule shows one bond as a solid wedge and one bond as a dashed wedge. The other bonds are plain lines. Which type of formula is this?</p>
-      stem: "",
+      stem: "<p>어떤 분자 그림에서 결합 하나는 채워진 쐐기로, 결합 하나는 점선 쐐기로 그려져 있어요. 나머지 결합은 보통 선이에요. 이것은 어떤 종류의 구조식인가요?</p>",
       options: [
         // EN: Skeletal formula
-        "",
+        "골격 구조식",
         // EN: Stereochemical formula
-        "",
+        "입체 구조식",
         // EN: Condensed structural formula
-        "",
+        "축약 구조식",
         // EN: Empirical formula
-        "",
+        "실험식",
       ],
       hints: [
         // EN: Wedges are used to show three dimensions on flat paper.
-        "",
+        "쐐기는 평평한 종이 위에 3차원을 나타내는 데 써요.",
       ],
       // EN: <p>This is a <strong>stereochemical formula</strong>. It shows the 3-D arrangement of the bonds around an atom.</p><p>A solid wedge is a bond that comes towards you. A dashed wedge is a bond that goes away from you. Plain lines are bonds in the plane of the page.</p><p>At this level you need to recognize this type of formula. You do not have to draw it unless the question tells you to.</p>
-      solution: "",
+      solution: "<p>이것은 <strong>입체 구조식 (stereochemical formula)</strong>이에요. 원자 주위 결합들의 3차원 배치를 보여 줘요.</p><p>채워진 쐐기는 나를 향해 튀어나오는 결합이에요. 점선 쐐기는 나에게서 멀어지는 결합이에요. 보통 선은 종이 평면 위에 있는 결합이에요.</p><p>이 단계에서는 이런 종류의 구조식을 알아볼 수 있으면 돼요. 문제에서 그리라고 하지 않으면 그릴 필요는 없어요.</p>",
       misconception: {
         // EN (option A): A skeletal formula uses plain lines only. It shows the carbon chain as a zig-zag and does not show which bonds point towards you or away from you.
-        "0": "",
+        "0": "골격 구조식은 보통 선만 써요. 탄소 사슬을 지그재그로 나타내고, 어느 결합이 나를 향하는지 멀어지는지는 보여 주지 않아요.",
         // EN (option C): A condensed structural formula is written on one line, such as <span class="chem">CH<sub>3</sub>CH<sub>2</sub>OH</span>. It has no wedges.
-        "2": "",
+        "2": "축약 구조식은 <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>OH</span>처럼 한 줄로 써요. 쐐기가 없어요.",
         // EN (option D): An empirical formula gives only the simplest whole-number ratio of the atoms. It is not a drawing.
-        "3": "",
+        "3": "실험식은 원자들의 가장 간단한 정수 비만 나타내요. 그림이 아니에요.",
       },
     },
 
