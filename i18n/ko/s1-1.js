@@ -6,285 +6,285 @@ S1.i18n.register('ko', 's1-1', {
   strings: {
 
     // page title (browser tab)
-    "1.1 Particulate nature of matter | Structure Lab": "",
+    "1.1 Particulate nature of matter | Structure Lab": "1.1 물질의 입자성 | Structure Lab",
 
     // Introduction to the particulate nature of matter > page header > p
-    "Structure 1.1": "",
+    "Structure 1.1": "Structure 1.1",
 
     // Introduction to the particulate nature of matter > page header > h1
-    "Introduction to the particulate nature of matter": "",
+    "Introduction to the particulate nature of matter": "물질의 입자성 입문",
 
     // Introduction to the particulate nature of matter > page header > span
-    "How can we model the particulate nature of matter?": "",
+    "How can we model the particulate nature of matter?": "물질의 입자성을 어떻게 모형으로 나타낼 수 있을까요?",
 
     // What you need to be able to do > h2
-    "What you need to be able to do": "",
+    "What you need to be able to do": "할 수 있어야 하는 것",
 
     // What you need to be able to do > p
-    "Tick each one when you can do it without looking at your notes. Everything in this topic is SL core. There is no Additional HL content in 1.1.": "",
+    "Tick each one when you can do it without looking at your notes. Everything in this topic is SL core. There is no Additional HL content in 1.1.": "노트를 보지 않고 할 수 있게 되면 하나씩 체크하세요. 이 단원의 내용은 모두 SL 핵심 내용이에요. 1.1에는 HL 추가 내용(AHL)이 없어요.",
 
     // What you need to be able to do > checklist > span
-    "Tell apart elements, compounds and mixtures from their properties.": "",
+    "Tell apart elements, compounds and mixtures from their properties.": "성질을 보고 원소, 화합물, 혼합물을 구별해요.",
 
     // What you need to be able to do > checklist > span
-    "Say whether a mixture is homogeneous or heterogeneous, and why.": "",
+    "Say whether a mixture is homogeneous or heterogeneous, and why.": "혼합물이 균일 혼합물인지 불균일 혼합물인지 말하고, 그 이유를 설명해요.",
 
     // What you need to be able to do > checklist > span
-    "Choose a suitable method to separate a mixture: solvation, filtration, recrystallization, evaporation, distillation or paper chromatography.": "",
+    "Choose a suitable method to separate a mixture: solvation, filtration, recrystallization, evaporation, distillation or paper chromatography.": "혼합물을 분리하는 알맞은 방법을 골라요: 용매화, 거름, 재결정, 증발, 증류, 종이 크로마토그래피.",
 
     // What you need to be able to do > checklist > span
-    "Use the kinetic molecular theory to describe and explain the properties of solids, liquids and gases.": "",
+    "Use the kinetic molecular theory to describe and explain the properties of solids, liquids and gases.": "분자 운동론으로 고체, 액체, 기체의 성질을 서술하고 설명해요.",
 
     // What you need to be able to do > checklist > span
-    "Name the six changes of state and say whether each one absorbs or releases energy.": "",
+    "Name the six changes of state and say whether each one absorbs or releases energy.": "6가지 상태 변화의 이름을 말하고, 각각 에너지를 흡수하는지 방출하는지 말해요.",
 
     // What you need to be able to do > checklist > span
-    "Use the state symbols (s), (l), (g) and (aq) in chemical equations.": "",
+    "Use the state symbols (s), (l), (g) and (aq) in chemical equations.": "화학 반응식에 상태 기호 (s), (l), (g), (aq)를 써요.",
 
     // What you need to be able to do > checklist > span
-    "Interpret what happens to temperature and to the particles during a change of state, for example on a heating curve.": "",
+    "Interpret what happens to temperature and to the particles during a change of state, for example on a heating curve.": "상태 변화가 일어나는 동안 온도와 입자에 어떤 일이 일어나는지 해석해요. 예를 들어 가열 곡선에서요.",
 
     // What you need to be able to do > checklist > span
-    "Convert between degrees Celsius and kelvin, and link temperature in kelvin to the average kinetic energy of the particles.": "",
+    "Convert between degrees Celsius and kelvin, and link temperature in kelvin to the average kinetic energy of the particles.": "섭씨온도와 켈빈 온도를 서로 바꾸고, 켈빈 온도를 입자의 평균 운동 에너지와 연결해요.",
 
     // Elements, compounds and mixtures > h2
-    "Elements, compounds and mixtures": "",
+    "Elements, compounds and mixtures": "원소, 화합물, 혼합물",
 
     // Elements, compounds and mixtures > p
-    "Think about a glass of sea water. You can get salt out of it by leaving it in the sun. You cannot get hydrogen out of the water that way. The salt and the water are only mixed. The hydrogen and oxygen in the water are chemically bonded. That difference is what this section is about.": "",
+    "Think about a glass of sea water. You can get salt out of it by leaving it in the sun. You cannot get hydrogen out of the water that way. The salt and the water are only mixed. The hydrogen and oxygen in the water are chemically bonded. That difference is what this section is about.": "바닷물 한 컵을 생각해 봐요. 햇볕에 놓아두면 바닷물에서 소금을 얻을 수 있어요. 하지만 그런 방법으로 물에서 수소를 얻을 수는 없어요. 소금과 물은 섞여 있을 뿐이에요. 물속의 수소와 산소는 화학적으로 결합해 있어요. 이 절은 바로 그 차이에 대한 내용이에요.",
 
     // Elements, compounds and mixtures > p
-    "An <dfn data-def=\"A substance that cannot be chemically broken down into simpler substances. It contains only one type of atom.\">element</dfn> is a substance that cannot be chemically broken down into simpler substances. It contains only one type of atom. Examples: copper, <span class=\"chem\">O2</span>, diamond.": "",
+    "An <dfn data-def=\"A substance that cannot be chemically broken down into simpler substances. It contains only one type of atom.\">element</dfn> is a substance that cannot be chemically broken down into simpler substances. It contains only one type of atom. Examples: copper, <span class=\"chem\">O2</span>, diamond.": "<dfn data-def=\"화학적으로 더 간단한 물질로 분해할 수 없는 물질. 한 종류의 원자만 들어 있어요.\">원소 <span class=\"en-term\">(element)</span></dfn>는 화학적으로 더 간단한 물질로 분해할 수 없는 물질이에요. 한 종류의 원자만 들어 있어요. 예: 구리, <span class=\"chem\">O2</span>, 다이아몬드.",
 
     // Elements, compounds and mixtures > data-def attribute
-    "A substance that cannot be chemically broken down into simpler substances. It contains only one type of atom.": "",
+    "A substance that cannot be chemically broken down into simpler substances. It contains only one type of atom.": "화학적으로 더 간단한 물질로 분해할 수 없는 물질. 한 종류의 원자만 들어 있어요.",
 
     // Elements, compounds and mixtures > p
-    "A <dfn data-def=\"A substance made of atoms of two or more different elements, chemically bonded together in a fixed ratio.\">compound</dfn> is made of atoms of different elements, chemically bonded together in a fixed ratio. Examples: <span class=\"chem\">H2O</span>, <span class=\"chem\">NaCl</span>, <span class=\"chem\">CO2</span>.": "",
+    "A <dfn data-def=\"A substance made of atoms of two or more different elements, chemically bonded together in a fixed ratio.\">compound</dfn> is made of atoms of different elements, chemically bonded together in a fixed ratio. Examples: <span class=\"chem\">H2O</span>, <span class=\"chem\">NaCl</span>, <span class=\"chem\">CO2</span>.": "<dfn data-def=\"2가지 이상의 서로 다른 원소의 원자가 일정한 비율로 화학적으로 결합한 물질.\">화합물 <span class=\"en-term\">(compound)</span></dfn>은 서로 다른 원소의 원자가 일정한 비율로 화학적으로 결합해 만들어진 물질이에요. 예: <span class=\"chem\">H2O</span>, <span class=\"chem\">NaCl</span>, <span class=\"chem\">CO2</span>.",
 
     // Elements, compounds and mixtures > data-def attribute
-    "A substance made of atoms of two or more different elements, chemically bonded together in a fixed ratio.": "",
+    "A substance made of atoms of two or more different elements, chemically bonded together in a fixed ratio.": "2가지 이상의 서로 다른 원소의 원자가 일정한 비율로 화학적으로 결합한 물질.",
 
     // Elements, compounds and mixtures > p
-    "A <dfn data-def=\"More than one element or compound, in no fixed ratio, not chemically bonded to each other. It can be separated by physical methods.\">mixture</dfn> contains more than one element or compound, in no fixed ratio. The parts are not chemically bonded to each other, so they can be separated by physical methods. Examples: air, sea water.": "",
+    "A <dfn data-def=\"More than one element or compound, in no fixed ratio, not chemically bonded to each other. It can be separated by physical methods.\">mixture</dfn> contains more than one element or compound, in no fixed ratio. The parts are not chemically bonded to each other, so they can be separated by physical methods. Examples: air, sea water.": "<dfn data-def=\"2가지 이상의 원소나 화합물이 일정한 비율 없이, 서로 화학적으로 결합하지 않은 채 섞여 있는 것. 물리적 방법으로 분리할 수 있어요.\">혼합물 <span class=\"en-term\">(mixture)</span></dfn>에는 2가지 이상의 원소나 화합물이 일정한 비율 없이 들어 있어요. 각 성분은 서로 화학적으로 결합하지 않았기 때문에 물리적 방법으로 분리할 수 있어요. 예: 공기, 바닷물.",
 
     // Elements, compounds and mixtures > data-def attribute
-    "More than one element or compound, in no fixed ratio, not chemically bonded to each other. It can be separated by physical methods.": "",
+    "More than one element or compound, in no fixed ratio, not chemically bonded to each other. It can be separated by physical methods.": "2가지 이상의 원소나 화합물이 일정한 비율 없이, 서로 화학적으로 결합하지 않은 채 섞여 있는 것. 물리적 방법으로 분리할 수 있어요.",
 
     // Elements, compounds and mixtures > key idea > p
-    "A compound has different properties from the elements in it. A mixture keeps the properties of its parts. That is why a mixture can be separated by physical methods and a compound cannot.": "",
+    "A compound has different properties from the elements in it. A mixture keeps the properties of its parts. That is why a mixture can be separated by physical methods and a compound cannot.": "화합물은 그 화합물을 이루는 원소와 성질이 달라요. 혼합물은 각 성분의 성질을 그대로 가지고 있어요. 그래서 혼합물은 물리적 방법으로 분리할 수 있고 화합물은 분리할 수 없어요.",
 
     // Elements, compounds and mixtures > table > caption
-    "Three kinds of matter": "",
+    "Three kinds of matter": "물질의 3가지 종류",
 
     // Elements, compounds and mixtures > table > th
-    "Type": "",
+    "Type": "종류",
 
     // Elements, compounds and mixtures > table > th
-    "Examples": "",
+    "Examples": "예",
 
     // Elements, compounds and mixtures > table > th
-    "Composition": "",
+    "Composition": "조성",
 
     // Elements, compounds and mixtures > table > th
-    "Properties": "",
+    "Properties": "성질",
 
     // Elements, compounds and mixtures > table > th
-    "How to separate the parts": "",
-
-    // Elements, compounds and mixtures > table > th
-    // widget string (assets/js/widgets-s1-1.js)
-    "Element": "",
-
-    // Elements, compounds and mixtures > table > td
-    "copper, <span class=\"chem\">O2</span>": "",
-
-    // Elements, compounds and mixtures > table > td
-    "one type of atom": "",
-
-    // Elements, compounds and mixtures > table > td
-    "its own fixed properties": "",
-
-    // Elements, compounds and mixtures > table > td
-    "cannot be broken down chemically": "",
+    "How to separate the parts": "성분을 분리하는 방법",
 
     // Elements, compounds and mixtures > table > th
     // widget string (assets/js/widgets-s1-1.js)
-    "Compound": "",
+    "Element": "원소",
 
     // Elements, compounds and mixtures > table > td
-    "<span class=\"chem\">NaCl</span>, <span class=\"chem\">CO2</span>": "",
+    "copper, <span class=\"chem\">O2</span>": "구리, <span class=\"chem\">O2</span>",
 
     // Elements, compounds and mixtures > table > td
-    "different elements, bonded, fixed ratio": "",
+    "one type of atom": "한 종류의 원자",
 
     // Elements, compounds and mixtures > table > td
-    "different from its elements": "",
+    "its own fixed properties": "고유한 일정한 성질",
 
     // Elements, compounds and mixtures > table > td
-    "chemical reaction only": "",
+    "cannot be broken down chemically": "화학적으로 분해할 수 없음",
 
     // Elements, compounds and mixtures > table > th
     // widget string (assets/js/widgets-s1-1.js)
-    "Mixture": "",
+    "Compound": "화합물",
 
     // Elements, compounds and mixtures > table > td
-    "air, sea water": "",
+    "<span class=\"chem\">NaCl</span>, <span class=\"chem\">CO2</span>": "<span class=\"chem\">NaCl</span>, <span class=\"chem\">CO2</span>",
 
     // Elements, compounds and mixtures > table > td
-    "no fixed ratio, not bonded to each other": "",
+    "different elements, bonded, fixed ratio": "서로 다른 원소, 결합함, 일정한 비율",
 
     // Elements, compounds and mixtures > table > td
-    "each part keeps its own": "",
+    "different from its elements": "이루는 원소와 다름",
 
     // Elements, compounds and mixtures > table > td
-    "physical methods": "",
+    "chemical reaction only": "화학 반응으로만",
+
+    // Elements, compounds and mixtures > table > th
+    // widget string (assets/js/widgets-s1-1.js)
+    "Mixture": "혼합물",
+
+    // Elements, compounds and mixtures > table > td
+    "air, sea water": "공기, 바닷물",
+
+    // Elements, compounds and mixtures > table > td
+    "no fixed ratio, not bonded to each other": "일정한 비율 없음, 서로 결합하지 않음",
+
+    // Elements, compounds and mixtures > table > td
+    "each part keeps its own": "각 성분이 자기 성질을 유지함",
+
+    // Elements, compounds and mixtures > table > td
+    "physical methods": "물리적 방법",
 
     // Elements, compounds and mixtures > p
-    "Here is one example of “different properties”. Sodium is a soft metal that reacts violently with water. Chlorine is a toxic yellow-green gas. The compound sodium chloride is the white solid you put on food.": "",
+    "Here is one example of “different properties”. Sodium is a soft metal that reacts violently with water. Chlorine is a toxic yellow-green gas. The compound sodium chloride is the white solid you put on food.": "‘성질이 다르다’는 것의 예를 하나 들어 볼게요. 나트륨(Na)은 무른 금속이고 물과 격렬하게 반응해요. 염소(Cl)는 독성이 있는 황록색 기체예요. 그런데 이 둘의 화합물인 염화 나트륨은 음식에 뿌리는 흰색 고체예요.",
 
     // Elements, compounds and mixtures > common mistake > p
-    "“Pure” in everyday speech means natural or clean. In chemistry a pure substance is a single element or a single compound. Pure orange juice is a mixture.": "",
+    "“Pure” in everyday speech means natural or clean. In chemistry a pure substance is a single element or a single compound. Pure orange juice is a mixture.": "일상에서 ‘순수하다’는 말은 자연 그대로이거나 깨끗하다는 뜻이에요. 화학에서 순물질은 한 가지 원소이거나 한 가지 화합물이에요. ‘100% 순수’ 오렌지 주스는 혼합물이에요.",
 
     // Elements, compounds and mixtures > common mistake > p
-    "An element is not always single atoms. <span class=\"chem\">O2</span>, <span class=\"chem\">N2</span> and <span class=\"chem\">Cl2</span> are molecules, but each contains only one type of atom, so each is an element.": "",
+    "An element is not always single atoms. <span class=\"chem\">O2</span>, <span class=\"chem\">N2</span> and <span class=\"chem\">Cl2</span> are molecules, but each contains only one type of atom, so each is an element.": "원소가 언제나 원자 하나하나로 있는 것은 아니에요. <span class=\"chem\">O2</span>, <span class=\"chem\">N2</span>, <span class=\"chem\">Cl2</span>는 분자이지만, 각각 한 종류의 원자만 들어 있으므로 모두 원소예요.",
 
     // Elements, compounds and mixtures > h3
-    "Homogeneous and heterogeneous mixtures": "",
+    "Homogeneous and heterogeneous mixtures": "균일 혼합물과 불균일 혼합물",
 
     // Elements, compounds and mixtures > p
-    "Stir salt into water and it disappears. Stir sand into water and you still see the sand. Both are mixtures, but they are different kinds.": "",
+    "Stir salt into water and it disappears. Stir sand into water and you still see the sand. Both are mixtures, but they are different kinds.": "물에 소금을 넣고 저으면 소금이 보이지 않게 돼요. 물에 모래를 넣고 저으면 모래가 여전히 보여요. 둘 다 혼합물이지만 종류가 달라요.",
 
     // Elements, compounds and mixtures > p
-    "A <dfn data-def=\"A mixture with the same composition and properties throughout. You cannot see separate parts.\">homogeneous mixture</dfn> has the same composition and properties throughout. You cannot see separate parts. Solutions are homogeneous. So is air.": "",
+    "A <dfn data-def=\"A mixture with the same composition and properties throughout. You cannot see separate parts.\">homogeneous mixture</dfn> has the same composition and properties throughout. You cannot see separate parts. Solutions are homogeneous. So is air.": "<dfn data-def=\"전체적으로 조성과 성질이 같은 혼합물. 따로 떨어진 부분이 보이지 않아요.\">균일 혼합물 <span class=\"en-term\">(homogeneous mixture)</span></dfn>은 전체적으로 조성과 성질이 같아요. 따로 떨어진 부분이 보이지 않아요. 용액은 균일 혼합물이에요. 공기도 그래요.",
 
     // Elements, compounds and mixtures > data-def attribute
-    "A mixture with the same composition and properties throughout. You cannot see separate parts.": "",
+    "A mixture with the same composition and properties throughout. You cannot see separate parts.": "전체적으로 조성과 성질이 같은 혼합물. 따로 떨어진 부분이 보이지 않아요.",
 
     // Elements, compounds and mixtures > p
-    "A <dfn data-def=\"A mixture whose composition is not the same throughout. It has separate regions with different properties.\">heterogeneous mixture</dfn> does not have the same composition throughout. It has separate regions with different properties. Sand in water and oil on water are heterogeneous.": "",
+    "A <dfn data-def=\"A mixture whose composition is not the same throughout. It has separate regions with different properties.\">heterogeneous mixture</dfn> does not have the same composition throughout. It has separate regions with different properties. Sand in water and oil on water are heterogeneous.": "<dfn data-def=\"조성이 전체적으로 같지 않은 혼합물. 성질이 다른 부분들이 따로 나뉘어 있어요.\">불균일 혼합물 <span class=\"en-term\">(heterogeneous mixture)</span></dfn>은 조성이 전체적으로 같지 않아요. 성질이 다른 부분들이 따로 나뉘어 있어요. 물속의 모래, 물 위의 기름은 불균일 혼합물이에요.",
 
     // Elements, compounds and mixtures > data-def attribute
-    "A mixture whose composition is not the same throughout. It has separate regions with different properties.": "",
+    "A mixture whose composition is not the same throughout. It has separate regions with different properties.": "조성이 전체적으로 같지 않은 혼합물. 성질이 다른 부분들이 따로 나뉘어 있어요.",
 
     // Elements, compounds and mixtures > common mistake > p
-    "A homogeneous mixture is not a compound. Salt water looks like one substance, but the salt and water are not chemically bonded in a fixed ratio. You can add more salt, and you can get the salt back by evaporating the water.": "",
+    "A homogeneous mixture is not a compound. Salt water looks like one substance, but the salt and water are not chemically bonded in a fixed ratio. You can add more salt, and you can get the salt back by evaporating the water.": "균일 혼합물은 화합물이 아니에요. 소금물은 한 가지 물질처럼 보이지만, 소금과 물이 일정한 비율로 화학적으로 결합해 있지 않아요. 소금을 더 넣을 수도 있고, 물을 증발시켜 소금을 다시 얻을 수도 있어요.",
 
     // Elements, compounds and mixtures > widget > data-title attribute
-    "Classify it": "",
+    "Classify it": "분류해 보기",
 
     // Elements, compounds and mixtures > widget > figcaption
-    "Pick a substance, then choose its box. Ask two questions each time. Is it one substance or more than one? If it is one, how many types of atom? If it is more than one, can you see separate parts?": "",
+    "Pick a substance, then choose its box. Ask two questions each time. Is it one substance or more than one? If it is one, how many types of atom? If it is more than one, can you see separate parts?": "물질을 하나 고른 다음 알맞은 칸을 고르세요. 매번 두 가지를 물어보세요. 한 가지 물질인가요, 여러 가지 물질인가요? 한 가지라면 원자의 종류는 몇 가지인가요? 여러 가지라면 따로 떨어진 부분이 보이나요?",
 
     // Elements, compounds and mixtures > exam tip (shown in English + translation) > p
-    "To “distinguish between an element and a compound”, give one clear statement about each. An element contains only one type of atom. A compound contains atoms of different elements chemically bonded in a fixed ratio. If a question asks for a physical property that differs, do not give a chemical property or a molar mass.": "",
+    "To “distinguish between an element and a compound”, give one clear statement about each. An element contains only one type of atom. A compound contains atoms of different elements chemically bonded in a fixed ratio. If a question asks for a physical property that differs, do not give a chemical property or a molar mass.": "‘원소와 화합물을 구별하시오 (distinguish between an element and a compound)’라는 문제에는 각각에 대해 분명한 문장을 하나씩 쓰세요. 원소에는 한 종류의 원자만 들어 있어요. 화합물에는 서로 다른 원소의 원자가 일정한 비율로 화학적으로 결합해 있어요. 다른 점을 물리적 성질로 쓰라고 하면 화학적 성질이나 몰 질량을 쓰지 마세요.",
 
     // Elements, compounds and mixtures > not needed for IB > p
-    "You do not need colloids, suspensions or emulsions as separate categories. Homogeneous and heterogeneous are enough. Why particular substances do or do not mix is explained with intermolecular forces later, in Structure 2.2.": "",
+    "You do not need colloids, suspensions or emulsions as separate categories. Homogeneous and heterogeneous are enough. Why particular substances do or do not mix is explained with intermolecular forces later, in Structure 2.2.": "콜로이드, 현탁액, 에멀션을 따로 구분할 필요는 없어요. 균일 혼합물과 불균일 혼합물만 알면 충분해요. 어떤 물질은 섞이고 어떤 물질은 섞이지 않는 이유는 나중에 Structure 2.2에서 분자 간 힘으로 설명해요.",
 
     // Elements, compounds and mixtures > data-title attribute
-    "Elements, compounds and mixtures: quick check": "",
+    "Elements, compounds and mixtures: quick check": "원소, 화합물, 혼합물: 확인 퀴즈",
 
     // Separating mixtures > data-toc attribute
     // Separating mixtures > h2
-    "Separating mixtures": "",
+    "Separating mixtures": "혼합물의 분리",
 
     // Separating mixtures > p
-    "Making coffee uses two separation techniques. Hot water dissolves the flavour compounds out of the ground beans. Then a paper filter holds back the grounds and lets the solution through.": "",
+    "Making coffee uses two separation techniques. Hot water dissolves the flavour compounds out of the ground beans. Then a paper filter holds back the grounds and lets the solution through.": "커피를 만들 때는 분리 기술을 2가지 써요. 뜨거운 물이 갈아 놓은 원두에서 향 성분을 녹여 내요. 그다음 종이 필터가 찌꺼기는 걸러 내고 용액만 통과시켜요.",
 
     // Separating mixtures > p
-    "Every separation works the same way. You find a <strong>physical property that is different</strong> for the parts of the mixture, and you pick a technique that uses that difference.": "",
+    "Every separation works the same way. You find a <strong>physical property that is different</strong> for the parts of the mixture, and you pick a technique that uses that difference.": "모든 분리는 같은 원리로 이루어져요. 혼합물의 성분마다 <strong>서로 다른 물리적 성질</strong>을 찾고, 그 차이를 이용하는 기술을 골라요.",
 
     // Separating mixtures > table > caption
-    "The six techniques named in the syllabus": "",
+    "The six techniques named in the syllabus": "교수요목에 나오는 6가지 분리 기술",
 
     // Separating mixtures > table > th
     // widget string (assets/js/widgets-s1-1.js)
-    "Technique": "",
+    "Technique": "기술",
 
     // Separating mixtures > table > th
     // widget string (assets/js/widgets-s1-1.js)
-    "Property that differs": "",
+    "Property that differs": "차이가 나는 성질",
 
     // Separating mixtures > table > th
-    "What it separates": "",
+    "What it separates": "분리하는 것",
 
     // Separating mixtures > table > th
-    "Words to use": "",
+    "Words to use": "써야 할 용어",
 
     // Separating mixtures > table > th
-    "Solvation (dissolving)": "",
+    "Solvation (dissolving)": "용매화 (용해)",
 
     // Separating mixtures > table > td
-    "solubility in a chosen solvent": "",
+    "solubility in a chosen solvent": "고른 용매에 대한 용해도",
 
     // Separating mixtures > table > td
-    "a soluble solid from an insoluble solid (first step)": "",
+    "a soluble solid from an insoluble solid (first step)": "녹지 않는 고체에서 녹는 고체를 분리(첫 단계)",
 
     // Separating mixtures > table > td
-    "solute, solvent, solution": "",
+    "solute, solvent, solution": "용질, 용매, 용액",
 
     // Separating mixtures > table > th
     // widget string (assets/js/widgets-s1-1.js)
-    "Filtration": "",
+    "Filtration": "거름",
 
     // Separating mixtures > table > td
-    "particle size: an undissolved solid cannot pass through filter paper": "",
+    "particle size: an undissolved solid cannot pass through filter paper": "입자 크기: 녹지 않은 고체는 거름종이를 통과하지 못함",
 
     // Separating mixtures > table > td
-    "an insoluble solid from a liquid or solution": "",
+    "an insoluble solid from a liquid or solution": "액체나 용액에서 녹지 않는 고체를 분리",
 
     // Separating mixtures > table > td
-    "residue (on the paper), filtrate (passes through)": "",
+    "residue (on the paper), filtrate (passes through)": "거름 찌꺼기(종이 위에 남음), 거른 액(통과함)",
 
     // Separating mixtures > table > th
     // Changes of state and state symbols > table > th
-    "Evaporation": "",
+    "Evaporation": "증발",
 
     // Separating mixtures > table > td
-    "volatility: the solvent turns to vapour, the dissolved solid does not": "",
+    "volatility: the solvent turns to vapour, the dissolved solid does not": "휘발성: 용매는 증기가 되지만 녹아 있는 고체는 증기가 되지 않음",
 
     // Separating mixtures > table > td
-    "a dissolved solid from its solvent (you keep the solid)": "",
+    "a dissolved solid from its solvent (you keep the solid)": "용매에서 녹아 있는 고체를 분리(고체를 얻음)",
 
     // Separating mixtures > table > td
-    "heat to evaporate, then leave to crystallize": "",
+    "heat to evaporate, then leave to crystallize": "가열해 증발시킨 뒤 그대로 두어 결정화",
 
     // Separating mixtures > table > th
     // widget string (assets/js/widgets-s1-1.js)
-    "Distillation": "",
+    "Distillation": "증류",
 
     // Separating mixtures > table > td
-    "volatility (boiling point)": "",
+    "volatility (boiling point)": "휘발성(끓는점)",
 
     // Separating mixtures > table > td
-    "a solvent from a solution, or two liquids that mix and have different boiling points (you keep the liquid)": "",
+    "a solvent from a solution, or two liquids that mix and have different boiling points (you keep the liquid)": "용액에서 용매를 분리, 또는 서로 섞이고 끓는점이 다른 두 액체를 분리(액체를 얻음)",
 
     // Separating mixtures > table > td
-    "boil, condense, distillate": "",
+    "boil, condense, distillate": "끓임, 액화, 증류액",
 
     // Separating mixtures > table > th
     // widget string (assets/js/widgets-s1-1.js)
-    "Recrystallization": "",
+    "Recrystallization": "재결정",
 
     // Separating mixtures > table > td
-    "solubility in hot solvent compared with cold solvent": "",
+    "solubility in hot solvent compared with cold solvent": "뜨거운 용매와 차가운 용매에서의 용해도 차이",
 
     // Separating mixtures > table > td
-    "a solid product from small amounts of impurities": "",
+    "a solid product from small amounts of impurities": "고체 생성물에서 소량의 불순물을 제거",
 
     // Separating mixtures > table > td
-    "minimum volume of hot solvent, cool, filter, rinse, dry": "",
+    "minimum volume of hot solvent, cool, filter, rinse, dry": "최소한의 뜨거운 용매, 냉각, 거름, 헹굼, 건조",
 
     // Separating mixtures > table > th
     // widget string (assets/js/widgets-s1-1.js)
-    "Paper chromatography": "",
+    "Paper chromatography": "종이 크로마토그래피",
 
     // Separating mixtures > table > td
-    "how strongly each part is attracted to the paper compared with the moving solvent": "",
+    "how strongly each part is attracted to the paper compared with the moving solvent": "움직이는 용매에 비해 각 성분이 종이에 얼마나 강하게 끌리는지",
 
     // Separating mixtures > table > td
-    "small amounts of dissolved substances, such as dyes": "",
+    "small amounts of dissolved substances, such as dyes": "염료처럼 녹아 있는 소량의 물질",
 
     // Separating mixtures > table > td
     "baseline, solvent front, spots": "",

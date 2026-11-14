@@ -9,210 +9,210 @@ S1.i18n.register('ko', 's1-4.q', {
     // ── s1-4-q001 · mcq · foundation · SL · Structure 1.4.1 · 1 mark
     "s1-4-q001": {
       // EN: <p>Which statement describes <strong>one mole</strong> of a substance?</p>
-      stem: "",
+      stem: "<p>물질 <strong>1몰</strong>을 바르게 설명한 것은 무엇인가요?</p>",
       options: [
         // EN: It has a mass of 6.02 × 10<sup>23</sup> <span class="unit">g</span>.
-        "",
+        "질량이 6.02 × 10<sup>23</sup> <span class=\"unit\">g</span>이에요.",
         // EN: It contains the number of elementary entities given by the Avogadro constant.
-        "",
+        "아보가드로 상수만큼의 기본 입자를 포함해요.",
         // EN: It is the mass of one atom compared with an atom of carbon-12.
-        "",
+        "원자 1개의 질량을 탄소-12 원자와 비교한 값이에요.",
         // EN: It is 12 <span class="unit">g</span> of any element.
-        "",
+        "어떤 원소든 12 <span class=\"unit\">g</span>이에요.",
       ],
       hints: [
         // EN: The mole is the SI unit of <em>amount of substance</em>. It is a counting unit, like a dozen, but much bigger.
-        "",
+        "몰은 <em>물질의 양</em>의 SI 단위예요. 1다스처럼 개수를 세는 단위지만 훨씬 커요.",
         // EN: The count is fixed by a constant in your data booklet. Its symbol is <i>N</i><sub>A</sub>.
-        "",
+        "그 개수는 데이터 부클릿에 있는 상수로 정해져요. 기호는 <i>N</i><sub>A</sub>예요.",
       ],
       // EN: <p>One mole contains exactly the number of elementary entities given by the Avogadro constant, <i>N</i><sub>A</sub> = 6.02 × 10<sup>23</sup> <span class="unit">mol-1</span>. The entities can be atoms, molecules, ions, electrons or any specified group of particles.</p>
-      solution: "",
+      solution: "<p>1몰에는 아보가드로 상수 <i>N</i><sub>A</sub> = 6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span>만큼의 기본 입자가 정확히 들어 있어요. 기본 입자는 원자, 분자, 이온, 전자일 수도 있고, 정해 준 입자 묶음일 수도 있어요.</p>",
       misconception: {
         // EN (option A): 6.02 × 10<sup>23</sup> is a number of particles, not a mass in grams. The mass of one mole is the molar mass, and it is different for each substance.
-        "0": "",
+        "0": "6.02 × 10<sup>23</sup>은 입자의 개수이지, 그램 단위의 질량이 아니에요. 1몰의 질량은 몰 질량이고, 물질마다 달라요.",
         // EN (option C): That describes relative atomic mass. The mole counts particles. It does not compare masses.
-        "2": "",
+        "2": "그것은 상대 원자 질량의 설명이에요. 몰은 입자를 세는 단위예요. 질량을 비교하지 않아요.",
         // EN (option D): 12 <span class="unit">g</span> is one mole only for carbon-12. One mole of another element has a different mass.
-        "3": "",
+        "3": "12 <span class=\"unit\">g</span>이 1몰인 것은 탄소-12뿐이에요. 다른 원소 1몰은 질량이 달라요.",
       },
     },
 
     // ── s1-4-q002 · numeric · foundation · SL · Structure 1.4.1 · 1 mark
     "s1-4-q002": {
       // EN: <p>How many molecules are there in 0.450 <span class="unit">mol</span> of water, <span class="chem">H2O</span>? Give your answer to 3 significant figures.</p>
-      stem: "",
+      stem: "<p>물(<span class=\"chem\">H2O</span>) 0.450 <span class=\"unit\">mol</span>에는 분자가 몇 개 있나요? 유효 숫자 3자리로 답하세요.</p>",
       hints: [
         // EN: Use the relationship between number of particles and amount: <span class="mono"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></span>.
-        "",
+        "입자 수와 물질의 양 사이의 관계를 이용하세요: <span class=\"mono\"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></span>.",
         // EN: Going from moles to particles makes the number much bigger, so you multiply by 6.02 × 10<sup>23</sup>.
-        "",
+        "몰에서 입자 수로 가면 수가 훨씬 커지므로 6.02 × 10<sup>23</sup>을 곱해요.",
       ],
       // EN: <div class="worked__math"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></div><div class="worked__math"><i>N</i> = 0.450 <span class="unit">mol</span> × 6.02 × 10<sup>23</sup> <span class="unit">mol-1</span></div><div class="worked__math"><i>N</i> = 2.709 × 10<sup>23</sup><br>&nbsp;&nbsp;= <strong>2.71 × 10<sup>23</sup> molecules</strong></div><p>Check the size: you have less than one mole, so the answer must be less than 6.02 × 10<sup>23</sup>. If you divided instead of multiplying you would get a number far smaller than 1, which cannot be a count of molecules.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></div><div class=\"worked__math\"><i>N</i> = 0.450 <span class=\"unit\">mol</span> × 6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span></div><div class=\"worked__math\"><i>N</i> = 2.709 × 10<sup>23</sup><br>&nbsp;&nbsp;= <strong>분자 2.71 × 10<sup>23</sup>개</strong></div><p>크기를 확인해 봐요. 1몰보다 적으므로 답은 6.02 × 10<sup>23</sup>보다 작아야 해요. 곱하지 않고 나누었다면 1보다 훨씬 작은 수가 나오는데, 이런 수는 분자의 개수가 될 수 없어요.</p>",
     },
 
     // ── s1-4-q003 · numeric · foundation · SL · Structure 1.4.1 · 1 mark
     "s1-4-q003": {
       // EN: <p>A sample of water contains 9.03 × 10<sup>22</sup> molecules. Calculate the amount of water, in <span class="unit">mol</span>. Give your answer to 3 significant figures.</p>
-      stem: "",
+      stem: "<p>물 시료에 분자가 9.03 × 10<sup>22</sup>개 들어 있어요. 물의 양을 <span class=\"unit\">mol</span> 단위로 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p>",
       hints: [
         // EN: Rearrange <span class="mono"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></span> to make <i>n</i> the subject.
-        "",
+        "<span class=\"mono\"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></span>을 <i>n</i>에 대한 식으로 바꾸세요.",
         // EN: Going from particles to moles makes the number much smaller, so you divide by 6.02 × 10<sup>23</sup>. Compare the powers of ten first: 10<sup>22</sup> is less than 10<sup>23</sup>, so the answer is less than 1 mol.
-        "",
+        "입자 수에서 몰로 가면 수가 훨씬 작아지므로 6.02 × 10<sup>23</sup>으로 나눠요. 먼저 10의 거듭제곱을 비교해 봐요: 10<sup>22</sup>는 10<sup>23</sup>보다 작으므로 답은 1 mol보다 작아요.",
       ],
       // EN: <div class="worked__math"><i>n</i> = <span class="frac"><span><i>N</i></span><span><i>N</i><sub>A</sub></span></span></div><div class="worked__math"><i>n</i> = <span class="frac"><span>9.03 × 10<sup>22</sup></span><span>6.02 × 10<sup>23</sup> <span class="unit">mol-1</span></span></span></div><div class="worked__math"><i>n</i> = <strong>0.150 <span class="unit">mol</span></strong></div><p>If you multiplied by <i>N</i><sub>A</sub> instead, you would get about 5 × 10<sup>46</sup>, which is not a sensible amount in moles.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>n</i> = <span class=\"frac\"><span><i>N</i></span><span><i>N</i><sub>A</sub></span></span></div><div class=\"worked__math\"><i>n</i> = <span class=\"frac\"><span>9.03 × 10<sup>22</sup></span><span>6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span></span></span></div><div class=\"worked__math\"><i>n</i> = <strong>0.150 <span class=\"unit\">mol</span></strong></div><p>대신 <i>N</i><sub>A</sub>를 곱하면 약 5 × 10<sup>46</sup>이 나오는데, 몰 단위의 양으로는 말이 안 되는 값이에요.</p>",
     },
 
     // ── s1-4-q004 · mcq · exam · SL · Structure 1.4.1 · 1 mark
     "s1-4-q004": {
       // EN: <p>What is the total number of <strong>atoms</strong> in 0.500 <span class="unit">mol</span> of ammonia, <span class="chem">NH3</span>?</p>
-      stem: "",
+      stem: "<p>암모니아(<span class=\"chem\">NH3</span>) 0.500 <span class=\"unit\">mol</span>에 들어 있는 <strong>원자</strong>의 총수는 얼마인가요?</p>",
       options: [
         // EN: 3.01 × 10<sup>23</sup>
-        "",
+        "3.01 × 10<sup>23</sup>",
         // EN: 9.03 × 10<sup>23</sup>
-        "",
+        "9.03 × 10<sup>23</sup>",
         // EN: 1.20 × 10<sup>24</sup>
-        "",
+        "1.20 × 10<sup>24</sup>",
         // EN: 3.32 × 10<sup>−24</sup>
-        "",
+        "3.32 × 10<sup>−24</sup>",
       ],
       hints: [
         // EN: First find the number of molecules with <span class="mono"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></span>.
-        "",
+        "먼저 <span class=\"mono\"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></span>로 분자 수를 구하세요.",
         // EN: Then ask: how many atoms are in one molecule of <span class="chem">NH3</span>? Multiply by that number.
-        "",
+        "그다음 생각해 봐요: <span class=\"chem\">NH3</span> 분자 1개에는 원자가 몇 개 있나요? 그 수를 곱하세요.",
       ],
       // EN: <div class="worked__math"><i>N</i> = 0.500 <span class="unit">mol</span> × 6.02 × 10<sup>23</sup> <span class="unit">mol-1</span><br>&nbsp;&nbsp;= 3.01 × 10<sup>23</sup> molecules</div><p>Each <span class="chem">NH3</span> molecule contains 1 N atom and 3 H atoms: 4 atoms.</p><div class="worked__math"><i>N</i>(atoms) = 4 × 3.01 × 10<sup>23</sup><br>&nbsp;&nbsp;= 1.204 × 10<sup>24</sup><br>&nbsp;&nbsp;= <strong>1.20 × 10<sup>24</sup></strong></div>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>N</i> = 0.500 <span class=\"unit\">mol</span> × 6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span><br>&nbsp;&nbsp;= 분자 3.01 × 10<sup>23</sup>개</div><p><span class=\"chem\">NH3</span> 분자 1개에는 N 원자 1개와 H 원자 3개, 모두 4개의 원자가 있어요.</p><div class=\"worked__math\"><i>N</i>(원자) = 4 × 3.01 × 10<sup>23</sup><br>&nbsp;&nbsp;= 1.204 × 10<sup>24</sup><br>&nbsp;&nbsp;= <strong>1.20 × 10<sup>24</sup></strong></div>",
       misconception: {
         // EN (option A): This is the number of <span class="chem">NH3</span> <em>molecules</em> (0.500 × 6.02 × 10<sup>23</sup>). The question asks for atoms, and each molecule contains 4 atoms.
-        "0": "",
+        "0": "이것은 <span class=\"chem\">NH3</span> <em>분자</em>의 수예요(0.500 × 6.02 × 10<sup>23</sup>). 문제는 원자 수를 묻고 있고, 분자 1개에는 원자가 4개 있어요.",
         // EN (option B): You multiplied by 3, so you counted only the hydrogen atoms. Each <span class="chem">NH3</span> molecule has 1 N atom and 3 H atoms: 4 atoms in total.
-        "1": "",
+        "1": "3을 곱했으니 수소 원자만 센 거예요. <span class=\"chem\">NH3</span> 분자 1개에는 N 원자 1개와 H 원자 3개, 모두 4개의 원자가 있어요.",
         // EN (option D): You divided by the Avogadro constant instead of multiplying. A count of atoms in a visible sample must be a very large number.
-        "3": "",
+        "3": "아보가드로 상수를 곱하지 않고 나누었어요. 눈에 보이는 양의 시료에 든 원자 수는 아주 큰 수여야 해요.",
       },
     },
 
     // ── s1-4-q005 · mcq · exam · SL · Structure 1.4.1 · 1 mark
     "s1-4-q005": {
       // EN: <p>What is the total number of <strong>ions</strong> in 0.20 <span class="unit">mol</span> of aluminium sulfate, <span class="chem">Al2(SO4)3</span>?</p>
-      stem: "",
+      stem: "<p>황산 알루미늄(<span class=\"chem\">Al2(SO4)3</span>) 0.20 <span class=\"unit\">mol</span>에 들어 있는 <strong>이온</strong>의 총수는 얼마인가요?</p>",
       options: [
         // EN: 1.2 × 10<sup>23</sup>
-        "",
+        "1.2 × 10<sup>23</sup>",
         // EN: 2.4 × 10<sup>23</sup>
-        "",
+        "2.4 × 10<sup>23</sup>",
         // EN: 6.0 × 10<sup>23</sup>
-        "",
+        "6.0 × 10<sup>23</sup>",
         // EN: 2.0 × 10<sup>24</sup>
-        "",
+        "2.0 × 10<sup>24</sup>",
       ],
       hints: [
         // EN: Write the ions in one formula unit: how many <span class="chem">Al^3+</span> and how many <span class="chem">SO4^2-</span>?
-        "",
+        "화학식 단위 1개에 있는 이온을 써 보세요: <span class=\"chem\">Al^3+</span>는 몇 개, <span class=\"chem\">SO4^2-</span>는 몇 개인가요?",
         // EN: A polyatomic ion such as <span class="chem">SO4^2-</span> counts as one ion. Find the amount of ions in mol, then multiply by <i>N</i><sub>A</sub>.
-        "",
+        "<span class=\"chem\">SO4^2-</span> 같은 다원자 이온은 이온 1개로 세요. 이온의 양을 mol로 구한 다음 <i>N</i><sub>A</sub>를 곱하세요.",
       ],
       // EN: <p>One formula unit contains 2 <span class="chem">Al^3+</span> ions and 3 <span class="chem">SO4^2-</span> ions: 5 ions.</p><div class="worked__math"><i>n</i>(ions) = 5 × 0.20 <span class="unit">mol</span><br>&nbsp;&nbsp;= 1.0 <span class="unit">mol</span></div><div class="worked__math"><i>N</i>(ions) = 1.0 <span class="unit">mol</span> × 6.02 × 10<sup>23</sup> <span class="unit">mol-1</span><br>&nbsp;&nbsp;= <strong>6.0 × 10<sup>23</sup></strong></div>
-      solution: "",
+      solution: "<p>화학식 단위 1개에는 <span class=\"chem\">Al^3+</span> 이온 2개와 <span class=\"chem\">SO4^2-</span> 이온 3개, 모두 5개의 이온이 있어요.</p><div class=\"worked__math\"><i>n</i>(이온) = 5 × 0.20 <span class=\"unit\">mol</span><br>&nbsp;&nbsp;= 1.0 <span class=\"unit\">mol</span></div><div class=\"worked__math\"><i>N</i>(이온) = 1.0 <span class=\"unit\">mol</span> × 6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span><br>&nbsp;&nbsp;= <strong>6.0 × 10<sup>23</sup></strong></div>",
       misconception: {
         // EN (option A): This is the number of formula units (0.20 × 6.02 × 10<sup>23</sup>). Each formula unit contains more than one ion.
-        "0": "",
+        "0": "이것은 화학식 단위의 수예요(0.20 × 6.02 × 10<sup>23</sup>). 화학식 단위 1개에는 이온이 1개보다 많이 들어 있어요.",
         // EN (option B): You counted 2 ions per formula unit, one kind of positive ion and one kind of negative ion. Use the subscripts: there are 2 <span class="chem">Al^3+</span> and 3 <span class="chem">SO4^2-</span>, which is 5 ions.
-        "1": "",
+        "1": "화학식 단위 1개당 이온을 2개(양이온 한 종류, 음이온 한 종류)로 셌어요. 아래 첨자를 보세요: <span class=\"chem\">Al^3+</span> 2개와 <span class=\"chem\">SO4^2-</span> 3개, 모두 5개의 이온이에요.",
         // EN (option D): You counted all 17 <em>atoms</em> in the formula. A sulfate ion, <span class="chem">SO4^2-</span>, is one ion even though it contains 5 atoms.
-        "3": "",
+        "3": "화학식에 있는 <em>원자</em> 17개를 모두 셌어요. 황산 이온 <span class=\"chem\">SO4^2-</span>은 원자 5개로 이루어져 있지만 이온 1개예요.",
       },
     },
 
     // ── s1-4-q006 · multi · foundation · SL · Structure 1.4.1 · 1 mark
     "s1-4-q006": {
       // EN: <p>Which statements about the mole are correct? Select <strong>all</strong> that apply.</p>
-      stem: "",
+      stem: "<p>몰에 대한 설명으로 옳은 것을 <strong>모두</strong> 고르세요.</p>",
       options: [
         // EN: The mole is the SI unit of amount of substance.
-        "",
+        "몰은 물질의 양의 SI 단위예요.",
         // EN: One mole of any substance has a mass of 6.02 × 10<sup>23</sup> <span class="unit">g</span>.
-        "",
+        "어떤 물질이든 1몰의 질량은 6.02 × 10<sup>23</sup> <span class=\"unit\">g</span>이에요.",
         // EN: 1 <span class="unit">mol</span> of <span class="chem">H2O</span> molecules and 1 <span class="unit">mol</span> of <span class="chem">Fe</span> atoms contain the same number of particles.
-        "",
+        "<span class=\"chem\">H2O</span> 분자 1 <span class=\"unit\">mol</span>과 <span class=\"chem\">Fe</span> 원자 1 <span class=\"unit\">mol</span>에는 같은 수의 입자가 들어 있어요.",
         // EN: The Avogadro constant has the units <span class="unit">mol-1</span>.
-        "",
+        "아보가드로 상수의 단위는 <span class=\"unit\">mol-1</span>이에요.",
         // EN: 1 <span class="unit">mol</span> of <span class="chem">O2</span> molecules contains 6.02 × 10<sup>23</sup> oxygen atoms.
-        "",
+        "<span class=\"chem\">O2</span> 분자 1 <span class=\"unit\">mol</span>에는 산소 원자가 6.02 × 10<sup>23</sup>개 들어 있어요.",
       ],
       hints: [
         // EN: A mole is a fixed number of particles. Always ask: a mole of what?
-        "",
+        "몰은 정해진 수의 입자예요. 늘 물어보세요: 무엇의 몰인가?",
         // EN: For the last statement, count the atoms in one <span class="chem">O2</span> molecule.
-        "",
+        "마지막 설명은 <span class=\"chem\">O2</span> 분자 1개에 있는 원자 수를 세어 보세요.",
       ],
       // EN: <p>The mole is the SI unit of amount of substance. One mole of anything contains 6.02 × 10<sup>23</sup> of the specified entities, so 1 mol of water molecules and 1 mol of iron atoms hold the same number of particles. <i>N</i><sub>A</sub> means "per mole", so its units are <span class="unit">mol-1</span>.</p><p>The two wrong statements mix up number with mass, and molecules with atoms.</p>
-      solution: "",
+      solution: "<p>몰은 물질의 양의 SI 단위예요. 무엇이든 1몰에는 정해 준 입자가 6.02 × 10<sup>23</sup>개 들어 있으므로, 물 분자 1 mol과 철 원자 1 mol에는 같은 수의 입자가 있어요. <i>N</i><sub>A</sub>는 “1몰당”이라는 뜻이므로 단위는 <span class=\"unit\">mol-1</span>이에요.</p><p>틀린 두 설명은 개수와 질량을, 분자와 원자를 혼동했어요.</p>",
       misconception: {
         // EN (option B): 6.02 × 10<sup>23</sup> is a number of particles, not a mass. The mass of one mole is the molar mass, which is different for each substance.
-        "1": "",
+        "1": "6.02 × 10<sup>23</sup>은 입자의 개수이지 질량이 아니에요. 1몰의 질량은 몰 질량이고, 물질마다 달라요.",
         // EN (option E): There are 6.02 × 10<sup>23</sup> <span class="chem">O2</span> <em>molecules</em>. Each molecule has 2 atoms, so there are 1.20 × 10<sup>24</sup> oxygen atoms.
-        "4": "",
+        "4": "<span class=\"chem\">O2</span> <em>분자</em>가 6.02 × 10<sup>23</sup>개 있어요. 분자 1개에 원자가 2개씩 있으므로 산소 원자는 1.20 × 10<sup>24</sup>개예요.",
       },
     },
 
     // ── s1-4-q007 · mcq · foundation · SL · Structure 1.4.2 · 1 mark
     "s1-4-q007": {
       // EN: <p>Relative atomic masses compare the mass of an atom with a standard. What is the standard?</p>
-      stem: "",
+      stem: "<p>상대 원자 질량은 원자의 질량을 기준과 비교한 값이에요. 그 기준은 무엇인가요?</p>",
       options: [
         // EN: The mass of one atom of hydrogen-1
-        "",
+        "수소-1 원자 1개의 질량",
         // EN: The mass of one atom of carbon-12
-        "",
+        "탄소-12 원자 1개의 질량",
         // EN: <span class="frac"><span>1</span><span>12</span></span> of the mass of one atom of carbon-12
-        "",
+        "탄소-12 원자 1개 질량의 <span class=\"frac\"><span>1</span><span>12</span></span>",
         // EN: <span class="frac"><span>1</span><span>16</span></span> of the mass of one atom of oxygen-16
-        "",
+        "산소-16 원자 1개 질량의 <span class=\"frac\"><span>1</span><span>16</span></span>",
       ],
       hints: [
         // EN: The scale is set so that one atom of a particular carbon isotope has a relative mass of exactly 12.
-        "",
+        "어떤 탄소 동위 원소 원자 1개의 상대 질량이 정확히 12가 되도록 눈금을 정해요.",
         // EN: If the whole atom is 12 units, what fraction of the atom is 1 unit?
-        "",
+        "원자 전체가 12단위라면, 1단위는 원자의 몇 분의 몇인가요?",
       ],
       // EN: <p>Masses of atoms are compared on a scale relative to carbon-12. One atom of <span class="chem">^12C</span> is given a mass of exactly 12, so the unit of the scale is <span class="frac"><span>1</span><span>12</span></span> of the mass of a carbon-12 atom.</p>
-      solution: "",
+      solution: "<p>원자의 질량은 탄소-12를 기준으로 한 눈금에서 비교해요. <span class=\"chem\">^12C</span> 원자 1개의 질량을 정확히 12로 정하므로, 눈금의 1단위는 탄소-12 원자 1개 질량의 <span class=\"frac\"><span>1</span><span>12</span></span>이에요.</p>",
       misconception: {
         // EN (option A): Hydrogen has a relative atomic mass close to 1, but it is not the standard. The scale is defined using carbon-12.
-        "0": "",
+        "0": "수소의 상대 원자 질량은 1에 가깝지만 기준은 아니에요. 눈금은 탄소-12로 정의해요.",
         // EN (option B): Right isotope, but the whole atom is not the unit. If it were, carbon-12 would have a relative mass of 1, not 12.
-        "1": "",
+        "1": "동위 원소는 맞지만 원자 전체가 1단위는 아니에요. 그렇다면 탄소-12의 상대 질량은 12가 아니라 1이 될 거예요.",
         // EN (option D): An oxygen scale was used in the past. The scale used now, and by the IB, is based on carbon-12.
-        "3": "",
+        "3": "예전에는 산소 기준 눈금을 쓰기도 했어요. 지금 쓰는 눈금, 그리고 IB가 쓰는 눈금은 탄소-12 기준이에요.",
       },
     },
 
     // ── s1-4-q008 · mcq · foundation · SL · Structure 1.4.2 · 1 mark
     "s1-4-q008": {
       // EN: <p>Which is the relative formula mass, <i>M</i><sub>r</sub>, of calcium hydroxide, <span class="chem">Ca(OH)2</span>?</p><p>Use <i>A</i><sub>r</sub>: Ca = 40.08, O = 16.00, H = 1.01.</p>
-      stem: "",
+      stem: "<p>수산화 칼슘(<span class=\"chem\">Ca(OH)2</span>)의 상대 화학식량 <i>M</i><sub>r</sub>는 얼마인가요?</p><p><i>A</i><sub>r</sub>를 이용하세요: Ca = 40.08, O = 16.00, H = 1.01.</p>",
       options: [
         // EN: 57.09
-        "",
+        "57.09",
         // EN: 58.10
-        "",
+        "58.10",
         // EN: 74.10
-        "",
+        "74.10",
         // EN: 74.10 <span class="unit">g mol-1</span>
-        "",
+        "74.10 <span class=\"unit\">g mol-1</span>",
       ],
       hints: [
         // EN: Add the relative atomic masses of every atom in the formula.
-        "",
+        "화학식에 있는 모든 원자의 상대 원자 질량을 더하세요.",
         // EN: The 2 outside the bracket multiplies both O and H. Also think about whether a <em>relative</em> mass has units.
-        "",
+        "괄호 밖의 2는 O와 H 둘 다에 곱해요. 그리고 <em>상대</em> 질량에 단위가 있는지도 생각해 보세요.",
       ],
       // EN: <div class="worked__math"><i>M</i><sub>r</sub> = 40.08 + 2 × (16.00 + 1.01)</div><div class="worked__math"><i>M</i><sub>r</sub> = 40.08 + 34.02<br>&nbsp;&nbsp;= <strong>74.10</strong> (no units)</div><p><i>A</i><sub>r</sub> and <i>M</i><sub>r</sub> are ratios, so they have no units. Molar mass has the same number with units of <span class="unit">g mol-1</span>.</p>
       solution: "",
