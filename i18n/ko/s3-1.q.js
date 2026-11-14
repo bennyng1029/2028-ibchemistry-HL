@@ -1556,197 +1556,197 @@ S1.i18n.register('ko', 's3-1.q', {
         // EN: What do the ligands do to the d orbitals? What happens to an electron when light arrives?
         "리간드는 d 오비탈에 어떤 영향을 주나요? 빛이 들어오면 전자에는 무슨 일이 일어나나요?",
         // EN: Finish with the link between the colour absorbed and the colour seen.
-        "",
+        "마지막으로 흡수된 색과 보이는 색의 관계를 쓰세요.",
       ],
       // EN: <p>The <span class="chem">Cu^2+</span> ion has a partially filled d sublevel (<span class="mono nowrap">[Ar] 3d<sup>9</sup></span>). The ligands (water molecules) cause the d orbitals to split into two sets with different energies. An electron absorbs light and is promoted from a lower-energy d orbital to a higher-energy d orbital. The energy gap corresponds to light in the visible region. The colour observed (blue) is complementary to the colour absorbed (orange).</p><p>Do not write that the complex <em>emits</em> blue light. The colour comes from absorption.</p>
-      answer: "",
+      answer: "<p><span class=\"chem\">Cu^2+</span> 이온은 부분적으로 채워진 d 부껍질(<span class=\"mono nowrap\">[Ar] 3d<sup>9</sup></span>)을 가져요. 리간드(물 분자) 때문에 d 오비탈이 에너지가 서로 다른 두 무리로 갈라져요. 전자가 빛을 흡수해 에너지가 낮은 d 오비탈에서 에너지가 높은 d 오비탈로 올라가요. 이 에너지 차이는 가시광선 영역의 빛에 해당해요. 보이는 색(파랑)은 흡수된 색(주황)의 보색이에요.</p><p>착이온이 파란색 빛을 <em>방출한다</em>고 쓰지 마세요. 색은 흡수 때문에 생겨요.</p>",
       markscheme: [
         // EN: The ion has partially filled d orbitals / an incomplete d sublevel.
-        "",
+        "이온이 부분적으로 채워진 d 오비탈 / 다 채워지지 않은 d 부껍질을 가진다.",
         // EN: The ligands cause the d orbitals to split (into two sets of different energy).
-        "",
+        "리간드 때문에 d 오비탈이 (에너지가 다른 두 무리로) 갈라진다.",
         // EN: Light is absorbed as electrons are promoted / move to higher-energy d orbitals.
-        "",
+        "전자가 에너지가 더 높은 d 오비탈로 올라갈 / 이동할 때 빛이 흡수된다.",
         // EN: The energy gap corresponds to (the frequency of) visible light.
-        "",
+        "에너지 차이는 가시광선(의 진동수)에 해당한다.",
         // EN: The colour observed is complementary to the colour absorbed (only if absorption of light is mentioned).
-        "",
+        "보이는 색은 흡수된 색의 보색이다(빛의 흡수를 언급한 경우에만).",
       ],
     },
 
     // ── s3-1-q056 · mcq · exam · AHL · Structure 3.1.10 · 1 mark
     "s3-1-q056": {
       // EN: <p>A solution that contains a transition element complex ion appears green in white light. Which statement explains this?</p><p><svg viewBox="0 0 300 224" width="300" height="224" style="max-width:100%;height:auto" role="img" aria-label="Colour wheel from the data booklet. Six equal sectors, clockwise from the top: orange, 585 to 647 nanometres; yellow, 575 to 585; green, 491 to 575; blue, 424 to 491; violet, 400 to 424; red, 647 to 700. Orange is opposite blue, yellow is opposite violet, and green is opposite red."><circle cx="150" cy="112" r="74" fill="none" stroke="currentColor" stroke-width="1.5"/><line x1="150" y1="112" x2="224.0" y2="112.0" stroke="currentColor" stroke-width="1.2"/><line x1="150" y1="112" x2="187.0" y2="47.9" stroke="currentColor" stroke-width="1.2"/><line x1="150" y1="112" x2="113.0" y2="47.9" stroke="currentColor" stroke-width="1.2"/><line x1="150" y1="112" x2="76.0" y2="112.0" stroke="currentColor" stroke-width="1.2"/><line x1="150" y1="112" x2="113.0" y2="176.1" stroke="currentColor" stroke-width="1.2"/><line x1="150" y1="112" x2="187.0" y2="176.1" stroke="currentColor" stroke-width="1.2"/><text x="150.0" y="70.1" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Orange</text><text x="189.7" y="93.1" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Yellow</text><text x="189.7" y="138.9" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Green</text><text x="150.0" y="161.9" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Blue</text><text x="110.3" y="138.9" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Violet</text><text x="110.3" y="93.1" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Red</text><text x="110.0" y="40.7" text-anchor="end" font-size="12" fill="currentColor">647 nm</text><text x="190.0" y="40.7" text-anchor="start" font-size="12" fill="currentColor">585 nm</text><text x="232.0" y="116.0" text-anchor="start" font-size="12" fill="currentColor">575 nm</text><text x="190.0" y="193.3" text-anchor="start" font-size="12" fill="currentColor">491 nm</text><text x="110.0" y="193.3" text-anchor="end" font-size="12" fill="currentColor">424 nm</text><text x="68.0" y="108.0" text-anchor="end" font-size="12" fill="currentColor">700 nm</text><text x="68.0" y="126.0" text-anchor="end" font-size="12" fill="currentColor">400 nm</text></svg></p>
-      stem: "",
+      stem: "<p>전이 원소 착이온이 들어 있는 용액이 백색광 아래에서 초록색으로 보여요. 그 이유를 설명하는 것은 어느 것인가요?</p><p><svg viewBox=\"0 0 300 224\" width=\"300\" height=\"224\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"데이터 부클릿의 색상환. 크기가 같은 6개 부채꼴로, 맨 위에서 시계 방향으로: 주황 585–647 나노미터, 노랑 575–585, 초록 491–575, 파랑 424–491, 보라 400–424, 빨강 647–700. 주황은 파랑의 맞은편, 노랑은 보라의 맞은편, 초록은 빨강의 맞은편에 있어요.\"><circle cx=\"150\" cy=\"112\" r=\"74\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"112\" x2=\"224.0\" y2=\"112.0\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"187.0\" y2=\"47.9\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"113.0\" y2=\"47.9\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"76.0\" y2=\"112.0\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"113.0\" y2=\"176.1\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"187.0\" y2=\"176.1\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"150.0\" y=\"70.1\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">주황</text><text x=\"189.7\" y=\"93.1\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">노랑</text><text x=\"189.7\" y=\"138.9\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">초록</text><text x=\"150.0\" y=\"161.9\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">파랑</text><text x=\"110.3\" y=\"138.9\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">보라</text><text x=\"110.3\" y=\"93.1\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">빨강</text><text x=\"110.0\" y=\"40.7\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">647 nm</text><text x=\"190.0\" y=\"40.7\" text-anchor=\"start\" font-size=\"12\" fill=\"currentColor\">585 nm</text><text x=\"232.0\" y=\"116.0\" text-anchor=\"start\" font-size=\"12\" fill=\"currentColor\">575 nm</text><text x=\"190.0\" y=\"193.3\" text-anchor=\"start\" font-size=\"12\" fill=\"currentColor\">491 nm</text><text x=\"110.0\" y=\"193.3\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">424 nm</text><text x=\"68.0\" y=\"108.0\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">700 nm</text><text x=\"68.0\" y=\"126.0\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">400 nm</text></svg></p>",
       options: [
         // EN: Electrons fall from higher-energy d orbitals to lower-energy d orbitals and emit green light.
-        "",
+        "전자가 에너지가 높은 d 오비탈에서 에너지가 낮은 d 오비탈로 떨어지면서 초록색 빛을 방출해요.",
         // EN: The complex absorbs green light when electrons are promoted between the split d orbitals.
-        "",
+        "전자가 갈라진 d 오비탈 사이에서 올라갈 때 착이온이 초록색 빛을 흡수해요.",
         // EN: The complex absorbs red light when electrons are promoted between the split d orbitals. The light that is left appears green.
-        "",
+        "전자가 갈라진 d 오비탈 사이에서 올라갈 때 착이온이 빨간색 빛을 흡수해요. 남은 빛이 초록색으로 보여요.",
         // EN: The complex absorbs all colours of visible light except red.
-        "",
+        "착이온이 빨간색을 뺀 모든 색의 가시광선을 흡수해요.",
       ],
       hints: [
         // EN: Is the colour caused by light being absorbed or by light being emitted?
-        "",
+        "색은 빛이 흡수되어서 생기나요, 방출되어서 생기나요?",
         // EN: Find the colour opposite green on the wheel.
-        "",
+        "색상환에서 초록의 맞은편에 있는 색을 찾으세요.",
       ],
       // EN: <p>White light passes through the solution. The complex <strong>absorbs</strong> light of one colour, and the energy promotes an electron from a lower-energy d orbital to a higher-energy d orbital. The colour seen is the complementary colour. Red is opposite green on the wheel, so the complex absorbs <strong>red</strong> light and appears green.</p>
-      solution: "",
+      solution: "<p>백색광이 용액을 통과해요. 착이온은 한 가지 색의 빛을 <strong>흡수하고</strong>, 그 에너지로 전자가 에너지가 낮은 d 오비탈에서 에너지가 높은 d 오비탈로 올라가요. 눈에 보이는 색은 그 보색이에요. 색상환에서 빨강은 초록의 맞은편에 있으므로, 착이온은 <strong>빨간색</strong> 빛을 흡수하고 초록색으로 보여요.</p>",
       misconception: {
         // EN (option A): This describes emission. The colour of a complex comes from <em>absorption</em> of part of the white light, not from light given out.
-        "0": "",
+        "0": "이것은 방출을 설명한 거예요. 착이온의 색은 빛을 내보내서가 아니라 백색광의 일부를 <em>흡수</em>해서 생겨요.",
         // EN (option B): If green light were absorbed, it would be missing from the light that reaches your eye. The solution would appear red.
-        "1": "",
+        "1": "초록색 빛이 흡수된다면, 눈에 들어오는 빛에서 초록색이 빠질 거예요. 그러면 용액은 빨간색으로 보일 거예요.",
         // EN (option D): If only red light passed through, the solution would appear red, not green.
-        "3": "",
+        "3": "빨간색 빛만 통과한다면 용액은 초록색이 아니라 빨간색으로 보일 거예요.",
       },
     },
 
     // ── s3-1-q057 · numeric · exam · AHL · Structure 3.1.10 · 1 mark
     "s3-1-q057": {
       // EN: <p>A complex ion absorbs light most strongly at a wavelength of 510 nm. Calculate the frequency of this light, in Hz.</p><p>Use <i>c</i> = <i>λf</i> and <i>c</i> = 3.00 × 10<sup>8</sup> m s<sup>−1</sup>.</p>
-      stem: "",
+      stem: "<p>어떤 착이온은 파장 510 nm에서 빛을 가장 강하게 흡수해요. 이 빛의 진동수를 Hz 단위로 계산하시오 (calculate).</p><p><i>c</i> = <i>λf</i>와 <i>c</i> = 3.00 × 10<sup>8</sup> m s<sup>−1</sup>을 이용하세요.</p>",
       hints: [
         // EN: Convert the wavelength to metres first: 1 nm = 10<sup>−9</sup> m.
-        "",
+        "먼저 파장을 미터로 바꾸세요: 1 nm = 10<sup>−9</sup> m.",
         // EN: Rearrange <i>c</i> = <i>λf</i> to <i>f</i> = <i>c</i> / <i>λ</i>.
-        "",
+        "<i>c</i> = <i>λf</i>를 <i>f</i> = <i>c</i> / <i>λ</i>로 바꾸세요.",
       ],
       // EN: <div class="worked__math"><i>λ</i> = 510 nm = 510 × 10<sup>−9</sup> m = 5.10 × 10<sup>−7</sup> m</div><div class="worked__math"><i>f</i> = <i>c</i> / <i>λ</i></div><div class="worked__math">= (3.00 × 10<sup>8</sup> m s<sup>−1</sup>) ÷ (5.10 × 10<sup>−7</sup> m)</div><div class="worked__math">= <b>5.88 × 10<sup>14</sup> Hz</b> &nbsp; (3 s.f.)</div><p>On the colour wheel, 510 nm is green light (491–575 nm). The complex absorbs green, so it appears red.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>λ</i> = 510 nm = 510 × 10<sup>−9</sup> m = 5.10 × 10<sup>−7</sup> m</div><div class=\"worked__math\"><i>f</i> = <i>c</i> / <i>λ</i></div><div class=\"worked__math\">= (3.00 × 10<sup>8</sup> m s<sup>−1</sup>) ÷ (5.10 × 10<sup>−7</sup> m)</div><div class=\"worked__math\">= <b>5.88 × 10<sup>14</sup> Hz</b> &nbsp; (유효 숫자 3자리)</div><p>색상환에서 510 nm는 초록색 빛(491–575 nm)이에요. 착이온이 초록색을 흡수하므로 빨간색으로 보여요.</p>",
     },
 
     // ── s3-1-q058 · numeric · exam · AHL · Structure 3.1.10 · 1 mark
     "s3-1-q058": {
       // EN: <p>A complex ion absorbs light of frequency 6.38 × 10<sup>14</sup> Hz. Calculate the wavelength of this light, in nm.</p><p>Use <i>c</i> = <i>λf</i> and <i>c</i> = 3.00 × 10<sup>8</sup> m s<sup>−1</sup>.</p>
-      stem: "",
+      stem: "<p>어떤 착이온이 진동수 6.38 × 10<sup>14</sup> Hz인 빛을 흡수해요. 이 빛의 파장을 nm 단위로 계산하시오 (calculate).</p><p><i>c</i> = <i>λf</i>와 <i>c</i> = 3.00 × 10<sup>8</sup> m s<sup>−1</sup>을 이용하세요.</p>",
       hints: [
         // EN: Rearrange <i>c</i> = <i>λf</i> to <i>λ</i> = <i>c</i> / <i>f</i>. The answer is in metres.
-        "",
+        "<i>c</i> = <i>λf</i>를 <i>λ</i> = <i>c</i> / <i>f</i>로 바꾸세요. 답의 단위는 미터예요.",
         // EN: Convert metres to nanometres: multiply by 10<sup>9</sup>.
-        "",
+        "미터를 나노미터로 바꾸세요: 10<sup>9</sup>을 곱해요.",
       ],
       // EN: <div class="worked__math"><i>λ</i> = <i>c</i> / <i>f</i></div><div class="worked__math">= (3.00 × 10<sup>8</sup> m s<sup>−1</sup>) ÷ (6.38 × 10<sup>14</sup> s<sup>−1</sup>)</div><div class="worked__math">= 4.702… × 10<sup>−7</sup> m</div><div class="worked__math">= <b>470 nm</b> &nbsp; (3 s.f.)</div><p>On the colour wheel, 470 nm is blue light (424–491 nm). The complex absorbs blue, so it appears orange.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>λ</i> = <i>c</i> / <i>f</i></div><div class=\"worked__math\">= (3.00 × 10<sup>8</sup> m s<sup>−1</sup>) ÷ (6.38 × 10<sup>14</sup> s<sup>−1</sup>)</div><div class=\"worked__math\">= 4.702… × 10<sup>−7</sup> m</div><div class=\"worked__math\">= <b>470 nm</b> &nbsp; (유효 숫자 3자리)</div><p>색상환에서 470 nm는 파란색 빛(424–491 nm)이에요. 착이온이 파란색을 흡수하므로 주황색으로 보여요.</p>",
     },
 
     // ── s3-1-q059 · mcq · challenge · AHL · Structure 3.1.10 · 1 mark
     "s3-1-q059": {
       // EN: <p>A complex ion absorbs light of frequency 7.25 × 10<sup>14</sup> Hz. Use <i>c</i> = <i>λf</i> and the colour wheel.</p><p><svg viewBox="0 0 300 224" width="300" height="224" style="max-width:100%;height:auto" role="img" aria-label="Colour wheel from the data booklet. Six equal sectors, clockwise from the top: orange, 585 to 647 nanometres; yellow, 575 to 585; green, 491 to 575; blue, 424 to 491; violet, 400 to 424; red, 647 to 700. Orange is opposite blue, yellow is opposite violet, and green is opposite red."><circle cx="150" cy="112" r="74" fill="none" stroke="currentColor" stroke-width="1.5"/><line x1="150" y1="112" x2="224.0" y2="112.0" stroke="currentColor" stroke-width="1.2"/><line x1="150" y1="112" x2="187.0" y2="47.9" stroke="currentColor" stroke-width="1.2"/><line x1="150" y1="112" x2="113.0" y2="47.9" stroke="currentColor" stroke-width="1.2"/><line x1="150" y1="112" x2="76.0" y2="112.0" stroke="currentColor" stroke-width="1.2"/><line x1="150" y1="112" x2="113.0" y2="176.1" stroke="currentColor" stroke-width="1.2"/><line x1="150" y1="112" x2="187.0" y2="176.1" stroke="currentColor" stroke-width="1.2"/><text x="150.0" y="70.1" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Orange</text><text x="189.7" y="93.1" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Yellow</text><text x="189.7" y="138.9" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Green</text><text x="150.0" y="161.9" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Blue</text><text x="110.3" y="138.9" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Violet</text><text x="110.3" y="93.1" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Red</text><text x="110.0" y="40.7" text-anchor="end" font-size="12" fill="currentColor">647 nm</text><text x="190.0" y="40.7" text-anchor="start" font-size="12" fill="currentColor">585 nm</text><text x="232.0" y="116.0" text-anchor="start" font-size="12" fill="currentColor">575 nm</text><text x="190.0" y="193.3" text-anchor="start" font-size="12" fill="currentColor">491 nm</text><text x="110.0" y="193.3" text-anchor="end" font-size="12" fill="currentColor">424 nm</text><text x="68.0" y="108.0" text-anchor="end" font-size="12" fill="currentColor">700 nm</text><text x="68.0" y="126.0" text-anchor="end" font-size="12" fill="currentColor">400 nm</text></svg></p><p>Which row is correct?</p>
-      stem: "",
+      stem: "<p>어떤 착이온이 진동수 7.25 × 10<sup>14</sup> Hz인 빛을 흡수해요. <i>c</i> = <i>λf</i>와 색상환을 이용하세요.</p><p><svg viewBox=\"0 0 300 224\" width=\"300\" height=\"224\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"데이터 부클릿의 색상환. 크기가 같은 6개 부채꼴로, 맨 위에서 시계 방향으로: 주황 585–647 나노미터, 노랑 575–585, 초록 491–575, 파랑 424–491, 보라 400–424, 빨강 647–700. 주황은 파랑의 맞은편, 노랑은 보라의 맞은편, 초록은 빨강의 맞은편에 있어요.\"><circle cx=\"150\" cy=\"112\" r=\"74\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"112\" x2=\"224.0\" y2=\"112.0\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"187.0\" y2=\"47.9\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"113.0\" y2=\"47.9\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"76.0\" y2=\"112.0\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"113.0\" y2=\"176.1\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"187.0\" y2=\"176.1\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"150.0\" y=\"70.1\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">주황</text><text x=\"189.7\" y=\"93.1\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">노랑</text><text x=\"189.7\" y=\"138.9\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">초록</text><text x=\"150.0\" y=\"161.9\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">파랑</text><text x=\"110.3\" y=\"138.9\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">보라</text><text x=\"110.3\" y=\"93.1\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">빨강</text><text x=\"110.0\" y=\"40.7\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">647 nm</text><text x=\"190.0\" y=\"40.7\" text-anchor=\"start\" font-size=\"12\" fill=\"currentColor\">585 nm</text><text x=\"232.0\" y=\"116.0\" text-anchor=\"start\" font-size=\"12\" fill=\"currentColor\">575 nm</text><text x=\"190.0\" y=\"193.3\" text-anchor=\"start\" font-size=\"12\" fill=\"currentColor\">491 nm</text><text x=\"110.0\" y=\"193.3\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">424 nm</text><text x=\"68.0\" y=\"108.0\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">700 nm</text><text x=\"68.0\" y=\"126.0\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">400 nm</text></svg></p><p>옳은 것은 어느 것인가요?</p>",
       options: [
         // EN: Wavelength absorbed: 414 nm. Colour absorbed: yellow. Colour observed: violet.
-        "",
+        "흡수된 파장: 414 nm. 흡수된 색: 노랑. 보이는 색: 보라.",
         // EN: Wavelength absorbed: 414 nm. Colour absorbed: violet. Colour observed: violet.
-        "",
+        "흡수된 파장: 414 nm. 흡수된 색: 보라. 보이는 색: 보라.",
         // EN: Wavelength absorbed: 414 nm. Colour absorbed: violet. Colour observed: blue.
-        "",
+        "흡수된 파장: 414 nm. 흡수된 색: 보라. 보이는 색: 파랑.",
         // EN: Wavelength absorbed: 414 nm. Colour absorbed: violet. Colour observed: yellow.
-        "",
+        "흡수된 파장: 414 nm. 흡수된 색: 보라. 보이는 색: 노랑.",
       ],
       hints: [
         // EN: <i>λ</i> = <i>c</i> / <i>f</i>. Convert the answer from m to nm.
-        "",
+        "<i>λ</i> = <i>c</i> / <i>f</i>. 답을 m에서 nm로 바꾸세요.",
         // EN: Find the band on the wheel that contains this wavelength. That is the colour absorbed.
-        "",
+        "색상환에서 이 파장이 들어 있는 구간을 찾으세요. 그것이 흡수된 색이에요.",
         // EN: The colour observed is opposite on the wheel.
-        "",
+        "보이는 색은 색상환에서 맞은편에 있어요.",
       ],
       // EN: <div class="worked__math"><i>λ</i> = <i>c</i> / <i>f</i> = (3.00 × 10<sup>8</sup>) ÷ (7.25 × 10<sup>14</sup>)</div><div class="worked__math">= 4.14 × 10<sup>−7</sup> m = <b>414 nm</b></div><p>414 nm lies between 400 nm and 424 nm, so the light absorbed is <strong>violet</strong>. Yellow is opposite violet on the wheel, so the complex appears <strong>yellow</strong>.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>λ</i> = <i>c</i> / <i>f</i> = (3.00 × 10<sup>8</sup>) ÷ (7.25 × 10<sup>14</sup>)</div><div class=\"worked__math\">= 4.14 × 10<sup>−7</sup> m = <b>414 nm</b></div><p>414 nm는 400 nm와 424 nm 사이에 있으므로, 흡수된 빛은 <strong>보라색</strong>이에요. 색상환에서 노랑은 보라의 맞은편에 있으므로 착이온은 <strong>노란색</strong>으로 보여요.</p>",
       misconception: {
         // EN (option A): The two colours are swapped. The wavelength you calculate is the light <em>absorbed</em>: 414 nm is in the violet band (400–424 nm).
-        "0": "",
+        "0": "두 색이 서로 바뀌었어요. 계산한 파장은 <em>흡수된</em> 빛의 파장이에요: 414 nm는 보라색 구간(400–424 nm)에 있어요.",
         // EN (option B): The complex does not give out the light it absorbs. Violet is removed from the white light, so you see the complementary colour.
-        "1": "",
+        "1": "착이온은 흡수한 빛을 다시 내보내지 않아요. 백색광에서 보라색이 빠지므로 그 보색이 보여요.",
         // EN (option C): Blue is next to violet on the wheel. The complementary colour is directly opposite.
-        "2": "",
+        "2": "색상환에서 파랑은 보라 바로 옆에 있어요. 보색은 정반대편에 있어요.",
       },
     },
 
     // ── s3-1-q060 · mcq · challenge · AHL · Structure 3.1.10 · 1 mark
     "s3-1-q060": {
       // EN: <p>Which compound is expected to be coloured?</p>
-      stem: "",
+      stem: "<p>색깔을 띨 것으로 예상되는 화합물은 어느 것인가요?</p>",
       options: [
         // EN: <span class="chem">CuCl</span>
-        "",
+        "<span class=\"chem\">CuCl</span>",
         // EN: <span class="chem">ScCl3</span>
-        "",
+        "<span class=\"chem\">ScCl3</span>",
         // EN: <span class="chem">ZnSO4</span>
-        "",
+        "<span class=\"chem\">ZnSO4</span>",
         // EN: <span class="chem">TiCl3</span>
-        "",
+        "<span class=\"chem\">TiCl3</span>",
       ],
       hints: [
         // EN: Find the charge on the metal ion in each compound.
-        "",
+        "각 화합물에서 금속 이온의 전하를 구하세요.",
         // EN: Write the electron configuration of each ion (4s lost first).
-        "",
+        "각 이온의 전자 배치를 쓰세요(4s 전자가 먼저 떨어져 나가요).",
         // EN: Colour needs a partially filled d sublevel: at least one d electron, and at least one space.
-        "",
+        "색을 띠려면 부분적으로 채워진 d 부껍질이 필요해요: d 전자가 적어도 1개 있고, 빈자리도 적어도 1개 있어야 해요.",
       ],
       // EN: <p>Colour needs an electron that can be promoted from one d orbital to another. So the ion must have a <strong>partially filled d sublevel</strong>.</p><div class="worked__math"><span class="chem">Cu+</span>: <span class="mono nowrap">[Ar] 3d<sup>10</sup></span> &nbsp; full: not coloured</div><div class="worked__math"><span class="chem">Sc^3+</span>: <span class="mono nowrap">[Ar]</span> &nbsp; empty: not coloured</div><div class="worked__math"><span class="chem">Zn^2+</span>: <span class="mono nowrap">[Ar] 3d<sup>10</sup></span> &nbsp; full: not coloured</div><div class="worked__math"><span class="chem">Ti^3+</span>: <b><span class="mono nowrap">[Ar] 3d<sup>1</sup></span></b> &nbsp; partially filled: coloured</div>
-      solution: "",
+      solution: "<p>색을 띠려면 한 d 오비탈에서 다른 d 오비탈로 올라갈 수 있는 전자가 있어야 해요. 그래서 이온은 <strong>부분적으로 채워진 d 부껍질</strong>을 가져야 해요.</p><div class=\"worked__math\"><span class=\"chem\">Cu+</span>: <span class=\"mono nowrap\">[Ar] 3d<sup>10</sup></span> &nbsp; 꽉 참: 색 없음</div><div class=\"worked__math\"><span class=\"chem\">Sc^3+</span>: <span class=\"mono nowrap\">[Ar]</span> &nbsp; 비어 있음: 색 없음</div><div class=\"worked__math\"><span class=\"chem\">Zn^2+</span>: <span class=\"mono nowrap\">[Ar] 3d<sup>10</sup></span> &nbsp; 꽉 참: 색 없음</div><div class=\"worked__math\"><span class=\"chem\">Ti^3+</span>: <b><span class=\"mono nowrap\">[Ar] 3d<sup>1</sup></span></b> &nbsp; 부분적으로 채워짐: 색 있음</div>",
       misconception: {
         // EN (option A): CuCl contains <span class="chem">Cu+</span>, which is <span class="mono nowrap">[Ar] 3d<sup>10</sup></span>. The d sublevel is full, so no electron can be promoted between d orbitals.
-        "0": "",
+        "0": "CuCl에는 <span class=\"chem\">Cu+</span>이 들어 있고, 그 배치는 <span class=\"mono nowrap\">[Ar] 3d<sup>10</sup></span>이에요. d 부껍질이 꽉 차 있으므로 d 오비탈 사이에서 올라갈 수 있는 전자가 없어요.",
         // EN (option B): <span class="chem">ScCl3</span> contains <span class="chem">Sc^3+</span>, which is <span class="mono nowrap">[Ar]</span>. There are no d electrons to promote.
-        "1": "",
+        "1": "<span class=\"chem\">ScCl3</span>에는 <span class=\"chem\">Sc^3+</span>이 들어 있고, 그 배치는 <span class=\"mono nowrap\">[Ar]</span>이에요. 올라갈 d 전자가 없어요.",
         // EN (option C): <span class="chem">ZnSO4</span> contains <span class="chem">Zn^2+</span>, which is <span class="mono nowrap">[Ar] 3d<sup>10</sup></span>. The d sublevel is full, so no electron can be promoted between d orbitals.
-        "2": "",
+        "2": "<span class=\"chem\">ZnSO4</span>에는 <span class=\"chem\">Zn^2+</span>이 들어 있고, 그 배치는 <span class=\"mono nowrap\">[Ar] 3d<sup>10</sup></span>이에요. d 부껍질이 꽉 차 있으므로 d 오비탈 사이에서 올라갈 수 있는 전자가 없어요.",
       },
     },
 
     // ── s3-1-q061 · numeric · challenge · AHL · Structure 3.1.10 · 2 marks
     "s3-1-q061": {
       // EN: <p>A solution of a complex ion appears yellow in white light. Use the colour wheel to find the range of wavelengths that the complex absorbs.</p><p><svg viewBox="0 0 300 224" width="300" height="224" style="max-width:100%;height:auto" role="img" aria-label="Colour wheel from the data booklet. Six equal sectors, clockwise from the top: orange, 585 to 647 nanometres; yellow, 575 to 585; green, 491 to 575; blue, 424 to 491; violet, 400 to 424; red, 647 to 700. Orange is opposite blue, yellow is opposite violet, and green is opposite red."><circle cx="150" cy="112" r="74" fill="none" stroke="currentColor" stroke-width="1.5"/><line x1="150" y1="112" x2="224.0" y2="112.0" stroke="currentColor" stroke-width="1.2"/><line x1="150" y1="112" x2="187.0" y2="47.9" stroke="currentColor" stroke-width="1.2"/><line x1="150" y1="112" x2="113.0" y2="47.9" stroke="currentColor" stroke-width="1.2"/><line x1="150" y1="112" x2="76.0" y2="112.0" stroke="currentColor" stroke-width="1.2"/><line x1="150" y1="112" x2="113.0" y2="176.1" stroke="currentColor" stroke-width="1.2"/><line x1="150" y1="112" x2="187.0" y2="176.1" stroke="currentColor" stroke-width="1.2"/><text x="150.0" y="70.1" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Orange</text><text x="189.7" y="93.1" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Yellow</text><text x="189.7" y="138.9" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Green</text><text x="150.0" y="161.9" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Blue</text><text x="110.3" y="138.9" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Violet</text><text x="110.3" y="93.1" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">Red</text><text x="110.0" y="40.7" text-anchor="end" font-size="12" fill="currentColor">647 nm</text><text x="190.0" y="40.7" text-anchor="start" font-size="12" fill="currentColor">585 nm</text><text x="232.0" y="116.0" text-anchor="start" font-size="12" fill="currentColor">575 nm</text><text x="190.0" y="193.3" text-anchor="start" font-size="12" fill="currentColor">491 nm</text><text x="110.0" y="193.3" text-anchor="end" font-size="12" fill="currentColor">424 nm</text><text x="68.0" y="108.0" text-anchor="end" font-size="12" fill="currentColor">700 nm</text><text x="68.0" y="126.0" text-anchor="end" font-size="12" fill="currentColor">400 nm</text></svg></p><p>Calculate the <strong>lowest</strong> frequency of light in this range, in Hz. Use <i>c</i> = 3.00 × 10<sup>8</sup> m s<sup>−1</sup>.</p>
-      stem: "",
+      stem: "<p>어떤 착이온의 용액이 백색광 아래에서 노란색으로 보여요. 색상환을 이용해 이 착이온이 흡수하는 파장의 범위를 찾으세요.</p><p><svg viewBox=\"0 0 300 224\" width=\"300\" height=\"224\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"데이터 부클릿의 색상환. 크기가 같은 6개 부채꼴로, 맨 위에서 시계 방향으로: 주황 585–647 나노미터, 노랑 575–585, 초록 491–575, 파랑 424–491, 보라 400–424, 빨강 647–700. 주황은 파랑의 맞은편, 노랑은 보라의 맞은편, 초록은 빨강의 맞은편에 있어요.\"><circle cx=\"150\" cy=\"112\" r=\"74\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"112\" x2=\"224.0\" y2=\"112.0\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"187.0\" y2=\"47.9\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"113.0\" y2=\"47.9\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"76.0\" y2=\"112.0\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"113.0\" y2=\"176.1\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"150\" y1=\"112\" x2=\"187.0\" y2=\"176.1\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"150.0\" y=\"70.1\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">주황</text><text x=\"189.7\" y=\"93.1\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">노랑</text><text x=\"189.7\" y=\"138.9\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">초록</text><text x=\"150.0\" y=\"161.9\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">파랑</text><text x=\"110.3\" y=\"138.9\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">보라</text><text x=\"110.3\" y=\"93.1\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\">빨강</text><text x=\"110.0\" y=\"40.7\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">647 nm</text><text x=\"190.0\" y=\"40.7\" text-anchor=\"start\" font-size=\"12\" fill=\"currentColor\">585 nm</text><text x=\"232.0\" y=\"116.0\" text-anchor=\"start\" font-size=\"12\" fill=\"currentColor\">575 nm</text><text x=\"190.0\" y=\"193.3\" text-anchor=\"start\" font-size=\"12\" fill=\"currentColor\">491 nm</text><text x=\"110.0\" y=\"193.3\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">424 nm</text><text x=\"68.0\" y=\"108.0\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">700 nm</text><text x=\"68.0\" y=\"126.0\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">400 nm</text></svg></p><p>이 범위에서 <strong>가장 낮은</strong> 빛의 진동수를 Hz 단위로 계산하시오 (calculate). <i>c</i> = 3.00 × 10<sup>8</sup> m s<sup>−1</sup>을 이용하세요.</p>",
       hints: [
         // EN: The colour absorbed is opposite yellow on the wheel. Read its two boundary wavelengths.
-        "",
+        "흡수된 색은 색상환에서 노랑의 맞은편에 있어요. 그 색 구간의 양 끝 파장을 읽으세요.",
         // EN: <i>f</i> = <i>c</i> / <i>λ</i>. Does the lowest frequency go with the longest or the shortest wavelength?
-        "",
+        "<i>f</i> = <i>c</i> / <i>λ</i>. 가장 낮은 진동수는 가장 긴 파장과 짝을 이루나요, 가장 짧은 파장과 짝을 이루나요?",
         // EN: Convert nm to m before you divide.
-        "",
+        "나누기 전에 nm를 m로 바꾸세요.",
       ],
       // EN: <p>Violet is opposite yellow, so the complex absorbs violet light: 400 nm to 424 nm.</p><p>Frequency and wavelength are inversely proportional (<i>f</i> = <i>c</i> / <i>λ</i>). The <strong>lowest</strong> frequency goes with the <strong>longest</strong> wavelength, 424 nm.</p><div class="worked__math"><i>λ</i> = 424 nm = 4.24 × 10<sup>−7</sup> m</div><div class="worked__math"><i>f</i> = (3.00 × 10<sup>8</sup> m s<sup>−1</sup>) ÷ (4.24 × 10<sup>−7</sup> m)</div><div class="worked__math">= <b>7.08 × 10<sup>14</sup> Hz</b> &nbsp; (3 s.f.)</div><p>(Using 400 nm gives 7.50 × 10<sup>14</sup> Hz. That is the highest frequency in the range.)</p>
-      solution: "",
+      solution: "<p>보라는 노랑의 맞은편에 있으므로, 착이온은 보라색 빛(400 nm에서 424 nm까지)을 흡수해요.</p><p>진동수와 파장은 반비례해요(<i>f</i> = <i>c</i> / <i>λ</i>). <strong>가장 낮은</strong> 진동수는 <strong>가장 긴</strong> 파장인 424 nm와 짝을 이뤄요.</p><div class=\"worked__math\"><i>λ</i> = 424 nm = 4.24 × 10<sup>−7</sup> m</div><div class=\"worked__math\"><i>f</i> = (3.00 × 10<sup>8</sup> m s<sup>−1</sup>) ÷ (4.24 × 10<sup>−7</sup> m)</div><div class=\"worked__math\">= <b>7.08 × 10<sup>14</sup> Hz</b> &nbsp; (유효 숫자 3자리)</div><p>(400 nm를 쓰면 7.50 × 10<sup>14</sup> Hz가 나와요. 그것은 이 범위에서 가장 높은 진동수예요.)</p>",
     },
 
     // ── s3-1-q062 · mcq · exam · SL · Structure 3.1.5 · 1 mark
     "s3-1-q062": {
       // EN: <p>Carbon dioxide dissolves in water and reacts with it. Which equation shows this reaction?</p>
-      stem: "",
+      stem: "<p>이산화 탄소는 물에 녹아 물과 반응해요. 이 반응을 나타내는 반응식은 어느 것인가요?</p>",
       options: [
         // EN: <span class="chem">CO2(g) + 2H2O(l) -> C(OH)4(aq)</span>
-        "",
+        "<span class=\"chem\">CO2(g) + 2H2O(l) -> C(OH)4(aq)</span>",
         // EN: <span class="chem">CO2(g) + H2O(l) <=> H2CO3(aq)</span>
-        "",
+        "<span class=\"chem\">CO2(g) + H2O(l) <=> H2CO3(aq)</span>",
         // EN: <span class="chem">CO2(g) + H2O(l) <=> H2CO4(aq)</span>
-        "",
+        "<span class=\"chem\">CO2(g) + H2O(l) <=> H2CO4(aq)</span>",
         // EN: <span class="chem">CO2(g) + H2O(l) -> CO(g) + H2O2(aq)</span>
-        "",
+        "<span class=\"chem\">CO2(g) + H2O(l) -> CO(g) + H2O2(aq)</span>",
       ],
       hints: [
         // EN: Carbon is a non-metal. Is its oxide basic or acidic?
-        "",
+        "탄소는 비금속이에요. 탄소의 산화물은 염기성인가요, 산성인가요?",
         // EN: Non-metal oxide + water → acid. Add the atoms of <span class="chem">CO2</span> and <span class="chem">H2O</span> together.
-        "",
+        "비금속 산화물 + 물 → 산. <span class=\"chem\">CO2</span>와 <span class=\"chem\">H2O</span>의 원자를 모두 더하세요.",
       ],
       // EN: <p>Carbon dioxide is an acidic non-metal oxide. It reacts with water to form carbonic acid:</p><div class="worked__math"><span class="chem">CO2(g) + H2O(l) <=> H2CO3(aq)</span></div><p>Check: C 1 = 1; O 2 + 1 = 3; H 2 = 2. The reaction is reversible. The solution is weakly acidic. This reaction is the cause of ocean acidification.</p>
-      solution: "",
+      solution: "<p>이산화 탄소는 산성인 비금속 산화물이에요. 물과 반응해 탄산을 만들어요:</p><div class=\"worked__math\"><span class=\"chem\">CO2(g) + H2O(l) <=> H2CO3(aq)</span></div><p>확인: C 1 = 1; O 2 + 1 = 3; H 2 = 2. 이 반응은 가역 반응이에요. 용액은 약한 산성이에요. 이 반응이 해양 산성화의 원인이에요.</p>",
       misconception: {
         // EN (option A): Hydroxides form when the oxide of a group 1 or group 2 metal reacts with water. Carbon is a non-metal, so its oxide is acidic and forms an acid.
-        "0": "",
+        "0": "수산화물은 1족이나 2족 금속의 산화물이 물과 반응할 때 생겨요. 탄소는 비금속이므로 그 산화물은 산성이고 산을 만들어요.",
         // EN (option C): This equation is not balanced: there are 3 oxygen atoms on the left and 4 on the right. Add the atoms of the oxide and the water to get the formula of the acid.
-        "2": "",
+        "2": "이 반응식은 균형이 맞지 않아요: 산소 원자가 왼쪽에 3개, 오른쪽에 4개예요. 산화물과 물의 원자를 더해서 산의 화학식을 구하세요.",
         // EN (option D): Carbon dioxide does not take oxygen from water or give oxygen to it. A non-metal oxide and water combine to form one product, an acid.
-        "3": "",
+        "3": "이산화 탄소는 물에서 산소를 빼앗거나 물에 산소를 주지 않아요. 비금속 산화물과 물이 결합해 생성물 한 가지, 즉 산을 만들어요.",
       },
     },
 

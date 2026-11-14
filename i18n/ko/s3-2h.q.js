@@ -855,452 +855,452 @@ S1.i18n.register('ko', 's3-2h.q', {
     // ── s3-2h-q031 · numeric · foundation · AHL · Structure 3.2.10 · 1 mark
     "s3-2h-q031": {
       // EN: <p>How many signals are there in the <sup>1</sup>H NMR spectrum of pentan-3-one, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub><span></span></span>?</p>
-      stem: "",
+      stem: "<p>pentan-3-one, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub><span></span></span>의 <sup>1</sup>H NMR 스펙트럼에는 신호가 몇 개 있나요?</p>",
       hints: [
         // EN: Each signal comes from hydrogen atoms in one chemical environment.
-        "",
+        "각 신호는 한 화학적 환경에 있는 수소 원자들에서 나와요.",
         // EN: The molecule is symmetrical about the C=O group. Which hydrogen atoms match each other?
-        "",
+        "이 분자는 C=O기를 중심으로 대칭이에요. 어떤 수소 원자들이 서로 짝이 되나요?",
       ],
       // EN: <p>The molecule is symmetrical: the two ethyl groups are in identical positions.</p><ul><li>The six H atoms of the two <span class="chem">CH<sub>3</sub><span></span></span> groups are in one environment.</li><li>The four H atoms of the two <span class="chem">CH<sub>2</sub><span></span></span> groups are in a second environment.</li></ul><p>So there are <strong>2</strong> signals. The number of signals is not the number of H atoms (10) or the number of C atoms (5).</p>
-      solution: "",
+      solution: "<p>이 분자는 대칭이에요. 두 에틸기가 똑같은 위치에 있어요.</p><ul><li>두 <span class=\"chem\">CH<sub>3</sub><span></span></span>기의 H 원자 6개는 한 환경에 있어요.</li><li>두 <span class=\"chem\">CH<sub>2</sub><span></span></span>기의 H 원자 4개는 두 번째 환경에 있어요.</li></ul><p>따라서 신호는 <strong>2</strong>개예요. 신호의 수는 H 원자 수(10)나 C 원자 수(5)가 아니에요.</p>",
       // EN: signals
-      unit: "",
+      unit: "신호",
     },
 
     // ── s3-2h-q032 · mcq · foundation · AHL · Structure 3.2.10 · 1 mark
     "s3-2h-q032": {
       // EN: <p>What is the ratio of the areas under the signals in the <sup>1</sup>H NMR spectrum of 2-chloropropane, <span class="chem">CH<sub>3</sub>CHClCH<sub>3</sub><span></span></span>?</p>
-      stem: "",
+      stem: "<p>2-chloropropane, <span class=\"chem\">CH<sub>3</sub>CHClCH<sub>3</sub><span></span></span>의 <sup>1</sup>H NMR 스펙트럼에서 신호 아래 넓이의 비는 얼마인가요?</p>",
       options: [
         // EN: 6 : 1
-        "",
+        "6 : 1",
         // EN: 3 : 3 : 1
-        "",
+        "3 : 3 : 1",
         // EN: 3 : 1
-        "",
+        "3 : 1",
         // EN: 2 : 1
-        "",
+        "2 : 1",
       ],
       hints: [
         // EN: Count the different hydrogen environments first.
-        "",
+        "먼저 서로 다른 수소 환경의 수를 세세요.",
         // EN: Then count the hydrogen atoms in each environment.
-        "",
+        "그다음 각 환경에 있는 수소 원자의 수를 세세요.",
       ],
       // EN: <p>There are two environments: the six H atoms of the two equivalent <span class="chem">CH<sub>3</sub><span></span></span> groups, and the one H atom on the CHCl carbon. The area under each signal is proportional to the number of H atoms, so the ratio is <strong>6 : 1</strong>.</p>
-      solution: "",
+      solution: "<p>환경은 두 가지예요. 동등한 두 <span class=\"chem\">CH<sub>3</sub><span></span></span>기의 H 원자 6개, 그리고 CHCl 탄소에 있는 H 원자 1개예요. 각 신호 아래 넓이는 H 원자 수에 비례하므로 비는 <strong>6 : 1</strong>이에요.</p>",
       misconception: {
         // EN (option B): The two <span class="chem">CH<sub>3</sub><span></span></span> groups are in the same environment, because the molecule is symmetrical. They give one signal with area 6, not two signals.
-        "1": "",
+        "1": "분자가 대칭이므로 두 <span class=\"chem\">CH<sub>3</sub><span></span></span>기는 같은 환경에 있어요. 두 신호가 아니라 넓이가 6인 신호 하나를 만들어요.",
         // EN (option C): There are two <span class="chem">CH<sub>3</sub><span></span></span> groups in that environment, so six H atoms in total, not three.
-        "2": "",
+        "2": "그 환경에는 <span class=\"chem\">CH<sub>3</sub><span></span></span>기가 두 개 있으므로 H 원자는 모두 3개가 아니라 6개예요.",
         // EN (option D): This is the ratio of carbon atoms in the two environments. The area under a signal depends on the number of hydrogen atoms.
-        "3": "",
+        "3": "이것은 두 환경에 있는 탄소 원자 수의 비예요. 신호 아래 넓이는 수소 원자의 수에 따라 달라져요.",
       },
     },
 
     // ── s3-2h-q033 · numeric · exam · AHL · Structure 3.2.10 · 1 mark
     "s3-2h-q033": {
       // EN: <p>How many signals are there in the <sup>1</sup>H NMR spectrum of 2-methylpropan-1-ol, <span class="chem">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>OH<span></span></span>?</p>
-      stem: "",
+      stem: "<p>2-methylpropan-1-ol, <span class=\"chem\">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>OH<span></span></span>의 <sup>1</sup>H NMR 스펙트럼에는 신호가 몇 개 있나요?</p>",
       hints: [
         // EN: Draw the structure. Are the two <span class="chem">CH<sub>3</sub><span></span></span> groups attached to the same carbon?
-        "",
+        "구조를 그려 보세요. 두 <span class=\"chem\">CH<sub>3</sub><span></span></span>기는 같은 탄소에 붙어 있나요?",
         // EN: Do not forget the hydrogen atom of the OH group.
-        "",
+        "OH기의 수소 원자를 잊지 마세요.",
       ],
       // EN: <p>Count the environments one by one.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Hydrogen environments in 2-methylpropan-1-ol</caption><thead><tr><th scope="col">Environment</th><th scope="col">Number of H</th></tr></thead><tbody><tr><th scope="row">two equivalent CH<sub>3</sub> groups</th><td>6</td></tr><tr><th scope="row">CH</th><td>1</td></tr><tr><th scope="row">CH<sub>2</sub></th><td>2</td></tr><tr><th scope="row">OH</th><td>1</td></tr></tbody></table></div><p>There are <strong>4</strong> signals, with areas in the ratio 6 : 1 : 2 : 1. The two methyl groups are joined to the same carbon, so they are equivalent and give one signal.</p>
-      solution: "",
+      solution: "<p>환경을 하나씩 세어 보세요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>2-methylpropan-1-ol의 수소 환경</caption><thead><tr><th scope=\"col\">환경</th><th scope=\"col\">H의 수</th></tr></thead><tbody><tr><th scope=\"row\">동등한 CH<sub>3</sub>기 두 개</th><td>6</td></tr><tr><th scope=\"row\">CH</th><td>1</td></tr><tr><th scope=\"row\">CH<sub>2</sub></th><td>2</td></tr><tr><th scope=\"row\">OH</th><td>1</td></tr></tbody></table></div><p>신호는 <strong>4</strong>개이고, 넓이의 비는 6 : 1 : 2 : 1이에요. 두 메틸기는 같은 탄소에 붙어 있으므로 동등하고, 신호 하나를 만들어요.</p>",
       // EN: signals
-      unit: "",
+      unit: "신호",
     },
 
     // ── s3-2h-q034 · mcq · exam · AHL · Structure 3.2.10 · 1 mark
     "s3-2h-q034": {
       // EN: <p>An alcohol with the molecular formula <span class="chem">C<sub>4</sub>H<sub>10</sub>O<span></span></span> gives a <sup>1</sup>H NMR spectrum with two signals. The areas under the signals are in the ratio 9 : 1.</p><p>Which alcohol is it?</p>
-      stem: "",
+      stem: "<p>분자식이 <span class=\"chem\">C<sub>4</sub>H<sub>10</sub>O<span></span></span>인 알코올의 <sup>1</sup>H NMR 스펙트럼에는 신호가 두 개 있어요. 신호 아래 넓이의 비는 9 : 1이에요.</p><p>이 알코올은 무엇인가요?</p>",
       options: [
         // EN: <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH<span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH<span></span></span>",
         // EN: <span class="chem">CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub><span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub><span></span></span>",
         // EN: <span class="chem">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>OH<span></span></span>
-        "",
+        "<span class=\"chem\">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>OH<span></span></span>",
         // EN: <span class="chem">(CH<sub>3</sub>)<sub>3</sub>COH<span></span></span>
-        "",
+        "<span class=\"chem\">(CH<sub>3</sub>)<sub>3</sub>COH<span></span></span>",
       ],
       hints: [
         // EN: An area of 9 means nine H atoms in the same environment. How many <span class="chem">CH<sub>3</sub><span></span></span> groups is that?
-        "",
+        "넓이 9는 같은 환경에 H 원자가 9개 있다는 뜻이에요. <span class=\"chem\">CH<sub>3</sub><span></span></span>기로 치면 몇 개인가요?",
         // EN: Which structure has three <span class="chem">CH<sub>3</sub><span></span></span> groups attached to one carbon?
-        "",
+        "한 탄소에 <span class=\"chem\">CH<sub>3</sub><span></span></span>기 세 개가 붙어 있는 구조는 무엇인가요?",
       ],
       // EN: <p>Nine equivalent H atoms means three <span class="chem">CH<sub>3</sub><span></span></span> groups in identical positions. In 2-methylpropan-2-ol, <span class="chem">(CH<sub>3</sub>)<sub>3</sub>COH<span></span></span>, all three methyl groups are bonded to the same carbon. The tenth H atom is in the OH group. That gives two signals with areas 9 : 1.</p>
-      solution: "",
+      solution: "<p>동등한 H 원자 9개는 똑같은 위치에 있는 <span class=\"chem\">CH<sub>3</sub><span></span></span>기 세 개를 뜻해요. 2-methylpropan-2-ol, <span class=\"chem\">(CH<sub>3</sub>)<sub>3</sub>COH<span></span></span>에서는 세 메틸기가 모두 같은 탄소와 결합해 있어요. 열 번째 H 원자는 OH기에 있어요. 그래서 넓이가 9 : 1인 신호 두 개가 나와요.</p>",
       misconception: {
         // EN (option A): Butan-1-ol has five hydrogen environments (<span class="chem">CH<sub>3</sub><span></span></span>, three different <span class="chem">CH<sub>2</sub><span></span></span> groups and OH), so it gives five signals.
-        "0": "",
+        "0": "Butan-1-ol은 수소 환경이 다섯 가지(<span class=\"chem\">CH<sub>3</sub><span></span></span>, 서로 다른 <span class=\"chem\">CH<sub>2</sub><span></span></span>기 세 개, OH)이므로 신호가 다섯 개예요.",
         // EN (option B): Butan-2-ol has five hydrogen environments (two different <span class="chem">CH<sub>3</sub><span></span></span> groups, <span class="chem">CH<sub>2</sub><span></span></span>, CH and OH), so it gives five signals.
-        "1": "",
+        "1": "Butan-2-ol은 수소 환경이 다섯 가지(서로 다른 <span class=\"chem\">CH<sub>3</sub><span></span></span>기 두 개, <span class=\"chem\">CH<sub>2</sub><span></span></span>, CH, OH)이므로 신호가 다섯 개예요.",
         // EN (option C): 2-methylpropan-1-ol has four hydrogen environments, with areas 6 : 1 : 2 : 1.
-        "2": "",
+        "2": "2-methylpropan-1-ol은 수소 환경이 네 가지이고, 넓이는 6 : 1 : 2 : 1이에요.",
       },
     },
 
     // ── s3-2h-q035 · mcq · exam · AHL · Structure 3.2.10 · 1 mark
     "s3-2h-q035": {
       // EN: <p>Propanal has the structure <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CHO<span></span></span>. In which chemical shift range does the signal of the hydrogen atom in the CHO group appear?</p><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 21): <sup>1</sup>H NMR chemical shifts</caption><thead><tr><th scope="col">Type of proton</th><th scope="col">Chemical shift / ppm</th></tr></thead><tbody><tr><th scope="row"><span class="chem">–C<b>H</b><sub>3</sub></span></th><td>0.9–1.0</td></tr><tr><th scope="row"><span class="chem">R–C(=O)–C<b>H</b><sub>2</sub>–</span></th><td>2.2–2.7</td></tr><tr><th scope="row"><span class="chem">–CH=C<b>H</b><sub>2</sub></span></th><td>4.5–6.0</td></tr><tr><th scope="row"><span class="chem">R–C(=O)–O–<b>H</b></span></th><td>9.0–13.0</td></tr><tr><th scope="row"><span class="chem">R–C(=O)–<b>H</b></span></th><td>9.4–10.0</td></tr></tbody></table></div>
-      stem: "",
+      stem: "<p>Propanal의 구조는 <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CHO<span></span></span>예요. CHO기에 있는 수소 원자의 신호는 어느 화학적 이동 범위에 나타나나요?</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(21절): <sup>1</sup>H NMR 화학적 이동</caption><thead><tr><th scope=\"col\">양성자의 종류</th><th scope=\"col\">화학적 이동 / ppm</th></tr></thead><tbody><tr><th scope=\"row\"><span class=\"chem\">–C<b>H</b><sub>3</sub></span></th><td>0.9–1.0</td></tr><tr><th scope=\"row\"><span class=\"chem\">R–C(=O)–C<b>H</b><sub>2</sub>–</span></th><td>2.2–2.7</td></tr><tr><th scope=\"row\"><span class=\"chem\">–CH=C<b>H</b><sub>2</sub></span></th><td>4.5–6.0</td></tr><tr><th scope=\"row\"><span class=\"chem\">R–C(=O)–O–<b>H</b></span></th><td>9.0–13.0</td></tr><tr><th scope=\"row\"><span class=\"chem\">R–C(=O)–<b>H</b></span></th><td>9.4–10.0</td></tr></tbody></table></div>",
       options: [
         // EN: 2.2–2.7 ppm
-        "",
+        "2.2–2.7 ppm",
         // EN: 4.5–6.0 ppm
-        "",
+        "4.5–6.0 ppm",
         // EN: 9.0–13.0 ppm
-        "",
+        "9.0–13.0 ppm",
         // EN: 9.4–10.0 ppm
-        "",
+        "9.4–10.0 ppm",
       ],
       hints: [
         // EN: In the table the hydrogen in question is shown in bold. Find the row where the bold H is bonded directly to the C=O carbon.
-        "",
+        "표에서 해당 수소는 굵은 글씨로 표시되어 있어요. 굵은 H가 C=O 탄소에 직접 결합한 줄을 찾으세요.",
       ],
       // EN: <p>The CHO hydrogen is bonded directly to the carbonyl carbon. The booklet row R–C(=O)–<b>H</b> gives <strong>9.4–10.0 ppm</strong>. The other two signals of propanal are the <span class="chem">CH<sub>2</sub><span></span></span> group next to C=O (2.2–2.7 ppm) and the <span class="chem">CH<sub>3</sub><span></span></span> group (0.9–1.0 ppm).</p>
-      solution: "",
+      solution: "<p>CHO 수소는 카보닐 탄소에 직접 결합해 있어요. 부클릿의 R–C(=O)–<b>H</b> 줄은 <strong>9.4–10.0 ppm</strong>이에요. propanal의 나머지 두 신호는 C=O 옆의 <span class=\"chem\">CH<sub>2</sub><span></span></span>기(2.2–2.7 ppm)와 <span class=\"chem\">CH<sub>3</sub><span></span></span>기(0.9–1.0 ppm)예요.</p>",
       misconception: {
         // EN (option A): This is the range for H atoms on a carbon <strong>next to</strong> the C=O group. In propanal that is the <span class="chem">CH<sub>2</sub><span></span></span> group, not the CHO hydrogen.
-        "0": "",
+        "0": "이것은 C=O기 <strong>옆</strong> 탄소에 있는 H 원자의 범위예요. propanal에서 그것은 CHO 수소가 아니라 <span class=\"chem\">CH<sub>2</sub><span></span></span>기예요.",
         // EN (option B): This range is for H atoms on a C=C double bond. The CHO hydrogen is on a C=O carbon.
-        "1": "",
+        "1": "이 범위는 C=C 이중 결합에 있는 H 원자의 범위예요. CHO 수소는 C=O 탄소에 있어요.",
         // EN (option C): This row is for the O–H hydrogen of a carboxylic acid. In an aldehyde the hydrogen is bonded to the carbon of the C=O group, not to an oxygen atom.
-        "2": "",
+        "2": "이 줄은 카복실산의 O–H 수소에 대한 것이에요. 알데하이드에서 수소는 산소 원자가 아니라 C=O기의 탄소에 결합해 있어요.",
       },
     },
 
     // ── s3-2h-q036 · mcq · exam · AHL · Structure 3.2.10 · 1 mark
     "s3-2h-q036": {
       // EN: <p>The sketch shows the <sup>1</sup>H NMR spectrum of a compound, drawn without splitting, with the molecular formula <span class="chem">C<sub>3</sub>H<sub>6</sub>O<sub>2</sub><span></span></span>. The number above each signal is its relative area.</p><p><svg class="q-fig" viewBox="0 0 300 150" width="300" height="150" style="max-width:100%;height:auto" role="img" aria-label="NMR sketch with a chemical shift axis from 12 ppm on the left to 0 ppm on the right. There are two signals of equal area: one at 3.7 ppm and one at 2.1 ppm."><path d="M12 116H288" fill="none" stroke="currentColor" stroke-width="1.2"/><line x1="288.0" y1="116" x2="288.0" y2="120" stroke="currentColor" stroke-width="1"/><text x="288.0" y="132" text-anchor="middle" font-size="11" fill="currentColor">0</text><line x1="265.0" y1="116" x2="265.0" y2="120" stroke="currentColor" stroke-width="1"/><line x1="242.0" y1="116" x2="242.0" y2="120" stroke="currentColor" stroke-width="1"/><text x="242.0" y="132" text-anchor="middle" font-size="11" fill="currentColor">2</text><line x1="219.0" y1="116" x2="219.0" y2="120" stroke="currentColor" stroke-width="1"/><line x1="196.0" y1="116" x2="196.0" y2="120" stroke="currentColor" stroke-width="1"/><text x="196.0" y="132" text-anchor="middle" font-size="11" fill="currentColor">4</text><line x1="173.0" y1="116" x2="173.0" y2="120" stroke="currentColor" stroke-width="1"/><line x1="150.0" y1="116" x2="150.0" y2="120" stroke="currentColor" stroke-width="1"/><text x="150.0" y="132" text-anchor="middle" font-size="11" fill="currentColor">6</text><line x1="127.0" y1="116" x2="127.0" y2="120" stroke="currentColor" stroke-width="1"/><line x1="104.0" y1="116" x2="104.0" y2="120" stroke="currentColor" stroke-width="1"/><text x="104.0" y="132" text-anchor="middle" font-size="11" fill="currentColor">8</text><line x1="81.0" y1="116" x2="81.0" y2="120" stroke="currentColor" stroke-width="1"/><line x1="58.0" y1="116" x2="58.0" y2="120" stroke="currentColor" stroke-width="1"/><text x="58.0" y="132" text-anchor="middle" font-size="11" fill="currentColor">10</text><line x1="35.0" y1="116" x2="35.0" y2="120" stroke="currentColor" stroke-width="1"/><line x1="12.0" y1="116" x2="12.0" y2="120" stroke="currentColor" stroke-width="1"/><text x="12.0" y="132" text-anchor="middle" font-size="11" fill="currentColor">12</text><text x="150" y="147" text-anchor="middle" font-size="11" fill="currentColor">chemical shift / ppm</text><line x1="202.9" y1="116" x2="202.9" y2="28.0" stroke="currentColor" stroke-width="1.8"/><text x="202.9" y="23.0" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor">3</text><line x1="239.7" y1="116" x2="239.7" y2="28.0" stroke="currentColor" stroke-width="1.8"/><text x="239.7" y="23.0" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor">3</text></svg></p><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 21): <sup>1</sup>H NMR chemical shifts</caption><thead><tr><th scope="col">Type of proton</th><th scope="col">Chemical shift / ppm</th></tr></thead><tbody><tr><th scope="row"><span class="chem">–C<b>H</b><sub>3</sub></span></th><td>0.9–1.0</td></tr><tr><th scope="row"><span class="chem">RO–C(=O)–C<b>H</b><sub>2</sub>–</span></th><td>2.0–2.5</td></tr><tr><th scope="row"><span class="chem">R–C(=O)–C<b>H</b><sub>2</sub>–</span></th><td>2.2–2.7</td></tr><tr><th scope="row"><span class="chem">R–C(=O)–O–C<b>H</b><sub>2</sub>–</span></th><td>3.7–4.8</td></tr><tr><th scope="row"><span class="chem">R–C(=O)–O–<b>H</b></span></th><td>9.0–13.0</td></tr><tr><th scope="row"><span class="chem">R–O–<b>H</b></span></th><td>1.0–6.0</td></tr></tbody></table></div><p>Which compound gives this spectrum?</p>
-      stem: "",
+      stem: "<p>이 그림은 분자식이 <span class=\"chem\">C<sub>3</sub>H<sub>6</sub>O<sub>2</sub><span></span></span>인 화합물의 <sup>1</sup>H NMR 스펙트럼을 갈라짐 없이 그린 것이에요. 각 신호 위의 숫자는 상대 넓이예요.</p><p><svg class=\"q-fig\" viewBox=\"0 0 300 150\" width=\"300\" height=\"150\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"NMR 그림. 화학적 이동 축은 왼쪽 12 ppm에서 오른쪽 0 ppm까지예요. 넓이가 같은 신호가 두 개 있어요. 하나는 3.7 ppm, 하나는 2.1 ppm이에요.\"><path d=\"M12 116H288\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"288.0\" y1=\"116\" x2=\"288.0\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"288.0\" y=\"132\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">0</text><line x1=\"265.0\" y1=\"116\" x2=\"265.0\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"242.0\" y1=\"116\" x2=\"242.0\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"242.0\" y=\"132\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">2</text><line x1=\"219.0\" y1=\"116\" x2=\"219.0\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"196.0\" y1=\"116\" x2=\"196.0\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"196.0\" y=\"132\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">4</text><line x1=\"173.0\" y1=\"116\" x2=\"173.0\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"150.0\" y1=\"116\" x2=\"150.0\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"150.0\" y=\"132\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">6</text><line x1=\"127.0\" y1=\"116\" x2=\"127.0\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"104.0\" y1=\"116\" x2=\"104.0\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"104.0\" y=\"132\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">8</text><line x1=\"81.0\" y1=\"116\" x2=\"81.0\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"58.0\" y1=\"116\" x2=\"58.0\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"58.0\" y=\"132\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">10</text><line x1=\"35.0\" y1=\"116\" x2=\"35.0\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"12.0\" y1=\"116\" x2=\"12.0\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"12.0\" y=\"132\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">12</text><text x=\"150\" y=\"147\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">화학적 이동 / ppm</text><line x1=\"202.9\" y1=\"116\" x2=\"202.9\" y2=\"28.0\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"202.9\" y=\"23.0\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"currentColor\">3</text><line x1=\"239.7\" y1=\"116\" x2=\"239.7\" y2=\"28.0\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"239.7\" y=\"23.0\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"currentColor\">3</text></svg></p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(21절): <sup>1</sup>H NMR 화학적 이동</caption><thead><tr><th scope=\"col\">양성자의 종류</th><th scope=\"col\">화학적 이동 / ppm</th></tr></thead><tbody><tr><th scope=\"row\"><span class=\"chem\">–C<b>H</b><sub>3</sub></span></th><td>0.9–1.0</td></tr><tr><th scope=\"row\"><span class=\"chem\">RO–C(=O)–C<b>H</b><sub>2</sub>–</span></th><td>2.0–2.5</td></tr><tr><th scope=\"row\"><span class=\"chem\">R–C(=O)–C<b>H</b><sub>2</sub>–</span></th><td>2.2–2.7</td></tr><tr><th scope=\"row\"><span class=\"chem\">R–C(=O)–O–C<b>H</b><sub>2</sub>–</span></th><td>3.7–4.8</td></tr><tr><th scope=\"row\"><span class=\"chem\">R–C(=O)–O–<b>H</b></span></th><td>9.0–13.0</td></tr><tr><th scope=\"row\"><span class=\"chem\">R–O–<b>H</b></span></th><td>1.0–6.0</td></tr></tbody></table></div><p>이 스펙트럼을 나타내는 화합물은 무엇인가요?</p>",
       options: [
         // EN: <span class="chem">CH<sub>3</sub>CH<sub>2</sub>COOH<span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>COOH<span></span></span>",
         // EN: <span class="chem">CH<sub>3</sub>COOCH<sub>3</sub><span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>COOCH<sub>3</sub><span></span></span>",
         // EN: <span class="chem">HCOOCH<sub>2</sub>CH<sub>3</sub><span></span></span>
-        "",
+        "<span class=\"chem\">HCOOCH<sub>2</sub>CH<sub>3</sub><span></span></span>",
         // EN: <span class="chem">CH<sub>3</sub>COCH<sub>2</sub>OH<span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>COCH<sub>2</sub>OH<span></span></span>",
       ],
       hints: [
         // EN: Count the signals. How many hydrogen environments does the compound have?
-        "",
+        "신호의 수를 세세요. 이 화합물에는 수소 환경이 몇 가지 있나요?",
         // EN: Equal areas and six H atoms in total means three H atoms in each environment.
-        "",
+        "넓이가 같고 H 원자가 모두 6개이면 각 환경에 H 원자가 3개씩 있다는 뜻이에요.",
         // EN: Use the shifts to decide what each <span class="chem">CH<sub>3</sub><span></span></span> group is joined to.
-        "",
+        "화학적 이동을 이용해 각 <span class=\"chem\">CH<sub>3</sub><span></span></span>기가 무엇과 이어져 있는지 판단하세요.",
       ],
       // EN: <p>Two signals of equal area, with six H atoms in total, means two different <span class="chem">CH<sub>3</sub><span></span></span> groups.</p><ul><li>2.1 ppm is in the range 2.0–2.5 ppm: H on a carbon next to the C=O of an ester, <span class="chem">CH<sub>3</sub><span></span></span>–C(=O)–O.</li><li>3.7 ppm is in the range 3.7–4.8 ppm: H on a carbon bonded to the O of an ester, C(=O)–O–<span class="chem">CH<sub>3</sub><span></span></span>.</li></ul><p>The compound is methyl ethanoate, <span class="chem">CH<sub>3</sub>COOCH<sub>3</sub><span></span></span>. (The booklet rows show <span class="chem">CH<sub>2</sub><span></span></span>, but they also apply to <span class="chem">CH<sub>3</sub><span></span></span> groups in the same position.)</p>
-      solution: "",
+      solution: "<p>넓이가 같은 신호 두 개, H 원자 모두 6개는 서로 다른 <span class=\"chem\">CH<sub>3</sub><span></span></span>기 두 개를 뜻해요.</p><ul><li>2.1 ppm은 2.0–2.5 ppm 범위에 있어요. 에스터의 C=O 옆 탄소에 있는 H, 즉 <span class=\"chem\">CH<sub>3</sub><span></span></span>–C(=O)–O예요.</li><li>3.7 ppm은 3.7–4.8 ppm 범위에 있어요. 에스터의 O에 결합한 탄소에 있는 H, 즉 C(=O)–O–<span class=\"chem\">CH<sub>3</sub><span></span></span>예요.</li></ul><p>이 화합물은 methyl ethanoate, <span class=\"chem\">CH<sub>3</sub>COOCH<sub>3</sub><span></span></span>예요. (부클릿의 줄에는 <span class=\"chem\">CH<sub>2</sub><span></span></span>로 나와 있지만, 같은 위치의 <span class=\"chem\">CH<sub>3</sub><span></span></span>기에도 적용돼요.)</p>",
       misconception: {
         // EN (option A): Propanoic acid has three hydrogen environments (areas 3 : 2 : 1), and its COOH hydrogen gives a signal at 9.0–13.0 ppm. The sketch has nothing there.
-        "0": "",
+        "0": "Propanoic acid는 수소 환경이 세 가지(넓이 3 : 2 : 1)이고, COOH 수소는 9.0–13.0 ppm에서 신호를 만들어요. 그림에는 그곳에 아무것도 없어요.",
         // EN (option C): Ethyl methanoate has three hydrogen environments (H–C=O, <span class="chem">CH<sub>2</sub><span></span></span> and <span class="chem">CH<sub>3</sub><span></span></span>) with areas 1 : 2 : 3, so it gives three signals.
-        "2": "",
+        "2": "Ethyl methanoate는 수소 환경이 세 가지(H–C=O, <span class=\"chem\">CH<sub>2</sub><span></span></span>, <span class=\"chem\">CH<sub>3</sub><span></span></span>)이고 넓이가 1 : 2 : 3이므로 신호가 세 개예요.",
         // EN (option D): This molecule has three hydrogen environments (<span class="chem">CH<sub>3</sub><span></span></span>, <span class="chem">CH<sub>2</sub><span></span></span> and OH) with areas 3 : 2 : 1, so it gives three signals.
-        "3": "",
+        "3": "이 분자는 수소 환경이 세 가지(<span class=\"chem\">CH<sub>3</sub><span></span></span>, <span class=\"chem\">CH<sub>2</sub><span></span></span>, OH)이고 넓이가 3 : 2 : 1이므로 신호가 세 개예요.",
       },
     },
 
     // ── s3-2h-q037 · order · exam · AHL · Structure 3.2.10 · 1 mark
     "s3-2h-q037": {
       // EN: <p>Put these compounds in order of the number of signals in their <sup>1</sup>H NMR spectra, <strong>fewest signals first</strong>.</p>
-      stem: "",
+      stem: "<p>다음 화합물을 <sup>1</sup>H NMR 스펙트럼의 신호 수에 따라 <strong>신호가 가장 적은 것부터</strong> 순서대로 나열하세요.</p>",
       options: [
         // EN: propanone, <span class="chem">CH<sub>3</sub>COCH<sub>3</sub><span></span></span>
-        "",
+        "propanone, <span class=\"chem\">CH<sub>3</sub>COCH<sub>3</sub><span></span></span>",
         // EN: methyl ethanoate, <span class="chem">CH<sub>3</sub>COOCH<sub>3</sub><span></span></span>
-        "",
+        "methyl ethanoate, <span class=\"chem\">CH<sub>3</sub>COOCH<sub>3</sub><span></span></span>",
         // EN: propan-2-ol, <span class="chem">CH<sub>3</sub>CH(OH)CH<sub>3</sub><span></span></span>
-        "",
+        "propan-2-ol, <span class=\"chem\">CH<sub>3</sub>CH(OH)CH<sub>3</sub><span></span></span>",
         // EN: butanal, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CHO<span></span></span>
-        "",
+        "butanal, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CHO<span></span></span>",
         // EN: butan-2-ol, <span class="chem">CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub><span></span></span>
-        "",
+        "butan-2-ol, <span class=\"chem\">CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub><span></span></span>",
       ],
       hints: [
         // EN: Count hydrogen environments, not hydrogen atoms.
-        "",
+        "수소 원자가 아니라 수소 환경을 세세요.",
         // EN: Look for symmetry. Two <span class="chem">CH<sub>3</sub><span></span></span> groups in mirror-image positions give one signal.
-        "",
+        "대칭을 찾아보세요. 거울상 위치에 있는 두 <span class=\"chem\">CH<sub>3</sub><span></span></span>기는 신호 하나를 만들어요.",
       ],
       // EN: <div class="table-scroll" tabindex="0"><table class="data"><caption>Number of hydrogen environments</caption><thead><tr><th scope="col">Compound</th><th scope="col">Environments</th><th scope="col">Signals</th></tr></thead><tbody><tr><th scope="row">propanone</th><td>two equivalent CH<sub>3</sub></td><td>1</td></tr><tr><th scope="row">methyl ethanoate</th><td>CH<sub>3</sub>–C=O; O–CH<sub>3</sub></td><td>2</td></tr><tr><th scope="row">propan-2-ol</th><td>two equivalent CH<sub>3</sub>; CH; OH</td><td>3</td></tr><tr><th scope="row">butanal</th><td>CH<sub>3</sub>; CH<sub>2</sub>; CH<sub>2</sub>; CHO</td><td>4</td></tr><tr><th scope="row">butan-2-ol</th><td>CH<sub>3</sub>; CH; OH; CH<sub>2</sub>; CH<sub>3</sub></td><td>5</td></tr></tbody></table></div><p>Propanone and propan-2-ol are symmetrical, so their two methyl groups are equivalent. In methyl ethanoate and butan-2-ol the two methyl groups are in different positions, so they give separate signals.</p>
-      solution: "",
+      solution: "<div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>수소 환경의 수</caption><thead><tr><th scope=\"col\">화합물</th><th scope=\"col\">환경</th><th scope=\"col\">신호</th></tr></thead><tbody><tr><th scope=\"row\">propanone</th><td>동등한 CH<sub>3</sub> 두 개</td><td>1</td></tr><tr><th scope=\"row\">methyl ethanoate</th><td>CH<sub>3</sub>–C=O; O–CH<sub>3</sub></td><td>2</td></tr><tr><th scope=\"row\">propan-2-ol</th><td>동등한 CH<sub>3</sub> 두 개; CH; OH</td><td>3</td></tr><tr><th scope=\"row\">butanal</th><td>CH<sub>3</sub>; CH<sub>2</sub>; CH<sub>2</sub>; CHO</td><td>4</td></tr><tr><th scope=\"row\">butan-2-ol</th><td>CH<sub>3</sub>; CH; OH; CH<sub>2</sub>; CH<sub>3</sub></td><td>5</td></tr></tbody></table></div><p>Propanone과 propan-2-ol은 대칭이므로 두 메틸기가 동등해요. methyl ethanoate와 butan-2-ol에서는 두 메틸기가 서로 다른 위치에 있으므로 따로따로 신호를 만들어요.</p>",
     },
 
     // ── s3-2h-q038 · mcq · challenge · AHL · Structure 3.2.10 · 1 mark
     "s3-2h-q038": {
       // EN: <p>A compound with the molecular formula <span class="chem">C<sub>5</sub>H<sub>10</sub>O<span></span></span> gives a <sup>1</sup>H NMR spectrum with two signals. On the integration trace, the step heights for the two signals are 2.7 cm and 1.8 cm.</p><p>Which compound is it?</p>
-      stem: "",
+      stem: "<p>분자식이 <span class=\"chem\">C<sub>5</sub>H<sub>10</sub>O<span></span></span>인 화합물의 <sup>1</sup>H NMR 스펙트럼에는 신호가 두 개 있어요. 적분 곡선에서 두 신호의 계단 높이는 2.7 cm와 1.8 cm예요.</p><p>이 화합물은 무엇인가요?</p>",
       options: [
         // EN: pentan-2-one, <span class="chem">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub><span></span></span>
-        "",
+        "pentan-2-one, <span class=\"chem\">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub><span></span></span>",
         // EN: pentan-3-one, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub><span></span></span>
-        "",
+        "pentan-3-one, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub><span></span></span>",
         // EN: 3-methylbutan-2-one, <span class="chem">CH<sub>3</sub>COCH(CH<sub>3</sub>)<sub>2</sub><span></span></span>
-        "",
+        "3-methylbutan-2-one, <span class=\"chem\">CH<sub>3</sub>COCH(CH<sub>3</sub>)<sub>2</sub><span></span></span>",
         // EN: 2,2-dimethylpropanal, <span class="chem">(CH<sub>3</sub>)<sub>3</sub>CCHO<span></span></span>
-        "",
+        "2,2-dimethylpropanal, <span class=\"chem\">(CH<sub>3</sub>)<sub>3</sub>CCHO<span></span></span>",
       ],
       hints: [
         // EN: Turn the step heights into the simplest whole-number ratio.
-        "",
+        "계단 높이를 가장 간단한 정수비로 바꾸세요.",
         // EN: The molecule has ten H atoms. Share them out in that ratio.
-        "",
+        "이 분자에는 H 원자가 10개 있어요. 그 비율대로 나누세요.",
         // EN: Which structure has six H atoms in one environment and four in another?
-        "",
+        "한 환경에 H 원자 6개, 다른 환경에 4개가 있는 구조는 무엇인가요?",
       ],
       // EN: <div class="worked__math">2.7 : 1.8 = 1.5 : 1 = 3 : 2</div><div class="worked__math">10 H shared 3 : 2 → 6 H and 4 H</div><p>Pentan-3-one is symmetrical. Its two <span class="chem">CH<sub>3</sub><span></span></span> groups give one signal (6 H) and its two <span class="chem">CH<sub>2</sub><span></span></span> groups give the other (4 H). The step heights of an integration trace give the <strong>ratio</strong> of H atoms, so you must scale the ratio to the molecular formula.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">2.7 : 1.8 = 1.5 : 1 = 3 : 2</div><div class=\"worked__math\">H 10개를 3 : 2로 나눔 → H 6개와 H 4개</div><p>Pentan-3-one은 대칭이에요. 두 <span class=\"chem\">CH<sub>3</sub><span></span></span>기가 신호 하나(H 6개)를, 두 <span class=\"chem\">CH<sub>2</sub><span></span></span>기가 다른 신호(H 4개)를 만들어요. 적분 곡선의 계단 높이는 H 원자 수의 <strong>비</strong>를 알려 주므로, 그 비를 분자식에 맞게 늘려야 해요.</p>",
       misconception: {
         // EN (option A): Pentan-2-one has four hydrogen environments (areas 3 : 2 : 2 : 3), so it gives four signals.
-        "0": "",
+        "0": "Pentan-2-one은 수소 환경이 네 가지(넓이 3 : 2 : 2 : 3)이므로 신호가 네 개예요.",
         // EN (option C): 3-methylbutan-2-one has three hydrogen environments (areas 3 : 1 : 6), so it gives three signals.
-        "2": "",
+        "2": "3-methylbutan-2-one은 수소 환경이 세 가지(넓이 3 : 1 : 6)이므로 신호가 세 개예요.",
         // EN (option D): 2,2-dimethylpropanal does give two signals, but their areas are 9 : 1. The measured ratio is 3 : 2.
-        "3": "",
+        "3": "2,2-dimethylpropanal은 신호가 두 개이지만 넓이가 9 : 1이에요. 측정된 비는 3 : 2예요.",
       },
     },
 
     // ── s3-2h-q039 · numeric · foundation · AHL · Structure 3.2.11 · 1 mark
     "s3-2h-q039": {
       // EN: <p>In a <sup>1</sup>H NMR spectrum, one signal is a triplet (three peaks).</p><p>How many hydrogen atoms are bonded to the carbon atom next to the hydrogen atoms that give this signal?</p>
-      stem: "",
+      stem: "<p><sup>1</sup>H NMR 스펙트럼에서 한 신호가 삼중선(봉우리 3개)이에요.</p><p>이 신호를 만드는 수소 원자들 옆에 있는 탄소 원자에는 수소 원자가 몇 개 결합해 있나요?</p>",
       hints: [
         // EN: If the neighbouring carbon holds n hydrogen atoms, the signal is split into n + 1 peaks.
-        "",
+        "이웃 탄소에 수소 원자가 n개 있으면 신호는 n + 1개의 봉우리로 갈라져요.",
         // EN: Solve n + 1 = 3.
-        "",
+        "n + 1 = 3을 푸세요.",
       ],
       // EN: <p>A signal is split into n + 1 peaks, where n is the number of H atoms on the neighbouring carbon atom.</p><div class="worked__math">n + 1 = 3 &nbsp; so &nbsp; n = <b>2</b></div><p>A triplet tells you that the neighbouring carbon is a <span class="chem">CH<sub>2</sub><span></span></span> group. The splitting tells you about the neighbours, not about the hydrogen atoms that give the signal.</p>
-      solution: "",
+      solution: "<p>신호는 n + 1개의 봉우리로 갈라지고, 여기서 n은 이웃 탄소 원자에 있는 H 원자의 수예요.</p><div class=\"worked__math\">n + 1 = 3 &nbsp; 따라서 &nbsp; n = <b>2</b></div><p>삼중선은 이웃 탄소가 <span class=\"chem\">CH<sub>2</sub><span></span></span>기라는 것을 알려 줘요. 갈라짐은 신호를 만드는 수소 원자가 아니라 이웃에 대해 알려 줘요.</p>",
       // EN: H atoms
-      unit: "",
+      unit: "H 원자",
     },
 
     // ── s3-2h-q040 · mcq · exam · AHL · Structure 3.2.11 · 1 mark
     "s3-2h-q040": {
       // EN: <p>Butanone has the structure <span class="chem">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub><span></span></span>. What are the splitting patterns of its three signals in a <sup>1</sup>H NMR spectrum?</p>
-      stem: "",
+      stem: "<p>Butanone의 구조는 <span class=\"chem\">CH<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub><span></span></span>예요. <sup>1</sup>H NMR 스펙트럼에서 세 신호의 갈라짐 무늬는 무엇인가요?</p>",
       options: [
         // EN: <span class="chem">CH<sub>3</sub><span></span></span> next to C=O: singlet. <span class="chem">CH<sub>2</sub><span></span></span>: quartet. <span class="chem">CH<sub>3</sub><span></span></span> of the ethyl group: triplet.
-        "",
+        "C=O 옆의 <span class=\"chem\">CH<sub>3</sub><span></span></span>: 단일선. <span class=\"chem\">CH<sub>2</sub><span></span></span>: 사중선. 에틸기의 <span class=\"chem\">CH<sub>3</sub><span></span></span>: 삼중선.",
         // EN: <span class="chem">CH<sub>3</sub><span></span></span> next to C=O: singlet. <span class="chem">CH<sub>2</sub><span></span></span>: triplet. <span class="chem">CH<sub>3</sub><span></span></span> of the ethyl group: quartet.
-        "",
+        "C=O 옆의 <span class=\"chem\">CH<sub>3</sub><span></span></span>: 단일선. <span class=\"chem\">CH<sub>2</sub><span></span></span>: 삼중선. 에틸기의 <span class=\"chem\">CH<sub>3</sub><span></span></span>: 사중선.",
         // EN: <span class="chem">CH<sub>3</sub><span></span></span> next to C=O: singlet. <span class="chem">CH<sub>2</sub><span></span></span>: triplet. <span class="chem">CH<sub>3</sub><span></span></span> of the ethyl group: doublet.
-        "",
+        "C=O 옆의 <span class=\"chem\">CH<sub>3</sub><span></span></span>: 단일선. <span class=\"chem\">CH<sub>2</sub><span></span></span>: 삼중선. 에틸기의 <span class=\"chem\">CH<sub>3</sub><span></span></span>: 이중선.",
         // EN: <span class="chem">CH<sub>3</sub><span></span></span> next to C=O: triplet. <span class="chem">CH<sub>2</sub><span></span></span>: quartet. <span class="chem">CH<sub>3</sub><span></span></span> of the ethyl group: triplet.
-        "",
+        "C=O 옆의 <span class=\"chem\">CH<sub>3</sub><span></span></span>: 삼중선. <span class=\"chem\">CH<sub>2</sub><span></span></span>: 사중선. 에틸기의 <span class=\"chem\">CH<sub>3</sub><span></span></span>: 삼중선.",
       ],
       hints: [
         // EN: For each group, look at the carbon atom(s) directly bonded to it. How many H atoms do they hold?
-        "",
+        "각 원자단마다 그 원자단에 직접 결합한 탄소 원자를 보세요. 그 탄소에는 H 원자가 몇 개 있나요?",
         // EN: Number of peaks = n + 1.
-        "",
+        "봉우리 수 = n + 1.",
       ],
       // EN: <div class="table-scroll" tabindex="0"><table class="data"><caption>Splitting in butanone</caption><thead><tr><th scope="col">Group</th><th scope="col">H on the neighbouring carbon, n</th><th scope="col">Peaks, n + 1</th><th scope="col">Pattern</th></tr></thead><tbody><tr><th scope="row">CH<sub>3</sub> next to C=O</th><td>0</td><td>1</td><td>singlet</td></tr><tr><th scope="row">CH<sub>2</sub></th><td>3</td><td>4</td><td>quartet</td></tr><tr><th scope="row">CH<sub>3</sub> of ethyl</th><td>2</td><td>3</td><td>triplet</td></tr></tbody></table></div><p>A triplet (3 H) together with a quartet (2 H) is the pattern of an ethyl group.</p>
-      solution: "",
+      solution: "<div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>butanone의 갈라짐</caption><thead><tr><th scope=\"col\">원자단</th><th scope=\"col\">이웃 탄소의 H 수, n</th><th scope=\"col\">봉우리 수, n + 1</th><th scope=\"col\">무늬</th></tr></thead><tbody><tr><th scope=\"row\">C=O 옆의 CH<sub>3</sub></th><td>0</td><td>1</td><td>단일선</td></tr><tr><th scope=\"row\">CH<sub>2</sub></th><td>3</td><td>4</td><td>사중선</td></tr><tr><th scope=\"row\">에틸기의 CH<sub>3</sub></th><td>2</td><td>3</td><td>삼중선</td></tr></tbody></table></div><p>삼중선(H 3개)과 사중선(H 2개)이 함께 나타나면 에틸기의 무늬예요.</p>",
       misconception: {
         // EN (option B): This counts the H atoms on the <strong>same</strong> carbon and adds one. Splitting is caused by the H atoms on the <strong>neighbouring</strong> carbon.
-        "1": "",
+        "1": "이것은 <strong>같은</strong> 탄소에 있는 H 원자를 세고 1을 더한 것이에요. 갈라짐은 <strong>이웃</strong> 탄소에 있는 H 원자 때문에 생겨요.",
         // EN (option C): This uses n peaks. The rule is n + 1: three neighbouring H atoms give four peaks, and two give three peaks.
-        "2": "",
+        "2": "이것은 봉우리를 n개로 센 것이에요. 규칙은 n + 1이에요. 이웃한 H 원자 3개는 봉우리 4개를, 2개는 봉우리 3개를 만들어요.",
         // EN (option D): The carbon next to the first <span class="chem">CH<sub>3</sub><span></span></span> group is the C=O carbon, which holds no H atoms. The <span class="chem">CH<sub>2</sub><span></span></span> group is two carbons away, so it does not split this signal.
-        "3": "",
+        "3": "첫 번째 <span class=\"chem\">CH<sub>3</sub><span></span></span>기 옆의 탄소는 H 원자가 없는 C=O 탄소예요. <span class=\"chem\">CH<sub>2</sub><span></span></span>기는 탄소 두 개만큼 떨어져 있으므로 이 신호를 갈라지게 하지 않아요.",
       },
     },
 
     // ── s3-2h-q041 · mcq · exam · AHL · Structure 3.2.11 · 1 mark
     "s3-2h-q041": {
       // EN: <p>Which describes the <sup>1</sup>H NMR spectrum of 1,1-dichloroethane, <span class="chem">CH<sub>3</sub>CHCl<sub>2</sub><span></span></span>?</p>
-      stem: "",
+      stem: "<p>1,1-dichloroethane, <span class=\"chem\">CH<sub>3</sub>CHCl<sub>2</sub><span></span></span>의 <sup>1</sup>H NMR 스펙트럼을 옳게 나타낸 것은 무엇인가요?</p>",
       options: [
         // EN: One singlet
-        "",
+        "단일선 하나",
         // EN: A doublet (area 3) and a quartet (area 1)
-        "",
+        "이중선(넓이 3)과 사중선(넓이 1)",
         // EN: A quartet (area 3) and a doublet (area 1)
-        "",
+        "사중선(넓이 3)과 이중선(넓이 1)",
         // EN: A singlet (area 3) and a triplet (area 1)
-        "",
+        "단일선(넓이 3)과 삼중선(넓이 1)",
       ],
       hints: [
         // EN: There are two environments: <span class="chem">CH<sub>3</sub><span></span></span> (3 H) and <span class="chem">CHCl<sub>2</sub><span></span></span> (1 H).
-        "",
+        "환경은 두 가지예요: <span class=\"chem\">CH<sub>3</sub><span></span></span>(H 3개)와 <span class=\"chem\">CHCl<sub>2</sub><span></span></span>(H 1개).",
         // EN: Each signal is split by the H atoms on the other carbon. Use n + 1.
-        "",
+        "각 신호는 다른 탄소에 있는 H 원자 때문에 갈라져요. n + 1을 이용하세요.",
       ],
       // EN: <ul><li>The <span class="chem">CH<sub>3</sub><span></span></span> signal (area 3) has one H on the neighbouring carbon: 1 + 1 = 2 peaks, a <strong>doublet</strong>.</li><li>The CH signal (area 1) has three H atoms on the neighbouring carbon: 3 + 1 = 4 peaks, a <strong>quartet</strong>.</li></ul>
-      solution: "",
+      solution: "<ul><li><span class=\"chem\">CH<sub>3</sub><span></span></span> 신호(넓이 3)는 이웃 탄소에 H가 하나 있어요. 1 + 1 = 2개의 봉우리, 즉 <strong>이중선</strong>이에요.</li><li>CH 신호(넓이 1)는 이웃 탄소에 H 원자가 세 개 있어요. 3 + 1 = 4개의 봉우리, 즉 <strong>사중선</strong>이에요.</li></ul>",
       misconception: {
         // EN (option A): One singlet would mean that all four H atoms are in the same environment. That is true for the isomer 1,2-dichloroethane, <span class="chem">ClCH<sub>2</sub>CH<sub>2</sub>Cl<span></span></span>, but here the <span class="chem">CH<sub>3</sub><span></span></span> and CH hydrogen atoms are different.
-        "0": "",
+        "0": "단일선 하나라면 H 원자 4개가 모두 같은 환경에 있다는 뜻이에요. 이성질체인 1,2-dichloroethane, <span class=\"chem\">ClCH<sub>2</sub>CH<sub>2</sub>Cl<span></span></span>은 그렇지만, 여기서는 <span class=\"chem\">CH<sub>3</sub><span></span></span> 수소와 CH 수소가 서로 달라요.",
         // EN (option C): The patterns are on the wrong signals. This comes from counting the H atoms on the same carbon. The <span class="chem">CH<sub>3</sub><span></span></span> signal is split by the one H on the CH carbon.
-        "2": "",
+        "2": "무늬가 신호에 거꾸로 붙었어요. 같은 탄소의 H 원자를 세어서 생긴 실수예요. <span class=\"chem\">CH<sub>3</sub><span></span></span> 신호는 CH 탄소에 있는 H 하나 때문에 갈라져요.",
         // EN (option D): This uses n peaks, not n + 1. One neighbouring H gives two peaks, and three neighbouring H atoms give four peaks.
-        "3": "",
+        "3": "이것은 봉우리를 n + 1개가 아니라 n개로 센 것이에요. 이웃한 H 하나는 봉우리 2개를, 이웃한 H 원자 3개는 봉우리 4개를 만들어요.",
       },
     },
 
     // ── s3-2h-q042 · multi · exam · AHL · Structure 3.2.11 · 1 mark
     "s3-2h-q042": {
       // EN: <p>In which of these compounds is <strong>every</strong> signal in the <sup>1</sup>H NMR spectrum a singlet? Select <strong>all</strong> that apply. (Treat the signal of an O–H hydrogen as a singlet.)</p>
-      stem: "",
+      stem: "<p>다음 화합물 중 <sup>1</sup>H NMR 스펙트럼의 <strong>모든</strong> 신호가 단일선인 것은 무엇인가요? 해당하는 것을 <strong>모두</strong> 고르세요. (O–H 수소의 신호는 단일선으로 보세요.)</p>",
       options: [
         // EN: methyl ethanoate, <span class="chem">CH<sub>3</sub>COOCH<sub>3</sub><span></span></span>
-        "",
+        "methyl ethanoate, <span class=\"chem\">CH<sub>3</sub>COOCH<sub>3</sub><span></span></span>",
         // EN: ethyl methanoate, <span class="chem">HCOOCH<sub>2</sub>CH<sub>3</sub><span></span></span>
-        "",
+        "ethyl methanoate, <span class=\"chem\">HCOOCH<sub>2</sub>CH<sub>3</sub><span></span></span>",
         // EN: propanone, <span class="chem">CH<sub>3</sub>COCH<sub>3</sub><span></span></span>
-        "",
+        "propanone, <span class=\"chem\">CH<sub>3</sub>COCH<sub>3</sub><span></span></span>",
         // EN: ethanol, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>OH<span></span></span>
-        "",
+        "ethanol, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>OH<span></span></span>",
         // EN: 2-methylpropan-2-ol, <span class="chem">(CH<sub>3</sub>)<sub>3</sub>COH<span></span></span>
-        "",
+        "2-methylpropan-2-ol, <span class=\"chem\">(CH<sub>3</sub>)<sub>3</sub>COH<span></span></span>",
       ],
       hints: [
         // EN: A singlet means no H atoms on the neighbouring carbon atom.
-        "",
+        "단일선은 이웃 탄소 원자에 H 원자가 없다는 뜻이에요.",
         // EN: Look for <span class="chem">CH<sub>3</sub><span></span></span> groups whose only neighbour is a C=O carbon, an O atom, or a carbon with no H.
-        "",
+        "이웃이 C=O 탄소, O 원자, 또는 H가 없는 탄소뿐인 <span class=\"chem\">CH<sub>3</sub><span></span></span>기를 찾으세요.",
       ],
       // EN: <ul><li>Methyl ethanoate: one <span class="chem">CH<sub>3</sub><span></span></span> is next to the C=O carbon and the other is bonded to O. Neither has H atoms on a neighbouring carbon. Two singlets.</li><li>Propanone: both <span class="chem">CH<sub>3</sub><span></span></span> groups are next to the C=O carbon. One singlet.</li><li>2-methylpropan-2-ol: the three <span class="chem">CH<sub>3</sub><span></span></span> groups are bonded to a carbon with no H. One singlet for 9 H, and one singlet for OH.</li><li>Ethyl methanoate and ethanol each contain <span class="chem">CH<sub>3</sub>CH<sub>2</sub><span></span></span>, which gives a triplet and a quartet.</li></ul>
-      solution: "",
+      solution: "<ul><li>Methyl ethanoate: 한 <span class=\"chem\">CH<sub>3</sub><span></span></span>는 C=O 탄소 옆에 있고, 다른 하나는 O와 결합해 있어요. 어느 쪽도 이웃 탄소에 H 원자가 없어요. 단일선 두 개.</li><li>Propanone: 두 <span class=\"chem\">CH<sub>3</sub><span></span></span>기 모두 C=O 탄소 옆에 있어요. 단일선 하나.</li><li>2-methylpropan-2-ol: 세 <span class=\"chem\">CH<sub>3</sub><span></span></span>기가 H가 없는 탄소와 결합해 있어요. H 9개의 단일선 하나와 OH의 단일선 하나.</li><li>Ethyl methanoate와 ethanol은 각각 <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub><span></span></span>를 포함하므로 삼중선과 사중선이 나타나요.</li></ul>",
       misconception: {
         // EN (option B): Ethyl methanoate has an ethyl group. Its <span class="chem">CH<sub>2</sub><span></span></span> signal is a quartet and its <span class="chem">CH<sub>3</sub><span></span></span> signal is a triplet.
-        "1": "",
+        "1": "Ethyl methanoate에는 에틸기가 있어요. <span class=\"chem\">CH<sub>2</sub><span></span></span> 신호는 사중선이고 <span class=\"chem\">CH<sub>3</sub><span></span></span> 신호는 삼중선이에요.",
         // EN (option D): Ethanol has an ethyl group. Its <span class="chem">CH<sub>3</sub><span></span></span> signal is a triplet and its <span class="chem">CH<sub>2</sub><span></span></span> signal is a quartet.
-        "3": "",
+        "3": "Ethanol에는 에틸기가 있어요. <span class=\"chem\">CH<sub>3</sub><span></span></span> 신호는 삼중선이고 <span class=\"chem\">CH<sub>2</sub><span></span></span> 신호는 사중선이에요.",
       },
     },
 
     // ── s3-2h-q043 · short · challenge · AHL · Structure 3.2.11 · 4 marks
     "s3-2h-q043": {
       // EN: <p>Predict the <sup>1</sup>H NMR spectrum of ethyl ethanoate, <span class="chem">CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>3</sub><span></span></span>. Give the number of signals and, for each signal, the chemical shift range, the relative area and the splitting pattern.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 21): <sup>1</sup>H NMR chemical shifts</caption><thead><tr><th scope="col">Type of proton</th><th scope="col">Chemical shift / ppm</th></tr></thead><tbody><tr><th scope="row"><span class="chem">–C<b>H</b><sub>3</sub></span></th><td>0.9–1.0</td></tr><tr><th scope="row"><span class="chem">–C<b>H</b><sub>2</sub>–R</span></th><td>1.3–1.4</td></tr><tr><th scope="row"><span class="chem">RO–C(=O)–C<b>H</b><sub>2</sub>–</span></th><td>2.0–2.5</td></tr><tr><th scope="row"><span class="chem">R–C(=O)–C<b>H</b><sub>2</sub>–</span></th><td>2.2–2.7</td></tr><tr><th scope="row"><span class="chem">R–O–C<b>H</b><sub>2</sub>–</span></th><td>3.3–3.7</td></tr><tr><th scope="row"><span class="chem">R–C(=O)–O–C<b>H</b><sub>2</sub>–</span></th><td>3.7–4.8</td></tr></tbody></table></div>
-      stem: "",
+      stem: "<p>ethyl ethanoate, <span class=\"chem\">CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>3</sub><span></span></span>의 <sup>1</sup>H NMR 스펙트럼을 예측하시오 (predict). 신호의 수를 쓰고, 각 신호의 화학적 이동 범위, 상대 넓이, 갈라짐 무늬를 쓰세요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(21절): <sup>1</sup>H NMR 화학적 이동</caption><thead><tr><th scope=\"col\">양성자의 종류</th><th scope=\"col\">화학적 이동 / ppm</th></tr></thead><tbody><tr><th scope=\"row\"><span class=\"chem\">–C<b>H</b><sub>3</sub></span></th><td>0.9–1.0</td></tr><tr><th scope=\"row\"><span class=\"chem\">–C<b>H</b><sub>2</sub>–R</span></th><td>1.3–1.4</td></tr><tr><th scope=\"row\"><span class=\"chem\">RO–C(=O)–C<b>H</b><sub>2</sub>–</span></th><td>2.0–2.5</td></tr><tr><th scope=\"row\"><span class=\"chem\">R–C(=O)–C<b>H</b><sub>2</sub>–</span></th><td>2.2–2.7</td></tr><tr><th scope=\"row\"><span class=\"chem\">R–O–C<b>H</b><sub>2</sub>–</span></th><td>3.3–3.7</td></tr><tr><th scope=\"row\"><span class=\"chem\">R–C(=O)–O–C<b>H</b><sub>2</sub>–</span></th><td>3.7–4.8</td></tr></tbody></table></div>",
       hints: [
         // EN: Find the hydrogen environments first: there are two different <span class="chem">CH<sub>3</sub><span></span></span> groups and one <span class="chem">CH<sub>2</sub><span></span></span> group.
-        "",
+        "먼저 수소 환경을 찾으세요. 서로 다른 <span class=\"chem\">CH<sub>3</sub><span></span></span>기 두 개와 <span class=\"chem\">CH<sub>2</sub><span></span></span>기 하나가 있어요.",
         // EN: For shifts, check what each carbon is bonded to: the C=O carbon, the O atom, or only carbon.
-        "",
+        "화학적 이동은 각 탄소가 무엇과 결합해 있는지 확인하세요. C=O 탄소인지, O 원자인지, 탄소뿐인지요.",
         // EN: For splitting, count the H atoms on the neighbouring carbon and add one.
-        "",
+        "갈라짐은 이웃 탄소에 있는 H 원자를 세고 1을 더하세요.",
       ],
       // EN: <p>Work through one signal at a time and fill in a table: environment, shift, area, splitting.</p><ul><li><span class="chem">CH<sub>3</sub><span></span></span> next to the ester C=O: no H on the neighbouring carbon, so a singlet.</li><li>O–<span class="chem">CH<sub>2</sub><span></span></span>: three H on the neighbouring <span class="chem">CH<sub>3</sub><span></span></span>, so 3 + 1 = 4 peaks, a quartet.</li><li><span class="chem">CH<sub>3</sub><span></span></span> of the ethyl group: two H on the neighbouring <span class="chem">CH<sub>2</sub><span></span></span>, so 2 + 1 = 3 peaks, a triplet. The O atom is not a carbon with H atoms, so nothing on the other side splits the <span class="chem">CH<sub>2</sub><span></span></span> signal further.</li></ul><p>The measured signals are at about 2.0, 4.1 and 1.3 ppm, so the last one is a little above its booklet range. In an exam, quote the booklet ranges. Real spectra vary a little: the booklet says its values can change with the solvent and conditions.</p>
-      solution: "",
+      solution: "<p>신호를 하나씩 따져 보며 표를 채우세요: 환경, 화학적 이동, 넓이, 갈라짐.</p><ul><li>에스터의 C=O 옆에 있는 <span class=\"chem\">CH<sub>3</sub><span></span></span>: 이웃 탄소에 H가 없으므로 단일선.</li><li>O–<span class=\"chem\">CH<sub>2</sub><span></span></span>: 이웃한 <span class=\"chem\">CH<sub>3</sub><span></span></span>에 H가 3개 있으므로 3 + 1 = 4개의 봉우리, 즉 사중선.</li><li>에틸기의 <span class=\"chem\">CH<sub>3</sub><span></span></span>: 이웃한 <span class=\"chem\">CH<sub>2</sub><span></span></span>에 H가 2개 있으므로 2 + 1 = 3개의 봉우리, 즉 삼중선. O 원자는 H 원자를 가진 탄소가 아니므로, 반대쪽에는 <span class=\"chem\">CH<sub>2</sub><span></span></span> 신호를 더 갈라지게 하는 것이 없어요.</li></ul><p>실제로 측정한 신호는 약 2.0, 4.1, 1.3 ppm에 있으므로, 마지막 신호는 부클릿 범위보다 조금 높아요. 시험에서는 부클릿의 범위를 쓰세요. 실제 스펙트럼은 조금씩 달라요. 부클릿에도 값이 용매와 조건에 따라 달라질 수 있다고 나와 있어요.</p>",
       // EN: <div class="table-scroll" tabindex="0"><table class="data"><caption>Predicted spectrum of ethyl ethanoate (three signals)</caption><thead><tr><th scope="col">Hydrogen atoms</th><th scope="col">Shift / ppm</th><th scope="col">Area</th><th scope="col">Splitting</th></tr></thead><tbody><tr><th scope="row">C<b>H</b><sub>3</sub>–C(=O)–O</th><td>2.0–2.5</td><td>3</td><td>singlet</td></tr><tr><th scope="row">O–C<b>H</b><sub>2</sub></th><td>3.7–4.8</td><td>2</td><td>quartet</td></tr><tr><th scope="row">C<b>H</b><sub>3</sub> of ethyl</th><td>0.9–1.0</td><td>3</td><td>triplet</td></tr></tbody></table></div>
-      answer: "",
+      answer: "<div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>ethyl ethanoate의 예상 스펙트럼(신호 세 개)</caption><thead><tr><th scope=\"col\">수소 원자</th><th scope=\"col\">화학적 이동 / ppm</th><th scope=\"col\">넓이</th><th scope=\"col\">갈라짐</th></tr></thead><tbody><tr><th scope=\"row\">C<b>H</b><sub>3</sub>–C(=O)–O</th><td>2.0–2.5</td><td>3</td><td>단일선</td></tr><tr><th scope=\"row\">O–C<b>H</b><sub>2</sub></th><td>3.7–4.8</td><td>2</td><td>사중선</td></tr><tr><th scope=\"row\">에틸기의 C<b>H</b><sub>3</sub></th><td>0.9–1.0</td><td>3</td><td>삼중선</td></tr></tbody></table></div>",
       markscheme: [
         // EN: Three signals.
-        "",
+        "신호 3개.",
         // EN: Chemical shifts: 2.0–2.5 ppm (CH₃ next to C=O of the ester), 3.7–4.8 ppm (O–CH₂) and 0.9–1.0 ppm (CH₃ of ethyl). All three needed.
-        "",
+        "화학적 이동: 2.0–2.5 ppm(에스터의 C=O 옆 CH₃), 3.7–4.8 ppm(O–CH₂), 0.9–1.0 ppm(에틸기의 CH₃). 세 가지 모두 필요함.",
         // EN: Relative areas 3 : 2 : 3, matched to the correct groups.
-        "",
+        "상대 넓이 3 : 2 : 3, 올바른 원자단에 맞게 짝지음.",
         // EN: Splitting: singlet (CH₃CO), quartet (OCH₂), triplet (CH₃ of ethyl). Accept 1, 4 and 3 peaks.
-        "",
+        "갈라짐: 단일선(CH₃CO), 사중선(OCH₂), 삼중선(에틸기의 CH₃). 봉우리 1개, 4개, 3개도 인정.",
       ],
     },
 
     // ── s3-2h-q044 · mcq · challenge · AHL · Structure 3.2.11 · 1 mark
     "s3-2h-q044": {
       // EN: <p>The sketch and table show the <sup>1</sup>H NMR spectrum of a compound with the molecular formula <span class="chem">C<sub>4</sub>H<sub>8</sub>O<sub>2</sub><span></span></span>. The number above each signal is its relative area.</p><p><svg class="q-fig" viewBox="0 0 300 150" width="300" height="150" style="max-width:100%;height:auto" role="img" aria-label="NMR sketch with a chemical shift axis from 5 ppm on the left to 0 ppm on the right. A single peak of area 3 at 3.7 ppm, a group of four peaks of area 2 at 2.3 ppm, and a group of three peaks of area 3 at 1.0 ppm."><path d="M12 116H288" fill="none" stroke="currentColor" stroke-width="1.2"/><line x1="288.0" y1="116" x2="288.0" y2="120" stroke="currentColor" stroke-width="1"/><text x="288.0" y="132" text-anchor="middle" font-size="11" fill="currentColor">0</text><line x1="232.8" y1="116" x2="232.8" y2="120" stroke="currentColor" stroke-width="1"/><text x="232.8" y="132" text-anchor="middle" font-size="11" fill="currentColor">1</text><line x1="177.6" y1="116" x2="177.6" y2="120" stroke="currentColor" stroke-width="1"/><text x="177.6" y="132" text-anchor="middle" font-size="11" fill="currentColor">2</text><line x1="122.4" y1="116" x2="122.4" y2="120" stroke="currentColor" stroke-width="1"/><text x="122.4" y="132" text-anchor="middle" font-size="11" fill="currentColor">3</text><line x1="67.2" y1="116" x2="67.2" y2="120" stroke="currentColor" stroke-width="1"/><text x="67.2" y="132" text-anchor="middle" font-size="11" fill="currentColor">4</text><line x1="12.0" y1="116" x2="12.0" y2="120" stroke="currentColor" stroke-width="1"/><text x="12.0" y="132" text-anchor="middle" font-size="11" fill="currentColor">5</text><text x="150" y="147" text-anchor="middle" font-size="11" fill="currentColor">chemical shift / ppm</text><line x1="83.8" y1="116" x2="83.8" y2="28.0" stroke="currentColor" stroke-width="1.8"/><text x="83.8" y="23.0" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor">3</text><line x1="153.5" y1="116" x2="153.5" y2="108.7" stroke="currentColor" stroke-width="1.8"/><line x1="158.5" y1="116" x2="158.5" y2="94.0" stroke="currentColor" stroke-width="1.8"/><line x1="163.5" y1="116" x2="163.5" y2="94.0" stroke="currentColor" stroke-width="1.8"/><line x1="168.5" y1="116" x2="168.5" y2="108.7" stroke="currentColor" stroke-width="1.8"/><text x="161.0" y="89.0" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor">2</text><line x1="227.8" y1="116" x2="227.8" y2="94.0" stroke="currentColor" stroke-width="1.8"/><line x1="232.8" y1="116" x2="232.8" y2="72.0" stroke="currentColor" stroke-width="1.8"/><line x1="237.8" y1="116" x2="237.8" y2="94.0" stroke="currentColor" stroke-width="1.8"/><text x="232.8" y="67.0" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor">3</text></svg></p><div class="table-scroll" tabindex="0"><table class="data"><caption>Signals</caption><thead><tr><th scope="col">Shift / ppm</th><th scope="col">Area</th><th scope="col">Splitting</th></tr></thead><tbody><tr><th scope="row">3.7</th><td>3</td><td>singlet</td></tr><tr><th scope="row">2.3</th><td>2</td><td>quartet</td></tr><tr><th scope="row">1.0</th><td>3</td><td>triplet</td></tr></tbody></table></div><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 21): <sup>1</sup>H NMR chemical shifts</caption><thead><tr><th scope="col">Type of proton</th><th scope="col">Chemical shift / ppm</th></tr></thead><tbody><tr><th scope="row"><span class="chem">–C<b>H</b><sub>3</sub></span></th><td>0.9–1.0</td></tr><tr><th scope="row"><span class="chem">RO–C(=O)–C<b>H</b><sub>2</sub>–</span></th><td>2.0–2.5</td></tr><tr><th scope="row"><span class="chem">R–C(=O)–O–C<b>H</b><sub>2</sub>–</span></th><td>3.7–4.8</td></tr><tr><th scope="row"><span class="chem">R–C(=O)–O–<b>H</b></span></th><td>9.0–13.0</td></tr></tbody></table></div><p>Which compound is it?</p>
-      stem: "",
+      stem: "<p>그림과 표는 분자식이 <span class=\"chem\">C<sub>4</sub>H<sub>8</sub>O<sub>2</sub><span></span></span>인 화합물의 <sup>1</sup>H NMR 스펙트럼을 나타내요. 각 신호 위의 숫자는 상대 넓이예요.</p><p><svg class=\"q-fig\" viewBox=\"0 0 300 150\" width=\"300\" height=\"150\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"NMR 그림. 화학적 이동 축은 왼쪽 5 ppm에서 오른쪽 0 ppm까지예요. 3.7 ppm에 넓이 3인 봉우리 하나, 2.3 ppm에 넓이 2인 봉우리 4개 묶음, 1.0 ppm에 넓이 3인 봉우리 3개 묶음이 있어요.\"><path d=\"M12 116H288\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"288.0\" y1=\"116\" x2=\"288.0\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"288.0\" y=\"132\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">0</text><line x1=\"232.8\" y1=\"116\" x2=\"232.8\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"232.8\" y=\"132\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">1</text><line x1=\"177.6\" y1=\"116\" x2=\"177.6\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"177.6\" y=\"132\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">2</text><line x1=\"122.4\" y1=\"116\" x2=\"122.4\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"122.4\" y=\"132\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">3</text><line x1=\"67.2\" y1=\"116\" x2=\"67.2\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"67.2\" y=\"132\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">4</text><line x1=\"12.0\" y1=\"116\" x2=\"12.0\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"12.0\" y=\"132\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">5</text><text x=\"150\" y=\"147\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">화학적 이동 / ppm</text><line x1=\"83.8\" y1=\"116\" x2=\"83.8\" y2=\"28.0\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"83.8\" y=\"23.0\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"currentColor\">3</text><line x1=\"153.5\" y1=\"116\" x2=\"153.5\" y2=\"108.7\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"158.5\" y1=\"116\" x2=\"158.5\" y2=\"94.0\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"163.5\" y1=\"116\" x2=\"163.5\" y2=\"94.0\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"168.5\" y1=\"116\" x2=\"168.5\" y2=\"108.7\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"161.0\" y=\"89.0\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"currentColor\">2</text><line x1=\"227.8\" y1=\"116\" x2=\"227.8\" y2=\"94.0\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"232.8\" y1=\"116\" x2=\"232.8\" y2=\"72.0\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"237.8\" y1=\"116\" x2=\"237.8\" y2=\"94.0\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"232.8\" y=\"67.0\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"currentColor\">3</text></svg></p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>신호</caption><thead><tr><th scope=\"col\">화학적 이동 / ppm</th><th scope=\"col\">넓이</th><th scope=\"col\">갈라짐</th></tr></thead><tbody><tr><th scope=\"row\">3.7</th><td>3</td><td>단일선</td></tr><tr><th scope=\"row\">2.3</th><td>2</td><td>사중선</td></tr><tr><th scope=\"row\">1.0</th><td>3</td><td>삼중선</td></tr></tbody></table></div><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(21절): <sup>1</sup>H NMR 화학적 이동</caption><thead><tr><th scope=\"col\">양성자의 종류</th><th scope=\"col\">화학적 이동 / ppm</th></tr></thead><tbody><tr><th scope=\"row\"><span class=\"chem\">–C<b>H</b><sub>3</sub></span></th><td>0.9–1.0</td></tr><tr><th scope=\"row\"><span class=\"chem\">RO–C(=O)–C<b>H</b><sub>2</sub>–</span></th><td>2.0–2.5</td></tr><tr><th scope=\"row\"><span class=\"chem\">R–C(=O)–O–C<b>H</b><sub>2</sub>–</span></th><td>3.7–4.8</td></tr><tr><th scope=\"row\"><span class=\"chem\">R–C(=O)–O–<b>H</b></span></th><td>9.0–13.0</td></tr></tbody></table></div><p>이 화합물은 무엇인가요?</p>",
       options: [
         // EN: ethyl ethanoate, <span class="chem">CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>3</sub><span></span></span>
-        "",
+        "ethyl ethanoate, <span class=\"chem\">CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>3</sub><span></span></span>",
         // EN: methyl propanoate, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>COOCH<sub>3</sub><span></span></span>
-        "",
+        "methyl propanoate, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>COOCH<sub>3</sub><span></span></span>",
         // EN: butanoic acid, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COOH<span></span></span>
-        "",
+        "butanoic acid, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COOH<span></span></span>",
         // EN: propyl methanoate, <span class="chem">HCOOCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub><span></span></span>
-        "",
+        "propyl methanoate, <span class=\"chem\">HCOOCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub><span></span></span>",
       ],
       hints: [
         // EN: A triplet of area 3 with a quartet of area 2 is an ethyl group, <span class="chem">CH<sub>3</sub>CH<sub>2</sub><span></span></span>.
-        "",
+        "넓이 3인 삼중선과 넓이 2인 사중선은 에틸기 <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub><span></span></span>예요.",
         // EN: The singlet of area 3 is a <span class="chem">CH<sub>3</sub><span></span></span> group with no H on the neighbouring atom.
-        "",
+        "넓이 3인 단일선은 이웃 원자에 H가 없는 <span class=\"chem\">CH<sub>3</sub><span></span></span>기예요.",
         // EN: Now use the shifts. Which group is bonded to O (3.7–4.8 ppm) and which is next to C=O (2.0–2.5 ppm)?
-        "",
+        "이제 화학적 이동을 이용하세요. 어느 원자단이 O와 결합해 있고(3.7–4.8 ppm), 어느 원자단이 C=O 옆에 있나요(2.0–2.5 ppm)?",
       ],
       // EN: <ul><li>Triplet (3 H) and quartet (2 H): an ethyl group.</li><li>The quartet is at 2.3 ppm, in the range 2.0–2.5 ppm. So the <span class="chem">CH<sub>2</sub><span></span></span> is next to the C=O of an ester: <span class="chem">CH<sub>3</sub>CH<sub>2</sub><span></span></span>–C(=O)–O.</li><li>The singlet (3 H) is at 3.7 ppm, in the range 3.7–4.8 ppm. So this <span class="chem">CH<sub>3</sub><span></span></span> is bonded to the ester oxygen: O–<span class="chem">CH<sub>3</sub><span></span></span>.</li></ul><p>The compound is methyl propanoate, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>COOCH<sub>3</sub><span></span></span>. The triplet at 1.0 ppm is in the range 0.9–1.0 ppm: the <span class="chem">CH<sub>3</sub><span></span></span> of the ethyl group.</p>
-      solution: "",
+      solution: "<ul><li>삼중선(H 3개)과 사중선(H 2개): 에틸기.</li><li>사중선은 2.3 ppm으로 2.0–2.5 ppm 범위에 있어요. 따라서 <span class=\"chem\">CH<sub>2</sub><span></span></span>는 에스터의 C=O 옆에 있어요: <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub><span></span></span>–C(=O)–O.</li><li>단일선(H 3개)은 3.7 ppm으로 3.7–4.8 ppm 범위에 있어요. 따라서 이 <span class=\"chem\">CH<sub>3</sub><span></span></span>는 에스터의 산소와 결합해 있어요: O–<span class=\"chem\">CH<sub>3</sub><span></span></span>.</li></ul><p>이 화합물은 methyl propanoate, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>COOCH<sub>3</sub><span></span></span>예요. 1.0 ppm의 삼중선은 0.9–1.0 ppm 범위에 있어요. 에틸기의 <span class=\"chem\">CH<sub>3</sub><span></span></span>예요.</p>",
       misconception: {
         // EN (option A): Ethyl ethanoate also gives a singlet, a quartet and a triplet, but in different places. Its quartet (O–<span class="chem">CH<sub>2</sub><span></span></span>) would be at 3.7–4.8 ppm and its singlet (<span class="chem">CH<sub>3</sub><span></span></span> next to C=O) at 2.0–2.5 ppm. Here they are the other way round.
-        "0": "",
+        "0": "Ethyl ethanoate도 단일선, 사중선, 삼중선을 보이지만 위치가 달라요. 사중선(O–<span class=\"chem\">CH<sub>2</sub><span></span></span>)은 3.7–4.8 ppm에, 단일선(C=O 옆의 <span class=\"chem\">CH<sub>3</sub><span></span></span>)은 2.0–2.5 ppm에 있을 거예요. 여기서는 그 반대예요.",
         // EN (option C): Butanoic acid has four hydrogen environments, and its COOH hydrogen would give a signal at 9.0–13.0 ppm.
-        "2": "",
+        "2": "Butanoic acid는 수소 환경이 네 가지이고, COOH 수소는 9.0–13.0 ppm에서 신호를 만들 거예요.",
         // EN (option D): Propyl methanoate has four hydrogen environments (H–C=O and three groups in the propyl chain), so it would give four signals.
-        "3": "",
+        "3": "Propyl methanoate는 수소 환경이 네 가지(H–C=O와 프로필 사슬의 원자단 세 개)이므로 신호가 네 개일 거예요.",
       },
     },
 
     // ── s3-2h-q045 · mcq · foundation · AHL · Structure 3.2.12 · 1 mark
     "s3-2h-q045": {
       // EN: <p>Three techniques are often used together to find the structure of an organic compound. Which row matches each technique with the main information it gives?</p>
-      stem: "",
+      stem: "<p>유기 화합물의 구조를 알아낼 때는 세 가지 기법을 함께 쓰는 경우가 많아요. 각 기법과 그 기법이 주는 주요 정보를 옳게 짝지은 줄은 무엇인가요?</p>",
       options: [
         // EN: Mass spectrometry: relative molecular mass and fragments. Infrared: bonds present. <sup>1</sup>H NMR: hydrogen environments.
-        "",
+        "질량 분석법: 상대 분자 질량과 조각. 적외선: 존재하는 결합. <sup>1</sup>H NMR: 수소 환경.",
         // EN: Mass spectrometry: bonds present. Infrared: relative molecular mass and fragments. <sup>1</sup>H NMR: hydrogen environments.
-        "",
+        "질량 분석법: 존재하는 결합. 적외선: 상대 분자 질량과 조각. <sup>1</sup>H NMR: 수소 환경.",
         // EN: Mass spectrometry: relative molecular mass and fragments. Infrared: hydrogen environments. <sup>1</sup>H NMR: bonds present.
-        "",
+        "질량 분석법: 상대 분자 질량과 조각. 적외선: 수소 환경. <sup>1</sup>H NMR: 존재하는 결합.",
         // EN: Mass spectrometry: hydrogen environments. Infrared: bonds present. <sup>1</sup>H NMR: relative molecular mass and fragments.
-        "",
+        "질량 분석법: 수소 환경. 적외선: 존재하는 결합. <sup>1</sup>H NMR: 상대 분자 질량과 조각.",
       ],
       hints: [
         // EN: Think about the horizontal axis of each spectrum: m/z, wavenumber, chemical shift.
-        "",
+        "각 스펙트럼의 가로축을 생각해 보세요: m/z, 파수, 화학적 이동.",
       ],
       // EN: <ul><li><strong>Mass spectrometry:</strong> the molecular ion gives M<sub>r</sub>, and the fragments show which groups can break off.</li><li><strong>Infrared spectroscopy:</strong> the absorptions show which bonds, and so which functional groups, are present.</li><li><strong><sup>1</sup>H NMR:</strong> the number of signals, their shifts, areas and splitting show the hydrogen environments.</li></ul><p>No single technique gives the whole structure. Together they do.</p>
-      solution: "",
+      solution: "<ul><li><strong>질량 분석법:</strong> 분자 이온은 M<sub>r</sub>을 알려 주고, 조각은 어떤 원자단이 떨어져 나갈 수 있는지 보여 줘요.</li><li><strong>적외선 분광법:</strong> 흡수는 어떤 결합, 즉 어떤 작용기가 있는지 보여 줘요.</li><li><strong><sup>1</sup>H NMR:</strong> 신호의 수, 화학적 이동, 넓이, 갈라짐은 수소 환경을 보여 줘요.</li></ul><p>한 가지 기법만으로는 전체 구조를 알 수 없어요. 함께 쓰면 알 수 있어요.</p>",
       misconception: {
         // EN (option B): Mass spectrometry and infrared are swapped. A mass spectrum has m/z on its axis, so it gives masses. An infrared spectrum shows which bonds absorb.
-        "1": "",
+        "1": "질량 분석법과 적외선이 뒤바뀌었어요. 질량 스펙트럼의 축은 m/z이므로 질량을 알려 줘요. 적외선 스펙트럼은 어떤 결합이 흡수하는지 보여 줘요.",
         // EN (option C): Infrared and NMR are swapped. Infrared absorptions come from bonds that vibrate. NMR signals come from hydrogen nuclei in different environments.
-        "2": "",
+        "2": "적외선과 NMR이 뒤바뀌었어요. 적외선 흡수는 진동하는 결합에서 나와요. NMR 신호는 서로 다른 환경에 있는 수소 원자핵에서 나와요.",
         // EN (option D): Mass spectrometry and NMR are swapped. The molecular ion peak in a mass spectrum gives the relative molecular mass.
-        "3": "",
+        "3": "질량 분석법과 NMR이 뒤바뀌었어요. 질량 스펙트럼의 분자 이온 봉우리는 상대 분자 질량을 알려 줘요.",
       },
     },
 
     // ── s3-2h-q046 · numeric · exam · AHL · Structure 3.2.12 · 2 marks
     "s3-2h-q046": {
       // EN: <p>A compound contains 54.5% carbon, 9.2% hydrogen and 36.3% oxygen by mass. Its mass spectrum has the molecular ion peak at m/z 88.</p><p>How many carbon atoms are there in one molecule of the compound?</p>
-      stem: "",
+      stem: "<p>어떤 화합물은 질량으로 탄소 54.5%, 수소 9.2%, 산소 36.3%를 포함해요. 이 화합물의 질량 스펙트럼에서 분자 이온 봉우리는 m/z 88에 있어요.</p><p>이 화합물의 분자 하나에는 탄소 원자가 몇 개 있나요?</p>",
       hints: [
         // EN: Find the empirical formula first: divide each percentage by the relative atomic mass, then divide by the smallest result.
-        "",
+        "먼저 실험식을 구하세요. 각 백분율을 상대 원자 질량으로 나눈 다음, 가장 작은 값으로 나누세요.",
         // EN: Work out the mass of one empirical formula unit.
-        "",
+        "실험식 단위 하나의 질량을 구하세요.",
         // EN: Compare it with 88. How many empirical units fit into the molecule?
-        "",
+        "그것을 88과 비교하세요. 분자 안에 실험식 단위가 몇 개 들어가나요?",
       ],
       // EN: <p>Step 1: empirical formula (in 100 g of compound).</p><div class="worked__math">C: 54.5 ÷ 12.01 = 4.54 mol</div><div class="worked__math">H: 9.2 ÷ 1.01 = 9.11 mol</div><div class="worked__math">O: 36.3 ÷ 16.00 = 2.27 mol</div><div class="worked__math">ratio C : H : O = 2.00 : 4.01 : 1 → C<sub>2</sub>H<sub>4</sub>O</div><p>Step 2: molecular formula.</p><div class="worked__math">empirical mass = 2(12.01) + 4(1.01) + 16.00 = 44.06</div><div class="worked__math">88 ÷ 44.06 ≈ 2</div><div class="worked__math">molecular formula = C<sub>4</sub>H<sub>8</sub>O<sub>2</sub></div><p>One molecule contains <strong>4</strong> carbon atoms.</p>
-      solution: "",
+      solution: "<p>1단계: 실험식(화합물 100 g 기준).</p><div class=\"worked__math\">C: 54.5 ÷ 12.01 = 4.54 mol</div><div class=\"worked__math\">H: 9.2 ÷ 1.01 = 9.11 mol</div><div class=\"worked__math\">O: 36.3 ÷ 16.00 = 2.27 mol</div><div class=\"worked__math\">비 C : H : O = 2.00 : 4.01 : 1 → C<sub>2</sub>H<sub>4</sub>O</div><p>2단계: 분자식.</p><div class=\"worked__math\">실험식 질량 = 2(12.01) + 4(1.01) + 16.00 = 44.06</div><div class=\"worked__math\">88 ÷ 44.06 ≈ 2</div><div class=\"worked__math\">분자식 = C<sub>4</sub>H<sub>8</sub>O<sub>2</sub></div><p>분자 하나에는 탄소 원자가 <strong>4</strong>개 있어요.</p>",
       // EN: C atoms
-      unit: "",
+      unit: "C 원자",
     },
 
     // ── s3-2h-q047 · mcq · exam · AHL · Structure 3.2.12 · 1 mark
     "s3-2h-q047": {
       // EN: <p>Data for an unknown compound:</p><ul><li>Mass spectrum: molecular ion at m/z 74.</li><li>Infrared: strong, very broad absorption at 2500–3000 cm<sup>−1</sup>; strong absorption at 1715 cm<sup>−1</sup>.</li><li><sup>1</sup>H NMR: three signals with areas in the ratio 3 : 2 : 1.</li></ul><div class="table-scroll" tabindex="0"><table class="data"><caption>From the data booklet (section 20): infrared absorption ranges</caption><thead><tr><th scope="col">Bond</th><th scope="col">Types of organic molecules</th><th scope="col">Wavenumber / cm<sup>−1</sup></th><th scope="col">Intensity</th></tr></thead><tbody><tr><th scope="row">C=O</th><td>aldehydes, ketones, carboxylic acids and esters</td><td>1700–1750</td><td>strong</td></tr><tr><th scope="row">O–H</th><td>carboxylic acids (with hydrogen bonding)</td><td>2500–3000</td><td>strong, very broad</td></tr><tr><th scope="row">O–H</th><td>alcohols and phenols (with hydrogen bonding)</td><td>3200–3600</td><td>strong, broad</td></tr></tbody></table></div><p>Which compound fits all the data?</p>
-      stem: "",
+      stem: "<p>미지 화합물의 자료:</p><ul><li>질량 스펙트럼: 분자 이온이 m/z 74에 있음.</li><li>적외선: 2500–3000 cm<sup>−1</sup>에서 강하고 매우 넓은 흡수, 1715 cm<sup>−1</sup>에서 강한 흡수.</li><li><sup>1</sup>H NMR: 넓이의 비가 3 : 2 : 1인 신호 세 개.</li></ul><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>데이터 부클릿(20절): 적외선 흡수 범위</caption><thead><tr><th scope=\"col\">결합</th><th scope=\"col\">유기 분자의 종류</th><th scope=\"col\">파수 / cm<sup>−1</sup></th><th scope=\"col\">세기</th></tr></thead><tbody><tr><th scope=\"row\">C=O</th><td>알데하이드, 케톤, 카복실산, 에스터</td><td>1700–1750</td><td>강함</td></tr><tr><th scope=\"row\">O–H</th><td>카복실산(수소 결합 있음)</td><td>2500–3000</td><td>강함, 매우 넓음</td></tr><tr><th scope=\"row\">O–H</th><td>알코올과 페놀(수소 결합 있음)</td><td>3200–3600</td><td>강함, 넓음</td></tr></tbody></table></div><p>모든 자료에 맞는 화합물은 무엇인가요?</p>",
       options: [
         // EN: butan-1-ol, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH<span></span></span>
-        "",
+        "butan-1-ol, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH<span></span></span>",
         // EN: methyl ethanoate, <span class="chem">CH<sub>3</sub>COOCH<sub>3</sub><span></span></span>
         "",
         // EN: ethyl methanoate, <span class="chem">HCOOCH<sub>2</sub>CH<sub>3</sub><span></span></span>

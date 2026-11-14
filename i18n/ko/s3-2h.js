@@ -747,7 +747,7 @@ S1.i18n.register('ko', 's3-2h', {
     "Infrared interpreter": "적외선 스펙트럼 해석기",
 
     // Infrared spectroscopy > widget > figcaption
-    "In “Explore”, click a band to see the bond and the booklet row. In “Which compound is it?”, decide between an alkane, an alcohol, a carboxylic acid, a ketone and an ester. The spectra are simplified sketches drawn from typical band positions. They are not measured spectra.": "“Explore”에서는 띠를 클릭해 결합과 부클릿 행을 보세요. “Which compound is it?”에서는 알케인, 알코올, 카복실산, 케톤, 에스터 중에서 골라 보세요. 스펙트럼은 일반적인 띠 위치로 그린 단순한 그림이에요. 실제로 측정한 스펙트럼이 아니에요.",
+    "In “Explore”, click a band to see the bond and the booklet row. In “Which compound is it?”, decide between an alkane, an alcohol, a carboxylic acid, a ketone and an ester. The spectra are simplified sketches drawn from typical band positions. They are not measured spectra.": "“탐색”에서는 띠를 클릭해 결합과 부클릿 행을 보세요. “어느 화합물일까요?”에서는 알케인, 알코올, 카복실산, 케톤, 에스터 중에서 골라 보세요. 스펙트럼은 일반적인 띠 위치로 그린 단순한 그림이에요. 실제로 측정한 스펙트럼이 아니에요.",
 
     // Infrared spectroscopy > worked example > h3
     "Acid or ester?": "산일까요, 에스터일까요?",
@@ -1126,7 +1126,7 @@ S1.i18n.register('ko', 's3-2h', {
     "Proton NMR tutor": "양성자 NMR 도우미",
 
     // Proton NMR: splitting patterns > widget > figcaption
-    "In “Show me”, equivalent hydrogen atoms share a letter and an outline. In “Predict first”, you predict the number of signals and the splitting before you see the answer. The spectra are sketches: each signal is drawn inside its booklet range.": "“Show me”에서는 동등한 수소 원자들이 같은 글자와 같은 테두리로 표시돼요. “Predict first”에서는 답을 보기 전에 신호의 수와 갈라짐을 예측해요. 스펙트럼은 단순한 그림이에요: 각 신호는 부클릿 범위 안에 그려져 있어요.",
+    "In “Show me”, equivalent hydrogen atoms share a letter and an outline. In “Predict first”, you predict the number of signals and the splitting before you see the answer. The spectra are sketches: each signal is drawn inside its booklet range.": "“보여 주기”에서는 동등한 수소 원자들이 같은 글자와 같은 테두리로 표시돼요. “먼저 예측하기”에서는 답을 보기 전에 신호의 수와 갈라짐을 예측해요. 스펙트럼은 단순한 그림이에요: 각 신호는 부클릿 범위 안에 그려져 있어요.",
 
     // Proton NMR: splitting patterns > worked example > data-kicker attribute
     "Worked example 1": "예제 1",
@@ -2171,424 +2171,424 @@ S1.i18n.register('ko', 's3-2h', {
     "hex-1-ene": "hex-1-ene",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Only the C=C row includes this wavenumber. The band is of medium strength.": "",
+    "Only the C=C row includes this wavenumber. The band is of medium strength.": "이 파수를 포함하는 행은 C=C 행뿐이에요. 띠의 세기는 중간이에요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Two booklet rows include this wavenumber: O–H in alcohols and N–H. The band is one broad, strong band, so it is O–H. N–H in a primary amine gives two bands of medium strength.": "",
+    "Two booklet rows include this wavenumber: O–H in alcohols and N–H. The band is one broad, strong band, so it is O–H. N–H in a primary amine gives two bands of medium strength.": "이 파수를 포함하는 부클릿 행이 2개 있어요: 알코올의 O–H와 N–H. 넓고 강한 띠 하나이므로 O–H예요. 1차 아민의 N–H는 중간 세기의 띠 2개를 만들어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Only the C=O row includes this wavenumber. The band is strong and sharp.": "",
+    "Only the C=O row includes this wavenumber. The band is strong and sharp.": "이 파수를 포함하는 행은 C=O 행뿐이에요. 띠가 강하고 날카로워요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Two booklet rows include this wavenumber. The band is very broad, so it is the O–H of a carboxylic acid. The sharper C–H band is hidden under it.": "",
+    "Two booklet rows include this wavenumber. The band is very broad, so it is the O–H of a carboxylic acid. The sharper C–H band is hidden under it.": "이 파수를 포함하는 부클릿 행이 2개 있어요. 띠가 매우 넓으므로 카복실산의 O–H예요. 더 날카로운 C–H 띠는 그 아래에 가려져 있어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "ethyl ethanoate": "",
+    "ethyl ethanoate": "ethyl ethanoate",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "propan-1-amine": "",
+    "propan-1-amine": "propan-1-amine",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Two booklet rows include this wavenumber: O–H in alcohols and N–H. There are two bands of medium strength, so it is the N–H of a primary amine. O–H gives one broad band.": "",
+    "Two booklet rows include this wavenumber: O–H in alcohols and N–H. There are two bands of medium strength, so it is the N–H of a primary amine. O–H gives one broad band.": "이 파수를 포함하는 부클릿 행이 2개 있어요: 알코올의 O–H와 N–H. 중간 세기의 띠가 2개 있으므로 1차 아민의 N–H예요. O–H는 넓은 띠 하나를 만들어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "1-chlorobutane": "",
+    "1-chlorobutane": "1-chlorobutane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Only the C–Cl row includes this wavenumber. The absorption is strong.": "",
+    "Only the C–Cl row includes this wavenumber. The absorption is strong.": "이 파수를 포함하는 행은 C–Cl 행뿐이에요. 흡수가 강해요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "ethoxyethane": "",
+    "ethoxyethane": "ethoxyethane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "ethanal": "",
+    "ethanal": "ethanal",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "2-methylpropan-2-ol": "",
+    "2-methylpropan-2-ol": "2-methylpropan-2-ol",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "chloroethane": "",
+    "chloroethane": "chloroethane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "propanoic acid": "",
+    "propanoic acid": "propanoic acid",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "2,2-dimethylpropane": "",
+    "2,2-dimethylpropane": "2,2-dimethylpropane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "more than four peaks": "",
+    "more than four peaks": "봉우리 4개 초과",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Mass lost from M<sup>+</sup>": "",
+    "Mass lost from M<sup>+</sup>": "M<sup>+</sup>에서 잃은 질량",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Booklet: possible piece lost": "",
+    "Booklet: possible piece lost": "부클릿: 잃었을 수 있는 조각",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Peaks in the spectrum": "",
+    "Peaks in the spectrum": "스펙트럼의 봉우리",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Click a peak in the spectrum, or use the buttons.": "",
+    "Click a peak in the spectrum, or use the buttons.": "스펙트럼에서 봉우리를 클릭하거나 버튼을 쓰세요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Compound": "",
+    "Compound": "화합물",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Simplified mass spectrum of {name}. Peaks at m/z {list}.": "",
+    "Simplified mass spectrum of {name}. Peaks at m/z {list}.": "{name}의 단순화한 질량 스펙트럼. m/z {list}에 봉우리가 있어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "This is the <b>molecular ion peak</b>. The molecular ion is the whole molecule with one electron removed: {ion}. Its m/z gives the relative molecular mass: <i>M</i><sub>r</sub> = {m}.": "",
+    "This is the <b>molecular ion peak</b>. The molecular ion is the whole molecule with one electron removed: {ion}. Its m/z gives the relative molecular mass: <i>M</i><sub>r</sub> = {m}.": "이것은 <b>분자 이온 봉우리</b>예요. 분자 이온은 분자 전체에서 전자 1개가 빠진 것이에요: {ion}. 이 봉우리의 m/z가 상대 분자 질량을 알려 줘요: <i>M</i><sub>r</sub> = {m}.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "no entry for {n}": "",
+    "no entry for {n}": "{n}에 대한 항목 없음",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The molecular ion lost a piece of mass {n}. The booklet gives {piece} as a possible piece.": "",
+    "The molecular ion lost a piece of mass {n}. The booklet gives {piece} as a possible piece.": "분자 이온이 질량 {n}인 조각을 잃었어요. 부클릿에는 가능한 조각으로 {piece}가 나와 있어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The molecular ion lost a piece of mass {n}.": "",
+    "The molecular ion lost a piece of mass {n}.": "분자 이온이 질량 {n}인 조각을 잃었어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The ion detected at m/z = {mz} is {ion}. Write the positive charge every time.": "",
+    "The ion detected at m/z = {mz} is {ion}. Write the positive charge every time.": "m/z = {mz}에서 검출된 이온은 {ion}이에요. 양전하를 매번 쓰세요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "This peak does not come from one simple loss. It forms in more than one step. You would not be asked to explain it.": "",
+    "This peak does not come from one simple loss. It forms in more than one step. You would not be asked to explain it.": "이 봉우리는 단순한 손실 한 번으로 생긴 것이 아니에요. 여러 단계를 거쳐 생겨요. 이것을 설명하라는 문제는 나오지 않아요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Take care: the booklet lists {piece} for a loss of {n}, but that piece does not fit this molecule. A match in the table is only a suggestion.": "",
+    "Take care: the booklet lists {piece} for a loss of {n}, but that piece does not fit this molecule. A match in the table is only a suggestion.": "주의하세요: 부클릿에는 {n}의 손실에 대해 {piece}가 나와 있지만, 그 조각은 이 분자에 맞지 않아요. 표에서 일치하는 것은 제안일 뿐이에요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "alkane": "",
+    "alkane": "알케인",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "alcohol": "",
+    "alcohol": "알코올",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "carboxylic acid": "",
+    "carboxylic acid": "카복실산",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "ketone": "",
+    "ketone": "케톤",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "ester": "",
+    "ester": "에스터",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Band": "",
+    "Band": "띠",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Mode": "",
+    "Mode": "모드",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Explore": "",
+    "Explore": "탐색",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Which compound is it?": "",
+    "Which compound is it?": "어느 화합물일까요?",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Data booklet, section 20: infrared data": "",
+    "Data booklet, section 20: infrared data": "데이터 부클릿 section 20: 적외선 자료",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Types of organic molecules": "",
+    "Types of organic molecules": "유기 분자의 종류",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Intensity": "",
+    "Intensity": "세기",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Sketch of the infrared spectrum of {name}. Main absorptions near {list} wavenumbers.": "",
+    "Sketch of the infrared spectrum of {name}. Main absorptions near {list} wavenumbers.": "{name}의 적외선 스펙트럼 그림. 주요 흡수는 {list} 파수 근처에 있어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Sketch of the infrared spectrum of an unknown compound. Main absorptions near {list} wavenumbers.": "",
+    "Sketch of the infrared spectrum of an unknown compound. Main absorptions near {list} wavenumbers.": "모르는 화합물의 적외선 스펙트럼 그림. 주요 흡수는 {list} 파수 근처에 있어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "fingerprint region": "",
+    "fingerprint region": "지문 영역",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Band {letter}: near {v} cm<sup>−1</sup>": "",
+    "Band {letter}: near {v} cm<sup>−1</sup>": "띠 {letter}: {v} cm<sup>−1</sup> 근처",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "{letter}: about {v} cm<sup>−1</sup>": "",
+    "{letter}: about {v} cm<sup>−1</sup>": "{letter}: 약 {v} cm<sup>−1</sup>",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "and": "",
+    "and": "및",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "<b>{bond}</b> in {where}. Booklet range: {lo}–{hi} cm<sup>−1</sup> ({inten}).": "",
+    "<b>{bond}</b> in {where}. Booklet range: {lo}–{hi} cm<sup>−1</sup> ({inten}).": "{where}의 <b>{bond}</b>. 부클릿 범위: {lo}–{hi} cm<sup>−1</sup> ({inten}).",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "you decide": "",
+    "you decide": "직접 판단",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Band {letter} is near {v} cm<sup>−1</sup>. Booklet rows that include this wavenumber: {rows}. Look at the shape of the band to choose.": "",
+    "Band {letter} is near {v} cm<sup>−1</sup>. Booklet rows that include this wavenumber: {rows}. Look at the shape of the band to choose.": "띠 {letter}는 {v} cm<sup>−1</sup> 근처에 있어요. 이 파수를 포함하는 부클릿 행: {rows}. 띠의 모양을 보고 고르세요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Correct. The compound is {name}. Evidence: {ev}.": "",
+    "Correct. The compound is {name}. Evidence: {ev}.": "정답이에요. 이 화합물은 {name}이에요. 증거: {ev}.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "There is a C=O band, no O–H band and no strong C–O band.": "",
+    "There is a C=O band, no O–H band and no strong C–O band.": "C=O 띠가 있고, O–H 띠와 강한 C–O 띠는 없어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "There is no O–H band and no C=O band.": "",
+    "There is no O–H band and no C=O band.": "O–H 띠도 C=O 띠도 없어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "There is no O–H band, so it is not an acid.": "",
+    "There is no O–H band, so it is not an acid.": "O–H 띠가 없으므로 산이 아니에요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. That class would show a strong {bond} absorption at {r} cm<sup>−1</sup>. This spectrum has no strong absorption there.": "",
+    "Not this one. That class would show a strong {bond} absorption at {r} cm<sup>−1</sup>. This spectrum has no strong absorption there.": "이것이 아니에요. 그 종류라면 {r} cm<sup>−1</sup>에서 강한 {bond} 흡수가 나타나야 해요. 이 스펙트럼에는 그곳에 강한 흡수가 없어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. The spectrum has a strong {bond} absorption at {r} cm<sup>−1</sup>. That class does not have this bond.": "",
+    "Not this one. The spectrum has a strong {bond} absorption at {r} cm<sup>−1</sup>. That class does not have this bond.": "이것이 아니에요. 이 스펙트럼에는 {r} cm<sup>−1</sup>에서 강한 {bond} 흡수가 있어요. 그 종류에는 이 결합이 없어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not this one. Check each band against the booklet table.": "",
+    "Not this one. Check each band against the booklet table.": "이것이 아니에요. 각 띠를 부클릿 표와 비교해 보세요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Unknown {n} of {total}. Which class of compound gave this spectrum?": "",
+    "Unknown {n} of {total}. Which class of compound gave this spectrum?": "모르는 화합물 {n}/{total}. 어떤 종류의 화합물이 이 스펙트럼을 만들었을까요?",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Next unknown": "",
+    "Next unknown": "다음 화합물",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Click a labelled band in the spectrum, or use the buttons.": "",
+    "Click a labelled band in the spectrum, or use the buttons.": "스펙트럼에서 이름이 붙은 띠를 클릭하거나 버튼을 쓰세요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Click a band to see which booklet rows fit it. Then choose the class.": "",
+    "Click a band to see which booklet rows fit it. Then choose the class.": "띠를 클릭해 어떤 부클릿 행이 맞는지 보세요. 그다음 종류를 고르세요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Ratio of areas": "",
+    "Ratio of areas": "넓이 비",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "H atoms in the molecule": "",
+    "H atoms in the molecule": "분자의 H 원자",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Show me": "",
+    "Show me": "보여 주기",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Predict first": "",
+    "Predict first": "먼저 예측하기",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Structure of {name}. Equivalent hydrogen atoms share a letter: {n} environments.": "",
+    "Structure of {name}. Equivalent hydrogen atoms share a letter: {n} environments.": "{name}의 구조. 동등한 수소 원자는 같은 글자로 표시해요: 환경 {n}가지.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Predicted <sup>1</sup>H NMR signals of {name}": "",
+    "Predicted <sup>1</sup>H NMR signals of {name}": "{name}의 <sup>1</sup>H NMR 신호 예측",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Signal": "",
+    "Signal": "신호",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "H atoms": "",
+    "H atoms": "H 원자",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Shift / ppm": "",
+    "Shift / ppm": "이동 / ppm",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Splitting": "",
+    "Splitting": "갈라짐",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "n = {n}: {name}": "",
+    "n = {n}: {name}": "n = {n}: {name}",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Sketch of the proton NMR spectrum of {name}: {list}": "",
+    "Sketch of the proton NMR spectrum of {name}: {list}": "{name}의 양성자 NMR 스펙트럼 그림: {list}",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "at about {s} ppm, area {h}": "",
+    "at about {s} ppm, area {h}": "약 {s} ppm, 넓이 {h}",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "one signal only": "",
+    "one signal only": "신호 1개뿐",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The spectrum is a sketch. Each signal is drawn inside the booklet range for its type of proton, as in exam data. Measured values can differ a little.": "",
+    "The spectrum is a sketch. Each signal is drawn inside the booklet range for its type of proton, as in exam data. Measured values can differ a little.": "스펙트럼은 단순한 그림이에요. 시험 자료처럼 각 신호는 그 양성자 종류의 부클릿 범위 안에 그려져 있어요. 측정값은 조금 다를 수 있어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The H of an O–H group is shown as a singlet, and it is not counted as a neighbour.": "",
+    "The H of an O–H group is shown as a singlet, and it is not counted as a neighbour.": "O–H기의 H는 단일선으로 나타내고, 이웃으로 세지 않아요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Step 1. How many signals does the <sup>1</sup>H NMR spectrum of {name} have?": "",
+    "Step 1. How many signals does the <sup>1</sup>H NMR spectrum of {name} have?": "1단계. {name}의 <sup>1</sup>H NMR 스펙트럼에는 신호가 몇 개 있을까요?",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Not yet. Look for groups of H atoms that have exactly the same surroundings. Each different group gives one signal.": "",
+    "Not yet. Look for groups of H atoms that have exactly the same surroundings. Each different group gives one signal.": "아직이에요. 주변이 완전히 같은 H 원자 묶음을 찾아보세요. 서로 다른 묶음마다 신호가 1개씩 나타나요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "That is closer to the number of hydrogen atoms. Count the different environments instead. All the H atoms in one CH<sub>3</sub> group are equivalent.": "",
+    "That is closer to the number of hydrogen atoms. Count the different environments instead. All the H atoms in one CH<sub>3</sub> group are equivalent.": "그 수는 수소 원자의 수에 더 가까워요. 대신 서로 다른 환경의 수를 세세요. CH<sub>3</sub>기 하나의 H 원자는 모두 동등해요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "You counted every group that contains H. Some of these groups are equivalent because the molecule is symmetrical. Equivalent H atoms give one signal.": "",
+    "You counted every group that contains H. Some of these groups are equivalent because the molecule is symmetrical. Equivalent H atoms give one signal.": "H를 포함하는 기를 모두 셌어요. 분자가 대칭이어서 이 중 일부 기는 동등해요. 동등한 H 원자는 신호 1개를 만들어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Correct: 1 signal. All {h} H atoms are equivalent.": "",
+    "Correct: 1 signal. All {h} H atoms are equivalent.": "정답: 신호 1개. H 원자 {h}개가 모두 동등해요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Correct: {n} signals. The areas are in the ratio {r}.": "",
+    "Correct: {n} signals. The areas are in the ratio {r}.": "정답: 신호 {n}개. 넓이 비는 {r}예요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Step 2. Predict the splitting of each signal. Count the H atoms on the neighbouring carbon atoms, then add 1.": "",
+    "Step 2. Predict the splitting of each signal. Count the H atoms on the neighbouring carbon atoms, then add 1.": "2단계. 각 신호의 갈라짐을 예측하세요. 이웃 탄소 원자의 H 원자를 센 다음 1을 더해요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "choose…": "",
+    "choose…": "선택…",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Signal {k}: {group}": "",
+    "Signal {k}: {group}": "신호 {k}: {group}",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "correct": "",
+    "correct": "정답",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "look again": "",
+    "look again": "다시 보기",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Check splitting": "",
+    "Check splitting": "갈라짐 확인",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Show the answer": "",
+    "Show the answer": "답 보기",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Some are not right yet. Do not count the H atoms in the group itself. Count only H atoms on the carbon atoms next to it. No H on the next atom means a singlet.": "",
+    "Some are not right yet. Do not count the H atoms in the group itself. Count only H atoms on the carbon atoms next to it. No H on the next atom means a singlet.": "아직 맞지 않은 것이 있어요. 그 기 자체의 H 원자는 세지 마세요. 바로 옆 탄소 원자의 H 원자만 세요. 옆 원자에 H가 없으면 단일선이에요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "All correct. The table and the sketch show the full prediction.": "",
+    "All correct. The table and the sketch show the full prediction.": "모두 정답이에요. 표와 그림에 예측 전체가 나와 있어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "The table and the sketch show the full prediction.": "",
+    "The table and the sketch show the full prediction.": "표와 그림에 예측 전체가 나와 있어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "MS: the peak at m/z = 31 is M − 15. The molecule can lose •CH<sub>3</sub>, so it contains a CH<sub>3</sub> group. The ion is CH<sub>2</sub>OH<sup>+</sup>.": "",
+    "MS: the peak at m/z = 31 is M − 15. The molecule can lose •CH<sub>3</sub>, so it contains a CH<sub>3</sub> group. The ion is CH<sub>2</sub>OH<sup>+</sup>.": "MS: m/z = 31의 봉우리는 M − 15예요. 분자가 •CH<sub>3</sub>를 잃을 수 있으므로 CH<sub>3</sub>기가 있어요. 이온은 CH<sub>2</sub>OH<sup>+</sup>예요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "IR: broad O–H at 3200–3600 cm<sup>−1</sup> and C–O at 1050–1410 cm<sup>−1</sup>. No C=O. The compound is an alcohol.": "",
+    "IR: broad O–H at 3200–3600 cm<sup>−1</sup> and C–O at 1050–1410 cm<sup>−1</sup>. No C=O. The compound is an alcohol.": "IR: 3200–3600 cm<sup>−1</sup>의 넓은 O–H와 1050–1410 cm<sup>−1</sup>의 C–O. C=O는 없어요. 이 화합물은 알코올이에요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "NMR splitting: triplet (3 H) and quartet (2 H) show CH<sub>3</sub>–CH<sub>2</sub>. The 1 H singlet is the O–H.": "",
+    "NMR splitting: triplet (3 H) and quartet (2 H) show CH<sub>3</sub>–CH<sub>2</sub>. The 1 H singlet is the O–H.": "NMR 갈라짐: 삼중선(3 H)과 사중선(2 H)은 CH<sub>3</sub>–CH<sub>2</sub>를 나타내요. 1 H 단일선은 O–H예요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "methoxymethane": "",
+    "methoxymethane": "methoxymethane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Methoxymethane has the same molecular formula. But all six H atoms are equivalent, so it gives one signal. It has no O–H bond, so its IR spectrum has no broad band at 3200–3600 cm<sup>−1</sup>.": "",
+    "Methoxymethane has the same molecular formula. But all six H atoms are equivalent, so it gives one signal. It has no O–H bond, so its IR spectrum has no broad band at 3200–3600 cm<sup>−1</sup>.": "methoxymethane도 분자식이 같아요. 하지만 H 원자 6개가 모두 동등해서 신호가 1개예요. O–H 결합이 없으므로 IR 스펙트럼에 3200–3600 cm<sup>−1</sup>의 넓은 띠가 없어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "MS: the peak at m/z = 43 is M − 29. The piece lost is •CH<sub>2</sub>CH<sub>3</sub> or •CHO. The NMR spectrum will decide. The small peak at m/z = 57 is M − 15: loss of •CH<sub>3</sub>.": "",
+    "MS: the peak at m/z = 43 is M − 29. The piece lost is •CH<sub>2</sub>CH<sub>3</sub> or •CHO. The NMR spectrum will decide. The small peak at m/z = 57 is M − 15: loss of •CH<sub>3</sub>.": "MS: m/z = 43의 봉우리는 M − 29예요. 잃은 조각은 •CH<sub>2</sub>CH<sub>3</sub> 또는 •CHO예요. NMR 스펙트럼으로 결정해요. m/z = 57의 작은 봉우리는 M − 15: •CH<sub>3</sub>의 손실이에요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "IR: strong C=O at 1700–1750 cm<sup>−1</sup>. No O–H. With one O atom, the compound is an aldehyde or a ketone.": "",
+    "IR: strong C=O at 1700–1750 cm<sup>−1</sup>. No O–H. With one O atom, the compound is an aldehyde or a ketone.": "IR: 1700–1750 cm<sup>−1</sup>의 강한 C=O. O–H는 없어요. O 원자가 1개이므로 이 화합물은 알데하이드나 케톤이에요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "NMR splitting: triplet (3 H) and quartet (2 H) show CH<sub>3</sub>–CH<sub>2</sub>. The 3 H singlet at 2.2 ppm is a CH<sub>3</sub> next to C=O with no H on the neighbouring carbon. No signal at 9.4–10.0 ppm, so there is no CHO group.": "",
+    "NMR splitting: triplet (3 H) and quartet (2 H) show CH<sub>3</sub>–CH<sub>2</sub>. The 3 H singlet at 2.2 ppm is a CH<sub>3</sub> next to C=O with no H on the neighbouring carbon. No signal at 9.4–10.0 ppm, so there is no CHO group.": "NMR 갈라짐: 삼중선(3 H)과 사중선(2 H)은 CH<sub>3</sub>–CH<sub>2</sub>를 나타내요. 2.2 ppm의 3 H 단일선은 C=O 옆의 CH<sub>3</sub>이고, 이웃 탄소에 H가 없어요. 9.4–10.0 ppm에 신호가 없으므로 CHO기는 없어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "butanal": "",
+    "butanal": "butanal",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Butanal is an aldehyde. It would give a signal at 9.4–10.0 ppm for the CHO hydrogen, and four signals in total. The spectrum has three signals and none above 3 ppm.": "",
+    "Butanal is an aldehyde. It would give a signal at 9.4–10.0 ppm for the CHO hydrogen, and four signals in total. The spectrum has three signals and none above 3 ppm.": "butanal은 알데하이드예요. CHO의 수소 때문에 9.4–10.0 ppm에 신호가 나타나고, 신호가 모두 4개일 거예요. 이 스펙트럼에는 신호가 3개이고, 3 ppm보다 높은 신호는 없어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "2-methylpropanal": "",
+    "2-methylpropanal": "2-methylpropanal",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "2-methylpropanal is an aldehyde. It would give a signal at 9.4–10.0 ppm, and its areas would be in the ratio 6 : 1 : 1.": "",
+    "2-methylpropanal is an aldehyde. It would give a signal at 9.4–10.0 ppm, and its areas would be in the ratio 6 : 1 : 1.": "2-methylpropanal은 알데하이드예요. 9.4–10.0 ppm에 신호가 나타나고, 넓이 비는 6 : 1 : 1일 거예요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "MS: the peak at m/z = 29 is M − 45: loss of •COOH. The ion is CH<sub>3</sub>CH<sub>2</sub><sup>+</sup>. The peak at m/z = 57 is M − 17: loss of •OH.": "",
+    "MS: the peak at m/z = 29 is M − 45: loss of •COOH. The ion is CH<sub>3</sub>CH<sub>2</sub><sup>+</sup>. The peak at m/z = 57 is M − 17: loss of •OH.": "MS: m/z = 29의 봉우리는 M − 45: •COOH의 손실이에요. 이온은 CH<sub>3</sub>CH<sub>2</sub><sup>+</sup>예요. m/z = 57의 봉우리는 M − 17: •OH의 손실이에요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "IR: very broad O–H at 2500–3000 cm<sup>−1</sup> and strong C=O at 1700–1750 cm<sup>−1</sup>. The compound is a carboxylic acid.": "",
+    "IR: very broad O–H at 2500–3000 cm<sup>−1</sup> and strong C=O at 1700–1750 cm<sup>−1</sup>. The compound is a carboxylic acid.": "IR: 2500–3000 cm<sup>−1</sup>의 매우 넓은 O–H와 1700–1750 cm<sup>−1</sup>의 강한 C=O. 이 화합물은 카복실산이에요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "NMR splitting: triplet (3 H) and quartet (2 H) show CH<sub>3</sub>–CH<sub>2</sub>. The 1 H singlet at 11.7 ppm is in the range 9.0–13.0 ppm: the H of COOH.": "",
+    "NMR splitting: triplet (3 H) and quartet (2 H) show CH<sub>3</sub>–CH<sub>2</sub>. The 1 H singlet at 11.7 ppm is in the range 9.0–13.0 ppm: the H of COOH.": "NMR 갈라짐: 삼중선(3 H)과 사중선(2 H)은 CH<sub>3</sub>–CH<sub>2</sub>를 나타내요. 11.7 ppm의 1 H 단일선은 9.0–13.0 ppm 범위 안에 있어요: COOH의 H예요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Methyl ethanoate is an ester. It has no O–H bond, so it would not give the very broad IR band. Its NMR spectrum would be two singlets.": "",
+    "Methyl ethanoate is an ester. It has no O–H bond, so it would not give the very broad IR band. Its NMR spectrum would be two singlets.": "methyl ethanoate는 에스터예요. O–H 결합이 없으므로 매우 넓은 IR 띠가 나타나지 않을 거예요. NMR 스펙트럼은 단일선 2개일 거예요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "ethyl methanoate": "",
+    "ethyl methanoate": "ethyl methanoate",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Ethyl methanoate is an ester. It has no O–H bond, so it would not give the very broad IR band at 2500–3000 cm<sup>−1</sup>. It cannot lose •COOH.": "",
+    "Ethyl methanoate is an ester. It has no O–H bond, so it would not give the very broad IR band at 2500–3000 cm<sup>−1</sup>. It cannot lose •COOH.": "ethyl methanoate는 에스터예요. O–H 결합이 없으므로 2500–3000 cm<sup>−1</sup>의 매우 넓은 IR 띠가 나타나지 않을 거예요. •COOH를 잃을 수도 없어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "MS: the peak at m/z = 59 is M − 15: loss of •CH<sub>3</sub>. The peak at m/z = 45 is M − 29: loss of •CH<sub>2</sub>CH<sub>3</sub>. The molecule contains an ethyl group.": "",
+    "MS: the peak at m/z = 59 is M − 15: loss of •CH<sub>3</sub>. The peak at m/z = 45 is M − 29: loss of •CH<sub>2</sub>CH<sub>3</sub>. The molecule contains an ethyl group.": "MS: m/z = 59의 봉우리는 M − 15: •CH<sub>3</sub>의 손실이에요. m/z = 45의 봉우리는 M − 29: •CH<sub>2</sub>CH<sub>3</sub>의 손실이에요. 분자에 에틸기가 있어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "IR: strong C–O at 1050–1410 cm<sup>−1</sup>. No O–H and no C=O. With one O atom, the compound is an ether, not an alcohol.": "",
+    "IR: strong C–O at 1050–1410 cm<sup>−1</sup>. No O–H and no C=O. With one O atom, the compound is an ether, not an alcohol.": "IR: 1050–1410 cm<sup>−1</sup>의 강한 C–O. O–H도 C=O도 없어요. O 원자가 1개이므로 이 화합물은 알코올이 아니라 에테르예요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "NMR splitting: triplet and quartet show CH<sub>3</sub>–CH<sub>2</sub>. There are 6 H and 4 H, so there are two equivalent CH<sub>3</sub>–CH<sub>2</sub> groups. The quartet at 3.4 ppm fits R–O–CH<sub>2</sub> (3.3–3.7 ppm).": "",
+    "NMR splitting: triplet and quartet show CH<sub>3</sub>–CH<sub>2</sub>. There are 6 H and 4 H, so there are two equivalent CH<sub>3</sub>–CH<sub>2</sub> groups. The quartet at 3.4 ppm fits R–O–CH<sub>2</sub> (3.3–3.7 ppm).": "NMR 갈라짐: 삼중선과 사중선은 CH<sub>3</sub>–CH<sub>2</sub>를 나타내요. 6 H와 4 H가 있으므로 동등한 CH<sub>3</sub>–CH<sub>2</sub>기가 두 개 있어요. 3.4 ppm의 사중선은 R–O–CH<sub>2</sub>(3.3–3.7 ppm)에 맞아요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "butan-1-ol": "",
+    "butan-1-ol": "butan-1-ol",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Butan-1-ol is an alcohol. Its IR spectrum would show a broad O–H band at 3200–3600 cm<sup>−1</sup>, and its NMR spectrum would have five signals.": "",
+    "Butan-1-ol is an alcohol. Its IR spectrum would show a broad O–H band at 3200–3600 cm<sup>−1</sup>, and its NMR spectrum would have five signals.": "butan-1-ol은 알코올이에요. IR 스펙트럼에는 3200–3600 cm<sup>−1</sup>에 넓은 O–H 띠가 나타나고, NMR 스펙트럼에는 신호가 5개 있을 거예요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "1-methoxypropane": "",
+    "1-methoxypropane": "1-methoxypropane",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "1-methoxypropane is an ether, so the IR fits. But it is not symmetrical. It would give four signals, and one of them would be a 3 H singlet for O–CH<sub>3</sub>.": "",
+    "1-methoxypropane is an ether, so the IR fits. But it is not symmetrical. It would give four signals, and one of them would be a 3 H singlet for O–CH<sub>3</sub>.": "1-methoxypropane은 에테르이므로 IR은 맞아요. 하지만 대칭이 아니에요. 신호가 4개 나타날 것이고, 그중 하나는 O–CH<sub>3</sub>의 3 H 단일선일 거예요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "methyl propanoate": "",
+    "methyl propanoate": "methyl propanoate",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "MS: the peak at m/z = 57 is M − 31: loss of •OCH<sub>3</sub>. The molecule contains an O–CH<sub>3</sub> group. The peak at m/z = 59 is M − 29: loss of •CH<sub>2</sub>CH<sub>3</sub>.": "",
+    "MS: the peak at m/z = 57 is M − 31: loss of •OCH<sub>3</sub>. The molecule contains an O–CH<sub>3</sub> group. The peak at m/z = 59 is M − 29: loss of •CH<sub>2</sub>CH<sub>3</sub>.": "MS: m/z = 57의 봉우리는 M − 31: •OCH<sub>3</sub>의 손실이에요. 분자에 O–CH<sub>3</sub>기가 있어요. m/z = 59의 봉우리는 M − 29: •CH<sub>2</sub>CH<sub>3</sub>의 손실이에요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "IR: strong C=O at 1700–1750 cm<sup>−1</sup> and strong C–O at 1050–1410 cm<sup>−1</sup>. No O–H. With two O atoms, the compound is an ester.": "",
+    "IR: strong C=O at 1700–1750 cm<sup>−1</sup> and strong C–O at 1050–1410 cm<sup>−1</sup>. No O–H. With two O atoms, the compound is an ester.": "IR: 1700–1750 cm<sup>−1</sup>의 강한 C=O와 1050–1410 cm<sup>−1</sup>의 강한 C–O. O–H는 없어요. O 원자가 2개이므로 이 화합물은 에스터예요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "NMR splitting: triplet (3 H) and quartet (2 H) show CH<sub>3</sub>–CH<sub>2</sub>. The quartet at 2.3 ppm fits CH<sub>2</sub> next to C=O (2.0–2.5 ppm). The 3 H singlet at 3.7 ppm fits O–CH<sub>3</sub> of an ester (3.7–4.8 ppm).": "",
+    "NMR splitting: triplet (3 H) and quartet (2 H) show CH<sub>3</sub>–CH<sub>2</sub>. The quartet at 2.3 ppm fits CH<sub>2</sub> next to C=O (2.0–2.5 ppm). The 3 H singlet at 3.7 ppm fits O–CH<sub>3</sub> of an ester (3.7–4.8 ppm).": "NMR 갈라짐: 삼중선(3 H)과 사중선(2 H)은 CH<sub>3</sub>–CH<sub>2</sub>를 나타내요. 2.3 ppm의 사중선은 C=O 옆의 CH<sub>2</sub>(2.0–2.5 ppm)에 맞아요. 3.7 ppm의 3 H 단일선은 에스터의 O–CH<sub>3</sub>(3.7–4.8 ppm)에 맞아요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Ethyl ethanoate also gives a triplet, a quartet and a singlet. But its quartet would be at 3.7–4.8 ppm (O–CH<sub>2</sub>) and its singlet at 2.0–2.5 ppm. It has no O–CH<sub>3</sub> group to lose, so M − 31 would not fit.": "",
+    "Ethyl ethanoate also gives a triplet, a quartet and a singlet. But its quartet would be at 3.7–4.8 ppm (O–CH<sub>2</sub>) and its singlet at 2.0–2.5 ppm. It has no O–CH<sub>3</sub> group to lose, so M − 31 would not fit.": "ethyl ethanoate도 삼중선, 사중선, 단일선을 만들어요. 하지만 사중선은 3.7–4.8 ppm(O–CH<sub>2</sub>)에, 단일선은 2.0–2.5 ppm에 나타날 거예요. 잃을 O–CH<sub>3</sub>기가 없으므로 M − 31은 맞지 않아요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "butanoic acid": "",
+    "butanoic acid": "butanoic acid",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Butanoic acid has an O–H bond. Its IR spectrum would show a very broad band at 2500–3000 cm<sup>−1</sup>, and its NMR spectrum would have a signal at 9.0–13.0 ppm.": "",
+    "Butanoic acid has an O–H bond. Its IR spectrum would show a very broad band at 2500–3000 cm<sup>−1</sup>, and its NMR spectrum would have a signal at 9.0–13.0 ppm.": "butanoic acid에는 O–H 결합이 있어요. IR 스펙트럼에는 2500–3000 cm<sup>−1</sup>에 매우 넓은 띠가 나타나고, NMR 스펙트럼에는 9.0–13.0 ppm에 신호가 있을 거예요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "2,2-dimethylpropanal": "",
+    "2,2-dimethylpropanal": "2,2-dimethylpropanal",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "MS: the peak at m/z = 57 is M − 29. The piece lost is •CH<sub>2</sub>CH<sub>3</sub> or •CHO. The NMR spectrum will decide.": "",
+    "MS: the peak at m/z = 57 is M − 29. The piece lost is •CH<sub>2</sub>CH<sub>3</sub> or •CHO. The NMR spectrum will decide.": "MS: m/z = 57의 봉우리는 M − 29예요. 잃은 조각은 •CH<sub>2</sub>CH<sub>3</sub> 또는 •CHO예요. NMR 스펙트럼으로 결정해요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "NMR: the 1 H signal at 9.5 ppm is in the range 9.4–10.0 ppm: an aldehyde H. So the piece of mass 29 lost in the mass spectrum is •CHO. Nine equivalent H at 1.0 ppm are three CH<sub>3</sub> groups on one carbon. Both signals are singlets: no H on the carbon atom between them.": "",
+    "NMR: the 1 H signal at 9.5 ppm is in the range 9.4–10.0 ppm: an aldehyde H. So the piece of mass 29 lost in the mass spectrum is •CHO. Nine equivalent H at 1.0 ppm are three CH<sub>3</sub> groups on one carbon. Both signals are singlets: no H on the carbon atom between them.": "NMR: 9.5 ppm의 1 H 신호는 9.4–10.0 ppm 범위 안에 있어요: 알데하이드의 H예요. 따라서 질량 스펙트럼에서 잃은 질량 29의 조각은 •CHO예요. 1.0 ppm의 동등한 H 9개는 한 탄소에 붙은 CH<sub>3</sub>기 3개예요. 두 신호 모두 단일선이에요: 둘 사이의 탄소 원자에 H가 없어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "pentanal": "",
+    "pentanal": "pentanal",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Pentanal is an aldehyde, but it has five hydrogen environments. The spectrum has only two signals.": "",
+    "Pentanal is an aldehyde, but it has five hydrogen environments. The spectrum has only two signals.": "pentanal은 알데하이드이지만, 수소 환경이 5가지예요. 이 스펙트럼에는 신호가 2개뿐이에요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Pentan-3-one has two environments, but the ratio would be 3 : 2 with a triplet and a quartet. It has no H that gives a signal at 9.4–10.0 ppm.": "",
+    "Pentan-3-one has two environments, but the ratio would be 3 : 2 with a triplet and a quartet. It has no H that gives a signal at 9.4–10.0 ppm.": "pentan-3-one은 환경이 2가지이지만, 비가 3 : 2이고 삼중선과 사중선이 나타날 거예요. 9.4–10.0 ppm에 신호를 만드는 H가 없어요.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Step": "",
+    "Step": "단계",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Molecular formula": "",
+    "Molecular formula": "분자식",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Problem": "",
+    "Problem": "문제",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Unknown compound {n}": "",
+    "Unknown compound {n}": "모르는 화합물 {n}",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Start this problem again": "",
+    "Start this problem again": "이 문제 다시 시작하기",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Data for the unknown compound": "",
+    "Data for the unknown compound": "모르는 화합물의 자료",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Percentage composition by mass: C {c} %, H {h} %, O {o} %.": "",
+    "Percentage composition by mass: C {c} %, H {h} %, O {o} %.": "질량 백분율 조성: C {c} %, H {h} %, O {o} %.",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Mass spectrum (simplified)": "",
+    "Mass spectrum (simplified)": "질량 스펙트럼 (단순화)",
 
     // widget string (assets/js/widgets-s3-2h.js)
-    "Infrared spectrum (sketch)": "",
+    "Infrared spectrum (sketch)": "적외선 스펙트럼 (그림)",
 
     // widget string (assets/js/widgets-s3-2h.js)
     "<sup>1</sup>H NMR spectrum (sketch)": "",

@@ -801,7 +801,7 @@ S1.i18n.register('ko', 's3-2.q', {
         "선의 끝 하나하나에서 차례로 시작해 봐요. 다른 선의 끝까지 가는 가장 긴 경로를 세어요.",
       ],
       // EN: <p>The chain drawn across the page has only 5 carbon atoms. A longer path starts at the end of the two-carbon branch, goes down to the main zig-zag, and then runs to the right-hand end.</p><div class="worked__math">2 (branch) + 4 (rest of the zig-zag) = 6 carbon atoms</div><p>The parent chain is hexane. The one carbon atom left over (the left-hand end) is a methyl group on carbon 3, so the compound is 3-methylhexane.</p>
-      solution: "<p>종이를 가로질러 그려진 사슬에는 탄소 원자가 5개뿐이에요. 탄소 2개짜리 가지의 끝에서 시작해 주된 지그재그로 내려온 다음, 오른쪽 끝까지 가는 경로가 더 길어요.</p><div class=\"worked__math\">2 (가지) + 4 (지그재그의 나머지) = 6 탄소 원자</div><p>주 사슬은 hexane이에요. 남은 탄소 원자 1개(왼쪽 끝)는 3번 탄소에 붙은 메틸기이므로, 이 화합물은 3-methylhexane이에요.</p>",
+      solution: "<p>종이를 가로질러 그려진 사슬에는 탄소 원자가 5개뿐이에요. 탄소 2개짜리 가지의 끝에서 시작해 주된 지그재그로 내려온 다음, 오른쪽 끝까지 가는 경로가 더 길어요.</p><div class=\"worked__math\">2 (가지) + 4 (지그재그의 나머지) = 6 탄소 원자</div><p>주사슬은 hexane이에요. 남은 탄소 원자 1개(왼쪽 끝)는 3번 탄소에 붙은 메틸기이므로, 이 화합물은 3-methylhexane이에요.</p>",
       // EN: carbon atoms
       unit: "개 (탄소 원자)",
     },
@@ -940,7 +940,7 @@ S1.i18n.register('ko', 's3-2.q', {
       stem: "<p>어떤 알켄의 골격 구조식이 있어요.</p><p data-i18n=\"off\"><svg class=\"mol mol--skeletal\" viewBox=\"-4 -43 99 47\" width=\"99\" height=\"47\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC=CC(C)C\" data-g=\"S:C.C.C.C.C.C;0-1,1=2,2-3,3-4,3-5\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M21.4 -11.1L43.9 1.9\"/><path d=\"M23.6 -14.9L46.1 -1.9\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M67.5 -13L67.5 -39\"/><path d=\"M67.5 -13L90.1 0\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"></g></svg></p><p>이 화합물의 IUPAC 이름을 쓰시오 (state). 번호를 어떻게 정했는지 보이세요.</p>",
       hints: [
         // EN: The parent chain must contain both carbon atoms of the C=C.
-        "주 사슬에는 C=C의 두 탄소 원자가 모두 들어 있어야 해요.",
+        "주사슬에는 C=C의 두 탄소 원자가 모두 들어 있어야 해요.",
         // EN: The double bond gets the lowest possible number. The branch takes whatever number follows from that.
         "이중 결합이 가능한 한 가장 작은 번호를 받아요. 가지의 번호는 그에 따라 정해져요.",
       ],
@@ -948,7 +948,7 @@ S1.i18n.register('ko', 's3-2.q', {
       answer: "<p><strong>4-methylpent-2-ene</strong></p><p>C=C를 포함하는 가장 긴 사슬에 탄소 원자가 5개 있어요: pent-. 이중 결합에 더 가까운 쪽 끝에서 번호를 매겨요. 그러면 이중 결합이 2번 탄소에서 시작해요: pent-2-ene. 메틸기는 4번 탄소에 있어요.</p><p>다른 쪽 끝에서 번호를 매기면 2-methylpent-3-ene이 돼요. 이중 결합이 가능한 한 가장 작은 번호를 받아야 하므로 이것은 틀려요.</p>",
       markscheme: [
         // EN: Parent chain: pent-2-ene (five carbon atoms, numbered so that the double bond starts at carbon 2).
-        "주 사슬: pent-2-ene (탄소 원자 5개, 이중 결합이 2번 탄소에서 시작하도록 번호를 매김).",
+        "주사슬: pent-2-ene (탄소 원자 5개, 이중 결합이 2번 탄소에서 시작하도록 번호를 매김).",
         // EN: Complete name: 4-methylpent-2-ene. (Missing hyphens are not penalised. Do not accept 2-methylpent-3-ene.)
         "완전한 이름: 4-methylpent-2-ene. (하이픈이 빠져도 감점하지 않음. 2-methylpent-3-ene은 인정하지 않음.)",
       ],

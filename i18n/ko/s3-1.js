@@ -1278,10 +1278,10 @@ S1.i18n.register('ko', 's3-1', {
     "Oxidation numbers in names": "이름 속의 산화수",
 
     // Oxidation states > p
-    "When an element can have more than one oxidation state, the name can show it. The <dfn data-def=\"Another term for oxidation state. In a name it is written as a Roman numeral, for example iron(III).\">oxidation number</dfn> is written as a Roman numeral in brackets. There is no space before the bracket.": "원소가 산화수를 여러 가지 가질 수 있을 때는 이름에 그것을 나타낼 수 있어요. 이때 <dfn data-def=\"oxidation state를 가리키는 또 다른 용어. 이름에서는 철(III)처럼 로마 숫자로 쓴다.\">산화수 <span class=\"en-term\">(oxidation number)</span></dfn>를 괄호 안에 로마 숫자로 써요. 괄호 앞은 띄우지 않아요.",
+    "When an element can have more than one oxidation state, the name can show it. The <dfn data-def=\"Another term for oxidation state. In a name it is written as a Roman numeral, for example iron(III).\">oxidation number</dfn> is written as a Roman numeral in brackets. There is no space before the bracket.": "원소가 산화수를 여러 가지 가질 수 있을 때는 이름에 그것을 나타낼 수 있어요. 이때 <dfn data-def=\"‘oxidation state’를 가리키는 또 다른 영어 용어(한국어로는 둘 다 산화수). 이름에서는 철(III)처럼 로마 숫자로 쓴다.\">산화수 <span class=\"en-term\">(oxidation number)</span></dfn>를 괄호 안에 로마 숫자로 써요. 괄호 앞은 띄우지 않아요.",
 
     // Oxidation states > data-def attribute
-    "Another term for oxidation state. In a name it is written as a Roman numeral, for example iron(III).": "oxidation state를 가리키는 또 다른 용어. 이름에서는 철(III)처럼 로마 숫자로 쓴다.",
+    "Another term for oxidation state. In a name it is written as a Roman numeral, for example iron(III).": "‘oxidation state’를 가리키는 또 다른 영어 용어(한국어로는 둘 다 산화수). 이름에서는 철(III)처럼 로마 숫자로 쓴다.",
 
     // Oxidation states > table > caption
     "Names with oxidation numbers": "산화수가 들어간 이름",
@@ -2406,652 +2406,652 @@ S1.i18n.register('ko', 's3-1', {
     "Sizes hidden until you predict.": "예측하기 전에는 크기가 보이지 않아요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "All six ions have the same electron configuration, so the shielding is the same. The nuclear charge rises from +7 to +13. A greater nuclear charge pulls the same 10 electrons closer, so the ion is smaller.": "",
+    "All six ions have the same electron configuration, so the shielding is the same. The nuclear charge rises from +7 to +13. A greater nuclear charge pulls the same 10 electrons closer, so the ion is smaller.": "6가지 이온은 모두 전자 배치가 같으므로 가려막기도 같아요. 핵전하는 +7에서 +13으로 커져요. 핵전하가 클수록 같은 10개의 전자를 더 가까이 끌어당기므로 이온이 작아져요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Make a prediction to see the sizes.": "",
+    "Make a prediction to see the sizes.": "예측을 하면 크기가 보여요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Group 1 metal added to water": "",
+    "Group 1 metal added to water": "물에 넣은 1족 금속",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Bar chart of the first ionization energies of the group 1 metals. The values fall from lithium, 520, to caesium, 376 kilojoules per mole.": "",
+    "Bar chart of the first ionization energies of the group 1 metals. The values fall from lithium, 520, to caesium, 376 kilojoules per mole.": "1족 금속의 제1 이온화 에너지를 나타낸 막대그래프. 값은 리튬 520에서 세슘 376 킬로줄 매 몰까지 작아져요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "First ionization energy / kJ mol⁻¹ (data booklet)": "",
+    "First ionization energy / kJ mol⁻¹ (data booklet)": "제1 이온화 에너지 / kJ mol⁻¹ (데이터 부클릿)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Metal": "",
+    "Metal": "금속",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Why the reaction gets more vigorous down the group": "",
+    "Why the reaction gets more vigorous down the group": "족 아래로 갈수록 반응이 격렬해지는 이유",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It floats on the water.": "",
+    "It floats on the water.": "물 위에 떠요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It fizzes steadily. Bubbles of hydrogen gas form.": "",
+    "It fizzes steadily. Bubbles of hydrogen gas form.": "꾸준히 쉬익 소리를 내며 거품이 생겨요. 수소 기체 방울이 생겨요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It moves slowly on the surface and gets smaller until it disappears.": "",
+    "It moves slowly on the surface and gets smaller until it disappears.": "물 표면 위를 천천히 돌아다니며 작아지다가 사라져요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It does not melt.": "",
+    "It does not melt.": "녹지 않아요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It melts into a shiny ball. The reaction releases heat.": "",
+    "It melts into a shiny ball. The reaction releases heat.": "녹아서 반짝이는 구슬 모양이 돼요. 반응에서 열이 방출돼요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It fizzes quickly and moves quickly across the surface.": "",
+    "It fizzes quickly and moves quickly across the surface.": "빠르게 쉬익 소리를 내며 거품이 생기고, 물 표면 위를 빠르게 돌아다녀요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It gets smaller until it disappears. The hydrogen sometimes catches fire.": "",
+    "It gets smaller until it disappears. The hydrogen sometimes catches fire.": "작아지다가 사라져요. 수소에 불이 붙기도 해요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It melts into a ball at once.": "",
+    "It melts into a ball at once.": "곧바로 녹아서 구슬 모양이 돼요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It fizzes very quickly and moves very quickly.": "",
+    "It fizzes very quickly and moves very quickly.": "아주 빠르게 쉬익 소리를 내며 거품이 생기고, 아주 빠르게 돌아다녀요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The hydrogen catches fire at once and burns with a lilac flame.": "",
+    "The hydrogen catches fire at once and burns with a lilac flame.": "수소에 곧바로 불이 붙어 연보라색 불꽃을 내며 타요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It reacts violently as soon as it touches the water.": "",
+    "It reacts violently as soon as it touches the water.": "물에 닿자마자 격렬하게 반응해요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The reaction is explosive.": "",
+    "The reaction is explosive.": "반응이 폭발적이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It is too dangerous for a school laboratory. You study it with videos or simulations.": "",
+    "It is too dangerous for a school laboratory. You study it with videos or simulations.": "학교 실험실에서 하기에는 너무 위험해요. 영상이나 시뮬레이션으로 공부해요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It reacts explosively as soon as it touches the water.": "",
+    "It reacts explosively as soon as it touches the water.": "물에 닿자마자 폭발적으로 반응해요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "This is the most vigorous reaction of the five metals shown.": "",
+    "This is the most vigorous reaction of the five metals shown.": "여기 나온 5가지 금속 중 가장 격렬한 반응이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "What you observe: {name} + water": "",
+    "What you observe: {name} + water": "관찰 결과: {name} + 물",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The solution left behind is alkaline. It contains hydroxide ions.": "",
+    "The solution left behind is alkaline. It contains hydroxide ions.": "남은 용액은 알칼리성이에요. 수산화 이온이 들어 있어요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Equation": "",
+    "Equation": "반응식",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "{symbol} ({name})": "",
+    "{symbol} ({name})": "{symbol} ({name})",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Each atom loses its one outer electron to form a 1+ ion. Going down the group, the outer electron is in a higher main energy level. It is further from the nucleus and shielded by more inner electrons, so it is attracted less strongly and is lost more easily. Metallic character increases down group 1.": "",
+    "Each atom loses its one outer electron to form a 1+ ion. Going down the group, the outer electron is in a higher main energy level. It is further from the nucleus and shielded by more inner electrons, so it is attracted less strongly and is lost more easily. Metallic character increases down group 1.": "각 원자는 바깥 전자 1개를 잃고 1+ 이온이 돼요. 족 아래로 갈수록 바깥 전자는 더 높은 주 에너지 준위에 있어요. 원자핵에서 더 멀고 더 많은 안쪽 전자에 의해 가려지므로, 덜 강하게 끌어당겨져 더 쉽게 떨어져 나가요. 1족에서는 아래로 갈수록 금속성이 커져요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "chlorine": "",
+    "chlorine": "염소",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "bromine": "",
+    "bromine": "브로민",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "iodine": "",
+    "iodine": "아이오딘",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "chloride": "",
+    "chloride": "염화",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "bromide": "",
+    "bromide": "브로민화",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "iodide": "",
+    "iodide": "아이오딘화",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Predict: for each mixture, choose “Reacts” or “No reaction”. Then check.": "",
+    "Predict: for each mixture, choose “Reacts” or “No reaction”. Then check.": "예측해 보세요: 각 혼합물에 대해 “반응함” 또는 “반응 없음”을 고르세요. 그다음 확인하세요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Halogen added": "",
+    "Halogen added": "넣은 할로젠",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "{name} ions": "",
+    "{name} ions": "{name} 이온",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "same element: no change": "",
+    "same element: no change": "같은 원소: 변화 없음",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "{halogen} with {halide} ions": "",
+    "{halogen} with {halide} ions": "{halogen} + {halide} 이온",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Reacts": "",
+    "Reacts": "반응함",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "No reaction": "",
+    "No reaction": "반응 없음",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Check my predictions": "",
+    "Check my predictions": "내 예측 확인",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Start again": "",
+    "Start again": "처음부터 다시",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Correct predictions": "",
+    "Correct predictions": "맞힌 예측",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The rule": "",
+    "The rule": "규칙",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Make a prediction for all six mixtures first.": "",
+    "Make a prediction for all six mixtures first.": "먼저 6가지 혼합물 모두에 대해 예측하세요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Right": "",
+    "Right": "맞음",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Wrong": "",
+    "Wrong": "틀림",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "reacts, solution turns brown": "",
+    "reacts, solution turns brown": "반응함, 용액이 갈색으로 변함",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "reacts, solution turns yellow-orange": "",
+    "reacts, solution turns yellow-orange": "반응함, 용액이 노란 주황색으로 변함",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "no reaction": "",
+    "no reaction": "반응 없음",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "{n} of 6": "",
+    "{n} of 6": "6개 중 {n}개",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Three mixtures react. In each one, the halogen higher in group 17 takes electrons from the halide ion of a halogen lower in the group.": "",
+    "Three mixtures react. In each one, the halogen higher in group 17 takes electrons from the halide ion of a halogen lower in the group.": "3가지 혼합물이 반응해요. 각각의 경우, 17족에서 위쪽에 있는 할로젠이 아래쪽에 있는 할로젠의 할로젠화 이온에서 전자를 빼앗아요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Bromine in solution is yellow-orange. Iodine in solution is brown. Iodine does not displace chloride or bromide ions, and bromine does not displace chloride ions.": "",
+    "Bromine in solution is yellow-orange. Iodine in solution is brown. Iodine does not displace chloride or bromide ions, and bromine does not displace chloride ions.": "용액 속 브로민은 노란 주황색이에요. 용액 속 아이오딘은 갈색이에요. 아이오딘은 염화 이온이나 브로민화 이온을 치환하지 못하고, 브로민은 염화 이온을 치환하지 못해요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "A halogen atom gains one electron to form a 1− ion. Going down group 17, the outer energy level is further from the nucleus and more shielded, so an extra electron is attracted less strongly. Chlorine gains electrons most easily of these three, and iodine least easily. Non-metallic character decreases down group 17.": "",
+    "A halogen atom gains one electron to form a 1− ion. Going down group 17, the outer energy level is further from the nucleus and more shielded, so an extra electron is attracted less strongly. Chlorine gains electrons most easily of these three, and iodine least easily. Non-metallic character decreases down group 17.": "할로젠 원자는 전자 1개를 얻어 1− 이온이 돼요. 17족 아래로 갈수록 바깥 에너지 준위가 원자핵에서 더 멀고 더 많이 가려지므로, 더해지는 전자가 덜 강하게 끌어당겨져요. 이 세 원소 중 염소가 가장 쉽게 전자를 얻고, 아이오딘이 가장 어렵게 얻어요. 17족에서는 아래로 갈수록 비금속성이 작아져요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "sodium oxide": "",
+    "sodium oxide": "산화 나트륨",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "ionic; giant ionic lattice": "",
+    "ionic; giant ionic lattice": "이온 결합; 거대 이온 격자",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It reacts with water and dissolves. The solution is strongly alkaline: the pH is well above 7.": "",
+    "It reacts with water and dissolves. The solution is strongly alkaline: the pH is well above 7.": "물과 반응하여 녹아요. 용액은 강한 알칼리성이에요: pH가 7보다 훨씬 커요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "magnesium oxide": "",
+    "magnesium oxide": "산화 마그네슘",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It reacts only slightly with water, because very little dissolves. The solution is weakly alkaline: the pH is a little above 7.": "",
+    "It reacts only slightly with water, because very little dissolves. The solution is weakly alkaline: the pH is a little above 7.": "물에 아주 조금만 녹아서 물과 조금만 반응해요. 용액은 약한 알칼리성이에요: pH가 7보다 조금 커요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "aluminium oxide": "",
+    "aluminium oxide": "산화 알루미늄",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It does not dissolve in water, so the pH stays at 7. It is amphoteric: it can react with acids and with bases.": "",
+    "It does not dissolve in water, so the pH stays at 7. It is amphoteric: it can react with acids and with bases.": "물에 녹지 않으므로 pH는 7 그대로예요. 양쪽성이에요: 산과도 염기와도 반응할 수 있어요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "silicon dioxide": "",
+    "silicon dioxide": "이산화 규소",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "covalent; covalent network structure": "",
+    "covalent; covalent network structure": "공유 결합; 공유 결정(공유 그물 구조)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It does not dissolve in water, so the pH stays at 7. It is still an acidic oxide, because it reacts with bases.": "",
+    "It does not dissolve in water, so the pH stays at 7. It is still an acidic oxide, because it reacts with bases.": "물에 녹지 않으므로 pH는 7 그대로예요. 그래도 염기와 반응하므로 산성 산화물이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "phosphorus(V) oxide": "",
+    "phosphorus(V) oxide": "산화 인(V)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "covalent; molecular": "",
+    "covalent; molecular": "공유 결합; 분자",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It reacts with water to form an acid. The solution is acidic: the pH is well below 7.": "",
+    "It reacts with water to form an acid. The solution is acidic: the pH is well below 7.": "물과 반응하여 산을 만들어요. 용액은 산성이에요: pH가 7보다 훨씬 작아요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "sulfur trioxide": "",
+    "sulfur trioxide": "삼산화 황",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It reacts with water to form sulfuric acid. The solution is strongly acidic: the pH is well below 7. Sulfur dioxide, the other oxide of sulfur, forms a weaker acid.": "",
+    "It reacts with water to form sulfuric acid. The solution is strongly acidic: the pH is well below 7. Sulfur dioxide, the other oxide of sulfur, forms a weaker acid.": "물과 반응하여 황산을 만들어요. 용액은 강한 산성이에요: pH가 7보다 훨씬 작아요. 황의 또 다른 산화물인 이산화 황은 더 약한 산을 만들어요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "dichlorine heptoxide": "",
+    "dichlorine heptoxide": "칠산화 이염소",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "It reacts with water to form an acid. The solution is strongly acidic: the pH is well below 7.": "",
+    "It reacts with water to form an acid. The solution is strongly acidic: the pH is well below 7.": "물과 반응하여 산을 만들어요. 용액은 강한 산성이에요: pH가 7보다 훨씬 작아요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Move across period 3 (1 = sodium oxide … 7 = an oxide of chlorine)": "",
+    "Move across period 3 (1 = sodium oxide … 7 = an oxide of chlorine)": "3주기를 따라 이동하기 (1 = 산화 나트륨 … 7 = 염소의 산화물)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The oxides of period 3 in a row from sodium oxide to an oxide of chlorine. Below them, a band shows the change from basic, through amphoteric, to acidic. A marker on a pH line shows whether the mixture with water is alkaline, neutral or acidic.": "",
+    "The oxides of period 3 in a row from sodium oxide to an oxide of chlorine. Below them, a band shows the change from basic, through amphoteric, to acidic. A marker on a pH line shows whether the mixture with water is alkaline, neutral or acidic.": "산화 나트륨부터 염소의 산화물까지 3주기의 산화물을 한 줄로 늘어놓은 그림. 그 아래 띠는 염기성에서 양쪽성을 거쳐 산성으로 바뀌는 것을 보여 줘요. pH 선 위의 표시는 물과의 혼합물이 알칼리성인지, 중성인지, 산성인지 보여 줘요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Oxide": "",
+    "Oxide": "산화물",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Element is a": "",
+    "Element is a": "원소의 종류",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Bonding and structure": "",
+    "Bonding and structure": "결합과 구조",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Acid–base character": "",
+    "Acid–base character": "산–염기 성질",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "With water": "",
+    "With water": "물과의 반응",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Equation with water": "",
+    "Equation with water": "물과의 반응식",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "basic": "",
+    "basic": "염기성",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "amphoteric": "",
+    "amphoteric": "양쪽성",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "acidic": "",
+    "acidic": "산성",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "metal oxides": "",
+    "metal oxides": "금속 산화물",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "non-metal oxides": "",
+    "non-metal oxides": "비금속 산화물",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "alkaline (pH above 7)": "",
+    "alkaline (pH above 7)": "알칼리성 (pH 7 초과)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "acidic (pH below 7)": "",
+    "acidic (pH below 7)": "산성 (pH 7 미만)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "{oxide} mixed with water (position is approximate)": "",
+    "{oxide} mixed with water (position is approximate)": "{oxide}을(를) 물과 섞은 경우 (위치는 대략적임)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "(You must be able to write this equation.)": "",
+    "(You must be able to write this equation.)": "(이 반응식은 꼭 쓸 수 있어야 해요.)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Not required. You only need equations for the oxides of group 1 metals, group 2 metals, carbon and sulfur.": "",
+    "Not required. You only need equations for the oxides of group 1 metals, group 2 metals, carbon and sulfur.": "필요 없어요. 1족 금속, 2족 금속, 탄소, 황의 산화물에 대한 반응식만 알면 돼요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Oxygen is −2 in most compounds.": "",
+    "Oxygen is −2 in most compounds.": "산소는 대부분의 화합물에서 −2예요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Hydrogen is +1 when it is bonded to a non-metal.": "",
+    "Hydrogen is +1 when it is bonded to a non-metal.": "수소는 비금속과 결합할 때 +1이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "A group 1 metal is always +1 in its compounds.": "",
+    "A group 1 metal is always +1 in its compounds.": "1족 금속은 화합물에서 항상 +1이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "A group 2 metal is always +2 in its compounds.": "",
+    "A group 2 metal is always +2 in its compounds.": "2족 금속은 화합물에서 항상 +2예요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Fluorine is always −1 in its compounds.": "",
+    "Fluorine is always −1 in its compounds.": "플루오린은 화합물에서 항상 −1이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "A monatomic ion has an oxidation state equal to its charge. The chloride ion has a 1− charge, so chlorine is −1 here.": "",
+    "A monatomic ion has an oxidation state equal to its charge. The chloride ion has a 1− charge, so chlorine is −1 here.": "단원자 이온의 산화수는 그 이온의 전하와 같아요. 염화 이온의 전하는 1−이므로 여기서 염소는 −1이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "carbon dioxide": "",
+    "carbon dioxide": "이산화 탄소",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "This is an element. The two atoms are identical, so they share the bonding electrons equally. No electrons are transferred, so the oxidation state is 0.": "",
+    "This is an element. The two atoms are identical, so they share the bonding electrons equally. No electrons are transferred, so the oxidation state is 0.": "이것은 홑원소 물질이에요. 두 원자가 똑같으므로 결합 전자를 똑같이 공유해요. 전자가 이동하지 않으므로 산화수는 0이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "hydrogen sulfide": "",
+    "hydrogen sulfide": "황화 수소",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "iron(III) chloride. The Roman numeral shows the oxidation state of the iron.": "",
+    "iron(III) chloride. The Roman numeral shows the oxidation state of the iron.": "염화 철(III). 로마 숫자는 철의 산화수를 나타내요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "sulfur trioxide, or sulfur(VI) oxide": "",
+    "sulfur trioxide, or sulfur(VI) oxide": "삼산화 황 또는 산화 황(VI)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "ammonia": "",
+    "ammonia": "암모니아",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "sulfate. The systematic name is sulfate(VI).": "",
+    "sulfate. The systematic name is sulfate(VI).": "황산 이온. 계통명은 황산(VI) 이온이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "nitrate. The systematic name is nitrate(V).": "",
+    "nitrate. The systematic name is nitrate(V).": "질산 이온. 계통명은 질산(V) 이온이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "iron(III) oxide": "",
+    "iron(III) oxide": "산화 철(III)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "nitrite. The systematic name is nitrate(III).": "",
+    "nitrite. The systematic name is nitrate(III).": "아질산 이온. 계통명은 질산(III) 이온이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "sulfuric acid": "",
+    "sulfuric acid": "황산",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "sulfite. The systematic name is sulfate(IV).": "",
+    "sulfite. The systematic name is sulfate(IV).": "아황산 이온. 계통명은 황산(IV) 이온이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "ammonium": "",
+    "ammonium": "암모늄 이온",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "potassium manganate(VII)": "",
+    "potassium manganate(VII)": "망가니즈산(VII) 칼륨",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "dichromate(VI)": "",
+    "dichromate(VI)": "다이크로뮴산(VI) 이온",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "hydrogen peroxide": "",
+    "hydrogen peroxide": "과산화 수소",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "This is the peroxide exception. Oxygen is −1 in peroxides, not −2. You do not need to remember the answer if you start from hydrogen, +1.": "",
+    "This is the peroxide exception. Oxygen is −1 in peroxides, not −2. You do not need to remember the answer if you start from hydrogen, +1.": "과산화물 예외예요. 과산화물에서 산소는 −2가 아니라 −1이에요. 수소 +1부터 시작하면 답을 외울 필요가 없어요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "sodium hydride": "",
+    "sodium hydride": "수소화 나트륨",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "This is the metal hydride exception. The group 1 metal must be +1, so hydrogen is −1 here, not +1.": "",
+    "This is the metal hydride exception. The group 1 metal must be +1, so hydrogen is −1 here, not +1.": "금속 수소화물 예외예요. 1족 금속은 반드시 +1이므로, 여기서 수소는 +1이 아니라 −1이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "sodium peroxide": "",
+    "sodium peroxide": "과산화 나트륨",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "This is the peroxide exception. The group 1 metal must be +1, so each oxygen is −1.": "",
+    "This is the peroxide exception. The group 1 metal must be +1, so each oxygen is −1.": "과산화물 예외예요. 1족 금속은 반드시 +1이므로, 각 산소는 −1이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "calcium hydride": "",
+    "calcium hydride": "수소화 칼슘",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "This is the metal hydride exception. The group 2 metal must be +2, so each hydrogen is −1.": "",
+    "This is the metal hydride exception. The group 2 metal must be +2, so each hydrogen is −1.": "금속 수소화물 예외예요. 2족 금속은 반드시 +2이므로, 각 수소는 −1이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "oxygen difluoride": "",
+    "oxygen difluoride": "이플루오린화 산소",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Fluorine is always −1, so oxygen is positive here. Start from the atom whose rule has no exceptions.": "",
+    "Fluorine is always −1, so oxygen is positive here. Start from the atom whose rule has no exceptions.": "플루오린은 항상 −1이므로 여기서 산소는 양의 값이에요. 예외가 없는 규칙을 가진 원자부터 시작하세요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "potassium dichromate(VI)": "",
+    "potassium dichromate(VI)": "다이크로뮴산(VI) 칼륨",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "barium peroxide": "",
+    "barium peroxide": "과산화 바륨",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "This is the peroxide exception. The group 2 metal must be +2, so each oxygen is −1.": "",
+    "This is the peroxide exception. The group 2 metal must be +2, so each oxygen is −1.": "과산화물 예외예요. 2족 금속은 반드시 +2이므로, 각 산소는 −1이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Level": "",
+    "Level": "단계",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "1 Simple compounds": "",
+    "1 Simple compounds": "1 간단한 화합물",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "2 Ions and three elements": "",
+    "2 Ions and three elements": "2 이온과 세 원소 화합물",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "3 Exceptions": "",
+    "3 Exceptions": "3 예외",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Next species": "",
+    "Next species": "다음 화학종",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Species": "",
+    "Species": "화학종",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Species in this level": "",
+    "Species in this level": "이 단계의 화학종",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Completed": "",
+    "Completed": "완료",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "{i} of {n}": "",
+    "{i} of {n}": "{n}개 중 {i}번째",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Find the oxidation state of {el} in this species.": "",
+    "Find the oxidation state of {el} in this species.": "이 화학종에서 {el}의 산화수를 구하세요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Step 1. What must all the oxidation states add up to?": "",
+    "Step 1. What must all the oxidation states add up to?": "1단계. 모든 산화수의 합은 얼마가 되어야 할까요?",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Right. There is no overall charge, so the oxidation states add up to 0.": "",
+    "Right. There is no overall charge, so the oxidation states add up to 0.": "맞아요. 전체 전하가 없으므로 산화수의 합은 0이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Right. The oxidation states add up to the charge on the ion: {q}.": "",
+    "Right. The oxidation states add up to the charge on the ion: {q}.": "맞아요. 산화수의 합은 이온의 전하와 같아요: {q}.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Not that. The total equals the overall charge on the species. A neutral compound or element has a total of 0.": "",
+    "Not that. The total equals the overall charge on the species. A neutral compound or element has a total of 0.": "그게 아니에요. 합계는 화학종 전체의 전하와 같아요. 중성 화합물이나 홑원소 물질은 합계가 0이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Step {n}. What is the oxidation state of each {el} atom here?": "",
+    "Step {n}. What is the oxidation state of each {el} atom here?": "{n}단계. 여기서 {el} 원자 하나의 산화수는 얼마일까요?",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Right: {os}.": "",
+    "Right: {os}.": "맞아요: {os}.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Not that. Use the rule:": "",
+    "Not that. Use the rule:": "그게 아니에요. 이 규칙을 이용하세요:",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Step {n}. Let the oxidation state of {el} be x. Solve for x.": "",
+    "Step {n}. Let the oxidation state of {el} be x. Solve for x.": "{n}단계. {el}의 산화수를 x라고 하세요. x를 구하세요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Check": "",
+    "Check": "확인",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "x =": "",
+    "x =": "x =",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Type a whole number with its sign, for example +4 or −2.": "",
+    "Type a whole number with its sign, for example +4 or −2.": "부호를 붙여 정수로 입력하세요. 예: +4 또는 −2.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The size is right but the sign is wrong. Check the signs in the equation.": "",
+    "The size is right but the sign is wrong. Check the signs in the equation.": "크기는 맞지만 부호가 틀렸어요. 식의 부호를 확인하세요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "That is the total for all {n} atoms. Divide by {n} to get the oxidation state of one atom.": "",
+    "That is the total for all {n} atoms. Divide by {n} to get the oxidation state of one atom.": "그것은 원자 {n}개 전체의 합이에요. {n}으로 나누어 원자 하나의 산화수를 구하세요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Not that. Add up the known values, then find what x must be to reach the total.": "",
+    "Not that. Add up the known values, then find what x must be to reach the total.": "그게 아니에요. 아는 값을 모두 더한 다음, 합계가 되려면 x가 얼마여야 하는지 구하세요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Write the sign first: {a}, not {b}. A sign after the number means an ion charge, and it does not earn the mark.": "",
+    "Write the sign first: {a}, not {b}. A sign after the number means an ion charge, and it does not earn the mark.": "부호를 먼저 쓰세요: {b}가 아니라 {a}. 숫자 뒤의 부호는 이온의 전하를 뜻하고, 점수를 받지 못해요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Include the + sign: write {a}. A number with no sign does not earn the mark.": "",
+    "Include the + sign: write {a}. A number with no sign does not earn the mark.": "+ 부호를 붙이세요: {a}라고 써요. 부호가 없는 숫자는 점수를 받지 못해요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Correct: the oxidation state of {el} is {a}.": "",
+    "Correct: the oxidation state of {el} is {a}.": "정답이에요: {el}의 산화수는 {a}예요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Name: {name}": "",
+    "Name: {name}": "이름: {name}",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Remove one 4s electron": "",
+    "Remove one 4s electron": "4s 전자 1개 떼어 내기",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Remove one 3d electron": "",
+    "Remove one 3d electron": "3d 전자 1개 떼어 내기",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Start again from the atom": "",
+    "Start again from the atom": "원자부터 다시 시작",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Orbital diagram: one 4s box and five 3d boxes for the chosen atom or ion. Arrows show the electrons.": "",
+    "Orbital diagram: one 4s box and five 3d boxes for the chosen atom or ion. Arrows show the electrons.": "오비탈 상자 그림: 선택한 원자나 이온의 4s 상자 1개와 3d 상자 5개. 화살표는 전자를 나타내요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Condensed configuration": "",
+    "Condensed configuration": "축약 전자 배치",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "3d sublevel": "",
+    "3d sublevel": "3d 부껍질",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "What this means": "",
+    "What this means": "의미",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "{charge} is the highest charge shown here for {el}.": "",
+    "{charge} is the highest charge shown here for {el}.": "{charge}은(는) 여기 나온 {el}의 전하 중 가장 높은 값이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Not yet. Remove the 4s electrons first. In the atom, once 3d contains electrons, 4s is the higher of the two sublevels. The 4s electrons are the outermost electrons and are lost first.": "",
+    "Not yet. Remove the 4s electrons first. In the atom, once 3d contains electrons, 4s is the higher of the two sublevels. The 4s electrons are the outermost electrons and are lost first.": "아직이에요. 4s 전자를 먼저 떼어 내세요. 원자에서 3d에 전자가 들어가면 두 부껍질 중 4s의 에너지가 더 높아요. 4s 전자가 가장 바깥 전자이므로 먼저 떨어져 나가요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The 4s sublevel is already empty. The next electron comes from 3d.": "",
+    "The 4s sublevel is already empty. The next electron comes from 3d.": "4s 부껍질은 이미 비어 있어요. 다음 전자는 3d에서 나와요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Right: a 4s electron is removed before any 3d electron.": "",
+    "Right: a 4s electron is removed before any 3d electron.": "맞아요: 4s 전자는 3d 전자보다 먼저 떨어져 나가요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Right: with 4s empty, the next electron comes from 3d.": "",
+    "Right: with 4s empty, the next electron comes from 3d.": "맞아요: 4s가 비었으므로 다음 전자는 3d에서 나와요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Not shown: the [Ar] core of 18 inner electrons.": "",
+    "Not shown: the [Ar] core of 18 inner electrons.": "나타내지 않은 것: 안쪽 전자 18개로 이루어진 [Ar] 핵심 부분.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "{el} atom": "",
+    "{el} atom": "{el} 원자",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "{el} with one electron removed (not finished)": "",
+    "{el} with one electron removed (not finished)": "전자 1개를 떼어 낸 {el} (끝나지 않음)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "empty (3d<sup>0</sup>)": "",
+    "empty (3d<sup>0</sup>)": "비어 있음 (3d<sup>0</sup>)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "full (3d<sup>10</sup>)": "",
+    "full (3d<sup>10</sup>)": "꽉 참 (3d<sup>10</sup>)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "partially filled (3d<sup>{n}</sup>)": "",
+    "partially filled (3d<sup>{n}</sup>)": "부분적으로 채워짐 (3d<sup>{n}</sup>)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "This is the atom. Choose which sublevel loses the first electron.": "",
+    "This is the atom. Choose which sublevel loses the first electron.": "이것은 원자예요. 첫 번째 전자를 어느 부껍질에서 잃을지 고르세요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "One 4s electron is still there. Common ions of this element have lost both 4s electrons. Remove it before you read the configuration.": "",
+    "One 4s electron is still there. Common ions of this element have lost both 4s electrons. Remove it before you read the configuration.": "4s 전자가 아직 1개 남아 있어요. 이 원소의 흔한 이온은 4s 전자 2개를 모두 잃은 것이에요. 전자 배치를 읽기 전에 이 전자를 떼어 내세요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The d sublevel is empty. There is no d electron to promote between d orbitals, so this ion cannot absorb visible light in that way. This is why compounds of Sc<sup>3+</sup> are colourless.": "",
+    "The d sublevel is empty. There is no d electron to promote between d orbitals, so this ion cannot absorb visible light in that way. This is why compounds of Sc<sup>3+</sup> are colourless.": "d 부껍질이 비어 있어요. d 오비탈 사이에서 들뜰 d 전자가 없으므로, 이 이온은 그런 방식으로 가시광선을 흡수할 수 없어요. 그래서 Sc<sup>3+</sup>의 화합물은 무색이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The d sublevel is full. There is no space in the higher d orbitals for a promoted electron, so this ion cannot absorb visible light in that way. This is why solutions of Zn<sup>2+</sup> compounds are colourless.": "",
+    "The d sublevel is full. There is no space in the higher d orbitals for a promoted electron, so this ion cannot absorb visible light in that way. This is why solutions of Zn<sup>2+</sup> compounds are colourless.": "d 부껍질이 꽉 차 있어요. 위쪽 d 오비탈에 들뜬 전자가 들어갈 자리가 없으므로, 이 이온은 그런 방식으로 가시광선을 흡수할 수 없어요. 그래서 Zn<sup>2+</sup> 화합물의 용액은 무색이에요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The d sublevel is partially filled. An electron can be promoted between d orbitals, so this ion can form coloured complexes.": "",
+    "The d sublevel is partially filled. An electron can be promoted between d orbitals, so this ion can form coloured complexes.": "d 부껍질이 부분적으로 채워져 있어요. 전자가 d 오비탈 사이에서 들뜰 수 있으므로, 이 이온은 색을 띠는 착화합물을 만들 수 있어요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Transition element to compare with calcium": "",
+    "Transition element to compare with calcium": "칼슘과 비교할 전이 원소",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Calcium: each value ÷ the one before": "",
+    "Calcium: each value ÷ the one before": "칼슘: 각 값 ÷ 바로 앞의 값",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Chosen element: each value ÷ the one before": "",
+    "Chosen element: each value ÷ the one before": "선택한 원소: 각 값 ÷ 바로 앞의 값",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "What the data show": "",
+    "What the data show": "자료가 보여 주는 것",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Bar chart of the first five ionization energies of calcium and {name}.": "",
+    "Bar chart of the first five ionization energies of calcium and {name}.": "칼슘과 {name}의 제1~제5 이온화 에너지를 나타낸 막대그래프.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Number of the electron removed": "",
+    "Number of the electron removed": "떼어 내는 전자의 순서",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Ionization energy / kJ mol⁻¹": "",
+    "Ionization energy / kJ mol⁻¹": "이온화 에너지 / kJ mol⁻¹",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Ca (group 2)": "",
+    "Ca (group 2)": "Ca (2족)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "(transition element)": "",
+    "(transition element)": "(전이 원소)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Calcium: the third ionization energy is {r} times the second. The third electron comes from an inner energy level, so calcium only forms the 2+ ion. {name}: the second and third values rise by a factor of {b} or less. The 4s and 3d electrons are close in energy, so the successive ionization energies are close in value. There is no large jump after the second electron, so more than one oxidation state is possible.": "",
+    "Calcium: the third ionization energy is {r} times the second. The third electron comes from an inner energy level, so calcium only forms the 2+ ion. {name}: the second and third values rise by a factor of {b} or less. The 4s and 3d electrons are close in energy, so the successive ionization energies are close in value. There is no large jump after the second electron, so more than one oxidation state is possible.": "칼슘: 제3 이온화 에너지는 제2 이온화 에너지의 {r}배예요. 세 번째 전자는 안쪽 에너지 준위에서 나오므로 칼슘은 2+ 이온만 만들어요. {name}: 두 번째와 세 번째 값은 {b}배 이하로만 커져요. 4s 전자와 3d 전자의 에너지가 비슷하므로 순차 이온화 에너지의 값이 비슷해요. 두 번째 전자 다음에 큰 도약이 없으므로 산화수가 여러 가지일 수 있어요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "violet": "",
+    "violet": "보라색",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "blue": "",
+    "blue": "파란색",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "green": "",
+    "green": "초록색",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "yellow": "",
+    "yellow": "노란색",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "orange": "",
+    "orange": "주황색",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "red": "",
+    "red": "빨간색",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Wavelength of the light absorbed": "",
+    "Wavelength of the light absorbed": "흡수되는 빛의 파장",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Try an example": "",
+    "Try an example": "예시 해 보기",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "absorbs orange": "",
+    "absorbs orange": "주황색 흡수",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "absorbs green": "",
+    "absorbs green": "초록색 흡수",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "absorbs violet": "",
+    "absorbs violet": "보라색 흡수",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "absorbs yellow": "",
+    "absorbs yellow": "노란색 흡수",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Colour absorbed": "",
+    "Colour absorbed": "흡수되는 색",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Colour observed (complementary)": "",
+    "Colour observed (complementary)": "관찰되는 색 (보색)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Frequency of the light absorbed": "",
+    "Frequency of the light absorbed": "흡수되는 빛의 진동수",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "absorbed": "",
+    "absorbed": "흡수",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "observed": "",
+    "observed": "관찰",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "light in": "",
+    "light in": "들어오는 빛",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "solution": "",
+    "solution": "용액",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "light out": "",
+    "light out": "나가는 빛",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "{colour} missing": "",
+    "{colour} missing": "{colour} 빠짐",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "looks {colour}": "",
+    "looks {colour}": "{colour}으로 보임",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Inside the complex ion": "",
+    "Inside the complex ion": "착이온의 내부",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "The d sublevel is split into two sets of orbitals.": "",
+    "The d sublevel is split into two sets of orbitals.": "d 부껍질이 두 묶음의 오비탈로 갈라져요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "higher-energy d orbitals": "",
+    "higher-energy d orbitals": "에너지가 높은 d 오비탈",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "lower-energy d orbitals": "",
+    "lower-energy d orbitals": "에너지가 낮은 d 오비탈",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "an electron is promoted": "",
+    "an electron is promoted": "전자가 들뜸",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "by absorbing {colour} light": "",
+    "by absorbing {colour} light": "{colour} 빛을 흡수해서",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "Colour wheel from the data booklet with six sectors: orange at the top, then yellow, green, blue, violet and red going clockwise. The {a} sector is marked absorbed and the opposite sector, {o}, is marked observed.": "",
+    "Colour wheel from the data booklet with six sectors: orange at the top, then yellow, green, blue, violet and red going clockwise. The {a} sector is marked absorbed and the opposite sector, {o}, is marked observed.": "데이터 부클릿의 색상환. 6개의 부채꼴: 맨 위가 주황색이고, 시계 방향으로 노란색, 초록색, 파란색, 보라색, 빨간색이에요. {a} 부채꼴에는 흡수, 맞은편 부채꼴인 {o}에는 관찰이라고 표시되어 있어요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "White light enters a solution. The {a} part is absorbed, so the light that comes out looks {o}. Below, an electron moves from the lower-energy d orbitals to the higher-energy d orbitals.": "",
+    "White light enters a solution. The {a} part is absorbed, so the light that comes out looks {o}. Below, an electron moves from the lower-energy d orbitals to the higher-energy d orbitals.": "백색광이 용액에 들어가요. {a} 부분이 흡수되므로 나오는 빛은 {o}으로 보여요. 아래에서는 전자가 에너지가 낮은 d 오비탈에서 에너지가 높은 d 오비탈로 이동해요.",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "{colour} ({lo}–{hi} nm)": "",
+    "{colour} ({lo}–{hi} nm)": "{colour} ({lo}–{hi} nm)",
 
     // widget string (assets/js/widgets-s3-1.js)
-    "A water molecule donates a lone pair of electrons to a copper(II) ion. The arrow shows the coordination bond.": "",
+    "A water molecule donates a lone pair of electrons to a copper(II) ion. The arrow shows the coordination bond.": "물 분자가 구리(II) 이온에 비공유 전자쌍을 내줘요. 화살표는 배위 결합을 나타내요.",
 
   }
 });
