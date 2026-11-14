@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lab 2 Paper and thin-layer chromatography | Structure Lab</title>
+<meta name="description" content="IB Chemistry virtual practical for Structure 1.1.1 and 2.2.10: run paper and thin-layer chromatograms, measure RF values with their uncertainty, identify the parts of a mixture and explain RF values with polarity and intermolecular forces.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('s1.theme'),l=localStorage.getItem('s1.level');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(l==='sl')d.setAttribute('data-show','sl');}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,500..800&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+/* Page-specific pieces for Lab 2. Tokens only. */
+.lab-note { margin: 0.6rem 0 0; font-size: 0.92rem; color: var(--ink-2); max-width: none; }
+.lab-note:empty { display: none; }
+.lab-empty { margin: 0.75rem 0 0; font-size: 0.9rem; color: var(--ink-3); }
+.widget__stage .lab-table { margin: 0.75rem 0 0; }
+.lab-table table { font-size: 0.86rem; }
+.lab-table caption { text-align: left; }
+.lab-tools { display: flex; flex-wrap: wrap; gap: 0.75rem 1.25rem; align-items: flex-end; margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid var(--line); }
+.lab-tools .control { min-width: 0; }
+.lab-id { margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--line); }
+.lab-id .control__label { margin: 0 0 0.4rem; }
+.lab-chip { min-width: 2.75rem; font-family: var(--font-mono); }
+.lab-chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.lab-kit { columns: 2 14rem; column-gap: 2rem; }
+.lab-kit li { break-inside: avoid; }
+</style>
+</head>
+<body data-page="lab-chromatography">
+<div data-s1-header></div>
+<noscript><p class="noscript-note">This site needs JavaScript for its menu, quizzes and interactive diagrams. The explanations below still work without it. <a href="../index.html">Home</a></p></noscript>
+<main id="main">
+
+  <header class="topic-hero wrap">
+    <div data-s1-tile="lab-chromatography"></div>
+    <div class="topic-hero__text">
+      <p class="eyebrow">Lab 2 · Structure 1.1 and 2.2</p>
+      <h1>Paper and thin-layer chromatography</h1>
+      <p class="guiding"><span class="guiding__label">Guiding question</span>How can paper or thin-layer chromatography separate the parts of a mixture, and what do R<sub>F</sub> values tell you about them?</p>
+    </div>
+  </header>
+
+  <div class="topic-layout wrap">
+    <nav data-s1-toc aria-label="On this page"></nav>
+
+    <div class="topic-content">
+
+      <section class="topic-section" id="goals">
+        <h2>What you need to be able to do</h2>
+        <p>This lab practises the chromatography technique from Structure 1.1.1 and Tool 1, and the R<sub>F</sub> skills from Structure 2.2.10. Tick each item when you can do it without help.</p>
+        <ul class="checklist" data-s1-checklist="lab-chromatography">
+          <li data-id="run-method" data-level="sl">Describe how to run a paper or TLC chromatogram and give the reason for each key step.</li>
+          <li data-id="measure" data-level="sl">Measure the distances moved by a spot and by the solvent front, both from the baseline.</li>
+          <li data-id="rf-calc" data-level="sl">Calculate an R<sub>F</sub> value to a sensible precision, with no unit.</li>
+          <li data-id="identify" data-level="sl">Use R<sub>F</sub> values and reference substances to identify the parts of a mixture.</li>
+          <li data-id="polarity" data-level="sl">Explain differences in R<sub>F</sub> using the polarity of the substances and of the stationary and mobile phases.</li>
+          <li data-id="rf-unc" data-level="sl">Work out the uncertainty of an R<sub>F</sub> value and use it when you compare values.</li>
+          <li data-id="evaluate" data-level="sl">Identify errors in a chromatography experiment and suggest realistic improvements.</li>
+        </ul>
+      </section>
+
+      <section class="topic-section" id="background" data-toc="Background">
+        <span class="section-code">Structure 1.1.1 · Structure 2.2.10</span>
+        <h2>The chemistry behind it</h2>
+        <p>Chromatography separates the parts of a mixture because they have different attractions, through intermolecular forces, to two phases. The <dfn data-def="The phase that does not move: the water held in the paper fibres, or the silica layer on a TLC plate.">stationary phase</dfn> stays still. The <dfn data-def="The solvent that moves through the paper or plate, carrying the parts of the mixture with it.">mobile phase</dfn> is the solvent that moves up and carries the mixture with it.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>The two techniques in this lab</caption>
+            <thead><tr><th scope="col">Technique</th><th scope="col">Stationary phase</th><th scope="col">Mobile phase used here</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">paper chromatography</th><td>water held in the cellulose fibres of the paper (polar)</td><td>mixtures of ethanol and water</td></tr>
+              <tr><th scope="row">thin-layer chromatography (TLC)</th><td>a thin layer of silica, <span class="chem">SiO2</span>, on a plate (polar, with –OH groups on its surface)</td><td>mixtures of hexane and ethyl acetate</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Both stationary phases are polar and can form hydrogen bonds. So a polar substance is held back strongly and moves only a short way. A less polar substance spends more time dissolved in the moving solvent and travels further. Making the mobile phase <strong>more polar</strong> helps it compete for the polar substances, so every spot moves further.</p>
+        <div class="eq">
+          <div class="eq__formula"><i>R</i><sub>F</sub> = <span class="frac"><span>distance moved by the spot</span><span>distance moved by the solvent front</span></span></div>
+          <dl class="eq__legend">
+            <div><dt>R<sub>F</sub></dt><dd>retardation factor, between 0 and 1, no unit</dd></div>
+            <div><dt>distances</dt><dd>both measured from the baseline; spot distance to the centre of the spot <span class="unit">cm</span></dd></div>
+          </dl>
+        </div>
+        <p>A substance has the same R<sub>F</sub> value only if the stationary phase, the solvent and the temperature are the same. That is why known substances are run on the <strong>same</strong> paper as the mixture. The full theory is in <a href="../topics/s2-2.html#chromatography">Structure 2.2: chromatography</a>, and the place of chromatography among other separation methods is in <a href="../topics/s1-1.html#separating">Structure 1.1</a> and <a href="lab-separation.html">Lab 1</a>.</p>
+        <aside class="callout callout--scope">
+          <p>Locating agents (a UV lamp, iodine, ninhydrin) for colourless spots are not required. Nor are column chromatography, two-way chromatography, or how gas chromatographs and HPLC machines work. The equation the simulation uses to produce R<sub>F</sub> values is not part of the course.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="plan" data-toc="Aim, variables and safety">
+        <h2>Aim, variables and safety</h2>
+        <p><strong>Aim:</strong> to find out which of four known substances, A to D, are present in a mixture M, and to investigate how the polarity of the mobile phase affects R<sub>F</sub> values.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Variables in the solvent investigation</caption>
+            <thead><tr><th scope="col">Type</th><th scope="col">Variable</th><th scope="col">How it is measured or kept the same</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Independent</th><td>percentage of the more polar solvent in the mobile phase</td><td>measured with graduated pipettes or a measuring cylinder</td></tr>
+              <tr><th scope="row">Dependent</th><td>R<sub>F</sub> value of each spot</td><td>distances measured with a ruler, ±0.05 cm per reading</td></tr>
+              <tr><th scope="row">Controlled</th><td>type of paper or plate</td><td>cut from the same sheet or box</td></tr>
+              <tr><th scope="row">Controlled</th><td>temperature and solvent vapour in the tank</td><td>same room; lid on and tank left to saturate before each run</td></tr>
+              <tr><th scope="row">Controlled</th><td>position and size of the spots</td><td>same baseline height (1.5 cm); small spots from a fine capillary</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Equipment</h3>
+        <ul class="lab-kit">
+          <li>chromatography paper or silica TLC plates</li>
+          <li>mixture M and reference solutions A, B, C, D</li>
+          <li>fine glass capillary tubes for spotting</li>
+          <li>chromatography tank or beaker with a lid</li>
+          <li>ethanol, water, hexane, ethyl acetate</li>
+          <li>10 cm<sup>3</sup> measuring cylinders</li>
+          <li>pencil and 30 cm ruler (1 mm divisions)</li>
+          <li>fume cupboard</li>
+        </ul>
+
+        <aside class="callout callout--safety">
+          <p>Wear eye protection. Ethanol, hexane and ethyl acetate are highly flammable: there must be no naked flames anywhere in the room. Hexane and ethyl acetate vapours are harmful and irritating, and long exposure to hexane can damage nerves: run TLC in a fume cupboard and keep the tank covered.</p>
+          <p>Capillary tubes are thin glass: put broken ones in the glass bin. Do not scrape the silica layer, because the dust irritates the lungs. Pour used organic solvents into the labelled residue bottle, not down the sink.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="method">
+        <h2>Method</h2>
+        <ol>
+          <li>Draw a baseline in <strong>pencil</strong> 1.5 cm from the bottom of the paper and mark five lanes. <em>Why:</em> graphite does not dissolve in the solvent; ink would run.</li>
+          <li>Use a fine capillary to put a small spot of M on the baseline. Let it dry and add more to the same place two or three times. Spot A, B, C and D in the other lanes. <em>Why:</em> small, concentrated spots give compact spots that do not overlap.</li>
+          <li>Pour the mobile phase into the tank to a depth of about 0.8 cm, put the lid on and leave it for a few minutes. <em>Why:</em> the air in the tank fills with solvent vapour, so the solvent does not evaporate from the paper as it rises.</li>
+          <li>Stand the paper in the tank with the baseline <strong>above</strong> the solvent level, not touching the sides, and replace the lid. <em>Why:</em> spots below the solvent level would dissolve into the solvent in the tank.</li>
+          <li>When the solvent front is about 1 cm from the top, take the paper out and mark the solvent front in pencil at once. <em>Why:</em> the front cannot be seen once the solvent evaporates, and if it reaches the top you cannot tell how far it would have gone.</li>
+          <li>Let the paper dry in the fume cupboard. Draw a pencil ring round each spot.</li>
+          <li>With the ruler's zero at the bottom edge, read the positions of the baseline, the solvent front and the centre of each spot. Subtract the baseline reading to get each distance.</li>
+          <li>Repeat with mobile phases of different composition, keeping everything else the same.</li>
+        </ol>
+      </section>
+
+      <section class="topic-section" id="experiment" data-toc="Run the experiment">
+        <h2>Run the experiment</h2>
+        <h3>1. Identify the parts of mixture M</h3>
+        <p>Run the paper with the method as written. Stop it before the solvent reaches the top. Then record readings for the baseline, the front and each spot, and decide which reference substances are in M. Afterwards, try each faulty set-up and see what goes wrong.</p>
+        <figure data-s1-widget="lab-chromatography.plate" data-title="Chromatography tank">
+          <p class="widget__fallback">An interactive chromatogram appears here when JavaScript is on. You run mixture M beside four reference substances, stop the run, read a ruler and calculate R<sub>F</sub> values.</p>
+          <figcaption>Press Run, then "Take out and mark the front". Move the ruler line (slider, number box, or tap the picture), choose what the reading is for, and press Record reading. The table works out distances and R<sub>F</sub> values once you have recorded the baseline and the front. A new run gives slightly different values. All values are model data.</figcaption>
+        </figure>
+
+        <h3>2. Change the polarity of the mobile phase</h3>
+        <p>Now run mixture M in six mobile phases at once, from 0 % to 100 % of the more polar solvent. Look at the trend and choose the mobile phase that separates the three spots best.</p>
+        <figure data-s1-widget="lab-chromatography.solvent" data-title="Solvent series">
+          <p class="widget__fallback">An interactive investigation appears here when JavaScript is on. It runs mixture M in six mobile phases and plots R<sub>F</sub> against the percentage of the more polar solvent.</p>
+          <figcaption>Press Run all six. Each line is one spot of M, with its own marker shape: circle for spot 1, square for spot 2, triangle for spot 3. The "smallest gap" column shows how close the two nearest spots are. All values are model data.</figcaption>
+        </figure>
+        <aside class="callout callout--key">
+          <p>Every R<sub>F</sub> value goes up as the mobile phase becomes more polar. The order of the spots does not change: the most polar substance, which is held most strongly by the polar stationary phase, always has the smallest R<sub>F</sub>.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="processing" data-toc="Processing the data">
+        <h2>Processing the data</h2>
+        <div class="worked" data-s1-worked data-kicker="Worked example">
+          <h3 class="worked__title">R<sub>F</sub> values from ruler readings</h3>
+          <div class="worked__problem">
+            <p>A student ran mixture M on paper with 40 % water in ethanol. With the ruler's zero at the bottom edge, the readings were: baseline 1.5 cm, solvent front 9.7 cm, spots of M at 3.6 cm, 5.6 cm and 8.7 cm. On the same paper, the references gave R<sub>F</sub> values of B 0.25, C 0.69 and D 0.87. Calculate the R<sub>F</sub> values of the three spots and identify them.</p>
+          </div>
+          <ol class="worked__steps">
+            <li data-title="Turn readings into distances">
+              <p class="worked__why">Both distances start at the baseline, not at the edge of the paper.</p>
+              <div class="worked__math">solvent front: 9.7 cm − 1.5 cm = 8.2 cm</div>
+              <div class="worked__math">spots: 3.6 − 1.5 = 2.1 cm; 5.6 − 1.5 = 4.1 cm; 8.7 − 1.5 = 7.2 cm</div>
+            </li>
+            <li data-title="Divide each spot distance by the front distance">
+              <p class="worked__why">The spot cannot move further than the solvent, so each answer is less than 1.</p>
+              <div class="worked__math">spot 1: 2.1 / 8.2 = 0.256…</div>
+              <div class="worked__math">spot 2: 4.1 / 8.2 = 0.500</div>
+              <div class="worked__math">spot 3: 7.2 / 8.2 = 0.878…</div>
+            </li>
+            <li data-title="Round to the data">
+              <p class="worked__why">The distances have 2 significant figures, so give R<sub>F</sub> to 2 decimal places (2 significant figures). It has no unit.</p>
+              <div class="worked__math"><i>R</i><sub>F</sub> = <b>0.26, 0.50, 0.88</b></div>
+            </li>
+            <li data-title="Compare with the references">
+              <p class="worked__why">Same R<sub>F</sub> on the same paper means probably the same substance.</p>
+              <p>Spot 1 (0.26) matches B (0.25). Spot 3 (0.88) matches D (0.87). Spot 2 (0.50) does not match C (0.69) or any other reference.</p>
+            </li>
+          </ol>
+          <div class="worked__answer"><p>R<sub>F</sub> = 0.26, 0.50 and 0.88. M contains B, D and one substance that is not A, B, C or D.</p></div>
+        </div>
+
+        <div data-s1-numeric data-answer="0.6071" data-tolerance="0.006" data-sigfigs="2" data-label="RF value">
+          <div class="tryit__q"><p>On a TLC plate, the ruler (zero at the bottom edge) reads 2.0 cm at the baseline, 10.4 cm at the solvent front and 7.1 cm at the centre of a spot. Calculate the R<sub>F</sub> value of the spot.</p></div>
+          <ol class="tryit__hints">
+            <li>Subtract the baseline reading from both of the other readings first.</li>
+            <li>The spot moved 5.1 cm and the front moved 8.4 cm. Divide.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">spot: 7.1 cm − 2.0 cm = 5.1 cm; front: 10.4 cm − 2.0 cm = 8.4 cm</div>
+            <div class="worked__math"><i>R</i><sub>F</sub> = 5.1 / 8.4 = 0.61</div>
+          </div>
+        </div>
+
+        <aside class="callout callout--mistake">
+          <p>Three slips cost marks: measuring from the edge of the paper instead of the baseline, dividing by the length of the paper instead of the distance to the solvent front, and giving R<sub>F</sub> a unit. An R<sub>F</sub> above 1 always means the fraction is upside down.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="uncertainty">
+        <span class="section-code">Tool 3</span>
+        <h2>Uncertainties</h2>
+        <p>A ruler with 1 mm divisions can be read to ±0.05 cm. Each distance is the difference of two readings (the feature and the baseline), so add the absolute uncertainties:</p>
+        <div class="worked__math">Δ<i>d</i> = ±(0.05 + 0.05) cm = ±0.1 cm</div>
+        <p>R<sub>F</sub> is a division, so add the percentage uncertainties. For spot 1 in the worked example:</p>
+        <div class="worked__math">spot: (0.1 / 2.1) × 100 = 4.8 %</div>
+        <div class="worked__math">front: (0.1 / 8.2) × 100 = 1.2 %</div>
+        <div class="worked__math">% uncertainty of <i>R</i><sub>F</sub> = 4.8 % + 1.2 % = 6.0 %</div>
+        <div class="worked__math">absolute uncertainty = 0.256 × 6.0 / 100 = ±0.015, so <i>R</i><sub>F</sub> = 0.26 ± 0.02</div>
+        <p>A spot that has moved only a short way has a large percentage uncertainty. Letting the solvent run further makes all the distances bigger and the percentage uncertainties smaller. Judging the centre of a wide, fuzzy spot adds more uncertainty than the ruler does, so keep the spots small.</p>
+
+        <div data-s1-numeric data-answer="2.6084" data-tolerance="2%" data-sigfigs="2-3" data-unit="%" data-label="Percentage uncertainty">
+          <div class="tryit__q"><p>Calculate the percentage uncertainty of the R<sub>F</sub> value of spot 3 in the worked example (spot 7.2 cm, front 8.2 cm, each ±0.1 cm).</p></div>
+          <ol class="tryit__hints">
+            <li>Work out the percentage uncertainty of each distance.</li>
+            <li>Add (0.1 / 7.2) × 100 and (0.1 / 8.2) × 100.</li>
+          </ol>
+          <div class="tryit__solution">
+            <div class="worked__math">(0.1 / 7.2) × 100 = 1.39 %</div>
+            <div class="worked__math">(0.1 / 8.2) × 100 = 1.22 %</div>
+            <div class="worked__math">% uncertainty = 1.39 % + 1.22 % = 2.6 %</div>
+          </div>
+        </div>
+
+        <h3>Comparing with a reference value</h3>
+        <p>A data sheet gives R<sub>F</sub> = 0.25 for substance B under the same conditions. Spot 1 gave 0.256.</p>
+        <div class="worked__math">percentage error = |0.256 − 0.25| / 0.25 × 100 = 2.4 %</div>
+        <p>The percentage error (2.4 %) is smaller than the percentage uncertainty (6.0 %), so spot 1 agrees with B. Spot 2 (0.50 ± 0.02) differs from C (0.69) by 0.19, which is about ten times its uncertainty, so spot 2 is not C. Literature R<sub>F</sub> values change with the paper, the solvent and the temperature, which is why running references on the same paper is more reliable than a data sheet.</p>
+        <aside class="callout callout--exam">
+          <p>Markschemes accept R<sub>F</sub> values within a small range, because distances are read from a diagram. Show both distances and the division. When you compare two values, say whether the difference is bigger than the uncertainty.</p>
+        </aside>
+      </section>
+
+      <section class="topic-section" id="evaluation" data-toc="Evaluation">
+        <h2>Evaluation: errors and improvements</h2>
+        <p>A <dfn data-def="An error that makes repeated readings scatter unpredictably above and below the true value. Repeats and averages reduce its effect.">random error</dfn>, such as judging the centre of a spot, scatters the results; repeat runs and averages reduce it. A <dfn data-def="An error that shifts every result in the same direction. Repeats do not reduce it; you must change the method or the apparatus.">systematic error</dfn>, such as measuring every distance from the edge of the paper, shifts every result the same way; only a change of method removes it.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>Sources of error in this practical</caption>
+            <thead><tr><th scope="col">Source of error</th><th scope="col">Effect on the result</th><th scope="col">Realistic improvement</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">large spots</th><td>spots spread and overlap, the centre is hard to judge, so R<sub>F</sub> values are less precise and two substances may look like one</td><td>use a fine capillary; apply small amounts and dry between applications</td></tr>
+              <tr><th scope="row">no lid on the tank</th><td>solvent evaporates from the paper, so the front rises slowly and unevenly and R<sub>F</sub> values vary between runs</td><td>cover the tank and let it fill with solvent vapour before the run</td></tr>
+              <tr><th scope="row">front not marked at once (systematic)</th><td>the solvent evaporates and the front is marked too low, so every R<sub>F</sub> is too high</td><td>mark the front in pencil as soon as the paper comes out</td></tr>
+              <tr><th scope="row">solvent reaches the top edge</th><td>the true front distance is unknown, so R<sub>F</sub> cannot be calculated</td><td>take the paper out when the front is about 1 cm from the top</td></tr>
+              <tr><th scope="row">distances measured from the paper edge (systematic)</th><td>both distances are too big by the same amount, so R<sub>F</sub> values are too high (closer to 1)</td><td>measure every distance from the baseline</td></tr>
+              <tr><th scope="row">spots close together</th><td>poor separation; the spots cannot be measured or told apart</td><td>change the solvent composition, use longer paper, or use TLC</td></tr>
+              <tr><th scope="row">short run (small distances, random)</th><td>the ±0.1 cm uncertainty is a large percentage of each distance</td><td>let the solvent run further; repeat the run and average the R<sub>F</sub> values</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="topic-section" id="exam" data-toc="Exam practice">
+        <h2>Exam practice</h2>
+        <p>These questions are in the style of Paper 1B: method, readings from a chromatogram, R<sub>F</sub> values, uncertainty, and links to polarity.</p>
+        <div data-s1-quiz data-topic="lab-chromatography" data-count="0" data-title="Lab 2 exam practice"></div>
+      </section>
+
+      <div data-s1-pager></div>
+    </div>
+  </div>
+</main>
+<div data-s1-footer></div>
+<script src="../assets/js/chem.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/quiz.js"></script>
+<script src="../data/questions-lab-chromatography.js"></script>
+<script src="../assets/js/widgets-lab-chromatography.js"></script>
+</body>
+</html>
