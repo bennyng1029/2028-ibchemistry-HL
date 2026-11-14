@@ -550,7 +550,7 @@
   /* ============ Structure 1.3.5, transition-element ions (AHL) ============ */
   {
     id: 's1-3-q027', level: 'ahl', tier: 'exam', type: 'mcq', marks: 1,
-    syllabus: 'Structure 1.3.5',
+    syllabus: 'Structure 3.1.9',
     stem: '<p>What is the condensed electron configuration of the <span class="chem">Fe^3+</span> ion? (Iron has Z = 26.)</p>',
     options: [
       cfg('[Ar] 4s2 3d3'),
@@ -718,7 +718,7 @@
     ]) + '<p>241 nm is in the ultraviolet region. If you forget to change kJ to J, you get a wavelength 1000 times too long.</p>'
   },
   {
-    id: 's1-3-q038', level: 'ahl', tier: 'challenge', type: 'mcq', marks: 2,
+    id: 's1-3-q038', level: 'ahl', tier: 'challenge', type: 'mcq', marks: 1,
     syllabus: 'Structure 1.3.6',
     stem: '<p>Ultraviolet radiation of wavelength 200 nm shines on separate samples of gaseous sodium atoms and gaseous magnesium atoms. The first ionization energies are Na 496 ' + KJ + ' and Mg 738 ' + KJ + '.</p><p>For which atoms does one photon of this radiation have enough energy to remove an electron from an atom in its ground state?</p>',
     options: ['Both sodium and magnesium', 'Sodium only', 'Magnesium only', 'Neither sodium nor magnesium'],
@@ -802,7 +802,7 @@
     solution: '<p>The values rise gradually up to the 4th (4356), then jump to 16\u00a0091 for the 5th. That is about 3.7 times larger. Four electrons are removed before the jump, so the atom has four outer electrons and is in group 14. The group 14 element in period 3 is <strong>silicon</strong>, ' + cfg('[Ne] 3s2 3p2') + '. The 5th electron has to come from the n = 2 level.</p>'
   },
   {
-    id: 's1-3-q043', level: 'ahl', tier: 'challenge', type: 'mcq', marks: 2,
+    id: 's1-3-q043', level: 'ahl', tier: 'challenge', type: 'mcq', marks: 1,
     syllabus: 'Structure 1.3.7',
     stem: '<p>The table shows successive ionization energies of two elements, X and Y. Both are in period 3.</p>' +
       ieTable('Successive ionization energies / kJ mol<sup>−1</sup>', ['', '1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th'], [
@@ -1052,7 +1052,7 @@
   },
   {
     id: 's1-3-q059', level: 'ahl', tier: 'exam', type: 'mcq', marks: 1,
-    syllabus: 'Structure 1.3.5',
+    syllabus: 'Structure 3.1.9',
     stem: '<p>What is the condensed electron configuration of the <span class="chem">Cu^2+</span> ion? (Copper has Z = 29.)</p>',
     options: [
       cfg('[Ar] 4s2 3d7'),
@@ -1071,7 +1071,7 @@
   },
   {
     id: 's1-3-q060', level: 'ahl', tier: 'challenge', type: 'mcq', marks: 1,
-    syllabus: 'Structure 1.3.5',
+    syllabus: 'Structure 3.1.9',
     stem: '<p>Which pair of ions have the same electron configuration?</p>',
     options: [
       '<span class="chem">Mn^2+</span> and <span class="chem">Fe^2+</span>',
@@ -1110,7 +1110,7 @@
       3: 'This atom gains an electron. Ionization means an electron is removed.'
     },
     hints: ['First ionization energy: one mole of electrons is removed from one mole of gaseous atoms.', 'Check the state symbols and the number of electrons.'],
-    solution: '<p>The first ionization energy is the energy needed to remove one mole of electrons from one mole of gaseous atoms, forming one mole of gaseous 1+ ions:</p>' + math(['<span class="chem">Mg(g) -> Mg+(g) + e-</span>']) + '<p>Both species must have the state symbol (g).</p>'
+    solution: '<p>The first ionization energy is the minimum energy needed to remove one mole of electrons from one mole of gaseous atoms in their ground state, forming one mole of gaseous 1+ ions:</p>' + math(['<span class="chem">Mg(g) -> Mg+(g) + e-</span>']) + '<p>Both species must have the state symbol (g).</p>'
   },
   {
     id: 's1-3-q062', level: 'ahl', tier: 'exam', type: 'mcq', marks: 1,

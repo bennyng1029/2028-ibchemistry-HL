@@ -348,7 +348,7 @@
         3: 'The triple bond has the largest bond enthalpy (839), so it is the strongest of the three. A larger bond enthalpy means more energy is needed to break the bond.'
       },
       hints: [
-        'Bond enthalpy is the energy needed to break the bond. A bigger value means a stronger bond.',
+        'Bond enthalpy is the energy needed to break one mole of the bond in gaseous molecules. A bigger value means a stronger bond.',
         'Find the increase from single to double, and from double to triple.',
         'For "directly proportional", doubling the pairs would double the bond enthalpy. Does it?'
       ],
@@ -930,7 +930,7 @@
       misconception: {
         0: 'Dipole–dipole forces need two polar molecules. An argon atom has no permanent dipole.',
         2: 'Hydrogen bonding needs an N, O or F atom on the other particle. Argon is not one of these.',
-        3: 'Ionic bonding is the attraction between oppositely charged ions. Argon atoms and water molecules are not ions.'
+        3: 'Ionic bonding is the electrostatic attraction between oppositely charged ions. Argon atoms and water molecules are not ions.'
       },
       hints: [
         'Water is a polar molecule. Argon is a non-polar atom.',
