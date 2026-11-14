@@ -1247,12 +1247,12 @@ S1.i18n.register('ko', 's1-4.q', {
         "표준 용액은 농도를 알아요. 미지 용액은 마지막에 재고 그래프에서 읽어요.",
       ],
       // EN: <p>Make several standard solutions of known concentration. Measure the absorbance of each. Plot absorbance (<i>y</i>) against concentration (<i>x</i>) and draw the line of best fit. Then measure the absorbance of the unknown and read its concentration from the line. The unknown should lie inside the range of the standards.</p>
-      solution: "<p>농도를 아는 표준 용액을 여러 개 만들어요. 각각의 흡광도를 재요. 흡광도(<i>y</i>)를 농도(<i>x</i>)에 대해 그리고 최적선을 그어요. 그다음 미지 용액의 흡광도를 재고 직선에서 농도를 읽어요. 미지 용액의 값은 표준 용액들의 범위 안에 있어야 해요.</p>",
+      solution: "<p>농도를 아는 표준 용액을 여러 개 만들어요. 각각의 흡광도를 재요. 흡광도(<i>y</i>)를 농도(<i>x</i>)에 대해 그리고 가장 잘 맞는 직선을 그어요. 그다음 미지 용액의 흡광도를 재고 직선에서 농도를 읽어요. 미지 용액의 값은 표준 용액들의 범위 안에 있어야 해요.</p>",
       misconception: {
         // EN (option A): Repeating the reading makes it more reliable, but an absorbance is not a concentration. You need solutions of known concentration to link the two.
         "0": "여러 번 재면 측정값을 더 믿을 수 있지만, 흡광도는 농도가 아니에요. 둘을 연결하려면 농도를 아는 용액이 필요해요.",
         // EN (option C): One known solution gives one point, not a line. Several standard solutions are needed, and the unknown is read from the line of best fit.
-        "2": "농도를 아는 용액 하나로는 점 하나만 얻을 뿐 직선을 그릴 수 없어요. 표준 용액이 여러 개 필요하고, 미지 용액은 최적선에서 읽어요.",
+        "2": "농도를 아는 용액 하나로는 점 하나만 얻을 뿐 직선을 그릴 수 없어요. 표준 용액이 여러 개 필요하고, 미지 용액은 가장 잘 맞는 직선에서 읽어요.",
         // EN (option D): That graph would give a concentration in <span class="unit">g dm-3</span> for a solution you made yourself. It does not use the colorimeter and says nothing about the unknown.
         "3": "그 그래프는 직접 만든 용액의 <span class=\"unit\">g dm-3</span> 단위 농도를 알려 줄 뿐이에요. 비색계를 쓰지 않고, 미지 용액에 대해서는 아무것도 알려 주지 않아요.",
       },
