@@ -13,7 +13,7 @@ There are 13 topic pages (1.1 to 1.5, 2.1 to 2.4 and 3.1 to 3.2, with separate A
 It is written for students who find the ideas or the calculations hard. Every topic has short
 explanations, worked examples you reveal one step at a time, “try it” calculations with hints, and
 original practice questions with feedback. It also says clearly what you do **not** need to know for the
-exam. The site can be read in English, Japanese or Traditional Chinese (Hong Kong school terms). You
+exam. The site can be read in English, Japanese, Traditional Chinese (Hong Kong school terms) or Korean. You
 choose the language in the header: the site starts in English and never switches by itself, and the exam
 wording always stays visible in English.
 
@@ -55,12 +55,12 @@ assets/js/chart.js          line, scatter, bar and stick charts; IR, mass and NM
 assets/js/periodic-data.js  data booklet values: electronegativity, ionization energy, electron affinity, radii, melting and boiling points; configurations
 assets/js/widgets-<id>.js   interactive diagrams for each topic
 data/questions-<id>.js      question bank for each topic
-i18n/<lang>/*.js            translation overlays (ja, zh-Hant)
+i18n/<lang>/*.js            translation overlays (ja, zh-Hant, ko)
 tools/i18n-*.js             extraction and checking tools for translators (Node + Playwright, dev only)
 dev/                        test pages for the components and drawing helpers (not linked from the site, not published)
 docs/AUTHORING.md           how to write pages, components, questions and widgets
 docs/TRANSLATING.md         how translation works, the workflow and the rules
-docs/glossary-<lang>.md     the term lists the translations follow (ja, zh-Hant)
+docs/glossary-<lang>.md     the term lists the translations follow (ja, zh-Hant, ko)
 docs/research/              the authors' scope and exam-style notes (paraphrase only; not published)
 .github/workflows/pages.yml the GitHub Pages deployment
 ```
@@ -82,11 +82,11 @@ If you find a mistake but cannot fix it, open an issue and say which page and se
 ### Contributing a translation
 
 Translations are overlay files: nobody edits the English pages, and a missing translation simply shows
-the English. To improve Japanese or Traditional Chinese, edit the value (never the key) in
+the English. To improve Japanese, Traditional Chinese or Korean, edit the value (never the key) in
 `i18n/<lang>/<page>.js` or `i18n/<lang>/<page>.q.js`, following the glossary in `docs/`, then run
 
 ```
-node tools/i18n-check.js ja            # or zh-Hant; add a page id such as s1-4 to check one page
+node tools/i18n-check.js ja            # or zh-Hant, ko; add a page id such as s1-4 to check one page
 ```
 
 until it ends with "All translated, nothing stale, all lints pass", and look at the page at desktop and

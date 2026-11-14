@@ -1,6 +1,6 @@
 # Translating Structure Lab
 
-The site is written in English. Japanese (`ja`) and Traditional Chinese (`zh-Hant`) are **overlays**:
+The site is written in English. Japanese (`ja`), Traditional Chinese (`zh-Hant`) and Korean (`ko`) are **overlays**:
 separate files that map each English string to its translation. Nobody edits the English pages to
 translate them, and a missing translation simply shows the English.
 
@@ -98,7 +98,7 @@ an English sentence makes its translation stale. Replace `ja` with `zh-Hant` and
    node tools/i18n-extract.js s1-4 --lang ja --write
    ```
 
-2. **Translate**, following the glossary ([Japanese](glossary-ja.md), [Traditional Chinese](glossary-zh-Hant.md))
+2. **Translate**, following the glossary ([Japanese](glossary-ja.md), [Traditional Chinese](glossary-zh-Hant.md), [Korean](glossary-ko.md))
    and the rules in section 3. Leave `""` for anything not done yet (English is shown). Never edit a key
    or a comment line that starts with `// EN:`.
 3. **Check.** Must end with no `LINT` and no `STALE` lines for your page.
@@ -183,7 +183,7 @@ English one (see "Figure labels" in section 3).
 
 **Register.** Plain, warm and direct, written for a 16-year-old. Short sentences and common words, the same
 as the English. Japanese: です・ます style. Chinese: standard written Chinese (書面語) in a natural, plain
-register, not Cantonese colloquial writing.
+register, not Cantonese colloquial writing. Korean: 해요체, with normal Korean word spacing.
 
 **Keep the HTML.** Copy every tag and attribute from the key into the translation and translate only the
 words between them. In particular keep `class="chem"`, `class="unit"`, `class="mono"`, links and `<strong>`.
@@ -218,8 +218,8 @@ checker prints a `NOTE` when a label is clearly wider than the English: open the
 **Do not translate:** chemical formulas, symbols, units, numbers, variable letters, syllabus codes
 ("Structure 1.4.2"), "SL", "HL", "AHL", "IB", paper names ("Paper 1A"), and the site name.
 
-**Punctuation.** Use full-width punctuation in running text (。、，：；（）「」) and half-width for numbers,
-units and formulas. Put a thin gap between CJK text and Latin letters or digits only where it reads better.
+**Punctuation.** Japanese and Chinese: use full-width punctuation in running text (。、，：；（）「」) and half-width for numbers,
+units and formulas. Korean uses half-width punctuation throughout (. , : ( ) ?), as Korean text normally does. Put a thin gap between CJK text and Latin letters or digits only where it reads better.
 No italics for emphasis: use `<strong>`. (`<i>` for variables such as *n* and *V* stays.)
 
 ### The exam is in English
@@ -247,6 +247,9 @@ She will sit the exam in English, so the English wording has to stay in view whe
 
 - **Japanese:** the terms used in Japanese upper-secondary chemistry (MEXT course of study and approved
   textbooks).
+- **Korean:** the terms of Korean high-school chemistry textbooks (2015 and 2022 national curriculum) and the
+  Korean Chemical Society's names (플루오린, 브로민, 아이오딘 …). Organic compounds keep their IUPAC English names.
+  The term list and style guide are in [`docs/glossary-ko.md`](glossary-ko.md).
 - **Traditional Chinese:** **Hong Kong** school chemistry terms. The authority is the EDB glossary
   《中學化學科常用英漢及漢英辭彙》 (2007) together with the Chinese HKDSE Chemistry Curriculum and Assessment
   Guide, for example 摩爾 (not 莫耳), 電子排佈, 軌態, 週期表 (not 周期表), 壓強, 貴氣體, 分子間引力. Where Hong
@@ -375,10 +378,10 @@ The complete list, with sources, is in [`docs/glossary-zh-Hant.md`](glossary-zh-
   `core.js` sets in the current language; the CSS keeps an English fallback for pages without JavaScript.
 - The hero's "Guiding question" label is shell text: `core.js` takes it out of the authored paragraph, so
   the page entry is the question alone.
-- Fonts: `Noto Sans JP` / `Noto Sans TC` are requested from Google Fonts only when that language is active;
+- Fonts: `Noto Sans JP` / `Noto Sans TC` / `Noto Sans KR` are requested from Google Fonts only when that language is active;
   the stacks fall back to the system CJK fonts. CJK text gets a taller line height, no letter-spacing or
   uppercase on labels, no italics for emphasis, a shorter line length, and never breaks inside a Latin
-  word, number or formula.
+  word, number or formula. Korean is written with spaces, so it breaks only between words (`word-break: keep-all`).
 - `S1.chem.elementLabel('Sg')` returns the element name in the current language with its symbol, using a
   wider font fallback (`.el-name`), for lists of element names.
 - Adding a language: add it to `LANGS` in `core.js` and `tools/i18n-lib.js`, add font stacks under
