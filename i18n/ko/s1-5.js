@@ -6,373 +6,373 @@ S1.i18n.register('ko', 's1-5', {
   strings: {
 
     // page title (browser tab)
-    "1.5 Ideal gases | Structure Lab": "",
+    "1.5 Ideal gases | Structure Lab": "1.5 이상 기체 | Structure Lab",
 
     // Ideal gases > page header > p
-    "Structure 1.5": "",
+    "Structure 1.5": "Structure 1.5",
 
     // Ideal gases > page header > h1
-    "Ideal gases": "",
+    "Ideal gases": "이상 기체",
 
     // Ideal gases > page header > span
-    "How does the model of ideal gas behaviour help us to predict the behaviour of real gases?": "",
+    "How does the model of ideal gas behaviour help us to predict the behaviour of real gases?": "이상 기체의 행동 모형은 실제 기체의 행동을 예측하는 데 어떻게 도움이 될까?",
 
     // What you need to be able to do > h2
-    "What you need to be able to do": "",
+    "What you need to be able to do": "할 수 있어야 하는 것",
 
     // What you need to be able to do > p
-    "Tick each one when you can do it without looking at your notes. Everything in this topic is SL core. There is no Additional HL content in 1.5.": "",
+    "Tick each one when you can do it without looking at your notes. Everything in this topic is SL core. There is no Additional HL content in 1.5.": "노트를 보지 않고 할 수 있게 되면 하나씩 체크하세요. 이 단원의 내용은 모두 SL 핵심 내용이에요. 1.5에는 AHL(HL 추가 내용)이 없어요.",
 
     // What you need to be able to do > checklist > span
-    "Recognize the key assumptions of the ideal gas model.": "",
+    "Recognize the key assumptions of the ideal gas model.": "이상 기체 모형의 핵심 가정을 알아본다.",
 
     // What you need to be able to do > checklist > span
-    "Explain why real gases deviate from the model, especially at low temperature and high pressure.": "",
+    "Explain why real gases deviate from the model, especially at low temperature and high pressure.": "실제 기체가 모형에서 벗어나는 이유를, 특히 낮은 온도와 높은 압력에서 설명한다.",
 
     // What you need to be able to do > checklist > span
-    "Use the molar volume of an ideal gas at STP to convert between amount and gas volume.": "",
+    "Use the molar volume of an ideal gas at STP to convert between amount and gas volume.": "STP에서 이상 기체의 몰 부피를 이용해 물질의 양과 기체 부피를 서로 바꾼다.",
 
     // What you need to be able to do > checklist > span
-    "Describe and sketch how pressure, volume and temperature are related for a fixed mass of gas, and analyse graphs of these variables.": "",
+    "Describe and sketch how pressure, volume and temperature are related for a fixed mass of gas, and analyse graphs of these variables.": "일정한 질량의 기체에서 압력, 부피, 온도가 어떤 관계인지 서술하고 개형을 그리며, 이 변수들의 그래프를 분석한다.",
 
     // What you need to be able to do > checklist > span
-    "Use the combined gas law when the conditions of a gas change.": "",
+    "Use the combined gas law when the conditions of a gas change.": "기체의 조건이 바뀔 때 보일-샤를 법칙(결합 기체 법칙)을 이용한다.",
 
     // What you need to be able to do > checklist > span
-    "Solve problems with <i>PV</i> = <i>nRT</i>, using consistent units.": "",
+    "Solve problems with <i>PV</i> = <i>nRT</i>, using consistent units.": "단위를 맞추어 <i>PV</i> = <i>nRT</i>로 문제를 푼다.",
 
     // What you need to be able to do > checklist > span
-    "Calculate the molar mass of a gas from experimental data.": "",
+    "Calculate the molar mass of a gas from experimental data.": "실험 자료로부터 기체의 몰 질량을 계산한다.",
 
     // The ideal gas model > h2
-    "The ideal gas model": "",
+    "The ideal gas model": "이상 기체 모형",
 
     // The ideal gas model > p
-    "Pump up a bicycle tyre and you can feel the gas pushing back. That push is <dfn data-def=\"The force per unit area on a surface. For a gas it comes from particles colliding with the walls of the container.\">pressure</dfn>. It comes from billions of tiny particles hitting the inside of the tyre.": "",
+    "Pump up a bicycle tyre and you can feel the gas pushing back. That push is <dfn data-def=\"The force per unit area on a surface. For a gas it comes from particles colliding with the walls of the container.\">pressure</dfn>. It comes from billions of tiny particles hitting the inside of the tyre.": "자전거 타이어에 바람을 넣으면 기체가 되밀어 내는 것을 느낄 수 있어요. 이 미는 힘이 <dfn data-def=\"어떤 면에 작용하는 단위 넓이당 힘이에요. 기체의 압력은 입자가 용기 벽에 충돌해서 생겨요.\">압력 <span class=\"en-term\">(pressure)</span></dfn>이에요. 압력은 수십억 개의 아주 작은 입자가 타이어 안쪽에 부딪쳐서 생겨요.",
 
     // The ideal gas model > data-def attribute
-    "The force per unit area on a surface. For a gas it comes from particles colliding with the walls of the container.": "",
+    "The force per unit area on a surface. For a gas it comes from particles colliding with the walls of the container.": "어떤 면에 작용하는 단위 넓이당 힘이에요. 기체의 압력은 입자가 용기 벽에 충돌해서 생겨요.",
 
     // The ideal gas model > p
-    "Real gas particles are complicated. So chemists use a simplified picture called an <dfn data-def=\"A model gas made of moving particles with negligible volume and no intermolecular forces, in which all collisions are elastic.\">ideal gas</dfn>. It is a model: it leaves out details to make the mathematics manageable.": "",
+    "Real gas particles are complicated. So chemists use a simplified picture called an <dfn data-def=\"A model gas made of moving particles with negligible volume and no intermolecular forces, in which all collisions are elastic.\">ideal gas</dfn>. It is a model: it leaves out details to make the mathematics manageable.": "실제 기체 입자는 복잡해요. 그래서 화학자들은 <dfn data-def=\"움직이는 입자로 이루어진 모형 기체예요. 입자의 부피는 무시할 수 있고, 분자 간 힘이 없으며, 모든 충돌은 탄성 충돌이에요.\">이상 기체 <span class=\"en-term\">(ideal gas)</span></dfn>라는 단순화한 그림을 써요. 이것은 모형이에요. 수학을 다루기 쉽게 하려고 세부 사항을 뺀 거예요.",
 
     // The ideal gas model > data-def attribute
-    "A model gas made of moving particles with negligible volume and no intermolecular forces, in which all collisions are elastic.": "",
+    "A model gas made of moving particles with negligible volume and no intermolecular forces, in which all collisions are elastic.": "움직이는 입자로 이루어진 모형 기체예요. 입자의 부피는 무시할 수 있고, 분자 간 힘이 없으며, 모든 충돌은 탄성 충돌이에요.",
 
     // The ideal gas model > p
-    "The model makes four assumptions. Learn these four.": "",
+    "The model makes four assumptions. Learn these four.": "이 모형에는 네 가지 가정이 있어요. 이 네 가지를 외워 두세요.",
 
     // The ideal gas model > li
-    "The gas consists of <strong>moving particles</strong>.": "",
+    "The gas consists of <strong>moving particles</strong>.": "기체는 <strong>움직이는 입자</strong>로 이루어져 있다.",
 
     // The ideal gas model > li
-    "The particles have <strong>negligible volume</strong>. The particles themselves take up almost none of the space in the container.": "",
+    "The particles have <strong>negligible volume</strong>. The particles themselves take up almost none of the space in the container.": "입자의 <strong>부피는 무시할 수 있다</strong>. 입자 자체는 용기 안의 공간을 거의 차지하지 않는다.",
 
     // The ideal gas model > li
-    "There are <strong>no intermolecular forces</strong>. The particles do not attract or repel each other.": "",
+    "There are <strong>no intermolecular forces</strong>. The particles do not attract or repel each other.": "<strong>분자 간 힘이 없다</strong>. 입자들은 서로 끌어당기지도 밀어내지도 않는다.",
 
     // The ideal gas model > li
-    "All collisions between particles are <strong>elastic</strong>.": "",
+    "All collisions between particles are <strong>elastic</strong>.": "입자 사이의 모든 충돌은 <strong>탄성 충돌</strong>이다.",
 
     // The ideal gas model > p
-    "An <dfn data-def=\"A collision in which the total kinetic energy of the particles is the same before and after.\">elastic collision</dfn> is one where no kinetic energy is lost overall. The particles bounce apart with the same total kinetic energy they had before.": "",
+    "An <dfn data-def=\"A collision in which the total kinetic energy of the particles is the same before and after.\">elastic collision</dfn> is one where no kinetic energy is lost overall. The particles bounce apart with the same total kinetic energy they had before.": "<dfn data-def=\"충돌 전과 후에 입자들의 전체 운동 에너지가 같은 충돌이에요.\">탄성 충돌 <span class=\"en-term\">(elastic collision)</span></dfn>은 전체적으로 운동 에너지를 잃지 않는 충돌이에요. 입자들은 충돌 전과 같은 전체 운동 에너지를 가진 채 튕겨 나가요.",
 
     // The ideal gas model > data-def attribute
-    "A collision in which the total kinetic energy of the particles is the same before and after.": "",
+    "A collision in which the total kinetic energy of the particles is the same before and after.": "충돌 전과 후에 입자들의 전체 운동 에너지가 같은 충돌이에요.",
 
     // The ideal gas model > p
-    "<dfn data-def=\"Small enough to be ignored without changing the answer in any way that matters.\">Negligible</dfn> means small enough to ignore. A gas at room conditions is almost entirely empty space, so ignoring the size of the particles is usually a very good approximation.": "",
+    "<dfn data-def=\"Small enough to be ignored without changing the answer in any way that matters.\">Negligible</dfn> means small enough to ignore. A gas at room conditions is almost entirely empty space, so ignoring the size of the particles is usually a very good approximation.": "<dfn data-def=\"무시해도 답이 의미 있게 달라지지 않을 만큼 작은 것이에요.\">무시할 수 있다 <span class=\"en-term\">(negligible)</span></dfn>는 무시해도 될 만큼 작다는 뜻이에요. 실온의 기체는 거의 대부분이 빈 공간이에요. 그래서 입자의 크기를 무시해도 대개 아주 좋은 근삿값이 돼요.",
 
     // The ideal gas model > data-def attribute
-    "Small enough to be ignored without changing the answer in any way that matters.": "",
+    "Small enough to be ignored without changing the answer in any way that matters.": "무시해도 답이 의미 있게 달라지지 않을 만큼 작은 것이에요.",
 
     // The ideal gas model > key idea > p
-    "An ideal gas does not exist. It is a model that real gases follow closely under everyday conditions. That is why one equation works for hydrogen, oxygen and carbon dioxide alike.": "",
+    "An ideal gas does not exist. It is a model that real gases follow closely under everyday conditions. That is why one equation works for hydrogen, oxygen and carbon dioxide alike.": "이상 기체는 실제로 존재하지 않아요. 일상적인 조건에서 실제 기체가 꽤 잘 따르는 모형이에요. 그래서 수소, 산소, 이산화 탄소에 똑같이 하나의 식을 쓸 수 있어요.",
 
     // The ideal gas model > exam tip (shown in English + translation) > p
-    "If you are asked to state assumptions, use the exact phrases: <em>negligible volume</em> (of the particles), <em>no intermolecular forces</em>, <em>elastic collisions</em>. Writing “the gas has no volume” loses the mark. The gas fills its container. It is the particles whose volume is negligible.": "",
+    "If you are asked to state assumptions, use the exact phrases: <em>negligible volume</em> (of the particles), <em>no intermolecular forces</em>, <em>elastic collisions</em>. Writing “the gas has no volume” loses the mark. The gas fills its container. It is the particles whose volume is negligible.": "가정을 쓰라는(state) 문제에서는 정확한 표현을 쓰세요: <em>negligible volume</em>(입자의 부피는 무시할 수 있음), <em>no intermolecular forces</em>(분자 간 힘이 없음), <em>elastic collisions</em>(탄성 충돌). “기체는 부피가 없다”라고 쓰면 점수를 잃어요. 기체는 용기를 가득 채워요. 부피를 무시할 수 있는 것은 입자예요.",
 
     // The ideal gas model > not needed for IB > p
-    "Textbooks often list more assumptions and go on to derive gas pressure from particle speeds. The four statements above are what the IB guide lists. You do not need the kinetic energy equation (<span class=\"mono\">E = 3/2 RT</span>), root-mean-square speeds or any derivation.": "",
+    "Textbooks often list more assumptions and go on to derive gas pressure from particle speeds. The four statements above are what the IB guide lists. You do not need the kinetic energy equation (<span class=\"mono\">E = 3/2 RT</span>), root-mean-square speeds or any derivation.": "교과서에는 가정이 더 많이 나오기도 하고, 입자의 속력으로부터 기체 압력을 유도하기도 해요. 위의 네 가지가 IB 지침에 나오는 가정이에요. 운동 에너지 식(<span class=\"mono\">E = 3/2 RT</span>), 제곱 평균 제곱근 속력, 유도 과정은 몰라도 돼요.",
 
     // The ideal gas model > data-title attribute
-    "Ideal gas model: quick check": "",
+    "Ideal gas model: quick check": "이상 기체 모형: 빠른 확인",
 
     // Real gases and the limits of the model > data-toc attribute
-    "Real gases": "",
+    "Real gases": "실제 기체",
 
     // Real gases and the limits of the model > h2
-    "Real gases and the limits of the model": "",
+    "Real gases and the limits of the model": "실제 기체와 모형의 한계",
 
     // Real gases and the limits of the model > p
-    "Cool steam and it turns into liquid water. An ideal gas could never do that, because its particles do not attract each other. So real gases cannot be exactly ideal.": "",
+    "Cool steam and it turns into liquid water. An ideal gas could never do that, because its particles do not attract each other. So real gases cannot be exactly ideal.": "수증기를 식히면 액체인 물이 돼요. 이상 기체는 절대 그렇게 될 수 없어요. 입자들이 서로 끌어당기지 않기 때문이에요. 그래서 실제 기체는 완전히 이상적일 수 없어요.",
 
     // Real gases and the limits of the model > p
-    "A <dfn data-def=\"An actual gas. Its particles have a volume of their own and attract each other, so it does not follow the ideal gas model exactly.\">real gas</dfn> breaks two of the assumptions. Its particles do have some volume, and they do attract each other. Under most conditions both effects are tiny. Under two conditions they are not.": "",
+    "A <dfn data-def=\"An actual gas. Its particles have a volume of their own and attract each other, so it does not follow the ideal gas model exactly.\">real gas</dfn> breaks two of the assumptions. Its particles do have some volume, and they do attract each other. Under most conditions both effects are tiny. Under two conditions they are not.": "<dfn data-def=\"실제로 존재하는 기체예요. 입자 자체에 부피가 있고 입자끼리 서로 끌어당기기 때문에 이상 기체 모형을 정확히 따르지 않아요.\">실제 기체 <span class=\"en-term\">(real gas)</span></dfn>는 가정 중 두 가지에 맞지 않아요. 입자에는 어느 정도 부피가 있고, 입자끼리 서로 끌어당겨요. 대부분의 조건에서는 두 효과 모두 아주 작아요. 하지만 두 가지 조건에서는 그렇지 않아요.",
 
     // Real gases and the limits of the model > data-def attribute
-    "An actual gas. Its particles have a volume of their own and attract each other, so it does not follow the ideal gas model exactly.": "",
+    "An actual gas. Its particles have a volume of their own and attract each other, so it does not follow the ideal gas model exactly.": "실제로 존재하는 기체예요. 입자 자체에 부피가 있고 입자끼리 서로 끌어당기기 때문에 이상 기체 모형을 정확히 따르지 않아요.",
 
     // Real gases and the limits of the model > h3
-    "High pressure: particle volume matters": "",
+    "High pressure: particle volume matters": "높은 압력: 입자의 부피가 중요해져요",
 
     // Real gases and the limits of the model > p
-    "At high pressure the gas is squeezed into a small space. The particles are close together. Their own volume is now a noticeable share of the container, so it is no longer negligible. Because the particles are close, the forces between them are also more significant.": "",
+    "At high pressure the gas is squeezed into a small space. The particles are close together. Their own volume is now a noticeable share of the container, so it is no longer negligible. Because the particles are close, the forces between them are also more significant.": "높은 압력에서는 기체가 좁은 공간으로 압축돼요. 입자들이 서로 가까이 있어요. 이제 입자 자체의 부피가 용기에서 무시할 수 없는 비율을 차지해서, 더 이상 무시할 수 없어요. 입자들이 가까이 있기 때문에 입자 사이의 힘도 더 커져요.",
 
     // Real gases and the limits of the model > h3
-    "Low temperature: intermolecular forces matter": "",
+    "Low temperature: intermolecular forces matter": "낮은 온도: 분자 간 힘이 중요해져요",
 
     // Real gases and the limits of the model > p
-    "At low temperature the particles have less kinetic energy and move more slowly. Slow particles are affected more by the attractions between them, so the intermolecular forces are no longer negligible. Cool a real gas far enough and those forces pull the particles together into a liquid.": "",
+    "At low temperature the particles have less kinetic energy and move more slowly. Slow particles are affected more by the attractions between them, so the intermolecular forces are no longer negligible. Cool a real gas far enough and those forces pull the particles together into a liquid.": "낮은 온도에서는 입자의 운동 에너지가 작아서 더 느리게 움직여요. 느린 입자는 입자 사이의 인력에 더 크게 영향을 받아요. 그래서 분자 간 힘을 더 이상 무시할 수 없어요. 실제 기체를 충분히 식히면 이 힘이 입자들을 끌어모아 액체가 돼요.",
 
     // Real gases and the limits of the model > key idea > p
-    "Real gases deviate most from ideal behaviour at <strong>low temperature and high pressure</strong>. They behave most like an ideal gas at <strong>high temperature and low pressure</strong>.": "",
+    "Real gases deviate most from ideal behaviour at <strong>low temperature and high pressure</strong>. They behave most like an ideal gas at <strong>high temperature and low pressure</strong>.": "실제 기체는 <strong>낮은 온도와 높은 압력</strong>에서 이상적인 행동에서 가장 많이 벗어나요. <strong>높은 온도와 낮은 압력</strong>에서 이상 기체와 가장 비슷하게 행동해요.",
 
     // Real gases and the limits of the model > widget > data-title attribute
-    "Real versus ideal: when does the model break down?": "",
+    "Real versus ideal: when does the model break down?": "실제 기체와 이상 기체: 모형은 언제 맞지 않을까?",
 
     // Real gases and the limits of the model > widget > data-kicker attribute
-    "Qualitative model": "",
+    "Qualitative model": "정성적 모형",
 
     // Real gases and the limits of the model > widget > figcaption
-    "Move the temperature and pressure sliders and watch the three bars. Dashed lines mark attractions between slow, close particles. This is an illustration to build your intuition. Nothing here is calculated from an equation, and the particles are drawn far too large.": "",
+    "Move the temperature and pressure sliders and watch the three bars. Dashed lines mark attractions between slow, close particles. This is an illustration to build your intuition. Nothing here is calculated from an equation, and the particles are drawn far too large.": "온도와 압력 슬라이더를 움직이면서 막대 세 개를 지켜보세요. 점선은 느리고 가까이 있는 입자 사이의 인력을 나타내요. 직관을 기르기 위한 그림이에요. 여기 있는 것은 식으로 계산한 것이 아니고, 입자는 실제보다 훨씬 크게 그렸어요.",
 
     // Real gases and the limits of the model > h3
-    "Which gases are closest to ideal?": "",
+    "Which gases are closest to ideal?": "어떤 기체가 이상 기체에 가장 가까울까?",
 
     // Real gases and the limits of the model > p
-    "Gases with <strong>weak intermolecular forces</strong> and <strong>small particles</strong> match the model best. Helium and hydrogen are very close to ideal under ordinary conditions. Gases with stronger attractions between their molecules, such as ammonia, deviate more under the same conditions.": "",
+    "Gases with <strong>weak intermolecular forces</strong> and <strong>small particles</strong> match the model best. Helium and hydrogen are very close to ideal under ordinary conditions. Gases with stronger attractions between their molecules, such as ammonia, deviate more under the same conditions.": "<strong>분자 간 힘이 약하고</strong> <strong>입자가 작은</strong> 기체가 모형과 가장 잘 맞아요. 헬륨과 수소는 보통 조건에서 이상 기체에 아주 가까워요. 암모니아처럼 분자 사이의 인력이 더 강한 기체는 같은 조건에서 더 많이 벗어나요.",
 
     // Real gases and the limits of the model > p
-    "You will study the types of intermolecular force in Structure 2.2. For now, one clue is enough: a gas with a higher boiling point has stronger forces between its particles.": "",
+    "You will study the types of intermolecular force in Structure 2.2. For now, one clue is enough: a gas with a higher boiling point has stronger forces between its particles.": "분자 간 힘의 종류는 Structure 2.2에서 배워요. 지금은 단서 하나면 충분해요: 끓는점이 높은 기체일수록 입자 사이의 힘이 더 강해요.",
 
     // Real gases and the limits of the model > exam tip (shown in English + translation) > p
-    "For “explain why a real gas deviates” questions, give a condition and a reason for each mark. <em>High pressure: particles are close together, so the volume of the particles is not negligible.</em> <em>Low temperature: particles move more slowly, so intermolecular forces become significant.</em>": "",
+    "For “explain why a real gas deviates” questions, give a condition and a reason for each mark. <em>High pressure: particles are close together, so the volume of the particles is not negligible.</em> <em>Low temperature: particles move more slowly, so intermolecular forces become significant.</em>": "“실제 기체가 벗어나는 이유를 설명하시오” 문제에서는 1점마다 조건 하나와 이유 하나를 쓰세요. <em>높은 압력: 입자들이 서로 가까이 있으므로 입자의 부피를 무시할 수 없다.</em> <em>낮은 온도: 입자가 더 느리게 움직이므로 분자 간 힘이 커진다.</em>",
 
     // Real gases and the limits of the model > common mistake > p
-    "Do not swap the conditions. “High temperature and low pressure” describes where a gas is <em>most</em> ideal. A quick check: think of where a gas turns into a liquid (cold and squeezed). That is where it is least ideal.": "",
+    "Do not swap the conditions. “High temperature and low pressure” describes where a gas is <em>most</em> ideal. A quick check: think of where a gas turns into a liquid (cold and squeezed). That is where it is least ideal.": "조건을 서로 바꾸지 마세요. “높은 온도와 낮은 압력”은 기체가 <em>가장</em> 이상적인 조건이에요. 빠르게 확인하는 방법: 기체가 액체로 바뀌는 곳(차갑고 압축된 곳)을 떠올려 보세요. 그곳이 가장 덜 이상적인 곳이에요.",
 
     // Real gases and the limits of the model > not needed for IB > p
-    "No mathematics is required for real gases. You do not need the van der Waals equation, the compressibility factor <i>Z</i>, or any calculation of how far a gas deviates. A reasoned explanation in words is all the IB asks for.": "",
+    "No mathematics is required for real gases. You do not need the van der Waals equation, the compressibility factor <i>Z</i>, or any calculation of how far a gas deviates. A reasoned explanation in words is all the IB asks for.": "실제 기체에는 수학이 필요하지 않아요. 반데르발스 식, 압축 인자 <i>Z</i>, 기체가 얼마나 벗어나는지에 대한 계산은 몰라도 돼요. IB가 요구하는 것은 말로 하는 논리적인 설명뿐이에요.",
 
     // Real gases and the limits of the model > data-title attribute
-    "Real gases: quick check": "",
+    "Real gases: quick check": "실제 기체: 빠른 확인",
 
     // Molar volume of an ideal gas > data-toc attribute
-    "Molar volume at STP": "",
+    "Molar volume at STP": "STP에서의 몰 부피",
 
     // Molar volume of an ideal gas > h2
-    "Molar volume of an ideal gas": "",
+    "Molar volume of an ideal gas": "이상 기체의 몰 부피",
 
     // Molar volume of an ideal gas > p
-    "Picture a box a little under 30 cm along each side, about the space taken up by four footballs. At 0 °C and 100 kPa, that box holds one mole of gas. It does not matter which gas.": "",
+    "Picture a box a little under 30 cm along each side, about the space taken up by four footballs. At 0 °C and 100 kPa, that box holds one mole of gas. It does not matter which gas.": "한 변이 30 cm보다 조금 짧은 상자를 떠올려 보세요. 축구공 네 개가 차지하는 공간쯤이에요. 0 °C, 100 kPa에서 이 상자에는 기체 1몰이 들어가요. 어떤 기체인지는 상관없어요.",
 
     // Molar volume of an ideal gas > p
-    "This follows from Avogadro’s law, which you met in Structure 1.4: equal volumes of gases at the same temperature and pressure contain equal numbers of molecules. Turn it around: equal numbers of molecules occupy equal volumes.": "",
+    "This follows from Avogadro’s law, which you met in Structure 1.4: equal volumes of gases at the same temperature and pressure contain equal numbers of molecules. Turn it around: equal numbers of molecules occupy equal volumes.": "이것은 Structure 1.4에서 배운 아보가드로 법칙에서 나와요: 같은 온도와 압력에서 같은 부피의 기체에는 같은 수의 분자가 들어 있어요. 거꾸로 말하면, 같은 수의 분자는 같은 부피를 차지해요.",
 
     // Molar volume of an ideal gas > p
-    "The <dfn data-def=\"The volume occupied by one mole of an ideal gas. It is a constant at a specific temperature and pressure.\">molar volume</dfn>, <i>V</i><sub>m</sub>, is the volume of one mole of an ideal gas. It is a constant at a specific temperature and pressure.": "",
+    "The <dfn data-def=\"The volume occupied by one mole of an ideal gas. It is a constant at a specific temperature and pressure.\">molar volume</dfn>, <i>V</i><sub>m</sub>, is the volume of one mole of an ideal gas. It is a constant at a specific temperature and pressure.": "<dfn data-def=\"이상 기체 1몰이 차지하는 부피예요. 특정한 온도와 압력에서 일정한 값이에요.\">몰 부피 <span class=\"en-term\">(molar volume)</span></dfn> <i>V</i><sub>m</sub>는 이상 기체 1몰의 부피예요. 특정한 온도와 압력에서 일정한 값이에요.",
 
     // Molar volume of an ideal gas > data-def attribute
-    "The volume occupied by one mole of an ideal gas. It is a constant at a specific temperature and pressure.": "",
+    "The volume occupied by one mole of an ideal gas. It is a constant at a specific temperature and pressure.": "이상 기체 1몰이 차지하는 부피예요. 특정한 온도와 압력에서 일정한 값이에요.",
 
     // Molar volume of an ideal gas > p
-    "<dfn data-def=\"Standard temperature and pressure: 273.15 K (0 °C) and 100 kPa.\">STP</dfn> stands for standard temperature and pressure: <span class=\"mono\">273.15 K</span> (0 °C) and <span class=\"mono\">100 kPa</span>. At STP the molar volume of an ideal gas is <span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span>.": "",
+    "<dfn data-def=\"Standard temperature and pressure: 273.15 K (0 °C) and 100 kPa.\">STP</dfn> stands for standard temperature and pressure: <span class=\"mono\">273.15 K</span> (0 °C) and <span class=\"mono\">100 kPa</span>. At STP the molar volume of an ideal gas is <span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span>.": "<dfn data-def=\"표준 온도와 압력: 273.15 K (0 °C), 100 kPa예요.\">STP <span class=\"en-term\">(standard temperature and pressure)</span></dfn>는 표준 온도와 압력이라는 뜻으로, <span class=\"mono\">273.15 K</span>(0 °C), <span class=\"mono\">100 kPa</span>이에요. STP에서 이상 기체의 몰 부피는 <span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span>이에요.",
 
     // Molar volume of an ideal gas > data-def attribute
-    "Standard temperature and pressure: 273.15 K (0 °C) and 100 kPa.": "",
+    "Standard temperature and pressure: 273.15 K (0 °C) and 100 kPa.": "표준 온도와 압력: 273.15 K (0 °C), 100 kPa예요.",
 
     // Molar volume of an ideal gas > equation > dd
     // The ideal gas equation > equation > dd
-    "amount of gas <span class=\"unit\">mol</span>": "",
+    "amount of gas <span class=\"unit\">mol</span>": "기체의 양 <span class=\"unit\">mol</span>",
 
     // Molar volume of an ideal gas > equation > dd
-    "volume of the gas <span class=\"unit\">dm3</span>": "",
+    "volume of the gas <span class=\"unit\">dm3</span>": "기체의 부피 <span class=\"unit\">dm3</span>",
 
     // Molar volume of an ideal gas > equation > dt
-    "V<sub>m</sub>": "",
+    "V<sub>m</sub>": "V<sub>m</sub>",
 
     // Molar volume of an ideal gas > equation > dd
-    "molar volume, 22.7 at STP <span class=\"unit\">dm3 mol-1</span>": "",
+    "molar volume, 22.7 at STP <span class=\"unit\">dm3 mol-1</span>": "몰 부피, STP에서 22.7 <span class=\"unit\">dm3 mol-1</span>",
 
     // Molar volume of an ideal gas > data booklet note > p
-    "The data booklet gives the molar volume of an ideal gas at STP as <span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span> (also written <span class=\"mono\">2.27 × 10<sup>−2</sup> m<sup>3</sup> mol<sup>−1</sup></span>), with STP defined as 273.15 K and 100 kPa. The relationship <i>n</i> = <i>V</i> ÷ <i>V</i><sub>m</sub> is not printed, so learn it.": "",
+    "The data booklet gives the molar volume of an ideal gas at STP as <span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span> (also written <span class=\"mono\">2.27 × 10<sup>−2</sup> m<sup>3</sup> mol<sup>−1</sup></span>), with STP defined as 273.15 K and 100 kPa. The relationship <i>n</i> = <i>V</i> ÷ <i>V</i><sub>m</sub> is not printed, so learn it.": "데이터 부클릿에는 STP에서 이상 기체의 몰 부피가 <span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span>(<span class=\"mono\">2.27 × 10<sup>−2</sup> m<sup>3</sup> mol<sup>−1</sup></span>로도 씀)로 나와 있고, STP는 273.15 K, 100 kPa로 정의되어 있어요. <i>n</i> = <i>V</i> ÷ <i>V</i><sub>m</sub> 관계식은 나와 있지 않으니 외워 두세요.",
 
     // Molar volume of an ideal gas > widget > data-title attribute
-    "How big is a mole of gas at STP?": "",
+    "How big is a mole of gas at STP?": "STP에서 기체 1몰은 얼마나 클까?",
 
     // Molar volume of an ideal gas > widget > data-kicker attribute
-    "To scale": "",
+    "To scale": "실제 비율",
 
     // Molar volume of an ideal gas > widget > figcaption
-    "Move either slider. The shaded cube shows the gas at STP, drawn to the same scale as a football and a 1 dm<sup>3</sup> cube. The amount and the volume always stay in the ratio 22.7 dm<sup>3</sup> for each mole.": "",
+    "Move either slider. The shaded cube shows the gas at STP, drawn to the same scale as a football and a 1 dm<sup>3</sup> cube. The amount and the volume always stay in the ratio 22.7 dm<sup>3</sup> for each mole.": "슬라이더 중 하나를 움직여 보세요. 색칠한 정육면체는 STP의 기체를 나타내고, 축구공과 1 dm<sup>3</sup> 정육면체와 같은 비율로 그렸어요. 물질의 양과 부피는 항상 1몰당 22.7 dm<sup>3</sup>의 비를 유지해요.",
 
     // Molar volume of an ideal gas > common mistake > p
-    "Older books and many websites use <span class=\"mono\">22.4 dm<sup>3</sup> mol<sup>−1</sup></span>. That value is for 0 °C and a pressure of 101.325 kPa (1 atmosphere), which was the older standard pressure. The IB data booklet defines STP as 0 °C and 100 kPa. The pressure is slightly lower, so the gas takes up slightly more space: <span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span>. Using 22.4 in an IB exam gives a wrong answer.": "",
+    "Older books and many websites use <span class=\"mono\">22.4 dm<sup>3</sup> mol<sup>−1</sup></span>. That value is for 0 °C and a pressure of 101.325 kPa (1 atmosphere), which was the older standard pressure. The IB data booklet defines STP as 0 °C and 100 kPa. The pressure is slightly lower, so the gas takes up slightly more space: <span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span>. Using 22.4 in an IB exam gives a wrong answer.": "옛날 책과 많은 웹사이트에서는 <span class=\"mono\">22.4 dm<sup>3</sup> mol<sup>−1</sup></span>을 써요. 이 값은 0 °C, 101.325 kPa(1기압)일 때의 값이고, 101.325 kPa는 예전의 표준 압력이었어요. IB 데이터 부클릿은 STP를 0 °C, 100 kPa로 정의해요. 압력이 조금 더 낮으니 기체가 조금 더 많은 공간을 차지해요: <span class=\"mono\">22.7 dm<sup>3</sup> mol<sup>−1</sup></span>. IB 시험에서 22.4를 쓰면 틀린 답이 나와요.",
 
     // Molar volume of an ideal gas > h3
     // The combined gas law > h3
     // The ideal gas equation > h3
     // Molar mass of a gas from experimental data > h3
-    "Method in words": "",
+    "Method in words": "방법 정리",
 
     // Molar volume of an ideal gas > li
-    "Check the conditions are STP. If they are not, use <i>PV</i> = <i>nRT</i> instead (later on this page).": "",
+    "Check the conditions are STP. If they are not, use <i>PV</i> = <i>nRT</i> instead (later on this page).": "조건이 STP인지 확인해요. STP가 아니면 대신 <i>PV</i> = <i>nRT</i>를 써요(이 페이지 뒷부분).",
 
     // Molar volume of an ideal gas > li
-    "Put the volume in dm<sup>3</sup>. To convert from cm<sup>3</sup>, divide by 1000.": "",
+    "Put the volume in dm<sup>3</sup>. To convert from cm<sup>3</sup>, divide by 1000.": "부피를 dm<sup>3</sup>로 나타내요. cm<sup>3</sup>에서 바꾸려면 1000으로 나눠요.",
 
     // Molar volume of an ideal gas > li
-    "To find amount: <i>n</i> = <i>V</i> ÷ 22.7. To find volume: <i>V</i> = <i>n</i> × 22.7.": "",
+    "To find amount: <i>n</i> = <i>V</i> ÷ 22.7. To find volume: <i>V</i> = <i>n</i> × 22.7.": "물질의 양 구하기: <i>n</i> = <i>V</i> ÷ 22.7. 부피 구하기: <i>V</i> = <i>n</i> × 22.7.",
 
     // Molar volume of an ideal gas > worked example > h3
-    "Amount from a gas volume at STP": "",
+    "Amount from a gas volume at STP": "STP에서 기체 부피로 물질의 양 구하기",
 
     // Molar volume of an ideal gas > worked example > p
-    "A sample of nitrogen gas occupies 568 cm<sup>3</sup> at STP. Calculate the amount of nitrogen, in mol.": "",
+    "A sample of nitrogen gas occupies 568 cm<sup>3</sup> at STP. Calculate the amount of nitrogen, in mol.": "질소 기체 시료가 STP에서 568 cm<sup>3</sup>를 차지해요. 질소의 양을 mol 단위로 계산하시오 (calculate).",
 
     // Molar volume of an ideal gas > worked example > data-title attribute
-    "Convert the volume to dm³": "",
+    "Convert the volume to dm³": "부피를 dm³로 바꾸기",
 
     // Molar volume of an ideal gas > worked example > p
-    "The molar volume is in dm<sup>3</sup> mol<sup>−1</sup>, so the volume must be in dm<sup>3</sup> too. There are 1000 cm<sup>3</sup> in 1 dm<sup>3</sup>.": "",
+    "The molar volume is in dm<sup>3</sup> mol<sup>−1</sup>, so the volume must be in dm<sup>3</sup> too. There are 1000 cm<sup>3</sup> in 1 dm<sup>3</sup>.": "몰 부피의 단위가 dm<sup>3</sup> mol<sup>−1</sup>이므로 부피도 dm<sup>3</sup>여야 해요. 1 dm<sup>3</sup>는 1000 cm<sup>3</sup>예요.",
 
     // Molar volume of an ideal gas > worked example > data-title attribute
-    "Write the relationship": "",
+    "Write the relationship": "관계식 쓰기",
 
     // Molar volume of an ideal gas > worked example > p
-    "The gas is at STP, so one mole occupies 22.7 dm<sup>3</sup>.": "",
+    "The gas is at STP, so one mole occupies 22.7 dm<sup>3</sup>.": "기체가 STP에 있으므로 1몰은 22.7 dm<sup>3</sup>를 차지해요.",
 
     // Molar volume of an ideal gas > worked example > data-title attribute
     // The combined gas law > worked example > data-title attribute
     // The ideal gas equation > worked example > data-title attribute
     // widget string (assets/js/widgets-s1-5.js)
-    "Substitute with units": "",
+    "Substitute with units": "단위와 함께 대입하기",
 
     // Molar volume of an ideal gas > worked example > p
-    "dm<sup>3</sup> divided by dm<sup>3</sup> mol<sup>−1</sup> leaves mol. The units confirm the method.": "",
+    "dm<sup>3</sup> divided by dm<sup>3</sup> mol<sup>−1</sup> leaves mol. The units confirm the method.": "dm<sup>3</sup>를 dm<sup>3</sup> mol<sup>−1</sup>로 나누면 mol이 남아요. 단위를 보면 방법이 맞는지 확인할 수 있어요.",
 
     // Molar volume of an ideal gas > worked example > data-title attribute
     // The ideal gas equation > worked example > data-title attribute
     // Molar mass of a gas from experimental data > worked example > data-title attribute
-    "Round to the data": "",
+    "Round to the data": "자료에 맞춰 반올림하기",
 
     // Molar volume of an ideal gas > worked example > p
-    "568 cm<sup>3</sup> and 22.7 both have 3 significant figures.": "",
+    "568 cm<sup>3</sup> and 22.7 both have 3 significant figures.": "568 cm<sup>3</sup>와 22.7은 모두 유효 숫자가 3자리예요.",
 
     // Molar volume of an ideal gas > worked example > p
-    "0.0250 mol of N<sub>2</sub>": "",
+    "0.0250 mol of N<sub>2</sub>": "N<sub>2</sub> 0.0250 mol",
 
     // Molar volume of an ideal gas > try it > p
-    "Calculate the volume, in dm<sup>3</sup>, occupied by 0.0420 mol of carbon dioxide at STP.": "",
+    "Calculate the volume, in dm<sup>3</sup>, occupied by 0.0420 mol of carbon dioxide at STP.": "STP에서 이산화 탄소 0.0420 mol이 차지하는 부피를 dm<sup>3</sup> 단위로 계산하시오 (calculate).",
 
     // Molar volume of an ideal gas > try it > li
-    "At STP, every mole of an ideal gas occupies the same volume. Which data booklet value is that?": "",
+    "At STP, every mole of an ideal gas occupies the same volume. Which data booklet value is that?": "STP에서는 이상 기체 1몰이 모두 같은 부피를 차지해요. 데이터 부클릿의 어떤 값일까요?",
 
     // Molar volume of an ideal gas > try it > li
-    "<i>V</i> = <i>n</i> × <i>V</i><sub>m</sub> = <span class=\"mono\">0.0420 mol × 22.7 dm<sup>3</sup> mol<sup>−1</sup></span>.": "",
+    "<i>V</i> = <i>n</i> × <i>V</i><sub>m</sub> = <span class=\"mono\">0.0420 mol × 22.7 dm<sup>3</sup> mol<sup>−1</sup></span>.": "<i>V</i> = <i>n</i> × <i>V</i><sub>m</sub> = <span class=\"mono\">0.0420 mol × 22.7 dm<sup>3</sup> mol<sup>−1</sup></span>.",
 
     // Molar volume of an ideal gas > try it > p
-    "To 3 significant figures: <strong>0.953 dm<sup>3</sup></strong>.": "",
+    "To 3 significant figures: <strong>0.953 dm<sup>3</sup></strong>.": "유효 숫자 3자리로: <strong>0.953 dm<sup>3</sup></strong>.",
 
     // Molar volume of an ideal gas > try it > p
-    "A balloon contains 1250 cm<sup>3</sup> of helium at STP. Calculate the amount of helium, in mol.": "",
+    "A balloon contains 1250 cm<sup>3</sup> of helium at STP. Calculate the amount of helium, in mol.": "풍선에 STP에서 헬륨 1250 cm<sup>3</sup>가 들어 있어요. 헬륨의 양을 mol 단위로 계산하시오 (calculate).",
 
     // Molar volume of an ideal gas > try it > li
-    "Convert the volume first: 1250 cm<sup>3</sup> is how many dm<sup>3</sup>?": "",
+    "Convert the volume first: 1250 cm<sup>3</sup> is how many dm<sup>3</sup>?": "먼저 부피를 바꿔요: 1250 cm<sup>3</sup>는 몇 dm<sup>3</sup>일까요?",
 
     // Molar volume of an ideal gas > try it > li
-    "<i>n</i> = <i>V</i> ÷ <i>V</i><sub>m</sub> = <span class=\"mono\">1.25 dm<sup>3</sup> ÷ 22.7 dm<sup>3</sup> mol<sup>−1</sup></span>.": "",
+    "<i>n</i> = <i>V</i> ÷ <i>V</i><sub>m</sub> = <span class=\"mono\">1.25 dm<sup>3</sup> ÷ 22.7 dm<sup>3</sup> mol<sup>−1</sup></span>.": "<i>n</i> = <i>V</i> ÷ <i>V</i><sub>m</sub> = <span class=\"mono\">1.25 dm<sup>3</sup> ÷ 22.7 dm<sup>3</sup> mol<sup>−1</sup></span>.",
 
     // Molar volume of an ideal gas > try it > p
-    "To 3 significant figures: <strong>0.0551 mol</strong>.": "",
+    "To 3 significant figures: <strong>0.0551 mol</strong>.": "유효 숫자 3자리로: <strong>0.0551 mol</strong>.",
 
     // Molar volume of an ideal gas > exam tip (shown in English + translation) > p
-    "22.7 dm<sup>3</sup> mol<sup>−1</sup> works only at STP. If a question gives any other temperature or pressure, such as 25 °C, the molar volume is different and you need <i>PV</i> = <i>nRT</i>.": "",
+    "22.7 dm<sup>3</sup> mol<sup>−1</sup> works only at STP. If a question gives any other temperature or pressure, such as 25 °C, the molar volume is different and you need <i>PV</i> = <i>nRT</i>.": "22.7 dm<sup>3</sup> mol<sup>−1</sup>은 STP에서만 쓸 수 있어요. 문제에서 25 °C처럼 다른 온도나 압력이 주어지면 몰 부피가 달라지므로 <i>PV</i> = <i>nRT</i>를 써야 해요.",
 
     // Molar volume of an ideal gas > exam tip (shown in English + translation) > p
-    "The data booklet also lists SATP (standard ambient temperature and pressure): 298.15 K (25 °C) and 100 kPa. It gives no molar volume for SATP, so 22.7 does not apply there. Use <i>PV</i> = <i>nRT</i>.": "",
+    "The data booklet also lists SATP (standard ambient temperature and pressure): 298.15 K (25 °C) and 100 kPa. It gives no molar volume for SATP, so 22.7 does not apply there. Use <i>PV</i> = <i>nRT</i>.": "데이터 부클릿에는 SATP(표준 상온 상압)도 나와요: 298.15 K (25 °C), 100 kPa. SATP의 몰 부피는 나와 있지 않으므로 SATP에서는 22.7을 쓸 수 없어요. <i>PV</i> = <i>nRT</i>를 쓰세요.",
 
     // Molar volume of an ideal gas > data-title attribute
-    "Molar volume: quick check": "",
+    "Molar volume: quick check": "몰 부피: 빠른 확인",
 
     // How pressure, volume and temperature are related > data-toc attribute
-    "P, V and T graphs": "",
+    "P, V and T graphs": "P, V, T 그래프",
 
     // How pressure, volume and temperature are related > h2
-    "How pressure, volume and temperature are related": "",
+    "How pressure, volume and temperature are related": "압력, 부피, 온도의 관계",
 
     // How pressure, volume and temperature are related > p
-    "Push the plunger of a sealed syringe and it pushes back harder. Leave a football outside on a cold night and it goes soft. These are the relationships in this section.": "",
+    "Push the plunger of a sealed syringe and it pushes back harder. Leave a football outside on a cold night and it goes soft. These are the relationships in this section.": "막힌 주사기의 피스톤을 누르면 더 세게 되밀어요. 추운 밤에 축구공을 밖에 두면 말랑해져요. 이 절에서 다루는 관계가 바로 이런 것들이에요.",
 
     // How pressure, volume and temperature are related > p
-    "A gas sample is described by four variables: pressure <i>P</i>, volume <i>V</i>, temperature <i>T</i> and amount <i>n</i>. To see how two of them are related, you hold the others constant. A <dfn data-def=\"A sample in which the amount of gas, n, does not change. No gas enters or leaves.\">fixed mass</dfn> of gas means <i>n</i> is constant.": "",
+    "A gas sample is described by four variables: pressure <i>P</i>, volume <i>V</i>, temperature <i>T</i> and amount <i>n</i>. To see how two of them are related, you hold the others constant. A <dfn data-def=\"A sample in which the amount of gas, n, does not change. No gas enters or leaves.\">fixed mass</dfn> of gas means <i>n</i> is constant.": "기체 시료는 4가지 변수로 나타내요: 압력 <i>P</i>, 부피 <i>V</i>, 온도 <i>T</i>, 물질의 양 <i>n</i>. 두 변수의 관계를 보려면 나머지는 일정하게 유지해요. <dfn data-def=\"기체의 양 n이 변하지 않는 시료예요. 기체가 들어오거나 나가지 않아요.\">일정한 질량 <span class=\"en-term\">(fixed mass)</span></dfn>의 기체란 <i>n</i>이 일정하다는 뜻이에요.",
 
     // How pressure, volume and temperature are related > data-def attribute
-    "A sample in which the amount of gas, n, does not change. No gas enters or leaves.": "",
+    "A sample in which the amount of gas, n, does not change. No gas enters or leaves.": "기체의 양 n이 변하지 않는 시료예요. 기체가 들어오거나 나가지 않아요.",
 
     // How pressure, volume and temperature are related > widget > data-title attribute
-    "Ideal gas sandbox": "",
+    "Ideal gas sandbox": "이상 기체 실험실",
 
     // How pressure, volume and temperature are related > widget > data-kicker attribute
-    "Model": "",
+    "Model": "모형",
 
     // How pressure, volume and temperature are related > widget > figcaption
-    "Choose an experiment, then drag the highlighted variable or press “Run the experiment”. The pressure is calculated from <i>PV</i> = <i>nRT</i>. In the picture, the particle speed scales with √<i>T</i>, the number of particles with <i>n</i>, and the length of the cylinder with <i>V</i>. The particles are drawn much larger than to scale, and there are far fewer of them than in a real sample.": "",
+    "Choose an experiment, then drag the highlighted variable or press “Run the experiment”. The pressure is calculated from <i>PV</i> = <i>nRT</i>. In the picture, the particle speed scales with √<i>T</i>, the number of particles with <i>n</i>, and the length of the cylinder with <i>V</i>. The particles are drawn much larger than to scale, and there are far fewer of them than in a real sample.": "실험을 고른 다음, 강조된 변수를 끌거나 “실험 실행”을 누르세요. 압력은 <i>PV</i> = <i>nRT</i>로 계산해요. 그림에서 입자의 속력은 √<i>T</i>에, 입자의 수는 <i>n</i>에, 실린더의 길이는 <i>V</i>에 따라 바뀌어요. 입자는 실제 비율보다 훨씬 크게 그렸고, 개수도 실제 시료보다 훨씬 적어요.",
 
     // How pressure, volume and temperature are related > h3
-    "Pressure and volume (temperature constant)": "",
+    "Pressure and volume (temperature constant)": "압력과 부피 (온도 일정)",
 
     // How pressure, volume and temperature are related > p
-    "Squeeze a gas into half the volume and the particles hit the walls twice as often. The pressure doubles.": "",
+    "Squeeze a gas into half the volume and the particles hit the walls twice as often. The pressure doubles.": "기체를 절반 부피로 압축하면 입자가 벽에 부딪치는 횟수가 2배가 돼요. 압력이 2배가 돼요.",
 
     // How pressure, volume and temperature are related > p
-    "Pressure is <dfn data-def=\"Two quantities are inversely proportional if one doubles when the other halves. Their product is constant.\">inversely proportional</dfn> to volume: <span class=\"mono\"><i>P</i> ∝ 1/<i>V</i></span>, so <span class=\"mono\"><i>PV</i> = constant</span>. A graph of <i>P</i> against <i>V</i> is a curve. A graph of <i>P</i> against 1/<i>V</i> is a straight line through the origin.": "",
+    "Pressure is <dfn data-def=\"Two quantities are inversely proportional if one doubles when the other halves. Their product is constant.\">inversely proportional</dfn> to volume: <span class=\"mono\"><i>P</i> ∝ 1/<i>V</i></span>, so <span class=\"mono\"><i>PV</i> = constant</span>. A graph of <i>P</i> against <i>V</i> is a curve. A graph of <i>P</i> against 1/<i>V</i> is a straight line through the origin.": "압력은 부피에 <dfn data-def=\"한 양이 2배가 될 때 다른 양이 절반이 되면 두 양은 반비례해요. 두 양의 곱은 일정해요.\">반비례 <span class=\"en-term\">(inversely proportional)</span></dfn>해요: <span class=\"mono\"><i>P</i> ∝ 1/<i>V</i></span>, 따라서 <span class=\"mono\"><i>PV</i> = 일정</span>. <i>P</i>를 <i>V</i>에 대해 그린 그래프는 곡선이에요. <i>P</i>를 1/<i>V</i>에 대해 그린 그래프는 원점을 지나는 직선이에요.",
 
     // How pressure, volume and temperature are related > data-def attribute
-    "Two quantities are inversely proportional if one doubles when the other halves. Their product is constant.": "",
+    "Two quantities are inversely proportional if one doubles when the other halves. Their product is constant.": "한 양이 2배가 될 때 다른 양이 절반이 되면 두 양은 반비례해요. 두 양의 곱은 일정해요.",
 
     // How pressure, volume and temperature are related > h3
-    "Volume and temperature (pressure constant)": "",
+    "Volume and temperature (pressure constant)": "부피와 온도 (압력 일정)",
 
     // How pressure, volume and temperature are related > p
-    "Heat a gas in a container with a freely moving piston. The particles move faster and push the piston out until the pressure inside matches the pressure outside again. The volume increases.": "",
+    "Heat a gas in a container with a freely moving piston. The particles move faster and push the piston out until the pressure inside matches the pressure outside again. The volume increases.": "자유롭게 움직이는 피스톤이 달린 용기에서 기체를 가열해요. 입자가 더 빨리 움직이고, 안쪽 압력이 바깥 압력과 다시 같아질 때까지 피스톤을 밀어내요. 부피가 늘어나요.",
 
     // How pressure, volume and temperature are related > p
-    "Volume is <dfn data-def=\"Two quantities are directly proportional if doubling one doubles the other. Their graph is a straight line through the origin.\">directly proportional</dfn> to the temperature in kelvin: <span class=\"mono\"><i>V</i> ∝ <i>T</i></span>, so <span class=\"mono\"><i>V</i>/<i>T</i> = constant</span>. A graph of <i>V</i> against <i>T</i> in kelvin is a straight line through the origin.": "",
+    "Volume is <dfn data-def=\"Two quantities are directly proportional if doubling one doubles the other. Their graph is a straight line through the origin.\">directly proportional</dfn> to the temperature in kelvin: <span class=\"mono\"><i>V</i> ∝ <i>T</i></span>, so <span class=\"mono\"><i>V</i>/<i>T</i> = constant</span>. A graph of <i>V</i> against <i>T</i> in kelvin is a straight line through the origin.": "부피는 켈빈 온도에 <dfn data-def=\"한 양을 2배로 하면 다른 양도 2배가 되면 두 양은 비례해요. 그래프는 원점을 지나는 직선이에요.\">비례 <span class=\"en-term\">(directly proportional)</span></dfn>해요: <span class=\"mono\"><i>V</i> ∝ <i>T</i></span>, 따라서 <span class=\"mono\"><i>V</i>/<i>T</i> = 일정</span>. <i>V</i>를 켈빈 온도 <i>T</i>에 대해 그린 그래프는 원점을 지나는 직선이에요.",
 
     // How pressure, volume and temperature are related > data-def attribute
-    "Two quantities are directly proportional if doubling one doubles the other. Their graph is a straight line through the origin.": "",
+    "Two quantities are directly proportional if doubling one doubles the other. Their graph is a straight line through the origin.": "한 양을 2배로 하면 다른 양도 2배가 되면 두 양은 비례해요. 그래프는 원점을 지나는 직선이에요.",
 
     // How pressure, volume and temperature are related > p
-    "Plot the same data against temperature in °C and you still get a straight line, but it does not pass through the origin. Extend the line backwards (extrapolate) and it reaches zero volume at <span class=\"mono\">−273.15 °C</span>. That temperature is <dfn data-def=\"0 K or −273.15 °C: the lowest possible temperature, at which an ideal gas would have zero volume.\">absolute zero</dfn>, 0 K.": "",
+    "Plot the same data against temperature in °C and you still get a straight line, but it does not pass through the origin. Extend the line backwards (extrapolate) and it reaches zero volume at <span class=\"mono\">−273.15 °C</span>. That temperature is <dfn data-def=\"0 K or −273.15 °C: the lowest possible temperature, at which an ideal gas would have zero volume.\">absolute zero</dfn>, 0 K.": "같은 자료를 °C 온도에 대해 그려도 직선이 나오지만, 원점을 지나지 않아요. 직선을 뒤로 늘이면(외삽하면) <span class=\"mono\">−273.15 °C</span>에서 부피가 0이 돼요. 이 온도가 <dfn data-def=\"0 K 또는 −273.15 °C: 가장 낮은 온도로, 이 온도에서 이상 기체의 부피는 0이 돼요.\">절대 영도 <span class=\"en-term\">(absolute zero)</span></dfn>, 곧 0 K예요.",
 
     // How pressure, volume and temperature are related > data-def attribute
-    "0 K or −273.15 °C: the lowest possible temperature, at which an ideal gas would have zero volume.": "",
+    "0 K or −273.15 °C: the lowest possible temperature, at which an ideal gas would have zero volume.": "0 K 또는 −273.15 °C: 가장 낮은 온도로, 이 온도에서 이상 기체의 부피는 0이 돼요.",
 
     // How pressure, volume and temperature are related > h3
-    "Pressure and temperature (volume constant)": "",
+    "Pressure and temperature (volume constant)": "압력과 온도 (부피 일정)",
 
     // How pressure, volume and temperature are related > p
-    "Heat a gas in a rigid container. The particles move faster, so they hit the walls harder and more often. The pressure increases.": "",
+    "Heat a gas in a rigid container. The particles move faster, so they hit the walls harder and more often. The pressure increases.": "단단한 용기에서 기체를 가열해요. 입자가 더 빨리 움직이므로 벽에 더 세게, 더 자주 부딪쳐요. 압력이 커져요.",
 
     // How pressure, volume and temperature are related > p
-    "Pressure is directly proportional to the temperature in kelvin: <span class=\"mono\"><i>P</i> ∝ <i>T</i></span>, so <span class=\"mono\"><i>P</i>/<i>T</i> = constant</span>. A graph of <i>P</i> against <i>T</i> in kelvin is a straight line through the origin.": "",
+    "Pressure is directly proportional to the temperature in kelvin: <span class=\"mono\"><i>P</i> ∝ <i>T</i></span>, so <span class=\"mono\"><i>P</i>/<i>T</i> = constant</span>. A graph of <i>P</i> against <i>T</i> in kelvin is a straight line through the origin.": "압력은 켈빈 온도에 비례해요: <span class=\"mono\"><i>P</i> ∝ <i>T</i></span>, 따라서 <span class=\"mono\"><i>P</i>/<i>T</i> = 일정</span>. <i>P</i>를 켈빈 온도 <i>T</i>에 대해 그린 그래프는 원점을 지나는 직선이에요.",
 
     // How pressure, volume and temperature are related > table > caption
-    "Three relationships for a fixed mass of an ideal gas": "",
+    "Three relationships for a fixed mass of an ideal gas": "일정한 질량의 이상 기체에 대한 3가지 관계",
 
     // How pressure, volume and temperature are related > table > th
-    "Held constant": "",
+    "Held constant": "일정하게 유지하는 것",
 
     // How pressure, volume and temperature are related > table > th
-    "Relationship": "",
+    "Relationship": "관계",
 
     // How pressure, volume and temperature are related > table > th
-    "What stays the same": "",
+    "What stays the same": "변하지 않는 것",
 
     // How pressure, volume and temperature are related > table > th
-    "Graph": "",
+    "Graph": "그래프",
 
     // How pressure, volume and temperature are related > table > td
     "<i>P</i> ∝ 1/<i>V</i> (inverse)": "",

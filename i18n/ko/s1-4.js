@@ -6,186 +6,186 @@ S1.i18n.register('ko', 's1-4', {
   strings: {
 
     // page title (browser tab)
-    "1.4 Counting particles by mass: the mole | Structure Lab": "",
+    "1.4 Counting particles by mass: the mole | Structure Lab": "1.4 질량으로 입자 세기: 몰 | Structure Lab",
 
     // Counting particles by mass: the mole > page header > p
-    "Structure 1.4": "",
+    "Structure 1.4": "Structure 1.4",
 
     // Counting particles by mass: the mole > page header > h1
-    "Counting particles by mass: the mole": "",
+    "Counting particles by mass: the mole": "질량으로 입자 세기: 몰",
 
     // Counting particles by mass: the mole > page header > span
-    "How do we quantify matter on the atomic scale?": "",
+    "How do we quantify matter on the atomic scale?": "원자 수준에서 물질의 양은 어떻게 나타낼까요?",
 
     // What you need to be able to do > h2
-    "What you need to be able to do": "",
+    "What you need to be able to do": "할 수 있어야 하는 것",
 
     // What you need to be able to do > p
-    "This topic is almost all calculation, and every later calculation in the course is built on it. Tick each item when you can do it without looking at your notes. All of it is SL and HL core. There is no Additional HL content in 1.4.": "",
+    "This topic is almost all calculation, and every later calculation in the course is built on it. Tick each item when you can do it without looking at your notes. All of it is SL and HL core. There is no Additional HL content in 1.4.": "이 단원은 거의 다 계산이에요. 그리고 이 과정에서 나오는 이후의 모든 계산이 이 단원을 바탕으로 해요. 노트를 보지 않고 할 수 있게 되면 각 항목에 체크하세요. 모두 SL과 HL 공통 내용이에요. 1.4에는 AHL(HL 추가 내용)이 없어요.",
 
     // What you need to be able to do > checklist > span
-    "Convert an amount in moles to a number of atoms, molecules, ions or formula units, and back, using the Avogadro constant.": "",
+    "Convert an amount in moles to a number of atoms, molecules, ions or formula units, and back, using the Avogadro constant.": "아보가드로 상수를 이용해 몰로 나타낸 양을 원자, 분자, 이온 또는 화학식 단위의 개수로 바꾸고, 거꾸로도 바꾸기.",
 
     // What you need to be able to do > checklist > span
-    "Work out a relative formula mass, <i>M</i><sub>r</sub>, from relative atomic masses, and say why <i>A</i><sub>r</sub> and <i>M</i><sub>r</sub> have no units.": "",
+    "Work out a relative formula mass, <i>M</i><sub>r</sub>, from relative atomic masses, and say why <i>A</i><sub>r</sub> and <i>M</i><sub>r</sub> have no units.": "상대 원자 질량으로 상대 화학식량 <i>M</i><sub>r</sub>를 구하고, <i>A</i><sub>r</sub>와 <i>M</i><sub>r</sub>에 단위가 없는 이유 말하기.",
 
     // What you need to be able to do > checklist > span
-    "Solve problems that link mass, amount and number of particles using <i>n</i> = <i>m</i> / <i>M</i>.": "",
+    "Solve problems that link mass, amount and number of particles using <i>n</i> = <i>m</i> / <i>M</i>.": "<i>n</i> = <i>m</i> / <i>M</i>을 이용해 질량, 물질의 양, 입자 수를 연결하는 문제 풀기.",
 
     // What you need to be able to do > checklist > span
-    "Go from percentage composition by mass to an empirical formula, and from a formula to percentage composition.": "",
+    "Go from percentage composition by mass to an empirical formula, and from a formula to percentage composition.": "질량 백분율 조성에서 실험식 구하기, 그리고 화학식에서 질량 백분율 조성 구하기.",
 
     // What you need to be able to do > checklist > span
-    "Find an empirical formula from mass data, including combustion data and heating a hydrate.": "",
+    "Find an empirical formula from mass data, including combustion data and heating a hydrate.": "연소 자료와 수화물 가열 자료를 포함해, 질량 자료에서 실험식 구하기.",
 
     // What you need to be able to do > checklist > span
-    "Find a molecular formula from an empirical formula and a molar mass.": "",
+    "Find a molecular formula from an empirical formula and a molar mass.": "실험식과 몰 질량에서 분자식 구하기.",
 
     // What you need to be able to do > checklist > span
-    "Solve problems with <i>n</i> = <i>CV</i>, and convert between <span class=\"unit\">mol dm-3</span> and <span class=\"unit\">g dm-3</span>.": "",
+    "Solve problems with <i>n</i> = <i>CV</i>, and convert between <span class=\"unit\">mol dm-3</span> and <span class=\"unit\">g dm-3</span>.": "<i>n</i> = <i>CV</i>로 문제를 풀고, <span class=\"unit\">mol dm-3</span>와 <span class=\"unit\">g dm-3</span> 사이를 변환하기.",
 
     // What you need to be able to do > checklist > span
-    "Describe how to prepare a standard solution and a dilution, and how a calibration curve gives an unknown concentration.": "",
+    "Describe how to prepare a standard solution and a dilution, and how a calibration curve gives an unknown concentration.": "표준 용액과 희석 용액을 만드는 방법, 그리고 검량선으로 모르는 농도를 구하는 방법 서술하기.",
 
     // What you need to be able to do > checklist > span
-    "State Avogadro’s law and use the mole ratio of an equation to find volumes of reacting gases.": "",
+    "State Avogadro’s law and use the mole ratio of an equation to find volumes of reacting gases.": "아보가드로 법칙을 말하고, 반응식의 몰 비로 반응하는 기체의 부피 구하기.",
 
     // Before any mole calculation: three questions > data-toc attribute
-    "Before you calculate": "",
+    "Before you calculate": "계산하기 전에",
 
     // Before any mole calculation: three questions > h2
-    "Before any mole calculation: three questions": "",
+    "Before any mole calculation: three questions": "몰 계산 전에: 세 가지 질문",
 
     // Before any mole calculation: three questions > p
-    "Most lost marks in this topic do not come from hard chemistry. They come from pressing calculator buttons before you know where you are going. So use the same routine every time, even when the question looks short.": "",
+    "Most lost marks in this topic do not come from hard chemistry. They come from pressing calculator buttons before you know where you are going. So use the same routine every time, even when the question looks short.": "이 단원에서 잃는 점수는 대부분 어려운 화학 때문이 아니에요. 어디로 가는지 알기도 전에 계산기 버튼부터 누르기 때문이에요. 그러니 문제가 짧아 보여도 매번 같은 순서를 따르세요.",
 
     // Before any mole calculation: three questions > li
-    "<strong>What am I given, and in what units?</strong><span>Write each value with its unit and say what it is: a mass in g, a volume in cm<sup>3</sup>, a concentration in mol dm<sup>−3</sup>, a number of particles.</span>": "",
+    "<strong>What am I given, and in what units?</strong><span>Write each value with its unit and say what it is: a mass in g, a volume in cm<sup>3</sup>, a concentration in mol dm<sup>−3</sup>, a number of particles.</span>": "<strong>무엇이 주어졌고, 단위는 무엇인가?</strong><span>각 값을 단위와 함께 쓰고 그것이 무엇인지 적으세요: g 단위의 질량, cm<sup>3</sup> 단위의 부피, mol dm<sup>−3</sup> 단위의 농도, 입자의 개수.</span>",
 
     // Before any mole calculation: three questions > li
-    "<strong>What do I want, and in what units?</strong><span>Underline it in the question. “Amount” always means moles. “Number of atoms” is not the same as “number of molecules”.</span>": "",
+    "<strong>What do I want, and in what units?</strong><span>Underline it in the question. “Amount” always means moles. “Number of atoms” is not the same as “number of molecules”.</span>": "<strong>무엇을 구해야 하고, 단위는 무엇인가?</strong><span>문제에서 밑줄을 그으세요. “Amount(양)”는 언제나 몰을 뜻해요. “원자의 개수”와 “분자의 개수”는 같지 않아요.</span>",
 
     // Before any mole calculation: three questions > li
-    "<strong>Which link connects them?</strong><span>Every route goes through <b>moles</b>. Pick the relationship that turns what you have into moles, then the one that turns moles into what you want.</span>": "",
+    "<strong>Which link connects them?</strong><span>Every route goes through <b>moles</b>. Pick the relationship that turns what you have into moles, then the one that turns moles into what you want.</span>": "<strong>어떤 관계식이 둘을 연결하는가?</strong><span>모든 경로는 <b>몰</b>을 거쳐요. 가진 것을 몰로 바꾸는 관계식을 고르고, 그다음 몰을 원하는 것으로 바꾸는 관계식을 고르세요.</span>",
 
     // Before any mole calculation: three questions > key idea > p
-    "There are only three relationships to choose from in this topic: <span class=\"mono\"><i>n</i> = <i>N</i> ÷ <i>N</i><sub>A</sub></span> for particles, <span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>M</i></span> for mass, and <span class=\"mono\"><i>n</i> = <i>C</i> × <i>V</i></span> for solutions. The mole is the meeting point of all three.": "",
+    "There are only three relationships to choose from in this topic: <span class=\"mono\"><i>n</i> = <i>N</i> ÷ <i>N</i><sub>A</sub></span> for particles, <span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>M</i></span> for mass, and <span class=\"mono\"><i>n</i> = <i>C</i> × <i>V</i></span> for solutions. The mole is the meeting point of all three.": "이 단원에서 고를 관계식은 3가지뿐이에요: 입자 수에는 <span class=\"mono\"><i>n</i> = <i>N</i> ÷ <i>N</i><sub>A</sub></span>, 질량에는 <span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>M</i></span>, 용액에는 <span class=\"mono\"><i>n</i> = <i>C</i> × <i>V</i></span>. 몰은 이 세 가지가 모두 만나는 곳이에요.",
 
     // Before any mole calculation: three questions > h3
-    "Get the units right first": "",
+    "Get the units right first": "먼저 단위를 맞추세요",
 
     // Before any mole calculation: three questions > p
-    "The relationships only work in their own units: mass in <span class=\"unit\">g</span>, volume of solution in <span class=\"unit\">dm3</span>. Questions often give <span class=\"unit\">cm3</span> or <span class=\"unit\">mg</span> instead. Convert before you substitute, and write the conversion down as its own line.": "",
+    "The relationships only work in their own units: mass in <span class=\"unit\">g</span>, volume of solution in <span class=\"unit\">dm3</span>. Questions often give <span class=\"unit\">cm3</span> or <span class=\"unit\">mg</span> instead. Convert before you substitute, and write the conversion down as its own line.": "관계식은 정해진 단위에서만 성립해요: 질량은 <span class=\"unit\">g</span>, 용액의 부피는 <span class=\"unit\">dm3</span>. 문제에서는 대신 <span class=\"unit\">cm3</span>나 <span class=\"unit\">mg</span>를 주는 경우가 많아요. 대입하기 전에 변환하고, 변환 과정을 따로 한 줄로 써 두세요.",
 
     // Before any mole calculation: three questions > widget > data-title attribute
-    "Unit-conversion strip": "",
+    "Unit-conversion strip": "단위 변환 띠",
 
     // Before any mole calculation: three questions > widget > figcaption
-    "Type a value and choose its unit. Each step to the right is a unit 1000 times bigger, so the number gets 1000 times smaller.": "",
+    "Type a value and choose its unit. Each step to the right is a unit 1000 times bigger, so the number gets 1000 times smaller.": "값을 입력하고 단위를 고르세요. 오른쪽으로 한 칸 갈 때마다 단위가 1000배 커지므로, 숫자는 1000배 작아져요.",
 
     // Before any mole calculation: three questions > common mistake > p
-    "Putting a volume in <span class=\"unit\">cm3</span> straight into <i>n</i> = <i>CV</i> gives an answer 1000 times too big. A quick check: 25 cm<sup>3</sup> is a small amount of liquid, so in dm<sup>3</sup> it must be a small number, 0.025.": "",
+    "Putting a volume in <span class=\"unit\">cm3</span> straight into <i>n</i> = <i>CV</i> gives an answer 1000 times too big. A quick check: 25 cm<sup>3</sup> is a small amount of liquid, so in dm<sup>3</sup> it must be a small number, 0.025.": "<span class=\"unit\">cm3</span> 단위의 부피를 그대로 <i>n</i> = <i>CV</i>에 넣으면 답이 1000배 너무 커져요. 빠른 확인법: 25 cm<sup>3</sup>는 적은 양의 액체이므로, dm<sup>3</sup>로 나타내면 작은 수인 0.025가 되어야 해요.",
 
     // Before any mole calculation: three questions > try it > p
-    "A pipette delivers 25.0 cm<sup>3</sup> of solution. What is this volume in dm<sup>3</sup>?": "",
+    "A pipette delivers 25.0 cm<sup>3</sup> of solution. What is this volume in dm<sup>3</sup>?": "피펫으로 용액 25.0 cm<sup>3</sup>를 옮겨요. 이 부피는 몇 dm<sup>3</sup>일까요?",
 
     // Before any mole calculation: three questions > try it > li
-    "A dm<sup>3</sup> is bigger than a cm<sup>3</sup>. Will the number get bigger or smaller?": "",
+    "A dm<sup>3</sup> is bigger than a cm<sup>3</sup>. Will the number get bigger or smaller?": "dm<sup>3</sup>는 cm<sup>3</sup>보다 커요. 숫자는 커질까요, 작아질까요?",
 
     // Before any mole calculation: three questions > try it > li
-    "Divide by 1000: <span class=\"mono\">25.0 ÷ 1000</span>. Keep three significant figures.": "",
+    "Divide by 1000: <span class=\"mono\">25.0 ÷ 1000</span>. Keep three significant figures.": "1000으로 나누세요: <span class=\"mono\">25.0 ÷ 1000</span>. 유효 숫자 3자리를 유지하세요.",
 
     // Before any mole calculation: three questions > try it > p
-    "The zero at the end matters. It shows the value is known to three significant figures.": "",
+    "The zero at the end matters. It shows the value is known to three significant figures.": "끝의 0이 중요해요. 이 값이 유효 숫자 3자리까지 알려져 있다는 것을 보여 줘요.",
 
     // Before any mole calculation: three questions > h3
-    "Significant figures: a short guide": "",
+    "Significant figures: a short guide": "유효 숫자: 짧은 안내",
 
     // Before any mole calculation: three questions > p
-    "<dfn data-def=\"The digits in a number that carry real information about its precision. Leading zeros do not count.\">Significant figures</dfn> (s.f.) tell the reader how precisely a value is known. Your answer cannot be more precise than the data you started with.": "",
+    "<dfn data-def=\"The digits in a number that carry real information about its precision. Leading zeros do not count.\">Significant figures</dfn> (s.f.) tell the reader how precisely a value is known. Your answer cannot be more precise than the data you started with.": "<dfn data-def=\"수의 정밀도에 대한 실제 정보를 담고 있는 숫자. 앞에 오는 0은 세지 않아요.\">유효 숫자 <span class=\"en-term\">(significant figures)</span></dfn>(s.f.)는 어떤 값이 얼마나 정밀하게 알려져 있는지 알려 줘요. 답은 처음 주어진 자료보다 더 정밀할 수 없어요.",
 
     // Before any mole calculation: three questions > data-def attribute
-    "The digits in a number that carry real information about its precision. Leading zeros do not count.": "",
+    "The digits in a number that carry real information about its precision. Leading zeros do not count.": "수의 정밀도에 대한 실제 정보를 담고 있는 숫자. 앞에 오는 0은 세지 않아요.",
 
     // Before any mole calculation: three questions > table > caption
-    "Counting significant figures": "",
+    "Counting significant figures": "유효 숫자 세기",
 
     // Before any mole calculation: three questions > table > th
     // widget string (assets/js/widgets-s1-4.js)
-    "Value": "",
+    "Value": "값",
 
     // Before any mole calculation: three questions > table > th
-    "Why": "",
+    "Why": "이유",
 
     // Before any mole calculation: three questions > table > td
-    "Zeros after the decimal point at the end count.": "",
+    "Zeros after the decimal point at the end count.": "소수점 뒤 끝에 있는 0은 세요.",
 
     // Before any mole calculation: three questions > table > td
-    "Zeros at the front only place the decimal point. They do not count.": "",
+    "Zeros at the front only place the decimal point. They do not count.": "앞에 있는 0은 소수점 위치만 정해요. 세지 않아요.",
 
     // Before any mole calculation: three questions > table > td
-    "A volumetric flask is precise, so its volume is often given to 4 s.f.": "",
+    "A volumetric flask is precise, so its volume is often given to 4 s.f.": "부피 플라스크는 정밀하므로, 그 부피는 흔히 유효 숫자 4자리(4 s.f.)로 나타내요.",
 
     // Before any mole calculation: three questions > table > td
-    "In scientific notation, count the digits in front of the “× 10”.": "",
+    "In scientific notation, count the digits in front of the “× 10”.": "과학적 표기법에서는 “× 10” 앞의 숫자만 세요.",
 
     // Before any mole calculation: three questions > li
-    "Keep the full value in your calculator through every step. Rounding in the middle can change the last digit of the answer.": "",
+    "Keep the full value in your calculator through every step. Rounding in the middle can change the last digit of the answer.": "모든 단계에서 계산기에 전체 값을 그대로 두세요. 중간에 반올림하면 답의 마지막 자리가 달라질 수 있어요.",
 
     // Before any mole calculation: three questions > li
-    "Round once, at the end. Look at the data in the question, find the value with the fewest significant figures, and give your answer to that many. In most questions that is 3.": "",
+    "Round once, at the end. Look at the data in the question, find the value with the fewest significant figures, and give your answer to that many. In most questions that is 3.": "반올림은 마지막에 한 번만 하세요. 문제의 자료를 보고 유효 숫자가 가장 적은 값을 찾아, 답을 그 자릿수로 나타내세요. 대부분의 문제에서는 3자리예요.",
 
     // Before any mole calculation: three questions > li
-    "Counted and defined numbers do not limit you: the 2 in <span class=\"chem\">H2O</span>, the coefficients in an equation, the 1000 in a unit conversion.": "",
+    "Counted and defined numbers do not limit you: the 2 in <span class=\"chem\">H2O</span>, the coefficients in an equation, the 1000 in a unit conversion.": "세어서 얻은 수와 정의된 수는 유효 숫자를 제한하지 않아요: <span class=\"chem\">H2O</span>의 2, 반응식의 계수, 단위 변환의 1000이 그래요.",
 
     // Before any mole calculation: three questions > li
-    "Write the unit after every final answer.": "",
+    "Write the unit after every final answer.": "최종 답 뒤에는 항상 단위를 쓰세요.",
 
     // Before any mole calculation: three questions > exam tip (shown in English + translation) > p
-    "IB markschemes give their answers to the precision of the data: usually 3 s.f., and 4 s.f. when the data are given to 4. Match the data and you are safe. A mark is not normally taken off for significant figures unless the question asks for a set number, so do not panic about them. Show your working too. If you slip in one step, the later steps can still earn marks when the method is correct.": "",
+    "IB markschemes give their answers to the precision of the data: usually 3 s.f., and 4 s.f. when the data are given to 4. Match the data and you are safe. A mark is not normally taken off for significant figures unless the question asks for a set number, so do not panic about them. Show your working too. If you slip in one step, the later steps can still earn marks when the method is correct.": "IB 채점 기준은 자료의 정밀도에 맞춰 답을 줘요: 보통 유효 숫자 3자리(3 s.f.)이고, 자료가 4자리로 주어지면 4자리(4 s.f.)예요. 자료에 맞추면 안전해요. 문제에서 자릿수를 정해 주지 않는 한 보통 유효 숫자 때문에 점수를 깎지 않으니 너무 걱정하지 마세요. 풀이 과정도 보이세요. 한 단계에서 실수해도 방법이 맞으면 그 뒤 단계에서 점수를 받을 수 있어요.",
 
     // The mole and the Avogadro constant > data-toc attribute
-    "The mole": "",
+    "The mole": "몰",
 
     // The mole and the Avogadro constant > h2
-    "The mole and the Avogadro constant": "",
+    "The mole and the Avogadro constant": "몰과 아보가드로 상수",
 
     // The mole and the Avogadro constant > p
-    "Eggs are sold by the dozen, and paper by the ream of 500 sheets. When things are small and you need a lot of them, you count in groups. Atoms are so small that the group has to be enormous.": "",
+    "Eggs are sold by the dozen, and paper by the ream of 500 sheets. When things are small and you need a lot of them, you count in groups. Atoms are so small that the group has to be enormous.": "달걀은 다스(12개) 단위로, 종이는 500장 묶음인 연(ream) 단위로 팔아요. 물건이 작고 많이 필요할 때는 묶음으로 세요. 원자는 너무 작아서 그 묶음이 엄청나게 커야 해요.",
 
     // The mole and the Avogadro constant > p
-    "The <dfn data-def=\"The SI unit of amount of substance. One mole contains exactly the number of elementary entities given by the Avogadro constant.\">mole</dfn> (symbol <span class=\"unit\">mol</span>) is the SI unit of <dfn data-def=\"The quantity that counts particles in groups of the Avogadro constant. Symbol n, unit mol.\">amount of substance</dfn>, symbol <i>n</i>. One mole contains exactly the number of elementary entities given by the <dfn data-def=\"The number of elementary entities in one mole. Symbol NA. In the data booklet as 6.02 × 10^23 mol^-1.\">Avogadro constant</dfn>, <i>N</i><sub>A</sub>.": "",
+    "The <dfn data-def=\"The SI unit of amount of substance. One mole contains exactly the number of elementary entities given by the Avogadro constant.\">mole</dfn> (symbol <span class=\"unit\">mol</span>) is the SI unit of <dfn data-def=\"The quantity that counts particles in groups of the Avogadro constant. Symbol n, unit mol.\">amount of substance</dfn>, symbol <i>n</i>. One mole contains exactly the number of elementary entities given by the <dfn data-def=\"The number of elementary entities in one mole. Symbol NA. In the data booklet as 6.02 × 10^23 mol^-1.\">Avogadro constant</dfn>, <i>N</i><sub>A</sub>.": "<dfn data-def=\"물질의 양의 SI 단위. 1몰에는 아보가드로 상수만큼의 기본 입자가 정확히 들어 있어요.\">몰 <span class=\"en-term\">(mole)</span></dfn>(기호 <span class=\"unit\">mol</span>)은 <dfn data-def=\"입자를 아보가드로 상수만큼씩 묶어서 세는 양. 기호 n, 단위 mol.\">물질의 양 <span class=\"en-term\">(amount of substance)</span></dfn>(기호 <i>n</i>)의 SI 단위예요. 1몰에는 <dfn data-def=\"1몰에 들어 있는 기본 입자의 수. 기호 NA. 데이터 부클릿에는 6.02 × 10^23 mol^-1로 나와 있어요.\">아보가드로 상수 <span class=\"en-term\">(Avogadro constant)</span></dfn> <i>N</i><sub>A</sub>만큼의 기본 입자가 정확히 들어 있어요.",
 
     // The mole and the Avogadro constant > data-def attribute
-    "The SI unit of amount of substance. One mole contains exactly the number of elementary entities given by the Avogadro constant.": "",
+    "The SI unit of amount of substance. One mole contains exactly the number of elementary entities given by the Avogadro constant.": "물질의 양의 SI 단위. 1몰에는 아보가드로 상수만큼의 기본 입자가 정확히 들어 있어요.",
 
     // The mole and the Avogadro constant > data-def attribute
-    "The quantity that counts particles in groups of the Avogadro constant. Symbol n, unit mol.": "",
+    "The quantity that counts particles in groups of the Avogadro constant. Symbol n, unit mol.": "입자를 아보가드로 상수만큼씩 묶어서 세는 양. 기호 n, 단위 mol.",
 
     // The mole and the Avogadro constant > data-def attribute
-    "The number of elementary entities in one mole. Symbol NA. In the data booklet as 6.02 × 10^23 mol^-1.": "",
+    "The number of elementary entities in one mole. Symbol NA. In the data booklet as 6.02 × 10^23 mol^-1.": "1몰에 들어 있는 기본 입자의 수. 기호 NA. 데이터 부클릿에는 6.02 × 10^23 mol^-1로 나와 있어요.",
 
     // The mole and the Avogadro constant > p
-    "An <dfn data-def=\"The particle being counted: an atom, a molecule, an ion, an electron, any other particle, or a specified group of particles such as a formula unit.\">elementary entity</dfn> is whatever particle you are counting. It may be an atom, a molecule, an ion, an electron, or a specified group of particles such as one <dfn data-def=\"The group of ions shown by the formula of an ionic compound, for example one Na+ and one Cl- for NaCl.\">formula unit</dfn> of <span class=\"chem\">NaCl</span>. So always say <em>what</em> you have a mole of.": "",
+    "An <dfn data-def=\"The particle being counted: an atom, a molecule, an ion, an electron, any other particle, or a specified group of particles such as a formula unit.\">elementary entity</dfn> is whatever particle you are counting. It may be an atom, a molecule, an ion, an electron, or a specified group of particles such as one <dfn data-def=\"The group of ions shown by the formula of an ionic compound, for example one Na+ and one Cl- for NaCl.\">formula unit</dfn> of <span class=\"chem\">NaCl</span>. So always say <em>what</em> you have a mole of.": "<dfn data-def=\"세고 있는 입자: 원자, 분자, 이온, 전자, 그 밖의 입자, 또는 화학식 단위처럼 정해진 입자 묶음.\">기본 입자 <span class=\"en-term\">(elementary entity)</span></dfn>는 여러분이 세고 있는 입자예요. 원자, 분자, 이온, 전자일 수도 있고, <span class=\"chem\">NaCl</span>의 <dfn data-def=\"이온 결합 화합물의 화학식이 나타내는 이온 묶음. 예를 들어 NaCl에서는 Na+ 1개와 Cl- 1개.\">화학식 단위 <span class=\"en-term\">(formula unit)</span></dfn> 하나처럼 정해진 입자 묶음일 수도 있어요. 그러니 <em>무엇</em>의 몰인지 항상 말하세요.",
 
     // The mole and the Avogadro constant > data-def attribute
-    "The particle being counted: an atom, a molecule, an ion, an electron, any other particle, or a specified group of particles such as a formula unit.": "",
+    "The particle being counted: an atom, a molecule, an ion, an electron, any other particle, or a specified group of particles such as a formula unit.": "세고 있는 입자: 원자, 분자, 이온, 전자, 그 밖의 입자, 또는 화학식 단위처럼 정해진 입자 묶음.",
 
     // The mole and the Avogadro constant > data-def attribute
-    "The group of ions shown by the formula of an ionic compound, for example one Na+ and one Cl- for NaCl.": "",
+    "The group of ions shown by the formula of an ionic compound, for example one Na+ and one Cl- for NaCl.": "이온 결합 화합물의 화학식이 나타내는 이온 묶음. 예를 들어 NaCl에서는 Na+ 1개와 Cl- 1개.",
 
     // The mole and the Avogadro constant > data booklet note > p
-    "<i>N</i><sub>A</sub> = <span class=\"mono\">6.02 × 10<sup>23</sup> mol<sup>−1</sup></span>. The unit mol<sup>−1</sup> means “per mole”. You do not need to memorize the value, but you must know when to use it.": "",
+    "<i>N</i><sub>A</sub> = <span class=\"mono\">6.02 × 10<sup>23</sup> mol<sup>−1</sup></span>. The unit mol<sup>−1</sup> means “per mole”. You do not need to memorize the value, but you must know when to use it.": "<i>N</i><sub>A</sub> = <span class=\"mono\">6.02 × 10<sup>23</sup> mol<sup>−1</sup></span>. 단위 mol<sup>−1</sup>은 “1몰당”이라는 뜻이에요. 값을 외울 필요는 없지만, 언제 쓰는지는 알아야 해요.",
 
     // The mole and the Avogadro constant > equation > dd
-    "number of particles (no unit)": "",
+    "number of particles (no unit)": "입자 수 (단위 없음)",
 
     // The mole and the Avogadro constant > equation > dd
     // Molar mass: weighing instead of counting > equation > dd
-    "amount of substance <span class=\"unit\">mol</span>": "",
+    "amount of substance <span class=\"unit\">mol</span>": "물질의 양 <span class=\"unit\">mol</span>",
 
     // The mole and the Avogadro constant > equation > dt
-    "N<sub>A</sub>": "",
+    "N<sub>A</sub>": "N<sub>A</sub>",
 
     // The mole and the Avogadro constant > equation > dd
     "Avogadro constant <span class=\"unit\">mol-1</span>": "",

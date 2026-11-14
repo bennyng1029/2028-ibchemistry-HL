@@ -9,271 +9,271 @@ S1.i18n.register('ko', 's2-2.q', {
     // ── s2-2-q001 · mcq · foundation · SL · Structure 2.2.1 · 1 mark
     "s2-2-q001": {
       // EN: <p>Which statement best describes a covalent bond?</p>
-      stem: "",
+      stem: "<p>공유 결합 <span class=\"en-term\">(covalent bond)</span>을 가장 잘 설명한 것은 무엇인가요?</p>",
       options: [
         // EN: The electrostatic attraction between oppositely charged ions.
-        "",
+        "반대 전하를 띤 이온 사이의 정전기적 인력.",
         // EN: The electrostatic attraction between a shared pair of electrons and the positively charged nuclei.
-        "",
+        "공유 전자쌍과 양전하를 띤 원자핵 사이의 정전기적 인력.",
         // EN: The electrostatic attraction between a lattice of cations and delocalized electrons.
-        "",
+        "양이온 격자와 비편재화된 전자 사이의 정전기적 인력.",
         // EN: The transfer of electrons from one atom to another atom.
-        "",
+        "한 원자에서 다른 원자로 전자가 이동하는 것.",
       ],
       hints: [
         // EN: In a covalent bond, two atoms share a pair of electrons.
-        "",
+        "공유 결합에서는 두 원자가 전자쌍 하나를 함께 나누어 가져요.",
         // EN: A bond is always an electrostatic attraction. Ask: what is attracted to what?
-        "",
+        "결합은 언제나 정전기적 인력이에요. 무엇이 무엇을 끌어당기는지 생각해 봐요.",
       ],
       // EN: <p>Two nuclei are both attracted to the same shared pair of electrons. That attraction holds the atoms together.</p><p>The markscheme wording is: <strong>electrostatic attraction between a shared pair of electrons and the positively charged nuclei</strong>.</p>
-      solution: "",
+      solution: "<p>두 원자핵이 모두 같은 공유 전자쌍에 끌려요. 이 인력이 원자들을 붙잡아 둬요.</p><p>채점 기준의 표현은 <strong>공유 전자쌍과 양전하를 띤 원자핵 사이의 정전기적 인력</strong>이에요.</p>",
       misconception: {
         // EN (option A): This describes an ionic bond. In a covalent bond no ions form: the atoms share a pair of electrons.
-        "0": "",
+        "0": "이것은 이온 결합에 대한 설명이에요. 공유 결합에서는 이온이 생기지 않고, 원자들이 전자쌍을 함께 나누어 가져요.",
         // EN (option C): This describes a metallic bond. In a covalent bond the shared pair stays between two nuclei. It is not delocalized through a lattice.
-        "2": "",
+        "2": "이것은 금속 결합에 대한 설명이에요. 공유 결합에서 공유 전자쌍은 두 원자핵 사이에 머물러요. 격자 전체에 비편재화되지 않아요.",
         // EN (option D): Electron transfer happens when ions form. A bond is an attraction, not a transfer. In a covalent bond the electrons are shared.
-        "3": "",
+        "3": "전자 이동은 이온이 생길 때 일어나요. 결합은 인력이지 이동이 아니에요. 공유 결합에서는 전자를 함께 나누어 가져요.",
       },
     },
 
     // ── s2-2-q002 · numeric · foundation · SL · Structure 2.2.1 · 1 mark
     "s2-2-q002": {
       // EN: <p>The first step in drawing a Lewis formula is to count the valence electrons.</p><p>How many valence electrons must be shown in the Lewis formula of the carbonate ion, <span class="chem">CO3^2-</span>?</p>
-      stem: "",
+      stem: "<p>루이스 구조식을 그리는 첫 단계는 원자가 전자의 수를 세는 거예요.</p><p>탄산 이온 <span class=\"chem\">CO3^2-</span>의 루이스 구조식에는 원자가 전자를 몇 개 나타내야 하나요?</p>",
       hints: [
         // EN: Carbon is in group 14, so it has 4 valence electrons. Oxygen is in group 16, so it has 6.
-        "",
+        "탄소는 14족이므로 원자가 전자가 4개예요. 산소는 16족이므로 6개예요.",
         // EN: The charge is 2−. A negative charge means extra electrons. Add them.
-        "",
+        "전하가 2−예요. 음전하는 전자가 더 있다는 뜻이에요. 그만큼 더하세요.",
       ],
       // EN: <div class="worked__math">C: 1 × 4 = 4</div><div class="worked__math">O: 3 × 6 = 18</div><div class="worked__math">charge 2−: add 2</div><div class="worked__math">total = 4 + 18 + 2 = 24 valence electrons</div><p>For a negative ion you add electrons. For a positive ion you subtract electrons.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">C: 1 × 4 = 4</div><div class=\"worked__math\">O: 3 × 6 = 18</div><div class=\"worked__math\">전하 2−: 2 더하기</div><div class=\"worked__math\">합계 = 4 + 18 + 2 = 24 원자가 전자</div><p>음이온은 전자를 더하고, 양이온은 전자를 빼요.</p>",
     },
 
     // ── s2-2-q003 · numeric · foundation · SL · Structure 2.2.1 · 1 mark
     "s2-2-q003": {
       // EN: <p>How many lone pairs (non-bonding pairs) of electrons are there in the Lewis formula of one molecule of carbon dioxide, <span class="chem">CO2</span>?</p><p>Count the lone pairs on <strong>all</strong> the atoms.</p>
-      stem: "",
+      stem: "<p>이산화 탄소 <span class=\"chem\">CO2</span> 분자 1개의 루이스 구조식에는 비공유 전자쌍(결합하지 않은 전자쌍)이 몇 개 있나요?</p><p><strong>모든</strong> 원자의 비공유 전자쌍을 세세요.</p>",
       hints: [
         // EN: Total valence electrons: 4 + 6 + 6 = 16, which is 8 pairs.
-        "",
+        "원자가 전자의 합: 4 + 6 + 6 = 16, 즉 8쌍이에요.",
         // EN: The structure is <span class="chem">O=C=O</span>. The two double bonds use 4 pairs. Where are the other pairs?
-        "",
+        "구조는 <span class=\"chem\">O=C=O</span>예요. 이중 결합 두 개가 4쌍을 써요. 나머지 쌍은 어디에 있을까요?",
       ],
       // EN: <p><span class="chem">CO2</span> has 4 + (2 × 6) = 16 valence electrons, which is 8 pairs.</p><p>The two <span class="chem">C=O</span> double bonds use 4 pairs. The other 4 pairs are lone pairs: <strong>2 on each oxygen atom</strong>. Carbon has none.</p><p>Total lone pairs = <strong>4</strong>. A Lewis formula must show every lone pair, including those on the outer atoms.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">CO2</span>의 원자가 전자는 4 + (2 × 6) = 16개, 즉 8쌍이에요.</p><p><span class=\"chem\">C=O</span> 이중 결합 두 개가 4쌍을 써요. 나머지 4쌍은 비공유 전자쌍으로, <strong>산소 원자마다 2쌍</strong>씩 있어요. 탄소에는 없어요.</p><p>비공유 전자쌍의 합 = <strong>4</strong>. 루이스 구조식에는 바깥쪽 원자의 것을 포함해 모든 비공유 전자쌍을 나타내야 해요.</p>",
     },
 
     // ── s2-2-q004 · mcq · exam · SL · Structure 2.2.1 · 1 mark
     "s2-2-q004": {
       // EN: <p>Which is the correct Lewis formula of hydrogen cyanide, <span class="chem">HCN</span>?</p><p>Each line is one shared pair. Each pair of dots is one lone pair.</p>
-      stem: "",
+      stem: "<p>사이안화 수소 <span class=\"chem\">HCN</span>의 올바른 루이스 구조식은 무엇인가요?</p><p>선 하나는 공유 전자쌍 하나예요. 점 두 개 한 쌍은 비공유 전자쌍 하나예요.</p>",
       options: [
         // EN: <svg viewBox="-22 -22 128 44" width="128" height="44" role="img" aria-label="H single bond C, C triple bond N, no lone pairs" style="vertical-align:middle;max-width:100%"><line x1="9.0" y1="0.0" x2="31.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="-4.6" x2="75.0" y2="-4.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="0.0" x2="75.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="4.6" x2="75.0" y2="4.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="0" y="6" text-anchor="middle" font-size="17" fill="currentColor">H</text><text x="40" y="6" text-anchor="middle" font-size="17" fill="currentColor">C</text><text x="84" y="6" text-anchor="middle" font-size="17" fill="currentColor">N</text></svg>
-        "",
+        "<svg viewBox=\"-22 -22 128 44\" width=\"128\" height=\"44\" role=\"img\" aria-label=\"H와 C는 단일 결합, C와 N은 삼중 결합, 비공유 전자쌍 없음\" style=\"vertical-align:middle;max-width:100%\"><line x1=\"9.0\" y1=\"0.0\" x2=\"31.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"-4.6\" x2=\"75.0\" y2=\"-4.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"0.0\" x2=\"75.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"4.6\" x2=\"75.0\" y2=\"4.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">H</text><text x=\"40\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">C</text><text x=\"84\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">N</text></svg>",
         // EN: <svg viewBox="-22 -22 128 44" width="128" height="44" role="img" aria-label="H single bond C, C double bond N, two lone pairs on N" style="vertical-align:middle;max-width:100%"><line x1="9.0" y1="0.0" x2="31.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="-2.6" x2="75.0" y2="-2.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="2.6" x2="75.0" y2="2.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="0" y="6" text-anchor="middle" font-size="17" fill="currentColor">H</text><text x="40" y="6" text-anchor="middle" font-size="17" fill="currentColor">C</text><text x="84" y="6" text-anchor="middle" font-size="17" fill="currentColor">N</text><circle cx="93.8" cy="-10.5" r="1.7" fill="currentColor"/><circle cx="88.2" cy="-13.7" r="1.7" fill="currentColor"/><circle cx="88.2" cy="13.7" r="1.7" fill="currentColor"/><circle cx="93.8" cy="10.5" r="1.7" fill="currentColor"/></svg>
-        "",
+        "<svg viewBox=\"-22 -22 128 44\" width=\"128\" height=\"44\" role=\"img\" aria-label=\"H와 C는 단일 결합, C와 N은 이중 결합, N에 비공유 전자쌍 2개\" style=\"vertical-align:middle;max-width:100%\"><line x1=\"9.0\" y1=\"0.0\" x2=\"31.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"-2.6\" x2=\"75.0\" y2=\"-2.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"2.6\" x2=\"75.0\" y2=\"2.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">H</text><text x=\"40\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">C</text><text x=\"84\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">N</text><circle cx=\"93.8\" cy=\"-10.5\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"88.2\" cy=\"-13.7\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"88.2\" cy=\"13.7\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"93.8\" cy=\"10.5\" r=\"1.7\" fill=\"currentColor\"/></svg>",
         // EN: <svg viewBox="-22 -22 128 44" width="128" height="44" role="img" aria-label="H single bond C, C triple bond N, one lone pair on N" style="vertical-align:middle;max-width:100%"><line x1="9.0" y1="0.0" x2="31.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="-4.6" x2="75.0" y2="-4.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="0.0" x2="75.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="4.6" x2="75.0" y2="4.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="0" y="6" text-anchor="middle" font-size="17" fill="currentColor">H</text><text x="40" y="6" text-anchor="middle" font-size="17" fill="currentColor">C</text><text x="84" y="6" text-anchor="middle" font-size="17" fill="currentColor">N</text><circle cx="98.0" cy="3.2" r="1.7" fill="currentColor"/><circle cx="98.0" cy="-3.2" r="1.7" fill="currentColor"/></svg>
-        "",
+        "<svg viewBox=\"-22 -22 128 44\" width=\"128\" height=\"44\" role=\"img\" aria-label=\"H와 C는 단일 결합, C와 N은 삼중 결합, N에 비공유 전자쌍 1개\" style=\"vertical-align:middle;max-width:100%\"><line x1=\"9.0\" y1=\"0.0\" x2=\"31.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"-4.6\" x2=\"75.0\" y2=\"-4.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"0.0\" x2=\"75.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"4.6\" x2=\"75.0\" y2=\"4.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">H</text><text x=\"40\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">C</text><text x=\"84\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">N</text><circle cx=\"98.0\" cy=\"3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"98.0\" cy=\"-3.2\" r=\"1.7\" fill=\"currentColor\"/></svg>",
         // EN: <svg viewBox="-22 -22 128 44" width="128" height="44" role="img" aria-label="H single bond C, C triple bond N, one lone pair on C and one lone pair on N" style="vertical-align:middle;max-width:100%"><line x1="9.0" y1="0.0" x2="31.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="-4.6" x2="75.0" y2="-4.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="0.0" x2="75.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="49.0" y1="4.6" x2="75.0" y2="4.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="0" y="6" text-anchor="middle" font-size="17" fill="currentColor">H</text><text x="40" y="6" text-anchor="middle" font-size="17" fill="currentColor">C</text><circle cx="43.2" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="36.8" cy="-14.0" r="1.7" fill="currentColor"/><text x="84" y="6" text-anchor="middle" font-size="17" fill="currentColor">N</text><circle cx="98.0" cy="3.2" r="1.7" fill="currentColor"/><circle cx="98.0" cy="-3.2" r="1.7" fill="currentColor"/></svg>
-        "",
+        "<svg viewBox=\"-22 -22 128 44\" width=\"128\" height=\"44\" role=\"img\" aria-label=\"H와 C는 단일 결합, C와 N은 삼중 결합, C에 비공유 전자쌍 1개, N에 비공유 전자쌍 1개\" style=\"vertical-align:middle;max-width:100%\"><line x1=\"9.0\" y1=\"0.0\" x2=\"31.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"-4.6\" x2=\"75.0\" y2=\"-4.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"0.0\" x2=\"75.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"4.6\" x2=\"75.0\" y2=\"4.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">H</text><text x=\"40\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">C</text><circle cx=\"43.2\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"36.8\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><text x=\"84\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">N</text><circle cx=\"98.0\" cy=\"3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"98.0\" cy=\"-3.2\" r=\"1.7\" fill=\"currentColor\"/></svg>",
       ],
       hints: [
         // EN: Count the valence electrons first: H has 1, C has 4, N has 5.
-        "",
+        "먼저 원자가 전자를 세세요. H는 1개, C는 4개, N은 5개예요.",
         // EN: In the correct formula, C and N each have 8 electrons around them and H has 2.
-        "",
+        "올바른 구조식에서는 C와 N 주위에 각각 전자 8개, H 주위에 전자 2개가 있어요.",
         // EN: Count the electrons in each drawing: 2 for each line and 2 for each pair of dots.
-        "",
+        "그림마다 전자를 세세요. 선 하나에 2개, 점 한 쌍에 2개예요.",
       ],
       // EN: <p>Valence electrons: 1 + 4 + 5 = <strong>10</strong> (5 pairs).</p><p><span class="chem">H–C≡N</span> uses 4 pairs in bonds: one in the single bond and three in the triple bond. The last pair is a lone pair on nitrogen.</p><p>Check: H has 2 electrons. C has 8 (four bonding pairs). N has 8 (three bonding pairs and one lone pair).</p>
-      solution: "",
+      solution: "<p>원자가 전자: 1 + 4 + 5 = <strong>10</strong> (5쌍).</p><p><span class=\"chem\">H–C≡N</span>은 결합에 4쌍을 써요. 단일 결합에 1쌍, 삼중 결합에 3쌍이에요. 남은 1쌍은 질소의 비공유 전자쌍이에요.</p><p>확인: H는 전자 2개, C는 8개(공유 전자쌍 4개), N은 8개(공유 전자쌍 3개와 비공유 전자쌍 1개)예요.</p>",
       misconception: {
         // EN (option A): This drawing shows only 8 electrons. <span class="chem">HCN</span> has 1 + 4 + 5 = 10 valence electrons. The lone pair on nitrogen is missing, so nitrogen has only 6 electrons around it.
-        "0": "",
+        "0": "이 그림에는 전자가 8개뿐이에요. <span class=\"chem\">HCN</span>의 원자가 전자는 1 + 4 + 5 = 10개예요. 질소의 비공유 전자쌍이 빠져서 질소 주위에 전자가 6개뿐이에요.",
         // EN (option B): The electron count (10) is right, but carbon has only 3 pairs (6 electrons) around it. Moving one lone pair from N into the bond makes a triple bond and gives carbon an octet.
-        "1": "",
+        "1": "전자 수(10)는 맞지만 탄소 주위에 3쌍(전자 6개)뿐이에요. N의 비공유 전자쌍 하나를 결합으로 옮기면 삼중 결합이 되고 탄소가 옥텟을 이뤄요.",
         // EN (option D): This drawing shows 12 electrons, but only 10 valence electrons are available. Carbon would also have 5 pairs around it, which is more than an octet.
-        "3": "",
+        "3": "이 그림에는 전자가 12개 있지만 쓸 수 있는 원자가 전자는 10개뿐이에요. 또 탄소 주위에 5쌍이 생겨 옥텟보다 많아져요.",
       },
     },
 
     // ── s2-2-q005 · numeric · exam · SL · Structure 2.2.1 · 1 mark
     "s2-2-q005": {
       // EN: <p>Ethanoic acid has the structural formula <span class="chem">CH3COOH</span>. One oxygen atom is joined to carbon by a double bond. The other oxygen atom is in an <span class="chem">O–H</span> group.</p><p>How many <strong>bonding pairs</strong> of electrons are there in the Lewis formula of one molecule of ethanoic acid?</p>
-      stem: "",
+      stem: "<p>ethanoic acid(에탄산)의 구조식은 <span class=\"chem\">CH3COOH</span>예요. 산소 원자 하나는 탄소와 이중 결합으로 연결되어 있어요. 다른 산소 원자는 <span class=\"chem\">O–H</span> 기에 있어요.</p><p>ethanoic acid 분자 1개의 루이스 구조식에는 <strong>공유 전자쌍</strong>이 몇 개 있나요?</p>",
       hints: [
         // EN: List the bonds: three <span class="chem">C–H</span>, one <span class="chem">C–C</span>, one <span class="chem">C=O</span>, one <span class="chem">C–O</span>, one <span class="chem">O–H</span>.
-        "",
+        "결합을 나열해 봐요: <span class=\"chem\">C–H</span> 3개, <span class=\"chem\">C–C</span> 1개, <span class=\"chem\">C=O</span> 1개, <span class=\"chem\">C–O</span> 1개, <span class=\"chem\">O–H</span> 1개.",
         // EN: A double bond is two bonding pairs.
-        "",
+        "이중 결합은 공유 전자쌍 2개예요.",
       ],
       // EN: <div class="worked__math">C–H: 3 pairs</div><div class="worked__math">C–C: 1 pair</div><div class="worked__math">C=O: 2 pairs</div><div class="worked__math">C–O: 1 pair</div><div class="worked__math">O–H: 1 pair</div><div class="worked__math">total = 8 bonding pairs</div><p>Check with the electron count. Valence electrons = (2 × 4) + (4 × 1) + (2 × 6) = 24, which is 12 pairs. There are 8 bonding pairs and 4 lone pairs (2 on each oxygen atom). 8 + 4 = 12.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">C–H: 3쌍</div><div class=\"worked__math\">C–C: 1쌍</div><div class=\"worked__math\">C=O: 2쌍</div><div class=\"worked__math\">C–O: 1쌍</div><div class=\"worked__math\">O–H: 1쌍</div><div class=\"worked__math\">합계 = 공유 전자쌍 8개</div><p>전자 수로 확인해 봐요. 원자가 전자 = (2 × 4) + (4 × 1) + (2 × 6) = 24개, 즉 12쌍이에요. 공유 전자쌍 8개와 비공유 전자쌍 4개(산소 원자마다 2개)가 있어요. 8 + 4 = 12.</p>",
     },
 
     // ── s2-2-q006 · multi · exam · SL · Structure 2.2.1 · 1 mark
     "s2-2-q006": {
       // EN: <p>In which of these molecules does the <strong>central atom</strong> have fewer than 8 electrons in its valence shell? Select all that apply.</p>
-      stem: "",
+      stem: "<p>다음 분자 중 <strong>중심 원자</strong>의 원자가 껍질에 전자가 8개보다 적은 것은 무엇인가요? 해당하는 것을 모두 고르세요.</p>",
       options: [
         // EN: <span class="chem">BeCl2</span>
-        "",
+        "<span class=\"chem\">BeCl2</span>",
         // EN: <span class="chem">BF3</span>
-        "",
+        "<span class=\"chem\">BF3</span>",
         // EN: <span class="chem">NH3</span>
-        "",
+        "<span class=\"chem\">NH3</span>",
         // EN: <span class="chem">CCl4</span>
-        "",
+        "<span class=\"chem\">CCl4</span>",
         // EN: <span class="chem">PCl3</span>
-        "",
+        "<span class=\"chem\">PCl3</span>",
       ],
       hints: [
         // EN: Find the group of each central atom. That tells you its number of valence electrons.
-        "",
+        "각 중심 원자의 족을 찾아보세요. 족을 보면 원자가 전자 수를 알 수 있어요.",
         // EN: Beryllium has 2 valence electrons and boron has 3. How many bonds can each form, and are any lone pairs left?
-        "",
+        "베릴륨은 원자가 전자가 2개, 붕소는 3개예요. 각각 결합을 몇 개 만들 수 있고, 남는 비공유 전자쌍이 있을까요?",
       ],
       // EN: <p><strong><span class="chem">BeCl2</span></strong>: Be has 2 valence electrons and forms 2 bonds. It has 2 pairs = 4 electrons.</p><p><strong><span class="chem">BF3</span></strong>: B has 3 valence electrons and forms 3 bonds. It has 3 pairs = 6 electrons.</p><p>In <span class="chem">NH3</span>, <span class="chem">CCl4</span> and <span class="chem">PCl3</span> the central atom has four pairs (bonding pairs plus lone pairs), so it has an octet.</p>
-      solution: "",
+      solution: "<p><strong><span class=\"chem\">BeCl2</span></strong>: Be는 원자가 전자 2개로 결합 2개를 만들어요. 2쌍 = 전자 4개예요.</p><p><strong><span class=\"chem\">BF3</span></strong>: B는 원자가 전자 3개로 결합 3개를 만들어요. 3쌍 = 전자 6개예요.</p><p><span class=\"chem\">NH3</span>, <span class=\"chem\">CCl4</span>, <span class=\"chem\">PCl3</span>에서는 중심 원자 주위에 4쌍(공유 전자쌍과 비공유 전자쌍)이 있으므로 옥텟을 이뤄요.</p>",
       misconception: {
         // EN (option C): Nitrogen in <span class="chem">NH3</span> has three bonding pairs and one lone pair. That is 8 electrons. Remember to count the lone pair.
-        "2": "",
+        "2": "<span class=\"chem\">NH3</span>의 질소에는 공유 전자쌍 3개와 비공유 전자쌍 1개가 있어요. 전자 8개예요. 비공유 전자쌍도 세는 것을 잊지 마세요.",
         // EN (option D): Carbon in <span class="chem">CCl4</span> has four bonding pairs. That is 8 electrons.
-        "3": "",
+        "3": "<span class=\"chem\">CCl4</span>의 탄소에는 공유 전자쌍이 4개 있어요. 전자 8개예요.",
         // EN (option E): Phosphorus in <span class="chem">PCl3</span> has three bonding pairs and one lone pair. That is 8 electrons.
-        "4": "",
+        "4": "<span class=\"chem\">PCl3</span>의 인에는 공유 전자쌍 3개와 비공유 전자쌍 1개가 있어요. 전자 8개예요.",
       },
     },
 
     // ── s2-2-q007 · mcq · challenge · SL · Structure 2.2.1 · 1 mark
     "s2-2-q007": {
       // EN: <p>The peroxide ion has the formula <span class="chem">O2^2-</span>. Each oxygen atom in the ion obeys the octet rule.</p><p>Which is the correct Lewis formula of the peroxide ion?</p>
-      stem: "",
+      stem: "<p>과산화 이온의 화학식은 <span class=\"chem\">O2^2-</span>예요. 이온 속 산소 원자는 각각 옥텟 규칙을 따라요.</p><p>과산화 이온의 올바른 루이스 구조식은 무엇인가요?</p>",
       options: [
         // EN: <svg viewBox="-22 -22 108 44" width="108" height="44" role="img" aria-label="Ion with charge 2 minus. O double bond O, two lone pairs on each O" style="vertical-align:middle;max-width:100%"><line x1="9.0" y1="-2.6" x2="35.0" y2="-2.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="9.0" y1="2.6" x2="35.0" y2="2.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="0" y="6" text-anchor="middle" font-size="17" fill="currentColor">O</text><circle cx="-4.2" cy="-13.7" r="1.7" fill="currentColor"/><circle cx="-9.8" cy="-10.5" r="1.7" fill="currentColor"/><circle cx="-9.8" cy="10.5" r="1.7" fill="currentColor"/><circle cx="-4.2" cy="13.7" r="1.7" fill="currentColor"/><text x="44" y="6" text-anchor="middle" font-size="17" fill="currentColor">O</text><circle cx="53.8" cy="-10.5" r="1.7" fill="currentColor"/><circle cx="48.2" cy="-13.7" r="1.7" fill="currentColor"/><circle cx="48.2" cy="13.7" r="1.7" fill="currentColor"/><circle cx="53.8" cy="10.5" r="1.7" fill="currentColor"/><path d="M-14 -20H-19V20H-14M58 -20H63V20H58" fill="none" stroke="currentColor" stroke-width="1.4"/><text x="67" y="-12" font-size="13" fill="currentColor">2−</text></svg>
-        "",
+        "<svg viewBox=\"-22 -22 108 44\" width=\"108\" height=\"44\" role=\"img\" aria-label=\"전하 2−인 이온. O와 O는 이중 결합, 각 O에 비공유 전자쌍 2개\" style=\"vertical-align:middle;max-width:100%\"><line x1=\"9.0\" y1=\"-2.6\" x2=\"35.0\" y2=\"-2.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"9.0\" y1=\"2.6\" x2=\"35.0\" y2=\"2.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">O</text><circle cx=\"-4.2\" cy=\"-13.7\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-9.8\" cy=\"-10.5\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-9.8\" cy=\"10.5\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-4.2\" cy=\"13.7\" r=\"1.7\" fill=\"currentColor\"/><text x=\"44\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">O</text><circle cx=\"53.8\" cy=\"-10.5\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"48.2\" cy=\"-13.7\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"48.2\" cy=\"13.7\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"53.8\" cy=\"10.5\" r=\"1.7\" fill=\"currentColor\"/><path d=\"M-14 -20H-19V20H-14M58 -20H63V20H58\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"67\" y=\"-12\" font-size=\"13\" fill=\"currentColor\">2−</text></svg>",
         // EN: <svg viewBox="-22 -22 108 44" width="108" height="44" role="img" aria-label="Ion with charge 2 minus. O single bond O, two lone pairs on each O" style="vertical-align:middle;max-width:100%"><line x1="9.0" y1="0.0" x2="35.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="0" y="6" text-anchor="middle" font-size="17" fill="currentColor">O</text><circle cx="-4.2" cy="-13.7" r="1.7" fill="currentColor"/><circle cx="-9.8" cy="-10.5" r="1.7" fill="currentColor"/><circle cx="-9.8" cy="10.5" r="1.7" fill="currentColor"/><circle cx="-4.2" cy="13.7" r="1.7" fill="currentColor"/><text x="44" y="6" text-anchor="middle" font-size="17" fill="currentColor">O</text><circle cx="53.8" cy="-10.5" r="1.7" fill="currentColor"/><circle cx="48.2" cy="-13.7" r="1.7" fill="currentColor"/><circle cx="48.2" cy="13.7" r="1.7" fill="currentColor"/><circle cx="53.8" cy="10.5" r="1.7" fill="currentColor"/><path d="M-14 -20H-19V20H-14M58 -20H63V20H58" fill="none" stroke="currentColor" stroke-width="1.4"/><text x="67" y="-12" font-size="13" fill="currentColor">2−</text></svg>
-        "",
+        "<svg viewBox=\"-22 -22 108 44\" width=\"108\" height=\"44\" role=\"img\" aria-label=\"전하 2−인 이온. O와 O는 단일 결합, 각 O에 비공유 전자쌍 2개\" style=\"vertical-align:middle;max-width:100%\"><line x1=\"9.0\" y1=\"0.0\" x2=\"35.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">O</text><circle cx=\"-4.2\" cy=\"-13.7\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-9.8\" cy=\"-10.5\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-9.8\" cy=\"10.5\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-4.2\" cy=\"13.7\" r=\"1.7\" fill=\"currentColor\"/><text x=\"44\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">O</text><circle cx=\"53.8\" cy=\"-10.5\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"48.2\" cy=\"-13.7\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"48.2\" cy=\"13.7\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"53.8\" cy=\"10.5\" r=\"1.7\" fill=\"currentColor\"/><path d=\"M-14 -20H-19V20H-14M58 -20H63V20H58\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"67\" y=\"-12\" font-size=\"13\" fill=\"currentColor\">2−</text></svg>",
         // EN: <svg viewBox="-22 -22 108 44" width="108" height="44" role="img" aria-label="Ion with charge 2 minus. O double bond O, three lone pairs on each O" style="vertical-align:middle;max-width:100%"><line x1="9.0" y1="-2.6" x2="35.0" y2="-2.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="9.0" y1="2.6" x2="35.0" y2="2.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="0" y="6" text-anchor="middle" font-size="17" fill="currentColor">O</text><circle cx="3.2" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="-3.2" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="-14.0" cy="-3.2" r="1.7" fill="currentColor"/><circle cx="-14.0" cy="3.2" r="1.7" fill="currentColor"/><circle cx="-3.2" cy="14.0" r="1.7" fill="currentColor"/><circle cx="3.2" cy="14.0" r="1.7" fill="currentColor"/><text x="44" y="6" text-anchor="middle" font-size="17" fill="currentColor">O</text><circle cx="47.2" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="40.8" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="58.0" cy="3.2" r="1.7" fill="currentColor"/><circle cx="58.0" cy="-3.2" r="1.7" fill="currentColor"/><circle cx="40.8" cy="14.0" r="1.7" fill="currentColor"/><circle cx="47.2" cy="14.0" r="1.7" fill="currentColor"/><path d="M-14 -20H-19V20H-14M58 -20H63V20H58" fill="none" stroke="currentColor" stroke-width="1.4"/><text x="67" y="-12" font-size="13" fill="currentColor">2−</text></svg>
-        "",
+        "<svg viewBox=\"-22 -22 108 44\" width=\"108\" height=\"44\" role=\"img\" aria-label=\"전하 2−인 이온. O와 O는 이중 결합, 각 O에 비공유 전자쌍 3개\" style=\"vertical-align:middle;max-width:100%\"><line x1=\"9.0\" y1=\"-2.6\" x2=\"35.0\" y2=\"-2.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"9.0\" y1=\"2.6\" x2=\"35.0\" y2=\"2.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">O</text><circle cx=\"3.2\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-3.2\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-14.0\" cy=\"-3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-14.0\" cy=\"3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-3.2\" cy=\"14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"3.2\" cy=\"14.0\" r=\"1.7\" fill=\"currentColor\"/><text x=\"44\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">O</text><circle cx=\"47.2\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"40.8\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"58.0\" cy=\"3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"58.0\" cy=\"-3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"40.8\" cy=\"14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"47.2\" cy=\"14.0\" r=\"1.7\" fill=\"currentColor\"/><path d=\"M-14 -20H-19V20H-14M58 -20H63V20H58\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"67\" y=\"-12\" font-size=\"13\" fill=\"currentColor\">2−</text></svg>",
         // EN: <svg viewBox="-22 -22 108 44" width="108" height="44" role="img" aria-label="Ion with charge 2 minus. O single bond O, three lone pairs on each O" style="vertical-align:middle;max-width:100%"><line x1="9.0" y1="0.0" x2="35.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="0" y="6" text-anchor="middle" font-size="17" fill="currentColor">O</text><circle cx="3.2" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="-3.2" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="-14.0" cy="-3.2" r="1.7" fill="currentColor"/><circle cx="-14.0" cy="3.2" r="1.7" fill="currentColor"/><circle cx="-3.2" cy="14.0" r="1.7" fill="currentColor"/><circle cx="3.2" cy="14.0" r="1.7" fill="currentColor"/><text x="44" y="6" text-anchor="middle" font-size="17" fill="currentColor">O</text><circle cx="47.2" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="40.8" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="58.0" cy="3.2" r="1.7" fill="currentColor"/><circle cx="58.0" cy="-3.2" r="1.7" fill="currentColor"/><circle cx="40.8" cy="14.0" r="1.7" fill="currentColor"/><circle cx="47.2" cy="14.0" r="1.7" fill="currentColor"/><path d="M-14 -20H-19V20H-14M58 -20H63V20H58" fill="none" stroke="currentColor" stroke-width="1.4"/><text x="67" y="-12" font-size="13" fill="currentColor">2−</text></svg>
-        "",
+        "<svg viewBox=\"-22 -22 108 44\" width=\"108\" height=\"44\" role=\"img\" aria-label=\"전하 2−인 이온. O와 O는 단일 결합, 각 O에 비공유 전자쌍 3개\" style=\"vertical-align:middle;max-width:100%\"><line x1=\"9.0\" y1=\"0.0\" x2=\"35.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">O</text><circle cx=\"3.2\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-3.2\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-14.0\" cy=\"-3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-14.0\" cy=\"3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-3.2\" cy=\"14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"3.2\" cy=\"14.0\" r=\"1.7\" fill=\"currentColor\"/><text x=\"44\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">O</text><circle cx=\"47.2\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"40.8\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"58.0\" cy=\"3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"58.0\" cy=\"-3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"40.8\" cy=\"14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"47.2\" cy=\"14.0\" r=\"1.7\" fill=\"currentColor\"/><path d=\"M-14 -20H-19V20H-14M58 -20H63V20H58\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"67\" y=\"-12\" font-size=\"13\" fill=\"currentColor\">2−</text></svg>",
       ],
       hints: [
         // EN: Count the valence electrons: 6 from each oxygen atom, plus the electrons for the charge.
-        "",
+        "원자가 전자를 세세요. 산소 원자마다 6개이고, 전하만큼 전자를 더해요.",
         // EN: 14 electrons is 7 pairs. Share them so that each oxygen atom has 4 pairs around it.
-        "",
+        "전자 14개는 7쌍이에요. 산소 원자마다 주위에 4쌍이 오도록 나누어 보세요.",
         // EN: Count the electrons in each drawing: 2 for each line and 2 for each pair of dots.
-        "",
+        "그림마다 전자를 세세요. 선 하나에 2개, 점 한 쌍에 2개예요.",
       ],
       // EN: <div class="worked__math">valence electrons = (2 × 6) + 2 = 14, which is 7 pairs</div><p>With a <strong>single</strong> <span class="chem">O–O</span> bond (1 pair), 6 pairs are left. That is 3 lone pairs on each oxygen atom.</p><p>Check: each O has 1 bonding pair + 3 lone pairs = 8 electrons. The charge 2− must be shown.</p><p>The extra two electrons are why the ion has a single bond, while the <span class="chem">O2</span> molecule has a double bond.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">원자가 전자 = (2 × 6) + 2 = 14, 즉 7쌍</div><p><strong>단일</strong> <span class=\"chem\">O–O</span> 결합(1쌍)을 쓰면 6쌍이 남아요. 산소 원자마다 비공유 전자쌍이 3개씩이에요.</p><p>확인: 각 O에는 공유 전자쌍 1개 + 비공유 전자쌍 3개 = 전자 8개가 있어요. 전하 2−도 꼭 나타내야 해요.</p><p>이온이 단일 결합을 갖고 <span class=\"chem\">O2</span> 분자는 이중 결합을 갖는 것은 바로 이 여분의 전자 2개 때문이에요.</p>",
       misconception: {
         // EN (option A): This drawing has 12 electrons. That is the count for an <span class="chem">O2</span> molecule. The ion has a 2− charge, so it has 2 more electrons: 14 in total.
-        "0": "",
+        "0": "이 그림에는 전자가 12개 있어요. 이것은 <span class=\"chem\">O2</span> 분자의 전자 수예요. 이온은 전하가 2−이므로 전자가 2개 더 많아 모두 14개예요.",
         // EN (option B): This drawing has only 10 electrons, and each oxygen atom has only 6 electrons around it. The ion has 14 valence electrons.
-        "1": "",
+        "1": "이 그림에는 전자가 10개뿐이고, 산소 원자 주위에 전자가 6개씩뿐이에요. 이 이온의 원자가 전자는 14개예요.",
         // EN (option C): This drawing has 16 electrons, and each oxygen atom has 10 electrons around it. The ion has 14 valence electrons.
-        "2": "",
+        "2": "이 그림에는 전자가 16개 있고, 산소 원자 주위에 전자가 10개씩 있어요. 이 이온의 원자가 전자는 14개예요.",
       },
     },
 
     // ── s2-2-q008 · numeric · foundation · SL · Structure 2.2.2 · 1 mark
     "s2-2-q008": {
       // EN: <p>A nitrogen molecule, <span class="chem">N2</span>, contains a triple bond.</p><p>How many <strong>electrons</strong> are shared between the two nitrogen atoms?</p>
-      stem: "",
+      stem: "<p>질소 분자 <span class=\"chem\">N2</span>에는 삼중 결합이 있어요.</p><p>두 질소 원자 사이에 공유된 <strong>전자</strong>는 몇 개인가요?</p>",
       hints: [
         // EN: A triple bond is three shared pairs.
-        "",
+        "삼중 결합은 공유 전자쌍 3개예요.",
         // EN: The question asks for electrons, not pairs.
-        "",
+        "문제는 전자쌍이 아니라 전자의 수를 묻고 있어요.",
       ],
       // EN: <p>Single bond: 1 shared pair. Double bond: 2 shared pairs. Triple bond: 3 shared pairs.</p><div class="worked__math">3 pairs × 2 electrons = 6 electrons</div><p>Each nitrogen atom also has one lone pair, which is not shared.</p>
-      solution: "",
+      solution: "<p>단일 결합: 공유 전자쌍 1개. 이중 결합: 공유 전자쌍 2개. 삼중 결합: 공유 전자쌍 3개.</p><div class=\"worked__math\">3쌍 × 전자 2개 = 전자 6개</div><p>질소 원자마다 공유되지 않는 비공유 전자쌍도 1개씩 있어요.</p>",
     },
 
     // ── s2-2-q009 · mcq · exam · SL · Structure 2.2.2 · 1 mark
     "s2-2-q009": {
       // EN: <p>Which species has the <strong>shortest</strong> bond between carbon and oxygen?</p>
-      stem: "",
+      stem: "<p>탄소와 산소 사이의 결합이 <strong>가장 짧은</strong> 화학종은 무엇인가요?</p>",
       options: [
         // EN: methanol, <span class="chem">CH3OH</span>
-        "",
+        "methanol, <span class=\"chem\">CH3OH</span>",
         // EN: carbon dioxide, <span class="chem">CO2</span>
-        "",
+        "이산화 탄소, <span class=\"chem\">CO2</span>",
         // EN: carbon monoxide, <span class="chem">CO</span>
-        "",
+        "일산화 탄소, <span class=\"chem\">CO</span>",
         // EN: methoxymethane, <span class="chem">CH3OCH3</span>
-        "",
+        "methoxymethane, <span class=\"chem\">CH3OCH3</span>",
       ],
       hints: [
         // EN: Work out the Lewis formula of each species. How many pairs are shared between C and O?
-        "",
+        "각 화학종의 루이스 구조식을 생각해 봐요. C와 O 사이에 공유된 전자쌍은 몇 개인가요?",
         // EN: More shared pairs pull the two nuclei closer together.
-        "",
+        "공유 전자쌍이 많을수록 두 원자핵이 더 가까이 끌려요.",
         // EN: <span class="chem">CO</span> has 4 + 6 = 10 valence electrons. Both atoms need an octet.
-        "",
+        "<span class=\"chem\">CO</span>의 원자가 전자는 4 + 6 = 10개예요. 두 원자 모두 옥텟이 필요해요.",
       ],
       // EN: <p>Carbon monoxide has 10 valence electrons. The only way to give both atoms an octet is a <strong>triple bond</strong> with one lone pair on each atom.</p><p>Data booklet bond lengths: <span class="chem">C–O</span> 143 pm, <span class="chem">C=O</span> 122 pm, <span class="chem">C≡O</span> 113 pm.</p><p>More shared pairs give a stronger attraction between the nuclei and the shared electrons, so the bond is shorter.</p>
-      solution: "",
+      solution: "<p>일산화 탄소의 원자가 전자는 10개예요. 두 원자 모두 옥텟을 이루는 유일한 방법은 각 원자에 비공유 전자쌍 1개씩이 있는 <strong>삼중 결합</strong>이에요.</p><p>데이터 부클릿의 결합 길이: <span class=\"chem\">C–O</span> 143 pm, <span class=\"chem\">C=O</span> 122 pm, <span class=\"chem\">C≡O</span> 113 pm.</p><p>공유 전자쌍이 많을수록 원자핵과 공유 전자 사이의 인력이 강해지므로 결합이 짧아져요.</p>",
       misconception: {
         // EN (option A): Methanol has a carbon–oxygen single bond (one shared pair). Single bonds are the longest. The booklet value is 143 pm.
-        "0": "",
+        "0": "methanol에는 탄소–산소 단일 결합(공유 전자쌍 1개)이 있어요. 단일 결합이 가장 길어요. 부클릿 값은 143 pm이에요.",
         // EN (option B): <span class="chem">CO2</span> has double bonds (122 pm). They are shorter than single bonds, but one of the other species has three shared pairs.
-        "1": "",
+        "1": "<span class=\"chem\">CO2</span>에는 이중 결합(122 pm)이 있어요. 단일 결합보다 짧지만, 다른 화학종 중에 공유 전자쌍이 3개인 것이 있어요.",
         // EN (option D): Methoxymethane has two carbon–oxygen single bonds. Single bonds are the longest. The booklet value is 143 pm.
-        "3": "",
+        "3": "methoxymethane에는 탄소–산소 단일 결합이 2개 있어요. 단일 결합이 가장 길어요. 부클릿 값은 143 pm이에요.",
       },
     },
 
     // ── s2-2-q010 · short · exam · SL · Structure 2.2.2 · 2 marks
     "s2-2-q010": {
       // EN: <p>The data booklet gives these values.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Carbon–carbon bonds</caption><thead><tr><th scope="col">Bond</th><th scope="col">Length / pm</th><th scope="col">Bond enthalpy / <span class="unit">kJ mol-1</span></th></tr></thead><tbody><tr><th scope="row"><span class="chem">C–C</span></th><td>154</td><td>346</td></tr><tr><th scope="row"><span class="chem">C=C</span></th><td>134</td><td>614</td></tr></tbody></table></div><p>Explain why the <span class="chem">C=C</span> bond is shorter and stronger than the <span class="chem">C–C</span> bond.</p>
-      stem: "",
+      stem: "<p>데이터 부클릿에 다음 값이 있어요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>탄소–탄소 결합</caption><thead><tr><th scope=\"col\">결합</th><th scope=\"col\">길이 / pm</th><th scope=\"col\">결합 엔탈피 / <span class=\"unit\">kJ mol-1</span></th></tr></thead><tbody><tr><th scope=\"row\"><span class=\"chem\">C–C</span></th><td>154</td><td>346</td></tr><tr><th scope=\"row\"><span class=\"chem\">C=C</span></th><td>134</td><td>614</td></tr></tbody></table></div><p><span class=\"chem\">C=C</span> 결합이 <span class=\"chem\">C–C</span> 결합보다 짧고 강한 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: Start with the number of shared pairs in each bond.
-        "",
+        "각 결합의 공유 전자쌍 수부터 생각해 봐요.",
         // EN: A covalent bond is an attraction. What is attracted to what, and why is it stronger here?
-        "",
+        "공유 결합은 인력이에요. 무엇이 무엇을 끌어당기고, 여기서는 왜 더 강할까요?",
       ],
       // EN: <p>A double bond has two shared pairs of electrons. A single bond has one shared pair.</p><p>With more shared electrons between them, the two nuclei are attracted more strongly to the shared electrons. This pulls the nuclei closer together (shorter bond), and more energy is needed to separate them (stronger bond).</p>
-      answer: "",
+      answer: "<p>이중 결합에는 공유 전자쌍이 2개 있어요. 단일 결합에는 공유 전자쌍이 1개 있어요.</p><p>두 원자핵 사이에 공유 전자가 더 많으면 두 원자핵이 공유 전자에 더 강하게 끌려요. 그래서 원자핵이 더 가까워지고(결합이 더 짧음), 떼어 내는 데 에너지가 더 많이 들어요(결합이 더 강함).</p>",
       markscheme: [
         // EN: The double bond has two shared pairs of electrons (four shared electrons) and the single bond has one shared pair. Accept: more shared electrons / greater electron density between the nuclei.
-        "",
+        "이중 결합에는 공유 전자쌍이 2개(공유 전자 4개), 단일 결합에는 공유 전자쌍이 1개 있다. 인정: 공유 전자가 더 많다 / 원자핵 사이의 전자 밀도가 더 크다.",
         // EN: Greater (electrostatic) attraction between the nuclei and the shared electrons (so the nuclei are pulled closer together and more energy is needed to break the bond).
-        "",
+        "원자핵과 공유 전자 사이의 (정전기적) 인력이 더 크다(그래서 원자핵이 더 가까이 끌리고 결합을 끊는 데 에너지가 더 많이 든다).",
       ],
     },
 
     // ── s2-2-q011 · mcq · challenge · SL · Structure 2.2.2 · 1 mark
     "s2-2-q011": {
       // EN: <p>The table shows data booklet values for three carbon–carbon bonds.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Carbon–carbon bonds</caption><thead><tr><th scope="col">Bond</th><th scope="col">Shared pairs</th><th scope="col">Length / pm</th><th scope="col">Bond enthalpy / <span class="unit">kJ mol-1</span></th></tr></thead><tbody><tr><th scope="row"><span class="chem">C–C</span></th><td>1</td><td>154</td><td>346</td></tr><tr><th scope="row"><span class="chem">C=C</span></th><td>2</td><td>134</td><td>614</td></tr><tr><th scope="row"><span class="chem">C≡C</span></th><td>3</td><td>120</td><td>839</td></tr></tbody></table></div><p>Which statement is supported by <strong>all</strong> the data?</p>
-      stem: "",
+      stem: "<p>표는 탄소–탄소 결합 세 가지에 대한 데이터 부클릿 값이에요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>탄소–탄소 결합</caption><thead><tr><th scope=\"col\">결합</th><th scope=\"col\">공유 전자쌍</th><th scope=\"col\">길이 / pm</th><th scope=\"col\">결합 엔탈피 / <span class=\"unit\">kJ mol-1</span></th></tr></thead><tbody><tr><th scope=\"row\"><span class=\"chem\">C–C</span></th><td>1</td><td>154</td><td>346</td></tr><tr><th scope=\"row\"><span class=\"chem\">C=C</span></th><td>2</td><td>134</td><td>614</td></tr><tr><th scope=\"row\"><span class=\"chem\">C≡C</span></th><td>3</td><td>120</td><td>839</td></tr></tbody></table></div><p><strong>모든</strong> 자료가 뒷받침하는 설명은 무엇인가요?</p>",
       options: [
         // EN: Bond enthalpy is directly proportional to the number of shared pairs.
-        "",
+        "결합 엔탈피는 공유 전자쌍의 수에 정비례한다.",
         // EN: Each extra shared pair makes the bond shorter and stronger, but each extra pair adds less strength than the pair before it.
-        "",
+        "공유 전자쌍이 하나 늘 때마다 결합이 짧아지고 강해지지만, 늘어나는 세기는 앞의 전자쌍보다 작아진다.",
         // EN: Longer bonds are stronger bonds.
-        "",
+        "결합이 길수록 결합이 강하다.",
         // EN: The triple bond is the weakest bond because six shared electrons repel each other strongly.
-        "",
+        "공유 전자 6개가 서로 강하게 반발하므로 삼중 결합이 가장 약하다.",
       ],
       hints: [
         // EN: Bond enthalpy is the energy needed to break the bond. A bigger value means a stronger bond.
-        "",
+        "결합 엔탈피는 결합을 끊는 데 필요한 에너지예요. 값이 클수록 결합이 강해요.",
         // EN: Find the increase from single to double, and from double to triple.
-        "",
+        "단일에서 이중으로, 이중에서 삼중으로 늘어난 값을 구해 봐요.",
         // EN: For "directly proportional", doubling the pairs would double the bond enthalpy. Does it?
-        "",
+        "\"정비례\"라면 전자쌍이 2배가 될 때 결합 엔탈피도 2배가 되어야 해요. 그런가요?",
       ],
       // EN: <div class="worked__math">single → double: 614 − 346 = 268 <span class="unit">kJ mol-1</span></div><div class="worked__math">double → triple: 839 − 614 = 225 <span class="unit">kJ mol-1</span></div><p>The first shared pair is worth 346. The second adds 268. The third adds 225. So each extra pair adds less than the one before.</p><p>The lengths fall from 154 to 134 to 120 pm. More shared pairs attract the two nuclei more strongly, so the bond is shorter and stronger.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">단일 → 이중: 614 − 346 = 268 <span class=\"unit\">kJ mol-1</span></div><div class=\"worked__math\">이중 → 삼중: 839 − 614 = 225 <span class=\"unit\">kJ mol-1</span></div><p>첫 번째 공유 전자쌍의 값은 346이에요. 두 번째는 268을 더하고, 세 번째는 225를 더해요. 그러니까 전자쌍이 하나 늘 때마다 더해지는 값이 앞보다 작아요.</p><p>길이는 154에서 134, 120 pm으로 줄어요. 공유 전자쌍이 많을수록 두 원자핵을 더 강하게 끌어당기므로 결합이 짧아지고 강해져요.</p>",
       misconception: {
         // EN (option A): Test it. Twice the single-bond value is 2 × 346 = 692, but the double bond is 614. Three times is 1038, but the triple bond is 839. The bond gets stronger, but not in proportion.
         "0": "",
