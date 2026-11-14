@@ -1026,7 +1026,7 @@
       return '<a class="' + cls + '" href="' + root + href + '"><span class="pager__dir" data-t="' + dir + '"></span><span class="pager__title">' + (num ? '<span data-t="' + esc(num) + '"></span> ' : '') + '<span data-t="' + esc(name) + '"></span></span></a>';
     }
     if (prev) h += link('pager__prev', 'Previous', prev.href, prev.num, prev.short);
-    h += next ? link('pager__next', 'Next', next.href, next.num, next.short) : link('pager__next', 'Next', 'labs.html', '', 'All labs');
+    h += next ? link('pager__next', 'Next', next.href, next.num, next.short) : link('pager__next', 'Next', 'labs.html', '', 'All labs');   // i18n
     mount.classList.add('pager');
     mount.innerHTML = h;
     bindTree(mount);
