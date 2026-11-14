@@ -177,7 +177,7 @@
     },
     {
       id: 'lab-chromatography-q012', topic: 'lab-chromatography', level: 'sl', tier: 'exam', type: 'mcq', marks: 1,
-      syllabus: 'Structure 1.1.1',
+      syllabus: 'Structure 2.2.10',
       stem: '<p>A student takes the paper out of the tank but forgets to mark the solvent front. Ten minutes later the student marks the edge of the wet area. What is the effect on the calculated ' + RF + ' values?</p>',
       options: ['They are too small.', 'They are too large.', 'They are unchanged.', 'Some are too large and some too small.'],
       answer: 1,

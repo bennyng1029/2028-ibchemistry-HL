@@ -265,7 +265,7 @@
         funnel = dissolved * 0.10 * Math.max(0, (sat - 0.9) / 0.1) * rnd(0.7, 1.1);   // crystals that form early in the funnel
         if (undissolved > 0) funnel += undissolved;                                     // undissolved solid stays with the sand
       } else { sandIn = mSand; extraBA = undissolved; }
-      var inSolution = dissolved - (hot.value === 'yes' ? Math.min(funnel, dissolved) : 0);
+      var inSolution = dissolved - (hot.value === 'yes' ? Math.min(funnel - undissolved, dissolved) : 0);   // undissolved solid was never in the solution
       var retained = Math.min(inSolution, solubility(Tf) * V / 100);
       var crystals = Math.max(0, inSolution - retained);
       var rinseLoss = rinse.value === 'warm' ? Math.min(crystals, rnd(0.12, 0.22)) : rinse.value === 'cold' ? Math.min(crystals, rnd(0.01, 0.03)) : 0;
