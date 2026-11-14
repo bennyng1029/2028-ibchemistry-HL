@@ -52,6 +52,28 @@
   /** Topics of one strand: S1.topicsIn('s2'). */
   S1.topicsIn = function (groupId) { return S1.topics.filter(function (t) { return t.group === groupId; }); };
 
+  // Guided virtual practicals (labs/<id>.html). Same page skeleton as a topic page; listed on labs.html, in the
+  // header, on the home page and as "Related labs" on each topic page in `topics`. group: the strand it sits in.
+  // level: 'ahl' = an Additional HL only lab. ready: false = listed as "coming soon" and not a link.
+  S1.labs = [
+    { id: 'lab-separation', group: 's1', ready: true, num: 'Lab 1', sym: 'Sp', short: 'Separating mixtures', title: 'Separating and purifying mixtures', blurb: 'Choose a separation method, purify a solid by recrystallization and test its purity.', topics: ['s1-1'], href: 'labs/lab-separation.html' },
+    { id: 'lab-chromatography', group: 's1', ready: true, num: 'Lab 2', sym: 'Rf', short: 'Chromatography', title: 'Paper and thin-layer chromatography', blurb: 'Run a chromatogram, measure Rf values and explain them with polarity.', topics: ['s1-1', 's2-2'], href: 'labs/lab-chromatography.html' },
+    { id: 'lab-heating-curve', group: 's1', ready: true, num: 'Lab 3', sym: 'Hc', short: 'Heating curves', title: 'Heating and cooling curves', blurb: 'Log temperature against time and explain the flat parts with particles.', topics: ['s1-1'], href: 'labs/lab-heating-curve.html' },
+    { id: 'lab-flame-tests', group: 's1', ready: true, num: 'Lab 4', sym: 'Ft', short: 'Flame tests and spectra', title: 'Flame tests and emission spectra', blurb: 'Identify metal ions by flame colour and read line spectra.', topics: ['s1-3'], href: 'labs/lab-flame-tests.html' },
+    { id: 'lab-empirical-formula', group: 's1', ready: true, num: 'Lab 5', sym: 'Ef', short: 'Empirical formula', title: 'Finding an empirical formula by experiment', blurb: 'Burn magnesium, heat a hydrate, and turn mass data into a formula.', topics: ['s1-4'], href: 'labs/lab-empirical-formula.html' },
+    { id: 'lab-standard-solution', group: 's1', ready: true, num: 'Lab 6', sym: 'Cc', short: 'Standard solutions', title: 'Standard solutions and calibration curves', blurb: 'Make a standard solution, dilute it, and read an unknown off a calibration curve.', topics: ['s1-4'], href: 'labs/lab-standard-solution.html' },
+    { id: 'lab-gas-laws', group: 's1', ready: true, num: 'Lab 7', sym: 'Gl', short: 'Gas laws', title: 'Investigating the gas laws', blurb: 'Change pressure, volume and temperature, plot the data and find absolute zero.', topics: ['s1-5'], href: 'labs/lab-gas-laws.html' },
+    { id: 'lab-molar-mass-gas', group: 's1', ready: true, num: 'Lab 8', sym: 'Mv', short: 'Molar mass of a gas', title: 'Molar volume and the molar mass of a gas', blurb: 'Collect a gas, use pV = nRT, and find a molar mass with its uncertainty.', topics: ['s1-5', 's1-4'], href: 'labs/lab-molar-mass-gas.html' },
+    { id: 'lab-bonding-properties', group: 's2', ready: true, num: 'Lab 9', sym: 'Bp', short: 'Bonding from properties', title: 'Identifying the type of bonding from properties', blurb: 'Test melting point, solubility and conductivity, then classify unknown solids.', topics: ['s2-1', 's2-2', 's2-3', 's2-4'], href: 'labs/lab-bonding-properties.html' },
+    { id: 'lab-periodicity', group: 's3', ready: true, num: 'Lab 10', sym: 'Pt', short: 'Periodic trends', title: 'Periodic trends in the laboratory', blurb: 'Halogen displacement reactions and the acid–base character of period 3 oxides.', topics: ['s3-1'], href: 'labs/lab-periodicity.html' }
+  ];
+  S1.lab = function (id) {
+    for (var i = 0; i < S1.labs.length; i++) if (S1.labs[i].id === id) return S1.labs[i];
+    return null;
+  };
+  /** Published labs that list this topic: S1.labsFor('s1-4'). */
+  S1.labsFor = function (topicId) { return S1.labs.filter(function (l) { return l.ready && l.topics.indexOf(topicId) > -1; }); };
+
   /* ---------- Small utilities -------------------------------------------- */
   var uidN = 0;
   var util = S1.util = {
@@ -539,7 +561,7 @@
 
   /* Labels that CSS draws with ::before: the text comes from data-s1-label so that it can be translated. */
   var CSS_LABELS = [
-    ['.callout--key', 'Key idea'], ['.callout--mistake', 'Common mistake'], ['.callout--exam', 'Exam tip'],   // i18n
+    ['.callout--key', 'Key idea'], ['.callout--mistake', 'Common mistake'], ['.callout--exam', 'Exam tip'], ['.callout--safety', 'Safety'],   // i18n
     ['.callout--scope', 'Not needed for IB'], ['.callout--booklet', 'In your data booklet'],   // i18n
     ['.tryit', 'Try it'], ['.worked__why', 'Why'], ['.worked__answer', 'Answer'], ['.tryit__solution', 'Solution'],   // i18n
     ['.tryit__hints > li, .q__hints > li', 'Hint']   // i18n
@@ -753,7 +775,8 @@
         '</button>' +
         '<ul class="navgroup__menu" id="' + menuId + '" data-t-aria="' + esc(g.title) + '">' + items + '</ul></li>';
     }).join('');
-    var links = groupsHtml + '<li><a class="site-nav__link" href="' + root + 'practice.html"' + (page === 'practice' ? ' aria-current="page"' : '') + ' data-t="Practice"></a></li>';
+    var onLabs = page === 'labs' || !!S1.lab(page);
+    var links = groupsHtml + '<li><a class="site-nav__link" href="' + root + 'labs.html"' + (onLabs ? ' aria-current="page"' : '') + ' data-t="Labs"></a></li>' + '<li><a class="site-nav__link" href="' + root + 'practice.html"' + (page === 'practice' ? ' aria-current="page"' : '') + ' data-t="Practice"></a></li>';
     var langOpts = LANGS.map(function (l) { return '<option value="' + l.id + '" lang="' + l.id + '">' + l.label + '</option>'; }).join('');
     mount.innerHTML =
       '<a class="skip-link" href="#main" data-t="Skip to content"></a>' +
@@ -856,7 +879,8 @@
 
   /* ---------- Tiles, index cells, pager ----------------------------------- */
   function initTile(node) {
-    var tp = S1.topic(node.getAttribute('data-s1-tile') || util.page());
+    var tid = node.getAttribute('data-s1-tile') || util.page();
+    var tp = S1.topic(tid) || S1.lab(tid);
     if (!tp) return;
     off(node);
     node.classList.add('tile');
@@ -864,7 +888,65 @@
     node.setAttribute('role', 'img');
     node.innerHTML = '<span class="tile__num">' + tp.num + (tp.level === 'ahl' ? ' ' + HL_TAG : '') + '</span><span class="tile__sym">' + tp.sym + '</span><span class="tile__name" data-t="' + esc(tp.short) + '"></span>';
     bindTree(node);
-    liveAttr(node, 'aria-label', function () { return t('Topic tile {num}: {name}', { num: tp.num, name: t(tp.short) }); });
+    if (S1.lab(tid)) { node.classList.add('tile--lab'); node.querySelector('.tile__num').setAttribute('data-t', tp.num); bindTree(node); }
+    liveAttr(node, 'aria-label', function () { return t('Topic tile {num}: {name}', { num: S1.lab(tid) ? t(tp.num) : tp.num, name: t(tp.short) }); });
+  }
+
+  /* Lab cards: labs.html and the home page.  data-s1-labs="" (all, by strand) or "s1" | "s2" | "s3". */
+  function initLabCards(mount) {
+    off(mount);
+    var root = util.root(), only = mount.getAttribute('data-s1-labs');
+    var groups = only ? [S1.group(only)].filter(Boolean) : S1.groups;
+    mount.innerHTML = '';
+    groups.forEach(function (g) {
+      var labs = S1.labs.filter(function (l) { return l.group === g.id; });
+      if (!labs.length) return;
+      if (!only) mount.appendChild(el('h3', { class: 'cells-title', html: '<span class="cells-title__num" data-t="' + esc(g.name) + '"></span> <span data-t="' + esc(g.title) + '"></span>' }));
+      var ul = el('ul', { class: 'lab-cards' });
+      labs.forEach(function (lb) {
+        var tps = lb.topics.map(function (id) { var tp = S1.topic(id); return tp ? tp.num : ''; }).filter(Boolean).join(', ');
+        var inner =
+          '<span class="lab-card__top"><span class="lab-card__num" data-t="' + esc(lb.num) + '"></span><span class="cell__pct"></span></span>' +
+          '<span class="lab-card__sym" aria-hidden="true">' + lb.sym + '</span>' +
+          '<span class="lab-card__name" data-t="' + esc(lb.title) + '"></span>' +
+          '<span class="lab-card__blurb" data-t="' + esc(lb.blurb) + '"></span>' +
+          '<span class="lab-card__topics"><span data-t="Topics:"></span> ' + tps + '</span>' +
+          '<span class="meter" aria-hidden="true"><span class="meter__fill"></span></span>';
+        var node = lb.ready
+          ? el('a', { class: 'lab-card', href: root + lb.href, 'data-topic': lb.id, html: inner })
+          : el('span', { class: 'lab-card cell--soon', 'data-topic': lb.id, role: 'group', html: inner });
+        if (lb.level === 'ahl') node.classList.add('cell--ahl');
+        var pct = node.querySelector('.cell__pct');
+        if (lb.ready) live(pct, function () { return S1.progress.summary(lb.id).percent + '%'; });
+        else live(pct, function () { return t('coming soon'); });
+        ul.appendChild(el('li', { 'data-level': lb.level === 'ahl' ? 'ahl' : null }, node));
+      });
+      mount.appendChild(ul);
+    });
+    bindTree(mount);
+    function paint() {
+      Array.prototype.forEach.call(mount.querySelectorAll('a.lab-card'), function (a) {
+        render(a.querySelector('.cell__pct'));
+        a.querySelector('.meter__fill').style.width = S1.progress.summary(a.getAttribute('data-topic')).percent + '%';
+      });
+    }
+    paint();
+    doc.addEventListener('s1:progress', paint);
+    doc.addEventListener('s1:questions', paint);
+  }
+
+  /* On a topic page: a "Related labs" box just above the pager. */
+  function relatedLabs(mount, page) {
+    var labs = S1.labsFor(page), root = util.root();
+    var old = mount.parentNode && mount.parentNode.querySelector('.related-labs');
+    if (old) old.parentNode.removeChild(old);
+    if (!labs.length || !mount.parentNode) return;
+    var box = el('aside', { class: 'related-labs' });
+    box.innerHTML = '<p class="related-labs__label" data-t="Related labs"></p><ul class="related-labs__list">' + labs.map(function (lb) {
+      return '<li><a href="' + root + lb.href + '"><span class="related-labs__sym" aria-hidden="true">' + lb.sym + '</span><span><span class="related-labs__num" data-t="' + esc(lb.num) + '"></span> <span data-t="' + esc(lb.title) + '"></span></span></a></li>';
+    }).join('') + '</ul>';
+    mount.parentNode.insertBefore(box, mount);
+    bindTree(box);
   }
 
   function initCells(mount) {
@@ -914,6 +996,8 @@
 
   function initPager(mount) {
     var root = util.root(), page = util.page(), idx = -1;
+    if (S1.lab(page)) return initLabPager(mount, page);
+    if (S1.topic(page)) relatedLabs(mount, page);
     // Runs across every published topic, in syllabus order (plus the current page, if unpublished).
     var seq = S1.topics.filter(function (tp) { return tp.id === page || (tp.ready && !(tp.level === 'ahl' && S1.level.get() === 'sl')); });
     seq.forEach(function (tp, i) { if (tp.id === page) idx = i; });
@@ -930,6 +1014,24 @@
     bindTree(mount);
     mount.setAttribute('role', 'navigation');
     liveAttr(mount, 'aria-label', function () { return t('Previous and next topic'); });
+  }
+  function initLabPager(mount, page) {
+    var root = util.root(), idx = -1;
+    var seq = S1.labs.filter(function (l) { return l.id === page || (l.ready && !(l.level === 'ahl' && S1.level.get() === 'sl')); });
+    seq.forEach(function (l, i) { if (l.id === page) idx = i; });
+    if (idx < 0) return;
+    off(mount);
+    var prev = seq[idx - 1], next = seq[idx + 1], h = '';
+    function link(cls, dir, href, num, name) {
+      return '<a class="' + cls + '" href="' + root + href + '"><span class="pager__dir" data-t="' + dir + '"></span><span class="pager__title">' + (num ? '<span data-t="' + esc(num) + '"></span> ' : '') + '<span data-t="' + esc(name) + '"></span></span></a>';
+    }
+    if (prev) h += link('pager__prev', 'Previous', prev.href, prev.num, prev.short);
+    h += next ? link('pager__next', 'Next', next.href, next.num, next.short) : link('pager__next', 'Next', 'labs.html', '', 'All labs');
+    mount.classList.add('pager');
+    mount.innerHTML = h;
+    bindTree(mount);
+    mount.setAttribute('role', 'navigation');
+    liveAttr(mount, 'aria-label', function () { return t('Previous and next lab'); });
   }
 
   /* ---------- In-page section nav ----------------------------------------- */
@@ -1537,6 +1639,7 @@
     each(root, '[data-s1-footer]', renderFooter);
     each(root, '[data-s1-tile]', initTile);
     each(root, '[data-s1-topics]', initCells);
+    each(root, '[data-s1-labs]', initLabCards);
     each(root, '[data-s1-pager]', initPager);
     each(root, '[data-s1-checklist]', initChecklist);
     each(root, '[data-s1-worked], .worked', initWorked);
