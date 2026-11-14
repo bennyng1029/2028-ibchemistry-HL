@@ -740,7 +740,7 @@ S1.i18n.register('zh-Hant', 's1-3.q', {
       },
     },
 
-    // ── s1-3-q027 · mcq · exam · AHL · Structure 1.3.5 · 1 mark
+    // ── s1-3-q027 · mcq · exam · AHL · Structure 3.1.9 · 1 mark
     "s1-3-q027": {
       // EN: <p>What is the condensed electron configuration of the <span class="chem">Fe^3+</span> ion? (Iron has Z = 26.)</p>
       stem: "<p><span class=\"chem\">Fe^3+</span> 離子的簡寫電子排佈是甚麼？（鐵的 Z = 26。）</p>",
@@ -972,7 +972,7 @@ S1.i18n.register('zh-Hant', 's1-3.q', {
       solution: "<p>倒過來計算：每摩爾的能量 → 每個原子的能量 → 頻率 → 波長。</p><div class=\"worked__math\">IE = 496 <span class=\"unit\">kJ mol-1</span><br>&nbsp;&nbsp;= 4.96 × 10<sup>5</sup> <span class=\"unit\">J mol-1</span></div><div class=\"worked__math\">一個原子: E<br>&nbsp;&nbsp;= 4.96 × 10<sup>5</sup> <span class=\"unit\">J mol-1</span> ÷ 6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span><br>&nbsp;&nbsp;= 8.239 × 10<sup>−19</sup> J</div><div class=\"worked__math\">f = E ÷ h<br>&nbsp;&nbsp;= (8.239 × 10<sup>−19</sup> J)<br>&nbsp;&nbsp;÷ (6.63 × 10<sup>−34</sup> J s)<br>&nbsp;&nbsp;= 1.243 × 10<sup>15</sup> <span class=\"unit\">s-1</span></div><div class=\"worked__math\">λ = c ÷ f<br>&nbsp;&nbsp;= (3.00 × 10<sup>8</sup> <span class=\"unit\">m s-1</span>)<br>&nbsp;&nbsp;÷ (1.243 × 10<sup>15</sup> <span class=\"unit\">s-1</span>)<br>&nbsp;&nbsp;= 2.41 × 10<sup>−7</sup> m</div><div class=\"worked__math\">λ = 2.41 × 10<sup>−7</sup> m × 10<sup>9</sup> <span class=\"unit\">nm m-1</span><br>&nbsp;&nbsp;= 241 nm</div><p>241 nm 在紫外區。如果忘記把 kJ 換成 J，得出的波長會是正確答案的 1000 倍。</p>",
     },
 
-    // ── s1-3-q038 · mcq · challenge · AHL · Structure 1.3.6 · 2 marks
+    // ── s1-3-q038 · mcq · challenge · AHL · Structure 1.3.6 · 1 mark
     "s1-3-q038": {
       // EN: <p>Ultraviolet radiation of wavelength 200 nm shines on separate samples of gaseous sodium atoms and gaseous magnesium atoms. The first ionization energies are Na 496 <span class="unit">kJ mol-1</span> and Mg 738 <span class="unit">kJ mol-1</span>.</p><p>For which atoms does one photon of this radiation have enough energy to remove an electron from an atom in its ground state?</p>
       stem: "<p>波長 200 nm 的紫外輻射分別照射氣態鈉原子和氣態鎂原子的樣本。第一電離能是 Na 496 <span class=\"unit\">kJ mol-1</span> 和 Mg 738 <span class=\"unit\">kJ mol-1</span>。</p><p>對哪一種原子來說，這種輻射的一個光子有足夠能量，從處於基態的原子移走一個電子？</p>",
@@ -1088,7 +1088,7 @@ S1.i18n.register('zh-Hant', 's1-3.q', {
       },
     },
 
-    // ── s1-3-q043 · mcq · challenge · AHL · Structure 1.3.7 · 2 marks
+    // ── s1-3-q043 · mcq · challenge · AHL · Structure 1.3.7 · 1 mark
     "s1-3-q043": {
       // EN: <p>The table shows successive ionization energies of two elements, X and Y. Both are in period 3.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Successive ionization energies / kJ mol<sup>−1</sup></caption><thead><tr><th scope="col"></th><th class="num" scope="col">1st</th><th class="num" scope="col">2nd</th><th class="num" scope="col">3rd</th><th class="num" scope="col">4th</th><th class="num" scope="col">5th</th><th class="num" scope="col">6th</th><th class="num" scope="col">7th</th><th class="num" scope="col">8th</th></tr></thead><tbody><tr><th scope="row">X</th><td class="num">738</td><td class="num">1451</td><td class="num">7733</td><td class="num">10 543</td><td class="num">13 630</td><td class="num">18 020</td><td class="num">21 711</td><td class="num">25 661</td></tr><tr><th scope="row">Y</th><td class="num">1251</td><td class="num">2298</td><td class="num">3822</td><td class="num">5159</td><td class="num">6542</td><td class="num">9362</td><td class="num">11 018</td><td class="num">33 604</td></tr></tbody></table></div><p>X and Y form an ionic compound. What is its formula?</p>
       stem: "<p>下表列出兩種元素 X 和 Y 的逐級電離能。兩者都在第 3 週期。</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>逐級電離能 / kJ mol<sup>−1</sup></caption><thead><tr><th scope=\"col\"></th><th class=\"num\" scope=\"col\">第 1</th><th class=\"num\" scope=\"col\">第 2</th><th class=\"num\" scope=\"col\">第 3</th><th class=\"num\" scope=\"col\">第 4</th><th class=\"num\" scope=\"col\">第 5</th><th class=\"num\" scope=\"col\">第 6</th><th class=\"num\" scope=\"col\">第 7</th><th class=\"num\" scope=\"col\">第 8</th></tr></thead><tbody><tr><th scope=\"row\">X</th><td class=\"num\">738</td><td class=\"num\">1451</td><td class=\"num\">7733</td><td class=\"num\">10 543</td><td class=\"num\">13 630</td><td class=\"num\">18 020</td><td class=\"num\">21 711</td><td class=\"num\">25 661</td></tr><tr><th scope=\"row\">Y</th><td class=\"num\">1251</td><td class=\"num\">2298</td><td class=\"num\">3822</td><td class=\"num\">5159</td><td class=\"num\">6542</td><td class=\"num\">9362</td><td class=\"num\">11 018</td><td class=\"num\">33 604</td></tr></tbody></table></div><p>X 和 Y 形成一種離子化合物。它的化學式是甚麼？</p>",
@@ -1552,7 +1552,7 @@ S1.i18n.register('zh-Hant', 's1-3.q', {
       },
     },
 
-    // ── s1-3-q059 · mcq · exam · AHL · Structure 1.3.5 · 1 mark
+    // ── s1-3-q059 · mcq · exam · AHL · Structure 3.1.9 · 1 mark
     "s1-3-q059": {
       // EN: <p>What is the condensed electron configuration of the <span class="chem">Cu^2+</span> ion? (Copper has Z = 29.)</p>
       stem: "<p><span class=\"chem\">Cu^2+</span> 離子的簡寫電子排佈是甚麼？（銅的 Z = 29。）</p>",
@@ -1584,7 +1584,7 @@ S1.i18n.register('zh-Hant', 's1-3.q', {
       },
     },
 
-    // ── s1-3-q060 · mcq · challenge · AHL · Structure 1.3.5 · 1 mark
+    // ── s1-3-q060 · mcq · challenge · AHL · Structure 3.1.9 · 1 mark
     "s1-3-q060": {
       // EN: <p>Which pair of ions have the same electron configuration?</p>
       stem: "<p>哪一對離子的電子排佈相同？</p>",
@@ -1636,8 +1636,8 @@ S1.i18n.register('zh-Hant', 's1-3.q', {
         // EN: Check the state symbols and the number of electrons.
         "檢查物態符號和電子數目。",
       ],
-      // EN: <p>The first ionization energy is the energy needed to remove one mole of electrons from one mole of gaseous atoms, forming one mole of gaseous 1+ ions:</p><div class="worked__math"><span class="chem">Mg(g) -> Mg+(g) + e-</span></div><p>Both species must have the state symbol (g).</p>
-      solution: "<p>第一電離能是從一摩爾氣態原子移走一摩爾電子，形成一摩爾氣態 1+ 離子所需的能量：</p><div class=\"worked__math\"><span class=\"chem\">Mg(g) -> Mg+(g) + e-</span></div><p>兩種物種都必須有物態符號 (g)。</p>",
+      // EN: <p>The first ionization energy is the minimum energy needed to remove one mole of electrons from one mole of gaseous atoms in their ground state, forming one mole of gaseous 1+ ions:</p><div class="worked__math"><span class="chem">Mg(g) -> Mg+(g) + e-</span></div><p>Both species must have the state symbol (g).</p>
+      solution: "<p>第一電離能是從一摩爾基態的氣態原子移走一摩爾電子，形成一摩爾氣態 1+ 離子所需的最少能量：</p><div class=\"worked__math\"><span class=\"chem\">Mg(g) -> Mg+(g) + e-</span></div><p>兩種物種都必須有物態符號 (g)。</p>",
       misconception: {
         // EN (option A): Ionization energy is defined for <em>gaseous</em> atoms. Starting from the solid would include the energy needed to turn the solid into separate atoms.
         "0": "電離能的定義是針對<em>氣態</em>原子的。如果由固體開始，就會包括把固體變成獨立原子所需的能量。",

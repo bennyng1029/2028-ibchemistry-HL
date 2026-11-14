@@ -101,12 +101,6 @@ S1.i18n.register('zh-Hant', 's2-2', {
     // Covalent bonds, the octet rule and Lewis formulas > data-def attribute
     "The electrostatic attraction between a shared pair of electrons and the positively charged nuclei.": "共用電子對與帶正電荷的原子核之間的靜電引力。",
 
-    // Covalent bonds, the octet rule and Lewis formulas > p
-    "Covalent bonds usually form between atoms of non-metals. A group of atoms joined by covalent bonds is a <dfn data-def=\"A group of atoms held together by covalent bonds.\">molecule</dfn>.": "共價鍵通常在非金屬原子之間形成。一組以共價鍵連接的原子，就是一個<dfn data-def=\"一組以共價鍵結合在一起的原子。\">分子 <span class=\"en-term\">(molecule)</span></dfn>。",
-
-    // Covalent bonds, the octet rule and Lewis formulas > data-def attribute
-    "A group of atoms held together by covalent bonds.": "一組以共價鍵結合在一起的原子。",
-
     // Covalent bonds, the octet rule and Lewis formulas > exam tip (shown in English + translation) > p
     "“State what a covalent bond is” is a one-mark question. The answer needs three parts: <b>electrostatic attraction</b>, a <b>shared pair of electrons</b>, and the <b>(positively charged) nuclei</b>.": "「寫出共價鍵是甚麼」是 1 分題。答案要有三個部分：<b>靜電引力</b>、<b>共用電子對</b>，以及<b>（帶正電荷的）原子核</b>。",
 
@@ -514,14 +508,8 @@ S1.i18n.register('zh-Hant', 's2-2', {
     // Single, double and triple bonds > widget > data-title attribute
     "Bond length and bond strength": "鍵長和鍵強度",
 
-    // Single, double and triple bonds > p
-    "The <dfn data-def=\"The distance between the nuclei of two bonded atoms.\">bond length</dfn> is the distance between the two nuclei. The <dfn data-def=\"How much energy is needed to break a bond. A stronger bond needs more energy.\">bond strength</dfn> tells you how much energy is needed to break the bond. It is measured as a bond enthalpy.": "<dfn data-def=\"兩個鍵合原子的原子核之間的距離。\">鍵長 <span class=\"en-term\">(bond length)</span></dfn>是兩個原子核之間的距離。<dfn data-def=\"破壞一個鍵需要多少能量。鍵越強，需要的能量越多。\">鍵強度 <span class=\"en-term\">(bond strength)</span></dfn>告訴你破壞這個鍵需要多少能量，以鍵焓 (bond enthalpy) 來量度。",
-
     // Single, double and triple bonds > data-def attribute
     "The distance between the nuclei of two bonded atoms.": "兩個鍵合原子的原子核之間的距離。",
-
-    // Single, double and triple bonds > data-def attribute
-    "How much energy is needed to break a bond. A stronger bond needs more energy.": "破壞一個鍵需要多少能量。鍵越強，需要的能量越多。",
 
     // Single, double and triple bonds > p
     "Think of the shared electrons as glue between the two nuclei. More shared pairs mean more negative charge between the nuclei. Both nuclei are attracted more strongly to it.": "把共用電子想像成兩個原子核之間的膠水。共用電子對越多，原子核之間的負電荷就越多。兩個原子核受到的吸引也越強。",
@@ -590,9 +578,6 @@ S1.i18n.register('zh-Hant', 's2-2', {
 
     // Coordination bonds > p
     "The atom that gives the pair must have a lone pair. The atom that accepts the pair must have room for two more electrons.": "提供電子對的原子必須有孤電子對。接受電子對的原子必須有空位多容納兩個電子。",
-
-    // Coordination bonds > h3
-    "Three examples to know": "要認識的三個例子",
 
     // Coordination bonds > p
     "<b>The ammonium ion.</b> Ammonia has a lone pair on nitrogen. An H<sup>+</sup> ion has no electrons. Nitrogen shares its lone pair with H<sup>+</sup>.": "<b>銨離子。</b>氨的氮上有一個孤電子對。H<sup>+</sup> 離子沒有電子。氮把孤電子對與 H<sup>+</sup> 共用。",
@@ -982,9 +967,6 @@ S1.i18n.register('zh-Hant', 's2-2', {
     // Shapes of molecules: the VSEPR model > exam tip (shown in English + translation) > p
     "“State and explain the shape” is two marks. One is for the name of the shape. The other is for the reason: the number of electron domains, or the number of bonding pairs and lone pairs, around the central atom. For a bent or pyramidal molecule an angle in a sensible range below the ideal value is accepted.": "「寫出並解釋形狀」佔 2 分。1 分給形狀的名稱。另 1 分給原因：中心原子周圍的電子域數目，或鍵合電子對和孤電子對的數目。對於彎曲形或錐體形的分子，只要鍵角在低於理想值的合理範圍內，都可以接受。",
 
-    // Shapes of molecules: the VSEPR model > not needed for IB > p
-    "Shapes with five or six electron domains are Additional HL and are on the <a href=\"s2-2h.html\">HL page</a>. The guide does not list exact angles to memorize. “Less than 109.5°” with the reason is what you must be able to give.": "有五個或六個電子域的形狀屬於 HL 附加內容，在 <a href=\"s2-2h.html\">HL 頁</a>。指南沒有列出要背的準確角度。你要能寫出「小於 109.5°」並說明原因。",
-
     // Shapes of molecules: the VSEPR model > data-title attribute
     "Shapes and bond angles: quick check": "形狀和鍵角：快速小測",
 
@@ -994,12 +976,6 @@ S1.i18n.register('zh-Hant', 's2-2', {
 
     // Bond polarity > p
     "Sharing is not always equal. In a tug of war between a strong team and a weak team, the rope moves towards the strong team. In a bond, the shared electrons move towards the atom that attracts them more.": "共用不一定是平均的。強隊和弱隊拔河，繩子會移向強隊。在化學鍵中，共用電子會移向吸引力較強的原子。",
-
-    // Bond polarity > p
-    "<dfn data-def=\"A measure of how strongly an atom attracts a shared (bonding) pair of electrons in a covalent bond.\">Electronegativity</dfn> measures how strongly an atom attracts a shared pair of electrons. It has no unit. Fluorine has the highest value, 4.0.": "<dfn data-def=\"量度原子吸引共價鍵中共用（鍵合）電子對的能力。\">電負性 <span class=\"en-term\">(electronegativity)</span></dfn>量度原子吸引共用電子對的能力有多強。它沒有單位。氟的數值最高，是 4.0。",
-
-    // Bond polarity > data-def attribute
-    "A measure of how strongly an atom attracts a shared (bonding) pair of electrons in a covalent bond.": "量度原子吸引共價鍵中共用（鍵合）電子對的能力。",
 
     // Bond polarity > table > caption
     "Electronegativity values from the data booklet": "數據手冊中的電負性數值",
@@ -1400,9 +1376,6 @@ S1.i18n.register('zh-Hant', 's2-2', {
 
     // Covalent network structures > h3
     "Fullerenes": "富勒烯",
-
-    // Covalent network structures > p
-    "Fullerenes are closed cages of carbon atoms. The one to know is <span class=\"chem\">C60</span>. Its 60 atoms form a ball of 12 pentagons and 20 hexagons, like a football. Each carbon atom is bonded to three others.": "富勒烯是由碳原子構成的封閉籠狀分子。你要認識的是 <span class=\"chem\">C60</span>。它的 60 個原子組成一個球，有 12 個五邊形和 20 個六邊形，像一個足球。每個碳原子與另外三個碳原子鍵合。",
 
     // Covalent network structures > p
     "<span class=\"chem\">C60</span> is a <em>molecule</em>. It is not a network. Solid <span class=\"chem\">C60</span> is made of separate molecules, held together by weak London (dispersion) forces.": "<span class=\"chem\">C60</span> 是一個<em>分子</em>，不是巨型結構。固態 <span class=\"chem\">C60</span> 由獨立的分子組成，分子之間靠弱的倫敦（色散）力連在一起。",
@@ -1923,9 +1896,6 @@ S1.i18n.register('zh-Hant', 's2-2', {
     // Explaining physical properties > worked example > h3
     "Explaining a boiling-point difference": "解釋沸點的差異",
 
-    // Explaining physical properties > worked example > p
-    "Butane, <span class=\"chem\">CH3CH2CH2CH3</span>, boils at −1 °C. Propanone, <span class=\"chem\">CH3COCH3</span>, boils at 56 °C. Their molar masses are 58.14 and 58.09 <span class=\"unit\">g mol-1</span>. Explain the difference in boiling point.": "丁烷 <span class=\"chem\">CH3CH2CH2CH3</span> 在 −1 °C 沸騰。丙酮 <span class=\"chem\">CH3COCH3</span> 在 56 °C 沸騰。它們的摩爾質量分別是 58.14 和 58.09 <span class=\"unit\">g mol-1</span>。解釋 (explain) 沸點的差異。",
-
     // Explaining physical properties > worked example > data-title attribute
     "Decide whether each molecule is polar": "判斷每種分子是否極性",
 
@@ -2012,9 +1982,6 @@ S1.i18n.register('zh-Hant', 's2-2', {
     "Water molecules are held to each other by hydrogen bonds. A solute that can form hydrogen bonds with water, such as ethanol, mixes in easily.": "水分子之間靠氫鍵互相吸引。能與水形成氫鍵的溶質，例如乙醇，很容易與水混合。",
 
     // Explaining physical properties > li
-    "A non-polar solute, such as hexane, can form only weak London forces with water. These cannot replace the hydrogen bonds between water molecules. So the two liquids stay separate.": "非極性溶質，例如己烷，只能與水形成弱的倫敦力。這些引力不能取代水分子之間的氫鍵。所以兩種液體保持分開。",
-
-    // Explaining physical properties > li
     "As the hydrocarbon chain of an alcohol gets longer, more of the molecule is non-polar. Solubility in water falls. Ethanol mixes completely with water. Octan-1-ol hardly dissolves.": "醇的烴鏈越長，分子中非極性的部分越多。在水中的溶解度下降。乙醇能與水完全混合。辛-1-醇幾乎不溶。",
 
     // Explaining physical properties > li
@@ -2062,9 +2029,6 @@ S1.i18n.register('zh-Hant', 's2-2', {
     // Explaining physical properties > worked example > maths line
     "ethanol and water: <b>hydrogen bonds</b> form between them": "乙醇和水：兩者之間形成<b>氫鍵</b>",
 
-    // Explaining physical properties > worked example > maths line
-    "hexane and water: only weak London (dispersion) forces": "己烷和水：只有弱的倫敦（色散）力",
-
     // Explaining physical properties > worked example > data-title attribute
     "Compare with the forces already present": "與原有的引力比較",
 
@@ -2073,9 +2037,6 @@ S1.i18n.register('zh-Hant', 's2-2', {
 
     // Explaining physical properties > worked example > maths line
     "hexane–water forces are much weaker than water–water hydrogen bonds → hexane does not mix": "己烷–水的引力比水–水的氫鍵弱得多 → 己烷不能與水混合",
-
-    // Explaining physical properties > worked example > p
-    "Ethanol has an O–H group, so it forms hydrogen bonds with water molecules and dissolves. Hexane is non-polar. It forms only London (dispersion) forces with water, which are too weak to replace the hydrogen bonds between water molecules.": "乙醇有 O–H 基，所以能與水分子形成氫鍵而溶解。己烷是非極性的。它與水之間只形成倫敦（色散）力，這種引力太弱，不能取代水分子之間的氫鍵。",
 
     // Explaining physical properties > table > caption
     "Molecular substances and covalent network substances compared": "分子物質與巨型共價物質的比較",
@@ -2391,9 +2352,6 @@ S1.i18n.register('zh-Hant', 's2-2', {
 
     // Linking it up > h3
     "What features of a molecule make it “infrared (IR) active”?": "分子有甚麼特徵，才會有「紅外 (IR) 活性」？",
-
-    // Linking it up > p
-    "HL only (Structure 3.2): a molecule absorbs infrared radiation when a vibration changes its dipole. So bond polarity and molecular geometry, the ideas of section 2.2.6, decide whether a molecule such as <span class=\"chem\">CO2</span> or <span class=\"chem\">H2O</span> absorbs infrared radiation.": "只限 HL (Structure 3.2)：分子的振動如果改變了它的偶極，分子就會吸收紅外輻射。所以鍵的極性和分子形狀（即 2.2.6 節的概念），決定了像 <span class=\"chem\">CO2</span> 或 <span class=\"chem\">H2O</span> 這樣的分子會不會吸收紅外輻射。",
 
     // Exam-style practice > data-toc attribute
     // Exam-style practice > h2
@@ -3262,6 +3220,55 @@ S1.i18n.register('zh-Hant', 's2-2', {
 
     // widget string (assets/js/widgets-s2-2.js)
     "Model data, not a real experiment. Shaded area: solvent.": "模型數據，並非真實實驗。陰影部分：溶劑。",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('zh-Hant', 's2-2', {
+  strings: {
+
+    // Covalent bonds, the octet rule and Lewis formulas > p
+    "Covalent bonds usually form between atoms of non-metals. A discrete, electrically neutral group of atoms joined by covalent bonds is a <dfn data-def=\"A discrete, electrically neutral group of atoms held together by covalent bonds. A covalent network, such as diamond, is not made of molecules.\">molecule</dfn>.": "共價鍵通常在非金屬原子之間形成。一組以共價鍵連接、獨立而電中性的原子，就是一個<dfn data-def=\"一組以共價鍵結合在一起、獨立而電中性的原子。巨型共價結構（例如金剛石）不是由分子構成的。\">分子 <span class=\"en-term\">(molecule)</span></dfn>。",
+
+    // Covalent bonds, the octet rule and Lewis formulas > data-def attribute
+    "A discrete, electrically neutral group of atoms held together by covalent bonds. A covalent network, such as diamond, is not made of molecules.": "一組以共價鍵結合在一起、獨立而電中性的原子。巨型共價結構（例如金剛石）不是由分子構成的。",
+
+    // Single, double and triple bonds > p
+    "The <dfn data-def=\"The distance between the nuclei of two bonded atoms.\">bond length</dfn> is the distance between the two nuclei. The <dfn data-def=\"How much energy is needed to break a bond. It is measured as the bond enthalpy: the energy needed to break one mole of the bond in gaseous molecules. A stronger bond needs more energy.\">bond strength</dfn> tells you how much energy is needed to break the bond. It is measured as a bond enthalpy.": "<dfn data-def=\"兩個鍵合原子的原子核之間的距離。\">鍵長 <span class=\"en-term\">(bond length)</span></dfn>是兩個原子核之間的距離。<dfn data-def=\"破壞一個鍵需要多少能量。它以鍵焓來量度：在氣態分子中破壞一摩爾這種鍵所需的能量。鍵越強，需要的能量越多。\">鍵強度 <span class=\"en-term\">(bond strength)</span></dfn>告訴你破壞這個鍵需要多少能量，以鍵焓 (bond enthalpy) 來量度。",
+
+    // Single, double and triple bonds > data-def attribute
+    "How much energy is needed to break a bond. It is measured as the bond enthalpy: the energy needed to break one mole of the bond in gaseous molecules. A stronger bond needs more energy.": "破壞一個鍵需要多少能量。它以鍵焓來量度：在氣態分子中破壞一摩爾這種鍵所需的能量。鍵越強，需要的能量越多。",
+
+    // Coordination bonds > h3
+    "Three common examples": "三個常見例子",
+
+    // Shapes of molecules: the VSEPR model > not needed for IB > p
+    "Shapes with five or six electron domains are Additional HL and are on the <a href=\"s2-2h.html\">HL page</a>. The guide does not list exact angles to memorize.": "有五個或六個電子域的形狀屬於 HL 附加內容，在 <a href=\"s2-2h.html\">HL 頁</a>。指南沒有列出要背的準確角度。",
+
+    // Bond polarity > p
+    "<dfn data-def=\"The relative ability of an atom to attract a shared (bonding) pair of electrons in a covalent bond.\">Electronegativity</dfn> measures how strongly an atom attracts a shared pair of electrons. It has no unit. Fluorine has the highest value, 4.0.": "<dfn data-def=\"原子在共價鍵中吸引共用（鍵合）電子對的相對能力。\">電負性 <span class=\"en-term\">(electronegativity)</span></dfn>量度原子吸引共用電子對的能力有多強。它沒有單位。氟的數值最高，是 4.0。",
+
+    // Bond polarity > data-def attribute
+    "The relative ability of an atom to attract a shared (bonding) pair of electrons in a covalent bond.": "原子在共價鍵中吸引共用（鍵合）電子對的相對能力。",
+
+    // Covalent network structures > p
+    "Fullerenes are closed cages of carbon atoms. The usual example is <span class=\"chem\">C60</span>. Its 60 atoms form a ball of 12 pentagons and 20 hexagons, like a football. Each carbon atom is bonded to three others.": "富勒烯是由碳原子構成的封閉籠狀分子。常見的例子是 <span class=\"chem\">C60</span>。它的 60 個原子組成一個球，有 12 個五邊形和 20 個六邊形，像一個足球。每個碳原子與另外三個碳原子鍵合。",
+
+    // Explaining physical properties > worked example > p
+    "Butane, <span class=\"chem\">CH3CH2CH2CH3</span>, boils at 0 °C. Propanone, <span class=\"chem\">CH3COCH3</span>, boils at 56 °C. Their molar masses are 58.14 and 58.09 <span class=\"unit\">g mol-1</span>. Explain the difference in boiling point.": "丁烷 <span class=\"chem\">CH3CH2CH2CH3</span> 在 0 °C 沸騰。丙酮 <span class=\"chem\">CH3COCH3</span> 在 56 °C 沸騰。它們的摩爾質量分別是 58.14 和 58.09 <span class=\"unit\">g mol-1</span>。解釋 (explain) 沸點的差異。",
+
+    // Explaining physical properties > li
+    "A non-polar solute, such as hexane, can form only weak London (dispersion) and dipole–induced dipole forces with water. These cannot replace the hydrogen bonds between water molecules. So the two liquids stay separate.": "非極性溶質，例如己烷，只能與水形成弱的倫敦（色散）力和偶極－誘發偶極引力。這些引力不能取代水分子之間的氫鍵。所以兩種液體保持分開。",
+
+    // Explaining physical properties > worked example > maths line
+    "hexane and water: only weak London (dispersion) and dipole–induced dipole forces": "己烷和水：只有弱的倫敦（色散）力和偶極－誘發偶極引力",
+
+    // Explaining physical properties > worked example > p
+    "Ethanol has an O–H group, so it forms hydrogen bonds with water molecules and dissolves. Hexane is non-polar. It forms only London (dispersion) and dipole–induced dipole forces with water, which are too weak to replace the hydrogen bonds between water molecules.": "乙醇有 O–H 基，所以能與水分子形成氫鍵而溶解。己烷是非極性的。它與水之間只形成倫敦（色散）力和偶極－誘發偶極引力，這些引力太弱，不能取代水分子之間的氫鍵。",
+
+    // Linking it up > Additional HL > p
+    "Structure 3.2: a molecule absorbs infrared radiation when a vibration changes its dipole. So bond polarity and molecular geometry, the ideas of section 2.2.6, decide whether a molecule such as <span class=\"chem\">CO2</span> or <span class=\"chem\">H2O</span> absorbs infrared radiation.": "Structure 3.2：分子的振動如果改變了它的偶極，分子就會吸收紅外輻射。所以鍵的極性和分子形狀（即 2.2.6 節的概念），決定了像 <span class=\"chem\">CO2</span> 或 <span class=\"chem\">H2O</span> 這樣的分子會不會吸收紅外輻射。",
 
   }
 });

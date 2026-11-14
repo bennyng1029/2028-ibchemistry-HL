@@ -318,9 +318,6 @@ S1.i18n.register('zh-Hant', 's3-2h', {
     // Chiral carbon atoms and enantiomers > worked example > h3
     "Find the chiral carbon and draw both enantiomers": "找出手性碳並畫出兩種對映異構體",
 
-    // Chiral carbon atoms and enantiomers > worked example > p
-    "Identify the chiral carbon atom in 2-chlorobutane, <span class=\"chem\">CH3CHClCH2CH3</span>. Draw the two enantiomers.": "辨認 (identify) 2-chlorobutane <span class=\"chem\">CH3CHClCH2CH3</span> 中的手性碳原子。繪畫 (draw) 兩種對映異構體。",
-
     // Chiral carbon atoms and enantiomers > worked example > data-title attribute
     "Remove the carbons that cannot be chiral": "剔除不可能是手性的碳原子",
 
@@ -823,9 +820,6 @@ S1.i18n.register('zh-Hant', 's3-2h', {
 
     // Infrared spectroscopy > h3
     "Infrared radiation and greenhouse gases": "紅外輻射和溫室氣體",
-
-    // Infrared spectroscopy > p
-    "The surface of the Earth gives out infrared radiation. Greenhouse gases such as carbon dioxide, water vapour and methane absorb some of it, because their bonds vibrate at infrared frequencies.": "地球表面會放出紅外輻射。二氧化碳、水蒸氣和甲烷等溫室氣體會吸收其中一部分，因為它們的鍵以紅外頻率振動。",
 
     // Infrared spectroscopy > p
     "The molecules then give the energy out again in all directions. Some of it returns to the surface. This keeps the lower atmosphere warmer.": "然後這些分子把能量向各個方向再放出。其中一部分回到地面。這令低層大氣保持較暖。",
@@ -2781,6 +2775,19 @@ S1.i18n.register('zh-Hant', 's3-2h', {
 
     // widget string (assets/js/widgets-s3-2h.js)
     "Correct. The deduction is in your notebook.": "正確。推論已記在你的筆記裏。",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('zh-Hant', 's3-2h', {
+  strings: {
+
+    // Chiral carbon atoms and enantiomers > worked example > p
+    "Deduce which carbon atom is chiral in 2-chlorobutane, <span class=\"chem\">CH3CHClCH2CH3</span>. Draw the two enantiomers.": "推斷 (deduce) 2-chlorobutane <span class=\"chem\">CH3CHClCH2CH3</span> 中哪一個碳原子是手性碳原子。繪畫 (draw) 兩種對映異構體。",
+
+    // Infrared spectroscopy > p
+    "The surface of the Earth gives out infrared radiation. Greenhouse gases such as carbon dioxide, water vapour and methane absorb some of it, because they have polar bonds whose vibrations change the dipole of the molecule, and these vibrations absorb infrared radiation.": "地球表面會放出紅外輻射。二氧化碳、水蒸氣和甲烷等溫室氣體會吸收其中一部分，因為它們有極性鍵，這些鍵的振動會改變分子的偶極，而這些振動會吸收紅外輻射。",
 
   }
 });

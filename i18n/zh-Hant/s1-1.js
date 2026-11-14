@@ -1094,9 +1094,6 @@ S1.i18n.register('zh-Hant', 's1-1', {
     // Linking it up > h3
     "Why are alloys generally considered to be mixtures, even though they often contain metallic bonding?": "合金通常含有金屬鍵，為甚麼一般仍被視為混合物？",
 
-    // Linking it up > p
-    "An alloy does not have a fixed ratio of elements. Brass can be made with different proportions of copper and zinc. A compound always has a fixed ratio. The full picture of bonding in alloys comes in Structure 2.3.": "合金中各元素的比例並不固定。黃銅可以用不同比例的銅和鋅製成。化合物的比例卻一定是固定的。合金中鍵合的詳情會在 Structure 2.3 學到。",
-
     // Linking it up > h3
     "Why are some changes of state endothermic and some exothermic?": "為甚麼有些物態變化是吸熱的，有些是放熱的？",
 
@@ -1834,6 +1831,16 @@ S1.i18n.register('zh-Hant', 's1-1', {
 
     // widget string (assets/js/widgets-s1-1.js)
     "melting|curve": "熔化",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('zh-Hant', 's1-1', {
+  strings: {
+
+    // Linking it up > p
+    "An alloy does not have a fixed ratio of elements. Brass can be made with different proportions of copper and zinc. A compound always has a fixed ratio. Metallic bonding is explained in Structure 2.3, and alloys in Structure 2.4.": "合金中各元素的比例並不固定。黃銅可以用不同比例的銅和鋅製成。化合物的比例卻一定是固定的。金屬鍵會在 Structure 2.3 解釋，合金則在 Structure 2.4。",
 
   }
 });

@@ -1502,9 +1502,6 @@ S1.i18n.register('zh-Hant', 's3-1', {
     "Variable oxidation state": "可變氧化態",
 
     // Properties of transition elements > table > Additional HL > td
-    "One element forms ions with different charges, such as <span class=\"chem\">Fe^2+</span> and <span class=\"chem\">Fe^3+</span>.": "同一種元素形成不同電荷的離子，例如 <span class=\"chem\">Fe^2+</span> 和 <span class=\"chem\">Fe^3+</span>。",
-
-    // Properties of transition elements > table > Additional HL > td
     "next section": "下一節",
 
     // Properties of transition elements > table > Additional HL > th
@@ -3066,6 +3063,25 @@ S1.i18n.register('zh-Hant', 's3-1', {
 
     // widget string (assets/js/widgets-s3-1.js)
     "{class}; {family}": "{class}；{family}",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('zh-Hant', 's3-1', {
+  strings: {
+
+    // Trends down group 1 and group 17 > p
+    "Why? A halogen atom reacts by gaining one electron. Going down the group, the outer energy level is further from the nucleus and more shielded by inner electrons, so an extra electron is attracted less strongly. Chlorine gains an electron most easily and iodine least easily.": "為甚麼？鹵素原子靠獲得一個電子來反應。沿族向下，最外層能級離原子核更遠，受到內層電子更多屏蔽，所以額外的電子受到的吸引較弱。氯最容易獲得電子，碘最難。",
+
+    // Trends down group 1 and group 17 > p
+    "The equations are ionic equations. The metal ion in the halide solution does not take part:": "這些方程式是離子方程式。鹵化物溶液中的金屬離子沒有參與反應：",
+
+    // Trends down group 1 and group 17 > p
+    "Iodine does not displace chloride or bromide ions.": "碘不能置換氯離子或溴離子。",
+
+    // Properties of transition elements > table > Additional HL > td
+    "One element has more than one oxidation state in its compounds, such as +2 and +3 for iron (<span class=\"chem\">Fe^2+</span> and <span class=\"chem\">Fe^3+</span>).": "同一種元素在其化合物中有多於一個氧化態，例如鐵有 +2 和 +3（<span class=\"chem\">Fe^2+</span> 和 <span class=\"chem\">Fe^3+</span>）。",
 
   }
 });

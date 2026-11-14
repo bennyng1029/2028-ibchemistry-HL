@@ -265,8 +265,8 @@ S1.i18n.register('zh-Hant', 's2-2.q', {
         "三鍵是最弱的鍵，因為六個共用電子互相強烈排斥。",
       ],
       hints: [
-        // EN: Bond enthalpy is the energy needed to break the bond. A bigger value means a stronger bond.
-        "鍵焓 (bond enthalpy) 是斷鍵所需的能量。數值越大，鍵越強。",
+        // EN: Bond enthalpy is the energy needed to break one mole of the bond in gaseous molecules. A bigger value means a stronger bond.
+        "鍵焓 (bond enthalpy) 是在氣態分子中斷開一摩爾這種鍵所需的能量。數值越大，鍵越強。",
         // EN: Find the increase from single to double, and from double to triple.
         "找出由單鍵到雙鍵、以及由雙鍵到三鍵的增幅。",
         // EN: For "directly proportional", doubling the pairs would double the bond enthalpy. Does it?
@@ -1137,8 +1137,8 @@ S1.i18n.register('zh-Hant', 's2-2.q', {
         "0": "偶極－偶極引力需要兩個極性分子。氬原子沒有永久偶極。",
         // EN (option C): Hydrogen bonding needs an N, O or F atom on the other particle. Argon is not one of these.
         "2": "氫鍵需要另一個粒子上有 N、O 或 F 原子。氬不是其中之一。",
-        // EN (option D): Ionic bonding is the attraction between oppositely charged ions. Argon atoms and water molecules are not ions.
-        "3": "離子鍵是帶相反電荷的離子之間的引力。氬原子和水分子都不是離子。",
+        // EN (option D): Ionic bonding is the electrostatic attraction between oppositely charged ions. Argon atoms and water molecules are not ions.
+        "3": "離子鍵是帶相反電荷的離子之間的靜電引力。氬原子和水分子都不是離子。",
       },
     },
 
