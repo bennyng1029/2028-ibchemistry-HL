@@ -6,690 +6,690 @@ S1.i18n.register('ko', 's2-1', {
   strings: {
 
     // page title (browser tab)
-    "2.1 The ionic model | Structure Lab": "",
+    "2.1 The ionic model | Structure Lab": "2.1 이온 모형 | Structure Lab",
 
     // The ionic model > page header > p
-    "Structure 2.1": "",
+    "Structure 2.1": "Structure 2.1",
 
     // The ionic model > page header > h1
-    "The ionic model": "",
+    "The ionic model": "이온 모형",
 
     // The ionic model > page header > span
-    "What determines the ionic nature and properties of a compound?": "",
+    "What determines the ionic nature and properties of a compound?": "화합물의 이온성과 성질은 무엇으로 정해질까요?",
 
     // What you need to be able to do > h2
-    "What you need to be able to do": "",
+    "What you need to be able to do": "할 수 있어야 하는 것",
 
     // What you need to be able to do > p
-    "Tick each one when you can do it without looking at your notes. Everything on this page is for both SL and HL. Structure 2.1 has no Additional HL content.": "",
+    "Tick each one when you can do it without looking at your notes. Everything on this page is for both SL and HL. Structure 2.1 has no Additional HL content.": "노트를 보지 않고 할 수 있게 되면 하나씩 체크하세요. 이 페이지의 내용은 모두 SL과 HL 공통이에요. Structure 2.1에는 AHL(HL 추가 내용)이 없어요.",
 
     // What you need to be able to do > checklist > span
-    "Describe how metal atoms form cations by losing electrons and how non-metal atoms form anions by gaining electrons.": "",
+    "Describe how metal atoms form cations by losing electrons and how non-metal atoms form anions by gaining electrons.": "금속 원자가 전자를 잃어 양이온이 되고, 비금속 원자가 전자를 얻어 음이온이 되는 과정을 서술하기.",
 
     // What you need to be able to do > checklist > span
-    "Predict the charge of an ion from the electron configuration of the atom.": "",
+    "Predict the charge of an ion from the electron configuration of the atom.": "원자의 전자 배치로부터 이온의 전하를 예측하기.",
 
     // What you need to be able to do > checklist > span
-    "Recall that a transition element can form ions with different charges.": "",
+    "Recall that a transition element can form ions with different charges.": "전이 원소는 전하가 서로 다른 여러 이온을 만들 수 있다는 것을 기억하기.",
 
     // What you need to be able to do > checklist > span
-    "State that an ionic bond is the electrostatic attraction between oppositely charged ions, and say when ionic bonding is expected.": "",
+    "State that an ionic bond is the electrostatic attraction between oppositely charged ions, and say when ionic bonding is expected.": "이온 결합은 반대 전하를 띤 이온 사이의 정전기적 인력이라고 쓰고, 언제 이온 결합이 생길지 말하기.",
 
     // What you need to be able to do > checklist > span
-    "Recall the names and formulas of the seven polyatomic ions in the guide.": "",
+    "Recall the names and formulas of the seven polyatomic ions in the guide.": "교수요목에 나오는 다원자 이온 7가지의 이름과 화학식을 기억하기.",
 
     // What you need to be able to do > checklist > span
-    "Deduce the formula of an ionic compound from its ions, including polyatomic ions.": "",
+    "Deduce the formula of an ionic compound from its ions, including polyatomic ions.": "다원자 이온을 포함하여, 이온들로부터 이온 결합 화합물의 화학식을 추론하기.",
 
     // What you need to be able to do > checklist > span
-    "Change the name of an ionic compound into its formula, and the formula into its name.": "",
+    "Change the name of an ionic compound into its formula, and the formula into its name.": "이온 결합 화합물의 이름을 화학식으로, 화학식을 이름으로 바꾸기.",
 
     // What you need to be able to do > checklist > span
-    "Describe an ionic compound as a three-dimensional lattice of ions, represented by an empirical formula.": "",
+    "Describe an ionic compound as a three-dimensional lattice of ions, represented by an empirical formula.": "이온 결합 화합물을 실험식으로 나타내는 3차원 이온 격자로 서술하기.",
 
     // What you need to be able to do > checklist > span
-    "Explain the volatility, electrical conductivity and solubility of ionic compounds.": "",
+    "Explain the volatility, electrical conductivity and solubility of ionic compounds.": "이온 결합 화합물의 휘발성, 전기 전도성, 용해도를 설명하기.",
 
     // What you need to be able to do > checklist > span
-    "Use lattice enthalpy as a measure of the strength of ionic bonding, and compare compounds using ion charge and ionic radius.": "",
+    "Use lattice enthalpy as a measure of the strength of ionic bonding, and compare compounds using ion charge and ionic radius.": "격자 엔탈피를 이온 결합 세기의 척도로 쓰고, 이온의 전하와 이온 반지름으로 화합물을 비교하기.",
 
     // How atoms become ions > data-toc attribute
-    "How ions form": "",
+    "How ions form": "이온이 만들어지는 과정",
 
     // How atoms become ions > h2
-    "How atoms become ions": "",
+    "How atoms become ions": "원자가 이온이 되는 과정",
 
     // How atoms become ions > p
-    "Table salt is made from sodium and chlorine. Sodium is a soft metal that reacts violently with water. Chlorine is a poisonous green gas. The salt on your food is safe because it contains neither sodium atoms nor chlorine atoms. It contains <em>ions</em>.": "",
+    "Table salt is made from sodium and chlorine. Sodium is a soft metal that reacts violently with water. Chlorine is a poisonous green gas. The salt on your food is safe because it contains neither sodium atoms nor chlorine atoms. It contains <em>ions</em>.": "식탁에서 쓰는 소금은 나트륨과 염소로 만들어져요. 나트륨은 물과 격렬하게 반응하는 무른 금속이에요. 염소는 독성이 있는 초록색 기체예요. 그런데도 음식에 뿌리는 소금이 안전한 까닭은 나트륨 원자도, 염소 원자도 들어 있지 않기 때문이에요. 소금에는 <em>이온</em>이 들어 있어요.",
 
     // How atoms become ions > p
-    "An <dfn data-def=\"An atom, or a group of atoms, with an overall electric charge.\">ion</dfn> is an atom, or a group of atoms, with an overall electric charge. An atom becomes an ion when it loses or gains electrons. The nucleus does not change.": "",
+    "An <dfn data-def=\"An atom, or a group of atoms, with an overall electric charge.\">ion</dfn> is an atom, or a group of atoms, with an overall electric charge. An atom becomes an ion when it loses or gains electrons. The nucleus does not change.": "<dfn data-def=\"전체적으로 전하를 띤 원자 또는 원자 무리.\">이온 <span class=\"en-term\">(ion)</span></dfn>은 전체적으로 전하를 띤 원자 또는 원자 무리예요. 원자가 전자를 잃거나 얻으면 이온이 돼요. 원자핵은 바뀌지 않아요.",
 
     // How atoms become ions > data-def attribute
-    "An atom, or a group of atoms, with an overall electric charge.": "",
+    "An atom, or a group of atoms, with an overall electric charge.": "전체적으로 전하를 띤 원자 또는 원자 무리.",
 
     // How atoms become ions > li
-    "A metal atom <strong>loses</strong> electrons. It then has more protons than electrons, so it is a positive ion. A positive ion is called a <dfn data-def=\"A positive ion. It forms when an atom loses electrons.\">cation</dfn>.": "",
+    "A metal atom <strong>loses</strong> electrons. It then has more protons than electrons, so it is a positive ion. A positive ion is called a <dfn data-def=\"A positive ion. It forms when an atom loses electrons.\">cation</dfn>.": "금속 원자는 전자를 <strong>잃어요</strong>. 그러면 양성자가 전자보다 많아지므로 양(+)의 이온이 돼요. 양의 이온을 <dfn data-def=\"양의 이온. 원자가 전자를 잃을 때 만들어진다.\">양이온 <span class=\"en-term\">(cation)</span></dfn>이라고 해요.",
 
     // How atoms become ions > data-def attribute
-    "A positive ion. It forms when an atom loses electrons.": "",
+    "A positive ion. It forms when an atom loses electrons.": "양의 이온. 원자가 전자를 잃을 때 만들어진다.",
 
     // How atoms become ions > li
-    "A non-metal atom <strong>gains</strong> electrons. It then has more electrons than protons, so it is a negative ion. A negative ion is called an <dfn data-def=\"A negative ion. It forms when an atom gains electrons.\">anion</dfn>.": "",
+    "A non-metal atom <strong>gains</strong> electrons. It then has more electrons than protons, so it is a negative ion. A negative ion is called an <dfn data-def=\"A negative ion. It forms when an atom gains electrons.\">anion</dfn>.": "비금속 원자는 전자를 <strong>얻어요</strong>. 그러면 전자가 양성자보다 많아지므로 음(−)의 이온이 돼요. 음의 이온을 <dfn data-def=\"음의 이온. 원자가 전자를 얻을 때 만들어진다.\">음이온 <span class=\"en-term\">(anion)</span></dfn>이라고 해요.",
 
     // How atoms become ions > data-def attribute
-    "A negative ion. It forms when an atom gains electrons.": "",
+    "A negative ion. It forms when an atom gains electrons.": "음의 이온. 원자가 전자를 얻을 때 만들어진다.",
 
     // How atoms become ions > key idea > p
-    "Charge on an ion = number of protons − number of electrons. Losing electrons makes the charge positive. Gaining electrons makes the charge negative.": "",
+    "Charge on an ion = number of protons − number of electrons. Losing electrons makes the charge positive. Gaining electrons makes the charge negative.": "이온의 전하 = 양성자 수 − 전자 수. 전자를 잃으면 전하가 양이 되고, 전자를 얻으면 전하가 음이 돼요.",
 
     // How atoms become ions > h3
-    "Predicting the charge from the electron configuration": "",
+    "Predicting the charge from the electron configuration": "전자 배치로 전하 예측하기",
 
     // How atoms become ions > p
-    "Look at the outer shell of the atom. The outer shell is the shell with the highest number in the electron configuration.": "",
+    "Look at the outer shell of the atom. The outer shell is the shell with the highest number in the electron configuration.": "원자의 바깥 껍질을 보세요. 바깥 껍질은 전자 배치에서 숫자가 가장 큰 껍질이에요.",
 
     // How atoms become ions > p
-    "A sodium atom is <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>1</sup></span>. Its outer shell holds one electron. Sodium loses that one electron. The ion <span class=\"chem\">Na+</span> is <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>, the same configuration as the noble gas neon.": "",
+    "A sodium atom is <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>1</sup></span>. Its outer shell holds one electron. Sodium loses that one electron. The ion <span class=\"chem\">Na+</span> is <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>, the same configuration as the noble gas neon.": "나트륨 원자는 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>1</sup></span>이에요. 바깥 껍질에 전자가 하나 있어요. 나트륨은 그 전자 하나를 잃어요. 이온 <span class=\"chem\">Na+</span>은 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>으로, 비활성 기체인 네온과 전자 배치가 같아요.",
 
     // How atoms become ions > p
-    "A chlorine atom is <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>5</sup></span>. Its outer shell holds seven electrons, one fewer than a full s and p set of eight. Chlorine gains one electron. The ion <span class=\"chem\">Cl-</span> is <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></span>, the same configuration as argon.": "",
+    "A chlorine atom is <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>5</sup></span>. Its outer shell holds seven electrons, one fewer than a full s and p set of eight. Chlorine gains one electron. The ion <span class=\"chem\">Cl-</span> is <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></span>, the same configuration as argon.": "염소 원자는 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>5</sup></span>이에요. 바깥 껍질에 전자가 일곱 개 있어서, s와 p를 꽉 채운 여덟 개보다 하나 적어요. 염소는 전자 하나를 얻어요. 이온 <span class=\"chem\">Cl-</span>은 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></span>으로, 아르곤과 전자 배치가 같아요.",
 
     // How atoms become ions > p
-    "This pattern works for the main-group elements. The ion usually has the electron configuration of the nearest noble gas.": "",
+    "This pattern works for the main-group elements. The ion usually has the electron configuration of the nearest noble gas.": "이 규칙은 주족 원소에 잘 맞아요. 이온은 보통 가장 가까운 비활성 기체의 전자 배치를 가져요.",
 
     // How atoms become ions > h4
-    "Method in words": "",
+    "Method in words": "방법 정리",
 
     // How atoms become ions > li
-    "Find the outer shell and count its electrons.": "",
+    "Find the outer shell and count its electrons.": "바깥 껍질을 찾고 그 안의 전자 수를 세요.",
 
     // How atoms become ions > li
-    "One, two or three outer electrons: the atom is usually a metal and loses them all. The charge is 1+, 2+ or 3+.": "",
+    "One, two or three outer electrons: the atom is usually a metal and loses them all. The charge is 1+, 2+ or 3+.": "바깥 전자가 1, 2, 3개: 그 원자는 보통 금속이고, 바깥 전자를 모두 잃어요. 전하는 1+, 2+, 3+예요.",
 
     // How atoms become ions > li
-    "Five, six or seven outer electrons: the atom is usually a non-metal and gains electrons until the outer s and p sublevels hold eight. The charge is 3−, 2− or 1−.": "",
+    "Five, six or seven outer electrons: the atom is usually a non-metal and gains electrons until the outer s and p sublevels hold eight. The charge is 3−, 2− or 1−.": "바깥 전자가 5, 6, 7개: 그 원자는 보통 비금속이고, 바깥 s와 p 부껍질에 전자가 8개가 될 때까지 전자를 얻어요. 전하는 3−, 2−, 1−예요.",
 
     // How atoms become ions > li
-    "Check: protons − electrons must equal the charge.": "",
+    "Check: protons − electrons must equal the charge.": "확인: 양성자 수 − 전자 수가 전하와 같아야 해요.",
 
     // How atoms become ions > table > caption
-    "Usual ion charge for main-group elements": "",
+    "Usual ion charge for main-group elements": "주족 원소의 일반적인 이온 전하",
 
     // How atoms become ions > table > th
-    "Group": "",
+    "Group": "족",
 
     // How atoms become ions > table > th
-    "Outer electrons": "",
+    "Outer electrons": "바깥 전자",
 
     // How atoms become ions > table > th
-    "What the atom does": "",
+    "What the atom does": "원자의 변화",
 
     // How atoms become ions > table > th
-    "Ion charge": "",
+    "Ion charge": "이온 전하",
 
     // How atoms become ions > table > th
-    "Examples": "",
+    "Examples": "예",
 
     // How atoms become ions > table > td
-    "loses 1": "",
+    "loses 1": "1개 잃음",
 
     // How atoms become ions > table > td
-    "loses 2": "",
+    "loses 2": "2개 잃음",
 
     // How atoms become ions > table > th
-    "13 (aluminium)": "",
+    "13 (aluminium)": "13 (알루미늄)",
 
     // How atoms become ions > table > td
-    "loses 3": "",
+    "loses 3": "3개 잃음",
 
     // How atoms become ions > table > td
-    "gains 3": "",
+    "gains 3": "3개 얻음",
 
     // How atoms become ions > table > td
-    "gains 2": "",
+    "gains 2": "2개 얻음",
 
     // How atoms become ions > table > td
-    "gains 1": "",
+    "gains 1": "1개 얻음",
 
     // How atoms become ions > widget > data-title attribute
-    "Ion maker": "",
+    "Ion maker": "이온 만들기",
 
     // How atoms become ions > widget > figcaption
-    "Choose an element and predict what it will do. Then press Form the ion to see which electrons are lost or gained. Each dot is one electron. This is a counting model: it shows how many electrons are in each sublevel, not where they are.": "",
+    "Choose an element and predict what it will do. Then press Form the ion to see which electrons are lost or gained. Each dot is one electron. This is a counting model: it shows how many electrons are in each sublevel, not where they are.": "원소를 고르고, 그 원자가 어떻게 될지 예측해 보세요. 그다음 ‘이온 만들기’를 누르면 어떤 전자를 잃거나 얻는지 볼 수 있어요. 점 하나가 전자 하나예요. 이 그림은 개수를 세는 모형이에요. 각 부껍질에 전자가 몇 개 있는지를 보여 줄 뿐, 전자가 어디에 있는지를 보여 주지는 않아요.",
 
     // How atoms become ions > worked example > h3
-    "Charge from an electron configuration": "",
+    "Charge from an electron configuration": "전자 배치로 전하 구하기",
 
     // How atoms become ions > worked example > p
-    "An atom has the electron configuration <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup></span>. Predict the charge of its ion, and write the electron configuration of the ion.": "",
+    "An atom has the electron configuration <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup></span>. Predict the charge of its ion, and write the electron configuration of the ion.": "어떤 원자의 전자 배치가 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup></span>이에요. 이 원자가 만드는 이온의 전하를 예측하고 (predict), 이온의 전자 배치를 쓰시오 (write).",
 
     // How atoms become ions > worked example > data-title attribute
-    "Find the outer shell": "",
+    "Find the outer shell": "바깥 껍질 찾기",
 
     // How atoms become ions > worked example > p
-    "The outer shell is the one with the highest number. Here it is shell 4.": "",
+    "The outer shell is the one with the highest number. Here it is shell 4.": "바깥 껍질은 숫자가 가장 큰 껍질이에요. 여기서는 4번 껍질이에요.",
 
     // How atoms become ions > worked example > maths line
-    "outer shell: 4s<sup>2</sup>, so 2 outer electrons": "",
+    "outer shell: 4s<sup>2</sup>, so 2 outer electrons": "바깥 껍질: 4s<sup>2</sup>, 따라서 바깥 전자 2개",
 
     // How atoms become ions > worked example > data-title attribute
-    "Decide: lose or gain?": "",
+    "Decide: lose or gain?": "판단: 잃을까, 얻을까?",
 
     // How atoms become ions > worked example > p
-    "Two outer electrons means a metal. Losing 2 electrons takes far less energy than gaining 6.": "",
+    "Two outer electrons means a metal. Losing 2 electrons takes far less energy than gaining 6.": "바깥 전자가 2개이면 금속이에요. 전자 2개를 잃는 것이 6개를 얻는 것보다 에너지가 훨씬 적게 들어요.",
 
     // How atoms become ions > worked example > maths line
-    "the atom loses 2 electrons": "",
+    "the atom loses 2 electrons": "원자는 전자 2개를 잃는다",
 
     // How atoms become ions > worked example > data-title attribute
-    "Work out the charge": "",
+    "Work out the charge": "전하 계산하기",
 
     // How atoms become ions > worked example > p
-    "Add the superscripts to count the electrons in the atom: 2 + 2 + 6 + 2 + 6 + 2 = 20. A neutral atom has the same number of protons.": "",
+    "Add the superscripts to count the electrons in the atom: 2 + 2 + 6 + 2 + 6 + 2 = 20. A neutral atom has the same number of protons.": "위 첨자를 모두 더해 원자의 전자 수를 세요: 2 + 2 + 6 + 2 + 6 + 2 = 20. 중성 원자는 양성자 수도 이와 같아요.",
 
     // How atoms become ions > worked example > maths line
-    "protons = 20, electrons in the ion = 20 − 2 = 18": "",
+    "protons = 20, electrons in the ion = 20 − 2 = 18": "양성자 = 20, 이온의 전자 = 20 − 2 = 18",
 
     // How atoms become ions > worked example > maths line
-    "charge = 20 − 18 = <b>2+</b>": "",
+    "charge = 20 − 18 = <b>2+</b>": "전하 = 20 − 18 = <b>2+</b>",
 
     // How atoms become ions > worked example > data-title attribute
-    "Write the configuration of the ion": "",
+    "Write the configuration of the ion": "이온의 전자 배치 쓰기",
 
     // How atoms become ions > worked example > data-label attribute
     // Formulas and names of ionic compounds > worked example > data-label attribute
     // Lattice enthalpy: how strong is the ionic bonding? > worked example > data-label attribute
     // widget string (assets/js/widgets-s2-1.js)
-    "Check": "",
+    "Check": "확인",
 
     // How atoms become ions > worked example > p
-    "Remove the two 4s electrons. What is left is the configuration of argon, a noble gas.": "",
+    "Remove the two 4s electrons. What is left is the configuration of argon, a noble gas.": "4s 전자 두 개를 빼세요. 남은 것은 비활성 기체인 아르곤의 전자 배치예요.",
 
     // How atoms become ions > worked example > p
-    "The ion has a charge of 2+ and the configuration <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></span>. (The element is calcium, so the ion is <span class=\"chem\">Ca^2+</span>.)": "",
+    "The ion has a charge of 2+ and the configuration <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></span>. (The element is calcium, so the ion is <span class=\"chem\">Ca^2+</span>.)": "이온의 전하는 2+이고, 전자 배치는 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></span>이에요. (이 원소는 칼슘이므로 이온은 <span class=\"chem\">Ca^2+</span>이에요.)",
 
     // How atoms become ions > try it > data-label attribute
-    "Size of the charge": "",
+    "Size of the charge": "전하의 크기",
 
     // How atoms become ions > try it > p
-    "An atom has the electron configuration <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>1</sup></span>. Its ion is positive. What is the size of the charge? Type the number only.": "",
+    "An atom has the electron configuration <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>1</sup></span>. Its ion is positive. What is the size of the charge? Type the number only.": "어떤 원자의 전자 배치가 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>1</sup></span>이에요. 이 원자의 이온은 양이온이에요. 전하의 크기는 얼마일까요? 숫자만 입력하세요.",
 
     // How atoms become ions > try it > li
-    "Which shell is the outer shell? Count all the electrons in it, in both sublevels.": "",
+    "Which shell is the outer shell? Count all the electrons in it, in both sublevels.": "어느 껍질이 바깥 껍질일까요? 두 부껍질에 있는 전자를 모두 세어 보세요.",
 
     // How atoms become ions > try it > li
-    "Shell 3 holds <span class=\"mono\">2 + 1</span> electrons. A metal atom loses all its outer electrons.": "",
+    "Shell 3 holds <span class=\"mono\">2 + 1</span> electrons. A metal atom loses all its outer electrons.": "3번 껍질에는 전자가 <span class=\"mono\">2 + 1</span>개 있어요. 금속 원자는 바깥 전자를 모두 잃어요.",
 
     // How atoms become ions > try it > maths line
-    "outer shell: 3s<sup>2</sup> 3p<sup>1</sup> = 3 electrons, all lost": "",
+    "outer shell: 3s<sup>2</sup> 3p<sup>1</sup> = 3 electrons, all lost": "바깥 껍질: 3s<sup>2</sup> 3p<sup>1</sup> = 전자 3개, 모두 잃음",
 
     // How atoms become ions > try it > maths line
-    "charge = 13 protons − 10 electrons = 3+": "",
+    "charge = 13 protons − 10 electrons = 3+": "전하 = 양성자 13개 − 전자 10개 = 3+",
 
     // How atoms become ions > try it > p
-    "The size of the charge is <strong>3</strong>. The ion is <span class=\"chem\">Al^3+</span>.": "",
+    "The size of the charge is <strong>3</strong>. The ion is <span class=\"chem\">Al^3+</span>.": "전하의 크기는 <strong>3</strong>이에요. 이온은 <span class=\"chem\">Al^3+</span>이에요.",
 
     // How atoms become ions > try it > data-label attribute
-    "Number of electrons": "",
+    "Number of electrons": "전자의 개수",
 
     // How atoms become ions > try it > p
-    "A phosphorus atom is <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>3</sup></span>. How many electrons are in a phosphide ion?": "",
+    "A phosphorus atom is <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>3</sup></span>. How many electrons are in a phosphide ion?": "인 원자는 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>3</sup></span>이에요. 인화 이온에는 전자가 몇 개 있을까요?",
 
     // How atoms become ions > try it > li
-    "Phosphorus is a non-metal with 5 outer electrons. How many more does it need to reach 8?": "",
+    "Phosphorus is a non-metal with 5 outer electrons. How many more does it need to reach 8?": "인은 바깥 전자가 5개인 비금속이에요. 8개가 되려면 몇 개가 더 필요할까요?",
 
     // How atoms become ions > try it > li
-    "The atom has 15 electrons and gains 3: <span class=\"mono\">15 + 3</span>.": "",
+    "The atom has 15 electrons and gains 3: <span class=\"mono\">15 + 3</span>.": "원자에는 전자가 15개 있고, 3개를 얻어요: <span class=\"mono\">15 + 3</span>.",
 
     // How atoms become ions > try it > maths line
-    "outer shell: 3s<sup>2</sup> 3p<sup>3</sup> = 5 electrons, so the atom gains 3": "",
+    "outer shell: 3s<sup>2</sup> 3p<sup>3</sup> = 5 electrons, so the atom gains 3": "바깥 껍질: 3s<sup>2</sup> 3p<sup>3</sup> = 전자 5개, 따라서 원자는 3개를 얻는다",
 
     // How atoms become ions > try it > maths line
-    "electrons = 15 + 3 = 18": "",
+    "electrons = 15 + 3 = 18": "전자 = 15 + 3 = 18",
 
     // How atoms become ions > try it > p
-    "The phosphide ion, <span class=\"chem\">P^3-</span>, has <strong>18</strong> electrons and the same configuration as argon.": "",
+    "The phosphide ion, <span class=\"chem\">P^3-</span>, has <strong>18</strong> electrons and the same configuration as argon.": "인화 이온 <span class=\"chem\">P^3-</span>에는 전자가 <strong>18</strong>개 있고, 아르곤과 전자 배치가 같아요.",
 
     // How atoms become ions > common mistake > p
-    "Gaining electrons does not make an ion positive. Electrons are negative, so an atom that <em>gains</em> two electrons has a charge of 2−. An atom that <em>loses</em> two electrons has a charge of 2+.": "",
+    "Gaining electrons does not make an ion positive. Electrons are negative, so an atom that <em>gains</em> two electrons has a charge of 2−. An atom that <em>loses</em> two electrons has a charge of 2+.": "전자를 얻는다고 이온이 양이 되지는 않아요. 전자는 음전하를 띠므로, 전자 두 개를 <em>얻은</em> 원자의 전하는 2−예요. 전자 두 개를 <em>잃은</em> 원자의 전하는 2+예요.",
 
     // How atoms become ions > h3
-    "Transition elements can form more than one ion": "",
+    "Transition elements can form more than one ion": "전이 원소는 두 가지 이상의 이온을 만들 수 있어요",
 
     // How atoms become ions > p
-    "The table above works for main-group elements. It does not work for the transition elements in the middle of the periodic table. A transition element can form ions with different charges.": "",
+    "The table above works for main-group elements. It does not work for the transition elements in the middle of the periodic table. A transition element can form ions with different charges.": "위의 표는 주족 원소에 맞아요. 주기율표 가운데에 있는 전이 원소에는 맞지 않아요. 전이 원소는 전하가 서로 다른 여러 이온을 만들 수 있어요.",
 
     // How atoms become ions > li
-    "Iron forms <span class=\"chem\">Fe^2+</span> and <span class=\"chem\">Fe^3+</span>.": "",
+    "Iron forms <span class=\"chem\">Fe^2+</span> and <span class=\"chem\">Fe^3+</span>.": "철은 <span class=\"chem\">Fe^2+</span>과 <span class=\"chem\">Fe^3+</span>을 만들어요.",
 
     // How atoms become ions > li
-    "Copper forms <span class=\"chem\">Cu+</span> and <span class=\"chem\">Cu^2+</span>.": "",
+    "Copper forms <span class=\"chem\">Cu+</span> and <span class=\"chem\">Cu^2+</span>.": "구리는 <span class=\"chem\">Cu+</span>와 <span class=\"chem\">Cu^2+</span>을 만들어요.",
 
     // How atoms become ions > p
-    "You cannot predict the charge of a transition element ion from its group number. The question must tell you, usually with a Roman numeral in the name. Iron(III) means <span class=\"chem\">Fe^3+</span>. Try iron, copper and cobalt in the ion maker.": "",
+    "You cannot predict the charge of a transition element ion from its group number. The question must tell you, usually with a Roman numeral in the name. Iron(III) means <span class=\"chem\">Fe^3+</span>. Try iron, copper and cobalt in the ion maker.": "전이 원소 이온의 전하는 족 번호로 예측할 수 없어요. 문제에서 알려 주는데, 보통 이름 속의 로마 숫자로 알려 줘요. 철(III) (iron(III))은 <span class=\"chem\">Fe^3+</span>을 뜻해요. 이온 만들기에서 철, 구리, 코발트를 골라 보세요.",
 
     // How atoms become ions > not needed for IB > data-title attribute
-    "Comes later in Structure 3.1 (HL)": "",
+    "Comes later in Structure 3.1 (HL)": "Structure 3.1 (HL)에서 다시 나와요",
 
     // How atoms become ions > not needed for IB > p
-    "Here you only need to know <em>that</em> a transition element can form ions with different charges. The explanation uses successive ionization energies and is Additional HL content in Structure 3.1.": "",
+    "Here you only need to know <em>that</em> a transition element can form ions with different charges. The explanation uses successive ionization energies and is Additional HL content in Structure 3.1.": "여기서는 전이 원소가 전하가 다른 여러 이온을 만들 수 <em>있다는 사실</em>만 알면 돼요. 그 이유는 순차 이온화 에너지로 설명하며, Structure 3.1의 AHL(HL 추가 내용)이에요.",
 
     // How atoms become ions > exam tip (shown in English + translation) > p
-    "Write the charge with the number first and the sign second: <span class=\"mono\">2+</span> and <span class=\"mono\">3−</span>, not <span class=\"mono\">+2</span> and <span class=\"mono\">−3</span>. For a charge of one, write the sign only: <span class=\"chem\">Na+</span>, <span class=\"chem\">Cl-</span>.": "",
+    "Write the charge with the number first and the sign second: <span class=\"mono\">2+</span> and <span class=\"mono\">3−</span>, not <span class=\"mono\">+2</span> and <span class=\"mono\">−3</span>. For a charge of one, write the sign only: <span class=\"chem\">Na+</span>, <span class=\"chem\">Cl-</span>.": "전하는 숫자를 먼저, 부호를 나중에 써요: <span class=\"mono\">2+</span>, <span class=\"mono\">3−</span>처럼 쓰고, <span class=\"mono\">+2</span>, <span class=\"mono\">−3</span>으로 쓰지 않아요. 전하가 1이면 부호만 써요: <span class=\"chem\">Na+</span>, <span class=\"chem\">Cl-</span>.",
 
     // How atoms become ions > data-title attribute
-    "Forming ions: quick check": "",
+    "Forming ions: quick check": "이온 만들기: 빠른 확인",
 
     // The ionic bond > data-toc attribute
     // The ionic bond > h2
-    "The ionic bond": "",
+    "The ionic bond": "이온 결합",
 
     // The ionic bond > p
-    "Rub a balloon on your hair and it sticks to a wall. Objects with opposite electric charges attract each other. This attraction is called an electrostatic attraction. Ions do the same thing, with far stronger forces.": "",
+    "Rub a balloon on your hair and it sticks to a wall. Objects with opposite electric charges attract each other. This attraction is called an electrostatic attraction. Ions do the same thing, with far stronger forces.": "풍선을 머리카락에 문지르면 벽에 달라붙어요. 반대 전하를 띤 물체는 서로 끌어당겨요. 이 끌림을 정전기적 인력이라고 해요. 이온도 똑같이 행동하는데, 그 힘이 훨씬 강해요.",
 
     // The ionic bond > p
-    "An <dfn data-def=\"The electrostatic attraction between oppositely charged ions.\">ionic bond</dfn> is the electrostatic attraction between oppositely charged ions.": "",
+    "An <dfn data-def=\"The electrostatic attraction between oppositely charged ions.\">ionic bond</dfn> is the electrostatic attraction between oppositely charged ions.": "<dfn data-def=\"반대 전하를 띤 이온 사이의 정전기적 인력.\">이온 결합 <span class=\"en-term\">(ionic bond)</span></dfn>은 반대 전하를 띤 이온 사이의 정전기적 인력이에요.",
 
     // The ionic bond > data-def attribute
-    "The electrostatic attraction between oppositely charged ions.": "",
+    "The electrostatic attraction between oppositely charged ions.": "반대 전하를 띤 이온 사이의 정전기적 인력.",
 
     // The ionic bond > p
-    "When sodium reacts with chlorine, each sodium atom passes one electron to a chlorine atom. This transfer <em>makes</em> the ions <span class=\"chem\">Na+</span> and <span class=\"chem\">Cl-</span>. The bond is what happens next: the positive ions and the negative ions attract each other.": "",
+    "When sodium reacts with chlorine, each sodium atom passes one electron to a chlorine atom. This transfer <em>makes</em> the ions <span class=\"chem\">Na+</span> and <span class=\"chem\">Cl-</span>. The bond is what happens next: the positive ions and the negative ions attract each other.": "나트륨이 염소와 반응하면, 나트륨 원자 하나하나가 전자 하나를 염소 원자에게 넘겨줘요. 이 이동이 이온 <span class=\"chem\">Na+</span>과 <span class=\"chem\">Cl-</span>을 <em>만들어요</em>. 결합은 그다음에 일어나는 일이에요: 양이온과 음이온이 서로 끌어당기는 것이죠.",
 
     // The ionic bond > common mistake > p
-    "“An ionic bond is the transfer of electrons” is not accepted. The transfer of electrons is how the ions form. The bond is the attraction between the ions after they have formed.": "",
+    "“An ionic bond is the transfer of electrons” is not accepted. The transfer of electrons is how the ions form. The bond is the attraction between the ions after they have formed.": "“이온 결합은 전자의 이동이다”라고 쓰면 인정되지 않아요. 전자의 이동은 이온이 만들어지는 방법이에요. 결합은 이온이 만들어진 뒤 이온 사이에 작용하는 인력이에요.",
 
     // The ionic bond > p
-    "The attraction acts in every direction. A sodium ion attracts every chloride ion near it, not one partner. This is why ionic compounds form giant structures and not small molecules. You will see this in the lattice section below.": "",
+    "The attraction acts in every direction. A sodium ion attracts every chloride ion near it, not one partner. This is why ionic compounds form giant structures and not small molecules. You will see this in the lattice section below.": "이 인력은 모든 방향으로 작용해요. 나트륨 이온 하나는 짝 하나가 아니라 주변의 모든 염화 이온을 끌어당겨요. 그래서 이온 결합 화합물은 작은 분자가 아니라 거대한 구조를 만들어요. 아래 격자 부분에서 볼 수 있어요.",
 
     // The ionic bond > exam tip (shown in English + translation) > p
-    "The definition needs three things: “electrostatic attraction”, “between”, and “oppositely charged ions” (or “cations and anions”). An answer without the word electrostatic can lose the mark.": "",
+    "The definition needs three things: “electrostatic attraction”, “between”, and “oppositely charged ions” (or “cations and anions”). An answer without the word electrostatic can lose the mark.": "정의에는 세 가지가 꼭 들어가야 해요: “electrostatic attraction(정전기적 인력)”, “between(사이의)”, “oppositely charged ions(반대 전하를 띤 이온)” (또는 “cations and anions(양이온과 음이온)”). electrostatic이라는 말이 없으면 점수를 잃을 수 있어요.",
 
     // The ionic bond > h3
-    "When should you expect ionic bonding?": "",
+    "When should you expect ionic bonding?": "언제 이온 결합이 생길까요?",
 
     // The ionic bond > p
-    "Ionic bonding is expected between a metal and a non-metal. The metal atoms lose electrons and the non-metal atoms gain them.": "",
+    "Ionic bonding is expected between a metal and a non-metal. The metal atoms lose electrons and the non-metal atoms gain them.": "이온 결합은 금속과 비금속 사이에서 생길 것으로 예상해요. 금속 원자는 전자를 잃고 비금속 원자는 전자를 얻어요.",
 
     // The ionic bond > p
-    "A better test uses electronegativity. <dfn data-def=\"A measure of how strongly an atom attracts the pair of electrons in a covalent bond.\">Electronegativity</dfn> is a measure of how strongly an atom attracts the electrons in a bond. Metals have low values. Non-metals on the right of the periodic table have high values.": "",
+    "A better test uses electronegativity. <dfn data-def=\"A measure of how strongly an atom attracts the pair of electrons in a covalent bond.\">Electronegativity</dfn> is a measure of how strongly an atom attracts the electrons in a bond. Metals have low values. Non-metals on the right of the periodic table have high values.": "전기 음성도를 쓰면 더 정확하게 판단할 수 있어요. <dfn data-def=\"공유 결합에서 원자가 공유 전자쌍을 얼마나 세게 끌어당기는지를 나타내는 척도.\">전기 음성도 <span class=\"en-term\">(electronegativity)</span></dfn>는 원자가 결합 속 전자를 얼마나 세게 끌어당기는지를 나타내는 척도예요. 금속은 값이 작아요. 주기율표 오른쪽의 비금속은 값이 커요.",
 
     // The ionic bond > data-def attribute
-    "A measure of how strongly an atom attracts the pair of electrons in a covalent bond.": "",
+    "A measure of how strongly an atom attracts the pair of electrons in a covalent bond.": "공유 결합에서 원자가 공유 전자쌍을 얼마나 세게 끌어당기는지를 나타내는 척도.",
 
     // The ionic bond > p
-    "If the difference in electronegativity between two elements is large, one atom takes the electrons completely and ions form. Sodium is 0.9 and chlorine is 3.2. The difference is 3.2 − 0.9 = 2.3, which is large, so sodium chloride is ionic.": "",
+    "If the difference in electronegativity between two elements is large, one atom takes the electrons completely and ions form. Sodium is 0.9 and chlorine is 3.2. The difference is 3.2 − 0.9 = 2.3, which is large, so sodium chloride is ionic.": "두 원소의 전기 음성도 차이가 크면, 한 원자가 전자를 완전히 가져가서 이온이 만들어져요. 나트륨은 0.9, 염소는 3.2예요. 차이는 3.2 − 0.9 = 2.3으로 크기 때문에, 염화 나트륨은 이온 결합 화합물이에요.",
 
     // The ionic bond > data booklet note > p
-    "Electronegativity values are in section 9 of the data booklet. Use these values, because older books give slightly different numbers.": "",
+    "Electronegativity values are in section 9 of the data booklet. Use these values, because older books give slightly different numbers.": "전기 음성도 값은 데이터 부클릿 9번 항목에 있어요. 오래된 책은 조금 다른 숫자를 쓰기도 하니, 이 값을 쓰세요.",
 
     // The ionic bond > p
-    "The IB guide gives no fixed number for “large”. Many books use a difference of about 1.8 as a rough guide, but it is not a rule. Bonding changes gradually from ionic to covalent. The proper IB tool is the bonding triangle in the data booklet, which you will use in Structure 2.4.": "",
+    "The IB guide gives no fixed number for “large”. Many books use a difference of about 1.8 as a rough guide, but it is not a rule. Bonding changes gradually from ionic to covalent. The proper IB tool is the bonding triangle in the data booklet, which you will use in Structure 2.4.": "IB 교수요목에는 “크다”의 기준이 되는 정해진 숫자가 없어요. 많은 책에서 차이 약 1.8을 대략적인 기준으로 쓰지만, 규칙은 아니에요. 결합은 이온 결합에서 공유 결합으로 조금씩 바뀌어 가요. IB에서 쓰는 올바른 도구는 데이터 부클릿의 결합 삼각형이고, Structure 2.4에서 쓰게 돼요.",
 
     // The ionic bond > data-title attribute
-    "The ionic bond: quick check": "",
+    "The ionic bond: quick check": "이온 결합: 빠른 확인",
 
     // Formulas and names of ionic compounds > data-toc attribute
-    "Formulas and names": "",
+    "Formulas and names": "화학식과 이름",
 
     // Formulas and names of ionic compounds > h2
-    "Formulas and names of ionic compounds": "",
+    "Formulas and names of ionic compounds": "이온 결합 화합물의 화학식과 이름",
 
     // Formulas and names of ionic compounds > p
-    "A crystal of salt does not give you an electric shock. An ionic compound has no overall charge. So the positive charges and the negative charges in its formula must add up to zero. That one idea gives you every ionic formula.": "",
+    "A crystal of salt does not give you an electric shock. An ionic compound has no overall charge. So the positive charges and the negative charges in its formula must add up to zero. That one idea gives you every ionic formula.": "소금 결정을 만져도 감전되지 않아요. 이온 결합 화합물은 전체적으로 전하를 띠지 않아요. 그래서 화학식 속 양전하와 음전하를 더하면 0이 되어야 해요. 이 한 가지 생각만으로 모든 이온 결합 화합물의 화학식을 쓸 수 있어요.",
 
     // Formulas and names of ionic compounds > h3
-    "Polyatomic ions": "",
+    "Polyatomic ions": "다원자 이온",
 
     // Formulas and names of ionic compounds > p
-    "Some ions contain more than one atom. A <dfn data-def=\"An ion made of two or more atoms joined by covalent bonds, with an overall charge.\">polyatomic ion</dfn> is a group of atoms joined by covalent bonds, with an overall charge. The group stays together and behaves as one ion.": "",
+    "Some ions contain more than one atom. A <dfn data-def=\"An ion made of two or more atoms joined by covalent bonds, with an overall charge.\">polyatomic ion</dfn> is a group of atoms joined by covalent bonds, with an overall charge. The group stays together and behaves as one ion.": "어떤 이온은 원자를 두 개 이상 포함해요. <dfn data-def=\"두 개 이상의 원자가 공유 결합으로 연결되어 있고, 전체적으로 전하를 띤 이온.\">다원자 이온 <span class=\"en-term\">(polyatomic ion)</span></dfn>은 공유 결합으로 연결된 원자 무리가 전체적으로 전하를 띤 것이에요. 이 무리는 떨어지지 않고 하나의 이온처럼 행동해요.",
 
     // Formulas and names of ionic compounds > data-def attribute
-    "An ion made of two or more atoms joined by covalent bonds, with an overall charge.": "",
+    "An ion made of two or more atoms joined by covalent bonds, with an overall charge.": "두 개 이상의 원자가 공유 결합으로 연결되어 있고, 전체적으로 전하를 띤 이온.",
 
     // Formulas and names of ionic compounds > p
-    "You must know these seven by name and by formula. They are not in the data booklet.": "",
+    "You must know these seven by name and by formula. They are not in the data booklet.": "이 7가지는 이름과 화학식을 모두 알아야 해요. 데이터 부클릿에는 나오지 않아요.",
 
     // Formulas and names of ionic compounds > table > caption
-    "The seven polyatomic ions to learn": "",
+    "The seven polyatomic ions to learn": "외워야 할 다원자 이온 7가지",
 
     // Formulas and names of ionic compounds > table > th
     // widget string (assets/js/widgets-s2-1.js)
-    "Name": "",
+    "Name": "이름",
 
     // Formulas and names of ionic compounds > table > th
     // widget string (assets/js/widgets-s2-1.js)
-    "Formula": "",
+    "Formula": "화학식",
 
     // Formulas and names of ionic compounds > table > th
     // widget string (assets/js/widgets-s2-1.js)
-    "Charge": "",
+    "Charge": "전하",
 
     // Formulas and names of ionic compounds > table > th
-    "ammonium": "",
+    "ammonium": "ammonium (암모늄 이온)",
 
     // Formulas and names of ionic compounds > table > th
-    "hydroxide": "",
+    "hydroxide": "hydroxide (수산화 이온)",
 
     // Formulas and names of ionic compounds > table > th
-    "nitrate": "",
+    "nitrate": "nitrate (질산 이온)",
 
     // Formulas and names of ionic compounds > table > th
-    "hydrogencarbonate": "",
+    "hydrogencarbonate": "hydrogencarbonate (탄산수소 이온)",
 
     // Formulas and names of ionic compounds > table > th
-    "carbonate": "",
+    "carbonate": "carbonate (탄산 이온)",
 
     // Formulas and names of ionic compounds > table > th
-    "sulfate": "",
+    "sulfate": "sulfate (황산 이온)",
 
     // Formulas and names of ionic compounds > table > th
-    "phosphate": "",
+    "phosphate": "phosphate (인산 이온)",
 
     // Formulas and names of ionic compounds > p
-    "Ammonium is the only positive ion in the list. Hydrogencarbonate is written as one word.": "",
+    "Ammonium is the only positive ion in the list. Hydrogencarbonate is written as one word.": "이 중에서 양이온은 ammonium(암모늄 이온) 하나뿐이에요. hydrogencarbonate(탄산수소 이온)는 영어에서 한 단어로 붙여 써요.",
 
     // Formulas and names of ionic compounds > widget > data-title attribute
-    "Inside a polyatomic ion": "",
+    "Inside a polyatomic ion": "다원자 이온의 내부",
 
     // Formulas and names of ionic compounds > widget > figcaption
-    "Lewis formulas of the ammonium ion and the hydroxide ion. The lines are covalent bonds between the atoms inside the ion. The square brackets and the charge show that the charge belongs to the whole group. Lewis formulas are taught in Structure 2.2.": "",
+    "Lewis formulas of the ammonium ion and the hydroxide ion. The lines are covalent bonds between the atoms inside the ion. The square brackets and the charge show that the charge belongs to the whole group. Lewis formulas are taught in Structure 2.2.": "암모늄 이온과 수산화 이온의 루이스 구조식이에요. 선은 이온 안의 원자 사이에 있는 공유 결합이에요. 대괄호와 전하는 전하가 무리 전체의 것임을 나타내요. 루이스 구조식은 Structure 2.2에서 배워요.",
 
     // Formulas and names of ionic compounds > exam tip (shown in English + translation) > p
-    "A compound such as ammonium nitrate, <span class=\"chem\">NH4NO3</span>, contains two kinds of bond. The bonds <em>inside</em> each polyatomic ion are covalent. The bond <em>between</em> the cation and the anion is ionic. Questions ask you to say which is where.": "",
+    "A compound such as ammonium nitrate, <span class=\"chem\">NH4NO3</span>, contains two kinds of bond. The bonds <em>inside</em> each polyatomic ion are covalent. The bond <em>between</em> the cation and the anion is ionic. Questions ask you to say which is where.": "질산 암모늄 <span class=\"chem\">NH4NO3</span> 같은 화합물에는 두 종류의 결합이 있어요. 각 다원자 이온 <em>안의</em> 결합은 공유 결합이에요. 양이온과 음이온 <em>사이의</em> 결합은 이온 결합이에요. 문제에서는 어느 결합이 어디에 있는지 물어요.",
 
     // Formulas and names of ionic compounds > h3
-    "Formula from the ions: method in words": "",
+    "Formula from the ions: method in words": "이온으로 화학식 쓰기: 방법 정리",
 
     // Formulas and names of ionic compounds > li
-    "Write the two ions with their charges, cation first.": "",
+    "Write the two ions with their charges, cation first.": "두 이온을 전하와 함께 쓰세요. 양이온을 먼저 써요.",
 
     // Formulas and names of ionic compounds > li
-    "Find the smallest total charge that both charges divide into. For 3+ and 2− this is 6.": "",
+    "Find the smallest total charge that both charges divide into. For 3+ and 2− this is 6.": "두 전하로 모두 나누어떨어지는 가장 작은 전하 합계를 찾으세요. 3+와 2−라면 6이에요.",
 
     // Formulas and names of ionic compounds > li
-    "Work out how many of each ion give that total: 6 ÷ 3 = 2 cations and 6 ÷ 2 = 3 anions.": "",
+    "Work out how many of each ion give that total: 6 ÷ 3 = 2 cations and 6 ÷ 2 = 3 anions.": "그 합계가 되려면 각 이온이 몇 개 필요한지 구하세요: 6 ÷ 3 = 양이온 2개, 6 ÷ 2 = 음이온 3개.",
 
     // Formulas and names of ionic compounds > li
-    "Write the formula with these numbers as subscripts. Do not write the number 1. Do not write the charges.": "",
+    "Write the formula with these numbers as subscripts. Do not write the number 1. Do not write the charges.": "이 숫자를 아래 첨자로 넣어 화학식을 쓰세요. 숫자 1은 쓰지 않아요. 전하도 쓰지 않아요.",
 
     // Formulas and names of ionic compounds > li
-    "If you need two or more of a polyatomic ion, put the ion in brackets and write the number outside.": "",
+    "If you need two or more of a polyatomic ion, put the ion in brackets and write the number outside.": "다원자 이온이 두 개 이상 필요하면, 그 이온을 괄호로 묶고 숫자를 괄호 밖에 쓰세요.",
 
     // Formulas and names of ionic compounds > li
-    "Check that the total positive charge equals the total negative charge, and that the numbers are the smallest whole numbers.": "",
+    "Check that the total positive charge equals the total negative charge, and that the numbers are the smallest whole numbers.": "양전하의 합과 음전하의 합이 같은지, 숫자가 가장 작은 정수인지 확인하세요.",
 
     // Formulas and names of ionic compounds > widget > data-title attribute
-    "Ionic formula builder": "",
+    "Ionic formula builder": "이온 결합 화합물 화학식 만들기",
 
     // Formulas and names of ionic compounds > widget > figcaption
-    "Choose a cation and an anion. Each tile is one ion, and its width is its charge. Add ions until the two rows are the same length. Then press Quiz me to build a compound from its name. The builder only balances charges. Some of the combinations you can make are not stable compounds in real life.": "",
+    "Choose a cation and an anion. Each tile is one ion, and its width is its charge. Add ions until the two rows are the same length. Then press Quiz me to build a compound from its name. The builder only balances charges. Some of the combinations you can make are not stable compounds in real life.": "양이온과 음이온을 고르세요. 타일 하나가 이온 하나이고, 타일의 너비가 전하예요. 두 줄의 길이가 같아질 때까지 이온을 더하세요. 그다음 ‘문제 풀기’를 누르면 이름을 보고 화합물을 만들어 볼 수 있어요. 이 도구는 전하의 균형만 맞춰요. 만들 수 있는 조합 중에는 실제로는 안정한 화합물이 아닌 것도 있어요.",
 
     // Formulas and names of ionic compounds > worked example > h3
-    "Formula with a polyatomic ion: aluminium sulfate": "",
+    "Formula with a polyatomic ion: aluminium sulfate": "다원자 이온이 있는 화학식: 황산 알루미늄 (aluminium sulfate)",
 
     // Formulas and names of ionic compounds > worked example > p
-    "Deduce the formula of aluminium sulfate.": "",
+    "Deduce the formula of aluminium sulfate.": "황산 알루미늄 (aluminium sulfate)의 화학식을 추론하시오 (deduce).",
 
     // Formulas and names of ionic compounds > worked example > data-title attribute
     // Lattice enthalpy: how strong is the ionic bonding? > worked example > data-title attribute
-    "Write the ions": "",
+    "Write the ions": "이온 쓰기",
 
     // Formulas and names of ionic compounds > worked example > p
-    "Aluminium is in group 13, so its ion is 3+. Sulfate is one of the seven polyatomic ions to learn.": "",
+    "Aluminium is in group 13, so its ion is 3+. Sulfate is one of the seven polyatomic ions to learn.": "알루미늄은 13족이므로 이온은 3+예요. 황산 이온(sulfate)은 외워야 할 다원자 이온 7가지 중 하나예요.",
 
     // Formulas and names of ionic compounds > worked example > maths line
-    "Al<sup>3+</sup> and SO<sub>4</sub><sup>2−</sup>": "",
+    "Al<sup>3+</sup> and SO<sub>4</sub><sup>2−</sup>": "Al<sup>3+</sup>과 SO<sub>4</sub><sup>2−</sup>",
 
     // Formulas and names of ionic compounds > worked example > data-title attribute
-    "Find the smallest common total": "",
+    "Find the smallest common total": "가장 작은 공통 합계 찾기",
 
     // Formulas and names of ionic compounds > worked example > p
-    "The smallest number that both 3 and 2 divide into is 6.": "",
+    "The smallest number that both 3 and 2 divide into is 6.": "3과 2로 모두 나누어떨어지는 가장 작은 수는 6이에요.",
 
     // Formulas and names of ionic compounds > worked example > maths line
-    "total charge needed: 6+ and 6−": "",
+    "total charge needed: 6+ and 6−": "필요한 전하 합계: 6+와 6−",
 
     // Formulas and names of ionic compounds > worked example > data-title attribute
-    "Count the ions": "",
+    "Count the ions": "이온 개수 세기",
 
     // Formulas and names of ionic compounds > worked example > p
-    "Divide the total by the charge on each ion.": "",
+    "Divide the total by the charge on each ion.": "합계를 각 이온의 전하로 나누세요.",
 
     // Formulas and names of ionic compounds > worked example > maths line
-    "6 ÷ 3 = 2 Al<sup>3+</sup> ions": "",
+    "6 ÷ 3 = 2 Al<sup>3+</sup> ions": "6 ÷ 3 = Al<sup>3+</sup> 이온 2개",
 
     // Formulas and names of ionic compounds > worked example > maths line
-    "6 ÷ 2 = 3 SO<sub>4</sub><sup>2−</sup> ions": "",
+    "6 ÷ 2 = 3 SO<sub>4</sub><sup>2−</sup> ions": "6 ÷ 2 = SO<sub>4</sub><sup>2−</sup> 이온 3개",
 
     // Formulas and names of ionic compounds > worked example > data-title attribute
-    "Write the formula with brackets": "",
+    "Write the formula with brackets": "괄호를 넣어 화학식 쓰기",
 
     // Formulas and names of ionic compounds > worked example > p
-    "There are three sulfate ions, so sulfate goes in brackets with the 3 outside. The 4 inside the bracket belongs to the sulfate ion and does not change.": "",
+    "There are three sulfate ions, so sulfate goes in brackets with the 3 outside. The 4 inside the bracket belongs to the sulfate ion and does not change.": "황산 이온이 세 개이므로, 황산 이온을 괄호로 묶고 3을 괄호 밖에 써요. 괄호 안의 4는 황산 이온의 일부이므로 바뀌지 않아요.",
 
     // Formulas and names of ionic compounds > worked example > data-title attribute
-    "Check the charges": "",
+    "Check the charges": "전하 확인하기",
 
     // Formulas and names of ionic compounds > worked example > p
-    "The total charge must be zero.": "",
+    "The total charge must be zero.": "전하의 합은 0이어야 해요.",
 
     // Formulas and names of ionic compounds > worked example > maths line
-    "2 × (3+) = 6+ &nbsp; and &nbsp; 3 × (2−) = 6−": "",
+    "2 × (3+) = 6+ &nbsp; and &nbsp; 3 × (2−) = 6−": "2 × (3+) = 6+ &nbsp; 그리고 &nbsp; 3 × (2−) = 6−",
 
     // Formulas and names of ionic compounds > worked example > p
-    "<span class=\"chem\">Al2(SO4)3</span>": "",
+    "<span class=\"chem\">Al2(SO4)3</span>": "<span class=\"chem\">Al2(SO4)3</span>",
 
     // Formulas and names of ionic compounds > worked example > data-kicker attribute
-    "Worked example 2": "",
+    "Worked example 2": "예제 2",
 
     // Formulas and names of ionic compounds > worked example > h3
-    "Two polyatomic ions: ammonium carbonate": "",
+    "Two polyatomic ions: ammonium carbonate": "다원자 이온이 두 개: 탄산 암모늄 (ammonium carbonate)",
 
     // Formulas and names of ionic compounds > worked example > p
-    "Deduce the formula of ammonium carbonate.": "",
+    "Deduce the formula of ammonium carbonate.": "탄산 암모늄 (ammonium carbonate)의 화학식을 추론하시오 (deduce).",
 
     // Formulas and names of ionic compounds > worked example > p
-    "Both ions are polyatomic. Ammonium is the positive one.": "",
+    "Both ions are polyatomic. Ammonium is the positive one.": "두 이온 모두 다원자 이온이에요. 암모늄 이온이 양이온이에요.",
 
     // Formulas and names of ionic compounds > worked example > maths line
-    "NH<sub>4</sub><sup>+</sup> and CO<sub>3</sub><sup>2−</sup>": "",
+    "NH<sub>4</sub><sup>+</sup> and CO<sub>3</sub><sup>2−</sup>": "NH<sub>4</sub><sup>+</sup>와 CO<sub>3</sub><sup>2−</sup>",
 
     // Formulas and names of ionic compounds > worked example > data-title attribute
-    "Balance the charges": "",
+    "Balance the charges": "전하 균형 맞추기",
 
     // Formulas and names of ionic compounds > worked example > p
-    "The smallest total that 1 and 2 both divide into is 2. So you need 2+ and 2−.": "",
+    "The smallest total that 1 and 2 both divide into is 2. So you need 2+ and 2−.": "1과 2로 모두 나누어떨어지는 가장 작은 합계는 2예요. 그러므로 2+와 2−가 필요해요.",
 
     // Formulas and names of ionic compounds > worked example > maths line
-    "2 ÷ 1 = 2 NH<sub>4</sub><sup>+</sup> ions": "",
+    "2 ÷ 1 = 2 NH<sub>4</sub><sup>+</sup> ions": "2 ÷ 1 = NH<sub>4</sub><sup>+</sup> 이온 2개",
 
     // Formulas and names of ionic compounds > worked example > maths line
-    "2 ÷ 2 = 1 CO<sub>3</sub><sup>2−</sup> ion": "",
+    "2 ÷ 2 = 1 CO<sub>3</sub><sup>2−</sup> ion": "2 ÷ 2 = CO<sub>3</sub><sup>2−</sup> 이온 1개",
 
     // Formulas and names of ionic compounds > worked example > data-title attribute
-    "Write the formula": "",
+    "Write the formula": "화학식 쓰기",
 
     // Formulas and names of ionic compounds > worked example > p
-    "Two ammonium ions need brackets. One carbonate ion does not.": "",
+    "Two ammonium ions need brackets. One carbonate ion does not.": "암모늄 이온 두 개는 괄호가 필요해요. 탄산 이온 하나는 괄호가 필요 없어요.",
 
     // Formulas and names of ionic compounds > worked example > maths line
-    "2 × (1+) = 2+ &nbsp; and &nbsp; 1 × (2−) = 2−": "",
+    "2 × (1+) = 2+ &nbsp; and &nbsp; 1 × (2−) = 2−": "2 × (1+) = 2+ &nbsp; 그리고 &nbsp; 1 × (2−) = 2−",
 
     // Formulas and names of ionic compounds > worked example > p
-    "<span class=\"chem\">(NH4)2CO3</span>": "",
+    "<span class=\"chem\">(NH4)2CO3</span>": "<span class=\"chem\">(NH4)2CO3</span>",
 
     // Formulas and names of ionic compounds > worked example > data-kicker attribute
-    "Worked example 3": "",
+    "Worked example 3": "예제 3",
 
     // Formulas and names of ionic compounds > worked example > h3
-    "A Roman numeral in the name: iron(III) oxide": "",
+    "A Roman numeral in the name: iron(III) oxide": "이름 속의 로마 숫자: 산화 철(III) (iron(III) oxide)",
 
     // Formulas and names of ionic compounds > worked example > p
-    "Deduce the formula of iron(III) oxide.": "",
+    "Deduce the formula of iron(III) oxide.": "산화 철(III) (iron(III) oxide)의 화학식을 추론하시오 (deduce).",
 
     // Formulas and names of ionic compounds > worked example > data-title attribute
-    "Read the charge of the metal from the name": "",
+    "Read the charge of the metal from the name": "이름에서 금속 이온의 전하 읽기",
 
     // Formulas and names of ionic compounds > worked example > p
-    "Iron is a transition element, so it can form more than one ion. The Roman numeral III tells you this one is 3+.": "",
+    "Iron is a transition element, so it can form more than one ion. The Roman numeral III tells you this one is 3+.": "철은 전이 원소라서 두 가지 이상의 이온을 만들 수 있어요. 로마 숫자 III은 이 이온이 3+라는 것을 알려 줘요.",
 
     // Formulas and names of ionic compounds > worked example > data-title attribute
-    "Write the anion": "",
+    "Write the anion": "음이온 쓰기",
 
     // Formulas and names of ionic compounds > worked example > p
-    "Oxide is the ion of oxygen. Oxygen is in group 16, so it gains 2 electrons.": "",
+    "Oxide is the ion of oxygen. Oxygen is in group 16, so it gains 2 electrons.": "산화 이온(oxide)은 산소의 이온이에요. 산소는 16족이므로 전자 2개를 얻어요.",
 
     // Formulas and names of ionic compounds > worked example > p
-    "The smallest total that 3 and 2 both divide into is 6.": "",
+    "The smallest total that 3 and 2 both divide into is 6.": "3과 2로 모두 나누어떨어지는 가장 작은 합계는 6이에요.",
 
     // Formulas and names of ionic compounds > worked example > maths line
-    "6 ÷ 3 = 2 Fe<sup>3+</sup> ions": "",
+    "6 ÷ 3 = 2 Fe<sup>3+</sup> ions": "6 ÷ 3 = Fe<sup>3+</sup> 이온 2개",
 
     // Formulas and names of ionic compounds > worked example > maths line
-    "6 ÷ 2 = 3 O<sup>2−</sup> ions": "",
+    "6 ÷ 2 = 3 O<sup>2−</sup> ions": "6 ÷ 2 = O<sup>2−</sup> 이온 3개",
 
     // Formulas and names of ionic compounds > worked example > data-title attribute
-    "Write the formula and check": "",
+    "Write the formula and check": "화학식을 쓰고 확인하기",
 
     // Formulas and names of ionic compounds > worked example > p
-    "2 × (3+) = 6+ and 3 × (2−) = 6−. The Roman numeral is not written in the formula.": "",
+    "2 × (3+) = 6+ and 3 × (2−) = 6−. The Roman numeral is not written in the formula.": "2 × (3+) = 6+이고 3 × (2−) = 6−이에요. 로마 숫자는 화학식에 쓰지 않아요.",
 
     // Formulas and names of ionic compounds > worked example > p
-    "<span class=\"chem\">Fe2O3</span>": "",
+    "<span class=\"chem\">Fe2O3</span>": "<span class=\"chem\">Fe2O3</span>",
 
     // Formulas and names of ionic compounds > common mistake > p
-    "Brackets change the meaning. <span class=\"chem\">Mg(OH)2</span> has two hydroxide ions: 2 oxygen atoms and 2 hydrogen atoms. Without brackets, <span class=\"mono\">MgOH<sub>2</sub></span> would mean 1 oxygen atom and 2 hydrogen atoms, which is wrong. Also use the simplest ratio: magnesium oxide is <span class=\"chem\">MgO</span>, not <span class=\"mono\">Mg<sub>2</sub>O<sub>2</sub></span>.": "",
+    "Brackets change the meaning. <span class=\"chem\">Mg(OH)2</span> has two hydroxide ions: 2 oxygen atoms and 2 hydrogen atoms. Without brackets, <span class=\"mono\">MgOH<sub>2</sub></span> would mean 1 oxygen atom and 2 hydrogen atoms, which is wrong. Also use the simplest ratio: magnesium oxide is <span class=\"chem\">MgO</span>, not <span class=\"mono\">Mg<sub>2</sub>O<sub>2</sub></span>.": "괄호가 있으면 뜻이 달라져요. <span class=\"chem\">Mg(OH)2</span>에는 수산화 이온이 두 개 있어요: 산소 원자 2개와 수소 원자 2개예요. 괄호가 없는 <span class=\"mono\">MgOH<sub>2</sub></span>는 산소 원자 1개와 수소 원자 2개라는 뜻이 되므로 틀려요. 또 가장 간단한 비를 쓰세요: 산화 마그네슘은 <span class=\"mono\">Mg<sub>2</sub>O<sub>2</sub></span>가 아니라 <span class=\"chem\">MgO</span>예요.",
 
     // Formulas and names of ionic compounds > try it > data-label attribute
-    "Number of atoms": "",
+    "Number of atoms": "원자의 개수",
 
     // Formulas and names of ionic compounds > try it > p
-    "Deduce the formula of ammonium sulfate. How many atoms, in total, are in one formula unit?": "",
+    "Deduce the formula of ammonium sulfate. How many atoms, in total, are in one formula unit?": "황산 암모늄 (ammonium sulfate)의 화학식을 추론하시오 (deduce). 화학식 단위 하나에는 원자가 모두 몇 개 있을까요?",
 
     // Formulas and names of ionic compounds > try it > li
-    "The ions are <span class=\"chem\">NH4+</span> and <span class=\"chem\">SO4^2-</span>. How many ammonium ions balance one sulfate ion?": "",
+    "The ions are <span class=\"chem\">NH4+</span> and <span class=\"chem\">SO4^2-</span>. How many ammonium ions balance one sulfate ion?": "이온은 <span class=\"chem\">NH4+</span>와 <span class=\"chem\">SO4^2-</span>이에요. 황산 이온 하나와 균형을 이루려면 암모늄 이온이 몇 개 필요할까요?",
 
     // Formulas and names of ionic compounds > try it > li
-    "The formula is <span class=\"chem\">(NH4)2SO4</span>. The 2 outside the bracket multiplies everything inside it.": "",
+    "The formula is <span class=\"chem\">(NH4)2SO4</span>. The 2 outside the bracket multiplies everything inside it.": "화학식은 <span class=\"chem\">(NH4)2SO4</span>예요. 괄호 밖의 2는 괄호 안의 모든 것에 곱해져요.",
 
     // Formulas and names of ionic compounds > try it > maths line
-    "2 × (1+) = 2+ balances 1 × (2−), so the formula is (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>": "",
+    "2 × (1+) = 2+ balances 1 × (2−), so the formula is (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>": "2 × (1+) = 2+가 1 × (2−)와 균형을 이루므로, 화학식은 (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>",
 
     // Formulas and names of ionic compounds > try it > maths line
-    "atoms in 2 NH<sub>4</sub><sup>+</sup> = 2 × (1 + 4) = 10": "",
+    "atoms in 2 NH<sub>4</sub><sup>+</sup> = 2 × (1 + 4) = 10": "2 NH<sub>4</sub><sup>+</sup>의 원자 수 = 2 × (1 + 4) = 10",
 
     // Formulas and names of ionic compounds > try it > maths line
-    "atoms in 1 SO<sub>4</sub><sup>2−</sup> = 1 + 4 = 5": "",
+    "atoms in 1 SO<sub>4</sub><sup>2−</sup> = 1 + 4 = 5": "1 SO<sub>4</sub><sup>2−</sup>의 원자 수 = 1 + 4 = 5",
 
     // Formulas and names of ionic compounds > try it > maths line
-    "total = 10 + 5 = 15": "",
+    "total = 10 + 5 = 15": "합계 = 10 + 5 = 15",
 
     // Formulas and names of ionic compounds > try it > p
-    "There are <strong>15</strong> atoms: 2 N, 8 H, 1 S and 4 O.": "",
+    "There are <strong>15</strong> atoms: 2 N, 8 H, 1 S and 4 O.": "원자는 <strong>15</strong>개예요: N 2개, H 8개, S 1개, O 4개.",
 
     // Formulas and names of ionic compounds > h3
-    "Naming ionic compounds": "",
+    "Naming ionic compounds": "이온 결합 화합물의 이름 짓기",
 
     // Formulas and names of ionic compounds > li
-    "Name the cation first, then the anion.": "",
+    "Name the cation first, then the anion.": "영어 이름에서는 양이온 이름을 먼저, 음이온 이름을 나중에 써요(한국어 이름과는 순서가 반대예요).",
 
     // Formulas and names of ionic compounds > li
-    "A metal cation has the name of the metal: sodium, calcium, aluminium.": "",
+    "A metal cation has the name of the metal: sodium, calcium, aluminium.": "금속 양이온은 금속 이름을 그대로 써요: sodium(나트륨), calcium(칼슘), aluminium(알루미늄).",
 
     // Formulas and names of ionic compounds > li
-    "An anion made from one element ends in <strong>-ide</strong>: chlor<em>ine</em> becomes chlor<em>ide</em>, ox<em>ygen</em> becomes ox<em>ide</em>, sulf<em>ur</em> becomes sulf<em>ide</em>, nitr<em>ogen</em> becomes nitr<em>ide</em>.": "",
+    "An anion made from one element ends in <strong>-ide</strong>: chlor<em>ine</em> becomes chlor<em>ide</em>, ox<em>ygen</em> becomes ox<em>ide</em>, sulf<em>ur</em> becomes sulf<em>ide</em>, nitr<em>ogen</em> becomes nitr<em>ide</em>.": "한 원소로 된 음이온의 영어 이름은 <strong>-ide</strong>로 끝나요: chlor<em>ine</em>은 chlor<em>ide</em>(염화 이온), ox<em>ygen</em>은 ox<em>ide</em>(산화 이온), sulf<em>ur</em>는 sulf<em>ide</em>(황화 이온), nitr<em>ogen</em>은 nitr<em>ide</em>(질화 이온)가 돼요.",
 
     // Formulas and names of ionic compounds > li
-    "A polyatomic ion keeps its own name: sulfate, nitrate, carbonate, hydroxide, ammonium.": "",
+    "A polyatomic ion keeps its own name: sulfate, nitrate, carbonate, hydroxide, ammonium.": "다원자 이온은 자기 이름을 그대로 써요: sulfate, nitrate, carbonate, hydroxide, ammonium.",
 
     // Formulas and names of ionic compounds > li
-    "If the metal can form more than one ion, write its charge as a Roman numeral in brackets straight after the metal name, with no space: iron(II), iron(III), copper(I), copper(II).": "",
+    "If the metal can form more than one ion, write its charge as a Roman numeral in brackets straight after the metal name, with no space: iron(II), iron(III), copper(I), copper(II).": "금속이 두 가지 이상의 이온을 만들 수 있으면, 금속 이름 바로 뒤에 띄어 쓰지 말고 전하를 괄호 속 로마 숫자로 써요: iron(II), iron(III), copper(I), copper(II).",
 
     // Formulas and names of ionic compounds > p
-    "A compound of only two elements is called a <dfn data-def=\"A compound that contains only two elements.\">binary compound</dfn>. Its name always ends in -ide: sodium chloride, magnesium oxide, potassium sulfide.": "",
+    "A compound of only two elements is called a <dfn data-def=\"A compound that contains only two elements.\">binary compound</dfn>. Its name always ends in -ide: sodium chloride, magnesium oxide, potassium sulfide.": "두 원소로만 이루어진 화합물을 <dfn data-def=\"두 가지 원소만 포함하는 화합물.\">이원 화합물 <span class=\"en-term\">(binary compound)</span></dfn>이라고 해요. 그 영어 이름은 항상 -ide로 끝나요: sodium chloride(염화 나트륨), magnesium oxide(산화 마그네슘), potassium sulfide(황화 칼륨).",
 
     // Formulas and names of ionic compounds > data-def attribute
-    "A compound that contains only two elements.": "",
+    "A compound that contains only two elements.": "두 가지 원소만 포함하는 화합물.",
 
     // Formulas and names of ionic compounds > p
-    "The name does not say how many ions there are. <span class=\"chem\">CaCl2</span> is calcium chloride, not “calcium dichloride”. You work out the numbers from the charges.": "",
+    "The name does not say how many ions there are. <span class=\"chem\">CaCl2</span> is calcium chloride, not “calcium dichloride”. You work out the numbers from the charges.": "이름에는 이온의 개수가 들어가지 않아요. <span class=\"chem\">CaCl2</span>는 calcium chloride(염화 칼슘)이고, “calcium dichloride”가 아니에요. 이온의 개수는 전하로부터 구해요.",
 
     // Formulas and names of ionic compounds > worked example > data-kicker attribute
-    "Worked example 4": "",
+    "Worked example 4": "예제 4",
 
     // Formulas and names of ionic compounds > worked example > h3
-    "Name from a formula": "",
+    "Name from a formula": "화학식으로 이름 쓰기",
 
     // Formulas and names of ionic compounds > worked example > p
-    "Deduce the name of <span class=\"chem\">Cu(NO3)2</span>.": "",
+    "Deduce the name of <span class=\"chem\">Cu(NO3)2</span>.": "<span class=\"chem\">Cu(NO3)2</span>의 이름을 추론하시오 (deduce).",
 
     // Formulas and names of ionic compounds > worked example > data-title attribute
-    "Split the formula into its ions": "",
+    "Split the formula into its ions": "화학식을 이온으로 나누기",
 
     // Formulas and names of ionic compounds > worked example > p
-    "The cation is written first. The bracket shows a polyatomic ion that you should recognise.": "",
+    "The cation is written first. The bracket shows a polyatomic ion that you should recognise.": "양이온을 먼저 써요. 괄호는 알아봐야 할 다원자 이온을 나타내요.",
 
     // Formulas and names of ionic compounds > worked example > maths line
-    "one copper ion and two NO<sub>3</sub><sup>−</sup> (nitrate) ions": "",
+    "one copper ion and two NO<sub>3</sub><sup>−</sup> (nitrate) ions": "구리 이온 하나와 NO<sub>3</sub><sup>−</sup> (질산) 이온 둘",
 
     // Formulas and names of ionic compounds > worked example > data-title attribute
-    "Find the charge on the metal ion": "",
+    "Find the charge on the metal ion": "금속 이온의 전하 구하기",
 
     // Formulas and names of ionic compounds > worked example > p
-    "Copper is a transition element, so you must work out its charge. The total negative charge is 2 × (1−) = 2−. The compound is neutral, so the one copper ion must be 2+.": "",
+    "Copper is a transition element, so you must work out its charge. The total negative charge is 2 × (1−) = 2−. The compound is neutral, so the one copper ion must be 2+.": "구리는 전이 원소이므로 전하를 직접 구해야 해요. 음전하의 합은 2 × (1−) = 2−예요. 화합물은 중성이므로, 구리 이온 하나의 전하는 2+여야 해요.",
 
     // Formulas and names of ionic compounds > worked example > data-title attribute
-    "Name the cation": "",
+    "Name the cation": "양이온 이름 쓰기",
 
     // Formulas and names of ionic compounds > worked example > p
-    "Copper can also be 1+, so the name needs a Roman numeral.": "",
+    "Copper can also be 1+, so the name needs a Roman numeral.": "구리는 1+도 될 수 있으므로 이름에 로마 숫자가 필요해요.",
 
     // Formulas and names of ionic compounds > worked example > maths line
-    "copper(II)": "",
+    "copper(II)": "copper(II)",
 
     // Formulas and names of ionic compounds > worked example > data-title attribute
-    "Add the name of the anion": "",
+    "Add the name of the anion": "음이온 이름 덧붙이기",
 
     // Formulas and names of ionic compounds > worked example > p
-    "A polyatomic ion keeps its own name. The number of ions is not part of the name.": "",
+    "A polyatomic ion keeps its own name. The number of ions is not part of the name.": "다원자 이온은 자기 이름을 그대로 써요. 이온의 개수는 이름에 들어가지 않아요.",
 
     // Formulas and names of ionic compounds > worked example > maths line
-    "<b>copper(II) nitrate</b>": "",
+    "<b>copper(II) nitrate</b>": "<b>copper(II) nitrate</b>",
 
     // Formulas and names of ionic compounds > worked example > p
-    "copper(II) nitrate": "",
+    "copper(II) nitrate": "copper(II) nitrate (질산 구리(II))",
 
     // Formulas and names of ionic compounds > try it > data-label attribute
-    "Size of the charge on Mn": "",
+    "Size of the charge on Mn": "Mn 이온의 전하 크기",
 
     // Formulas and names of ionic compounds > try it > p
-    "An oxide of manganese has the formula <span class=\"chem\">Mn2O3</span>. What is the size of the positive charge on each manganese ion? Type the number only.": "",
+    "An oxide of manganese has the formula <span class=\"chem\">Mn2O3</span>. What is the size of the positive charge on each manganese ion? Type the number only.": "망가니즈 산화물의 화학식은 <span class=\"chem\">Mn2O3</span>이에요. 망가니즈 이온 하나의 양전하 크기는 얼마일까요? 숫자만 입력하세요.",
 
     // Formulas and names of ionic compounds > try it > li
-    "An oxide ion is <span class=\"chem\">O^2-</span>. What is the total negative charge of three oxide ions?": "",
+    "An oxide ion is <span class=\"chem\">O^2-</span>. What is the total negative charge of three oxide ions?": "산화 이온은 <span class=\"chem\">O^2-</span>이에요. 산화 이온 세 개의 음전하 합은 얼마일까요?",
 
     // Formulas and names of ionic compounds > try it > li
-    "The total positive charge must be 6+, shared between 2 manganese ions.": "",
+    "The total positive charge must be 6+, shared between 2 manganese ions.": "양전하의 합은 6+여야 하고, 이것을 망가니즈 이온 2개가 나누어 가져요.",
 
     // Formulas and names of ionic compounds > try it > maths line
-    "total negative charge = 3 × (2−) = 6−": "",
+    "total negative charge = 3 × (2−) = 6−": "음전하의 합 = 3 × (2−) = 6−",
 
     // Formulas and names of ionic compounds > try it > maths line
-    "total positive charge = 6+, from 2 Mn ions": "",
+    "total positive charge = 6+, from 2 Mn ions": "양전하의 합 = 6+, Mn 이온 2개로부터",
 
     // Formulas and names of ionic compounds > try it > maths line
-    "charge on each Mn = 6 ÷ 2 = 3+": "",
+    "charge on each Mn = 6 ÷ 2 = 3+": "Mn 하나의 전하 = 6 ÷ 2 = 3+",
 
     // Formulas and names of ionic compounds > try it > p
-    "The size of the charge is <strong>3</strong>, so the compound is manganese(III) oxide.": "",
+    "The size of the charge is <strong>3</strong>, so the compound is manganese(III) oxide.": "전하의 크기는 <strong>3</strong>이므로, 이 화합물은 manganese(III) oxide(산화 망가니즈(III))예요.",
 
     // Formulas and names of ionic compounds > exam tip (shown in English + translation) > p
-    "Read the command carefully. If the question asks for a <em>name</em>, a formula earns no mark. If it asks for a <em>formula</em>, a name earns no mark. For a transition element, the name is not complete without the Roman numeral.": "",
+    "Read the command carefully. If the question asks for a <em>name</em>, a formula earns no mark. If it asks for a <em>formula</em>, a name earns no mark. For a transition element, the name is not complete without the Roman numeral.": "문제의 지시를 잘 읽으세요. <em>이름</em> (name)을 물었는데 화학식을 쓰면 점수를 받지 못해요. <em>화학식</em> (formula)을 물었는데 이름을 쓰면 점수를 받지 못해요. 전이 원소는 로마 숫자가 없으면 이름이 완성되지 않아요.",
 
     // Formulas and names of ionic compounds > not needed for IB > p
-    "You only need to remember the seven polyatomic ions in the table. If a question uses another ion, it will give you the formula and the charge. You will meet the Roman numeral again in Structure 3.1, where it is called the oxidation state.": "",
+    "You only need to remember the seven polyatomic ions in the table. If a question uses another ion, it will give you the formula and the charge. You will meet the Roman numeral again in Structure 3.1, where it is called the oxidation state.": "표에 있는 다원자 이온 7가지만 기억하면 돼요. 다른 이온이 문제에 나오면, 화학식과 전하를 알려 줘요. 로마 숫자는 Structure 3.1에서 다시 나오는데, 거기서는 산화수라고 불러요.",
 
     // Formulas and names of ionic compounds > data-title attribute
     "Formulas and names: quick check": "",

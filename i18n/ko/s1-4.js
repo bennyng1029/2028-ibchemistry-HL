@@ -188,701 +188,701 @@ S1.i18n.register('ko', 's1-4', {
     "N<sub>A</sub>": "N<sub>A</sub>",
 
     // The mole and the Avogadro constant > equation > dd
-    "Avogadro constant <span class=\"unit\">mol-1</span>": "",
+    "Avogadro constant <span class=\"unit\">mol-1</span>": "아보가드로 상수 <span class=\"unit\">mol-1</span>",
 
     // The mole and the Avogadro constant > p
-    "This relationship is not printed in the data booklet, so learn it. It follows from the definition. Moles to particles: multiply by <i>N</i><sub>A</sub>. Particles to moles: divide by <i>N</i><sub>A</sub>. A number of particles is always huge and an amount in moles is usually small, so check that your answer went the right way.": "",
+    "This relationship is not printed in the data booklet, so learn it. It follows from the definition. Moles to particles: multiply by <i>N</i><sub>A</sub>. Particles to moles: divide by <i>N</i><sub>A</sub>. A number of particles is always huge and an amount in moles is usually small, so check that your answer went the right way.": "이 관계식은 데이터 부클릿에 나와 있지 않으니 외워 두세요. 정의에서 바로 나와요. 몰에서 입자 수로: <i>N</i><sub>A</sub>를 곱해요. 입자 수에서 몰로: <i>N</i><sub>A</sub>로 나눠요. 입자 수는 항상 엄청나게 크고 몰로 나타낸 양은 대개 작으니, 답이 맞는 방향으로 갔는지 확인하세요.",
 
     // The mole and the Avogadro constant > widget > data-title attribute
-    "How big is a mole?": "",
+    "How big is a mole?": "1몰은 얼마나 클까요?",
 
     // The mole and the Avogadro constant > widget > figcaption
-    "The line is a powers-of-ten scale, so one mole is not “a bit more” than the other markers: it is a million times more than the number of seconds since the Big Bang. Choose a substance and a mass to see how many particles an ordinary sample holds.": "",
+    "The line is a powers-of-ten scale, so one mole is not “a bit more” than the other markers: it is a million times more than the number of seconds since the Big Bang. Choose a substance and a mass to see how many particles an ordinary sample holds.": "이 선은 10의 거듭제곱 눈금이에요. 그래서 1몰은 다른 표시보다 “조금 더 많은” 것이 아니에요: 빅뱅 이후 흐른 초의 수보다 백만 배나 많아요. 물질과 질량을 골라 평범한 시료에 입자가 몇 개 들어 있는지 보세요.",
 
     // The mole and the Avogadro constant > h3
-    "Atoms inside molecules, ions inside formulas": "",
+    "Atoms inside molecules, ions inside formulas": "분자 속의 원자, 화학식 속의 이온",
 
     // The mole and the Avogadro constant > p
-    "A formula is a recipe for one particle, and also for one mole of them. One molecule of <span class=\"chem\">NH3</span> contains 1 nitrogen atom and 3 hydrogen atoms. So one mole of <span class=\"chem\">NH3</span> molecules contains 1 mol of N atoms and 3 mol of H atoms.": "",
+    "A formula is a recipe for one particle, and also for one mole of them. One molecule of <span class=\"chem\">NH3</span> contains 1 nitrogen atom and 3 hydrogen atoms. So one mole of <span class=\"chem\">NH3</span> molecules contains 1 mol of N atoms and 3 mol of H atoms.": "화학식은 입자 하나의 조리법이자, 그 입자 1몰의 조리법이기도 해요. <span class=\"chem\">NH3</span> 분자 1개에는 질소 원자 1개와 수소 원자 3개가 들어 있어요. 그래서 <span class=\"chem\">NH3</span> 분자 1몰에는 N 원자 1 mol과 H 원자 3 mol이 들어 있어요.",
 
     // The mole and the Avogadro constant > p
-    "The same works for ionic compounds. One formula unit of <span class=\"chem\">MgCl2</span> contains one <span class=\"chem\">Mg^2+</span> ion and two <span class=\"chem\">Cl-</span> ions. So 1 mol of <span class=\"chem\">MgCl2</span> contains 1 mol of <span class=\"chem\">Mg^2+</span> ions, 2 mol of <span class=\"chem\">Cl-</span> ions, and 3 mol of ions in total.": "",
+    "The same works for ionic compounds. One formula unit of <span class=\"chem\">MgCl2</span> contains one <span class=\"chem\">Mg^2+</span> ion and two <span class=\"chem\">Cl-</span> ions. So 1 mol of <span class=\"chem\">MgCl2</span> contains 1 mol of <span class=\"chem\">Mg^2+</span> ions, 2 mol of <span class=\"chem\">Cl-</span> ions, and 3 mol of ions in total.": "이온 결합 화합물도 마찬가지예요. <span class=\"chem\">MgCl2</span>의 화학식 단위 하나에는 <span class=\"chem\">Mg^2+</span> 이온 1개와 <span class=\"chem\">Cl-</span> 이온 2개가 들어 있어요. 그래서 <span class=\"chem\">MgCl2</span> 1 mol에는 <span class=\"chem\">Mg^2+</span> 이온 1 mol, <span class=\"chem\">Cl-</span> 이온 2 mol, 모두 합쳐 이온 3 mol이 들어 있어요.",
 
     // The mole and the Avogadro constant > h3
     // Relative atomic mass and relative formula mass > h3
     // Molar mass: weighing instead of counting > h3
     // Concentration of solutions > h3
     // Avogadro’s law and reacting gas volumes > h3
-    "Method in words": "",
+    "Method in words": "말로 정리한 방법",
 
     // The mole and the Avogadro constant > li
-    "Name the particle the question asks about: molecules, atoms of one element, all atoms, or ions.": "",
+    "Name the particle the question asks about: molecules, atoms of one element, all atoms, or ions.": "문제에서 묻는 입자가 무엇인지 말하세요: 분자, 한 원소의 원자, 모든 원자, 또는 이온.",
 
     // The mole and the Avogadro constant > li
-    "If it asks about atoms or ions inside a formula, multiply the amount of the compound by the subscript first.": "",
+    "If it asks about atoms or ions inside a formula, multiply the amount of the compound by the subscript first.": "화학식 속의 원자나 이온을 묻는다면, 먼저 화합물의 양에 아래 첨자를 곱하세요.",
 
     // The mole and the Avogadro constant > li
-    "Multiply moles by <span class=\"mono\">6.02 × 10<sup>23</sup> mol<sup>−1</sup></span> to get the number, or divide a number by it to get moles.": "",
+    "Multiply moles by <span class=\"mono\">6.02 × 10<sup>23</sup> mol<sup>−1</sup></span> to get the number, or divide a number by it to get moles.": "몰에 <span class=\"mono\">6.02 × 10<sup>23</sup> mol<sup>−1</sup></span>를 곱해 개수를 구하거나, 개수를 이 값으로 나눠 몰을 구하세요.",
 
     // The mole and the Avogadro constant > li
-    "Give the answer in scientific notation, to the significant figures of the data.": "",
+    "Give the answer in scientific notation, to the significant figures of the data.": "답은 과학적 표기법으로, 자료의 유효 숫자에 맞춰 쓰세요.",
 
     // The mole and the Avogadro constant > worked example > h3
-    "Moles to number of molecules": "",
+    "Moles to number of molecules": "몰에서 분자 수로",
 
     // The mole and the Avogadro constant > worked example > p
-    "Calculate the number of molecules in 0.350 mol of carbon dioxide, <span class=\"chem\">CO2</span>.": "",
+    "Calculate the number of molecules in 0.350 mol of carbon dioxide, <span class=\"chem\">CO2</span>.": "이산화 탄소 <span class=\"chem\">CO2</span> 0.350 mol에 들어 있는 분자 수를 계산하시오 (calculate).",
 
     // The mole and the Avogadro constant > worked example > data-title attribute
     // Molar mass: weighing instead of counting > worked example > data-title attribute
     // Concentration of solutions > worked example > data-title attribute
-    "Ask the three questions": "",
+    "Ask the three questions": "세 가지 질문하기",
 
     // The mole and the Avogadro constant > worked example > p
-    "Given: an amount, 0.350 mol. Wanted: a number of molecules. Link: the Avogadro constant.": "",
+    "Given: an amount, 0.350 mol. Wanted: a number of molecules. Link: the Avogadro constant.": "주어진 것: 양 0.350 mol. 구할 것: 분자 수. 연결 고리: 아보가드로 상수.",
 
     // The mole and the Avogadro constant > worked example > data-title attribute
     // Molar mass: weighing instead of counting > worked example > data-title attribute
     // Concentration of solutions > worked example > data-title attribute
-    "Substitute with units": "",
+    "Substitute with units": "단위와 함께 대입하기",
 
     // The mole and the Avogadro constant > worked example > p
-    "mol × mol<sup>−1</sup> cancels, leaving a pure number. That is what a count should be.": "",
+    "mol × mol<sup>−1</sup> cancels, leaving a pure number. That is what a count should be.": "mol × mol<sup>−1</sup>은 약분되어 단위 없는 수만 남아요. 개수라면 그래야 해요.",
 
     // The mole and the Avogadro constant > worked example > data-title attribute
     // Molar mass: weighing instead of counting > worked example > data-title attribute
     // Concentration of solutions > worked example > data-title attribute
-    "Round to the data": "",
+    "Round to the data": "자료에 맞춰 반올림하기",
 
     // The mole and the Avogadro constant > worked example > p
-    "0.350 and 6.02 both have 3 significant figures, so the answer has 3.": "",
+    "0.350 and 6.02 both have 3 significant figures, so the answer has 3.": "0.350과 6.02는 둘 다 유효 숫자가 3자리이므로, 답도 3자리예요.",
 
     // The mole and the Avogadro constant > worked example > maths line
-    "<i>N</i> = <b>2.11 × 10<sup>23</sup> molecules</b>": "",
+    "<i>N</i> = <b>2.11 × 10<sup>23</sup> molecules</b>": "<i>N</i> = <b>분자 2.11 × 10<sup>23</sup>개</b>",
 
     // The mole and the Avogadro constant > worked example > p
-    "2.11 × 10<sup>23</sup> molecules of CO<sub>2</sub>": "",
+    "2.11 × 10<sup>23</sup> molecules of CO<sub>2</sub>": "CO<sub>2</sub> 분자 2.11 × 10<sup>23</sup>개",
 
     // The mole and the Avogadro constant > worked example > h3
-    "Atoms inside a molecule": "",
+    "Atoms inside a molecule": "분자 속의 원자",
 
     // The mole and the Avogadro constant > worked example > p
-    "Calculate the number of hydrogen atoms in 0.125 mol of ammonia, <span class=\"chem\">NH3</span>.": "",
+    "Calculate the number of hydrogen atoms in 0.125 mol of ammonia, <span class=\"chem\">NH3</span>.": "암모니아 <span class=\"chem\">NH3</span> 0.125 mol에 들어 있는 수소 원자 수를 계산하시오 (calculate).",
 
     // The mole and the Avogadro constant > worked example > data-title attribute
-    "Spot what is being counted": "",
+    "Spot what is being counted": "무엇을 세는지 찾기",
 
     // The mole and the Avogadro constant > worked example > p
-    "The question asks for hydrogen atoms, not ammonia molecules. Each molecule holds 3 of them.": "",
+    "The question asks for hydrogen atoms, not ammonia molecules. Each molecule holds 3 of them.": "문제는 암모니아 분자가 아니라 수소 원자를 묻고 있어요. 분자 하나에 수소 원자가 3개 들어 있어요.",
 
     // The mole and the Avogadro constant > worked example > maths line
-    "1 mol NH<sub>3</sub> contains 3 mol H atoms": "",
+    "1 mol NH<sub>3</sub> contains 3 mol H atoms": "NH<sub>3</sub> 1 mol에는 H 원자 3 mol이 들어 있음",
 
     // The mole and the Avogadro constant > worked example > data-title attribute
-    "Find the amount of hydrogen atoms": "",
+    "Find the amount of hydrogen atoms": "수소 원자의 양 구하기",
 
     // The mole and the Avogadro constant > worked example > p
-    "Use the subscript from the formula as a multiplier while you are still in moles.": "",
+    "Use the subscript from the formula as a multiplier while you are still in moles.": "아직 몰 단계에 있을 때 화학식의 아래 첨자를 곱하는 수로 쓰세요.",
 
     // The mole and the Avogadro constant > worked example > data-title attribute
-    "Convert moles to a number": "",
+    "Convert moles to a number": "몰을 개수로 바꾸기",
 
     // The mole and the Avogadro constant > worked example > p
-    "Now it is the same step as before: multiply by the Avogadro constant.": "",
+    "Now it is the same step as before: multiply by the Avogadro constant.": "이제 앞과 같은 단계예요: 아보가드로 상수를 곱하세요.",
 
     // The mole and the Avogadro constant > worked example > p
-    "The data have 3 significant figures. The 3 from the formula is an exact count and does not limit the answer.": "",
+    "The data have 3 significant figures. The 3 from the formula is an exact count and does not limit the answer.": "자료는 유효 숫자가 3자리예요. 화학식에서 나온 3은 정확한 개수이므로 답의 자릿수를 제한하지 않아요.",
 
     // The mole and the Avogadro constant > worked example > maths line
-    "<i>N</i>(H) = <b>2.26 × 10<sup>23</sup> atoms</b>": "",
+    "<i>N</i>(H) = <b>2.26 × 10<sup>23</sup> atoms</b>": "<i>N</i>(H) = <b>원자 2.26 × 10<sup>23</sup>개</b>",
 
     // The mole and the Avogadro constant > worked example > p
-    "2.26 × 10<sup>23</sup> hydrogen atoms": "",
+    "2.26 × 10<sup>23</sup> hydrogen atoms": "수소 원자 2.26 × 10<sup>23</sup>개",
 
     // The mole and the Avogadro constant > common mistake > p
-    "“One mole of oxygen” is unclear. One mole of <span class=\"chem\">O2</span> molecules contains two moles of O atoms. Hydrogen, nitrogen, oxygen, fluorine, chlorine, bromine and iodine exist as two-atom molecules, so check whether the question means atoms or molecules.": "",
+    "“One mole of oxygen” is unclear. One mole of <span class=\"chem\">O2</span> molecules contains two moles of O atoms. Hydrogen, nitrogen, oxygen, fluorine, chlorine, bromine and iodine exist as two-atom molecules, so check whether the question means atoms or molecules.": "“산소 1몰”은 뜻이 분명하지 않아요. <span class=\"chem\">O2</span> 분자 1몰에는 O 원자 2몰이 들어 있어요. 수소, 질소, 산소, 플루오린, 염소, 브로민, 아이오딘은 원자 2개로 된 분자로 존재하니, 문제가 원자를 말하는지 분자를 말하는지 확인하세요.",
 
     // The mole and the Avogadro constant > try it > p
-    "A piece of copper wire contains 1.50 × 10<sup>22</sup> copper atoms. Calculate the amount of copper, in mol.": "",
+    "A piece of copper wire contains 1.50 × 10<sup>22</sup> copper atoms. Calculate the amount of copper, in mol.": "구리 선 한 조각에 구리 원자 1.50 × 10<sup>22</sup>개가 들어 있어요. 구리의 양을 mol 단위로 계산하시오 (calculate).",
 
     // The mole and the Avogadro constant > try it > li
-    "You have a number of particles and you want moles. Will the answer be bigger or smaller than 1?": "",
+    "You have a number of particles and you want moles. Will the answer be bigger or smaller than 1?": "입자 수를 알고 몰을 구하려고 해요. 답은 1보다 클까요, 작을까요?",
 
     // The mole and the Avogadro constant > try it > li
-    "Divide by the Avogadro constant: <span class=\"mono\">1.50 × 10<sup>22</sup> ÷ 6.02 × 10<sup>23</sup></span>.": "",
+    "Divide by the Avogadro constant: <span class=\"mono\">1.50 × 10<sup>22</sup> ÷ 6.02 × 10<sup>23</sup></span>.": "아보가드로 상수로 나누세요: <span class=\"mono\">1.50 × 10<sup>22</sup> ÷ 6.02 × 10<sup>23</sup></span>.",
 
     // The mole and the Avogadro constant > try it > p
-    "To 3 significant figures: <strong>0.0249 mol</strong>. There are fewer atoms than one mole, so the amount is less than 1.": "",
+    "To 3 significant figures: <strong>0.0249 mol</strong>. There are fewer atoms than one mole, so the amount is less than 1.": "유효 숫자 3자리로: <strong>0.0249 mol</strong>. 원자 수가 1몰보다 적으므로 양은 1보다 작아요.",
 
     // The mole and the Avogadro constant > try it > data-label attribute
-    "Number of ions": "",
+    "Number of ions": "이온의 수",
 
     // The mole and the Avogadro constant > try it > p
-    "Calculate the total number of ions in 0.200 mol of calcium chloride, <span class=\"chem\">CaCl2</span>.": "",
+    "Calculate the total number of ions in 0.200 mol of calcium chloride, <span class=\"chem\">CaCl2</span>.": "염화 칼슘 <span class=\"chem\">CaCl2</span> 0.200 mol에 들어 있는 이온의 총수를 계산하시오 (calculate).",
 
     // The mole and the Avogadro constant > try it > li
-    "How many ions are in one formula unit of <span class=\"chem\">CaCl2</span>? Count the <span class=\"chem\">Ca^2+</span> and the <span class=\"chem\">Cl-</span> ions.": "",
+    "How many ions are in one formula unit of <span class=\"chem\">CaCl2</span>? Count the <span class=\"chem\">Ca^2+</span> and the <span class=\"chem\">Cl-</span> ions.": "<span class=\"chem\">CaCl2</span>의 화학식 단위 하나에 이온이 몇 개 있을까요? <span class=\"chem\">Ca^2+</span> 이온과 <span class=\"chem\">Cl-</span> 이온을 세어 보세요.",
 
     // The mole and the Avogadro constant > try it > li
-    "There are 3 ions per formula unit, so <i>n</i>(ions) = 3 × 0.200 mol. Then multiply by <span class=\"mono\">6.02 × 10<sup>23</sup></span>.": "",
+    "There are 3 ions per formula unit, so <i>n</i>(ions) = 3 × 0.200 mol. Then multiply by <span class=\"mono\">6.02 × 10<sup>23</sup></span>.": "화학식 단위 하나에 이온이 3개 있으므로 <i>n</i>(이온) = 3 × 0.200 mol이에요. 그다음 <span class=\"mono\">6.02 × 10<sup>23</sup></span>을 곱하세요.",
 
     // The mole and the Avogadro constant > try it > maths line
-    "<i>n</i>(ions) = 3 × 0.200 mol = 0.600 mol": "",
+    "<i>n</i>(ions) = 3 × 0.200 mol = 0.600 mol": "<i>n</i>(이온) = 3 × 0.200 mol = 0.600 mol",
 
     // The mole and the Avogadro constant > try it > p
-    "To 3 significant figures: <strong>3.61 × 10<sup>23</sup> ions</strong>.": "",
+    "To 3 significant figures: <strong>3.61 × 10<sup>23</sup> ions</strong>.": "유효 숫자 3자리로: <strong>이온 3.61 × 10<sup>23</sup>개</strong>.",
 
     // The mole and the Avogadro constant > not needed for IB > p
-    "You may see an older definition: “the amount that contains as many particles as 12 g of carbon-12”. The IB guide does not use it. It defines the mole by a fixed number of particles. That number is exactly 6.02214076 × 10<sup>23</sup>, but you only ever use the data booklet value, 6.02 × 10<sup>23</sup>. You do not need the history of the change.": "",
+    "You may see an older definition: “the amount that contains as many particles as 12 g of carbon-12”. The IB guide does not use it. It defines the mole by a fixed number of particles. That number is exactly 6.02214076 × 10<sup>23</sup>, but you only ever use the data booklet value, 6.02 × 10<sup>23</sup>. You do not need the history of the change.": "예전 정의를 볼 수도 있어요: “탄소-12 12 g에 들어 있는 입자 수만큼의 입자를 포함하는 양”. IB 지침에서는 이 정의를 쓰지 않아요. IB는 정해진 입자 수로 몰을 정의해요. 그 수는 정확히 6.02214076 × 10<sup>23</sup>이지만, 계산에는 언제나 데이터 부클릿 값 6.02 × 10<sup>23</sup>만 써요. 정의가 바뀐 역사는 몰라도 돼요.",
 
     // The mole and the Avogadro constant > data-title attribute
-    "The mole: quick check": "",
+    "The mole: quick check": "몰: 빠른 확인",
 
     // Relative atomic mass and relative formula mass > data-toc attribute
-    "Relative masses": "",
+    "Relative masses": "상대 질량",
 
     // Relative atomic mass and relative formula mass > h2
-    "Relative atomic mass and relative formula mass": "",
+    "Relative atomic mass and relative formula mass": "상대 원자 질량과 상대 화학식량",
 
     // Relative atomic mass and relative formula mass > p
-    "One atom has a mass of around 10<sup>−23</sup> g. Numbers like that are awkward, so chemists compare atoms with each other instead. The standard is the carbon-12 atom, <span class=\"chem\">^12C</span>, which is given a mass of exactly 12 units.": "",
+    "One atom has a mass of around 10<sup>−23</sup> g. Numbers like that are awkward, so chemists compare atoms with each other instead. The standard is the carbon-12 atom, <span class=\"chem\">^12C</span>, which is given a mass of exactly 12 units.": "원자 하나의 질량은 약 10<sup>−23</sup> g이에요. 이런 수는 다루기 불편해서, 화학자들은 대신 원자끼리 비교해요. 기준은 탄소-12 원자 <span class=\"chem\">^12C</span>이고, 그 질량을 정확히 12로 정해요.",
 
     // Relative atomic mass and relative formula mass > p
-    "The <dfn data-def=\"The weighted average mass of the atoms of an element, taking isotopic abundance into account, relative to one-twelfth of the mass of an atom of carbon-12. It has no units.\">relative atomic mass</dfn>, <i>A</i><sub>r</sub>, of an element is the weighted average mass of its atoms compared with one-twelfth of the mass of a carbon-12 atom. It is an average because most elements are a mixture of isotopes (see topic 1.2). That is why chlorine has <i>A</i><sub>r</sub> = 35.45, although no single chlorine atom has that mass.": "",
+    "The <dfn data-def=\"The weighted average mass of the atoms of an element, taking isotopic abundance into account, relative to one-twelfth of the mass of an atom of carbon-12. It has no units.\">relative atomic mass</dfn>, <i>A</i><sub>r</sub>, of an element is the weighted average mass of its atoms compared with one-twelfth of the mass of a carbon-12 atom. It is an average because most elements are a mixture of isotopes (see topic 1.2). That is why chlorine has <i>A</i><sub>r</sub> = 35.45, although no single chlorine atom has that mass.": "원소의 <dfn data-def=\"동위 원소의 존재 비율을 고려한 원소 원자들의 가중 평균 질량을 탄소-12 원자 질량의 1/12과 비교한 값. 단위가 없어요.\">상대 원자 질량 <span class=\"en-term\">(relative atomic mass)</span></dfn> <i>A</i><sub>r</sub>는 그 원자들의 가중 평균 질량을 탄소-12 원자 질량의 12분의 1과 비교한 값이에요. 평균인 이유는 대부분의 원소가 동위 원소의 혼합물이기 때문이에요(1.2 단원 참고). 그래서 염소 원자 중 그 질량을 가진 원자는 하나도 없는데도 염소의 <i>A</i><sub>r</sub> = 35.45예요.",
 
     // Relative atomic mass and relative formula mass > data-def attribute
-    "The weighted average mass of the atoms of an element, taking isotopic abundance into account, relative to one-twelfth of the mass of an atom of carbon-12. It has no units.": "",
+    "The weighted average mass of the atoms of an element, taking isotopic abundance into account, relative to one-twelfth of the mass of an atom of carbon-12. It has no units.": "동위 원소의 존재 비율을 고려한 원소 원자들의 가중 평균 질량을 탄소-12 원자 질량의 1/12과 비교한 값. 단위가 없어요.",
 
     // Relative atomic mass and relative formula mass > p
-    "The <dfn data-def=\"The sum of the relative atomic masses of all the atoms in a formula. It has no units.\">relative formula mass</dfn>, <i>M</i><sub>r</sub>, is the sum of the <i>A</i><sub>r</sub> values of every atom in the formula. For a substance made of molecules it is also called the relative molecular mass.": "",
+    "The <dfn data-def=\"The sum of the relative atomic masses of all the atoms in a formula. It has no units.\">relative formula mass</dfn>, <i>M</i><sub>r</sub>, is the sum of the <i>A</i><sub>r</sub> values of every atom in the formula. For a substance made of molecules it is also called the relative molecular mass.": "<dfn data-def=\"화학식에 있는 모든 원자의 상대 원자 질량을 더한 값. 단위가 없어요.\">상대 화학식량 <span class=\"en-term\">(relative formula mass)</span></dfn> <i>M</i><sub>r</sub>는 화학식에 있는 모든 원자의 <i>A</i><sub>r</sub> 값을 더한 값이에요. 분자로 이루어진 물질에서는 상대 분자 질량(분자량)이라고도 해요.",
 
     // Relative atomic mass and relative formula mass > data-def attribute
-    "The sum of the relative atomic masses of all the atoms in a formula. It has no units.": "",
+    "The sum of the relative atomic masses of all the atoms in a formula. It has no units.": "화학식에 있는 모든 원자의 상대 원자 질량을 더한 값. 단위가 없어요.",
 
     // Relative atomic mass and relative formula mass > key idea > p
-    "<i>A</i><sub>r</sub> and <i>M</i><sub>r</sub> are ratios: one mass divided by another mass. The units cancel, so they have <strong>no units</strong>.": "",
+    "<i>A</i><sub>r</sub> and <i>M</i><sub>r</sub> are ratios: one mass divided by another mass. The units cancel, so they have <strong>no units</strong>.": "<i>A</i><sub>r</sub>와 <i>M</i><sub>r</sub>는 비예요: 한 질량을 다른 질량으로 나눈 값이에요. 단위가 약분되므로 <strong>단위가 없어요</strong>.",
 
     // Relative atomic mass and relative formula mass > data booklet note > p
-    "The periodic table in the data booklet gives <i>A</i><sub>r</sub> to two decimal places: H 1.01, C 12.01, N 14.01, O 16.00, Na 22.99, Cl 35.45. Use these values in calculations, not rounded whole numbers.": "",
+    "The periodic table in the data booklet gives <i>A</i><sub>r</sub> to two decimal places: H 1.01, C 12.01, N 14.01, O 16.00, Na 22.99, Cl 35.45. Use these values in calculations, not rounded whole numbers.": "데이터 부클릿의 주기율표는 <i>A</i><sub>r</sub>를 소수점 아래 2자리까지 줘요: H 1.01, C 12.01, N 14.01, O 16.00, Na 22.99, Cl 35.45. 계산에는 반올림한 정수가 아니라 이 값을 쓰세요.",
 
     // Relative atomic mass and relative formula mass > li
-    "List each element in the formula.": "",
+    "List each element in the formula.": "화학식에 있는 원소를 하나씩 적으세요.",
 
     // Relative atomic mass and relative formula mass > li
-    "Count its atoms. A subscript outside a bracket multiplies everything inside the bracket.": "",
+    "Count its atoms. A subscript outside a bracket multiplies everything inside the bracket.": "각 원소의 원자 수를 세세요. 괄호 밖의 아래 첨자는 괄호 안의 모든 것에 곱해져요.",
 
     // Relative atomic mass and relative formula mass > li
-    "Multiply each count by the element’s <i>A</i><sub>r</sub> (2 d.p.).": "",
+    "Multiply each count by the element’s <i>A</i><sub>r</sub> (2 d.p.).": "각 원자 수에 그 원소의 <i>A</i><sub>r</sub>(소수점 아래 2자리)를 곱하세요.",
 
     // Relative atomic mass and relative formula mass > li
-    "Add the subtotals. Give <i>M</i><sub>r</sub> to 2 decimal places, with no unit.": "",
+    "Add the subtotals. Give <i>M</i><sub>r</sub> to 2 decimal places, with no unit.": "소계를 더하세요. <i>M</i><sub>r</sub>는 단위 없이 소수점 아래 2자리로 쓰세요.",
 
     // Relative atomic mass and relative formula mass > widget > data-title attribute
-    "Molar mass builder": "",
+    "Molar mass builder": "몰 질량 만들기",
 
     // Relative atomic mass and relative formula mass > widget > figcaption
-    "Type a formula or build one with the buttons. The table counts every atom, including those inside brackets and in water of crystallization. It uses the <i>A</i><sub>r</sub> values from the data booklet.": "",
+    "Type a formula or build one with the buttons. The table counts every atom, including those inside brackets and in water of crystallization. It uses the <i>A</i><sub>r</sub> values from the data booklet.": "화학식을 입력하거나 버튼으로 만들어 보세요. 표는 괄호 안과 결정수 속의 원자까지 모든 원자를 세요. 데이터 부클릿의 <i>A</i><sub>r</sub> 값을 써요.",
 
     // Relative atomic mass and relative formula mass > worked example > h3
-    "Relative formula mass with brackets": "",
+    "Relative formula mass with brackets": "괄호가 있는 상대 화학식량",
 
     // Relative atomic mass and relative formula mass > worked example > p
-    "Determine the relative formula mass of calcium nitrate, <span class=\"chem\">Ca(NO3)2</span>.": "",
+    "Determine the relative formula mass of calcium nitrate, <span class=\"chem\">Ca(NO3)2</span>.": "질산 칼슘 <span class=\"chem\">Ca(NO3)2</span>의 상대 화학식량을 구하시오 (determine).",
 
     // Relative atomic mass and relative formula mass > worked example > data-title attribute
-    "Count the atoms": "",
+    "Count the atoms": "원자 세기",
 
     // Relative atomic mass and relative formula mass > worked example > p
-    "The 2 outside the bracket doubles everything inside it: 2 × N and 2 × 3 = 6 O.": "",
+    "The 2 outside the bracket doubles everything inside it: 2 × N and 2 × 3 = 6 O.": "괄호 밖의 2는 괄호 안의 모든 것을 2배로 해요: 2 × N, 그리고 2 × 3 = 6 O.",
 
     // Relative atomic mass and relative formula mass > worked example > data-title attribute
-    "Multiply by each relative atomic mass": "",
+    "Multiply by each relative atomic mass": "각 상대 원자 질량 곱하기",
 
     // Relative atomic mass and relative formula mass > worked example > p
-    "Use the two-decimal-place values from the data booklet.": "",
+    "Use the two-decimal-place values from the data booklet.": "데이터 부클릿의 소수점 아래 2자리 값을 쓰세요.",
 
     // Relative atomic mass and relative formula mass > worked example > data-title attribute
-    "Add the subtotals": "",
+    "Add the subtotals": "소계 더하기",
 
     // Relative atomic mass and relative formula mass > worked example > p
-    "When you add, keep the decimal places of the data: two.": "",
+    "When you add, keep the decimal places of the data: two.": "더할 때는 자료의 소수점 자릿수, 즉 2자리를 유지하세요.",
 
     // Relative atomic mass and relative formula mass > worked example > p
-    "<i>M</i><sub>r</sub> = 164.10 (no units)": "",
+    "<i>M</i><sub>r</sub> = 164.10 (no units)": "<i>M</i><sub>r</sub> = 164.10 (단위 없음)",
 
     // Relative atomic mass and relative formula mass > p
-    "A <dfn data-def=\"A salt whose crystals contain a fixed number of water molecules per formula unit, called water of crystallization.\">hydrated salt</dfn> has water molecules built into its crystals. The dot in <span class=\"chem\">CuSO4.5H2O</span> means “with”, so add five whole waters: <span class=\"mono\">63.55 + 32.07 + 4(16.00) + 5(18.02) = 249.72</span>.": "",
+    "A <dfn data-def=\"A salt whose crystals contain a fixed number of water molecules per formula unit, called water of crystallization.\">hydrated salt</dfn> has water molecules built into its crystals. The dot in <span class=\"chem\">CuSO4.5H2O</span> means “with”, so add five whole waters: <span class=\"mono\">63.55 + 32.07 + 4(16.00) + 5(18.02) = 249.72</span>.": "<dfn data-def=\"결정 속에 화학식 단위당 정해진 수의 물 분자가 들어 있는 염. 이 물을 결정수라고 해요.\">수화물 염 <span class=\"en-term\">(hydrated salt)</span></dfn>은 결정 속에 물 분자가 들어 있어요. <span class=\"chem\">CuSO4.5H2O</span>의 점은 “~와 함께”라는 뜻이므로, 물 분자 다섯 개를 통째로 더하세요: <span class=\"mono\">63.55 + 32.07 + 4(16.00) + 5(18.02) = 249.72</span>.",
 
     // Relative atomic mass and relative formula mass > data-def attribute
-    "A salt whose crystals contain a fixed number of water molecules per formula unit, called water of crystallization.": "",
+    "A salt whose crystals contain a fixed number of water molecules per formula unit, called water of crystallization.": "결정 속에 화학식 단위당 정해진 수의 물 분자가 들어 있는 염. 이 물을 결정수라고 해요.",
 
     // Relative atomic mass and relative formula mass > common mistake > p
-    "In <span class=\"chem\">Ca(NO3)2</span> it is easy to count only 3 oxygen atoms and get 116.10. The subscript after a bracket multiplies every atom inside it. Count atoms first, then use the calculator.": "",
+    "In <span class=\"chem\">Ca(NO3)2</span> it is easy to count only 3 oxygen atoms and get 116.10. The subscript after a bracket multiplies every atom inside it. Count atoms first, then use the calculator.": "<span class=\"chem\">Ca(NO3)2</span>에서 산소 원자를 3개만 세어 116.10을 얻기 쉬워요. 괄호 뒤의 아래 첨자는 괄호 안의 모든 원자에 곱해져요. 먼저 원자를 세고, 그다음 계산기를 쓰세요.",
 
     // Relative atomic mass and relative formula mass > try it > data-label attribute
-    "Mr": "",
+    "Mr": "Mr",
 
     // Relative atomic mass and relative formula mass > try it > p
-    "Determine the relative formula mass of aluminium sulfate, <span class=\"chem\">Al2(SO4)3</span>. Give your answer to 2 decimal places. (<i>A</i><sub>r</sub>: Al 26.98, S 32.07, O 16.00)": "",
+    "Determine the relative formula mass of aluminium sulfate, <span class=\"chem\">Al2(SO4)3</span>. Give your answer to 2 decimal places. (<i>A</i><sub>r</sub>: Al 26.98, S 32.07, O 16.00)": "황산 알루미늄 <span class=\"chem\">Al2(SO4)3</span>의 상대 화학식량을 구하시오 (determine). 답은 소수점 아래 2자리로 쓰시오. (<i>A</i><sub>r</sub>: Al 26.98, S 32.07, O 16.00)",
 
     // Relative atomic mass and relative formula mass > try it > li
-    "Count the atoms first. How many S atoms and how many O atoms are in three sulfate groups?": "",
+    "Count the atoms first. How many S atoms and how many O atoms are in three sulfate groups?": "먼저 원자를 세세요. 황산 이온 3개에 S 원자와 O 원자가 각각 몇 개 있을까요?",
 
     // Relative atomic mass and relative formula mass > try it > li
-    "There are 2 Al, 3 S and 12 O: <span class=\"mono\">2(26.98) + 3(32.07) + 12(16.00)</span>.": "",
+    "There are 2 Al, 3 S and 12 O: <span class=\"mono\">2(26.98) + 3(32.07) + 12(16.00)</span>.": "Al 2개, S 3개, O 12개가 있어요: <span class=\"mono\">2(26.98) + 3(32.07) + 12(16.00)</span>.",
 
     // Relative atomic mass and relative formula mass > try it > p
-    "<strong>342.17</strong>, with no unit, because it is a relative mass.": "",
+    "<strong>342.17</strong>, with no unit, because it is a relative mass.": "<strong>342.17</strong>, 상대 질량이므로 단위가 없어요.",
 
     // Relative atomic mass and relative formula mass > not needed for IB > p
-    "You do not need the unified atomic mass unit (u or Da) or the mass of one atom in kilograms for this topic. Calculating <i>A</i><sub>r</sub> from isotope abundances belongs to topic 1.2.": "",
+    "You do not need the unified atomic mass unit (u or Da) or the mass of one atom in kilograms for this topic. Calculating <i>A</i><sub>r</sub> from isotope abundances belongs to topic 1.2.": "이 단원에서는 통일 원자 질량 단위(u 또는 Da)나 원자 하나의 질량을 킬로그램으로 나타낸 값이 필요 없어요. 동위 원소 존재 비율로 <i>A</i><sub>r</sub>를 계산하는 것은 1.2 단원 내용이에요.",
 
     // Relative atomic mass and relative formula mass > data-title attribute
-    "Relative masses: quick check": "",
+    "Relative masses: quick check": "상대 질량: 빠른 확인",
 
     // Molar mass: weighing instead of counting > data-toc attribute
     // Molar mass: weighing instead of counting > table > th
     // widget string (assets/js/widgets-s1-4.js)
-    "Molar mass": "",
+    "Molar mass": "몰 질량",
 
     // Molar mass: weighing instead of counting > h2
-    "Molar mass: weighing instead of counting": "",
+    "Molar mass: weighing instead of counting": "몰 질량: 세는 대신 무게 재기",
 
     // Molar mass: weighing instead of counting > p
-    "A bank does not count coins one by one. It weighs the bag, because it knows the mass of one coin. Chemists do the same with atoms. If you know the mass of one mole of a substance, a balance tells you how many particles you have.": "",
+    "A bank does not count coins one by one. It weighs the bag, because it knows the mass of one coin. Chemists do the same with atoms. If you know the mass of one mole of a substance, a balance tells you how many particles you have.": "은행은 동전을 하나하나 세지 않아요. 동전 하나의 질량을 알기 때문에 자루의 무게를 재요. 화학자도 원자에 대해 똑같이 해요. 물질 1몰의 질량을 알면, 저울로 입자가 몇 개 있는지 알 수 있어요.",
 
     // Molar mass: weighing instead of counting > p
-    "The <dfn data-def=\"The mass of one mole of a substance. Symbol M, units g mol^-1. It has the same number as the relative formula mass.\">molar mass</dfn>, <i>M</i>, is the mass of one mole of a substance. Its units are <span class=\"unit\">g mol-1</span>. The mole is chosen so that the molar mass has the same number as <i>M</i><sub>r</sub>: water has <i>M</i><sub>r</sub> = 18.02, so <i>M</i> = 18.02 g mol<sup>−1</sup>.": "",
+    "The <dfn data-def=\"The mass of one mole of a substance. Symbol M, units g mol^-1. It has the same number as the relative formula mass.\">molar mass</dfn>, <i>M</i>, is the mass of one mole of a substance. Its units are <span class=\"unit\">g mol-1</span>. The mole is chosen so that the molar mass has the same number as <i>M</i><sub>r</sub>: water has <i>M</i><sub>r</sub> = 18.02, so <i>M</i> = 18.02 g mol<sup>−1</sup>.": "<dfn data-def=\"물질 1몰의 질량. 기호 M, 단위 g mol^-1. 상대 화학식량과 같은 수예요.\">몰 질량 <span class=\"en-term\">(molar mass)</span></dfn> <i>M</i>은 물질 1몰의 질량이에요. 단위는 <span class=\"unit\">g mol-1</span>이에요. 몰은 몰 질량이 <i>M</i><sub>r</sub>와 같은 수가 되도록 정해져 있어요: 물은 <i>M</i><sub>r</sub> = 18.02이므로 <i>M</i> = 18.02 g mol<sup>−1</sup>이에요.",
 
     // Molar mass: weighing instead of counting > data-def attribute
-    "The mass of one mole of a substance. Symbol M, units g mol^-1. It has the same number as the relative formula mass.": "",
+    "The mass of one mole of a substance. Symbol M, units g mol^-1. It has the same number as the relative formula mass.": "물질 1몰의 질량. 기호 M, 단위 g mol^-1. 상대 화학식량과 같은 수예요.",
 
     // Molar mass: weighing instead of counting > table > caption
-    "Same number, different meaning": "",
+    "Same number, different meaning": "같은 수, 다른 뜻",
 
     // Molar mass: weighing instead of counting > table > th
     // widget string (assets/js/widgets-s1-4.js)
-    "Quantity": "",
+    "Quantity": "양",
 
     // Molar mass: weighing instead of counting > table > th
-    "Symbol": "",
+    "Symbol": "기호",
 
     // Molar mass: weighing instead of counting > table > th
-    "For water": "",
+    "For water": "물의 경우",
 
     // Molar mass: weighing instead of counting > table > th
-    "Units": "",
+    "Units": "단위",
 
     // Molar mass: weighing instead of counting > table > th
     // widget string (assets/js/widgets-s1-4.js)
-    "Relative formula mass": "",
+    "Relative formula mass": "상대 화학식량",
 
     // Molar mass: weighing instead of counting > table > td
-    "<i>M</i><sub>r</sub>": "",
+    "<i>M</i><sub>r</sub>": "<i>M</i><sub>r</sub>",
 
     // Molar mass: weighing instead of counting > table > td
-    "none": "",
+    "none": "없음",
 
     // Molar mass: weighing instead of counting > table > td
-    "<span class=\"unit\">g mol-1</span>": "",
+    "<span class=\"unit\">g mol-1</span>": "<span class=\"unit\">g mol-1</span>",
 
     // Molar mass: weighing instead of counting > table > th
-    "Mass of your sample": "",
+    "Mass of your sample": "시료의 질량",
 
     // Molar mass: weighing instead of counting > table > td
-    "whatever you weighed": "",
+    "whatever you weighed": "잰 값 그대로",
 
     // Molar mass: weighing instead of counting > equation > dd
-    "mass of the sample <span class=\"unit\">g</span>": "",
+    "mass of the sample <span class=\"unit\">g</span>": "시료의 질량 <span class=\"unit\">g</span>",
 
     // Molar mass: weighing instead of counting > equation > dd
-    "molar mass <span class=\"unit\">g mol-1</span>": "",
+    "molar mass <span class=\"unit\">g mol-1</span>": "몰 질량 <span class=\"unit\">g mol-1</span>",
 
     // Molar mass: weighing instead of counting > data booklet note > p
-    "<i>n</i> = <i>m</i> / <i>M</i> is printed in the data booklet. Rearranged: <span class=\"mono\"><i>m</i> = <i>n</i> × <i>M</i></span> and <span class=\"mono\"><i>M</i> = <i>m</i> ÷ <i>n</i></span>.": "",
+    "<i>n</i> = <i>m</i> / <i>M</i> is printed in the data booklet. Rearranged: <span class=\"mono\"><i>m</i> = <i>n</i> × <i>M</i></span> and <span class=\"mono\"><i>M</i> = <i>m</i> ÷ <i>n</i></span>.": "<i>n</i> = <i>m</i> / <i>M</i>은 데이터 부클릿에 나와 있어요. 식을 바꾸면: <span class=\"mono\"><i>m</i> = <i>n</i> × <i>M</i></span>, <span class=\"mono\"><i>M</i> = <i>m</i> ÷ <i>n</i></span>.",
 
     // Molar mass: weighing instead of counting > p
-    "Let the units check your rearrangement. Grams divided by grams-per-mole gives moles: <span class=\"mono\">g ÷ g mol<sup>−1</sup> = mol</span>. If your units come out as something else, the formula is upside down.": "",
+    "Let the units check your rearrangement. Grams divided by grams-per-mole gives moles: <span class=\"mono\">g ÷ g mol<sup>−1</sup> = mol</span>. If your units come out as something else, the formula is upside down.": "식을 바르게 바꿨는지 단위로 확인하세요. 그램을 몰당 그램으로 나누면 몰이 돼요: <span class=\"mono\">g ÷ g mol<sup>−1</sup> = mol</span>. 단위가 다르게 나오면 식이 뒤집힌 거예요.",
 
     // Molar mass: weighing instead of counting > h3
     // Molar mass: weighing instead of counting > widget > data-title attribute
-    "The mole map": "",
+    "The mole map": "몰 지도",
 
     // Molar mass: weighing instead of counting > p
-    "Mass, particles, solutions and gases never convert directly into each other. Each one converts to moles, and moles convert to each of the others. That is the whole topic in one picture.": "",
+    "Mass, particles, solutions and gases never convert directly into each other. Each one converts to moles, and moles convert to each of the others. That is the whole topic in one picture.": "질량, 입자 수, 용액, 기체는 서로 직접 바뀌지 않아요. 각각 몰로 바뀌고, 몰은 다시 나머지 각각으로 바뀌어요. 이 그림 하나가 이 단원 전체예요.",
 
     // Molar mass: weighing instead of counting > widget > figcaption
-    "Choose what you are given and what you want, then type a value and a formula. The route lights up and the working appears line by line with units. Solutions are covered in section 1.4.5. The gas-volume link uses the molar volume at STP from the data booklet, which belongs to topic 1.5.": "",
+    "Choose what you are given and what you want, then type a value and a formula. The route lights up and the working appears line by line with units. Solutions are covered in section 1.4.5. The gas-volume link uses the molar volume at STP from the data booklet, which belongs to topic 1.5.": "주어진 것과 구할 것을 고른 다음, 값과 화학식을 입력하세요. 경로에 불이 들어오고 풀이가 단위와 함께 한 줄씩 나타나요. 용액은 1.4.5절에서 다뤄요. 기체 부피 연결은 데이터 부클릿의 STP 몰 부피를 쓰는데, 이것은 1.5 단원 내용이에요.",
 
     // Molar mass: weighing instead of counting > li
-    "Ask the three questions. Find “given” and “wanted” on the mole map.": "",
+    "Ask the three questions. Find “given” and “wanted” on the mole map.": "세 가지 질문을 하세요. 몰 지도에서 “주어진 것”과 “구할 것”을 찾으세요.",
 
     // Molar mass: weighing instead of counting > li
-    "If mass is involved, work out the molar mass <i>M</i> from the formula.": "",
+    "If mass is involved, work out the molar mass <i>M</i> from the formula.": "질량이 관련되면 화학식으로 몰 질량 <i>M</i>을 구하세요.",
 
     // Molar mass: weighing instead of counting > li
-    "Step 1: convert what you are given into moles.": "",
+    "Step 1: convert what you are given into moles.": "1단계: 주어진 것을 몰로 바꾸세요.",
 
     // Molar mass: weighing instead of counting > li
-    "Step 2: convert moles into what you want. If the question asks about atoms or ions inside the formula, multiply by the subscript while you are in moles.": "",
+    "Step 2: convert moles into what you want. If the question asks about atoms or ions inside the formula, multiply by the subscript while you are in moles.": "2단계: 몰을 구할 것으로 바꾸세요. 화학식 속의 원자나 이온을 묻는다면, 몰 단계에 있을 때 아래 첨자를 곱하세요.",
 
     // Molar mass: weighing instead of counting > li
-    "Round once at the end and add the unit.": "",
+    "Round once at the end and add the unit.": "마지막에 한 번 반올림하고 단위를 붙이세요.",
 
     // Molar mass: weighing instead of counting > worked example > h3
-    "Mass to moles": "",
+    "Mass to moles": "질량에서 몰로",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "Calculate the amount, in mol, of calcium carbonate in a 12.5 g piece of marble. Assume the marble is pure <span class=\"chem\">CaCO3</span>.": "",
+    "Calculate the amount, in mol, of calcium carbonate in a 12.5 g piece of marble. Assume the marble is pure <span class=\"chem\">CaCO3</span>.": "대리석 12.5 g 조각에 들어 있는 탄산 칼슘의 양을 mol 단위로 계산하시오 (calculate). 대리석은 순수한 <span class=\"chem\">CaCO3</span>라고 가정하시오.",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "Given: a mass in g. Wanted: an amount in mol. Link: molar mass.": "",
+    "Given: a mass in g. Wanted: an amount in mol. Link: molar mass.": "주어진 것: g 단위의 질량. 구할 것: mol 단위의 양. 연결 고리: 몰 질량.",
 
     // Molar mass: weighing instead of counting > worked example > data-title attribute
-    "Find the molar mass": "",
+    "Find the molar mass": "몰 질량 구하기",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "You need <i>M</i> before you can use the relationship. One Ca, one C, three O.": "",
+    "You need <i>M</i> before you can use the relationship. One Ca, one C, three O.": "관계식을 쓰려면 먼저 <i>M</i>이 필요해요. Ca 1개, C 1개, O 3개.",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "Keep the extra digits in your calculator for now.": "",
+    "Keep the extra digits in your calculator for now.": "지금은 계산기에 남는 자릿수를 그대로 두세요.",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "The mass has 3 significant figures.": "",
+    "The mass has 3 significant figures.": "질량은 유효 숫자가 3자리예요.",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "0.125 mol of CaCO<sub>3</sub>": "",
+    "0.125 mol of CaCO<sub>3</sub>": "CaCO<sub>3</sub> 0.125 mol",
 
     // Molar mass: weighing instead of counting > worked example > h3
-    "Mass to number of atoms (two links)": "",
+    "Mass to number of atoms (two links)": "질량에서 원자 수로 (연결 고리 2개)",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "Calculate the number of oxygen atoms in 4.90 g of sulfuric acid, <span class=\"chem\">H2SO4</span>.": "",
+    "Calculate the number of oxygen atoms in 4.90 g of sulfuric acid, <span class=\"chem\">H2SO4</span>.": "황산 <span class=\"chem\">H2SO4</span> 4.90 g에 들어 있는 산소 원자 수를 계산하시오 (calculate).",
 
     // Molar mass: weighing instead of counting > worked example > data-title attribute
-    "Plan the route on the mole map": "",
+    "Plan the route on the mole map": "몰 지도에서 경로 계획하기",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "Mass and particles do not connect directly. Go mass → moles of H<sub>2</sub>SO<sub>4</sub> → moles of O atoms → number of O atoms.": "",
+    "Mass and particles do not connect directly. Go mass → moles of H<sub>2</sub>SO<sub>4</sub> → moles of O atoms → number of O atoms.": "질량과 입자 수는 직접 연결되지 않아요. 질량 → H<sub>2</sub>SO<sub>4</sub>의 몰 → O 원자의 몰 → O 원자 수 순서로 가세요.",
 
     // Molar mass: weighing instead of counting > worked example > maths line
-    "g &nbsp;→&nbsp; mol H<sub>2</sub>SO<sub>4</sub> &nbsp;→&nbsp; mol O &nbsp;→&nbsp; number of O atoms": "",
+    "g &nbsp;→&nbsp; mol H<sub>2</sub>SO<sub>4</sub> &nbsp;→&nbsp; mol O &nbsp;→&nbsp; number of O atoms": "g &nbsp;→&nbsp; mol H<sub>2</sub>SO<sub>4</sub> &nbsp;→&nbsp; mol O &nbsp;→&nbsp; O 원자 수",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "Mass is involved, so <i>M</i> is needed.": "",
+    "Mass is involved, so <i>M</i> is needed.": "질량이 관련되므로 <i>M</i>이 필요해요.",
 
     // Molar mass: weighing instead of counting > worked example > data-title attribute
-    "Convert mass to moles": "",
+    "Convert mass to moles": "질량을 몰로 바꾸기",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "This is the first link: <i>n</i> = <i>m</i> ÷ <i>M</i>.": "",
+    "This is the first link: <i>n</i> = <i>m</i> ÷ <i>M</i>.": "이것이 첫 번째 연결 고리예요: <i>n</i> = <i>m</i> ÷ <i>M</i>.",
 
     // Molar mass: weighing instead of counting > worked example > data-title attribute
-    "Use the subscript": "",
+    "Use the subscript": "아래 첨자 쓰기",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "Each H<sub>2</sub>SO<sub>4</sub> contains 4 oxygen atoms.": "",
+    "Each H<sub>2</sub>SO<sub>4</sub> contains 4 oxygen atoms.": "H<sub>2</sub>SO<sub>4</sub> 하나에는 산소 원자가 4개 들어 있어요.",
 
     // Molar mass: weighing instead of counting > worked example > data-title attribute
-    "Convert moles to a number and round": "",
+    "Convert moles to a number and round": "몰을 개수로 바꾸고 반올림하기",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "Second link: multiply by <i>N</i><sub>A</sub>. Round to the 3 significant figures of the data.": "",
+    "Second link: multiply by <i>N</i><sub>A</sub>. Round to the 3 significant figures of the data.": "두 번째 연결 고리: <i>N</i><sub>A</sub>를 곱해요. 자료에 맞춰 유효 숫자 3자리로 반올림하세요.",
 
     // Molar mass: weighing instead of counting > worked example > maths line
-    "<i>N</i>(O) = <b>1.20 × 10<sup>23</sup> atoms</b>": "",
+    "<i>N</i>(O) = <b>1.20 × 10<sup>23</sup> atoms</b>": "<i>N</i>(O) = <b>원자 1.20 × 10<sup>23</sup>개</b>",
 
     // Molar mass: weighing instead of counting > worked example > p
-    "1.20 × 10<sup>23</sup> oxygen atoms": "",
+    "1.20 × 10<sup>23</sup> oxygen atoms": "산소 원자 1.20 × 10<sup>23</sup>개",
 
     // Molar mass: weighing instead of counting > common mistake > p
-    "Multiplying when you should divide is the classic slip. Estimate first: 4.90 g is much less than one mole of H<sub>2</sub>SO<sub>4</sub> (98.09 g), so the amount must be much less than 1 mol. An answer of 481 mol cannot be right.": "",
+    "Multiplying when you should divide is the classic slip. Estimate first: 4.90 g is much less than one mole of H<sub>2</sub>SO<sub>4</sub> (98.09 g), so the amount must be much less than 1 mol. An answer of 481 mol cannot be right.": "나눠야 할 때 곱하는 것이 가장 흔한 실수예요. 먼저 어림해 보세요: 4.90 g은 H<sub>2</sub>SO<sub>4</sub> 1몰(98.09 g)보다 훨씬 적으므로, 양은 1 mol보다 훨씬 작아야 해요. 481 mol이라는 답은 맞을 수 없어요.",
 
     // Molar mass: weighing instead of counting > try it > p
-    "Calculate the mass of 0.0450 mol of sodium hydroxide, <span class=\"chem\">NaOH</span>. (<i>A</i><sub>r</sub>: Na 22.99, O 16.00, H 1.01)": "",
+    "Calculate the mass of 0.0450 mol of sodium hydroxide, <span class=\"chem\">NaOH</span>. (<i>A</i><sub>r</sub>: Na 22.99, O 16.00, H 1.01)": "수산화 나트륨 <span class=\"chem\">NaOH</span> 0.0450 mol의 질량을 계산하시오 (calculate). (<i>A</i><sub>r</sub>: Na 22.99, O 16.00, H 1.01)",
 
     // Molar mass: weighing instead of counting > try it > li
-    "You have moles and want grams. Rearrange <i>n</i> = <i>m</i> / <i>M</i> to make <i>m</i> the subject.": "",
+    "You have moles and want grams. Rearrange <i>n</i> = <i>m</i> / <i>M</i> to make <i>m</i> the subject.": "몰을 알고 그램을 구하려고 해요. <i>n</i> = <i>m</i> / <i>M</i>을 <i>m</i>에 대한 식으로 바꾸세요.",
 
     // Molar mass: weighing instead of counting > try it > li
-    "<i>M</i>(NaOH) = 22.99 + 16.00 + 1.01 = 40.00 g mol<sup>−1</sup>. Then <i>m</i> = <i>n</i> × <i>M</i>.": "",
+    "<i>M</i>(NaOH) = 22.99 + 16.00 + 1.01 = 40.00 g mol<sup>−1</sup>. Then <i>m</i> = <i>n</i> × <i>M</i>.": "<i>M</i>(NaOH) = 22.99 + 16.00 + 1.01 = 40.00 g mol<sup>−1</sup>. 그다음 <i>m</i> = <i>n</i> × <i>M</i>.",
 
     // Molar mass: weighing instead of counting > try it > p
-    "<strong>1.80 g</strong> (3 significant figures).": "",
+    "<strong>1.80 g</strong> (3 significant figures).": "<strong>1.80 g</strong> (유효 숫자 3자리).",
 
     // Molar mass: weighing instead of counting > try it > p
-    "A sample of carbon dioxide contains 3.01 × 10<sup>22</sup> molecules. Calculate its mass. (<i>A</i><sub>r</sub>: C 12.01, O 16.00)": "",
+    "A sample of carbon dioxide contains 3.01 × 10<sup>22</sup> molecules. Calculate its mass. (<i>A</i><sub>r</sub>: C 12.01, O 16.00)": "이산화 탄소 시료에 분자 3.01 × 10<sup>22</sup>개가 들어 있어요. 이 시료의 질량을 계산하시오 (calculate). (<i>A</i><sub>r</sub>: C 12.01, O 16.00)",
 
     // Molar mass: weighing instead of counting > try it > li
-    "Particles and mass do not connect directly. Which quantity do you go through?": "",
+    "Particles and mass do not connect directly. Which quantity do you go through?": "입자 수와 질량은 직접 연결되지 않아요. 어떤 양을 거쳐 가야 할까요?",
 
     // Molar mass: weighing instead of counting > try it > li
-    "First <i>n</i> = <i>N</i> ÷ <i>N</i><sub>A</sub>. Then <i>m</i> = <i>n</i> × <i>M</i>, with <i>M</i>(CO<sub>2</sub>) = 44.01 g mol<sup>−1</sup>.": "",
+    "First <i>n</i> = <i>N</i> ÷ <i>N</i><sub>A</sub>. Then <i>m</i> = <i>n</i> × <i>M</i>, with <i>M</i>(CO<sub>2</sub>) = 44.01 g mol<sup>−1</sup>.": "먼저 <i>n</i> = <i>N</i> ÷ <i>N</i><sub>A</sub>. 그다음 <i>m</i> = <i>n</i> × <i>M</i>, 여기서 <i>M</i>(CO<sub>2</sub>) = 44.01 g mol<sup>−1</sup>.",
 
     // Molar mass: weighing instead of counting > try it > p
-    "To 3 significant figures: <strong>2.20 g</strong>.": "",
+    "To 3 significant figures: <strong>2.20 g</strong>.": "유효 숫자 3자리로: <strong>2.20 g</strong>.",
 
     // Molar mass: weighing instead of counting > not needed for IB > data-title attribute
     // Concentration of solutions > not needed for IB > data-title attribute
     // Avogadro’s law and reacting gas volumes > not needed for IB > data-title attribute
-    "Comes later": "",
+    "Comes later": "나중에 배워요",
 
     // Molar mass: weighing instead of counting > not needed for IB > p
-    "Using molar masses with a balanced equation to find the mass of a product, and limiting reactant, percentage yield and atom economy, are all in Reactivity 2.1. They use exactly the mass ⇄ moles steps you are learning here, with one extra step in the middle.": "",
+    "Using molar masses with a balanced equation to find the mass of a product, and limiting reactant, percentage yield and atom economy, are all in Reactivity 2.1. They use exactly the mass ⇄ moles steps you are learning here, with one extra step in the middle.": "균형 맞춘 반응식과 몰 질량으로 생성물의 질량을 구하는 것, 그리고 한계 반응물, 수득률, 원자 경제성은 모두 Reactivity 2.1에서 배워요. 여기서 배우는 질량 ⇄ 몰 단계를 그대로 쓰고, 가운데에 한 단계가 더 들어갈 뿐이에요.",
 
     // Molar mass: weighing instead of counting > data-title attribute
-    "Molar mass: quick check": "",
+    "Molar mass: quick check": "몰 질량: 빠른 확인",
 
     // Empirical and molecular formulas > data-toc attribute
     // Empirical and molecular formulas > h2
-    "Empirical and molecular formulas": "",
+    "Empirical and molecular formulas": "실험식과 분자식",
 
     // Empirical and molecular formulas > p
-    "A recipe that says “2 parts flour to 1 part butter” gives you the ratio, but not how big the batch is. Chemical formulas come in the same two kinds.": "",
+    "A recipe that says “2 parts flour to 1 part butter” gives you the ratio, but not how big the batch is. Chemical formulas come in the same two kinds.": "“밀가루 2, 버터 1의 비율”이라고 쓴 조리법은 비율은 알려 주지만 한 번에 얼마나 만드는지는 알려 주지 않아요. 화학식도 똑같이 두 종류가 있어요.",
 
     // Empirical and molecular formulas > p
-    "The <dfn data-def=\"The simplest whole-number ratio of atoms of each element present in a compound.\">empirical formula</dfn> of a compound gives the simplest ratio of atoms of each element present in it. The <dfn data-def=\"The actual number of atoms of each element present in one molecule.\">molecular formula</dfn> gives the actual number of atoms of each element present in a molecule.": "",
+    "The <dfn data-def=\"The simplest whole-number ratio of atoms of each element present in a compound.\">empirical formula</dfn> of a compound gives the simplest ratio of atoms of each element present in it. The <dfn data-def=\"The actual number of atoms of each element present in one molecule.\">molecular formula</dfn> gives the actual number of atoms of each element present in a molecule.": "화합물의 <dfn data-def=\"화합물에 들어 있는 각 원소의 원자 수를 가장 간단한 정수비로 나타낸 것.\">실험식 <span class=\"en-term\">(empirical formula)</span></dfn>은 그 화합물에 들어 있는 각 원소의 원자 수를 가장 간단한 비로 나타내요. <dfn data-def=\"분자 하나에 들어 있는 각 원소의 실제 원자 수.\">분자식 <span class=\"en-term\">(molecular formula)</span></dfn>은 분자 하나에 들어 있는 각 원소의 실제 원자 수를 나타내요.",
 
     // Empirical and molecular formulas > data-def attribute
-    "The simplest whole-number ratio of atoms of each element present in a compound.": "",
+    "The simplest whole-number ratio of atoms of each element present in a compound.": "화합물에 들어 있는 각 원소의 원자 수를 가장 간단한 정수비로 나타낸 것.",
 
     // Empirical and molecular formulas > data-def attribute
-    "The actual number of atoms of each element present in one molecule.": "",
+    "The actual number of atoms of each element present in one molecule.": "분자 하나에 들어 있는 각 원소의 실제 원자 수.",
 
     // Empirical and molecular formulas > table > caption
-    "Empirical and molecular formulas compared": "",
+    "Empirical and molecular formulas compared": "실험식과 분자식 비교",
 
     // Empirical and molecular formulas > table > th
-    "Compound": "",
-
-    // Empirical and molecular formulas > table > th
-    // widget string (assets/js/widgets-s1-4.js)
-    "Molecular formula": "",
+    "Compound": "화합물",
 
     // Empirical and molecular formulas > table > th
     // widget string (assets/js/widgets-s1-4.js)
-    "Empirical formula": "",
-
-    // Empirical and molecular formulas > table > th
-    "Molecular ÷ empirical": "",
+    "Molecular formula": "분자식",
 
     // Empirical and molecular formulas > table > th
     // widget string (assets/js/widgets-s1-4.js)
-    "glucose": "",
+    "Empirical formula": "실험식",
+
+    // Empirical and molecular formulas > table > th
+    "Molecular ÷ empirical": "분자식 ÷ 실험식",
+
+    // Empirical and molecular formulas > table > th
+    // widget string (assets/js/widgets-s1-4.js)
+    "glucose": "포도당",
 
     // Empirical and molecular formulas > table > td
-    "<span class=\"chem\">CH2O</span>": "",
+    "<span class=\"chem\">CH2O</span>": "<span class=\"chem\">CH2O</span>",
 
     // Empirical and molecular formulas > table > th
-    "ethene": "",
+    "ethene": "ethene(에텐)",
 
     // Empirical and molecular formulas > table > td
-    "<span class=\"chem\">CH2</span>": "",
+    "<span class=\"chem\">CH2</span>": "<span class=\"chem\">CH2</span>",
 
     // Empirical and molecular formulas > table > th
-    "hydrogen peroxide": "",
+    "hydrogen peroxide": "과산화 수소",
 
     // Empirical and molecular formulas > table > td
-    "<span class=\"chem\">HO</span>": "",
+    "<span class=\"chem\">HO</span>": "<span class=\"chem\">HO</span>",
 
     // Empirical and molecular formulas > table > th
     // widget string (assets/js/widgets-s1-4.js)
-    "water": "",
+    "water": "물",
 
     // Empirical and molecular formulas > p
-    "The molecular formula is always a whole-number multiple of the empirical formula. Sometimes the multiple is 1 and the two are the same. Ionic compounds such as <span class=\"chem\">NaCl</span> have no molecules, so their formula is already an empirical formula.": "",
+    "The molecular formula is always a whole-number multiple of the empirical formula. Sometimes the multiple is 1 and the two are the same. Ionic compounds such as <span class=\"chem\">NaCl</span> have no molecules, so their formula is already an empirical formula.": "분자식은 항상 실험식의 정수배예요. 그 배수가 1이어서 둘이 같을 때도 있어요. <span class=\"chem\">NaCl</span> 같은 이온 결합 화합물에는 분자가 없으므로, 화학식이 이미 실험식이에요.",
 
     // Empirical and molecular formulas > h3
-    "From a formula to percentage composition": "",
+    "From a formula to percentage composition": "화학식에서 질량 백분율 조성으로",
 
     // Empirical and molecular formulas > p
-    "<dfn data-def=\"The percentage of the total mass of a compound that is due to each element.\">Percentage composition by mass</dfn> says what share of a compound’s mass comes from each element.": "",
+    "<dfn data-def=\"The percentage of the total mass of a compound that is due to each element.\">Percentage composition by mass</dfn> says what share of a compound’s mass comes from each element.": "<dfn data-def=\"화합물의 전체 질량 중 각 원소가 차지하는 백분율.\">질량 백분율 조성 <span class=\"en-term\">(percentage composition by mass)</span></dfn>은 화합물의 질량 중 각 원소가 차지하는 몫을 알려 줘요.",
 
     // Empirical and molecular formulas > data-def attribute
-    "The percentage of the total mass of a compound that is due to each element.": "",
+    "The percentage of the total mass of a compound that is due to each element.": "화합물의 전체 질량 중 각 원소가 차지하는 백분율.",
 
     // Empirical and molecular formulas > equation > maths line
-    "% of element = <span class=\"frac\"><span>atoms of element × <i>A</i><sub>r</sub></span><span><i>M</i><sub>r</sub></span></span> × 100": "",
+    "% of element = <span class=\"frac\"><span>atoms of element × <i>A</i><sub>r</sub></span><span><i>M</i><sub>r</sub></span></span> × 100": "원소의 % = <span class=\"frac\"><span>원소의 원자 수 × <i>A</i><sub>r</sub></span><span><i>M</i><sub>r</sub></span></span> × 100",
 
     // Empirical and molecular formulas > equation > dt
-    "A<sub>r</sub>": "",
+    "A<sub>r</sub>": "A<sub>r</sub>",
 
     // Empirical and molecular formulas > equation > dd
-    "relative atomic mass of the element (no units)": "",
+    "relative atomic mass of the element (no units)": "원소의 상대 원자 질량 (단위 없음)",
 
     // Empirical and molecular formulas > equation > dt
-    "M<sub>r</sub>": "",
+    "M<sub>r</sub>": "M<sub>r</sub>",
 
     // Empirical and molecular formulas > equation > dd
-    "relative formula mass of the compound (no units)": "",
+    "relative formula mass of the compound (no units)": "화합물의 상대 화학식량 (단위 없음)",
 
     // Empirical and molecular formulas > p
-    "For iron(III) oxide, <span class=\"chem\">Fe2O3</span>: <i>M</i><sub>r</sub> = <span class=\"mono\">2(55.85) + 3(16.00) = 159.70</span>. So the percentage of iron is <span class=\"mono\">111.70 ÷ 159.70 × 100 = 69.94 %</span>, and oxygen is the rest, <span class=\"mono\">30.06 %</span>. The percentages must add up to 100.": "",
+    "For iron(III) oxide, <span class=\"chem\">Fe2O3</span>: <i>M</i><sub>r</sub> = <span class=\"mono\">2(55.85) + 3(16.00) = 159.70</span>. So the percentage of iron is <span class=\"mono\">111.70 ÷ 159.70 × 100 = 69.94 %</span>, and oxygen is the rest, <span class=\"mono\">30.06 %</span>. The percentages must add up to 100.": "산화 철(III) <span class=\"chem\">Fe2O3</span>의 경우: <i>M</i><sub>r</sub> = <span class=\"mono\">2(55.85) + 3(16.00) = 159.70</span>. 따라서 철의 백분율은 <span class=\"mono\">111.70 ÷ 159.70 × 100 = 69.94 %</span>이고, 산소는 나머지인 <span class=\"mono\">30.06 %</span>예요. 백분율을 모두 더하면 100이 되어야 해요.",
 
     // Empirical and molecular formulas > try it > p
-    "Urea, <span class=\"chem\">CO(NH2)2</span>, is used as a fertilizer because of its nitrogen content. Calculate the percentage by mass of nitrogen in urea. (<i>A</i><sub>r</sub>: C 12.01, O 16.00, N 14.01, H 1.01)": "",
+    "Urea, <span class=\"chem\">CO(NH2)2</span>, is used as a fertilizer because of its nitrogen content. Calculate the percentage by mass of nitrogen in urea. (<i>A</i><sub>r</sub>: C 12.01, O 16.00, N 14.01, H 1.01)": "요소 <span class=\"chem\">CO(NH2)2</span>는 질소를 포함하고 있어서 비료로 쓰여요. 요소에서 질소의 질량 백분율을 계산하시오 (calculate). (<i>A</i><sub>r</sub>: C 12.01, O 16.00, N 14.01, H 1.01)",
 
     // Empirical and molecular formulas > try it > li
-    "How many nitrogen atoms are in the formula? The 2 outside the bracket matters.": "",
+    "How many nitrogen atoms are in the formula? The 2 outside the bracket matters.": "화학식에 질소 원자가 몇 개 있을까요? 괄호 밖의 2가 중요해요.",
 
     // Empirical and molecular formulas > try it > li
-    "<i>M</i><sub>r</sub> = 12.01 + 16.00 + 2(14.01) + 4(1.01) = 60.07. Then % N = <span class=\"mono\">2(14.01) ÷ 60.07 × 100</span>.": "",
+    "<i>M</i><sub>r</sub> = 12.01 + 16.00 + 2(14.01) + 4(1.01) = 60.07. Then % N = <span class=\"mono\">2(14.01) ÷ 60.07 × 100</span>.": "<i>M</i><sub>r</sub> = 12.01 + 16.00 + 2(14.01) + 4(1.01) = 60.07. 그다음 N의 % = <span class=\"mono\">2(14.01) ÷ 60.07 × 100</span>.",
 
     // Empirical and molecular formulas > try it > p
-    "To 3 significant figures: <strong>46.6 %</strong>.": "",
+    "To 3 significant figures: <strong>46.6 %</strong>.": "유효 숫자 3자리로: <strong>46.6 %</strong>.",
 
     // Empirical and molecular formulas > h3
-    "From composition to an empirical formula: the table method": "",
+    "From composition to an empirical formula: the table method": "조성에서 실험식으로: 표 방법",
 
     // Empirical and molecular formulas > p
-    "Going the other way is the more common exam question. A formula is a ratio of <em>atoms</em>, which means a ratio of <em>moles</em>. But the data are masses. So the job is: convert each mass to moles, then simplify the ratio.": "",
+    "Going the other way is the more common exam question. A formula is a ratio of <em>atoms</em>, which means a ratio of <em>moles</em>. But the data are masses. So the job is: convert each mass to moles, then simplify the ratio.": "반대 방향으로 가는 문제가 시험에 더 자주 나와요. 화학식은 <em>원자</em>의 비, 즉 <em>몰</em>의 비예요. 그런데 자료는 질량이에요. 그러니 할 일은: 각 질량을 몰로 바꾼 다음, 비를 간단히 하는 거예요.",
 
     // Empirical and molecular formulas > li
-    "Make a column for each element. Write its mass in g. If you are given percentages, imagine a 100 g sample, so 40 % becomes 40 g.": "",
+    "Make a column for each element. Write its mass in g. If you are given percentages, imagine a 100 g sample, so 40 % becomes 40 g.": "원소마다 열을 하나씩 만드세요. 각 원소의 질량을 g 단위로 쓰세요. 백분율이 주어지면 100 g 시료를 떠올리세요. 그러면 40 %는 40 g이 돼요.",
 
     // Empirical and molecular formulas > li
-    "Divide each mass by that element’s <i>A</i><sub>r</sub>. This gives the amount of each element in mol.": "",
+    "Divide each mass by that element’s <i>A</i><sub>r</sub>. This gives the amount of each element in mol.": "각 질량을 그 원소의 <i>A</i><sub>r</sub>로 나누세요. 그러면 각 원소의 양이 mol 단위로 나와요.",
 
     // Empirical and molecular formulas > li
-    "Divide every amount by the smallest one. The smallest becomes 1.": "",
+    "Divide every amount by the smallest one. The smallest becomes 1.": "모든 양을 가장 작은 양으로 나누세요. 가장 작은 것이 1이 돼요.",
 
     // Empirical and molecular formulas > li
-    "If every number is now within about 0.1 of a whole number, round. If one ends in about .5, multiply them all by 2. If one ends in about .33 or .67, multiply by 3. If one ends in .25 or .75, multiply by 4.": "",
+    "If every number is now within about 0.1 of a whole number, round. If one ends in about .5, multiply them all by 2. If one ends in about .33 or .67, multiply by 3. If one ends in .25 or .75, multiply by 4.": "이제 모든 수가 정수에서 약 0.1 이내라면 반올림하세요. 하나가 약 .5로 끝나면 모두에 2를 곱하세요. 하나가 약 .33이나 .67로 끝나면 3을 곱하세요. 하나가 .25나 .75로 끝나면 4를 곱하세요.",
 
     // Empirical and molecular formulas > li
-    "Write the formula with the whole numbers as subscripts.": "",
+    "Write the formula with the whole numbers as subscripts.": "정수를 아래 첨자로 해서 화학식을 쓰세요.",
 
     // Empirical and molecular formulas > worked example > h3
-    "Empirical formula from percentage composition": "",
+    "Empirical formula from percentage composition": "질량 백분율 조성에서 실험식 구하기",
 
     // Empirical and molecular formulas > worked example > p
-    "A compound contains 48.64 % carbon, 8.16 % hydrogen and 43.20 % oxygen by mass. Determine its empirical formula.": "",
+    "A compound contains 48.64 % carbon, 8.16 % hydrogen and 43.20 % oxygen by mass. Determine its empirical formula.": "어떤 화합물은 질량으로 탄소 48.64 %, 수소 8.16 %, 산소 43.20 %를 포함해요. 이 화합물의 실험식을 구하시오 (determine).",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Turn percentages into masses": "",
+    "Turn percentages into masses": "백분율을 질량으로 바꾸기",
 
     // Empirical and molecular formulas > worked example > p
-    "In a 100 g sample, each percentage is the mass in grams. Any sample size gives the same ratio, and 100 g is the easiest.": "",
+    "In a 100 g sample, each percentage is the mass in grams. Any sample size gives the same ratio, and 100 g is the easiest.": "100 g 시료에서는 각 백분율이 곧 그램 단위의 질량이에요. 시료의 크기가 얼마든 같은 비가 나오는데, 100 g이 가장 쉬워요.",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Convert each mass to moles": "",
+    "Convert each mass to moles": "각 질량을 몰로 바꾸기",
 
     // Empirical and molecular formulas > worked example > p
-    "A formula counts atoms, so you need amounts, not masses. Use <i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub>.": "",
+    "A formula counts atoms, so you need amounts, not masses. Use <i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub>.": "화학식은 원자를 세므로, 질량이 아니라 양이 필요해요. <i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub>를 쓰세요.",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Divide by the smallest": "",
+    "Divide by the smallest": "가장 작은 값으로 나누기",
 
     // Empirical and molecular formulas > worked example > p
-    "This sets the smallest amount to 1 and shows the ratio clearly. The smallest is 2.700.": "",
+    "This sets the smallest amount to 1 and shows the ratio clearly. The smallest is 2.700.": "이렇게 하면 가장 작은 양이 1이 되고 비가 분명히 보여요. 가장 작은 값은 2.700이에요.",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Clear the fraction": "",
+    "Clear the fraction": "분수 없애기",
 
     // Empirical and molecular formulas > worked example > p
-    "1.50 is not close to a whole number, so it must not be rounded. Multiplying everything by 2 turns it into 3.": "",
+    "1.50 is not close to a whole number, so it must not be rounded. Multiplying everything by 2 turns it into 3.": "1.50은 정수에 가깝지 않으므로 반올림하면 안 돼요. 모두에 2를 곱하면 3이 돼요.",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Write the formula": "",
+    "Write the formula": "화학식 쓰기",
 
     // Empirical and molecular formulas > worked example > p
-    "5.98 is within experimental error of 6, so the ratio is 3 : 6 : 2.": "",
+    "5.98 is within experimental error of 6, so the ratio is 3 : 6 : 2.": "5.98은 실험 오차 범위 안에서 6이므로, 비는 3 : 6 : 2예요.",
 
     // Empirical and molecular formulas > worked example > maths line
-    "empirical formula = <b>C<sub>3</sub>H<sub>6</sub>O<sub>2</sub></b>": "",
+    "empirical formula = <b>C<sub>3</sub>H<sub>6</sub>O<sub>2</sub></b>": "실험식 = <b>C<sub>3</sub>H<sub>6</sub>O<sub>2</sub></b>",
 
     // Empirical and molecular formulas > widget > data-title attribute
-    "Empirical formula solver": "",
+    "Empirical formula solver": "실험식 풀이 도구",
 
     // Empirical and molecular formulas > widget > figcaption
-    "Enter your own percentages or masses and watch each column of the table method fill in. Switch to “Combustion analysis” for CO<sub>2</sub> and H<sub>2</sub>O data. Add a molar mass to get the molecular formula too.": "",
+    "Enter your own percentages or masses and watch each column of the table method fill in. Switch to “Combustion analysis” for CO<sub>2</sub> and H<sub>2</sub>O data. Add a molar mass to get the molecular formula too.": "직접 백분율이나 질량을 입력하고 표 방법의 각 열이 채워지는 것을 보세요. CO<sub>2</sub>와 H<sub>2</sub>O 자료를 쓰려면 “연소 분석”으로 바꾸세요. 몰 질량을 넣으면 분자식도 구할 수 있어요.",
 
     // Empirical and molecular formulas > common mistake > p
-    "Three slips cause most wrong formulas. Using the percentages directly as the ratio, without dividing by <i>A</i><sub>r</sub>. Dividing by atomic number instead of <i>A</i><sub>r</sub>. Rounding 1.5 up to 2, or 1.33 down to 1, instead of multiplying by 2 or 3.": "",
+    "Three slips cause most wrong formulas. Using the percentages directly as the ratio, without dividing by <i>A</i><sub>r</sub>. Dividing by atomic number instead of <i>A</i><sub>r</sub>. Rounding 1.5 up to 2, or 1.33 down to 1, instead of multiplying by 2 or 3.": "틀린 화학식은 대부분 3가지 실수에서 나와요. <i>A</i><sub>r</sub>로 나누지 않고 백분율을 그대로 비로 쓰기. <i>A</i><sub>r</sub> 대신 원자 번호로 나누기. 2나 3을 곱하지 않고 1.5를 2로 올리거나 1.33을 1로 내려 반올림하기.",
 
     // Empirical and molecular formulas > try it > p
-    "An oxide of phosphorus contains 43.64 % phosphorus and 56.36 % oxygen by mass. Its empirical formula can be written <span class=\"chem\">P2Ox</span>. Find the whole number <i>x</i>. (<i>A</i><sub>r</sub>: P 30.97, O 16.00)": "",
+    "An oxide of phosphorus contains 43.64 % phosphorus and 56.36 % oxygen by mass. Its empirical formula can be written <span class=\"chem\">P2Ox</span>. Find the whole number <i>x</i>. (<i>A</i><sub>r</sub>: P 30.97, O 16.00)": "어떤 인 산화물은 질량으로 인 43.64 %와 산소 56.36 %를 포함해요. 이 화합물의 실험식은 <span class=\"chem\">P2Ox</span>로 쓸 수 있어요. 정수 <i>x</i>를 구하시오. (<i>A</i><sub>r</sub>: P 30.97, O 16.00)",
 
     // Empirical and molecular formulas > try it > li
-    "Use the table method: divide each percentage by <i>A</i><sub>r</sub>, then divide both by the smaller answer.": "",
+    "Use the table method: divide each percentage by <i>A</i><sub>r</sub>, then divide both by the smaller answer.": "표 방법을 쓰세요: 각 백분율을 <i>A</i><sub>r</sub>로 나눈 다음, 둘 다 더 작은 값으로 나누세요.",
 
     // Empirical and molecular formulas > try it > li
-    "You should get P : O = 1 : 2.50. What do you multiply by to make both numbers whole?": "",
+    "You should get P : O = 1 : 2.50. What do you multiply by to make both numbers whole?": "P : O = 1 : 2.50이 나와야 해요. 두 수를 모두 정수로 만들려면 무엇을 곱해야 할까요?",
 
     // Empirical and molecular formulas > try it > p
-    "The empirical formula is P<sub>2</sub>O<sub>5</sub>, so <strong><i>x</i> = 5</strong>.": "",
+    "The empirical formula is P<sub>2</sub>O<sub>5</sub>, so <strong><i>x</i> = 5</strong>.": "실험식은 P<sub>2</sub>O<sub>5</sub>이므로 <strong><i>x</i> = 5</strong>예요.",
 
     // Empirical and molecular formulas > data-title attribute
-    "Composition and empirical formulas: quick check": "",
+    "Composition and empirical formulas: quick check": "조성과 실험식: 빠른 확인",
 
     // Empirical and molecular formulas > h3
-    "Empirical formula from combustion data": "",
+    "Empirical formula from combustion data": "연소 자료로 실험식 구하기",
 
     // Empirical and molecular formulas > p
-    "Many compounds contain only carbon, hydrogen and oxygen. To analyse one, a weighed sample is burned completely in excess oxygen. The carbon dioxide and the water that form are collected and weighed.": "",
+    "Many compounds contain only carbon, hydrogen and oxygen. To analyse one, a weighed sample is burned completely in excess oxygen. The carbon dioxide and the water that form are collected and weighed.": "많은 화합물이 탄소, 수소, 산소만으로 이루어져 있어요. 이런 화합물을 분석할 때는 무게를 잰 시료를 과량의 산소 속에서 완전히 태워요. 생긴 이산화 탄소와 물을 모아서 무게를 재요.",
 
     // Empirical and molecular formulas > key idea > p
-    "Every carbon atom in the sample ends up in a <span class=\"chem\">CO2</span> molecule. Every hydrogen atom ends up in an <span class=\"chem\">H2O</span> molecule. The oxygen in the products comes partly from the air, so the oxygen in the sample is found by subtraction.": "",
+    "Every carbon atom in the sample ends up in a <span class=\"chem\">CO2</span> molecule. Every hydrogen atom ends up in an <span class=\"chem\">H2O</span> molecule. The oxygen in the products comes partly from the air, so the oxygen in the sample is found by subtraction.": "시료 속의 탄소 원자는 모두 <span class=\"chem\">CO2</span> 분자로 가요. 수소 원자는 모두 <span class=\"chem\">H2O</span> 분자로 가요. 생성물 속의 산소는 일부가 공기에서 오므로, 시료 속의 산소는 빼기로 구해요.",
 
     // Empirical and molecular formulas > li
-    "Mass of C in the sample = mass of <span class=\"chem\">CO2</span> × <span class=\"mono\">12.01 ÷ 44.01</span>.": "",
+    "Mass of C in the sample = mass of <span class=\"chem\">CO2</span> × <span class=\"mono\">12.01 ÷ 44.01</span>.": "시료 속 C의 질량 = <span class=\"chem\">CO2</span>의 질량 × <span class=\"mono\">12.01 ÷ 44.01</span>.",
 
     // Empirical and molecular formulas > li
-    "Mass of H in the sample = mass of <span class=\"chem\">H2O</span> × <span class=\"mono\">2(1.01) ÷ 18.02</span>. The 2 is there because each water molecule holds two hydrogen atoms.": "",
+    "Mass of H in the sample = mass of <span class=\"chem\">H2O</span> × <span class=\"mono\">2(1.01) ÷ 18.02</span>. The 2 is there because each water molecule holds two hydrogen atoms.": "시료 속 H의 질량 = <span class=\"chem\">H2O</span>의 질량 × <span class=\"mono\">2(1.01) ÷ 18.02</span>. 물 분자 하나에 수소 원자가 두 개 있으므로 2가 들어가요.",
 
     // Empirical and molecular formulas > li
-    "Mass of O in the sample = mass of sample − mass of C − mass of H.": "",
+    "Mass of O in the sample = mass of sample − mass of C − mass of H.": "시료 속 O의 질량 = 시료의 질량 − C의 질량 − H의 질량.",
 
     // Empirical and molecular formulas > li
-    "Now use the table method on the three masses.": "",
+    "Now use the table method on the three masses.": "이제 세 질량에 표 방법을 쓰세요.",
 
     // Empirical and molecular formulas > p
-    "You can also work in moles: <i>n</i>(C) = <i>n</i>(<span class=\"chem\">CO2</span>) and <i>n</i>(H) = 2 × <i>n</i>(<span class=\"chem\">H2O</span>). You still need the masses of C and H to find the oxygen by difference.": "",
+    "You can also work in moles: <i>n</i>(C) = <i>n</i>(<span class=\"chem\">CO2</span>) and <i>n</i>(H) = 2 × <i>n</i>(<span class=\"chem\">H2O</span>). You still need the masses of C and H to find the oxygen by difference.": "몰로 계산해도 돼요: <i>n</i>(C) = <i>n</i>(<span class=\"chem\">CO2</span>), <i>n</i>(H) = 2 × <i>n</i>(<span class=\"chem\">H2O</span>). 그래도 산소를 차이로 구하려면 C와 H의 질량이 필요해요.",
 
     // Empirical and molecular formulas > worked example > h3
-    "Empirical formula from combustion analysis": "",
+    "Empirical formula from combustion analysis": "연소 분석으로 실험식 구하기",
 
     // Empirical and molecular formulas > worked example > p
-    "A compound contains only carbon, hydrogen and oxygen. Complete combustion of 0.660 g of it produces 1.319 g of <span class=\"chem\">CO2</span> and 0.540 g of <span class=\"chem\">H2O</span>. Determine the empirical formula.": "",
+    "A compound contains only carbon, hydrogen and oxygen. Complete combustion of 0.660 g of it produces 1.319 g of <span class=\"chem\">CO2</span> and 0.540 g of <span class=\"chem\">H2O</span>. Determine the empirical formula.": "어떤 화합물은 탄소, 수소, 산소만으로 이루어져 있어요. 이 화합물 0.660 g을 완전 연소시키면 <span class=\"chem\">CO2</span> 1.319 g과 <span class=\"chem\">H2O</span> 0.540 g이 생겨요. 실험식을 구하시오 (determine).",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Find the mass of carbon": "",
+    "Find the mass of carbon": "탄소의 질량 구하기",
 
     // Empirical and molecular formulas > worked example > p
-    "All the carbon is now in the CO<sub>2</sub>. Carbon makes up 12.01 out of every 44.01 g of CO<sub>2</sub>.": "",
+    "All the carbon is now in the CO<sub>2</sub>. Carbon makes up 12.01 out of every 44.01 g of CO<sub>2</sub>.": "이제 탄소는 모두 CO<sub>2</sub> 속에 있어요. CO<sub>2</sub> 44.01 g마다 12.01 g이 탄소예요.",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Find the mass of hydrogen": "",
+    "Find the mass of hydrogen": "수소의 질량 구하기",
 
     // Empirical and molecular formulas > worked example > p
-    "All the hydrogen is now in the H<sub>2</sub>O. Hydrogen makes up 2.02 out of every 18.02 g of water.": "",
+    "All the hydrogen is now in the H<sub>2</sub>O. Hydrogen makes up 2.02 out of every 18.02 g of water.": "이제 수소는 모두 H<sub>2</sub>O 속에 있어요. 물 18.02 g마다 2.02 g이 수소예요.",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Find the mass of oxygen by difference": "",
+    "Find the mass of oxygen by difference": "차이로 산소의 질량 구하기",
 
     // Empirical and molecular formulas > worked example > p
-    "Whatever is not carbon or hydrogen must be oxygen. Use unrounded values from your calculator.": "",
+    "Whatever is not carbon or hydrogen must be oxygen. Use unrounded values from your calculator.": "탄소도 수소도 아닌 것은 산소일 수밖에 없어요. 계산기의 반올림하지 않은 값을 쓰세요.",
 
     // Empirical and molecular formulas > worked example > p
-    "From here it is the ordinary table method.": "",
+    "From here it is the ordinary table method.": "여기서부터는 보통의 표 방법이에요.",
 
     // Empirical and molecular formulas > worked example > data-title attribute
-    "Divide by the smallest and write the formula": "",
+    "Divide by the smallest and write the formula": "가장 작은 값으로 나누고 화학식 쓰기",
 
     // Empirical and molecular formulas > worked example > p
-    "The smallest is 0.01497. The ratios are whole numbers within experimental error.": "",
+    "The smallest is 0.01497. The ratios are whole numbers within experimental error.": "가장 작은 값은 0.01497이에요. 비는 실험 오차 범위 안에서 정수예요.",
 
     // Empirical and molecular formulas > worked example > maths line
-    "empirical formula = <b>C<sub>2</sub>H<sub>4</sub>O</b>": "",
+    "empirical formula = <b>C<sub>2</sub>H<sub>4</sub>O</b>": "실험식 = <b>C<sub>2</sub>H<sub>4</sub>O</b>",
 
     // Empirical and molecular formulas > exam tip (shown in English + translation) > p
-    "A typical 3-mark combustion question gives one mark for the masses or amounts of C and H, one for oxygen by difference, and one for the formula. Lay your working out in that order so each mark is easy to find.": "",
+    "A typical 3-mark combustion question gives one mark for the masses or amounts of C and H, one for oxygen by difference, and one for the formula. Lay your working out in that order so each mark is easy to find.": "전형적인 3점짜리 연소 문제는 C와 H의 질량이나 양에 1점, 차이로 구한 산소에 1점, 화학식에 1점을 줘요. 각 점수를 쉽게 찾을 수 있도록 풀이를 이 순서로 쓰세요.",
 
     // Empirical and molecular formulas > try it > p
-    "A compound contains only C, H and O. Burning 1.150 g of it completely gives 2.197 g of <span class=\"chem\">CO2</span> and 1.349 g of <span class=\"chem\">H2O</span>. Calculate the mass of oxygen in the 1.150 g sample, to 3 significant figures.": "",
+    "A compound contains only C, H and O. Burning 1.150 g of it completely gives 2.197 g of <span class=\"chem\">CO2</span> and 1.349 g of <span class=\"chem\">H2O</span>. Calculate the mass of oxygen in the 1.150 g sample, to 3 significant figures.": "어떤 화합물은 C, H, O만으로 이루어져 있어요. 이 화합물 1.150 g을 완전히 태우면 <span class=\"chem\">CO2</span> 2.197 g과 <span class=\"chem\">H2O</span> 1.349 g이 생겨요. 1.150 g 시료 속 산소의 질량을 유효 숫자 3자리로 계산하시오 (calculate).",
 
     // Empirical and molecular formulas > try it > li
-    "Find the mass of carbon from the CO<sub>2</sub> and the mass of hydrogen from the H<sub>2</sub>O. Then subtract both from 1.150 g.": "",
+    "Find the mass of carbon from the CO<sub>2</sub> and the mass of hydrogen from the H<sub>2</sub>O. Then subtract both from 1.150 g.": "CO<sub>2</sub>에서 탄소의 질량을, H<sub>2</sub>O에서 수소의 질량을 구하세요. 그다음 1.150 g에서 둘을 빼세요.",
 
     // Empirical and molecular formulas > try it > li
     "<i>m</i>(C) = 2.197 × 12.01 ÷ 44.01 and <i>m</i>(H) = 1.349 × 2.02 ÷ 18.02. Do not round them before you subtract.": "",

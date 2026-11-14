@@ -276,536 +276,536 @@ S1.i18n.register('ko', 's2-2.q', {
       solution: "<div class=\"worked__math\">단일 → 이중: 614 − 346 = 268 <span class=\"unit\">kJ mol-1</span></div><div class=\"worked__math\">이중 → 삼중: 839 − 614 = 225 <span class=\"unit\">kJ mol-1</span></div><p>첫 번째 공유 전자쌍의 값은 346이에요. 두 번째는 268을 더하고, 세 번째는 225를 더해요. 그러니까 전자쌍이 하나 늘 때마다 더해지는 값이 앞보다 작아요.</p><p>길이는 154에서 134, 120 pm으로 줄어요. 공유 전자쌍이 많을수록 두 원자핵을 더 강하게 끌어당기므로 결합이 짧아지고 강해져요.</p>",
       misconception: {
         // EN (option A): Test it. Twice the single-bond value is 2 × 346 = 692, but the double bond is 614. Three times is 1038, but the triple bond is 839. The bond gets stronger, but not in proportion.
-        "0": "",
+        "0": "확인해 봐요. 단일 결합 값의 2배는 2 × 346 = 692이지만 이중 결합은 614예요. 3배는 1038이지만 삼중 결합은 839예요. 결합은 강해지지만 비례하지는 않아요.",
         // EN (option C): Read the two columns together. As the length goes down (154, 134, 120 pm), the bond enthalpy goes up. Shorter bonds are stronger.
-        "2": "",
+        "2": "두 열을 함께 읽어 봐요. 길이가 줄어들수록(154, 134, 120 pm) 결합 엔탈피는 커져요. 짧은 결합일수록 강해요.",
         // EN (option D): The triple bond has the largest bond enthalpy (839), so it is the strongest of the three. A larger bond enthalpy means more energy is needed to break the bond.
-        "3": "",
+        "3": "삼중 결합의 결합 엔탈피(839)가 가장 크므로 셋 중 가장 강한 결합이에요. 결합 엔탈피가 클수록 결합을 끊는 데 에너지가 더 많이 필요해요.",
       },
     },
 
     // ── s2-2-q012 · mcq · foundation · SL · Structure 2.2.3 · 1 mark
     "s2-2-q012": {
       // EN: <p>What is a coordination bond?</p>
-      stem: "",
+      stem: "<p>배위 결합 <span class=\"en-term\">(coordination bond)</span>이란 무엇인가요?</p>",
       options: [
         // EN: A covalent bond in which both electrons of the shared pair come from the same atom.
-        "",
+        "공유 전자쌍의 전자 2개가 모두 같은 원자에서 온 공유 결합.",
         // EN: A covalent bond in which each atom gives one electron to the shared pair.
-        "",
+        "각 원자가 공유 전자쌍에 전자를 1개씩 내놓은 공유 결합.",
         // EN: A bond formed when one atom transfers two electrons to another atom.
-        "",
+        "한 원자가 다른 원자에게 전자 2개를 옮겨서 생긴 결합.",
         // EN: A weak attraction between a lone pair on one molecule and a hydrogen atom on another molecule.
-        "",
+        "한 분자의 비공유 전자쌍과 다른 분자의 수소 원자 사이의 약한 인력.",
       ],
       hints: [
         // EN: A coordination bond is still a shared pair of electrons.
-        "",
+        "배위 결합도 공유 전자쌍이에요.",
         // EN: Think about where the two electrons come from.
-        "",
+        "전자 2개가 어디에서 왔는지 생각해 봐요.",
       ],
       // EN: <p>A coordination bond is a covalent bond in which <strong>both electrons of the shared pair originate from the same atom</strong>.</p><p>The atom that gives the pair must have a lone pair. The atom that accepts it must have space in its valence shell.</p>
-      solution: "",
+      solution: "<p>배위 결합은 <strong>공유 전자쌍의 전자 2개가 모두 같은 원자에서 온</strong> 공유 결합이에요.</p><p>전자쌍을 내놓는 원자에는 비공유 전자쌍이 있어야 해요. 받는 원자에는 원자가 껍질에 빈자리가 있어야 해요.</p>",
       misconception: {
         // EN (option B): This is how most covalent bonds form. In a coordination bond, one atom gives both electrons.
-        "1": "",
+        "1": "대부분의 공유 결합은 이렇게 만들어져요. 배위 결합에서는 한 원자가 전자 2개를 모두 내놓아요.",
         // EN (option C): Transfer of electrons makes ions. In a coordination bond the pair is shared between the two atoms, not transferred.
-        "2": "",
+        "2": "전자가 이동하면 이온이 생겨요. 배위 결합에서는 전자쌍이 두 원자 사이에 공유될 뿐 이동하지 않아요.",
         // EN (option D): This describes a hydrogen bond, which is an intermolecular force. A coordination bond is a covalent bond inside a molecule or ion.
-        "3": "",
+        "3": "이것은 수소 결합에 대한 설명이에요. 수소 결합은 분자 간 힘이에요. 배위 결합은 분자나 이온 안의 공유 결합이에요.",
       },
     },
 
     // ── s2-2-q013 · mcq · exam · SL · Structure 2.2.3 · 1 mark
     "s2-2-q013": {
       // EN: <p>Ammonia reacts with a hydrogen ion to form the ammonium ion.</p><p><span class="chem">NH3 + H+ -> NH4+</span></p><p>Which statement about the new <span class="chem">N–H</span> bond is correct?</p>
-      stem: "",
+      stem: "<p>암모니아는 수소 이온과 반응해 암모늄 이온이 돼요.</p><p><span class=\"chem\">NH3 + H+ -> NH4+</span></p><p>새로 생긴 <span class=\"chem\">N–H</span> 결합에 대한 설명으로 옳은 것은 무엇인가요?</p>",
       options: [
         // EN: The hydrogen ion provides both electrons for the bond.
-        "",
+        "수소 이온이 결합에 필요한 전자 2개를 모두 내놓는다.",
         // EN: The bond is ionic, because it forms between a molecule and an ion.
-        "",
+        "분자와 이온 사이에 생기므로 이온 결합이다.",
         // EN: Nitrogen provides both electrons for the bond. In the ion, all four <span class="chem">N–H</span> bonds are the same.
-        "",
+        "질소가 결합에 필요한 전자 2개를 모두 내놓는다. 이온 속 <span class=\"chem\">N–H</span> 결합 4개는 모두 같다.",
         // EN: Nitrogen provides both electrons for the bond. In the ion, this bond is longer and weaker than the other three.
-        "",
+        "질소가 결합에 필요한 전자 2개를 모두 내놓는다. 이온 속에서 이 결합은 나머지 3개보다 길고 약하다.",
       ],
       hints: [
         // EN: How many electrons does <span class="chem">H+</span> have?
-        "",
+        "<span class=\"chem\">H+</span>에는 전자가 몇 개 있나요?",
         // EN: Nitrogen in ammonia has one lone pair.
-        "",
+        "암모니아의 질소에는 비공유 전자쌍이 1개 있어요.",
         // EN: After the bond forms, can you tell which shared pair came from where?
-        "",
+        "결합이 생긴 뒤에도 어느 공유 전자쌍이 어디에서 왔는지 구별할 수 있을까요?",
       ],
       // EN: <p><span class="chem">H+</span> has no electrons. Nitrogen in <span class="chem">NH3</span> has a lone pair. Nitrogen shares this pair with <span class="chem">H+</span>, so both electrons in the new bond come from nitrogen. This is a coordination bond.</p><p>After it forms, the coordination bond is the same as the other three <span class="chem">N–H</span> bonds. The ion is a regular tetrahedron.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">H+</span>에는 전자가 없어요. <span class=\"chem\">NH3</span>의 질소에는 비공유 전자쌍이 있어요. 질소가 이 전자쌍을 <span class=\"chem\">H+</span>와 공유하므로 새 결합의 전자 2개는 모두 질소에서 와요. 이것이 배위 결합이에요.</p><p>배위 결합은 생긴 뒤에는 나머지 <span class=\"chem\">N–H</span> 결합 3개와 똑같아요. 이온은 정사면체 모양이에요.</p>",
       misconception: {
         // EN (option A): A hydrogen ion, <span class="chem">H+</span>, has no electrons. It cannot give any. The pair comes from the lone pair on nitrogen.
-        "0": "",
+        "0": "수소 이온 <span class=\"chem\">H+</span>에는 전자가 없어서 내놓을 수 없어요. 전자쌍은 질소의 비공유 전자쌍에서 와요.",
         // EN (option B): The pair of electrons is shared between N and H, so the bond is covalent. No electrons are transferred.
-        "1": "",
+        "1": "전자쌍이 N과 H 사이에 공유되므로 공유 결합이에요. 전자는 이동하지 않아요.",
         // EN (option D): The first part is right. But once the bond has formed, a shared pair is a shared pair. All four <span class="chem">N–H</span> bonds have the same length and strength.
-        "3": "",
+        "3": "앞부분은 맞아요. 하지만 결합이 생기고 나면 공유 전자쌍은 그냥 공유 전자쌍이에요. <span class=\"chem\">N–H</span> 결합 4개는 길이와 세기가 모두 같아요.",
       },
     },
 
     // ── s2-2-q014 · multi · exam · SL · Structure 2.2.3 · 1 mark
     "s2-2-q014": {
       // EN: <p>Which of these species contain a coordination bond? Select all that apply.</p>
-      stem: "",
+      stem: "<p>다음 중 배위 결합이 있는 화학종은 무엇인가요? 해당하는 것을 모두 고르세요.</p>",
       options: [
         // EN: <span class="chem">NH4+</span>
-        "",
+        "<span class=\"chem\">NH4+</span>",
         // EN: <span class="chem">H3O+</span>
-        "",
+        "<span class=\"chem\">H3O+</span>",
         // EN: <span class="chem">CO</span>
-        "",
+        "<span class=\"chem\">CO</span>",
         // EN: <span class="chem">CO2</span>
-        "",
+        "<span class=\"chem\">CO2</span>",
         // EN: <span class="chem">CH4</span>
-        "",
+        "<span class=\"chem\">CH4</span>",
       ],
       hints: [
         // EN: Look for an atom that needs more bonds than its unpaired electrons allow.
-        "",
+        "홀전자 수로 만들 수 있는 것보다 결합이 더 많이 필요한 원자를 찾아보세요.",
         // EN: <span class="chem">NH4+</span> and <span class="chem">H3O+</span> form when a molecule with a lone pair bonds to <span class="chem">H+</span>.
-        "",
+        "<span class=\"chem\">NH4+</span>와 <span class=\"chem\">H3O+</span>는 비공유 전자쌍이 있는 분자가 <span class=\"chem\">H+</span>와 결합해서 생겨요.",
         // EN: In <span class="chem">CO</span>, carbon has 4 valence electrons but takes part in a triple bond. Oxygen has 6. Count where the six shared electrons come from.
-        "",
+        "<span class=\"chem\">CO</span>에서 탄소는 원자가 전자가 4개인데 삼중 결합을 이뤄요. 산소는 6개예요. 공유 전자 6개가 각각 어디에서 오는지 세어 보세요.",
       ],
       // EN: <p><strong><span class="chem">NH4+</span></strong>: the lone pair on N of <span class="chem">NH3</span> bonds to <span class="chem">H+</span>.</p><p><strong><span class="chem">H3O+</span></strong>: a lone pair on O of <span class="chem">H2O</span> bonds to <span class="chem">H+</span>.</p><p><strong><span class="chem">CO</span></strong>: the triple bond has 6 shared electrons. Carbon gives 2 and oxygen gives 4. So one of the three shared pairs comes only from oxygen.</p><p>In <span class="chem">CO2</span> and <span class="chem">CH4</span>, each atom gives one electron to every shared pair.</p>
-      solution: "",
+      solution: "<p><strong><span class=\"chem\">NH4+</span></strong>: <span class=\"chem\">NH3</span>의 N에 있는 비공유 전자쌍이 <span class=\"chem\">H+</span>와 결합해요.</p><p><strong><span class=\"chem\">H3O+</span></strong>: <span class=\"chem\">H2O</span>의 O에 있는 비공유 전자쌍 하나가 <span class=\"chem\">H+</span>와 결합해요.</p><p><strong><span class=\"chem\">CO</span></strong>: 삼중 결합에는 공유 전자가 6개 있어요. 탄소가 2개, 산소가 4개를 내놓아요. 그래서 공유 전자쌍 3개 중 하나는 산소에서만 와요.</p><p><span class=\"chem\">CO2</span>와 <span class=\"chem\">CH4</span>에서는 모든 공유 전자쌍에 각 원자가 전자를 1개씩 내놓아요.</p>",
       misconception: {
         // EN (option D): In <span class="chem">CO2</span>, carbon gives 2 electrons to each double bond and each oxygen gives 2. Every shared pair has one electron from each atom.
-        "3": "",
+        "3": "<span class=\"chem\">CO2</span>에서 탄소는 각 이중 결합에 전자 2개를, 각 산소도 2개를 내놓아요. 모든 공유 전자쌍에 각 원자의 전자가 1개씩 들어 있어요.",
         // EN (option E): In <span class="chem">CH4</span>, carbon gives one electron and hydrogen gives one electron to each bond. No atom gives both.
-        "4": "",
+        "4": "<span class=\"chem\">CH4</span>에서는 각 결합에 탄소가 전자 1개, 수소가 전자 1개를 내놓아요. 전자 2개를 모두 내놓는 원자는 없어요.",
       },
     },
 
     // ── s2-2-q015 · mcq · challenge · SL · Structure 2.2.3 · 1 mark
     "s2-2-q015": {
       // EN: <p>Ammonia, <span class="chem">NH3</span>, reacts with boron trifluoride, <span class="chem">BF3</span>, to form one molecule with a bond between nitrogen and boron: <span class="chem">H3N–BF3</span>.</p><p>Which row is correct for the product?</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Options</caption><thead><tr><th scope="col"></th><th scope="col">Atom that gives both electrons of the N–B bond</th><th scope="col">Arrangement of the four atoms around boron</th></tr></thead><tbody><tr><th scope="row">A</th><td>boron</td><td>tetrahedral</td></tr><tr><th scope="row">B</th><td>nitrogen</td><td>trigonal planar</td></tr><tr><th scope="row">C</th><td>nitrogen</td><td>tetrahedral</td></tr><tr><th scope="row">D</th><td>fluorine</td><td>trigonal pyramidal</td></tr></tbody></table></div>
-      stem: "",
+      stem: "<p>암모니아 <span class=\"chem\">NH3</span>는 삼플루오린화 붕소 <span class=\"chem\">BF3</span>와 반응해 질소와 붕소 사이에 결합이 있는 분자 하나 <span class=\"chem\">H3N–BF3</span>가 돼요.</p><p>생성물에 대해 옳은 행은 무엇인가요?</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>보기</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">N–B 결합의 전자 2개를 모두 내놓는 원자</th><th scope=\"col\">붕소 주위 원자 4개의 배치</th></tr></thead><tbody><tr><th scope=\"row\">A</th><td>붕소</td><td>정사면체형</td></tr><tr><th scope=\"row\">B</th><td>질소</td><td>평면 삼각형</td></tr><tr><th scope=\"row\">C</th><td>질소</td><td>정사면체형</td></tr><tr><th scope=\"row\">D</th><td>플루오린</td><td>삼각뿔형</td></tr></tbody></table></div>",
       options: [
         // EN: A
-        "",
+        "A",
         // EN: B
-        "",
+        "B",
         // EN: C
-        "",
+        "C",
         // EN: D
-        "",
+        "D",
       ],
       hints: [
         // EN: Draw the Lewis formulas of <span class="chem">NH3</span> and <span class="chem">BF3</span>. Which atom has a lone pair? Which atom has fewer than 8 electrons?
-        "",
+        "<span class=\"chem\">NH3</span>와 <span class=\"chem\">BF3</span>의 루이스 구조식을 그려 보세요. 어느 원자에 비공유 전자쌍이 있나요? 어느 원자의 전자가 8개보다 적나요?",
         // EN: After the bond forms, count the electron domains around boron.
-        "",
+        "결합이 생긴 뒤 붕소 주위의 전자 영역을 세어 보세요.",
       ],
       // EN: <p>Nitrogen in <span class="chem">NH3</span> has a lone pair. Boron in <span class="chem">BF3</span> has only 3 pairs (6 electrons). Nitrogen shares its lone pair with boron. Both electrons come from nitrogen, so this is a coordination bond.</p><p>Boron now has <strong>four bonding pairs and no lone pairs</strong>. Four electron domains repel to a <strong>tetrahedral</strong> arrangement. Before the reaction, <span class="chem">BF3</span> was trigonal planar.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">NH3</span>의 질소에는 비공유 전자쌍이 있어요. <span class=\"chem\">BF3</span>의 붕소에는 3쌍(전자 6개)뿐이에요. 질소가 비공유 전자쌍을 붕소와 공유해요. 전자 2개가 모두 질소에서 오므로 배위 결합이에요.</p><p>이제 붕소에는 <strong>공유 전자쌍 4개와 비공유 전자쌍 0개</strong>가 있어요. 전자 영역 4개는 서로 밀어내 <strong>정사면체형</strong> 배치가 돼요. 반응 전의 <span class=\"chem\">BF3</span>는 평면 삼각형이었어요.</p>",
       misconception: {
         // EN (option A): Boron in <span class="chem">BF3</span> has only 6 electrons in its valence shell and no lone pair. It accepts a pair. It cannot give one.
-        "0": "",
+        "0": "<span class=\"chem\">BF3</span>의 붕소는 원자가 껍질에 전자가 6개뿐이고 비공유 전자쌍이 없어요. 전자쌍을 받을 수는 있지만 내놓을 수는 없어요.",
         // EN (option B): The donor atom is right. But boron now has four bonding pairs, not three. Four electron domains do not give a trigonal planar shape.
-        "1": "",
+        "1": "전자쌍을 내놓는 원자는 맞아요. 하지만 이제 붕소의 공유 전자쌍은 3개가 아니라 4개예요. 전자 영역 4개로는 평면 삼각형이 되지 않아요.",
         // EN (option D): The new bond is between N and B, so fluorine is not the donor. Boron has four bonding pairs and no lone pair, so the shape around it is not trigonal pyramidal.
-        "3": "",
+        "3": "새 결합은 N과 B 사이에 있으므로 플루오린은 전자쌍을 내놓는 원자가 아니에요. 붕소에는 공유 전자쌍 4개가 있고 비공유 전자쌍은 없으므로 붕소 주위의 모양은 삼각뿔형이 아니에요.",
       },
     },
 
     // ── s2-2-q016 · mcq · foundation · SL · Structure 2.2.4 · 1 mark
     "s2-2-q016": {
       // EN: <p>What is the molecular geometry (shape) of an ammonia molecule, <span class="chem">NH3</span>?</p>
-      stem: "",
+      stem: "<p>암모니아 분자 <span class=\"chem\">NH3</span>의 분자 모양은 무엇인가요?</p>",
       options: [
         // EN: trigonal planar
-        "",
+        "평면 삼각형",
         // EN: tetrahedral
-        "",
+        "정사면체형",
         // EN: trigonal pyramidal
-        "",
+        "삼각뿔형",
         // EN: bent (V-shaped)
-        "",
+        "굽은 형(V자형)",
       ],
       hints: [
         // EN: Count the electron domains around nitrogen. Include the lone pair.
-        "",
+        "질소 주위의 전자 영역을 세어 보세요. 비공유 전자쌍도 포함해요.",
         // EN: The molecular geometry is the shape made by the atoms only.
-        "",
+        "분자 모양은 원자들만으로 이루어진 모양이에요.",
       ],
       // EN: <p>Nitrogen has 5 valence electrons. It forms three <span class="chem">N–H</span> bonds and keeps one lone pair. That is <strong>four electron domains</strong>.</p><p>Electron domain geometry: tetrahedral. One domain is a lone pair, so the atoms make a <strong>trigonal pyramidal</strong> shape.</p>
-      solution: "",
+      solution: "<p>질소는 원자가 전자가 5개예요. <span class=\"chem\">N–H</span> 결합 3개를 만들고 비공유 전자쌍 1개를 남겨요. <strong>전자 영역은 4개</strong>예요.</p><p>전자 영역 배치: 정사면체형. 영역 하나가 비공유 전자쌍이므로 원자들은 <strong>삼각뿔형</strong>을 이뤄요.</p>",
       misconception: {
         // EN (option A): Trigonal planar needs three electron domains. Nitrogen in <span class="chem">NH3</span> has four: three bonding pairs and one lone pair. The lone pair pushes the three bonds down out of the plane.
-        "0": "",
+        "0": "평면 삼각형이 되려면 전자 영역이 3개여야 해요. <span class=\"chem\">NH3</span>의 질소에는 공유 전자쌍 3개와 비공유 전자쌍 1개, 모두 4개가 있어요. 비공유 전자쌍이 결합 3개를 평면 아래로 밀어내요.",
         // EN (option B): Tetrahedral is the electron domain geometry. The molecular geometry describes only the positions of the atoms, and one of the four domains is a lone pair.
-        "1": "",
+        "1": "정사면체형은 전자 영역 배치예요. 분자 모양은 원자의 위치만 나타내고, 영역 4개 중 하나는 비공유 전자쌍이에요.",
         // EN (option D): Bent needs two bonded atoms on the central atom. Nitrogen in <span class="chem">NH3</span> has three bonded atoms.
-        "3": "",
+        "3": "굽은 형이 되려면 중심 원자에 결합한 원자가 2개여야 해요. <span class=\"chem\">NH3</span>의 질소에는 결합한 원자가 3개 있어요.",
       },
     },
 
     // ── s2-2-q017 · numeric · foundation · SL · Structure 2.2.4 · 1 mark
     "s2-2-q017": {
       // EN: <p>What is the <span class="chem">H–C–H</span> bond angle in a methane molecule, <span class="chem">CH4</span>?</p>
-      stem: "",
+      stem: "<p>methane 분자 <span class=\"chem\">CH4</span>의 <span class=\"chem\">H–C–H</span> 결합각은 얼마인가요?</p>",
       hints: [
         // EN: Carbon has four bonding pairs and no lone pairs.
-        "",
+        "탄소에는 공유 전자쌍 4개가 있고 비공유 전자쌍은 없어요.",
         // EN: Four electron domains move as far apart as possible in three dimensions. The molecule is not flat.
-        "",
+        "전자 영역 4개는 3차원에서 서로 최대한 멀리 떨어져요. 분자는 평평하지 않아요.",
       ],
       // EN: <p>Carbon has four electron domains, all bonding pairs. They repel equally and point to the corners of a tetrahedron.</p><p>The tetrahedral angle is <strong>109.5°</strong>. It is not 90°, because the molecule is three-dimensional, not a flat cross.</p>
-      solution: "",
+      solution: "<p>탄소에는 전자 영역이 4개 있고 모두 공유 전자쌍이에요. 서로 똑같이 밀어내서 정사면체의 꼭짓점을 향해요.</p><p>정사면체 결합각은 <strong>109.5°</strong>예요. 분자가 평평한 십자 모양이 아니라 입체이므로 90°가 아니에요.</p>",
     },
 
     // ── s2-2-q018 · mcq · exam · SL · Structure 2.2.4 · 1 mark
     "s2-2-q018": {
       // EN: <p>A Lewis formula of the nitrite ion, <span class="chem">NO2-</span>, is shown. A Lewis formula does not show the shape.</p><p><svg viewBox="-22 -22 152 44" width="152" height="44" role="img" aria-label="Ion with charge 1 minus, drawn in a straight line. O double bond N, N single bond O. Two lone pairs on the first O, one lone pair on N, three lone pairs on the second O" style="vertical-align:middle;max-width:100%"><line x1="9.0" y1="-2.6" x2="35.0" y2="-2.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="9.0" y1="2.6" x2="35.0" y2="2.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="53.0" y1="0.0" x2="79.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="0" y="6" text-anchor="middle" font-size="17" fill="currentColor">O</text><circle cx="-4.2" cy="-13.7" r="1.7" fill="currentColor"/><circle cx="-9.8" cy="-10.5" r="1.7" fill="currentColor"/><circle cx="-9.8" cy="10.5" r="1.7" fill="currentColor"/><circle cx="-4.2" cy="13.7" r="1.7" fill="currentColor"/><text x="44" y="6" text-anchor="middle" font-size="17" fill="currentColor">N</text><circle cx="47.2" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="40.8" cy="-14.0" r="1.7" fill="currentColor"/><text x="88" y="6" text-anchor="middle" font-size="17" fill="currentColor">O</text><circle cx="91.2" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="84.8" cy="-14.0" r="1.7" fill="currentColor"/><circle cx="102.0" cy="3.2" r="1.7" fill="currentColor"/><circle cx="102.0" cy="-3.2" r="1.7" fill="currentColor"/><circle cx="84.8" cy="14.0" r="1.7" fill="currentColor"/><circle cx="91.2" cy="14.0" r="1.7" fill="currentColor"/><path d="M-14 -20H-19V20H-14M102 -20H107V20H102" fill="none" stroke="currentColor" stroke-width="1.4"/><text x="111" y="-12" font-size="13" fill="currentColor">−</text></svg></p><p>Which row gives the electron domain geometry and the molecular geometry around the nitrogen atom?</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Options</caption><thead><tr><th scope="col"></th><th scope="col">Electron domain geometry</th><th scope="col">Molecular geometry</th></tr></thead><tbody><tr><th scope="row">A</th><td>trigonal planar</td><td>trigonal planar</td></tr><tr><th scope="row">B</th><td>trigonal planar</td><td>bent (V-shaped)</td></tr><tr><th scope="row">C</th><td>tetrahedral</td><td>bent (V-shaped)</td></tr><tr><th scope="row">D</th><td>linear</td><td>linear</td></tr></tbody></table></div>
-      stem: "",
+      stem: "<p>아질산 이온 <span class=\"chem\">NO2-</span>의 루이스 구조식은 다음과 같아요. 루이스 구조식은 모양을 나타내지 않아요.</p><p><svg viewBox=\"-22 -22 152 44\" width=\"152\" height=\"44\" role=\"img\" aria-label=\"전하 1−인 이온, 일직선으로 그림. O와 N은 이중 결합, N과 O는 단일 결합. 첫 번째 O에 비공유 전자쌍 2개, N에 1개, 두 번째 O에 3개\" style=\"vertical-align:middle;max-width:100%\"><line x1=\"9.0\" y1=\"-2.6\" x2=\"35.0\" y2=\"-2.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"9.0\" y1=\"2.6\" x2=\"35.0\" y2=\"2.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"53.0\" y1=\"0.0\" x2=\"79.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">O</text><circle cx=\"-4.2\" cy=\"-13.7\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-9.8\" cy=\"-10.5\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-9.8\" cy=\"10.5\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"-4.2\" cy=\"13.7\" r=\"1.7\" fill=\"currentColor\"/><text x=\"44\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">N</text><circle cx=\"47.2\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"40.8\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><text x=\"88\" y=\"6\" text-anchor=\"middle\" font-size=\"17\" fill=\"currentColor\">O</text><circle cx=\"91.2\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"84.8\" cy=\"-14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"102.0\" cy=\"3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"102.0\" cy=\"-3.2\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"84.8\" cy=\"14.0\" r=\"1.7\" fill=\"currentColor\"/><circle cx=\"91.2\" cy=\"14.0\" r=\"1.7\" fill=\"currentColor\"/><path d=\"M-14 -20H-19V20H-14M102 -20H107V20H102\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"111\" y=\"-12\" font-size=\"13\" fill=\"currentColor\">−</text></svg></p><p>질소 원자 주위의 전자 영역 배치와 분자 모양을 옳게 나타낸 행은 무엇인가요?</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>보기</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">전자 영역 배치</th><th scope=\"col\">분자 모양</th></tr></thead><tbody><tr><th scope=\"row\">A</th><td>평면 삼각형</td><td>평면 삼각형</td></tr><tr><th scope=\"row\">B</th><td>평면 삼각형</td><td>굽은 형(V자형)</td></tr><tr><th scope=\"row\">C</th><td>정사면체형</td><td>굽은 형(V자형)</td></tr><tr><th scope=\"row\">D</th><td>직선형</td><td>직선형</td></tr></tbody></table></div>",
       options: [
         // EN: A
-        "",
+        "A",
         // EN: B
-        "",
+        "B",
         // EN: C
-        "",
+        "C",
         // EN: D
-        "",
+        "D",
       ],
       hints: [
         // EN: Count the electron domains around N. A double bond counts as one domain. A lone pair counts as one domain.
-        "",
+        "N 주위의 전자 영역을 세어 보세요. 이중 결합은 영역 1개로 세요. 비공유 전자쌍도 영역 1개로 세요.",
         // EN: The electron domain geometry uses all the domains. The molecular geometry uses only the atoms.
-        "",
+        "전자 영역 배치는 모든 영역을 고려해요. 분자 모양은 원자만 고려해요.",
       ],
       // EN: <p>Around nitrogen there are <strong>three electron domains</strong>: one double bond, one single bond and one lone pair.</p><p>Three domains repel to a <strong>trigonal planar</strong> electron domain geometry.</p><p>Only two of the domains hold atoms, so the molecular geometry is <strong>bent (V-shaped)</strong>. The bond angle is a little less than 120° (about 115°), because the lone pair repels more than the bonding pairs.</p>
-      solution: "",
+      solution: "<p>질소 주위에는 <strong>전자 영역이 3개</strong> 있어요. 이중 결합 1개, 단일 결합 1개, 비공유 전자쌍 1개예요.</p><p>영역 3개가 서로 밀어내 <strong>평면 삼각형</strong> 전자 영역 배치가 돼요.</p><p>원자가 있는 영역은 2개뿐이므로 분자 모양은 <strong>굽은 형(V자형)</strong>이에요. 비공유 전자쌍이 공유 전자쌍보다 더 세게 밀어내므로 결합각은 120°보다 조금 작아요(약 115°).</p>",
       misconception: {
         // EN (option A): The electron domain geometry is right. But the molecular geometry describes only the atoms. One of the three domains is a lone pair, so only two positions hold atoms.
-        "0": "",
+        "0": "전자 영역 배치는 맞아요. 하지만 분자 모양은 원자만 나타내요. 영역 3개 중 하나가 비공유 전자쌍이므로 원자가 있는 자리는 2개뿐이에요.",
         // EN (option C): A double bond counts as <strong>one</strong> electron domain. Nitrogen has three domains (double bond, single bond, lone pair), not four.
-        "2": "",
+        "2": "이중 결합은 전자 영역 <strong>1개</strong>로 세요. 질소의 영역은 4개가 아니라 3개(이중 결합, 단일 결합, 비공유 전자쌍)예요.",
         // EN (option D): This ignores the lone pair on nitrogen. The lone pair is an electron domain. It repels the two bonds, so the ion is not linear.
-        "3": "",
+        "3": "질소의 비공유 전자쌍을 무시했어요. 비공유 전자쌍도 전자 영역이에요. 비공유 전자쌍이 두 결합을 밀어내므로 이온은 직선형이 아니에요.",
       },
     },
 
     // ── s2-2-q019 · order · exam · SL · Structure 2.2.4 · 2 marks
     "s2-2-q019": {
       // EN: <p>Put these molecules in order of bond angle around the central atom. Put the <strong>smallest</strong> bond angle first.</p>
-      stem: "",
+      stem: "<p>이 분자들을 중심 원자 주위의 결합각 순서대로 나열하세요. 결합각이 <strong>가장 작은</strong> 것을 처음에 놓으세요.</p>",
       options: [
         // EN: <span class="chem">H2O</span>
-        "",
+        "<span class=\"chem\">H2O</span>",
         // EN: <span class="chem">NH3</span>
-        "",
+        "<span class=\"chem\">NH3</span>",
         // EN: <span class="chem">CH4</span>
-        "",
+        "<span class=\"chem\">CH4</span>",
         // EN: <span class="chem">BF3</span>
-        "",
+        "<span class=\"chem\">BF3</span>",
         // EN: <span class="chem">CO2</span>
-        "",
+        "<span class=\"chem\">CO2</span>",
       ],
       hints: [
         // EN: Count the electron domains around each central atom: 2, 3 or 4.
-        "",
+        "각 중심 원자 주위의 전자 영역을 세어 보세요. 2개, 3개 또는 4개예요.",
         // EN: <span class="chem">H2O</span>, <span class="chem">NH3</span> and <span class="chem">CH4</span> all have four domains. They differ in the number of lone pairs.
-        "",
+        "<span class=\"chem\">H2O</span>, <span class=\"chem\">NH3</span>, <span class=\"chem\">CH4</span>는 모두 영역이 4개예요. 비공유 전자쌍의 수가 달라요.",
         // EN: Lone pairs repel more than bonding pairs, so they squeeze the bond angle.
-        "",
+        "비공유 전자쌍은 공유 전자쌍보다 더 세게 밀어내므로 결합각을 좁혀요.",
       ],
       // EN: <p><span class="chem">H2O</span>: 4 domains, 2 lone pairs, about 104.5°.</p><p><span class="chem">NH3</span>: 4 domains, 1 lone pair, about 107°.</p><p><span class="chem">CH4</span>: 4 domains, no lone pairs, 109.5°.</p><p><span class="chem">BF3</span>: 3 domains, no lone pairs, 120°.</p><p><span class="chem">CO2</span>: 2 domains (each double bond is one domain), 180°.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">H2O</span>: 영역 4개, 비공유 전자쌍 2개, 약 104.5°.</p><p><span class=\"chem\">NH3</span>: 영역 4개, 비공유 전자쌍 1개, 약 107°.</p><p><span class=\"chem\">CH4</span>: 영역 4개, 비공유 전자쌍 없음, 109.5°.</p><p><span class=\"chem\">BF3</span>: 영역 3개, 비공유 전자쌍 없음, 120°.</p><p><span class=\"chem\">CO2</span>: 영역 2개(이중 결합 하나가 영역 1개), 180°.</p>",
     },
 
     // ── s2-2-q020 · short · exam · SL · Structure 2.2.4 · 2 marks
     "s2-2-q020": {
       // EN: <p>The <span class="chem">H–C–H</span> bond angle in methane, <span class="chem">CH4</span>, is 109.5°. The <span class="chem">H–N–H</span> bond angle in ammonia, <span class="chem">NH3</span>, is about 107°.</p><p>Explain why the bond angle in ammonia is smaller.</p>
-      stem: "",
+      stem: "<p>methane <span class=\"chem\">CH4</span>의 <span class=\"chem\">H–C–H</span> 결합각은 109.5°예요. 암모니아 <span class=\"chem\">NH3</span>의 <span class=\"chem\">H–N–H</span> 결합각은 약 107°예요.</p><p>암모니아의 결합각이 더 작은 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: Compare the electron domains around C and around N.
-        "",
+        "C 주위와 N 주위의 전자 영역을 비교해 봐요.",
         // EN: Do all electron domains repel equally?
-        "",
+        "모든 전자 영역이 똑같이 밀어낼까요?",
       ],
       // EN: <p>Both central atoms have four electron domains, so both have a tetrahedral electron domain geometry. In methane all four domains are bonding pairs. In ammonia there are three bonding pairs and one lone pair (non-bonding pair).</p><p>A lone pair repels more strongly than a bonding pair. It pushes the three bonding pairs closer together, so the angle is less than 109.5°.</p>
-      answer: "",
+      answer: "<p>두 중심 원자 모두 전자 영역이 4개이므로 둘 다 정사면체형 전자 영역 배치를 가져요. methane에서는 영역 4개가 모두 공유 전자쌍이에요. 암모니아에는 공유 전자쌍 3개와 비공유 전자쌍(결합하지 않은 전자쌍) 1개가 있어요.</p><p>비공유 전자쌍은 공유 전자쌍보다 더 세게 밀어내요. 공유 전자쌍 3개를 더 가깝게 밀어 붙이므로 결합각이 109.5°보다 작아져요.</p>",
       markscheme: [
         // EN: Nitrogen in ammonia has one lone (non-bonding) pair and three bonding pairs, but carbon in methane has four bonding pairs and no lone pair. Accept: both have four electron domains but ammonia has a lone pair.
-        "",
+        "암모니아의 질소에는 비공유 전자쌍 1개와 공유 전자쌍 3개가 있지만, methane의 탄소에는 공유 전자쌍 4개가 있고 비공유 전자쌍은 없다. 인정: 둘 다 전자 영역이 4개이지만 암모니아에는 비공유 전자쌍이 있다.",
         // EN: Lone pairs repel more than bonding pairs (so the bonding pairs are pushed closer together).
-        "",
+        "비공유 전자쌍은 공유 전자쌍보다 더 세게 밀어낸다(그래서 공유 전자쌍이 서로 더 가깝게 밀린다).",
       ],
     },
 
     // ── s2-2-q021 · mcq · exam · SL · Structure 2.2.4 · 1 mark
     "s2-2-q021": {
       // EN: <p>Methanol has the structural formula <span class="chem">CH3OH</span>. Which row gives the geometry of the atoms around the carbon atom and around the oxygen atom?</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Options</caption><thead><tr><th scope="col"></th><th scope="col">Around carbon</th><th scope="col">Around oxygen</th></tr></thead><tbody><tr><th scope="row">A</th><td>tetrahedral</td><td>linear</td></tr><tr><th scope="row">B</th><td>tetrahedral</td><td>tetrahedral</td></tr><tr><th scope="row">C</th><td>trigonal pyramidal</td><td>bent (V-shaped)</td></tr><tr><th scope="row">D</th><td>tetrahedral</td><td>bent (V-shaped)</td></tr></tbody></table></div>
-      stem: "",
+      stem: "<p>methanol의 구조식은 <span class=\"chem\">CH3OH</span>예요. 탄소 원자 주위와 산소 원자 주위의 원자 배치를 옳게 나타낸 행은 무엇인가요?</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>보기</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">탄소 주위</th><th scope=\"col\">산소 주위</th></tr></thead><tbody><tr><th scope=\"row\">A</th><td>정사면체형</td><td>직선형</td></tr><tr><th scope=\"row\">B</th><td>정사면체형</td><td>정사면체형</td></tr><tr><th scope=\"row\">C</th><td>삼각뿔형</td><td>굽은 형(V자형)</td></tr><tr><th scope=\"row\">D</th><td>정사면체형</td><td>굽은 형(V자형)</td></tr></tbody></table></div>",
       options: [
         // EN: A
-        "",
+        "A",
         // EN: B
-        "",
+        "B",
         // EN: C
-        "",
+        "C",
         // EN: D
-        "",
+        "D",
       ],
       hints: [
         // EN: Treat each atom in turn as a "central atom".
-        "",
+        "각 원자를 차례로 \"중심 원자\"로 생각해 봐요.",
         // EN: Carbon: four bonding pairs. Oxygen: two bonding pairs and two lone pairs.
-        "",
+        "탄소: 공유 전자쌍 4개. 산소: 공유 전자쌍 2개와 비공유 전자쌍 2개.",
       ],
       // EN: <p><strong>Carbon</strong> has four bonding pairs (three to H, one to O) and no lone pairs: <strong>tetrahedral</strong>, about 109.5°.</p><p><strong>Oxygen</strong> has four electron domains: two bonding pairs (to C and to H) and two lone pairs. The two atoms make a <strong>bent</strong> shape, like water, with an angle less than 109.5°.</p>
-      solution: "",
+      solution: "<p><strong>탄소</strong>에는 공유 전자쌍 4개(H와 3개, O와 1개)가 있고 비공유 전자쌍은 없어요: <strong>정사면체형</strong>, 약 109.5°.</p><p><strong>산소</strong>에는 전자 영역이 4개 있어요. 공유 전자쌍 2개(C와, H와)와 비공유 전자쌍 2개예요. 두 원자는 물처럼 <strong>굽은 형</strong>을 이루고, 결합각은 109.5°보다 작아요.</p>",
       misconception: {
         // EN (option A): Oxygen has two bonding pairs <strong>and two lone pairs</strong>. The lone pairs repel the bonds, so <span class="chem">C–O–H</span> is not a straight line.
-        "0": "",
+        "0": "산소에는 공유 전자쌍 2개<strong>와 비공유 전자쌍 2개</strong>가 있어요. 비공유 전자쌍이 결합을 밀어내므로 <span class=\"chem\">C–O–H</span>는 일직선이 아니에요.",
         // EN (option B): Tetrahedral is the electron domain geometry around oxygen. The question asks for the geometry of the atoms. Only two atoms are bonded to oxygen.
-        "1": "",
+        "1": "정사면체형은 산소 주위의 전자 영역 배치예요. 문제는 원자의 배치를 묻고 있어요. 산소에 결합한 원자는 2개뿐이에요.",
         // EN (option C): Carbon is bonded to four atoms (three H and one O) and has no lone pair. Trigonal pyramidal needs three atoms and one lone pair.
-        "2": "",
+        "2": "탄소는 원자 4개(H 3개와 O 1개)와 결합하고 비공유 전자쌍이 없어요. 삼각뿔형이 되려면 원자 3개와 비공유 전자쌍 1개가 필요해요.",
       },
     },
 
     // ── s2-2-q022 · mcq · challenge · SL · Structure 2.2.4 · 1 mark
     "s2-2-q022": {
       // EN: <p>In methanal, <span class="chem">H2C=O</span>, the carbon atom is bonded to two hydrogen atoms and, by a double bond, to one oxygen atom.</p><p>Which is the best prediction of the <span class="chem">H–C–H</span> bond angle?</p>
-      stem: "",
+      stem: "<p>methanal <span class=\"chem\">H2C=O</span>에서 탄소 원자는 수소 원자 2개와 결합하고, 산소 원자 1개와 이중 결합으로 연결되어 있어요.</p><p><span class=\"chem\">H–C–H</span> 결합각을 가장 잘 예측한 것은 무엇인가요?</p>",
       options: [
         // EN: Exactly 120°, because there are three electron domains and no lone pairs on carbon.
-        "",
+        "탄소에 전자 영역이 3개이고 비공유 전자쌍이 없으므로 정확히 120°이다.",
         // EN: Slightly less than 120°, because the double bond repels more than the single bonds.
-        "",
+        "이중 결합이 단일 결합보다 더 세게 밀어내므로 120°보다 조금 작다.",
         // EN: About 109.5°, because carbon forms four bonds.
-        "",
+        "탄소가 결합을 4개 만들므로 약 109.5°이다.",
         // EN: Slightly more than 120°, because the double bond takes up less space than a single bond.
-        "",
+        "이중 결합이 단일 결합보다 공간을 덜 차지하므로 120°보다 조금 크다.",
       ],
       hints: [
         // EN: How many electron domains are around carbon? A double bond counts as one.
-        "",
+        "탄소 주위에 전자 영역이 몇 개 있나요? 이중 결합은 1개로 세요.",
         // EN: A double bond has four electrons in it. Compare its repulsion with that of a single bond.
-        "",
+        "이중 결합에는 전자가 4개 있어요. 단일 결합과 반발력을 비교해 봐요.",
       ],
       // EN: <p>Carbon has <strong>three electron domains</strong> (two single bonds, one double bond). The shape is trigonal planar with angles near 120°.</p><p>The double bond has greater electron density, so it repels the two <span class="chem">C–H</span> bonding pairs more strongly. They are pushed together. The <span class="chem">H–C–H</span> angle is <strong>slightly less than 120°</strong> (the measured value is about 116°).</p>
-      solution: "",
+      solution: "<p>탄소에는 <strong>전자 영역이 3개</strong>(단일 결합 2개, 이중 결합 1개) 있어요. 모양은 평면 삼각형이고 결합각은 120° 가까이 돼요.</p><p>이중 결합은 전자 밀도가 더 크므로 <span class=\"chem\">C–H</span> 공유 전자쌍 2개를 더 세게 밀어내요. 그래서 두 결합이 서로 가까워져요. <span class=\"chem\">H–C–H</span> 결합각은 <strong>120°보다 조금 작아요</strong>(측정값은 약 116°).</p>",
       misconception: {
         // EN (option A): Three domains do give angles near 120°. But the three domains are not the same. The double bond has more electron density than a single bond, so the repulsions are not equal.
-        "0": "",
+        "0": "영역이 3개이면 결합각은 120° 가까이 돼요. 하지만 세 영역이 똑같지 않아요. 이중 결합은 단일 결합보다 전자 밀도가 크므로 반발력이 같지 않아요.",
         // EN (option C): Count electron domains, not bonds. The double bond is one domain, so carbon has three domains, not four.
-        "2": "",
+        "2": "결합이 아니라 전자 영역을 세어야 해요. 이중 결합은 영역 1개이므로 탄소의 영역은 4개가 아니라 3개예요.",
         // EN (option D): A double bond holds four electrons, so it has more electron density than a single bond. It repels more, not less.
-        "3": "",
+        "3": "이중 결합에는 전자가 4개 있으므로 단일 결합보다 전자 밀도가 커요. 덜 밀어내는 것이 아니라 더 세게 밀어내요.",
       },
     },
 
     // ── s2-2-q023 · mcq · foundation · SL · Structure 2.2.5 · 1 mark
     "s2-2-q023": {
       // EN: <p>Electronegativity values from the data booklet: H 2.2, C 2.6, N 3.0, O 3.4, Cl 3.2.</p><p>Which bond is the most polar?</p>
-      stem: "",
+      stem: "<p>데이터 부클릿의 전기 음성도 값: H 2.2, C 2.6, N 3.0, O 3.4, Cl 3.2.</p><p>극성이 가장 큰 결합은 무엇인가요?</p>",
       options: [
         // EN: <span class="chem">C–H</span>
-        "",
+        "<span class=\"chem\">C–H</span>",
         // EN: <span class="chem">N–H</span>
-        "",
+        "<span class=\"chem\">N–H</span>",
         // EN: <span class="chem">O–H</span>
-        "",
+        "<span class=\"chem\">O–H</span>",
         // EN: <span class="chem">H–Cl</span>
-        "",
+        "<span class=\"chem\">H–Cl</span>",
       ],
       hints: [
         // EN: Bond polarity comes from the difference in electronegativity of the two atoms.
-        "",
+        "결합의 극성은 두 원자의 전기 음성도 차이에서 생겨요.",
         // EN: Subtract the two values for each bond. The largest difference is the most polar bond.
-        "",
+        "결합마다 두 값을 빼 보세요. 차이가 가장 큰 것이 극성이 가장 큰 결합이에요.",
       ],
       // EN: <div class="worked__math">C–H: 2.6 − 2.2 = 0.4</div><div class="worked__math">N–H: 3.0 − 2.2 = 0.8</div><div class="worked__math">O–H: 3.4 − 2.2 = 1.2</div><div class="worked__math">H–Cl: 3.2 − 2.2 = 1.0</div><p>The largest difference is for <strong><span class="chem">O–H</span></strong>, so it is the most polar bond.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">C–H: 2.6 − 2.2 = 0.4</div><div class=\"worked__math\">N–H: 3.0 − 2.2 = 0.8</div><div class=\"worked__math\">O–H: 3.4 − 2.2 = 1.2</div><div class=\"worked__math\">H–Cl: 3.2 − 2.2 = 1.0</div><p>차이가 가장 큰 것은 <strong><span class=\"chem\">O–H</span></strong>이므로 극성이 가장 큰 결합이에요.</p>",
       misconception: {
         // EN (option A): The difference for <span class="chem">C–H</span> is 2.6 − 2.2 = 0.4. This is the smallest difference of the four, so it is the least polar bond here.
-        "0": "",
+        "0": "<span class=\"chem\">C–H</span>의 차이는 2.6 − 2.2 = 0.4예요. 넷 중 차이가 가장 작으므로 여기서는 극성이 가장 작은 결합이에요.",
         // EN (option B): The difference for <span class="chem">N–H</span> is 3.0 − 2.2 = 0.8. One of the other bonds has a larger difference.
-        "1": "",
+        "1": "<span class=\"chem\">N–H</span>의 차이는 3.0 − 2.2 = 0.8이에요. 다른 결합 중에 차이가 더 큰 것이 있어요.",
         // EN (option D): The difference for <span class="chem">H–Cl</span> is 3.2 − 2.2 = 1.0. This is large, but one of the other bonds has a larger difference.
-        "3": "",
+        "3": "<span class=\"chem\">H–Cl</span>의 차이는 3.2 − 2.2 = 1.0이에요. 큰 값이지만 다른 결합 중에 차이가 더 큰 것이 있어요.",
       },
     },
 
     // ── s2-2-q024 · numeric · foundation · SL · Structure 2.2.5 · 1 mark
     "s2-2-q024": {
       // EN: <p>The data booklet gives the electronegativity of carbon as 2.6 and of chlorine as 3.2.</p><p>Calculate the electronegativity difference for a <span class="chem">C–Cl</span> bond.</p>
-      stem: "",
+      stem: "<p>데이터 부클릿에 따르면 탄소의 전기 음성도는 2.6, 염소는 3.2예요.</p><p><span class=\"chem\">C–Cl</span> 결합의 전기 음성도 차이를 계산하시오 (calculate).</p>",
       hints: [
         // EN: Subtract the smaller value from the larger value.
-        "",
+        "큰 값에서 작은 값을 빼세요.",
       ],
       // EN: <div class="worked__math">difference = 3.2 − 2.6 = 0.6</div><p>Chlorine has the higher electronegativity, so it attracts the shared pair more strongly. Chlorine is δ− and carbon is δ+.</p><p>Electronegativity has no unit.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">차이 = 3.2 − 2.6 = 0.6</div><p>염소의 전기 음성도가 더 크므로 공유 전자쌍을 더 세게 끌어당겨요. 염소는 δ−, 탄소는 δ+예요.</p><p>전기 음성도에는 단위가 없어요.</p>",
     },
 
     // ── s2-2-q025 · mcq · exam · SL · Structure 2.2.5 · 1 mark
     "s2-2-q025": {
       // EN: <p>Electronegativity values from the data booklet: H 2.2, C 2.6, N 3.0, O 3.4, F 4.0, Cl 3.2.</p><p>Which row shows the correct partial charges?</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Options</caption><thead><tr><th scope="col"></th><th scope="col">Bond</th><th scope="col">δ+ atom</th><th scope="col">δ− atom</th></tr></thead><tbody><tr><th scope="row">A</th><td><span class="chem">N–H</span></td><td>N</td><td>H</td></tr><tr><th scope="row">B</th><td><span class="chem">C–Cl</span></td><td>C</td><td>Cl</td></tr><tr><th scope="row">C</th><td><span class="chem">O–F</span></td><td>F</td><td>O</td></tr><tr><th scope="row">D</th><td><span class="chem">C–H</span></td><td>C</td><td>H</td></tr></tbody></table></div>
-      stem: "",
+      stem: "<p>데이터 부클릿의 전기 음성도 값: H 2.2, C 2.6, N 3.0, O 3.4, F 4.0, Cl 3.2.</p><p>부분 전하를 옳게 나타낸 행은 무엇인가요?</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>보기</caption><thead><tr><th scope=\"col\"></th><th scope=\"col\">결합</th><th scope=\"col\">δ+ 원자</th><th scope=\"col\">δ− 원자</th></tr></thead><tbody><tr><th scope=\"row\">A</th><td><span class=\"chem\">N–H</span></td><td>N</td><td>H</td></tr><tr><th scope=\"row\">B</th><td><span class=\"chem\">C–Cl</span></td><td>C</td><td>Cl</td></tr><tr><th scope=\"row\">C</th><td><span class=\"chem\">O–F</span></td><td>F</td><td>O</td></tr><tr><th scope=\"row\">D</th><td><span class=\"chem\">C–H</span></td><td>C</td><td>H</td></tr></tbody></table></div>",
       options: [
         // EN: A
-        "",
+        "A",
         // EN: B
-        "",
+        "B",
         // EN: C
-        "",
+        "C",
         // EN: D
-        "",
+        "D",
       ],
       hints: [
         // EN: The more electronegative atom attracts the shared pair more strongly.
-        "",
+        "전기 음성도가 더 큰 원자가 공유 전자쌍을 더 세게 끌어당겨요.",
         // EN: The atom that pulls the electrons closer becomes slightly negative, δ−.
-        "",
+        "전자를 더 가까이 끌어당기는 원자는 약간 음전하를 띠어요(δ−).",
       ],
       // EN: <p>In each bond, the atom with the <strong>higher</strong> electronegativity is δ−.</p><p><span class="chem">C–Cl</span>: Cl (3.2) is higher than C (2.6), so C is δ+ and Cl is δ−. Row B is correct.</p><p>The correct charges for the other rows: N δ− and H δ+; F δ− and O δ+; C δ− and H δ+.</p>
-      solution: "",
+      solution: "<p>각 결합에서 전기 음성도가 <strong>더 큰</strong> 원자가 δ−예요.</p><p><span class=\"chem\">C–Cl</span>: Cl(3.2)이 C(2.6)보다 크므로 C는 δ+, Cl은 δ−예요. B 행이 옳아요.</p><p>나머지 행의 올바른 전하: N δ−와 H δ+, F δ−와 O δ+, C δ−와 H δ+.</p>",
       misconception: {
         // EN (option A): Nitrogen (3.0) is more electronegative than hydrogen (2.2). Nitrogen pulls the shared pair closer, so nitrogen is δ−.
-        "0": "",
+        "0": "질소(3.0)는 수소(2.2)보다 전기 음성도가 커요. 질소가 공유 전자쌍을 더 가까이 끌어당기므로 질소가 δ−예요.",
         // EN (option C): Fluorine (4.0) is more electronegative than oxygen (3.4). In this bond oxygen is the δ+ atom, even though oxygen is usually δ−.
-        "2": "",
+        "2": "플루오린(4.0)은 산소(3.4)보다 전기 음성도가 커요. 산소는 보통 δ−이지만 이 결합에서는 δ+ 원자예요.",
         // EN (option D): With the booklet values, carbon (2.6) is more electronegative than hydrogen (2.2). Carbon is δ− and hydrogen is δ+.
-        "3": "",
+        "3": "부클릿 값으로 보면 탄소(2.6)는 수소(2.2)보다 전기 음성도가 커요. 탄소가 δ−, 수소가 δ+예요.",
       },
     },
 
     // ── s2-2-q026 · mcq · challenge · SL · Structure 2.2.5 · 1 mark
     "s2-2-q026": {
       // EN: <p>A student writes: "A covalent bond between atoms of two different elements is always polar."</p><p>Electronegativity values from the data booklet: H 2.2, C 2.6, N 3.0, O 3.4, F 4.0, S 2.6, Cl 3.2.</p><p>Which bond shows that the student is <strong>not</strong> always right?</p>
-      stem: "",
+      stem: "<p>한 학생이 이렇게 썼어요: \"서로 다른 두 원소의 원자 사이의 공유 결합은 항상 극성이다.\"</p><p>데이터 부클릿의 전기 음성도 값: H 2.2, C 2.6, N 3.0, O 3.4, F 4.0, S 2.6, Cl 3.2.</p><p>학생의 말이 항상 옳지는 <strong>않다는</strong> 것을 보여 주는 결합은 무엇인가요?</p>",
       options: [
         // EN: <span class="chem">C–H</span>
-        "",
+        "<span class=\"chem\">C–H</span>",
         // EN: <span class="chem">N–Cl</span>
-        "",
+        "<span class=\"chem\">N–Cl</span>",
         // EN: <span class="chem">C–S</span>
-        "",
+        "<span class=\"chem\">C–S</span>",
         // EN: <span class="chem">O–F</span>
-        "",
+        "<span class=\"chem\">O–F</span>",
       ],
       hints: [
         // EN: A bond is polar when the two atoms have different electronegativities.
-        "",
+        "두 원자의 전기 음성도가 다르면 결합은 극성이에요.",
         // EN: Calculate the difference for each bond. Is any difference zero?
-        "",
+        "결합마다 차이를 계산해 보세요. 차이가 0인 것이 있나요?",
       ],
       // EN: <div class="worked__math">C–H: 2.6 − 2.2 = 0.4</div><div class="worked__math">N–Cl: 3.2 − 3.0 = 0.2</div><div class="worked__math">C–S: 2.6 − 2.6 = 0.0</div><div class="worked__math">O–F: 4.0 − 3.4 = 0.6</div><p>Carbon and sulfur have the same booklet value. The shared pair is attracted equally by both atoms, so the model predicts a <strong>non-polar</strong> <span class="chem">C–S</span> bond. Polarity depends on the electronegativity difference, not on the atoms being different elements.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">C–H: 2.6 − 2.2 = 0.4</div><div class=\"worked__math\">N–Cl: 3.2 − 3.0 = 0.2</div><div class=\"worked__math\">C–S: 2.6 − 2.6 = 0.0</div><div class=\"worked__math\">O–F: 4.0 − 3.4 = 0.6</div><p>탄소와 황은 부클릿 값이 같아요. 두 원자가 공유 전자쌍을 똑같이 끌어당기므로 이 모형으로는 <span class=\"chem\">C–S</span> 결합이 <strong>무극성</strong>이라고 예측해요. 극성은 원소가 다른지가 아니라 전기 음성도 차이로 정해져요.</p>",
       misconception: {
         // EN (option A): The difference is 2.6 − 2.2 = 0.4. This is small, but it is not zero. The bond is slightly polar.
-        "0": "",
+        "0": "차이는 2.6 − 2.2 = 0.4예요. 작지만 0은 아니에요. 이 결합은 약한 극성이에요.",
         // EN (option B): The difference is 3.2 − 3.0 = 0.2. This is very small, but it is not zero. Look for a pair of atoms with the same value.
-        "1": "",
+        "1": "차이는 3.2 − 3.0 = 0.2예요. 아주 작지만 0은 아니에요. 값이 같은 두 원자를 찾아보세요.",
         // EN (option D): Both atoms are very electronegative, but what matters is the <strong>difference</strong>: 4.0 − 3.4 = 0.6. The bond is polar.
-        "3": "",
+        "3": "두 원자 모두 전기 음성도가 매우 크지만, 중요한 것은 <strong>차이</strong>예요: 4.0 − 3.4 = 0.6. 이 결합은 극성이에요.",
       },
     },
 
     // ── s2-2-q027 · mcq · foundation · SL · Structure 2.2.6 · 1 mark
     "s2-2-q027": {
       // EN: <p>Which molecule is non-polar?</p>
-      stem: "",
+      stem: "<p>무극성 분자는 무엇인가요?</p>",
       options: [
         // EN: <span class="chem">H2O</span>
-        "",
+        "<span class=\"chem\">H2O</span>",
         // EN: <span class="chem">NH3</span>
-        "",
+        "<span class=\"chem\">NH3</span>",
         // EN: <span class="chem">HCl</span>
-        "",
+        "<span class=\"chem\">HCl</span>",
         // EN: <span class="chem">CO2</span>
-        "",
+        "<span class=\"chem\">CO2</span>",
       ],
       hints: [
         // EN: All four molecules have polar bonds. The shape decides if the bond dipoles cancel.
-        "",
+        "네 분자 모두 극성 결합이 있어요. 결합 쌍극자가 상쇄되는지는 모양이 결정해요.",
         // EN: Which molecule is linear with two identical bonds?
-        "",
+        "똑같은 결합 2개가 있는 직선형 분자는 무엇인가요?",
       ],
       // EN: <p><span class="chem">CO2</span> is <strong>linear</strong>: <span class="chem">O=C=O</span>. The two <span class="chem">C=O</span> bond dipoles are equal in size and point in opposite directions. They cancel, so the molecule has no net dipole.</p><p>A molecule can have polar bonds and still be non-polar.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">CO2</span>는 <strong>직선형</strong>이에요: <span class=\"chem\">O=C=O</span>. 두 <span class=\"chem\">C=O</span> 결합 쌍극자는 크기가 같고 서로 반대 방향을 향해요. 서로 상쇄되므로 분자 전체의 쌍극자가 없어요.</p><p>극성 결합이 있어도 분자는 무극성일 수 있어요.</p>",
       misconception: {
         // EN (option A): Water is bent. The two <span class="chem">O–H</span> bond dipoles point in different directions and do not cancel. Water is polar.
-        "0": "",
+        "0": "물은 굽은 형이에요. 두 <span class=\"chem\">O–H</span> 결합 쌍극자는 서로 다른 방향을 향해 상쇄되지 않아요. 물은 극성이에요.",
         // EN (option B): Ammonia is trigonal pyramidal. The three <span class="chem">N–H</span> bond dipoles do not cancel. Ammonia is polar.
-        "1": "",
+        "1": "암모니아는 삼각뿔형이에요. 세 <span class=\"chem\">N–H</span> 결합 쌍극자는 상쇄되지 않아요. 암모니아는 극성이에요.",
         // EN (option C): <span class="chem">HCl</span> has one polar bond and nothing to cancel it. It is polar.
-        "2": "",
+        "2": "<span class=\"chem\">HCl</span>에는 극성 결합이 1개 있고 이를 상쇄할 것이 없어요. 극성이에요.",
       },
     },
 
     // ── s2-2-q028 · multi · exam · SL · Structure 2.2.6 · 1 mark
     "s2-2-q028": {
       // EN: <p>Which of these molecules are polar (have a net dipole)? Select all that apply.</p>
-      stem: "",
+      stem: "<p>다음 중 극성 분자(분자 전체의 쌍극자가 있는 분자)는 무엇인가요? 해당하는 것을 모두 고르세요.</p>",
       options: [
         // EN: <span class="chem">CCl4</span>
-        "",
+        "<span class=\"chem\">CCl4</span>",
         // EN: <span class="chem">CHCl3</span>
-        "",
+        "<span class=\"chem\">CHCl3</span>",
         // EN: <span class="chem">BF3</span>
-        "",
+        "<span class=\"chem\">BF3</span>",
         // EN: <span class="chem">NF3</span>
-        "",
+        "<span class=\"chem\">NF3</span>",
         // EN: <span class="chem">CO2</span>
-        "",
+        "<span class=\"chem\">CO2</span>",
       ],
       hints: [
         // EN: Find the shape of each molecule first.
-        "",
+        "먼저 각 분자의 모양을 찾아보세요.",
         // EN: Bond dipoles cancel when identical bonds are arranged symmetrically around the central atom with no lone pairs.
-        "",
+        "중심 원자에 비공유 전자쌍이 없고 똑같은 결합들이 대칭으로 배치되어 있으면 결합 쌍극자가 상쇄돼요.",
         // EN: Check each central atom for lone pairs, and check if all the outer atoms are the same.
-        "",
+        "각 중심 원자에 비공유 전자쌍이 있는지, 바깥쪽 원자가 모두 같은지 확인하세요.",
       ],
       // EN: <p><strong><span class="chem">CHCl3</span></strong>: tetrahedral, but the four bonds are not all the same (one <span class="chem">C–H</span>, three <span class="chem">C–Cl</span>). The bond dipoles do not cancel. Polar.</p><p><strong><span class="chem">NF3</span></strong>: nitrogen has a lone pair, so the shape is trigonal pyramidal. The three <span class="chem">N–F</span> bond dipoles do not cancel. Polar.</p><p><span class="chem">CCl4</span> (tetrahedral), <span class="chem">BF3</span> (trigonal planar) and <span class="chem">CO2</span> (linear) are symmetrical, so their bond dipoles cancel.</p>
-      solution: "",
+      solution: "<p><strong><span class=\"chem\">CHCl3</span></strong>: 정사면체형이지만 결합 4개가 모두 같지는 않아요(<span class=\"chem\">C–H</span> 1개, <span class=\"chem\">C–Cl</span> 3개). 결합 쌍극자가 상쇄되지 않아요. 극성.</p><p><strong><span class=\"chem\">NF3</span></strong>: 질소에 비공유 전자쌍이 있으므로 모양이 삼각뿔형이에요. 세 <span class=\"chem\">N–F</span> 결합 쌍극자가 상쇄되지 않아요. 극성.</p><p><span class=\"chem\">CCl4</span>(정사면체형), <span class=\"chem\">BF3</span>(평면 삼각형), <span class=\"chem\">CO2</span>(직선형)는 대칭이므로 결합 쌍극자가 상쇄돼요.</p>",
       misconception: {
         // EN (option A): <span class="chem">CCl4</span> is tetrahedral with four identical <span class="chem">C–Cl</span> bonds. The four bond dipoles cancel. Polar bonds do not always make a polar molecule.
-        "0": "",
+        "0": "<span class=\"chem\">CCl4</span>는 똑같은 <span class=\"chem\">C–Cl</span> 결합 4개가 있는 정사면체형이에요. 결합 쌍극자 4개가 상쇄돼요. 극성 결합이 있다고 항상 극성 분자가 되는 것은 아니에요.",
         // EN (option C): <span class="chem">BF3</span> is trigonal planar with three identical <span class="chem">B–F</span> bonds at 120°. The three bond dipoles cancel.
-        "2": "",
+        "2": "<span class=\"chem\">BF3</span>는 똑같은 <span class=\"chem\">B–F</span> 결합 3개가 120°로 배치된 평면 삼각형이에요. 결합 쌍극자 3개가 상쇄돼요.",
         // EN (option E): <span class="chem">CO2</span> is linear. The two equal <span class="chem">C=O</span> bond dipoles point in opposite directions and cancel.
-        "4": "",
+        "4": "<span class=\"chem\">CO2</span>는 직선형이에요. 크기가 같은 두 <span class=\"chem\">C=O</span> 결합 쌍극자가 반대 방향을 향해 상쇄돼요.",
       },
     },
 
     // ── s2-2-q029 · short · exam · SL · Structure 2.2.6 · 2 marks
     "s2-2-q029": {
       // EN: <p>The bonds in carbon dioxide, <span class="chem">CO2</span>, and in water, <span class="chem">H2O</span>, are all polar.</p><p>Explain why a water molecule is polar but a carbon dioxide molecule is non-polar.</p>
-      stem: "",
+      stem: "<p>이산화 탄소 <span class=\"chem\">CO2</span>와 물 <span class=\"chem\">H2O</span>의 결합은 모두 극성이에요.</p><p>물 분자는 극성이지만 이산화 탄소 분자는 무극성인 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: The question tells you the bonds are polar. So the answer must be about geometry.
-        "",
+        "문제에서 결합이 극성이라고 알려 줬어요. 그러니 답은 분자 모양에 관한 것이어야 해요.",
         // EN: Name the shape of each molecule. Then say what happens to the bond dipoles.
-        "",
+        "각 분자의 모양을 쓰세요. 그런 다음 결합 쌍극자가 어떻게 되는지 쓰세요.",
       ],
       // EN: <p>Carbon dioxide is linear, so the two equal bond dipoles point in opposite directions and cancel. There is no net dipole.</p><p>Water is bent (V-shaped), because oxygen has two lone pairs. The two bond dipoles do not cancel, so the molecule has a net dipole.</p>
-      answer: "",
+      answer: "<p>이산화 탄소는 직선형이므로 크기가 같은 두 결합 쌍극자가 반대 방향을 향해 상쇄돼요. 분자 전체의 쌍극자가 없어요.</p><p>물은 산소에 비공유 전자쌍이 2개 있으므로 굽은 형(V자형)이에요. 두 결합 쌍극자가 상쇄되지 않으므로 분자 전체의 쌍극자가 있어요.</p>",
       markscheme: [
         // EN: Carbon dioxide is linear / symmetrical, so the bond dipoles cancel (no net dipole).
-        "",
+        "이산화 탄소는 직선형이다 / 대칭이다, 그래서 결합 쌍극자가 상쇄된다(분자 전체의 쌍극자가 없다).",
         // EN: Water is bent / V-shaped / not symmetrical, so the bond dipoles do not cancel (there is a net dipole).
-        "",
+        "물은 굽은 형이다 / V자형이다 / 대칭이 아니다, 그래서 결합 쌍극자가 상쇄되지 않는다(분자 전체의 쌍극자가 있다).",
       ],
     },
 
     // ── s2-2-q030 · mcq · challenge · SL · Structure 2.2.6 · 1 mark
     "s2-2-q030": {
       // EN: <p>Carbonyl sulfide has the structure <span class="chem">O=C=S</span>. Like carbon dioxide, it has two electron domains around the carbon atom.</p><p>Electronegativity values from the data booklet: C 2.6, O 3.4, S 2.6.</p><p>Which statement about carbonyl sulfide is correct?</p>
-      stem: "",
+      stem: "<p>황화 카보닐(carbonyl sulfide)의 구조는 <span class=\"chem\">O=C=S</span>예요. 이산화 탄소처럼 탄소 원자 주위에 전자 영역이 2개 있어요.</p><p>데이터 부클릿의 전기 음성도 값: C 2.6, O 3.4, S 2.6.</p><p>황화 카보닐에 대한 설명으로 옳은 것은 무엇인가요?</p>",
       options: [
         // EN: It is non-polar, because it is linear and the bond dipoles cancel.
         "",

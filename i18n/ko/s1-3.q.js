@@ -9,766 +9,766 @@ S1.i18n.register('ko', 's1-3.q', {
     // ── s1-3-q001 · mcq · foundation · SL · Structure 1.3.1 · 1 mark
     "s1-3-q001": {
       // EN: <p>Which statement describes a <strong>line</strong> spectrum?</p>
-      stem: "",
+      stem: "<p>다음 중 <strong>선</strong> 스펙트럼을 옳게 설명한 것은 어느 것인가요?</p>",
       options: [
         // EN: It contains all the wavelengths in a range, so the colours merge into each other.
-        "",
+        "어떤 범위의 모든 파장을 포함하고 있어서 색깔들이 서로 이어져 섞여 보여요.",
         // EN: It contains only certain separate wavelengths, seen as individual lines.
-        "",
+        "서로 떨어진 특정한 파장만 포함하고 있고, 하나하나의 선으로 보여요.",
         // EN: It contains only one wavelength, seen as a single line.
-        "",
+        "파장을 하나만 포함하고 있고, 선 하나로 보여요.",
         // EN: It contains every wavelength of the electromagnetic spectrum.
-        "",
+        "전자기 스펙트럼의 모든 파장을 포함하고 있어요.",
       ],
       hints: [
         // EN: Picture a rainbow next to a set of thin coloured lines on a dark background. Which one is the line spectrum?
-        "",
+        "무지개와, 어두운 바탕 위에 가는 색깔 선 몇 개가 있는 모습을 나란히 떠올려 봐요. 어느 쪽이 선 스펙트럼일까요?",
       ],
       // EN: <p>A <strong>continuous</strong> spectrum contains all wavelengths (or frequencies) in a range. A <strong>line</strong> spectrum contains only certain discrete wavelengths (or frequencies), seen as separate lines.</p>
-      solution: "",
+      solution: "<p><strong>연속</strong> 스펙트럼은 어떤 범위의 모든 파장(또는 진동수)을 포함해요. <strong>선</strong> 스펙트럼은 서로 떨어진(불연속적인) 특정 파장(또는 진동수)만 포함하고, 각각 따로 떨어진 선으로 보여요.</p>",
       misconception: {
         // EN (option A): This describes a continuous spectrum, such as the rainbow of colours from white light passed through a prism.
-        "0": "",
+        "0": "이것은 연속 스펙트럼에 대한 설명이에요. 백색광을 프리즘에 통과시켰을 때 보이는 무지개색 띠가 그 예예요.",
         // EN (option C): A line spectrum usually has many lines. Each line is one wavelength, but there are several of them.
-        "2": "",
+        "2": "선 스펙트럼에는 보통 선이 여러 개 있어요. 선 하나는 파장 하나이지만, 그런 선이 여러 개 있어요.",
         // EN (option D): This is the opposite idea. A line spectrum is missing most wavelengths. Only a few specific ones are present.
-        "3": "",
+        "3": "이것은 반대되는 생각이에요. 선 스펙트럼에는 대부분의 파장이 빠져 있어요. 몇 개의 특정한 파장만 있어요.",
       },
     },
 
     // ── s1-3-q002 · mcq · foundation · SL · Structure 1.3.1 · 1 mark
     "s1-3-q002": {
       // EN: <p>Which colour of visible light has photons of the <strong>highest</strong> energy?</p>
-      stem: "",
+      stem: "<p>가시광선 중 광자의 에너지가 <strong>가장 큰</strong> 색깔은 무엇인가요?</p>",
       options: [
         // EN: Red
-        "",
+        "빨간색",
         // EN: Yellow
-        "",
+        "노란색",
         // EN: Green
-        "",
+        "초록색",
         // EN: Violet
-        "",
+        "보라색",
       ],
       hints: [
         // EN: The data booklet shows the visible region running from violet (about 400 nm) to red (about 700 nm).
-        "",
+        "데이터 부클릿을 보면 가시광선 영역은 보라색(약 400 nm)부터 빨간색(약 700 nm)까지예요.",
         // EN: Shorter wavelength means higher frequency, and higher frequency means higher energy.
-        "",
+        "파장이 짧을수록 진동수가 크고, 진동수가 클수록 에너지가 커요.",
       ],
       // EN: <p>Violet light has the shortest wavelength in the visible region (about 400 nm). Shorter wavelength means higher frequency and higher energy, so violet photons have the highest energy.</p>
-      solution: "",
+      solution: "<p>보라색 빛은 가시광선 영역에서 파장이 가장 짧아요(약 400 nm). 파장이 짧을수록 진동수와 에너지가 크므로, 보라색 광자의 에너지가 가장 커요.</p>",
       misconception: {
         // EN (option A): Red light has the longest wavelength in the visible region, so it has the lowest frequency and the lowest energy.
-        "0": "",
+        "0": "빨간색 빛은 가시광선 영역에서 파장이 가장 길어서, 진동수와 에너지가 가장 작아요.",
         // EN (option B): Yellow is in the middle of the visible region. Look for the colour with the shortest wavelength.
-        "1": "",
+        "1": "노란색은 가시광선 영역의 가운데쯤에 있어요. 파장이 가장 짧은 색깔을 찾아봐요.",
         // EN (option C): Green is in the middle of the visible region. Look for the colour with the shortest wavelength.
-        "2": "",
+        "2": "초록색은 가시광선 영역의 가운데쯤에 있어요. 파장이 가장 짧은 색깔을 찾아봐요.",
       },
     },
 
     // ── s1-3-q003 · order · foundation · SL · Structure 1.3.1 · 1 mark
     "s1-3-q003": {
       // EN: <p>Put these types of electromagnetic radiation in order of <strong>increasing frequency</strong> (lowest frequency first).</p>
-      stem: "",
+      stem: "<p>다음 전자기 복사를 <strong>진동수가 커지는 순서</strong>로 나열하세요(진동수가 가장 작은 것이 맨 앞).</p>",
       options: [
         // EN: Infrared
-        "",
+        "적외선",
         // EN: Red light
-        "",
+        "빨간색 빛",
         // EN: Green light
-        "",
+        "초록색 빛",
         // EN: Violet light
-        "",
+        "보라색 빛",
         // EN: Ultraviolet
-        "",
+        "자외선",
       ],
       hints: [
         // EN: Increasing frequency is the same order as increasing energy and <em>decreasing</em> wavelength.
-        "",
+        "진동수가 커지는 순서는 에너지가 커지는 순서, 그리고 파장이 <em>짧아지는</em> 순서와 같아요.",
         // EN: Infrared lies next to the red end of the visible region. Ultraviolet lies next to the violet end.
-        "",
+        "적외선은 가시광선 영역의 빨간색 쪽 끝 바로 옆에 있어요. 자외선은 보라색 쪽 끝 바로 옆에 있어요.",
       ],
       // EN: <p>Infrared has the longest wavelength of these, so it has the lowest frequency. Within the visible region the wavelength falls from red (about 700 nm) through green to violet (about 400 nm), so the frequency rises. Ultraviolet has a shorter wavelength than violet, so it has the highest frequency and the highest energy.</p>
-      solution: "",
+      solution: "<p>이 중에서 적외선의 파장이 가장 길기 때문에 진동수가 가장 작아요. 가시광선 영역 안에서는 빨간색(약 700 nm)에서 초록색을 거쳐 보라색(약 400 nm)으로 갈수록 파장이 짧아지므로 진동수가 커져요. 자외선은 보라색보다 파장이 짧아서 진동수와 에너지가 가장 커요.</p>",
     },
 
     // ── s1-3-q004 · short · exam · SL · Structure 1.3.1 · 2 marks
     "s1-3-q004": {
       // EN: <p>A sample of gaseous atoms is given energy by an electric discharge. Explain how one line in the emission spectrum of the element is produced.</p>
-      stem: "",
+      stem: "<p>기체 원자 시료에 방전으로 에너지를 가했어요. 이 원소의 방출 스펙트럼에서 선 하나가 어떻게 생기는지 설명하시오 (explain).</p>",
       hints: [
         // EN: Start with where the electron is after the atom has absorbed energy.
-        "",
+        "원자가 에너지를 흡수한 뒤 전자가 어디에 있는지부터 시작해요.",
         // EN: What leaves the atom when the electron drops down, and what fixes its energy?
-        "",
+        "전자가 아래로 떨어질 때 원자에서 무엇이 나오나요? 그리고 그것의 에너지는 무엇으로 정해지나요?",
       ],
       // EN: <p>The energy excites an electron to a higher energy level. The electron then returns (falls) to a lower energy level and emits a photon. The energy of the photon equals the difference in energy between the two levels, so the light has one specific frequency (wavelength), which is seen as a line.</p>
-      answer: "",
+      answer: "<p>에너지를 받으면 전자가 더 높은 에너지 준위로 들떠요. 그 뒤 전자가 더 낮은 에너지 준위로 되돌아오면서(떨어지면서) 광자를 방출해요. 광자의 에너지는 두 준위 사이의 에너지 차이와 같으므로, 빛은 특정한 진동수(파장) 하나를 가지고, 이것이 선 하나로 보여요.</p>",
       markscheme: [
         // EN: An electron (in an excited state) returns/falls from a higher energy level to a lower energy level.
-        "",
+        "(들뜬상태의) 전자가 더 높은 에너지 준위에서 더 낮은 에너지 준위로 되돌아온다/떨어진다.",
         // EN: A photon is emitted whose energy equals the difference between the two levels (accept: light of a specific frequency/wavelength is emitted).
-        "",
+        "두 준위 사이의 에너지 차이와 같은 에너지를 가진 광자가 방출된다(인정: 특정한 진동수/파장의 빛이 방출된다).",
       ],
     },
 
     // ── s1-3-q005 · mcq · foundation · SL · Structure 1.3.2 · 1 mark
     "s1-3-q005": {
       // EN: <p>In the emission spectrum of hydrogen, electrons fall to the first, second or third energy level. Which row gives the region of the electromagnetic spectrum for each set of lines?</p>
-      stem: "",
+      stem: "<p>수소의 방출 스펙트럼에서 전자는 첫 번째, 두 번째 또는 세 번째 에너지 준위로 떨어져요. 각 선 계열이 전자기 스펙트럼의 어느 영역에 있는지 옳게 나타낸 것은 어느 것인가요?</p>",
       options: [
         // EN: To n = 1: visible. To n = 2: ultraviolet. To n = 3: infrared.
-        "",
+        "n = 1로: 가시광선. n = 2로: 자외선. n = 3으로: 적외선.",
         // EN: To n = 1: ultraviolet. To n = 2: visible. To n = 3: infrared.
-        "",
+        "n = 1로: 자외선. n = 2로: 가시광선. n = 3으로: 적외선.",
         // EN: To n = 1: infrared. To n = 2: visible. To n = 3: ultraviolet.
-        "",
+        "n = 1로: 적외선. n = 2로: 가시광선. n = 3으로: 자외선.",
         // EN: To n = 1: ultraviolet. To n = 2: infrared. To n = 3: visible.
-        "",
+        "n = 1로: 자외선. n = 2로: 적외선. n = 3으로: 가시광선.",
       ],
       hints: [
         // EN: Falls to the lowest level release the most energy.
-        "",
+        "가장 낮은 준위로 떨어질 때 에너지가 가장 많이 방출돼요.",
         // EN: In order of decreasing energy: ultraviolet, visible, infrared.
-        "",
+        "에너지가 큰 것부터 차례로: 자외선, 가시광선, 적외선.",
       ],
       // EN: <p>The gap between n = 1 and the levels above it is the largest, so falls to n = 1 emit the highest-energy photons: <strong>ultraviolet</strong>. Falls to n = 2 release less energy: <strong>visible</strong>. Falls to n = 3 release less again: <strong>infrared</strong>.</p>
-      solution: "",
+      solution: "<p>n = 1과 그 위 준위들 사이의 간격이 가장 크므로, n = 1로 떨어질 때 에너지가 가장 큰 광자가 방출돼요: <strong>자외선</strong>. n = 2로 떨어질 때는 에너지가 더 적게 방출돼요: <strong>가시광선</strong>. n = 3으로 떨어질 때는 그보다 더 적게 방출돼요: <strong>적외선</strong>.</p>",
       misconception: {
         // EN (option A): The visible lines do not end at n = 1. Falls to n = 1 release the most energy, and that puts them in the ultraviolet.
-        "0": "",
+        "0": "가시광선 선들은 n = 1에서 끝나지 않아요. n = 1로 떨어질 때 에너지가 가장 많이 방출되고, 그래서 이 선들은 자외선 영역에 있어요.",
         // EN (option C): This is the right list in the wrong direction. Falls to n = 1 are the largest drops in energy, so they give the highest-energy radiation, not the lowest.
-        "2": "",
+        "2": "맞는 목록이지만 방향이 거꾸로예요. n = 1로 떨어지는 것이 에너지 낙차가 가장 크므로, 에너지가 가장 작은 복사가 아니라 가장 큰 복사가 나와요.",
         // EN (option D): Visible light has more energy than infrared, so it must come from the larger drops. Falls to n = 2 release more energy than falls to n = 3.
-        "3": "",
+        "3": "가시광선은 적외선보다 에너지가 크므로, 더 큰 에너지 낙차에서 나와야 해요. n = 2로 떨어질 때가 n = 3으로 떨어질 때보다 에너지가 더 많이 방출돼요.",
       },
     },
 
     // ── s1-3-q006 · mcq · exam · SL · Structure 1.3.2 · 1 mark
     "s1-3-q006": {
       // EN: <p>Which electron transition in a hydrogen atom <strong>emits</strong> radiation of the <strong>shortest wavelength</strong>?</p>
-      stem: "",
+      stem: "<p>수소 원자에서 <strong>파장이 가장 짧은</strong> 복사를 <strong>방출하는</strong> 전자 전이는 어느 것인가요?</p>",
       options: [
         // EN: n = 4 to n = 3
-        "",
+        "n = 4에서 n = 3으로",
         // EN: n = 5 to n = 2
-        "",
+        "n = 5에서 n = 2로",
         // EN: n = 2 to n = 1
-        "",
+        "n = 2에서 n = 1로",
         // EN: n = 1 to n = 3
-        "",
+        "n = 1에서 n = 3으로",
       ],
       hints: [
         // EN: Shortest wavelength means highest energy, so look for the largest fall in energy.
-        "",
+        "파장이 가장 짧다는 것은 에너지가 가장 크다는 뜻이에요. 그러니 에너지가 가장 크게 떨어지는 것을 찾아봐요.",
         // EN: The energy levels are not evenly spaced. They get closer together as n increases.
-        "",
+        "에너지 준위들은 같은 간격으로 놓여 있지 않아요. n이 커질수록 서로 가까워져요.",
       ],
       // EN: <p>Shortest wavelength means highest frequency and highest energy. The levels converge, so the gap between n = 1 and n = 2 is by far the largest gap. Any fall to n = 1 gives ultraviolet radiation, which has more energy than the visible lines (falls to n = 2) or the infrared lines (falls to n = 3). So n = 2 to n = 1 emits the shortest wavelength of the four.</p>
-      solution: "",
+      solution: "<p>파장이 가장 짧다는 것은 진동수와 에너지가 가장 크다는 뜻이에요. 준위들은 위로 갈수록 수렴하므로, n = 1과 n = 2 사이의 간격이 단연 가장 커요. n = 1로 떨어지는 전이는 모두 자외선을 내고, 자외선은 가시광선 선(n = 2로 떨어짐)이나 적외선 선(n = 3으로 떨어짐)보다 에너지가 커요. 따라서 네 가지 중에서 n = 2에서 n = 1로의 전이가 가장 짧은 파장을 방출해요.</p>",
       misconception: {
         // EN (option A): This is a fall between two levels that are close together in energy. It is a small energy change, so it gives a long wavelength (infrared).
-        "0": "",
+        "0": "이것은 에너지가 서로 가까운 두 준위 사이에서 떨어지는 전이예요. 에너지 변화가 작으므로 파장이 길어요(적외선).",
         // EN (option B): This electron crosses more levels, but the levels above n = 2 are close together. The single gap from n = 2 to n = 1 is larger than the whole drop from n = 5 to n = 2.
-        "1": "",
+        "1": "이 전자는 더 많은 준위를 건너지만, n = 2 위의 준위들은 서로 가까이 붙어 있어요. n = 2에서 n = 1로의 간격 하나가 n = 5에서 n = 2까지의 전체 낙차보다 커요.",
         // EN (option D): This electron moves <em>up</em>. The atom must absorb energy for that, so no radiation is emitted.
-        "3": "",
+        "3": "이 전자는 <em>위로</em> 올라가요. 그러려면 원자가 에너지를 흡수해야 하므로, 복사가 방출되지 않아요.",
       },
     },
 
     // ── s1-3-q007 · mcq · exam · SL · Structure 1.3.2 · 1 mark
     "s1-3-q007": {
       // EN: <p>In each set of lines in the hydrogen emission spectrum, the lines get closer together towards the high-frequency end. What does this show?</p>
-      stem: "",
+      stem: "<p>수소 방출 스펙트럼의 각 선 계열에서, 진동수가 큰 쪽으로 갈수록 선들이 서로 가까워져요. 이것은 무엇을 보여 주나요?</p>",
       options: [
         // EN: The energy levels get closer together as their energy increases.
-        "",
+        "에너지 준위는 에너지가 커질수록 서로 가까워진다.",
         // EN: The energy levels are equally spaced.
-        "",
+        "에너지 준위는 같은 간격으로 놓여 있다.",
         // EN: Electrons can have any energy inside the atom.
-        "",
+        "원자 안에서 전자는 어떤 에너지든 가질 수 있다.",
         // EN: Electrons in higher energy levels move more slowly.
-        "",
+        "높은 에너지 준위에 있는 전자는 더 느리게 움직인다.",
       ],
       hints: [
         // EN: Each line is one energy difference. If two lines are close together, what does that say about the two starting levels?
-        "",
+        "선 하나는 에너지 차이 하나예요. 두 선이 서로 가깝다면, 두 출발 준위에 대해 무엇을 알 수 있을까요?",
       ],
       // EN: <p>Lines that are close together come from electrons falling from levels that are close in energy. The lines converge at high frequency, so the energy levels converge (get closer together) at higher energy.</p>
-      solution: "",
+      solution: "<p>서로 가까운 선들은 에너지가 서로 가까운 준위에서 떨어지는 전자로부터 생겨요. 선들이 높은 진동수 쪽에서 수렴하므로, 에너지 준위도 높은 에너지 쪽에서 수렴해요(서로 가까워져요).</p>",
       misconception: {
         // EN (option B): Equally spaced levels would not make the lines bunch up. The lines converge because the gaps between higher levels shrink.
-        "1": "",
+        "1": "준위들이 같은 간격으로 놓여 있다면 선들이 한쪽으로 몰리지 않을 거예요. 선들이 수렴하는 것은 높은 준위들 사이의 간격이 줄어들기 때문이에요.",
         // EN (option C): If electrons could have any energy, the spectrum would be continuous. Separate lines show the opposite.
-        "2": "",
+        "2": "전자가 어떤 에너지든 가질 수 있다면 스펙트럼은 연속 스펙트럼이 될 거예요. 따로 떨어진 선들은 그 반대를 보여 줘요.",
         // EN (option D): The spectrum gives information about energy differences between levels. It does not tell you how fast the electrons move.
-        "3": "",
+        "3": "스펙트럼은 준위 사이의 에너지 차이에 대한 정보를 줘요. 전자가 얼마나 빨리 움직이는지는 알려 주지 않아요.",
       },
     },
 
     // ── s1-3-q008 · multi · exam · SL · Structure 1.3.2 · 2 marks
     "s1-3-q008": {
       // EN: <p>Which statements about the emission spectrum of hydrogen are correct?</p>
-      stem: "",
+      stem: "<p>수소의 방출 스펙트럼에 대한 설명으로 옳은 것을 모두 고르세요.</p>",
       options: [
         // EN: It is made of separate lines, not a continuous band of colour.
-        "",
+        "연속적인 색깔 띠가 아니라 따로 떨어진 선들로 이루어져 있다.",
         // EN: Each line is produced when an electron moves from a lower to a higher energy level.
-        "",
+        "각 선은 전자가 낮은 에너지 준위에서 높은 에너지 준위로 이동할 때 생긴다.",
         // EN: Within each set of lines, the lines get closer together as the frequency increases.
-        "",
+        "각 선 계열 안에서 진동수가 커질수록 선들이 서로 가까워진다.",
         // EN: The lines in the visible region come from electrons falling to n = 2.
-        "",
+        "가시광선 영역의 선들은 n = 2로 떨어지는 전자에서 생긴다.",
         // EN: Falls to n = 1 give lines of lower energy than falls to n = 3.
-        "",
+        "n = 1로 떨어질 때 생기는 선은 n = 3으로 떨어질 때 생기는 선보다 에너지가 작다.",
         // EN: Each line corresponds to photons of one specific energy.
-        "",
+        "각 선은 특정한 에너지 하나를 가진 광자에 해당한다.",
       ],
       hints: [
         // EN: Emission means the atom gives out light. Which direction must the electron move?
-        "",
+        "방출이란 원자가 빛을 내보낸다는 뜻이에요. 전자는 어느 방향으로 움직여야 할까요?",
         // EN: Largest fall in energy gives the highest-energy radiation.
-        "",
+        "에너지가 가장 크게 떨어질 때 에너지가 가장 큰 복사가 나와요.",
       ],
       // EN: <p>The spectrum is a line spectrum. Each line is light of one frequency, emitted when an electron falls from a higher to a lower energy level, so each line corresponds to photons of one specific energy. The visible lines come from falls to n = 2. Falls to n = 1 give ultraviolet lines (higher energy) and falls to n = 3 give infrared lines (lower energy). In each set the lines converge at high frequency.</p>
-      solution: "",
+      solution: "<p>이 스펙트럼은 선 스펙트럼이에요. 각 선은 진동수가 하나인 빛으로, 전자가 높은 에너지 준위에서 낮은 에너지 준위로 떨어질 때 방출돼요. 그래서 각 선은 특정한 에너지 하나를 가진 광자에 해당해요. 가시광선 선들은 n = 2로 떨어질 때 생겨요. n = 1로 떨어지면 자외선 선(에너지가 더 큼)이, n = 3으로 떨어지면 적외선 선(에너지가 더 작음)이 생겨요. 각 계열에서 선들은 높은 진동수 쪽에서 수렴해요.</p>",
       misconception: {
         // EN (option B): Moving up needs energy to be absorbed. Emission lines come from electrons falling from a higher level to a lower one.
-        "1": "",
+        "1": "위로 올라가려면 에너지를 흡수해야 해요. 방출 선은 전자가 높은 준위에서 낮은 준위로 떨어질 때 생겨요.",
         // EN (option E): Falls to n = 1 are the largest drops in energy. They give ultraviolet lines, which have more energy than the infrared lines from falls to n = 3.
-        "4": "",
+        "4": "n = 1로 떨어지는 것이 에너지 낙차가 가장 커요. 이때 자외선 선이 생기는데, 자외선은 n = 3으로 떨어질 때 생기는 적외선 선보다 에너지가 커요.",
       },
     },
 
     // ── s1-3-q009 · short · exam · SL · Structure 1.3.2 · 3 marks
     "s1-3-q009": {
       // EN: <p>The emission spectrum of hydrogen is a line spectrum, not a continuous spectrum. Explain how this is evidence that the electron in a hydrogen atom can only be in certain energy levels.</p>
-      stem: "",
+      stem: "<p>수소의 방출 스펙트럼은 연속 스펙트럼이 아니라 선 스펙트럼이에요. 이것이 수소 원자의 전자가 특정한 에너지 준위에만 있을 수 있다는 증거가 되는 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: What does each line tell you about the energy of the photons emitted?
-        "",
+        "각 선은 방출된 광자의 에너지에 대해 무엇을 알려 주나요?",
         // EN: Link the photon energy to the two levels the electron moves between.
-        "",
+        "광자의 에너지를 전자가 오가는 두 준위와 연결해 봐요.",
         // EN: Finish with the contrast: what would you see if any energy were allowed?
-        "",
+        "마지막으로 대비를 들어 마무리해요: 어떤 에너지든 허용된다면 무엇이 보일까요?",
       ],
       // EN: <p>A line spectrum shows that the atom emits light of only certain frequencies, so only photons of certain energies are emitted. Each photon is emitted when the electron falls from a higher energy level to a lower one, and the energy of the photon equals the difference in energy between those two levels. Only certain energy differences are seen, so the electron can only have certain fixed (discrete) energies. If the electron could have any energy, every energy difference would be possible and the spectrum would be continuous.</p>
-      answer: "",
+      answer: "<p>선 스펙트럼은 원자가 특정한 진동수의 빛만 방출한다는 것을 보여 주므로, 특정한 에너지를 가진 광자만 방출돼요. 각 광자는 전자가 높은 에너지 준위에서 낮은 에너지 준위로 떨어질 때 방출되고, 광자의 에너지는 그 두 준위 사이의 에너지 차이와 같아요. 특정한 에너지 차이만 관찰되므로, 전자는 특정하게 정해진(불연속적인) 에너지만 가질 수 있어요. 전자가 어떤 에너지든 가질 수 있다면 모든 에너지 차이가 가능할 것이고, 스펙트럼은 연속 스펙트럼이 될 거예요.</p>",
       markscheme: [
         // EN: Only certain/specific frequencies (or wavelengths, or photon energies) are emitted.
-        "",
+        "특정한 진동수(또는 파장, 또는 광자 에너지)만 방출된다.",
         // EN: Each photon/line is produced when an electron falls from a higher to a lower energy level, and its energy equals the energy difference between the two levels.
-        "",
+        "각 광자/선은 전자가 높은 에너지 준위에서 낮은 에너지 준위로 떨어질 때 생기며, 그 에너지는 두 준위 사이의 에너지 차이와 같다.",
         // EN: So only certain energy differences are possible, which means the energy levels are discrete/fixed (accept: if any energy were allowed the spectrum would be continuous).
-        "",
+        "따라서 특정한 에너지 차이만 가능하고, 이는 에너지 준위가 불연속적/정해져 있음을 뜻한다(인정: 어떤 에너지든 허용된다면 스펙트럼은 연속 스펙트럼일 것이다).",
       ],
     },
 
     // ── s1-3-q010 · mcq · challenge · SL · Structure 1.3.2 · 1 mark
     "s1-3-q010": {
       // EN: <p>The diagram shows some energy levels of the hydrogen atom (not to scale) and four electron transitions, P, Q, R and S.</p><p><svg viewBox="0 0 300 210" width="300" height="210" role="img" aria-label="Energy level diagram for hydrogen, not to scale. Horizontal lines for n = 1 at the bottom up to n = 5, getting closer together, and a dashed line for n = infinity at the top. Four downward arrows: P from n = 2 to n = 1, Q from n = 3 to n = 2, R from n = 5 to n = 2, S from n = 4 to n = 3."><line x1="62" x2="286" y1="196" y2="196" stroke="currentColor" stroke-width="1.4"/><text x="54" y="200" text-anchor="end" font-size="13" fill="currentColor">n = 1</text><line x1="62" x2="286" y1="112" y2="112" stroke="currentColor" stroke-width="1.4"/><text x="54" y="116" text-anchor="end" font-size="13" fill="currentColor">n = 2</text><line x1="62" x2="286" y1="68" y2="68" stroke="currentColor" stroke-width="1.4"/><text x="54" y="72" text-anchor="end" font-size="13" fill="currentColor">n = 3</text><line x1="62" x2="286" y1="44" y2="44" stroke="currentColor" stroke-width="1.4"/><text x="54" y="48" text-anchor="end" font-size="13" fill="currentColor">n = 4</text><line x1="62" x2="286" y1="30" y2="30" stroke="currentColor" stroke-width="1.4"/><text x="54" y="34" text-anchor="end" font-size="13" fill="currentColor">n = 5</text><line x1="62" x2="286" y1="16" y2="16" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 4"/><text x="54" y="20" text-anchor="end" font-size="13" fill="currentColor">n = ∞</text><path d="M96 112V194M91 186L96 194L101 186" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="105" y="182" font-size="14" font-weight="700" fill="currentColor">P</text><path d="M148 68V110M143 102L148 110L153 102" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="157" y="98" font-size="14" font-weight="700" fill="currentColor">Q</text><path d="M200 30V110M195 102L200 110L205 102" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="209" y="98" font-size="14" font-weight="700" fill="currentColor">R</text><path d="M252 44V66M247 58L252 66L257 58" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="261" y="60" font-size="14" font-weight="700" fill="currentColor">S</text></svg></p><p>Which transition emits <strong>visible</strong> light of the <strong>lowest frequency</strong>?</p>
-      stem: "",
+      stem: "<p>그림은 수소 원자의 에너지 준위 일부(실제 비율과 다름)와 전자 전이 4가지 P, Q, R, S를 나타낸 거예요.</p><p><svg viewBox=\"0 0 300 210\" width=\"300\" height=\"210\" role=\"img\" aria-label=\"수소의 에너지 준위 그림(실제 비율과 다름). 맨 아래 n = 1부터 n = 5까지 가로선이 있고, 위로 갈수록 간격이 좁아져요. 맨 위에는 n = 무한대를 나타내는 점선이 있어요. 아래로 향하는 화살표 4개: P는 n = 2에서 n = 1로, Q는 n = 3에서 n = 2로, R는 n = 5에서 n = 2로, S는 n = 4에서 n = 3으로.\"><line x1=\"62\" x2=\"286\" y1=\"196\" y2=\"196\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"54\" y=\"200\" text-anchor=\"end\" font-size=\"13\" fill=\"currentColor\">n = 1</text><line x1=\"62\" x2=\"286\" y1=\"112\" y2=\"112\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"54\" y=\"116\" text-anchor=\"end\" font-size=\"13\" fill=\"currentColor\">n = 2</text><line x1=\"62\" x2=\"286\" y1=\"68\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"54\" y=\"72\" text-anchor=\"end\" font-size=\"13\" fill=\"currentColor\">n = 3</text><line x1=\"62\" x2=\"286\" y1=\"44\" y2=\"44\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"54\" y=\"48\" text-anchor=\"end\" font-size=\"13\" fill=\"currentColor\">n = 4</text><line x1=\"62\" x2=\"286\" y1=\"30\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"54\" y=\"34\" text-anchor=\"end\" font-size=\"13\" fill=\"currentColor\">n = 5</text><line x1=\"62\" x2=\"286\" y1=\"16\" y2=\"16\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"54\" y=\"20\" text-anchor=\"end\" font-size=\"13\" fill=\"currentColor\">n = ∞</text><path d=\"M96 112V194M91 186L96 194L101 186\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"105\" y=\"182\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">P</text><path d=\"M148 68V110M143 102L148 110L153 102\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"157\" y=\"98\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">Q</text><path d=\"M200 30V110M195 102L200 110L205 102\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"209\" y=\"98\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">R</text><path d=\"M252 44V66M247 58L252 66L257 58\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"261\" y=\"60\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">S</text></svg></p><p><strong>진동수가 가장 작은</strong> <strong>가시광선</strong>을 방출하는 전이는 어느 것인가요?</p>",
       options: [
         // EN: P
-        "",
+        "P",
         // EN: Q
-        "",
+        "Q",
         // EN: R
-        "",
+        "R",
         // EN: S
-        "",
+        "S",
       ],
       hints: [
         // EN: First find the arrows that give visible light. Which level must they end on?
-        "",
+        "먼저 가시광선을 내는 화살표를 찾아요. 그 화살표들은 어느 준위에서 끝나야 할까요?",
         // EN: Then compare the lengths of those falls. Smaller fall in energy means lower frequency.
-        "",
+        "그다음 그 낙차들의 길이를 비교해요. 에너지 낙차가 작을수록 진동수가 작아요.",
       ],
       // EN: <p>Visible lines come from falls to n = 2, so only Q (n = 3 to n = 2) and R (n = 5 to n = 2) are visible. Q is the smaller fall in energy, so its photon has less energy and a lower frequency. The answer is Q. (P is ultraviolet and S is infrared.)</p>
-      solution: "",
+      solution: "<p>가시광선 선은 n = 2로 떨어질 때 생기므로, Q(n = 3에서 n = 2로)와 R(n = 5에서 n = 2로)만 가시광선이에요. Q가 에너지 낙차가 더 작으므로, 광자의 에너지가 더 작고 진동수도 더 작아요. 답은 Q예요. (P는 자외선이고 S는 적외선이에요.)</p>",
       misconception: {
         // EN (option A): P ends on n = 1. Falls to n = 1 give ultraviolet radiation, which is not visible and has the highest frequency of the four.
-        "0": "",
+        "0": "P는 n = 1에서 끝나요. n = 1로 떨어지면 자외선이 나오는데, 자외선은 눈에 보이지 않고 넷 중 진동수가 가장 커요.",
         // EN (option C): R does give visible light because it ends on n = 2. But it is a larger fall than Q, so its frequency is higher.
-        "2": "",
+        "2": "R는 n = 2에서 끝나므로 가시광선을 내는 것은 맞아요. 하지만 Q보다 낙차가 커서 진동수가 더 커요.",
         // EN (option D): S has the lowest frequency of all four, but it ends on n = 3. Falls to n = 3 give infrared radiation, which is not visible.
-        "3": "",
+        "3": "S는 넷 중 진동수가 가장 작지만, n = 3에서 끝나요. n = 3으로 떨어지면 적외선이 나오는데, 적외선은 눈에 보이지 않아요.",
       },
     },
 
     // ── s1-3-q011 · numeric · challenge · SL · Structure 1.3.2 · 1 mark
     "s1-3-q011": {
       // EN: <p>In a sample of hydrogen gas, atoms are excited so that the highest level reached by any electron is n = 5. The electrons can return to lower levels in one fall or in several smaller falls.</p><p>How many different lines can appear in the <strong>visible</strong> region of the emission spectrum?</p>
-      stem: "",
+      stem: "<p>수소 기체 시료에서 원자들이 들떠서, 전자가 도달한 가장 높은 준위가 n = 5예요. 전자는 한 번에 떨어지거나, 여러 번에 걸쳐 조금씩 떨어지면서 낮은 준위로 되돌아갈 수 있어요.</p><p>방출 스펙트럼의 <strong>가시광선</strong> 영역에 나타날 수 있는 서로 다른 선은 몇 개인가요?</p>",
       hints: [
         // EN: Visible lines come from falls that end on one particular level. Which one?
-        "",
+        "가시광선 선은 어떤 특정한 준위에서 끝나는 낙차에서 생겨요. 어느 준위일까요?",
         // EN: List every level above it that an electron could start from.
-        "",
+        "전자가 출발할 수 있는, 그 준위보다 위에 있는 준위를 모두 나열해 봐요.",
       ],
       // EN: <p>Visible lines come from falls that end on n = 2. The electron can start from n = 3, n = 4 or n = 5 (it can reach n = 3 or n = 4 by an earlier, smaller fall from n = 5).</p><div class="worked__math">n&nbsp;=&nbsp;5 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;4 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;3 → n&nbsp;=&nbsp;2</div><p>That is <strong>3</strong> lines in the visible region. The other possible falls end on n = 1 (ultraviolet) or on n = 3 or n = 4 (infrared).</p>
-      solution: "",
+      solution: "<p>가시광선 선은 n = 2에서 끝나는 낙차에서 생겨요. 전자는 n = 3, n = 4 또는 n = 5에서 출발할 수 있어요(n = 5에서 먼저 조금 떨어지면 n = 3이나 n = 4에 도달할 수 있어요).</p><div class=\"worked__math\">n&nbsp;=&nbsp;5 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;4 → n&nbsp;=&nbsp;2, &nbsp; n&nbsp;=&nbsp;3 → n&nbsp;=&nbsp;2</div><p>따라서 가시광선 영역의 선은 <strong>3</strong>개예요. 나머지 가능한 낙차는 n = 1에서 끝나거나(자외선) n = 3 또는 n = 4에서 끝나요(적외선).</p>",
       // EN: lines
-      unit: "",
+      unit: "개",
     },
 
     // ── s1-3-q012 · numeric · foundation · SL · Structure 1.3.3 · 1 mark
     "s1-3-q012": {
       // EN: <p>What is the maximum number of electrons that can occupy the main energy level n = 4?</p>
-      stem: "",
+      stem: "<p>주 에너지 준위 n = 4에 들어갈 수 있는 전자의 최대 개수는 몇 개인가요?</p>",
       hints: [
         // EN: A main energy level n can hold a maximum of 2n<sup>2</sup> electrons.
-        "",
+        "주 에너지 준위 n에는 전자가 최대 2n<sup>2</sup>개 들어갈 수 있어요.",
         // EN: Square n first, then multiply by 2.
-        "",
+        "먼저 n을 제곱한 다음 2를 곱해요.",
       ],
       // EN: <div class="worked__math">maximum = 2n<sup>2</sup><br>&nbsp;&nbsp;= 2 × 4<sup>2</sup><br>&nbsp;&nbsp;= 2 × 16<br>&nbsp;&nbsp;= 32 electrons</div><p>Check with the sublevels: 4s (2) + 4p (6) + 4d (10) + 4f (14) = 32.</p><p>Common slips: 2n = 8, and n<sup>2</sup> = 16 (that is the number of orbitals, each of which holds two electrons).</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">최대 개수 = 2n<sup>2</sup><br>&nbsp;&nbsp;= 2 × 4<sup>2</sup><br>&nbsp;&nbsp;= 2 × 16<br>&nbsp;&nbsp;= 전자 32개</div><p>부껍질로 확인해 봐요: 4s (2) + 4p (6) + 4d (10) + 4f (14) = 32.</p><p>흔한 실수: 2n = 8로 계산하는 것, 그리고 n<sup>2</sup> = 16으로 답하는 것(16은 오비탈 수이고, 오비탈 하나에는 전자가 2개씩 들어가요).</p>",
       // EN: electrons
-      unit: "",
+      unit: "개",
     },
 
     // ── s1-3-q013 · mcq · foundation · SL · Structure 1.3.4 · 1 mark
     "s1-3-q013": {
       // EN: <p>Which row describes the shapes of an s orbital and a p orbital?</p>
-      stem: "",
+      stem: "<p>s 오비탈과 p 오비탈의 모양을 옳게 나타낸 것은 어느 것인가요?</p>",
       options: [
         // EN: s orbital: spherical. p orbital: dumbbell-shaped.
-        "",
+        "s 오비탈: 구형. p 오비탈: 아령 모양.",
         // EN: s orbital: dumbbell-shaped. p orbital: spherical.
-        "",
+        "s 오비탈: 아령 모양. p 오비탈: 구형.",
         // EN: s orbital: circular path around the nucleus. p orbital: figure-of-eight path around the nucleus.
-        "",
+        "s 오비탈: 원자핵 둘레의 원형 경로. p 오비탈: 원자핵 둘레의 8자 모양 경로.",
         // EN: s orbital: spherical. p orbital: spherical, but larger.
-        "",
+        "s 오비탈: 구형. p 오비탈: 구형이지만 더 큼.",
       ],
       hints: [
         // EN: One of them looks the same from every direction. The other has two lobes, one on each side of the nucleus.
-        "",
+        "하나는 어느 방향에서 보아도 똑같이 보여요. 다른 하나는 원자핵 양쪽에 하나씩, 두 개의 엽(lobe)이 있어요.",
       ],
       // EN: <p>An s orbital is spherical, centred on the nucleus. A p orbital is dumbbell-shaped: two lobes on opposite sides of the nucleus. There are three p orbitals in a p sublevel, pointing along the x, y and z axes.</p>
-      solution: "",
+      solution: "<p>s 오비탈은 원자핵을 중심으로 한 구형이에요. p 오비탈은 아령 모양으로, 원자핵의 양쪽 반대편에 엽이 두 개 있어요. p 부껍질에는 p 오비탈이 3개 있고, 각각 x, y, z 축 방향을 향해요.</p>",
       misconception: {
         // EN (option B): These are the right two shapes, swapped. The s orbital is the sphere.
-        "1": "",
+        "1": "두 모양은 맞지만 서로 바뀌었어요. 구형인 것은 s 오비탈이에요.",
         // EN (option C): An orbital is not a path. It is a region of space where there is a high probability of finding the electron.
-        "2": "",
+        "2": "오비탈은 경로가 아니에요. 전자를 발견할 확률이 높은 공간 영역이에요.",
         // EN (option D): A larger sphere describes an s orbital in a higher main energy level (2s compared with 1s). A p orbital has two lobes.
-        "3": "",
+        "3": "더 큰 구는 더 높은 주 에너지 준위에 있는 s 오비탈을 나타내요(1s와 비교한 2s). p 오비탈에는 엽이 두 개 있어요.",
       },
     },
 
     // ── s1-3-q014 · mcq · exam · SL · Structure 1.3.4 · 1 mark
     "s1-3-q014": {
       // EN: <p>The diagram shows one atomic orbital. The nucleus is where the axes cross.</p><p><svg viewBox="0 0 262 196" width="262" height="196" role="img" aria-label="An orbital drawn on x, y and z axes. It has two lobes, one on each side of the nucleus, pointing along the horizontal axis, which is labelled x. The vertical axis is labelled y and the dashed diagonal axis is labelled z."><line x1="20" y1="100" x2="240" y2="100" stroke="currentColor" stroke-width="1.2"/><line x1="130" y1="186" x2="130" y2="14" stroke="currentColor" stroke-width="1.2"/><line x1="76" y1="154" x2="184" y2="46" stroke="currentColor" stroke-width="1.2" stroke-dasharray="5 4"/><text x="246" y="105" font-size="14" fill="currentColor">x</text><text x="126" y="11" text-anchor="middle" font-size="14" fill="currentColor">y</text><text x="190" y="44" font-size="14" fill="currentColor">z</text><path d="M130 100C150 68 214 70 214 100C214 130 150 132 130 100Z" fill="currentColor" fill-opacity="0.16" stroke="currentColor" stroke-width="1.8"/><path d="M130 100C110 68 46 70 46 100C46 130 110 132 130 100Z" fill="currentColor" fill-opacity="0.16" stroke="currentColor" stroke-width="1.8"/><circle cx="130" cy="100" r="3" fill="currentColor"/></svg></p><p>Which orbital is shown?</p>
-      stem: "",
+      stem: "<p>그림은 원자 오비탈 하나를 나타낸 거예요. 축들이 만나는 점에 원자핵이 있어요.</p><p><svg viewBox=\"0 0 262 196\" width=\"262\" height=\"196\" role=\"img\" aria-label=\"x, y, z 축 위에 그린 오비탈. 원자핵 양쪽에 엽이 하나씩, 모두 두 개 있고, x라고 표시된 가로축 방향을 향해요. 세로축은 y, 점선으로 된 대각선 축은 z라고 표시되어 있어요.\"><line x1=\"20\" y1=\"100\" x2=\"240\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"130\" y1=\"186\" x2=\"130\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"76\" y1=\"154\" x2=\"184\" y2=\"46\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><text x=\"246\" y=\"105\" font-size=\"14\" fill=\"currentColor\">x</text><text x=\"126\" y=\"11\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">y</text><text x=\"190\" y=\"44\" font-size=\"14\" fill=\"currentColor\">z</text><path d=\"M130 100C150 68 214 70 214 100C214 130 150 132 130 100Z\" fill=\"currentColor\" fill-opacity=\"0.16\" stroke=\"currentColor\" stroke-width=\"1.8\"/><path d=\"M130 100C110 68 46 70 46 100C46 130 110 132 130 100Z\" fill=\"currentColor\" fill-opacity=\"0.16\" stroke=\"currentColor\" stroke-width=\"1.8\"/><circle cx=\"130\" cy=\"100\" r=\"3\" fill=\"currentColor\"/></svg></p><p>그림의 오비탈은 어느 것인가요?</p>",
       options: [
         // EN: s
-        "",
+        "s",
         // EN: p<sub>x</sub>
-        "",
+        "p<sub>x</sub>",
         // EN: p<sub>y</sub>
-        "",
+        "p<sub>y</sub>",
         // EN: p<sub>z</sub>
-        "",
+        "p<sub>z</sub>",
       ],
       hints: [
         // EN: Two lobes means a p orbital.
-        "",
+        "엽이 두 개이면 p 오비탈이에요.",
         // EN: A p orbital is named after the axis that its lobes lie along.
-        "",
+        "p 오비탈의 이름은 엽들이 놓여 있는 축을 따라 붙여요.",
       ],
       // EN: <p>The orbital has two lobes, one on each side of the nucleus, so it is a p orbital. The lobes lie along the x axis, so it is p<sub>x</sub>. The other two p orbitals have the same shape and the same energy, but point along the y and z axes.</p>
-      solution: "",
+      solution: "<p>이 오비탈은 원자핵 양쪽에 엽이 하나씩, 모두 두 개 있으므로 p 오비탈이에요. 엽들이 x 축을 따라 놓여 있으므로 p<sub>x</sub>예요. 나머지 두 p 오비탈은 모양과 에너지가 같지만, y 축과 z 축 방향을 향해요.</p>",
       misconception: {
         // EN (option A): An s orbital is a sphere centred on the nucleus. This orbital has two lobes.
-        "0": "",
+        "0": "s 오비탈은 원자핵을 중심으로 한 구예요. 이 오비탈에는 엽이 두 개 있어요.",
         // EN (option C): A p<sub>y</sub> orbital has its lobes along the y axis. Check which axis runs through the middle of both lobes here.
-        "2": "",
+        "2": "p<sub>y</sub> 오비탈은 엽들이 y 축을 따라 놓여 있어요. 여기서 두 엽의 가운데를 지나는 축이 어느 것인지 확인해 봐요.",
         // EN (option D): A p<sub>z</sub> orbital has its lobes along the z axis. Check which axis runs through the middle of both lobes here.
-        "3": "",
+        "3": "p<sub>z</sub> 오비탈은 엽들이 z 축을 따라 놓여 있어요. 여기서 두 엽의 가운데를 지나는 축이 어느 것인지 확인해 봐요.",
       },
     },
 
     // ── s1-3-q015 · mcq · foundation · SL · Structure 1.3.5 · 1 mark
     "s1-3-q015": {
       // EN: <p>What is the full electron configuration of a phosphorus atom (Z = 15) in its ground state?</p>
-      stem: "",
+      stem: "<p>바닥상태에 있는 인 원자(P, Z = 15)의 전체 전자 배치는 무엇인가요?</p>",
       options: [
         // EN: <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>3</sup></span>
-        "",
+        "<span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>3</sup></span>",
         // EN: <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3d<sup>3</sup></span>
-        "",
+        "<span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3d<sup>3</sup></span>",
         // EN: <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>8</sup> 3s<sup>2</sup> 3p<sup>1</sup></span>
-        "",
+        "<span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>8</sup> 3s<sup>2</sup> 3p<sup>1</sup></span>",
         // EN: <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>5</sup></span>
-        "",
+        "<span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>5</sup></span>",
       ],
       hints: [
         // EN: The superscripts must add up to 15.
-        "",
+        "위첨자의 합이 15가 되어야 해요.",
         // EN: Fill in the order 1s, 2s, 2p, 3s, 3p. An s sublevel holds 2 electrons and a p sublevel holds 6.
-        "",
+        "1s, 2s, 2p, 3s, 3p 순서로 채워요. s 부껍질에는 전자가 2개, p 부껍질에는 6개 들어가요.",
       ],
       // EN: <p>Fill the sublevels from the lowest energy upwards (Aufbau principle): 1s (2), 2s (2), 2p (6), 3s (2). That is 12 electrons. The remaining 3 go into 3p.</p><div class="worked__math"><span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>3</sup></span><br>&nbsp;&nbsp;(2 + 2 + 6 + 2 + 3 = 15)</div>
-      solution: "",
+      solution: "<p>에너지가 가장 낮은 부껍질부터 차례로 채워요(쌓음 원리): 1s (2), 2s (2), 2p (6), 3s (2). 여기까지 전자 12개예요. 남은 3개는 3p에 들어가요.</p><div class=\"worked__math\"><span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>3</sup></span><br>&nbsp;&nbsp;(2 + 2 + 6 + 2 + 3 = 15)</div>",
       misconception: {
         // EN (option B): After 3s the next sublevel to fill is 3p, not 3d. The 3d sublevel is higher in energy than 4s.
-        "1": "",
+        "1": "3s 다음에 채워지는 부껍질은 3d가 아니라 3p예요. 3d 부껍질은 4s보다 에너지가 높아요.",
         // EN (option C): A p sublevel has three orbitals, so it holds at most 6 electrons, not 8.
-        "2": "",
+        "2": "p 부껍질에는 오비탈이 3개 있으므로 전자가 최대 8개가 아니라 6개 들어가요.",
         // EN (option D): Count the electrons: 2 + 2 + 6 + 2 + 5 = 17. That is chlorine. Phosphorus has 15.
-        "3": "",
+        "3": "전자 수를 세어 봐요: 2 + 2 + 6 + 2 + 5 = 17. 이것은 염소예요. 인의 전자는 15개예요.",
       },
     },
 
     // ── s1-3-q016 · order · foundation · SL · Structure 1.3.5 · 1 mark
     "s1-3-q016": {
       // EN: <p>Put these sublevels in the order in which they are filled as atomic number increases (first to be filled at the top).</p>
-      stem: "",
+      stem: "<p>원자 번호가 커질 때 다음 부껍질들이 채워지는 순서대로 나열하세요(가장 먼저 채워지는 것이 맨 위).</p>",
       options: [
         // EN: 3s
-        "",
+        "3s",
         // EN: 3p
-        "",
+        "3p",
         // EN: 4s
-        "",
+        "4s",
         // EN: 3d
-        "",
+        "3d",
         // EN: 4p
-        "",
+        "4p",
       ],
       hints: [
         // EN: Electrons go into the lowest-energy sublevel available (Aufbau principle).
-        "",
+        "전자는 들어갈 수 있는 부껍질 중 에너지가 가장 낮은 곳으로 들어가요(쌓음 원리).",
         // EN: One sublevel of the fourth main energy level is filled before the 3d sublevel.
-        "",
+        "네 번째 주 에너지 준위의 부껍질 하나가 3d 부껍질보다 먼저 채워져요.",
       ],
       // EN: <p>The order of filling is 3s, 3p, 4s, 3d, 4p. The 4s sublevel is filled before 3d: potassium is <span class="mono">[Ar] 4s<sup>1</sup></span> and calcium is <span class="mono">[Ar] 4s<sup>2</sup></span>. The 3d sublevel then fills from scandium to zinc, and 4p fills from gallium to krypton.</p>
-      solution: "",
+      solution: "<p>채워지는 순서는 3s, 3p, 4s, 3d, 4p예요. 4s 부껍질이 3d보다 먼저 채워져요: 칼륨(K)은 <span class=\"mono\">[Ar] 4s<sup>1</sup></span>이고 칼슘(Ca)은 <span class=\"mono\">[Ar] 4s<sup>2</sup></span>예요. 그다음 스칸듐(Sc)부터 아연(Zn)까지 3d 부껍질이 채워지고, 갈륨(Ga)부터 크립톤(Kr)까지 4p가 채워져요.</p>",
     },
 
     // ── s1-3-q017 · mcq · foundation · SL · Structure 1.3.5 · 1 mark
     "s1-3-q017": {
       // EN: <p>A student draws this orbital diagram for a beryllium atom (Z = 4).</p><p><svg viewBox="0 0 80 56" width="80" height="56" role="img" aria-label="Orbital diagram. The 1s box contains one up arrow and one down arrow. The 2s box contains two up arrows."><rect x="2" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M12 25V8M8 13L12 8L16 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 7V24M18 19L22 24L26 19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><text x="17" y="50" text-anchor="middle" font-size="14" fill="currentColor">1s</text><rect x="48" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M58 25V8M54 13L58 8L62 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M68 25V8M64 13L68 8L72 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><text x="63" y="50" text-anchor="middle" font-size="14" fill="currentColor">2s</text></svg></p><p>Which rule or principle does the diagram break?</p>
-      stem: "",
+      stem: "<p>한 학생이 베릴륨 원자(Z = 4)의 오비탈 상자 그림을 다음과 같이 그렸어요.</p><p><svg viewBox=\"0 0 80 56\" width=\"80\" height=\"56\" role=\"img\" aria-label=\"오비탈 상자 그림. 1s 상자에는 위쪽 화살표 1개와 아래쪽 화살표 1개가 있어요. 2s 상자에는 위쪽 화살표 2개가 있어요.\"><rect x=\"2\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M12 25V8M8 13L12 8L16 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M22 7V24M18 19L22 24L26 19\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"17\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">1s</text><rect x=\"48\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M58 25V8M54 13L58 8L62 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M68 25V8M64 13L68 8L72 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"63\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">2s</text></svg></p><p>이 그림은 어떤 규칙 또는 원리를 어기고 있나요?</p>",
       options: [
         // EN: The Aufbau principle
-        "",
+        "쌓음 원리",
         // EN: Hund’s rule
-        "",
+        "훈트 규칙",
         // EN: The Pauli exclusion principle
-        "",
+        "파울리 배타 원리",
         // EN: None. The diagram is correct.
-        "",
+        "없음. 그림이 옳다.",
       ],
       hints: [
         // EN: Compare the two arrows in the 1s box with the two arrows in the 2s box.
-        "",
+        "1s 상자의 두 화살표와 2s 상자의 두 화살표를 비교해 봐요.",
         // EN: Which principle says that two electrons in the same orbital must have opposite spins?
-        "",
+        "같은 오비탈에 있는 두 전자는 스핀이 반대여야 한다고 말하는 원리는 무엇인가요?",
       ],
       // EN: <p>The two electrons in the 2s orbital are drawn with the same spin (both arrows up). The <strong>Pauli exclusion principle</strong> says an orbital can hold at most two electrons, and they must have opposite spins. The 2s box should show one arrow up and one arrow down.</p>
-      solution: "",
+      solution: "<p>2s 오비탈의 두 전자가 같은 스핀으로 그려져 있어요(두 화살표가 모두 위쪽). <strong>파울리 배타 원리</strong>에 따르면 오비탈 하나에는 전자가 최대 2개 들어갈 수 있고, 두 전자의 스핀은 반대여야 해요. 2s 상자에는 위쪽 화살표 하나와 아래쪽 화살표 하나가 있어야 해요.</p>",
       misconception: {
         // EN (option A): The Aufbau principle is about filling the lowest-energy sublevels first. Here 1s is full before 2s is used, so the order is right.
-        "0": "",
+        "0": "쌓음 원리는 에너지가 가장 낮은 부껍질부터 채운다는 원리예요. 여기서는 2s를 쓰기 전에 1s가 다 채워졌으므로 순서는 맞아요.",
         // EN (option B): Hund’s rule is about how electrons spread out over several orbitals of the same energy, such as the three 2p orbitals. A 2s sublevel has only one orbital.
-        "1": "",
+        "1": "훈트 규칙은 세 개의 2p 오비탈처럼 에너지가 같은 여러 오비탈에 전자가 어떻게 퍼져 들어가는지에 대한 규칙이에요. 2s 부껍질에는 오비탈이 하나뿐이에요.",
         // EN (option D): Look at the two arrows in the 2s box. They point the same way.
-        "3": "",
+        "3": "2s 상자의 두 화살표를 봐요. 같은 방향을 향하고 있어요.",
       },
     },
 
     // ── s1-3-q018 · mcq · exam · SL · Structure 1.3.5 · 1 mark
     "s1-3-q018": {
       // EN: <p>What is the electron configuration of the sulfide ion, <span class="chem">S^2-</span>? (Sulfur has Z = 16.)</p>
-      stem: "",
+      stem: "<p>황화 이온 <span class=\"chem\">S^2-</span>의 전자 배치는 무엇인가요? (황은 Z = 16이에요.)</p>",
       options: [
         // EN: <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>2</sup></span>
-        "",
+        "<span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>2</sup></span>",
         // EN: <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>4</sup></span>
-        "",
+        "<span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>4</sup></span>",
         // EN: <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></span>
-        "",
+        "<span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></span>",
         // EN: <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup></span>
-        "",
+        "<span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup></span>",
       ],
       hints: [
         // EN: Work out the number of electrons first: atomic number, then adjust for the charge.
-        "",
+        "먼저 전자 수를 구해요: 원자 번호에서 시작해서 전하만큼 조정해요.",
         // EN: A negative charge means extra electrons.
-        "",
+        "음전하는 전자가 더 많다는 뜻이에요.",
       ],
       // EN: <p>A sulfur atom has 16 electrons. The 2− charge means two extra electrons: 16 + 2 = 18 electrons.</p><div class="worked__math"><span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></span><br>&nbsp;&nbsp;(the same configuration as argon)</div>
-      solution: "",
+      solution: "<p>황 원자에는 전자가 16개 있어요. 2− 전하는 전자가 2개 더 있다는 뜻이에요: 16 + 2 = 18개.</p><div class=\"worked__math\"><span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></span><br>&nbsp;&nbsp;(아르곤과 같은 전자 배치)</div>",
       misconception: {
         // EN (option A): This has 14 electrons. A 2− charge means the atom has <em>gained</em> two electrons, not lost them.
-        "0": "",
+        "0": "이것은 전자가 14개예요. 2− 전하는 원자가 전자 2개를 잃은 것이 아니라 <em>얻었다는</em> 뜻이에요.",
         // EN (option B): This is the sulfur atom, with 16 electrons. The ion has two more.
-        "1": "",
+        "1": "이것은 전자가 16개인 황 원자예요. 이온은 전자가 2개 더 많아요.",
         // EN (option D): This has 20 electrons. The ion has 16 + 2 = 18.
-        "3": "",
+        "3": "이것은 전자가 20개예요. 이온은 16 + 2 = 18개예요.",
       },
     },
 
     // ── s1-3-q019 · mcq · exam · SL · Structure 1.3.5 · 1 mark
     "s1-3-q019": {
       // EN: <p>What is the condensed electron configuration of a chromium atom (Z = 24) in its ground state?</p>
-      stem: "",
+      stem: "<p>바닥상태에 있는 크로뮴 원자(Cr, Z = 24)의 축약 전자 배치는 무엇인가요?</p>",
       options: [
         // EN: <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>4</sup></span>
-        "",
+        "<span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>4</sup></span>",
         // EN: <span class="mono">[Ar] 4s<sup>1</sup> 3d<sup>5</sup></span>
-        "",
+        "<span class=\"mono\">[Ar] 4s<sup>1</sup> 3d<sup>5</sup></span>",
         // EN: <span class="mono">[Ar] 3d<sup>6</sup></span>
-        "",
+        "<span class=\"mono\">[Ar] 3d<sup>6</sup></span>",
         // EN: <span class="mono">[Kr] 4s<sup>1</sup> 3d<sup>5</sup></span>
-        "",
+        "<span class=\"mono\">[Kr] 4s<sup>1</sup> 3d<sup>5</sup></span>",
       ],
       hints: [
         // EN: Argon has 18 electrons, so 6 more are needed.
-        "",
+        "아르곤은 전자가 18개이므로 6개가 더 필요해요.",
         // EN: Chromium and copper are the two exceptions to the usual filling order.
-        "",
+        "크로뮴과 구리는 일반적인 채우는 순서를 따르지 않는 두 예외예요.",
       ],
       // EN: <p>Chromium has 24 electrons: the argon core (18) plus 6. The usual order predicts <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>4</sup></span>, but chromium is an exception. Its ground state is <span class="mono">[Ar] 4s<sup>1</sup> 3d<sup>5</sup></span>. (Writing it as <span class="mono">[Ar] 3d<sup>5</sup> 4s<sup>1</sup></span> is also accepted.)</p>
-      solution: "",
+      solution: "<p>크로뮴은 전자가 24개예요: 아르곤 핵심(18개)에 6개를 더한 것이에요. 일반적인 순서대로라면 <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>4</sup></span>가 되지만, 크로뮴은 예외예요. 바닥상태는 <span class=\"mono\">[Ar] 4s<sup>1</sup> 3d<sup>5</sup></span>예요. (<span class=\"mono\">[Ar] 3d<sup>5</sup> 4s<sup>1</sup></span>로 써도 인정돼요.)</p>",
       misconception: {
         // EN (option A): This is what the usual filling order predicts, but chromium is one of the two exceptions you must know.
-        "0": "",
+        "0": "이것은 일반적인 채우는 순서대로 예측한 배치예요. 하지만 크로뮴은 꼭 알아 두어야 할 두 예외 중 하나예요.",
         // EN (option C): This has the right number of electrons, but the 4s orbital is not empty in a chromium atom.
-        "2": "",
+        "2": "전자 수는 맞지만, 크로뮴 원자에서 4s 오비탈은 비어 있지 않아요.",
         // EN (option D): The noble gas core must be the noble gas <em>before</em> the element. Krypton (Z = 36) comes after chromium.
-        "3": "",
+        "3": "비활성 기체 핵심은 그 원소 <em>앞에</em> 있는 비활성 기체여야 해요. 크립톤(Z = 36)은 크로뮴보다 뒤에 있어요.",
       },
     },
 
     // ── s1-3-q020 · mcq · exam · SL · Structure 1.3.5 · 1 mark
     "s1-3-q020": {
       // EN: <p>What is the full electron configuration of a copper atom (Z = 29) in its ground state?</p>
-      stem: "",
+      stem: "<p>바닥상태에 있는 구리 원자(Cu, Z = 29)의 전체 전자 배치는 무엇인가요?</p>",
       options: [
         // EN: <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>9</sup></span>
-        "",
+        "<span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>9</sup></span>",
         // EN: <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>1</sup> 3d<sup>10</sup></span>
-        "",
+        "<span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>1</sup> 3d<sup>10</sup></span>",
         // EN: <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>10</sup></span>
-        "",
+        "<span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>10</sup></span>",
         // EN: <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>10</sup></span>
-        "",
+        "<span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>10</sup></span>",
       ],
       hints: [
         // EN: The superscripts must add up to 29.
-        "",
+        "위첨자의 합이 29가 되어야 해요.",
         // EN: Chromium and copper are the two exceptions to the usual filling order.
-        "",
+        "크로뮴과 구리는 일반적인 채우는 순서를 따르지 않는 두 예외예요.",
       ],
       // EN: <p>Copper has 29 electrons. The usual order predicts <span class="mono">4s<sup>2</sup> 3d<sup>9</sup></span> after the argon core, but copper is an exception. Its ground state is</p><div class="worked__math"><span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>1</sup> 3d<sup>10</sup></span><br>&nbsp;&nbsp;(2 + 2 + 6 + 2 + 6 + 1 + 10 = 29)</div>
-      solution: "",
+      solution: "<p>구리는 전자가 29개예요. 일반적인 순서대로라면 아르곤 핵심 뒤에 <span class=\"mono\">4s<sup>2</sup> 3d<sup>9</sup></span>가 오지만, 구리는 예외예요. 바닥상태는 다음과 같아요.</p><div class=\"worked__math\"><span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>1</sup> 3d<sup>10</sup></span><br>&nbsp;&nbsp;(2 + 2 + 6 + 2 + 6 + 1 + 10 = 29)</div>",
       misconception: {
         // EN (option A): This is what the usual filling order predicts, but copper is one of the two exceptions you must know.
-        "0": "",
+        "0": "이것은 일반적인 채우는 순서대로 예측한 배치예요. 하지만 구리는 꼭 알아 두어야 할 두 예외 중 하나예요.",
         // EN (option C): Count the electrons: this has 28. A copper atom has 29.
-        "2": "",
+        "2": "전자 수를 세어 봐요: 이것은 28개예요. 구리 원자는 29개예요.",
         // EN (option D): Count the electrons: this has 30. That is zinc.
-        "3": "",
+        "3": "전자 수를 세어 봐요: 이것은 30개예요. 이것은 아연이에요.",
       },
     },
 
     // ── s1-3-q021 · numeric · exam · SL · Structure 1.3.5 · 1 mark
     "s1-3-q021": {
       // EN: <p>How many <strong>unpaired</strong> electrons are there in an iron atom (Z = 26) in its ground state?</p>
-      stem: "",
+      stem: "<p>바닥상태에 있는 철 원자(Fe, Z = 26)에는 <strong>홀전자</strong>가 몇 개 있나요?</p>",
       hints: [
         // EN: Write the configuration first. Only a partly filled sublevel can contain unpaired electrons.
-        "",
+        "먼저 전자 배치를 써요. 부분적으로 채워진 부껍질에만 홀전자가 있을 수 있어요.",
         // EN: A d sublevel has five orbitals. Put one electron in each orbital before pairing any (Hund’s rule).
-        "",
+        "d 부껍질에는 오비탈이 5개 있어요. 전자를 짝짓기 전에 각 오비탈에 하나씩 먼저 넣어요(훈트 규칙).",
       ],
       // EN: <p>Iron is <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>. The 4s orbital is full, so its two electrons are paired. The 3d sublevel has five orbitals and six electrons. By Hund’s rule the first five electrons go into separate orbitals, and the sixth pairs up with one of them.</p><p><svg viewBox="0 0 200 56" width="200" height="56" role="img" aria-label="Orbital diagram for iron beyond the argon core. The 4s box has one up and one down arrow. The five 3d boxes hold: an up and a down arrow, then one up arrow in each of the other four."><rect x="2" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M12 25V8M8 13L12 8L16 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 7V24M18 19L22 24L26 19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><text x="17" y="50" text-anchor="middle" font-size="14" fill="currentColor">4s</text><rect x="48" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M58 25V8M54 13L58 8L62 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M68 7V24M64 19L68 24L72 19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="78" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M93 25V8M89 13L93 8L97 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="108" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M123 25V8M119 13L123 8L127 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="138" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M153 25V8M149 13L153 8L157 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="168" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M183 25V8M179 13L183 8L187 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><text x="123" y="50" text-anchor="middle" font-size="14" fill="currentColor">3d</text></svg></p><p>That leaves <strong>4</strong> unpaired electrons.</p>
-      solution: "",
+      solution: "<p>철은 <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>이에요. 4s 오비탈은 꽉 차 있으므로 두 전자는 짝을 이루고 있어요. 3d 부껍질에는 오비탈 다섯 개와 전자 여섯 개가 있어요. 훈트 규칙에 따라 처음 다섯 전자는 서로 다른 오비탈에 하나씩 들어가고, 여섯 번째 전자는 그중 하나와 짝을 이뤄요.</p><p><svg viewBox=\"0 0 200 56\" width=\"200\" height=\"56\" role=\"img\" aria-label=\"아르곤 핵심 바깥쪽 철의 오비탈 상자 그림. 4s 상자에는 위쪽 화살표 하나와 아래쪽 화살표 하나가 있어요. 3d 상자 다섯 개 중 첫 번째에는 위쪽과 아래쪽 화살표가 하나씩, 나머지 네 개에는 위쪽 화살표가 하나씩 있어요.\"><rect x=\"2\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M12 25V8M8 13L12 8L16 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M22 7V24M18 19L22 24L26 19\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"17\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">4s</text><rect x=\"48\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M58 25V8M54 13L58 8L62 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M68 7V24M64 19L68 24L72 19\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"78\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M93 25V8M89 13L93 8L97 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"108\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M123 25V8M119 13L123 8L127 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"138\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M153 25V8M149 13L153 8L157 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"168\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M183 25V8M179 13L183 8L187 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"123\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">3d</text></svg></p><p>따라서 홀전자는 <strong>4</strong>개예요.</p>",
       // EN: unpaired electrons
-      unit: "",
+      unit: "개",
     },
 
     // ── s1-3-q022 · mcq · exam · SL · Structure 1.3.5 · 1 mark
     "s1-3-q022": {
       // EN: <p>A student draws this orbital diagram for a nitrogen atom (Z = 7) in its ground state.</p><p><svg viewBox="0 0 186 56" width="186" height="56" role="img" aria-label="Orbital diagram. The 1s box and the 2s box each contain one up arrow and one down arrow. Of the three 2p boxes, the first contains an up arrow and a down arrow, the second contains one up arrow, and the third is empty."><rect x="2" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M12 25V8M8 13L12 8L16 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 7V24M18 19L22 24L26 19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><text x="17" y="50" text-anchor="middle" font-size="14" fill="currentColor">1s</text><rect x="48" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M58 25V8M54 13L58 8L62 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M68 7V24M64 19L68 24L72 19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><text x="63" y="50" text-anchor="middle" font-size="14" fill="currentColor">2s</text><rect x="94" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M104 25V8M100 13L104 8L108 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M114 7V24M110 19L114 24L118 19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="124" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M139 25V8M135 13L139 8L143 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="154" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><text x="139" y="50" text-anchor="middle" font-size="14" fill="currentColor">2p</text></svg></p><p>Which rule or principle does the diagram break?</p>
-      stem: "",
+      stem: "<p>한 학생이 바닥상태에 있는 질소 원자(Z = 7)의 오비탈 상자 그림을 다음과 같이 그렸어요.</p><p><svg viewBox=\"0 0 186 56\" width=\"186\" height=\"56\" role=\"img\" aria-label=\"오비탈 상자 그림. 1s 상자와 2s 상자에는 각각 위쪽 화살표 하나와 아래쪽 화살표 하나가 있어요. 2p 상자 세 개 중 첫 번째에는 위쪽과 아래쪽 화살표가 하나씩, 두 번째에는 위쪽 화살표 하나가 있고, 세 번째는 비어 있어요.\"><rect x=\"2\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M12 25V8M8 13L12 8L16 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M22 7V24M18 19L22 24L26 19\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"17\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">1s</text><rect x=\"48\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M58 25V8M54 13L58 8L62 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M68 7V24M64 19L68 24L72 19\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"63\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">2s</text><rect x=\"94\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M104 25V8M100 13L104 8L108 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M114 7V24M110 19L114 24L118 19\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"124\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M139 25V8M135 13L139 8L143 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"154\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"139\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">2p</text></svg></p><p>이 그림은 어떤 규칙 또는 원리를 어기고 있나요?</p>",
       options: [
         // EN: The Aufbau principle
-        "",
+        "쌓음 원리",
         // EN: Hund’s rule
-        "",
+        "훈트 규칙",
         // EN: The Pauli exclusion principle
-        "",
+        "파울리 배타 원리",
         // EN: None. The diagram is correct.
-        "",
+        "없음. 그림이 옳다.",
       ],
       hints: [
         // EN: The number of electrons (7) and the order of the sublevels are both right. Look at how the 2p electrons are arranged.
-        "",
+        "전자 수(7개)와 부껍질의 순서는 모두 맞아요. 2p 전자들이 어떻게 배열되어 있는지 봐요.",
         // EN: Which rule says orbitals of the same energy are each occupied singly before any is doubly occupied?
-        "",
+        "에너지가 같은 오비탈들은 어느 하나에 전자 두 개가 들어가기 전에 먼저 하나씩 채워진다고 말하는 규칙은 무엇인가요?",
       ],
       // EN: <p><strong>Hund’s rule</strong>: orbitals in the same sublevel are each occupied by one electron, with parallel spins, before any orbital is doubly occupied. The three 2p electrons of nitrogen should be in three separate 2p orbitals, all with the same spin.</p><p><svg viewBox="0 0 186 56" width="186" height="56" role="img" aria-label="Correct orbital diagram for nitrogen. The 1s and 2s boxes each contain a pair of opposite arrows. Each of the three 2p boxes contains one up arrow."><rect x="2" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M12 25V8M8 13L12 8L16 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 7V24M18 19L22 24L26 19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><text x="17" y="50" text-anchor="middle" font-size="14" fill="currentColor">1s</text><rect x="48" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M58 25V8M54 13L58 8L62 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M68 7V24M64 19L68 24L72 19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><text x="63" y="50" text-anchor="middle" font-size="14" fill="currentColor">2s</text><rect x="94" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M109 25V8M105 13L109 8L113 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="124" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M139 25V8M135 13L139 8L143 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="154" y="2" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M169 25V8M165 13L169 8L173 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><text x="139" y="50" text-anchor="middle" font-size="14" fill="currentColor">2p</text></svg></p>
-      solution: "",
+      solution: "<p><strong>훈트 규칙</strong>: 같은 부껍질의 오비탈들은 어느 오비탈에 전자 두 개가 들어가기 전에, 먼저 각각 전자 하나씩 같은 방향의 스핀으로 채워져요. 질소의 2p 전자 세 개는 서로 다른 2p 오비탈 세 개에 하나씩, 모두 같은 스핀으로 들어가야 해요.</p><p><svg viewBox=\"0 0 186 56\" width=\"186\" height=\"56\" role=\"img\" aria-label=\"질소의 올바른 오비탈 상자 그림. 1s 상자와 2s 상자에는 각각 반대 방향 화살표 한 쌍이 있어요. 2p 상자 세 개에는 각각 위쪽 화살표가 하나씩 있어요.\"><rect x=\"2\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M12 25V8M8 13L12 8L16 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M22 7V24M18 19L22 24L26 19\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"17\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">1s</text><rect x=\"48\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M58 25V8M54 13L58 8L62 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M68 7V24M64 19L68 24L72 19\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"63\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">2s</text><rect x=\"94\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M109 25V8M105 13L109 8L113 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"124\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M139 25V8M135 13L139 8L143 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"154\" y=\"2\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><path d=\"M169 25V8M165 13L169 8L173 13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"139\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\">2p</text></svg></p>",
       misconception: {
         // EN (option A): The sublevels are filled in the right order: 1s, then 2s, then 2p. The problem is inside the 2p sublevel.
-        "0": "",
+        "0": "부껍질은 1s, 2s, 2p의 올바른 순서로 채워졌어요. 문제는 2p 부껍질 안에 있어요.",
         // EN (option C): Every orbital that holds two electrons shows one arrow up and one arrow down, so the Pauli exclusion principle is obeyed.
-        "2": "",
+        "2": "전자 두 개가 들어 있는 오비탈은 모두 위쪽 화살표 하나와 아래쪽 화살표 하나로 그려져 있으므로, 파울리 배타 원리는 지켜졌어요.",
         // EN (option D): Look at the 2p sublevel. One orbital holds a pair while another orbital of the same energy is empty.
-        "3": "",
+        "3": "2p 부껍질을 봐요. 에너지가 같은 다른 오비탈이 비어 있는데 한 오비탈에는 전자쌍이 들어 있어요.",
       },
     },
 
     // ── s1-3-q023 · multi · exam · SL · Structure 1.3.5 · 2 marks
     "s1-3-q023": {
       // EN: <p>Which ions have the same electron configuration as an argon atom, <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></span>?</p>
-      stem: "",
+      stem: "<p>다음 중 아르곤 원자의 전자 배치 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup></span>과 같은 전자 배치를 가진 이온을 모두 고르세요.</p>",
       options: [
         // EN: <span class="chem">K+</span>
-        "",
+        "<span class=\"chem\">K+</span>",
         // EN: <span class="chem">Cl-</span>
-        "",
+        "<span class=\"chem\">Cl-</span>",
         // EN: <span class="chem">Na+</span>
-        "",
+        "<span class=\"chem\">Na+</span>",
         // EN: <span class="chem">Ca^2+</span>
-        "",
+        "<span class=\"chem\">Ca^2+</span>",
         // EN: <span class="chem">O^2-</span>
-        "",
+        "<span class=\"chem\">O^2-</span>",
         // EN: <span class="chem">S^2-</span>
-        "",
+        "<span class=\"chem\">S^2-</span>",
       ],
       hints: [
         // EN: Argon has 18 electrons. Count the electrons in each ion.
-        "",
+        "아르곤은 전자가 18개예요. 각 이온의 전자 수를 세어 봐요.",
         // EN: Electrons in an ion = atomic number − charge. For a 2− ion, subtracting −2 adds two.
-        "",
+        "이온의 전자 수 = 원자 번호 − 전하. 2− 이온은 −2를 빼므로 2를 더하는 셈이에요.",
       ],
       // EN: <p>Argon has 18 electrons. Count the electrons in each ion:</p><div class="worked__math"><span class="chem">K+</span>: 19 − 1 = 18 &nbsp; yes</div><div class="worked__math"><span class="chem">Cl-</span>: 17 + 1 = 18 &nbsp; yes</div><div class="worked__math"><span class="chem">Na+</span>: 11 − 1 = 10 &nbsp; no (neon)</div><div class="worked__math"><span class="chem">Ca^2+</span>: 20 − 2 = 18 &nbsp; yes</div><div class="worked__math"><span class="chem">O^2-</span>: 8 + 2 = 10 &nbsp; no (neon)</div><div class="worked__math"><span class="chem">S^2-</span>: 16 + 2 = 18 &nbsp; yes</div>
-      solution: "",
+      solution: "<p>아르곤은 전자가 18개예요. 각 이온의 전자 수를 세어 봐요:</p><div class=\"worked__math\"><span class=\"chem\">K+</span>: 19 − 1 = 18 &nbsp; 예</div><div class=\"worked__math\"><span class=\"chem\">Cl-</span>: 17 + 1 = 18 &nbsp; 예</div><div class=\"worked__math\"><span class=\"chem\">Na+</span>: 11 − 1 = 10 &nbsp; 아니요 (네온)</div><div class=\"worked__math\"><span class=\"chem\">Ca^2+</span>: 20 − 2 = 18 &nbsp; 예</div><div class=\"worked__math\"><span class=\"chem\">O^2-</span>: 8 + 2 = 10 &nbsp; 아니요 (네온)</div><div class=\"worked__math\"><span class=\"chem\">S^2-</span>: 16 + 2 = 18 &nbsp; 예</div>",
       misconception: {
         // EN (option C): A sodium atom has 11 electrons, so <span class="chem">Na+</span> has 10. That is the configuration of neon, not argon.
-        "2": "",
+        "2": "나트륨 원자는 전자가 11개이므로 <span class=\"chem\">Na+</span>은 10개예요. 이것은 아르곤이 아니라 네온의 전자 배치예요.",
         // EN (option E): An oxygen atom has 8 electrons, so <span class="chem">O^2-</span> has 10. That is the configuration of neon, not argon.
-        "4": "",
+        "4": "산소 원자는 전자가 8개이므로 <span class=\"chem\">O^2-</span>은 10개예요. 이것은 아르곤이 아니라 네온의 전자 배치예요.",
       },
     },
 
     // ── s1-3-q024 · numeric · exam · SL · Structure 1.3.5 · 1 mark
     "s1-3-q024": {
       // EN: <p>How many <strong>orbitals</strong> are there in total in the main energy level n = 3?</p>
-      stem: "",
+      stem: "<p>주 에너지 준위 n = 3에는 <strong>오비탈</strong>이 모두 몇 개 있나요?</p>",
       hints: [
         // EN: The third main energy level has three sublevels: 3s, 3p and 3d.
-        "",
+        "세 번째 주 에너지 준위에는 3s, 3p, 3d의 세 부껍질이 있어요.",
         // EN: An s sublevel has 1 orbital, a p sublevel has 3 and a d sublevel has 5.
-        "",
+        "s 부껍질에는 오비탈이 1개, p 부껍질에는 3개, d 부껍질에는 5개 있어요.",
       ],
       // EN: <div class="worked__math">3s: 1 orbital &nbsp; 3p: 3 orbitals &nbsp; 3d: 5 orbitals</div><div class="worked__math">total = 1 + 3 + 5 = 9 orbitals</div><p>Check: each orbital holds 2 electrons, so n = 3 holds 9 × 2 = 18 electrons, which agrees with 2n<sup>2</sup> = 18. The common slip is to answer 18, which is the number of electrons, not orbitals.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">3s: 오비탈 1개 &nbsp; 3p: 오비탈 3개 &nbsp; 3d: 오비탈 5개</div><div class=\"worked__math\">합계 = 1 + 3 + 5 = 오비탈 9개</div><p>확인: 오비탈 하나에 전자가 2개씩 들어가므로 n = 3에는 전자가 9 × 2 = 18개 들어가고, 이것은 2n<sup>2</sup> = 18과 일치해요. 흔한 실수는 18이라고 답하는 것인데, 18은 오비탈 수가 아니라 전자 수예요.</p>",
       // EN: orbitals
-      unit: "",
+      unit: "개",
     },
 
     // ── s1-3-q025 · mcq · challenge · SL · Structure 1.3.5 · 1 mark
     "s1-3-q025": {
       // EN: <p>Atoms of element X have the configuration <span class="mono">[Ne] 3s<sup>2</sup></span>. Atoms of element Y have the configuration <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>3</sup></span>. X and Y form an ionic compound in which each ion has a noble gas configuration.</p><p>Which row gives the formula of the compound and the configurations of the ions?</p>
-      stem: "",
+      stem: "<p>원소 X의 원자는 전자 배치가 <span class=\"mono\">[Ne] 3s<sup>2</sup></span>예요. 원소 Y의 원자는 전자 배치가 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>3</sup></span>예요. X와 Y는 각 이온이 비활성 기체의 전자 배치를 갖는 이온 결합 화합물을 만들어요.</p><p>이 화합물의 화학식과 이온들의 전자 배치를 옳게 나타낸 것은 어느 것인가요?</p>",
       options: [
         // EN: X<sub>3</sub>Y<sub>2</sub>. Both ions are <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>.
-        "",
+        "X<sub>3</sub>Y<sub>2</sub>. 두 이온 모두 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>.",
         // EN: X<sub>2</sub>Y<sub>3</sub>. Both ions are <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>.
-        "",
+        "X<sub>2</sub>Y<sub>3</sub>. 두 이온 모두 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>.",
         // EN: X<sub>3</sub>Y<sub>2</sub>. The X ion is <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span> and the Y ion is <span class="mono">1s<sup>2</sup> 2s<sup>2</sup></span>.
-        "",
+        "X<sub>3</sub>Y<sub>2</sub>. X 이온은 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>, Y 이온은 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup></span>.",
         // EN: XY. Both ions are <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>.
-        "",
+        "XY. 두 이온 모두 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>.",
       ],
       hints: [
         // EN: X has two outer electrons. Y has five. Which loses electrons and which gains?
-        "",
+        "X는 바깥 전자가 2개예요. Y는 5개예요. 어느 쪽이 전자를 잃고 어느 쪽이 전자를 얻을까요?",
         // EN: Find the charge on each ion, then balance the charges to get the formula.
-        "",
+        "각 이온의 전하를 구한 다음, 전하가 맞도록 해서 화학식을 구해요.",
       ],
       // EN: <p>X (<span class="mono">[Ne] 3s<sup>2</sup></span>, magnesium) loses its two 3s electrons to form X<sup>2+</sup>: <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>.</p><p>Y (<span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>3</sup></span>, nitrogen) gains three electrons to form Y<sup>3−</sup>: <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>.</p><p>Balance the charges: 3 × (2+) = 6+ and 2 × (3−) = 6−, so the formula is X<sub>3</sub>Y<sub>2</sub> (<span class="chem">Mg3N2</span>).</p>
-      solution: "",
+      solution: "<p>X(<span class=\"mono\">[Ne] 3s<sup>2</sup></span>, 마그네슘)는 3s 전자 2개를 잃고 X<sup>2+</sup>가 돼요: <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>.</p><p>Y(<span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>3</sup></span>, 질소)는 전자 3개를 얻고 Y<sup>3−</sup>이 돼요: <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup></span>.</p><p>전하를 맞춰요: 3 × (2+) = 6+이고 2 × (3−) = 6−이므로, 화학식은 X<sub>3</sub>Y<sub>2</sub>(<span class=\"chem\">Mg3N2</span>)예요.</p>",
       misconception: {
         // EN (option B): The configurations are right, but the formula is not. Three 2+ ions balance two 3− ions, so the numbers go the other way round.
-        "1": "",
+        "1": "전자 배치는 맞지만 화학식이 틀렸어요. 2+ 이온 3개가 3− 이온 2개와 전하가 맞으므로, 숫자가 반대로 되어야 해요.",
         // EN (option C): Y is a non-metal with five outer electrons. It gains three electrons to fill 2p. It does not lose its 2p electrons.
-        "2": "",
+        "2": "Y는 바깥 전자가 5개인 비금속이에요. 2p를 채우기 위해 전자 3개를 얻어요. 2p 전자를 잃지 않아요.",
         // EN (option D): The charges are not equal in size. X forms a 2+ ion and Y forms a 3− ion, so a 1 : 1 formula is not neutral.
-        "3": "",
+        "3": "두 전하의 크기가 같지 않아요. X는 2+ 이온, Y는 3− 이온이 되므로, 1 : 1 화학식으로는 전기적으로 중성이 되지 않아요.",
       },
     },
 
     // ── s1-3-q026 · mcq · challenge · SL · Structure 1.3.5 · 1 mark
     "s1-3-q026": {
       // EN: <p>Which atom has the <strong>greatest</strong> number of unpaired electrons in its ground state?</p>
-      stem: "",
+      stem: "<p>바닥상태에서 홀전자 수가 <strong>가장 많은</strong> 원자는 어느 것인가요?</p>",
       options: [
         // EN: Cr (Z = 24)
-        "",
+        "Cr (Z = 24)",
         // EN: Mn (Z = 25)
-        "",
+        "Mn (Z = 25)",
         // EN: Fe (Z = 26)
-        "",
+        "Fe (Z = 26)",
         // EN: As (Z = 33)
-        "",
+        "As (Z = 33)",
       ],
       hints: [
         // EN: Write the condensed configuration of each atom. Remember the two exceptions.
-        "",
+        "각 원자의 축약 전자 배치를 써요. 두 예외를 잊지 마세요.",
         // EN: Use Hund’s rule in each partly filled sublevel: one electron per orbital before any pairing.
-        "",
+        "부분적으로 채워진 각 부껍질에 훈트 규칙을 적용해요: 짝을 짓기 전에 오비탈마다 전자 하나씩.",
       ],
       // EN: <p>Write each configuration and count the singly occupied orbitals.</p><div class="worked__math">Cr: <span class="mono">[Ar] 4s<sup>1</sup> 3d<sup>5</sup></span> &nbsp; 1 + 5<br>&nbsp;&nbsp;= 6 unpaired</div><div class="worked__math">Mn: <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>5</sup></span> &nbsp; 5 unpaired</div><div class="worked__math">Fe: <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span> &nbsp; 4 unpaired</div><div class="worked__math">As: <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>3</sup></span> &nbsp; 3 unpaired</div><p>Chromium is an exception to the usual filling order. Its single 4s electron and its five 3d electrons are all unpaired, so it has the most: 6.</p>
-      solution: "",
+      solution: "<p>각 원자의 전자 배치를 쓰고, 전자가 하나만 들어 있는 오비탈의 수를 세어 봐요.</p><div class=\"worked__math\">Cr: <span class=\"mono\">[Ar] 4s<sup>1</sup> 3d<sup>5</sup></span> &nbsp; 1 + 5<br>&nbsp;&nbsp;= 홀전자 6개</div><div class=\"worked__math\">Mn: <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>5</sup></span> &nbsp; 홀전자 5개</div><div class=\"worked__math\">Fe: <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span> &nbsp; 홀전자 4개</div><div class=\"worked__math\">As: <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>3</sup></span> &nbsp; 홀전자 3개</div><p>크로뮴은 일반적인 채우는 순서의 예외예요. 4s 전자 하나와 3d 전자 다섯 개가 모두 홀전자이므로, 홀전자가 가장 많아요: 6개.</p>",
       misconception: {
         // EN (option B): Manganese, <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>5</sup></span>, has five unpaired electrons. One of the other atoms has more, because of an exception to the usual filling order.
-        "1": "",
+        "1": "망가니즈 <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>5</sup></span>는 홀전자가 5개예요. 일반적인 채우는 순서의 예외 때문에, 다른 원자 중 하나는 이보다 더 많아요.",
         // EN (option C): Iron, <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>, has four unpaired electrons. The sixth 3d electron has to pair up.
-        "2": "",
+        "2": "철 <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>은 홀전자가 4개예요. 여섯 번째 3d 전자는 짝을 이뤄야 해요.",
         // EN (option D): Arsenic, <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>3</sup></span>, has three unpaired electrons, all in 4p. The 3d sublevel is full.
-        "3": "",
+        "3": "비소 <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>3</sup></span>은 홀전자가 3개이고, 모두 4p에 있어요. 3d 부껍질은 꽉 차 있어요.",
       },
     },
 
     // ── s1-3-q027 · mcq · exam · AHL · Structure 1.3.5 · 1 mark
     "s1-3-q027": {
       // EN: <p>What is the condensed electron configuration of the <span class="chem">Fe^3+</span> ion? (Iron has Z = 26.)</p>
-      stem: "",
+      stem: "<p><span class=\"chem\">Fe^3+</span> 이온의 축약 전자 배치는 무엇인가요? (철은 Z = 26이에요.)</p>",
       options: [
         // EN: <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>3</sup></span>
-        "",
+        "<span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>3</sup></span>",
         // EN: <span class="mono">[Ar] 4s<sup>1</sup> 3d<sup>4</sup></span>
-        "",
+        "<span class=\"mono\">[Ar] 4s<sup>1</sup> 3d<sup>4</sup></span>",
         // EN: <span class="mono">[Ar] 3d<sup>5</sup></span>
-        "",
+        "<span class=\"mono\">[Ar] 3d<sup>5</sup></span>",
         // EN: <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>9</sup></span>
-        "",
+        "<span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>9</sup></span>",
       ],
       hints: [
         // EN: Start from the atom: <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>. Three electrons must be removed.
-        "",
+        "원자에서 시작해요: <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>. 전자 3개를 떼어 내야 해요.",
         // EN: Which sublevel loses electrons first when a first-row transition element forms a positive ion?
-        "",
+        "첫 번째 줄 전이 원소가 양이온이 될 때, 어느 부껍질의 전자가 먼저 떨어져 나갈까요?",
       ],
       // EN: <p>The iron atom is <span class="mono">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>. When first-row transition elements form ions, the 4s electrons are removed before the 3d electrons. Remove the two 4s electrons, then one 3d electron:</p><div class="worked__math"><span class="chem">Fe^3+</span>: <span class="mono">[Ar] 3d<sup>5</sup></span><br>&nbsp;&nbsp;(26 − 3 = 23 electrons)</div><p>This skill is listed for HL in Structure 3.1.</p>
-      solution: "",
+      solution: "<p>철 원자는 <span class=\"mono\">[Ar] 4s<sup>2</sup> 3d<sup>6</sup></span>이에요. 첫 번째 줄 전이 원소가 이온이 될 때는 3d 전자보다 4s 전자가 먼저 떨어져 나가요. 4s 전자 2개를 떼어 낸 다음, 3d 전자 1개를 떼어 내요:</p><div class=\"worked__math\"><span class=\"chem\">Fe^3+</span>: <span class=\"mono\">[Ar] 3d<sup>5</sup></span><br>&nbsp;&nbsp;(전자 26 − 3 = 23개)</div><p>이 내용은 Structure 3.1의 HL 기능으로 나와 있어요.</p>",
       misconception: {
         // EN (option A): This removes all three electrons from 3d. When a first-row transition element forms an ion, the 4s electrons are lost first.
-        "0": "",
+        "0": "이것은 세 전자를 모두 3d에서 떼어 냈어요. 첫 번째 줄 전이 원소가 이온이 될 때는 4s 전자를 먼저 잃어요.",
         // EN (option B): This removes one 4s electron and two 3d electrons. Both 4s electrons are lost before any 3d electron.
-        "1": "",
+        "1": "이것은 4s 전자 1개와 3d 전자 2개를 떼어 냈어요. 3d 전자를 잃기 전에 4s 전자 2개를 모두 먼저 잃어요.",
         // EN (option D): This has three <em>more</em> electrons than the atom. A 3+ charge means three electrons have been lost.
-        "3": "",
+        "3": "이것은 원자보다 전자가 3개 <em>더 많아요</em>. 3+ 전하는 전자 3개를 잃었다는 뜻이에요.",
       },
     },
 

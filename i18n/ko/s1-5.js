@@ -375,1070 +375,1070 @@ S1.i18n.register('ko', 's1-5', {
     "Graph": "그래프",
 
     // How pressure, volume and temperature are related > table > td
-    "<i>P</i> ∝ 1/<i>V</i> (inverse)": "",
+    "<i>P</i> ∝ 1/<i>V</i> (inverse)": "<i>P</i> ∝ 1/<i>V</i> (반비례)",
 
     // How pressure, volume and temperature are related > table > td
-    "<i>P</i> against <i>V</i>: curve. <i>P</i> against 1/<i>V</i>: line through origin.": "",
+    "<i>P</i> against <i>V</i>: curve. <i>P</i> against 1/<i>V</i>: line through origin.": "<i>P</i>–<i>V</i> 그래프: 곡선. <i>P</i>–1/<i>V</i> 그래프: 원점을 지나는 직선.",
 
     // How pressure, volume and temperature are related > table > td
-    "<i>V</i> ∝ <i>T</i> (direct, <i>T</i> in K)": "",
+    "<i>V</i> ∝ <i>T</i> (direct, <i>T</i> in K)": "<i>V</i> ∝ <i>T</i> (비례, <i>T</i>는 K)",
 
     // How pressure, volume and temperature are related > table > td
-    "<i>V</i> against <i>T</i>/K: line through origin.": "",
+    "<i>V</i> against <i>T</i>/K: line through origin.": "<i>V</i>–<i>T</i>/K 그래프: 원점을 지나는 직선.",
 
     // How pressure, volume and temperature are related > table > td
-    "<i>P</i> ∝ <i>T</i> (direct, <i>T</i> in K)": "",
+    "<i>P</i> ∝ <i>T</i> (direct, <i>T</i> in K)": "<i>P</i> ∝ <i>T</i> (비례, <i>T</i>는 K)",
 
     // How pressure, volume and temperature are related > table > td
-    "<i>P</i> against <i>T</i>/K: line through origin.": "",
+    "<i>P</i> against <i>T</i>/K: line through origin.": "<i>P</i>–<i>T</i>/K 그래프: 원점을 지나는 직선.",
 
     // How pressure, volume and temperature are related > common mistake > p
-    "The direct proportions work only in kelvin. Heating a gas from 20 °C to 40 °C does not double its volume or pressure. In kelvin that is 293 K to 313 K, an increase of about 7 %.": "",
+    "The direct proportions work only in kelvin. Heating a gas from 20 °C to 40 °C does not double its volume or pressure. In kelvin that is 293 K to 313 K, an increase of about 7 %.": "비례 관계는 켈빈 온도에서만 성립해요. 기체를 20 °C에서 40 °C로 가열해도 부피나 압력이 2배가 되지 않아요. 켈빈으로 바꾸면 293 K에서 313 K로, 약 7 % 늘어날 뿐이에요.",
 
     // How pressure, volume and temperature are related > widget > data-title attribute
-    "Gas-law graphs: the shapes to know": "",
+    "Gas-law graphs: the shapes to know": "기체 법칙 그래프: 알아야 할 모양",
 
     // How pressure, volume and temperature are related > widget > figcaption
-    "Study the six sketches, then press “Test yourself” and match each relationship to its shape. Notice that <i>PV</i> against <i>P</i> is flat: at constant temperature the product <i>PV</i> does not change.": "",
+    "Study the six sketches, then press “Test yourself” and match each relationship to its shape. Notice that <i>PV</i> against <i>P</i> is flat: at constant temperature the product <i>PV</i> does not change.": "6개의 그래프 개형을 살펴본 다음 “스스로 확인하기”를 누르고 각 관계를 알맞은 모양과 짝지어 보세요. <i>PV</i>를 <i>P</i>에 대해 그린 그래프는 수평이라는 점에 주목하세요: 온도가 일정하면 곱 <i>PV</i>는 변하지 않아요.",
 
     // How pressure, volume and temperature are related > exam tip (shown in English + translation) > p
-    "When you sketch a graph, label both axes with the quantity and its unit, and make it clear whether a straight line passes through the origin. For <i>V</i> against <i>T</i> in °C, show the line meeting the temperature axis at −273 °C, usually as a dashed extrapolation.": "",
+    "When you sketch a graph, label both axes with the quantity and its unit, and make it clear whether a straight line passes through the origin. For <i>V</i> against <i>T</i> in °C, show the line meeting the temperature axis at −273 °C, usually as a dashed extrapolation.": "그래프의 개형을 그릴 때는 두 축 모두에 양과 단위를 쓰고, 직선이 원점을 지나는지 분명히 나타내세요. <i>V</i>를 °C 온도 <i>T</i>에 대해 그린 그래프에서는 직선이 −273 °C에서 온도 축과 만나도록 그리고, 보통 이 부분은 점선으로 외삽해요.",
 
     // How pressure, volume and temperature are related > not needed for IB > p
-    "These relationships have historical names (Boyle’s law, Charles’s law, Gay-Lussac’s law). The IB will not assess the names. You need the relationships and their graphs, not who discovered them.": "",
+    "These relationships have historical names (Boyle’s law, Charles’s law, Gay-Lussac’s law). The IB will not assess the names. You need the relationships and their graphs, not who discovered them.": "이 관계들에는 역사적인 이름이 있어요(보일 법칙, 샤를 법칙, 게이뤼삭 법칙). IB는 이름을 평가하지 않아요. 누가 발견했는지가 아니라 관계와 그래프를 알면 돼요.",
 
     // How pressure, volume and temperature are related > data-title attribute
-    "Relationships and graphs: quick check": "",
+    "Relationships and graphs: quick check": "관계와 그래프: 빠른 확인",
 
     // The combined gas law > h2
-    "The combined gas law": "",
+    "The combined gas law": "보일-샤를 법칙",
 
     // The combined gas law > p
-    "A weather balloon rises. The air outside gets colder and the pressure drops, both at once. To find the new volume you need one equation that handles pressure, volume and temperature together.": "",
+    "A weather balloon rises. The air outside gets colder and the pressure drops, both at once. To find the new volume you need one equation that handles pressure, volume and temperature together.": "기상 관측 기구가 올라가요. 바깥 공기는 차가워지고 압력도 낮아져요. 두 가지가 동시에 일어나요. 새 부피를 구하려면 압력, 부피, 온도를 한꺼번에 다루는 식이 하나 필요해요.",
 
     // The combined gas law > p
-    "Putting the three relationships together gives the <dfn data-def=\"P1V1/T1 = P2V2/T2 for a fixed amount of gas whose conditions change from state 1 to state 2.\">combined gas law</dfn>. It links two sets of conditions for the same sample of gas: state 1 (before) and state 2 (after).": "",
+    "Putting the three relationships together gives the <dfn data-def=\"P1V1/T1 = P2V2/T2 for a fixed amount of gas whose conditions change from state 1 to state 2.\">combined gas law</dfn>. It links two sets of conditions for the same sample of gas: state 1 (before) and state 2 (after).": "세 가지 관계를 합치면 <dfn data-def=\"조건이 상태 1에서 상태 2로 바뀌는 일정한 양의 기체에 대해 P1V1/T1 = P2V2/T2예요.\">보일-샤를 법칙 <span class=\"en-term\">(combined gas law)</span></dfn>이 돼요. 이 법칙은 같은 기체 시료의 두 가지 조건, 곧 상태 1(변화 전)과 상태 2(변화 후)를 연결해요.",
 
     // The combined gas law > data-def attribute
-    "P1V1/T1 = P2V2/T2 for a fixed amount of gas whose conditions change from state 1 to state 2.": "",
+    "P1V1/T1 = P2V2/T2 for a fixed amount of gas whose conditions change from state 1 to state 2.": "조건이 상태 1에서 상태 2로 바뀌는 일정한 양의 기체에 대해 P1V1/T1 = P2V2/T2예요.",
 
     // The combined gas law > equation > dd
-    "pressure, same unit on both sides <span class=\"unit\">kPa</span>": "",
+    "pressure, same unit on both sides <span class=\"unit\">kPa</span>": "압력, 양쪽에 같은 단위 <span class=\"unit\">kPa</span>",
 
     // The combined gas law > equation > dd
-    "volume, same unit on both sides <span class=\"unit\">dm3</span>": "",
+    "volume, same unit on both sides <span class=\"unit\">dm3</span>": "부피, 양쪽에 같은 단위 <span class=\"unit\">dm3</span>",
 
     // The combined gas law > equation > dd
-    "temperature, always in kelvin <span class=\"unit\">K</span>": "",
+    "temperature, always in kelvin <span class=\"unit\">K</span>": "온도, 항상 켈빈 <span class=\"unit\">K</span>",
 
     // The combined gas law > equation > dd
-    "before and after the change, for a fixed amount of gas": "",
+    "before and after the change, for a fixed amount of gas": "일정한 양의 기체에서 변화 전과 후",
 
     // The combined gas law > data booklet note > p
-    "The combined gas law is printed in the data booklet. You do not need to memorise it, but you do need to rearrange it.": "",
+    "The combined gas law is printed in the data booklet. You do not need to memorise it, but you do need to rearrange it.": "보일-샤를 법칙은 데이터 부클릿에 나와 있어요. 외울 필요는 없지만, 식을 변형할 줄은 알아야 해요.",
 
     // The combined gas law > li
-    "List <i>P</i><sub>1</sub>, <i>V</i><sub>1</sub>, <i>T</i><sub>1</sub> and <i>P</i><sub>2</sub>, <i>V</i><sub>2</sub>, <i>T</i><sub>2</sub>. Mark the unknown with a question mark.": "",
+    "List <i>P</i><sub>1</sub>, <i>V</i><sub>1</sub>, <i>T</i><sub>1</sub> and <i>P</i><sub>2</sub>, <i>V</i><sub>2</sub>, <i>T</i><sub>2</sub>. Mark the unknown with a question mark.": "<i>P</i><sub>1</sub>, <i>V</i><sub>1</sub>, <i>T</i><sub>1</sub>과 <i>P</i><sub>2</sub>, <i>V</i><sub>2</sub>, <i>T</i><sub>2</sub>를 적어요. 모르는 값에는 물음표를 표시해요.",
 
     // The combined gas law > li
-    "Convert both temperatures to kelvin: add 273.15.": "",
+    "Convert both temperatures to kelvin: add 273.15.": "두 온도를 모두 켈빈으로 바꿔요: 273.15를 더해요.",
 
     // The combined gas law > li
-    "Check that the two pressures share a unit and the two volumes share a unit. They do not have to be Pa or m<sup>3</sup>, because the units cancel.": "",
+    "Check that the two pressures share a unit and the two volumes share a unit. They do not have to be Pa or m<sup>3</sup>, because the units cancel.": "두 압력의 단위가 같고 두 부피의 단위가 같은지 확인해요. 단위가 약분되므로 꼭 Pa나 m<sup>3</sup>일 필요는 없어요.",
 
     // The combined gas law > li
-    "If a variable is constant, it cancels. Cross it out on both sides.": "",
+    "If a variable is constant, it cancels. Cross it out on both sides.": "어떤 변수가 일정하면 약분돼요. 양쪽에서 지워요.",
 
     // The combined gas law > li
-    "Rearrange for the unknown, substitute, and round at the end.": "",
+    "Rearrange for the unknown, substitute, and round at the end.": "모르는 값에 대해 식을 정리하고, 대입한 다음, 마지막에 반올림해요.",
 
     // The combined gas law > li
-    "Sense check: did the answer move in the direction you expected?": "",
+    "Sense check: did the answer move in the direction you expected?": "타당성 확인: 답이 예상한 방향으로 바뀌었나요?",
 
     // The combined gas law > worked example > h3
-    "New volume when pressure and temperature both change": "",
+    "New volume when pressure and temperature both change": "압력과 온도가 모두 바뀔 때의 새 부피",
 
     // The combined gas law > worked example > p
-    "A gas syringe contains 85.0 cm<sup>3</sup> of gas at 22.0 °C and 101 kPa. Calculate the volume of the gas, in cm<sup>3</sup>, at 65.0 °C and 125 kPa.": "",
+    "A gas syringe contains 85.0 cm<sup>3</sup> of gas at 22.0 °C and 101 kPa. Calculate the volume of the gas, in cm<sup>3</sup>, at 65.0 °C and 125 kPa.": "기체 주사기에 22.0 °C, 101 kPa에서 기체 85.0 cm<sup>3</sup>가 들어 있어요. 65.0 °C, 125 kPa에서 이 기체의 부피를 cm<sup>3</sup> 단위로 계산하시오 (calculate).",
 
     // The combined gas law > worked example > data-title attribute
-    "List the two states": "",
+    "List the two states": "두 상태 적기",
 
     // The combined gas law > worked example > p
-    "Sorting the data first stops you mixing up “before” and “after”.": "",
+    "Sorting the data first stops you mixing up “before” and “after”.": "자료를 먼저 정리하면 “변화 전”과 “변화 후”를 헷갈리지 않아요.",
 
     // The combined gas law > worked example > data-title attribute
-    "Convert temperatures to kelvin": "",
+    "Convert temperatures to kelvin": "온도를 켈빈으로 바꾸기",
 
     // The combined gas law > worked example > p
-    "The gas relationships are proportional only on the kelvin scale.": "",
+    "The gas relationships are proportional only on the kelvin scale.": "기체의 관계는 켈빈 온도에서만 비례해요.",
 
     // The combined gas law > worked example > data-title attribute
-    "Rearrange for V₂": "",
+    "Rearrange for V₂": "V₂에 대해 정리하기",
 
     // The combined gas law > worked example > p
-    "Multiply both sides by <i>T</i><sub>2</sub> and divide by <i>P</i><sub>2</sub> to leave <i>V</i><sub>2</sub> alone.": "",
+    "Multiply both sides by <i>T</i><sub>2</sub> and divide by <i>P</i><sub>2</sub> to leave <i>V</i><sub>2</sub> alone.": "양쪽에 <i>T</i><sub>2</sub>를 곱하고 <i>P</i><sub>2</sub>로 나누어 <i>V</i><sub>2</sub>만 남겨요.",
 
     // The combined gas law > worked example > p
-    "kPa cancels with kPa and K with K, leaving cm<sup>3</sup>. No conversion to dm<sup>3</sup> is needed here.": "",
+    "kPa cancels with kPa and K with K, leaving cm<sup>3</sup>. No conversion to dm<sup>3</sup> is needed here.": "kPa는 kPa끼리, K는 K끼리 약분되어 cm<sup>3</sup>가 남아요. 여기서는 dm<sup>3</sup>로 바꿀 필요가 없어요.",
 
     // The combined gas law > worked example > data-title attribute
     // The ideal gas equation > worked example > data-title attribute
-    "Round and sense check": "",
+    "Round and sense check": "반올림하고 타당성 확인하기",
 
     // The combined gas law > worked example > data-label attribute
     // The ideal gas equation > worked example > data-label attribute
-    "Check": "",
+    "Check": "확인",
 
     // The combined gas law > worked example > p
-    "Heating makes the gas expand, but the larger pressure squeezes it more. A slightly smaller volume is reasonable. The data have 3 significant figures.": "",
+    "Heating makes the gas expand, but the larger pressure squeezes it more. A slightly smaller volume is reasonable. The data have 3 significant figures.": "가열하면 기체가 팽창하지만, 더 큰 압력이 기체를 더 많이 압축해요. 부피가 조금 줄어드는 것이 타당해요. 자료의 유효 숫자는 3자리예요.",
 
     // The combined gas law > worked example > p
-    "78.7 cm<sup>3</sup>": "",
+    "78.7 cm<sup>3</sup>": "78.7 cm<sup>3</sup>",
 
     // The combined gas law > try it > p
-    "A gas occupies 2.40 dm<sup>3</sup> at 15.0 °C. It is heated to 80.0 °C at constant pressure. Calculate the new volume, in dm<sup>3</sup>.": "",
+    "A gas occupies 2.40 dm<sup>3</sup> at 15.0 °C. It is heated to 80.0 °C at constant pressure. Calculate the new volume, in dm<sup>3</sup>.": "어떤 기체가 15.0 °C에서 2.40 dm<sup>3</sup>를 차지해요. 압력을 일정하게 유지하면서 80.0 °C로 가열해요. 새 부피를 dm<sup>3</sup> 단위로 계산하시오 (calculate).",
 
     // The combined gas law > try it > li
-    "The pressure is constant, so <i>P</i> cancels. You are left with <i>V</i><sub>1</sub>/<i>T</i><sub>1</sub> = <i>V</i><sub>2</sub>/<i>T</i><sub>2</sub>. What must you do to the temperatures first?": "",
+    "The pressure is constant, so <i>P</i> cancels. You are left with <i>V</i><sub>1</sub>/<i>T</i><sub>1</sub> = <i>V</i><sub>2</sub>/<i>T</i><sub>2</sub>. What must you do to the temperatures first?": "압력이 일정하므로 <i>P</i>가 약분돼요. <i>V</i><sub>1</sub>/<i>T</i><sub>1</sub> = <i>V</i><sub>2</sub>/<i>T</i><sub>2</sub>가 남아요. 온도에 먼저 무엇을 해야 할까요?",
 
     // The combined gas law > try it > li
-    "<i>T</i><sub>1</sub> = 288.15 K and <i>T</i><sub>2</sub> = 353.15 K. Then <i>V</i><sub>2</sub> = <i>V</i><sub>1</sub> × <i>T</i><sub>2</sub> ÷ <i>T</i><sub>1</sub>.": "",
+    "<i>T</i><sub>1</sub> = 288.15 K and <i>T</i><sub>2</sub> = 353.15 K. Then <i>V</i><sub>2</sub> = <i>V</i><sub>1</sub> × <i>T</i><sub>2</sub> ÷ <i>T</i><sub>1</sub>.": "<i>T</i><sub>1</sub> = 288.15 K, <i>T</i><sub>2</sub> = 353.15 K. 그러면 <i>V</i><sub>2</sub> = <i>V</i><sub>1</sub> × <i>T</i><sub>2</sub> ÷ <i>T</i><sub>1</sub>.",
 
     // The combined gas law > try it > p
-    "To 3 significant figures: <strong>2.94 dm<sup>3</sup></strong>. If you got 12.8 dm<sup>3</sup>, you used °C.": "",
+    "To 3 significant figures: <strong>2.94 dm<sup>3</sup></strong>. If you got 12.8 dm<sup>3</sup>, you used °C.": "유효 숫자 3자리로: <strong>2.94 dm<sup>3</sup></strong>. 12.8 dm<sup>3</sup>가 나왔다면 °C를 쓴 거예요.",
 
     // The combined gas law > try it > p
-    "A sealed, rigid steel container holds gas at 310 kPa and 20.0 °C. It is left in the sun and warms to 55.0 °C. Calculate the new pressure, in kPa.": "",
+    "A sealed, rigid steel container holds gas at 310 kPa and 20.0 °C. It is left in the sun and warms to 55.0 °C. Calculate the new pressure, in kPa.": "밀폐된 단단한 강철 용기에 310 kPa, 20.0 °C의 기체가 들어 있어요. 이 용기를 햇빛 아래 두었더니 55.0 °C로 따뜻해졌어요. 새 압력을 kPa 단위로 계산하시오 (calculate).",
 
     // The combined gas law > try it > li
-    "Rigid means the volume is constant, so <i>V</i> cancels: <i>P</i><sub>1</sub>/<i>T</i><sub>1</sub> = <i>P</i><sub>2</sub>/<i>T</i><sub>2</sub>.": "",
+    "Rigid means the volume is constant, so <i>V</i> cancels: <i>P</i><sub>1</sub>/<i>T</i><sub>1</sub> = <i>P</i><sub>2</sub>/<i>T</i><sub>2</sub>.": "단단하다는 것은 부피가 일정하다는 뜻이므로 <i>V</i>가 약분돼요: <i>P</i><sub>1</sub>/<i>T</i><sub>1</sub> = <i>P</i><sub>2</sub>/<i>T</i><sub>2</sub>.",
 
     // The combined gas law > try it > li
-    "<i>P</i><sub>2</sub> = <i>P</i><sub>1</sub> × <i>T</i><sub>2</sub> ÷ <i>T</i><sub>1</sub> = <span class=\"mono\">310 kPa × 328.15 K ÷ 293.15 K</span>.": "",
+    "<i>P</i><sub>2</sub> = <i>P</i><sub>1</sub> × <i>T</i><sub>2</sub> ÷ <i>T</i><sub>1</sub> = <span class=\"mono\">310 kPa × 328.15 K ÷ 293.15 K</span>.": "<i>P</i><sub>2</sub> = <i>P</i><sub>1</sub> × <i>T</i><sub>2</sub> ÷ <i>T</i><sub>1</sub> = <span class=\"mono\">310 kPa × 328.15 K ÷ 293.15 K</span>.",
 
     // The combined gas law > try it > p
-    "To 3 significant figures: <strong>347 kPa</strong>.": "",
+    "To 3 significant figures: <strong>347 kPa</strong>.": "유효 숫자 3자리로: <strong>347 kPa</strong>.",
 
     // The combined gas law > common mistake > p
-    "The combined gas law is only for a fixed amount of gas. If gas is added or escapes between the two states, <i>n</i> has changed and you need <i>PV</i> = <i>nRT</i> for each state.": "",
+    "The combined gas law is only for a fixed amount of gas. If gas is added or escapes between the two states, <i>n</i> has changed and you need <i>PV</i> = <i>nRT</i> for each state.": "보일-샤를 법칙은 일정한 양의 기체에만 쓸 수 있어요. 두 상태 사이에 기체가 더해지거나 빠져나가면 <i>n</i>이 바뀐 것이므로, 각 상태에 <i>PV</i> = <i>nRT</i>를 써야 해요.",
 
     // The combined gas law > data-title attribute
-    "Combined gas law: quick check": "",
+    "Combined gas law: quick check": "보일-샤를 법칙: 빠른 확인",
 
     // The ideal gas equation > data-toc attribute
-    "PV = nRT": "",
+    "PV = nRT": "PV = nRT",
 
     // The ideal gas equation > h2
-    "The ideal gas equation": "",
+    "The ideal gas equation": "이상 기체 방정식",
 
     // The ideal gas equation > p
-    "The combined gas law compares a gas before and after a change. Often you have only one set of conditions and want to know how much gas is there. For that you need the <dfn data-def=\"PV = nRT: the equation linking the pressure, volume, amount and temperature of an ideal gas.\">ideal gas equation</dfn>.": "",
+    "The combined gas law compares a gas before and after a change. Often you have only one set of conditions and want to know how much gas is there. For that you need the <dfn data-def=\"PV = nRT: the equation linking the pressure, volume, amount and temperature of an ideal gas.\">ideal gas equation</dfn>.": "보일-샤를 법칙은 변화 전과 후의 기체를 비교해요. 하지만 조건이 한 가지만 주어지고 기체가 얼마나 있는지 알고 싶을 때가 많아요. 그럴 때는 <dfn data-def=\"PV = nRT: 이상 기체의 압력, 부피, 물질의 양, 온도를 연결하는 식이에요.\">이상 기체 방정식 <span class=\"en-term\">(ideal gas equation)</span></dfn>이 필요해요.",
 
     // The ideal gas equation > data-def attribute
-    "PV = nRT: the equation linking the pressure, volume, amount and temperature of an ideal gas.": "",
+    "PV = nRT: the equation linking the pressure, volume, amount and temperature of an ideal gas.": "PV = nRT: 이상 기체의 압력, 부피, 물질의 양, 온도를 연결하는 식이에요.",
 
     // The ideal gas equation > equation > dd
-    "pressure <span class=\"unit\">Pa</span> (or kPa)": "",
+    "pressure <span class=\"unit\">Pa</span> (or kPa)": "압력 <span class=\"unit\">Pa</span> (또는 kPa)",
 
     // The ideal gas equation > equation > dd
-    "volume <span class=\"unit\">m3</span> (or dm<sup>3</sup> with kPa)": "",
-
-    // The ideal gas equation > equation > dd
-    // Molar mass of a gas from experimental data > equation > dd
-    "gas constant, 8.31 <span class=\"unit\">J K-1 mol-1</span>": "",
+    "volume <span class=\"unit\">m3</span> (or dm<sup>3</sup> with kPa)": "부피 <span class=\"unit\">m3</span> (kPa와 함께 쓸 때는 dm<sup>3</sup>)",
 
     // The ideal gas equation > equation > dd
     // Molar mass of a gas from experimental data > equation > dd
-    "temperature <span class=\"unit\">K</span>": "",
+    "gas constant, 8.31 <span class=\"unit\">J K-1 mol-1</span>": "기체 상수, 8.31 <span class=\"unit\">J K-1 mol-1</span>",
+
+    // The ideal gas equation > equation > dd
+    // Molar mass of a gas from experimental data > equation > dd
+    "temperature <span class=\"unit\">K</span>": "온도 <span class=\"unit\">K</span>",
 
     // The ideal gas equation > data booklet note > p
-    "The equation <i>PV</i> = <i>nRT</i> and the value <span class=\"mono\"><i>R</i> = 8.31 J K<sup>−1</sup> mol<sup>−1</sup></span> are both in the data booklet.": "",
+    "The equation <i>PV</i> = <i>nRT</i> and the value <span class=\"mono\"><i>R</i> = 8.31 J K<sup>−1</sup> mol<sup>−1</sup></span> are both in the data booklet.": "<i>PV</i> = <i>nRT</i> 식과 <span class=\"mono\"><i>R</i> = 8.31 J K<sup>−1</sup> mol<sup>−1</sup></span> 값은 모두 데이터 부클릿에 나와 있어요.",
 
     // The ideal gas equation > h3
-    "Units: the part that costs the most marks": "",
+    "Units: the part that costs the most marks": "단위: 점수를 가장 많이 잃는 부분",
 
     // The ideal gas equation > p
-    "<i>R</i> is given in joules. So the product <i>P</i> × <i>V</i> must come out in joules too. Two pairs of units do this.": "",
+    "<i>R</i> is given in joules. So the product <i>P</i> × <i>V</i> must come out in joules too. Two pairs of units do this.": "<i>R</i>은 줄(J) 단위로 주어져요. 그러니 <i>P</i> × <i>V</i>도 줄 단위가 되어야 해요. 이렇게 되는 단위 조합이 두 가지 있어요.",
 
     // The ideal gas equation > table > caption
-    "Two consistent unit sets for PV = nRT, both with R = 8.31 J K⁻¹ mol⁻¹": "",
+    "Two consistent unit sets for PV = nRT, both with R = 8.31 J K⁻¹ mol⁻¹": "PV = nRT에 쓰는 일관된 단위 조합 2가지 (둘 다 R = 8.31 J K⁻¹ mol⁻¹)",
 
     // The ideal gas equation > table > th
-    "Set": "",
+    "Set": "조합",
 
     // The ideal gas equation > table > th
-    "Pressure": "",
+    "Pressure": "압력",
 
     // The ideal gas equation > table > th
-    "Volume": "",
+    "Volume": "부피",
 
     // The ideal gas equation > table > th
-    "Why P × V is in joules": "",
+    "Why P × V is in joules": "P × V가 줄인 이유",
 
     // The ideal gas equation > table > th
-    "SI base": "",
+    "SI base": "SI 기본 단위",
 
     // The ideal gas equation > table > td
-    "Pa": "",
+    "Pa": "Pa",
 
     // The ideal gas equation > table > td
-    "1 Pa = 1 N m<sup>−2</sup>, so Pa × m<sup>3</sup> = N m = J": "",
+    "1 Pa = 1 N m<sup>−2</sup>, so Pa × m<sup>3</sup> = N m = J": "1 Pa = 1 N m<sup>−2</sup>, 따라서 Pa × m<sup>3</sup> = N m = J",
 
     // The ideal gas equation > table > th
-    "Lab-sized": "",
-
-    // The ideal gas equation > table > td
-    // The ideal gas equation > table > th
-    "kPa": "",
+    "Lab-sized": "실험실 크기",
 
     // The ideal gas equation > table > td
     // The ideal gas equation > table > th
-    "dm<sup>3</sup>": "",
+    "kPa": "kPa",
 
     // The ideal gas equation > table > td
-    "kPa × dm<sup>3</sup> = (10<sup>3</sup> Pa) × (10<sup>−3</sup> m<sup>3</sup>) = Pa × m<sup>3</sup> = J": "",
+    // The ideal gas equation > table > th
+    "dm<sup>3</sup>": "dm<sup>3</sup>",
+
+    // The ideal gas equation > table > td
+    "kPa × dm<sup>3</sup> = (10<sup>3</sup> Pa) × (10<sup>−3</sup> m<sup>3</sup>) = Pa × m<sup>3</sup> = J": "kPa × dm<sup>3</sup> = (10<sup>3</sup> Pa) × (10<sup>−3</sup> m<sup>3</sup>) = Pa × m<sup>3</sup> = J",
 
     // The ideal gas equation > p
-    "In the second set the factor of 1000 in kPa cancels the factor of 1/1000 in dm<sup>3</sup>. Both sets give the same answer. Choose one set and convert everything into it before you substitute.": "",
+    "In the second set the factor of 1000 in kPa cancels the factor of 1/1000 in dm<sup>3</sup>. Both sets give the same answer. Choose one set and convert everything into it before you substitute.": "두 번째 조합에서는 kPa의 1000배가 dm<sup>3</sup>의 1/1000배와 상쇄돼요. 두 조합은 같은 답을 줘요. 한 조합을 골라서, 대입하기 전에 모든 값을 그 단위로 바꾸세요.",
 
     // The ideal gas equation > table > caption
-    "Conversions you will use every time": "",
+    "Conversions you will use every time": "매번 쓰는 단위 변환",
 
     // The ideal gas equation > table > th
-    "From": "",
+    "From": "변환 전",
 
     // The ideal gas equation > table > th
-    "To": "",
+    "To": "변환 후",
 
     // The ideal gas equation > table > th
-    "Do this": "",
+    "Do this": "방법",
 
     // The ideal gas equation > table > th
-    "Example": "",
+    "Example": "예",
 
     // The ideal gas equation > table > td
-    "add 273.15": "",
+    "add 273.15": "273.15를 더함",
 
     // The ideal gas equation > table > th
-    "cm<sup>3</sup>": "",
+    "cm<sup>3</sup>": "cm<sup>3</sup>",
 
     // The ideal gas equation > table > td
-    "divide by 1000": "",
+    "divide by 1000": "1000으로 나눔",
 
     // The ideal gas equation > table > td
-    "250 cm<sup>3</sup> = 0.250 dm<sup>3</sup>": "",
+    "250 cm<sup>3</sup> = 0.250 dm<sup>3</sup>": "250 cm<sup>3</sup> = 0.250 dm<sup>3</sup>",
 
     // The ideal gas equation > table > td
-    "2.50 dm<sup>3</sup> = 2.50 × 10<sup>−3</sup> m<sup>3</sup>": "",
+    "2.50 dm<sup>3</sup> = 2.50 × 10<sup>−3</sup> m<sup>3</sup>": "2.50 dm<sup>3</sup> = 2.50 × 10<sup>−3</sup> m<sup>3</sup>",
 
     // The ideal gas equation > table > td
-    "divide by 1 000 000": "",
+    "divide by 1 000 000": "1 000 000으로 나눔",
 
     // The ideal gas equation > table > td
-    "250 cm<sup>3</sup> = 2.50 × 10<sup>−4</sup> m<sup>3</sup>": "",
+    "250 cm<sup>3</sup> = 2.50 × 10<sup>−4</sup> m<sup>3</sup>": "250 cm<sup>3</sup> = 2.50 × 10<sup>−4</sup> m<sup>3</sup>",
 
     // The ideal gas equation > table > td
-    "multiply by 1000": "",
+    "multiply by 1000": "1000을 곱함",
 
     // The ideal gas equation > table > td
-    "101 kPa = 1.01 × 10<sup>5</sup> Pa": "",
+    "101 kPa = 1.01 × 10<sup>5</sup> Pa": "101 kPa = 1.01 × 10<sup>5</sup> Pa",
 
     // The ideal gas equation > li
-    "List what you know (<i>P</i>, <i>V</i>, <i>n</i>, <i>T</i>) and mark the unknown.": "",
+    "List what you know (<i>P</i>, <i>V</i>, <i>n</i>, <i>T</i>) and mark the unknown.": "아는 값(<i>P</i>, <i>V</i>, <i>n</i>, <i>T</i>)을 적고 모르는 값을 표시해요.",
 
     // The ideal gas equation > li
-    "Convert: <i>T</i> to K. Then either <i>P</i> to kPa and <i>V</i> to dm<sup>3</sup>, or <i>P</i> to Pa and <i>V</i> to m<sup>3</sup>.": "",
+    "Convert: <i>T</i> to K. Then either <i>P</i> to kPa and <i>V</i> to dm<sup>3</sup>, or <i>P</i> to Pa and <i>V</i> to m<sup>3</sup>.": "단위 바꾸기: <i>T</i>는 K로. 그다음 <i>P</i>는 kPa, <i>V</i>는 dm<sup>3</sup>로 바꾸거나, <i>P</i>는 Pa, <i>V</i>는 m<sup>3</sup>로 바꿔요.",
 
     // The ideal gas equation > li
-    "If you have a mass instead of an amount, use <i>n</i> = <i>m</i> ÷ <i>M</i> (from Structure 1.4).": "",
+    "If you have a mass instead of an amount, use <i>n</i> = <i>m</i> ÷ <i>M</i> (from Structure 1.4).": "물질의 양 대신 질량이 주어지면 <i>n</i> = <i>m</i> ÷ <i>M</i>을 써요(Structure 1.4).",
 
     // The ideal gas equation > li
-    "Rearrange <i>PV</i> = <i>nRT</i> for the unknown before you put numbers in.": "",
+    "Rearrange <i>PV</i> = <i>nRT</i> for the unknown before you put numbers in.": "숫자를 넣기 전에 <i>PV</i> = <i>nRT</i>를 모르는 값에 대해 정리해요.",
 
     // The ideal gas equation > li
-    "Substitute with units, calculate, and round at the end.": "",
+    "Substitute with units, calculate, and round at the end.": "단위와 함께 대입하고, 계산한 다음, 마지막에 반올림해요.",
 
     // The ideal gas equation > table > caption
-    "PV = nRT rearranged for each variable": "",
+    "PV = nRT rearranged for each variable": "각 변수에 대해 정리한 PV = nRT",
 
     // The ideal gas equation > table > th
-    "To find": "",
+    "To find": "구하는 값",
 
     // The ideal gas equation > table > th
-    "Use": "",
-
-    // The ideal gas equation > table > th
-    // widget string (assets/js/widgets-s1-5.js)
-    "pressure": "",
-
-    // The ideal gas equation > table > td
-    "<i>P</i> = <i>nRT</i> ÷ <i>V</i>": "",
+    "Use": "쓰는 식",
 
     // The ideal gas equation > table > th
     // widget string (assets/js/widgets-s1-5.js)
-    "volume": "",
+    "pressure": "압력",
 
     // The ideal gas equation > table > td
-    "<i>V</i> = <i>nRT</i> ÷ <i>P</i>": "",
+    "<i>P</i> = <i>nRT</i> ÷ <i>V</i>": "<i>P</i> = <i>nRT</i> ÷ <i>V</i>",
 
     // The ideal gas equation > table > th
     // widget string (assets/js/widgets-s1-5.js)
-    "amount": "",
+    "volume": "부피",
 
     // The ideal gas equation > table > td
-    "<i>n</i> = <i>PV</i> ÷ <i>RT</i>": "",
+    "<i>V</i> = <i>nRT</i> ÷ <i>P</i>": "<i>V</i> = <i>nRT</i> ÷ <i>P</i>",
 
     // The ideal gas equation > table > th
     // widget string (assets/js/widgets-s1-5.js)
-    "temperature": "",
+    "amount": "물질의 양",
 
     // The ideal gas equation > table > td
-    "<i>T</i> = <i>PV</i> ÷ <i>nR</i>": "",
+    "<i>n</i> = <i>PV</i> ÷ <i>RT</i>": "<i>n</i> = <i>PV</i> ÷ <i>RT</i>",
+
+    // The ideal gas equation > table > th
+    // widget string (assets/js/widgets-s1-5.js)
+    "temperature": "온도",
+
+    // The ideal gas equation > table > td
+    "<i>T</i> = <i>PV</i> ÷ <i>nR</i>": "<i>T</i> = <i>PV</i> ÷ <i>nR</i>",
 
     // The ideal gas equation > widget > data-title attribute
-    "PV = nRT solver with unit coach": "",
+    "PV = nRT solver with unit coach": "단위 코치가 있는 PV = nRT 계산기",
 
     // The ideal gas equation > widget > figcaption
-    "Choose what to find, type the values in the units the question gives, and read the working from top to bottom: conversions first, then the rearrangement, then the substitution. Use it to check your own working, not to replace it.": "",
+    "Choose what to find, type the values in the units the question gives, and read the working from top to bottom: conversions first, then the rearrangement, then the substitution. Use it to check your own working, not to replace it.": "구할 값을 고르고, 문제에 주어진 단위 그대로 값을 입력한 다음, 풀이를 위에서 아래로 읽어 보세요: 먼저 단위 변환, 다음 식 정리, 그다음 대입이에요. 내 풀이를 대신하는 데가 아니라 확인하는 데 쓰세요.",
 
     // The ideal gas equation > worked example > h3
-    "Finding a volume with kPa and dm³": "",
+    "Finding a volume with kPa and dm³": "kPa와 dm³로 부피 구하기",
 
     // The ideal gas equation > worked example > p
-    "Calculate the volume, in dm<sup>3</sup>, occupied by 0.150 mol of carbon dioxide at 25.0 °C and 98.5 kPa.": "",
+    "Calculate the volume, in dm<sup>3</sup>, occupied by 0.150 mol of carbon dioxide at 25.0 °C and 98.5 kPa.": "25.0 °C, 98.5 kPa에서 이산화 탄소 0.150 mol이 차지하는 부피를 dm<sup>3</sup> 단위로 계산하시오 (calculate).",
 
     // The ideal gas equation > worked example > data-title attribute
-    "List and convert": "",
+    "List and convert": "적고 단위 바꾸기",
 
     // The ideal gas equation > worked example > p
-    "The pressure is already in kPa, so the answer will come out in dm<sup>3</sup>. Only the temperature needs converting.": "",
+    "The pressure is already in kPa, so the answer will come out in dm<sup>3</sup>. Only the temperature needs converting.": "압력이 이미 kPa이므로 답은 dm<sup>3</sup>로 나와요. 온도만 바꾸면 돼요.",
 
     // The ideal gas equation > worked example > data-title attribute
-    "Rearrange for V": "",
+    "Rearrange for V": "V에 대해 정리하기",
 
     // The ideal gas equation > worked example > p
-    "Divide both sides of <i>PV</i> = <i>nRT</i> by <i>P</i>.": "",
+    "Divide both sides of <i>PV</i> = <i>nRT</i> by <i>P</i>.": "<i>PV</i> = <i>nRT</i>의 양쪽을 <i>P</i>로 나눠요.",
 
     // The ideal gas equation > worked example > p
-    "mol × J K<sup>−1</sup> mol<sup>−1</sup> × K leaves J. Then J ÷ kPa gives dm<sup>3</sup>.": "",
+    "mol × J K<sup>−1</sup> mol<sup>−1</sup> × K leaves J. Then J ÷ kPa gives dm<sup>3</sup>.": "mol × J K<sup>−1</sup> mol<sup>−1</sup> × K는 J가 남아요. 그다음 J ÷ kPa는 dm<sup>3</sup>가 돼요.",
 
     // The ideal gas equation > worked example > p
-    "One mole at STP is 22.7 dm<sup>3</sup>, so 0.150 mol near room conditions should be a few dm<sup>3</sup>. The data have 3 significant figures.": "",
+    "One mole at STP is 22.7 dm<sup>3</sup>, so 0.150 mol near room conditions should be a few dm<sup>3</sup>. The data have 3 significant figures.": "STP에서 1몰은 22.7 dm<sup>3</sup>이므로, 실온 근처에서 0.150 mol은 몇 dm<sup>3</sup> 정도여야 해요. 자료의 유효 숫자는 3자리예요.",
 
     // The ideal gas equation > worked example > p
-    "3.77 dm<sup>3</sup>": "",
+    "3.77 dm<sup>3</sup>": "3.77 dm<sup>3</sup>",
 
     // The ideal gas equation > worked example > h3
-    "Finding an amount, then a mass, with Pa and m³": "",
+    "Finding an amount, then a mass, with Pa and m³": "Pa와 m³로 물질의 양을 구한 다음 질량 구하기",
 
     // The ideal gas equation > worked example > p
-    "A 2.50 dm<sup>3</sup> flask contains oxygen gas, O<sub>2</sub>, at 27.0 °C and 150 kPa. Calculate the mass of oxygen in the flask.": "",
+    "A 2.50 dm<sup>3</sup> flask contains oxygen gas, O<sub>2</sub>, at 27.0 °C and 150 kPa. Calculate the mass of oxygen in the flask.": "2.50 dm<sup>3</sup> 플라스크에 27.0 °C, 150 kPa의 산소 기체 O<sub>2</sub>가 들어 있어요. 플라스크 안 산소의 질량을 계산하시오 (calculate).",
 
     // The ideal gas equation > worked example > data-title attribute
-    "Convert to Pa, m³ and K": "",
+    "Convert to Pa, m³ and K": "Pa, m³, K로 바꾸기",
 
     // The ideal gas equation > worked example > p
-    "This example uses the SI base set to show that it gives the same kind of answer. You could also keep kPa and dm<sup>3</sup>.": "",
+    "This example uses the SI base set to show that it gives the same kind of answer. You could also keep kPa and dm<sup>3</sup>.": "이 예제는 SI 기본 단위 조합을 써도 같은 답이 나온다는 것을 보여 줘요. kPa와 dm<sup>3</sup>를 그대로 써도 돼요.",
 
     // The ideal gas equation > worked example > data-title attribute
-    "Rearrange for n": "",
+    "Rearrange for n": "n에 대해 정리하기",
 
     // The ideal gas equation > worked example > p
-    "You need the amount before you can find a mass. Divide both sides by <i>RT</i>.": "",
+    "You need the amount before you can find a mass. Divide both sides by <i>RT</i>.": "질량을 구하려면 먼저 물질의 양이 필요해요. 양쪽을 <i>RT</i>로 나눠요.",
 
     // The ideal gas equation > worked example > p
-    "Pa × m<sup>3</sup> = J on top. J K<sup>−1</sup> mol<sup>−1</sup> × K = J mol<sup>−1</sup> underneath. J ÷ J mol<sup>−1</sup> leaves mol.": "",
+    "Pa × m<sup>3</sup> = J on top. J K<sup>−1</sup> mol<sup>−1</sup> × K = J mol<sup>−1</sup> underneath. J ÷ J mol<sup>−1</sup> leaves mol.": "분자는 Pa × m<sup>3</sup> = J. 분모는 J K<sup>−1</sup> mol<sup>−1</sup> × K = J mol<sup>−1</sup>. J ÷ J mol<sup>−1</sup>은 mol이 남아요.",
 
     // The ideal gas equation > worked example > data-title attribute
-    "Convert amount to mass": "",
+    "Convert amount to mass": "물질의 양을 질량으로 바꾸기",
 
     // The ideal gas equation > worked example > p
-    "Oxygen gas is O<sub>2</sub>, so <i>M</i> = 2 × 16.00 = 32.00 g mol<sup>−1</sup>. Keep the unrounded value of <i>n</i> in your calculator.": "",
+    "Oxygen gas is O<sub>2</sub>, so <i>M</i> = 2 × 16.00 = 32.00 g mol<sup>−1</sup>. Keep the unrounded value of <i>n</i> in your calculator.": "산소 기체는 O<sub>2</sub>이므로 <i>M</i> = 2 × 16.00 = 32.00 g mol<sup>−1</sup>이에요. 계산기에는 반올림하지 않은 <i>n</i> 값을 그대로 두세요.",
 
     // The ideal gas equation > worked example > p
-    "The data have 3 significant figures.": "",
+    "The data have 3 significant figures.": "자료의 유효 숫자는 3자리예요.",
 
     // The ideal gas equation > worked example > p
-    "4.81 g of O<sub>2</sub>": "",
+    "4.81 g of O<sub>2</sub>": "O<sub>2</sub> 4.81 g",
 
     // The ideal gas equation > try it > p
-    "Calculate the pressure, in kPa, of 0.250 mol of gas in a 5.00 dm<sup>3</sup> container at 30.0 °C.": "",
+    "Calculate the pressure, in kPa, of 0.250 mol of gas in a 5.00 dm<sup>3</sup> container at 30.0 °C.": "30.0 °C에서 5.00 dm<sup>3</sup> 용기에 들어 있는 기체 0.250 mol의 압력을 kPa 단위로 계산하시오 (calculate).",
 
     // The ideal gas equation > try it > li
-    "The volume is in dm<sup>3</sup>, so the pressure will come out in kPa. Convert the temperature to kelvin.": "",
+    "The volume is in dm<sup>3</sup>, so the pressure will come out in kPa. Convert the temperature to kelvin.": "부피가 dm<sup>3</sup>이므로 압력은 kPa로 나와요. 온도를 켈빈으로 바꿔요.",
 
     // The ideal gas equation > try it > li
-    "<i>P</i> = <i>nRT</i> ÷ <i>V</i> = <span class=\"mono\">(0.250 × 8.31 × 303.15) ÷ 5.00</span>.": "",
+    "<i>P</i> = <i>nRT</i> ÷ <i>V</i> = <span class=\"mono\">(0.250 × 8.31 × 303.15) ÷ 5.00</span>.": "<i>P</i> = <i>nRT</i> ÷ <i>V</i> = <span class=\"mono\">(0.250 × 8.31 × 303.15) ÷ 5.00</span>.",
 
     // The ideal gas equation > try it > p
-    "To 3 significant figures: <strong>126 kPa</strong>.": "",
+    "To 3 significant figures: <strong>126 kPa</strong>.": "유효 숫자 3자리로: <strong>126 kPa</strong>.",
 
     // The ideal gas equation > try it > p
-    "0.100 mol of gas occupies 2.00 dm<sup>3</sup> at a pressure of 150 kPa. Calculate the temperature of the gas, in K.": "",
+    "0.100 mol of gas occupies 2.00 dm<sup>3</sup> at a pressure of 150 kPa. Calculate the temperature of the gas, in K.": "기체 0.100 mol이 150 kPa의 압력에서 2.00 dm<sup>3</sup>를 차지해요. 이 기체의 온도를 K 단위로 계산하시오 (calculate).",
 
     // The ideal gas equation > try it > li
-    "kPa and dm<sup>3</sup> already match, so no conversion is needed. Rearrange <i>PV</i> = <i>nRT</i> for <i>T</i>.": "",
+    "kPa and dm<sup>3</sup> already match, so no conversion is needed. Rearrange <i>PV</i> = <i>nRT</i> for <i>T</i>.": "kPa와 dm<sup>3</sup>가 이미 짝이 맞으므로 단위를 바꿀 필요가 없어요. <i>PV</i> = <i>nRT</i>를 <i>T</i>에 대해 정리해요.",
 
     // The ideal gas equation > try it > li
-    "<i>T</i> = <i>PV</i> ÷ <i>nR</i> = <span class=\"mono\">(150 × 2.00) ÷ (0.100 × 8.31)</span>.": "",
+    "<i>T</i> = <i>PV</i> ÷ <i>nR</i> = <span class=\"mono\">(150 × 2.00) ÷ (0.100 × 8.31)</span>.": "<i>T</i> = <i>PV</i> ÷ <i>nR</i> = <span class=\"mono\">(150 × 2.00) ÷ (0.100 × 8.31)</span>.",
 
     // The ideal gas equation > try it > p
-    "To 3 significant figures: <strong>361 K</strong>. The equation always gives temperature in kelvin.": "",
+    "To 3 significant figures: <strong>361 K</strong>. The equation always gives temperature in kelvin.": "유효 숫자 3자리로: <strong>361 K</strong>. 이 식으로 구한 온도는 항상 켈빈 단위예요.",
 
     // The ideal gas equation > try it > p
-    "A gas syringe holds 250 cm<sup>3</sup> of methane, CH<sub>4</sub>, at 18.0 °C and 102 kPa. Calculate the mass of methane, in g.": "",
+    "A gas syringe holds 250 cm<sup>3</sup> of methane, CH<sub>4</sub>, at 18.0 °C and 102 kPa. Calculate the mass of methane, in g.": "기체 주사기에 18.0 °C, 102 kPa의 메테인 CH<sub>4</sub> 250 cm<sup>3</sup>가 들어 있어요. 메테인의 질량을 g 단위로 계산하시오 (calculate).",
 
     // The ideal gas equation > try it > li
-    "Two conversions are needed before you start: cm<sup>3</sup> to dm<sup>3</sup> and °C to K.": "",
+    "Two conversions are needed before you start: cm<sup>3</sup> to dm<sup>3</sup> and °C to K.": "시작하기 전에 두 가지를 바꿔야 해요: cm<sup>3</sup>를 dm<sup>3</sup>로, °C를 K로.",
 
     // The ideal gas equation > try it > li
-    "<i>n</i> = <i>PV</i> ÷ <i>RT</i> = <span class=\"mono\">(102 × 0.250) ÷ (8.31 × 291.15)</span>. Then <i>m</i> = <i>n</i> × <i>M</i>, with <i>M</i>(CH<sub>4</sub>) = 16.05 g mol<sup>−1</sup>.": "",
+    "<i>n</i> = <i>PV</i> ÷ <i>RT</i> = <span class=\"mono\">(102 × 0.250) ÷ (8.31 × 291.15)</span>. Then <i>m</i> = <i>n</i> × <i>M</i>, with <i>M</i>(CH<sub>4</sub>) = 16.05 g mol<sup>−1</sup>.": "<i>n</i> = <i>PV</i> ÷ <i>RT</i> = <span class=\"mono\">(102 × 0.250) ÷ (8.31 × 291.15)</span>. 그다음 <i>m</i> = <i>n</i> × <i>M</i>이고, <i>M</i>(CH<sub>4</sub>) = 16.05 g mol<sup>−1</sup>이에요.",
 
     // The ideal gas equation > try it > p
-    "To 3 significant figures: <strong>0.169 g</strong>.": "",
+    "To 3 significant figures: <strong>0.169 g</strong>.": "유효 숫자 3자리로: <strong>0.169 g</strong>.",
 
     // The ideal gas equation > common mistake > p
-    "The two classic errors are leaving the temperature in °C, and putting cm<sup>3</sup> straight in with kPa. The first gives an answer that is wildly out. The second is out by exactly 1000. If your amount of gas in a small flask comes out as several moles, check your volume unit.": "",
+    "The two classic errors are leaving the temperature in °C, and putting cm<sup>3</sup> straight in with kPa. The first gives an answer that is wildly out. The second is out by exactly 1000. If your amount of gas in a small flask comes out as several moles, check your volume unit.": "대표적인 실수 두 가지는 온도를 °C 그대로 두는 것과, kPa와 함께 cm<sup>3</sup>를 바로 넣는 것이에요. 첫 번째는 답이 터무니없이 틀려요. 두 번째는 정확히 1000배 틀려요. 작은 플라스크 속 기체의 양이 몇 몰이나 나오면 부피 단위를 확인하세요.",
 
     // The ideal gas equation > exam tip (shown in English + translation) > p
-    "In a 2-mark gas equation question, one mark is usually for correct unit conversions (kelvin, and matching pressure and volume units) and one for the answer. Write the conversions as separate lines so the first mark is safe even if your final answer slips.": "",
+    "In a 2-mark gas equation question, one mark is usually for correct unit conversions (kelvin, and matching pressure and volume units) and one for the answer. Write the conversions as separate lines so the first mark is safe even if your final answer slips.": "2점짜리 기체 방정식 문제에서는 보통 1점은 올바른 단위 변환(켈빈, 그리고 압력과 부피 단위 맞추기)에, 1점은 답에 주어요. 단위 변환을 따로 한 줄씩 쓰면 최종 답이 틀려도 첫 번째 점수는 지킬 수 있어요.",
 
     // The ideal gas equation > not needed for IB > p
-    "IB uses SI units only for pressure and volume, so you will not meet atm, mmHg, bar or litres in gas questions. Partial pressures (Dalton’s law), Graham’s law of effusion and mole fractions are not in the guide at all. If a textbook chapter turns to those, you can stop.": "",
+    "IB uses SI units only for pressure and volume, so you will not meet atm, mmHg, bar or litres in gas questions. Partial pressures (Dalton’s law), Graham’s law of effusion and mole fractions are not in the guide at all. If a textbook chapter turns to those, you can stop.": "IB는 압력과 부피에 SI 단위만 써요. 그래서 기체 문제에서 atm, mmHg, bar, 리터는 나오지 않아요. 부분 압력(돌턴 법칙), 그레이엄의 분출 법칙, 몰 분율은 지침에 전혀 없어요. 교과서 단원이 이런 내용으로 넘어가면 거기서 멈춰도 돼요.",
 
     // The ideal gas equation > data-title attribute
-    "PV = nRT: quick check": "",
+    "PV = nRT: quick check": "PV = nRT: 빠른 확인",
 
     // Molar mass of a gas from experimental data > data-toc attribute
-    "Molar mass from gas data": "",
+    "Molar mass from gas data": "기체 자료로 몰 질량 구하기",
 
     // Molar mass of a gas from experimental data > h2
-    "Molar mass of a gas from experimental data": "",
+    "Molar mass of a gas from experimental data": "실험 자료로부터 기체의 몰 질량 구하기",
 
     // Molar mass of a gas from experimental data > p
-    "You have an unknown liquid that evaporates easily (a <dfn data-def=\"A volatile liquid is one that evaporates easily.\">volatile</dfn> liquid). Inject a weighed drop into a warm gas syringe and it turns to vapour. Read the volume, the temperature and the pressure, and you can work out its molar mass.": "",
+    "You have an unknown liquid that evaporates easily (a <dfn data-def=\"A volatile liquid is one that evaporates easily.\">volatile</dfn> liquid). Inject a weighed drop into a warm gas syringe and it turns to vapour. Read the volume, the temperature and the pressure, and you can work out its molar mass.": "쉽게 증발하는 미지의 액체(<dfn data-def=\"휘발성 액체는 쉽게 증발하는 액체예요.\">휘발성 <span class=\"en-term\">(volatile)</span></dfn> 액체)가 있어요. 질량을 잰 한 방울을 따뜻한 기체 주사기에 주입하면 증기로 바뀌어요. 부피, 온도, 압력을 읽으면 몰 질량을 구할 수 있어요.",
 
     // Molar mass of a gas from experimental data > data-def attribute
-    "A volatile liquid is one that evaporates easily.": "",
+    "A volatile liquid is one that evaporates easily.": "휘발성 액체는 쉽게 증발하는 액체예요.",
 
     // Molar mass of a gas from experimental data > p
-    "The idea has two links. The gas equation gives the amount, <i>n</i>. Then molar mass is mass divided by amount.": "",
+    "The idea has two links. The gas equation gives the amount, <i>n</i>. Then molar mass is mass divided by amount.": "이 방법은 두 단계로 이어져요. 기체 방정식으로 물질의 양 <i>n</i>을 구해요. 그다음 몰 질량은 질량을 물질의 양으로 나눈 값이에요.",
 
     // Molar mass of a gas from experimental data > equation > dd
-    "molar mass <span class=\"unit\">g mol-1</span>": "",
+    "molar mass <span class=\"unit\">g mol-1</span>": "몰 질량 <span class=\"unit\">g mol-1</span>",
 
     // Molar mass of a gas from experimental data > equation > dd
-    "mass of the gas sample <span class=\"unit\">g</span>": "",
+    "mass of the gas sample <span class=\"unit\">g</span>": "기체 시료의 질량 <span class=\"unit\">g</span>",
 
     // Molar mass of a gas from experimental data > equation > dd
-    "amount of gas, from <i>n</i> = <i>PV</i> ÷ <i>RT</i> <span class=\"unit\">mol</span>": "",
+    "amount of gas, from <i>n</i> = <i>PV</i> ÷ <i>RT</i> <span class=\"unit\">mol</span>": "기체의 양, <i>n</i> = <i>PV</i> ÷ <i>RT</i>로 구함 <span class=\"unit\">mol</span>",
 
     // Molar mass of a gas from experimental data > equation > dd
-    "pressure <span class=\"unit\">kPa</span>": "",
+    "pressure <span class=\"unit\">kPa</span>": "압력 <span class=\"unit\">kPa</span>",
 
     // Molar mass of a gas from experimental data > equation > dd
-    "volume <span class=\"unit\">dm3</span>": "",
+    "volume <span class=\"unit\">dm3</span>": "부피 <span class=\"unit\">dm3</span>",
 
     // Molar mass of a gas from experimental data > p
-    "The combined form <i>M</i> = <i>mRT</i> ÷ <i>PV</i> is not in the data booklet. You do not need to memorise it. Working in two steps (find <i>n</i>, then <i>M</i> = <i>m</i> ÷ <i>n</i>) is safer and shows your method.": "",
+    "The combined form <i>M</i> = <i>mRT</i> ÷ <i>PV</i> is not in the data booklet. You do not need to memorise it. Working in two steps (find <i>n</i>, then <i>M</i> = <i>m</i> ÷ <i>n</i>) is safer and shows your method.": "합친 식 <i>M</i> = <i>mRT</i> ÷ <i>PV</i>는 데이터 부클릿에 없어요. 외울 필요는 없어요. 두 단계로 푸는 것(<i>n</i>을 구한 다음 <i>M</i> = <i>m</i> ÷ <i>n</i>)이 더 안전하고 풀이 방법도 잘 보여 줘요.",
 
     // Molar mass of a gas from experimental data > li
-    "Convert <i>T</i> to K, and <i>P</i> and <i>V</i> to a matching pair (kPa with dm<sup>3</sup>).": "",
+    "Convert <i>T</i> to K, and <i>P</i> and <i>V</i> to a matching pair (kPa with dm<sup>3</sup>).": "<i>T</i>를 K로 바꾸고, <i>P</i>와 <i>V</i>를 짝이 맞는 단위(kPa와 dm<sup>3</sup>)로 바꿔요.",
 
     // Molar mass of a gas from experimental data > li
-    "Find the amount of gas: <i>n</i> = <i>PV</i> ÷ <i>RT</i>.": "",
+    "Find the amount of gas: <i>n</i> = <i>PV</i> ÷ <i>RT</i>.": "기체의 양 구하기: <i>n</i> = <i>PV</i> ÷ <i>RT</i>.",
 
     // Molar mass of a gas from experimental data > li
-    "Find the molar mass: <i>M</i> = <i>m</i> ÷ <i>n</i>, with the mass in g.": "",
+    "Find the molar mass: <i>M</i> = <i>m</i> ÷ <i>n</i>, with the mass in g.": "몰 질량 구하기: <i>M</i> = <i>m</i> ÷ <i>n</i>, 질량은 g 단위로.",
 
     // Molar mass of a gas from experimental data > li
-    "If you also know the empirical formula, divide <i>M</i> by the empirical formula mass to find how many empirical units make one molecule.": "",
+    "If you also know the empirical formula, divide <i>M</i> by the empirical formula mass to find how many empirical units make one molecule.": "실험식도 안다면 <i>M</i>을 실험식량으로 나누어, 분자 하나에 실험식 단위가 몇 개 들어 있는지 구해요.",
 
     // Molar mass of a gas from experimental data > worked example > h3
-    "Molar mass of a volatile liquid": "",
+    "Molar mass of a volatile liquid": "휘발성 액체의 몰 질량",
 
     // Molar mass of a gas from experimental data > worked example > p
-    "0.180 g of a volatile liquid is injected into a gas syringe kept at 100.0 °C. It vaporises completely and the vapour occupies 95.1 cm<sup>3</sup> at 101 kPa. Calculate the molar mass of the liquid.": "",
+    "0.180 g of a volatile liquid is injected into a gas syringe kept at 100.0 °C. It vaporises completely and the vapour occupies 95.1 cm<sup>3</sup> at 101 kPa. Calculate the molar mass of the liquid.": "휘발성 액체 0.180 g을 100.0 °C로 유지한 기체 주사기에 주입해요. 액체는 완전히 기화하고, 증기는 101 kPa에서 95.1 cm<sup>3</sup>를 차지해요. 이 액체의 몰 질량을 계산하시오 (calculate).",
 
     // Molar mass of a gas from experimental data > worked example > data-title attribute
-    "Convert the units": "",
+    "Convert the units": "단위 바꾸기",
 
     // Molar mass of a gas from experimental data > worked example > p
-    "With the pressure in kPa, the volume must be in dm<sup>3</sup>. The temperature must be in kelvin.": "",
+    "With the pressure in kPa, the volume must be in dm<sup>3</sup>. The temperature must be in kelvin.": "압력이 kPa이면 부피는 dm<sup>3</sup>여야 해요. 온도는 켈빈이어야 해요.",
 
     // Molar mass of a gas from experimental data > worked example > data-title attribute
-    "Find the amount of vapour": "",
+    "Find the amount of vapour": "증기의 양 구하기",
 
     // Molar mass of a gas from experimental data > worked example > p
-    "The gas equation counts the moles of vapour without needing to know what the substance is.": "",
+    "The gas equation counts the moles of vapour without needing to know what the substance is.": "기체 방정식을 쓰면 물질이 무엇인지 몰라도 증기의 몰수를 구할 수 있어요.",
 
     // Molar mass of a gas from experimental data > worked example > data-title attribute
-    "Divide mass by amount": "",
+    "Divide mass by amount": "질량을 물질의 양으로 나누기",
 
     // Molar mass of a gas from experimental data > worked example > p
-    "Molar mass is the mass of one mole, so it is grams divided by moles.": "",
+    "Molar mass is the mass of one mole, so it is grams divided by moles.": "몰 질량은 1몰의 질량이므로, 그램을 몰로 나눈 값이에요.",
 
     // Molar mass of a gas from experimental data > worked example > p
-    "The mass, volume and pressure have 3 significant figures.": "",
+    "The mass, volume and pressure have 3 significant figures.": "질량, 부피, 압력의 유효 숫자는 3자리예요.",
 
     // Molar mass of a gas from experimental data > worked example > p
-    "58.1 g mol<sup>−1</sup>": "",
+    "58.1 g mol<sup>−1</sup>": "58.1 g mol<sup>−1</sup>",
 
     // Molar mass of a gas from experimental data > worked example > h3
-    "From percentage composition and gas data to a molecular formula": "",
+    "From percentage composition and gas data to a molecular formula": "질량 백분율 조성과 기체 자료로 분자식 구하기",
 
     // Molar mass of a gas from experimental data > worked example > p
-    "A hydrocarbon contains 85.6 % carbon and 14.4 % hydrogen by mass. A 0.500 g sample of the gas occupies 221 cm<sup>3</sup> at 25.0 °C and 100 kPa. Determine the molecular formula of the hydrocarbon.": "",
+    "A hydrocarbon contains 85.6 % carbon and 14.4 % hydrogen by mass. A 0.500 g sample of the gas occupies 221 cm<sup>3</sup> at 25.0 °C and 100 kPa. Determine the molecular formula of the hydrocarbon.": "어떤 탄화수소는 질량으로 탄소 85.6 %, 수소 14.4 %를 포함해요. 이 기체 0.500 g이 25.0 °C, 100 kPa에서 221 cm<sup>3</sup>를 차지해요. 이 탄화수소의 분자식을 구하시오 (determine).",
 
     // Molar mass of a gas from experimental data > worked example > data-title attribute
-    "Find the empirical formula": "",
+    "Find the empirical formula": "실험식 구하기",
 
     // Molar mass of a gas from experimental data > worked example > p
-    "This is the Structure 1.4 method: imagine 100 g, divide each mass by <i>A</i><sub>r</sub>, then divide by the smallest.": "",
+    "This is the Structure 1.4 method: imagine 100 g, divide each mass by <i>A</i><sub>r</sub>, then divide by the smallest.": "Structure 1.4의 방법이에요: 100 g이 있다고 생각하고, 각 질량을 <i>A</i><sub>r</sub>로 나눈 다음, 가장 작은 값으로 나눠요.",
 
     // Molar mass of a gas from experimental data > worked example > maths line
-    "ratio H : C = 14.25… ÷ 7.127… = 2.00, so the empirical formula is CH<sub>2</sub>": "",
+    "ratio H : C = 14.25… ÷ 7.127… = 2.00, so the empirical formula is CH<sub>2</sub>": "비 H : C = 14.25… ÷ 7.127… = 2.00, 따라서 실험식은 CH<sub>2</sub>",
 
     // Molar mass of a gas from experimental data > worked example > data-title attribute
-    "Convert the gas data": "",
+    "Convert the gas data": "기체 자료의 단위 바꾸기",
 
     // Molar mass of a gas from experimental data > worked example > p
-    "kPa needs dm<sup>3</sup>, and the temperature must be in kelvin.": "",
+    "kPa needs dm<sup>3</sup>, and the temperature must be in kelvin.": "kPa에는 dm<sup>3</sup>가 필요하고, 온도는 켈빈이어야 해요.",
 
     // Molar mass of a gas from experimental data > worked example > data-title attribute
-    "Find the amount of gas": "",
+    "Find the amount of gas": "기체의 양 구하기",
 
     // Molar mass of a gas from experimental data > worked example > p
-    "The conditions are not STP, so use the gas equation, not 22.7.": "",
+    "The conditions are not STP, so use the gas equation, not 22.7.": "조건이 STP가 아니므로 22.7이 아니라 기체 방정식을 써요.",
 
     // Molar mass of a gas from experimental data > worked example > data-title attribute
-    "Find the molar mass": "",
+    "Find the molar mass": "몰 질량 구하기",
 
     // Molar mass of a gas from experimental data > worked example > p
-    "Mass divided by amount.": "",
+    "Mass divided by amount.": "질량을 물질의 양으로 나눠요.",
 
     // Molar mass of a gas from experimental data > worked example > data-title attribute
-    "Compare with the empirical formula mass": "",
+    "Compare with the empirical formula mass": "실험식량과 비교하기",
 
     // Molar mass of a gas from experimental data > worked example > p
-    "The molecular formula is a whole-number multiple of the empirical formula. Experimental data rarely give an exact whole number, so round to the nearest one.": "",
+    "The molecular formula is a whole-number multiple of the empirical formula. Experimental data rarely give an exact whole number, so round to the nearest one.": "분자식은 실험식의 정수배예요. 실험 자료로는 정확한 정수가 나오는 경우가 드물기 때문에 가장 가까운 정수로 반올림해요.",
 
     // Molar mass of a gas from experimental data > worked example > maths line
-    "molecular formula = (CH<sub>2</sub>)<sub>4</sub> = <b>C<sub>4</sub>H<sub>8</sub></b>": "",
+    "molecular formula = (CH<sub>2</sub>)<sub>4</sub> = <b>C<sub>4</sub>H<sub>8</sub></b>": "분자식 = (CH<sub>2</sub>)<sub>4</sub> = <b>C<sub>4</sub>H<sub>8</sub></b>",
 
     // Molar mass of a gas from experimental data > try it > p
-    "1.26 g of a gas occupies 0.750 dm<sup>3</sup> at 20.0 °C and 96.0 kPa. Calculate the molar mass of the gas.": "",
+    "1.26 g of a gas occupies 0.750 dm<sup>3</sup> at 20.0 °C and 96.0 kPa. Calculate the molar mass of the gas.": "기체 1.26 g이 20.0 °C, 96.0 kPa에서 0.750 dm<sup>3</sup>를 차지해요. 이 기체의 몰 질량을 계산하시오 (calculate).",
 
     // Molar mass of a gas from experimental data > try it > li
-    "Find the amount of gas first with <i>n</i> = <i>PV</i> ÷ <i>RT</i>. Remember kelvin.": "",
+    "Find the amount of gas first with <i>n</i> = <i>PV</i> ÷ <i>RT</i>. Remember kelvin.": "먼저 <i>n</i> = <i>PV</i> ÷ <i>RT</i>로 기체의 양을 구해요. 켈빈을 잊지 마세요.",
 
     // Molar mass of a gas from experimental data > try it > li
-    "<i>n</i> = <span class=\"mono\">(96.0 × 0.750) ÷ (8.31 × 293.15)</span>. Then <i>M</i> = 1.26 g ÷ <i>n</i>.": "",
+    "<i>n</i> = <span class=\"mono\">(96.0 × 0.750) ÷ (8.31 × 293.15)</span>. Then <i>M</i> = 1.26 g ÷ <i>n</i>.": "<i>n</i> = <span class=\"mono\">(96.0 × 0.750) ÷ (8.31 × 293.15)</span>. 그다음 <i>M</i> = 1.26 g ÷ <i>n</i>.",
 
     // Molar mass of a gas from experimental data > try it > p
-    "To 3 significant figures: <strong>42.6 g mol<sup>−1</sup></strong>.": "",
+    "To 3 significant figures: <strong>42.6 g mol<sup>−1</sup></strong>.": "유효 숫자 3자리로: <strong>42.6 g mol<sup>−1</sup></strong>.",
 
     // Molar mass of a gas from experimental data > h3
-    "Gas density uses the same idea": "",
+    "Gas density uses the same idea": "기체의 밀도도 같은 생각을 써요",
 
     // Molar mass of a gas from experimental data > p
-    "Density is mass divided by volume. If a question gives the density of a gas, it has given you the mass of a known volume. For example, a density of 1.25 g dm<sup>−3</sup> means 1.25 g occupies 1.00 dm<sup>3</sup>. Put those two values into the method above. There is no new formula to learn.": "",
+    "Density is mass divided by volume. If a question gives the density of a gas, it has given you the mass of a known volume. For example, a density of 1.25 g dm<sup>−3</sup> means 1.25 g occupies 1.00 dm<sup>3</sup>. Put those two values into the method above. There is no new formula to learn.": "밀도는 질량을 부피로 나눈 값이에요. 문제에서 기체의 밀도를 주었다면, 알려진 부피의 질량을 준 것과 같아요. 예를 들어 밀도가 1.25 g dm<sup>−3</sup>이면 1.25 g이 1.00 dm<sup>3</sup>를 차지한다는 뜻이에요. 이 두 값을 위의 방법에 넣으면 돼요. 새로 외울 식은 없어요.",
 
     // Molar mass of a gas from experimental data > exam tip (shown in English + translation) > p
-    "These questions are often chained: empirical formula in one part, molar mass from gas data in the next, molecular formula at the end. Each part is marked with “error carried forward”. If an earlier answer is wrong but you use it correctly afterwards, you still earn the later marks. So keep going, and show every line.": "",
+    "These questions are often chained: empirical formula in one part, molar mass from gas data in the next, molecular formula at the end. Each part is marked with “error carried forward”. If an earlier answer is wrong but you use it correctly afterwards, you still earn the later marks. So keep going, and show every line.": "이런 문제는 여러 문항이 이어지는 경우가 많아요: 한 문항에서 실험식, 다음 문항에서 기체 자료로 몰 질량, 마지막에 분자식을 구해요. 각 문항은 “error carried forward”(앞의 오류 이어 채점) 방식으로 채점해요. 앞의 답이 틀려도 그 답을 뒤에서 올바르게 쓰면 뒤 문항의 점수는 받을 수 있어요. 그러니 멈추지 말고 모든 줄을 써 보이세요.",
 
     // Molar mass of a gas from experimental data > common mistake > p
-    "Do not use 22.7 dm<sup>3</sup> mol<sup>−1</sup> to find the amount unless the gas is at STP. Vapour in a syringe at 100 °C takes up much more space per mole than that.": "",
+    "Do not use 22.7 dm<sup>3</sup> mol<sup>−1</sup> to find the amount unless the gas is at STP. Vapour in a syringe at 100 °C takes up much more space per mole than that.": "기체가 STP에 있지 않으면 물질의 양을 구할 때 22.7 dm<sup>3</sup> mol<sup>−1</sup>을 쓰지 마세요. 100 °C 주사기 속의 증기는 1몰당 그보다 훨씬 많은 공간을 차지해요.",
 
     // Molar mass of a gas from experimental data > data-title attribute
-    "Molar mass from gas data: quick check": "",
+    "Molar mass from gas data: quick check": "기체 자료로 몰 질량 구하기: 빠른 확인",
 
     // Linking it up > h2
-    "Linking it up": "",
+    "Linking it up": "연결해 보기",
 
     // Linking it up > p
-    "The IB guide asks linking questions that connect this topic to others. Short answers to four of them:": "",
+    "The IB guide asks linking questions that connect this topic to others. Short answers to four of them:": "IB 지침에는 이 단원을 다른 단원과 연결하는 연결 질문이 있어요. 그중 네 가지에 대한 짧은 답이에요:",
 
     // Linking it up > h3
-    "Avogadro’s law applies to ideal gases. Under what conditions might a real gas deviate most?": "",
+    "Avogadro’s law applies to ideal gases. Under what conditions might a real gas deviate most?": "아보가드로 법칙은 이상 기체에 적용돼요. 실제 기체는 어떤 조건에서 가장 많이 벗어날까요?",
 
     // Linking it up > p
-    "At low temperature and high pressure. There the particles are slow and close together, so intermolecular forces and the volume of the particles are no longer negligible. Under those conditions, equal volumes of two real gases may not contain exactly equal numbers of molecules.": "",
+    "At low temperature and high pressure. There the particles are slow and close together, so intermolecular forces and the volume of the particles are no longer negligible. Under those conditions, equal volumes of two real gases may not contain exactly equal numbers of molecules.": "낮은 온도와 높은 압력에서요. 이때 입자는 느리고 서로 가까이 있어서, 분자 간 힘과 입자의 부피를 더 이상 무시할 수 없어요. 이런 조건에서는 두 실제 기체가 같은 부피라도 분자 수가 정확히 같지 않을 수 있어요.",
 
     // Linking it up > h3
-    "Under comparable conditions, why do some gases deviate more than others?": "",
+    "Under comparable conditions, why do some gases deviate more than others?": "비슷한 조건에서 왜 어떤 기체는 다른 기체보다 더 많이 벗어날까요?",
 
     // Linking it up > p
-    "Gases whose particles attract each other more strongly deviate more, because the “no intermolecular forces” assumption fits them less well. Larger particles also make the “negligible volume” assumption less accurate. Structure 2.2 explains why some molecules attract more strongly than others.": "",
+    "Gases whose particles attract each other more strongly deviate more, because the “no intermolecular forces” assumption fits them less well. Larger particles also make the “negligible volume” assumption less accurate. Structure 2.2 explains why some molecules attract more strongly than others.": "입자끼리 더 강하게 끌어당기는 기체가 더 많이 벗어나요. “분자 간 힘이 없다”는 가정이 덜 맞기 때문이에요. 입자가 클수록 “부피를 무시할 수 있다”는 가정도 덜 정확해져요. 어떤 분자가 다른 분자보다 더 강하게 끌어당기는 이유는 Structure 2.2에서 설명해요.",
 
     // Linking it up > h3
-    "Graphs can be sketches or accurately plotted points. What are the advantages and limitations of each?": "",
+    "Graphs can be sketches or accurately plotted points. What are the advantages and limitations of each?": "그래프는 개형일 수도 있고 정확하게 찍은 점일 수도 있어요. 각각의 장점과 한계는 무엇일까요?",
 
     // Linking it up > p
-    "A sketch shows the shape of a relationship quickly: curve or line, through the origin or not. It carries no scale, so you cannot read values from it. Plotted data points let you find a gradient or an intercept, judge the scatter and spot anomalous results, and extrapolate (for example to absolute zero). They take longer, and they are only as reliable as the measurements and the range that was measured.": "",
+    "A sketch shows the shape of a relationship quickly: curve or line, through the origin or not. It carries no scale, so you cannot read values from it. Plotted data points let you find a gradient or an intercept, judge the scatter and spot anomalous results, and extrapolate (for example to absolute zero). They take longer, and they are only as reliable as the measurements and the range that was measured.": "개형은 관계의 모양을 빠르게 보여 줘요: 곡선인지 직선인지, 원점을 지나는지 아닌지. 눈금이 없어서 값을 읽을 수는 없어요. 자료 점을 찍으면 기울기나 절편을 구하고, 흩어진 정도를 판단하고, 이상한 결과를 찾고, 외삽(예를 들어 절대 영도까지)할 수 있어요. 시간이 더 걸리고, 측정값과 측정한 범위만큼만 믿을 수 있어요.",
 
     // Linking it up > h3
-    "How can the ideal gas law be used to find the molar mass of a gas from experimental data?": "",
+    "How can the ideal gas law be used to find the molar mass of a gas from experimental data?": "이상 기체 법칙을 이용해 실험 자료로부터 기체의 몰 질량을 어떻게 구할 수 있을까요?",
 
     // Linking it up > p
-    "Measure the mass, pressure, volume and temperature of a gas sample. Use <i>n</i> = <i>PV</i> ÷ <i>RT</i> to find the amount, then <i>M</i> = <i>m</i> ÷ <i>n</i>. The result assumes the gas behaves ideally, so it is most accurate at high temperature and low pressure.": "",
+    "Measure the mass, pressure, volume and temperature of a gas sample. Use <i>n</i> = <i>PV</i> ÷ <i>RT</i> to find the amount, then <i>M</i> = <i>m</i> ÷ <i>n</i>. The result assumes the gas behaves ideally, so it is most accurate at high temperature and low pressure.": "기체 시료의 질량, 압력, 부피, 온도를 측정해요. <i>n</i> = <i>PV</i> ÷ <i>RT</i>로 물질의 양을 구한 다음 <i>M</i> = <i>m</i> ÷ <i>n</i>을 구해요. 이 결과는 기체가 이상적으로 행동한다고 가정한 것이므로, 높은 온도와 낮은 압력에서 가장 정확해요.",
 
     // Exam-style practice > h2
-    "Exam-style practice": "",
+    "Exam-style practice": "시험 유형 연습",
 
     // Exam-style practice > p
-    "Three sets, from first steps to stretch. All questions are original and stay inside the syllabus. Have your data booklet and calculator ready.": "",
+    "Three sets, from first steps to stretch. All questions are original and stay inside the syllabus. Have your data booklet and calculator ready.": "첫걸음부터 도전까지 3세트예요. 모든 문제는 새로 만든 것이고 교수요목 범위 안에 있어요. 데이터 부클릿과 계산기를 준비하세요.",
 
     // Exam-style practice > h3
-    "Foundation: one idea at a time": "",
+    "Foundation: one idea at a time": "기초: 한 번에 한 개념씩",
 
     // Exam-style practice > data-title attribute
-    "1.5 foundation": "",
+    "1.5 foundation": "1.5 기초",
 
     // Exam-style practice > h3
-    "Exam standard": "",
+    "Exam standard": "시험 수준",
 
     // Exam-style practice > data-title attribute
-    "1.5 exam standard": "",
+    "1.5 exam standard": "1.5 시험 수준",
 
     // Exam-style practice > h3
-    "Challenge: multi-step and unfamiliar contexts": "",
+    "Challenge: multi-step and unfamiliar contexts": "도전: 여러 단계와 낯선 상황",
 
     // Exam-style practice > data-title attribute
-    "1.5 challenge": "",
+    "1.5 challenge": "1.5 도전",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Temperature and amount are held constant. Move the volume slider.": "",
+    "Temperature and amount are held constant. Move the volume slider.": "온도와 물질의 양이 일정해요. 부피 슬라이더를 움직여 보세요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Volume and amount are held constant (a rigid container). Move the temperature slider.": "",
+    "Volume and amount are held constant (a rigid container). Move the temperature slider.": "부피와 물질의 양이 일정해요(단단한 용기). 온도 슬라이더를 움직여 보세요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Pressure is held at {P} kPa and the amount at {n} mol. The piston is free to move. Move the temperature slider.": "",
+    "Pressure is held at {P} kPa and the amount at {n} mol. The piston is free to move. Move the temperature slider.": "압력은 {P} kPa, 물질의 양은 {n} mol로 일정해요. 피스톤은 자유롭게 움직여요. 온도 슬라이더를 움직여 보세요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Experiment": "",
+    "Experiment": "실험",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "P against V (T and n constant)": "",
+    "P against V (T and n constant)": "P–V (T, n 일정)",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "P against T (V and n constant)": "",
+    "P against T (V and n constant)": "P–T (V, n 일정)",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "V against T (P and n constant)": "",
+    "V against T (P and n constant)": "V–T (P, n 일정)",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Temperature, T": "",
+    "Temperature, T": "온도, T",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Volume, V": "",
+    "Volume, V": "부피, V",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Amount of gas, n": "",
+    "Amount of gas, n": "기체의 양, n",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Pause particles": "",
+    "Pause particles": "입자 멈추기",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Run the experiment": "",
+    "Run the experiment": "실험 실행",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Clear graph": "",
+    "Clear graph": "그래프 지우기",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Pressure, P": "",
+    "Pressure, P": "압력, P",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Amount, n": "",
+    "Amount, n": "물질의 양, n",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "PV ÷ nT": "",
+    "PV ÷ nT": "PV ÷ nT",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "This experiment": "",
+    "This experiment": "이 실험",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Left: a cylinder of gas particles closed by a piston. Right: a graph of the two variables in the chosen experiment, traced as you move the slider. All values are in the readout below.": "",
+    "Left: a cylinder of gas particles closed by a piston. Right: a graph of the two variables in the chosen experiment, traced as you move the slider. All values are in the readout below.": "왼쪽: 피스톤으로 막힌 실린더 속 기체 입자. 오른쪽: 고른 실험의 두 변수 그래프로, 슬라이더를 움직이면 그려져요. 모든 값은 아래 표시창에 있어요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "volume / {unit}": "",
+    "volume / {unit}": "부피 / {unit}",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Model of the gas": "",
+    "Model of the gas": "기체 모형",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "piston": "",
+    "piston": "피스톤",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "extrapolated to {T} K": "",
+    "extrapolated to {T} K": "{T} K까지 외삽",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Play particles": "",
+    "Play particles": "입자 움직이기",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "The grey line is your previous run.": "",
+    "The grey line is your previous run.": "회색 선은 이전 실행 결과예요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "a curve that falls steeply at first and then levels off, never touching either axis": "",
+    "a curve that falls steeply at first and then levels off, never touching either axis": "처음에는 가파르게 내려가다가 점점 평평해지며, 두 축 어디에도 닿지 않는 곡선",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "a straight line through the origin": "",
+    "a straight line through the origin": "원점을 지나는 직선",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "a straight line that does not pass through the origin; extended back, it meets the horizontal axis at a negative value": "",
+    "a straight line that does not pass through the origin; extended back, it meets the horizontal axis at a negative value": "원점을 지나지 않는 직선. 뒤로 늘이면 가로축과 음의 값에서 만남",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "a horizontal straight line": "",
+    "a horizontal straight line": "수평인 직선",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "T and n constant": "",
+    "T and n constant": "T, n 일정",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "P is inversely proportional to V. Doubling V halves P.": "",
+    "P is inversely proportional to V. Doubling V halves P.": "P는 V에 반비례해요. V를 2배로 하면 P는 절반이 돼요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "P is directly proportional to 1/V, so this plot turns the curve into a straight line.": "",
+    "P is directly proportional to 1/V, so this plot turns the curve into a straight line.": "P는 1/V에 비례하므로, 이렇게 그리면 곡선이 직선이 돼요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "P and n constant": "",
+    "P and n constant": "P, n 일정",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "V is directly proportional to T in kelvin. Zero volume would be reached at 0 K.": "",
+    "V is directly proportional to T in kelvin. Zero volume would be reached at 0 K.": "V는 켈빈 온도 T에 비례해요. 0 K에서 부피가 0이 될 거예요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Still a straight line, but 0 °C is not zero on the kelvin scale. Extended back, the line reaches V = 0 at {T} °C.": "",
+    "Still a straight line, but 0 °C is not zero on the kelvin scale. Extended back, the line reaches V = 0 at {T} °C.": "여전히 직선이지만, 0 °C는 켈빈 눈금에서 0이 아니에요. 뒤로 늘이면 직선은 {T} °C에서 V = 0에 닿아요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "V and n constant": "",
+    "V and n constant": "V, n 일정",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "P is directly proportional to T in kelvin.": "",
+    "P is directly proportional to T in kelvin.": "P는 켈빈 온도 T에 비례해요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "PV = nRT. With n and T fixed, PV stays the same whatever the pressure.": "",
+    "PV = nRT. With n and T fixed, PV stays the same whatever the pressure.": "PV = nRT. n과 T가 일정하면 압력이 얼마이든 PV는 변하지 않아요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Sketch graph of {y} against {x}: {shape}": "",
+    "Sketch graph of {y} against {x}: {shape}": "{y}–{x} 그래프 개형: {shape}",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Sketch graph: {shape}": "",
+    "Sketch graph: {shape}": "그래프 개형: {shape}",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "negative": "",
+    "negative": "음수",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Matching exercise": "",
+    "Matching exercise": "짝짓기 연습",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "{y} against {x}": "",
+    "{y} against {x}": "{y}–{x}",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Shape {letter}": "",
+    "Shape {letter}": "모양 {letter}",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Each relationship below is for a fixed mass of an ideal gas. Choose the shape of its graph. A shape can be used more than once.": "",
+    "Each relationship below is for a fixed mass of an ideal gas. Choose the shape of its graph. A shape can be used more than once.": "아래의 각 관계는 일정한 질량의 이상 기체에 대한 것이에요. 그래프의 모양을 고르세요. 같은 모양을 여러 번 써도 돼요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Choose a shape": "",
+    "Choose a shape": "모양 고르기",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Check my matches": "",
+    "Check my matches": "짝지은 답 확인",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Not answered yet.": "",
+    "Not answered yet.": "아직 답하지 않았어요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Correct. {why}": "",
+    "Correct. {why}": "정답. {why}",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Not this shape. Ask: is it direct or inverse proportion, and is the horizontal axis zero at the origin?": "",
+    "Not this shape. Ask: is it direct or inverse proportion, and is the horizontal axis zero at the origin?": "이 모양이 아니에요. 스스로 물어보세요: 비례인가 반비례인가? 가로축은 원점에서 0인가?",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "{right} of {total} correct. All matched. Open the labelled gallery to see them together.": "",
+    "{right} of {total} correct. All matched. Open the labelled gallery to see them together.": "{total}개 중 {right}개 정답. 모두 짝지었어요. 이름 붙은 그래프 모음을 열어 한꺼번에 보세요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "{right} of {total} correct ({blank} not answered). Change your choices and check again.": "",
+    "{right} of {total} correct ({blank} not answered). Change your choices and check again.": "{total}개 중 {right}개 정답({blank}개는 답하지 않음). 선택을 바꾸고 다시 확인하세요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "{right} of {total} correct. Change your choices and check again.": "",
+    "{right} of {total} correct. Change your choices and check again.": "{total}개 중 {right}개 정답. 선택을 바꾸고 다시 확인하세요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Test yourself: match the shapes": "",
+    "Test yourself: match the shapes": "스스로 확인하기: 모양 짝짓기",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Show the labelled gallery": "",
+    "Show the labelled gallery": "이름 붙은 그래프 모음 보기",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Choose a shape for each relationship, then press Check.": "",
+    "Choose a shape for each relationship, then press Check.": "각 관계에 맞는 모양을 고른 다음 확인을 누르세요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Study the six graphs, then test yourself.": "",
+    "Study the six graphs, then test yourself.": "그래프 6개를 살펴본 다음 스스로 확인해 보세요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Find": "",
+    "Find": "구할 값",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "pressure, P": "",
+    "pressure, P": "압력, P",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "volume, V": "",
+    "volume, V": "부피, V",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "temperature, T": "",
+    "temperature, T": "온도, T",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "amount, n": "",
+    "amount, n": "물질의 양, n",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "mass, m (formula known)": "",
+    "mass, m (formula known)": "질량, m (화학식을 알 때)",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "molar mass, M (mass known)": "",
+    "molar mass, M (mass known)": "몰 질량, M (질량을 알 때)",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Amount of gas given as": "",
+    "Amount of gas given as": "기체의 양이 주어진 방식",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "amount in mol": "",
+    "amount in mol": "mol 단위의 물질의 양",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "mass in g and a formula": "",
+    "mass in g and a formula": "g 단위의 질량과 화학식",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Work in": "",
+    "Work in": "계산 단위",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "{p} and {v}": "",
+    "{p} and {v}": "{p}와 {v}",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Unit for {quantity}": "",
+    "Unit for {quantity}": "{quantity}의 단위",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Pressure, {sym}": "",
+    "Pressure, {sym}": "압력, {sym}",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Volume, {sym}": "",
+    "Volume, {sym}": "부피, {sym}",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Temperature, {sym}": "",
+    "Temperature, {sym}": "온도, {sym}",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Amount, {sym}": "",
+    "Amount, {sym}": "물질의 양, {sym}",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Mass, {sym}": "",
+    "Mass, {sym}": "질량, {sym}",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "mass": "",
+    "mass": "질량",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Formula of the gas": "",
+    "Formula of the gas": "기체의 화학식",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "formula": "",
+    "formula": "화학식",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Answer": "",
+    "Answer": "답",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Unit check": "",
+    "Unit check": "단위 확인",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "(already in {unit})": "",
+    "(already in {unit})": "(이미 {unit})",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Enter a pressure greater than zero.": "",
+    "Enter a pressure greater than zero.": "0보다 큰 압력을 입력하세요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Enter a volume greater than zero.": "",
+    "Enter a volume greater than zero.": "0보다 큰 부피를 입력하세요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Enter a temperature.": "",
+    "Enter a temperature.": "온도를 입력하세요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "The temperature must be above absolute zero (0 K, {T} °C).": "",
+    "The temperature must be above absolute zero (0 K, {T} °C).": "온도는 절대 영도(0 K, {T} °C)보다 높아야 해요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Type a formula using element symbols up to krypton, such as {a} or {b}.": "",
+    "Type a formula using element symbols up to krypton, such as {a} or {b}.": "크립톤까지의 원소 기호로 화학식을 입력하세요. 예: {a}, {b}.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Enter a mass greater than zero.": "",
+    "Enter a mass greater than zero.": "0보다 큰 질량을 입력하세요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Enter an amount greater than zero.": "",
+    "Enter an amount greater than zero.": "0보다 큰 물질의 양을 입력하세요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Waiting for valid values.": "",
+    "Waiting for valid values.": "올바른 값을 기다리는 중이에요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "then {eq}": "",
+    "then {eq}": "그다음 {eq}",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "then {eq} (the same as {eq2})": "",
+    "then {eq} (the same as {eq2})": "그다음 {eq} ({eq2}와 같음)",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "<b>Temperature left in °C.</b> Using {wrong} instead of {right} K would give an answer {factor} times too big.": "",
+    "<b>Temperature left in °C.</b> Using {wrong} instead of {right} K would give an answer {factor} times too big.": "<b>온도를 °C 그대로 두었어요.</b> {right} K 대신 {wrong}을 쓰면 답이 {factor}배 너무 커져요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "<b>Temperature left in °C.</b> Using {wrong} instead of {right} K would give an answer {factor} times too small.": "",
+    "<b>Temperature left in °C.</b> Using {wrong} instead of {right} K would give an answer {factor} times too small.": "<b>온도를 °C 그대로 두었어요.</b> {right} K 대신 {wrong}을 쓰면 답이 {factor}배 너무 작아져요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "<b>Temperature left in °C.</b> Using {wrong} °C directly would give a zero or negative answer, which is impossible. Always add 273.15 first.": "",
+    "<b>Temperature left in °C.</b> Using {wrong} °C directly would give a zero or negative answer, which is impossible. Always add 273.15 first.": "<b>온도를 °C 그대로 두었어요.</b> {wrong} °C를 그대로 쓰면 답이 0이나 음수가 되는데, 이것은 불가능해요. 항상 먼저 273.15를 더하세요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "<b>{cm3} used as if it were {dm3}.</b> Putting {value} straight in with kPa would make the answer 1000 times too big. 1 {dm3} = 1000 {cm3}.": "",
+    "<b>{cm3} used as if it were {dm3}.</b> Putting {value} straight in with kPa would make the answer 1000 times too big. 1 {dm3} = 1000 {cm3}.": "<b>{cm3}를 {dm3}처럼 썼어요.</b> {value}를 kPa와 함께 바로 넣으면 답이 1000배 너무 커져요. 1 {dm3} = 1000 {cm3}.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "<b>{cm3} used as if it were {dm3}.</b> Putting {value} straight in with kPa would make the answer 1000 times too small. 1 {dm3} = 1000 {cm3}.": "",
+    "<b>{cm3} used as if it were {dm3}.</b> Putting {value} straight in with kPa would make the answer 1000 times too small. 1 {dm3} = 1000 {cm3}.": "<b>{cm3}를 {dm3}처럼 썼어요.</b> {value}를 kPa와 함께 바로 넣으면 답이 1000배 너무 작아져요. 1 {dm3} = 1000 {cm3}.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "<b>Mixed unit sets.</b> kPa goes with {dm3}, and Pa goes with {m3}. Pairing kPa with {m3}, or Pa with {dm3}, puts the answer out by a factor of 1000.": "",
+    "<b>Mixed unit sets.</b> kPa goes with {dm3}, and Pa goes with {m3}. Pairing kPa with {m3}, or Pa with {dm3}, puts the answer out by a factor of 1000.": "<b>단위 조합이 섞였어요.</b> kPa는 {dm3}와, Pa는 {m3}와 함께 써요. kPa를 {m3}와, 또는 Pa를 {dm3}와 짝지으면 답이 1000배 틀려요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Convert to the units you chose": "",
+    "Convert to the units you chose": "고른 단위로 바꾸기",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Rearrange {eq}": "",
+    "Rearrange {eq}": "{eq} 정리하기",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "({n} significant figures)": "",
+    "({n} significant figures)": "(유효 숫자 {n}자리)",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "In an exam, round to the smallest number of significant figures in the data you were given.": "",
+    "In an exam, round to the smallest number of significant figures in the data you were given.": "시험에서는 주어진 자료 중 가장 적은 유효 숫자 자릿수에 맞춰 반올림하세요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Classic errors to avoid here": "",
+    "Classic errors to avoid here": "여기서 피해야 할 대표적인 실수",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "{p} {times} {v} = J, so it matches R in {Runit}.": "",
+    "{p} {times} {v} = J, so it matches R in {Runit}.": "{p} {times} {v} = J이므로 {Runit} 단위의 R과 맞아요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "small particles, weak forces (for example helium)": "",
+    "small particles, weak forces (for example helium)": "작은 입자, 약한 힘 (예: 헬륨)",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "larger particles, stronger forces (for example ammonia)": "",
+    "larger particles, stronger forces (for example ammonia)": "더 큰 입자, 더 강한 힘 (예: 암모니아)",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Type of gas": "",
+    "Type of gas": "기체의 종류",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Temperature (0 = very low, 100 = very high)": "",
+    "Temperature (0 = very low, 100 = very high)": "온도 (0 = 아주 낮음, 100 = 아주 높음)",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Pressure (0 = very low, 100 = very high)": "",
+    "Pressure (0 = very low, 100 = very high)": "압력 (0 = 아주 낮음, 100 = 아주 높음)",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Pause": "",
+    "Pause": "멈추기",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Most ideal conditions": "",
+    "Most ideal conditions": "가장 이상적인 조건",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Least ideal conditions": "",
+    "Least ideal conditions": "가장 덜 이상적인 조건",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "How close to ideal?": "",
+    "How close to ideal?": "이상 기체에 얼마나 가까울까?",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Particle volume": "",
+    "Particle volume": "입자의 부피",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Intermolecular forces": "",
+    "Intermolecular forces": "분자 간 힘",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Remember": "",
+    "Remember": "기억하기",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Far from ideal": "",
+    "Far from ideal": "이상 기체와 거리가 멂",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Noticeably non-ideal": "",
+    "Noticeably non-ideal": "눈에 띄게 이상적이지 않음",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Fairly close to ideal": "",
+    "Fairly close to ideal": "이상 기체에 꽤 가까움",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Very close to ideal": "",
+    "Very close to ideal": "이상 기체에 아주 가까움",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "negligible: particles are far apart": "",
+    "negligible: particles are far apart": "무시할 수 있음: 입자가 멀리 떨어져 있음",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "starting to matter": "",
+    "starting to matter": "영향이 생기기 시작함",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "significant: particles are crowded": "",
+    "significant: particles are crowded": "무시할 수 없음: 입자가 빽빽함",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "a large share of the space": "",
+    "a large share of the space": "공간의 큰 부분을 차지함",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "negligible: particles are fast and far apart": "",
+    "negligible: particles are fast and far apart": "무시할 수 있음: 입자가 빠르고 멀리 떨어져 있음",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "significant": "",
+    "significant": "무시할 수 없음",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "strong effect: particles are slow and close": "",
+    "strong effect: particles are slow and close": "영향이 큼: 입자가 느리고 가까이 있음",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Particle volume matters": "",
+    "Particle volume matters": "입자의 부피가 중요함",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Intermolecular forces matter": "",
+    "Intermolecular forces matter": "분자 간 힘이 중요함",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Close to ideal behaviour": "",
+    "Close to ideal behaviour": "이상 기체에 가까운 행동",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "hardly ↔ a lot": "",
+    "hardly ↔ a lot": "거의 없음 ↔ 많음",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "not at all ↔ very": "",
+    "not at all ↔ very": "전혀 아님 ↔ 매우",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "This picture is a qualitative illustration. The bars are not calculated from any gas equation, and particle sizes are exaggerated.": "",
+    "This picture is a qualitative illustration. The bars are not calculated from any gas equation, and particle sizes are exaggerated.": "이 그림은 정성적인 설명이에요. 막대는 어떤 기체 방정식으로도 계산한 것이 아니고, 입자 크기는 과장되어 있어요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "A box of gas particles. Higher pressure makes the box smaller so the particles are crowded. Lower temperature makes them slower, and dashed lines show attractions between close neighbours. Three bars below show how much particle volume and intermolecular forces matter and how close the gas is to ideal behaviour.": "",
+    "A box of gas particles. Higher pressure makes the box smaller so the particles are crowded. Lower temperature makes them slower, and dashed lines show attractions between close neighbours. Three bars below show how much particle volume and intermolecular forces matter and how close the gas is to ideal behaviour.": "기체 입자가 든 상자. 압력이 높을수록 상자가 작아져서 입자가 빽빽해져요. 온도가 낮을수록 입자가 느려지고, 점선은 가까운 이웃 입자 사이의 인력을 나타내요. 아래의 막대 3개는 입자의 부피와 분자 간 힘이 얼마나 중요한지, 그리고 기체가 이상적인 행동에 얼마나 가까운지를 보여 줘요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "volume at low pressure": "",
+    "volume at low pressure": "낮은 압력에서의 부피",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Play": "",
+    "Play": "재생",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Volume at STP, V": "",
+    "Volume at STP, V": "STP에서의 부피, V",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "{n} mol": "",
+    "{n} mol": "{n} mol",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Volume at STP": "",
+    "Volume at STP": "STP에서의 부피",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Cube side": "",
+    "Cube side": "정육면체 한 변",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "Working": "",
+    "Working": "풀이",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "A cube holding the chosen amount of gas at STP, drawn to scale beside a football about 22 centimetres across and a 1 cubic decimetre cube. The values are in the readout below.": "",
+    "A cube holding the chosen amount of gas at STP, drawn to scale beside a football about 22 centimetres across and a 1 cubic decimetre cube. The values are in the readout below.": "고른 양의 기체를 STP에서 담는 정육면체를, 지름 약 22센티미터인 축구공과 1세제곱데시미터 정육면체 옆에 같은 비율로 그렸어요. 값은 아래 표시창에 있어요.",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "gas at STP": "",
+    "gas at STP": "STP의 기체",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "football": "",
+    "football": "축구공",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "scale: {length} cm": "",
+    "scale: {length} cm": "축척: {length} cm",
 
     // widget string (assets/js/widgets-s1-5.js)
-    "{working}. The same for any ideal gas: {examples}.": "",
+    "{working}. The same for any ideal gas: {examples}.": "{working}. 어떤 이상 기체든 같아요: {examples}.",
 
   }
 });

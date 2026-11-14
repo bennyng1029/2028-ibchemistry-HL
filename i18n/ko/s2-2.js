@@ -6,1098 +6,1098 @@ S1.i18n.register('ko', 's2-2', {
   strings: {
 
     // page title (browser tab)
-    "2.2 The covalent model | Structure Lab": "",
+    "2.2 The covalent model | Structure Lab": "2.2 공유 결합 모형 | Structure Lab",
 
     // The covalent model > page header > p
-    "Structure 2.2": "",
+    "Structure 2.2": "Structure 2.2",
 
     // The covalent model > page header > h1
-    "The covalent model": "",
+    "The covalent model": "공유 결합 모형",
 
     // The covalent model > page header > span
-    "What determines the covalent nature and properties of a substance?": "",
+    "What determines the covalent nature and properties of a substance?": "물질의 공유 결합성과 성질은 무엇으로 결정될까?",
 
     // What you need to be able to do > data-toc attribute
-    "What you need to do": "",
+    "What you need to do": "할 수 있어야 할 것",
 
     // What you need to be able to do > h2
-    "What you need to be able to do": "",
+    "What you need to be able to do": "할 수 있어야 할 것",
 
     // What you need to be able to do > p
-    "This page covers the part of Structure 2.2 that SL and HL students share. Tick each one when you can do it without looking at your notes.": "",
+    "This page covers the part of Structure 2.2 that SL and HL students share. Tick each one when you can do it without looking at your notes.": "이 페이지는 Structure 2.2 중 SL과 HL 학생이 함께 배우는 부분을 다뤄요. 노트를 보지 않고 할 수 있게 되면 하나씩 체크하세요.",
 
     // What you need to be able to do > checklist > span
-    "State what a covalent bond is, and state the octet rule.": "",
+    "State what a covalent bond is, and state the octet rule.": "공유 결합이 무엇인지 쓰고, 옥텟 규칙을 쓸 수 있어요.",
 
     // What you need to be able to do > checklist > span
-    "Deduce the Lewis formula of a molecule or ion with up to four electron pairs on each atom, including atoms with fewer than an octet.": "",
+    "Deduce the Lewis formula of a molecule or ion with up to four electron pairs on each atom, including atoms with fewer than an octet.": "각 원자에 전자쌍이 최대 4개인 분자나 이온의 루이스 구조식을 추론할 수 있어요. 옥텟보다 전자가 적은 원자도 포함해요.",
 
     // What you need to be able to do > checklist > span
-    "Explain how the number of shared pairs (single, double, triple) affects bond length and bond strength.": "",
+    "Explain how the number of shared pairs (single, double, triple) affects bond length and bond strength.": "공유 전자쌍의 수(단일, 이중, 삼중)가 결합 길이와 결합 세기에 어떤 영향을 주는지 설명할 수 있어요.",
 
     // What you need to be able to do > checklist > span
-    "Identify coordination bonds in compounds.": "",
+    "Identify coordination bonds in compounds.": "화합물에서 배위 결합을 찾을 수 있어요.",
 
     // What you need to be able to do > checklist > span
-    "Predict the electron domain geometry and the molecular geometry for species with up to four electron domains.": "",
+    "Predict the electron domain geometry and the molecular geometry for species with up to four electron domains.": "전자 영역이 최대 4개인 화학종의 전자 영역 배치와 분자 모양을 예측할 수 있어요.",
 
     // What you need to be able to do > checklist > span
-    "Predict how lone pairs and multiple bonds change bond angles.": "",
+    "Predict how lone pairs and multiple bonds change bond angles.": "비공유 전자쌍과 다중 결합이 결합각을 어떻게 바꾸는지 예측할 수 있어요.",
 
     // What you need to be able to do > checklist > span
-    "Deduce the polarity of a covalent bond from electronegativity values, and show it with partial charges or a vector.": "",
+    "Deduce the polarity of a covalent bond from electronegativity values, and show it with partial charges or a vector.": "전기 음성도 값으로 공유 결합의 극성을 추론하고, 부분 전하나 벡터로 나타낼 수 있어요.",
 
     // What you need to be able to do > checklist > span
-    "Deduce whether a molecule or ion has a net dipole from its bond polarity and its geometry.": "",
+    "Deduce whether a molecule or ion has a net dipole from its bond polarity and its geometry.": "결합의 극성과 모양으로 분자나 이온에 알짜 쌍극자가 있는지 추론할 수 있어요.",
 
     // What you need to be able to do > checklist > span
-    "Describe the structures and explain the properties of silicon, silicon dioxide, diamond, graphite, fullerenes and graphene.": "",
+    "Describe the structures and explain the properties of silicon, silicon dioxide, diamond, graphite, fullerenes and graphene.": "규소, 이산화 규소, 다이아몬드, 흑연, 풀러렌, 그래핀의 구조를 서술하고 성질을 설명할 수 있어요.",
 
     // What you need to be able to do > checklist > span
-    "Deduce which intermolecular forces act between molecules, and use the term “van der Waals forces” correctly.": "",
+    "Deduce which intermolecular forces act between molecules, and use the term “van der Waals forces” correctly.": "분자 사이에 어떤 분자 간 힘이 작용하는지 추론하고, “판데르발스 힘(van der Waals forces)”이라는 용어를 바르게 쓸 수 있어요.",
 
     // What you need to be able to do > checklist > span
-    "Describe and draw a hydrogen bond between two molecules.": "",
+    "Describe and draw a hydrogen bond between two molecules.": "두 분자 사이의 수소 결합을 서술하고 그릴 수 있어요.",
 
     // What you need to be able to do > checklist > span
-    "Explain the volatility, electrical conductivity and solubility of covalent substances from their structure.": "",
+    "Explain the volatility, electrical conductivity and solubility of covalent substances from their structure.": "공유 결합 물질의 휘발성, 전기 전도성, 용해도를 구조로 설명할 수 있어요.",
 
     // What you need to be able to do > checklist > span
-    "Explain how paper chromatography and thin layer chromatography separate a mixture.": "",
+    "Explain how paper chromatography and thin layer chromatography separate a mixture.": "종이 크로마토그래피와 얇은 막 크로마토그래피가 혼합물을 어떻게 분리하는지 설명할 수 있어요.",
 
     // What you need to be able to do > checklist > span
-    "Calculate and interpret retardation factor (R<sub>F</sub>) values.": "",
+    "Calculate and interpret retardation factor (R<sub>F</sub>) values.": "이동률(R<sub>F</sub>) 값을 계산하고 해석할 수 있어요.",
 
     // What you need to be able to do > p
-    "HL students: resonance, benzene, expanded octets, formal charge, sigma and pi bonds, and hybridization are on the <a href=\"s2-2h.html\">Additional HL page for 2.2</a>.": "",
+    "HL students: resonance, benzene, expanded octets, formal charge, sigma and pi bonds, and hybridization are on the <a href=\"s2-2h.html\">Additional HL page for 2.2</a>.": "HL 학생: 공명, 벤젠, 확장된 옥텟, 형식 전하, 시그마 결합과 파이 결합, 혼성화는 <a href=\"s2-2h.html\">2.2 HL 추가 내용 페이지</a>에 있어요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > data-toc attribute
-    "Covalent bonds and Lewis formulas": "",
+    "Covalent bonds and Lewis formulas": "공유 결합과 루이스 구조식",
 
     // Covalent bonds, the octet rule and Lewis formulas > h2
-    "Covalent bonds, the octet rule and Lewis formulas": "",
+    "Covalent bonds, the octet rule and Lewis formulas": "공유 결합, 옥텟 규칙, 루이스 구조식",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "Two hydrogen atoms meet. Each has one electron and each needs one more. Neither atom is strong enough to take an electron from the other. So they share.": "",
+    "Two hydrogen atoms meet. Each has one electron and each needs one more. Neither atom is strong enough to take an electron from the other. So they share.": "수소 원자 2개가 만나요. 각 원자는 전자가 1개 있고, 1개가 더 필요해요. 어느 원자도 상대의 전자를 빼앗을 만큼 강하지 않아요. 그래서 전자를 함께 나눠 가져요(공유해요).",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "The two shared electrons sit between the two nuclei. Each nucleus is positive. The shared electrons are negative. Both nuclei are attracted to the same pair of electrons, and this holds the atoms together.": "",
+    "The two shared electrons sit between the two nuclei. Each nucleus is positive. The shared electrons are negative. Both nuclei are attracted to the same pair of electrons, and this holds the atoms together.": "공유한 전자 2개는 두 원자핵 사이에 있어요. 원자핵은 각각 양전하를 띠고, 공유한 전자는 음전하를 띠어요. 두 원자핵이 같은 전자쌍에 끌리고, 이 끌림이 원자들을 붙잡아 둬요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > aria-label attribute
-    "Two hydrogen nuclei, each marked plus, with a shared pair of electrons between them. Arrows show each nucleus attracted towards the shared pair.": "",
+    "Two hydrogen nuclei, each marked plus, with a shared pair of electrons between them. Arrows show each nucleus attracted towards the shared pair.": "수소 원자핵 2개가 각각 플러스로 표시되어 있고, 그 사이에 공유 전자쌍이 있어요. 화살표는 각 원자핵이 공유 전자쌍 쪽으로 끌리는 것을 나타내요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > figure label
-    "nucleus": "",
+    "nucleus": "원자핵",
 
     // Covalent bonds, the octet rule and Lewis formulas > figure label
-    "shared pair of electrons": "",
+    "shared pair of electrons": "공유 전자쌍",
 
     // Covalent bonds, the octet rule and Lewis formulas > figcaption
-    "A model of the bond in a hydrogen molecule, H<sub>2</sub>. Both nuclei are attracted to the shared pair. The drawing is not to scale.": "",
+    "A model of the bond in a hydrogen molecule, H<sub>2</sub>. Both nuclei are attracted to the shared pair. The drawing is not to scale.": "수소 분자 H<sub>2</sub>의 결합 모형. 두 원자핵이 모두 공유 전자쌍에 끌려요. 그림의 크기 비율은 실제와 달라요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "A <dfn data-def=\"The electrostatic attraction between a shared pair of electrons and the positively charged nuclei.\">covalent bond</dfn> is the electrostatic attraction between a shared pair of electrons and the positively charged nuclei.": "",
+    "A <dfn data-def=\"The electrostatic attraction between a shared pair of electrons and the positively charged nuclei.\">covalent bond</dfn> is the electrostatic attraction between a shared pair of electrons and the positively charged nuclei.": "<dfn data-def=\"공유 전자쌍과 양전하를 띤 원자핵 사이의 정전기적 인력.\">공유 결합 <span class=\"en-term\">(covalent bond)</span></dfn>은 공유 전자쌍과 양전하를 띤 원자핵 사이의 정전기적 인력이에요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > data-def attribute
-    "The electrostatic attraction between a shared pair of electrons and the positively charged nuclei.": "",
+    "The electrostatic attraction between a shared pair of electrons and the positively charged nuclei.": "공유 전자쌍과 양전하를 띤 원자핵 사이의 정전기적 인력.",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "Covalent bonds usually form between atoms of non-metals. A group of atoms joined by covalent bonds is a <dfn data-def=\"A group of atoms held together by covalent bonds.\">molecule</dfn>.": "",
+    "Covalent bonds usually form between atoms of non-metals. A group of atoms joined by covalent bonds is a <dfn data-def=\"A group of atoms held together by covalent bonds.\">molecule</dfn>.": "공유 결합은 보통 비금속 원자 사이에서 생겨요. 공유 결합으로 연결된 원자들의 무리를 <dfn data-def=\"공유 결합으로 묶여 있는 원자들의 무리.\">분자 <span class=\"en-term\">(molecule)</span></dfn>라고 해요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > data-def attribute
-    "A group of atoms held together by covalent bonds.": "",
+    "A group of atoms held together by covalent bonds.": "공유 결합으로 묶여 있는 원자들의 무리.",
 
     // Covalent bonds, the octet rule and Lewis formulas > exam tip (shown in English + translation) > p
-    "“State what a covalent bond is” is a one-mark question. The answer needs three parts: <b>electrostatic attraction</b>, a <b>shared pair of electrons</b>, and the <b>(positively charged) nuclei</b>.": "",
+    "“State what a covalent bond is” is a one-mark question. The answer needs three parts: <b>electrostatic attraction</b>, a <b>shared pair of electrons</b>, and the <b>(positively charged) nuclei</b>.": "“공유 결합이 무엇인지 쓰시오”는 1점짜리 문제예요. 답에는 3가지가 들어가야 해요: <b>정전기적 인력</b>, <b>공유 전자쌍</b>, <b>(양전하를 띤) 원자핵</b>.",
 
     // Covalent bonds, the octet rule and Lewis formulas > common mistake > p
-    "“A covalent bond is the sharing of electrons” does not earn the mark. Sharing is how the bond forms. The bond itself is the <em>attraction</em> between the shared pair and the nuclei.": "",
+    "“A covalent bond is the sharing of electrons” does not earn the mark. Sharing is how the bond forms. The bond itself is the <em>attraction</em> between the shared pair and the nuclei.": "“공유 결합은 전자를 공유하는 것이다”라고 쓰면 점수를 받지 못해요. 공유는 결합이 생기는 방법이에요. 결합 그 자체는 공유 전자쌍과 원자핵 사이의 <em>인력</em>이에요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > h3
-    "The octet rule": "",
+    "The octet rule": "옥텟 규칙",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "The electrons in the outer shell of an atom are its <dfn data-def=\"The electrons in the outer (valence) shell of an atom. They are the electrons used in bonding.\">valence electrons</dfn>. For the elements in this topic, the number of valence electrons is the last digit of the group number.": "",
+    "The electrons in the outer shell of an atom are its <dfn data-def=\"The electrons in the outer (valence) shell of an atom. They are the electrons used in bonding.\">valence electrons</dfn>. For the elements in this topic, the number of valence electrons is the last digit of the group number.": "원자의 가장 바깥 껍질에 있는 전자가 그 원자의 <dfn data-def=\"원자의 가장 바깥(원자가) 껍질에 있는 전자. 결합에 쓰이는 전자예요.\">원자가 전자 <span class=\"en-term\">(valence electrons)</span></dfn>예요. 이 단원에 나오는 원소에서 원자가 전자 수는 족 번호의 끝자리 숫자와 같아요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > data-def attribute
-    "The electrons in the outer (valence) shell of an atom. They are the electrons used in bonding.": "",
+    "The electrons in the outer (valence) shell of an atom. They are the electrons used in bonding.": "원자의 가장 바깥(원자가) 껍질에 있는 전자. 결합에 쓰이는 전자예요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > table > caption
-    "Valence electrons of the atoms you will meet most often": "",
+    "Valence electrons of the atoms you will meet most often": "자주 만나게 될 원자의 원자가 전자",
 
     // Covalent bonds, the octet rule and Lewis formulas > table > th
-    "Atom": "",
+    "Atom": "원자",
 
     // Covalent bonds, the octet rule and Lewis formulas > table > th
-    "Group": "",
+    "Group": "족",
 
     // Covalent bonds, the octet rule and Lewis formulas > table > th
-    "Valence electrons": "",
+    "Valence electrons": "원자가 전자",
 
     // Covalent bonds, the octet rule and Lewis formulas > table > th
-    "Be": "",
+    "Be": "Be",
 
     // Covalent bonds, the octet rule and Lewis formulas > table > th
-    "C, Si": "",
+    "C, Si": "C, Si",
 
     // Covalent bonds, the octet rule and Lewis formulas > table > th
-    "F, Cl, Br, I": "",
+    "F, Cl, Br, I": "F, Cl, Br, I",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "The <dfn data-def=\"The tendency of atoms to gain a valence shell with a total of 8 electrons.\">octet rule</dfn> is the tendency of atoms to gain a valence shell with a total of 8 electrons. Atoms can reach 8 by sharing electrons.": "",
+    "The <dfn data-def=\"The tendency of atoms to gain a valence shell with a total of 8 electrons.\">octet rule</dfn> is the tendency of atoms to gain a valence shell with a total of 8 electrons. Atoms can reach 8 by sharing electrons.": "<dfn data-def=\"원자가 원자가 껍질에 전자를 모두 8개 갖추려는 경향.\">옥텟 규칙 <span class=\"en-term\">(octet rule)</span></dfn>은 원자가 원자가 껍질에 전자를 모두 8개 갖추려는 경향이에요. 원자는 전자를 공유해서 8개를 채울 수 있어요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > data-def attribute
-    "The tendency of atoms to gain a valence shell with a total of 8 electrons.": "",
+    "The tendency of atoms to gain a valence shell with a total of 8 electrons.": "원자가 원자가 껍질에 전자를 모두 8개 갖추려는 경향.",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "Hydrogen is different. Its first shell is full with 2 electrons, so a hydrogen atom forms one bond only.": "",
+    "Hydrogen is different. Its first shell is full with 2 electrons, so a hydrogen atom forms one bond only.": "수소는 달라요. 수소의 첫 번째 껍질은 전자 2개로 꽉 차기 때문에, 수소 원자는 결합을 1개만 만들어요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "The octet rule is a useful guide. It is not a law. Two atoms often have <dfn data-def=\"An atom in a molecule with fewer than 8 electrons in its valence shell.\">fewer than an octet</dfn> in their compounds: beryllium (4 electrons) and boron (6 electrons).": "",
+    "The octet rule is a useful guide. It is not a law. Two atoms often have <dfn data-def=\"An atom in a molecule with fewer than 8 electrons in its valence shell.\">fewer than an octet</dfn> in their compounds: beryllium (4 electrons) and boron (6 electrons).": "옥텟 규칙은 쓸모 있는 길잡이예요. 법칙은 아니에요. 원자 두 가지는 화합물에서 흔히 원자가 껍질의 전자가 <dfn data-def=\"분자 안에서 원자가 껍질의 전자가 8개보다 적은 원자.\">옥텟 미만 <span class=\"en-term\">(fewer than an octet)</span></dfn>이에요: 베릴륨(전자 4개)과 붕소(전자 6개)예요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > data-def attribute
-    "An atom in a molecule with fewer than 8 electrons in its valence shell.": "",
+    "An atom in a molecule with fewer than 8 electrons in its valence shell.": "분자 안에서 원자가 껍질의 전자가 8개보다 적은 원자.",
 
     // Covalent bonds, the octet rule and Lewis formulas > h3
-    "Lewis formulas": "",
+    "Lewis formulas": "루이스 구조식",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "A <dfn data-def=\"A diagram that shows all the valence electrons, bonding pairs and non-bonding pairs, in a covalently bonded molecule or ion.\">Lewis formula</dfn> shows all the valence electrons in a molecule or ion. It is also called a Lewis structure or an electron dot structure.": "",
+    "A <dfn data-def=\"A diagram that shows all the valence electrons, bonding pairs and non-bonding pairs, in a covalently bonded molecule or ion.\">Lewis formula</dfn> shows all the valence electrons in a molecule or ion. It is also called a Lewis structure or an electron dot structure.": "<dfn data-def=\"공유 결합으로 이루어진 분자나 이온의 원자가 전자, 즉 공유 전자쌍과 비공유 전자쌍을 모두 보여 주는 그림.\">루이스 구조식 <span class=\"en-term\">(Lewis formula)</span></dfn>은 분자나 이온의 원자가 전자를 모두 보여 줘요. 루이스 구조(Lewis structure) 또는 전자점식(electron dot structure)이라고도 해요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > data-def attribute
-    "A diagram that shows all the valence electrons, bonding pairs and non-bonding pairs, in a covalently bonded molecule or ion.": "",
+    "A diagram that shows all the valence electrons, bonding pairs and non-bonding pairs, in a covalently bonded molecule or ion.": "공유 결합으로 이루어진 분자나 이온의 원자가 전자, 즉 공유 전자쌍과 비공유 전자쌍을 모두 보여 주는 그림.",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "There are two kinds of electron pair in a Lewis formula.": "",
+    "There are two kinds of electron pair in a Lewis formula.": "루이스 구조식에는 두 종류의 전자쌍이 있어요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > li
-    "A <dfn data-def=\"A pair of electrons shared between two atoms.\">bonding pair</dfn> is shared between two atoms.": "",
+    "A <dfn data-def=\"A pair of electrons shared between two atoms.\">bonding pair</dfn> is shared between two atoms.": "<dfn data-def=\"두 원자가 공유하는 전자쌍.\">공유 전자쌍 <span class=\"en-term\">(bonding pair)</span></dfn>은 두 원자가 함께 가져요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > data-def attribute
-    "A pair of electrons shared between two atoms.": "",
+    "A pair of electrons shared between two atoms.": "두 원자가 공유하는 전자쌍.",
 
     // Covalent bonds, the octet rule and Lewis formulas > li
-    "A <dfn data-def=\"A pair of valence electrons that belongs to one atom and is not shared. Also called a lone pair.\">non-bonding pair</dfn>, or lone pair, belongs to one atom only.": "",
+    "A <dfn data-def=\"A pair of valence electrons that belongs to one atom and is not shared. Also called a lone pair.\">non-bonding pair</dfn>, or lone pair, belongs to one atom only.": "<dfn data-def=\"한 원자에만 속하고 공유되지 않는 원자가 전자쌍. 영어로 lone pair라고도 해요.\">비공유 전자쌍 <span class=\"en-term\">(non-bonding pair)</span></dfn>은 한 원자에만 속해요. 영어로는 lone pair라고도 해요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > data-def attribute
-    "A pair of valence electrons that belongs to one atom and is not shared. Also called a lone pair.": "",
+    "A pair of valence electrons that belongs to one atom and is not shared. Also called a lone pair.": "한 원자에만 속하고 공유되지 않는 원자가 전자쌍. 영어로 lone pair라고도 해요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "You may draw each pair as two dots, two crosses or one line. On this site a line is a bonding pair and two dots are a lone pair.": "",
+    "You may draw each pair as two dots, two crosses or one line. On this site a line is a bonding pair and two dots are a lone pair.": "각 전자쌍은 점 2개, 가위표 2개, 선 1개 중 무엇으로 그려도 돼요. 이 사이트에서는 선 하나가 공유 전자쌍이고, 점 2개가 비공유 전자쌍이에요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "hydrogen": "",
-
-    // Covalent bonds, the octet rule and Lewis formulas > p
-    // widget string (assets/js/widgets-s2-2.js)
-    "chlorine": "",
+    "hydrogen": "수소",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
     // widget string (assets/js/widgets-s2-2.js)
-    "water": "",
+    "chlorine": "염소",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
     // widget string (assets/js/widgets-s2-2.js)
-    "ammonia": "",
+    "water": "물",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
     // widget string (assets/js/widgets-s2-2.js)
-    "methane": "",
+    "ammonia": "암모니아",
+
+    // Covalent bonds, the octet rule and Lewis formulas > p
+    // widget string (assets/js/widgets-s2-2.js)
+    "methane": "methane",
 
     // Covalent bonds, the octet rule and Lewis formulas > figcaption
-    "Lewis formulas of five small molecules. Every atom except hydrogen has 8 electrons around it. A Lewis formula shows electrons. It does not show the real shape.": "",
+    "Lewis formulas of five small molecules. Every atom except hydrogen has 8 electrons around it. A Lewis formula shows electrons. It does not show the real shape.": "작은 분자 5개의 루이스 구조식. 수소를 뺀 모든 원자 주위에 전자가 8개 있어요. 루이스 구조식은 전자를 보여 줘요. 실제 모양은 보여 주지 않아요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > h3
     // Shapes of molecules: the VSEPR model > h3
     // Bond polarity > h3
     // Molecular polarity > h3
     // Chromatography > h3
-    "Method in words": "",
+    "Method in words": "말로 정리한 방법",
 
     // Covalent bonds, the octet rule and Lewis formulas > li
-    "Count all the valence electrons. For a negative ion add one electron for each charge. For a positive ion take one away for each charge.": "",
+    "Count all the valence electrons. For a negative ion add one electron for each charge. For a positive ion take one away for each charge.": "원자가 전자를 모두 세요. 음이온이면 전하 1개마다 전자를 1개 더하고, 양이온이면 전하 1개마다 1개를 빼요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > li
-    "Choose the central atom. It is usually the atom that there is only one of. Hydrogen is never central.": "",
+    "Choose the central atom. It is usually the atom that there is only one of. Hydrogen is never central.": "중심 원자를 골라요. 보통 1개만 있는 원자가 중심 원자예요. 수소는 절대 중심 원자가 되지 않아요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > li
-    "Join each outer atom to the central atom with a single bond. Each bond uses 2 electrons.": "",
+    "Join each outer atom to the central atom with a single bond. Each bond uses 2 electrons.": "바깥 원자를 하나씩 중심 원자와 단일 결합으로 이어요. 결합 하나에 전자 2개가 쓰여요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > li
-    "Give each outer atom lone pairs until it has 8 electrons. Hydrogen gets none.": "",
+    "Give each outer atom lone pairs until it has 8 electrons. Hydrogen gets none.": "바깥 원자마다 전자가 8개가 될 때까지 비공유 전자쌍을 줘요. 수소에는 주지 않아요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > li
-    "Put any electrons that are left on the central atom.": "",
+    "Put any electrons that are left on the central atom.": "남은 전자는 모두 중심 원자에 놓아요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > li
-    "Check the central atom. If it has fewer than 8, move a lone pair from an outer atom into the bond. This makes a double or triple bond. Do not do this for Be or B.": "",
+    "Check the central atom. If it has fewer than 8, move a lone pair from an outer atom into the bond. This makes a double or triple bond. Do not do this for Be or B.": "중심 원자를 확인해요. 전자가 8개보다 적으면 바깥 원자의 비공유 전자쌍 하나를 결합 쪽으로 옮겨요. 그러면 이중 결합이나 삼중 결합이 돼요. Be나 B에서는 이렇게 하지 않아요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > li
-    "For an ion, draw square brackets around the formula and write the charge outside.": "",
+    "For an ion, draw square brackets around the formula and write the charge outside.": "이온이면 화학식을 대괄호로 감싸고, 괄호 밖에 전하를 써요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > li
-    "Count the electrons in your drawing. The total must equal the number from step 1.": "",
+    "Count the electrons in your drawing. The total must equal the number from step 1.": "그림 속 전자를 세어 봐요. 합계가 1단계에서 구한 수와 같아야 해요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > widget > data-title attribute
-    "Lewis formula builder": "",
+    "Lewis formula builder": "루이스 구조식 만들기",
 
     // Covalent bonds, the octet rule and Lewis formulas > widget > figcaption
-    "Choose a molecule or ion and work through the steps. Try water first, then carbon dioxide, then an ion such as NH<sub>4</sub><sup>+</sup>.": "",
+    "Choose a molecule or ion and work through the steps. Try water first, then carbon dioxide, then an ion such as NH<sub>4</sub><sup>+</sup>.": "분자나 이온을 하나 골라 단계를 따라가 봐요. 먼저 물, 다음에 이산화 탄소, 그다음에 NH<sub>4</sub><sup>+</sup> 같은 이온을 해 보세요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > data-kicker attribute
-    "Worked example 1": "",
+    "Worked example 1": "예제 1",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > h3
-    "A Lewis formula with lone pairs on every atom": "",
+    "A Lewis formula with lone pairs on every atom": "모든 원자에 비공유 전자쌍이 있는 루이스 구조식",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "Deduce the Lewis formula of nitrogen trifluoride, <span class=\"chem\">NF3</span>.": "",
+    "Deduce the Lewis formula of nitrogen trifluoride, <span class=\"chem\">NF3</span>.": "삼플루오린화 질소 <span class=\"chem\">NF3</span>의 루이스 구조식을 추론하시오 (deduce).",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > data-title attribute
-    "Count the valence electrons": "",
+    "Count the valence electrons": "원자가 전자 세기",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "The total tells you how many electrons your drawing must show.": "",
+    "The total tells you how many electrons your drawing must show.": "합계를 보면 그림에 전자가 몇 개 있어야 하는지 알 수 있어요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > maths line
-    "total = 5 + 21 = 26 electrons = 13 pairs": "",
+    "total = 5 + 21 = 26 electrons = 13 pairs": "합계 = 5 + 21 = 26개 전자 = 13쌍",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > data-title attribute
-    "Join the atoms with single bonds": "",
+    "Join the atoms with single bonds": "원자들을 단일 결합으로 잇기",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "There is only one nitrogen atom, so it is the central atom.": "",
+    "There is only one nitrogen atom, so it is the central atom.": "질소 원자는 1개뿐이므로 질소가 중심 원자예요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > maths line
-    "3 bonds use 3 × 2 = 6 electrons. Left: 26 − 6 = 20": "",
+    "3 bonds use 3 × 2 = 6 electrons. Left: 26 − 6 = 20": "결합 3개에 전자 3 × 2 = 6개가 쓰여요. 남은 전자: 26 − 6 = 20",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > data-title attribute
-    "Complete the outer atoms": "",
+    "Complete the outer atoms": "바깥 원자 채우기",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "Each fluorine has 2 electrons from its bond. It needs 3 lone pairs to reach 8.": "",
+    "Each fluorine has 2 electrons from its bond. It needs 3 lone pairs to reach 8.": "각 플루오린은 결합에서 전자 2개를 얻어요. 8개가 되려면 비공유 전자쌍 3개가 필요해요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > maths line
-    "3 F atoms × 3 lone pairs × 2 = 18 electrons. Left: 20 − 18 = 2": "",
+    "3 F atoms × 3 lone pairs × 2 = 18 electrons. Left: 20 − 18 = 2": "F 원자 3개 × 비공유 전자쌍 3개 × 2 = 전자 18개. 남은 전자: 20 − 18 = 2",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > data-title attribute
-    "Put the rest on the central atom": "",
+    "Put the rest on the central atom": "나머지를 중심 원자에 놓기",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "The last 2 electrons become one lone pair on nitrogen.": "",
+    "The last 2 electrons become one lone pair on nitrogen.": "마지막 전자 2개는 질소의 비공유 전자쌍 1개가 돼요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > data-title attribute
     // Covalent bonds, the octet rule and Lewis formulas > worked example > data-label attribute
     // Chromatography > worked example > data-title attribute
     // Chromatography > worked example > data-label attribute
     // widget string (assets/js/widgets-s2-2.js)
-    "Check": "",
+    "Check": "확인",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "Nitrogen has 3 bonding pairs and 1 lone pair: 8 electrons. Each fluorine has 8. The drawing shows 3 bonds and 10 lone pairs.": "",
+    "Nitrogen has 3 bonding pairs and 1 lone pair: 8 electrons. Each fluorine has 8. The drawing shows 3 bonds and 10 lone pairs.": "질소는 공유 전자쌍 3개와 비공유 전자쌍 1개로 전자가 8개예요. 각 플루오린도 8개예요. 그림에는 결합 3개와 비공유 전자쌍 10개가 있어요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > maths line
-    "3 × 2 + 10 × 2 = <b>26 electrons</b>, the same as step 1": "",
+    "3 × 2 + 10 × 2 = <b>26 electrons</b>, the same as step 1": "3 × 2 + 10 × 2 = <b>전자 26개</b>, 1단계와 같아요",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "N in the centre with three N–F single bonds and one lone pair. Three lone pairs on each F.": "",
+    "N in the centre with three N–F single bonds and one lone pair. Three lone pairs on each F.": "N이 가운데에 있고 N–F 단일 결합 3개와 비공유 전자쌍 1개가 있어요. 각 F에는 비공유 전자쌍이 3개 있어요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > data-kicker attribute
-    "Worked example 2": "",
+    "Worked example 2": "예제 2",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > h3
-    "A Lewis formula with double bonds": "",
+    "A Lewis formula with double bonds": "이중 결합이 있는 루이스 구조식",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "Deduce the Lewis formula of carbon dioxide, <span class=\"chem\">CO2</span>.": "",
+    "Deduce the Lewis formula of carbon dioxide, <span class=\"chem\">CO2</span>.": "이산화 탄소 <span class=\"chem\">CO2</span>의 루이스 구조식을 추론하시오 (deduce).",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "Carbon is in group 14 and oxygen is in group 16.": "",
+    "Carbon is in group 14 and oxygen is in group 16.": "탄소는 14족, 산소는 16족이에요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > maths line
-    "total = 4 + 12 = 16 electrons = 8 pairs": "",
+    "total = 4 + 12 = 16 electrons = 8 pairs": "합계 = 4 + 12 = 16개 전자 = 8쌍",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "There is one carbon atom, so carbon is central.": "",
+    "There is one carbon atom, so carbon is central.": "탄소 원자가 1개이므로 탄소가 중심 원자예요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > maths line
-    "2 bonds use 4 electrons. Left: 16 − 4 = 12": "",
+    "2 bonds use 4 electrons. Left: 16 − 4 = 12": "결합 2개에 전자 4개가 쓰여요. 남은 전자: 16 − 4 = 12",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "Each oxygen takes 3 lone pairs. That uses all 12 electrons, so none are left for carbon.": "",
+    "Each oxygen takes 3 lone pairs. That uses all 12 electrons, so none are left for carbon.": "각 산소가 비공유 전자쌍 3개를 가져가요. 그러면 전자 12개를 모두 쓰게 되어, 탄소에 남는 전자가 없어요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > data-title attribute
-    "Check the central atom": "",
+    "Check the central atom": "중심 원자 확인하기",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "Carbon has only 2 bonding pairs, which is 4 electrons. It needs 8.": "",
+    "Carbon has only 2 bonding pairs, which is 4 electrons. It needs 8.": "탄소에는 공유 전자쌍이 2개뿐이라 전자가 4개예요. 8개가 필요해요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > maths line
-    "carbon: 2 × 2 = 4 electrons (not enough)": "",
+    "carbon: 2 × 2 = 4 electrons (not enough)": "탄소: 2 × 2 = 전자 4개 (부족해요)",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > data-title attribute
-    "Make multiple bonds": "",
+    "Make multiple bonds": "다중 결합 만들기",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "Move one lone pair from each oxygen into its bond. No electrons are added. They are only moved.": "",
+    "Move one lone pair from each oxygen into its bond. No electrons are added. They are only moved.": "각 산소의 비공유 전자쌍 하나를 그 결합 쪽으로 옮겨요. 전자를 더하는 것이 아니라 옮기기만 해요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "Carbon has 4 bonding pairs: 8 electrons. Each oxygen has 2 bonding pairs and 2 lone pairs: 8 electrons.": "",
+    "Carbon has 4 bonding pairs: 8 electrons. Each oxygen has 2 bonding pairs and 2 lone pairs: 8 electrons.": "탄소는 공유 전자쌍 4개로 전자가 8개예요. 각 산소는 공유 전자쌍 2개와 비공유 전자쌍 2개로 전자가 8개예요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > maths line
-    "4 bonding pairs + 4 lone pairs = 8 pairs = <b>16 electrons</b>": "",
+    "4 bonding pairs + 4 lone pairs = 8 pairs = <b>16 electrons</b>": "공유 전자쌍 4개 + 비공유 전자쌍 4개 = 8쌍 = <b>전자 16개</b>",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "O=C=O, with two lone pairs on each oxygen atom.": "",
+    "O=C=O, with two lone pairs on each oxygen atom.": "O=C=O이고, 각 산소 원자에 비공유 전자쌍이 2개씩 있어요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > data-kicker attribute
-    "Worked example 3": "",
+    "Worked example 3": "예제 3",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > h3
-    "A Lewis formula of an ion": "",
+    "A Lewis formula of an ion": "이온의 루이스 구조식",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "Deduce the Lewis formula of the hydronium ion, <span class=\"chem\">H3O+</span>.": "",
+    "Deduce the Lewis formula of the hydronium ion, <span class=\"chem\">H3O+</span>.": "하이드로늄 이온 <span class=\"chem\">H3O+</span>의 루이스 구조식을 추론하시오 (deduce).",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "The ion has a charge of 1+. It has lost one electron, so take one away.": "",
+    "The ion has a charge of 1+. It has lost one electron, so take one away.": "이 이온의 전하는 1+예요. 전자를 1개 잃었으므로 1개를 빼요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > maths line
-    "charge 1+: − 1": "",
+    "charge 1+: − 1": "전하 1+: − 1",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > maths line
-    "total = 6 + 3 − 1 = 8 electrons = 4 pairs": "",
+    "total = 6 + 3 − 1 = 8 electrons = 4 pairs": "합계 = 6 + 3 − 1 = 8개 전자 = 4쌍",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "Hydrogen is never central, so oxygen is.": "",
+    "Hydrogen is never central, so oxygen is.": "수소는 절대 중심 원자가 되지 않으므로 산소가 중심 원자예요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > maths line
-    "3 bonds use 6 electrons. Left: 8 − 6 = 2": "",
+    "3 bonds use 6 electrons. Left: 8 − 6 = 2": "결합 3개에 전자 6개가 쓰여요. 남은 전자: 8 − 6 = 2",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > data-title attribute
-    "Place the remaining electrons": "",
+    "Place the remaining electrons": "남은 전자 놓기",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "Hydrogen atoms take no lone pairs. The last 2 electrons go on oxygen as one lone pair.": "",
+    "Hydrogen atoms take no lone pairs. The last 2 electrons go on oxygen as one lone pair.": "수소 원자에는 비공유 전자쌍을 주지 않아요. 마지막 전자 2개는 산소의 비공유 전자쌍 1개가 돼요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > maths line
-    "oxygen: 3 bonding pairs + 1 lone pair = 8 electrons": "",
+    "oxygen: 3 bonding pairs + 1 lone pair = 8 electrons": "산소: 공유 전자쌍 3개 + 비공유 전자쌍 1개 = 전자 8개",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > data-title attribute
-    "Add brackets and the charge": "",
+    "Add brackets and the charge": "대괄호와 전하 붙이기",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "The charge belongs to the whole ion. In an exam the charge must be shown.": "",
+    "The charge belongs to the whole ion. In an exam the charge must be shown.": "전하는 이온 전체의 것이에요. 시험에서는 전하를 꼭 표시해야 해요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > data-title attribute
-    "Think about where the electrons came from": "",
+    "Think about where the electrons came from": "전자가 어디에서 왔는지 생각하기",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "The ion forms when a water molecule bonds to an H<sup>+</sup> ion. An H<sup>+</sup> ion has no electrons at all.": "",
+    "The ion forms when a water molecule bonds to an H<sup>+</sup> ion. An H<sup>+</sup> ion has no electrons at all.": "이 이온은 물 분자가 H<sup>+</sup> 이온과 결합해서 생겨요. H<sup>+</sup> 이온에는 전자가 하나도 없어요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "So both electrons in the new O–H bond came from a lone pair on oxygen. A bond like this is a coordination bond. You will meet it in section 2.2.3.": "",
+    "So both electrons in the new O–H bond came from a lone pair on oxygen. A bond like this is a coordination bond. You will meet it in section 2.2.3.": "그러니까 새 O–H 결합의 전자 2개는 모두 산소의 비공유 전자쌍에서 왔어요. 이런 결합이 배위 결합이에요. 2.2.3절에서 배워요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > worked example > p
-    "O in the centre with three O–H bonds and one lone pair, in square brackets with the charge +.": "",
+    "O in the centre with three O–H bonds and one lone pair, in square brackets with the charge +.": "O가 가운데에 있고 O–H 결합 3개와 비공유 전자쌍 1개가 있으며, 전체를 대괄호로 감싸고 전하 +를 써요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > h3
-    "Atoms with fewer than an octet": "",
+    "Atoms with fewer than an octet": "옥텟 미만인 원자",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "Beryllium has 2 valence electrons and boron has 3. In <span class=\"chem\">BeCl2</span> and <span class=\"chem\">BF3</span> all of these are used in single bonds. No electrons are left for the central atom.": "",
+    "Beryllium has 2 valence electrons and boron has 3. In <span class=\"chem\">BeCl2</span> and <span class=\"chem\">BF3</span> all of these are used in single bonds. No electrons are left for the central atom.": "베릴륨은 원자가 전자가 2개, 붕소는 3개예요. <span class=\"chem\">BeCl2</span>와 <span class=\"chem\">BF3</span>에서는 이 전자가 모두 단일 결합에 쓰여요. 중심 원자에 남는 전자가 없어요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "BeCl<sub>2</sub>: Be has 4 electrons": "",
+    "BeCl<sub>2</sub>: Be has 4 electrons": "BeCl<sub>2</sub>: Be의 전자 4개",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "BF<sub>3</sub>: B has 6 electrons": "",
+    "BF<sub>3</sub>: B has 6 electrons": "BF<sub>3</sub>: B의 전자 6개",
 
     // Covalent bonds, the octet rule and Lewis formulas > figcaption
-    "Two molecules in which the central atom has fewer than an octet. Do not add double bonds to “fix” them.": "",
+    "Two molecules in which the central atom has fewer than an octet. Do not add double bonds to “fix” them.": "중심 원자가 옥텟 미만인 분자 2개. 이중 결합을 넣어서 “고치지” 마세요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > h3
-    "Organic examples": "",
+    "Organic examples": "유기 화합물의 예",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "Carbon forms four bonds. It can reach 8 electrons with single, double or triple bonds.": "",
+    "Carbon forms four bonds. It can reach 8 electrons with single, double or triple bonds.": "탄소는 결합을 4개 만들어요. 단일, 이중, 삼중 결합으로 전자 8개를 채울 수 있어요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "ethene, C<sub>2</sub>H<sub>4</sub>": "",
+    "ethene, C<sub>2</sub>H<sub>4</sub>": "ethene, C<sub>2</sub>H<sub>4</sub>",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "methanal, HCHO": "",
+    "methanal, HCHO": "methanal, HCHO",
 
     // Covalent bonds, the octet rule and Lewis formulas > p
-    "hydrogen cyanide, HCN": "",
+    "hydrogen cyanide, HCN": "사이안화 수소, HCN",
 
     // Covalent bonds, the octet rule and Lewis formulas > figcaption
-    "Each carbon atom has four bonding pairs. Count them: a double bond is two pairs and a triple bond is three.": "",
+    "Each carbon atom has four bonding pairs. Count them: a double bond is two pairs and a triple bond is three.": "각 탄소 원자에는 공유 전자쌍이 4개 있어요. 세어 보세요: 이중 결합은 2쌍, 삼중 결합은 3쌍이에요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > try it > p
-    "How many valence electrons must the Lewis formula of phosphorus trichloride, <span class=\"chem\">PCl3</span>, show?": "",
+    "How many valence electrons must the Lewis formula of phosphorus trichloride, <span class=\"chem\">PCl3</span>, show?": "삼염화 인 <span class=\"chem\">PCl3</span>의 루이스 구조식에는 원자가 전자가 몇 개 있어야 할까요?",
 
     // Covalent bonds, the octet rule and Lewis formulas > try it > li
-    "Phosphorus is in group 15 and chlorine is in group 17.": "",
+    "Phosphorus is in group 15 and chlorine is in group 17.": "인은 15족, 염소는 17족이에요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > try it > li
-    "Add 5 for the one P atom and 7 for each of the three Cl atoms.": "",
+    "Add 5 for the one P atom and 7 for each of the three Cl atoms.": "P 원자 1개에 5, Cl 원자 3개에 각각 7을 더해요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > try it > maths line
-    "total = 5 + 21 = 26 electrons": "",
+    "total = 5 + 21 = 26 electrons": "합계 = 5 + 21 = 전자 26개",
 
     // Covalent bonds, the octet rule and Lewis formulas > try it > p
-    "How many valence electrons must the Lewis formula of the carbonate ion, <span class=\"chem\">CO3^2-</span>, show?": "",
+    "How many valence electrons must the Lewis formula of the carbonate ion, <span class=\"chem\">CO3^2-</span>, show?": "탄산 이온 <span class=\"chem\">CO3^2-</span>의 루이스 구조식에는 원자가 전자가 몇 개 있어야 할까요?",
 
     // Covalent bonds, the octet rule and Lewis formulas > try it > li
-    "Count the atoms first: C has 4 and each O has 6.": "",
+    "Count the atoms first: C has 4 and each O has 6.": "먼저 원자를 세요: C는 4개, O는 각각 6개예요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > try it > li
-    "The charge is 2−. A negative ion has gained electrons, so add 2.": "",
+    "The charge is 2−. A negative ion has gained electrons, so add 2.": "전하가 2−예요. 음이온은 전자를 얻었으므로 2를 더해요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > try it > maths line
-    "charge 2−: + 2": "",
+    "charge 2−: + 2": "전하 2−: + 2",
 
     // Covalent bonds, the octet rule and Lewis formulas > try it > maths line
-    "total = 4 + 18 + 2 = 24 electrons": "",
+    "total = 4 + 18 + 2 = 24 electrons": "합계 = 4 + 18 + 2 = 전자 24개",
 
     // Covalent bonds, the octet rule and Lewis formulas > common mistake > p
-    "The most common lost mark is a missing lone pair on an outer atom, such as the three lone pairs on each F or Cl. The second is a missing charge on an ion. Always finish by counting the electrons in your drawing.": "",
+    "The most common lost mark is a missing lone pair on an outer atom, such as the three lone pairs on each F or Cl. The second is a missing charge on an ion. Always finish by counting the electrons in your drawing.": "가장 흔하게 점수를 잃는 실수는 바깥 원자의 비공유 전자쌍을 빠뜨리는 거예요. 예를 들어 F나 Cl마다 있는 비공유 전자쌍 3개요. 두 번째는 이온의 전하를 빠뜨리는 거예요. 마지막에는 항상 그림 속 전자를 세어 보세요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > exam tip (shown in English + translation) > p
-    "A Lewis formula earns its mark only if it is completely correct: every bonding pair and every lone pair on every atom. Dots, crosses and lines are all accepted, and you may mix them.": "",
+    "A Lewis formula earns its mark only if it is completely correct: every bonding pair and every lone pair on every atom. Dots, crosses and lines are all accepted, and you may mix them.": "루이스 구조식은 완전히 맞아야만 점수를 받아요: 모든 원자의 공유 전자쌍과 비공유 전자쌍이 하나도 빠짐없이 있어야 해요. 점, 가위표, 선은 모두 인정되고, 섞어 써도 돼요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > not needed for IB > p
-    "Atoms with more than 8 valence electrons (five or six pairs) are Additional HL. They are on the <a href=\"s2-2h.html\">HL page</a>. Molecules with an unpaired electron (radicals) come later, in Reactivity 3.3.": "",
+    "Atoms with more than 8 valence electrons (five or six pairs) are Additional HL. They are on the <a href=\"s2-2h.html\">HL page</a>. Molecules with an unpaired electron (radicals) come later, in Reactivity 3.3.": "원자가 전자가 8개보다 많은 원자(전자쌍 5개나 6개)는 HL 추가 내용이에요. <a href=\"s2-2h.html\">HL 페이지</a>에 있어요. 짝짓지 않은 전자가 있는 분자(라디칼)는 나중에 Reactivity 3.3에서 배워요.",
 
     // Covalent bonds, the octet rule and Lewis formulas > data-title attribute
-    "Covalent bonds and Lewis formulas: quick check": "",
+    "Covalent bonds and Lewis formulas: quick check": "공유 결합과 루이스 구조식: 빠른 확인",
 
     // Single, double and triple bonds > data-toc attribute
     // Single, double and triple bonds > h2
-    "Single, double and triple bonds": "",
+    "Single, double and triple bonds": "단일, 이중, 삼중 결합",
 
     // Single, double and triple bonds > p
-    "Two atoms can share more than one pair of electrons.": "",
+    "Two atoms can share more than one pair of electrons.": "두 원자는 전자쌍을 2개 이상 공유할 수 있어요.",
 
     // Single, double and triple bonds > li
-    "A <dfn data-def=\"A covalent bond made of one shared pair of electrons.\">single bond</dfn> is one shared pair.": "",
+    "A <dfn data-def=\"A covalent bond made of one shared pair of electrons.\">single bond</dfn> is one shared pair.": "<dfn data-def=\"공유 전자쌍 1개로 이루어진 공유 결합.\">단일 결합 <span class=\"en-term\">(single bond)</span></dfn>은 공유 전자쌍 1개예요.",
 
     // Single, double and triple bonds > data-def attribute
-    "A covalent bond made of one shared pair of electrons.": "",
+    "A covalent bond made of one shared pair of electrons.": "공유 전자쌍 1개로 이루어진 공유 결합.",
 
     // Single, double and triple bonds > li
-    "A <dfn data-def=\"A covalent bond made of two shared pairs of electrons.\">double bond</dfn> is two shared pairs.": "",
+    "A <dfn data-def=\"A covalent bond made of two shared pairs of electrons.\">double bond</dfn> is two shared pairs.": "<dfn data-def=\"공유 전자쌍 2개로 이루어진 공유 결합.\">이중 결합 <span class=\"en-term\">(double bond)</span></dfn>은 공유 전자쌍 2개예요.",
 
     // Single, double and triple bonds > data-def attribute
-    "A covalent bond made of two shared pairs of electrons.": "",
+    "A covalent bond made of two shared pairs of electrons.": "공유 전자쌍 2개로 이루어진 공유 결합.",
 
     // Single, double and triple bonds > li
-    "A <dfn data-def=\"A covalent bond made of three shared pairs of electrons.\">triple bond</dfn> is three shared pairs.": "",
+    "A <dfn data-def=\"A covalent bond made of three shared pairs of electrons.\">triple bond</dfn> is three shared pairs.": "<dfn data-def=\"공유 전자쌍 3개로 이루어진 공유 결합.\">삼중 결합 <span class=\"en-term\">(triple bond)</span></dfn>은 공유 전자쌍 3개예요.",
 
     // Single, double and triple bonds > data-def attribute
-    "A covalent bond made of three shared pairs of electrons.": "",
+    "A covalent bond made of three shared pairs of electrons.": "공유 전자쌍 3개로 이루어진 공유 결합.",
 
     // Single, double and triple bonds > p
-    "Cl<sub>2</sub>: single bond": "",
+    "Cl<sub>2</sub>: single bond": "Cl<sub>2</sub>: 단일 결합",
 
     // Single, double and triple bonds > p
-    "O<sub>2</sub>: double bond": "",
+    "O<sub>2</sub>: double bond": "O<sub>2</sub>: 이중 결합",
 
     // Single, double and triple bonds > p
-    "N<sub>2</sub>: triple bond": "",
+    "N<sub>2</sub>: triple bond": "N<sub>2</sub>: 삼중 결합",
 
     // Single, double and triple bonds > figcaption
-    "One, two and three shared pairs. Each atom still has 8 electrons around it.": "",
+    "One, two and three shared pairs. Each atom still has 8 electrons around it.": "공유 전자쌍 1개, 2개, 3개. 어느 경우든 각 원자 주위에는 여전히 전자가 8개 있어요.",
 
     // Single, double and triple bonds > h3
     // Single, double and triple bonds > widget > data-title attribute
-    "Bond length and bond strength": "",
+    "Bond length and bond strength": "결합 길이와 결합 세기",
 
     // Single, double and triple bonds > p
-    "The <dfn data-def=\"The distance between the nuclei of two bonded atoms.\">bond length</dfn> is the distance between the two nuclei. The <dfn data-def=\"How much energy is needed to break a bond. A stronger bond needs more energy.\">bond strength</dfn> tells you how much energy is needed to break the bond. It is measured as a bond enthalpy.": "",
+    "The <dfn data-def=\"The distance between the nuclei of two bonded atoms.\">bond length</dfn> is the distance between the two nuclei. The <dfn data-def=\"How much energy is needed to break a bond. A stronger bond needs more energy.\">bond strength</dfn> tells you how much energy is needed to break the bond. It is measured as a bond enthalpy.": "<dfn data-def=\"결합한 두 원자의 원자핵 사이 거리.\">결합 길이 <span class=\"en-term\">(bond length)</span></dfn>는 두 원자핵 사이의 거리예요. <dfn data-def=\"결합을 끊는 데 필요한 에너지의 크기. 결합이 강할수록 더 많은 에너지가 필요해요.\">결합 세기 <span class=\"en-term\">(bond strength)</span></dfn>는 결합을 끊는 데 에너지가 얼마나 필요한지 알려 줘요. 결합 엔탈피로 나타내요.",
 
     // Single, double and triple bonds > data-def attribute
-    "The distance between the nuclei of two bonded atoms.": "",
+    "The distance between the nuclei of two bonded atoms.": "결합한 두 원자의 원자핵 사이 거리.",
 
     // Single, double and triple bonds > data-def attribute
-    "How much energy is needed to break a bond. A stronger bond needs more energy.": "",
+    "How much energy is needed to break a bond. A stronger bond needs more energy.": "결합을 끊는 데 필요한 에너지의 크기. 결합이 강할수록 더 많은 에너지가 필요해요.",
 
     // Single, double and triple bonds > p
-    "Think of the shared electrons as glue between the two nuclei. More shared pairs mean more negative charge between the nuclei. Both nuclei are attracted more strongly to it.": "",
+    "Think of the shared electrons as glue between the two nuclei. More shared pairs mean more negative charge between the nuclei. Both nuclei are attracted more strongly to it.": "공유 전자를 두 원자핵 사이의 접착제라고 생각해 봐요. 공유 전자쌍이 많을수록 원자핵 사이의 음전하가 많아져요. 두 원자핵이 모두 그 전자에 더 세게 끌려요.",
 
     // Single, double and triple bonds > key idea > p
-    "More shared pairs give a stronger attraction between the nuclei and the shared electrons. The nuclei are pulled closer together. So the bond is <b>shorter</b> and <b>stronger</b>: triple, then double, then single.": "",
+    "More shared pairs give a stronger attraction between the nuclei and the shared electrons. The nuclei are pulled closer together. So the bond is <b>shorter</b> and <b>stronger</b>: triple, then double, then single.": "공유 전자쌍이 많을수록 원자핵과 공유 전자 사이의 인력이 강해져요. 원자핵이 서로 더 가까이 당겨져요. 그래서 결합이 <b>더 짧고</b> <b>더 강해요</b>: 삼중 결합, 이중 결합, 단일 결합 순서예요.",
 
     // Single, double and triple bonds > table > caption
-    "Bond lengths and bond enthalpies from the data booklet": "",
+    "Bond lengths and bond enthalpies from the data booklet": "데이터 부클릿의 결합 길이와 결합 엔탈피",
 
     // Single, double and triple bonds > table > th
     // Bond polarity > table > th
-    "Bond": "",
+    "Bond": "결합",
 
     // Single, double and triple bonds > table > th
-    "Shared pairs": "",
+    "Shared pairs": "공유 전자쌍 수",
 
     // Single, double and triple bonds > table > th
-    "Length / pm": "",
+    "Length / pm": "길이 / pm",
 
     // Single, double and triple bonds > table > th
-    "Bond enthalpy / kJ mol<sup>−1</sup>": "",
+    "Bond enthalpy / kJ mol<sup>−1</sup>": "결합 엔탈피 / kJ mol<sup>−1</sup>",
 
     // Single, double and triple bonds > p
-    "1 pm (picometre) is 10<sup>−12</sup> m. The booklet prints bond lengths in units of 10<sup>−12</sup> m, which is the same thing.": "",
+    "1 pm (picometre) is 10<sup>−12</sup> m. The booklet prints bond lengths in units of 10<sup>−12</sup> m, which is the same thing.": "1 pm(피코미터)은 10<sup>−12</sup> m예요. 데이터 부클릿에는 결합 길이가 10<sup>−12</sup> m 단위로 나와 있는데, 같은 뜻이에요.",
 
     // Single, double and triple bonds > widget > figcaption
-    "Choose a pair of atoms. The bonds are drawn to scale. Notice that the shortest bond always has the longest energy bar.": "",
+    "Choose a pair of atoms. The bonds are drawn to scale. Notice that the shortest bond always has the longest energy bar.": "원자 쌍을 하나 골라 보세요. 결합은 실제 비율대로 그려져 있어요. 가장 짧은 결합의 에너지 막대가 항상 가장 길다는 점을 눈여겨보세요.",
 
     // Single, double and triple bonds > data booklet note > p
-    "Bond lengths are in section 11 and bond enthalpies are in section 12 of the data booklet. You do not need to memorize any values. You need the trend and the reason.": "",
+    "Bond lengths are in section 11 and bond enthalpies are in section 12 of the data booklet. You do not need to memorize any values. You need the trend and the reason.": "결합 길이는 데이터 부클릿 11번 항목에, 결합 엔탈피는 12번 항목에 있어요. 값을 외울 필요는 없어요. 경향과 그 이유를 알아야 해요.",
 
     // Single, double and triple bonds > try it > p
-    "Use the table. How much shorter is the N≡N bond than the N–N bond?": "",
+    "Use the table. How much shorter is the N≡N bond than the N–N bond?": "표를 이용하세요. N≡N 결합은 N–N 결합보다 얼마나 짧을까요?",
 
     // Single, double and triple bonds > try it > li
-    "Find the two lengths in the table: N–N and N≡N.": "",
+    "Find the two lengths in the table: N–N and N≡N.": "표에서 두 길이를 찾아요: N–N과 N≡N.",
 
     // Single, double and triple bonds > try it > li
-    "Subtract the shorter length from the longer one.": "",
+    "Subtract the shorter length from the longer one.": "긴 길이에서 짧은 길이를 빼요.",
 
     // Single, double and triple bonds > try it > p
-    "The triple bond has three shared pairs, so the nuclei are pulled closer.": "",
+    "The triple bond has three shared pairs, so the nuclei are pulled closer.": "삼중 결합에는 공유 전자쌍이 3개 있어서 원자핵이 더 가까이 당겨져요.",
 
     // Single, double and triple bonds > exam tip (shown in English + translation) > p
-    "To explain why a triple bond is shorter or stronger, write about the electrons: “more shared pairs of electrons, so greater attraction between the nuclei and the shared electrons”. Then give the result: shorter bond, stronger bond.": "",
+    "To explain why a triple bond is shorter or stronger, write about the electrons: “more shared pairs of electrons, so greater attraction between the nuclei and the shared electrons”. Then give the result: shorter bond, stronger bond.": "삼중 결합이 왜 더 짧거나 강한지 설명하려면 전자에 대해 쓰세요: “공유 전자쌍이 더 많아서 원자핵과 공유 전자 사이의 인력이 더 크다”. 그다음 결과를 쓰세요: 결합이 더 짧고, 더 강하다.",
 
     // Single, double and triple bonds > not needed for IB > p
-    "The term “bond order” is not in the IB guide. “One, two or three shared pairs” is enough. Calculations with bond enthalpies come later, in Reactivity 1.2.": "",
+    "The term “bond order” is not in the IB guide. “One, two or three shared pairs” is enough. Calculations with bond enthalpies come later, in Reactivity 1.2.": "“결합 차수(bond order)”라는 용어는 IB 가이드에 없어요. “공유 전자쌍 1개, 2개, 3개”라고만 하면 충분해요. 결합 엔탈피를 이용한 계산은 나중에 Reactivity 1.2에서 배워요.",
 
     // Single, double and triple bonds > data-title attribute
-    "Bond length and strength: quick check": "",
+    "Bond length and strength: quick check": "결합 길이와 세기: 빠른 확인",
 
     // Coordination bonds > data-toc attribute
     // Coordination bonds > h2
-    "Coordination bonds": "",
+    "Coordination bonds": "배위 결합",
 
     // Coordination bonds > p
-    "In most covalent bonds each atom gives one electron to the shared pair. Sometimes one atom gives both.": "",
+    "In most covalent bonds each atom gives one electron to the shared pair. Sometimes one atom gives both.": "대부분의 공유 결합에서는 각 원자가 공유 전자쌍에 전자를 1개씩 내놓아요. 가끔은 한 원자가 2개를 모두 내놓아요.",
 
     // Coordination bonds > p
-    "A <dfn data-def=\"A covalent bond in which both electrons of the shared pair originate from the same atom.\">coordination bond</dfn> is a covalent bond in which both electrons of the shared pair originate from the same atom.": "",
+    "A <dfn data-def=\"A covalent bond in which both electrons of the shared pair originate from the same atom.\">coordination bond</dfn> is a covalent bond in which both electrons of the shared pair originate from the same atom.": "<dfn data-def=\"공유 전자쌍의 두 전자가 모두 같은 원자에서 온 공유 결합.\">배위 결합 <span class=\"en-term\">(coordination bond)</span></dfn>은 공유 전자쌍의 두 전자가 모두 같은 원자에서 온 공유 결합이에요.",
 
     // Coordination bonds > data-def attribute
-    "A covalent bond in which both electrons of the shared pair originate from the same atom.": "",
+    "A covalent bond in which both electrons of the shared pair originate from the same atom.": "공유 전자쌍의 두 전자가 모두 같은 원자에서 온 공유 결합.",
 
     // Coordination bonds > p
-    "The atom that gives the pair must have a lone pair. The atom that accepts the pair must have room for two more electrons.": "",
+    "The atom that gives the pair must have a lone pair. The atom that accepts the pair must have room for two more electrons.": "전자쌍을 내놓는 원자에는 비공유 전자쌍이 있어야 해요. 전자쌍을 받는 원자에는 전자 2개가 더 들어갈 자리가 있어야 해요.",
 
     // Coordination bonds > h3
-    "Three examples to know": "",
+    "Three examples to know": "알아 둘 예 3가지",
 
     // Coordination bonds > p
-    "<b>The ammonium ion.</b> Ammonia has a lone pair on nitrogen. An H<sup>+</sup> ion has no electrons. Nitrogen shares its lone pair with H<sup>+</sup>.": "",
+    "<b>The ammonium ion.</b> Ammonia has a lone pair on nitrogen. An H<sup>+</sup> ion has no electrons. Nitrogen shares its lone pair with H<sup>+</sup>.": "<b>암모늄 이온.</b> 암모니아의 질소에는 비공유 전자쌍이 있어요. H<sup>+</sup> 이온에는 전자가 없어요. 질소가 비공유 전자쌍을 H<sup>+</sup>와 공유해요.",
 
     // Coordination bonds > p
-    "<b>The hydronium ion.</b> Water has two lone pairs on oxygen. One of them is shared with an H<sup>+</sup> ion.": "",
+    "<b>The hydronium ion.</b> Water has two lone pairs on oxygen. One of them is shared with an H<sup>+</sup> ion.": "<b>하이드로늄 이온.</b> 물의 산소에는 비공유 전자쌍이 2개 있어요. 그중 하나를 H<sup>+</sup> 이온과 공유해요.",
 
     // Coordination bonds > p
-    "<b>Carbon monoxide.</b> Carbon has 4 valence electrons and oxygen has 6. In CO the two atoms share three pairs, and each atom also keeps one lone pair. Carbon gives one electron to each of two shared pairs. Oxygen does the same. The third shared pair comes entirely from oxygen.": "",
+    "<b>Carbon monoxide.</b> Carbon has 4 valence electrons and oxygen has 6. In CO the two atoms share three pairs, and each atom also keeps one lone pair. Carbon gives one electron to each of two shared pairs. Oxygen does the same. The third shared pair comes entirely from oxygen.": "<b>일산화 탄소.</b> 탄소는 원자가 전자가 4개, 산소는 6개예요. CO에서 두 원자는 전자쌍 3개를 공유하고, 각 원자는 비공유 전자쌍도 1개씩 가지고 있어요. 탄소는 공유 전자쌍 2개에 전자를 1개씩 내놓아요. 산소도 똑같이 해요. 세 번째 공유 전자쌍은 모두 산소에서 와요.",
 
     // Coordination bonds > p
-    "ammonium ion": "",
+    "ammonium ion": "암모늄 이온",
 
     // Coordination bonds > p
-    "hydronium ion": "",
+    "hydronium ion": "하이드로늄 이온",
 
     // Coordination bonds > p
-    "carbon monoxide: one of the three pairs is a coordination bond from O": "",
+    "carbon monoxide: one of the three pairs is a coordination bond from O": "일산화 탄소: 전자쌍 3개 중 1개가 O에서 온 배위 결합",
 
     // Coordination bonds > figcaption
-    "A coordination bond can be drawn as an arrow. The arrow starts at the atom that gave both electrons and points to the atom that accepted them.": "",
+    "A coordination bond can be drawn as an arrow. The arrow starts at the atom that gave both electrons and points to the atom that accepted them.": "배위 결합은 화살표로 그릴 수 있어요. 화살표는 전자 2개를 모두 내놓은 원자에서 시작해서, 전자를 받은 원자를 가리켜요.",
 
     // Coordination bonds > p
-    "Once it has formed, a coordination bond is the same as any other covalent bond. In <span class=\"chem\">NH4+</span> all four N–H bonds have the same length and strength.": "",
+    "Once it has formed, a coordination bond is the same as any other covalent bond. In <span class=\"chem\">NH4+</span> all four N–H bonds have the same length and strength.": "배위 결합은 일단 생기고 나면 다른 공유 결합과 똑같아요. <span class=\"chem\">NH4+</span>에서 N–H 결합 4개는 길이와 세기가 모두 같아요.",
 
     // Coordination bonds > h3
-    "How to identify a coordination bond": "",
+    "How to identify a coordination bond": "배위 결합 찾는 방법",
 
     // Coordination bonds > li
     // Shapes of molecules: the VSEPR model > li
-    "Draw the Lewis formula.": "",
+    "Draw the Lewis formula.": "루이스 구조식을 그려요.",
 
     // Coordination bonds > li
-    "For each atom, count the bonds it has formed.": "",
+    "For each atom, count the bonds it has formed.": "원자마다 만든 결합의 수를 세요.",
 
     // Coordination bonds > li
-    "Compare with the number of bonds that atom usually forms: H 1, C 4, N 3, O 2, F and Cl 1.": "",
+    "Compare with the number of bonds that atom usually forms: H 1, C 4, N 3, O 2, F and Cl 1.": "그 원자가 보통 만드는 결합 수와 비교해요: H 1, C 4, N 3, O 2, F와 Cl 1.",
 
     // Coordination bonds > li
-    "An atom with one bond more than usual, such as N with four bonds or O with three bonds, has given a lone pair. An atom that started with fewer than an octet, such as B in <span class=\"chem\">BF3</span>, can accept a pair.": "",
+    "An atom with one bond more than usual, such as N with four bonds or O with three bonds, has given a lone pair. An atom that started with fewer than an octet, such as B in <span class=\"chem\">BF3</span>, can accept a pair.": "보통보다 결합이 하나 더 많은 원자(결합이 4개인 N이나 3개인 O)는 비공유 전자쌍을 내놓은 거예요. <span class=\"chem\">BF3</span>의 B처럼 처음에 옥텟 미만이었던 원자는 전자쌍을 받을 수 있어요.",
 
     // Coordination bonds > p
-    "Another example: ammonia reacts with boron trifluoride. Boron has only 6 electrons and nitrogen has a lone pair. The new N–B bond in <span class=\"chem\">H3NBF3</span> is a coordination bond, and boron now has 8 electrons.": "",
+    "Another example: ammonia reacts with boron trifluoride. Boron has only 6 electrons and nitrogen has a lone pair. The new N–B bond in <span class=\"chem\">H3NBF3</span> is a coordination bond, and boron now has 8 electrons.": "다른 예: 암모니아는 삼플루오린화 붕소와 반응해요. 붕소에는 전자가 6개뿐이고, 질소에는 비공유 전자쌍이 있어요. <span class=\"chem\">H3NBF3</span>에서 새로 생긴 N–B 결합은 배위 결합이고, 이제 붕소의 전자는 8개예요.",
 
     // Coordination bonds > try it > data-label attribute
-    "Number of coordination bonds": "",
+    "Number of coordination bonds": "배위 결합의 수",
 
     // Coordination bonds > try it > p
-    "How many of the four N–H bonds in one ammonium ion, <span class=\"chem\">NH4+</span>, formed as a coordination bond?": "",
+    "How many of the four N–H bonds in one ammonium ion, <span class=\"chem\">NH4+</span>, formed as a coordination bond?": "암모늄 이온 <span class=\"chem\">NH4+</span> 1개에 있는 N–H 결합 4개 중 몇 개가 배위 결합으로 생겼을까요?",
 
     // Coordination bonds > try it > li
-    "Think about how the ion forms from <span class=\"chem\">NH3</span> and <span class=\"chem\">H+</span>.": "",
+    "Think about how the ion forms from <span class=\"chem\">NH3</span> and <span class=\"chem\">H+</span>.": "이 이온이 <span class=\"chem\">NH3</span>와 <span class=\"chem\">H+</span>에서 어떻게 생기는지 생각해 봐요.",
 
     // Coordination bonds > try it > li
-    "Three N–H bonds were already in the ammonia molecule. Only the new bond used nitrogen’s lone pair.": "",
+    "Three N–H bonds were already in the ammonia molecule. Only the new bond used nitrogen’s lone pair.": "N–H 결합 3개는 암모니아 분자에 이미 있었어요. 새 결합만 질소의 비공유 전자쌍을 썼어요.",
 
     // Coordination bonds > try it > p
-    "One. Ammonia already has three normal N–H bonds. The fourth forms when nitrogen shares its lone pair with H<sup>+</sup>, so both electrons come from nitrogen.": "",
+    "One. Ammonia already has three normal N–H bonds. The fourth forms when nitrogen shares its lone pair with H<sup>+</sup>, so both electrons come from nitrogen.": "1개예요. 암모니아에는 이미 보통의 N–H 결합이 3개 있어요. 네 번째 결합은 질소가 비공유 전자쌍을 H<sup>+</sup>와 공유할 때 생기므로, 전자 2개가 모두 질소에서 와요.",
 
     // Coordination bonds > exam tip (shown in English + translation) > p
-    "The definition mark needs “both electrons (of the shared pair) come from the same atom”. If you are asked to label a coordination bond, an arrow or any clear label is accepted. Markschemes also accept the older names “dative bond” and “coordinate bond”.": "",
+    "The definition mark needs “both electrons (of the shared pair) come from the same atom”. If you are asked to label a coordination bond, an arrow or any clear label is accepted. Markschemes also accept the older names “dative bond” and “coordinate bond”.": "정의 점수를 받으려면 “(공유 전자쌍의) 두 전자가 모두 같은 원자에서 온다”는 내용이 있어야 해요. 배위 결합에 이름을 붙이라고 하면 화살표나 분명한 표시 어느 것이든 인정돼요. 채점 기준은 예전 이름인 “dative bond”와 “coordinate bond”도 인정해요.",
 
     // Coordination bonds > Additional HL > p
-    "HL only: coordination bonds also hold molecules and ions (ligands) to a transition element ion in a complex ion. This is covered on the <a href=\"s2-2h.html\">HL page for 2.2</a> and in <a href=\"s3-1.html\">Structure 3.1</a>.": "",
+    "HL only: coordination bonds also hold molecules and ions (ligands) to a transition element ion in a complex ion. This is covered on the <a href=\"s2-2h.html\">HL page for 2.2</a> and in <a href=\"s3-1.html\">Structure 3.1</a>.": "HL 전용: 배위 결합은 착이온에서 분자나 이온(리간드)을 전이 원소 이온에 붙잡아 두기도 해요. 이 내용은 <a href=\"s2-2h.html\">2.2 HL 페이지</a>와 <a href=\"s3-1.html\">Structure 3.1</a>에서 다뤄요.",
 
     // Coordination bonds > data-title attribute
-    "Coordination bonds: quick check": "",
+    "Coordination bonds: quick check": "배위 결합: 빠른 확인",
 
     // Shapes of molecules: the VSEPR model > data-toc attribute
-    "Shapes of molecules (VSEPR)": "",
+    "Shapes of molecules (VSEPR)": "분자의 모양 (VSEPR)",
 
     // Shapes of molecules: the VSEPR model > h2
-    "Shapes of molecules: the VSEPR model": "",
+    "Shapes of molecules: the VSEPR model": "분자의 모양: VSEPR 모형",
 
     // Shapes of molecules: the VSEPR model > p
-    "Tie four balloons together at their necks. They push each other apart and point to the four corners of a tetrahedron (a pyramid with a triangular base). You do not have to arrange them. They do it themselves.": "",
+    "Tie four balloons together at their necks. They push each other apart and point to the four corners of a tetrahedron (a pyramid with a triangular base). You do not have to arrange them. They do it themselves.": "풍선 4개의 입구를 한데 묶어 보세요. 풍선들은 서로 밀어내서 정사면체(밑면이 삼각형인 피라미드)의 네 꼭짓점을 향해요. 따로 배열할 필요가 없어요. 저절로 그렇게 돼요.",
 
     // Shapes of molecules: the VSEPR model > p
-    "Groups of electrons around an atom behave in the same way. They are all negative, so they repel each other and move as far apart as possible.": "",
+    "Groups of electrons around an atom behave in the same way. They are all negative, so they repel each other and move as far apart as possible.": "원자 주위의 전자 무리도 똑같이 행동해요. 모두 음전하를 띠기 때문에 서로 밀어내고, 최대한 멀리 떨어져요.",
 
     // Shapes of molecules: the VSEPR model > p
-    "This idea is the <dfn data-def=\"Valence shell electron pair repulsion model. It predicts the shape of a molecule from the repulsion between the electron domains around a central atom.\">valence shell electron pair repulsion (VSEPR) model</dfn>. It predicts the shape of a molecule from the repulsion between the electron domains around a central atom.": "",
+    "This idea is the <dfn data-def=\"Valence shell electron pair repulsion model. It predicts the shape of a molecule from the repulsion between the electron domains around a central atom.\">valence shell electron pair repulsion (VSEPR) model</dfn>. It predicts the shape of a molecule from the repulsion between the electron domains around a central atom.": "이 생각이 <dfn data-def=\"원자가 껍질 전자쌍 반발 모형. 중심 원자 주위의 전자 영역 사이의 반발로 분자의 모양을 예측해요.\">원자가 껍질 전자쌍 반발(VSEPR) 모형 <span class=\"en-term\">(valence shell electron pair repulsion (VSEPR) model)</span></dfn>이에요. 중심 원자 주위의 전자 영역 사이의 반발로 분자의 모양을 예측해요.",
 
     // Shapes of molecules: the VSEPR model > data-def attribute
-    "Valence shell electron pair repulsion model. It predicts the shape of a molecule from the repulsion between the electron domains around a central atom.": "",
+    "Valence shell electron pair repulsion model. It predicts the shape of a molecule from the repulsion between the electron domains around a central atom.": "원자가 껍질 전자쌍 반발 모형. 중심 원자 주위의 전자 영역 사이의 반발로 분자의 모양을 예측해요.",
 
     // Shapes of molecules: the VSEPR model > h3
     // Shapes of molecules: the VSEPR model > table > th
     // widget string (assets/js/widgets-s2-2.js)
-    "Electron domains": "",
+    "Electron domains": "전자 영역",
 
     // Shapes of molecules: the VSEPR model > p
-    "An <dfn data-def=\"A region of electron density around a central atom. A lone pair, a single bond, a double bond or a triple bond each count as one electron domain.\">electron domain</dfn> is a region of electron density around the central atom. Each of these counts as <b>one</b> domain:": "",
+    "An <dfn data-def=\"A region of electron density around a central atom. A lone pair, a single bond, a double bond or a triple bond each count as one electron domain.\">electron domain</dfn> is a region of electron density around the central atom. Each of these counts as <b>one</b> domain:": "<dfn data-def=\"중심 원자 주위에서 전자 밀도가 있는 영역. 비공유 전자쌍, 단일 결합, 이중 결합, 삼중 결합은 각각 전자 영역 1개로 세요.\">전자 영역 <span class=\"en-term\">(electron domain)</span></dfn>은 중심 원자 주위에서 전자 밀도가 있는 영역이에요. 다음은 각각 <b>1개</b>의 영역으로 세요:",
 
     // Shapes of molecules: the VSEPR model > data-def attribute
-    "A region of electron density around a central atom. A lone pair, a single bond, a double bond or a triple bond each count as one electron domain.": "",
+    "A region of electron density around a central atom. A lone pair, a single bond, a double bond or a triple bond each count as one electron domain.": "중심 원자 주위에서 전자 밀도가 있는 영역. 비공유 전자쌍, 단일 결합, 이중 결합, 삼중 결합은 각각 전자 영역 1개로 세요.",
 
     // Shapes of molecules: the VSEPR model > li
-    "a lone pair,": "",
+    "a lone pair,": "비공유 전자쌍,",
 
     // Shapes of molecules: the VSEPR model > li
-    "a single bond,": "",
+    "a single bond,": "단일 결합,",
 
     // Shapes of molecules: the VSEPR model > li
-    "a double bond,": "",
+    "a double bond,": "이중 결합,",
 
     // Shapes of molecules: the VSEPR model > li
-    "a triple bond.": "",
+    "a triple bond.": "삼중 결합.",
 
     // Shapes of molecules: the VSEPR model > p
-    "A double bond is two pairs of electrons, but both pairs point in the same direction. So it is one domain.": "",
+    "A double bond is two pairs of electrons, but both pairs point in the same direction. So it is one domain.": "이중 결합은 전자쌍 2개이지만, 두 쌍이 같은 방향을 향해요. 그래서 영역 1개예요.",
 
     // Shapes of molecules: the VSEPR model > h3
-    "Two geometries, two names": "",
+    "Two geometries, two names": "두 가지 배치, 두 가지 이름",
 
     // Shapes of molecules: the VSEPR model > p
-    "The <dfn data-def=\"The arrangement of all the electron domains, bonding and non-bonding, around the central atom.\">electron domain geometry</dfn> is the arrangement of <em>all</em> the domains, including lone pairs.": "",
+    "The <dfn data-def=\"The arrangement of all the electron domains, bonding and non-bonding, around the central atom.\">electron domain geometry</dfn> is the arrangement of <em>all</em> the domains, including lone pairs.": "<dfn data-def=\"중심 원자 주위에 있는 모든 전자 영역(결합한 것과 결합하지 않은 것)의 배치.\">전자 영역 배치 <span class=\"en-term\">(electron domain geometry)</span></dfn>는 비공유 전자쌍을 포함한 <em>모든</em> 영역의 배치예요.",
 
     // Shapes of molecules: the VSEPR model > data-def attribute
-    "The arrangement of all the electron domains, bonding and non-bonding, around the central atom.": "",
+    "The arrangement of all the electron domains, bonding and non-bonding, around the central atom.": "중심 원자 주위에 있는 모든 전자 영역(결합한 것과 결합하지 않은 것)의 배치.",
 
     // Shapes of molecules: the VSEPR model > p
-    "The <dfn data-def=\"The arrangement of the atoms only. Lone pairs affect it but are not part of its name.\">molecular geometry</dfn> is the arrangement of the <em>atoms</em> only. This is the shape of the molecule.": "",
+    "The <dfn data-def=\"The arrangement of the atoms only. Lone pairs affect it but are not part of its name.\">molecular geometry</dfn> is the arrangement of the <em>atoms</em> only. This is the shape of the molecule.": "<dfn data-def=\"원자들만의 배치. 비공유 전자쌍은 이 배치에 영향을 주지만 이름에는 들어가지 않아요.\">분자 모양 <span class=\"en-term\">(molecular geometry)</span></dfn>은 <em>원자</em>들만의 배치예요. 이것이 분자의 모양이에요.",
 
     // Shapes of molecules: the VSEPR model > data-def attribute
-    "The arrangement of the atoms only. Lone pairs affect it but are not part of its name.": "",
+    "The arrangement of the atoms only. Lone pairs affect it but are not part of its name.": "원자들만의 배치. 비공유 전자쌍은 이 배치에 영향을 주지만 이름에는 들어가지 않아요.",
 
     // Shapes of molecules: the VSEPR model > p
-    "Lone pairs still take up space. But you cannot “see” them in the shape, so they are not part of the name of the molecular geometry.": "",
+    "Lone pairs still take up space. But you cannot “see” them in the shape, so they are not part of the name of the molecular geometry.": "비공유 전자쌍도 공간을 차지해요. 하지만 모양에서는 “보이지” 않으므로 분자 모양의 이름에는 들어가지 않아요.",
 
     // Shapes of molecules: the VSEPR model > table > caption
-    "The shapes you need for two, three and four electron domains": "",
+    "The shapes you need for two, three and four electron domains": "전자 영역이 2개, 3개, 4개일 때 알아야 할 모양",
 
     // Shapes of molecules: the VSEPR model > table > th
-    "Bonding domains": "",
+    "Bonding domains": "결합 영역",
 
     // Shapes of molecules: the VSEPR model > table > th
-    "Lone pairs": "",
+    "Lone pairs": "비공유 전자쌍",
 
     // Shapes of molecules: the VSEPR model > table > th
     // widget string (assets/js/widgets-s2-2.js)
-    "Electron domain geometry": "",
+    "Electron domain geometry": "전자 영역 배치",
 
     // Shapes of molecules: the VSEPR model > table > th
     // Molecular polarity > table > th
     // widget string (assets/js/widgets-s2-2.js)
-    "Molecular geometry": "",
+    "Molecular geometry": "분자 모양",
 
     // Shapes of molecules: the VSEPR model > table > th
     // widget string (assets/js/widgets-s2-2.js)
-    "Bond angle": "",
+    "Bond angle": "결합각",
 
     // Shapes of molecules: the VSEPR model > table > th
     // Intermolecular forces > table > th
     // widget string (assets/js/widgets-s2-2.js)
-    "Example": "",
+    "Example": "예",
 
     // Shapes of molecules: the VSEPR model > table > td
     // widget string (assets/js/widgets-s2-2.js)
-    "linear": "",
+    "linear": "직선형",
 
     // Shapes of molecules: the VSEPR model > table > td
-    "<span class=\"chem\">CO2</span>, <span class=\"chem\">BeCl2</span>": "",
+    "<span class=\"chem\">CO2</span>, <span class=\"chem\">BeCl2</span>": "<span class=\"chem\">CO2</span>, <span class=\"chem\">BeCl2</span>",
 
     // Shapes of molecules: the VSEPR model > table > td
     // Molecular polarity > table > th
     // widget string (assets/js/widgets-s2-2.js)
-    "trigonal planar": "",
+    "trigonal planar": "평면 삼각형",
 
     // Shapes of molecules: the VSEPR model > table > td
-    "<span class=\"chem\">BF3</span>": "",
-
-    // Shapes of molecules: the VSEPR model > table > td
-    // Molecular polarity > table > th
-    // widget string (assets/js/widgets-s2-2.js)
-    "bent (V-shaped)": "",
-
-    // Shapes of molecules: the VSEPR model > table > td
-    "less than 120°": "",
-
-    // Shapes of molecules: the VSEPR model > table > td
-    "<span class=\"chem\">SO2</span>": "",
+    "<span class=\"chem\">BF3</span>": "<span class=\"chem\">BF3</span>",
 
     // Shapes of molecules: the VSEPR model > table > td
     // Molecular polarity > table > th
     // widget string (assets/js/widgets-s2-2.js)
-    "tetrahedral": "",
+    "bent (V-shaped)": "굽은 형(V자형)",
 
     // Shapes of molecules: the VSEPR model > table > td
-    "<span class=\"chem\">CH4</span>, <span class=\"chem\">NH4+</span>": "",
+    "less than 120°": "120°보다 작음",
+
+    // Shapes of molecules: the VSEPR model > table > td
+    "<span class=\"chem\">SO2</span>": "<span class=\"chem\">SO2</span>",
 
     // Shapes of molecules: the VSEPR model > table > td
     // Molecular polarity > table > th
     // widget string (assets/js/widgets-s2-2.js)
-    "trigonal pyramidal": "",
+    "tetrahedral": "정사면체형",
 
     // Shapes of molecules: the VSEPR model > table > td
-    "less than 109.5° (about 107° in <span class=\"chem\">NH3</span>)": "",
+    "<span class=\"chem\">CH4</span>, <span class=\"chem\">NH4+</span>": "<span class=\"chem\">CH4</span>, <span class=\"chem\">NH4+</span>",
+
+    // Shapes of molecules: the VSEPR model > table > td
+    // Molecular polarity > table > th
+    // widget string (assets/js/widgets-s2-2.js)
+    "trigonal pyramidal": "삼각뿔형",
+
+    // Shapes of molecules: the VSEPR model > table > td
+    "less than 109.5° (about 107° in <span class=\"chem\">NH3</span>)": "109.5°보다 작음 (<span class=\"chem\">NH3</span>에서 약 107°)",
 
     // Shapes of molecules: the VSEPR model > table > td
     // Shapes of molecules: the VSEPR model > table > th
-    "<span class=\"chem\">NH3</span>": "",
+    "<span class=\"chem\">NH3</span>": "<span class=\"chem\">NH3</span>",
 
     // Shapes of molecules: the VSEPR model > table > td
-    "less than 109.5° (about 104.5° in <span class=\"chem\">H2O</span>)": "",
+    "less than 109.5° (about 104.5° in <span class=\"chem\">H2O</span>)": "109.5°보다 작음 (<span class=\"chem\">H2O</span>에서 약 104.5°)",
 
     // Shapes of molecules: the VSEPR model > p
-    "In sulfur dioxide, <span class=\"chem\">SO2</span>, sulfur is the central atom. A Lewis formula in which every atom has 8 electrons has one <span class=\"chem\">S=O</span> double bond, one <span class=\"chem\">S–O</span> single bond and one lone pair on sulfur. That is three electron domains around sulfur, so the molecule is bent.": "",
+    "In sulfur dioxide, <span class=\"chem\">SO2</span>, sulfur is the central atom. A Lewis formula in which every atom has 8 electrons has one <span class=\"chem\">S=O</span> double bond, one <span class=\"chem\">S–O</span> single bond and one lone pair on sulfur. That is three electron domains around sulfur, so the molecule is bent.": "이산화 황 <span class=\"chem\">SO2</span>에서는 황이 중심 원자예요. 모든 원자의 전자가 8개인 루이스 구조식에는 <span class=\"chem\">S=O</span> 이중 결합 1개, <span class=\"chem\">S–O</span> 단일 결합 1개, 황의 비공유 전자쌍 1개가 있어요. 황 주위에 전자 영역이 3개이므로 분자는 굽은 형이에요.",
 
     // Shapes of molecules: the VSEPR model > widget > data-title attribute
-    "Shapes in three dimensions": "",
+    "Shapes in three dimensions": "3차원으로 보는 모양",
 
     // Shapes of molecules: the VSEPR model > widget > figcaption
-    "Explore: choose the number of domains and lone pairs, then drag the model to turn it. The dashed lobes are lone pairs. Then switch to “Predict first” and test yourself. Bond lengths are not to scale.": "",
+    "Explore: choose the number of domains and lone pairs, then drag the model to turn it. The dashed lobes are lone pairs. Then switch to “Predict first” and test yourself. Bond lengths are not to scale.": "탐색해 보세요: 영역 수와 비공유 전자쌍 수를 고르고, 모형을 끌어서 돌려 봐요. 점선으로 된 부분이 비공유 전자쌍이에요. 그다음 “먼저 예측하기”로 바꿔서 스스로 확인해 보세요. 결합 길이는 실제 비율과 달라요.",
 
     // Shapes of molecules: the VSEPR model > h3
-    "Lone pairs change the bond angle": "",
+    "Lone pairs change the bond angle": "비공유 전자쌍은 결합각을 바꿔요",
 
     // Shapes of molecules: the VSEPR model > p
-    "A bonding pair is held between two nuclei. A lone pair is held by one nucleus only, so it spreads out more and stays closer to the central atom.": "",
+    "A bonding pair is held between two nuclei. A lone pair is held by one nucleus only, so it spreads out more and stays closer to the central atom.": "공유 전자쌍은 두 원자핵 사이에 붙잡혀 있어요. 비공유 전자쌍은 원자핵 하나에만 붙잡혀 있어서, 더 넓게 퍼지고 중심 원자에 더 가까이 있어요.",
 
     // Shapes of molecules: the VSEPR model > key idea > p
-    "Lone pairs repel more strongly than bonding pairs. They push the bonding pairs closer together, so the bond angle becomes smaller than the ideal angle.": "",
+    "Lone pairs repel more strongly than bonding pairs. They push the bonding pairs closer together, so the bond angle becomes smaller than the ideal angle.": "비공유 전자쌍은 공유 전자쌍보다 더 강하게 반발해요. 비공유 전자쌍이 공유 전자쌍들을 더 가깝게 밀어서, 결합각이 이상적인 각보다 작아져요.",
 
     // Shapes of molecules: the VSEPR model > p
-    "Methane, ammonia and water all have four electron domains. Compare their angles.": "",
+    "Methane, ammonia and water all have four electron domains. Compare their angles.": "methane, 암모니아, 물은 모두 전자 영역이 4개예요. 이들의 결합각을 비교해 봐요.",
 
     // Shapes of molecules: the VSEPR model > table > caption
-    "Four electron domains, with zero, one and two lone pairs": "",
+    "Four electron domains, with zero, one and two lone pairs": "전자 영역 4개, 비공유 전자쌍 0개, 1개, 2개",
 
     // Shapes of molecules: the VSEPR model > table > th
-    "Molecule": "",
+    "Molecule": "분자",
 
     // Shapes of molecules: the VSEPR model > table > th
-    "<span class=\"chem\">CH4</span>": "",
+    "<span class=\"chem\">CH4</span>": "<span class=\"chem\">CH4</span>",
 
     // Shapes of molecules: the VSEPR model > h3
-    "Multiple bonds change the bond angle too": "",
+    "Multiple bonds change the bond angle too": "다중 결합도 결합각을 바꿔요",
 
     // Shapes of molecules: the VSEPR model > p
-    "A double or triple bond holds more electrons than a single bond. It has greater electron density, so it repels the other domains more strongly.": "",
+    "A double or triple bond holds more electrons than a single bond. It has greater electron density, so it repels the other domains more strongly.": "이중 결합이나 삼중 결합은 단일 결합보다 전자가 많아요. 전자 밀도가 더 크므로 다른 영역을 더 강하게 밀어내요.",
 
     // Shapes of molecules: the VSEPR model > p
-    "Methanal, HCHO, has three domains around carbon: two C–H bonds and one C=O bond. The shape is trigonal planar. The C=O bond pushes the two C–H bonds together. The H–C–H angle is about 116°, a little less than 120°.": "",
+    "Methanal, HCHO, has three domains around carbon: two C–H bonds and one C=O bond. The shape is trigonal planar. The C=O bond pushes the two C–H bonds together. The H–C–H angle is about 116°, a little less than 120°.": "methanal(HCHO)은 탄소 주위에 영역이 3개 있어요: C–H 결합 2개와 C=O 결합 1개예요. 모양은 평면 삼각형이에요. C=O 결합이 두 C–H 결합을 서로 가깝게 밀어요. H–C–H 결합각은 약 116°로, 120°보다 조금 작아요.",
 
     // Shapes of molecules: the VSEPR model > li
-    "Count the electron domains around the central atom. Each lone pair, single bond, double bond or triple bond counts as one.": "",
+    "Count the electron domains around the central atom. Each lone pair, single bond, double bond or triple bond counts as one.": "중심 원자 주위의 전자 영역을 세요. 비공유 전자쌍, 단일 결합, 이중 결합, 삼중 결합은 각각 1개로 세요.",
 
     // Shapes of molecules: the VSEPR model > li
-    "Name the electron domain geometry: 2 is linear, 3 is trigonal planar, 4 is tetrahedral.": "",
+    "Name the electron domain geometry: 2 is linear, 3 is trigonal planar, 4 is tetrahedral.": "전자 영역 배치의 이름을 붙여요: 2개는 직선형, 3개는 평면 삼각형, 4개는 정사면체형이에요.",
 
     // Shapes of molecules: the VSEPR model > li
-    "Now ignore the lone pairs and name the shape made by the atoms. This is the molecular geometry.": "",
+    "Now ignore the lone pairs and name the shape made by the atoms. This is the molecular geometry.": "이제 비공유 전자쌍은 무시하고, 원자들이 이루는 모양의 이름을 붙여요. 이것이 분자 모양이에요.",
 
     // Shapes of molecules: the VSEPR model > li
-    "State the bond angle. With no lone pairs, give the ideal angle. With lone pairs, write “less than” the ideal angle.": "",
+    "State the bond angle. With no lone pairs, give the ideal angle. With lone pairs, write “less than” the ideal angle.": "결합각을 써요. 비공유 전자쌍이 없으면 이상적인 각을 써요. 비공유 전자쌍이 있으면 이상적인 각“보다 작다”고 써요.",
 
     // Shapes of molecules: the VSEPR model > worked example > data-kicker attribute
-    "Worked example 4": "",
+    "Worked example 4": "예제 4",
 
     // Shapes of molecules: the VSEPR model > worked example > h3
-    "Shape and bond angle with a lone pair": "",
+    "Shape and bond angle with a lone pair": "비공유 전자쌍이 있을 때의 모양과 결합각",
 
     // Shapes of molecules: the VSEPR model > worked example > p
-    "Predict the electron domain geometry, the molecular geometry and the F–N–F bond angle of nitrogen trifluoride, <span class=\"chem\">NF3</span>.": "",
+    "Predict the electron domain geometry, the molecular geometry and the F–N–F bond angle of nitrogen trifluoride, <span class=\"chem\">NF3</span>.": "삼플루오린화 질소 <span class=\"chem\">NF3</span>의 전자 영역 배치, 분자 모양, F–N–F 결합각을 예측하시오 (predict).",
 
     // Shapes of molecules: the VSEPR model > worked example > data-title attribute
-    "Start from the Lewis formula": "",
+    "Start from the Lewis formula": "루이스 구조식에서 시작하기",
 
     // Shapes of molecules: the VSEPR model > worked example > p
-    "You cannot count domains without it. This is the formula from worked example 1.": "",
+    "You cannot count domains without it. This is the formula from worked example 1.": "루이스 구조식이 없으면 영역을 셀 수 없어요. 예제 1에서 구한 구조식이에요.",
 
     // Shapes of molecules: the VSEPR model > worked example > data-title attribute
-    "Count the electron domains on the central atom": "",
+    "Count the electron domains on the central atom": "중심 원자의 전자 영역 세기",
 
     // Shapes of molecules: the VSEPR model > worked example > p
-    "Count around nitrogen only. The lone pairs on fluorine do not matter here.": "",
+    "Count around nitrogen only. The lone pairs on fluorine do not matter here.": "질소 주위만 세요. 여기서는 플루오린의 비공유 전자쌍은 상관없어요.",
 
     // Shapes of molecules: the VSEPR model > worked example > maths line
-    "3 single bonds + 1 lone pair = 4 electron domains": "",
+    "3 single bonds + 1 lone pair = 4 electron domains": "단일 결합 3개 + 비공유 전자쌍 1개 = 전자 영역 4개",
 
     // Shapes of molecules: the VSEPR model > worked example > data-title attribute
-    "Name the electron domain geometry": "",
+    "Name the electron domain geometry": "전자 영역 배치의 이름 붙이기",
 
     // Shapes of molecules: the VSEPR model > worked example > p
-    "Four domains get as far apart as possible by pointing to the corners of a tetrahedron.": "",
+    "Four domains get as far apart as possible by pointing to the corners of a tetrahedron.": "영역 4개는 정사면체의 꼭짓점을 향해서 최대한 멀리 떨어져요.",
 
     // Shapes of molecules: the VSEPR model > worked example > maths line
-    "electron domain geometry: <b>tetrahedral</b>": "",
+    "electron domain geometry: <b>tetrahedral</b>": "전자 영역 배치: <b>정사면체형</b>",
 
     // Shapes of molecules: the VSEPR model > worked example > data-title attribute
-    "Name the molecular geometry": "",
+    "Name the molecular geometry": "분자 모양의 이름 붙이기",
 
     // Shapes of molecules: the VSEPR model > worked example > p
-    "Look at the atoms only. Nitrogen sits above a triangle of three fluorine atoms.": "",
+    "Look at the atoms only. Nitrogen sits above a triangle of three fluorine atoms.": "원자만 보세요. 질소가 플루오린 원자 3개가 이루는 삼각형 위에 있어요.",
 
     // Shapes of molecules: the VSEPR model > worked example > maths line
-    "molecular geometry: <b>trigonal pyramidal</b>": "",
+    "molecular geometry: <b>trigonal pyramidal</b>": "분자 모양: <b>삼각뿔형</b>",
 
     // Shapes of molecules: the VSEPR model > worked example > data-title attribute
-    "Predict the bond angle": "",
+    "Predict the bond angle": "결합각 예측하기",
 
     // Shapes of molecules: the VSEPR model > worked example > p
-    "The lone pair repels more than the bonding pairs, so the bonds are pushed together.": "",
+    "The lone pair repels more than the bonding pairs, so the bonds are pushed together.": "비공유 전자쌍이 공유 전자쌍보다 더 강하게 반발해서, 결합들이 서로 가깝게 밀려요.",
 
     // Shapes of molecules: the VSEPR model > worked example > maths line
-    "F–N–F angle: <b>less than 109.5°</b>": "",
+    "F–N–F angle: <b>less than 109.5°</b>": "F–N–F 결합각: <b>109.5°보다 작음</b>",
 
     // Shapes of molecules: the VSEPR model > worked example > p
-    "The measured angle is about 102°. You are not expected to know that number.": "",
+    "The measured angle is about 102°. You are not expected to know that number.": "측정한 결합각은 약 102°예요. 이 값을 알 필요는 없어요.",
 
     // Shapes of molecules: the VSEPR model > worked example > p
-    "Tetrahedral electron domain geometry, trigonal pyramidal molecular geometry, bond angle less than 109.5°.": "",
+    "Tetrahedral electron domain geometry, trigonal pyramidal molecular geometry, bond angle less than 109.5°.": "전자 영역 배치는 정사면체형, 분자 모양은 삼각뿔형, 결합각은 109.5°보다 작아요.",
 
     // Shapes of molecules: the VSEPR model > worked example > data-kicker attribute
-    "Worked example 5": "",
+    "Worked example 5": "예제 5",
 
     // Shapes of molecules: the VSEPR model > worked example > h3
-    "Shape and bond angle with a double bond": "",
+    "Shape and bond angle with a double bond": "이중 결합이 있을 때의 모양과 결합각",
 
     // Shapes of molecules: the VSEPR model > worked example > p
-    "Predict the shape of methanal, HCHO, and compare the H–C–H angle with 120°.": "",
+    "Predict the shape of methanal, HCHO, and compare the H–C–H angle with 120°.": "methanal(HCHO)의 모양을 예측하고, H–C–H 결합각을 120°와 비교하시오 (compare).",
 
     // Shapes of molecules: the VSEPR model > worked example > p
-    "Carbon is central, with two hydrogen atoms and one oxygen atom around it.": "",
+    "Carbon is central, with two hydrogen atoms and one oxygen atom around it.": "탄소가 중심에 있고, 주위에 수소 원자 2개와 산소 원자 1개가 있어요.",
 
     // Shapes of molecules: the VSEPR model > worked example > data-title attribute
-    "Count the electron domains on carbon": "",
+    "Count the electron domains on carbon": "탄소의 전자 영역 세기",
 
     // Shapes of molecules: the VSEPR model > worked example > p
-    "The double bond is one domain, not two.": "",
+    "The double bond is one domain, not two.": "이중 결합은 영역 2개가 아니라 1개예요.",
 
     // Shapes of molecules: the VSEPR model > worked example > maths line
-    "2 single bonds + 1 double bond + 0 lone pairs = 3 electron domains": "",
+    "2 single bonds + 1 double bond + 0 lone pairs = 3 electron domains": "단일 결합 2개 + 이중 결합 1개 + 비공유 전자쌍 0개 = 전자 영역 3개",
 
     // Shapes of molecules: the VSEPR model > worked example > data-title attribute
-    "Name both geometries": "",
+    "Name both geometries": "두 배치의 이름 붙이기",
 
     // Shapes of molecules: the VSEPR model > worked example > p
-    "There are no lone pairs on carbon, so the two geometries are the same.": "",
+    "There are no lone pairs on carbon, so the two geometries are the same.": "탄소에 비공유 전자쌍이 없으므로 두 배치가 같아요.",
 
     // Shapes of molecules: the VSEPR model > worked example > maths line
-    "electron domain geometry = molecular geometry = <b>trigonal planar</b>": "",
+    "electron domain geometry = molecular geometry = <b>trigonal planar</b>": "전자 영역 배치 = 분자 모양 = <b>평면 삼각형</b>",
 
     // Shapes of molecules: the VSEPR model > worked example > data-title attribute
-    "Compare the angle with 120°": "",
+    "Compare the angle with 120°": "결합각을 120°와 비교하기",
 
     // Shapes of molecules: the VSEPR model > worked example > p
-    "The double bond has greater electron density than a single bond, so it repels more.": "",
+    "The double bond has greater electron density than a single bond, so it repels more.": "이중 결합은 단일 결합보다 전자 밀도가 커서 더 강하게 반발해요.",
 
     // Shapes of molecules: the VSEPR model > worked example > maths line
-    "H–C–H angle: <b>slightly less than 120°</b>": "",
+    "H–C–H angle: <b>slightly less than 120°</b>": "H–C–H 결합각: <b>120°보다 조금 작음</b>",
 
     // Shapes of molecules: the VSEPR model > worked example > p
-    "Trigonal planar. The H–C–H angle is slightly less than 120° because the C=O double bond repels the C–H bonding pairs more strongly.": "",
+    "Trigonal planar. The H–C–H angle is slightly less than 120° because the C=O double bond repels the C–H bonding pairs more strongly.": "평면 삼각형이에요. C=O 이중 결합이 C–H 공유 전자쌍을 더 강하게 밀어내므로 H–C–H 결합각은 120°보다 조금 작아요.",
 
     // Shapes of molecules: the VSEPR model > try it > data-label attribute
-    "Number of electron domains": "",
+    "Number of electron domains": "전자 영역의 수",
 
     // Shapes of molecules: the VSEPR model > try it > p
-    "How many electron domains are there around the oxygen atom in the hydronium ion, <span class=\"chem\">H3O+</span>?": "",
+    "How many electron domains are there around the oxygen atom in the hydronium ion, <span class=\"chem\">H3O+</span>?": "하이드로늄 이온 <span class=\"chem\">H3O+</span>에서 산소 원자 주위에는 전자 영역이 몇 개 있을까요?",
 
     // Shapes of molecules: the VSEPR model > try it > li
-    "Look at the Lewis formula in worked example 3.": "",
+    "Look at the Lewis formula in worked example 3.": "예제 3의 루이스 구조식을 보세요.",
 
     // Shapes of molecules: the VSEPR model > try it > li
-    "Count the bonds to oxygen and the lone pairs on oxygen.": "",
+    "Count the bonds to oxygen and the lone pairs on oxygen.": "산소와의 결합과 산소의 비공유 전자쌍을 세요.",
 
     // Shapes of molecules: the VSEPR model > try it > p
-    "Three O–H bonds and one lone pair: 4 electron domains. The electron domain geometry is tetrahedral and the molecular geometry is trigonal pyramidal.": "",
+    "Three O–H bonds and one lone pair: 4 electron domains. The electron domain geometry is tetrahedral and the molecular geometry is trigonal pyramidal.": "O–H 결합 3개와 비공유 전자쌍 1개: 전자 영역 4개예요. 전자 영역 배치는 정사면체형이고 분자 모양은 삼각뿔형이에요.",
 
     // Shapes of molecules: the VSEPR model > try it > p
-    "How many electron domains are there around the carbon atom in hydrogen cyanide, H–C≡N?": "",
+    "How many electron domains are there around the carbon atom in hydrogen cyanide, H–C≡N?": "사이안화 수소 H–C≡N에서 탄소 원자 주위에는 전자 영역이 몇 개 있을까요?",
 
     // Shapes of molecules: the VSEPR model > try it > li
-    "Carbon has one single bond and one triple bond, and no lone pairs.": "",
+    "Carbon has one single bond and one triple bond, and no lone pairs.": "탄소에는 단일 결합 1개와 삼중 결합 1개가 있고, 비공유 전자쌍은 없어요.",
 
     // Shapes of molecules: the VSEPR model > try it > li
-    "A triple bond counts as one domain.": "",
+    "A triple bond counts as one domain.": "삼중 결합은 영역 1개로 세요.",
 
     // Shapes of molecules: the VSEPR model > try it > p
-    "One single bond and one triple bond: 2 electron domains. The molecule is linear, with a bond angle of 180°.": "",
+    "One single bond and one triple bond: 2 electron domains. The molecule is linear, with a bond angle of 180°.": "단일 결합 1개와 삼중 결합 1개: 전자 영역 2개예요. 분자는 직선형이고 결합각은 180°예요.",
 
     // Shapes of molecules: the VSEPR model > common mistake > p
-    "Three slips cost marks here. Giving the molecular geometry when the electron domain geometry is asked, or the reverse. Counting a double bond as two domains. Writing the ideal angle (109.5°) for a molecule that has lone pairs.": "",
+    "Three slips cost marks here. Giving the molecular geometry when the electron domain geometry is asked, or the reverse. Counting a double bond as two domains. Writing the ideal angle (109.5°) for a molecule that has lone pairs.": "여기서는 3가지 실수로 점수를 잃어요. 전자 영역 배치를 묻는데 분자 모양을 쓰거나 그 반대로 쓰는 것. 이중 결합을 영역 2개로 세는 것. 비공유 전자쌍이 있는 분자에 이상적인 각(109.5°)을 쓰는 것.",
 
     // Shapes of molecules: the VSEPR model > exam tip (shown in English + translation) > p
-    "“State and explain the shape” is two marks. One is for the name of the shape. The other is for the reason: the number of electron domains, or the number of bonding pairs and lone pairs, around the central atom. For a bent or pyramidal molecule an angle in a sensible range below the ideal value is accepted.": "",
+    "“State and explain the shape” is two marks. One is for the name of the shape. The other is for the reason: the number of electron domains, or the number of bonding pairs and lone pairs, around the central atom. For a bent or pyramidal molecule an angle in a sensible range below the ideal value is accepted.": "“모양을 쓰고 설명하시오”는 2점이에요. 1점은 모양의 이름이에요. 나머지 1점은 이유예요: 중심 원자 주위의 전자 영역 수, 또는 공유 전자쌍과 비공유 전자쌍의 수. 굽은 형이나 삼각뿔형 분자에서는 이상적인 값보다 작은 적절한 범위의 각이 인정돼요.",
 
     // Shapes of molecules: the VSEPR model > not needed for IB > p
-    "Shapes with five or six electron domains are Additional HL and are on the <a href=\"s2-2h.html\">HL page</a>. The guide does not list exact angles to memorize. “Less than 109.5°” with the reason is what you must be able to give.": "",
+    "Shapes with five or six electron domains are Additional HL and are on the <a href=\"s2-2h.html\">HL page</a>. The guide does not list exact angles to memorize. “Less than 109.5°” with the reason is what you must be able to give.": "전자 영역이 5개나 6개인 모양은 HL 추가 내용이고 <a href=\"s2-2h.html\">HL 페이지</a>에 있어요. 가이드에는 외워야 할 정확한 각이 나와 있지 않아요. 이유와 함께 “109.5°보다 작다”고 쓸 수 있어야 해요.",
 
     // Shapes of molecules: the VSEPR model > data-title attribute
-    "Shapes and bond angles: quick check": "",
+    "Shapes and bond angles: quick check": "모양과 결합각: 빠른 확인",
 
     // Bond polarity > data-toc attribute
     // Bond polarity > h2
-    "Bond polarity": "",
+    "Bond polarity": "결합의 극성",
 
     // Bond polarity > p
-    "Sharing is not always equal. In a tug of war between a strong team and a weak team, the rope moves towards the strong team. In a bond, the shared electrons move towards the atom that attracts them more.": "",
+    "Sharing is not always equal. In a tug of war between a strong team and a weak team, the rope moves towards the strong team. In a bond, the shared electrons move towards the atom that attracts them more.": "전자를 항상 똑같이 나눠 갖는 건 아니에요. 힘센 팀과 약한 팀이 줄다리기를 하면 줄은 힘센 팀 쪽으로 움직여요. 결합에서도 공유 전자는 전자를 더 세게 끌어당기는 원자 쪽으로 움직여요.",
 
     // Bond polarity > p
-    "<dfn data-def=\"A measure of how strongly an atom attracts a shared (bonding) pair of electrons in a covalent bond.\">Electronegativity</dfn> measures how strongly an atom attracts a shared pair of electrons. It has no unit. Fluorine has the highest value, 4.0.": "",
+    "<dfn data-def=\"A measure of how strongly an atom attracts a shared (bonding) pair of electrons in a covalent bond.\">Electronegativity</dfn> measures how strongly an atom attracts a shared pair of electrons. It has no unit. Fluorine has the highest value, 4.0.": "<dfn data-def=\"공유 결합에서 원자가 공유 전자쌍(공유 결합 전자쌍)을 얼마나 세게 끌어당기는지 나타내는 척도.\">전기 음성도 <span class=\"en-term\">(electronegativity)</span></dfn>는 원자가 공유 전자쌍을 얼마나 세게 끌어당기는지 나타내요. 단위는 없어요. 플루오린이 가장 높은 값인 4.0을 가져요.",
 
     // Bond polarity > data-def attribute
-    "A measure of how strongly an atom attracts a shared (bonding) pair of electrons in a covalent bond.": "",
+    "A measure of how strongly an atom attracts a shared (bonding) pair of electrons in a covalent bond.": "공유 결합에서 원자가 공유 전자쌍(공유 결합 전자쌍)을 얼마나 세게 끌어당기는지 나타내는 척도.",
 
     // Bond polarity > table > caption
-    "Electronegativity values from the data booklet": "",
+    "Electronegativity values from the data booklet": "데이터 부클릿의 전기 음성도 값",
 
     // Bond polarity > table > th
-    "Element": "",
+    "Element": "원소",
 
     // Bond polarity > table > th
-    "Si": "",
+    "Si": "Si",
 
     // Bond polarity > table > th
     // Bond polarity > table > td
-    "Cl": "",
+    "Cl": "Cl",
 
     // Bond polarity > table > th
-    "Br": "",
+    "Br": "Br",
 
     // Bond polarity > table > th
-    "Electronegativity": "",
+    "Electronegativity": "전기 음성도",
 
     // Bond polarity > data booklet note > p
-    "Electronegativity values are in section 9 of the data booklet. Use those values. Older books give slightly different numbers, such as 2.5 for carbon and 3.5 for oxygen.": "",
+    "Electronegativity values are in section 9 of the data booklet. Use those values. Older books give slightly different numbers, such as 2.5 for carbon and 3.5 for oxygen.": "전기 음성도 값은 데이터 부클릿 9번 항목에 있어요. 그 값을 쓰세요. 예전 책에는 탄소 2.5, 산소 3.5처럼 조금 다른 값이 나와 있어요.",
 
     // Bond polarity > h3
-    "Polar bonds": "",
+    "Polar bonds": "극성 결합",
 
     // Bond polarity > p
-    "When two different atoms are bonded, the more electronegative atom pulls the shared pair closer. That atom becomes slightly negative. The other atom becomes slightly positive.": "",
+    "When two different atoms are bonded, the more electronegative atom pulls the shared pair closer. That atom becomes slightly negative. The other atom becomes slightly positive.": "서로 다른 두 원자가 결합하면, 전기 음성도가 더 큰 원자가 공유 전자쌍을 더 가까이 끌어당겨요. 그 원자는 약간 음전하를 띠어요. 다른 원자는 약간 양전하를 띠어요.",
 
     // Bond polarity > p
-    "These small charges are <dfn data-def=\"A small charge, less than the charge of one electron, on an atom in a polar bond. Written δ+ or δ−.\">partial charges</dfn>. They are written δ+ and δ−. The symbol δ (delta) means “a little”.": "",
+    "These small charges are <dfn data-def=\"A small charge, less than the charge of one electron, on an atom in a polar bond. Written δ+ or δ−.\">partial charges</dfn>. They are written δ+ and δ−. The symbol δ (delta) means “a little”.": "이런 작은 전하를 <dfn data-def=\"극성 결합에서 원자가 띠는, 전자 1개의 전하보다 작은 전하. δ+ 또는 δ−로 써요.\">부분 전하 <span class=\"en-term\">(partial charges)</span></dfn>라고 해요. δ+와 δ−로 써요. 기호 δ(델타)는 “조금”이라는 뜻이에요.",
 
     // Bond polarity > data-def attribute
-    "A small charge, less than the charge of one electron, on an atom in a polar bond. Written δ+ or δ−.": "",
+    "A small charge, less than the charge of one electron, on an atom in a polar bond. Written δ+ or δ−.": "극성 결합에서 원자가 띠는, 전자 1개의 전하보다 작은 전하. δ+ 또는 δ−로 써요.",
 
     // Bond polarity > p
-    "A bond with a δ+ end and a δ− end is a <dfn data-def=\"A covalent bond in which the electrons are shared unequally because the two atoms have different electronegativities.\">polar bond</dfn>. The separation of charge is a <dfn data-def=\"A separation of charge in a bond: one end is δ+ and the other end is δ−.\">bond dipole</dfn>.": "",
+    "A bond with a δ+ end and a δ− end is a <dfn data-def=\"A covalent bond in which the electrons are shared unequally because the two atoms have different electronegativities.\">polar bond</dfn>. The separation of charge is a <dfn data-def=\"A separation of charge in a bond: one end is δ+ and the other end is δ−.\">bond dipole</dfn>.": "한쪽 끝이 δ+이고 다른 쪽 끝이 δ−인 결합이 <dfn data-def=\"두 원자의 전기 음성도가 달라서 전자를 고르지 않게 공유하는 공유 결합.\">극성 결합 <span class=\"en-term\">(polar bond)</span></dfn>이에요. 이렇게 전하가 나뉜 것을 <dfn data-def=\"결합에서 전하가 나뉜 것: 한쪽 끝은 δ+, 다른 쪽 끝은 δ−예요.\">결합 쌍극자 <span class=\"en-term\">(bond dipole)</span></dfn>라고 해요.",
 
     // Bond polarity > data-def attribute
-    "A covalent bond in which the electrons are shared unequally because the two atoms have different electronegativities.": "",
+    "A covalent bond in which the electrons are shared unequally because the two atoms have different electronegativities.": "두 원자의 전기 음성도가 달라서 전자를 고르지 않게 공유하는 공유 결합.",
 
     // Bond polarity > data-def attribute
-    "A separation of charge in a bond: one end is δ+ and the other end is δ−.": "",
+    "A separation of charge in a bond: one end is δ+ and the other end is δ−.": "결합에서 전하가 나뉜 것: 한쪽 끝은 δ+, 다른 쪽 끝은 δ−예요.",
 
     // Bond polarity > aria-label attribute
-    "Two drawings of hydrogen chloride. On the left, delta plus is written on H and delta minus on Cl. On the right, an arrow with a crossed tail lies along the bond and points from H to Cl.": "",
+    "Two drawings of hydrogen chloride. On the left, delta plus is written on H and delta minus on Cl. On the right, an arrow with a crossed tail lies along the bond and points from H to Cl.": "염화 수소 그림 2개. 왼쪽 그림에는 H에 델타 플러스, Cl에 델타 마이너스가 쓰여 있어요. 오른쪽 그림에는 꼬리에 가로줄이 그어진 화살표가 결합을 따라 H에서 Cl 쪽을 가리켜요.",
 
     // Bond polarity > figure label
-    "partial charges": "",
+    "partial charges": "부분 전하",
 
     // Bond polarity > figure label
-    "vector (arrow)": "",
+    "vector (arrow)": "벡터(화살표)",
 
     // Bond polarity > figcaption
-    "Two accepted ways to show a bond dipole. The arrow points to the more electronegative atom. The small cross at its tail looks like a plus sign and marks the δ+ end.": "",
+    "Two accepted ways to show a bond dipole. The arrow points to the more electronegative atom. The small cross at its tail looks like a plus sign and marks the δ+ end.": "결합 쌍극자를 나타내는 인정되는 두 방법. 화살표는 전기 음성도가 더 큰 원자를 가리켜요. 꼬리의 작은 가로줄은 플러스 기호처럼 보이고, δ+ 쪽을 표시해요.",
 
     // Bond polarity > li
-    "Find the electronegativity of each atom in the data booklet.": "",
+    "Find the electronegativity of each atom in the data booklet.": "데이터 부클릿에서 각 원자의 전기 음성도를 찾아요.",
 
     // Bond polarity > li
     // Bond polarity > try it > li
-    "Subtract the smaller value from the larger value.": "",
+    "Subtract the smaller value from the larger value.": "큰 값에서 작은 값을 빼요.",
 
     // Bond polarity > li
-    "If the difference is zero, the bond is non-polar. The larger the difference, the more polar the bond.": "",
+    "If the difference is zero, the bond is non-polar. The larger the difference, the more polar the bond.": "차이가 0이면 그 결합은 무극성이에요. 차이가 클수록 결합의 극성이 커요.",
 
     // Bond polarity > li
-    "Write δ− on the atom with the larger value and δ+ on the other atom.": "",
+    "Write δ− on the atom with the larger value and δ+ on the other atom.": "값이 큰 원자에 δ−를, 다른 원자에 δ+를 써요.",
 
     // Bond polarity > table > caption
-    "Electronegativity differences for some common bonds": "",
+    "Electronegativity differences for some common bonds": "흔한 결합 몇 가지의 전기 음성도 차이",
 
     // Bond polarity > table > th
-    "Working": "",
+    "Working": "계산",
 
     // Bond polarity > table > th
-    "Difference": "",
+    "Difference": "차이",
 
     // Bond polarity > table > th
-    "δ− atom": "",
+    "δ− atom": "δ− 원자",
 
     // Bond polarity > table > th
-    "Cl–Cl": "",
+    "Cl–Cl": "Cl–Cl",
 
     // Bond polarity > table > td
-    "none: non-polar": "",
+    "none: non-polar": "없음: 무극성",
 
     // Bond polarity > table > td
-    "C (only slightly polar)": "",
+    "C (only slightly polar)": "C (극성이 아주 약함)",
 
     // Bond polarity > table > th
-    "H–Cl": "",
+    "H–Cl": "H–Cl",
 
     // Bond polarity > try it > data-label attribute
-    "Difference in electronegativity": "",
+    "Difference in electronegativity": "전기 음성도 차이",
 
     // Bond polarity > try it > p
-    "Use the table of electronegativity values. Calculate the difference in electronegativity for a C–Cl bond.": "",
+    "Use the table of electronegativity values. Calculate the difference in electronegativity for a C–Cl bond.": "전기 음성도 값 표를 이용하세요. C–Cl 결합의 전기 음성도 차이를 계산하시오 (calculate).",
 
     // Bond polarity > try it > li
     "Carbon is 2.6 and chlorine is 3.2.": "",

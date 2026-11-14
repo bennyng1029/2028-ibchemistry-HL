@@ -215,426 +215,426 @@ S1.i18n.register('ko', 's1-4.q', {
         "괄호 밖의 2는 O와 H 둘 다에 곱해요. 그리고 <em>상대</em> 질량에 단위가 있는지도 생각해 보세요.",
       ],
       // EN: <div class="worked__math"><i>M</i><sub>r</sub> = 40.08 + 2 × (16.00 + 1.01)</div><div class="worked__math"><i>M</i><sub>r</sub> = 40.08 + 34.02<br>&nbsp;&nbsp;= <strong>74.10</strong> (no units)</div><p><i>A</i><sub>r</sub> and <i>M</i><sub>r</sub> are ratios, so they have no units. Molar mass has the same number with units of <span class="unit">g mol-1</span>.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>M</i><sub>r</sub> = 40.08 + 2 × (16.00 + 1.01)</div><div class=\"worked__math\"><i>M</i><sub>r</sub> = 40.08 + 34.02<br>&nbsp;&nbsp;= <strong>74.10</strong> (단위 없음)</div><p><i>A</i><sub>r</sub>와 <i>M</i><sub>r</sub>는 비이므로 단위가 없어요. 몰 질량은 같은 수에 <span class=\"unit\">g mol-1</span> 단위가 붙어요.</p>",
       misconception: {
         // EN (option A): You added one Ca, one O and one H. The subscript 2 outside the bracket means there are two O atoms and two H atoms.
-        "0": "",
+        "0": "Ca 1개, O 1개, H 1개만 더했어요. 괄호 밖의 아래 첨자 2는 O 원자 2개와 H 원자 2개가 있다는 뜻이에요.",
         // EN (option B): You applied the subscript 2 to hydrogen only. A subscript outside a bracket multiplies <em>everything</em> inside the bracket.
-        "1": "",
+        "1": "아래 첨자 2를 수소에만 적용했어요. 괄호 밖의 아래 첨자는 괄호 안의 <em>모든 것</em>에 곱해요.",
         // EN (option D): The number is right, but relative formula mass has no units. 74.10 <span class="unit">g mol-1</span> is the molar mass, <i>M</i>.
-        "3": "",
+        "3": "수는 맞지만 상대 화학식량에는 단위가 없어요. 74.10 <span class=\"unit\">g mol-1</span>은 몰 질량 <i>M</i>이에요.",
       },
     },
 
     // ── s1-4-q009 · numeric · foundation · SL · Structure 1.4.2 · 1 mark
     "s1-4-q009": {
       // EN: <p>Calculate the relative formula mass, <i>M</i><sub>r</sub>, of iron(III) sulfate, <span class="chem">Fe2(SO4)3</span>. Give your answer to 2 decimal places.</p><p>Use the data booklet values: Fe = 55.85, S = 32.07, O = 16.00.</p>
-      stem: "",
+      stem: "<p>황산 철(III)(<span class=\"chem\">Fe2(SO4)3</span>)의 상대 화학식량 <i>M</i><sub>r</sub>를 계산하시오 (calculate). 소수점 아래 2자리로 답하세요.</p><p>데이터 부클릿 값을 이용하세요: Fe = 55.85, S = 32.07, O = 16.00.</p>",
       hints: [
         // EN: Count the atoms of each element first. The subscript 3 outside the bracket multiplies everything inside it.
-        "",
+        "먼저 각 원소의 원자 수를 세세요. 괄호 밖의 아래 첨자 3은 괄호 안의 모든 것에 곱해요.",
         // EN: There are 2 Fe, 3 S and 3 × 4 = 12 O. Use the 2 decimal place <i>A</i><sub>r</sub> values, not whole numbers.
-        "",
+        "Fe 2개, S 3개, O 3 × 4 = 12개예요. 정수가 아니라 소수점 아래 2자리까지인 <i>A</i><sub>r</sub> 값을 쓰세요.",
       ],
       // EN: <p>Count the atoms in <span class="chem">Fe2(SO4)3</span>: 2 Fe, 3 S and 3 × 4 = 12 O.</p><div class="worked__math"><i>M</i><sub>r</sub> = (2 × 55.85) + (3 × 32.07)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ (12 × 16.00)</div><div class="worked__math"><i>M</i><sub>r</sub> = 111.70 + 96.21 + 192.00<br>&nbsp;&nbsp;= <strong>399.91</strong> (no units)</div><p>Named slips: ignoring the bracket gives 207.77 (one S and four O). Using 3 S but only 4 O gives 271.91. Using whole-number <i>A</i><sub>r</sub> values gives 400. The guide says to use the two-decimal-place values from the data booklet.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">Fe2(SO4)3</span>의 원자 수를 세면 Fe 2개, S 3개, O 3 × 4 = 12개예요.</p><div class=\"worked__math\"><i>M</i><sub>r</sub> = (2 × 55.85) + (3 × 32.07)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ (12 × 16.00)</div><div class=\"worked__math\"><i>M</i><sub>r</sub> = 111.70 + 96.21 + 192.00<br>&nbsp;&nbsp;= <strong>399.91</strong> (단위 없음)</div><p>흔한 실수: 괄호를 무시하면 207.77(S 1개, O 4개)이 나와요. S는 3개로 하고 O는 4개만 쓰면 271.91이 나와요. 정수 <i>A</i><sub>r</sub> 값을 쓰면 400이 나와요. 교수요목 안내서는 데이터 부클릿의 소수점 아래 2자리 값을 쓰라고 해요.</p>",
     },
 
     // ── s1-4-q010 · short · exam · SL · Structure 1.4.2 · 2 marks
     "s1-4-q010": {
       // EN: <p>Chlorine has a relative atomic mass of 35.45.</p><p>State what is meant by <strong>relative atomic mass</strong>, and state its units.</p>
-      stem: "",
+      stem: "<p>염소의 상대 원자 질량은 35.45예요.</p><p><strong>상대 원자 질량</strong>의 뜻을 쓰고, 그 단위를 쓰시오 (state).</p>",
       hints: [
         // EN: There are two ideas in the definition: an average over the isotopes, and a comparison with a standard atom.
-        "",
+        "정의에는 두 가지 생각이 들어 있어요: 동위 원소들의 평균, 그리고 기준 원자와의 비교.",
         // EN: A <em>relative</em> mass is one mass divided by another mass. What happens to the units?
-        "",
+        "<em>상대</em> 질량은 한 질량을 다른 질량으로 나눈 값이에요. 단위는 어떻게 될까요?",
       ],
       // EN: <p>Chlorine is a mixture of isotopes, so its relative atomic mass is a weighted average, which is why it is not a whole number. The comparison is with <span class="frac"><span>1</span><span>12</span></span> of the mass of a <span class="chem">^12C</span> atom. Because it is a ratio of two masses, it has no units.</p>
-      solution: "",
+      solution: "<p>염소는 동위 원소의 혼합물이므로 상대 원자 질량은 가중 평균이에요. 그래서 정수가 아니에요. 비교 기준은 <span class=\"chem\">^12C</span> 원자 1개 질량의 <span class=\"frac\"><span>1</span><span>12</span></span>이에요. 두 질량의 비이므로 단위가 없어요.</p>",
       // EN: <p>Relative atomic mass is the weighted average mass of the atoms of an element (taking the abundance of its isotopes into account), compared with <span class="frac"><span>1</span><span>12</span></span> of the mass of an atom of carbon-12. It has no units.</p>
-      answer: "",
+      answer: "<p>상대 원자 질량은 어떤 원소 원자들의 가중 평균 질량(동위 원소의 존재 비율을 고려한 값)을 탄소-12 원자 1개 질량의 <span class=\"frac\"><span>1</span><span>12</span></span>과 비교한 값이에요. 단위가 없어요.</p>",
       markscheme: [
         // EN: Weighted average mass of the atoms (or isotopes) of an element, relative to 1/12 of the mass of an atom of carbon-12. (Accept "compared with carbon-12 taken as exactly 12".)
-        "",
+        "원소의 원자(또는 동위 원소)들의 가중 평균 질량을 탄소-12 원자 1개 질량의 1/12에 대해 나타낸 값. (“탄소-12를 정확히 12로 두고 비교한 값”도 인정.)",
         // EN: It has no units. (Do not accept g or g mol⁻¹.)
-        "",
+        "단위가 없음. (g 또는 g mol⁻¹은 인정하지 않음.)",
       ],
     },
 
     // ── s1-4-q011 · mcq · exam · SL · Structure 1.4.2 · 1 mark
     "s1-4-q011": {
       // EN: <p>What is the molar mass of hydrated copper(II) sulfate, <span class="chem">CuSO4.5H2O</span>, in <span class="unit">g mol-1</span>?</p><p>Use <i>A</i><sub>r</sub>: Cu = 63.55, S = 32.07, O = 16.00, H = 1.01.</p>
-      stem: "",
+      stem: "<p>황산 구리(II) 수화물(<span class=\"chem\">CuSO4.5H2O</span>)의 몰 질량은 몇 <span class=\"unit\">g mol-1</span>인가요?</p><p><i>A</i><sub>r</sub>를 이용하세요: Cu = 63.55, S = 32.07, O = 16.00, H = 1.01.</p>",
       options: [
         // EN: 159.62
-        "",
+        "159.62",
         // EN: 177.64
-        "",
+        "177.64",
         // EN: 185.72
-        "",
+        "185.72",
         // EN: 249.72
-        "",
+        "249.72",
       ],
       hints: [
         // EN: The dot means "combined with". Add the mass of the water to the mass of the <span class="chem">CuSO4</span>.
-        "",
+        "점은 “결합되어 있다”는 뜻이에요. 물의 질량을 <span class=\"chem\">CuSO4</span>의 질량에 더하세요.",
         // EN: Work out <i>M</i>(<span class="chem">CuSO4</span>) and <i>M</i>(<span class="chem">H2O</span>) separately. Then add five lots of water.
-        "",
+        "<i>M</i>(<span class=\"chem\">CuSO4</span>)와 <i>M</i>(<span class=\"chem\">H2O</span>)를 따로 구하세요. 그다음 물 5개분을 더하세요.",
       ],
       // EN: <div class="worked__math"><i>M</i>(<span class="chem">CuSO4</span>) = 63.55 + 32.07 + (4 × 16.00)<br>&nbsp;&nbsp;= 159.62 <span class="unit">g mol-1</span></div><div class="worked__math"><i>M</i>(<span class="chem">H2O</span>) = (2 × 1.01) + 16.00<br>&nbsp;&nbsp;= 18.02 <span class="unit">g mol-1</span></div><div class="worked__math"><i>M</i>(<span class="chem">CuSO4.5H2O</span>) = 159.62 + (5 × 18.02)<br>&nbsp;&nbsp;= <strong>249.72 <span class="unit">g mol-1</span></strong></div>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>M</i>(<span class=\"chem\">CuSO4</span>) = 63.55 + 32.07 + (4 × 16.00)<br>&nbsp;&nbsp;= 159.62 <span class=\"unit\">g mol-1</span></div><div class=\"worked__math\"><i>M</i>(<span class=\"chem\">H2O</span>) = (2 × 1.01) + 16.00<br>&nbsp;&nbsp;= 18.02 <span class=\"unit\">g mol-1</span></div><div class=\"worked__math\"><i>M</i>(<span class=\"chem\">CuSO4.5H2O</span>) = 159.62 + (5 × 18.02)<br>&nbsp;&nbsp;= <strong>249.72 <span class=\"unit\">g mol-1</span></strong></div>",
       misconception: {
         // EN (option A): This is the molar mass of anhydrous <span class="chem">CuSO4</span>. The water of crystallization is part of the formula and part of the mass you weigh.
-        "0": "",
+        "0": "이것은 무수 <span class=\"chem\">CuSO4</span>의 몰 질량이에요. 결정수도 화학식의 일부이고, 저울로 다는 질량의 일부예요.",
         // EN (option B): You added one <span class="chem">H2O</span> (18.02). The 5 in front of <span class="chem">H2O</span> means five water molecules per formula unit.
-        "1": "",
+        "1": "<span class=\"chem\">H2O</span>를 1개(18.02)만 더했어요. <span class=\"chem\">H2O</span> 앞의 5는 화학식 단위 1개당 물 분자가 5개라는 뜻이에요.",
         // EN (option C): You multiplied only the hydrogen by 5 (10 H and 1 O). The 5 multiplies the whole <span class="chem">H2O</span>: 10 H and 5 O.
-        "2": "",
+        "2": "수소에만 5를 곱했어요(H 10개, O 1개). 5는 <span class=\"chem\">H2O</span> 전체에 곱해요: H 10개, O 5개.",
       },
     },
 
     // ── s1-4-q012 · numeric · foundation · SL · Structure 1.4.3 · 1 mark
     "s1-4-q012": {
       // EN: <p>Calculate the amount, in <span class="unit">mol</span>, of calcium carbonate in 25.0 <span class="unit">g</span> of <span class="chem">CaCO3</span>. Give your answer to 3 significant figures.</p><p><i>M</i>(<span class="chem">CaCO3</span>) = 100.09 <span class="unit">g mol-1</span></p>
-      stem: "",
+      stem: "<p><span class=\"chem\">CaCO3</span> 25.0 <span class=\"unit\">g</span>에 들어 있는 탄산 칼슘의 양을 <span class=\"unit\">mol</span> 단위로 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p><p><i>M</i>(<span class=\"chem\">CaCO3</span>) = 100.09 <span class=\"unit\">g mol-1</span></p>",
       hints: [
         // EN: The relationship between amount, mass and molar mass is in your data booklet: <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span>.
-        "",
+        "물질의 양, 질량, 몰 질량 사이의 관계는 데이터 부클릿에 있어요: <span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>M</i></span>.",
         // EN: Mass is in <span class="unit">g</span> and molar mass is in <span class="unit">g mol-1</span>, so no unit conversion is needed. 25.0 g is less than 100.09 g, so the answer is less than 1 mol.
-        "",
+        "질량은 <span class=\"unit\">g</span>, 몰 질량은 <span class=\"unit\">g mol-1</span>이므로 단위를 바꿀 필요가 없어요. 25.0 g은 100.09 g보다 작으므로 답은 1 mol보다 작아요.",
       ],
       // EN: <div class="worked__math"><i>n</i> = <span class="frac"><span><i>m</i></span><span><i>M</i></span></span></div><div class="worked__math"><i>n</i> = <span class="frac"><span>25.0 <span class="unit">g</span></span><span>100.09 <span class="unit">g mol-1</span></span></span></div><div class="worked__math"><i>n</i> = 0.24978 <span class="unit">mol</span> = <strong>0.250 <span class="unit">mol</span></strong></div><p>If you multiplied instead you would get about 2500, which fails the size check.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>n</i> = <span class=\"frac\"><span><i>m</i></span><span><i>M</i></span></span></div><div class=\"worked__math\"><i>n</i> = <span class=\"frac\"><span>25.0 <span class=\"unit\">g</span></span><span>100.09 <span class=\"unit\">g mol-1</span></span></span></div><div class=\"worked__math\"><i>n</i> = 0.24978 <span class=\"unit\">mol</span> = <strong>0.250 <span class=\"unit\">mol</span></strong></div><p>대신 곱하면 약 2500이 나와서 크기 확인을 통과하지 못해요.</p>",
     },
 
     // ── s1-4-q013 · numeric · foundation · SL · Structure 1.4.3 · 1 mark
     "s1-4-q013": {
       // EN: <p>Calculate the mass, in <span class="unit">g</span>, of 0.350 <span class="unit">mol</span> of sulfuric acid, <span class="chem">H2SO4</span>. Give your answer to 3 significant figures.</p><p><i>M</i>(<span class="chem">H2SO4</span>) = 98.09 <span class="unit">g mol-1</span></p>
-      stem: "",
+      stem: "<p>황산(<span class=\"chem\">H2SO4</span>) 0.350 <span class=\"unit\">mol</span>의 질량을 <span class=\"unit\">g</span> 단위로 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p><p><i>M</i>(<span class=\"chem\">H2SO4</span>) = 98.09 <span class=\"unit\">g mol-1</span></p>",
       hints: [
         // EN: Start from <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span> and rearrange it to make <i>m</i> the subject.
-        "",
+        "<span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>M</i></span>에서 시작해 <i>m</i>에 대한 식으로 바꾸세요.",
         // EN: <span class="mono"><i>m</i> = <i>n</i> × <i>M</i></span>. Check the units: mol × g mol<sup>−1</sup> = g.
-        "",
+        "<span class=\"mono\"><i>m</i> = <i>n</i> × <i>M</i></span>. 단위를 확인하세요: mol × g mol<sup>−1</sup> = g.",
       ],
       // EN: <div class="worked__math"><i>m</i> = <i>n</i> × <i>M</i></div><div class="worked__math"><i>m</i> = 0.350 <span class="unit">mol</span> × 98.09 <span class="unit">g mol-1</span></div><div class="worked__math"><i>m</i> = 34.33 <span class="unit">g</span> = <strong>34.3 <span class="unit">g</span></strong></div><p>Size check: about one third of a mole, so about one third of 98 g.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>m</i> = <i>n</i> × <i>M</i></div><div class=\"worked__math\"><i>m</i> = 0.350 <span class=\"unit\">mol</span> × 98.09 <span class=\"unit\">g mol-1</span></div><div class=\"worked__math\"><i>m</i> = 34.33 <span class=\"unit\">g</span> = <strong>34.3 <span class=\"unit\">g</span></strong></div><p>크기 확인: 약 3분의 1몰이므로 98 g의 약 3분의 1이에요.</p>",
     },
 
     // ── s1-4-q014 · numeric · exam · SL · Structure 1.4.3 · 2 marks
     "s1-4-q014": {
       // EN: <p>Calculate the number of molecules in 9.00 <span class="unit">g</span> of water, <span class="chem">H2O</span>. Give your answer to 3 significant figures.</p><p>Use <i>A</i><sub>r</sub>: H = 1.01, O = 16.00.</p>
-      stem: "",
+      stem: "<p>물(<span class=\"chem\">H2O</span>) 9.00 <span class=\"unit\">g</span>에 들어 있는 분자 수를 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p><p><i>A</i><sub>r</sub>를 이용하세요: H = 1.01, O = 16.00.</p>",
       hints: [
         // EN: This is a two-step route: mass → amount → number of particles. You cannot go from grams to particles in one step.
-        "",
+        "두 단계로 가요: 질량 → 물질의 양 → 입자 수. 그램에서 입자 수로 한 번에 갈 수는 없어요.",
         // EN: Step 1: <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span> with <i>M</i>(<span class="chem">H2O</span>) = 18.02 <span class="unit">g mol-1</span>. Step 2: <span class="mono"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></span>.
-        "",
+        "1단계: <i>M</i>(<span class=\"chem\">H2O</span>) = 18.02 <span class=\"unit\">g mol-1</span>로 <span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>M</i></span>. 2단계: <span class=\"mono\"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></span>.",
         // EN: Keep all the digits of <i>n</i> in your calculator. Round only the final answer.
-        "",
+        "계산기에 <i>n</i>의 모든 자릿수를 남겨 두세요. 마지막 답만 반올림하세요.",
       ],
       // EN: <div class="worked__math"><i>M</i>(<span class="chem">H2O</span>) = (2 × 1.01) + 16.00<br>&nbsp;&nbsp;= 18.02 <span class="unit">g mol-1</span></div><div class="worked__math"><i>n</i> = <span class="frac"><span>9.00 <span class="unit">g</span></span><span>18.02 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.49945 <span class="unit">mol</span> &nbsp; (M1)</div><div class="worked__math"><i>N</i> = 0.49945 <span class="unit">mol</span> × 6.02 × 10<sup>23</sup> <span class="unit">mol-1</span><br>&nbsp;&nbsp;= <strong>3.01 × 10<sup>23</sup> molecules</strong> &nbsp; (M2)</div><p>The question asks for molecules. Multiplying by 3 as well would give the number of atoms (9.02 × 10<sup>23</sup>), which is a different question.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>M</i>(<span class=\"chem\">H2O</span>) = (2 × 1.01) + 16.00<br>&nbsp;&nbsp;= 18.02 <span class=\"unit\">g mol-1</span></div><div class=\"worked__math\"><i>n</i> = <span class=\"frac\"><span>9.00 <span class=\"unit\">g</span></span><span>18.02 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.49945 <span class=\"unit\">mol</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>N</i> = 0.49945 <span class=\"unit\">mol</span> × 6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span><br>&nbsp;&nbsp;= <strong>분자 3.01 × 10<sup>23</sup>개</strong> &nbsp; (M2)</div><p>문제는 분자 수를 묻고 있어요. 여기에 3까지 곱하면 원자 수(9.02 × 10<sup>23</sup>)가 되는데, 그것은 다른 질문의 답이에요.</p>",
     },
 
     // ── s1-4-q015 · numeric · exam · SL · Structure 1.4.3 · 2 marks
     "s1-4-q015": {
       // EN: <p>Calculate the number of <strong>oxygen atoms</strong> in 8.80 <span class="unit">g</span> of carbon dioxide, <span class="chem">CO2</span>. Give your answer to 3 significant figures.</p><p><i>M</i>(<span class="chem">CO2</span>) = 44.01 <span class="unit">g mol-1</span></p>
-      stem: "",
+      stem: "<p>이산화 탄소(<span class=\"chem\">CO2</span>) 8.80 <span class=\"unit\">g</span>에 들어 있는 <strong>산소 원자</strong>의 수를 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p><p><i>M</i>(<span class=\"chem\">CO2</span>) = 44.01 <span class=\"unit\">g mol-1</span></p>",
       hints: [
         // EN: Route: mass → amount of <span class="chem">CO2</span> → amount of O atoms → number of O atoms.
-        "",
+        "경로: 질량 → <span class=\"chem\">CO2</span>의 양 → O 원자의 양 → O 원자 수.",
         // EN: Each <span class="chem">CO2</span> molecule contains 2 oxygen atoms, so <i>n</i>(O) = 2 × <i>n</i>(<span class="chem">CO2</span>).
-        "",
+        "<span class=\"chem\">CO2</span> 분자 1개에는 산소 원자가 2개 있으므로 <i>n</i>(O) = 2 × <i>n</i>(<span class=\"chem\">CO2</span>)예요.",
         // EN: Finish with <span class="mono"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></span>.
-        "",
+        "마지막으로 <span class=\"mono\"><i>N</i> = <i>n</i> × <i>N</i><sub>A</sub></span>를 쓰세요.",
       ],
       // EN: <div class="worked__math"><i>n</i>(<span class="chem">CO2</span>) = <span class="frac"><span>8.80 <span class="unit">g</span></span><span>44.01 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.19995 <span class="unit">mol</span> &nbsp; (M1)</div><div class="worked__math"><i>n</i>(O) = 2 × 0.19995 <span class="unit">mol</span><br>&nbsp;&nbsp;= 0.39991 <span class="unit">mol</span></div><div class="worked__math"><i>N</i>(O) = 0.39991 <span class="unit">mol</span> × 6.02 × 10<sup>23</sup> <span class="unit">mol-1</span><br>&nbsp;&nbsp;= <strong>2.41 × 10<sup>23</sup> atoms</strong> &nbsp; (M2)</div><p>Named slips: 1.20 × 10<sup>23</sup> is the number of <span class="chem">CO2</span> molecules (subscript not used). 3.61 × 10<sup>23</sup> is the number of all atoms (multiplied by 3, not 2).</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>n</i>(<span class=\"chem\">CO2</span>) = <span class=\"frac\"><span>8.80 <span class=\"unit\">g</span></span><span>44.01 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.19995 <span class=\"unit\">mol</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>n</i>(O) = 2 × 0.19995 <span class=\"unit\">mol</span><br>&nbsp;&nbsp;= 0.39991 <span class=\"unit\">mol</span></div><div class=\"worked__math\"><i>N</i>(O) = 0.39991 <span class=\"unit\">mol</span> × 6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span><br>&nbsp;&nbsp;= <strong>원자 2.41 × 10<sup>23</sup>개</strong> &nbsp; (M2)</div><p>흔한 실수: 1.20 × 10<sup>23</sup>은 <span class=\"chem\">CO2</span> 분자의 수예요(아래 첨자를 쓰지 않음). 3.61 × 10<sup>23</sup>은 모든 원자의 수예요(2가 아니라 3을 곱함).</p>",
     },
 
     // ── s1-4-q016 · numeric · exam · SL · Structure 1.4.3 · 2 marks
     "s1-4-q016": {
       // EN: <p>Epsom salt is hydrated magnesium sulfate, <span class="chem">MgSO4.7H2O</span>.</p><p>Calculate the amount, in <span class="unit">mol</span>, of <strong>water molecules</strong> in 12.3 <span class="unit">g</span> of Epsom salt. Give your answer to 3 significant figures.</p><p><i>M</i>(<span class="chem">MgSO4</span>) = 120.38 <span class="unit">g mol-1</span>, &nbsp; <i>M</i>(<span class="chem">H2O</span>) = 18.02 <span class="unit">g mol-1</span></p>
-      stem: "",
+      stem: "<p>엡섬염은 황산 마그네슘 수화물(<span class=\"chem\">MgSO4.7H2O</span>)이에요.</p><p>엡섬염 12.3 <span class=\"unit\">g</span>에 들어 있는 <strong>물 분자</strong>의 양을 <span class=\"unit\">mol</span> 단위로 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p><p><i>M</i>(<span class=\"chem\">MgSO4</span>) = 120.38 <span class=\"unit\">g mol-1</span>, &nbsp; <i>M</i>(<span class=\"chem\">H2O</span>) = 18.02 <span class=\"unit\">g mol-1</span></p>",
       hints: [
         // EN: The 12.3 g is hydrated salt, so you need the molar mass of the whole formula, water included.
-        "",
+        "12.3 g은 수화된 염의 질량이므로, 물까지 포함한 화학식 전체의 몰 질량이 필요해요.",
         // EN: <i>M</i>(<span class="chem">MgSO4.7H2O</span>) = 120.38 + (7 × 18.02). Use it in <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span>.
-        "",
+        "<i>M</i>(<span class=\"chem\">MgSO4.7H2O</span>) = 120.38 + (7 × 18.02). 이 값을 <span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>M</i></span>에 넣으세요.",
         // EN: One mole of the hydrate contains 7 mol of water molecules.
-        "",
+        "수화물 1몰에는 물 분자가 7 mol 들어 있어요.",
       ],
       // EN: <div class="worked__math"><i>M</i>(<span class="chem">MgSO4.7H2O</span>) = 120.38 + (7 × 18.02)<br>&nbsp;&nbsp;= 246.52 <span class="unit">g mol-1</span></div><div class="worked__math"><i>n</i>(hydrate) = <span class="frac"><span>12.3 <span class="unit">g</span></span><span>246.52 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.049895 <span class="unit">mol</span> &nbsp; (M1)</div><div class="worked__math"><i>n</i>(<span class="chem">H2O</span>) = 7 × 0.049895 <span class="unit">mol</span><br>&nbsp;&nbsp;= <strong>0.349 <span class="unit">mol</span></strong> &nbsp; (M2)</div><p>Named slip: dividing 12.3 g by the anhydrous molar mass (120.38) gives 0.715 mol. The solid you weighed includes its water, so the hydrated molar mass must be used.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>M</i>(<span class=\"chem\">MgSO4.7H2O</span>) = 120.38 + (7 × 18.02)<br>&nbsp;&nbsp;= 246.52 <span class=\"unit\">g mol-1</span></div><div class=\"worked__math\"><i>n</i>(수화물) = <span class=\"frac\"><span>12.3 <span class=\"unit\">g</span></span><span>246.52 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.049895 <span class=\"unit\">mol</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>n</i>(<span class=\"chem\">H2O</span>) = 7 × 0.049895 <span class=\"unit\">mol</span><br>&nbsp;&nbsp;= <strong>0.349 <span class=\"unit\">mol</span></strong> &nbsp; (M2)</div><p>흔한 실수: 12.3 g을 무수물의 몰 질량(120.38)으로 나누면 0.715 mol이 나와요. 저울로 단 고체에는 물이 포함되어 있으므로 수화물의 몰 질량을 써야 해요.</p>",
     },
 
     // ── s1-4-q017 · mcq · exam · SL · Structure 1.4.3 · 1 mark
     "s1-4-q017": {
       // EN: <p>What is the mass, in <span class="unit">g</span>, of <strong>one molecule</strong> of water?</p><p><i>M</i>(<span class="chem">H2O</span>) = 18.02 <span class="unit">g mol-1</span></p>
-      stem: "",
+      stem: "<p>물 <strong>분자 1개</strong>의 질량은 몇 <span class=\"unit\">g</span>인가요?</p><p><i>M</i>(<span class=\"chem\">H2O</span>) = 18.02 <span class=\"unit\">g mol-1</span></p>",
       options: [
         // EN: 1.66 × 10<sup>−24</sup>
-        "",
+        "1.66 × 10<sup>−24</sup>",
         // EN: 2.99 × 10<sup>−23</sup>
-        "",
+        "2.99 × 10<sup>−23</sup>",
         // EN: 3.34 × 10<sup>22</sup>
-        "",
+        "3.34 × 10<sup>22</sup>",
         // EN: 1.08 × 10<sup>25</sup>
-        "",
+        "1.08 × 10<sup>25</sup>",
       ],
       hints: [
         // EN: 18.02 g is the mass of one mole of molecules. How many molecules share that mass?
-        "",
+        "18.02 g은 분자 1몰의 질량이에요. 몇 개의 분자가 이 질량을 나누어 가질까요?",
         // EN: Share the mass equally: divide the molar mass by <i>N</i><sub>A</sub>. Expect a very small number.
-        "",
+        "질량을 똑같이 나누세요: 몰 질량을 <i>N</i><sub>A</sub>로 나눠요. 아주 작은 수가 나올 거예요.",
       ],
       // EN: <p>One mole of water molecules has a mass of 18.02 <span class="unit">g</span>. That mass is shared between 6.02 × 10<sup>23</sup> molecules.</p><div class="worked__math"><i>m</i>(one molecule) = <span class="frac"><span>18.02 <span class="unit">g mol-1</span></span><span>6.02 × 10<sup>23</sup> <span class="unit">mol-1</span></span></span></div><div class="worked__math"><i>m</i>(one molecule) = <strong>2.99 × 10<sup>−23</sup> <span class="unit">g</span></strong></div>
-      solution: "",
+      solution: "<p>물 분자 1몰의 질량은 18.02 <span class=\"unit\">g</span>이에요. 이 질량을 분자 6.02 × 10<sup>23</sup>개가 나누어 가져요.</p><div class=\"worked__math\"><i>m</i>(분자 1개) = <span class=\"frac\"><span>18.02 <span class=\"unit\">g mol-1</span></span><span>6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span></span></span></div><div class=\"worked__math\"><i>m</i>(분자 1개) = <strong>2.99 × 10<sup>−23</sup> <span class=\"unit\">g</span></strong></div>",
       misconception: {
         // EN (option A): This is 1 ÷ <i>N</i><sub>A</sub>. You left out the molar mass. One mole of water has a mass of 18.02 g, not 1 g.
-        "0": "",
+        "0": "이것은 1 ÷ <i>N</i><sub>A</sub>예요. 몰 질량을 빠뜨렸어요. 물 1몰의 질량은 1 g이 아니라 18.02 g이에요.",
         // EN (option C): You divided <i>N</i><sub>A</sub> by the molar mass. That gives the number of molecules in 1 g of water, not the mass of one molecule.
-        "2": "",
+        "2": "<i>N</i><sub>A</sub>를 몰 질량으로 나누었어요. 그러면 분자 1개의 질량이 아니라 물 1 g에 든 분자 수가 나와요.",
         // EN (option D): You multiplied the molar mass by <i>N</i><sub>A</sub>. One molecule cannot have a larger mass than a whole mole of molecules.
-        "3": "",
+        "3": "몰 질량에 <i>N</i><sub>A</sub>를 곱했어요. 분자 1개가 분자 1몰 전체보다 무거울 수는 없어요.",
       },
     },
 
     // ── s1-4-q018 · mcq · exam · SL · Structure 1.4.3 · 1 mark
     "s1-4-q018": {
       // EN: <p>Which sample contains the greatest total number of <strong>atoms</strong>?</p><p>Use <i>A</i><sub>r</sub>: H = 1.01, He = 4.00, C = 12.01, O = 16.00.</p>
-      stem: "",
+      stem: "<p><strong>원자</strong>의 총수가 가장 많은 시료는 무엇인가요?</p><p><i>A</i><sub>r</sub>를 이용하세요: H = 1.01, He = 4.00, C = 12.01, O = 16.00.</p>",
       options: [
         // EN: 4.00 <span class="unit">g</span> of helium, <span class="chem">He</span>
-        "",
+        "헬륨(<span class=\"chem\">He</span>) 4.00 <span class=\"unit\">g</span>",
         // EN: 16.0 <span class="unit">g</span> of methane, <span class="chem">CH4</span>
-        "",
+        "메테인(<span class=\"chem\">CH4</span>) 16.0 <span class=\"unit\">g</span>",
         // EN: 27.0 <span class="unit">g</span> of water, <span class="chem">H2O</span>
-        "",
+        "물(<span class=\"chem\">H2O</span>) 27.0 <span class=\"unit\">g</span>",
         // EN: 44.0 <span class="unit">g</span> of carbon dioxide, <span class="chem">CO2</span>
-        "",
+        "이산화 탄소(<span class=\"chem\">CO2</span>) 44.0 <span class=\"unit\">g</span>",
       ],
       hints: [
         // EN: For each sample find the amount of molecules with <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span>.
-        "",
+        "각 시료에서 <span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>M</i></span>로 분자의 양을 구하세요.",
         // EN: Then multiply by the number of atoms in one molecule. Compare amounts of atoms in mol. You do not need <i>N</i><sub>A</sub> to compare.
-        "",
+        "그다음 분자 1개에 있는 원자 수를 곱하세요. 원자의 양을 mol로 비교하세요. 비교할 때는 <i>N</i><sub>A</sub>가 필요 없어요.",
       ],
       // EN: <div class="table-scroll"><table class="data"><thead><tr><th scope="col">Sample</th><th scope="col" class="num"><span style="text-transform:none;letter-spacing:0"><i>M</i> / g mol<sup>−1</sup></span></th><th scope="col" class="num"><span style="text-transform:none;letter-spacing:0"><i>n</i> / mol</span></th><th scope="col" class="num"><span style="text-transform:none;letter-spacing:0">Atoms each</span></th><th scope="col" class="num"><span style="text-transform:none;letter-spacing:0"><i>n</i>(atoms) / mol</span></th></tr></thead><tbody><tr><th scope="row"><span class="chem">He</span></th><td class="num">4.00</td><td class="num">1.00</td><td class="num">1</td><td class="num">1.00</td></tr><tr><th scope="row"><span class="chem">CH4</span></th><td class="num">16.05</td><td class="num">0.997</td><td class="num">5</td><td class="num"><strong>4.98</strong></td></tr><tr><th scope="row"><span class="chem">H2O</span></th><td class="num">18.02</td><td class="num">1.50</td><td class="num">3</td><td class="num">4.50</td></tr><tr><th scope="row"><span class="chem">CO2</span></th><td class="num">44.01</td><td class="num">1.00</td><td class="num">3</td><td class="num">3.00</td></tr></tbody></table></div><p>Methane has the largest amount of atoms, so it has the greatest number of atoms.</p>
-      solution: "",
+      solution: "<div class=\"table-scroll\"><table class=\"data\"><thead><tr><th scope=\"col\">시료</th><th scope=\"col\" class=\"num\"><span style=\"text-transform:none;letter-spacing:0\"><i>M</i> / g mol<sup>−1</sup></span></th><th scope=\"col\" class=\"num\"><span style=\"text-transform:none;letter-spacing:0\"><i>n</i> / mol</span></th><th scope=\"col\" class=\"num\"><span style=\"text-transform:none;letter-spacing:0\">분자당 원자 수</span></th><th scope=\"col\" class=\"num\"><span style=\"text-transform:none;letter-spacing:0\"><i>n</i>(원자) / mol</span></th></tr></thead><tbody><tr><th scope=\"row\"><span class=\"chem\">He</span></th><td class=\"num\">4.00</td><td class=\"num\">1.00</td><td class=\"num\">1</td><td class=\"num\">1.00</td></tr><tr><th scope=\"row\"><span class=\"chem\">CH4</span></th><td class=\"num\">16.05</td><td class=\"num\">0.997</td><td class=\"num\">5</td><td class=\"num\"><strong>4.98</strong></td></tr><tr><th scope=\"row\"><span class=\"chem\">H2O</span></th><td class=\"num\">18.02</td><td class=\"num\">1.50</td><td class=\"num\">3</td><td class=\"num\">4.50</td></tr><tr><th scope=\"row\"><span class=\"chem\">CO2</span></th><td class=\"num\">44.01</td><td class=\"num\">1.00</td><td class=\"num\">3</td><td class=\"num\">3.00</td></tr></tbody></table></div><p>원자의 양이 가장 많은 것은 메테인이므로, 원자 수도 메테인이 가장 많아요.</p>",
       misconception: {
         // EN (option A): Helium atoms are light, but 4.00 g is only 1.00 mol of atoms. The other samples contain several atoms in every molecule.
-        "0": "",
+        "0": "헬륨 원자는 가볍지만 4.00 g은 원자 1.00 mol밖에 안 돼요. 다른 시료는 분자마다 원자가 여러 개 있어요.",
         // EN (option C): Water has the most <em>molecules</em> here (1.50 mol), but each has only 3 atoms: 4.50 mol of atoms. Compare with 5 atoms per <span class="chem">CH4</span> molecule.
-        "2": "",
+        "2": "여기서 <em>분자</em>가 가장 많은 것은 물(1.50 mol)이지만, 분자마다 원자가 3개뿐이라 원자는 4.50 mol이에요. <span class=\"chem\">CH4</span> 분자는 원자가 5개인 것과 비교해 보세요.",
         // EN (option D): The largest mass does not mean the most atoms. 44.0 g of <span class="chem">CO2</span> is about 1.00 mol of molecules, which is 3.00 mol of atoms.
-        "3": "",
+        "3": "질량이 가장 크다고 원자가 가장 많은 것은 아니에요. <span class=\"chem\">CO2</span> 44.0 g은 분자 약 1.00 mol, 즉 원자 3.00 mol이에요.",
       },
     },
 
     // ── s1-4-q019 · numeric · challenge · SL · Structure 1.4.3 · 3 marks
     "s1-4-q019": {
       // EN: <p>A sample of magnesium chloride, <span class="chem">MgCl2</span>, contains 3.01 × 10<sup>22</sup> chloride ions.</p><p>Calculate the mass of the sample, in <span class="unit">g</span>. Give your answer to 3 significant figures.</p><p>Use <i>A</i><sub>r</sub>: Mg = 24.31, Cl = 35.45.</p>
-      stem: "",
+      stem: "<p>염화 마그네슘(<span class=\"chem\">MgCl2</span>) 시료에 염화 이온이 3.01 × 10<sup>22</sup>개 들어 있어요.</p><p>이 시료의 질량을 <span class=\"unit\">g</span> 단위로 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p><p><i>A</i><sub>r</sub>를 이용하세요: Mg = 24.31, Cl = 35.45.</p>",
       hints: [
         // EN: Work backwards along the usual route: number of ions → amount of ions → amount of <span class="chem">MgCl2</span> → mass.
-        "",
+        "평소 경로를 거꾸로 따라가세요: 이온 수 → 이온의 양 → <span class=\"chem\">MgCl2</span>의 양 → 질량.",
         // EN: One formula unit of <span class="chem">MgCl2</span> contains 2 chloride ions. So is the amount of <span class="chem">MgCl2</span> bigger or smaller than the amount of <span class="chem">Cl-</span>?
-        "",
+        "<span class=\"chem\">MgCl2</span> 화학식 단위 1개에는 염화 이온이 2개 있어요. 그러면 <span class=\"chem\">MgCl2</span>의 양은 <span class=\"chem\">Cl-</span>의 양보다 클까요, 작을까요?",
         // EN: <i>n</i>(<span class="chem">MgCl2</span>) = <i>n</i>(<span class="chem">Cl-</span>) ÷ 2. Then <span class="mono"><i>m</i> = <i>n</i> × <i>M</i></span> with <i>M</i> = 95.21 <span class="unit">g mol-1</span>.
-        "",
+        "<i>n</i>(<span class=\"chem\">MgCl2</span>) = <i>n</i>(<span class=\"chem\">Cl-</span>) ÷ 2. 그다음 <i>M</i> = 95.21 <span class=\"unit\">g mol-1</span>로 <span class=\"mono\"><i>m</i> = <i>n</i> × <i>M</i></span>를 쓰세요.",
       ],
       // EN: <div class="worked__math"><i>n</i>(<span class="chem">Cl-</span>) = <span class="frac"><span>3.01 × 10<sup>22</sup></span><span>6.02 × 10<sup>23</sup> <span class="unit">mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0500 <span class="unit">mol</span> &nbsp; (M1)</div><div class="worked__math"><i>n</i>(<span class="chem">MgCl2</span>) = 0.0500 <span class="unit">mol</span> ÷ 2<br>&nbsp;&nbsp;= 0.0250 <span class="unit">mol</span> &nbsp; (M2)</div><div class="worked__math"><i>M</i>(<span class="chem">MgCl2</span>) = 24.31 + (2 × 35.45)<br>&nbsp;&nbsp;= 95.21 <span class="unit">g mol-1</span></div><div class="worked__math"><i>m</i> = 0.0250 <span class="unit">mol</span> × 95.21 <span class="unit">g mol-1</span><br>&nbsp;&nbsp;= <strong>2.38 <span class="unit">g</span></strong> &nbsp; (M3)</div><p>Named slips: 4.76 g means you did not divide by 2. 9.52 g means you multiplied by 2 instead of dividing. There are fewer formula units than chloride ions.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>n</i>(<span class=\"chem\">Cl-</span>) = <span class=\"frac\"><span>3.01 × 10<sup>22</sup></span><span>6.02 × 10<sup>23</sup> <span class=\"unit\">mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0500 <span class=\"unit\">mol</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>n</i>(<span class=\"chem\">MgCl2</span>) = 0.0500 <span class=\"unit\">mol</span> ÷ 2<br>&nbsp;&nbsp;= 0.0250 <span class=\"unit\">mol</span> &nbsp; (M2)</div><div class=\"worked__math\"><i>M</i>(<span class=\"chem\">MgCl2</span>) = 24.31 + (2 × 35.45)<br>&nbsp;&nbsp;= 95.21 <span class=\"unit\">g mol-1</span></div><div class=\"worked__math\"><i>m</i> = 0.0250 <span class=\"unit\">mol</span> × 95.21 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= <strong>2.38 <span class=\"unit\">g</span></strong> &nbsp; (M3)</div><p>흔한 실수: 4.76 g이 나왔다면 2로 나누지 않은 거예요. 9.52 g이 나왔다면 2로 나누지 않고 곱한 거예요. 화학식 단위는 염화 이온보다 적어요.</p>",
     },
 
     // ── s1-4-q020 · mcq · challenge · SL · Structure 1.4.3 · 1 mark
     "s1-4-q020": {
       // EN: <p>A student calculates the number of hydrogen atoms in 3.20 <span class="unit">g</span> of methane, <span class="chem">CH4</span>. Their working is shown.</p><ol><li><i>M</i>(<span class="chem">CH4</span>) = 12.01 + (4 × 1.01) = 16.05 <span class="unit">g mol-1</span></li><li><i>n</i>(<span class="chem">CH4</span>) = 3.20 ÷ 16.05 = 0.199 <span class="unit">mol</span></li><li>Number of molecules = 0.199 × 6.02 × 10<sup>23</sup> = 1.20 × 10<sup>23</sup></li><li>Number of H atoms = 1.20 × 10<sup>23</sup> ÷ 4 = 3.00 × 10<sup>22</sup></li></ol><p>Which line contains the error?</p>
-      stem: "",
+      stem: "<p>한 학생이 메테인(<span class=\"chem\">CH4</span>) 3.20 <span class=\"unit\">g</span>에 들어 있는 수소 원자 수를 계산했어요. 풀이는 다음과 같아요.</p><ol><li><i>M</i>(<span class=\"chem\">CH4</span>) = 12.01 + (4 × 1.01) = 16.05 <span class=\"unit\">g mol-1</span></li><li><i>n</i>(<span class=\"chem\">CH4</span>) = 3.20 ÷ 16.05 = 0.199 <span class=\"unit\">mol</span></li><li>분자 수 = 0.199 × 6.02 × 10<sup>23</sup> = 1.20 × 10<sup>23</sup></li><li>H 원자 수 = 1.20 × 10<sup>23</sup> ÷ 4 = 3.00 × 10<sup>22</sup></li></ol><p>잘못된 줄은 어느 것인가요?</p>",
       options: [
         // EN: Line 1
-        "",
+        "1번 줄",
         // EN: Line 2
-        "",
+        "2번 줄",
         // EN: Line 3
-        "",
+        "3번 줄",
         // EN: Line 4
-        "",
+        "4번 줄",
       ],
       hints: [
         // EN: Check each line for two things: the right relationship, and an answer that moves in a sensible direction.
-        "",
+        "각 줄에서 두 가지를 확인하세요: 관계식이 맞는지, 답이 알맞은 방향으로 변하는지.",
         // EN: Should there be more hydrogen atoms than molecules, or fewer?
-        "",
+        "수소 원자는 분자보다 많아야 할까요, 적어야 할까요?",
       ],
       // EN: <p>Lines 1 to 3 are correct. In line 4 the student divided by 4. Each <span class="chem">CH4</span> molecule contains 4 hydrogen atoms, so there are 4 times <em>more</em> H atoms than molecules.</p><div class="worked__math"><i>N</i>(H) = 4 × 1.20 × 10<sup>23</sup><br>&nbsp;&nbsp;= <strong>4.80 × 10<sup>23</sup></strong></div>
-      solution: "",
+      solution: "<p>1~3번 줄은 맞아요. 4번 줄에서 학생은 4로 나누었어요. <span class=\"chem\">CH4</span> 분자 1개에는 수소 원자가 4개 있으므로, H 원자는 분자보다 4배 <em>많아요</em>.</p><div class=\"worked__math\"><i>N</i>(H) = 4 × 1.20 × 10<sup>23</sup><br>&nbsp;&nbsp;= <strong>4.80 × 10<sup>23</sup></strong></div>",
       misconception: {
         // EN (option A): Line 1 is correct: one C and four H gives 16.05 <span class="unit">g mol-1</span>. Look for a step where the answer moves in the wrong direction.
-        "0": "",
+        "0": "1번 줄은 맞아요: C 1개와 H 4개로 16.05 <span class=\"unit\">g mol-1</span>이에요. 답이 잘못된 방향으로 변하는 단계를 찾아보세요.",
         // EN (option B): Line 2 is correct: <i>n</i> = <i>m</i> ÷ <i>M</i> with mass in g and molar mass in g mol<sup>−1</sup>.
-        "1": "",
+        "1": "2번 줄은 맞아요: 질량은 g, 몰 질량은 g mol<sup>−1</sup>로 <i>n</i> = <i>m</i> ÷ <i>M</i>이에요.",
         // EN (option C): Line 3 is correct: moles to molecules means multiplying by <i>N</i><sub>A</sub>.
-        "2": "",
+        "2": "3번 줄은 맞아요: 몰에서 분자 수로 가려면 <i>N</i><sub>A</sub>를 곱해요.",
       },
     },
 
     // ── s1-4-q021 · mcq · foundation · SL · Structure 1.4.4 · 1 mark
     "s1-4-q021": {
       // EN: <p>Glucose has the molecular formula <span class="chem">C6H12O6</span>. What is its empirical formula?</p>
-      stem: "",
+      stem: "<p>포도당의 분자식은 <span class=\"chem\">C6H12O6</span>이에요. 실험식은 무엇인가요?</p>",
       options: [
         // EN: <span class="chem">C6H12O6</span>
-        "",
+        "<span class=\"chem\">C6H12O6</span>",
         // EN: <span class="chem">C3H6O3</span>
-        "",
+        "<span class=\"chem\">C3H6O3</span>",
         // EN: <span class="chem">CH2O</span>
-        "",
+        "<span class=\"chem\">CH2O</span>",
         // EN: <span class="chem">CHO</span>
-        "",
+        "<span class=\"chem\">CHO</span>",
       ],
       hints: [
         // EN: The empirical formula gives the simplest ratio of atoms of each element.
-        "",
+        "실험식은 각 원소 원자 수의 가장 간단한 비를 나타내요.",
         // EN: Find the largest number that divides exactly into 6, 12 and 6.
-        "",
+        "6, 12, 6을 모두 나누어떨어지게 하는 가장 큰 수를 찾으세요.",
       ],
       // EN: <div class="worked__math">C : H : O = 6 : 12 : 6</div><div class="worked__math">Divide by 6: C : H : O = 1 : 2 : 1</div><p>The empirical formula is <strong><span class="chem">CH2O</span></strong>.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">C : H : O = 6 : 12 : 6</div><div class=\"worked__math\">6으로 나누기: C : H : O = 1 : 2 : 1</div><p>실험식은 <strong><span class=\"chem\">CH2O</span></strong>예요.</p>",
       misconception: {
         // EN (option A): This is the molecular formula: the actual number of atoms in one molecule. The empirical formula is the simplest whole-number ratio.
-        "0": "",
+        "0": "이것은 분자식, 즉 분자 1개에 실제로 들어 있는 원자 수예요. 실험식은 가장 간단한 정수비예요.",
         // EN (option B): You divided by 2, but 3 : 6 : 3 can still be divided by 3. Keep going until the ratio cannot be made simpler.
-        "1": "",
+        "1": "2로 나누었지만 3 : 6 : 3은 아직 3으로 나눌 수 있어요. 더 간단하게 만들 수 없을 때까지 계속하세요.",
         // EN (option D): You removed the subscripts instead of dividing them. The ratio of atoms is 6 : 12 : 6, which simplifies to 1 : 2 : 1.
-        "3": "",
+        "3": "아래 첨자를 나누지 않고 지워 버렸어요. 원자 수의 비는 6 : 12 : 6이고, 간단히 하면 1 : 2 : 1이에요.",
       },
     },
 
     // ── s1-4-q022 · numeric · exam · SL · Structure 1.4.4 · 2 marks
     "s1-4-q022": {
       // EN: <p>Ammonium sulfate, <span class="chem">(NH4)2SO4</span>, is used as a fertilizer.</p><p>Calculate the percentage by mass of nitrogen in ammonium sulfate. Give your answer to 3 significant figures.</p><p>Use <i>A</i><sub>r</sub>: N = 14.01, H = 1.01, S = 32.07, O = 16.00.</p>
-      stem: "",
+      stem: "<p>황산 암모늄(<span class=\"chem\">(NH4)2SO4</span>)은 비료로 쓰여요.</p><p>황산 암모늄에서 질소의 질량 백분율을 계산하시오 (calculate). 유효 숫자 3자리로 답하세요.</p><p><i>A</i><sub>r</sub>를 이용하세요: N = 14.01, H = 1.01, S = 32.07, O = 16.00.</p>",
       hints: [
         // EN: Percentage by mass of an element = (mass of that element in one mole of compound ÷ molar mass of compound) × 100.
-        "",
+        "원소의 질량 백분율 = (화합물 1몰 속 그 원소의 질량 ÷ 화합물의 몰 질량) × 100.",
         // EN: Count the nitrogen atoms carefully. The subscript 2 outside the bracket applies to N and to H.
-        "",
+        "질소 원자 수를 조심해서 세세요. 괄호 밖의 아래 첨자 2는 N과 H 모두에 적용돼요.",
         // EN: <i>M</i> = (2 × 14.01) + (8 × 1.01) + 32.07 + (4 × 16.00).
-        "",
+        "<i>M</i> = (2 × 14.01) + (8 × 1.01) + 32.07 + (4 × 16.00).",
       ],
       // EN: <div class="worked__math"><i>M</i> = (2 × 14.01) + (8 × 1.01)<br>&nbsp;&nbsp;&nbsp;&nbsp;+ 32.07 + (4 × 16.00)<br>&nbsp;&nbsp;= 132.17 <span class="unit">g mol-1</span> &nbsp; (M1)</div><div class="worked__math"><i>m</i>(N in 1 mol) = 2 × 14.01 <span class="unit">g</span><br>&nbsp;&nbsp;= 28.02 <span class="unit">g</span></div><div class="worked__math">% N = <span class="frac"><span>28.02</span><span>132.17</span></span> × 100<br>&nbsp;&nbsp;= <strong>21.2 %</strong> &nbsp; (M2)</div><p>Named slip: 10.6 % means you counted one nitrogen atom instead of two.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>M</i> = (2 × 14.01) + (8 × 1.01)<br>&nbsp;&nbsp;&nbsp;&nbsp;+ 32.07 + (4 × 16.00)<br>&nbsp;&nbsp;= 132.17 <span class=\"unit\">g mol-1</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>m</i>(1 mol 속 N) = 2 × 14.01 <span class=\"unit\">g</span><br>&nbsp;&nbsp;= 28.02 <span class=\"unit\">g</span></div><div class=\"worked__math\">% N = <span class=\"frac\"><span>28.02</span><span>132.17</span></span> × 100<br>&nbsp;&nbsp;= <strong>21.2 %</strong> &nbsp; (M2)</div><p>흔한 실수: 10.6 %가 나왔다면 질소 원자를 2개가 아니라 1개로 센 거예요.</p>",
     },
 
     // ── s1-4-q023 · mcq · exam · SL · Structure 1.4.4 · 1 mark
     "s1-4-q023": {
       // EN: <p>A compound contains, by mass, 29.1 % sodium, 40.5 % sulfur and 30.4 % oxygen.</p><p>What is its empirical formula?</p><p>Use <i>A</i><sub>r</sub>: Na = 22.99, S = 32.07, O = 16.00.</p>
-      stem: "",
+      stem: "<p>어떤 화합물은 질량으로 나트륨 29.1 %, 황 40.5 %, 산소 30.4 %를 포함해요.</p><p>이 화합물의 실험식은 무엇인가요?</p><p><i>A</i><sub>r</sub>를 이용하세요: Na = 22.99, S = 32.07, O = 16.00.</p>",
       options: [
         // EN: <span class="chem">NaSO</span>
-        "",
+        "<span class=\"chem\">NaSO</span>",
         // EN: <span class="chem">NaSO2</span>
-        "",
+        "<span class=\"chem\">NaSO2</span>",
         // EN: <span class="chem">Na2S2O3</span>
-        "",
+        "<span class=\"chem\">Na2S2O3</span>",
         // EN: <span class="chem">Na3S4O3</span>
-        "",
+        "<span class=\"chem\">Na3S4O3</span>",
       ],
       hints: [
         // EN: Imagine 100 g of compound, so each percentage becomes a mass in grams. Then use <span class="mono"><i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub></span> for each element.
-        "",
+        "화합물이 100 g 있다고 생각하면 각 백분율이 그램 단위의 질량이 돼요. 그다음 원소마다 <span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub></span>를 쓰세요.",
         // EN: Divide all three amounts by the smallest one.
-        "",
+        "세 양을 모두 가장 작은 값으로 나누세요.",
         // EN: You should get 1 : 1 : 1.5. Do not round the 1.5. What can you multiply by to make every number whole?
-        "",
+        "1 : 1 : 1.5가 나와야 해요. 1.5를 반올림하지 마세요. 어떤 수를 곱하면 모든 수가 정수가 될까요?",
       ],
       // EN: <div class="table-scroll"><table class="data"><thead><tr><th scope="col"></th><th scope="col" class="num"><span style="text-transform:none;letter-spacing:0">Na</span></th><th scope="col" class="num"><span style="text-transform:none;letter-spacing:0">S</span></th><th scope="col" class="num"><span style="text-transform:none;letter-spacing:0">O</span></th></tr></thead><tbody><tr><th scope="row">Mass in 100 g / g</th><td class="num">29.1</td><td class="num">40.5</td><td class="num">30.4</td></tr><tr><th scope="row">÷ <i>A</i><sub>r</sub> → amount / mol</th><td class="num">1.266</td><td class="num">1.263</td><td class="num">1.900</td></tr><tr><th scope="row">÷ smallest (1.263)</th><td class="num">1.00</td><td class="num">1.00</td><td class="num">1.50</td></tr><tr><th scope="row">× 2</th><td class="num">2</td><td class="num">2</td><td class="num">3</td></tr></tbody></table></div><p>The empirical formula is <strong><span class="chem">Na2S2O3</span></strong>.</p>
-      solution: "",
+      solution: "<div class=\"table-scroll\"><table class=\"data\"><thead><tr><th scope=\"col\"></th><th scope=\"col\" class=\"num\"><span style=\"text-transform:none;letter-spacing:0\">Na</span></th><th scope=\"col\" class=\"num\"><span style=\"text-transform:none;letter-spacing:0\">S</span></th><th scope=\"col\" class=\"num\"><span style=\"text-transform:none;letter-spacing:0\">O</span></th></tr></thead><tbody><tr><th scope=\"row\">100 g 속 질량 / g</th><td class=\"num\">29.1</td><td class=\"num\">40.5</td><td class=\"num\">30.4</td></tr><tr><th scope=\"row\">÷ <i>A</i><sub>r</sub> → 양 / mol</th><td class=\"num\">1.266</td><td class=\"num\">1.263</td><td class=\"num\">1.900</td></tr><tr><th scope=\"row\">÷ 가장 작은 값(1.263)</th><td class=\"num\">1.00</td><td class=\"num\">1.00</td><td class=\"num\">1.50</td></tr><tr><th scope=\"row\">× 2</th><td class=\"num\">2</td><td class=\"num\">2</td><td class=\"num\">3</td></tr></tbody></table></div><p>실험식은 <strong><span class=\"chem\">Na2S2O3</span></strong>예요.</p>",
       misconception: {
         // EN (option A): You rounded 1.5 down to 1. A ratio ending in .5 is too far from a whole number to round. Multiply every number by 2 instead.
-        "0": "",
+        "0": "1.5를 1로 내렸어요. .5로 끝나는 비는 정수와 너무 멀어서 반올림할 수 없어요. 대신 모든 수에 2를 곱하세요.",
         // EN (option B): You rounded 1.5 up to 2. A ratio ending in .5 is too far from a whole number to round. Multiply every number by 2 instead.
-        "1": "",
+        "1": "1.5를 2로 올렸어요. .5로 끝나는 비는 정수와 너무 멀어서 반올림할 수 없어요. 대신 모든 수에 2를 곱하세요.",
         // EN (option D): You used the percentages as if they were numbers of atoms (29 : 40 : 30 ≈ 3 : 4 : 3). Divide each percentage by the <i>A</i><sub>r</sub> first to get moles.
-        "3": "",
+        "3": "백분율을 원자 수처럼 썼어요(29 : 40 : 30 ≈ 3 : 4 : 3). 먼저 각 백분율을 <i>A</i><sub>r</sub>로 나누어 몰을 구하세요.",
       },
     },
 
     // ── s1-4-q024 · mcq · exam · SL · Structure 1.4.4 · 1 mark
     "s1-4-q024": {
       // EN: <p>1.43 <span class="unit">g</span> of an oxide of copper is heated in a stream of hydrogen until all of it has been reduced to copper. The copper left has a mass of 1.27 <span class="unit">g</span>.</p><p>What is the empirical formula of the oxide?</p><p>Use <i>A</i><sub>r</sub>: Cu = 63.55, O = 16.00.</p>
-      stem: "",
+      stem: "<p>구리 산화물 1.43 <span class=\"unit\">g</span>을 수소 기류 속에서 가열해 모두 구리로 환원시켰어요. 남은 구리의 질량은 1.27 <span class=\"unit\">g</span>이에요.</p><p>이 산화물의 실험식은 무엇인가요?</p><p><i>A</i><sub>r</sub>를 이용하세요: Cu = 63.55, O = 16.00.</p>",
       options: [
         // EN: <span class="chem">CuO2</span>
-        "",
+        "<span class=\"chem\">CuO2</span>",
         // EN: <span class="chem">Cu2O</span>
-        "",
+        "<span class=\"chem\">Cu2O</span>",
         // EN: <span class="chem">Cu4O</span>
-        "",
+        "<span class=\"chem\">Cu4O</span>",
         // EN: <span class="chem">Cu8O</span>
-        "",
+        "<span class=\"chem\">Cu8O</span>",
       ],
       hints: [
         // EN: The oxide contains only copper and oxygen. The mass lost is the mass of oxygen, so find it by subtraction.
-        "",
+        "이 산화물에는 구리와 산소만 있어요. 줄어든 질량이 산소의 질량이므로 뺄셈으로 구하세요.",
         // EN: Convert each mass to an amount with <span class="mono"><i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub></span>. Use the mass of an oxygen <em>atom</em>.
-        "",
+        "<span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>A</i><sub>r</sub></span>로 각 질량을 양으로 바꾸세요. 산소 <em>원자</em>의 질량을 쓰세요.",
         // EN: Divide both amounts by the smaller one to get the ratio.
-        "",
+        "두 양을 작은 쪽으로 나누어 비를 구하세요.",
       ],
       // EN: <div class="worked__math"><i>m</i>(O) = 1.43 <span class="unit">g</span> − 1.27 <span class="unit">g</span><br>&nbsp;&nbsp;= 0.16 <span class="unit">g</span></div><div class="worked__math"><i>n</i>(Cu) = <span class="frac"><span>1.27 <span class="unit">g</span></span><span>63.55 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0200 <span class="unit">mol</span></div><div class="worked__math"><i>n</i>(O) = <span class="frac"><span>0.16 <span class="unit">g</span></span><span>16.00 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0100 <span class="unit">mol</span></div><div class="worked__math">Cu : O = 0.0200 : 0.0100<br>&nbsp;&nbsp;= 2 : 1</div><p>The empirical formula is <strong><span class="chem">Cu2O</span></strong>.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>m</i>(O) = 1.43 <span class=\"unit\">g</span> − 1.27 <span class=\"unit\">g</span><br>&nbsp;&nbsp;= 0.16 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>n</i>(Cu) = <span class=\"frac\"><span>1.27 <span class=\"unit\">g</span></span><span>63.55 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0200 <span class=\"unit\">mol</span></div><div class=\"worked__math\"><i>n</i>(O) = <span class=\"frac\"><span>0.16 <span class=\"unit\">g</span></span><span>16.00 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.0100 <span class=\"unit\">mol</span></div><div class=\"worked__math\">Cu : O = 0.0200 : 0.0100<br>&nbsp;&nbsp;= 2 : 1</div><p>실험식은 <strong><span class=\"chem\">Cu2O</span></strong>예요.</p>",
       misconception: {
         // EN (option A): You have the ratio upside down. There are 0.0200 mol of Cu and 0.0100 mol of O, so there are two Cu for each O.
-        "0": "",
+        "0": "비를 거꾸로 썼어요. Cu는 0.0200 mol, O는 0.0100 mol이므로 O 1개당 Cu가 2개예요.",
         // EN (option C): You divided the mass of oxygen by 32.00. The formula counts oxygen <em>atoms</em>, so use <i>A</i><sub>r</sub>(O) = 16.00, not <i>M</i>(<span class="chem">O2</span>).
-        "2": "",
+        "2": "산소의 질량을 32.00으로 나누었어요. 화학식은 산소 <em>원자</em>를 세므로 <i>M</i>(<span class=\"chem\">O2</span>)가 아니라 <i>A</i><sub>r</sub>(O) = 16.00을 쓰세요.",
         // EN (option D): You used the ratio of the masses (1.27 : 0.16 ≈ 8 : 1). A formula is a ratio of amounts in moles, so divide each mass by its <i>A</i><sub>r</sub> first.
-        "3": "",
+        "3": "질량의 비를 썼어요(1.27 : 0.16 ≈ 8 : 1). 화학식은 몰 단위 양의 비이므로 먼저 각 질량을 <i>A</i><sub>r</sub>로 나누세요.",
       },
     },
 
     // ── s1-4-q025 · short · exam · SL · Structure 1.4.4 · 3 marks
     "s1-4-q025": {
       // EN: <p>A compound contains only carbon, hydrogen and oxygen. Complete combustion of 1.50 <span class="unit">g</span> of the compound gives 3.30 <span class="unit">g</span> of <span class="chem">CO2</span> and 1.80 <span class="unit">g</span> of <span class="chem">H2O</span>.</p><p>Determine the empirical formula of the compound. Show your working.</p><p><i>M</i>(<span class="chem">CO2</span>) = 44.01 <span class="unit">g mol-1</span>, <i>M</i>(<span class="chem">H2O</span>) = 18.02 <span class="unit">g mol-1</span>. <i>A</i><sub>r</sub>: C = 12.01, H = 1.01, O = 16.00.</p>
-      stem: "",
+      stem: "<p>어떤 화합물은 탄소, 수소, 산소만 포함해요. 이 화합물 1.50 <span class=\"unit\">g</span>을 완전 연소시키면 <span class=\"chem\">CO2</span> 3.30 <span class=\"unit\">g</span>과 <span class=\"chem\">H2O</span> 1.80 <span class=\"unit\">g</span>이 생겨요.</p><p>이 화합물의 실험식을 구하시오 (determine). 풀이 과정을 보이세요.</p><p><i>M</i>(<span class=\"chem\">CO2</span>) = 44.01 <span class=\"unit\">g mol-1</span>, <i>M</i>(<span class=\"chem\">H2O</span>) = 18.02 <span class=\"unit\">g mol-1</span>. <i>A</i><sub>r</sub>: C = 12.01, H = 1.01, O = 16.00.</p>",
       hints: [
         // EN: All the carbon ends up in <span class="chem">CO2</span> and all the hydrogen ends up in <span class="chem">H2O</span>. Use <span class="mono"><i>n</i> = <i>m</i> ÷ <i>M</i></span> for each product.
-        "",
+        "탄소는 모두 <span class=\"chem\">CO2</span>로, 수소는 모두 <span class=\"chem\">H2O</span>로 가요. 각 생성물에 <span class=\"mono\"><i>n</i> = <i>m</i> ÷ <i>M</i></span>를 쓰세요.",
         // EN: Each <span class="chem">H2O</span> contains 2 H atoms, so <i>n</i>(H) = 2 × <i>n</i>(<span class="chem">H2O</span>).
-        "",
+        "<span class=\"chem\">H2O</span> 1개에는 H 원자가 2개 있으므로 <i>n</i>(H) = 2 × <i>n</i>(<span class=\"chem\">H2O</span>)예요.",
         // EN: The oxygen in the products comes partly from the air, so you cannot count it directly. Find the mass of O in the compound by difference: mass of compound − mass of C − mass of H.
-        "",
+        "생성물 속 산소의 일부는 공기에서 왔으므로 바로 셀 수 없어요. 화합물 속 O의 질량은 차이로 구하세요: 화합물의 질량 − C의 질량 − H의 질량.",
       ],
       // EN: <div class="worked__math"><i>n</i>(C) = <i>n</i>(<span class="chem">CO2</span>)<br>&nbsp;&nbsp;= <span class="frac"><span>3.30 <span class="unit">g</span></span><span>44.01 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.07498 <span class="unit">mol</span></div><div class="worked__math"><i>n</i>(H) = 2 × <i>n</i>(<span class="chem">H2O</span>)<br>&nbsp;&nbsp;= 2 × <span class="frac"><span>1.80 <span class="unit">g</span></span><span>18.02 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.1998 <span class="unit">mol</span> &nbsp; (M1)</div><div class="worked__math"><i>m</i>(C) = 0.07498 <span class="unit">mol</span> × 12.01 <span class="unit">g mol-1</span><br>&nbsp;&nbsp;= 0.9005 <span class="unit">g</span></div><div class="worked__math"><i>m</i>(H) = 0.1998 <span class="unit">mol</span> × 1.01 <span class="unit">g mol-1</span><br>&nbsp;&nbsp;= 0.2018 <span class="unit">g</span></div><div class="worked__math"><i>m</i>(O) = 1.50 <span class="unit">g</span> − 0.9005 <span class="unit">g</span> − 0.2018 <span class="unit">g</span><br>&nbsp;&nbsp;= 0.3977 <span class="unit">g</span></div><div class="worked__math"><i>n</i>(O) = <span class="frac"><span>0.3977 <span class="unit">g</span></span><span>16.00 <span class="unit">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.02485 <span class="unit">mol</span> &nbsp; (M2)</div><p>Divide each amount by the smallest (0.02485 mol):</p><div class="worked__math">C : H : O = 3.02 : 8.04 : 1.00</div><p>Empirical formula: <strong><span class="chem">C3H8O</span></strong> (M3). The ratios 3.02 and 8.04 are within experimental rounding of whole numbers, so rounding is justified here.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><i>n</i>(C) = <i>n</i>(<span class=\"chem\">CO2</span>)<br>&nbsp;&nbsp;= <span class=\"frac\"><span>3.30 <span class=\"unit\">g</span></span><span>44.01 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.07498 <span class=\"unit\">mol</span></div><div class=\"worked__math\"><i>n</i>(H) = 2 × <i>n</i>(<span class=\"chem\">H2O</span>)<br>&nbsp;&nbsp;= 2 × <span class=\"frac\"><span>1.80 <span class=\"unit\">g</span></span><span>18.02 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.1998 <span class=\"unit\">mol</span> &nbsp; (M1)</div><div class=\"worked__math\"><i>m</i>(C) = 0.07498 <span class=\"unit\">mol</span> × 12.01 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= 0.9005 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>m</i>(H) = 0.1998 <span class=\"unit\">mol</span> × 1.01 <span class=\"unit\">g mol-1</span><br>&nbsp;&nbsp;= 0.2018 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>m</i>(O) = 1.50 <span class=\"unit\">g</span> − 0.9005 <span class=\"unit\">g</span> − 0.2018 <span class=\"unit\">g</span><br>&nbsp;&nbsp;= 0.3977 <span class=\"unit\">g</span></div><div class=\"worked__math\"><i>n</i>(O) = <span class=\"frac\"><span>0.3977 <span class=\"unit\">g</span></span><span>16.00 <span class=\"unit\">g mol-1</span></span></span><br>&nbsp;&nbsp;= 0.02485 <span class=\"unit\">mol</span> &nbsp; (M2)</div><p>각 양을 가장 작은 값(0.02485 mol)으로 나누세요:</p><div class=\"worked__math\">C : H : O = 3.02 : 8.04 : 1.00</div><p>실험식: <strong><span class=\"chem\">C3H8O</span></strong> (M3). 3.02와 8.04는 실험 오차 범위 안에서 정수에 가까우므로, 여기서는 반올림해도 돼요.</p>",
       // EN: <p><i>n</i>(C) = 3.30 ÷ 44.01 = 0.0750 mol and <i>n</i>(H) = 2 × (1.80 ÷ 18.02) = 0.200 mol.</p><p><i>m</i>(O) = 1.50 − (0.0750 × 12.01) − (0.200 × 1.01) = 0.398 g, so <i>n</i>(O) = 0.398 ÷ 16.00 = 0.0249 mol.</p><p>C : H : O = 0.0750 : 0.200 : 0.0249 = 3 : 8 : 1. Empirical formula: <span class="chem">C3H8O</span>.</p>
-      answer: "",
+      answer: "<p><i>n</i>(C) = 3.30 ÷ 44.01 = 0.0750 mol, <i>n</i>(H) = 2 × (1.80 ÷ 18.02) = 0.200 mol.</p><p><i>m</i>(O) = 1.50 − (0.0750 × 12.01) − (0.200 × 1.01) = 0.398 g이므로 <i>n</i>(O) = 0.398 ÷ 16.00 = 0.0249 mol.</p><p>C : H : O = 0.0750 : 0.200 : 0.0249 = 3 : 8 : 1. 실험식: <span class=\"chem\">C3H8O</span>.</p>",
       markscheme: [
         // EN: M1: n(C) = 0.0750 mol AND n(H) = 0.200 mol. (Accept masses: 0.901 g of C and 0.202 g of H.)
-        "",
+        "M1: n(C) = 0.0750 mol 그리고 n(H) = 0.200 mol. (질량도 인정: C 0.901 g, H 0.202 g.)",
         // EN: M2: mass of O by difference = 0.398 g, OR n(O) = 0.0249 mol.
-        "",
+        "M2: 차이로 구한 O의 질량 = 0.398 g, 또는 n(O) = 0.0249 mol.",
         // EN: M3: C₃H₈O. (A correct final formula with no working would earn all 3 marks, but always show working so that an error is penalised only once.)
-        "",
+        "M3: C₃H₈O. (풀이 없이 최종 화학식만 맞아도 3점을 모두 받지만, 실수가 한 번만 감점되도록 늘 풀이 과정을 보이세요.)",
       ],
     },
 
     // ── s1-4-q026 · mcq · exam · SL · Structure 1.4.4 · 1 mark
     "s1-4-q026": {
       // EN: <p>An oxide of phosphorus has the empirical formula <span class="chem">P2O5</span> and a molar mass of 283.88 <span class="unit">g mol-1</span>.</p><p>What is its molecular formula?</p><p>Use <i>A</i><sub>r</sub>: P = 30.97, O = 16.00.</p>
-      stem: "",
+      stem: "<p>인의 산화물 중 하나는 실험식이 <span class=\"chem\">P2O5</span>이고 몰 질량이 283.88 <span class=\"unit\">g mol-1</span>이에요.</p><p>분자식은 무엇인가요?</p><p><i>A</i><sub>r</sub>를 이용하세요: P = 30.97, O = 16.00.</p>",
       options: [
         // EN: <span class="chem">P2O5</span>
-        "",
+        "<span class=\"chem\">P2O5</span>",
         // EN: <span class="chem">P2O10</span>
-        "",
+        "<span class=\"chem\">P2O10</span>",
         // EN: <span class="chem">P4O5</span>
-        "",
+        "<span class=\"chem\">P4O5</span>",
         // EN: <span class="chem">P4O10</span>
         "",
       ],
