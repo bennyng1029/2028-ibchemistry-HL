@@ -1114,359 +1114,359 @@ S1.i18n.register('ko', 's1-3.q', {
       solution: "<p><strong>X:</strong> 큰 증가는 제2 값(1451)과 제3 값(7733) 사이에 있어요. X는 바깥 전자가 두 개이므로 2족이고, X<sup>2+</sup>가 돼요.</p><p><strong>Y:</strong> 값이 서서히 커지다가 제7 값(11 018)과 제8 값(33 604) 사이에서 크게 증가해요. Y는 바깥 전자가 일곱 개이므로 17족이고, 전자 하나를 얻어 Y<sup>−</sup>이 돼요.</p><p>X<sup>2+</sup> 이온 하나에는 Y<sup>−</sup> 이온 두 개가 필요하므로, 화학식은 XY<sub>2</sub>예요. (X는 마그네슘이고 Y는 염소예요: <span class=\"chem\">MgCl2</span>.)</p>",
       misconception: {
         // EN (option A): A 1 : 1 formula needs charges of equal size. X has two outer electrons and forms a 2+ ion. Y has seven outer electrons and gains one electron to form a 1− ion.
-        "0": "",
+        "0": "1 : 1 화학식이 되려면 두 전하의 크기가 같아야 해요. X는 바깥 전자가 두 개이고 2+ 이온이 돼요. Y는 바깥 전자가 일곱 개이고 전자 하나를 얻어 1− 이온이 돼요.",
         // EN (option C): The ratio is the wrong way round. X forms X<sup>2+</sup> and Y forms Y<sup>−</sup>, so two Y ions are needed for each X ion.
-        "2": "",
+        "2": "비가 거꾸로 되었어요. X는 X<sup>2+</sup>가 되고 Y는 Y<sup>−</sup>이 되므로, X 이온 하나마다 Y 이온 두 개가 필요해요.",
         // EN (option D): This uses the numbers of outer electrons (2 and 7) as if they were the ion charges. Y does not lose seven electrons. It gains one to complete its outer level.
-        "3": "",
+        "3": "이것은 바깥 전자의 수(2와 7)를 이온의 전하처럼 썼어요. Y는 전자 일곱 개를 잃지 않아요. 바깥 준위를 채우기 위해 전자 하나를 얻어요.",
       },
     },
 
     // ── s1-3-q044 · short · exam · AHL · Structure 1.3.7 · 3 marks
     "s1-3-q044": {
       // EN: <p>The first four successive ionization energies of aluminium (Z = 13) are 578, 1817, 2745 and 11 577 <span class="unit">kJ mol-1</span>.</p><p>(a) Explain why the second ionization energy is greater than the first. [1]</p><p>(b) Explain why the fourth ionization energy is very much greater than the third. [2]</p>
-      stem: "",
+      stem: "<p>알루미늄(Z = 13)의 처음 네 개의 순차 이온화 에너지는 578, 1817, 2745, 11 577 <span class=\"unit\">kJ mol-1</span>이에요.</p><p>(a) 제2 이온화 에너지가 제1 이온화 에너지보다 큰 이유를 설명하시오 (explain). [1]</p><p>(b) 제4 이온화 에너지가 제3 이온화 에너지보다 훨씬 더 큰 이유를 설명하시오 (explain). [2]</p>",
       hints: [
         // EN: For (a): after one electron has gone, what is the particle that the next electron leaves?
-        "",
+        "(a): 전자 하나가 떨어져 나간 뒤, 다음 전자는 어떤 입자에서 떨어져 나가나요?",
         // EN: For (b): write the configuration of aluminium. Where does the fourth electron come from?
-        "",
+        "(b): 알루미늄의 전자 배치를 써요. 네 번째 전자는 어디에서 나오나요?",
       ],
       // EN: <p>(a) The second electron is removed from a positive ion, not from a neutral atom. The same nuclear charge now attracts fewer electrons (there is less repulsion between the remaining electrons), so each electron is held more strongly.</p><p>(b) Aluminium is <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>1</sup></span>. The first three electrons come from the third main energy level. The fourth electron comes from the second main energy level (2p), which is closer to the nucleus. It is shielded by fewer inner electrons, so it is attracted much more strongly and needs much more energy to remove.</p>
-      answer: "",
+      answer: "<p>(a) 두 번째 전자는 중성 원자가 아니라 양이온에서 떨어져 나가요. 같은 핵전하가 이제 더 적은 수의 전자를 끌어당기므로(남은 전자들 사이의 반발력이 더 작아요), 각 전자가 더 강하게 붙잡혀 있어요.</p><p>(b) 알루미늄은 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>1</sup></span>이에요. 처음 세 전자는 세 번째 주 에너지 준위에서 나와요. 네 번째 전자는 원자핵에 더 가까운 두 번째 주 에너지 준위(2p)에서 나와요. 이 전자는 더 적은 수의 안쪽 전자에 의해 가려막히므로, 훨씬 더 강하게 끌리고 떼어 내는 데 훨씬 더 많은 에너지가 필요해요.</p>",
       markscheme: [
         // EN: (a) The electron is removed from a positive ion / the same nuclear charge attracts fewer electrons / less electron–electron repulsion, so the attraction is stronger.
-        "",
+        "(a) 전자가 양이온에서 떨어져 나간다 / 같은 핵전하가 더 적은 수의 전자를 끌어당긴다 / 전자–전자 반발력이 더 작아서 인력이 더 강하다.",
         // EN: (b) The fourth electron is removed from a main energy level closer to the nucleus / from n = 2 (2p), not n = 3.
-        "",
+        "(b) 네 번째 전자는 원자핵에 더 가까운 주 에너지 준위에서 / n = 3이 아니라 n = 2(2p)에서 떨어져 나간다.",
         // EN: (b) It is less shielded (fewer inner electrons) and so much more strongly attracted to the nucleus.
-        "",
+        "(b) 가려막기가 더 작아서(안쪽 전자가 더 적어서) 원자핵에 훨씬 더 강하게 끌린다.",
       ],
     },
 
     // ── s1-3-q045 · mcq · challenge · AHL · Structure 1.3.7 · 1 mark
     "s1-3-q045": {
       // EN: <p>The graph shows log<sub>10</sub> of the first eight successive ionization energies of an element.</p><p><svg viewBox="0 0 310 220" width="310" height="220" role="img" aria-label="Graph of log to base 10 of ionization energy against the number of the electron removed, from 1 to 8. The points rise gently from about 3.0 for the first electron to about 3.8 for the fifth, jump sharply to about 4.3 for the sixth, then rise gently to about 4.5 for the eighth."><path d="M52 16V176H300" fill="none" stroke="currentColor" stroke-width="1.4"/><line x1="47" x2="300" y1="158.2222222222222" y2="158.2222222222222" stroke="currentColor" stroke-width="0.6" stroke-opacity="0.35"/><text x="43" y="162.2222222222222" text-anchor="end" font-size="12" fill="currentColor">3.0</text><line x1="47" x2="300" y1="113.77777777777776" y2="113.77777777777776" stroke="currentColor" stroke-width="0.6" stroke-opacity="0.35"/><text x="43" y="117.77777777777776" text-anchor="end" font-size="12" fill="currentColor">3.5</text><line x1="47" x2="300" y1="69.3333333333333" y2="69.3333333333333" stroke="currentColor" stroke-width="0.6" stroke-opacity="0.35"/><text x="43" y="73.3333333333333" text-anchor="end" font-size="12" fill="currentColor">4.0</text><line x1="47" x2="300" y1="24.888888888888886" y2="24.888888888888886" stroke="currentColor" stroke-width="0.6" stroke-opacity="0.35"/><text x="43" y="28.888888888888886" text-anchor="end" font-size="12" fill="currentColor">4.5</text><line x1="66" x2="66" y1="176" y2="181" stroke="currentColor" stroke-width="1.2"/><text x="66" y="195" text-anchor="middle" font-size="12" fill="currentColor">1</text><line x1="97.42857142857143" x2="97.42857142857143" y1="176" y2="181" stroke="currentColor" stroke-width="1.2"/><text x="97.42857142857143" y="195" text-anchor="middle" font-size="12" fill="currentColor">2</text><line x1="128.85714285714286" x2="128.85714285714286" y1="176" y2="181" stroke="currentColor" stroke-width="1.2"/><text x="128.85714285714286" y="195" text-anchor="middle" font-size="12" fill="currentColor">3</text><line x1="160.28571428571428" x2="160.28571428571428" y1="176" y2="181" stroke="currentColor" stroke-width="1.2"/><text x="160.28571428571428" y="195" text-anchor="middle" font-size="12" fill="currentColor">4</text><line x1="191.71428571428572" x2="191.71428571428572" y1="176" y2="181" stroke="currentColor" stroke-width="1.2"/><text x="191.71428571428572" y="195" text-anchor="middle" font-size="12" fill="currentColor">5</text><line x1="223.14285714285714" x2="223.14285714285714" y1="176" y2="181" stroke="currentColor" stroke-width="1.2"/><text x="223.14285714285714" y="195" text-anchor="middle" font-size="12" fill="currentColor">6</text><line x1="254.57142857142858" x2="254.57142857142858" y1="176" y2="181" stroke="currentColor" stroke-width="1.2"/><text x="254.57142857142858" y="195" text-anchor="middle" font-size="12" fill="currentColor">7</text><line x1="286" x2="286" y1="176" y2="181" stroke="currentColor" stroke-width="1.2"/><text x="286" y="195" text-anchor="middle" font-size="12" fill="currentColor">8</text><path d="M66.0 157.8L97.4 133.3L128.9 116.9L160.3 96.4L191.7 87.3L223.1 40.2L254.6 33.3L286.0 27.1" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="66.0" cy="157.8" r="4" fill="currentColor"/><circle cx="97.4" cy="133.3" r="4" fill="currentColor"/><circle cx="128.9" cy="116.9" r="4" fill="currentColor"/><circle cx="160.3" cy="96.4" r="4" fill="currentColor"/><circle cx="191.7" cy="87.3" r="4" fill="currentColor"/><circle cx="223.1" cy="40.2" r="4" fill="currentColor"/><circle cx="254.6" cy="33.3" r="4" fill="currentColor"/><circle cx="286.0" cy="27.1" r="4" fill="currentColor"/><text x="176" y="214" text-anchor="middle" font-size="12" fill="currentColor">number of the electron removed</text><text transform="translate(14 96) rotate(-90)" text-anchor="middle" font-size="12" fill="currentColor">log₁₀(IE / kJ mol⁻¹)</text></svg></p><p>In which group of the periodic table is the element?</p>
-      stem: "",
+      stem: "<p>그래프는 어떤 원소의 처음 여덟 개의 순차 이온화 에너지의 log<sub>10</sub> 값을 나타낸 거예요.</p><p><svg viewBox=\"0 0 310 220\" width=\"310\" height=\"220\" role=\"img\" aria-label=\"떼어 낸 전자의 번호(1부터 8까지)에 대한 이온화 에너지의 상용로그(밑이 10인 로그) 그래프. 점들은 첫 번째 전자의 약 3.0에서 다섯 번째 전자의 약 3.8까지 완만하게 올라가다가, 여섯 번째 전자에서 약 4.3으로 급격히 뛰고, 그 뒤 여덟 번째 전자의 약 4.5까지 완만하게 올라가요.\"><path d=\"M52 16V176H300\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><line x1=\"47\" x2=\"300\" y1=\"158.2222222222222\" y2=\"158.2222222222222\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.35\"/><text x=\"43\" y=\"162.2222222222222\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">3.0</text><line x1=\"47\" x2=\"300\" y1=\"113.77777777777776\" y2=\"113.77777777777776\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.35\"/><text x=\"43\" y=\"117.77777777777776\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">3.5</text><line x1=\"47\" x2=\"300\" y1=\"69.3333333333333\" y2=\"69.3333333333333\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.35\"/><text x=\"43\" y=\"73.3333333333333\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">4.0</text><line x1=\"47\" x2=\"300\" y1=\"24.888888888888886\" y2=\"24.888888888888886\" stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.35\"/><text x=\"43\" y=\"28.888888888888886\" text-anchor=\"end\" font-size=\"12\" fill=\"currentColor\">4.5</text><line x1=\"66\" x2=\"66\" y1=\"176\" y2=\"181\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"66\" y=\"195\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">1</text><line x1=\"97.42857142857143\" x2=\"97.42857142857143\" y1=\"176\" y2=\"181\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"97.42857142857143\" y=\"195\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">2</text><line x1=\"128.85714285714286\" x2=\"128.85714285714286\" y1=\"176\" y2=\"181\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"128.85714285714286\" y=\"195\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">3</text><line x1=\"160.28571428571428\" x2=\"160.28571428571428\" y1=\"176\" y2=\"181\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"160.28571428571428\" y=\"195\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">4</text><line x1=\"191.71428571428572\" x2=\"191.71428571428572\" y1=\"176\" y2=\"181\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"191.71428571428572\" y=\"195\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">5</text><line x1=\"223.14285714285714\" x2=\"223.14285714285714\" y1=\"176\" y2=\"181\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"223.14285714285714\" y=\"195\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">6</text><line x1=\"254.57142857142858\" x2=\"254.57142857142858\" y1=\"176\" y2=\"181\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"254.57142857142858\" y=\"195\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">7</text><line x1=\"286\" x2=\"286\" y1=\"176\" y2=\"181\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"286\" y=\"195\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">8</text><path d=\"M66.0 157.8L97.4 133.3L128.9 116.9L160.3 96.4L191.7 87.3L223.1 40.2L254.6 33.3L286.0 27.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><circle cx=\"66.0\" cy=\"157.8\" r=\"4\" fill=\"currentColor\"/><circle cx=\"97.4\" cy=\"133.3\" r=\"4\" fill=\"currentColor\"/><circle cx=\"128.9\" cy=\"116.9\" r=\"4\" fill=\"currentColor\"/><circle cx=\"160.3\" cy=\"96.4\" r=\"4\" fill=\"currentColor\"/><circle cx=\"191.7\" cy=\"87.3\" r=\"4\" fill=\"currentColor\"/><circle cx=\"223.1\" cy=\"40.2\" r=\"4\" fill=\"currentColor\"/><circle cx=\"254.6\" cy=\"33.3\" r=\"4\" fill=\"currentColor\"/><circle cx=\"286.0\" cy=\"27.1\" r=\"4\" fill=\"currentColor\"/><text x=\"176\" y=\"214\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">떼어 낸 전자의 번호</text><text transform=\"translate(14 96) rotate(-90)\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">log₁₀(IE / kJ mol⁻¹)</text></svg></p><p>이 원소는 주기율표의 몇 족에 있나요?</p>",
       options: [
         // EN: Group 13
-        "",
+        "13족",
         // EN: Group 14
-        "",
+        "14족",
         // EN: Group 15
-        "",
+        "15족",
         // EN: Group 16
-        "",
+        "16족",
       ],
       hints: [
         // EN: Find the one place where the graph steps up sharply.
-        "",
+        "그래프가 급격히 뛰어오르는 곳 한 군데를 찾아요.",
         // EN: How many points lie before the step? That is the number of outer electrons.
-        "",
+        "뛰어오르기 전에 점이 몇 개 있나요? 그것이 바깥 전자의 수예요.",
         // EN: For groups 13 to 18, group number = 10 + number of outer electrons.
-        "",
+        "13족부터 18족까지는 족 번호 = 10 + 바깥 전자의 수예요.",
       ],
       // EN: <p>The first five points rise gently. Between the 5th and 6th points the graph steps up sharply. On a log scale, a step of about 0.5 means the value becomes about 3 times larger. So five electrons are removed before the large jump: the atom has five outer electrons and the element is in <strong>group 15</strong>. (The data are for phosphorus, <span class="mono">[Ne] 3s<sup>2</sup> 3p<sup>3</sup></span>.)</p><p>A log scale is used because successive ionization energies cover a very wide range. On an ordinary scale the first few points would be squashed together at the bottom of the graph.</p>
-      solution: "",
+      solution: "<p>처음 다섯 점은 완만하게 올라가요. 5번째 점과 6번째 점 사이에서 그래프가 급격히 뛰어올라요. 로그 눈금에서 약 0.5만큼 뛰면 값이 약 3배 커진다는 뜻이에요. 따라서 큰 증가 전에 전자 다섯 개를 떼어 내므로, 이 원자의 바깥 전자는 다섯 개이고 이 원소는 <strong>15족</strong>에 있어요. (이 자료는 인 <span class=\"mono\">[Ne] 3s<sup>2</sup> 3p<sup>3</sup></span>의 값이에요.)</p><p>순차 이온화 에너지는 값의 범위가 매우 넓기 때문에 로그 눈금을 써요. 보통 눈금이라면 처음 몇 개의 점이 그래프 아래쪽에 한데 몰려 버릴 거예요.</p>",
       misconception: {
         // EN (option A): A group 13 element has three outer electrons, so the large jump would come between the 3rd and 4th points. Here those points rise gently.
-        "0": "",
+        "0": "13족 원소는 바깥 전자가 세 개이므로, 큰 증가가 3번째 점과 4번째 점 사이에 나타날 거예요. 여기서는 그 점들이 완만하게 올라가요.",
         // EN (option B): A group 14 element has four outer electrons, so the large jump would come between the 4th and 5th points. Count the points before the jump again.
-        "1": "",
+        "1": "14족 원소는 바깥 전자가 네 개이므로, 큰 증가가 4번째 점과 5번째 점 사이에 나타날 거예요. 증가 전에 있는 점의 수를 다시 세어 봐요.",
         // EN (option D): This counts the 6th electron as an outer electron. The 6th electron is the first one <em>after</em> the jump, so it comes from the inner level.
-        "3": "",
+        "3": "이것은 6번째 전자를 바깥 전자로 센 거예요. 6번째 전자는 큰 증가 <em>다음의</em> 첫 번째 전자이므로, 안쪽 준위에서 나와요.",
       },
     },
 
     // ── s1-3-q046 · mcq · challenge · AHL · Structure 1.3.7 · 1 mark
     "s1-3-q046": {
       // EN: <p>An element has twelve successive ionization energies. There are only two large jumps. Some of the values are shown.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Successive ionization energies / kJ mol<sup>−1</sup></caption><thead><tr><th scope="col"></th><th class="num" scope="col">2nd</th><th class="num" scope="col">3rd</th><th class="num" scope="col">10th</th><th class="num" scope="col">11th</th></tr></thead><tbody><tr><th scope="row">IE</th><td class="num">1451</td><td class="num">7733</td><td class="num">35 458</td><td class="num">169 988</td></tr></tbody></table></div><p>Which arrangement of electrons in main energy levels fits these data?</p>
-      stem: "",
+      stem: "<p>어떤 원소는 순차 이온화 에너지가 열두 개 있어요. 큰 증가는 두 번뿐이에요. 그중 일부 값이 표에 나와 있어요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>순차 이온화 에너지 / kJ mol<sup>−1</sup></caption><thead><tr><th scope=\"col\"></th><th class=\"num\" scope=\"col\">제2</th><th class=\"num\" scope=\"col\">제3</th><th class=\"num\" scope=\"col\">제10</th><th class=\"num\" scope=\"col\">제11</th></tr></thead><tbody><tr><th scope=\"row\">IE</th><td class=\"num\">1451</td><td class=\"num\">7733</td><td class=\"num\">35 458</td><td class=\"num\">169 988</td></tr></tbody></table></div><p>이 자료에 맞는 주 에너지 준위별 전자 배치는 어느 것인가요?</p>",
       options: [
         // EN: n = 1: 2 electrons. n = 2: 8 electrons. n = 3: 2 electrons.
-        "",
+        "n = 1: 전자 2개. n = 2: 전자 8개. n = 3: 전자 2개.",
         // EN: n = 1: 2 electrons. n = 2: 2 electrons. n = 3: 8 electrons.
-        "",
+        "n = 1: 전자 2개. n = 2: 전자 2개. n = 3: 전자 8개.",
         // EN: n = 1: 10 electrons. n = 2: 2 electrons.
-        "",
+        "n = 1: 전자 10개. n = 2: 전자 2개.",
         // EN: n = 1: 2 electrons. n = 2: 10 electrons.
-        "",
+        "n = 1: 전자 2개. n = 2: 전자 10개.",
       ],
       hints: [
         // EN: Twelve ionization energies means twelve electrons.
-        "",
+        "이온화 에너지가 열두 개라는 것은 전자가 열두 개라는 뜻이에요.",
         // EN: Each large jump marks the start of a new main energy level, closer to the nucleus.
-        "",
+        "큰 증가가 나타날 때마다 원자핵에 더 가까운 새로운 주 에너지 준위가 시작돼요.",
         // EN: The first electrons removed are the outermost ones.
-        "",
+        "가장 먼저 떼어 내는 전자는 가장 바깥쪽에 있는 전자예요.",
       ],
       // EN: <p>Twelve ionization energies means the atom has twelve electrons. The jumps split them into three groups:</p><div class="worked__math">electrons 1 and 2: easiest to remove → outer level (n&nbsp;=&nbsp;3)</div><div class="worked__math">large jump (1451 → 7733)</div><div class="worked__math">electrons 3 to 10: eight electrons → next level in (n&nbsp;=&nbsp;2)</div><div class="worked__math">large jump (35 458 → 169 988)</div><div class="worked__math">electrons 11 and 12: hardest to remove → closest to the nucleus (n&nbsp;=&nbsp;1)</div><p>So the arrangement is 2, 8, 2: the element is magnesium, <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup></span>, in group 2 and period 3.</p>
-      solution: "",
+      solution: "<p>이온화 에너지가 열두 개이므로 이 원자에는 전자가 열두 개 있어요. 큰 증가에 따라 전자를 세 무리로 나눌 수 있어요:</p><div class=\"worked__math\">전자 1과 2: 떼어 내기 가장 쉬움 → 바깥 준위 (n&nbsp;=&nbsp;3)</div><div class=\"worked__math\">큰 증가 (1451 → 7733)</div><div class=\"worked__math\">전자 3부터 10까지: 전자 여덟 개 → 그 안쪽 준위 (n&nbsp;=&nbsp;2)</div><div class=\"worked__math\">큰 증가 (35 458 → 169 988)</div><div class=\"worked__math\">전자 11과 12: 떼어 내기 가장 어려움 → 원자핵에 가장 가까움 (n&nbsp;=&nbsp;1)</div><p>따라서 배치는 2, 8, 2예요: 이 원소는 마그네슘 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup></span>이고, 2족 3주기에 있어요.</p>",
       misconception: {
         // EN (option B): The right numbers in the wrong order. The first electrons to be removed are the outer ones, so the group of 2 before the first jump is in the highest level, not the middle one.
-        "1": "",
+        "1": "숫자는 맞지만 순서가 틀렸어요. 가장 먼저 떼어 내는 전자는 바깥쪽 전자이므로, 첫 번째 큰 증가 전의 전자 2개는 가운데 준위가 아니라 가장 높은 준위에 있어요.",
         // EN (option C): This uses only the first jump. The second jump, between the 10th and 11th values, shows that the ten inner electrons are in two different main energy levels.
-        "2": "",
+        "2": "이것은 첫 번째 큰 증가만 이용했어요. 제10 값과 제11 값 사이의 두 번째 큰 증가는 안쪽 전자 열 개가 서로 다른 두 주 에너지 준위에 있다는 것을 보여 줘요.",
         // EN (option D): This uses only the second jump. The first jump, between the 2nd and 3rd values, shows that the first two electrons are in a different main energy level from the next eight.
-        "3": "",
+        "3": "이것은 두 번째 큰 증가만 이용했어요. 제2 값과 제3 값 사이의 첫 번째 큰 증가는 처음 두 전자가 그다음 여덟 전자와 다른 주 에너지 준위에 있다는 것을 보여 줘요.",
       },
     },
 
     // ── s1-3-q047 · mcq · exam · SL · Structure 1.3.1 · 1 mark
     "s1-3-q047": {
       // EN: <p>Radiation X has a longer wavelength than radiation Y. Which row compares X with Y?</p>
-      stem: "",
+      stem: "<p>복사 X는 복사 Y보다 파장이 길어요. X를 Y와 옳게 비교한 것은 어느 것인가요?</p>",
       options: [
         // EN: X has the higher frequency and the higher energy per photon.
-        "",
+        "X가 진동수가 더 크고 광자 하나의 에너지도 더 크다.",
         // EN: X has the higher frequency and the lower energy per photon.
-        "",
+        "X가 진동수가 더 크고 광자 하나의 에너지는 더 작다.",
         // EN: X has the lower frequency and the higher energy per photon.
-        "",
+        "X가 진동수가 더 작고 광자 하나의 에너지는 더 크다.",
         // EN: X has the lower frequency and the lower energy per photon.
-        "",
+        "X가 진동수가 더 작고 광자 하나의 에너지도 더 작다.",
       ],
       hints: [
         // EN: Wavelength and frequency go in opposite directions.
-        "",
+        "파장과 진동수는 서로 반대 방향으로 변해요.",
         // EN: Energy per photon goes in the same direction as frequency.
-        "",
+        "광자 하나의 에너지는 진동수와 같은 방향으로 변해요.",
       ],
       // EN: <p>A longer wavelength means a lower frequency. A lower frequency means less energy per photon. So X has the lower frequency and the lower energy.</p>
-      solution: "",
+      solution: "<p>파장이 길수록 진동수가 작아요. 진동수가 작을수록 광자 하나의 에너지가 작아요. 따라서 X가 진동수도 더 작고 에너지도 더 작아요.</p>",
       misconception: {
         // EN (option A): This is the wrong way round. Longer waves mean fewer waves pass each second, so the frequency is lower.
-        "0": "",
+        "0": "거꾸로 생각했어요. 파장이 길면 1초 동안 지나가는 파동의 수가 더 적으므로, 진동수가 더 작아요.",
         // EN (option B): Frequency and energy always change in the same direction. A higher frequency cannot go with a lower energy.
-        "1": "",
+        "1": "진동수와 에너지는 항상 같은 방향으로 변해요. 진동수가 더 큰데 에너지가 더 작을 수는 없어요.",
         // EN (option C): Frequency and energy always change in the same direction. A lower frequency means less energy per photon, not more.
-        "2": "",
+        "2": "진동수와 에너지는 항상 같은 방향으로 변해요. 진동수가 더 작으면 광자 하나의 에너지가 더 큰 것이 아니라 더 작아요.",
       },
     },
 
     // ── s1-3-q048 · mcq · exam · SL · Structure 1.3.1 · 1 mark
     "s1-3-q048": {
       // EN: <p>Three elements each give a strong line in the visible part of their emission spectrum: lithium at 671 nm (red), sodium at 589 nm (orange-yellow) and barium at 554 nm (green).</p><p>Which statement is correct?</p>
-      stem: "",
+      stem: "<p>세 원소는 각각 방출 스펙트럼의 가시광선 부분에 강한 선을 하나씩 나타내요: 리튬은 671 nm(빨간색), 나트륨은 589 nm(주황색을 띤 노란색), 바륨은 554 nm(초록색)예요.</p><p>옳은 설명은 어느 것인가요?</p>",
       options: [
         // EN: The lithium line comes from the largest fall in energy by an electron.
-        "",
+        "리튬의 선은 전자의 에너지 낙차가 가장 클 때 생긴다.",
         // EN: The barium line comes from the largest fall in energy by an electron.
-        "",
+        "바륨의 선은 전자의 에너지 낙차가 가장 클 때 생긴다.",
         // EN: All three lines come from falls of the same size, because all light travels at the same speed.
-        "",
+        "모든 빛은 같은 속력으로 움직이므로, 세 선은 모두 같은 크기의 낙차에서 생긴다.",
         // EN: The sodium line has the lowest frequency.
-        "",
+        "나트륨의 선이 진동수가 가장 작다.",
       ],
       hints: [
         // EN: The energy of the photon equals the energy the electron loses when it falls.
-        "",
+        "광자의 에너지는 전자가 떨어질 때 잃는 에너지와 같아요.",
         // EN: Shortest wavelength = highest frequency = highest energy.
-        "",
+        "파장이 가장 짧음 = 진동수가 가장 큼 = 에너지가 가장 큼.",
       ],
       // EN: <p>The photon carries away the energy that the electron loses. The barium line has the shortest wavelength (554 nm), so it has the highest frequency and the highest photon energy. It comes from the largest fall in energy. The lithium line (671 nm) comes from the smallest.</p>
-      solution: "",
+      solution: "<p>광자는 전자가 잃는 에너지를 가지고 나가요. 바륨의 선은 파장이 가장 짧으므로(554 nm), 진동수와 광자 에너지가 가장 커요. 이 선은 에너지 낙차가 가장 클 때 생겨요. 리튬의 선(671 nm)은 낙차가 가장 작을 때 생겨요.</p>",
       misconception: {
         // EN (option A): Lithium has the longest wavelength of the three, so its photons have the lowest energy. That means the smallest fall, not the largest.
-        "0": "",
+        "0": "리튬은 셋 중 파장이 가장 길므로 광자의 에너지가 가장 작아요. 즉 낙차가 가장 큰 것이 아니라 가장 작아요.",
         // EN (option C): The speed is the same, but the wavelengths are different. A different wavelength means a different frequency and a different photon energy.
-        "2": "",
+        "2": "속력은 같지만 파장이 달라요. 파장이 다르면 진동수와 광자 에너지도 달라요.",
         // EN (option D): The lowest frequency goes with the longest wavelength. That is the lithium line at 671 nm.
-        "3": "",
+        "3": "진동수가 가장 작은 것은 파장이 가장 긴 것이에요. 그것은 671 nm의 리튬 선이에요.",
       },
     },
 
     // ── s1-3-q049 · mcq · foundation · SL · Structure 1.3.3 · 1 mark
     "s1-3-q049": {
       // EN: <p>Which main energy level can hold a maximum of 18 electrons?</p>
-      stem: "",
+      stem: "<p>전자가 최대 18개 들어갈 수 있는 주 에너지 준위는 어느 것인가요?</p>",
       options: [
         // EN: n = 2
-        "",
+        "n = 2",
         // EN: n = 3
-        "",
+        "n = 3",
         // EN: n = 4
-        "",
+        "n = 4",
         // EN: n = 9
-        "",
+        "n = 9",
       ],
       hints: [
         // EN: A main energy level n holds at most 2n<sup>2</sup> electrons.
-        "",
+        "주 에너지 준위 n에는 전자가 최대 2n<sup>2</sup>개 들어가요.",
         // EN: Try n = 1, 2, 3, 4 in turn.
-        "",
+        "n = 1, 2, 3, 4를 차례로 넣어 봐요.",
       ],
       // EN: <div class="worked__math">n = 1: 2 × 1 = 2</div><div class="worked__math">n = 2: 2 × 4 = 8</div><div class="worked__math">n = 3: 2 × 9 = 18</div><div class="worked__math">n = 4: 2 × 16 = 32</div><p>The level that holds 18 electrons is <strong>n = 3</strong>.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">n = 1: 2 × 1 = 2</div><div class=\"worked__math\">n = 2: 2 × 4 = 8</div><div class=\"worked__math\">n = 3: 2 × 9 = 18</div><div class=\"worked__math\">n = 4: 2 × 16 = 32</div><p>전자 18개가 들어가는 준위는 <strong>n = 3</strong>이에요.</p>",
       misconception: {
         // EN (option A): For n = 2 the maximum is 2 × 2<sup>2</sup> = 8 electrons.
-        "0": "",
+        "0": "n = 2의 최대 개수는 2 × 2<sup>2</sup> = 8개예요.",
         // EN (option C): For n = 4 the maximum is 2 × 4<sup>2</sup> = 32 electrons.
-        "2": "",
+        "2": "n = 4의 최대 개수는 2 × 4<sup>2</sup> = 32개예요.",
         // EN (option D): This uses 2 × n = 18. The rule is 2n<sup>2</sup>: square n first, then double.
-        "3": "",
+        "3": "이것은 2 × n = 18을 이용했어요. 규칙은 2n<sup>2</sup>이에요: 먼저 n을 제곱한 다음 2배 해요.",
       },
     },
 
     // ── s1-3-q050 · mcq · exam · SL · Structure 1.3.3 · 1 mark
     "s1-3-q050": {
       // EN: <p>What is the total number of electrons needed to fill the first three main energy levels (n = 1, n = 2 and n = 3) completely?</p>
-      stem: "",
+      stem: "<p>처음 세 주 에너지 준위(n = 1, n = 2, n = 3)를 완전히 채우는 데 필요한 전자는 모두 몇 개인가요?</p>",
       options: [
         // EN: 12
-        "",
+        "12",
         // EN: 18
-        "",
+        "18",
         // EN: 28
-        "",
+        "28",
         // EN: 36
-        "",
+        "36",
       ],
       hints: [
         // EN: Work out 2n<sup>2</sup> for each of the three levels.
-        "",
+        "세 준위 각각에 대해 2n<sup>2</sup>을 계산해요.",
         // EN: Then add the three numbers.
-        "",
+        "그다음 세 수를 더해요.",
       ],
       // EN: <div class="worked__math">n = 1: 2 × 1<sup>2</sup> = 2</div><div class="worked__math">n = 2: 2 × 2<sup>2</sup> = 8</div><div class="worked__math">n = 3: 2 × 3<sup>2</sup> = 18</div><div class="worked__math">total = 2 + 8 + 18 = 28 electrons</div>
-      solution: "",
+      solution: "<div class=\"worked__math\">n = 1: 2 × 1<sup>2</sup> = 2</div><div class=\"worked__math\">n = 2: 2 × 2<sup>2</sup> = 8</div><div class=\"worked__math\">n = 3: 2 × 3<sup>2</sup> = 18</div><div class=\"worked__math\">합계 = 2 + 8 + 18 = 전자 28개</div>",
       misconception: {
         // EN (option A): This adds 2n for each level: 2 + 4 + 6. The rule is 2n<sup>2</sup>.
-        "0": "",
+        "0": "이것은 각 준위에 대해 2n을 더했어요: 2 + 4 + 6. 규칙은 2n<sup>2</sup>이에요.",
         // EN (option B): 18 is the number that n = 3 holds on its own. The question asks for all three levels together.
-        "1": "",
+        "1": "18은 n = 3 하나에 들어가는 수예요. 문제는 세 준위를 모두 합한 수를 묻고 있어요.",
         // EN (option D): This is (2 × 3)<sup>2</sup>. Square n first, then double, and do it for each level.
-        "3": "",
+        "3": "이것은 (2 × 3)<sup>2</sup>이에요. 먼저 n을 제곱한 다음 2배 하고, 이것을 각 준위마다 해요.",
       },
     },
 
     // ── s1-3-q051 · numeric · exam · SL · Structure 1.3.3 · 1 mark
     "s1-3-q051": {
       // EN: <p>A main energy level can hold a maximum of 50 electrons. What is the value of n for this level?</p>
-      stem: "",
+      stem: "<p>어떤 주 에너지 준위에 전자가 최대 50개 들어갈 수 있어요. 이 준위의 n 값은 얼마인가요?</p>",
       hints: [
         // EN: Use 2n<sup>2</sup> = 50 and work backwards.
-        "",
+        "2n<sup>2</sup> = 50을 이용해 거꾸로 풀어요.",
         // EN: Divide by 2 first. Then take the square root.
-        "",
+        "먼저 2로 나눠요. 그다음 제곱근을 구해요.",
       ],
       // EN: <div class="worked__math">2n<sup>2</sup> = 50</div><div class="worked__math">n<sup>2</sup> = 50 ÷ 2 = 25</div><div class="worked__math">n = 5</div><p>Check: 2 × 5<sup>2</sup> = 2 × 25 = 50.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">2n<sup>2</sup> = 50</div><div class=\"worked__math\">n<sup>2</sup> = 50 ÷ 2 = 25</div><div class=\"worked__math\">n = 5</div><p>확인: 2 × 5<sup>2</sup> = 2 × 25 = 50.</p>",
     },
 
     // ── s1-3-q052 · numeric · exam · SL · Structure 1.3.3 · 1 mark
     "s1-3-q052": {
       // EN: <p>A zinc atom (Z = 30) has the configuration <span class="mono">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>10</sup></span>.</p><p>How many electrons are in its third main energy level (n = 3)?</p>
-      stem: "",
+      stem: "<p>아연 원자(Z = 30)의 전자 배치는 <span class=\"mono\">1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>10</sup></span>이에요.</p><p>세 번째 주 에너지 준위(n = 3)에는 전자가 몇 개 있나요?</p>",
       hints: [
         // EN: The first number in each term is the main energy level. Find every term that starts with 3.
-        "",
+        "각 항의 첫 번째 숫자가 주 에너지 준위예요. 3으로 시작하는 항을 모두 찾아요.",
         // EN: There are three of them: 3s, 3p and 3d.
-        "",
+        "모두 세 개예요: 3s, 3p, 3d.",
       ],
       // EN: <div class="worked__math">3s<sup>2</sup> + 3p<sup>6</sup> + 3d<sup>10</sup></div><div class="worked__math">2 + 6 + 10 = 18 electrons</div><p>The third main energy level of zinc is full: 2n<sup>2</sup> = 2 × 3<sup>2</sup> = 18. The common slip is to answer 8 by leaving out the 3d electrons, which are written after 4s.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">3s<sup>2</sup> + 3p<sup>6</sup> + 3d<sup>10</sup></div><div class=\"worked__math\">2 + 6 + 10 = 전자 18개</div><p>아연의 세 번째 주 에너지 준위는 꽉 차 있어요: 2n<sup>2</sup> = 2 × 3<sup>2</sup> = 18. 흔한 실수는 4s 뒤에 쓰여 있는 3d 전자를 빼먹고 8이라고 답하는 거예요.</p>",
       // EN: electrons
-      unit: "",
+      unit: "개",
     },
 
     // ── s1-3-q053 · mcq · foundation · SL · Structure 1.3.4 · 1 mark
     "s1-3-q053": {
       // EN: <p>Which sublevel does <strong>not</strong> exist?</p>
-      stem: "",
+      stem: "<p>존재하지 <strong>않는</strong> 부껍질은 어느 것인가요?</p>",
       options: [
         // EN: 1s
-        "",
+        "1s",
         // EN: 2p
-        "",
+        "2p",
         // EN: 2d
-        "",
+        "2d",
         // EN: 3d
-        "",
+        "3d",
       ],
       hints: [
         // EN: Main energy level n contains n types of sublevel.
-        "",
+        "주 에너지 준위 n에는 n가지 종류의 부껍질이 있어요.",
         // EN: n = 1 has s only. n = 2 has s and p. n = 3 has s, p and d.
-        "",
+        "n = 1에는 s만 있어요. n = 2에는 s와 p가 있어요. n = 3에는 s, p, d가 있어요.",
       ],
       // EN: <p>Main energy level n contains n types of sublevel. The second level has only two: 2s and 2p. The d sublevels start at n = 3, so <strong>2d</strong> does not exist.</p>
-      solution: "",
+      solution: "<p>주 에너지 준위 n에는 n가지 종류의 부껍질이 있어요. 두 번째 준위에는 2s와 2p의 두 가지뿐이에요. d 부껍질은 n = 3부터 시작하므로 <strong>2d</strong>는 존재하지 않아요.</p>",
       misconception: {
         // EN (option A): Every main energy level has an s sublevel. 1s is the only sublevel in n = 1.
-        "0": "",
+        "0": "모든 주 에너지 준위에는 s 부껍질이 있어요. 1s는 n = 1에 있는 유일한 부껍질이에요.",
         // EN (option B): The second main energy level has two sublevels: 2s and 2p.
-        "1": "",
+        "1": "두 번째 주 에너지 준위에는 2s와 2p의 두 부껍질이 있어요.",
         // EN (option D): The third main energy level has three sublevels: 3s, 3p and 3d.
-        "3": "",
+        "3": "세 번째 주 에너지 준위에는 3s, 3p, 3d의 세 부껍질이 있어요.",
       },
     },
 
     // ── s1-3-q054 · order · foundation · SL · Structure 1.3.4 · 1 mark
     "s1-3-q054": {
       // EN: <p>Put the four sublevels of the fourth main energy level in order of <strong>increasing energy</strong> (lowest energy first).</p>
-      stem: "",
+      stem: "<p>네 번째 주 에너지 준위의 부껍질 네 개를 <strong>에너지가 커지는 순서</strong>로 나열하세요(에너지가 가장 낮은 것이 맨 앞).</p>",
       options: [
         // EN: 4s
-        "",
+        "4s",
         // EN: 4p
-        "",
+        "4p",
         // EN: 4d
-        "",
+        "4d",
         // EN: 4f
-        "",
+        "4f",
       ],
       hints: [
         // EN: Within one main energy level, the sublevels always go in the same order of energy.
-        "",
+        "한 주 에너지 준위 안에서 부껍질의 에너지 순서는 항상 같아요.",
         // EN: The order of the letters is s, p, d, f.
-        "",
+        "글자의 순서는 s, p, d, f예요.",
       ],
       // EN: <p>Within one main energy level the energy of the sublevels increases in the order s, p, d, f. So the order is 4s, 4p, 4d, 4f.</p>
-      solution: "",
+      solution: "<p>한 주 에너지 준위 안에서 부껍질의 에너지는 s, p, d, f 순서로 커져요. 따라서 순서는 4s, 4p, 4d, 4f예요.</p>",
     },
 
     // ── s1-3-q055 · mcq · exam · SL · Structure 1.3.4 · 1 mark
     "s1-3-q055": {
       // EN: <p>Which statement about the three orbitals in a 2p sublevel is correct?</p>
-      stem: "",
+      stem: "<p>2p 부껍질에 있는 오비탈 세 개에 대한 설명으로 옳은 것은 어느 것인가요?</p>",
       options: [
         // EN: They have the same shape and the same energy, but point along three different axes.
-        "",
+        "모양과 에너지는 같지만, 서로 다른 세 축 방향을 향한다.",
         // EN: They have three different shapes.
-        "",
+        "모양이 세 가지로 서로 다르다.",
         // EN: They have three different energies.
-        "",
+        "에너지가 세 가지로 서로 다르다.",
         // EN: Together they can hold a maximum of three electrons.
-        "",
+        "세 오비탈을 합쳐 전자가 최대 세 개 들어갈 수 있다.",
       ],
       hints: [
         // EN: Think of the names p<sub>x</sub>, p<sub>y</sub> and p<sub>z</sub>. What do the letters x, y and z tell you?
-        "",
+        "p<sub>x</sub>, p<sub>y</sub>, p<sub>z</sub>라는 이름을 생각해 봐요. x, y, z라는 글자는 무엇을 알려 주나요?",
       ],
       // EN: <p>The three p orbitals in a sublevel are all dumbbell-shaped and have the same energy. They differ only in orientation: they lie along the x, y and z axes, at right angles to each other. Each holds up to two electrons, so the sublevel holds up to six.</p>
-      solution: "",
+      solution: "<p>한 부껍질에 있는 p 오비탈 세 개는 모두 아령 모양이고 에너지가 같아요. 방향만 달라요: 서로 직각을 이루며 x, y, z 축을 따라 놓여 있어요. 오비탈마다 전자가 최대 두 개 들어가므로, 이 부껍질에는 최대 여섯 개가 들어가요.</p>",
       misconception: {
         // EN (option B): All three p orbitals are dumbbell-shaped. Only their direction in space is different.
-        "1": "",
+        "1": "p 오비탈 세 개는 모두 아령 모양이에요. 공간에서의 방향만 달라요.",
         // EN (option C): Orbitals in the same sublevel have the same energy. That is why Hund’s rule is needed to decide how they fill.
-        "2": "",
+        "2": "같은 부껍질에 있는 오비탈들은 에너지가 같아요. 그래서 전자가 어떻게 채워지는지 정하려면 훈트 규칙이 필요해요.",
         // EN (option D): Each orbital can hold two electrons, so three p orbitals hold up to six.
-        "3": "",
+        "3": "오비탈 하나에 전자가 두 개 들어갈 수 있으므로, p 오비탈 세 개에는 최대 여섯 개가 들어가요.",
       },
     },
 
     // ── s1-3-q056 · mcq · exam · SL · Structure 1.3.4 · 1 mark
     "s1-3-q056": {
       // EN: <p>Which row gives the number of sublevels and the total number of orbitals in the second main energy level (n = 2)?</p>
-      stem: "",
+      stem: "<p>두 번째 주 에너지 준위(n = 2)의 부껍질 수와 오비탈의 총수를 옳게 나타낸 것은 어느 것인가요?</p>",
       options: [
         // EN: 2 sublevels and 2 orbitals
-        "",
+        "부껍질 2개, 오비탈 2개",
         // EN: 2 sublevels and 4 orbitals
-        "",
+        "부껍질 2개, 오비탈 4개",
         // EN: 2 sublevels and 8 orbitals
-        "",
+        "부껍질 2개, 오비탈 8개",
         // EN: 3 sublevels and 9 orbitals
         "",
       ],

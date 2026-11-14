@@ -307,692 +307,692 @@ S1.i18n.register('ko', 's3-2h', {
     "These are the two enantiomers of butan-2-ol. The dashed line is the mirror.": "이것은 butan-2-ol의 두 거울상 이성질체예요. 점선이 거울이에요.",
 
     // Chiral carbon atoms and enantiomers > widget > data-title attribute
-    "Wedge–dash drawing guide": "",
+    "Wedge–dash drawing guide": "쐐기–점선 그리기 안내",
 
     // Chiral carbon atoms and enantiomers > widget > figcaption
-    "Step through the drawing. Copy each step on paper before you go to the next one.": "",
+    "Step through the drawing. Copy each step on paper before you go to the next one.": "그리는 과정을 한 단계씩 따라가 보세요. 다음 단계로 넘어가기 전에 각 단계를 종이에 따라 그려 보세요.",
 
     // Chiral carbon atoms and enantiomers > exam tip (shown in English + translation) > p
-    "Enantiomer drawings must look three-dimensional and must be mirror images of each other. Use tapered wedge and hashed bonds. Drawings with all four bonds at 90° do not earn the marks. When asked what a chiral carbon is, write “a carbon atom bonded to four different atoms or groups”. A description of optical properties alone does not earn that mark.": "",
+    "Enantiomer drawings must look three-dimensional and must be mirror images of each other. Use tapered wedge and hashed bonds. Drawings with all four bonds at 90° do not earn the marks. When asked what a chiral carbon is, write “a carbon atom bonded to four different atoms or groups”. A description of optical properties alone does not earn that mark.": "거울상 이성질체 그림은 입체적으로 보여야 하고, 서로 거울상이어야 해요. 끝이 가늘어지는 쐐기 결합과 빗금 결합을 쓰세요. 결합 4개가 모두 90°를 이루는 그림은 점수를 받지 못해요. 카이랄 탄소가 무엇인지 물으면 “서로 다른 원자나 기 4개와 결합한 탄소 원자”라고 쓰세요. 광학적 성질만 설명하면 그 점수를 받지 못해요.",
 
     // Chiral carbon atoms and enantiomers > worked example > h3
-    "Find the chiral carbon and draw both enantiomers": "",
+    "Find the chiral carbon and draw both enantiomers": "카이랄 탄소를 찾고 두 거울상 이성질체 그리기",
 
     // Chiral carbon atoms and enantiomers > worked example > p
-    "Identify the chiral carbon atom in 2-chlorobutane, <span class=\"chem\">CH3CHClCH2CH3</span>. Draw the two enantiomers.": "",
+    "Identify the chiral carbon atom in 2-chlorobutane, <span class=\"chem\">CH3CHClCH2CH3</span>. Draw the two enantiomers.": "2-chlorobutane, <span class=\"chem\">CH3CHClCH2CH3</span>에서 카이랄 탄소 원자를 찾으시오 (identify). 두 거울상 이성질체를 그리시오.",
 
     // Chiral carbon atoms and enantiomers > worked example > data-title attribute
-    "Remove the carbons that cannot be chiral": "",
+    "Remove the carbons that cannot be chiral": "카이랄일 수 없는 탄소 제외하기",
 
     // Chiral carbon atoms and enantiomers > worked example > p
-    "A carbon with two or three H atoms has identical groups.": "",
+    "A carbon with two or three H atoms has identical groups.": "H 원자가 2개나 3개 있는 탄소에는 같은 기가 붙어 있어요.",
 
     // Chiral carbon atoms and enantiomers > worked example > p
-    "Carbon 1 and carbon 4 are <span class=\"chem\">CH3</span> groups. Carbon 3 is a <span class=\"chem\">CH2</span> group. None of them can be chiral.": "",
+    "Carbon 1 and carbon 4 are <span class=\"chem\">CH3</span> groups. Carbon 3 is a <span class=\"chem\">CH2</span> group. None of them can be chiral.": "탄소 1과 탄소 4는 <span class=\"chem\">CH3</span>기예요. 탄소 3은 <span class=\"chem\">CH2</span>기예요. 이들은 모두 카이랄일 수 없어요.",
 
     // Chiral carbon atoms and enantiomers > worked example > data-title attribute
-    "Write the four groups on the carbon that is left": "",
+    "Write the four groups on the carbon that is left": "남은 탄소에 붙은 4개의 기 쓰기",
 
     // Chiral carbon atoms and enantiomers > worked example > p
-    "A chiral carbon needs four different atoms or groups.": "",
+    "A chiral carbon needs four different atoms or groups.": "카이랄 탄소에는 서로 다른 원자나 기 4개가 필요해요.",
 
     // Chiral carbon atoms and enantiomers > worked example > p
-    "Carbon 2 is bonded to H, Cl, <span class=\"chem\">CH3</span> and <span class=\"chem\">CH2CH3</span>. All four are different, so carbon 2 is chiral.": "",
+    "Carbon 2 is bonded to H, Cl, <span class=\"chem\">CH3</span> and <span class=\"chem\">CH2CH3</span>. All four are different, so carbon 2 is chiral.": "탄소 2는 H, Cl, <span class=\"chem\">CH3</span>, <span class=\"chem\">CH2CH3</span>와 결합해 있어요. 4개가 모두 다르므로 탄소 2는 카이랄이에요.",
 
     // Chiral carbon atoms and enantiomers > worked example > data-title attribute
-    "Draw one enantiomer in 3-D": "",
+    "Draw one enantiomer in 3-D": "거울상 이성질체 하나를 3-D로 그리기",
 
     // Chiral carbon atoms and enantiomers > worked example > p
-    "The four bonds point to the corners of a tetrahedron.": "",
+    "The four bonds point to the corners of a tetrahedron.": "결합 4개는 정사면체의 꼭짓점을 향해요.",
 
     // Chiral carbon atoms and enantiomers > worked example > p
-    "Put the chiral carbon in the centre. Draw two plain bonds with a wide angle between them. Add one solid wedge and one hashed wedge. Attach the four groups. Their order does not matter for the first drawing.": "",
+    "Put the chiral carbon in the centre. Draw two plain bonds with a wide angle between them. Add one solid wedge and one hashed wedge. Attach the four groups. Their order does not matter for the first drawing.": "카이랄 탄소를 가운데에 두세요. 보통 결합 2개를 넓은 각도로 그려요. 채운 쐐기 1개와 빗금 쐐기 1개를 더해요. 4개의 기를 붙여요. 첫 번째 그림에서는 기의 순서가 상관없어요.",
 
     // Chiral carbon atoms and enantiomers > worked example > data-title attribute
-    "Reflect it in a mirror line": "",
+    "Reflect it in a mirror line": "거울선에 대해 대칭으로 그리기",
 
     // Chiral carbon atoms and enantiomers > worked example > p
-    "The second enantiomer is the mirror image of the first.": "",
+    "The second enantiomer is the mirror image of the first.": "두 번째 거울상 이성질체는 첫 번째의 거울상이에요.",
 
     // Chiral carbon atoms and enantiomers > worked example > p
-    "Each group is the same distance from the mirror line on the other side. A wedge stays a wedge and a hashed bond stays a hashed bond.": "",
+    "Each group is the same distance from the mirror line on the other side. A wedge stays a wedge and a hashed bond stays a hashed bond.": "각 기는 거울선 반대쪽에 같은 거리만큼 떨어져 있어요. 쐐기는 쐐기 그대로, 빗금 결합은 빗금 결합 그대로 둬요.",
 
     // Chiral carbon atoms and enantiomers > worked example > p
-    "Carbon 2 is the chiral carbon. The two mirror-image drawings are the enantiomers.": "",
+    "Carbon 2 is the chiral carbon. The two mirror-image drawings are the enantiomers.": "탄소 2가 카이랄 탄소예요. 거울상인 두 그림이 거울상 이성질체예요.",
 
     // Chiral carbon atoms and enantiomers > try it > data-label attribute
-    "Number of chiral carbons": "",
+    "Number of chiral carbons": "카이랄 탄소의 수",
 
     // Chiral carbon atoms and enantiomers > try it > p
-    "How many chiral carbon atoms are in a molecule of <span class=\"chem\">CH3CH(OH)CH(NH2)COOH</span>?": "",
+    "How many chiral carbon atoms are in a molecule of <span class=\"chem\">CH3CH(OH)CH(NH2)COOH</span>?": "<span class=\"chem\">CH3CH(OH)CH(NH2)COOH</span> 분자 하나에는 카이랄 탄소 원자가 몇 개 있을까요?",
 
     // Chiral carbon atoms and enantiomers > try it > li
-    "The <span class=\"chem\">CH3</span> carbon and the COOH carbon cannot be chiral. Test the two carbons in the middle.": "",
+    "The <span class=\"chem\">CH3</span> carbon and the COOH carbon cannot be chiral. Test the two carbons in the middle.": "<span class=\"chem\">CH3</span> 탄소와 COOH 탄소는 카이랄일 수 없어요. 가운데 탄소 2개를 검사해 보세요.",
 
     // Chiral carbon atoms and enantiomers > try it > li
-    "Carbon 3 has H, OH, <span class=\"chem\">CH3</span> and the rest of the chain. Carbon 2 has H, <span class=\"chem\">NH2</span>, COOH and the rest of the chain.": "",
+    "Carbon 3 has H, OH, <span class=\"chem\">CH3</span> and the rest of the chain. Carbon 2 has H, <span class=\"chem\">NH2</span>, COOH and the rest of the chain.": "탄소 3에는 H, OH, <span class=\"chem\">CH3</span>, 그리고 사슬의 나머지 부분이 있어요. 탄소 2에는 H, <span class=\"chem\">NH2</span>, COOH, 그리고 사슬의 나머지 부분이 있어요.",
 
     // Chiral carbon atoms and enantiomers > try it > p
-    "Both middle carbons have four different groups. The answer is 2.": "",
+    "Both middle carbons have four different groups. The answer is 2.": "가운데 탄소 둘 다 서로 다른 기가 4개 있어요. 답은 2예요.",
 
     // Chiral carbon atoms and enantiomers > h3
-    "Optical activity": "",
+    "Optical activity": "광학 활성",
 
     // Chiral carbon atoms and enantiomers > p
-    "Ordinary light vibrates in all planes. <dfn>Plane-polarized light</dfn> vibrates in one plane only.": "",
+    "Ordinary light vibrates in all planes. <dfn>Plane-polarized light</dfn> vibrates in one plane only.": "보통의 빛은 모든 평면에서 진동해요. <dfn>평면 편광 <span class=\"en-term\">(Plane-polarized light)</span></dfn>은 한 평면에서만 진동해요.",
 
     // Chiral carbon atoms and enantiomers > p
-    "A substance is <dfn>optically active</dfn> if it rotates the plane of plane-polarized light. Each enantiomer of a chiral compound is optically active.": "",
+    "A substance is <dfn>optically active</dfn> if it rotates the plane of plane-polarized light. Each enantiomer of a chiral compound is optically active.": "어떤 물질이 평면 편광의 진동면을 회전시키면 그 물질은 <dfn>광학 활성 <span class=\"en-term\">(optically active)</span></dfn>이라고 해요. 카이랄 화합물의 각 거울상 이성질체는 광학 활성이에요.",
 
     // Chiral carbon atoms and enantiomers > p
-    "The two enantiomers rotate the plane by the same angle, but in opposite directions. One rotates it clockwise and the other anticlockwise. This is the “different optical property” of enantiomers. An instrument called a polarimeter measures the rotation.": "",
+    "The two enantiomers rotate the plane by the same angle, but in opposite directions. One rotates it clockwise and the other anticlockwise. This is the “different optical property” of enantiomers. An instrument called a polarimeter measures the rotation.": "두 거울상 이성질체는 진동면을 같은 각도만큼, 하지만 반대 방향으로 회전시켜요. 하나는 시계 방향으로, 다른 하나는 시계 반대 방향으로 회전시켜요. 이것이 거울상 이성질체의 “서로 다른 광학적 성질”이에요. 회전은 편광계라는 기기로 측정해요.",
 
     // Chiral carbon atoms and enantiomers > p
-    "A <dfn>racemic mixture</dfn> contains equal amounts of the two enantiomers. The two rotations cancel, so a racemic mixture does not rotate plane-polarized light. It is optically inactive.": "",
+    "A <dfn>racemic mixture</dfn> contains equal amounts of the two enantiomers. The two rotations cancel, so a racemic mixture does not rotate plane-polarized light. It is optically inactive.": "<dfn>라셈 혼합물 <span class=\"en-term\">(racemic mixture)</span></dfn>은 두 거울상 이성질체를 같은 양만큼 포함해요. 두 회전이 서로 상쇄되므로 라셈 혼합물은 평면 편광을 회전시키지 않아요. 광학 비활성이에요.",
 
     // Chiral carbon atoms and enantiomers > widget > data-title attribute
-    "Rotation of plane-polarized light": "",
+    "Rotation of plane-polarized light": "평면 편광의 회전",
 
     // Chiral carbon atoms and enantiomers > widget > data-kicker attribute
-    "Illustration": "",
+    "Illustration": "그림",
 
     // Chiral carbon atoms and enantiomers > widget > figcaption
-    "Change the sample and watch the plane of the light after the tube. The size of the angle here is only an example. You cannot tell from a drawing which enantiomer rotates the light clockwise: it must be measured.": "",
+    "Change the sample and watch the plane of the light after the tube. The size of the angle here is only an example. You cannot tell from a drawing which enantiomer rotates the light clockwise: it must be measured.": "시료를 바꾸고 관을 지난 뒤 빛의 진동면을 보세요. 여기서 보이는 각도의 크기는 예시일 뿐이에요. 어느 거울상 이성질체가 빛을 시계 방향으로 회전시키는지는 그림만 보고 알 수 없어요: 측정해야 해요.",
 
     // Chiral carbon atoms and enantiomers > h3
-    "How enantiomers compare": "",
+    "How enantiomers compare": "거울상 이성질체 비교",
 
     // Chiral carbon atoms and enantiomers > table > caption
-    "Properties of a pair of enantiomers": "",
+    "Properties of a pair of enantiomers": "거울상 이성질체 한 쌍의 성질",
 
     // Chiral carbon atoms and enantiomers > table > th
-    "Property": "",
+    "Property": "성질",
 
     // Chiral carbon atoms and enantiomers > table > th
-    "The two enantiomers": "",
+    "The two enantiomers": "두 거울상 이성질체",
 
     // Chiral carbon atoms and enantiomers > table > th
-    "Melting point, boiling point, solubility, density": "",
+    "Melting point, boiling point, solubility, density": "녹는점, 끓는점, 용해도, 밀도",
 
     // Chiral carbon atoms and enantiomers > table > td
-    "the same": "",
+    "the same": "같음",
 
     // Chiral carbon atoms and enantiomers > table > th
-    "Effect on plane-polarized light": "",
+    "Effect on plane-polarized light": "평면 편광에 미치는 영향",
 
     // Chiral carbon atoms and enantiomers > table > td
-    "same angle of rotation, opposite directions": "",
+    "same angle of rotation, opposite directions": "회전 각도는 같고 방향은 반대",
 
     // Chiral carbon atoms and enantiomers > table > th
-    "Reactions with substances that are not chiral": "",
+    "Reactions with substances that are not chiral": "카이랄이 아닌 물질과의 반응",
 
     // Chiral carbon atoms and enantiomers > table > th
-    "Behaviour in a chiral environment": "",
+    "Behaviour in a chiral environment": "카이랄 환경에서의 행동",
 
     // Chiral carbon atoms and enantiomers > table > td
-    "different": "",
+    "different": "다름",
 
     // Chiral carbon atoms and enantiomers > p
-    "A chiral environment contains other chiral molecules. The human body is one, because enzymes are chiral. So two enantiomers can have different effects in the body.": "",
+    "A chiral environment contains other chiral molecules. The human body is one, because enzymes are chiral. So two enantiomers can have different effects in the body.": "카이랄 환경에는 다른 카이랄 분자가 들어 있어요. 사람의 몸도 그런 환경이에요. 효소가 카이랄이기 때문이에요. 그래서 두 거울상 이성질체는 몸 안에서 서로 다른 효과를 낼 수 있어요.",
 
     // Chiral carbon atoms and enantiomers > not needed for IB > p
-    "You do not need R/S, D/L or (+)/(−) labels. You do not need diastereomers, meso compounds or rules for counting stereoisomers. You do not need to explain how a polarimeter works or to calculate a rotation. For the chemistry of enantiomers, it is enough to know that they behave differently in chiral environments.": "",
+    "You do not need R/S, D/L or (+)/(−) labels. You do not need diastereomers, meso compounds or rules for counting stereoisomers. You do not need to explain how a polarimeter works or to calculate a rotation. For the chemistry of enantiomers, it is enough to know that they behave differently in chiral environments.": "R/S, D/L, (+)/(−) 표시는 알 필요가 없어요. 부분입체 이성질체, 메소 화합물, 입체 이성질체 수를 세는 규칙도 알 필요가 없어요. 편광계의 작동 원리를 설명하거나 회전을 계산할 필요도 없어요. 거울상 이성질체의 화학에 대해서는 카이랄 환경에서 서로 다르게 행동한다는 것만 알면 돼요.",
 
     // Chiral carbon atoms and enantiomers > common mistake > p
-    "A racemic mixture is not “a molecule that is not chiral”. It is a 50 : 50 mixture of two chiral molecules. Each one still rotates the light. The rotations cancel.": "",
+    "A racemic mixture is not “a molecule that is not chiral”. It is a 50 : 50 mixture of two chiral molecules. Each one still rotates the light. The rotations cancel.": "라셈 혼합물은 “카이랄이 아닌 분자”가 아니에요. 두 카이랄 분자가 50 : 50으로 섞인 혼합물이에요. 각 분자는 여전히 빛을 회전시켜요. 회전이 서로 상쇄될 뿐이에요.",
 
     // Mass spectrometry of organic compounds > data-toc attribute
-    "Mass spectrometry": "",
+    "Mass spectrometry": "질량 분석법",
 
     // Mass spectrometry of organic compounds > h2
-    "Mass spectrometry of organic compounds": "",
+    "Mass spectrometry of organic compounds": "유기 화합물의 질량 분석법",
 
     // Mass spectrometry of organic compounds > p
-    "<b>The question it answers:</b> how heavy is the molecule, and which pieces can break off it?": "",
+    "<b>The question it answers:</b> how heavy is the molecule, and which pieces can break off it?": "<b>답하는 질문:</b> 분자는 얼마나 무겁고, 어떤 조각이 떨어져 나올 수 있을까요?",
 
     // Mass spectrometry of organic compounds > p
-    "Imagine dropping a model made of building bricks. It breaks into pieces. If you weigh the pieces, you can work out how the model was put together. A mass spectrometer does this to molecules.": "",
+    "Imagine dropping a model made of building bricks. It breaks into pieces. If you weigh the pieces, you can work out how the model was put together. A mass spectrometer does this to molecules.": "블록으로 만든 모형을 떨어뜨린다고 상상해 보세요. 모형이 여러 조각으로 부서져요. 조각들의 무게를 재면 모형이 어떻게 조립되어 있었는지 알아낼 수 있어요. 질량 분석기는 분자에 이런 일을 해요.",
 
     // Mass spectrometry of organic compounds > h3
-    "The molecular ion": "",
+    "The molecular ion": "분자 이온",
 
     // Mass spectrometry of organic compounds > p
-    "In the mass spectrometer, a molecule loses one electron. This makes a positive ion called the <dfn>molecular ion</dfn>, written <span class=\"mono\">M<sup>+</sup></span>. It has the same mass as the whole molecule.": "",
+    "In the mass spectrometer, a molecule loses one electron. This makes a positive ion called the <dfn>molecular ion</dfn>, written <span class=\"mono\">M<sup>+</sup></span>. It has the same mass as the whole molecule.": "질량 분석기 안에서 분자는 전자 1개를 잃어요. 그러면 <dfn>분자 이온 <span class=\"en-term\">(molecular ion)</span></dfn>이라는 양이온이 생기고, <span class=\"mono\">M<sup>+</sup></span>로 써요. 분자 이온의 질량은 분자 전체의 질량과 같아요.",
 
     // Mass spectrometry of organic compounds > p
-    "The ion has a charge of 1+, so its <span class=\"mono\">m/z</span> value equals its mass. The <span class=\"mono\">m/z</span> of the molecular ion peak gives the relative molecular mass, <i>M</i><sub>r</sub>, of the compound.": "",
+    "The ion has a charge of 1+, so its <span class=\"mono\">m/z</span> value equals its mass. The <span class=\"mono\">m/z</span> of the molecular ion peak gives the relative molecular mass, <i>M</i><sub>r</sub>, of the compound.": "이 이온의 전하는 1+이므로 <span class=\"mono\">m/z</span> 값은 질량과 같아요. 분자 이온 봉우리의 <span class=\"mono\">m/z</span>가 화합물의 상대 분자 질량 <i>M</i><sub>r</sub>를 알려 줘요.",
 
     // Mass spectrometry of organic compounds > h3
-    "Fragmentation": "",
+    "Fragmentation": "조각화",
 
     // Mass spectrometry of organic compounds > p
-    "Many molecular ions break into smaller pieces. This is called <dfn>fragmentation</dfn>. One piece keeps the positive charge and is detected. The other piece has no charge and is not detected.": "",
+    "Many molecular ions break into smaller pieces. This is called <dfn>fragmentation</dfn>. One piece keeps the positive charge and is detected. The other piece has no charge and is not detected.": "많은 분자 이온은 더 작은 조각으로 부서져요. 이것을 <dfn>조각화 <span class=\"en-term\">(fragmentation)</span></dfn>라고 해요. 한 조각은 양전하를 그대로 가지고 있어서 검출돼요. 다른 조각은 전하가 없어서 검출되지 않아요.",
 
     // Mass spectrometry of organic compounds > p
-    "Here the ion <span class=\"chem\">CH3CO+</span> gives a peak at <span class=\"mono\">m/z = 43</span>. The piece that was lost, <span class=\"s32h-f\">•CH<sub>3</sub></span>, has a mass of 15. You find it by subtraction: <span class=\"mono\">58 − 43 = 15</span>.": "",
+    "Here the ion <span class=\"chem\">CH3CO+</span> gives a peak at <span class=\"mono\">m/z = 43</span>. The piece that was lost, <span class=\"s32h-f\">•CH<sub>3</sub></span>, has a mass of 15. You find it by subtraction: <span class=\"mono\">58 − 43 = 15</span>.": "여기서 이온 <span class=\"chem\">CH3CO+</span>는 <span class=\"mono\">m/z = 43</span>에서 봉우리를 만들어요. 떨어져 나간 조각 <span class=\"s32h-f\">•CH<sub>3</sub></span>의 질량은 15예요. 빼기로 구해요: <span class=\"mono\">58 − 43 = 15</span>.",
 
     // Mass spectrometry of organic compounds > p
-    "The set of peaks is the <dfn>fragmentation pattern</dfn>. It tells you which groups the molecule contains.": "",
+    "The set of peaks is the <dfn>fragmentation pattern</dfn>. It tells you which groups the molecule contains.": "봉우리 전체의 모임이 <dfn>조각 무늬 <span class=\"en-term\">(fragmentation pattern)</span></dfn>예요. 조각 무늬를 보면 분자에 어떤 기가 들어 있는지 알 수 있어요.",
 
     // Mass spectrometry of organic compounds > h3
     // Infrared spectroscopy > h3
     // Proton NMR: signals, chemical shifts and areas > h3
     // Proton NMR: splitting patterns > h3
     // Combining the techniques > h3
-    "Method in words": "",
+    "Method in words": "말로 정리한 방법",
 
     // Mass spectrometry of organic compounds > li
-    "Find the molecular ion peak. It is the peak at the highest <span class=\"mono\">m/z</span>. Its <span class=\"mono\">m/z</span> is <i>M</i><sub>r</sub>.": "",
+    "Find the molecular ion peak. It is the peak at the highest <span class=\"mono\">m/z</span>. Its <span class=\"mono\">m/z</span> is <i>M</i><sub>r</sub>.": "분자 이온 봉우리를 찾아요. <span class=\"mono\">m/z</span>가 가장 큰 봉우리예요. 그 <span class=\"mono\">m/z</span>가 <i>M</i><sub>r</sub>예요.",
 
     // Mass spectrometry of organic compounds > li
-    "Choose another peak. Subtract its <span class=\"mono\">m/z</span> from <i>M</i><sub>r</sub>. This is the mass lost.": "",
+    "Choose another peak. Subtract its <span class=\"mono\">m/z</span> from <i>M</i><sub>r</sub>. This is the mass lost.": "다른 봉우리를 하나 골라요. <i>M</i><sub>r</sub>에서 그 봉우리의 <span class=\"mono\">m/z</span>를 빼요. 이것이 잃은 질량이에요.",
 
     // Mass spectrometry of organic compounds > li
-    "Look up the mass lost in the data booklet. It suggests the piece that was lost.": "",
+    "Look up the mass lost in the data booklet. It suggests the piece that was lost.": "잃은 질량을 데이터 부클릿에서 찾아요. 어떤 조각을 잃었는지 짐작할 수 있어요.",
 
     // Mass spectrometry of organic compounds > li
-    "Write the formula of the ion that was detected. Always include the positive charge.": "",
+    "Write the formula of the ion that was detected. Always include the positive charge.": "검출된 이온의 화학식을 써요. 양전하를 꼭 포함하세요.",
 
     // Mass spectrometry of organic compounds > li
-    "Check that the piece fits the structure you are testing.": "",
+    "Check that the piece fits the structure you are testing.": "그 조각이 검사하고 있는 구조에 맞는지 확인해요.",
 
     // Mass spectrometry of organic compounds > data booklet note > p
-    "Section 22 of the data booklet lists “mass spectral fragments lost”. You do not need to memorize it.": "",
+    "Section 22 of the data booklet lists “mass spectral fragments lost”. You do not need to memorize it.": "데이터 부클릿 section 22에 “mass spectral fragments lost”(질량 스펙트럼에서 잃은 조각)가 나와 있어요. 외울 필요는 없어요.",
 
     // Mass spectrometry of organic compounds > table > caption
-    "Data booklet, section 22: mass spectral fragments lost": "",
+    "Data booklet, section 22: mass spectral fragments lost": "데이터 부클릿 section 22: 질량 스펙트럼에서 잃은 조각",
 
     // Mass spectrometry of organic compounds > table > th
-    "Mass lost": "",
+    "Mass lost": "잃은 질량",
 
     // Mass spectrometry of organic compounds > table > th
-    "Possible piece lost": "",
+    "Possible piece lost": "잃었을 수 있는 조각",
 
     // Mass spectrometry of organic compounds > table > th
-    "What it suggests about the molecule": "",
+    "What it suggests about the molecule": "분자에 대해 알 수 있는 것",
 
     // Mass spectrometry of organic compounds > table > td
-    "a methyl group": "",
+    "a methyl group": "메틸기",
 
     // Mass spectrometry of organic compounds > table > td
-    "an O–H group, for example in a carboxylic acid": "",
+    "an O–H group, for example in a carboxylic acid": "O–H기, 예를 들어 카복실산의 O–H기",
 
     // Mass spectrometry of organic compounds > table > td
-    "an alcohol can lose water": "",
+    "an alcohol can lose water": "알코올은 물을 잃을 수 있어요",
 
     // Mass spectrometry of organic compounds > table > td
-    "an ethene molecule or a carbon monoxide molecule": "",
+    "an ethene molecule or a carbon monoxide molecule": "에텐 분자 또는 일산화 탄소 분자",
 
     // Mass spectrometry of organic compounds > table > td
-    "an ethyl group, or the CHO group of an aldehyde": "",
+    "an ethyl group, or the CHO group of an aldehyde": "에틸기, 또는 알데하이드의 CHO기",
 
     // Mass spectrometry of organic compounds > table > td
-    "a methoxy group, for example in a methyl ester": "",
+    "a methoxy group, for example in a methyl ester": "메톡시기, 예를 들어 메틸 에스터의 메톡시기",
 
     // Mass spectrometry of organic compounds > table > td
-    "a carboxyl group": "",
+    "a carboxyl group": "카복실기",
 
     // Mass spectrometry of organic compounds > p
-    "The first two columns are from the data booklet. The third column is a reading guide. The booklet says “possible” because two different pieces can have the same mass.": "",
+    "The first two columns are from the data booklet. The third column is a reading guide. The booklet says “possible” because two different pieces can have the same mass.": "처음 두 열은 데이터 부클릿에서 가져왔어요. 셋째 열은 읽는 법을 돕는 안내예요. 서로 다른 두 조각이 같은 질량을 가질 수 있어서 부클릿에 “possible”(가능한)이라고 쓰여 있어요.",
 
     // Mass spectrometry of organic compounds > widget > data-title attribute
-    "Mass spectrum interpreter": "",
+    "Mass spectrum interpreter": "질량 스펙트럼 해석기",
 
     // Mass spectrometry of organic compounds > widget > figcaption
-    "Choose a compound and click each peak. These spectra are simplified sketches. They are built from the real major peaks of each compound (NIST Chemistry WebBook), with the small peaks left out.": "",
+    "Choose a compound and click each peak. These spectra are simplified sketches. They are built from the real major peaks of each compound (NIST Chemistry WebBook), with the small peaks left out.": "화합물을 고르고 각 봉우리를 클릭해 보세요. 이 스펙트럼은 단순하게 그린 것이에요. 각 화합물의 실제 주요 봉우리(NIST Chemistry WebBook)로 만들었고, 작은 봉우리는 뺐어요.",
 
     // Mass spectrometry of organic compounds > common mistake > p
-    "The tallest peak is not always the molecular ion peak. The tallest peak is only the most common ion. Look for the molecular ion at the highest <span class=\"mono\">m/z</span>. A second slip is to mix up the mass lost and the mass detected. The peak shows the ion that was detected. The mass lost is the difference from <i>M</i><sub>r</sub>.": "",
+    "The tallest peak is not always the molecular ion peak. The tallest peak is only the most common ion. Look for the molecular ion at the highest <span class=\"mono\">m/z</span>. A second slip is to mix up the mass lost and the mass detected. The peak shows the ion that was detected. The mass lost is the difference from <i>M</i><sub>r</sub>.": "가장 높은 봉우리가 항상 분자 이온 봉우리인 것은 아니에요. 가장 높은 봉우리는 가장 많은 이온일 뿐이에요. 분자 이온은 <span class=\"mono\">m/z</span>가 가장 큰 곳에서 찾으세요. 또 다른 실수는 잃은 질량과 검출된 질량을 헷갈리는 거예요. 봉우리는 검출된 이온을 나타내요. 잃은 질량은 <i>M</i><sub>r</sub>와의 차이예요.",
 
     // Mass spectrometry of organic compounds > worked example > h3
-    "Which isomer gave this mass spectrum?": "",
+    "Which isomer gave this mass spectrum?": "이 질량 스펙트럼은 어느 이성질체의 것일까요?",
 
     // Mass spectrometry of organic compounds > worked example > p
-    "A compound has the molecular formula <span class=\"chem\">C3H6O</span>. It is either propanal, <span class=\"chem\">CH3CH2CHO</span>, or propanone, <span class=\"chem\">CH3COCH3</span>. Its simplified mass spectrum is shown. Deduce which compound it is.": "",
+    "A compound has the molecular formula <span class=\"chem\">C3H6O</span>. It is either propanal, <span class=\"chem\">CH3CH2CHO</span>, or propanone, <span class=\"chem\">CH3COCH3</span>. Its simplified mass spectrum is shown. Deduce which compound it is.": "어떤 화합물의 분자식은 <span class=\"chem\">C3H6O</span>예요. 이 화합물은 propanal, <span class=\"chem\">CH3CH2CHO</span> 또는 propanone, <span class=\"chem\">CH3COCH3</span> 중 하나예요. 단순화한 질량 스펙트럼이 주어져 있어요. 어느 화합물인지 추론하시오 (deduce).",
 
     // Mass spectrometry of organic compounds > worked example > data-title attribute
-    "Find the molecular ion peak": "",
+    "Find the molecular ion peak": "분자 이온 봉우리 찾기",
 
     // Mass spectrometry of organic compounds > worked example > p
-    "The peak at the highest m/z is the whole molecule with one electron removed.": "",
+    "The peak at the highest m/z is the whole molecule with one electron removed.": "m/z가 가장 큰 봉우리는 분자 전체에서 전자 1개가 빠진 것이에요.",
 
     // Mass spectrometry of organic compounds > worked example > maths line
-    "molecular ion peak: m/z = 58": "",
+    "molecular ion peak: m/z = 58": "분자 이온 봉우리: m/z = 58",
 
     // Mass spectrometry of organic compounds > worked example > maths line
-    "<i>M</i><sub>r</sub>(C<sub>3</sub>H<sub>6</sub>O) = 3(12) + 6(1) + 16 = 58, so this fits": "",
+    "<i>M</i><sub>r</sub>(C<sub>3</sub>H<sub>6</sub>O) = 3(12) + 6(1) + 16 = 58, so this fits": "<i>M</i><sub>r</sub>(C<sub>3</sub>H<sub>6</sub>O) = 3(12) + 6(1) + 16 = 58, 따라서 맞아요",
 
     // Mass spectrometry of organic compounds > worked example > data-title attribute
-    "Find the mass lost for the tallest peak": "",
+    "Find the mass lost for the tallest peak": "가장 높은 봉우리의 잃은 질량 구하기",
 
     // Mass spectrometry of organic compounds > worked example > p
-    "The difference from the molecular ion is the mass of the piece that broke off.": "",
+    "The difference from the molecular ion is the mass of the piece that broke off.": "분자 이온과의 차이가 떨어져 나간 조각의 질량이에요.",
 
     // Mass spectrometry of organic compounds > worked example > maths line
-    "mass lost = 58 − 43 = 15": "",
+    "mass lost = 58 − 43 = 15": "잃은 질량 = 58 − 43 = 15",
 
     // Mass spectrometry of organic compounds > worked example > data-title attribute
-    "Use the data booklet": "",
+    "Use the data booklet": "데이터 부클릿 이용하기",
 
     // Mass spectrometry of organic compounds > worked example > p
-    "Section 22 lists the piece for each mass lost.": "",
+    "Section 22 lists the piece for each mass lost.": "section 22에 잃은 질량마다 해당하는 조각이 나와 있어요.",
 
     // Mass spectrometry of organic compounds > worked example > maths line
-    "ion at m/z = 43: CH<sub>3</sub>CO<sup>+</sup> (12 + 3 + 12 + 16 = 43)": "",
+    "ion at m/z = 43: CH<sub>3</sub>CO<sup>+</sup> (12 + 3 + 12 + 16 = 43)": "m/z = 43의 이온: CH<sub>3</sub>CO<sup>+</sup> (12 + 3 + 12 + 16 = 43)",
 
     // Mass spectrometry of organic compounds > worked example > data-title attribute
-    "Test each structure": "",
+    "Test each structure": "각 구조 검사하기",
 
     // Mass spectrometry of organic compounds > worked example > p
-    "The pieces must fit the structure.": "",
+    "The pieces must fit the structure.": "조각이 구조에 맞아야 해요.",
 
     // Mass spectrometry of organic compounds > worked example > p
-    "Propanone is <span class=\"chem\">CH3COCH3</span>. Breaking the bond next to the C=O gives <span class=\"chem\">CH3CO+</span> and <span class=\"s32h-f\">•CH<sub>3</sub></span>. This fits.": "",
+    "Propanone is <span class=\"chem\">CH3COCH3</span>. Breaking the bond next to the C=O gives <span class=\"chem\">CH3CO+</span> and <span class=\"s32h-f\">•CH<sub>3</sub></span>. This fits.": "propanone은 <span class=\"chem\">CH3COCH3</span>이에요. C=O 옆의 결합이 끊어지면 <span class=\"chem\">CH3CO+</span>와 <span class=\"s32h-f\">•CH<sub>3</sub></span>가 생겨요. 이것은 맞아요.",
 
     // Mass spectrometry of organic compounds > worked example > p
-    "Propanal is <span class=\"chem\">CH3CH2CHO</span>. It would lose <span class=\"s32h-f\">•CH<sub>2</sub>CH<sub>3</sub></span> or <span class=\"s32h-f\">•CHO</span>, mass 29. That would give a large peak at <span class=\"mono\">m/z = 58 − 29 = 29</span>. This spectrum has no peak at 29.": "",
+    "Propanal is <span class=\"chem\">CH3CH2CHO</span>. It would lose <span class=\"s32h-f\">•CH<sub>2</sub>CH<sub>3</sub></span> or <span class=\"s32h-f\">•CHO</span>, mass 29. That would give a large peak at <span class=\"mono\">m/z = 58 − 29 = 29</span>. This spectrum has no peak at 29.": "propanal은 <span class=\"chem\">CH3CH2CHO</span>예요. propanal이라면 질량 29인 <span class=\"s32h-f\">•CH<sub>2</sub>CH<sub>3</sub></span>나 <span class=\"s32h-f\">•CHO</span>를 잃을 거예요. 그러면 <span class=\"mono\">m/z = 58 − 29 = 29</span>에 큰 봉우리가 나타나야 해요. 이 스펙트럼에는 29에 봉우리가 없어요.",
 
     // Mass spectrometry of organic compounds > worked example > maths line
-    "<b>The compound is propanone.</b>": "",
+    "<b>The compound is propanone.</b>": "<b>이 화합물은 propanone이에요.</b>",
 
     // Mass spectrometry of organic compounds > worked example > p
-    "Propanone. The peak at m/z = 43 is CH<sub>3</sub>CO<sup>+</sup>, formed when the molecular ion loses •CH<sub>3</sub>.": "",
+    "Propanone. The peak at m/z = 43 is CH<sub>3</sub>CO<sup>+</sup>, formed when the molecular ion loses •CH<sub>3</sub>.": "propanone이에요. m/z = 43의 봉우리는 CH<sub>3</sub>CO<sup>+</sup>이고, 분자 이온이 •CH<sub>3</sub>를 잃어서 생겨요.",
 
     // Mass spectrometry of organic compounds > try it > p
-    "Butanone, <span class=\"chem\">CH3COCH2CH3</span>, has <i>M</i><sub>r</sub> = 72. Its molecular ion loses a methyl group. At what <span class=\"mono\">m/z</span> is the ion detected?": "",
+    "Butanone, <span class=\"chem\">CH3COCH2CH3</span>, has <i>M</i><sub>r</sub> = 72. Its molecular ion loses a methyl group. At what <span class=\"mono\">m/z</span> is the ion detected?": "butanone, <span class=\"chem\">CH3COCH2CH3</span>의 <i>M</i><sub>r</sub> = 72예요. 분자 이온이 메틸기를 잃어요. 이온은 어느 <span class=\"mono\">m/z</span>에서 검출될까요?",
 
     // Mass spectrometry of organic compounds > try it > li
-    "The booklet gives the mass of the methyl piece, •CH<sub>3</sub>.": "",
+    "The booklet gives the mass of the methyl piece, •CH<sub>3</sub>.": "부클릿에 메틸 조각 •CH<sub>3</sub>의 질량이 나와 있어요.",
 
     // Mass spectrometry of organic compounds > try it > li
-    "m/z of the ion = <i>M</i><sub>r</sub> − mass lost = 72 − 15.": "",
+    "m/z of the ion = <i>M</i><sub>r</sub> − mass lost = 72 − 15.": "이온의 m/z = <i>M</i><sub>r</sub> − 잃은 질량 = 72 − 15.",
 
     // Mass spectrometry of organic compounds > try it > p
-    "The ion is <span class=\"chem\">CH3CH2CO+</span>.": "",
+    "The ion is <span class=\"chem\">CH3CH2CO+</span>.": "이온은 <span class=\"chem\">CH3CH2CO+</span>예요.",
 
     // Mass spectrometry of organic compounds > try it > p
-    "Propan-1-ol has <i>M</i><sub>r</sub> = 60. Its molecular ion can lose a molecule of water. At what <span class=\"mono\">m/z</span> is the ion detected?": "",
+    "Propan-1-ol has <i>M</i><sub>r</sub> = 60. Its molecular ion can lose a molecule of water. At what <span class=\"mono\">m/z</span> is the ion detected?": "propan-1-ol의 <i>M</i><sub>r</sub> = 60이에요. 분자 이온이 물 분자 1개를 잃을 수 있어요. 이온은 어느 <span class=\"mono\">m/z</span>에서 검출될까요?",
 
     // Mass spectrometry of organic compounds > try it > li
-    "Find the mass of <span class=\"chem\">H2O</span> in section 22 of the booklet.": "",
+    "Find the mass of <span class=\"chem\">H2O</span> in section 22 of the booklet.": "부클릿 section 22에서 <span class=\"chem\">H2O</span>의 질량을 찾아보세요.",
 
     // Mass spectrometry of organic compounds > try it > li
-    "m/z of the ion = 60 − 18.": "",
+    "m/z of the ion = 60 − 18.": "이온의 m/z = 60 − 18.",
 
     // Mass spectrometry of organic compounds > exam tip (shown in English + translation) > p
-    "When you write the formula of a fragment, include the positive charge, for example <span class=\"chem\">CH3CO+</span>. A formula without the charge does not earn the mark. If you are asked why a spectrum has many peaks, the word needed is “fragmentation”.": "",
+    "When you write the formula of a fragment, include the positive charge, for example <span class=\"chem\">CH3CO+</span>. A formula without the charge does not earn the mark. If you are asked why a spectrum has many peaks, the word needed is “fragmentation”.": "조각의 화학식을 쓸 때는 양전하를 포함하세요. 예를 들어 <span class=\"chem\">CH3CO+</span>처럼요. 전하가 없는 화학식은 점수를 받지 못해요. 스펙트럼에 봉우리가 많은 이유를 물으면 필요한 단어는 “fragmentation”(조각화)이에요.",
 
     // Mass spectrometry of organic compounds > not needed for IB > p
-    "You do not need to know how the mass spectrometer works. You do not need isotope peaks such as M+1 or M+2, very accurate masses, or rearrangements. You only need the molecular ion and the pieces in the booklet table.": "",
+    "You do not need to know how the mass spectrometer works. You do not need isotope peaks such as M+1 or M+2, very accurate masses, or rearrangements. You only need the molecular ion and the pieces in the booklet table.": "질량 분석기의 작동 원리는 알 필요가 없어요. M+1이나 M+2 같은 동위 원소 봉우리, 아주 정밀한 질량, 자리 옮김 반응도 알 필요가 없어요. 분자 이온과 부클릿 표에 있는 조각만 알면 돼요.",
 
     // Mass spectrometry of organic compounds > data-title attribute
-    "Mass spectrometry: quick check": "",
+    "Mass spectrometry: quick check": "질량 분석법: 빠른 확인",
 
     // Infrared spectroscopy > data-toc attribute
     // Infrared spectroscopy > h2
-    "Infrared spectroscopy": "",
+    "Infrared spectroscopy": "적외선 분광법",
 
     // Infrared spectroscopy > p
-    "<b>The question it answers:</b> which types of bond does the molecule contain?": "",
+    "<b>The question it answers:</b> which types of bond does the molecule contain?": "<b>답하는 질문:</b> 분자에 어떤 종류의 결합이 들어 있을까요?",
 
     // Infrared spectroscopy > p
-    "Think of two balls joined by a spring. The spring can stretch and shorten at its own natural frequency. A covalent bond behaves in a similar way. It vibrates all the time.": "",
+    "Think of two balls joined by a spring. The spring can stretch and shorten at its own natural frequency. A covalent bond behaves in a similar way. It vibrates all the time.": "용수철로 연결된 공 2개를 생각해 보세요. 용수철은 자신의 고유 진동수로 늘어났다 줄어들었다 할 수 있어요. 공유 결합도 비슷하게 행동해요. 늘 진동하고 있어요.",
 
     // Infrared spectroscopy > p
-    "A bond can absorb infrared (IR) radiation that has the right energy for its vibration. Each type of bond absorbs in its own range. So an IR spectrum shows which types of bond a molecule contains.": "",
+    "A bond can absorb infrared (IR) radiation that has the right energy for its vibration. Each type of bond absorbs in its own range. So an IR spectrum shows which types of bond a molecule contains.": "결합은 자신의 진동에 맞는 에너지를 가진 적외선(IR)을 흡수할 수 있어요. 결합의 종류마다 흡수하는 범위가 정해져 있어요. 그래서 IR 스펙트럼을 보면 분자에 어떤 종류의 결합이 있는지 알 수 있어요.",
 
     // Infrared spectroscopy > h3
-    "Reading an IR spectrum": "",
+    "Reading an IR spectrum": "IR 스펙트럼 읽기",
 
     // Infrared spectroscopy > li
-    "The horizontal axis is the <dfn>wavenumber</dfn>, in <span class=\"unit\">cm-1</span>. It runs from 4000 on the left down to about 400 on the right.": "",
+    "The horizontal axis is the <dfn>wavenumber</dfn>, in <span class=\"unit\">cm-1</span>. It runs from 4000 on the left down to about 400 on the right.": "가로축은 <dfn>파수 <span class=\"en-term\">(wavenumber)</span></dfn>이고, 단위는 <span class=\"unit\">cm-1</span>이에요. 왼쪽의 4000에서 오른쪽의 약 400까지 줄어들어요.",
 
     // Infrared spectroscopy > li
-    "The vertical axis is transmittance: the percentage of the radiation that passes through the sample.": "",
+    "The vertical axis is transmittance: the percentage of the radiation that passes through the sample.": "세로축은 투과율이에요: 시료를 통과하는 복사선의 백분율이에요.",
 
     // Infrared spectroscopy > li
-    "An absorption shows as a dip. The line goes down where the sample absorbs.": "",
+    "An absorption shows as a dip. The line goes down where the sample absorbs.": "흡수는 아래로 움푹 꺼진 모양으로 나타나요. 시료가 흡수하는 곳에서 선이 내려가요.",
 
     // Infrared spectroscopy > li
-    "Note three things for each dip: where it is, how strong it is, and whether it is broad or sharp.": "",
+    "Note three things for each dip: where it is, how strong it is, and whether it is broad or sharp.": "움푹 꺼진 곳마다 3가지를 확인하세요: 위치, 세기, 그리고 넓은지 좁은지.",
 
     // Infrared spectroscopy > data booklet note > p
-    "Section 20 of the data booklet gives the wavenumber range for each bond. You do not need to memorize the ranges. The interactive spectrum below shows the whole table.": "",
+    "Section 20 of the data booklet gives the wavenumber range for each bond. You do not need to memorize the ranges. The interactive spectrum below shows the whole table.": "데이터 부클릿 section 20에 결합마다 파수 범위가 나와 있어요. 범위를 외울 필요는 없어요. 아래의 대화형 스펙트럼에 표 전체가 나와 있어요.",
 
     // Infrared spectroscopy > h3
-    "The absorptions you will use most": "",
+    "The absorptions you will use most": "가장 많이 쓰는 흡수",
 
     // Infrared spectroscopy > table > caption
-    "Key rows of the data booklet (section 20)": "",
+    "Key rows of the data booklet (section 20)": "데이터 부클릿의 주요 행(section 20)",
 
     // Infrared spectroscopy > table > th
     // widget string (assets/js/widgets-s3-2h.js)
-    "Bond": "",
+    "Bond": "결합",
 
     // Infrared spectroscopy > table > th
-    "Found in": "",
+    "Found in": "들어 있는 곳",
 
     // Infrared spectroscopy > table > th
     // widget string (assets/js/widgets-s3-2h.js)
-    "Wavenumber / cm<sup>−1</sup>": "",
+    "Wavenumber / cm<sup>−1</sup>": "파수 / cm<sup>−1</sup>",
 
     // Infrared spectroscopy > table > th
-    "Shape": "",
+    "Shape": "모양",
 
     // Infrared spectroscopy > table > td
-    "alcohols": "",
-
-    // Infrared spectroscopy > table > td
-    // widget string (assets/js/widgets-s3-2h.js)
-    "strong, broad": "",
-
-    // Infrared spectroscopy > table > td
-    "carboxylic acids": "",
+    "alcohols": "알코올",
 
     // Infrared spectroscopy > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "strong, very broad": "",
+    "strong, broad": "강함, 넓음",
+
+    // Infrared spectroscopy > table > td
+    "carboxylic acids": "카복실산",
 
     // Infrared spectroscopy > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "alkanes, alkenes, arenes": "",
+    "strong, very broad": "강함, 매우 넓음",
 
     // Infrared spectroscopy > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "strong": "",
+    "alkanes, alkenes, arenes": "알케인, 알켄, 아렌",
 
     // Infrared spectroscopy > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "aldehydes, ketones, carboxylic acids and esters": "",
+    "strong": "강함",
 
     // Infrared spectroscopy > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "alkenes": "",
-
-    // Infrared spectroscopy > table > td
-    "medium-weak": "",
+    "aldehydes, ketones, carboxylic acids and esters": "알데하이드, 케톤, 카복실산, 에스터",
 
     // Infrared spectroscopy > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "alcohols, esters, ethers": "",
+    "alkenes": "알켄",
+
+    // Infrared spectroscopy > table > td
+    "medium-weak": "중간–약함",
+
+    // Infrared spectroscopy > table > td
+    // widget string (assets/js/widgets-s3-2h.js)
+    "alcohols, esters, ethers": "알코올, 에스터, 에테르",
 
     // Infrared spectroscopy > p
-    "Almost every organic compound has C–H bonds. So the C–H absorption rarely helps you to tell compounds apart.": "",
+    "Almost every organic compound has C–H bonds. So the C–H absorption rarely helps you to tell compounds apart.": "거의 모든 유기 화합물에는 C–H 결합이 있어요. 그래서 C–H 흡수는 화합물을 구별하는 데 거의 도움이 되지 않아요.",
 
     // Infrared spectroscopy > li
-    "Look for a strong absorption at 1700–1750 <span class=\"unit\">cm-1</span>. If it is there, the molecule has a C=O bond.": "",
+    "Look for a strong absorption at 1700–1750 <span class=\"unit\">cm-1</span>. If it is there, the molecule has a C=O bond.": "1700–1750 <span class=\"unit\">cm-1</span>에서 강한 흡수를 찾아요. 있으면 분자에 C=O 결합이 있어요.",
 
     // Infrared spectroscopy > li
-    "Look for a broad absorption above 2500 <span class=\"unit\">cm-1</span>. Broad at 3200–3600 is the O–H of an alcohol. Very broad at 2500–3000 is the O–H of a carboxylic acid.": "",
+    "Look for a broad absorption above 2500 <span class=\"unit\">cm-1</span>. Broad at 3200–3600 is the O–H of an alcohol. Very broad at 2500–3000 is the O–H of a carboxylic acid.": "2500 <span class=\"unit\">cm-1</span>보다 높은 곳에서 넓은 흡수를 찾아요. 3200–3600에서 넓으면 알코올의 O–H예요. 2500–3000에서 매우 넓으면 카복실산의 O–H예요.",
 
     // Infrared spectroscopy > li
-    "Match any other strong absorption to a row of the booklet table. Check that the shape fits too.": "",
+    "Match any other strong absorption to a row of the booklet table. Check that the shape fits too.": "다른 강한 흡수는 부클릿 표의 행과 맞춰 봐요. 모양도 맞는지 확인하세요.",
 
     // Infrared spectroscopy > li
-    "Note which bonds are absent. “No O–H” and “no C=O” are useful evidence.": "",
+    "Note which bonds are absent. “No O–H” and “no C=O” are useful evidence.": "어떤 결합이 없는지도 적어 두세요. “O–H 없음”과 “C=O 없음”도 쓸모 있는 증거예요.",
 
     // Infrared spectroscopy > li
-    "Write each result as a bond with its booklet range.": "",
+    "Write each result as a bond with its booklet range.": "각 결과를 결합과 부클릿 범위로 함께 써요.",
 
     // Infrared spectroscopy > h3
-    "The fingerprint region": "",
+    "The fingerprint region": "지문 영역",
 
     // Infrared spectroscopy > p
-    "Below about 1500 <span class=\"unit\">cm-1</span>, a spectrum has many overlapping absorptions. This part is called the fingerprint region, because its pattern is different for every compound.": "",
+    "Below about 1500 <span class=\"unit\">cm-1</span>, a spectrum has many overlapping absorptions. This part is called the fingerprint region, because its pattern is different for every compound.": "약 1500 <span class=\"unit\">cm-1</span>보다 낮은 곳에는 겹쳐진 흡수가 많아요. 이 부분을 지문 영역이라고 해요. 그 무늬가 화합물마다 다르기 때문이에요.",
 
     // Infrared spectroscopy > p
-    "You are only asked to interpret the functional group region, using the booklet table. You do not need to explain the pattern of small peaks in the fingerprint region. You can still be asked about a strong absorption that matches a booklet row there, such as C–O.": "",
+    "You are only asked to interpret the functional group region, using the booklet table. You do not need to explain the pattern of small peaks in the fingerprint region. You can still be asked about a strong absorption that matches a booklet row there, such as C–O.": "부클릿 표를 이용해 작용기 영역만 해석하면 돼요. 지문 영역의 작은 봉우리 무늬를 설명할 필요는 없어요. 하지만 그곳에서도 C–O처럼 부클릿 행과 맞는 강한 흡수에 대해서는 질문을 받을 수 있어요.",
 
     // Infrared spectroscopy > widget > data-title attribute
-    "Infrared interpreter": "",
+    "Infrared interpreter": "적외선 스펙트럼 해석기",
 
     // Infrared spectroscopy > widget > figcaption
-    "In “Explore”, click a band to see the bond and the booklet row. In “Which compound is it?”, decide between an alkane, an alcohol, a carboxylic acid, a ketone and an ester. The spectra are simplified sketches drawn from typical band positions. They are not measured spectra.": "",
+    "In “Explore”, click a band to see the bond and the booklet row. In “Which compound is it?”, decide between an alkane, an alcohol, a carboxylic acid, a ketone and an ester. The spectra are simplified sketches drawn from typical band positions. They are not measured spectra.": "“Explore”에서는 띠를 클릭해 결합과 부클릿 행을 보세요. “Which compound is it?”에서는 알케인, 알코올, 카복실산, 케톤, 에스터 중에서 골라 보세요. 스펙트럼은 일반적인 띠 위치로 그린 단순한 그림이에요. 실제로 측정한 스펙트럼이 아니에요.",
 
     // Infrared spectroscopy > worked example > h3
-    "Acid or ester?": "",
+    "Acid or ester?": "산일까요, 에스터일까요?",
 
     // Infrared spectroscopy > worked example > p
-    "A compound has the molecular formula <span class=\"chem\">C3H6O2</span>. It is either propanoic acid, <span class=\"chem\">CH3CH2COOH</span>, or methyl ethanoate, <span class=\"chem\">CH3COOCH3</span>. Use the sketch of its IR spectrum to identify it. The absorptions are labelled A (2500–3000 <span class=\"unit\">cm-1</span>, very broad), B (1715 <span class=\"unit\">cm-1</span>) and C (1240 <span class=\"unit\">cm-1</span>).": "",
+    "A compound has the molecular formula <span class=\"chem\">C3H6O2</span>. It is either propanoic acid, <span class=\"chem\">CH3CH2COOH</span>, or methyl ethanoate, <span class=\"chem\">CH3COOCH3</span>. Use the sketch of its IR spectrum to identify it. The absorptions are labelled A (2500–3000 <span class=\"unit\">cm-1</span>, very broad), B (1715 <span class=\"unit\">cm-1</span>) and C (1240 <span class=\"unit\">cm-1</span>).": "어떤 화합물의 분자식은 <span class=\"chem\">C3H6O2</span>예요. 이 화합물은 propanoic acid, <span class=\"chem\">CH3CH2COOH</span> 또는 methyl ethanoate, <span class=\"chem\">CH3COOCH3</span> 중 하나예요. IR 스펙트럼 그림을 이용해 어느 것인지 찾으시오 (identify). 흡수에는 A(2500–3000 <span class=\"unit\">cm-1</span>, 매우 넓음), B(1715 <span class=\"unit\">cm-1</span>), C(1240 <span class=\"unit\">cm-1</span>)라고 이름이 붙어 있어요.",
 
     // Infrared spectroscopy > worked example > data-title attribute
-    "Assign absorption B": "",
+    "Assign absorption B": "흡수 B 해석하기",
 
     // Infrared spectroscopy > worked example > p
-    "Start with the clearest absorption. Find the booklet range that contains it.": "",
+    "Start with the clearest absorption. Find the booklet range that contains it.": "가장 분명한 흡수부터 시작해요. 그 흡수가 들어가는 부클릿 범위를 찾아요.",
 
     // Infrared spectroscopy > worked example > maths line
-    "B: 1715 cm<sup>−1</sup> is inside 1700–1750 cm<sup>−1</sup> → C=O": "",
+    "B: 1715 cm<sup>−1</sup> is inside 1700–1750 cm<sup>−1</sup> → C=O": "B: 1715 cm<sup>−1</sup>은 1700–1750 cm<sup>−1</sup> 안에 있음 → C=O",
 
     // Infrared spectroscopy > worked example > p
-    "Both compounds contain C=O, so B does not decide between them.": "",
+    "Both compounds contain C=O, so B does not decide between them.": "두 화합물 모두 C=O를 가지고 있으므로 B로는 둘을 구별할 수 없어요.",
 
     // Infrared spectroscopy > worked example > data-title attribute
-    "Assign absorption A": "",
+    "Assign absorption A": "흡수 A 해석하기",
 
     // Infrared spectroscopy > worked example > p
-    "The shape matters as much as the position.": "",
+    "The shape matters as much as the position.": "모양은 위치만큼 중요해요.",
 
     // Infrared spectroscopy > worked example > maths line
-    "A: very broad, 2500–3000 cm<sup>−1</sup> → O–H in a carboxylic acid": "",
+    "A: very broad, 2500–3000 cm<sup>−1</sup> → O–H in a carboxylic acid": "A: 매우 넓음, 2500–3000 cm<sup>−1</sup> → 카복실산의 O–H",
 
     // Infrared spectroscopy > worked example > data-title attribute
-    "Assign absorption C": "",
+    "Assign absorption C": "흡수 C 해석하기",
 
     // Infrared spectroscopy > worked example > p
-    "Check that the remaining strong absorption also fits.": "",
+    "Check that the remaining strong absorption also fits.": "남은 강한 흡수도 맞는지 확인해요.",
 
     // Infrared spectroscopy > worked example > maths line
-    "C: 1240 cm<sup>−1</sup> is inside 1050–1410 cm<sup>−1</sup> → C–O": "",
+    "C: 1240 cm<sup>−1</sup> is inside 1050–1410 cm<sup>−1</sup> → C–O": "C: 1240 cm<sup>−1</sup>은 1050–1410 cm<sup>−1</sup> 안에 있음 → C–O",
 
     // Infrared spectroscopy > worked example > data-title attribute
-    "Decide": "",
+    "Decide": "결정하기",
 
     // Infrared spectroscopy > worked example > p
-    "Look for a bond that one compound has and the other does not.": "",
+    "Look for a bond that one compound has and the other does not.": "한 화합물에는 있고 다른 화합물에는 없는 결합을 찾아요.",
 
     // Infrared spectroscopy > worked example > p
-    "Methyl ethanoate has no O–H bond. It could not give absorption A.": "",
+    "Methyl ethanoate has no O–H bond. It could not give absorption A.": "methyl ethanoate에는 O–H 결합이 없어요. 흡수 A를 만들 수 없어요.",
 
     // Infrared spectroscopy > worked example > maths line
-    "<b>The compound is propanoic acid.</b>": "",
+    "<b>The compound is propanoic acid.</b>": "<b>이 화합물은 propanoic acid예요.</b>",
 
     // Infrared spectroscopy > worked example > p
-    "Propanoic acid, because the spectrum shows the very broad O–H absorption of a carboxylic acid at 2500–3000 cm<sup>−1</sup>, which an ester does not have.": "",
+    "Propanoic acid, because the spectrum shows the very broad O–H absorption of a carboxylic acid at 2500–3000 cm<sup>−1</sup>, which an ester does not have.": "propanoic acid예요. 스펙트럼에 2500–3000 cm<sup>−1</sup>에서 카복실산의 매우 넓은 O–H 흡수가 보이는데, 에스터에는 이 흡수가 없기 때문이에요.",
 
     // Infrared spectroscopy > try it > data-label attribute
-    "Number of compounds": "",
+    "Number of compounds": "화합물의 수",
 
     // Infrared spectroscopy > try it > p
-    "How many of these five compounds absorb strongly at 1700–1750 <span class=\"unit\">cm-1</span>: propanone, ethanol, ethyl ethanoate, ethanoic acid, hexane?": "",
+    "How many of these five compounds absorb strongly at 1700–1750 <span class=\"unit\">cm-1</span>: propanone, ethanol, ethyl ethanoate, ethanoic acid, hexane?": "다음 화합물 5가지 중 1700–1750 <span class=\"unit\">cm-1</span>에서 강하게 흡수하는 것은 몇 개일까요: propanone, ethanol, ethyl ethanoate, ethanoic acid, hexane?",
 
     // Infrared spectroscopy > try it > li
-    "Find 1700–1750 <span class=\"unit\">cm-1</span> in the booklet table. Which bond is it?": "",
+    "Find 1700–1750 <span class=\"unit\">cm-1</span> in the booklet table. Which bond is it?": "부클릿 표에서 1700–1750 <span class=\"unit\">cm-1</span>을 찾아보세요. 어떤 결합인가요?",
 
     // Infrared spectroscopy > try it > li
-    "The bond is C=O. Which classes of compound contain C=O?": "",
+    "The bond is C=O. Which classes of compound contain C=O?": "그 결합은 C=O예요. C=O를 가진 화합물의 종류는 무엇일까요?",
 
     // Infrared spectroscopy > try it > p
-    "C=O is in the ketone (propanone), the ester (ethyl ethanoate) and the carboxylic acid (ethanoic acid). The answer is 3.": "",
+    "C=O is in the ketone (propanone), the ester (ethyl ethanoate) and the carboxylic acid (ethanoic acid). The answer is 3.": "C=O는 케톤(propanone), 에스터(ethyl ethanoate), 카복실산(ethanoic acid)에 있어요. 답은 3이에요.",
 
     // Infrared spectroscopy > common mistake > p
-    "The two O–H rows are easy to mix up. An alcohol O–H absorbs at 3200–3600 <span class=\"unit\">cm-1</span>. A carboxylic acid O–H absorbs lower, at 2500–3000 <span class=\"unit\">cm-1</span>, and is much broader. It often covers the C–H absorption.": "",
+    "The two O–H rows are easy to mix up. An alcohol O–H absorbs at 3200–3600 <span class=\"unit\">cm-1</span>. A carboxylic acid O–H absorbs lower, at 2500–3000 <span class=\"unit\">cm-1</span>, and is much broader. It often covers the C–H absorption.": "두 O–H 행은 헷갈리기 쉬워요. 알코올의 O–H는 3200–3600 <span class=\"unit\">cm-1</span>에서 흡수해요. 카복실산의 O–H는 더 낮은 2500–3000 <span class=\"unit\">cm-1</span>에서 흡수하고, 훨씬 넓어요. C–H 흡수를 덮는 경우가 많아요.",
 
     // Infrared spectroscopy > exam tip (shown in English + translation) > p
-    "Give the bond and the wavenumber range together, for example “C=O at 1700–1750 <span class=\"unit\">cm-1</span>”. One without the other may not earn the mark. Any value inside the booklet range is accepted. To choose between two compounds, name the compound, the bond that is present or absent, and its range.": "",
+    "Give the bond and the wavenumber range together, for example “C=O at 1700–1750 <span class=\"unit\">cm-1</span>”. One without the other may not earn the mark. Any value inside the booklet range is accepted. To choose between two compounds, name the compound, the bond that is present or absent, and its range.": "결합과 파수 범위를 함께 쓰세요. 예를 들어 “1700–1750 <span class=\"unit\">cm-1</span>의 C=O”처럼요. 하나만 쓰면 점수를 받지 못할 수 있어요. 부클릿 범위 안의 값은 모두 인정돼요. 두 화합물 중 하나를 고를 때는 화합물 이름, 있거나 없는 결합, 그리고 그 범위를 쓰세요.",
 
     // Infrared spectroscopy > h3
-    "Infrared radiation and greenhouse gases": "",
+    "Infrared radiation and greenhouse gases": "적외선과 온실 기체",
 
     // Infrared spectroscopy > p
-    "The surface of the Earth gives out infrared radiation. Greenhouse gases such as carbon dioxide, water vapour and methane absorb some of it, because their bonds vibrate at infrared frequencies.": "",
+    "The surface of the Earth gives out infrared radiation. Greenhouse gases such as carbon dioxide, water vapour and methane absorb some of it, because their bonds vibrate at infrared frequencies.": "지구 표면은 적외선을 내보내요. 이산화 탄소, 수증기, 메테인 같은 온실 기체는 그 일부를 흡수해요. 이들의 결합이 적외선 진동수로 진동하기 때문이에요.",
 
     // Infrared spectroscopy > p
-    "The molecules then give the energy out again in all directions. Some of it returns to the surface. This keeps the lower atmosphere warmer.": "",
+    "The molecules then give the energy out again in all directions. Some of it returns to the surface. This keeps the lower atmosphere warmer.": "그러면 분자는 그 에너지를 다시 모든 방향으로 내보내요. 그중 일부는 지표면으로 되돌아가요. 그래서 대기의 아래층이 더 따뜻하게 유지돼요.",
 
     // Infrared spectroscopy > p
-    "Nitrogen and oxygen make up most of the air, but <span class=\"chem\">N2</span> and <span class=\"chem\">O2</span> do not absorb infrared radiation. The reason is in “Linking it up” below.": "",
+    "Nitrogen and oxygen make up most of the air, but <span class=\"chem\">N2</span> and <span class=\"chem\">O2</span> do not absorb infrared radiation. The reason is in “Linking it up” below.": "공기의 대부분은 질소와 산소이지만, <span class=\"chem\">N2</span>와 <span class=\"chem\">O2</span>는 적외선을 흡수하지 않아요. 그 이유는 아래 “연결하기”에 있어요.",
 
     // Infrared spectroscopy > not needed for IB > p
-    "You do not need to know how an IR spectrometer works, or the physics of why each bond has its own frequency. You do not need to calculate a global warming potential.": "",
+    "You do not need to know how an IR spectrometer works, or the physics of why each bond has its own frequency. You do not need to calculate a global warming potential.": "IR 분광기의 작동 원리나, 결합마다 고유 진동수가 있는 물리적 이유는 알 필요가 없어요. 지구 온난화 지수를 계산할 필요도 없어요.",
 
     // Infrared spectroscopy > data-title attribute
-    "Infrared spectroscopy: quick check": "",
+    "Infrared spectroscopy: quick check": "적외선 분광법: 빠른 확인",
 
     // Proton NMR: signals, chemical shifts and areas > data-toc attribute
-    "¹H NMR: signals, shifts, areas": "",
+    "¹H NMR: signals, shifts, areas": "¹H NMR: 신호, 이동, 넓이",
 
     // Proton NMR: signals, chemical shifts and areas > h2
-    "Proton NMR: signals, chemical shifts and areas": "",
+    "Proton NMR: signals, chemical shifts and areas": "양성자 NMR: 신호, 화학적 이동, 넓이",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "<b>The question it answers:</b> how many different kinds of hydrogen atom does the molecule have, how many of each kind, and what is each kind next to?": "",
+    "<b>The question it answers:</b> how many different kinds of hydrogen atom does the molecule have, how many of each kind, and what is each kind next to?": "<b>답하는 질문:</b> 분자에 서로 다른 종류의 수소 원자가 몇 가지 있고, 종류마다 몇 개씩 있으며, 각 종류는 무엇의 옆에 있을까요?",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "Think of a class photograph. Students in the front row have different neighbours from students in the back row. In a molecule, hydrogen atoms also sit in different surroundings.": "",
+    "Think of a class photograph. Students in the front row have different neighbours from students in the back row. In a molecule, hydrogen atoms also sit in different surroundings.": "학급 단체 사진을 떠올려 보세요. 앞줄 학생들은 뒷줄 학생들과 옆에 있는 친구가 달라요. 분자에서도 수소 원자들은 서로 다른 주변 환경에 있어요.",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "Proton nuclear magnetic resonance spectroscopy, <dfn><sup>1</sup>H NMR</dfn>, detects the hydrogen atoms in a molecule. It gives one signal for each different surrounding.": "",
+    "Proton nuclear magnetic resonance spectroscopy, <dfn><sup>1</sup>H NMR</dfn>, detects the hydrogen atoms in a molecule. It gives one signal for each different surrounding.": "양성자 핵자기 공명 분광법(proton nuclear magnetic resonance spectroscopy), 곧 <dfn>양성자 NMR <span class=\"en-term\">(<sup>1</sup>H NMR)</span></dfn>은 분자 안의 수소 원자를 검출해요. 서로 다른 주변 환경마다 신호가 1개씩 나타나요.",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "A <dfn>chemical environment</dfn> is the set of atoms and bonds around a hydrogen atom. Hydrogen atoms with exactly the same surroundings are called equivalent. They are in the same environment.": "",
+    "A <dfn>chemical environment</dfn> is the set of atoms and bonds around a hydrogen atom. Hydrogen atoms with exactly the same surroundings are called equivalent. They are in the same environment.": "<dfn>화학적 환경 <span class=\"en-term\">(chemical environment)</span></dfn>은 수소 원자 주위에 있는 원자와 결합 전체를 말해요. 주변이 완전히 같은 수소 원자들을 동등하다(equivalent)고 해요. 동등한 수소 원자들은 같은 환경에 있어요.",
 
     // Proton NMR: signals, chemical shifts and areas > key idea > p
-    "A <sup>1</sup>H NMR spectrum gives three pieces of information at this stage. The number of signals is the number of hydrogen environments. The area under each signal shows how many H atoms are in that environment. The chemical shift shows what type of environment it is.": "",
+    "A <sup>1</sup>H NMR spectrum gives three pieces of information at this stage. The number of signals is the number of hydrogen environments. The area under each signal shows how many H atoms are in that environment. The chemical shift shows what type of environment it is.": "이 단계에서 <sup>1</sup>H NMR 스펙트럼은 3가지 정보를 줘요. 신호의 수는 수소 환경의 수예요. 각 신호 아래 넓이는 그 환경에 H 원자가 몇 개 있는지를 보여 줘요. 화학적 이동은 그 환경이 어떤 종류인지를 보여 줘요.",
 
     // Proton NMR: signals, chemical shifts and areas > h3
-    "1. Number of signals": "",
+    "1. Number of signals": "1. 신호의 수",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "Count the different hydrogen environments. Two rules help.": "",
+    "Count the different hydrogen environments. Two rules help.": "서로 다른 수소 환경의 수를 세요. 2가지 규칙이 도움이 돼요.",
 
     // Proton NMR: signals, chemical shifts and areas > li
-    "The H atoms on the same carbon atom are equivalent. The three H atoms of a <span class=\"chem\">CH3</span> group give one signal.": "",
+    "The H atoms on the same carbon atom are equivalent. The three H atoms of a <span class=\"chem\">CH3</span> group give one signal.": "같은 탄소 원자에 붙은 H 원자들은 동등해요. <span class=\"chem\">CH3</span>기의 H 원자 3개는 신호 1개를 만들어요.",
 
     // Proton NMR: signals, chemical shifts and areas > li
-    "Groups that are mirror images of each other in a symmetrical molecule are equivalent. The two <span class=\"chem\">CH3</span> groups in propanone, <span class=\"chem\">CH3COCH3</span>, give one signal.": "",
+    "Groups that are mirror images of each other in a symmetrical molecule are equivalent. The two <span class=\"chem\">CH3</span> groups in propanone, <span class=\"chem\">CH3COCH3</span>, give one signal.": "대칭인 분자에서 서로 거울상인 기들은 동등해요. propanone, <span class=\"chem\">CH3COCH3</span>의 <span class=\"chem\">CH3</span>기 2개는 신호 1개를 만들어요.",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "Ethanol has three environments, labelled a, b and c. Its spectrum has three signals.": "",
+    "Ethanol has three environments, labelled a, b and c. Its spectrum has three signals.": "ethanol에는 a, b, c로 표시한 환경이 3개 있어요. 스펙트럼에는 신호가 3개 있어요.",
 
     // Proton NMR: signals, chemical shifts and areas > h3
-    "2. Area under each signal": "",
+    "2. Area under each signal": "2. 각 신호 아래 넓이",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "The area under a signal is proportional to the number of H atoms in that environment. The spectrometer measures the areas. This is called <dfn>integration</dfn>, and it is often printed as a stepped line called an integration trace. A bigger step means a bigger area.": "",
+    "The area under a signal is proportional to the number of H atoms in that environment. The spectrometer measures the areas. This is called <dfn>integration</dfn>, and it is often printed as a stepped line called an integration trace. A bigger step means a bigger area.": "신호 아래 넓이는 그 환경에 있는 H 원자 수에 비례해요. 넓이는 분광기가 측정해요. 이것을 <dfn>적분 <span class=\"en-term\">(integration)</span></dfn>이라고 하고, 흔히 적분 곡선(integration trace)이라는 계단 모양의 선으로 나타내요. 계단이 클수록 넓이가 커요.",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "The areas give a ratio, not the actual numbers. Ethanol gives areas in the ratio <span class=\"mono\">3 : 2 : 1</span>. Ethoxyethane, <span class=\"chem\">CH3CH2OCH2CH3</span>, has 6 H and 4 H in its two environments, so its ratio is also written <span class=\"mono\">3 : 2</span>.": "",
+    "The areas give a ratio, not the actual numbers. Ethanol gives areas in the ratio <span class=\"mono\">3 : 2 : 1</span>. Ethoxyethane, <span class=\"chem\">CH3CH2OCH2CH3</span>, has 6 H and 4 H in its two environments, so its ratio is also written <span class=\"mono\">3 : 2</span>.": "넓이는 실제 개수가 아니라 비를 알려 줘요. ethanol의 넓이 비는 <span class=\"mono\">3 : 2 : 1</span>이에요. ethoxyethane, <span class=\"chem\">CH3CH2OCH2CH3</span>은 두 환경에 각각 6 H와 4 H가 있어서, 그 비도 <span class=\"mono\">3 : 2</span>로 써요.",
 
     // Proton NMR: signals, chemical shifts and areas > h3
-    "3. Chemical shift": "",
+    "3. Chemical shift": "3. 화학적 이동",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "The position of a signal on the horizontal axis is its <dfn>chemical shift</dfn>, symbol δ, in parts per million (<span class=\"unit\">ppm</span>). The axis runs from high values on the left to 0 on the right.": "",
+    "The position of a signal on the horizontal axis is its <dfn>chemical shift</dfn>, symbol δ, in parts per million (<span class=\"unit\">ppm</span>). The axis runs from high values on the left to 0 on the right.": "가로축에서 신호의 위치가 <dfn>화학적 이동 <span class=\"en-term\">(chemical shift)</span></dfn>이에요. 기호는 δ이고, 단위는 백만분율(<span class=\"unit\">ppm</span>)이에요. 축은 왼쪽이 큰 값이고 오른쪽 끝이 0이에요.",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "The chemical shift depends on what is near the hydrogen atom. An H atom close to an oxygen atom or a C=O group has a higher chemical shift.": "",
+    "The chemical shift depends on what is near the hydrogen atom. An H atom close to an oxygen atom or a C=O group has a higher chemical shift.": "화학적 이동은 수소 원자 가까이에 무엇이 있는지에 따라 달라져요. 산소 원자나 C=O기 가까이에 있는 H 원자는 화학적 이동이 더 커요.",
 
     // Proton NMR: signals, chemical shifts and areas > data booklet note > p
-    "Section 21 of the data booklet gives typical chemical shifts for each type of proton. The booklet states that the values are measured relative to tetramethylsilane (TMS), which is the zero of the scale. It also states that values can vary with the solvent and conditions.": "",
+    "Section 21 of the data booklet gives typical chemical shifts for each type of proton. The booklet states that the values are measured relative to tetramethylsilane (TMS), which is the zero of the scale. It also states that values can vary with the solvent and conditions.": "데이터 부클릿 section 21에 양성자 종류별 대표적인 화학적 이동이 나와 있어요. 부클릿에 따르면 이 값들은 눈금의 0인 tetramethylsilane(TMS)을 기준으로 측정한 값이에요. 또 용매와 조건에 따라 값이 달라질 수 있다고 쓰여 있어요.",
 
     // Proton NMR: signals, chemical shifts and areas > table > caption
-    "Data booklet, section 21: <sup>1</sup>H NMR data (R is an alkyl group; Hal is F, Cl, Br or I)": "",
+    "Data booklet, section 21: <sup>1</sup>H NMR data (R is an alkyl group; Hal is F, Cl, Br or I)": "데이터 부클릿 section 21: <sup>1</sup>H NMR 자료(R은 알킬기, Hal은 F, Cl, Br 또는 I)",
 
     // Proton NMR: signals, chemical shifts and areas > table > th
     // widget string (assets/js/widgets-s3-2h.js)
-    "Type of proton": "",
+    "Type of proton": "양성자의 종류",
 
     // Proton NMR: signals, chemical shifts and areas > table > th
-    "In words": "",
+    "In words": "말로 풀면",
 
     // Proton NMR: signals, chemical shifts and areas > table > th
-    "Chemical shift / ppm": "",
+    "Chemical shift / ppm": "화학적 이동 / ppm",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H in a CH<sub>3</sub> group on an alkyl chain": "",
+    "H in a CH<sub>3</sub> group on an alkyl chain": "알킬 사슬에 붙은 CH<sub>3</sub>기의 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H in a CH<sub>2</sub> group in an alkyl chain": "",
+    "H in a CH<sub>2</sub> group in an alkyl chain": "알킬 사슬 안 CH<sub>2</sub>기의 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H in a CH group in an alkyl chain": "",
+    "H in a CH group in an alkyl chain": "알킬 사슬 안 CH기의 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
-    "H on the carbon next to the C=O of an ester": "",
+    "H on the carbon next to the C=O of an ester": "에스터의 C=O 옆 탄소에 붙은 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
-    "H on the carbon next to a C=O with R on its other side": "",
-
-    // Proton NMR: signals, chemical shifts and areas > table > td
-    // widget string (assets/js/widgets-s3-2h.js)
-    "H in a CH<sub>3</sub> group on a benzene ring": "",
+    "H on the carbon next to a C=O with R on its other side": "다른 쪽에 R이 있는 C=O 옆 탄소에 붙은 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H on a triple-bonded carbon": "",
+    "H in a CH<sub>3</sub> group on a benzene ring": "벤젠 고리에 붙은 CH<sub>3</sub>기의 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H on a carbon bonded to a halogen": "",
+    "H on a triple-bonded carbon": "삼중 결합한 탄소에 붙은 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H on a carbon bonded to the O of an alcohol or ether": "",
+    "H on a carbon bonded to a halogen": "할로젠과 결합한 탄소에 붙은 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H on the carbon bonded to the single-bonded O of an ester": "",
+    "H on a carbon bonded to the O of an alcohol or ether": "알코올이나 에테르의 O와 결합한 탄소에 붙은 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H of a carboxyl group": "",
-
-    // Proton NMR: signals, chemical shifts and areas > table > td
-    "H of the hydroxyl group in an alcohol": "",
+    "H on the carbon bonded to the single-bonded O of an ester": "에스터에서 단일 결합한 O와 결합한 탄소에 붙은 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H on a double-bonded carbon": "",
+    "H of a carboxyl group": "카복실기의 H",
+
+    // Proton NMR: signals, chemical shifts and areas > table > td
+    "H of the hydroxyl group in an alcohol": "알코올 하이드록시기의 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H of the OH group in a phenol": "",
+    "H on a double-bonded carbon": "이중 결합한 탄소에 붙은 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H on a benzene ring": "",
+    "H of the OH group in a phenol": "페놀 OH기의 H",
 
     // Proton NMR: signals, chemical shifts and areas > table > td
     // widget string (assets/js/widgets-s3-2h.js)
-    "H of an aldehyde group": "",
+    "H on a benzene ring": "벤젠 고리에 붙은 H",
+
+    // Proton NMR: signals, chemical shifts and areas > table > td
+    // widget string (assets/js/widgets-s3-2h.js)
+    "H of an aldehyde group": "알데하이드기의 H",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "The first and last columns are from the data booklet, where the types of proton are drawn as structures. The middle column is a reading guide. A row drawn with <span class=\"chem\">CH2</span> is also used for a <span class=\"chem\">CH3</span> or CH group in the same position. This page uses the row RO–C(=O)–CH<sub>2</sub>– (2.0–2.5 ppm) for the carbon next to the C=O of a carboxylic acid as well, because the booklet has no separate row for acids.": "",
+    "The first and last columns are from the data booklet, where the types of proton are drawn as structures. The middle column is a reading guide. A row drawn with <span class=\"chem\">CH2</span> is also used for a <span class=\"chem\">CH3</span> or CH group in the same position. This page uses the row RO–C(=O)–CH<sub>2</sub>– (2.0–2.5 ppm) for the carbon next to the C=O of a carboxylic acid as well, because the booklet has no separate row for acids.": "첫째 열과 마지막 열은 데이터 부클릿에서 가져왔어요. 부클릿에는 양성자의 종류가 구조로 그려져 있어요. 가운데 열은 읽는 법을 돕는 안내예요. <span class=\"chem\">CH2</span>로 그려진 행은 같은 위치의 <span class=\"chem\">CH3</span>기나 CH기에도 써요. 부클릿에 산만을 위한 행이 따로 없어서, 이 페이지에서는 카복실산의 C=O 옆 탄소에도 RO–C(=O)–CH<sub>2</sub>– 행(2.0–2.5 ppm)을 써요.",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "On this site, every NMR signal is given inside its booklet range, as in exam data. Real spectra vary a little: for example, the <span class=\"chem\">CH3</span> of an ethyl group joined to O is often measured near 1.2 ppm.": "",
+    "On this site, every NMR signal is given inside its booklet range, as in exam data. Real spectra vary a little: for example, the <span class=\"chem\">CH3</span> of an ethyl group joined to O is often measured near 1.2 ppm.": "이 사이트에서는 시험 자료처럼 모든 NMR 신호를 부클릿 범위 안의 값으로 나타내요. 실제 스펙트럼은 조금씩 달라요: 예를 들어 O에 붙은 에틸기의 <span class=\"chem\">CH3</span>는 1.2 ppm 근처에서 측정되는 경우가 많아요.",
 
     // Proton NMR: signals, chemical shifts and areas > li
-    "Draw the structure so that every H atom is shown.": "",
+    "Draw the structure so that every H atom is shown.": "모든 H 원자가 보이도록 구조를 그려요.",
 
     // Proton NMR: signals, chemical shifts and areas > li
-    "Group the H atoms that have exactly the same surroundings. Look for symmetry. The number of groups is the number of signals.": "",
+    "Group the H atoms that have exactly the same surroundings. Look for symmetry. The number of groups is the number of signals.": "주변이 완전히 같은 H 원자끼리 묶어요. 대칭을 찾아보세요. 묶음의 수가 신호의 수예요.",
 
     // Proton NMR: signals, chemical shifts and areas > li
-    "Count the H atoms in each group. Write the counts as the simplest ratio. This is the ratio of the areas.": "",
+    "Count the H atoms in each group. Write the counts as the simplest ratio. This is the ratio of the areas.": "묶음마다 H 원자 수를 세요. 그 수를 가장 간단한 비로 써요. 이것이 넓이의 비예요.",
 
     // Proton NMR: signals, chemical shifts and areas > li
-    "For each group, find the row of the booklet table that matches what its carbon is joined to. Quote that range.": "",
+    "For each group, find the row of the booklet table that matches what its carbon is joined to. Quote that range.": "묶음마다 그 탄소가 무엇과 연결되어 있는지에 맞는 부클릿 표의 행을 찾아요. 그 범위를 인용해요.",
 
     // Proton NMR: signals, chemical shifts and areas > p
-    "To read a spectrum, work the other way: signals → environments, areas → H atoms in each, shifts → type of each environment.": "",
+    "To read a spectrum, work the other way: signals → environments, areas → H atoms in each, shifts → type of each environment.": "스펙트럼을 읽을 때는 거꾸로 해요: 신호 → 환경, 넓이 → 각 환경의 H 원자 수, 이동 → 각 환경의 종류.",
 
     // Proton NMR: signals, chemical shifts and areas > common mistake > p
-    "The number of signals is not the number of hydrogen atoms, and it is not the number of carbon atoms. Propanone has six H atoms and three C atoms, but only one signal. Always count environments.": "",
+    "The number of signals is not the number of hydrogen atoms, and it is not the number of carbon atoms. Propanone has six H atoms and three C atoms, but only one signal. Always count environments.": "신호의 수는 수소 원자의 수가 아니고, 탄소 원자의 수도 아니에요. propanone에는 H 원자 6개와 C 원자 3개가 있지만, 신호는 1개뿐이에요. 언제나 환경의 수를 세세요.",
 
     // Proton NMR: signals, chemical shifts and areas > try it > data-label attribute
     // widget string (assets/js/widgets-s3-2h.js)

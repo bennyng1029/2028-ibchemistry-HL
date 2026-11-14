@@ -1632,230 +1632,230 @@ S1.i18n.register('ko', 's2-2.q', {
         // EN (option C): A triple bond has three shared pairs. The nuclei are attracted most strongly to the shared electrons, so this is the shortest and strongest bond.
         "2": "삼중 결합에는 공유 전자쌍이 3개 있어요. 원자핵이 공유 전자에 가장 강하게 끌리므로 가장 짧고 강한 결합이에요.",
         // EN (option D): The number of shared pairs is different in each bond, so the attraction between the nuclei and the shared electrons is different too.
-        "3": "",
+        "3": "결합마다 공유 전자쌍의 수가 다르므로 원자핵과 공유 전자 사이의 인력도 달라요.",
       },
     },
 
     // ── s2-2-q060 · order · exam · SL · Structure 2.2.2 · 2 marks
     "s2-2-q060": {
       // EN: <p>Three molecules each contain a bond between two nitrogen atoms. In all three, every nitrogen atom has 8 electrons around it and every hydrogen atom forms one bond.</p><p>Put the molecules in order of the length of the nitrogen–nitrogen bond. Put the <strong>shortest</strong> bond first.</p>
-      stem: "",
+      stem: "<p>세 분자에는 모두 두 질소 원자 사이의 결합이 있어요. 세 분자 모두에서 질소 원자 주위에는 전자가 8개씩 있고, 수소 원자는 결합을 1개씩 만들어요.</p><p>질소–질소 결합의 길이 순서대로 분자를 나열하세요. 결합이 <strong>가장 짧은</strong> 것을 처음에 놓으세요.</p>",
       options: [
         // EN: nitrogen, <span class="chem">N2</span>
-        "",
+        "질소, <span class=\"chem\">N2</span>",
         // EN: diazene, <span class="chem">N2H2</span>
-        "",
+        "diazene, <span class=\"chem\">N2H2</span>",
         // EN: hydrazine, <span class="chem">N2H4</span>
-        "",
+        "hydrazine, <span class=\"chem\">N2H4</span>",
       ],
       hints: [
         // EN: Deduce the Lewis formula of each molecule. Count the valence electrons first: 10, 12 and 14.
-        "",
+        "각 분자의 루이스 구조식을 추론해 봐요. 먼저 원자가 전자를 세세요: 10, 12, 14개.",
         // EN: How many pairs are shared between the two nitrogen atoms in each molecule?
-        "",
+        "각 분자에서 두 질소 원자 사이에 공유된 전자쌍은 몇 개인가요?",
         // EN: More shared pairs make a shorter bond.
-        "",
+        "공유 전자쌍이 많을수록 결합이 짧아요.",
       ],
       // EN: <p><span class="chem">N2</span>: 10 valence electrons. The atoms share three pairs: <span class="chem">N≡N</span>.</p><p><span class="chem">N2H2</span>: 12 valence electrons. Each N has one bond to H and one lone pair, so the atoms share two pairs: <span class="chem">HN=NH</span>.</p><p><span class="chem">N2H4</span>: 14 valence electrons. Each N has two bonds to H and one lone pair, so the atoms share one pair: <span class="chem">H2N–NH2</span>.</p><p>More shared pairs give a greater attraction between the nuclei and the shared electrons, so the bond is shorter. Data booklet lengths: <span class="chem">N≡N</span> 110 pm, <span class="chem">N=N</span> 125 pm, <span class="chem">N–N</span> 146 pm.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">N2</span>: 원자가 전자 10개. 두 원자가 3쌍을 공유해요: <span class=\"chem\">N≡N</span>.</p><p><span class=\"chem\">N2H2</span>: 원자가 전자 12개. N마다 H와의 결합 1개와 비공유 전자쌍 1개가 있으므로 두 원자는 2쌍을 공유해요: <span class=\"chem\">HN=NH</span>.</p><p><span class=\"chem\">N2H4</span>: 원자가 전자 14개. N마다 H와의 결합 2개와 비공유 전자쌍 1개가 있으므로 두 원자는 1쌍을 공유해요: <span class=\"chem\">H2N–NH2</span>.</p><p>공유 전자쌍이 많을수록 원자핵과 공유 전자 사이의 인력이 커지므로 결합이 짧아져요. 데이터 부클릿의 길이: <span class=\"chem\">N≡N</span> 110 pm, <span class=\"chem\">N=N</span> 125 pm, <span class=\"chem\">N–N</span> 146 pm.</p>",
     },
 
     // ── s2-2-q061 · mcq · foundation · SL · Structure 2.2.3 · 1 mark
     "s2-2-q061": {
       // EN: <p>A water molecule bonds to a hydrogen ion to form the hydronium ion.</p><p><span class="chem">H2O + H+ -> H3O+</span></p><p>Where do the two electrons in the new <span class="chem">O–H</span> bond come from?</p>
-      stem: "",
+      stem: "<p>물 분자는 수소 이온과 결합해 하이드로늄 이온이 돼요.</p><p><span class=\"chem\">H2O + H+ -> H3O+</span></p><p>새로 생긴 <span class=\"chem\">O–H</span> 결합의 전자 2개는 어디에서 오나요?</p>",
       options: [
         // EN: Both come from the oxygen atom.
-        "",
+        "둘 다 산소 원자에서 온다.",
         // EN: Both come from the hydrogen ion.
-        "",
+        "둘 다 수소 이온에서 온다.",
         // EN: One comes from the oxygen atom and one comes from the hydrogen ion.
-        "",
+        "하나는 산소 원자에서, 하나는 수소 이온에서 온다.",
         // EN: Both come from a hydrogen atom of the water molecule.
-        "",
+        "둘 다 물 분자의 수소 원자에서 온다.",
       ],
       hints: [
         // EN: How many electrons does <span class="chem">H+</span> have?
-        "",
+        "<span class=\"chem\">H+</span>에는 전자가 몇 개 있나요?",
         // EN: Which atom in a water molecule has lone pairs?
-        "",
+        "물 분자에서 비공유 전자쌍이 있는 원자는 무엇인가요?",
       ],
       // EN: <p><span class="chem">H+</span> has no electrons. Oxygen in water has two lone pairs. Oxygen shares one lone pair with <span class="chem">H+</span>.</p><p>Both electrons of the shared pair come from the same atom, so the new bond is a <strong>coordination bond</strong>. Once formed, it is the same as the other two <span class="chem">O–H</span> bonds.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">H+</span>에는 전자가 없어요. 물의 산소에는 비공유 전자쌍이 2개 있어요. 산소가 비공유 전자쌍 하나를 <span class=\"chem\">H+</span>와 공유해요.</p><p>공유 전자쌍의 전자 2개가 모두 같은 원자에서 오므로 새 결합은 <strong>배위 결합</strong>이에요. 생긴 뒤에는 나머지 <span class=\"chem\">O–H</span> 결합 2개와 똑같아요.</p>",
       misconception: {
         // EN (option B): A hydrogen ion, <span class="chem">H+</span>, has no electrons at all. It can only accept a pair.
-        "1": "",
+        "1": "수소 이온 <span class=\"chem\">H+</span>에는 전자가 전혀 없어요. 전자쌍을 받을 수만 있어요.",
         // EN (option C): This is how an ordinary covalent bond forms. But <span class="chem">H+</span> has no electron to give.
-        "2": "",
+        "2": "이것은 일반적인 공유 결합이 생기는 방법이에요. 하지만 <span class=\"chem\">H+</span>에는 내놓을 전자가 없어요.",
         // EN (option D): The hydrogen atoms in water have already used their one electron in an <span class="chem">O–H</span> bond. They have no lone pair to give.
-        "3": "",
+        "3": "물의 수소 원자는 이미 하나뿐인 전자를 <span class=\"chem\">O–H</span> 결합에 썼어요. 내놓을 비공유 전자쌍이 없어요.",
       },
     },
 
     // ── s2-2-q062 · numeric · exam · SL · Structure 2.2.3 · 1 mark
     "s2-2-q062": {
       // EN: <p>In a carbon monoxide molecule, <span class="chem">CO</span>, the two atoms are joined by a triple bond. Each atom also has one lone pair.</p><p>A carbon atom has 4 valence electrons and an oxygen atom has 6.</p><p>How many of the six shared electrons came from the <strong>oxygen</strong> atom?</p>
-      stem: "",
+      stem: "<p>일산화 탄소 분자 <span class=\"chem\">CO</span>에서 두 원자는 삼중 결합으로 연결되어 있어요. 각 원자에는 비공유 전자쌍도 1개씩 있어요.</p><p>탄소 원자는 원자가 전자가 4개, 산소 원자는 6개예요.</p><p>공유 전자 6개 중 몇 개가 <strong>산소</strong> 원자에서 왔나요?</p>",
       hints: [
         // EN: Each atom keeps one lone pair. That is 2 of its valence electrons.
-        "",
+        "각 원자는 비공유 전자쌍 1개를 가지고 있어요. 원자가 전자 중 2개예요.",
         // EN: The electrons that an atom does not keep in a lone pair are the ones it gives to the bond.
-        "",
+        "원자가 비공유 전자쌍으로 가지고 있지 않은 전자가 결합에 내놓는 전자예요.",
       ],
       // EN: <div class="worked__math">oxygen: 6 valence electrons − 2 in its lone pair = 4 electrons in the bond</div><div class="worked__math">carbon: 4 valence electrons − 2 in its lone pair = 2 electrons in the bond</div><div class="worked__math">check: 4 + 2 = 6 shared electrons = 3 shared pairs</div><p>Carbon gives one electron to each of two shared pairs. Oxygen gives one electron to each of these, and <strong>both</strong> electrons of the third pair. So one of the three shared pairs is a coordination bond from oxygen to carbon.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">산소: 원자가 전자 6개 − 비공유 전자쌍의 2개 = 결합 속 전자 4개</div><div class=\"worked__math\">탄소: 원자가 전자 4개 − 비공유 전자쌍의 2개 = 결합 속 전자 2개</div><div class=\"worked__math\">확인: 4 + 2 = 공유 전자 6개 = 공유 전자쌍 3개</div><p>탄소는 공유 전자쌍 2개에 전자를 1개씩 내놓아요. 산소는 이 두 쌍에 전자를 1개씩 내놓고, 세 번째 쌍의 전자는 <strong>2개 모두</strong> 내놓아요. 그래서 공유 전자쌍 3개 중 하나는 산소에서 탄소로 향하는 배위 결합이에요.</p>",
     },
 
     // ── s2-2-q063 · mcq · exam · SL · Structure 2.2.5 · 1 mark
     "s2-2-q063": {
       // EN: <p>Electronegativity values from the data booklet: H 2.2, F 4.0, Cl 3.2, Br 3.0.</p><p>Which list shows the bonds in order of <strong>increasing</strong> polarity?</p>
-      stem: "",
+      stem: "<p>데이터 부클릿의 전기 음성도 값: H 2.2, F 4.0, Cl 3.2, Br 3.0.</p><p>결합을 극성이 <strong>커지는</strong> 순서로 나타낸 것은 무엇인가요?</p>",
       options: [
         // EN: <span class="chem">H–F</span> &lt; <span class="chem">H–Cl</span> &lt; <span class="chem">H–Br</span>
-        "",
+        "<span class=\"chem\">H–F</span> &lt; <span class=\"chem\">H–Cl</span> &lt; <span class=\"chem\">H–Br</span>",
         // EN: <span class="chem">H–Br</span> &lt; <span class="chem">H–Cl</span> &lt; <span class="chem">H–F</span>
-        "",
+        "<span class=\"chem\">H–Br</span> &lt; <span class=\"chem\">H–Cl</span> &lt; <span class=\"chem\">H–F</span>",
         // EN: <span class="chem">H–Cl</span> &lt; <span class="chem">H–Br</span> &lt; <span class="chem">H–F</span>
-        "",
+        "<span class=\"chem\">H–Cl</span> &lt; <span class=\"chem\">H–Br</span> &lt; <span class=\"chem\">H–F</span>",
         // EN: <span class="chem">H–Br</span> &lt; <span class="chem">H–F</span> &lt; <span class="chem">H–Cl</span>
-        "",
+        "<span class=\"chem\">H–Br</span> &lt; <span class=\"chem\">H–F</span> &lt; <span class=\"chem\">H–Cl</span>",
       ],
       hints: [
         // EN: Bond polarity depends on the difference in electronegativity.
-        "",
+        "결합의 극성은 전기 음성도 차이에 따라 달라져요.",
         // EN: Calculate the difference for each bond. The smallest difference is the least polar bond.
-        "",
+        "결합마다 차이를 계산하세요. 차이가 가장 작은 것이 극성이 가장 작은 결합이에요.",
       ],
       // EN: <div class="worked__math">H–Br: 3.0 − 2.2 = 0.8</div><div class="worked__math">H–Cl: 3.2 − 2.2 = 1.0</div><div class="worked__math">H–F: 4.0 − 2.2 = 1.8</div><p>A larger difference in electronegativity means a more polar bond. So the order is <span class="chem">H–Br</span> &lt; <span class="chem">H–Cl</span> &lt; <span class="chem">H–F</span>.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\">H–Br: 3.0 − 2.2 = 0.8</div><div class=\"worked__math\">H–Cl: 3.2 − 2.2 = 1.0</div><div class=\"worked__math\">H–F: 4.0 − 2.2 = 1.8</div><p>전기 음성도 차이가 클수록 결합의 극성이 커요. 그래서 순서는 <span class=\"chem\">H–Br</span> &lt; <span class=\"chem\">H–Cl</span> &lt; <span class=\"chem\">H–F</span>예요.</p>",
       misconception: {
         // EN (option A): This is the order of decreasing polarity. The question asks for increasing polarity, so the smallest difference comes first.
-        "0": "",
+        "0": "이것은 극성이 작아지는 순서예요. 문제는 극성이 커지는 순서를 묻고 있으므로 차이가 가장 작은 것이 처음에 와요.",
         // EN (option C): Compare the first two: H–Cl has a difference of 1.0 and H–Br has 0.8. The bond with the smaller difference is less polar.
-        "2": "",
+        "2": "앞의 두 개를 비교해 봐요: H–Cl의 차이는 1.0, H–Br은 0.8이에요. 차이가 작은 결합이 극성이 더 작아요.",
         // EN (option D): H–F has the largest difference (1.8), so it is the most polar bond. It must come last.
-        "3": "",
+        "3": "H–F의 차이(1.8)가 가장 크므로 극성이 가장 큰 결합이에요. 마지막에 와야 해요.",
       },
     },
 
     // ── s2-2-q064 · short · exam · SL · Structure 2.2.5 · 2 marks
     "s2-2-q064": {
       // EN: <p>Electronegativity values from the data booklet: C 2.6, F 4.0.</p><p>Deduce, giving a reason, the polarity of the <span class="chem">C–F</span> bond. Show the partial charges on the two atoms.</p>
-      stem: "",
+      stem: "<p>데이터 부클릿의 전기 음성도 값: C 2.6, F 4.0.</p><p><span class=\"chem\">C–F</span> 결합의 극성을 이유와 함께 추론하시오 (deduce). 두 원자의 부분 전하를 나타내시오.</p>",
       hints: [
         // EN: Compare the two electronegativity values.
-        "",
+        "두 전기 음성도 값을 비교하세요.",
         // EN: The atom that attracts the shared pair more strongly becomes slightly negative.
-        "",
+        "공유 전자쌍을 더 세게 끌어당기는 원자가 약간 음전하를 띠어요.",
       ],
       // EN: <p>The bond is polar, because fluorine is more electronegative than carbon (4.0 − 2.6 = 1.4). Fluorine attracts the shared pair of electrons more strongly.</p><p>Partial charges: carbon is δ+ and fluorine is δ−.</p>
-      answer: "",
+      answer: "<p>플루오린이 탄소보다 전기 음성도가 크므로(4.0 − 2.6 = 1.4) 이 결합은 극성이에요. 플루오린이 공유 전자쌍을 더 세게 끌어당겨요.</p><p>부분 전하: 탄소는 δ+, 플루오린은 δ−예요.</p>",
       markscheme: [
         // EN: The bond is polar because the two atoms have different electronegativities / fluorine is more electronegative than carbon (difference of 1.4).
-        "",
+        "두 원자의 전기 음성도가 다르므로 / 플루오린이 탄소보다 전기 음성도가 크므로(차이 1.4) 결합은 극성이다.",
         // EN: C is δ+ AND F is δ−. Both partial charges are needed. Do not accept full charges, + and −.
-        "",
+        "C는 δ+ 그리고 F는 δ−. 두 부분 전하가 모두 있어야 한다. 완전한 전하 +와 −는 인정하지 않음.",
       ],
     },
 
     // ── s2-2-q065 · mcq · foundation · SL · Structure 2.2.6 · 1 mark
     "s2-2-q065": {
       // EN: <p>Which two things decide if a molecule is polar?</p>
-      stem: "",
+      stem: "<p>분자가 극성인지를 결정하는 두 가지는 무엇인가요?</p>",
       options: [
         // EN: the polarity of its bonds and its molecular geometry
-        "",
+        "결합의 극성과 분자 모양",
         // EN: the polarity of its bonds only
-        "",
+        "결합의 극성만",
         // EN: its molar mass and its molecular geometry
-        "",
+        "몰 질량과 분자 모양",
         // EN: the number of atoms and the number of bonds
-        "",
+        "원자의 수와 결합의 수",
       ],
       hints: [
         // EN: A molecule is polar if its bond dipoles do not cancel.
-        "",
+        "결합 쌍극자가 상쇄되지 않으면 분자는 극성이에요.",
         // EN: What decides the size of each bond dipole? What decides the directions in which they point?
-        "",
+        "각 결합 쌍극자의 크기는 무엇이 결정하나요? 쌍극자가 향하는 방향은 무엇이 결정하나요?",
       ],
       // EN: <p>Molecular polarity depends on both <strong>bond polarity</strong> and <strong>molecular geometry</strong>.</p><p>The bonds must be polar, so that there are bond dipoles. And the shape must be one in which the bond dipoles do not cancel.</p>
-      solution: "",
+      solution: "<p>분자의 극성은 <strong>결합의 극성</strong>과 <strong>분자 모양</strong> 둘 다에 따라 달라져요.</p><p>결합 쌍극자가 있으려면 결합이 극성이어야 해요. 그리고 결합 쌍극자가 상쇄되지 않는 모양이어야 해요.</p>",
       misconception: {
         // EN (option B): Polar bonds are not enough. In a symmetrical molecule such as <span class="chem">CO2</span>, the bond dipoles cancel and the molecule is non-polar.
-        "1": "",
+        "1": "극성 결합만으로는 부족해요. <span class=\"chem\">CO2</span>처럼 대칭인 분자에서는 결합 쌍극자가 상쇄되어 분자가 무극성이에요.",
         // EN (option C): Molar mass affects the strength of London forces. It does not decide if the molecule has a net dipole.
-        "2": "",
+        "2": "몰 질량은 런던 분산력의 세기에 영향을 줘요. 분자 전체의 쌍극자가 있는지는 결정하지 않아요.",
         // EN (option D): Counting atoms and bonds does not tell you how charge is spread. <span class="chem">CO2</span> and <span class="chem">H2O</span> both have three atoms and two bonds, but only water is polar.
-        "3": "",
+        "3": "원자와 결합을 세어서는 전하가 어떻게 퍼져 있는지 알 수 없어요. <span class=\"chem\">CO2</span>와 <span class=\"chem\">H2O</span>는 둘 다 원자 3개와 결합 2개가 있지만 물만 극성이에요.",
       },
     },
 
     // ── s2-2-q066 · short · exam · SL · Structure 2.2.6 · 2 marks
     "s2-2-q066": {
       // EN: <p>In a molecule of sulfur dioxide, <span class="chem">SO2</span>, the sulfur atom is bonded to two oxygen atoms and has one lone pair. The molecular geometry is bent (V-shaped).</p><p>Electronegativity values from the data booklet: O 3.4, S 2.6.</p><p>Explain why the sulfur dioxide molecule is polar.</p>
-      stem: "",
+      stem: "<p>이산화 황 분자 <span class=\"chem\">SO2</span>에서 황 원자는 산소 원자 2개와 결합하고 비공유 전자쌍 1개가 있어요. 분자 모양은 굽은 형(V자형)이에요.</p><p>데이터 부클릿의 전기 음성도 값: O 3.4, S 2.6.</p><p>이산화 황 분자가 극성인 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: First mark: are the bonds polar? Use the electronegativity values.
-        "",
+        "첫 번째 점수: 결합이 극성인가요? 전기 음성도 값을 이용하세요.",
         // EN: Second mark: what does the shape do to the two bond dipoles?
-        "",
+        "두 번째 점수: 모양 때문에 두 결합 쌍극자는 어떻게 되나요?",
       ],
       // EN: <p>The sulfur–oxygen bonds are polar, because oxygen is more electronegative than sulfur (3.4 − 2.6 = 0.8).</p><p>The molecule is bent, so the two bond dipoles do not point in opposite directions. They do not cancel, and the molecule has a net dipole.</p>
-      answer: "",
+      answer: "<p>산소가 황보다 전기 음성도가 크므로(3.4 − 2.6 = 0.8) 황–산소 결합은 극성이에요.</p><p>분자가 굽은 형이므로 두 결합 쌍극자가 서로 반대 방향을 향하지 않아요. 상쇄되지 않으므로 분자 전체의 쌍극자가 있어요.</p>",
       markscheme: [
         // EN: The (S–O) bonds are polar / there is an electronegativity difference between S and O.
-        "",
+        "(S–O) 결합은 극성이다 / S와 O 사이에 전기 음성도 차이가 있다.",
         // EN: The bond dipoles do not cancel / there is a net dipole, because the molecule is bent (not symmetrical).
-        "",
+        "분자가 굽은 형이므로(대칭이 아니므로) 결합 쌍극자가 상쇄되지 않는다 / 분자 전체의 쌍극자가 있다.",
       ],
     },
 
     // ── s2-2-q067 · mcq · foundation · SL · Structure 2.2.8 · 1 mark
     "s2-2-q067": {
       // EN: <p>Which intermolecular force acts between the molecules of <strong>every</strong> molecular substance?</p>
-      stem: "",
+      stem: "<p><strong>모든</strong> 분자성 물질에서 분자 사이에 작용하는 분자 간 힘은 무엇인가요?</p>",
       options: [
         // EN: hydrogen bonding
-        "",
+        "수소 결합",
         // EN: dipole–dipole forces
-        "",
+        "쌍극자-쌍극자 힘",
         // EN: London (dispersion) forces
-        "",
+        "런던 분산력",
         // EN: dipole–induced dipole forces
-        "",
+        "쌍극자-유발 쌍극자 힘",
       ],
       hints: [
         // EN: Think of a non-polar substance such as methane. It can still be turned into a liquid.
-        "",
+        "methane 같은 무극성 물질을 생각해 봐요. 그래도 액체로 만들 수 있어요.",
         // EN: Which force needs only moving electrons?
-        "",
+        "움직이는 전자만 있으면 생기는 힘은 무엇인가요?",
       ],
       // EN: <p>All molecules contain electrons. The electrons are always moving, so every molecule can have a temporary dipole that induces a dipole in its neighbour.</p><p>So <strong>London (dispersion) forces</strong> act between all molecules, polar and non-polar.</p>
-      solution: "",
+      solution: "<p>모든 분자에는 전자가 있어요. 전자는 늘 움직이므로 어떤 분자든 일시적 쌍극자가 생겨 이웃 분자에 쌍극자를 유발할 수 있어요.</p><p>그래서 <strong>런던 분산력</strong>은 극성이든 무극성이든 모든 분자 사이에 작용해요.</p>",
       misconception: {
         // EN (option A): Hydrogen bonding needs a hydrogen atom bonded to a very electronegative atom such as N, O or F. Most molecules do not have one.
-        "0": "",
+        "0": "수소 결합이 생기려면 N, O, F처럼 전기 음성도가 매우 큰 원자와 결합한 수소 원자가 있어야 해요. 대부분의 분자에는 이런 수소가 없어요.",
         // EN (option B): Dipole–dipole forces act only between polar molecules. Non-polar molecules such as <span class="chem">CH4</span> do not have them.
-        "1": "",
+        "1": "쌍극자-쌍극자 힘은 극성 분자 사이에만 작용해요. <span class=\"chem\">CH4</span> 같은 무극성 분자에는 없어요.",
         // EN (option D): This force needs one polar molecule and one non-polar molecule. It does not act in a pure non-polar substance.
-        "3": "",
+        "3": "이 힘은 극성 분자 하나와 무극성 분자 하나가 있어야 생겨요. 순수한 무극성 물질에서는 작용하지 않아요.",
       },
     },
 
     // ── s2-2-q068 · numeric · exam · SL · Structure 2.2.4 · 1 mark
     "s2-2-q068": {
       // EN: <p>In phosphorus trichloride, <span class="chem">PCl3</span>, the phosphorus atom has three bonding pairs and one lone pair.</p><p>Predict a value for the <span class="chem">Cl–P–Cl</span> bond angle.</p>
-      stem: "",
+      stem: "<p>삼염화 인 <span class=\"chem\">PCl3</span>에서 인 원자에는 공유 전자쌍 3개와 비공유 전자쌍 1개가 있어요.</p><p><span class=\"chem\">Cl–P–Cl</span> 결합각의 값을 예측하시오 (predict).</p>",
       hints: [
         // EN: Four electron domains give a tetrahedral electron domain geometry. What is the tetrahedral angle?
-        "",
+        "전자 영역이 4개이면 전자 영역 배치는 정사면체형이에요. 정사면체 결합각은 얼마인가요?",
         // EN: A lone pair repels more than a bonding pair. Is the angle larger or smaller than the tetrahedral angle?
-        "",
+        "비공유 전자쌍은 공유 전자쌍보다 더 세게 밀어내요. 결합각은 정사면체 결합각보다 클까요, 작을까요?",
       ],
       // EN: <p>Phosphorus has four electron domains, so the electron domain geometry is tetrahedral (109.5°). One domain is a lone pair, so the molecular geometry is trigonal pyramidal.</p><p>The lone pair repels the bonding pairs more strongly than they repel each other. The bond angle is <strong>less than 109.5°</strong>.</p><p>A markscheme accepts a range for a trigonal pyramidal molecule, such as 100° to 107°. The measured angle in <span class="chem">PCl3</span> is about 100°. Do not write 109.5°.</p>
-      solution: "",
+      solution: "<p>인에는 전자 영역이 4개 있으므로 전자 영역 배치는 정사면체형(109.5°)이에요. 영역 하나가 비공유 전자쌍이므로 분자 모양은 삼각뿔형이에요.</p><p>비공유 전자쌍은 공유 전자쌍끼리 밀어내는 것보다 더 세게 공유 전자쌍을 밀어내요. 결합각은 <strong>109.5°보다 작아요</strong>.</p><p>채점 기준은 삼각뿔형 분자에 대해 100°~107°처럼 범위로 인정해요. <span class=\"chem\">PCl3</span>의 측정값은 약 100°예요. 109.5°라고 쓰지 마세요.</p>",
       // EN: any value from 100° to 107°
-      answerDisplay: "",
+      answerDisplay: "100°에서 107° 사이의 값",
     },
 
   }

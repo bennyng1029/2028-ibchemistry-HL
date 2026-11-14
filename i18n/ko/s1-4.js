@@ -1654,741 +1654,741 @@ S1.i18n.register('ko', 's1-4', {
     "Later: the uncertainty skills in Tool 3": "나중에: Tool 3의 불확도 기술",
 
     // Where this topic stops > table > th
-    "Titration calculations": "",
+    "Titration calculations": "적정 계산",
 
     // Where this topic stops > table > td
-    "Later: Reactivity 2.1 and 3.1": "",
+    "Later: Reactivity 2.1 and 3.1": "나중에: Reactivity 2.1과 3.1",
 
     // Where this topic stops > table > th
-    "Molar volume at STP, <i>PV</i> = <i>nRT</i>": "",
+    "Molar volume at STP, <i>PV</i> = <i>nRT</i>": "STP에서의 몰 부피, <i>PV</i> = <i>nRT</i>",
 
     // Where this topic stops > table > td
-    "Next topic: Structure 1.5": "",
+    "Next topic: Structure 1.5": "다음 단원: Structure 1.5",
 
     // Where this topic stops > table > th
-    "ppm, molality, percentage by mass as a concentration, mole fraction": "",
+    "ppm, molality, percentage by mass as a concentration, mole fraction": "ppm, 몰랄 농도, 농도로서의 질량 백분율, 몰 분율",
 
     // Where this topic stops > table > td
-    "Not in the IB guide": "",
+    "Not in the IB guide": "IB 지침에 없음",
 
     // Where this topic stops > table > th
-    "Old values: 22.4 dm<sup>3</sup> mol<sup>−1</sup>, “24 dm<sup>3</sup> at room temperature”": "",
+    "Old values: 22.4 dm<sup>3</sup> mol<sup>−1</sup>, “24 dm<sup>3</sup> at room temperature”": "예전 값: 22.4 dm<sup>3</sup> mol<sup>−1</sup>, “실온에서 24 dm<sup>3</sup>”",
 
     // Where this topic stops > table > td
-    "Not used. The data booklet gives 22.7 dm<sup>3</sup> mol<sup>−1</sup> at STP": "",
+    "Not used. The data booklet gives 22.7 dm<sup>3</sup> mol<sup>−1</sup> at STP": "쓰지 않음. 데이터 부클릿에는 STP에서 22.7 dm<sup>3</sup> mol<sup>−1</sup>로 나와 있어요",
 
     // Linking it up > data-toc attribute
     // Linking it up > h2
-    "Linking it up": "",
+    "Linking it up": "연결하기",
 
     // Linking it up > p
-    "The guide lists linking questions that connect this topic to others. Here are short answers to four of them.": "",
+    "The guide lists linking questions that connect this topic to others. Here are short answers to four of them.": "IB 지침에는 이 단원을 다른 단원과 연결하는 연결 질문이 나와 있어요. 그중 4가지에 대한 짧은 답이에요.",
 
     // Linking it up > h3
-    "How can molar masses be used with chemical equations to determine the masses of the products of a reaction?": "",
+    "How can molar masses be used with chemical equations to determine the masses of the products of a reaction?": "몰 질량을 화학 반응식과 함께 써서 반응 생성물의 질량을 어떻게 구할 수 있을까요?",
 
     // Linking it up > p
-    "An equation gives a ratio in moles, but a balance measures grams. So you convert the mass of a reactant to moles with its molar mass, use the mole ratio from the equation, then convert the moles of product back to a mass with the product’s molar mass. The two outer steps are from this topic. The full method is taught in Reactivity 2.1.": "",
+    "An equation gives a ratio in moles, but a balance measures grams. So you convert the mass of a reactant to moles with its molar mass, use the mole ratio from the equation, then convert the moles of product back to a mass with the product’s molar mass. The two outer steps are from this topic. The full method is taught in Reactivity 2.1.": "반응식은 몰의 비를 알려 주지만, 저울은 그램을 재요. 그래서 반응물의 질량을 그 몰 질량으로 몰로 바꾸고, 반응식의 몰 비를 쓴 다음, 생성물의 몰을 생성물의 몰 질량으로 다시 질량으로 바꿔요. 바깥쪽 두 단계는 이 단원에서 배운 거예요. 전체 방법은 Reactivity 2.1에서 배워요.",
 
     // Linking it up > h3
-    "What is the importance of approximation in the determination of an empirical formula?": "",
+    "What is the importance of approximation in the determination of an empirical formula?": "실험식을 구할 때 근삿값은 왜 중요할까요?",
 
     // Linking it up > p
-    "Measured masses always carry some error, so the mole ratio never comes out as perfect whole numbers. You have to judge when 2.99 means 3. You also have to judge when a value is <em>not</em> an error: 1.50 or 1.33 are real ratios that must be multiplied up, not rounded. Good approximation means rounding small differences and respecting large ones.": "",
+    "Measured masses always carry some error, so the mole ratio never comes out as perfect whole numbers. You have to judge when 2.99 means 3. You also have to judge when a value is <em>not</em> an error: 1.50 or 1.33 are real ratios that must be multiplied up, not rounded. Good approximation means rounding small differences and respecting large ones.": "측정한 질량에는 항상 어느 정도 오차가 있어서, 몰 비가 완벽한 정수로 나오는 일은 없어요. 2.99가 3을 뜻할 때를 판단해야 해요. 또 어떤 값이 오차가 <em>아닌</em> 때도 판단해야 해요: 1.50이나 1.33은 반올림할 것이 아니라 곱해서 정수로 만들어야 하는 진짜 비예요. 근삿값을 잘 쓴다는 것은 작은 차이는 반올림하고 큰 차이는 존중한다는 뜻이에요.",
 
     // Linking it up > h3
-    "What are the considerations in the choice of glassware used in preparing a standard solution and a serial dilution?": "",
+    "What are the considerations in the choice of glassware used in preparing a standard solution and a serial dilution?": "표준 용액을 만들고 연속 희석을 할 때 유리 기구를 고르는 데 무엇을 고려해야 할까요?",
 
     // Linking it up > p
-    "The concentration is only as accurate as the volumes. A volumetric flask and a pipette are each made to deliver one volume very precisely, so they are used for the final volume and for the portion of stock solution. A beaker or measuring cylinder has a much larger uncertainty and is only used for rough work, such as dissolving the solid. In a serial dilution, any error in one step is carried into every later step, which makes precise glassware even more important.": "",
+    "The concentration is only as accurate as the volumes. A volumetric flask and a pipette are each made to deliver one volume very precisely, so they are used for the final volume and for the portion of stock solution. A beaker or measuring cylinder has a much larger uncertainty and is only used for rough work, such as dissolving the solid. In a serial dilution, any error in one step is carried into every later step, which makes precise glassware even more important.": "농도는 부피만큼만 정확해요. 부피 플라스크와 피펫은 각각 한 가지 부피를 매우 정밀하게 담거나 옮기도록 만들어져 있어서, 최종 부피와 덜어 내는 원액에 써요. 비커나 눈금실린더는 불확도가 훨씬 커서 고체를 녹이는 것 같은 대략적인 작업에만 써요. 연속 희석에서는 한 단계의 오차가 이후 모든 단계로 이어지므로, 정밀한 유리 기구가 더욱 중요해요.",
 
     // Linking it up > h3
-    "Avogadro’s law applies to ideal gases. Under what conditions might a real gas deviate most from an ideal gas?": "",
+    "Avogadro’s law applies to ideal gases. Under what conditions might a real gas deviate most from an ideal gas?": "아보가드로 법칙은 이상 기체에 적용돼요. 실제 기체는 어떤 조건에서 이상 기체와 가장 많이 다를까요?",
 
     // Linking it up > p
-    "At low temperature and high pressure. Then the particles are close together and moving slowly, so the forces between them and the space the particles take up are no longer negligible. Topic 1.5 explains this.": "",
+    "At low temperature and high pressure. Then the particles are close together and moving slowly, so the forces between them and the space the particles take up are no longer negligible. Topic 1.5 explains this.": "낮은 온도와 높은 압력에서예요. 이때 입자들이 서로 가까이 있고 느리게 움직이므로, 입자 사이의 힘과 입자가 차지하는 공간을 더 이상 무시할 수 없어요. 1.5 단원에서 설명해요.",
 
     // Exam-style practice > data-toc attribute
     // Exam-style practice > h2
-    "Exam-style practice": "",
+    "Exam-style practice": "시험 유형 연습",
 
     // Exam-style practice > p
-    "Work through the three levels in order. Use the three questions on every calculation, and write your working on paper before you type an answer. Each set draws questions you have not yet answered correctly first.": "",
+    "Work through the three levels in order. Use the three questions on every calculation, and write your working on paper before you type an answer. Each set draws questions you have not yet answered correctly first.": "세 단계를 순서대로 풀어 보세요. 모든 계산에서 세 가지 질문을 하고, 답을 입력하기 전에 종이에 풀이를 쓰세요. 각 세트는 아직 맞히지 못한 문제를 먼저 내요.",
 
     // Exam-style practice > h3
-    "Foundation: one idea at a time": "",
+    "Foundation: one idea at a time": "기초: 한 번에 한 개념씩",
 
     // Exam-style practice > data-title attribute
-    "1.4 foundation": "",
+    "1.4 foundation": "1.4 기초",
 
     // Exam-style practice > h3
-    "Exam standard": "",
+    "Exam standard": "시험 수준",
 
     // Exam-style practice > data-title attribute
-    "1.4 exam standard": "",
+    "1.4 exam standard": "1.4 시험 수준",
 
     // Exam-style practice > h3
-    "Challenge: level 7 stretch": "",
+    "Challenge: level 7 stretch": "도전: 7점 수준을 향해",
 
     // Exam-style practice > data-title attribute
-    "1.4 challenge": "",
+    "1.4 challenge": "1.4 도전",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Leave the charge off, or write it with ^ as in SO4^2-. A charge does not change the molar mass.": "",
+    "Leave the charge off, or write it with ^ as in SO4^2-. A charge does not change the molar mass.": "전하는 빼거나, SO4^2-처럼 ^를 써서 나타내세요. 전하는 몰 질량을 바꾸지 않아요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type a formula, for example H2O or Ca(OH)2.": "",
+    "Type a formula, for example H2O or Ca(OH)2.": "화학식을 입력하세요. 예: H2O, Ca(OH)2.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Use capital letters for element symbols: write H2O, not h2o.": "",
+    "Use capital letters for element symbols: write H2O, not h2o.": "원소 기호는 대문자로 쓰세요: h2o가 아니라 H2O.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "There is a closing bracket with no opening bracket.": "",
+    "There is a closing bracket with no opening bracket.": "여는 괄호 없이 닫는 괄호가 있어요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Check the capital letters near “{ch}”. Each symbol starts with one capital letter.": "",
+    "Check the capital letters near “{ch}”. Each symbol starts with one capital letter.": "“{ch}” 근처의 대문자를 확인하세요. 원소 기호는 대문자 하나로 시작해요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "I cannot read “{ch}” in a formula.": "",
+    "I cannot read “{ch}” in a formula.": "화학식에서 “{ch}”를 읽을 수 없어요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "“{sym}” is not an element symbol with a relative atomic mass in this tool. Check the spelling and the capital letters.": "",
+    "“{sym}” is not an element symbol with a relative atomic mass in this tool. Check the spelling and the capital letters.": "“{sym}”은 이 도구에서 상대 원자 질량이 있는 원소 기호가 아니에요. 철자와 대문자를 확인하세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "A bracket is not closed.": "",
+    "A bracket is not closed.": "괄호가 닫히지 않았어요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Something is missing after the dot.": "",
+    "Something is missing after the dot.": "점 뒤에 무언가 빠졌어요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Solution volumes are usually given in cm<sup>3</sup>. <i>n</i> = <i>CV</i> needs dm<sup>3</sup>. The gas equation in topic 1.5 needs m<sup>3</sup>. Going to a bigger unit makes the number smaller, so you divide.": "",
+    "Solution volumes are usually given in cm<sup>3</sup>. <i>n</i> = <i>CV</i> needs dm<sup>3</sup>. The gas equation in topic 1.5 needs m<sup>3</sup>. Going to a bigger unit makes the number smaller, so you divide.": "용액의 부피는 보통 cm<sup>3</sup>로 주어져요. <i>n</i> = <i>CV</i>에는 dm<sup>3</sup>가 필요해요. 1.5 단원의 기체 방정식에는 m<sup>3</sup>가 필요해요. 더 큰 단위로 가면 숫자가 작아지므로 나누세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "<i>n</i> = <i>m</i> ÷ <i>M</i> needs the mass in g, because <i>M</i> is in g mol<sup>−1</sup>. Going to a bigger unit makes the number smaller, so you divide.": "",
+    "<i>n</i> = <i>m</i> ÷ <i>M</i> needs the mass in g, because <i>M</i> is in g mol<sup>−1</sup>. Going to a bigger unit makes the number smaller, so you divide.": "<i>M</i>이 g mol<sup>−1</sup> 단위이므로 <i>n</i> = <i>m</i> ÷ <i>M</i>에는 g 단위의 질량이 필요해요. 더 큰 단위로 가면 숫자가 작아지므로 나누세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volume": "",
+    "Volume": "부피",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass": "",
+    "Mass": "질량",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Unit": "",
+    "Unit": "단위",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type a number, for example 25.0.": "",
+    "Type a number, for example 25.0.": "숫자를 입력하세요. 예: 25.0.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "carbon dioxide": "",
+    "carbon dioxide": "이산화 탄소",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "copper": "",
+    "copper": "구리",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "iron": "",
+    "iron": "철",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "sodium chloride": "",
+    "sodium chloride": "염화 나트륨",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Substance": "",
+    "Substance": "물질",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{name} ({formula})": "",
+    "{name} ({formula})": "{name} ({formula})",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass of sample": "",
+    "Mass of sample": "시료의 질량",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Number line on a powers-of-ten scale from 1 to 10 to the power 24, marking the number of people on Earth, the number of seconds since the Big Bang, one mole, and the number of particles in your sample": "",
+    "Number line on a powers-of-ten scale from 1 to 10 to the power 24, marking the number of people on Earth, the number of seconds since the Big Bang, one mole, and the number of particles in your sample": "1부터 10의 24제곱까지 10의 거듭제곱 눈금으로 된 수직선. 지구의 인구, 빅뱅 이후 흐른 초의 수, 1몰, 내 시료 속 입자 수가 표시되어 있어요",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Amount": "",
+    "Amount": "물질의 양",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Particles": "",
+    "Particles": "입자 수",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Inside them": "",
+    "Inside them": "입자 속",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "people on Earth": "",
+    "people on Earth": "지구의 인구",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "about {n}": "",
+    "about {n}": "약 {n}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "seconds since the Big Bang": "",
+    "seconds since the Big Bang": "빅뱅 이후 흐른 초",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "one mole": "",
+    "one mole": "1몰",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "your sample: number of molecules": "",
+    "your sample: number of molecules": "내 시료: 분자 수",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "your sample: number of atoms": "",
+    "your sample: number of atoms": "내 시료: 원자 수",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "your sample: number of formula units": "",
+    "your sample: number of formula units": "내 시료: 화학식 단위 수",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Each big tick is 1000 times the one before.": "",
+    "Each big tick is 1000 times the one before.": "큰 눈금 하나는 앞 눈금의 1000배예요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{N} molecules": "",
+    "{N} molecules": "분자 {N}개",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{N} atoms": "",
+    "{N} atoms": "원자 {N}개",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{N} formula units": "",
+    "{N} formula units": "화학식 단위 {N}개",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "each particle is one atom": "",
+    "each particle is one atom": "입자 하나가 원자 하나",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{per} ions each: {N} ions": "",
+    "{per} ions each: {N} ions": "하나에 이온 {per}개: 이온 {N}개",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{per} atoms each: {N} atoms": "",
+    "{per} atoms each: {N} atoms": "하나에 원자 {per}개: 원자 {N}개",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Counting one particle every second, one mole would take about {years} years. That is over a million times the age of the universe (about {age} years).": "",
+    "Counting one particle every second, one mole would take about {years} years. That is over a million times the age of the universe (about {age} years).": "1초에 입자 하나씩 센다면, 1몰을 세는 데 약 {years}년이 걸려요. 우주 나이(약 {age}년)의 백만 배가 넘어요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "If all 8 billion people counted together at that speed, it would still take about {n} million years.": "",
+    "If all 8 billion people counted together at that speed, it would still take about {n} million years.": "지구의 모든 사람 80억(8 × 10⁹) 명이 함께 그 속도로 센다 해도, 여전히 약 {n}백만 년이 걸려요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Yet one mole of water molecules is only {m} g of water: about {v} cm<sup>3</sup>, a little more than a tablespoon.": "",
+    "Yet one mole of water molecules is only {m} g of water: about {v} cm<sup>3</sup>, a little more than a tablespoon.": "그런데 물 분자 1몰은 물 {m} g밖에 안 돼요: 약 {v} cm<sup>3</sup>, 큰 숟가락 하나보다 조금 많은 양이에요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Formula": "",
+    "Formula": "화학식",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Or load an example": "",
+    "Or load an example": "또는 예시 불러오기",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Build the formula with buttons": "",
+    "Build the formula with buttons": "버튼으로 화학식 만들기",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "dot for water of crystallization": "",
+    "dot for water of crystallization": "결정수를 나타내는 점",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "open bracket": "",
+    "open bracket": "여는 괄호",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "close bracket": "",
+    "close bracket": "닫는 괄호",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Delete": "",
+    "Delete": "지우기",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Clear": "",
+    "Clear": "모두 지우기",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Atoms in one formula unit": "",
+    "Atoms in one formula unit": "화학식 단위 하나 속의 원자",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Breakdown of {formula}": "",
+    "Breakdown of {formula}": "{formula}의 구성",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Element": "",
+    "Element": "원소",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Atoms": "",
+    "Atoms": "원자 수",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Subtotal": "",
+    "Subtotal": "소계",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Total": "",
+    "Total": "합계",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{value} <span class=\"mole-unitnote\">(no units)</span>": "",
+    "{value} <span class=\"mole-unitnote\">(no units)</span>": "{value} <span class=\"mole-unitnote\">(단위 없음)</span>",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass (g)": "",
+    "Mass (g)": "질량 (g)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass / g": "",
+    "Mass / g": "질량 / g",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Amount (mol)": "",
+    "Amount (mol)": "물질의 양 (mol)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Amount / mol": "",
+    "Amount / mol": "물질의 양 / mol",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Number of particles": "",
+    "Number of particles": "입자 수",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Solution: concentration and volume": "",
+    "Solution: concentration and volume": "용액: 농도와 부피",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Concentration / mol dm<sup>−3</sup>": "",
+    "Concentration / mol dm<sup>−3</sup>": "농도 / mol dm<sup>−3</sup>",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Gas volume at STP (dm³)": "",
+    "Gas volume at STP (dm³)": "STP에서의 기체 부피 (dm³)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Gas volume at STP / dm<sup>3</sup>": "",
+    "Gas volume at STP / dm<sup>3</sup>": "STP에서의 기체 부피 / dm<sup>3</sup>",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Concentration (mol dm⁻³)": "",
+    "Concentration (mol dm⁻³)": "농도 (mol dm⁻³)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "I am given": "",
+    "I am given": "주어진 것",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "I want": "",
+    "I want": "구할 것",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volume of solution / cm<sup>3</sup>": "",
+    "Volume of solution / cm<sup>3</sup>": "용액의 부피 / cm<sup>3</sup>",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volume of solution made / cm<sup>3</sup>": "",
+    "Volume of solution made / cm<sup>3</sup>": "만든 용액의 부피 / cm<sup>3</sup>",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Substance (formula)": "",
+    "Substance (formula)": "물질 (화학식)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The mole map: amount in moles in the centre, linked to mass, number of particles, solution concentration and volume, and gas volume at STP": "",
+    "The mole map: amount in moles in the centre, linked to mass, number of particles, solution concentration and volume, and gas volume at STP": "몰 지도: 가운데에 몰로 나타낸 물질의 양이 있고, 질량, 입자 수, 용액의 농도와 부피, STP에서의 기체 부피와 연결되어 있어요",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass, m": "",
+    "Mass, m": "질량, m",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Particles, N": "",
+    "Particles, N": "입자 수, N",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "a number": "",
+    "a number": "개수",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Amount, n": "",
+    "Amount, n": "물질의 양, n",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Solution, C and V": "",
+    "Solution, C and V": "용액, C와 V",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Gas volume, V": "",
+    "Gas volume, V": "기체 부피, V",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "dm³, at STP only": "",
+    "dm³, at STP only": "dm³, STP에서만",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "to mol: C × V": "",
+    "to mol: C × V": "mol로: C × V",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "to C: n ÷ V": "",
+    "to C: n ÷ V": "C로: n ÷ V",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "to mol: ÷ 22.7": "",
+    "to mol: ÷ 22.7": "mol로: ÷ 22.7",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "to dm³: × 22.7": "",
+    "to dm³: × 22.7": "dm³로: × 22.7",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Path": "",
+    "Path": "경로",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Answer": "",
+    "Answer": "답",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "mass": "",
+    "mass": "질량",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "amount": "",
+    "amount": "물질의 양",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "number of particles": "",
+    "number of particles": "입자 수",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "solution": "",
+    "solution": "용액",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "gas volume": "",
+    "gas volume": "기체 부피",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "GIVEN": "",
+    "GIVEN": "주어짐",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "WANTED": "",
+    "WANTED": "구할 것",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "via moles": "",
+    "via moles": "몰을 거쳐",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "A solution to a concentration is one step: <i>C</i> = <i>n</i> ÷ <i>V</i>. Pick a different quantity to convert to.": "",
+    "A solution to a concentration is one step: <i>C</i> = <i>n</i> ÷ <i>V</i>. Pick a different quantity to convert to.": "용액에서 농도로는 한 단계예요: <i>C</i> = <i>n</i> ÷ <i>V</i>. 바꿀 다른 양을 고르세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Pick two different quantities.": "",
+    "Pick two different quantities.": "서로 다른 두 양을 고르세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type a positive number for the quantity you are given. You can write 1.5e22 or 1.5 × 10^22.": "",
+    "Type a positive number for the quantity you are given. You can write 1.5e22 or 1.5 × 10^22.": "주어진 양에 양수를 입력하세요. 1.5e22 또는 1.5 × 10^22처럼 쓸 수 있어요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{error} The molar mass is needed whenever mass is involved.": "",
+    "{error} The molar mass is needed whenever mass is involved.": "{error} 질량이 관련될 때는 항상 몰 질량이 필요해요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type the volume of the solution in cm<sup>3</sup>.": "",
+    "Type the volume of the solution in cm<sup>3</sup>.": "용액의 부피를 cm<sup>3</sup> 단위로 입력하세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "({sf} s.f.)": "",
+    "({sf} s.f.)": "(유효 숫자 {sf}자리)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "That is the number of molecules or formula units of {formula}. Each one contains {atoms} atoms, so the number of atoms is {atoms} × {N} = {total}.": "",
+    "That is the number of molecules or formula units of {formula}. Each one contains {atoms} atoms, so the number of atoms is {atoms} × {N} = {total}.": "이것은 {formula}의 분자 또는 화학식 단위의 수예요. 하나에 원자가 {atoms}개 들어 있으므로, 원자 수는 {atoms} × {N} = {total}이에요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "For an element written as a single atom, such as {formula}, the particles are atoms.": "",
+    "For an element written as a single atom, such as {formula}, the particles are atoms.": "{formula}처럼 원자 하나로 쓰는 원소에서는 입자가 원자예요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type the volume of solution made, in cm<sup>3</sup>.": "",
+    "Type the volume of solution made, in cm<sup>3</sup>.": "만든 용액의 부피를 cm<sup>3</sup> 단위로 입력하세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "As a mass concentration of {formula}: {C} × {M} = {G}.": "",
+    "As a mass concentration of {formula}: {C} × {M} = {G}.": "{formula}의 질량 농도로 나타내면: {C} × {M} = {G}.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "22.7 dm<sup>3</sup> mol<sup>−1</sup> is the molar volume of an ideal gas at STP (273.15 K and 100 kPa) from the data booklet. It works only for gases, only at STP. Topic 1.5 covers it.": "",
+    "22.7 dm<sup>3</sup> mol<sup>−1</sup> is the molar volume of an ideal gas at STP (273.15 K and 100 kPa) from the data booklet. It works only for gases, only at STP. Topic 1.5 covers it.": "22.7 dm<sup>3</sup> mol<sup>−1</sup>은 데이터 부클릿에 나온 STP(273.15 K, 100 kPa)에서의 이상 기체 몰 부피예요. 기체에만, 그리고 STP에서만 쓸 수 있어요. 1.5 단원에서 다뤄요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The formula is not needed for this conversion. Molar mass only matters when mass is involved.": "",
+    "The formula is not needed for this conversion. Molar mass only matters when mass is involved.": "이 변환에는 화학식이 필요 없어요. 몰 질량은 질량이 관련될 때만 필요해요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The answer is rounded to {sf} significant figures to match the value you typed. The working keeps extra digits until the end.": "",
+    "The answer is rounded to {sf} significant figures to match the value you typed. The working keeps extra digits until the end.": "답은 입력한 값에 맞춰 유효 숫자 {sf}자리로 반올림했어요. 풀이에서는 마지막까지 남는 자릿수를 유지해요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "concentration": "",
+    "concentration": "농도",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{from} → {to} (one step)": "",
+    "{from} → {to} (one step)": "{from} → {to} (1단계)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{from} → amount → {to} (two steps)": "",
+    "{from} → amount → {to} (two steps)": "{from} → 물질의 양 → {to} (2단계)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{m} g gives {c} g CO₂ and {h} g H₂O": "",
+    "{m} g gives {c} g CO₂ and {h} g H₂O": "{m} g에서 CO₂ {c} g과 H₂O {h} g이 생김",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{m} g gives {c} g CO₂ and {h} g H₂O (a hydrocarbon)": "",
+    "{m} g gives {c} g CO₂ and {h} g H₂O (a hydrocarbon)": "{m} g에서 CO₂ {c} g과 H₂O {h} g이 생김 (탄화수소)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Dividing by the smallest gave a ratio that is not whole (it ends in about .5). Do not round it. Multiply every ratio by 2 to clear the fraction.": "",
+    "Dividing by the smallest gave a ratio that is not whole (it ends in about .5). Do not round it. Multiply every ratio by 2 to clear the fraction.": "가장 작은 값으로 나눴더니 정수가 아닌 비가 나왔어요(약 .5로 끝나요). 반올림하지 마세요. 모든 비에 2를 곱해 분수를 없애세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Dividing by the smallest gave a ratio that is not whole (it ends in about .33 or .67). Do not round it. Multiply every ratio by 3 to clear the fraction.": "",
+    "Dividing by the smallest gave a ratio that is not whole (it ends in about .33 or .67). Do not round it. Multiply every ratio by 3 to clear the fraction.": "가장 작은 값으로 나눴더니 정수가 아닌 비가 나왔어요(약 .33이나 .67로 끝나요). 반올림하지 마세요. 모든 비에 3을 곱해 분수를 없애세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Dividing by the smallest gave a ratio that is not whole (it ends in about .25 or .75). Do not round it. Multiply every ratio by 4 to clear the fraction.": "",
+    "Dividing by the smallest gave a ratio that is not whole (it ends in about .25 or .75). Do not round it. Multiply every ratio by 4 to clear the fraction.": "가장 작은 값으로 나눴더니 정수가 아닌 비가 나왔어요(약 .25나 .75로 끝나요). 반올림하지 마세요. 모든 비에 4를 곱해 분수를 없애세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Dividing by the smallest gave a ratio that is not whole (it ends in about .2, .4, .6 or .8). Do not round it. Multiply every ratio by 5 to clear the fraction.": "",
+    "Dividing by the smallest gave a ratio that is not whole (it ends in about .2, .4, .6 or .8). Do not round it. Multiply every ratio by 5 to clear the fraction.": "가장 작은 값으로 나눴더니 정수가 아닌 비가 나왔어요(약 .2, .4, .6, .8로 끝나요). 반올림하지 마세요. 모든 비에 5를 곱해 분수를 없애세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Dividing by the smallest gave a ratio that is not whole (it ends in about .17 or .83). Do not round it. Multiply every ratio by 6 to clear the fraction.": "",
+    "Dividing by the smallest gave a ratio that is not whole (it ends in about .17 or .83). Do not round it. Multiply every ratio by 6 to clear the fraction.": "가장 작은 값으로 나눴더니 정수가 아닌 비가 나왔어요(약 .17이나 .83으로 끝나요). 반올림하지 마세요. 모든 비에 6을 곱해 분수를 없애세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type of data": "",
+    "Type of data": "자료 종류",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Masses or percentages": "",
+    "Masses or percentages": "질량 또는 백분율",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Combustion analysis": "",
+    "Combustion analysis": "연소 분석",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Values are": "",
+    "Values are": "값의 종류",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "percentages by mass": "",
+    "percentages by mass": "질량 백분율",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "masses in g": "",
+    "masses in g": "질량 (g)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Load an example": "",
+    "Load an example": "예시 불러오기",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Elements and their values": "",
+    "Elements and their values": "원소와 값",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Element {n}": "",
+    "Element {n}": "원소 {n}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Value {n}": "",
+    "Value {n}": "값 {n}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Combustion data": "",
+    "Combustion data": "연소 자료",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass of compound / g": "",
+    "Mass of compound / g": "화합물의 질량 / g",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass of CO<sub>2</sub> formed / g": "",
+    "Mass of CO<sub>2</sub> formed / g": "생긴 CO<sub>2</sub>의 질량 / g",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass of H<sub>2</sub>O formed / g": "",
+    "Mass of H<sub>2</sub>O formed / g": "생긴 H<sub>2</sub>O의 질량 / g",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Molar mass, if known / g mol<sup>−1</sup> (optional)": "",
+    "Molar mass, if known / g mol<sup>−1</sup> (optional)": "몰 질량(알면) / g mol<sup>−1</sup> (선택)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Empirical formula mass": "",
+    "Empirical formula mass": "실험식 질량",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "“{sym}” is not an element symbol with a relative atomic mass in this tool. Check the spelling.": "",
+    "“{sym}” is not an element symbol with a relative atomic mass in this tool. Check the spelling.": "“{sym}”은 이 도구에서 상대 원자 질량이 있는 원소 기호가 아니에요. 철자를 확인하세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type a positive percentage for {sym}.": "",
+    "Type a positive percentage for {sym}.": "{sym}의 백분율을 양수로 입력하세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type a positive mass for {sym}.": "",
+    "Type a positive mass for {sym}.": "{sym}의 질량을 양수로 입력하세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{sym} appears twice. Give each element one row.": "",
+    "{sym} appears twice. Give each element one row.": "{sym}이 두 번 나와요. 원소마다 한 줄씩만 쓰세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Enter at least two elements.": "",
+    "Enter at least two elements.": "원소를 2개 이상 입력하세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "% by mass": "",
+    "% by mass": "질량 %",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Your percentages add up to {sum} %, not 100 %. If one element (often oxygen) is not given, find it by difference: 100 − the others.": "",
+    "Your percentages add up to {sum} %, not 100 %. If one element (often oxygen) is not given, find it by difference: 100 − the others.": "백분율을 더하면 100 %가 아니라 {sum} %예요. 한 원소(흔히 산소)가 주어지지 않았다면 차이로 구하세요: 100 − 나머지.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Percentages: imagine 100 g of the compound. Then {p} % means {p} g.": "",
+    "Percentages: imagine 100 g of the compound. Then {p} % means {p} g.": "백분율: 화합물 100 g을 떠올리세요. 그러면 {p} %는 {p} g이에요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Type the three masses in grams.": "",
+    "Type the three masses in grams.": "세 질량을 그램 단위로 입력하세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "mass of C = {calc}": "",
+    "mass of C = {calc}": "C의 질량 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "mass of H = {calc}": "",
+    "mass of H = {calc}": "H의 질량 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The carbon and hydrogen add up to more than the sample mass. Check the three masses.": "",
+    "The carbon and hydrogen add up to more than the sample mass. Check the three masses.": "탄소와 수소를 더한 값이 시료의 질량보다 커요. 세 질량을 확인하세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "mass of O = {calc}": "",
+    "mass of O = {calc}": "O의 질량 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "mass of O = {calc}, which is zero within rounding": "",
+    "mass of O = {calc}, which is zero within rounding": "O의 질량 = {calc}, 반올림 범위 안에서 0이에요",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "All the carbon ends up in CO<sub>2</sub> and all the hydrogen ends up in H<sub>2</sub>O. Oxygen cannot be found this way because extra oxygen came from the air, so it is found by difference.": "",
+    "All the carbon ends up in CO<sub>2</sub> and all the hydrogen ends up in H<sub>2</sub>O. Oxygen cannot be found this way because extra oxygen came from the air, so it is found by difference.": "탄소는 모두 CO<sub>2</sub>로, 수소는 모두 H<sub>2</sub>O로 가요. 산소는 공기에서 추가로 들어오므로 이 방법으로는 구할 수 없어서, 차이로 구해요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "All the carbon ends up in CO<sub>2</sub> and all the hydrogen ends up in H<sub>2</sub>O. Here they account for the whole sample, so there is no oxygen: the compound is a hydrocarbon.": "",
+    "All the carbon ends up in CO<sub>2</sub> and all the hydrogen ends up in H<sub>2</sub>O. Here they account for the whole sample, so there is no oxygen: the compound is a hydrocarbon.": "탄소는 모두 CO<sub>2</sub>로, 수소는 모두 H<sub>2</sub>O로 가요. 여기서는 이 둘이 시료 전체를 차지하므로 산소가 없어요: 이 화합물은 탄화수소예요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "÷ smallest": "",
+    "÷ smallest": "÷ 가장 작은 값",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Whole number": "",
+    "Whole number": "정수",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The table method": "",
+    "The table method": "표 방법",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "These ratios are not close to whole numbers, even after multiplying by 2, 3, 4, 5 or 6. Check the data, and check that no element is missing.": "",
+    "These ratios are not close to whole numbers, even after multiplying by 2, 3, 4, 5 or 6. Check the data, and check that no element is missing.": "이 비들은 2, 3, 4, 5, 6을 곱해도 정수에 가깝지 않아요. 자료를 확인하고, 빠진 원소가 없는지 확인하세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Some ratios are a little away from whole numbers. Experimental data are never exact, so values within about 0.1 are rounded.": "",
+    "Some ratios are a little away from whole numbers. Experimental data are never exact, so values within about 0.1 are rounded.": "어떤 비는 정수에서 조금 벗어나 있어요. 실험 자료는 절대 정확하지 않으므로, 약 0.1 이내의 값은 반올림해요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "empirical formula = {formula}": "",
+    "empirical formula = {formula}": "실험식 = {formula}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "empirical formula mass = {calc}": "",
+    "empirical formula mass = {calc}": "실험식 질량 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "<i>M</i> ÷ empirical formula mass = {calc}": "",
+    "<i>M</i> ÷ empirical formula mass = {calc}": "<i>M</i> ÷ 실험식 질량 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "molecular formula = the empirical formula = {formula}": "",
+    "molecular formula = the empirical formula = {formula}": "분자식 = 실험식 = {formula}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "molecular formula = {calc}": "",
+    "molecular formula = {calc}": "분자식 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "That is not close to a whole number, so this molar mass does not fit this empirical formula. Check both.": "",
+    "That is not close to a whole number, so this molar mass does not fit this empirical formula. Check both.": "정수에 가깝지 않으므로, 이 몰 질량은 이 실험식과 맞지 않아요. 둘 다 확인하세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "needs the molar mass": "",
+    "needs the molar mass": "몰 질량이 필요해요",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "the mark": "",
+    "the mark": "눈금선",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "hydrated copper(II) sulfate": "",
+    "hydrated copper(II) sulfate": "수화된 황산 구리(II)",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "sodium carbonate": "",
+    "sodium carbonate": "탄산 나트륨",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "sodium hydroxide": "",
+    "sodium hydroxide": "수산화 나트륨",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Task": "",
+    "Task": "과제",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Make a standard solution": "",
+    "Make a standard solution": "표준 용액 만들기",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Dilute a stock solution": "",
+    "Dilute a stock solution": "원액 희석하기",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Solute": "",
+    "Solute": "용질",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass of solute": "",
+    "Mass of solute": "용질의 질량",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volumetric flask": "",
+    "Volumetric flask": "부피 플라스크",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Stock concentration, C₁": "",
+    "Stock concentration, C₁": "원액의 농도, C₁",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volume taken by pipette, V₁": "",
+    "Volume taken by pipette, V₁": "피펫으로 덜어 낸 부피, V₁",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volumetric flask, V₂": "",
+    "Volumetric flask, V₂": "부피 플라스크, V₂",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volumetric flask filled to the graduation mark": "",
+    "Volumetric flask filled to the graduation mark": "눈금선까지 채운 부피 플라스크",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Amount of solute": "",
+    "Amount of solute": "용질의 양",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Molar concentration": "",
+    "Molar concentration": "몰 농도",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Mass concentration": "",
+    "Mass concentration": "질량 농도",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{m} g of solute": "",
+    "{m} g of solute": "용질 {m} g",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "weighed on a balance": "",
+    "weighed on a balance": "저울로 잼",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "dissolve,": "",
+    "dissolve,": "녹이고,",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "make up": "",
+    "make up": "채우기",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "to the mark": "",
+    "to the mark": "눈금선까지",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{v} cm³ flask": "",
+    "{v} cm³ flask": "{v} cm³ 플라스크",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "blue solution": "",
+    "blue solution": "파란 용액",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "colourless solution": "",
+    "colourless solution": "무색 용액",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "A balance with {m} g of {name} and a {v} cm3 volumetric flask filled to the graduation mark": "",
+    "A balance with {m} g of {name} and a {v} cm3 volumetric flask filled to the graduation mark": "{name} {m} g이 올려진 저울과, 눈금선까지 채운 {v} cm3 부피 플라스크",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "mass concentration = {calc}": "",
+    "mass concentration = {calc}": "질량 농도 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The solid weighed is the hydrate, so its molar mass includes the five waters. One mole of the hydrate gives one mole of CuSO<sub>4</sub> in solution. Check: {C} × {M} = {G}.": "",
+    "The solid weighed is the hydrate, so its molar mass includes the five waters. One mole of the hydrate gives one mole of CuSO<sub>4</sub> in solution. Check: {C} × {M} = {G}.": "무게를 잰 고체는 수화물이므로, 그 몰 질량에는 물 분자 다섯 개가 포함돼요. 수화물 1몰은 용액에서 CuSO<sub>4</sub> 1몰을 내놓아요. 확인: {C} × {M} = {G}.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Check: {C} × {M} = {G}.": "",
+    "Check: {C} × {M} = {G}.": "확인: {C} × {M} = {G}.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "{G} <span class=\"mole-unitnote\">(of hydrate)</span>": "",
+    "{G} <span class=\"mole-unitnote\">(of hydrate)</span>": "{G} <span class=\"mole-unitnote\">(수화물 기준)</span>",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "stock solution": "",
+    "stock solution": "원액",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "pipette": "",
+    "pipette": "피펫",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "add water": "",
+    "add water": "물 넣기",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "A beaker of stock solution, and a {v} cm3 volumetric flask holding the paler diluted solution": "",
+    "A beaker of stock solution, and a {v} cm3 volumetric flask holding the paler diluted solution": "원액이 든 비커와, 더 연한 희석 용액이 든 {v} cm3 부피 플라스크",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "dilution factor = {calc}": "",
+    "dilution factor = {calc}": "희석 배수 = {calc}",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The amount of solute does not change: {n} mol leaves the pipette and {n} mol is in the flask. Only the volume changes. The volumes can stay in cm<sup>3</sup> here because the same unit is on both sides.": "",
+    "The amount of solute does not change: {n} mol leaves the pipette and {n} mol is in the flask. Only the volume changes. The volumes can stay in cm<sup>3</sup> here because the same unit is on both sides.": "용질의 양은 변하지 않아요: 피펫에서 {n} mol이 나가고 플라스크에 {n} mol이 들어 있어요. 부피만 바뀌어요. 양쪽에 같은 단위가 있으므로 여기서는 부피를 cm<sup>3</sup>로 두어도 돼요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "diluted {factor} times": "",
+    "diluted {factor} times": "{factor}배 희석",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Absorbance of the unknown": "",
+    "Absorbance of the unknown": "모르는 용액의 흡광도",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Calibration curve: absorbance against concentration for six standard solutions, with a straight line of best fit": "",
+    "Calibration curve: absorbance against concentration for six standard solutions, with a straight line of best fit": "검량선: 표준 용액 6개의 농도에 대한 흡광도와 가장 잘 맞는 직선",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Absorbance measured": "",
+    "Absorbance measured": "측정한 흡광도",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Concentration read from the line": "",
+    "Concentration read from the line": "직선에서 읽은 농도",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "concentration / mol dm⁻³": "",
+    "concentration / mol dm⁻³": "농도 / mol dm⁻³",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "absorbance": "",
+    "absorbance": "흡광도",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Reaction": "",
+    "Reaction": "반응",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Gas whose volume you set": "",
+    "Gas whose volume you set": "부피를 정할 기체",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Its volume": "",
+    "Its volume": "그 기체의 부피",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Boxes of gas whose heights are in proportion to the reacting volumes": "",
+    "Boxes of gas whose heights are in proportion to the reacting volumes": "반응하는 부피에 비례하는 높이의 기체 상자",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Volume ratio of the gases": "",
+    "Volume ratio of the gases": "기체의 부피 비",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Gas before": "",
+    "Gas before": "반응 전 기체",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Gas after": "",
+    "Gas after": "반응 후 기체",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "liquid:": "",
+    "liquid:": "액체:",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "not a gas": "",
+    "not a gas": "기체 아님",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "you set this": "",
+    "you set this": "직접 정함",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Same temperature and pressure, so the volume ratio of the gases equals the mole ratio in the equation. Multiply by (coefficient wanted ÷ coefficient given).": "",
+    "Same temperature and pressure, so the volume ratio of the gases equals the mole ratio in the equation. Multiply by (coefficient wanted ÷ coefficient given).": "온도와 압력이 같으므로, 기체의 부피 비는 반응식의 몰 비와 같아요. (구할 기체의 계수 ÷ 주어진 기체의 계수)를 곱하세요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "The water is a liquid here. Its volume is tiny compared with the gases, and Avogadro’s law applies to gases only, so it is left out of the gas volumes.": "",
+    "The water is a liquid here. Its volume is tiny compared with the gases, and Avogadro’s law applies to gases only, so it is left out of the gas volumes.": "여기서 물은 액체예요. 그 부피는 기체에 비해 아주 작고, 아보가드로 법칙은 기체에만 적용되므로 기체 부피에서 빼요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Total gas volume: {before} of reactants becomes {after} of product. Here the total stays the same, because the equation has the same number of gas molecules on each side. That is not true for most reactions.": "",
+    "Total gas volume: {before} of reactants becomes {after} of product. Here the total stays the same, because the equation has the same number of gas molecules on each side. That is not true for most reactions.": "전체 기체 부피: 반응물 {before}가 생성물 {after}가 돼요. 여기서는 반응식의 양쪽에 기체 분자 수가 같아서 전체 부피가 그대로예요. 대부분의 반응에서는 그렇지 않아요.",
 
     // widget string (assets/js/widgets-s1-4.js)
-    "Total gas volume: {before} of reactants becomes {after} of product. Volume is not conserved, because the number of gas molecules changes. Mass is conserved.": "",
+    "Total gas volume: {before} of reactants becomes {after} of product. Volume is not conserved, because the number of gas molecules changes. Mass is conserved.": "전체 기체 부피: 반응물 {before}가 생성물 {after}가 돼요. 기체 분자 수가 바뀌므로 부피는 보존되지 않아요. 질량은 보존돼요.",
 
   }
 });

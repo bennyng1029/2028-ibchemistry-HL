@@ -1081,609 +1081,609 @@ S1.i18n.register('ko', 's3-1', {
     "Hydrogen is +1. <b>Exception:</b> −1 in metal hydrides.": "수소는 +1이에요. <b>예외:</b> 금속 수소화물에서는 −1이에요.",
 
     // Oxidation states > table > td
-    "HCl: +1; NaH: −1": "",
+    "HCl: +1; NaH: −1": "HCl: +1; NaH: −1",
 
     // Oxidation states > table > td
-    "Oxygen is −2. <b>Exception:</b> −1 in peroxides.": "",
+    "Oxygen is −2. <b>Exception:</b> −1 in peroxides.": "산소는 −2예요. <b>예외:</b> 과산화물에서는 −1이에요.",
 
     // Oxidation states > p
-    "The rules higher in the table win. That is how you find the exceptions without memorizing them. In NaH, sodium must be +1 (rule 5), so hydrogen must be −1.": "",
+    "The rules higher in the table win. That is how you find the exceptions without memorizing them. In NaH, sodium must be +1 (rule 5), so hydrogen must be −1.": "표에서 위에 있는 규칙이 우선해요. 그러면 예외를 외우지 않고도 찾을 수 있어요. NaH에서 나트륨은 반드시 +1(규칙 5)이므로, 수소는 −1이어야 해요.",
 
     // Oxidation states > h3
-    "Why is an element zero?": "",
+    "Why is an element zero?": "홑원소 물질은 왜 0일까요?",
 
     // Oxidation states > p
-    "In an element, all the atoms are the same. They attract the bonding electrons equally, so no electrons are transferred from one atom to another. The oxidation state is 0.": "",
+    "In an element, all the atoms are the same. They attract the bonding electrons equally, so no electrons are transferred from one atom to another. The oxidation state is 0.": "홑원소 물질에서는 모든 원자가 같아요. 원자들이 결합 전자를 똑같이 끌어당기므로, 한 원자에서 다른 원자로 전자가 이동하지 않아요. 그래서 산화수는 0이에요.",
 
     // Oxidation states > h3
     // Variable oxidation states and ion configurations > Additional HL > h3
     // Why transition element complexes are coloured > Additional HL > h3
-    "Method in words": "",
+    "Method in words": "말로 정리한 방법",
 
     // Oxidation states > li
-    "Write down what the oxidation states must add up to: 0 for a compound, the charge for an ion.": "",
+    "Write down what the oxidation states must add up to: 0 for a compound, the charge for an ion.": "산화수의 합이 얼마가 되어야 하는지 적으세요: 화합물이면 0, 이온이면 그 이온의 전하.",
 
     // Oxidation states > li
-    "Fill in the atoms you know from the rules.": "",
+    "Fill in the atoms you know from the rules.": "규칙으로 알 수 있는 원자의 값을 채우세요.",
 
     // Oxidation states > li
-    "Call the unknown oxidation state x. Multiply each value by the number of atoms.": "",
+    "Call the unknown oxidation state x. Multiply each value by the number of atoms.": "모르는 산화수를 x라고 하세요. 각 값에 원자 수를 곱하세요.",
 
     // Oxidation states > li
-    "Solve for x. Write the answer with its sign first.": "",
+    "Solve for x. Write the answer with its sign first.": "x를 구하세요. 답은 부호를 먼저 써서 나타내세요.",
 
     // Oxidation states > widget > data-title attribute
-    "Oxidation state trainer": "",
+    "Oxidation state trainer": "산화수 연습기",
 
     // Oxidation states > widget > figcaption
-    "Work through each species step by step. Level 3 has the hydride and peroxide exceptions. Type your final answer with the sign first.": "",
+    "Work through each species step by step. Level 3 has the hydride and peroxide exceptions. Type your final answer with the sign first.": "각 화학종을 한 단계씩 풀어 보세요. 3단계에는 수소화물과 과산화물 예외가 나와요. 최종 답은 부호를 먼저 입력하세요.",
 
     // Oxidation states > worked example > data-kicker attribute
-    "Worked example 7": "",
+    "Worked example 7": "예제 7",
 
     // Oxidation states > worked example > h3
-    "A simple compound": "",
+    "A simple compound": "간단한 화합물",
 
     // Oxidation states > worked example > p
-    "Deduce the oxidation state of iron in <span class=\"chem\">Fe2O3</span>, and name the compound.": "",
+    "Deduce the oxidation state of iron in <span class=\"chem\">Fe2O3</span>, and name the compound.": "<span class=\"chem\">Fe2O3</span>에서 철의 산화수를 추론하고 (deduce), 이 화합물의 이름을 쓰시오.",
 
     // Oxidation states > worked example > data-title attribute
-    "Find the total": "",
+    "Find the total": "합계 찾기",
 
     // Oxidation states > worked example > p
-    "It is a neutral compound.": "",
+    "It is a neutral compound.": "중성 화합물이에요.",
 
     // Oxidation states > worked example > maths line
-    "sum of oxidation states = 0": "",
+    "sum of oxidation states = 0": "산화수의 합 = 0",
 
     // Oxidation states > worked example > data-title attribute
-    "Fill in what you know": "",
+    "Fill in what you know": "아는 값 채우기",
 
     // Oxidation states > worked example > p
-    "Oxygen is −2, and there are three oxygen atoms.": "",
+    "Oxygen is −2, and there are three oxygen atoms.": "산소는 −2이고, 산소 원자가 3개 있어요.",
 
     // Oxidation states > worked example > data-title attribute
-    "Solve for iron": "",
+    "Solve for iron": "철에 대해 풀기",
 
     // Oxidation states > worked example > p
-    "There are two iron atoms, so use 2x.": "",
+    "There are two iron atoms, so use 2x.": "철 원자가 2개 있으므로 2x를 써요.",
 
     // Oxidation states > worked example > maths line
-    "2<i>x</i> = +6, so <i>x</i> = <b>+3</b>": "",
+    "2<i>x</i> = +6, so <i>x</i> = <b>+3</b>": "2<i>x</i> = +6, 따라서 <i>x</i> = <b>+3</b>",
 
     // Oxidation states > worked example > data-title attribute
-    "Name it": "",
+    "Name it": "이름 붙이기",
 
     // Oxidation states > worked example > p
-    "Iron can have more than one oxidation state, so the name shows which one with a Roman numeral.": "",
+    "Iron can have more than one oxidation state, so the name shows which one with a Roman numeral.": "철은 산화수를 여러 가지 가질 수 있으므로, 이름에 로마 숫자로 어느 것인지 나타내요.",
 
     // Oxidation states > worked example > maths line
-    "<b>iron(III) oxide</b>": "",
+    "<b>iron(III) oxide</b>": "<b>산화 철(III)</b>",
 
     // Oxidation states > worked example > p
-    "The oxidation state of iron is +3. The compound is iron(III) oxide.": "",
+    "The oxidation state of iron is +3. The compound is iron(III) oxide.": "철의 산화수는 +3이에요. 이 화합물은 산화 철(III)이에요.",
 
     // Oxidation states > worked example > data-kicker attribute
-    "Worked example 8": "",
+    "Worked example 8": "예제 8",
 
     // Oxidation states > worked example > h3
-    "A polyatomic ion": "",
+    "A polyatomic ion": "다원자 이온",
 
     // Oxidation states > worked example > p
-    "Deduce the oxidation state of chromium in the dichromate ion, <span class=\"chem\">Cr2O7^2-</span>.": "",
+    "Deduce the oxidation state of chromium in the dichromate ion, <span class=\"chem\">Cr2O7^2-</span>.": "다이크로뮴산 이온 <span class=\"chem\">Cr2O7^2-</span>에서 크로뮴의 산화수를 추론하시오 (deduce).",
 
     // Oxidation states > worked example > p
-    "It is an ion, so the oxidation states add up to its charge.": "",
+    "It is an ion, so the oxidation states add up to its charge.": "이온이므로 산화수의 합은 그 이온의 전하와 같아요.",
 
     // Oxidation states > worked example > maths line
-    "sum of oxidation states = −2": "",
+    "sum of oxidation states = −2": "산화수의 합 = −2",
 
     // Oxidation states > worked example > p
-    "Oxygen is −2, and there are seven oxygen atoms.": "",
+    "Oxygen is −2, and there are seven oxygen atoms.": "산소는 −2이고, 산소 원자가 7개 있어요.",
 
     // Oxidation states > worked example > data-title attribute
-    "Solve for chromium": "",
+    "Solve for chromium": "크로뮴에 대해 풀기",
 
     // Oxidation states > worked example > p
-    "There are two chromium atoms, so use 2x. Do not forget the charge on the right.": "",
+    "There are two chromium atoms, so use 2x. Do not forget the charge on the right.": "크로뮴 원자가 2개 있으므로 2x를 써요. 오른쪽의 전하를 잊지 마세요.",
 
     // Oxidation states > worked example > maths line
-    "2<i>x</i> = +12, so <i>x</i> = <b>+6</b>": "",
+    "2<i>x</i> = +12, so <i>x</i> = <b>+6</b>": "2<i>x</i> = +12, 따라서 <i>x</i> = <b>+6</b>",
 
     // Oxidation states > worked example > p
-    "The oxidation state of chromium is +6. The systematic name of the ion is dichromate(VI).": "",
+    "The oxidation state of chromium is +6. The systematic name of the ion is dichromate(VI).": "크로뮴의 산화수는 +6이에요. 이 이온의 계통명은 다이크로뮴산(VI) 이온이에요.",
 
     // Oxidation states > worked example > data-kicker attribute
-    "Worked example 9": "",
+    "Worked example 9": "예제 9",
 
     // Oxidation states > worked example > h3
-    "The two exceptions": "",
+    "The two exceptions": "두 가지 예외",
 
     // Oxidation states > worked example > p
-    "Deduce the oxidation state of (a) oxygen in barium peroxide, <span class=\"chem\">BaO2</span>, and (b) hydrogen in lithium hydride, LiH.": "",
+    "Deduce the oxidation state of (a) oxygen in barium peroxide, <span class=\"chem\">BaO2</span>, and (b) hydrogen in lithium hydride, LiH.": "(a) 과산화 바륨 <span class=\"chem\">BaO2</span>에서 산소의 산화수와 (b) 수소화 리튬 LiH에서 수소의 산화수를 추론하시오 (deduce).",
 
     // Oxidation states > worked example > data-title attribute
-    "(a) Start with the metal": "",
+    "(a) Start with the metal": "(a) 금속부터 시작하기",
 
     // Oxidation states > worked example > p
-    "Barium is a group 2 metal. Rule 5 is higher in the table than the oxygen rule, so use it first.": "",
+    "Barium is a group 2 metal. Rule 5 is higher in the table than the oxygen rule, so use it first.": "바륨은 2족 금속이에요. 규칙 5가 산소 규칙보다 표에서 위에 있으므로 먼저 이용해요.",
 
     // Oxidation states > worked example > data-title attribute
-    "(a) Solve for oxygen": "",
+    "(a) Solve for oxygen": "(a) 산소에 대해 풀기",
 
     // Oxidation states > worked example > p
-    "The compound is neutral and has two oxygen atoms.": "",
+    "The compound is neutral and has two oxygen atoms.": "이 화합물은 중성이고 산소 원자가 2개 있어요.",
 
     // Oxidation states > worked example > maths line
-    "2<i>x</i> = −2, so <i>x</i> = <b>−1</b>": "",
+    "2<i>x</i> = −2, so <i>x</i> = <b>−1</b>": "2<i>x</i> = −2, 따라서 <i>x</i> = <b>−1</b>",
 
     // Oxidation states > worked example > data-title attribute
-    "(b) Start with the metal": "",
+    "(b) Start with the metal": "(b) 금속부터 시작하기",
 
     // Oxidation states > worked example > p
-    "Lithium is a group 1 metal, so it is +1. This is a metal hydride.": "",
+    "Lithium is a group 1 metal, so it is +1. This is a metal hydride.": "리튬은 1족 금속이므로 +1이에요. 이것은 금속 수소화물이에요.",
 
     // Oxidation states > worked example > data-title attribute
-    "(b) Solve for hydrogen": "",
+    "(b) Solve for hydrogen": "(b) 수소에 대해 풀기",
 
     // Oxidation states > worked example > p
-    "The compound is neutral.": "",
+    "The compound is neutral.": "이 화합물은 중성이에요.",
 
     // Oxidation states > worked example > maths line
-    "(+1) + <i>x</i> = 0, so <i>x</i> = <b>−1</b>": "",
+    "(+1) + <i>x</i> = 0, so <i>x</i> = <b>−1</b>": "(+1) + <i>x</i> = 0, 따라서 <i>x</i> = <b>−1</b>",
 
     // Oxidation states > worked example > p
-    "(a) Oxygen is −1 (a peroxide). (b) Hydrogen is −1 (a metal hydride).": "",
+    "(a) Oxygen is −1 (a peroxide). (b) Hydrogen is −1 (a metal hydride).": "(a) 산소는 −1이에요(과산화물). (b) 수소는 −1이에요(금속 수소화물).",
 
     // Oxidation states > try it > data-label attribute
-    "Oxidation state (with sign)": "",
+    "Oxidation state (with sign)": "산화수 (부호 포함)",
 
     // Oxidation states > try it > p
-    "Deduce the oxidation state of nitrogen in nitric acid, <span class=\"chem\">HNO3</span>. Type the sign first, then the number, for example +3 or −3.": "",
+    "Deduce the oxidation state of nitrogen in nitric acid, <span class=\"chem\">HNO3</span>. Type the sign first, then the number, for example +3 or −3.": "질산 <span class=\"chem\">HNO3</span>에서 질소의 산화수를 추론하시오 (deduce). 부호를 먼저, 그다음 숫자를 입력하세요. 예: +3 또는 −3.",
 
     // Oxidation states > try it > li
-    "Hydrogen is +1 and each oxygen is −2. The total is 0.": "",
+    "Hydrogen is +1 and each oxygen is −2. The total is 0.": "수소는 +1이고 각 산소는 −2예요. 합계는 0이에요.",
 
     // Oxidation states > try it > li
-    "(+1) + x + 3(−2) = 0. Solve for x.": "",
+    "(+1) + x + 3(−2) = 0. Solve for x.": "(+1) + x + 3(−2) = 0. x를 구하세요.",
 
     // Oxidation states > try it > p
-    "Deduce the oxidation state of oxygen in sodium peroxide, <span class=\"chem\">Na2O2</span>. Type the sign first, then the number, for example +3 or −3.": "",
+    "Deduce the oxidation state of oxygen in sodium peroxide, <span class=\"chem\">Na2O2</span>. Type the sign first, then the number, for example +3 or −3.": "과산화 나트륨 <span class=\"chem\">Na2O2</span>에서 산소의 산화수를 추론하시오 (deduce). 부호를 먼저, 그다음 숫자를 입력하세요. 예: +3 또는 −3.",
 
     // Oxidation states > try it > li
-    "Sodium is a group 1 metal, so it is always +1. Start there, not with oxygen.": "",
+    "Sodium is a group 1 metal, so it is always +1. Start there, not with oxygen.": "나트륨은 1족 금속이므로 항상 +1이에요. 산소가 아니라 나트륨부터 시작하세요.",
 
     // Oxidation states > try it > li
-    "2(+1) + 2x = 0. Solve for x.": "",
+    "2(+1) + 2x = 0. Solve for x.": "2(+1) + 2x = 0. x를 구하세요.",
 
     // Oxidation states > try it > maths line
-    "2<i>x</i> = −2, so <i>x</i> = −1": "",
+    "2<i>x</i> = −2, so <i>x</i> = −1": "2<i>x</i> = −2, 따라서 <i>x</i> = −1",
 
     // Oxidation states > try it > p
-    "Deduce the oxidation state of manganese in the manganate(VII) ion, <span class=\"chem\">MnO4-</span>. Do the calculation, then check it against the name. Type the sign first, then the number, for example +3 or −3.": "",
+    "Deduce the oxidation state of manganese in the manganate(VII) ion, <span class=\"chem\">MnO4-</span>. Do the calculation, then check it against the name. Type the sign first, then the number, for example +3 or −3.": "망가니즈산(VII) 이온 <span class=\"chem\">MnO4-</span>에서 망가니즈의 산화수를 추론하시오 (deduce). 계산한 다음, 이름과 맞는지 확인하세요. 부호를 먼저, 그다음 숫자를 입력하세요. 예: +3 또는 −3.",
 
     // Oxidation states > try it > li
-    "The total equals the charge on the ion: −1. Each oxygen is −2.": "",
+    "The total equals the charge on the ion: −1. Each oxygen is −2.": "합계는 이온의 전하인 −1과 같아요. 각 산소는 −2예요.",
 
     // Oxidation states > try it > li
-    "x + 4(−2) = −1. Solve for x.": "",
+    "x + 4(−2) = −1. Solve for x.": "x + 4(−2) = −1. x를 구하세요.",
 
     // Oxidation states > try it > maths line
-    "<i>x</i> = −1 + 8 = +7, which matches the Roman numeral VII": "",
+    "<i>x</i> = −1 + 8 = +7, which matches the Roman numeral VII": "<i>x</i> = −1 + 8 = +7, 로마 숫자 VII와 일치",
 
     // Oxidation states > common mistake > p
-    "Do not give the charge of the whole ion as the answer. In <span class=\"chem\">SO4^2-</span> the ion has a charge of 2−, but sulfur is +6. Also remember to divide by the number of atoms: in <span class=\"chem\">Cr2O7^2-</span> the two chromium atoms total +12, so each one is +6.": "",
+    "Do not give the charge of the whole ion as the answer. In <span class=\"chem\">SO4^2-</span> the ion has a charge of 2−, but sulfur is +6. Also remember to divide by the number of atoms: in <span class=\"chem\">Cr2O7^2-</span> the two chromium atoms total +12, so each one is +6.": "이온 전체의 전하를 답으로 쓰지 마세요. <span class=\"chem\">SO4^2-</span>에서 이온의 전하는 2−이지만, 황은 +6이에요. 원자 수로 나누는 것도 잊지 마세요: <span class=\"chem\">Cr2O7^2-</span>에서 크로뮴 원자 2개의 합이 +12이므로, 각각은 +6이에요.",
 
     // Oxidation states > h3
-    "Oxidation numbers in names": "",
+    "Oxidation numbers in names": "이름 속의 산화수",
 
     // Oxidation states > p
-    "When an element can have more than one oxidation state, the name can show it. The <dfn data-def=\"Another term for oxidation state. In a name it is written as a Roman numeral, for example iron(III).\">oxidation number</dfn> is written as a Roman numeral in brackets. There is no space before the bracket.": "",
+    "When an element can have more than one oxidation state, the name can show it. The <dfn data-def=\"Another term for oxidation state. In a name it is written as a Roman numeral, for example iron(III).\">oxidation number</dfn> is written as a Roman numeral in brackets. There is no space before the bracket.": "원소가 산화수를 여러 가지 가질 수 있을 때는 이름에 그것을 나타낼 수 있어요. 이때 <dfn data-def=\"oxidation state를 가리키는 또 다른 용어. 이름에서는 철(III)처럼 로마 숫자로 쓴다.\">산화수 <span class=\"en-term\">(oxidation number)</span></dfn>를 괄호 안에 로마 숫자로 써요. 괄호 앞은 띄우지 않아요.",
 
     // Oxidation states > data-def attribute
-    "Another term for oxidation state. In a name it is written as a Roman numeral, for example iron(III).": "",
+    "Another term for oxidation state. In a name it is written as a Roman numeral, for example iron(III).": "oxidation state를 가리키는 또 다른 용어. 이름에서는 철(III)처럼 로마 숫자로 쓴다.",
 
     // Oxidation states > table > caption
-    "Names with oxidation numbers": "",
+    "Names with oxidation numbers": "산화수가 들어간 이름",
 
     // Oxidation states > table > th
-    "Formula": "",
+    "Formula": "화학식",
 
     // Oxidation states > table > th
-    "Oxidation state": "",
+    "Oxidation state": "산화수",
 
     // Oxidation states > table > th
-    "Systematic name": "",
+    "Systematic name": "계통명",
 
     // Oxidation states > table > th
-    "Common name (accepted)": "",
+    "Common name (accepted)": "관용명 (인정됨)",
 
     // Oxidation states > table > th
-    "<span class=\"chem\">FeCl2</span>": "",
+    "<span class=\"chem\">FeCl2</span>": "<span class=\"chem\">FeCl2</span>",
 
     // Oxidation states > table > td
-    "Fe: +2": "",
+    "Fe: +2": "Fe: +2",
 
     // Oxidation states > table > td
-    "iron(II) chloride": "",
+    "iron(II) chloride": "염화 철(II)",
 
     // Oxidation states > table > th
-    "<span class=\"chem\">FeCl3</span>": "",
+    "<span class=\"chem\">FeCl3</span>": "<span class=\"chem\">FeCl3</span>",
 
     // Oxidation states > table > td
-    "Fe: +3": "",
+    "Fe: +3": "Fe: +3",
 
     // Oxidation states > table > td
-    "iron(III) chloride": "",
+    "iron(III) chloride": "염화 철(III)",
 
     // Oxidation states > table > th
-    "<span class=\"chem\">Cu2O</span>": "",
+    "<span class=\"chem\">Cu2O</span>": "<span class=\"chem\">Cu2O</span>",
 
     // Oxidation states > table > td
-    "Cu: +1": "",
+    "Cu: +1": "Cu: +1",
 
     // Oxidation states > table > td
-    "copper(I) oxide": "",
+    "copper(I) oxide": "산화 구리(I)",
 
     // Oxidation states > table > th
-    "<span class=\"chem\">CuO</span>": "",
+    "<span class=\"chem\">CuO</span>": "<span class=\"chem\">CuO</span>",
 
     // Oxidation states > table > td
-    "Cu: +2": "",
+    "Cu: +2": "Cu: +2",
 
     // Oxidation states > table > td
-    "copper(II) oxide": "",
+    "copper(II) oxide": "산화 구리(II)",
 
     // Oxidation states > table > th
-    "<span class=\"chem\">NO3-</span>": "",
+    "<span class=\"chem\">NO3-</span>": "<span class=\"chem\">NO3-</span>",
 
     // Oxidation states > table > td
-    "nitrate(V)": "",
+    "nitrate(V)": "질산(V) 이온",
 
     // Oxidation states > table > td
-    "nitrate": "",
+    "nitrate": "질산 이온",
 
     // Oxidation states > table > th
-    "<span class=\"chem\">NO2-</span>": "",
+    "<span class=\"chem\">NO2-</span>": "<span class=\"chem\">NO2-</span>",
 
     // Oxidation states > table > td
-    "nitrate(III)": "",
+    "nitrate(III)": "질산(III) 이온",
 
     // Oxidation states > table > td
-    "nitrite": "",
+    "nitrite": "아질산 이온",
 
     // Oxidation states > table > th
-    "<span class=\"chem\">SO4^2-</span>": "",
+    "<span class=\"chem\">SO4^2-</span>": "<span class=\"chem\">SO4^2-</span>",
 
     // Oxidation states > table > td
-    "sulfate(VI)": "",
+    "sulfate(VI)": "황산(VI) 이온",
 
     // Oxidation states > table > td
-    "sulfate": "",
+    "sulfate": "황산 이온",
 
     // Oxidation states > table > th
-    "<span class=\"chem\">SO3^2-</span>": "",
+    "<span class=\"chem\">SO3^2-</span>": "<span class=\"chem\">SO3^2-</span>",
 
     // Oxidation states > table > td
-    "sulfate(IV)": "",
+    "sulfate(IV)": "황산(IV) 이온",
 
     // Oxidation states > table > td
-    "sulfite": "",
+    "sulfite": "아황산 이온",
 
     // Oxidation states > p
-    "An ion that contains oxygen and one other element is called an <dfn data-def=\"A negative ion that contains oxygen and one other element, such as nitrate or sulfate.\">oxyanion</dfn>. The common names nitrate, nitrite, sulfate and sulfite are still used and are accepted in exams.": "",
+    "An ion that contains oxygen and one other element is called an <dfn data-def=\"A negative ion that contains oxygen and one other element, such as nitrate or sulfate.\">oxyanion</dfn>. The common names nitrate, nitrite, sulfate and sulfite are still used and are accepted in exams.": "산소와 다른 원소 하나를 포함한 음이온을 <dfn data-def=\"질산 이온이나 황산 이온처럼 산소와 다른 원소 하나를 포함한 음이온.\">옥시 음이온 <span class=\"en-term\">(oxyanion)</span></dfn>이라고 해요. 질산 이온, 아질산 이온, 황산 이온, 아황산 이온 같은 관용명은 지금도 쓰이고 시험에서도 인정돼요.",
 
     // Oxidation states > data-def attribute
-    "A negative ion that contains oxygen and one other element, such as nitrate or sulfate.": "",
+    "A negative ion that contains oxygen and one other element, such as nitrate or sulfate.": "질산 이온이나 황산 이온처럼 산소와 다른 원소 하나를 포함한 음이온.",
 
     // Oxidation states > not needed for IB > p
-    "Here you only assign oxidation states and use them in names. Using them to decide what is oxidized or reduced comes later in Reactivity 3.2. You do not need fractional oxidation states.": "",
+    "Here you only assign oxidation states and use them in names. Using them to decide what is oxidized or reduced comes later in Reactivity 3.2. You do not need fractional oxidation states.": "여기서는 산화수를 정하고 이름에 쓰는 것만 해요. 산화수로 무엇이 산화되거나 환원되는지 판단하는 것은 나중에 Reactivity 3.2에서 배워요. 분수 산화수는 필요 없어요.",
 
     // Oxidation states > data-title attribute
-    "Oxidation states: quick check": "",
+    "Oxidation states: quick check": "산화수: 빠른 확인",
 
     // Discontinuities in first ionization energy > Additional HL > data-toc attribute
-    "Discontinuities in ionization energy": "",
+    "Discontinuities in ionization energy": "이온화 에너지의 불연속",
 
     // Discontinuities in first ionization energy > Additional HL > h2
-    "Discontinuities in first ionization energy": "",
+    "Discontinuities in first ionization energy": "제1 이온화 에너지의 불연속",
 
     // Discontinuities in first ionization energy > Additional HL > p
-    "First ionization energy increases across a period. But the increase is not smooth. A <dfn data-def=\"A break in a trend: a point where the value goes the opposite way to the general pattern.\">discontinuity</dfn> is a place where the value falls when you expect it to rise. Each of periods 2 and 3 has two.": "",
+    "First ionization energy increases across a period. But the increase is not smooth. A <dfn data-def=\"A break in a trend: a point where the value goes the opposite way to the general pattern.\">discontinuity</dfn> is a place where the value falls when you expect it to rise. Each of periods 2 and 3 has two.": "제1 이온화 에너지는 주기를 따라 증가해요. 하지만 매끄럽게 증가하지는 않아요. <dfn data-def=\"경향이 끊기는 곳: 값이 전체적인 경향과 반대 방향으로 가는 지점.\">불연속 <span class=\"en-term\">(discontinuity)</span></dfn>은 값이 올라갈 것으로 예상되는데 오히려 내려가는 곳이에요. 2주기와 3주기에는 각각 2군데씩 있어요.",
 
     // Discontinuities in first ionization energy > Additional HL > data-def attribute
-    "A break in a trend: a point where the value goes the opposite way to the general pattern.": "",
+    "A break in a trend: a point where the value goes the opposite way to the general pattern.": "경향이 끊기는 곳: 값이 전체적인 경향과 반대 방향으로 가는 지점.",
 
     // Discontinuities in first ionization energy > table > Additional HL > caption
-    "The two discontinuities (data booklet values in kJ mol<sup>−1</sup>)": "",
+    "The two discontinuities (data booklet values in kJ mol<sup>−1</sup>)": "두 군데의 불연속 (데이터 부클릿 값, 단위 kJ mol<sup>−1</sup>)",
 
     // Discontinuities in first ionization energy > table > Additional HL > th
     // widget string (assets/js/widgets-s3-1.js)
-    "Period 2": "",
+    "Period 2": "2주기",
 
     // Discontinuities in first ionization energy > table > Additional HL > th
     // widget string (assets/js/widgets-s3-1.js)
-    "Period 3": "",
+    "Period 3": "3주기",
 
     // Discontinuities in first ionization energy > table > Additional HL > th
-    "Reason": "",
+    "Reason": "이유",
 
     // Discontinuities in first ionization energy > table > Additional HL > th
-    "group 2 → group 13": "",
+    "group 2 → group 13": "2족 → 13족",
 
     // Discontinuities in first ionization energy > table > Additional HL > td
-    "Be 900, B 801": "",
+    "Be 900, B 801": "Be 900, B 801",
 
     // Discontinuities in first ionization energy > table > Additional HL > td
-    "Mg 738, Al 578": "",
+    "Mg 738, Al 578": "Mg 738, Al 578",
 
     // Discontinuities in first ionization energy > table > Additional HL > td
-    "The electron removed from the group 13 atom is in a p sublevel. The p sublevel is higher in energy than the s sublevel of the same main energy level. An electron that is higher in energy needs less energy to remove.": "",
+    "The electron removed from the group 13 atom is in a p sublevel. The p sublevel is higher in energy than the s sublevel of the same main energy level. An electron that is higher in energy needs less energy to remove.": "13족 원자에서 떼어 내는 전자는 p 부껍질에 있어요. p 부껍질은 같은 주 에너지 준위의 s 부껍질보다 에너지가 높아요. 에너지가 더 높은 전자는 떼어 내는 데 에너지가 덜 필요해요.",
 
     // Discontinuities in first ionization energy > table > Additional HL > th
-    "group 15 → group 16": "",
+    "group 15 → group 16": "15족 → 16족",
 
     // Discontinuities in first ionization energy > table > Additional HL > td
-    "In the group 16 atom, the electron removed is in a p orbital that holds two electrons. The two electrons in the same orbital repel each other. This extra repulsion makes one of them easier to remove.": "",
+    "In the group 16 atom, the electron removed is in a p orbital that holds two electrons. The two electrons in the same orbital repel each other. This extra repulsion makes one of them easier to remove.": "16족 원자에서 떼어 내는 전자는 전자 2개가 들어 있는 p 오비탈에 있어요. 같은 오비탈에 있는 두 전자는 서로 밀어내요. 이 추가 반발 때문에 그중 하나를 떼어 내기가 더 쉬워요.",
 
     // Discontinuities in first ionization energy > key idea > Additional HL > p
-    "<b>Why this is evidence for sublevels.</b> If each main energy level were one single level, first ionization energy would rise steadily across a period. The fall from group 2 to group 13 shows that the electrons in one main energy level do not all have the same energy. The level is divided into sublevels: s, then p at a higher energy.": "",
+    "<b>Why this is evidence for sublevels.</b> If each main energy level were one single level, first ionization energy would rise steadily across a period. The fall from group 2 to group 13 shows that the electrons in one main energy level do not all have the same energy. The level is divided into sublevels: s, then p at a higher energy.": "<b>이것이 부껍질의 증거가 되는 이유.</b> 각 주 에너지 준위가 하나의 준위라면, 제1 이온화 에너지는 주기를 따라 꾸준히 올라갈 거예요. 2족에서 13족으로 갈 때 값이 내려가는 것은, 한 주 에너지 준위에 있는 전자들의 에너지가 모두 같지는 않다는 것을 보여 줘요. 그 준위는 부껍질로 나뉘어 있어요: s, 그리고 그보다 에너지가 높은 p.",
 
     // Discontinuities in first ionization energy > Additional HL > p
-    "You can explore every value from hydrogen to krypton in the <a href=\"s1-3.html#ie-trends\">first ionization energy explorer in Structure 1.3</a>. That page also has the general trends in more detail.": "",
+    "You can explore every value from hydrogen to krypton in the <a href=\"s1-3.html#ie-trends\">first ionization energy explorer in Structure 1.3</a>. That page also has the general trends in more detail.": "수소부터 크립톤까지의 모든 값은 <a href=\"s1-3.html#ie-trends\">Structure 1.3의 제1 이온화 에너지 탐색기</a>에서 살펴볼 수 있어요. 그 페이지에는 전체적인 경향도 더 자세히 나와 있어요.",
 
     // Discontinuities in first ionization energy > worked example > Additional HL > data-kicker attribute
-    "Worked example 10": "",
+    "Worked example 10": "예제 10",
 
     // Discontinuities in first ionization energy > worked example > Additional HL > h3
-    "Explaining a discontinuity": "",
+    "Explaining a discontinuity": "불연속 설명하기",
 
     // Discontinuities in first ionization energy > worked example > Additional HL > p
-    "First ionization energies: Mg <span class=\"mono\">738 kJ mol<sup>−1</sup></span>, Al <span class=\"mono\">578 kJ mol<sup>−1</sup></span>. Aluminium has the greater nuclear charge. Explain why its first ionization energy is lower. [2]": "",
+    "First ionization energies: Mg <span class=\"mono\">738 kJ mol<sup>−1</sup></span>, Al <span class=\"mono\">578 kJ mol<sup>−1</sup></span>. Aluminium has the greater nuclear charge. Explain why its first ionization energy is lower. [2]": "제1 이온화 에너지: Mg <span class=\"mono\">738 kJ mol<sup>−1</sup></span>, Al <span class=\"mono\">578 kJ mol<sup>−1</sup></span>. 알루미늄의 핵전하가 더 커요. 그런데도 알루미늄의 제1 이온화 에너지가 더 낮은 이유를 설명하시오 (explain). [2]",
 
     // Discontinuities in first ionization energy > worked example > Additional HL > data-title attribute
-    "Write the configurations": "",
+    "Write the configurations": "전자 배치 쓰기",
 
     // Discontinuities in first ionization energy > worked example > Additional HL > p
-    "You need to know which sublevel each electron comes from.": "",
+    "You need to know which sublevel each electron comes from.": "각 전자가 어느 부껍질에서 나오는지 알아야 해요.",
 
     // Discontinuities in first ionization energy > worked example > Additional HL > data-title attribute
-    "Identify the electron removed": "",
+    "Identify the electron removed": "떼어 내는 전자 찾기",
 
     // Discontinuities in first ionization energy > worked example > Additional HL > p
-    "The first mark is for naming the two sublevels.": "",
+    "The first mark is for naming the two sublevels.": "첫 번째 점수는 두 부껍질의 이름을 쓰는 것이에요.",
 
     // Discontinuities in first ionization energy > worked example > Additional HL > maths line
-    "Mg loses a 3s electron. Al loses a 3p electron.": "",
+    "Mg loses a 3s electron. Al loses a 3p electron.": "Mg는 3s 전자를 잃음. Al은 3p 전자를 잃음.",
 
     // Discontinuities in first ionization energy > worked example > Additional HL > data-title attribute
-    "Compare the energies": "",
+    "Compare the energies": "에너지 비교하기",
 
     // Discontinuities in first ionization energy > worked example > Additional HL > p
-    "The second mark is for the energy of the electron removed.": "",
+    "The second mark is for the energy of the electron removed.": "두 번째 점수는 떼어 내는 전자의 에너지에 대한 것이에요.",
 
     // Discontinuities in first ionization energy > worked example > Additional HL > maths line
-    "<b>The 3p sublevel is higher in energy than the 3s sublevel, so less energy is needed to remove the 3p electron.</b>": "",
+    "<b>The 3p sublevel is higher in energy than the 3s sublevel, so less energy is needed to remove the 3p electron.</b>": "<b>3p 부껍질은 3s 부껍질보다 에너지가 높으므로, 3p 전자를 떼어 내는 데 에너지가 덜 필요함.</b>",
 
     // Discontinuities in first ionization energy > worked example > Additional HL > p
-    "The electron removed from Al is in the 3p sublevel, which is higher in energy than the 3s sublevel that Mg loses an electron from. Less energy is needed to remove it.": "",
+    "The electron removed from Al is in the 3p sublevel, which is higher in energy than the 3s sublevel that Mg loses an electron from. Less energy is needed to remove it.": "Al에서 떼어 내는 전자는 3p 부껍질에 있고, 이 부껍질은 Mg가 전자를 잃는 3s 부껍질보다 에너지가 높아요. 그래서 이 전자를 떼어 내는 데 에너지가 덜 필요해요.",
 
     // Discontinuities in first ionization energy > exam tip (shown in English + translation) > Additional HL > p
-    "Base your answer on the energy of the electron that is removed. Do not write that a full or half-full sublevel is “specially stable”, or that removing the electron “leaves a complete sublevel”. The guide rules this out and it does not earn marks.": "",
+    "Base your answer on the energy of the electron that is removed. Do not write that a full or half-full sublevel is “specially stable”, or that removing the electron “leaves a complete sublevel”. The guide rules this out and it does not earn marks.": "떼어 내는 전자의 에너지를 근거로 답하세요. 꽉 찬 부껍질이나 반쯤 찬 부껍질이 “특별히 안정하다”거나, 전자를 떼어 내면 “완전한 부껍질이 남는다”라고 쓰지 마세요. 가이드에서 이런 설명을 인정하지 않으며 점수도 받지 못해요.",
 
     // Discontinuities in first ionization energy > Additional HL > data-title attribute
-    "Discontinuities: quick check": "",
+    "Discontinuities: quick check": "불연속: 빠른 확인",
 
     // Properties of transition elements > Additional HL > data-toc attribute
-    "Transition elements": "",
+    "Transition elements": "전이 원소",
 
     // Properties of transition elements > Additional HL > h2
-    "Properties of transition elements": "",
+    "Properties of transition elements": "전이 원소의 성질",
 
     // Properties of transition elements > Additional HL > p
-    "Iron, copper, nickel and chromium are metals you see every day. They are strong, they melt at high temperatures, and their compounds have bright colours. They are all in the d-block.": "",
+    "Iron, copper, nickel and chromium are metals you see every day. They are strong, they melt at high temperatures, and their compounds have bright colours. They are all in the d-block.": "철, 구리, 니켈, 크로뮴은 매일 볼 수 있는 금속이에요. 단단하고, 높은 온도에서 녹고, 화합물은 밝은 색을 띠어요. 모두 d 구역에 있어요.",
 
     // Properties of transition elements > Additional HL > p
-    "A <dfn data-def=\"An element with an incomplete d sublevel that gives it characteristic properties.\">transition element</dfn> has an incomplete d sublevel. This gives it characteristic properties.": "",
+    "A <dfn data-def=\"An element with an incomplete d sublevel that gives it characteristic properties.\">transition element</dfn> has an incomplete d sublevel. This gives it characteristic properties.": "<dfn data-def=\"d 부껍질이 완전히 채워지지 않아서 특징적인 성질을 나타내는 원소.\">전이 원소 <span class=\"en-term\">(transition element)</span></dfn>는 d 부껍질이 완전히 채워져 있지 않아요. 이 때문에 특징적인 성질을 나타내요.",
 
     // Properties of transition elements > Additional HL > data-def attribute
-    "An element with an incomplete d sublevel that gives it characteristic properties.": "",
+    "An element with an incomplete d sublevel that gives it characteristic properties.": "d 부껍질이 완전히 채워지지 않아서 특징적인 성질을 나타내는 원소.",
 
     // Properties of transition elements > table > Additional HL > caption
-    "Six properties to recognize": "",
+    "Six properties to recognize": "알아봐야 할 6가지 성질",
 
     // Properties of transition elements > table > Additional HL > th
-    "What it means": "",
+    "What it means": "의미",
 
     // Properties of transition elements > table > Additional HL > th
-    "Where it is explained": "",
+    "Where it is explained": "설명하는 곳",
 
     // Properties of transition elements > table > Additional HL > th
-    "Variable oxidation state": "",
+    "Variable oxidation state": "여러 가지 산화수",
 
     // Properties of transition elements > table > Additional HL > td
-    "One element forms ions with different charges, such as <span class=\"chem\">Fe^2+</span> and <span class=\"chem\">Fe^3+</span>.": "",
+    "One element forms ions with different charges, such as <span class=\"chem\">Fe^2+</span> and <span class=\"chem\">Fe^3+</span>.": "한 원소가 <span class=\"chem\">Fe^2+</span>과 <span class=\"chem\">Fe^3+</span>처럼 전하가 다른 이온을 만들어요.",
 
     // Properties of transition elements > table > Additional HL > td
-    "next section": "",
+    "next section": "다음 절",
 
     // Properties of transition elements > table > Additional HL > th
-    "High melting points": "",
+    "High melting points": "높은 녹는점",
 
     // Properties of transition elements > table > Additional HL > td
-    "Compared with the metals of groups 1 and 2.": "",
+    "Compared with the metals of groups 1 and 2.": "1족, 2족 금속과 비교해서.",
 
     // Properties of transition elements > table > Additional HL > td
-    "Structure 2.3": "",
+    "Structure 2.3": "Structure 2.3",
 
     // Properties of transition elements > table > Additional HL > th
-    "Magnetic properties": "",
+    "Magnetic properties": "자기적 성질",
 
     // Properties of transition elements > table > Additional HL > td
-    "Many transition elements and their compounds are attracted by a magnet.": "",
+    "Many transition elements and their compounds are attracted by a magnet.": "많은 전이 원소와 그 화합물이 자석에 끌려요.",
 
     // Properties of transition elements > table > Additional HL > td
-    "no explanation needed": "",
+    "no explanation needed": "설명 필요 없음",
 
     // Properties of transition elements > table > Additional HL > th
-    "Catalytic properties": "",
+    "Catalytic properties": "촉매 성질",
 
     // Properties of transition elements > table > Additional HL > td
-    "The elements and their compounds can act as catalysts.": "",
+    "The elements and their compounds can act as catalysts.": "원소와 그 화합물이 촉매로 작용할 수 있어요.",
 
     // Properties of transition elements > table > Additional HL > td
-    "Reactivity 2.2": "",
+    "Reactivity 2.2": "Reactivity 2.2",
 
     // Properties of transition elements > table > Additional HL > th
-    "Coloured compounds": "",
+    "Coloured compounds": "색을 띠는 화합물",
 
     // Properties of transition elements > table > Additional HL > td
-    "For example, copper(II) sulfate solution is blue.": "",
+    "For example, copper(II) sulfate solution is blue.": "예를 들어 황산 구리(II) 용액은 파란색이에요.",
 
     // Properties of transition elements > table > Additional HL > td
-    "last section of this page": "",
+    "last section of this page": "이 페이지의 마지막 절",
 
     // Properties of transition elements > table > Additional HL > th
-    "Complex ions with ligands": "",
+    "Complex ions with ligands": "리간드가 결합한 착이온",
 
     // Properties of transition elements > table > Additional HL > td
-    "The metal ion bonds to molecules or ions around it.": "",
+    "The metal ion bonds to molecules or ions around it.": "금속 이온이 주위의 분자나 이온과 결합해요.",
 
     // Properties of transition elements > table > Additional HL > td
-    "below, and Reactivity 3.4": "",
+    "below, and Reactivity 3.4": "아래 내용과 Reactivity 3.4",
 
     // Properties of transition elements > exam tip (shown in English + translation) > Additional HL > p
-    "The command term here is “recognize”. A typical question gives a list of properties and asks which ones are characteristic of transition elements. “Low melting point” and “colourless compounds” are common wrong options.": "",
+    "The command term here is “recognize”. A typical question gives a list of properties and asks which ones are characteristic of transition elements. “Low melting point” and “colourless compounds” are common wrong options.": "여기서 지시어는 “알아보시오 (recognize)”예요. 전형적인 문제는 성질 목록을 주고 그중 어느 것이 전이 원소의 특징인지 물어요. “낮은 녹는점”과 “무색 화합물”이 흔히 나오는 오답 선택지예요.",
 
     // Properties of transition elements > Additional HL > h3
-    "Complex ions and ligands": "",
+    "Complex ions and ligands": "착이온과 리간드",
 
     // Properties of transition elements > Additional HL > p
-    "A <dfn data-def=\"A molecule or ion that donates a pair of electrons to a transition element ion, forming a coordination bond.\">ligand</dfn> is a molecule or ion that donates a pair of electrons to a transition element ion. The bond that forms is a coordination bond. Water, ammonia and the chloride ion can all be ligands, because each has a lone pair.": "",
+    "A <dfn data-def=\"A molecule or ion that donates a pair of electrons to a transition element ion, forming a coordination bond.\">ligand</dfn> is a molecule or ion that donates a pair of electrons to a transition element ion. The bond that forms is a coordination bond. Water, ammonia and the chloride ion can all be ligands, because each has a lone pair.": "<dfn data-def=\"전이 원소 이온에 전자쌍을 내주어 배위 결합을 만드는 분자나 이온.\">리간드 <span class=\"en-term\">(ligand)</span></dfn>는 전이 원소 이온에 전자쌍을 내주는 분자나 이온이에요. 이때 생기는 결합은 배위 결합이에요. 물, 암모니아, 염화 이온은 모두 비공유 전자쌍이 있으므로 리간드가 될 수 있어요.",
 
     // Properties of transition elements > Additional HL > data-def attribute
-    "A molecule or ion that donates a pair of electrons to a transition element ion, forming a coordination bond.": "",
+    "A molecule or ion that donates a pair of electrons to a transition element ion, forming a coordination bond.": "전이 원소 이온에 전자쌍을 내주어 배위 결합을 만드는 분자나 이온.",
 
     // Properties of transition elements > Additional HL > p
-    "A <dfn data-def=\"A central transition element ion bonded to ligands by coordination bonds.\">complex ion</dfn> is a central metal ion with ligands bonded to it. An example is <span class=\"mono\">[Cu(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup></span>: one <span class=\"chem\">Cu^2+</span> ion with six water ligands.": "",
+    "A <dfn data-def=\"A central transition element ion bonded to ligands by coordination bonds.\">complex ion</dfn> is a central metal ion with ligands bonded to it. An example is <span class=\"mono\">[Cu(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup></span>: one <span class=\"chem\">Cu^2+</span> ion with six water ligands.": "<dfn data-def=\"중심의 전이 원소 이온에 리간드가 배위 결합으로 결합한 것.\">착이온 <span class=\"en-term\">(complex ion)</span></dfn>은 중심 금속 이온에 리간드가 결합한 것이에요. 예를 들어 <span class=\"mono\">[Cu(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup></span>는 <span class=\"chem\">Cu^2+</span> 이온 1개에 물 리간드 6개가 결합한 것이에요.",
 
     // Properties of transition elements > Additional HL > data-def attribute
-    "A central transition element ion bonded to ligands by coordination bonds.": "",
+    "A central transition element ion bonded to ligands by coordination bonds.": "중심의 전이 원소 이온에 리간드가 배위 결합으로 결합한 것.",
 
     // Properties of transition elements > Additional HL > figcaption
-    "One water ligand and a copper(II) ion. The arrow is the coordination bond: both electrons come from the oxygen atom. The complex ion has six of these bonds.": "",
+    "One water ligand and a copper(II) ion. The arrow is the coordination bond: both electrons come from the oxygen atom. The complex ion has six of these bonds.": "물 리간드 1개와 구리(II) 이온. 화살표는 배위 결합이에요: 전자 2개가 모두 산소 원자에서 와요. 이 착이온에는 이런 결합이 6개 있어요.",
 
     // Properties of transition elements > Additional HL > h3
-    "Scandium and zinc": "",
+    "Scandium and zinc": "스칸듐과 아연",
 
     // Properties of transition elements > Additional HL > p
-    "Scandium and zinc are in the d-block, but they do not behave like typical transition elements.": "",
+    "Scandium and zinc are in the d-block, but they do not behave like typical transition elements.": "스칸듐과 아연은 d 구역에 있지만, 전형적인 전이 원소처럼 행동하지 않아요.",
 
     // Properties of transition elements > table > Additional HL > caption
-    "The d sublevel in scandium and zinc": "",
+    "The d sublevel in scandium and zinc": "스칸듐과 아연의 d 부껍질",
 
     // Properties of transition elements > table > Additional HL > th
     // widget string (assets/js/widgets-s3-1.js)
-    "Element": "",
+    "Element": "원소",
 
     // Properties of transition elements > table > Additional HL > th
-    "Atom": "",
+    "Atom": "원자",
 
     // Properties of transition elements > table > Additional HL > th
-    "Common ion": "",
+    "Common ion": "흔한 이온",
 
     // Properties of transition elements > table > Additional HL > th
-    "Result": "",
+    "Result": "결과",
 
     // Properties of transition elements > table > Additional HL > th
-    "Sc": "",
+    "Sc": "Sc",
 
     // Properties of transition elements > table > Additional HL > td
-    "[Ar] 4s<sup>2</sup> 3d<sup>1</sup>": "",
+    "[Ar] 4s<sup>2</sup> 3d<sup>1</sup>": "[Ar] 4s<sup>2</sup> 3d<sup>1</sup>",
 
     // Properties of transition elements > table > Additional HL > td
-    "Sc<sup>3+</sup>: [Ar]": "",
+    "Sc<sup>3+</sup>: [Ar]": "Sc<sup>3+</sup>: [Ar]",
 
     // Properties of transition elements > table > Additional HL > td
-    "The ion has no d electrons. Its compounds are colourless and it has one oxidation state in compounds.": "",
+    "The ion has no d electrons. Its compounds are colourless and it has one oxidation state in compounds.": "이 이온에는 d 전자가 없어요. 화합물은 무색이고, 화합물에서 산화수가 한 가지뿐이에요.",
 
     // Properties of transition elements > table > Additional HL > th
-    "Zn": "",
+    "Zn": "Zn",
 
     // Properties of transition elements > table > Additional HL > td
-    "[Ar] 4s<sup>2</sup> 3d<sup>10</sup>": "",
+    "[Ar] 4s<sup>2</sup> 3d<sup>10</sup>": "[Ar] 4s<sup>2</sup> 3d<sup>10</sup>",
 
     // Properties of transition elements > table > Additional HL > td
-    "Zn<sup>2+</sup>: [Ar] 3d<sup>10</sup>": "",
+    "Zn<sup>2+</sup>: [Ar] 3d<sup>10</sup>": "Zn<sup>2+</sup>: [Ar] 3d<sup>10</sup>",
 
     // Properties of transition elements > table > Additional HL > td
-    "The d sublevel is full in the atom and in the ion. Its compounds are colourless and it has one oxidation state in compounds.": "",
+    "The d sublevel is full in the atom and in the ion. Its compounds are colourless and it has one oxidation state in compounds.": "원자와 이온 모두 d 부껍질이 꽉 차 있어요. 화합물은 무색이고, 화합물에서 산화수가 한 가지뿐이에요.",
 
     // Properties of transition elements > Additional HL > p
-    "The guide asks you to think about scandium. An argument <b>for</b> calling it a transition element: the atom has an incomplete d sublevel (<span class=\"mono\">3d<sup>1</sup></span>), and it is a d-block metal with a high melting point. An argument <b>against</b>: its only common ion, <span class=\"chem\">Sc^3+</span>, has no d electrons, so it does not show the characteristic properties.": "",
+    "The guide asks you to think about scandium. An argument <b>for</b> calling it a transition element: the atom has an incomplete d sublevel (<span class=\"mono\">3d<sup>1</sup></span>), and it is a d-block metal with a high melting point. An argument <b>against</b>: its only common ion, <span class=\"chem\">Sc^3+</span>, has no d electrons, so it does not show the characteristic properties.": "가이드는 스칸듐에 대해 생각해 보라고 해요. 전이 원소라고 보는 <b>찬성</b> 근거: 원자의 d 부껍질이 완전히 채워져 있지 않고(<span class=\"mono\">3d<sup>1</sup></span>), 녹는점이 높은 d 구역 금속이에요. <b>반대</b> 근거: 유일한 흔한 이온인 <span class=\"chem\">Sc^3+</span>에는 d 전자가 없어서 특징적인 성질을 나타내지 않아요.",
 
     // Properties of transition elements > Additional HL > p
-    "Zinc has a full d sublevel as an atom and as an ion. It does not fit the definition, so it is usually not counted as a transition element. The guide does not mention zinc by name.": "",
+    "Zinc has a full d sublevel as an atom and as an ion. It does not fit the definition, so it is usually not counted as a transition element. The guide does not mention zinc by name.": "아연은 원자일 때도 이온일 때도 d 부껍질이 꽉 차 있어요. 정의에 맞지 않으므로 보통 전이 원소에 포함하지 않아요. 가이드에는 아연이라는 이름이 나오지 않아요.",
 
     // Properties of transition elements > not needed for IB > Additional HL > p
-    "Types of magnetism (paramagnetism, diamagnetism) are not assessed. You do not need to name complexes, know their shapes, classify ligands, or learn specific catalysts.": "",
+    "Types of magnetism (paramagnetism, diamagnetism) are not assessed. You do not need to name complexes, know their shapes, classify ligands, or learn specific catalysts.": "자성의 종류(상자성, 반자성)는 평가하지 않아요. 착화합물의 이름, 모양, 리간드 분류, 특정 촉매는 알 필요가 없어요.",
 
     // Properties of transition elements > Additional HL > data-title attribute
-    "Transition elements: quick check": "",
+    "Transition elements: quick check": "전이 원소: 빠른 확인",
 
     // Variable oxidation states and ion configurations > Additional HL > data-toc attribute
-    "Variable oxidation states": "",
+    "Variable oxidation states": "여러 가지 산화수",
 
     // Variable oxidation states and ion configurations > Additional HL > h2
-    "Variable oxidation states and ion configurations": "",
+    "Variable oxidation states and ion configurations": "여러 가지 산화수와 이온의 전자 배치",
 
     // Variable oxidation states and ion configurations > Additional HL > p
-    "Calcium always forms <span class=\"chem\">Ca^2+</span>. Iron forms <span class=\"chem\">Fe^2+</span> and <span class=\"chem\">Fe^3+</span>. Why can iron choose and calcium cannot? The answer is in the successive ionization energies.": "",
+    "Calcium always forms <span class=\"chem\">Ca^2+</span>. Iron forms <span class=\"chem\">Fe^2+</span> and <span class=\"chem\">Fe^3+</span>. Why can iron choose and calcium cannot? The answer is in the successive ionization energies.": "칼슘은 항상 <span class=\"chem\">Ca^2+</span>을 만들어요. 철은 <span class=\"chem\">Fe^2+</span>과 <span class=\"chem\">Fe^3+</span>을 만들어요. 왜 철은 고를 수 있고 칼슘은 그러지 못할까요? 답은 순차 이온화 에너지에 있어요.",
 
     // Variable oxidation states and ion configurations > Additional HL > p
-    "Successive ionization energies are the energies needed to remove the first electron, then the second, then the third, and so on. They are introduced in <a href=\"s1-3.html#successive\">Structure 1.3</a>.": "",
+    "Successive ionization energies are the energies needed to remove the first electron, then the second, then the third, and so on. They are introduced in <a href=\"s1-3.html#successive\">Structure 1.3</a>.": "순차 이온화 에너지는 첫 번째 전자, 두 번째 전자, 세 번째 전자를 차례로 떼어 내는 데 필요한 에너지예요. <a href=\"s1-3.html#successive\">Structure 1.3</a>에서 소개했어요.",
 
     // Variable oxidation states and ion configurations > widget > Additional HL > data-title attribute
-    "Successive ionization energies: calcium and a transition element": "",
+    "Successive ionization energies: calcium and a transition element": "순차 이온화 에너지: 칼슘과 전이 원소",
 
     // Variable oxidation states and ion configurations > widget > Additional HL > figcaption
-    "Compare the pattern for calcium with a transition element. Look for the large jump. The first value of each set is the data booklet value. The others are rounded reference values, not booklet data.": "",
+    "Compare the pattern for calcium with a transition element. Look for the large jump. The first value of each set is the data booklet value. The others are rounded reference values, not booklet data.": "칼슘의 무늬를 전이 원소와 비교해 보세요. 큰 도약이 있는지 찾아보세요. 각 값 묶음의 첫 번째 값은 데이터 부클릿 값이에요. 나머지는 반올림한 참고값이고 부클릿 자료가 아니에요.",
 
     // Variable oxidation states and ion configurations > key idea > Additional HL > p
-    "In a transition element, the 4s and 3d electrons are close in energy. So the successive ionization energies are close in value, with no large jump between them. The atom can lose different numbers of electrons without a very large increase in energy. This is why transition elements have variable oxidation states.": "",
+    "In a transition element, the 4s and 3d electrons are close in energy. So the successive ionization energies are close in value, with no large jump between them. The atom can lose different numbers of electrons without a very large increase in energy. This is why transition elements have variable oxidation states.": "전이 원소에서는 4s 전자와 3d 전자의 에너지가 비슷해요. 그래서 순차 이온화 에너지의 값이 비슷하고, 그 사이에 큰 도약이 없어요. 원자가 에너지가 아주 크게 늘지 않고도 서로 다른 수의 전자를 잃을 수 있어요. 이것이 전이 원소가 여러 가지 산화수를 가지는 이유예요.",
 
     // Variable oxidation states and ion configurations > Additional HL > p
-    "For calcium, the third ionization energy (<span class=\"mono\">4912 kJ mol<sup>−1</sup></span>) is about 4.3 times the second (<span class=\"mono\">1145 kJ mol<sup>−1</sup></span>). The third electron comes from an inner energy level. For iron, the third value (<span class=\"mono\">2957 kJ mol<sup>−1</sup></span>) is about 1.9 times the second (<span class=\"mono\">1562 kJ mol<sup>−1</sup></span>).": "",
+    "For calcium, the third ionization energy (<span class=\"mono\">4912 kJ mol<sup>−1</sup></span>) is about 4.3 times the second (<span class=\"mono\">1145 kJ mol<sup>−1</sup></span>). The third electron comes from an inner energy level. For iron, the third value (<span class=\"mono\">2957 kJ mol<sup>−1</sup></span>) is about 1.9 times the second (<span class=\"mono\">1562 kJ mol<sup>−1</sup></span>).": "칼슘의 제3 이온화 에너지(<span class=\"mono\">4912 kJ mol<sup>−1</sup></span>)는 제2 이온화 에너지(<span class=\"mono\">1145 kJ mol<sup>−1</sup></span>)의 약 4.3배예요. 세 번째 전자는 안쪽 에너지 준위에서 나오기 때문이에요. 철의 경우 세 번째 값(<span class=\"mono\">2957 kJ mol<sup>−1</sup></span>)은 두 번째 값(<span class=\"mono\">1562 kJ mol<sup>−1</sup></span>)의 약 1.9배예요.",
 
     // Variable oxidation states and ion configurations > exam tip (shown in English + translation) > Additional HL > p
-    "The mark-earning phrase is: “successive ionization energies are close in value”. You may add that the 4s and 3d sublevels are close in energy. “The d electrons are delocalized” is not the reason.": "",
+    "The mark-earning phrase is: “successive ionization energies are close in value”. You may add that the 4s and 3d sublevels are close in energy. “The d electrons are delocalized” is not the reason.": "점수를 받는 표현은 “순차 이온화 에너지의 값이 비슷하다”예요. 4s 부껍질과 3d 부껍질의 에너지가 비슷하다고 덧붙여도 돼요. “d 전자가 비편재화되어 있다”는 이유가 아니에요.",
 
     // Variable oxidation states and ion configurations > Additional HL > h3
-    "Electron configurations of the ions": "",
+    "Electron configurations of the ions": "이온의 전자 배치",
 
     // Variable oxidation states and ion configurations > Additional HL > p
-    "When a first-row transition element atom forms a positive ion, <b>the 4s electrons are removed before any 3d electrons</b>. Structure 1.3 explains why: once 3d contains electrons, 4s is the higher of the two sublevels. See <a href=\"s1-3.html#configurations\">Ions of the d-block metals</a>.": "",
+    "When a first-row transition element atom forms a positive ion, <b>the 4s electrons are removed before any 3d electrons</b>. Structure 1.3 explains why: once 3d contains electrons, 4s is the higher of the two sublevels. See <a href=\"s1-3.html#configurations\">Ions of the d-block metals</a>.": "첫째 줄 전이 원소 원자가 양이온이 될 때는 <b>3d 전자보다 4s 전자가 먼저 떨어져 나가요</b>. 그 이유는 Structure 1.3에서 설명해요: 3d에 전자가 들어가면 두 부껍질 중 4s의 에너지가 더 높아져요. <a href=\"s1-3.html#configurations\">d 구역 금속의 이온</a>을 참고하세요.",
 
     // Variable oxidation states and ion configurations > Additional HL > li
-    "Write the configuration of the atom. Remember Cr is <span class=\"mono\">[Ar] 4s<sup>1</sup> 3d<sup>5</sup></span> and Cu is <span class=\"mono\">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>.": "",
+    "Write the configuration of the atom. Remember Cr is <span class=\"mono\">[Ar] 4s<sup>1</sup> 3d<sup>5</sup></span> and Cu is <span class=\"mono\">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>.": "원자의 전자 배치를 쓰세요. Cr은 <span class=\"mono\">[Ar] 4s<sup>1</sup> 3d<sup>5</sup></span>이고 Cu는 <span class=\"mono\">[Ar] 4s<sup>1</sup> 3d<sup>10</sup></span>이라는 것을 기억하세요.",
 
     // Variable oxidation states and ion configurations > Additional HL > li
-    "Remove the 4s electrons first.": "",
+    "Remove the 4s electrons first.": "4s 전자를 먼저 떼어 내세요.",
 
     // Variable oxidation states and ion configurations > Additional HL > li
-    "If more electrons must go, remove them from 3d.": "",
+    "If more electrons must go, remove them from 3d.": "더 떼어 내야 하면 3d에서 떼어 내세요.",
 
     // Variable oxidation states and ion configurations > Additional HL > li
-    "Check: the number of electrons removed equals the charge.": "",
+    "Check: the number of electrons removed equals the charge.": "확인: 떼어 낸 전자 수가 전하와 같아야 해요.",
 
     // Variable oxidation states and ion configurations > widget > Additional HL > data-title attribute
-    "Build a transition element ion": "",
+    "Build a transition element ion": "전이 원소 이온 만들기",
 
     // Variable oxidation states and ion configurations > widget > Additional HL > figcaption
-    "Choose an element, then decide which sublevel loses each electron. The widget tells you if you remove them in the wrong order.": "",
+    "Choose an element, then decide which sublevel loses each electron. The widget tells you if you remove them in the wrong order.": "원소를 고른 다음, 각 전자를 어느 부껍질에서 잃을지 정하세요. 순서를 틀리면 도구가 알려 줘요.",
 
     // Variable oxidation states and ion configurations > worked example > Additional HL > data-kicker attribute
-    "Worked example 11": "",
+    "Worked example 11": "예제 11",
 
     // Variable oxidation states and ion configurations > worked example > Additional HL > h3
     "Configurations of transition element ions": "",

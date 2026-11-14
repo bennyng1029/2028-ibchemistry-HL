@@ -801,854 +801,854 @@ S1.i18n.register('ko', 's3-2', {
     "ethanamine, <span class=\"chem\">CH3CH2NH2</span>": "ethanamine, <span class=\"chem\">CH3CH2NH2</span>",
 
     // Homologous series: families of compounds > table > th
-    "amides": "",
+    "amides": "아마이드",
 
     // Homologous series: families of compounds > table > td
-    "ethanamide, <span class=\"chem\">CH3CONH2</span>": "",
+    "ethanamide, <span class=\"chem\">CH3CONH2</span>": "ethanamide, <span class=\"chem\">CH3CONH2</span>",
 
     // Homologous series: families of compounds > table > th
-    "esters": "",
+    "esters": "에스터",
 
     // Homologous series: families of compounds > table > td
-    "methyl ethanoate, <span class=\"chem\">CH3COOCH3</span>": "",
+    "methyl ethanoate, <span class=\"chem\">CH3COOCH3</span>": "methyl ethanoate, <span class=\"chem\">CH3COOCH3</span>",
 
     // Homologous series: families of compounds > p
-    "In these formulas <i>n</i> is the total number of carbon atoms in the molecule, and X is a halogen atom. The formulas are for molecules with one functional group, no rings and no other double bonds.": "",
+    "In these formulas <i>n</i> is the total number of carbon atoms in the molecule, and X is a halogen atom. The formulas are for molecules with one functional group, no rings and no other double bonds.": "이 식에서 <i>n</i>은 분자에 있는 탄소 원자의 전체 수이고, X는 할로젠 원자예요. 이 식은 작용기가 하나이고, 고리가 없고, 다른 이중 결합이 없는 분자에 대한 식이에요.",
 
     // Homologous series: families of compounds > p
-    "Not every series starts at <i>n</i> = 1. An alkene needs two carbons for its C=C, so the first alkene is ethene. A ketone needs a carbon on each side of the C=O, so the first ketone is propanone, with three carbons.": "",
+    "Not every series starts at <i>n</i> = 1. An alkene needs two carbons for its C=C, so the first alkene is ethene. A ketone needs a carbon on each side of the C=O, so the first ketone is propanone, with three carbons.": "모든 계열이 <i>n</i> = 1에서 시작하지는 않아요. 알켄은 C=C를 만들려면 탄소가 2개 있어야 하므로 첫 번째 알켄은 ethene이에요. 케톤은 C=O 양쪽에 탄소가 하나씩 있어야 하므로 첫 번째 케톤은 탄소가 3개인 propanone이에요.",
 
     // Homologous series: families of compounds > key idea > p
-    "Some general formulas are shared. Aldehydes and ketones are both <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O</span>. Carboxylic acids and esters are both <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O<sub>2</sub></span>. Alcohols and ethers are both <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>O</span>. So a molecular formula alone cannot tell you the class. This matters for isomers, later on this page.": "",
+    "Some general formulas are shared. Aldehydes and ketones are both <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O</span>. Carboxylic acids and esters are both <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O<sub>2</sub></span>. Alcohols and ethers are both <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>O</span>. So a molecular formula alone cannot tell you the class. This matters for isomers, later on this page.": "어떤 일반식은 여러 계열이 함께 써요. 알데하이드와 케톤은 둘 다 <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O</span>예요. 카복실산과 에스터는 둘 다 <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O<sub>2</sub></span>예요. 알코올과 에테르는 둘 다 <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>O</span>예요. 그래서 분자식만으로는 화합물의 종류를 알 수 없어요. 이 점은 이 페이지 뒤쪽의 이성질체에서 중요해요.",
 
     // Homologous series: families of compounds > exam tip (shown in English + translation) > p
-    "The guide does not list the general formulas, but questions do ask for one, most often for alkanes, alkenes, alkynes or alcohols. You can always rebuild a general formula from two members of the series. Write their molecular formulas and see what each extra carbon adds.": "",
+    "The guide does not list the general formulas, but questions do ask for one, most often for alkanes, alkenes, alkynes or alcohols. You can always rebuild a general formula from two members of the series. Write their molecular formulas and see what each extra carbon adds.": "IB 지침에는 일반식이 나와 있지 않지만, 문제에서는 일반식을 물어요. 알케인, 알켄, 알카인, 알코올에 대해 가장 자주 물어요. 계열의 두 구성원으로부터 일반식을 언제든 다시 만들 수 있어요. 두 분자식을 쓰고, 탄소가 하나 늘 때마다 무엇이 더해지는지 보세요.",
 
     // Homologous series: families of compounds > worked example > h3
-    "Using a general formula": "",
+    "Using a general formula": "일반식 이용하기",
 
     // Homologous series: families of compounds > worked example > p
-    "An alkane has seven carbon atoms. Deduce its molecular formula and its molar mass.": "",
+    "An alkane has seven carbon atoms. Deduce its molecular formula and its molar mass.": "어떤 알케인에는 탄소 원자가 7개 있어요. 이 알케인의 분자식과 몰 질량을 추론하시오 (deduce).",
 
     // Homologous series: families of compounds > worked example > data-title attribute
-    "Write the general formula": "",
+    "Write the general formula": "일반식 쓰기",
 
     // Homologous series: families of compounds > worked example > p
-    "Every alkane fits it.": "",
+    "Every alkane fits it.": "모든 알케인이 이 식에 맞아요.",
 
     // Homologous series: families of compounds > worked example > data-title attribute
-    "Put in n = 7": "",
+    "Put in n = 7": "n = 7 넣기",
 
     // Homologous series: families of compounds > worked example > p
-    "The number of H atoms follows from the number of C atoms.": "",
+    "The number of H atoms follows from the number of C atoms.": "H 원자 수는 C 원자 수로 정해져요.",
 
     // Homologous series: families of compounds > worked example > maths line
-    "H atoms = 2(7) + 2 = 16 &nbsp;→&nbsp; C<sub>7</sub>H<sub>16</sub>": "",
+    "H atoms = 2(7) + 2 = 16 &nbsp;→&nbsp; C<sub>7</sub>H<sub>16</sub>": "H 원자 수 = 2(7) + 2 = 16 &nbsp;→&nbsp; C<sub>7</sub>H<sub>16</sub>",
 
     // Homologous series: families of compounds > worked example > data-title attribute
-    "Add up the molar mass": "",
+    "Add up the molar mass": "몰 질량 더하기",
 
     // Homologous series: families of compounds > worked example > p
-    "Use relative atomic masses to two decimal places from the data booklet.": "",
+    "Use relative atomic masses to two decimal places from the data booklet.": "데이터 부클릿에서 소수점 아래 2자리까지의 상대 원자 질량을 써요.",
 
     // Homologous series: families of compounds > worked example > p
-    "<span class=\"chem\">C7H16</span>, 100.23 <span class=\"unit\">g mol-1</span>": "",
+    "<span class=\"chem\">C7H16</span>, 100.23 <span class=\"unit\">g mol-1</span>": "<span class=\"chem\">C7H16</span>, 100.23 <span class=\"unit\">g mol-1</span>",
 
     // Homologous series: families of compounds > try it > p
-    "How many hydrogen atoms are in one molecule of the alkene that has five carbon atoms and one C=C?": "",
+    "How many hydrogen atoms are in one molecule of the alkene that has five carbon atoms and one C=C?": "탄소 원자가 5개이고 C=C가 하나인 알켄 분자 1개에는 수소 원자가 몇 개 있을까요?",
 
     // Homologous series: families of compounds > try it > li
-    "Use the general formula of the alkenes.": "",
+    "Use the general formula of the alkenes.": "알켄의 일반식을 이용해요.",
 
     // Homologous series: families of compounds > try it > li
-    "<span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub></span> with <i>n</i> = 5.": "",
+    "<span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub></span> with <i>n</i> = 5.": "<i>n</i> = 5일 때 <span class=\"s32-f\" data-i18n=\"off\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub></span>.",
 
     // Homologous series: families of compounds > try it > maths line
-    "H atoms = 2(5) = 10 &nbsp;→&nbsp; C<sub>5</sub>H<sub>10</sub>": "",
+    "H atoms = 2(5) = 10 &nbsp;→&nbsp; C<sub>5</sub>H<sub>10</sub>": "H 원자 수 = 2(5) = 10 &nbsp;→&nbsp; C<sub>5</sub>H<sub>10</sub>",
 
     // Homologous series: families of compounds > try it > p
-    "Ethanol is <span class=\"chem\">C2H5OH</span> and propan-1-ol is <span class=\"chem\">C3H7OH</span>. Calculate the difference between their molar masses, in <span class=\"unit\">g mol-1</span>.": "",
+    "Ethanol is <span class=\"chem\">C2H5OH</span> and propan-1-ol is <span class=\"chem\">C3H7OH</span>. Calculate the difference between their molar masses, in <span class=\"unit\">g mol-1</span>.": "ethanol은 <span class=\"chem\">C2H5OH</span>이고 propan-1-ol은 <span class=\"chem\">C3H7OH</span>예요. 두 화합물의 몰 질량 차이를 <span class=\"unit\">g mol-1</span> 단위로 계산하시오 (calculate).",
 
     // Homologous series: families of compounds > try it > li
-    "Next-door members of a homologous series differ by one <span class=\"chem\">CH2</span>.": "",
+    "Next-door members of a homologous series differ by one <span class=\"chem\">CH2</span>.": "동족 계열에서 이웃한 구성원은 <span class=\"chem\">CH2</span> 하나만큼 차이 나요.",
 
     // Homologous series: families of compounds > try it > li
-    "Add up one C and two H: 12.01 + 2(1.01).": "",
+    "Add up one C and two H: 12.01 + 2(1.01).": "C 하나와 H 둘을 더해요: 12.01 + 2(1.01).",
 
     // Homologous series: families of compounds > try it > p
-    "Check: 60.11 − 46.08 = 14.03 <span class=\"unit\">g mol-1</span>.": "",
+    "Check: 60.11 − 46.08 = 14.03 <span class=\"unit\">g mol-1</span>.": "확인: 60.11 − 46.08 = 14.03 <span class=\"unit\">g mol-1</span>.",
 
     // Homologous series: families of compounds > data-title attribute
-    "Homologous series: quick check": "",
+    "Homologous series: quick check": "동족 계열: 빠른 확인",
 
     // Trends in boiling point and melting point > data-toc attribute
-    "Boiling point trends": "",
+    "Boiling point trends": "끓는점의 경향",
 
     // Trends in boiling point and melting point > h2
-    "Trends in boiling point and melting point": "",
+    "Trends in boiling point and melting point": "끓는점과 녹는점의 경향",
 
     // Trends in boiling point and melting point > p
-    "Methane is the gas in a kitchen stove. Octane is a liquid in petrol. Candle wax is a mixture of solid alkanes with more than 20 carbon atoms. They are all alkanes. The only thing that changes is the length of the chain.": "",
+    "Methane is the gas in a kitchen stove. Octane is a liquid in petrol. Candle wax is a mixture of solid alkanes with more than 20 carbon atoms. They are all alkanes. The only thing that changes is the length of the chain.": "methane은 부엌 가스레인지에 쓰는 기체예요. octane은 휘발유 속의 액체예요. 양초 왁스는 탄소 원자가 20개보다 많은 고체 알케인의 혼합물이에요. 모두 알케인이에요. 달라지는 것은 사슬의 길이뿐이에요.",
 
     // Trends in boiling point and melting point > p
-    "Along a homologous series, the boiling point rises as the carbon chain gets longer. Melting points rise too.": "",
+    "Along a homologous series, the boiling point rises as the carbon chain gets longer. Melting points rise too.": "동족 계열을 따라 탄소 사슬이 길어질수록 끓는점이 높아져요. 녹는점도 높아져요.",
 
     // Trends in boiling point and melting point > widget > data-title attribute
-    "Boiling points along a homologous series": "",
+    "Boiling points along a homologous series": "동족 계열을 따라 변하는 끓는점",
 
     // Trends in boiling point and melting point > widget > figcaption
-    "The last member of the series is hidden at first. Predict its boiling point, then check. Use “Compare with” to put a second series on the same axes. Boiling points are measured values at normal atmospheric pressure, rounded to the nearest degree.": "",
+    "The last member of the series is hidden at first. Predict its boiling point, then check. Use “Compare with” to put a second series on the same axes. Boiling points are measured values at normal atmospheric pressure, rounded to the nearest degree.": "계열의 마지막 구성원은 처음에 가려져 있어요. 그 끓는점을 예측한 다음 확인해 봐요. “Compare with”를 이용하면 같은 축에 다른 계열을 하나 더 나타낼 수 있어요. 끓는점은 보통 대기압에서 측정한 값을 1도 단위로 반올림한 값이에요.",
 
     // Trends in boiling point and melting point > h3
-    "Why the boiling point rises": "",
+    "Why the boiling point rises": "끓는점이 높아지는 이유",
 
     // Trends in boiling point and melting point > p
-    "When a liquid boils, its molecules move apart. The covalent bonds <em>inside</em> each molecule do not break. Only the weak forces <em>between</em> the molecules are overcome. These are the intermolecular forces from Structure 2.2.": "",
+    "When a liquid boils, its molecules move apart. The covalent bonds <em>inside</em> each molecule do not break. Only the weak forces <em>between</em> the molecules are overcome. These are the intermolecular forces from Structure 2.2.": "액체가 끓을 때는 분자들이 서로 멀어져요. 각 분자 <em>안의</em> 공유 결합은 끊어지지 않아요. 분자 <em>사이의</em> 약한 힘만 극복돼요. 이 힘이 Structure 2.2에서 배운 분자 간 힘이에요.",
 
     // Trends in boiling point and melting point > p
-    "Every molecule attracts its neighbours by <dfn>London (dispersion) forces</dfn>. A longer chain has more electrons, and a larger surface that touches its neighbours. So the London forces are stronger. More energy is needed to separate the molecules, and the boiling point is higher.": "",
+    "Every molecule attracts its neighbours by <dfn>London (dispersion) forces</dfn>. A longer chain has more electrons, and a larger surface that touches its neighbours. So the London forces are stronger. More energy is needed to separate the molecules, and the boiling point is higher.": "모든 분자는 <dfn>런던 분산력 <span class=\"en-term\">(London (dispersion) forces)</span></dfn>으로 이웃 분자를 끌어당겨요. 사슬이 길수록 전자가 많고, 이웃 분자와 닿는 표면도 넓어요. 그래서 런던 분산력이 더 강해요. 분자를 떼어 놓는 데 에너지가 더 많이 필요하므로 끓는점이 더 높아요.",
 
     // Trends in boiling point and melting point > p
-    "The functional group is the same in every member, so the forces it causes stay about the same. The part that grows is the carbon chain.": "",
+    "The functional group is the same in every member, so the forces it causes stay about the same. The part that grows is the carbon chain.": "모든 구성원에서 작용기는 같으므로, 작용기 때문에 생기는 힘은 거의 같아요. 커지는 부분은 탄소 사슬이에요.",
 
     // Trends in boiling point and melting point > exam tip (shown in English + translation) > p
-    "Two points earn the marks. First, name the force: London (dispersion) forces. Second, say why they are stronger: more electrons, or greater molar mass, or a larger surface area, as the chain gets longer. “Stronger bonds” without naming the force earns nothing.": "",
+    "Two points earn the marks. First, name the force: London (dispersion) forces. Second, say why they are stronger: more electrons, or greater molar mass, or a larger surface area, as the chain gets longer. “Stronger bonds” without naming the force earns nothing.": "점수를 받으려면 두 가지를 써야 해요. 첫째, 힘의 이름을 쓰세요: 런던 분산력. 둘째, 왜 더 강해지는지 쓰세요: 사슬이 길어지면서 전자가 많아지거나, 몰 질량이 커지거나, 표면적이 넓어지기 때문이에요. 힘의 이름 없이 “결합이 더 강하다”라고 쓰면 점수를 받지 못해요.",
 
     // Trends in boiling point and melting point > common mistake > p
-    "Do not write that the covalent bonds in a larger molecule are harder to break. Boiling does not break covalent bonds. Ethane gas is still made of <span class=\"chem\">C2H6</span> molecules.": "",
+    "Do not write that the covalent bonds in a larger molecule are harder to break. Boiling does not break covalent bonds. Ethane gas is still made of <span class=\"chem\">C2H6</span> molecules.": "큰 분자일수록 공유 결합을 끊기 어렵다고 쓰지 마세요. 끓을 때 공유 결합은 끊어지지 않아요. 기체 상태의 ethane도 여전히 <span class=\"chem\">C2H6</span> 분자로 이루어져 있어요.",
 
     // Trends in boiling point and melting point > h3
-    "Melting points": "",
+    "Melting points": "녹는점",
 
     // Trends in boiling point and melting point > p
-    "Melting points also rise overall along a series, for the same reason. The rise is less regular, because melting also depends on how well the molecules pack together in the solid. Choose “Melting point (alkanes)” in the graph above to see this.": "",
+    "Melting points also rise overall along a series, for the same reason. The rise is less regular, because melting also depends on how well the molecules pack together in the solid. Choose “Melting point (alkanes)” in the graph above to see this.": "녹는점도 같은 이유로 계열을 따라 전체적으로 높아져요. 하지만 녹는점은 고체에서 분자가 얼마나 잘 쌓이는지에도 영향을 받으므로 덜 규칙적으로 높아져요. 위 그래프에서 “Melting point (alkanes)”를 골라 확인해 봐요.",
 
     // Trends in boiling point and melting point > h3
-    "Different functional groups, similar size": "",
+    "Different functional groups, similar size": "작용기가 다르고 크기가 비슷할 때",
 
     // Trends in boiling point and melting point > p
-    "You can only compare chain length fairly inside one series. Between series, the functional group matters more. The table compares molecules of nearly the same molar mass.": "",
+    "You can only compare chain length fairly inside one series. Between series, the functional group matters more. The table compares molecules of nearly the same molar mass.": "사슬 길이는 한 계열 안에서만 공정하게 비교할 수 있어요. 계열끼리 비교할 때는 작용기가 더 중요해요. 이 표는 몰 질량이 거의 같은 분자들을 비교해요.",
 
     // Trends in boiling point and melting point > table > caption
-    "Boiling points of compounds with similar molar mass": "",
+    "Boiling points of compounds with similar molar mass": "몰 질량이 비슷한 화합물의 끓는점",
 
     // Trends in boiling point and melting point > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "Compound": "",
+    "Compound": "화합물",
 
     // Trends in boiling point and melting point > table > th
     // IUPAC names > table > th
     // Primary, secondary and tertiary > table > th
-    "Class": "",
+    "Class": "종류",
 
     // Trends in boiling point and melting point > table > th
-    "<i>M</i> / <span class=\"unit\">g mol-1</span>": "",
+    "<i>M</i> / <span class=\"unit\">g mol-1</span>": "<i>M</i> / <span class=\"unit\">g mol-1</span>",
 
     // Trends in boiling point and melting point > table > th
-    "Strongest force between molecules": "",
+    "Strongest force between molecules": "분자 사이에 작용하는 가장 강한 힘",
 
     // Trends in boiling point and melting point > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "Boiling point / °C": "",
+    "Boiling point / °C": "끓는점 / °C",
 
     // Trends in boiling point and melting point > table > th
-    "propane, <span class=\"chem\">CH3CH2CH3</span>": "",
+    "propane, <span class=\"chem\">CH3CH2CH3</span>": "propane, <span class=\"chem\">CH3CH2CH3</span>",
 
     // Trends in boiling point and melting point > table > td
     // IUPAC names > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "alkane": "",
+    "alkane": "알케인",
 
     // Trends in boiling point and melting point > table > td
-    "London (dispersion) forces": "",
-
-    // Trends in boiling point and melting point > table > td
-    // IUPAC names > table > th
-    // widget string (assets/js/widgets-s3-2.js)
-    "aldehyde": "",
-
-    // Trends in boiling point and melting point > table > td
-    "dipole–dipole forces": "",
+    "London (dispersion) forces": "런던 분산력",
 
     // Trends in boiling point and melting point > table > td
     // IUPAC names > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "alcohol": "",
+    "aldehyde": "알데하이드",
 
     // Trends in boiling point and melting point > table > td
-    "hydrogen bonding": "",
+    "dipole–dipole forces": "쌍극자-쌍극자 힘",
+
+    // Trends in boiling point and melting point > table > td
+    // IUPAC names > table > th
+    // widget string (assets/js/widgets-s3-2.js)
+    "alcohol": "알코올",
+
+    // Trends in boiling point and melting point > table > td
+    "hydrogen bonding": "수소 결합",
 
     // Trends in boiling point and melting point > table > th
-    "methanoic acid, <span class=\"chem\">HCOOH</span>": "",
+    "methanoic acid, <span class=\"chem\">HCOOH</span>": "methanoic acid, <span class=\"chem\">HCOOH</span>",
 
     // Trends in boiling point and melting point > table > td
     // IUPAC names > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "carboxylic acid": "",
+    "carboxylic acid": "카복실산",
 
     // Trends in boiling point and melting point > p
-    "An alkane molecule is non-polar, so it has London forces only. The polar C=O in an aldehyde adds dipole–dipole forces. The O–H in an alcohol or a carboxylic acid allows hydrogen bonding, the strongest of the three.": "",
+    "An alkane molecule is non-polar, so it has London forces only. The polar C=O in an aldehyde adds dipole–dipole forces. The O–H in an alcohol or a carboxylic acid allows hydrogen bonding, the strongest of the three.": "알케인 분자는 무극성이라서 런던 분산력만 있어요. 알데하이드에 있는 극성 C=O는 쌍극자-쌍극자 힘을 더해요. 알코올이나 카복실산에 있는 O–H는 수소 결합을 할 수 있게 해 주는데, 수소 결합은 세 힘 중 가장 강해요.",
 
     // Trends in boiling point and melting point > h3
-    "Branching": "",
+    "Branching": "가지 달린 사슬",
 
     // Trends in boiling point and melting point > p
-    "A branched molecule is more compact than a straight-chain molecule with the same formula. It has less surface in contact with its neighbours. The London forces are weaker, so the boiling point is lower.": "",
+    "A branched molecule is more compact than a straight-chain molecule with the same formula. It has less surface in contact with its neighbours. The London forces are weaker, so the boiling point is lower.": "가지 달린 분자는 분자식이 같은 곧은 사슬 분자보다 더 오밀조밀해요. 이웃 분자와 닿는 표면이 더 좁아요. 런던 분산력이 더 약하므로 끓는점이 더 낮아요.",
 
     // Trends in boiling point and melting point > table > caption
-    "Three compounds with the molecular formula C<sub>5</sub>H<sub>12</sub>": "",
+    "Three compounds with the molecular formula C<sub>5</sub>H<sub>12</sub>": "분자식이 C<sub>5</sub>H<sub>12</sub>인 화합물 3가지",
 
     // Trends in boiling point and melting point > table > th
     // IUPAC names > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "Skeletal formula": "",
+    "Skeletal formula": "골격 구조식",
 
     // Trends in boiling point and melting point > table > th
     // Trends in boiling point and melting point > table > data-label attribute
-    "pentane": "",
+    "pentane": "pentane",
 
     // Trends in boiling point and melting point > table > th
     // Trends in boiling point and melting point > table > data-label attribute
-    "2-methylbutane": "",
+    "2-methylbutane": "2-methylbutane",
 
     // Trends in boiling point and melting point > table > th
     // Trends in boiling point and melting point > table > data-label attribute
-    "2,2-dimethylpropane": "",
+    "2,2-dimethylpropane": "2,2-dimethylpropane",
 
     // Trends in boiling point and melting point > p
-    "Boiling points on this page are measured values for real compounds, rounded to the nearest degree. They are not in the data booklet, and you do not have to remember them.": "",
+    "Boiling points on this page are measured values for real compounds, rounded to the nearest degree. They are not in the data booklet, and you do not have to remember them.": "이 페이지의 끓는점은 실제 화합물을 측정한 값을 1도 단위로 반올림한 값이에요. 데이터 부클릿에는 없고, 외울 필요도 없어요.",
 
     // Trends in boiling point and melting point > worked example > data-kicker attribute
-    "Worked answer": "",
+    "Worked answer": "모범 답안 풀이",
 
     // Trends in boiling point and melting point > worked example > h3
-    "Explaining a trend in an exam answer": "",
+    "Explaining a trend in an exam answer": "시험 답안에서 경향 설명하기",
 
     // Trends in boiling point and melting point > worked example > p
-    "The boiling points of methanol, ethanol and propan-1-ol are 65 °C, 78 °C and 97 °C. Explain this trend. [2 marks]": "",
+    "The boiling points of methanol, ethanol and propan-1-ol are 65 °C, 78 °C and 97 °C. Explain this trend. [2 marks]": "methanol, ethanol, propan-1-ol의 끓는점은 65 °C, 78 °C, 97 °C예요. 이 경향을 설명하시오 (explain). [2 marks]",
 
     // Trends in boiling point and melting point > worked example > data-title attribute
-    "Say what stays the same": "",
+    "Say what stays the same": "변하지 않는 것 말하기",
 
     // Trends in boiling point and melting point > worked example > p
-    "This shows you know which force is <em>not</em> the cause of the change.": "",
+    "This shows you know which force is <em>not</em> the cause of the change.": "어떤 힘이 변화의 원인이 <em>아닌지</em> 안다는 것을 보여 줘요.",
 
     // Trends in boiling point and melting point > worked example > p
-    "All three molecules have one hydroxyl group, so each can form hydrogen bonds in the same way.": "",
+    "All three molecules have one hydroxyl group, so each can form hydrogen bonds in the same way.": "세 분자 모두 하이드록시기가 하나씩 있으므로, 각 분자는 같은 방식으로 수소 결합을 할 수 있어요.",
 
     // Trends in boiling point and melting point > worked example > data-title attribute
-    "Say what changes": "",
+    "Say what changes": "변하는 것 말하기",
 
     // Trends in boiling point and melting point > worked example > p
-    "Each member has one more <span class=\"chem\">CH2</span> than the one before.": "",
+    "Each member has one more <span class=\"chem\">CH2</span> than the one before.": "각 구성원은 바로 앞 구성원보다 <span class=\"chem\">CH2</span>가 하나 더 많아요.",
 
     // Trends in boiling point and melting point > worked example > p
-    "From methanol to propan-1-ol the molecules have more electrons (a greater molar mass and a larger surface area).": "",
+    "From methanol to propan-1-ol the molecules have more electrons (a greater molar mass and a larger surface area).": "methanol에서 propan-1-ol로 갈수록 분자의 전자 수가 많아져요(몰 질량이 커지고 표면적이 넓어져요).",
 
     // Trends in boiling point and melting point > worked example > data-title attribute
-    "Name the force and finish the argument": "",
+    "Name the force and finish the argument": "힘의 이름을 쓰고 논리 마무리하기",
 
     // Trends in boiling point and melting point > worked example > p
-    "The mark is for the named force, linked to the energy needed.": "",
+    "The mark is for the named force, linked to the energy needed.": "점수는 필요한 에너지와 연결해서 힘의 이름을 썼을 때 받아요.",
 
     // Trends in boiling point and melting point > worked example > p
-    "So the London (dispersion) forces between the molecules become stronger. More energy is needed to separate the molecules, so the boiling point increases.": "",
+    "So the London (dispersion) forces between the molecules become stronger. More energy is needed to separate the molecules, so the boiling point increases.": "그래서 분자 사이의 런던 분산력이 더 강해져요. 분자를 떼어 놓는 데 에너지가 더 많이 필요하므로 끓는점이 높아져요.",
 
     // Trends in boiling point and melting point > worked example > p
-    "London (dispersion) forces become stronger [1] because the molecules have more electrons / greater molar mass / larger surface area as the chain length increases [1].": "",
+    "London (dispersion) forces become stronger [1] because the molecules have more electrons / greater molar mass / larger surface area as the chain length increases [1].": "사슬 길이가 길어지면서 분자의 전자 수가 많아지기 / 몰 질량이 커지기 / 표면적이 넓어지기 때문에 [1] 런던 분산력이 더 강해져요 [1].",
 
     // Trends in boiling point and melting point > try it > data-title attribute
-    "Try it: predict": "",
+    "Try it: predict": "직접 해 보기: 예측",
 
     // Trends in boiling point and melting point > try it > p
-    "Butane boils at 0 °C, pentane at 36 °C and hexane at 69 °C. Estimate the boiling point of heptane, the next alkane. An answer within 6 °C of the measured value counts as correct.": "",
+    "Butane boils at 0 °C, pentane at 36 °C and hexane at 69 °C. Estimate the boiling point of heptane, the next alkane. An answer within 6 °C of the measured value counts as correct.": "butane은 0 °C, pentane은 36 °C, hexane은 69 °C에서 끓어요. 다음 알케인인 heptane의 끓는점을 어림하시오 (estimate). 측정값과 6 °C 이내로 차이 나면 정답이에요.",
 
     // Trends in boiling point and melting point > try it > li
-    "Find how much the boiling point rises for each extra <span class=\"chem\">CH2</span>.": "",
+    "Find how much the boiling point rises for each extra <span class=\"chem\">CH2</span>.": "<span class=\"chem\">CH2</span>가 하나 늘 때마다 끓는점이 얼마나 높아지는지 구해 봐요.",
 
     // Trends in boiling point and melting point > try it > li
-    "The rises are 36 °C and then 33 °C. The steps are getting a little smaller, so add about 30 °C to 69 °C.": "",
+    "The rises are 36 °C and then 33 °C. The steps are getting a little smaller, so add about 30 °C to 69 °C.": "36 °C, 그다음 33 °C만큼 높아져요. 오르는 폭이 조금씩 줄고 있으므로 69 °C에 약 30 °C를 더해요.",
 
     // Trends in boiling point and melting point > try it > p
-    "The steps are +36 °C and +33 °C. A sensible next step is about +30 °C, which gives about 99 °C. The measured boiling point of heptane is 98 °C.": "",
+    "The steps are +36 °C and +33 °C. A sensible next step is about +30 °C, which gives about 99 °C. The measured boiling point of heptane is 98 °C.": "오르는 폭은 +36 °C와 +33 °C예요. 다음 폭으로 적당한 값은 약 +30 °C이고, 그러면 약 99 °C가 돼요. heptane의 실제 측정 끓는점은 98 °C예요.",
 
     // Trends in boiling point and melting point > data-title attribute
-    "Boiling point trends: quick check": "",
+    "Boiling point trends: quick check": "끓는점의 경향: 빠른 확인",
 
     // IUPAC names > data-toc attribute
     // IUPAC names > h2
-    "IUPAC names": "",
+    "IUPAC names": "IUPAC 이름",
 
     // IUPAC names > p
-    "A postal address is built from fixed parts in a fixed order, so that it points to exactly one house. A chemical name works in the same way. If you know the rules, you can turn any name into a structure, and any structure into a name.": "",
+    "A postal address is built from fixed parts in a fixed order, so that it points to exactly one house. A chemical name works in the same way. If you know the rules, you can turn any name into a structure, and any structure into a name.": "우편 주소는 정해진 부분을 정해진 순서로 써서 꼭 한 집만 가리켜요. 화학 이름도 같은 방식이에요. 규칙을 알면 어떤 이름이든 구조로, 어떤 구조든 이름으로 바꿀 수 있어요.",
 
     // IUPAC names > p
-    "<dfn>IUPAC nomenclature</dfn> is the set of rules for naming compounds. IUPAC is the International Union of Pure and Applied Chemistry. The rules give each compound a systematic name that chemists everywhere can read.": "",
+    "<dfn>IUPAC nomenclature</dfn> is the set of rules for naming compounds. IUPAC is the International Union of Pure and Applied Chemistry. The rules give each compound a systematic name that chemists everywhere can read.": "<dfn>IUPAC 명명법 <span class=\"en-term\">(IUPAC nomenclature)</span></dfn>은 화합물에 이름을 붙이는 규칙이에요. IUPAC은 국제 순수·응용 화학 연합(International Union of Pure and Applied Chemistry)이에요. 이 규칙에 따라 각 화합물은 전 세계 화학자가 읽을 수 있는 체계적인 이름을 얻어요.",
 
     // IUPAC names > not needed for IB > data-title attribute
-    "What you must be able to name": "",
+    "What you must be able to name": "이름을 붙일 줄 알아야 하는 것",
 
     // IUPAC names > not needed for IB > p
-    "You name compounds that have: a parent chain of one to six carbon atoms; only single bonds between carbons, or one C=C or C≡C; and one type of group out of halogeno, hydroxyl, carbonyl and carboxyl. The chain can be straight or branched.": "",
+    "You name compounds that have: a parent chain of one to six carbon atoms; only single bonds between carbons, or one C=C or C≡C; and one type of group out of halogeno, hydroxyl, carbonyl and carboxyl. The chain can be straight or branched.": "이름을 붙여야 하는 화합물은 다음과 같아요: 주사슬의 탄소 원자가 1개에서 6개이고, 탄소 사이에 단일 결합만 있거나 C=C 또는 C≡C가 하나 있으며, 할로젠기, 하이드록시기, 카보닐기, 카복실기 중 한 종류의 기를 가진 화합물이에요. 사슬은 곧은 사슬일 수도 있고 가지 달린 사슬일 수도 있어요.",
 
     // IUPAC names > not needed for IB > p
-    "That means alkanes, alkenes, alkynes, halogenoalkanes, alcohols, aldehydes, ketones and carboxylic acids. You must <em>recognize</em> ethers, amines, amides and esters as classes, but the guide does not ask you to name them. Their names may be given to you in a question. You also do not name compounds with two different functional groups, or with rings.": "",
+    "That means alkanes, alkenes, alkynes, halogenoalkanes, alcohols, aldehydes, ketones and carboxylic acids. You must <em>recognize</em> ethers, amines, amides and esters as classes, but the guide does not ask you to name them. Their names may be given to you in a question. You also do not name compounds with two different functional groups, or with rings.": "즉 알케인, 알켄, 알카인, 할로젠화 알케인, 알코올, 알데하이드, 케톤, 카복실산이에요. 에테르, 아민, 아마이드, 에스터는 화합물의 종류로 <em>알아볼</em> 수 있어야 하지만, IB 지침에서 이름을 붙이라고 요구하지는 않아요. 이들의 이름은 문제에서 주어질 수 있어요. 서로 다른 작용기가 2개 있거나 고리가 있는 화합물도 이름을 붙이지 않아요.",
 
     // IUPAC names > h3
-    "The three parts of a name": "",
+    "The three parts of a name": "이름의 3부분",
 
     // IUPAC names > li
-    "<b>prefix</b> – what is attached to the chain, and where": "",
+    "<b>prefix</b> – what is attached to the chain, and where": "<b>접두사(prefix)</b> – 사슬에 무엇이 어디에 붙어 있는지",
 
     // IUPAC names > li
-    "<b>stem</b> – how many carbons are in the parent chain": "",
+    "<b>stem</b> – how many carbons are in the parent chain": "<b>어간(stem)</b> – 주사슬에 탄소가 몇 개 있는지",
 
     // IUPAC names > li
-    "<b>ending</b> – the type of carbon–carbon bonds, and the functional group": "",
+    "<b>ending</b> – the type of carbon–carbon bonds, and the functional group": "<b>어미(ending)</b> – 탄소–탄소 결합의 종류와 작용기",
 
     // IUPAC names > p
-    "For example, in <span class=\"s32-name\" data-i18n=\"off\">2-methylbutan-1-ol</span> the prefix is 2-methyl, the stem is but, and the ending is an-1-ol.": "",
+    "For example, in <span class=\"s32-name\" data-i18n=\"off\">2-methylbutan-1-ol</span> the prefix is 2-methyl, the stem is but, and the ending is an-1-ol.": "예를 들어 <span class=\"s32-name\" data-i18n=\"off\">2-methylbutan-1-ol</span>에서 접두사는 2-methyl, 어간은 but, 어미는 an-1-ol이에요.",
 
     // IUPAC names > table > caption
-    "Stems": "",
+    "Stems": "어간",
 
     // IUPAC names > table > th
-    "Carbons in the parent chain": "",
+    "Carbons in the parent chain": "주사슬의 탄소 수",
 
     // IUPAC names > table > th
-    "Stem": "",
+    "Stem": "어간",
 
     // IUPAC names > table > td
-    "meth-": "",
+    "meth-": "meth-",
 
     // IUPAC names > table > td
-    "eth-": "",
+    "eth-": "eth-",
 
     // IUPAC names > table > td
-    "prop-": "",
+    "prop-": "prop-",
 
     // IUPAC names > table > td
-    "but-": "",
+    "but-": "but-",
 
     // IUPAC names > table > td
-    "pent-": "",
+    "pent-": "pent-",
 
     // IUPAC names > table > td
-    "hex-": "",
+    "hex-": "hex-",
 
     // IUPAC names > table > caption
-    "Prefixes for things attached to the chain": "",
+    "Prefixes for things attached to the chain": "사슬에 붙은 것의 접두사",
 
     // IUPAC names > table > th
-    "Attached group": "",
+    "Attached group": "붙은 기",
 
     // IUPAC names > table > th
-    "Prefix": "",
+    "Prefix": "접두사",
 
     // IUPAC names > table > td
-    "methyl": "",
+    "methyl": "methyl",
 
     // IUPAC names > table > td
-    "ethyl": "",
+    "ethyl": "ethyl",
 
     // IUPAC names > table > td
-    "fluoro": "",
+    "fluoro": "fluoro",
 
     // IUPAC names > table > td
-    "chloro": "",
+    "chloro": "chloro",
 
     // IUPAC names > table > td
-    "bromo": "",
+    "bromo": "bromo",
 
     // IUPAC names > table > td
-    "iodo": "",
+    "iodo": "iodo",
 
     // IUPAC names > table > caption
-    "Endings": "",
+    "Endings": "어미",
 
     // IUPAC names > table > th
-    "Ending": "",
+    "Ending": "어미",
 
     // IUPAC names > table > td
-    "-ane": "",
+    "-ane": "-ane",
 
     // IUPAC names > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "alkene": "",
+    "alkene": "알켄",
 
     // IUPAC names > table > td
-    "-ene": "",
+    "-ene": "-ene",
 
     // IUPAC names > table > td
     // IUPAC names > table > data-label attribute
-    "but-1-ene": "",
+    "but-1-ene": "but-1-ene",
 
     // IUPAC names > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "alkyne": "",
+    "alkyne": "알카인",
 
     // IUPAC names > table > td
-    "-yne": "",
+    "-yne": "-yne",
 
     // IUPAC names > table > td
     // IUPAC names > table > data-label attribute
-    "propyne": "",
+    "propyne": "propyne",
 
     // IUPAC names > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "halogenoalkane": "",
+    "halogenoalkane": "할로젠화 알케인",
 
     // IUPAC names > table > td
-    "-ane, with a halogen prefix": "",
+    "-ane, with a halogen prefix": "-ane, 할로젠 접두사를 붙여요",
 
     // IUPAC names > table > td
     // IUPAC names > table > data-label attribute
-    "2-chloropropane": "",
+    "2-chloropropane": "2-chloropropane",
 
     // IUPAC names > table > td
-    "-ol": "",
+    "-ol": "-ol",
 
     // IUPAC names > table > td
     // IUPAC names > table > data-label attribute
     // Structural isomers > table > data-label attribute
     // Primary, secondary and tertiary > table > td
-    "propan-2-ol": "",
+    "propan-2-ol": "propan-2-ol",
 
     // IUPAC names > table > td
-    "-al": "",
+    "-al": "-al",
 
     // IUPAC names > table > td
     // IUPAC names > table > data-label attribute
     // Structural isomers > table > data-label attribute
-    "propanal": "",
+    "propanal": "propanal",
 
     // IUPAC names > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "ketone": "",
+    "ketone": "케톤",
 
     // IUPAC names > table > td
-    "-one": "",
-
-    // IUPAC names > table > td
-    // IUPAC names > table > data-label attribute
-    "pentan-2-one": "",
-
-    // IUPAC names > table > td
-    "-oic acid": "",
+    "-one": "-one",
 
     // IUPAC names > table > td
     // IUPAC names > table > data-label attribute
-    "propanoic acid": "",
+    "pentan-2-one": "pentan-2-one",
+
+    // IUPAC names > table > td
+    "-oic acid": "-oic acid",
+
+    // IUPAC names > table > td
+    // IUPAC names > table > data-label attribute
+    "propanoic acid": "propanoic acid",
 
     // IUPAC names > p
-    "The letters before the ending tell you about the carbon–carbon bonds: <b>-an-</b> means all single, <b>-en-</b> means one C=C, and <b>-yn-</b> means one C≡C. So <span class=\"s32-name\" data-i18n=\"off\">but-2-enoic acid</span> is a four-carbon carboxylic acid with a C=C that starts at carbon 2.": "",
+    "The letters before the ending tell you about the carbon–carbon bonds: <b>-an-</b> means all single, <b>-en-</b> means one C=C, and <b>-yn-</b> means one C≡C. So <span class=\"s32-name\" data-i18n=\"off\">but-2-enoic acid</span> is a four-carbon carboxylic acid with a C=C that starts at carbon 2.": "어미 앞의 글자는 탄소–탄소 결합에 대해 알려 줘요: <b>-an-</b>은 모두 단일 결합, <b>-en-</b>은 C=C가 하나, <b>-yn-</b>은 C≡C가 하나라는 뜻이에요. 그래서 <span class=\"s32-name\" data-i18n=\"off\">but-2-enoic acid</span>는 탄소 2에서 시작하는 C=C가 있는, 탄소 4개짜리 카복실산이에요.",
 
     // IUPAC names > h3
-    "Method in words": "",
+    "Method in words": "말로 정리한 방법",
 
     // IUPAC names > li
-    "<strong>Find the parent chain.</strong> It is the longest chain of carbon atoms that contains the carbon of the functional group, and the C=C or C≡C if there is one. The chain may bend. Its length gives the stem.": "",
+    "<strong>Find the parent chain.</strong> It is the longest chain of carbon atoms that contains the carbon of the functional group, and the C=C or C≡C if there is one. The chain may bend. Its length gives the stem.": "<strong>주사슬을 찾아요.</strong> 주사슬은 작용기의 탄소와, C=C나 C≡C가 있으면 그것까지 포함하는 가장 긴 탄소 원자 사슬이에요. 사슬은 구부러져 있을 수 있어요. 사슬의 길이로 어간이 정해져요.",
 
     // IUPAC names > li
-    "<strong>Number the chain.</strong> Start from the end that gives the lowest number to the group named by the ending. If there is no such group, give the lowest number to the C=C or C≡C. If there is none of those, give the lowest numbers to the attached groups.": "",
+    "<strong>Number the chain.</strong> Start from the end that gives the lowest number to the group named by the ending. If there is no such group, give the lowest number to the C=C or C≡C. If there is none of those, give the lowest numbers to the attached groups.": "<strong>사슬에 번호를 붙여요.</strong> 어미로 나타내는 기가 가장 작은 번호를 받는 쪽 끝에서 시작해요. 그런 기가 없으면 C=C나 C≡C에 가장 작은 번호를 줘요. 그것도 없으면 붙어 있는 기에 가장 작은 번호를 줘요.",
 
     // IUPAC names > li
-    "<strong>Name what is attached.</strong> Each branch or halogen gets a prefix and the number of the carbon it is on. Use di- for two of the same kind and tri- for three. Put different prefixes in alphabetical order (ignore di- and tri- when you sort).": "",
+    "<strong>Name what is attached.</strong> Each branch or halogen gets a prefix and the number of the carbon it is on. Use di- for two of the same kind and tri- for three. Put different prefixes in alphabetical order (ignore di- and tri- when you sort).": "<strong>붙어 있는 것의 이름을 붙여요.</strong> 각 곁가지나 할로젠은 접두사와, 붙어 있는 탄소의 번호를 받아요. 같은 종류가 2개면 di-, 3개면 tri-를 써요. 서로 다른 접두사는 알파벳 순서로 써요(순서를 정할 때 di-와 tri-는 무시해요).",
 
     // IUPAC names > li
-    "<strong>Put the name together.</strong> Prefix, stem, ending. Write commas between numbers and hyphens between a number and a letter.": "",
+    "<strong>Put the name together.</strong> Prefix, stem, ending. Write commas between numbers and hyphens between a number and a letter.": "<strong>이름을 조립해요.</strong> 접두사, 어간, 어미 순서예요. 숫자와 숫자 사이에는 쉼표를, 숫자와 글자 사이에는 하이픈을 써요.",
 
     // IUPAC names > p
-    "Two more rules save time. The carbon of an aldehyde group or a carboxyl group is always carbon 1, so its number is never written: propanal, not propan-1-al. And a number is left out when only one position is possible: ethanol, propene, propanone, butanone.": "",
+    "Two more rules save time. The carbon of an aldehyde group or a carboxyl group is always carbon 1, so its number is never written: propanal, not propan-1-al. And a number is left out when only one position is possible: ethanol, propene, propanone, butanone.": "시간을 아껴 주는 규칙이 2가지 더 있어요. 알데하이드기나 카복실기의 탄소는 항상 탄소 1이므로 그 번호는 쓰지 않아요: propan-1-al이 아니라 propanal이에요. 그리고 가능한 위치가 하나뿐이면 번호를 생략해요: ethanol, propene, propanone, butanone.",
 
     // IUPAC names > common mistake > p
-    "The longest chain is not always drawn in a straight line. Trace every path through the carbons before you choose. A “2-ethyl” branch usually means you missed a longer chain. For example, “2-ethylbutane” is really 3-methylpentane.": "",
+    "The longest chain is not always drawn in a straight line. Trace every path through the carbons before you choose. A “2-ethyl” branch usually means you missed a longer chain. For example, “2-ethylbutane” is really 3-methylpentane.": "가장 긴 사슬이 항상 일직선으로 그려져 있지는 않아요. 고르기 전에 탄소를 지나는 모든 경로를 따라가 보세요. “2-ethyl” 곁가지가 나왔다면 보통 더 긴 사슬을 놓쳤다는 뜻이에요. 예를 들어 “2-ethylbutane”은 사실 3-methylpentane이에요.",
 
     // IUPAC names > worked example > data-kicker attribute
-    "Naming example 1": "",
+    "Naming example 1": "이름 붙이기 예제 1",
 
     // IUPAC names > worked example > h3
-    "An alcohol with a position number": "",
+    "An alcohol with a position number": "위치 번호가 있는 알코올",
 
     // IUPAC names > worked example > p
-    "Name this compound.": "",
+    "Name this compound.": "이 화합물의 이름을 쓰시오 (name).",
 
     // IUPAC names > worked example > data-label attribute
-    "Skeletal formula: a zig-zag chain of four carbons with an OH group on the second carbon from the right": "",
+    "Skeletal formula: a zig-zag chain of four carbons with an OH group on the second carbon from the right": "골격 구조식: 탄소 4개로 된 지그재그 사슬이고, 오른쪽에서 두 번째 탄소에 OH기가 있어요",
 
     // IUPAC names > worked example > data-title attribute
-    "Find the parent chain": "",
+    "Find the parent chain": "주사슬 찾기",
 
     // IUPAC names > worked example > p
-    "It must contain the carbon that carries the OH.": "",
+    "It must contain the carbon that carries the OH.": "OH가 붙은 탄소를 포함해야 해요.",
 
     // IUPAC names > worked example > p
-    "The longest chain has four carbons. Stem: <b>but-</b>. All carbon–carbon bonds are single: <b>butan-</b>.": "",
+    "The longest chain has four carbons. Stem: <b>but-</b>. All carbon–carbon bonds are single: <b>butan-</b>.": "가장 긴 사슬에는 탄소가 4개 있어요. 어간: <b>but-</b>. 탄소–탄소 결합이 모두 단일 결합이에요: <b>butan-</b>.",
 
     // IUPAC names > worked example > data-title attribute
-    "Number the chain": "",
+    "Number the chain": "사슬에 번호 붙이기",
 
     // IUPAC names > worked example > p
-    "The OH carbon must get the lowest possible number.": "",
+    "The OH carbon must get the lowest possible number.": "OH가 붙은 탄소가 가능한 가장 작은 번호를 받아야 해요.",
 
     // IUPAC names > worked example > p
-    "From the right-hand end the OH is on carbon 2. From the left-hand end it would be on carbon 3. So number from the right.": "",
+    "From the right-hand end the OH is on carbon 2. From the left-hand end it would be on carbon 3. So number from the right.": "오른쪽 끝에서 세면 OH는 탄소 2에 있어요. 왼쪽 끝에서 세면 탄소 3에 있게 돼요. 그래서 오른쪽에서부터 번호를 붙여요.",
 
     // IUPAC names > worked example > data-label attribute
-    "The same skeletal formula with the chain numbered 1 to 4 from the right. The OH is on carbon 2.": "",
+    "The same skeletal formula with the chain numbered 1 to 4 from the right. The OH is on carbon 2.": "같은 골격 구조식에 오른쪽부터 1에서 4까지 번호를 붙인 그림. OH는 탄소 2에 있어요.",
 
     // IUPAC names > worked example > data-title attribute
-    "Name what is attached": "",
+    "Name what is attached": "붙어 있는 것의 이름 붙이기",
 
     // IUPAC names > worked example > p
-    "Only the OH is attached, and the ending names it.": "",
+    "Only the OH is attached, and the ending names it.": "붙어 있는 것은 OH뿐이고, 어미가 이것을 나타내요.",
 
     // IUPAC names > worked example > p
-    "No prefix is needed. The ending is <b>-2-ol</b>.": "",
+    "No prefix is needed. The ending is <b>-2-ol</b>.": "접두사는 필요 없어요. 어미는 <b>-2-ol</b>이에요.",
 
     // IUPAC names > worked example > data-title attribute
-    "Put the name together": "",
+    "Put the name together": "이름 조립하기",
 
     // IUPAC names > worked example > p
-    "Hyphens go between numbers and letters.": "",
+    "Hyphens go between numbers and letters.": "숫자와 글자 사이에는 하이픈을 써요.",
 
     // IUPAC names > worked example > maths line
-    "<b>butan-2-ol</b>": "",
+    "<b>butan-2-ol</b>": "<b>butan-2-ol</b>",
 
     // IUPAC names > worked example > p
     // Structural isomers > worked example > data-label attribute
     // Structural isomers > worked example > p
-    "butan-2-ol": "",
+    "butan-2-ol": "butan-2-ol",
 
     // IUPAC names > worked example > data-kicker attribute
-    "Naming example 2": "",
+    "Naming example 2": "이름 붙이기 예제 2",
 
     // IUPAC names > worked example > h3
-    "A branched halogenoalkane": "",
+    "A branched halogenoalkane": "가지 달린 할로젠화 알케인",
 
     // IUPAC names > worked example > p
-    "Name <span class=\"chem\">CH3CHBrCH(CH3)CH3</span>.": "",
+    "Name <span class=\"chem\">CH3CHBrCH(CH3)CH3</span>.": "<span class=\"chem\">CH3CHBrCH(CH3)CH3</span>의 이름을 쓰시오 (name).",
 
     // IUPAC names > worked example > data-label attribute
-    "Skeletal formula: a zig-zag chain of four carbons. One of the two middle carbons carries a Br atom and the other carries a one-carbon branch.": "",
+    "Skeletal formula: a zig-zag chain of four carbons. One of the two middle carbons carries a Br atom and the other carries a one-carbon branch.": "골격 구조식: 탄소 4개로 된 지그재그 사슬. 가운데 두 탄소 중 하나에는 Br 원자가, 다른 하나에는 탄소 1개짜리 곁가지가 붙어 있어요.",
 
     // IUPAC names > worked example > p
-    "There is no group that needs an ending, so take the longest carbon chain.": "",
+    "There is no group that needs an ending, so take the longest carbon chain.": "어미로 나타낼 기가 없으므로 가장 긴 탄소 사슬을 골라요.",
 
     // IUPAC names > worked example > p
-    "The longest chain has four carbons: <b>butane</b>. One carbon is left over as a branch.": "",
+    "The longest chain has four carbons: <b>butane</b>. One carbon is left over as a branch.": "가장 긴 사슬에는 탄소가 4개 있어요: <b>butane</b>. 탄소 하나가 곁가지로 남아요.",
 
     // IUPAC names > worked example > p
-    "The attached groups should get the lowest numbers.": "",
+    "The attached groups should get the lowest numbers.": "붙어 있는 기가 가장 작은 번호를 받아야 해요.",
 
     // IUPAC names > worked example > p
-    "From one end the attached groups are on carbons 2 and 3. From the other end they are also on carbons 2 and 3. It is a tie.": "",
+    "From one end the attached groups are on carbons 2 and 3. From the other end they are also on carbons 2 and 3. It is a tie.": "한쪽 끝에서 세면 붙어 있는 기는 탄소 2와 3에 있어요. 반대쪽 끝에서 세도 탄소 2와 3에 있어요. 비겼어요.",
 
     // IUPAC names > worked example > data-title attribute
-    "Break the tie with the alphabet": "",
+    "Break the tie with the alphabet": "알파벳으로 순서 정하기",
 
     // IUPAC names > worked example > p
-    "When the numbers are the same from both ends, the prefix that comes first in the alphabet gets the lower number.": "",
+    "When the numbers are the same from both ends, the prefix that comes first in the alphabet gets the lower number.": "양쪽 끝에서 센 번호가 같으면, 알파벳 순서로 먼저 오는 접두사가 더 작은 번호를 받아요.",
 
     // IUPAC names > worked example > p
-    "Bromo comes before methyl. So Br is on carbon 2 and the <span class=\"chem\">CH3</span> branch is on carbon 3.": "",
+    "Bromo comes before methyl. So Br is on carbon 2 and the <span class=\"chem\">CH3</span> branch is on carbon 3.": "bromo가 methyl보다 먼저 와요. 그래서 Br은 탄소 2에, <span class=\"chem\">CH3</span> 곁가지는 탄소 3에 있어요.",
 
     // IUPAC names > worked example > data-label attribute
-    "The same skeletal formula with the chain numbered so that Br is on carbon 2 and the branch on carbon 3": "",
+    "The same skeletal formula with the chain numbered so that Br is on carbon 2 and the branch on carbon 3": "Br이 탄소 2에, 곁가지가 탄소 3에 오도록 번호를 붙인 같은 골격 구조식",
 
     // IUPAC names > worked example > p
-    "Prefixes in alphabetical order, each with its number.": "",
+    "Prefixes in alphabetical order, each with its number.": "접두사를 알파벳 순서로 쓰고, 각각 번호를 붙여요.",
 
     // IUPAC names > worked example > maths line
-    "<b>2-bromo-3-methylbutane</b>": "",
+    "<b>2-bromo-3-methylbutane</b>": "<b>2-bromo-3-methylbutane</b>",
 
     // IUPAC names > worked example > p
-    "2-bromo-3-methylbutane": "",
+    "2-bromo-3-methylbutane": "2-bromo-3-methylbutane",
 
     // IUPAC names > worked example > data-kicker attribute
-    "Naming example 3": "",
+    "Naming example 3": "이름 붙이기 예제 3",
 
     // IUPAC names > worked example > h3
-    "A branched ketone": "",
+    "A branched ketone": "가지 달린 케톤",
 
     // IUPAC names > worked example > data-label attribute
-    "Skeletal formula: a zig-zag chain of five carbons. The second carbon from the left carries a one-carbon branch. The second carbon from the right has a double bond to an O.": "",
+    "Skeletal formula: a zig-zag chain of five carbons. The second carbon from the left carries a one-carbon branch. The second carbon from the right has a double bond to an O.": "골격 구조식: 탄소 5개로 된 지그재그 사슬. 왼쪽에서 두 번째 탄소에 탄소 1개짜리 곁가지가 있어요. 오른쪽에서 두 번째 탄소는 O와 이중 결합을 해요.",
 
     // IUPAC names > worked example > p
-    "It must contain the carbon of the C=O.": "",
+    "It must contain the carbon of the C=O.": "C=O의 탄소를 포함해야 해요.",
 
     // IUPAC names > worked example > p
-    "The longest chain through the C=O carbon has five carbons: <b>pentan-</b>. The C=O is inside the chain, so this is a ketone. Ending: <b>-one</b>.": "",
+    "The longest chain through the C=O carbon has five carbons: <b>pentan-</b>. The C=O is inside the chain, so this is a ketone. Ending: <b>-one</b>.": "C=O 탄소를 지나는 가장 긴 사슬에는 탄소가 5개 있어요: <b>pentan-</b>. C=O가 사슬 안쪽에 있으므로 케톤이에요. 어미: <b>-one</b>.",
 
     // IUPAC names > worked example > p
-    "The C=O carbon gets the lowest possible number. The branch does not decide.": "",
+    "The C=O carbon gets the lowest possible number. The branch does not decide.": "C=O 탄소가 가능한 가장 작은 번호를 받아요. 곁가지는 번호를 정하지 않아요.",
 
     // IUPAC names > worked example > p
-    "From the right the C=O is carbon 2. From the left it would be carbon 4. Number from the right.": "",
+    "From the right the C=O is carbon 2. From the left it would be carbon 4. Number from the right.": "오른쪽에서 세면 C=O는 탄소 2예요. 왼쪽에서 세면 탄소 4가 돼요. 오른쪽에서부터 번호를 붙여요.",
 
     // IUPAC names > worked example > data-label attribute
-    "The same skeletal formula numbered from the right: the C=O is carbon 2 and the branch is on carbon 4": "",
+    "The same skeletal formula numbered from the right: the C=O is carbon 2 and the branch is on carbon 4": "오른쪽부터 번호를 붙인 같은 골격 구조식: C=O는 탄소 2이고 곁가지는 탄소 4에 있어요",
 
     // IUPAC names > worked example > p
-    "Use the numbers you have just fixed.": "",
+    "Use the numbers you have just fixed.": "방금 정한 번호를 써요.",
 
     // IUPAC names > worked example > p
-    "A <span class=\"chem\">CH3</span> branch on carbon 4: <b>4-methyl</b>.": "",
+    "A <span class=\"chem\">CH3</span> branch on carbon 4: <b>4-methyl</b>.": "탄소 4에 <span class=\"chem\">CH3</span> 곁가지: <b>4-methyl</b>.",
 
     // IUPAC names > worked example > p
-    "Prefix, stem, ending.": "",
+    "Prefix, stem, ending.": "접두사, 어간, 어미.",
 
     // IUPAC names > worked example > maths line
-    "<b>4-methylpentan-2-one</b>": "",
+    "<b>4-methylpentan-2-one</b>": "<b>4-methylpentan-2-one</b>",
 
     // IUPAC names > worked example > p
-    "4-methylpentan-2-one": "",
+    "4-methylpentan-2-one": "4-methylpentan-2-one",
 
     // IUPAC names > worked example > data-kicker attribute
-    "Naming example 4": "",
+    "Naming example 4": "이름 붙이기 예제 4",
 
     // IUPAC names > worked example > h3
-    "A branched carboxylic acid": "",
+    "A branched carboxylic acid": "가지 달린 카복실산",
 
     // IUPAC names > worked example > p
-    "Name <span class=\"chem\">CH3CH(CH3)CH2COOH</span>.": "",
+    "Name <span class=\"chem\">CH3CH(CH3)CH2COOH</span>.": "<span class=\"chem\">CH3CH(CH3)CH2COOH</span>의 이름을 쓰시오 (name).",
 
     // IUPAC names > worked example > data-label attribute
-    "Skeletal formula: a chain of four carbons. The right-hand carbon has a double bond to O and a single bond to OH. The second carbon from the left carries a one-carbon branch.": "",
+    "Skeletal formula: a chain of four carbons. The right-hand carbon has a double bond to O and a single bond to OH. The second carbon from the left carries a one-carbon branch.": "골격 구조식: 탄소 4개로 된 사슬. 오른쪽 끝 탄소는 O와 이중 결합을 하고 OH와 단일 결합을 해요. 왼쪽에서 두 번째 탄소에 탄소 1개짜리 곁가지가 있어요.",
 
     // IUPAC names > worked example > p
-    "The carbon of the COOH group is part of the chain. Count it.": "",
+    "The carbon of the COOH group is part of the chain. Count it.": "COOH기의 탄소도 사슬의 일부예요. 이 탄소도 세요.",
 
     // IUPAC names > worked example > p
-    "The longest chain that includes the COOH carbon has four carbons: <b>butan-</b>. Ending: <b>-oic acid</b>.": "",
+    "The longest chain that includes the COOH carbon has four carbons: <b>butan-</b>. Ending: <b>-oic acid</b>.": "COOH 탄소를 포함하는 가장 긴 사슬에는 탄소가 4개 있어요: <b>butan-</b>. 어미: <b>-oic acid</b>.",
 
     // IUPAC names > worked example > p
-    "The carboxyl carbon is always carbon 1.": "",
+    "The carboxyl carbon is always carbon 1.": "카복실기의 탄소는 항상 탄소 1이에요.",
 
     // IUPAC names > worked example > data-label attribute
-    "The same skeletal formula numbered from the COOH carbon, which is carbon 1. The branch is on carbon 3.": "",
+    "The same skeletal formula numbered from the COOH carbon, which is carbon 1. The branch is on carbon 3.": "탄소 1인 COOH 탄소부터 번호를 붙인 같은 골격 구조식. 곁가지는 탄소 3에 있어요.",
 
     // IUPAC names > worked example > p
-    "Count along from carbon 1.": "",
+    "Count along from carbon 1.": "탄소 1부터 차례로 세요.",
 
     // IUPAC names > worked example > p
-    "A <span class=\"chem\">CH3</span> branch on carbon 3: <b>3-methyl</b>.": "",
+    "A <span class=\"chem\">CH3</span> branch on carbon 3: <b>3-methyl</b>.": "탄소 3에 <span class=\"chem\">CH3</span> 곁가지: <b>3-methyl</b>.",
 
     // IUPAC names > worked example > p
-    "No number is written for the COOH carbon, because it is always 1.": "",
+    "No number is written for the COOH carbon, because it is always 1.": "COOH 탄소는 항상 1이므로 번호를 쓰지 않아요.",
 
     // IUPAC names > worked example > maths line
-    "<b>3-methylbutanoic acid</b>": "",
+    "<b>3-methylbutanoic acid</b>": "<b>3-methylbutanoic acid</b>",
 
     // IUPAC names > worked example > p
-    "3-methylbutanoic acid": "",
+    "3-methylbutanoic acid": "3-methylbutanoic acid",
 
     // IUPAC names > worked example > data-kicker attribute
-    "Naming example 5": "",
+    "Naming example 5": "이름 붙이기 예제 5",
 
     // IUPAC names > worked example > h3
-    "A branched alkene": "",
+    "A branched alkene": "가지 달린 알켄",
 
     // IUPAC names > worked example > data-label attribute
-    "Skeletal formula: a zig-zag chain of five carbons with a double bond between the third and fourth carbons from the left. The second carbon from the left carries a one-carbon branch.": "",
+    "Skeletal formula: a zig-zag chain of five carbons with a double bond between the third and fourth carbons from the left. The second carbon from the left carries a one-carbon branch.": "골격 구조식: 탄소 5개로 된 지그재그 사슬이고, 왼쪽에서 세 번째와 네 번째 탄소 사이에 이중 결합이 있어요. 왼쪽에서 두 번째 탄소에 탄소 1개짜리 곁가지가 있어요.",
 
     // IUPAC names > worked example > p
-    "It must contain both carbons of the C=C.": "",
+    "It must contain both carbons of the C=C.": "C=C의 두 탄소를 모두 포함해야 해요.",
 
     // IUPAC names > worked example > p
-    "The longest chain through the C=C has five carbons, and it has one double bond: <b>pent-…-ene</b>.": "",
+    "The longest chain through the C=C has five carbons, and it has one double bond: <b>pent-…-ene</b>.": "C=C를 지나는 가장 긴 사슬에는 탄소가 5개 있고, 이중 결합이 하나 있어요: <b>pent-…-ene</b>.",
 
     // IUPAC names > worked example > p
-    "With no group that needs an ending, the C=C gets the lowest number. It beats the branch.": "",
+    "With no group that needs an ending, the C=C gets the lowest number. It beats the branch.": "어미로 나타낼 기가 없으면 C=C가 가장 작은 번호를 받아요. 곁가지보다 우선해요.",
 
     // IUPAC names > worked example > p
-    "From the right the double bond starts at carbon 2. From the left it would start at carbon 3. Number from the right.": "",
+    "From the right the double bond starts at carbon 2. From the left it would start at carbon 3. Number from the right.": "오른쪽에서 세면 이중 결합은 탄소 2에서 시작해요. 왼쪽에서 세면 탄소 3에서 시작하게 돼요. 오른쪽에서부터 번호를 붙여요.",
 
     // IUPAC names > worked example > data-label attribute
-    "The same skeletal formula numbered from the right: the double bond is between carbons 2 and 3 and the branch is on carbon 4": "",
+    "The same skeletal formula numbered from the right: the double bond is between carbons 2 and 3 and the branch is on carbon 4": "오른쪽부터 번호를 붙인 같은 골격 구조식: 이중 결합은 탄소 2와 3 사이에 있고 곁가지는 탄소 4에 있어요",
 
     // IUPAC names > worked example > p
-    "Write the number of the first carbon of the double bond.": "",
+    "Write the number of the first carbon of the double bond.": "이중 결합의 첫 번째 탄소 번호를 써요.",
 
     // IUPAC names > worked example > p
-    "The C=C is between carbons 2 and 3: <b>-2-ene</b>. The <span class=\"chem\">CH3</span> branch is on carbon 4: <b>4-methyl</b>.": "",
+    "The C=C is between carbons 2 and 3: <b>-2-ene</b>. The <span class=\"chem\">CH3</span> branch is on carbon 4: <b>4-methyl</b>.": "C=C는 탄소 2와 3 사이에 있어요: <b>-2-ene</b>. <span class=\"chem\">CH3</span> 곁가지는 탄소 4에 있어요: <b>4-methyl</b>.",
 
     // IUPAC names > worked example > maths line
-    "<b>4-methylpent-2-ene</b>": "",
+    "<b>4-methylpent-2-ene</b>": "<b>4-methylpent-2-ene</b>",
 
     // IUPAC names > worked example > p
-    "4-methylpent-2-ene": "",
+    "4-methylpent-2-ene": "4-methylpent-2-ene",
 
     // IUPAC names > worked example > data-kicker attribute
-    "From name to structure": "",
+    "From name to structure": "이름에서 구조로",
 
     // IUPAC names > worked example > h3
-    "Drawing a structure from a name": "",
+    "Drawing a structure from a name": "이름을 보고 구조 그리기",
 
     // IUPAC names > worked example > p
-    "Draw the structural formula of 3-methylbutan-2-ol.": "",
+    "Draw the structural formula of 3-methylbutan-2-ol.": "3-methylbutan-2-ol의 구조식을 그리시오 (draw).",
 
     // IUPAC names > worked example > data-title attribute
-    "Read the stem: draw the chain": "",
+    "Read the stem: draw the chain": "어간 읽기: 사슬 그리기",
 
     // IUPAC names > worked example > p
-    "A name is easiest to read from the stem outwards.": "",
+    "A name is easiest to read from the stem outwards.": "이름은 어간에서 바깥쪽으로 읽으면 가장 쉬워요.",
 
     // IUPAC names > worked example > p
-    "“but” means four carbons. “an” means only single bonds between them. Draw four carbons in a row and number them 1 to 4.": "",
+    "“but” means four carbons. “an” means only single bonds between them. Draw four carbons in a row and number them 1 to 4.": "“but”는 탄소 4개라는 뜻이에요. “an”은 탄소 사이에 단일 결합만 있다는 뜻이에요. 탄소 4개를 한 줄로 그리고 1부터 4까지 번호를 붙여요.",
 
     // IUPAC names > worked example > data-title attribute
-    "Read the ending: add the group": "",
+    "Read the ending: add the group": "어미 읽기: 기 붙이기",
 
     // IUPAC names > worked example > p
-    "The number before the ending says which carbon carries the group.": "",
+    "The number before the ending says which carbon carries the group.": "어미 앞의 숫자는 기가 어느 탄소에 붙어 있는지 알려 줘요.",
 
     // IUPAC names > worked example > p
-    "“-2-ol” means an O–H on carbon 2.": "",
+    "“-2-ol” means an O–H on carbon 2.": "“-2-ol”은 탄소 2에 O–H가 있다는 뜻이에요.",
 
     // IUPAC names > worked example > data-title attribute
-    "Read the prefix: add the branch": "",
+    "Read the prefix: add the branch": "접두사 읽기: 곁가지 붙이기",
 
     // IUPAC names > worked example > p
-    "Each prefix has its own number.": "",
+    "Each prefix has its own number.": "접두사마다 자기 번호가 있어요.",
 
     // IUPAC names > worked example > p
-    "“3-methyl” means a <span class=\"chem\">CH3</span> group on carbon 3.": "",
+    "“3-methyl” means a <span class=\"chem\">CH3</span> group on carbon 3.": "“3-methyl”은 탄소 3에 <span class=\"chem\">CH3</span>기가 있다는 뜻이에요.",
 
     // IUPAC names > worked example > data-title attribute
-    "Add hydrogens until every carbon has four bonds": "",
+    "Add hydrogens until every carbon has four bonds": "모든 탄소가 결합 4개를 가질 때까지 수소 붙이기",
 
     // IUPAC names > worked example > p
-    "This turns the carbon skeleton into a complete structural formula.": "",
+    "This turns the carbon skeleton into a complete structural formula.": "이렇게 하면 탄소 골격이 완전한 구조식이 돼요.",
 
     // IUPAC names > worked example > data-label attribute
-    "Structural formula of 3-methylbutan-2-ol: CH3, then CH with an OH group, then CH with a CH3 branch, then CH3": "",
+    "Structural formula of 3-methylbutan-2-ol: CH3, then CH with an OH group, then CH with a CH3 branch, then CH3": "3-methylbutan-2-ol의 구조식: CH3, 그다음 OH기가 붙은 CH, 그다음 CH3 곁가지가 붙은 CH, 그다음 CH3",
 
     // IUPAC names > worked example > data-label attribute
-    "Skeletal formula of 3-methylbutan-2-ol with the chain numbered": "",
+    "Skeletal formula of 3-methylbutan-2-ol with the chain numbered": "사슬에 번호를 붙인 3-methylbutan-2-ol의 골격 구조식",
 
     // IUPAC names > worked example > p
-    "Name your own drawing again. You should get the name you started with.": "",
+    "Name your own drawing again. You should get the name you started with.": "내가 그린 그림의 이름을 다시 붙여 봐요. 처음 이름과 같게 나와야 해요.",
 
     // IUPAC names > worked example > p
-    "Longest chain through the OH carbon: 4. OH on carbon 2, not 3. Branch on carbon 3. The name is 3-methylbutan-2-ol, and the formula is <span class=\"chem\">CH3CH(OH)CH(CH3)CH3</span>.": "",
+    "Longest chain through the OH carbon: 4. OH on carbon 2, not 3. Branch on carbon 3. The name is 3-methylbutan-2-ol, and the formula is <span class=\"chem\">CH3CH(OH)CH(CH3)CH3</span>.": "OH 탄소를 지나는 가장 긴 사슬: 4. OH는 탄소 3이 아니라 탄소 2에 있어요. 곁가지는 탄소 3에 있어요. 이름은 3-methylbutan-2-ol이고, 화학식은 <span class=\"chem\">CH3CH(OH)CH(CH3)CH3</span>예요.",
 
     // IUPAC names > worked example > p
-    "<span class=\"chem\">CH3CH(OH)CH(CH3)CH3</span>": "",
+    "<span class=\"chem\">CH3CH(OH)CH(CH3)CH3</span>": "<span class=\"chem\">CH3CH(OH)CH(CH3)CH3</span>",
 
     // IUPAC names > widget > data-title attribute
-    "IUPAC naming trainer": "",
+    "IUPAC naming trainer": "IUPAC 이름 붙이기 연습",
 
     // IUPAC names > widget > figcaption
-    "Level 1 has straight chains. Level 2 adds a branch and position numbers. Level 3 has several attached groups, or a C=C together with a functional group. Every molecule is inside the naming limits of the guide.": "",
+    "Level 1 has straight chains. Level 2 adds a branch and position numbers. Level 3 has several attached groups, or a C=C together with a functional group. Every molecule is inside the naming limits of the guide.": "1단계는 곧은 사슬이에요. 2단계에서는 곁가지와 위치 번호가 더해져요. 3단계에서는 붙은 기가 여러 개이거나, C=C와 작용기가 함께 있어요. 모든 분자는 IB 지침의 이름 붙이기 범위 안에 있어요.",
 
     // IUPAC names > try it > data-label attribute
     // Primary, secondary and tertiary > try it > data-label attribute
-    "Number of C atoms": "",
+    "Number of C atoms": "C 원자 수",
 
     // IUPAC names > try it > p
-    "How many carbon atoms are in one molecule of 3-ethyl-2-methylpentane?": "",
+    "How many carbon atoms are in one molecule of 3-ethyl-2-methylpentane?": "3-ethyl-2-methylpentane 분자 1개에는 탄소 원자가 몇 개 있을까요?",
 
     // IUPAC names > try it > li
-    "Add the carbons of the parent chain and the carbons of each branch.": "",
+    "Add the carbons of the parent chain and the carbons of each branch.": "주사슬의 탄소와 각 곁가지의 탄소를 더해요.",
 
     // IUPAC names > try it > li
-    "Pentane has 5. An ethyl group has 2. A methyl group has 1.": "",
+    "Pentane has 5. An ethyl group has 2. A methyl group has 1.": "pentane은 5개예요. ethyl기는 2개예요. methyl기는 1개예요.",
 
     // IUPAC names > try it > p
-    "It is an alkane, so its formula is <span class=\"chem\">C8H18</span>. The parent chain still has only five carbons, so the name is inside the limits.": "",
+    "It is an alkane, so its formula is <span class=\"chem\">C8H18</span>. The parent chain still has only five carbons, so the name is inside the limits.": "알케인이므로 화학식은 <span class=\"chem\">C8H18</span>이에요. 주사슬은 여전히 탄소가 5개뿐이므로 이 이름은 범위 안에 있어요.",
 
     // IUPAC names > try it > data-label attribute
-    "Number on the OH carbon": "",
+    "Number on the OH carbon": "OH 탄소의 번호",
 
     // IUPAC names > try it > p
-    "In the IUPAC name of <span class=\"chem\">CH3CH2CH(OH)CH2CH2CH3</span>, which number does the carbon with the OH group get?": "",
+    "In the IUPAC name of <span class=\"chem\">CH3CH2CH(OH)CH2CH2CH3</span>, which number does the carbon with the OH group get?": "<span class=\"chem\">CH3CH2CH(OH)CH2CH2CH3</span>의 IUPAC 이름에서 OH기가 붙은 탄소는 몇 번을 받을까요?",
 
     // IUPAC names > try it > li
-    "The chain has six carbons. Number it from each end in turn.": "",
+    "The chain has six carbons. Number it from each end in turn.": "사슬에는 탄소가 6개 있어요. 양쪽 끝에서 차례로 번호를 붙여 봐요.",
 
     // IUPAC names > try it > li
-    "From the left the OH is on carbon 3. From the right it is on carbon 4. Take the lower number.": "",
+    "From the left the OH is on carbon 3. From the right it is on carbon 4. Take the lower number.": "왼쪽에서 세면 OH는 탄소 3에 있어요. 오른쪽에서 세면 탄소 4에 있어요. 더 작은 번호를 골라요.",
 
     // IUPAC names > try it > p
-    "The lower number is 3, so the compound is hexan-3-ol.": "",
+    "The lower number is 3, so the compound is hexan-3-ol.": "더 작은 번호는 3이므로 이 화합물은 hexan-3-ol이에요.",
 
     // IUPAC names > exam tip (shown in English + translation) > p
-    "Markschemes have accepted names with a missing hyphen, and prefixes that are not in alphabetical order. A wrong parent chain, a wrong number or a wrong ending is not accepted. Write the name in the standard form anyway, so that it cannot be misread.": "",
+    "Markschemes have accepted names with a missing hyphen, and prefixes that are not in alphabetical order. A wrong parent chain, a wrong number or a wrong ending is not accepted. Write the name in the standard form anyway, so that it cannot be misread.": "채점 기준에서는 하이픈이 빠진 이름이나 접두사가 알파벳 순서가 아닌 이름도 인정해 왔어요. 주사슬, 번호, 어미가 틀리면 인정되지 않아요. 그래도 잘못 읽히지 않도록 이름은 표준 형식으로 쓰세요.",
 
     // IUPAC names > not needed for IB > p
-    "Older books write the number in front of the whole name, as in “2-butanol”. Many everyday names are also still used, such as acetone, acetic acid, isopropyl and tert-butyl. You do not need them. You also do not need E/Z or cis–trans labels here: on this page <span class=\"s32-name\" data-i18n=\"off\">but-2-ene</span> is a complete name.": "",
+    "Older books write the number in front of the whole name, as in “2-butanol”. Many everyday names are also still used, such as acetone, acetic acid, isopropyl and tert-butyl. You do not need them. You also do not need E/Z or cis–trans labels here: on this page <span class=\"s32-name\" data-i18n=\"off\">but-2-ene</span> is a complete name.": "옛날 책에서는 “2-butanol”처럼 번호를 이름 전체 앞에 써요. acetone, acetic acid, isopropyl, tert-butyl 같은 일상적인 이름도 아직 많이 쓰여요. 이런 이름은 필요 없어요. 여기서는 E/Z나 cis–trans 표시도 필요 없어요: 이 페이지에서는 <span class=\"s32-name\" data-i18n=\"off\">but-2-ene</span>이 완전한 이름이에요.",
 
     // IUPAC names > data-title attribute
-    "IUPAC names: quick check": "",
+    "IUPAC names: quick check": "IUPAC 이름: 빠른 확인",
 
     // Structural isomers > data-toc attribute
     // Structural isomers > h2
-    "Structural isomers": "",
+    "Structural isomers": "구조 이성질체",
 
     // Structural isomers > p
-    "With the same set of building blocks you can build different models. Atoms are the same. Four carbon atoms and ten hydrogen atoms can be joined in two different ways.": "",
+    "With the same set of building blocks you can build different models. Atoms are the same. Four carbon atoms and ten hydrogen atoms can be joined in two different ways.": "같은 블록 세트로도 서로 다른 모형을 만들 수 있어요. 원자도 마찬가지예요. 탄소 원자 4개와 수소 원자 10개는 2가지 다른 방법으로 연결될 수 있어요.",
 
     // Structural isomers > data-label attribute
-    "butane: four carbons in a row": "",
+    "butane: four carbons in a row": "butane: 탄소 4개가 한 줄로 있어요",
 
     // Structural isomers > p
-    "butane, boiling point 0 °C": "",
+    "butane, boiling point 0 °C": "butane, 끓는점 0 °C",
 
     // Structural isomers > data-label attribute
-    "2-methylpropane: three carbons in a row with a CH3 branch on the middle carbon": "",
+    "2-methylpropane: three carbons in a row with a CH3 branch on the middle carbon": "2-methylpropane: 탄소 3개가 한 줄로 있고 가운데 탄소에 CH3 곁가지가 있어요",
 
     // Structural isomers > p
-    "2-methylpropane, boiling point −12 °C": "",
+    "2-methylpropane, boiling point −12 °C": "2-methylpropane, 끓는점 −12 °C",
 
     // Structural isomers > p
-    "<dfn>Structural isomers</dfn> are molecules that have the same molecular formula but different connectivities. <dfn>Connectivity</dfn> means which atom is bonded to which. Structural isomers are different compounds, with different names and different properties.": "",
+    "<dfn>Structural isomers</dfn> are molecules that have the same molecular formula but different connectivities. <dfn>Connectivity</dfn> means which atom is bonded to which. Structural isomers are different compounds, with different names and different properties.": "<dfn>구조 이성질체 <span class=\"en-term\">(Structural isomers)</span></dfn>는 분자식은 같지만 연결 방식이 다른 분자예요. <dfn>연결 방식 <span class=\"en-term\">(Connectivity)</span></dfn>은 어느 원자가 어느 원자와 결합해 있는지를 뜻해요. 구조 이성질체는 서로 다른 화합물이므로 이름도 다르고 성질도 달라요.",
 
     // Structural isomers > h3
-    "Three types to recognize": "",
+    "Three types to recognize": "알아봐야 할 3가지 유형",
 
     // Structural isomers > table > caption
-    "Types of structural isomers": "",
+    "Types of structural isomers": "구조 이성질체의 유형",
 
     // Structural isomers > table > th
-    "Type": "",
+    "Type": "유형",
 
     // Structural isomers > table > th
-    "What is different": "",
+    "What is different": "다른 점",
 
     // Structural isomers > table > th
-    "Example pair": "",
+    "Example pair": "예시 쌍",
 
     // Structural isomers > table > th
-    "Formula": "",
+    "Formula": "화학식",
 
     // Structural isomers > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "Chain isomers": "",
+    "Chain isomers": "사슬 이성질체",
 
     // Structural isomers > table > td
-    "The carbon chain: straight in one, branched in the other (or branched in a different way).": "",
+    "The carbon chain: straight in one, branched in the other (or branched in a different way).": "탄소 사슬: 한쪽은 곧은 사슬, 다른 쪽은 가지 달린 사슬(또는 다른 방식으로 가지 달린 사슬).",
 
     // Structural isomers > table > data-label attribute
-    "2-methylpropane": "",
+    "2-methylpropane": "2-methylpropane",
 
     // Structural isomers > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "Position isomers": "",
+    "Position isomers": "위치 이성질체",
 
     // Structural isomers > table > td
-    "The position of the functional group on the same carbon chain.": "",
+    "The position of the functional group on the same carbon chain.": "같은 탄소 사슬에서 작용기의 위치.",
 
     // Structural isomers > table > data-label attribute
     // Primary, secondary and tertiary > table > td
-    "propan-1-ol": "",
+    "propan-1-ol": "propan-1-ol",
 
     // Structural isomers > table > th
     // widget string (assets/js/widgets-s3-2.js)
-    "Functional group isomers": "",
+    "Functional group isomers": "작용기 이성질체",
 
     // Structural isomers > table > td
-    "The functional group itself, so the compounds are in different classes.": "",
+    "The functional group itself, so the compounds are in different classes.": "작용기 자체가 달라서, 화합물의 종류가 달라요.",
 
     // Structural isomers > p
     "Pairs of classes that share a general formula give functional group isomers: alcohols and ethers, aldehydes and ketones, carboxylic acids and esters.": "",

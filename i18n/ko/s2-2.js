@@ -1918,424 +1918,424 @@ S1.i18n.register('ko', 's2-2', {
     "Choose a pair and predict before you look. Then read the model answer: it always names the forces in both substances, compares their strength, and links to energy.": "쌍을 하나 고르고, 보기 전에 먼저 예측해 보세요. 그다음 모범 답안을 읽어 보세요: 모범 답안은 항상 두 물질의 힘을 모두 밝히고, 세기를 비교하고, 에너지와 연결해요.",
 
     // Explaining physical properties > worked example > data-kicker attribute
-    "Worked example 7": "",
+    "Worked example 7": "예제 7",
 
     // Explaining physical properties > worked example > h3
-    "Explaining a boiling-point difference": "",
+    "Explaining a boiling-point difference": "끓는점 차이 설명하기",
 
     // Explaining physical properties > worked example > p
-    "Butane, <span class=\"chem\">CH3CH2CH2CH3</span>, boils at −1 °C. Propanone, <span class=\"chem\">CH3COCH3</span>, boils at 56 °C. Their molar masses are 58.14 and 58.09 <span class=\"unit\">g mol-1</span>. Explain the difference in boiling point.": "",
+    "Butane, <span class=\"chem\">CH3CH2CH2CH3</span>, boils at −1 °C. Propanone, <span class=\"chem\">CH3COCH3</span>, boils at 56 °C. Their molar masses are 58.14 and 58.09 <span class=\"unit\">g mol-1</span>. Explain the difference in boiling point.": "butane <span class=\"chem\">CH3CH2CH2CH3</span>은 −1 °C에서 끓어요. propanone <span class=\"chem\">CH3COCH3</span>은 56 °C에서 끓어요. 두 물질의 몰 질량은 58.14와 58.09 <span class=\"unit\">g mol-1</span>이에요. 끓는점 차이를 설명하시오 (explain).",
 
     // Explaining physical properties > worked example > data-title attribute
-    "Decide whether each molecule is polar": "",
+    "Decide whether each molecule is polar": "각 분자가 극성인지 판단하기",
 
     // Explaining physical properties > worked example > p
-    "The types of force depend on polarity. Butane contains only C–C and C–H bonds. Propanone has a polar C=O bond that nothing cancels.": "",
+    "The types of force depend on polarity. Butane contains only C–C and C–H bonds. Propanone has a polar C=O bond that nothing cancels.": "힘의 종류는 극성에 따라 달라요. butane에는 C–C 결합과 C–H 결합만 있어요. propanone에는 극성 C=O 결합이 있고, 이것을 상쇄하는 것이 없어요.",
 
     // Explaining physical properties > worked example > maths line
-    "butane: non-polar": "",
+    "butane: non-polar": "butane: 무극성",
 
     // Explaining physical properties > worked example > maths line
-    "propanone: polar (C=O, 3.4 − 2.6 = 0.8)": "",
+    "propanone: polar (C=O, 3.4 − 2.6 = 0.8)": "propanone: 극성 (C=O, 3.4 − 2.6 = 0.8)",
 
     // Explaining physical properties > worked example > data-title attribute
-    "Name the forces in BOTH substances": "",
+    "Name the forces in BOTH substances": "두 물질 모두의 힘 이름 쓰기",
 
     // Explaining physical properties > worked example > p
-    "This is the first mark. Naming the force in only one substance is not enough.": "",
+    "This is the first mark. Naming the force in only one substance is not enough.": "이것이 첫 번째 점수예요. 한 물질의 힘만 쓰면 부족해요.",
 
     // Explaining physical properties > worked example > maths line
-    "butane: London (dispersion) forces only": "",
+    "butane: London (dispersion) forces only": "butane: 런던 분산력만",
 
     // Explaining physical properties > worked example > maths line
-    "propanone: London (dispersion) forces and dipole–dipole forces": "",
+    "propanone: London (dispersion) forces and dipole–dipole forces": "propanone: 런던 분산력과 쌍극자–쌍극자 힘",
 
     // Explaining physical properties > worked example > data-title attribute
-    "Check for hydrogen bonding": "",
+    "Check for hydrogen bonding": "수소 결합이 있는지 확인하기",
 
     // Explaining physical properties > worked example > p
-    "Propanone contains oxygen, so check. Every H atom in propanone is bonded to carbon.": "",
+    "Propanone contains oxygen, so check. Every H atom in propanone is bonded to carbon.": "propanone에는 산소가 있으니 확인해 봐요. propanone의 H 원자는 모두 탄소에 결합해 있어요.",
 
     // Explaining physical properties > worked example > maths line
-    "no H bonded to N, O or F → no hydrogen bonding in either": "",
+    "no H bonded to N, O or F → no hydrogen bonding in either": "N, O, F에 결합한 H가 없음 → 둘 다 수소 결합 없음",
 
     // Explaining physical properties > worked example > data-title attribute
-    "Compare the strength": "",
+    "Compare the strength": "세기 비교하기",
 
     // Explaining physical properties > worked example > p
-    "This is the second mark. The molar masses are almost equal, so the London forces are similar.": "",
+    "This is the second mark. The molar masses are almost equal, so the London forces are similar.": "이것이 두 번째 점수예요. 몰 질량이 거의 같으므로 런던 분산력은 비슷해요.",
 
     // Explaining physical properties > worked example > maths line
-    "propanone has dipole–dipole forces as well → <b>stronger intermolecular forces in propanone</b>": "",
+    "propanone has dipole–dipole forces as well → <b>stronger intermolecular forces in propanone</b>": "propanone에는 쌍극자–쌍극자 힘도 있음 → <b>propanone의 분자 간 힘이 더 강함</b>",
 
     // Explaining physical properties > worked example > data-title attribute
-    "Link to energy": "",
+    "Link to energy": "에너지와 연결하기",
 
     // Explaining physical properties > worked example > p
-    "Finish by connecting force strength to the property in the question.": "",
+    "Finish by connecting force strength to the property in the question.": "마지막으로 힘의 세기를 문제에서 묻는 성질과 연결해요.",
 
     // Explaining physical properties > worked example > maths line
-    "more energy is needed to separate propanone molecules → higher boiling point": "",
+    "more energy is needed to separate propanone molecules → higher boiling point": "propanone 분자를 떼어 놓는 데 더 많은 에너지가 필요함 → 끓는점이 더 높음",
 
     // Explaining physical properties > worked example > p
-    "Butane has London (dispersion) forces only. Propanone has London (dispersion) forces and dipole–dipole forces. The intermolecular forces in propanone are stronger, so more energy is needed to separate its molecules.": "",
+    "Butane has London (dispersion) forces only. Propanone has London (dispersion) forces and dipole–dipole forces. The intermolecular forces in propanone are stronger, so more energy is needed to separate its molecules.": "butane에는 런던 분산력만 있어요. propanone에는 런던 분산력과 쌍극자-쌍극자 힘이 있어요. propanone의 분자 간 힘이 더 강하므로, 분자를 떼어 놓는 데 더 많은 에너지가 필요해요.",
 
     // Explaining physical properties > exam tip (shown in English + translation) > p
-    "Boiling-point questions are marked in the same way every time. Mark 1: name the intermolecular forces in <b>both</b> substances. Mark 2: state which are stronger. “Stronger bonding” or “stronger forces” without the names earns nothing.": "",
+    "Boiling-point questions are marked in the same way every time. Mark 1: name the intermolecular forces in <b>both</b> substances. Mark 2: state which are stronger. “Stronger bonding” or “stronger forces” without the names earns nothing.": "끓는점 문제는 매번 같은 방식으로 채점해요. 1점: <b>두</b> 물질의 분자 간 힘의 이름을 모두 써요. 2점: 어느 쪽이 더 강한지 써요. 힘의 이름 없이 “결합이 더 강하다”나 “힘이 더 강하다”라고만 쓰면 점수를 받지 못해요.",
 
     // Explaining physical properties > common mistake > p
-    "Never write that covalent bonds break when a molecular substance boils. Boiling water gives water vapour, which is still <span class=\"chem\">H2O</span> molecules. Only the forces between the molecules are overcome.": "",
+    "Never write that covalent bonds break when a molecular substance boils. Boiling water gives water vapour, which is still <span class=\"chem\">H2O</span> molecules. Only the forces between the molecules are overcome.": "분자 물질이 끓을 때 공유 결합이 끊어진다고 절대 쓰지 마세요. 물이 끓으면 수증기가 되는데, 수증기도 여전히 <span class=\"chem\">H2O</span> 분자예요. 분자 사이의 힘만 극복돼요.",
 
     // Explaining physical properties > p
-    "An electric current is a flow of charged particles. A substance conducts only if it has charged particles that are free to move: ions or delocalized electrons.": "",
+    "An electric current is a flow of charged particles. A substance conducts only if it has charged particles that are free to move: ions or delocalized electrons.": "전류는 전하를 띤 입자의 흐름이에요. 물질은 자유롭게 움직일 수 있는 전하를 띤 입자, 즉 이온이나 비편재화된 전자가 있을 때만 전기가 통해요.",
 
     // Explaining physical properties > li
-    "Molecular substances do not conduct as solids, liquids or gases. Molecules have no overall charge, and their electrons are held in bonds or lone pairs.": "",
+    "Molecular substances do not conduct as solids, liquids or gases. Molecules have no overall charge, and their electrons are held in bonds or lone pairs.": "분자 물질은 고체, 액체, 기체 어느 상태에서도 전기가 통하지 않아요. 분자는 전체적으로 전하가 없고, 분자의 전자는 결합이나 비공유 전자쌍에 붙잡혀 있어요.",
 
     // Explaining physical properties > li
-    "Covalent network solids do not conduct either. Diamond and silicon dioxide have no delocalized electrons.": "",
+    "Covalent network solids do not conduct either. Diamond and silicon dioxide have no delocalized electrons.": "공유 결정 고체도 전기가 통하지 않아요. 다이아몬드와 이산화 규소에는 비편재화된 전자가 없어요.",
 
     // Explaining physical properties > li
-    "Graphite and graphene are the exceptions. They have delocalized electrons, so they conduct.": "",
+    "Graphite and graphene are the exceptions. They have delocalized electrons, so they conduct.": "흑연과 그래핀은 예외예요. 비편재화된 전자가 있어서 전기가 통해요.",
 
     // Explaining physical properties > h3
     // Explaining physical properties > table > th
-    "Solubility": "",
+    "Solubility": "용해도",
 
     // Explaining physical properties > p
-    "A useful rule is “like dissolves like”. Polar substances tend to dissolve in polar solvents such as water. Non-polar substances tend to dissolve in non-polar solvents such as hexane.": "",
+    "A useful rule is “like dissolves like”. Polar substances tend to dissolve in polar solvents such as water. Non-polar substances tend to dissolve in non-polar solvents such as hexane.": "“비슷한 것은 비슷한 것을 녹인다(like dissolves like)”는 쓸모 있는 규칙이에요. 극성 물질은 물 같은 극성 용매에 잘 녹는 경향이 있어요. 무극성 물질은 hexane 같은 무극성 용매에 잘 녹는 경향이 있어요.",
 
     // Explaining physical properties > p
-    "The reason is about forces. A substance dissolves when its molecules can form attractions with the solvent molecules that are about as strong as the attractions that were there before.": "",
+    "The reason is about forces. A substance dissolves when its molecules can form attractions with the solvent molecules that are about as strong as the attractions that were there before.": "이유는 힘과 관련이 있어요. 물질은 그 분자가 용매 분자와, 원래 있던 인력과 비슷한 세기의 인력을 만들 수 있을 때 녹아요.",
 
     // Explaining physical properties > li
-    "Water molecules are held to each other by hydrogen bonds. A solute that can form hydrogen bonds with water, such as ethanol, mixes in easily.": "",
+    "Water molecules are held to each other by hydrogen bonds. A solute that can form hydrogen bonds with water, such as ethanol, mixes in easily.": "물 분자들은 수소 결합으로 서로 붙잡혀 있어요. ethanol처럼 물과 수소 결합을 만들 수 있는 용질은 쉽게 섞여요.",
 
     // Explaining physical properties > li
-    "A non-polar solute, such as hexane, can form only weak London forces with water. These cannot replace the hydrogen bonds between water molecules. So the two liquids stay separate.": "",
+    "A non-polar solute, such as hexane, can form only weak London forces with water. These cannot replace the hydrogen bonds between water molecules. So the two liquids stay separate.": "hexane 같은 무극성 용질은 물과 약한 런던 분산력만 만들 수 있어요. 이 힘으로는 물 분자 사이의 수소 결합을 대신할 수 없어요. 그래서 두 액체는 섞이지 않고 나뉘어 있어요.",
 
     // Explaining physical properties > li
-    "As the hydrocarbon chain of an alcohol gets longer, more of the molecule is non-polar. Solubility in water falls. Ethanol mixes completely with water. Octan-1-ol hardly dissolves.": "",
+    "As the hydrocarbon chain of an alcohol gets longer, more of the molecule is non-polar. Solubility in water falls. Ethanol mixes completely with water. Octan-1-ol hardly dissolves.": "알코올의 탄화수소 사슬이 길어질수록 분자에서 무극성인 부분이 많아져요. 물에 대한 용해도가 낮아져요. ethanol은 물과 완전히 섞여요. octan-1-ol은 거의 녹지 않아요.",
 
     // Explaining physical properties > li
-    "Covalent network solids are insoluble in all common solvents. Dissolving would mean breaking strong covalent bonds.": "",
+    "Covalent network solids are insoluble in all common solvents. Dissolving would mean breaking strong covalent bonds.": "공유 결정 고체는 흔한 용매 어디에도 녹지 않아요. 녹으려면 강한 공유 결합을 끊어야 하기 때문이에요.",
 
     // Explaining physical properties > p
-    "Some molecules cannot form hydrogen bonds with themselves but can accept them from water. Propanone has a lone pair on oxygen, so a water H atom can hydrogen-bond to it. This is why propanone mixes with water.": "",
+    "Some molecules cannot form hydrogen bonds with themselves but can accept them from water. Propanone has a lone pair on oxygen, so a water H atom can hydrogen-bond to it. This is why propanone mixes with water.": "어떤 분자는 자기들끼리 수소 결합을 만들지 못하지만, 물로부터 수소 결합을 받을 수는 있어요. propanone은 산소에 비공유 전자쌍이 있어서, 물의 H 원자가 여기에 수소 결합할 수 있어요. 그래서 propanone은 물과 섞여요.",
 
     // Explaining physical properties > worked example > data-kicker attribute
-    "Worked example 8": "",
+    "Worked example 8": "예제 8",
 
     // Explaining physical properties > worked example > h3
-    "Explaining solubility": "",
+    "Explaining solubility": "용해도 설명하기",
 
     // Explaining physical properties > worked example > p
-    "Ethanol, <span class=\"chem\">CH3CH2OH</span>, mixes completely with water. Hexane, <span class=\"chem\">C6H14</span>, is almost insoluble in water. Explain this difference.": "",
+    "Ethanol, <span class=\"chem\">CH3CH2OH</span>, mixes completely with water. Hexane, <span class=\"chem\">C6H14</span>, is almost insoluble in water. Explain this difference.": "ethanol <span class=\"chem\">CH3CH2OH</span>은 물과 완전히 섞여요. hexane <span class=\"chem\">C6H14</span>은 물에 거의 녹지 않아요. 이 차이를 설명하시오 (explain).",
 
     // Explaining physical properties > worked example > data-title attribute
-    "Describe the solvent": "",
+    "Describe the solvent": "용매에 대해 서술하기",
 
     // Explaining physical properties > worked example > p
-    "Solubility depends on both partners, so start with water.": "",
+    "Solubility depends on both partners, so start with water.": "용해도는 두 물질 모두에 달려 있으니, 물부터 시작해요.",
 
     // Explaining physical properties > worked example > maths line
-    "water: polar, hydrogen bonding between molecules": "",
+    "water: polar, hydrogen bonding between molecules": "물: 극성, 분자 사이에 수소 결합",
 
     // Explaining physical properties > worked example > data-title attribute
-    "Find the structural feature of each solute": "",
+    "Find the structural feature of each solute": "각 용질의 구조적 특징 찾기",
 
     // Explaining physical properties > worked example > p
-    "Look for an H atom bonded to N, O or F, and for polarity.": "",
+    "Look for an H atom bonded to N, O or F, and for polarity.": "N, O, F에 결합한 H 원자가 있는지, 그리고 극성인지 봐요.",
 
     // Explaining physical properties > worked example > maths line
-    "ethanol: has an O–H group, polar": "",
+    "ethanol: has an O–H group, polar": "ethanol: O–H 작용기가 있음, 극성",
 
     // Explaining physical properties > worked example > maths line
-    "hexane: only C–C and C–H bonds, non-polar": "",
+    "hexane: only C–C and C–H bonds, non-polar": "hexane: C–C 결합과 C–H 결합만 있음, 무극성",
 
     // Explaining physical properties > worked example > data-title attribute
-    "Name the solute–water attractions": "",
+    "Name the solute–water attractions": "용질과 물 사이의 인력 이름 쓰기",
 
     // Explaining physical properties > worked example > p
-    "A solute dissolves well if it can attract water molecules strongly.": "",
+    "A solute dissolves well if it can attract water molecules strongly.": "용질은 물 분자를 강하게 끌어당길 수 있으면 잘 녹아요.",
 
     // Explaining physical properties > worked example > maths line
-    "ethanol and water: <b>hydrogen bonds</b> form between them": "",
+    "ethanol and water: <b>hydrogen bonds</b> form between them": "ethanol과 물: 둘 사이에 <b>수소 결합</b>이 생김",
 
     // Explaining physical properties > worked example > maths line
-    "hexane and water: only weak London (dispersion) forces": "",
+    "hexane and water: only weak London (dispersion) forces": "hexane과 물: 약한 런던 분산력만 있음",
 
     // Explaining physical properties > worked example > data-title attribute
-    "Compare with the forces already present": "",
+    "Compare with the forces already present": "원래 있던 힘과 비교하기",
 
     // Explaining physical properties > worked example > p
-    "The new attractions must be able to replace the hydrogen bonds between water molecules.": "",
+    "The new attractions must be able to replace the hydrogen bonds between water molecules.": "새 인력이 물 분자 사이의 수소 결합을 대신할 수 있어야 해요.",
 
     // Explaining physical properties > worked example > maths line
-    "hexane–water forces are much weaker than water–water hydrogen bonds → hexane does not mix": "",
+    "hexane–water forces are much weaker than water–water hydrogen bonds → hexane does not mix": "hexane–물 사이의 힘은 물–물 사이의 수소 결합보다 훨씬 약함 → hexane은 섞이지 않음",
 
     // Explaining physical properties > worked example > p
-    "Ethanol has an O–H group, so it forms hydrogen bonds with water molecules and dissolves. Hexane is non-polar. It forms only London (dispersion) forces with water, which are too weak to replace the hydrogen bonds between water molecules.": "",
+    "Ethanol has an O–H group, so it forms hydrogen bonds with water molecules and dissolves. Hexane is non-polar. It forms only London (dispersion) forces with water, which are too weak to replace the hydrogen bonds between water molecules.": "ethanol에는 O–H 작용기가 있어서 물 분자와 수소 결합을 만들고 녹아요. hexane은 무극성이에요. 물과 런던 분산력만 만드는데, 이 힘은 너무 약해서 물 분자 사이의 수소 결합을 대신할 수 없어요.",
 
     // Explaining physical properties > table > caption
-    "Molecular substances and covalent network substances compared": "",
+    "Molecular substances and covalent network substances compared": "분자 물질과 공유 결정 물질의 비교",
 
     // Explaining physical properties > table > th
-    "Property": "",
+    "Property": "성질",
 
     // Explaining physical properties > table > th
-    "Molecular (for example <span class=\"chem\">H2O</span>, <span class=\"chem\">CO2</span>, <span class=\"chem\">I2</span>)": "",
+    "Molecular (for example <span class=\"chem\">H2O</span>, <span class=\"chem\">CO2</span>, <span class=\"chem\">I2</span>)": "분자 물질 (예: <span class=\"chem\">H2O</span>, <span class=\"chem\">CO2</span>, <span class=\"chem\">I2</span>)",
 
     // Explaining physical properties > table > th
-    "Covalent network (for example diamond, <span class=\"chem\">SiO2</span>)": "",
+    "Covalent network (for example diamond, <span class=\"chem\">SiO2</span>)": "공유 결정 (예: 다이아몬드, <span class=\"chem\">SiO2</span>)",
 
     // Explaining physical properties > table > th
-    "What is overcome on melting or boiling": "",
+    "What is overcome on melting or boiling": "녹거나 끓을 때 극복되는 것",
 
     // Explaining physical properties > table > td
-    "weak intermolecular forces": "",
+    "weak intermolecular forces": "약한 분자 간 힘",
 
     // Explaining physical properties > table > td
-    "strong covalent bonds": "",
+    "strong covalent bonds": "강한 공유 결합",
 
     // Explaining physical properties > table > th
-    "Melting and boiling points": "",
+    "Melting and boiling points": "녹는점과 끓는점",
 
     // Explaining physical properties > table > td
-    "low": "",
+    "low": "낮음",
 
     // Explaining physical properties > table > td
-    "often high": "",
+    "often high": "대체로 높음",
 
     // Explaining physical properties > table > td
-    "very low": "",
+    "very low": "매우 낮음",
 
     // Explaining physical properties > table > td
-    "none, except graphite and graphene": "",
+    "none, except graphite and graphene": "없음 (흑연과 그래핀은 예외)",
 
     // Explaining physical properties > table > td
-    "“like dissolves like”": "",
+    "“like dissolves like”": "“비슷한 것은 비슷한 것을 녹인다”",
 
     // Explaining physical properties > table > td
-    "insoluble": "",
+    "insoluble": "녹지 않음",
 
     // Explaining physical properties > exam tip (shown in English + translation) > p
-    "To compare the melting point of a network solid with a molecular substance, give three points. The network has covalent bonds between all its atoms. The molecular substance has (named) intermolecular forces between its molecules. Covalent bonds are much stronger than intermolecular forces.": "",
+    "To compare the melting point of a network solid with a molecular substance, give three points. The network has covalent bonds between all its atoms. The molecular substance has (named) intermolecular forces between its molecules. Covalent bonds are much stronger than intermolecular forces.": "공유 결정 고체와 분자 물질의 녹는점을 비교하려면 3가지를 쓰세요. 공유 결정은 모든 원자 사이에 공유 결합이 있다. 분자 물질은 분자 사이에 (이름을 밝힌) 분자 간 힘이 있다. 공유 결합은 분자 간 힘보다 훨씬 강하다.",
 
     // Explaining physical properties > data-title attribute
-    "Physical properties: quick check": "",
+    "Physical properties: quick check": "물리적 성질: 빠른 확인",
 
     // Chromatography > data-toc attribute
     // Chromatography > h2
-    "Chromatography": "",
+    "Chromatography": "크로마토그래피",
 
     // Chromatography > p
-    "A drop of water falls on a note written in black ink. As the water spreads through the paper, the black mark separates into bands of blue, red and yellow. The ink was a mixture, and the water has separated it.": "",
+    "A drop of water falls on a note written in black ink. As the water spreads through the paper, the black mark separates into bands of blue, red and yellow. The ink was a mixture, and the water has separated it.": "검은 잉크로 쓴 메모에 물방울이 떨어져요. 물이 종이에 번져 가면서 검은 자국이 파란색, 빨간색, 노란색 띠로 나뉘어요. 잉크는 혼합물이었고, 물이 그것을 분리한 거예요.",
 
     // Chromatography > p
-    "<dfn data-def=\"A technique that separates the components of a mixture, based on their relative attractions to a mobile phase and a stationary phase.\">Chromatography</dfn> is a technique that separates the components of a mixture. It works because the components have different attractions, involving intermolecular forces, to two phases.": "",
+    "<dfn data-def=\"A technique that separates the components of a mixture, based on their relative attractions to a mobile phase and a stationary phase.\">Chromatography</dfn> is a technique that separates the components of a mixture. It works because the components have different attractions, involving intermolecular forces, to two phases.": "<dfn data-def=\"이동상과 정지상에 대한 상대적인 인력 차이를 이용해 혼합물의 성분을 분리하는 방법.\">크로마토그래피 <span class=\"en-term\">(chromatography)</span></dfn>는 혼합물의 성분을 분리하는 방법이에요. 성분마다 두 상(phase)에 대한 인력(분자 간 힘이 관여해요)이 다르기 때문에 분리돼요.",
 
     // Chromatography > data-def attribute
-    "A technique that separates the components of a mixture, based on their relative attractions to a mobile phase and a stationary phase.": "",
+    "A technique that separates the components of a mixture, based on their relative attractions to a mobile phase and a stationary phase.": "이동상과 정지상에 대한 상대적인 인력 차이를 이용해 혼합물의 성분을 분리하는 방법.",
 
     // Chromatography > li
-    "The <dfn data-def=\"The phase that does not move in chromatography, for example the water held in the paper or the solid coating of a TLC plate.\">stationary phase</dfn> stays in place.": "",
+    "The <dfn data-def=\"The phase that does not move in chromatography, for example the water held in the paper or the solid coating of a TLC plate.\">stationary phase</dfn> stays in place.": "<dfn data-def=\"크로마토그래피에서 움직이지 않는 상. 예를 들어 종이에 붙잡혀 있는 물이나 TLC 판의 고체 코팅.\">정지상 <span class=\"en-term\">(stationary phase)</span></dfn>은 제자리에 있어요.",
 
     // Chromatography > data-def attribute
-    "The phase that does not move in chromatography, for example the water held in the paper or the solid coating of a TLC plate.": "",
+    "The phase that does not move in chromatography, for example the water held in the paper or the solid coating of a TLC plate.": "크로마토그래피에서 움직이지 않는 상. 예를 들어 종이에 붙잡혀 있는 물이나 TLC 판의 고체 코팅.",
 
     // Chromatography > li
-    "The <dfn data-def=\"The phase that moves in chromatography: the solvent, which carries the components of the mixture with it.\">mobile phase</dfn> moves. It is the solvent, and it carries the mixture with it.": "",
+    "The <dfn data-def=\"The phase that moves in chromatography: the solvent, which carries the components of the mixture with it.\">mobile phase</dfn> moves. It is the solvent, and it carries the mixture with it.": "<dfn data-def=\"크로마토그래피에서 움직이는 상: 혼합물의 성분을 함께 실어 나르는 용매.\">이동상 <span class=\"en-term\">(mobile phase)</span></dfn>은 움직여요. 이동상은 용매이고, 혼합물을 함께 실어 날라요.",
 
     // Chromatography > data-def attribute
-    "The phase that moves in chromatography: the solvent, which carries the components of the mixture with it.": "",
+    "The phase that moves in chromatography: the solvent, which carries the components of the mixture with it.": "크로마토그래피에서 움직이는 상: 혼합물의 성분을 함께 실어 나르는 용매.",
 
     // Chromatography > table > caption
-    "The two techniques you need": "",
+    "The two techniques you need": "알아야 할 두 방법",
 
     // Chromatography > table > th
-    "Technique": "",
+    "Technique": "방법",
 
     // Chromatography > table > th
     // widget string (assets/js/widgets-s2-2.js)
-    "Stationary phase": "",
+    "Stationary phase": "정지상",
 
     // Chromatography > table > th
-    "Mobile phase": "",
+    "Mobile phase": "이동상",
 
     // Chromatography > table > th
-    "paper chromatography": "",
+    "paper chromatography": "종이 크로마토그래피",
 
     // Chromatography > table > td
-    "water held in the fibres of the paper": "",
+    "water held in the fibres of the paper": "종이 섬유에 붙잡혀 있는 물",
 
     // Chromatography > table > td
-    "a solvent that rises up the paper": "",
+    "a solvent that rises up the paper": "종이를 타고 올라가는 용매",
 
     // Chromatography > table > th
-    "thin layer chromatography (TLC)": "",
+    "thin layer chromatography (TLC)": "얇은 막 크로마토그래피 (TLC)",
 
     // Chromatography > table > td
-    "a thin layer of a solid such as silica (<span class=\"chem\">SiO2</span>) on a glass or plastic plate": "",
+    "a thin layer of a solid such as silica (<span class=\"chem\">SiO2</span>) on a glass or plastic plate": "유리판이나 플라스틱 판 위의 실리카(<span class=\"chem\">SiO2</span>) 같은 고체의 얇은 막",
 
     // Chromatography > table > td
-    "a solvent that rises up the plate": "",
+    "a solvent that rises up the plate": "판을 타고 올라가는 용매",
 
     // Chromatography > h3
-    "Why the components separate": "",
+    "Why the components separate": "성분이 분리되는 이유",
 
     // Chromatography > p
-    "Each component is pulled in two ways at once. It is attracted to the stationary phase, which holds it back. It is attracted to the moving solvent, which carries it forward.": "",
+    "Each component is pulled in two ways at once. It is attracted to the stationary phase, which holds it back. It is attracted to the moving solvent, which carries it forward.": "각 성분은 동시에 두 방향으로 끌려요. 정지상에 끌리면 제자리에 붙잡혀요. 움직이는 용매에 끌리면 앞으로 실려 가요.",
 
     // Chromatography > li
-    "A component that is attracted strongly to the stationary phase spends more time held still. It moves a short distance.": "",
+    "A component that is attracted strongly to the stationary phase spends more time held still. It moves a short distance.": "정지상에 강하게 끌리는 성분은 붙잡혀 있는 시간이 길어요. 조금만 이동해요.",
 
     // Chromatography > li
-    "A component that is attracted more to the mobile phase (it is more soluble in the solvent) spends more time moving. It travels far.": "",
+    "A component that is attracted more to the mobile phase (it is more soluble in the solvent) spends more time moving. It travels far.": "이동상에 더 끌리는(용매에 더 잘 녹는) 성분은 움직이는 시간이 길어요. 멀리 이동해요.",
 
     // Chromatography > p
-    "In both paper chromatography and TLC with silica, the stationary phase is polar and can form hydrogen bonds. So polar components, and those that can hydrogen-bond, are held back most. Less polar components travel further with a less polar solvent.": "",
+    "In both paper chromatography and TLC with silica, the stationary phase is polar and can form hydrogen bonds. So polar components, and those that can hydrogen-bond, are held back most. Less polar components travel further with a less polar solvent.": "종이 크로마토그래피와 실리카를 쓰는 TLC에서는 모두 정지상이 극성이고 수소 결합을 만들 수 있어요. 그래서 극성 성분과 수소 결합을 할 수 있는 성분이 가장 많이 붙잡혀요. 극성이 작은 성분은 극성이 작은 용매와 함께 더 멀리 이동해요.",
 
     // Chromatography > h3
-    "How a chromatogram is run": "",
+    "How a chromatogram is run": "크로마토그램을 만드는 방법",
 
     // Chromatography > li
-    "Draw a baseline in <b>pencil</b> near the bottom of the paper. Pencil does not dissolve in the solvent. Ink would dissolve and move.": "",
+    "Draw a baseline in <b>pencil</b> near the bottom of the paper. Pencil does not dissolve in the solvent. Ink would dissolve and move.": "종이 아래쪽 가까이에 <b>연필</b>로 출발선을 그어요. 연필 자국은 용매에 녹지 않아요. 잉크는 녹아서 움직여요.",
 
     // Chromatography > li
-    "Put a small spot of the mixture on the baseline. Put spots of known pure substances beside it for comparison.": "",
+    "Put a small spot of the mixture on the baseline. Put spots of known pure substances beside it for comparison.": "출발선 위에 혼합물을 작은 점으로 찍어요. 비교하기 위해 그 옆에 이미 알고 있는 순물질도 점으로 찍어요.",
 
     // Chromatography > li
-    "Stand the paper in a little solvent. The baseline must be <b>above</b> the solvent level. Otherwise the spots dissolve into the solvent in the container.": "",
+    "Stand the paper in a little solvent. The baseline must be <b>above</b> the solvent level. Otherwise the spots dissolve into the solvent in the container.": "종이를 용매가 조금 담긴 용기에 세워요. 출발선은 반드시 용매 표면보다 <b>위</b>에 있어야 해요. 그렇지 않으면 점이 용기 속 용매로 녹아 나가요.",
 
     // Chromatography > li
-    "<b>Cover</b> the container. This stops the solvent evaporating from the paper as it rises.": "",
+    "<b>Cover</b> the container. This stops the solvent evaporating from the paper as it rises.": "용기를 <b>덮어요</b>. 그래야 용매가 종이를 타고 올라가는 동안 종이에서 증발하지 않아요.",
 
     // Chromatography > li
-    "Take the paper out before the solvent reaches the top. Mark the <dfn data-def=\"The highest level reached by the solvent on the paper or plate.\">solvent front</dfn> with pencil at once, before the solvent dries.": "",
+    "Take the paper out before the solvent reaches the top. Mark the <dfn data-def=\"The highest level reached by the solvent on the paper or plate.\">solvent front</dfn> with pencil at once, before the solvent dries.": "용매가 맨 위에 닿기 전에 종이를 꺼내요. 용매가 마르기 전에 바로 연필로 <dfn data-def=\"종이나 판 위에서 용매가 올라간 가장 높은 위치.\">용매 전선 <span class=\"en-term\">(solvent front)</span></dfn>을 표시해요.",
 
     // Chromatography > data-def attribute
-    "The highest level reached by the solvent on the paper or plate.": "",
+    "The highest level reached by the solvent on the paper or plate.": "종이나 판 위에서 용매가 올라간 가장 높은 위치.",
 
     // Chromatography > p
-    "The result is a <dfn data-def=\"The paper or plate after the run, showing the separated spots.\">chromatogram</dfn>.": "",
+    "The result is a <dfn data-def=\"The paper or plate after the run, showing the separated spots.\">chromatogram</dfn>.": "그 결과물이 <dfn data-def=\"전개를 마친 뒤 분리된 점들이 나타난 종이나 판.\">크로마토그램 <span class=\"en-term\">(chromatogram)</span></dfn>이에요.",
 
     // Chromatography > data-def attribute
-    "The paper or plate after the run, showing the separated spots.": "",
+    "The paper or plate after the run, showing the separated spots.": "전개를 마친 뒤 분리된 점들이 나타난 종이나 판.",
 
     // Chromatography > h3
-    "The retardation factor, R<sub>F</sub>": "",
+    "The retardation factor, R<sub>F</sub>": "이동률, R<sub>F</sub>",
 
     // Chromatography > p
-    "How far a spot moves depends on how far the solvent was allowed to run. So chemists use a ratio instead of a distance.": "",
+    "How far a spot moves depends on how far the solvent was allowed to run. So chemists use a ratio instead of a distance.": "점이 얼마나 멀리 이동하는지는 용매를 얼마나 멀리 올라가게 했는지에 따라 달라요. 그래서 화학자들은 거리 대신 비를 써요.",
 
     // Chromatography > equation > dt
-    "R<sub>F</sub>": "",
+    "R<sub>F</sub>": "R<sub>F</sub>",
 
     // Chromatography > equation > dd
-    "retardation factor (a ratio, so it has no unit)": "",
+    "retardation factor (a ratio, so it has no unit)": "이동률 (비이므로 단위가 없음)",
 
     // Chromatography > equation > dt
-    "d<sub>spot</sub>": "",
+    "d<sub>spot</sub>": "d<sub>spot</sub>",
 
     // Chromatography > equation > dd
-    "distance moved by the spot: from the baseline to the centre of the spot <span class=\"unit\">cm</span>": "",
+    "distance moved by the spot: from the baseline to the centre of the spot <span class=\"unit\">cm</span>": "점이 이동한 거리: 출발선에서 점의 중심까지 <span class=\"unit\">cm</span>",
 
     // Chromatography > equation > dt
-    "d<sub>front</sub>": "",
+    "d<sub>front</sub>": "d<sub>front</sub>",
 
     // Chromatography > equation > dd
-    "distance moved by the solvent front: from the baseline to the solvent front <span class=\"unit\">cm</span>": "",
+    "distance moved by the solvent front: from the baseline to the solvent front <span class=\"unit\">cm</span>": "용매 전선이 이동한 거리: 출발선에서 용매 전선까지 <span class=\"unit\">cm</span>",
 
     // Chromatography > li
-    "Both distances are measured <b>from the baseline</b>.": "",
+    "Both distances are measured <b>from the baseline</b>.": "두 거리 모두 <b>출발선에서부터</b> 재요.",
 
     // Chromatography > li
-    "An R<sub>F</sub> value has no unit and is always between 0 and 1.": "",
+    "An R<sub>F</sub> value has no unit and is always between 0 and 1.": "R<sub>F</sub> 값은 단위가 없고 항상 0과 1 사이예요.",
 
     // Chromatography > li
-    "A substance has the same R<sub>F</sub> value every time, if the stationary phase, the solvent and the temperature are the same.": "",
+    "A substance has the same R<sub>F</sub> value every time, if the stationary phase, the solvent and the temperature are the same.": "정지상, 용매, 온도가 같으면 한 물질의 R<sub>F</sub> 값은 매번 같아요.",
 
     // Chromatography > p
-    "This lets you interpret a chromatogram. If a spot from the mixture has the same R<sub>F</sub> value as a known substance run in the same way, it is probably that substance. A pure substance gives one spot. A mixture usually gives more than one.": "",
+    "This lets you interpret a chromatogram. If a spot from the mixture has the same R<sub>F</sub> value as a known substance run in the same way, it is probably that substance. A pure substance gives one spot. A mixture usually gives more than one.": "이것을 이용해 크로마토그램을 해석할 수 있어요. 혼합물에서 나온 점이 같은 조건으로 전개한 알고 있는 물질과 R<sub>F</sub> 값이 같으면, 아마 그 물질일 거예요. 순물질은 점이 1개 생겨요. 혼합물은 보통 2개 이상 생겨요.",
 
     // Chromatography > widget > data-title attribute
-    "Chromatography simulator": "",
+    "Chromatography simulator": "크로마토그래피 시뮬레이터",
 
     // Chromatography > widget > figcaption
-    "Press Run. Then slide the measuring line to the baseline, to a spot, and to the solvent front, and calculate an R<sub>F</sub> value. Run it again: the distances change but the R<sub>F</sub> values do not. Then change the solvent. In lane M, spot 1 is the most polar component and spot 3 is the least polar. The numbers are model data.": "",
+    "Press Run. Then slide the measuring line to the baseline, to a spot, and to the solvent front, and calculate an R<sub>F</sub> value. Run it again: the distances change but the R<sub>F</sub> values do not. Then change the solvent. In lane M, spot 1 is the most polar component and spot 3 is the least polar. The numbers are model data.": "전개를 누르세요. 그다음 측정선을 출발선, 점, 용매 전선으로 밀어서 옮기고, R<sub>F</sub> 값을 계산해 보세요. 다시 전개해 보세요: 거리는 바뀌지만 R<sub>F</sub> 값은 바뀌지 않아요. 그다음 용매를 바꿔 보세요. M 줄에서 점 1은 극성이 가장 큰 성분이고 점 3은 극성이 가장 작은 성분이에요. 숫자는 모형 자료예요.",
 
     // Chromatography > li
-    "Measure from the baseline to the centre of the spot.": "",
+    "Measure from the baseline to the centre of the spot.": "출발선에서 점의 중심까지 재요.",
 
     // Chromatography > li
-    "Measure from the baseline to the solvent front.": "",
+    "Measure from the baseline to the solvent front.": "출발선에서 용매 전선까지 재요.",
 
     // Chromatography > li
-    "Divide the first distance by the second. Use the same unit for both (cm or mm).": "",
+    "Divide the first distance by the second. Use the same unit for both (cm or mm).": "첫 번째 거리를 두 번째 거리로 나눠요. 두 거리 모두 같은 단위(cm 또는 mm)를 써요.",
 
     // Chromatography > li
-    "Give the answer to 2 significant figures, with no unit. Check that it is less than 1.": "",
+    "Give the answer to 2 significant figures, with no unit. Check that it is less than 1.": "답은 단위 없이 유효 숫자 2자리로 써요. 1보다 작은지 확인해요.",
 
     // Chromatography > worked example > data-kicker attribute
-    "Worked example 9": "",
+    "Worked example 9": "예제 9",
 
     // Chromatography > worked example > h3
-    "Calculating an R<sub>F</sub> value": "",
+    "Calculating an R<sub>F</sub> value": "R<sub>F</sub> 값 계산하기",
 
     // Chromatography > worked example > p
-    "On a chromatogram the solvent front is 8.0 cm above the baseline. The centre of a blue spot is 3.6 cm above the baseline. Calculate the R<sub>F</sub> value of the blue substance.": "",
+    "On a chromatogram the solvent front is 8.0 cm above the baseline. The centre of a blue spot is 3.6 cm above the baseline. Calculate the R<sub>F</sub> value of the blue substance.": "크로마토그램에서 용매 전선은 출발선보다 8.0 cm 위에 있어요. 파란 점의 중심은 출발선보다 3.6 cm 위에 있어요. 파란 물질의 R<sub>F</sub> 값을 계산하시오 (calculate).",
 
     // Chromatography > worked example > data-title attribute
-    "Identify the two distances": "",
+    "Identify the two distances": "두 거리 확인하기",
 
     // Chromatography > worked example > p
-    "Both must start at the baseline. Here they already do.": "",
+    "Both must start at the baseline. Here they already do.": "두 거리 모두 출발선에서 시작해야 해요. 여기서는 이미 그래요.",
 
     // Chromatography > worked example > maths line
-    "distance moved by the spot = 3.6 cm": "",
+    "distance moved by the spot = 3.6 cm": "점이 이동한 거리 = 3.6 cm",
 
     // Chromatography > worked example > maths line
-    "distance moved by the solvent front = 8.0 cm": "",
+    "distance moved by the solvent front = 8.0 cm": "용매 전선이 이동한 거리 = 8.0 cm",
 
     // Chromatography > worked example > data-title attribute
-    "Write the ratio with the spot on top": "",
+    "Write the ratio with the spot on top": "점의 거리를 위에 두고 비 쓰기",
 
     // Chromatography > worked example > p
-    "The spot can never travel further than the solvent, so the smaller number goes on top.": "",
+    "The spot can never travel further than the solvent, so the smaller number goes on top.": "점은 용매보다 멀리 이동할 수 없으므로, 작은 수가 위(분자)에 와요.",
 
     // Chromatography > worked example > data-title attribute
-    "Calculate": "",
+    "Calculate": "계산하기",
 
     // Chromatography > worked example > p
-    "The units cancel, so the answer has no unit.": "",
+    "The units cancel, so the answer has no unit.": "단위가 약분되므로 답에는 단위가 없어요.",
 
     // Chromatography > worked example > p
-    "The value is between 0 and 1, and the data have 2 significant figures.": "",
+    "The value is between 0 and 1, and the data have 2 significant figures.": "값이 0과 1 사이이고, 자료는 유효 숫자 2자리예요.",
 
     // Chromatography > worked example > p
-    "R<sub>F</sub> = 0.45 (no unit)": "",
+    "R<sub>F</sub> = 0.45 (no unit)": "R<sub>F</sub> = 0.45 (단위 없음)",
 
     // Chromatography > try it > data-label attribute
-    "RF value": "",
+    "RF value": "RF 값",
 
     // Chromatography > try it > p
-    "A spot moves 2.7 cm from the baseline. The solvent front moves 7.5 cm from the baseline. Calculate the R<sub>F</sub> value.": "",
+    "A spot moves 2.7 cm from the baseline. The solvent front moves 7.5 cm from the baseline. Calculate the R<sub>F</sub> value.": "점이 출발선에서 2.7 cm 이동해요. 용매 전선은 출발선에서 7.5 cm 이동해요. R<sub>F</sub> 값을 계산하시오 (calculate).",
 
     // Chromatography > try it > li
-    "Which distance goes on top? The answer must be less than 1.": "",
+    "Which distance goes on top? The answer must be less than 1.": "어느 거리가 위에 올까요? 답은 1보다 작아야 해요.",
 
     // Chromatography > try it > li
-    "Divide 2.7 cm by 7.5 cm.": "",
+    "Divide 2.7 cm by 7.5 cm.": "2.7 cm를 7.5 cm로 나눠요.",
 
     // Chromatography > try it > p
-    "A student measures everything from the bottom edge of the paper. The baseline is at 1.5 cm, the centre of a spot is at 6.3 cm, and the solvent front is at 9.5 cm. Calculate the R<sub>F</sub> value of the spot.": "",
+    "A student measures everything from the bottom edge of the paper. The baseline is at 1.5 cm, the centre of a spot is at 6.3 cm, and the solvent front is at 9.5 cm. Calculate the R<sub>F</sub> value of the spot.": "한 학생이 모든 거리를 종이의 아래쪽 가장자리에서 쟀어요. 출발선은 1.5 cm, 점의 중심은 6.3 cm, 용매 전선은 9.5 cm에 있어요. 이 점의 R<sub>F</sub> 값을 계산하시오 (calculate).",
 
     // Chromatography > try it > li
-    "The distances you need start at the baseline, not at the bottom edge. Subtract 1.5 cm from each reading.": "",
+    "The distances you need start at the baseline, not at the bottom edge. Subtract 1.5 cm from each reading.": "필요한 거리는 아래쪽 가장자리가 아니라 출발선에서 시작해요. 각 측정값에서 1.5 cm를 빼요.",
 
     // Chromatography > try it > li
-    "The spot moved 6.3 − 1.5 = 4.8 cm. Work out how far the solvent front moved in the same way, then divide.": "",
+    "The spot moved 6.3 − 1.5 = 4.8 cm. Work out how far the solvent front moved in the same way, then divide.": "점은 6.3 − 1.5 = 4.8 cm 이동했어요. 같은 방법으로 용매 전선이 이동한 거리를 구한 다음 나눠요.",
 
     // Chromatography > try it > maths line
     "distance moved by the spot = 6.3 cm − 1.5 cm = 4.8 cm": "",

@@ -496,535 +496,535 @@ S1.i18n.register('ko', 's3-1.q', {
         // EN: A fluorine atom releases the most energy when it gains an electron.
         "플루오린 원자는 전자를 얻을 때 에너지를 가장 많이 방출해요.",
         // EN: Energy must be supplied to add an electron to each of these atoms.
-        "",
+        "이 원자들 각각에 전자를 더하려면 에너지를 공급해야 해요.",
         // EN: From chlorine to iodine, less energy is released when an atom gains an electron.
-        "",
+        "염소에서 아이오딘으로 갈수록, 원자가 전자를 얻을 때 방출하는 에너지가 작아져요.",
         // EN: Electron affinity becomes more exothermic down the whole group.
-        "",
+        "족 전체에서 아래로 갈수록 전자 친화도가 더 발열적이 돼요.",
       ],
       hints: [
         // EN: A more negative value means more energy is released.
-        "",
+        "값이 더 큰 음수일수록 에너지가 더 많이 방출된다는 뜻이에요.",
         // EN: Compare the size of the numbers from Cl down to I.
-        "",
+        "Cl에서 I까지 내려가며 숫자의 크기를 비교해 보세요.",
       ],
       // EN: <p>From chlorine to iodine the values change from −349 to −325 to −295 kJ mol<sup>−1</sup>. They become less negative, so <strong>less energy is released</strong>.</p><p>Explanation: down the group, the added electron enters a higher energy level. It is further from the nucleus and more shielded, so it is attracted less strongly.</p><p>Fluorine does not follow the pattern. Its atom is very small, so the added electron is repelled more by the electrons already there. You do not need to explain this exception.</p>
-      solution: "",
+      solution: "<p>염소에서 아이오딘으로 가면서 값은 −349, −325, −295 kJ mol<sup>−1</sup>로 바뀌어요. 음의 값이 작아지므로 <strong>방출되는 에너지가 작아져요</strong>.</p><p>설명: 족 아래로 갈수록 더해진 전자가 더 높은 에너지 준위에 들어가요. 그 전자는 원자핵에서 더 멀고 더 많이 가려지므로 덜 세게 끌려요.</p><p>플루오린은 이 경향을 따르지 않아요. 플루오린 원자는 매우 작아서, 더해진 전자가 이미 있던 전자들에게 더 많이 밀려나요. 이 예외는 설명하지 않아도 돼요.</p>",
       misconception: {
         // EN (option A): Read the values again: chlorine (−349) is more negative than fluorine (−328), so chlorine releases more energy. Fluorine has the highest electronegativity, but that is a different property.
-        "0": "",
+        "0": "값을 다시 읽어 보세요: 염소(−349)가 플루오린(−328)보다 더 큰 음수이므로 염소가 에너지를 더 많이 방출해요. 플루오린은 전기 음성도가 가장 크지만, 그것은 다른 성질이에요.",
         // EN (option B): All four values are negative. A negative energy change means energy is released (exothermic).
-        "1": "",
+        "1": "4개의 값이 모두 음수예요. 에너지 변화가 음수이면 에너지가 방출된다(발열)는 뜻이에요.",
         // EN (option D): From Cl to Br to I the values become <em>less</em> negative: −349, −325, −295. Less energy is released.
-        "3": "",
+        "3": "Cl에서 Br, I로 갈수록 값이 <em>덜</em> 음수가 돼요: −349, −325, −295. 방출되는 에너지가 작아져요.",
       },
     },
 
     // ── s3-1-q018 · short · challenge · SL · Structure 3.1.3 · 3 marks
     "s3-1-q018": {
       // EN: <p>The first ionization energies of three elements are: F 1681, Cl 1251, S 1000 (in kJ mol<sup>−1</sup>).</p><p>Explain why the first ionization energy of fluorine is higher than that of chlorine, and why that of chlorine is higher than that of sulfur.</p>
-      stem: "",
+      stem: "<p>세 원소의 제1 이온화 에너지는 F 1681, Cl 1251, S 1000이에요(단위 kJ mol<sup>−1</sup>).</p><p>플루오린의 제1 이온화 에너지가 염소보다 큰 이유와, 염소의 제1 이온화 에너지가 황보다 큰 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: Treat the two comparisons separately. F and Cl are in the same group. Cl and S are in the same period.
-        "",
+        "두 비교를 따로 생각하세요. F와 Cl은 같은 족이에요. Cl과 S는 같은 주기예요.",
         // EN: Same group: what changes is the energy level and the shielding.
-        "",
+        "같은 족: 달라지는 것은 에너지 준위와 가려막기예요.",
         // EN: Same period: what changes is the nuclear charge.
-        "",
+        "같은 주기: 달라지는 것은 핵전하예요.",
       ],
       // EN: <p><strong>F and Cl</strong> (same group): the outer electrons of fluorine are in the second energy level. Those of chlorine are in the third. The outer electron in fluorine is closer to the nucleus and is shielded by fewer inner electrons, so it is attracted more strongly.</p><p><strong>Cl and S</strong> (same period): the outer electrons are in the same energy level (n = 3) with the same shielding. Chlorine has 17 protons and sulfur has 16, so chlorine has the larger nuclear charge and attracts its outer electrons more strongly. More energy is needed to remove one.</p>
-      answer: "",
+      answer: "<p><strong>F와 Cl</strong>(같은 족): 플루오린의 바깥 전자는 둘째 에너지 준위에 있어요. 염소의 바깥 전자는 셋째 준위에 있어요. 플루오린의 바깥 전자는 원자핵에 더 가깝고 더 적은 안쪽 전자에 가려지므로 더 세게 끌려요.</p><p><strong>Cl과 S</strong>(같은 주기): 바깥 전자는 같은 에너지 준위(n = 3)에 있고 가려막기도 같아요. 염소는 양성자가 17개, 황은 16개이므로 염소의 핵전하가 더 크고 바깥 전자를 더 세게 끌어당겨요. 그래서 전자 하나를 떼어 내는 데 에너지가 더 많이 필요해요.</p>",
       markscheme: [
         // EN: In F the outer electron is in a lower energy level / closer to the nucleus / less shielded than in Cl.
-        "",
+        "F의 바깥 전자는 Cl보다 낮은 에너지 준위에 있다 / 원자핵에 더 가깝다 / 덜 가려진다.",
         // EN: In Cl and S the outer electrons are in the same energy level / have the same (similar) shielding.
-        "",
+        "Cl과 S의 바깥 전자는 같은 에너지 준위에 있다 / 가려막기가 같다(비슷하다).",
         // EN: Cl has a greater nuclear charge / more protons than S, so the outer electron is attracted more strongly.
-        "",
+        "Cl은 S보다 핵전하가 크다 / 양성자가 많으므로 바깥 전자가 더 세게 끌린다.",
       ],
     },
 
     // ── s3-1-q019 · mcq · foundation · SL · Structure 3.1.4 · 1 mark
     "s3-1-q019": {
       // EN: <p>A small piece of sodium is added to a large trough of water. What is observed?</p>
-      stem: "",
+      stem: "<p>큰 수조의 물에 작은 나트륨 조각을 넣어요. 무엇이 관찰되나요?</p>",
       options: [
         // EN: The sodium sinks and reacts slowly.
-        "",
+        "나트륨이 가라앉고 천천히 반응해요.",
         // EN: The sodium floats, moves across the surface and fizzes.
-        "",
+        "나트륨이 물에 뜨고, 수면 위를 돌아다니며 거품을 내요.",
         // EN: The sodium floats and a brown gas is given off.
-        "",
+        "나트륨이 물에 뜨고 갈색 기체가 나와요.",
         // EN: The sodium sinks and a white precipitate forms.
-        "",
+        "나트륨이 가라앉고 흰색 앙금이 생겨요.",
       ],
       hints: [
         // EN: Is sodium more dense or less dense than water?
-        "",
+        "나트륨은 물보다 밀도가 큰가요, 작은가요?",
         // EN: One product is a gas. What do you see when a gas forms in a liquid?
-        "",
+        "생성물 하나는 기체예요. 액체 속에서 기체가 생기면 무엇이 보이나요?",
       ],
       // EN: <p>Sodium <strong>floats</strong>, melts into a ball, <strong>moves</strong> across the surface, <strong>fizzes</strong> and gets smaller until it disappears. The solution left is alkaline.</p><div class="worked__math"><span class="chem">2Na(s) + 2H2O(l) -> 2NaOH(aq) + H2(g)</span></div>
-      solution: "",
+      solution: "<p>나트륨은 <strong>물에 뜨고</strong>, 녹아서 공 모양이 되며, 수면 위를 <strong>돌아다니고</strong>, <strong>거품을 내면서</strong> 점점 작아지다가 사라져요. 남은 용액은 알칼리성이에요.</p><div class=\"worked__math\"><span class=\"chem\">2Na(s) + 2H2O(l) -> 2NaOH(aq) + H2(g)</span></div>",
       misconception: {
         // EN (option A): Sodium is less dense than water, so it floats. The reaction is fast.
-        "0": "",
+        "0": "나트륨은 물보다 밀도가 작아서 물에 떠요. 반응은 빨라요.",
         // EN (option C): The gas is hydrogen, which is colourless.
-        "2": "",
+        "2": "이 기체는 수소이고, 수소는 무색이에요.",
         // EN (option D): Sodium floats. The product, sodium hydroxide, is soluble, so the solution stays clear and colourless.
-        "3": "",
+        "3": "나트륨은 물에 떠요. 생성물인 수산화 나트륨은 물에 녹으므로 용액은 투명하고 무색인 채로 있어요.",
       },
     },
 
     // ── s3-1-q020 · mcq · exam · SL · Structure 3.1.4 · 1 mark
     "s3-1-q020": {
       // EN: <p>Which is the correct balanced equation for the reaction of potassium with water?</p>
-      stem: "",
+      stem: "<p>칼륨과 물의 반응을 나타내는 올바른 균형 반응식은 어느 것인가요?</p>",
       options: [
         // EN: <span class="chem">K(s) + H2O(l) -> KOH(aq) + H2(g)</span>
-        "",
+        "<span class=\"chem\">K(s) + H2O(l) -> KOH(aq) + H2(g)</span>",
         // EN: <span class="chem">2K(s) + H2O(l) -> K2O(aq) + H2(g)</span>
-        "",
+        "<span class=\"chem\">2K(s) + H2O(l) -> K2O(aq) + H2(g)</span>",
         // EN: <span class="chem">2K(s) + 2H2O(l) -> 2KOH(aq) + H2(g)</span>
-        "",
+        "<span class=\"chem\">2K(s) + 2H2O(l) -> 2KOH(aq) + H2(g)</span>",
         // EN: <span class="chem">K(s) + 2H2O(l) -> K(OH)2(aq) + H2(g)</span>
-        "",
+        "<span class=\"chem\">K(s) + 2H2O(l) -> K(OH)2(aq) + H2(g)</span>",
       ],
       hints: [
         // EN: Products: a metal hydroxide and hydrogen gas.
-        "",
+        "생성물: 금속 수산화물과 수소 기체.",
         // EN: Potassium forms <span class="chem">K+</span>. Write the formula of the hydroxide, then balance H.
-        "",
+        "칼륨은 <span class=\"chem\">K+</span>을 만들어요. 수산화물의 화학식을 쓴 다음 H의 수를 맞추세요.",
       ],
       // EN: <div class="worked__math"><span class="chem">2K(s) + 2H2O(l) -> 2KOH(aq) + H2(g)</span></div><p>Check: K 2 = 2; H 4 = 2 + 2; O 2 = 2. All group 1 metals react in the same way, because each atom loses its one valence electron to form a 1+ ion.</p>
-      solution: "",
+      solution: "<div class=\"worked__math\"><span class=\"chem\">2K(s) + 2H2O(l) -> 2KOH(aq) + H2(g)</span></div><p>확인: K 2 = 2; H 4 = 2 + 2; O 2 = 2. 1족 금속은 모두 같은 방식으로 반응해요. 원자마다 원자가 전자 1개를 잃고 1+ 이온이 되기 때문이에요.</p>",
       misconception: {
         // EN (option A): The formulas are right, but the equation is not balanced. Count hydrogen: 2 on the left, 3 on the right.
-        "0": "",
+        "0": "화학식은 맞지만 반응식의 균형이 맞지 않아요. 수소를 세어 보세요: 왼쪽에 2개, 오른쪽에 3개예요.",
         // EN (option B): A group 1 metal and water give the metal <em>hydroxide</em> and hydrogen. The oxide would react with water to give the hydroxide.
-        "1": "",
+        "1": "1족 금속과 물이 반응하면 금속 <em>수산화물</em>과 수소가 생겨요. 산화물이 생긴다면 그 산화물이 물과 반응해 수산화물이 될 거예요.",
         // EN (option D): Potassium is in group 1, so it forms the 1+ ion. The hydroxide is KOH, not <span class="chem">K(OH)2</span>.
-        "3": "",
+        "3": "칼륨은 1족이므로 1+ 이온이 돼요. 수산화물은 <span class=\"chem\">K(OH)2</span>가 아니라 KOH예요.",
       },
     },
 
     // ── s3-1-q021 · short · exam · SL · Structure 3.1.4 · 3 marks
     "s3-1-q021": {
       // EN: <p>Lithium, sodium and potassium all react with water. Describe and explain the trend in reactivity from lithium to potassium.</p>
-      stem: "",
+      stem: "<p>리튬, 나트륨, 칼륨은 모두 물과 반응해요. 리튬에서 칼륨까지 반응성의 경향을 서술하고 설명하시오 (describe and explain).</p>",
       hints: [
         // EN: “Describe” needs the direction of the trend. “Explain” needs the reason.
-        "",
+        "‘서술하시오’에는 경향의 방향이 필요해요. ‘설명하시오’에는 이유가 필요해요.",
         // EN: In this reaction each metal atom loses one electron. What makes that electron easier to lose?
-        "",
+        "이 반응에서 금속 원자는 각각 전자 1개를 잃어요. 무엇 때문에 그 전자를 잃기 쉬워지나요?",
       ],
       // EN: <p>The reactivity increases down the group: the reaction with water becomes more vigorous from lithium to sodium to potassium.</p><p>Down the group, the outer electron is in a higher energy level. It is further from the nucleus and more shielded by inner electrons. The attraction between the nucleus and the outer electron is weaker, so the first ionization energy is lower and the atom loses its outer electron more easily.</p>
-      answer: "",
+      answer: "<p>반응성은 족 아래로 갈수록 커져요: 물과의 반응은 리튬, 나트륨, 칼륨 순서로 더 격렬해져요.</p><p>족 아래로 갈수록 바깥 전자가 더 높은 에너지 준위에 있어요. 그 전자는 원자핵에서 더 멀고 안쪽 전자에 더 많이 가려져요. 원자핵과 바깥 전자 사이의 인력이 약해지므로, 제1 이온화 에너지가 작아지고 원자가 바깥 전자를 더 쉽게 잃어요.</p>",
       markscheme: [
         // EN: Reactivity increases down the group / the reaction becomes more vigorous from Li to K.
-        "",
+        "반응성은 족 아래로 갈수록 커진다 / Li에서 K로 갈수록 반응이 더 격렬해진다.",
         // EN: Down the group the outer electron is in a higher energy level / further from the nucleus AND more shielded.
-        "",
+        "족 아래로 갈수록 바깥 전자가 더 높은 에너지 준위에 있다 / 원자핵에서 더 멀다, 그리고 더 많이 가려진다.",
         // EN: So the attraction for the outer electron is weaker / the ionization energy is lower / the outer electron is lost more easily.
-        "",
+        "그래서 바깥 전자에 대한 인력이 약하다 / 이온화 에너지가 작다 / 바깥 전자를 더 쉽게 잃는다.",
       ],
     },
 
     // ── s3-1-q022 · mcq · exam · SL · Structure 3.1.4 · 1 mark
     "s3-1-q022": {
       // EN: <p>Pairs of aqueous solutions are mixed. In which mixture does a reaction occur?</p>
-      stem: "",
+      stem: "<p>두 수용액을 짝지어 섞어요. 반응이 일어나는 혼합물은 어느 것인가요?</p>",
       options: [
         // EN: <span class="chem">Br2(aq)</span> and <span class="chem">KCl(aq)</span>
-        "",
+        "<span class=\"chem\">Br2(aq)</span>와 <span class=\"chem\">KCl(aq)</span>",
         // EN: <span class="chem">I2(aq)</span> and <span class="chem">KBr(aq)</span>
-        "",
+        "<span class=\"chem\">I2(aq)</span>와 <span class=\"chem\">KBr(aq)</span>",
         // EN: <span class="chem">I2(aq)</span> and <span class="chem">KCl(aq)</span>
-        "",
+        "<span class=\"chem\">I2(aq)</span>와 <span class=\"chem\">KCl(aq)</span>",
         // EN: <span class="chem">Cl2(aq)</span> and <span class="chem">KI(aq)</span>
-        "",
+        "<span class=\"chem\">Cl2(aq)</span>와 <span class=\"chem\">KI(aq)</span>",
       ],
       hints: [
         // EN: Reactivity decreases down group 17: <span class="chem">Cl2</span> &gt; <span class="chem">Br2</span> &gt; <span class="chem">I2</span>.
-        "",
+        "반응성은 17족 아래로 갈수록 작아져요: <span class=\"chem\">Cl2</span> &gt; <span class=\"chem\">Br2</span> &gt; <span class=\"chem\">I2</span>.",
         // EN: A halogen displaces the halide ion of a halogen <em>below</em> it in the group.
-        "",
+        "할로젠은 같은 족에서 자기보다 <em>아래</em>에 있는 할로젠의 할로젠화 이온을 치환해요.",
       ],
       // EN: <p>A more reactive halogen displaces a less reactive halogen from its halide ion. Chlorine is above iodine, so it reacts:</p><div class="worked__math"><span class="chem">Cl2(aq) + 2I-(aq) -> 2Cl-(aq) + I2(aq)</span></div><p>The mixture turns brown as iodine forms. A chlorine atom is smaller than an iodine atom, so the electron it gains is closer to the nucleus and less shielded. Chlorine attracts the extra electron more strongly.</p>
-      solution: "",
+      solution: "<p>반응성이 더 큰 할로젠은 반응성이 더 작은 할로젠을 그 할로젠화 이온에서 치환해요. 염소는 아이오딘보다 위에 있으므로 반응해요:</p><div class=\"worked__math\"><span class=\"chem\">Cl2(aq) + 2I-(aq) -> 2Cl-(aq) + I2(aq)</span></div><p>아이오딘이 생기면서 혼합물이 갈색으로 변해요. 염소 원자는 아이오딘 원자보다 작으므로, 염소가 얻는 전자는 원자핵에 더 가깝고 덜 가려져요. 그래서 염소가 더해지는 전자를 더 세게 끌어당겨요.</p>",
       misconception: {
         // EN (option A): Bromine is below chlorine in group 17, so it is less reactive. It cannot displace chloride ions.
-        "0": "",
+        "0": "브로민은 17족에서 염소 아래에 있으므로 반응성이 더 작아요. 염화 이온을 치환할 수 없어요.",
         // EN (option B): Iodine is below bromine in group 17, so it is less reactive. It cannot displace bromide ions.
-        "1": "",
+        "1": "아이오딘은 17족에서 브로민 아래에 있으므로 반응성이 더 작아요. 브로민화 이온을 치환할 수 없어요.",
         // EN (option C): Iodine is the least reactive of the three halogens here. It cannot displace chloride ions.
-        "2": "",
+        "2": "아이오딘은 여기 나온 세 할로젠 가운데 반응성이 가장 작아요. 염화 이온을 치환할 수 없어요.",
       },
     },
 
     // ── s3-1-q023 · short · challenge · SL · Structure 3.1.4 · 3 marks
     "s3-1-q023": {
       // EN: <p>A student has an aqueous solution of one halogen, <span class="chem">X2</span>. The halogen is chlorine, bromine or iodine.</p><ul><li>Test 1: <span class="chem">X2(aq)</span> is added to <span class="chem">KCl(aq)</span>. No reaction occurs.</li><li>Test 2: <span class="chem">X2(aq)</span> is added to <span class="chem">KI(aq)</span>. A reaction occurs and iodine forms.</li></ul><p>Identify <span class="chem">X2</span>, explain your reasoning, and write an ionic equation, with state symbols, for the reaction in test 2.</p>
-      stem: "",
+      stem: "<p>한 학생이 할로젠 <span class=\"chem\">X2</span> 한 가지의 수용액을 가지고 있어요. 이 할로젠은 염소, 브로민, 아이오딘 가운데 하나예요.</p><ul><li>실험 1: <span class=\"chem\">X2(aq)</span>를 <span class=\"chem\">KCl(aq)</span>에 넣어요. 반응이 일어나지 않아요.</li><li>실험 2: <span class=\"chem\">X2(aq)</span>를 <span class=\"chem\">KI(aq)</span>에 넣어요. 반응이 일어나 아이오딘이 생겨요.</li></ul><p><span class=\"chem\">X2</span>가 무엇인지 찾고 (identify), 그렇게 판단한 이유를 설명하시오 (explain). 또 실험 2의 반응을 나타내는 이온 반응식을 상태 기호를 포함해 쓰시오 (write).</p>",
       hints: [
         // EN: Which halogens can displace iodide ions?
-        "",
+        "아이오딘화 이온을 치환할 수 있는 할로젠은 무엇인가요?",
         // EN: Which halogen cannot displace chloride ions but can displace iodide ions?
-        "",
+        "염화 이온은 치환하지 못하지만 아이오딘화 이온은 치환할 수 있는 할로젠은 무엇인가요?",
         // EN: In the ionic equation leave out <span class="chem">K+</span>. It does not change.
-        "",
+        "이온 반응식에서 <span class=\"chem\">K+</span>은 빼세요. 변하지 않기 때문이에요.",
       ],
       // EN: <p><span class="chem">X2</span> is <strong>bromine</strong>. A halogen displaces the halide ions of a less reactive halogen. Test 2 shows that <span class="chem">X2</span> is more reactive than iodine, so it is not iodine. Test 1 shows that <span class="chem">X2</span> cannot displace chloride ions, so it is less reactive than chlorine (and it is not chlorine, which does not react with its own ions). Reactivity decreases down group 17, so <span class="chem">X2</span> is bromine.</p><div class="worked__math"><span class="chem">Br2(aq) + 2I-(aq) -> 2Br-(aq) + I2(aq)</span></div>
-      answer: "",
+      answer: "<p><span class=\"chem\">X2</span>는 <strong>브로민</strong>이에요. 할로젠은 반응성이 더 작은 할로젠의 할로젠화 이온을 치환해요. 실험 2는 <span class=\"chem\">X2</span>가 아이오딘보다 반응성이 크다는 것을 보여 주므로 아이오딘이 아니에요. 실험 1은 <span class=\"chem\">X2</span>가 염화 이온을 치환할 수 없다는 것을 보여 주므로, 염소보다 반응성이 작아요(그리고 염소도 아니에요. 염소는 자기 자신의 이온과 반응하지 않아요). 반응성은 17족 아래로 갈수록 작아지므로 <span class=\"chem\">X2</span>는 브로민이에요.</p><div class=\"worked__math\"><span class=\"chem\">Br2(aq) + 2I-(aq) -> 2Br-(aq) + I2(aq)</span></div>",
       markscheme: [
         // EN: X<sub>2</sub> is bromine / Br<sub>2</sub>.
-        "",
+        "X<sub>2</sub>는 브로민 / Br<sub>2</sub>이다.",
         // EN: It displaces iodide ions, so it is more reactive than iodine, but it does not displace chloride ions, so it is less reactive than chlorine (accept: reactivity decreases down group 17).
-        "",
+        "아이오딘화 이온을 치환하므로 아이오딘보다 반응성이 크지만, 염화 이온은 치환하지 않으므로 염소보다 반응성이 작다(“반응성은 17족 아래로 갈수록 작아진다”도 인정).",
         // EN: <span class="chem">Br2(aq) + 2I-(aq) -> 2Br-(aq) + I2(aq)</span> (balanced, with state symbols).
-        "",
+        "<span class=\"chem\">Br2(aq) + 2I-(aq) -> 2Br-(aq) + I2(aq)</span>(균형이 맞고 상태 기호 포함).",
       ],
     },
 
     // ── s3-1-q024 · mcq · foundation · SL · Structure 3.1.5 · 1 mark
     "s3-1-q024": {
       // EN: <p>Aluminium oxide is described as an amphoteric oxide. What does “amphoteric” mean?</p>
-      stem: "",
+      stem: "<p>산화 알루미늄은 양쪽성 산화물이라고 해요. ‘양쪽성’은 무슨 뜻인가요?</p>",
       options: [
         // EN: The oxide is neutral: it reacts with neither acids nor bases.
-        "",
+        "이 산화물은 중성이어서 산과도 염기와도 반응하지 않아요.",
         // EN: The oxide reacts with both acids and bases.
-        "",
+        "이 산화물은 산과도 염기와도 반응해요.",
         // EN: The oxide dissolves in water to give a solution with pH 7.
-        "",
+        "이 산화물은 물에 녹아 pH 7인 용액을 만들어요.",
         // EN: The oxide contains both a metal and a non-metal.
-        "",
+        "이 산화물은 금속과 비금속을 모두 포함해요.",
       ],
       hints: [
         // EN: Think about where aluminium is in period 3: between the metals with basic oxides and the non-metals with acidic oxides.
-        "",
+        "3주기에서 알루미늄이 어디에 있는지 생각해 보세요: 염기성 산화물을 만드는 금속과 산성 산화물을 만드는 비금속 사이에 있어요.",
       ],
       // EN: <p>An amphoteric oxide can act as a base and as an acid: it <strong>reacts with both acids and bases</strong>. Across a period the oxides change from basic (metals, on the left) through amphoteric to acidic (non-metals, on the right). Aluminium oxide is in the middle.</p>
-      solution: "",
+      solution: "<p>양쪽성 산화물은 염기로도, 산으로도 작용할 수 있어요. 즉 <strong>산과도 염기와도 반응해요</strong>. 주기를 따라 산화물은 염기성(왼쪽의 금속)에서 양쪽성을 거쳐 산성(오른쪽의 비금속)으로 바뀌어요. 산화 알루미늄은 그 가운데에 있어요.</p>",
       misconception: {
         // EN (option A): Amphoteric is not the same as neutral. A neutral oxide reacts with neither. An amphoteric oxide reacts with both.
-        "0": "",
+        "0": "양쪽성은 중성과 같지 않아요. 중성 산화물은 어느 쪽과도 반응하지 않아요. 양쪽성 산화물은 양쪽 모두와 반응해요.",
         // EN (option C): Amphoteric describes how the oxide reacts, not the pH of a solution. Aluminium oxide does not dissolve in water.
-        "2": "",
+        "2": "양쪽성은 산화물이 어떻게 반응하는지를 나타내는 말이지, 용액의 pH를 나타내는 말이 아니에요. 산화 알루미늄은 물에 녹지 않아요.",
         // EN (option D): Every metal oxide contains a metal and a non-metal (oxygen). Amphoteric describes acid–base behaviour.
-        "3": "",
+        "3": "금속 산화물은 모두 금속과 비금속(산소)을 포함해요. 양쪽성은 산·염기로서의 성질을 나타내요.",
       },
     },
 
     // ── s3-1-q025 · order · exam · SL · Structure 3.1.5 · 1 mark
     "s3-1-q025": {
       // EN: <p>Put these period 3 oxides in order, from the <strong>most basic</strong> (top) to the <strong>most acidic</strong> (bottom).</p>
-      stem: "",
+      stem: "<p>다음 3주기 산화물을 <strong>가장 염기성인 것</strong>(위)부터 <strong>가장 산성인 것</strong>(아래)까지 순서대로 늘어놓으세요.</p>",
       options: [
         // EN: <span class="chem">Na2O</span>
-        "",
+        "<span class=\"chem\">Na2O</span>",
         // EN: <span class="chem">MgO</span>
-        "",
+        "<span class=\"chem\">MgO</span>",
         // EN: <span class="chem">Al2O3</span>
-        "",
+        "<span class=\"chem\">Al2O3</span>",
         // EN: <span class="chem">SO3</span>
-        "",
+        "<span class=\"chem\">SO3</span>",
       ],
       hints: [
         // EN: Find Na, Mg, Al and S in period 3.
-        "",
+        "3주기에서 Na, Mg, Al, S를 찾으세요.",
         // EN: Metal oxides are basic. Non-metal oxides are acidic. The change across the period is gradual.
-        "",
+        "금속 산화물은 염기성이에요. 비금속 산화물은 산성이에요. 주기를 따라 조금씩 바뀌어요.",
       ],
       // EN: <p>Across period 3 the elements change from metals to non-metals, and the oxides change from basic to acidic. <span class="chem">Na2O</span> is strongly basic and <span class="chem">MgO</span> is basic. <span class="chem">Al2O3</span> is amphoteric. <span class="chem">SO3</span> is a non-metal oxide and is strongly acidic.</p>
-      solution: "",
+      solution: "<p>3주기를 따라 원소는 금속에서 비금속으로 바뀌고, 산화물은 염기성에서 산성으로 바뀌어요. <span class=\"chem\">Na2O</span>는 강한 염기성이고 <span class=\"chem\">MgO</span>는 염기성이에요. <span class=\"chem\">Al2O3</span>는 양쪽성이에요. <span class=\"chem\">SO3</span>는 비금속 산화물이고 강한 산성이에요.</p>",
     },
 
     // ── s3-1-q026 · short · exam · SL · Structure 3.1.5 · 2 marks
     "s3-1-q026": {
       // EN: <p>Deduce equations, including state symbols, for the reactions with water of:</p><ul><li>(a) lithium oxide</li><li>(b) calcium oxide.</li></ul>
-      stem: "",
+      stem: "<p>다음 물질이 물과 반응할 때의 반응식을 상태 기호를 포함해 추론하시오 (deduce).</p><ul><li>(a) 산화 리튬</li><li>(b) 산화 칼슘</li></ul>",
       hints: [
         // EN: Metal oxide + water → metal hydroxide.
-        "",
+        "금속 산화물 + 물 → 금속 수산화물.",
         // EN: Lithium forms <span class="chem">Li+</span> and calcium forms <span class="chem">Ca^2+</span>. Write each hydroxide formula first, then balance.
-        "",
+        "리튬은 <span class=\"chem\">Li+</span>, 칼슘은 <span class=\"chem\">Ca^2+</span>을 만들어요. 각 수산화물의 화학식을 먼저 쓴 다음 균형을 맞추세요.",
       ],
       // EN: <div class="worked__math"><span class="chem">Li2O(s) + H2O(l) -> 2LiOH(aq)</span></div><div class="worked__math"><span class="chem">CaO(s) + H2O(l) -> Ca(OH)2(aq)</span></div><p>An oxide of a group 1 or group 2 metal reacts with water to form the metal hydroxide only. No hydrogen forms. The solutions are alkaline.</p>
-      answer: "",
+      answer: "<div class=\"worked__math\"><span class=\"chem\">Li2O(s) + H2O(l) -> 2LiOH(aq)</span></div><div class=\"worked__math\"><span class=\"chem\">CaO(s) + H2O(l) -> Ca(OH)2(aq)</span></div><p>1족이나 2족 금속의 산화물은 물과 반응해 금속 수산화물만 만들어요. 수소는 생기지 않아요. 용액은 알칼리성이에요.</p>",
       markscheme: [
         // EN: <span class="chem">Li2O(s) + H2O(l) -> 2LiOH(aq)</span> (balanced, with state symbols).
-        "",
+        "<span class=\"chem\">Li2O(s) + H2O(l) -> 2LiOH(aq)</span>(균형이 맞고 상태 기호 포함).",
         // EN: <span class="chem">CaO(s) + H2O(l) -> Ca(OH)2(aq)</span> (with state symbols; accept <span class="chem">Ca(OH)2(s)</span>).
-        "",
+        "<span class=\"chem\">CaO(s) + H2O(l) -> Ca(OH)2(aq)</span>(상태 기호 포함; <span class=\"chem\">Ca(OH)2(s)</span>도 인정).",
       ],
     },
 
     // ── s3-1-q027 · mcq · exam · SL · Structure 3.1.5 · 1 mark
     "s3-1-q027": {
       // EN: <p>Which statement about ocean acidification is correct?</p>
-      stem: "",
+      stem: "<p>해양 산성화에 대한 설명으로 옳은 것은 어느 것인가요?</p>",
       options: [
         // EN: It is caused mainly by acid rain falling into the sea.
-        "",
+        "주로 바다에 내리는 산성비 때문에 생겨요.",
         // EN: It is caused by sulfur dioxide from the sea floor dissolving in sea water.
-        "",
+        "바다 밑바닥에서 나온 이산화 황이 바닷물에 녹아서 생겨요.",
         // EN: It is caused by more carbon dioxide from the atmosphere dissolving in sea water.
-        "",
+        "대기 중의 이산화 탄소가 바닷물에 더 많이 녹아서 생겨요.",
         // EN: It is caused by metal oxides dissolving in sea water.
-        "",
+        "금속 산화물이 바닷물에 녹아서 생겨요.",
       ],
       hints: [
         // EN: Which gas in the atmosphere is increasing in concentration?
-        "",
+        "대기 중에서 농도가 높아지고 있는 기체는 무엇인가요?",
         // EN: Is the oxide of carbon acidic or basic?
-        "",
+        "탄소의 산화물은 산성인가요, 염기성인가요?",
       ],
       // EN: <p>Carbon dioxide is an acidic non-metal oxide. As the level of <span class="chem">CO2</span> in the atmosphere rises, more of it dissolves in sea water and forms carbonic acid:</p><div class="worked__math"><span class="chem">CO2(g) + H2O(l) <=> H2CO3(aq)</span></div><p>This lowers the pH of the sea water. The process is called ocean acidification.</p>
-      solution: "",
+      solution: "<p>이산화 탄소는 산성인 비금속 산화물이에요. 대기 중 <span class=\"chem\">CO2</span>의 양이 늘어나면 더 많은 양이 바닷물에 녹아 탄산을 만들어요:</p><div class=\"worked__math\"><span class=\"chem\">CO2(g) + H2O(l) <=> H2CO3(aq)</span></div><p>그러면 바닷물의 pH가 낮아져요. 이 과정을 해양 산성화라고 해요.</p>",
       misconception: {
         // EN (option A): Acid rain and ocean acidification are two different problems. Acid rain is caused by oxides of sulfur and nitrogen. Ocean acidification is caused by carbon dioxide.
-        "0": "",
+        "0": "산성비와 해양 산성화는 서로 다른 문제예요. 산성비는 황과 질소의 산화물 때문에 생겨요. 해양 산성화는 이산화 탄소 때문에 생겨요.",
         // EN (option B): Sulfur dioxide is linked to acid rain. The cause of ocean acidification is the rising level of carbon dioxide in the atmosphere.
-        "1": "",
+        "1": "이산화 황은 산성비와 관련이 있어요. 해양 산성화의 원인은 대기 중 이산화 탄소의 증가예요.",
         // EN (option D): Metal oxides are basic. They would raise the pH, not lower it.
-        "3": "",
+        "3": "금속 산화물은 염기성이에요. pH를 낮추는 것이 아니라 높일 거예요.",
       },
     },
 
     // ── s3-1-q028 · short · challenge · SL · Structure 3.1.5 · 3 marks
     "s3-1-q028": {
       // EN: <p>Some coal contains sulfur. When the coal burns, the sulfur also burns. Explain how this leads to acid rain. Include two equations with state symbols.</p>
-      stem: "",
+      stem: "<p>어떤 석탄에는 황이 들어 있어요. 석탄이 탈 때 황도 함께 타요. 이것이 어떻게 산성비로 이어지는지 설명하시오 (explain). 상태 기호를 포함한 반응식 2개를 쓰세요.</p>",
       hints: [
         // EN: First equation: sulfur burning in oxygen.
-        "",
+        "첫째 반응식: 황이 산소 속에서 타는 반응.",
         // EN: Second equation: the oxide reacting with water. A non-metal oxide and water form an acid.
-        "",
+        "둘째 반응식: 그 산화물이 물과 반응하는 반응. 비금속 산화물과 물은 산을 만들어요.",
         // EN: Finish by saying what the acid does to the rain.
-        "",
+        "마지막으로 그 산이 빗물에 어떤 영향을 주는지 쓰세요.",
       ],
       // EN: <p>The sulfur burns to form sulfur dioxide, a gaseous non-metal oxide:</p><div class="worked__math"><span class="chem">S(s) + O2(g) -> SO2(g)</span></div><p>Sulfur dioxide is an acidic oxide. It reacts with water in the atmosphere to form an acid:</p><div class="worked__math"><span class="chem">SO2(g) + H2O(l) <=> H2SO3(aq)</span></div><p>The acid lowers the pH of the rain. (Sulfur dioxide can also be oxidized in the air to <span class="chem">SO3</span>, which reacts with water to form sulfuric acid: <span class="chem">SO3(g) + H2O(l) -> H2SO4(aq)</span>.)</p>
-      answer: "",
+      answer: "<p>황은 타서 기체 비금속 산화물인 이산화 황이 돼요:</p><div class=\"worked__math\"><span class=\"chem\">S(s) + O2(g) -> SO2(g)</span></div><p>이산화 황은 산성 산화물이에요. 대기 중의 물과 반응해 산을 만들어요:</p><div class=\"worked__math\"><span class=\"chem\">SO2(g) + H2O(l) <=> H2SO3(aq)</span></div><p>이 산이 빗물의 pH를 낮춰요. (이산화 황은 공기 중에서 산화되어 <span class=\"chem\">SO3</span>가 될 수도 있고, 이것이 물과 반응하면 황산이 돼요: <span class=\"chem\">SO3(g) + H2O(l) -> H2SO4(aq)</span>.)</p>",
       markscheme: [
         // EN: <span class="chem">S(s) + O2(g) -> SO2(g)</span>
-        "",
+        "<span class=\"chem\">S(s) + O2(g) -> SO2(g)</span>",
         // EN: <span class="chem">SO2(g) + H2O(l) <=> H2SO3(aq)</span> (accept →; accept <span class="chem">SO3(g) + H2O(l) -> H2SO4(aq)</span>).
-        "",
+        "<span class=\"chem\">SO2(g) + H2O(l) <=> H2SO3(aq)</span>(→도 인정; <span class=\"chem\">SO3(g) + H2O(l) -> H2SO4(aq)</span>도 인정).",
         // EN: Sulfur dioxide is an acidic (non-metal) oxide that dissolves in / reacts with rain water to form an acid, so the pH of the rain is lowered.
-        "",
+        "이산화 황은 산성 (비금속) 산화물이어서 빗물에 녹아 / 빗물과 반응해 산을 만들고, 그래서 빗물의 pH가 낮아진다.",
       ],
     },
 
     // ── s3-1-q029 · mcq · challenge · SL · Structure 3.1.5 · 1 mark
     "s3-1-q029": {
       // EN: <p>Selenium is directly below sulfur in group 16. Selenium dioxide, <span class="chem">SeO2</span>, is a solid that dissolves in water. Which is the best prediction for this reaction?</p>
-      stem: "",
+      stem: "<p>셀레늄은 16족에서 황 바로 아래에 있어요. 이산화 셀레늄 <span class=\"chem\">SeO2</span>는 물에 녹는 고체예요. 이 반응에 대한 가장 알맞은 예측은 어느 것인가요?</p>",
       options: [
         // EN: An alkaline solution forms: <span class="chem">SeO2(s) + 2H2O(l) -> Se(OH)4(aq)</span>
-        "",
+        "알칼리성 용액이 생겨요: <span class=\"chem\">SeO2(s) + 2H2O(l) -> Se(OH)4(aq)</span>",
         // EN: A neutral solution forms, because <span class="chem">SeO2</span> is amphoteric.
-        "",
+        "<span class=\"chem\">SeO2</span>는 양쪽성이므로 중성 용액이 생겨요.",
         // EN: An acidic solution forms: <span class="chem">SeO2(s) + H2O(l) -> H2SeO4(aq)</span>
-        "",
+        "산성 용액이 생겨요: <span class=\"chem\">SeO2(s) + H2O(l) -> H2SeO4(aq)</span>",
         // EN: An acidic solution forms: <span class="chem">SeO2(s) + H2O(l) -> H2SeO3(aq)</span>
-        "",
+        "산성 용액이 생겨요: <span class=\"chem\">SeO2(s) + H2O(l) -> H2SeO3(aq)</span>",
       ],
       hints: [
         // EN: Is selenium a metal or a non-metal? Use its group.
-        "",
+        "셀레늄은 금속인가요, 비금속인가요? 족을 이용해 판단하세요.",
         // EN: Use the reaction of <span class="chem">SO2</span> with water as your model.
-        "",
+        "<span class=\"chem\">SO2</span>와 물의 반응을 본보기로 삼으세요.",
         // EN: Check that the equation you choose is balanced.
-        "",
+        "고른 반응식의 균형이 맞는지 확인하세요.",
       ],
       // EN: <p>Elements in the same group have similar chemical properties. Sulfur dioxide is an acidic non-metal oxide:</p><div class="worked__math"><span class="chem">SO2(g) + H2O(l) <=> H2SO3(aq)</span></div><p>Selenium is also a non-metal in group 16, so <span class="chem">SeO2</span> should react in the same way:</p><div class="worked__math"><span class="chem">SeO2(s) + H2O(l) -> H2SeO3(aq)</span></div><p>Check: Se 1 = 1; O 3 = 3; H 2 = 2. The solution is acidic.</p>
-      solution: "",
+      solution: "<p>같은 족의 원소들은 화학적 성질이 비슷해요. 이산화 황은 산성인 비금속 산화물이에요:</p><div class=\"worked__math\"><span class=\"chem\">SO2(g) + H2O(l) <=> H2SO3(aq)</span></div><p>셀레늄도 16족의 비금속이므로 <span class=\"chem\">SeO2</span>도 같은 방식으로 반응할 거예요:</p><div class=\"worked__math\"><span class=\"chem\">SeO2(s) + H2O(l) -> H2SeO3(aq)</span></div><p>확인: Se 1 = 1; O 3 = 3; H 2 = 2. 용액은 산성이에요.</p>",
       misconception: {
         // EN (option A): Hydroxides form from the oxides of metals in groups 1 and 2. Selenium is a non-metal, like sulfur, so its oxide is acidic.
-        "0": "",
+        "0": "수산화물은 1족과 2족 금속의 산화물에서 생겨요. 셀레늄은 황처럼 비금속이므로 그 산화물은 산성이에요.",
         // EN (option B): Amphoteric does not mean neutral, and amphoteric oxides are found near the metal–non-metal boundary. Selenium is a non-metal in group 16.
-        "1": "",
+        "1": "양쪽성은 중성이라는 뜻이 아니고, 양쪽성 산화물은 금속과 비금속의 경계 근처에서 볼 수 있어요. 셀레늄은 16족의 비금속이에요.",
         // EN (option C): The oxide is acidic, but this equation is not balanced: 3 oxygen atoms on the left and 4 on the right. Compare with <span class="chem">SO2</span>, which forms <span class="chem">H2SO3</span>.
-        "2": "",
+        "2": "산화물은 산성이 맞지만, 이 반응식은 균형이 맞지 않아요: 산소 원자가 왼쪽에 3개, 오른쪽에 4개예요. <span class=\"chem\">H2SO3</span>를 만드는 <span class=\"chem\">SO2</span>와 비교해 보세요.",
       },
     },
 
     // ── s3-1-q030 · mcq · foundation · SL · Structure 3.1.6 · 1 mark
     "s3-1-q030": {
       // EN: <p>Which is the oxidation state of sulfur in the sulfate ion, <span class="chem">SO4^2-</span>, written correctly?</p>
-      stem: "",
+      stem: "<p>황산 이온 <span class=\"chem\">SO4^2-</span>에서 황의 산화수를 바르게 쓴 것은 어느 것인가요?</p>",
       options: [
         // EN: 6+
-        "",
+        "6+",
         // EN: +6
-        "",
+        "+6",
         // EN: −2
-        "",
+        "−2",
         // EN: +8
-        "",
+        "+8",
       ],
       hints: [
         // EN: Oxygen is −2 in most compounds.
-        "",
+        "대부분의 화합물에서 산소는 −2예요.",
         // EN: The oxidation states in an ion add up to the charge on the ion.
-        "",
+        "이온에서 산화수를 모두 더하면 이온의 전하와 같아요.",
         // EN: Write the sign first, then the number.
-        "",
+        "부호를 먼저 쓰고, 그다음 숫자를 쓰세요.",
       ],
       // EN: <p>Let the oxidation state of sulfur be <i>x</i>. Oxygen is −2.</p><div class="worked__math"><i>x</i> + 4(−2) = −2</div><div class="worked__math"><i>x</i> = −2 + 8 = <b>+6</b></div><p>Write the sign first and then the number: +6. A Roman numeral (VI) is also accepted. “6+” and “6” do not score.</p>
-      solution: "",
+      solution: "<p>황의 산화수를 <i>x</i>라고 해요. 산소는 −2예요.</p><div class=\"worked__math\"><i>x</i> + 4(−2) = −2</div><div class=\"worked__math\"><i>x</i> = −2 + 8 = <b>+6</b></div><p>부호를 먼저 쓰고 숫자를 써요: +6. 로마 숫자(VI)도 인정해요. “6+”나 “6”은 점수를 받지 못해요.</p>",
       misconception: {
         // EN (option A): The number is right, but the notation is not. An oxidation state has the sign first: +6. “6+” is how you write the charge on an ion. IB markschemes reject “6+”.
-        "0": "",
+        "0": "숫자는 맞지만 표기법이 틀렸어요. 산화수는 부호를 먼저 써요: +6. “6+”는 이온의 전하를 쓰는 방법이에요. IB 채점 기준은 “6+”를 인정하지 않아요.",
         // EN (option C): This is the charge on the whole ion. It is the <em>sum</em> of all the oxidation states, not the oxidation state of sulfur.
-        "2": "",
+        "2": "이것은 이온 전체의 전하예요. 이것은 모든 산화수의 <em>합</em>이지, 황의 산화수가 아니에요.",
         // EN (option D): This treats the ion as if it had no charge. The oxidation states must add up to the charge on the ion, −2, not to zero.
-        "3": "",
+        "3": "이것은 이온에 전하가 없는 것처럼 계산한 거예요. 산화수의 합은 0이 아니라 이온의 전하인 −2가 되어야 해요.",
       },
     },
 
     // ── s3-1-q031 · mcq · foundation · SL · Structure 3.1.6 · 1 mark
     "s3-1-q031": {
       // EN: <p>The oxidation state of each chlorine atom in <span class="chem">Cl2</span> is 0. Which statement explains this?</p>
-      stem: "",
+      stem: "<p><span class=\"chem\">Cl2</span>에서 각 염소 원자의 산화수는 0이에요. 그 이유를 설명하는 것은 어느 것인가요?</p>",
       options: [
         // EN: The molecule has no overall charge.
-        "",
+        "분자 전체에 전하가 없어요.",
         // EN: Each chlorine atom has seven valence electrons.
-        "",
+        "염소 원자는 각각 원자가 전자가 7개예요.",
         // EN: The two atoms are identical, so the bonding electrons are shared equally and no electrons are transferred.
-        "",
+        "두 원자가 똑같아서 결합 전자를 똑같이 나누어 가지므로 전자가 이동하지 않아요.",
         // EN: The bond in <span class="chem">Cl2</span> is ionic, so the two charges cancel.
-        "",
+        "<span class=\"chem\">Cl2</span>의 결합은 이온 결합이어서 두 전하가 서로 상쇄돼요.",
       ],
       hints: [
         // EN: An oxidation state is the charge an atom would have if the compound were made of ions.
-        "",
+        "산화수는 화합물이 이온으로 이루어져 있다고 가정할 때 원자가 가질 전하예요.",
         // EN: To imagine ions, you give the bonding electrons to the more electronegative atom. What if both atoms are the same?
-        "",
+        "이온을 상상하려면 결합 전자를 전기 음성도가 더 큰 원자에게 줘요. 두 원자가 같다면 어떻게 될까요?",
       ],
       // EN: <p>The oxidation state shows the number of electrons transferred in forming a bond. In an element, the atoms are identical and have the same electronegativity. The bonding electrons are <strong>shared equally</strong>, so <strong>no electrons are transferred</strong> and each atom has oxidation state 0.</p>
-      solution: "",
+      solution: "<p>산화수는 결합이 생길 때 이동한 전자의 수를 나타내요. 원소에서는 원자들이 똑같고 전기 음성도도 같아요. 결합 전자를 <strong>똑같이 나누어 가지므로</strong> <strong>전자가 이동하지 않고</strong>, 각 원자의 산화수는 0이에요.</p>",
       misconception: {
         // EN (option A): True, but it is not the reason. HCl also has no overall charge, yet its atoms have oxidation states +1 and −1.
-        "0": "",
+        "0": "맞는 말이지만 이유는 아니에요. HCl도 전체 전하가 없지만, 원자의 산화수는 +1과 −1이에요.",
         // EN (option B): True, but the number of valence electrons does not fix the oxidation state. Chlorine is −1 in NaCl and 0 in <span class="chem">Cl2</span>.
-        "1": "",
+        "1": "맞는 말이지만 원자가 전자 수로 산화수가 정해지지는 않아요. 염소는 NaCl에서 −1이고 <span class=\"chem\">Cl2</span>에서 0이에요.",
         // EN (option D): The bond in <span class="chem">Cl2</span> is covalent. Two identical atoms cannot transfer electrons to each other.
-        "3": "",
+        "3": "<span class=\"chem\">Cl2</span>의 결합은 공유 결합이에요. 똑같은 두 원자는 서로에게 전자를 줄 수 없어요.",
       },
     },
 
     // ── s3-1-q032 · numeric · exam · SL · Structure 3.1.6 · 1 mark
     "s3-1-q032": {
       // EN: <p>Deduce the oxidation state of oxygen in hydrogen peroxide, <span class="chem">H2O2</span>.</p><p>Type the sign first and then the number, for example +3 or −3.</p>
-      stem: "",
+      stem: "<p>과산화 수소 <span class=\"chem\">H2O2</span>에서 산소의 산화수를 추론하시오 (deduce).</p><p>부호를 먼저, 그다음 숫자를 입력하세요. 예: +3 또는 −3.</p>",
       hints: [
         // EN: Hydrogen is +1 here, because it is bonded to a non-metal.
-        "",
+        "여기서 수소는 비금속과 결합해 있으므로 +1이에요.",
         // EN: The oxidation states in a compound add up to zero. Do not assume that oxygen is −2.
-        "",
+        "화합물에서 산화수의 합은 0이에요. 산소가 −2라고 미리 정하지 마세요.",
       ],
       // EN: <p>Hydrogen is +1. Let the oxidation state of oxygen be <i>x</i>.</p><div class="worked__math">2(+1) + 2<i>x</i> = 0</div><div class="worked__math"><i>x</i> = <b>−1</b></div><p>Oxygen is −2 in most compounds, but in <strong>peroxides</strong> it is −1. Always work it out from the other atoms.</p>
-      solution: "",
+      solution: "<p>수소는 +1이에요. 산소의 산화수를 <i>x</i>라고 해요.</p><div class=\"worked__math\">2(+1) + 2<i>x</i> = 0</div><div class=\"worked__math\"><i>x</i> = <b>−1</b></div><p>대부분의 화합물에서 산소는 −2이지만, <strong>과산화물</strong>에서는 −1이에요. 항상 다른 원자들로부터 계산해서 구하세요.</p>",
       // EN: In an exam, write −1 with the sign first.
-      correctNote: "",
+      correctNote: "시험에서는 부호를 먼저 써서 −1로 쓰세요.",
     },
 
     // ── s3-1-q033 · mcq · exam · SL · Structure 3.1.6 · 1 mark
     "s3-1-q033": {
       // EN: <p>In which compound does hydrogen have the oxidation state −1?</p>
-      stem: "",
+      stem: "<p>수소의 산화수가 −1인 화합물은 어느 것인가요?</p>",
       options: [
         // EN: <span class="chem">NH3</span>
-        "",
+        "<span class=\"chem\">NH3</span>",
         // EN: <span class="chem">H2O2</span>
-        "",
+        "<span class=\"chem\">H2O2</span>",
         // EN: <span class="chem">HCl</span>
-        "",
+        "<span class=\"chem\">HCl</span>",
         // EN: <span class="chem">NaH</span>
-        "",
+        "<span class=\"chem\">NaH</span>",
       ],
       hints: [
         // EN: Hydrogen is +1 when it is bonded to a more electronegative atom.
-        "",
+        "수소는 전기 음성도가 더 큰 원자와 결합하면 +1이에요.",
         // EN: Which compound has hydrogen bonded to a metal?
-        "",
+        "수소가 금속과 결합해 있는 화합물은 어느 것인가요?",
       ],
       // EN: <p>Sodium is a group 1 metal and is always +1 in its compounds. In NaH the oxidation states add up to zero, so hydrogen is <strong>−1</strong>. Hydrogen is −1 in <strong>metal hydrides</strong>, because the metal is less electronegative than hydrogen.</p>
-      solution: "",
+      solution: "<p>나트륨은 1족 금속이고 화합물에서 항상 +1이에요. NaH에서 산화수의 합은 0이므로 수소는 <strong>−1</strong>이에요. <strong>금속 수소화물</strong>에서 수소는 −1이에요. 금속의 전기 음성도가 수소보다 작기 때문이에요.</p>",
       misconception: {
         // EN (option A): Nitrogen is more electronegative than hydrogen. In <span class="chem">NH3</span> nitrogen is −3 and hydrogen is +1.
-        "0": "",
+        "0": "질소는 수소보다 전기 음성도가 커요. <span class=\"chem\">NH3</span>에서 질소는 −3, 수소는 +1이에요.",
         // EN (option B): In hydrogen peroxide it is the <em>oxygen</em> that has the unusual value, −1. Hydrogen is +1.
-        "1": "",
+        "1": "과산화 수소에서 특이한 값 −1을 갖는 것은 <em>산소</em>예요. 수소는 +1이에요.",
         // EN (option C): Chlorine is more electronegative than hydrogen. In HCl hydrogen is +1 and chlorine is −1.
-        "2": "",
+        "2": "염소는 수소보다 전기 음성도가 커요. HCl에서 수소는 +1, 염소는 −1이에요.",
       },
     },
 
     // ── s3-1-q034 · numeric · exam · SL · Structure 3.1.6 · 1 mark
     "s3-1-q034": {
       // EN: <p>Deduce the oxidation state of chromium in the dichromate ion, <span class="chem">Cr2O7^2-</span>.</p><p>Type the sign first and then the number, for example +3 or −3.</p>
-      stem: "",
+      stem: "<p>다이크로뮴산 이온 <span class=\"chem\">Cr2O7^2-</span>에서 크로뮴의 산화수를 추론하시오 (deduce).</p><p>부호를 먼저, 그다음 숫자를 입력하세요. 예: +3 또는 −3.</p>",
       hints: [
         // EN: Oxygen is −2. There are seven oxygen atoms.
-        "",
+        "산소는 −2예요. 산소 원자는 7개예요.",
         // EN: The total must equal the charge on the ion, −2.
-        "",
+        "합계는 이온의 전하인 −2와 같아야 해요.",
         // EN: There are two chromium atoms. Divide the total for chromium by 2.
-        "",
+        "크로뮴 원자는 2개예요. 크로뮴의 합계를 2로 나누세요.",
       ],
       // EN: <p>Let the oxidation state of chromium be <i>x</i>. Oxygen is −2.</p><div class="worked__math">2<i>x</i> + 7(−2) = −2</div><div class="worked__math">2<i>x</i> = −2 + 14 = +12</div><div class="worked__math"><i>x</i> = <b>+6</b></div><p>The ion can be named dichromate(VI).</p>
-      solution: "",
+      solution: "<p>크로뮴의 산화수를 <i>x</i>라고 해요. 산소는 −2예요.</p><div class=\"worked__math\">2<i>x</i> + 7(−2) = −2</div><div class=\"worked__math\">2<i>x</i> = −2 + 14 = +12</div><div class=\"worked__math\"><i>x</i> = <b>+6</b></div><p>이 이온은 다이크로뮴산(VI) 이온이라고 부를 수 있어요.</p>",
       // EN: In an exam, write +6 with the sign first. “6+” and “6” do not score.
-      correctNote: "",
+      correctNote: "시험에서는 부호를 먼저 써서 +6으로 쓰세요. “6+”나 “6”은 점수를 받지 못해요.",
     },
 
     // ── s3-1-q035 · mcq · exam · SL · Structure 3.1.6 · 1 mark
     "s3-1-q035": {
       // EN: <p>What is the formula of copper(I) oxide?</p>
-      stem: "",
+      stem: "<p>산화 구리(I)의 화학식은 무엇인가요?</p>",
       options: [
         // EN: <span class="chem">CuO</span>
-        "",
+        "<span class=\"chem\">CuO</span>",
         // EN: <span class="chem">CuO2</span>
-        "",
+        "<span class=\"chem\">CuO2</span>",
         // EN: <span class="chem">Cu2O</span>
-        "",
+        "<span class=\"chem\">Cu2O</span>",
         // EN: <span class="chem">Cu2O3</span>
-        "",
+        "<span class=\"chem\">Cu2O3</span>",
       ],
       hints: [
         // EN: The Roman numeral (I) means that copper has oxidation state +1.
-        "",
+        "로마 숫자 (I)은 구리의 산화수가 +1이라는 뜻이에요.",
         // EN: Oxide is <span class="chem">O^2-</span>. How many +1 ions balance one 2− ion?
-        "",
+        "산화 이온은 <span class=\"chem\">O^2-</span>예요. 2− 이온 하나와 균형을 이루려면 +1 이온이 몇 개 필요한가요?",
       ],
       // EN: <p>The Roman numeral gives the oxidation state of copper: +1. Oxygen is −2. Two copper atoms at +1 balance one oxygen at −2:</p><div class="worked__math">2(+1) + (−2) = 0</div><p>The formula is <span class="chem">Cu2O</span>.</p>
-      solution: "",
+      solution: "<p>로마 숫자는 구리의 산화수를 알려 줘요: +1. 산소는 −2예요. +1인 구리 원자 2개가 −2인 산소 1개와 균형을 이뤄요:</p><div class=\"worked__math\">2(+1) + (−2) = 0</div><p>화학식은 <span class=\"chem\">Cu2O</span>예요.</p>",
       misconception: {
         // EN (option A): In CuO, copper is +2 (it balances one <span class="chem">O^2-</span>). This is copper(II) oxide.
-        "0": "",
+        "0": "CuO에서 구리는 +2예요(<span class=\"chem\">O^2-</span> 하나와 균형을 이뤄요). 이것은 산화 구리(II)예요.",
         // EN (option B): The Roman numeral gives the oxidation state of the metal, not the number of oxygen atoms. In <span class="chem">CuO2</span> copper would be +4.
-        "1": "",
+        "1": "로마 숫자는 산소 원자의 수가 아니라 금속의 산화수를 나타내요. <span class=\"chem\">CuO2</span>라면 구리는 +4일 거예요.",
         // EN (option D): In <span class="chem">Cu2O3</span> copper would be +3: 2<i>x</i> + 3(−2) = 0. That would be copper(III) oxide.
-        "3": "",
+        "3": "<span class=\"chem\">Cu2O3</span>라면 구리는 +3일 거예요: 2<i>x</i> + 3(−2) = 0. 그것은 산화 구리(III)예요.",
       },
     },
 
     // ── s3-1-q036 · mcq · exam · SL · Structure 3.1.6 · 1 mark
     "s3-1-q036": {
       // EN: <p>The sulfate(IV) ion is also called the sulfite ion. Which is its formula?</p>
-      stem: "",
+      stem: "<p>황산(IV) 이온은 아황산 이온이라고도 해요. 이 이온의 화학식은 어느 것인가요?</p>",
       options: [
         // EN: <span class="chem">SO3^2-</span>
-        "",
+        "<span class=\"chem\">SO3^2-</span>",
         // EN: <span class="chem">SO4^2-</span>
-        "",
+        "<span class=\"chem\">SO4^2-</span>",
         // EN: <span class="chem">SO3</span>
-        "",
+        "<span class=\"chem\">SO3</span>",
         // EN: <span class="chem">S^2-</span>
         "",
       ],

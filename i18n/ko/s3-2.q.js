@@ -288,210 +288,210 @@ S1.i18n.register('ko', 's3-2.q', {
         // EN: Aldehyde
         "알데하이드 (aldehyde)",
         // EN: Carbonyl
-        "",
+        "카보닐기 (carbonyl)",
         // EN: Carboxyl
-        "",
+        "카복실기 (carboxyl)",
         // EN: Alkoxy
-        "",
+        "알콕시기 (alkoxy)",
       ],
       hints: [
         // EN: The group is C=O. Aldehydes and ketones both contain it.
-        "",
+        "이 기는 C=O예요. 알데하이드와 케톤 모두 이 기를 가지고 있어요.",
       ],
       // EN: <p>The C=O group is the <strong>carbonyl</strong> group. Aldehydes have it at the end of the chain. Ketones have it in the middle of the chain.</p><p>Aldehyde is the name of the class, so it does not answer a question about the functional group.</p>
-      solution: "",
+      solution: "<p>C=O 기는 <strong>카보닐기 (carbonyl)</strong>예요. 알데하이드는 이 기가 사슬의 끝에 있고, 케톤은 사슬의 가운데에 있어요.</p><p>알데하이드는 화합물 종류의 이름이므로 작용기를 묻는 문제의 답이 되지 않아요.</p>",
       misconception: {
         // EN (option A): “Aldehyde” is the class of compound. The functional group in an aldehyde has a different name, and the class name does not score when the group is asked for.
-        "0": "",
+        "0": "“알데하이드”는 화합물 종류예요. 알데하이드에 있는 작용기는 다른 이름을 가지고 있고, 작용기를 물을 때 종류 이름을 쓰면 점수를 받지 못해요.",
         // EN (option C): Carboxyl is –COOH. It needs an OH on the same carbon as the C=O. Propanal has no OH.
-        "2": "",
+        "2": "카복실기는 –COOH예요. C=O와 같은 탄소에 OH가 있어야 해요. Propanal에는 OH가 없어요.",
         // EN (option D): Alkoxy is an oxygen atom with single bonds to two carbon atoms (C–O–C). Here the oxygen has a double bond to one carbon.
-        "3": "",
+        "3": "알콕시기는 두 탄소 원자와 단일 결합을 한 산소 원자예요(C–O–C). 여기서는 산소가 탄소 하나와 이중 결합을 하고 있어요.",
       },
     },
 
     // ── s3-2-q012 · mcq · exam · SL · Structure 3.2.2 · 1 mark
     "s3-2-q012": {
       // EN: <p>A compound has the condensed formula <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CONH<sub>2</sub></span>. Which row gives the name of its functional group and the name of its class?</p>
-      stem: "",
+      stem: "<p>어떤 화합물의 축약 구조식은 <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CONH<sub>2</sub></span>예요. 이 화합물의 작용기 이름과 화합물 종류의 이름을 바르게 짝지은 것은 어느 것인가요?</p>",
       options: [
         // EN: Functional group: amino. Class: amine.
-        "",
+        "작용기: 아미노기 (amino). 종류: 아민 (amine).",
         // EN: Functional group: amido. Class: amide.
-        "",
+        "작용기: 아마이드기 (amido). 종류: 아마이드 (amide).",
         // EN: Functional group: amide. Class: amido.
-        "",
+        "작용기: 아마이드 (amide). 종류: 아마이드기 (amido).",
         // EN: Functional group: carbonyl. Class: ketone.
-        "",
+        "작용기: 카보닐기 (carbonyl). 종류: 케톤 (ketone).",
       ],
       hints: [
         // EN: Look at what is joined to the C=O carbon: a carbon chain on one side and <span class="chem">NH<sub>2</sub></span> on the other.
-        "",
+        "C=O 탄소에 무엇이 붙어 있는지 봐요. 한쪽에는 탄소 사슬, 다른 쪽에는 <span class=\"chem\">NH<sub>2</sub></span>가 있어요.",
         // EN: One word in each row is a group name and the other is a class name. Check they are in the right columns.
-        "",
+        "각 줄에서 한 단어는 작용기 이름이고, 다른 한 단어는 종류 이름이에요. 알맞은 칸에 있는지 확인해 봐요.",
       ],
       // EN: <p><span class="chem">CONH<sub>2</sub></span> is a C=O with a nitrogen atom on the same carbon. This is the <strong>amido</strong> group. Compounds with this group are <strong>amides</strong>.</p><p>Compare: <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>NH<sub>2</sub></span> has an amino group and is an amine.</p>
-      solution: "",
+      solution: "<p><span class=\"chem\">CONH<sub>2</sub></span>는 C=O와 같은 탄소에 질소 원자가 붙은 것이에요. 이것이 <strong>아마이드기 (amido)</strong>예요. 이 기를 가진 화합물은 <strong>아마이드 (amide)</strong>예요.</p><p>비교해 봐요. <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>NH<sub>2</sub></span>는 아미노기를 가지고 있고 아민이에요.</p>",
       misconception: {
         // EN (option A): An amino group is <span class="chem">NH<sub>2</sub></span> on a carbon that has no C=O. Here the nitrogen is joined directly to the C=O carbon, which makes a different group.
-        "0": "",
+        "0": "아미노기는 C=O가 없는 탄소에 붙은 <span class=\"chem\">NH<sub>2</sub></span>예요. 여기서는 질소가 C=O 탄소에 바로 붙어 있어서 다른 작용기가 돼요.",
         // EN (option C): The two words are the wrong way round. Group names often end in -o or -yl (amino, amido, hydroxyl). Class names are the family names (amine, amide, alcohol).
-        "2": "",
+        "2": "두 단어의 자리가 바뀌었어요. 작용기 이름은 영어로 -o나 -yl로 끝나는 경우가 많아요(amino, amido, hydroxyl). 종류 이름은 화합물 집안의 이름이에요(amine, amide, alcohol).",
         // EN (option D): A ketone has C=O between two carbon atoms. Here the C=O carbon is joined to nitrogen, so the C=O and the <span class="chem">NH<sub>2</sub></span> count together as one group.
-        "3": "",
+        "3": "케톤은 두 탄소 원자 사이에 C=O가 있어요. 여기서는 C=O 탄소가 질소와 결합해 있으므로, C=O와 <span class=\"chem\">NH<sub>2</sub></span>를 합쳐서 하나의 작용기로 봐요.",
       },
     },
 
     // ── s3-2-q013 · multi · exam · SL · Structure 3.2.2 · 1 mark
     "s3-2-q013": {
       // EN: <p>Aspirin is a common medicine. Its skeletal formula is shown.</p><p data-i18n="off"><svg class="mol mol--skeletal" viewBox="-22.2 -88 139 131" width="139" height="131" role="img" aria-label="Skeletal formula. Line notation: OC(=O)C1=CC=CC=C1OC(C)=O" data-g="S:O1.C.O.C.C.C.C.C.C.O.C.C.O;0-1,1=2,1-3,3=4,4-5,5=6,6-7,7=8,3-8,8-9,9-10,10-11,10=12" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6.5 -3.7L22.5 -13"/><path d="M24.7 -13L24.7 -31.5"/><path d="M20.3 -13L20.3 -31.5"/><path d="M22.5 -13L45 0"/><path d="M45 0L45 26"/><path d="M49.2 4L49.2 22"/><path d="M45 26L67.5 39"/><path d="M67.5 39L90.1 26"/><path d="M68.9 33.4L84.5 24.4"/><path d="M90.1 26L90.1 0"/><path d="M90.1 0L67.5 -13"/><path d="M84.5 1.6L68.9 -7.4"/><path d="M45 0L67.5 -13"/><path d="M67.5 -13L67.5 -31.5"/><path d="M74 -42.8L90.1 -52"/><path d="M90.1 -52L112.6 -39"/><path d="M92.3 -52L92.3 -70.5"/><path d="M87.9 -52L87.9 -70.5"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="0" y="4.6" text-anchor="middle">O</text><text x="-5.2" y="4.6" text-anchor="end">H</text><text x="22.5" y="-34.4" text-anchor="middle">O</text><text x="67.5" y="-34.4" text-anchor="middle">O</text><text x="90.1" y="-73.4" text-anchor="middle">O</text></g></svg></p><p>Which functional groups are present in aspirin? Select <strong>all</strong> that apply.</p>
-      stem: "",
+      stem: "<p>아스피린(aspirin)은 흔히 쓰는 약이에요. 골격 구조식이 있어요.</p><p data-i18n=\"off\"><svg class=\"mol mol--skeletal\" viewBox=\"-22.2 -88 139 131\" width=\"139\" height=\"131\" role=\"img\" aria-label=\"Skeletal formula. Line notation: OC(=O)C1=CC=CC=C1OC(C)=O\" data-g=\"S:O1.C.O.C.C.C.C.C.C.O.C.C.O;0-1,1=2,1-3,3=4,4-5,5=6,6-7,7=8,3-8,8-9,9-10,10-11,10=12\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M6.5 -3.7L22.5 -13\"/><path d=\"M24.7 -13L24.7 -31.5\"/><path d=\"M20.3 -13L20.3 -31.5\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L45 26\"/><path d=\"M49.2 4L49.2 22\"/><path d=\"M45 26L67.5 39\"/><path d=\"M67.5 39L90.1 26\"/><path d=\"M68.9 33.4L84.5 24.4\"/><path d=\"M90.1 26L90.1 0\"/><path d=\"M90.1 0L67.5 -13\"/><path d=\"M84.5 1.6L68.9 -7.4\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M67.5 -13L67.5 -31.5\"/><path d=\"M74 -42.8L90.1 -52\"/><path d=\"M90.1 -52L112.6 -39\"/><path d=\"M92.3 -52L92.3 -70.5\"/><path d=\"M87.9 -52L87.9 -70.5\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"0\" y=\"4.6\" text-anchor=\"middle\">O</text><text x=\"-5.2\" y=\"4.6\" text-anchor=\"end\">H</text><text x=\"22.5\" y=\"-34.4\" text-anchor=\"middle\">O</text><text x=\"67.5\" y=\"-34.4\" text-anchor=\"middle\">O</text><text x=\"90.1\" y=\"-73.4\" text-anchor=\"middle\">O</text></g></svg></p><p>아스피린에 있는 작용기는 어느 것인가요? 해당하는 것을 <strong>모두</strong> 고르세요.</p>",
       options: [
         // EN: Carboxyl
-        "",
+        "카복실기 (carboxyl)",
         // EN: Ester
-        "",
+        "에스터기 (ester)",
         // EN: Phenyl
-        "",
+        "페닐기 (phenyl)",
         // EN: Hydroxyl
-        "",
+        "하이드록시기 (hydroxyl)",
         // EN: Alkoxy
-        "",
+        "알콕시기 (alkoxy)",
       ],
       hints: [
         // EN: Look at each oxygen atom together with its neighbours before you name a group.
-        "",
+        "작용기 이름을 정하기 전에 각 산소 원자와 그 이웃 원자들을 함께 봐요.",
         // EN: C(=O)–OH is one group. C(=O)–O–C is one group.
-        "",
+        "C(=O)–OH는 하나의 작용기예요. C(=O)–O–C도 하나의 작용기예요.",
       ],
       // EN: <p>Aspirin has three functional groups.</p><ul><li><strong>Phenyl</strong>: the six-carbon ring with alternating double bonds.</li><li><strong>Carboxyl</strong>: the C(=O)OH on the ring.</li><li><strong>Ester</strong>: the C(=O)–O–C link, with the O joined to the ring.</li></ul><p>There is no separate hydroxyl group and no alkoxy group, because each of those oxygen atoms is next to a C=O.</p>
-      solution: "",
+      solution: "<p>아스피린에는 작용기가 3개 있어요.</p><ul><li><strong>페닐기 (phenyl)</strong>: 이중 결합이 번갈아 있는 탄소 6개짜리 고리.</li><li><strong>카복실기 (carboxyl)</strong>: 고리에 붙은 C(=O)OH.</li><li><strong>에스터기 (ester)</strong>: C(=O)–O–C 연결. O가 고리에 붙어 있어요.</li></ul><p>따로 떨어진 하이드록시기나 알콕시기는 없어요. 그 산소 원자들은 모두 C=O 옆에 있기 때문이에요.</p>",
       misconception: {
         // EN (option D): The only OH in aspirin is on a carbon that also has a C=O. Together they make one carboxyl group. It is not counted as a separate hydroxyl group.
-        "3": "",
+        "3": "아스피린에 있는 유일한 OH는 C=O도 가진 탄소에 붙어 있어요. 둘이 합쳐 카복실기 하나가 돼요. 따로 하이드록시기로 세지 않아요.",
         // EN (option E): Alkoxy is C–O–C with no C=O next to the oxygen. In aspirin the C–O–C oxygen is next to a C=O, so it is part of an ester group.
-        "4": "",
+        "4": "알콕시기는 산소 옆에 C=O가 없는 C–O–C예요. 아스피린에서 C–O–C의 산소는 C=O 옆에 있으므로 에스터기의 일부예요.",
       },
     },
 
     // ── s3-2-q014 · mcq · challenge · SL · Structure 3.2.2 · 1 mark
     "s3-2-q014": {
       // EN: <p>The skeletal formulas of two biologically active compounds, X and Y, are shown.</p><p data-i18n="off"><span style="display:inline-block;white-space:nowrap;margin:0 1.5em 0.4em 0"><strong>X</strong>&nbsp; <svg class="mol mol--skeletal" viewBox="-4 -62 162 84" width="162" height="84" role="img" aria-label="Skeletal formula. Line notation: CC(=O)NC1=CC=C(O)C=C1" data-g="S:C.C.O.N1.C.C.C.C.O1.C.C;0-1,1=2,1-3,3-4,4=5,5-6,6=7,7-8,7-9,9=10,4-10" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L22.5 -13"/><path d="M24.7 -13L24.7 -31.5"/><path d="M20.3 -13L20.3 -31.5"/><path d="M22.5 -13L38.5 -3.7"/><path d="M51.5 -3.7L67.5 -13"/><path d="M67.5 -13L90.1 0"/><path d="M73.1 -14.6L88.7 -5.6"/><path d="M90.1 0L112.6 -13"/><path d="M112.6 -13L112.6 -39"/><path d="M108.4 -17L108.4 -35"/><path d="M112.6 -39L128.6 -48.2"/><path d="M112.6 -39L90.1 -52"/><path d="M90.1 -52L67.5 -39"/><path d="M88.7 -46.4L73.1 -37.4"/><path d="M67.5 -13L67.5 -39"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="22.5" y="-34.4" text-anchor="middle">O</text><text x="45" y="4.6" text-anchor="middle">N</text><text x="45" y="17.6" text-anchor="middle">H</text><text x="135.1" y="-47.4" text-anchor="middle">O</text><text x="140.3" y="-47.4" text-anchor="start">H</text></g></svg></span> <span style="display:inline-block;white-space:nowrap;margin:0 1.5em 0.4em 0"><strong>Y</strong>&nbsp; <svg class="mol mol--skeletal" viewBox="-22.2 -62 180 72" width="180" height="72" role="img" aria-label="Skeletal formula. Line notation: NCCC1=CC=C(O)C=C1" data-g="S:N2.C.C.C.C.C.C.O1.C.C;0-1,1-2,2-3,3=4,4-5,5=6,6-7,6-8,8=9,3-9" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6.5 -3.7L22.5 -13"/><path d="M22.5 -13L45 0"/><path d="M45 0L67.5 -13"/><path d="M67.5 -13L90.1 0"/><path d="M73.1 -14.6L88.7 -5.6"/><path d="M90.1 0L112.6 -13"/><path d="M112.6 -13L112.6 -39"/><path d="M108.4 -17L108.4 -35"/><path d="M112.6 -39L128.6 -48.2"/><path d="M112.6 -39L90.1 -52"/><path d="M90.1 -52L67.5 -39"/><path d="M88.7 -46.4L73.1 -37.4"/><path d="M67.5 -13L67.5 -39"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="0" y="4.6" text-anchor="middle">N</text><text x="-5.2" y="4.6" text-anchor="end">H<tspan font-size="9.5" dy="3">2</tspan></text><text x="135.1" y="-47.4" text-anchor="middle">O</text><text x="140.3" y="-47.4" text-anchor="start">H</text></g></svg></span></p><p>Which functional groups are present in <strong>both</strong> X and Y?</p>
-      stem: "",
+      stem: "<p>생물학적으로 활성이 있는 두 화합물 X와 Y의 골격 구조식이 있어요.</p><p data-i18n=\"off\"><span style=\"display:inline-block;white-space:nowrap;margin:0 1.5em 0.4em 0\"><strong>X</strong>&nbsp; <svg class=\"mol mol--skeletal\" viewBox=\"-4 -62 162 84\" width=\"162\" height=\"84\" role=\"img\" aria-label=\"Skeletal formula. Line notation: CC(=O)NC1=CC=C(O)C=C1\" data-g=\"S:C.C.O.N1.C.C.C.C.O1.C.C;0-1,1=2,1-3,3-4,4=5,5-6,6=7,7-8,7-9,9=10,4-10\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L22.5 -13\"/><path d=\"M24.7 -13L24.7 -31.5\"/><path d=\"M20.3 -13L20.3 -31.5\"/><path d=\"M22.5 -13L38.5 -3.7\"/><path d=\"M51.5 -3.7L67.5 -13\"/><path d=\"M67.5 -13L90.1 0\"/><path d=\"M73.1 -14.6L88.7 -5.6\"/><path d=\"M90.1 0L112.6 -13\"/><path d=\"M112.6 -13L112.6 -39\"/><path d=\"M108.4 -17L108.4 -35\"/><path d=\"M112.6 -39L128.6 -48.2\"/><path d=\"M112.6 -39L90.1 -52\"/><path d=\"M90.1 -52L67.5 -39\"/><path d=\"M88.7 -46.4L73.1 -37.4\"/><path d=\"M67.5 -13L67.5 -39\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"22.5\" y=\"-34.4\" text-anchor=\"middle\">O</text><text x=\"45\" y=\"4.6\" text-anchor=\"middle\">N</text><text x=\"45\" y=\"17.6\" text-anchor=\"middle\">H</text><text x=\"135.1\" y=\"-47.4\" text-anchor=\"middle\">O</text><text x=\"140.3\" y=\"-47.4\" text-anchor=\"start\">H</text></g></svg></span> <span style=\"display:inline-block;white-space:nowrap;margin:0 1.5em 0.4em 0\"><strong>Y</strong>&nbsp; <svg class=\"mol mol--skeletal\" viewBox=\"-22.2 -62 180 72\" width=\"180\" height=\"72\" role=\"img\" aria-label=\"Skeletal formula. Line notation: NCCC1=CC=C(O)C=C1\" data-g=\"S:N2.C.C.C.C.C.C.O1.C.C;0-1,1-2,2-3,3=4,4-5,5=6,6-7,6-8,8=9,3-9\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M6.5 -3.7L22.5 -13\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M67.5 -13L90.1 0\"/><path d=\"M73.1 -14.6L88.7 -5.6\"/><path d=\"M90.1 0L112.6 -13\"/><path d=\"M112.6 -13L112.6 -39\"/><path d=\"M108.4 -17L108.4 -35\"/><path d=\"M112.6 -39L128.6 -48.2\"/><path d=\"M112.6 -39L90.1 -52\"/><path d=\"M90.1 -52L67.5 -39\"/><path d=\"M88.7 -46.4L73.1 -37.4\"/><path d=\"M67.5 -13L67.5 -39\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"0\" y=\"4.6\" text-anchor=\"middle\">N</text><text x=\"-5.2\" y=\"4.6\" text-anchor=\"end\">H<tspan font-size=\"9.5\" dy=\"3\">2</tspan></text><text x=\"135.1\" y=\"-47.4\" text-anchor=\"middle\">O</text><text x=\"140.3\" y=\"-47.4\" text-anchor=\"start\">H</text></g></svg></span></p><p>X와 Y에 <strong>모두</strong> 있는 작용기는 어느 것인가요?</p>",
       options: [
         // EN: Amino, hydroxyl and phenyl
-        "",
+        "아미노기, 하이드록시기, 페닐기",
         // EN: Hydroxyl and phenyl
-        "",
+        "하이드록시기와 페닐기",
         // EN: Alcohol and benzene
-        "",
+        "알코올과 벤젠",
         // EN: Carbonyl, hydroxyl and phenyl
-        "",
+        "카보닐기, 하이드록시기, 페닐기",
       ],
       hints: [
         // EN: List the groups in X first, then the groups in Y. Then compare the two lists.
-        "",
+        "먼저 X에 있는 작용기를 적고, 다음에 Y에 있는 작용기를 적어요. 그런 다음 두 목록을 비교해요.",
         // EN: Check what each nitrogen atom is joined to. Is there a C=O on the next carbon?
-        "",
+        "각 질소 원자가 무엇과 결합해 있는지 확인해 봐요. 옆 탄소에 C=O가 있나요?",
       ],
       // EN: <p>X contains hydroxyl (OH on the ring), phenyl (the ring) and amido (N joined to C=O).</p><p>Y contains hydroxyl, phenyl and amino (<span class="chem">NH<sub>2</sub></span> on a carbon with no C=O).</p><p>The groups in both are <strong>hydroxyl and phenyl</strong>.</p>
-      solution: "",
+      solution: "<p>X에는 하이드록시기(고리에 붙은 OH), 페닐기(고리), 아마이드기(C=O에 붙은 N)가 있어요.</p><p>Y에는 하이드록시기, 페닐기, 아미노기(C=O가 없는 탄소에 붙은 <span class=\"chem\">NH<sub>2</sub></span>)가 있어요.</p><p>둘 다에 있는 작용기는 <strong>하이드록시기와 페닐기</strong>예요.</p>",
       misconception: {
         // EN (option A): Only Y has an amino group. In X the nitrogen is joined to a C=O carbon, so X has an amido group.
-        "0": "",
+        "0": "아미노기는 Y에만 있어요. X에서는 질소가 C=O 탄소에 붙어 있으므로 X에는 아마이드기가 있어요.",
         // EN (option C): These are not names of functional groups. Alcohol is a class and benzene is a compound. The group names are hydroxyl and phenyl.
-        "2": "",
+        "2": "이것들은 작용기 이름이 아니에요. 알코올은 화합물 종류이고 벤젠은 화합물이에요. 작용기 이름은 하이드록시기 (hydroxyl)와 페닐기 (phenyl)예요.",
         // EN (option D): Y has no C=O at all. In X the C=O is part of the amido group, so it is not named as a separate carbonyl group.
-        "3": "",
+        "3": "Y에는 C=O가 아예 없어요. X에서 C=O는 아마이드기의 일부이므로 따로 카보닐기라고 부르지 않아요.",
       },
     },
 
     // ── s3-2-q015 · short · exam · SL · Structure 3.2.2 · 2 marks
     "s3-2-q015": {
       // EN: <p>The skeletal formula of a compound is shown.</p><p data-i18n="off"><svg class="mol mol--skeletal" viewBox="-4 -23 117 33" width="117" height="33" role="img" aria-label="Skeletal formula. Line notation: COCCN" data-g="S:C.O.C.C.N2;0-1,1-2,2-3,3-4" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M0 0L16 -9.2"/><path d="M29 -9.2L45 0"/><path d="M45 0L67.5 -13"/><path d="M67.5 -13L83.6 -3.7"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="22.5" y="-8.4" text-anchor="middle">O</text><text x="90.1" y="4.6" text-anchor="middle">N</text><text x="95.3" y="4.6" text-anchor="start">H<tspan font-size="9.5" dy="3">2</tspan></text></g></svg></p><p>State the names of the <strong>two</strong> functional groups in this compound.</p>
-      stem: "",
+      stem: "<p>어떤 화합물의 골격 구조식이 있어요.</p><p data-i18n=\"off\"><svg class=\"mol mol--skeletal\" viewBox=\"-4 -23 117 33\" width=\"117\" height=\"33\" role=\"img\" aria-label=\"Skeletal formula. Line notation: COCCN\" data-g=\"S:C.O.C.C.N2;0-1,1-2,2-3,3-4\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M0 0L16 -9.2\"/><path d=\"M29 -9.2L45 0\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M67.5 -13L83.6 -3.7\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"22.5\" y=\"-8.4\" text-anchor=\"middle\">O</text><text x=\"90.1\" y=\"4.6\" text-anchor=\"middle\">N</text><text x=\"95.3\" y=\"4.6\" text-anchor=\"start\">H<tspan font-size=\"9.5\" dy=\"3\">2</tspan></text></g></svg></p><p>이 화합물에 있는 작용기 <strong>2가지</strong>의 이름을 쓰시오 (state).</p>",
       hints: [
         // EN: Group names are asked for, not class names.
-        "",
+        "화합물 종류의 이름이 아니라 작용기의 이름을 묻고 있어요.",
         // EN: One group is an oxygen atom between two carbon atoms. The other is <span class="chem">NH<sub>2</sub></span>.
-        "",
+        "한 작용기는 두 탄소 원자 사이에 있는 산소 원자예요. 다른 하나는 <span class=\"chem\">NH<sub>2</sub></span>예요.",
       ],
       // EN: <p>Alkoxy and amino.</p><p>The oxygen atom has single bonds to two carbon atoms (C–O–C). This is an alkoxy group. The class of compound with this group is the ethers.</p><p>The <span class="chem">NH<sub>2</sub></span> on a carbon atom is an amino group. The class of compound is the amines.</p>
-      answer: "",
+      answer: "<p>알콕시기 (alkoxy)와 아미노기 (amino).</p><p>산소 원자가 두 탄소 원자와 단일 결합을 하고 있어요(C–O–C). 이것이 알콕시기예요. 이 기를 가진 화합물 종류는 에테르예요.</p><p>탄소 원자에 붙은 <span class=\"chem\">NH<sub>2</sub></span>는 아미노기예요. 화합물 종류는 아민이에요.</p>",
       markscheme: [
         // EN: Alkoxy. (Do not award the mark for “ether”: that is the class name.)
-        "",
+        "알콕시기 (alkoxy). (“ether”는 종류 이름이므로 점수를 주지 않음.)",
         // EN: Amino. (Accept “amine”, but amino is the safe answer.)
-        "",
+        "아미노기 (amino). (“amine”도 인정하지만, amino가 안전한 답.)",
       ],
     },
 
     // ── s3-2-q016 · mcq · challenge · SL · Structure 3.2.2 · 1 mark
     "s3-2-q016": {
       // EN: <p>The skeletal formula of a compound is shown.</p><p data-i18n="off"><svg class="mol mol--skeletal" viewBox="-22.2 -23 162 59" width="162" height="59" role="img" aria-label="Skeletal formula. Line notation: NCC(=O)CCOC" data-g="S:N2.C.C.O.C.C.O.C;0-1,1-2,2=3,2-4,4-5,5-6,6-7" style="vertical-align:middle;max-width:100%;height:auto"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6.5 -3.7L22.5 -13"/><path d="M22.5 -13L45 0"/><path d="M42.8 0L42.8 18.5"/><path d="M47.2 0L47.2 18.5"/><path d="M45 0L67.5 -13"/><path d="M67.5 -13L90.1 0"/><path d="M90.1 0L106.1 -9.2"/><path d="M119.1 -9.2L135.1 0"/></g><g fill="currentColor" stroke="none" font-size="13" font-weight="500"><text x="0" y="4.6" text-anchor="middle">N</text><text x="-5.2" y="4.6" text-anchor="end">H<tspan font-size="9.5" dy="3">2</tspan></text><text x="45" y="30.6" text-anchor="middle">O</text><text x="112.6" y="-8.4" text-anchor="middle">O</text></g></svg></p><p>Which list names <strong>all</strong> the functional groups in this compound?</p>
-      stem: "",
+      stem: "<p>어떤 화합물의 골격 구조식이 있어요.</p><p data-i18n=\"off\"><svg class=\"mol mol--skeletal\" viewBox=\"-22.2 -23 162 59\" width=\"162\" height=\"59\" role=\"img\" aria-label=\"Skeletal formula. Line notation: NCC(=O)CCOC\" data-g=\"S:N2.C.C.O.C.C.O.C;0-1,1-2,2=3,2-4,4-5,5-6,6-7\" style=\"vertical-align:middle;max-width:100%;height:auto\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"><path d=\"M6.5 -3.7L22.5 -13\"/><path d=\"M22.5 -13L45 0\"/><path d=\"M42.8 0L42.8 18.5\"/><path d=\"M47.2 0L47.2 18.5\"/><path d=\"M45 0L67.5 -13\"/><path d=\"M67.5 -13L90.1 0\"/><path d=\"M90.1 0L106.1 -9.2\"/><path d=\"M119.1 -9.2L135.1 0\"/></g><g fill=\"currentColor\" stroke=\"none\" font-size=\"13\" font-weight=\"500\"><text x=\"0\" y=\"4.6\" text-anchor=\"middle\">N</text><text x=\"-5.2\" y=\"4.6\" text-anchor=\"end\">H<tspan font-size=\"9.5\" dy=\"3\">2</tspan></text><text x=\"45\" y=\"30.6\" text-anchor=\"middle\">O</text><text x=\"112.6\" y=\"-8.4\" text-anchor=\"middle\">O</text></g></svg></p><p>이 화합물에 있는 작용기를 <strong>모두</strong> 바르게 나열한 것은 어느 것인가요?</p>",
       options: [
         // EN: Amido and alkoxy
-        "",
+        "아마이드기와 알콕시기",
         // EN: Amino, carbonyl and ester
-        "",
+        "아미노기, 카보닐기, 에스터기",
         // EN: Amino, carbonyl and alkoxy
-        "",
+        "아미노기, 카보닐기, 알콕시기",
         // EN: Amine, ketone and ether
-        "",
+        "아민, 케톤, 에테르",
       ],
       hints: [
         // EN: For N and for each O, check the atoms it is bonded to directly.
-        "",
+        "N과 각 O에 대해, 직접 결합한 원자들을 확인해 봐요.",
         // EN: Amido and ester groups need the N or O to be on the C=O carbon itself.
-        "",
+        "아마이드기와 에스터기는 N이나 O가 C=O 탄소 자체에 붙어 있어야 해요.",
       ],
       // EN: <p>Work from left to right.</p><ul><li><span class="chem">NH<sub>2</sub></span> on a <span class="chem">CH<sub>2</sub></span> carbon: <strong>amino</strong>.</li><li>C=O with a carbon atom on each side: <strong>carbonyl</strong>.</li><li>O with single bonds to two carbon atoms, and no C=O next to it: <strong>alkoxy</strong>.</li></ul><p>Amine, ketone and ether are the matching class names.</p>
-      solution: "",
+      solution: "<p>왼쪽부터 차례로 봐요.</p><ul><li><span class=\"chem\">CH<sub>2</sub></span> 탄소에 붙은 <span class=\"chem\">NH<sub>2</sub></span>: <strong>아미노기 (amino)</strong>.</li><li>양쪽에 탄소 원자가 하나씩 있는 C=O: <strong>카보닐기 (carbonyl)</strong>.</li><li>두 탄소 원자와 단일 결합을 하고, 옆에 C=O가 없는 O: <strong>알콕시기 (alkoxy)</strong>.</li></ul><p>아민, 케톤, 에테르는 각각에 해당하는 화합물 종류 이름이에요.</p>",
       misconception: {
         // EN (option A): In an amido group the nitrogen is bonded directly to the C=O carbon. Here there is a <span class="chem">CH<sub>2</sub></span> between N and C=O, so they are two separate groups.
-        "0": "",
+        "0": "아마이드기에서는 질소가 C=O 탄소에 직접 결합해 있어요. 여기서는 N과 C=O 사이에 <span class=\"chem\">CH<sub>2</sub></span>가 있으므로 서로 다른 두 작용기예요.",
         // EN (option B): In an ester the C–O–C oxygen is bonded directly to the C=O carbon. Here two <span class="chem">CH<sub>2</sub></span> groups separate them.
-        "1": "",
+        "1": "에스터기에서는 C–O–C의 산소가 C=O 탄소에 직접 결합해 있어요. 여기서는 <span class=\"chem\">CH<sub>2</sub></span> 기 2개가 둘을 떨어뜨려 놓고 있어요.",
         // EN (option D): These are the correct classes, but the question asks for functional groups. Class names do not score when group names are asked for.
-        "3": "",
+        "3": "화합물 종류로는 맞지만, 문제는 작용기를 묻고 있어요. 작용기 이름을 물을 때 종류 이름을 쓰면 점수를 받지 못해요.",
       },
     },
 
     // ── s3-2-q017 · mcq · foundation · SL · Structure 3.2.3 · 1 mark
     "s3-2-q017": {
       // EN: <p>Which statement is correct for the members of one homologous series?</p>
-      stem: "",
+      stem: "<p>하나의 동족 계열에 속하는 화합물들에 대해 옳은 설명은 어느 것인가요?</p>",
       options: [
         // EN: They have the same molecular formula.
-        "",
+        "분자식이 같다.",
         // EN: Each member differs from the next by a <span class="chem">CH<sub>2</sub></span> unit.
-        "",
+        "이웃한 화합물끼리 <span class=\"chem\">CH<sub>2</sub></span> 단위 하나만큼 차이가 난다.",
         // EN: They have the same boiling point.
-        "",
+        "끓는점이 같다.",
         // EN: They have different functional groups.
-        "",
+        "작용기가 서로 다르다.",
       ],
       hints: [
         // EN: Compare methane <span class="chem">CH<sub>4</sub></span>, ethane <span class="chem">C<sub>2</sub>H<sub>6</sub></span> and propane <span class="chem">C<sub>3</sub>H<sub>8</sub></span>. What is added each time?
-        "",
+        "Methane(메테인) <span class=\"chem\">CH<sub>4</sub></span>, ethane <span class=\"chem\">C<sub>2</sub>H<sub>6</sub></span>, propane <span class=\"chem\">C<sub>3</sub>H<sub>8</sub></span>을 비교해 봐요. 매번 무엇이 더해지나요?",
       ],
       // EN: <p>A homologous series is a family of compounds with the same functional group. Each member differs from the next by a common unit, <span class="chem">CH<sub>2</sub></span>.</p><p>Members share one general formula and have similar chemical properties. Their physical properties show a gradual trend.</p>
-      solution: "",
+      solution: "<p>동족 계열은 같은 작용기를 가진 화합물 집안이에요. 이웃한 화합물끼리 공통 단위인 <span class=\"chem\">CH<sub>2</sub></span>만큼 차이가 나요.</p><p>같은 계열의 화합물은 하나의 일반식을 함께 쓰고, 화학적 성질이 비슷해요. 물리적 성질은 점진적인 경향을 보여요.</p>",
       misconception: {
         // EN (option A): Compounds with the same molecular formula are isomers. Members of a homologous series have the same <em>general</em> formula, but different molecular formulas.
-        "0": "",
+        "0": "분자식이 같은 화합물은 이성질체예요. 동족 계열의 화합물들은 <em>일반식</em>은 같지만 분자식은 서로 달라요.",
         // EN (option C): Physical properties change gradually along the series. For example, the boiling point rises as the chain gets longer.
-        "2": "",
+        "2": "물리적 성질은 계열을 따라 점점 변해요. 예를 들어 사슬이 길어질수록 끓는점이 높아져요.",
         // EN (option D): All members of a homologous series have the same functional group. That is why their chemical properties are similar.
-        "3": "",
+        "3": "동족 계열의 화합물은 모두 같은 작용기를 가지고 있어요. 그래서 화학적 성질이 비슷해요.",
       },
     },
 
     // ── s3-2-q018 · mcq · foundation · SL · Structure 3.2.3 · 1 mark
     "s3-2-q018": {
       // EN: <p>What is the general formula of the alkenes (non-cyclic, with one C=C double bond)?</p>
-      stem: "",
+      stem: "<p>알켄(고리가 없고 C=C 이중 결합이 1개인 것)의 일반식은 무엇인가요?</p>",
       options: [
         // EN: <span class="chem">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub></span>
         "<span class=\"chem\">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub></span>",
@@ -504,24 +504,24 @@ S1.i18n.register('ko', 's3-2.q', {
       ],
       hints: [
         // EN: Test each formula with ethene, <span class="chem">C<sub>2</sub>H<sub>4</sub></span>, and propene, <span class="chem">C<sub>3</sub>H<sub>6</sub></span>.
-        "",
+        "각 식을 ethene <span class=\"chem\">C<sub>2</sub>H<sub>4</sub></span>과 propene <span class=\"chem\">C<sub>3</sub>H<sub>6</sub></span>으로 확인해 봐요.",
       ],
       // EN: <p>Ethene is <span class="chem">C<sub>2</sub>H<sub>4</sub></span> and propene is <span class="chem">C<sub>3</sub>H<sub>6</sub></span>. In each one the number of H atoms is twice the number of C atoms.</p><p>The general formula is <span class="chem">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub></span>.</p>
-      solution: "",
+      solution: "<p>Ethene은 <span class=\"chem\">C<sub>2</sub>H<sub>4</sub></span>이고 propene은 <span class=\"chem\">C<sub>3</sub>H<sub>6</sub></span>이에요. 둘 다 H 원자 수가 C 원자 수의 2배예요.</p><p>일반식은 <span class=\"chem\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub></span>이에요.</p>",
       misconception: {
         // EN (option A): This is the general formula of the alkanes. An alkene has two hydrogen atoms fewer than the alkane with the same number of carbon atoms.
-        "0": "",
+        "0": "이것은 알케인의 일반식이에요. 알켄은 탄소 원자 수가 같은 알케인보다 수소 원자가 2개 적어요.",
         // EN (option C): This is the general formula of the alkynes, which have one carbon–carbon triple bond.
-        "2": "",
+        "2": "이것은 탄소–탄소 삼중 결합이 1개 있는 알카인의 일반식이에요.",
         // EN (option D): This is an alkyl group, such as <span class="chem">CH<sub>3</sub></span> or <span class="chem">C<sub>2</sub>H<sub>5</sub></span>. It is part of a molecule, not a complete molecule.
-        "3": "",
+        "3": "이것은 <span class=\"chem\">CH<sub>3</sub></span>나 <span class=\"chem\">C<sub>2</sub>H<sub>5</sub></span> 같은 알킬기예요. 분자의 일부이지 완전한 분자가 아니에요.",
       },
     },
 
     // ── s3-2-q019 · mcq · exam · SL · Structure 3.2.3 · 1 mark
     "s3-2-q019": {
       // EN: <p>Which compound is in the same homologous series as ethanol, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>OH</span>?</p>
-      stem: "",
+      stem: "<p>Ethanol <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>OH</span>와 같은 동족 계열에 속하는 화합물은 어느 것인가요?</p>",
       options: [
         // EN: <span class="chem">CH<sub>3</sub>OCH<sub>3</sub></span>
         "<span class=\"chem\">CH<sub>3</sub>OCH<sub>3</sub></span>",
@@ -534,243 +534,243 @@ S1.i18n.register('ko', 's3-2.q', {
       ],
       hints: [
         // EN: Members of one series have the same functional group.
-        "",
+        "같은 계열의 화합물은 작용기가 같아요.",
         // EN: They differ only by one or more <span class="chem">CH<sub>2</sub></span> units.
-        "",
+        "<span class=\"chem\">CH<sub>2</sub></span> 단위 1개 이상만큼만 차이가 나요.",
       ],
       // EN: <p>Ethanol has one hydroxyl group on a saturated carbon chain. <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span> (butan-1-ol) also has one hydroxyl group, and it has two more <span class="chem">CH<sub>2</sub></span> units.</p><p>Both fit the general formula <span class="chem">C<sub><i>n</i></sub>H<sub>2<i>n</i>+1</sub>OH</span>.</p>
-      solution: "",
+      solution: "<p>Ethanol은 포화 탄소 사슬에 하이드록시기가 1개 있어요. <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>(butan-1-ol)도 하이드록시기가 1개 있고, <span class=\"chem\">CH<sub>2</sub></span> 단위가 2개 더 있어요.</p><p>둘 다 일반식 <span class=\"chem\">C<sub><i>n</i></sub>H<sub>2<i>n</i>+1</sub>OH</span>에 맞아요.</p>",
       misconception: {
         // EN (option A): This has the same molecular formula as ethanol, so it is an isomer. Its functional group is alkoxy (C–O–C), so it is an ether, not an alcohol.
-        "0": "",
+        "0": "이것은 ethanol과 분자식이 같으므로 이성질체예요. 작용기가 알콕시기(C–O–C)이므로 알코올이 아니라 에테르예요.",
         // EN (option B): This is an aldehyde. Its functional group is carbonyl (C=O), not hydroxyl.
-        "1": "",
+        "1": "이것은 알데하이드예요. 작용기는 하이드록시기가 아니라 카보닐기(C=O)예요.",
         // EN (option C): This has two hydroxyl groups. It differs from ethanol by an extra O atom, not by <span class="chem">CH<sub>2</sub></span> units.
-        "2": "",
+        "2": "이것은 하이드록시기가 2개 있어요. Ethanol과 <span class=\"chem\">CH<sub>2</sub></span> 단위가 아니라 O 원자 하나만큼 차이가 나요.",
       },
     },
 
     // ── s3-2-q020 · numeric · exam · SL · Structure 3.2.3 · 1 mark
     "s3-2-q020": {
       // EN: <p>The first three members of the carboxylic acid homologous series are <span class="chem">CH<sub>2</sub>O<sub>2</sub></span>, <span class="chem">C<sub>2</sub>H<sub>4</sub>O<sub>2</sub></span> and <span class="chem">C<sub>3</sub>H<sub>6</sub>O<sub>2</sub></span>.</p><p>How many <strong>hydrogen</strong> atoms are there in one molecule of the member with six carbon atoms?</p>
-      stem: "",
+      stem: "<p>카복실산 동족 계열의 처음 세 화합물은 <span class=\"chem\">CH<sub>2</sub>O<sub>2</sub></span>, <span class=\"chem\">C<sub>2</sub>H<sub>4</sub>O<sub>2</sub></span>, <span class=\"chem\">C<sub>3</sub>H<sub>6</sub>O<sub>2</sub></span>이에요.</p><p>탄소 원자가 6개인 화합물의 분자 1개에는 <strong>수소</strong> 원자가 몇 개 있나요?</p>",
       hints: [
         // EN: What changes from one member to the next?
-        "",
+        "한 화합물에서 다음 화합물로 갈 때 무엇이 바뀌나요?",
         // EN: Each extra carbon atom brings two extra hydrogen atoms. Write the general formula.
-        "",
+        "탄소 원자가 1개 늘 때마다 수소 원자가 2개 늘어요. 일반식을 써 봐요.",
       ],
       // EN: <p>Each member has one more <span class="chem">CH<sub>2</sub></span> than the one before. The number of H atoms is always twice the number of C atoms, and there are always 2 O atoms.</p><div class="worked__math">general formula: <span class="chem">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O<sub>2</sub></span></div><div class="worked__math">n = 6: &nbsp; H = 2 × 6 = 12</div><p>The member with six carbon atoms is <span class="chem">C<sub>6</sub>H<sub>12</sub>O<sub>2</sub></span> (hexanoic acid).</p>
-      solution: "",
+      solution: "<p>각 화합물은 바로 앞 화합물보다 <span class=\"chem\">CH<sub>2</sub></span>가 하나 더 많아요. H 원자 수는 언제나 C 원자 수의 2배이고, O 원자는 언제나 2개예요.</p><div class=\"worked__math\">일반식: <span class=\"chem\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O<sub>2</sub></span></div><div class=\"worked__math\">n = 6: &nbsp; H = 2 × 6 = 12</div><p>탄소 원자가 6개인 화합물은 <span class=\"chem\">C<sub>6</sub>H<sub>12</sub>O<sub>2</sub></span>(hexanoic acid)예요.</p>",
       // EN: hydrogen atoms
-      unit: "",
+      unit: "개 (수소 원자)",
     },
 
     // ── s3-2-q021 · multi · exam · SL · Structure 3.2.3 · 1 mark
     "s3-2-q021": {
       // EN: <p>Which statements describe the members of a homologous series? Select <strong>all</strong> that apply.</p>
-      stem: "",
+      stem: "<p>동족 계열에 속하는 화합물들에 대한 설명으로 옳은 것은 어느 것인가요? 해당하는 것을 <strong>모두</strong> 고르세요.</p>",
       options: [
         // EN: They can be described by the same general formula.
-        "",
+        "같은 일반식으로 나타낼 수 있다.",
         // EN: They have similar chemical properties.
-        "",
+        "화학적 성질이 비슷하다.",
         // EN: They have the same molecular formula.
-        "",
+        "분자식이 같다.",
         // EN: They show a gradual change in physical properties.
-        "",
+        "물리적 성질이 점진적으로 변한다.",
         // EN: They have the same molar mass.
-        "",
+        "몰 질량이 같다.",
       ],
       hints: [
         // EN: Think about what stays the same along the series (the functional group) and what changes (the chain length).
-        "",
+        "계열을 따라 무엇이 그대로이고(작용기) 무엇이 바뀌는지(사슬 길이) 생각해 봐요.",
       ],
       // EN: <p>Members of a homologous series:</p><ul><li>have the same functional group, so they have similar chemical properties;</li><li>fit the same general formula;</li><li>differ from the next member by <span class="chem">CH<sub>2</sub></span>;</li><li>show a gradual trend in physical properties such as boiling point.</li></ul><p>Their molecular formulas and molar masses are different.</p>
-      solution: "",
+      solution: "<p>동족 계열의 화합물들은</p><ul><li>작용기가 같아서 화학적 성질이 비슷해요.</li><li>같은 일반식에 맞아요.</li><li>다음 화합물과 <span class=\"chem\">CH<sub>2</sub></span>만큼 차이가 나요.</li><li>끓는점 같은 물리적 성질이 점진적인 경향을 보여요.</li></ul><p>분자식과 몰 질량은 서로 달라요.</p>",
       misconception: {
         // EN (option C): Compounds with the same molecular formula are isomers. Members of a homologous series have different molecular formulas, such as <span class="chem">CH<sub>4</sub></span>, <span class="chem">C<sub>2</sub>H<sub>6</sub></span> and <span class="chem">C<sub>3</sub>H<sub>8</sub></span>.
-        "2": "",
+        "2": "분자식이 같은 화합물은 이성질체예요. 동족 계열의 화합물들은 <span class=\"chem\">CH<sub>4</sub></span>, <span class=\"chem\">C<sub>2</sub>H<sub>6</sub></span>, <span class=\"chem\">C<sub>3</sub>H<sub>8</sub></span>처럼 분자식이 서로 달라요.",
         // EN (option E): Each member has one more <span class="chem">CH<sub>2</sub></span> than the last, so the molar mass rises by about 14 <span class="unit">g mol-1</span> each time.
-        "4": "",
+        "4": "각 화합물은 앞 화합물보다 <span class=\"chem\">CH<sub>2</sub></span>가 하나 더 많으므로, 몰 질량이 매번 약 14 <span class=\"unit\">g mol-1</span>씩 커져요.",
       },
     },
 
     // ── s3-2-q022 · multi · challenge · SL · Structure 3.2.3 · 1 mark
     "s3-2-q022": {
       // EN: <p>Which homologous series have the general formula <span class="chem">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O</span>? Consider saturated, non-cyclic members only. Select <strong>all</strong> that apply.</p>
-      stem: "",
+      stem: "<p>일반식이 <span class=\"chem\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O</span>인 동족 계열은 어느 것인가요? 포화되어 있고 고리가 없는 화합물만 생각해요. 해당하는 것을 <strong>모두</strong> 고르세요.</p>",
       options: [
         // EN: Aldehydes
-        "",
+        "알데하이드",
         // EN: Ketones
-        "",
+        "케톤",
         // EN: Alcohols
-        "",
+        "알코올",
         // EN: Ethers
-        "",
+        "에테르",
         // EN: Carboxylic acids
-        "",
+        "카복실산",
       ],
       hints: [
         // EN: Write the molecular formula of one small member of each series and test it.
-        "",
+        "각 계열에서 작은 화합물 하나의 분자식을 써서 확인해 봐요.",
         // EN: A C=O double bond removes two hydrogen atoms compared with a molecule that has only single bonds.
-        "",
+        "C=O 이중 결합이 있으면 단일 결합만 있는 분자보다 수소 원자가 2개 적어요.",
       ],
       // EN: <p>Test one member of each series.</p><div class="worked__math">propanal <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CHO</span> = <span class="chem">C<sub>3</sub>H<sub>6</sub>O</span></div><div class="worked__math">propanone <span class="chem">CH<sub>3</sub>COCH<sub>3</sub></span> = <span class="chem">C<sub>3</sub>H<sub>6</sub>O</span></div><div class="worked__math">ethanol <span class="chem">CH<sub>3</sub>CH<sub>2</sub>OH</span> = <span class="chem">C<sub>2</sub>H<sub>6</sub>O</span></div><div class="worked__math">methoxymethane <span class="chem">CH<sub>3</sub>OCH<sub>3</sub></span> = <span class="chem">C<sub>2</sub>H<sub>6</sub>O</span></div><div class="worked__math">ethanoic acid <span class="chem">CH<sub>3</sub>COOH</span> = <span class="chem">C<sub>2</sub>H<sub>4</sub>O<sub>2</sub></span></div><p>Only the aldehydes and the ketones fit <span class="chem">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O</span>. This is why an aldehyde and a ketone with the same number of carbon atoms are functional group isomers.</p>
-      solution: "",
+      solution: "<p>각 계열에서 화합물 하나씩 확인해 봐요.</p><div class=\"worked__math\">propanal <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CHO</span> = <span class=\"chem\">C<sub>3</sub>H<sub>6</sub>O</span></div><div class=\"worked__math\">propanone <span class=\"chem\">CH<sub>3</sub>COCH<sub>3</sub></span> = <span class=\"chem\">C<sub>3</sub>H<sub>6</sub>O</span></div><div class=\"worked__math\">ethanol <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>OH</span> = <span class=\"chem\">C<sub>2</sub>H<sub>6</sub>O</span></div><div class=\"worked__math\">methoxymethane <span class=\"chem\">CH<sub>3</sub>OCH<sub>3</sub></span> = <span class=\"chem\">C<sub>2</sub>H<sub>6</sub>O</span></div><div class=\"worked__math\">ethanoic acid <span class=\"chem\">CH<sub>3</sub>COOH</span> = <span class=\"chem\">C<sub>2</sub>H<sub>4</sub>O<sub>2</sub></span></div><p><span class=\"chem\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O</span>에 맞는 것은 알데하이드와 케톤뿐이에요. 그래서 탄소 원자 수가 같은 알데하이드와 케톤은 작용기 이성질체예요.</p>",
       misconception: {
         // EN (option C): Test with ethanol, <span class="chem">C<sub>2</sub>H<sub>6</sub>O</span>. Alcohols have only single bonds, so they fit <span class="chem">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>O</span>.
-        "2": "",
+        "2": "Ethanol <span class=\"chem\">C<sub>2</sub>H<sub>6</sub>O</span>로 확인해 봐요. 알코올은 단일 결합만 있으므로 <span class=\"chem\">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>O</span>에 맞아요.",
         // EN (option D): Test with methoxymethane, <span class="chem">CH<sub>3</sub>OCH<sub>3</sub></span>, which is <span class="chem">C<sub>2</sub>H<sub>6</sub>O</span>. Ethers fit <span class="chem">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>O</span>, the same as alcohols.
-        "3": "",
+        "3": "Methoxymethane <span class=\"chem\">CH<sub>3</sub>OCH<sub>3</sub></span>, 즉 <span class=\"chem\">C<sub>2</sub>H<sub>6</sub>O</span>로 확인해 봐요. 에테르는 알코올과 같이 <span class=\"chem\">C<sub><i>n</i></sub>H<sub>2<i>n</i>+2</sub>O</span>에 맞아요.",
         // EN (option E): Carboxylic acids have two oxygen atoms. Ethanoic acid is <span class="chem">C<sub>2</sub>H<sub>4</sub>O<sub>2</sub></span>, so the series fits <span class="chem">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O<sub>2</sub></span>.
-        "4": "",
+        "4": "카복실산에는 산소 원자가 2개 있어요. Ethanoic acid는 <span class=\"chem\">C<sub>2</sub>H<sub>4</sub>O<sub>2</sub></span>이므로 이 계열은 <span class=\"chem\">C<sub><i>n</i></sub>H<sub>2<i>n</i></sub>O<sub>2</sub></span>에 맞아요.",
       },
     },
 
     // ── s3-2-q023 · mcq · foundation · SL · Structure 3.2.4 · 1 mark
     "s3-2-q023": {
       // EN: <p>How does the boiling point change from methane to hexane in the alkane homologous series, and why?</p>
-      stem: "",
+      stem: "<p>알케인 동족 계열에서 methane부터 hexane까지 끓는점은 어떻게 변하고, 그 이유는 무엇인가요?</p>",
       options: [
         // EN: It increases, because the covalent bonds in the molecules become stronger.
-        "",
+        "높아진다. 분자 안의 공유 결합이 더 강해지기 때문이다.",
         // EN: It increases, because the London (dispersion) forces between the molecules become stronger.
-        "",
+        "높아진다. 분자 사이의 런던 분산력이 더 강해지기 때문이다.",
         // EN: It decreases, because larger molecules are held together more weakly.
-        "",
+        "낮아진다. 큰 분자일수록 더 약하게 붙잡혀 있기 때문이다.",
         // EN: It stays the same, because all alkanes have the same type of bonding.
-        "",
+        "변하지 않는다. 모든 알케인은 결합의 종류가 같기 때문이다.",
       ],
       hints: [
         // EN: When a liquid boils, the molecules move apart but stay whole.
-        "",
+        "액체가 끓을 때 분자들은 서로 멀어지지만, 분자 자체는 그대로 있어요.",
         // EN: Each extra <span class="chem">CH<sub>2</sub></span> adds 8 electrons to the molecule.
-        "",
+        "<span class=\"chem\">CH<sub>2</sub></span>가 하나 더해질 때마다 분자에 전자가 8개 늘어요.",
       ],
       // EN: <p>The boiling point <strong>increases</strong> along the series. Each member has one more <span class="chem">CH<sub>2</sub></span>, so it has more electrons and a larger surface.</p><p>This makes the London (dispersion) forces between the molecules stronger. More energy is needed to separate the molecules.</p>
-      solution: "",
+      solution: "<p>계열을 따라 끓는점이 <strong>높아져요</strong>. 각 화합물은 <span class=\"chem\">CH<sub>2</sub></span>가 하나 더 많으므로 전자가 더 많고 표면적이 더 커요.</p><p>그래서 분자 사이의 런던 분산력이 더 강해져요. 분자들을 떼어 놓는 데 더 많은 에너지가 필요해요.</p>",
       misconception: {
         // EN (option A): Boiling does not break the covalent bonds inside molecules. It separates whole molecules from each other, so the forces <em>between</em> molecules matter.
-        "0": "",
+        "0": "끓을 때 분자 안의 공유 결합은 끊어지지 않아요. 분자 전체가 서로 떨어지는 것이므로, 분자 <em>사이의</em> 힘이 중요해요.",
         // EN (option C): Larger molecules have more electrons, so the forces between them are stronger, not weaker.
-        "2": "",
+        "2": "큰 분자일수록 전자가 많으므로, 분자 사이의 힘은 약해지는 것이 아니라 강해져요.",
         // EN (option D): The type of force is the same, but its strength is not. More electrons give stronger London (dispersion) forces.
-        "3": "",
+        "3": "힘의 종류는 같지만 세기는 달라요. 전자가 많을수록 런던 분산력이 강해요.",
       },
     },
 
     // ── s3-2-q024 · short · exam · SL · Structure 3.2.4 · 2 marks
     "s3-2-q024": {
       // EN: <p>The table shows the boiling points of the first six alkanes.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Boiling points of the straight-chain alkanes</caption><thead><tr><th scope="col">Alkane</th><th class="num" scope="col">Boiling point / °C</th></tr></thead><tbody><tr><th scope="row">methane, <span class="chem">CH<sub>4</sub></span></th><td class="num">−161</td></tr><tr><th scope="row">ethane, <span class="chem">C<sub>2</sub>H<sub>6</sub></span></th><td class="num">−89</td></tr><tr><th scope="row">propane, <span class="chem">C<sub>3</sub>H<sub>8</sub></span></th><td class="num">−42</td></tr><tr><th scope="row">butane, <span class="chem">C<sub>4</sub>H<sub>10</sub></span></th><td class="num">−0.5</td></tr><tr><th scope="row">pentane, <span class="chem">C<sub>5</sub>H<sub>12</sub></span></th><td class="num">36</td></tr><tr><th scope="row">hexane, <span class="chem">C<sub>6</sub>H<sub>14</sub></span></th><td class="num">69</td></tr></tbody></table></div><p>Explain the trend in boiling point shown by the data.</p>
-      stem: "",
+      stem: "<p>표는 처음 6가지 알케인의 끓는점을 보여 줘요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>곧은 사슬 알케인의 끓는점</caption><thead><tr><th scope=\"col\">알케인</th><th class=\"num\" scope=\"col\">끓는점 / °C</th></tr></thead><tbody><tr><th scope=\"row\">methane, <span class=\"chem\">CH<sub>4</sub></span></th><td class=\"num\">−161</td></tr><tr><th scope=\"row\">ethane, <span class=\"chem\">C<sub>2</sub>H<sub>6</sub></span></th><td class=\"num\">−89</td></tr><tr><th scope=\"row\">propane, <span class=\"chem\">C<sub>3</sub>H<sub>8</sub></span></th><td class=\"num\">−42</td></tr><tr><th scope=\"row\">butane, <span class=\"chem\">C<sub>4</sub>H<sub>10</sub></span></th><td class=\"num\">−0.5</td></tr><tr><th scope=\"row\">pentane, <span class=\"chem\">C<sub>5</sub>H<sub>12</sub></span></th><td class=\"num\">36</td></tr><tr><th scope=\"row\">hexane, <span class=\"chem\">C<sub>6</sub>H<sub>14</sub></span></th><td class=\"num\">69</td></tr></tbody></table></div><p>자료에 나타난 끓는점의 경향을 설명하시오 (explain).</p>",
       hints: [
         // EN: Name the force that acts between alkane molecules.
-        "",
+        "알케인 분자 사이에 작용하는 힘의 이름을 말해 봐요.",
         // EN: Say what changes in the molecule, how that changes the force, and what that means for the energy needed.
-        "",
+        "분자에서 무엇이 바뀌는지, 그것이 힘을 어떻게 바꾸는지, 그리고 그 결과 필요한 에너지가 어떻게 되는지 말해 봐요.",
       ],
       // EN: <p>The boiling point increases as the number of carbon atoms increases. Each molecule has more electrons (a greater molar mass and a larger surface area) than the one before, so the London (dispersion) forces between the molecules are stronger. More energy is needed to overcome these forces and separate the molecules.</p>
-      answer: "",
+      answer: "<p>탄소 원자 수가 늘수록 끓는점이 높아져요. 각 분자는 앞 분자보다 전자가 더 많으므로(몰 질량이 더 크고 표면적이 더 넓음) 분자 사이의 런던 분산력이 더 강해요. 이 힘을 이기고 분자들을 떼어 놓는 데 더 많은 에너지가 필요해요.</p>",
       markscheme: [
         // EN: More electrons / greater molar mass / larger surface area (as the chain length increases), so stronger London (dispersion) forces between molecules.
-        "",
+        "(사슬이 길어질수록) 전자가 더 많음 / 몰 질량이 더 큼 / 표면적이 더 넓음, 그래서 분자 사이의 런던 분산력이 더 강함.",
         // EN: More energy is needed to overcome the intermolecular forces / to separate the molecules. (Do not accept any answer that says covalent bonds are broken.)
-        "",
+        "분자 간 힘을 이기는 데 / 분자들을 떼어 놓는 데 더 많은 에너지가 필요함. (공유 결합이 끊어진다고 쓴 답은 인정하지 않음.)",
       ],
     },
 
     // ── s3-2-q025 · order · exam · SL · Structure 3.2.4 · 1 mark
     "s3-2-q025": {
       // EN: <p>These four compounds have similar molar masses (58 to 60 <span class="unit">g mol-1</span>). Put them in order of <strong>increasing boiling point</strong> (lowest boiling point first).</p>
-      stem: "",
+      stem: "<p>다음 4가지 화합물은 몰 질량이 비슷해요(58~60 <span class=\"unit\">g mol-1</span>). <strong>끓는점이 낮은 순서</strong>로 나열하세요(끓는점이 가장 낮은 것부터).</p>",
       options: [
         // EN: Butane, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>
-        "",
+        "Butane, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>",
         // EN: Propanal, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CHO</span>
-        "",
+        "Propanal, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CHO</span>",
         // EN: Propan-1-ol, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>
-        "",
+        "Propan-1-ol, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>",
         // EN: Ethanoic acid, <span class="chem">CH<sub>3</sub>COOH</span>
-        "",
+        "Ethanoic acid, <span class=\"chem\">CH<sub>3</sub>COOH</span>",
       ],
       hints: [
         // EN: The molar masses are similar, so the London (dispersion) forces are similar. Look for other forces.
-        "",
+        "몰 질량이 비슷하므로 런던 분산력도 비슷해요. 다른 힘을 찾아봐요.",
         // EN: Which molecules are polar? Which have an H atom bonded to O, so that they can form hydrogen bonds with each other?
-        "",
+        "어느 분자가 극성인가요? 어느 분자에 O와 결합한 H 원자가 있어서 서로 수소 결합을 할 수 있나요?",
       ],
       // EN: <p>The London (dispersion) forces are similar, so the functional group decides the order.</p><ul><li>Butane, −0.5 °C: London (dispersion) forces only.</li><li>Propanal, 48 °C: the C=O group is polar, so there are also dipole–dipole forces.</li><li>Propan-1-ol, 97 °C: the O–H group forms hydrogen bonds.</li><li>Ethanoic acid, 118 °C: hydrogen bonds, and more of them.</li></ul><p>Ethanoic acid is higher than propan-1-ol because the carboxyl group forms more hydrogen bonds: both its C=O and its O–H take part.</p>
-      solution: "",
+      solution: "<p>런던 분산력은 비슷하므로, 작용기가 순서를 결정해요.</p><ul><li>Butane, −0.5 °C: 런던 분산력만 있어요.</li><li>Propanal, 48 °C: C=O 기가 극성이므로 쌍극자-쌍극자 힘도 있어요.</li><li>Propan-1-ol, 97 °C: O–H 기가 수소 결합을 해요.</li><li>Ethanoic acid, 118 °C: 수소 결합을 하고, 그 수도 더 많아요.</li></ul><p>Ethanoic acid가 propan-1-ol보다 끓는점이 높은 것은 카복실기가 수소 결합을 더 많이 만들기 때문이에요. C=O와 O–H가 모두 참여해요.</p>",
     },
 
     // ── s3-2-q026 · mcq · exam · SL · Structure 3.2.4 · 1 mark
     "s3-2-q026": {
       // EN: <p>Propane and ethanol have similar molar masses (44.11 and 46.08 <span class="unit">g mol-1</span>). Each molecule has 26 electrons.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Boiling points of two compounds</caption><thead><tr><th scope="col">Compound</th><th class="num" scope="col">Boiling point / °C</th></tr></thead><tbody><tr><th scope="row">propane, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>3</sub></span></th><td class="num">−42</td></tr><tr><th scope="row">ethanol, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>OH</span></th><td class="num">78</td></tr></tbody></table></div><p>Which statement explains why the boiling point of ethanol is much higher?</p>
-      stem: "",
+      stem: "<p>Propane과 ethanol은 몰 질량이 비슷해요(44.11과 46.08 <span class=\"unit\">g mol-1</span>). 두 분자 모두 전자가 26개예요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>두 화합물의 끓는점</caption><thead><tr><th scope=\"col\">화합물</th><th class=\"num\" scope=\"col\">끓는점 / °C</th></tr></thead><tbody><tr><th scope=\"row\">propane, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>3</sub></span></th><td class=\"num\">−42</td></tr><tr><th scope=\"row\">ethanol, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>OH</span></th><td class=\"num\">78</td></tr></tbody></table></div><p>Ethanol의 끓는점이 훨씬 높은 이유를 설명하는 것은 어느 것인가요?</p>",
       options: [
         // EN: The O–H covalent bond in ethanol is stronger than the C–H bonds in propane.
-        "",
+        "Ethanol의 O–H 공유 결합이 propane의 C–H 결합보다 강하다.",
         // EN: Ethanol molecules form hydrogen bonds with each other.
-        "",
+        "Ethanol 분자들은 서로 수소 결합을 한다.",
         // EN: Ethanol has much stronger London (dispersion) forces than propane.
-        "",
+        "Ethanol은 propane보다 런던 분산력이 훨씬 강하다.",
         // EN: Ethanol contains ions, and propane does not.
-        "",
+        "Ethanol에는 이온이 있고 propane에는 없다.",
       ],
       hints: [
         // EN: Boiling separates molecules from each other. Which forces act between ethanol molecules but not between propane molecules?
-        "",
+        "끓으면 분자들이 서로 떨어져요. Propane 분자 사이에는 없고 ethanol 분자 사이에만 작용하는 힘은 무엇인가요?",
       ],
       // EN: <p>Propane is non-polar. Only London (dispersion) forces act between its molecules.</p><p>Ethanol has a hydroxyl group. The H atom bonded to O in one molecule is attracted to a lone pair on the O atom of another molecule. This is hydrogen bonding, which is stronger than London (dispersion) forces between molecules of this size. More energy is needed to separate the molecules.</p>
-      solution: "",
+      solution: "<p>Propane은 무극성이에요. 분자 사이에 런던 분산력만 작용해요.</p><p>Ethanol에는 하이드록시기가 있어요. 한 분자에서 O와 결합한 H 원자가 다른 분자의 O 원자에 있는 비공유 전자쌍에 끌려요. 이것이 수소 결합이고, 이 정도 크기의 분자에서는 런던 분산력보다 강해요. 분자들을 떼어 놓는 데 더 많은 에너지가 필요해요.</p>",
       misconception: {
         // EN (option A): No covalent bond is broken when a liquid boils. The strength of bonds inside the molecule does not decide the boiling point.
-        "0": "",
+        "0": "액체가 끓을 때 공유 결합은 끊어지지 않아요. 분자 안의 결합 세기는 끓는점을 결정하지 않아요.",
         // EN (option C): The two molecules have the same number of electrons, so their London (dispersion) forces are similar. This cannot explain a difference of 120 °C.
-        "2": "",
+        "2": "두 분자는 전자 수가 같으므로 런던 분산력이 비슷해요. 이것으로는 120 °C의 차이를 설명할 수 없어요.",
         // EN (option D): Ethanol is a molecular covalent compound. The hydroxyl group is not a hydroxide ion.
-        "3": "",
+        "3": "Ethanol은 분자로 이루어진 공유 결합 화합물이에요. 하이드록시기는 수산화 이온이 아니에요.",
       },
     },
 
     // ── s3-2-q027 · short · challenge · SL · Structure 3.2.4 · 3 marks
     "s3-2-q027": {
       // EN: <p>The three compounds in the table are structural isomers with the molecular formula <span class="chem">C<sub>5</sub>H<sub>12</sub></span>.</p><div class="table-scroll" tabindex="0"><table class="data"><caption>Boiling points of three isomers</caption><thead><tr><th scope="col">Compound</th><th class="num" scope="col">Boiling point / °C</th></tr></thead><tbody><tr><th scope="row">pentane</th><td class="num">36</td></tr><tr><th scope="row">2-methylbutane</th><td class="num">28</td></tr><tr><th scope="row">2,2-dimethylpropane</th><td class="num">9.5</td></tr></tbody></table></div><p>Pentane, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>, has no branches. 2-methylbutane, <span class="chem">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>CH<sub>3</sub></span>, has one branch. 2,2-dimethylpropane, <span class="chem">(CH<sub>3</sub>)<sub>4</sub>C</span>, has two branches.</p><p>Explain why the boiling points are different, even though the three compounds have the same molar mass.</p>
-      stem: "",
+      stem: "<p>표의 세 화합물은 분자식이 <span class=\"chem\">C<sub>5</sub>H<sub>12</sub></span>인 구조 이성질체예요.</p><div class=\"table-scroll\" tabindex=\"0\"><table class=\"data\"><caption>세 이성질체의 끓는점</caption><thead><tr><th scope=\"col\">화합물</th><th class=\"num\" scope=\"col\">끓는점 / °C</th></tr></thead><tbody><tr><th scope=\"row\">pentane</th><td class=\"num\">36</td></tr><tr><th scope=\"row\">2-methylbutane</th><td class=\"num\">28</td></tr><tr><th scope=\"row\">2,2-dimethylpropane</th><td class=\"num\">9.5</td></tr></tbody></table></div><p>Pentane <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span>은 가지가 없어요. 2-methylbutane <span class=\"chem\">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>CH<sub>3</sub></span>은 가지가 1개 있어요. 2,2-dimethylpropane <span class=\"chem\">(CH<sub>3</sub>)<sub>4</sub>C</span>는 가지가 2개 있어요.</p><p>세 화합물의 몰 질량이 같은데도 끓는점이 다른 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: The number of electrons is the same in all three, so look at the shape of each molecule.
-        "",
+        "세 분자 모두 전자 수가 같으므로, 각 분자의 모양을 봐요.",
         // EN: How well can long, straight molecules lie next to each other, compared with ball-shaped molecules?
-        "",
+        "길고 곧은 분자는 공 모양 분자와 비교해서 서로 얼마나 잘 붙어 놓일 수 있나요?",
       ],
       // EN: <p>All three molecules have the same number of electrons, and all three are non-polar, so the only forces between the molecules are London (dispersion) forces. A more branched molecule is more compact (closer to a sphere). It has a smaller surface area in contact with neighbouring molecules. The London (dispersion) forces are therefore weaker, and less energy is needed to separate the molecules. So the boiling point falls as branching increases.</p>
-      answer: "",
+      answer: "<p>세 분자는 전자 수가 같고 모두 무극성이므로, 분자 사이에 작용하는 힘은 런던 분산력뿐이에요. 가지가 많은 분자일수록 더 조밀해요(구에 더 가까움). 이웃 분자와 맞닿는 표면적이 더 작아요. 그래서 런던 분산력이 약해지고, 분자들을 떼어 놓는 데 필요한 에너지가 줄어들어요. 따라서 가지가 많아질수록 끓는점이 낮아져요.</p>",
       markscheme: [
         // EN: The only intermolecular forces are London (dispersion) forces (in all three compounds) / the number of electrons is the same.
-        "",
+        "분자 간 힘은 런던 분산력뿐임(세 화합물 모두) / 전자 수가 같음.",
         // EN: More branching gives a more compact / more spherical molecule with a smaller surface area (less contact between molecules).
-        "",
+        "가지가 많을수록 분자가 더 조밀함 / 더 구형이어서 표면적이 더 작음(분자 사이의 접촉이 적음).",
         // EN: So the London (dispersion) forces are weaker and less energy is needed to separate the molecules (accept the reverse argument for the straight chain).
-        "",
+        "그래서 런던 분산력이 더 약하고, 분자들을 떼어 놓는 데 필요한 에너지가 더 적음(곧은 사슬에 대한 반대 방향의 설명도 인정).",
       ],
     },
 
     // ── s3-2-q028 · mcq · foundation · SL · Structure 3.2.5 · 1 mark
     "s3-2-q028": {
       // EN: <p>What is the IUPAC name of <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>?</p>
-      stem: "",
+      stem: "<p><span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span>의 IUPAC 이름은 무엇인가요?</p>",
       options: [
         // EN: Butan-4-ol
-        "",
+        "Butan-4-ol",
         // EN: Butanal
-        "",
+        "Butanal",
         // EN: Butan-1-ol
-        "",
+        "Butan-1-ol",
         // EN: Butanol
-        "",
+        "Butanol",
       ],
       hints: [
         // EN: Count the carbon atoms in the chain to get the stem.

@@ -9,461 +9,461 @@ S1.i18n.register('ko', 's3-2h.q', {
     // ── s3-2h-q001 · mcq · foundation · AHL · Structure 3.2.7 · 1 mark
     "s3-2h-q001": {
       // EN: <p>Which compound can exist as <i>cis</i> and <i>trans</i> isomers?</p>
-      stem: "",
+      stem: "<p><i>cis</i> 이성질체와 <i>trans</i> 이성질체로 존재할 수 있는 화합물은 무엇인가요?</p>",
       options: [
         // EN: <span class="chem">CH<sub>2</sub>=CHCH<sub>2</sub>CH<sub>3</sub><span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>2</sub>=CHCH<sub>2</sub>CH<sub>3</sub><span></span></span>",
         // EN: <span class="chem">CH<sub>3</sub>CH=CHCH<sub>3</sub><span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH=CHCH<sub>3</sub><span></span></span>",
         // EN: <span class="chem">(CH<sub>3</sub>)<sub>2</sub>C=CH<sub>2</sub><span></span></span>
-        "",
+        "<span class=\"chem\">(CH<sub>3</sub>)<sub>2</sub>C=CH<sub>2</sub><span></span></span>",
         // EN: <span class="chem">CH<sub>3</sub>CH=CH<sub>2</sub><span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH=CH<sub>2</sub><span></span></span>",
       ],
       hints: [
         // EN: Look at each carbon atom of the C=C bond in turn.
-        "",
+        "C=C 결합의 탄소 원자를 하나씩 차례로 살펴보세요.",
         // EN: Each of the two carbon atoms must be bonded to two different atoms or groups.
-        "",
+        "두 탄소 원자가 각각 서로 다른 두 원자 또는 원자단과 결합해야 해요.",
       ],
       // EN: <p>For <i>cis–trans</i> isomers you need restricted rotation (the C=C bond) and two different groups on <strong>each</strong> carbon of the double bond.</p><p>In but-2-ene, <span class="chem">CH<sub>3</sub>CH=CHCH<sub>3</sub><span></span></span>, each carbon of the double bond holds one H and one <span class="chem">CH<sub>3</sub><span></span></span>. The two methyl groups can be on the same side (<i>cis</i>) or on opposite sides (<i>trans</i>).</p>
-      solution: "",
+      solution: "<p><i>cis–trans</i> 이성질체가 생기려면 회전이 제한되어야 하고(C=C 결합), 이중 결합의 <strong>각</strong> 탄소에 서로 다른 두 원자단이 붙어 있어야 해요.</p><p>but-2-ene, <span class=\"chem\">CH<sub>3</sub>CH=CHCH<sub>3</sub><span></span></span>에서는 이중 결합의 각 탄소에 H 하나와 <span class=\"chem\">CH<sub>3</sub><span></span></span> 하나가 붙어 있어요. 두 메틸기는 같은 쪽(<i>cis</i>)에 있을 수도 있고 반대쪽(<i>trans</i>)에 있을 수도 있어요.</p>",
       misconception: {
         // EN (option A): In but-1-ene the first carbon of the double bond holds two hydrogen atoms. Swapping two identical atoms gives the same molecule.
-        "0": "",
+        "0": "but-1-ene에서는 이중 결합의 첫 번째 탄소에 수소 원자 두 개가 붙어 있어요. 똑같은 두 원자를 서로 바꾸면 같은 분자가 돼요.",
         // EN (option C): In 2-methylpropene one carbon of the double bond holds two methyl groups and the other holds two hydrogen atoms. Neither carbon has two different groups.
-        "2": "",
+        "2": "2-methylpropene에서는 이중 결합의 한 탄소에 메틸기 두 개가, 다른 탄소에 수소 원자 두 개가 붙어 있어요. 어느 탄소에도 서로 다른 두 원자단이 없어요.",
         // EN (option D): In propene the end carbon of the double bond holds two hydrogen atoms. Both carbons must hold two different groups.
-        "3": "",
+        "3": "propene에서는 이중 결합의 끝 탄소에 수소 원자 두 개가 붙어 있어요. 두 탄소 모두 서로 다른 두 원자단을 가져야 해요.",
       },
     },
 
     // ── s3-2h-q002 · mcq · foundation · AHL · Structure 3.2.7 · 1 mark
     "s3-2h-q002": {
       // EN: <p>X and Y are two drawings of 1,2-dichloroethene.</p><p><strong>X</strong></p><p><svg class="q-fig" viewBox="-33.1 -41.4 101 84" width="101" height="84" style="max-width:100%;height:auto" role="img" aria-label="Molecule X: two carbon atoms joined by a double bond. Both chlorine atoms are drawn above the double bond and both hydrogen atoms below it."><line x1="9.0" y1="-2.3" x2="25.5" y2="-2.3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="9.0" y1="2.3" x2="25.5" y2="2.3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="-5.2" y1="-7.4" x2="-11.7" y2="-16.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="-5.2" y1="7.4" x2="-13.4" y2="19.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="39.7" y1="-7.4" x2="46.2" y2="-16.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="39.7" y1="7.4" x2="47.9" y2="19.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="0.0" y="5.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">C</tspan></text><text x="34.5" y="5.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">C</tspan></text><text x="-18.6" y="-21.4" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">Cl</tspan></text><text x="-18.6" y="31.4" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">H</tspan></text><text x="53.1" y="-21.4" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">Cl</tspan></text><text x="53.1" y="31.4" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">H</tspan></text></svg></p><p><strong>Y</strong></p><p><svg class="q-fig" viewBox="-33.1 -41.4 101 84" width="101" height="84" style="max-width:100%;height:auto" role="img" aria-label="Molecule Y: two carbon atoms joined by a double bond. One chlorine atom is drawn above the double bond on the left carbon and the other below it on the right carbon."><line x1="9.0" y1="-2.3" x2="25.5" y2="-2.3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="9.0" y1="2.3" x2="25.5" y2="2.3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="-5.2" y1="-7.4" x2="-11.7" y2="-16.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="-5.2" y1="7.4" x2="-13.4" y2="19.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="39.7" y1="-7.4" x2="47.9" y2="-19.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="39.7" y1="7.4" x2="46.2" y2="16.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="0.0" y="5.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">C</tspan></text><text x="34.5" y="5.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">C</tspan></text><text x="-18.6" y="-21.4" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">Cl</tspan></text><text x="-18.6" y="31.4" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">H</tspan></text><text x="53.1" y="-21.4" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">H</tspan></text><text x="53.1" y="31.4" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">Cl</tspan></text></svg></p><p>Which statement is correct?</p>
-      stem: "",
+      stem: "<p>X와 Y는 1,2-dichloroethene을 그린 두 그림이에요.</p><p><strong>X</strong></p><p><svg class=\"q-fig\" viewBox=\"-33.1 -41.4 101 84\" width=\"101\" height=\"84\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"분자 X: 두 탄소 원자가 이중 결합으로 이어져 있어요. 두 염소 원자는 모두 이중 결합 위쪽에, 두 수소 원자는 모두 아래쪽에 그려져 있어요.\"><line x1=\"9.0\" y1=\"-2.3\" x2=\"25.5\" y2=\"-2.3\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"9.0\" y1=\"2.3\" x2=\"25.5\" y2=\"2.3\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"-5.2\" y1=\"-7.4\" x2=\"-11.7\" y2=\"-16.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"-5.2\" y1=\"7.4\" x2=\"-13.4\" y2=\"19.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"39.7\" y1=\"-7.4\" x2=\"46.2\" y2=\"-16.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"39.7\" y1=\"7.4\" x2=\"47.9\" y2=\"19.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0.0\" y=\"5.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">C</tspan></text><text x=\"34.5\" y=\"5.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">C</tspan></text><text x=\"-18.6\" y=\"-21.4\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Cl</tspan></text><text x=\"-18.6\" y=\"31.4\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">H</tspan></text><text x=\"53.1\" y=\"-21.4\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Cl</tspan></text><text x=\"53.1\" y=\"31.4\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">H</tspan></text></svg></p><p><strong>Y</strong></p><p><svg class=\"q-fig\" viewBox=\"-33.1 -41.4 101 84\" width=\"101\" height=\"84\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"분자 Y: 두 탄소 원자가 이중 결합으로 이어져 있어요. 염소 원자 하나는 왼쪽 탄소의 이중 결합 위쪽에, 다른 하나는 오른쪽 탄소의 아래쪽에 그려져 있어요.\"><line x1=\"9.0\" y1=\"-2.3\" x2=\"25.5\" y2=\"-2.3\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"9.0\" y1=\"2.3\" x2=\"25.5\" y2=\"2.3\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"-5.2\" y1=\"-7.4\" x2=\"-11.7\" y2=\"-16.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"-5.2\" y1=\"7.4\" x2=\"-13.4\" y2=\"19.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"39.7\" y1=\"-7.4\" x2=\"47.9\" y2=\"-19.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"39.7\" y1=\"7.4\" x2=\"46.2\" y2=\"16.6\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0.0\" y=\"5.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">C</tspan></text><text x=\"34.5\" y=\"5.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">C</tspan></text><text x=\"-18.6\" y=\"-21.4\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Cl</tspan></text><text x=\"-18.6\" y=\"31.4\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">H</tspan></text><text x=\"53.1\" y=\"-21.4\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">H</tspan></text><text x=\"53.1\" y=\"31.4\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Cl</tspan></text></svg></p><p>옳은 설명은 무엇인가요?</p>",
       options: [
         // EN: X is the <i>cis</i> isomer and Y is the <i>trans</i> isomer.
-        "",
+        "X는 <i>cis</i> 이성질체이고 Y는 <i>trans</i> 이성질체예요.",
         // EN: X is the <i>trans</i> isomer and Y is the <i>cis</i> isomer.
-        "",
+        "X는 <i>trans</i> 이성질체이고 Y는 <i>cis</i> 이성질체예요.",
         // EN: X and Y are the same molecule, because one end can rotate about the C=C bond.
-        "",
+        "한쪽 끝이 C=C 결합을 축으로 회전할 수 있으므로 X와 Y는 같은 분자예요.",
         // EN: X and Y are structural isomers.
-        "",
+        "X와 Y는 구조 이성질체예요.",
       ],
       hints: [
         // EN: Find the two chlorine atoms in each drawing. Are they on the same side of the double bond or on opposite sides?
-        "",
+        "각 그림에서 두 염소 원자를 찾아보세요. 이중 결합의 같은 쪽에 있나요, 반대쪽에 있나요?",
         // EN: <i>Cis</i> = same side. <i>Trans</i> = opposite sides.
-        "",
+        "<i>Cis</i> = 같은 쪽. <i>Trans</i> = 반대쪽.",
       ],
       // EN: <p>In X both Cl atoms are on the same side of the C=C bond: this is the <i>cis</i> isomer. In Y they are on opposite sides: this is the <i>trans</i> isomer.</p><p>X and Y have the same connectivity but a different arrangement in space. They are stereoisomers, and they cannot interconvert because rotation about the double bond is restricted.</p>
-      solution: "",
+      solution: "<p>X에서는 두 Cl 원자가 C=C 결합의 같은 쪽에 있어요. 이것이 <i>cis</i> 이성질체예요. Y에서는 두 원자가 반대쪽에 있어요. 이것이 <i>trans</i> 이성질체예요.</p><p>X와 Y는 원자의 연결 순서는 같지만 공간 배열이 달라요. 둘은 입체 이성질체이고, 이중 결합을 축으로 한 회전이 제한되어 있어서 서로 바뀌지 않아요.</p>",
       misconception: {
         // EN (option B): The labels are the wrong way round. <i>Cis</i> means "on the same side". In X both chlorine atoms are on the same side of the double bond.
-        "1": "",
+        "1": "이름이 거꾸로 붙었어요. <i>Cis</i>는 “같은 쪽에”라는 뜻이에요. X에서는 두 염소 원자가 모두 이중 결합의 같은 쪽에 있어요.",
         // EN (option C): Rotation about a C=C double bond is restricted, because it would break the π bond. So X cannot turn into Y at room temperature.
-        "2": "",
+        "2": "C=C 이중 결합을 축으로 한 회전은 제한되어 있어요. 회전하려면 π 결합이 끊어져야 하기 때문이에요. 그래서 실온에서 X는 Y로 바뀔 수 없어요.",
         // EN (option D): Structural isomers have different connectivity. In X and in Y each carbon is bonded to one H, one Cl and the other carbon. Only the arrangement in space differs, so they are stereoisomers.
-        "3": "",
+        "3": "구조 이성질체는 원자의 연결 순서가 달라요. X와 Y 모두 각 탄소가 H 하나, Cl 하나, 그리고 다른 탄소와 결합해 있어요. 공간 배열만 다르므로 둘은 입체 이성질체예요.",
       },
     },
 
     // ── s3-2h-q003 · multi · exam · AHL · Structure 3.2.7 · 1 mark
     "s3-2h-q003": {
       // EN: <p>Which of these compounds can exist as <i>cis</i> and <i>trans</i> isomers? Select <strong>all</strong> that apply.</p>
-      stem: "",
+      stem: "<p>다음 화합물 중 <i>cis</i> 이성질체와 <i>trans</i> 이성질체로 존재할 수 있는 것은 무엇인가요? 해당하는 것을 <strong>모두</strong> 고르세요.</p>",
       options: [
         // EN: 1,2-dimethylcyclopropane (one methyl group on each of two ring carbons)
-        "",
+        "1,2-dimethylcyclopropane(고리의 두 탄소에 메틸기가 하나씩 있음)",
         // EN: 1,1-dimethylcyclobutane (both methyl groups on the same ring carbon)
-        "",
+        "1,1-dimethylcyclobutane(두 메틸기가 모두 고리의 같은 탄소에 있음)",
         // EN: pent-2-ene, <span class="chem">CH<sub>3</sub>CH=CHCH<sub>2</sub>CH<sub>3</sub><span></span></span>
-        "",
+        "pent-2-ene, <span class=\"chem\">CH<sub>3</sub>CH=CHCH<sub>2</sub>CH<sub>3</sub><span></span></span>",
         // EN: 2-methylbut-2-ene, <span class="chem">CH<sub>3</sub>CH=C(CH<sub>3</sub>)<sub>2</sub><span></span></span>
-        "",
+        "2-methylbut-2-ene, <span class=\"chem\">CH<sub>3</sub>CH=C(CH<sub>3</sub>)<sub>2</sub><span></span></span>",
         // EN: 1,3-dimethylcyclobutane (methyl groups on opposite corners of the ring)
-        "",
+        "1,3-dimethylcyclobutane(메틸기가 고리의 마주 보는 꼭짓점에 있음)",
       ],
       hints: [
         // EN: A ring stops rotation in the same way as a double bond.
-        "",
+        "고리는 이중 결합과 같은 방식으로 회전을 막아요.",
         // EN: In a ring you need two different ring carbons that each hold a substituent and a hydrogen atom. In an alkene each carbon of C=C needs two different groups.
-        "",
+        "고리에서는 서로 다른 두 고리 탄소가 각각 치환기 하나와 수소 원자 하나를 가져야 해요. 알켄에서는 C=C의 각 탄소가 서로 다른 두 원자단을 가져야 해요.",
       ],
       // EN: <p>Two things are needed: restricted rotation (a C=C bond or a ring) and two different groups on each of two carbon atoms.</p><ul><li>1,2-dimethylcyclopropane: yes. The two methyl groups can be on the same face of the ring (<i>cis</i>) or on opposite faces (<i>trans</i>).</li><li>1,1-dimethylcyclobutane: no. Both groups are on one carbon.</li><li>pent-2-ene: yes. One carbon of C=C holds H and <span class="chem">CH<sub>3</sub><span></span></span>, the other holds H and <span class="chem">CH<sub>2</sub>CH<sub>3</sub><span></span></span>.</li><li>2-methylbut-2-ene: no. One carbon of C=C holds two <span class="chem">CH<sub>3</sub><span></span></span> groups.</li><li>1,3-dimethylcyclobutane: yes. The methyl groups are on two different ring carbons, so they can be on the same face or on opposite faces.</li></ul>
-      solution: "",
+      solution: "<p>두 가지가 필요해요. 회전이 제한되어야 하고(C=C 결합이나 고리), 두 탄소 원자에 각각 서로 다른 두 원자단이 붙어 있어야 해요.</p><ul><li>1,2-dimethylcyclopropane: 예. 두 메틸기가 고리의 같은 면(<i>cis</i>)에 있을 수도 있고 반대 면(<i>trans</i>)에 있을 수도 있어요.</li><li>1,1-dimethylcyclobutane: 아니요. 두 원자단이 모두 한 탄소에 있어요.</li><li>pent-2-ene: 예. C=C의 한 탄소에는 H와 <span class=\"chem\">CH<sub>3</sub><span></span></span>가, 다른 탄소에는 H와 <span class=\"chem\">CH<sub>2</sub>CH<sub>3</sub><span></span></span>가 붙어 있어요.</li><li>2-methylbut-2-ene: 아니요. C=C의 한 탄소에 <span class=\"chem\">CH<sub>3</sub><span></span></span> 원자단이 두 개 붙어 있어요.</li><li>1,3-dimethylcyclobutane: 예. 메틸기가 서로 다른 두 고리 탄소에 있으므로 같은 면에 있을 수도, 반대 면에 있을 수도 있어요.</li></ul>",
       misconception: {
         // EN (option B): In 1,1-dimethylcyclobutane both methyl groups are on the same carbon. One is above the ring and one below it in every case, so there is only one arrangement.
-        "1": "",
+        "1": "1,1-dimethylcyclobutane에서는 두 메틸기가 같은 탄소에 있어요. 어떤 경우든 하나는 고리 위에, 하나는 고리 아래에 있으므로 배열이 한 가지뿐이에요.",
         // EN (option D): In 2-methylbut-2-ene one carbon of the double bond holds two methyl groups. Swapping two identical groups gives the same molecule.
-        "3": "",
+        "3": "2-methylbut-2-ene에서는 이중 결합의 한 탄소에 메틸기가 두 개 붙어 있어요. 똑같은 두 원자단을 서로 바꾸면 같은 분자가 돼요.",
       },
     },
 
     // ── s3-2h-q004 · short · exam · AHL · Structure 3.2.7 · 2 marks
     "s3-2h-q004": {
       // EN: <p>But-2-ene, <span class="chem">CH<sub>3</sub>CH=CHCH<sub>3</sub><span></span></span>, exists as <i>cis</i> and <i>trans</i> isomers. But-1-ene, <span class="chem">CH<sub>2</sub>=CHCH<sub>2</sub>CH<sub>3</sub><span></span></span>, does not.</p><p>Explain both facts.</p>
-      stem: "",
+      stem: "<p>But-2-ene, <span class=\"chem\">CH<sub>3</sub>CH=CHCH<sub>3</sub><span></span></span>는 <i>cis</i> 이성질체와 <i>trans</i> 이성질체로 존재해요. But-1-ene, <span class=\"chem\">CH<sub>2</sub>=CHCH<sub>2</sub>CH<sub>3</sub><span></span></span>는 그렇지 않아요.</p><p>두 사실을 모두 설명하시오 (explain).</p>",
       hints: [
         // EN: Start with rotation. What is special about a double bond?
-        "",
+        "회전부터 생각해 보세요. 이중 결합은 무엇이 특별한가요?",
         // EN: Then compare what is attached to each carbon of the C=C in the two molecules.
-        "",
+        "그다음 두 분자에서 C=C의 각 탄소에 무엇이 붙어 있는지 비교해 보세요.",
       ],
       // EN: <p>The mark-earning phrases are "restricted rotation about the double bond" and "two different groups on each carbon of the double bond". Writing only "the groups are on different sides" describes the isomers but does not explain them.</p>
-      solution: "",
+      solution: "<p>점수를 받는 표현은 “이중 결합을 축으로 한 회전이 제한됨”과 “이중 결합의 각 탄소에 서로 다른 두 원자단이 있음”이에요. “원자단이 서로 다른 쪽에 있다”라고만 쓰면 이성질체를 묘사할 뿐 설명하지는 못해요.</p>",
       // EN: <p>There is no free rotation about the C=C double bond (rotation is restricted). In but-2-ene each carbon atom of the double bond is bonded to two different groups (H and <span class="chem">CH<sub>3</sub><span></span></span>), so the two <span class="chem">CH<sub>3</sub><span></span></span> groups can be fixed on the same side or on opposite sides. In but-1-ene one carbon of the double bond is bonded to two identical atoms (two H), so swapping them gives the same molecule.</p>
-      answer: "",
+      answer: "<p>C=C 이중 결합을 축으로 한 자유 회전이 없어요(회전이 제한됨). but-2-ene에서는 이중 결합의 각 탄소 원자가 서로 다른 두 원자단(H와 <span class=\"chem\">CH<sub>3</sub><span></span></span>)과 결합해 있으므로, 두 <span class=\"chem\">CH<sub>3</sub><span></span></span> 원자단이 같은 쪽 또는 반대쪽에 고정될 수 있어요. but-1-ene에서는 이중 결합의 한 탄소가 똑같은 두 원자(H 두 개)와 결합해 있어서, 이 둘을 바꿔도 같은 분자가 돼요.</p>",
       markscheme: [
         // EN: Restricted rotation / no free rotation about the C=C (double) bond.
-        "",
+        "C=C (이중) 결합을 축으로 한 회전이 제한됨 / 자유 회전이 없음.",
         // EN: But-2-ene: each carbon of the double bond has two different atoms or groups attached (H and CH₃). But-1-ene: one carbon of the double bond has two identical atoms attached (two H). Both needed for the mark.
-        "",
+        "but-2-ene: 이중 결합의 각 탄소에 서로 다른 두 원자 또는 원자단(H와 CH₃)이 붙어 있음. but-1-ene: 이중 결합의 한 탄소에 똑같은 두 원자(H 두 개)가 붙어 있음. 둘 다 써야 점수를 받음.",
       ],
     },
 
     // ── s3-2h-q005 · mcq · exam · AHL · Structure 3.2.7 · 1 mark
     "s3-2h-q005": {
       // EN: <p>In these drawings a solid wedge is a bond coming towards you, in front of the ring. A hashed wedge is a bond going away from you, behind the ring.</p><p>Which drawing shows <i>trans</i>-1,2-dichlorocyclopropane?</p>
-      stem: "",
+      stem: "<p>이 그림에서 실선 쐐기는 내 쪽으로, 즉 고리 앞으로 나오는 결합이에요. 점선 쐐기는 나에게서 멀어지는, 즉 고리 뒤로 가는 결합이에요.</p><p><i>trans</i>-1,2-dichlorocyclopropane을 나타낸 그림은 무엇인가요?</p>",
       options: [
         // EN: <svg class="q-fig" viewBox="-32.5 -32.1 95 73" width="95" height="73" style="max-width:100%;height:auto" role="img" aria-label="Three-membered carbon ring. Two different ring carbons each carry a chlorine atom. Both chlorine atoms are on solid wedge bonds."><line x1="0.0" y1="0.0" x2="30.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="30.0" y1="0.0" x2="15.0" y2="-26.1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="15.0" y1="-26.1" x2="0.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><polygon points="0.0,0.0 -13.7,12.2 -7.9,16.6" fill="currentColor" stroke="currentColor" stroke-width="0.8" stroke-linejoin="round"/><polygon points="30.0,0.0 37.9,16.6 43.7,12.2" fill="currentColor" stroke="currentColor" stroke-width="0.8" stroke-linejoin="round"/><text x="-18.0" y="29.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">Cl</tspan></text><text x="48.0" y="29.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">Cl</tspan></text></svg>
-        "",
+        "<svg class=\"q-fig\" viewBox=\"-32.5 -32.1 95 73\" width=\"95\" height=\"73\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"탄소 3개로 된 고리. 서로 다른 두 고리 탄소에 염소 원자가 하나씩 있어요. 두 염소 원자 모두 실선 쐐기 결합에 있어요.\"><line x1=\"0.0\" y1=\"0.0\" x2=\"30.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"30.0\" y1=\"0.0\" x2=\"15.0\" y2=\"-26.1\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"15.0\" y1=\"-26.1\" x2=\"0.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><polygon points=\"0.0,0.0 -13.7,12.2 -7.9,16.6\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-linejoin=\"round\"/><polygon points=\"30.0,0.0 37.9,16.6 43.7,12.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-linejoin=\"round\"/><text x=\"-18.0\" y=\"29.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Cl</tspan></text><text x=\"48.0\" y=\"29.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Cl</tspan></text></svg>",
         // EN: <svg class="q-fig" viewBox="-43.0 -32.1 79 77" width="79" height="77" style="max-width:100%;height:auto" role="img" aria-label="Three-membered carbon ring. One ring carbon carries two chlorine atoms, one on a solid wedge bond and one on a hashed wedge bond."><line x1="0.0" y1="0.0" x2="30.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="30.0" y1="0.0" x2="15.0" y2="-26.1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="15.0" y1="-26.1" x2="0.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><polygon points="0.0,0.0 -17.2,-0.9 -16.1,6.2" fill="currentColor" stroke="currentColor" stroke-width="0.8" stroke-linejoin="round"/><line x1="-2.0" y1="2.5" x2="0.2" y2="3.2" stroke="currentColor" stroke-width="1.3"/><line x1="-3.4" y1="5.2" x2="-0.2" y2="6.2" stroke="currentColor" stroke-width="1.3"/><line x1="-4.8" y1="7.9" x2="-0.6" y2="9.2" stroke="currentColor" stroke-width="1.3"/><line x1="-6.2" y1="10.5" x2="-1.0" y2="12.2" stroke="currentColor" stroke-width="1.3"/><line x1="-7.6" y1="13.2" x2="-1.4" y2="15.2" stroke="currentColor" stroke-width="1.3"/><line x1="-9.0" y1="15.9" x2="-1.8" y2="18.2" stroke="currentColor" stroke-width="1.3"/><text x="-28.5" y="9.5" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">Cl</tspan></text><text x="-9.0" y="33.5" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">Cl</tspan></text></svg>
-        "",
+        "<svg class=\"q-fig\" viewBox=\"-43.0 -32.1 79 77\" width=\"79\" height=\"77\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"탄소 3개로 된 고리. 한 고리 탄소에 염소 원자 두 개가 있는데, 하나는 실선 쐐기 결합에, 하나는 점선 쐐기 결합에 있어요.\"><line x1=\"0.0\" y1=\"0.0\" x2=\"30.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"30.0\" y1=\"0.0\" x2=\"15.0\" y2=\"-26.1\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"15.0\" y1=\"-26.1\" x2=\"0.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><polygon points=\"0.0,0.0 -17.2,-0.9 -16.1,6.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-linejoin=\"round\"/><line x1=\"-2.0\" y1=\"2.5\" x2=\"0.2\" y2=\"3.2\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"-3.4\" y1=\"5.2\" x2=\"-0.2\" y2=\"6.2\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"-4.8\" y1=\"7.9\" x2=\"-0.6\" y2=\"9.2\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"-6.2\" y1=\"10.5\" x2=\"-1.0\" y2=\"12.2\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"-7.6\" y1=\"13.2\" x2=\"-1.4\" y2=\"15.2\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"-9.0\" y1=\"15.9\" x2=\"-1.8\" y2=\"18.2\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"-28.5\" y=\"9.5\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Cl</tspan></text><text x=\"-9.0\" y=\"33.5\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Cl</tspan></text></svg>",
         // EN: <svg class="q-fig" viewBox="-32.5 -32.1 95 73" width="95" height="73" style="max-width:100%;height:auto" role="img" aria-label="Three-membered carbon ring. Two different ring carbons each carry a chlorine atom. One chlorine is on a solid wedge bond and the other is on a hashed wedge bond."><line x1="0.0" y1="0.0" x2="30.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="30.0" y1="0.0" x2="15.0" y2="-26.1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="15.0" y1="-26.1" x2="0.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><polygon points="0.0,0.0 -13.7,12.2 -7.9,16.6" fill="currentColor" stroke="currentColor" stroke-width="0.8" stroke-linejoin="round"/><line x1="30.9" y1="3.1" x2="32.7" y2="1.7" stroke="currentColor" stroke-width="1.3"/><line x1="32.3" y1="5.8" x2="34.9" y2="3.8" stroke="currentColor" stroke-width="1.3"/><line x1="33.6" y1="8.5" x2="37.2" y2="5.9" stroke="currentColor" stroke-width="1.3"/><line x1="35.0" y1="11.2" x2="39.4" y2="8.0" stroke="currentColor" stroke-width="1.3"/><line x1="36.4" y1="14.0" x2="41.6" y2="10.0" stroke="currentColor" stroke-width="1.3"/><line x1="37.8" y1="16.7" x2="43.8" y2="12.1" stroke="currentColor" stroke-width="1.3"/><text x="-18.0" y="29.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">Cl</tspan></text><text x="48.0" y="29.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">Cl</tspan></text></svg>
-        "",
+        "<svg class=\"q-fig\" viewBox=\"-32.5 -32.1 95 73\" width=\"95\" height=\"73\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"탄소 3개로 된 고리. 서로 다른 두 고리 탄소에 염소 원자가 하나씩 있어요. 한 염소는 실선 쐐기 결합에, 다른 염소는 점선 쐐기 결합에 있어요.\"><line x1=\"0.0\" y1=\"0.0\" x2=\"30.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"30.0\" y1=\"0.0\" x2=\"15.0\" y2=\"-26.1\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"15.0\" y1=\"-26.1\" x2=\"0.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><polygon points=\"0.0,0.0 -13.7,12.2 -7.9,16.6\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-linejoin=\"round\"/><line x1=\"30.9\" y1=\"3.1\" x2=\"32.7\" y2=\"1.7\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"32.3\" y1=\"5.8\" x2=\"34.9\" y2=\"3.8\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"33.6\" y1=\"8.5\" x2=\"37.2\" y2=\"5.9\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"35.0\" y1=\"11.2\" x2=\"39.4\" y2=\"8.0\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"36.4\" y1=\"14.0\" x2=\"41.6\" y2=\"10.0\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"37.8\" y1=\"16.7\" x2=\"43.8\" y2=\"12.1\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"-18.0\" y=\"29.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Cl</tspan></text><text x=\"48.0\" y=\"29.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Cl</tspan></text></svg>",
         // EN: <svg class="q-fig" viewBox="-34.0 -36.0 98 72" width="98" height="72" style="max-width:100%;height:auto" role="img" aria-label="Four-membered carbon ring. Two neighbouring ring carbons each carry a chlorine atom. One chlorine is on a solid wedge bond and the other is on a hashed wedge bond."><line x1="0.0" y1="0.0" x2="30.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="30.0" y1="0.0" x2="30.0" y2="-30.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="30.0" y1="-30.0" x2="0.0" y2="-30.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="0.0" y1="-30.0" x2="0.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><polygon points="0.0,0.0 -13.6,8.5 -8.5,13.6" fill="currentColor" stroke="currentColor" stroke-width="0.8" stroke-linejoin="round"/><line x1="31.0" y1="2.6" x2="32.6" y2="1.0" stroke="currentColor" stroke-width="1.3"/><line x1="32.5" y1="4.9" x2="34.9" y2="2.5" stroke="currentColor" stroke-width="1.3"/><line x1="34.0" y1="7.1" x2="37.1" y2="4.0" stroke="currentColor" stroke-width="1.3"/><line x1="35.4" y1="9.3" x2="39.3" y2="5.4" stroke="currentColor" stroke-width="1.3"/><line x1="36.9" y1="11.5" x2="41.5" y2="6.9" stroke="currentColor" stroke-width="1.3"/><line x1="38.3" y1="13.7" x2="43.7" y2="8.3" stroke="currentColor" stroke-width="1.3"/><text x="-19.5" y="24.5" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">Cl</tspan></text><text x="49.5" y="24.5" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">Cl</tspan></text></svg>
-        "",
+        "<svg class=\"q-fig\" viewBox=\"-34.0 -36.0 98 72\" width=\"98\" height=\"72\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"탄소 4개로 된 고리. 이웃한 두 고리 탄소에 염소 원자가 하나씩 있어요. 한 염소는 실선 쐐기 결합에, 다른 염소는 점선 쐐기 결합에 있어요.\"><line x1=\"0.0\" y1=\"0.0\" x2=\"30.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"30.0\" y1=\"0.0\" x2=\"30.0\" y2=\"-30.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"30.0\" y1=\"-30.0\" x2=\"0.0\" y2=\"-30.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"0.0\" y1=\"-30.0\" x2=\"0.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><polygon points=\"0.0,0.0 -13.6,8.5 -8.5,13.6\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-linejoin=\"round\"/><line x1=\"31.0\" y1=\"2.6\" x2=\"32.6\" y2=\"1.0\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"32.5\" y1=\"4.9\" x2=\"34.9\" y2=\"2.5\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"34.0\" y1=\"7.1\" x2=\"37.1\" y2=\"4.0\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"35.4\" y1=\"9.3\" x2=\"39.3\" y2=\"5.4\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"36.9\" y1=\"11.5\" x2=\"41.5\" y2=\"6.9\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"38.3\" y1=\"13.7\" x2=\"43.7\" y2=\"8.3\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"-19.5\" y=\"24.5\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Cl</tspan></text><text x=\"49.5\" y=\"24.5\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Cl</tspan></text></svg>",
       ],
       hints: [
         // EN: Check the ring size first. Cyclopropane has three carbon atoms.
-        "",
+        "먼저 고리의 크기를 확인하세요. cyclopropane은 탄소 원자가 3개예요.",
         // EN: <i>Trans</i> means the two chlorine atoms are on opposite faces of the ring: one in front, one behind.
-        "",
+        "<i>Trans</i>는 두 염소 원자가 고리의 반대 면에 있다는 뜻이에요. 하나는 앞에, 하나는 뒤에 있어요.",
       ],
       // EN: <p>1,2-dichlorocyclopropane has a three-membered ring with one Cl on each of two ring carbons. In the <i>trans</i> isomer one Cl is in front of the ring (solid wedge) and the other is behind it (hashed wedge).</p><p>The ring stops rotation about its carbon–carbon bonds, so the <i>cis</i> and <i>trans</i> forms are different molecules.</p>
-      solution: "",
+      solution: "<p>1,2-dichlorocyclopropane은 탄소 3개로 된 고리에서 두 고리 탄소에 Cl이 하나씩 있어요. <i>trans</i> 이성질체에서는 Cl 하나가 고리 앞(실선 쐐기)에, 다른 하나가 고리 뒤(점선 쐐기)에 있어요.</p><p>고리는 탄소–탄소 결합을 축으로 한 회전을 막으므로 <i>cis</i>형과 <i>trans</i>형은 서로 다른 분자예요.</p>",
       misconception: {
         // EN (option A): Both chlorine atoms are on solid wedges, so both are in front of the ring, on the same face. This is the <i>cis</i> isomer.
-        "0": "",
+        "0": "두 염소 원자가 모두 실선 쐐기에 있으므로 둘 다 고리 앞, 즉 같은 면에 있어요. 이것은 <i>cis</i> 이성질체예요.",
         // EN (option B): Here both chlorine atoms are on the same carbon. This is 1,1-dichlorocyclopropane, a structural isomer that has no <i>cis–trans</i> isomers.
-        "1": "",
+        "1": "여기서는 두 염소 원자가 같은 탄소에 있어요. 이것은 1,1-dichlorocyclopropane이에요. <i>cis–trans</i> 이성질체가 없는 구조 이성질체예요.",
         // EN (option D): The chlorine atoms are <i>trans</i>, but count the ring carbons. This ring has four corners, so it is a cyclobutane.
-        "3": "",
+        "3": "염소 원자는 <i>trans</i>이지만 고리 탄소의 수를 세어 보세요. 이 고리는 꼭짓점이 4개이므로 cyclobutane이에요.",
       },
     },
 
     // ── s3-2h-q006 · mcq · foundation · AHL · Structure 3.2.7 · 1 mark
     "s3-2h-q006": {
       // EN: <p>What is a chiral carbon atom?</p>
-      stem: "",
+      stem: "<p>카이랄 탄소 원자란 무엇인가요?</p>",
       options: [
         // EN: A carbon atom bonded to four different atoms or groups
-        "",
+        "서로 다른 네 원자 또는 원자단과 결합한 탄소 원자",
         // EN: A carbon atom that is part of a C=C double bond
-        "",
+        "C=C 이중 결합의 일부인 탄소 원자",
         // EN: A carbon atom bonded to two different atoms or groups
-        "",
+        "서로 다른 두 원자 또는 원자단과 결합한 탄소 원자",
         // EN: A carbon atom that rotates plane-polarised light
-        "",
+        "평면 편광을 회전시키는 탄소 원자",
       ],
       hints: [
         // EN: Think about how many bonds the carbon has and what is at the end of each one.
-        "",
+        "탄소가 결합을 몇 개 가지는지, 각 결합 끝에 무엇이 있는지 생각해 보세요.",
       ],
       // EN: <p>A chiral carbon is bonded to <strong>four different atoms or groups</strong>, arranged tetrahedrally. A molecule with one chiral carbon cannot be superimposed on its mirror image, so it exists as two enantiomers.</p>
-      solution: "",
+      solution: "<p>카이랄 탄소는 <strong>서로 다른 네 원자 또는 원자단</strong>과 결합해 있고, 이들은 정사면체 모양으로 배열되어 있어요. 카이랄 탄소가 하나 있는 분자는 거울상과 겹쳐지지 않으므로 두 거울상 이성질체로 존재해요.</p>",
       misconception: {
         // EN (option B): A carbon in a C=C bond has only three atoms attached. It can be part of <i>cis–trans</i> isomerism, but it cannot be a chiral carbon.
-        "1": "",
+        "1": "C=C 결합의 탄소에는 원자가 3개만 붙어 있어요. <i>cis–trans</i> 이성질 현상에는 관여할 수 있지만 카이랄 탄소는 될 수 없어요.",
         // EN (option C): Two different groups are not enough. If any two of the four groups are the same, the molecule and its mirror image can be superimposed.
-        "2": "",
+        "2": "서로 다른 원자단 두 개로는 부족해요. 네 원자단 중 어느 두 개라도 같으면 분자와 그 거울상을 겹칠 수 있어요.",
         // EN (option D): This describes an effect, not the structure. Exam markschemes reject answers that only mention optical properties. State what is bonded to the carbon.
-        "3": "",
+        "3": "이것은 구조가 아니라 효과를 말하고 있어요. 시험 채점 기준은 광학적 성질만 언급한 답을 인정하지 않아요. 탄소에 무엇이 결합해 있는지 쓰세요.",
       },
     },
 
     // ── s3-2h-q007 · mcq · foundation · AHL · Structure 3.2.7 · 1 mark
     "s3-2h-q007": {
       // EN: <p>Which molecule contains a chiral carbon atom?</p>
-      stem: "",
+      stem: "<p>카이랄 탄소 원자를 가진 분자는 무엇인가요?</p>",
       options: [
         // EN: <span class="chem">CH<sub>3</sub>CH(OH)CH<sub>3</sub><span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH(OH)CH<sub>3</sub><span></span></span>",
         // EN: <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH<span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH<span></span></span>",
         // EN: <span class="chem">CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub><span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub><span></span></span>",
         // EN: <span class="chem">(CH<sub>3</sub>)<sub>3</sub>COH<span></span></span>
-        "",
+        "<span class=\"chem\">(CH<sub>3</sub>)<sub>3</sub>COH<span></span></span>",
       ],
       hints: [
         // EN: A carbon in a <span class="chem">CH<sub>3</sub><span></span></span> or <span class="chem">CH<sub>2</sub><span></span></span> group can never be chiral. Look only at carbons with one H or no H.
-        "",
+        "<span class=\"chem\">CH<sub>3</sub><span></span></span> 또는 <span class=\"chem\">CH<sub>2</sub><span></span></span> 원자단의 탄소는 절대 카이랄일 수 없어요. H가 하나이거나 없는 탄소만 살펴보세요.",
         // EN: Write down the four groups on that carbon. Are all four different?
-        "",
+        "그 탄소에 붙은 네 원자단을 적어 보세요. 네 개가 모두 다른가요?",
       ],
       // EN: <p>In butan-2-ol, <span class="chem">CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub><span></span></span>, carbon 2 is bonded to four different groups: H, OH, <span class="chem">CH<sub>3</sub><span></span></span> and <span class="chem">CH<sub>2</sub>CH<sub>3</sub><span></span></span>. It is a chiral carbon.</p>
-      solution: "",
+      solution: "<p>butan-2-ol, <span class=\"chem\">CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub><span></span></span>에서 2번 탄소는 서로 다른 네 원자단 H, OH, <span class=\"chem\">CH<sub>3</sub><span></span></span>, <span class=\"chem\">CH<sub>2</sub>CH<sub>3</sub><span></span></span>와 결합해 있어요. 이 탄소가 카이랄 탄소예요.</p>",
       misconception: {
         // EN (option A): In propan-2-ol the middle carbon holds H, OH and two <span class="chem">CH<sub>3</sub><span></span></span> groups. Two of its four groups are the same.
-        "0": "",
+        "0": "propan-2-ol에서 가운데 탄소에는 H, OH, 그리고 <span class=\"chem\">CH<sub>3</sub><span></span></span> 원자단 두 개가 붙어 있어요. 네 원자단 중 두 개가 같아요.",
         // EN (option B): In butan-1-ol every carbon atom holds at least two hydrogen atoms, so no carbon has four different groups.
-        "1": "",
+        "1": "butan-1-ol에서는 모든 탄소 원자에 수소 원자가 두 개 이상 붙어 있으므로, 서로 다른 네 원자단을 가진 탄소가 없어요.",
         // EN (option D): In 2-methylpropan-2-ol the central carbon holds OH and three identical <span class="chem">CH<sub>3</sub><span></span></span> groups.
-        "3": "",
+        "3": "2-methylpropan-2-ol에서 가운데 탄소에는 OH와 똑같은 <span class=\"chem\">CH<sub>3</sub><span></span></span> 원자단 세 개가 붙어 있어요.",
       },
     },
 
     // ── s3-2h-q008 · numeric · exam · AHL · Structure 3.2.7 · 1 mark
     "s3-2h-q008": {
       // EN: <p>The skeletal formula of a compound is shown.</p><p><svg class="q-fig" viewBox="-6.0 -45.0 156 106" width="156" height="106" style="max-width:100%;height:auto" role="img" aria-label="Skeletal formula: a zig-zag chain of five carbon atoms. Carbons 2, 3 and 4 each carry an OH group. Carbon 5 is joined to an OH group at the end of the chain. Carbon 1 is a methyl group."><line x1="0.0" y1="15.0" x2="26.1" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="26.1" y1="0.0" x2="51.9" y2="15.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="51.9" y1="15.0" x2="78.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="78.0" y1="0.0" x2="103.8" y2="15.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="103.8" y1="15.0" x2="122.1" y2="4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="26.1" y1="0.0" x2="26.1" y2="-21.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="51.9" y1="15.0" x2="51.9" y2="36.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="78.0" y1="0.0" x2="78.0" y2="-21.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="123.9" y="5.0" text-anchor="start" font-size="14" fill="currentColor"><tspan dy="0">OH</tspan></text><text x="20.1" y="-25.0" text-anchor="start" font-size="14" fill="currentColor"><tspan dy="0">OH</tspan></text><text x="45.9" y="50.0" text-anchor="start" font-size="14" fill="currentColor"><tspan dy="0">OH</tspan></text><text x="72.0" y="-25.0" text-anchor="start" font-size="14" fill="currentColor"><tspan dy="0">OH</tspan></text></svg></p><p>How many chiral carbon atoms does one molecule contain?</p>
-      stem: "",
+      stem: "<p>어떤 화합물의 골격 구조식이 나와 있어요.</p><p><svg class=\"q-fig\" viewBox=\"-6.0 -45.0 156 106\" width=\"156\" height=\"106\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"골격 구조식: 탄소 원자 5개로 된 지그재그 사슬. 2번, 3번, 4번 탄소에 각각 OH기가 있어요. 5번 탄소는 사슬 끝에서 OH기와 이어져 있어요. 1번 탄소는 메틸기예요.\"><line x1=\"0.0\" y1=\"15.0\" x2=\"26.1\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"26.1\" y1=\"0.0\" x2=\"51.9\" y2=\"15.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"51.9\" y1=\"15.0\" x2=\"78.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"78.0\" y1=\"0.0\" x2=\"103.8\" y2=\"15.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"103.8\" y1=\"15.0\" x2=\"122.1\" y2=\"4.5\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"26.1\" y1=\"0.0\" x2=\"26.1\" y2=\"-21.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"51.9\" y1=\"15.0\" x2=\"51.9\" y2=\"36.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"78.0\" y1=\"0.0\" x2=\"78.0\" y2=\"-21.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"123.9\" y=\"5.0\" text-anchor=\"start\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">OH</tspan></text><text x=\"20.1\" y=\"-25.0\" text-anchor=\"start\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">OH</tspan></text><text x=\"45.9\" y=\"50.0\" text-anchor=\"start\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">OH</tspan></text><text x=\"72.0\" y=\"-25.0\" text-anchor=\"start\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">OH</tspan></text></svg></p><p>분자 하나에 카이랄 탄소 원자는 몇 개 있나요?</p>",
       hints: [
         // EN: Number the five carbon atoms. Each corner and each line end is a carbon. Add the hydrogen atoms in your head.
-        "",
+        "탄소 원자 5개에 번호를 붙이세요. 꺾인 곳과 선의 끝은 모두 탄소예요. 수소 원자는 머릿속으로 채워 넣으세요.",
         // EN: The two end carbons are <span class="chem">CH<sub>3</sub><span></span></span> and <span class="chem">CH<sub>2</sub>OH<span></span></span>. Can a carbon with two or three H atoms be chiral?
-        "",
+        "양 끝 탄소는 <span class=\"chem\">CH<sub>3</sub><span></span></span>와 <span class=\"chem\">CH<sub>2</sub>OH<span></span></span>예요. H 원자가 2개나 3개인 탄소가 카이랄일 수 있을까요?",
         // EN: For each of the three middle carbons, list the four groups: H, OH, the chain to the left, the chain to the right.
-        "",
+        "가운데 탄소 3개 각각에 대해 네 원자단을 나열하세요. H, OH, 왼쪽 사슬, 오른쪽 사슬이에요.",
       ],
       // EN: <p>The molecule is <span class="chem">CH<sub>3</sub>CH(OH)CH(OH)CH(OH)CH<sub>2</sub>OH<span></span></span>.</p><ul><li>The <span class="chem">CH<sub>3</sub><span></span></span> carbon has three H atoms and the <span class="chem">CH<sub>2</sub>OH<span></span></span> carbon has two H atoms: not chiral.</li><li>Each of the three CH(OH) carbons holds H, OH and two <strong>different</strong> chains. For the middle one, the chain on one side is <span class="chem">CH(OH)CH<sub>3</sub><span></span></span> and on the other side <span class="chem">CH(OH)CH<sub>2</sub>OH<span></span></span>.</li></ul><p>So there are <strong>3</strong> chiral carbon atoms.</p>
-      solution: "",
+      solution: "<p>이 분자는 <span class=\"chem\">CH<sub>3</sub>CH(OH)CH(OH)CH(OH)CH<sub>2</sub>OH<span></span></span>예요.</p><ul><li><span class=\"chem\">CH<sub>3</sub><span></span></span> 탄소에는 H 원자가 3개, <span class=\"chem\">CH<sub>2</sub>OH<span></span></span> 탄소에는 H 원자가 2개 있어요. 카이랄이 아니에요.</li><li>CH(OH) 탄소 3개는 각각 H, OH, 그리고 <strong>서로 다른</strong> 두 사슬을 가져요. 가운데 탄소의 경우, 한쪽 사슬은 <span class=\"chem\">CH(OH)CH<sub>3</sub><span></span></span>이고 다른 쪽은 <span class=\"chem\">CH(OH)CH<sub>2</sub>OH<span></span></span>예요.</li></ul><p>따라서 카이랄 탄소 원자는 <strong>3</strong>개예요.</p>",
     },
 
     // ── s3-2h-q009 · numeric · challenge · AHL · Structure 3.2.7 · 1 mark
     "s3-2h-q009": {
       // EN: <p>The skeletal formula of a compound is shown.</p><p><svg class="q-fig" viewBox="-6.0 -45.0 116 106" width="116" height="106" style="max-width:100%;height:auto" role="img" aria-label="Skeletal formula: a zig-zag chain of five carbon atoms. Carbon 2 and carbon 3 each carry an OH group. Carbon 4 carries a methyl branch, drawn as a plain line."><line x1="0.0" y1="15.0" x2="26.1" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="26.1" y1="0.0" x2="51.9" y2="15.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="51.9" y1="15.0" x2="78.0" y2="0.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="78.0" y1="0.0" x2="103.8" y2="15.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="26.1" y1="0.0" x2="26.1" y2="-21.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="51.9" y1="15.0" x2="51.9" y2="36.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="78.0" y1="0.0" x2="78.0" y2="-30.0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><text x="20.1" y="-25.0" text-anchor="start" font-size="14" fill="currentColor"><tspan dy="0">OH</tspan></text><text x="45.9" y="50.0" text-anchor="start" font-size="14" fill="currentColor"><tspan dy="0">OH</tspan></text></svg></p><p>How many chiral carbon atoms does one molecule contain?</p>
-      stem: "",
+      stem: "<p>어떤 화합물의 골격 구조식이 나와 있어요.</p><p><svg class=\"q-fig\" viewBox=\"-6.0 -45.0 116 106\" width=\"116\" height=\"106\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"골격 구조식: 탄소 원자 5개로 된 지그재그 사슬. 2번 탄소와 3번 탄소에 각각 OH기가 있어요. 4번 탄소에는 메틸 곁가지가 그냥 선으로 그려져 있어요.\"><line x1=\"0.0\" y1=\"15.0\" x2=\"26.1\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"26.1\" y1=\"0.0\" x2=\"51.9\" y2=\"15.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"51.9\" y1=\"15.0\" x2=\"78.0\" y2=\"0.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"78.0\" y1=\"0.0\" x2=\"103.8\" y2=\"15.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"26.1\" y1=\"0.0\" x2=\"26.1\" y2=\"-21.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"51.9\" y1=\"15.0\" x2=\"51.9\" y2=\"36.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"78.0\" y1=\"0.0\" x2=\"78.0\" y2=\"-30.0\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"20.1\" y=\"-25.0\" text-anchor=\"start\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">OH</tspan></text><text x=\"45.9\" y=\"50.0\" text-anchor=\"start\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">OH</tspan></text></svg></p><p>분자 하나에 카이랄 탄소 원자는 몇 개 있나요?</p>",
       hints: [
         // EN: Each corner and each line end is a carbon atom. Add the hydrogen atoms in your head, then rule out every <span class="chem">CH<sub>3</sub><span></span></span> carbon.
-        "",
+        "꺾인 곳과 선의 끝은 모두 탄소 원자예요. 수소 원자를 머릿속으로 채워 넣은 다음, <span class=\"chem\">CH<sub>3</sub><span></span></span> 탄소를 모두 제외하세요.",
         // EN: Three carbons have one H atom each: carbon 2, carbon 3 and carbon 4. List the four groups on each.
-        "",
+        "H 원자를 하나씩 가진 탄소는 2번, 3번, 4번 탄소 3개예요. 각 탄소의 네 원자단을 나열하세요.",
         // EN: Look closely at carbon 4. What are the two groups at the right-hand end?
-        "",
+        "4번 탄소를 자세히 보세요. 오른쪽 끝에 있는 두 원자단은 무엇인가요?",
       ],
       // EN: <p>The molecule is <span class="chem">CH<sub>3</sub>CH(OH)CH(OH)CH(CH<sub>3</sub>)<sub>2</sub><span></span></span>. Only carbons with one H atom need checking.</p><ul><li>Carbon 2: H, OH, <span class="chem">CH<sub>3</sub><span></span></span> and the rest of the chain. Four different groups. Chiral.</li><li>Carbon 3: H, OH, <span class="chem">CH(OH)CH<sub>3</sub><span></span></span> and <span class="chem">CH(CH<sub>3</sub>)<sub>2</sub><span></span></span>. Four different groups. Chiral.</li><li>Carbon 4: H, the rest of the chain and <strong>two identical</strong> <span class="chem">CH<sub>3</sub><span></span></span> groups. Not chiral.</li></ul><p>There are <strong>2</strong> chiral carbon atoms. A carbon with one H atom is not always chiral: you must compare all four groups.</p>
-      solution: "",
+      solution: "<p>이 분자는 <span class=\"chem\">CH<sub>3</sub>CH(OH)CH(OH)CH(CH<sub>3</sub>)<sub>2</sub><span></span></span>예요. H 원자가 하나인 탄소만 확인하면 돼요.</p><ul><li>2번 탄소: H, OH, <span class=\"chem\">CH<sub>3</sub><span></span></span>, 나머지 사슬. 서로 다른 네 원자단. 카이랄.</li><li>3번 탄소: H, OH, <span class=\"chem\">CH(OH)CH<sub>3</sub><span></span></span>, <span class=\"chem\">CH(CH<sub>3</sub>)<sub>2</sub><span></span></span>. 서로 다른 네 원자단. 카이랄.</li><li>4번 탄소: H, 나머지 사슬, 그리고 <strong>똑같은 두</strong> <span class=\"chem\">CH<sub>3</sub><span></span></span> 원자단. 카이랄이 아님.</li></ul><p>카이랄 탄소 원자는 <strong>2</strong>개예요. H 원자가 하나인 탄소가 늘 카이랄인 것은 아니에요. 네 원자단을 모두 비교해야 해요.</p>",
     },
 
     // ── s3-2h-q010 · mcq · exam · AHL · Structure 3.2.7 · 1 mark
     "s3-2h-q010": {
       // EN: <p>Which molecule has <strong>no</strong> chiral carbon atom?</p>
-      stem: "",
+      stem: "<p>카이랄 탄소 원자가 <strong>없는</strong> 분자는 무엇인가요?</p>",
       options: [
         // EN: <span class="chem">CH<sub>3</sub>CHClCH<sub>2</sub>CH<sub>3</sub><span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CHClCH<sub>2</sub>CH<sub>3</sub><span></span></span>",
         // EN: <span class="chem">CH<sub>3</sub>CH(OH)COOH<span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH(OH)COOH<span></span></span>",
         // EN: <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CHClCH<sub>2</sub>CH<sub>3</sub><span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CHClCH<sub>2</sub>CH<sub>3</sub><span></span></span>",
         // EN: <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub><span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub><span></span></span>",
       ],
       hints: [
         // EN: Find the carbon with only one H in each molecule and list its four groups.
-        "",
+        "각 분자에서 H가 하나뿐인 탄소를 찾아 그 네 원자단을 나열하세요.",
         // EN: Compare the two carbon chains on each side of that carbon. Are they the same length?
-        "",
+        "그 탄소 양쪽의 탄소 사슬을 비교해 보세요. 길이가 같나요?",
       ],
       // EN: <p>In 3-chloropentane, <span class="chem">CH<sub>3</sub>CH<sub>2</sub>CHClCH<sub>2</sub>CH<sub>3</sub><span></span></span>, carbon 3 holds H, Cl and <strong>two identical ethyl groups</strong>. It does not have four different groups, so the molecule has no chiral carbon. Each of the other three molecules has one carbon with four different groups.</p>
-      solution: "",
+      solution: "<p>3-chloropentane, <span class=\"chem\">CH<sub>3</sub>CH<sub>2</sub>CHClCH<sub>2</sub>CH<sub>3</sub><span></span></span>에서 3번 탄소에는 H, Cl, 그리고 <strong>똑같은 에틸기 두 개</strong>가 붙어 있어요. 서로 다른 네 원자단이 아니므로 이 분자에는 카이랄 탄소가 없어요. 나머지 세 분자는 각각 서로 다른 네 원자단을 가진 탄소가 하나씩 있어요.</p>",
       misconception: {
         // EN (option A): In 2-chlorobutane carbon 2 holds H, Cl, <span class="chem">CH<sub>3</sub><span></span></span> and <span class="chem">CH<sub>2</sub>CH<sub>3</sub><span></span></span>. These are four different groups, so it is chiral.
-        "0": "",
+        "0": "2-chlorobutane에서 2번 탄소에는 H, Cl, <span class=\"chem\">CH<sub>3</sub><span></span></span>, <span class=\"chem\">CH<sub>2</sub>CH<sub>3</sub><span></span></span>가 붙어 있어요. 서로 다른 네 원자단이므로 카이랄이에요.",
         // EN (option B): In 2-hydroxypropanoic acid carbon 2 holds H, OH, <span class="chem">CH<sub>3</sub><span></span></span> and COOH. These are four different groups, so it is chiral.
-        "1": "",
+        "1": "2-hydroxypropanoic acid에서 2번 탄소에는 H, OH, <span class=\"chem\">CH<sub>3</sub><span></span></span>, COOH가 붙어 있어요. 서로 다른 네 원자단이므로 카이랄이에요.",
         // EN (option D): In 3-methylhexane carbon 3 holds H, <span class="chem">CH<sub>3</sub><span></span></span>, <span class="chem">CH<sub>2</sub>CH<sub>3</sub><span></span></span> and <span class="chem">CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub><span></span></span>. An ethyl group and a propyl group are different, so it is chiral.
-        "3": "",
+        "3": "3-methylhexane에서 3번 탄소에는 H, <span class=\"chem\">CH<sub>3</sub><span></span></span>, <span class=\"chem\">CH<sub>2</sub>CH<sub>3</sub><span></span></span>, <span class=\"chem\">CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub><span></span></span>가 붙어 있어요. 에틸기와 프로필기는 서로 다르므로 카이랄이에요.",
       },
     },
 
     // ── s3-2h-q011 · multi · exam · AHL · Structure 3.2.7 · 1 mark
     "s3-2h-q011": {
       // EN: <p>Butan-2-ol exists as a pair of enantiomers. Which statements about the two enantiomers are correct? Select <strong>all</strong> that apply.</p>
-      stem: "",
+      stem: "<p>Butan-2-ol은 한 쌍의 거울상 이성질체로 존재해요. 두 거울상 이성질체에 대한 설명으로 옳은 것은 무엇인가요? 해당하는 것을 <strong>모두</strong> 고르세요.</p>",
       options: [
         // EN: They have the same boiling point.
-        "",
+        "끓는점이 같아요.",
         // EN: Under the same conditions, they rotate plane-polarised light by the same angle in opposite directions.
-        "",
+        "같은 조건에서 평면 편광을 같은 각도만큼 서로 반대 방향으로 회전시켜요.",
         // EN: Their atoms are bonded together in a different order.
-        "",
+        "원자들이 서로 다른 순서로 결합해 있어요.",
         // EN: They can behave differently with another chiral molecule, such as an enzyme.
-        "",
+        "효소 같은 다른 카이랄 분자와는 다르게 행동할 수 있어요.",
         // EN: They are mirror images that can be superimposed on each other.
-        "",
+        "서로 겹칠 수 있는 거울상이에요.",
       ],
       hints: [
         // EN: Enantiomers are stereoisomers. What stays the same in all stereoisomers?
-        "",
+        "거울상 이성질체는 입체 이성질체예요. 모든 입체 이성질체에서 무엇이 같을까요?",
         // EN: Physical properties such as boiling point are the same. Two things are different: the effect on plane-polarised light, and behaviour in a chiral environment.
-        "",
+        "끓는점 같은 물리적 성질은 같아요. 다른 것은 두 가지예요. 평면 편광에 대한 효과, 그리고 카이랄 환경에서의 행동이에요.",
       ],
       // EN: <p>Enantiomers are non-superimposable mirror images with the same connectivity.</p><ul><li>They have identical physical properties such as boiling point, melting point and density.</li><li>They are optically active: each rotates the plane of plane-polarised light by the same angle, but in opposite directions.</li><li>They behave in the same way with non-chiral reagents, but can behave differently in a chiral environment, such as the active site of an enzyme.</li></ul>
-      solution: "",
+      solution: "<p>거울상 이성질체는 원자의 연결 순서가 같고 서로 겹쳐지지 않는 거울상이에요.</p><ul><li>끓는점, 녹는점, 밀도 같은 물리적 성질이 똑같아요.</li><li>광학 활성이 있어요. 각각 평면 편광의 편광면을 같은 각도만큼, 그러나 서로 반대 방향으로 회전시켜요.</li><li>카이랄이 아닌 시약과는 똑같이 반응하지만, 효소의 활성 자리 같은 카이랄 환경에서는 다르게 행동할 수 있어요.</li></ul>",
       misconception: {
         // EN (option C): A different bonding order (connectivity) would make them structural isomers. Enantiomers have the same connectivity and differ only in their arrangement in space.
-        "2": "",
+        "2": "결합 순서(연결 순서)가 다르면 구조 이성질체가 돼요. 거울상 이성질체는 연결 순서가 같고 공간 배열만 달라요.",
         // EN (option E): Mirror images that can be superimposed are the same molecule. Enantiomers are <strong>non-superimposable</strong> mirror images.
-        "4": "",
+        "4": "겹칠 수 있는 거울상은 같은 분자예요. 거울상 이성질체는 <strong>겹쳐지지 않는</strong> 거울상이에요.",
       },
     },
 
     // ── s3-2h-q012 · short · exam · AHL · Structure 3.2.7 · 2 marks
     "s3-2h-q012": {
       // EN: <p>State what is meant by a <strong>racemic mixture</strong>, and explain why a racemic mixture is not optically active.</p>
-      stem: "",
+      stem: "<p><strong>라셈 혼합물</strong>이 무엇을 뜻하는지 쓰고 (state), 라셈 혼합물이 광학 활성을 나타내지 않는 이유를 설명하시오 (explain).</p>",
       hints: [
         // EN: How much of each enantiomer does the mixture contain?
-        "",
+        "혼합물에 각 거울상 이성질체가 얼마나 들어 있나요?",
         // EN: What does each enantiomer do to plane-polarised light, and what is the total effect?
-        "",
+        "각 거울상 이성질체는 평면 편광에 어떤 작용을 하나요? 전체 효과는 어떤가요?",
       ],
       // EN: <p>Use the words "equal amounts" and "enantiomers" for the first mark. For the second mark say that the rotations are equal and opposite, so they cancel. "It contains both forms" is too vague to score.</p>
-      solution: "",
+      solution: "<p>첫 번째 점수를 받으려면 “같은 양”과 “거울상 이성질체”라는 말을 쓰세요. 두 번째 점수를 받으려면 회전이 크기는 같고 방향은 반대라서 상쇄된다고 쓰세요. “두 형태를 모두 포함한다”는 너무 막연해서 점수를 받지 못해요.</p>",
       // EN: <p>A racemic mixture contains equal amounts of the two enantiomers of a chiral compound. One enantiomer rotates the plane of plane-polarised light clockwise and the other rotates it anticlockwise by the same angle, so the two rotations cancel and there is no overall rotation.</p>
-      answer: "",
+      answer: "<p>라셈 혼합물은 카이랄 화합물의 두 거울상 이성질체를 같은 양씩 포함해요. 한 거울상 이성질체는 평면 편광의 편광면을 시계 방향으로, 다른 하나는 같은 각도만큼 시계 반대 방향으로 회전시키므로, 두 회전이 상쇄되어 전체적으로는 회전이 없어요.</p>",
       markscheme: [
         // EN: A mixture containing equal amounts (equimolar / 50:50) of the two enantiomers.
-        "",
+        "두 거울상 이성질체를 같은 양(같은 몰수 / 50:50)씩 포함한 혼합물.",
         // EN: The two enantiomers rotate (the plane of) plane-polarised light by equal amounts in opposite directions, so the rotations cancel / no net rotation.
-        "",
+        "두 거울상 이성질체는 평면 편광(의 편광면)을 같은 크기만큼 반대 방향으로 회전시키므로 회전이 상쇄됨 / 알짜 회전이 없음.",
       ],
     },
 
     // ── s3-2h-q013 · mcq · exam · AHL · Structure 3.2.7 · 1 mark
     "s3-2h-q013": {
       // EN: <p>A polarimeter measures the angle through which a sample rotates the plane of plane-polarised light.</p><p>A solution of one enantiomer of a compound rotates the light by 13° clockwise. Two more solutions are tested in the same polarimeter tube, with the same total concentration.</p><p>What rotation is expected for each one?</p>
-      stem: "",
+      stem: "<p>편광계는 시료가 평면 편광의 편광면을 회전시키는 각도를 측정해요.</p><p>어떤 화합물의 한 거울상 이성질체 용액은 빛을 시계 방향으로 13° 회전시켜요. 전체 농도가 같은 용액 두 개를 같은 편광계 관에 넣어 더 측정해요.</p><p>각 용액에서 예상되는 회전은 무엇인가요?</p>",
       options: [
         // EN: Other enantiomer: 13° anticlockwise. Racemic mixture: 0°.
-        "",
+        "다른 거울상 이성질체: 시계 반대 방향 13°. 라셈 혼합물: 0°.",
         // EN: Other enantiomer: 13° clockwise. Racemic mixture: 0°.
-        "",
+        "다른 거울상 이성질체: 시계 방향 13°. 라셈 혼합물: 0°.",
         // EN: Other enantiomer: 13° anticlockwise. Racemic mixture: 26° clockwise.
-        "",
+        "다른 거울상 이성질체: 시계 반대 방향 13°. 라셈 혼합물: 시계 방향 26°.",
         // EN: Other enantiomer: 0°. Racemic mixture: 13° anticlockwise.
-        "",
+        "다른 거울상 이성질체: 0°. 라셈 혼합물: 시계 반대 방향 13°.",
       ],
       hints: [
         // EN: Two enantiomers rotate plane-polarised light by the same angle. What about the direction?
-        "",
+        "두 거울상 이성질체는 평면 편광을 같은 각도만큼 회전시켜요. 방향은 어떨까요?",
         // EN: A racemic mixture has equal amounts of both enantiomers. Add a clockwise and an equal anticlockwise rotation.
-        "",
+        "라셈 혼합물에는 두 거울상 이성질체가 같은 양씩 들어 있어요. 시계 방향 회전과 같은 크기의 시계 반대 방향 회전을 더해 보세요.",
       ],
       // EN: <p>The other enantiomer rotates the light by the same angle in the opposite direction: 13° anticlockwise.</p><p>A racemic mixture contains equal amounts of both enantiomers. The clockwise and anticlockwise rotations cancel, so the reading is 0°. The mixture is optically inactive.</p>
-      solution: "",
+      solution: "<p>다른 거울상 이성질체는 빛을 같은 각도만큼 반대 방향으로 회전시켜요. 즉 시계 반대 방향 13°예요.</p><p>라셈 혼합물에는 두 거울상 이성질체가 같은 양씩 들어 있어요. 시계 방향 회전과 시계 반대 방향 회전이 상쇄되므로 측정값은 0°예요. 이 혼합물은 광학 활성이 없어요.</p>",
       misconception: {
         // EN (option B): If both enantiomers rotated the light in the same direction, a polarimeter could not tell them apart. They rotate it in opposite directions.
-        "1": "",
+        "1": "두 거울상 이성질체가 빛을 같은 방향으로 회전시킨다면 편광계로 둘을 구별할 수 없을 거예요. 둘은 빛을 반대 방향으로 회전시켜요.",
         // EN (option C): The rotations of the two enantiomers do not add up in a racemic mixture. They are opposite, so they cancel.
-        "2": "",
+        "2": "라셈 혼합물에서 두 거울상 이성질체의 회전은 더해지지 않아요. 방향이 반대이므로 상쇄돼요.",
         // EN (option D): Both enantiomers are optically active. It is the 50:50 mixture that shows no rotation.
-        "3": "",
+        "3": "두 거울상 이성질체는 모두 광학 활성이 있어요. 회전을 나타내지 않는 것은 50:50 혼합물이에요.",
       },
     },
 
     // ── s3-2h-q014 · mcq · challenge · AHL · Structure 3.2.7 · 1 mark
     "s3-2h-q014": {
       // EN: <p>X is one enantiomer of bromochlorofluoromethane, CHBrClF. Plain lines are bonds in the plane of the screen. A solid wedge comes towards you. A hashed wedge goes away from you.</p><p><strong>X</strong></p><p><svg class="q-fig" viewBox="-38.6 -46.5 86 94" width="86" height="94" style="max-width:100%;height:auto" role="img" aria-label="Carbon atom with four bonds: F up in the plane, H to the lower left in the plane, Cl on a solid wedge to the lower right, Br on a hashed wedge to the right"><line x1="0.0" y1="-9.0" x2="0.0" y2="-22.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="-7.9" y1="4.3" x2="-19.7" y2="10.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><polygon points="3.4,8.3 5.8,23.6 12.5,20.9" fill="currentColor" stroke="currentColor" stroke-width="0.8" stroke-linejoin="round"/><line x1="10.4" y1="4.3" x2="11.1" y2="2.1" stroke="currentColor" stroke-width="1.3"/><line x1="12.4" y1="5.5" x2="13.4" y2="2.3" stroke="currentColor" stroke-width="1.3"/><line x1="14.4" y1="6.6" x2="15.6" y2="2.4" stroke="currentColor" stroke-width="1.3"/><line x1="16.3" y1="7.8" x2="17.9" y2="2.5" stroke="currentColor" stroke-width="1.3"/><line x1="18.3" y1="8.9" x2="20.2" y2="2.6" stroke="currentColor" stroke-width="1.3"/><line x1="20.3" y1="10.1" x2="22.5" y2="2.8" stroke="currentColor" stroke-width="1.3"/><text x="0.0" y="5.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">C</tspan></text><text x="0.0" y="-26.5" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">F</tspan></text><text x="-27.6" y="20.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">H</tspan></text><text x="6.6" y="35.6" text-anchor="start" font-size="14" fill="currentColor"><tspan dy="0">Cl</tspan></text><text x="24.0" y="14.0" text-anchor="start" font-size="14" fill="currentColor"><tspan dy="0">Br</tspan></text></svg></p><p>Which drawing shows the <strong>other</strong> enantiomer, the mirror image of X?</p>
-      stem: "",
+      stem: "<p>X는 bromochlorofluoromethane, CHBrClF의 한 거울상 이성질체예요. 그냥 선은 화면 평면에 있는 결합이에요. 실선 쐐기는 내 쪽으로 나와요. 점선 쐐기는 나에게서 멀어져요.</p><p><strong>X</strong></p><p><svg class=\"q-fig\" viewBox=\"-38.6 -46.5 86 94\" width=\"86\" height=\"94\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"결합 4개를 가진 탄소 원자: F는 평면에서 위쪽, H는 평면에서 왼쪽 아래, Cl은 오른쪽 아래의 실선 쐐기, Br은 오른쪽의 점선 쐐기\"><line x1=\"0.0\" y1=\"-9.0\" x2=\"0.0\" y2=\"-22.5\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"-7.9\" y1=\"4.3\" x2=\"-19.7\" y2=\"10.7\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><polygon points=\"3.4,8.3 5.8,23.6 12.5,20.9\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-linejoin=\"round\"/><line x1=\"10.4\" y1=\"4.3\" x2=\"11.1\" y2=\"2.1\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"12.4\" y1=\"5.5\" x2=\"13.4\" y2=\"2.3\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"14.4\" y1=\"6.6\" x2=\"15.6\" y2=\"2.4\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"16.3\" y1=\"7.8\" x2=\"17.9\" y2=\"2.5\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"18.3\" y1=\"8.9\" x2=\"20.2\" y2=\"2.6\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"20.3\" y1=\"10.1\" x2=\"22.5\" y2=\"2.8\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"0.0\" y=\"5.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">C</tspan></text><text x=\"0.0\" y=\"-26.5\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">F</tspan></text><text x=\"-27.6\" y=\"20.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">H</tspan></text><text x=\"6.6\" y=\"35.6\" text-anchor=\"start\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Cl</tspan></text><text x=\"24.0\" y=\"14.0\" text-anchor=\"start\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Br</tspan></text></svg></p><p>X의 거울상인 <strong>다른</strong> 거울상 이성질체를 나타낸 그림은 무엇인가요?</p>",
       options: [
         // EN: <svg class="q-fig" viewBox="-44.6 -46.5 92 94" width="92" height="94" style="max-width:100%;height:auto" role="img" aria-label="Carbon atom with four bonds: H up in the plane, Cl to the lower left in the plane, F on a solid wedge to the lower right, Br on a hashed wedge to the right"><line x1="0.0" y1="-9.0" x2="0.0" y2="-22.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="-7.9" y1="4.3" x2="-19.7" y2="10.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><polygon points="3.4,8.3 5.8,23.6 12.5,20.9" fill="currentColor" stroke="currentColor" stroke-width="0.8" stroke-linejoin="round"/><line x1="10.4" y1="4.3" x2="11.1" y2="2.1" stroke="currentColor" stroke-width="1.3"/><line x1="12.4" y1="5.5" x2="13.4" y2="2.3" stroke="currentColor" stroke-width="1.3"/><line x1="14.4" y1="6.6" x2="15.6" y2="2.4" stroke="currentColor" stroke-width="1.3"/><line x1="16.3" y1="7.8" x2="17.9" y2="2.5" stroke="currentColor" stroke-width="1.3"/><line x1="18.3" y1="8.9" x2="20.2" y2="2.6" stroke="currentColor" stroke-width="1.3"/><line x1="20.3" y1="10.1" x2="22.5" y2="2.8" stroke="currentColor" stroke-width="1.3"/><text x="0.0" y="5.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">C</tspan></text><text x="0.0" y="-26.5" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">H</tspan></text><text x="-21.6" y="20.0" text-anchor="end" font-size="14" fill="currentColor"><tspan dy="0">Cl</tspan></text><text x="12.6" y="35.6" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">F</tspan></text><text x="24.0" y="14.0" text-anchor="start" font-size="14" fill="currentColor"><tspan dy="0">Br</tspan></text></svg>
-        "",
+        "<svg class=\"q-fig\" viewBox=\"-44.6 -46.5 92 94\" width=\"92\" height=\"94\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"결합 4개를 가진 탄소 원자: H는 평면에서 위쪽, Cl은 평면에서 왼쪽 아래, F는 오른쪽 아래의 실선 쐐기, Br은 오른쪽의 점선 쐐기\"><line x1=\"0.0\" y1=\"-9.0\" x2=\"0.0\" y2=\"-22.5\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"-7.9\" y1=\"4.3\" x2=\"-19.7\" y2=\"10.7\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><polygon points=\"3.4,8.3 5.8,23.6 12.5,20.9\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-linejoin=\"round\"/><line x1=\"10.4\" y1=\"4.3\" x2=\"11.1\" y2=\"2.1\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"12.4\" y1=\"5.5\" x2=\"13.4\" y2=\"2.3\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"14.4\" y1=\"6.6\" x2=\"15.6\" y2=\"2.4\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"16.3\" y1=\"7.8\" x2=\"17.9\" y2=\"2.5\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"18.3\" y1=\"8.9\" x2=\"20.2\" y2=\"2.6\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"20.3\" y1=\"10.1\" x2=\"22.5\" y2=\"2.8\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"0.0\" y=\"5.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">C</tspan></text><text x=\"0.0\" y=\"-26.5\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">H</tspan></text><text x=\"-21.6\" y=\"20.0\" text-anchor=\"end\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Cl</tspan></text><text x=\"12.6\" y=\"35.6\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">F</tspan></text><text x=\"24.0\" y=\"14.0\" text-anchor=\"start\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Br</tspan></text></svg>",
         // EN: <svg class="q-fig" viewBox="-47.0 -46.5 86 94" width="86" height="94" style="max-width:100%;height:auto" role="img" aria-label="Carbon atom with four bonds: F up in the plane, H to the lower right in the plane, Br on a solid wedge to the lower left, Cl on a hashed wedge to the left"><line x1="0.0" y1="-9.0" x2="0.0" y2="-22.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="7.9" y1="4.3" x2="19.7" y2="10.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><polygon points="-3.4,8.3 -12.5,20.9 -5.8,23.6" fill="currentColor" stroke="currentColor" stroke-width="0.8" stroke-linejoin="round"/><line x1="-11.1" y1="2.1" x2="-10.4" y2="4.3" stroke="currentColor" stroke-width="1.3"/><line x1="-13.4" y1="2.3" x2="-12.4" y2="5.5" stroke="currentColor" stroke-width="1.3"/><line x1="-15.6" y1="2.4" x2="-14.4" y2="6.6" stroke="currentColor" stroke-width="1.3"/><line x1="-17.9" y1="2.5" x2="-16.3" y2="7.8" stroke="currentColor" stroke-width="1.3"/><line x1="-20.2" y1="2.6" x2="-18.3" y2="8.9" stroke="currentColor" stroke-width="1.3"/><line x1="-22.5" y1="2.8" x2="-20.3" y2="10.1" stroke="currentColor" stroke-width="1.3"/><text x="0.0" y="5.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">C</tspan></text><text x="0.0" y="-26.5" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">F</tspan></text><text x="27.6" y="20.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">H</tspan></text><text x="-6.6" y="35.6" text-anchor="end" font-size="14" fill="currentColor"><tspan dy="0">Br</tspan></text><text x="-24.0" y="14.0" text-anchor="end" font-size="14" fill="currentColor"><tspan dy="0">Cl</tspan></text></svg>
-        "",
+        "<svg class=\"q-fig\" viewBox=\"-47.0 -46.5 86 94\" width=\"86\" height=\"94\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"결합 4개를 가진 탄소 원자: F는 평면에서 위쪽, H는 평면에서 오른쪽 아래, Br은 왼쪽 아래의 실선 쐐기, Cl은 왼쪽의 점선 쐐기\"><line x1=\"0.0\" y1=\"-9.0\" x2=\"0.0\" y2=\"-22.5\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"7.9\" y1=\"4.3\" x2=\"19.7\" y2=\"10.7\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><polygon points=\"-3.4,8.3 -12.5,20.9 -5.8,23.6\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-linejoin=\"round\"/><line x1=\"-11.1\" y1=\"2.1\" x2=\"-10.4\" y2=\"4.3\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"-13.4\" y1=\"2.3\" x2=\"-12.4\" y2=\"5.5\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"-15.6\" y1=\"2.4\" x2=\"-14.4\" y2=\"6.6\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"-17.9\" y1=\"2.5\" x2=\"-16.3\" y2=\"7.8\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"-20.2\" y1=\"2.6\" x2=\"-18.3\" y2=\"8.9\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"-22.5\" y1=\"2.8\" x2=\"-20.3\" y2=\"10.1\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"0.0\" y=\"5.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">C</tspan></text><text x=\"0.0\" y=\"-26.5\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">F</tspan></text><text x=\"27.6\" y=\"20.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">H</tspan></text><text x=\"-6.6\" y=\"35.6\" text-anchor=\"end\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Br</tspan></text><text x=\"-24.0\" y=\"14.0\" text-anchor=\"end\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Cl</tspan></text></svg>",
         // EN: <svg class="q-fig" viewBox="-38.6 -46.5 86 94" width="86" height="94" style="max-width:100%;height:auto" role="img" aria-label="Carbon atom with four bonds: F up in the plane, H to the lower left in the plane, Br on a solid wedge to the lower right, Cl on a hashed wedge to the right"><line x1="0.0" y1="-9.0" x2="0.0" y2="-22.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="-7.9" y1="4.3" x2="-19.7" y2="10.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><polygon points="3.4,8.3 5.8,23.6 12.5,20.9" fill="currentColor" stroke="currentColor" stroke-width="0.8" stroke-linejoin="round"/><line x1="10.4" y1="4.3" x2="11.1" y2="2.1" stroke="currentColor" stroke-width="1.3"/><line x1="12.4" y1="5.5" x2="13.4" y2="2.3" stroke="currentColor" stroke-width="1.3"/><line x1="14.4" y1="6.6" x2="15.6" y2="2.4" stroke="currentColor" stroke-width="1.3"/><line x1="16.3" y1="7.8" x2="17.9" y2="2.5" stroke="currentColor" stroke-width="1.3"/><line x1="18.3" y1="8.9" x2="20.2" y2="2.6" stroke="currentColor" stroke-width="1.3"/><line x1="20.3" y1="10.1" x2="22.5" y2="2.8" stroke="currentColor" stroke-width="1.3"/><text x="0.0" y="5.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">C</tspan></text><text x="0.0" y="-26.5" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">F</tspan></text><text x="-27.6" y="20.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">H</tspan></text><text x="6.6" y="35.6" text-anchor="start" font-size="14" fill="currentColor"><tspan dy="0">Br</tspan></text><text x="24.0" y="14.0" text-anchor="start" font-size="14" fill="currentColor"><tspan dy="0">Cl</tspan></text></svg>
-        "",
+        "<svg class=\"q-fig\" viewBox=\"-38.6 -46.5 86 94\" width=\"86\" height=\"94\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"결합 4개를 가진 탄소 원자: F는 평면에서 위쪽, H는 평면에서 왼쪽 아래, Br은 오른쪽 아래의 실선 쐐기, Cl은 오른쪽의 점선 쐐기\"><line x1=\"0.0\" y1=\"-9.0\" x2=\"0.0\" y2=\"-22.5\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"-7.9\" y1=\"4.3\" x2=\"-19.7\" y2=\"10.7\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><polygon points=\"3.4,8.3 5.8,23.6 12.5,20.9\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-linejoin=\"round\"/><line x1=\"10.4\" y1=\"4.3\" x2=\"11.1\" y2=\"2.1\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"12.4\" y1=\"5.5\" x2=\"13.4\" y2=\"2.3\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"14.4\" y1=\"6.6\" x2=\"15.6\" y2=\"2.4\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"16.3\" y1=\"7.8\" x2=\"17.9\" y2=\"2.5\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"18.3\" y1=\"8.9\" x2=\"20.2\" y2=\"2.6\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"20.3\" y1=\"10.1\" x2=\"22.5\" y2=\"2.8\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"0.0\" y=\"5.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">C</tspan></text><text x=\"0.0\" y=\"-26.5\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">F</tspan></text><text x=\"-27.6\" y=\"20.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">H</tspan></text><text x=\"6.6\" y=\"35.6\" text-anchor=\"start\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Br</tspan></text><text x=\"24.0\" y=\"14.0\" text-anchor=\"start\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Cl</tspan></text></svg>",
         // EN: <svg class="q-fig" viewBox="-38.6 -46.5 86 94" width="86" height="94" style="max-width:100%;height:auto" role="img" aria-label="Carbon atom with four bonds: H up in the plane, F to the lower left in the plane, Br on a solid wedge to the lower right, Cl on a hashed wedge to the right"><line x1="0.0" y1="-9.0" x2="0.0" y2="-22.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="-7.9" y1="4.3" x2="-19.7" y2="10.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><polygon points="3.4,8.3 5.8,23.6 12.5,20.9" fill="currentColor" stroke="currentColor" stroke-width="0.8" stroke-linejoin="round"/><line x1="10.4" y1="4.3" x2="11.1" y2="2.1" stroke="currentColor" stroke-width="1.3"/><line x1="12.4" y1="5.5" x2="13.4" y2="2.3" stroke="currentColor" stroke-width="1.3"/><line x1="14.4" y1="6.6" x2="15.6" y2="2.4" stroke="currentColor" stroke-width="1.3"/><line x1="16.3" y1="7.8" x2="17.9" y2="2.5" stroke="currentColor" stroke-width="1.3"/><line x1="18.3" y1="8.9" x2="20.2" y2="2.6" stroke="currentColor" stroke-width="1.3"/><line x1="20.3" y1="10.1" x2="22.5" y2="2.8" stroke="currentColor" stroke-width="1.3"/><text x="0.0" y="5.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">C</tspan></text><text x="0.0" y="-26.5" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">H</tspan></text><text x="-27.6" y="20.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">F</tspan></text><text x="6.6" y="35.6" text-anchor="start" font-size="14" fill="currentColor"><tspan dy="0">Br</tspan></text><text x="24.0" y="14.0" text-anchor="start" font-size="14" fill="currentColor"><tspan dy="0">Cl</tspan></text></svg>
-        "",
+        "<svg class=\"q-fig\" viewBox=\"-38.6 -46.5 86 94\" width=\"86\" height=\"94\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"결합 4개를 가진 탄소 원자: H는 평면에서 위쪽, F는 평면에서 왼쪽 아래, Br은 오른쪽 아래의 실선 쐐기, Cl은 오른쪽의 점선 쐐기\"><line x1=\"0.0\" y1=\"-9.0\" x2=\"0.0\" y2=\"-22.5\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"-7.9\" y1=\"4.3\" x2=\"-19.7\" y2=\"10.7\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><polygon points=\"3.4,8.3 5.8,23.6 12.5,20.9\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-linejoin=\"round\"/><line x1=\"10.4\" y1=\"4.3\" x2=\"11.1\" y2=\"2.1\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"12.4\" y1=\"5.5\" x2=\"13.4\" y2=\"2.3\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"14.4\" y1=\"6.6\" x2=\"15.6\" y2=\"2.4\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"16.3\" y1=\"7.8\" x2=\"17.9\" y2=\"2.5\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"18.3\" y1=\"8.9\" x2=\"20.2\" y2=\"2.6\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"20.3\" y1=\"10.1\" x2=\"22.5\" y2=\"2.8\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"0.0\" y=\"5.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">C</tspan></text><text x=\"0.0\" y=\"-26.5\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">H</tspan></text><text x=\"-27.6\" y=\"20.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">F</tspan></text><text x=\"6.6\" y=\"35.6\" text-anchor=\"start\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Br</tspan></text><text x=\"24.0\" y=\"14.0\" text-anchor=\"start\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">Cl</tspan></text></svg>",
       ],
       hints: [
         // EN: A useful rule: swapping any <strong>two</strong> groups on a chiral carbon gives the other enantiomer.
-        "",
+        "유용한 규칙: 카이랄 탄소에 붙은 원자단 중 아무 <strong>두 개</strong>를 서로 바꾸면 다른 거울상 이성질체가 돼요.",
         // EN: Swapping twice brings you back to the same molecule. Rotating the whole molecule never changes it.
-        "",
+        "두 번 바꾸면 원래 분자로 돌아와요. 분자 전체를 회전시키면 분자는 절대 바뀌지 않아요.",
         // EN: For each drawing, count how many swaps turn X into it.
-        "",
+        "각 그림마다 X를 그 그림으로 바꾸려면 몇 번 바꿔야 하는지 세어 보세요.",
       ],
       // EN: <p>Compare each drawing with X (F up, H lower left, Cl on the wedge, Br on the hashed bond).</p><ul><li>The correct drawing keeps F and H in place and swaps Cl and Br. One swap of two groups gives the mirror image, so this is the other enantiomer.</li><li>Moving three groups round one place (F → H → Cl → F) is a rotation about the C–Br bond: same molecule.</li><li>The drawing with the wedges on the left is X turned half a turn about the C–F bond: same molecule.</li><li>Two swaps (F with H, and Cl with Br) bring back the same molecule.</li></ul><p>Building a model, real or on screen, is the surest way to check: the two enantiomers cannot be superimposed.</p>
-      solution: "",
+      solution: "<p>각 그림을 X(F는 위, H는 왼쪽 아래, Cl은 실선 쐐기, Br은 점선 결합)와 비교해 보세요.</p><ul><li>정답 그림은 F와 H는 그대로 두고 Cl과 Br을 바꿨어요. 두 원자단을 한 번 바꾸면 거울상이 되므로 이것이 다른 거울상 이성질체예요.</li><li>세 원자단을 한 자리씩 돌리는 것(F → H → Cl → F)은 C–Br 결합을 축으로 한 회전이에요. 같은 분자예요.</li><li>쐐기가 왼쪽에 있는 그림은 X를 C–F 결합을 축으로 반 바퀴 돌린 것이에요. 같은 분자예요.</li><li>두 번 바꾸면(F와 H, Cl과 Br) 같은 분자로 돌아와요.</li></ul><p>실제 모형이든 화면 속 모형이든 모형을 만들어 보는 것이 가장 확실한 확인 방법이에요. 두 거울상 이성질체는 겹쳐지지 않아요.</p>",
       misconception: {
         // EN (option A): Br has not moved, and F, H and Cl have each moved one place round. This is X rotated about the C–Br bond, so it is the same molecule.
-        "0": "",
+        "0": "Br은 움직이지 않았고 F, H, Cl은 각각 한 자리씩 돌았어요. 이것은 X를 C–Br 결합을 축으로 회전시킨 것이므로 같은 분자예요.",
         // EN (option B): This is X turned half a turn about the vertical C–F bond. The H swings to the right, Cl goes to the back and Br comes to the front. It is still X.
-        "1": "",
+        "1": "이것은 X를 세로 C–F 결합을 축으로 반 바퀴 돌린 것이에요. H는 오른쪽으로 가고, Cl은 뒤로 가고, Br은 앞으로 나와요. 여전히 X예요.",
         // EN (option D): Compared with X, two pairs of groups have been swapped (F with H, and Cl with Br). One swap gives the mirror image. A second swap brings back the original.
-        "3": "",
+        "3": "X와 비교하면 원자단 두 쌍이 바뀌었어요(F와 H, Cl과 Br). 한 번 바꾸면 거울상이 되고, 두 번째로 바꾸면 원래 분자로 돌아와요.",
       },
     },
 
     // ── s3-2h-q015 · short · challenge · AHL · Structure 3.2.7 · 3 marks
     "s3-2h-q015": {
       // EN: <p>2-hydroxypropanoic acid (lactic acid), <span class="chem">CH<sub>3</sub>CH(OH)COOH<span></span></span>, exists as two enantiomers.</p><p>On paper, identify the chiral carbon atom and draw stereochemical formulas of the two enantiomers. Then compare your drawing with the model answer.</p>
-      stem: "",
+      stem: "<p>2-hydroxypropanoic acid(lactic acid), <span class=\"chem\">CH<sub>3</sub>CH(OH)COOH<span></span></span>는 두 거울상 이성질체로 존재해요.</p><p>종이에 카이랄 탄소 원자를 찾고 (identify), 두 거울상 이성질체의 입체 구조식을 그리시오 (draw). 그런 다음 내 그림을 모범 답안과 비교해 보세요.</p>",
       hints: [
         // EN: Find the carbon with four different groups.
-        "",
+        "서로 다른 네 원자단을 가진 탄소를 찾으세요.",
         // EN: Draw that carbon in the centre. Use two plain lines, one solid wedge and one hashed wedge for its four bonds.
-        "",
+        "그 탄소를 가운데에 그리세요. 네 결합은 그냥 선 두 개, 실선 쐐기 하나, 점선 쐐기 하나로 나타내세요.",
         // EN: For the second enantiomer, draw the reflection of the first in an imaginary mirror placed beside it.
-        "",
+        "두 번째 거울상 이성질체는 첫 번째 그림 옆에 가상의 거울을 놓고 비친 모습을 그리세요.",
       ],
       // EN: <p>Markschemes give one mark for each correct enantiomer. Flat drawings with 90° angles do not score: the tetrahedral arrangement must be shown with tapered (wedge and hashed) bonds. If you redraw the same molecule in a different orientation instead of its mirror image, you score only one of the two drawing marks.</p>
-      solution: "",
+      solution: "<p>채점 기준은 올바른 거울상 이성질체 하나마다 1점을 줘요. 90° 각도로 그린 평면 그림은 점수를 받지 못해요. 쐐기 모양 결합(실선 쐐기와 점선 쐐기)으로 정사면체 배열을 보여야 해요. 거울상 대신 같은 분자를 방향만 바꿔 다시 그리면 그림 점수 2점 중 1점만 받아요.</p>",
       // EN: <p>The chiral carbon is carbon 2. It is bonded to four different groups: H, OH, <span class="chem">CH<sub>3</sub><span></span></span> and COOH.</p><p>The two enantiomers, drawn as mirror images:</p><p><svg class="q-fig" viewBox="-53.6 -46.5 95 94" width="95" height="94" style="max-width:100%;height:auto" role="img" aria-label="Carbon atom with four bonds: COOH up in the plane, CH3 to the lower left in the plane, OH on a solid wedge to the lower right, H on a hashed wedge to the right"><line x1="0.0" y1="-9.0" x2="0.0" y2="-19.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="-7.9" y1="4.3" x2="-19.7" y2="10.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><polygon points="3.4,8.3 5.8,23.6 12.5,20.9" fill="currentColor" stroke="currentColor" stroke-width="0.8" stroke-linejoin="round"/><line x1="10.4" y1="4.3" x2="11.1" y2="2.1" stroke="currentColor" stroke-width="1.3"/><line x1="12.4" y1="5.5" x2="13.4" y2="2.3" stroke="currentColor" stroke-width="1.3"/><line x1="14.4" y1="6.6" x2="15.6" y2="2.4" stroke="currentColor" stroke-width="1.3"/><line x1="16.3" y1="7.8" x2="17.9" y2="2.5" stroke="currentColor" stroke-width="1.3"/><line x1="18.3" y1="8.9" x2="20.2" y2="2.6" stroke="currentColor" stroke-width="1.3"/><line x1="20.3" y1="10.1" x2="22.5" y2="2.8" stroke="currentColor" stroke-width="1.3"/><text x="0.0" y="5.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">C</tspan></text><text x="0.0" y="-26.5" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">COOH</tspan></text><text x="-21.6" y="20.0" text-anchor="end" font-size="14" fill="currentColor"><tspan dy="0">H</tspan><tspan dy="4" font-size="10">3</tspan><tspan dy="-4">C</tspan></text><text x="6.6" y="35.6" text-anchor="start" font-size="14" fill="currentColor"><tspan dy="0">OH</tspan></text><text x="30.0" y="14.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">H</tspan></text></svg> &nbsp; <svg class="q-fig" viewBox="-41.0 -46.5 95 94" width="95" height="94" style="max-width:100%;height:auto" role="img" aria-label="Carbon atom with four bonds: COOH up in the plane, CH3 to the lower right in the plane, OH on a solid wedge to the lower left, H on a hashed wedge to the left"><line x1="0.0" y1="-9.0" x2="0.0" y2="-19.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="7.9" y1="4.3" x2="19.7" y2="10.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><polygon points="-3.4,8.3 -12.5,20.9 -5.8,23.6" fill="currentColor" stroke="currentColor" stroke-width="0.8" stroke-linejoin="round"/><line x1="-11.1" y1="2.1" x2="-10.4" y2="4.3" stroke="currentColor" stroke-width="1.3"/><line x1="-13.4" y1="2.3" x2="-12.4" y2="5.5" stroke="currentColor" stroke-width="1.3"/><line x1="-15.6" y1="2.4" x2="-14.4" y2="6.6" stroke="currentColor" stroke-width="1.3"/><line x1="-17.9" y1="2.5" x2="-16.3" y2="7.8" stroke="currentColor" stroke-width="1.3"/><line x1="-20.2" y1="2.6" x2="-18.3" y2="8.9" stroke="currentColor" stroke-width="1.3"/><line x1="-22.5" y1="2.8" x2="-20.3" y2="10.1" stroke="currentColor" stroke-width="1.3"/><text x="0.0" y="5.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">C</tspan></text><text x="0.0" y="-26.5" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">COOH</tspan></text><text x="21.6" y="20.0" text-anchor="start" font-size="14" fill="currentColor"><tspan dy="0">CH</tspan><tspan dy="4" font-size="10">3</tspan></text><text x="-6.6" y="35.6" text-anchor="end" font-size="14" fill="currentColor"><tspan dy="0">HO</tspan></text><text x="-30.0" y="14.0" text-anchor="middle" font-size="14" fill="currentColor"><tspan dy="0">H</tspan></text></svg></p><p>Any orientation is accepted if the four groups are arranged tetrahedrally and the second drawing is the mirror image of the first.</p>
-      answer: "",
+      answer: "<p>카이랄 탄소는 2번 탄소예요. 이 탄소는 서로 다른 네 원자단 H, OH, <span class=\"chem\">CH<sub>3</sub><span></span></span>, COOH와 결합해 있어요.</p><p>서로 거울상으로 그린 두 거울상 이성질체:</p><p><svg class=\"q-fig\" viewBox=\"-53.6 -46.5 95 94\" width=\"95\" height=\"94\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"결합 4개를 가진 탄소 원자: COOH는 평면에서 위쪽, CH3는 평면에서 왼쪽 아래, OH는 오른쪽 아래의 실선 쐐기, H는 오른쪽의 점선 쐐기\"><line x1=\"0.0\" y1=\"-9.0\" x2=\"0.0\" y2=\"-19.5\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"-7.9\" y1=\"4.3\" x2=\"-19.7\" y2=\"10.7\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><polygon points=\"3.4,8.3 5.8,23.6 12.5,20.9\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-linejoin=\"round\"/><line x1=\"10.4\" y1=\"4.3\" x2=\"11.1\" y2=\"2.1\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"12.4\" y1=\"5.5\" x2=\"13.4\" y2=\"2.3\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"14.4\" y1=\"6.6\" x2=\"15.6\" y2=\"2.4\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"16.3\" y1=\"7.8\" x2=\"17.9\" y2=\"2.5\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"18.3\" y1=\"8.9\" x2=\"20.2\" y2=\"2.6\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"20.3\" y1=\"10.1\" x2=\"22.5\" y2=\"2.8\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"0.0\" y=\"5.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">C</tspan></text><text x=\"0.0\" y=\"-26.5\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">COOH</tspan></text><text x=\"-21.6\" y=\"20.0\" text-anchor=\"end\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">H</tspan><tspan dy=\"4\" font-size=\"10\">3</tspan><tspan dy=\"-4\">C</tspan></text><text x=\"6.6\" y=\"35.6\" text-anchor=\"start\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">OH</tspan></text><text x=\"30.0\" y=\"14.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">H</tspan></text></svg> &nbsp; <svg class=\"q-fig\" viewBox=\"-41.0 -46.5 95 94\" width=\"95\" height=\"94\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"결합 4개를 가진 탄소 원자: COOH는 평면에서 위쪽, CH3는 평면에서 오른쪽 아래, OH는 왼쪽 아래의 실선 쐐기, H는 왼쪽의 점선 쐐기\"><line x1=\"0.0\" y1=\"-9.0\" x2=\"0.0\" y2=\"-19.5\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><line x1=\"7.9\" y1=\"4.3\" x2=\"19.7\" y2=\"10.7\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><polygon points=\"-3.4,8.3 -12.5,20.9 -5.8,23.6\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"0.8\" stroke-linejoin=\"round\"/><line x1=\"-11.1\" y1=\"2.1\" x2=\"-10.4\" y2=\"4.3\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"-13.4\" y1=\"2.3\" x2=\"-12.4\" y2=\"5.5\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"-15.6\" y1=\"2.4\" x2=\"-14.4\" y2=\"6.6\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"-17.9\" y1=\"2.5\" x2=\"-16.3\" y2=\"7.8\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"-20.2\" y1=\"2.6\" x2=\"-18.3\" y2=\"8.9\" stroke=\"currentColor\" stroke-width=\"1.3\"/><line x1=\"-22.5\" y1=\"2.8\" x2=\"-20.3\" y2=\"10.1\" stroke=\"currentColor\" stroke-width=\"1.3\"/><text x=\"0.0\" y=\"5.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">C</tspan></text><text x=\"0.0\" y=\"-26.5\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">COOH</tspan></text><text x=\"21.6\" y=\"20.0\" text-anchor=\"start\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">CH</tspan><tspan dy=\"4\" font-size=\"10\">3</tspan></text><text x=\"-6.6\" y=\"35.6\" text-anchor=\"end\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">HO</tspan></text><text x=\"-30.0\" y=\"14.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"currentColor\"><tspan dy=\"0\">H</tspan></text></svg></p><p>네 원자단이 정사면체 모양으로 배열되어 있고 두 번째 그림이 첫 번째 그림의 거울상이면 어떤 방향으로 그려도 인정돼요.</p>",
       markscheme: [
         // EN: Chiral carbon identified: carbon 2 / the carbon bonded to H, OH, CH₃ and COOH (circled or starred on the drawing is fine).
-        "",
+        "카이랄 탄소를 찾음: 2번 탄소 / H, OH, CH₃, COOH와 결합한 탄소(그림에 동그라미나 별표로 표시해도 됨).",
         // EN: One enantiomer drawn in 3D: two bonds in the plane, one solid wedge, one hashed (dashed) wedge, with H, OH, CH₃ and COOH on the central carbon.
-        "",
+        "한 거울상 이성질체를 3D(입체)로 그림: 평면에 있는 결합 두 개, 실선 쐐기 하나, 점선 쐐기 하나, 그리고 가운데 탄소에 H, OH, CH₃, COOH.",
         // EN: The second structure drawn as the mirror image of the first (or with any two groups exchanged), also in 3D.
-        "",
+        "두 번째 구조를 첫 번째 구조의 거울상으로(또는 아무 두 원자단을 바꿔서) 그림. 이것도 3D로 그려야 함.",
       ],
     },
 
     // ── s3-2h-q016 · numeric · foundation · AHL · Structure 3.2.8 · 1 mark
     "s3-2h-q016": {
       // EN: <p>The sketch shows the main peaks in the mass spectrum of a compound that contains C, H and O.</p><p><svg class="q-fig" viewBox="0 0 300 178" width="300" height="178" style="max-width:100%;height:auto" role="img" aria-label="Mass spectrum sketch with three peaks: m/z 15 with relative abundance 12, m/z 43 with relative abundance 100, and m/z 58 with relative abundance 25."><path d="M34 18V144H290" fill="none" stroke="currentColor" stroke-width="1.2"/><line x1="34" y1="144" x2="34" y2="149" stroke="currentColor" stroke-width="1"/><text x="34" y="161" text-anchor="middle" font-size="11" fill="currentColor">0</text><line x1="70.57142857142857" y1="144" x2="70.57142857142857" y2="147" stroke="currentColor" stroke-width="1"/><line x1="107.14285714285714" y1="144" x2="107.14285714285714" y2="149" stroke="currentColor" stroke-width="1"/><text x="107.14285714285714" y="161" text-anchor="middle" font-size="11" fill="currentColor">20</text><line x1="143.71428571428572" y1="144" x2="143.71428571428572" y2="147" stroke="currentColor" stroke-width="1"/><line x1="180.28571428571428" y1="144" x2="180.28571428571428" y2="149" stroke="currentColor" stroke-width="1"/><text x="180.28571428571428" y="161" text-anchor="middle" font-size="11" fill="currentColor">40</text><line x1="216.85714285714286" y1="144" x2="216.85714285714286" y2="147" stroke="currentColor" stroke-width="1"/><line x1="253.42857142857142" y1="144" x2="253.42857142857142" y2="149" stroke="currentColor" stroke-width="1"/><text x="253.42857142857142" y="161" text-anchor="middle" font-size="11" fill="currentColor">60</text><line x1="290" y1="144" x2="290" y2="147" stroke="currentColor" stroke-width="1"/><line x1="30" y1="144" x2="34" y2="144" stroke="currentColor" stroke-width="1"/><text x="27" y="148" text-anchor="end" font-size="11" fill="currentColor">0</text><line x1="30" y1="81" x2="34" y2="81" stroke="currentColor" stroke-width="1"/><text x="27" y="85" text-anchor="end" font-size="11" fill="currentColor">50</text><line x1="30" y1="18" x2="34" y2="18" stroke="currentColor" stroke-width="1"/><text x="27" y="22" text-anchor="end" font-size="11" fill="currentColor">100</text><text x="162" y="175" text-anchor="middle" font-size="11" fill="currentColor">m/z</text><text x="40" y="11" font-size="11" fill="currentColor">relative abundance / %</text><line x1="88.9" y1="144" x2="88.9" y2="128.9" stroke="currentColor" stroke-width="2.4"/><text x="88.9" y="124.9" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor">15</text><line x1="191.3" y1="144" x2="191.3" y2="18.0" stroke="currentColor" stroke-width="2.4"/><text x="191.3" y="14.0" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor">43</text><line x1="246.1" y1="144" x2="246.1" y2="112.5" stroke="currentColor" stroke-width="2.4"/><text x="246.1" y="108.5" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor">58</text></svg></p><p>The peak with the highest m/z value is the molecular ion. What is the relative molecular mass, M<sub>r</sub>, of the compound?</p>
-      stem: "",
+      stem: "<p>이 그림은 C, H, O를 포함한 화합물의 질량 스펙트럼에서 주요 봉우리를 보여 줘요.</p><p><svg class=\"q-fig\" viewBox=\"0 0 300 178\" width=\"300\" height=\"178\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"봉우리 3개가 있는 질량 스펙트럼 그림: m/z 15에서 상대 존재 비율 12, m/z 43에서 상대 존재 비율 100, m/z 58에서 상대 존재 비율 25.\"><path d=\"M34 18V144H290\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"34\" y1=\"144\" x2=\"34\" y2=\"149\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"34\" y=\"161\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">0</text><line x1=\"70.57142857142857\" y1=\"144\" x2=\"70.57142857142857\" y2=\"147\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"107.14285714285714\" y1=\"144\" x2=\"107.14285714285714\" y2=\"149\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"107.14285714285714\" y=\"161\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">20</text><line x1=\"143.71428571428572\" y1=\"144\" x2=\"143.71428571428572\" y2=\"147\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"180.28571428571428\" y1=\"144\" x2=\"180.28571428571428\" y2=\"149\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"180.28571428571428\" y=\"161\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">40</text><line x1=\"216.85714285714286\" y1=\"144\" x2=\"216.85714285714286\" y2=\"147\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"253.42857142857142\" y1=\"144\" x2=\"253.42857142857142\" y2=\"149\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"253.42857142857142\" y=\"161\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">60</text><line x1=\"290\" y1=\"144\" x2=\"290\" y2=\"147\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"30\" y1=\"144\" x2=\"34\" y2=\"144\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"27\" y=\"148\" text-anchor=\"end\" font-size=\"11\" fill=\"currentColor\">0</text><line x1=\"30\" y1=\"81\" x2=\"34\" y2=\"81\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"27\" y=\"85\" text-anchor=\"end\" font-size=\"11\" fill=\"currentColor\">50</text><line x1=\"30\" y1=\"18\" x2=\"34\" y2=\"18\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"27\" y=\"22\" text-anchor=\"end\" font-size=\"11\" fill=\"currentColor\">100</text><text x=\"162\" y=\"175\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">m/z</text><text x=\"40\" y=\"11\" font-size=\"11\" fill=\"currentColor\">상대 존재 비율 / %</text><line x1=\"88.9\" y1=\"144\" x2=\"88.9\" y2=\"128.9\" stroke=\"currentColor\" stroke-width=\"2.4\"/><text x=\"88.9\" y=\"124.9\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"currentColor\">15</text><line x1=\"191.3\" y1=\"144\" x2=\"191.3\" y2=\"18.0\" stroke=\"currentColor\" stroke-width=\"2.4\"/><text x=\"191.3\" y=\"14.0\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"currentColor\">43</text><line x1=\"246.1\" y1=\"144\" x2=\"246.1\" y2=\"112.5\" stroke=\"currentColor\" stroke-width=\"2.4\"/><text x=\"246.1\" y=\"108.5\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"currentColor\">58</text></svg></p><p>m/z 값이 가장 큰 봉우리가 분자 이온이에요. 이 화합물의 상대 분자 질량 M<sub>r</sub>은 얼마인가요?</p>",
       hints: [
         // EN: The molecular ion is the whole molecule with one electron removed. Its mass is the mass of the molecule.
-        "",
+        "분자 이온은 분자 전체에서 전자 하나가 떨어져 나간 것이에요. 그 질량은 분자의 질량과 같아요.",
         // EN: Do not choose the tallest peak. Choose the molecular ion peak, which is the one furthest to the right here.
-        "",
+        "가장 높은 봉우리를 고르지 마세요. 분자 이온 봉우리를 고르세요. 여기서는 가장 오른쪽에 있는 봉우리예요.",
       ],
       // EN: <p>The molecular ion, M<sup>+</sup>, is the whole molecule after it has lost one electron. Its m/z value equals the relative molecular mass.</p><p>The molecular ion peak is at m/z 58, so M<sub>r</sub> = <strong>58</strong>.</p><p>The tallest peak (m/z 43) is a fragment. It is formed when the molecular ion breaks apart. (These are the main peaks of propanone.)</p>
-      solution: "",
+      solution: "<p>분자 이온 M<sup>+</sup>은 분자 전체가 전자 하나를 잃은 것이에요. 그 m/z 값은 상대 분자 질량과 같아요.</p><p>분자 이온 봉우리는 m/z 58에 있으므로 M<sub>r</sub> = <strong>58</strong>이에요.</p><p>가장 높은 봉우리(m/z 43)는 조각이에요. 분자 이온이 쪼개질 때 생겨요. (이것들은 propanone의 주요 봉우리예요.)</p>",
     },
 
     // ── s3-2h-q017 · mcq · foundation · AHL · Structure 3.2.8 · 1 mark
     "s3-2h-q017": {
       // EN: <p>The mass spectrum of propanone has a peak at m/z 15. Which species causes this peak?</p>
-      stem: "",
+      stem: "<p>propanone의 질량 스펙트럼에는 m/z 15에 봉우리가 있어요. 이 봉우리를 만드는 화학종은 무엇인가요?</p>",
       options: [
         // EN: <span class="chem">CH<sub>3</sub><sup>+</sup><span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub><sup>+</sup><span></span></span>",
         // EN: •<span class="chem">CH<sub>3</sub><span></span></span>
-        "",
+        "•<span class=\"chem\">CH<sub>3</sub><span></span></span>",
         // EN: <span class="chem">CH<sub>3</sub><sup>−</sup><span></span></span>
-        "",
+        "<span class=\"chem\">CH<sub>3</sub><sup>−</sup><span></span></span>",
         // EN: <span class="chem">OH<sup>+</sup><span></span></span>
-        "",
+        "<span class=\"chem\">OH<sup>+</sup><span></span></span>",
       ],
       hints: [
         // EN: Which group of atoms has a mass of 15?
-        "",
+        "질량이 15인 원자 무리는 무엇인가요?",
         // EN: What kind of particle does a mass spectrometer detect: neutral, positive or negative?
-        "",
+        "질량 분석기가 검출하는 입자는 어떤 종류인가요? 중성, 양전하, 음전하 중 무엇인가요?",
       ],
       // EN: <p>A methyl group has mass 12 + 3 × 1 = 15. The detector only records positive ions, so the peak at m/z 15 is caused by <span class="chem">CH<sub>3</sub><sup>+</sup><span></span></span>.</p><p>Always write the + charge on a fragment that gives a peak.</p>
-      solution: "",
+      solution: "<p>메틸기의 질량은 12 + 3 × 1 = 15예요. 검출기는 양이온만 기록하므로 m/z 15의 봉우리는 <span class=\"chem\">CH<sub>3</sub><sup>+</sup><span></span></span>가 만들어요.</p><p>봉우리를 만드는 조각에는 항상 + 전하를 쓰세요.</p>",
       misconception: {
         // EN (option B): The formula is right but the charge is missing. A neutral radical is not deflected or detected. Only positive ions give peaks, and markschemes give no mark for a fragment written without its + charge.
         "1": "",
