@@ -1636,8 +1636,8 @@ S1.i18n.register('ko', 's1-3.q', {
         // EN: Check the state symbols and the number of electrons.
         "상태 기호와 전자 수를 확인해요.",
       ],
-      // EN: <p>The first ionization energy is the energy needed to remove one mole of electrons from one mole of gaseous atoms, forming one mole of gaseous 1+ ions:</p><div class="worked__math"><span class="chem">Mg(g) -> Mg+(g) + e-</span></div><p>Both species must have the state symbol (g).</p>
-      solution: "<p>제1 이온화 에너지는 기체 원자 1몰에서 전자 1몰을 떼어 내어 기체 1+ 이온 1몰을 만드는 데 필요한 에너지예요:</p><div class=\"worked__math\"><span class=\"chem\">Mg(g) -> Mg+(g) + e-</span></div><p>두 화학종 모두 상태 기호가 (g)여야 해요.</p>",
+      // EN: <p>The first ionization energy is the minimum energy needed to remove one mole of electrons from one mole of gaseous atoms in their ground state, forming one mole of gaseous 1+ ions:</p><div class="worked__math"><span class="chem">Mg(g) -> Mg+(g) + e-</span></div><p>Both species must have the state symbol (g).</p>
+      solution: "<p>제1 이온화 에너지는 바닥상태에 있는 기체 원자 1몰에서 전자 1몰을 떼어 내어 기체 1+ 이온 1몰을 만드는 데 필요한 최소 에너지예요:</p><div class=\"worked__math\"><span class=\"chem\">Mg(g) -> Mg+(g) + e-</span></div><p>두 화학종 모두 상태 기호가 (g)여야 해요.</p>",
       misconception: {
         // EN (option A): Ionization energy is defined for <em>gaseous</em> atoms. Starting from the solid would include the energy needed to turn the solid into separate atoms.
         "0": "이온화 에너지는 <em>기체</em> 원자에 대해 정의해요. 고체에서 시작하면 고체를 낱낱의 원자로 바꾸는 데 필요한 에너지까지 포함하게 돼요.",

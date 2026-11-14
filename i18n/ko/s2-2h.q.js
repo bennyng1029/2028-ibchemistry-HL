@@ -1042,8 +1042,8 @@ S1.i18n.register('ko', 's2-2h.q', {
 
     // ── s2-2h-q039 · short · challenge · AHL · Structure 2.2.16 · 3 marks
     "s2-2h-q039": {
-      // EN: <p>Hydrogen cyanide has the structure H–C≡N, with one lone pair on nitrogen.</p><p>Analyse the bonding around the carbon atom. State its hybridization and the H–C–N bond angle, and describe how the σ bonds and the π bonds to carbon are formed.</p>
-      stem: "<p>사이안화 수소의 구조는 H–C≡N이고, 질소에 비공유 전자쌍이 1개 있어요.</p><p>탄소 원자 주위의 결합을 분석하시오 (analyse). 탄소의 혼성화와 H–C–N 결합각을 쓰고, 탄소의 σ 결합과 π 결합이 어떻게 만들어지는지 서술하시오 (describe).</p>",
+      // EN: <p>Hydrogen cyanide has the structure H–C≡N, with one lone pair on nitrogen.</p><p>State the hybridization of the carbon atom and the H–C–N bond angle, and describe how the σ bonds and the π bonds to carbon are formed.</p>
+      stem: "<p>사이안화 수소의 구조는 H–C≡N이고, 질소에 비공유 전자쌍이 1개 있어요.</p><p>탄소 원자의 혼성화와 H–C–N 결합각을 쓰고 (state), 탄소의 σ 결합과 π 결합이 어떻게 만들어지는지 서술하시오 (describe).</p>",
       hints: [
         // EN: Count the electron domains around carbon. A triple bond is one domain.
         "탄소 주위의 전자 영역을 세어 보세요. 삼중 결합은 영역 1개예요.",

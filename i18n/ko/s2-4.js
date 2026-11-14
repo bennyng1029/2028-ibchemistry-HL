@@ -128,12 +128,6 @@ S1.i18n.register('ko', 's2-4', {
     // Bonding is a continuum > data-def attribute
     "A diagram with ionic, covalent and metallic bonding at its three corners. A substance is placed on it using the electronegativities of its two elements.": "세 꼭짓점에 이온 결합, 공유 결합, 금속 결합이 있는 그림. 물질은 두 원소의 전기 음성도로 그림 위에 위치가 정해져요.",
 
-    // Bonding is a continuum > p
-    "Remember that <dfn data-def=\"A measure of how strongly an atom attracts the shared pair of electrons in a covalent bond.\">electronegativity</dfn>, symbol <i>χ</i>, measures how strongly an atom attracts a shared pair of electrons.": "<dfn data-def=\"공유 결합에서 원자가 공유 전자쌍을 얼마나 세게 끌어당기는지 나타내는 척도.\">전기 음성도 <span class=\"en-term\">(electronegativity)</span></dfn>(기호 <i>χ</i>)는 원자가 공유 전자쌍을 얼마나 세게 끌어당기는지 나타낸다는 것을 기억하세요.",
-
-    // Bonding is a continuum > data-def attribute
-    "A measure of how strongly an atom attracts the shared pair of electrons in a covalent bond.": "공유 결합에서 원자가 공유 전자쌍을 얼마나 세게 끌어당기는지 나타내는 척도.",
-
     // Bonding is a continuum > widget > data-title attribute
     "A map of bonding": "결합의 지도",
 
@@ -400,9 +394,6 @@ S1.i18n.register('ko', 's2-4', {
 
     // Placing a compound in the bonding triangle > table > td
     "Shared electron pairs": "공유 전자쌍",
-
-    // Placing a compound in the bonding triangle > table > td
-    "Does not conduct in any state. Low melting point if it is made of molecules. Very high melting point if it is a covalent network.": "어떤 상태에서도 전기가 통하지 않아요. 분자로 되어 있으면 녹는점이 낮아요. 공유 결정이면 녹는점이 매우 높아요.",
 
     // Placing a compound in the bonding triangle > table > td
     "Cations and delocalized electrons": "양이온과 비편재화된 전자",
@@ -823,14 +814,8 @@ S1.i18n.register('ko', 's2-4', {
     // Condensation polymers > Additional HL > p
     "Imagine a line of people where each person must take off a glove before shaking hands with a neighbour. A chain forms, and a pile of gloves is left over. In a condensation polymer, the “glove” is a small molecule, usually water.": "사람들이 한 줄로 서 있는데, 이웃과 악수하기 전에 각자 장갑을 하나씩 벗어야 한다고 상상해 보세요. 사슬이 만들어지고 장갑 더미가 남아요. 축합 중합체에서 “장갑”은 작은 분자이고, 대개 물이에요.",
 
-    // Condensation polymers > Additional HL > p
-    "A <dfn data-def=\"A polymer formed when functional groups on the monomers react together. A small molecule, usually water, is released each time a link forms.\">condensation polymer</dfn> forms when functional groups on the monomers react with each other. Each time two monomers join, a small molecule is released. A <dfn data-def=\"A group of atoms in a molecule that gives the molecule its typical reactions, such as –OH or –COOH.\">functional group</dfn> is a group of atoms that gives a molecule its typical reactions.": "<dfn data-def=\"단위체의 작용기끼리 반응해 만들어지는 고분자. 결합이 하나 생길 때마다 작은 분자(대개 물)가 떨어져 나와요.\">축합 중합체 <span class=\"en-term\">(condensation polymer)</span></dfn>는 단위체의 작용기끼리 반응해서 만들어져요. 단위체 두 개가 결합할 때마다 작은 분자가 하나 떨어져 나와요. <dfn data-def=\"분자 속에서 그 분자의 대표적인 반응을 결정하는 원자 묶음. 예: –OH, –COOH.\">작용기 <span class=\"en-term\">(functional group)</span></dfn>는 분자의 대표적인 반응을 결정하는 원자 묶음이에요.",
-
     // Condensation polymers > Additional HL > data-def attribute
     "A polymer formed when functional groups on the monomers react together. A small molecule, usually water, is released each time a link forms.": "단위체의 작용기끼리 반응해 만들어지는 고분자. 결합이 하나 생길 때마다 작은 분자(대개 물)가 떨어져 나와요.",
-
-    // Condensation polymers > Additional HL > data-def attribute
-    "A group of atoms in a molecule that gives the molecule its typical reactions, such as –OH or –COOH.": "분자 속에서 그 분자의 대표적인 반응을 결정하는 원자 묶음. 예: –OH, –COOH.",
 
     // Condensation polymers > Additional HL > p
     "Each monomer needs <strong>two</strong> functional groups, so that it can join to a neighbour on both sides. You need two kinds of condensation polymer.": "양쪽의 이웃과 결합할 수 있도록 각 단위체에는 작용기가 <strong>2개</strong> 있어야 해요. 알아야 할 축합 중합체는 두 종류예요.",
@@ -1181,9 +1166,6 @@ S1.i18n.register('ko', 's2-4', {
     // Linking it up > p
     "Most plastics have a backbone of carbon atoms joined by strong, non-polar bonds. Water and microorganisms cannot break these bonds easily. A biodegradable plastic has other groups of atoms in its backbone, such as ester links, which can react with water. The chain then breaks into small molecules. You will meet these groups in Structure 3.2.": "대부분의 플라스틱은 강한 무극성 결합으로 연결된 탄소 원자 주사슬을 가지고 있어요. 물과 미생물은 이 결합을 쉽게 끊지 못해요. 생분해성 플라스틱은 주사슬에 에스터 결합처럼 물과 반응할 수 있는 다른 원자 묶음을 가지고 있어요. 그러면 사슬이 작은 분자로 끊어져요. 이런 원자 묶음은 Structure 3.2에서 배워요.",
 
-    // Linking it up > Additional HL > p
-    "Ester and amide links are found in condensation polymers. They are broken by hydrolysis. So some polyesters and polyamides can be broken down in the environment, but addition polymers cannot.": "에스터 결합과 아마이드 결합은 축합 중합체에 있어요. 이 결합은 가수 분해로 끊어져요. 그래서 일부 폴리에스터와 폴리아마이드는 환경에서 분해될 수 있지만, 첨가 중합체는 분해되지 않아요.",
-
     // Exam-style practice > data-toc attribute
     // Exam-style practice > h2
     "Exam-style practice": "시험 유형 연습",
@@ -1310,9 +1292,6 @@ S1.i18n.register('ko', 's2-4', {
 
     // widget string (assets/js/widgets-s2-4.js)
     "The metallic model fits best. Expect a solid that conducts electricity and heat well and is malleable.": "금속 결합 모형이 가장 잘 맞아요. 전기와 열이 잘 통하고 펴짐성이 있는 고체일 거예요.",
-
-    // widget string (assets/js/widgets-s2-4.js)
-    "The covalent model fits best, and the bonds are non-polar (Δχ = 0). Expect a poor electrical conductor. The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).": "공유 결합 모형이 가장 잘 맞고, 결합은 무극성이에요(Δχ = 0). 전기가 잘 통하지 않을 거예요. 이 물질이 분자로 되어 있는지(녹는점이 낮음), 공유 결정인지(녹는점이 매우 높음)는 삼각형으로 알 수 없어요.",
 
     // widget string (assets/js/widgets-s2-4.js)
     "The covalent model fits best. The bonds are polar, and more polar the higher the point sits. Expect a poor electrical conductor in every state. The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).": "공유 결합 모형이 가장 잘 맞아요. 결합에 극성이 있고, 점이 높이 있을수록 극성이 커요. 어떤 상태에서도 전기가 잘 통하지 않을 거예요. 이 물질이 분자로 되어 있는지(녹는점이 낮음), 공유 결정인지(녹는점이 매우 높음)는 삼각형으로 알 수 없어요.",
@@ -1463,9 +1442,6 @@ S1.i18n.register('ko', 's2-4', {
 
     // widget string (assets/js/widgets-s2-4.js)
     "Does not react with water, air, acids or alkalis": "물, 공기, 산, 알칼리와 반응하지 않음",
-
-    // widget string (assets/js/widgets-s2-4.js)
-    "The chains are held together by strong covalent bonds, which take a lot of energy to break. So the polymer is chemically unreactive (inert).": "사슬은 강한 공유 결합으로 이루어져 있고, 이 결합을 끊으려면 많은 에너지가 필요해요. 그래서 고분자는 화학적으로 반응성이 작아요(비활성).",
 
     // widget string (assets/js/widgets-s2-4.js)
     "The chains are made mostly of light atoms such as carbon and hydrogen, and long chains do not pack tightly.": "사슬은 주로 탄소, 수소처럼 가벼운 원자로 되어 있고, 긴 사슬은 빽빽하게 쌓이지 않아요.",
@@ -1730,6 +1706,37 @@ S1.i18n.register('ko', 's2-4', {
 
     // widget string (assets/js/widgets-s2-4.js)
     "Hydrolysis: the linked molecule and one water molecule give back the two monomers. The atoms that came from water are outlined.": "가수 분해: 이어진 분자와 물 분자 1개가 반응해 두 단위체로 돌아가요. 물에서 온 원자에 테두리가 쳐져 있어요.",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('ko', 's2-4', {
+  strings: {
+
+    // Bonding is a continuum > p
+    "Remember that <dfn data-def=\"The relative ability of an atom to attract a shared pair of electrons in a covalent bond.\">electronegativity</dfn>, symbol <i>χ</i>, measures how strongly an atom attracts a shared pair of electrons.": "<dfn data-def=\"공유 결합에서 원자가 공유 전자쌍을 끌어당기는 상대적인 능력.\">전기 음성도 <span class=\"en-term\">(electronegativity)</span></dfn>(기호 <i>χ</i>)는 원자가 공유 전자쌍을 얼마나 세게 끌어당기는지 나타낸다는 것을 기억하세요.",
+
+    // Bonding is a continuum > data-def attribute
+    "The relative ability of an atom to attract a shared pair of electrons in a covalent bond.": "공유 결합에서 원자가 공유 전자쌍을 끌어당기는 상대적인 능력.",
+
+    // Placing a compound in the bonding triangle > table > td
+    "Does not conduct in any state (graphite and graphene are the exceptions). Low melting point if it is made of molecules. Very high melting point if it is a covalent network.": "어떤 상태에서도 전기가 통하지 않아요(흑연과 그래핀은 예외예요). 분자로 되어 있으면 녹는점이 낮아요. 공유 결정이면 녹는점이 매우 높아요.",
+
+    // Condensation polymers > Additional HL > p
+    "A <dfn data-def=\"A polymer formed when functional groups on the monomers react together. A small molecule, usually water, is released each time a link forms.\">condensation polymer</dfn> forms when functional groups on the monomers react with each other. Each time two monomers join, a small molecule is released. A <dfn data-def=\"An atom or group of atoms that gives a compound its characteristic physical and chemical properties, such as –OH or –COOH.\">functional group</dfn> is an atom or group of atoms that gives a compound its characteristic physical and chemical properties.": "<dfn data-def=\"단위체의 작용기끼리 반응해 만들어지는 고분자. 결합이 하나 생길 때마다 작은 분자(대개 물)가 떨어져 나와요.\">축합 중합체 <span class=\"en-term\">(condensation polymer)</span></dfn>는 단위체의 작용기끼리 반응해서 만들어져요. 단위체 두 개가 결합할 때마다 작은 분자가 하나 떨어져 나와요. <dfn data-def=\"화합물에 특유의 물리적·화학적 성질을 주는 원자 또는 원자 묶음. 예: –OH, –COOH.\">작용기 <span class=\"en-term\">(functional group)</span></dfn>는 화합물에 특유의 물리적·화학적 성질을 주는 원자 또는 원자 묶음이에요.",
+
+    // Condensation polymers > Additional HL > data-def attribute
+    "An atom or group of atoms that gives a compound its characteristic physical and chemical properties, such as –OH or –COOH.": "화합물에 특유의 물리적·화학적 성질을 주는 원자 또는 원자 묶음. 예: –OH, –COOH.",
+
+    // Linking it up > Additional HL > p
+    "Ester and amide links are found in condensation polymers. They are broken by hydrolysis. So some polyesters and polyamides can be broken down in the environment by hydrolysis. Addition polymers have no such links, so they break down only very slowly.": "에스터 결합과 아마이드 결합은 축합 중합체에 있어요. 이 결합은 가수 분해로 끊어져요. 그래서 일부 폴리에스터와 폴리아마이드는 환경 속에서 가수 분해될 수 있어요. 첨가 중합체에는 이런 결합이 없어서 아주 느리게만 분해돼요.",
+
+    // widget string (assets/js/widgets-s2-4.js)
+    "The covalent model fits best, and the bonds are non-polar (Δχ = 0). Expect a poor electrical conductor (graphite and graphene are exceptions). The triangle cannot tell you if the substance is made of molecules (low melting point) or is a covalent network (very high melting point).": "공유 결합 모형이 가장 잘 맞고, 결합은 무극성이에요(Δχ = 0). 전기가 잘 통하지 않을 거예요(흑연과 그래핀은 예외예요). 이 물질이 분자로 되어 있는지(녹는점이 낮음), 공유 결정인지(녹는점이 매우 높음)는 삼각형으로 알 수 없어요.",
+
+    // widget string (assets/js/widgets-s2-4.js)
+    "The atoms in each chain are joined by strong covalent bonds, which take a lot of energy to break. So the polymer is chemically unreactive (inert).": "각 사슬의 원자들은 강한 공유 결합으로 연결되어 있고, 이 결합을 끊으려면 많은 에너지가 필요해요. 그래서 고분자는 화학적으로 반응성이 작아요(비활성).",
 
   }
 });

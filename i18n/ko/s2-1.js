@@ -313,12 +313,6 @@ S1.i18n.register('ko', 's2-1', {
     "Ionic bonding is expected between a metal and a non-metal. The metal atoms lose electrons and the non-metal atoms gain them.": "이온 결합은 금속과 비금속 사이에서 생길 것으로 예상해요. 금속 원자는 전자를 잃고 비금속 원자는 전자를 얻어요.",
 
     // The ionic bond > p
-    "A better test uses electronegativity. <dfn data-def=\"A measure of how strongly an atom attracts the pair of electrons in a covalent bond.\">Electronegativity</dfn> is a measure of how strongly an atom attracts the electrons in a bond. Metals have low values. Non-metals on the right of the periodic table have high values.": "전기 음성도를 쓰면 더 정확하게 판단할 수 있어요. <dfn data-def=\"공유 결합에서 원자가 공유 전자쌍을 얼마나 세게 끌어당기는지를 나타내는 척도.\">전기 음성도 <span class=\"en-term\">(electronegativity)</span></dfn>는 원자가 결합 속 전자를 얼마나 세게 끌어당기는지를 나타내는 척도예요. 금속은 값이 작아요. 주기율표 오른쪽의 비금속은 값이 커요.",
-
-    // The ionic bond > data-def attribute
-    "A measure of how strongly an atom attracts the pair of electrons in a covalent bond.": "공유 결합에서 원자가 공유 전자쌍을 얼마나 세게 끌어당기는지를 나타내는 척도.",
-
-    // The ionic bond > p
     "If the difference in electronegativity between two elements is large, one atom takes the electrons completely and ions form. Sodium is 0.9 and chlorine is 3.2. The difference is 3.2 − 0.9 = 2.3, which is large, so sodium chloride is ionic.": "두 원소의 전기 음성도 차이가 크면, 한 원자가 전자를 완전히 가져가서 이온이 만들어져요. 나트륨은 0.9, 염소는 3.2예요. 차이는 3.2 − 0.9 = 2.3으로 크기 때문에, 염화 나트륨은 이온 결합 화합물이에요.",
 
     // The ionic bond > data booklet note > p
@@ -1868,6 +1862,19 @@ S1.i18n.register('ko', 's2-1', {
 
     // widget string (assets/js/widgets-s2-1.js)
     "hydroxide ion, {f}": "수산화 이온, {f}",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('ko', 's2-1', {
+  strings: {
+
+    // The ionic bond > p
+    "A better test uses electronegativity. <dfn data-def=\"The relative ability of an atom to attract a shared pair of electrons in a covalent bond.\">Electronegativity</dfn> is the relative ability of an atom to attract a shared pair of electrons in a covalent bond. Metals have low values. Non-metals on the right of the periodic table have high values.": "전기 음성도를 쓰면 더 정확하게 판단할 수 있어요. <dfn data-def=\"공유 결합에서 원자가 공유 전자쌍을 끌어당기는 상대적인 능력.\">전기 음성도 <span class=\"en-term\">(electronegativity)</span></dfn>는 공유 결합에서 원자가 공유 전자쌍을 끌어당기는 상대적인 능력이에요. 금속은 값이 작아요. 주기율표 오른쪽의 비금속은 값이 커요.",
+
+    // The ionic bond > data-def attribute
+    "The relative ability of an atom to attract a shared pair of electrons in a covalent bond.": "공유 결합에서 원자가 공유 전자쌍을 끌어당기는 상대적인 능력.",
 
   }
 });

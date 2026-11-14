@@ -1116,9 +1116,6 @@ S1.i18n.register('ko', 's1-1', {
     // Linking it up > h3
     "Why are alloys generally considered to be mixtures, even though they often contain metallic bonding?": "합금에는 금속 결합이 있는 경우가 많은데도 왜 보통 혼합물로 여길까요?",
 
-    // Linking it up > p
-    "An alloy does not have a fixed ratio of elements. Brass can be made with different proportions of copper and zinc. A compound always has a fixed ratio. The full picture of bonding in alloys comes in Structure 2.3.": "합금은 원소의 비율이 일정하지 않아요. 황동은 구리와 아연의 비율을 여러 가지로 해서 만들 수 있어요. 화합물은 항상 비율이 일정해요. 합금의 결합에 대한 전체적인 내용은 Structure 2.3에서 나와요.",
-
     // Linking it up > h3
     "Why are some changes of state endothermic and some exothermic?": "왜 어떤 상태 변화는 흡열이고 어떤 상태 변화는 발열일까요?",
 
@@ -1824,6 +1821,16 @@ S1.i18n.register('ko', 's1-1', {
 
     // widget string (assets/js/widgets-s1-1.js)
     "<strong>{name}</strong>: {text}": "<strong>{name}</strong>: {text}",
+
+  }
+});
+
+/* Added by i18n-extract --only-missing on 2026-11-14: new or changed English. */
+S1.i18n.register('ko', 's1-1', {
+  strings: {
+
+    // Linking it up > p
+    "An alloy does not have a fixed ratio of elements. Brass can be made with different proportions of copper and zinc. A compound always has a fixed ratio. Metallic bonding is explained in Structure 2.3, and alloys in Structure 2.4.": "합금은 원소의 비율이 일정하지 않아요. 황동은 구리와 아연의 비율을 여러 가지로 해서 만들 수 있어요. 화합물은 항상 비율이 일정해요. 금속 결합은 Structure 2.3에서, 합금은 Structure 2.4에서 설명해요.",
 
   }
 });
